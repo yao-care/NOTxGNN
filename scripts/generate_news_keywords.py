@@ -209,12 +209,12 @@ def main():
     # 載入資料
     search_index = load_json(DOCS_DATA_DIR / "search-index.json")
     drugs_data = load_json(DOCS_DATA_DIR / "drugs.json")
-    fda_data = load_json(DATA_DIR / "raw" / "tw_fda_drugs.json")
+    fda_data = load_json(DATA_DIR / "raw" / "no_fda_drugs.json")
     synonyms = load_synonyms(DATA_DIR / "news" / "synonyms.json")
 
     print(f"  - search-index.json: {search_index.get('drug_count', 0)} 藥物")
     print(f"  - drugs.json: {drugs_data.get('total_count', 0)} 藥物")
-    print(f"  - tw_fda_drugs.json: {len(fda_data)} 筆 FDA 資料")
+    print(f"  - no_fda_drugs.json: {len(fda_data)} 筆 FDA 資料")
     print(f"  - synonyms.json: {len(synonyms.get('indication_synonyms', {}))} 適應症同義詞")
 
     # 建立藥物關鍵字清單
