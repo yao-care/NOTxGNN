@@ -68,8 +68,10 @@ def main():
 
     # 4. 適應症映射
     print("步驟 4/5: 映射適應症到疾病...")
-    indication_field = config["field_mapping"].get("indication", "")
-    indication_mapping = map_fda_indications_to_diseases(active, indication_field=indication_field)
+    indication_mapping = map_fda_indications_to_diseases(active)
+    # 對齊 license_id 欄位名稱
+    if len(indication_mapping) > 0 and indication_mapping.columns[0] != 'license_id':
+        indication_mapping = indication_mapping.rename(columns={indication_mapping.columns[0]: 'license_id'})
     indication_mapping.to_csv(processed_dir / "indication_mapping.csv", index=False)
     if len(indication_mapping) > 0 and 'disease_id' in indication_mapping.columns:
         ind_stats = get_indication_mapping_stats(indication_mapping)

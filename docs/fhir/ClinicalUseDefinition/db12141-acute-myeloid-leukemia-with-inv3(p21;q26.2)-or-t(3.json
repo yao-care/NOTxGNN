@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db12141-acute-myeloid-leukemia-with-inv3(p21;q26.2)-or-t(3;3)(p21;q26.2)",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db12141"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "acute myeloid leukemia with inv3(p21;q26.2) or t(3;3)(p21;q26.2)"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.5
+    }
+  ]
+}

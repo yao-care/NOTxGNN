@@ -35,12 +35,15 @@ def build_drug_indication_map(relations_df: pd.DataFrame) -> Dict[str, Set[str]]
 
     drug_map = {}
     for _, row in indications.iterrows():
-        drug = row["x_name"].upper()
+        drug_id = row["x_id"]  # DrugBank ID
+        drug_name = row["x_name"].upper()
         disease = row["y_name"]
 
-        if drug not in drug_map:
-            drug_map[drug] = set()
-        drug_map[drug].add(disease)
+        # 用 DrugBank ID 和藥名同時建索引
+        for key in [drug_id, drug_name]:
+            if key not in drug_map:
+                drug_map[key] = set()
+            drug_map[key].add(disease)
 
     return drug_map
 
@@ -99,8 +102,11 @@ def find_repurposing_candidates(
         license_no = row[drug_license_col]
         drug_name = row[ingredient_col]
 
-        # 查詢 TxGNN 中該藥物的所有適應症
-        kg_diseases = kg_drug_map.get(drug_name, set())
+        # 查詢 TxGNN 中該藥物的所有適應症（優先用 DrugBank ID）
+        dbid = row["drugbank_id"]
+        kg_diseases = kg_drug_map.get(dbid, set())
+        if not kg_diseases:
+            kg_diseases = kg_drug_map.get(drug_name.upper(), set())
         if not kg_diseases:
             continue
 

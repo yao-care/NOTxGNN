@@ -311,7 +311,6 @@ def map_indication_to_disease(
 def map_fda_indications_to_diseases(
     fda_df: pd.DataFrame,
     disease_df: Optional[pd.DataFrame] = None,
-    indication_field: str = "CLASSE_TERAPEUTICA",
 ) -> pd.DataFrame:
     """將巴西 ANVISA 藥品治療類別映射到 TxGNN 疾病"""
     if disease_df is None:
@@ -323,7 +322,7 @@ def map_fda_indications_to_diseases(
 
     for _, row in fda_df.iterrows():
         # ANVISA 使用 CLASSE_TERAPEUTICA 而非適應症
-        indication_str = row.get(indication_field, "")
+        indication_str = row.get("CLASSE_TERAPEUTICA", "")
         if not indication_str:
             continue
 
