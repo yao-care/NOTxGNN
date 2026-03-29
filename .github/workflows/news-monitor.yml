@@ -1,0 +1,59 @@
+name: Health News Monitor
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Every hour
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install feedparser requests beautifulsoup4 lxml
+
+      # Step 1: Ensure keywords.json exists
+      - name: Check keywords.json
+        run: |
+          if [ ! -f data/news/keywords.json ]; then
+            echo "Generating keywords..."
+            python scripts/generate_news_keywords.py
+          fi
+
+      # Step 2: Run fetchers (TODO: add local fetcher for Norway)
+      - name: Fetch from all sources (parallel)
+        run: |
+          python scripts/fetchers/google_rss.py &
+          # TODO: Add Norway-specific news fetcher here
+          # python scripts/fetchers/no_news.py &
+          wait
+
+      # Step 3: Process and generate pages
+      - name: Process and generate pages
+        run: python scripts/process_news.py
+
+      # Step 4: Commit changes
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+
+          git add data/news/*.json docs/_news/ docs/data/news-index.json
+
+          if git diff --staged --quiet; then
+            echo "No news updates"
+          else
+            git commit -m "Update health news $(date +%Y-%m-%d-%H%M)"
+            git push
+          fi

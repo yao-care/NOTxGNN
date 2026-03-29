@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db00987-acute-myeloid-leukemia-and-myelodysplastic-syndromes-related-to-topoisomerase-type-2-inhibitor",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db00987"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "acute myeloid leukemia and myelodysplastic syndromes related to topoisomerase type 2 inhibitor"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.5
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+# Norway DMP / EMA Field Mapping Configuration
+
+country_code: "NO"
+language: "no"
+regulatory_agency: "DMP"
+
+data_source:
+  name: "EMA Medicines Data (proxy for Norwegian-authorized medicines)"
+  url: "https://www.ema.europa.eu/en/medicines/download-medicine-data"
+  format: Excel
+  encoding: utf-8
+  note: >
+    FEST 僅提供 SOAP/WCF web service，無穩定批量下載。
+    使用 EMA 資料作為替代。EMA Medicines Report 包含集中授權程序的藥品，
+    在所有 EU/EEA 成員國（含挪威）有效。
+    Legemiddelverket 已更名為 DMP (2024-01)。
+
+  # 下載 URL (按優先順序)
+  download_urls:
+    - name: "EMA Medicines Report (集中授權藥品)"
+      url: "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx"
+    - name: "EMA Article 57 Product Data (全 EEA 已授權藥品)"
+      url: "https://www.ema.europa.eu/en/documents/other/article-57-product-data_en.xlsx"
+
+  # DMP/FEST 參考資源 (SOAP service)
+  fest_service: "https://fest.legemiddelverket.no/Fest/FestService251.svc"
+  fest_info: "https://www.dmp.no/om-oss/distribusjon-av-legemiddeldata/fest"
+  legemiddelsok: "https://www.legemiddelsok.no/"
+
+field_mapping:
+  # EMA Medicines Report 欄位（2026-03 實測 header=8 後的實際欄位名稱）
+  license_id: "EMA product number"
+  brand_name_local: "Name of medicine"
+  brand_name_en: "Active substance"
+  ingredients: "Active substance"
+  indication: "Therapeutic area (MeSH)"
+  dosage_form: ""
+  manufacturer: "Marketing authorisation developer / applicant / holder"
+  approval_date: "Marketing authorisation date"
+  status: "Medicine status"
+
+withdrawn_statuses:
+  # EMA Medicines Report 狀態值
+  - "Withdrawn"
+  - "Suspended"
+  - "Refused"
+  - "Application withdrawn"
+  - "Lapsed"
+  - "Expired"
+  - "Revoked"
+  - "Withdrawn from rolling review"
+  # 挪威語狀態 (若使用 FEST 資料)
+  - "Trukket"
+  - "Suspendert"
+  - "Utgått"
+
+ingredient_separator: ","
+date_format: "%d/%m/%Y"
+encoding: "utf-8"

@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db12498-primary-cutaneous-cd4+-small-medium-sized-pleomorphic-t-cell-lymphoma",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db12498"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "primary cutaneous CD4+ small/medium-sized pleomorphic T-cell lymphoma"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.5
+    }
+  ]
+}

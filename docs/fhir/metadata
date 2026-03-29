@@ -1,0 +1,46 @@
+{
+  "resourceType": "CapabilityStatement",
+  "id": "notxgnn-fhir-server",
+  "url": "https://notxgnn.yao.care/fhir/metadata",
+  "version": "1.0.0",
+  "name": "NOTxGNNFHIRServer",
+  "title": "NOTxGNN FHIR Server - Norway Drug Repurposing",
+  "description": "FHIR R4 server for Norway TxGNN drug repurposing predictions",
+  "status": "active",
+  "date": "2026-03-29",
+  "publisher": "TxGNN Project",
+  "kind": "instance",
+  "fhirVersion": "4.0.1",
+  "format": [
+    "json"
+  ],
+  "rest": [
+    {
+      "mode": "server",
+      "resource": [
+        {
+          "type": "MedicationKnowledge",
+          "interaction": [
+            {
+              "code": "read"
+            },
+            {
+              "code": "search-type"
+            }
+          ]
+        },
+        {
+          "type": "ClinicalUseDefinition",
+          "interaction": [
+            {
+              "code": "read"
+            },
+            {
+              "code": "search-type"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

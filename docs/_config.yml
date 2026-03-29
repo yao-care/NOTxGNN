@@ -1,0 +1,111 @@
+title: NOTxGNN - Drug Repurposing
+description: Norway DMP-approved Drug Repurposing predictions powered by TxGNN
+remote_theme: just-the-docs/just-the-docs
+url: https://notxgnn.yao.care
+baseurl: ""
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# RSS Feed
+feed:
+  path: feed.xml
+  collections:
+    drugs:
+      path: "/drugs/feed.xml"
+
+# Open Graph
+og_image: /assets/images/og-default.png
+
+# Twitter Card
+twitter:
+  card: summary_large_image
+
+# Author (E-E-A-T)
+author:
+  name: NOTxGNN Team
+  url: https://notxgnn.yao.care/about/
+
+# Allow future-dated posts
+future: true
+
+# Kramdown - disable SmartyPants for correct table rendering
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+  typographic_symbols:
+    ndash: "--"
+    mdash: "---"
+
+# Navigation
+nav_sort: case_insensitive
+
+# Search
+search_enabled: true
+search:
+  heading_level: 3
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# Footer (YMYL disclaimer)
+footer_content: "Copyright &copy; 2026 Yao.Care. This report is for research purposes only and does not constitute medical advice."
+
+# Color scheme
+color_scheme: light
+
+# Auxiliary navigation
+aux_links:
+  "GitHub":
+    - "https://github.com/yao-care/NOTxGNN"
+
+# External navigation
+nav_external_links:
+  - title: Home
+    url: /
+    hide_icon: false
+
+# Back to top
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Collections
+collections:
+  drugs:
+    output: true
+    permalink: /drugs/:name/
+  news:
+    output: true
+    permalink: /news/:name/
+
+defaults:
+  - scope:
+      path: "_drugs"
+      type: "drugs"
+    values:
+      layout: "default"
+      nav_exclude: false
+  - scope:
+      path: "_news"
+      type: "news"
+    values:
+      layout: "default"
+      nav_exclude: true
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "default"
+      nav_exclude: true

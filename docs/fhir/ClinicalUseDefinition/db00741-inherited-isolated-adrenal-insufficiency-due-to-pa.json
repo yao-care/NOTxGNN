@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db00741-inherited-isolated-adrenal-insufficiency-due-to-partial-cyp11a1-deficiency",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db00741"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "inherited isolated adrenal insufficiency due to partial CYP11A1 deficiency"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.5
+    }
+  ]
+}

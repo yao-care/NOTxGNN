@@ -1,0 +1,22 @@
+{
+  "description": "Disease and drug synonyms in Norwegian",
+  "generated": "2026-03-29",
+  "indication_synonyms": {
+    "diabetes mellitus": ["diabetes", "sukkersyke", "type 2 diabetes", "type 1 diabetes"],
+    "hypertension": ["høyt blodtrykk", "hypertensjon", "forhøyet blodtrykk"],
+    "cancer": ["kreft", "svulst", "tumor", "onkologi"],
+    "heart disease": ["hjertesykdom", "hjertesvikt", "hjerte- og karsykdom"],
+    "asthma": ["astma", "bronkialastma"],
+    "depression": ["depresjon", "depressiv lidelse", "alvorlig depresjon"],
+    "arthritis": ["leddgikt", "revmatoid artritt", "artrose"],
+    "stroke": ["hjerneslag", "slag"],
+    "obesity": ["fedme", "overvekt", "metabolsk syndrom"],
+    "alzheimer disease": ["Alzheimer", "Alzheimers sykdom", "demens"]
+  },
+  "drug_synonyms": {
+    "metformin": ["metformin", "Glucophage"],
+    "aspirin": ["aspirin", "acetylsalisylsyre"],
+    "ibuprofen": ["ibuprofen", "Ibux"],
+    "acetaminophen": ["paracetamol", "Paracet", "Panodil"]
+  }
+}
