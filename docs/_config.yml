@@ -1,4 +1,5 @@
 title: NOTxGNN - Drug Repurposing
+lang: "no"
 description: Norway DMP-approved Drug Repurposing predictions powered by TxGNN
 remote_theme: just-the-docs/just-the-docs
 url: https://notxgnn.yao.care

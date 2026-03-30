@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Drug Repurposing Predictions
+title: "Prediksjoner for Legemiddelreposisjonering \u2014 Norge"
 nav_order: 1
 description: "AI-powered drug repurposing predictions for Norway. Evidence-based analysis of approved medicines for potential new therapeutic indications."
 permalink: /
