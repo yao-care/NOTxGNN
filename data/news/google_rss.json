@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-01T17:56:43.680285+00:00",
+  "fetched_at": "2026-04-01T19:13:38.129574+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,23 +24,13 @@
       }
     },
     {
-      "id": "31570a4c7467",
-      "title": "Vitusapotek vant en av Norges største multidosekontrakter! - NTB Kommunikasjon",
+      "id": "0232cf022b2b",
+      "title": "Vitusapotek vant en av Norges største multidosekontrakter! - kommunikasjon.ntb.no",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUEpIU0p2WUM1UGw0b3QtZnZwTk1BQTRNbTl1Q01zZU9NT2RWLTFPcDJRcU13aVZCdk5DMTFlZC12VGNyc2xCc3FmWGpUNGU1V242WkU0RTBkZ1dxSWFtRVU3OTBKRWY3MksxVnVqd2lnZUM4M0txelR6dTEzNVVDaDcyejQzN3g4enBwWG0tTVBJcjdhd3VkUlZDYTU3ZXFQanM1ZUs1b3BibzBYWTZYTTctQURQaW1YLTgzVFVvVTd0QTU3SVZoa1lRNUJMNGFwRFlxZw?oc=5",
       "published": "2026-03-30T06:00:00+00:00",
       "source": {
-        "name": "NTB Kommunikasjon",
+        "name": "kommunikasjon.ntb.no",
         "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
-      "id": "72e9c3775e9d",
-      "title": "Eli Lilly setter priskrav for å gjenoppta investeringer i Storbritannia - medwatch.no",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XSzhxbmpNeTk0c2lxTi1UaE43OE42bWI4UVVaUlRsSVNnakIzNlZ5UzhQQ3Q2LUxyZXhYamlUeTU5UkdhTU1ZRGRJMDVZcWhjdDU5V1lsMU9NLXFuWkpWSG5PYVFBZnp4QVExaVFndUM2VDQ?oc=5",
-      "published": "2026-04-01T05:45:05+00:00",
-      "source": {
-        "name": "medwatch.no",
-        "url": "https://medwatch.no"
       }
     },
     {
@@ -51,6 +41,16 @@
       "source": {
         "name": "Sol",
         "url": "https://sol.no"
+      }
+    },
+    {
+      "id": "72e9c3775e9d",
+      "title": "Eli Lilly setter priskrav for å gjenoppta investeringer i Storbritannia - medwatch.no",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XSzhxbmpNeTk0c2lxTi1UaE43OE42bWI4UVVaUlRsSVNnakIzNlZ5UzhQQ3Q2LUxyZXhYamlUeTU5UkdhTU1ZRGRJMDVZcWhjdDU5V1lsMU9NLXFuWkpWSG5PYVFBZnp4QVExaVFndUM2VDQ?oc=5",
+      "published": "2026-04-01T05:45:05+00:00",
+      "source": {
+        "name": "medwatch.no",
+        "url": "https://medwatch.no"
       }
     },
     {
@@ -124,12 +124,12 @@
       }
     },
     {
-      "id": "42e2f2d5ec6f",
-      "title": "Ingrid (29) fikk feil medisin av vikarlegen: – En alvorlig feil - Bergens Tidende",
+      "id": "24076dcfef87",
+      "title": "Ingrid (29) fikk feil medisin av vikarlegen: – En alvorlig feil - bt.no",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPT1VWR0xnV21yX3pRSHVSYlRNX3RoNWJiSlJsaVVnOHBLSDdfWjVHYXdxSEhUbnlOLWdoSjg4N3o2QktqMjJfaHpkcHladm83ckxhTnFhYldkdWFrRS13SWtQTzNiazlZRG1VLU9FWW1KUDctWDZCUGtPS0dabXg2c2thQ0VYdw?oc=5",
       "published": "2026-03-13T07:00:00+00:00",
       "source": {
-        "name": "Bergens Tidende",
+        "name": "bt.no",
         "url": "https://www.bt.no"
       }
     },
@@ -174,12 +174,12 @@
       }
     },
     {
-      "id": "614743f9cafe",
-      "title": "I disse fylkene bruker de mest legemidler - NTB Kommunikasjon",
+      "id": "eedfa98cadaa",
+      "title": "I disse fylkene bruker de mest legemidler - kommunikasjon.ntb.no",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYmlkLUY1UFFJVUlzcmtnaV9DblNXaTBIcWYzZzFTVGZRblBhYVAteVF4Q3h5Ym9jMUVzQVlWbk9rcFB5TUhQX2RwWkZ2NVVpTXh5VHZNRlZFbm5uY0JwX1VNWDVweWE1Q2o0SlpSOElWb0RBc0hGRVpGRzIzTEEtRWlJMGxxd3dEWnpVTGhvWVRTWWkybDMwdFJIUXlGV0NkM01vY3l5MzVmNU5OVkxJUWhXVWx3QlNKeGhYUEdfSQ?oc=5",
       "published": "2026-02-24T08:00:00+00:00",
       "source": {
-        "name": "NTB Kommunikasjon",
+        "name": "kommunikasjon.ntb.no",
         "url": "https://kommunikasjon.ntb.no"
       }
     },
@@ -224,12 +224,12 @@
       }
     },
     {
-      "id": "b89daaee5995",
-      "title": "Vedtar å gi alvorlig syke bedre tilgang til utprøvende medisiner. – Det gir håp - aftenposten.no",
+      "id": "e519cb0f8832",
+      "title": "Vedtar å gi alvorlig syke bedre tilgang til utprøvende medisiner. – Det gir håp - Aftenposten",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOejM2REVkalM3cl9LOXpGSF9sU1BpY080Y2pNaHFwcTIzZDhwbThEc0IxUm51TzliaEVlZWJDeXR1LTNvY3NUcEw2WGJvU3hrSUY1SkNnbHExTnNhdHJYT2dILVFEcTNzbVRqMFg3MEFsTmpsV1NGazFoLTE2eENhVTFiX1NLWDg0ckZIclZCSnBqTVowMFhvV2lzdVVGd1JFZTgtOGZmT1NGMHZzeVBzTEF6ZkRfUQ?oc=5",
       "published": "2026-03-03T08:00:00+00:00",
       "source": {
-        "name": "aftenposten.no",
+        "name": "Aftenposten",
         "url": "https://www.aftenposten.no"
       }
     },
@@ -274,22 +274,22 @@
       }
     },
     {
-      "id": "272a7eaaa333",
-      "title": "Farmasøyter kan bidra til bedre pasientoppfølging i sykehjem og til å sikre riktig bruk av legemidler - Folkehelseinstituttet - FHI",
+      "id": "8c8009d079f1",
+      "title": "Farmasøyter kan bidra til bedre pasientoppfølging i sykehjem og til å sikre riktig bruk av legemidler - fhi.no",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdDl0M3pSbzZOTlBjLVNBUk5WRVJxUU5GU1kwLVFLS3pLd1QzZ2pseFJPMkNqTDFXR2Z2cllDcGRqb0xPY3o1cUhnbl9BeDhDcXlYdTVzLXZwYWM1TU9YMFZ0MXgzakkzMU5KeTVpc0lvQm90VzFaOGhVQzdYV1k5ZzczSTVkQ0s0Ul9WalJsVUd3eHNZY09jemIwMDFYLVpwQTJfNWF3QU4tZGFsNE00ZEIxZmlUNjE5X0RqcllXWE4yQ0EzTjlJSFZEYw?oc=5",
       "published": "2025-08-14T07:00:00+00:00",
       "source": {
-        "name": "Folkehelseinstituttet - FHI",
+        "name": "fhi.no",
         "url": "https://www.fhi.no"
       }
     },
     {
-      "id": "e606f2b9d542",
-      "title": "Farmasøyter i allmennpraksis gir trolig færre legemidler og færre uhensiktsmessige forskrivninger for pasienter i primærhelsetjenesten - Folkehelseinstituttet - FHI",
+      "id": "c0dbd25ec030",
+      "title": "Farmasøyter i allmennpraksis gir trolig færre legemidler og færre uhensiktsmessige forskrivninger for pasienter i primærhelsetjenesten - fhi.no",
       "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPVGV4R25vdjhLXzhpUUxkN0pXcDZSR2h2anQ1QURsS3FVcExzZjFMaV9yRTU0d0tTb3RZS2owRmYtZ19UQjdjNUZiaVdYbHRZeUlHcFdVRkd6NDItbjZsZGpRWF83SmYyWXltSzJTMXNRLXRlbmZTNGFGMlRrTzRJOGttT0JOYnhkcXI0eUk2NlI4VGZMa3ZMR0ExbloyaEFxZVk0RkNqVXRaLTVrSk83eldLcXdzZ2hKRjFpSWZuUl9nSC1YODZDQkZCbDlGd0x0T0VZVDVEZG1GbDhGbkNNMS1qcGtGajQyUHN4VjJEZWppcnlEcTVv?oc=5",
       "published": "2025-08-14T07:00:00+00:00",
       "source": {
-        "name": "Folkehelseinstituttet - FHI",
+        "name": "fhi.no",
         "url": "https://www.fhi.no"
       }
     },
@@ -324,12 +324,12 @@
       }
     },
     {
-      "id": "6d7e160bebe2",
-      "title": "Forskjeller i utskriving av legemidler utgjør 66 millioner kroner for HMR - tk.no",
+      "id": "0aec0d0a508f",
+      "title": "Forskjeller i utskriving av legemidler utgjør 66 millioner kroner for HMR - Tidens Krav",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVjA5SjBEOUJvdWRwUlZUWF9KZmN2S2RrVmRwVjR3ZlNkb2Q0MEJldkp6Uno4OTdlc3dZd0UzVVpCQWJCNlBldUlZYnJRYXBsWmFuUFZBU2dpSm04VlEyZjJ4NnBEZV94VGphLVNSY0Zqd0tkZzFqaDlvdXQxTHdyS080UFFEbTF5SHpRZnZ0Slc2X2lBNFBlRnNua01sUVVzY0dNNk5sbjlQdw?oc=5",
       "published": "2025-09-25T07:00:00+00:00",
       "source": {
-        "name": "tk.no",
+        "name": "Tidens Krav",
         "url": "https://www.tk.no"
       }
     },
@@ -394,16 +394,6 @@
       }
     },
     {
-      "id": "ec07412a252f",
-      "title": "Mener norske pasienter må vente for lenge på ny medisin: – Forferdet - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNR3FuNGlNV3lrQmhqWWg0cG9yV1pSclluN2VQZjN1azJuZW1WWGZwdXBBMHpkUDl5Y21XZ2MzaXFjT21TX0Q4amlGTGJIVEdqd0Iyd29mMDl5eC1NTUZibFZ3MVJNTmZUVzgzTXpveDg0d2J3WFRWTGlJSm5hN21CdUV4MWFEb0NjNndudXRCeUlPWHNEMmdoUVRtR1V0YXl1cHlrclRZdVNhUTFFZHFDWlZEUlNqUF9GenV0VTRpVHFFelRKUHRnSkJhRExRU3dxSDlreFJ2RlRRZw?oc=5",
-      "published": "2025-05-08T07:00:00+00:00",
-      "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
-      }
-    },
-    {
       "id": "23f201727810",
       "title": "Raser mot systemet: –⁠ Pasienter lider og dør - E24",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZl9kUVdrdTlPZFgydGVtTGR3XzEzamwtWGQ3R0JJWGNzVVRPVmVwVm9ROVk3ZGVwdVZ0Q2FNMFR3dFBLNFpvZ29EWlBXV3BqNHZFVVc1d1V3UWNnR1NmaEozYnlrSjR4SW82SGhVc1RpaUpfazZNWlRIcTFuR1hWb2praHI?oc=5",
@@ -411,6 +401,16 @@
       "source": {
         "name": "E24",
         "url": "https://e24.no"
+      }
+    },
+    {
+      "id": "ec07412a252f",
+      "title": "Mener norske pasienter må vente for lenge på ny medisin: – Forferdet - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNR3FuNGlNV3lrQmhqWWg0cG9yV1pSclluN2VQZjN1azJuZW1WWGZwdXBBMHpkUDl5Y21XZ2MzaXFjT21TX0Q4amlGTGJIVEdqd0Iyd29mMDl5eC1NTUZibFZ3MVJNTmZUVzgzTXpveDg0d2J3WFRWTGlJSm5hN21CdUV4MWFEb0NjNndudXRCeUlPWHNEMmdoUVRtR1V0YXl1cHlrclRZdVNhUTFFZHFDWlZEUlNqUF9GenV0VTRpVHFFelRKUHRnSkJhRExRU3dxSDlreFJ2RlRRZw?oc=5",
+      "published": "2025-05-08T07:00:00+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     },
     {
@@ -424,12 +424,12 @@
       }
     },
     {
-      "id": "95780849b3b1",
-      "title": "243 alvorlige hendelser knyttet til feilmedisinering ble meldt inn – 89 av disse var fatale - Sykepleien",
+      "id": "1f179ca755c6",
+      "title": "243 alvorlige hendelser knyttet til feilmedisinering ble meldt inn – 89 av disse var fatale - sykepleien.no",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR0VKYmVpWU0xZl9qS2hORmdIYWhVYTR1TTBOeUVDcVRrRzNpU1pGNk5VWnk1T1ZpRlBWRldkWks3RWM0bXpBYTRaU1U5NnFzM2NZOEdzTl81bklWTTZqV293UHFNWkx6Z1BPS2pJN2N0XzBmbmNhMWJVTFp4VkFzZ1l2bnlvVkh2clFmWTYzdDM4N0dhNGtPMTdXUlU3Q3h1VU9pSC0zdUZlZGNZdmxDRUtzQzVNdFdzVWVn?oc=5",
       "published": "2025-08-14T07:00:00+00:00",
       "source": {
-        "name": "Sykepleien",
+        "name": "sykepleien.no",
         "url": "https://sykepleien.no"
       }
     },
@@ -644,12 +644,12 @@
       }
     },
     {
-      "id": "fc921956d5c8",
-      "title": "Norge har ikke statlig lager av medisiner – uten piller kan Nikolai (29) få nyresvikt for fjerde gang - nationen.no",
+      "id": "53b06c09df31",
+      "title": "Norge har ikke statlig lager av medisiner – uten piller kan Nikolai (29) få nyresvikt for fjerde gang - Nationen",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeVIybG9JTXZ5eUZpYkRyb25XM2lraDNrZHJCZDE1V1RNdzhNU2tMUlFDTXk4VUliR2pZOFlXQXMydHFSblNJZW1HWHdnaGhIUmdKd0dWbV9BanpMc3RORWhXQVV6aDFPM0JZaUJPSDJKdEhmWC01em9sYk9zWFN1NmNXdl83SVAxcHFPNklJaUM1Ml9KTWNMYg?oc=5",
       "published": "2025-04-12T07:00:00+00:00",
       "source": {
-        "name": "nationen.no",
+        "name": "Nationen",
         "url": "https://www.nationen.no"
       }
     },
@@ -694,16 +694,6 @@
       }
     },
     {
-      "id": "4174e1ac7c68",
-      "title": "Legemiddelet forskerne håper kan gjøre oss mer ungdommelige - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcFdrbTJFZzRRakFRNHJXVE9QTlctRFNaQUxmY3FyNU1KaGxrOGNiLS1xbXd2dzktVmRob21YeGVaeHdGM1I5MnYybC1JWGExeDVzYUtpMy1MSm90cF9KSjh6NTN1a3BnWTRySlNnS1BzSWRXeGpHcWs0cDdmTDVPaDA1LTkxODhnVDZ5SXY4cTUtTEx2N2t0WE1IR0hib0NDM1dnbnZqZkE4ZkRNclZpanNhdmpPZmZsaHotbWdJWVgyd0lDdy1GbF81X25OXy1rT0lNUk5XbkxqaEE?oc=5",
-      "published": "2025-04-04T07:00:00+00:00",
-      "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
-      }
-    },
-    {
       "id": "9fb1698869d8",
       "title": "helse, Legemiddel | Hva skjer når jeg ikke får medisinene mine? - Tønsbergs Blad",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORGI5OTBzT3ZSX29SWEU4MlFtM3N4YkU4eE5XcTNCaUQ4ZTR6VEZCMXc3RXFqUUVNUnFlQmhFRnhtYUd4YTJNQTRzbGJxUXRzeHJVYTBkdEEyM1Jvc0xHUnhUZ1Vka094aGI0OTVhT2E1QVAwelZFY1hsSzl3enlpRQ?oc=5",
@@ -714,12 +704,22 @@
       }
     },
     {
-      "id": "0f22b12de252",
-      "title": "Legemiddel-innkjøp i Europa – pris, rammeavtaler og samarbeid dominerer - Anbud365",
+      "id": "4174e1ac7c68",
+      "title": "Legemiddelet forskerne håper kan gjøre oss mer ungdommelige - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcFdrbTJFZzRRakFRNHJXVE9QTlctRFNaQUxmY3FyNU1KaGxrOGNiLS1xbXd2dzktVmRob21YeGVaeHdGM1I5MnYybC1JWGExeDVzYUtpMy1MSm90cF9KSjh6NTN1a3BnWTRySlNnS1BzSWRXeGpHcWs0cDdmTDVPaDA1LTkxODhnVDZ5SXY4cTUtTEx2N2t0WE1IR0hib0NDM1dnbnZqZkE4ZkRNclZpanNhdmpPZmZsaHotbWdJWVgyd0lDdy1GbF81X25OXy1rT0lNUk5XbkxqaEE?oc=5",
+      "published": "2025-04-04T07:00:00+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
+      }
+    },
+    {
+      "id": "fbeae419e277",
+      "title": "Legemiddel-innkjøp i Europa – pris, rammeavtaler og samarbeid dominerer - anbud365.no",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ1ZtUkFrX1E1RG81WDZSSDlZcDBqUllBNmJaRjJsT3Z2VXJMQjdsd3pUQ3VaWmZIVFd0MzNlc0RFazAzeWRSTEwxOU9SWnFBM05VeGdTNVdGVGJDbi01QTQ5d0Q1bURZX0JGSmUwdGU1c01uZlpQUFBycnBfVVhqaEVCTkFpaFBuNW5SVGpLRjlBdzJtTXlEMjFibnRNcW9mdzE1dWtJVVJ4SjA?oc=5",
       "published": "2023-07-14T07:00:00+00:00",
       "source": {
-        "name": "Anbud365",
+        "name": "anbud365.no",
         "url": "https://anbud365.no"
       }
     },
@@ -784,12 +784,12 @@
       }
     },
     {
-      "id": "2fd8cf07173b",
-      "title": "Markant økning i bruken av vektreduserende legemidler - Folkehelseinstituttet - FHI",
+      "id": "67cb54ce3e61",
+      "title": "Markant økning i bruken av vektreduserende legemidler - fhi.no",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcEMzRUpNbzF2b3h3UUZrbW02VmQ1QTkxbFJmRk52NlpCN1lGQkZELURxQlpNNXcyaWxiMUN4Rm5KQW5SUkdxcWNtUWZIcGlnWmN6ZUxxT21nc29uTnZMWk9OWFcyX0ZNNU9sQ2FMUUVBZzlkSkY3M0t5c29Hdk9nMmtSUG1YN2hUbGJPdzhKTQ?oc=5",
       "published": "2025-03-31T07:00:00+00:00",
       "source": {
-        "name": "Folkehelseinstituttet - FHI",
+        "name": "fhi.no",
         "url": "https://www.fhi.no"
       }
     },
@@ -824,12 +824,12 @@
       }
     },
     {
-      "id": "aa8dfada5edc",
-      "title": "Millionar spart på legemiddelavtalar gir behandling til fleire pasientar - NTB Kommunikasjon",
+      "id": "8b13f8e15ab1",
+      "title": "Millionar spart på legemiddelavtalar gir behandling til fleire pasientar - kommunikasjon.ntb.no",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNNzRrY1dJWVR1QlFuaEl2aUNneWdMRzgxT1lDUmIxdnNfdzU3ZEFwdktuWGlRcTBuQUJXdDVUSUIwZXFzVzJtNEQ1SzRMSktZNm9zU3h2RFFHTjlGeEZkTWNfZGhZd245V3laajY3eGRMaVlNenltcm5LOGwxMG53dGJBUjNzczgwSTJqZXhKN3BNUE5MWE9fMEhXcW5YczBGM2dGWFJQcnMxeUdvY1BQb2d1Qmk1bTdudlhJbWlXb3lKR3lTQjJSLW9vLXdDMzRLUDRDWjc5d3AwdFNjTEtBdGx0MTB4ZDV6?oc=5",
       "published": "2024-02-20T08:00:00+00:00",
       "source": {
-        "name": "NTB Kommunikasjon",
+        "name": "kommunikasjon.ntb.no",
         "url": "https://kommunikasjon.ntb.no"
       }
     },
@@ -904,12 +904,12 @@
       }
     },
     {
-      "id": "923bdb02e245",
-      "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - NTB Kommunikasjon",
+      "id": "1f60cbf79c25",
+      "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - kommunikasjon.ntb.no",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZEd5eTVOaFRZZHd1MVQzQUVGc09ZSlZtdnlXUEhwTkNQRXp0UEhfREhwSzNIRC1RVVVKYldGLWJlQlNtYkM1dkw2RFNvSFJXdzc1WlNhc0Y3c3JPcDFnalBGWVdJcGxtbTNuTUJfeE50NTlNNTdNMlNIY0NBdGk2MjhXMjJRVGxjcFNFbEFFNDRBUUMtaDM4R0NDbEtXdjNsckRjdjBYdGFqOFYyXzRmYmhZSVRHbldmaEUyVk5QcEFCYjMwbTNXMGxfMXJaa25WYXc?oc=5",
       "published": "2021-05-12T07:00:00+00:00",
       "source": {
-        "name": "NTB Kommunikasjon",
+        "name": "kommunikasjon.ntb.no",
         "url": "https://kommunikasjon.ntb.no"
       }
     },
@@ -954,12 +954,12 @@
       }
     },
     {
-      "id": "b7802388e6b6",
-      "title": "Vestre åpner for medisin-unntak for alvorlig syke pasienter - Sykepleien",
+      "id": "e9a4e52b84a5",
+      "title": "Vestre åpner for medisin-unntak for alvorlig syke pasienter - sykepleien.no",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQX0FKYVVHdkxueUNNeFo0OTVqUTdubDJXd3lNQldSVDQ0WktITlV1T01vc3lwa08xZy1KcUE1ejAxaGFwLTdSVkFvVkY5ZVJPVWtwdUlFSjRHVG5KX0NQQS1hdHRqOGRuYW9TN2JId2NiOGpTNHJWQTRsVmtJRGV4RnpXUlhVR1Ru?oc=5",
       "published": "2024-07-10T07:00:00+00:00",
       "source": {
-        "name": "Sykepleien",
+        "name": "sykepleien.no",
         "url": "https://sykepleien.no"
       }
     },
@@ -994,12 +994,12 @@
       }
     },
     {
-      "id": "13cbd38f0124",
-      "title": "Beslutningsforum har vurdert covid-19-legemidler - NTB Kommunikasjon",
+      "id": "eb7f2b043aee",
+      "title": "Beslutningsforum har vurdert covid-19-legemidler - kommunikasjon.ntb.no",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWlowa1FmOWNRQUN6QzZvcTNXNzBlUnlxZGp4aVhYQXNsX2xkazBpeUtrTXFRbWZPTWhxRXpXZmllY1VZaENPQVRjeGpZbEtLQkh5UEtEMFhrdzFYbVVtVHdDTFV1a0F4SDFSMWtVd2dXcGxHb0UzY28yZ2FuRVRwVmRjMGVyeE5CcXlQbDkyek5oVTcyazRFOElvcV80bnRHVU41MExfOFNFUXNUSml5eWx4VmUwUVotQi1rR3hB?oc=5",
       "published": "2022-02-14T08:00:00+00:00",
       "source": {
-        "name": "NTB Kommunikasjon",
+        "name": "kommunikasjon.ntb.no",
         "url": "https://kommunikasjon.ntb.no"
       }
     }
