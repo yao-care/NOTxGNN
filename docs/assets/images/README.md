@@ -1,3 +1,7 @@
+---
+nav_exclude: true
+---
+
 # OG Image 說明
 
 ## 需要準備的檔案
