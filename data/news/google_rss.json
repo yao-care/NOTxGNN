@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-08T19:20:33.806627+00:00",
+  "fetched_at": "2026-04-08T20:48:13.091067+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -34,16 +34,6 @@
       }
     },
     {
-      "id": "d1a515ebd514",
-      "title": "Prissjokk på apoteket: – Helt vilt - Fredriksstad Blad",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN0FBM2dpcmUxOXU1TXp1VmJGWkoxWV9faVlyUDQ4YlJHaHhhZlBpUlFMV2tVbW5JVDdqeFlfNVVPc3c0MTF0am5rcDZUQ0MtOTJZTkszUXJNYlhNTnc5R2o1U21ndHUtOHBjUmF1YXdZeFN0TlRTbzZJTk1sampfTll5OVdyY1g3OWFSSHdsSDk0VTVLVy1uOXVNNjA?oc=5",
-      "published": "2026-04-04T12:48:32+00:00",
-      "source": {
-        "name": "Fredriksstad Blad",
-        "url": "https://www.f-b.no"
-      }
-    },
-    {
       "id": "50df0bac77d5",
       "title": "Novo dumper prisen i kampen mot Lilly - Finansavisen",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeVI4NjJ5X1c3ZUt3NTJfQ3N6NmlpM1NxTnIzenpFYUxXbnhULURuRjJYZ3NldXBhQ3lsZ01TdDhoRm0wMHZ1Qm12MVpsVFJ1TzEzS3FZMXE4WUdqZ2dkaHllNy1EeFc0TkVwcFZsUzNIMTgwSDZaNkNrSFp5SnAzX0l1NGdWMlRyWDUzMl9ud0pENnVx?oc=5",
@@ -51,6 +41,16 @@
       "source": {
         "name": "Finansavisen",
         "url": "https://www.finansavisen.no"
+      }
+    },
+    {
+      "id": "d1a515ebd514",
+      "title": "Prissjokk på apoteket: – Helt vilt - Fredriksstad Blad",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN0FBM2dpcmUxOXU1TXp1VmJGWkoxWV9faVlyUDQ4YlJHaHhhZlBpUlFMV2tVbW5JVDdqeFlfNVVPc3c0MTF0am5rcDZUQ0MtOTJZTkszUXJNYlhNTnc5R2o1U21ndHUtOHBjUmF1YXdZeFN0TlRTbzZJTk1sampfTll5OVdyY1g3OWFSSHdsSDk0VTVLVy1uOXVNNjA?oc=5",
+      "published": "2026-04-04T12:48:32+00:00",
+      "source": {
+        "name": "Fredriksstad Blad",
+        "url": "https://www.f-b.no"
       }
     },
     {
@@ -144,12 +144,12 @@
       }
     },
     {
-      "id": "4e1056a4673d",
-      "title": "Helse, Legemidler | Cristian Brennhovd risikerer legemiddel-bot - Budstikka",
+      "id": "6043c6616718",
+      "title": "Helse, Legemidler | Cristian Brennhovd risikerer legemiddel-bot - budstikka.no",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPS0FBZGs3OTlnZmdpei1LemYtMENBcnZTT2RiV0tINHdNcXcyYmJWZFRMdlNMNkl3TkRQSmZPZDJpRkk5VjZoNXB3VDJwQVV1YWJhaTRFR0JzMFRxSkZGaVgtN194Tzc0b2ZOVlR0QXB0SDMxWXhtSE43SFYwaTFUX1ZZamRFS2Vnc1c0?oc=5",
       "published": "2026-01-08T08:00:00+00:00",
       "source": {
-        "name": "Budstikka",
+        "name": "budstikka.no",
         "url": "https://www.budstikka.no"
       }
     },
@@ -414,12 +414,12 @@
       }
     },
     {
-      "id": "116f716588b0",
-      "title": "Legemiddelmangel - dsb.no",
+      "id": "51efe02c8465",
+      "title": "Legemiddelmangel - Direktoratet for samfunnssikkerhet og beredskap (DSB)",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNekM1RWozbUNwak85M1QzcjlqQmZySkJMZVNnM3YwbzVqVWRDMVZNRlJVNF9NM3RPLThfNDdnQUJ2d2hLVFJZNHlsUTc2ZzZuVHdYWmdHamJEVFgxUHQzMlB0SlRfWTR0eWNaTmpSUXJlY2tJVmNOUHlpbGhwcjI1d0NSVDJMdnlLWVQ5Zkx4MWtrTGlNNWZqaUhMMDRVSkxXTVFOTTdFUEF1NjFHaG80OXNTZw?oc=5",
       "published": "2025-09-03T06:04:04+00:00",
       "source": {
-        "name": "dsb.no",
+        "name": "Direktoratet for samfunnssikkerhet og beredskap (DSB)",
         "url": "https://www.dsb.no"
       }
     },
@@ -484,12 +484,12 @@
       }
     },
     {
-      "id": "c48267e12138",
-      "title": "Medisiner, Smugling | Advarer om smuglede medisiner: – Gambler med liv og helse - Nationen",
+      "id": "74f2ec37e7d3",
+      "title": "Medisiner, Smugling | Advarer om smuglede medisiner: – Gambler med liv og helse - nationen.no",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYWczY01wdzhrY045WExXdDRrU2FybzFlbXBXd04zZ0pBTXVhVl9EOHh4Mmh1bVpsVlA3S1BaTWlVRWw1XzdxRjU1eHBDWjh2N3ZmOE9MbHJQMmJ0cHRHY0ZDUU84VnFKTGstUmQyZ3UwTUJIQVpSYkY5TnI2VWFBQVJPeV8zYlZKR2c2UTF6N0ctZkFBVG0zMg?oc=5",
       "published": "2025-06-27T07:00:00+00:00",
       "source": {
-        "name": "Nationen",
+        "name": "nationen.no",
         "url": "https://www.nationen.no"
       }
     },
@@ -524,12 +524,12 @@
       }
     },
     {
-      "id": "b0ff6f0ee236",
-      "title": "Etterforskning pågår etter narkotiske medisiner forsvant: – Svært krevende - ao.no",
+      "id": "31d57e7be83b",
+      "title": "Etterforskning pågår etter narkotiske medisiner forsvant: – Svært krevende - Avisa Oslo",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZk5PaktJMllaNGxXUHhjZnFram5VZGc3NGFoc1B5UnlVSWtabE52bjJjcHM0c0VtQm1fNUkwZjZzakN2azZUTDlqSGZ3Q3VwcGo0S1pCeWJocThhUTVoSVJpVXhnREVpdl9GRG4zOGFWUGVwNllhUEs3UUFtaU9ELWhmT3VrYVgxeGVmczhB?oc=5",
       "published": "2025-07-20T07:00:00+00:00",
       "source": {
-        "name": "ao.no",
+        "name": "Avisa Oslo",
         "url": "https://www.ao.no"
       }
     },
@@ -694,22 +694,22 @@
       }
     },
     {
-      "id": "72f26a46b653",
-      "title": "helse, Legemiddel | Hva skjer når jeg ikke får medisinene mine? - tb.no",
+      "id": "9fb1698869d8",
+      "title": "helse, Legemiddel | Hva skjer når jeg ikke får medisinene mine? - Tønsbergs Blad",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORGI5OTBzT3ZSX29SWEU4MlFtM3N4YkU4eE5XcTNCaUQ4ZTR6VEZCMXc3RXFqUUVNUnFlQmhFRnhtYUd4YTJNQTRzbGJxUXRzeHJVYTBkdEEyM1Jvc0xHUnhUZ1Vka094aGI0OTVhT2E1QVAwelZFY1hsSzl3enlpRQ?oc=5",
       "published": "2019-09-19T07:00:00+00:00",
       "source": {
-        "name": "tb.no",
+        "name": "Tønsbergs Blad",
         "url": "https://www.tb.no"
       }
     },
     {
-      "id": "fbeae419e277",
-      "title": "Legemiddel-innkjøp i Europa – pris, rammeavtaler og samarbeid dominerer - anbud365.no",
+      "id": "0f22b12de252",
+      "title": "Legemiddel-innkjøp i Europa – pris, rammeavtaler og samarbeid dominerer - Anbud365",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ1ZtUkFrX1E1RG81WDZSSDlZcDBqUllBNmJaRjJsT3Z2VXJMQjdsd3pUQ3VaWmZIVFd0MzNlc0RFazAzeWRSTEwxOU9SWnFBM05VeGdTNVdGVGJDbi01QTQ5d0Q1bURZX0JGSmUwdGU1c01uZlpQUFBycnBfVVhqaEVCTkFpaFBuNW5SVGpLRjlBdzJtTXlEMjFibnRNcW9mdzE1dWtJVVJ4SjA?oc=5",
       "published": "2023-07-14T07:00:00+00:00",
       "source": {
-        "name": "anbud365.no",
+        "name": "Anbud365",
         "url": "https://anbud365.no"
       }
     },
@@ -804,16 +804,6 @@
       }
     },
     {
-      "id": "d43d225b1fd8",
-      "title": "Vestre: Nå kan pasienter få ja - etter nei - VG",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdDFidnJUWXZ2bTBQNTE0ZzEyYUVlWThybGNlaGt5WHlPeUhFbkJLcTZYdjBYU0gydHJSaFluMmpib1NXZWNSQ283eUNCODlJdS1tX3F2NTBicVQwVjh0bEFqUHBEeW5EZ0h4M3FUQUVTNWRuVmNsZnNrVEVGNE5QcWI4UjBNTnRi?oc=5",
-      "published": "2025-04-10T07:00:00+00:00",
-      "source": {
-        "name": "VG",
-        "url": "https://www.vg.no"
-      }
-    },
-    {
       "id": "ae1c9975bfd5",
       "title": "Østfoldinger bruker mest legemidler | Apotekforeningen - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSmE3QnlCX3ZYQk9Kd3p1em0wVjFBLUptSDNKVENBM3poMXgwQ2F5dVM2ZGt2RTM3M2IyR1UzOWVwd2IySk81ZUUxRUFQSXhXZFItaWRRczZlcmJWWTAwUzZhVzBHZkNhM1hFSmRVUWhYckJaaHlVTlRpQUV3SDJtTVpwRHdxczc5Q2c0b0lObGtPT1Q2NWFHdl9ndEN3VGY2Y01aVW1Jb1NibmZnYzdTWlpYVjF3bFE?oc=5",
@@ -821,6 +811,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "d43d225b1fd8",
+      "title": "Vestre: Nå kan pasienter få ja - etter nei - VG",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdDFidnJUWXZ2bTBQNTE0ZzEyYUVlWThybGNlaGt5WHlPeUhFbkJLcTZYdjBYU0gydHJSaFluMmpib1NXZWNSQ283eUNCODlJdS1tX3F2NTBicVQwVjh0bEFqUHBEeW5EZ0h4M3FUQUVTNWRuVmNsZnNrVEVGNE5QcWI4UjBNTnRi?oc=5",
+      "published": "2025-04-10T07:00:00+00:00",
+      "source": {
+        "name": "VG",
+        "url": "https://www.vg.no"
       }
     },
     {
@@ -904,33 +904,23 @@
       }
     },
     {
-      "id": "4647ac70ecdc",
-      "title": "Har varslet Datatilsynet - Helsedirektoratet",
+      "id": "7042fd1bcc35",
+      "title": "Har varslet Datatilsynet - helsedirektoratet.no",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pR09BbGR1UWE1djNhZlVwSll3UVNFS2ZxZjRyZktsWmkzMVZsUGJuM3hjek1mLTY5TzNoZTVyWS1sSEdnMUg3NU5FbE5Uams0N1ZyUWl5cEtqTVR3NEI3MjhUY1kzSGZUOGMyOTc0X1ZlUEU?oc=5",
       "published": "2024-06-16T07:00:00+00:00",
       "source": {
-        "name": "Helsedirektoratet",
+        "name": "helsedirektoratet.no",
         "url": "https://www.helsedirektoratet.no"
       }
     },
     {
-      "id": "2322b3f451a2",
-      "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - psykiskhelse.no",
+      "id": "497d3f52b354",
+      "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - Rådet for psykisk helse",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjkwcGZUTVRwWk15Yms3VHNEOWNjaHAzank5d0xhc3VSSkViN2RBNDZGZDBXMTdIQ1ZIWGE1WC0ycjgwREpnNHFVNlRyRV9ia2VPX0lFdGhkaFQ1RDZqY2V5TzlQMXNxbXRpZGdKUGRneXFCQUVyaXRpNkFKaFFrWTJ5ZDBjeU9JSzJ0aXBQVGZyY3BxNFRONmtCdS1PVnZtRlFv?oc=5",
       "published": "2023-10-10T07:00:00+00:00",
       "source": {
-        "name": "psykiskhelse.no",
+        "name": "Rådet for psykisk helse",
         "url": "https://psykiskhelse.no"
-      }
-    },
-    {
-      "id": "53b06c09df31",
-      "title": "Norge har ikke statlig lager av medisiner – uten piller kan Nikolai (29) få nyresvikt for fjerde gang - Nationen",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeVIybG9JTXZ5eUZpYkRyb25XM2lraDNrZHJCZDE1V1RNdzhNU2tMUlFDTXk4VUliR2pZOFlXQXMydHFSblNJZW1HWHdnaGhIUmdKd0dWbV9BanpMc3RORWhXQVV6aDFPM0JZaUJPSDJKdEhmWC01em9sYk9zWFN1NmNXdl83SVAxcHFPNklJaUM1Ml9KTWNMYg?oc=5",
-      "published": "2025-04-12T07:00:00+00:00",
-      "source": {
-        "name": "Nationen",
-        "url": "https://www.nationen.no"
       }
     },
     {
@@ -941,6 +931,16 @@
       "source": {
         "name": "Forskning.no",
         "url": "https://www.forskning.no"
+      }
+    },
+    {
+      "id": "fc921956d5c8",
+      "title": "Norge har ikke statlig lager av medisiner – uten piller kan Nikolai (29) få nyresvikt for fjerde gang - nationen.no",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeVIybG9JTXZ5eUZpYkRyb25XM2lraDNrZHJCZDE1V1RNdzhNU2tMUlFDTXk4VUliR2pZOFlXQXMydHFSblNJZW1HWHdnaGhIUmdKd0dWbV9BanpMc3RORWhXQVV6aDFPM0JZaUJPSDJKdEhmWC01em9sYk9zWFN1NmNXdl83SVAxcHFPNklJaUM1Ml9KTWNMYg?oc=5",
+      "published": "2025-04-12T07:00:00+00:00",
+      "source": {
+        "name": "nationen.no",
+        "url": "https://www.nationen.no"
       }
     },
     {
