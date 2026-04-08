@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-08T11:00:03.772195+00:00",
+  "fetched_at": "2026-04-08T11:59:57.131204+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,16 +14,6 @@
       }
     },
     {
-      "id": "50df0bac77d5",
-      "title": "Novo dumper prisen i kampen mot Lilly - Finansavisen",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeVI4NjJ5X1c3ZUt3NTJfQ3N6NmlpM1NxTnIzenpFYUxXbnhULURuRjJYZ3NldXBhQ3lsZ01TdDhoRm0wMHZ1Qm12MVpsVFJ1TzEzS3FZMXE4WUdqZ2dkaHllNy1EeFc0TkVwcFZsUzNIMTgwSDZaNkNrSFp5SnAzX0l1NGdWMlRyWDUzMl9ud0pENnVx?oc=5",
-      "published": "2026-04-07T12:52:17+00:00",
-      "source": {
-        "name": "Finansavisen",
-        "url": "https://www.finansavisen.no"
-      }
-    },
-    {
       "id": "f4b508446bd7",
       "title": "Vekker bekymring – lege går ut med advarsel - smp.no",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1BNTd1MzJnYVV4Q0NyUmRzNzdxWFdXU21VZHU0d2JITXNGT2dPMHd6cFFjYTdRaWU3cFZGektCNk5XNUM0bkNyblpnMHRxV09ld1ZfM25EdnRDby0yOEpZVzBuWlVmekMxeWh0MFkyZWVGY3NsUmc?oc=5",
@@ -34,12 +24,22 @@
       }
     },
     {
-      "id": "d1a515ebd514",
-      "title": "Prissjokk på apoteket: – Helt vilt - Fredriksstad Blad",
+      "id": "50df0bac77d5",
+      "title": "Novo dumper prisen i kampen mot Lilly - Finansavisen",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeVI4NjJ5X1c3ZUt3NTJfQ3N6NmlpM1NxTnIzenpFYUxXbnhULURuRjJYZ3NldXBhQ3lsZ01TdDhoRm0wMHZ1Qm12MVpsVFJ1TzEzS3FZMXE4WUdqZ2dkaHllNy1EeFc0TkVwcFZsUzNIMTgwSDZaNkNrSFp5SnAzX0l1NGdWMlRyWDUzMl9ud0pENnVx?oc=5",
+      "published": "2026-04-07T12:52:17+00:00",
+      "source": {
+        "name": "Finansavisen",
+        "url": "https://www.finansavisen.no"
+      }
+    },
+    {
+      "id": "8bfdba9e802a",
+      "title": "Prissjokk på apoteket: – Helt vilt - f-b.no",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN0FBM2dpcmUxOXU1TXp1VmJGWkoxWV9faVlyUDQ4YlJHaHhhZlBpUlFMV2tVbW5JVDdqeFlfNVVPc3c0MTF0am5rcDZUQ0MtOTJZTkszUXJNYlhNTnc5R2o1U21ndHUtOHBjUmF1YXdZeFN0TlRTbzZJTk1sampfTll5OVdyY1g3OWFSSHdsSDk0VTVLVy1uOXVNNjA?oc=5",
       "published": "2026-04-04T12:48:32+00:00",
       "source": {
-        "name": "Fredriksstad Blad",
+        "name": "f-b.no",
         "url": "https://www.f-b.no"
       }
     },
@@ -84,12 +84,12 @@
       }
     },
     {
-      "id": "a53ce2282e6f",
-      "title": "(+) Han overtar jobben med å fronte upopulære medisin-avgjørelser - dagensmedisin.no",
+      "id": "da60e4b22eb1",
+      "title": "(+) Han overtar jobben med å fronte upopulære medisin-avgjørelser - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSFBtbFpOTTRNNEY0VF9LMmZma2JPNnl1emw2X1RVdjR3Y0FPWXBkRGI4clFyNkptQTlVWlBoM09QeWlpVnBVSG9Ea2w1MHZURGRsZnNyM0FleVJyWWctV3VxV25aeXJGdWhMVy1FMFJHU3VwSUlNRUEtem9WWjV1c1g4M1I5YUFyWlVaVmJSWVFDTUc0cWU2TVJqVVZzM25NUWNwUnk3aDdOU0xEdE02c3owd0ZhQ0RFaU9VR2E4UzFMd0dEbmkwanlCSEpldHladmRBYmpLdDZ3OFROY0Fn?oc=5",
       "published": "2026-01-14T08:00:00+00:00",
       "source": {
-        "name": "dagensmedisin.no",
+        "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
       }
     },
@@ -184,12 +184,12 @@
       }
     },
     {
-      "id": "4662abc02ce6",
-      "title": "Kan Norge ha verdens beste helsetjeneste uten innovative legemidler? - dagensmedisin.no",
+      "id": "f9f02fb6eaad",
+      "title": "Kan Norge ha verdens beste helsetjeneste uten innovative legemidler? - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOX3B1SWFBcnhTR3BBN1VZQWZDd3RwWk1QdjV0cVJWUWlDSmZnUjl3THRPTnAtenpLVmFkNHFDU1p1TDJneTNlQ2tRdS1fTFBqMnlZby1nTXh6NThKMmhFXzRzbEdzcWVXclpqdmRUZV9VVlRkc2ZRV0xpZlBhbU1DNVFxNGhKU3YwYW9ZTjFJZmJQNkV1QUNjenYzQXplcmpmWUlCakYzMlF2dktkYWlmRHRaeWtzR2FVMFZWX19mQXBlTUppZGZ1ckEzNA?oc=5",
       "published": "2026-03-03T08:00:00+00:00",
       "source": {
-        "name": "dagensmedisin.no",
+        "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
       }
     },
@@ -374,12 +374,12 @@
       }
     },
     {
-      "id": "beb51093d22a",
-      "title": "Stor økning av ADHD-medisin i Norge de siste årene – ekspert uttrykker bekymring - dagensmedisin.no",
+      "id": "e2ea5b0be776",
+      "title": "Stor økning av ADHD-medisin i Norge de siste årene – ekspert uttrykker bekymring - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSmEyTkhXRnlTMF9QcDNraEVtTW5iZEtGOHYzYUIxdlkxbVRNNFRkcTMtUGFnRlhNVG9CV2dZVEdLNExqV3E3ZHptaTZQSHIwdHZ3UUswUnV2VGYyYVVxNko2ZWdqNklhUnNUOGR0YW9NNGxCSTFtaF82dHB5VklKR3lFQWZsTVpidTM0VXRfVlVtOWZkLVloZXlVemY2SGhOdVVPMHB6WFoxakFsMkJpOHBKMzhNbXNQQWcyT3llSFZLMldvaGZpRGFB?oc=5",
       "published": "2026-01-28T08:00:00+00:00",
       "source": {
-        "name": "dagensmedisin.no",
+        "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
       }
     },
@@ -474,12 +474,12 @@
       }
     },
     {
-      "id": "e01211f28bcb",
-      "title": "(+) Studie: Nye legemidler fortrenger mer helse enn de genererer - dagensmedisin.no",
+      "id": "40922de8540e",
+      "title": "(+) Studie: Nye legemidler fortrenger mer helse enn de genererer - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZWppZTdqcEdaLXVQQVpnU0d2dnEzTzBJMU9BSDB2OXg5NUJ3MndpSklZUTVUNGxiR3lpU3VxbE01Q3JRMXBIVFhJQkVjcU40V3VzUjV1UlRHSW93U3pwWTZDS29xWXVqbXlFMG15Z3V2X29GTGtfb0M3Y0JpdmE0LVp4TEhoWUZub1M5Z0VYZVFuZU0wbE5tWmczc3JjdUhjTVlxSDA0Wm1kbTBST1ppZlhZNWVRLS1JRkR2Y05jNFFTREhld3ZxZnhfeHJEMTVmQVZrOTN3dV95enZVT1pMeWNTOXNtc2o2M3EyOUFyT1NQZw?oc=5",
       "published": "2025-02-07T08:00:00+00:00",
       "source": {
-        "name": "dagensmedisin.no",
+        "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
       }
     },
@@ -504,12 +504,12 @@
       }
     },
     {
-      "id": "d6c502d6c105",
-      "title": "Helse Bergen skrev ut resept på CF-legemiddel: – Beklager feilen - dagensmedisin.no",
+      "id": "f85d78c78a58",
+      "title": "Helse Bergen skrev ut resept på CF-legemiddel: – Beklager feilen - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOc1AxcFVpZGxfeUc4Q2RNb25iSkEteHZjWktMc182aGtHRHM5RURJYkNOUi1IYTh4OFFZZ0dkX3YyZGE1MmpKUktIUUZ6RmlCc2F2a3M1R0ZfOXFIR2RSOU90ajhBNWtJNnZieWpQSHpQcm13TFJ2ZDRMNTRYWHZrcmhvUmdVMzA5VjRLYVJ4YkpqZk1mc0IyUU9JX1Z4WTFuNHVXRGRCd2tWV2sxZlAzN0JvNDNJMkVMbU02OU80OFQxRFA0bXVnNTJ3?oc=5",
       "published": "2022-01-12T08:00:00+00:00",
       "source": {
-        "name": "dagensmedisin.no",
+        "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
       }
     },
@@ -564,22 +564,22 @@
       }
     },
     {
-      "id": "98d6b57269ee",
-      "title": "(+) Noen få medisiner utgjør halvparten av kostnadene - dagensmedisin.no",
+      "id": "b9245404674f",
+      "title": "(+) Noen få medisiner utgjør halvparten av kostnadene - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdkNqT0dVU0ZrSzFyQ2dyMkQzQlZQVEVRVC12RGNRdmFrajVyTkJLSGp1WFlTMVI2ZmFvZ05CYVJmLTRuQ2lEM1FNd2VKRkhVQ0MwbkVFWlRLZDAtXy1jN1ZMWVBtSktvUmlvNGlYTVJxMFk2YUdsMHU3ZDJUMzF4ZTVfR1laUlIxOVR2NTlxR3luM3dvZUdTSnRjdmp0VDUwa3Z1Z19Jd3RDNEUzVUZxQ3l5bk1QWWpiRnpqX3dGY0xsTlVmUnJ4N09VNl9TWTJGMkVlTTExX0V3WWE1YWc?oc=5",
       "published": "2025-01-21T08:00:00+00:00",
       "source": {
-        "name": "dagensmedisin.no",
+        "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
       }
     },
     {
-      "id": "1f33b7714a09",
-      "title": "(+) Så mye bruker Sykehus-Norge på legemidler - dagensmedisin.no",
+      "id": "9a9ebbd37822",
+      "title": "(+) Så mye bruker Sykehus-Norge på legemidler - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNGxvVFF5bTZIazJVazV0anhYcUppN1Noai0zTGk1OS05aGFDZXRWamtWQnp4YXp6dEdaRDRGWkxqbXNVZU45SHZhYnRYNldzTkZTNkkwaHZVdjRGbUp4bFExd1hObzBza0VpSWFodkRWUzlHNEhxM3JHOUNsaVg3bWd4TlN5TTBHLVpDVFRJYldUNUVjUmxBSlhzT1Bwck9wSU1fMlJYaDlNQVF2SElLSjJjZDJnRE1XdGlvYmF3Vl9jRVNrT2VHS015Yw?oc=5",
       "published": "2025-03-20T07:00:00+00:00",
       "source": {
-        "name": "dagensmedisin.no",
+        "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
       }
     },
@@ -784,12 +784,12 @@
       }
     },
     {
-      "id": "a41daa2ab3f6",
-      "title": "4. mars innføres nye DIPS Medikasjon (e-resept) i sykehusene - helse-nord.no",
+      "id": "67c20f467065",
+      "title": "4. mars innføres nye DIPS Medikasjon (e-resept) i sykehusene - Helse Nord RHF",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE14bEVJTU9PM0FJU0RBZUlSYzFTdm5zQ09iTTdRd2xwVjM1enNXd3V0Skc2UGlQdU0wMGtGdFpsR2VCaHlPeGdKM1lnaVBzNGM4SWRvSG9LSjZGa0JfLURhZTRGcXMyWGJXUVBBQmhn?oc=5",
       "published": "2025-02-27T13:17:31+00:00",
       "source": {
-        "name": "helse-nord.no",
+        "name": "Helse Nord RHF",
         "url": "https://www.helse-nord.no"
       }
     },
@@ -884,12 +884,12 @@
       }
     },
     {
-      "id": "bcfc9a96c810",
-      "title": "Helse, Legemiddel | Apotek advarer – tendenser til at folk kjøper «feil» jodtabletter - Fredriksstad Blad",
+      "id": "6ddd39bd97e7",
+      "title": "Helse, Legemiddel | Apotek advarer – tendenser til at folk kjøper «feil» jodtabletter - f-b.no",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSU9HVEhZSlc5eC1CNkFpUDlpS1JUdzJrWnBJLUZvdEM4OTNVS3VVZTBVUzhOejdkOWozdGprZ0pHM3ROZUlOZTE4dVRFc25mUl8zdnJFdHZrZlhySFhMY24wVDVPclVVME9hdF9TdWRVYjFIallQMV9xQ2I0eko3M21IS3ktZXlnRi1MWXJxYTA0NUgwaFN2V01PWQ?oc=5",
       "published": "2022-02-28T08:00:00+00:00",
       "source": {
-        "name": "Fredriksstad Blad",
+        "name": "f-b.no",
         "url": "https://www.f-b.no"
       }
     },
