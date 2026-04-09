@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-04-09T22:43:04.636066+00:00",
+  "fetched_at": "2026-04-09T23:39:08.343611+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "9c4a7ae0ef9f",
+      "title": "Flateby, Helse | Inni er de like: Lokalt apotek i front for å spare helsekroner - Enebakk Avis",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSDAtRFhHVjk3N0hxbFZzc0ZYWTlWQU41QVQwNHlQaXYzMXBZQnlneWZ5MzRWOGoya1QwT3pBM3A2NGhZYjhyVEVieHp4dmt1Rmw0OUZ6ZU55VDFMZkNscTJWNWppY1NTVk01ckUwU0ZOSUhwTjIxdHFoYlVfTnZVUEdiNGVSb3NxcjNxS0FkdHFWd2FJbFI1UlYzbjMxU1htUk94cA?oc=5",
+      "published": "2026-04-09T23:00:00+00:00",
+      "source": {
+        "name": "Enebakk Avis",
+        "url": "https://www.enebakkavis.no"
+      }
+    },
     {
       "id": "69fdc38b530d",
       "title": "Line merker at flere jakter på medisiner: – Skaper frykt - Østlands-Posten",
@@ -144,16 +154,6 @@
       }
     },
     {
-      "id": "5d4a6ad4074d",
-      "title": "Skriftlig spørsmål fra Kathy Lie (SV) til helse- og omsorgsministeren - Stortinget",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVm5NeGZJSmxfbFRXbEZfWDg4Szg3QzVtWDIzeWVBazFIN1FHd2pSamVkREMyQmMtUm1JZU1GbXBHUUoxVm43WUdfQ1FkNlZJY2pleEt3UnNJLW52aUc4VG9qRFF5dm5UbEhWd0l1OC1PNndDWURmWWkxTi1KZENZZE5fVDN4VS10dTNYOTJXVlpKV09hT3NicElZYTF3VlFyZ05zRnVDM2NWaXh5YTk1S2pVZWh2c25nZnBaVg?oc=5",
-      "published": "2026-01-07T12:33:51+00:00",
-      "source": {
-        "name": "Stortinget",
-        "url": "https://www.stortinget.no"
-      }
-    },
-    {
       "id": "614743f9cafe",
       "title": "I disse fylkene bruker de mest legemidler - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYmlkLUY1UFFJVUlzcmtnaV9DblNXaTBIcWYzZzFTVGZRblBhYVAteVF4Q3h5Ym9jMUVzQVlWbk9rcFB5TUhQX2RwWkZ2NVVpTXh5VHZNRlZFbm5uY0JwX1VNWDVweWE1Q2o0SlpSOElWb0RBc0hGRVpGRzIzTEEtRWlJMGxxd3dEWnpVTGhvWVRTWWkybDMwdFJIUXlGV0NkM01vY3l5MzVmNU5OVkxJUWhXVWx3QlNKeGhYUEdfSQ?oc=5",
@@ -201,6 +201,16 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
+      "id": "b7f208f70638",
+      "title": "Skriftlig spørsmål fra Kathy Lie (SV) til helse- og omsorgsministeren - Stortinget.no",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVm5NeGZJSmxfbFRXbEZfWDg4Szg3QzVtWDIzeWVBazFIN1FHd2pSamVkREMyQmMtUm1JZU1GbXBHUUoxVm43WUdfQ1FkNlZJY2pleEt3UnNJLW52aUc4VG9qRFF5dm5UbEhWd0l1OC1PNndDWURmWWkxTi1KZENZZE5fVDN4VS10dTNYOTJXVlpKV09hT3NicElZYTF3VlFyZ05zRnVDM2NWaXh5YTk1S2pVZWh2c25nZnBaVg?oc=5",
+      "published": "2026-01-07T12:33:51+00:00",
+      "source": {
+        "name": "Stortinget.no",
+        "url": "https://www.stortinget.no"
       }
     },
     {
@@ -314,12 +324,12 @@
       }
     },
     {
-      "id": "58bd6a65f701",
-      "title": "Skriftlig spørsmål fra Julia Brännström Nordtug (FrP) til helse- og omsorgsministeren - Stortinget",
+      "id": "361190eab410",
+      "title": "Skriftlig spørsmål fra Julia Brännström Nordtug (FrP) til helse- og omsorgsministeren - Stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSURHODBIN2RFT2NFX2dyZEVtd2JlbWF6NUVDVkZndDRfQzZLNXlidUFiVTktOFpFWW9IUGwzLWsydm5SUGNLbzI3cTlvWFh6c0t1a1cyN3F1ck9COEZPdmR2NkxvVnFNcThiRHlpWkpCaXE5NjJtUEVFVjRMY3czWjRZdHRUR21sNWZHbGE0UEgzc25DLV9HaHEzRlJjTkNMR2xZRXpHR1lGcTRGTXhFazVrblgyYUZ2RDdDLQ?oc=5",
       "published": "2026-01-08T04:32:46+00:00",
       "source": {
-        "name": "Stortinget",
+        "name": "Stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
@@ -544,12 +554,12 @@
       }
     },
     {
-      "id": "d45996cb0bc0",
-      "title": "Skriftlig spørsmål fra Ruth Grung (A) til helse- og omsorgsministeren - Stortinget",
+      "id": "e1028ea9af43",
+      "title": "Skriftlig spørsmål fra Ruth Grung (A) til helse- og omsorgsministeren - Stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVWMzcldIT21vTndtal81NV8yM3UwSEVIUGVZMy1xYndVZ1lBUkk1bmVqNUdBOElOOW1wR1pySXdkUW4taWRUMm9oU2x0QUpfWjNBSUZ5SnVYUU94TUpEWmRlaExZSkp2UE9VdW44VV9NWEdWNEJETGdoa09HSm4wS25iRC14QUY5U1lJNmdld3loNEpzUEQxZDk2ZmZnaVd4amxGTDJrOXFNQl9lbi1JUy1GSWszaS11WUNR?oc=5",
       "published": "2025-05-12T01:13:37+00:00",
       "source": {
-        "name": "Stortinget",
+        "name": "Stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
@@ -584,22 +594,22 @@
       }
     },
     {
-      "id": "5a6e8c118c5c",
-      "title": "Skriftlig spørsmål fra Kjersti Toppe (Sp) til helse- og omsorgsministeren - Stortinget",
+      "id": "5e3fec419710",
+      "title": "Skriftlig spørsmål fra Kjersti Toppe (Sp) til helse- og omsorgsministeren - Stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdDhGOEsxX0VOUXJsNnU3LWtoLTRDWXVzVkZ2UThGNUNRZE12S2dMNzFLWERETmRGY0ZyTG5yRDhsSWpMRURZcmlSVG8yVXhLM1V3cXhMNDA4dmo2TXlrbC11R21TVkp0ZWlPMFhmQ1BjUVdybGJRSGNsa0FtTXU0bjFlNFlyU3Ixb1ZhRXBHdXVUNjVheC1CQ1N3cWF5Y1JsV1RiQnNXbnROYmpUTFAxS0hKN1U5WHFnU3Znbw?oc=5",
       "published": "2025-05-25T23:10:00+00:00",
       "source": {
-        "name": "Stortinget",
+        "name": "Stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
     {
-      "id": "ddda52935ed8",
-      "title": "Skriftlig spørsmål fra Vigdis Giltun (FrP) til helse- og omsorgsministeren - Stortinget",
+      "id": "3ce6448d924a",
+      "title": "Skriftlig spørsmål fra Vigdis Giltun (FrP) til helse- og omsorgsministeren - Stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSGt3M3VRb1V1Q0NfLXB6d0pBOGQ2RlRlY1ctZFJod2xRQ0VLZTNTVlZEd3FrUVJBTG1RTXE4VGNQUnVKWm05NGpGcHFrb1dENUc0a2NuSnpIYmdzdUxtMDFDWXJOWk8zdV9QZldaSE9wUXV5Z21oSTNGUkR0WG52QVFiVVBDV0gtSU1JeE0tVHBqbVRXX0xndGZrWmp6ck1mWjFMSTMySDZ0azhxVC1LZHpjN2Q4ekh6YUNN?oc=5",
       "published": "2025-05-09T12:04:04+00:00",
       "source": {
-        "name": "Stortinget",
+        "name": "Stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
@@ -664,16 +674,6 @@
       }
     },
     {
-      "id": "9fb1698869d8",
-      "title": "helse, Legemiddel | Hva skjer når jeg ikke får medisinene mine? - Tønsbergs Blad",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORGI5OTBzT3ZSX29SWEU4MlFtM3N4YkU4eE5XcTNCaUQ4ZTR6VEZCMXc3RXFqUUVNUnFlQmhFRnhtYUd4YTJNQTRzbGJxUXRzeHJVYTBkdEEyM1Jvc0xHUnhUZ1Vka094aGI0OTVhT2E1QVAwelZFY1hsSzl3enlpRQ?oc=5",
-      "published": "2019-09-19T07:00:00+00:00",
-      "source": {
-        "name": "Tønsbergs Blad",
-        "url": "https://www.tb.no"
-      }
-    },
-    {
       "id": "40922de8540e",
       "title": "(+) Studie: Nye legemidler fortrenger mer helse enn de genererer - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZWppZTdqcEdaLXVQQVpnU0d2dnEzTzBJMU9BSDB2OXg5NUJ3MndpSklZUTVUNGxiR3lpU3VxbE01Q3JRMXBIVFhJQkVjcU40V3VzUjV1UlRHSW93U3pwWTZDS29xWXVqbXlFMG15Z3V2X29GTGtfb0M3Y0JpdmE0LVp4TEhoWUZub1M5Z0VYZVFuZU0wbE5tWmczc3JjdUhjTVlxSDA0Wm1kbTBST1ppZlhZNWVRLS1JRkR2Y05jNFFTREhld3ZxZnhfeHJEMTVmQVZrOTN3dV95enZVT1pMeWNTOXNtc2o2M3EyOUFyT1NQZw?oc=5",
@@ -681,6 +681,16 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
+      "id": "9fb1698869d8",
+      "title": "helse, Legemiddel | Hva skjer når jeg ikke får medisinene mine? - Tønsbergs Blad",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORGI5OTBzT3ZSX29SWEU4MlFtM3N4YkU4eE5XcTNCaUQ4ZTR6VEZCMXc3RXFqUUVNUnFlQmhFRnhtYUd4YTJNQTRzbGJxUXRzeHJVYTBkdEEyM1Jvc0xHUnhUZ1Vka094aGI0OTVhT2E1QVAwelZFY1hsSzl3enlpRQ?oc=5",
+      "published": "2019-09-19T07:00:00+00:00",
+      "source": {
+        "name": "Tønsbergs Blad",
+        "url": "https://www.tb.no"
       }
     },
     {
@@ -844,12 +854,12 @@
       }
     },
     {
-      "id": "74b1768fb912",
-      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - Stortinget",
+      "id": "25857e1c6161",
+      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - Stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVGEwRnFBUFZPeFQ5Rnl0MjY4RV9VSFRGWmJrNDVFekdxLXZHNjBjZGVHbkYyeGJLd3FjS3Y4RWRaTlVwR01yS0ZFTzRlam9jYl9zcUJGaG5FZ2NUOWg4SEpCbmJNSEdxdWpNWUlTbXBWdUJ2TFZKWDFmRTdlQU84UWY1UGhORHVYOGowdzhfcUtPeHZTZmVaMG1VQ0V4Q2pST2xRc19sdkNfOVNJS2JCWTZybDA1Z041cGc4bw?oc=5",
       "published": "2025-03-31T03:18:30+00:00",
       "source": {
-        "name": "Stortinget",
+        "name": "Stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
@@ -864,16 +874,6 @@
       }
     },
     {
-      "id": "521aa4a2cddc",
-      "title": "E-resepter hindrer ikke feilmedisinering - Forskning.no",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOWdKX3RxNVJxejFpcjJlY2ZocEtrbEw4eUItNkdsVXBfb3V3RWZoazFYcFpsTmhxVmVzQWh2OENmUFdnSkNMdnhEUDRSYVdyS0lPY2ViX0xoNVBHeGJFQmZvZ2xMWFZSanc0OE5kd2d5Si1yVmlPeF9sd3FVVEljdW1tQlEtX2lSMElFZWtXdDFYMUsxVWxTcDlhUU4wQlcxOVBLSmRCYU03QnJKTVNvZnNsNTBvVzVIaFhwVVE0MTQzLXdxSnJXRlZn?oc=5",
-      "published": "2019-10-15T07:00:00+00:00",
-      "source": {
-        "name": "Forskning.no",
-        "url": "https://www.forskning.no"
-      }
-    },
-    {
       "id": "4647ac70ecdc",
       "title": "Har varslet Datatilsynet - Helsedirektoratet",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pR09BbGR1UWE1djNhZlVwSll3UVNFS2ZxZjRyZktsWmkzMVZsUGJuM3hjek1mLTY5TzNoZTVyWS1sSEdnMUg3NU5FbE5Uams0N1ZyUWl5cEtqTVR3NEI3MjhUY1kzSGZUOGMyOTc0X1ZlUEU?oc=5",
@@ -881,6 +881,16 @@
       "source": {
         "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
+      }
+    },
+    {
+      "id": "521aa4a2cddc",
+      "title": "E-resepter hindrer ikke feilmedisinering - Forskning.no",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOWdKX3RxNVJxejFpcjJlY2ZocEtrbEw4eUItNkdsVXBfb3V3RWZoazFYcFpsTmhxVmVzQWh2OENmUFdnSkNMdnhEUDRSYVdyS0lPY2ViX0xoNVBHeGJFQmZvZ2xMWFZSanc0OE5kd2d5Si1yVmlPeF9sd3FVVEljdW1tQlEtX2lSMElFZWtXdDFYMUsxVWxTcDlhUU4wQlcxOVBLSmRCYU03QnJKTVNvZnNsNTBvVzVIaFhwVVE0MTQzLXdxSnJXRlZn?oc=5",
+      "published": "2019-10-15T07:00:00+00:00",
+      "source": {
+        "name": "Forskning.no",
+        "url": "https://www.forskning.no"
       }
     },
     {
@@ -964,16 +974,6 @@
       }
     },
     {
-      "id": "13cbd38f0124",
-      "title": "Beslutningsforum har vurdert covid-19-legemidler - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWlowa1FmOWNRQUN6QzZvcTNXNzBlUnlxZGp4aVhYQXNsX2xkazBpeUtrTXFRbWZPTWhxRXpXZmllY1VZaENPQVRjeGpZbEtLQkh5UEtEMFhrdzFYbVVtVHdDTFV1a0F4SDFSMWtVd2dXcGxHb0UzY28yZ2FuRVRwVmRjMGVyeE5CcXlQbDkyek5oVTcyazRFOElvcV80bnRHVU41MExfOFNFUXNUSml5eWx4VmUwUVotQi1rR3hB?oc=5",
-      "published": "2022-02-14T08:00:00+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
       "id": "d7840e30540b",
       "title": "Norge sender medisiner og medisinsk utstyr til Syria - Regjeringen.no",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcEZpWVJyaHcwdzluelNGS3dieWExYVJSVjRLS2ZsdzczRTBYcHdCeXNERkpHTVVVOXNFWmVBNlhwSkhMcGtvdTJQR25LZ3o3cFpZaU9ZM3VKUWFfWExtRVZvR3pCT2xoQzFXQVNuTV9sc1ZnYURBYjlzUldpMlZQeHZrR2N6ZlJGdmNoVHI3dTdWZ1pQZ3FYNU5VaFhocUdweFNn?oc=5",
@@ -984,6 +984,16 @@
       }
     },
     {
+      "id": "13cbd38f0124",
+      "title": "Beslutningsforum har vurdert covid-19-legemidler - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWlowa1FmOWNRQUN6QzZvcTNXNzBlUnlxZGp4aVhYQXNsX2xkazBpeUtrTXFRbWZPTWhxRXpXZmllY1VZaENPQVRjeGpZbEtLQkh5UEtEMFhrdzFYbVVtVHdDTFV1a0F4SDFSMWtVd2dXcGxHb0UzY28yZ2FuRVRwVmRjMGVyeE5CcXlQbDkyek5oVTcyazRFOElvcV80bnRHVU41MExfOFNFUXNUSml5eWx4VmUwUVotQi1rR3hB?oc=5",
+      "published": "2022-02-14T08:00:00+00:00",
+      "source": {
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
       "id": "d43d225b1fd8",
       "title": "Vestre: Nå kan pasienter få ja - etter nei - VG",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdDFidnJUWXZ2bTBQNTE0ZzEyYUVlWThybGNlaGt5WHlPeUhFbkJLcTZYdjBYU0gydHJSaFluMmpib1NXZWNSQ283eUNCODlJdS1tX3F2NTBicVQwVjh0bEFqUHBEeW5EZ0h4M3FUQUVTNWRuVmNsZnNrVEVGNE5QcWI4UjBNTnRi?oc=5",
@@ -991,16 +1001,6 @@
       "source": {
         "name": "VG",
         "url": "https://www.vg.no"
-      }
-    },
-    {
-      "id": "6ebb10f67b93",
-      "title": "(+) Dødelig legemiddel forsvunnet fra medisinrom - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMzBBb0dvc1dNTk9SU0w3LXNGNzg5X241YkNJMEM3NC1SemRNb1BmSDhNWThqRmFQQ21wakE2aFl1Sy16azdwbXJ6U1FocGVJdEc1VXBHUks2OXZIOWt3M01XVXZZaU9zZThVcFB6bkJwYXlfRjBoaF96cnRaZUYwYlp6aTBhdVFrR0xhSXNyeW9zdWc4eEtUT0RFUTR6aU1aOEdEbVFiWXdoMlRDU1BuUnl3S1A?oc=5",
-      "published": "2024-09-03T07:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
       }
     }
   ]
