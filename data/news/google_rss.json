@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-12T21:37:51.987043+00:00",
+  "fetched_at": "2026-04-12T22:37:26.332529+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,16 +24,6 @@
       }
     },
     {
-      "id": "f4b508446bd7",
-      "title": "Vekker bekymring – lege går ut med advarsel - smp.no",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1BNTd1MzJnYVV4Q0NyUmRzNzdxWFdXU21VZHU0d2JITXNGT2dPMHd6cFFjYTdRaWU3cFZGektCNk5XNUM0bkNyblpnMHRxV09ld1ZfM25EdnRDby0yOEpZVzBuWlVmekMxeWh0MFkyZWVGY3NsUmc?oc=5",
-      "published": "2026-04-06T20:28:43+00:00",
-      "source": {
-        "name": "smp.no",
-        "url": "https://www.smp.no"
-      }
-    },
-    {
       "id": "614743f9cafe",
       "title": "I disse fylkene bruker de mest legemidler - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYmlkLUY1UFFJVUlzcmtnaV9DblNXaTBIcWYzZzFTVGZRblBhYVAteVF4Q3h5Ym9jMUVzQVlWbk9rcFB5TUhQX2RwWkZ2NVVpTXh5VHZNRlZFbm5uY0JwX1VNWDVweWE1Q2o0SlpSOElWb0RBc0hGRVpGRzIzTEEtRWlJMGxxd3dEWnpVTGhvWVRTWWkybDMwdFJIUXlGV0NkM01vY3l5MzVmNU5OVkxJUWhXVWx3QlNKeGhYUEdfSQ?oc=5",
@@ -41,6 +31,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "f4b508446bd7",
+      "title": "Vekker bekymring – lege går ut med advarsel - smp.no",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1BNTd1MzJnYVV4Q0NyUmRzNzdxWFdXU21VZHU0d2JITXNGT2dPMHd6cFFjYTdRaWU3cFZGektCNk5XNUM0bkNyblpnMHRxV09ld1ZfM25EdnRDby0yOEpZVzBuWlVmekMxeWh0MFkyZWVGY3NsUmc?oc=5",
+      "published": "2026-04-06T20:28:43+00:00",
+      "source": {
+        "name": "smp.no",
+        "url": "https://www.smp.no"
       }
     },
     {
