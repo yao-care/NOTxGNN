@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-13T02:54:37.899662+00:00",
+  "fetched_at": "2026-04-13T05:45:17.236993+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -44,16 +44,6 @@
       }
     },
     {
-      "id": "f4b508446bd7",
-      "title": "Vekker bekymring – lege går ut med advarsel - smp.no",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1BNTd1MzJnYVV4Q0NyUmRzNzdxWFdXU21VZHU0d2JITXNGT2dPMHd6cFFjYTdRaWU3cFZGektCNk5XNUM0bkNyblpnMHRxV09ld1ZfM25EdnRDby0yOEpZVzBuWlVmekMxeWh0MFkyZWVGY3NsUmc?oc=5",
-      "published": "2026-04-06T20:28:43+00:00",
-      "source": {
-        "name": "smp.no",
-        "url": "https://www.smp.no"
-      }
-    },
-    {
       "id": "b8789af13ff6",
       "title": "Riktig medisinbruk hos eldre – hvordan får vi det til? - UiO Det medisinske fakultet",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbEdoZllLSkM0Y3BzbG1BV2JoSWhFOWg3SjYwOWJIbHN5SERXemd2dVpRWnk0VEpYOWlneW5YSllTd2tzXy1xUHBPR2wtT3hoZy01MUlvckRqRGZYMk9CM1ZWclRma1BmN3M2X3NnMm5KYXdWejV6ejlKUGw0Rzl6NUFfaGg?oc=5",
@@ -61,6 +51,16 @@
       "source": {
         "name": "UiO Det medisinske fakultet",
         "url": "https://www.med.uio.no"
+      }
+    },
+    {
+      "id": "f4b508446bd7",
+      "title": "Vekker bekymring – lege går ut med advarsel - smp.no",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1BNTd1MzJnYVV4Q0NyUmRzNzdxWFdXU21VZHU0d2JITXNGT2dPMHd6cFFjYTdRaWU3cFZGektCNk5XNUM0bkNyblpnMHRxV09ld1ZfM25EdnRDby0yOEpZVzBuWlVmekMxeWh0MFkyZWVGY3NsUmc?oc=5",
+      "published": "2026-04-06T20:28:43+00:00",
+      "source": {
+        "name": "smp.no",
+        "url": "https://www.smp.no"
       }
     },
     {
@@ -894,16 +894,6 @@
       }
     },
     {
-      "id": "56f5a27e46ff",
-      "title": "Mange blir følelses­messig sløve av anti­depressiver. Nå vet forskerne hvorfor - Forskning.no",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMUIyMTFwanVkb1RqRkZ3WGdzNXlqS3k1Ym50V1d4SU4yZS0xNXFCN2VpblB0OEE0YVdLcUZ4cHhHYU5xVjd6VXdkeVRpd2hkR1hFVkU3VC1sOFhCN2FRbjlHc1dENkloTnhKZFV3VTFaLWtOMGVkeU9OcGt3amlXNmFndWJpLS1vN3pFcC01cGJVTV83Mk5CVkFzNlNBUGc3WUxpMXJ1d044UXQxV29GZE9NcFU4dXUyTUxleS1DcHNDUXNZNmFCM0s5Q21ieHo3Q0hBRktwdVhJZ0J6MFE?oc=5",
-      "published": "2023-01-30T08:00:00+00:00",
-      "source": {
-        "name": "Forskning.no",
-        "url": "https://www.forskning.no"
-      }
-    },
-    {
       "id": "67c20f467065",
       "title": "4. mars innføres nye DIPS Medikasjon (e-resept) i sykehusene - Helse Nord RHF",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE14bEVJTU9PM0FJU0RBZUlSYzFTdm5zQ09iTTdRd2xwVjM1enNXd3V0Skc2UGlQdU0wMGtGdFpsR2VCaHlPeGdKM1lnaVBzNGM4SWRvSG9LSjZGa0JfLURhZTRGcXMyWGJXUVBBQmhn?oc=5",
@@ -911,6 +901,16 @@
       "source": {
         "name": "Helse Nord RHF",
         "url": "https://www.helse-nord.no"
+      }
+    },
+    {
+      "id": "56f5a27e46ff",
+      "title": "Mange blir følelses­messig sløve av anti­depressiver. Nå vet forskerne hvorfor - Forskning.no",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMUIyMTFwanVkb1RqRkZ3WGdzNXlqS3k1Ym50V1d4SU4yZS0xNXFCN2VpblB0OEE0YVdLcUZ4cHhHYU5xVjd6VXdkeVRpd2hkR1hFVkU3VC1sOFhCN2FRbjlHc1dENkloTnhKZFV3VTFaLWtOMGVkeU9OcGt3amlXNmFndWJpLS1vN3pFcC01cGJVTV83Mk5CVkFzNlNBUGc3WUxpMXJ1d044UXQxV29GZE9NcFU4dXUyTUxleS1DcHNDUXNZNmFCM0s5Q21ieHo3Q0hBRktwdVhJZ0J6MFE?oc=5",
+      "published": "2023-01-30T08:00:00+00:00",
+      "source": {
+        "name": "Forskning.no",
+        "url": "https://www.forskning.no"
       }
     },
     {
