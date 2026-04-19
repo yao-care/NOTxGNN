@@ -65,13 +65,13 @@ class BaseNotesWriter(ABC):
         else:
             evidence_json = evidence_pack
 
-        user_message = f"""Please generate a report based on the following Evidence Pack:
+        user_message = f"""請根據以下 Evidence Pack 產生報告：
 
 ```json
 {evidence_json}
 ```
 
-Please output the report in Markdown format following the specified section order.
+請按照指定的章節順序輸出 Markdown 格式的報告。
 """
 
         response = self.llm_client.chat_with_prompt_file(
@@ -87,6 +87,7 @@ Please output the report in Markdown format following the specified section orde
 
         Removes markdown code block wrappers if present.
         """
+        # Remove markdown code block wrappers
         if response.startswith("```markdown"):
             response = response[len("```markdown"):].strip()
         elif response.startswith("```md"):

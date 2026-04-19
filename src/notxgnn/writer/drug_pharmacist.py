@@ -14,6 +14,7 @@ class DrugPharmacistNotesWriter(BaseNotesWriter):
     - Drug-level safety (ADR, contraindications, DDI)
     - Per-indication considerations
     - Monitoring and patient education
+    - Taiwan availability
     """
 
     writer_type = "drug_pharmacist"
