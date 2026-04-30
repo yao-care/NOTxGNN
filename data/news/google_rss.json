@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-30T18:10:46.598929+00:00",
+  "fetched_at": "2026-04-30T20:09:47.838803+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,16 +14,6 @@
       }
     },
     {
-      "id": "c78bcb2e6481",
-      "title": "Livene til flere kunne sett annerledes ut - ABC Nyheter",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM2ExSGhTbHNFal95VVFMMWp4ZDJWOU9ZYzAzbTNfUnRUVk4tS0IwV3Fybkl2VVhZRzlxa05wRFhoUHNSUlYybzRoYzduWjNiM3NvdlNndV9JUGF5QjRhN2Z2SVFMdGhJOWxpUW10RDNiV3J0X2tZT1NLRFVhSnpoVnJPYTdzNDNQdTgzckJveWFibXNmZnN5Zll3QkNRZw?oc=5",
-      "published": "2026-04-24T11:18:25+00:00",
-      "source": {
-        "name": "ABC Nyheter",
-        "url": "https://www.abcnyheter.no"
-      }
-    },
-    {
       "id": "055bde4d929d",
       "title": "Flere eldre kan hente medisin på apotek - Bergen kommune",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUUt4cU1YcTRnVzJsQUNJQ1BMRTJEWGl5bmdEVlYwZXpmb1pEaVA0d20yczVIR2ZyRE83MloyWDVrbGJhd0lXTU0yMmZUYjdrLW9aUW9vV2xLTXBUaXlRcFN3cXNjY0cyU1FLbldLX3FPTWJJdmVIX2FrSmE2NGp1OGphenNmVTl5UXF0WEhObC1tWElMVkF6S3BPQ1gzcml6MDBPTkcwcFRDUQ?oc=5",
@@ -31,6 +21,16 @@
       "source": {
         "name": "Bergen kommune",
         "url": "https://www.bergen.kommune.no"
+      }
+    },
+    {
+      "id": "c78bcb2e6481",
+      "title": "Livene til flere kunne sett annerledes ut - ABC Nyheter",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM2ExSGhTbHNFal95VVFMMWp4ZDJWOU9ZYzAzbTNfUnRUVk4tS0IwV3Fybkl2VVhZRzlxa05wRFhoUHNSUlYybzRoYzduWjNiM3NvdlNndV9JUGF5QjRhN2Z2SVFMdGhJOWxpUW10RDNiV3J0X2tZT1NLRFVhSnpoVnJPYTdzNDNQdTgzckJveWFibXNmZnN5Zll3QkNRZw?oc=5",
+      "published": "2026-04-24T11:18:25+00:00",
+      "source": {
+        "name": "ABC Nyheter",
+        "url": "https://www.abcnyheter.no"
       }
     },
     {
@@ -274,12 +274,12 @@
       }
     },
     {
-      "id": "1beecb8cc69e",
-      "title": "243 alvorlige hendelser knyttet til feilmedisinering ble meldt inn – 89 av disse var fatale - Sykepleien",
+      "id": "7fdf440119aa",
+      "title": "243 alvorlige hendelser knyttet til feilmedisinering ble meldt inn – 89 av disse var fatale - sykepleien.no",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR0VKYmVpWU0xZl9qS2hORmdIYWhVYTR1TTBOeUVDcVRrRzNpU1pGNk5VWnk1T1ZpRlBWRldkWks3RWM0bXpBYTRaU1U5NnFzM2NZOEdzTl81bklWTTZqV293UHFNWkx6Z1BPS2pJN2N0XzBmbmNhMWJVTFp4VkFzZ1l2bnlvVkh2clFmWTYzdDM4N0dhNGtPMTdXUlU3Q3h1VU9pSC0zdUZlZGNZdmxDRUtzQzVNdFdzVWVn?oc=5",
       "published": "2025-08-14T07:00:00+00:00",
       "source": {
-        "name": "Sykepleien",
+        "name": "sykepleien.no",
         "url": "https://sykepleien.no"
       }
     },
@@ -534,16 +534,6 @@
       }
     },
     {
-      "id": "391e27c9c3de",
-      "title": "Flere medisiner fases ut: – Haster med å kontakte lege - Tidens Krav",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORUNzQ1FESXg2VWhPSWRJNTRfdlFoTW1GeVVzOTgwVlNJM0tCTHVxenJyV3lGdlZOaERKT1ZwNjU0NmlDQ2hUQ3lFZWVjLTJ1SHVSRXRTSjhEVUNpN2h0eEJWOHo5aERSQ2RyS1R6U1FXalRxM2NJZ3dQUld6Nllwcl93YzJQVEpyRTh6bA?oc=5",
-      "published": "2026-04-29T16:47:21+00:00",
-      "source": {
-        "name": "Tidens Krav",
-        "url": "https://www.tk.no"
-      }
-    },
-    {
       "id": "2e5108ce05d3",
       "title": "Politisk opprør mot medisin-treghet – vil legge ned Beslutningsforum - VG",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQakNBTWRIODFobmlMV2l3cG5NNTlza0RIVmhnRnp0V0FGWWZOalRMLXhCRm14dlc1emFPSk9QcE4zVzFkcEUzbTR2MDBORU9WbVRVX3NpYlljcE81c1hxZDhVbXRndzFnb0VaSTdjUzNZSTk5a19ydTlTdkNCemhXbTd2WHhGNERHTVNWUURWeGttUGNiMGhMNmlPYTI2U05xRkthSw?oc=5",
@@ -641,6 +631,16 @@
       "source": {
         "name": "Aftenposten",
         "url": "https://www.aftenposten.no"
+      }
+    },
+    {
+      "id": "391e27c9c3de",
+      "title": "Flere medisiner fases ut: – Haster med å kontakte lege - Tidens Krav",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORUNzQ1FESXg2VWhPSWRJNTRfdlFoTW1GeVVzOTgwVlNJM0tCTHVxenJyV3lGdlZOaERKT1ZwNjU0NmlDQ2hUQ3lFZWVjLTJ1SHVSRXRTSjhEVUNpN2h0eEJWOHo5aERSQ2RyS1R6U1FXalRxM2NJZ3dQUld6Nllwcl93YzJQVEpyRTh6bA?oc=5",
+      "published": "2026-04-29T16:47:21+00:00",
+      "source": {
+        "name": "Tidens Krav",
+        "url": "https://www.tk.no"
       }
     },
     {
@@ -884,12 +884,12 @@
       }
     },
     {
-      "id": "ce88c37539ff",
-      "title": "Helseministeren lover kortere ventetid på godkjenning av medisiner - Sykepleien",
+      "id": "244a945e9163",
+      "title": "Helseministeren lover kortere ventetid på godkjenning av medisiner - sykepleien.no",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQck9HWVFjamtSU0dLX21NUzVFZGtWSG4xdVFyS1Q3Y0VpbHVCcXpUX3FSdndsT29SQ19MbzR0b2lWdmFYYVFDd2c2Z01aZ2YwVF9BMmlyRDNydm9ndEU0c3dVRTJySW5EUVU4eURCOW5pS0VpMWZzcE91R2ZBSnFmQVIzeEZ1TGtPUjVsREE5WWN6aTdMdVlWVHRoeDQ?oc=5",
       "published": "2024-07-08T07:00:00+00:00",
       "source": {
-        "name": "Sykepleien",
+        "name": "sykepleien.no",
         "url": "https://sykepleien.no"
       }
     },
@@ -914,16 +914,6 @@
       }
     },
     {
-      "id": "a56b7bdea939",
-      "title": "Medisin-tall blir verre: –⁠ Dette går ikke lenger - VG",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNV0R2VzZpY283eWs3M2l2cDBsY3l3VFdONWxuVUotSUNqWm5DYmVKTmk0T1N0UGs0d3VvWlZ5d2RZSjNNRldUVUIyNTVuMGNDdE83UlZIQVBnRnBtYURKV1ZjdjhtMUl5TDVjZ0Rld1BOMjdXcDgtc0gxbEpocHRDOUhPQnR4Slhf?oc=5",
-      "published": "2024-06-12T07:00:00+00:00",
-      "source": {
-        "name": "VG",
-        "url": "https://www.vg.no"
-      }
-    },
-    {
       "id": "a48e1315db07",
       "title": "Sa ja til legemiddel mot atopisk eksem - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdlpucDdoUXctazhkTGdhdUFqNl9SUEtKWHJiLWJSTGdfVzJoRHg3Z0RvZUVaYWxNdkJhRUFUME03SlFqZThEaGJEd0w5em9ncTRFcjZwc1I5bTJleU9nRkkzVXU0aVVDZDNKbkpBd0RndElfY2RhbE1TdjZBcjJwbzFBU1BhRWNjWXB4NjluNDZfay1sbmdxX2NSSWt4WkItZmdncEt5emI?oc=5",
@@ -931,6 +921,16 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
+      "id": "a56b7bdea939",
+      "title": "Medisin-tall blir verre: –⁠ Dette går ikke lenger - VG",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNV0R2VzZpY283eWs3M2l2cDBsY3l3VFdONWxuVUotSUNqWm5DYmVKTmk0T1N0UGs0d3VvWlZ5d2RZSjNNRldUVUIyNTVuMGNDdE83UlZIQVBnRnBtYURKV1ZjdjhtMUl5TDVjZ0Rld1BOMjdXcDgtc0gxbEpocHRDOUhPQnR4Slhf?oc=5",
+      "published": "2024-06-12T07:00:00+00:00",
+      "source": {
+        "name": "VG",
+        "url": "https://www.vg.no"
       }
     },
     {
