@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-05-02T21:42:47.585891+00:00",
+  "fetched_at": "2026-05-02T22:45:38.349160+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "b897f53b9f77",
-      "title": "Helse, Legemidler | Flere medisiner fases ut: – Haster med å kontakte lege - Bladet Vesterålen",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc1FCbS1PLXZQN2p2THZ4QUhKSmJ2NWV3RHZ6R2YwYXhTcU5XQW9tY05YUUNZUXpNSmtZMW9STlVBUnRHMXZ3eWoxZUhPYl82SUgxLWhTU0YwendFeUFqTEZXWlF0NktvQjV1cWdOaGcybnlabUZFMFZzWXZWZnlNQ3p6MTVOWkJmSVpB?oc=5",
-      "published": "2026-04-29T05:29:06+00:00",
+      "id": "c7219155a3dd",
+      "title": "Diabetes, Helse | Flere medisiner fases ut: – Haster med å kontakte lege - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdkJtcEFHMlBreGxvTGRwM3RtOU5WRVpoOEpSMmV4ZEppcl9JdlhxTEUteDI4VWE4Szd4QXJER0F0ZTE4MGdyMkc3YWlKbzNZa2hvLXctM3FueEN1NWx2MDl0ZEdRa1lTR3NHZ0ZWNXdneVNWTVBlb2d0TFhqa043TU56bU40T1E3ckJ2Vk5rMVp0bUs2NDZLNFNueFlDdTFsTWc?oc=5",
+      "published": "2026-05-01T16:16:38+00:00",
       "source": {
-        "name": "Bladet Vesterålen",
-        "url": "https://www.blv.no"
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     },
     {
