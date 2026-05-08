@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T05:58:56.337028+00:00",
+  "fetched_at": "2026-05-08T07:53:02.666056+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,10 +24,10 @@
       }
     },
     {
-      "id": "d63eed2b1cab",
-      "title": "(+) Mange pasienter ber fastlegen om resept på slankemedisin: – Lettest å si ja - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNb2w0N0wyNHh1eEI1bVlvcXpKUnRTVk5yOHZEMFJaU3RUUFFjZ0lLZmhnV2xJd2hKTWJhUU1KTTJQMzc3d1JBMkw2bEVQUnJ5LUpSUHdhNjBUN0tUenhRQkhPc2NlRGczeUt5Tkg2dWhmVjlSdWlhWEVFWThZcUtVSDNGZ0ZWSVpMa3pTbnJBTFVlZ3dpTnJxb0FoVzJzRm5UMVNDa1hNemtSb1dVYk0tZmlwSm5kNnBpUVRjSThtNk5reUpTZmlKNm9MY1J4a003VHhaYk1lR0x6NzI5?oc=5",
-      "published": "2026-05-07T12:41:56+00:00",
+      "id": "36e827e0be01",
+      "title": "(+) Anbefaler tilbakeholdenhet for SMA-legemiddel - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNckJjNjhBdU0tWklTV1EwcDZIQ242MUkzenpERXdIb2xMMDItTnlXbVN2Ylh3bTFCc2VkMTR2VWtEV19nMkR0RENzSFp4OEpxcGgwYl9HUGRvcXlQT1NpMEc2dVRyTVUwSzlqN0dGajBhdFJybDlZelhkYTJLay1sZDJ4M09zMFhnUlNPZDJmN2RSbUo5bVlIUHVMQnZGc3RpWV8zMFo4MnJSWWZMcjVJYWVqQjZUUTE5aEZueDE1OXlrMGw3U3NIWTR3?oc=5",
+      "published": "2026-05-05T09:57:41+00:00",
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
@@ -64,13 +64,13 @@
       }
     },
     {
-      "id": "a896cac9c867",
-      "title": "(+) Regjeringen nedsetter ekspertgruppe om tidlig tilgang til legemidler - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNYkkzcGZLNmZSYk43bmZNR1o0c0xnS1BYQUNPdU5qNWQ0NE4yRkpaZU5xRTdzVXFrTWVoTWdWcjBOQXpTYlN4djQ4M0dPalR5NHJtTjdnTkhyeFM0TV9ycmhsdm9EMlA4YlZERTRLQ29IUE5XUy1reUZYYzV2NklhRDRiN0I0TGM2VjRTb1BHYm5ndzNCbHE5QnBvVmFuYnBkZkxoWVpFa19XY09yWnJCdm5XTG1iMFhyUWpUaFZnYUl0SldpcDVLMGc1eDRkMVpQUVUyeHlxR1JHSE51R3hfWkpJOHdXaERmZW9SU2xsQl9lWmhveW5iWEVEWmFWaG11NW5hTTRXVHl6UQ?oc=5",
-      "published": "2026-05-04T08:33:25+00:00",
+      "id": "8da62c3ce024",
+      "title": "Det finnes ingen kur mot ALS. Kan Vestres nye grep hjelpe? - TV2.no",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa1dmNmpSN20zZkdIRy1ZZ1JiZ09EaDJja2IzSTdHc1VyLWQxRXdkT2pPRUFtSlRQRG80Uno5OUpxYXVuQXNxc2UxbjZDNlpib3JVVVZpVDFsUV9GWm1aSGczaDFEMC1PSGdHWHdEVU9NOWZKbWtCcWllM2pqd0dFSUVVbGZ1T1NoTU5lMmZZOWdIcC1mVXZtcA?oc=5",
+      "published": "2026-04-28T07:00:00+00:00",
       "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
+        "name": "TV2.no",
+        "url": "https://www.tv2.no"
       }
     },
     {
@@ -91,6 +91,16 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
+      }
+    },
+    {
+      "id": "d63eed2b1cab",
+      "title": "(+) Mange pasienter ber fastlegen om resept på slankemedisin: – Lettest å si ja - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNb2w0N0wyNHh1eEI1bVlvcXpKUnRTVk5yOHZEMFJaU3RUUFFjZ0lLZmhnV2xJd2hKTWJhUU1KTTJQMzc3d1JBMkw2bEVQUnJ5LUpSUHdhNjBUN0tUenhRQkhPc2NlRGczeUt5Tkg2dWhmVjlSdWlhWEVFWThZcUtVSDNGZ0ZWSVpMa3pTbnJBTFVlZ3dpTnJxb0FoVzJzRm5UMVNDa1hNemtSb1dVYk0tZmlwSm5kNnBpUVRjSThtNk5reUpTZmlKNm9MY1J4a003VHhaYk1lR0x6NzI5?oc=5",
+      "published": "2026-05-07T12:41:56+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -164,10 +174,10 @@
       }
     },
     {
-      "id": "36e827e0be01",
-      "title": "(+) Anbefaler tilbakeholdenhet for SMA-legemiddel - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNckJjNjhBdU0tWklTV1EwcDZIQ242MUkzenpERXdIb2xMMDItTnlXbVN2Ylh3bTFCc2VkMTR2VWtEV19nMkR0RENzSFp4OEpxcGgwYl9HUGRvcXlQT1NpMEc2dVRyTVUwSzlqN0dGajBhdFJybDlZelhkYTJLay1sZDJ4M09zMFhnUlNPZDJmN2RSbUo5bVlIUHVMQnZGc3RpWV8zMFo4MnJSWWZMcjVJYWVqQjZUUTE5aEZueDE1OXlrMGw3U3NIWTR3?oc=5",
-      "published": "2026-05-05T09:57:41+00:00",
+      "id": "d69df9c5d54c",
+      "title": "(+) Tall fra FHI: Ti prosent av alle norske kvinner i 50-årene bruker slankemedisin - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPb2lldlFPU0o3Z2tWRjB0a29lSW5ndmN1VjdNWlp2M1JSN282UnVwSUp1WUNzMDNqQmc0TVltNU5aRWd0RXVCOWZNaGhHNGp2N0RQOHlERVRVSGhCcDVNOG1ZTnFLMjFNYXdraTlFRW5yNGtMTEhyMTBYMURtbWZiUklaUVFPdW5qVHhwZXZZWE9Lay1sTThxeGNPZ1MzSERaVjFhYWIway1TTTRJYVBXOEwxR211ZHFuUmVBczRJeVVfUlhnQ2REc1hrX2tUdEc5N0t2ZERxQ1doMW16T3ZlelpXNGhUWmljaHpOdXhxVQ?oc=5",
+      "published": "2026-05-06T02:00:00+00:00",
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
@@ -181,16 +191,6 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
-      }
-    },
-    {
-      "id": "d69df9c5d54c",
-      "title": "(+) Tall fra FHI: Ti prosent av alle norske kvinner i 50-årene bruker slankemedisin - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPb2lldlFPU0o3Z2tWRjB0a29lSW5ndmN1VjdNWlp2M1JSN282UnVwSUp1WUNzMDNqQmc0TVltNU5aRWd0RXVCOWZNaGhHNGp2N0RQOHlERVRVSGhCcDVNOG1ZTnFLMjFNYXdraTlFRW5yNGtMTEhyMTBYMURtbWZiUklaUVFPdW5qVHhwZXZZWE9Lay1sTThxeGNPZ1MzSERaVjFhYWIway1TTTRJYVBXOEwxR211ZHFuUmVBczRJeVVfUlhnQ2REc1hrX2tUdEc5N0t2ZERxQ1doMW16T3ZlelpXNGhUWmljaHpOdXhxVQ?oc=5",
-      "published": "2026-05-06T02:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
       }
     },
     {
