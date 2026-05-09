@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-09T21:48:24.274395+00:00",
+  "fetched_at": "2026-05-09T22:49:55.267427+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -44,16 +44,6 @@
       }
     },
     {
-      "id": "5cb58eedeecb",
-      "title": "ILB-strid utløste politisk pålegg: Nå skal ekspertgruppe utrede tidlig tilgang til legemidler - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWmxDeHNuLUtSSmY3UHF0ekpyMXNGRFZQb0pIbHMxNE1ocDdielpaT1BESzY4NFFjbjFub2hpeG9RUUwwSDZNdnpHZERzaV92QnUxcEt3T2ZueE5rekNYSk41TXcwQmdKczFkVVU4RndqNkcyT1pjbEd0R0lYN0JLOHREVE9sQ0tZb191am1oTnR4c1NkUFlYNFY5alJ5SHJ4VFFVV1dEVmZOM0pyQ2RpOEdPdnNveUw0cTlETnpPREk?oc=5",
-      "published": "2026-05-04T06:28:21+00:00",
-      "source": {
-        "name": "HealthTalk",
-        "url": "https://www.healthtalk.no"
-      }
-    },
-    {
       "id": "6e67e68125cb",
       "title": "Overgangsalderen: Hyller medisinfritt grep - Dagbladet",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUi1wa1ZzZHI0RWwwTkIweDh2ZzF5TEFVUkNrNzJMMWY1V0RWV3RlcEd3Y2k3Mk04eUlfOEtzcXBQZ3hNMGZDS0g2ZG9Hc0xTbG0tOVQyLTh5WGZFMFh0UFQtSzZKYXNyUUdxdnJyQ0w4dFFOWjdIQzh6bWM5Rk5XdlROYlNYTUU?oc=5",
@@ -61,6 +51,16 @@
       "source": {
         "name": "Dagbladet",
         "url": "https://www.dagbladet.no"
+      }
+    },
+    {
+      "id": "5cb58eedeecb",
+      "title": "ILB-strid utløste politisk pålegg: Nå skal ekspertgruppe utrede tidlig tilgang til legemidler - HealthTalk",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWmxDeHNuLUtSSmY3UHF0ekpyMXNGRFZQb0pIbHMxNE1ocDdielpaT1BESzY4NFFjbjFub2hpeG9RUUwwSDZNdnpHZERzaV92QnUxcEt3T2ZueE5rekNYSk41TXcwQmdKczFkVVU4RndqNkcyT1pjbEd0R0lYN0JLOHREVE9sQ0tZb191am1oTnR4c1NkUFlYNFY5alJ5SHJ4VFFVV1dEVmZOM0pyQ2RpOEdPdnNveUw0cTlETnpPREk?oc=5",
+      "published": "2026-05-04T06:28:21+00:00",
+      "source": {
+        "name": "HealthTalk",
+        "url": "https://www.healthtalk.no"
       }
     },
     {
@@ -394,12 +394,12 @@
       }
     },
     {
-      "id": "2d671a3cfb99",
-      "title": "Line merker at flere jakter på medisiner: – Skaper frykt - Østlands-Posten",
+      "id": "1cd75c5f5140",
+      "title": "Line merker at flere jakter på medisiner: – Skaper frykt - op.no",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObm5jS0wtaHBnLVJZSmVENUpON3lJeUhOZjBtZVF2N0hvbEMxZUp5YUZsTEd4NUY5MHMtZENBc3FraWdlVHBOZ01KYW9EcFBJdU9RSWhlWVQ0Z0FhQ0NaT2tQWWZFVWNydlNhbEU2ZEhNQ0EtaXBrMTAxVkYyX2pSU0FuWHFyR0w1RW8xSk5ZUjRyUlF2VmMtTDJB?oc=5",
       "published": "2026-04-08T07:00:00+00:00",
       "source": {
-        "name": "Østlands-Posten",
+        "name": "op.no",
         "url": "https://www.op.no"
       }
     },
@@ -934,16 +934,6 @@
       }
     },
     {
-      "id": "c4c7cdda9c7e",
-      "title": "Betennelsesdempende medisiner kan hjelpe virus med å spre seg - Gemini.no",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYW1OcnhVa0ROdEdMMHB3ME9aR3BqYklPWEh5QWJUODAtcEsxT284eXFBa0xldHNycE1TbjJCSE5EMThsZkhxaTZFWEhYYkx0MTVYdjhPMkRVMllzUndmcUlsa3FNbTJtRktObVFiYkVGbk50ODU0cHN0QWVva29OZWVJc2RyUlBIbHVTYXExUi1WUQ?oc=5",
-      "published": "2025-05-18T07:00:00+00:00",
-      "source": {
-        "name": "Gemini.no",
-        "url": "https://gemini.no"
-      }
-    },
-    {
       "id": "78587368e29d",
       "title": "Folk med psykiske lidelser får mer medisiner og flere bivirkninger – og det er «ikke særlig effektivt» - Forskning.no",
       "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQMm9Ub2kxNTB3SDFPLWllZlhTcnhEcE54RVZ2MmxGclBlM2psenBVVmF6UldMNzVJYmMzVW5vMGkzb2hVUnVRb2pVTVZuVXJHWU1JWUNDbHRDdm1UdWJyT1Fzc091R0hnd3ZlRzV2Vl9QS2ptT3NiNDU2NnpTZXJCVFp3RDNwUUtrMzVtcUVZMUh4RnYxUWd4OS16LWlnRFhMX05kOU96cEFUdFg2OGdRQmJPWnRhMVhqNzJmbTc0cXRxRGQ1YzBOeWNxMGJreUh1dDhzNFRucWF4R2VEdVZlc2plcTFUNlo0QjMtSk9CVmxJakVORjhpYTBhMVd6UQ?oc=5",
@@ -951,6 +941,16 @@
       "source": {
         "name": "Forskning.no",
         "url": "https://www.forskning.no"
+      }
+    },
+    {
+      "id": "c4c7cdda9c7e",
+      "title": "Betennelsesdempende medisiner kan hjelpe virus med å spre seg - Gemini.no",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYW1OcnhVa0ROdEdMMHB3ME9aR3BqYklPWEh5QWJUODAtcEsxT284eXFBa0xldHNycE1TbjJCSE5EMThsZkhxaTZFWEhYYkx0MTVYdjhPMkRVMllzUndmcUlsa3FNbTJtRktObVFiYkVGbk50ODU0cHN0QWVva29OZWVJc2RyUlBIbHVTYXExUi1WUQ?oc=5",
+      "published": "2025-05-18T07:00:00+00:00",
+      "source": {
+        "name": "Gemini.no",
+        "url": "https://gemini.no"
       }
     },
     {
