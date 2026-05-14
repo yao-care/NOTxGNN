@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-14T10:20:27.800818+00:00",
+  "fetched_at": "2026-05-14T12:26:25.252755+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -204,16 +204,6 @@
       }
     },
     {
-      "id": "4c70b95b1e4e",
-      "title": "(+) Mange pasienter ber fastlegen om resept på slankemedisin: – Lettest å si ja - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQWZVMkVkemxVb0hHRHFRcm1lc0hzWjhraUl2cGU2VmV5Mm1paTVjR2RjQ1dELVJtRE1mR0J5UVNqd2tIWW9fNU45ZVVVeGNrWWFkVlVQZXBwZGVQRmdzamo3WkVhN0JUd0JVcklPLVVsbmx6dW9LVi1TTmNCbXFPWFhwcFBoRHF4SzUwRVlIN3UzRl9MNTJybkN4RDJ4MmdDZi1nblQzQWRZcG5NMHBuUUdhSjBqUkdPcFdkWUNmcS1qX1BzdkRHbGgyN1lPRjY5MVVnV0JUY1ROUzdWZlE?oc=5",
-      "published": "2026-05-07T12:41:56+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
       "id": "a6ad94598cf6",
       "title": "Viktige helseendringer i 2026: Hva betyr det for deg? - HealthTalk",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUjB5ZzVjN0lYc19UdUZENVF3ekFnMTJvN0JORWRNSTh2OGhFemR5cmc3TndCNzRfMjdCclg3cnd4endoY3JDUUFUUlZqaE5QbXh3SHo1STNZVldJeUI5NWtIRzRtLUZvWFJxN3RtME1mVm1IU1I0Q3JxLUZIUmlCSno1QlgwRFdHYTg5RnZEa0JwRzZOUWNFbjZhQ3M2czlENmpRMWJBMGpQbWRfMVkw?oc=5",
@@ -251,6 +241,16 @@
       "source": {
         "name": "Telemarksavisa",
         "url": "https://www.ta.no"
+      }
+    },
+    {
+      "id": "4c70b95b1e4e",
+      "title": "(+) Mange pasienter ber fastlegen om resept på slankemedisin: – Lettest å si ja - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQWZVMkVkemxVb0hHRHFRcm1lc0hzWjhraUl2cGU2VmV5Mm1paTVjR2RjQ1dELVJtRE1mR0J5UVNqd2tIWW9fNU45ZVVVeGNrWWFkVlVQZXBwZGVQRmdzamo3WkVhN0JUd0JVcklPLVVsbmx6dW9LVi1TTmNCbXFPWFhwcFBoRHF4SzUwRVlIN3UzRl9MNTJybkN4RDJ4MmdDZi1nblQzQWRZcG5NMHBuUUdhSjBqUkdPcFdkWUNmcS1qX1BzdkRHbGgyN1lPRjY5MVVnV0JUY1ROUzdWZlE?oc=5",
+      "published": "2026-05-07T12:41:56+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -714,12 +714,12 @@
       }
     },
     {
-      "id": "395f71766c0b",
-      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - Stortinget",
+      "id": "bb3f7fd4a136",
+      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - Stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVGEwRnFBUFZPeFQ5Rnl0MjY4RV9VSFRGWmJrNDVFekdxLXZHNjBjZGVHbkYyeGJLd3FjS3Y4RWRaTlVwR01yS0ZFTzRlam9jYl9zcUJGaG5FZ2NUOWg4SEpCbmJNSEdxdWpNWUlTbXBWdUJ2TFZKWDFmRTdlQU84UWY1UGhORHVYOGowdzhfcUtPeHZTZmVaMG1VQ0V4Q2pST2xRc19sdkNfOVNJS2JCWTZybDA1Z041cGc4bw?oc=5",
       "published": "2025-03-31T03:18:30+00:00",
       "source": {
-        "name": "Stortinget",
+        "name": "Stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
@@ -744,12 +744,12 @@
       }
     },
     {
-      "id": "dc729cd35039",
-      "title": "Skriftlig spørsmål fra Ruth Grung (A) til helse- og omsorgsministeren - Stortinget",
+      "id": "7b1417e41990",
+      "title": "Skriftlig spørsmål fra Ruth Grung (A) til helse- og omsorgsministeren - Stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVWMzcldIT21vTndtal81NV8yM3UwSEVIUGVZMy1xYndVZ1lBUkk1bmVqNUdBOElOOW1wR1pySXdkUW4taWRUMm9oU2x0QUpfWjNBSUZ5SnVYUU94TUpEWmRlaExZSkp2UE9VdW44VV9NWEdWNEJETGdoa09HSm4wS25iRC14QUY5U1lJNmdld3loNEpzUEQxZDk2ZmZnaVd4amxGTDJrOXFNQl9lbi1JUy1GSWszaS11WUNR?oc=5",
       "published": "2025-05-12T01:13:37+00:00",
       "source": {
-        "name": "Stortinget",
+        "name": "Stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
