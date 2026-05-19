@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-05-19T19:01:56.797935+00:00",
+  "fetched_at": "2026-05-19T21:21:19.160075+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "4cb59c666e4f",
-      "title": "Norge i Europatoppen med å innføre viktige, nye legemidler - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWGdUS0xWenVsYmh5eG00LWtFX1NIcVYzNy11U0VEdGNidU8ya0lTSDl3amN6eUljeDlXM2xHZkdPTGNnX2Q4cHliS2xpWjdsLTFabXlVc1ZPMmszNDlxa2RjVVpEOEdkak55NmtRbnplbDlNN1RzRUtxLUxSVnRDTE0tSEFJZnJRT0FMcHlCTUNpY3JrZy1oam4yNFRBUkg1ZUstdUVSOTRUc3NVaTBMeDQyMHhSYm0wdmVtTndRRzg0YUprbHBaaFJFT1h6T3ItVm9VdA?oc=5",
-      "published": "2026-05-19T09:19:52+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
-      }
-    },
     {
       "id": "6114145eccc5",
       "title": "Slår alarm om medisiner - VG",
@@ -21,6 +11,16 @@
       "source": {
         "name": "VG",
         "url": "https://www.vg.no"
+      }
+    },
+    {
+      "id": "e674f8339a75",
+      "title": "Tilgangen til nye medisiner stuper – nede i 35 prosent - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcVRnSV9XNlJBNGVIMlVnSEI4Sk9udGFkNGlXSDVrQU1vczdyY0pJRmlXSzRoZ1d6YmJRRVlXN0o1R1VXdS1tVmNUYm5XM1V4eXdFVEJKVWt4Tlc4bk5yQTVBVWMyYVhaV05jY3VPZC1Mb2d3UnhPbDQ2aDJYZnBSMkY3N0pFTDJrcF9DS0JJOG8wOFZXNnoySzVTOFZTeUZDbFk2Qzd6dFFSWUxwdkNQMUdkUXhmMUhQNVZJLWhXTUVQVGRMc2hQYUF4NlNPdw?oc=5",
+      "published": "2026-05-19T07:19:21+00:00",
+      "source": {
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
@@ -51,16 +51,6 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
-      }
-    },
-    {
-      "id": "e674f8339a75",
-      "title": "Tilgangen til nye medisiner stuper – nede i 35 prosent - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcVRnSV9XNlJBNGVIMlVnSEI4Sk9udGFkNGlXSDVrQU1vczdyY0pJRmlXSzRoZ1d6YmJRRVlXN0o1R1VXdS1tVmNUYm5XM1V4eXdFVEJKVWt4Tlc4bk5yQTVBVWMyYVhaV05jY3VPZC1Mb2d3UnhPbDQ2aDJYZnBSMkY3N0pFTDJrcF9DS0JJOG8wOFZXNnoySzVTOFZTeUZDbFk2Qzd6dFFSWUxwdkNQMUdkUXhmMUhQNVZJLWhXTUVQVGRMc2hQYUF4NlNPdw?oc=5",
-      "published": "2026-05-19T07:19:21+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
@@ -794,16 +784,6 @@
       }
     },
     {
-      "id": "e0653019e7c5",
-      "title": "Stortinget vil endre hva samfunnet er villig til å betale for liv og helse - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUkx6TUJac0otdC0wREVGYXZ1TjBtRUlGSGRQQlBlb0M3dG5yRS1jLXZoUWdYTVBCUVBfZnFSenpoUVRkcy03OGsyQlE4eXA2MzFPcmFJUzdQQUdDb3VVNnJRZlVHX0RvSTd6TV95MjNjQ2VreGhfYXZJY19TUFlTUzIydmJxN0xONVQ4TjQzR1Y0TXZqMl9tLWZ4ZnFZV2FnV1BDTmJIbVNUX2JHd0R5TlJYVUVTQ3lr?oc=5",
-      "published": "2025-05-28T07:00:00+00:00",
-      "source": {
-        "name": "HealthTalk",
-        "url": "https://www.healthtalk.no"
-      }
-    },
-    {
       "id": "137e53ec5fd9",
       "title": "For mange feil i informasjon om legemiddel når pasientar blir skrivne ut frå sjukehus - Forskning.no",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNbzdxWXZDR29KMnJPV0tPWjlpY0c1MV85SEVYbTY3d0tsYXFHOUE5RWxCUjltVkR1cGhNOWY0aXFCQkhvcTF1YjlTc0h6aWhMdGhxdGJwS2Q1eXpweGVZM0dLUWlWMnp0QlZ0TVlHcXYxRGtDSWxxbl9vNkg1dVhuaDVsaUphbXhiX1Q1SFJJc054T3dMaWdUS25yN3pub0htRWp2d0ZHU2gtVjF1WGJSazN0TS1aZDF2Uk12VWlzTncyV0VSbFhHMjFpNlRmNU04bVB0QnV3cHpQZ2M3ZzExekRVd2hzQQ?oc=5",
@@ -811,6 +791,16 @@
       "source": {
         "name": "Forskning.no",
         "url": "https://www.forskning.no"
+      }
+    },
+    {
+      "id": "e0653019e7c5",
+      "title": "Stortinget vil endre hva samfunnet er villig til å betale for liv og helse - HealthTalk",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUkx6TUJac0otdC0wREVGYXZ1TjBtRUlGSGRQQlBlb0M3dG5yRS1jLXZoUWdYTVBCUVBfZnFSenpoUVRkcy03OGsyQlE4eXA2MzFPcmFJUzdQQUdDb3VVNnJRZlVHX0RvSTd6TV95MjNjQ2VreGhfYXZJY19TUFlTUzIydmJxN0xONVQ4TjQzR1Y0TXZqMl9tLWZ4ZnFZV2FnV1BDTmJIbVNUX2JHd0R5TlJYVUVTQ3lr?oc=5",
+      "published": "2025-05-28T07:00:00+00:00",
+      "source": {
+        "name": "HealthTalk",
+        "url": "https://www.healthtalk.no"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Nettavisen",
         "url": "https://www.nettavisen.no"
+      }
+    },
+    {
+      "id": "dc729cd35039",
+      "title": "Skriftlig spørsmål fra Ruth Grung (A) til helse- og omsorgsministeren - Stortinget",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVWMzcldIT21vTndtal81NV8yM3UwSEVIUGVZMy1xYndVZ1lBUkk1bmVqNUdBOElOOW1wR1pySXdkUW4taWRUMm9oU2x0QUpfWjNBSUZ5SnVYUU94TUpEWmRlaExZSkp2UE9VdW44VV9NWEdWNEJETGdoa09HSm4wS25iRC14QUY5U1lJNmdld3loNEpzUEQxZDk2ZmZnaVd4amxGTDJrOXFNQl9lbi1JUy1GSWszaS11WUNR?oc=5",
+      "published": "2025-05-12T01:13:37+00:00",
+      "source": {
+        "name": "Stortinget",
+        "url": "https://www.stortinget.no"
       }
     }
   ]
