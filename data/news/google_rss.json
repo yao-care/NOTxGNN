@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-04T20:57:43.756887+00:00",
+  "fetched_at": "2026-06-04T22:26:01.973959+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -11,16 +11,6 @@
       "source": {
         "name": "Helse Bergen",
         "url": "https://www.helse-bergen.no"
-      }
-    },
-    {
-      "id": "4b737d7fa04b",
-      "title": "Medisinbølge: Rekordmange på resept etter pandemien - NRK",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZXJXSFFLdVFwTGU2ckZ3Z1RKTktSWDZIWTAxdXI0WDFac0JYZE9wdWFqTmFNR0hfRWo1NmV3MkoxM3NiV3NZdHRmNVdKSDFlNFJ4Yl9qdm9UVUt4VkR0b1ByN3JjdVlLOElMMEp6cExoXzhycHQ0QV8yM3plM18zbEhKLUtDVUtMNklXUTl5dEdqaW9Z?oc=5",
-      "published": "2026-06-03T09:39:02+00:00",
-      "source": {
-        "name": "NRK",
-        "url": "https://www.nrk.no"
       }
     },
     {
@@ -51,6 +41,16 @@
       "source": {
         "name": "VG",
         "url": "https://www.vg.no"
+      }
+    },
+    {
+      "id": "6fc82cd8ba67",
+      "title": "Når 12 000 meter svømming i uka aldri blir nok - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdFVEU19PMTUxaU5vQ3ZjNVZVTm9QT2JHSF9jM3Q2N0dxMjhZWktIZGtHQ25ndVdRYjFQUzhxQ3pPR0NnWWlsTXlHRC13b2hHNzBCNHBsZDdpRDNJZ3g1OWRldno1QTEycDhxSzdTaU5nemhVbkh1UkhfZ0xHTVNoUkpVV1JYaXVOSnhTcTNzbEZ5cklnQWdBVVByZVFSeXkyeU5pdkpqOFp5d0V6d0JGbHc5NzFSeEt1?oc=5",
+      "published": "2026-05-31T04:57:00+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -91,16 +91,6 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
-      }
-    },
-    {
-      "id": "67f0e2d81e0e",
-      "title": "Kan Norge ha verdens beste helsetjeneste uten innovative legemidler? - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOX3B1SWFBcnhTR3BBN1VZQWZDd3RwWk1QdjV0cVJWUWlDSmZnUjl3THRPTnAtenpLVmFkNHFDU1p1TDJneTNlQ2tRdS1fTFBqMnlZby1nTXh6NThKMmhFXzRzbEdzcWVXclpqdmRUZV9VVlRkc2ZRV0xpZlBhbU1DNVFxNGhKU3YwYW9ZTjFJZmJQNkV1QUNjenYzQXplcmpmWUlCakYzMlF2dktkYWlmRHRaeWtzR2FVMFZWX19mQXBlTUppZGZ1ckEzNA?oc=5",
-      "published": "2026-03-03T08:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -184,10 +174,10 @@
       }
     },
     {
-      "id": "7e45fe664385",
-      "title": "(+) Han overtar jobben med å fronte upopulære medisin-avgjørelser - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSFBtbFpOTTRNNEY0VF9LMmZma2JPNnl1emw2X1RVdjR3Y0FPWXBkRGI4clFyNkptQTlVWlBoM09QeWlpVnBVSG9Ea2w1MHZURGRsZnNyM0FleVJyWWctV3VxV25aeXJGdWhMVy1FMFJHU3VwSUlNRUEtem9WWjV1c1g4M1I5YUFyWlVaVmJSWVFDTUc0cWU2TVJqVVZzM25NUWNwUnk3aDdOU0xEdE02c3owd0ZhQ0RFaU9VR2E4UzFMd0dEbmkwanlCSEpldHladmRBYmpLdDZ3OFROY0Fn?oc=5",
-      "published": "2026-01-14T08:00:00+00:00",
+      "id": "67f0e2d81e0e",
+      "title": "Kan Norge ha verdens beste helsetjeneste uten innovative legemidler? - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOX3B1SWFBcnhTR3BBN1VZQWZDd3RwWk1QdjV0cVJWUWlDSmZnUjl3THRPTnAtenpLVmFkNHFDU1p1TDJneTNlQ2tRdS1fTFBqMnlZby1nTXh6NThKMmhFXzRzbEdzcWVXclpqdmRUZV9VVlRkc2ZRV0xpZlBhbU1DNVFxNGhKU3YwYW9ZTjFJZmJQNkV1QUNjenYzQXplcmpmWUlCakYzMlF2dktkYWlmRHRaeWtzR2FVMFZWX19mQXBlTUppZGZ1ckEzNA?oc=5",
+      "published": "2026-03-03T08:00:00+00:00",
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
@@ -201,6 +191,16 @@
       "source": {
         "name": "VG",
         "url": "https://www.vg.no"
+      }
+    },
+    {
+      "id": "7e45fe664385",
+      "title": "(+) Han overtar jobben med å fronte upopulære medisin-avgjørelser - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSFBtbFpOTTRNNEY0VF9LMmZma2JPNnl1emw2X1RVdjR3Y0FPWXBkRGI4clFyNkptQTlVWlBoM09QeWlpVnBVSG9Ea2w1MHZURGRsZnNyM0FleVJyWWctV3VxV25aeXJGdWhMVy1FMFJHU3VwSUlNRUEtem9WWjV1c1g4M1I5YUFyWlVaVmJSWVFDTUc0cWU2TVJqVVZzM25NUWNwUnk3aDdOU0xEdE02c3owd0ZhQ0RFaU9VR2E4UzFMd0dEbmkwanlCSEpldHladmRBYmpLdDZ3OFROY0Fn?oc=5",
+      "published": "2026-01-14T08:00:00+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
       }
     },
     {
