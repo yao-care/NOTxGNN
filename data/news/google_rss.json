@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-04T15:24:45.664048+00:00",
+  "fetched_at": "2026-06-04T18:19:47.775801+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -134,6 +134,16 @@
       }
     },
     {
+      "id": "c961e5b9af68",
+      "title": "Ingrid (29) fikk feil medisin av vikarlegen: – En alvorlig feil - Bergens Tidende",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPT1VWR0xnV21yX3pRSHVSYlRNX3RoNWJiSlJsaVVnOHBLSDdfWjVHYXdxSEhUbnlOLWdoSjg4N3o2QktqMjJfaHpkcHladm83ckxhTnFhYldkdWFrRS13SWtQTzNiazlZRG1VLU9FWW1KUDctWDZCUGtPS0dabXg2c2thQ0VYdw?oc=5",
+      "published": "2026-03-13T07:00:00+00:00",
+      "source": {
+        "name": "Bergens Tidende",
+        "url": "https://www.bt.no"
+      }
+    },
+    {
       "id": "e247abf555d8",
       "title": "Professor om nye medisiner: –⁠ Dårligst i Europa - VG",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYzNkUlBnNFRSZ1hicnZ3UjNjMUFncDk4NXdTdDVwTlRSUjRzdWYyVlJnODdYOF9mYmdUTVlRcC1kSFFVNHotaDNDa3B6SmZqSHNsN2lKV3Zkc0w3a0p6SE1kUW1Oc1BXLTRoRjNHeXZLU0RZWDlCQXhtOEdFMnY5NXVFQzQ?oc=5",
@@ -211,16 +221,6 @@
       "source": {
         "name": "medwatch.no",
         "url": "https://medwatch.no"
-      }
-    },
-    {
-      "id": "c961e5b9af68",
-      "title": "Ingrid (29) fikk feil medisin av vikarlegen: – En alvorlig feil - Bergens Tidende",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPT1VWR0xnV21yX3pRSHVSYlRNX3RoNWJiSlJsaVVnOHBLSDdfWjVHYXdxSEhUbnlOLWdoSjg4N3o2QktqMjJfaHpkcHladm83ckxhTnFhYldkdWFrRS13SWtQTzNiazlZRG1VLU9FWW1KUDctWDZCUGtPS0dabXg2c2thQ0VYdw?oc=5",
-      "published": "2026-03-13T07:00:00+00:00",
-      "source": {
-        "name": "Bergens Tidende",
-        "url": "https://www.bt.no"
       }
     },
     {
@@ -374,16 +374,6 @@
       }
     },
     {
-      "id": "2bdbe69be2ff",
-      "title": "Forbedring av mekanismer for å fremme styrkene til tradisjonell medisin. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOeU5XeGd3V25tODM5QUxVRlZOdXlXbGN0c2h1aUhvREZlSVd6SkxPSUctaGwxV09qZ1dwSHZsUnBjdWR2cWVHcURvMGduQmRvSFRfc2ZCblRUZ1ZidmZOU2xlQ3N3R0xzRlZldGpZU0p1eDg0YXZXQmlPZ2dNMXdHendTTXhBVUpLUXJMSA?oc=5",
-      "published": "2026-05-29T12:33:31+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "ec620bdef11d",
       "title": "Ekspertgruppe skal vurdere tidligere tilgang til legemidler - Altinget.no",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQUZGN3BZTW11Y3BvSWVKUkdMYWlLZ0NoODN3N0hLWUdIT0tOSDIyX3JtSDNYQXkyU2k0TUx5Z0w4VENoMU5iSnNISlZPcnpHSGlkdUc4NDR5cUQ2NGhsNnN0TFFpVjJGTHBFZjNCRnNnVGxpb1BJOWJSZ0R3akhlcmtWV29UdDlJREdPdHo0dTd1bXhoR2FR?oc=5",
@@ -391,6 +381,16 @@
       "source": {
         "name": "Altinget.no",
         "url": "https://www.altinget.no"
+      }
+    },
+    {
+      "id": "2bdbe69be2ff",
+      "title": "Forbedring av mekanismer for å fremme styrkene til tradisjonell medisin. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOeU5XeGd3V25tODM5QUxVRlZOdXlXbGN0c2h1aUhvREZlSVd6SkxPSUctaGwxV09qZ1dwSHZsUnBjdWR2cWVHcURvMGduQmRvSFRfc2ZCblRUZ1ZidmZOU2xlQ3N3R0xzRlZldGpZU0p1eDg0YXZXQmlPZ2dNMXdHendTTXhBVUpLUXJMSA?oc=5",
+      "published": "2026-05-29T12:33:31+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -404,6 +404,16 @@
       }
     },
     {
+      "id": "d6b210ca8711",
+      "title": "(+) – Helsepersonell avgjør om pasienten har rett på nødvendig helsehjelp – innenfor rammene - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOSkZxdnJtM0V4VnVxbEZmZm1ONmVteksxbm1jQ253aWNtTU1sSnAySi1yaDBqZ0NFSVRrZmRVbVhTeVdlNG1fSUFLeXVudVUxdWEyX1BDdWhvUmNDb250VnJGZk5rMUJHR0RQVjN4YzRTZ0NweW51T3VhM20tc2pTaEFyY3FOQ0Jabm1mbnUyMmxmcUx0Q1pQMTI4LVhoMmQ4ODRGY3lQZHdVOWNxZ1I5ZEJmdk1MRkFuZEt3c1FzdlNPRkJCWjNMcFFfbjlpMFZEUjJmajFpYlZ5UUVFN3RKVXB5ZkNPZE5xTVBfY1JsS0Q2T0ZhbVl2U2xVYXlIRnNHYlh3X3I5Z01Qd095aGhpc1ZHN18?oc=5",
+      "published": "2025-10-10T07:00:00+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
       "id": "8ca7829d6be0",
       "title": "Helse, Medisiner | Farmasøyt advarer: – En vanlig misforståelse - Akershus Amtstidende",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYUZTbGEtaURmeTNoSzJ2QkVDNTZXTGg2Um40RFNhVWlLeGlBZERfbkU1LVdvRmdWWXNJQWtTV1NkM21kdmd1LWN0ZWg4RU1JakZCVlgyUnZCSWc5eGtwOXF3Uklfc1pmSGYtbXpVTDlpU1g3YU1icU5VektiUGZGYg?oc=5",
@@ -411,16 +421,6 @@
       "source": {
         "name": "Akershus Amtstidende",
         "url": "https://www.amta.no"
-      }
-    },
-    {
-      "id": "78fd98393f29",
-      "title": "I disse fylkene brukte de mest legemidler i 2025 - ABC Nyheter",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVUJubnd5NmJMdHhkbU5TQ3hfZTF5eFZHUWFDVVVybkktRzVnRnd0dUQxajEwc0J0T2RQcWIyNVNickFabkhyR3pnSHJ0U0NxZ0FSZWpNdUJ4eG5hVHZ4VzhwdDRYbXBMRXR4eEFucWJzNlBkOE4tLVB4ZHZyQXBFWXdRVmE4NWJyZi1QUGNZRmhDLWIz?oc=5",
-      "published": "2026-03-06T08:00:00+00:00",
-      "source": {
-        "name": "ABC Nyheter",
-        "url": "https://www.abcnyheter.no"
       }
     },
     {
@@ -444,13 +444,13 @@
       }
     },
     {
-      "id": "d900fd3d71ff",
-      "title": "Slankemedisin kan også hjelpe mot migrene - NHI.no",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQalpiNnRPOGJVaGpJVWszeHVoWFFEbkR4UDNlcFpNUzdJQXNoaXlEWGY4a3k3Uk1aSUxONmNqaXRaM0hHbHVvYTBSZ3g1NnJiTk9tMDFLNmhZc3U5dUtTQWtjbkRrYzB6WURaS2lDUjBsZnBJdGZRVV81eFhaOEU2cXVEeXU?oc=5",
-      "published": "2025-10-07T07:00:00+00:00",
+      "id": "78fd98393f29",
+      "title": "I disse fylkene brukte de mest legemidler i 2025 - ABC Nyheter",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVUJubnd5NmJMdHhkbU5TQ3hfZTF5eFZHUWFDVVVybkktRzVnRnd0dUQxajEwc0J0T2RQcWIyNVNickFabkhyR3pnSHJ0U0NxZ0FSZWpNdUJ4eG5hVHZ4VzhwdDRYbXBMRXR4eEFucWJzNlBkOE4tLVB4ZHZyQXBFWXdRVmE4NWJyZi1QUGNZRmhDLWIz?oc=5",
+      "published": "2026-03-06T20:32:17+00:00",
       "source": {
-        "name": "NHI.no",
-        "url": "https://nhi.no"
+        "name": "ABC Nyheter",
+        "url": "https://www.abcnyheter.no"
       }
     },
     {
@@ -571,6 +571,16 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
+      }
+    },
+    {
+      "id": "6bae80839252",
+      "title": "Er alternativ medisin nøkkelen til å oppnå globale helsemål? - FN-sambandet",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTVczVVJ2WXoyZTNjaTlPUUdDMWhhOTFCVHlEVkJFTzNlYVJJV3pnR1NtSXNjX1VlVk8wRGQtbEFxWFdENHlwN1RsN0tPb0xCX0VJMnB3VUNoNEdpcUtHMDNuVVJOWW5HMzZ5WFZtdWd3OC1iTGtqZ2xhbFp1UnNSMGc1LTRxRmFyT0NUbU9R?oc=5",
+      "published": "2023-08-18T07:00:00+00:00",
+      "source": {
+        "name": "FN-sambandet",
+        "url": "https://fn.no"
       }
     },
     {
@@ -851,16 +861,6 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
-      }
-    },
-    {
-      "id": "c77202dfb240",
-      "title": "Helse, Medisiner | Viktige medisiner kan være kreftfremkallende - iFinnmark",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM1djSUd2ZUROV2lXaEFPWXczSm9IWWRhLXhoVU92SC03NlZHWDE2cU5lVERVU3B4bkgxYXNZQmhNR0ZHdkN5c0lpQ0ZhV09HdTN4U3p3R242NDVvQlpyc2M0ak5JOGtZSUx2ZG4tX2FuTE1JZEZYSUozNHFQbF9ReFkyTG9Md2t0R0VnMQ?oc=5",
-      "published": "2024-12-20T08:00:00+00:00",
-      "source": {
-        "name": "iFinnmark",
-        "url": "https://www.ifinnmark.no"
       }
     },
     {
