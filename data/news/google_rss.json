@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-05T22:16:06.531508+00:00",
+  "fetched_at": "2026-06-06T00:08:18.580858+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -114,6 +114,16 @@
       }
     },
     {
+      "id": "c961e5b9af68",
+      "title": "Ingrid (29) fikk feil medisin av vikarlegen: – En alvorlig feil - Bergens Tidende",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPT1VWR0xnV21yX3pRSHVSYlRNX3RoNWJiSlJsaVVnOHBLSDdfWjVHYXdxSEhUbnlOLWdoSjg4N3o2QktqMjJfaHpkcHladm83ckxhTnFhYldkdWFrRS13SWtQTzNiazlZRG1VLU9FWW1KUDctWDZCUGtPS0dabXg2c2thQ0VYdw?oc=5",
+      "published": "2026-03-13T07:00:00+00:00",
+      "source": {
+        "name": "Bergens Tidende",
+        "url": "https://www.bt.no"
+      }
+    },
+    {
       "id": "791b9022a233",
       "title": "Tusenvis må bytte diabetesmedisin – flere insulinprodukter forsvinner - NHI.no",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdEtkQWJfT0lsOTlOcVlhZ080RldqaEhXcDA3Sm9Scm95YVVCbERMY0JkWEU3V1Z4bGJ2MV93MmVvRnhwNF9zd3c5bzdGbHQxZkxaa1hpOTB0WDJTaDl5V1VzM3FVNS1tVk5tODNFbWNIeDNaaXV6YXQ3Q0l1ZFkxT1FoWkQzNlZMOGVncEgwczJpd2JwNG1DTVAyTjBIYnQzdk1zM0ZHUUxNMHRLTTNweEYtMFF6RU9sTXdIYkRqZW5xRi1m?oc=5",
@@ -134,10 +144,10 @@
       }
     },
     {
-      "id": "601ee03f184e",
-      "title": "Situasjonen for norske pasienter med sjeldne diagnoser - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUFlmaXozWUt4ampxTllqMzJjNE5DSFZjTlVNc1AxOGxuRlFKZzluYVlHdVNwUGtYYVZfMHg4M1c4VWJhQ2NMS1NHS29tNEFGVmdDZEpoLVdzNkhGNkRfSU94VzJ1TDZsV01HTl9selNFVC1sNTkxaVIzY2JlZmxIZG8wZWVnbWllUV9Rd1pZNlZXcmdTbE5oV2xaUVpXSEU3b1cwTjhxb0NiWEZfVzl1YXBlWnBTX0FET3c?oc=5",
-      "published": "2026-06-01T04:13:00+00:00",
+      "id": "6fc82cd8ba67",
+      "title": "Når 12 000 meter svømming i uka aldri blir nok - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdFVEU19PMTUxaU5vQ3ZjNVZVTm9QT2JHSF9jM3Q2N0dxMjhZWktIZGtHQ25ndVdRYjFQUzhxQ3pPR0NnWWlsTXlHRC13b2hHNzBCNHBsZDdpRDNJZ3g1OWRldno1QTEycDhxSzdTaU5nemhVbkh1UkhfZ0xHTVNoUkpVV1JYaXVOSnhTcTNzbEZ5cklnQWdBVVByZVFSeXkyeU5pdkpqOFp5d0V6d0JGbHc5NzFSeEt1?oc=5",
+      "published": "2026-05-31T04:57:00+00:00",
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
@@ -184,16 +194,6 @@
       }
     },
     {
-      "id": "6fc82cd8ba67",
-      "title": "Når 12 000 meter svømming i uka aldri blir nok - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdFVEU19PMTUxaU5vQ3ZjNVZVTm9QT2JHSF9jM3Q2N0dxMjhZWktIZGtHQ25ndVdRYjFQUzhxQ3pPR0NnWWlsTXlHRC13b2hHNzBCNHBsZDdpRDNJZ3g1OWRldno1QTEycDhxSzdTaU5nemhVbkh1UkhfZ0xHTVNoUkpVV1JYaXVOSnhTcTNzbEZ5cklnQWdBVVByZVFSeXkyeU5pdkpqOFp5d0V6d0JGbHc5NzFSeEt1?oc=5",
-      "published": "2026-05-31T04:57:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
       "id": "67f0e2d81e0e",
       "title": "Kan Norge ha verdens beste helsetjeneste uten innovative legemidler? - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOX3B1SWFBcnhTR3BBN1VZQWZDd3RwWk1QdjV0cVJWUWlDSmZnUjl3THRPTnAtenpLVmFkNHFDU1p1TDJneTNlQ2tRdS1fTFBqMnlZby1nTXh6NThKMmhFXzRzbEdzcWVXclpqdmRUZV9VVlRkc2ZRV0xpZlBhbU1DNVFxNGhKU3YwYW9ZTjFJZmJQNkV1QUNjenYzQXplcmpmWUlCakYzMlF2dktkYWlmRHRaeWtzR2FVMFZWX19mQXBlTUppZGZ1ckEzNA?oc=5",
@@ -201,16 +201,6 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
-      "id": "c961e5b9af68",
-      "title": "Ingrid (29) fikk feil medisin av vikarlegen: – En alvorlig feil - Bergens Tidende",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPT1VWR0xnV21yX3pRSHVSYlRNX3RoNWJiSlJsaVVnOHBLSDdfWjVHYXdxSEhUbnlOLWdoSjg4N3o2QktqMjJfaHpkcHladm83ckxhTnFhYldkdWFrRS13SWtQTzNiazlZRG1VLU9FWW1KUDctWDZCUGtPS0dabXg2c2thQ0VYdw?oc=5",
-      "published": "2026-03-13T07:00:00+00:00",
-      "source": {
-        "name": "Bergens Tidende",
-        "url": "https://www.bt.no"
       }
     },
     {
@@ -514,6 +504,16 @@
       }
     },
     {
+      "id": "42c2034c12d3",
+      "title": "Disse legemidlene kan forstyrre tarmen i årevis, ifølge svensk studie - Forskning.no",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcDdyVENCc2NxR3FNTFJSYWlqcVF5R2VsY1RUSm9XUU0zLXRpc1oyeFdLOXdTdU5hVXI0T2JfUTdQaFVVbUN1bmE4Z0VCQmxnclNITjk0S2U2NDBiR3lpZVFtRnNWT1RLYWgtSWZraEdwTW00SVNFSXE5a05jYXhDV243NDBxRkZlSWpZYnhzRXNhWlF5QjFsSDNNbzRXV2w4QkJQUnIxc2JWZXkxMnA1X1gzZlV5S2tiaXBhOUVjVGFuMHd0Smw4?oc=5",
+      "published": "2026-03-24T07:00:00+00:00",
+      "source": {
+        "name": "Forskning.no",
+        "url": "https://www.forskning.no"
+      }
+    },
+    {
       "id": "95bf997bac64",
       "title": "Legemiddelmangel - Direktoratet for samfunnssikkerhet og beredskap (DSB)",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNekM1RWozbUNwak85M1QzcjlqQmZySkJMZVNnM3YwbzVqVWRDMVZNRlJVNF9NM3RPLThfNDdnQUJ2d2hLVFJZNHlsUTc2ZzZuVHdYWmdHamJEVFgxUHQzMlB0SlRfWTR0eWNaTmpSUXJlY2tJVmNOUHlpbGhwcjI1d0NSVDJMdnlLWVQ5Zkx4MWtrTGlNNWZqaUhMMDRVSkxXTVFOTTdFUEF1NjFHaG80OXNTZw?oc=5",
@@ -537,7 +537,7 @@
       "id": "cca96e95761d",
       "title": "Ny studie: Store forskjeller mellom ulike antidepressive legemidler - VG",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTlVxWG03ZndxZzQzNzB5ek5xbEx1VFEzbmJJeTFFZzkxMEVUM0FYMVUzRlpRdHI1SXk0NGNsOXhjOHFobmxLZU1ZYmdGWEpDSzc1bE1sS0xIMGFtXzM1R3dIWUw4Y1ZWSGpKTTNIdUxBbVFURkhiSl9DNkpRaGF6VkVxb0FLdEFiLWNUYXR4TWtKQQ?oc=5",
-      "published": "2025-11-14T08:00:00+00:00",
+      "published": "2025-11-13T08:00:00+00:00",
       "source": {
         "name": "VG",
         "url": "https://www.vg.no"
@@ -764,16 +764,6 @@
       }
     },
     {
-      "id": "51336260bbbb",
-      "title": "Norge sender medisiner og medisinsk utstyr til Syria - Regjeringen.no",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcEZpWVJyaHcwdzluelNGS3dieWExYVJSVjRLS2ZsdzczRTBYcHdCeXNERkpHTVVVOXNFWmVBNlhwSkhMcGtvdTJQR25LZ3o3cFpZaU9ZM3VKUWFfWExtRVZvR3pCT2xoQzFXQVNuTV9sc1ZnYURBYjlzUldpMlZQeHZrR2N6ZlJGdmNoVHI3dTdWZ1pQZ3FYNU5VaFhocUdweFNn?oc=5",
-      "published": "2023-02-17T08:00:00+00:00",
-      "source": {
-        "name": "Regjeringen.no",
-        "url": "https://www.regjeringen.no"
-      }
-    },
-    {
       "id": "ac9a8bab4b9c",
       "title": "Etter krisemøte: Lover kortere ventetid på medisiner - VG",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbkRDTkI2X05kRGRVcW1uaTdvMFZkZl82cTZFbjNxNGNjam9NbVNyOGREYzQtSzlnMXVYc3puTk1uT1ZaMERtLURPSy00Rk9zTGNmdGFDVEU4eVdJRW9OLXFCdmpRWnZSZmFWX1B3OWlGRldlUTFnZ0l5cllkb0s0Y2owTFI0TDNhQTNMLU5KazFQLU1zVmtuRTdKZVB5ZU5KOXd1YzZ6WDhYdw?oc=5",
@@ -971,6 +961,16 @@
       "source": {
         "name": "Stavanger Aftenblad",
         "url": "https://www.aftenbladet.no"
+      }
+    },
+    {
+      "id": "2063749ab6d5",
+      "title": "Rask tilgang til effektive legemidler - Aftenposten",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZ21PdWJOdmN6TmpaOHNFM3dSTmZEVWRXTWR6Sk1TQm81eVdIRXZzREhvR2R4SWtUM1hnRm1hWEdsU2ItSDZseHRUWDJYTVlBUlRRQWVfdzJkYXBfZE50QTBqUy1LSmw2djRUM0dzcVoyZG5xaUp2M3duNUhRMTQ1TW1JVXRJb1gyV3p0NGEwUmtlaDg?oc=5",
+      "published": "2025-03-06T08:00:00+00:00",
+      "source": {
+        "name": "Aftenposten",
+        "url": "https://www.aftenposten.no"
       }
     },
     {
