@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-08T17:56:02.685032+00:00",
+  "fetched_at": "2026-06-08T20:24:06.428629+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -94,13 +94,23 @@
       }
     },
     {
-      "id": "7f8aa23437a4",
-      "title": "Riktig medisinbruk hos eldre – hvordan får vi det til? - UiO Det medisinske fakultet",
+      "id": "6bde535779e5",
+      "title": "Riktig medisinbruk hos eldre – hvordan får vi det til? - med.uio.no",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbEdoZllLSkM0Y3BzbG1BV2JoSWhFOWg3SjYwOWJIbHN5SERXemd2dVpRWnk0VEpYOWlneW5YSllTd2tzXy1xUHBPR2wtT3hoZy01MUlvckRqRGZYMk9CM1ZWclRma1BmN3M2X3NnMm5KYXdWejV6ejlKUGw0Rzl6NUFfaGg?oc=5",
       "published": "2026-02-25T08:00:00+00:00",
       "source": {
-        "name": "UiO Det medisinske fakultet",
+        "name": "med.uio.no",
         "url": "https://www.med.uio.no"
+      }
+    },
+    {
+      "id": "541a1db03205",
+      "title": "Minister Dao Hong Lan svarer på en rekke underskriftskampanjer om helse, mattrygghet og forfalskede legemidler på den 14. kongressen til Vietnams fagforening. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcjV1ZjlpaDJpNU9pNzgyZnY0UVJLdnprMFB4UjliYlRNMU9xdENsQURxMW5wbFo3VmJtVG9NT3lFd0hNZnE0eU9nUlR3VFh6ZGpLWHYyc3pXZXNxVF9mQmVfTEhKNTVRQXQyNUo0dDVyMkMxNjlvRDFaTW1PM2ZfZXpSZGtyY25fZFlHNTVLT2p5aFpkbXVSSzNfaXZxTjNkTWE1THcybmhjT0xVamN6S0RvdnV0Tk50R3FXOUpJbmVYVzcwZ2c?oc=5",
+      "published": "2026-06-04T07:00:00+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -121,16 +131,6 @@
       "source": {
         "name": "Sol.no samler de viktigste nyhetene for deg!",
         "url": "https://sol.no"
-      }
-    },
-    {
-      "id": "2bd1a84d1698",
-      "title": "Setter ned ekspertgruppe om tidlig tilgang til legemidler - medwatch.no",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9hSVBzcGRjM3ZPRGFaOWNrbnlfenEtWG51NGxkLVhfemZyekN5SmN1VEtMUFgzRVhTRDJrWkRaNm10bHllVi1BanJISlZKVU1HWDRTNTE1a2hVbTJ1azhUU3RubWE4djlLclNMRkRsX2RDLTQ?oc=5",
-      "published": "2026-05-04T07:00:00+00:00",
-      "source": {
-        "name": "medwatch.no",
-        "url": "https://medwatch.no"
       }
     },
     {
@@ -201,6 +201,16 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
+      "id": "2bd1a84d1698",
+      "title": "Setter ned ekspertgruppe om tidlig tilgang til legemidler - medwatch.no",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9hSVBzcGRjM3ZPRGFaOWNrbnlfenEtWG51NGxkLVhfemZyekN5SmN1VEtMUFgzRVhTRDJrWkRaNm10bHllVi1BanJISlZKVU1HWDRTNTE1a2hVbTJ1azhUU3RubWE4djlLclNMRkRsX2RDLTQ?oc=5",
+      "published": "2026-05-04T07:00:00+00:00",
+      "source": {
+        "name": "medwatch.no",
+        "url": "https://medwatch.no"
       }
     },
     {
@@ -464,16 +474,6 @@
       }
     },
     {
-      "id": "d458064e8415",
-      "title": "Uten helse som drivkraft mister Norge fart - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQ1JQLThhLU8yZjRXZjZlMFNEX0FZQ3RQTHpYT1ZILUplWTVQeXpqQ3J0TndfRTFoVWx0U01vRnltTVJIVVo0SWQ3eV9NNEVQczh1WUViSWx1VGRpNHN2RWNRN1JfQmwxVHJoQmFqdWNvSl9TUkUxQ0JyUTJ0TzF6MlRITXM5WmN4WjQtdFY2VEZVT2xSdGlLUjFfWnFXbkRzaU1IXzVYeVJaaFJtR05JekZheHZYRGQ0a280?oc=5",
-      "published": "2025-10-03T07:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
       "id": "95bf997bac64",
       "title": "Legemiddelmangel - Direktoratet for samfunnssikkerhet og beredskap (DSB)",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNekM1RWozbUNwak85M1QzcjlqQmZySkJMZVNnM3YwbzVqVWRDMVZNRlJVNF9NM3RPLThfNDdnQUJ2d2hLVFJZNHlsUTc2ZzZuVHdYWmdHamJEVFgxUHQzMlB0SlRfWTR0eWNaTmpSUXJlY2tJVmNOUHlpbGhwcjI1d0NSVDJMdnlLWVQ5Zkx4MWtrTGlNNWZqaUhMMDRVSkxXTVFOTTdFUEF1NjFHaG80OXNTZw?oc=5",
@@ -714,16 +714,6 @@
       }
     },
     {
-      "id": "75937dd941b9",
-      "title": "Helse Bergen skrev ut resept på CF-legemiddel: – Beklager feilen - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOc1AxcFVpZGxfeUc4Q2RNb25iSkEteHZjWktMc182aGtHRHM5RURJYkNOUi1IYTh4OFFZZ0dkX3YyZGE1MmpKUktIUUZ6RmlCc2F2a3M1R0ZfOXFIR2RSOU90ajhBNWtJNnZieWpQSHpQcm13TFJ2ZDRMNTRYWHZrcmhvUmdVMzA5VjRLYVJ4YkpqZk1mc0IyUU9JX1Z4WTFuNHVXRGRCd2tWV2sxZlAzN0JvNDNJMkVMbU02OU80OFQxRFA0bXVnNTJ3?oc=5",
-      "published": "2022-01-12T08:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
       "id": "62d5b2e3793a",
       "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZEd5eTVOaFRZZHd1MVQzQUVGc09ZSlZtdnlXUEhwTkNQRXp0UEhfREhwSzNIRC1RVVVKYldGLWJlQlNtYkM1dkw2RFNvSFJXdzc1WlNhc0Y3c3JPcDFnalBGWVdJcGxtbTNuTUJfeE50NTlNNTdNMlNIY0NBdGk2MjhXMjJRVGxjcFNFbEFFNDRBUUMtaDM4R0NDbEtXdjNsckRjdjBYdGFqOFYyXzRmYmhZSVRHbldmaEUyVk5QcEFCYjMwbTNXMGxfMXJaa25WYXc?oc=5",
@@ -741,6 +731,16 @@
       "source": {
         "name": "Helse Nord",
         "url": "https://www.helse-nord.no"
+      }
+    },
+    {
+      "id": "75937dd941b9",
+      "title": "Helse Bergen skrev ut resept på CF-legemiddel: – Beklager feilen - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOc1AxcFVpZGxfeUc4Q2RNb25iSkEteHZjWktMc182aGtHRHM5RURJYkNOUi1IYTh4OFFZZ0dkX3YyZGE1MmpKUktIUUZ6RmlCc2F2a3M1R0ZfOXFIR2RSOU90ajhBNWtJNnZieWpQSHpQcm13TFJ2ZDRMNTRYWHZrcmhvUmdVMzA5VjRLYVJ4YkpqZk1mc0IyUU9JX1Z4WTFuNHVXRGRCd2tWV2sxZlAzN0JvNDNJMkVMbU02OU80OFQxRFA0bXVnNTJ3?oc=5",
+      "published": "2022-01-12T08:00:00+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -884,16 +884,6 @@
       }
     },
     {
-      "id": "47bb84c17542",
-      "title": "Pinlig lekkasje av legemiddel-priser, Sykehusinnkjøp la seg paddeflate - Anbud365",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeDJLdE9PdDRvUUdqTHlGQlo0ZmFfOWNhVUNlTV8zSnFHQnc2N2Y4VGJJbEdIVHl6TTA1YVRqblVsTnJIdndvd0ZLWXRSLUFxZEw3ZE9CMWQwR1M4SmxXVW5TVHZFQVlWYWI1VHFPR1lVM1U3MkdNOUxXR09tcEtvUzBzbThsQzhvMDRWQW9hcWlnbHpZYVo5Qy1ialR5QnNsTm5tNVVBeEN2eHFyUDI4R0Vn?oc=5",
-      "published": "2022-05-10T07:00:00+00:00",
-      "source": {
-        "name": "Anbud365",
-        "url": "https://anbud365.no"
-      }
-    },
-    {
       "id": "f673ff5693b6",
       "title": "Espen Snipstad, kommunikasjonsdirektør - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTDVlU1RBZi1wSE9MbmFObWFEekZxcTg1bnQtMXNDdlVoY0tnQ1ZvLUZKVmVNTlByckJJWDVRcVNYRDJTMXNxX3NfLUJDYXMzM3lkYm5ZZ2RPNXNXcTF5U3VBdlA5cXA2OEozU3c5OFJ4VGM1aXkxM1UyUXhCVUVDVFVVSjVQekwtTlZFMGZYdWRQWGRHS0E?oc=5",
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
+      "id": "80cac2759063",
+      "title": "Nordmenn bruker mer legemidler enn noen gang - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUGdMb203WFdJS1ZPdEhtNEJ5aFRVcTFDLXRYM1dCaURRcGF6RFBjTUhEUjFjZHRSMEtrdnV4RWRsdnhSNHJwVTh5ZXY2cTJiYjI1SkxCNko4cFh6QmkyWVpCR2NtMzg0SnV4ZGVvaDBSQmxwY2FaRzVlOHZQczVWcm5VZWJwTXlMdGJUcU5IZkQyVU9MZDRycHB0eWl3SF9oN2tOSk9jWEMzaElfTnpCd0F0TTVWMEF6aU5DTkRIclY1TDQ?oc=5",
+      "published": "2023-02-28T08:00:00+00:00",
+      "source": {
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
       }
     }
   ]
