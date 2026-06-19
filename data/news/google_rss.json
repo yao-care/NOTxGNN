@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-19T16:06:28.976127+00:00",
+  "fetched_at": "2026-06-19T18:56:44.821605+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -11,6 +11,16 @@
       "source": {
         "name": "Aftenposten",
         "url": "https://www.aftenposten.no"
+      }
+    },
+    {
+      "id": "f6912b3cab9e",
+      "title": "Eldre i Larvik dopes mindre ned - Østlands-Posten",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPakRTWk5KLWtPMWMtbjVpMl80V2Nrdm9SU3pDSnU2NjBPdHFMaGRzd29LenR6QXoyZ3dMZzNpbGk1VHRWa2xxbmFTaktjd3Q2d3NDV1N3UkE2T1NhdzI3WmNhR095SXppekhPZVZrOXNSOUtLQUswTmFfWktBektfQnBUcUxMZjZFcGxVSWQyWW9UcWxaU29DSV9LSlExSHJfVUhXeXdHNTY?oc=5",
+      "published": "2026-06-19T16:40:23+00:00",
+      "source": {
+        "name": "Østlands-Posten",
+        "url": "https://www.op.no"
       }
     },
     {
@@ -94,6 +104,16 @@
       }
     },
     {
+      "id": "6114145eccc5",
+      "title": "Slår alarm om medisiner - VG",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5hSU5tVlZVMkZLTjlrZU1fMTJ0SjdMWTBXYThfWmcwVnlZLVlxNmp3YWlUeVhSVnJvdnRhbDZiLWJwdExaR3FHTXY4eWtHUndZUjAxSzNtUVlqYWhZVzduYTlZSzMyLV9fR1AyNmstUEE4b0pMSXVF?oc=5",
+      "published": "2026-05-19T07:00:00+00:00",
+      "source": {
+        "name": "VG",
+        "url": "https://www.vg.no"
+      }
+    },
+    {
       "id": "ee6ab2978cd4",
       "title": "Tre myelomatose-legemidler i Beslutningsforums neste møte - medwatch.no",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MWVRrMjY0UjhFNFFOVEtudDFILVQzT2Iwb1FBTGF5WTNUd0NhRWl5MVV0R2FwbDNsaGtEYW1IUnB6UVRrTzFvU2pRdkxoSEhCeDdPOTZGSVFFOWxVY3Z2cUZ3eXh1M3BOV2pSTW91Y0NPS1k?oc=5",
@@ -131,16 +151,6 @@
       "source": {
         "name": "Bergen kommune",
         "url": "https://www.bergen.kommune.no"
-      }
-    },
-    {
-      "id": "6114145eccc5",
-      "title": "Slår alarm om medisiner - VG",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5hSU5tVlZVMkZLTjlrZU1fMTJ0SjdMWTBXYThfWmcwVnlZLVlxNmp3YWlUeVhSVnJvdnRhbDZiLWJwdExaR3FHTXY4eWtHUndZUjAxSzNtUVlqYWhZVzduYTlZSzMyLV9fR1AyNmstUEE4b0pMSXVF?oc=5",
-      "published": "2026-05-19T07:00:00+00:00",
-      "source": {
-        "name": "VG",
-        "url": "https://www.vg.no"
       }
     },
     {
@@ -694,16 +704,6 @@
       }
     },
     {
-      "id": "51336260bbbb",
-      "title": "Norge sender medisiner og medisinsk utstyr til Syria - Regjeringen.no",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcEZpWVJyaHcwdzluelNGS3dieWExYVJSVjRLS2ZsdzczRTBYcHdCeXNERkpHTVVVOXNFWmVBNlhwSkhMcGtvdTJQR25LZ3o3cFpZaU9ZM3VKUWFfWExtRVZvR3pCT2xoQzFXQVNuTV9sc1ZnYURBYjlzUldpMlZQeHZrR2N6ZlJGdmNoVHI3dTdWZ1pQZ3FYNU5VaFhocUdweFNn?oc=5",
-      "published": "2023-02-17T08:00:00+00:00",
-      "source": {
-        "name": "Regjeringen.no",
-        "url": "https://www.regjeringen.no"
-      }
-    },
-    {
       "id": "7bdd601b990a",
       "title": "(+) Noen få medisiner utgjør halvparten av kostnadene - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdkNqT0dVU0ZrSzFyQ2dyMkQzQlZQVEVRVC12RGNRdmFrajVyTkJLSGp1WFlTMVI2ZmFvZ05CYVJmLTRuQ2lEM1FNd2VKRkhVQ0MwbkVFWlRLZDAtXy1jN1ZMWVBtSktvUmlvNGlYTVJxMFk2YUdsMHU3ZDJUMzF4ZTVfR1laUlIxOVR2NTlxR3luM3dvZUdTSnRjdmp0VDUwa3Z1Z19Jd3RDNEUzVUZxQ3l5bk1QWWpiRnpqX3dGY0xsTlVmUnJ4N09VNl9TWTJGMkVlTTExX0V3WWE1YWc?oc=5",
@@ -711,6 +711,16 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
+      "id": "51336260bbbb",
+      "title": "Norge sender medisiner og medisinsk utstyr til Syria - Regjeringen.no",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcEZpWVJyaHcwdzluelNGS3dieWExYVJSVjRLS2ZsdzczRTBYcHdCeXNERkpHTVVVOXNFWmVBNlhwSkhMcGtvdTJQR25LZ3o3cFpZaU9ZM3VKUWFfWExtRVZvR3pCT2xoQzFXQVNuTV9sc1ZnYURBYjlzUldpMlZQeHZrR2N6ZlJGdmNoVHI3dTdWZ1pQZ3FYNU5VaFhocUdweFNn?oc=5",
+      "published": "2023-02-17T08:00:00+00:00",
+      "source": {
+        "name": "Regjeringen.no",
+        "url": "https://www.regjeringen.no"
       }
     },
     {
@@ -774,20 +784,20 @@
       }
     },
     {
-      "id": "c6caed0127fe",
-      "title": "Lanserer nytt norsk legemiddel mot hjerteinfarkt: – Vil kunne redde liv - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeFNjN3VmbEpEODhUbEJGS21OUTZnUVA0LVA3ZzUxLTQwN2pRQUZqM25LbzNqeml6cVg3cFd1WkUyVU1VbVM2eWF6RS0tcmhLcDZNeVZBR2JNVVBEejFSbW1XTDhLeFZVTVA3TnJZM3M4NWp0d2pkZm51TUdxM1NobjlVbm5uNVdGQTRpaEZPWUVKUHI1OVJhMHhOeC1ZNGFMeUZ0X0pTSXFIaHBqMURnSG9ac0xiQ2s?oc=5",
-      "published": "2023-01-18T08:00:00+00:00",
+      "id": "d12731491989",
+      "title": "Mener norske pasienter må vente for lenge på ny medisin: – Forferdet - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNR3FuNGlNV3lrQmhqWWg0cG9yV1pSclluN2VQZjN1azJuZW1WWGZwdXBBMHpkUDl5Y21XZ2MzaXFjT21TX0Q4amlGTGJIVEdqd0Iyd29mMDl5eC1NTUZibFZ3MVJNTmZUVzgzTXpveDg0d2J3WFRWTGlJSm5hN21CdUV4MWFEb0NjNndudXRCeUlPWHNEMmdoUVRtR1V0YXl1cHlrclRZdVNhUTFFZHFDWlZEUlNqUF9GenV0VTRpVHFFelRKUHRnSkJhRExRU3dxSDlreFJ2RlRRZw?oc=5",
+      "published": "2025-05-08T07:00:00+00:00",
       "source": {
         "name": "Nettavisen",
         "url": "https://www.nettavisen.no"
       }
     },
     {
-      "id": "d12731491989",
-      "title": "Mener norske pasienter må vente for lenge på ny medisin: – Forferdet - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNR3FuNGlNV3lrQmhqWWg0cG9yV1pSclluN2VQZjN1azJuZW1WWGZwdXBBMHpkUDl5Y21XZ2MzaXFjT21TX0Q4amlGTGJIVEdqd0Iyd29mMDl5eC1NTUZibFZ3MVJNTmZUVzgzTXpveDg0d2J3WFRWTGlJSm5hN21CdUV4MWFEb0NjNndudXRCeUlPWHNEMmdoUVRtR1V0YXl1cHlrclRZdVNhUTFFZHFDWlZEUlNqUF9GenV0VTRpVHFFelRKUHRnSkJhRExRU3dxSDlreFJ2RlRRZw?oc=5",
-      "published": "2025-05-08T07:00:00+00:00",
+      "id": "c6caed0127fe",
+      "title": "Lanserer nytt norsk legemiddel mot hjerteinfarkt: – Vil kunne redde liv - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeFNjN3VmbEpEODhUbEJGS21OUTZnUVA0LVA3ZzUxLTQwN2pRQUZqM25LbzNqeml6cVg3cFd1WkUyVU1VbVM2eWF6RS0tcmhLcDZNeVZBR2JNVVBEejFSbW1XTDhLeFZVTVA3TnJZM3M4NWp0d2pkZm51TUdxM1NobjlVbm5uNVdGQTRpaEZPWUVKUHI1OVJhMHhOeC1ZNGFMeUZ0X0pTSXFIaHBqMURnSG9ac0xiQ2s?oc=5",
+      "published": "2023-01-18T08:00:00+00:00",
       "source": {
         "name": "Nettavisen",
         "url": "https://www.nettavisen.no"
@@ -834,6 +844,16 @@
       }
     },
     {
+      "id": "62d5b2e3793a",
+      "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZEd5eTVOaFRZZHd1MVQzQUVGc09ZSlZtdnlXUEhwTkNQRXp0UEhfREhwSzNIRC1RVVVKYldGLWJlQlNtYkM1dkw2RFNvSFJXdzc1WlNhc0Y3c3JPcDFnalBGWVdJcGxtbTNuTUJfeE50NTlNNTdNMlNIY0NBdGk2MjhXMjJRVGxjcFNFbEFFNDRBUUMtaDM4R0NDbEtXdjNsckRjdjBYdGFqOFYyXzRmYmhZSVRHbldmaEUyVk5QcEFCYjMwbTNXMGxfMXJaa25WYXc?oc=5",
+      "published": "2021-05-12T07:00:00+00:00",
+      "source": {
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
       "id": "1f8ee124566a",
       "title": "Ja til nytt legemiddel mot atopisk eksem - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWEdfMmRHSWhnUnRBOU5GeURCbUowQnNYZUpKZkJRRi1aSnp1X1VrX2R2NWJ2dHMzalFXcEhGU1k5aG9DMmEwUWxfY2VMc0FUS09VUGliaHhoYWZuNmNKWGxEeUcxSkdaYXRRaXpzZFlLczlNZFFTaEhManJac2dsS1JRLXNKMXFzLWFKeGtCX21PMzFvRXZwdnNBZXZ3UGk4b05YakU1c3FDd2Z6dDl6bVEycw?oc=5",
@@ -844,10 +864,10 @@
       }
     },
     {
-      "id": "62d5b2e3793a",
-      "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZEd5eTVOaFRZZHd1MVQzQUVGc09ZSlZtdnlXUEhwTkNQRXp0UEhfREhwSzNIRC1RVVVKYldGLWJlQlNtYkM1dkw2RFNvSFJXdzc1WlNhc0Y3c3JPcDFnalBGWVdJcGxtbTNuTUJfeE50NTlNNTdNMlNIY0NBdGk2MjhXMjJRVGxjcFNFbEFFNDRBUUMtaDM4R0NDbEtXdjNsckRjdjBYdGFqOFYyXzRmYmhZSVRHbldmaEUyVk5QcEFCYjMwbTNXMGxfMXJaa25WYXc?oc=5",
-      "published": "2021-05-12T07:00:00+00:00",
+      "id": "a107fd3ca0c1",
+      "title": "Pfizer kutter prisene i lavinntektsland - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSllabGlUaXQxdWltSl9CSjZCemlTYnhkUk5JbHRYeldfTzJkSDRkU2VDaFVjMjU5dXRYYk5OaE1qRDVQLU9Dcm1DbFRfN3JCUWRjSl9ITnRKa2txQkswZVdCaHNVSUxUajJ1dmFlTDhLV1Q1dl9EY0VsN1JkMDA5ekdycE9CcjhwcUtEZzFod3hDMVEwajk5ek4wbFM1VEk5R2Q0MG9TVlNxYTZSVy15OUZn?oc=5",
+      "published": "2022-05-25T07:00:00+00:00",
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
@@ -864,13 +884,13 @@
       }
     },
     {
-      "id": "a107fd3ca0c1",
-      "title": "Pfizer kutter prisene i lavinntektsland - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSllabGlUaXQxdWltSl9CSjZCemlTYnhkUk5JbHRYeldfTzJkSDRkU2VDaFVjMjU5dXRYYk5OaE1qRDVQLU9Dcm1DbFRfN3JCUWRjSl9ITnRKa2txQkswZVdCaHNVSUxUajJ1dmFlTDhLV1Q1dl9EY0VsN1JkMDA5ekdycE9CcjhwcUtEZzFod3hDMVEwajk5ek4wbFM1VEk5R2Q0MG9TVlNxYTZSVy15OUZn?oc=5",
-      "published": "2022-05-25T07:00:00+00:00",
+      "id": "ce88c37539ff",
+      "title": "Helseministeren lover kortere ventetid på godkjenning av medisiner - Sykepleien",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQck9HWVFjamtSU0dLX21NUzVFZGtWSG4xdVFyS1Q3Y0VpbHVCcXpUX3FSdndsT29SQ19MbzR0b2lWdmFYYVFDd2c2Z01aZ2YwVF9BMmlyRDNydm9ndEU0c3dVRTJySW5EUVU4eURCOW5pS0VpMWZzcE91R2ZBSnFmQVIzeEZ1TGtPUjVsREE5WWN6aTdMdVlWVHRoeDQ?oc=5",
+      "published": "2024-07-08T07:00:00+00:00",
       "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
+        "name": "Sykepleien",
+        "url": "https://sykepleien.no"
       }
     },
     {
@@ -884,16 +904,6 @@
       }
     },
     {
-      "id": "ce88c37539ff",
-      "title": "Helseministeren lover kortere ventetid på godkjenning av medisiner - Sykepleien",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQck9HWVFjamtSU0dLX21NUzVFZGtWSG4xdVFyS1Q3Y0VpbHVCcXpUX3FSdndsT29SQ19MbzR0b2lWdmFYYVFDd2c2Z01aZ2YwVF9BMmlyRDNydm9ndEU0c3dVRTJySW5EUVU4eURCOW5pS0VpMWZzcE91R2ZBSnFmQVIzeEZ1TGtPUjVsREE5WWN6aTdMdVlWVHRoeDQ?oc=5",
-      "published": "2024-07-08T07:00:00+00:00",
-      "source": {
-        "name": "Sykepleien",
-        "url": "https://sykepleien.no"
-      }
-    },
-    {
       "id": "54cc19ae26e5",
       "title": "Helse, Legemiddel | Apotekene er tomme for denne medisinen: – Det er vanskelig å få tak i den - Avisa Valdres",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdjEyS2NMd1FmdHBOQUxLZjNJNEd3cTJQX05PeEFrd2ZNSmtCUERHQmFhcDdfRzBCc0hCWFljVC02dXBOb2lzczBYUXJrcUt4aFFTQTNaWjQ5QXoyak9CY1VUMTY5LXBtVWRVZ2Z1MGl3LUtid0VnSUhyb0RGUXQ2cGhlTW1rdy1kb1BjVVlvOHZ4TUdoZkdyenRpRmU1eGMyaHQyaXdkR2FpeVpzQlJJbm1XMA?oc=5",
@@ -901,16 +911,6 @@
       "source": {
         "name": "Avisa Valdres",
         "url": "https://www.avisa-valdres.no"
-      }
-    },
-    {
-      "id": "56d0a68f5d58",
-      "title": "Tiltak på nasjonalt nivå - Helsedirektoratet",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdFM1dFVxdmlwOHppaFJvRU4xYU1jTy1ETmxuTlo4dk13NVdBTlNnbkRIM2J6cjNLckROS2xGVUlRY0VrUm5VYXhfZExtQjVSbVo4eDlCUGM2NUFveGV4bExsOFhFODdrU0tzNGNZeFRkdXRka1pUTzRBRkdMZGNBZXRmNFRBclRoQ19JVjAtdGItUlV1WWNuVmdQUERMN3kzbWU0Q3RmM0lrV1ZvN0hMTDhvZw?oc=5",
-      "published": "2019-08-16T05:02:34+00:00",
-      "source": {
-        "name": "Helsedirektoratet",
-        "url": "https://www.helsedirektoratet.no"
       }
     },
     {
