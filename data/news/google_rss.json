@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-19T20:40:08.821431+00:00",
+  "fetched_at": "2026-06-19T22:05:09.046798+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -104,16 +104,6 @@
       }
     },
     {
-      "id": "8b7196ebfe9e",
-      "title": "Ikke la medisiner bli årsaken til sykdom. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMVm9nOVdYanJKMlNJWmNpd3NGQ29obE1LS184UTJLQVVjZFBuSHItV3drLVAyX0o3SVVSUlhDT0dsMUtwNmxyRm5yY29sSnV3b1ZYbkN5YVpnb3JYMlE3ZTFZazRtdUZBRVVBVkpfX3BWMWlF?oc=5",
-      "published": "2026-06-19T08:56:18+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "ee6ab2978cd4",
       "title": "Tre myelomatose-legemidler i Beslutningsforums neste møte - medwatch.no",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MWVRrMjY0UjhFNFFOVEtudDFILVQzT2Iwb1FBTGF5WTNUd0NhRWl5MVV0R2FwbDNsaGtEYW1IUnB6UVRrTzFvU2pRdkxoSEhCeDdPOTZGSVFFOWxVY3Z2cUZ3eXh1M3BOV2pSTW91Y0NPS1k?oc=5",
@@ -141,6 +131,16 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
+      }
+    },
+    {
+      "id": "8b7196ebfe9e",
+      "title": "Ikke la medisiner bli årsaken til sykdom. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMVm9nOVdYanJKMlNJWmNpd3NGQ29obE1LS184UTJLQVVjZFBuSHItV3drLVAyX0o3SVVSUlhDT0dsMUtwNmxyRm5yY29sSnV3b1ZYbkN5YVpnb3JYMlE3ZTFZazRtdUZBRVVBVkpfX3BWMWlF?oc=5",
+      "published": "2026-06-19T08:56:18+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
