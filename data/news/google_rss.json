@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-22T19:31:34.837734+00:00",
+  "fetched_at": "2026-06-22T22:04:33.620889+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -564,16 +564,6 @@
       }
     },
     {
-      "id": "de8afc5ad78a",
-      "title": "Helse, Apotek | Kraftig endring i egenandel for medisiner - Akershus Amtstidende",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdXRlRXAxSkNUa0hrTldOQ1pMVnVRUTRRc0laOVU0WG0zZzZWb2xVQlo5Vk1mZWZvNVpXMlZra0FfTUw1aXMxOS1vOWxDUFBDWDFRM3Z2cEhFWVg4STNlTDJSSWgzaWtoUlQ5WUpvbnc0NElYaEZlWllQay1UX3RQcQ?oc=5",
-      "published": "2025-12-19T08:00:00+00:00",
-      "source": {
-        "name": "Akershus Amtstidende",
-        "url": "https://www.amta.no"
-      }
-    },
-    {
       "id": "42c2034c12d3",
       "title": "Disse legemidlene kan forstyrre tarmen i årevis, ifølge svensk studie - Forskning.no",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcDdyVENCc2NxR3FNTFJSYWlqcVF5R2VsY1RUSm9XUU0zLXRpc1oyeFdLOXdTdU5hVXI0T2JfUTdQaFVVbUN1bmE4Z0VCQmxnclNITjk0S2U2NDBiR3lpZVFtRnNWT1RLYWgtSWZraEdwTW00SVNFSXE5a05jYXhDV243NDBxRkZlSWpZYnhzRXNhWlF5QjFsSDNNbzRXV2w4QkJQUnIxc2JWZXkxMnA1X1gzZlV5S2tiaXBhOUVjVGFuMHd0Smw4?oc=5",
@@ -824,16 +814,6 @@
       }
     },
     {
-      "id": "ce88c37539ff",
-      "title": "Helseministeren lover kortere ventetid på godkjenning av medisiner - Sykepleien",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQck9HWVFjamtSU0dLX21NUzVFZGtWSG4xdVFyS1Q3Y0VpbHVCcXpUX3FSdndsT29SQ19MbzR0b2lWdmFYYVFDd2c2Z01aZ2YwVF9BMmlyRDNydm9ndEU0c3dVRTJySW5EUVU4eURCOW5pS0VpMWZzcE91R2ZBSnFmQVIzeEZ1TGtPUjVsREE5WWN6aTdMdVlWVHRoeDQ?oc=5",
-      "published": "2024-07-08T07:00:00+00:00",
-      "source": {
-        "name": "Sykepleien",
-        "url": "https://sykepleien.no"
-      }
-    },
-    {
       "id": "56d0a68f5d58",
       "title": "Tiltak på nasjonalt nivå - Helsedirektoratet",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdFM1dFVxdmlwOHppaFJvRU4xYU1jTy1ETmxuTlo4dk13NVdBTlNnbkRIM2J6cjNLckROS2xGVUlRY0VrUm5VYXhfZExtQjVSbVo4eDlCUGM2NUFveGV4bExsOFhFODdrU0tzNGNZeFRkdXRka1pUTzRBRkdMZGNBZXRmNFRBclRoQ19JVjAtdGItUlV1WWNuVmdQUERMN3kzbWU0Q3RmM0lrV1ZvN0hMTDhvZw?oc=5",
@@ -841,6 +821,16 @@
       "source": {
         "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
+      }
+    },
+    {
+      "id": "ce88c37539ff",
+      "title": "Helseministeren lover kortere ventetid på godkjenning av medisiner - Sykepleien",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQck9HWVFjamtSU0dLX21NUzVFZGtWSG4xdVFyS1Q3Y0VpbHVCcXpUX3FSdndsT29SQ19MbzR0b2lWdmFYYVFDd2c2Z01aZ2YwVF9BMmlyRDNydm9ndEU0c3dVRTJySW5EUVU4eURCOW5pS0VpMWZzcE91R2ZBSnFmQVIzeEZ1TGtPUjVsREE5WWN6aTdMdVlWVHRoeDQ?oc=5",
+      "published": "2024-07-08T07:00:00+00:00",
+      "source": {
+        "name": "Sykepleien",
+        "url": "https://sykepleien.no"
       }
     },
     {
@@ -914,16 +904,6 @@
       }
     },
     {
-      "id": "279c3f57ee49",
-      "title": "Egenadministrering av legemidler kan fremme mestring i psykisk helsevern - Sykepleien",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZTl2SVRXN1JVdHFYMzV3SXNmeWFac0ViSUR1R21RWTV0ak55MldiWEdfd1lHSVZFWkF0OHFmV1ZBQ1BLQUZHOUxFSGJxajgyZGxIc1M1elRHSnpxaFVpWVR5bDBLSFljWDdTbmVtWVpIVnBqUUpqdWJPck9EUU1LYXpVTENsYlhWMDRXdlFtUWIzUF91TnRsZGFfS1c0YXQtc1R3aXY5ZVRZZw?oc=5",
-      "published": "2023-05-02T07:00:00+00:00",
-      "source": {
-        "name": "Sykepleien",
-        "url": "https://sykepleien.no"
-      }
-    },
-    {
       "id": "93d5d541f722",
       "title": "helse, Legemiddel | Hva skjer når jeg ikke får medisinene mine? - Tønsbergs Blad",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORGI5OTBzT3ZSX29SWEU4MlFtM3N4YkU4eE5XcTNCaUQ4ZTR6VEZCMXc3RXFqUUVNUnFlQmhFRnhtYUd4YTJNQTRzbGJxUXRzeHJVYTBkdEEyM1Jvc0xHUnhUZ1Vka094aGI0OTVhT2E1QVAwelZFY1hsSzl3enlpRQ?oc=5",
@@ -994,6 +974,16 @@
       }
     },
     {
+      "id": "279c3f57ee49",
+      "title": "Egenadministrering av legemidler kan fremme mestring i psykisk helsevern - Sykepleien",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZTl2SVRXN1JVdHFYMzV3SXNmeWFac0ViSUR1R21RWTV0ak55MldiWEdfd1lHSVZFWkF0OHFmV1ZBQ1BLQUZHOUxFSGJxajgyZGxIc1M1elRHSnpxaFVpWVR5bDBLSFljWDdTbmVtWVpIVnBqUUpqdWJPck9EUU1LYXpVTENsYlhWMDRXdlFtUWIzUF91TnRsZGFfS1c0YXQtc1R3aXY5ZVRZZw?oc=5",
+      "published": "2023-05-02T07:00:00+00:00",
+      "source": {
+        "name": "Sykepleien",
+        "url": "https://sykepleien.no"
+      }
+    },
+    {
       "id": "b5954a1d3d64",
       "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVFhoTmQ2UURJZE5Ubm40NElBeHRWM2RsdEhlVHJPTG9RSGc1c0t4SUpHdk8ydFdDcjYwbkpDanVvRXhVZkZTbEFkanVuM2JRWEtHVm5lLTRUYU5UVlk0bVBlc2Z5T09jdUc3NGlaZ180RzJtYV9mZlV5dGdPT0NnemtyY1c?oc=5",
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Regjeringen.no",
         "url": "https://www.regjeringen.no"
+      }
+    },
+    {
+      "id": "8a8bf64377b3",
+      "title": "Nytt legemiddel reduserer plakk i hjernen. Det kan ha betydning som medisin mot Alzheimers sykdom - Forskning.no",
+      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPTFhuZUpTM3Y4U1BTeDVtY2VaTFFvNVdWb0FIaEpyMFJKampjZUJHdm5IQnZ1dWdVN0lCT0czSExsQ05WeVB5eXd5clNMeEJfcWtBd2lYTWs1MFhETW9BWUFpZGU0eE1ZYmZFaDRmS0wzRXdEcXEtX2Q4S3dGY0p3Yk5FNW1RNHBYY01kUlR6MDRqMW5fZTM4MGtVdzRDWkJKem94Q3hGVk9yMDR6TG1KbGxmTXZVZ0dSRzdDRVhjSTJwdGljUVBsZ2VvODJSVUdVdnFpeF8yeHpZOWc0OS0tREQ3a1JiT2JCeXpLWTRDNzh2b1BqWDFlb214d19Mc0dlVklhNnp6OUxBOFd2TC1SS1RlMnlOa3lhZUM4dmlVYzJvZlpaZnc?oc=5",
+      "published": "2023-05-17T07:00:00+00:00",
+      "source": {
+        "name": "Forskning.no",
+        "url": "https://www.forskning.no"
       }
     }
   ]
