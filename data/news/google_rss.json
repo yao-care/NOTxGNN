@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T17:58:21.835787+00:00",
+  "fetched_at": "2026-06-23T20:17:27.009694+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -264,16 +264,6 @@
       }
     },
     {
-      "id": "0b7c97cd359a",
-      "title": "Setter ned ekspertgruppe om tidlig tilgang til legemidler - Medwatch.no",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9hSVBzcGRjM3ZPRGFaOWNrbnlfenEtWG51NGxkLVhfemZyekN5SmN1VEtMUFgzRVhTRDJrWkRaNm10bHllVi1BanJISlZKVU1HWDRTNTE1a2hVbTJ1azhUU3RubWE4djlLclNMRkRsX2RDLTQ?oc=5",
-      "published": "2026-05-04T07:00:00+00:00",
-      "source": {
-        "name": "Medwatch.no",
-        "url": "https://medwatch.no"
-      }
-    },
-    {
       "id": "2a6ea7cff34a",
       "title": "(+) Vestre vil ha diskusjon om vaksiner og medisiner på blå resept - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPcEdaVHlObGtTS2JQcTdUdW1MMHQ0TE8yTzF0OHBNQ0p1eWlISTNVUUt3R3VHM3Q5QnpYZk45YjFoM0RqTUVWcnRCX2hCNEYtcks2OVhEbVhWY2tnSERqS2RSNk4zTVdqZzBmU0ViU2pnaUZaZk9SQWUxb0pUd240RW1MdTZQUDNSWXZyQXpWZWZIbk9BeGRYaGE3UXpjbk82blVsVzdocGJ4Z0JmWW5UN19Kb0lXbkNNUUVnd2lPUE1RVGVHQjdvaEhsWnp1WlMwb0EtTGpwSnhicUhrTUVmX1JQSHFBVmtZYmhkRnRBenR6QQ?oc=5",
@@ -434,16 +424,6 @@
       }
     },
     {
-      "id": "ec620bdef11d",
-      "title": "Ekspertgruppe skal vurdere tidligere tilgang til legemidler - Altinget.no",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQUZGN3BZTW11Y3BvSWVKUkdMYWlLZ0NoODN3N0hLWUdIT0tOSDIyX3JtSDNYQXkyU2k0TUx5Z0w4VENoMU5iSnNISlZPcnpHSGlkdUc4NDR5cUQ2NGhsNnN0TFFpVjJGTHBFZjNCRnNnVGxpb1BJOWJSZ0R3akhlcmtWV29UdDlJREdPdHo0dTd1bXhoR2FR?oc=5",
-      "published": "2026-05-04T07:00:00+00:00",
-      "source": {
-        "name": "Altinget.no",
-        "url": "https://www.altinget.no"
-      }
-    },
-    {
       "id": "b2c4d73bd79d",
       "title": "13 av 14 legemidler fikk ja i årets første Beslutningsforum - Medwatch.no",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWYWJpdFBFTFJSNldOR1V1RXpDd3pSWHM0Z0hkSlIzUkxmd2RYcWI3M0o2OTVVNnZpeXhQcndNWEliYVc0S2cxR0pTMWpmQjR6QnVuWUwwUjJWeXlEVXJLVXRvR2RQeUpkUkFkNHhXbWJFMEU?oc=5",
@@ -481,6 +461,16 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
+      "id": "2b3e8a6ec778",
+      "title": "Studie: Slankemedisiner ga overraskende effekt - VG",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOX3diRExyanRfcUN0MWZrdE9MYVd0LWNzcENBZ0pIVzBabVZqOXAxb3lYbXVWSkw0a3h0T0FBUXNDWXR4Zmt0NGxQVHUwZml4SHhqUGRVZTJzVzgwN2VzQUoxU2FtVVVmVVdWZGZmQzNOOUJEbUhSTXc2eXU1d0xEcDdnYlloYVhMR1E?oc=5",
+      "published": "2026-04-02T07:00:00+00:00",
+      "source": {
+        "name": "VG",
+        "url": "https://www.vg.no"
       }
     },
     {
@@ -531,6 +521,16 @@
       "source": {
         "name": "VG",
         "url": "https://www.vg.no"
+      }
+    },
+    {
+      "id": "ec620bdef11d",
+      "title": "Ekspertgruppe skal vurdere tidligere tilgang til legemidler - Altinget.no",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQUZGN3BZTW11Y3BvSWVKUkdMYWlLZ0NoODN3N0hLWUdIT0tOSDIyX3JtSDNYQXkyU2k0TUx5Z0w4VENoMU5iSnNISlZPcnpHSGlkdUc4NDR5cUQ2NGhsNnN0TFFpVjJGTHBFZjNCRnNnVGxpb1BJOWJSZ0R3akhlcmtWV29UdDlJREdPdHo0dTd1bXhoR2FR?oc=5",
+      "published": "2026-05-04T07:00:00+00:00",
+      "source": {
+        "name": "Altinget.no",
+        "url": "https://www.altinget.no"
       }
     },
     {
@@ -924,16 +924,6 @@
       }
     },
     {
-      "id": "c6caed0127fe",
-      "title": "Lanserer nytt norsk legemiddel mot hjerteinfarkt: – Vil kunne redde liv - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeFNjN3VmbEpEODhUbEJGS21OUTZnUVA0LVA3ZzUxLTQwN2pRQUZqM25LbzNqeml6cVg3cFd1WkUyVU1VbVM2eWF6RS0tcmhLcDZNeVZBR2JNVVBEejFSbW1XTDhLeFZVTVA3TnJZM3M4NWp0d2pkZm51TUdxM1NobjlVbm5uNVdGQTRpaEZPWUVKUHI1OVJhMHhOeC1ZNGFMeUZ0X0pTSXFIaHBqMURnSG9ac0xiQ2s?oc=5",
-      "published": "2023-01-18T08:00:00+00:00",
-      "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
-      }
-    },
-    {
       "id": "5a3c6e17b37a",
       "title": "Innfører legemiddel til Stills sykdom og sJIA - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmx6MTZPbFRCMGU5c0ptUVlwdEM4UHp4Wl9EV2ppb1pQa0VPdV9RVjRWQ015dlNpVHZMblM0Wldndm9WWEFVelNSbFBUa0tDRnhES3JWbng0dXVSem1jZGsyQ0l2eGRiUkF1aTNwbW5HazI1cHZyOVZwUDhUNWc2aElyUW1VdU9RZkpJQUh1TW83YzNTRW5sQVVEaUw3RnJEcUdVOUYtVnN4Rkt5M2NDc3VrNEMtOEhsOUE?oc=5",
@@ -994,13 +984,23 @@
       }
     },
     {
-      "id": "8a8bf64377b3",
-      "title": "Nytt legemiddel reduserer plakk i hjernen. Det kan ha betydning som medisin mot Alzheimers sykdom - Forskning.no",
-      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPTFhuZUpTM3Y4U1BTeDVtY2VaTFFvNVdWb0FIaEpyMFJKampjZUJHdm5IQnZ1dWdVN0lCT0czSExsQ05WeVB5eXd5clNMeEJfcWtBd2lYTWs1MFhETW9BWUFpZGU0eE1ZYmZFaDRmS0wzRXdEcXEtX2Q4S3dGY0p3Yk5FNW1RNHBYY01kUlR6MDRqMW5fZTM4MGtVdzRDWkJKem94Q3hGVk9yMDR6TG1KbGxmTXZVZ0dSRzdDRVhjSTJwdGljUVBsZ2VvODJSVUdVdnFpeF8yeHpZOWc0OS0tREQ3a1JiT2JCeXpLWTRDNzh2b1BqWDFlb214d19Mc0dlVklhNnp6OUxBOFd2TC1SS1RlMnlOa3lhZUM4dmlVYzJvZlpaZnc?oc=5",
-      "published": "2023-05-17T07:00:00+00:00",
+      "id": "1e767e49141c",
+      "title": "Økt bruk av legemiddelet i Norge bekymrer: – Kroppen skiller ikke mellom oksykodon eller heroin - Oppland Arbeiderblad",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcmI4RDV3UWRPVVQxSjJXck00S1FwN0F6RlBuZTNEYS1vZDJNUktsMHRHaFRiZmlaankxM0plNW5BMGNGaG5VNkVENU9hd3dXeklRR0xzNEJ4WlJCY29QSWxBVEltQWs3RVNnZVhlQVhFRjhXQVg2OVZlZEpMYzctcXdIVVpHRjJ5NEpud2EtY0NTTDBLNmIyMlVYaDNWR2Q4TThZMWpRYnR3a0lHa1pJdzZHNDhVcnBPbmE0SUxWN0xCaEU?oc=5",
+      "published": "2022-02-22T08:00:00+00:00",
       "source": {
-        "name": "Forskning.no",
-        "url": "https://www.forskning.no"
+        "name": "Oppland Arbeiderblad",
+        "url": "https://www.oa.no"
+      }
+    },
+    {
+      "id": "c6caed0127fe",
+      "title": "Lanserer nytt norsk legemiddel mot hjerteinfarkt: – Vil kunne redde liv - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeFNjN3VmbEpEODhUbEJGS21OUTZnUVA0LVA3ZzUxLTQwN2pRQUZqM25LbzNqeml6cVg3cFd1WkUyVU1VbVM2eWF6RS0tcmhLcDZNeVZBR2JNVVBEejFSbW1XTDhLeFZVTVA3TnJZM3M4NWp0d2pkZm51TUdxM1NobjlVbm5uNVdGQTRpaEZPWUVKUHI1OVJhMHhOeC1ZNGFMeUZ0X0pTSXFIaHBqMURnSG9ac0xiQ2s?oc=5",
+      "published": "2023-01-18T08:00:00+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     }
   ]
