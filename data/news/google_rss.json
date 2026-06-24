@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-24T17:06:34.435100+00:00",
+  "fetched_at": "2026-06-24T19:49:20.882808+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -21,6 +21,16 @@
       "source": {
         "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
+      }
+    },
+    {
+      "id": "e7fb2ade5814",
+      "title": "Tolletaten: Markant økning i beslag av utseendefremmende legemidler - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUFFSbGhfS2dGVnd6cmNxYTAyQTZ6S3llYi1BS1dTXzdvZkJzUlI4WWRfTnZ5V29MMVZDSXUxOXI4RlR6cktNV29uMU9FYk82MlZ2b1ExbDg1UkYzVG5lbERudEItbFlKdWtCQ2V2OUx6TlVESnZ6eTRRbERIXzFrZTgxOEMzd3VsYWFtYmlhRm91NWhwVnJOMk1jLXhJLUppbHRub0QxV25kcF8zRnJDUWM2WUNlZw?oc=5",
+      "published": "2026-06-24T06:47:33+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     },
     {
@@ -104,16 +114,6 @@
       }
     },
     {
-      "id": "9b44339f5ad4",
-      "title": "Tomt for denne vanlige medisinen - kk.no",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5XcFJDalhrZjJncmZ0T2EwTDlydEZ4dXA2eVluNG5WWEg0LS1TNWdnSWU2dy13b2ZLM3ROV01MUkV1M01wVnNGSGZoVG5EVXZ1M3VTelExaDJrRC1rMXpKR3RTM2F6bEQ5ZTNkQTB6WFBpdWc?oc=5",
-      "published": "2026-06-22T16:00:00+00:00",
-      "source": {
-        "name": "kk.no",
-        "url": "https://www.kk.no"
-      }
-    },
-    {
       "id": "6114145eccc5",
       "title": "Slår alarm om medisiner - VG",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5hSU5tVlZVMkZLTjlrZU1fMTJ0SjdMWTBXYThfWmcwVnlZLVlxNmp3YWlUeVhSVnJvdnRhbDZiLWJwdExaR3FHTXY4eWtHUndZUjAxSzNtUVlqYWhZVzduYTlZSzMyLV9fR1AyNmstUEE4b0pMSXVF?oc=5",
@@ -131,6 +131,16 @@
       "source": {
         "name": "Fredriksstad Blad",
         "url": "https://www.f-b.no"
+      }
+    },
+    {
+      "id": "9b44339f5ad4",
+      "title": "Tomt for denne vanlige medisinen - kk.no",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5XcFJDalhrZjJncmZ0T2EwTDlydEZ4dXA2eVluNG5WWEg0LS1TNWdnSWU2dy13b2ZLM3ROV01MUkV1M01wVnNGSGZoVG5EVXZ1M3VTelExaDJrRC1rMXpKR3RTM2F6bEQ5ZTNkQTB6WFBpdWc?oc=5",
+      "published": "2026-06-22T16:00:00+00:00",
+      "source": {
+        "name": "kk.no",
+        "url": "https://www.kk.no"
       }
     },
     {
@@ -964,16 +974,6 @@
       }
     },
     {
-      "id": "b5954a1d3d64",
-      "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVFhoTmQ2UURJZE5Ubm40NElBeHRWM2RsdEhlVHJPTG9RSGc1c0t4SUpHdk8ydFdDcjYwbkpDanVvRXhVZkZTbEFkanVuM2JRWEtHVm5lLTRUYU5UVlk0bVBlc2Z5T09jdUc3NGlaZ180RzJtYV9mZlV5dGdPT0NnemtyY1c?oc=5",
-      "published": "2015-06-15T16:26:29+00:00",
-      "source": {
-        "name": "Regjeringen.no",
-        "url": "https://www.regjeringen.no"
-      }
-    },
-    {
       "id": "6b0deb587987",
       "title": "Jan Terje skaper medisiner med superkrefter - VG",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOW9taUdUX19Ka0Fsa0VWZFJBUEdFcDMzZzNRa0JxWTU1Y21qT1RQNGV2OVFVcXF0ZHdmYVRHUzVMZnRCVXFIZlp6d2NHMXAyT25kbGdZUkRBdzRnOHloT1FoRXBCVHdibnFHXzdubzhaODBaaGtGNUVQcG9RYW9MUVZ0VWp0V01xS0lFQ2VhdjhSc0lFQVFxUC1DTkpzQQ?oc=5",
@@ -984,6 +984,16 @@
       }
     },
     {
+      "id": "b5954a1d3d64",
+      "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVFhoTmQ2UURJZE5Ubm40NElBeHRWM2RsdEhlVHJPTG9RSGc1c0t4SUpHdk8ydFdDcjYwbkpDanVvRXhVZkZTbEFkanVuM2JRWEtHVm5lLTRUYU5UVlk0bVBlc2Z5T09jdUc3NGlaZ180RzJtYV9mZlV5dGdPT0NnemtyY1c?oc=5",
+      "published": "2015-06-15T16:26:29+00:00",
+      "source": {
+        "name": "Regjeringen.no",
+        "url": "https://www.regjeringen.no"
+      }
+    },
+    {
       "id": "d12731491989",
       "title": "Mener norske pasienter må vente for lenge på ny medisin: – Forferdet - Nettavisen",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNR3FuNGlNV3lrQmhqWWg0cG9yV1pSclluN2VQZjN1azJuZW1WWGZwdXBBMHpkUDl5Y21XZ2MzaXFjT21TX0Q4amlGTGJIVEdqd0Iyd29mMDl5eC1NTUZibFZ3MVJNTmZUVzgzTXpveDg0d2J3WFRWTGlJSm5hN21CdUV4MWFEb0NjNndudXRCeUlPWHNEMmdoUVRtR1V0YXl1cHlrclRZdVNhUTFFZHFDWlZEUlNqUF9GenV0VTRpVHFFelRKUHRnSkJhRExRU3dxSDlreFJ2RlRRZw?oc=5",
@@ -991,16 +1001,6 @@
       "source": {
         "name": "Nettavisen",
         "url": "https://www.nettavisen.no"
-      }
-    },
-    {
-      "id": "279c3f57ee49",
-      "title": "Egenadministrering av legemidler kan fremme mestring i psykisk helsevern - Sykepleien",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZTl2SVRXN1JVdHFYMzV3SXNmeWFac0ViSUR1R21RWTV0ak55MldiWEdfd1lHSVZFWkF0OHFmV1ZBQ1BLQUZHOUxFSGJxajgyZGxIc1M1elRHSnpxaFVpWVR5bDBLSFljWDdTbmVtWVpIVnBqUUpqdWJPck9EUU1LYXpVTENsYlhWMDRXdlFtUWIzUF91TnRsZGFfS1c0YXQtc1R3aXY5ZVRZZw?oc=5",
-      "published": "2023-05-02T07:00:00+00:00",
-      "source": {
-        "name": "Sykepleien",
-        "url": "https://sykepleien.no"
       }
     }
   ]
