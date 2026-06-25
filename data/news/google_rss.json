@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-06-25T21:45:17.416656+00:00",
+  "fetched_at": "2026-06-25T23:20:07.692894+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "61ce55dd5965",
-      "title": "Krim, Helse Førde | Sjukepleiar stal og brukte narkotisk medikament på jobb - Firda",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOa2JiN3JWUW9sUEJQZ0t4VVZQQzFKTHRYQU5zeHVGNUZab3N3eDA1bVg2bmZmM0Mxc2IwTGRIbWN0VElFRGYzZFphb0lMc09XWnpPRTh4RlpZOEptRllHWjVBYkRySjJYMWpDVkk5SUNKWUk0R19EV19ldHFsOExTR3ozLTFaaVBNRnNOdV84NnlRWU05dUE?oc=5",
-      "published": "2026-06-25T06:10:55+00:00",
-      "source": {
-        "name": "Firda",
-        "url": "https://www.firda.no"
-      }
-    },
     {
       "id": "4f989bd3393b",
       "title": "Nedgang i bruk av vanedannande legemiddel hos eldre - Helsedirektoratet",
@@ -21,6 +11,16 @@
       "source": {
         "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
+      }
+    },
+    {
+      "id": "61ce55dd5965",
+      "title": "Krim, Helse Førde | Sjukepleiar stal og brukte narkotisk medikament på jobb - Firda",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOa2JiN3JWUW9sUEJQZ0t4VVZQQzFKTHRYQU5zeHVGNUZab3N3eDA1bVg2bmZmM0Mxc2IwTGRIbWN0VElFRGYzZFphb0lMc09XWnpPRTh4RlpZOEptRllHWjVBYkRySjJYMWpDVkk5SUNKWUk0R19EV19ldHFsOExTR3ozLTFaaVBNRnNOdV84NnlRWU05dUE?oc=5",
+      "published": "2026-06-25T06:10:55+00:00",
+      "source": {
+        "name": "Firda",
+        "url": "https://www.firda.no"
       }
     },
     {
@@ -334,16 +334,6 @@
       }
     },
     {
-      "id": "0feec7389226",
-      "title": "ADHD-medisiner: Den ideelle dosen - Dagbladet",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE11MjlxR19tYmRES3NrMTMtOVBxQzA5MUJ5X3V6UzA5YmNrMHN1bFo1SU5rQURvRjREZldaNm0wbnR1RThhMHVieDF2N09PYlRqeUYwS09kOF9rS3RVWGZoWno4R2F2bWY2bDFiVnBxRHFSUk9jb3JOazZkaw?oc=5",
-      "published": "2026-06-18T22:15:03+00:00",
-      "source": {
-        "name": "Dagbladet",
-        "url": "https://www.dagbladet.no"
-      }
-    },
-    {
       "id": "5415c63092d6",
       "title": "Helse, NTB | Bruken av kolesterolsenkende legemidler øker kraftig - Bergensavisen",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbmlVQ202cEQtbWRtZXNyTU1CdU42T0RJako0ZnZiUlhCVVFUbEVXREFkSTlKNlM2ZnlaeERyS0ZxMkdEaTFQVlBrV3RveXBkZWZXbjVCSXRnNm9PSGF5WWpxSmVJNjAzMkZGcG9ndmZLR01VTmtlQ1cyeklmX1lWcVEwVWl2MHlsRGlXRw?oc=5",
@@ -351,6 +341,16 @@
       "source": {
         "name": "Bergensavisen",
         "url": "https://www.ba.no"
+      }
+    },
+    {
+      "id": "0feec7389226",
+      "title": "ADHD-medisiner: Den ideelle dosen - Dagbladet",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE11MjlxR19tYmRES3NrMTMtOVBxQzA5MUJ5X3V6UzA5YmNrMHN1bFo1SU5rQURvRjREZldaNm0wbnR1RThhMHVieDF2N09PYlRqeUYwS09kOF9rS3RVWGZoWno4R2F2bWY2bDFiVnBxRHFSUk9jb3JOazZkaw?oc=5",
+      "published": "2026-06-18T22:15:03+00:00",
+      "source": {
+        "name": "Dagbladet",
+        "url": "https://www.dagbladet.no"
       }
     },
     {
