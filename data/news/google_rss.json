@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-30T09:40:14.757880+00:00",
+  "fetched_at": "2026-06-30T12:10:18.338511+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,16 +24,6 @@
       }
     },
     {
-      "id": "063ce481ee8c",
-      "title": "Advarsel: Medisiner kan miste effekt i sommervarmen - Dagbladet",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaTlDWWZ0ZWpHTmd5X3Rpc1VZQlpOOG5GblVrU1c1TTdsaDZvNnFDc1Z6Ny1fWXVQTkM2WkxNd3lObTlyNVN5d1UyZ0tsR1NvbGotU0RqeG5qbWV5NEF2STRPc0t1OFB0TkFseVAxbzF6VU5LeHlvb253alN3bHNaM1lUMA?oc=5",
-      "published": "2026-06-29T22:10:53+00:00",
-      "source": {
-        "name": "Dagbladet",
-        "url": "https://www.dagbladet.no"
-      }
-    },
-    {
       "id": "4f989bd3393b",
       "title": "Nedgang i bruk av vanedannande legemiddel hos eldre - Helsedirektoratet",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUTVvZ21Kd3VQOUhyWFhjX1BMcU1fSUtQcGdocGk5X3B6bFNsLU81SzBtRkZMaDVhT0U4aXhIai1sOUpMU2tKQTJCSDB5UUdJbjVaa2hRMXg0RGxXUTdrWGVPcDJveVdiOVlRT3duV2t0NkdZejB0TlBYTjlLT1VZaERqQXBac09tRU5PMnZVVUpRTXdxdWJR?oc=5",
@@ -41,6 +31,16 @@
       "source": {
         "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
+      }
+    },
+    {
+      "id": "063ce481ee8c",
+      "title": "Advarsel: Medisiner kan miste effekt i sommervarmen - Dagbladet",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaTlDWWZ0ZWpHTmd5X3Rpc1VZQlpOOG5GblVrU1c1TTdsaDZvNnFDc1Z6Ny1fWXVQTkM2WkxNd3lObTlyNVN5d1UyZ0tsR1NvbGotU0RqeG5qbWV5NEF2STRPc0t1OFB0TkFseVAxbzF6VU5LeHlvb253alN3bHNaM1lUMA?oc=5",
+      "published": "2026-06-29T22:10:53+00:00",
+      "source": {
+        "name": "Dagbladet",
+        "url": "https://www.dagbladet.no"
       }
     },
     {
