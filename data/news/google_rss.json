@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-03T18:13:39.715420+00:00",
+  "fetched_at": "2026-07-03T20:15:36.180693+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -64,16 +64,6 @@
       }
     },
     {
-      "id": "f4d44a86dcef",
-      "title": "(+) Prominent helseøkonom snakket varmt om NATO-modell for legemidler - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQYXF1elBKbDBaZHUxY05vU3ZRaTRGQlNLUjI2TzJfUDZ1WWlKU3J2Y3NnVHVBYXZFSEtMNFhhTElJZzhaaGhQc0s1VnMtTTBGaHA3VFFiZUhPMHZkWnM4bS1mLUNrZk1YUGN1aWg1VzIzNUVsVFB4cFd5MEtMOGN4RFFDS05kSmxWcV9iV2ZSUXJVXzFaREs0WmZ1WjJnU1VtZzRnREUtWjZ2UlFoU3NnVkdWcl83cU1hZ1NtbFdvTTJnOVkzUWNiQUZaeW1wSE5JMkItRzNLQTFiTEc1R01CdXZORWFMbnJycmNr?oc=5",
-      "published": "2026-07-03T06:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
       "id": "dacabd622ab1",
       "title": "Norge skal finne ny alternativkostnad – men norske data kan bli for svake - HealthTalk",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTnhFWDFXbFEzeWx4dnhzc1pmRjlkdWEtSW1mWkFwVm5ocE56dFk3dUVDV08zSWpBSWp3bk4temc3ZVVqVW42cFdfb2xtRzRvdkY0bU9GX2JYT3I4eFJsVE9BcklkZFA1bk9KU3ltTFNpbTBteGRWMEZnRzFXcWpKYzZmQk4zRV84X0FLaExwNnFUZkpkd1UwR2hrdXZOZnlNcFQ2b3loTVpKaTFvaWlvWEFITk93RnFqQ3FFS3ZwbDN4cTA?oc=5",
@@ -81,6 +71,16 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
+      }
+    },
+    {
+      "id": "f4d44a86dcef",
+      "title": "(+) Prominent helseøkonom snakket varmt om NATO-modell for legemidler - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQYXF1elBKbDBaZHUxY05vU3ZRaTRGQlNLUjI2TzJfUDZ1WWlKU3J2Y3NnVHVBYXZFSEtMNFhhTElJZzhaaGhQc0s1VnMtTTBGaHA3VFFiZUhPMHZkWnM4bS1mLUNrZk1YUGN1aWg1VzIzNUVsVFB4cFd5MEtMOGN4RFFDS05kSmxWcV9iV2ZSUXJVXzFaREs0WmZ1WjJnU1VtZzRnREUtWjZ2UlFoU3NnVkdWcl83cU1hZ1NtbFdvTTJnOVkzUWNiQUZaeW1wSE5JMkItRzNLQTFiTEc1R01CdXZORWFMbnJycmNr?oc=5",
+      "published": "2026-07-03T06:00:00+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -114,16 +114,6 @@
       }
     },
     {
-      "id": "6114145eccc5",
-      "title": "Slår alarm om medisiner - VG",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5hSU5tVlZVMkZLTjlrZU1fMTJ0SjdMWTBXYThfWmcwVnlZLVlxNmp3YWlUeVhSVnJvdnRhbDZiLWJwdExaR3FHTXY4eWtHUndZUjAxSzNtUVlqYWhZVzduYTlZSzMyLV9fR1AyNmstUEE4b0pMSXVF?oc=5",
-      "published": "2026-05-19T07:00:00+00:00",
-      "source": {
-        "name": "VG",
-        "url": "https://www.vg.no"
-      }
-    },
-    {
       "id": "055bde4d929d",
       "title": "Flere eldre kan hente medisin på apotek - Bergen kommune",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUUt4cU1YcTRnVzJsQUNJQ1BMRTJEWGl5bmdEVlYwZXpmb1pEaVA0d20yczVIR2ZyRE83MloyWDVrbGJhd0lXTU0yMmZUYjdrLW9aUW9vV2xLTXBUaXlRcFN3cXNjY0cyU1FLbldLX3FPTWJJdmVIX2FrSmE2NGp1OGphenNmVTl5UXF0WEhObC1tWElMVkF6S3BPQ1gzcml6MDBPTkcwcFRDUQ?oc=5",
@@ -131,6 +121,16 @@
       "source": {
         "name": "Bergen kommune",
         "url": "https://www.bergen.kommune.no"
+      }
+    },
+    {
+      "id": "6114145eccc5",
+      "title": "Slår alarm om medisiner - VG",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5hSU5tVlZVMkZLTjlrZU1fMTJ0SjdMWTBXYThfWmcwVnlZLVlxNmp3YWlUeVhSVnJvdnRhbDZiLWJwdExaR3FHTXY4eWtHUndZUjAxSzNtUVlqYWhZVzduYTlZSzMyLV9fR1AyNmstUEE4b0pMSXVF?oc=5",
+      "published": "2026-05-19T07:00:00+00:00",
+      "source": {
+        "name": "VG",
+        "url": "https://www.vg.no"
       }
     },
     {
@@ -514,16 +514,6 @@
       }
     },
     {
-      "id": "aa468ba74a88",
-      "title": "Beslutningsforum og rett til individuell vurdering og forsvarlige helsetjenester - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNck54dlJMcWpCeExHWHZVWlRtMEM1TzUtZGItTEJjWWpFd19DWnE5R3dod2F1blFDdGJabFJ6eWpNNEh2NF9MdXJISUJCYUhqVERuQnpCZU53ZXJNRlU3Ukw2WXRpd3E0S3NrUUs5WEtQYWpIMEtoWFVUVFRwUlM2QnhVaTNVd2U2amZuSWRFYWFCazVjYWdubVVocktsaVVpSHhTYVhHTXprYy1pR1hIUzlxZ2JBNEh2SFZMalF6MkxCS1QxdWszcnJJMkg4U1l2cDFfMFU5WFVHOEQ1WGZ3eDdFa0tCOHRhMHZhZQ?oc=5",
-      "published": "2025-10-24T07:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
       "id": "d6b210ca8711",
       "title": "(+) – Helsepersonell avgjør om pasienten har rett på nødvendig helsehjelp – innenfor rammene - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOSkZxdnJtM0V4VnVxbEZmZm1ONmVteksxbm1jQ253aWNtTU1sSnAySi1yaDBqZ0NFSVRrZmRVbVhTeVdlNG1fSUFLeXVudVUxdWEyX1BDdWhvUmNDb250VnJGZk5rMUJHR0RQVjN4YzRTZ0NweW51T3VhM20tc2pTaEFyY3FOQ0Jabm1mbnUyMmxmcUx0Q1pQMTI4LVhoMmQ4ODRGY3lQZHdVOWNxZ1I5ZEJmdk1MRkFuZEt3c1FzdlNPRkJCWjNMcFFfbjlpMFZEUjJmajFpYlZ5UUVFN3RKVXB5ZkNPZE5xTVBfY1JsS0Q2T0ZhbVl2U2xVYXlIRnNHYlh3X3I5Z01Qd095aGhpc1ZHN18?oc=5",
@@ -744,16 +734,6 @@
       }
     },
     {
-      "id": "d12731491989",
-      "title": "Mener norske pasienter må vente for lenge på ny medisin: – Forferdet - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNR3FuNGlNV3lrQmhqWWg0cG9yV1pSclluN2VQZjN1azJuZW1WWGZwdXBBMHpkUDl5Y21XZ2MzaXFjT21TX0Q4amlGTGJIVEdqd0Iyd29mMDl5eC1NTUZibFZ3MVJNTmZUVzgzTXpveDg0d2J3WFRWTGlJSm5hN21CdUV4MWFEb0NjNndudXRCeUlPWHNEMmdoUVRtR1V0YXl1cHlrclRZdVNhUTFFZHFDWlZEUlNqUF9GenV0VTRpVHFFelRKUHRnSkJhRExRU3dxSDlreFJ2RlRRZw?oc=5",
-      "published": "2025-05-08T07:00:00+00:00",
-      "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
-      }
-    },
-    {
       "id": "6ac22dd28a4b",
       "title": "Reagerer på anbefaling om bruk av legemidler - Rådet for psykisk helse",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WRk95djlWSWNKNjk2aDZjNWl0U3JoSHNneHppQ1B1bnJyUlZ6WXVVQ2JkZldvSm1GOGs3RE9VU0dVc1g1X3pqZUFOdzlpUWVFZ2tGWmZJT3RJbE92SWxWQVFTNFpJTnQ5cjBlVHA2Zm9qYzA?oc=5",
@@ -761,6 +741,16 @@
       "source": {
         "name": "Rådet for psykisk helse",
         "url": "https://psykiskhelse.no"
+      }
+    },
+    {
+      "id": "d12731491989",
+      "title": "Mener norske pasienter må vente for lenge på ny medisin: – Forferdet - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNR3FuNGlNV3lrQmhqWWg0cG9yV1pSclluN2VQZjN1azJuZW1WWGZwdXBBMHpkUDl5Y21XZ2MzaXFjT21TX0Q4amlGTGJIVEdqd0Iyd29mMDl5eC1NTUZibFZ3MVJNTmZUVzgzTXpveDg0d2J3WFRWTGlJSm5hN21CdUV4MWFEb0NjNndudXRCeUlPWHNEMmdoUVRtR1V0YXl1cHlrclRZdVNhUTFFZHFDWlZEUlNqUF9GenV0VTRpVHFFelRKUHRnSkJhRExRU3dxSDlreFJ2RlRRZw?oc=5",
+      "published": "2025-05-08T07:00:00+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     },
     {
@@ -934,6 +924,16 @@
       }
     },
     {
+      "id": "35078b90d9d9",
+      "title": "Studie: Vanlig medisin halverer migreneanfall - VG",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZHNmQ3JOakFESE51bFFqRlVuMldNLUhUU28xZFBicHVEcG12MGtIc0k3VkJKbUJjR2FjcEpFWFU5TE9fWHR6VkR5d1J6VEwyNzBJcGFvaFZHVWdnb2xtcFZBeU5JR25pREd2eVVmaERQTTdlSnI1N0xSQS1Dd2lIXw?oc=5",
+      "published": "2025-07-08T07:00:00+00:00",
+      "source": {
+        "name": "VG",
+        "url": "https://www.vg.no"
+      }
+    },
+    {
       "id": "fd3f8ebd3f42",
       "title": "Helsehjelp og forebygging - Helsedirektoratet",
       "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNYnN6ZFJLd29qRUhBREtrNC1PTHR1X2s1Q3BNRkFCVFRrcTlhT0lleUtWZ2dKWVFvQUV0OFczejNJaXJLckh3WmFWMVRHbVdOOWxOT2N5YWo5SWcxVWtWd2laVW1fVEVacjVrWDVZSU1HYjJnbUhXZUJYV19PdVlUSlBVdkhFNFVYWTJybkJrdHJKdXN3dzdhYmFSOWZXNXk3N3FIQkwwN000YjhJMGRSRGpINFhvVDNVdlhLOEYzZG1jb2JWekdzc1kzbkZYTFJ2aWUtc2N4UUpNeGEyUDBIU2lsVVZuZHYtN1Y3Q0lpWXdvZlNoWmN2ZHFiUXdteEtGR2k5RzRqM1VMRTlSdS03MGExVVZ5MHRxdFE?oc=5",
@@ -994,13 +994,13 @@
       }
     },
     {
-      "id": "e689373d66f9",
-      "title": "Ny algoritme fjernar tvil om samanhengen mellom legemiddel og spontanabortar - Forskning.no",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWWdSUTJLT3c4VVNzSS1XS0JLcWNCWHlaeE81R2ZUbWlXT2Z1eGMzOW5zbHVRTjJZWmk0TEVIbVhtWUlSUFFsNW5DSExqVWhTdmlFdng0UVVUX0IyZVI2QTdxQWhlS3k1d1l1OTU5QzVBd1pmUTg1V2Q2eXE5RS04UUVFT3NaSVNQUi1JSU5BaTNCSWV0WkxNQWFXMjFJRkNETFhrMnd2VEFQZHljS21ycnV6dWYwSVk4bWpubWtaQlY2c0t0YVZISVpSOUpuUQ?oc=5",
-      "published": "2025-07-03T07:00:00+00:00",
+      "id": "6b0deb587987",
+      "title": "Jan Terje skaper medisiner med superkrefter - VG",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOW9taUdUX19Ka0Fsa0VWZFJBUEdFcDMzZzNRa0JxWTU1Y21qT1RQNGV2OVFVcXF0ZHdmYVRHUzVMZnRCVXFIZlp6d2NHMXAyT25kbGdZUkRBdzRnOHloT1FoRXBCVHdibnFHXzdubzhaODBaaGtGNUVQcG9RYW9MUVZ0VWp0V01xS0lFQ2VhdjhSc0lFQVFxUC1DTkpzQQ?oc=5",
+      "published": "2024-06-07T07:00:00+00:00",
       "source": {
-        "name": "Forskning.no",
-        "url": "https://www.forskning.no"
+        "name": "VG",
+        "url": "https://www.vg.no"
       }
     }
   ]
