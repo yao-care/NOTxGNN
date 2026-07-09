@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-09T15:57:17.479065+00:00",
+  "fetched_at": "2026-07-09T18:03:58.281143+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -74,16 +74,6 @@
       }
     },
     {
-      "id": "89f8d70e06e5",
-      "title": "Apotekene er en del av ferieberedskapen - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZHI5MFA1WVQyODBwWnFsT1RGN2Jwb21fZmhUUUpvbVBVS3RRMHBFY2UtbHFReUl4c3p0TDBxcDh0Sm9GTDdkQWtidDI3VlpXcmw0MndiRDREZThmSloyeDRvaE5YUUlnZmNiV2FlYkVkeG9VVUthTmFCdHgtaGkzRGFmZTdUZkM1MHh5VkItRWNPb0E1d0s4WXJ6dy1nUHlwSHlUaGR6M0M4TkNKV2tKN01TVmh0anUyRE4waQ?oc=5",
-      "published": "2026-06-29T07:00:00+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
       "id": "2889197de9e1",
       "title": "Professor advarer: De fleste medisiner virker langt mindre enn du tror - Aftenposten",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYnN2bWZheThpWlFnVmNtQnN5aU95U0ZQMVZVY0ZkM2swUkgwczFxUjFHUzFMbk9RdkNBMFc4dU91RlRORnYxU01PVFBoZ2ctRERhUlRfajhrSGN0YjRraGs5S0I4OEJxRTV3Mnh2TVRHeGxBdkVLVWdzMUVJU0JfLXpiNEFpbmJ2WTB3UWFjbFdRLTVyLVkxakdOYzBSTnI5U0tuRFh3QjMtWjdxWWxlQw?oc=5",
@@ -91,6 +81,16 @@
       "source": {
         "name": "Aftenposten",
         "url": "https://www.aftenposten.no"
+      }
+    },
+    {
+      "id": "89f8d70e06e5",
+      "title": "Apotekene er en del av ferieberedskapen - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZHI5MFA1WVQyODBwWnFsT1RGN2Jwb21fZmhUUUpvbVBVS3RRMHBFY2UtbHFReUl4c3p0TDBxcDh0Sm9GTDdkQWtidDI3VlpXcmw0MndiRDREZThmSloyeDRvaE5YUUlnZmNiV2FlYkVkeG9VVUthTmFCdHgtaGkzRGFmZTdUZkM1MHh5VkItRWNPb0E1d0s4WXJ6dy1nUHlwSHlUaGR6M0M4TkNKV2tKN01TVmh0anUyRE4waQ?oc=5",
+      "published": "2026-06-29T07:00:00+00:00",
+      "source": {
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
@@ -144,16 +144,6 @@
       }
     },
     {
-      "id": "ee6ab2978cd4",
-      "title": "Tre myelomatose-legemidler i Beslutningsforums neste møte - medwatch.no",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MWVRrMjY0UjhFNFFOVEtudDFILVQzT2Iwb1FBTGF5WTNUd0NhRWl5MVV0R2FwbDNsaGtEYW1IUnB6UVRrTzFvU2pRdkxoSEhCeDdPOTZGSVFFOWxVY3Z2cUZ3eXh1M3BOV2pSTW91Y0NPS1k?oc=5",
-      "published": "2026-06-12T07:00:00+00:00",
-      "source": {
-        "name": "medwatch.no",
-        "url": "https://medwatch.no"
-      }
-    },
-    {
       "id": "094a0379954d",
       "title": "(+) Nesten ingen av legemiddel-meldingene sendt innen fristen: – Vi er selvsagt ikke fornøyde - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPLUdNMl8yV2Itc3pjb0VHWlNObkVkSUt5WGdoc050SkFOd2Q5UE5SYWpZUVBhTzB2SEJNYm5WcUZVNTNnVmZFSHJnTnR1Q25uMzFtaDhMQlFiQ05zbUdmcjdCdkxpYm5aTmQzNl9WNzRxY0JEQkE4QzZBSkU5TnJEbWhxRDNfeXk2dXJoa1ppNzVUX1o4NEZDWDNCNjNPR0tuSlIxUlpJcVFHUGtiYzFmQ3VuUFdySlN1ZjRHUl92YXd0SXlCNEJSWG5sSWJmanlDcWVISENMZFR5WVA3WXc?oc=5",
@@ -161,6 +151,16 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
+      "id": "ee6ab2978cd4",
+      "title": "Tre myelomatose-legemidler i Beslutningsforums neste møte - medwatch.no",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MWVRrMjY0UjhFNFFOVEtudDFILVQzT2Iwb1FBTGF5WTNUd0NhRWl5MVV0R2FwbDNsaGtEYW1IUnB6UVRrTzFvU2pRdkxoSEhCeDdPOTZGSVFFOWxVY3Z2cUZ3eXh1M3BOV2pSTW91Y0NPS1k?oc=5",
+      "published": "2026-06-12T07:00:00+00:00",
+      "source": {
+        "name": "medwatch.no",
+        "url": "https://medwatch.no"
       }
     },
     {
@@ -524,6 +524,16 @@
       }
     },
     {
+      "id": "d6b210ca8711",
+      "title": "(+) – Helsepersonell avgjør om pasienten har rett på nødvendig helsehjelp – innenfor rammene - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOSkZxdnJtM0V4VnVxbEZmZm1ONmVteksxbm1jQ253aWNtTU1sSnAySi1yaDBqZ0NFSVRrZmRVbVhTeVdlNG1fSUFLeXVudVUxdWEyX1BDdWhvUmNDb250VnJGZk5rMUJHR0RQVjN4YzRTZ0NweW51T3VhM20tc2pTaEFyY3FOQ0Jabm1mbnUyMmxmcUx0Q1pQMTI4LVhoMmQ4ODRGY3lQZHdVOWNxZ1I5ZEJmdk1MRkFuZEt3c1FzdlNPRkJCWjNMcFFfbjlpMFZEUjJmajFpYlZ5UUVFN3RKVXB5ZkNPZE5xTVBfY1JsS0Q2T0ZhbVl2U2xVYXlIRnNHYlh3X3I5Z01Qd095aGhpc1ZHN18?oc=5",
+      "published": "2025-10-10T07:00:00+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
       "id": "aa468ba74a88",
       "title": "Beslutningsforum og rett til individuell vurdering og forsvarlige helsetjenester - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNck54dlJMcWpCeExHWHZVWlRtMEM1TzUtZGItTEJjWWpFd19DWnE5R3dod2F1blFDdGJabFJ6eWpNNEh2NF9MdXJISUJCYUhqVERuQnpCZU53ZXJNRlU3Ukw2WXRpd3E0S3NrUUs5WEtQYWpIMEtoWFVUVFRwUlM2QnhVaTNVd2U2amZuSWRFYWFCazVjYWdubVVocktsaVVpSHhTYVhHTXprYy1pR1hIUzlxZ2JBNEh2SFZMalF6MkxCS1QxdWszcnJJMkg4U1l2cDFfMFU5WFVHOEQ1WGZ3eDdFa0tCOHRhMHZhZQ?oc=5",
@@ -541,16 +551,6 @@
       "source": {
         "name": "Telemarksavisa",
         "url": "https://www.ta.no"
-      }
-    },
-    {
-      "id": "d6b210ca8711",
-      "title": "(+) – Helsepersonell avgjør om pasienten har rett på nødvendig helsehjelp – innenfor rammene - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOSkZxdnJtM0V4VnVxbEZmZm1ONmVteksxbm1jQ253aWNtTU1sSnAySi1yaDBqZ0NFSVRrZmRVbVhTeVdlNG1fSUFLeXVudVUxdWEyX1BDdWhvUmNDb250VnJGZk5rMUJHR0RQVjN4YzRTZ0NweW51T3VhM20tc2pTaEFyY3FOQ0Jabm1mbnUyMmxmcUx0Q1pQMTI4LVhoMmQ4ODRGY3lQZHdVOWNxZ1I5ZEJmdk1MRkFuZEt3c1FzdlNPRkJCWjNMcFFfbjlpMFZEUjJmajFpYlZ5UUVFN3RKVXB5ZkNPZE5xTVBfY1JsS0Q2T0ZhbVl2U2xVYXlIRnNHYlh3X3I5Z01Qd095aGhpc1ZHN18?oc=5",
-      "published": "2025-10-10T07:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -661,16 +661,6 @@
       "source": {
         "name": "VG",
         "url": "https://www.vg.no"
-      }
-    },
-    {
-      "id": "df0a38efdf37",
-      "title": "Viktige medisiner kan være kreftfremkallende - Telemarksavisa",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOV3MzNUFqY2hQbHRNYnVvNnNaUnZ0UVhKbjBZZnhkRkZtRWk1WXZ3ejBEeFd1OHJTanlIU2NfbVNoQkR1dldjS0xhSDI4VkJYQXlWempieWJ0T0FuREVvMmtLb3FkNXowd2UyajU2dXI5Qm4wcTI4dlhmYUV1cnpXdkhMNA?oc=5",
-      "published": "2024-12-17T08:00:00+00:00",
-      "source": {
-        "name": "Telemarksavisa",
-        "url": "https://www.ta.no"
       }
     },
     {
@@ -994,13 +984,23 @@
       }
     },
     {
-      "id": "e81bfaa9ea13",
-      "title": "Skal gjøre ny vurdering av legemiddel mot alvorlig blodsykdom - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTHVBVHBRQW13RjdIWWQzaG0xaUJKNFA0SXdtU19KTWJGWG8tU00yZTZ2MGQxYm1Fdm96Y0NuenNYRkZHY01DbzRnczBVLWoybE9JS0xUQWdlMzJGeHk0ODhPYkE4R2NtS2lVUHpTaHRYNS1LdHVXbE1veFNsN3FzbnZyM3VPdWhlcVowQ1pyS3RhVktfTWxaa1owOWJ0NmJURW00WHFlV2pIdmJDTzZscW1DcDI?oc=5",
-      "published": "2023-06-28T07:00:00+00:00",
+      "id": "9de5afe75cf3",
+      "title": "Legemiddelet forskerne håper kan gjøre oss mer ungdommelige - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcFdrbTJFZzRRakFRNHJXVE9QTlctRFNaQUxmY3FyNU1KaGxrOGNiLS1xbXd2dzktVmRob21YeGVaeHdGM1I5MnYybC1JWGExeDVzYUtpMy1MSm90cF9KSjh6NTN1a3BnWTRySlNnS1BzSWRXeGpHcWs0cDdmTDVPaDA1LTkxODhnVDZ5SXY4cTUtTEx2N2t0WE1IR0hib0NDM1dnbnZqZkE4ZkRNclZpanNhdmpPZmZsaHotbWdJWVgyd0lDdy1GbF81X25OXy1rT0lNUk5XbkxqaEE?oc=5",
+      "published": "2025-04-04T07:00:00+00:00",
       "source": {
-        "name": "HealthTalk",
-        "url": "https://www.healthtalk.no"
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
+      }
+    },
+    {
+      "id": "c018667bdf90",
+      "title": "(+) Nå innføres nye legemidler raskere i norske sykehus - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQmtFcGdxTmtBdDljVUEyUjUzbm1odTNqMFIxdTZ6RTJPVmF0VGR3TjJLRnA4aEV5bm9sS0ZyY3oxQWZGV0MxaV9vM09YZHg3eVZvZ3RWNmRmQ0FrOGVnVGlfZ1VZUURhUVRNRFJIOFBfQldYRTRBZ2Y3enBRcHgybTc0ZENWTEpDODlqVkpuNXVBOWpxRTZXQ19PZlZmbnBhUFBSajZqZVlpMXB0bURxaXk5R2RfN3g0UDJJMkFjN2w2dFJ0SFlScDRsOUNfSnpqNk1ZVVo2ekx6T0stclMxZjBnYXFaRVdENUQ2dWV2bUo0Zw?oc=5",
+      "published": "2025-02-21T08:00:00+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
       }
     }
   ]
