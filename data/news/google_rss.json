@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-12T20:51:54.871518+00:00",
+  "fetched_at": "2026-07-12T21:52:53.961592+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -234,16 +234,6 @@
       }
     },
     {
-      "id": "77966db9a0c0",
-      "title": "Eldre i Larvik får færre medisiner - Østlands-Posten",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPakRTWk5KLWtPMWMtbjVpMl80V2Nrdm9SU3pDSnU2NjBPdHFMaGRzd29LenR6QXoyZ3dMZzNpbGk1VHRWa2xxbmFTaktjd3Q2d3NDV1N3UkE2T1NhdzI3WmNhR095SXppekhPZVZrOXNSOUtLQUswTmFfWktBektfQnBUcUxMZjZFcGxVSWQyWW9UcWxaU29DSV9LSlExSHJfVUhXeXdHNTY?oc=5",
-      "published": "2026-06-20T07:00:00+00:00",
-      "source": {
-        "name": "Østlands-Posten",
-        "url": "https://www.op.no"
-      }
-    },
-    {
       "id": "4358c045f263",
       "title": "Helse, Medisiner | Flere medisiner fases ut: – Haster med å kontakte lege - Hamar Arbeiderblad",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSzFNMk8wd1lBVlhwUi1GSUJZcWM2M0VBNmpwSnVvYzlpdlBFTm94ZWJEUHZYeXhOaXpYdmhLSUVzbE5rZURqMW43bVMtUC1aNldERTBPdGdYVmU5cTRIeVBpbkpuaXZLb2FJUWZ1Ykw1NTlPaXh0OUJKYUcyWG9HMjM3cDlnQlREX2Z2SmRxUQ?oc=5",
@@ -251,6 +241,16 @@
       "source": {
         "name": "Hamar Arbeiderblad",
         "url": "https://www.h-a.no"
+      }
+    },
+    {
+      "id": "77966db9a0c0",
+      "title": "Eldre i Larvik får færre medisiner - Østlands-Posten",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPakRTWk5KLWtPMWMtbjVpMl80V2Nrdm9SU3pDSnU2NjBPdHFMaGRzd29LenR6QXoyZ3dMZzNpbGk1VHRWa2xxbmFTaktjd3Q2d3NDV1N3UkE2T1NhdzI3WmNhR095SXppekhPZVZrOXNSOUtLQUswTmFfWktBektfQnBUcUxMZjZFcGxVSWQyWW9UcWxaU29DSV9LSlExSHJfVUhXeXdHNTY?oc=5",
+      "published": "2026-06-20T07:00:00+00:00",
+      "source": {
+        "name": "Østlands-Posten",
+        "url": "https://www.op.no"
       }
     },
     {
@@ -634,16 +634,6 @@
       }
     },
     {
-      "id": "df0a38efdf37",
-      "title": "Viktige medisiner kan være kreftfremkallende - Telemarksavisa",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOV3MzNUFqY2hQbHRNYnVvNnNaUnZ0UVhKbjBZZnhkRkZtRWk1WXZ3ejBEeFd1OHJTanlIU2NfbVNoQkR1dldjS0xhSDI4VkJYQXlWempieWJ0T0FuREVvMmtLb3FkNXowd2UyajU2dXI5Qm4wcTI4dlhmYUV1cnpXdkhMNA?oc=5",
-      "published": "2024-12-17T08:00:00+00:00",
-      "source": {
-        "name": "Telemarksavisa",
-        "url": "https://www.ta.no"
-      }
-    },
-    {
       "id": "78163b91b37e",
       "title": "Skjerper rutiner for å skrive ut vanedannede medisiner - Larvik kommune",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNGQ4WnloR3otM0VTQ2FydUZjSUxMV0pJd3ZFMVJSamo0LWROZkstU2I2OVJMTFdDMDBBRTAzV3c0VHZnem85SGJnZ21fLUVHbWFGb3VGdmF6QzRfTzhWN3NtM1NmSEtOLVVpMlNaNGNrWEhjYlFQX2p2ckNNMnRnNkhBNTVwdGZ5T3FMVW94dXduMDV5NEZoZjNRNmtMV2MwdTMzb1M4WmRNOXl4cF9Ydnd3?oc=5",
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Avisa Nordland",
         "url": "https://www.an.no"
+      }
+    },
+    {
+      "id": "305533481322",
+      "title": "Bayer har fått to blåreseptavslag på tre år for samme legemiddel - medwatch.no",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE93Y1Vxa3ZYSjUxenBnUy1aalAyRktXMzhQNjhDbENFQ0xDd0owajUxWXJCUWd4cnpxeGFhSWpGRVBZblpHSU9UZVlBQjQ5bGktVTYtaUp0U2cxODctNUJXNG9Td3hFVF9pQldwQ1l2czVqV1U?oc=5",
+      "published": "2025-04-01T07:00:00+00:00",
+      "source": {
+        "name": "medwatch.no",
+        "url": "https://medwatch.no"
       }
     }
   ]
