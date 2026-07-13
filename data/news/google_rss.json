@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-13T16:35:30.104431+00:00",
+  "fetched_at": "2026-07-13T18:44:39.522424+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -411,16 +411,6 @@
       "source": {
         "name": "Tønsbergs Blad",
         "url": "https://www.tb.no"
-      }
-    },
-    {
-      "id": "3f34ef7edaf6",
-      "title": "Nyheter, Helse | Disse medisinene kan ødelegge sommerferien din: – Føles litt som elveblest - Romerikes Blad",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR3A5MklLUnlQcVQ1MTVHWnhfOTd4a2xZdUlFaHhZQkRITUw5RVdkSkNSTVRuOVVwV3lxUjdPOUpYS1lKTVlCN3JaMEdSTDRIYzVwNE1DSFJDeF9NRENCMzdKV0k4SGNSZHhfSjBlTm9SSXY4NEFlN0RCRE5DcXpmQkdjejNZT2QyN0dheVB1aWFsRDVLTDlMeHdTOGd1NTZsQThCNVVVaw?oc=5",
-      "published": "2026-07-05T15:41:05+00:00",
-      "source": {
-        "name": "Romerikes Blad",
-        "url": "https://www.rb.no"
       }
     },
     {
@@ -988,6 +978,16 @@
       "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcjEyX1huWDJkMzBnV1ZKa1g2dkFLbk5qUXF5enZjQmtEV3BvbjJoOTdTNzkxMy00a3k1Y1dkQ0s2STRFVFJmRm0tZFY5NE1qYVBIejdfd3VfTGZxQ0dGZkhtNEt1VVNZU2xySXZiWGIxV0czR0dNaEFjVENyYnJZekZhZy0?oc=5",
       "published": "2015-06-17T17:27:26+00:00",
+      "source": {
+        "name": "Regjeringen.no",
+        "url": "https://www.regjeringen.no"
+      }
+    },
+    {
+      "id": "b5954a1d3d64",
+      "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVFhoTmQ2UURJZE5Ubm40NElBeHRWM2RsdEhlVHJPTG9RSGc1c0t4SUpHdk8ydFdDcjYwbkpDanVvRXhVZkZTbEFkanVuM2JRWEtHVm5lLTRUYU5UVlk0bVBlc2Z5T09jdUc3NGlaZ180RzJtYV9mZlV5dGdPT0NnemtyY1c?oc=5",
+      "published": "2015-06-15T16:26:29+00:00",
       "source": {
         "name": "Regjeringen.no",
         "url": "https://www.regjeringen.no"
