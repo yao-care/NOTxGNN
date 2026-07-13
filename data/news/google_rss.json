@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-13T03:33:52.634555+00:00",
+  "fetched_at": "2026-07-13T06:54:36.696038+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -84,16 +84,6 @@
       }
     },
     {
-      "id": "19f95588e0d4",
-      "title": "Nytt håp for ALS-pasienter: Tidlig tilgang til medisiner - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVGVhRFNTQUo3aXNydHlaOE9RX0VfM0ZXbGxnbm9HOWdWNGRPWnVacHpXZDFYRVNtb3hZNjBWdXVOQ1FfSzZSbXdIb2thMUEwYXdYdU42ektKSVo0N2h0bFJ4R2dhQ0pzNTAzcUFNMFVncWpaODE3UXNqMW9wV1Z5cHg4UWctV1VVRzRVYTJTTTE0QTRsMGtOM0JSeHVtbkROUmFpendySndzM3FvMmpnN1BNQVdLNGtpUUxmdjI1NnJjVUx2czRMc05R?oc=5",
-      "published": "2026-03-03T08:00:00+00:00",
-      "source": {
-        "name": "HealthTalk",
-        "url": "https://www.healthtalk.no"
-      }
-    },
-    {
       "id": "beaf995dea05",
       "title": "– Mange har forstått at det er mangel og spør om vi har medisinen - Romerikes Blad",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSDkzU1BKblNwLTZmdXZvMDlaQ1hud1NtZi0wVU96RXlQT2laSjBiek9ldUFIU1dWYmgzc1ZvUmtjTTRHZmxncWN6YUh6d09YWWRDTlFPeWtFSDRLbFd5WGhRX0pRbXRZcll1V055V09PRF96SmFjTVpjZEU3UkJINVpIOXFldFNTNkVhWV9TNzhkRzg3UnBINGtGSmE?oc=5",
@@ -101,6 +91,16 @@
       "source": {
         "name": "Romerikes Blad",
         "url": "https://www.rb.no"
+      }
+    },
+    {
+      "id": "19f95588e0d4",
+      "title": "Nytt håp for ALS-pasienter: Tidlig tilgang til medisiner - HealthTalk",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVGVhRFNTQUo3aXNydHlaOE9RX0VfM0ZXbGxnbm9HOWdWNGRPWnVacHpXZDFYRVNtb3hZNjBWdXVOQ1FfSzZSbXdIb2thMUEwYXdYdU42ektKSVo0N2h0bFJ4R2dhQ0pzNTAzcUFNMFVncWpaODE3UXNqMW9wV1Z5cHg4UWctV1VVRzRVYTJTTTE0QTRsMGtOM0JSeHVtbkROUmFpendySndzM3FvMmpnN1BNQVdLNGtpUUxmdjI1NnJjVUx2czRMc05R?oc=5",
+      "published": "2026-03-03T08:00:00+00:00",
+      "source": {
+        "name": "HealthTalk",
+        "url": "https://www.healthtalk.no"
       }
     },
     {
@@ -124,6 +124,16 @@
       }
     },
     {
+      "id": "eb783f97c3c2",
+      "title": "Svensk studie går viralt: - Bør være varsom - Sol",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBxWnVrakVHalBQd3RxQmxfVm8yaVhfcHRNQ1ljMU41ME9kSHRlMGVSdU5PanFnWnZ6dXR2SHhoN29SbVVPNzFabUs4VWpGWXdmY2pMRDY2VWlkWTZ6M1ZhazJZc3lXUmpMNUdIUHNlMVdTTThZM1pReDA5Tm5JUQ?oc=5",
+      "published": "2026-03-29T07:00:00+00:00",
+      "source": {
+        "name": "Sol",
+        "url": "https://sol.no"
+      }
+    },
+    {
       "id": "3c7d33d8f638",
       "title": "Sosiale forskjeller i fedme og bruk av vektreduserende legemidler - Folkehelseinstituttet - FHI",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNkU2bktLeTBNMVRfYllDMHlhQzBJZXAxS0loS2hIenVrZmUxbkJ4NzdkY2h6cTRCT2tCZ1hDY1J1dkNEN1hlbWQzaGQzQ2JVNWc4NHprWUpUaFVvdnNlazhXeDNkazZsVE9sOTJKUFlPVS01MUgxbVZodTRQN2VEWTl2VC1kZlRKMWlhY2c3bw?oc=5",
@@ -131,16 +141,6 @@
       "source": {
         "name": "Folkehelseinstituttet - FHI",
         "url": "https://www.fhi.no"
-      }
-    },
-    {
-      "id": "89f8d70e06e5",
-      "title": "Apotekene er en del av ferieberedskapen - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZHI5MFA1WVQyODBwWnFsT1RGN2Jwb21fZmhUUUpvbVBVS3RRMHBFY2UtbHFReUl4c3p0TDBxcDh0Sm9GTDdkQWtidDI3VlpXcmw0MndiRDREZThmSloyeDRvaE5YUUlnZmNiV2FlYkVkeG9VVUthTmFCdHgtaGkzRGFmZTdUZkM1MHh5VkItRWNPb0E1d0s4WXJ6dy1nUHlwSHlUaGR6M0M4TkNKV2tKN01TVmh0anUyRE4waQ?oc=5",
-      "published": "2026-06-29T07:00:00+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
@@ -204,30 +204,10 @@
       }
     },
     {
-      "id": "eb783f97c3c2",
-      "title": "Svensk studie går viralt: - Bør være varsom - Sol",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBxWnVrakVHalBQd3RxQmxfVm8yaVhfcHRNQ1ljMU41ME9kSHRlMGVSdU5PanFnWnZ6dXR2SHhoN29SbVVPNzFabUs4VWpGWXdmY2pMRDY2VWlkWTZ6M1ZhazJZc3lXUmpMNUdIUHNlMVdTTThZM1pReDA5Tm5JUQ?oc=5",
-      "published": "2026-03-29T07:00:00+00:00",
-      "source": {
-        "name": "Sol",
-        "url": "https://sol.no"
-      }
-    },
-    {
       "id": "7e45fe664385",
       "title": "(+) Han overtar jobben med å fronte upopulære medisin-avgjørelser - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSFBtbFpOTTRNNEY0VF9LMmZma2JPNnl1emw2X1RVdjR3Y0FPWXBkRGI4clFyNkptQTlVWlBoM09QeWlpVnBVSG9Ea2w1MHZURGRsZnNyM0FleVJyWWctV3VxV25aeXJGdWhMVy1FMFJHU3VwSUlNRUEtem9WWjV1c1g4M1I5YUFyWlVaVmJSWVFDTUc0cWU2TVJqVVZzM25NUWNwUnk3aDdOU0xEdE02c3owd0ZhQ0RFaU9VR2E4UzFMd0dEbmkwanlCSEpldHladmRBYmpLdDZ3OFROY0Fn?oc=5",
       "published": "2026-01-14T08:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
-      "id": "990c5c575869",
-      "title": "(+) Slik skal han sikre tilgang på livsviktige medisiner - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYlk2eUl3cmxha040TUo2UFlobHVWOUo0aF9VSXgyWkpfQXRvTU9jSWJPSTlMWjI3VUJVY0lSM3dTZ19oeDRXc2poN0w2SkR1R0pmbGZEOUVRcG1KZzJwTEtZS3A0TGlPMmQwSmVvM2s3ZkE1aGppZ0d6VERUaHpfVlE1RjRnUWxzalVCOW9DcUxoakplTW5wdFJkb05vRWZiTmhESG5hQ1dFZ3RlY29ZQ0RmVjZKeUdH?oc=5",
-      "published": "2026-03-03T08:00:00+00:00",
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
@@ -284,16 +264,6 @@
       }
     },
     {
-      "id": "5415c63092d6",
-      "title": "Helse, NTB | Bruken av kolesterolsenkende legemidler øker kraftig - Bergensavisen",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbmlVQ202cEQtbWRtZXNyTU1CdU42T0RJako0ZnZiUlhCVVFUbEVXREFkSTlKNlM2ZnlaeERyS0ZxMkdEaTFQVlBrV3RveXBkZWZXbjVCSXRnNm9PSGF5WWpxSmVJNjAzMkZGcG9ndmZLR01VTmtlQ1cyeklmX1lWcVEwVWl2MHlsRGlXRw?oc=5",
-      "published": "2026-03-03T08:00:00+00:00",
-      "source": {
-        "name": "Bergensavisen",
-        "url": "https://www.ba.no"
-      }
-    },
-    {
       "id": "4ec54ca0e0c5",
       "title": "Vedtar å gi alvorlig syke bedre tilgang til utprøvende medisiner. – Det gir håp - Aftenposten",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOejM2REVkalM3cl9LOXpGSF9sU1BpY080Y2pNaHFwcTIzZDhwbThEc0IxUm51TzliaEVlZWJDeXR1LTNvY3NUcEw2WGJvU3hrSUY1SkNnbHExTnNhdHJYT2dILVFEcTNzbVRqMFg3MEFsTmpsV1NGazFoLTE2eENhVTFiX1NLWDg0ckZIclZCSnBqTVowMFhvV2lzdVVGd1JFZTgtOGZmT1NGMHZzeVBzTEF6ZkRfUQ?oc=5",
@@ -311,6 +281,16 @@
       "source": {
         "name": "medwatch.no",
         "url": "https://medwatch.no"
+      }
+    },
+    {
+      "id": "750f0c972289",
+      "title": "Helse, Legemidler | Cristian Brennhovd risikerer legemiddel-bot - Budstikka",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPS0FBZGs3OTlnZmdpei1LemYtMENBcnZTT2RiV0tINHdNcXcyYmJWZFRMdlNMNkl3TkRQSmZPZDJpRkk5VjZoNXB3VDJwQVV1YWJhaTRFR0JzMFRxSkZGaVgtN194Tzc0b2ZOVlR0QXB0SDMxWXhtSE43SFYwaTFUX1ZZamRFS2Vnc1c0?oc=5",
+      "published": "2026-01-08T08:00:00+00:00",
+      "source": {
+        "name": "Budstikka",
+        "url": "https://www.budstikka.no"
       }
     },
     {
@@ -724,16 +704,6 @@
       }
     },
     {
-      "id": "2e5108ce05d3",
-      "title": "Politisk opprør mot medisin-treghet – vil legge ned Beslutningsforum - VG",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQakNBTWRIODFobmlMV2l3cG5NNTlza0RIVmhnRnp0V0FGWWZOalRMLXhCRm14dlc1emFPSk9QcE4zVzFkcEUzbTR2MDBORU9WbVRVX3NpYlljcE81c1hxZDhVbXRndzFnb0VaSTdjUzNZSTk5a19ydTlTdkNCemhXbTd2WHhGNERHTVNWUURWeGttUGNiMGhMNmlPYTI2U05xRkthSw?oc=5",
-      "published": "2024-06-30T07:00:00+00:00",
-      "source": {
-        "name": "VG",
-        "url": "https://www.vg.no"
-      }
-    },
-    {
       "id": "1fe86eb2830d",
       "title": "Doblet antall på seks år - Rådet for psykisk helse",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE52SEJnVFlOdzlMRklmT1FneWJwd3BUZ2tFSGtkMFFBUG8xaGJ5RDBudVh0NFJHb1NmSkV5dzlIdWxSWWJ4ZGVaRVN6aEI1QUh0WlNqNWlzb1ZNNUQ1emU5OWtqcm1ucmVVLUhZ?oc=5",
@@ -741,6 +711,16 @@
       "source": {
         "name": "Rådet for psykisk helse",
         "url": "https://psykiskhelse.no"
+      }
+    },
+    {
+      "id": "2e5108ce05d3",
+      "title": "Politisk opprør mot medisin-treghet – vil legge ned Beslutningsforum - VG",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQakNBTWRIODFobmlMV2l3cG5NNTlza0RIVmhnRnp0V0FGWWZOalRMLXhCRm14dlc1emFPSk9QcE4zVzFkcEUzbTR2MDBORU9WbVRVX3NpYlljcE81c1hxZDhVbXRndzFnb0VaSTdjUzNZSTk5a19ydTlTdkNCemhXbTd2WHhGNERHTVNWUURWeGttUGNiMGhMNmlPYTI2U05xRkthSw?oc=5",
+      "published": "2024-06-30T07:00:00+00:00",
+      "source": {
+        "name": "VG",
+        "url": "https://www.vg.no"
       }
     },
     {
@@ -761,16 +741,6 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
-      "id": "61743f076712",
-      "title": "Nå er apotekene tomme for denne medisinen - Østlendingen",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNU3BhLUZ1MHFqUWJ3WkJ4MGpiY2M3X3UtaVAyOC0ybkUxRERxelpNbTd5dFRJVUFNdEEwYXRpLUVuYVluSzNTNUJnTkxWRFNma2pHSGZCM3I3Znlub1ZuZXBjMURWc0tBV3c2RTlqVkcydExLUk1MVkdsYzdYNngxd1FnSHhMVlo0VUpiag?oc=5",
-      "published": "2023-03-29T07:00:00+00:00",
-      "source": {
-        "name": "Østlendingen",
-        "url": "https://www.ostlendingen.no"
       }
     },
     {
@@ -801,6 +771,16 @@
       "source": {
         "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
+      }
+    },
+    {
+      "id": "61743f076712",
+      "title": "Nå er apotekene tomme for denne medisinen - Østlendingen",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNU3BhLUZ1MHFqUWJ3WkJ4MGpiY2M3X3UtaVAyOC0ybkUxRERxelpNbTd5dFRJVUFNdEEwYXRpLUVuYVluSzNTNUJnTkxWRFNma2pHSGZCM3I3Znlub1ZuZXBjMURWc0tBV3c2RTlqVkcydExLUk1MVkdsYzdYNngxd1FnSHhMVlo0VUpiag?oc=5",
+      "published": "2023-03-29T07:00:00+00:00",
+      "source": {
+        "name": "Østlendingen",
+        "url": "https://www.ostlendingen.no"
       }
     },
     {
@@ -914,6 +894,16 @@
       }
     },
     {
+      "id": "ed84dd99b89e",
+      "title": "Overkjører eget medisin-organ etter 614 dager - VG",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxON3hxRXlKOG5uR01pRTZ0dldZanR6QmpDZl9yZEluOVRvcDAyaDBBb01oeU1NUE5qY05zTVpSSzh2dG1EUTI5d2lqcTY3SkRwZklZTG5hUXRtZkZEc1BvXzB3M1BCdkY1c1pXQlVWQ2wxemhNbTdwNFAtWTRja2RQVGV6MzI?oc=5",
+      "published": "2024-07-04T07:00:00+00:00",
+      "source": {
+        "name": "VG",
+        "url": "https://www.vg.no"
+      }
+    },
+    {
       "id": "c820f381c2f6",
       "title": "(+) Dødelig legemiddel forsvunnet fra medisinrom - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMzBBb0dvc1dNTk9SU0w3LXNGNzg5X241YkNJMEM3NC1SemRNb1BmSDhNWThqRmFQQ21wakE2aFl1Sy16azdwbXJ6U1FocGVJdEc1VXBHUks2OXZIOWt3M01XVXZZaU9zZThVcFB6bkJwYXlfRjBoaF96cnRaZUYwYlp6aTBhdVFrR0xhSXNyeW9zdWc4eEtUT0RFUTR6aU1aOEdEbVFiWXdoMlRDU1BuUnl3S1A?oc=5",
@@ -931,16 +921,6 @@
       "source": {
         "name": "Mynewsdesk",
         "url": "https://www.mynewsdesk.com"
-      }
-    },
-    {
-      "id": "ed84dd99b89e",
-      "title": "Overkjører eget medisin-organ etter 614 dager - VG",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxON3hxRXlKOG5uR01pRTZ0dldZanR6QmpDZl9yZEluOVRvcDAyaDBBb01oeU1NUE5qY05zTVpSSzh2dG1EUTI5d2lqcTY3SkRwZklZTG5hUXRtZkZEc1BvXzB3M1BCdkY1c1pXQlVWQ2wxemhNbTdwNFAtWTRja2RQVGV6MzI?oc=5",
-      "published": "2024-07-04T07:00:00+00:00",
-      "source": {
-        "name": "VG",
-        "url": "https://www.vg.no"
       }
     },
     {
@@ -1001,6 +981,26 @@
       "source": {
         "name": "medwatch.no",
         "url": "https://medwatch.no"
+      }
+    },
+    {
+      "id": "5a3c6e17b37a",
+      "title": "Innfører legemiddel til Stills sykdom og sJIA - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmx6MTZPbFRCMGU5c0ptUVlwdEM4UHp4Wl9EV2ppb1pQa0VPdV9RVjRWQ015dlNpVHZMblM0Wldndm9WWEFVelNSbFBUa0tDRnhES3JWbng0dXVSem1jZGsyQ0l2eGRiUkF1aTNwbW5HazI1cHZyOVZwUDhUNWc2aElyUW1VdU9RZkpJQUh1TW83YzNTRW5sQVVEaUw3RnJEcUdVOUYtVnN4Rkt5M2NDc3VrNEMtOEhsOUE?oc=5",
+      "published": "2019-02-26T08:00:00+00:00",
+      "source": {
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "cabe2008cfb4",
+      "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcjEyX1huWDJkMzBnV1ZKa1g2dkFLbk5qUXF5enZjQmtEV3BvbjJoOTdTNzkxMy00a3k1Y1dkQ0s2STRFVFJmRm0tZFY5NE1qYVBIejdfd3VfTGZxQ0dGZkhtNEt1VVNZU2xySXZiWGIxV0czR0dNaEFjVENyYnJZekZhZy0?oc=5",
+      "published": "2015-06-17T17:27:26+00:00",
+      "source": {
+        "name": "Regjeringen.no",
+        "url": "https://www.regjeringen.no"
       }
     }
   ]
