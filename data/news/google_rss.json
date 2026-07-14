@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T21:58:59.860374+00:00",
+  "fetched_at": "2026-07-14T23:04:36.899435+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -434,16 +434,6 @@
       }
     },
     {
-      "id": "2b3e8a6ec778",
-      "title": "Studie: Slankemedisiner ga overraskende effekt - VG",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOX3diRExyanRfcUN0MWZrdE9MYVd0LWNzcENBZ0pIVzBabVZqOXAxb3lYbXVWSkw0a3h0T0FBUXNDWXR4Zmt0NGxQVHUwZml4SHhqUGRVZTJzVzgwN2VzQUoxU2FtVVVmVVdWZGZmQzNOOUJEbUhSTXc2eXU1d0xEcDdnYlloYVhMR1E?oc=5",
-      "published": "2026-04-02T07:00:00+00:00",
-      "source": {
-        "name": "VG",
-        "url": "https://www.vg.no"
-      }
-    },
-    {
       "id": "7ff2c2e75675",
       "title": "Et eksperiment med potensielt stor risiko for pasientene - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeHV0b21rQ0ZYSjRiOF9RSTdjcmdUX3ZaX2hhbTB2RlpTRVhVaWJUeGpNX1RhX1VnbzdoN1hLY0thVmZoZTBCaXpNYUFiOFNzS2RwTVlHUDJUMWJ1U2RZelRra3BtOEV0a3JsNTlYd2xvQUQ5NFRidlUwZmo4Tk5YX1lJeEdQc3F1QUwwaF91ZWRsTFZ6VFRyaVR2MUhrbEJkY3lkLTdwZXlYMGtYcHNLX3JsRHFUZ0d6dWYwSkRYaFdYZXQ1Mmc?oc=5",
@@ -471,6 +461,16 @@
       "source": {
         "name": "Sykepleien",
         "url": "https://sykepleien.no"
+      }
+    },
+    {
+      "id": "2b3e8a6ec778",
+      "title": "Studie: Slankemedisiner ga overraskende effekt - VG",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOX3diRExyanRfcUN0MWZrdE9MYVd0LWNzcENBZ0pIVzBabVZqOXAxb3lYbXVWSkw0a3h0T0FBUXNDWXR4Zmt0NGxQVHUwZml4SHhqUGRVZTJzVzgwN2VzQUoxU2FtVVVmVVdWZGZmQzNOOUJEbUhSTXc2eXU1d0xEcDdnYlloYVhMR1E?oc=5",
+      "published": "2026-04-02T07:00:00+00:00",
+      "source": {
+        "name": "VG",
+        "url": "https://www.vg.no"
       }
     },
     {
