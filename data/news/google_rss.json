@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T08:08:51.968184+00:00",
+  "fetched_at": "2026-07-14T10:48:18.143429+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -114,6 +114,16 @@
       }
     },
     {
+      "id": "e13e9a3f74de",
+      "title": "Medisintilgangen stuper i Norge: – Pasienter dør mens de venter - Finansavisen",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdDl1VkFIblNrX2tyeF9nTHJGOGFUVVlRRkJMeWF2cndwWFlSSGJ1ZXdvVVVMY1hsRFpib3BORVJHc2prYW44SDJ2LVltNXUzbFdiYzBtRzBBeW1vdENxcmFXOWcybmtuaC1OS1N3Nm1jZ2tST2s5MThvT1NxV0NhMkR1SVdpX1NvUjk2SkpuZko1QWlxQzQteVJ6YWUwbzZscFFEZEVHUnVrck95aUFPR3pFOA?oc=5",
+      "published": "2026-05-19T07:00:00+00:00",
+      "source": {
+        "name": "Finansavisen",
+        "url": "https://www.finansavisen.no"
+      }
+    },
+    {
       "id": "c961e5b9af68",
       "title": "Ingrid (29) fikk feil medisin av vikarlegen: – En alvorlig feil - Bergens Tidende",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPT1VWR0xnV21yX3pRSHVSYlRNX3RoNWJiSlJsaVVnOHBLSDdfWjVHYXdxSEhUbnlOLWdoSjg4N3o2QktqMjJfaHpkcHladm83ckxhTnFhYldkdWFrRS13SWtQTzNiazlZRG1VLU9FWW1KUDctWDZCUGtPS0dabXg2c2thQ0VYdw?oc=5",
@@ -131,16 +141,6 @@
       "source": {
         "name": "Sol",
         "url": "https://sol.no"
-      }
-    },
-    {
-      "id": "e13e9a3f74de",
-      "title": "Medisintilgangen stuper i Norge: – Pasienter dør mens de venter - Finansavisen",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdDl1VkFIblNrX2tyeF9nTHJGOGFUVVlRRkJMeWF2cndwWFlSSGJ1ZXdvVVVMY1hsRFpib3BORVJHc2prYW44SDJ2LVltNXUzbFdiYzBtRzBBeW1vdENxcmFXOWcybmtuaC1OS1N3Nm1jZ2tST2s5MThvT1NxV0NhMkR1SVdpX1NvUjk2SkpuZko1QWlxQzQteVJ6YWUwbzZscFFEZEVHUnVrck95aUFPR3pFOA?oc=5",
-      "published": "2026-05-19T07:00:00+00:00",
-      "source": {
-        "name": "Finansavisen",
-        "url": "https://www.finansavisen.no"
       }
     },
     {
@@ -224,16 +224,6 @@
       }
     },
     {
-      "id": "7f820004c905",
-      "title": "Johannesurt i folkemedisinen - NHI.no",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR0k1OWpxcXdmZVNOQUFVbGhlNnZjanpSdlNzOFNoRWs1SGZRMkpTaFFOcHNPdVh1ZDIzQWs4aFUyX05rSlBsSzRVbFRIV2tfb0Joa3hMcGhrR3hDTDZOWXoyUHhXNFFYUlR1cFdYZktOVUpwRHpObTZkWFVkTmc5VTVXcEI?oc=5",
-      "published": "2025-12-12T08:00:00+00:00",
-      "source": {
-        "name": "NHI.no",
-        "url": "https://nhi.no"
-      }
-    },
-    {
       "id": "a6ad94598cf6",
       "title": "Viktige helseendringer i 2026: Hva betyr det for deg? - HealthTalk",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUjB5ZzVjN0lYc19UdUZENVF3ekFnMTJvN0JORWRNSTh2OGhFemR5cmc3TndCNzRfMjdCclg3cnd4endoY3JDUUFUUlZqaE5QbXh3SHo1STNZVldJeUI5NWtIRzRtLUZvWFJxN3RtME1mVm1IU1I0Q3JxLUZIUmlCSno1QlgwRFdHYTg5RnZEa0JwRzZOUWNFbjZhQ3M2czlENmpRMWJBMGpQbWRfMVkw?oc=5",
@@ -241,6 +231,16 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
+      }
+    },
+    {
+      "id": "7f820004c905",
+      "title": "Johannesurt i folkemedisinen - NHI.no",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR0k1OWpxcXdmZVNOQUFVbGhlNnZjanpSdlNzOFNoRWs1SGZRMkpTaFFOcHNPdVh1ZDIzQWs4aFUyX05rSlBsSzRVbFRIV2tfb0Joa3hMcGhrR3hDTDZOWXoyUHhXNFFYUlR1cFdYZktOVUpwRHpObTZkWFVkTmc5VTVXcEI?oc=5",
+      "published": "2025-12-12T08:00:00+00:00",
+      "source": {
+        "name": "NHI.no",
+        "url": "https://nhi.no"
       }
     },
     {
@@ -584,16 +584,6 @@
       }
     },
     {
-      "id": "00a78f0dc327",
-      "title": "Etterforskning pågår etter narkotiske medisiner forsvant: – Svært krevende - Avisa Oslo",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZk5PaktJMllaNGxXUHhjZnFram5VZGc3NGFoc1B5UnlVSWtabE52bjJjcHM0c0VtQm1fNUkwZjZzakN2azZUTDlqSGZ3Q3VwcGo0S1pCeWJocThhUTVoSVJpVXhnREVpdl9GRG4zOGFWUGVwNllhUEs3UUFtaU9ELWhmT3VrYVgxeGVmczhB?oc=5",
-      "published": "2025-07-20T07:00:00+00:00",
-      "source": {
-        "name": "Avisa Oslo",
-        "url": "https://www.ao.no"
-      }
-    },
-    {
       "id": "6b936dc1a033",
       "title": "Slår til lyd for åpenhet om priser og økt bruk av anbud ved legemiddel-kjøp - Anbud365",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUnBxNWZESmtDUmhjOUVYNDNSU0dXdmpCSmRUTi1RNkJNZUhGSHdFY2NzbC1FR1F2Z1NLNHM2ZzlrZElKdGVPR1RvNGJ5eVRoVkZUNS1uTjQ4emNMMjh6cGNWX0M3WXAwS3FlN2lxcG1JT3psUV9DRGl6QURSSHUxbkpBUGw1YnkzSl9IR0l2dlQwejVuUV9HM3h3OVVnWXVvYlJiY0VUMWhSaVpGM2ZweWFkSjhFZw?oc=5",
@@ -601,6 +591,16 @@
       "source": {
         "name": "Anbud365",
         "url": "https://www.anbud365.no"
+      }
+    },
+    {
+      "id": "00a78f0dc327",
+      "title": "Etterforskning pågår etter narkotiske medisiner forsvant: – Svært krevende - Avisa Oslo",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZk5PaktJMllaNGxXUHhjZnFram5VZGc3NGFoc1B5UnlVSWtabE52bjJjcHM0c0VtQm1fNUkwZjZzakN2azZUTDlqSGZ3Q3VwcGo0S1pCeWJocThhUTVoSVJpVXhnREVpdl9GRG4zOGFWUGVwNllhUEs3UUFtaU9ELWhmT3VrYVgxeGVmczhB?oc=5",
+      "published": "2025-07-20T07:00:00+00:00",
+      "source": {
+        "name": "Avisa Oslo",
+        "url": "https://www.ao.no"
       }
     },
     {
@@ -734,16 +734,6 @@
       }
     },
     {
-      "id": "fbe68915d51d",
-      "title": "Nye indikatorer om legemidler til eldre fra allmennlege - Helsedirektoratet",
-      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxPSlZuTGNIRXpSLUlWRnp0NXhKVThXUHBsMm5hRXZUTmN5RlRDVGs5VGRRNFhPZjJuMXhZU2RxNEdYbjZXdDJESzQ2Tlk1bzh3WlJsREJabUVqY01KdVJxVzVuZnJaT1hTZ21XODEzUkJSb2kwUjFZM2ZTTEZGV2Yydzl1ZWdiTUIzblhJLTlGUEgyUWhmQm5iNDNGVG1yWVI0N2hsUmdZU1JzVURjX3hmVGFOWjgyU0xiRE9QMnp6T1huMTJVcFU4cUxZWUV4TVlCanVoSWRJYVRqbDRWN3p0TGtPWWJpVnYwOTJZTE5idUMwcXQ3TjZ3dVI1NUlrNzhJaFB2RkNKNlFuN3cxR1BCZEhrcXpQakEwTHBsTC1B?oc=5",
-      "published": "2024-05-31T07:00:00+00:00",
-      "source": {
-        "name": "Helsedirektoratet",
-        "url": "https://www.helsedirektoratet.no"
-      }
-    },
-    {
       "id": "61743f076712",
       "title": "Nå er apotekene tomme for denne medisinen - Østlendingen",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNU3BhLUZ1MHFqUWJ3WkJ4MGpiY2M3X3UtaVAyOC0ybkUxRERxelpNbTd5dFRJVUFNdEEwYXRpLUVuYVluSzNTNUJnTkxWRFNma2pHSGZCM3I3Znlub1ZuZXBjMURWc0tBV3c2RTlqVkcydExLUk1MVkdsYzdYNngxd1FnSHhMVlo0VUpiag?oc=5",
@@ -761,6 +751,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "fbe68915d51d",
+      "title": "Nye indikatorer om legemidler til eldre fra allmennlege - Helsedirektoratet",
+      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxPSlZuTGNIRXpSLUlWRnp0NXhKVThXUHBsMm5hRXZUTmN5RlRDVGs5VGRRNFhPZjJuMXhZU2RxNEdYbjZXdDJESzQ2Tlk1bzh3WlJsREJabUVqY01KdVJxVzVuZnJaT1hTZ21XODEzUkJSb2kwUjFZM2ZTTEZGV2Yydzl1ZWdiTUIzblhJLTlGUEgyUWhmQm5iNDNGVG1yWVI0N2hsUmdZU1JzVURjX3hmVGFOWjgyU0xiRE9QMnp6T1huMTJVcFU4cUxZWUV4TVlCanVoSWRJYVRqbDRWN3p0TGtPWWJpVnYwOTJZTE5idUMwcXQ3TjZ3dVI1NUlrNzhJaFB2RkNKNlFuN3cxR1BCZEhrcXpQakEwTHBsTC1B?oc=5",
+      "published": "2024-05-31T07:00:00+00:00",
+      "source": {
+        "name": "Helsedirektoratet",
+        "url": "https://www.helsedirektoratet.no"
       }
     },
     {
@@ -974,6 +974,16 @@
       }
     },
     {
+      "id": "a48e1315db07",
+      "title": "Sa ja til legemiddel mot atopisk eksem - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdlpucDdoUXctazhkTGdhdUFqNl9SUEtKWHJiLWJSTGdfVzJoRHg3Z0RvZUVaYWxNdkJhRUFUME03SlFqZThEaGJEd0w5em9ncTRFcjZwc1I5bTJleU9nRkkzVXU0aVVDZDNKbkpBd0RndElfY2RhbE1TdjZBcjJwbzFBU1BhRWNjWXB4NjluNDZfay1sbmdxX2NSSWt4WkItZmdncEt5emI?oc=5",
+      "published": "2023-01-31T19:27:10+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
       "id": "b5954a1d3d64",
       "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVFhoTmQ2UURJZE5Ubm40NElBeHRWM2RsdEhlVHJPTG9RSGc1c0t4SUpHdk8ydFdDcjYwbkpDanVvRXhVZkZTbEFkanVuM2JRWEtHVm5lLTRUYU5UVlk0bVBlc2Z5T09jdUc3NGlaZ180RzJtYV9mZlV5dGdPT0NnemtyY1c?oc=5",
@@ -991,16 +1001,6 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
-      }
-    },
-    {
-      "id": "1914ee936a31",
-      "title": "Tester ut legemidler på levende modeller av menneskeorganer - Teknisk Ukeblad",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYnE5a29nUWNMN2lLcmlTWEdDZE1NZGl1U1d6cHpYTWdET1lZS1NwZGdqV2h5NkFiLUNQS2R0aE5ZX1NKZkxRemJUelIzRGotNmk1a2pXUWlNc0s2X2Jzd1RCYmd5UElERlpYZzZqWVhBdUVjQlB3X2Q2UnlBQ29RcDMzXzhCODZ1MzFaWElCazRfdjRRekNlYg?oc=5",
-      "published": "2020-04-20T07:00:00+00:00",
-      "source": {
-        "name": "Teknisk Ukeblad",
-        "url": "https://www.tu.no"
       }
     }
   ]
