@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-15T16:23:43.025351+00:00",
+  "fetched_at": "2026-07-15T18:09:21.165480+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -234,13 +234,13 @@
       }
     },
     {
-      "id": "391e27c9c3de",
-      "title": "Flere medisiner fases ut: – Haster med å kontakte lege - Tidens Krav",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORUNzQ1FESXg2VWhPSWRJNTRfdlFoTW1GeVVzOTgwVlNJM0tCTHVxenJyV3lGdlZOaERKT1ZwNjU0NmlDQ2hUQ3lFZWVjLTJ1SHVSRXRTSjhEVUNpN2h0eEJWOHo5aERSQ2RyS1R6U1FXalRxM2NJZ3dQUld6Nllwcl93YzJQVEpyRTh6bA?oc=5",
+      "id": "4358c045f263",
+      "title": "Helse, Medisiner | Flere medisiner fases ut: – Haster med å kontakte lege - Hamar Arbeiderblad",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSzFNMk8wd1lBVlhwUi1GSUJZcWM2M0VBNmpwSnVvYzlpdlBFTm94ZWJEUHZYeXhOaXpYdmhLSUVzbE5rZURqMW43bVMtUC1aNldERTBPdGdYVmU5cTRIeVBpbkpuaXZLb2FJUWZ1Ykw1NTlPaXh0OUJKYUcyWG9HMjM3cDlnQlREX2Z2SmRxUQ?oc=5",
       "published": "2026-04-29T07:00:00+00:00",
       "source": {
-        "name": "Tidens Krav",
-        "url": "https://www.tk.no"
+        "name": "Hamar Arbeiderblad",
+        "url": "https://www.h-a.no"
       }
     },
     {
@@ -574,6 +574,16 @@
       }
     },
     {
+      "id": "36bd8df13c64",
+      "title": "Ny Alzheimer-medisin godkjent i EU – kan bli tilgjengelig i Norge i 2026 - Forskning.no",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZ0FKbU15QzBueFRIVk1wRncwNk5lOXhOempBS1V0ZmpoLWpucm83djl1ZVdZWWFaaks1cUM0RVVhQ1Z2Mm91T21KTW02R3FvU1JYd3d4VkN4SkRuckNreERwdy15VnZiVzNwOHZhVHJFazBPcmNMVG1oczNHTU45eExZNFVMNDBTS3ZuTjhyNzU4U2tCM29zMDJTVHVjM3JfaHY1eDZoNkNCa21wUGxWRHQwaHZENDVQM2w3bHVWbVlZMmhXeWRic19xZw?oc=5",
+      "published": "2025-07-24T07:00:00+00:00",
+      "source": {
+        "name": "Forskning.no",
+        "url": "https://www.forskning.no"
+      }
+    },
+    {
       "id": "b141dfb72da4",
       "title": "Debatt, Helse | Musikk som medisin: Hvorfor helsepolitikken må lytte - Trønder-Avisa",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUXEyRmNNbWZPaDRHd01fMjlTaEE5MkxXN3hydkNyc2VfQWFqSG45ekRSTGVfdVhfU2JkU21FTGZtVXUtRWNnVUVmcVR2Ym9oOE9zMS1yVlRoMGdGX2xVZEhXNFc0WFQ5dUFXUElIREljS1d4cl9TWExLaUJoWjl4WlpuZ2dNZkxTSTlrMGFIUQ?oc=5",
@@ -714,16 +724,6 @@
       }
     },
     {
-      "id": "00a78f0dc327",
-      "title": "Etterforskning pågår etter narkotiske medisiner forsvant: – Svært krevende - Avisa Oslo",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZk5PaktJMllaNGxXUHhjZnFram5VZGc3NGFoc1B5UnlVSWtabE52bjJjcHM0c0VtQm1fNUkwZjZzakN2azZUTDlqSGZ3Q3VwcGo0S1pCeWJocThhUTVoSVJpVXhnREVpdl9GRG4zOGFWUGVwNllhUEs3UUFtaU9ELWhmT3VrYVgxeGVmczhB?oc=5",
-      "published": "2025-07-20T07:00:00+00:00",
-      "source": {
-        "name": "Avisa Oslo",
-        "url": "https://www.ao.no"
-      }
-    },
-    {
       "id": "1fe86eb2830d",
       "title": "Doblet antall på seks år - Rådet for psykisk helse",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE52SEJnVFlOdzlMRklmT1FneWJwd3BUZ2tFSGtkMFFBUG8xaGJ5RDBudVh0NFJHb1NmSkV5dzlIdWxSWWJ4ZGVaRVN6aEI1QUh0WlNqNWlzb1ZNNUQ1emU5OWtqcm1ucmVVLUhZ?oc=5",
@@ -731,6 +731,16 @@
       "source": {
         "name": "Rådet for psykisk helse",
         "url": "https://psykiskhelse.no"
+      }
+    },
+    {
+      "id": "00a78f0dc327",
+      "title": "Etterforskning pågår etter narkotiske medisiner forsvant: – Svært krevende - Avisa Oslo",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZk5PaktJMllaNGxXUHhjZnFram5VZGc3NGFoc1B5UnlVSWtabE52bjJjcHM0c0VtQm1fNUkwZjZzakN2azZUTDlqSGZ3Q3VwcGo0S1pCeWJocThhUTVoSVJpVXhnREVpdl9GRG4zOGFWUGVwNllhUEs3UUFtaU9ELWhmT3VrYVgxeGVmczhB?oc=5",
+      "published": "2025-07-20T07:00:00+00:00",
+      "source": {
+        "name": "Avisa Oslo",
+        "url": "https://www.ao.no"
       }
     },
     {
@@ -904,16 +914,6 @@
       }
     },
     {
-      "id": "c820f381c2f6",
-      "title": "(+) Dødelig legemiddel forsvunnet fra medisinrom - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMzBBb0dvc1dNTk9SU0w3LXNGNzg5X241YkNJMEM3NC1SemRNb1BmSDhNWThqRmFQQ21wakE2aFl1Sy16azdwbXJ6U1FocGVJdEc1VXBHUks2OXZIOWt3M01XVXZZaU9zZThVcFB6bkJwYXlfRjBoaF96cnRaZUYwYlp6aTBhdVFrR0xhSXNyeW9zdWc4eEtUT0RFUTR6aU1aOEdEbVFiWXdoMlRDU1BuUnl3S1A?oc=5",
-      "published": "2024-09-03T07:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
       "id": "279c3f57ee49",
       "title": "Egenadministrering av legemidler kan fremme mestring i psykisk helsevern - Sykepleien",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZTl2SVRXN1JVdHFYMzV3SXNmeWFac0ViSUR1R21RWTV0ak55MldiWEdfd1lHSVZFWkF0OHFmV1ZBQ1BLQUZHOUxFSGJxajgyZGxIc1M1elRHSnpxaFVpWVR5bDBLSFljWDdTbmVtWVpIVnBqUUpqdWJPck9EUU1LYXpVTENsYlhWMDRXdlFtUWIzUF91TnRsZGFfS1c0YXQtc1R3aXY5ZVRZZw?oc=5",
@@ -921,6 +921,16 @@
       "source": {
         "name": "Sykepleien",
         "url": "https://sykepleien.no"
+      }
+    },
+    {
+      "id": "c820f381c2f6",
+      "title": "(+) Dødelig legemiddel forsvunnet fra medisinrom - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMzBBb0dvc1dNTk9SU0w3LXNGNzg5X241YkNJMEM3NC1SemRNb1BmSDhNWThqRmFQQ21wakE2aFl1Sy16azdwbXJ6U1FocGVJdEc1VXBHUks2OXZIOWt3M01XVXZZaU9zZThVcFB6bkJwYXlfRjBoaF96cnRaZUYwYlp6aTBhdVFrR0xhSXNyeW9zdWc4eEtUT0RFUTR6aU1aOEdEbVFiWXdoMlRDU1BuUnl3S1A?oc=5",
+      "published": "2024-09-03T07:00:00+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "Avisa Nordland",
         "url": "https://www.an.no"
-      }
-    },
-    {
-      "id": "5a3c6e17b37a",
-      "title": "Innfører legemiddel til Stills sykdom og sJIA - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmx6MTZPbFRCMGU5c0ptUVlwdEM4UHp4Wl9EV2ppb1pQa0VPdV9RVjRWQ015dlNpVHZMblM0Wldndm9WWEFVelNSbFBUa0tDRnhES3JWbng0dXVSem1jZGsyQ0l2eGRiUkF1aTNwbW5HazI1cHZyOVZwUDhUNWc2aElyUW1VdU9RZkpJQUh1TW83YzNTRW5sQVVEaUw3RnJEcUdVOUYtVnN4Rkt5M2NDc3VrNEMtOEhsOUE?oc=5",
-      "published": "2019-02-26T08:00:00+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
       }
     }
   ]
