@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-19T22:54:32.618825+00:00",
+  "fetched_at": "2026-07-19T23:59:23.472648+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -404,16 +404,6 @@
       }
     },
     {
-      "id": "77966db9a0c0",
-      "title": "Eldre i Larvik får færre medisiner - Østlands-Posten",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPakRTWk5KLWtPMWMtbjVpMl80V2Nrdm9SU3pDSnU2NjBPdHFMaGRzd29LenR6QXoyZ3dMZzNpbGk1VHRWa2xxbmFTaktjd3Q2d3NDV1N3UkE2T1NhdzI3WmNhR095SXppekhPZVZrOXNSOUtLQUswTmFfWktBektfQnBUcUxMZjZFcGxVSWQyWW9UcWxaU29DSV9LSlExSHJfVUhXeXdHNTY?oc=5",
-      "published": "2026-06-20T07:00:00+00:00",
-      "source": {
-        "name": "Østlands-Posten",
-        "url": "https://www.op.no"
-      }
-    },
-    {
       "id": "76d2fb7ff6a7",
       "title": "«Et snylteland er det ingen av oss som ønsker å være» - HealthTalk",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbFJIQmpPZzMtb1R6SWVWVUwwMGFvNFR3QS1STlZvTU9NU1BHeTVDbnp3VE5BcG5EWnZpOWNlay1YR2xKUlJPUFZKWkNBVWl0Mk5nUTN0SzhDa0NOVUh5cW95X1NNR3pzamhyblVtSk5JV1RscTFodkZZZlJHbXZqeEhuX3pQb3l3RDE1LUhfcUxtLWdBRktVSU5pcmJLRmdKc3RLdFR1dlBfWi1MVTJJTElFR292d2szdDFQVU5OQlhxVG8?oc=5",
@@ -421,6 +411,16 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
+      }
+    },
+    {
+      "id": "77966db9a0c0",
+      "title": "Eldre i Larvik får færre medisiner - Østlands-Posten",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPakRTWk5KLWtPMWMtbjVpMl80V2Nrdm9SU3pDSnU2NjBPdHFMaGRzd29LenR6QXoyZ3dMZzNpbGk1VHRWa2xxbmFTaktjd3Q2d3NDV1N3UkE2T1NhdzI3WmNhR095SXppekhPZVZrOXNSOUtLQUswTmFfWktBektfQnBUcUxMZjZFcGxVSWQyWW9UcWxaU29DSV9LSlExSHJfVUhXeXdHNTY?oc=5",
+      "published": "2026-06-20T07:00:00+00:00",
+      "source": {
+        "name": "Østlands-Posten",
+        "url": "https://www.op.no"
       }
     },
     {
