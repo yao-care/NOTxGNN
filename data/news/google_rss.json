@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-20T06:48:30.483344+00:00",
+  "fetched_at": "2026-07-20T10:13:12.982676+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -254,16 +254,6 @@
       }
     },
     {
-      "id": "ee6ab2978cd4",
-      "title": "Tre myelomatose-legemidler i Beslutningsforums neste møte - medwatch.no",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MWVRrMjY0UjhFNFFOVEtudDFILVQzT2Iwb1FBTGF5WTNUd0NhRWl5MVV0R2FwbDNsaGtEYW1IUnB6UVRrTzFvU2pRdkxoSEhCeDdPOTZGSVFFOWxVY3Z2cUZ3eXh1M3BOV2pSTW91Y0NPS1k?oc=5",
-      "published": "2026-06-12T07:00:00+00:00",
-      "source": {
-        "name": "medwatch.no",
-        "url": "https://medwatch.no"
-      }
-    },
-    {
       "id": "4358c045f263",
       "title": "Helse, Medisiner | Flere medisiner fases ut: – Haster med å kontakte lege - Hamar Arbeiderblad",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSzFNMk8wd1lBVlhwUi1GSUJZcWM2M0VBNmpwSnVvYzlpdlBFTm94ZWJEUHZYeXhOaXpYdmhLSUVzbE5rZURqMW43bVMtUC1aNldERTBPdGdYVmU5cTRIeVBpbkpuaXZLb2FJUWZ1Ykw1NTlPaXh0OUJKYUcyWG9HMjM3cDlnQlREX2Z2SmRxUQ?oc=5",
@@ -271,6 +261,16 @@
       "source": {
         "name": "Hamar Arbeiderblad",
         "url": "https://www.h-a.no"
+      }
+    },
+    {
+      "id": "ee6ab2978cd4",
+      "title": "Tre myelomatose-legemidler i Beslutningsforums neste møte - medwatch.no",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MWVRrMjY0UjhFNFFOVEtudDFILVQzT2Iwb1FBTGF5WTNUd0NhRWl5MVV0R2FwbDNsaGtEYW1IUnB6UVRrTzFvU2pRdkxoSEhCeDdPOTZGSVFFOWxVY3Z2cUZ3eXh1M3BOV2pSTW91Y0NPS1k?oc=5",
+      "published": "2026-06-12T07:00:00+00:00",
+      "source": {
+        "name": "medwatch.no",
+        "url": "https://medwatch.no"
       }
     },
     {
@@ -454,16 +454,6 @@
       }
     },
     {
-      "id": "9dbc1eb3e6cb",
-      "title": "Full refusjon for Boehringer Ingelheim-legemiddel - medwatch.no",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tMHhZUVBySUFZMGRqcUVHM1RoZVU5emNsSmVtSkpUNjBoTGRvTXBHYWQ4cjB5SUJFTzNZMGc2TXJCYzVVQTV3Um05d2NuMklIVHgxQ0F2ZllKejhoekJFYVI5N0ZTbG9zNktqSVVRLTdzMlk?oc=5",
-      "published": "2026-04-13T07:00:00+00:00",
-      "source": {
-        "name": "medwatch.no",
-        "url": "https://medwatch.no"
-      }
-    },
-    {
       "id": "d6b210ca8711",
       "title": "(+) – Helsepersonell avgjør om pasienten har rett på nødvendig helsehjelp – innenfor rammene - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOSkZxdnJtM0V4VnVxbEZmZm1ONmVteksxbm1jQ253aWNtTU1sSnAySi1yaDBqZ0NFSVRrZmRVbVhTeVdlNG1fSUFLeXVudVUxdWEyX1BDdWhvUmNDb250VnJGZk5rMUJHR0RQVjN4YzRTZ0NweW51T3VhM20tc2pTaEFyY3FOQ0Jabm1mbnUyMmxmcUx0Q1pQMTI4LVhoMmQ4ODRGY3lQZHdVOWNxZ1I5ZEJmdk1MRkFuZEt3c1FzdlNPRkJCWjNMcFFfbjlpMFZEUjJmajFpYlZ5UUVFN3RKVXB5ZkNPZE5xTVBfY1JsS0Q2T0ZhbVl2U2xVYXlIRnNHYlh3X3I5Z01Qd095aGhpc1ZHN18?oc=5",
@@ -551,6 +541,16 @@
       "source": {
         "name": "Direktoratet for samfunnssikkerhet og beredskap (DSB)",
         "url": "https://www.dsb.no"
+      }
+    },
+    {
+      "id": "de8afc5ad78a",
+      "title": "Helse, Apotek | Kraftig endring i egenandel for medisiner - Akershus Amtstidende",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdXRlRXAxSkNUa0hrTldOQ1pMVnVRUTRRc0laOVU0WG0zZzZWb2xVQlo5Vk1mZWZvNVpXMlZra0FfTUw1aXMxOS1vOWxDUFBDWDFRM3Z2cEhFWVg4STNlTDJSSWgzaWtoUlQ5WUpvbnc0NElYaEZlWllQay1UX3RQcQ?oc=5",
+      "published": "2025-12-19T08:00:00+00:00",
+      "source": {
+        "name": "Akershus Amtstidende",
+        "url": "https://www.amta.no"
       }
     },
     {
