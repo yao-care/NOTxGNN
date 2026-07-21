@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-21T17:22:21.474924+00:00",
+  "fetched_at": "2026-07-21T19:25:30.733360+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -94,16 +94,6 @@
       }
     },
     {
-      "id": "19f95588e0d4",
-      "title": "Nytt håp for ALS-pasienter: Tidlig tilgang til medisiner - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVGVhRFNTQUo3aXNydHlaOE9RX0VfM0ZXbGxnbm9HOWdWNGRPWnVacHpXZDFYRVNtb3hZNjBWdXVOQ1FfSzZSbXdIb2thMUEwYXdYdU42ektKSVo0N2h0bFJ4R2dhQ0pzNTAzcUFNMFVncWpaODE3UXNqMW9wV1Z5cHg4UWctV1VVRzRVYTJTTTE0QTRsMGtOM0JSeHVtbkROUmFpendySndzM3FvMmpnN1BNQVdLNGtpUUxmdjI1NnJjVUx2czRMc05R?oc=5",
-      "published": "2026-03-03T08:00:00+00:00",
-      "source": {
-        "name": "HealthTalk",
-        "url": "https://www.healthtalk.no"
-      }
-    },
-    {
       "id": "7f8aa23437a4",
       "title": "Riktig medisinbruk hos eldre – hvordan får vi det til? - UiO Det medisinske fakultet",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbEdoZllLSkM0Y3BzbG1BV2JoSWhFOWg3SjYwOWJIbHN5SERXemd2dVpRWnk0VEpYOWlneW5YSllTd2tzXy1xUHBPR2wtT3hoZy01MUlvckRqRGZYMk9CM1ZWclRma1BmN3M2X3NnMm5KYXdWejV6ejlKUGw0Rzl6NUFfaGg?oc=5",
@@ -111,6 +101,16 @@
       "source": {
         "name": "UiO Det medisinske fakultet",
         "url": "https://www.med.uio.no"
+      }
+    },
+    {
+      "id": "19f95588e0d4",
+      "title": "Nytt håp for ALS-pasienter: Tidlig tilgang til medisiner - HealthTalk",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVGVhRFNTQUo3aXNydHlaOE9RX0VfM0ZXbGxnbm9HOWdWNGRPWnVacHpXZDFYRVNtb3hZNjBWdXVOQ1FfSzZSbXdIb2thMUEwYXdYdU42ektKSVo0N2h0bFJ4R2dhQ0pzNTAzcUFNMFVncWpaODE3UXNqMW9wV1Z5cHg4UWctV1VVRzRVYTJTTTE0QTRsMGtOM0JSeHVtbkROUmFpendySndzM3FvMmpnN1BNQVdLNGtpUUxmdjI1NnJjVUx2czRMc05R?oc=5",
+      "published": "2026-03-03T08:00:00+00:00",
+      "source": {
+        "name": "HealthTalk",
+        "url": "https://www.healthtalk.no"
       }
     },
     {
@@ -324,16 +324,6 @@
       }
     },
     {
-      "id": "012123076749",
-      "title": "Helse, Horten | Ansatt i Horten kommune stjal medisiner – pasienter fikk falske tabletter - Gjengangeren",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWDl5LU1meHNwdl8yampEczg2NTZvZWUyMnZWODlYVFJtY1RPcEVQa0JJcnFheUZ3Z3h5RDJqY2Q1bXkzY3FlZV9hc0syTWhaQ2NkRkJhcmp5QXhKX09BaGEwdktXZDkzQlROVC02V1FqWGhCbElYb1pIaUpsX1A0cGpjODRqZ1R0T1d3YnRzQkE1azlZVFJ3TjBycTNkZmxPWVlWT05RQUEtRjUyVG9kYVlLOEw?oc=5",
-      "published": "2026-03-23T07:00:00+00:00",
-      "source": {
-        "name": "Gjengangeren",
-        "url": "https://www.gjengangeren.no"
-      }
-    },
-    {
       "id": "f73013fbd70a",
       "title": "13 av 14 legemidler fikk ja i årets første Beslutningsforum - medwatch.no",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWYWJpdFBFTFJSNldOR1V1RXpDd3pSWHM0Z0hkSlIzUkxmd2RYcWI3M0o2OTVVNnZpeXhQcndNWEliYVc0S2cxR0pTMWpmQjR6QnVuWUwwUjJWeXlEVXJLVXRvR2RQeUpkUkFkNHhXbWJFMEU?oc=5",
@@ -341,6 +331,16 @@
       "source": {
         "name": "medwatch.no",
         "url": "https://medwatch.no"
+      }
+    },
+    {
+      "id": "012123076749",
+      "title": "Helse, Horten | Ansatt i Horten kommune stjal medisiner – pasienter fikk falske tabletter - Gjengangeren",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWDl5LU1meHNwdl8yampEczg2NTZvZWUyMnZWODlYVFJtY1RPcEVQa0JJcnFheUZ3Z3h5RDJqY2Q1bXkzY3FlZV9hc0syTWhaQ2NkRkJhcmp5QXhKX09BaGEwdktXZDkzQlROVC02V1FqWGhCbElYb1pIaUpsX1A0cGpjODRqZ1R0T1d3YnRzQkE1azlZVFJ3TjBycTNkZmxPWVlWT05RQUEtRjUyVG9kYVlLOEw?oc=5",
+      "published": "2026-03-23T07:00:00+00:00",
+      "source": {
+        "name": "Gjengangeren",
+        "url": "https://www.gjengangeren.no"
       }
     },
     {
