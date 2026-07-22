@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-22T21:09:58.606279+00:00",
+  "fetched_at": "2026-07-22T23:05:38.137861+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -214,16 +214,6 @@
       }
     },
     {
-      "id": "c961e5b9af68",
-      "title": "Ingrid (29) fikk feil medisin av vikarlegen: – En alvorlig feil - Bergens Tidende",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPT1VWR0xnV21yX3pRSHVSYlRNX3RoNWJiSlJsaVVnOHBLSDdfWjVHYXdxSEhUbnlOLWdoSjg4N3o2QktqMjJfaHpkcHladm83ckxhTnFhYldkdWFrRS13SWtQTzNiazlZRG1VLU9FWW1KUDctWDZCUGtPS0dabXg2c2thQ0VYdw?oc=5",
-      "published": "2026-03-13T07:00:00+00:00",
-      "source": {
-        "name": "Bergens Tidende",
-        "url": "https://www.bt.no"
-      }
-    },
-    {
       "id": "7f820004c905",
       "title": "Johannesurt i folkemedisinen - NHI.no",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR0k1OWpxcXdmZVNOQUFVbGhlNnZjanpSdlNzOFNoRWs1SGZRMkpTaFFOcHNPdVh1ZDIzQWs4aFUyX05rSlBsSzRVbFRIV2tfb0Joa3hMcGhrR3hDTDZOWXoyUHhXNFFYUlR1cFdYZktOVUpwRHpObTZkWFVkTmc5VTVXcEI?oc=5",
@@ -231,6 +221,16 @@
       "source": {
         "name": "NHI.no",
         "url": "https://nhi.no"
+      }
+    },
+    {
+      "id": "c961e5b9af68",
+      "title": "Ingrid (29) fikk feil medisin av vikarlegen: – En alvorlig feil - Bergens Tidende",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPT1VWR0xnV21yX3pRSHVSYlRNX3RoNWJiSlJsaVVnOHBLSDdfWjVHYXdxSEhUbnlOLWdoSjg4N3o2QktqMjJfaHpkcHladm83ckxhTnFhYldkdWFrRS13SWtQTzNiazlZRG1VLU9FWW1KUDctWDZCUGtPS0dabXg2c2thQ0VYdw?oc=5",
+      "published": "2026-03-13T07:00:00+00:00",
+      "source": {
+        "name": "Bergens Tidende",
+        "url": "https://www.bt.no"
       }
     },
     {
@@ -354,16 +354,6 @@
       }
     },
     {
-      "id": "858b5d819d37",
-      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - stortinget.no",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjQ0cWxEYW91Y2d1SDZRZU9aM1lNaXg1cTROb0hKMk1INUlOZmh2dzB1V3o0dHU4SHNZUGNGMlRTQjJSZEhmdWJXMGlyOGlqbE5Ic0JDUk8xd1Nsam9KVXVZUmhMXzk4M0w1OVpaQmhmNENRXzE1cFlRWWt5bXpJekU1YnVyNzVPQ1FlX3IyMWNKSXJ0Z3p2ZDdpYVZKWVo0SXE3T3duMDBvYlBQOHNjTm95UEJVY0kzRXZudg?oc=5",
-      "published": "2025-10-12T14:11:53+00:00",
-      "source": {
-        "name": "stortinget.no",
-        "url": "https://www.stortinget.no"
-      }
-    },
-    {
       "id": "750f0c972289",
       "title": "Helse, Legemidler | Cristian Brennhovd risikerer legemiddel-bot - Budstikka",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPS0FBZGs3OTlnZmdpei1LemYtMENBcnZTT2RiV0tINHdNcXcyYmJWZFRMdlNMNkl3TkRQSmZPZDJpRkk5VjZoNXB3VDJwQVV1YWJhaTRFR0JzMFRxSkZGaVgtN194Tzc0b2ZOVlR0QXB0SDMxWXhtSE43SFYwaTFUX1ZZamRFS2Vnc1c0?oc=5",
@@ -371,6 +361,16 @@
       "source": {
         "name": "Budstikka",
         "url": "https://www.budstikka.no"
+      }
+    },
+    {
+      "id": "c4a433fa4eab",
+      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - Stortinget.no",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjQ0cWxEYW91Y2d1SDZRZU9aM1lNaXg1cTROb0hKMk1INUlOZmh2dzB1V3o0dHU4SHNZUGNGMlRTQjJSZEhmdWJXMGlyOGlqbE5Ic0JDUk8xd1Nsam9KVXVZUmhMXzk4M0w1OVpaQmhmNENRXzE1cFlRWWt5bXpJekU1YnVyNzVPQ1FlX3IyMWNKSXJ0Z3p2ZDdpYVZKWVo0SXE3T3duMDBvYlBQOHNjTm95UEJVY0kzRXZudg?oc=5",
+      "published": "2025-10-12T14:11:53+00:00",
+      "source": {
+        "name": "Stortinget.no",
+        "url": "https://www.stortinget.no"
       }
     },
     {
@@ -564,16 +564,6 @@
       }
     },
     {
-      "id": "a2f13b7197e5",
-      "title": "Utprøving av nytt legemiddel for erytropoietisk protoporfyri (EPP) - Helse Bergen",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeWNpeldZeG5Od3kwRnc4S0hmYjNkNTl1c25DTGNPR3luc2txMTQtc3FTOUZVRUtnNzVjR3VwWFNjOWNOWmpVdHBsaHduX0NtRGVkenNPU1FhQ0JoUW01Und1UVBBQzhWckUtaENtN0ZxTWUxMXJPU01QSWVKckJWYTBONWlhVk1HQmRkSE1VTmpTMlAxMjNKNlpqSGpZcUFCcjVHOExWOWJXZFNJbFRQRjNhRHpxMktOQXlWdExvemdUYkNuamw5Z0dnN3Jhc1hiR3NqeXhUMzJqQlk1QTV0QWtjMmJ3eUNUNUtiMFBvQjQ?oc=5",
-      "published": "2024-01-09T17:33:26+00:00",
-      "source": {
-        "name": "Helse Bergen",
-        "url": "https://www.helse-bergen.no"
-      }
-    },
-    {
       "id": "41782c087f29",
       "title": "Nyhet, Helse | Ny studie: Populær medisin kan være dødelig - Østlandets Blad",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd3luMUFMR3NtSzk5RFA0TVpEc2V1dzA0Y3AwLVFTRS1KYzE3V3hFSHJhblVvamh3UVBhX0JnNkFWbDlfNDJQQk1QTERhZFlRM0dYSkY3NDB3eFA4XzdvakFWZDMxY2tGMWhwak9UN3c5SWU5US1TMHRDdktsckt1U1pxZlE?oc=5",
@@ -664,12 +654,12 @@
       }
     },
     {
-      "id": "286929c6c632",
-      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - stortinget.no",
+      "id": "bb3f7fd4a136",
+      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - Stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVGEwRnFBUFZPeFQ5Rnl0MjY4RV9VSFRGWmJrNDVFekdxLXZHNjBjZGVHbkYyeGJLd3FjS3Y4RWRaTlVwR01yS0ZFTzRlam9jYl9zcUJGaG5FZ2NUOWg4SEpCbmJNSEdxdWpNWUlTbXBWdUJ2TFZKWDFmRTdlQU84UWY1UGhORHVYOGowdzhfcUtPeHZTZmVaMG1VQ0V4Q2pST2xRc19sdkNfOVNJS2JCWTZybDA1Z041cGc4bw?oc=5",
       "published": "2025-03-31T03:18:30+00:00",
       "source": {
-        "name": "stortinget.no",
+        "name": "Stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
@@ -804,16 +794,6 @@
       }
     },
     {
-      "id": "6b0deb587987",
-      "title": "Jan Terje skaper medisiner med superkrefter - VG",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOW9taUdUX19Ka0Fsa0VWZFJBUEdFcDMzZzNRa0JxWTU1Y21qT1RQNGV2OVFVcXF0ZHdmYVRHUzVMZnRCVXFIZlp6d2NHMXAyT25kbGdZUkRBdzRnOHloT1FoRXBCVHdibnFHXzdubzhaODBaaGtGNUVQcG9RYW9MUVZ0VWp0V01xS0lFQ2VhdjhSc0lFQVFxUC1DTkpzQQ?oc=5",
-      "published": "2024-06-07T07:00:00+00:00",
-      "source": {
-        "name": "VG",
-        "url": "https://www.vg.no"
-      }
-    },
-    {
       "id": "fd3f8ebd3f42",
       "title": "Helsehjelp og forebygging - Helsedirektoratet",
       "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNYnN6ZFJLd29qRUhBREtrNC1PTHR1X2s1Q3BNRkFCVFRrcTlhT0lleUtWZ2dKWVFvQUV0OFczejNJaXJLckh3WmFWMVRHbVdOOWxOT2N5YWo5SWcxVWtWd2laVW1fVEVacjVrWDVZSU1HYjJnbUhXZUJYV19PdVlUSlBVdkhFNFVYWTJybkJrdHJKdXN3dzdhYmFSOWZXNXk3N3FIQkwwN000YjhJMGRSRGpINFhvVDNVdlhLOEYzZG1jb2JWekdzc1kzbkZYTFJ2aWUtc2N4UUpNeGEyUDBIU2lsVVZuZHYtN1Y3Q0lpWXdvZlNoWmN2ZHFiUXdteEtGR2k5RzRqM1VMRTlSdS03MGExVVZ5MHRxdFE?oc=5",
@@ -831,6 +811,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "6b0deb587987",
+      "title": "Jan Terje skaper medisiner med superkrefter - VG",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOW9taUdUX19Ka0Fsa0VWZFJBUEdFcDMzZzNRa0JxWTU1Y21qT1RQNGV2OVFVcXF0ZHdmYVRHUzVMZnRCVXFIZlp6d2NHMXAyT25kbGdZUkRBdzRnOHloT1FoRXBCVHdibnFHXzdubzhaODBaaGtGNUVQcG9RYW9MUVZ0VWp0V01xS0lFQ2VhdjhSc0lFQVFxUC1DTkpzQQ?oc=5",
+      "published": "2024-06-07T07:00:00+00:00",
+      "source": {
+        "name": "VG",
+        "url": "https://www.vg.no"
       }
     },
     {
@@ -924,12 +914,12 @@
       }
     },
     {
-      "id": "e86d8ed5ec00",
-      "title": "Skriftlig spørsmål fra Sonja Irene Sjøli (H) til helse- og omsorgsministeren - stortinget.no",
+      "id": "bfcc04b34bff",
+      "title": "Skriftlig spørsmål fra Sonja Irene Sjøli (H) til helse- og omsorgsministeren - Stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZVdqMWxQcF9KeHhaTElycHl5Yl91V3diZmRJLWNJUnVrN3p6dkdqcWpVcWUzX0pTOGMwY0tjZkJJeEVlcVB2OHVwM25WMHVIRFVrQ1htalRzTGF6c3NmcExEUE1keE03TGFPOFVrVllvVjNtNkZmSEFmV2gxcUFoZUl1QXF4T0VwQmlxbWZRUjNhUW9feXFGczlxWk05cktoMlVlUjlkamZYbnlNRVhWT0tOdkg3TGZwa1dB?oc=5",
       "published": "2025-03-28T02:03:15+00:00",
       "source": {
-        "name": "stortinget.no",
+        "name": "Stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
@@ -991,6 +981,16 @@
       "source": {
         "name": "Avisa Nordland",
         "url": "https://www.an.no"
+      }
+    },
+    {
+      "id": "855a4cfebc24",
+      "title": "Kan gi trøbbel i varmen: – Flere eller nye bivirkninger - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTkVZdUxrdG85R240cG5DT3Y5TXpWUjktR1JnWDFmaUE0c2hVbUJLaEY1c1FaaGs0akhGb0ZxaGdmSkRaejUxVTdxYU1HcGxlMllVeEhzT21fTzB1bWoxenI4SXY1NEIybWg1azAxeVV1SEZ4TWk3T3ZuRGtmZHJIUjdyZXEzM1l6YThGWElGdDlYMnJON3ZNOGhwczRuV1dsZnNCTVpaWXJVZmxXRV9ZajI5X0dJY2ZVcXJ3?oc=5",
+      "published": "2024-07-23T07:00:00+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     },
     {
