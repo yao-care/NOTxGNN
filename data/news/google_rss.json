@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-22T13:59:56.677694+00:00",
+  "fetched_at": "2026-07-22T15:47:36.905131+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -234,20 +234,20 @@
       }
     },
     {
-      "id": "ee6ab2978cd4",
-      "title": "Tre myelomatose-legemidler i Beslutningsforums neste møte - medwatch.no",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MWVRrMjY0UjhFNFFOVEtudDFILVQzT2Iwb1FBTGF5WTNUd0NhRWl5MVV0R2FwbDNsaGtEYW1IUnB6UVRrTzFvU2pRdkxoSEhCeDdPOTZGSVFFOWxVY3Z2cUZ3eXh1M3BOV2pSTW91Y0NPS1k?oc=5",
-      "published": "2026-06-12T07:00:00+00:00",
+      "id": "69b2413e657b",
+      "title": "Storbank ser gode muligheter i helse- og legemiddelaksjer - medwatch.no",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xbnVhNndpVGZldnJnVlhuSG5OTFdXcEJtTnJWRkw2SmU3cERIdDllWnNyWFJvMXVDNU50bGpSQkFHTjNIU1MzLXNaSEtjNzQ4N2RNT2JTWm1aSEd0cGpsVVZ4Z0N3VHg1b0N5QzdTT3ZpYjA?oc=5",
+      "published": "2026-01-05T08:00:00+00:00",
       "source": {
         "name": "medwatch.no",
         "url": "https://medwatch.no"
       }
     },
     {
-      "id": "69b2413e657b",
-      "title": "Storbank ser gode muligheter i helse- og legemiddelaksjer - medwatch.no",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xbnVhNndpVGZldnJnVlhuSG5OTFdXcEJtTnJWRkw2SmU3cERIdDllWnNyWFJvMXVDNU50bGpSQkFHTjNIU1MzLXNaSEtjNzQ4N2RNT2JTWm1aSEd0cGpsVVZ4Z0N3VHg1b0N5QzdTT3ZpYjA?oc=5",
-      "published": "2026-01-05T08:00:00+00:00",
+      "id": "ee6ab2978cd4",
+      "title": "Tre myelomatose-legemidler i Beslutningsforums neste møte - medwatch.no",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MWVRrMjY0UjhFNFFOVEtudDFILVQzT2Iwb1FBTGF5WTNUd0NhRWl5MVV0R2FwbDNsaGtEYW1IUnB6UVRrTzFvU2pRdkxoSEhCeDdPOTZGSVFFOWxVY3Z2cUZ3eXh1M3BOV2pSTW91Y0NPS1k?oc=5",
+      "published": "2026-06-12T07:00:00+00:00",
       "source": {
         "name": "medwatch.no",
         "url": "https://medwatch.no"
@@ -444,16 +444,6 @@
       }
     },
     {
-      "id": "0feec7389226",
-      "title": "ADHD-medisiner: Den ideelle dosen - Dagbladet",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE11MjlxR19tYmRES3NrMTMtOVBxQzA5MUJ5X3V6UzA5YmNrMHN1bFo1SU5rQURvRjREZldaNm0wbnR1RThhMHVieDF2N09PYlRqeUYwS09kOF9rS3RVWGZoWno4R2F2bWY2bDFiVnBxRHFSUk9jb3JOazZkaw?oc=5",
-      "published": "2026-06-19T07:00:00+00:00",
-      "source": {
-        "name": "Dagbladet",
-        "url": "https://www.dagbladet.no"
-      }
-    },
-    {
       "id": "2b3e8a6ec778",
       "title": "Studie: Slankemedisiner ga overraskende effekt - VG",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOX3diRExyanRfcUN0MWZrdE9MYVd0LWNzcENBZ0pIVzBabVZqOXAxb3lYbXVWSkw0a3h0T0FBUXNDWXR4Zmt0NGxQVHUwZml4SHhqUGRVZTJzVzgwN2VzQUoxU2FtVVVmVVdWZGZmQzNOOUJEbUhSTXc2eXU1d0xEcDdnYlloYVhMR1E?oc=5",
@@ -461,6 +451,16 @@
       "source": {
         "name": "VG",
         "url": "https://www.vg.no"
+      }
+    },
+    {
+      "id": "0feec7389226",
+      "title": "ADHD-medisiner: Den ideelle dosen - Dagbladet",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE11MjlxR19tYmRES3NrMTMtOVBxQzA5MUJ5X3V6UzA5YmNrMHN1bFo1SU5rQURvRjREZldaNm0wbnR1RThhMHVieDF2N09PYlRqeUYwS09kOF9rS3RVWGZoWno4R2F2bWY2bDFiVnBxRHFSUk9jb3JOazZkaw?oc=5",
+      "published": "2026-06-19T07:00:00+00:00",
+      "source": {
+        "name": "Dagbladet",
+        "url": "https://www.dagbladet.no"
       }
     },
     {
@@ -974,16 +974,6 @@
       }
     },
     {
-      "id": "855a4cfebc24",
-      "title": "Kan gi trøbbel i varmen: – Flere eller nye bivirkninger - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTkVZdUxrdG85R240cG5DT3Y5TXpWUjktR1JnWDFmaUE0c2hVbUJLaEY1c1FaaGs0akhGb0ZxaGdmSkRaejUxVTdxYU1HcGxlMllVeEhzT21fTzB1bWoxenI4SXY1NEIybWg1azAxeVV1SEZ4TWk3T3ZuRGtmZHJIUjdyZXEzM1l6YThGWElGdDlYMnJON3ZNOGhwczRuV1dsZnNCTVpaWXJVZmxXRV9ZajI5X0dJY2ZVcXJ3?oc=5",
-      "published": "2024-07-23T07:00:00+00:00",
-      "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
-      }
-    },
-    {
       "id": "5a3c6e17b37a",
       "title": "Innfører legemiddel til Stills sykdom og sJIA - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmx6MTZPbFRCMGU5c0ptUVlwdEM4UHp4Wl9EV2ppb1pQa0VPdV9RVjRWQ015dlNpVHZMblM0Wldndm9WWEFVelNSbFBUa0tDRnhES3JWbng0dXVSem1jZGsyQ0l2eGRiUkF1aTNwbW5HazI1cHZyOVZwUDhUNWc2aElyUW1VdU9RZkpJQUh1TW83YzNTRW5sQVVEaUw3RnJEcUdVOUYtVnN4Rkt5M2NDc3VrNEMtOEhsOUE?oc=5",
@@ -991,6 +981,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "855a4cfebc24",
+      "title": "Kan gi trøbbel i varmen: – Flere eller nye bivirkninger - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTkVZdUxrdG85R240cG5DT3Y5TXpWUjktR1JnWDFmaUE0c2hVbUJLaEY1c1FaaGs0akhGb0ZxaGdmSkRaejUxVTdxYU1HcGxlMllVeEhzT21fTzB1bWoxenI4SXY1NEIybWg1azAxeVV1SEZ4TWk3T3ZuRGtmZHJIUjdyZXEzM1l6YThGWElGdDlYMnJON3ZNOGhwczRuV1dsZnNCTVpaWXJVZmxXRV9ZajI5X0dJY2ZVcXJ3?oc=5",
+      "published": "2024-07-23T07:00:00+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     },
     {
