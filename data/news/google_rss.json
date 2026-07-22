@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-22T06:29:57.697136+00:00",
+  "fetched_at": "2026-07-22T09:27:26.051242+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -284,6 +284,16 @@
       }
     },
     {
+      "id": "8cb62dd9ab53",
+      "title": "Slankemedisiner: Kan redusere kreftrisikoen betydelig - VG",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1GN1A4ZlhpVXM0S21EdGhZWUdhMFZRR1VseE84bXZKc0oyNnp2WVVUYV9CNmYyRktWSVcwbU9QUURfOXBNQ1hvUUIxWGNlUVZvVnNCRHc1WldiRjlsdUppUUV1SlZWVV9YNjN3UjVvUjBPZTRtVWxIUzB4OEtadw?oc=5",
+      "published": "2026-06-18T07:00:00+00:00",
+      "source": {
+        "name": "VG",
+        "url": "https://www.vg.no"
+      }
+    },
+    {
       "id": "4ec54ca0e0c5",
       "title": "Vedtar å gi alvorlig syke bedre tilgang til utprøvende medisiner. – Det gir håp - Aftenposten",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOejM2REVkalM3cl9LOXpGSF9sU1BpY080Y2pNaHFwcTIzZDhwbThEc0IxUm51TzliaEVlZWJDeXR1LTNvY3NUcEw2WGJvU3hrSUY1SkNnbHExTnNhdHJYT2dILVFEcTNzbVRqMFg3MEFsTmpsV1NGazFoLTE2eENhVTFiX1NLWDg0ckZIclZCSnBqTVowMFhvV2lzdVVGd1JFZTgtOGZmT1NGMHZzeVBzTEF6ZkRfUQ?oc=5",
@@ -314,16 +324,6 @@
       }
     },
     {
-      "id": "c4a433fa4eab",
-      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - Stortinget.no",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjQ0cWxEYW91Y2d1SDZRZU9aM1lNaXg1cTROb0hKMk1INUlOZmh2dzB1V3o0dHU4SHNZUGNGMlRTQjJSZEhmdWJXMGlyOGlqbE5Ic0JDUk8xd1Nsam9KVXVZUmhMXzk4M0w1OVpaQmhmNENRXzE1cFlRWWt5bXpJekU1YnVyNzVPQ1FlX3IyMWNKSXJ0Z3p2ZDdpYVZKWVo0SXE3T3duMDBvYlBQOHNjTm95UEJVY0kzRXZudg?oc=5",
-      "published": "2025-10-12T14:11:53+00:00",
-      "source": {
-        "name": "Stortinget.no",
-        "url": "https://www.stortinget.no"
-      }
-    },
-    {
       "id": "f73013fbd70a",
       "title": "13 av 14 legemidler fikk ja i årets første Beslutningsforum - medwatch.no",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWYWJpdFBFTFJSNldOR1V1RXpDd3pSWHM0Z0hkSlIzUkxmd2RYcWI3M0o2OTVVNnZpeXhQcndNWEliYVc0S2cxR0pTMWpmQjR6QnVuWUwwUjJWeXlEVXJLVXRvR2RQeUpkUkFkNHhXbWJFMEU?oc=5",
@@ -331,6 +331,16 @@
       "source": {
         "name": "medwatch.no",
         "url": "https://medwatch.no"
+      }
+    },
+    {
+      "id": "c4a433fa4eab",
+      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - Stortinget.no",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjQ0cWxEYW91Y2d1SDZRZU9aM1lNaXg1cTROb0hKMk1INUlOZmh2dzB1V3o0dHU4SHNZUGNGMlRTQjJSZEhmdWJXMGlyOGlqbE5Ic0JDUk8xd1Nsam9KVXVZUmhMXzk4M0w1OVpaQmhmNENRXzE1cFlRWWt5bXpJekU1YnVyNzVPQ1FlX3IyMWNKSXJ0Z3p2ZDdpYVZKWVo0SXE3T3duMDBvYlBQOHNjTm95UEJVY0kzRXZudg?oc=5",
+      "published": "2025-10-12T14:11:53+00:00",
+      "source": {
+        "name": "Stortinget.no",
+        "url": "https://www.stortinget.no"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "Teknisk Ukeblad",
         "url": "https://www.tu.no"
-      }
-    },
-    {
-      "id": "a48e1315db07",
-      "title": "Sa ja til legemiddel mot atopisk eksem - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdlpucDdoUXctazhkTGdhdUFqNl9SUEtKWHJiLWJSTGdfVzJoRHg3Z0RvZUVaYWxNdkJhRUFUME03SlFqZThEaGJEd0w5em9ncTRFcjZwc1I5bTJleU9nRkkzVXU0aVVDZDNKbkpBd0RndElfY2RhbE1TdjZBcjJwbzFBU1BhRWNjWXB4NjluNDZfay1sbmdxX2NSSWt4WkItZmdncEt5emI?oc=5",
-      "published": "2023-01-31T19:27:10+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
       }
     }
   ]
