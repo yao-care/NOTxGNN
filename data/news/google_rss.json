@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-23T08:38:13.230965+00:00",
+  "fetched_at": "2026-07-23T11:11:47.725296+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,6 +24,16 @@
       }
     },
     {
+      "id": "3fb851cccd40",
+      "title": "Legemiddelbruk i Norge - Folkehelseinstituttet - FHI",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5qQ3duRnFiNmRhOU1xcG1Vcm81QXctQzg5cV9fSlNjdjdINl9ZZDVXSlhTQ01uSHI4Q1FUQXp6LV9aNHpvLTlrSFh6UmRqSHU2elNhcm13RW9WTU8wMnNyZVZTRU5oS3Z1R29xNDdaTzZUbVJjd2FN?oc=5",
+      "published": "2026-06-16T07:00:00+00:00",
+      "source": {
+        "name": "Folkehelseinstituttet - FHI",
+        "url": "https://www.fhi.no"
+      }
+    },
+    {
       "id": "4cb59c666e4f",
       "title": "Norge i Europatoppen med å innføre viktige, nye legemidler - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWGdUS0xWenVsYmh5eG00LWtFX1NIcVYzNy11U0VEdGNidU8ya0lTSDl3amN6eUljeDlXM2xHZkdPTGNnX2Q4cHliS2xpWjdsLTFabXlVc1ZPMmszNDlxa2RjVVpEOEdkak55NmtRbnplbDlNN1RzRUtxLUxSVnRDTE0tSEFJZnJRT0FMcHlCTUNpY3JrZy1oam4yNFRBUkg1ZUstdUVSOTRUc3NVaTBMeDQyMHhSYm0wdmVtTndRRzg0YUprbHBaaFJFT1h6T3ItVm9VdA?oc=5",
@@ -44,16 +54,6 @@
       }
     },
     {
-      "id": "f3ef5eb83f11",
-      "title": "Sunnfjord, Helse Førde | Sjukepleiar mistenkt for 33 medisin-tjuveri før autorisasjonen vart dratt inn - Firda",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTF9jRlNOMWFFaVlBQlJjMndWdG5SeHJ4X2g1aUJXLXdJc2F5M1ZPT3BEQ0RXd3oyTXQ4MUZNWXFNcm9iTDd0UGlLdTBhN3MxTDNsWnFYQmtOdkdUdnFlblE0RVFfNFFDTTlMM2JaUjhkc093YkwtTU80OFZXSU8yYVNUamZtMWtrRnRRREZNQmExeUdmZVVIMG5nYXVhemRRQ0lvNGhGTm9tNHZEeXdOWnpwVQ?oc=5",
-      "published": "2026-07-07T07:00:00+00:00",
-      "source": {
-        "name": "Firda",
-        "url": "https://www.firda.no"
-      }
-    },
-    {
       "id": "055bde4d929d",
       "title": "Flere eldre kan hente medisin på apotek - Bergen kommune",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUUt4cU1YcTRnVzJsQUNJQ1BMRTJEWGl5bmdEVlYwZXpmb1pEaVA0d20yczVIR2ZyRE83MloyWDVrbGJhd0lXTU0yMmZUYjdrLW9aUW9vV2xLTXBUaXlRcFN3cXNjY0cyU1FLbldLX3FPTWJJdmVIX2FrSmE2NGp1OGphenNmVTl5UXF0WEhObC1tWElMVkF6S3BPQ1gzcml6MDBPTkcwcFRDUQ?oc=5",
@@ -61,6 +61,16 @@
       "source": {
         "name": "Bergen kommune",
         "url": "https://www.bergen.kommune.no"
+      }
+    },
+    {
+      "id": "f3ef5eb83f11",
+      "title": "Sunnfjord, Helse Førde | Sjukepleiar mistenkt for 33 medisin-tjuveri før autorisasjonen vart dratt inn - Firda",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTF9jRlNOMWFFaVlBQlJjMndWdG5SeHJ4X2g1aUJXLXdJc2F5M1ZPT3BEQ0RXd3oyTXQ4MUZNWXFNcm9iTDd0UGlLdTBhN3MxTDNsWnFYQmtOdkdUdnFlblE0RVFfNFFDTTlMM2JaUjhkc093YkwtTU80OFZXSU8yYVNUamZtMWtrRnRRREZNQmExeUdmZVVIMG5nYXVhemRRQ0lvNGhGTm9tNHZEeXdOWnpwVQ?oc=5",
+      "published": "2026-07-07T07:00:00+00:00",
+      "source": {
+        "name": "Firda",
+        "url": "https://www.firda.no"
       }
     },
     {
@@ -121,16 +131,6 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
-      }
-    },
-    {
-      "id": "e13e9a3f74de",
-      "title": "Medisintilgangen stuper i Norge: – Pasienter dør mens de venter - Finansavisen",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdDl1VkFIblNrX2tyeF9nTHJGOGFUVVlRRkJMeWF2cndwWFlSSGJ1ZXdvVVVMY1hsRFpib3BORVJHc2prYW44SDJ2LVltNXUzbFdiYzBtRzBBeW1vdENxcmFXOWcybmtuaC1OS1N3Nm1jZ2tST2s5MThvT1NxV0NhMkR1SVdpX1NvUjk2SkpuZko1QWlxQzQteVJ6YWUwbzZscFFEZEVHUnVrck95aUFPR3pFOA?oc=5",
-      "published": "2026-05-19T07:00:00+00:00",
-      "source": {
-        "name": "Finansavisen",
-        "url": "https://www.finansavisen.no"
       }
     },
     {
@@ -204,16 +204,6 @@
       }
     },
     {
-      "id": "7f820004c905",
-      "title": "Johannesurt i folkemedisinen - NHI.no",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR0k1OWpxcXdmZVNOQUFVbGhlNnZjanpSdlNzOFNoRWs1SGZRMkpTaFFOcHNPdVh1ZDIzQWs4aFUyX05rSlBsSzRVbFRIV2tfb0Joa3hMcGhrR3hDTDZOWXoyUHhXNFFYUlR1cFdYZktOVUpwRHpObTZkWFVkTmc5VTVXcEI?oc=5",
-      "published": "2025-12-12T08:00:00+00:00",
-      "source": {
-        "name": "NHI.no",
-        "url": "https://nhi.no"
-      }
-    },
-    {
       "id": "c961e5b9af68",
       "title": "Ingrid (29) fikk feil medisin av vikarlegen: – En alvorlig feil - Bergens Tidende",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPT1VWR0xnV21yX3pRSHVSYlRNX3RoNWJiSlJsaVVnOHBLSDdfWjVHYXdxSEhUbnlOLWdoSjg4N3o2QktqMjJfaHpkcHladm83ckxhTnFhYldkdWFrRS13SWtQTzNiazlZRG1VLU9FWW1KUDctWDZCUGtPS0dabXg2c2thQ0VYdw?oc=5",
@@ -221,6 +211,16 @@
       "source": {
         "name": "Bergens Tidende",
         "url": "https://www.bt.no"
+      }
+    },
+    {
+      "id": "7f820004c905",
+      "title": "Johannesurt i folkemedisinen - NHI.no",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR0k1OWpxcXdmZVNOQUFVbGhlNnZjanpSdlNzOFNoRWs1SGZRMkpTaFFOcHNPdVh1ZDIzQWs4aFUyX05rSlBsSzRVbFRIV2tfb0Joa3hMcGhrR3hDTDZOWXoyUHhXNFFYUlR1cFdYZktOVUpwRHpObTZkWFVkTmc5VTVXcEI?oc=5",
+      "published": "2025-12-12T08:00:00+00:00",
+      "source": {
+        "name": "NHI.no",
+        "url": "https://nhi.no"
       }
     },
     {
@@ -241,6 +241,16 @@
       "source": {
         "name": "medwatch.no",
         "url": "https://medwatch.no"
+      }
+    },
+    {
+      "id": "e13e9a3f74de",
+      "title": "Medisintilgangen stuper i Norge: – Pasienter dør mens de venter - Finansavisen",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdDl1VkFIblNrX2tyeF9nTHJGOGFUVVlRRkJMeWF2cndwWFlSSGJ1ZXdvVVVMY1hsRFpib3BORVJHc2prYW44SDJ2LVltNXUzbFdiYzBtRzBBeW1vdENxcmFXOWcybmtuaC1OS1N3Nm1jZ2tST2s5MThvT1NxV0NhMkR1SVdpX1NvUjk2SkpuZko1QWlxQzQteVJ6YWUwbzZscFFEZEVHUnVrck95aUFPR3pFOA?oc=5",
+      "published": "2026-05-19T07:00:00+00:00",
+      "source": {
+        "name": "Finansavisen",
+        "url": "https://www.finansavisen.no"
       }
     },
     {
@@ -344,12 +354,12 @@
       }
     },
     {
-      "id": "c4a433fa4eab",
-      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - Stortinget.no",
+      "id": "858b5d819d37",
+      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjQ0cWxEYW91Y2d1SDZRZU9aM1lNaXg1cTROb0hKMk1INUlOZmh2dzB1V3o0dHU4SHNZUGNGMlRTQjJSZEhmdWJXMGlyOGlqbE5Ic0JDUk8xd1Nsam9KVXVZUmhMXzk4M0w1OVpaQmhmNENRXzE1cFlRWWt5bXpJekU1YnVyNzVPQ1FlX3IyMWNKSXJ0Z3p2ZDdpYVZKWVo0SXE3T3duMDBvYlBQOHNjTm95UEJVY0kzRXZudg?oc=5",
       "published": "2025-10-12T14:11:53+00:00",
       "source": {
-        "name": "Stortinget.no",
+        "name": "stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
@@ -534,6 +544,16 @@
       }
     },
     {
+      "id": "a2f13b7197e5",
+      "title": "Utprøving av nytt legemiddel for erytropoietisk protoporfyri (EPP) - Helse Bergen",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeWNpeldZeG5Od3kwRnc4S0hmYjNkNTl1c25DTGNPR3luc2txMTQtc3FTOUZVRUtnNzVjR3VwWFNjOWNOWmpVdHBsaHduX0NtRGVkenNPU1FhQ0JoUW01Und1UVBBQzhWckUtaENtN0ZxTWUxMXJPU01QSWVKckJWYTBONWlhVk1HQmRkSE1VTmpTMlAxMjNKNlpqSGpZcUFCcjVHOExWOWJXZFNJbFRQRjNhRHpxMktOQXlWdExvemdUYkNuamw5Z0dnN3Jhc1hiR3NqeXhUMzJqQlk1QTV0QWtjMmJ3eUNUNUtiMFBvQjQ?oc=5",
+      "published": "2024-01-09T17:33:26+00:00",
+      "source": {
+        "name": "Helse Bergen",
+        "url": "https://www.helse-bergen.no"
+      }
+    },
+    {
       "id": "41782c087f29",
       "title": "Nyhet, Helse | Ny studie: Populær medisin kan være dødelig - Østlandets Blad",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd3luMUFMR3NtSzk5RFA0TVpEc2V1dzA0Y3AwLVFTRS1KYzE3V3hFSHJhblVvamh3UVBhX0JnNkFWbDlfNDJQQk1QTERhZFlRM0dYSkY3NDB3eFA4XzdvakFWZDMxY2tGMWhwak9UN3c5SWU5US1TMHRDdktsckt1U1pxZlE?oc=5",
@@ -624,12 +644,12 @@
       }
     },
     {
-      "id": "bb3f7fd4a136",
-      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - Stortinget.no",
+      "id": "286929c6c632",
+      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVGEwRnFBUFZPeFQ5Rnl0MjY4RV9VSFRGWmJrNDVFekdxLXZHNjBjZGVHbkYyeGJLd3FjS3Y4RWRaTlVwR01yS0ZFTzRlam9jYl9zcUJGaG5FZ2NUOWg4SEpCbmJNSEdxdWpNWUlTbXBWdUJ2TFZKWDFmRTdlQU84UWY1UGhORHVYOGowdzhfcUtPeHZTZmVaMG1VQ0V4Q2pST2xRc19sdkNfOVNJS2JCWTZybDA1Z041cGc4bw?oc=5",
       "published": "2025-03-31T03:18:30+00:00",
       "source": {
-        "name": "Stortinget.no",
+        "name": "stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
@@ -764,13 +784,13 @@
       }
     },
     {
-      "id": "1f8ee124566a",
-      "title": "Ja til nytt legemiddel mot atopisk eksem - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWEdfMmRHSWhnUnRBOU5GeURCbUowQnNYZUpKZkJRRi1aSnp1X1VrX2R2NWJ2dHMzalFXcEhGU1k5aG9DMmEwUWxfY2VMc0FUS09VUGliaHhoYWZuNmNKWGxEeUcxSkdaYXRRaXpzZFlLczlNZFFTaEhManJac2dsS1JRLXNKMXFzLWFKeGtCX21PMzFvRXZwdnNBZXZ3UGk4b05YakU1c3FDd2Z6dDl6bVEycw?oc=5",
-      "published": "2020-02-24T08:00:00+00:00",
+      "id": "6b0deb587987",
+      "title": "Jan Terje skaper medisiner med superkrefter - VG",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOW9taUdUX19Ka0Fsa0VWZFJBUEdFcDMzZzNRa0JxWTU1Y21qT1RQNGV2OVFVcXF0ZHdmYVRHUzVMZnRCVXFIZlp6d2NHMXAyT25kbGdZUkRBdzRnOHloT1FoRXBCVHdibnFHXzdubzhaODBaaGtGNUVQcG9RYW9MUVZ0VWp0V01xS0lFQ2VhdjhSc0lFQVFxUC1DTkpzQQ?oc=5",
+      "published": "2024-06-07T07:00:00+00:00",
       "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
+        "name": "VG",
+        "url": "https://www.vg.no"
       }
     },
     {
@@ -784,13 +804,13 @@
       }
     },
     {
-      "id": "6b0deb587987",
-      "title": "Jan Terje skaper medisiner med superkrefter - VG",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOW9taUdUX19Ka0Fsa0VWZFJBUEdFcDMzZzNRa0JxWTU1Y21qT1RQNGV2OVFVcXF0ZHdmYVRHUzVMZnRCVXFIZlp6d2NHMXAyT25kbGdZUkRBdzRnOHloT1FoRXBCVHdibnFHXzdubzhaODBaaGtGNUVQcG9RYW9MUVZ0VWp0V01xS0lFQ2VhdjhSc0lFQVFxUC1DTkpzQQ?oc=5",
-      "published": "2024-06-07T07:00:00+00:00",
+      "id": "1f8ee124566a",
+      "title": "Ja til nytt legemiddel mot atopisk eksem - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWEdfMmRHSWhnUnRBOU5GeURCbUowQnNYZUpKZkJRRi1aSnp1X1VrX2R2NWJ2dHMzalFXcEhGU1k5aG9DMmEwUWxfY2VMc0FUS09VUGliaHhoYWZuNmNKWGxEeUcxSkdaYXRRaXpzZFlLczlNZFFTaEhManJac2dsS1JRLXNKMXFzLWFKeGtCX21PMzFvRXZwdnNBZXZ3UGk4b05YakU1c3FDd2Z6dDl6bVEycw?oc=5",
+      "published": "2020-02-24T08:00:00+00:00",
       "source": {
-        "name": "VG",
-        "url": "https://www.vg.no"
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
@@ -854,6 +874,16 @@
       }
     },
     {
+      "id": "e689373d66f9",
+      "title": "Ny algoritme fjernar tvil om samanhengen mellom legemiddel og spontanabortar - Forskning.no",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWWdSUTJLT3c4VVNzSS1XS0JLcWNCWHlaeE81R2ZUbWlXT2Z1eGMzOW5zbHVRTjJZWmk0TEVIbVhtWUlSUFFsNW5DSExqVWhTdmlFdng0UVVUX0IyZVI2QTdxQWhlS3k1d1l1OTU5QzVBd1pmUTg1V2Q2eXE5RS04UUVFT3NaSVNQUi1JSU5BaTNCSWV0WkxNQWFXMjFJRkNETFhrMnd2VEFQZHljS21ycnV6dWYwSVk4bWpubWtaQlY2c0t0YVZISVpSOUpuUQ?oc=5",
+      "published": "2025-07-03T07:00:00+00:00",
+      "source": {
+        "name": "Forskning.no",
+        "url": "https://www.forskning.no"
+      }
+    },
+    {
       "id": "0b3bf4934607",
       "title": "legemiddel, medisin og helse | Jubler for rekordsalg av reseptfri viagra, men sexolog steiler: – En fryktelig dårlig idé - Nettavisen",
       "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNS3FsMjRQZGdOV1FHdmpNcXVseUZJMGpucWpDZzg0WGNsNDl5blhiajd4MzVLMWJVelI5X2hWckJZa0JvaU5tRHhRMTlNMnVicEp6bmt2bXhkWFBlbmNzSjNKOGJDcU03MXNBMGk5VmVFVi1JTmVaQjMyczY5X0VtLU42bFpKOHhNQktRbmtGQ3VmazNGRjc2QlNYOUxwd29peFpIeFNtWGxpeHpjMm9kN1NFVUl4Tm5POV9Ja2JtMFRTcS1KVGR5d3ZuQ2FwV0VlQnB5eXRodmJjVmxPVU0xWGFiWkVuRDhadFg3d0hn?oc=5",
@@ -894,12 +924,12 @@
       }
     },
     {
-      "id": "bfcc04b34bff",
-      "title": "Skriftlig spørsmål fra Sonja Irene Sjøli (H) til helse- og omsorgsministeren - Stortinget.no",
+      "id": "e86d8ed5ec00",
+      "title": "Skriftlig spørsmål fra Sonja Irene Sjøli (H) til helse- og omsorgsministeren - stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZVdqMWxQcF9KeHhaTElycHl5Yl91V3diZmRJLWNJUnVrN3p6dkdqcWpVcWUzX0pTOGMwY0tjZkJJeEVlcVB2OHVwM25WMHVIRFVrQ1htalRzTGF6c3NmcExEUE1keE03TGFPOFVrVllvVjNtNkZmSEFmV2gxcUFoZUl1QXF4T0VwQmlxbWZRUjNhUW9feXFGczlxWk05cktoMlVlUjlkamZYbnlNRVhWT0tOdkg3TGZwa1dB?oc=5",
       "published": "2025-03-28T02:03:15+00:00",
       "source": {
-        "name": "Stortinget.no",
+        "name": "stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
@@ -971,36 +1001,6 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
-      "id": "1914ee936a31",
-      "title": "Tester ut legemidler på levende modeller av menneskeorganer - Teknisk Ukeblad",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYnE5a29nUWNMN2lLcmlTWEdDZE1NZGl1U1d6cHpYTWdET1lZS1NwZGdqV2h5NkFiLUNQS2R0aE5ZX1NKZkxRemJUelIzRGotNmk1a2pXUWlNc0s2X2Jzd1RCYmd5UElERlpYZzZqWVhBdUVjQlB3X2Q2UnlBQ29RcDMzXzhCODZ1MzFaWElCazRfdjRRekNlYg?oc=5",
-      "published": "2020-04-20T07:00:00+00:00",
-      "source": {
-        "name": "Teknisk Ukeblad",
-        "url": "https://www.tu.no"
-      }
-    },
-    {
-      "id": "d8786ed0b7e3",
-      "title": "Anbefaler ny retning for bedre legemiddeldata - Helsedirektoratet",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYTByV25KRzhoV3FCQU5wcWNxeUZYdjd6N3lDYnJWYy1zNG9KbGkxMnNBZFAyd3U4Unc5Q3FfMzdkSldpVlB2dk9LVk04dGlNd290eHh2WG1iZzRyWjBqU2lJTUxQbmVtaS00MUhHaHFlRHFfbDJEUGNGWF9XdzJPcFN6aHRENWcwdF83Y2hKdw?oc=5",
-      "published": "2025-02-06T08:00:00+00:00",
-      "source": {
-        "name": "Helsedirektoratet",
-        "url": "https://www.helsedirektoratet.no"
-      }
-    },
-    {
-      "id": "a48e1315db07",
-      "title": "Sa ja til legemiddel mot atopisk eksem - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdlpucDdoUXctazhkTGdhdUFqNl9SUEtKWHJiLWJSTGdfVzJoRHg3Z0RvZUVaYWxNdkJhRUFUME03SlFqZThEaGJEd0w5em9ncTRFcjZwc1I5bTJleU9nRkkzVXU0aVVDZDNKbkpBd0RndElfY2RhbE1TdjZBcjJwbzFBU1BhRWNjWXB4NjluNDZfay1sbmdxX2NSSWt4WkItZmdncEt5emI?oc=5",
-      "published": "2023-01-31T19:27:10+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
       }
     }
   ]
