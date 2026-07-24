@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-24T12:19:58.337064+00:00",
+  "fetched_at": "2026-07-24T14:56:34.524393+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -334,6 +334,16 @@
       }
     },
     {
+      "id": "3f78090b4f3f",
+      "title": "Nå kan også leger løfte legemidler til blåreseptvurdering - HealthTalk",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVngzNGFMQjd6by13NExTOVUxZHFiM090QmxoMnlVdmFSQ3lVRU1ZVG9Eb2VNVGE3TjNUVXRGdHlVZ3JYN1ktYlpSbW55VkhJdjhzeXlpSUk2QnJ1c2VMU1JuZ3dNT0tjcWdQY3VBdDd6T2tFUFZHVDBRdDRKV3hCQmdnTkpwM1lKUVJ5aXVSdkRsb21BN29zX0FRbWVLLW9SaWlYN1I1RElFakE?oc=5",
+      "published": "2026-07-01T07:00:00+00:00",
+      "source": {
+        "name": "HealthTalk",
+        "url": "https://www.healthtalk.no"
+      }
+    },
+    {
       "id": "563e4602cd43",
       "title": "Medisin, Helse | Betaler i dyre dommer fra egen lomme – slankemedisin på topp ti - Sarpsborg Arbeiderblad",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPemlrREhLY0tBT2h1UFpyLXhybTNPUjBrVG5GYUUtbkE5dUQ1VlpDUi1uY2tVTE9tVXhhSFdSekFLbG5vMXhGc2MwdHpSSlZROTBjekt5aXhBZkprUF9ZdVRjeE9KQlMzcjJNSDBJUU5KVUR3azBiLWF6NkxUZENZVUczbXIzNlZVdDVpZ1B6ek5IajVSVGp6TWdR?oc=5",
@@ -398,16 +408,6 @@
       "title": "Viktige helseendringer i 2026: Hva betyr det for deg? - HealthTalk",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUjB5ZzVjN0lYc19UdUZENVF3ekFnMTJvN0JORWRNSTh2OGhFemR5cmc3TndCNzRfMjdCclg3cnd4endoY3JDUUFUUlZqaE5QbXh3SHo1STNZVldJeUI5NWtIRzRtLUZvWFJxN3RtME1mVm1IU1I0Q3JxLUZIUmlCSno1QlgwRFdHYTg5RnZEa0JwRzZOUWNFbjZhQ3M2czlENmpRMWJBMGpQbWRfMVkw?oc=5",
       "published": "2026-01-05T08:00:00+00:00",
-      "source": {
-        "name": "HealthTalk",
-        "url": "https://www.healthtalk.no"
-      }
-    },
-    {
-      "id": "3f78090b4f3f",
-      "title": "Nå kan også leger løfte legemidler til blåreseptvurdering - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVngzNGFMQjd6by13NExTOVUxZHFiM090QmxoMnlVdmFSQ3lVRU1ZVG9Eb2VNVGE3TjNUVXRGdHlVZ3JYN1ktYlpSbW55VkhJdjhzeXlpSUk2QnJ1c2VMU1JuZ3dNT0tjcWdQY3VBdDd6T2tFUFZHVDBRdDRKV3hCQmdnTkpwM1lKUVJ5aXVSdkRsb21BN29zX0FRbWVLLW9SaWlYN1I1RElFakE?oc=5",
-      "published": "2026-07-01T07:00:00+00:00",
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
