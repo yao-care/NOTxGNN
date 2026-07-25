@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: STIRIPENTOL
 drugbank_id: DB09118
 evidence_level: L5

@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: UREA
 drugbank_id: DB03904
 evidence_level: L5

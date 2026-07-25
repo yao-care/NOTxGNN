@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: SITAGLIPTIN
 drugbank_id: DB01261
 evidence_level: L5

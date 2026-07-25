@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: DAPAGLIFLOZIN
 drugbank_id: DB06292
 evidence_level: L5

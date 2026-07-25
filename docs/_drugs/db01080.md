@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: VIGABATRIN
 drugbank_id: DB01080
 evidence_level: L5

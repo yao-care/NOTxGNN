@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: DROSPIRENONE
 drugbank_id: DB01395
 evidence_level: L5

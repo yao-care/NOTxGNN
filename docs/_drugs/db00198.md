@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: OSELTAMIVIR
 drugbank_id: DB00198
 evidence_level: L5

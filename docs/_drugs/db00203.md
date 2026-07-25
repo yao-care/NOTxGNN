@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: SILDENAFIL
 drugbank_id: DB00203
 evidence_level: L5

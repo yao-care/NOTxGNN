@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: DULAGLUTIDE
 drugbank_id: DB09045
 evidence_level: L5

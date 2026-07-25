@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: ESTRADIOL
 drugbank_id: DB00783
 evidence_level: L5
