@@ -16,7 +16,7 @@
 
 <!-- YMYL 審核資訊 Meta -->
 <meta name="last-reviewed" content="2026-02-19">
-<meta name="reviewed-by" content="NOTxGNN Research Team">
+<meta name="reviewed-by" content="藥提醒科技有限公司 (yao.care)">
 
 <!-- Schema.org 結構化資料 -->
 {% if page.layout == 'default' and page.evidence_level %}
@@ -35,22 +35,13 @@
       "dateModified": "2026-02-19",
       "lastReviewed": "2026-02-19",
       "reviewedBy": {
-        "@type": "Organization",
-        "name": "NOTxGNN Research Team"
+        "@id": "https://www.yao.care/#organization"
       },
       "author": {
-        "@type": "Organization",
-        "name": "NOTxGNN Team",
-        "url": "https://notxgnn.yao.care/"
+        "@id": "https://www.yao.care/#organization"
       },
       "publisher": {
-        "@type": "Organization",
-        "name": "NOTxGNN",
-        "url": "https://notxgnn.yao.care/",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://notxgnn.yao.care/assets/images/og-default.png"
-        }
+        "@id": "https://www.yao.care/#organization"
       },
       "about": {
         "@type": "MedicalEntity",
@@ -109,7 +100,7 @@
       "url": "https://notxgnn.yao.care/",
       "description": "用 AI 預測台灣健保藥品的潛在新適應症，並提供臨床證據驗證報告",
       "publisher": {
-        "@id": "https://notxgnn.yao.care/#organization"
+        "@id": "https://www.yao.care/#organization"
       },
       "potentialAction": {
         "@type": "SearchAction",
@@ -118,23 +109,47 @@
       }
     },
     {
-      "@type": "Organization",
-      "@id": "https://notxgnn.yao.care/#organization",
-      "name": "NOTxGNN",
-      "url": "https://notxgnn.yao.care/",
-      "description": "基於哈佛 TxGNN 模型的老藥新用預測平台",
+      "@type": ["Organization", "MedicalOrganization"],
+      "@id": "https://www.yao.care/#organization",
+      "name": "yao.care",
+      "legalName": "藥提醒科技有限公司",
+      "alternateName": "藥提醒",
+      "url": "https://www.yao.care",
+      "taxID": "83620786",
+      "email": "service@yao.care",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://notxgnn.yao.care/assets/images/og-default.png"
+        "url": "https://www.yao.care/assets/images/logo.png"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "台灣大道二段220號12樓",
+        "addressLocality": "台中市西區",
+        "addressCountry": "TW"
       },
       "sameAs": [
+        "https://www.wikidata.org/wiki/Q140265007",
+        "https://github.com/yao-care",
+        "https://www.google.com/maps?cid=12025785010180313919",
+        "https://www.yao.care/medical/txgnn/"
+      ]
+    },
+    {
+      "@type": ["SoftwareApplication", "WebApplication"],
+      "@id": "https://notxgnn.yao.care/#software",
+      "name": "NOTxGNN",
+      "alternateName": "NOTxGNN - Drug Repurposing",
+      "url": "https://notxgnn.yao.care/",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "Web",
+      "isAccessibleForFree": true,
+      "publisher": { "@id": "https://www.yao.care/#organization" },
+      "author": { "@id": "https://www.yao.care/#organization" },
+      "creator": { "@id": "https://www.yao.care/#organization" },
+      "copyrightHolder": { "@id": "https://www.yao.care/#organization" },
+      "sameAs": [
+        "https://www.yao.care/medical/txgnn/",
         "https://github.com/yao-care/NOTxGNN"
-      ],
-      "knowsAbout": [
-        "Drug Repurposing",
-        "Machine Learning in Healthcare",
-        "Clinical Evidence Synthesis",
-        "Taiwan Healthcare"
       ]
     },
     {
@@ -143,10 +158,10 @@
       "headline": "老藥新用，從數據到證據",
       "description": "用 AI 預測台灣健保藥品的潛在新適應症，提供 191 個藥物的臨床試驗與文獻證據驗證報告",
       "author": {
-        "@id": "https://notxgnn.yao.care/#organization"
+        "@id": "https://www.yao.care/#organization"
       },
       "publisher": {
-        "@id": "https://notxgnn.yao.care/#organization"
+        "@id": "https://www.yao.care/#organization"
       },
       "datePublished": "2026-02-19",
       "dateModified": "2026-02-19",
@@ -184,10 +199,7 @@
       "datePublished": "2026-02-19",
       "dateModified": "2026-02-19",
       "mainEntity": {
-        "@type": "Organization",
-        "name": "NOTxGNN",
-        "url": "https://notxgnn.yao.care/",
-        "description": "基於哈佛 TxGNN 模型的老藥新用預測平台"
+        "@id": "https://www.yao.care/#organization"
       }
     },
     {
@@ -406,18 +418,10 @@
       "datePublished": "2026-02-21",
       "dateModified": "2026-02-21",
       "author": {
-        "@type": "Organization",
-        "name": "NOTxGNN",
-        "url": "https://notxgnn.yao.care/"
+        "@id": "https://www.yao.care/#organization"
       },
       "publisher": {
-        "@type": "Organization",
-        "name": "NOTxGNN",
-        "url": "https://notxgnn.yao.care/",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://notxgnn.yao.care/assets/images/og-default.png"
-        }
+        "@id": "https://www.yao.care/#organization"
       },
       "isPartOf": {
         "@id": "https://notxgnn.yao.care/news/#webpage"
@@ -480,4 +484,5 @@
 }
 </script>
 {% endif %}
+
 
