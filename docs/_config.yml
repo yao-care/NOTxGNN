@@ -1,6 +1,6 @@
-title: NOTxGNN - Drug Repurposing
+title: NOTxGNN - Legemiddelreposisjonering
 lang: "no"
-description: Norway DMP-approved Drug Repurposing predictions powered by TxGNN
+description: Prediksjoner for reposisjonering av legemidler godkjent av DMP i Norge, basert på TxGNN
 remote_theme: just-the-docs/just-the-docs
 url: https://notxgnn.yao.care
 baseurl: ""
