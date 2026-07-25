@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: VARDENAFIL
 drugbank_id: DB00862
 evidence_level: L5

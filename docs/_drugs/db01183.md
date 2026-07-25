@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: NALOXONE
 drugbank_id: DB01183
 evidence_level: L5

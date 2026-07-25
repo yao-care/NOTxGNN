@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: LINAGLIPTIN
 drugbank_id: DB08882
 evidence_level: L5

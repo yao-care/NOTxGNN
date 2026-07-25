@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: FLUTICASONE PROPIONATE
 drugbank_id: DB00588
 evidence_level: L5

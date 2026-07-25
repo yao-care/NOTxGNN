@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: SELEXIPAG
 drugbank_id: DB11362
 evidence_level: L5

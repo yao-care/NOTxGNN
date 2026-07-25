@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: MOMETASONE FUROATE
 drugbank_id: DB14512
 evidence_level: L5
