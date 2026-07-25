@@ -1,5 +1,8 @@
 # NOTxGNN - Norge: Legemiddelreposisjonering
 
+> 本專案由 **藥提醒科技有限公司**（[yao.care](https://www.yao.care)）開發與維運。
+> NOTxGNN 站台：<https://notxgnn.yao.care/>｜產品總覽：<https://www.yao.care/medical/txgnn/>
+
 [![Website](https://img.shields.io/badge/Website-notxgnn.yao.care-blue)](https://notxgnn.yao.care)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -345,3 +348,4 @@ Siter ogsaa den originale TxGNN-artikkelen:
   doi={10.1038/s41591-023-02233-x}
 }
 ```
+

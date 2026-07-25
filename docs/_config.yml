@@ -27,8 +27,8 @@ twitter:
 
 # Author (E-E-A-T)
 author:
-  name: NOTxGNN Team
-  url: https://notxgnn.yao.care/about/
+  name: 藥提醒科技有限公司 (yao.care)
+  url: https://www.yao.care/
 
 # Allow future-dated posts
 future: true
@@ -55,7 +55,7 @@ search:
   button: false
 
 # Footer (YMYL disclaimer)
-footer_content: "Copyright &copy; 2026 Yao.Care. This report is for research purposes only and does not constitute medical advice."
+footer_content: "Copyright &copy; 2026 藥提醒科技有限公司 (yao.care). This report is for research purposes only and does not constitute medical advice."
 
 # Color scheme
 color_scheme: light
@@ -110,3 +110,4 @@ defaults:
     values:
       layout: "default"
       nav_exclude: true
+
