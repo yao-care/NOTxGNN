@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-30T07:34:06.553295+00:00",
+  "fetched_at": "2026-07-30T10:25:43.245031+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -74,32 +74,32 @@
       }
     },
     {
-      "id": "19f95588e0d4",
-      "title": "Nytt håp for ALS-pasienter: Tidlig tilgang til medisiner - HealthTalk",
+      "id": "8e67775bc19f",
+      "title": "Nytt håp for ALS-pasienter: Tidlig tilgang til medisiner - healthtalk.no",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVGVhRFNTQUo3aXNydHlaOE9RX0VfM0ZXbGxnbm9HOWdWNGRPWnVacHpXZDFYRVNtb3hZNjBWdXVOQ1FfSzZSbXdIb2thMUEwYXdYdU42ektKSVo0N2h0bFJ4R2dhQ0pzNTAzcUFNMFVncWpaODE3UXNqMW9wV1Z5cHg4UWctV1VVRzRVYTJTTTE0QTRsMGtOM0JSeHVtbkROUmFpendySndzM3FvMmpnN1BNQVdLNGtpUUxmdjI1NnJjVUx2czRMc05R?oc=5",
       "published": "2026-03-03T08:00:00+00:00",
       "source": {
-        "name": "HealthTalk",
+        "name": "healthtalk.no",
         "url": "https://www.healthtalk.no"
       }
     },
     {
-      "id": "2889197de9e1",
-      "title": "Professor advarer: De fleste medisiner virker langt mindre enn du tror - Aftenposten",
+      "id": "08e9b2eb828a",
+      "title": "Professor advarer: De fleste medisiner virker langt mindre enn du tror - aftenposten.no",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYnN2bWZheThpWlFnVmNtQnN5aU95U0ZQMVZVY0ZkM2swUkgwczFxUjFHUzFMbk9RdkNBMFc4dU91RlRORnYxU01PVFBoZ2ctRERhUlRfajhrSGN0YjRraGs5S0I4OEJxRTV3Mnh2TVRHeGxBdkVLVWdzMUVJU0JfLXpiNEFpbmJ2WTB3UWFjbFdRLTVyLVkxakdOYzBSTnI5U0tuRFh3QjMtWjdxWWxlQw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "Aftenposten",
+        "name": "aftenposten.no",
         "url": "https://www.aftenposten.no"
       }
     },
     {
-      "id": "6f0839c8adf9",
-      "title": "Johannesurt i folkemedisinen - nhi.no",
+      "id": "7f820004c905",
+      "title": "Johannesurt i folkemedisinen - NHI.no",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR0k1OWpxcXdmZVNOQUFVbGhlNnZjanpSdlNzOFNoRWs1SGZRMkpTaFFOcHNPdVh1ZDIzQWs4aFUyX05rSlBsSzRVbFRIV2tfb0Joa3hMcGhrR3hDTDZOWXoyUHhXNFFYUlR1cFdYZktOVUpwRHpObTZkWFVkTmc5VTVXcEI?oc=5",
       "published": "2025-12-12T08:00:00+00:00",
       "source": {
-        "name": "nhi.no",
+        "name": "NHI.no",
         "url": "https://nhi.no"
       }
     },
@@ -164,6 +164,16 @@
       }
     },
     {
+      "id": "c5e738b51314",
+      "title": "ILB-strid utløste politisk pålegg: Nå skal ekspertgruppe utrede tidlig tilgang til legemidler - healthtalk.no",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWmxDeHNuLUtSSmY3UHF0ekpyMXNGRFZQb0pIbHMxNE1ocDdielpaT1BESzY4NFFjbjFub2hpeG9RUUwwSDZNdnpHZERzaV92QnUxcEt3T2ZueE5rekNYSk41TXcwQmdKczFkVVU4RndqNkcyT1pjbEd0R0lYN0JLOHREVE9sQ0tZb191am1oTnR4c1NkUFlYNFY5alJ5SHJ4VFFVV1dEVmZOM0pyQ2RpOEdPdnNveUw0cTlETnpPREk?oc=5",
+      "published": "2026-05-04T07:00:00+00:00",
+      "source": {
+        "name": "healthtalk.no",
+        "url": "https://www.healthtalk.no"
+      }
+    },
+    {
       "id": "67f0e2d81e0e",
       "title": "Kan Norge ha verdens beste helsetjeneste uten innovative legemidler? - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOX3B1SWFBcnhTR3BBN1VZQWZDd3RwWk1QdjV0cVJWUWlDSmZnUjl3THRPTnAtenpLVmFkNHFDU1p1TDJneTNlQ2tRdS1fTFBqMnlZby1nTXh6NThKMmhFXzRzbEdzcWVXclpqdmRUZV9VVlRkc2ZRV0xpZlBhbU1DNVFxNGhKU3YwYW9ZTjFJZmJQNkV1QUNjenYzQXplcmpmWUlCakYzMlF2dktkYWlmRHRaeWtzR2FVMFZWX19mQXBlTUppZGZ1ckEzNA?oc=5",
@@ -174,13 +184,13 @@
       }
     },
     {
-      "id": "5cb58eedeecb",
-      "title": "ILB-strid utløste politisk pålegg: Nå skal ekspertgruppe utrede tidlig tilgang til legemidler - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWmxDeHNuLUtSSmY3UHF0ekpyMXNGRFZQb0pIbHMxNE1ocDdielpaT1BESzY4NFFjbjFub2hpeG9RUUwwSDZNdnpHZERzaV92QnUxcEt3T2ZueE5rekNYSk41TXcwQmdKczFkVVU4RndqNkcyT1pjbEd0R0lYN0JLOHREVE9sQ0tZb191am1oTnR4c1NkUFlYNFY5alJ5SHJ4VFFVV1dEVmZOM0pyQ2RpOEdPdnNveUw0cTlETnpPREk?oc=5",
-      "published": "2026-05-04T07:00:00+00:00",
+      "id": "3d69c41fa5b6",
+      "title": "Stortinget ville la ALS-pasienter prøve nye medisiner – fikk nei - VG",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSmJlUWE4b2hPc2xzb0R6Q0ZXSjhSNjI5dG5qYk93TWt1b3RyTWJEaEhsSnJkOTdWYmUyaWdpRWY2UjZPZDN2YW5xOFJqQ0dtYkp0d0tkeEZzSUNjT28xT1d6eVlFYXhJa09POVcwanhFRzg5eG5IVEtiZmVMRVdmQk5HU3RVYjlPWUdESw?oc=5",
+      "published": "2026-05-11T07:00:00+00:00",
       "source": {
-        "name": "HealthTalk",
-        "url": "https://www.healthtalk.no"
+        "name": "VG",
+        "url": "https://www.vg.no"
       }
     },
     {
@@ -191,16 +201,6 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
-      "id": "3d69c41fa5b6",
-      "title": "Stortinget ville la ALS-pasienter prøve nye medisiner – fikk nei - VG",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSmJlUWE4b2hPc2xzb0R6Q0ZXSjhSNjI5dG5qYk93TWt1b3RyTWJEaEhsSnJkOTdWYmUyaWdpRWY2UjZPZDN2YW5xOFJqQ0dtYkp0d0tkeEZzSUNjT28xT1d6eVlFYXhJa09POVcwanhFRzg5eG5IVEtiZmVMRVdmQk5HU3RVYjlPWUdESw?oc=5",
-      "published": "2026-05-11T07:00:00+00:00",
-      "source": {
-        "name": "VG",
-        "url": "https://www.vg.no"
       }
     },
     {
@@ -254,12 +254,12 @@
       }
     },
     {
-      "id": "521efe098c2e",
-      "title": "Ja til verdens dyreste legemiddel: Må vare i 10 år for å lønne seg - HealthTalk",
+      "id": "d33962e25a64",
+      "title": "Ja til verdens dyreste legemiddel: Må vare i 10 år for å lønne seg - healthtalk.no",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdUU4Y2lJa2lqSU4wRGhXb3FHUk1Ba3kzZXJ6M0piNzFVRGt0TVgzM2ZXS2ZBSlJKd2ktWUgwRlNWbUlfblphbjJITHdnTnVwLVo1YUpTMjJtbk5kdWo3QlJoT2Y1ZmlaYTgxcW14Q0IzQzJwdHpCeGhFWnA0dWJnM3VRcDZxMkdCNk0tTWx6MUEtemlOdVVJOG9JNmJlYklLSkdXdUU0NUg4LVExb0RqN3dYVkkyNmw5MU9JRnpLTm5MRThLUlBQNFRrUGpSQkRicktzOVBQcXQ?oc=5",
       "published": "2026-03-18T07:00:00+00:00",
       "source": {
-        "name": "HealthTalk",
+        "name": "healthtalk.no",
         "url": "https://www.healthtalk.no"
       }
     },
@@ -284,12 +284,12 @@
       }
     },
     {
-      "id": "4dfc333e5843",
-      "title": "Helse, Medisiner | Flere medisiner fases ut: – Haster med å kontakte lege - h-a.no",
+      "id": "4358c045f263",
+      "title": "Helse, Medisiner | Flere medisiner fases ut: – Haster med å kontakte lege - Hamar Arbeiderblad",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSzFNMk8wd1lBVlhwUi1GSUJZcWM2M0VBNmpwSnVvYzlpdlBFTm94ZWJEUHZYeXhOaXpYdmhLSUVzbE5rZURqMW43bVMtUC1aNldERTBPdGdYVmU5cTRIeVBpbkpuaXZLb2FJUWZ1Ykw1NTlPaXh0OUJKYUcyWG9HMjM3cDlnQlREX2Z2SmRxUQ?oc=5",
       "published": "2026-04-29T07:00:00+00:00",
       "source": {
-        "name": "h-a.no",
+        "name": "Hamar Arbeiderblad",
         "url": "https://www.h-a.no"
       }
     },
@@ -314,12 +314,12 @@
       }
     },
     {
-      "id": "4ec54ca0e0c5",
-      "title": "Vedtar å gi alvorlig syke bedre tilgang til utprøvende medisiner. – Det gir håp - Aftenposten",
+      "id": "18a5b7f52574",
+      "title": "Vedtar å gi alvorlig syke bedre tilgang til utprøvende medisiner. – Det gir håp - aftenposten.no",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOejM2REVkalM3cl9LOXpGSF9sU1BpY080Y2pNaHFwcTIzZDhwbThEc0IxUm51TzliaEVlZWJDeXR1LTNvY3NUcEw2WGJvU3hrSUY1SkNnbHExTnNhdHJYT2dILVFEcTNzbVRqMFg3MEFsTmpsV1NGazFoLTE2eENhVTFiX1NLWDg0ckZIclZCSnBqTVowMFhvV2lzdVVGd1JFZTgtOGZmT1NGMHZzeVBzTEF6ZkRfUQ?oc=5",
       "published": "2026-03-03T08:00:00+00:00",
       "source": {
-        "name": "Aftenposten",
+        "name": "aftenposten.no",
         "url": "https://www.aftenposten.no"
       }
     },
@@ -394,12 +394,12 @@
       }
     },
     {
-      "id": "a6ad94598cf6",
-      "title": "Viktige helseendringer i 2026: Hva betyr det for deg? - HealthTalk",
+      "id": "6f802fd636f7",
+      "title": "Viktige helseendringer i 2026: Hva betyr det for deg? - healthtalk.no",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUjB5ZzVjN0lYc19UdUZENVF3ekFnMTJvN0JORWRNSTh2OGhFemR5cmc3TndCNzRfMjdCclg3cnd4endoY3JDUUFUUlZqaE5QbXh3SHo1STNZVldJeUI5NWtIRzRtLUZvWFJxN3RtME1mVm1IU1I0Q3JxLUZIUmlCSno1QlgwRFdHYTg5RnZEa0JwRzZOUWNFbjZhQ3M2czlENmpRMWJBMGpQbWRfMVkw?oc=5",
       "published": "2026-01-05T08:00:00+00:00",
       "source": {
-        "name": "HealthTalk",
+        "name": "healthtalk.no",
         "url": "https://www.healthtalk.no"
       }
     },
@@ -424,12 +424,12 @@
       }
     },
     {
-      "id": "0367691d5490",
-      "title": "Eldre i Larvik får færre medisiner - op.no",
+      "id": "77966db9a0c0",
+      "title": "Eldre i Larvik får færre medisiner - Østlands-Posten",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPakRTWk5KLWtPMWMtbjVpMl80V2Nrdm9SU3pDSnU2NjBPdHFMaGRzd29LenR6QXoyZ3dMZzNpbGk1VHRWa2xxbmFTaktjd3Q2d3NDV1N3UkE2T1NhdzI3WmNhR095SXppekhPZVZrOXNSOUtLQUswTmFfWktBektfQnBUcUxMZjZFcGxVSWQyWW9UcWxaU29DSV9LSlExSHJfVUhXeXdHNTY?oc=5",
       "published": "2026-06-20T07:00:00+00:00",
       "source": {
-        "name": "op.no",
+        "name": "Østlands-Posten",
         "url": "https://www.op.no"
       }
     },
@@ -444,13 +444,23 @@
       }
     },
     {
-      "id": "90039070dfcc",
-      "title": "Nytt legemiddel mot kreft gir Niels (78) håp: – Jeg lever fordi jeg er med i en internasjonal studie - Forskning.no",
+      "id": "b9d31d71be43",
+      "title": "Nytt legemiddel mot kreft gir Niels (78) håp: – Jeg lever fordi jeg er med i en internasjonal studie - forskning.no",
       "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOQzg4aGRZcWZBd1FwZlNhODRBcnhCZFZ3b0VSV1hrTk9yeFV4ZUlOQkJsd0pGYWlaQTZIMW1zU2lLb0lCc1lyVFhNZ1h4Y01sWTcyenNFd2k4Sm0wSzF6S0hBWlM4ZzNocjZpSFk1MjdwM0drelF0LVlXb29IX3F0aG43cGxrU1hDSm5LOW14cGlQR1pNQWVVSnhMa1F5N01mQ2JCZl9DVzJPREtUUXBuQk9qRnR2RWlwbl8yelo3WENSa256M0dtU3h0VjR3UnlXenJIbTRnVlkzVndOUmhMSjlOanMwSVd0cmRZUE1Iak5YUkFBQnZLeQ?oc=5",
       "published": "2026-06-20T07:00:00+00:00",
       "source": {
-        "name": "Forskning.no",
+        "name": "forskning.no",
         "url": "https://www.forskning.no"
+      }
+    },
+    {
+      "id": "e6d2b454fa1b",
+      "title": "(+) Vestre om toll på legemidler: – Vi tar signalene fra Trump på alvor - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNWjUyUGRqMXJVd3RMU2JUVnVWZGZoeW41akVOYTdPZ1YyRXJZZTVKOVVkc1B2dzRrYXI5YkFEWFhkcUFENU54UXRDTm9ROS1oZkZyX2hVUDNxZ25Zc1JtYUFpd1VPcXZ5dWpUM29fR0lyTVh5MERjUlc4bzR6eTFnQ2xlOThvTUY2Tk9SdGJpdDFOMFBfUkMtcVZpcjl1SXBxVXJwV25BbmcwQ01vWVJoWGNiajJTbVRiOUpyOXFjT3lEREhqcFRZbURFN3luWHNnOVM2dHdjX0RTclZxRVpHQThsLTEwbGJGY0hhTmI2NnZlSTdJNS1HM2ZjVm9ZNU0?oc=5",
+      "published": "2025-12-10T08:00:00+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -484,16 +494,6 @@
       }
     },
     {
-      "id": "e6d2b454fa1b",
-      "title": "(+) Vestre om toll på legemidler: – Vi tar signalene fra Trump på alvor - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNWjUyUGRqMXJVd3RMU2JUVnVWZGZoeW41akVOYTdPZ1YyRXJZZTVKOVVkc1B2dzRrYXI5YkFEWFhkcUFENU54UXRDTm9ROS1oZkZyX2hVUDNxZ25Zc1JtYUFpd1VPcXZ5dWpUM29fR0lyTVh5MERjUlc4bzR6eTFnQ2xlOThvTUY2Tk9SdGJpdDFOMFBfUkMtcVZpcjl1SXBxVXJwV25BbmcwQ01vWVJoWGNiajJTbVRiOUpyOXFjT3lEREhqcFRZbURFN3luWHNnOVM2dHdjX0RTclZxRVpHQThsLTEwbGJGY0hhTmI2NnZlSTdJNS1HM2ZjVm9ZNU0?oc=5",
-      "published": "2025-12-10T08:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
       "id": "326fcf327e82",
       "title": "Sjokkerende ny statistikk: – Mange er uforberedt - Nettavisen",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMm5QRzd5ZHZ3ellLYXhMeTJSUk4yNFpnLUxXeHg3REJQOFpMS1lhQzkyblBsbTNyU1dTT01TQmRsdnJ6MVRQOEY0VGlmZ0gydW9uc1JDTU92a2k5RThnb09sdE02bThWckRiS3hnUldmclBmTG1pRmUyaHZyOUwzVXkyUG5nbTVw?oc=5",
@@ -504,12 +504,12 @@
       }
     },
     {
-      "id": "76d2fb7ff6a7",
-      "title": "«Et snylteland er det ingen av oss som ønsker å være» - HealthTalk",
+      "id": "33dfdf74b753",
+      "title": "«Et snylteland er det ingen av oss som ønsker å være» - healthtalk.no",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbFJIQmpPZzMtb1R6SWVWVUwwMGFvNFR3QS1STlZvTU9NU1BHeTVDbnp3VE5BcG5EWnZpOWNlay1YR2xKUlJPUFZKWkNBVWl0Mk5nUTN0SzhDa0NOVUh5cW95X1NNR3pzamhyblVtSk5JV1RscTFodkZZZlJHbXZqeEhuX3pQb3l3RDE1LUhfcUxtLWdBRktVSU5pcmJLRmdKc3RLdFR1dlBfWi1MVTJJTElFR292d2szdDFQVU5OQlhxVG8?oc=5",
       "published": "2025-08-20T07:00:00+00:00",
       "source": {
-        "name": "HealthTalk",
+        "name": "healthtalk.no",
         "url": "https://www.healthtalk.no"
       }
     },
@@ -544,12 +544,12 @@
       }
     },
     {
-      "id": "c1f024fcca27",
-      "title": "Helse, Apotek | Kraftig endring i egenandel for medisiner - amta.no",
+      "id": "de8afc5ad78a",
+      "title": "Helse, Apotek | Kraftig endring i egenandel for medisiner - Akershus Amtstidende",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdXRlRXAxSkNUa0hrTldOQ1pMVnVRUTRRc0laOVU0WG0zZzZWb2xVQlo5Vk1mZWZvNVpXMlZra0FfTUw1aXMxOS1vOWxDUFBDWDFRM3Z2cEhFWVg4STNlTDJSSWgzaWtoUlQ5WUpvbnc0NElYaEZlWllQay1UX3RQcQ?oc=5",
       "published": "2025-12-19T08:00:00+00:00",
       "source": {
-        "name": "amta.no",
+        "name": "Akershus Amtstidende",
         "url": "https://www.amta.no"
       }
     },
@@ -584,6 +584,16 @@
       }
     },
     {
+      "id": "a2f13b7197e5",
+      "title": "Utprøving av nytt legemiddel for erytropoietisk protoporfyri (EPP) - Helse Bergen",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeWNpeldZeG5Od3kwRnc4S0hmYjNkNTl1c25DTGNPR3luc2txMTQtc3FTOUZVRUtnNzVjR3VwWFNjOWNOWmpVdHBsaHduX0NtRGVkenNPU1FhQ0JoUW01Und1UVBBQzhWckUtaENtN0ZxTWUxMXJPU01QSWVKckJWYTBONWlhVk1HQmRkSE1VTmpTMlAxMjNKNlpqSGpZcUFCcjVHOExWOWJXZFNJbFRQRjNhRHpxMktOQXlWdExvemdUYkNuamw5Z0dnN3Jhc1hiR3NqeXhUMzJqQlk1QTV0QWtjMmJ3eUNUNUtiMFBvQjQ?oc=5",
+      "published": "2024-01-09T17:33:26+00:00",
+      "source": {
+        "name": "Helse Bergen",
+        "url": "https://www.helse-bergen.no"
+      }
+    },
+    {
       "id": "9a816f56a278",
       "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - Rådet for psykisk helse",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjkwcGZUTVRwWk15Yms3VHNEOWNjaHAzank5d0xhc3VSSkViN2RBNDZGZDBXMTdIQ1ZIWGE1WC0ycjgwREpnNHFVNlRyRV9ia2VPX0lFdGhkaFQ1RDZqY2V5TzlQMXNxbXRpZGdKUGRneXFCQUVyaXRpNkFKaFFrWTJ5ZDBjeU9JSzJ0aXBQVGZyY3BxNFRONmtCdS1PVnZtRlFv?oc=5",
@@ -604,12 +614,12 @@
       }
     },
     {
-      "id": "e752c70e06b2",
-      "title": "Kvinner får feil behandling - medisinene er tilpasset menn - nhi.no",
+      "id": "d58b28348cce",
+      "title": "Kvinner får feil behandling - medisinene er tilpasset menn - NHI.no",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaHB0SkxtQ2E2eGduME9iQ3FSVlBtYkVrd0w2YUZGWmhzdkRGeE51aHJVMGg0REJoQUExQkktRkN0UnR5dUNNdGYxV0ZrYlNxSG4zaHoxU0w4d1k1bW1lYkdEaTFKVkxETzRldmhRdWJ3cWVYNWRHY1JaY2JQX2UxNUFabFN4a1JzSTlTQWUxMGlsU1pNY2FtclFPbk56S2RlUmtNSGlLMGJiV1B0ZWNsUS1LUDlUZw?oc=5",
       "published": "2020-08-30T07:00:00+00:00",
       "source": {
-        "name": "nhi.no",
+        "name": "NHI.no",
         "url": "https://nhi.no"
       }
     },
@@ -634,12 +644,12 @@
       }
     },
     {
-      "id": "cb5ce5bff34a",
-      "title": "Trening eller medisiner mot psykisk uhelse - hva fungerer best? - nhi.no",
+      "id": "cfa13e91d5d4",
+      "title": "Trening eller medisiner mot psykisk uhelse - hva fungerer best? - NHI.no",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObXlfNlQ5UjF6R2dGTzFfbTRFY3FSSFhlanpSa3hHYVkxU1hLUnFYVVpfZkJ5RmN2R21PT3o5dWZ4SzVkTnpRMkJWZFBrVWUwVmtfS3pPOGphZ1k5dnJHeUNlSnY4bk5tRWRDZDRhZHBRMmxQeEtqZEljbGZkcFJHZkhXckxkSjZMU2hGdi1xcFpLVDBjcU9aeDg3YUhwcVFlcFRfZWVTZ1l3TnM?oc=5",
       "published": "2023-03-21T07:00:00+00:00",
       "source": {
-        "name": "nhi.no",
+        "name": "NHI.no",
         "url": "https://nhi.no"
       }
     },
@@ -804,22 +814,22 @@
       }
     },
     {
-      "id": "cb37cea4aa7f",
-      "title": "Helseministeren får sterk kritikk for skjult liste over medisiner: Hundretusener kan bli berørt - Aftenposten",
+      "id": "bfa801efe533",
+      "title": "Helseministeren får sterk kritikk for skjult liste over medisiner: Hundretusener kan bli berørt - aftenposten.no",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNTZ2bzV4d2pmX051QnlaQzBteHg3TWZ1bS1zUzZrdk14NDBmckg1VnNJdThKQ3p4X3g5Nm44dHhXVFpSOWZXVVduOWdCQWVuQzI0ZWoxTU1BdzBRY1VudmlpUnNwTC1uLWdzRTFDRXFFLVl3bXZpX3NfeUNTamszVEZkYTI0c2Q1Rm9xQzFPX0tRYnZNU0M4SmZSVlp3RC1MNDQxM2RhbGpIcjY0T3VRc1lLbmo0bE82d2Z3?oc=5",
       "published": "2023-11-06T08:00:00+00:00",
       "source": {
-        "name": "Aftenposten",
+        "name": "aftenposten.no",
         "url": "https://www.aftenposten.no"
       }
     },
     {
-      "id": "8a8bf64377b3",
-      "title": "Nytt legemiddel reduserer plakk i hjernen. Det kan ha betydning som medisin mot Alzheimers sykdom - Forskning.no",
+      "id": "3ba026bc277e",
+      "title": "Nytt legemiddel reduserer plakk i hjernen. Det kan ha betydning som medisin mot Alzheimers sykdom - forskning.no",
       "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPTFhuZUpTM3Y4U1BTeDVtY2VaTFFvNVdWb0FIaEpyMFJKampjZUJHdm5IQnZ1dWdVN0lCT0czSExsQ05WeVB5eXd5clNMeEJfcWtBd2lYTWs1MFhETW9BWUFpZGU0eE1ZYmZFaDRmS0wzRXdEcXEtX2Q4S3dGY0p3Yk5FNW1RNHBYY01kUlR6MDRqMW5fZTM4MGtVdzRDWkJKem94Q3hGVk9yMDR6TG1KbGxmTXZVZ0dSRzdDRVhjSTJwdGljUVBsZ2VvODJSVUdVdnFpeF8yeHpZOWc0OS0tREQ3a1JiT2JCeXpLWTRDNzh2b1BqWDFlb214d19Mc0dlVklhNnp6OUxBOFd2TC1SS1RlMnlOa3lhZUM4dmlVYzJvZlpaZnc?oc=5",
       "published": "2023-05-17T07:00:00+00:00",
       "source": {
-        "name": "Forskning.no",
+        "name": "forskning.no",
         "url": "https://www.forskning.no"
       }
     },
@@ -844,32 +854,22 @@
       }
     },
     {
-      "id": "2d0caf7688f8",
-      "title": "Slik vil Vestre redusere ventetiden på medisiner - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVWc1QjUwTlZsQ1RtY3hTTnlkcFJZRkFKRW9PbnZ0cExhLU51bjBrREZvbkhTNVZYNnFCbkl0YTlRdm85YmZELU9fNkZjbTJQdUNtZndvbEtDb0VTR1d2R1RBTnRIUjVibmFGdHVlRHF1eFJGZ0dtbVFwUzYzZzl1Yy1yQU9zUGxkampVOXlSUllCOWVzTThWMk9obDFtV3h5VEk4?oc=5",
-      "published": "2024-07-08T07:00:00+00:00",
-      "source": {
-        "name": "HealthTalk",
-        "url": "https://www.healthtalk.no"
-      }
-    },
-    {
-      "id": "e689373d66f9",
-      "title": "Ny algoritme fjernar tvil om samanhengen mellom legemiddel og spontanabortar - Forskning.no",
+      "id": "a4c3da61c643",
+      "title": "Ny algoritme fjernar tvil om samanhengen mellom legemiddel og spontanabortar - forskning.no",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWWdSUTJLT3c4VVNzSS1XS0JLcWNCWHlaeE81R2ZUbWlXT2Z1eGMzOW5zbHVRTjJZWmk0TEVIbVhtWUlSUFFsNW5DSExqVWhTdmlFdng0UVVUX0IyZVI2QTdxQWhlS3k1d1l1OTU5QzVBd1pmUTg1V2Q2eXE5RS04UUVFT3NaSVNQUi1JSU5BaTNCSWV0WkxNQWFXMjFJRkNETFhrMnd2VEFQZHljS21ycnV6dWYwSVk4bWpubWtaQlY2c0t0YVZISVpSOUpuUQ?oc=5",
       "published": "2025-07-03T07:00:00+00:00",
       "source": {
-        "name": "Forskning.no",
+        "name": "forskning.no",
         "url": "https://www.forskning.no"
       }
     },
     {
-      "id": "020638a42465",
-      "title": "Pasientens legemiddelliste til første sykehus - nhi.no",
+      "id": "88f52d404189",
+      "title": "Pasientens legemiddelliste til første sykehus - NHI.no",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNc2xsX2wzeFJ6a2Q3QnBFdnBid0dtZFhTLWxsMGZYR2ZsV1docTRyY2ZTNFdsNTdTN01YZHFVbmZlTE9teUdfU0tsUVhGRHViOWZjU2tvX3I2MUpqR0xGci1OZmVIT011QWdvSjZqXzBZS3BORUdSVXozd3RVMVpnOW9nc2llQVVHQTAwcVJ2TFpCLXBfV09RcEFRS1djTEh6SVVZRFZVQVpoQ2wyNDRMczZUaw?oc=5",
       "published": "2022-04-06T07:00:00+00:00",
       "source": {
-        "name": "nhi.no",
+        "name": "NHI.no",
         "url": "https://nhi.no"
       }
     },
@@ -894,12 +894,12 @@
       }
     },
     {
-      "id": "137e53ec5fd9",
-      "title": "For mange feil i informasjon om legemiddel når pasientar blir skrivne ut frå sjukehus - Forskning.no",
+      "id": "619240821c21",
+      "title": "For mange feil i informasjon om legemiddel når pasientar blir skrivne ut frå sjukehus - forskning.no",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNbzdxWXZDR29KMnJPV0tPWjlpY0c1MV85SEVYbTY3d0tsYXFHOUE5RWxCUjltVkR1cGhNOWY0aXFCQkhvcTF1YjlTc0h6aWhMdGhxdGJwS2Q1eXpweGVZM0dLUWlWMnp0QlZ0TVlHcXYxRGtDSWxxbl9vNkg1dVhuaDVsaUphbXhiX1Q1SFJJc054T3dMaWdUS25yN3pub0htRWp2d0ZHU2gtVjF1WGJSazN0TS1aZDF2Uk12VWlzTncyV0VSbFhHMjFpNlRmNU04bVB0QnV3cHpQZ2M3ZzExekRVd2hzQQ?oc=5",
       "published": "2024-12-06T08:00:00+00:00",
       "source": {
-        "name": "Forskning.no",
+        "name": "forskning.no",
         "url": "https://www.forskning.no"
       }
     },
@@ -924,12 +924,12 @@
       }
     },
     {
-      "id": "9d129d3792f9",
-      "title": "Vil bli best på helse- og legemiddel-PR og ansetter Mette Nilstad fra Helse Midt-Norge - HealthTalk",
+      "id": "762fe5984fd9",
+      "title": "Vil bli best på helse- og legemiddel-PR og ansetter Mette Nilstad fra Helse Midt-Norge - healthtalk.no",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYlB3MXBTS0pIbTk5SHF4R0oyenNOdzB1Y0ZxOENwQkpuWktDT3g5MmtETU13ckkxRWd3RGlaWkR4QTVQb1F0RGFTOHc4QjZMQy1XSFI4S1UxaHZERDQ4SDBYNExMcGJBRkt2eV9JeU0wTG1YYURGWHFzeFJQWnBZX1ZFQ2ltQ05JUlRETVB5Njh0VWNnV2J0VUUzclJyVHprcmVWdHpoNnVxSE00MUdaM3lxWmhXV0J6YTBwSk9uRDRXd2tPQ3RfakJR?oc=5",
       "published": "2020-08-10T07:00:00+00:00",
       "source": {
-        "name": "HealthTalk",
+        "name": "healthtalk.no",
         "url": "https://www.healthtalk.no"
       }
     },
@@ -994,12 +994,12 @@
       }
     },
     {
-      "id": "afae27e211e5",
-      "title": "Tester ut legemidler på levende modeller av menneskeorganer - tu.no",
+      "id": "1914ee936a31",
+      "title": "Tester ut legemidler på levende modeller av menneskeorganer - Teknisk Ukeblad",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYnE5a29nUWNMN2lLcmlTWEdDZE1NZGl1U1d6cHpYTWdET1lZS1NwZGdqV2h5NkFiLUNQS2R0aE5ZX1NKZkxRemJUelIzRGotNmk1a2pXUWlNc0s2X2Jzd1RCYmd5UElERlpYZzZqWVhBdUVjQlB3X2Q2UnlBQ29RcDMzXzhCODZ1MzFaWElCazRfdjRRekNlYg?oc=5",
       "published": "2020-04-20T07:00:00+00:00",
       "source": {
-        "name": "tu.no",
+        "name": "Teknisk Ukeblad",
         "url": "https://www.tu.no"
       }
     }
