@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-07T19:54:59.686049+00:00",
+  "fetched_at": "2026-08-07T20:42:14.715772+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -334,12 +334,12 @@
       }
     },
     {
-      "id": "8157bcab1445",
-      "title": "Strammer inn bruken av vanedannende legemidler: – Ingen skal bli avhengige av medisiner - Tønsbergs Blad",
+      "id": "2fc51e1c609f",
+      "title": "Strammer inn bruken av vanedannende legemidler: – Ingen skal bli avhengige av medisiner - tb.no",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbnNoazVkTGFtSnNkclc1akRRdEhrOC1LN091YldRZGZQaW8xREl5cDRqSmNrOUtNSEJDQnVvcjhVOGt6U3BHUENEUC1OWWRhVHhjMHZYTnNUNllmRHFLS0x3MUVoeVlBakV4XzAxWFBiOHA1T1ZnMVRFUjlfYjRMWS1BeVZYMGhpVVRmN2F2MnBLYkJnRUFkTUNQUVZ4NTFWbC1aVGRONW1LYmpvXzhJUFAyWlU0SHY1?oc=5",
       "published": "2026-03-17T07:00:00+00:00",
       "source": {
-        "name": "Tønsbergs Blad",
+        "name": "tb.no",
         "url": "https://www.tb.no"
       }
     },
@@ -734,12 +734,12 @@
       }
     },
     {
-      "id": "ba894fa30c8c",
-      "title": "helse, legemiddel | Pasientene trenger EØS - Tidens Krav",
+      "id": "4408a79d8684",
+      "title": "helse, legemiddel | Pasientene trenger EØS - tk.no",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaWpEU00ySFlFNkcwRHJYT3poTS1fMmlVUURhcDV1U1JVZ3VPT3lFRUtsRkRQT3JVSURSUEJ4ZW5KcnB1eUI3dWJ5cmdlSVg3QzJ1d0hiM2tkVHNtN3pzSS1NN0Z1YkRSMlhCckhMR2JoQTlQTnFxZGxPNEpIVVBaajAxMlJYUQ?oc=5",
       "published": "2018-07-22T07:00:00+00:00",
       "source": {
-        "name": "Tidens Krav",
+        "name": "tk.no",
         "url": "https://www.tk.no"
       }
     },
@@ -984,12 +984,12 @@
       }
     },
     {
-      "id": "93d5d541f722",
-      "title": "helse, Legemiddel | Hva skjer når jeg ikke får medisinene mine? - Tønsbergs Blad",
+      "id": "b1aea2eeb882",
+      "title": "helse, Legemiddel | Hva skjer når jeg ikke får medisinene mine? - tb.no",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORGI5OTBzT3ZSX29SWEU4MlFtM3N4YkU4eE5XcTNCaUQ4ZTR6VEZCMXc3RXFqUUVNUnFlQmhFRnhtYUd4YTJNQTRzbGJxUXRzeHJVYTBkdEEyM1Jvc0xHUnhUZ1Vka094aGI0OTVhT2E1QVAwelZFY1hsSzl3enlpRQ?oc=5",
       "published": "2019-09-19T07:00:00+00:00",
       "source": {
-        "name": "Tønsbergs Blad",
+        "name": "tb.no",
         "url": "https://www.tb.no"
       }
     },
