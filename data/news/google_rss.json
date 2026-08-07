@@ -1,15 +1,25 @@
 {
-  "fetched_at": "2026-08-07T10:53:15.467197+00:00",
+  "fetched_at": "2026-08-07T11:46:45.523032+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "1238e69ab69e",
-      "title": "Apotekforeningen: – Feilen hos apotekene skal være rettet - radioh.no",
+      "id": "1b96854eeaa5",
+      "title": "Legemiddelberedskap krever tydeligere prioritering - Tidsskrift for Den norske legeforening",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSmVJN280TkVWT1ZzY1ZGbjBYVjdiYU9OLXBJT1FZQk1PTGtHSUpfWTB1RHhMSUNYTGhIcS1NUUJCREhMSXRNRWhnTGJtVVlHVXkxN1o4NWFFVzBrN2tIUDlFb2ZHd2pqQmF0bHdsZ29qRFpGT1M3X0tycFFaVG9HUVlxTEhyRmVRWHpvcmFSeEYyaDFI?oc=5",
+      "published": "2026-08-07T11:43:10+00:00",
+      "source": {
+        "name": "Tidsskrift for Den norske legeforening",
+        "url": "https://tidsskriftet.no"
+      }
+    },
+    {
+      "id": "690fde95c52e",
+      "title": "Apotekforeningen: – Feilen hos apotekene skal være rettet - Radio Haugaland",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mRHh2TzZlMDdWTDFiYVI0R3YzaEZicFFNVHZKYmZHOTcyaEVERjV2cVkwOUpCRFhreXZDSEc2NHI5NG9zOS01VVo0UmtqSV9TX2ctZlU5UGo1N1dkVVJpZ3Z1U2FnMk1vTmpBSWdrTjBFVWlQNzNqQV9MRmthcW8?oc=5",
       "published": "2026-08-07T10:29:11+00:00",
       "source": {
-        "name": "radioh.no",
+        "name": "Radio Haugaland",
         "url": "https://radioh.no"
       }
     },
@@ -54,12 +64,12 @@
       }
     },
     {
-      "id": "13b00ff6e84c",
-      "title": "Flere eldre kan hente medisin på apotek - bergen.kommune.no",
+      "id": "055bde4d929d",
+      "title": "Flere eldre kan hente medisin på apotek - Bergen kommune",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUUt4cU1YcTRnVzJsQUNJQ1BMRTJEWGl5bmdEVlYwZXpmb1pEaVA0d20yczVIR2ZyRE83MloyWDVrbGJhd0lXTU0yMmZUYjdrLW9aUW9vV2xLTXBUaXlRcFN3cXNjY0cyU1FLbldLX3FPTWJJdmVIX2FrSmE2NGp1OGphenNmVTl5UXF0WEhObC1tWElMVkF6S3BPQ1gzcml6MDBPTkcwcFRDUQ?oc=5",
       "published": "2026-01-15T08:00:00+00:00",
       "source": {
-        "name": "bergen.kommune.no",
+        "name": "Bergen kommune",
         "url": "https://www.bergen.kommune.no"
       }
     },
@@ -174,16 +184,6 @@
       }
     },
     {
-      "id": "7e45fe664385",
-      "title": "(+) Han overtar jobben med å fronte upopulære medisin-avgjørelser - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSFBtbFpOTTRNNEY0VF9LMmZma2JPNnl1emw2X1RVdjR3Y0FPWXBkRGI4clFyNkptQTlVWlBoM09QeWlpVnBVSG9Ea2w1MHZURGRsZnNyM0FleVJyWWctV3VxV25aeXJGdWhMVy1FMFJHU3VwSUlNRUEtem9WWjV1c1g4M1I5YUFyWlVaVmJSWVFDTUc0cWU2TVJqVVZzM25NUWNwUnk3aDdOU0xEdE02c3owd0ZhQ0RFaU9VR2E4UzFMd0dEbmkwanlCSEpldHladmRBYmpLdDZ3OFROY0Fn?oc=5",
-      "published": "2026-01-14T08:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
       "id": "89f8d70e06e5",
       "title": "Apotekene er en del av ferieberedskapen - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZHI5MFA1WVQyODBwWnFsT1RGN2Jwb21fZmhUUUpvbVBVS3RRMHBFY2UtbHFReUl4c3p0TDBxcDh0Sm9GTDdkQWtidDI3VlpXcmw0MndiRDREZThmSloyeDRvaE5YUUlnZmNiV2FlYkVkeG9VVUthTmFCdHgtaGkzRGFmZTdUZkM1MHh5VkItRWNPb0E1d0s4WXJ6dy1nUHlwSHlUaGR6M0M4TkNKV2tKN01TVmh0anUyRE4waQ?oc=5",
@@ -201,6 +201,16 @@
       "source": {
         "name": "VG",
         "url": "https://www.vg.no"
+      }
+    },
+    {
+      "id": "7e45fe664385",
+      "title": "(+) Han overtar jobben med å fronte upopulære medisin-avgjørelser - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSFBtbFpOTTRNNEY0VF9LMmZma2JPNnl1emw2X1RVdjR3Y0FPWXBkRGI4clFyNkptQTlVWlBoM09QeWlpVnBVSG9Ea2w1MHZURGRsZnNyM0FleVJyWWctV3VxV25aeXJGdWhMVy1FMFJHU3VwSUlNRUEtem9WWjV1c1g4M1I5YUFyWlVaVmJSWVFDTUc0cWU2TVJqVVZzM25NUWNwUnk3aDdOU0xEdE02c3owd0ZhQ0RFaU9VR2E4UzFMd0dEbmkwanlCSEpldHladmRBYmpLdDZ3OFROY0Fn?oc=5",
+      "published": "2026-01-14T08:00:00+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -354,12 +364,12 @@
       }
     },
     {
-      "id": "563e4602cd43",
-      "title": "Medisin, Helse | Betaler i dyre dommer fra egen lomme – slankemedisin på topp ti - Sarpsborg Arbeiderblad",
+      "id": "68ba1add6b85",
+      "title": "Medisin, Helse | Betaler i dyre dommer fra egen lomme – slankemedisin på topp ti - sa.no",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPemlrREhLY0tBT2h1UFpyLXhybTNPUjBrVG5GYUUtbkE5dUQ1VlpDUi1uY2tVTE9tVXhhSFdSekFLbG5vMXhGc2MwdHpSSlZROTBjekt5aXhBZkprUF9ZdVRjeE9KQlMzcjJNSDBJUU5KVUR3azBiLWF6NkxUZENZVUczbXIzNlZVdDVpZ1B6ek5IajVSVGp6TWdR?oc=5",
       "published": "2026-02-08T08:00:00+00:00",
       "source": {
-        "name": "Sarpsborg Arbeiderblad",
+        "name": "sa.no",
         "url": "https://www.sa.no"
       }
     },
@@ -504,12 +514,12 @@
       }
     },
     {
-      "id": "95bf997bac64",
-      "title": "Legemiddelmangel - Direktoratet for samfunnssikkerhet og beredskap (DSB)",
+      "id": "11193adef1cf",
+      "title": "Legemiddelmangel - dsb.no",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNekM1RWozbUNwak85M1QzcjlqQmZySkJMZVNnM3YwbzVqVWRDMVZNRlJVNF9NM3RPLThfNDdnQUJ2d2hLVFJZNHlsUTc2ZzZuVHdYWmdHamJEVFgxUHQzMlB0SlRfWTR0eWNaTmpSUXJlY2tJVmNOUHlpbGhwcjI1d0NSVDJMdnlLWVQ5Zkx4MWtrTGlNNWZqaUhMMDRVSkxXTVFOTTdFUEF1NjFHaG80OXNTZw?oc=5",
       "published": "2025-09-03T06:04:04+00:00",
       "source": {
-        "name": "Direktoratet for samfunnssikkerhet og beredskap (DSB)",
+        "name": "dsb.no",
         "url": "https://www.dsb.no"
       }
     },
@@ -524,12 +534,12 @@
       }
     },
     {
-      "id": "8e821b30acc4",
-      "title": "Nyhet, Helse | Ny studie: Populær medisin kan være dødelig - oblad.no",
+      "id": "41782c087f29",
+      "title": "Nyhet, Helse | Ny studie: Populær medisin kan være dødelig - Østlandets Blad",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd3luMUFMR3NtSzk5RFA0TVpEc2V1dzA0Y3AwLVFTRS1KYzE3V3hFSHJhblVvamh3UVBhX0JnNkFWbDlfNDJQQk1QTERhZFlRM0dYSkY3NDB3eFA4XzdvakFWZDMxY2tGMWhwak9UN3c5SWU5US1TMHRDdktsckt1U1pxZlE?oc=5",
       "published": "2025-09-02T07:00:00+00:00",
       "source": {
-        "name": "oblad.no",
+        "name": "Østlandets Blad",
         "url": "https://www.oblad.no"
       }
     },
@@ -594,12 +604,12 @@
       }
     },
     {
-      "id": "b8f5958746a6",
-      "title": "Legemiddel skaper frykt i idrettsverdenen: – Det drepte meg nesten - Rana Blad",
+      "id": "416bd2436e47",
+      "title": "Legemiddel skaper frykt i idrettsverdenen: – Det drepte meg nesten - ranablad.no",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNN2tUbFBBTjZJRzJLSkpReno1N3U3aFRMSFlZY0t0SElWVmRDcVhjLVlJNEtrYlBncUNRejI0TldJUkJycDZEZjR2aGQ0SnNocEZPZ1hNM2N1YTkyVllkX2JWV1RvbnNDd1JPeEV3ai1XbkxCejV0TGpuWnVta0JnYzBhNHBDTXpfRnllaGk1aUxXb1RfRVAySHo5SXpBekt1WnJUaw?oc=5",
       "published": "2023-11-15T08:00:00+00:00",
       "source": {
-        "name": "Rana Blad",
+        "name": "ranablad.no",
         "url": "https://www.ranablad.no"
       }
     },
@@ -654,22 +664,22 @@
       }
     },
     {
-      "id": "78163b91b37e",
-      "title": "Skjerper rutiner for å skrive ut vanedannede medisiner - Larvik kommune",
+      "id": "85e0e5832834",
+      "title": "Skjerper rutiner for å skrive ut vanedannede medisiner - larvik.kommune.no",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNGQ4WnloR3otM0VTQ2FydUZjSUxMV0pJd3ZFMVJSamo0LWROZkstU2I2OVJMTFdDMDBBRTAzV3c0VHZnem85SGJnZ21fLUVHbWFGb3VGdmF6QzRfTzhWN3NtM1NmSEtOLVVpMlNaNGNrWEhjYlFQX2p2ckNNMnRnNkhBNTVwdGZ5T3FMVW94dXduMDV5NEZoZjNRNmtMV2MwdTMzb1M4WmRNOXl4cF9Ydnd3?oc=5",
       "published": "2025-06-25T07:00:00+00:00",
       "source": {
-        "name": "Larvik kommune",
+        "name": "larvik.kommune.no",
         "url": "https://www.larvik.kommune.no"
       }
     },
     {
-      "id": "e360c918dfff",
-      "title": "Helse, Legemiddelverket | Populær medisin er blitt mangelvare - Sarpsborg Arbeiderblad",
+      "id": "fe3702b3c907",
+      "title": "Helse, Legemiddelverket | Populær medisin er blitt mangelvare - sa.no",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5vODNOTDdTVDB3aDFkQjZLQk9JQi1LVTJkX05wbHVJeTlKb2sxT3JfOE5aaHU4bzNBdFlSRXNNUDcwc0JiOS1wYVhVcUF3dmZKaURMQ2lveUJlN2Q5S3hlNUdvemR0RTJFc3BvalRYRGpKaGdRZXhF?oc=5",
       "published": "2023-10-30T07:00:00+00:00",
       "source": {
-        "name": "Sarpsborg Arbeiderblad",
+        "name": "sa.no",
         "url": "https://www.sa.no"
       }
     },
@@ -734,13 +744,13 @@
       }
     },
     {
-      "id": "ba894fa30c8c",
-      "title": "helse, legemiddel | Pasientene trenger EØS - Tidens Krav",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaWpEU00ySFlFNkcwRHJYT3poTS1fMmlVUURhcDV1U1JVZ3VPT3lFRUtsRkRQT3JVSURSUEJ4ZW5KcnB1eUI3dWJ5cmdlSVg3QzJ1d0hiM2tkVHNtN3pzSS1NN0Z1YkRSMlhCckhMR2JoQTlQTnFxZGxPNEpIVVBaajAxMlJYUQ?oc=5",
-      "published": "2018-07-22T07:00:00+00:00",
+      "id": "bb3f7fd4a136",
+      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - Stortinget.no",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVGEwRnFBUFZPeFQ5Rnl0MjY4RV9VSFRGWmJrNDVFekdxLXZHNjBjZGVHbkYyeGJLd3FjS3Y4RWRaTlVwR01yS0ZFTzRlam9jYl9zcUJGaG5FZ2NUOWg4SEpCbmJNSEdxdWpNWUlTbXBWdUJ2TFZKWDFmRTdlQU84UWY1UGhORHVYOGowdzhfcUtPeHZTZmVaMG1VQ0V4Q2pST2xRc19sdkNfOVNJS2JCWTZybDA1Z041cGc4bw?oc=5",
+      "published": "2025-03-31T03:18:30+00:00",
       "source": {
-        "name": "Tidens Krav",
-        "url": "https://www.tk.no"
+        "name": "Stortinget.no",
+        "url": "https://www.stortinget.no"
       }
     },
     {
@@ -754,13 +764,13 @@
       }
     },
     {
-      "id": "bb3f7fd4a136",
-      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - Stortinget.no",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVGEwRnFBUFZPeFQ5Rnl0MjY4RV9VSFRGWmJrNDVFekdxLXZHNjBjZGVHbkYyeGJLd3FjS3Y4RWRaTlVwR01yS0ZFTzRlam9jYl9zcUJGaG5FZ2NUOWg4SEpCbmJNSEdxdWpNWUlTbXBWdUJ2TFZKWDFmRTdlQU84UWY1UGhORHVYOGowdzhfcUtPeHZTZmVaMG1VQ0V4Q2pST2xRc19sdkNfOVNJS2JCWTZybDA1Z041cGc4bw?oc=5",
-      "published": "2025-03-31T03:18:30+00:00",
+      "id": "ba894fa30c8c",
+      "title": "helse, legemiddel | Pasientene trenger EØS - Tidens Krav",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaWpEU00ySFlFNkcwRHJYT3poTS1fMmlVUURhcDV1U1JVZ3VPT3lFRUtsRkRQT3JVSURSUEJ4ZW5KcnB1eUI3dWJ5cmdlSVg3QzJ1d0hiM2tkVHNtN3pzSS1NN0Z1YkRSMlhCckhMR2JoQTlQTnFxZGxPNEpIVVBaajAxMlJYUQ?oc=5",
+      "published": "2018-07-22T07:00:00+00:00",
       "source": {
-        "name": "Stortinget.no",
-        "url": "https://www.stortinget.no"
+        "name": "Tidens Krav",
+        "url": "https://www.tk.no"
       }
     },
     {
@@ -774,16 +784,6 @@
       }
     },
     {
-      "id": "1f8ee124566a",
-      "title": "Ja til nytt legemiddel mot atopisk eksem - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWEdfMmRHSWhnUnRBOU5GeURCbUowQnNYZUpKZkJRRi1aSnp1X1VrX2R2NWJ2dHMzalFXcEhGU1k5aG9DMmEwUWxfY2VMc0FUS09VUGliaHhoYWZuNmNKWGxEeUcxSkdaYXRRaXpzZFlLczlNZFFTaEhManJac2dsS1JRLXNKMXFzLWFKeGtCX21PMzFvRXZwdnNBZXZ3UGk4b05YakU1c3FDd2Z6dDl6bVEycw?oc=5",
-      "published": "2020-02-24T08:00:00+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
       "id": "cb37cea4aa7f",
       "title": "Helseministeren får sterk kritikk for skjult liste over medisiner: Hundretusener kan bli berørt - Aftenposten",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNTZ2bzV4d2pmX051QnlaQzBteHg3TWZ1bS1zUzZrdk14NDBmckg1VnNJdThKQ3p4X3g5Nm44dHhXVFpSOWZXVVduOWdCQWVuQzI0ZWoxTU1BdzBRY1VudmlpUnNwTC1uLWdzRTFDRXFFLVl3bXZpX3NfeUNTamszVEZkYTI0c2Q1Rm9xQzFPX0tRYnZNU0M4SmZSVlp3RC1MNDQxM2RhbGpIcjY0T3VRc1lLbmo0bE82d2Z3?oc=5",
@@ -791,6 +791,16 @@
       "source": {
         "name": "Aftenposten",
         "url": "https://www.aftenposten.no"
+      }
+    },
+    {
+      "id": "1f8ee124566a",
+      "title": "Ja til nytt legemiddel mot atopisk eksem - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWEdfMmRHSWhnUnRBOU5GeURCbUowQnNYZUpKZkJRRi1aSnp1X1VrX2R2NWJ2dHMzalFXcEhGU1k5aG9DMmEwUWxfY2VMc0FUS09VUGliaHhoYWZuNmNKWGxEeUcxSkdaYXRRaXpzZFlLczlNZFFTaEhManJac2dsS1JRLXNKMXFzLWFKeGtCX21PMzFvRXZwdnNBZXZ3UGk4b05YakU1c3FDd2Z6dDl6bVEycw?oc=5",
+      "published": "2020-02-24T08:00:00+00:00",
+      "source": {
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
@@ -914,22 +924,22 @@
       }
     },
     {
-      "id": "6a8693b43f16",
-      "title": "Høypotent legemiddel sporløst borte igjen: – Vi ser likhetstrekk - Avisa Nordland",
+      "id": "84afa8c18549",
+      "title": "Høypotent legemiddel sporløst borte igjen: – Vi ser likhetstrekk - an.no",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRGlrYUFzaVdCMkVJM0VBTzhPUEd0QXVselVXenEwZW84WXlNSnZWVmV5MkU2ZHo4QWlRc1U1S3c4eWVPeHBSelZxNFNHMF9GVFdVSWhDTmRmZV9zaWh1Ynl5OFZyLVBUbXdsVzd0Y09yeXpwdmNoaElJa1ZuUjNUWFN5dkFORFFENzBoOGNBdUo3U21fNUlsQg?oc=5",
       "published": "2024-09-05T07:00:00+00:00",
       "source": {
-        "name": "Avisa Nordland",
+        "name": "an.no",
         "url": "https://www.an.no"
       }
     },
     {
-      "id": "410677c6262b",
-      "title": "Legemiddel, Helse | Legemiddelverket: Endrer paracet-anbefaling - Avisa Nordland",
+      "id": "6812228fb6a0",
+      "title": "Legemiddel, Helse | Legemiddelverket: Endrer paracet-anbefaling - an.no",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5KOVN5d2p3T2FRUHRKZllhYTNuY291VVVHTnFtelFLMjZtQWJwOFFoOXRsZW8xb0tFNC1wVmZETzdlRTJVcy15R0g3XzVjakFqbUdiTVR6Y0wyM2F3cDBLc0JfM0J3U2R3TG1qYThQV3lPemJWelFhSmw4a2VodW8?oc=5",
       "published": "2022-08-01T07:00:00+00:00",
       "source": {
-        "name": "Avisa Nordland",
+        "name": "an.no",
         "url": "https://www.an.no"
       }
     },
@@ -991,16 +1001,6 @@
       "source": {
         "name": "Tønsbergs Blad",
         "url": "https://www.tb.no"
-      }
-    },
-    {
-      "id": "b5954a1d3d64",
-      "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVFhoTmQ2UURJZE5Ubm40NElBeHRWM2RsdEhlVHJPTG9RSGc1c0t4SUpHdk8ydFdDcjYwbkpDanVvRXhVZkZTbEFkanVuM2JRWEtHVm5lLTRUYU5UVlk0bVBlc2Z5T09jdUc3NGlaZ180RzJtYV9mZlV5dGdPT0NnemtyY1c?oc=5",
-      "published": "2015-06-15T16:26:29+00:00",
-      "source": {
-        "name": "Regjeringen.no",
-        "url": "https://www.regjeringen.no"
       }
     }
   ]
