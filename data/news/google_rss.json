@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-08T10:34:49.501269+00:00",
+  "fetched_at": "2026-08-08T11:29:52.376493+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,12 +24,12 @@
       }
     },
     {
-      "id": "6f0a29671918",
-      "title": "Nedgang i bruk av vanedannande legemiddel hos eldre - helsedirektoratet.no",
+      "id": "4f989bd3393b",
+      "title": "Nedgang i bruk av vanedannande legemiddel hos eldre - Helsedirektoratet",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUTVvZ21Kd3VQOUhyWFhjX1BMcU1fSUtQcGdocGk5X3B6bFNsLU81SzBtRkZMaDVhT0U4aXhIai1sOUpMU2tKQTJCSDB5UUdJbjVaa2hRMXg0RGxXUTdrWGVPcDJveVdiOVlRT3duV2t0NkdZejB0TlBYTjlLT1VZaERqQXBac09tRU5PMnZVVUpRTXdxdWJR?oc=5",
       "published": "2026-06-11T06:10:14+00:00",
       "source": {
-        "name": "helsedirektoratet.no",
+        "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
       }
     },
@@ -44,16 +44,6 @@
       }
     },
     {
-      "id": "690fde95c52e",
-      "title": "Apotekforeningen: – Feilen hos apotekene skal være rettet - Radio Haugaland",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mRHh2TzZlMDdWTDFiYVI0R3YzaEZicFFNVHZKYmZHOTcyaEVERjV2cVkwOUpCRFhreXZDSEc2NHI5NG9zOS01VVo0UmtqSV9TX2ctZlU5UGo1N1dkVVJpZ3Z1U2FnMk1vTmpBSWdrTjBFVWlQNzNqQV9MRmthcW8?oc=5",
-      "published": "2026-08-07T10:51:08+00:00",
-      "source": {
-        "name": "Radio Haugaland",
-        "url": "https://radioh.no"
-      }
-    },
-    {
       "id": "4cb59c666e4f",
       "title": "Norge i Europatoppen med å innføre viktige, nye legemidler - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWGdUS0xWenVsYmh5eG00LWtFX1NIcVYzNy11U0VEdGNidU8ya0lTSDl3amN6eUljeDlXM2xHZkdPTGNnX2Q4cHliS2xpWjdsLTFabXlVc1ZPMmszNDlxa2RjVVpEOEdkak55NmtRbnplbDlNN1RzRUtxLUxSVnRDTE0tSEFJZnJRT0FMcHlCTUNpY3JrZy1oam4yNFRBUkg1ZUstdUVSOTRUc3NVaTBMeDQyMHhSYm0wdmVtTndRRzg0YUprbHBaaFJFT1h6T3ItVm9VdA?oc=5",
@@ -61,6 +51,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "690fde95c52e",
+      "title": "Apotekforeningen: – Feilen hos apotekene skal være rettet - Radio Haugaland",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mRHh2TzZlMDdWTDFiYVI0R3YzaEZicFFNVHZKYmZHOTcyaEVERjV2cVkwOUpCRFhreXZDSEc2NHI5NG9zOS01VVo0UmtqSV9TX2ctZlU5UGo1N1dkVVJpZ3Z1U2FnMk1vTmpBSWdrTjBFVWlQNzNqQV9MRmthcW8?oc=5",
+      "published": "2026-08-07T10:51:08+00:00",
+      "source": {
+        "name": "Radio Haugaland",
+        "url": "https://radioh.no"
       }
     },
     {
@@ -724,12 +724,12 @@
       }
     },
     {
-      "id": "8f9b9620a722",
-      "title": "Tiltak på nasjonalt nivå - helsedirektoratet.no",
+      "id": "56d0a68f5d58",
+      "title": "Tiltak på nasjonalt nivå - Helsedirektoratet",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdFM1dFVxdmlwOHppaFJvRU4xYU1jTy1ETmxuTlo4dk13NVdBTlNnbkRIM2J6cjNLckROS2xGVUlRY0VrUm5VYXhfZExtQjVSbVo4eDlCUGM2NUFveGV4bExsOFhFODdrU0tzNGNZeFRkdXRka1pUTzRBRkdMZGNBZXRmNFRBclRoQ19JVjAtdGItUlV1WWNuVmdQUERMN3kzbWU0Q3RmM0lrV1ZvN0hMTDhvZw?oc=5",
       "published": "2019-08-16T05:02:34+00:00",
       "source": {
-        "name": "helsedirektoratet.no",
+        "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
       }
     },
@@ -794,12 +794,12 @@
       }
     },
     {
-      "id": "6747b2d3434e",
-      "title": "Helsehjelp og forebygging - helsedirektoratet.no",
+      "id": "fd3f8ebd3f42",
+      "title": "Helsehjelp og forebygging - Helsedirektoratet",
       "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNYnN6ZFJLd29qRUhBREtrNC1PTHR1X2s1Q3BNRkFCVFRrcTlhT0lleUtWZ2dKWVFvQUV0OFczejNJaXJLckh3WmFWMVRHbVdOOWxOT2N5YWo5SWcxVWtWd2laVW1fVEVacjVrWDVZSU1HYjJnbUhXZUJYV19PdVlUSlBVdkhFNFVYWTJybkJrdHJKdXN3dzdhYmFSOWZXNXk3N3FIQkwwN000YjhJMGRSRGpINFhvVDNVdlhLOEYzZG1jb2JWekdzc1kzbkZYTFJ2aWUtc2N4UUpNeGEyUDBIU2lsVVZuZHYtN1Y3Q0lpWXdvZlNoWmN2ZHFiUXdteEtGR2k5RzRqM1VMRTlSdS03MGExVVZ5MHRxdFE?oc=5",
       "published": "2025-02-01T08:00:00+00:00",
       "source": {
-        "name": "helsedirektoratet.no",
+        "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
       }
     },
