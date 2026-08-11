@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-11T14:58:47.917362+00:00",
+  "fetched_at": "2026-08-11T16:05:33.897992+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,12 +14,12 @@
       }
     },
     {
-      "id": "c39dd6ee39f8",
-      "title": "Digital portal for meir rettferdig tilgang til legemiddel - Helse Bergen",
+      "id": "584b55224435",
+      "title": "Digital portal for meir rettferdig tilgang til legemiddel - helse-bergen.no",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSVJnZkNVNlpEYmhaXzdUcTFiSi1LcGktbnJWcU9CSVFac3UyOXRmeXdsMHlMVUhTMU42Wlg5Qy11NDRiWmU5aldDaDJ1RF9xdGMzenhNSF9QaGo1MjJRU3RMR0FNRHBXOEtDdm9RaTdYNzItTW92amZMUVpuZUY4bEpLMTMyY1lsYUZxTmt1VHpiQ1JrSjg2R1ljTmZnNkVqYzF4ZGN2N3VXWkRReGV6M21lNW15Q3RmRDI1S0RlOTcxRG1XU3VIYw?oc=5",
       "published": "2026-06-01T07:00:00+00:00",
       "source": {
-        "name": "Helse Bergen",
+        "name": "helse-bergen.no",
         "url": "https://www.helse-bergen.no"
       }
     },
@@ -34,6 +34,16 @@
       }
     },
     {
+      "id": "44070eae20a9",
+      "title": "Legemiddelbruk i Norge - fhi.no",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5qQ3duRnFiNmRhOU1xcG1Vcm81QXctQzg5cV9fSlNjdjdINl9ZZDVXSlhTQ01uSHI4Q1FUQXp6LV9aNHpvLTlrSFh6UmRqSHU2elNhcm13RW9WTU8wMnNyZVZTRU5oS3Z1R29xNDdaTzZUbVJjd2FN?oc=5",
+      "published": "2026-06-16T07:00:00+00:00",
+      "source": {
+        "name": "fhi.no",
+        "url": "https://www.fhi.no"
+      }
+    },
+    {
       "id": "7696ff9c8e70",
       "title": "Helsedepartementet krever strengere forvaltning av tradisjonell medisin og legemidler, og forhindrer forfalskede varer, legemidler av lav kvalitet og ulovlig praksis. - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZi1Sa3dHMnR1Vzd6RndaUDctTzVRbkRabjU1bXNwaGc4QUNYZXk3WDlqYXJaNVVic1ZQLXY5T1RHY21KeXpDbmdBYVhDQlhFbE16dkhwdVFHX2tJc0U0NXZiMlFzWUVTZkJrOEM5OXpHd0stbXJFSXBaOGNfblZOSVM0dEdDXzVfR24xTngtWkh3WkFjcEdjdUpqazRseU9fdUZOWG1ZeTRYM0paUmVrNE5Fc1E3eFliV3FtX2UzTHBmVkVm?oc=5",
@@ -41,16 +51,6 @@
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "3fb851cccd40",
-      "title": "Legemiddelbruk i Norge - Folkehelseinstituttet - FHI",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5qQ3duRnFiNmRhOU1xcG1Vcm81QXctQzg5cV9fSlNjdjdINl9ZZDVXSlhTQ01uSHI4Q1FUQXp6LV9aNHpvLTlrSFh6UmRqSHU2elNhcm13RW9WTU8wMnNyZVZTRU5oS3Z1R29xNDdaTzZUbVJjd2FN?oc=5",
-      "published": "2026-06-16T07:00:00+00:00",
-      "source": {
-        "name": "Folkehelseinstituttet - FHI",
-        "url": "https://www.fhi.no"
       }
     },
     {
@@ -144,12 +144,12 @@
       }
     },
     {
-      "id": "8bb5be346d3d",
-      "title": "RELIS teke opp i europeisk toppnettverk - Helse Bergen",
+      "id": "7462b03c29fb",
+      "title": "RELIS teke opp i europeisk toppnettverk - helse-bergen.no",
       "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNM2I1NF9JZmJfYndVZFRyVWprb2V4aURUZm1ReXZwWktac1dBd1ltLWF0SXUwZ0wwRGJSRjU2T1lLLU1nZi1jdmFmaFljUDNjaU92REFKYlVZdzQ5THZvV2k3MWs4NE40eFF1eWNKYU1ZREJwLWZOa1hUOHZDV3dMbzRJcl9qd0NBdVViSFFnSnNYaDkwQjNuRURWVjBEdklJNWNPbVVvR3FHY3R6dnVNcFMxZE9xQ252Tk5LSFRMa2l4ck8yWjhXbGI1TVlsM0xJRkdYbGhiQmZYSkNiQ21Rc2pSenN2Mi04a1hRUktyM0EySERHdWlzTDNKMGdxbEpTdzZGaHdTbWIzdXJDZjdseHpndw?oc=5",
       "published": "2026-03-20T07:00:00+00:00",
       "source": {
-        "name": "Helse Bergen",
+        "name": "helse-bergen.no",
         "url": "https://www.helse-bergen.no"
       }
     },
@@ -214,12 +214,12 @@
       }
     },
     {
-      "id": "beaf995dea05",
-      "title": "– Mange har forstått at det er mangel og spør om vi har medisinen - Romerikes Blad",
+      "id": "44827b0b0933",
+      "title": "– Mange har forstått at det er mangel og spør om vi har medisinen - rb.no",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSDkzU1BKblNwLTZmdXZvMDlaQ1hud1NtZi0wVU96RXlQT2laSjBiek9ldUFIU1dWYmgzc1ZvUmtjTTRHZmxncWN6YUh6d09YWWRDTlFPeWtFSDRLbFd5WGhRX0pRbXRZcll1V055V09PRF96SmFjTVpjZEU3UkJINVpIOXFldFNTNkVhWV9TNzhkRzg3UnBINGtGSmE?oc=5",
       "published": "2026-06-09T07:00:00+00:00",
       "source": {
-        "name": "Romerikes Blad",
+        "name": "rb.no",
         "url": "https://www.rb.no"
       }
     },
@@ -424,16 +424,6 @@
       }
     },
     {
-      "id": "cb170d6bc91a",
-      "title": "Med mangel på medisiner mot alvorlig malaria i sør, transporterte legene medisinen fra Hanoi til Ho Chi Minh-byen over natten. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNY2E4TjJRQTMtRVB4YmN0eEhhTy1QdlhmdHowQmlhY1lGek9FUVAyZ0NueEtMQnJLNnZ3MDlKRnVDeUlHSUMxdDdtRGVTWkZ1NjB4Y1pKVi01LUdXYU8tUHFVVGJwQ2ZoYXJwd0ktQ09kQU5fRzV2NEdZRW1QcXQxMjhJUnYwU0xDTWRENWdjdGtSSDQwRGVaUnFYRGxERHhJVzhoM01LeDRpTk8yU2M5ajE3SWU?oc=5",
-      "published": "2026-08-10T16:02:13+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "90039070dfcc",
       "title": "Nytt legemiddel mot kreft gir Niels (78) håp: – Jeg lever fordi jeg er med i en internasjonal studie - Forskning.no",
       "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOQzg4aGRZcWZBd1FwZlNhODRBcnhCZFZ3b0VSV1hrTk9yeFV4ZUlOQkJsd0pGYWlaQTZIMW1zU2lLb0lCc1lyVFhNZ1h4Y01sWTcyenNFd2k4Sm0wSzF6S0hBWlM4ZzNocjZpSFk1MjdwM0drelF0LVlXb29IX3F0aG43cGxrU1hDSm5LOW14cGlQR1pNQWVVSnhMa1F5N01mQ2JCZl9DVzJPREtUUXBuQk9qRnR2RWlwbl8yelo3WENSa256M0dtU3h0VjR3UnlXenJIbTRnVlkzVndOUmhMSjlOanMwSVd0cmRZUE1Iak5YUkFBQnZLeQ?oc=5",
@@ -451,6 +441,16 @@
       "source": {
         "name": "Varingen",
         "url": "https://www.varingen.no"
+      }
+    },
+    {
+      "id": "cb170d6bc91a",
+      "title": "Med mangel på medisiner mot alvorlig malaria i sør, transporterte legene medisinen fra Hanoi til Ho Chi Minh-byen over natten. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNY2E4TjJRQTMtRVB4YmN0eEhhTy1QdlhmdHowQmlhY1lGek9FUVAyZ0NueEtMQnJLNnZ3MDlKRnVDeUlHSUMxdDdtRGVTWkZ1NjB4Y1pKVi01LUdXYU8tUHFVVGJwQ2ZoYXJwd0ktQ09kQU5fRzV2NEdZRW1QcXQxMjhJUnYwU0xDTWRENWdjdGtSSDQwRGVaUnFYRGxERHhJVzhoM01LeDRpTk8yU2M5ajE3SWU?oc=5",
+      "published": "2026-08-10T16:02:13+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -554,12 +554,12 @@
       }
     },
     {
-      "id": "a2f13b7197e5",
-      "title": "Utprøving av nytt legemiddel for erytropoietisk protoporfyri (EPP) - Helse Bergen",
+      "id": "9a7724d32d61",
+      "title": "Utprøving av nytt legemiddel for erytropoietisk protoporfyri (EPP) - helse-bergen.no",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeWNpeldZeG5Od3kwRnc4S0hmYjNkNTl1c25DTGNPR3luc2txMTQtc3FTOUZVRUtnNzVjR3VwWFNjOWNOWmpVdHBsaHduX0NtRGVkenNPU1FhQ0JoUW01Und1UVBBQzhWckUtaENtN0ZxTWUxMXJPU01QSWVKckJWYTBONWlhVk1HQmRkSE1VTmpTMlAxMjNKNlpqSGpZcUFCcjVHOExWOWJXZFNJbFRQRjNhRHpxMktOQXlWdExvemdUYkNuamw5Z0dnN3Jhc1hiR3NqeXhUMzJqQlk1QTV0QWtjMmJ3eUNUNUtiMFBvQjQ?oc=5",
       "published": "2024-01-09T17:33:26+00:00",
       "source": {
-        "name": "Helse Bergen",
+        "name": "helse-bergen.no",
         "url": "https://www.helse-bergen.no"
       }
     },
@@ -694,6 +694,16 @@
       }
     },
     {
+      "id": "6b936dc1a033",
+      "title": "Slår til lyd for åpenhet om priser og økt bruk av anbud ved legemiddel-kjøp - Anbud365",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUnBxNWZESmtDUmhjOUVYNDNSU0dXdmpCSmRUTi1RNkJNZUhGSHdFY2NzbC1FR1F2Z1NLNHM2ZzlrZElKdGVPR1RvNGJ5eVRoVkZUNS1uTjQ4emNMMjh6cGNWX0M3WXAwS3FlN2lxcG1JT3psUV9DRGl6QURSSHUxbkpBUGw1YnkzSl9IR0l2dlQwejVuUV9HM3h3OVVnWXVvYlJiY0VUMWhSaVpGM2ZweWFkSjhFZw?oc=5",
+      "published": "2025-05-05T07:00:00+00:00",
+      "source": {
+        "name": "Anbud365",
+        "url": "https://www.anbud365.no"
+      }
+    },
+    {
       "id": "e360c918dfff",
       "title": "Helse, Legemiddelverket | Populær medisin er blitt mangelvare - Sarpsborg Arbeiderblad",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5vODNOTDdTVDB3aDFkQjZLQk9JQi1LVTJkX05wbHVJeTlKb2sxT3JfOE5aaHU4bzNBdFlSRXNNUDcwc0JiOS1wYVhVcUF3dmZKaURMQ2lveUJlN2Q5S3hlNUdvemR0RTJFc3BvalRYRGpKaGdRZXhF?oc=5",
@@ -701,16 +711,6 @@
       "source": {
         "name": "Sarpsborg Arbeiderblad",
         "url": "https://www.sa.no"
-      }
-    },
-    {
-      "id": "18c3018eb721",
-      "title": "Slår til lyd for åpenhet om priser og økt bruk av anbud ved legemiddel-kjøp - anbud365.no",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUnBxNWZESmtDUmhjOUVYNDNSU0dXdmpCSmRUTi1RNkJNZUhGSHdFY2NzbC1FR1F2Z1NLNHM2ZzlrZElKdGVPR1RvNGJ5eVRoVkZUNS1uTjQ4emNMMjh6cGNWX0M3WXAwS3FlN2lxcG1JT3psUV9DRGl6QURSSHUxbkpBUGw1YnkzSl9IR0l2dlQwejVuUV9HM3h3OVVnWXVvYlJiY0VUMWhSaVpGM2ZweWFkSjhFZw?oc=5",
-      "published": "2025-05-05T07:00:00+00:00",
-      "source": {
-        "name": "anbud365.no",
-        "url": "https://www.anbud365.no"
       }
     },
     {
@@ -994,12 +994,12 @@
       }
     },
     {
-      "id": "b5954a1d3d64",
-      "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
+      "id": "49b920e204e2",
+      "title": "Meld. St. 28 (2014–2015) - regjeringen.no",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVFhoTmQ2UURJZE5Ubm40NElBeHRWM2RsdEhlVHJPTG9RSGc1c0t4SUpHdk8ydFdDcjYwbkpDanVvRXhVZkZTbEFkanVuM2JRWEtHVm5lLTRUYU5UVlk0bVBlc2Z5T09jdUc3NGlaZ180RzJtYV9mZlV5dGdPT0NnemtyY1c?oc=5",
       "published": "2015-06-15T16:26:29+00:00",
       "source": {
-        "name": "Regjeringen.no",
+        "name": "regjeringen.no",
         "url": "https://www.regjeringen.no"
       }
     }
