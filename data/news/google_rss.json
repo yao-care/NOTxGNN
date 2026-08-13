@@ -1,15 +1,15 @@
 {
-  "fetched_at": "2026-08-13T19:12:41.797074+00:00",
+  "fetched_at": "2026-08-13T20:44:59.705943+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "64af6e8e210a",
-      "title": "Helse, Medisin | Vanlig smertestillende kan gi alvorlig leverskade - karmoynytt.no",
+      "id": "76747fbfd31e",
+      "title": "Helse, Medisin | Vanlig smertestillende kan gi alvorlig leverskade - Karmøynytt",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNT3NrMGZjOGo4NnNFNE0wNkJsRjZXOEZiRmZEbUp0VmZFWEVMNHE3OHlUblBuaHFCRHNDQnFUMW9WajNBZzRqRkZZRFA0NnVxTFJCVGNhcUEzbWpkUEdEaEg5SlFXZkQ4VFl2WXc0R0Izd3FuNkkzWk11UUtQc3R5M0VrdmM3NnJFUnFFeFRzbGU2Tkhk?oc=5",
       "published": "2026-08-13T09:44:00+00:00",
       "source": {
-        "name": "karmoynytt.no",
+        "name": "Karmøynytt",
         "url": "https://www.karmoynytt.no"
       }
     },
@@ -44,12 +44,12 @@
       }
     },
     {
-      "id": "44070eae20a9",
-      "title": "Legemiddelbruk i Norge - fhi.no",
+      "id": "3fb851cccd40",
+      "title": "Legemiddelbruk i Norge - Folkehelseinstituttet - FHI",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5qQ3duRnFiNmRhOU1xcG1Vcm81QXctQzg5cV9fSlNjdjdINl9ZZDVXSlhTQ01uSHI4Q1FUQXp6LV9aNHpvLTlrSFh6UmRqSHU2elNhcm13RW9WTU8wMnNyZVZTRU5oS3Z1R29xNDdaTzZUbVJjd2FN?oc=5",
       "published": "2026-06-16T07:00:00+00:00",
       "source": {
-        "name": "fhi.no",
+        "name": "Folkehelseinstituttet - FHI",
         "url": "https://www.fhi.no"
       }
     },
@@ -144,16 +144,6 @@
       }
     },
     {
-      "id": "7f8aa23437a4",
-      "title": "Riktig medisinbruk hos eldre – hvordan får vi det til? - UiO Det medisinske fakultet",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbEdoZllLSkM0Y3BzbG1BV2JoSWhFOWg3SjYwOWJIbHN5SERXemd2dVpRWnk0VEpYOWlneW5YSllTd2tzXy1xUHBPR2wtT3hoZy01MUlvckRqRGZYMk9CM1ZWclRma1BmN3M2X3NnMm5KYXdWejV6ejlKUGw0Rzl6NUFfaGg?oc=5",
-      "published": "2026-02-25T08:00:00+00:00",
-      "source": {
-        "name": "UiO Det medisinske fakultet",
-        "url": "https://www.med.uio.no"
-      }
-    },
-    {
       "id": "bffe2ad4607c",
       "title": "Større kontroll over salg av medisinske urter og tradisjonelle medisiner på turistmål. - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPemdvajUzeVBlMlJMMVZFVkhndlNOWnNHYmxpakJ1c25DRXkxVWt3RVkwNEJBbWNOSU8wU2VvYzhiNnFVeXp4TWxXZ3h3Q05ya1BxU3hwU1N4WHpnQ2RVaWxqbXdidmJHNUVZeTZVS1p4bDFzQVFzSmVOUGhyTnlONkxzYzlvNjNPWHAwSV83MVA3bF9NLWFUTlMyZkRZWms?oc=5",
@@ -161,6 +151,16 @@
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "e247abf555d8",
+      "title": "Professor om nye medisiner: –⁠ Dårligst i Europa - VG",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYzNkUlBnNFRSZ1hicnZ3UjNjMUFncDk4NXdTdDVwTlRSUjRzdWYyVlJnODdYOF9mYmdUTVlRcC1kSFFVNHotaDNDa3B6SmZqSHNsN2lKV3Zkc0w3a0p6SE1kUW1Oc1BXLTRoRjNHeXZLU0RZWDlCQXhtOEdFMnY5NXVFQzQ?oc=5",
+      "published": "2026-05-18T07:00:00+00:00",
+      "source": {
+        "name": "VG",
+        "url": "https://www.vg.no"
       }
     },
     {
@@ -174,13 +174,13 @@
       }
     },
     {
-      "id": "e247abf555d8",
-      "title": "Professor om nye medisiner: –⁠ Dårligst i Europa - VG",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYzNkUlBnNFRSZ1hicnZ3UjNjMUFncDk4NXdTdDVwTlRSUjRzdWYyVlJnODdYOF9mYmdUTVlRcC1kSFFVNHotaDNDa3B6SmZqSHNsN2lKV3Zkc0w3a0p6SE1kUW1Oc1BXLTRoRjNHeXZLU0RZWDlCQXhtOEdFMnY5NXVFQzQ?oc=5",
-      "published": "2026-05-18T07:00:00+00:00",
+      "id": "3c7d33d8f638",
+      "title": "Sosiale forskjeller i fedme og bruk av vektreduserende legemidler - Folkehelseinstituttet - FHI",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNkU2bktLeTBNMVRfYllDMHlhQzBJZXAxS0loS2hIenVrZmUxbkJ4NzdkY2h6cTRCT2tCZ1hDY1J1dkNEN1hlbWQzaGQzQ2JVNWc4NHprWUpUaFVvdnNlazhXeDNkazZsVE9sOTJKUFlPVS01MUgxbVZodTRQN2VEWTl2VC1kZlRKMWlhY2c3bw?oc=5",
+      "published": "2026-06-25T07:00:00+00:00",
       "source": {
-        "name": "VG",
-        "url": "https://www.vg.no"
+        "name": "Folkehelseinstituttet - FHI",
+        "url": "https://www.fhi.no"
       }
     },
     {
@@ -201,6 +201,16 @@
       "source": {
         "name": "VG",
         "url": "https://www.vg.no"
+      }
+    },
+    {
+      "id": "7f8aa23437a4",
+      "title": "Riktig medisinbruk hos eldre – hvordan får vi det til? - UiO Det medisinske fakultet",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbEdoZllLSkM0Y3BzbG1BV2JoSWhFOWg3SjYwOWJIbHN5SERXemd2dVpRWnk0VEpYOWlneW5YSllTd2tzXy1xUHBPR2wtT3hoZy01MUlvckRqRGZYMk9CM1ZWclRma1BmN3M2X3NnMm5KYXdWejV6ejlKUGw0Rzl6NUFfaGg?oc=5",
+      "published": "2026-02-25T08:00:00+00:00",
+      "source": {
+        "name": "UiO Det medisinske fakultet",
+        "url": "https://www.med.uio.no"
       }
     },
     {
@@ -394,12 +404,12 @@
       }
     },
     {
-      "id": "77966db9a0c0",
-      "title": "Eldre i Larvik får færre medisiner - Østlands-Posten",
+      "id": "0367691d5490",
+      "title": "Eldre i Larvik får færre medisiner - op.no",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPakRTWk5KLWtPMWMtbjVpMl80V2Nrdm9SU3pDSnU2NjBPdHFMaGRzd29LenR6QXoyZ3dMZzNpbGk1VHRWa2xxbmFTaktjd3Q2d3NDV1N3UkE2T1NhdzI3WmNhR095SXppekhPZVZrOXNSOUtLQUswTmFfWktBektfQnBUcUxMZjZFcGxVSWQyWW9UcWxaU29DSV9LSlExSHJfVUhXeXdHNTY?oc=5",
       "published": "2026-06-20T07:00:00+00:00",
       "source": {
-        "name": "Østlands-Posten",
+        "name": "op.no",
         "url": "https://www.op.no"
       }
     },
@@ -534,6 +544,16 @@
       }
     },
     {
+      "id": "d900fd3d71ff",
+      "title": "Slankemedisin kan også hjelpe mot migrene - NHI.no",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQalpiNnRPOGJVaGpJVWszeHVoWFFEbkR4UDNlcFpNUzdJQXNoaXlEWGY4a3k3Uk1aSUxONmNqaXRaM0hHbHVvYTBSZ3g1NnJiTk9tMDFLNmhZc3U5dUtTQWtjbkRrYzB6WURaS2lDUjBsZnBJdGZRVV81eFhaOEU2cXVEeXU?oc=5",
+      "published": "2025-10-07T07:00:00+00:00",
+      "source": {
+        "name": "NHI.no",
+        "url": "https://nhi.no"
+      }
+    },
+    {
       "id": "76d2fb7ff6a7",
       "title": "«Et snylteland er det ingen av oss som ønsker å være» - HealthTalk",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbFJIQmpPZzMtb1R6SWVWVUwwMGFvNFR3QS1STlZvTU9NU1BHeTVDbnp3VE5BcG5EWnZpOWNlay1YR2xKUlJPUFZKWkNBVWl0Mk5nUTN0SzhDa0NOVUh5cW95X1NNR3pzamhyblVtSk5JV1RscTFodkZZZlJHbXZqeEhuX3pQb3l3RDE1LUhfcUxtLWdBRktVSU5pcmJLRmdKc3RLdFR1dlBfWi1MVTJJTElFR292d2szdDFQVU5OQlhxVG8?oc=5",
@@ -604,6 +624,16 @@
       }
     },
     {
+      "id": "057752fb1151",
+      "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - psykiskhelse.no",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjkwcGZUTVRwWk15Yms3VHNEOWNjaHAzank5d0xhc3VSSkViN2RBNDZGZDBXMTdIQ1ZIWGE1WC0ycjgwREpnNHFVNlRyRV9ia2VPX0lFdGhkaFQ1RDZqY2V5TzlQMXNxbXRpZGdKUGRneXFCQUVyaXRpNkFKaFFrWTJ5ZDBjeU9JSzJ0aXBQVGZyY3BxNFRONmtCdS1PVnZtRlFv?oc=5",
+      "published": "2023-10-10T07:00:00+00:00",
+      "source": {
+        "name": "psykiskhelse.no",
+        "url": "https://psykiskhelse.no"
+      }
+    },
+    {
       "id": "d58b28348cce",
       "title": "Kvinner får feil behandling - medisinene er tilpasset menn - NHI.no",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaHB0SkxtQ2E2eGduME9iQ3FSVlBtYkVrd0w2YUZGWmhzdkRGeE51aHJVMGg0REJoQUExQkktRkN0UnR5dUNNdGYxV0ZrYlNxSG4zaHoxU0w4d1k1bW1lYkdEaTFKVkxETzRldmhRdWJ3cWVYNWRHY1JaY2JQX2UxNUFabFN4a1JzSTlTQWUxMGlsU1pNY2FtclFPbk56S2RlUmtNSGlLMGJiV1B0ZWNsUS1LUDlUZw?oc=5",
@@ -611,16 +641,6 @@
       "source": {
         "name": "NHI.no",
         "url": "https://nhi.no"
-      }
-    },
-    {
-      "id": "9a816f56a278",
-      "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - Rådet for psykisk helse",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjkwcGZUTVRwWk15Yms3VHNEOWNjaHAzank5d0xhc3VSSkViN2RBNDZGZDBXMTdIQ1ZIWGE1WC0ycjgwREpnNHFVNlRyRV9ia2VPX0lFdGhkaFQ1RDZqY2V5TzlQMXNxbXRpZGdKUGRneXFCQUVyaXRpNkFKaFFrWTJ5ZDBjeU9JSzJ0aXBQVGZyY3BxNFRONmtCdS1PVnZtRlFv?oc=5",
-      "published": "2023-10-10T07:00:00+00:00",
-      "source": {
-        "name": "Rådet for psykisk helse",
-        "url": "https://psykiskhelse.no"
       }
     },
     {
@@ -974,33 +994,13 @@
       }
     },
     {
-      "id": "3784ec703882",
-      "title": "Nå er apotekene tomme for denne medisinen - ostlendingen.no",
+      "id": "61743f076712",
+      "title": "Nå er apotekene tomme for denne medisinen - Østlendingen",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNU3BhLUZ1MHFqUWJ3WkJ4MGpiY2M3X3UtaVAyOC0ybkUxRERxelpNbTd5dFRJVUFNdEEwYXRpLUVuYVluSzNTNUJnTkxWRFNma2pHSGZCM3I3Znlub1ZuZXBjMURWc0tBV3c2RTlqVkcydExLUk1MVkdsYzdYNngxd1FnSHhMVlo0VUpiag?oc=5",
       "published": "2023-03-29T07:00:00+00:00",
       "source": {
-        "name": "ostlendingen.no",
+        "name": "Østlendingen",
         "url": "https://www.ostlendingen.no"
-      }
-    },
-    {
-      "id": "855a4cfebc24",
-      "title": "Kan gi trøbbel i varmen: – Flere eller nye bivirkninger - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTkVZdUxrdG85R240cG5DT3Y5TXpWUjktR1JnWDFmaUE0c2hVbUJLaEY1c1FaaGs0akhGb0ZxaGdmSkRaejUxVTdxYU1HcGxlMllVeEhzT21fTzB1bWoxenI4SXY1NEIybWg1azAxeVV1SEZ4TWk3T3ZuRGtmZHJIUjdyZXEzM1l6YThGWElGdDlYMnJON3ZNOGhwczRuV1dsZnNCTVpaWXJVZmxXRV9ZajI5X0dJY2ZVcXJ3?oc=5",
-      "published": "2024-07-23T07:00:00+00:00",
-      "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
-      }
-    },
-    {
-      "id": "5e5f1e557e5a",
-      "title": "Klimahensyn bør inkluderes i bytteordningen for legemidler - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYzR0THNpa2NPQm9GdmNpSGtEVTdTOFFFNk1Bd05wSmhfandGdndxMEJ6U182ZHpyR2lHV2dFbjFYSjhKTERUQ0lKVEVad2loNGFSNWxaZXRJTWhvUW01cnVtUm9PWkxkSmZ4OGo5bDZKTnB4dUZ4RGNMZ0VWcHVvRnpFalRhWlppTFp1LV9vcFdVeE5MaVZPb2xvQ2xJaE85Y2h6MTZoaFpFazNHVFlnM2l0ZVN5ZFc0cEhNUTQ0ckpXVUoz?oc=5",
-      "published": "2025-03-03T08:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
       }
     }
   ]
