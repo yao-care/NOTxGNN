@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-12T23:42:20.200400+00:00",
+  "fetched_at": "2026-08-13T02:06:11.672314+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -204,22 +204,12 @@
       }
     },
     {
-      "id": "beaf995dea05",
-      "title": "– Mange har forstått at det er mangel og spør om vi har medisinen - Romerikes Blad",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSDkzU1BKblNwLTZmdXZvMDlaQ1hud1NtZi0wVU96RXlQT2laSjBiek9ldUFIU1dWYmgzc1ZvUmtjTTRHZmxncWN6YUh6d09YWWRDTlFPeWtFSDRLbFd5WGhRX0pRbXRZcll1V055V09PRF96SmFjTVpjZEU3UkJINVpIOXFldFNTNkVhWV9TNzhkRzg3UnBINGtGSmE?oc=5",
-      "published": "2026-06-09T07:00:00+00:00",
-      "source": {
-        "name": "Romerikes Blad",
-        "url": "https://www.rb.no"
-      }
-    },
-    {
-      "id": "141ac24a9bcc",
-      "title": "Svensk studie går viralt: - Bør være varsom - sol.no",
+      "id": "eb783f97c3c2",
+      "title": "Svensk studie går viralt: - Bør være varsom - Sol",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBxWnVrakVHalBQd3RxQmxfVm8yaVhfcHRNQ1ljMU41ME9kSHRlMGVSdU5PanFnWnZ6dXR2SHhoN29SbVVPNzFabUs4VWpGWXdmY2pMRDY2VWlkWTZ6M1ZhazJZc3lXUmpMNUdIUHNlMVdTTThZM1pReDA5Tm5JUQ?oc=5",
       "published": "2026-03-29T07:00:00+00:00",
       "source": {
-        "name": "sol.no",
+        "name": "Sol",
         "url": "https://sol.no"
       }
     },
@@ -241,6 +231,16 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
+      "id": "beaf995dea05",
+      "title": "– Mange har forstått at det er mangel og spør om vi har medisinen - Romerikes Blad",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSDkzU1BKblNwLTZmdXZvMDlaQ1hud1NtZi0wVU96RXlQT2laSjBiek9ldUFIU1dWYmgzc1ZvUmtjTTRHZmxncWN6YUh6d09YWWRDTlFPeWtFSDRLbFd5WGhRX0pRbXRZcll1V055V09PRF96SmFjTVpjZEU3UkJINVpIOXFldFNTNkVhWV9TNzhkRzg3UnBINGtGSmE?oc=5",
+      "published": "2026-06-09T07:00:00+00:00",
+      "source": {
+        "name": "Romerikes Blad",
+        "url": "https://www.rb.no"
       }
     },
     {
@@ -334,12 +334,12 @@
       }
     },
     {
-      "id": "2fc51e1c609f",
-      "title": "Strammer inn bruken av vanedannende legemidler: – Ingen skal bli avhengige av medisiner - tb.no",
+      "id": "8157bcab1445",
+      "title": "Strammer inn bruken av vanedannende legemidler: – Ingen skal bli avhengige av medisiner - Tønsbergs Blad",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbnNoazVkTGFtSnNkclc1akRRdEhrOC1LN091YldRZGZQaW8xREl5cDRqSmNrOUtNSEJDQnVvcjhVOGt6U3BHUENEUC1OWWRhVHhjMHZYTnNUNllmRHFLS0x3MUVoeVlBakV4XzAxWFBiOHA1T1ZnMVRFUjlfYjRMWS1BeVZYMGhpVVRmN2F2MnBLYkJnRUFkTUNQUVZ4NTFWbC1aVGRONW1LYmpvXzhJUFAyWlU0SHY1?oc=5",
       "published": "2026-03-17T07:00:00+00:00",
       "source": {
-        "name": "tb.no",
+        "name": "Tønsbergs Blad",
         "url": "https://www.tb.no"
       }
     },
@@ -364,16 +364,6 @@
       }
     },
     {
-      "id": "012123076749",
-      "title": "Helse, Horten | Ansatt i Horten kommune stjal medisiner – pasienter fikk falske tabletter - Gjengangeren",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWDl5LU1meHNwdl8yampEczg2NTZvZWUyMnZWODlYVFJtY1RPcEVQa0JJcnFheUZ3Z3h5RDJqY2Q1bXkzY3FlZV9hc0syTWhaQ2NkRkJhcmp5QXhKX09BaGEwdktXZDkzQlROVC02V1FqWGhCbElYb1pIaUpsX1A0cGpjODRqZ1R0T1d3YnRzQkE1azlZVFJ3TjBycTNkZmxPWVlWT05RQUEtRjUyVG9kYVlLOEw?oc=5",
-      "published": "2026-03-23T07:00:00+00:00",
-      "source": {
-        "name": "Gjengangeren",
-        "url": "https://www.gjengangeren.no"
-      }
-    },
-    {
       "id": "4b273316c354",
       "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - Stortinget",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjQ0cWxEYW91Y2d1SDZRZU9aM1lNaXg1cTROb0hKMk1INUlOZmh2dzB1V3o0dHU4SHNZUGNGMlRTQjJSZEhmdWJXMGlyOGlqbE5Ic0JDUk8xd1Nsam9KVXVZUmhMXzk4M0w1OVpaQmhmNENRXzE1cFlRWWt5bXpJekU1YnVyNzVPQ1FlX3IyMWNKSXJ0Z3p2ZDdpYVZKWVo0SXE3T3duMDBvYlBQOHNjTm95UEJVY0kzRXZudg?oc=5",
@@ -394,12 +384,22 @@
       }
     },
     {
-      "id": "563e4602cd43",
-      "title": "Medisin, Helse | Betaler i dyre dommer fra egen lomme – slankemedisin på topp ti - Sarpsborg Arbeiderblad",
+      "id": "012123076749",
+      "title": "Helse, Horten | Ansatt i Horten kommune stjal medisiner – pasienter fikk falske tabletter - Gjengangeren",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWDl5LU1meHNwdl8yampEczg2NTZvZWUyMnZWODlYVFJtY1RPcEVQa0JJcnFheUZ3Z3h5RDJqY2Q1bXkzY3FlZV9hc0syTWhaQ2NkRkJhcmp5QXhKX09BaGEwdktXZDkzQlROVC02V1FqWGhCbElYb1pIaUpsX1A0cGpjODRqZ1R0T1d3YnRzQkE1azlZVFJ3TjBycTNkZmxPWVlWT05RQUEtRjUyVG9kYVlLOEw?oc=5",
+      "published": "2026-03-23T07:00:00+00:00",
+      "source": {
+        "name": "Gjengangeren",
+        "url": "https://www.gjengangeren.no"
+      }
+    },
+    {
+      "id": "68ba1add6b85",
+      "title": "Medisin, Helse | Betaler i dyre dommer fra egen lomme – slankemedisin på topp ti - sa.no",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPemlrREhLY0tBT2h1UFpyLXhybTNPUjBrVG5GYUUtbkE5dUQ1VlpDUi1uY2tVTE9tVXhhSFdSekFLbG5vMXhGc2MwdHpSSlZROTBjekt5aXhBZkprUF9ZdVRjeE9KQlMzcjJNSDBJUU5KVUR3azBiLWF6NkxUZENZVUczbXIzNlZVdDVpZ1B6ek5IajVSVGp6TWdR?oc=5",
       "published": "2026-02-08T08:00:00+00:00",
       "source": {
-        "name": "Sarpsborg Arbeiderblad",
+        "name": "sa.no",
         "url": "https://www.sa.no"
       }
     },
@@ -454,12 +454,12 @@
       }
     },
     {
-      "id": "78fd98393f29",
-      "title": "I disse fylkene brukte de mest legemidler i 2025 - ABC Nyheter",
+      "id": "cb5d8ce97076",
+      "title": "I disse fylkene brukte de mest legemidler i 2025 - abcnyheter.no",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVUJubnd5NmJMdHhkbU5TQ3hfZTF5eFZHUWFDVVVybkktRzVnRnd0dUQxajEwc0J0T2RQcWIyNVNickFabkhyR3pnSHJ0U0NxZ0FSZWpNdUJ4eG5hVHZ4VzhwdDRYbXBMRXR4eEFucWJzNlBkOE4tLVB4ZHZyQXBFWXdRVmE4NWJyZi1QUGNZRmhDLWIz?oc=5",
       "published": "2026-03-06T08:00:00+00:00",
       "source": {
-        "name": "ABC Nyheter",
+        "name": "abcnyheter.no",
         "url": "https://www.abcnyheter.no"
       }
     },
@@ -514,6 +514,16 @@
       }
     },
     {
+      "id": "d74ff911484d",
+      "title": "Ny studie: Populær medisin kan være dødelig - Telemarksavisa",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcFoyMHZ6X2JFZHlQbk9CcHR2Qkd0TEtLYlNWdDl1NFB5UkhHbEQzQWRkU1kwZEJ1SWJhdTh0Tms2b1oxOWlENHdZdUlUSWNjM2FzRFFxdzQyUU1ZQ01jeFhjcGZHYlVMWlhXX2JTZklWUzg3cjFyT3BsMU1MZ2F2QQ?oc=5",
+      "published": "2025-09-01T07:00:00+00:00",
+      "source": {
+        "name": "Telemarksavisa",
+        "url": "https://www.ta.no"
+      }
+    },
+    {
       "id": "76d2fb7ff6a7",
       "title": "«Et snylteland er det ingen av oss som ønsker å være» - HealthTalk",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbFJIQmpPZzMtb1R6SWVWVUwwMGFvNFR3QS1STlZvTU9NU1BHeTVDbnp3VE5BcG5EWnZpOWNlay1YR2xKUlJPUFZKWkNBVWl0Mk5nUTN0SzhDa0NOVUh5cW95X1NNR3pzamhyblVtSk5JV1RscTFodkZZZlJHbXZqeEhuX3pQb3l3RDE1LUhfcUxtLWdBRktVSU5pcmJLRmdKc3RLdFR1dlBfWi1MVTJJTElFR292d2szdDFQVU5OQlhxVG8?oc=5",
@@ -534,22 +544,12 @@
       }
     },
     {
-      "id": "d74ff911484d",
-      "title": "Ny studie: Populær medisin kan være dødelig - Telemarksavisa",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcFoyMHZ6X2JFZHlQbk9CcHR2Qkd0TEtLYlNWdDl1NFB5UkhHbEQzQWRkU1kwZEJ1SWJhdTh0Tms2b1oxOWlENHdZdUlUSWNjM2FzRFFxdzQyUU1ZQ01jeFhjcGZHYlVMWlhXX2JTZklWUzg3cjFyT3BsMU1MZ2F2QQ?oc=5",
-      "published": "2025-09-01T07:00:00+00:00",
-      "source": {
-        "name": "Telemarksavisa",
-        "url": "https://www.ta.no"
-      }
-    },
-    {
-      "id": "95bf997bac64",
-      "title": "Legemiddelmangel - Direktoratet for samfunnssikkerhet og beredskap (DSB)",
+      "id": "11193adef1cf",
+      "title": "Legemiddelmangel - dsb.no",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNekM1RWozbUNwak85M1QzcjlqQmZySkJMZVNnM3YwbzVqVWRDMVZNRlJVNF9NM3RPLThfNDdnQUJ2d2hLVFJZNHlsUTc2ZzZuVHdYWmdHamJEVFgxUHQzMlB0SlRfWTR0eWNaTmpSUXJlY2tJVmNOUHlpbGhwcjI1d0NSVDJMdnlLWVQ5Zkx4MWtrTGlNNWZqaUhMMDRVSkxXTVFOTTdFUEF1NjFHaG80OXNTZw?oc=5",
       "published": "2025-09-03T06:04:04+00:00",
       "source": {
-        "name": "Direktoratet for samfunnssikkerhet og beredskap (DSB)",
+        "name": "dsb.no",
         "url": "https://www.dsb.no"
       }
     },
@@ -561,16 +561,6 @@
       "source": {
         "name": "Helse Bergen",
         "url": "https://www.helse-bergen.no"
-      }
-    },
-    {
-      "id": "4ea0eb198ba0",
-      "title": "Trump har rett: Amerikanerne sponser vår tilgang på nye legemidler - Dagens Næringsliv",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdXh0MlBpQXNIVHU1YkpKdmVIU1BhT0pkRERMLXR0WWp6VFJscTlHNmVOajdib0FOU2hPM3ZxT0xCQ0NHUDF5Y1diUVZrcUd2ZUR3RDlqejNQZ0NTeE40d2tBU09kQVNOWnoxaUxoa29tVkJWMHQtR1B2SF8zbmc1ZkMyMG9zVHpOR2FLTVdQQkpFYXppejNUdnE1d0J3aW1HM29PWTlMdm8xXzE0N2FSNTRJei1UQURKY0gyenB3TlFKVGIzSWEwMnZBNVE1R2pKZ1NIMQ?oc=5",
-      "published": "2025-06-05T07:00:00+00:00",
-      "source": {
-        "name": "Dagens Næringsliv",
-        "url": "https://www.dn.no"
       }
     },
     {
@@ -634,16 +624,6 @@
       }
     },
     {
-      "id": "c6caed0127fe",
-      "title": "Lanserer nytt norsk legemiddel mot hjerteinfarkt: – Vil kunne redde liv - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeFNjN3VmbEpEODhUbEJGS21OUTZnUVA0LVA3ZzUxLTQwN2pRQUZqM25LbzNqeml6cVg3cFd1WkUyVU1VbVM2eWF6RS0tcmhLcDZNeVZBR2JNVVBEejFSbW1XTDhLeFZVTVA3TnJZM3M4NWp0d2pkZm51TUdxM1NobjlVbm5uNVdGQTRpaEZPWUVKUHI1OVJhMHhOeC1ZNGFMeUZ0X0pTSXFIaHBqMURnSG9ac0xiQ2s?oc=5",
-      "published": "2023-01-18T08:00:00+00:00",
-      "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
-      }
-    },
-    {
       "id": "ac9a8bab4b9c",
       "title": "Etter krisemøte: Lover kortere ventetid på medisiner - VG",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbkRDTkI2X05kRGRVcW1uaTdvMFZkZl82cTZFbjNxNGNjam9NbVNyOGREYzQtSzlnMXVYc3puTk1uT1ZaMERtLURPSy00Rk9zTGNmdGFDVEU4eVdJRW9OLXFCdmpRWnZSZmFWX1B3OWlGRldlUTFnZ0l5cllkb0s0Y2owTFI0TDNhQTNMLU5KazFQLU1zVmtuRTdKZVB5ZU5KOXd1YzZ6WDhYdw?oc=5",
@@ -654,13 +634,13 @@
       }
     },
     {
-      "id": "90921fcbbc80",
-      "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
-      "published": "2018-10-05T07:00:00+00:00",
+      "id": "c6caed0127fe",
+      "title": "Lanserer nytt norsk legemiddel mot hjerteinfarkt: – Vil kunne redde liv - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeFNjN3VmbEpEODhUbEJGS21OUTZnUVA0LVA3ZzUxLTQwN2pRQUZqM25LbzNqeml6cVg3cFd1WkUyVU1VbVM2eWF6RS0tcmhLcDZNeVZBR2JNVVBEejFSbW1XTDhLeFZVTVA3TnJZM3M4NWp0d2pkZm51TUdxM1NobjlVbm5uNVdGQTRpaEZPWUVKUHI1OVJhMHhOeC1ZNGFMeUZ0X0pTSXFIaHBqMURnSG9ac0xiQ2s?oc=5",
+      "published": "2023-01-18T08:00:00+00:00",
       "source": {
-        "name": "Fremover",
-        "url": "https://www.fremover.no"
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     },
     {
@@ -714,12 +694,12 @@
       }
     },
     {
-      "id": "e360c918dfff",
-      "title": "Helse, Legemiddelverket | Populær medisin er blitt mangelvare - Sarpsborg Arbeiderblad",
+      "id": "fe3702b3c907",
+      "title": "Helse, Legemiddelverket | Populær medisin er blitt mangelvare - sa.no",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5vODNOTDdTVDB3aDFkQjZLQk9JQi1LVTJkX05wbHVJeTlKb2sxT3JfOE5aaHU4bzNBdFlSRXNNUDcwc0JiOS1wYVhVcUF3dmZKaURMQ2lveUJlN2Q5S3hlNUdvemR0RTJFc3BvalRYRGpKaGdRZXhF?oc=5",
       "published": "2023-10-30T07:00:00+00:00",
       "source": {
-        "name": "Sarpsborg Arbeiderblad",
+        "name": "sa.no",
         "url": "https://www.sa.no"
       }
     },
@@ -731,6 +711,16 @@
       "source": {
         "name": "Anbud365",
         "url": "https://www.anbud365.no"
+      }
+    },
+    {
+      "id": "90921fcbbc80",
+      "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
+      "published": "2018-10-05T07:00:00+00:00",
+      "source": {
+        "name": "Fremover",
+        "url": "https://www.fremover.no"
       }
     },
     {
@@ -984,12 +974,12 @@
       }
     },
     {
-      "id": "b1aea2eeb882",
-      "title": "helse, Legemiddel | Hva skjer når jeg ikke får medisinene mine? - tb.no",
+      "id": "93d5d541f722",
+      "title": "helse, Legemiddel | Hva skjer når jeg ikke får medisinene mine? - Tønsbergs Blad",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORGI5OTBzT3ZSX29SWEU4MlFtM3N4YkU4eE5XcTNCaUQ4ZTR6VEZCMXc3RXFqUUVNUnFlQmhFRnhtYUd4YTJNQTRzbGJxUXRzeHJVYTBkdEEyM1Jvc0xHUnhUZ1Vka094aGI0OTVhT2E1QVAwelZFY1hsSzl3enlpRQ?oc=5",
       "published": "2019-09-19T07:00:00+00:00",
       "source": {
-        "name": "tb.no",
+        "name": "Tønsbergs Blad",
         "url": "https://www.tb.no"
       }
     },
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Regjeringen.no",
         "url": "https://www.regjeringen.no"
+      }
+    },
+    {
+      "id": "61743f076712",
+      "title": "Nå er apotekene tomme for denne medisinen - Østlendingen",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNU3BhLUZ1MHFqUWJ3WkJ4MGpiY2M3X3UtaVAyOC0ybkUxRERxelpNbTd5dFRJVUFNdEEwYXRpLUVuYVluSzNTNUJnTkxWRFNma2pHSGZCM3I3Znlub1ZuZXBjMURWc0tBV3c2RTlqVkcydExLUk1MVkdsYzdYNngxd1FnSHhMVlo0VUpiag?oc=5",
+      "published": "2023-03-29T07:00:00+00:00",
+      "source": {
+        "name": "Østlendingen",
+        "url": "https://www.ostlendingen.no"
       }
     }
   ]
