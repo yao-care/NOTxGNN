@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-15T11:21:07.803708+00:00",
+  "fetched_at": "2026-08-15T12:39:26.708758+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -64,12 +64,12 @@
       }
     },
     {
-      "id": "dca830ad7f0a",
-      "title": "Norge i Europatoppen med å innføre viktige, nye legemidler - kommunikasjon.ntb.no",
+      "id": "4cb59c666e4f",
+      "title": "Norge i Europatoppen med å innføre viktige, nye legemidler - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWGdUS0xWenVsYmh5eG00LWtFX1NIcVYzNy11U0VEdGNidU8ya0lTSDl3amN6eUljeDlXM2xHZkdPTGNnX2Q4cHliS2xpWjdsLTFabXlVc1ZPMmszNDlxa2RjVVpEOEdkak55NmtRbnplbDlNN1RzRUtxLUxSVnRDTE0tSEFJZnJRT0FMcHlCTUNpY3JrZy1oam4yNFRBUkg1ZUstdUVSOTRUc3NVaTBMeDQyMHhSYm0wdmVtTndRRzg0YUprbHBaaFJFT1h6T3ItVm9VdA?oc=5",
       "published": "2026-05-19T07:00:00+00:00",
       "source": {
-        "name": "kommunikasjon.ntb.no",
+        "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
       }
     },
@@ -184,12 +184,12 @@
       }
     },
     {
-      "id": "ea91dec59df3",
-      "title": "Apotekene er en del av ferieberedskapen - kommunikasjon.ntb.no",
+      "id": "89f8d70e06e5",
+      "title": "Apotekene er en del av ferieberedskapen - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZHI5MFA1WVQyODBwWnFsT1RGN2Jwb21fZmhUUUpvbVBVS3RRMHBFY2UtbHFReUl4c3p0TDBxcDh0Sm9GTDdkQWtidDI3VlpXcmw0MndiRDREZThmSloyeDRvaE5YUUlnZmNiV2FlYkVkeG9VVUthTmFCdHgtaGkzRGFmZTdUZkM1MHh5VkItRWNPb0E1d0s4WXJ6dy1nUHlwSHlUaGR6M0M4TkNKV2tKN01TVmh0anUyRE4waQ?oc=5",
       "published": "2026-06-29T07:00:00+00:00",
       "source": {
-        "name": "kommunikasjon.ntb.no",
+        "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
       }
     },
@@ -404,12 +404,12 @@
       }
     },
     {
-      "id": "858b5d819d37",
-      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - stortinget.no",
+      "id": "c4a433fa4eab",
+      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - Stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjQ0cWxEYW91Y2d1SDZRZU9aM1lNaXg1cTROb0hKMk1INUlOZmh2dzB1V3o0dHU4SHNZUGNGMlRTQjJSZEhmdWJXMGlyOGlqbE5Ic0JDUk8xd1Nsam9KVXVZUmhMXzk4M0w1OVpaQmhmNENRXzE1cFlRWWt5bXpJekU1YnVyNzVPQ1FlX3IyMWNKSXJ0Z3p2ZDdpYVZKWVo0SXE3T3duMDBvYlBQOHNjTm95UEJVY0kzRXZudg?oc=5",
       "published": "2025-10-12T14:11:53+00:00",
       "source": {
-        "name": "stortinget.no",
+        "name": "Stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
@@ -644,12 +644,12 @@
       }
     },
     {
-      "id": "286929c6c632",
-      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - stortinget.no",
+      "id": "bb3f7fd4a136",
+      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - Stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVGEwRnFBUFZPeFQ5Rnl0MjY4RV9VSFRGWmJrNDVFekdxLXZHNjBjZGVHbkYyeGJLd3FjS3Y4RWRaTlVwR01yS0ZFTzRlam9jYl9zcUJGaG5FZ2NUOWg4SEpCbmJNSEdxdWpNWUlTbXBWdUJ2TFZKWDFmRTdlQU84UWY1UGhORHVYOGowdzhfcUtPeHZTZmVaMG1VQ0V4Q2pST2xRc19sdkNfOVNJS2JCWTZybDA1Z041cGc4bw?oc=5",
       "published": "2025-03-31T03:18:30+00:00",
       "source": {
-        "name": "stortinget.no",
+        "name": "Stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
@@ -664,22 +664,22 @@
       }
     },
     {
-      "id": "78163b91b37e",
-      "title": "Skjerper rutiner for å skrive ut vanedannede medisiner - Larvik kommune",
+      "id": "85e0e5832834",
+      "title": "Skjerper rutiner for å skrive ut vanedannede medisiner - larvik.kommune.no",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNGQ4WnloR3otM0VTQ2FydUZjSUxMV0pJd3ZFMVJSamo0LWROZkstU2I2OVJMTFdDMDBBRTAzV3c0VHZnem85SGJnZ21fLUVHbWFGb3VGdmF6QzRfTzhWN3NtM1NmSEtOLVVpMlNaNGNrWEhjYlFQX2p2ckNNMnRnNkhBNTVwdGZ5T3FMVW94dXduMDV5NEZoZjNRNmtMV2MwdTMzb1M4WmRNOXl4cF9Ydnd3?oc=5",
       "published": "2025-06-25T07:00:00+00:00",
       "source": {
-        "name": "Larvik kommune",
+        "name": "larvik.kommune.no",
         "url": "https://www.larvik.kommune.no"
       }
     },
     {
-      "id": "da0a1516d061",
-      "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - kommunikasjon.ntb.no",
+      "id": "62d5b2e3793a",
+      "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZEd5eTVOaFRZZHd1MVQzQUVGc09ZSlZtdnlXUEhwTkNQRXp0UEhfREhwSzNIRC1RVVVKYldGLWJlQlNtYkM1dkw2RFNvSFJXdzc1WlNhc0Y3c3JPcDFnalBGWVdJcGxtbTNuTUJfeE50NTlNNTdNMlNIY0NBdGk2MjhXMjJRVGxjcFNFbEFFNDRBUUMtaDM4R0NDbEtXdjNsckRjdjBYdGFqOFYyXzRmYmhZSVRHbldmaEUyVk5QcEFCYjMwbTNXMGxfMXJaa25WYXc?oc=5",
       "published": "2021-05-12T07:00:00+00:00",
       "source": {
-        "name": "kommunikasjon.ntb.no",
+        "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
       }
     },
@@ -754,12 +754,12 @@
       }
     },
     {
-      "id": "e1040bbca041",
-      "title": "Ja til nytt legemiddel mot atopisk eksem - kommunikasjon.ntb.no",
+      "id": "1f8ee124566a",
+      "title": "Ja til nytt legemiddel mot atopisk eksem - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWEdfMmRHSWhnUnRBOU5GeURCbUowQnNYZUpKZkJRRi1aSnp1X1VrX2R2NWJ2dHMzalFXcEhGU1k5aG9DMmEwUWxfY2VMc0FUS09VUGliaHhoYWZuNmNKWGxEeUcxSkdaYXRRaXpzZFlLczlNZFFTaEhManJac2dsS1JRLXNKMXFzLWFKeGtCX21PMzFvRXZwdnNBZXZ3UGk4b05YakU1c3FDd2Z6dDl6bVEycw?oc=5",
       "published": "2020-02-24T08:00:00+00:00",
       "source": {
-        "name": "kommunikasjon.ntb.no",
+        "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
       }
     },
@@ -794,12 +794,12 @@
       }
     },
     {
-      "id": "d407e92cbaec",
-      "title": "Helse, medisin og omsorg - Edvard Munch i ny kontekst - mynewsdesk.com",
+      "id": "4a4ed441eb61",
+      "title": "Helse, medisin og omsorg - Edvard Munch i ny kontekst - Mynewsdesk",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQajRCWFVjTS0yMEdmRXhMbVF5alU4WmNXSXlrMlFtMzN2Q0M0WkdoX3dIQzFzMExmaF90ZkhvakdXcWFkM2lLWDBmYld1Zzl4V0twWjE5YUQ0Vk1XeDFwOU1VUWl0dzZPTEVLRUduXzU2S29vSTZLTXpHUHJReGxwLTNTVExQeTFfT05TUHo4b0MtNGtTNFd4Q2l0bFZRYU80NldOZ1Vsc3plWHI3MHkwLVBTZEw?oc=5",
       "published": "2025-06-11T07:00:00+00:00",
       "source": {
-        "name": "mynewsdesk.com",
+        "name": "Mynewsdesk",
         "url": "https://www.mynewsdesk.com"
       }
     },
@@ -894,12 +894,12 @@
       }
     },
     {
-      "id": "5375d5bf0d29",
-      "title": "Nordmenn bruker mer legemidler enn noen gang - kommunikasjon.ntb.no",
+      "id": "80cac2759063",
+      "title": "Nordmenn bruker mer legemidler enn noen gang - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUGdMb203WFdJS1ZPdEhtNEJ5aFRVcTFDLXRYM1dCaURRcGF6RFBjTUhEUjFjZHRSMEtrdnV4RWRsdnhSNHJwVTh5ZXY2cTJiYjI1SkxCNko4cFh6QmkyWVpCR2NtMzg0SnV4ZGVvaDBSQmxwY2FaRzVlOHZQczVWcm5VZWJwTXlMdGJUcU5IZkQyVU9MZDRycHB0eWl3SF9oN2tOSk9jWEMzaElfTnpCd0F0TTVWMEF6aU5DTkRIclY1TDQ?oc=5",
       "published": "2023-02-28T08:00:00+00:00",
       "source": {
-        "name": "kommunikasjon.ntb.no",
+        "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
       }
     },
@@ -934,12 +934,12 @@
       }
     },
     {
-      "id": "f66dadddf881",
-      "title": "Innfører legemiddel til Stills sykdom og sJIA - kommunikasjon.ntb.no",
+      "id": "5a3c6e17b37a",
+      "title": "Innfører legemiddel til Stills sykdom og sJIA - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmx6MTZPbFRCMGU5c0ptUVlwdEM4UHp4Wl9EV2ppb1pQa0VPdV9RVjRWQ015dlNpVHZMblM0Wldndm9WWEFVelNSbFBUa0tDRnhES3JWbng0dXVSem1jZGsyQ0l2eGRiUkF1aTNwbW5HazI1cHZyOVZwUDhUNWc2aElyUW1VdU9RZkpJQUh1TW83YzNTRW5sQVVEaUw3RnJEcUdVOUYtVnN4Rkt5M2NDc3VrNEMtOEhsOUE?oc=5",
       "published": "2019-02-26T08:00:00+00:00",
       "source": {
-        "name": "kommunikasjon.ntb.no",
+        "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
       }
     },
