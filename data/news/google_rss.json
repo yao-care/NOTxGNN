@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-15T09:26:56.177878+00:00",
+  "fetched_at": "2026-08-15T10:24:03.928457+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -64,12 +64,12 @@
       }
     },
     {
-      "id": "4cb59c666e4f",
-      "title": "Norge i Europatoppen med å innføre viktige, nye legemidler - NTB Kommunikasjon",
+      "id": "dca830ad7f0a",
+      "title": "Norge i Europatoppen med å innføre viktige, nye legemidler - kommunikasjon.ntb.no",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWGdUS0xWenVsYmh5eG00LWtFX1NIcVYzNy11U0VEdGNidU8ya0lTSDl3amN6eUljeDlXM2xHZkdPTGNnX2Q4cHliS2xpWjdsLTFabXlVc1ZPMmszNDlxa2RjVVpEOEdkak55NmtRbnplbDlNN1RzRUtxLUxSVnRDTE0tSEFJZnJRT0FMcHlCTUNpY3JrZy1oam4yNFRBUkg1ZUstdUVSOTRUc3NVaTBMeDQyMHhSYm0wdmVtTndRRzg0YUprbHBaaFJFT1h6T3ItVm9VdA?oc=5",
       "published": "2026-05-19T07:00:00+00:00",
       "source": {
-        "name": "NTB Kommunikasjon",
+        "name": "kommunikasjon.ntb.no",
         "url": "https://kommunikasjon.ntb.no"
       }
     },
@@ -184,12 +184,12 @@
       }
     },
     {
-      "id": "89f8d70e06e5",
-      "title": "Apotekene er en del av ferieberedskapen - NTB Kommunikasjon",
+      "id": "ea91dec59df3",
+      "title": "Apotekene er en del av ferieberedskapen - kommunikasjon.ntb.no",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZHI5MFA1WVQyODBwWnFsT1RGN2Jwb21fZmhUUUpvbVBVS3RRMHBFY2UtbHFReUl4c3p0TDBxcDh0Sm9GTDdkQWtidDI3VlpXcmw0MndiRDREZThmSloyeDRvaE5YUUlnZmNiV2FlYkVkeG9VVUthTmFCdHgtaGkzRGFmZTdUZkM1MHh5VkItRWNPb0E1d0s4WXJ6dy1nUHlwSHlUaGR6M0M4TkNKV2tKN01TVmh0anUyRE4waQ?oc=5",
       "published": "2026-06-29T07:00:00+00:00",
       "source": {
-        "name": "NTB Kommunikasjon",
+        "name": "kommunikasjon.ntb.no",
         "url": "https://kommunikasjon.ntb.no"
       }
     },
@@ -204,12 +204,12 @@
       }
     },
     {
-      "id": "141ac24a9bcc",
-      "title": "Svensk studie går viralt: - Bør være varsom - sol.no",
+      "id": "eb783f97c3c2",
+      "title": "Svensk studie går viralt: - Bør være varsom - Sol",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBxWnVrakVHalBQd3RxQmxfVm8yaVhfcHRNQ1ljMU41ME9kSHRlMGVSdU5PanFnWnZ6dXR2SHhoN29SbVVPNzFabUs4VWpGWXdmY2pMRDY2VWlkWTZ6M1ZhazJZc3lXUmpMNUdIUHNlMVdTTThZM1pReDA5Tm5JUQ?oc=5",
       "published": "2026-03-29T07:00:00+00:00",
       "source": {
-        "name": "sol.no",
+        "name": "Sol",
         "url": "https://sol.no"
       }
     },
@@ -224,16 +224,6 @@
       }
     },
     {
-      "id": "7e45fe664385",
-      "title": "(+) Han overtar jobben med å fronte upopulære medisin-avgjørelser - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSFBtbFpOTTRNNEY0VF9LMmZma2JPNnl1emw2X1RVdjR3Y0FPWXBkRGI4clFyNkptQTlVWlBoM09QeWlpVnBVSG9Ea2w1MHZURGRsZnNyM0FleVJyWWctV3VxV25aeXJGdWhMVy1FMFJHU3VwSUlNRUEtem9WWjV1c1g4M1I5YUFyWlVaVmJSWVFDTUc0cWU2TVJqVVZzM25NUWNwUnk3aDdOU0xEdE02c3owd0ZhQ0RFaU9VR2E4UzFMd0dEbmkwanlCSEpldHladmRBYmpLdDZ3OFROY0Fn?oc=5",
-      "published": "2026-01-14T08:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
       "id": "beaf995dea05",
       "title": "– Mange har forstått at det er mangel og spør om vi har medisinen - Romerikes Blad",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSDkzU1BKblNwLTZmdXZvMDlaQ1hud1NtZi0wVU96RXlQT2laSjBiek9ldUFIU1dWYmgzc1ZvUmtjTTRHZmxncWN6YUh6d09YWWRDTlFPeWtFSDRLbFd5WGhRX0pRbXRZcll1V055V09PRF96SmFjTVpjZEU3UkJINVpIOXFldFNTNkVhWV9TNzhkRzg3UnBINGtGSmE?oc=5",
@@ -241,6 +231,16 @@
       "source": {
         "name": "Romerikes Blad",
         "url": "https://www.rb.no"
+      }
+    },
+    {
+      "id": "7e45fe664385",
+      "title": "(+) Han overtar jobben med å fronte upopulære medisin-avgjørelser - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSFBtbFpOTTRNNEY0VF9LMmZma2JPNnl1emw2X1RVdjR3Y0FPWXBkRGI4clFyNkptQTlVWlBoM09QeWlpVnBVSG9Ea2w1MHZURGRsZnNyM0FleVJyWWctV3VxV25aeXJGdWhMVy1FMFJHU3VwSUlNRUEtem9WWjV1c1g4M1I5YUFyWlVaVmJSWVFDTUc0cWU2TVJqVVZzM25NUWNwUnk3aDdOU0xEdE02c3owd0ZhQ0RFaU9VR2E4UzFMd0dEbmkwanlCSEpldHladmRBYmpLdDZ3OFROY0Fn?oc=5",
+      "published": "2026-01-14T08:00:00+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -261,16 +261,6 @@
       "source": {
         "name": "Bergens Tidende",
         "url": "https://www.bt.no"
-      }
-    },
-    {
-      "id": "4358c045f263",
-      "title": "Helse, Medisiner | Flere medisiner fases ut: – Haster med å kontakte lege - Hamar Arbeiderblad",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSzFNMk8wd1lBVlhwUi1GSUJZcWM2M0VBNmpwSnVvYzlpdlBFTm94ZWJEUHZYeXhOaXpYdmhLSUVzbE5rZURqMW43bVMtUC1aNldERTBPdGdYVmU5cTRIeVBpbkpuaXZLb2FJUWZ1Ykw1NTlPaXh0OUJKYUcyWG9HMjM3cDlnQlREX2Z2SmRxUQ?oc=5",
-      "published": "2026-04-29T07:00:00+00:00",
-      "source": {
-        "name": "Hamar Arbeiderblad",
-        "url": "https://www.h-a.no"
       }
     },
     {
@@ -344,6 +334,16 @@
       }
     },
     {
+      "id": "6a1ded6a7b4a",
+      "title": "Tester nye rutiner for legemiddelbruk – Porsgrunn er neste på lista - Telemarksavisa",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWVZyNTd5RktvRDRDeE1NdnVEWnVvQXVwTDRVZDc2a3U5c1ZoWnVhN1VUS2FaZVRwdlJESnI3dlVPWGJZXzQ3YkRWYy1ndzh0b1hCOC1VMmVKQ1ZPYVZkZWxSazItZHpsTEJ4QUpJUFpGb3B2YWthemxQMlhFZzJqT1FOS2pXX0lod24yZ2VtZzJERU5KN2c4OXdyMmZtRU9JUTJNSQ?oc=5",
+      "published": "2026-03-13T07:00:00+00:00",
+      "source": {
+        "name": "Telemarksavisa",
+        "url": "https://www.ta.no"
+      }
+    },
+    {
       "id": "f73013fbd70a",
       "title": "13 av 14 legemidler fikk ja i årets første Beslutningsforum - medwatch.no",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWYWJpdFBFTFJSNldOR1V1RXpDd3pSWHM0Z0hkSlIzUkxmd2RYcWI3M0o2OTVVNnZpeXhQcndNWEliYVc0S2cxR0pTMWpmQjR6QnVuWUwwUjJWeXlEVXJLVXRvR2RQeUpkUkFkNHhXbWJFMEU?oc=5",
@@ -394,16 +394,6 @@
       }
     },
     {
-      "id": "c4a433fa4eab",
-      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - Stortinget.no",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjQ0cWxEYW91Y2d1SDZRZU9aM1lNaXg1cTROb0hKMk1INUlOZmh2dzB1V3o0dHU4SHNZUGNGMlRTQjJSZEhmdWJXMGlyOGlqbE5Ic0JDUk8xd1Nsam9KVXVZUmhMXzk4M0w1OVpaQmhmNENRXzE1cFlRWWt5bXpJekU1YnVyNzVPQ1FlX3IyMWNKSXJ0Z3p2ZDdpYVZKWVo0SXE3T3duMDBvYlBQOHNjTm95UEJVY0kzRXZudg?oc=5",
-      "published": "2025-10-12T14:11:53+00:00",
-      "source": {
-        "name": "Stortinget.no",
-        "url": "https://www.stortinget.no"
-      }
-    },
-    {
       "id": "012123076749",
       "title": "Helse, Horten | Ansatt i Horten kommune stjal medisiner – pasienter fikk falske tabletter - Gjengangeren",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWDl5LU1meHNwdl8yampEczg2NTZvZWUyMnZWODlYVFJtY1RPcEVQa0JJcnFheUZ3Z3h5RDJqY2Q1bXkzY3FlZV9hc0syTWhaQ2NkRkJhcmp5QXhKX09BaGEwdktXZDkzQlROVC02V1FqWGhCbElYb1pIaUpsX1A0cGpjODRqZ1R0T1d3YnRzQkE1azlZVFJ3TjBycTNkZmxPWVlWT05RQUEtRjUyVG9kYVlLOEw?oc=5",
@@ -411,6 +401,16 @@
       "source": {
         "name": "Gjengangeren",
         "url": "https://www.gjengangeren.no"
+      }
+    },
+    {
+      "id": "c4a433fa4eab",
+      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - Stortinget.no",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjQ0cWxEYW91Y2d1SDZRZU9aM1lNaXg1cTROb0hKMk1INUlOZmh2dzB1V3o0dHU4SHNZUGNGMlRTQjJSZEhmdWJXMGlyOGlqbE5Ic0JDUk8xd1Nsam9KVXVZUmhMXzk4M0w1OVpaQmhmNENRXzE1cFlRWWt5bXpJekU1YnVyNzVPQ1FlX3IyMWNKSXJ0Z3p2ZDdpYVZKWVo0SXE3T3duMDBvYlBQOHNjTm95UEJVY0kzRXZudg?oc=5",
+      "published": "2025-10-12T14:11:53+00:00",
+      "source": {
+        "name": "Stortinget.no",
+        "url": "https://www.stortinget.no"
       }
     },
     {
@@ -644,13 +644,13 @@
       }
     },
     {
-      "id": "90921fcbbc80",
-      "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
-      "published": "2018-10-05T07:00:00+00:00",
+      "id": "bb3f7fd4a136",
+      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - Stortinget.no",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVGEwRnFBUFZPeFQ5Rnl0MjY4RV9VSFRGWmJrNDVFekdxLXZHNjBjZGVHbkYyeGJLd3FjS3Y4RWRaTlVwR01yS0ZFTzRlam9jYl9zcUJGaG5FZ2NUOWg4SEpCbmJNSEdxdWpNWUlTbXBWdUJ2TFZKWDFmRTdlQU84UWY1UGhORHVYOGowdzhfcUtPeHZTZmVaMG1VQ0V4Q2pST2xRc19sdkNfOVNJS2JCWTZybDA1Z041cGc4bw?oc=5",
+      "published": "2025-03-31T03:18:30+00:00",
       "source": {
-        "name": "Fremover",
-        "url": "https://www.fremover.no"
+        "name": "Stortinget.no",
+        "url": "https://www.stortinget.no"
       }
     },
     {
@@ -674,12 +674,12 @@
       }
     },
     {
-      "id": "62d5b2e3793a",
-      "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - NTB Kommunikasjon",
+      "id": "da0a1516d061",
+      "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - kommunikasjon.ntb.no",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZEd5eTVOaFRZZHd1MVQzQUVGc09ZSlZtdnlXUEhwTkNQRXp0UEhfREhwSzNIRC1RVVVKYldGLWJlQlNtYkM1dkw2RFNvSFJXdzc1WlNhc0Y3c3JPcDFnalBGWVdJcGxtbTNuTUJfeE50NTlNNTdNMlNIY0NBdGk2MjhXMjJRVGxjcFNFbEFFNDRBUUMtaDM4R0NDbEtXdjNsckRjdjBYdGFqOFYyXzRmYmhZSVRHbldmaEUyVk5QcEFCYjMwbTNXMGxfMXJaa25WYXc?oc=5",
       "published": "2021-05-12T07:00:00+00:00",
       "source": {
-        "name": "NTB Kommunikasjon",
+        "name": "kommunikasjon.ntb.no",
         "url": "https://kommunikasjon.ntb.no"
       }
     },
@@ -744,16 +744,6 @@
       }
     },
     {
-      "id": "bb3f7fd4a136",
-      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - Stortinget.no",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVGEwRnFBUFZPeFQ5Rnl0MjY4RV9VSFRGWmJrNDVFekdxLXZHNjBjZGVHbkYyeGJLd3FjS3Y4RWRaTlVwR01yS0ZFTzRlam9jYl9zcUJGaG5FZ2NUOWg4SEpCbmJNSEdxdWpNWUlTbXBWdUJ2TFZKWDFmRTdlQU84UWY1UGhORHVYOGowdzhfcUtPeHZTZmVaMG1VQ0V4Q2pST2xRc19sdkNfOVNJS2JCWTZybDA1Z041cGc4bw?oc=5",
-      "published": "2025-03-31T03:18:30+00:00",
-      "source": {
-        "name": "Stortinget.no",
-        "url": "https://www.stortinget.no"
-      }
-    },
-    {
       "id": "0b3bf4934607",
       "title": "legemiddel, medisin og helse | Jubler for rekordsalg av reseptfri viagra, men sexolog steiler: – En fryktelig dårlig idé - Nettavisen",
       "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNS3FsMjRQZGdOV1FHdmpNcXVseUZJMGpucWpDZzg0WGNsNDl5blhiajd4MzVLMWJVelI5X2hWckJZa0JvaU5tRHhRMTlNMnVicEp6bmt2bXhkWFBlbmNzSjNKOGJDcU03MXNBMGk5VmVFVi1JTmVaQjMyczY5X0VtLU42bFpKOHhNQktRbmtGQ3VmazNGRjc2QlNYOUxwd29peFpIeFNtWGxpeHpjMm9kN1NFVUl4Tm5POV9Ja2JtMFRTcS1KVGR5d3ZuQ2FwV0VlQnB5eXRodmJjVmxPVU0xWGFiWkVuRDhadFg3d0hn?oc=5",
@@ -764,12 +754,12 @@
       }
     },
     {
-      "id": "1f8ee124566a",
-      "title": "Ja til nytt legemiddel mot atopisk eksem - NTB Kommunikasjon",
+      "id": "e1040bbca041",
+      "title": "Ja til nytt legemiddel mot atopisk eksem - kommunikasjon.ntb.no",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWEdfMmRHSWhnUnRBOU5GeURCbUowQnNYZUpKZkJRRi1aSnp1X1VrX2R2NWJ2dHMzalFXcEhGU1k5aG9DMmEwUWxfY2VMc0FUS09VUGliaHhoYWZuNmNKWGxEeUcxSkdaYXRRaXpzZFlLczlNZFFTaEhManJac2dsS1JRLXNKMXFzLWFKeGtCX21PMzFvRXZwdnNBZXZ3UGk4b05YakU1c3FDd2Z6dDl6bVEycw?oc=5",
       "published": "2020-02-24T08:00:00+00:00",
       "source": {
-        "name": "NTB Kommunikasjon",
+        "name": "kommunikasjon.ntb.no",
         "url": "https://kommunikasjon.ntb.no"
       }
     },
@@ -804,12 +794,12 @@
       }
     },
     {
-      "id": "4a4ed441eb61",
-      "title": "Helse, medisin og omsorg - Edvard Munch i ny kontekst - Mynewsdesk",
+      "id": "d407e92cbaec",
+      "title": "Helse, medisin og omsorg - Edvard Munch i ny kontekst - mynewsdesk.com",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQajRCWFVjTS0yMEdmRXhMbVF5alU4WmNXSXlrMlFtMzN2Q0M0WkdoX3dIQzFzMExmaF90ZkhvakdXcWFkM2lLWDBmYld1Zzl4V0twWjE5YUQ0Vk1XeDFwOU1VUWl0dzZPTEVLRUduXzU2S29vSTZLTXpHUHJReGxwLTNTVExQeTFfT05TUHo4b0MtNGtTNFd4Q2l0bFZRYU80NldOZ1Vsc3plWHI3MHkwLVBTZEw?oc=5",
       "published": "2025-06-11T07:00:00+00:00",
       "source": {
-        "name": "Mynewsdesk",
+        "name": "mynewsdesk.com",
         "url": "https://www.mynewsdesk.com"
       }
     },
@@ -904,12 +894,12 @@
       }
     },
     {
-      "id": "80cac2759063",
-      "title": "Nordmenn bruker mer legemidler enn noen gang - NTB Kommunikasjon",
+      "id": "5375d5bf0d29",
+      "title": "Nordmenn bruker mer legemidler enn noen gang - kommunikasjon.ntb.no",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUGdMb203WFdJS1ZPdEhtNEJ5aFRVcTFDLXRYM1dCaURRcGF6RFBjTUhEUjFjZHRSMEtrdnV4RWRsdnhSNHJwVTh5ZXY2cTJiYjI1SkxCNko4cFh6QmkyWVpCR2NtMzg0SnV4ZGVvaDBSQmxwY2FaRzVlOHZQczVWcm5VZWJwTXlMdGJUcU5IZkQyVU9MZDRycHB0eWl3SF9oN2tOSk9jWEMzaElfTnpCd0F0TTVWMEF6aU5DTkRIclY1TDQ?oc=5",
       "published": "2023-02-28T08:00:00+00:00",
       "source": {
-        "name": "NTB Kommunikasjon",
+        "name": "kommunikasjon.ntb.no",
         "url": "https://kommunikasjon.ntb.no"
       }
     },
@@ -944,12 +934,12 @@
       }
     },
     {
-      "id": "5a3c6e17b37a",
-      "title": "Innfører legemiddel til Stills sykdom og sJIA - NTB Kommunikasjon",
+      "id": "f66dadddf881",
+      "title": "Innfører legemiddel til Stills sykdom og sJIA - kommunikasjon.ntb.no",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmx6MTZPbFRCMGU5c0ptUVlwdEM4UHp4Wl9EV2ppb1pQa0VPdV9RVjRWQ015dlNpVHZMblM0Wldndm9WWEFVelNSbFBUa0tDRnhES3JWbng0dXVSem1jZGsyQ0l2eGRiUkF1aTNwbW5HazI1cHZyOVZwUDhUNWc2aElyUW1VdU9RZkpJQUh1TW83YzNTRW5sQVVEaUw3RnJEcUdVOUYtVnN4Rkt5M2NDc3VrNEMtOEhsOUE?oc=5",
       "published": "2019-02-26T08:00:00+00:00",
       "source": {
-        "name": "NTB Kommunikasjon",
+        "name": "kommunikasjon.ntb.no",
         "url": "https://kommunikasjon.ntb.no"
       }
     },
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
+      "id": "4b5c288f5953",
+      "title": "Helse vest bygger beredskapslager for legemidler - Bergens Tidende",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN2c4T3l6OU52b1RfNFRPWUhLS2lEQmpjbmdwRERxMjJYbmhud0VMdnYtNzZBTWwwa3VJTFU2TnJnX2JnV2tXUk1xVTJMS1MxNWUtM2JsUEJsSXJVeWxHQ0pYV2dwZVNTQThiLWRPNUN0WTdCaXUwbFh3YWZSMi11U2lXa0ppSlBVd2tJZE9n?oc=5",
+      "published": "2021-05-12T07:00:00+00:00",
+      "source": {
+        "name": "Bergens Tidende",
+        "url": "https://www.bt.no"
       }
     }
   ]
