@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-17T19:29:12.478953+00:00",
+  "fetched_at": "2026-08-17T20:28:10.033207+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,6 +24,16 @@
       }
     },
     {
+      "id": "76747fbfd31e",
+      "title": "Helse, Medisin | Vanlig smertestillende kan gi alvorlig leverskade - Karmøynytt",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNT3NrMGZjOGo4NnNFNE0wNkJsRjZXOEZiRmZEbUp0VmZFWEVMNHE3OHlUblBuaHFCRHNDQnFUMW9WajNBZzRqRkZZRFA0NnVxTFJCVGNhcUEzbWpkUEdEaEg5SlFXZkQ4VFl2WXc0R0Izd3FuNkkzWk11UUtQc3R5M0VrdmM3NnJFUnFFeFRzbGU2Tkhk?oc=5",
+      "published": "2026-08-13T09:44:00+00:00",
+      "source": {
+        "name": "Karmøynytt",
+        "url": "https://www.karmoynytt.no"
+      }
+    },
+    {
       "id": "3fb851cccd40",
       "title": "Legemiddelbruk i Norge - Folkehelseinstituttet - FHI",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5qQ3duRnFiNmRhOU1xcG1Vcm81QXctQzg5cV9fSlNjdjdINl9ZZDVXSlhTQ01uSHI4Q1FUQXp6LV9aNHpvLTlrSFh6UmRqSHU2elNhcm13RW9WTU8wMnNyZVZTRU5oS3Z1R29xNDdaTzZUbVJjd2FN?oc=5",
@@ -34,13 +44,13 @@
       }
     },
     {
-      "id": "76747fbfd31e",
-      "title": "Helse, Medisin | Vanlig smertestillende kan gi alvorlig leverskade - Karmøynytt",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNT3NrMGZjOGo4NnNFNE0wNkJsRjZXOEZiRmZEbUp0VmZFWEVMNHE3OHlUblBuaHFCRHNDQnFUMW9WajNBZzRqRkZZRFA0NnVxTFJCVGNhcUEzbWpkUEdEaEg5SlFXZkQ4VFl2WXc0R0Izd3FuNkkzWk11UUtQc3R5M0VrdmM3NnJFUnFFeFRzbGU2Tkhk?oc=5",
-      "published": "2026-08-13T09:44:00+00:00",
+      "id": "06e3b4d36582",
+      "title": "(+) Store gjennombrudd i forskningen på Alzheimer-medisin - Morgenbladet",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMFN6aWNCZVNJWlJ6UFM5Z0M0ekpJSlFUOWNvb1JkR2wxVnFaR3FoLTc1YmFrMHdVR2pFdXdrRDlmcDBqOGFHUEFlUzdXT2RBNURnSGtUQl9UUktqd2lEd1h4ZEhlNkVPQkRyUTIybERzWUUzVkt0Y0dWSlFuUFRmdG1kelNVWXpXZUU0LXBqSjRtckdycERBc0FOVkk?oc=5",
+      "published": "2026-08-12T02:01:00+00:00",
       "source": {
-        "name": "Karmøynytt",
-        "url": "https://www.karmoynytt.no"
+        "name": "Morgenbladet",
+        "url": "https://www.morgenbladet.no"
       }
     },
     {
@@ -64,16 +74,6 @@
       }
     },
     {
-      "id": "06e3b4d36582",
-      "title": "(+) Store gjennombrudd i forskningen på Alzheimer-medisin - Morgenbladet",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMFN6aWNCZVNJWlJ6UFM5Z0M0ekpJSlFUOWNvb1JkR2wxVnFaR3FoLTc1YmFrMHdVR2pFdXdrRDlmcDBqOGFHUEFlUzdXT2RBNURnSGtUQl9UUktqd2lEd1h4ZEhlNkVPQkRyUTIybERzWUUzVkt0Y0dWSlFuUFRmdG1kelNVWXpXZUU0LXBqSjRtckdycERBc0FOVkk?oc=5",
-      "published": "2026-08-12T02:01:00+00:00",
-      "source": {
-        "name": "Morgenbladet",
-        "url": "https://www.morgenbladet.no"
-      }
-    },
-    {
       "id": "6114145eccc5",
       "title": "Slår alarm om medisiner - VG",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5hSU5tVlZVMkZLTjlrZU1fMTJ0SjdMWTBXYThfWmcwVnlZLVlxNmp3YWlUeVhSVnJvdnRhbDZiLWJwdExaR3FHTXY4eWtHUndZUjAxSzNtUVlqYWhZVzduYTlZSzMyLV9fR1AyNmstUEE4b0pMSXVF?oc=5",
@@ -84,12 +84,12 @@
       }
     },
     {
-      "id": "13b00ff6e84c",
-      "title": "Flere eldre kan hente medisin på apotek - bergen.kommune.no",
+      "id": "055bde4d929d",
+      "title": "Flere eldre kan hente medisin på apotek - Bergen kommune",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUUt4cU1YcTRnVzJsQUNJQ1BMRTJEWGl5bmdEVlYwZXpmb1pEaVA0d20yczVIR2ZyRE83MloyWDVrbGJhd0lXTU0yMmZUYjdrLW9aUW9vV2xLTXBUaXlRcFN3cXNjY0cyU1FLbldLX3FPTWJJdmVIX2FrSmE2NGp1OGphenNmVTl5UXF0WEhObC1tWElMVkF6S3BPQ1gzcml6MDBPTkcwcFRDUQ?oc=5",
       "published": "2026-01-15T08:00:00+00:00",
       "source": {
-        "name": "bergen.kommune.no",
+        "name": "Bergen kommune",
         "url": "https://www.bergen.kommune.no"
       }
     },
@@ -264,12 +264,12 @@
       }
     },
     {
-      "id": "e7066195e275",
-      "title": "Ingrid (29) fikk feil medisin av vikarlegen: – En alvorlig feil - bt.no",
+      "id": "c961e5b9af68",
+      "title": "Ingrid (29) fikk feil medisin av vikarlegen: – En alvorlig feil - Bergens Tidende",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPT1VWR0xnV21yX3pRSHVSYlRNX3RoNWJiSlJsaVVnOHBLSDdfWjVHYXdxSEhUbnlOLWdoSjg4N3o2QktqMjJfaHpkcHladm83ckxhTnFhYldkdWFrRS13SWtQTzNiazlZRG1VLU9FWW1KUDctWDZCUGtPS0dabXg2c2thQ0VYdw?oc=5",
       "published": "2026-03-13T07:00:00+00:00",
       "source": {
-        "name": "bt.no",
+        "name": "Bergens Tidende",
         "url": "https://www.bt.no"
       }
     },
@@ -301,6 +301,16 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
+      "id": "8cb62dd9ab53",
+      "title": "Slankemedisiner: Kan redusere kreftrisikoen betydelig - VG",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1GN1A4ZlhpVXM0S21EdGhZWUdhMFZRR1VseE84bXZKc0oyNnp2WVVUYV9CNmYyRktWSVcwbU9QUURfOXBNQ1hvUUIxWGNlUVZvVnNCRHc1WldiRjlsdUppUUV1SlZWVV9YNjN3UjVvUjBPZTRtVWxIUzB4OEtadw?oc=5",
+      "published": "2026-06-18T07:00:00+00:00",
+      "source": {
+        "name": "VG",
+        "url": "https://www.vg.no"
       }
     },
     {
@@ -341,16 +351,6 @@
       "source": {
         "name": "Aftenposten",
         "url": "https://www.aftenposten.no"
-      }
-    },
-    {
-      "id": "8cb62dd9ab53",
-      "title": "Slankemedisiner: Kan redusere kreftrisikoen betydelig - VG",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1GN1A4ZlhpVXM0S21EdGhZWUdhMFZRR1VseE84bXZKc0oyNnp2WVVUYV9CNmYyRktWSVcwbU9QUURfOXBNQ1hvUUIxWGNlUVZvVnNCRHc1WldiRjlsdUppUUV1SlZWVV9YNjN3UjVvUjBPZTRtVWxIUzB4OEtadw?oc=5",
-      "published": "2026-06-18T07:00:00+00:00",
-      "source": {
-        "name": "VG",
-        "url": "https://www.vg.no"
       }
     },
     {
@@ -404,22 +404,22 @@
       }
     },
     {
-      "id": "4b273316c354",
-      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - Stortinget",
+      "id": "c4a433fa4eab",
+      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - Stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjQ0cWxEYW91Y2d1SDZRZU9aM1lNaXg1cTROb0hKMk1INUlOZmh2dzB1V3o0dHU4SHNZUGNGMlRTQjJSZEhmdWJXMGlyOGlqbE5Ic0JDUk8xd1Nsam9KVXVZUmhMXzk4M0w1OVpaQmhmNENRXzE1cFlRWWt5bXpJekU1YnVyNzVPQ1FlX3IyMWNKSXJ0Z3p2ZDdpYVZKWVo0SXE3T3duMDBvYlBQOHNjTm95UEJVY0kzRXZudg?oc=5",
       "published": "2025-10-12T14:11:53+00:00",
       "source": {
-        "name": "Stortinget",
+        "name": "Stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
     {
-      "id": "326fcf327e82",
-      "title": "Sjokkerende ny statistikk: – Mange er uforberedt - Nettavisen",
+      "id": "5e44251aee30",
+      "title": "Sjokkerende ny statistikk: – Mange er uforberedt - nettavisen.no",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMm5QRzd5ZHZ3ellLYXhMeTJSUk4yNFpnLUxXeHg3REJQOFpMS1lhQzkyblBsbTNyU1dTT01TQmRsdnJ6MVRQOEY0VGlmZ0gydW9uc1JDTU92a2k5RThnb09sdE02bThWckRiS3hnUldmclBmTG1pRmUyaHZyOUwzVXkyUG5nbTVw?oc=5",
       "published": "2026-02-21T08:00:00+00:00",
       "source": {
-        "name": "Nettavisen",
+        "name": "nettavisen.no",
         "url": "https://www.nettavisen.no"
       }
     },
@@ -444,12 +444,12 @@
       }
     },
     {
-      "id": "6df0d18729d7",
-      "title": "Får nei til livsviktig medisin: – Uforståelig - Nettavisen",
+      "id": "355f5a3ade70",
+      "title": "Får nei til livsviktig medisin: – Uforståelig - nettavisen.no",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNkp6N1FFWXhMal9ncUpmQ1JSQmUwUlJXYi16VWxzS3lmQ25wcXhvSEtObW5DT2t2bXozU0kzbGZoMEZmclMtNTZYQjR3aXZpU3BFVm03Rm1lNUh4bGUxVS1ISHRZLTBEcm9VR1lxQmMwX1RVaEtWaHJqalpXOG12VlU2UFpybGExdWVWYnVsVmJtdk90TGt6ZGdDaHh1NUJMQXFxWXRqMFdxWk9XTEE?oc=5",
       "published": "2025-12-09T08:00:00+00:00",
       "source": {
-        "name": "Nettavisen",
+        "name": "nettavisen.no",
         "url": "https://www.nettavisen.no"
       }
     },
@@ -524,22 +524,22 @@
       }
     },
     {
-      "id": "ece65b820d75",
-      "title": "Legemiddelmangel - Direktoratet for samfunnssikkerhet og beredskap",
+      "id": "11193adef1cf",
+      "title": "Legemiddelmangel - dsb.no",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNekM1RWozbUNwak85M1QzcjlqQmZySkJMZVNnM3YwbzVqVWRDMVZNRlJVNF9NM3RPLThfNDdnQUJ2d2hLVFJZNHlsUTc2ZzZuVHdYWmdHamJEVFgxUHQzMlB0SlRfWTR0eWNaTmpSUXJlY2tJVmNOUHlpbGhwcjI1d0NSVDJMdnlLWVQ5Zkx4MWtrTGlNNWZqaUhMMDRVSkxXTVFOTTdFUEF1NjFHaG80OXNTZw?oc=5",
       "published": "2025-09-03T06:04:04+00:00",
       "source": {
-        "name": "Direktoratet for samfunnssikkerhet og beredskap",
+        "name": "dsb.no",
         "url": "https://www.dsb.no"
       }
     },
     {
-      "id": "a9b1b9c77a7b",
-      "title": "Medisiner, Kortvokste | Leo (5) får ikke medisinen han trenger - Nettavisen",
+      "id": "83a5e2d0066e",
+      "title": "Medisiner, Kortvokste | Leo (5) får ikke medisinen han trenger - nettavisen.no",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWFplY0JKd1dxdWxaUV8zblJuc3NWRUFVVzBpWGxjUlpIVzRHVnYtX3hObHNTMGRYUnNBekJTSDIwYnRRbTk5eVJfRXdkeTJmVE9ZMW0xSEFZc1g3anE2aUpLcWkzSHhFODRNdEo3ajllQnFPa0FPVFlPb2YzSzdpVzVtd2RtTjRVWWF4QzVKUnFNU2Ft?oc=5",
       "published": "2025-10-24T07:00:00+00:00",
       "source": {
-        "name": "Nettavisen",
+        "name": "nettavisen.no",
         "url": "https://www.nettavisen.no"
       }
     },
@@ -564,12 +564,12 @@
       }
     },
     {
-      "id": "6bae80839252",
-      "title": "Er alternativ medisin nøkkelen til å oppnå globale helsemål? - FN-sambandet",
+      "id": "f07eca43b5cd",
+      "title": "Er alternativ medisin nøkkelen til å oppnå globale helsemål? - fn.no",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTVczVVJ2WXoyZTNjaTlPUUdDMWhhOTFCVHlEVkJFTzNlYVJJV3pnR1NtSXNjX1VlVk8wRGQtbEFxWFdENHlwN1RsN0tPb0xCX0VJMnB3VUNoNEdpcUtHMDNuVVJOWW5HMzZ5WFZtdWd3OC1iTGtqZ2xhbFp1UnNSMGc1LTRxRmFyT0NUbU9R?oc=5",
       "published": "2023-08-18T07:00:00+00:00",
       "source": {
-        "name": "FN-sambandet",
+        "name": "fn.no",
         "url": "https://fn.no"
       }
     },
@@ -654,12 +654,12 @@
       }
     },
     {
-      "id": "c6caed0127fe",
-      "title": "Lanserer nytt norsk legemiddel mot hjerteinfarkt: – Vil kunne redde liv - Nettavisen",
+      "id": "60e2cd79ea6e",
+      "title": "Lanserer nytt norsk legemiddel mot hjerteinfarkt: – Vil kunne redde liv - nettavisen.no",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeFNjN3VmbEpEODhUbEJGS21OUTZnUVA0LVA3ZzUxLTQwN2pRQUZqM25LbzNqeml6cVg3cFd1WkUyVU1VbVM2eWF6RS0tcmhLcDZNeVZBR2JNVVBEejFSbW1XTDhLeFZVTVA3TnJZM3M4NWp0d2pkZm51TUdxM1NobjlVbm5uNVdGQTRpaEZPWUVKUHI1OVJhMHhOeC1ZNGFMeUZ0X0pTSXFIaHBqMURnSG9ac0xiQ2s?oc=5",
       "published": "2023-01-18T08:00:00+00:00",
       "source": {
-        "name": "Nettavisen",
+        "name": "nettavisen.no",
         "url": "https://www.nettavisen.no"
       }
     },
@@ -704,12 +704,12 @@
       }
     },
     {
-      "id": "395f71766c0b",
-      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - Stortinget",
+      "id": "bb3f7fd4a136",
+      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - Stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVGEwRnFBUFZPeFQ5Rnl0MjY4RV9VSFRGWmJrNDVFekdxLXZHNjBjZGVHbkYyeGJLd3FjS3Y4RWRaTlVwR01yS0ZFTzRlam9jYl9zcUJGaG5FZ2NUOWg4SEpCbmJNSEdxdWpNWUlTbXBWdUJ2TFZKWDFmRTdlQU84UWY1UGhORHVYOGowdzhfcUtPeHZTZmVaMG1VQ0V4Q2pST2xRc19sdkNfOVNJS2JCWTZybDA1Z041cGc4bw?oc=5",
       "published": "2025-03-31T03:18:30+00:00",
       "source": {
-        "name": "Stortinget",
+        "name": "Stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
@@ -744,12 +744,12 @@
       }
     },
     {
-      "id": "d12731491989",
-      "title": "Mener norske pasienter må vente for lenge på ny medisin: – Forferdet - Nettavisen",
+      "id": "109e93c9ab10",
+      "title": "Mener norske pasienter må vente for lenge på ny medisin: – Forferdet - nettavisen.no",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNR3FuNGlNV3lrQmhqWWg0cG9yV1pSclluN2VQZjN1azJuZW1WWGZwdXBBMHpkUDl5Y21XZ2MzaXFjT21TX0Q4amlGTGJIVEdqd0Iyd29mMDl5eC1NTUZibFZ3MVJNTmZUVzgzTXpveDg0d2J3WFRWTGlJSm5hN21CdUV4MWFEb0NjNndudXRCeUlPWHNEMmdoUVRtR1V0YXl1cHlrclRZdVNhUTFFZHFDWlZEUlNqUF9GenV0VTRpVHFFelRKUHRnSkJhRExRU3dxSDlreFJ2RlRRZw?oc=5",
       "published": "2025-05-08T07:00:00+00:00",
       "source": {
-        "name": "Nettavisen",
+        "name": "nettavisen.no",
         "url": "https://www.nettavisen.no"
       }
     },
@@ -864,12 +864,12 @@
       }
     },
     {
-      "id": "0b3bf4934607",
-      "title": "legemiddel, medisin og helse | Jubler for rekordsalg av reseptfri viagra, men sexolog steiler: – En fryktelig dårlig idé - Nettavisen",
+      "id": "834598ba9208",
+      "title": "legemiddel, medisin og helse | Jubler for rekordsalg av reseptfri viagra, men sexolog steiler: – En fryktelig dårlig idé - nettavisen.no",
       "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNS3FsMjRQZGdOV1FHdmpNcXVseUZJMGpucWpDZzg0WGNsNDl5blhiajd4MzVLMWJVelI5X2hWckJZa0JvaU5tRHhRMTlNMnVicEp6bmt2bXhkWFBlbmNzSjNKOGJDcU03MXNBMGk5VmVFVi1JTmVaQjMyczY5X0VtLU42bFpKOHhNQktRbmtGQ3VmazNGRjc2QlNYOUxwd29peFpIeFNtWGxpeHpjMm9kN1NFVUl4Tm5POV9Ja2JtMFRTcS1KVGR5d3ZuQ2FwV0VlQnB5eXRodmJjVmxPVU0xWGFiWkVuRDhadFg3d0hn?oc=5",
       "published": "2019-12-13T08:00:00+00:00",
       "source": {
-        "name": "Nettavisen",
+        "name": "nettavisen.no",
         "url": "https://www.nettavisen.no"
       }
     },
@@ -904,12 +904,12 @@
       }
     },
     {
-      "id": "9de5afe75cf3",
-      "title": "Legemiddelet forskerne håper kan gjøre oss mer ungdommelige - Nettavisen",
+      "id": "48fa1dec07e1",
+      "title": "Legemiddelet forskerne håper kan gjøre oss mer ungdommelige - nettavisen.no",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcFdrbTJFZzRRakFRNHJXVE9QTlctRFNaQUxmY3FyNU1KaGxrOGNiLS1xbXd2dzktVmRob21YeGVaeHdGM1I5MnYybC1JWGExeDVzYUtpMy1MSm90cF9KSjh6NTN1a3BnWTRySlNnS1BzSWRXeGpHcWs0cDdmTDVPaDA1LTkxODhnVDZ5SXY4cTUtTEx2N2t0WE1IR0hib0NDM1dnbnZqZkE4ZkRNclZpanNhdmpPZmZsaHotbWdJWVgyd0lDdy1GbF81X25OXy1rT0lNUk5XbkxqaEE?oc=5",
       "published": "2025-04-04T07:00:00+00:00",
       "source": {
-        "name": "Nettavisen",
+        "name": "nettavisen.no",
         "url": "https://www.nettavisen.no"
       }
     },
@@ -994,12 +994,12 @@
       }
     },
     {
-      "id": "41e688faf484",
-      "title": "Medisin/Helse, Sykdom | Strenge begrensninger på alle legemidler i Norge - Nettavisen",
+      "id": "8b4e83e0e0c7",
+      "title": "Medisin/Helse, Sykdom | Strenge begrensninger på alle legemidler i Norge - nettavisen.no",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWHQxUVFfWGlYbkN4LXdwa2dfOEtUM2lmZGxnX3lGYmtCRXdmZmVlMkJGdDJEZHhUdG9XQ3JDdi1qMElGSGs3UjRJNS1HS182cDlfVXVCa1lZMnloYXhQZ1hNcHRWLU8yN011N1FVNDRYYUNpMUV4cTJWMTdNZUZYNnJTYWxZZUdUa2RwaG1HNzBXSzZ3b2poUF9qbEloWnpDY0VZNDR5Q1Z4UlpDQThlXw?oc=5",
       "published": "2020-03-17T07:00:00+00:00",
       "source": {
-        "name": "Nettavisen",
+        "name": "nettavisen.no",
         "url": "https://www.nettavisen.no"
       }
     }
