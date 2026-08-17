@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-17T18:40:28.123455+00:00",
+  "fetched_at": "2026-08-17T19:29:12.478953+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,16 +24,6 @@
       }
     },
     {
-      "id": "76747fbfd31e",
-      "title": "Helse, Medisin | Vanlig smertestillende kan gi alvorlig leverskade - Karmøynytt",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNT3NrMGZjOGo4NnNFNE0wNkJsRjZXOEZiRmZEbUp0VmZFWEVMNHE3OHlUblBuaHFCRHNDQnFUMW9WajNBZzRqRkZZRFA0NnVxTFJCVGNhcUEzbWpkUEdEaEg5SlFXZkQ4VFl2WXc0R0Izd3FuNkkzWk11UUtQc3R5M0VrdmM3NnJFUnFFeFRzbGU2Tkhk?oc=5",
-      "published": "2026-08-13T09:44:00+00:00",
-      "source": {
-        "name": "Karmøynytt",
-        "url": "https://www.karmoynytt.no"
-      }
-    },
-    {
       "id": "3fb851cccd40",
       "title": "Legemiddelbruk i Norge - Folkehelseinstituttet - FHI",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5qQ3duRnFiNmRhOU1xcG1Vcm81QXctQzg5cV9fSlNjdjdINl9ZZDVXSlhTQ01uSHI4Q1FUQXp6LV9aNHpvLTlrSFh6UmRqSHU2elNhcm13RW9WTU8wMnNyZVZTRU5oS3Z1R29xNDdaTzZUbVJjd2FN?oc=5",
@@ -44,13 +34,13 @@
       }
     },
     {
-      "id": "3f2a174181c2",
-      "title": "Fleirtal vil ha meir helsehjelp på apoteket - bomlo-nytt.no",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMl9aSS1mclF0Z2trZFVyRjJMS2hPdlQybVBhVm1Vb3d3NGdsV1BKT3FTdGJsSFRTemU1MENlNnp0X2dSU01ZSzZiNFN3WnpBSzRYOEEtY1N2STQxalJKQms0OEV1SjhoSzFwY0tuWnM1Q2c4M2R1ZVBYbU9ncjNiVmdXLUhEMmFqeVdXay1XOEM?oc=5",
-      "published": "2026-08-11T16:00:00+00:00",
+      "id": "76747fbfd31e",
+      "title": "Helse, Medisin | Vanlig smertestillende kan gi alvorlig leverskade - Karmøynytt",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNT3NrMGZjOGo4NnNFNE0wNkJsRjZXOEZiRmZEbUp0VmZFWEVMNHE3OHlUblBuaHFCRHNDQnFUMW9WajNBZzRqRkZZRFA0NnVxTFJCVGNhcUEzbWpkUEdEaEg5SlFXZkQ4VFl2WXc0R0Izd3FuNkkzWk11UUtQc3R5M0VrdmM3NnJFUnFFeFRzbGU2Tkhk?oc=5",
+      "published": "2026-08-13T09:44:00+00:00",
       "source": {
-        "name": "bomlo-nytt.no",
-        "url": "https://www.bomlo-nytt.no"
+        "name": "Karmøynytt",
+        "url": "https://www.karmoynytt.no"
       }
     },
     {
@@ -61,6 +51,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "3f2a174181c2",
+      "title": "Fleirtal vil ha meir helsehjelp på apoteket - bomlo-nytt.no",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMl9aSS1mclF0Z2trZFVyRjJMS2hPdlQybVBhVm1Vb3d3NGdsV1BKT3FTdGJsSFRTemU1MENlNnp0X2dSU01ZSzZiNFN3WnpBSzRYOEEtY1N2STQxalJKQms0OEV1SjhoSzFwY0tuWnM1Q2c4M2R1ZVBYbU9ncjNiVmdXLUhEMmFqeVdXay1XOEM?oc=5",
+      "published": "2026-08-11T16:00:00+00:00",
+      "source": {
+        "name": "bomlo-nytt.no",
+        "url": "https://www.bomlo-nytt.no"
       }
     },
     {
@@ -824,12 +824,12 @@
       }
     },
     {
-      "id": "8f9a5a0fdc41",
-      "title": "Medisiner, Smugling | Advarer om smuglede medisiner: – Gambler med liv og helse - nationen.no",
+      "id": "f80bd5353b9b",
+      "title": "Medisiner, Smugling | Advarer om smuglede medisiner: – Gambler med liv og helse - Nationen",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYWczY01wdzhrY045WExXdDRrU2FybzFlbXBXd04zZ0pBTXVhVl9EOHh4Mmh1bVpsVlA3S1BaTWlVRWw1XzdxRjU1eHBDWjh2N3ZmOE9MbHJQMmJ0cHRHY0ZDUU84VnFKTGstUmQyZ3UwTUJIQVpSYkY5TnI2VWFBQVJPeV8zYlZKR2c2UTF6N0ctZkFBVG0zMg?oc=5",
       "published": "2025-06-27T07:00:00+00:00",
       "source": {
-        "name": "nationen.no",
+        "name": "Nationen",
         "url": "https://www.nationen.no"
       }
     },
