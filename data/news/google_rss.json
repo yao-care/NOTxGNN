@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-18T16:32:59.399793+00:00",
+  "fetched_at": "2026-08-18T17:28:01.530079+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -104,16 +104,6 @@
       }
     },
     {
-      "id": "3f2a174181c2",
-      "title": "Fleirtal vil ha meir helsehjelp på apoteket - bomlo-nytt.no",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMl9aSS1mclF0Z2trZFVyRjJMS2hPdlQybVBhVm1Vb3d3NGdsV1BKT3FTdGJsSFRTemU1MENlNnp0X2dSU01ZSzZiNFN3WnpBSzRYOEEtY1N2STQxalJKQms0OEV1SjhoSzFwY0tuWnM1Q2c4M2R1ZVBYbU9ncjNiVmdXLUhEMmFqeVdXay1XOEM?oc=5",
-      "published": "2026-08-11T16:00:00+00:00",
-      "source": {
-        "name": "bomlo-nytt.no",
-        "url": "https://www.bomlo-nytt.no"
-      }
-    },
-    {
       "id": "11db5a9eb287",
       "title": "(+) 450.000 gamle resepter fjernet fra Pasientens legemiddelliste - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMFNLQndUdkh3T1hnVEJjZ3dObFQxRDBfd3Z1MkE4d190aGxIcDdWbDNsUF8xdXJpcWRURDdTakk1YXBTVjFveHdNZm5FbjEyaTlvM1hXNUZWRmxjU3JYakdZN0JpSlpVN1FpaWVxRFE2S3piNnhaOEppVTcyOXZxZC0yemtsamc5YjlrQ29OQm1wQl9SQWxiMDBmcE5qUHlJcDFnNE5NN2pwOW1CZkNKUHRWMFFhVHFNd1V1WmJDQzlVOWlES24xb0VGTXhLV3pyQXNoaC1B?oc=5",
@@ -124,13 +114,23 @@
       }
     },
     {
-      "id": "08e9b2eb828a",
-      "title": "Professor advarer: De fleste medisiner virker langt mindre enn du tror - aftenposten.no",
+      "id": "2889197de9e1",
+      "title": "Professor advarer: De fleste medisiner virker langt mindre enn du tror - Aftenposten",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYnN2bWZheThpWlFnVmNtQnN5aU95U0ZQMVZVY0ZkM2swUkgwczFxUjFHUzFMbk9RdkNBMFc4dU91RlRORnYxU01PVFBoZ2ctRERhUlRfajhrSGN0YjRraGs5S0I4OEJxRTV3Mnh2TVRHeGxBdkVLVWdzMUVJU0JfLXpiNEFpbmJ2WTB3UWFjbFdRLTVyLVkxakdOYzBSTnI5U0tuRFh3QjMtWjdxWWxlQw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "aftenposten.no",
+        "name": "Aftenposten",
         "url": "https://www.aftenposten.no"
+      }
+    },
+    {
+      "id": "3f2a174181c2",
+      "title": "Fleirtal vil ha meir helsehjelp på apoteket - bomlo-nytt.no",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMl9aSS1mclF0Z2trZFVyRjJMS2hPdlQybVBhVm1Vb3d3NGdsV1BKT3FTdGJsSFRTemU1MENlNnp0X2dSU01ZSzZiNFN3WnpBSzRYOEEtY1N2STQxalJKQms0OEV1SjhoSzFwY0tuWnM1Q2c4M2R1ZVBYbU9ncjNiVmdXLUhEMmFqeVdXay1XOEM?oc=5",
+      "published": "2026-08-11T16:00:00+00:00",
+      "source": {
+        "name": "bomlo-nytt.no",
+        "url": "https://www.bomlo-nytt.no"
       }
     },
     {
@@ -394,12 +394,12 @@
       }
     },
     {
-      "id": "18a5b7f52574",
-      "title": "Vedtar å gi alvorlig syke bedre tilgang til utprøvende medisiner. – Det gir håp - aftenposten.no",
+      "id": "4ec54ca0e0c5",
+      "title": "Vedtar å gi alvorlig syke bedre tilgang til utprøvende medisiner. – Det gir håp - Aftenposten",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOejM2REVkalM3cl9LOXpGSF9sU1BpY080Y2pNaHFwcTIzZDhwbThEc0IxUm51TzliaEVlZWJDeXR1LTNvY3NUcEw2WGJvU3hrSUY1SkNnbHExTnNhdHJYT2dILVFEcTNzbVRqMFg3MEFsTmpsV1NGazFoLTE2eENhVTFiX1NLWDg0ckZIclZCSnBqTVowMFhvV2lzdVVGd1JFZTgtOGZmT1NGMHZzeVBzTEF6ZkRfUQ?oc=5",
       "published": "2026-03-03T08:00:00+00:00",
       "source": {
-        "name": "aftenposten.no",
+        "name": "Aftenposten",
         "url": "https://www.aftenposten.no"
       }
     },
@@ -411,6 +411,16 @@
       "source": {
         "name": "Budstikka",
         "url": "https://www.budstikka.no"
+      }
+    },
+    {
+      "id": "012123076749",
+      "title": "Helse, Horten | Ansatt i Horten kommune stjal medisiner – pasienter fikk falske tabletter - Gjengangeren",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWDl5LU1meHNwdl8yampEczg2NTZvZWUyMnZWODlYVFJtY1RPcEVQa0JJcnFheUZ3Z3h5RDJqY2Q1bXkzY3FlZV9hc0syTWhaQ2NkRkJhcmp5QXhKX09BaGEwdktXZDkzQlROVC02V1FqWGhCbElYb1pIaUpsX1A0cGpjODRqZ1R0T1d3YnRzQkE1azlZVFJ3TjBycTNkZmxPWVlWT05RQUEtRjUyVG9kYVlLOEw?oc=5",
+      "published": "2026-03-23T07:00:00+00:00",
+      "source": {
+        "name": "Gjengangeren",
+        "url": "https://www.gjengangeren.no"
       }
     },
     {
@@ -434,22 +444,12 @@
       }
     },
     {
-      "id": "012123076749",
-      "title": "Helse, Horten | Ansatt i Horten kommune stjal medisiner – pasienter fikk falske tabletter - Gjengangeren",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWDl5LU1meHNwdl8yampEczg2NTZvZWUyMnZWODlYVFJtY1RPcEVQa0JJcnFheUZ3Z3h5RDJqY2Q1bXkzY3FlZV9hc0syTWhaQ2NkRkJhcmp5QXhKX09BaGEwdktXZDkzQlROVC02V1FqWGhCbElYb1pIaUpsX1A0cGpjODRqZ1R0T1d3YnRzQkE1azlZVFJ3TjBycTNkZmxPWVlWT05RQUEtRjUyVG9kYVlLOEw?oc=5",
-      "published": "2026-03-23T07:00:00+00:00",
-      "source": {
-        "name": "Gjengangeren",
-        "url": "https://www.gjengangeren.no"
-      }
-    },
-    {
-      "id": "0367691d5490",
-      "title": "Eldre i Larvik får færre medisiner - op.no",
+      "id": "77966db9a0c0",
+      "title": "Eldre i Larvik får færre medisiner - Østlands-Posten",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPakRTWk5KLWtPMWMtbjVpMl80V2Nrdm9SU3pDSnU2NjBPdHFMaGRzd29LenR6QXoyZ3dMZzNpbGk1VHRWa2xxbmFTaktjd3Q2d3NDV1N3UkE2T1NhdzI3WmNhR095SXppekhPZVZrOXNSOUtLQUswTmFfWktBektfQnBUcUxMZjZFcGxVSWQyWW9UcWxaU29DSV9LSlExSHJfVUhXeXdHNTY?oc=5",
       "published": "2026-06-20T07:00:00+00:00",
       "source": {
-        "name": "op.no",
+        "name": "Østlands-Posten",
         "url": "https://www.op.no"
       }
     },
@@ -834,12 +834,12 @@
       }
     },
     {
-      "id": "bfa801efe533",
-      "title": "Helseministeren får sterk kritikk for skjult liste over medisiner: Hundretusener kan bli berørt - aftenposten.no",
+      "id": "cb37cea4aa7f",
+      "title": "Helseministeren får sterk kritikk for skjult liste over medisiner: Hundretusener kan bli berørt - Aftenposten",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNTZ2bzV4d2pmX051QnlaQzBteHg3TWZ1bS1zUzZrdk14NDBmckg1VnNJdThKQ3p4X3g5Nm44dHhXVFpSOWZXVVduOWdCQWVuQzI0ZWoxTU1BdzBRY1VudmlpUnNwTC1uLWdzRTFDRXFFLVl3bXZpX3NfeUNTamszVEZkYTI0c2Q1Rm9xQzFPX0tRYnZNU0M4SmZSVlp3RC1MNDQxM2RhbGpIcjY0T3VRc1lLbmo0bE82d2Z3?oc=5",
       "published": "2023-11-06T08:00:00+00:00",
       "source": {
-        "name": "aftenposten.no",
+        "name": "Aftenposten",
         "url": "https://www.aftenposten.no"
       }
     },
