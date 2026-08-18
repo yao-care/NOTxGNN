@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-17T23:24:25.266049+00:00",
+  "fetched_at": "2026-08-18T01:18:15.020759+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,22 +14,22 @@
       }
     },
     {
-      "id": "6f0a29671918",
-      "title": "Nedgang i bruk av vanedannande legemiddel hos eldre - helsedirektoratet.no",
+      "id": "4f989bd3393b",
+      "title": "Nedgang i bruk av vanedannande legemiddel hos eldre - Helsedirektoratet",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUTVvZ21Kd3VQOUhyWFhjX1BMcU1fSUtQcGdocGk5X3B6bFNsLU81SzBtRkZMaDVhT0U4aXhIai1sOUpMU2tKQTJCSDB5UUdJbjVaa2hRMXg0RGxXUTdrWGVPcDJveVdiOVlRT3duV2t0NkdZejB0TlBYTjlLT1VZaERqQXBac09tRU5PMnZVVUpRTXdxdWJR?oc=5",
       "published": "2026-06-11T06:10:14+00:00",
       "source": {
-        "name": "helsedirektoratet.no",
+        "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
       }
     },
     {
-      "id": "44070eae20a9",
-      "title": "Legemiddelbruk i Norge - fhi.no",
+      "id": "3fb851cccd40",
+      "title": "Legemiddelbruk i Norge - Folkehelseinstituttet - FHI",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5qQ3duRnFiNmRhOU1xcG1Vcm81QXctQzg5cV9fSlNjdjdINl9ZZDVXSlhTQ01uSHI4Q1FUQXp6LV9aNHpvLTlrSFh6UmRqSHU2elNhcm13RW9WTU8wMnNyZVZTRU5oS3Z1R29xNDdaTzZUbVJjd2FN?oc=5",
       "published": "2026-06-16T07:00:00+00:00",
       "source": {
-        "name": "fhi.no",
+        "name": "Folkehelseinstituttet - FHI",
         "url": "https://www.fhi.no"
       }
     },
@@ -84,16 +84,6 @@
       }
     },
     {
-      "id": "3f2a174181c2",
-      "title": "Fleirtal vil ha meir helsehjelp på apoteket - bomlo-nytt.no",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMl9aSS1mclF0Z2trZFVyRjJMS2hPdlQybVBhVm1Vb3d3NGdsV1BKT3FTdGJsSFRTemU1MENlNnp0X2dSU01ZSzZiNFN3WnpBSzRYOEEtY1N2STQxalJKQms0OEV1SjhoSzFwY0tuWnM1Q2c4M2R1ZVBYbU9ncjNiVmdXLUhEMmFqeVdXay1XOEM?oc=5",
-      "published": "2026-08-11T16:00:00+00:00",
-      "source": {
-        "name": "bomlo-nytt.no",
-        "url": "https://www.bomlo-nytt.no"
-      }
-    },
-    {
       "id": "055bde4d929d",
       "title": "Flere eldre kan hente medisin på apotek - Bergen kommune",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUUt4cU1YcTRnVzJsQUNJQ1BMRTJEWGl5bmdEVlYwZXpmb1pEaVA0d20yczVIR2ZyRE83MloyWDVrbGJhd0lXTU0yMmZUYjdrLW9aUW9vV2xLTXBUaXlRcFN3cXNjY0cyU1FLbldLX3FPTWJJdmVIX2FrSmE2NGp1OGphenNmVTl5UXF0WEhObC1tWElMVkF6S3BPQ1gzcml6MDBPTkcwcFRDUQ?oc=5",
@@ -101,6 +91,16 @@
       "source": {
         "name": "Bergen kommune",
         "url": "https://www.bergen.kommune.no"
+      }
+    },
+    {
+      "id": "3f2a174181c2",
+      "title": "Fleirtal vil ha meir helsehjelp på apoteket - bomlo-nytt.no",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMl9aSS1mclF0Z2trZFVyRjJMS2hPdlQybVBhVm1Vb3d3NGdsV1BKT3FTdGJsSFRTemU1MENlNnp0X2dSU01ZSzZiNFN3WnpBSzRYOEEtY1N2STQxalJKQms0OEV1SjhoSzFwY0tuWnM1Q2c4M2R1ZVBYbU9ncjNiVmdXLUhEMmFqeVdXay1XOEM?oc=5",
+      "published": "2026-08-11T16:00:00+00:00",
+      "source": {
+        "name": "bomlo-nytt.no",
+        "url": "https://www.bomlo-nytt.no"
       }
     },
     {
@@ -174,12 +174,12 @@
       }
     },
     {
-      "id": "2a2efc97f12c",
-      "title": "Sosiale forskjeller i fedme og bruk av vektreduserende legemidler - fhi.no",
+      "id": "3c7d33d8f638",
+      "title": "Sosiale forskjeller i fedme og bruk av vektreduserende legemidler - Folkehelseinstituttet - FHI",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNkU2bktLeTBNMVRfYllDMHlhQzBJZXAxS0loS2hIenVrZmUxbkJ4NzdkY2h6cTRCT2tCZ1hDY1J1dkNEN1hlbWQzaGQzQ2JVNWc4NHprWUpUaFVvdnNlazhXeDNkazZsVE9sOTJKUFlPVS01MUgxbVZodTRQN2VEWTl2VC1kZlRKMWlhY2c3bw?oc=5",
       "published": "2026-06-25T07:00:00+00:00",
       "source": {
-        "name": "fhi.no",
+        "name": "Folkehelseinstituttet - FHI",
         "url": "https://www.fhi.no"
       }
     },
@@ -364,12 +364,12 @@
       }
     },
     {
-      "id": "750f0c972289",
-      "title": "Helse, Legemidler | Cristian Brennhovd risikerer legemiddel-bot - Budstikka",
+      "id": "3fe6126a9e85",
+      "title": "Helse, Legemidler | Cristian Brennhovd risikerer legemiddel-bot - budstikka.no",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPS0FBZGs3OTlnZmdpei1LemYtMENBcnZTT2RiV0tINHdNcXcyYmJWZFRMdlNMNkl3TkRQSmZPZDJpRkk5VjZoNXB3VDJwQVV1YWJhaTRFR0JzMFRxSkZGaVgtN194Tzc0b2ZOVlR0QXB0SDMxWXhtSE43SFYwaTFUX1ZZamRFS2Vnc1c0?oc=5",
       "published": "2026-01-08T08:00:00+00:00",
       "source": {
-        "name": "Budstikka",
+        "name": "budstikka.no",
         "url": "https://www.budstikka.no"
       }
     },
@@ -384,12 +384,12 @@
       }
     },
     {
-      "id": "f89e73cbc8de",
-      "title": "Helse, Horten | Ansatt i Horten kommune stjal medisiner – pasienter fikk falske tabletter - gjengangeren.no",
+      "id": "012123076749",
+      "title": "Helse, Horten | Ansatt i Horten kommune stjal medisiner – pasienter fikk falske tabletter - Gjengangeren",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWDl5LU1meHNwdl8yampEczg2NTZvZWUyMnZWODlYVFJtY1RPcEVQa0JJcnFheUZ3Z3h5RDJqY2Q1bXkzY3FlZV9hc0syTWhaQ2NkRkJhcmp5QXhKX09BaGEwdktXZDkzQlROVC02V1FqWGhCbElYb1pIaUpsX1A0cGpjODRqZ1R0T1d3YnRzQkE1azlZVFJ3TjBycTNkZmxPWVlWT05RQUEtRjUyVG9kYVlLOEw?oc=5",
       "published": "2026-03-23T07:00:00+00:00",
       "source": {
-        "name": "gjengangeren.no",
+        "name": "Gjengangeren",
         "url": "https://www.gjengangeren.no"
       }
     },
@@ -404,12 +404,12 @@
       }
     },
     {
-      "id": "c4a433fa4eab",
-      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - Stortinget.no",
+      "id": "4b273316c354",
+      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - Stortinget",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjQ0cWxEYW91Y2d1SDZRZU9aM1lNaXg1cTROb0hKMk1INUlOZmh2dzB1V3o0dHU4SHNZUGNGMlRTQjJSZEhmdWJXMGlyOGlqbE5Ic0JDUk8xd1Nsam9KVXVZUmhMXzk4M0w1OVpaQmhmNENRXzE1cFlRWWt5bXpJekU1YnVyNzVPQ1FlX3IyMWNKSXJ0Z3p2ZDdpYVZKWVo0SXE3T3duMDBvYlBQOHNjTm95UEJVY0kzRXZudg?oc=5",
       "published": "2025-10-12T14:11:53+00:00",
       "source": {
-        "name": "Stortinget.no",
+        "name": "Stortinget",
         "url": "https://www.stortinget.no"
       }
     },
@@ -464,12 +464,12 @@
       }
     },
     {
-      "id": "78fd98393f29",
-      "title": "I disse fylkene brukte de mest legemidler i 2025 - ABC Nyheter",
+      "id": "cb5d8ce97076",
+      "title": "I disse fylkene brukte de mest legemidler i 2025 - abcnyheter.no",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVUJubnd5NmJMdHhkbU5TQ3hfZTF5eFZHUWFDVVVybkktRzVnRnd0dUQxajEwc0J0T2RQcWIyNVNickFabkhyR3pnSHJ0U0NxZ0FSZWpNdUJ4eG5hVHZ4VzhwdDRYbXBMRXR4eEFucWJzNlBkOE4tLVB4ZHZyQXBFWXdRVmE4NWJyZi1QUGNZRmhDLWIz?oc=5",
       "published": "2026-03-06T08:00:00+00:00",
       "source": {
-        "name": "ABC Nyheter",
+        "name": "abcnyheter.no",
         "url": "https://www.abcnyheter.no"
       }
     },
@@ -484,16 +484,6 @@
       }
     },
     {
-      "id": "7ff2c2e75675",
-      "title": "Et eksperiment med potensielt stor risiko for pasientene - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeHV0b21rQ0ZYSjRiOF9RSTdjcmdUX3ZaX2hhbTB2RlpTRVhVaWJUeGpNX1RhX1VnbzdoN1hLY0thVmZoZTBCaXpNYUFiOFNzS2RwTVlHUDJUMWJ1U2RZelRra3BtOEV0a3JsNTlYd2xvQUQ5NFRidlUwZmo4Tk5YX1lJeEdQc3F1QUwwaF91ZWRsTFZ6VFRyaVR2MUhrbEJkY3lkLTdwZXlYMGtYcHNLX3JsRHFUZ0d6dWYwSkRYaFdYZXQ1Mmc?oc=5",
-      "published": "2025-09-12T07:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
       "id": "cca96e95761d",
       "title": "Ny studie: Store forskjeller mellom ulike antidepressive legemidler - VG",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTlVxWG03ZndxZzQzNzB5ek5xbEx1VFEzbmJJeTFFZzkxMEVUM0FYMVUzRlpRdHI1SXk0NGNsOXhjOHFobmxLZU1ZYmdGWEpDSzc1bE1sS0xIMGFtXzM1R3dIWUw4Y1ZWSGpKTTNIdUxBbVFURkhiSl9DNkpRaGF6VkVxb0FLdEFiLWNUYXR4TWtKQQ?oc=5",
@@ -501,6 +491,16 @@
       "source": {
         "name": "VG",
         "url": "https://www.vg.no"
+      }
+    },
+    {
+      "id": "7ff2c2e75675",
+      "title": "Et eksperiment med potensielt stor risiko for pasientene - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeHV0b21rQ0ZYSjRiOF9RSTdjcmdUX3ZaX2hhbTB2RlpTRVhVaWJUeGpNX1RhX1VnbzdoN1hLY0thVmZoZTBCaXpNYUFiOFNzS2RwTVlHUDJUMWJ1U2RZelRra3BtOEV0a3JsNTlYd2xvQUQ5NFRidlUwZmo4Tk5YX1lJeEdQc3F1QUwwaF91ZWRsTFZ6VFRyaVR2MUhrbEJkY3lkLTdwZXlYMGtYcHNLX3JsRHFUZ0d6dWYwSkRYaFdYZXQ1Mmc?oc=5",
+      "published": "2025-09-12T07:00:00+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -704,12 +704,12 @@
       }
     },
     {
-      "id": "bb3f7fd4a136",
-      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - Stortinget.no",
+      "id": "395f71766c0b",
+      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - Stortinget",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVGEwRnFBUFZPeFQ5Rnl0MjY4RV9VSFRGWmJrNDVFekdxLXZHNjBjZGVHbkYyeGJLd3FjS3Y4RWRaTlVwR01yS0ZFTzRlam9jYl9zcUJGaG5FZ2NUOWg4SEpCbmJNSEdxdWpNWUlTbXBWdUJ2TFZKWDFmRTdlQU84UWY1UGhORHVYOGowdzhfcUtPeHZTZmVaMG1VQ0V4Q2pST2xRc19sdkNfOVNJS2JCWTZybDA1Z041cGc4bw?oc=5",
       "published": "2025-03-31T03:18:30+00:00",
       "source": {
-        "name": "Stortinget.no",
+        "name": "Stortinget",
         "url": "https://www.stortinget.no"
       }
     },
@@ -794,12 +794,12 @@
       }
     },
     {
-      "id": "6747b2d3434e",
-      "title": "Helsehjelp og forebygging - helsedirektoratet.no",
+      "id": "fd3f8ebd3f42",
+      "title": "Helsehjelp og forebygging - Helsedirektoratet",
       "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNYnN6ZFJLd29qRUhBREtrNC1PTHR1X2s1Q3BNRkFCVFRrcTlhT0lleUtWZ2dKWVFvQUV0OFczejNJaXJLckh3WmFWMVRHbVdOOWxOT2N5YWo5SWcxVWtWd2laVW1fVEVacjVrWDVZSU1HYjJnbUhXZUJYV19PdVlUSlBVdkhFNFVYWTJybkJrdHJKdXN3dzdhYmFSOWZXNXk3N3FIQkwwN000YjhJMGRSRGpINFhvVDNVdlhLOEYzZG1jb2JWekdzc1kzbkZYTFJ2aWUtc2N4UUpNeGEyUDBIU2lsVVZuZHYtN1Y3Q0lpWXdvZlNoWmN2ZHFiUXdteEtGR2k5RzRqM1VMRTlSdS03MGExVVZ5MHRxdFE?oc=5",
       "published": "2025-02-01T08:00:00+00:00",
       "source": {
-        "name": "helsedirektoratet.no",
+        "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
       }
     },
