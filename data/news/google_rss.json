@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-21T03:04:02.871434+00:00",
+  "fetched_at": "2026-08-21T04:39:32.107601+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,16 +14,6 @@
       }
     },
     {
-      "id": "fd7a4f939243",
-      "title": "Debatt: Demens kan behandles bedre - medwatch.no",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xUVh6RHFxNE9OVTBNM0oyZHNaamVNOG91RC1mVUF6UndfdkhfNFpzT1BrWklydGlDaWYzR3dpOUJmZERXNGJ3VFc0ZmYwNUNyWjBkM1RzT3NiTUllNVY0dGhTV0M?oc=5",
-      "published": "2026-08-20T07:54:52+00:00",
-      "source": {
-        "name": "medwatch.no",
-        "url": "https://medwatch.no"
-      }
-    },
-    {
       "id": "c39dd6ee39f8",
       "title": "Digital portal for meir rettferdig tilgang til legemiddel - Helse Bergen",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSVJnZkNVNlpEYmhaXzdUcTFiSi1LcGktbnJWcU9CSVFac3UyOXRmeXdsMHlMVUhTMU42Wlg5Qy11NDRiWmU5aldDaDJ1RF9xdGMzenhNSF9QaGo1MjJRU3RMR0FNRHBXOEtDdm9RaTdYNzItTW92amZMUVpuZUY4bEpLMTMyY1lsYUZxTmt1VHpiQ1JrSjg2R1ljTmZnNkVqYzF4ZGN2N3VXWkRReGV6M21lNW15Q3RmRDI1S0RlOTcxRG1XU3VIYw?oc=5",
@@ -31,6 +21,16 @@
       "source": {
         "name": "Helse Bergen",
         "url": "https://www.helse-bergen.no"
+      }
+    },
+    {
+      "id": "fd7a4f939243",
+      "title": "Debatt: Demens kan behandles bedre - medwatch.no",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xUVh6RHFxNE9OVTBNM0oyZHNaamVNOG91RC1mVUF6UndfdkhfNFpzT1BrWklydGlDaWYzR3dpOUJmZERXNGJ3VFc0ZmYwNUNyWjBkM1RzT3NiTUllNVY0dGhTV0M?oc=5",
+      "published": "2026-08-20T07:54:52+00:00",
+      "source": {
+        "name": "medwatch.no",
+        "url": "https://medwatch.no"
       }
     },
     {
