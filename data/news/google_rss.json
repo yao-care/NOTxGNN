@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-22T09:27:47.571575+00:00",
+  "fetched_at": "2026-08-22T10:24:41.717102+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -464,12 +464,12 @@
       }
     },
     {
-      "id": "4b273316c354",
-      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - Stortinget",
+      "id": "c4a433fa4eab",
+      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - Stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjQ0cWxEYW91Y2d1SDZRZU9aM1lNaXg1cTROb0hKMk1INUlOZmh2dzB1V3o0dHU4SHNZUGNGMlRTQjJSZEhmdWJXMGlyOGlqbE5Ic0JDUk8xd1Nsam9KVXVZUmhMXzk4M0w1OVpaQmhmNENRXzE1cFlRWWt5bXpJekU1YnVyNzVPQ1FlX3IyMWNKSXJ0Z3p2ZDdpYVZKWVo0SXE3T3duMDBvYlBQOHNjTm95UEJVY0kzRXZudg?oc=5",
       "published": "2025-10-12T14:11:53+00:00",
       "source": {
-        "name": "Stortinget",
+        "name": "Stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
@@ -594,6 +594,16 @@
       }
     },
     {
+      "id": "6b06c2ee1334",
+      "title": "Kjendiser bruker det for å bremse aldring, men hva vet vi egentlig om rapamycin? - Forskning.no",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQ3kzSjc5blpMU09FXzVyNlZYdW5hWG1uYjJDZHBSTjBLWnV2TE1TOWJrVTRCZllaOHhPREI4QzZiNkdRN2FhOEtOSlJwUWpJbGJEWkFnRGZxLUZJWTR6OEw3M1NiMElMZGVKLUwzM3F2VWp2TlNHLWZ6aVZtWUVBSlpTSHVITUNiRkFob1lVbzZNSGJRbVplOGdPMmt3RXAzRW91Vm9EX1RrRnB0aXlsVHBfYnk4R3g3NHpacllKRm9JMjFpT2FtUC01cWo1QTY0YUpRNlJtUnNvYXgxRldKdmhtM0FGNGc?oc=5",
+      "published": "2025-09-21T07:00:00+00:00",
+      "source": {
+        "name": "Forskning.no",
+        "url": "https://www.forskning.no"
+      }
+    },
+    {
       "id": "e9850f696bdd",
       "title": "Helse, Legemiddel | Den sovjetiske propagandaplakaten - og det nordnorske helsevesenet - Nordnorsk debatt",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWTNobTZwbG9hMDhEMERNazBxRTVpRU1aRjBkd09oci1OTlcxMG5vNU9WYzJMVHZ1MWdLMERyb3VmUkdKZWR6U1daQXBHQXlxYzcyY2RkYjZ6WEZuOTFBWnBiQmNTZV9Hd3lTNHBtWnI4STQyRUE0NVNmNzVvbVlGUXJnRUdPZlFkYVNlQnZ5ZmJMTWZHNmdLN2JJMExWdzhYZDhHelB4ZGJKUkt3M0hz?oc=5",
@@ -694,23 +704,13 @@
       }
     },
     {
-      "id": "395f71766c0b",
-      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - Stortinget",
+      "id": "bb3f7fd4a136",
+      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - Stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVGEwRnFBUFZPeFQ5Rnl0MjY4RV9VSFRGWmJrNDVFekdxLXZHNjBjZGVHbkYyeGJLd3FjS3Y4RWRaTlVwR01yS0ZFTzRlam9jYl9zcUJGaG5FZ2NUOWg4SEpCbmJNSEdxdWpNWUlTbXBWdUJ2TFZKWDFmRTdlQU84UWY1UGhORHVYOGowdzhfcUtPeHZTZmVaMG1VQ0V4Q2pST2xRc19sdkNfOVNJS2JCWTZybDA1Z041cGc4bw?oc=5",
       "published": "2025-03-31T03:18:30+00:00",
       "source": {
-        "name": "Stortinget",
+        "name": "Stortinget.no",
         "url": "https://www.stortinget.no"
-      }
-    },
-    {
-      "id": "90921fcbbc80",
-      "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
-      "published": "2018-10-05T07:00:00+00:00",
-      "source": {
-        "name": "Fremover",
-        "url": "https://www.fremover.no"
       }
     },
     {
@@ -721,6 +721,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "90921fcbbc80",
+      "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
+      "published": "2018-10-05T07:00:00+00:00",
+      "source": {
+        "name": "Fremover",
+        "url": "https://www.fremover.no"
       }
     },
     {
@@ -741,6 +751,16 @@
       "source": {
         "name": "VG",
         "url": "https://www.vg.no"
+      }
+    },
+    {
+      "id": "b8f5958746a6",
+      "title": "Legemiddel skaper frykt i idrettsverdenen: – Det drepte meg nesten - Rana Blad",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNN2tUbFBBTjZJRzJLSkpReno1N3U3aFRMSFlZY0t0SElWVmRDcVhjLVlJNEtrYlBncUNRejI0TldJUkJycDZEZjR2aGQ0SnNocEZPZ1hNM2N1YTkyVllkX2JWV1RvbnNDd1JPeEV3ai1XbkxCejV0TGpuWnVta0JnYzBhNHBDTXpfRnllaGk1aUxXb1RfRVAySHo5SXpBekt1WnJUaw?oc=5",
+      "published": "2023-11-15T08:00:00+00:00",
+      "source": {
+        "name": "Rana Blad",
+        "url": "https://www.ranablad.no"
       }
     },
     {
@@ -791,16 +811,6 @@
       "source": {
         "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
-      }
-    },
-    {
-      "id": "b8f5958746a6",
-      "title": "Legemiddel skaper frykt i idrettsverdenen: – Det drepte meg nesten - Rana Blad",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNN2tUbFBBTjZJRzJLSkpReno1N3U3aFRMSFlZY0t0SElWVmRDcVhjLVlJNEtrYlBncUNRejI0TldJUkJycDZEZjR2aGQ0SnNocEZPZ1hNM2N1YTkyVllkX2JWV1RvbnNDd1JPeEV3ai1XbkxCejV0TGpuWnVta0JnYzBhNHBDTXpfRnllaGk1aUxXb1RfRVAySHo5SXpBekt1WnJUaw?oc=5",
-      "published": "2023-11-15T08:00:00+00:00",
-      "source": {
-        "name": "Rana Blad",
-        "url": "https://www.ranablad.no"
       }
     },
     {
@@ -954,6 +964,16 @@
       }
     },
     {
+      "id": "34aca6f9953d",
+      "title": "Nå kan du handle medisiner på nettet - iFinnmark",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeHpKMkhIWW1xcFNnNDF1Tk56SU5uN1U5eFVmdnpvREsyUk9uOVV0dlRtVEVmN0FhQ05HWmN6N0hobmZNSnBWTUQtRGZwZTZYc2dpQjBuRnRvTjRjbEtyVEZYNExCallYRTFnQjNfYi01VnN4XzRGUldiTTBlWjJSV1ZvLVFDZnE0U3pHTW9xeXV6M043VnJRMEl0eEVmbWEtNE5PejRzZkp4QWlm?oc=5",
+      "published": "2016-10-19T07:00:00+00:00",
+      "source": {
+        "name": "iFinnmark",
+        "url": "https://www.ifinnmark.no"
+      }
+    },
+    {
       "id": "410677c6262b",
       "title": "Legemiddel, Helse | Legemiddelverket: Endrer paracet-anbefaling - Avisa Nordland",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5KOVN5d2p3T2FRUHRKZllhYTNuY291VVVHTnFtelFLMjZtQWJwOFFoOXRsZW8xb0tFNC1wVmZETzdlRTJVcy15R0g3XzVjakFqbUdiTVR6Y0wyM2F3cDBLc0JfM0J3U2R3TG1qYThQV3lPemJWelFhSmw4a2VodW8?oc=5",
@@ -981,26 +1001,6 @@
       "source": {
         "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
-      }
-    },
-    {
-      "id": "5a3c6e17b37a",
-      "title": "Innfører legemiddel til Stills sykdom og sJIA - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmx6MTZPbFRCMGU5c0ptUVlwdEM4UHp4Wl9EV2ppb1pQa0VPdV9RVjRWQ015dlNpVHZMblM0Wldndm9WWEFVelNSbFBUa0tDRnhES3JWbng0dXVSem1jZGsyQ0l2eGRiUkF1aTNwbW5HazI1cHZyOVZwUDhUNWc2aElyUW1VdU9RZkpJQUh1TW83YzNTRW5sQVVEaUw3RnJEcUdVOUYtVnN4Rkt5M2NDc3VrNEMtOEhsOUE?oc=5",
-      "published": "2019-02-26T08:00:00+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
-      "id": "279c3f57ee49",
-      "title": "Egenadministrering av legemidler kan fremme mestring i psykisk helsevern - Sykepleien",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZTl2SVRXN1JVdHFYMzV3SXNmeWFac0ViSUR1R21RWTV0ak55MldiWEdfd1lHSVZFWkF0OHFmV1ZBQ1BLQUZHOUxFSGJxajgyZGxIc1M1elRHSnpxaFVpWVR5bDBLSFljWDdTbmVtWVpIVnBqUUpqdWJPck9EUU1LYXpVTENsYlhWMDRXdlFtUWIzUF91TnRsZGFfS1c0YXQtc1R3aXY5ZVRZZw?oc=5",
-      "published": "2023-05-02T07:00:00+00:00",
-      "source": {
-        "name": "Sykepleien",
-        "url": "https://sykepleien.no"
       }
     }
   ]
