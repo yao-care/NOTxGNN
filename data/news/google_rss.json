@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-22T10:24:41.717102+00:00",
+  "fetched_at": "2026-08-22T11:21:20.135440+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,16 +24,6 @@
       }
     },
     {
-      "id": "fd7a4f939243",
-      "title": "Debatt: Demens kan behandles bedre - medwatch.no",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xUVh6RHFxNE9OVTBNM0oyZHNaamVNOG91RC1mVUF6UndfdkhfNFpzT1BrWklydGlDaWYzR3dpOUJmZERXNGJ3VFc0ZmYwNUNyWjBkM1RzT3NiTUllNVY0dGhTV0M?oc=5",
-      "published": "2026-08-20T07:54:52+00:00",
-      "source": {
-        "name": "medwatch.no",
-        "url": "https://medwatch.no"
-      }
-    },
-    {
       "id": "4f989bd3393b",
       "title": "Nedgang i bruk av vanedannande legemiddel hos eldre - Helsedirektoratet",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUTVvZ21Kd3VQOUhyWFhjX1BMcU1fSUtQcGdocGk5X3B6bFNsLU81SzBtRkZMaDVhT0U4aXhIai1sOUpMU2tKQTJCSDB5UUdJbjVaa2hRMXg0RGxXUTdrWGVPcDJveVdiOVlRT3duV2t0NkdZejB0TlBYTjlLT1VZaERqQXBac09tRU5PMnZVVUpRTXdxdWJR?oc=5",
@@ -41,6 +31,16 @@
       "source": {
         "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
+      }
+    },
+    {
+      "id": "fd7a4f939243",
+      "title": "Debatt: Demens kan behandles bedre - medwatch.no",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xUVh6RHFxNE9OVTBNM0oyZHNaamVNOG91RC1mVUF6UndfdkhfNFpzT1BrWklydGlDaWYzR3dpOUJmZERXNGJ3VFc0ZmYwNUNyWjBkM1RzT3NiTUllNVY0dGhTV0M?oc=5",
+      "published": "2026-08-20T07:54:52+00:00",
+      "source": {
+        "name": "medwatch.no",
+        "url": "https://medwatch.no"
       }
     },
     {
@@ -74,12 +74,12 @@
       }
     },
     {
-      "id": "65c78664430c",
-      "title": "Ahus-sykepleier tiltalt for å ha ruset seg på jobb - Sykepleien",
+      "id": "30e7a5497714",
+      "title": "Ahus-sykepleier tiltalt for å ha ruset seg på jobb - sykepleien.no",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zUFA2WWxYWV9kT0J4QUdwMGlmY2ZIU1FIVEZtSktlZUlETGNlZzQtUVBqS1prOXNCbWZhN2dsb3hwWDRkaHFCQ044eV9mTEhsSjVFQlNXOUhSZkd6SEYxQWFfdTJkeEV0M1plOGNtMkMzTFgyOTdjZGhTdWkwZW8?oc=5",
       "published": "2026-08-18T05:38:26+00:00",
       "source": {
-        "name": "Sykepleien",
+        "name": "sykepleien.no",
         "url": "https://sykepleien.no"
       }
     },
@@ -764,12 +764,12 @@
       }
     },
     {
-      "id": "3584ad25683c",
-      "title": "/2023/10/Medikamentregning: Spill deg frem til riktig dose - Sykepleien",
+      "id": "6636b44761cf",
+      "title": "/2023/10/Medikamentregning: Spill deg frem til riktig dose - sykepleien.no",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQWt3ejZwRkVGclQ3dGVrVWgxdlAwUzZkbTZMdEl3ZnlHT3VUZVpjUy0ydHIteERWZ2daUFpudFl3S01QRm43eGF1Y3B2QnMtWk00U0FRN1RBeEp2N2h4U0RUOGdvWWRMSVFyZmZOWE13QjByWGh4VTB2OGl5UEp4UXg1Um8?oc=5",
       "published": "2023-10-30T07:00:00+00:00",
       "source": {
-        "name": "Sykepleien",
+        "name": "sykepleien.no",
         "url": "https://sykepleien.no"
       }
     },
@@ -814,12 +814,12 @@
       }
     },
     {
-      "id": "aaa200cc5a3d",
-      "title": "/2025/08/243 alvorlige hendelser knyttet til feilmedisinering ble meldt inn – 89 av disse var fatale - Sykepleien",
+      "id": "45cf702aac0e",
+      "title": "/2025/08/243 alvorlige hendelser knyttet til feilmedisinering ble meldt inn – 89 av disse var fatale - sykepleien.no",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR0VKYmVpWU0xZl9qS2hORmdIYWhVYTR1TTBOeUVDcVRrRzNpU1pGNk5VWnk1T1ZpRlBWRldkWks3RWM0bXpBYTRaU1U5NnFzM2NZOEdzTl81bklWTTZqV293UHFNWkx6Z1BPS2pJN2N0XzBmbmNhMWJVTFp4VkFzZ1l2bnlvVkh2clFmWTYzdDM4N0dhNGtPMTdXUlU3Q3h1VU9pSC0zdUZlZGNZdmxDRUtzQzVNdFdzVWVn?oc=5",
       "published": "2025-08-14T07:00:00+00:00",
       "source": {
-        "name": "Sykepleien",
+        "name": "sykepleien.no",
         "url": "https://sykepleien.no"
       }
     },
