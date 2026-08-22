@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-21T23:24:49.365810+00:00",
+  "fetched_at": "2026-08-22T01:18:23.575726+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,16 +14,6 @@
       }
     },
     {
-      "id": "0186dead171e",
-      "title": "Å sette opp en «barriere» for å hindre at forfalskede legemidler kommer inn på markedet. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQd1JTNnpVdkg3dW43N0thclA0c05CUVRvZ0dTcmRVMENOcHJ6NFd1QnJEVkpPT2ZqelRNaV9pdHVKdU9LUHU2VkJFR1cwZzFrRTExSWdfRW95Q3RvaFBfN0ZsYmpGcVY2WEY1b1l0MEhvZUI1ckNfYUhObF9MZ2xHTg?oc=5",
-      "published": "2026-08-21T08:10:53+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "c39dd6ee39f8",
       "title": "Digital portal for meir rettferdig tilgang til legemiddel - Helse Bergen",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSVJnZkNVNlpEYmhaXzdUcTFiSi1LcGktbnJWcU9CSVFac3UyOXRmeXdsMHlMVUhTMU42Wlg5Qy11NDRiWmU5aldDaDJ1RF9xdGMzenhNSF9QaGo1MjJRU3RMR0FNRHBXOEtDdm9RaTdYNzItTW92amZMUVpuZUY4bEpLMTMyY1lsYUZxTmt1VHpiQ1JrSjg2R1ljTmZnNkVqYzF4ZGN2N3VXWkRReGV6M21lNW15Q3RmRDI1S0RlOTcxRG1XU3VIYw?oc=5",
@@ -31,6 +21,16 @@
       "source": {
         "name": "Helse Bergen",
         "url": "https://www.helse-bergen.no"
+      }
+    },
+    {
+      "id": "0186dead171e",
+      "title": "Å sette opp en «barriere» for å hindre at forfalskede legemidler kommer inn på markedet. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQd1JTNnpVdkg3dW43N0thclA0c05CUVRvZ0dTcmRVMENOcHJ6NFd1QnJEVkpPT2ZqelRNaV9pdHVKdU9LUHU2VkJFR1cwZzFrRTExSWdfRW95Q3RvaFBfN0ZsYmpGcVY2WEY1b1l0MEhvZUI1ckNfYUhObF9MZ2xHTg?oc=5",
+      "published": "2026-08-21T08:10:53+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
