@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-24T22:27:31.371924+00:00",
+  "fetched_at": "2026-08-24T23:23:24.459713+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -221,16 +221,6 @@
       "source": {
         "name": "NHI.no",
         "url": "https://nhi.no"
-      }
-    },
-    {
-      "id": "d6e79f8f43da",
-      "title": "Skapte revolusjon: Denne pillen kan gi et lengre og bedre liv - Sandnesposten",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVFJ4Y1hFZ0FjOWxhd3FOZG9za2tNemo4bEUybzh5MVJOTUhpbXA4cGc5UDdXT3ZOR1dqS3VpbXNydlFKbVlkN2U1Zmg1dzM0Yzd4YkoxUnRaVEFwOW5lYzVWcDVWQzFtVnFMaUQyaFVYemdqS0pRSy1qYUdEN1A3c3VQTUpPY2o2OVBOeUlfRmtEdWd4M2RwdnlRd1BQbDdYd0s1a3RRVTRjVnN2SDNoQllZS2puMDFDemJDUDMtTkt6dEhmRnBzZkJQMUFpT1dqVVE?oc=5",
-      "published": "2026-08-22T03:02:06+00:00",
-      "source": {
-        "name": "Sandnesposten",
-        "url": "https://www.sandnesposten.no"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Sykepleien",
         "url": "https://sykepleien.no"
+      }
+    },
+    {
+      "id": "5a3c6e17b37a",
+      "title": "Innfører legemiddel til Stills sykdom og sJIA - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmx6MTZPbFRCMGU5c0ptUVlwdEM4UHp4Wl9EV2ppb1pQa0VPdV9RVjRWQ015dlNpVHZMblM0Wldndm9WWEFVelNSbFBUa0tDRnhES3JWbng0dXVSem1jZGsyQ0l2eGRiUkF1aTNwbW5HazI1cHZyOVZwUDhUNWc2aElyUW1VdU9RZkpJQUh1TW83YzNTRW5sQVVEaUw3RnJEcUdVOUYtVnN4Rkt5M2NDc3VrNEMtOEhsOUE?oc=5",
+      "published": "2019-02-26T08:00:00+00:00",
+      "source": {
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
       }
     }
   ]
