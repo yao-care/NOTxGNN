@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-25T01:20:00.177387+00:00",
+  "fetched_at": "2026-08-25T02:59:39.203389+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,13 +24,13 @@
       }
     },
     {
-      "id": "b31db6ca0357",
-      "title": "Helse, Ahus | Ahus-sykepleier tiltalt: Ruset seg på vakt - Enebakk Avis",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaEduaTI3X1Z6aHBOMVFOOGFQMGFLc1BvSFJUN1Z6bWZNSXlhU0NseTZreHR0OXpPV0VubzBxOHlEMmpMQXhxcVNPUHBoRjBWSDBRb3QtU0I5SDNtdGZuVWplbndyVzl4TWxBMmRkeDVsRnZSUXlKZzRmbXBpTjg0UVJ3WE13VmxpZEE?oc=5",
-      "published": "2026-08-24T05:57:25+00:00",
+      "id": "c39dd6ee39f8",
+      "title": "Digital portal for meir rettferdig tilgang til legemiddel - Helse Bergen",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSVJnZkNVNlpEYmhaXzdUcTFiSi1LcGktbnJWcU9CSVFac3UyOXRmeXdsMHlMVUhTMU42Wlg5Qy11NDRiWmU5aldDaDJ1RF9xdGMzenhNSF9QaGo1MjJRU3RMR0FNRHBXOEtDdm9RaTdYNzItTW92amZMUVpuZUY4bEpLMTMyY1lsYUZxTmt1VHpiQ1JrSjg2R1ljTmZnNkVqYzF4ZGN2N3VXWkRReGV6M21lNW15Q3RmRDI1S0RlOTcxRG1XU3VIYw?oc=5",
+      "published": "2026-06-01T07:00:00+00:00",
       "source": {
-        "name": "Enebakk Avis",
-        "url": "https://www.enebakkavis.no"
+        "name": "Helse Bergen",
+        "url": "https://www.helse-bergen.no"
       }
     },
     {
@@ -44,13 +44,13 @@
       }
     },
     {
-      "id": "c39dd6ee39f8",
-      "title": "Digital portal for meir rettferdig tilgang til legemiddel - Helse Bergen",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSVJnZkNVNlpEYmhaXzdUcTFiSi1LcGktbnJWcU9CSVFac3UyOXRmeXdsMHlMVUhTMU42Wlg5Qy11NDRiWmU5aldDaDJ1RF9xdGMzenhNSF9QaGo1MjJRU3RMR0FNRHBXOEtDdm9RaTdYNzItTW92amZMUVpuZUY4bEpLMTMyY1lsYUZxTmt1VHpiQ1JrSjg2R1ljTmZnNkVqYzF4ZGN2N3VXWkRReGV6M21lNW15Q3RmRDI1S0RlOTcxRG1XU3VIYw?oc=5",
-      "published": "2026-06-01T07:00:00+00:00",
+      "id": "b31db6ca0357",
+      "title": "Helse, Ahus | Ahus-sykepleier tiltalt: Ruset seg på vakt - Enebakk Avis",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaEduaTI3X1Z6aHBOMVFOOGFQMGFLc1BvSFJUN1Z6bWZNSXlhU0NseTZreHR0OXpPV0VubzBxOHlEMmpMQXhxcVNPUHBoRjBWSDBRb3QtU0I5SDNtdGZuVWplbndyVzl4TWxBMmRkeDVsRnZSUXlKZzRmbXBpTjg0UVJ3WE13VmxpZEE?oc=5",
+      "published": "2026-08-24T05:57:25+00:00",
       "source": {
-        "name": "Helse Bergen",
-        "url": "https://www.helse-bergen.no"
+        "name": "Enebakk Avis",
+        "url": "https://www.enebakkavis.no"
       }
     },
     {
