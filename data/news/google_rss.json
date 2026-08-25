@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-08-25T12:49:54.205484+00:00",
+  "fetched_at": "2026-08-25T13:51:08.715391+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "e4ef392fee76",
-      "title": "Ja til Sarclisa-injeksjon – men gevinstene er uklare - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ2Izc21IZE81LTJ2OVRTcFV5SkJSRGYzWEJ6b3dJcFBEQURtaC1xVHJGSWpZUGlBMzdwdjFyT0VMM09XbXhNNDdtRFhkQk9OYm1pNHB2R3lvQkV5aFhSZXF1cmVZcEFQU0w4MHZFWFhhYXdWN3VqdnV6NUZNMExFdEdoTk45R2tQLWdsNWR1dFg0YUV3TWNidmlqWWZNa3U4N1BIc1MzbllUUUZfNTVaS3VVdTE1Zw?oc=5",
-      "published": "2026-08-25T06:53:39+00:00",
-      "source": {
-        "name": "HealthTalk",
-        "url": "https://www.healthtalk.no"
-      }
-    },
     {
       "id": "cbc2814dfa04",
       "title": "Helse, Medisin | Medisinmangel vart personleg for Beate: Tok kvinnehelse og beredskap til Arendalsuka - Avisa Nordhordland",
@@ -21,6 +11,16 @@
       "source": {
         "name": "Avisa Nordhordland",
         "url": "https://www.nordhordland.no"
+      }
+    },
+    {
+      "id": "e4ef392fee76",
+      "title": "Ja til Sarclisa-injeksjon – men gevinstene er uklare - HealthTalk",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ2Izc21IZE81LTJ2OVRTcFV5SkJSRGYzWEJ6b3dJcFBEQURtaC1xVHJGSWpZUGlBMzdwdjFyT0VMM09XbXhNNDdtRFhkQk9OYm1pNHB2R3lvQkV5aFhSZXF1cmVZcEFQU0w4MHZFWFhhYXdWN3VqdnV6NUZNMExFdEdoTk45R2tQLWdsNWR1dFg0YUV3TWNidmlqWWZNa3U4N1BIc1MzbllUUUZfNTVaS3VVdTE1Zw?oc=5",
+      "published": "2026-08-25T06:53:39+00:00",
+      "source": {
+        "name": "HealthTalk",
+        "url": "https://www.healthtalk.no"
       }
     },
     {
