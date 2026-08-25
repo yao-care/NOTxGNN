@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-08-25T05:32:31.223567+00:00",
+  "fetched_at": "2026-08-25T06:50:27.191917+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "0bef7fe2f224",
+      "title": "Ketamin godkjent i kampen mot selvmord - TV 2",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdkcyQUxQWlhBZFpIdUhzQmxFS1dfSEcyRXMyaWhkbzhIY0hUWldkcjhCUmV2R1VKWjVBWUNjZlFTVkxiRGhGdGtCQmNYdTQ4TlFtQUhmUVNPRGw4UVMyTGEyUi1iZzNHWGFmdjl0THJqSHhCUlBBOHVVT3VEZGdxZA?oc=5",
+      "published": "2026-08-24T17:32:29+00:00",
+      "source": {
+        "name": "TV 2",
+        "url": "https://www.tv2.no"
+      }
+    },
     {
       "id": "cbc2814dfa04",
       "title": "Helse, Medisin | Medisinmangel vart personleg for Beate: Tok kvinnehelse og beredskap til Arendalsuka - Avisa Nordhordland",
@@ -24,16 +34,6 @@
       }
     },
     {
-      "id": "45fde9d3ef24",
-      "title": "Apotekene kan være første stopp for flere pasienter - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSnRFcG9UQmpvNGh2dGFtM2NuNF9LYThBcmhDSGgzSkJfU2V3ODhxRXdBdlBTVGFEU19JaUpqT3RqMVcyZzJoanJydUZ6Z2w2aDlINTBoYUx2U3ROZ1hhY3Q4V0MwMC1VM2pDLVVnVm14cm1KOGF0djZKSzdVS3EzVGZLSURlRWVEcEdfd0t6TThlM195S1lVU2ZNeFhOVXU5MUpDU01zSGxESjI2aDI3V01WWHV0RDhUeGd3dFM4WkJaS2F0?oc=5",
-      "published": "2026-08-24T06:35:42+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
       "id": "b31db6ca0357",
       "title": "Helse, Ahus | Ahus-sykepleier tiltalt: Ruset seg på vakt - Enebakk Avis",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaEduaTI3X1Z6aHBOMVFOOGFQMGFLc1BvSFJUN1Z6bWZNSXlhU0NseTZreHR0OXpPV0VubzBxOHlEMmpMQXhxcVNPUHBoRjBWSDBRb3QtU0I5SDNtdGZuVWplbndyVzl4TWxBMmRkeDVsRnZSUXlKZzRmbXBpTjg0UVJ3WE13VmxpZEE?oc=5",
@@ -41,6 +41,16 @@
       "source": {
         "name": "Enebakk Avis",
         "url": "https://www.enebakkavis.no"
+      }
+    },
+    {
+      "id": "45fde9d3ef24",
+      "title": "Apotekene kan være første stopp for flere pasienter - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSnRFcG9UQmpvNGh2dGFtM2NuNF9LYThBcmhDSGgzSkJfU2V3ODhxRXdBdlBTVGFEU19JaUpqT3RqMVcyZzJoanJydUZ6Z2w2aDlINTBoYUx2U3ROZ1hhY3Q4V0MwMC1VM2pDLVVnVm14cm1KOGF0djZKSzdVS3EzVGZLSURlRWVEcEdfd0t6TThlM195S1lVU2ZNeFhOVXU5MUpDU01zSGxESjI2aDI3V01WWHV0RDhUeGd3dFM4WkJaS2F0?oc=5",
+      "published": "2026-08-24T06:35:42+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -124,16 +134,6 @@
       }
     },
     {
-      "id": "65c78664430c",
-      "title": "Ahus-sykepleier tiltalt for å ha ruset seg på jobb - Sykepleien",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zUFA2WWxYWV9kT0J4QUdwMGlmY2ZIU1FIVEZtSktlZUlETGNlZzQtUVBqS1prOXNCbWZhN2dsb3hwWDRkaHFCQ044eV9mTEhsSjVFQlNXOUhSZkd6SEYxQWFfdTJkeEV0M1plOGNtMkMzTFgyOTdjZGhTdWkwZW8?oc=5",
-      "published": "2026-08-18T05:38:26+00:00",
-      "source": {
-        "name": "Sykepleien",
-        "url": "https://sykepleien.no"
-      }
-    },
-    {
       "id": "67f749935f2e",
       "title": "Når resepten møter rødvinen - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcGFnMWNoTEYyeUMwNjFGdWVIVkZoVlpsN0pQU2YzQkQzTkotSHA0MlNXekEzUEZ3TWlDZ2g1VldPZkhQbmt2M2xzenVYc1lCUkk0WHZYbE9xSG9MRXpxNXhrN3NpWGJ0UGRIOWpNUFhUakxrd3FTR1ZSTnRRcWV0cWF3cnBMNUY1S0c2SDUxZHo0NVE3bVNR?oc=5",
@@ -204,13 +204,13 @@
       }
     },
     {
-      "id": "f3ef5eb83f11",
-      "title": "Sunnfjord, Helse Førde | Sjukepleiar mistenkt for 33 medisin-tjuveri før autorisasjonen vart dratt inn - Firda",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTF9jRlNOMWFFaVlBQlJjMndWdG5SeHJ4X2g1aUJXLXdJc2F5M1ZPT3BEQ0RXd3oyTXQ4MUZNWXFNcm9iTDd0UGlLdTBhN3MxTDNsWnFYQmtOdkdUdnFlblE0RVFfNFFDTTlMM2JaUjhkc093YkwtTU80OFZXSU8yYVNUamZtMWtrRnRRREZNQmExeUdmZVVIMG5nYXVhemRRQ0lvNGhGTm9tNHZEeXdOWnpwVQ?oc=5",
-      "published": "2026-07-07T07:00:00+00:00",
+      "id": "65c78664430c",
+      "title": "Ahus-sykepleier tiltalt for å ha ruset seg på jobb - Sykepleien",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zUFA2WWxYWV9kT0J4QUdwMGlmY2ZIU1FIVEZtSktlZUlETGNlZzQtUVBqS1prOXNCbWZhN2dsb3hwWDRkaHFCQ044eV9mTEhsSjVFQlNXOUhSZkd6SEYxQWFfdTJkeEV0M1plOGNtMkMzTFgyOTdjZGhTdWkwZW8?oc=5",
+      "published": "2026-08-18T05:38:26+00:00",
       "source": {
-        "name": "Firda",
-        "url": "https://www.firda.no"
+        "name": "Sykepleien",
+        "url": "https://sykepleien.no"
       }
     },
     {
@@ -234,6 +234,16 @@
       }
     },
     {
+      "id": "f3ef5eb83f11",
+      "title": "Sunnfjord, Helse Førde | Sjukepleiar mistenkt for 33 medisin-tjuveri før autorisasjonen vart dratt inn - Firda",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTF9jRlNOMWFFaVlBQlJjMndWdG5SeHJ4X2g1aUJXLXdJc2F5M1ZPT3BEQ0RXd3oyTXQ4MUZNWXFNcm9iTDd0UGlLdTBhN3MxTDNsWnFYQmtOdkdUdnFlblE0RVFfNFFDTTlMM2JaUjhkc093YkwtTU80OFZXSU8yYVNUamZtMWtrRnRRREZNQmExeUdmZVVIMG5nYXVhemRRQ0lvNGhGTm9tNHZEeXdOWnpwVQ?oc=5",
+      "published": "2026-07-07T07:00:00+00:00",
+      "source": {
+        "name": "Firda",
+        "url": "https://www.firda.no"
+      }
+    },
+    {
       "id": "beaf995dea05",
       "title": "– Mange har forstått at det er mangel og spør om vi har medisinen - Romerikes Blad",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSDkzU1BKblNwLTZmdXZvMDlaQ1hud1NtZi0wVU96RXlQT2laSjBiek9ldUFIU1dWYmgzc1ZvUmtjTTRHZmxncWN6YUh6d09YWWRDTlFPeWtFSDRLbFd5WGhRX0pRbXRZcll1V055V09PRF96SmFjTVpjZEU3UkJINVpIOXFldFNTNkVhWV9TNzhkRzg3UnBINGtGSmE?oc=5",
@@ -244,16 +254,6 @@
       }
     },
     {
-      "id": "d6e79f8f43da",
-      "title": "Skapte revolusjon: Denne pillen kan gi et lengre og bedre liv - Sandnesposten",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVFJ4Y1hFZ0FjOWxhd3FOZG9za2tNemo4bEUybzh5MVJOTUhpbXA4cGc5UDdXT3ZOR1dqS3VpbXNydlFKbVlkN2U1Zmg1dzM0Yzd4YkoxUnRaVEFwOW5lYzVWcDVWQzFtVnFMaUQyaFVYemdqS0pRSy1qYUdEN1A3c3VQTUpPY2o2OVBOeUlfRmtEdWd4M2RwdnlRd1BQbDdYd0s1a3RRVTRjVnN2SDNoQllZS2puMDFDemJDUDMtTkt6dEhmRnBzZkJQMUFpT1dqVVE?oc=5",
-      "published": "2026-08-22T03:02:06+00:00",
-      "source": {
-        "name": "Sandnesposten",
-        "url": "https://www.sandnesposten.no"
-      }
-    },
-    {
       "id": "67f0e2d81e0e",
       "title": "Kan Norge ha verdens beste helsetjeneste uten innovative legemidler? - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOX3B1SWFBcnhTR3BBN1VZQWZDd3RwWk1QdjV0cVJWUWlDSmZnUjl3THRPTnAtenpLVmFkNHFDU1p1TDJneTNlQ2tRdS1fTFBqMnlZby1nTXh6NThKMmhFXzRzbEdzcWVXclpqdmRUZV9VVlRkc2ZRV0xpZlBhbU1DNVFxNGhKU3YwYW9ZTjFJZmJQNkV1QUNjenYzQXplcmpmWUlCakYzMlF2dktkYWlmRHRaeWtzR2FVMFZWX19mQXBlTUppZGZ1ckEzNA?oc=5",
@@ -261,6 +261,16 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
+      "id": "1565b8c7239c",
+      "title": "Skapte revolusjon: Denne pillen kan gi et lengre og bedre liv - Jærbladet",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTkpaMk5DQ043QTV5dzhpcEtLakhfeUlWcVBYNTZ0cHk2bE80UmZuZFFpZm9MT3lGOFNiTkNzUmVGZXIzTFVYNEZfcktpYmo1TjluNlJ1S1Z4TEZjRGxKdTdnMV92WFkzcXlRRDJHT29hNzh2aFpob3lCSF8wcXB2ZFdiRTdGRTEwNUFZdi1fQmlqMGtYemNRbmZXUlpfWG5IMnpxU3o3c0ZJMlZKSFBlRjdjZnhzVWYzdG1ZTXhCQTJfS0tY?oc=5",
+      "published": "2026-08-22T03:02:06+00:00",
+      "source": {
+        "name": "Jærbladet",
+        "url": "https://www.jbl.no"
       }
     },
     {
@@ -364,16 +374,6 @@
       }
     },
     {
-      "id": "a6ad94598cf6",
-      "title": "Viktige helseendringer i 2026: Hva betyr det for deg? - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUjB5ZzVjN0lYc19UdUZENVF3ekFnMTJvN0JORWRNSTh2OGhFemR5cmc3TndCNzRfMjdCclg3cnd4endoY3JDUUFUUlZqaE5QbXh3SHo1STNZVldJeUI5NWtIRzRtLUZvWFJxN3RtME1mVm1IU1I0Q3JxLUZIUmlCSno1QlgwRFdHYTg5RnZEa0JwRzZOUWNFbjZhQ3M2czlENmpRMWJBMGpQbWRfMVkw?oc=5",
-      "published": "2026-01-05T08:00:00+00:00",
-      "source": {
-        "name": "HealthTalk",
-        "url": "https://www.healthtalk.no"
-      }
-    },
-    {
       "id": "6a1ded6a7b4a",
       "title": "Tester nye rutiner for legemiddelbruk – Porsgrunn er neste på lista - Telemarksavisa",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWVZyNTd5RktvRDRDeE1NdnVEWnVvQXVwTDRVZDc2a3U5c1ZoWnVhN1VUS2FaZVRwdlJESnI3dlVPWGJZXzQ3YkRWYy1ndzh0b1hCOC1VMmVKQ1ZPYVZkZWxSazItZHpsTEJ4QUpJUFpGb3B2YWthemxQMlhFZzJqT1FOS2pXX0lod24yZ2VtZzJERU5KN2c4OXdyMmZtRU9JUTJNSQ?oc=5",
@@ -468,6 +468,16 @@
       "title": "Ja til verdens dyreste legemiddel: Må vare i 10 år for å lønne seg - HealthTalk",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdUU4Y2lJa2lqSU4wRGhXb3FHUk1Ba3kzZXJ6M0piNzFVRGt0TVgzM2ZXS2ZBSlJKd2ktWUgwRlNWbUlfblphbjJITHdnTnVwLVo1YUpTMjJtbk5kdWo3QlJoT2Y1ZmlaYTgxcW14Q0IzQzJwdHpCeGhFWnA0dWJnM3VRcDZxMkdCNk0tTWx6MUEtemlOdVVJOG9JNmJlYklLSkdXdUU0NUg4LVExb0RqN3dYVkkyNmw5MU9JRnpLTm5MRThLUlBQNFRrUGpSQkRicktzOVBQcXQ?oc=5",
       "published": "2026-03-18T07:00:00+00:00",
+      "source": {
+        "name": "HealthTalk",
+        "url": "https://www.healthtalk.no"
+      }
+    },
+    {
+      "id": "a6ad94598cf6",
+      "title": "Viktige helseendringer i 2026: Hva betyr det for deg? - HealthTalk",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUjB5ZzVjN0lYc19UdUZENVF3ekFnMTJvN0JORWRNSTh2OGhFemR5cmc3TndCNzRfMjdCclg3cnd4endoY3JDUUFUUlZqaE5QbXh3SHo1STNZVldJeUI5NWtIRzRtLUZvWFJxN3RtME1mVm1IU1I0Q3JxLUZIUmlCSno1QlgwRFdHYTg5RnZEa0JwRzZOUWNFbjZhQ3M2czlENmpRMWJBMGpQbWRfMVkw?oc=5",
+      "published": "2026-01-05T08:00:00+00:00",
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
@@ -674,16 +684,6 @@
       }
     },
     {
-      "id": "9550863b0468",
-      "title": "Legemiddel-innkjøp i Europa – pris, rammeavtaler og samarbeid dominerer - Anbud365",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWnRhczhTLU52bFVzWk9LWVFWNVhTT21tbFhKWnpWb2Z6dzhKSXhrdUFSY21CZnk2OWR3aC1ubUgwazhTWVBCRDBFN3AtWThrd21pWFNzNTB3OWNHdHE5S3c0TWNxLVhENGw5ZWxFNmRTNnV3VDFOR0NpWTRzMnpITEkyV21qMUVlX19VUnBncVBBd1R6X1o2T0dsUEJvZE56N1pXRV84TGZXZ3J0X2hONTJQeDc?oc=5",
-      "published": "2023-07-14T07:00:00+00:00",
-      "source": {
-        "name": "Anbud365",
-        "url": "https://www.anbud365.no"
-      }
-    },
-    {
       "id": "ac9a8bab4b9c",
       "title": "Etter krisemøte: Lover kortere ventetid på medisiner - VG",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbkRDTkI2X05kRGRVcW1uaTdvMFZkZl82cTZFbjNxNGNjam9NbVNyOGREYzQtSzlnMXVYc3puTk1uT1ZaMERtLURPSy00Rk9zTGNmdGFDVEU4eVdJRW9OLXFCdmpRWnZSZmFWX1B3OWlGRldlUTFnZ0l5cllkb0s0Y2owTFI0TDNhQTNMLU5KazFQLU1zVmtuRTdKZVB5ZU5KOXd1YzZ6WDhYdw?oc=5",
@@ -691,6 +691,16 @@
       "source": {
         "name": "VG",
         "url": "https://www.vg.no"
+      }
+    },
+    {
+      "id": "9550863b0468",
+      "title": "Legemiddel-innkjøp i Europa – pris, rammeavtaler og samarbeid dominerer - Anbud365",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWnRhczhTLU52bFVzWk9LWVFWNVhTT21tbFhKWnpWb2Z6dzhKSXhrdUFSY21CZnk2OWR3aC1ubUgwazhTWVBCRDBFN3AtWThrd21pWFNzNTB3OWNHdHE5S3c0TWNxLVhENGw5ZWxFNmRTNnV3VDFOR0NpWTRzMnpITEkyV21qMUVlX19VUnBncVBBd1R6X1o2T0dsUEJvZE56N1pXRV84TGZXZ3J0X2hONTJQeDc?oc=5",
+      "published": "2023-07-14T07:00:00+00:00",
+      "source": {
+        "name": "Anbud365",
+        "url": "https://www.anbud365.no"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "Avisa Nordland",
         "url": "https://www.an.no"
-      }
-    },
-    {
-      "id": "b1dbae72f776",
-      "title": "(+) Så mye bruker Sykehus-Norge på legemidler - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNGxvVFF5bTZIazJVazV0anhYcUppN1Noai0zTGk1OS05aGFDZXRWamtWQnp4YXp6dEdaRDRGWkxqbXNVZU45SHZhYnRYNldzTkZTNkkwaHZVdjRGbUp4bFExd1hObzBza0VpSWFodkRWUzlHNEhxM3JHOUNsaVg3bWd4TlN5TTBHLVpDVFRJYldUNUVjUmxBSlhzT1Bwck9wSU1fMlJYaDlNQVF2SElLSjJjZDJnRE1XdGlvYmF3Vl9jRVNrT2VHS015Yw?oc=5",
-      "published": "2025-03-20T07:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
       }
     }
   ]
