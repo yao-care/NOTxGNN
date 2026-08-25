@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-25T10:34:09.922380+00:00",
+  "fetched_at": "2026-08-25T11:28:51.959100+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -144,6 +144,16 @@
       }
     },
     {
+      "id": "f3ef5eb83f11",
+      "title": "Sunnfjord, Helse Førde | Sjukepleiar mistenkt for 33 medisin-tjuveri før autorisasjonen vart dratt inn - Firda",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTF9jRlNOMWFFaVlBQlJjMndWdG5SeHJ4X2g1aUJXLXdJc2F5M1ZPT3BEQ0RXd3oyTXQ4MUZNWXFNcm9iTDd0UGlLdTBhN3MxTDNsWnFYQmtOdkdUdnFlblE0RVFfNFFDTTlMM2JaUjhkc093YkwtTU80OFZXSU8yYVNUamZtMWtrRnRRREZNQmExeUdmZVVIMG5nYXVhemRRQ0lvNGhGTm9tNHZEeXdOWnpwVQ?oc=5",
+      "published": "2026-07-07T07:00:00+00:00",
+      "source": {
+        "name": "Firda",
+        "url": "https://www.firda.no"
+      }
+    },
+    {
       "id": "9df15a141ef5",
       "title": "(+) Nytt prioriteringsråd møtes for første gang – skal diskutere demens og beredskap - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSDgtZnVzRTgwR2g4X2MyVGIxSDlQdWRNQ3dHM1lOSE9DTWtiNUFZLXdiZjVOMFhoazJCMlJhdk81VEZGNkRrX1l0NUZISWVFTXM0dE1rNmo5X1A1ZWdEMkVZdEdfQ3FJZVFtZjdjR1pPZkYxb1Z4N1U5VnpnbGx0eHowaTVxVlZUejVWUEw0bGZDMEJSNmVIR3dxcHA4SFhpcXIwRVNVa0IzN3FHS0QyalFJRHFxZ0o3bDh5YmJRLWhrMWZSOW9IRmo4cFNLcVM5VVprQ25DVE5kTExXR1RnSVpUQQ?oc=5",
@@ -174,16 +184,6 @@
       }
     },
     {
-      "id": "5b1216159bbb",
-      "title": "(+) Nye funn om slankemedisin: Kan gi menn en skjult bonus - VG",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU2RWanZ4N0s1Sjc5Ni04eWNEckczYlhoLVduNUQ1blpudHVTd3FFMmJ2RHpTeGpieDlaUFl6M3k0NGhDbHhSMWJzdjlpZmhjbUJpYXoxN29OZGliaFJlRzUyMWstWFpXX2FvdHJoVTQtUEhYR1BOTnd0TEg5VzM4SUJHSHlzQ0hfdTdEOHFfRkVEZU5h?oc=5",
-      "published": "2026-07-27T07:00:00+00:00",
-      "source": {
-        "name": "VG",
-        "url": "https://www.vg.no"
-      }
-    },
-    {
       "id": "11db5a9eb287",
       "title": "(+) 450.000 gamle resepter fjernet fra Pasientens legemiddelliste - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMFNLQndUdkh3T1hnVEJjZ3dObFQxRDBfd3Z1MkE4d190aGxIcDdWbDNsUF8xdXJpcWRURDdTakk1YXBTVjFveHdNZm5FbjEyaTlvM1hXNUZWRmxjU3JYakdZN0JpSlpVN1FpaWVxRFE2S3piNnhaOEppVTcyOXZxZC0yemtsamc5YjlrQ29OQm1wQl9SQWxiMDBmcE5qUHlJcDFnNE5NN2pwOW1CZkNKUHRWMFFhVHFNd1V1WmJDQzlVOWlES24xb0VGTXhLV3pyQXNoaC1B?oc=5",
@@ -204,13 +204,13 @@
       }
     },
     {
-      "id": "f3ef5eb83f11",
-      "title": "Sunnfjord, Helse Førde | Sjukepleiar mistenkt for 33 medisin-tjuveri før autorisasjonen vart dratt inn - Firda",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTF9jRlNOMWFFaVlBQlJjMndWdG5SeHJ4X2g1aUJXLXdJc2F5M1ZPT3BEQ0RXd3oyTXQ4MUZNWXFNcm9iTDd0UGlLdTBhN3MxTDNsWnFYQmtOdkdUdnFlblE0RVFfNFFDTTlMM2JaUjhkc093YkwtTU80OFZXSU8yYVNUamZtMWtrRnRRREZNQmExeUdmZVVIMG5nYXVhemRRQ0lvNGhGTm9tNHZEeXdOWnpwVQ?oc=5",
-      "published": "2026-07-07T07:00:00+00:00",
+      "id": "5b1216159bbb",
+      "title": "(+) Nye funn om slankemedisin: Kan gi menn en skjult bonus - VG",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU2RWanZ4N0s1Sjc5Ni04eWNEckczYlhoLVduNUQ1blpudHVTd3FFMmJ2RHpTeGpieDlaUFl6M3k0NGhDbHhSMWJzdjlpZmhjbUJpYXoxN29OZGliaFJlRzUyMWstWFpXX2FvdHJoVTQtUEhYR1BOTnd0TEg5VzM4SUJHSHlzQ0hfdTdEOHFfRkVEZU5h?oc=5",
+      "published": "2026-07-27T07:00:00+00:00",
       "source": {
-        "name": "Firda",
-        "url": "https://www.firda.no"
+        "name": "VG",
+        "url": "https://www.vg.no"
       }
     },
     {
@@ -604,16 +604,6 @@
       }
     },
     {
-      "id": "69a88b7a0e9b",
-      "title": "Nyheter, Helse | Mener fastlege påførte pasienter misbruk av legemidler - Gudbrandsdølen Dagningen",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVzFDTGg0UWRFcEtsbS1BM0FpTWltLUdzTmVGUHNtN0l2NlhxdUxCUU9lQ1E5NFVhUDh6SkNDU3ZBLTdQUWQ4V3JsSmV2eXJITEpNNGYtaVNOWkl0SEh0cHBybkFvNXdjdFBUVmZDSFJzTi1IQTIwd05XMGpFaEdRMGJR?oc=5",
-      "published": "2025-10-02T07:00:00+00:00",
-      "source": {
-        "name": "Gudbrandsdølen Dagningen",
-        "url": "https://www.gd.no"
-      }
-    },
-    {
       "id": "ac9a8bab4b9c",
       "title": "Etter krisemøte: Lover kortere ventetid på medisiner - VG",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbkRDTkI2X05kRGRVcW1uaTdvMFZkZl82cTZFbjNxNGNjam9NbVNyOGREYzQtSzlnMXVYc3puTk1uT1ZaMERtLURPSy00Rk9zTGNmdGFDVEU4eVdJRW9OLXFCdmpRWnZSZmFWX1B3OWlGRldlUTFnZ0l5cllkb0s0Y2owTFI0TDNhQTNMLU5KazFQLU1zVmtuRTdKZVB5ZU5KOXd1YzZ6WDhYdw?oc=5",
@@ -631,6 +621,16 @@
       "source": {
         "name": "Anbud365",
         "url": "https://www.anbud365.no"
+      }
+    },
+    {
+      "id": "69a88b7a0e9b",
+      "title": "Nyheter, Helse | Mener fastlege påførte pasienter misbruk av legemidler - Gudbrandsdølen Dagningen",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVzFDTGg0UWRFcEtsbS1BM0FpTWltLUdzTmVGUHNtN0l2NlhxdUxCUU9lQ1E5NFVhUDh6SkNDU3ZBLTdQUWQ4V3JsSmV2eXJITEpNNGYtaVNOWkl0SEh0cHBybkFvNXdjdFBUVmZDSFJzTi1IQTIwd05XMGpFaEdRMGJR?oc=5",
+      "published": "2025-10-02T07:00:00+00:00",
+      "source": {
+        "name": "Gudbrandsdølen Dagningen",
+        "url": "https://www.gd.no"
       }
     },
     {
@@ -664,16 +664,6 @@
       }
     },
     {
-      "id": "cca96e95761d",
-      "title": "Ny studie: Store forskjeller mellom ulike antidepressive legemidler - VG",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTlVxWG03ZndxZzQzNzB5ek5xbEx1VFEzbmJJeTFFZzkxMEVUM0FYMVUzRlpRdHI1SXk0NGNsOXhjOHFobmxLZU1ZYmdGWEpDSzc1bE1sS0xIMGFtXzM1R3dIWUw4Y1ZWSGpKTTNIdUxBbVFURkhiSl9DNkpRaGF6VkVxb0FLdEFiLWNUYXR4TWtKQQ?oc=5",
-      "published": "2025-11-13T08:00:00+00:00",
-      "source": {
-        "name": "VG",
-        "url": "https://www.vg.no"
-      }
-    },
-    {
       "id": "90921fcbbc80",
       "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
@@ -681,6 +671,16 @@
       "source": {
         "name": "Fremover",
         "url": "https://www.fremover.no"
+      }
+    },
+    {
+      "id": "cca96e95761d",
+      "title": "Ny studie: Store forskjeller mellom ulike antidepressive legemidler - VG",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTlVxWG03ZndxZzQzNzB5ek5xbEx1VFEzbmJJeTFFZzkxMEVUM0FYMVUzRlpRdHI1SXk0NGNsOXhjOHFobmxLZU1ZYmdGWEpDSzc1bE1sS0xIMGFtXzM1R3dIWUw4Y1ZWSGpKTTNIdUxBbVFURkhiSl9DNkpRaGF6VkVxb0FLdEFiLWNUYXR4TWtKQQ?oc=5",
+      "published": "2025-11-13T08:00:00+00:00",
+      "source": {
+        "name": "VG",
+        "url": "https://www.vg.no"
       }
     },
     {
@@ -944,13 +944,13 @@
       }
     },
     {
-      "id": "b1dbae72f776",
-      "title": "(+) Så mye bruker Sykehus-Norge på legemidler - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNGxvVFF5bTZIazJVazV0anhYcUppN1Noai0zTGk1OS05aGFDZXRWamtWQnp4YXp6dEdaRDRGWkxqbXNVZU45SHZhYnRYNldzTkZTNkkwaHZVdjRGbUp4bFExd1hObzBza0VpSWFodkRWUzlHNEhxM3JHOUNsaVg3bWd4TlN5TTBHLVpDVFRJYldUNUVjUmxBSlhzT1Bwck9wSU1fMlJYaDlNQVF2SElLSjJjZDJnRE1XdGlvYmF3Vl9jRVNrT2VHS015Yw?oc=5",
-      "published": "2025-03-20T07:00:00+00:00",
+      "id": "34aca6f9953d",
+      "title": "Nå kan du handle medisiner på nettet - iFinnmark",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeHpKMkhIWW1xcFNnNDF1Tk56SU5uN1U5eFVmdnpvREsyUk9uOVV0dlRtVEVmN0FhQ05HWmN6N0hobmZNSnBWTUQtRGZwZTZYc2dpQjBuRnRvTjRjbEtyVEZYNExCallYRTFnQjNfYi01VnN4XzRGUldiTTBlWjJSV1ZvLVFDZnE0U3pHTW9xeXV6M043VnJRMEl0eEVmbWEtNE5PejRzZkp4QWlm?oc=5",
+      "published": "2016-10-19T07:00:00+00:00",
       "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
+        "name": "iFinnmark",
+        "url": "https://www.ifinnmark.no"
       }
     },
     {
@@ -964,13 +964,13 @@
       }
     },
     {
-      "id": "34aca6f9953d",
-      "title": "Nå kan du handle medisiner på nettet - iFinnmark",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeHpKMkhIWW1xcFNnNDF1Tk56SU5uN1U5eFVmdnpvREsyUk9uOVV0dlRtVEVmN0FhQ05HWmN6N0hobmZNSnBWTUQtRGZwZTZYc2dpQjBuRnRvTjRjbEtyVEZYNExCallYRTFnQjNfYi01VnN4XzRGUldiTTBlWjJSV1ZvLVFDZnE0U3pHTW9xeXV6M043VnJRMEl0eEVmbWEtNE5PejRzZkp4QWlm?oc=5",
-      "published": "2016-10-19T07:00:00+00:00",
+      "id": "b1dbae72f776",
+      "title": "(+) Så mye bruker Sykehus-Norge på legemidler - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNGxvVFF5bTZIazJVazV0anhYcUppN1Noai0zTGk1OS05aGFDZXRWamtWQnp4YXp6dEdaRDRGWkxqbXNVZU45SHZhYnRYNldzTkZTNkkwaHZVdjRGbUp4bFExd1hObzBza0VpSWFodkRWUzlHNEhxM3JHOUNsaVg3bWd4TlN5TTBHLVpDVFRJYldUNUVjUmxBSlhzT1Bwck9wSU1fMlJYaDlNQVF2SElLSjJjZDJnRE1XdGlvYmF3Vl9jRVNrT2VHS015Yw?oc=5",
+      "published": "2025-03-20T07:00:00+00:00",
       "source": {
-        "name": "iFinnmark",
-        "url": "https://www.ifinnmark.no"
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
       }
     },
     {
