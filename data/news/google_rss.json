@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-26T06:51:55.895172+00:00",
+  "fetched_at": "2026-08-26T07:48:08.410635+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -74,16 +74,6 @@
       }
     },
     {
-      "id": "fd7a4f939243",
-      "title": "Debatt: Demens kan behandles bedre - medwatch.no",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xUVh6RHFxNE9OVTBNM0oyZHNaamVNOG91RC1mVUF6UndfdkhfNFpzT1BrWklydGlDaWYzR3dpOUJmZERXNGJ3VFc0ZmYwNUNyWjBkM1RzT3NiTUllNVY0dGhTV0M?oc=5",
-      "published": "2026-08-20T07:54:52+00:00",
-      "source": {
-        "name": "medwatch.no",
-        "url": "https://medwatch.no"
-      }
-    },
-    {
       "id": "055bde4d929d",
       "title": "Flere eldre kan hente medisin på apotek - Bergen kommune",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUUt4cU1YcTRnVzJsQUNJQ1BMRTJEWGl5bmdEVlYwZXpmb1pEaVA0d20yczVIR2ZyRE83MloyWDVrbGJhd0lXTU0yMmZUYjdrLW9aUW9vV2xLTXBUaXlRcFN3cXNjY0cyU1FLbldLX3FPTWJJdmVIX2FrSmE2NGp1OGphenNmVTl5UXF0WEhObC1tWElMVkF6S3BPQ1gzcml6MDBPTkcwcFRDUQ?oc=5",
@@ -121,6 +111,16 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
+      }
+    },
+    {
+      "id": "f3ef5eb83f11",
+      "title": "Sunnfjord, Helse Førde | Sjukepleiar mistenkt for 33 medisin-tjuveri før autorisasjonen vart dratt inn - Firda",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTF9jRlNOMWFFaVlBQlJjMndWdG5SeHJ4X2g1aUJXLXdJc2F5M1ZPT3BEQ0RXd3oyTXQ4MUZNWXFNcm9iTDd0UGlLdTBhN3MxTDNsWnFYQmtOdkdUdnFlblE0RVFfNFFDTTlMM2JaUjhkc093YkwtTU80OFZXSU8yYVNUamZtMWtrRnRRREZNQmExeUdmZVVIMG5nYXVhemRRQ0lvNGhGTm9tNHZEeXdOWnpwVQ?oc=5",
+      "published": "2026-07-07T07:00:00+00:00",
+      "source": {
+        "name": "Firda",
+        "url": "https://www.firda.no"
       }
     },
     {
@@ -201,16 +201,6 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
-      "id": "f3ef5eb83f11",
-      "title": "Sunnfjord, Helse Førde | Sjukepleiar mistenkt for 33 medisin-tjuveri før autorisasjonen vart dratt inn - Firda",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTF9jRlNOMWFFaVlBQlJjMndWdG5SeHJ4X2g1aUJXLXdJc2F5M1ZPT3BEQ0RXd3oyTXQ4MUZNWXFNcm9iTDd0UGlLdTBhN3MxTDNsWnFYQmtOdkdUdnFlblE0RVFfNFFDTTlMM2JaUjhkc093YkwtTU80OFZXSU8yYVNUamZtMWtrRnRRREZNQmExeUdmZVVIMG5nYXVhemRRQ0lvNGhGTm9tNHZEeXdOWnpwVQ?oc=5",
-      "published": "2026-07-07T07:00:00+00:00",
-      "source": {
-        "name": "Firda",
-        "url": "https://www.firda.no"
       }
     },
     {
@@ -924,16 +914,6 @@
       }
     },
     {
-      "id": "c018667bdf90",
-      "title": "(+) Nå innføres nye legemidler raskere i norske sykehus - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQmtFcGdxTmtBdDljVUEyUjUzbm1odTNqMFIxdTZ6RTJPVmF0VGR3TjJLRnA4aEV5bm9sS0ZyY3oxQWZGV0MxaV9vM09YZHg3eVZvZ3RWNmRmQ0FrOGVnVGlfZ1VZUURhUVRNRFJIOFBfQldYRTRBZ2Y3enBRcHgybTc0ZENWTEpDODlqVkpuNXVBOWpxRTZXQ19PZlZmbnBhUFBSajZqZVlpMXB0bURxaXk5R2RfN3g0UDJJMkFjN2w2dFJ0SFlScDRsOUNfSnpqNk1ZVVo2ekx6T0stclMxZjBnYXFaRVdENUQ2dWV2bUo0Zw?oc=5",
-      "published": "2025-02-21T08:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
       "id": "80cac2759063",
       "title": "Nordmenn bruker mer legemidler enn noen gang - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUGdMb203WFdJS1ZPdEhtNEJ5aFRVcTFDLXRYM1dCaURRcGF6RFBjTUhEUjFjZHRSMEtrdnV4RWRsdnhSNHJwVTh5ZXY2cTJiYjI1SkxCNko4cFh6QmkyWVpCR2NtMzg0SnV4ZGVvaDBSQmxwY2FaRzVlOHZQczVWcm5VZWJwTXlMdGJUcU5IZkQyVU9MZDRycHB0eWl3SF9oN2tOSk9jWEMzaElfTnpCd0F0TTVWMEF6aU5DTkRIclY1TDQ?oc=5",
@@ -941,6 +921,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "c018667bdf90",
+      "title": "(+) Nå innføres nye legemidler raskere i norske sykehus - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQmtFcGdxTmtBdDljVUEyUjUzbm1odTNqMFIxdTZ6RTJPVmF0VGR3TjJLRnA4aEV5bm9sS0ZyY3oxQWZGV0MxaV9vM09YZHg3eVZvZ3RWNmRmQ0FrOGVnVGlfZ1VZUURhUVRNRFJIOFBfQldYRTRBZ2Y3enBRcHgybTc0ZENWTEpDODlqVkpuNXVBOWpxRTZXQ19PZlZmbnBhUFBSajZqZVlpMXB0bURxaXk5R2RfN3g0UDJJMkFjN2w2dFJ0SFlScDRsOUNfSnpqNk1ZVVo2ekx6T0stclMxZjBnYXFaRVdENUQ2dWV2bUo0Zw?oc=5",
+      "published": "2025-02-21T08:00:00+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Sykepleien",
         "url": "https://sykepleien.no"
+      }
+    },
+    {
+      "id": "41e688faf484",
+      "title": "Medisin/Helse, Sykdom | Strenge begrensninger på alle legemidler i Norge - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWHQxUVFfWGlYbkN4LXdwa2dfOEtUM2lmZGxnX3lGYmtCRXdmZmVlMkJGdDJEZHhUdG9XQ3JDdi1qMElGSGs3UjRJNS1HS182cDlfVXVCa1lZMnloYXhQZ1hNcHRWLU8yN011N1FVNDRYYUNpMUV4cTJWMTdNZUZYNnJTYWxZZUdUa2RwaG1HNzBXSzZ3b2poUF9qbEloWnpDY0VZNDR5Q1Z4UlpDQThlXw?oc=5",
+      "published": "2020-03-17T07:00:00+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     }
   ]
