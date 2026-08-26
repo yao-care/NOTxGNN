@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-26T04:40:35.990588+00:00",
+  "fetched_at": "2026-08-26T05:35:30.050297+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -281,6 +281,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "1565b8c7239c",
+      "title": "Skapte revolusjon: Denne pillen kan gi et lengre og bedre liv - Jærbladet",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTkpaMk5DQ043QTV5dzhpcEtLakhfeUlWcVBYNTZ0cHk2bE80UmZuZFFpZm9MT3lGOFNiTkNzUmVGZXIzTFVYNEZfcktpYmo1TjluNlJ1S1Z4TEZjRGxKdTdnMV92WFkzcXlRRDJHT29hNzh2aFpob3lCSF8wcXB2ZFdiRTdGRTEwNUFZdi1fQmlqMGtYemNRbmZXUlpfWG5IMnpxU3o3c0ZJMlZKSFBlRjdjZnhzVWYzdG1ZTXhCQTJfS0tY?oc=5",
+      "published": "2026-08-22T03:02:06+00:00",
+      "source": {
+        "name": "Jærbladet",
+        "url": "https://www.jbl.no"
       }
     },
     {
@@ -981,16 +991,6 @@
       "source": {
         "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
-      }
-    },
-    {
-      "id": "5a3c6e17b37a",
-      "title": "Innfører legemiddel til Stills sykdom og sJIA - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmx6MTZPbFRCMGU5c0ptUVlwdEM4UHp4Wl9EV2ppb1pQa0VPdV9RVjRWQ015dlNpVHZMblM0Wldndm9WWEFVelNSbFBUa0tDRnhES3JWbng0dXVSem1jZGsyQ0l2eGRiUkF1aTNwbW5HazI1cHZyOVZwUDhUNWc2aElyUW1VdU9RZkpJQUh1TW83YzNTRW5sQVVEaUw3RnJEcUdVOUYtVnN4Rkt5M2NDc3VrNEMtOEhsOUE?oc=5",
-      "published": "2019-02-26T08:00:00+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
