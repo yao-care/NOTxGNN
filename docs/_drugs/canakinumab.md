@@ -2,7 +2,7 @@
 layout: default
 title: Canakinumab
 parent: 僅模型預測 (L5)
-nav_order: 20
+nav_order: 33
 evidence_level: L5
 indication_count: 10
 ---

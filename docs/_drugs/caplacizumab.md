@@ -2,7 +2,7 @@
 layout: default
 title: Caplacizumab
 parent: 僅模型預測 (L5)
-nav_order: 24
+nav_order: 37
 evidence_level: L5
 indication_count: 10
 ---
