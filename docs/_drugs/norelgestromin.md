@@ -2,7 +2,7 @@
 layout: default
 title: Norelgestromin
 parent: 僅模型預測 (L5)
-nav_order: 55
+nav_order: 248
 evidence_level: L5
 indication_count: 1
 ---

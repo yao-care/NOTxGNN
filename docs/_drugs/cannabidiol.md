@@ -2,7 +2,7 @@
 layout: default
 title: Cannabidiol
 parent: 僅模型預測 (L5)
-nav_order: 35
+nav_order: 73
 evidence_level: L5
 indication_count: 0
 ---

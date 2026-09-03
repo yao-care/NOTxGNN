@@ -2,7 +2,7 @@
 layout: default
 title: Cabozantinib
 parent: 僅模型預測 (L5)
-nav_order: 30
+nav_order: 68
 evidence_level: L5
 indication_count: 10
 ---
