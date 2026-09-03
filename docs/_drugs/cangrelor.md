@@ -2,7 +2,7 @@
 layout: default
 title: Cangrelor
 parent: 僅模型預測 (L5)
-nav_order: 34
+nav_order: 72
 evidence_level: L5
 indication_count: 0
 ---
