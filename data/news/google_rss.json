@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-09-08T21:38:44.490830+00:00",
+  "fetched_at": "2026-09-08T23:54:12.082990+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "fbcd203f79df",
-      "title": "Statsministeren ba om å fjerne flaskehalser og redusere prisene på medisiner og medisinsk utstyr. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSlRveTJFa0hLRjliaWlsanR3OUJmZWxfTWxGUVNLMEZnWlNvWEVCcHNLejR2OGlLRWM1X0ZERDRlVmFOOGVqZ3RtaFZKTGRxekNiZ0ZEc0pzdGh4UDdGWXFkZURPNzBPUUlXSU94a0trV1hjcHU1dnhRbVlhQy01SGs2VERibHlDbW5ySTJGNlkzdUhwdFAzdk9B?oc=5",
-      "published": "2026-09-08T14:43:50+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
     {
       "id": "c39dd6ee39f8",
       "title": "Digital portal for meir rettferdig tilgang til legemiddel - Helse Bergen",
@@ -21,6 +11,16 @@
       "source": {
         "name": "Helse Bergen",
         "url": "https://www.helse-bergen.no"
+      }
+    },
+    {
+      "id": "fbcd203f79df",
+      "title": "Statsministeren ba om å fjerne flaskehalser og redusere prisene på medisiner og medisinsk utstyr. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSlRveTJFa0hLRjliaWlsanR3OUJmZWxfTWxGUVNLMEZnWlNvWEVCcHNLejR2OGlLRWM1X0ZERDRlVmFOOGVqZ3RtaFZKTGRxekNiZ0ZEc0pzdGh4UDdGWXFkZURPNzBPUUlXSU94a0trV1hjcHU1dnhRbVlhQy01SGs2VERibHlDbW5ySTJGNlkzdUhwdFAzdk9B?oc=5",
+      "published": "2026-09-08T14:43:50+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -64,16 +64,6 @@
       }
     },
     {
-      "id": "658bc8cc6eb5",
-      "title": "Trening og slankemedisin er «fascistisk», hevder sosialister - inyheter.no",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeDVrcGVNNXF2aGM2aklLbjVqM29ETlU4TzlzVU1Ec2ZIaE1GbGg0WmlVZGFkOGhCdVk4Mk5KSlpaelVKSkloU3dqODFMU2Z2NEdzVGI4N2kySTh2bTFzVGplMkhtYk9CNXo4QnJlXzNpdlZTV0w1bEJPeUYyY1UzaVlDcXhncWJ0T09kYmlIZ2JTUDg?oc=5",
-      "published": "2026-09-08T08:03:41+00:00",
-      "source": {
-        "name": "inyheter.no",
-        "url": "https://inyheter.no"
-      }
-    },
-    {
       "id": "4f989bd3393b",
       "title": "Nedgang i bruk av vanedannande legemiddel hos eldre - Helsedirektoratet",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUTVvZ21Kd3VQOUhyWFhjX1BMcU1fSUtQcGdocGk5X3B6bFNsLU81SzBtRkZMaDVhT0U4aXhIai1sOUpMU2tKQTJCSDB5UUdJbjVaa2hRMXg0RGxXUTdrWGVPcDJveVdiOVlRT3duV2t0NkdZejB0TlBYTjlLT1VZaERqQXBac09tRU5PMnZVVUpRTXdxdWJR?oc=5",
@@ -81,6 +71,16 @@
       "source": {
         "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
+      }
+    },
+    {
+      "id": "658bc8cc6eb5",
+      "title": "Trening og slankemedisin er «fascistisk», hevder sosialister - inyheter.no",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeDVrcGVNNXF2aGM2aklLbjVqM29ETlU4TzlzVU1Ec2ZIaE1GbGg0WmlVZGFkOGhCdVk4Mk5KSlpaelVKSkloU3dqODFMU2Z2NEdzVGI4N2kySTh2bTFzVGplMkhtYk9CNXo4QnJlXzNpdlZTV0w1bEJPeUYyY1UzaVlDcXhncWJ0T09kYmlIZ2JTUDg?oc=5",
+      "published": "2026-09-08T08:03:41+00:00",
+      "source": {
+        "name": "inyheter.no",
+        "url": "https://inyheter.no"
       }
     },
     {
@@ -114,16 +114,6 @@
       }
     },
     {
-      "id": "693f16111bf1",
-      "title": "Statsminister: Streng kontroll over kostnadene for medisiner og medisinsk utstyr fra kilden; fjern resolutt alle mellomliggende kostnader. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTWdZaFZ5emZOVGl3bTJENUc1RmhOOTJLRWo1RnU5SDBERFplQlFmSmxtZkFaNi00aW12enQ4X3NFZV9tQ1ZHU1pLbVd3Q3hlaHV1Qk5IeUwta2c4SDNWQjRUSUFjb2hSRkRHTVdLdHNENEhYSlRGYkdXMk5HS1g2UFVweUdQMHMxQjJ2eDlLbWxZUEJUSl9ITGFCSXVKVV9rVHJ3N3dSanV0V0ptXzh1c3lCT2c3NmlVd3JpanRQTFlCTEJ3S1F6R19BcXlHbkxMQmRTeA?oc=5",
-      "published": "2026-09-08T15:45:10+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "11db5a9eb287",
       "title": "(+) 450.000 gamle resepter fjernet fra Pasientens legemiddelliste - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMFNLQndUdkh3T1hnVEJjZ3dObFQxRDBfd3Z1MkE4d190aGxIcDdWbDNsUF8xdXJpcWRURDdTakk1YXBTVjFveHdNZm5FbjEyaTlvM1hXNUZWRmxjU3JYakdZN0JpSlpVN1FpaWVxRFE2S3piNnhaOEppVTcyOXZxZC0yemtsamc5YjlrQ29OQm1wQl9SQWxiMDBmcE5qUHlJcDFnNE5NN2pwOW1CZkNKUHRWMFFhVHFNd1V1WmJDQzlVOWlES24xb0VGTXhLV3pyQXNoaC1B?oc=5",
@@ -131,6 +121,16 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
+      "id": "693f16111bf1",
+      "title": "Statsminister: Streng kontroll over kostnadene for medisiner og medisinsk utstyr fra kilden; fjern resolutt alle mellomliggende kostnader. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTWdZaFZ5emZOVGl3bTJENUc1RmhOOTJLRWo1RnU5SDBERFplQlFmSmxtZkFaNi00aW12enQ4X3NFZV9tQ1ZHU1pLbVd3Q3hlaHV1Qk5IeUwta2c4SDNWQjRUSUFjb2hSRkRHTVdLdHNENEhYSlRGYkdXMk5HS1g2UFVweUdQMHMxQjJ2eDlLbWxZUEJUSl9ITGFCSXVKVV9rVHJ3N3dSanV0V0ptXzh1c3lCT2c3NmlVd3JpanRQTFlCTEJ3S1F6R19BcXlHbkxMQmRTeA?oc=5",
+      "published": "2026-09-08T15:45:10+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -154,16 +154,6 @@
       }
     },
     {
-      "id": "dba361e83e8a",
-      "title": "Statsminister: Vi må ikke la folk mangle medisiner på grunn av byråkratiske hindringer. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNN2lOS0Q4cEZuWEhzTURwTG02QjRxd0t3TlNEeG1iNWZDZGhXX0dSUDFGWUZxTEVFOXB1TGF4eGdWX25PNzhNeE5UTUYxYU13U3pNeU1ESFByNFFnSzA2UExtUE0xV2Fpa1V2S25mdzBfTklRNFUzckZtZ3NWSk1rQnBES3JrSnhKSUE?oc=5",
-      "published": "2026-09-08T16:10:17+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "094a0379954d",
       "title": "(+) Nesten ingen av legemiddel-meldingene sendt innen fristen: – Vi er selvsagt ikke fornøyde - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPLUdNMl8yV2Itc3pjb0VHWlNObkVkSUt5WGdoc050SkFOd2Q5UE5SYWpZUVBhTzB2SEJNYm5WcUZVNTNnVmZFSHJnTnR1Q25uMzFtaDhMQlFiQ05zbUdmcjdCdkxpYm5aTmQzNl9WNzRxY0JEQkE4QzZBSkU5TnJEbWhxRDNfeXk2dXJoa1ppNzVUX1o4NEZDWDNCNjNPR0tuSlIxUlpJcVFHUGtiYzFmQ3VuUFdySlN1ZjRHUl92YXd0SXlCNEJSWG5sSWJmanlDcWVISENMZFR5WVA3WXc?oc=5",
@@ -171,6 +161,16 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
+      "id": "dba361e83e8a",
+      "title": "Statsminister: Vi må ikke la folk mangle medisiner på grunn av byråkratiske hindringer. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNN2lOS0Q4cEZuWEhzTURwTG02QjRxd0t3TlNEeG1iNWZDZGhXX0dSUDFGWUZxTEVFOXB1TGF4eGdWX25PNzhNeE5UTUYxYU13U3pNeU1ESFByNFFnSzA2UExtUE0xV2Fpa1V2S25mdzBfTklRNFUzckZtZ3NWSk1rQnBES3JrSnhKSUE?oc=5",
+      "published": "2026-09-08T16:10:17+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -324,12 +324,12 @@
       }
     },
     {
-      "id": "68ba1add6b85",
-      "title": "Medisin, Helse | Betaler i dyre dommer fra egen lomme – slankemedisin på topp ti - sa.no",
+      "id": "563e4602cd43",
+      "title": "Medisin, Helse | Betaler i dyre dommer fra egen lomme – slankemedisin på topp ti - Sarpsborg Arbeiderblad",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPemlrREhLY0tBT2h1UFpyLXhybTNPUjBrVG5GYUUtbkE5dUQ1VlpDUi1uY2tVTE9tVXhhSFdSekFLbG5vMXhGc2MwdHpSSlZROTBjekt5aXhBZkprUF9ZdVRjeE9KQlMzcjJNSDBJUU5KVUR3azBiLWF6NkxUZENZVUczbXIzNlZVdDVpZ1B6ek5IajVSVGp6TWdR?oc=5",
       "published": "2026-02-08T08:00:00+00:00",
       "source": {
-        "name": "sa.no",
+        "name": "Sarpsborg Arbeiderblad",
         "url": "https://www.sa.no"
       }
     },
@@ -444,16 +444,6 @@
       }
     },
     {
-      "id": "9389b30abe08",
-      "title": "Kolesterol-medisiner: Dramatiske funn om bivirkninger - Dagbladet",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOX0Y5d3Q3clUwR3hNMUpSNjJJSWkwcXE5NVVjWkpZbEpiWlhPdTlZMDJmVXRTTDIxWVdhdkFNc0d1bjZKYkJmWkVxZXEzVFpyUFF6aHVOekZyTFBkX2R2ckpFb1NKMHhZemJ5eGxSNVVVcXpmUjVGY2dyUXZfQlBfWGRKajNTXzI0NzE2QnhxbklScjgyV0E?oc=5",
-      "published": "2026-09-01T22:31:27+00:00",
-      "source": {
-        "name": "Dagbladet",
-        "url": "https://www.dagbladet.no"
-      }
-    },
-    {
       "id": "7e45fe664385",
       "title": "(+) Han overtar jobben med å fronte upopulære medisin-avgjørelser - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSFBtbFpOTTRNNEY0VF9LMmZma2JPNnl1emw2X1RVdjR3Y0FPWXBkRGI4clFyNkptQTlVWlBoM09QeWlpVnBVSG9Ea2w1MHZURGRsZnNyM0FleVJyWWctV3VxV25aeXJGdWhMVy1FMFJHU3VwSUlNRUEtem9WWjV1c1g4M1I5YUFyWlVaVmJSWVFDTUc0cWU2TVJqVVZzM25NUWNwUnk3aDdOU0xEdE02c3owd0ZhQ0RFaU9VR2E4UzFMd0dEbmkwanlCSEpldHladmRBYmpLdDZ3OFROY0Fn?oc=5",
@@ -471,6 +461,16 @@
       "source": {
         "name": "Hamar Arbeiderblad",
         "url": "https://www.h-a.no"
+      }
+    },
+    {
+      "id": "9389b30abe08",
+      "title": "Kolesterol-medisiner: Dramatiske funn om bivirkninger - Dagbladet",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOX0Y5d3Q3clUwR3hNMUpSNjJJSWkwcXE5NVVjWkpZbEpiWlhPdTlZMDJmVXRTTDIxWVdhdkFNc0d1bjZKYkJmWkVxZXEzVFpyUFF6aHVOekZyTFBkX2R2ckpFb1NKMHhZemJ5eGxSNVVVcXpmUjVGY2dyUXZfQlBfWGRKajNTXzI0NzE2QnhxbklScjgyV0E?oc=5",
+      "published": "2026-09-01T22:31:27+00:00",
+      "source": {
+        "name": "Dagbladet",
+        "url": "https://www.dagbladet.no"
       }
     },
     {
@@ -664,12 +664,12 @@
       }
     },
     {
-      "id": "69a88b7a0e9b",
-      "title": "Nyheter, Helse | Mener fastlege påførte pasienter misbruk av legemidler - Gudbrandsdølen Dagningen",
+      "id": "2bdef8ed6f56",
+      "title": "Nyheter, Helse | Mener fastlege påførte pasienter misbruk av legemidler - gd.no",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVzFDTGg0UWRFcEtsbS1BM0FpTWltLUdzTmVGUHNtN0l2NlhxdUxCUU9lQ1E5NFVhUDh6SkNDU3ZBLTdQUWQ4V3JsSmV2eXJITEpNNGYtaVNOWkl0SEh0cHBybkFvNXdjdFBUVmZDSFJzTi1IQTIwd05XMGpFaEdRMGJR?oc=5",
       "published": "2025-10-02T07:00:00+00:00",
       "source": {
-        "name": "Gudbrandsdølen Dagningen",
+        "name": "gd.no",
         "url": "https://www.gd.no"
       }
     },
@@ -694,20 +694,20 @@
       }
     },
     {
-      "id": "7ff2c2e75675",
-      "title": "Et eksperiment med potensielt stor risiko for pasientene - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeHV0b21rQ0ZYSjRiOF9RSTdjcmdUX3ZaX2hhbTB2RlpTRVhVaWJUeGpNX1RhX1VnbzdoN1hLY0thVmZoZTBCaXpNYUFiOFNzS2RwTVlHUDJUMWJ1U2RZelRra3BtOEV0a3JsNTlYd2xvQUQ5NFRidlUwZmo4Tk5YX1lJeEdQc3F1QUwwaF91ZWRsTFZ6VFRyaVR2MUhrbEJkY3lkLTdwZXlYMGtYcHNLX3JsRHFUZ0d6dWYwSkRYaFdYZXQ1Mmc?oc=5",
-      "published": "2025-09-12T07:00:00+00:00",
+      "id": "7bdd601b990a",
+      "title": "(+) Noen få medisiner utgjør halvparten av kostnadene - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdkNqT0dVU0ZrSzFyQ2dyMkQzQlZQVEVRVC12RGNRdmFrajVyTkJLSGp1WFlTMVI2ZmFvZ05CYVJmLTRuQ2lEM1FNd2VKRkhVQ0MwbkVFWlRLZDAtXy1jN1ZMWVBtSktvUmlvNGlYTVJxMFk2YUdsMHU3ZDJUMzF4ZTVfR1laUlIxOVR2NTlxR3luM3dvZUdTSnRjdmp0VDUwa3Z1Z19Jd3RDNEUzVUZxQ3l5bk1QWWpiRnpqX3dGY0xsTlVmUnJ4N09VNl9TWTJGMkVlTTExX0V3WWE1YWc?oc=5",
+      "published": "2025-01-21T08:00:00+00:00",
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
       }
     },
     {
-      "id": "7bdd601b990a",
-      "title": "(+) Noen få medisiner utgjør halvparten av kostnadene - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdkNqT0dVU0ZrSzFyQ2dyMkQzQlZQVEVRVC12RGNRdmFrajVyTkJLSGp1WFlTMVI2ZmFvZ05CYVJmLTRuQ2lEM1FNd2VKRkhVQ0MwbkVFWlRLZDAtXy1jN1ZMWVBtSktvUmlvNGlYTVJxMFk2YUdsMHU3ZDJUMzF4ZTVfR1laUlIxOVR2NTlxR3luM3dvZUdTSnRjdmp0VDUwa3Z1Z19Jd3RDNEUzVUZxQ3l5bk1QWWpiRnpqX3dGY0xsTlVmUnJ4N09VNl9TWTJGMkVlTTExX0V3WWE1YWc?oc=5",
-      "published": "2025-01-21T08:00:00+00:00",
+      "id": "7ff2c2e75675",
+      "title": "Et eksperiment med potensielt stor risiko for pasientene - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeHV0b21rQ0ZYSjRiOF9RSTdjcmdUX3ZaX2hhbTB2RlpTRVhVaWJUeGpNX1RhX1VnbzdoN1hLY0thVmZoZTBCaXpNYUFiOFNzS2RwTVlHUDJUMWJ1U2RZelRra3BtOEV0a3JsNTlYd2xvQUQ5NFRidlUwZmo4Tk5YX1lJeEdQc3F1QUwwaF91ZWRsTFZ6VFRyaVR2MUhrbEJkY3lkLTdwZXlYMGtYcHNLX3JsRHFUZ0d6dWYwSkRYaFdYZXQ1Mmc?oc=5",
+      "published": "2025-09-12T07:00:00+00:00",
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
@@ -724,12 +724,12 @@
       }
     },
     {
-      "id": "9a816f56a278",
-      "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - Rådet for psykisk helse",
+      "id": "057752fb1151",
+      "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - psykiskhelse.no",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjkwcGZUTVRwWk15Yms3VHNEOWNjaHAzank5d0xhc3VSSkViN2RBNDZGZDBXMTdIQ1ZIWGE1WC0ycjgwREpnNHFVNlRyRV9ia2VPX0lFdGhkaFQ1RDZqY2V5TzlQMXNxbXRpZGdKUGRneXFCQUVyaXRpNkFKaFFrWTJ5ZDBjeU9JSzJ0aXBQVGZyY3BxNFRONmtCdS1PVnZtRlFv?oc=5",
       "published": "2023-10-10T07:00:00+00:00",
       "source": {
-        "name": "Rådet for psykisk helse",
+        "name": "psykiskhelse.no",
         "url": "https://psykiskhelse.no"
       }
     },
@@ -934,12 +934,12 @@
       }
     },
     {
-      "id": "6cb2ba8394ec",
-      "title": "Helse, Medisin | Nordmenn tømmer hyllene: – Kun tre har dokumentert effekt - f-b.no",
+      "id": "5e1f855fd839",
+      "title": "Helse, Medisin | Nordmenn tømmer hyllene: – Kun tre har dokumentert effekt - Fredriksstad Blad",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeERKb0ZkVXM5dEJJeEhncGV6S2E0NnN4ai1tOWRDR3F2Qmc3V3c4LUdKc2FKMWVtbXVMNDZzY1FvNWd4U0ROekQ5eURtZXVrMDBSakJ1TmM0bGppVmtKY0k3VVNoM2pIOEgwMU1ITlF0U0VmT190cHZiVnlIZGJJWG95WldvY09NUjRrTFR4RWVjQQ?oc=5",
       "published": "2025-01-19T08:00:00+00:00",
       "source": {
-        "name": "f-b.no",
+        "name": "Fredriksstad Blad",
         "url": "https://www.f-b.no"
       }
     },
