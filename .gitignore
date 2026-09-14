@@ -231,3 +231,5 @@ model_ckpt/
 
 # Python 版本檔案（可選）
 .python-version
+# 空的 SQLite 殘留檔，非專案產物
+mydatabase.db
