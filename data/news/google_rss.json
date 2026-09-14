@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-09-14T00:55:01.027363+00:00",
+  "fetched_at": "2026-09-14T05:54:16.395429+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "93e83ce93f06",
+      "title": "Helse, Kropp | Lover varig vektnedgang: Nå har supermedisinen kommet til Europa - Østlendingen",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYlFFNHZqRkJXemFwRnFnN3JxV3FhV1VETDBTOUhVdDVHSkhvcjAtS0tNSENuVnFFeW54U3hFbTl1bndYalJFcm5lRWJhWHFoTi1xM2RfQUNCV3RJMEhYeUNnLUMycWhqb20zbV84bGxvWGNyWnpabnBvbFI2WTlxZTMwbDRLc0xxYnJGUmFGWlRKNi1SYUtXa1p3YXZhdTRRQ2hNRnBNcG1jUQ?oc=5",
+      "published": "2026-09-13T19:54:12+00:00",
+      "source": {
+        "name": "Østlendingen",
+        "url": "https://www.ostlendingen.no"
+      }
+    },
     {
       "id": "c39dd6ee39f8",
       "title": "Digital portal for meir rettferdig tilgang til legemiddel - Helse Bergen",
@@ -41,16 +51,6 @@
       "source": {
         "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
-      }
-    },
-    {
-      "id": "e0bfe1ff0fde",
-      "title": "Helsedepartementet foreslår at helseforsikringen dekker ytterligere 129 tradisjonelle legemidler. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOM082RWRNLUpGX1Q2WlJ3ZjIyaWczSXE4ZHQ3OHI3azJxQWJSRzJ4Wm9tSGRXbVhaRGNaQjhVUDNkYVJDelFJVGh5UU16ZjdsSEQzZFJGaGpHMHJ3ZVJwclhEdWhjUnM0R21oM2tVQmpQT0dfbjA0amlpc0R1NmlzNUctUklYN1prcHBZVml3?oc=5",
-      "published": "2026-09-13T05:07:58+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -94,6 +94,16 @@
       }
     },
     {
+      "id": "e0bfe1ff0fde",
+      "title": "Helsedepartementet foreslår at helseforsikringen dekker ytterligere 129 tradisjonelle legemidler. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOM082RWRNLUpGX1Q2WlJ3ZjIyaWczSXE4ZHQ3OHI3azJxQWJSRzJ4Wm9tSGRXbVhaRGNaQjhVUDNkYVJDelFJVGh5UU16ZjdsSEQzZFJGaGpHMHJ3ZVJwclhEdWhjUnM0R21oM2tVQmpQT0dfbjA0amlpc0R1NmlzNUctUklYN1prcHBZVml3?oc=5",
+      "published": "2026-09-13T05:07:58+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "11db5a9eb287",
       "title": "(+) 450.000 gamle resepter fjernet fra Pasientens legemiddelliste - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMFNLQndUdkh3T1hnVEJjZ3dObFQxRDBfd3Z1MkE4d190aGxIcDdWbDNsUF8xdXJpcWRURDdTakk1YXBTVjFveHdNZm5FbjEyaTlvM1hXNUZWRmxjU3JYakdZN0JpSlpVN1FpaWVxRFE2S3piNnhaOEppVTcyOXZxZC0yemtsamc5YjlrQ29OQm1wQl9SQWxiMDBmcE5qUHlJcDFnNE5NN2pwOW1CZkNKUHRWMFFhVHFNd1V1WmJDQzlVOWlES24xb0VGTXhLV3pyQXNoaC1B?oc=5",
@@ -134,12 +144,12 @@
       }
     },
     {
-      "id": "7f820004c905",
-      "title": "Johannesurt i folkemedisinen - NHI.no",
+      "id": "6f0839c8adf9",
+      "title": "Johannesurt i folkemedisinen - nhi.no",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR0k1OWpxcXdmZVNOQUFVbGhlNnZjanpSdlNzOFNoRWs1SGZRMkpTaFFOcHNPdVh1ZDIzQWs4aFUyX05rSlBsSzRVbFRIV2tfb0Joa3hMcGhrR3hDTDZOWXoyUHhXNFFYUlR1cFdYZktOVUpwRHpObTZkWFVkTmc5VTVXcEI?oc=5",
       "published": "2025-12-12T08:00:00+00:00",
       "source": {
-        "name": "NHI.no",
+        "name": "nhi.no",
         "url": "https://nhi.no"
       }
     },
@@ -214,16 +224,6 @@
       }
     },
     {
-      "id": "a2fb4f96f2a7",
-      "title": "Tester nye rutiner for legemiddelbruk – Porsgrunn er neste på lista - ta.no",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWVZyNTd5RktvRDRDeE1NdnVEWnVvQXVwTDRVZDc2a3U5c1ZoWnVhN1VUS2FaZVRwdlJESnI3dlVPWGJZXzQ3YkRWYy1ndzh0b1hCOC1VMmVKQ1ZPYVZkZWxSazItZHpsTEJ4QUpJUFpGb3B2YWthemxQMlhFZzJqT1FOS2pXX0lod24yZ2VtZzJERU5KN2c4OXdyMmZtRU9JUTJNSQ?oc=5",
-      "published": "2026-03-13T07:00:00+00:00",
-      "source": {
-        "name": "ta.no",
-        "url": "https://www.ta.no"
-      }
-    },
-    {
       "id": "7f8aa23437a4",
       "title": "Riktig medisinbruk hos eldre – hvordan får vi det til? - UiO Det medisinske fakultet",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbEdoZllLSkM0Y3BzbG1BV2JoSWhFOWg3SjYwOWJIbHN5SERXemd2dVpRWnk0VEpYOWlneW5YSllTd2tzXy1xUHBPR2wtT3hoZy01MUlvckRqRGZYMk9CM1ZWclRma1BmN3M2X3NnMm5KYXdWejV6ejlKUGw0Rzl6NUFfaGg?oc=5",
@@ -254,12 +254,12 @@
       }
     },
     {
-      "id": "5415c63092d6",
-      "title": "Helse, NTB | Bruken av kolesterolsenkende legemidler øker kraftig - Bergensavisen",
+      "id": "ce3469a9c30e",
+      "title": "Helse, NTB | Bruken av kolesterolsenkende legemidler øker kraftig - ba.no",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbmlVQ202cEQtbWRtZXNyTU1CdU42T0RJako0ZnZiUlhCVVFUbEVXREFkSTlKNlM2ZnlaeERyS0ZxMkdEaTFQVlBrV3RveXBkZWZXbjVCSXRnNm9PSGF5WWpxSmVJNjAzMkZGcG9ndmZLR01VTmtlQ1cyeklmX1lWcVEwVWl2MHlsRGlXRw?oc=5",
       "published": "2026-03-03T08:00:00+00:00",
       "source": {
-        "name": "Bergensavisen",
+        "name": "ba.no",
         "url": "https://www.ba.no"
       }
     },
@@ -454,12 +454,12 @@
       }
     },
     {
-      "id": "0367691d5490",
-      "title": "Eldre i Larvik får færre medisiner - op.no",
+      "id": "77966db9a0c0",
+      "title": "Eldre i Larvik får færre medisiner - Østlands-Posten",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPakRTWk5KLWtPMWMtbjVpMl80V2Nrdm9SU3pDSnU2NjBPdHFMaGRzd29LenR6QXoyZ3dMZzNpbGk1VHRWa2xxbmFTaktjd3Q2d3NDV1N3UkE2T1NhdzI3WmNhR095SXppekhPZVZrOXNSOUtLQUswTmFfWktBektfQnBUcUxMZjZFcGxVSWQyWW9UcWxaU29DSV9LSlExSHJfVUhXeXdHNTY?oc=5",
       "published": "2026-06-20T07:00:00+00:00",
       "source": {
-        "name": "op.no",
+        "name": "Østlands-Posten",
         "url": "https://www.op.no"
       }
     },
@@ -504,12 +504,12 @@
       }
     },
     {
-      "id": "702ad07dab77",
-      "title": "Helse, Legemidler | Flere medisiner fases ut: – Haster med å kontakte lege - blv.no",
+      "id": "b897f53b9f77",
+      "title": "Helse, Legemidler | Flere medisiner fases ut: – Haster med å kontakte lege - Bladet Vesterålen",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc1FCbS1PLXZQN2p2THZ4QUhKSmJ2NWV3RHZ6R2YwYXhTcU5XQW9tY05YUUNZUXpNSmtZMW9STlVBUnRHMXZ3eWoxZUhPYl82SUgxLWhTU0YwendFeUFqTEZXWlF0NktvQjV1cWdOaGcybnlabUZFMFZzWXZWZnlNQ3p6MTVOWkJmSVpB?oc=5",
       "published": "2026-04-29T07:00:00+00:00",
       "source": {
-        "name": "blv.no",
+        "name": "Bladet Vesterålen",
         "url": "https://www.blv.no"
       }
     },
@@ -534,12 +534,12 @@
       }
     },
     {
-      "id": "c4a433fa4eab",
-      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - Stortinget.no",
+      "id": "858b5d819d37",
+      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjQ0cWxEYW91Y2d1SDZRZU9aM1lNaXg1cTROb0hKMk1INUlOZmh2dzB1V3o0dHU4SHNZUGNGMlRTQjJSZEhmdWJXMGlyOGlqbE5Ic0JDUk8xd1Nsam9KVXVZUmhMXzk4M0w1OVpaQmhmNENRXzE1cFlRWWt5bXpJekU1YnVyNzVPQ1FlX3IyMWNKSXJ0Z3p2ZDdpYVZKWVo0SXE3T3duMDBvYlBQOHNjTm95UEJVY0kzRXZudg?oc=5",
       "published": "2025-10-12T14:11:53+00:00",
       "source": {
-        "name": "Stortinget.no",
+        "name": "stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
@@ -694,12 +694,12 @@
       }
     },
     {
-      "id": "d58b28348cce",
-      "title": "Kvinner får feil behandling - medisinene er tilpasset menn - NHI.no",
+      "id": "e752c70e06b2",
+      "title": "Kvinner får feil behandling - medisinene er tilpasset menn - nhi.no",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaHB0SkxtQ2E2eGduME9iQ3FSVlBtYkVrd0w2YUZGWmhzdkRGeE51aHJVMGg0REJoQUExQkktRkN0UnR5dUNNdGYxV0ZrYlNxSG4zaHoxU0w4d1k1bW1lYkdEaTFKVkxETzRldmhRdWJ3cWVYNWRHY1JaY2JQX2UxNUFabFN4a1JzSTlTQWUxMGlsU1pNY2FtclFPbk56S2RlUmtNSGlLMGJiV1B0ZWNsUS1LUDlUZw?oc=5",
       "published": "2020-08-30T07:00:00+00:00",
       "source": {
-        "name": "NHI.no",
+        "name": "nhi.no",
         "url": "https://nhi.no"
       }
     },
@@ -714,12 +714,12 @@
       }
     },
     {
-      "id": "b701c3d36d04",
-      "title": "Raser mot systemet: –⁠ Pasienter lider og dør - e24.no",
+      "id": "aba72f36f8db",
+      "title": "Raser mot systemet: –⁠ Pasienter lider og dør - E24",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZl9kUVdrdTlPZFgydGVtTGR3XzEzamwtWGQ3R0JJWGNzVVRPVmVwVm9ROVk3ZGVwdVZ0Q2FNMFR3dFBLNFpvZ29EWlBXV3BqNHZFVVc1d1V3UWNnR1NmaEozYnlrSjR4SW82SGhVc1RpaUpfazZNWlRIcTFuR1hWb2praHI?oc=5",
       "published": "2025-07-20T07:00:00+00:00",
       "source": {
-        "name": "e24.no",
+        "name": "E24",
         "url": "https://e24.no"
       }
     },
@@ -824,22 +824,22 @@
       }
     },
     {
-      "id": "bb3f7fd4a136",
-      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - Stortinget.no",
+      "id": "286929c6c632",
+      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVGEwRnFBUFZPeFQ5Rnl0MjY4RV9VSFRGWmJrNDVFekdxLXZHNjBjZGVHbkYyeGJLd3FjS3Y4RWRaTlVwR01yS0ZFTzRlam9jYl9zcUJGaG5FZ2NUOWg4SEpCbmJNSEdxdWpNWUlTbXBWdUJ2TFZKWDFmRTdlQU84UWY1UGhORHVYOGowdzhfcUtPeHZTZmVaMG1VQ0V4Q2pST2xRc19sdkNfOVNJS2JCWTZybDA1Z041cGc4bw?oc=5",
       "published": "2025-03-31T03:18:30+00:00",
       "source": {
-        "name": "Stortinget.no",
+        "name": "stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
     {
-      "id": "5e1f855fd839",
-      "title": "Helse, Medisin | Nordmenn tømmer hyllene: – Kun tre har dokumentert effekt - Fredriksstad Blad",
+      "id": "6cb2ba8394ec",
+      "title": "Helse, Medisin | Nordmenn tømmer hyllene: – Kun tre har dokumentert effekt - f-b.no",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeERKb0ZkVXM5dEJJeEhncGV6S2E0NnN4ai1tOWRDR3F2Qmc3V3c4LUdKc2FKMWVtbXVMNDZzY1FvNWd4U0ROekQ5eURtZXVrMDBSakJ1TmM0bGppVmtKY0k3VVNoM2pIOEgwMU1ITlF0U0VmT190cHZiVnlIZGJJWG95WldvY09NUjRrTFR4RWVjQQ?oc=5",
       "published": "2025-01-19T08:00:00+00:00",
       "source": {
-        "name": "Fredriksstad Blad",
+        "name": "f-b.no",
         "url": "https://www.f-b.no"
       }
     },
@@ -964,12 +964,12 @@
       }
     },
     {
-      "id": "d407e92cbaec",
-      "title": "Helse, medisin og omsorg - Edvard Munch i ny kontekst - mynewsdesk.com",
+      "id": "4a4ed441eb61",
+      "title": "Helse, medisin og omsorg - Edvard Munch i ny kontekst - Mynewsdesk",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQajRCWFVjTS0yMEdmRXhMbVF5alU4WmNXSXlrMlFtMzN2Q0M0WkdoX3dIQzFzMExmaF90ZkhvakdXcWFkM2lLWDBmYld1Zzl4V0twWjE5YUQ0Vk1XeDFwOU1VUWl0dzZPTEVLRUduXzU2S29vSTZLTXpHUHJReGxwLTNTVExQeTFfT05TUHo4b0MtNGtTNFd4Q2l0bFZRYU80NldOZ1Vsc3plWHI3MHkwLVBTZEw?oc=5",
       "published": "2025-06-11T07:00:00+00:00",
       "source": {
-        "name": "mynewsdesk.com",
+        "name": "Mynewsdesk",
         "url": "https://www.mynewsdesk.com"
       }
     },
