@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-14T18:24:10.002320+00:00",
+  "fetched_at": "2026-09-14T22:19:17.531233+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -94,12 +94,12 @@
       }
     },
     {
-      "id": "055bde4d929d",
-      "title": "Flere eldre kan hente medisin på apotek - Bergen kommune",
+      "id": "13b00ff6e84c",
+      "title": "Flere eldre kan hente medisin på apotek - bergen.kommune.no",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUUt4cU1YcTRnVzJsQUNJQ1BMRTJEWGl5bmdEVlYwZXpmb1pEaVA0d20yczVIR2ZyRE83MloyWDVrbGJhd0lXTU0yMmZUYjdrLW9aUW9vV2xLTXBUaXlRcFN3cXNjY0cyU1FLbldLX3FPTWJJdmVIX2FrSmE2NGp1OGphenNmVTl5UXF0WEhObC1tWElMVkF6S3BPQ1gzcml6MDBPTkcwcFRDUQ?oc=5",
       "published": "2026-01-15T08:00:00+00:00",
       "source": {
-        "name": "Bergen kommune",
+        "name": "bergen.kommune.no",
         "url": "https://www.bergen.kommune.no"
       }
     },
@@ -114,22 +114,12 @@
       }
     },
     {
-      "id": "ee5c5c7e9d45",
-      "title": "Statsministeren ba om å fjerne flaskehalser og redusere prisene på medisiner og medisinsk utstyr. - vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSlRveTJFa0hLRjliaWlsanR3OUJmZWxfTWxGUVNLMEZnWlNvWEVCcHNLejR2OGlLRWM1X0ZERDRlVmFOOGVqZ3RtaFZKTGRxekNiZ0ZEc0pzdGh4UDdGWXFkZURPNzBPUUlXSU94a0trV1hjcHU1dnhRbVlhQy01SGs2VERibHlDbW5ySTJGNlkzdUhwdFAzdk9B?oc=5",
-      "published": "2026-09-08T14:43:50+00:00",
-      "source": {
-        "name": "vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "44827b0b0933",
-      "title": "– Mange har forstått at det er mangel og spør om vi har medisinen - rb.no",
+      "id": "beaf995dea05",
+      "title": "– Mange har forstått at det er mangel og spør om vi har medisinen - Romerikes Blad",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSDkzU1BKblNwLTZmdXZvMDlaQ1hud1NtZi0wVU96RXlQT2laSjBiek9ldUFIU1dWYmgzc1ZvUmtjTTRHZmxncWN6YUh6d09YWWRDTlFPeWtFSDRLbFd5WGhRX0pRbXRZcll1V055V09PRF96SmFjTVpjZEU3UkJINVpIOXFldFNTNkVhWV9TNzhkRzg3UnBINGtGSmE?oc=5",
       "published": "2026-06-09T07:00:00+00:00",
       "source": {
-        "name": "rb.no",
+        "name": "Romerikes Blad",
         "url": "https://www.rb.no"
       }
     },
@@ -141,6 +131,16 @@
       "source": {
         "name": "Aftenposten",
         "url": "https://www.aftenposten.no"
+      }
+    },
+    {
+      "id": "fbcd203f79df",
+      "title": "Statsministeren ba om å fjerne flaskehalser og redusere prisene på medisiner og medisinsk utstyr. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSlRveTJFa0hLRjliaWlsanR3OUJmZWxfTWxGUVNLMEZnWlNvWEVCcHNLejR2OGlLRWM1X0ZERDRlVmFOOGVqZ3RtaFZKTGRxekNiZ0ZEc0pzdGh4UDdGWXFkZURPNzBPUUlXSU94a0trV1hjcHU1dnhRbVlhQy01SGs2VERibHlDbW5ySTJGNlkzdUhwdFAzdk9B?oc=5",
+      "published": "2026-09-08T14:43:50+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -384,23 +384,13 @@
       }
     },
     {
-      "id": "9389b30abe08",
-      "title": "Kolesterol-medisiner: Dramatiske funn om bivirkninger - Dagbladet",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOX0Y5d3Q3clUwR3hNMUpSNjJJSWkwcXE5NVVjWkpZbEpiWlhPdTlZMDJmVXRTTDIxWVdhdkFNc0d1bjZKYkJmWkVxZXEzVFpyUFF6aHVOekZyTFBkX2R2ckpFb1NKMHhZemJ5eGxSNVVVcXpmUjVGY2dyUXZfQlBfWGRKajNTXzI0NzE2QnhxbklScjgyV0E?oc=5",
-      "published": "2026-09-02T07:00:00+00:00",
+      "id": "7dc1a9a7a88a",
+      "title": "Dette kan halvere effekten av medisinen din - Hamar Arbeiderblad",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTmJYdTBfRWZKOGFoSlY1VmhYd005Z0R6MGtmdUJBV0NYUVRiNmVPaEpZLXBwd1lZbHhFOFRmbVVvRU5aV2drRnZ6ajRrUVJsblBjRExsZlRZak51STh5cllmdlBsQ2VjaE81TWlBd2lJaW1BcjdmOXkwLXFQOHUyRWtBNnA?oc=5",
+      "published": "2026-05-24T07:00:00+00:00",
       "source": {
-        "name": "Dagbladet",
-        "url": "https://www.dagbladet.no"
-      }
-    },
-    {
-      "id": "ce1d374fffda",
-      "title": "Statsminister: Streng kontroll av kostnadene for medisiner og medisinsk utstyr fra kilden, og resolutt eliminere mellomliggende kostnader. - vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNnBPYW94UnJPX2ZjdWoyUG5td1l6aFUzZE9CZGdnMVNqWXVwY2YtbDlWYzloaGlSNlFpWmMxTkc1ZVdzcjJYdGE2Wjl0NUhjdW0tYnlaUkJqR1hqaVpzTDlhUUlaNURmM0RRbTJRVXpHdm9YR0N1elM1S2hRd0F0djJMaWEwVjZPa2UxODFyblJmUE82RU1vZ2tjR25uSUpPTGN1R3dRcUZ3RERYdk5uMnhXVENEdjQxNThpQnY3WmotUQ?oc=5",
-      "published": "2026-09-09T00:16:36+00:00",
-      "source": {
-        "name": "vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Hamar Arbeiderblad",
+        "url": "https://www.h-a.no"
       }
     },
     {
@@ -414,16 +404,6 @@
       }
     },
     {
-      "id": "7dc1a9a7a88a",
-      "title": "Dette kan halvere effekten av medisinen din - Hamar Arbeiderblad",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTmJYdTBfRWZKOGFoSlY1VmhYd005Z0R6MGtmdUJBV0NYUVRiNmVPaEpZLXBwd1lZbHhFOFRmbVVvRU5aV2drRnZ6ajRrUVJsblBjRExsZlRZak51STh5cllmdlBsQ2VjaE81TWlBd2lJaW1BcjdmOXkwLXFQOHUyRWtBNnA?oc=5",
-      "published": "2026-05-24T07:00:00+00:00",
-      "source": {
-        "name": "Hamar Arbeiderblad",
-        "url": "https://www.h-a.no"
-      }
-    },
-    {
       "id": "563e4602cd43",
       "title": "Medisin, Helse | Betaler i dyre dommer fra egen lomme – slankemedisin på topp ti - Sarpsborg Arbeiderblad",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPemlrREhLY0tBT2h1UFpyLXhybTNPUjBrVG5GYUUtbkE5dUQ1VlpDUi1uY2tVTE9tVXhhSFdSekFLbG5vMXhGc2MwdHpSSlZROTBjekt5aXhBZkprUF9ZdVRjeE9KQlMzcjJNSDBJUU5KVUR3azBiLWF6NkxUZENZVUczbXIzNlZVdDVpZ1B6ek5IajVSVGp6TWdR?oc=5",
@@ -431,6 +411,26 @@
       "source": {
         "name": "Sarpsborg Arbeiderblad",
         "url": "https://www.sa.no"
+      }
+    },
+    {
+      "id": "9389b30abe08",
+      "title": "Kolesterol-medisiner: Dramatiske funn om bivirkninger - Dagbladet",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOX0Y5d3Q3clUwR3hNMUpSNjJJSWkwcXE5NVVjWkpZbEpiWlhPdTlZMDJmVXRTTDIxWVdhdkFNc0d1bjZKYkJmWkVxZXEzVFpyUFF6aHVOekZyTFBkX2R2ckpFb1NKMHhZemJ5eGxSNVVVcXpmUjVGY2dyUXZfQlBfWGRKajNTXzI0NzE2QnhxbklScjgyV0E?oc=5",
+      "published": "2026-09-02T07:00:00+00:00",
+      "source": {
+        "name": "Dagbladet",
+        "url": "https://www.dagbladet.no"
+      }
+    },
+    {
+      "id": "4310c5e665d4",
+      "title": "Statsminister: Streng kontroll av kostnadene for medisiner og medisinsk utstyr fra kilden, og resolutt eliminere mellomliggende kostnader. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNnBPYW94UnJPX2ZjdWoyUG5td1l6aFUzZE9CZGdnMVNqWXVwY2YtbDlWYzloaGlSNlFpWmMxTkc1ZVdzcjJYdGE2Wjl0NUhjdW0tYnlaUkJqR1hqaVpzTDlhUUlaNURmM0RRbTJRVXpHdm9YR0N1elM1S2hRd0F0djJMaWEwVjZPa2UxODFyblJmUE82RU1vZ2tjR25uSUpPTGN1R3dRcUZ3RERYdk5uMnhXVENEdjQxNThpQnY3WmotUQ?oc=5",
+      "published": "2026-09-09T00:16:36+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -574,12 +574,12 @@
       }
     },
     {
-      "id": "4b273316c354",
-      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - Stortinget",
+      "id": "c4a433fa4eab",
+      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - Stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjQ0cWxEYW91Y2d1SDZRZU9aM1lNaXg1cTROb0hKMk1INUlOZmh2dzB1V3o0dHU4SHNZUGNGMlRTQjJSZEhmdWJXMGlyOGlqbE5Ic0JDUk8xd1Nsam9KVXVZUmhMXzk4M0w1OVpaQmhmNENRXzE1cFlRWWt5bXpJekU1YnVyNzVPQ1FlX3IyMWNKSXJ0Z3p2ZDdpYVZKWVo0SXE3T3duMDBvYlBQOHNjTm95UEJVY0kzRXZudg?oc=5",
       "published": "2025-10-12T14:11:53+00:00",
       "source": {
-        "name": "Stortinget",
+        "name": "Stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
@@ -591,16 +591,6 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
-      "id": "8cbc34a99ad8",
-      "title": "Novartis satser milliarder på ny brystkreftbehandling - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZTNSbmIzbXJOUF96Z2o2UWxXcWc1UlMtZkRWaXQ4dEtkN3E5VXBTUlhOb1NxeTNBdzU5NnQwZjA2YmpNNVZ6QmVDT3FaOTdGSFRSeVJBeTZLRGFFa1l0aGV2VzVkclZsMGtoakhFUXM0UXVlZXhHYzRsU1pGaktJdERGd0FrYnR3UEN2SnMzNmdnMkVmRWhleTRrRnRBcmxiYVlXY2VFMDlfYXJVMF9TVmJfMm1QNHRkbERRMkhR?oc=5",
-      "published": "2026-03-23T07:00:00+00:00",
-      "source": {
-        "name": "HealthTalk",
-        "url": "https://www.healthtalk.no"
       }
     },
     {
@@ -634,12 +624,12 @@
       }
     },
     {
-      "id": "6798cd1f8b64",
-      "title": "Helse, Legemiddel | Den sovjetiske propagandaplakaten - og det nordnorske helsevesenet - nordnorskdebatt.no",
+      "id": "e9850f696bdd",
+      "title": "Helse, Legemiddel | Den sovjetiske propagandaplakaten - og det nordnorske helsevesenet - Nordnorsk debatt",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWTNobTZwbG9hMDhEMERNazBxRTVpRU1aRjBkd09oci1OTlcxMG5vNU9WYzJMVHZ1MWdLMERyb3VmUkdKZWR6U1daQXBHQXlxYzcyY2RkYjZ6WEZuOTFBWnBiQmNTZV9Hd3lTNHBtWnI4STQyRUE0NVNmNzVvbVlGUXJnRUdPZlFkYVNlQnZ5ZmJMTWZHNmdLN2JJMExWdzhYZDhHelB4ZGJKUkt3M0hz?oc=5",
       "published": "2024-09-06T07:00:00+00:00",
       "source": {
-        "name": "nordnorskdebatt.no",
+        "name": "Nordnorsk debatt",
         "url": "https://www.nordnorskdebatt.no"
       }
     },
@@ -674,12 +664,12 @@
       }
     },
     {
-      "id": "9a816f56a278",
-      "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - Rådet for psykisk helse",
+      "id": "057752fb1151",
+      "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - psykiskhelse.no",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjkwcGZUTVRwWk15Yms3VHNEOWNjaHAzank5d0xhc3VSSkViN2RBNDZGZDBXMTdIQ1ZIWGE1WC0ycjgwREpnNHFVNlRyRV9ia2VPX0lFdGhkaFQ1RDZqY2V5TzlQMXNxbXRpZGdKUGRneXFCQUVyaXRpNkFKaFFrWTJ5ZDBjeU9JSzJ0aXBQVGZyY3BxNFRONmtCdS1PVnZtRlFv?oc=5",
       "published": "2023-10-10T07:00:00+00:00",
       "source": {
-        "name": "Rådet for psykisk helse",
+        "name": "psykiskhelse.no",
         "url": "https://psykiskhelse.no"
       }
     },
@@ -714,16 +704,6 @@
       }
     },
     {
-      "id": "d12731491989",
-      "title": "Mener norske pasienter må vente for lenge på ny medisin: – Forferdet - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNR3FuNGlNV3lrQmhqWWg0cG9yV1pSclluN2VQZjN1azJuZW1WWGZwdXBBMHpkUDl5Y21XZ2MzaXFjT21TX0Q4amlGTGJIVEdqd0Iyd29mMDl5eC1NTUZibFZ3MVJNTmZUVzgzTXpveDg0d2J3WFRWTGlJSm5hN21CdUV4MWFEb0NjNndudXRCeUlPWHNEMmdoUVRtR1V0YXl1cHlrclRZdVNhUTFFZHFDWlZEUlNqUF9GenV0VTRpVHFFelRKUHRnSkJhRExRU3dxSDlreFJ2RlRRZw?oc=5",
-      "published": "2025-05-08T07:00:00+00:00",
-      "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
-      }
-    },
-    {
       "id": "62d5b2e3793a",
       "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZEd5eTVOaFRZZHd1MVQzQUVGc09ZSlZtdnlXUEhwTkNQRXp0UEhfREhwSzNIRC1RVVVKYldGLWJlQlNtYkM1dkw2RFNvSFJXdzc1WlNhc0Y3c3JPcDFnalBGWVdJcGxtbTNuTUJfeE50NTlNNTdNMlNIY0NBdGk2MjhXMjJRVGxjcFNFbEFFNDRBUUMtaDM4R0NDbEtXdjNsckRjdjBYdGFqOFYyXzRmYmhZSVRHbldmaEUyVk5QcEFCYjMwbTNXMGxfMXJaa25WYXc?oc=5",
@@ -731,6 +711,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "d12731491989",
+      "title": "Mener norske pasienter må vente for lenge på ny medisin: – Forferdet - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNR3FuNGlNV3lrQmhqWWg0cG9yV1pSclluN2VQZjN1azJuZW1WWGZwdXBBMHpkUDl5Y21XZ2MzaXFjT21TX0Q4amlGTGJIVEdqd0Iyd29mMDl5eC1NTUZibFZ3MVJNTmZUVzgzTXpveDg0d2J3WFRWTGlJSm5hN21CdUV4MWFEb0NjNndudXRCeUlPWHNEMmdoUVRtR1V0YXl1cHlrclRZdVNhUTFFZHFDWlZEUlNqUF9GenV0VTRpVHFFelRKUHRnSkJhRExRU3dxSDlreFJ2RlRRZw?oc=5",
+      "published": "2025-05-08T07:00:00+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     },
     {
@@ -774,12 +764,12 @@
       }
     },
     {
-      "id": "b701c3d36d04",
-      "title": "Raser mot systemet: –⁠ Pasienter lider og dør - e24.no",
+      "id": "aba72f36f8db",
+      "title": "Raser mot systemet: –⁠ Pasienter lider og dør - E24",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZl9kUVdrdTlPZFgydGVtTGR3XzEzamwtWGQ3R0JJWGNzVVRPVmVwVm9ROVk3ZGVwdVZ0Q2FNMFR3dFBLNFpvZ29EWlBXV3BqNHZFVVc1d1V3UWNnR1NmaEozYnlrSjR4SW82SGhVc1RpaUpfazZNWlRIcTFuR1hWb2praHI?oc=5",
       "published": "2025-07-20T07:00:00+00:00",
       "source": {
-        "name": "e24.no",
+        "name": "E24",
         "url": "https://e24.no"
       }
     },
@@ -794,13 +784,13 @@
       }
     },
     {
-      "id": "34be5342a3fe",
-      "title": "Medisin-krise: –⁠ Det plager meg - VG",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZS05CSGlKRG5FcDJqd1YxTFN4RG1MWk5OVVVtY1ZuNUFkeUVtOGVTTEs5Ri1CWEtTcGFfdHNSRndWQ2JmbHh6eDlyWG5vWFJjMlYxaHIyazNNR3FhQnN2WUdOVTdGNmRBZERTSkZQeWE?oc=5",
-      "published": "2024-06-23T07:00:00+00:00",
+      "id": "0b3bf4934607",
+      "title": "legemiddel, medisin og helse | Jubler for rekordsalg av reseptfri viagra, men sexolog steiler: – En fryktelig dårlig idé - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNS3FsMjRQZGdOV1FHdmpNcXVseUZJMGpucWpDZzg0WGNsNDl5blhiajd4MzVLMWJVelI5X2hWckJZa0JvaU5tRHhRMTlNMnVicEp6bmt2bXhkWFBlbmNzSjNKOGJDcU03MXNBMGk5VmVFVi1JTmVaQjMyczY5X0VtLU42bFpKOHhNQktRbmtGQ3VmazNGRjc2QlNYOUxwd29peFpIeFNtWGxpeHpjMm9kN1NFVUl4Tm5POV9Ja2JtMFRTcS1KVGR5d3ZuQ2FwV0VlQnB5eXRodmJjVmxPVU0xWGFiWkVuRDhadFg3d0hn?oc=5",
+      "published": "2019-12-13T08:00:00+00:00",
       "source": {
-        "name": "VG",
-        "url": "https://www.vg.no"
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     },
     {
@@ -814,13 +804,13 @@
       }
     },
     {
-      "id": "0b3bf4934607",
-      "title": "legemiddel, medisin og helse | Jubler for rekordsalg av reseptfri viagra, men sexolog steiler: – En fryktelig dårlig idé - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNS3FsMjRQZGdOV1FHdmpNcXVseUZJMGpucWpDZzg0WGNsNDl5blhiajd4MzVLMWJVelI5X2hWckJZa0JvaU5tRHhRMTlNMnVicEp6bmt2bXhkWFBlbmNzSjNKOGJDcU03MXNBMGk5VmVFVi1JTmVaQjMyczY5X0VtLU42bFpKOHhNQktRbmtGQ3VmazNGRjc2QlNYOUxwd29peFpIeFNtWGxpeHpjMm9kN1NFVUl4Tm5POV9Ja2JtMFRTcS1KVGR5d3ZuQ2FwV0VlQnB5eXRodmJjVmxPVU0xWGFiWkVuRDhadFg3d0hn?oc=5",
-      "published": "2019-12-13T08:00:00+00:00",
+      "id": "34be5342a3fe",
+      "title": "Medisin-krise: –⁠ Det plager meg - VG",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZS05CSGlKRG5FcDJqd1YxTFN4RG1MWk5OVVVtY1ZuNUFkeUVtOGVTTEs5Ri1CWEtTcGFfdHNSRndWQ2JmbHh6eDlyWG5vWFJjMlYxaHIyazNNR3FhQnN2WUdOVTdGNmRBZERTSkZQeWE?oc=5",
+      "published": "2024-06-23T07:00:00+00:00",
       "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
+        "name": "VG",
+        "url": "https://www.vg.no"
       }
     },
     {
@@ -844,12 +834,12 @@
       }
     },
     {
-      "id": "9550863b0468",
-      "title": "Legemiddel-innkjøp i Europa – pris, rammeavtaler og samarbeid dominerer - Anbud365",
+      "id": "28919623bda3",
+      "title": "Legemiddel-innkjøp i Europa – pris, rammeavtaler og samarbeid dominerer - anbud365.no",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWnRhczhTLU52bFVzWk9LWVFWNVhTT21tbFhKWnpWb2Z6dzhKSXhrdUFSY21CZnk2OWR3aC1ubUgwazhTWVBCRDBFN3AtWThrd21pWFNzNTB3OWNHdHE5S3c0TWNxLVhENGw5ZWxFNmRTNnV3VDFOR0NpWTRzMnpITEkyV21qMUVlX19VUnBncVBBd1R6X1o2T0dsUEJvZE56N1pXRV84TGZXZ3J0X2hONTJQeDc?oc=5",
       "published": "2023-07-14T07:00:00+00:00",
       "source": {
-        "name": "Anbud365",
+        "name": "anbud365.no",
         "url": "https://www.anbud365.no"
       }
     },
@@ -884,16 +874,6 @@
       }
     },
     {
-      "id": "395f71766c0b",
-      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - Stortinget",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVGEwRnFBUFZPeFQ5Rnl0MjY4RV9VSFRGWmJrNDVFekdxLXZHNjBjZGVHbkYyeGJLd3FjS3Y4RWRaTlVwR01yS0ZFTzRlam9jYl9zcUJGaG5FZ2NUOWg4SEpCbmJNSEdxdWpNWUlTbXBWdUJ2TFZKWDFmRTdlQU84UWY1UGhORHVYOGowdzhfcUtPeHZTZmVaMG1VQ0V4Q2pST2xRc19sdkNfOVNJS2JCWTZybDA1Z041cGc4bw?oc=5",
-      "published": "2025-03-31T03:18:30+00:00",
-      "source": {
-        "name": "Stortinget",
-        "url": "https://www.stortinget.no"
-      }
-    },
-    {
       "id": "1f8ee124566a",
       "title": "Ja til nytt legemiddel mot atopisk eksem - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWEdfMmRHSWhnUnRBOU5GeURCbUowQnNYZUpKZkJRRi1aSnp1X1VrX2R2NWJ2dHMzalFXcEhGU1k5aG9DMmEwUWxfY2VMc0FUS09VUGliaHhoYWZuNmNKWGxEeUcxSkdaYXRRaXpzZFlLczlNZFFTaEhManJac2dsS1JRLXNKMXFzLWFKeGtCX21PMzFvRXZwdnNBZXZ3UGk4b05YakU1c3FDd2Z6dDl6bVEycw?oc=5",
@@ -901,6 +881,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "bb3f7fd4a136",
+      "title": "Skriftlig spørsmål fra Jenny Klinge (Sp) til helse- og omsorgsministeren - Stortinget.no",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVGEwRnFBUFZPeFQ5Rnl0MjY4RV9VSFRGWmJrNDVFekdxLXZHNjBjZGVHbkYyeGJLd3FjS3Y4RWRaTlVwR01yS0ZFTzRlam9jYl9zcUJGaG5FZ2NUOWg4SEpCbmJNSEdxdWpNWUlTbXBWdUJ2TFZKWDFmRTdlQU84UWY1UGhORHVYOGowdzhfcUtPeHZTZmVaMG1VQ0V4Q2pST2xRc19sdkNfOVNJS2JCWTZybDA1Z041cGc4bw?oc=5",
+      "published": "2025-03-31T03:18:30+00:00",
+      "source": {
+        "name": "Stortinget.no",
+        "url": "https://www.stortinget.no"
       }
     },
     {
@@ -931,6 +921,16 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
+      "id": "9de5afe75cf3",
+      "title": "Legemiddelet forskerne håper kan gjøre oss mer ungdommelige - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcFdrbTJFZzRRakFRNHJXVE9QTlctRFNaQUxmY3FyNU1KaGxrOGNiLS1xbXd2dzktVmRob21YeGVaeHdGM1I5MnYybC1JWGExeDVzYUtpMy1MSm90cF9KSjh6NTN1a3BnWTRySlNnS1BzSWRXeGpHcWs0cDdmTDVPaDA1LTkxODhnVDZ5SXY4cTUtTEx2N2t0WE1IR0hib0NDM1dnbnZqZkE4ZkRNclZpanNhdmpPZmZsaHotbWdJWVgyd0lDdy1GbF81X25OXy1rT0lNUk5XbkxqaEE?oc=5",
+      "published": "2025-04-04T07:00:00+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     },
     {
