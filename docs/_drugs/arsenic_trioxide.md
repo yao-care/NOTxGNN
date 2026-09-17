@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Arsenic Trioxide
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 35
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Arsenic Trioxide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -45,7 +45,7 @@ Arsenic trioxide (ATO) is an established antineoplastic agent whose approved use
 | Predicted New Indication | Myelodysplastic Syndrome (MDS) |
 | TxGNN Prediction Score | 99.91% (rank 1291 among all candidates) |
 | Evidence Level | L2 |
-| Norway Market Status | 未上市 (Not Marketed) |
+| Norway Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -97,7 +97,7 @@ A 2023 systematic review and component network meta-analysis (PMID 37908176) spe
 
 ## Norway Market Information
 
-Arsenic trioxide is currently **未上市 (not marketed)** in Norway according to this evidence pack, with **0 authorizations** on record. No product license entries are available to summarize.
+Arsenic trioxide is currently **Not marketed (not marketed)** in Norway according to this evidence pack, with **0 authorizations** on record. No product license entries are available to summarize.
 
 ---
 
@@ -133,10 +133,10 @@ Among 10 TxGNN-predicted indications, only MDS is backed by substantive evidence
 - Confirmed original MOA documentation (DG002) to formally validate the mechanistic bridge to MDS
 - Norway market entry/import pathway assessment, given current non-marketed status
 - Prospective, MDS-specific randomized controlled trial data (existing trials are largely small, terminated, or combination-therapy designs) to move evidence level from L2 toward L1
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

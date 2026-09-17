@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Emicizumab
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 128
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Emicizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -119,10 +119,10 @@ Acquired hemophilia A is a mechanistically near-identical extension of emicizuma
 - Confirmation of thrombosis/DDI risk profile, particularly interaction with bypassing agents (aPCC), before any AHA protocol design
 - Assessment of Norway/Nordic regulatory pathway, since AHA use remains off-label globally despite strong consensus support
 - If exploratory research capacity exists, Glanzmann thrombasthenia (evidence level L4, decision stage S1, "Research Question") is the next-most-defensible candidate in this pack and may warrant a scoping review; the remaining candidates (pseudo-von Willebrand disease, platelet release disorder, Scott syndrome, hereditary thrombocytopenia, TTP, collagen receptor defects, FNAIT) lack both mechanistic plausibility and evidence, and should remain on **Hold**.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

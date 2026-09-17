@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Siltuximab
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 324
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Siltuximab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -99,10 +99,10 @@ The top-ranked prediction (extracutaneous mastocytoma) has no supporting clinica
 - Confirmed mechanism-of-action (MOA) data from DrugBank to support mechanistic-link analysis
 - Disease-specific preclinical or case-level evidence for extracutaneous mastocytoma before any further evaluation
 - Consider re-prioritizing evaluation toward candidates with stronger mechanistic plausibility already noted in this pack (e.g., hepatic veno-occlusive disease, Kaposi's sarcoma), pending dedicated evidence searches for those indications
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lamivudine
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 197
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Lamivudine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -48,7 +48,7 @@ indication_count: 5
 | Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (FIV infection in cats) |
 | TxGNN Prediction Score | 99.93% (rank 1070) |
 | Evidence Level | L4 (preclinical/animal studies only; no human clinical evidence for this indication exists or can exist) |
-| Norway Market Status | 未上市 (Not marketed) |
+| Norway Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -113,10 +113,10 @@ The top-ranked TxGNN prediction (feline acquired immunodeficiency syndrome) is a
 - Re-run indication filtering to exclude non-human/veterinary disease terms from the candidate list
 - Resolve DG001 (TFDA label/warnings) and DG002 (MOA) before evaluating any remaining candidate
 - Note: ranks 2–5 in this same evidence pack (SIV infection, an ultra-rare neurodevelopmental disorder, an obsolete lipid disorder term, and a likely HBV/HCV mislabeling) were already independently assessed as **Hold** — this drug currently has no actionable repurposing candidate in the pack.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

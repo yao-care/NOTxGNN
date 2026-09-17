@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Abaloparatide
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 12
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Abaloparatide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ Abaloparatide (DB05084) is a synthetic analog of parathyroid hormone-related pro
 | Predicted New Indication | — (No TxGNN prediction available) |
 | TxGNN Prediction Score | — |
 | Evidence Level | L5 (No prediction, no supporting studies) |
-| Taiwan Market Status | ✗ Not marketed (未上市) |
+| Taiwan Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -82,7 +82,7 @@ Abaloparatide is **not marketed in Taiwan**. No TFDA drug licenses were found.
 | Item | Detail |
 |------|--------|
 | TFDA License Count | 0 |
-| Market Status | 未上市 (Not marketed) |
+| Market Status | Not marketed (Not marketed) |
 | Dosage Forms Available | None |
 
 ---
@@ -117,10 +117,10 @@ There are no TxGNN-predicted new indications for abaloparatide at this time, and
 *Report generated: 2026-04-03 | Evidence Pack version: v4 | Candidate ID: TW-DB05084-multi*
 
 *⚠️ This report is for research reference only and does not constitute medical advice. Any drug repurposing candidate requires clinical validation before application.*
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

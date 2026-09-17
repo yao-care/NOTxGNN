@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Prasterone
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Prasterone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -98,10 +98,10 @@ The top-ranked prediction (heparin cofactor 2 deficiency) has zero clinical or l
 - Confirmed mechanism of action data from DrugBank or primary literature
 - Experimental or clinical evidence on DHEA's effect on heparin cofactor II / antithrombin / protein S activity, given the directional safety concern raised above
 - Consider deprioritizing this top-ranked candidate: within this same prediction batch, **scleroderma (rank 7)** has stronger biological rationale (L4 evidence, 6 observational studies consistently showing DHEA-S deficiency correlating with disease severity, decision stage S1 "Research Question") and may be a more productive candidate to pursue next.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

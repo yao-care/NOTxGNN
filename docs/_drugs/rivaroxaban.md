@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Rivaroxaban
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 311
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 ---
 
 # Rivaroxaban
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -106,10 +106,10 @@ There is no clinical trial evidence and no literature directly demonstrating a t
 - Confirmed mechanism of action (MOA) from DrugBank — currently a **High** severity data gap
 - Any preclinical/mechanistic study directly linking Factor Xa inhibition to RA disease pathways, if such evidence exists
 - Should this candidate be revisited, the other TxGNN-flagged indications for rivaroxaban in this pack (gout, HIV infection, brachydactyly-syndactyly syndrome) were also reviewed and are similarly Hold — gout and the rare skeletal disorder have essentially no supporting evidence, and HIV-related evidence concerns anticoagulant safety in HIV patients (drug-drug interactions with antiretrovirals) rather than antiviral efficacy
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

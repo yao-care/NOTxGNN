@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Entacapone
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 132
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Entacapone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -99,10 +99,10 @@ The top-ranked prediction (PLA2G6-Associated Neurodegeneration) has no supportin
 - Confirmed mechanism of action from DrugBank — currently a High-severity data gap (DG002)
 - Preclinical or mechanistic studies linking entacapone's COMT-inhibitory activity to PLA2G6-associated neurodegeneration pathology
 - Consider evaluating the better-evidenced alternatives in this batch (Lewy body dementia, PSP-corticobasal syndrome) as higher-priority repurposing candidates for entacapone
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

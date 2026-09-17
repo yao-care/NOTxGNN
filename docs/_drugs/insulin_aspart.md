@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Insulin Aspart
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 182
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Insulin Aspart
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -89,7 +89,7 @@ Genuinely novel candidates on this list — such as rank 2 "autoimmune oophoriti
 
 ## Norway Market Information
 
-Currently no marketing authorization on record — insulin aspart is not marketed in Norway per the available regulatory data (`market_status: 未上市`, `total_licenses: 0`).
+Currently no marketing authorization on record — insulin aspart is not marketed in Norway per the available regulatory data (`market_status: Not marketed`, `total_licenses: 0`).
 
 ## Safety Considerations
 
@@ -107,10 +107,10 @@ The top-ranked prediction ("Type 1 Diabetes Mellitus") duplicates insulin aspart
 - Resolve DG002: confirm mechanism of action via DrugBank API
 - Re-scope the repurposing question toward lower-ranked, genuinely novel candidates (e.g. permanent neonatal diabetes mellitus, pancreatic agenesis) and gather dedicated clinical/literature evidence for those, since they currently have only 1–2 supporting publications each
 - Clarify Norway market/licensing pathway, since the drug is not currently marketed there
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

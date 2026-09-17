@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Oxybutynin
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 258
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Oxybutynin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -124,10 +124,10 @@ Separately, the literature review above (PMID 2360335) surfaced a specific adver
 - Resolve DG002 (confirmed MOA via DrugBank API) to validate or refute mechanistic rationale for any candidate
 - If RLS is to be pursued further, independent literature/trial search is required — this pack currently contains none
 - Re-evaluate peptic ulcer disease only if modern comparative evidence (vs. PPI/H2-blocker) emerges; current evidence is insufficient and carries a competing safety signal
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

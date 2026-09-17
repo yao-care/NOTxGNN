@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Filgrastim
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 152
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Filgrastim
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -118,10 +118,10 @@ The TxGNN score is high, but the evidence pack's own mechanistic and clinical-tr
 - Obtain confirmed mechanism-of-action and approved-indication data from DrugBank (High-severity gap, DG002)
 - Seek preclinical or mechanistic evidence directly linking G-CSF/granulocyte signaling to platelet granule secretion pathways, if such a hypothesis is to be pursued further
 - Re-triage the "pending" relevance-graded trials to confirm none provide direct evidence before any re-evaluation
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

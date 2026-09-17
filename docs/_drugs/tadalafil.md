@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tadalafil
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Tadalafil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -117,10 +117,10 @@ All 8 candidate indications sit at Evidence Level L5 (or L4 for a single adverse
 - Resolve DG002 (High): obtain confirmed MOA and approved indications from DrugBank — required to establish a genuine mechanistic rationale for any candidate.
 - If pursuing rank #7 (kyphoscoliotic heart disease / pulmonary hypertension overlap) further, commission a targeted literature search for tadalafil in kyphoscoliosis-associated pulmonary hypertension specifically, since the current pack found no drug-specific studies.
 - No further action recommended on ranks #1–6, #8 without new experimental or clinical data — these are not viable repurposing leads based on current evidence.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

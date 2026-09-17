@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Glimepiride
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 163
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Glimepiride
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ TxGNN 模型預測其可能對 **Focal Stiff Limb Syndrome** 有效，
 | 預測新適應症 | Focal Stiff Limb Syndrome |
 | TxGNN 預測分數 | 99.75%（rank 3254 / 全庫排序） |
 | 證據等級 | L5（僅模型預測，無實際研究） |
-| 當地市場狀態 | ✗ 未上市 |
+| 當地市場狀態 | ✗ Not marketed |
 | 核准證號數量 | 0 |
 | 建議決策 | **Hold** |
 
@@ -87,7 +87,7 @@ Focal Stiff Limb Syndrome 屬於 Stiff Person Syndrome 光譜疾病，核心病�
 
 請參閱藥品仿單以獲得安全性資訊。
 
-> 注意：`data_gaps` 中標記「TFDA 仿單警語/禁忌」為 **Blocking** 等級缺口，直接影響安全性初評（S1）之進行，需優先補齊。
+> 注意：`data_gaps` 中標記「DMP package insert warnings/contraindications」為 **Blocking** 等級缺口，直接影響安全性初評（S1）之進行，需優先補齊。
 
 ---
 
@@ -105,10 +105,10 @@ Focal Stiff Limb Syndrome 屬於 Stiff Person Syndrome 光譜疾病，核心病�
 - TFDA／當地主管機關仿單警語與禁忌症資料（解決 Blocking 缺口 DG001）
 - 針對 Stiff Person Syndrome 光譜疾病與磺醯脲類藥物之間，尋求任何體外／動物實驗或病例報告等初步機轉證據
 - 若優先順序調整，建議另行評估第 9 名候選「Pancreatic agenesis」，因其具備相對明確的 KATP 通道機轉基礎，值得獨立檢視是否有 KCNJ11/ABCC8 相關案例報告可支持
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Levofloxacin
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 208
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Levofloxacin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -103,10 +103,10 @@ The only literature support describes a parasitic (microsporidial) etiology rath
 **Additional Note:** This evidence pack contains 10 TxGNN-predicted indications for levofloxacin. Two other candidates show materially stronger evidence than the top-ranked prediction above and may warrant separate evaluation:
 - **Septicemic plague** (rank 9, L3, *Proceed with Guardrails*) — levofloxacin is FDA-approved for plague under the Animal Rule, backed by nonhuman primate efficacy data.
 - **Monoclonal gammopathy** (rank 7, L2, *Research Question*) — supported by the TEAMM Phase 3 RCT and multiple cohort studies, though these evaluate levofloxacin as infection prophylaxis in multiple myeloma specifically, not treatment of monoclonal gammopathy broadly (including MGUS), so the disease-scope match needs clarification.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sacituzumab Govitecan
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Sacituzumab Govitecan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -110,10 +110,10 @@ There is no clinical trial or literature evidence (Evidence Level L5), the propo
 - Formal, verified mechanism-of-action documentation (High-priority gap)
 - Independent mechanistic or preclinical rationale specifically supporting a bone-protective effect, given the drug's known cytotoxic profile
 - Re-screening of the other three TxGNN-ranked candidates for this drug is not recommended unless new supporting evidence emerges, as all show the same lack of mechanistic plausibility
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

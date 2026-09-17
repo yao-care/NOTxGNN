@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Turoctocog Alfa Pegol
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 374
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Turoctocog Alfa Pegol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -97,10 +97,10 @@ All 10 TxGNN-predicted indications for turoctocog alfa pegol currently have zero
 - Resolve DG002 (High): confirm formal MOA via DrugBank API to validate the FVIII-replacement mechanistic rationale
 - Search specifically for literature/case series on FVIII product use in acquired Hemophilia A / acquired coagulation factor deficiency
 - Re-evaluate the remaining 9 predictions' plausibility before allocating further review resources to them
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

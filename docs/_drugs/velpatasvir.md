@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Velpatasvir
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 380
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Velpatasvir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -125,10 +125,10 @@ Although a substantial volume of trials and publications is nominally linked to 
 - Confirmed DrugBank mechanism-of-action record (DG002)
 - In vitro or preclinical evidence of Velpatasvir activity against HBV replication (e.g., cccDNA transcription, polymerase inhibition) before any further clinical consideration
 - Re-triage of the clinical trial/literature evidence set to remove HCV-only mismatches and identify any genuinely HBV-specific data, if such data exist
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

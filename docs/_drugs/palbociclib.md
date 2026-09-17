@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Palbociclib
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 260
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Palbociclib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -81,7 +81,7 @@ Currently no related literature available.
 
 ## Norway Market Information
 
-Palbociclib is **not marketed** in Norway under this evidence pack (`market_status: 未上市`, `total_licenses: 0`). No license records are available to summarize.
+Palbociclib is **not marketed** in Norway under this evidence pack (`market_status: Not marketed`, `total_licenses: 0`). No license records are available to summarize.
 
 ---
 
@@ -117,10 +117,10 @@ This candidate has evidence level L5 (model prediction only), zero clinical tria
 - Formal MOA documentation (DG002) to properly assess mechanistic plausibility
 - Preclinical or in vitro evidence specifically linking CDK4/6 pathway activity to thyroid hormone regulation, before this indication warrants further evaluation
 - *Optional secondary note*: two other TxGNN candidates in this pack had more substantive (though still weak) signal and may be worth independent evaluation — rheumatoid arthritis (L4, case report + preclinical CDK6-synovial hyperplasia mechanism, but conflicting literature on autoimmune induction) and thrombotic disease (L4, but existing evidence points toward CDK4/6i **causing** thromboembolic risk rather than treating it — this candidate should likely be closed rather than pursued).
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Glecaprevir
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 162
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Glecaprevir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -125,10 +125,10 @@ Despite a high TxGNN score, the mechanistic basis for glecaprevir treating HIV i
 - Resolution of Data Gap DG002 (MOA) via DrugBank API query
 - Resolution of Data Gap DG001 (TFDA/label warnings and contraindications) — currently Blocking for any S1 safety evaluation
 - If no direct antiviral evidence against HIV emerges, this candidate should be closed as a network-artifact false positive rather than advanced further
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

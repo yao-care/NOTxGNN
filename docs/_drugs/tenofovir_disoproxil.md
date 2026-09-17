@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tenofovir Disoproxil
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 349
-evidence_level: L5
+evidence_level: L3
 indication_count: 4
 ---
 
 # Tenofovir Disoproxil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidensnivå: **L3** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -101,10 +101,10 @@ None of the four TxGNN-predicted indications represent a genuine, actionable hum
 - Confirmed mechanism-of-action data from DrugBank — currently a **High**-severity gap (DG002)
 - Clarification of Norway regulatory/market status, since 0 licenses are currently on file
 - If pursued further, reframe the search toward genuinely novel *human* indications, since the current top candidates only validate tenofovir's established HIV/PrEP mechanism in animal models
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

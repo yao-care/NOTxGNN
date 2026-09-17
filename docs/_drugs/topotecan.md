@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Topotecan
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 364
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Topotecan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -127,10 +127,10 @@ The evidence level is L1 based on trial count, but the highest-grade trial (NCT0
 - Manual verification of NCT02282020's actual patient population (title suggests ovarian, not breast, cancer)
 - Clarification of Norway market/regulatory pathway, since topotecan is currently not marketed there
 - Prioritized, disease-specific literature curation to separate breast-cancer-relevant records from the broader topotecan literature set
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

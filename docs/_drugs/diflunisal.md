@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Diflunisal
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 109
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Diflunisal
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -46,7 +46,7 @@ TxGNN 模型預測其可能對**僵直性脊椎炎**有效，但文獻回顧顯�
 | 預測新適應症 | Ankylosing Spondylitis（僵直性脊椎炎） |
 | TxGNN 預測分數 | 99.98%（rank 373） |
 | 證據等級 | L2（1 件已完成之 Phase 2/3 等級 RCT，1986 年） |
-| 台灣上市狀態 | 未上市 |
+| 台灣上市狀態 | Not marketed |
 | 許可證數量 | 0 |
 | 建議決策 | **Hold** |
 
@@ -76,7 +76,7 @@ TxGNN 模型預測其可能對**僵直性脊椎炎**有效，但文獻回顧顯�
 
 ## 台灣上市資訊
 
-Diflunisal 目前**未於台灣上市**（`market_status: 未上市`），無任何許可證紀錄（`total_licenses: 0`），因此無法提供品名、劑型或核准適應症內容。
+Diflunisal 目前**未於台灣上市**（`market_status: Not marketed`），無任何許可證紀錄（`total_licenses: 0`），因此無法提供品名、劑型或核准適應症內容。
 
 ## 安全性考量
 
@@ -84,7 +84,7 @@ Evidence Pack 中的關鍵警語、禁忌症皆標示為資料缺口，藥物交
 
 請參考仿單說明書取得安全性資訊。
 
-> ⚠️ 特別注意：Meta 資料中 `DG001`（TFDA 仿單警語/禁忌）被標記為 **Blocking** 等級缺口，明確指出「無法進入 S1 安全性初評」，此為本案無法直接推進的主要原因。
+> ⚠️ 特別注意：Meta 資料中 `DG001`（DMP package insert warnings/contraindications）被標記為 **Blocking** 等級缺口，明確指出「Cannot proceed to S1 safety screening」，此為本案無法直接推進的主要原因。
 
 ## 結論與後續建議
 
@@ -92,17 +92,17 @@ Evidence Pack 中的關鍵警語、禁忌症皆標示為資料缺口，藥物交
 
 **理由：**
 - 雖然僵直性脊椎炎有 1 件 1986 年的小規模（n=38）RCT 支持 diflunisal 療效（L2 證據等級），但此關聯本質上是 NSAID 類別已知用途的重申，而非真正的新穎再利用發現，附加價值有限。
-- 更關鍵的是，TFDA 仿單警語/禁忌資料為 **Blocking** 等級缺口，依規則無法進入 S1 安全性初評，在缺口補齊前不應推進任何決策。
-- 藥物於台灣未上市（0 張許可證），亦無 DDI 查詢結果，整體安全性資訊嚴重不足。
+- 更關鍵的是，DMP package insert warnings/contraindications資料為 **Blocking** 等級缺口，依規則Cannot proceed to S1 safety screening，在缺口補齊前不應推進任何決策。
+- 藥物於台灣Not marketed（0 張許可證），亦無 DDI 查詢結果，整體安全性資訊嚴重不足。
 
 **要推進，需要補齊：**
-- TFDA 仿單 PDF 下載與解析（DG001，Blocking，來源：TFDA 官網）
+- TFDA 仿單 PDF 下載與解析（DG001，Blocking，來源：DMP website）
 - DrugBank 作用機轉（MOA）資料查詢（DG002，High，來源：DrugBank API）
 - 若後續評估僵直性脊椎炎方向，需確認其是否已被涵蓋於 diflunisal 其他國家既有適應症內，以釐清此案是否真正構成「老藥新用」而非既有用途延伸
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

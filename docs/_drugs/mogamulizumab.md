@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mogamulizumab
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 233
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Mogamulizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -67,7 +67,7 @@ Currently no related literature available
 
 ## Norway Market Information
 
-Mogamulizumab currently holds **no market authorizations in Norway** (`total_licenses: 0`, `market_status: 未上市`). No product listings, dosage forms, or approved indication text are available in the evidence pack.
+Mogamulizumab currently holds **no market authorizations in Norway** (`total_licenses: 0`, `market_status: Not marketed`). No product listings, dosage forms, or approved indication text are available in the evidence pack.
 
 ## Cytotoxicity
 
@@ -100,10 +100,10 @@ All seven predicted indications sit at evidence level L5 (model prediction only,
 - Confirm the drug's actual original approved indication(s) in structured form
 - Targeted literature/trial search for CCR4 expression or Treg infiltration in urothelial carcinoma and the other candidate tumor types
 - If any signal emerges, prioritize preclinical/biomarker studies before considering clinical evaluation
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

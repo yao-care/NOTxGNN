@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Abiraterone Acetate
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 15
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Abiraterone Acetate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -104,10 +104,10 @@ The TxGNN model has not yet produced a predicted new indication for abiraterone 
 - Resolve **DG002** (High): Query DrugBank for MOA and pharmacological classification (DrugBank ID: [DB05812](https://go.drugbank.com/drugs/DB05812))
 - Clarify Taiwan regulatory pathway — if the drug is not marketed in Taiwan, determine whether a TFDA import pathway or special access scheme applies
 - Re-generate the evidence pack once the above gaps are filled and TxGNN predictions are available
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

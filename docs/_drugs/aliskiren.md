@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Aliskiren
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 24
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Aliskiren
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -104,10 +104,10 @@ The TxGNN score is high, but the supporting evidence is L5 (model prediction onl
 - Detailed mechanism-of-action documentation (DG002) to substantiate the RAAS–hypoxia–pulmonary vascular remodeling rationale
 - Aliskiren- or RAAS-inhibitor-specific preclinical or clinical studies in pulmonary hypertension (none currently exist in the retrieved literature)
 - For context: the evidence pack also lists 6 other predicted indications for aliskiren with substantially different evidence profiles — notably "cerebrovascular disorder" (L2, includes ALTITUDE-trial post-hoc data), though that evidence shows an *increased* risk of stroke/hypotension with aliskiren + ACEI/ARB combination therapy rather than benefit, and should be reviewed as a safety signal, not a repurposing opportunity, before any further action on this drug
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

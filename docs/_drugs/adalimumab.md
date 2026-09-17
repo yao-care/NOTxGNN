@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Adalimumab
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 18
-evidence_level: L5
+evidence_level: L3
 indication_count: 6
 ---
 
 # Adalimumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidensnivå: **L3** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -115,10 +115,10 @@ Please refer to the package insert for safety information.
 - Obtain detailed mechanism-of-action reference data from DrugBank to strengthen the mechanistic rationale (High-priority gap, DG002)
 - Confirm the drug's original approved indication(s) and regulatory history via authoritative regulatory sources, since this evidence pack contains no sourced original-indication or licensing data
 - Given the mixed signal in the case-report literature (both efficacy and RV-flare/vasculitis-inducing reports), any future evaluation should specifically weigh anti-TNF-associated vasculitis risk against RV treatment benefit before considering guardrails for clinical use
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

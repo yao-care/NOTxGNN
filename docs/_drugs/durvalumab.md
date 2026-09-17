@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Durvalumab
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 117
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Durvalumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -152,10 +152,10 @@ Despite having the highest TxGNN score in the portfolio (99.98%), the headline i
 - Continued monitoring of NCT02812420 (est. completion 2027-12) and NCT04065269 (est. completion 2026-08) for interim or final results
 - Given the evidence asymmetry within this portfolio, prioritize **endocervical carcinoma** (rank 6, L2, S2 — Research Question) and the **sarcomatoid urothelial variants** (ranks 2–3, L3, S1 — Research Question) for active tracking, since they currently carry more mature evidence than the top-ranked headline indication
 - Periodic re-query of ClinicalTrials.gov/PubMed specifically for "prostatic urethra urothelial carcinoma" + durvalumab, as no direct evidence currently exists for this exact indication
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

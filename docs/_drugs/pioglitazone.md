@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pioglitazone
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 279
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Pioglitazone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -77,7 +77,7 @@ Currently no related literature available.
 
 ## Norway Market Information
 
-Pioglitazone is not currently marketed in Norway under this evidence pack (`market_status: 未上市`, `total_licenses: 0`). No authorization records are available for review.
+Pioglitazone is not currently marketed in Norway under this evidence pack (`market_status: Not marketed`, `total_licenses: 0`). No authorization records are available for review.
 
 ---
 
@@ -118,10 +118,10 @@ All 9 predicted indications are L5 (model prediction only), with no clinical tri
 - Resolve DG002: confirm detailed MOA via DrugBank API query
 - If pursuing the pancreatic agenesis candidate (rank 9), manually verify whether any of the 9 retrieved publications are truly disease-specific rather than general T2DM/TZD reviews
 - Given the uniformly weak signal across all 9 candidates, consider re-running TxGNN with rank-based (not raw score) thresholding before further evidence collection is commissioned
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

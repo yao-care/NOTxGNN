@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Teriparatide
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 352
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Teriparatide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | Predicted New Indication | Pregnancy and Lactation-Associated Osteoporosis (PLO) |
 | TxGNN Prediction Score | 99.55% (rank #8 among 10 candidates by score, but strongest by evidence) |
 | Evidence Level | L3 |
-| Norway Market Status | ✗ Not marketed (未上市) |
+| Norway Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -120,10 +120,10 @@ Teriparatide's anabolic mechanism is well-matched to PLO's rapid bone-loss patho
 - Regulatory pathway assessment given current unmarketed status in Norway
 - Formal safety review of teriparatide use during pregnancy/lactation (including known class-level osteosarcoma boxed warning and the calcinosis cutis signal above)
 - Prospective or registry-based studies in the PLO population to close the RCT evidence gap
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

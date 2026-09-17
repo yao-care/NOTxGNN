@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pertuzumab
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 276
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Pertuzumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -137,10 +137,10 @@ A Blocking-severity data gap (missing TFDA label warnings/contraindications) pre
 - Manual re-triage of clinical trial and literature relevance flags (majority currently marked "pending") to separate PR-positive-specific evidence from general HER2-positive breast cancer evidence
 - Clarification of whether this predicted indication represents a genuinely novel use versus a biomarker subgroup already covered by pertuzumab's existing approved indication
 - Norway/EU regulatory status confirmation, since the drug currently has zero local authorizations on file
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

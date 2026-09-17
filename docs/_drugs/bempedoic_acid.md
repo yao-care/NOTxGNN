@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Bempedoic Acid
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 48
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Bempedoic Acid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -112,10 +112,10 @@ A mechanistically plausible, LDLR-independent LDL-C-lowering effect is supported
 - Local regulatory label warnings, contraindications, and DDI data (currently flagged as Blocking Data Gap, DG001) — required before any safety-based decision can be finalized
 - A dedicated prospective or randomized trial evaluating bempedoic acid as add-on therapy in HoFH
 - Local market authorization pathway assessment, since the drug is not currently marketed in this jurisdiction
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

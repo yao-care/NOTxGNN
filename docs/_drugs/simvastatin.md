@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Simvastatin
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 326
-evidence_level: L5
+evidence_level: L1
 indication_count: 8
 ---
 
 # Simvastatin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidensnivå: **L1** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -99,7 +99,7 @@ Importantly, the evidence pack's rationale explicitly flags that this is **not a
 
 ## Norway Market Information
 
-Simvastatin currently has **0 registered authorizations** in the Norway regulatory data provided (`market_status: 未上市`, not marketed). No product/authorization records are available to list.
+Simvastatin currently has **0 registered authorizations** in the Norway regulatory data provided (`market_status: Not marketed`, not marketed). No product/authorization records are available to list.
 
 ---
 
@@ -121,10 +121,10 @@ Evidence strength is high (L1: multiple completed Phase 3 RCTs directly involvin
 - Formal DrugBank mechanism-of-action record (High priority gap DG002, to replace the inferred MOA used in this report)
 - Clarification of Norway market-entry pathway, since simvastatin currently has zero registered authorizations
 - Strategic reassessment of whether this candidate merits prioritization given it largely reconfirms known statin pharmacology, versus the lower-ranked, evidence-free predictions in this pack (e.g., brain stem infarction, CETP deficiency) that would represent genuinely novel signals if evidence emerges
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

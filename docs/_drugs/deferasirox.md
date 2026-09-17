@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Deferasirox
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 100
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Deferasirox
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -41,11 +41,11 @@ Deferasirox 是一款口服三價鐵螯合劑，本 Evidence Pack 未提供其�
 
 | 項目 | 內容 |
 |------|------|
-| 原始適應症 | 資料缺失（`original_indications` 未提供、Norway 未上市無授權資料可查） |
+| 原始適應症 | 資料缺失（`original_indications` 未提供、Norway Not marketed無授權資料可查） |
 | 預測新適應症 | HIV infectious disease |
 | TxGNN 預測分數 | 99.40% |
 | 證據等級 | L4（機轉/臨床前研究層級） |
-| Norway 市場狀態 | ✗ 未上市 |
+| Norway 市場狀態 | ✗ Not marketed |
 | 授權數量 | 0 |
 | 建議決策 | Hold |
 
@@ -78,13 +78,13 @@ Deferasirox 是一款口服三價鐵螯合劑，本 Evidence Pack 未提供其�
 
 ## Norway 市場資訊
 
-目前 Deferasirox 於 Norway 市場狀態為「未上市」，無授權（licenses）資料可供列示。
+目前 Deferasirox 於 Norway 市場狀態為「Not marketed」，無授權（licenses）資料可供列示。
 
 ---
 
 ## 安全性考量
 
-請參閱藥品仿單以獲取安全性資訊（本 Evidence Pack 中之警語、禁忌、藥物交互作用資料均標示為 Data Gap，且 DG001 已列為 Blocking 等級缺口，尚待自 TFDA 官網取得正式仿單資料）。
+請參閱藥品仿單以獲取安全性資訊（本 Evidence Pack 中之警語、禁忌、藥物交互作用資料均標示為 Data Gap，且 DG001 已列為 Blocking 等級缺口，尚待自 DMP website取得正式仿單資料）。
 
 ---
 
@@ -100,10 +100,10 @@ Deferasirox 是一款口服三價鐵螯合劑，本 Evidence Pack 未提供其�
 - 完整作用機轉（MOA）資料（DG002，High，可透過 DrugBank API 查詢補齊）
 - 針對「鐵螯合-HIV Tat 轉錄調控」假說之體內驗證研究，或至少建立此適應症之臨床前/早期臨床試驗規劃
 - 藥物交互作用（DDI）正式查詢結果，目前為 not_found 狀態
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

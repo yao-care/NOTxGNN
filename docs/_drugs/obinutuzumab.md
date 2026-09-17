@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Obinutuzumab
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 249
-evidence_level: L5
+evidence_level: L1
 indication_count: 3
 ---
 
 # Obinutuzumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidensnivå: **L1** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -100,7 +100,7 @@ The `original_indications` field being empty in the source database is most like
 
 ## Norway Market Information
 
-Currently no Norway market authorization on record. `taiwan_regulatory.market_status` for this candidate is reported as **未上市 (Not Marketed)**, with 0 registered authorizations and no license entries available for extraction.
+Currently no Norway market authorization on record. `taiwan_regulatory.market_status` for this candidate is reported as **Not marketed (Not Marketed)**, with 0 registered authorizations and no license entries available for extraction.
 
 ---
 
@@ -135,10 +135,10 @@ Please refer to the package insert for safety information. (Key warnings, contra
 - Clarification on Norway market/registration status, given the drug's established use elsewhere
 - Reconciliation of the `original_indications` field gap in the source database against known approved uses (e.g., CLL)
 - Continued monitoring for emerging trial/literature evidence on the two CLL/SLL molecular-subtype predictions (pregerminal-center and IGHV-hypermutated), both currently Hold/L5 with no supporting data
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

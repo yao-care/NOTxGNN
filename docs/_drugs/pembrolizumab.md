@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pembrolizumab
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 272
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Pembrolizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -68,7 +68,7 @@ Currently no related literature available
 
 ## Norway Market Information
 
-Pembrolizumab is currently **not marketed** in Norway under this evidence pack (0 authorizations on record; `market_status` = 未上市). No product licenses are available to list.
+Pembrolizumab is currently **not marketed** in Norway under this evidence pack (0 authorizations on record; `market_status` = Not marketed). No product licenses are available to list.
 
 ## Cytotoxicity
 
@@ -98,10 +98,10 @@ The top-ranked predicted indication (gingival fibromatosis) has zero clinical tr
 - Resolve DG002: obtain confirmed mechanism-of-action data from DrugBank
 - Reconsider prioritizing the higher-plausibility candidates in this same prediction batch (lung hilum carcinoma, lung germ cell tumor, pulmonary sulcus neoplasm — currently at decision stage S1) rather than the top TxGNN-score candidate, which lacks biological plausibility
 - If gingival fibromatosis is to be pursued further despite the above, dedicated preclinical/mechanistic studies would be required, as no clinical or literature evidence currently exists
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

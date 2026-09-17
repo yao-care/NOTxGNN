@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Rufinamide
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 317
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Rufinamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -45,7 +45,7 @@ indication_count: 5
 | Predicted New Indication | Febrile infection-related epilepsy syndrome (FIRES) |
 | TxGNN Prediction Score | 99.57% |
 | Evidence Level | L5 (model prediction only — no clinical trials or literature identified) |
-| Norway Market Status | 未上市 (Not Marketed) |
+| Norway Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -86,10 +86,10 @@ The top-ranked indication (FIRES) has Evidence Level L5 — a TxGNN score with z
 - Confirmation of rufinamide's actual original approved indication(s), since `original_indications` is currently empty
 - Targeted literature/clinical-trial search specific to FIRES to move beyond L5
 - Regulatory pathway assessment, given zero current market authorizations
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

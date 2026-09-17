@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Lacosamide
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 196
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Lacosamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -114,10 +114,10 @@ The mechanistic rationale (sodium-channel-mediated mood stabilization, paralleli
 - Confirmation of Norway market/import pathway, given the drug currently has no local authorization
 
 **Additional note:** Among the 10 TxGNN-predicted indications evaluated for lacosamide in this evidence pack, **migraine disorder** (rank 5) shows substantially stronger evidence — Evidence Level L1, including a completed head-to-head Phase 3 RCT vs. propranolol (n=600) and mechanistic CGRP-lowering data — and carries a "Proceed with Guardrails" recommendation. This candidate may warrant a separate, dedicated evaluation report.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

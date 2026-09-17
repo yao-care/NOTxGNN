@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Indacaterol
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 181
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Indacaterol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -99,10 +99,10 @@ The top-ranked TxGNN prediction (NSIAD) has no mechanistic plausibility, no clin
 - Detailed mechanism of action data from DrugBank — currently high-severity gap (DG002)
 - A genuine mechanistic or preclinical rationale linking β2-adrenergic signaling to V2-receptor-mediated antidiuresis, if this candidate is to be pursued further
 - If pursuing the "bronchial disease" signal instead, reframe as label-extension/on-mechanism confirmation rather than repurposing, and source formal local regulatory indication text
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cladribine
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 88
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Cladribine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -49,7 +49,7 @@ Cladribine is a purine nucleoside (deoxyadenosine) analog originally established
 | Predicted New Indication | Parameningeal Embryonal Rhabdomyosarcoma |
 | TxGNN Prediction Score | 99.77% |
 | Evidence Level | L5 (model prediction only, no supporting studies) |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -116,10 +116,10 @@ The top prediction has zero clinical trial or literature support and sits at evi
 - Preclinical (cell-line/animal model) or clinical evidence specific to rhabdomyosarcoma, ideally addressing embryonal-subtype biology
 - Re-verification of the rank 7 literature match (PMID 15241520), which appears to be an irrelevant retrieval and should be excluded or corrected
 - Route-of-administration and formulation compatibility assessment (currently marked "pending" for all ranked indications)
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

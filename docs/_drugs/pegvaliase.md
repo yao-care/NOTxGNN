@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pegvaliase
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 271
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Pegvaliase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -102,10 +102,10 @@ There is no clinical or literature evidence supporting this indication, the mech
 - Verified mechanism of action from DrugBank or primary literature — resolves High-priority gap DG002
 - Preclinical or mechanistic evidence establishing a biological rationale linking PAL/phenylalanine metabolism to diabetic retinal disease
 - At minimum, one observational study or case report before advancing past S0
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

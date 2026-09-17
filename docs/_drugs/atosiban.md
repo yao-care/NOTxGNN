@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Atosiban
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 39
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Atosiban
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -77,7 +77,7 @@ Currently no related literature available for primary hereditary glaucoma.
 
 ## Norway Market Information
 
-Atosiban is **not marketed** in Norway (`taiwan_regulatory.market_status = 未上市`), with **0 registered authorizations**. No product, dosage form, or approved indication text is available for this drug in the current dataset.
+Atosiban is **not marketed** in Norway (`taiwan_regulatory.market_status = Not marketed`), with **0 registered authorizations**. No product, dosage form, or approved indication text is available for this drug in the current dataset.
 
 ---
 
@@ -120,10 +120,10 @@ All ten TxGNN-predicted indications for atosiban are unsupported by clinical tri
 - Obtain confirmed MOA detail from DrugBank API to resolve DG002
 - If pursuing glaucoma-related indications: commission dedicated preclinical studies on oxytocin/V1A receptor pathways in aqueous humor dynamics, since no literature currently exists
 - Before considering any cardiovascular-related repurposing (rank 6), specifically investigate the antagonist-vs-agonist mechanistic conflict and the neonatal IVH/death safety signal in PMID 30646165
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

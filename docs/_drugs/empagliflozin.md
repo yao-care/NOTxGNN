@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Empagliflozin
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 129
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Empagliflozin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -43,7 +43,7 @@ Empagliflozin（SGLT2 抑制劑）在本 Evidence Pack 中原始適應症與作�
 | 預測新適應症 | Focal Stiff Limb Syndrome（Rank 1，與 Classic Stiff Person Syndrome 同分） |
 | TxGNN 預測分數 | 99.06% |
 | 證據等級 | L5（純模型預測，無試驗、無文獻） |
-| 台灣上市狀態 | 未上市 |
+| 台灣上市狀態 | Not marketed |
 | 許可證數量 | 0 |
 | 建議決策 | Hold |
 
@@ -76,17 +76,17 @@ Empagliflozin 目前**未在台灣上市**，查驗登記許可證數量為 0，
 **決策：Hold**
 
 **理由：**
-三項預測適應症證據等級均為 L5（純模型預測），無任何臨床試驗或文獻佐證，且 TxGNN 自身機轉分析已指出與原始藥理路徑無已知關聯；同時藥物層級仍有 Blocking 級資料缺口（TFDA 仿單警語/禁忌），尚未具備進入下一階段安全性初評（S1）的最低條件。
+三項預測適應症證據等級均為 L5（純模型預測），無任何臨床試驗或文獻佐證，且 TxGNN 自身機轉分析已指出與原始藥理路徑無已知關聯；同時藥物層級仍有 Blocking 級資料缺口（DMP package insert warnings/contraindications），尚未具備進入下一階段安全性初評（S1）的最低條件。
 
 **若要繼續推進，需要補齊：**
 - TFDA 仿單警語與禁忌資料（DG001，Blocking，為進入 S1 安全性初評之前提）
 - 完整作用機轉（MOA）資料（DG002）
 - 針對三項預測適應症，檢索是否存在臨床前動物實驗或個案報告可支持機轉合理性
 - 若持續無法建立生物學合理性，建議暫緩此候選藥物-適應症配對的後續資源投入
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

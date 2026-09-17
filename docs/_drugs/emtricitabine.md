@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Emtricitabine
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 130
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Emtricitabine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -97,10 +97,10 @@ The top-ranked predicted indication is a veterinary condition (feline AIDS/FIV),
 - Obtain formal product label warnings/contraindications/DDI data — currently a blocking gap for safety review (DG001)
 - If pursuing a human repurposing angle, re-run evidence review against human-relevant indications (e.g., other lentivirus/retrovirus-related conditions) rather than the FIV-labeled node
 - Confirm regulatory pathway options given the drug is not currently marketed in Norway
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

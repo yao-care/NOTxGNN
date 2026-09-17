@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Eptifibatide
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 136
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Eptifibatide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -98,10 +98,10 @@ The top-ranked prediction (rheumatoid arthritis) carries a high TxGNN similarity
 - Resolve mechanism-of-action data gap via DrugBank API query (DG002)
 - If pursuing repurposing for this drug at all, consider prioritizing the **hemoglobinopathy / sickle cell disease** candidates instead (ranks 2–10 in this evidence pack), which — unlike rheumatoid arthritis — are backed by a completed Phase 1/2 RCT (NCT00834899) and four supporting PubMed publications (PMID 17916103, 22156199, 23973010, 29322543) on eptifibatide in sickle cell painful crises
 - Obtain Norway market/regulatory status confirmation, since no license data currently exists in this pack
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

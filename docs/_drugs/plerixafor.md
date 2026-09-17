@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Plerixafor
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 282
-evidence_level: L5
+evidence_level: L2
 indication_count: 7
 ---
 
 # Plerixafor
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -125,10 +125,10 @@ The AML chemosensitization hypothesis has a mechanistically direct rationale (CX
 - Assessment of whether any ongoing/planned Phase 3 trial exists for plerixafor-based AML chemosensitization
 - Clarification of route/formulation compatibility with an AML treatment setting (subcutaneous vs. IV use in combination regimens)
 - If the top TxGNN-ranked candidate (indolent plasma cell myeloma) is to be pursued instead, dedicated trial and literature evidence must first be sourced, as none currently exists
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

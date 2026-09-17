@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Memantine
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 224
-evidence_level: L5
+evidence_level: L1
 indication_count: 4
 ---
 
 # Memantine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidensnivå: **L1** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -45,7 +45,7 @@ Memantine (DrugBank DB01043) is an NMDA receptor antagonist; the evidence pack d
 | Predicted New Indication | Migraine disorder (strongest-evidence candidate; see multi-indication table below) |
 | TxGNN Prediction Score | 99.52% (rank #5315) |
 | Evidence Level | L1 |
-| Norway Market Status | ✗ Not marketed (未上市) |
+| Norway Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -102,7 +102,7 @@ Note: A separate commentary, [34510445](https://pubmed.ncbi.nlm.nih.gov/34510445
 
 ## Norway Market Information
 
-Memantine currently holds **0 marketing authorizations** in Norway (`market_status: 未上市 / Not marketed`). No license records are available to summarize.
+Memantine currently holds **0 marketing authorizations** in Norway (`market_status: Not marketed / Not marketed`). No license records are available to summarize.
 
 ---
 
@@ -128,10 +128,10 @@ Migraine disorder is a scientifically credible repurposing candidate for memanti
 - Clarify Norway market-entry strategy, since the drug is not currently marketed there
 - For the pulmonary hypertension signal: monitor development of MN-08 (nitrate derivative of memantine) separately — current data does not support extrapolation to memantine itself
 - Deprioritize kyphoscoliotic heart disease (no supporting evidence) and migraine with brainstem aura (indication-specific evidence still lacking) pending new data
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

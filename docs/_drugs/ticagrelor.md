@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ticagrelor
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 355
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Ticagrelor
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -92,7 +92,7 @@ That said, the repurposing rationale explicitly flags an important caveat: intra
 
 ## Norway Market Information
 
-Ticagrelor is currently **not marketed in Norway** according to this dataset (market status: 未上市 / Not Marketed; total authorizations: 0). No product license records are available to summarize.
+Ticagrelor is currently **not marketed in Norway** according to this dataset (market status: Not marketed / Not Marketed; total authorizations: 0). No product license records are available to summarize.
 
 ---
 
@@ -115,10 +115,10 @@ The mechanistic rationale is strong (shared platelet-dependent arterial thrombos
 - CAPTIVA trial primary results (ischemic stroke/ICH/vascular death outcomes) once available
 - Intracranial-hemorrhage-specific risk stratification and monitoring plan before any clinical positioning
 - Confirmation of Norway/local market and licensing pathway, since the drug is currently unmarketed in this jurisdiction
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

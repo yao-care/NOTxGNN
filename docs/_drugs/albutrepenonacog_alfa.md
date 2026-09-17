@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Albutrepenonacog Alfa
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 21
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Albutrepenonacog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -100,10 +100,10 @@ Please refer to the package insert for safety information.
 - Resolve DG002 (High): confirm mechanism of action via DrugBank or another authoritative source, since the current MOA is presumed rather than verified.
 - Confirm the drug's original approved indication(s), which are currently absent from the source regulatory data.
 - If this candidate is to be advanced despite the weak mechanistic rationale, obtain independent preclinical or case-level evidence linking Factor IX pathway modulation to platelet-mediated bleeding disorders such as Pseudo-von Willebrand Disease.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

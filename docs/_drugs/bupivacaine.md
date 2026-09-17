@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bupivacaine
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 63
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Bupivacaine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -99,10 +99,10 @@ There is no clinical or literature evidence supporting this indication, and the 
 - Confirmed original mechanism of action and approved indication text (currently a data gap)
 - Preclinical or mechanistic studies establishing a plausible biological link to acrodermatitis chronica atrophicans before further evaluation
 - Re-screening of lower-ranked candidates (neonatal dermatomyositis, secondary ILD in childhood connective tissue disease, amyopathic dermatomyositis) — all similarly lack mechanistic or evidentiary support and carry the same Hold recommendation
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Anakinra
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 30
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Anakinra
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -118,10 +118,10 @@ Familial Mediterranean Fever has the strongest evidence base among all TxGNN-pre
 - Clarify Norway/EU regulatory pathway status for anakinra, including any existing off-label use precedent for FMF
 - Given the absence of RCTs, consider prospective or registry-based studies to strengthen the evidence level beyond L3
 - Manually verify TxGNN disease-label accuracy for lower-confidence candidates (e.g., rank 4's literature mismatch with Schnitzler syndrome) before further screening resources are allocated
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

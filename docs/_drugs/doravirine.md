@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Doravirine
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 113
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Doravirine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -81,7 +81,7 @@ Currently no related literature available.
 
 ## Norway Market Information
 
-Doravirine currently holds no marketing authorization in Norway (market status: 未上市 / Not Marketed; 0 licenses on file). No product, dosage form, or approved-indication data is available for this market.
+Doravirine currently holds no marketing authorization in Norway (market status: Not marketed / Not Marketed; 0 licenses on file). No product, dosage form, or approved-indication data is available for this market.
 
 ---
 
@@ -104,10 +104,10 @@ The evidence level is L5 (model prediction only, no clinical trials or literatur
 - Direct pharmacological or in vitro evidence of doravirine activity against FIV or other non-HIV-1 lentiviruses
 - Direct (drug-specific) literature or trial evidence for the SIV-infection candidate, since the current literature match concerns a different drug (islatravir)
 - Clarification of clinical relevance, since the top-ranked prediction is a veterinary indication rather than a human disease target
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

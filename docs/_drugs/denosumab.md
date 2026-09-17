@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Denosumab
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 105
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Denosumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 2
 | Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L5 (model prediction only, no supporting studies) |
-| Market Status (Taiwan) | 未上市 (Not Marketed) |
+| Market Status (Taiwan) | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -103,10 +103,10 @@ The prediction rests solely on a TxGNN connectivity score (L5) with zero support
 - Denosumab mechanism of action data from DrugBank — DG002
 - Original approved indication(s) to establish original-to-new indication rationale
 - Disease-specific (severe NPDR) clinical or preclinical evidence; note that the broader "diabetic retinopathy" category (rank 2, score 0.992) already has L4 evidence (1 Phase 3 trial, 2 publications) and may be a more tractable starting point for further investigation
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

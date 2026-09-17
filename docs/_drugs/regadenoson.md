@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Regadenoson
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 299
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Regadenoson
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -106,10 +106,10 @@ All four predicted indications are Evidence Level L5 (model prediction only), wi
 - Resolve DG002 (High): confirm mechanism of action via DrugBank to properly evaluate mechanistic plausibility
 - Independent verification of TxGNN edge polarity (treats vs. causes) for the anaphylaxis prediction before further investment
 - If pursued, seek prospective clinical or case-report evidence specifically evaluating a therapeutic (not adverse) relationship between regadenoson and any of the four candidate indications
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

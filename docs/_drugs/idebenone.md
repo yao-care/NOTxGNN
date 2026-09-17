@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Idebenone
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 174
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Idebenone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -41,11 +41,11 @@ Idebenone（艾迪苯醌）目前在市場上尚無核准適應症，也未在 N
 
 | 項目 | 內容 |
 |------|------|
-| 原始適應症 | 尚無核准適應症紀錄（藥品未上市） |
+| 原始適應症 | 尚無核准適應症紀錄（藥品Not marketed） |
 | 預測新適應症 | Hepatic porphyria（肝性紫質症） |
 | TxGNN 預測分數 | 99.92% |
 | 證據等級 | L5 |
-| Norway 市場狀態 | 未上市 |
+| Norway 市場狀態 | Not marketed |
 | 授權張數 | 0 |
 | 建議決策 | Hold |
 
@@ -83,7 +83,7 @@ Idebenone 目前**未在 Norway 上市**，無任何有效授權（total_license
 
 請參閱藥品仿單以取得完整安全性資訊。
 
-> 補充說明：本次 Evidence Pack 標記 TFDA 仿單警語／禁忌（DG001）為 **Blocking** 等級資料缺口，這意味著在缺乏該資料前，本候選藥物**無法進入 S1 安全性初評階段**，此為決策為 Hold 的關鍵原因之一。
+> 補充說明：本次 Evidence Pack 標記 TFDA 仿單警語／禁忌（DG001）為 **Blocking** 等級資料缺口，這意味著在缺乏該資料前，本候選藥物**Cannot proceed to S1 safety screening階段**，此為決策為 Hold 的關鍵原因之一。
 
 ---
 
@@ -93,16 +93,16 @@ Idebenone 目前**未在 Norway 上市**，無任何有效授權（total_license
 
 **理由：**
 - 排名第一之預測適應症（肝性紫質症）證據等級為 L5，無任何臨床試驗或文獻支持，機轉關聯性亦被自評為薄弱（純屬圖譜關聯推測）。
-- 安全性資料缺口（TFDA 仿單警語/禁忌）為 Blocking 等級，依現行規則無法進入 S1 安全性初評。
+- 安全性資料缺口（DMP package insert warnings/contraindications）為 Blocking 等級，依現行規則Cannot proceed to S1 safety screening。
 
 **若要推進，需要補充：**
 - TFDA 仿單警語與禁忌資料（DG001，Blocking）
 - DrugBank 完整作用機轉（MOA）資料，以強化機轉關聯性分析（DG002，High）
 - 針對機轉合理性較高的候選適應症（immune-mediated necrotizing myopathy、antisynthetase syndrome）優先蒐集臨床前或病例文獻，作為後續研究假說驗證起點
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

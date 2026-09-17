@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Belimumab
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 47
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Belimumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -105,10 +105,10 @@ The top-ranked predicted indication (primary release disorder of platelets) lack
 - Confirmed mechanism of action and approved indication data from DrugBank (DG002, High)
 - Disease-entity-matched clinical trials or literature specifically studying belimumab in platelet release/granule disorders
 - If pursuing alternative candidates, rank 4 (fetal and neonatal alloimmune thrombocytopenia) shows relatively stronger mechanistic plausibility (B-cell/alloantibody-mediated pathology) and may warrant reprioritization, though it also currently lacks any clinical or literature evidence
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

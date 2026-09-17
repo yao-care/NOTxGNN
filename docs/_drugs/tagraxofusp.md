@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tagraxofusp
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Tagraxofusp
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -73,7 +73,7 @@ Currently no related literature available.
 
 ## Norway Market Information
 
-Tagraxofusp is not currently marketed in Norway (market status: 未上市); no marketing authorizations are on record. No Norway product/license information is available for extraction.
+Tagraxofusp is not currently marketed in Norway (market status: Not marketed); no marketing authorizations are on record. No Norway product/license information is available for extraction.
 
 ---
 
@@ -109,10 +109,10 @@ This candidate has zero clinical trial or literature evidence (L5) and no plausi
 - Confirmed mechanism of action (DrugBank MOA) — currently missing (DG002)
 - Independent mechanistic or preclinical rationale connecting CD123 biology to ophthalmologic/neuromuscular conditions, if this signal is to be pursued further
 - **Note:** Among the other ranked candidates in this evidence pack, rank 2 ("pre-malignant neoplasm") is associated with 5 active/ongoing clinical trials involving tagraxofusp in AML, BPDCN, and high-risk MDS populations. While these trials do not directly validate "pre-malignant neoplasm" as a distinct indication, they reflect real, ongoing clinical development within the drug's existing disease area and may warrant separate review in preference to this candidate.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

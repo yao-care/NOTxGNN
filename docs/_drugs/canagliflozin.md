@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Canagliflozin
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 70
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Canagliflozin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -101,10 +101,10 @@ This Evidence Pack is critically incomplete — the `predicted_indications` arra
 - **[Critical]** Re-run the TxGNN prediction pipeline to populate `predicted_indications` — this is the core deliverable without which no repurposing evaluation is possible
 - Verify Norway/EMA regulatory status via the Norwegian Medicines Agency (NoMA / Legemiddelverket) to confirm whether any authorizations exist under brand names (e.g., Invokana, Vokanamet)
 - After obtaining DDI data, perform drug interaction screening against common co-medications relevant to the candidate indication
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

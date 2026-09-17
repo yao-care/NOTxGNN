@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Orlistat
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Orlistat
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -77,7 +77,7 @@ Currently no related literature available
 
 ## Norway Market Information
 
-This drug is not currently marketed in this dataset (`market_status`: 未上市), and no authorization records are available (`total_licenses`: 0).
+This drug is not currently marketed in this dataset (`market_status`: Not marketed), and no authorization records are available (`total_licenses`: 0).
 
 ---
 
@@ -99,10 +99,10 @@ The prediction rests solely on mechanistic reasoning (Evidence Level L5) with no
 - TFDA/regulatory label warnings and contraindications (Blocking gap, DG001) before any S1 safety screening can occur
 - Confirmation of the drug's actual approved original indication(s) from an authoritative regulatory source
 - At minimum, preclinical or case-level evidence exploring orlistat's effect on fat-soluble vitamin clearance in hypervitaminosis before considering further evaluation
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

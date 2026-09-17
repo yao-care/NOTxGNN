@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Inclisiran
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 180
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Inclisiran
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | Predicted New Indication | Potassium deficiency disease |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L5 (model prediction only, no supporting studies) |
-| Norway Market Status | ✗ Not Marketed (未上市) |
+| Norway Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -77,7 +77,7 @@ Currently no related literature available.
 
 ## Norway Market Information
 
-Inclisiran is currently **not marketed** in Norway — `taiwan_regulatory.market_status = "未上市"`, with **0 authorizations** on file. No license records are available to summarize.
+Inclisiran is currently **not marketed** in Norway — `taiwan_regulatory.market_status = "Not marketed"`, with **0 authorizations** on file. No license records are available to summarize.
 
 ---
 
@@ -118,10 +118,10 @@ The top-ranked prediction (potassium deficiency disease) has a very high TxGNN s
 - If continuing repurposing exploration for inclisiran, redirect focus to **rank 8 (aortic malformation)** — verify actual inclusion criteria of NCT06597006/NCT06597019 against the predicted indication term before advancing to S2
 - Populate `taiwan_regulatory.licenses` / `original_indications` — currently empty, blocking a complete original-vs-new indication comparison
 - Do not advance "potassium deficiency disease," "esophageal disease/ulcer/malformation," "migraine," or "Raynaud disease" without new supporting evidence — all currently L5/Hold
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

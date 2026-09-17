@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Dolutegravir
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 112
-evidence_level: L5
+evidence_level: L3
 indication_count: 3
 ---
 
 # Dolutegravir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidensnivå: **L3** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -98,10 +98,10 @@ Please refer to the package insert for safety information.
 - Confirmed DrugBank/MOA documentation to close gap DG002
 - If a human-relevant indication is the goal, direct efficacy/PK data for dolutegravir in an actual human disease context — none of the three current predictions (SIV, FIV, the neurodevelopmental disorder) are human-approvable indications under existing evidence
 - A review of the underlying TxGNN disease-ontology mapping for this drug, since two of the three top-ranked predictions resolve to non-human/veterinary disease concepts — this may indicate an embedding or ontology-matching issue worth investigating upstream in the pipeline rather than a genuine repurposing signal
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

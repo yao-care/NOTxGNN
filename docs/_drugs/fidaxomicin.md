@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Fidaxomicin
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 151
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Fidaxomicin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -87,10 +87,10 @@ The top prediction (SSSS) carries a high TxGNN similarity score but is entirely 
 - Obtain confirmed mechanism of action (DG002) and original approved indication for fidaxomicin to properly anchor similarity-to-original analysis
 - If SSSS or impetigo-type indications are to be pursued further, first establish whether a topical/dermatologic formulation of fidaxomicin is technically feasible, since the oral formulation's PK profile does not support these use cases
 - Independent literature/mechanism review to distinguish genuine repurposing signal from TxGNN embedding overgeneralization before committing further evaluation resources
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

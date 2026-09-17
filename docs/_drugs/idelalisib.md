@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Idelalisib
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 175
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Idelalisib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -49,7 +49,7 @@ Using no specific coding skill here—this is a direct content-generation task p
 | Predicted New Indication | Mantle Cell Lymphoma (MCL) |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L3 |
-| Norway Market Status | ✗ Not Marketed (未上市) |
+| Norway Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -100,7 +100,7 @@ This is not purely theoretical: a dedicated Phase 1 clinical trial (PMID 2461577
 
 ## Norway Market Information
 
-Idelalisib is currently **not marketed in Norway** (`未上市`) and holds **0 authorizations** on file — no license records are available to summarize.
+Idelalisib is currently **not marketed in Norway** (`Not marketed`) and holds **0 authorizations** on file — no license records are available to summarize.
 
 ---
 
@@ -136,10 +136,10 @@ While mechanistic rationale is sound and a completed Phase 1 trial plus multiple
 - Confirmed mechanism-of-action documentation from DrugBank (resolves DG002)
 - Regulatory pathway assessment for Norway market entry, given current "Not Marketed" status
 - If development continues, a confirmatory Phase 2 (ideally randomized) trial specifically in MCL patients to move beyond the existing Phase 1 activity signal
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -19516,7 +19516,7 @@
     },
     {
       "name": "AIDS | TxGNN Knowledge Graph",
-      "drug_count": 22,
+      "drug_count": 10,
       "drugs": [
         {
           "drug": "ENFUVIRTIDE",
@@ -19846,7 +19846,7 @@
     },
     {
       "name": "B-cell neoplasm | TxGNN Knowledge Graph",
-      "drug_count": 13,
+      "drug_count": 10,
       "drugs": [
         {
           "drug": "RITUXIMAB",
@@ -20870,7 +20870,7 @@
     },
     {
       "name": "HIV infectious disease | TxGNN Knowledge Graph",
-      "drug_count": 22,
+      "drug_count": 10,
       "drugs": [
         {
           "drug": "ENFUVIRTIDE",
@@ -23206,7 +23206,7 @@
     },
     {
       "name": "acute lymphoblastic/lymphocytic leukemia | TxGNN Knowledge Graph",
-      "drug_count": 16,
+      "drug_count": 10,
       "drugs": [
         {
           "drug": "PEGASPARGASE",
@@ -26702,7 +26702,7 @@
     },
     {
       "name": "diabetes mellitus (disease) | TxGNN Knowledge Graph",
-      "drug_count": 24,
+      "drug_count": 10,
       "drugs": [
         {
           "drug": "INSULIN HUMAN",
@@ -29226,7 +29226,7 @@
     },
     {
       "name": "hypertension | TxGNN Knowledge Graph",
-      "drug_count": 13,
+      "drug_count": 10,
       "drugs": [
         {
           "drug": "VALSARTAN",
@@ -29282,7 +29282,7 @@
     },
     {
       "name": "hypertensive disorder | TxGNN Knowledge Graph",
-      "drug_count": 13,
+      "drug_count": 10,
       "drugs": [
         {
           "drug": "VALSARTAN",
@@ -30412,7 +30412,7 @@
     },
     {
       "name": "lung cancer | TxGNN Knowledge Graph",
-      "drug_count": 16,
+      "drug_count": 10,
       "drugs": [
         {
           "drug": "GEFITINIB",
@@ -31141,7 +31141,7 @@
     },
     {
       "name": "mantle cell lymphoma | TxGNN Knowledge Graph",
-      "drug_count": 11,
+      "drug_count": 10,
       "drugs": [
         {
           "drug": "RITUXIMAB",
@@ -32247,7 +32247,7 @@
     },
     {
       "name": "non-small cell lung carcinoma (disease) | TxGNN Knowledge Graph",
-      "drug_count": 14,
+      "drug_count": 10,
       "drugs": [
         {
           "drug": "GEFITINIB",
@@ -32813,7 +32813,7 @@
     },
     {
       "name": "osteoporosis | TxGNN Knowledge Graph",
-      "drug_count": 11,
+      "drug_count": 10,
       "drugs": [
         {
           "drug": "COLECALCIFEROL",
@@ -33795,7 +33795,7 @@
     },
     {
       "name": "plasma cell myeloma | TxGNN Knowledge Graph",
-      "drug_count": 12,
+      "drug_count": 10,
       "drugs": [
         {
           "drug": "BORTEZOMIB",
@@ -34034,7 +34034,7 @@
     },
     {
       "name": "postmenopausal osteoporosis | TxGNN Knowledge Graph",
-      "drug_count": 11,
+      "drug_count": 10,
       "drugs": [
         {
           "drug": "COLECALCIFEROL",
@@ -35221,7 +35221,7 @@
     },
     {
       "name": "rheumatoid arthritis | TxGNN Knowledge Graph",
-      "drug_count": 20,
+      "drug_count": 10,
       "drugs": [
         {
           "drug": "ETANERCEPT",
@@ -36680,7 +36680,7 @@
     },
     {
       "name": "type 2 diabetes mellitus | TxGNN Knowledge Graph",
-      "drug_count": 20,
+      "drug_count": 10,
       "drugs": [
         {
           "drug": "INSULIN HUMAN",

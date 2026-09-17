@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Catridecacog
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 78
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Catridecacog
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -43,7 +43,7 @@ Catridecacog 是重組人類凝血因子 XIII A 次單元，作用機轉為促�
 | 預測新適應症 | Primary release disorder of platelets |
 | TxGNN 預測分數 | 99.29%（rank 7143） |
 | 證據等級 | L5（僅模型預測，無臨床試驗或文獻支持） |
-| 挪威市場狀態 | 未上市 |
+| 挪威市場狀態 | Not marketed |
 | 許可證數量 | 0 |
 | 建議決策 | Hold |
 
@@ -70,13 +70,13 @@ Primary release disorder of platelets（原發性血小板釋放障礙）的病�
 
 ## 挪威市場資訊
 
-此藥品目前於挪威**未取得任何上市許可**（`market_status: 未上市`，`total_licenses: 0`），無授權登記資料可供列表。
+此藥品目前於挪威**未取得任何上市許可**（`market_status: Not marketed`，`total_licenses: 0`），無授權登記資料可供列表。
 
 ## 安全性考量
 
 請參考藥品仿單所載安全性資訊。
 
-> 提醒：根據資料缺口清單，「TFDA 仿單警語/禁忌」屬 **Blocking** 等級缺口（DG001），在取得完整仿單資料之前，本候選藥物**無法進入 S1 安全性初評階段**。
+> 提醒：根據資料缺口清單，「DMP package insert warnings/contraindications」屬 **Blocking** 等級缺口（DG001），在取得完整仿單資料之前，本候選藥物**Cannot proceed to S1 safety screening階段**。
 
 ## 結論與下一步
 
@@ -84,17 +84,17 @@ Primary release disorder of platelets（原發性血小板釋放障礙）的病�
 
 **理由：**
 - 兩個候選預測皆停留在 **L5**（僅模型預測），無任何臨床試驗或文獻佐證機轉關聯性；
-- 安全性資料存在 Blocking 等級缺口（DG001：TFDA 仿單警語/禁忌未知），依規範無法進入下一階段安全性評估。
+- 安全性資料存在 Blocking 等級缺口（DG001：DMP package insert warnings/contraindications未知），依規範無法進入下一階段安全性評估。
 
 **若要繼續推進，需要補齊：**
-- TFDA／原廠仿單完整警語與禁忌資料（DG001，Blocking，來源：TFDA 官網，方法：下載仿單 PDF 並解析）
+- TFDA／原廠仿單完整警語與禁忌資料（DG001，Blocking，來源：DMP website，方法：Download and parse the package insert PDF）
 - DrugBank 作用機轉（MOA）完整資料（DG002，High，來源：DrugBank API）
 - 原始適應症（`original_indications`）確認，以利與預測適應症進行機轉關聯比對
 - 持續監測是否出現新的臨床試驗登記或文獻，作為證據等級升級依據
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

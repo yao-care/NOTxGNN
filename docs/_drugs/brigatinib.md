@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Brigatinib
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 57
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Brigatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -113,10 +113,10 @@ The top-ranked prediction (Gingival Fibromatosis) has no clinical, literature, o
 - TFDA/DMP label (warnings, contraindications) — Blocking gap (DG001)
 - Confirmed mechanism-of-action data via DrugBank API — High priority gap (DG002)
 - If pursuing further repurposing work on this drug, open a **separate, correctly-labeled evaluation for NF2-related schwannomatosis**, based on the genuine Phase 2 evidence (NEJM 2024) surfaced under the rank-10 entry — this is a materially stronger candidate than any indication currently ranked in this batch
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

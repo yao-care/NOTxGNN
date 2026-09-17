@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Mycophenolate Mofetil
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 236
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Mycophenolate Mofetil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -122,10 +122,10 @@ While the immune-activation hypothesis linking MMF to HIV disease control is mec
 - Outcome data from the MAN2 study (NCT00120419/NCT00247494), currently listed as unknown status
 - A dedicated risk assessment for immunosuppression in an HIV-positive population (balancing antiviral hypothesis vs. risk of further immune impairment)
 - Norway/EU regulatory pathway assessment given the drug is not currently marketed in this indication or country
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

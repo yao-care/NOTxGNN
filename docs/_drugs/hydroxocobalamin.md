@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hydroxocobalamin
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 170
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Hydroxocobalamin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -45,7 +45,7 @@ but this is currently supported by **0 clinical trials** and **0 publications** 
 | Predicted New Indication | Esophageal Varices without Bleeding (rank 1); Esophageal Varices with Bleeding (rank 2, same score) |
 | TxGNN Prediction Score | 99.23% |
 | Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Norway Market Status | 未上市 (Not marketed) |
+| Norway Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -67,7 +67,7 @@ Currently no related literature available.
 
 ## Norway Market Information
 
-Hydroxocobalamin is currently **not marketed in Norway** (market status: 未上市) and has **0 authorizations** on record — no license or approved-indication data exists to summarize.
+Hydroxocobalamin is currently **not marketed in Norway** (market status: Not marketed) and has **0 authorizations** on record — no license or approved-indication data exists to summarize.
 
 ## Safety Considerations
 
@@ -86,10 +86,10 @@ Please refer to the package insert for safety information. (Key warnings, contra
 - Establish the drug's actual original indication(s) and any existing market licenses (currently none identified).
 - Conduct a targeted literature/clinical trial search specific to hydroxocobalamin and portal hypertension/esophageal varices to move beyond model-only evidence (L5 → higher tier).
 - If evidence emerges, evaluate route compatibility (IV formulation vs. required route for varices management) and long-term safety (hypertension, lab assay interference) before advancing past S0.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

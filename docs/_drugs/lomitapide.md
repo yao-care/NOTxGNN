@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lomitapide
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 212
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Lomitapide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -49,7 +49,7 @@ Using no additional skill — this is a direct content-generation task with an e
 | Predicted New Indication | Macrothrombocytopenia with mitral valve insufficiency |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L5 (model prediction only, no supporting studies) |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -100,10 +100,10 @@ The top-ranked predicted indication (macrothrombocytopenia with mitral valve ins
 - Re-evaluation of ranks 2–8 and 10 in this same prediction set, all of which are likewise L5/Hold with no supporting evidence
 
 **⚠️ Data quality note (important for upstream correction):** Rank 9 in this same prediction batch, *hyperlipoproteinemia*, carries strong evidence (12 clinical trials including multiple completed Phase 3 studies, 19 publications) and is the only L1/S3 entry in the set. However, its own rationale flags that this is very likely **not a novel repurposing signal** — it corresponds to lomitapide's already-approved indication (HoFH, marketed as Juxtapid/Lojuxta, FDA-approved 2012), miscategorized as "new" only because the `original_indications` field is empty. This should be corrected at the data source before the candidate is scored again, to avoid conflating "confirmed original indication" with "repurposing discovery" in future reports.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

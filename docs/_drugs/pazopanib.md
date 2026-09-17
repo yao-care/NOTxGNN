@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pazopanib
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 267
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Pazopanib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -134,10 +134,10 @@ Two dedicated completed Phase 2 trials (NCT01506596, NCT01692496) and their publ
 - Norway/EU market authorization pathway assessment, as the drug is not currently marketed in this jurisdiction
 
 *Note: This TxGNN screen also flagged dermatofibrosarcoma protuberans (rank 10, evidence level L2, "Proceed with Guardrails") as a second candidate with comparable evidence strength (a dedicated Phase 2 trial and a multicenter Phase 2 publication), driven by the same PDGFR-targeting mechanism. This may warrant a separate evaluation.*
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

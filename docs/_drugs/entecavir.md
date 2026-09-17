@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Entecavir
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 133
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Entecavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -114,10 +114,10 @@ The top-ranked TxGNN prediction (HCV) lacks a plausible mechanistic basis — en
 - TFDA/official product label (warnings, contraindications) to clear the Blocking data gap (DG001)
 - Confirmed mechanism-of-action documentation (DG002)
 - If pursued further, a re-evaluation of whether "chronic hepatitis C" is the correct target — consider instead reviewing the co-listed **chronic hepatitis B virus infection** prediction (evidence level L1, "Proceed with Guardrails"), which reflects entecavir's true, well-established indication and is better supported for any repurposing or lifecycle-extension analysis
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

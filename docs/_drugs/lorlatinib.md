@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lorlatinib
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 216
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Lorlatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -115,10 +115,10 @@ The top-ranked TxGNN prediction (Gingival Fibromatosis, 99.81% score) has zero c
 - DG002 (High): Verified MOA data via DrugBank API to properly assess mechanistic plausibility for any future candidate indication
 - A data-quality review of the TxGNN-to-literature mapping pipeline, given apparent disease-label mismatches identified in ranks 5, 7, 8, and 10 of this evidence pack
 - If further exploration is warranted, prioritize rank 4 (lung hilum carcinoma) as a research question — it is the only candidate with a plausible mechanistic link and case-level clinical evidence, though it likely falls within the drug's already-approved ALK+ NSCLC indication rather than representing a true new indication
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

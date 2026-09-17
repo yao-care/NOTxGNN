@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Nevirapine
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 242
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Nevirapine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -114,10 +114,10 @@ This evidence pack contains two additional TxGNN predictions for nevirapine that
 | 3 | Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter | 99.82% | L5 | S0 | Hold | No clinical trials, no literature, and no plausible mechanistic link to nevirapine's known pharmacology (rare genetic neurodevelopmental disorder vs. an antiretroviral RT inhibitor). |
 
 None of the three predicted indications in this evidence pack currently support a "Go" or "Proceed with Guardrails" decision; all require substantially more mechanistic or preclinical evidence before further evaluation.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

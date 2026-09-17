@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Posaconazole
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 285
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 ---
 
 # Posaconazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -99,10 +99,10 @@ Evidence is limited to mechanistic plausibility (L4) — the identified clinical
 - Direct clinical or in vitro evidence of posaconazole activity against *Pneumocystis jirovecii*, ideally dedicated PCP prophylaxis/treatment trials
 - Route of administration and dosing feasibility assessment for the PCP patient population
 - Clarification of original approved indication(s) and license status, since no Norway license records currently exist
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

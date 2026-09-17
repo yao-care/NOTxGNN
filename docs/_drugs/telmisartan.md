@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Telmisartan
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 343
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Telmisartan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ Telmisartan is an angiotensin II receptor blocker (ARB), a drug class establishe
 | Predicted New Indication | Cerebral artery occlusion |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L2 |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -118,10 +118,10 @@ Evidence for cerebral artery occlusion is more substantial than for any other Tx
 - Evaluate feasibility and regulatory pathway for introducing telmisartan to the Taiwan market, since 0 licenses currently exist
 - Consider whether a dedicated secondary-stroke-prevention RCT is warranted given the strength of preclinical signal
 - Monitor intracerebral hemorrhage (rank 9, also L2) as a related candidate sharing the same RAAS-blockade rationale, anchored by the completed TRIDENT trial (NCT02699645, n=1,671)
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

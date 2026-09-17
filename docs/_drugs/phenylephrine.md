@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Phenylephrine
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 277
-evidence_level: L5
+evidence_level: L2
 indication_count: 3
 ---
 
 # Phenylephrine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -97,7 +97,7 @@ This is why the evidence level here (L2) is meaningfully stronger than the other
 
 ## Norway Market Information
 
-No marketed authorizations were found for phenylephrine in Norway under this evidence pack (`total_licenses = 0`). The drug is currently classified as **未上市 / Not marketed**, so no product-level license table is available.
+No marketed authorizations were found for phenylephrine in Norway under this evidence pack (`total_licenses = 0`). The drug is currently classified as **Not marketed / Not marketed**, so no product-level license table is available.
 
 ---
 
@@ -123,10 +123,10 @@ The mechanistic basis is strong and non-novel — phenylephrine's decongestant e
 - Assess regulatory pathway feasibility given the drug currently has zero marketed licenses in this jurisdiction
 
 **Note on other predicted indications:** Two additional candidates for phenylephrine were assessed in this evidence pack — acute laryngopharyngitis (L5, no supporting trials or literature, **Hold**) and trigeminal autonomic cephalalgia (L4, phenylephrine used only as a diagnostic pupillometry reagent for cluster headache/Horner's differentiation, not as treatment, **Hold**). Neither is recommended for further action at this time.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

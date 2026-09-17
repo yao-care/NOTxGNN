@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mometasone
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 234
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Mometasone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -80,7 +80,7 @@ Currently no related clinical trials registered.
 
 ## Norway Market Information
 
-Mometasone is currently **not marketed** in Norway under this evidence pack (`market_status: 未上市`, 0 authorizations on file). No product license records are available.
+Mometasone is currently **not marketed** in Norway under this evidence pack (`market_status: Not marketed`, 0 authorizations on file). No product license records are available.
 
 ---
 
@@ -104,10 +104,10 @@ Despite a high TxGNN prediction score, there is no clinical trial evidence and t
 - Resolve DG002 (mechanism of action) via DrugBank to assess mechanistic plausibility for CTCL
 - Identify literature or preclinical studies specifically evaluating corticosteroids (mometasone or class) in primary cutaneous T-cell lymphoma/mycosis fungoides, rather than tangential case reports
 - Reassess whether the two retrieved case reports are genuinely relevant, given one shows treatment failure in a differential-diagnosis condition
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Selpercatinib
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 322
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Selpercatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -43,7 +43,7 @@ Selpercatinib is a selective RET tyrosine kinase inhibitor currently used for RE
 | Predicted New Indication | Pulmonary Hypertension |
 | TxGNN Prediction Score | 99.18% |
 | Evidence Level | L4 |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -95,10 +95,10 @@ The top-ranked prediction (pulmonary hypertension, L4) is supported only by adve
 - Confirmed mechanism of action from DrugBank — currently high-severity gap (DG002)
 - Clarification of whether the pulmonary hypertension signal in FAERS-based literature represents an adverse event vs. a treatable indication
 - Preclinical or mechanistic evidence directly linking RET inhibition to pulmonary vascular remodeling, if this direction is pursued further
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

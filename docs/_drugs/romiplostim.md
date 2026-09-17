@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Romiplostim
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 313
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Romiplostim
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -110,10 +110,10 @@ The mechanistic link between TPO-receptor agonism and platelet release disorders
 
 **Note on a stronger alternative candidate in this same evidence pack:**
 Within the same prediction set, *"platelet-type bleeding disorder"* (rank 8, score 99.93%) has substantially stronger direct evidence — **L1**, with a completed Phase 3 RCT (RECITE, chemotherapy-induced thrombocytopenia in GI/pancreatic/colorectal cancer, n=165) plus 6 additional directly relevant trials (post-transplant platelet engraftment, MDS, biosimilar long-term safety) — and is already staged at "Proceed with Guardrails." If the goal is to identify the most actionable repurposing signal for romiplostim rather than strictly the top-ranked TxGNN score, this candidate warrants a separate, dedicated evaluation.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

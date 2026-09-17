@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cetrorelix
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 84
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Cetrorelix
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -99,10 +99,10 @@ The top-ranked prediction (hypertrichosis) is supported only by the TxGNN model 
 - Confirmed mechanism of action via DrugBank or equivalent source (flagged as **High** severity — needed for mechanistic-relevance analysis)
 - Original approved indication(s) and clinical positioning data
 - If pursuing further: targeted literature/trial search specifically for **central precocious puberty (rank 10)**, given its stronger GnRH-dependent mechanistic coherence with cetrorelix's known pharmacology, despite currently having no direct evidence either
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

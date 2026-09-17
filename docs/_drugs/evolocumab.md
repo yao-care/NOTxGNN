@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Evolocumab
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 145
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Evolocumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 6
 | Predicted New Indication | Symptomatic form of hemophilia in female carriers |
 | TxGNN Prediction Score | 99.82% (rank 2444) |
 | Evidence Level | L5 (model prediction only, no supporting trials/literature) |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -102,10 +102,10 @@ The TxGNN score is high, but there are zero clinical trials, zero publications, 
 - Confirmed original indication(s) for evolocumab in this dataset
 - An independent literature/clinical-trial search specifically for evolocumab in bleeding disorders, to confirm or rule out the TxGNN signal before any further scoring
 - Consideration of whether this candidate (and its sibling predictions in this pack) should be deprioritized in favor of TxGNN candidates with actual trial/literature support
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ocrelizumab
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 250
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Ocrelizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -89,10 +89,10 @@ Please refer to the package insert for safety information.
 - Confirmed mechanism-of-action data (DG002) to establish or rule out a biological rationale linking anti-CD20 B-cell depletion to HER2-driven or hormone-receptor-driven breast cancer pathways
 - Prospective preclinical or translational studies testing ocrelizumab specifically in HER2+ breast cancer models, since none currently exist
 - Manual re-verification of any future "breast tumor luminal A or B" literature hits — the 19 PubMed results retrieved for that candidate were reviewed and found to be false-positive keyword matches (B-cell developmental biology, hepatitis-B vaccine, and HLA-B typing papers), not genuine breast cancer evidence
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

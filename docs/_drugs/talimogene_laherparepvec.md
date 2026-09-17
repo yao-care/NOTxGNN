@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Talimogene Laherparepvec
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 338
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Talimogene Laherparepvec
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -116,10 +116,10 @@ The mechanistic case for the top-ranked indication (CMM7/cutaneous melanoma) is 
 - Correct `drug.original_indications` to reflect T-VEC's actual approved indication (cutaneous melanoma) so future TxGNN runs don't re-surface it as a "new" prediction
 - For genuinely novel candidates — particularly glottis SCC — source dedicated trial/literature evidence (e.g., MASTERKEY-232 data) before advancing beyond Research Question stage
 - Clarify local market status/regulatory pathway, since a marketing authorization application may itself be a prerequisite before any repurposing indication can be pursued
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

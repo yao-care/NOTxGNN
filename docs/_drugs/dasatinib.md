@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Dasatinib
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 98
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Dasatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -92,7 +92,7 @@ However, the mechanistic story does not yet translate cleanly into clinical bene
 
 ## Norway Market Information
 
-Dasatinib currently holds **no marketing authorizations in Norway** (`market_status: 未上市 / Not marketed`, `total_licenses: 0`). No product-level licensing data is available for this evidence pack.
+Dasatinib currently holds **no marketing authorizations in Norway** (`market_status: Not marketed / Not marketed`, `total_licenses: 0`). No product-level licensing data is available for this evidence pack.
 
 ---
 
@@ -146,10 +146,10 @@ The Ewing sarcoma signal is mechanistically plausible (SFK-dependent invasion/ap
 - New or completed trials testing dasatinib **in combination regimens** for Ewing sarcoma specifically, since single-agent activity has already been shown to fail
 - Clarify Norway registration/import pathway, since dasatinib currently has zero marketing authorizations there
 - If pursuing rank 3 (liposarcoma) or rank 5 (DFSP) in parallel, generate disease-specific (not basket-trial) efficacy data before advancing past L4
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

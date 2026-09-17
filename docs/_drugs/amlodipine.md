@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Amlodipine
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 28
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Amlodipine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -189,10 +189,10 @@ Please refer to the package insert for safety information. (No structured warnin
 - Resolution of DG002 (mechanism of action) to support the mechanistic-plausibility analysis with primary source data rather than general pharmacological knowledge.
 - For the lead candidate (intracerebral hemorrhage): amlodipine-specific (not combination-only) outcome data from TRIDENT if/when available, plus a formal indication-specific safety review given the drug is not currently marketed in Norway.
 - For the three Research Question candidates: a targeted literature/trial search using amlodipine-specific search terms (rather than CCB-class terms) to confirm or rule out promotion to S2.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

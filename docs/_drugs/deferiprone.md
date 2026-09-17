@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Deferiprone
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 101
-evidence_level: L5
+evidence_level: L4
 indication_count: 9
 ---
 
 # Deferiprone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -111,10 +111,10 @@ Evidence for hepatic porphyria is limited to two preclinical animal studies on C
 - **Beta-thalassemia with other manifestations (rank 8, L1, Proceed with Guardrails)** is not a *new* indication — the rationale text confirms this reflects deferiprone's existing Ferriprox on-label use for transfusional iron overload.
 - **Ranks 2–6, 9** (idiopathic copper-associated cirrhosis, hepatoportal sclerosis, early-onset familial noncirrhotic portal hypertension, hepatopulmonary syndrome, primitive portal vein thrombosis, hereditary pyropoikilocytosis) are **L5, no supporting literature/trials**, and the rationale text for several explicitly flags them as likely false positives (e.g., copper chelation is mechanistically weak for deferiprone). These should not be pursued without independent evidence.
 - **Pyruvate kinase deficiency (rank 7, L4)** has a plausible secondary iron-overload rationale but no literature/trial support in this dataset — same "Research Question" status as the primary candidate above.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

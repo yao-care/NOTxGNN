@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Busulfan
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 65
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Busulfan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -145,10 +145,10 @@ The top predicted indication (MDS) is supported by strong, largely Phase 2–3 e
 - Confirmed DrugBank MOA record (DG001/DG002) to replace the inferred mechanistic summary used in this report.
 - Formal `original_indications` and licensing data, since none were present in this evidence pack.
 - Given busulfan already lacks Norway marketing authorization, a market-access/registration pathway assessment before any further clinical positioning work.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

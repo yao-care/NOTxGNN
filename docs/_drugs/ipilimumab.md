@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ipilimumab
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 190
-evidence_level: L5
+evidence_level: L2
 indication_count: 2
 ---
 
 # Ipilimumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -136,10 +136,10 @@ Multiple completed Phase 2 trials provide direct evidence for ipilimumab activit
 - Route/formulation compatibility assessment (currently pending in evidence pack)
 - Market entry/registration pathway assessment, since the drug currently holds zero local authorizations
 - Exclude choroideremia from further development given absence of mechanistic plausibility and supporting evidence
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

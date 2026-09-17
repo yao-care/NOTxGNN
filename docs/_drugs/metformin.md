@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Metformin
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 226
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Metformin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -105,10 +105,10 @@ The prediction is supported only by a TxGNN model score (L5, no clinical trials 
 ---
 
 **Note on related candidates:** This evidence pack (`TW-DB00331-multi`) contains 4 additional predicted indications for Metformin at similarly high TxGNN scores (classic stiff person syndrome, opsismodysplasia, thiamine-responsive dysfunction syndrome, and drug-induced localized lipodystrophy) — all rated L5/Hold with no clinical or literature support. One candidate (thiamine-responsive dysfunction syndrome) carries a flagged **safety concern** rather than therapeutic opportunity, since Metformin's known mitochondrial Complex I inhibition may be mechanistically counterproductive in that condition. None of these five candidates currently meet the threshold for further evaluation.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

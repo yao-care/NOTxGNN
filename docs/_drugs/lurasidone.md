@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Lurasidone
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 219
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Lurasidone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -99,7 +99,7 @@ However, the evidence base has an important caveat: the highest-quality complete
 
 ## Norway Market Information
 
-Lurasidone is currently **not marketed** in Norway (market status: 未上市, 0 authorizations). No product license or approved indication text is available for this drug in the local regulatory dataset.
+Lurasidone is currently **not marketed** in Norway (market status: Not marketed, 0 authorizations). No product license or approved indication text is available for this drug in the local regulatory dataset.
 
 ---
 
@@ -121,10 +121,10 @@ Lurasidone has a substantial body of completed Phase 3 evidence (L1) supporting 
 - Confirmed mechanism of action detail from DrugBank (DG002)
 - Dedicated efficacy/safety data for lurasidone in acute manic or mixed episodes (current evidence is predominantly for the depressive/maintenance phase)
 - Regulatory pathway assessment for market entry, since lurasidone holds zero authorizations in this market
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 
