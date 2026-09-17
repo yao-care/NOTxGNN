@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Iloprost
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 176
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Iloprost
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -46,7 +46,7 @@ indication_count: 9
 | Predicted New Indication | Hypotrichosis Simplex of the Scalp |
 | TxGNN Prediction Score | 99.45% |
 | Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not Marketed (未上市) |
+| Taiwan Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -102,10 +102,10 @@ The top-ranked prediction, hypotrichosis simplex of the scalp, has no supporting
 - TFDA label warnings/contraindications data (DG001, blocking — required before any S1 safety screening)
 - Confirmed mechanism of action from DrugBank (DG002)
 - If repurposing interest continues, re-scope evaluation to the PAH-subtype candidates identified above (particularly HIV-associated PAH, L1 evidence), rather than hypotrichosis simplex
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

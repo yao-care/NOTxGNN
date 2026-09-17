@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Zanamivir
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 389
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Zanamivir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -102,10 +102,10 @@ The predicted indication (pyelonephritis) carries an L5 evidence level — model
 - Independent mechanistic or preclinical evidence linking neuraminidase inhibition to any renal/urinary tract pathology
 - Re-validation of the literature retrieval pipeline to rule out keyword-mismatch artifacts (as seen with the tyrosine metabolism candidate)
 - If no such evidence emerges, this candidate should be deprioritized rather than advanced to further scoring stages
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

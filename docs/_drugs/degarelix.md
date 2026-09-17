@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Degarelix
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 103
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Degarelix
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -103,10 +103,10 @@ The top-ranked prediction (hypertrichosis) has no supporting clinical trials or 
 - Resolve DG002 (High): confirm degarelix's mechanism of action and approved original indication(s) via DrugBank API
 - If pursuing the central precocious puberty hypothesis, commission a targeted literature/preclinical search specific to degarelix (not GnRH agonists generally) to test mechanistic plausibility before allocating further resources
 - Given the top candidate's mechanistic implausibility, consider deprioritizing hypertrichosis and re-screening lower-ranked, mechanistically coherent candidates instead
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

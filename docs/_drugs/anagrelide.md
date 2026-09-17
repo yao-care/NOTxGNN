@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Anagrelide
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 29
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 ---
 
 # Anagrelide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -45,7 +45,7 @@ Anagrelide is a platelet-lowering agent whose established use, as reflected in t
 | Predicted New Indication | Reactive Thrombocytosis |
 | TxGNN Prediction Score | 99.83% |
 | Evidence Level | L4 |
-| Norway Market Status | 未上市 (Not Marketed) |
+| Norway Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -86,7 +86,7 @@ Currently no related clinical trials registered.
 
 ## Norway Market Information
 
-Anagrelide is currently **not marketed** in this jurisdiction (market status: 未上市) and has **0 registered authorizations**. No product/license records are available to summarize.
+Anagrelide is currently **not marketed** in this jurisdiction (market status: Not marketed) and has **0 registered authorizations**. No product/license records are available to summarize.
 
 ---
 
@@ -110,10 +110,10 @@ The prediction (score 99.83%, TxGNN rank 2305) reaches only evidence level L4 �
 - Clarification of regulatory pathway, since the drug is not currently marketed locally (0 authorizations)
 
 **Note on secondary prediction:** A second candidate indication, *inverse Klippel-Trenaunay syndrome* (TxGNN score 99.59%, rank 4816), was also flagged by the model but has no supporting clinical trials or literature, no clear mechanistic link to anagrelide's platelet-lowering action, and is scored L5/S0. It is not recommended for further evaluation at this time.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

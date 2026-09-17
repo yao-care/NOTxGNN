@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ledipasvir
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 202
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Ledipasvir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -94,7 +94,7 @@ Despite this mechanistic gap, the prediction is not entirely without a rationale
 
 ## Norway Market Information
 
-Ledipasvir is currently **not marketed in Norway** (market status: 未上市). No authorization records are available in the evidence pack.
+Ledipasvir is currently **not marketed in Norway** (market status: Not marketed). No authorization records are available in the evidence pack.
 
 ---
 
@@ -116,10 +116,10 @@ Although the TxGNN score is very high (99.91%), the strongest and most direct cl
 - Resolution of the **High** priority data gap: confirmed mechanism of action from DrugBank (DG002)
 - If pursued further, an updated systematic review or a properly powered, randomized trial with a confirmed antiviral (HBV DNA/HBsAg) endpoint would be required to override the current negative Phase 2 signal
 - Given the negative primary trial result, further investment in this specific indication is not currently recommended; lower-ranked candidates in this evidence pack (e.g., hepatitis E virus infection, rank 2) may warrant separate evaluation given their distinct mechanistic rationale
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

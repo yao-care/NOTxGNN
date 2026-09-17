@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Budesonide
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 62
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Budesonide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | Predicted New Indication | Atopic Eczema (Atopic Dermatitis) |
 | TxGNN Prediction Score | 99.96% |
 | Evidence Level | L4 |
-| Norway Market Status | Not Marketed (未上市) |
+| Norway Market Status | Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold (Research Question stage) |
 
@@ -114,10 +114,10 @@ The corticosteroid anti-inflammatory mechanism is biologically plausible for ato
 - A dedicated clinical trial (RCT) testing topical budesonide efficacy against atopic dermatitis, since none currently exists
 - Route/formulation compatibility assessment (topical vs. existing inhaled/oral/rectal budesonide formulations)
 - Note: the pack's #2-ranked prediction, *bronchitis*, carries stronger L2 evidence with a "Proceed with Guardrails" recommendation and may warrant separate evaluation in parallel
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

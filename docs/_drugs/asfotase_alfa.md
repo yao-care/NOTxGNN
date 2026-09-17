@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Asfotase Alfa
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 36
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Asfotase Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -99,10 +99,10 @@ The top-ranked prediction is supported only by a TxGNN similarity score with no 
 - TFDA/regulatory label warnings and contraindications (currently blocking safety pre-screening, per DG001)
 - Preclinical or mechanistic studies establishing a plausible link between TNSALP-mediated bone mineralization and mitochondrial OXPHOS pathology, if this indication is to be pursued further
 - Continued monitoring for new clinical trial registrations or publications on any of the top 10 candidates before re-evaluating decision stage
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

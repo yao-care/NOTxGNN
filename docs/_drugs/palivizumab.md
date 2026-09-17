@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Palivizumab
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 262
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Palivizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -101,10 +101,10 @@ All top 10 TxGNN-predicted indications for palivizumab are rated L5 (model predi
 - Resolve DG002 (High): Confirmed mechanism of action data from DrugBank, needed to evaluate mechanistic plausibility of any future candidate
 - Independent literature or preclinical search specifically targeting palivizumab and oncology/neoplasm pathways, to confirm whether the current top-10 list reflects a genuine signal or a model artifact
 - If no supporting evidence emerges, consider deprioritizing this drug-indication cluster in future TxGNN evidence pack refresh cycles
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

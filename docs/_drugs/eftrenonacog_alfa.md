@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Eftrenonacog Alfa
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 123
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Eftrenonacog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -85,10 +85,10 @@ This is a model-only (L5) prediction with no supporting clinical trials or liter
 - TFDA/manufacturer labeling with warnings and contraindications, required before any safety pre-screening (blocking data gap, DG001)
 - Independent mechanistic or preclinical evidence directly linking Factor IX pathway activity to platelet-vWF or platelet-receptor disorders
 - Real-world case reports or registry data on Factor IX products used in these platelet disorders, if any exist, to distinguish true signal from prediction artifact
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

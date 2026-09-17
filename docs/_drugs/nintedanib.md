@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Nintedanib
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 244
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Nintedanib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -49,7 +49,7 @@ indication_count: 3
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
 | TxGNN Prediction Score | 99.15% |
 | Evidence Level | L4 |
-| Norway Market Status | 未上市 (Not marketed) |
+| Norway Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -107,10 +107,10 @@ Please refer to the package insert for safety information.
 - Confirmed structured mechanism-of-action documentation from DrugBank (DG002, High)
 - Preclinical (in vitro/in vivo) or case-report evidence of nintedanib activity specifically in DFSP
 - Clarification of Norway regulatory/market pathway, given the drug currently has no local marketing authorization
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

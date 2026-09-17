@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Acetylsalicylic Acid
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 17
-evidence_level: L5
+evidence_level: L3
 indication_count: 9
 ---
 
 # Acetylsalicylic Acid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Evidensnivå: **L3** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -49,7 +49,7 @@ Acetylsalicylic acid (aspirin) is a long-established analgesic, antipyretic, ant
 | Predicted New Indication | Migraine with Brainstem Aura |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L3 |
-| Norway Market Status | ✗ Not Marketed (未上市) |
+| Norway Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -82,7 +82,7 @@ Currently no related clinical trials registered.
 
 ## Norway Market Information
 
-No marketing authorization records are currently on file for acetylsalicylic acid in Norway (0 licenses; market status "未上市/Not Marketed" in this dataset). Given that aspirin is a globally available generic, this likely reflects a gap in the specific regulatory data source rather than confirmed true market absence — this should be verified directly before any go/no-go decision.
+No marketing authorization records are currently on file for acetylsalicylic acid in Norway (0 licenses; market status "Not marketed/Not Marketed" in this dataset). Given that aspirin is a globally available generic, this likely reflects a gap in the specific regulatory data source rather than confirmed true market absence — this should be verified directly before any go/no-go decision.
 
 ## Safety Considerations
 
@@ -100,10 +100,10 @@ Please refer to the package insert for safety information.
 - Resolve DG002 (High): obtain detailed mechanism-of-action data via the DrugBank API to strengthen the mechanistic-relevance analysis
 - Confirm Norway marketing/regulatory status, since 0 authorizations are on record despite aspirin's status as a widely marketed generic drug
 - Seek or commission a study specifically enrolling migraine-with-brainstem-aura patients, since current evidence is extrapolated from the broader migraine-with-aura population
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

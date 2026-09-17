@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mecasermin
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 223
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Mecasermin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -86,10 +86,10 @@ The top-ranked predicted indication (Monosomy X) has only Evidence Level L5 (mod
 - Confirmed mechanism-of-action documentation from DrugBank or equivalent source (DG002)
 - Documentation of Mecasermin's original approved indication(s)
 - Targeted literature/clinical trial search for the mechanistically stronger candidate (growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant), given its closer alignment with mecasermin's known pharmacology
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

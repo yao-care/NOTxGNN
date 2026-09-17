@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ramucirumab
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 293
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ramucirumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -113,10 +113,10 @@ All ten predicted indications are extremely rare gynecological adenocarcinoma su
 - Detailed mechanism of action (MOA) and drug classification data from DrugBank — flagged as a High-severity data gap
 - Documentation of the drug's original approved indication(s) and Norway licensing history
 - Preclinical or case-level evidence specifically linking VEGFR2 inhibition to uterine ligament/cervical adenocarcinoma subtypes before considering progression to S1 evaluation
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

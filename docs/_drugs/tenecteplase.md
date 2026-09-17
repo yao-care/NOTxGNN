@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tenecteplase
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 347
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Tenecteplase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | Predicted New Indication | Posteroinferior Myocardial Infarction |
 | TxGNN Prediction Score | 99.87% |
 | Evidence Level | L4 |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -77,7 +77,7 @@ Currently no related literature available.
 
 ## Taiwan Market Information
 
-Tenecteplase currently holds **0 authorizations** in Taiwan and is **not marketed** (未上市). No license records are available in this evidence pack.
+Tenecteplase currently holds **0 authorizations** in Taiwan and is **not marketed** (Not marketed). No license records are available in this evidence pack.
 
 ---
 
@@ -103,10 +103,10 @@ Detailed safety data (key warnings, contraindications, drug-drug interactions) c
 - Confirmed drug mechanism of action and original approved indication(s) from DrugBank or equivalent source (DG002)
 - Subtype-specific clinical evidence (trials or case series) for posteroinferior MI, or a decision to reclassify this prediction as a known-class extension rather than a novel repurposing candidate
 - If pursuing the adjacent coronary stenosis signal, a dedicated evaluation package built around NCT00604695/ICE-T-TIMI-49 data
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

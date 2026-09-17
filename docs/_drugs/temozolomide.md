@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Temozolomide
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Temozolomide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -91,7 +91,7 @@ By contrast, the second-ranked prediction in this pack — **cauda equina neopla
 
 ## Norway Market Information
 
-Temozolomide is **not currently marketed** in this jurisdiction (`market_status: 未上市`), and no authorizations are on record (`total_licenses: 0`). No product/license table can be produced from available data.
+Temozolomide is **not currently marketed** in this jurisdiction (`market_status: Not marketed`), and no authorizations are on record (`total_licenses: 0`). No product/license table can be produced from available data.
 
 ---
 
@@ -130,10 +130,10 @@ Efficacy evidence for temozolomide in astrocytic tumours is very strong (multipl
 - Clarification of true repurposing novelty for "adult astrocytic tumour," given substantial overlap with temozolomide's established glioblastoma use
 - If pursued: confirmation of regulatory pathway/authorization plans, since the drug is not currently marketed
 - Secondary signal for future tracking: **cauda equina neoplasm** (spinal myxopapillary ependymoma) is supported only by a single case report (PMID 29270703) and requires substantially more evidence (preclinical or prospective clinical data) before advancing
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

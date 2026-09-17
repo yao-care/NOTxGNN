@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Etravirine
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 143
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Etravirine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ Etravirine is a second-generation NNRTI originally used to treat HIV-1 infection
 | Predicted New Indication | Congenital HIV Infection (perinatal/mother-to-child transmission prevention); AIDS-Related Complex as a secondary, closely related candidate |
 | TxGNN Prediction Score | 99.79% (rank 4, congenital HIV) |
 | Evidence Level | L2 |
-| Norway Market Status | ✗ Not marketed (未上市) |
+| Norway Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** (pending blocking safety data) |
 
@@ -121,10 +121,10 @@ The congenital HIV and AIDS-related complex candidates have reasonable mechanist
 - Manually verify and correct trial-to-disease mapping (e.g., NCT04273165 misclassified under congenital-HIV/rare neurodevelopmental disorder clusters)
 - Clarify Norway regulatory pathway status, since the drug currently holds zero local authorizations
 - If pursuing the perinatal/congenital HIV indication, prioritize sourcing additional pregnancy-specific safety and dosing data beyond the single PK trial and case-series literature currently available
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

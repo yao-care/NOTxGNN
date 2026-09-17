@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Alirocumab
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 23
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Alirocumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ Alirocumab (DrugBank DB09302) is a PCSK9-inhibitor monoclonal antibody whose est
 | Predicted New Indication | Cholesterol catabolic process disease |
 | TxGNN Prediction Score | 99.36% (rank #6644) |
 | Evidence Level | L2 |
-| Taiwan Market Status | ✗ Not marketed (未上市) |
+| Taiwan Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -94,7 +94,7 @@ The strongest supporting evidence is a completed Phase 3 trial (EPIC-HIV, NCT032
 
 ## Taiwan Market Information
 
-Alirocumab currently has **no Taiwan Food and Drug Administration (TFDA) market authorization on record** (market status: 未上市 / Not marketed; total licenses: 0). No product license, dosage form, or approved-indication text is available in this evidence pack to tabulate.
+Alirocumab currently has **no Taiwan Food and Drug Administration (TFDA) market authorization on record** (market status: Not marketed / Not marketed; total licenses: 0). No product license, dosage form, or approved-indication text is available in this evidence pack to tabulate.
 
 ---
 
@@ -136,10 +136,10 @@ One completed Phase 3 trial (EPIC-HIV) plus a substantial, consistent body of re
 - Assessment of a Taiwan market-entry pathway (named-patient/import basis), since there is currently no local authorization
 - A dedicated safety monitoring plan (lipid panel, injection-site reactions, hypersensitivity) given the absence of contraindication/DDI data
 - Continued exclusion of rank #6 ("46,XY DSD due to cholesterol synthesis defect") from any repurposing pathway, given its opposite-direction mechanism-conflict signal
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

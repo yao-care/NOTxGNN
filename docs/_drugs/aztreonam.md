@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Aztreonam
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 45
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Aztreonam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -48,7 +48,7 @@ indication_count: 10
 | Predicted New Indication | Gonococcal Urethritis |
 | TxGNN Prediction Score | 99.59% |
 | Evidence Level | L2 |
-| Norway Market Status | Not marketed (未上市) |
+| Norway Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -115,10 +115,10 @@ Gonococcal urethritis is the only TxGNN-predicted indication in this evidence pa
 - Given the small, single-arm nature of the primary trial, consider whether additional confirmatory data (e.g., larger RCTs, current resistance surveillance) exists before clinical use is considered
 - **Secondary signal for monitoring**: Epiglottitis (rank 8, L4, Research Question) — mechanistically plausible (H. influenzae, gram-negative) but only supported by non-specific gram-negative infection case series; not yet actionable
 - **Deprioritize**: Ranks 1–3, 5–7, 9–10 (including the top TxGNN score, hyperamylasemia) — explicitly flagged as lacking mechanistic or empirical support; no further action recommended at this time
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

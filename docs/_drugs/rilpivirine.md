@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Rilpivirine
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 304
-evidence_level: L5
+evidence_level: L4
 indication_count: 5
 ---
 
 # Rilpivirine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -49,7 +49,7 @@ indication_count: 5
 | Predicted New Indication | Feline acquired immunodeficiency syndrome (FIV infection in cats) |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L4 |
-| Norway Market Status | ✗ Not marketed (未上市) |
+| Norway Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -103,10 +103,10 @@ The top-ranked TxGNN prediction targets a veterinary condition (feline AIDS/FIV)
 - **Recommended alternative**: re-scope this evaluation to rank 4 (`AIDS related complex`, L2, Proceed with Guardrails) or rank 5 (`congenital HIV` — actually reflects CAB/RPV LA use in pregnant women with HIV, L2, Research Question), both of which have multiple Phase 3 trials and are within rilpivirine's actual human disease area.
 - Resolve blocking data gaps: **DG001** (TFDA/Norway label warnings & contraindications — Blocking, required before any S1 safety review) and **DG002** (formal MOA from DrugBank — High priority).
 - Manually re-verify TxGNN disease-label mapping for rank 5 ("congenital human immunodeficiency virus"), as the underlying trial/literature evidence actually concerns maternal-fetal pharmacokinetics rather than a distinct congenital-HIV indication.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

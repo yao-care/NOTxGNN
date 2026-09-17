@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Dexamethasone
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 107
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Dexamethasone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -115,10 +115,10 @@ The literature evidence — including two RCTs, a systematic review/network meta
 - Formal DDI review, given dexamethasone's well-known interaction profile (CYP3A4 inducers/substrates, live vaccines, NSAIDs)
 - Dosing/regimen standardization review — literature uses varied mini-pulse protocols (e.g., 5 mg twice weekly vs. monthly IV pulses); no consensus regimen has been established
 - Confirm route/formulation compatibility (oral tablet vs. IV pulse) against locally available dosage forms, since no Norway licenses currently exist
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

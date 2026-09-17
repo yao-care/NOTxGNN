@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Polatuzumab Vedotin
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 283
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Polatuzumab Vedotin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -110,10 +110,10 @@ This candidate has Evidence Level L5 — no clinical trials, no literature, and 
 - Confirmed mechanism of action (MOA) data from DrugBank (currently a data gap, DG002)
 - TFDA package insert warnings, contraindications, and drug interaction data (currently a blocking data gap, DG001)
 - Any preclinical or mechanistic evidence connecting CD79b/MMAE pathway activity to HER2 positive breast cancer biology, before further evaluation is warranted
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

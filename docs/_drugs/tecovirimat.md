@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tecovirimat
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 341
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Tecovirimat
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -80,7 +80,7 @@ Vaccinia virus belongs to the same genus as variola (smallpox), sharing the VP37
 
 ## Norway Market Information
 
-Tecovirimat is currently **not marketed** in Norway (market status: 未上市), and no marketing authorization records are present in the evidence pack.
+Tecovirimat is currently **not marketed** in Norway (market status: Not marketed), and no marketing authorization records are present in the evidence pack.
 
 ## Safety Considerations
 
@@ -100,10 +100,10 @@ Tecovirimat's mechanism (VP37/EEV inhibition) is directly applicable to vaccinia
 - If repurposing is pursued, clarification of a regulatory pathway for a currently unlicensed product in Norway
 - If "coinfection" (rank 6) is explored further, the indication should be narrowed to "orthopoxvirus infection in immunocompromised hosts (e.g., HIV+)" rather than the generic label, to remain clinically and regulatorily meaningful
 - No further action needed on ranks 1–4 and 7–10 (hordeolum, vibrio infection, Klebsiella infection, noma, HTLV-1-associated dermatitis, Arterivirus infection, arbovirus infection, E. coli infection) — correctly scored Hold due to absence of mechanistic plausibility or evidence
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

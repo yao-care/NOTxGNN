@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Duvelisib
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 118
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Duvelisib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -107,7 +107,7 @@ By contrast, the evidence pack's rank-9 candidate, **B-cell neoplasm**, is suppo
 
 ## Taiwan Market Information
 
-Duvelisib currently holds **no marketing authorization in Taiwan** (`market_status`: 未上市 / Not Marketed; `total_licenses`: 0). No license records are available to tabulate.
+Duvelisib currently holds **no marketing authorization in Taiwan** (`market_status`: Not marketed / Not Marketed; `total_licenses`: 0). No license records are available to tabulate.
 
 ---
 
@@ -144,10 +144,10 @@ The evidence cited for the Hodgkin lymphoma prediction is built almost entirely 
 - Obtain confirmed mechanism-of-action documentation from DrugBank to close High-severity gap DG002
 - If genuine interest in Hodgkin lymphoma remains, a dedicated early-phase trial enrolling a confirmed classical HL population would be required — no such trial currently exists
 - **Recommend evaluating rank-9 "B-cell neoplasm" as the priority candidate instead** — it is supported by L1 evidence (completed Phase 3 DUO trial, NCT02004522) and aligns with Duvelisib's already-established global approval in CLL/SLL and follicular lymphoma, making it a substantially stronger repurposing case within this same evidence pack
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

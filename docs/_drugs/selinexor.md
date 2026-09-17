@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Selinexor
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 321
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Selinexor
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 1
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 99.22% |
 | Evidence Level | L5（僅模型預測，無實際研究） |
-| Norway (Taiwan) Market Status | 未上市 |
+| Norway (Taiwan) Market Status | Not marketed |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -77,7 +77,7 @@ indication_count: 1
 
 ## Norway (Taiwan) Market Information
 
-Selinexor 目前於本地（Norway/Taiwan 註冊系統）**未上市**，無任何藥證紀錄（`total_licenses` = 0），故無藥證資訊可供列表。
+Selinexor 目前於本地（Norway/Taiwan 註冊系統）**Not marketed**，無任何藥證紀錄（`total_licenses` = 0），故無藥證資訊可供列表。
 
 ---
 
@@ -95,8 +95,8 @@ Selinexor 目前於本地（Norway/Taiwan 註冊系統）**未上市**，無任�
 
 **Rationale：**
 - 本候選案目前無任何臨床試驗或文獻證據支持（Evidence Level = L5），僅為 TxGNN 模型純知識圖譜預測分數。
-- `data_gaps` 中 DG001（TFDA 仿單警語/禁忌）標記為 **Blocking** 等級，依規定無法進入 S1 安全性初評；DG002（MOA）為 High 等級缺口，影響機轉關聯性分析。
-- 藥物於本地未上市，無實際處方或安全性使用經驗可供參考。
+- `data_gaps` 中 DG001（DMP package insert warnings/contraindications）標記為 **Blocking** 等級，依規定Cannot proceed to S1 safety screening；DG002（MOA）為 High 等級缺口，Limits mechanistic-link analysis。
+- 藥物於本地Not marketed，無實際處方或安全性使用經驗可供參考。
 
 **To proceed, the following is needed：**
 - 補齊 TFDA（或對應主管機關）仿單之警語與禁忌資訊，解除 DG001 阻斷性缺口
@@ -104,10 +104,10 @@ Selinexor 目前於本地（Norway/Taiwan 註冊系統）**未上市**，無任�
 - 補充原始適應症紀錄，建立與 Drug-induced osteoporosis 之機轉/臨床合理性論述
 - 檢索是否有任何臨床試驗（含 ICTRP）或同儕審查文獻可支持此適應症關聯
 - 確認藥物交互作用（DDI）資料，以利後續安全性初評（S1）
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

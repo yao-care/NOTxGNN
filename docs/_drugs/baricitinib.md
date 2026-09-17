@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Baricitinib
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 46
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Baricitinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -85,10 +85,10 @@ Both top-ranked predicted indications are rare congenital developmental syndrome
 - TFDA-approved label warnings/contraindications (resolve DG001, Blocking)
 - Independent mechanistic plausibility review of both predicted indications before any further evidence search is commissioned
 - If plausibility cannot be established, deprioritize this candidate pair in favor of higher-ranked, mechanistically coherent TxGNN predictions
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

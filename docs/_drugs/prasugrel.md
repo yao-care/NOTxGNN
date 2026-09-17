@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Prasugrel
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Prasugrel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -84,7 +84,7 @@ Both retrieved clinical trials (NOAC use in atrial fibrillation; cancer-associat
 
 ## Norway Market Information
 
-Prasugrel currently holds **no marketing authorization** in Norway (`market_status: 未上市 / Not Marketed`, `total_licenses: 0`). No product listings are available for review.
+Prasugrel currently holds **no marketing authorization** in Norway (`market_status: Not marketed / Not Marketed`, `total_licenses: 0`). No product listings are available for review.
 
 ---
 
@@ -106,10 +106,10 @@ The top-ranked predicted indication (pulmonary hypertension) has evidence level 
 - Confirmed mechanism of action data from DrugBank or equivalent source (DG002)
 - Disease-specific (pulmonary hypertension, ideally CTEPH) preclinical or clinical evidence for prasugrel, rather than general antiplatelet-class literature
 - If pursuing the migraine/PFO signal (rank 2) instead, a prasugrel-specific trial or case series, since current evidence is at the thienopyridine drug-class level only
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

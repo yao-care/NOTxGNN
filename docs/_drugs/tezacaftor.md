@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tezacaftor
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Tezacaftor
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -93,10 +93,10 @@ No clinical trials or literature evidence exist for HIV infectious disease (or t
 - Confirmed original mechanism of action data via DrugBank (currently High-severity data gap, DG002)
 - Independent literature or preclinical evidence establishing a biological link between CFTR modulation and HIV pathophysiology
 - Confirmation of Taiwan/Norway market and licensing status, currently listed as unmarketed with zero authorizations
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

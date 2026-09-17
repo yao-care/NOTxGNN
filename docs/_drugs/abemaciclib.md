@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Abemaciclib
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 14
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Abemaciclib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ As a result, this report serves as a **baseline data status assessment** rather 
 | Predicted New Indication | **None** — TxGNN returned no predicted indications |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | **L5** (No predictions, no supporting studies in pack) |
-| Taiwan Market Status | ❌ Not marketed (未上市) |
+| Taiwan Market Status | ❌ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -77,7 +77,7 @@ No predicted indication was returned by the TxGNN model, so no indication-specif
 
 ## Taiwan Market Information
 
-Abemaciclib currently holds **no TFDA marketing authorizations** in Taiwan (market status: 未上市). No license records are available.
+Abemaciclib currently holds **no TFDA marketing authorizations** in Taiwan (market status: Not marketed). No license records are available.
 
 ---
 
@@ -116,10 +116,10 @@ The TxGNN model did not return any predicted new indications for Abemaciclib in 
 - **Obtain TFDA package insert** warnings and contraindications if/when the drug gains marketing authorization (Data Gap DG001, severity: Blocking)
 - **Monitor Taiwan regulatory status** — Abemaciclib is marketed in many countries (US: Verzenio; EU: Verzenios); Taiwan approval may be forthcoming
 - **If a predicted indication is generated in future**, re-initiate the evaluation pipeline with a complete evidence pack
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

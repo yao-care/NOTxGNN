@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ivosidenib
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 193
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Ivosidenib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -106,10 +106,10 @@ This evidence pack contains two other candidate indications for ivosidenib that 
 | 3 | AML/MDS related to radiation | 99.26% | L4 | Research Question | Same extrapolation logic as above for radiation-induced therapy-related myeloid neoplasms; no subtype-specific trial or literature evidence currently exists in this pack. |
 
 These two candidates should be prioritized over the Bulbar Polio prediction for any future research question follow-up, as they build on an established (though not formally documented in this pack) approved use of ivosidenib in IDH1-mutated AML.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

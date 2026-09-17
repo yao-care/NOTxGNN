@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Fulvestrant
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 156
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Fulvestrant
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ but this direction is currently supported by **0 clinical trials** and only **1 
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 99.91% (rank 1374) |
 | Evidence Level | L5 |
-| Market Status | Not Marketed (未上市) |
+| Market Status | Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -102,10 +102,10 @@ The evidence level is L5 (model prediction only) — there are zero clinical tri
 - Confirmation of fulvestrant's actual original approved indication(s), currently absent from this pack
 - Literature or preclinical studies directly linking ER antagonism (or fulvestrant specifically) to HIV viral replication or immune regulation
 - If no further direct evidence emerges, this candidate should remain deprioritized relative to higher-evidence candidates (e.g., rank 2, "multiple endocrine neoplasia," which is backed by dozens of fulvestrant-containing Phase 2/3 breast cancer trials, though note that disease label itself warrants a relevance check against those trials)
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sotatercept
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 331
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Sotatercept
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -101,10 +101,10 @@ The top-ranked prediction (acute lymphoblastic leukemia) — and all 9 other can
 - Resolve DG002 (High): obtain confirmed mechanism of action (MOA) from DrugBank API to properly evaluate mechanistic plausibility
 - If pursuing the ALL hypothesis further, commission a targeted literature/preclinical search specifically on activin/TGF-β signaling in leukemic bone marrow niches before any trial-stage investment
 - Given the pattern of clustered, unsupported urothelial carcinoma predictions, consider flagging this drug's KG neighborhood for review of potential data sparsity artifacts in the underlying TxGNN model
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

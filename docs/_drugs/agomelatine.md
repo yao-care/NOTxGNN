@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Agomelatine
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 20
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Agomelatine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -53,7 +53,7 @@ One judgment call worth flagging before the report: the evidence pack contains *
 | Predicted New Indication | Melancholia |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L2 |
-| Norway Market Status | Not Marketed (未上市) |
+| Norway Market Status | Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -117,10 +117,10 @@ Melancholia is mechanistically well-aligned with agomelatine's circadian-resynch
 - Confirmed Norway regulatory/licensing documentation, since the product is not currently marketed there
 - A melancholia-specific clinical operational definition aligned to current DSM/ICD criteria, given the term's legacy nosological origin
 - Completion of the drug-drug interaction dataset (current query status: not found)
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Paclitaxel
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 259
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Paclitaxel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -142,10 +142,10 @@ The top prediction (Female Breast Carcinoma) is backed by L1-level evidence — 
 - Resolve DG002 (High): obtain drug MOA data via DrugBank API to complete mechanistic documentation
 - Clarify local marketing/import status — confirm whether "Not Marketed" reflects a genuine regulatory gap or a limitation of the source dataset, given paclitaxel is a globally established oncology agent
 - If pursuing lower-ranked, non-breast indications (ranks 5–10), treat separately — these require independent, disease-specific evidence generation before any development decision
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

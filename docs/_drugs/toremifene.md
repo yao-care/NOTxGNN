@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Toremifene
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Toremifene
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -46,7 +46,7 @@ The TxGNN model predicts it may be effective for **HIV infectious disease**, but
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 99.41% |
 | Evidence Level | L5 |
-| Norway Market Status | 未上市 (Not marketed) |
+| Norway Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -102,10 +102,10 @@ The only supporting evidence is a single in vitro/mechanistic publication studyi
 - Confirmed mechanism of action data from DrugBank (DG002, High)
 - Clarification of whether the intended use case is "treatment of HIV-associated opportunistic infection (cryptococcosis)" rather than direct anti-HIV therapy, and re-scoping the indication label accordingly
 - In vivo or HIV/opportunistic-infection-specific pharmacological evidence before advancing past S0
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

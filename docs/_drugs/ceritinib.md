@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ceritinib
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 81
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ceritinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -113,10 +113,10 @@ All 10 TxGNN-predicted indications for ceritinib in this evidence pack carry a "
 - A confirmed mechanism-of-action record from DrugBank (currently a High-severity data gap, DG002)
 - Correction of the disease-label mapping in the TxGNN pipeline for the "lung benign neoplasm" and "lung germ cell tumor" candidates, which are evidencing ceritinib's existing indication rather than a new one
 - If gingival fibromatosis is to be pursued further, dedicated preclinical/mechanistic studies establishing biological plausibility, since none currently exist
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

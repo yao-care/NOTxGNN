@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ambrisentan
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 26
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Ambrisentan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -46,7 +46,7 @@ indication_count: 10
 | Item | Content |
 |------|------|
 | Original Indication | Pulmonary Arterial Hypertension (idiopathic, heritable, and connective-tissue-disease-associated) — per in-pack literature (PMID 28425346) |
-| Norway Market Status | Not marketed (未上市) |
+| Norway Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Blocking Data Gap | TFDA package insert (warnings/contraindications) not yet obtained — blocks formal S1 safety review |
 
@@ -208,10 +208,10 @@ Please refer to the package insert for safety information. No drug warnings, con
 - Verification of termination reasons for the terminated CHD-PAH trials (NCT01884675, NCT01894022, NCT01332331) — to distinguish enrollment-driven terminations from efficacy/safety-driven ones
 - Route/dosage-form compatibility check against Norway's regulatory requirements (currently marked "pending" for all candidate indications)
 - Confirmation of whether NCT00709956 and NCT01383083 (both testing non-ambrisentan drugs, iloprost) should be reclassified as population-context evidence rather than direct drug evidence
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

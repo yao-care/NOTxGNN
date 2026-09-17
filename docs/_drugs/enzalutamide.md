@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Enzalutamide
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 134
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Enzalutamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -95,10 +95,10 @@ The top-ranked prediction ("prostate cancer/brain cancer susceptibility") has no
 - Formal MOA documentation from DrugBank — currently a High-severity data gap
 - Independent preclinical or clinical evidence linking AR antagonism to brain cancer susceptibility, if this candidate is to be pursued further
 - Consider re-scoping evaluation toward better-evidenced candidates already present in this dataset, e.g. "benign reproductive system neoplasm" (L4, Research Question) or the drug's own core CRPC indication (L1, though not a novel repurposing case)
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

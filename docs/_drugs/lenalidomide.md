@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Lenalidomide
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 204
-evidence_level: L5
+evidence_level: L2
 indication_count: 6
 ---
 
 # Lenalidomide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -137,10 +137,10 @@ Clinical and mechanistic evidence for lenalidomide's activity across the MDS-to-
 - Formal MOA documentation from DrugBank/regulatory source (currently DG002)
 - Clarification of the "myeloid leukemia" disease mapping to a specific AML/MDS subtype and stage relevant to Norway clinical practice
 - Assessment of Norway market-entry pathway (e.g., centralized EU authorization extension) given current unmarketed status
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Zidovudine
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 392
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Zidovudine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -114,10 +114,10 @@ The highest-ranked TxGNN prediction (feline acquired immunodeficiency syndrome) 
 - Confirmed mechanism-of-action documentation (DG002)
 - Species/entity filtering on TxGNN outputs to exclude non-human disease terms before ranking is presented for human repurposing review
 - If pursued further, reassessment should focus on the lower-ranked but clinically grounded signals in this pack (AIDS related complex, congenital HIV infection) — noting these reflect zidovudine's *already established* human use rather than a novel repurposing opportunity, so they would not qualify as new indications either
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

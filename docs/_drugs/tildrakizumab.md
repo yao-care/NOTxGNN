@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tildrakizumab
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Tildrakizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -43,7 +43,7 @@ Tildrakizumab is an anti-IL-23p19 monoclonal antibody originally developed for m
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (未上市) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -81,10 +81,10 @@ The evidence level is L5 — a model prediction with no supporting clinical tria
 - Confirmed original mechanism of action data (DG002)
 - Preclinical or mechanistic studies linking IL-23/Th17 inhibition to diabetic retinopathy pathology
 - Any clinical trial, case report, or observational data on tildrakizumab in diabetic microvascular/ophthalmic complications
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

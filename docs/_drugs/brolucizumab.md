@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Brolucizumab
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 61
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Brolucizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -77,7 +77,7 @@ Currently no related literature available
 
 ## Norway Market Information
 
-Brolucizumab currently holds no marketing authorization in Norway (未上市, 0 licenses on record). No product/dosage form/indication data is available to tabulate.
+Brolucizumab currently holds no marketing authorization in Norway (Not marketed, 0 licenses on record). No product/dosage form/indication data is available to tabulate.
 
 ---
 
@@ -101,10 +101,10 @@ The top-ranked prediction is supported only by a model score (L5, no clinical tr
 - Confirmed mechanism of action via DrugBank API query (DG002)
 - Any preclinical or mechanistic literature directly linking VEGF inhibition to nuclear-DNA-related mitochondrial disorders
 - Re-evaluation of lower-ranked predictions (esophageal varices, exocrine pancreatic insufficiency) only if independent clinical/mechanistic evidence emerges, given the bleeding-risk concern already noted for the variceal-bleeding candidate
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Sacubitril
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 319
-evidence_level: L5
+evidence_level: L3
 indication_count: 5
 ---
 
 # Sacubitril
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidensnivå: **L3** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -113,10 +113,10 @@ The mechanistic rationale and preclinical/observational evidence for sacubitril/
 - TFDA/Norwegian product labeling (warnings, contraindications, DDI) to close blocking gap DG001
 - DrugBank-sourced mechanism of action detail to close gap DG002
 - Confirmation of whether/when a Norway marketing authorization application is planned, given current unmarketed status
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

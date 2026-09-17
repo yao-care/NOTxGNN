@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Bevacizumab
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 50
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Bevacizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ Bevacizumab is an anti-VEGF-A monoclonal antibody used across multiple solid tum
 | Predicted New Indication | Cystic Neoplasm (rank 7/10 by TxGNN score; supporting evidence points to low-grade serous ovarian/peritoneal carcinoma) |
 | TxGNN Prediction Score | 99.89% (rank 1565 overall) |
 | Evidence Level | L1 |
-| Norway Market Status | 未上市 (Not marketed) |
+| Norway Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -134,10 +134,10 @@ Cystic Neoplasm is the only one of 10 TxGNN-predicted indications reaching L1 ev
 - Assess a Norway market entry/registration pathway, since no local authorization currently exists
 - Obtain DDI data (currently `not_found`)
 - The remaining 9 predicted indications (L3–L5, Hold) require additional trial/literature evidence before re-evaluation and are not actionable at this time
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

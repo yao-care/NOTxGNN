@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pantoprazole
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 265
-evidence_level: L5
+evidence_level: L1
 indication_count: 6
 ---
 
 # Pantoprazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidensnivå: **L1** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -92,7 +92,7 @@ Nonetheless, the depth of trial and literature support (including head-to-head P
 
 ## Market Information
 
-Pantoprazole is currently **not marketed** in this jurisdiction (market status: 未上市), and no marketing authorization records are available in the regulatory dataset (`total_licenses = 0`).
+Pantoprazole is currently **not marketed** in this jurisdiction (market status: Not marketed), and no marketing authorization records are available in the regulatory dataset (`total_licenses = 0`).
 
 ---
 
@@ -114,10 +114,10 @@ Evidence level L1 (multiple completed Phase 3/4 trials plus RCTs directly evalua
 - Formal DrugBank/manufacturer MOA documentation — currently a High-severity data gap (DG002)
 - Local drug-drug interaction (DDI) data, since the current query returned no results
 - Confirmation of local marketing authorization status and dosage forms before any market-entry planning
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

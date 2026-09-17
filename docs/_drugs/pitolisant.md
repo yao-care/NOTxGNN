@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pitolisant
-parent: 中證據等級 (L3-L4)
+parent: Moderat evidens (L3-L4)
 nav_order: 281
 evidence_level: L4
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Pitolisant
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **3** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -41,11 +41,11 @@ Pitolisant 是一種組織胺 H3 受體反向促效劑，國際上核准用於�
 
 | 項目 | 內容 |
 |------|------|
-| 原始適應症 | 台灣/本地無正式核准資料（尚未上市）；依國際文獻，歐美已核准用於成人及 ≥6 歲兒童猝睡症（合併或不合併猝倒症），及 OSA 患者接受 CPAP 治療後之殘餘日間嗜睡 |
+| 原始適應症 | 台灣/本地無正式核准資料（尚Not marketed）；依國際文獻，歐美已核准用於成人及 ≥6 歲兒童猝睡症（合併或不合併猝倒症），及 OSA 患者接受 CPAP 治療後之殘餘日間嗜睡 |
 | 預測新適應症 | 失眠（Insomnia） |
 | TxGNN 預測分數 | 99.71% |
 | 證據等級 | L4 |
-| 本地上市狀況 | 未上市 |
+| 本地上市狀況 | Not marketed |
 | 核准許可證數量 | 0 |
 | 建議決策 | **Hold** |
 
@@ -96,7 +96,7 @@ Pitolisant 是一種組織胺 H3 受體反向促效劑，國際上核准用於�
 
 請參考藥品仿單以取得完整安全性資訊。
 
-> ⚠ 資料缺口提醒：TFDA 仿單警語/禁忌資料為 **Blocking** 等級缺口（DG001），在補齊前無法進行 S1 安全性初評。
+> ⚠ 資料缺口提醒：DMP package insert warnings/contraindications資料為 **Blocking** 等級缺口（DG001），在補齊前無法進行 S1 安全性初評。
 
 ---
 
@@ -106,20 +106,20 @@ Pitolisant 是一種組織胺 H3 受體反向促效劑，國際上核准用於�
 
 **理由：**
 - 失眠適應症的藥理機轉與 pitolisant 的清醒促進作用方向相反，屬機轉矛盾；唯一相關試驗實際針對酒精使用障礙、已撤回且零收案，8 篇文獻均與失眠無直接關聯。判斷此為 TxGNN 知識圖譜的低可信度／偽關聯預測，證據等級 L4 但方向性存疑。
-- 藥物尚未於本地上市（0 張許可證），且 TFDA 仿單警語/禁忌資料為 Blocking 缺口，即使未來考慮其他適應症方向，也無法略過此步驟進入安全性評估。
+- 藥物尚未於本地上市（0 張許可證），且 DMP package insert warnings/contraindications資料為 Blocking 缺口，即使未來考慮其他適應症方向，也無法略過此步驟進入安全性評估。
 
 **若要繼續推進，需要：**
-- 補齊 TFDA 仿單警語與禁忌資料（DG001，Blocking，來源：TFDA 官網仿單 PDF）
+- 補齊 TFDA 仿單警語與禁忌資料（DG001，Blocking，來源：DMP website仿單 PDF）
 - 補齊 DrugBank 完整作用機轉（MOA）資料（DG002，High，來源：DrugBank API）
 - 若欲探索失眠以外的其他新適應症方向，建議優先評估與原始核准適應症（猝睡症、OSA 嗜睡）機轉一致的候選，而非目前排名較低但機轉方向矛盾的失眠假說
 
 **補充：其他預測適應症僅供參考，暫不建議投入資源**
 - ADHD（rank 2，L5，Research Question）：機轉上 H3 拮抗劑可能改善認知/專注力，但 7 篇文獻皆為藥物類別層級的綜述，pitolisant 本身無 ADHD 臨床試驗資料
 - Faciodigitogenital syndrome（rank 3，L5，Hold）：無任何機轉、文獻或試驗支持，判斷為知識圖譜噪音，不建議投入任何資源
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

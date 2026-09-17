@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gimeracil
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 160
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Gimeracil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -135,10 +135,10 @@ Two completed Phase 3 RCTs (NCT00660894, n=1535; NCT01918852, n=161) support S-1
 - Norway market entry/authorization pathway assessment, since the product is not currently marketed there
 
 *Note: Nine additional predicted indications (ranks 2–10) were reviewed but are not detailed here — all but "cardia cancer" (L4, Research Question) carry only TxGNN prediction scores with no supporting trials or literature (L5, Hold), including several biologically implausible candidates (e.g., benign lesions such as lipoma of colon, colonic lymphangioma) that should not be pursued.*
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Maraviroc
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 222
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Maraviroc
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -77,7 +77,7 @@ Currently no related literature available
 
 ## Norway Market Information
 
-Maraviroc currently holds **no marketing authorization in Norway** (`market_status`: 未上市 / Not Marketed; `total_licenses`: 0). No license records are available to summarize.
+Maraviroc currently holds **no marketing authorization in Norway** (`market_status`: Not marketed / Not Marketed; `total_licenses`: 0). No license records are available to summarize.
 
 ---
 
@@ -101,10 +101,10 @@ The top-ranked predicted indication (Multiple Endocrine Neoplasia) has no suppor
 - Resolve DG002 (verified mechanism of action from DrugBank or primary literature)
 - Independent in vitro or bioinformatic validation of a CCR5–MEN pathway link before further evidence collection is prioritized
 - Consider redirecting evidence-gathering effort toward the pack's higher-evidence candidates instead of the top TxGNN-score item: **HER2-positive breast carcinoma** (rank 10, L4, decision stage S1 "Research Question" — supported by a concrete preclinical mechanism paper on CCL5–CCR5-mediated trastuzumab resistance) and **cytomegalovirus infection** (rank 9, L4, S1 — supported by two immunology cohort/review papers), both of which currently have stronger mechanistic and evidentiary grounding than the top-ranked MEN prediction
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

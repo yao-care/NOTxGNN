@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sebelipase Alfa
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 320
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Sebelipase Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -123,10 +123,10 @@ The core drug-disease pairing (sebelipase alfa → LAL-D/Wolman disease/CESD) is
 - Structured DrugBank MOA record (DG002)
 - Formal Norway market authorization / import license assessment, since the drug has no local regulatory footprint
 - Explicit exclusion of the other TxGNN top-10 candidates (Scheie syndrome, Hurler syndrome, growth hormone insensitivity syndrome, Gaucher disease, lysosomal storage disease with skeletal involvement, autosomal ichthyosis syndrome, Tay-Sachs disease, benign adrenal neoplasm) from further review — all lack mechanistic plausibility and supporting evidence per the rationale annotations in this pack
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

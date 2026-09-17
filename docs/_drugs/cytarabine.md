@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Cytarabine
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 94
-evidence_level: L5
+evidence_level: L3
 indication_count: 9
 ---
 
 # Cytarabine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Evidensnivå: **L3** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -45,7 +45,7 @@ with **3 clinical trials** (none directly testing cytarabine) and **20 publicati
 | Predicted New Indication | Small Cell Lung Carcinoma |
 | TxGNN Prediction Score | 99.78% |
 | Evidence Level | L3 |
-| Norway Market Status | 未上市 (Not Marketed) |
+| Norway Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -82,7 +82,7 @@ However, none of the clinical trials currently linked to this prediction directl
 
 ## Norway Market Information
 
-This drug currently has no marketing authorizations recorded in the reviewed regulatory data (market status: **未上市 / Not Marketed**, 0 authorizations).
+This drug currently has no marketing authorizations recorded in the reviewed regulatory data (market status: **Not marketed / Not Marketed**, 0 authorizations).
 
 ## Cytotoxicity
 
@@ -111,10 +111,10 @@ A blocking data gap exists — local prescribing warnings/contraindications are 
 - Modern, disease-specific clinical evidence directly evaluating cytarabine in SCLC (current linked trials do not test the drug)
 - Route of administration compatibility assessment
 - Local market/import pathway assessment given current "not marketed" status
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

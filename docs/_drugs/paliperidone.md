@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Paliperidone
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 261
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Paliperidone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -83,7 +83,7 @@ This is not a cross-disease repurposing case in the classic sense — paliperido
 
 ## Norway Market Information
 
-No marketing authorizations were found for paliperidone in the Norway regulatory dataset (`taiwan_regulatory.total_licenses = 0`; market status: 未上市 / Not marketed).
+No marketing authorizations were found for paliperidone in the Norway regulatory dataset (`taiwan_regulatory.total_licenses = 0`; market status: Not marketed / Not marketed).
 
 ---
 
@@ -105,10 +105,10 @@ While the treatment-refractory schizophrenia indication has coherent mechanistic
 - Retrieve structured MOA data from DrugBank (DG002) to formally support the mechanistic rationale
 - Confirm Norway marketing/import pathway status, since the drug currently has zero local authorizations
 - If DG001/DG002 are resolved favorably, re-score treatment-refractory schizophrenia for "Proceed with Guardrails" and define specific monitoring guardrails (e.g., metabolic/EPS monitoring per antipsychotic class norms)
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

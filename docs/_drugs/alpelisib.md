@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Alpelisib
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 25
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Alpelisib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -119,10 +119,10 @@ This candidate rests entirely on a model prediction (Evidence Level L5) with no 
 - Confirmed mechanism of action (MOA) documentation from DrugBank (DG002)
 - Dedicated preclinical or clinical studies evaluating alpelisib specifically in pulmonary hypertension models or patients
 - A cardiopulmonary safety monitoring plan addressing the interstitial lung disease and right ventricular dysfunction signals identified in existing literature
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

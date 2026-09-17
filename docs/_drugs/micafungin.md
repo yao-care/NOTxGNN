@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Micafungin
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 230
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Micafungin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -45,7 +45,7 @@ Micafungin 是一種 echinocandin 類抗黴菌藥物，原始用途為侵入性�
 | 預測新適應症 | Urinary Tract Infection（Candida 屬相關泌尿道感染） |
 | TxGNN 預測分數 | 99.03% |
 | 證據等級 | L3（回溯性世代研究＋病例系列，無 RCT） |
-| 挪威市場狀態 | ✗ 未上市 |
+| 挪威市場狀態 | ✗ Not marketed |
 | 核准證號數量 | 0 |
 | 建議決策 | Hold |
 
@@ -94,7 +94,7 @@ Micafungin 是一種 echinocandin 類抗黴菌藥物，原始用途為侵入性�
 
 請參閱藥品仿單以取得完整安全性資訊。
 
-> 註：本證據包標記「TFDA 仿單警語/禁忌」為 **Blocking** 等級資料缺口，尚未取得安全性初評所需之關鍵警語、禁忌症與交互作用資料。
+> 註：本證據包標記「DMP package insert warnings/contraindications」為 **Blocking** 等級資料缺口，尚未取得安全性初評所需之關鍵警語、禁忌症與交互作用資料。
 
 ---
 
@@ -110,10 +110,10 @@ Micafungin 是一種 echinocandin 類抗黴菌藥物，原始用途為侵入性�
 - 補充 DrugBank 作用機轉詳細資料以強化機轉關聯性分析（DG002，High）
 - 評估是否有正式設計之前瞻性臨床試驗規劃（目前為零）
 - 確認挪威或其他市場之上市與核准狀態
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Cabozantinib
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 68
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Cabozantinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -110,10 +110,10 @@ Available evidence is limited to one Phase 2 trial in broad soft tissue sarcoma 
 - Obtain full MOA data via DrugBank API query to complete the mechanistic link analysis
 - Retrieve the package insert (Taiwan TFDA or EMA/FDA source) to complete safety profiling: warnings, contraindications, and key drug interactions
 - Define the most biologically relevant liposarcoma subtype(s) for prioritisation (Dedifferentiated vs. Myxoid vs. Pleomorphic) based on available MET / AXL expression data from public genomic databases (e.g., COSMIC, cBioPortal)
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

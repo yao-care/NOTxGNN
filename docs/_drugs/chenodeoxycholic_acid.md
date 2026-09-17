@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Chenodeoxycholic Acid
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 86
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Chenodeoxycholic Acid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 5
 | 預測新適應症 | 同型合子家族性高膽固醇血症（Homozygous Familial Hypercholesterolemia, HoFH） |
 | TxGNN 預測分數 | 99.57%（原始 rank 5013） |
 | 證據等級 | L5（僅模型預測，無臨床試驗，唯一文獻主題不符） |
-| 台灣上市狀態 | 未上市 |
+| 台灣上市狀態 | Not marketed |
 | 許可證張數 | 0 |
 | 建議決策 | Hold |
 
@@ -102,10 +102,10 @@ Rank 1 預測適應症 HoFH 的病因是 LDL 受體基因功能喪失，導致�
 - 取得 TFDA 官方仿單 PDF 並解析警語、禁忌症與藥物交互作用，以解除 DG001 Blocking 缺口
 - 針對 rank 1 候選（HoFH）補充主題真正相符的臨床試驗或文獻證據——目前唯一文獻（CTX）與 HoFH 不符
 - 檢視疾病本體（ontology）資料品質，排除 rank 3–5 候選中「obsolete」已棄用術語及與藥理機轉無關的疾病標籤誤配問題
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lusutrombopag
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 220
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Lusutrombopag
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -77,7 +77,7 @@ Currently no related literature available
 
 ## Norway Market Information
 
-Lusutrombopag has **no marketing authorizations recorded in Norway** (`total_licenses: 0`, `market_status: 未上市`). No product/license table can be generated from the current evidence pack.
+Lusutrombopag has **no marketing authorizations recorded in Norway** (`total_licenses: 0`, `market_status: Not marketed`). No product/license table can be generated from the current evidence pack.
 
 ---
 
@@ -102,10 +102,10 @@ The prediction score is high, and the TPO-receptor-agonist mechanism offers a pl
 - Identify and document the drug's actual original approved indication(s)
 - Search for any preclinical or case-level evidence specific to hereditary thrombocytopenia (normal-platelet subtype) before considering further investment
 - Re-evaluate market/registration status if commercial availability becomes relevant to feasibility
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

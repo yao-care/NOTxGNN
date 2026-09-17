@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Alglucosidase Alfa
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 22
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Alglucosidase Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -92,10 +92,10 @@ Please refer to the package insert for safety information.
 - TFDA/EMA package insert warnings and contraindications (currently a blocking data gap)
 - Independent wet-lab or genetic/biomarker evidence connecting GAA enzyme replacement to GBE1-mediated polyglucosan accumulation, before any further evaluation of this repurposing direction is warranted
 - A review of the full 10-prediction cluster to determine whether a systematic ontology-similarity artifact affecting this drug's TxGNN outputs should be flagged to the model/data team
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

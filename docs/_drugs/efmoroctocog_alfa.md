@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Efmoroctocog Alfa
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 122
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Efmoroctocog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -102,10 +102,10 @@ The top-ranked candidate (Pseudo-von Willebrand Disease) has an L5 evidence leve
 - If pursuing platelet-disorder indications (ranks 1–8, 10): obtain preclinical or case-level evidence, since the stated mechanisms (platelet receptor/granule/membrane defects) are not corrected by FVIII replacement — current mechanistic plausibility is low
 - If pursuing the mechanistically strongest candidate (rank 9, hemophilia A with vascular abnormality): seek clinical trial or case-series evidence, since it currently has no literature/trial support despite the best mechanistic fit
 - Confirm original approved indication text and Taiwan/Norway regulatory status once the product enters a market with licensing data
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

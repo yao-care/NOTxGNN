@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tacrolimus
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 335
-evidence_level: L5
+evidence_level: L1
 indication_count: 3
 ---
 
 # Tacrolimus
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidensnivå: **L1** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -91,7 +91,7 @@ This is further reinforced by the fact that two other TxGNN-predicted indication
 
 ## Norway Market Information
 
-Currently no marketing authorizations recorded for tacrolimus in Norway (`total_licenses = 0`, market status: 未上市/Not Marketed).
+Currently no marketing authorizations recorded for tacrolimus in Norway (`total_licenses = 0`, market status: Not marketed/Not Marketed).
 
 ---
 
@@ -111,12 +111,12 @@ Two completed Phase 3/4 trials directly test tacrolimus ointment in facial sebor
 **To proceed, the following is needed:**
 - TFDA/Norway package insert warnings and contraindications (`DG001`, blocking)
 - Official DrugBank mechanism-of-action data (`DG002`)
-- Verification of Norway/global marketing status discrepancy (tacrolimus ointment is marketed internationally as Protopic; confirm whether "未上市" reflects this specific product/indication or a data gap)
+- Verification of Norway/global marketing status discrepancy (tacrolimus ointment is marketed internationally as Protopic; confirm whether "Not marketed" reflects this specific product/indication or a data gap)
 - Drug-drug interaction profile for topical tacrolimus in the seborrheic dermatitis population
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

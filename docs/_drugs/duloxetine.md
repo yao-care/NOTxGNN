@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Duloxetine
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 115
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Duloxetine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -134,10 +134,10 @@ The remaining 9 predicted indications for duloxetine all scored **L5 (model pred
 - Benign paroxysmal torticollis of infancy, paranoid/schizotypal/histrionic/schizoid personality disorders, Ohdo syndrome and variants, ligneous conjunctivitis, blepharophimosis–intellectual disability syndrome (Ohdo type) — all L5/Hold, with the evidence pack's own rationale describing these as mechanistically implausible or likely knowledge-graph noise (e.g., Ohdo syndrome and ligneous conjunctivitis have no biological connection to monoamine reuptake inhibition).
 
 These are not recommended for pharmacist reporting or further evaluation at this time.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

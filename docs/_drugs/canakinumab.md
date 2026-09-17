@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Canakinumab
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 71
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Canakinumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -131,10 +131,10 @@ Canakinumab's mechanism of action precisely targets the pathophysiological effec
 - Perform a health economic assessment: as a subcutaneous biologic with high unit cost, canakinumab will require rare disease pricing justification and potential NHI reimbursement negotiation
 - Review pediatric dosing data in the Taiwan context (age cutoffs for sJIA vs. periodic fever indications differ)
 - Design a safety monitoring plan covering infection surveillance, TB screening (prior to initiation), and long-term immunosuppression follow-up consistent with biologic therapy standards
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

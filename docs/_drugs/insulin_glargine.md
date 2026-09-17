@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Insulin Glargine
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 185
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Insulin Glargine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -101,10 +101,10 @@ This prediction is at the lowest evidence tier (L5) — model score only, with z
 - Expert endocrinology/reproductive immunology review before any further evaluation
 
 **Note on other candidates in this evidence pack:** Among the 10 predictions provided for insulin glargine, rank #6 (**pancreatic agenesis**) has a stronger mechanistic basis — pancreatic agenesis (e.g., PDX1/PTF1A defects) causes absolute insulin deficiency, for which insulin replacement is standard of care by direct causal logic (L4, decision stage S1, "Research Question"). This may warrant separate evaluation, though its supporting literature is currently indirect (general T2DM insulin therapy reviews and animal case reports) rather than pancreatic-agenesis-specific. Several other ranked items (drug-induced/centrifugal/pressure-induced/idiopathic lipodystrophy) show a **reversed-causality warning** — insulin injection is a known *cause* of localized lipoatrophy/lipohypertrophy, not a treatment for it, and should be flagged as a safety signal rather than screened as a repurposing candidate.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

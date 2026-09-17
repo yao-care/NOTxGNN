@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Catumaxomab
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 79
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Catumaxomab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,13 +25,13 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
 Using no formal skill here — this is a direct documentation/report-writing task with a fixed template, not a coding or debugging task requiring skill workflows.
 
-Note: The evidence pack uses field name `taiwan_regulatory` and `candidate_id: TW-...`, with Chinese-language field values (e.g., `market_status: "未上市"`), confirming this is a **Taiwan** market context — I've labeled the market section accordingly rather than "Norway" (the latter appears to be a template artifact from a different country's report).
+Note: The evidence pack uses field name `taiwan_regulatory` and `candidate_id: TW-...`, with Chinese-language field values (e.g., `market_status: "Not marketed"`), confirming this is a **Taiwan** market context — I've labeled the market section accordingly rather than "Norway" (the latter appears to be a template artifact from a different country's report).
 
 ---
 
@@ -91,10 +91,10 @@ Evidence level is L5 (model score only) for all three predicted indications, wit
 - Catumaxomab mechanism of action detail from DrugBank (resolves DG002, High)
 - Original indication and approved clinical usage history for catumaxomab
 - Any preclinical or clinical evidence directly linking EpCAM×CD3 T-cell engagement to diabetic retinopathy or osteoporosis pathophysiology, if this candidate is to be revisited
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

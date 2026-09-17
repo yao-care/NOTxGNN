@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pretomanid
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 290
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Pretomanid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -45,7 +45,7 @@ Pretomanid is a nitroimidazooxazine antimycobacterial developed for drug-resista
 | Predicted New Indication | Candidiasis |
 | TxGNN Prediction Score | 99.69% |
 | Evidence Level | L5 (model prediction only, no clinical or literature evidence) |
-| Norway Market Status | 未上市 (Not marketed) |
+| Norway Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -101,10 +101,10 @@ The top-ranked prediction (candidiasis) has no clinical trial or literature supp
 - DrugBank-sourced detailed MOA data (DG002) to properly assess mechanistic overlap for future candidates
 - If repurposing is still of interest, prioritize candidate diseases with an actual mycobacterial or nitroreductase-dependent pathogenesis rather than the current TxGNN top-ranked outputs
 - Independent in vitro confirmation before considering any candidate in this list for further evaluation
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

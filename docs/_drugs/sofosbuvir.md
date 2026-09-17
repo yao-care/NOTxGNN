@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Sofosbuvir
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 329
-evidence_level: L5
+evidence_level: L4
 indication_count: 8
 ---
 
 # Sofosbuvir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -99,7 +99,7 @@ The high TxGNN score for this candidate appears to be driven largely by **confou
 
 ## Norway Market Information
 
-Sofosbuvir currently holds **no marketing authorization in Norway** (`market_status: 未上市`, 0 licenses on record). No approved indication text, dosage form, or product information is available for this evaluation.
+Sofosbuvir currently holds **no marketing authorization in Norway** (`market_status: Not marketed`, 0 licenses on record). No approved indication text, dosage form, or product information is available for this evaluation.
 
 ---
 
@@ -123,10 +123,10 @@ Despite the high TxGNN prediction score, the mechanistic basis for sofosbuvir's 
 - Re-evaluation of trial/literature relevance grading to systematically exclude coinfection-safety studies from the efficacy evidence base
 
 **Note:** Among this drug's other predicted indications, **Hepatitis E virus infection** (rank 2, TxGNN score 99.49%, Evidence Level L3, decision stage S1 – "Research Question") shows a stronger biological rationale (in vitro RdRp inhibition, resistance-variant characterization, and case series in ribavirin-refractory transplant patients) and may warrant separate evaluation as a more promising repurposing candidate than HBV.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pirfenidone
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 280
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Pirfenidone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -99,10 +99,10 @@ The prediction score is high, but it is unsupported by any clinical trial, real-
 - Confirmed mechanism of action data for pirfenidone (DG002, High)
 - Preclinical evidence directly linking anti-fibrotic activity to mast cell tumor biology
 - **Note:** a separate candidate in this pack, *fibroblastic neoplasm* (rank 9, Evidence Level L4/S1), has meaningfully more support (6 publications, including a pilot cohort on desmoid tumors) but also carries a safety red flag — two case reports of sarcoma progression and dermatofibroma aggravation following pirfenidone use. This candidate warrants separate causality review and may be a more actionable priority than the current top-ranked prediction.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

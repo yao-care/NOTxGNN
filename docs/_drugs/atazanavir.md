@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Atazanavir
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 37
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 ---
 
 # Atazanavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -83,7 +83,7 @@ Currently no related clinical trials registered for Simian Immunodeficiency Viru
 
 ## Norway Market Information
 
-Atazanavir is **not currently marketed in Norway** (market status: 未上市 / Not marketed). There are no drug license records (`total_licenses = 0`), so no authorization table can be produced.
+Atazanavir is **not currently marketed in Norway** (market status: Not marketed / Not marketed). There are no drug license records (`total_licenses = 0`), so no authorization table can be produced.
 
 ---
 
@@ -104,10 +104,10 @@ The top-ranked prediction (SIV infection) targets a non-human disease model and 
 - TFDA-equivalent (or Norwegian) package insert warnings/contraindications (DG001 — Blocking; required before any S1 safety pre-assessment)
 - Confirmed mechanism-of-action data from DrugBank (DG002 — High priority; needed to properly assess mechanistic plausibility)
 - If pursuing translational research value, a defined path from the SIV macaque model to a genuine human indication (e.g., HIV-associated neurocognitive disorder), since SIV infection itself is not a human disease target
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

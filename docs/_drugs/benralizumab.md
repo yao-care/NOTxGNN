@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Benralizumab
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 49
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Benralizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -93,7 +93,7 @@ Clinically, however, this hypothesis has already been tested: a dedicated Phase 
 
 ## Norway Market Information
 
-Benralizumab has **no marketing authorizations on file for Norway** (`market_status`: 未上市 / Not marketed; `total_licenses`: 0). No licence-level indication text is available to summarize.
+Benralizumab has **no marketing authorizations on file for Norway** (`market_status`: Not marketed / Not marketed; `total_licenses`: 0). No licence-level indication text is available to summarize.
 
 ---
 
@@ -132,10 +132,10 @@ The mechanistically plausible candidate (atopic dermatitis) has already been tes
 - DrugBank-sourced MOA confirmation (DG002)
 - Monitor the emerging DRESS (NCT06734884) and hypereosinophilic syndrome (NCT06477653) trials — these represent mechanistically better-aligned eosinophil-driven conditions than AD, and may surface as stronger candidates once results mature
 - No further investment recommended in atopic dermatitis given the existing negative RCT
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

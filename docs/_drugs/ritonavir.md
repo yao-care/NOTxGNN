@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ritonavir
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 310
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Ritonavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 3
 | Predicted New Indication | Feline Acquired Immunodeficiency Syndrome |
 | TxGNN Prediction Score | 99.92% (rank 1134) |
 | Evidence Level | L5 — the only associated trial does not study the predicted (feline) indication; no literature |
-| Taiwan Market Status | 未上市 (Not Marketed) |
+| Taiwan Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -103,10 +103,10 @@ Please refer to the package insert for safety information once available.
 - Retrieve DrugBank MOA data to close DG002 (High)
 - Clarify whether the TxGNN prediction for "feline acquired immunodeficiency syndrome" reflects a genuine repurposing signal or a cross-species knowledge-graph artifact before further evaluation
 - Complete relevance grading for the pending trial/literature classifications (also consider re-reviewing rank 2, "simian immunodeficiency virus infection," which has more literature but remains an animal-model indication)
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

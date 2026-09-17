@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pemigatinib
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Pemigatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -77,7 +77,7 @@ Currently no related literature available.
 
 ## Norway Market Information
 
-Pemigatinib is currently **not marketed** in Norway (market status: 未上市) and no authorization records exist in this evidence pack (total licenses: 0). No product table can be generated at this time.
+Pemigatinib is currently **not marketed** in Norway (market status: Not marketed) and no authorization records exist in this evidence pack (total licenses: 0). No product table can be generated at this time.
 
 ---
 
@@ -113,10 +113,10 @@ The top-ranked prediction (Multiple Endocrine Neoplasia) has zero supporting cli
 - Confirmed mechanism of action (MOA) from DrugBank or equivalent source — flagged as a *High* severity data gap (DG002)
 - Confirmation of pemigatinib's actual original approved indication(s), currently absent from this pack
 - Independent mechanistic or preclinical evidence linking FGFR inhibition to MEN before any further evaluation stage is considered
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

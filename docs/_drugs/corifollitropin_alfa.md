@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Corifollitropin Alfa
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 92
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Corifollitropin Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -101,10 +101,10 @@ No clinical trials or relevant literature support the top-ranked predicted indic
 - Confirmed mechanism of action (MOA) data from DrugBank or primary literature
 - Preclinical or mechanistic studies establishing a plausible pathway between FSH receptor agonism and any of the predicted GI, vascular, or neurological indications
 - Re-evaluation once clinical trial registries (ClinicalTrials.gov/ICTRP) or PubMed return drug-specific (not disease-background) evidence for the target indication
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Moroctocog Alfa
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 235
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Moroctocog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -111,10 +111,10 @@ The top-ranked TxGNN prediction (primary release disorder of platelets) lacks an
 
 **Additional note for portfolio consideration:**
 Within the same evidence pack, **rank 4 — Acquired Coagulation Factor Deficiency** — shows a materially stronger signal (Evidence Level L3, decision stage S2, "Research Question"), including two completed Phase 2/3 trials on structurally analogous B-domain-deleted recombinant FVIII products (NCT01178294, NCT04580407) in acquired Hemophilia A. This candidate is mechanistically coherent with moroctocog alfa's known FVIII activity and may warrant separate evaluation as a more promising repurposing direction than the top-ranked candidate reviewed here.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Certolizumab Pegol
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 83
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 ---
 
 # Certolizumab Pegol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -118,10 +118,10 @@ The evidence level is L4 with no trial directly testing certolizumab pegol for r
 - A pharmacovigilance review to clarify whether the paradoxical vasculitis signal represents a safety risk rather than a therapeutic opportunity before further investment
 
 **Note:** This same evidence pack contains two higher-confidence, L1-level signals for certolizumab pegol — *inflammatory spondylopathy* and *vertebral disease* — both reflecting its already-established, guideline-supported use in axial spondyloarthritis/ankylosing spondylitis. If not already documented as approved indications, these merit a separate, dedicated evaluation rather than being treated as novel repurposing candidates.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

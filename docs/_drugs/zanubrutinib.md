@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Zanubrutinib
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 390
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 ---
 
 # Zanubrutinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -128,10 +128,10 @@ The top-ranked candidate indication (myeloid leukemia, L4) lacks any clinical tr
 - Confirmed mechanism of action documentation (DG002)
 - Direct preclinical or clinical evidence linking BTK inhibition to myeloid leukemia pathophysiology, if this indication is to be pursued further
 - If pursuing repurposing research, prioritize re-scoring or excluding rank 2–6 candidates given the complete absence of supporting evidence
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Elvitegravir
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 127
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Elvitegravir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ A second-ranked candidate, Simian Immunodeficiency Virus (SIV) infection, does h
 | Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (FIV) |
 | TxGNN Prediction Score | 99.89% |
 | Evidence Level | L5 |
-| Norway Market Status | Not Marketed (未上市) |
+| Norway Market Status | Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -71,7 +71,7 @@ Currently no related literature available
 
 ## Norway Market Information
 
-This drug currently has no marketing authorization in Norway (未上市 / Not Marketed); `total_licenses` = 0 and no license records are available in the evidence pack.
+This drug currently has no marketing authorization in Norway (Not marketed / Not Marketed); `total_licenses` = 0 and no license records are available in the evidence pack.
 
 ## Safety Considerations
 
@@ -91,10 +91,10 @@ The top-ranked predicted indication (FIV) is a veterinary disease with no clinic
 - Confirmed MOA documentation via DrugBank API (DG002)
 - Re-screening of TxGNN outputs to identify whether any higher-quality, human-relevant predicted indications exist beyond the current top 3 (rank 3, a rare neurodevelopmental disorder, is assessed as likely graph noise with no biological plausibility)
 - If any interest remains in the SIV-related research angle, clarification of intended human population and clinical translatability, since current evidence is confined to non-human-primate drug-resistance modeling
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Sodium Oxybate
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 328
-evidence_level: L5
+evidence_level: L2
 indication_count: 6
 ---
 
 # Sodium Oxybate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -122,10 +122,10 @@ A completed, placebo-controlled Phase 2 trial (NCT00383643) directly supports ef
 - Drug-drug interaction data (current query returned no results)
 - Assessment of abuse/dependence risk relative to a non-life-threatening indication (insomnia) versus the original refractory indication (narcolepsy with cataplexy)
 - Regulatory pathway review, since the drug currently holds no Norwegian marketing authorization
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Simoctocog Alfa
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Simoctocog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -102,10 +102,10 @@ The evidence level is L5 (model prediction only, no clinical trials or literatur
 - Manual clinical/haematology expert review of whether "pseudo-von Willebrand disease" has any documented off-label FVIII response, given the mechanistic mismatch
 - Re-evaluate rank 9 ("Haemophilia A with vascular abnormality") as a mechanistically stronger candidate, despite its lower TxGNN score, once literature search is expanded
 - Literature/clinical trial search using disease-specific terms (current search returned zero hits across all 10 candidates, suggesting search strategy may need broadening)
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

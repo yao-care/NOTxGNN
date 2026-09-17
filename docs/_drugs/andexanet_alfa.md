@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Andexanet Alfa
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 31
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Andexanet Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -51,7 +51,7 @@ Using the provided Evidence Pack directly (no external lookups needed) to produc
 | Predicted New Indication | Glanzmann Thrombasthenia |
 | TxGNN Prediction Score | 99.77% |
 | Evidence Level | L5 |
-| Market Status (Taiwan) | ✗ Not marketed (未上市) |
+| Market Status (Taiwan) | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -83,7 +83,7 @@ Currently no related literature available.
 
 ## Taiwan Market Information
 
-No marketing authorization records currently exist for andexanet alfa in Taiwan (未上市, 0 licenses).
+No marketing authorization records currently exist for andexanet alfa in Taiwan (Not marketed, 0 licenses).
 
 ---
 
@@ -107,10 +107,10 @@ The predicted indication (Glanzmann thrombasthenia) has no clinical trials, no l
 - Resolve DG002: obtain a structured MOA record from DrugBank to formally document the factor Xa/TFPI mechanism
 - Seek preclinical or case-level evidence specifically testing andexanet alfa (or factor Xa/TFPI-directed agents) in platelet-receptor-defect bleeding disorders, if this indication is to be pursued further
 - If no such mechanistic or empirical evidence emerges, this candidate should be deprioritized in favor of higher-scoring, evidence-backed predictions from this drug's full prediction list
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

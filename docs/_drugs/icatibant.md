@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Icatibant
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 172
-evidence_level: L5
+evidence_level: L3
 indication_count: 7
 ---
 
 # Icatibant
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Evidensnivå: **L3** | Predikerte indikasjoner: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -111,10 +111,10 @@ The predicted indication is supported by a strong TxGNN score and a consistent, 
 - Formal original indication/regulatory history for this candidate (currently absent)
 - Registered clinical trial evidence, if any exists, to upgrade evidence level beyond L3
 - Norway market entry/registration pathway assessment, given current "not marketed" status
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

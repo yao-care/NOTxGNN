@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Upadacitinib
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 375
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Upadacitinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -85,10 +85,10 @@ This prediction is evidence level L5 (model output only, no clinical trials or l
 - TFDA/regulatory label data on warnings and contraindications (currently blocking per DG001)
 - An independent biological plausibility review, since the automated rationale itself argues against a mechanistic connection
 - If plausibility cannot be established, this candidate should be deprioritized in favor of higher-scoring, mechanistically coherent predictions
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

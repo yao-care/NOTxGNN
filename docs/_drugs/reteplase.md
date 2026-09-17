@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Reteplase
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 303
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Reteplase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -85,10 +85,10 @@ The top-ranked predicted indication (posteroinferior MI) has no supporting clini
 - Confirmed mechanism of action data from DrugBank (DG002)
 - Subtype-specific (posteroinferior MI) trial or registry data, if any exist outside PubMed/ClinicalTrials.gov
 - **Consider re-evaluating this candidate profile using a better-evidenced predicted indication from the same pack**: rank 3 "septal myocardial infarction" (L2, one completed Phase 3 RCT — NCT00046228) or rank 5 "coronary stenosis" (L3, six supporting publications including facilitated-PCI cohort data) show substantially stronger evidence bases within this same drug's prediction set.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

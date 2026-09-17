@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cholic Acid
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 87
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Cholic Acid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -93,7 +93,7 @@ Currently no related clinical trials registered.
 
 ## Norway Market Information
 
-Cholic acid is currently **not marketed** in Norway (market status: 未上市 / Not Marketed), and no authorization records are available in this dataset.
+Cholic acid is currently **not marketed** in Norway (market status: Not marketed / Not Marketed), and no authorization records are available in this dataset.
 
 ---
 
@@ -116,10 +116,10 @@ The top-ranked prediction (HIV infectious disease) is supported only by tangenti
 - Identify any dedicated pharmacological or clinical study directly testing cholic acid (or a specific derivative) for antiretroviral activity, ideally resolving the contradictory *in vitro* signal from PMID 16610808
 - Clarify cholic acid's actual regulatory status and approved indication(s) in Norway/comparable markets, since none are currently recorded
 - Given the weak and partly negative evidence, this candidate is not recommended for further investment unless new supporting data emerges
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

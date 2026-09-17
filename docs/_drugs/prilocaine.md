@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Prilocaine
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 291
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Prilocaine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -101,7 +101,7 @@ The key limitation is that essentially all supporting evidence involves prilocai
 
 ## Norway Market Information
 
-Prilocaine currently has **no marketing authorization on file in Norway** (market status: 未上市 / Not marketed; total licenses: 0). No product-level dosage form or approved-indication data is available.
+Prilocaine currently has **no marketing authorization on file in Norway** (market status: Not marketed / Not marketed; total licenses: 0). No product-level dosage form or approved-indication data is available.
 
 ---
 
@@ -124,10 +124,10 @@ Three completed RCTs (tier 1) and one completed Phase 2 trial support lidocaine-
 - Evidence isolating prilocaine's independent contribution versus the lidocaine-prilocaine combination
 - Assessment of methemoglobinemia and systemic absorption risk — a known class effect of prilocaine, particularly relevant if topical use is expanded to patients with compromised skin barrier
 - A regulatory pathway assessment, since prilocaine is not currently marketed in Norway (0 authorizations on file)
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

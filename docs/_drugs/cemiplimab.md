@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cemiplimab
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 80
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Cemiplimab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -111,10 +111,10 @@ The top-ranked prediction (gallbladder adenosquamous carcinoma) has a very high 
 - Confirmed mechanism-of-action documentation for cemiplimab (resolves DG002)
 - Disease-specific clinical trial or case-series evidence for gallbladder adenosquamous carcinoma, or reprioritization toward external ear basal cell carcinoma (rank 4), which currently has the strongest evidence base (L4, one case report) among the ten candidates
 - Norway/EU regulatory and market-status confirmation, since the drug is currently unmarketed in this jurisdiction
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

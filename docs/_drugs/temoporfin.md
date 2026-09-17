@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Temoporfin
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 344
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Temoporfin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -94,10 +94,10 @@ The top-ranked prediction (Nasopharyngeal Teratoma) has no supporting clinical t
 - Formal DrugBank/TFDA-equivalent MOA, warnings, and contraindication data (currently blocking safety pre-assessment per DG001/DG002)
 - Any preclinical or case-level evidence specifically addressing light delivery feasibility to nasopharyngeal/germ-cell tumors
 - Consider redirecting research priority toward the pipeline's higher-evidence candidates (e.g., benign neoplasm of tongue, benign neoplasm of floor of mouth, cystic neoplasm — all L3, S2, with cohort/case-series PDT literature), which are mechanistically consistent with temoporfin's established head-and-neck mucosal PDT use
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Insulin Degludec
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 183
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Insulin Degludec
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -137,10 +137,10 @@ The top-ranked candidate (Type 1 Diabetes Mellitus) is not a novel repurposing o
 - Resolve **DG002** (High): retrieve formal mechanism-of-action data from DrugBank
 - If pursuing the stiff person syndrome hypothesis, commission a targeted literature review of anti-GAD65 autoimmunity and insulin's potential immunomodulatory (not glycemic) role — current evidence pack contains zero supporting citations
 - Deprioritize autoimmune oophoritis and opsismodysplasia unless new mechanistic evidence emerges
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

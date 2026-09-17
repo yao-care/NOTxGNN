@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Fluticasone Furoate
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 153
-evidence_level: L5
+evidence_level: L3
 indication_count: 8
 ---
 
 # Fluticasone Furoate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidensnivå: **L3** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -113,10 +113,10 @@ Evidence for Fluticasone Furoate specifically in atopic eczema is Level L3 (obse
 - Confirmed mechanism of action (MOA) data specific to Fluticasone Furoate (High-severity data gap)
 - Direct Furoate-specific trial or pharmacokinetic bridging data for atopic dermatitis (most existing evidence is for Propionate)
 - Consider prioritizing the bronchitis/COPD signal (rank 2) instead, which has direct Furoate RCT evidence (PMID 21977941) and L2 evidence supporting "Proceed with Guardrails"
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

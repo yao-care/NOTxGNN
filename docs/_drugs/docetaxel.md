@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Docetaxel
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 111
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Docetaxel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -125,10 +125,10 @@ Please refer to the package insert for safety information.
 - Obtain the official package insert / TFDA-equivalent safety documentation (warnings, contraindications, DDI) to close the Blocking data gap (DG001)
 - Obtain confirmed DrugBank/regulatory MOA data to close the High-severity data gap (DG002)
 - If a genuinely novel repurposing signal is the goal, consider prioritizing rank 2 (Ewing sarcoma) or rank 8 (rhabdomyosarcoma) from this same evidence pack — both carry L2 evidence from real, non-standard-of-care trials (e.g., GEMDOX regimen, JCOG1802) and represent more credible off-label repurposing candidates than breast cancer does
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

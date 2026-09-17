@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Trastuzumab
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 368
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -126,10 +126,10 @@ The top-ranked prediction (normal breast-like PAM50 subtype) is supported only b
 - Confirmed, sourced mechanism-of-action documentation at the drug level (DG002)
 - HER2 expression prevalence data specifically within the PAM50 "normal-like" subtype population
 - A subtype-specific prospective trial (or retrospective biomarker-stratified analysis) testing trastuzumab response in HER2-low/negative "normal-like" tumors before this candidate can be re-staged
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

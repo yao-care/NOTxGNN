@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Laronidase
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 200
-evidence_level: L5
+evidence_level: L1
 indication_count: 2
 ---
 
 # Laronidase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidensnivå: **L1** | Predikerte indikasjoner: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -104,10 +104,10 @@ The mechanistic link between laronidase and MPS I / skeletal lysosomal storage d
 - Resolve **DG002 (High)**: Formal documentation of MOA from DrugBank API to support mechanistic review
 - Confirm whether a Norway marketing authorization application is planned, given current "not marketed" status
 - Note: A secondary prediction for **Sanfilippo syndrome (MPS III)** was also evaluated in this evidence pack but flagged as a mechanistic mismatch (laronidase does not address the heparan sulfate-degrading enzymes deficient in MPS III, and has poor blood-brain barrier penetration for the CNS involvement characteristic of Sanfilippo syndrome) — recommendation for that indication is **Hold** and it is excluded from this report's primary conclusion.
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

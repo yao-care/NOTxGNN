@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Rotigotine
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 315
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Rotigotine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -71,7 +71,7 @@ Currently no related clinical trials registered
 
 ## Norway Market Information
 
-Rotigotine currently holds **no marketing authorization in Norway** (market status: 未上市/Not marketed; 0 licenses on record). No product or dosage form data is available.
+Rotigotine currently holds **no marketing authorization in Norway** (market status: Not marketed/Not marketed; 0 licenses on record). No product or dosage form data is available.
 
 ## Safety Considerations
 
@@ -91,10 +91,10 @@ No clinical trials support rotigotine's use in ADHD, and the available literatur
 - Rotigotine mechanism of action (MOA) data from DrugBank or primary literature
 - TFDA/regulatory package insert warnings and contraindications (currently a blocking data gap)
 - Confirmation of formal original indication and licensing status (Parkinson's disease/RLS) from a regulatory source
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

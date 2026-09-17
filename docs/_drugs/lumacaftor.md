@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lumacaftor
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 218
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Lumacaftor
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -46,7 +46,7 @@ TxGNN 模型預測其可能對**痲瘋病（Leprosy）**有效，但目前**沒�
 | 預測新適應症 | 痲瘋病（Leprosy） |
 | TxGNN 預測分數 | 99.44% |
 | 證據等級 | L5（僅模型預測，無實際研究支持） |
-| 台灣市場狀態 | 未上市 |
+| 台灣市場狀態 | Not marketed |
 | 許可證數量 | 0 |
 | 建議決策 | Hold（暫緩） |
 
@@ -100,10 +100,10 @@ TxGNN 預測分數雖高，但完全缺乏臨床試驗與文獻支持（L5），
 - DrugBank 完整 MOA 資料以確認機轉關聯性（DG002，High）
 - 針對 CFTR 調節劑是否具抗分枝桿菌或免疫調節作用的臨床前機轉研究
 - 機轉合理性人工複核結果，作為是否進入下一階段（S1）的判斷依據
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

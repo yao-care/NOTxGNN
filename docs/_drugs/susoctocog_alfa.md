@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Susoctocog Alfa
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 334
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Susoctocog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -134,10 +134,10 @@ Only the AHA/acquired-coagulation-factor-deficiency signal (ranks 4–5) is back
 - Confirm and record the drug's actual original approved indication(s), currently missing from regulatory fields
 - Clarify Norway-specific regulatory pathway, since the product is not currently marketed there
 - If pursuing the broader "acquired coagulation factor deficiency" extension, seek disease-specific case data beyond AHA to support that generalization
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

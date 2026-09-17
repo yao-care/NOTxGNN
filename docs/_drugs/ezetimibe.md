@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ezetimibe
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 146
-evidence_level: L5
+evidence_level: L1
 indication_count: 4
 ---
 
 # Ezetimibe
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidensnivå: **L1** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -103,7 +103,7 @@ The genuinely exploratory signal in this candidate set is rank 3, *hypercholeste
 
 ## Norway Market Information
 
-No authorization records are present in the evidence pack — `market_status = 未上市 (Not Marketed)` with `total_licenses = 0`. Ezetimibe currently has no registered product license in Norway per available data.
+No authorization records are present in the evidence pack — `market_status = Not marketed (Not Marketed)` with `total_licenses = 0`. Ezetimibe currently has no registered product license in Norway per available data.
 
 ---
 
@@ -125,10 +125,10 @@ The rank-1 signal (hyperlipoproteinemia, L1 evidence) is backed by extensive Pha
 - Formal DrugBank MOA confirmation (DG002, High) to replace the rationale-derived mechanistic summary used here
 - If pursuing the CYP7A1-deficiency signal: dedicated preclinical/mechanistic studies, since no clinical trials currently exist for this ultra-rare indication
 - Re-scope the "new indication" framing for this candidate, since ranks 1–2 substantially overlap with ezetimibe's known label
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

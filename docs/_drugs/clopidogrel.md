@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Clopidogrel
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 90
-evidence_level: L5
+evidence_level: L3
 indication_count: 8
 ---
 
 # Clopidogrel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidensnivå: **L3** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -88,7 +88,7 @@ Currently no related clinical trials registered.
 
 ## Norway Market Information
 
-No license records exist — clopidogrel has 0 registered authorizations and is **not marketed** in Norway according to the evidence pack (`market_status: 未上市`, `total_licenses: 0`).
+No license records exist — clopidogrel has 0 registered authorizations and is **not marketed** in Norway according to the evidence pack (`market_status: Not marketed`, `total_licenses: 0`).
 
 ---
 
@@ -110,10 +110,10 @@ Please refer to the package insert for safety information.
 - Formal mechanism of action data (currently a flagged data gap)
 - TFDA/Norway regulatory safety data (warnings, contraindications, DDI) — currently unavailable
 - Consider prioritizing "migraine disorder" (rank 2 in this evidence pack) instead, which has stronger, direct RCT-level evidence (CANOA, completed Phase 4, n=220) and an L2/"Proceed with Guardrails" rating, albeit still limited to the PFO/ASD-closure subgroup
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

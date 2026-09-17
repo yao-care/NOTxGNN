@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tenofovir Alafenamide
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 348
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Tenofovir Alafenamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -49,7 +49,7 @@ indication_count: 3
 | Predicted New Indication | Simian Immunodeficiency Virus (SIV) Infection |
 | TxGNN Prediction Score | 99.89% |
 | Evidence Level | L4 (preclinical / mechanism studies) |
-| Taiwan Market Status | Not Marketed (未上市) |
+| Taiwan Market Status | Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -91,7 +91,7 @@ In other words, this "predicted new indication" most likely reflects the model r
 
 ## Taiwan Market Information
 
-Tenofovir Alafenamide currently has **no marketing authorizations recorded in Taiwan** (market status: 未上市 / Not Marketed, 0 licenses). No product-level dosage form or approved-indication data is available.
+Tenofovir Alafenamide currently has **no marketing authorizations recorded in Taiwan** (market status: Not marketed / Not Marketed, 0 licenses). No product-level dosage form or approved-indication data is available.
 
 ---
 
@@ -113,10 +113,10 @@ The evidence base for the top-ranked prediction (feline AIDS) is empty, and the 
 - Confirmed original indication(s) and mechanism of action from DrugBank or product labeling
 - Clarification of whether "SIV infection" evidence reflects a genuine new indication or simply reconfirms tenofovir alafenamide's known antiretroviral/PrEP mechanism
 - Re-review of the rank-1 (feline AIDS) and rank-3 (rare neurodevelopmental disorder) predictions to determine whether they are valid signals or knowledge-graph artifacts, before any further repurposing work is based on them
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Glucarpidase
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 165
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Glucarpidase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | Predicted New Indication | Diabetic Cataract |
 | TxGNN Prediction Score | 99.85% |
 | Evidence Level | L5 |
-| Norway Market Status | 未上市 (Not Marketed) |
+| Norway Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -99,10 +99,10 @@ The prediction is supported by TxGNN score alone (L5, no clinical or literature 
 - Obtain verified mechanism of action (MOA) data from DrugBank or primary literature
 - Independent mechanistic or preclinical evidence linking carboxypeptidase G2 activity to diabetic cataract pathology before further investment
 - Given the clustering pattern across all 10 predictions, consider a KG-connectivity review for this orphan drug rather than pursuing individual indications
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

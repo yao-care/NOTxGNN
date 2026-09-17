@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Olaparib
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 253
-evidence_level: L5
+evidence_level: L1
 indication_count: 1
 ---
 
 # Olaparib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidensnivå: **L1** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -49,7 +49,7 @@ indication_count: 1
 | Predicted New Indication | Female Breast Carcinoma |
 | TxGNN Prediction Score | 99.09% |
 | Evidence Level | L1 |
-| Norway Market Status | ✗ Not Marketed (未上市) |
+| Norway Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -141,10 +141,10 @@ Clinical evidence is strong (5 Phase 3 RCTs, including two pivotal trials — Ol
 - Resolve DG002 (High): confirm structured MOA from DrugBank API
 - Verify actual Norway/EEA marketing authorization status for olaparib (Lynparza®), since 0 licenses in this pack is inconsistent with its known EU centralized authorization
 - Confirm whether "female breast carcinoma" should be reclassified as an existing approved indication rather than a TxGNN-predicted new indication, to avoid mischaracterizing this candidate in downstream reporting
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

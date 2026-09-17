@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Glucagon
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 164
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Glucagon
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -109,10 +109,10 @@ The TxGNN score is high, but essentially all supporting clinical and literature 
 - Resolve DG001 (TFDA/official label warnings and contraindications) and DG002 (glucagon MOA) before any further safety-stage review
 - Run a targeted literature/trial search restricted to glucagon (GCGR agonism), excluding GLP-1/GLP-1R agonists, to check whether any direct evidence exists
 - If no direct glucagon-specific evidence is found, deprioritize this candidate and log it as a likely TxGNN false positive due to proglucagon gene-family confounding, for model QA feedback
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

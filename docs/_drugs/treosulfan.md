@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Treosulfan
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 372
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Treosulfan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -112,10 +112,10 @@ The TxGNN score is high, but there is no clinical trial, literature, or mechanis
 - Preclinical or mechanistic evidence linking alkylating agents to lens/cataract pathology
 - Any real-world or observational data supporting this association
 - Reassessment of TxGNN score validity given apparent lack of biological plausibility
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

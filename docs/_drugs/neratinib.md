@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Neratinib
-parent: 僅模型預測 (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 240
-evidence_level: L5
+evidence_level: L2
 indication_count: 4
 ---
 
 # Neratinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidensnivå: **L2** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -43,7 +43,7 @@ indication_count: 4
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in this registry (`original_indications` empty, `market_status` = 未上市/Not Marketed) — a flagged data gap; literature in this pack indicates the drug's established use is HER2-positive breast cancer |
+| Original Indication | Not available in this registry (`original_indications` empty, `market_status` = Not marketed/Not Marketed) — a flagged data gap; literature in this pack indicates the drug's established use is HER2-positive breast cancer |
 | Predicted New Indication | Progesterone-Receptor Positive Breast Cancer |
 | TxGNN Prediction Score | 99.68% |
 | Evidence Level | L2 |
@@ -130,10 +130,10 @@ The PR-positive breast cancer prediction is biologically plausible given neratin
 - Confirm mechanism of action (MOA) directly via DrugBank rather than relying solely on trial-derived rationale
 - Manually verify the discrepancy between this dataset's "not marketed / no original indication" status and neratinib's known regulatory history (e.g., FDA approval as Nerlynx) before relying on this evidence pack for downstream decisions
 - Obtain results from the ongoing PR+/HR+-specific trial (NCT04886531) once available, since current PR+-specific trial evidence has no completed readouts
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

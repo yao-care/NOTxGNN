@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Perampanel
-parent: 僅模型預測 (L5)
+parent: Kun modellprediksjon (L5)
 nav_order: 275
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Perampanel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | Predicted New Indication | Visual epilepsy |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L5 |
-| Norway Market Status | 未上市 (Not marketed) |
+| Norway Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -96,7 +96,7 @@ However, **no clinical trial or publication in this evidence pack specifically s
 
 ## Norway Market Information
 
-Perampanel is currently **not marketed** in this jurisdiction (market status: 未上市; 0 authorizations on record), so no license/product table is available.
+Perampanel is currently **not marketed** in this jurisdiction (market status: Not marketed; 0 authorizations on record), so no license/product table is available.
 
 ---
 
@@ -120,10 +120,10 @@ Please refer to the package insert for safety information. *(Key warnings, contr
 - Obtain confirmed MOA documentation from DrugBank to close DG002
 - Seek disease-specific preclinical or clinical evidence (e.g., photosensitivity/EEG photoparoxysmal response models) before advancing the visual epilepsy indication further
 - Consider re-scoping repurposing priority toward status epilepticus, which has materially stronger direct evidence
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

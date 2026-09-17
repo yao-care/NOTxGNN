@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Bexarotene
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 51
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Bexarotene
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 3
 | Predicted New Indication | Primary Cutaneous B-Cell Lymphoma |
 | TxGNN Prediction Score | 99.44% |
 | Evidence Level | L4 |
-| Norway Market Status | ✗ Not marketed (未上市) |
+| Norway Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -93,7 +93,7 @@ None of the above literature reports direct clinical outcomes of bexarotene trea
 
 ## Norway Market Information
 
-Bexarotene currently holds **no marketing authorization in Norway** (`market_status: 未上市`, 0 licenses on file). No product-level dosage form or approved-indication data is available to report.
+Bexarotene currently holds **no marketing authorization in Norway** (`market_status: Not marketed`, 0 licenses on file). No product-level dosage form or approved-indication data is available to report.
 
 ---
 
@@ -129,10 +129,10 @@ The predicted indication (primary cutaneous B-cell lymphoma) lacks direct clinic
 - Confirmed mechanism of action detail to support the B-cell mechanistic rationale (DG002)
 - Dedicated preclinical or early-phase clinical evidence evaluating bexarotene specifically in primary cutaneous B-cell lymphoma (current evidence is indirect, drawn from the general cutaneous-lymphoma literature)
 - Clarification of Norway/regional regulatory pathway, given the drug currently holds no marketing authorization
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 

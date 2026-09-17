@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Daptomycin
-parent: 僅模型預測 (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 95
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Daptomycin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Innholdsfortegnelse
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmasøytens vurderingsrapport
 
 </div>
 
@@ -115,10 +115,10 @@ The top-ranked prediction (osteoarthritis) is supported only by literature on un
 - Independent validation (in vivo/in vitro replication or early clinical data) of the daptomycin anti-inflammatory/NF-κB signal in rheumatoid arthritis before considering it a research priority over the osteoarthritis signal
 - Drug-drug interaction data
 - Clarification with the TxGNN knowledge graph team on possible entity overlap between "osteoarticular infection" and "osteoarthritis"
-## Disclaimer
+## Ansvarsfraskrivelse
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
+Klinisk validering kreves før enhver klinisk anvendelse.
 
 ---
 
