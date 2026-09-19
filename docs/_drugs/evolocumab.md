@@ -29,79 +29,80 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Evolocumab: TxGNN-Predicted Link to Symptomatic Hemophilia in Female Carriers (Low-Confidence)
+# Evolocumab: TxGNN-forutsagt sammenheng med symptomatisk hemofili hos kvinnelige bærere (lavt konfidensnivå)
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> This evidence pack does not record evolocumab's original approved indication, and the drug currently holds no marketing license in Taiwan.
-> TxGNN's top-ranked prediction suggests a possible link to **symptomatic form of hemophilia in female carriers** (score 99.82%),
-> but this is backed by **zero clinical trials** and **zero publications** — and the pack's own mechanistic analysis flags the link as probable knowledge-graph noise rather than a real pharmacological connection.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not on file (no Taiwan license record; `original_indications` empty in this evidence pack) |
-| Predicted New Indication | Symptomatic form of hemophilia in female carriers |
-| TxGNN Prediction Score | 99.82% (rank 2444) |
-| Evidence Level | L5 (model prediction only, no supporting trials/literature) |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Denne evidenspakken dokumenterer ikke evolocumabs opprinnelig godkjent indikasjon, og stoffet har for øyeblikket ingen markedslisens i Taiwan.
+> TxGNNs høyest rangerte prediksjon antyder en mulig sammenheng med **symptomatisk hemofili hos kvinnelige bærere** (skår 99,82%),
+> men dette støttes av **null kliniske studier** og **null publikasjoner** — og pakkens egen mekanistiske analyse viser at sammenhengen sannsynligvis er kunnskapsgraf-nærhetsstøy snarere enn en reell farmakologisk forbindelse.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigoversikt
 
-According to the mechanistic notes embedded in this evidence pack, evolocumab is a **PCSK9 monoclonal antibody**: it inhibits PCSK9-mediated degradation of LDL receptors, thereby lowering blood LDL-C. This places the drug's known biology firmly within lipid metabolism, not coagulation.
-
-Hemophilia in female carriers arises from Factor VIII (F8) gene deficiency and involves the intrinsic coagulation cascade — a pathway that has **no documented mechanistic overlap** with PCSK9/LDL-receptor biology. The evidence pack's own rationale for this prediction states explicitly that there is no known interaction or shared pathway between the two, and concludes the high TxGNN score most likely reflects **knowledge-graph proximity noise** rather than a genuine pharmacological signal.
-
-This assessment is reinforced by the pattern across the other five ranked candidates in this pack (familial ApoC-II deficiency, thrombocytopenic purpura, Factor XI deficiency, hemophilia A with vascular abnormality, and a non-specific ontology superclass "disease of catalytic activity") — all carry the same L5/Hold status, no trials, no literature, and rationale text that independently argues against mechanistic plausibility. This is not typical of a strong repurposing signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke på fil (ingen Taiwan-lisenspost; `original_indications` tom i denne evidenspakken) |
+| Forutsagt ny indikasjon | Symptomatisk hemofili hos kvinnelige bærere |
+| TxGNN-prediksjons skår | 99,82% (rangering 2444) |
+| Evidensnivå | L5 (modellprediksjon kun, ingen støttende studier/litteratur) |
+| Taiwans markedsstatus | Ikke markedsført (Ikke markedsført) |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+I følge de mekanistiske notatene innebygd i denne evidenspakken, er evolocumab en **PCSK9-monoklonal antistoff**: det hemmer PCSK9-medieret nedbrytning av LDL-reseptorer, og senker derved blod-LDL-C. Dette plasserer stoffets kjente biologi klart innenfor lipidmetabolisme, ikke koagulasjon.
 
----
+Hemofili hos kvinnelige bærere oppstår fra Factor VIII (F8)-genmangel og innebærer den intrinsic koagulasjonskaskaden — en vei som har **ingen dokumentert mekanistisk overlapping** med PCSK9/LDL-reseptor-biologi. Evidenspakkens egen begrunnelse for denne prediksjonen sier eksplisitt at det ikke finnes noen kjent interaksjon eller delt vei mellom de to, og konkluderer at den høye TxGNN-skåren sannsynligvis gjenspeiler **kunnskapsgraf-nærhetsstøy** snarere enn et genuint farmakologisk signal.
 
-## Taiwan Market Information
-
-Evolocumab currently holds **no marketing authorization in Taiwan** (0 licenses on file). No dosage form or approved indication text is available for this jurisdiction.
+Denne vurderingen forsterkes av mønsteret på tvers av de andre fem rangerte kandidatene i denne pakken (familial ApoC-II-mangel, trombositopenisk purpura, Factor XI-mangel, hemofili A med vaskulær abnormitet, og en ikke-spesifikk ontologi-superklasse «sykdom av katalytisk aktivitet») — alle har samme L5/Avvent-status, ingen studier, ingen litteratur, og begrunnelsestekst som uavhengig argumenterer mot mekanistisk plausibilitet. Dette er ikke typisk for et sterkt omformål-signal.
 
 ---
 
-## Safety Considerations
+## Evidens fra kliniske studier
 
-Please refer to the package insert for safety information.
-
-*(Note: key warnings, contraindications, and drug-interaction data are all flagged as data gaps in this evidence pack — including TFDA label data, listed as a Blocking gap (DG001). This must be resolved before any S1 safety review can proceed.)*
+For øyeblikket ingen relaterte kliniske studier registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbasert evidens
 
-**Decision: Hold**
+For øyeblikket ingen relatert litteratur tilgjengelig.
 
-**Rationale:**
-The TxGNN score is high, but there are zero clinical trials, zero publications, and no Taiwan regulatory data to support this prediction. More importantly, the pack's own mechanistic rationale independently concludes that the PCSK9/LDL pathway has no known connection to hemophilia pathophysiology, suggesting the score reflects graph artifact rather than biological signal.
+---
 
-**To proceed, the following is needed:**
-- TFDA-equivalent product label (warnings/contraindications) — currently Blocking (DG001)
-- Verified mechanism of action data from DrugBank or primary literature (DG002)
-- Confirmed original indication(s) for evolocumab in this dataset
-- An independent literature/clinical-trial search specifically for evolocumab in bleeding disorders, to confirm or rule out the TxGNN signal before any further scoring
-- Consideration of whether this candidate (and its sibling predictions in this pack) should be deprioritized in favor of TxGNN candidates with actual trial/literature support
+## Taiwans markedsinformasjon
+
+Evolocumab har for øyeblikket **ingen markedsføringsgodkjenning i Taiwan** (0 lisenser på fil). Ingen doseringsform eller godkjent indiksjonstekst er tilgjengelig for denne jurisdiksjonen.
+
+---
+
+## Sikkerhetsoverveielser
+
+Vær vennlig å referere til pakningsvedlegget for sikkerhetsinformasjon.
+
+*(Merk: viktige advarsler, kontraindikasjoner og stoff-interaksjonsdata er alle flagget som datahuller i denne evidenspakken — inkludert TFDA-merketdata, oppført som Blocking gap (DG001). Dette må løses før noen S1-sikkerhetsgjennomgang kan gjennomføres.)*
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+TxGNN-skåren er høy, men det er null kliniske studier, null publikasjoner, og ingen Taiwan-regulatoriske data som støtter denne prediksjonen. Enda viktigere, pakkens egen mekanistiske begrunnelse konkluderer uavhengig at PCSK9/LDL-stien har ingen kjent forbindelse til hemofilis patofysiologi, noe som antyder at skåren reflekterer en grafartifakt snarere enn et biologisk signal.
+
+**For å gå videre, trengs følgende:**
+- TFDA-ekvivalent produktmerking (advarsler/kontraindikasjoner) — for øyeblikket Blocking gap (DG001)
+- Verifiserte virkningsmekanisme-data fra DrugBank eller primærlitteratur (DG002)
+- Bekreftet opprinnelig indikasjon(er) for evolocumab i dette datasettet
+- Et uavhengig litteratur-/klinisk-studie-søk spesifikt for evolocumab i blødningsforstyrrelser, for å bekrefte eller utelukke TxGNN-signalet før videre scoring
+- Vurdering av hvorvidt denne kandidaten (og dens søskenprediksjoner i denne pakken) bør deprioriteres til fordel for TxGNN-kandidater med faktisk studie-/litteraturstøtte
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

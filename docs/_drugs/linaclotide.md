@@ -29,89 +29,90 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Linaclotide: From Not Specified to Cauda Equina Syndrome
+# Linaclotid: Fra ikke spesifisert til Cauda Equina Syndrome
 
-## One-Sentence Summary
+## Sammendrag på en setning
 
-> Linaclotide's original approved indication is not documented in the current evidence pack (mechanism of action and indication data are unavailable).
-> The TxGNN model predicts it may be effective for **Cauda Equina Syndrome**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the drug is not marketed in Norway.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in current data |
-| Predicted New Indication | Cauda Equina Syndrome |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Linaclotids opprinnelig godkjente indikasjon er ikke dokumentert i gjeldende evidenspakke (data om virkningsmekanisme og indikasjon er ikke tilgjengelige).
+> TxGNN-modellen forutsier at det kan være effektivt for **Cauda Equina Syndrome**,
+> men denne prediksjonen er for øyeblikket støttet av **0 kliniske forsøk** og **0 publikasjoner**, og legemidlet er ikke markedsført i Norge.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available for linaclotide in this evidence pack. Based on the drug's known pharmacological class, linaclotide is a guanylate cyclase-C (GC-C) agonist that acts locally on intestinal epithelial receptors, with negligible systemic absorption and no central or peripheral neural mechanism of action.
-
-Cauda equina syndrome is a surgical emergency caused by mechanical compression of the lumbosacral nerve roots, requiring urgent decompression. There is no established physiological link between GI secretory modulation (linaclotide's known mode of action) and nerve root compression pathology.
-
-Given the absence of any supporting clinical trials or literature, this prediction most likely reflects a knowledge-graph artifact — possibly arising from shared comorbidity nodes such as constipation or neurogenic bowel symptoms that commonly co-occur with cauda equina syndrome — rather than a genuine pharmacological signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|--------|
+| Opprinnelig indikasjon | Ikke tilgjengelig i gjeldende data |
+| Predikert ny indikasjon | Cauda Equina Syndrome |
+| TxGNN-prediksjonspoengsum | 99.96% |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige for linaclotid i denne evidenspakken. Basert på legemidlets kjente farmakologiske klasse, er linaclotid en guanylat cyclase-C (GC-C) agonist som virker lokalt på intestinale epitelreseptorer, med neglisjerbar systemisk absorpsjon og ingen sentral eller perifer nevral virkningsmekanisme.
 
----
+Cauda equina syndrome er en kirurgisk nødsituasjon forårsaket av mekanisk kompresjon av lumbsakrale nerverøtter, som krever hastelig dekompresjon. Det er ingen etablert fysiologisk forbindelse mellom GI-sekretorisk modulering (linaclotids kjente virkemåte) og nerverotkompresjonpatologi.
 
-## Norway Market Information
-
-Linaclotide is not currently marketed in Norway, and no authorization records are available in this evidence pack.
+Gitt fraværet av noen støttende kliniske forsøk eller litteratur, reflekterer denne prediksjonen mest sannsynlig en kunnskapsgrafartefakt — muligens oppstått fra delte komorbiditetsknuter som forstoppelse eller nevrogen blæreproblematikk som ofte forekommer sammen med cauda equina syndrome — snarere enn et genuint farmakologisk signal.
 
 ---
 
-## Safety Considerations
+## Evidens fra kliniske forsøk
 
-Please refer to the package insert for safety information.
-
----
-
-## Additional Predictions Evaluated
-
-Two other TxGNN-predicted indications were reviewed in this evidence pack, both similarly unsupported:
-
-| Rank | Predicted Indication | TxGNN Score | Evidence | Recommendation |
-|------|----------------------|-------------|----------|-----------------|
-| 2 | Obsolete Neurogenic Bladder (disease) | 99.89% | None | Hold |
-| 3 | Insomnia | 99.51% | None | Hold |
-
-Rank 2 is flagged as an obsolete/deprecated disease ontology node, indicating a data-quality issue rather than a valid hypothesis. Rank 3 lacks mechanistic plausibility, as linaclotide has oral bioavailability <0.1% and does not cross the blood-brain barrier, precluding any central action on sleep-regulating pathways.
+For øyeblikket er det ingen registrerte relaterte kliniske forsøk.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For øyeblikket er ingen relatert litteratur tilgjengelig.
 
-**Rationale:**
-All three predicted indications carry L5 evidence (model prediction only), with zero supporting clinical trials or literature, and the top-ranked candidate (cauda equina syndrome) lacks any plausible mechanistic basis given linaclotide's local, non-systemic mode of action. Additionally, this candidate cannot proceed to safety screening (S1) due to a Blocking data gap on TFDA warnings/contraindications.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action data from DrugBank — currently a High-severity data gap (DG002)
-- Original approved indication(s) for linaclotide, to establish a baseline for mechanistic comparison
-- Any real-world or preclinical evidence directly linking GC-C agonism to the predicted indications before further evaluation is warranted
+## Markedsinformasjon Norge
+
+Linaclotid er for øyeblikket ikke markedsført i Norge, og ingen autorisasjonsregistreringer er tilgjengelige i denne evidenspakken.
+
+---
+
+## Sikkerhetsoverveielser
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Ytterligere evaluerte prediksjoner
+
+To andre TxGNN-predikerte indikasjoner ble gjennomgått i denne evidenspakken, begge tilsvarende ustøttet:
+
+| Rangering | Predikert indikasjon | TxGNN-poengsum | Bevis | Anbefaling |
+|-----------|----------------------|----------------|-------|-----------|
+| 2 | Obsolete Neurogenic Bladder (disease) | 99.89% | Ingen | Hold |
+| 3 | Insomnia | 99.51% | Ingen | Hold |
+
+Rangering 2 er flagget som en foreldet/avskrevet sykdomsontologinode, som indikerer et datakvalitetsproblem snarere enn en gyldig hypotese. Rangering 3 mangler mekanistisk plausibilitet, ettersom linaclotid har oral biodisponibilitet <0,1% og krysser ikke blod-hjerne-barrieren, noe som utelukker enhver sentral virkning på søvnregulerende mekanismer.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Alle tre predikerte indikasjoner har L5-evidens (kun modellpredikasjon), med null støttende kliniske forsøk eller litteratur, og den topprangerte kandidaten (cauda equina syndrome) mangler enhver plausibel mekanistisk grunnlag gitt linaclotids lokale, ikke-systemiske virkemåte. I tillegg kan denne kandidaten ikke fortsette til sikkerhetskontroll (S1) på grunn av en blokkerande datakløft for TFDA-advarsler/kontraindikasjoner.
+
+**For å fortsette trengs følgende:**
+- TFDA-pakningsvedlegg (advarsler, kontraindikasjoner) — for øyeblikket en blokkerande datakløft (DG001)
+- Bekreftet virkningsmekanismedata fra DrugBank — for øyeblikket en alvorlig datakløft (DG002)
+- Opprinnelig godkjente indikasjon(er) for linaclotid, for å etablere en grunnlinje for mekanistisk sammenligning
+- Noen virkelighetsnære eller prekliniske bevis direkte knyttet til GC-C-agonisme til de predikerte indikasjonene før videre evaluering er berettiget
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

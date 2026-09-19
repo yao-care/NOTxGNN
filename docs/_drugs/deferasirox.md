@@ -29,77 +29,78 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Deferasirox：從鐵過載治療 到 HIV 感染症預測
+# Deferasirox: Fra jernoverbelastningsbehandling til HIV-infeksjon prediksjon
 
-## 一句話摘要
+## Enlinjesammendrag
 
-Deferasirox 是一款口服三價鐵螯合劑，本 Evidence Pack 未提供其正式核准適應症資料，但依既有藥理學知識，臨床上用於治療輸血相關鐵過載。TxGNN 模型將其預測適應症中排名第一的訊號指向 **HIV 感染症**，目前僅有 **2 篇文獻**（機轉性體外研究與藥品新聞回顧）支持，**無任何已註冊臨床試驗**，證據強度偏弱。
-
----
-
-## 快速總覽
-
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | 資料缺失（`original_indications` 未提供、Norway Not marketed無授權資料可查） |
-| 預測新適應症 | HIV infectious disease |
-| TxGNN 預測分數 | 99.40% |
-| 證據等級 | L4（機轉/臨床前研究層級） |
-| Norway 市場狀態 | ✗ Not marketed |
-| 授權數量 | 0 |
-| 建議決策 | Hold |
+Deferasirox er et oralt trivalent jernskjelator. Denne Evidence Pack gir ikke offisielle godkjente indikasjoner, men basert på eksisterende farmakologisk kunnskap brukes det klinisk til behandling av transfusjonsrelatert jernoverbelastning. TxGNN-modellen peker med sin høyest rangerte predikerte indikasjon mot **HIV-infeksjon**, og støttes for tiden bare av **2 publikasjoner** (mekanistisk in vitro-studie og narkotikanyhetsoversikt), **uten noen registrerte kliniske studier**, og bevisstyrken er svak.
 
 ---
 
-## 為何此預測具合理性？
+## Hurtigoversikt
 
-目前尚無詳細作用機轉（MOA）正式資料（`original_moa` 標示為 Data Gap）。根據 Evidence Pack 中的關聯性分析，Deferasirox 為口服三價鐵螯合劑，其主要藥理作用是降低胞內游離鐵濃度，臨床上多用於鐵過載相關病症；此機轉在鐵代謝與病毒交互作用領域可能具有延伸適用性。
-
-支持 HIV 適應症預測的機轉假說來自一篇體外研究：endolysosome 中的鐵離子濃度會影響 HIV-1 Tat 蛋白的寡聚化程度，進而調控 LTR 轉錄活化（PMID 34550543）。此假說認為鐵螯合可能間接抑制病毒轉錄活化，但這是**間接的鐵代謝-病毒交互作用假說**，並非藥物直接抗病毒機轉，也尚未有任何臨床試驗驗證此一路徑在人體中的有效性。
-
-另需說明，本 Evidence Pack 同時列出另外 4 個 TxGNN 預測訊號（chronic HCV、罕見神經發育疾病、obsolete 家族性混合型高血脂症、dermatofibrosarcoma protuberans），其證據等級多為 L5（純模型預測、無文獻或臨床證據支持），建議狀態均為 Hold，故本報告聚焦於證據相對較完整的 HIV 適應症訊號（rank 1）。
-
----
-
-## 臨床試驗證據
-
-目前無相關已註冊臨床試驗
+| Emne | Innhold |
+|------|---------|
+| Originale indikasjoner | Manglende data (`original_indications` ikke oppgitt, Norge Not marketed ingen autorisasjonsdata tilgjengelig) |
+| Forutsagt ny indikasjon | HIV infectious disease |
+| TxGNN forutsigelsesskår | 99.40% |
+| Bevisnivå | L4 (mekanistisk/preklinisk forskningsnivå) |
+| Markedsstatus for Norge | ✗ Not marketed |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## 文獻證據
+## Hvorfor har denne prediksjonen rimelig grunnlag?
 
-| PMID | 年份 | 類型 | 期刊 | 關鍵發現 |
-|------|-----|------|------|---------|
-| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Preclinical mechanistic study | Journal of Neurovirology | Endolysosome 內鐵離子濃度會限制 HIV-1 Tat 蛋白寡聚化與 β-catenin 表現，進而抑制 Tat 介導之 HIV-1 LTR transactivation（體外機轉研究） |
-| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Review/Drug news | Journal of the American Pharmacists Association | 屬於新藥上市回顧報導（涵蓋 ramelteon、tipranavir、nepafenac、deferasirox），未提供 deferasirox 與 HIV 相關之具體療效資料 |
+For tiden foreligger det ingen detaljert informasjon om virkningsmekanisme (MOA) (`original_moa` er merket som Data Gap). Basert på assosiativanalysen i Evidence Pack er Deferasirox et oralt trivalent jernskjelator hvis primære farmakologiske virkning er å redusere intracellulær fri jernkonsentrasjon, og det brukes klinisk oftest ved jernoverbelastningsrelaterte lidelser; denne mekanismen kan ha utvidet anvendelighet innen jernomsettings- og virusinteraksjonsfeltet.
 
----
+Den mekanistiske hypotesen som støtter HIV-indikasjonspredikasjonen kommer fra en in vitro-studie: jernionkonsentrasjonen i endolysosomer påvirker graden av oligomerisering av HIV-1 Tat-protein, og dermed regulerer LTR-transkripsjonsaktivasjon (PMID 34550543). Denne hypotesen antyder at jernskjelering muligens indirekte kan hemme viral transkripsjonsaktivasjon, men dette er **en indirekte hypotese om jernomsettings-virusinteraksjon**, ikke en direkte antivirale mekanisme for legemidlet, og det foreligger ingen kliniske studier som bekrefter effektiviteten av denne veien hos mennesker.
 
-## Norway 市場資訊
-
-目前 Deferasirox 於 Norway 市場狀態為「Not marketed」，無授權（licenses）資料可供列示。
+Det skal også bemerkes at denne Evidence Pack samtidig viser 4 andre TxGNN-prediksjoner (kronisk HCV, sjelden nevrolig utviklingssykdom, utdatert familial blandet dyslipidemi, dermatofibrosarcoma protuberans), og bevisnivåene er for det meste L5 (ren modellprediksjon, uten litteratur eller klinisk støtte), og anbefalingstilstanden er alle Hold, så denne rapporten fokuserer på HIV-indikasjonssignalet med relativt fullstendigere bevis (rank 1).
 
 ---
 
-## 安全性考量
+## Bevis fra kliniske studier
 
-請參閱藥品仿單以獲取安全性資訊（本 Evidence Pack 中之警語、禁忌、藥物交互作用資料均標示為 Data Gap，且 DG001 已列為 Blocking 等級缺口，尚待自 DMP website取得正式仿單資料）。
+For tiden ingen relevante registrerte kliniske studier
 
 ---
 
-## 結論與後續建議
+## Litteraturbevis
 
-**決策：Hold**
+| PMID | År | Type | Tidsskrift | Viktige funn |
+|------|-----|------|-----------|---------------|
+| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Preklinisk mekanismestudium | Journal of Neurovirology | Jernionkonsentrasjonen i endolysosomer begrenser oligomerisering av HIV-1 Tat-protein og β-catenin-ekspresjon, og hemmer dermed Tat-formidlet HIV-1 LTR-transaktivasjon (in vitro mekanismestudium) |
+| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Oversikt/Narkotikanyheter | Journal of the American Pharmacists Association | Er en narkotikanyhetesoversikt (dekker ramelteon, tipranavir, nepafenac, deferasirox), gir ikke spesifikke effektivitetsdata for deferasirox relatert til HIV |
 
-**理由：**
-現有支持 HIV 適應症的證據僅為單篇體外機轉研究（L4），缺乏任何臨床試驗或人體驗證資料；同時安全性仿單資料（警語、禁忌）為 Blocking 等級缺口（DG001），在此資料補齊前無法進行 S1 安全性初評，尚不足以支持進入後續開發階段。
+---
 
-**若欲推進，需補充：**
-- TFDA 仿單警語與禁忌資料（DG001，Blocking，需下載並解析官方仿單 PDF）
-- 完整作用機轉（MOA）資料（DG002，High，可透過 DrugBank API 查詢補齊）
-- 針對「鐵螯合-HIV Tat 轉錄調控」假說之體內驗證研究，或至少建立此適應症之臨床前/早期臨床試驗規劃
-- 藥物交互作用（DDI）正式查詢結果，目前為 not_found 狀態
+## Markedsinformasjon for Norge
+
+For tiden er Deferasirox markedsstatus i Norge «Not marketed», uten autorisasjonsdata som kan vises.
+
+---
+
+## Sikkerhetsvurderinger
+
+Konsulter pakningsvedlegget for sikkerhetsinformasjon (advarsler, kontraindikasjoner og data om legemiddelinteraksjoner i denne Evidence Pack er alle merket som Data Gap, og DG001 er allerede klassifisert som et Blocking-nivå gap, som venter på offisielle pakningsvedlegg fra DMP-nettstedet).
+
+---
+
+## Konklusjon og videre anbefalinger
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Dagens bevis som støtter HIV-indikasjonen består bare av en enkelt in vitro mekanismestudium (L4), mangler all klinisk eller human verifikasjonsdata; samtidig er sikkerhetspakningsvedlegg data (advarsler, kontraindikasjoner) et Blocking-nivå gap (DG001). Før disse dataene fylles, kan ikke S1-sikkerhetsinitiell evaluering utføres, og det er ikke tilstrekkelig til å støtte inngang i neste utviklingsfase.
+
+**Hvis du ønsker å gå videre, må du supplere:**
+- TFDA-pakningsvedlegg advarsler og kontraindikasjonsdata (DG001, Blocking, må laste ned og analysere offisielt pakningsvedlegg PDF)
+- Komplett virkningsmekanismedata (MOA) (DG002, High, kan suppleres gjennom DrugBank API-søk)
+- In vivo-verifikasjonsstudier for hypotesen «jernskjelering-HIV Tat-transkripsjonregulering», eller i det minste etablering av preklinisk/tidlig fase klinisk forsøksplanlegging for denne indikasjonen
+- Formelle søkeresultater for legemiddelinteraksjoner (DDI), for tiden i not_found-status
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

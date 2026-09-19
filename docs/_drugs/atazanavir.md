@@ -29,81 +29,80 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-Using the drug-repurposing report template to synthesize this Evidence Pack.
+# Atazanavir: Fra HIV-1-infeksjon til Simian Immunodeficiency Virus-infeksjon
 
-# Atazanavir: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
+## Én-linjers sammendrag
 
-## One-Sentence Summary
+> Atazanavir er en HIV-1-proteasehemmer brukt som del av antiretroviral terapi for HIV-1-infeksjon (utledet fra forsøkssammenheng i denne evidenspakken; ingen formell indikasjonsregistrering foreligger fordi legemidlet ikke er markedsført i Norge).
+> TxGNN-modellens topprangerte prediksjon er **Simian Immunodeficiency Virus (SIV)-infeksjon**, en lentivirusinfeksjon hos makaker,
+> støttet av bare **1 preklinisk publikasjon** og **0 kliniske studier** — bevis som er bare preklinisk/mekanistisk, ikke klinisk handlingsorientert.
 
-> Atazanavir is an HIV-1 protease inhibitor used as part of antiretroviral therapy for HIV-1 infection (inferred from trial context in this evidence pack; no formal indication record exists because the drug is not marketed in Norway).
-> The TxGNN model's top-ranked prediction is **Simian Immunodeficiency Virus (SIV) Infection**, a lentivirus infection of macaques,
-> supported by only **1 preclinical publication** and **0 clinical trials** — evidence that is preclinical/mechanistic only, not clinically actionable.
-
-> ⚠️ **Important caveat:** Ranks 2–4 in this prediction set (feline AIDS, a rare neurodevelopmental disorder, and an obsolete hyperlipidemia term) have no meaningful mechanistic or evidentiary support and should not be pursued. Rank 5 ("AIDS related complex") does have strong evidence (2 completed Phase 3 RCTs, L1), but this reflects the drug's **already-established core HIV/AIDS indication**, not a genuine repurposing opportunity.
+> ⚠️ **Viktig forbehold:** Rankinger 2–4 i dette prediksjonssettet (katters AIDS, en sjelden nevrutviklingsforstyrrelse og et foreldet hyperlipidemibegrep) har ingen meningsfull mekanistisk eller bevisforankring og bør ikke forfølges. Ranking 5 ("AIDS related complex") har sterke bevis (2 fullførte fase 3 RCT-er, L1), men dette gjenspeiler legemidlets **allerede etablerte kjerneindikasjonen**, ikke en genuin repurposing-mulighet.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | HIV-1 infection (antiretroviral therapy) — inferred from clinical trial context; not formally on file as no Taiwan/Norway license exists |
-| Predicted New Indication | Simian Immunodeficiency Virus (SIV) Infection |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | HIV-1-infeksjon (antiretroviral terapi) — utledet fra klinisk forsøkssammenheng; ikke formelt registrert da det ikke finnes Taiwan/Norge-lisens |
+| Predikert ny indikasjon | Simian Immunodeficiency Virus (SIV)-infeksjon |
+| TxGNN-prediksjonspoengsum | 99.98% |
+| Evidensnivå | L4 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt avgjørelse | Avvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed DrugBank MOA data was not available in this evidence pack (flagged as a High-severity data gap, DG002). However, context embedded in the evidence itself (clinical trial titles and the rationale for rank 5) indicates atazanavir is an **HIV-1 protease inhibitor** that blocks cleavage of the Gag-Pol polyprotein, preventing viral maturation — the pharmacological basis for its established use in HIV-1 infection.
+Detaljerte DrugBank MOA-data var ikke tilgjengelige i denne evidenspakken (flagget som et datakløft med høy alvorlighetsgrad, DG002). Konteksten innebygd i selve beviset (kliniske forsøkstitler og begrunnelsen for ranking 5) indikerer imidlertid at atazanavir er en **HIV-1-proteasehemmer** som blokkerer spalting av Gag-Pol-polyproteinet, noe som forhindrer viral modning — det farmakologiske grunnlaget for dets etablerte bruk ved HIV-1-infeksjon.
 
-SIV and HIV both belong to the lentivirus genus and share structural homology in their protease enzymes. This gives a theoretical rationale for cross-species protease inhibition, which is the basis of TxGNN's high similarity score. However, SIV infection is exclusively a **non-human primate disease model** used in translational HIV research (e.g., macaque studies of CNS viral reservoirs). It is not a human clinical indication, so this prediction has research value only — it cannot be advanced as a human drug repurposing candidate regardless of mechanistic plausibility.
+SIV og HIV tilhører begge lentivirusslekten og deler strukturell homologi i sine proteasenzymer. Dette gir et teoretisk grunnlag for proteasehemming på tvers av arter, som er grunnlaget for TxGNNs høye likhetsscore. SIV-infeksjon er imidlertid eksklusivt en **ikke-menneskelig sykdomsmodell** brukt i translasjonsforskning på HIV (f.eks. makakstudier av virale CNS-reservoarer). Det er ikke en menneskelig klinisk indikasjon, så denne prediksjonen har kun forskningsverdi — den kan ikke fremmes som en menneskelig legemiddelrepurposing-kandidat uavhengig av mekanistisk plausibilitet.
 
-By contrast, rank 5 ("AIDS related complex") is directly supported by two completed Phase 3 RCTs (NCT00035932, n=571; NCT01099579, n=82) and reflects atazanavir's core, already-approved pharmacology rather than a new indication. This is useful context but does not constitute "repurposing" in the sense this report is meant to evaluate.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Simian Immunodeficiency Virus Infection.
+Derimot er ranking 5 ("AIDS related complex") direkte støttet av to fullførte fase 3 RCT-er (NCT00035932, n=571; NCT01099579, n=82) og gjenspeiler atazanavirs kjernefarmakologi som allerede er godkjent, snarere enn en ny indikasjon. Dette er nyttig kontekst, men utgjør ikke «repurposing» i den betydningen denne rapporten er ment å evaluere.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske studier
 
-| PMID | Year | Type | Journal | Key Findings |
+For øyeblikket ingen relaterte kliniske studier registrert for Simian Immunodeficiency Virus-infeksjon.
+
+---
+
+## Litteraturbevis
+
+| PMID | År | Type | Tidsskrift | Nøkkelfunn |
 |------|-----|------|------|---------|
-| [20497048](https://pubmed.ncbi.nlm.nih.gov/20497048/) | 2010 | Preclinical (macaque model) | The Journal of Infectious Diseases | HAART-treated SIV-infected macaques showed reduced CNS viral replication and inflammation, but persistent viral DNA in the CNS despite plasma viral suppression — an animal translational model finding, not direct evidence for a human indication. |
+| [20497048](https://pubmed.ncbi.nlm.nih.gov/20497048/) | 2010 | Preklinisk (makakmodell) | The Journal of Infectious Diseases | HAART-behandlede SIV-infiserte makaker viste redusert viral replikering og inflammasjon i CNS, men vedvarende viral DNA i CNS til tross for virusundertrykkelse i plasma — et funn fra dyretranslasjonsforskning, ikke direkte bevis for en menneskelig indikasjon. |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Atazanavir is **not currently marketed in Norway** (market status: Not marketed / Not marketed). There are no drug license records (`total_licenses = 0`), so no authorization table can be produced.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-drug interaction data were not available in this evidence pack — flagged as a Blocking-severity data gap, DG001, that prevents entry into the S1 safety pre-assessment stage.)
+Atazanavir er **ikke for øyeblikket markedsført i Norge** (markedsstatus: Ikke markedsført / Ikke markedsført). Det finnes ingen legemiddellisensregistreringer (`total_licenses = 0`), så ingen autorisasjonstabell kan produseres.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetsoverveielser
 
-**Decision: Hold**
+Se pakningsvedlegg for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og legemiddel-legemiddel-interaksjonsdata var ikke tilgjengelige i denne evidenspakken — flagget som et blokkerende datakløft, DG001, som forhindrer inngang til S1-sikkerhetsvurderingsfasen.)
 
-**Rationale:**
-The top-ranked prediction (SIV infection) targets a non-human disease model and is supported only by a single preclinical publication with no clinical trials (L4, S0 decision stage) — insufficient for repurposing consideration. Ranks 2–4 lack any credible mechanistic or evidentiary basis. Rank 5, while strongly supported (L1), represents the drug's existing core indication rather than a new opportunity, so it does not change the overall recommendation for this repurposing candidate.
+---
 
-**To proceed, the following is needed:**
-- TFDA-equivalent (or Norwegian) package insert warnings/contraindications (DG001 — Blocking; required before any S1 safety pre-assessment)
-- Confirmed mechanism-of-action data from DrugBank (DG002 — High priority; needed to properly assess mechanistic plausibility)
-- If pursuing translational research value, a defined path from the SIV macaque model to a genuine human indication (e.g., HIV-associated neurocognitive disorder), since SIV infection itself is not a human disease target
+## Konklusjon og neste trinn
+
+**Avgjørelse: Avvent**
+
+**Begrunnelse:**
+Den topprangerte prediksjonen (SIV-infeksjon) retter seg mot en ikke-menneskelig sykdomsmodell og er støttet kun av en enkelt preklinisk publikasjon uten kliniske studier (L4, S0 avgjørelsesstadie) — utilstrekkelig for repurposing-vurdering. Rankinger 2–4 mangler enhver troverdig mekanistisk eller bevisforankring. Ranking 5, selv om sterkt støttet (L1), representerer legemidlets eksisterende kjerneindikasjonen snarere enn en ny mulighet, så det endrer ikke den overordnede anbefalingen for denne repurposing-kandidaten.
+
+**Følgende er påkrevd for å fortsette:**
+- TFDA-ekvivalent (eller norsk) pakningsvedlegg advarsler/kontraindikasjoner (DG001 — Kritisk; påkrevd før noen S1-sikkerhetsvurdering)
+- Bekreftet handlingsmekanisme-data fra DrugBank (DG002 — Høy prioritet; nødvendig for korrekt vurdering av mekanistisk plausibilitet)
+- Hvis translasjonsforskning skal forfølges, må det etableres en definert vei fra SIV-makakmodellen til en genuin menneskelig indikasjon (f.eks. HIV-assosiert nevrokognitiv lidelse), siden SIV-infeksjon i seg selv ikke er et menneskelig sykdomsmål
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

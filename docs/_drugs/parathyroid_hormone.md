@@ -29,83 +29,84 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Parathyroid Hormone: From No Established Indication to Predicted Migraine Disorder
+# Parathormon: Fra ingen etablert indikasjon til predikert migrenelidelse
 
-## One-Sentence Summary
+## Oppsummering på én setning
 
-Parathyroid Hormone (PTH, DrugBank ID DB05829) has no marketing authorization or approved indication recorded in Norway, and its original mechanism of action is not documented in the available data. The TxGNN model predicts potential relevance to **Migraine Disorder**, but the current supporting evidence is indirect — **1 tangentially related clinical trial** and **6 literature references**, most of which discuss PTH/PTHrP-related genetics or comorbid endocrine mechanisms rather than direct therapeutic evidence for migraine.
+Parathormon (PTH, DrugBank ID DB05829) har ingen markedsautorisasjon eller godkjent indikasjon registrert i Norge, og dets opprinnelige virkningsmekanisme er ikke dokumentert i tilgjengelige data. TxGNN-modellen predikerer potensiell relevans til **Migrenelidelse**, men det nåværende understøttende beviset er indirekte — **1 tangensielt relatert klinisk forsøk** og **6 litteraturreferanser**, hvorav de fleste omhandler PTH/PTHrP-relatert genetikk eller komorbide endokrine mekanismer snarere enn direkte terapeutisk bevis for migrene.
 
 ---
 
-## Quick Overview
+## Hurtig oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not available (drug not marketed in Norway; no approved indication text on file) |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Original indikasjon | Ikke tilgjengelig (legemiddel ikke markedsført i Norge; ingen godkjent indikasjon på fil) |
+| Predikert ny indikasjon | Migrenelidelse |
+| TxGNN prediksjonscore | 99.98% |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Vente |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available for Parathyroid Hormone. Based on the evidence pack, no original indication or MOA record exists in the Norway regulatory dataset, and the drug is not currently marketed there — so a direct mechanistic bridge between an "original indication" and migraine cannot be established from the provided data.
+For tiden er detaljerte virkningsmekanisme-data ikke tilgjengelige for Parathormon. Basert på bevispakken finnes ingen opprinnelig indikasjon eller virkningsmekanisme-registrering i det norske regulatoriske datasettet, og legemiddelet er ikke for tiden markedsført der — så en direkte mekanisk sammenheng mellom en "opprinnelig indikasjon" og migrene kan ikke etableres fra de tilgjengelige dataene.
 
-The strongest supporting signal is a 2025 genetic/mechanistic study identifying **PTHrP (parathyroid hormone-related peptide) receptors** as one of several genetic drivers associated with migraine susceptibility (PMID 40297711). This is a receptor-family association at the genomic level, not evidence that exogenous PTH administration treats migraine. A small number of older publications describe central nervous system effects of calcitonin/parathormone (PMID 3739765) and comorbid calcium/vitamin D/magnesium metabolism in migraine patients, but these describe correlative or physiological relationships rather than a therapeutic rationale for PTH itself.
+Det sterkeste understøttende signalet er en genetisk/mekanistisk studie fra 2025 som identifiserer **PTHrP (parathyroid hormone-related peptide) reseptorer** som en av flere genetiske drivere assosiert med migrenereseptivitet (PMID 40297711). Dette er en reseptor-familie-assosiasjon på genomnivå, ikke bevis for at eksogen PTH-administrasjon behandler migrene. Et lite antall eldre publikasjoner beskriver effekter på sentralnervesystemet av kalsitonin/parathormon (PMID 3739765) og komorbid kalsium/vitamin D/magnesium-metabolisme hos migrenepasient, men disse beskriver korrelative eller fysiologiske forhold snarere enn en terapeutisk begrunnelse for PTH selv.
 
-Overall, the mechanistic link is plausible at the level of shared gene families and calcium-regulatory physiology, but it falls well short of establishing that PTH treatment would be clinically effective for migraine. This is reflected in the low evidence level (L4) assigned to this prediction.
+Totalt sett er den mekaniske koblingen plausibel på nivået av delte genfamilier og kalsium-regulatorisk fysiologi, men den faller langt under etableringen av at PTH-behandling ville være klinisk effektiv for migrene. Dette gjenspeiles i det lave evidensnivået (L4) som er tildelt denne prediksjonen.
 
 ---
 
-## Clinical Trial Evidence
+## Klinisk forsøksbevis
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Rekruttering | Viktigste funn |
 |---------|------|------|------|---------|
-| [NCT07028684](https://clinicaltrials.gov/study/NCT07028684) | N/A | Completed | 22 | Studied foot reflexology massage (not PTH) for pain, sleep, and quality of life in women with migraine; disease-population overlap only, no PTH intervention (relevance grade C). |
+| [NCT07028684](https://clinicaltrials.gov/study/NCT07028684) | N/A | Fullført | 22 | Studerte fotrefleksologi-massasje (ikke PTH) for smerte, søvn og livskvalitet hos kvinner med migrene; sykdomspopulasjons-overlapp kun, ingen PTH-intervensjon (relevansvurdering C). |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktigste funn |
 |------|-----|------|------|---------|
-| [24714817](https://pubmed.ncbi.nlm.nih.gov/24714817/) | 2014 | RCT (add-on Vitamin D) | Braz J Med Biol Res | Vitamin D supplementation added to amitriptyline reduced migraine attack frequency in pediatric patients; PTH/calcium axis not directly tested. |
-| [40297711](https://pubmed.ncbi.nlm.nih.gov/40297711/) | 2025 | Review/Genetic | Brain Communications | Identifies PTHrP receptor genes as candidate genetic drivers of migraine susceptibility in a Portuguese cohort. |
-| [29429076](https://pubmed.ncbi.nlm.nih.gov/29429076/) | 2018 | Review | Neuromolecular Medicine | Reviews cardiovascular autonomic dysfunction linking bone remodeling mediators (including PTH) to neurodegeneration in MS; not migraine-specific. |
-| [11425281](https://pubmed.ncbi.nlm.nih.gov/11425281/) | 2001 | Review | Medical Hypotheses | Broad review of magnesium deficiency pathology, including its role in numerous conditions; PTH mentioned only in the context of mineral metabolism. |
-| [31261815](https://pubmed.ncbi.nlm.nih.gov/31261815/) | 2019 | Cohort | Medicina (Kaunas) | Evaluated vitamin D levels and response to therapy in childhood migraine; PTH not a treatment variable. |
-| [3739765](https://pubmed.ncbi.nlm.nih.gov/3739765/) | 1986 | Animal/Mechanistic | Acta Neurologica | Early study of central nervous system effects of calcitonin and parathormone; no abstract available, direct relevance unclear. |
+| [24714817](https://pubmed.ncbi.nlm.nih.gov/24714817/) | 2014 | RCT (tillegg Vitamin D) | Braz J Med Biol Res | Vitamin D-tilskudd lagt til amitriptylin reduserte migreneattakk-frekvens hos pediatriske pasienter; PTH/kalsium-aksen ble ikke direkte testet. |
+| [40297711](https://pubmed.ncbi.nlm.nih.gov/40297711/) | 2025 | Gjennomgang/Genetisk | Brain Communications | Identifiserer PTHrP-reseptorgener som kandidat-genetiske drivere for migrenereseptivitet i en portugisisk kohort. |
+| [29429076](https://pubmed.ncbi.nlm.nih.gov/29429076/) | 2018 | Gjennomgang | Neuromolecular Medicine | Gjennomgår kardiovaskulær autonom dysfunksjon som kobler beindannelsesmediatorer (inkludert PTH) til nevrodegenering i MS; ikke migrene-spesifikk. |
+| [11425281](https://pubmed.ncbi.nlm.nih.gov/11425281/) | 2001 | Gjennomgang | Medical Hypotheses | Bred gjennomgang av magnesiumunderskudd-patologi, inkludert dens rolle i mange tilstander; PTH nevnt kun i sammenheng med mineralstoffmetabolisme. |
+| [31261815](https://pubmed.ncbi.nlm.nih.gov/31261815/) | 2019 | Kohort | Medicina (Kaunas) | Evaluerte vitamin D-nivåer og respons på terapi hos migrene i barnealder; PTH var ikke en behandlingsvariabel. |
+| [3739765](https://pubmed.ncbi.nlm.nih.gov/3739765/) | 1986 | Dyr/Mekanistisk | Acta Neurologica | Tidlig studie av effekter på sentralnervesystemet av kalsitonin og parathormon; ingen sammendrag tilgjengelig, direkte relevans uklar. |
 
 ---
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Currently not marketed in Norway — no authorization or license records are available in the dataset.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+For tiden ikke markedsført i Norge — ingen autorisasjons- eller lisenregistreringer er tilgjengelige i datasettet.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Se pakningsvedlegget for sikkerhetsinformasjon.
 
-**Rationale:**
-Evidence for PTH in migraine is limited to a single genetic association study on PTHrP receptors and a handful of indirect or mechanistic publications, with no clinical trial directly testing PTH administration for migraine. Combined with the complete absence of Norway market authorization, MOA data, and safety/warning information, this candidate does not currently meet the threshold to proceed.
+---
 
-**To proceed, the following is needed:**
-- Detailed mechanism of action (MOA) data for Parathyroid Hormone
-- TFDA/Norway package insert warnings, contraindications, and drug interaction data
-- Direct pharmacological or clinical evidence linking PTH administration (not just PTHrP receptor genetics) to migraine pathophysiology or outcomes
-- Confirmation of route compatibility and dosage form suitability, given the drug is not currently marketed in Norway
+## Konklusjon og neste trinn
+
+**Beslutning: Vente**
+
+**Begrunnelse:**
+Bevis for PTH ved migrene er begrenset til en enkelt genetisk assosiasjonsstudie på PTHrP-reseptorer og en håndful indirekte eller mekanistiske publikasjoner, uten klinisk forsøk som direkte tester PTH-administrasjon for migrene. Kombinert med total fravær av Norge-markedsautorisasjon, virkningsmekanisme-data og sikkerhet-/varselsinformasjon, oppfyller denne kandidaten ikke for tiden terskelen for å fortsette.
+
+**For å fortsette kreves følgende:**
+- Detaljert virkningsmekanisme-data (MOA) for Parathormon
+- TFDA/Norge pakningsvedlegg med advarsler, kontraindikasjoner og legemiddel-interaksjonsdata
+- Direkte farmakologisk eller klinisk bevis som forbinder PTH-administrasjon (ikke bare PTHrP-reseptor-genetikk) til migrene-patofysiologi eller resultater
+- Bekreftelse av administreringsveikompatibilitet og legemiddelform-egnethet, gitt at legemiddelet ikke for tiden er markedsført i Norge
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

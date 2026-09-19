@@ -29,67 +29,68 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Raltegravir: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
+# Raltegravir: Fra HIV-1-infeksjon til Felint ervervet immunosviktsyndom
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-> Raltegravir is an HIV-1 integrase strand transfer inhibitor (INSTI), originally studied and used for treating HIV-1 infection in humans.
-> The TxGNN model predicts it may be effective for **Feline Acquired Immunodeficiency Syndrome**,
-> but the **2 clinical trials** currently linked to this prediction are Phase 3 studies conducted in **human** HIV-1 patients, not in cats, and **no literature** specific to the feline indication was found.
+> Raltegravir er en HIV-1-integrase-strand-transfer-inhibitor (INSTI), opprinnelig studert og brukt for behandling av HIV-1-infeksjon hos mennesker.
+> TxGNN-modellen forutsier at det kan være effektivt for **Felint ervervet immunosviktsyndom**,
+> men de **2 kliniske studiene** som for tiden er knyttet til denne prediksjonen er fase 3-studier gjennomført hos **mennesker** med HIV-1-infeksjon, ikke hos katter, og **ingen litteratur** spesifikk for felinindikasjonen ble funnet.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Tema | Innhold |
 |------|------|
-| Original Indication | HIV-1 infection (inferred from linked trial descriptions; no formal `original_indications` or market-label text was provided in the evidence pack) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L4 (the linked trials are mechanistic/analogous — human HIV-1 studies — not direct feline-indication studies) |
-| Norway Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Originalindikasjon | HIV-1-infeksjon (utledet fra beskrivelser av koblede studier; ingen formell `original_indications` eller markedsstandard-tekst ble gitt i bevisuttrekket) |
+| Forutsagt ny indikasjon | Felint ervervet immunosviktsyndom |
+| TxGNN-prediksjonspoeng | 99.78% |
+| Bevisnivå | L4 (de koblede studiene er mekanistiske/analoge — human HIV-1-studier — ikke direkte felinindikasjons-studier) |
+| Status på Norges marked | Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available (marked as a High-severity data gap). Based on the clinical trial evidence linked to this candidate, raltegravir is described as an integrase strand transfer inhibitor (INSTI) used in combination antiretroviral regimens for HIV-1 infected patients — this is stated directly in the trial descriptions (e.g., "raltegravir (RAL) 400 mg twice daily" as background therapy for HIV-1 infected adults).
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelig (merket som alvorlig datakluft). Basert på kliniske studiebevis som er knyttet til denne kandidaten, beskrives raltegravir som en integrase-strand-transfer-inhibitor (INSTI) brukt i kombinasjons antiretroviral-regimer for HIV-1-infiserte pasienter — dette er direkte angitt i studiebeskrivelsene (f.eks. «raltegravir (RAL) 400 mg to ganger daglig» som bakgrunnsbehandling for HIV-1-infiserte voksne).
 
-Mechanistically, the rationale for extending raltegravir to Feline Acquired Immunodeficiency Syndrome would rest on the fact that both HIV (in humans) and FIV-associated feline AIDS are caused by lentiviruses that depend on a viral integrase enzyme to insert proviral DNA into the host genome. An integrase inhibitor effective against HIV-1 integrase could, in principle, be evaluated against the analogous feline lentiviral integrase.
+Mekanistisk ville begrunnelsen for å utvide raltegravir til Felint ervervet immunosviktsyndom hvile på at både HIV (hos mennesker) og FIV-assosiert felint AIDS er forårsaket av lentivirus som er avhengig av et viralt integrase-enzym for å sette inn proviral-DNA i vertsgenomet. En integrase-inhibitor som er effektiv mot HIV-1-integrase, kunne i prinsippet evalueres mot det tilsvarende felinte lentiviral-integrase.
 
-However, this rationale remains theoretical at this stage: the two Phase 3 trials attached as "evidence" for this indication (NCT01231516, NCT01227824) are actually human HIV-1 studies comparing raltegravir to dolutegravir — they do not involve cats or FIV. No feline-specific trial or publication was identified. The prediction should therefore be read as a cross-species mechanistic hypothesis rather than one currently backed by direct experimental or clinical data in the target species.
+Imidlertid gjenstår denne begrunnelsen på teoristadiet: de to fase 3-studiene som er vedlagt som «bevis» for denne indikasjonen (NCT01231516, NCT01227824) er faktisk human HIV-1-studier som sammenligner raltegravir med dolutegravir — de involverer ikke katter eller FIV. Ingen felinstudier eller publikasjoner ble identifisert. Prediksjonen bør derfor leses som en tverrartsmekanistisk hypotese snarere enn en som for tiden støttes av direkte eksperimentelle eller kliniske data hos målarten.
 
-## Clinical Trial Evidence
+## Kliniske studiebevis
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studienummer | Fase | Status | Antall deltakere | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT01231516](https://clinicaltrials.gov/study/NCT01231516) | Phase 3 | Completed | 724 | Human HIV-1 study: dolutegravir 50mg QD vs. raltegravir 400mg BID, both with investigator-selected background regimen, in integrase-inhibitor-naïve, ART-experienced adults. Not a feline study. |
-| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Phase 3 | Completed | 828 | Human HIV-1 study: dolutegravir 50mg QD vs. raltegravir 400mg BID with fixed-dose dual NRTI therapy in ART-naïve adults. Not a feline study. |
+| [NCT01231516](https://clinicaltrials.gov/study/NCT01231516) | Fase 3 | Avsluttet | 724 | Human HIV-1-studie: dolutegravir 50 mg QD vs. raltegravir 400 mg BID, begge med etterforsker-valgt bakgrunnsregime, hos integrase-inhibitor-naive, ART-erfarne voksne. Ikke en felinstudie. |
+| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Fase 3 | Avsluttet | 828 | Human HIV-1-studie: dolutegravir 50 mg QD vs. raltegravir 400 mg BID med fast-dose dobbel NRTI-terapi hos ART-naive voksne. Ikke en felinstudie. |
 
-*Note: These trials establish raltegravir's antiviral efficacy against HIV-1 in humans but do not directly test the predicted feline indication.*
+*Merk: Disse studiene etablerer raltegravirs antiviral virksomhet mot HIV-1 hos mennesker, men tester ikke direkte den forutsagte felinindikasjonen.*
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+For tiden ingen relatert litteratur tilgjengelig.
 
-## Norway Market Information
+## Status på Norges marked
 
-Raltegravir is not currently marketed in Norway; no market authorizations are on record in the evidence pack.
+Raltegravir er for tiden ikke markedsført i Norge; ingen markedsautorisasjoner er registrert i bevisuttrekket.
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-The predicted indication (Feline Acquired Immunodeficiency Syndrome) targets a non-human species, and the only clinical trials currently linked to this candidate are human HIV-1 studies rather than feline-specific studies — direct relevance has not yet been established. Combined with a Blocking data gap on regulatory safety information and a High-severity gap on mechanism of action, there is insufficient basis to advance this candidate at this time.
+**Begrunnelse:**
+Den forutsagte indikasjonen (Felint ervervet immunosviktsyndom) retter seg mot en ikke-menneskelig art, og de eneste kliniske studiene som for tiden er knyttet til denne kandidaten er human HIV-1-studier snarere enn felinstudier — direkte relevans er ikke ennå etablert. Kombinert med en blokkerende datakluft på regulatorisk sikkerhetsinformasjon og en alvorlig kluft på virkningsmekanisme, er det utilstrekkelig grunnlag for å fremme denne kandidaten på nåværende tidspunkt.
 
-**To proceed, the following is needed:**
-- Verification of whether any preclinical or veterinary (FIV) in vitro/in vivo data exist for raltegravir, separate from the human HIV-1 trial evidence currently attached
-- Package insert / SPC data to close the Blocking safety data gap (key warnings, contraindications, DDI)
-- Detailed mechanism of action documentation from DrugBank
-- Clarification of relevance grading for the linked trials and literature (currently marked "pending" in the evidence pack) to confirm whether the KG-derived indication mapping is a genuine signal or an ontology/text-matching artifact (e.g., "acquired immunodeficiency syndrome" string overlap between human and feline terms)
+**For å fortsette, er følgende nødvendig:**
+- Verifisering av om det finnes prekliniske eller veterinære (FIV) in vitro/in vivo data for raltegravir, atskilt fra human HIV-1 studiebeviset som for tiden er vedlagt
+- Pakningsvedlegg/SPC data for å lukke den blokkerende sikkerhetsdatakluft (viktige advarsler, kontraindikasjoner, DDI)
+- Detaljert virkningsmekanisme dokumentasjon fra DrugBank
+- Avklaring av relevansgradering for de koblede studiene og litteraturen (for tiden merket som «ventende» i bevisuttrekket) for å bekrefte om KG-avledet indikasjons kartlegging er et ekte signal eller en ontologi/tekst-matching artefakt (f.eks. «acquired immunodeficiency syndrome» strengoverlapping mellom human og felint vilkår)
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

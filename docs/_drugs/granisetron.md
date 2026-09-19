@@ -29,78 +29,77 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# GRANISETRON: From Antiemetic Use to Manic Bipolar Affective Disorder
+# GRANISETRON: Fra antiemetisk bruk til manisk bipolar affektiv lidelse
 
-## One-Sentence Summary
+## Enlinjesammendrag
 
-Granisetron is a 5-HT3 receptor antagonist; the evidence pack does not provide structured data on its original approved indication, and the drug is not currently marketed in Norway.
-The TxGNN model predicts it may be effective for **manic bipolar affective disorder**,
-but this prediction is supported by **0 clinical trials** and **0 publications** — it is a model-only signal with no corroborating evidence.
+Granisetron er en 5-HT3-reseptorantagonist; evidenspakken inneholder ikke strukturerte data på dens opprinnelige godkjente indikasjon, og legemidlet markedsføres ikke for tiden i Norge. TxGNN-modellen predikerer at det kan være effektivt for **manisk bipolar affektiv lidelse**, men denne prediksjonen er støttet av **0 kliniske studier** og **0 publikasjoner** — det er et modelbasert signal uten bekreftende bevis.
 
 ---
 
-## Quick Overview
+## Hurtigoversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (drug class noted as 5-HT3 receptor antagonist; no approved indication text or license data available) |
-| Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.62% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available. Based on the information present in the evidence pack, granisetron is described as a **5-HT3 receptor antagonist**, a drug class whose established clinical use is antiemetic therapy (e.g., chemotherapy/radiotherapy-induced nausea and vomiting). No structured "original indication" field or Norwegian market license data is present to confirm this formally.
-
-The rationale supplied for the top prediction states that 5-HT3 antagonism could theoretically modulate serotonergic tone, and serotonin has an indirect relationship to mood regulation. However, the same rationale explicitly notes that manic/bipolar pathology is primarily driven by **dopaminergic and GABAergic** dysregulation, not serotonergic 5-HT3 signaling — meaning the mechanistic bridge here is speculative rather than established.
-
-Because this is a pure network-based prediction with no supporting trials or literature, the mechanistic plausibility alone is insufficient to move this candidate beyond an early screening stage.
+| Punkt | Innhold |
+|------|---------|
+| Opprinnelig indikasjon | Ikke dokumentert i evidenspakken (legemiddelklasse notert som 5-HT3-reseptorantagonist; ingen godkjent indikasjon eller lisensdata tilgjengelig) |
+| Predikert ny indikasjon | Manisk bipolar affektiv lidelse |
+| TxGNN-predikskjonsscore | 99.62% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related clinical trials registered
+For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige. Basert på informasjonen i evidenspakken, beskrives granisetron som en **5-HT3-reseptorantagonist**, en legemiddelklasse hvis etablerte kliniske bruk er antiemetisk terapi (f.eks. kjemoterapiutløst og strålebehandlingsutløst kvalme og oppkast). Ingen strukturert «opprinnelig indikasjon»-felt eller norske markedslisensdata er tilstede for å bekrefte dette formelt.
 
----
+Begrunnelsen som er gitt for topprediksjonen, angir at 5-HT3-antagonisme teoretisk kunne modulere serotoninerg tone, og serotonin har et indirekte forhold til stemmingsregulering. Imidlertid nevner samme begrunnelse eksplisitt at manisk/bipolar patologi primært drives av **dopaminerge og GABAerge** reguleringsforstyrringer, ikke serotoninerg 5-HT3-signalering — noe som betyr at den mekanistiske forbindelsen her er spekulativ snarere enn etablert.
 
-## Literature Evidence
-
-Currently no related literature available
+Fordi dette er en ren nettverksbasert prediksjon uten støttende studier eller litteratur, er mekanistisk plausibilitet alene utilstrekkelig for å flytte denne kandidaten utover et tidlig screeningstadium.
 
 ---
 
-## Norway Market Information
+## Kliniske studiebevis
 
-Granisetron currently holds no market authorizations in Norway (0 licenses on record); the product is not marketed.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Ingen relaterte kliniske studier registrert for øyeblikket
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Det er for øyeblikket ingen tilgjengelig relatert litteratur
 
-**Rationale:**
-The prediction rests solely on a TxGNN network score (L5) with no clinical trials, no literature, no confirmed MOA, and no market presence in Norway to anchor a mechanistic or regulatory assessment. The drug's own repurposing rationale acknowledges the mechanistic link to bipolar mania is weak and indirect.
+---
 
-**To proceed, the following is needed:**
-- TFDA-equivalent label warnings/contraindications (currently a blocking data gap, DG001)
-- Confirmed mechanism of action from DrugBank or primary literature (DG002)
-- Original approved indication and licensing status to establish a baseline for comparison
-- At minimum, preclinical or observational evidence directly linking 5-HT3 antagonism to mood/manic symptom modulation before this candidate can advance past S0
+## Markedsinformasjon Norge
 
-*Note: All 10 predicted indications in this evidence pack are rated L5/Hold with no supporting trials or literature — this candidate set as a whole is at the earliest possible screening stage.*
+Granisetron har for øyeblikket ingen markedsgodkjennelser i Norge (0 lisenser på registre); produktet markedsføres ikke.
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsletten for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Prediksjonen hviler utelukkende på en TxGNN-nettverksscore (L5) uten kliniske studier, uten litteratur, uten bekreftet MOA, og uten markedstilstedeværelse i Norge for å forankre en mekanistisk eller regulatorisk vurdering. Legemidlets egen reposisjonieringsbegrunnelse erkjenner at den mekanistiske forbindelsen til bipolar mani er svak og indirekte.
+
+**For å fortsette trengs følgende:**
+- TFDA-likeverdige etikettadvarsler/kontraindikasjoner (for øyeblikket en blokkerende datakløft, DG001)
+- Bekreftet virkningsmekanisme fra DrugBank eller primærlitteratur (DG002)
+- Opprinnelig godkjent indikasjon og lisensieringsstatus for å etablere en baseline for sammenligning
+- Som minimum, prekliniske eller observasjonelle bevis som direkte forbinder 5-HT3-antagonisme til stemnings-/manisk symptommodulering før denne kandidaten kan avansere forbi S0
+
+*Merk: Alle 10 predikerte indikasjoner i denne evidenspakken er vurdert til L5/Avvent uten støttende studier eller litteratur — denne kandidatsettet som helhet er på det tidligste mulige screeningstadiet.*
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

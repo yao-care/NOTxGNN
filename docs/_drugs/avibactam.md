@@ -29,74 +29,75 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Avibactam: From No Approved Indication to Streptococcal Pneumonia
+# Avibactam: Fra ingen godkjent indikasjon til streptokokk-pneumoni
 
-## One-Sentence Summary
+## Sammendrag på en setning
 
-Avibactam has no approved original indication or regulatory market presence recorded in this evidence pack — it is a non-β-lactam β-lactamase inhibitor that must be co-administered with a β-lactam antibiotic (e.g., ceftazidime) rather than used alone. The TxGNN model predicts a possible signal for **Streptococcal Pneumonia**, but this is supported by **0 clinical trials** and **0 publications**, and the model's own mechanistic rationale explicitly flags this link as biologically weak.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | No approved indication recorded (drug not marketed; original indication data unavailable) |
-| Predicted New Indication | Streptococcal pneumonia |
-| TxGNN Prediction Score | 99.70% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Avibactam har ingen godkjent opprinnelig indikasjon eller regulatorisk markedstilstedeværelse registrert i denne evidenspakken — det er en ikke-β-laktam β-laktamase-hemmer som må administreres sammen med et β-laktam-antibiotikum (f.eks. ceftazidim) i stedet for å brukes alene. TxGNN-modellen predikerer et mulig signal for **streptokokk-pneumoni**, men dette er støttet av **0 kliniske studier** og **0 publikasjoner**, og modellens egen mekanistiske begrunnelse flagger eksplisitt denne forbindelsen som biologisk svak.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available in the structured drug record. Based on the mechanistic notes attached to the predictions themselves, avibactam is known to have no intrinsic antibacterial activity — it functions as a non-β-lactam β-lactamase inhibitor and is only clinically useful in combination with a β-lactam antibiotic such as ceftazidime, primarily against Ambler class A/C/D β-lactamase-producing Gram-negative organisms.
-
-This background is important context for evaluating the top prediction, *Streptococcal pneumonia*: the model's own rationale states that pneumococcal resistance arises mainly from penicillin-binding protein (PBP) alterations rather than β-lactamase production, meaning avibactam's core mechanism does not directly address this pathogen's resistance pathway. The mechanistic link is therefore assessed as weak.
-
-The remaining five predicted indications (influenza susceptibility, ureter tuberculosis, urinary schistosomiasis, hyperamylasemia, polyclonal hyperviscosity syndrome) span viral, mycobacterial, parasitic, metabolic, and immunologic disease categories with no plausible connection to β-lactamase inhibition, and are explicitly annotated in the evidence pack as likely graph-based false positives. None of the six predictions is supported by any clinical trial or literature evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Emne | Innhold |
+|------|--------|
+| Opprinnelig indikasjon | Ingen godkjent indikasjon registrert (legemiddel ikke markedsført; opprinnelige indikasjondata utilgjengelige) |
+| Predikert ny indikasjon | Streptokokk-pneumoni |
+| TxGNN-prediksjonspoengsum | 99.70% |
+| Bevisnivå | L5 |
+| Norsk markedsstatus | ✗ Ikke markedsført (Ikke markedsført) |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvente |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjon rimelig?
 
-Currently no related literature available
+Detaljerte data om virkningsmekanisme er for øyeblikket ikke tilgjengelige i den strukturerte legemiddelposten. Basert på mekanistiske notater knyttet til selve prediksjonen er avibactam kjent for ikke å ha noen iboende antibakteriell aktivitet — det fungerer som en ikke-β-laktam β-laktamase-hemmer og er kun klinisk nyttig i kombinasjon med et β-laktam-antibiotikum som ceftazidim, primært mot Ambler klasse A/C/D β-laktamase-produserende gram-negative organismer.
 
----
+Denne bakgrunnen gir viktig kontekst for vurdering av toppprediksjon, *streptokokk-pneumoni*: modellens egen begrunnelse angir at pneumokkal-resistens hovedsakelig oppstår fra endringer i penicillin-bindende protein (PBP) i stedet for β-laktamase-produksjon, noe som betyr at avibactams kjernemekanisme ikke direkte adresserer denne patogenens resistansvei. Den mekanistiske forbindelsen blir derfor vurdert som svak.
 
-## Norway Market Information
-
-Avibactam has no marketing authorization in Norway (0 licenses on record); no product or approved-indication data is available for this drug in the current dataset.
+De fem gjenværende predikerte indikasjonene (influensafølsomhet, uretetuberkulose, urinær schistosomiasis, hyperamylasemi, polyklonalt hyperviskositets-syndrom) spenner over virale, mykobakterielle, parasittiske, metabolske og immunologiske sykdomskategorier uten noen plausibel forbindelse til β-laktamase-hemming, og er eksplisitt annotert i evidenspakken som sannsynlige grafordbaserte falske positiver. Ingen av de seks prediksjoner er støttet av noen klinisk studie eller litteraturbevis.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske studier
 
-Please refer to the package insert for safety information.
+For øyeblikket ingen relaterte kliniske studier registrert
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For øyeblikket ingen relevant litteratur tilgjengelig
 
-**Rationale:**
-The top-ranked prediction (streptococcal pneumonia) has zero supporting clinical trials or literature and is undermined by the model's own mechanistic analysis, which notes that avibactam's β-lactamase inhibition does not address the PBP-mediated resistance typical of *S. pneumoniae*. All six predicted indications sit at evidence level L5 (model prediction only), and the remaining five candidates (influenza, ureter tuberculosis, urinary schistosomiasis, hyperamylasemia, polyclonal hyperviscosity syndrome) show no biological plausibility and are flagged as probable false positives — none warrants further evaluation at this time.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory label data (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action from DrugBank or primary literature — currently a High-severity data gap (DG002)
-- Original approved indication and market authorization records, since none exist in this dataset
-- Any preclinical or in-vitro evidence specifically testing avibactam (alone or in combination) against *S. pneumoniae* before this signal can be escalated beyond S0/Hold
+## Informasjon om norsk marked
+
+Avibactam har ingen markedsføringstillatelse i Norge (0 lisenser registrert); ingen produkt- eller godkjent-indikasjon-data er tilgjengelige for dette legemidlet i det gjeldende datasettet.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvente**
+
+**Begrunnelse:**
+Topprangert prediksjon (streptokokk-pneumoni) har null støttende kliniske studier eller litteratur og er svekket av modellens egen mekanistiske analyse, som bemerker at avibactams β-laktamase-hemming ikke adresserer den PBP-medierte resistensen som er typisk for *S. pneumoniae*. Alle seks predikerte indikasjonene er på bevisnivå L5 (kun modellprediksjon), og de fem gjenværende kandidatene (influensa, uretetuberkulose, urinær schistosomiasis, hyperamylasemi, polyklonalt hyperviskositets-syndrom) viser ingen biologisk plausibilitet og er flagget som sannsynlige falske positiver — ingen av dem begrunner videre vurdering på dette tidspunktet.
+
+**For å fortsette kreves følgende:**
+- TFDA/regulatoriske merkedata (advarsler, kontraindikasjoner) — for øyeblikket et blokeringsdatakløft (DG001)
+- Bekreftet virkningsmekanisme fra DrugBank eller primærlitteratur — for øyeblikket et høyalvorlighets-datakløft (DG002)
+- Opprinnelig godkjent indikasjon og markedsføringstillatelsesregistreringer, siden ingen eksisterer i dette datasettet
+- Ethvert preklinisk eller in vitro-bevis som spesifikt tester avibactam (alene eller i kombinasjon) mot *S. pneumoniae* før dette signalet kan eskaleres utover S0/Avvente
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

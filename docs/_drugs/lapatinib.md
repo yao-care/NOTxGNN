@@ -29,74 +29,75 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Lapatinib: From an Unrecorded Original Indication to Dermatofibrosarcoma Protuberans
+# Lapatinib: Fra en uregistrert originalindikasjon til dermatofibrosarcoma protuberans
 
-## One-Sentence Summary
+## Oppsummering på én setning
 
-The evidence pack for Lapatinib (DrugBank DB01259) does not contain the original approved indication or mechanism of action — both are recorded as data gaps. The TxGNN model predicts a possible new indication for **Dermatofibrosarcoma Protuberans (DFSP)**, but this prediction is currently supported by **no clinical trials and no published literature**, and the drug is not marketed in Norway.
+Bevissamlingen for Lapatinib (DrugBank DB01259) inneholder ikke den opprinnelige godkjente indikasjonen eller virkningsmekanisme — begge er registrert som datamangler. TxGNN-modellen forutsier en mulig ny indikasjon for **Dermatofibrosarcoma Protuberans (DFSP)**, men denne prediksjonen er for øyeblikket støttet av **ingen kliniske forsøk og ingen publisert litteratur**, og legemidlet er ikke markedsført i Norge.
 
 ---
 
-## Quick Overview
+## Hurtig oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no Norway license records and `original_indications` is empty in the evidence pack |
-| Predicted New Indication | Dermatofibrosarcoma Protuberans |
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Ikke tilgjengelig — ingen norske lisensoppføringer og `original_indications` er tom i bevissamlingen |
+| Forutsagt ny indikasjon | Dermatofibrosarcoma Protuberans |
 | TxGNN Prediction Score | 99.30% |
 | Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Markedsstatus Norge | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen fornuftig?
 
-Detailed mechanism of action data for lapatinib is not available in this evidence pack, and no original indication is recorded either, so a direct mechanistic bridge between the original use and DFSP cannot be established from the data provided.
+Detaljerte data om virkningsmekanisme for Lapatinib er ikke tilgjengelig i denne bevissamlingen, og ingen originalindikasjon er registrert heller, så en direkte mekanistisk forbindelse mellom den opprinnelige bruken og DFSP kan ikke etableres fra dataene som er gitt.
 
-Based on general knowledge encoded in the model's rationale, DFSP is driven primarily by a **COL1A1-PDGFB fusion** that causes constitutive PDGFRB activation, and its standard targeted therapy is imatinib (a PDGFR inhibitor). Lapatinib's known targets — EGFR and HER2 — do not directly overlap with PDGFRB. The proposed link relies only on a theoretical, unconfirmed possibility of off-target PDGFR cross-inhibition, with no experimental or clinical data to support it.
+Basert på generell kunnskap kodet i modellens begrunnelse, er DFSP primært drevet av en **COL1A1-PDGFB-fusjon** som forårsaker konstant PDGFRB-aktivering, og dens standard målrettet terapi er imatinib (en PDGFR-hemmer). Lapatinibs kjente mål — EGFR og HER2 — overlapper ikke direkte med PDGFRB. Den foreslåtte forbindelsen hviler kun på en teoretisk, ubekreftet mulighet for off-target PDGFR-kryssinhibisjon, uten eksperimentelle eller kliniske data som støtter det.
 
-Given the missing MOA data and the absence of a validated original indication, the mechanistic plausibility of this prediction is weak and should be treated as hypothesis-generating only, not as evidence of therapeutic relevance.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Gitt de manglende MOA-dataene og fraværet av en validert originalindikasjon, er den mekanistiske plausibiliteten til denne prediksjonen svak og bør behandles som hypotesegenererende kun, ikke som bevis på terapeutisk relevans.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske forsøk
 
-Currently no related literature available.
-
----
-
-## Norway Market Information
-
-Lapatinib currently holds no market authorization in Norway (0 licenses on file; market status: not marketed).
+For øyeblikket ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Safety Considerations
+## Bevis fra litteratur
 
-Please refer to the package insert for safety information.
+For øyeblikket ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Norsk markedsinformasjon
 
-**Decision: Hold**
+Lapatinib har for øyeblikket ingen markedsgodkjenning i Norge (0 lisenser på fil; markedsstatus: ikke markedsført).
 
-**Rationale:**
-The TxGNN score is high, but there is zero clinical trial or literature support, the mechanistic rationale linking lapatinib (EGFR/HER2 inhibitor) to DFSP (PDGFRB-driven) is weak and speculative, and critical drug-level data (MOA, TFDA/label warnings and contraindications) are missing — one of which (label warnings/contraindications) is flagged as a **Blocking** data gap that prevents even an initial S1 safety assessment.
+---
 
-**To proceed, the following is needed:**
-- Original indication and label data for lapatinib (currently entirely absent from the evidence pack)
-- Mechanism of action data (DG002) to properly evaluate the EGFR/HER2–PDGFRB rationale gap
-- TFDA/Norway label warnings and contraindications (DG001, Blocking) before any safety review can begin
-- At minimum, preclinical or case-level evidence connecting HER2/EGFR inhibition to DFSP biology before advancing beyond S0
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+TxGNN-skåren er høy, men det er null klinisk forsøk eller litteraturstøtte, den mekanistiske begrunnelsen som forbinder Lapatinib (EGFR/HER2-hemmer) til DFSP (PDGFRB-drevet) er svak og spekulativ, og kritiske legemiddeldata (MOA, TFDA/etikett advarsler og kontraindikasjoner) mangler — en av disse (etikett advarsler/kontraindikasjoner) er flagget som en **Blokkering**-datamangel som forhindrer selv en innledende S1-sikkerhetsvurdering.
+
+**For å fortsette, kreves følgende:**
+- Originalindikasjon og etikett-data for Lapatinib (for øyeblikket helt fraværende fra bevissamlingen)
+- Virkningsmekanisme-data (DG002) for å kunne vurdere EGFR/HER2–PDGFRB-forbindelsen på riktig måte
+- TFDA/Norge etikett advarsler og kontraindikasjoner (DG001, Blokkering) før noen sikkerhetsvurdering kan begynne
+- Som minimum preklinisk eller bevis på saksnivå som forbinder HER2/EGFR-inhibisjon til DFSP-biologi før avansering utover S0
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

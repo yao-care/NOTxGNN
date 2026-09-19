@@ -29,99 +29,100 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Epinephrine: From Anaphylaxis/Cardiac Arrest to Obstructive Lung Disease
+# Epinephrin: Fra anafylaksi/hjertestans til obstruktiv lungesykdom
 
-## One-Sentence Summary
+## Sammendrag på én setning
 
-> Epinephrine is a non-selective adrenergic receptor agonist classically used as an emergency drug for anaphylaxis and cardiac arrest.
-> The TxGNN model's top-ranked prediction identifies **Obstructive Lung Disease** (asthma/COPD/bronchiolitis) as an additional indication,
-> supported by **2 Cochrane systematic reviews**, **1 completed Phase 3 RCT (n=373)**, and multiple bronchiolitis trials — though it should be noted this largely reaffirms epinephrine's long-standing historical use as a bronchodilator (e.g., OTC Primatene Mist) rather than representing a truly novel mechanism.
+> Epinephrin er en ikke-selektiv adrenerg reseptoragonist som klassisk brukes som nødlegemiddel ved anafylaksi og hjertestans.
+> TxGNN-modellens høyest rangerte forutsigelse identifiserer **obstruktiv lungesykdom** (astma/KOLS/bronkiolitt) som en tilleggindikasjon,
+> støttet av **2 Cochrane-systematiske oversikter**, **1 avsluttet fase 3 RCT (n=373)** og flere bronkiolitt-studier — selv om det bør bemerkes at dette i stor grad bekrefter epinephrins langvarige historiske bruk som bronkodilator (f.eks. reseptfritt Primatene Mist) snarere enn å representere en virkelig ny mekanisme.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Objekt | Innhold |
 |------|------|
-| Original Indication | Not recorded in dataset (epinephrine is classically indicated for anaphylaxis, cardiac arrest, and acute severe asthma/bronchospasm) |
-| Predicted New Indication | Obstructive Lung Disease |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L2 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Opprinnelig indikasjon | Ikke registrert i datasett (epinephrin er klassisk indisert for anafylaksi, hjertestans og akutt alvorlig astma/bronkospasme) |
+| Forutsagt ny indikasjon | Obstruktiv lungesykdom |
+| TxGNN-prediksjonspoeng | 99.71% |
+| Bevisnivå | L2 |
+| Markedsstatus Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Fortsett under vilkår |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available in the dataset. Based on known pharmacology, epinephrine is a non-selective adrenergic receptor agonist acting on α1, β1, and β2 receptors. Its efficacy in anaphylaxis and cardiac arrest resuscitation is well established, and mechanistically this same receptor profile is directly applicable to obstructive lung disease: β2-receptor activation produces bronchial smooth muscle relaxation (bronchodilation), while α1-receptor activation constricts mucosal blood vessels and reduces airway edema.
+For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige i datasettet. Basert på kjent farmakologi er epinephrin en ikke-selektiv adrenerg reseptoragonist som virker på α1, β1 og β2-reseptorer. Dens effektivitet ved anafylaksi og hjertestansgjenoppliving er godt etablert, og mekanistisk er denne samme reseptorprofilen direkte anvendbar på obstruktiv lungesykdom: β2-reseptoraktivering gir bronkial glatt muskelrelaksasjon (bronkodilatation), mens α1-reseptoraktivering innsnevrer mukøse blodkar og reduserer luftveiødem.
 
-Epinephrine is in fact one of the earliest bronchodilators ever used clinically, historically available over-the-counter as Primatene Mist for asthma. The TxGNN prediction therefore largely reconfirms an already-validated pharmacological relationship rather than proposing a novel mechanism — the evidence base (Phase 3 asthma trials, decades of bronchiolitis studies) reflects this established use.
+Epinephrin er faktisk en av de tidligste bronkodilatatorene som noen gang har vært brukt klinisk, historisk tilgjengelig reseptfritt som Primatene Mist for astma. TxGNN-prediksjonen bekrefter derfor i stor grad et allerede validert farmakologisk forhold snarere enn å foreslå en ny mekanisme — evidensgrunnlaget (fase 3 astma-studier, tiår med bronkiolitt-studier) gjenspeiler denne etablerte bruken.
 
-It is important to flag that the two Cochrane systematic reviews in the evidence set (2004, 2011) both open with the caveat that epinephrine/bronchodilators are used in bronchiolitis "despite uncertain effectiveness," indicating the clinical benefit — particularly for inpatient bronchiolitis — remains debated even though the mechanistic rationale is sound and short-term symptomatic benefit has been observed in several trials.
+Det er viktig å påpeke at de to Cochrane-systematiske oversiktene i evidenssettet (2004, 2011) begge åpner med forbehold om at epinephrin/bronkodilatorer brukes ved bronkiolitt «til tross for usikker effektivitet», noe som indikerer at den kliniske nytten — særlig for innlagte pasienter med bronkiolitt — fortsatt er omdiskutert selv om det mekanistiske resonnementet er solid og kortvarig symptomlettelse har blitt observert i flere studier.
 
 ---
 
-## Clinical Trial Evidence
+## Klinisk forsøksevidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Deltakere | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT01357642](https://clinicaltrials.gov/study/NCT01357642) | Phase 3 | Completed | 373 | 12-week efficacy/safety of Epinephrine HFA Inhalation Aerosol vs placebo-HFA and marketed Primatene Mist CFC inhaler in adolescents/adults with asthma |
-| [NCT01300325](https://clinicaltrials.gov/study/NCT01300325) | Phase 4 | Completed | 136 | Nebulized hypertonic saline + epinephrine in hospitalized infants with RSV bronchiolitis; graded A relevance |
-| [NCT02586961](https://clinicaltrials.gov/study/NCT02586961) | Phase 2/3 | Terminated | 195 | Nebulized adrenaline + oral betamethasone vs standard care in pediatric ED bronchiolitis |
-| [NCT04207840](https://clinicaltrials.gov/study/NCT04207840) | Phase 4 | Completed | 28 | Systemic exposure comparison: Primatene Mist inhalation vs epinephrine IM injection vs ProAir HFA in healthy adults |
-| [NCT00114478](https://clinicaltrials.gov/study/NCT00114478) | NA | Unknown | 600 | RCT of epinephrine vs albuterol in bronchiolitis (largest bronchiolitis cohort in this evidence set) |
-| [NCT00817466](https://clinicaltrials.gov/study/NCT00817466) | Phase 4 | Unknown | 500 | Optimal nebulized inhalation treatment for infants 0–12 months with acute bronchiolitis (SE-Norway multicenter) |
-| [NCT03614273](https://clinicaltrials.gov/study/NCT03614273) | NA | Completed | 60 | Nebulized hypertonic saline (3%) vs nebulized adrenaline for bronchiolitis |
-| [NCT05363670](https://clinicaltrials.gov/study/NCT05363670) | Phase 2 | Completed | 18 | Intranasal epinephrine (ARS-1) vs albuterol in persistent asthma, needleless delivery route |
-| [NCT01255709](https://clinicaltrials.gov/study/NCT01255709) | Phase 2 | Completed | 24 | Pharmacokinetic profile of epinephrine HFA-MDI inhalation aerosol in healthy volunteers |
-| [NCT01216553](https://clinicaltrials.gov/study/NCT01216553) | Phase 4 | Unknown | 135 | Home oxygen therapy ± nebulized 0.1% epinephrine for ambulatory bronchiolitis management |
+| [NCT01357642](https://clinicaltrials.gov/study/NCT01357642) | Fase 3 | Avsluttet | 373 | 12-ukers effektivitet/sikkerhet av epinephrin HFA inhalasjonsaerosol versus placebo-HFA og markedsført Primatene Mist CFC-inhaler hos ungdommer/voksne med astma |
+| [NCT01300325](https://clinicaltrials.gov/study/NCT01300325) | Fase 4 | Avsluttet | 136 | Nebulisert hypertont salt + epinephrin hos innlagte spedbarn med RSV-bronkiolitt; klassifisert A relevans |
+| [NCT02586961](https://clinicaltrials.gov/study/NCT02586961) | Fase 2/3 | Avbrutt | 195 | Nebulisert adrenalin + oral betametason versus standardbehandling ved bronkiolitt på pediatrisk legevakt |
+| [NCT04207840](https://clinicaltrials.gov/study/NCT04207840) | Fase 4 | Avsluttet | 28 | Sammenligning av systemisk eksponering: Primatene Mist inhalasjon versus epinephrin IM-injeksjon versus ProAir HFA hos friske voksne |
+| [NCT00114478](https://clinicaltrials.gov/study/NCT00114478) | NA | Ukjent | 600 | RCT av epinephrin versus albuterol ved bronkiolitt (største bronkiolitt-kohort i dette evidenssettet) |
+| [NCT00817466](https://clinicaltrials.gov/study/NCT00817466) | Fase 4 | Ukjent | 500 | Optimal nebulisert inhalasjonsbehandling for spedbarn 0–12 måneder med akutt bronkiolitt (SE-Norge flersenter) |
+| [NCT03614273](https://clinicaltrials.gov/study/NCT03614273) | NA | Avsluttet | 60 | Nebulisert hypertont salt (3%) versus nebulisert adrenalin ved bronkiolitt |
+| [NCT05363670](https://clinicaltrials.gov/study/NCT05363670) | Fase 2 | Avsluttet | 18 | Intranasal epinephrin (ARS-1) versus albuterol ved vedvarende astma, nålefri administreringsrute |
+| [NCT01255709](https://clinicaltrials.gov/study/NCT01255709) | Fase 2 | Avsluttet | 24 | Farmakokinetisk profil av epinephrin HFA-MDI inhalasjonsaerosol hos friske frivillige |
+| [NCT01216553](https://clinicaltrials.gov/study/NCT01216553) | Fase 4 | Ukjent | 135 | Hjemmeoxygenbehandling ± nebulisert 0,1% epinephrin for ambulant håndtering av bronkiolitt |
 
 ---
 
-## Literature Evidence
+## Litteraturevidence
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Publikasjonstype | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [21678340](https://pubmed.ncbi.nlm.nih.gov/21678340/) | 2011 | Cochrane Review (Tier 1) | Cochrane Database Syst Rev | Systematic review of epinephrine for bronchiolitis; notes bronchodilators used despite uncertain effectiveness |
-| [14974006](https://pubmed.ncbi.nlm.nih.gov/14974006/) | 2004 | Cochrane Review (Tier 1) | Cochrane Database Syst Rev | Earlier Cochrane review; modest short-term benefit of bronchodilators in mild/moderate bronchiolitis |
-| [21486501](https://pubmed.ncbi.nlm.nih.gov/21486501/) | 2011 | Review (Tier 2) | BMJ Clinical Evidence | Overview of bronchiolitis epidemiology and treatment including epinephrine |
-| [19450362](https://pubmed.ncbi.nlm.nih.gov/19450362/) | 2007 | Review (Tier 2) | BMJ Clinical Evidence | Bronchiolitis clinical evidence review, seasonal LRTI in infants |
-| [30488718](https://pubmed.ncbi.nlm.nih.gov/30488718/) | 2019 | Review (Tier 2) | Expert Rev Respir Med | Role of racemic epinephrine, corticosteroids, hypertonic saline, HFOT in pediatric bronchiolitis (2009–2018 literature) |
-| [6777857](https://pubmed.ncbi.nlm.nih.gov/6777857/) | 1980 | Cohort (Tier 2) | Scand J Clin Lab Invest | Elevated plasma noradrenaline in COPD correlated with hemodynamics/blood gases |
-| [6417212](https://pubmed.ncbi.nlm.nih.gov/6417212/) | 1983 | Review (Tier 3) | J Allergy Clin Immunol | Pathophysiology of childhood asthma as obstructive airway disease |
-| [6107058](https://pubmed.ncbi.nlm.nih.gov/6107058/) | 1980 | Review (Tier 3) | Anaesth Intensive Care | Pharmacology of sympathomimetic amines including epinephrine |
-| [30856157](https://pubmed.ncbi.nlm.nih.gov/30856157/) | 2019 | Commentary (Tier 3) | Medical Letter Drugs Ther | Return of OTC Primatene Mist (epinephrine inhaler) to market |
-| [5434663](https://pubmed.ncbi.nlm.nih.gov/5434663/) | 1970 | Review (Tier 3) | British Medical Journal | General review of bronchodilator classes |
+| [21678340](https://pubmed.ncbi.nlm.nih.gov/21678340/) | 2011 | Cochrane Review (Nivå 1) | Cochrane Database Syst Rev | Systematisk oversikt over epinephrin ved bronkiolitt; bemerker at bronkodilatorer brukes til tross for usikker effektivitet |
+| [14974006](https://pubmed.ncbi.nlm.nih.gov/14974006/) | 2004 | Cochrane Review (Nivå 1) | Cochrane Database Syst Rev | Tidligere Cochrane-oversikt; beskjeden korttidsnytte av bronkodilatorer ved mild/moderat bronkiolitt |
+| [21486501](https://pubmed.ncbi.nlm.nih.gov/21486501/) | 2011 | Oversikt (Nivå 2) | BMJ Clinical Evidence | Oversikt over bronkiolitt epidemiologi og behandling inkludert epinephrin |
+| [19450362](https://pubmed.ncbi.nlm.nih.gov/19450362/) | 2007 | Oversikt (Nivå 2) | BMJ Clinical Evidence | Klinisk evidence-review for bronkiolitt, sesongbasert nedre luftveisinfeksjon hos spedbarn |
+| [30488718](https://pubmed.ncbi.nlm.nih.gov/30488718/) | 2019 | Oversikt (Nivå 2) | Expert Rev Respir Med | Rolle av rakemisk epinephrin, kortikosteroider, hypertont salt, HFOT ved pediatrisk bronkiolitt (2009–2018 litteratur) |
+| [6777857](https://pubmed.ncbi.nlm.nih.gov/6777857/) | 1980 | Kohort (Nivå 2) | Scand J Clin Lab Invest | Forhøyet plasma noradrenalin ved KOLS korrelert med hemodynamikk/blodgasser |
+| [6417212](https://pubmed.ncbi.nlm.nih.gov/6417212/) | 1983 | Oversikt (Nivå 3) | J Allergy Clin Immunol | Patofysiologi for barnedoms astma som obstruktiv luftveissykdom |
+| [6107058](https://pubmed.ncbi.nlm.nih.gov/6107058/) | 1980 | Oversikt (Nivå 3) | Anaesth Intensive Care | Farmakologi av sympatomimetiske aminer inkludert epinephrin |
+| [30856157](https://pubmed.ncbi.nlm.nih.gov/30856157/) | 2019 | Kommentar (Nivå 3) | Medical Letter Drugs Ther | Tilbakevending av reseptfritt Primatene Mist (epinephrin-inhaler) til markedet |
+| [5434663](https://pubmed.ncbi.nlm.nih.gov/5434663/) | 1970 | Oversikt (Nivå 3) | British Medical Journal | Generell oversikt over bronkodilatorklasser |
 
 ---
 
-## Norway Market Information
+## Markedsinformasjon Norge
 
-Epinephrine currently holds **no marketing authorization records** in the dataset for this market (market status: Not Marketed; total licenses: 0). No product/dosage-form data is available to populate an authorization table.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Epinephrin har for øyeblikket **ingen markedsføringsautoriseringsregistreringer** i datasettet for dette markedet (markedsstatus: Ikke markedsført; totale lisenser: 0). Ingen produkt-/legemiddelformdata er tilgjengelige for å fylle ut en autorisasjonstabell.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetsoverveielser
 
-**Decision: Proceed with Guardrails**
+Vennligst se pakningsvedlegg for sikkerhetsinformasjon.
 
-**Rationale:**
-The mechanistic link between epinephrine's adrenergic activity and bronchodilation is well established and supported by a completed Phase 3 RCT and two Cochrane systematic reviews, but the reviews themselves flag uncertain/mixed clinical effectiveness (particularly for inpatient bronchiolitis), and a Blocking-severity data gap (missing official label warnings/contraindications) prevents a full S1 safety screen.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory label data (warnings, contraindications) — currently Blocking (DG001)
-- Formal mechanism of action documentation from DrugBank — currently High priority gap (DG002)
-- Resolution of the conflicting efficacy signal in bronchiolitis (Cochrane reviews indicate uncertain benefit vs. positive trial-level findings in asthma)
-- Route/formulation feasibility assessment for the Norway market, given the drug is currently not marketed there
-- Drug interaction and contraindication data (DDI query currently returns no results)
+## Konklusjon og neste trinn
+
+**Beslutning: Fortsett under vilkår**
+
+**Begrunnelse:**
+Den mekanistiske forbindelsen mellom epinephrins adrenerg aktivitet og bronkodilatation er godt etablert og støttet av en avsluttet fase 3 RCT og to Cochrane-systematiske oversikter, men oversiktene selv flaggerer usikker/blandet klinisk effektivitet (særlig for innlagte pasienter med bronkiolitt), og et datamangel med blokkerings-alvorlighetsgrad (manglende offisielle pakningsvedleggsadvarsler/kontraindikasjoner) hindrer en fullstendig S1-sikkerhetskontroll.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA/regulatoriske pakningsvedleggsdata (advarsler, kontraindikasjoner) — for øyeblikket blokkering (DG001)
+- Formell dokumentasjon av virkningsmekanisme fra DrugBank — for øyeblikket datamangel med høy prioritet (DG002)
+- Løsning av det konfliktfylte effektivitetssignalet ved bronkiolitt (Cochrane-oversikter indikerer usikker nytte versus positive forsøksnivåfunn ved astma)
+- Vurdering av rute/legemiddelformgjennomførbarhet for det norske markedet, gitt at medikamentet for øyeblikket ikke er markedsført der
+- Legemiddelinteraksjons- og kontraindikasjonsdata (DDI-spørring returnerer for øyeblikket ingen resultater)
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,76 +29,77 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Ivabradine: From Chronic Heart Failure/Angina to Hypertrichosis
+# Ivabradine: Fra kronisk hjertesvikt/angina til hypertrikose
 
-## One-Sentence Summary
+## Sammenfatting på én setning
 
-Ivabradine is a selective HCN (If, "funny current") channel blocker that slows sinoatrial node firing, used clinically for chronic heart failure and stable angina. The TxGNN model predicts it may be effective for **Hypertrichosis (disease)**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack itself notes no known mechanistic link between HCN-channel inhibition and hair growth regulation.
+Ivabradine er en selektiv HCN (If, «funny current») kanalblokker som bremser sinusknuttefrekvensen, brukt klinisk for kronisk hjertesvikt og stabil angina. TxGNN-modellen forutsier at den kan være effektiv for **Hypertrikose (sykdom)**, men denne prognosen er for tiden støttet av **0 kliniske studier** og **0 publikasjoner**, og bevisstoffpakken selv noterer at det ikke er kjent noen mekanistisk sammenheng mellom HCN-kanalblokkering og regulering av hårvekst.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not specified in evidence pack (drugbank `original_indications` field empty) |
-| Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.79% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Ikke spesifisert i bevisstoffpakke (DrugBank `original_indications` felt tomt) |
+| Forutsagt ny indikasjon | Hypertrikose (sykdom) |
+| TxGNN-prognosescore | 99.79% |
+| Bevisnivå | L5 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt avgjørelse | Avvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prognosen rimelig?
 
-Detailed original-indication and formal MOA fields are not populated in this evidence pack. However, the pack's own repurposing rationale describes ivabradine as a selective HCN channel blocker acting at the sinoatrial node to reduce heart rate, used for chronic heart failure and stable angina.
+Detaljerte felt for opprinnelig indikasjon og formell virkningsmekanisme er ikke utfylt i denne bevisstoffpakken. Imidlertid beskriver pakkens egen begrunnelse for ombruk ivabradine som en selektiv HCN-kanalblokkerer som virker på sinusknutten for å redusere hjertefrekvensen, brukt for kronisk hjertesvikt og stabil angina.
 
-There is no established biological pathway connecting sinoatrial HCN-channel inhibition to hair follicle growth regulation (e.g., Wnt/β-catenin signaling or androgen receptor pathways implicated in hypertrichosis). The evidence pack explicitly states this candidate arises purely from graph-embedding similarity in the TxGNN model, without direct or indirect clinical or mechanistic support.
+Det finnes ingen etablert biologisk vei som forbinder HCN-kanalblokkering i sinusknutten med regulering av hårsekkvekst (f.eks. Wnt/β-catenin-signalering eller androgenreseptor-signalveier som er implisert i hypertrikose). Bevisstoffpakken angir eksplisitt at denne kandidaten oppstår rent fra graf-innebyggingslikhet i TxGNN-modellen, uten direkte eller indirekte klinisk eller mekanistisk støtte.
 
-The same pattern holds across all six predicted indications in this pack — hypertrichosis, Ambras syndrome, periodontal malformation syndrome, Dandy-Walker malformation, hair shaft abnormality, and nephrogenic syndrome of inappropriate antidiuresis. Each rationale text independently flags the lack of a plausible mechanistic connection to HCN-channel pharmacology, and the periodontal-disease literature retrieved (rank 3) consists of general periodontology reviews that never mention ivabradine, indicating keyword-matching noise rather than drug-specific evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Det samme mønsteret gjelder for alle seks forutsagte indikasjoner i denne pakken — hypertrikose, Ambras-syndrom, periodont-malformasjonssyndrom, Dandy-Walker-malformasjon, abnormitet av hårhaft og nefrogent syndrom for upassende antidiurese. Hver begrunnelsestekst noterer uavhengig mangelen på en plausibel mekanistisk forbindelse til HCN-kanalfarmakologi, og litteraturen om periodontale sykdommer som ble hentet (rangering 3) består av generelle periodontologi-oversikter som aldri nevner ivabradine, noe som indikerer nøkkelordmatchings-støy snarere enn stoffspesifikk bevis.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske studier
 
-Currently no related literature available.
-
----
-
-## Norway Market Information
-
-Ivabradine is not marketed in Norway under this evidence pack (`market_status: Not marketed`, 0 total licenses). No authorization records are available to list.
+Ingen relaterte kliniske studier er for tiden registrert.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information.
-
-*(Note: the underlying evidence pack flags TFDA warnings/contraindications data as a **Blocking** data gap (DG001), meaning a formal safety screen (S1) cannot currently be performed for this candidate.)*
+Ingen relevant litteratur er for tiden tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Norsk markedsinformasjon
 
-**Decision: Hold**
+Ivabradine er ikke markedsført i Norge under denne bevisstoffpakken (`market_status: Not marketed`, 0 totale lisenser). Ingen godkjenningsregistre er tilgjengelige for opplistning.
 
-**Rationale:**
-All six TxGNN-predicted indications for ivabradine are rated L5 (model prediction only), with zero supporting clinical trials and no drug-specific literature. The evidence pack's own mechanistic rationale for the top-ranked prediction (hypertrichosis) explicitly states there is no known biological link to ivabradine's HCN-channel mechanism. Combined with the drug's unmarketed status in Norway and a Blocking-severity gap in TFDA safety labeling data, there is no basis to advance this candidate beyond the discovery stage.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory label data (warnings, contraindications) — currently Blocking gap (DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Any preclinical or mechanistic study directly linking HCN-channel modulation to hair follicle biology or the other predicted phenotypes
-- Re-evaluation if future TxGNN model updates surface higher-confidence, mechanistically plausible indications for this compound
+## Sikkerhetshensyn
+
+Vennligst se pakningsinnskriften for sikkerhetsinformasjon.
+
+*(Merk: den underliggende bevisstoffpakken flagger TFDA-advarsler/kontraindikasjondata som en datalukke med Blokkering-alvorlighetsgrad (DG001), noe som betyr at en formell sikkerhetsgjennomgang (S1) ikke kan utføres for denne kandidaten for øyeblikket.)*
+
+---
+
+## Konklusjon og neste steg
+
+**Avgjørelse: Avvent**
+
+**Begrunnelse:**
+Alle seks TxGNN-forutsagte indikasjoner for ivabradine er vurdert til L5 (kun modellprognose), med null støttende kliniske studier og ingen stoffspesifikk litteratur. Bevisstoffpakkens egen mekanistiske begrunnelse for den topprankerte prognosen (hypertrikose) angir eksplisitt at det ikke er kjent noen biologisk sammenheng til ivabradines HCN-kanalblokkering. Kombinert med stoffets ikke-markedsførte status i Norge og en datalukke med Blokkering-alvorlighetsgrad i TFDA-sikkerhetsetikettdata, er det intet grunnlag for å fremme denne kandidaten utover oppdagingsfasen.
+
+**For å gå videre er det nødvendig med:**
+- TFDA/regulatoriske etikettdata (advarsler, kontraindiksjoner) — for tiden datalukke (DG001)
+- Bekreftet virkningsmekanismedata fra DrugBank (DG002)
+- Eventuelle prekliniske eller mekanistiske studier som direkte forbinder HCN-kanalsmodulering med hårsekkvekst eller de andre forutsagte fenotypene
+- Revurdering dersom fremtidige TxGNN-modelloppdateringer avdekker indikasjoner med høyere tiltro og mekanistisk plausibilitet for dette stoffet
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,75 +29,76 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Eptifibatide: From Acute Coronary Syndrome to Rheumatoid Arthritis
+# Eptifibatide: Fra akutt koronart syndrom til revmatoid artritt
 
-## One-Sentence Summary
+## Sammendrag på én setning
 
-Eptifibatide is a GPIIb/IIIa platelet aggregation inhibitor established in the treatment of acute coronary syndrome (unstable angina/NSTEMI), as referenced in the supporting literature.
-The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model-based signal with no empirical backing.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Acute Coronary Syndrome (unstable angina/NSTEMI) — inferred from literature context; no formal regulatory indication text on file |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Norway Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Eptifibatide er en GPIIb/IIIa plateletaggregasjonshemmer etablert i behandlingen av akutt koronart syndrom (ustabil angina/NSTEMI), slik det refereres til i støttende litteratur.
+TxGNN-modellen predikerer at den kan være effektiv for **revmatoid artritt**, men denne prediksjonen støttes for tiden av **0 kliniske forsøk** og **0 publikasjoner** — det er et rent modellbasert signal uten empirisk støtte.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known information, eptifibatide is a synthetic cyclic heptapeptide that antagonizes the αIIbβ3 (GPIIb/IIIa) platelet surface receptor, blocking fibrinogen-mediated platelet aggregation — its established efficacy is in acute coronary syndromes.
-
-The core pathology of rheumatoid arthritis (RA) is synovial immune-cell infiltration and cytokine-driven inflammation (TNF-α, IL-6, etc.). While platelets are known to contribute to some inflammatory amplification loops, there is no established mechanistic link between GPIIb/IIIa inhibition and RA's primary autoimmune pathogenesis.
-
-This prediction is explicitly flagged in the evidence pack itself as a **high TxGNN score without any corroborating mechanistic, preclinical, or clinical evidence**. It should be treated as a hypothesis-generation signal only, not as a basis for clinical action.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Akutt koronart syndrom (ustabil angina/NSTEMI) — sluttet fra litteraturkontekst; ingen formell regulatorisk indikasjonbeskrivelse på fil |
+| Predikert ny indikasjon | Revmatoid artritt |
+| TxGNN prediksjonspoengsum | 99.99% |
+| Evidensnivå | L5 |
+| Markedsstatus Norge | Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige i evidenspakken. Basert på kjent informasjon er eptifibatide et syntetisk syklisk heptapeptid som antagoniserer αIIbβ3 (GPIIb/IIIa) reseptor på plateletoverflaten, og blokkerer fibrinogen-mediert plateletaggregasjon — dens etablerte effektivitet er i akutt koronare syndromer.
 
----
+Kjernepatologen for revmatoid artritt (RA) er synovial immuncelle-infiltrasjon og cytokin-drevet inflammasjon (TNF-α, IL-6, osv.). Selv om platelets er kjent for å bidra til noen inflammatoriske amplifikasjonssløyfer, er det ingen etablert mekanistisk forbindelse mellom GPIIb/IIIa-hemming og RAs primære autoimmun patogenese.
 
-## Norway Market Information
-
-Eptifibatide is currently **not marketed** in Norway, and no product license records are available in this evidence pack. Market entry status would need to be re-verified with the Norwegian Medicines Agency (Legemiddelverket) or equivalent regulatory database.
+Denne prediksjonen er eksplisitt flagget i evidenspakken selv som et **høyt TxGNN-poengsum uten noen korroborerende mekanistisk, preklinisk eller klinisk bevis**. Det bør behandles som et hypotesegenererende signal kun, ikke som grunnlag for klinisk handling.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøk
 
-Please refer to the package insert for safety information. No structured warnings, contraindications, or drug-drug interaction data were available for eptifibatide in this evidence pack; TFDA/product-label data collection is flagged as a blocking data gap that must be resolved before any safety review can proceed.
+For tiden er det ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra litteratur
 
-**Decision: Hold**
+For tiden er ingen relatert litteratur tilgjengelig.
 
-**Rationale:**
-The top-ranked prediction (rheumatoid arthritis) carries a high TxGNN similarity score but zero clinical trial or literature support (Evidence Level L5), and the evidence pack itself notes no established mechanistic connection between eptifibatide's antiplatelet action and RA's immune pathogenesis. There is insufficient basis to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- Resolve the blocking data gap: TFDA/product label warnings and contraindications (DG001)
-- Resolve mechanism-of-action data gap via DrugBank API query (DG002)
-- If pursuing repurposing for this drug at all, consider prioritizing the **hemoglobinopathy / sickle cell disease** candidates instead (ranks 2–10 in this evidence pack), which — unlike rheumatoid arthritis — are backed by a completed Phase 1/2 RCT (NCT00834899) and four supporting PubMed publications (PMID 17916103, 22156199, 23973010, 29322543) on eptifibatide in sickle cell painful crises
-- Obtain Norway market/regulatory status confirmation, since no license data currently exists in this pack
+## Markedsinformasjon for Norge
+
+Eptifibatide er for tiden **ikke markedsført** i Norge, og ingen produktlisensingdata er tilgjengelige i denne evidenspakken. Markedsadgangsstatusen må omverifiseres med Legemiddelverket eller tilsvarende regulatorisk database.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Ingen strukturerte advarsler, kontraindikasjoner eller legemiddelinteraksjondata var tilgjengelige for eptifibatide i denne evidenspakken; TFDA/produktetikett-datasamling er flagget som en blokkerende datagap som må løses før noen sikkerhetsgjennomgang kan gjennomføres.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Den best rangerte prediksjonen (revmatoid artritt) har et høyt TxGNN-likelighetspoengsum, men null klinisk forsøks- eller litteraturstøtte (Evidensnivå L5), og evidenspakken selv noterer ingen etablert mekanistisk forbindelse mellom eptifibatides antiplatelet-handling og RAs immunpatogenese. Det er utilstrekkelig grunnlag for å fremme denne kandidaten.
+
+**For å fortsette, er følgende nødvendig:**
+- Løse den blokkerende datagapen: TFDA/produktetikett-advarsler og kontraindikasjoner (DG001)
+- Løse virkningsmekanisme-datagapen via DrugBank API-spørring (DG002)
+- Hvis du ønsker å forfølge omposisjonering for dette legemidlet i det hele tatt, vurder å prioritere **hemoglobinopati / sekelcellesykdom**-kandidatene i stedet (rangerer 2–10 i denne evidenspakken), som — i motsetning til revmatoid artritt — er støttet av en gjennomført fase 1/2 RCT (NCT00834899) og fire støttende PubMed-publikasjoner (PMID 17916103, 22156199, 23973010, 29322543) om eptifibatide ved sekelcellesmerter
+- Verifiser markeds-/regulatorisk status for Norge, siden det for tiden ikke finnes lisensingdata i denne pakken
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

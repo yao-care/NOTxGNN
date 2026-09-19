@@ -29,166 +29,163 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-Using the given evidence-pack-to-report template directly (it fully specifies format, extraction rules, and section order — no additional skill applies to this content-generation task). One structural note before the report: this evidence pack is a **multi-indication screen** (`candidate_id: TW-DB00381-multi`) — 10 candidate indications, each independently scored — rather than a single-indication pack. Following the template's extraction rule literally on `predicted_indications[0]` alone (brain stem infarction, L5/Hold, zero evidence) would bury the one indication that actually clears an evidence bar (rank 10, intracerebral hemorrhage, L2/Proceed with Guardrails). I've kept the template's exact section order and table formats, but built the Quick Overview around the best-evidenced candidate and added a full ranking table so nothing is omitted.
+# Amlodipine: Fra hypertensjon til sekundærprofylakse av tilbakevendende intracerebral blødning (Flerindikasjon-screening)
+
+## Sammenfatning i én setning
+
+> Amlodipine er en langtidsvirkende dihydropyridin-calciumkanalblokker (CCB), opprinnelig indisert for hypertensjon og angina (ingen strukturert data om originalindikasjon eller norsk markedsstatus ble returnert i denne pakken).
+> TxGNN screenet 10 kandidat-indikasjonene; den eneste med handlingskraftig bevis er **Intracerebral blødning** (sekundærprofylakse som del av en trippel antihypertensiv strategi), støttet av **6 kliniske forsøk** (inkludert ett fullført fase 3 RCT, n=1,671) og **8 publikasjoner**.
+> De restående 9 kandidatene spenner fra svak mekanistisk utvidelse til tilsynelatende modell- eller søkeordsstøy uten understøttende bevis.
 
 ---
 
-# Amlodipine: From Hypertension to Recurrent Intracerebral Hemorrhage Prevention (Multi-Indication Screen)
+## Raskt oversyn
 
-## One-Sentence Summary
+*(Utvalgt kandidat: Intracerebral blødning — rangert 10, den eneste indikasjonenen som når beslutningsstadium S2)*
 
-> Amlodipine is a long-acting dihydropyridine calcium channel blocker (CCB), originally indicated for hypertension and angina (no structured original-indication or Norway licensing data was returned in this pack).
-> TxGNN screened 10 candidate new indications; the only one with actionable evidence is **Intracerebral Hemorrhage** (secondary prevention as part of a triple-pill antihypertensive strategy), supported by **6 clinical trials** (including one completed Phase 3 RCT, n=1,671) and **8 publications**.
-> The remaining 9 candidates range from weak mechanistic extensions to apparent model/keyword noise with no supporting evidence.
-
----
-
-## Quick Overview
-
-*(Featured candidate: Intracerebral Hemorrhage — rank 10, the only indication reaching decision stage S2)*
-
-| Item | Content |
+| Punkt | Innhold |
 |------|------|
-| Original Indication | Hypertension / Angina (general pharmacological knowledge — no `original_indications` or Norway license data was returned in this pack) |
-| Predicted New Indication | Intracerebral Hemorrhage (secondary/recurrence prevention) |
-| TxGNN Prediction Score | 99.79% (rank 2745) |
-| Evidence Level | L2 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails (for this indication only — see full screen below) |
+| Originalindikasjon | Hypertensjon / Angina (generell farmakologisk kunnskap — ingen `original_indications` eller norsk markedsstatus ble returnert i denne pakken) |
+| Predikert ny indikasjon | Intracerebral blødning (sekundær-/gjentakende forebyggelse) |
+| TxGNN forutsigelsesscore | 99.79% (rangert 2745) |
+| Bevisnivå | L2 |
+| Norges markedsstatus | Ikke markedsført |
+| Antall registreringer | 0 |
+| Anbefalt beslutning | Fortsett med sikringsmekanismer (for denne indikasjonenen kun — se fullstendig screening nedenfor) |
 
-### Full TxGNN Screening Summary (all 10 candidates)
+### Komplett TxGNN-screeningssammendrag (alle 10 kandidater)
 
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
+| Rangering | Predikert indikasjon | TxGNN-score | Bevisnivå | Beslutningsstadium | Anbefaling |
 |------|----------------------|-------------|-----------------|-----------------|-----------------|
-| 1 | Brain stem infarction | 99.94% | L5 | S0 | Hold |
-| 2 | Pulmonary hypertension, unclear/multifactorial mechanism (Group 5) | 99.91% | L5 | S0 | Hold |
-| 3 | Pulmonary hypertension owing to lung disease/hypoxia (Group 3) | 99.91% | L5 | S0 | Hold |
-| 4 | Malignant renovascular hypertension | 99.90% | L3 | S1 | Research Question |
-| 5 | Malignant hypertensive renal disease | 99.90% | L5 | S0 | Hold |
-| 6 | Cerebral artery occlusion | 99.89% | L2 | S1 | Research Question |
-| 7 | Braddock syndrome | 99.88% | L5 | S0 | Hold |
-| 8 | MRI defined brain infarct | 99.86% | L3 | S1 | Research Question |
-| 9 | ABri amyloidosis | 99.84% | L5 | S0 | Hold |
-| **10** | **Intracerebral hemorrhage** | **99.79%** | **L2** | **S2** | **Proceed with Guardrails** |
+| 1 | Hjernestaminfark | 99.94% | L5 | S0 | Hold |
+| 2 | Pulmonær hypertensjon, uklar/multifaktoriell mekanisme (Gruppe 5) | 99.91% | L5 | S0 | Hold |
+| 3 | Pulmonær hypertensjon på grunn av lungesykdom/hypoksi (Gruppe 3) | 99.91% | L5 | S0 | Hold |
+| 4 | Malign renovaskulær hypertensjon | 99.90% | L3 | S1 | Forskningsspørsmål |
+| 5 | Malign hypertensiv nyresykdom | 99.90% | L5 | S0 | Hold |
+| 6 | Cerebral arterieokklusion | 99.89% | L2 | S1 | Forskningsspørsmål |
+| 7 | Braddock-syndrom | 99.88% | L5 | S0 | Hold |
+| 8 | MR-definert hjerneinfark | 99.86% | L3 | S1 | Forskningsspørsmål |
+| 9 | ABri-amyloidose | 99.84% | L5 | S0 | Hold |
+| **10** | **Intracerebral blødning** | **99.79%** | **L2** | **S2** | **Fortsett med sikringsmekanismer** |
 
-Note: TxGNN score ranking does not track evidence quality here — the top-ranked prediction by score (brain stem infarction) has zero supporting trials or literature, while the lowest-ranked prediction (intracerebral hemorrhage) carries the strongest evidence.
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism-of-action data was not available for this pack (`original_moa: [Data Gap]`). Based on known pharmacology, amlodipine is a long-acting dihydropyridine L-type calcium channel blocker; its efficacy in hypertension and angina is well established, and its blood-pressure-lowering effect is the mechanistic thread running through most of the candidates above.
-
-**Intracerebral hemorrhage (lead candidate):** Amlodipine-class CCBs are already a standard component of combination antihypertensive regimens used for secondary prevention after stroke. The completed Phase 3 TRIDENT trial (NCT02699645, n=1,671) directly tested a fixed-dose "Triple Pill" (including a CCB) for reducing recurrent cerebrovascular events after intracerebral hemorrhage, and CASE-J (a large RCT) compared amlodipine-class CCB combination therapy against ARB monotherapy for cardiovascular/cerebrovascular event reduction. This is class-level and combination-therapy evidence rather than an amlodipine-monotherapy trial specifically for ICH, which is why the evidence level caps at L2 rather than L1.
-
-**Cerebral artery occlusion / MRI defined brain infarct:** Preclinical rodent studies (transient MCAO models) show amlodipine, alone or combined with atorvastatin, reduces infarct size via antioxidant, anti-apoptotic, and anti-autophagic mechanisms. Clinical evidence here is indirect — large blood-pressure-control trials (e.g., STEP, n=8,000) that use brain-imaging or cerebrovascular endpoints as secondary outcomes, not amlodipine-specific interventional trials for acute occlusion.
-
-**Malignant renovascular hypertension:** This is essentially a pharmacological extension within amlodipine's existing approved use (severe/resistant hypertension) rather than a genuine cross-domain repurposing; the two supporting citations are pediatric case reports that do not name amlodipine explicitly as the study drug.
-
-**Candidates assessed as Hold (no real signal):** Brain stem infarction, Group 5 pulmonary hypertension, malignant hypertensive renal disease, Braddock syndrome, and ABri amyloidosis have no clinical trials or literature support. Notably, the 20 PubMed hits returned for Group 3 pulmonary hypertension (hypoxia/lung-disease-related) are general hypoxia-biology papers unrelated to amlodipine or CCB therapy — likely keyword-matching noise rather than evidence — and current ESC/ERS guidance actually advises *against* CCB use in hypoxia-driven pulmonary hypertension due to risk of worsening ventilation/perfusion mismatch. These candidates should not be advanced.
+Notat: TxGNN-scorerangering sporer ikke evidenskvalitet her — den høyest-rangerte prediksjonen etter score (hjernestaminfark) har null støttende forsøk eller litteratur, mens den lavest-rangerte prediksjonen (intracerebral blødning) har sterkest bevis.
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-### Intracerebral Hemorrhage (lead candidate)
+Detaljert virkningsmekanisme-data var ikke tilgjengelig for denne pakken (`original_moa: [Data Gap]`). Basert på kjent farmakologi, er amlodipine en langtidsvirkende dihydropyridin L-type calciumkanalblokker; dens effektivitet ved hypertensjon og angina er veletablert, og dens blodtrykkssenkende effekt er den mekanistiske tråden som løper gjennom de fleste av kandidatene ovenfor.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+**Intracerebral blødning (ledende kandidat):** Amlodipine-klasse CCBer er allerede en standardkomponent i kombinasjons-antihypertensive regimer som brukes for sekundærprofylakse etter slag. Det fullførte fase 3 TRIDENT-forsøket (NCT02699645, n=1,671) testet direkte en fast-dose "Triple Pill" (inkludert en CCB) for å redusere gjentakende cerebrovaskulære hendelser etter intracerebral blødning, og CASE-J (et stort RCT) sammenlignet amlodipine-klasse CCB kombinasjonsterapi mot ARB-monoterapi for kardiovaskulær/cerebrovaskulær hendelsesreduksjon. Dette er klasse-nivå og kombinasjonsterapi-bevis i stedet for et amlodipine-monoterapi-forsøk spesifikt for ICH, som er grunnen til at bevisnivået er begrenset til L2 i stedet for L1.
+
+**Cerebral arterieokklusion / MR-definert hjerneinfark:** Prekliniske rodent-studier (transient MCAO-modeller) viser at amlodipine, alene eller kombinert med atorvastatin, reduserer infarktvolum via antioksidativ, anti-apoptotisk og anti-autofagi-mekanismer. Klinisk bevis her er indirekte — store blodtrykks-kontroll-forsøk (f.eks. STEP, n=8,000) som bruker hjernebilde eller cerebrovaskulære endepunkter som sekundære utfall, ikke amlodipine-spesifikke intervensjons-forsøk for akutt okklusion.
+
+**Malign renovaskulær hypertensjon:** Dette er i hovedsak en farmakologisk utvidelse innenfor amlodipines allerede godkjente bruk (alvorlig/resistent hypertensjon) snarere enn en ekte tverrfaglig gjenbruk; de to støttende sitatene er pediatriske kasuistikker som ikke navngir amlodipine eksplisitt som studielegemidlet.
+
+**Kandidater vurdert som Hold (ingen reell signal):** Hjernestaminfark, Gruppe 5 pulmonær hypertensjon, malign hypertensiv nyresykdom, Braddock-syndrom og ABri-amyloidose har ingen klinisk-forsøk eller litteratur-støtte. Spesielt bemerkelsesverdig er at de 20 PubMed-treff som returneres for Gruppe 3 pulmonær hypertensjon (hypoksi/lungesykdom-relatert), alle er generelle hypoksi-biologiartikler uten forbindelse til amlodipine eller CCB-terapi — sannsynligvis søkeordsstøy i stedet for bevis — og gjeldende ESC/ERS-retningslinjer fraråder faktisk CCB-bruk i hypoksi-drevet pulmonær hypertensjon på grunn av risiko for forverring av ventilasjon/perfusjons-ubalanse. Disse kandidatene bør ikke avanseres.
+
+---
+
+## Kliniske forsøksbevis
+
+### Intracerebral blødning (ledende kandidat)
+
+| Forsøksnummer | Fase | Status | Inkludering | Nøkkelfunn |
 |---------|------|------|------|---------|
-| [NCT02699645](https://clinicaltrials.gov/study/NCT02699645) | Phase 3 | Completed | 1,671 | TRIDENT main trial: fixed low-dose "Triple Pill" BP-lowering strategy (incl. CCB) vs. standard care for preventing recurrent stroke after intracerebral hemorrhage — directly relevant, completed Phase 3 RCT |
-| [NCT07458880](https://clinicaltrials.gov/study/NCT07458880) | N/A | Recruiting | 140 | TRICH Score-guided triple antihypertensive therapy for BP control after ICH; follow-on to TRIDENT concept, no results yet |
-| [NCT03264352](https://clinicaltrials.gov/study/NCT03264352) | Phase 4 | Recruiting | 11,414 | Antihypertensive treatment in high-normal BP adults with Type 2 diabetes (IPAD); large but not ICH-specific |
-| [NCT00134160](https://clinicaltrials.gov/study/NCT00134160) | Phase 4 | Completed | 1,000 | High-dose ARB monotherapy vs. ARB + CCB combination for cardiovascular event reduction in elderly Japanese hypertensive patients |
-| [NCT03785067](https://clinicaltrials.gov/study/NCT03785067) | Phase 3 | Terminated | 1 | TRIDENT cognitive sub-study — terminated, enrollment of 1, not statistically usable |
-| [NCT03783754](https://clinicaltrials.gov/study/NCT03783754) | N/A | Terminated | 4 | TRIDENT MRI sub-study — terminated, enrollment of 4, not statistically usable |
+| [NCT02699645](https://clinicaltrials.gov/study/NCT02699645) | Fase 3 | Fullført | 1,671 | TRIDENT-hovedforsøket: fast lav-dose "Triple Pill" blodtrykks-senking-strategi (inkl. CCB) vs. standardbehandling for å forhindre gjentakende slag etter intracerebral blødning — direkte relevant, fullført fase 3 RCT |
+| [NCT07458880](https://clinicaltrials.gov/study/NCT07458880) | N/A | Rekrutterer | 140 | TRICH Score-guidet trippel antihypertensiv terapi for blodtrykks-kontroll etter ICH; oppfølging av TRIDENT-konseptet, ingen resultater ennå |
+| [NCT03264352](https://clinicaltrials.gov/study/NCT03264352) | Fase 4 | Rekrutterer | 11,414 | Antihypertensiv behandling hos voksne med høyt-normalt blodtrykk og type 2-diabetes (IPAD); stort men ikke ICH-spesifikt |
+| [NCT00134160](https://clinicaltrials.gov/study/NCT00134160) | Fase 4 | Fullført | 1,000 | Høy-dose ARB-monoterapi vs. ARB + CCB-kombinasjon for kardiovaskulær hendelsesreduksjon hos eldre japanske hypertensive pasienter |
+| [NCT03785067](https://clinicaltrials.gov/study/NCT03785067) | Fase 3 | Avsluttet | 1 | TRIDENT kognitiv under-studie — avsluttet, inkludering av 1, ikke statistisk brukbar |
+| [NCT03783754](https://clinicaltrials.gov/study/NCT03783754) | N/A | Avsluttet | 4 | TRIDENT MR under-studie — avsluttet, inkludering av 4, ikke statistisk brukbar |
 
-### Cerebral Artery Occlusion
+### Cerebral arterieokklusion
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Inkludering | Nøkkelfunn |
 |---------|------|------|------|---------|
-| [NCT03015311](https://clinicaltrials.gov/study/NCT03015311) | N/A | Unknown | 8,000 | STEP trial: intensive vs. standard systolic BP targets in elderly hypertensive patients; status unknown, not amlodipine-specific |
-| [NCT02850081](https://clinicaltrials.gov/study/NCT02850081) | Phase 3 | Completed | 31 | Statin (not amlodipine) neuroprotection before carotid endarterectomy — indirectly related only |
-| [NCT00805311](https://clinicaltrials.gov/study/NCT00805311) | Phase 4 | Terminated | 400 | Carotid endarterectomy vs. optimal medical treatment; terminated, not amlodipine-specific |
-| [NCT03785067](https://clinicaltrials.gov/study/NCT03785067) | Phase 3 | Terminated | 1 | TRIDENT cognitive sub-study (see above) |
-| [NCT03783754](https://clinicaltrials.gov/study/NCT03783754) | N/A | Terminated | 4 | TRIDENT MRI sub-study (see above) |
+| [NCT03015311](https://clinicaltrials.gov/study/NCT03015311) | N/A | Ukjent | 8,000 | STEP-forsøket: intensiv vs. standard systolisk blodtrykks-mål hos eldre hypertensive pasienter; status ukjent, ikke amlodipine-spesifikt |
+| [NCT02850081](https://clinicaltrials.gov/study/NCT02850081) | Fase 3 | Fullført | 31 | Statin (ikke amlodipine) neuroproteksjon før carotis endarteriektomi — bare indirekte relatert |
+| [NCT00805311](https://clinicaltrials.gov/study/NCT00805311) | Fase 4 | Avsluttet | 400 | Carotis endarteriektomi vs. optimal medisinsk behandling; avsluttet, ikke amlodipine-spesifikt |
+| [NCT03785067](https://clinicaltrials.gov/study/NCT03785067) | Fase 3 | Avsluttet | 1 | TRIDENT kognitiv under-studie (se ovenfor) |
+| [NCT03783754](https://clinicaltrials.gov/study/NCT03783754) | N/A | Avsluttet | 4 | TRIDENT MR under-studie (se ovenfor) |
 
-### MRI Defined Brain Infarct
+### MR-definert hjerneinfark
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Inkludering | Nøkkelfunn |
 |---------|------|------|------|---------|
-| [NCT03015311](https://clinicaltrials.gov/study/NCT03015311) | N/A | Unknown | 8,000 | STEP trial (see above); uses MRI-related brain outcomes as one observation measure, status unknown |
+| [NCT03015311](https://clinicaltrials.gov/study/NCT03015311) | N/A | Ukjent | 8,000 | STEP-forsøket (se ovenfor); bruker MR-relaterte hjerneutfall som ett observasjonsmål, status ukjent |
 
-**Other 7 candidates (brain stem infarction, both pulmonary hypertension groups, malignant renovascular hypertension, malignant hypertensive renal disease, Braddock syndrome, ABri amyloidosis):** Currently no related clinical trials registered.
+**Andre 7 kandidater (hjernestaminfark, begge pulmonære hypertensjon-grupper, malign renovaskulær hypertensjon, malign hypertensiv nyresykdom, Braddock-syndrom, ABri-amyloidose):** For øyeblikket ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-### Intracerebral Hemorrhage (lead candidate)
+### Intracerebral blødning (ledende kandidat)
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Nøkkelfunn |
 |------|-----|------|------|---------|
-| [14717341](https://pubmed.ncbi.nlm.nih.gov/14717341/) | 2003 | RCT | Hypertension Research | CASE-J trial rationale — large RCT comparing candesartan vs. CCB-based regimens for cardiovascular event reduction in high-risk hypertensive patients |
-| [34994269](https://pubmed.ncbi.nlm.nih.gov/34994269/) | 2022 | Review/Trial Rationale | Int J Stroke | TRIDENT trial rationale and design — single-pill CCB-containing combination for secondary BP-driven ICH prevention |
-| [23053838](https://pubmed.ncbi.nlm.nih.gov/23053838/) | 2013 | Review | Neurological Sciences | Role of antihypertensive choice (beta-blocker vs. alternatives) in acute hypertensive ICH outcomes |
-| [3154329](https://pubmed.ncbi.nlm.nih.gov/3154329/) | 1988 | Review | Cardiovascular Drugs and Therapy | Overview of CCB antihypertensive mechanism and use in severe hypertension |
-| [17077518](https://pubmed.ncbi.nlm.nih.gov/17077518/) | 2006 | Preclinical | Biol Pharm Bull | A different dihydropyridine CCB (benidipine) improves cerebral blood flow autoregulation in hypertensive rats — mechanistic class analogy only |
-| [19299323](https://pubmed.ncbi.nlm.nih.gov/19299323/) | 2009 | Case Report (Adverse Event) | Ann Pharmacother | Probable amlodipine-induced angioedema in a patient with hemorrhagic stroke — safety signal, not efficacy |
-| [26698202](https://pubmed.ncbi.nlm.nih.gov/26698202/) | 2015 | Case Report | BMJ Case Reports | PRES after rapid antihypertensive withdrawal post-bariatric surgery in a patient with prior ICH — unrelated context |
-| [37489780](https://pubmed.ncbi.nlm.nih.gov/37489780/) | 2024 | Case Report | Current Drug Safety | Tizanidine-induced hypotension in stroke patients — different drug, not directly relevant |
+| [14717341](https://pubmed.ncbi.nlm.nih.gov/14717341/) | 2003 | RCT | Hypertension Research | CASE-J-forsøkets rasjonale — stort RCT som sammenlignet candesartan vs. CCB-baserte regimer for kardiovaskulær hendelsesreduksjon hos høyrisiko hypertensive pasienter |
+| [34994269](https://pubmed.ncbi.nlm.nih.gov/34994269/) | 2022 | Oversikt/Forsøksrasjonale | Int J Stroke | TRIDENT-forsøkets rasjonale og design — enkelt-pille CCB-inneholdende kombinasjon for sekundær blodtrykks-drevet ICH-forebyggelse |
+| [23053838](https://pubmed.ncbi.nlm.nih.gov/23053838/) | 2013 | Oversikt | Neurological Sciences | Rolle av antihypertensiv valg (beta-blocker vs. alternativer) i akutte hypertensive ICH-utfall |
+| [3154329](https://pubmed.ncbi.nlm.nih.gov/3154329/) | 1988 | Oversikt | Cardiovascular Drugs and Therapy | Oversikt over CCB-antihypertensiv mekanisme og bruk ved alvorlig hypertensjon |
+| [17077518](https://pubmed.ncbi.nlm.nih.gov/17077518/) | 2006 | Preklinisk | Biol Pharm Bull | En annen dihydropyridin-CCB (benidipine) forbedrer hjernekirkularitet-autoregulering hos hypertensive rotter — mekanistisk klasseanalogi kun |
+| [19299323](https://pubmed.ncbi.nlm.nih.gov/19299323/) | 2009 | Kasuistikk (Bivirkning) | Ann Pharmacother | Sannsynlig amlodipine-indusert angiødem hos en pasient med hemoragisk slag — sikkerhetssignal, ikke effektivitet |
+| [26698202](https://pubmed.ncbi.nlm.nih.gov/26698202/) | 2015 | Kasuistikk | BMJ Case Reports | PRES etter rask antihypertensiv tilbaketrekking etter bariatrisk kirurgi hos en pasient med tidligere ICH — ikke-relatert kontekst |
+| [37489780](https://pubmed.ncbi.nlm.nih.gov/37489780/) | 2024 | Kasuistikk | Current Drug Safety | Tizanidin-indusert hypotensjon hos slagpasienter — annet legemiddel, ikke direkte relevant |
 
-### Cerebral Artery Occlusion
+### Cerebral arterieokklusion
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Nøkkelfunn |
 |------|-----|------|------|---------|
-| [21538457](https://pubmed.ncbi.nlm.nih.gov/21538457/) | 2011 | Animal/Preclinical | J Neurosci Res | Amlodipine + atorvastatin reduce infarct size via anti-apoptotic/anti-autophagic mechanisms after transient MCAO in metabolic syndrome rats |
-| [20971084](https://pubmed.ncbi.nlm.nih.gov/20971084/) | 2011 | Animal/Preclinical | Brain Research | Synergistic neuroprotection of amlodipine + atorvastatin after stroke in Zucker metabolic rats |
-| [21276424](https://pubmed.ncbi.nlm.nih.gov/21276424/) | 2011 | Animal/Preclinical | Brain Research | Combined amlodipine + atorvastatin protects against ischemic stroke damage in Zucker rats |
-| [17070425](https://pubmed.ncbi.nlm.nih.gov/17070425/) | 2006 | Animal/Preclinical | Am J Hypertension | Amlodipine reduces stroke size in apolipoprotein E-deficient mice |
-| [17904110](https://pubmed.ncbi.nlm.nih.gov/17904110/) | 2007 | Animal/Preclinical | Brain Research | CCBs with antioxidative effects prevent neuronal damage after transient focal cerebral ischemia in rats |
+| [21538457](https://pubmed.ncbi.nlm.nih.gov/21538457/) | 2011 | Dyreforsøk/Preklinisk | J Neurosci Res | Amlodipine + atorvastatin reduserer infarktvolum via anti-apoptotisk/anti-autofagi-mekanismer etter transient MCAO hos rotter med metabolsk syndrom |
+| [20971084](https://pubmed.ncbi.nlm.nih.gov/20971084/) | 2011 | Dyreforsøk/Preklinisk | Brain Research | Synergistisk neuroproteksjon av amlodipine + atorvastatin etter slag hos Zucker metabolske rotter |
+| [21276424](https://pubmed.ncbi.nlm.nih.gov/21276424/) | 2011 | Dyreforsøk/Preklinisk | Brain Research | Kombinert amlodipine + atorvastatin beskytter mot iskemisk slagskade hos Zucker-rotter |
+| [17070425](https://pubmed.ncbi.nlm.nih.gov/17070425/) | 2006 | Dyreforsøk/Preklinisk | Am J Hypertension | Amlodipine reduserer slagvolum hos apolipoprotein E-defisiente mus |
+| [17904110](https://pubmed.ncbi.nlm.nih.gov/17904110/) | 2007 | Dyreforsøk/Preklinisk | Brain Research | CCBer med antioksidative effekter forebygger nevronal skade etter transient fokal cerebral iskemi hos rotter |
 
-### Malignant Renovascular Hypertension
+### Malign renovaskulær hypertensjon
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Nøkkelfunn |
 |------|-----|------|------|---------|
-| [16467664](https://pubmed.ncbi.nlm.nih.gov/16467664/) | 2006 | Case Report | Journal of Hypertension | Pediatric case of severe renovascular hypertension from renal artery compression in tuberous sclerosis; management context only, amlodipine not named as study drug |
-| [15113447](https://pubmed.ncbi.nlm.nih.gov/15113447/) | 2004 | Case Report | BMC Nephrology | Hyponatremic hypertensive syndrome presenting as malignant hypertension in an 18-month-old; amlodipine not named as study drug |
+| [16467664](https://pubmed.ncbi.nlm.nih.gov/16467664/) | 2006 | Kasuistikk | Journal of Hypertension | Pediatrisk tilfelle av alvorlig renovaskulær hypertensjon fra nyre-arteriekompreksjon i tuberøs sklerose; behandlingskontekst kun, amlodipine ikke navngitt som studielegemiddel |
+| [15113447](https://pubmed.ncbi.nlm.nih.gov/15113447/) | 2004 | Kasuistikk | BMC Nephrology | Hyponatremic hypertensiv syndrom som presenterer seg som malign hypertensjon hos en 18 måneder gammel; amlodipine ikke navngitt som studielegemiddel |
 
-### Pulmonary Hypertension Owing to Lung Disease/Hypoxia (Group 3)
+### Pulmonær hypertensjon på grunn av lungesykdom/hypoksi (Gruppe 3)
 
-20 PubMed records were returned by keyword search, but on review all are general hypoxia-biology or oncology-hypoxia papers (e.g., cerebral hypoxia and aging, HIF-1α signaling in cancer, altitude physiology) with no direct discussion of amlodipine, CCBs, or pulmonary hypertension treatment. These are assessed as keyword-matching noise rather than genuine evidence and are not counted toward the evidence level; current treatment guidance (ESC/ERS) advises against CCB use in this indication. No relevant literature identified.
+20 PubMed-poster ble returnert av søkeords-søk, men ved gjennomgang er alle generelle hypoksi-biologi eller onkologi-hypoksi-papirer (f.eks. cerebral hypoksi og aldring, HIF-1α-signalering i kreft, høydeiyfysologi) uten direkte diskusjon av amlodipine, CCBer eller pulmonær hypertensjon-behandling. Disse vurderes som søkeordsstøy i stedet for genuint bevis og telles ikke mot bevisnivået; gjeldende behandlingsveiledning (ESC/ERS) fraråder CCB-bruk i denne indikasjonenen. Ingen relevant litteratur identifisert.
 
-**Other candidates (brain stem infarction, Group 5 pulmonary hypertension, malignant hypertensive renal disease, Braddock syndrome, MRI defined brain infarct, ABri amyloidosis):** Currently no related literature available.
-
----
-
-## Norway Market Information
-
-No marketing authorizations were found for amlodipine in this dataset — market status is recorded as **Not Marketed**, with 0 authorizations on file. No product/dosage-form/indication records are available to tabulate.
+**Andre kandidater (hjernestaminfark, Gruppe 5 pulmonær hypertensjon, malign hypertensiv nyresykdom, Braddock-syndrom, MR-definert hjerneinfark, ABri-amyloidose):** For øyeblikket ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Safety Considerations
+## Norges markedsinformasjon
 
-Please refer to the package insert for safety information. (No structured warnings, contraindications, or drug-interaction data were returned for this drug in the current pack; a blocking data gap — TFDA/label warnings and contraindications — was flagged and remains unresolved as of the data cutoff.)
+Ingen markedsføringsregistreringer ble funnet for amlodipine i dette datasettet — markedsstatus er registrert som **Ikke markedsført**, med 0 registreringer på fil. Ingen produkt-/doserings-form-/indikasjon-poster er tilgjengelig for tabulering.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails** *(for Intracerebral Hemorrhage secondary prevention only)* — **Hold** *(for the other 9 screened candidates)*
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Ingen strukturerte advarsler, kontraindikasjoner eller legemiddelinteraksjon-data ble returnert for dette legemidlet i den gjeldende pakken; et blokkerende datahull — TFDA/etikett-advarsler og kontraindikasjoner — ble flagget og forblir uløst fra datakutoffet.)
 
-**Rationale:**
-- Intracerebral hemorrhage is the only candidate supported by a completed Phase 3 RCT (TRIDENT, n=1,671) and corroborating class-level trial/literature evidence, justifying guarded advancement rather than outright hold.
-- Cerebral artery occlusion and MRI defined brain infarct (Research Question) have credible preclinical/mechanistic signal but no amlodipine-specific interventional trial, and malignant renovascular hypertension is a pharmacological extension of an already-approved use rather than novel repurposing — all three need targeted evidence review before moving past S1.
-- The remaining 5 candidates (brain stem infarction, both pulmonary hypertension groups, malignant hypertensive renal disease, Braddock syndrome, ABri amyloidosis) have no supporting trials or literature, and in the case of Group 3 pulmonary hypertension the returned literature is unrelated noise; these should remain on Hold.
+---
 
-**To proceed, the following is needed:**
-- Resolution of DG001 (TFDA/label warnings and contraindications) — currently a blocking gap for any safety pre-assessment (S1 gate).
-- Resolution of DG002 (mechanism of action) to support the mechanistic-plausibility analysis with primary source data rather than general pharmacological knowledge.
-- For the lead candidate (intracerebral hemorrhage): amlodipine-specific (not combination-only) outcome data from TRIDENT if/when available, plus a formal indication-specific safety review given the drug is not currently marketed in Norway.
-- For the three Research Question candidates: a targeted literature/trial search using amlodipine-specific search terms (rather than CCB-class terms) to confirm or rule out promotion to S2.
+## Konklusjon og neste trinn
+
+**Beslutning: Fortsett med sikringsmekanismer** *(for sekundærprofylakse av intracerebral blødning kun)* — **Hold** *(for de øvrige 9 screenet kandidatene)*
+
+**Rasjonale:**
+- Intracerebral blødning er den eneste kandidaten som er støttet av et fullført fase 3 RCT (TRIDENT, n=1,671) og bekreftet klasse-nivå forsøks-/litteratur-bevis, som rettferdiggjør varsom avansering i stedet for direkte hold.
+- Cerebral arterieokklusion og MR-definert hjerneinfark (Forskningsspørsmål) har troverdig preklinisk/mekanistisk signal men ingen amlodipine-spesifikk intervensjons-forsøk, og malign renovaskulær hypertensjon er en farmakologisk utvidelse av en allerede godkjent bruk i stedet for helt ny gjenbruk — alle tre trenger målrettet bevis-gjennomgang før avansering forbi S1.
+- De resterende 5 kandidatene (hjernestaminfark, begge pulmonære hypertensjon-grupper, malign hypertensiv nyresykdom, Braddock-syndrom, ABri-amyloidose) har ingen støttende forsøk eller litteratur, og i tilfelle av Gruppe 3 pulmonær hypertensjon er den returnerte litteraturen ikke-relatert støy; disse bør forbli på Hold.
+
+**For å fortsette, er følgende nødvendig:**
+- Løsning av DG001 (TFDA/etikett-advarsler og kontraindikasjoner) — for øyeblikket et blokkerende hull for noen sikkerhetspre-vurdering (S1-port).
+- Løsning av DG002 (virkningsmekanisme) for å støtte mekanistisk-plausibilitet-analysen med primær-kilde-data i stedet for generell farmakologisk kunnskap.
+- For den ledende kandidaten (intracerebral blødning): amlodipine-spesifikk (ikke kun kombinasjons-) utfalls-data fra TRIDENT hvis/når tilgjengelig, pluss en formell indikasjon-spesifikk sikkerhetsvurdering gitt at legemidlet for øyeblikket ikke er markedsført i Norge.
+- For de tre Forskningsspørsmål-kandidatene: en målrettet litteratur-/forsøks-søk ved bruk av amlodipine-spesifikk søkeordsterminologi (i stedet for CCB-klasse-termer) for å bekrefte eller utelukke avansering til S2.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

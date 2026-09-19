@@ -29,80 +29,81 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Leflunomide: From DMARD/Immunomodulator to Brachydactyly-Syndactyly Syndrome
+# Leflunomid: Fra DMARD/Immunmodulator til brachydactyly-syndactyly-syndrom
 
-## One-Sentence Summary
+## Oppsummering i en setning
 
-> Leflunomide is a known dihydroorotate dehydrogenase (DHODH) inhibitor used clinically as a disease-modifying antirheumatic drug (DMARD) / immunomodulator; its specific original indication record is not yet available in this dataset.
-> The TxGNN model predicts it may be effective for **brachydactyly-syndactyly syndrome**, a rare developmental limb disorder,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-output-only signal with no independent mechanistic, trial, or literature corroboration.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in current dataset (drug is a known DHODH inhibitor / DMARD immunomodulator per mechanistic notes; formal indication text pending) |
-| Predicted New Indication | Brachydactyly-syndactyly syndrome |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
-| Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Leflunomid er en kjent dihydroorotatdehydrogenase (DHODH)-hemmer som brukes klinisk som et sykdomsmodifiserende antirevmatisk legemiddel (DMARD) / immunmodulator; dens spesifikke opprinnelige indikasjonsetikett er ennå ikke tilgjengelig i dette datasettet.
+> TxGNN-modellen forutsier at det kan være effektivt for **brachydactyly-syndactyly-syndrom**, en sjelden utviklingsbetonget lemmeforstyrrelse,
+> men denne forutsigelsen er for tiden støttet av **0 kliniske forsøk** og **0 publikasjoner** — det er et signal kun fra modellens utdata uten uavhengig mekanistisk, forsøks- eller litteraturbekreftelse.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigoversikt
 
-Currently, detailed mechanism of action data for leflunomide is marked as a data gap in this evidence pack. Based on generally known pharmacology referenced in the model's own rationale notes, leflunomide inhibits dihydroorotate dehydrogenase (DHODH), thereby suppressing pyrimidine synthesis and lymphocyte proliferation — this is the basis for its established use as an immunomodulatory DMARD.
-
-Brachydactyly-syndactyly syndrome, however, is a rare congenital disorder of limb development, typically driven by mutations in developmental patterning genes such as *HOXD* or *GLI3*. There is no known overlap between DHODH/pyrimidine-synthesis inhibition and the developmental gene pathways implicated in this syndrome.
-
-The repurposing rationale for this candidate explicitly states that **no mechanistic link can be established** — the prediction reflects a high-scoring knowledge-graph association from the TxGNN algorithm alone, without biological plausibility support. This should be treated as a hypothesis-generating signal only, not as evidence of therapeutic relevance.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke tilgjengelig i gjeldende datasett (legemiddel er en kjent DHODH-hemmer / DMARD-immunmodulator per mekanistiske notater; formell indikasjonsetikett venter) |
+| Forutsagt ny indikasjon | Brachydactyly-syndactyly-syndrom |
+| TxGNN-forutsigelsesscore | 99.93% |
+| Bevissnivå | L5 |
+| Markedsstatus | Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forutsigelsen rimelig?
 
-Currently no related literature available.
+For tiden er detaljerte virkningsmekanisme-data for leflunomid merket som en datakløft i denne bevissamlingen. Basert på generelt kjent farmakologi som er referert i modellens egne begrunnede notater, hemmer leflunomid dihydroorotatdehydrogenase (DHODH), og undertrykker dermed pyrimidinsyntese og lymfocyttproliferasjon — dette er grunnlaget for dens etablerte bruk som en immunmodulatorisk DMARD.
 
----
+Brachydactyly-syndactyly-syndrom er imidlertid en sjelden medfødt lemmeforstyrrelse, typisk forårsaket av mutasjoner i utviklings-mønstergivende gener som *HOXD* eller *GLI3*. Det er ingen kjent overlapping mellom DHODH/pyrimidinsyntese-hemmelse og de utviklings-genveiene som er implisert i dette syndromet.
 
-## Norway Market Information
-
-Leflunomide currently has no marketing authorizations recorded (0 licenses; market status: Not Marketed). No product table is available.
+Ombuksgrunnlaget for denne kandidaten uttaler eksplisitt at **ingen mekanistisk lenke kan etableres** — forutsigelsen reflekterer en høyt-scorende kunnskapsgraff-assosiasjon fra TxGNN-algoritmen alene, uten støtte fra biologisk plausibilitet. Dette bør behandles som et hypotesegenererende signal alene, ikke som bevis for terapeutisk relevans.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøksbevis
 
-Please refer to the package insert for safety information.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-This candidate is supported only by an L5 (model-prediction-only) evidence level, with no clinical trials or literature identified, and the repurposing rationale itself states no mechanistic plausibility could be established between leflunomide's known DHODH-inhibitory action and the pathology of brachydactyly-syndactyly syndrome. Combined with a Blocking-severity data gap on TFDA label warnings/contraindications, this candidate cannot proceed to safety pre-screening (S1).
-
-**To proceed, the following is needed:**
-- TFDA label (warnings/contraindications) — required before any S1 safety evaluation (DG001, Blocking)
-- Confirmed mechanism of action data from DrugBank (DG002, High)
-- Independent mechanistic or preclinical rationale linking DHODH/pyrimidine synthesis inhibition to limb developmental disorders
-- Any emerging clinical trial or case-report literature for this indication
+For tiden ingen relaterte kliniske forsøk registrert.
 
 ---
 
-*Note: A second candidate indication, colobomatous microphthalmia-rhizomelic dysplasia syndrome (TxGNN score 99.93%, rank 1084), carries the same L5 evidence level, zero trial/literature support, and an equivalent "no mechanistic link established" conclusion. It is likewise recommended for Hold pending the same data gaps above.*
+## Litteraturbevis
+
+For tiden ingen relatert litteratur tilgjengelig.
+
+---
+
+## Markedsinformasjon for Norge
+
+Leflunomid har for tiden ingen markedsføringsmyndighetsgjodkjenninger registrert (0 lisenser; markedsstatus: Ikke markedsført). Ingen produkttabell er tilgjengelig.
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Denne kandidaten er støttet kun av et L5 (modellforutsigelse-kun) bevissnivå, uten kliniske forsøk eller litteratur identifisert, og ombuksgrunnlaget selv uttaler at ingen mekanistisk plausibilitet kunne etableres mellom leflunomids kjente DHODH-hemming og patologien i brachydactyly-syndactyly-syndrom. Kombinert med en alvorlighetsgrad-blokkering datakløft på TFDA-etikettadvarsler/kontraindikasjoner, kan denne kandidaten ikke fortsette til sikkerhetsforscreening (S1).
+
+**For å fortsette, trengs følgende:**
+- TFDA-etikett (advarsler/kontraindikasjoner) — påkrevd før noen S1-sikkerhets-evaluering (DG001, Blokkering)
+- Bekreftet virkningsmekanisme-data fra DrugBank (DG002, Høy)
+- Uavhengig mekanistisk eller preklinisk grunnlag som forbinder DHODH/pyrimidinsyntese-hemmelse til lemmeuvtiklingsforstyrelser
+- Eventuell ny klinisk forsøks- eller kasuistikk-litteratur for denne indikasjonen
+
+---
+
+*Merknad: En andre kandidat-indikasjon, colobomatous microphthalmia-rhizomelic dysplasia-syndrom (TxGNN-score 99.93%, rang 1084), bærer samme L5-bevissnivå, null forsøks-/litteratur-støtte og en tilsvarende «ingen mekanistisk lenke etablert»-konklusjon. Det anbefales på samme måte for Avvent inntil de samme datakløftene ovenfor er dekket.*
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

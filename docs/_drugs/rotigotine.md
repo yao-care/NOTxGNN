@@ -29,68 +29,67 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Rotigotine: From Parkinson's Disease/Restless Legs Syndrome to Attention Deficit-Hyperactivity Disorder
+# Rotigotine: Fra Parkinsons sykdom/Restless Legs Syndrom til ADHD
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-Rotigotine is a non-ergoline dopamine agonist currently used to treat Parkinson's disease and restless legs syndrome (RLS).
-The TxGNN model predicts it may be effective for **Attention Deficit-Hyperactivity Disorder (ADHD)**,
-but currently **no clinical trials** and only **3 loosely related publications** (mostly about RLS, not ADHD) support this direction.
+Rotigotine er en ikke-ergolin dopaminagonist som for øyeblikket brukes til å behandle Parkinsons sykdom og Restless Legs Syndrom (RLS). TxGNN-modellen forutsier at det kan være effektivt for **ADHD (Attention Deficit-Hyperaktivitetsforstyrrelse)**, men for øyeblikket finnes det **ingen kliniske studier** og bare **3 løst relaterte publikasjoner** (hovedsakelig om RLS, ikke ADHD) som støtter denne retningen.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Punkt | Innhold |
 |------|------|
-| Original Indication | Parkinson's disease, Restless legs syndrome (RLS) — per supporting literature; no formal Norway license data available |
-| Predicted New Indication | Attention Deficit-Hyperactivity Disorder (ADHD) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Parkinsons sykdom, Restless Legs Syndrom (RLS) – basert på støttende litteratur; ingen formell norsk lisensdata tilgjengelig |
+| Forutsagt ny indikasjon | ADHD (Attention Deficit-Hyperaktivitetsforstyrrelse) |
+| TxGNN-prediksjonscore | 99.99% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Hold |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action (MOA) data for rotigotine is not available in this evidence pack. Based on information contained in the supporting literature (PMID 37221270), rotigotine is a non-ergoline dopamine agonist that activates all five dopamine receptor subtypes (D1–D5), with particularly high affinity for D3, and is clinically used to treat Parkinson's disease and RLS.
+For øyeblikket er detaljerte data om virkningsmekanisme (MOA) for rotigotine ikke tilgjengelige i dette bevisematerialet. Basert på informasjon i støttende litteratur (PMID 37221270), er rotigotine en ikke-ergolin dopaminagonist som aktiverer alle fem dopaminreseptor-subtyper (D1–D5), med særlig høy affinitet for D3, og brukes klinisk til å behandle Parkinsons sykdom og RLS.
 
-The theoretical link to ADHD rests on a shared "dopamine hypoactivity" framework: Parkinson's disease and RLS involve reduced nigrostriatal/diencephalic dopaminergic tone, while ADHD is hypothesized to arise from insufficient prefrontal-striatal dopamine transmission. This shared mechanistic theme is likely what drives the TxGNN association.
+Den teoretiske sammenhengen med ADHD hviler på et delt "dopamin-hypoaktivitet" rammeverk: Parkinsons sykdom og RLS involverer redusert nigrostriatal/diefalisk dopaminergi, mens ADHD antas å oppstå fra utilstrekkelig prefrontal-striatal dopamintransmisjon. Dette delte mekanistiske temaet er sannsynligvis det som driver TxGNN-assosiasjonen.
 
-However, the actual evidence is thin. Two of the three cited papers (PMID 18656214, PMID 21476956) are reviews entirely about RLS with no discussion of ADHD. The only paper with genuine ADHD relevance (PMID 34182128, 2021) links ADHD to dopamine D4 receptor polymorphisms and α2A-adrenoceptor heteromerization — an indirect receptor-genetics argument, not direct pharmacological or clinical evidence that rotigotine treats ADHD. No clinical trials of rotigotine in ADHD have been registered. This is consistent with the assigned **L5 (model prediction only)** evidence level and a **Hold** recommendation.
+Imidlertid er det faktiske beviset tynt. To av de tre siterte artikler (PMID 18656214, PMID 21476956) er oversikter helt og holdent om RLS uten diskusjon av ADHD. Den eneste artikkelen med faktisk ADHD-relevans (PMID 34182128, 2021) forbinder ADHD med dopamin D4-reseptor-polymorfismer og α2A-adrenoreseptor-heteromerisering – et indirekte reseptor-genetisk argument, ikke direkte farmakologisk eller klinisk bevis for at rotigotine behandler ADHD. Ingen kliniske studier av rotigotine for ADHD er registrert. Dette stemmer overens med det tildelte **L5 (bare modellprediksjon)** bevisnivå og en **Hold**-anbefaling.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske studier
 
-Currently no related clinical trials registered
+Ingen relaterte kliniske studier er for øyeblikket registrert.
 
-## Literature Evidence
+## Bevis fra litteratur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [21476956](https://pubmed.ncbi.nlm.nih.gov/21476956/) | 2011 | Review | Current Pharmaceutical Design | Review of pharmacological treatment options for RLS in children; does not address ADHD |
-| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Review | Revue Neurologique | General review of RLS pathophysiology and treatment (French); does not address ADHD |
-| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Mechanistic/Receptor pharmacology | Pharmacological Research | Describes α2A-adrenoceptor/dopamine D4 receptor heteromerization and its relevance to ADHD via D4 polymorphic variants — an indirect receptor-genetics link, not a direct rotigotine-ADHD study |
+| [21476956](https://pubmed.ncbi.nlm.nih.gov/21476956/) | 2011 | Oversikt | Current Pharmaceutical Design | Oversikt over farmakologiske behandlingsalternativer for RLS hos barn; tar ikke opp ADHD |
+| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Oversikt | Revue Neurologique | Generell oversikt over RLS-patofysiologi og behandling (på fransk); tar ikke opp ADHD |
+| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Mekanistisk/Reseptor-farmakologi | Pharmacological Research | Beskriver α2A-adrenoreseptor/dopamin D4-reseptor-heteromerisering og dens relevans for ADHD via D4-polymorfiske varianter – et indirekte reseptor-genetisk kobling, ikke en direkte rotigotine-ADHD-studie |
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Rotigotine currently holds **no marketing authorization in Norway** (market status: Not marketed/Not marketed; 0 licenses on record). No product or dosage form data is available.
+Rotigotine har for øyeblikket **ingen markedsføringsgodkjenning i Norge** (markedsstatus: Ikke markedsført/Ikke markedsført; 0 lisenser registrert). Ingen produkt- eller doseringsformdata er tilgjengelig.
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Se pakningsvedlegg for sikkerhetsinformasjon.
 
-> Note: A blocking data gap (DG001) exists for TFDA/regulatory warnings and contraindications, which is required before any Stage 1 (S1) safety evaluation can proceed.
+> Merknad: En blokkerende datahull (DG001) foreligger for TFDA/regulatoriske advarsler og kontraindikasjoner, som er nødvendig før noen Stage 1 (S1) sikkerhetsevaluering kan gjennomføres.
 
-## Conclusion and Next Steps
+## Konklusjon og neste steg
 
-**Decision: Hold**
+**Beslutning: Hold**
 
-**Rationale:**
-No clinical trials support rotigotine's use in ADHD, and the available literature is either off-topic (RLS reviews) or only indirectly relevant (receptor-genetics mechanism paper). The evidence level is L5 — model prediction only — which does not meet the threshold to advance.
+**Begrunnelse:**
+Ingen kliniske studier støtter bruken av rotigotine ved ADHD, og den tilgjengelige litteraturen er enten irrelevant (RLS-oversikter) eller bare indirekte relevant (reseptor-genetikk-mekanisme-artikkel). Bevisnivået er L5 – bare modellprediksjon – som ikke oppfyller terskelen for å gå videre.
 
-**To proceed, the following is needed:**
-- Direct preclinical or clinical evidence evaluating rotigotine specifically in ADHD populations
-- Rotigotine mechanism of action (MOA) data from DrugBank or primary literature
-- TFDA/regulatory package insert warnings and contraindications (currently a blocking data gap)
-- Confirmation of formal original indication and licensing status (Parkinson's disease/RLS) from a regulatory source
+**For å gå videre er følgende nødvendig:**
+- Direkte preklinisk eller klinisk bevis som evaluerer rotigotine spesifikt i ADHD-populasjoner
+- Rotigotine-virkningsmekanisme (MOA) data fra DrugBank eller primærlitteratur
+- TFDA/regulatoriske advarsler og kontraindikasjoner fra pakningsvedlegget (for øyeblikket en blokkerende datahull)
+- Bekrefelse av formell opprinnelig indikasjon og lisensestatus (Parkinsons sykdom/RLS) fra en regulatorisk kilde
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

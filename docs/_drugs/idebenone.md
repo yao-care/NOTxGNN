@@ -29,76 +29,77 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Idebenone：目前無核准適應症 → 預測新適應症 Hepatic Porphyria（肝性紫質症）
+# Idebenone: Ingen godkjent indikasjon → Predikert ny indikasjon Hepatic Porphyria (hepatisk porfyri)
 
-## 一句話總結
+## Oppsummering i én setning
 
-Idebenone（艾迪苯醌）目前在市場上尚無核准適應症，也未在 Norway 上市，公開資料顯示其為合成 CoQ10 類似物，主要作用於粒線體電子傳遞鏈支持與抗氧化。TxGNN 模型預測其可能對**肝性紫質症（Hepatic Porphyria）**有效，但目前**0 篇臨床試驗**與**0 篇文獻**支持此方向，證據等級為最低的 **L5**（純模型預測）。
-
----
-
-## 快速總覽
-
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | 尚無核准適應症紀錄（藥品Not marketed） |
-| 預測新適應症 | Hepatic porphyria（肝性紫質症） |
-| TxGNN 預測分數 | 99.92% |
-| 證據等級 | L5 |
-| Norway 市場狀態 | Not marketed |
-| 授權張數 | 0 |
-| 建議決策 | Hold |
+Idebenone er foreløpig uten godkjente indikasjoner på markedet, og er heller ikke markedsført i Norge. Offentlige data viser at det er et syntetisk CoQ10-lignende stoff som primært virker på elektrontransportkjeden i mitokondriene og har antioksidativ effekt. TxGNN-modellen predikerer at det kan være effektivt for **hepatisk porfyri (Hepatic Porphyria)**, men det finnes foreløpig **0 kliniske prøver** og **0 litteraturreferanser** som støtter denne retningen. Bevisnivået er det laveste: **L5** (ren modellpreduksjon).
 
 ---
 
-## 為什麼這個預測合理？
+## Rask oversikt
 
-由於 DrugBank 的 `original_moa` 欄位標記為資料缺口，本節改以模型推理文字中提供的機轉描述為依據：Idebenone 為合成 CoQ10（輔酶 Q10）類似物，主要作用是抗氧化及支持粒線體電子傳遞鏈——其獨特之處在於可繞過 Complex I，直接將電子傳遞至 Complex III，因此在粒線體功能受損的疾病中具有理論基礎。
-
-然而，肝性紫質症的病理機轉主要為血基質（heme）合成路徑中特定酵素缺陷，導致紫質前驅物在肝臟或紅血球中堆積，這與粒線體氧化磷酸化功能之間並無已知的直接關聯。換言之，TxGNN 給出的高分（99.92%）較可能反映知識圖譜中的間接關聯（例如兩者皆與「肝臟」節點相連），而非具體的藥理機轉證據。
-
-此外，本次 Evidence Pack 中共列出 10 項 TxGNN 預測適應症，除本報告聚焦的肝性紫質症外，其餘 9 項（如 idiopathic copper-associated cirrhosis、primitive portal vein thrombosis、immune-mediated necrotizing myopathy 等）證據等級同樣為 L5，僅有 2 項（immune-mediated necrotizing myopathy、antisynthetase syndrome）因與 idebenone 已知的粒線體肌肉疾病應用經驗（如 Duchenne 肌肉失養症）機轉相似度較高，被標記為 S1「Research Question」，其餘均為 S0「Hold」。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
+| Punkt | Innhold |
+|------|---------|
+| Opprinnelig indikasjon | Ingen godkjent indikasjon registrert (legemiddel Not marketed) |
+| Predikert ny indikasjon | Hepatic porphyria (hepatisk porfyri) |
+| TxGNN-prediksjonspoengsum | 99.92% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | Not marketed |
+| Antall lisenser | 0 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## 文獻證據
+## Hvorfor er denne prediksjonen rimelig?
 
-目前無相關文獻資料。
+Fordi feltet `original_moa` i DrugBank er merket som en datahull, er denne delen basert på mekanismebeskrivelser levert i modellresonnementteksten: Idebenone er et syntetisk CoQ10 (koenzym Q10)-lignende stoff som hovedsakelig virker antioksidativt og støtter mitokondriens elektrontransportkjede – dets særegne egenskap er at det kan omgå Complex I og transportere elektroner direkte til Complex III. Derfor har det et teoretisk grunnlag i sykdommer der mitokondriens funksjon er svekket.
 
----
+Imidlertid er patofysiologien ved hepatisk porfyri primært knyttet til enzymatiske defekter i hemebiosynteseveien, som fører til akkumulering av porfyrinprekursorer i lever eller røde blodceller. Det er ingen kjent direkte sammenheng mellom dette og mitokondriens oksidativ fosforylering. Med andre ord er TxGNN-skåren på 99.92% sannsynligvis et uttrykk for indirekte assosiasjoner i kunnskapsgrafen (for eksempel at begge er knyttet til «lever»-noden), snarere enn konkret bevis for farmakologisk mekanisme.
 
-## Norway 市場資訊
-
-Idebenone 目前**未在 Norway 上市**，無任何有效授權（total_licenses = 0），故無可列示之核准產品資訊。
+Dessuten inneholder denne Evidence Pack 10 TxGNN-predikerte indikasjoner. Bortsett fra hepatisk porfyri som denne rapporten fokuserer på, har de øvrige 9 (som idiopathic copper-associated cirrhosis, primitive portal vein thrombosis, immune-mediated necrotizing myopathy, osv.) bevisnivå L5. Kun 2 av dem (immune-mediated necrotizing myopathy, antisynthetase syndrome) er merket som S1 «Research Question» fordi de har høyere mekanismelikhet med idebenones kjente mitokondrielle muskelapplikasjon (som Duchenne muskeldystrofi); resten er S0 «Hold».
 
 ---
 
-## 安全性考量
+## Bevis fra kliniske prøver
 
-請參閱藥品仿單以取得完整安全性資訊。
-
-> 補充說明：本次 Evidence Pack 標記 TFDA 仿單警語／禁忌（DG001）為 **Blocking** 等級資料缺口，這意味著在缺乏該資料前，本候選藥物**Cannot proceed to S1 safety screening階段**，此為決策為 Hold 的關鍵原因之一。
+Det finnes ingen relaterte kliniske prøveregistreringer for øyeblikket.
 
 ---
 
-## 結論與後續建議
+## Litteraturbevis
 
-**決策：Hold**
+Det finnes ingen relatert litteraturdata for øyeblikket.
 
-**理由：**
-- 排名第一之預測適應症（肝性紫質症）證據等級為 L5，無任何臨床試驗或文獻支持，機轉關聯性亦被自評為薄弱（純屬圖譜關聯推測）。
-- 安全性資料缺口（DMP package insert warnings/contraindications）為 Blocking 等級，依現行規則Cannot proceed to S1 safety screening。
+---
 
-**若要推進，需要補充：**
-- TFDA 仿單警語與禁忌資料（DG001，Blocking）
-- DrugBank 完整作用機轉（MOA）資料，以強化機轉關聯性分析（DG002，High）
-- 針對機轉合理性較高的候選適應症（immune-mediated necrotizing myopathy、antisynthetase syndrome）優先蒐集臨床前或病例文獻，作為後續研究假說驗證起點
+## Markedsinformasjon for Norge
+
+Idebenone er foreløpig **ikke markedsført i Norge**. Det finnes ingen gyldige lisenser (total_licenses = 0), så det er ingen godkjente produktinformasjoner å oppgi.
+
+---
+
+## Sikkerhetshensyn
+
+Se legemiddelpakningsvedlegget for fullstendig sikkerhetsinformasjon.
+
+> Tilleggsmerknad: Denne Evidence Pack merker TFDA-pakningsvedleggets advarsler/kontraindikasjoner (DG001) som **Blocking**-nivå datahull, noe som betyr at før disse dataene finnes, **kan denne kandidaten ikke gå videre til S1-sikkerhetsvurderingsstadium**. Dette er en nøkkelgrunn til at beslutningen er Hold.
+
+---
+
+## Konklusjon og påfølgende anbefalinger
+
+**Beslutning: Hold**
+
+**Grunn:**
+- Første rangeerte predikerte indikasjon (hepatisk porfyri) har bevisnivå L5, uten noen klinisk prøve eller litteraturstøtte. Mekanismekoblingen vurderes også som svak (ren grafassociasjonspreduksjon).
+- Sikkerhetsdatahull (DMP-pakningsvedleggets advarsler/kontraindikasjoner) er på Blocking-nivå. I henhold til gjeldende regler kan modellen ikke gå videre til S1-sikkerhetsvurdering.
+
+**For å kunne gå videre, må følgende legges til:**
+- TFDA-pakningsvedleggets advarsler og kontraindikasjoner (DG001, Blocking)
+- DrugBank fullstendig virkningsmekanisme (MOA) data for å styrke mekanisme-assosiasjonsanalysen (DG002, High)
+- Samle inn preklinisk eller pasientdokumentasjon for kandidatindikasjoner med høyere mekanismerimeligket (immune-mediated necrotizing myopathy, antisynthetase syndrome) som utgangspunkt for senere verifisering av forskningshypotese
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,88 +29,89 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Cytarabine: From Acute Myeloid Leukemia to Small Cell Lung Carcinoma
+# Cytarabin: Fra akutt myeloid leukemi til småcellet lungekarsinom
 
-## One-Sentence Summary
+## Sammendrag på en setning
 
-Cytarabine (Ara-C) is a pyrimidine nucleoside antimetabolite long established as a backbone agent for acute myeloid leukemia and other hematologic malignancies.
-The TxGNN model predicts it may be effective for **Small Cell Lung Carcinoma (SCLC)**,
-with **3 clinical trials** (none directly testing cytarabine) and **20 publications**, largely from the 1970s–1990s, currently supporting this direction.
+Cytarabin (Ara-C) er en pyrimidin-nukleosid-antimetabolitt som lenge har vært etablert som et ryggradsmiddel for akutt myeloid leukemi og andre hematologiske malignenser.
+TxGNN-modellen predikerer at det kan være effektivt for **småcellet lungekarsinom (SCLC)**,
+med **3 kliniske forsøk** (ingen tester direkte cytarabin) og **20 publikasjoner**, stort sett fra 1970-1990-tallet, som for øyeblikket støtter denne retningen.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not recorded in local regulatory data (drug is not marketed locally); globally established for acute myeloid leukemia and other hematologic malignancies |
-| Predicted New Indication | Small Cell Lung Carcinoma |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L3 |
-| Norway Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Ikke registrert i lokale regulatoriske data (medikamentet er ikke markedsført lokalt); globalt etablert for akutt myeloid leukemi og andre hematologiske malignenser |
+| Forutsagt ny indikasjon | Småcellet lungekarsinom |
+| TxGNN-prediksjonspoeng | 99.78% |
+| Evidensgrad | L3 |
+| Norsk markedsstatus | Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt avgjørelse | Utsett |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available. Based on known information, cytarabine is a cell-cycle (S-phase) specific pyrimidine nucleoside analog that incorporates into DNA and inhibits DNA polymerase, and its efficacy in acute leukemia has been proven for decades. Mechanistically it has also been explored — mostly in older literature — for solid tumors with rapid proliferation, including lung cancer.
+For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelig. Basert på kjent informasjon er cytarabin en cellesyklus (S-fase)-spesifikk pyrimidin-nukleosid-analog som innlemmes i DNA og hemmer DNA-polymerase, og dens effektivitet i akutt leukemi har vært påvist i tiår. Mekanistisk har det også blitt utforsket — stort sett i eldre litteratur — for solide tumorer med rask proliferasjon, inkludert lungekreftsykdommer.
 
-Small cell lung carcinoma is characterized by a very high growth fraction, which in principle makes it a plausible target for an S-phase-specific cytotoxic agent like cytarabine. Historical combination regimens (e.g., cyclophosphamide/doxorubicin/cytosine arabinoside plus radiotherapy, and cytarabine plus cisplatin/vindesine) were tested in NSCLC and SCLC in the late 1970s through 1990s, showing measurable but modest activity, often limited by significant hematologic toxicity.
+Småcellet lungekarsinom er karakterisert ved veldig høy vekstfraksjon, noe som i prinsippet gjør det til et plausibelt mål for et S-fase-spesifikk cytotoksisk middel som cytarabin. Historiske kombinasjonsbehandlinger (f.eks. syklofosfamid/doxorubicin/cytosinarabinosid pluss stråling, og cytarabin pluss cisplatin/vindesin) ble testet i NSCLC og SCLC fra slutten av 1970-tallet gjennom 1990-tallet, og viste målbar men beskjeden aktivitet, ofte begrenset av betydelig hematologisk toksisitet.
 
-However, none of the clinical trials currently linked to this prediction directly test cytarabine — they primarily evaluate intrathecal pemetrexed or unrelated NSCLC adjuvant regimens. The supporting mechanistic rationale therefore relies on older cohort/pilot studies rather than modern, disease-specific trial designs, which limits confidence in this prediction.
+Imidlertid tester ingen av de kliniske forsøkene som for øyeblikket er koblet til denne prediksjonen direkte cytarabin — de evaluerer primært intrathekal pemetrexed eller ikke-relaterte NSCLC-adjuvante behandlinger. Den støttende mekanistiske begrunnelsen er derfor basert på eldre kohort-/pilotstudier snarere enn moderne, sykdomsspesifikke forsøksdesign, noe som begrenser tilliten til denne prediksjonen.
 
-## Clinical Trial Evidence
+## Klinisk forsøksevidens
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT03507244](https://clinicaltrials.gov/study/NCT03507244) | Phase 1/2 | Completed | 34 | Intrathecal pemetrexed with concurrent involved-field radiotherapy for leptomeningeal metastasis from solid tumors; does not test cytarabine, disease overlap only |
-| [NCT03101579](https://clinicaltrials.gov/study/NCT03101579) | Phase 1 | Completed | 13 | Intrathecal pemetrexed for recurrent leptomeningeal metastasis from NSCLC; cytarabine mentioned only as a comparator class, not tested |
-| [NCT00863512](https://clinicaltrials.gov/study/NCT00863512) | Phase 3 | Terminated | 34 | Adjuvant chemotherapy (vinorelbine, cisplatin, docetaxel, gemcitabine, pemetrexed) in early-stage NSCLC; cytarabine not part of regimen, trial terminated |
+| [NCT03507244](https://clinicaltrials.gov/study/NCT03507244) | Fase 1/2 | Fullført | 34 | Intrathekal pemetrexed med samtidig radiostråling av involvert område for leptomeningeale metastaser fra solide tumorer; tester ikke cytarabin, kun overlappende sykdom |
+| [NCT03101579](https://clinicaltrials.gov/study/NCT03101579) | Fase 1 | Fullført | 13 | Intrathekal pemetrexed for gjentakende leptomeningeale metastaser fra NSCLC; cytarabin nevnt kun som sammenligningsmedikament, ikke testet |
+| [NCT00863512](https://clinicaltrials.gov/study/NCT00863512) | Fase 3 | Avbrutt | 34 | Adjuvant kjemoterapi (vinoreelbin, cisplatin, docetaxel, gemcitabin, pemetrexed) i tidlig NSCLC; cytarabin ikke del av behandlingsregimen, forsøk avbrutt |
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Hovedfunn |
 |------|-----|------|------|---------|
-| [2157307](https://pubmed.ncbi.nlm.nih.gov/2157307/) | 1990 | Phase 2 trial | Tumori | Cytarabine + cisplatin + vindesine in 32 advanced NSCLC patients; 18% response rate |
-| [2156598](https://pubmed.ncbi.nlm.nih.gov/2156598/) | 1990 | Phase 2 trial | Cancer | High-dose cytarabine + cisplatin in 37 chemo-naive NSCLC patients; 14% response rate, Grade III/IV myelosuppression in 46% |
-| [2820740](https://pubmed.ncbi.nlm.nih.gov/2820740/) | 1987 | Pilot trial | Eur J Cancer Clin Oncol | Cisplatin + cytarabine combination pilot study in advanced NSCLC |
-| [232239](https://pubmed.ncbi.nlm.nih.gov/232239/) | 1979 | Cohort/combined modality | Med Pediatr Oncol | 20 SCLC patients treated with cyclophosphamide/Adriamycin + subcutaneous cytosine arabinoside plus radiotherapy |
-| [6095640](https://pubmed.ncbi.nlm.nih.gov/6095640/) | 1984 | Historical trial | Am J Clin Oncol | Continuous-infusion Ara-C alone (no response, severe toxicity) and Ara-C added to CAV regimen in SCLC |
-| [2841844](https://pubmed.ncbi.nlm.nih.gov/2841844/) | 1988 | Historical trial | Am J Clin Oncol | Etoposide + infusional Ara-C in relapsed/refractory SCLC (17 patients) |
-| [348088](https://pubmed.ncbi.nlm.nih.gov/348088/) | 1978 | Review | Antibiot Chemother | Review of Ara-C analogs and strategies to prolong biological activity against cytidine deaminase deactivation |
-| [9561978](https://pubmed.ncbi.nlm.nih.gov/9561978/) | 1998 | Case series | Arch Neurol | Combined modality therapy for carcinomatous meningitis secondary to NSCLC |
-| [6264785](https://pubmed.ncbi.nlm.nih.gov/6264785/) | 1981 | Case report | Am J Med | Meningeal carcinomatosis in SCLC patients receiving intensive chemotherapy |
-| [28223673](https://pubmed.ncbi.nlm.nih.gov/28223673/) | 2017 | Case report | Gan To Kagaku Ryoho | Multidisciplinary treatment of meningeal carcinomatosis in SCLC |
+| [2157307](https://pubmed.ncbi.nlm.nih.gov/2157307/) | 1990 | Fase 2-forsøk | Tumori | Cytarabin + cisplatin + vindesin hos 32 pasienter med avansert NSCLC; 18% responsrate |
+| [2156598](https://pubmed.ncbi.nlm.nih.gov/2156598/) | 1990 | Fase 2-forsøk | Cancer | Høydose cytarabin + cisplatin hos 37 kjemoterapinaive NSCLC-pasienter; 14% responsrate, grad III/IV myelosuppresjon hos 46% |
+| [2820740](https://pubmed.ncbi.nlm.nih.gov/2820740/) | 1987 | Pilotstudie | Eur J Cancer Clin Oncol | Cisplatin + cytarabin-kombinasjons pilotstudie hos pasienter med avansert NSCLC |
+| [232239](https://pubmed.ncbi.nlm.nih.gov/232239/) | 1979 | Kohort/kombinert modalitet | Med Pediatr Oncol | 20 SCLC-pasienter behandlet med syklofosfamid/Adriamycin + subkutan cytosinarabinosid pluss stråling |
+| [6095640](https://pubmed.ncbi.nlm.nih.gov/6095640/) | 1984 | Historisk forsøk | Am J Clin Oncol | Kontinuerlig-infusjons-Ara-C alene (ingen respons, alvorlig toksisitet) og Ara-C tilsatt CAV-regime hos SCLC |
+| [2841844](https://pubmed.ncbi.nlm.nih.gov/2841844/) | 1988 | Historisk forsøk | Am J Clin Oncol | Etoposid + infusjons-Ara-C hos tilbakefall/refraktær SCLC (17 pasienter) |
+| [348088](https://pubmed.ncbi.nlm.nih.gov/348088/) | 1978 | Oversikt | Antibiot Chemother | Oversikt over Ara-C-analoger og strategier for å forlenge biologisk aktivitet mot cytadin-deaminase-inaktivering |
+| [9561978](https://pubmed.ncbi.nlm.nih.gov/9561978/) | 1998 | Kasusserier | Arch Neurol | Kombinert modalitetbehandling for karsinomatøs meningitt sekundært til NSCLC |
+| [6264785](https://pubmed.ncbi.nlm.nih.gov/6264785/) | 1981 | Kasusrapport | Am J Med | Meningeale karsinomatose hos SCLC-pasienter som mottok intensiv kjemoterapi |
+| [28223673](https://pubmed.ncbi.nlm.nih.gov/28223673/) | 2017 | Kasusrapport | Gan To Kagaku Ryoho | Multidisiplinær behandling av meningeale karsinomatose hos SCLC |
 
-## Norway Market Information
+## Informasjon om norsk marked
 
-This drug currently has no marketing authorizations recorded in the reviewed regulatory data (market status: **Not marketed / Not Marketed**, 0 authorizations).
+Dette medikamentet har for øyeblikket ingen markedsføringsautoriseringer registrert i de gjennomgåtte regulatoriske dataene (markedsstatus: **Ikke markedsført**, 0 autorisasjoner).
 
-## Cytotoxicity
+## Cytotoksisitet
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (pyrimidine nucleoside antimetabolite / S-phase-specific antileukemic agent) |
-| Myelosuppression Risk | High — historical NSCLC combination data report Grade IV myelosuppression in 32% and Grade III in 14% of patients treated with high-dose cytarabine + cisplatin |
-| Emetogenicity Classification | Moderate to High (dose-dependent; nausea/vomiting reported as principal non-hematologic toxicity in high-dose regimens) |
-| Monitoring Items | CBC with differential, liver and renal function, neurological exam (high-dose neurotoxicity), ocular exam (conjunctivitis risk with high-dose regimens) |
-| Handling Protection | Must follow cytotoxic drug handling regulations |
+| Cytotoksisitetsklassifisering | Konvensjonell cytotoksisk (pyrimidin-nukleosid-antimetabolitt / S-fase-spesifikk antileukemisk agens) |
+| Myelosuppresjonrisiko | Høy — historiske NSCLC-kombinasjonsdata rapporterer grad IV myelosuppresjon hos 32% og grad III hos 14% av pasienter behandlet med høydose cytarabin + cisplatin |
+| Emetogenitetsklassifisering | Moderat til høy (doseavhengig; kvalme/oppkasting rapportert som viktigste ikke-hematologisk toksisitet i høydose-regimer) |
+| Overvåkingselementer | CBC med differensial, lever- og nyrefunksjon, nevrologisk undersøkelse (høydose-neurotoksisitet), øyeundersøkelse (konjunktivittrisiko med høydose-regimer) |
+| Sikkerhetstiltak ved håndtering | Må følge regulasjoner for håndtering av cytotoksiske legemidler |
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Avgjørelse: Utsett**
 
-**Rationale:**
-A blocking data gap exists — local prescribing warnings/contraindications are unavailable, which prevents entry into S1 safety pre-assessment. In addition, none of the linked clinical trials directly test cytarabine for SCLC, and the supporting evidence is largely historical (1970s–1990s) with modest efficacy and significant myelosuppression; the drug is also not currently marketed locally.
+**Begrunnelse:**
+Et kritisk informasjonsgap foreligger — lokale advarsler ved forskriving og kontraindikasjoner er utilgjengelig, noe som hindrer inngang til S1-sikkerheitsforvurdering. I tillegg tester ingen av de koblede kliniske forsøkene direkte cytarabin for SCLC, og den støttende bevisen er stort sett historiske (1970-tallet–1990-tallet) med beskjeden effektivitet og betydelig myelosuppresjon; legemidlet er også ikke for øyeblikket markedsført lokalt.
 
-**To proceed, the following is needed:**
-- Local product label / regulatory safety data (warnings, contraindications, DDI) — currently blocking
-- Detailed mechanism of action (MOA) data from DrugBank
-- Modern, disease-specific clinical evidence directly evaluating cytarabine in SCLC (current linked trials do not test the drug)
-- Route of administration compatibility assessment
-- Local market/import pathway assessment given current "not marketed" status
+**For å fortsette, er følgende nødvendig:**
+- Lokalt produktvedlegg / regulatoriske sikkerhetsdata (advarsler, kontraindikasjoner, DDI) — utgjør for øyeblikket en hindring
+- Detaljerte virkningsmekanismedata (MOA) fra DrugBank
+- Moderne, sykdomsspesifikk klinisk bevis som direkte evaluerer cytarabin i SCLC (nåværende koblede forsøk tester ikke legemidlet)
+- Vurdering av administreringsveikompatibilitet
+- Vurdering av lokalt marked/importveistatus gitt nåværende "ikke markedsført"-tilstand
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

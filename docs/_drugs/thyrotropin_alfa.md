@@ -29,76 +29,77 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Thyrotropin Alfa: From Undocumented Original Indication to Migraine Disorder
+# Thyrotropin Alfa: Fra Udokumentert Originalindikasjon til Migrene
 
-## One-Sentence Summary
+## Sammendrag i En Setning
 
-> Thyrotropin alfa's original approved indication is not documented in the current evidence pack, and the drug is not marketed in Taiwan.
-> The TxGNN model predicts a possible new indication for **Migraine Disorder** with a prediction score of **99.98%**,
-> but this prediction is currently supported by **zero clinical trials** and **zero publications**, and the evidence pack's own mechanistic review finds no biological rationale linking exogenous TSH to migraine.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Thyrotropin alfas opprinnelige godkjente indikasjon er ikke dokumentert i den nåværende bevissamlingen, og stoffet er ikke markedsført i Taiwan.
+> TxGNN-modellen forutsier en mulig ny indikasjon for **Migrene** med en prediksjonscore på **99.98%**,
+> men denne prediksjonen støttes for tiden av **null kliniske studier** og **null publikasjoner**, og bevissamlingens egen mekanistiske gjennomgang finner ingen biologisk begrunnelse for å knytte eksogen TSH til migrene.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigoversikt
 
-Currently, detailed mechanism of action data for thyrotropin alfa is not available in this evidence pack. No original indication text was captured either, so a direct pharmacological bridge between the known use of this drug and migraine disorder cannot be constructed from the supplied data.
-
-More importantly, the evidence pack's own repurposing rationale for this top-ranked candidate explicitly states that there is **no experimental or known mechanistic basis** connecting exogenous TSH (thyrotropin alfa) to migraine. While thyroid dysfunction is occasionally associated with headache in the clinical literature, there is no direct evidential chain supporting this specific drug-disease pair. The assessment concludes that the high TxGNN score most likely reflects **topological similarity within the knowledge graph** rather than a validated biological mechanism.
-
-This pattern repeats across nearly all top-10 predictions in this pack (migraine with brainstem aura, Raynaud disease, atrophoderma vermiculata, pulmonary hypertension, POTS, etc.) — none have supporting trials or literature, and several (pulmonary hypertension, POTS) are flagged as having a mechanistically **opposite** direction, since thyrotropin alfa stimulates thyroid hormone output rather than suppressing it. The one candidate with higher-tier evidence (hyperthyroidism, rank 10, L2) was found on inspection to involve trials using rhTSH for **diagnostic pre-treatment before radioiodine imaging/ablation**, not therapeutic treatment of hyperthyroidism — and the cited literature concerns interferon-alpha-induced thyroiditis, which is unrelated to thyrotropin alfa. In short, no candidate in this pack currently has a coherent, drug-specific mechanistic case.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Ikke dokumentert i bevissamlingen |
+| Forutsagt Ny Indikasjon | Migrene |
+| TxGNN Prediksjonscore | 99.98% |
+| Bevisnivå | L5 (kun modellprediksjon, ingen støttende studier) |
+| Taiwan Markedsstatus | ✗ Ikke markedsført |
+| Antall Godkjennelser | 0 |
+| Anbefalt Beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er Denne Prediksjonen Rimelig?
 
-Currently no related literature available.
+For tiden er detaljerte virkningsmekanisme-data for thyrotropin alfa ikke tilgjengelige i denne bevissamlingen. Heller ikke ble originalindikasjonen dokumentert, slik at en direkte farmakologisk forbindelse mellom kjent bruk av dette stoffet og migrene ikke kan etableres ut fra de gitte dataene.
 
----
+Enda viktigere: bevissamlingens egen gjenbruksbegrunnelse for denne topprangerte kandidaten sier eksplisitt at det **ikke finnes eksperimentell eller kjent mekanistisk basis** som forbinder eksogen TSH (thyrotropin alfa) til migrene. Selv om thyroideadykfunksjon av og til er assosiert med hodepine i medisinsk litteratur, finnes det ingen direkte bevisrekke som støtter denne spesifikke stoff-sykdom-paringen. Vurderingen konkluderer med at høy TxGNN-score mest sannsynlig gjenspeiler **topologisk likhet innen kunnskapsgrafen** snarere enn en validert biologisk mekanisme.
 
-## Taiwan Market Information
-
-Thyrotropin alfa is currently **not marketed** in Taiwan (0 authorizations on record), so no product/authorization table is available.
+Dette mønsteret gjentar seg på tvers av nesten alle topp-10-prediksjoner i denne pakken (migrene med hjernestammaura, Raynauds sykdom, atrophoderma vermiculata, pulmonær hypertensjon, POTS, osv.) — ingen har støttende studier eller litteratur, og flere (pulmonær hypertensjon, POTS) er flagget som å ha en mekanistisk **motsatt** retning, siden thyrotropin alfa stimulerer thyroidehormonproduksjon i stedet for å dempe den. Den ene kandidaten med høyere bevisnivå (hyperthyroidisme, rang 10, L2) viste seg på nærmere inspeksjon å omfatte studier som bruker rhTSH for **diagnostisk forbehandling før radioiodbehandling/ablasjon**, ikke terapeutisk behandling av hyperthyroidisme — og den siterte litteraturen dreier seg om interferon-alfa-indusert thyroiditt, som ikke er relatert til thyrotropin alfa. Kort sagt: ingen kandidat i denne pakken har for tiden et sammenhengende, legemiddel-spesifikt mekanistisk grunnlag.
 
 ---
 
-## Safety Considerations
+## Bevis fra Kliniske Studier
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are not currently available in this evidence pack.)
+For tiden er det ikke registrert noen relevante kliniske studier.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra Litteratur
 
-**Decision: Hold**
+For tiden er det ikke tilgjengelig relevant litteratur.
 
-**Rationale:**
-The top predicted indication (migraine disorder) has an evidence level of L5 — a model-only prediction with zero clinical trials, zero literature, and an explicitly acknowledged absence of mechanistic support. No other candidate in this pack reaches an actionable evidence tier either; the one L2-evidence candidate (hyperthyroidism) turned out to be a mechanistic mismatch on closer review. Combined with the drug not being marketed in Taiwan and missing MOA/safety data, there is currently no basis to advance any candidate beyond hypothesis stage.
+---
 
-**To proceed, the following is needed:**
-- TFDA-equivalent safety data (warnings, contraindications) — currently a **blocking** gap preventing entry into S1 safety pre-assessment (DG001)
-- Confirmed original indication and mechanism of action (DrugBank or manufacturer labeling) (DG002)
-- Independent mechanistic or preclinical validation for any candidate indication before further data collection is prioritized
-- If pursuing hyperthyroidism further, re-scope evidence search specifically for therapeutic (not diagnostic pre-treatment) use of rhTSH
+## Taiwan Markedsinformasjon
+
+Thyrotropin alfa er for tiden **ikke markedsført** i Taiwan (0 godkjennelser på register), så ingen produkt/godkjennelsestabell er tilgjengelig.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og data om legemiddelinteraksjoner er for tiden ikke tilgjengelige i denne bevissamlingen.)
+
+---
+
+## Konklusjon og Neste Steg
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Den toppforutsagte indikasjonen (migrene) har et bevisnivå på L5 — en modell-kun-prediksjon med null kliniske studier, null litteratur, og en eksplisitt anerkjent mangel på mekanistisk støtte. Ingen annen kandidat i denne pakken når et handlingsdyktig bevisnivå heller; den ene kandidaten med L2-bevis (hyperthyroidisme) viste seg å være en mekanistisk feilparing ved nærmere gjennomgang. Kombinert med at stoffet ikke er markedsført i Taiwan og manglende MOA/sikkerhetsdata, finnes det for tiden ingen grunnlag for å fremme noen kandidat utover hypotesestadiet.
+
+**For å gå videre er følgende nødvendig:**
+- TFDA-ekvivalent sikkerheetsdata (advarsler, kontraindikasjoner) — for tiden en **blokkerende** mangel som forhindrer inngang i S1 sikkerhetsvurdering (DG001)
+- Bekreftet originalindikasjon og virkningsmekanisme (DrugBank eller produsentmerking) (DG002)
+- Uavhengig mekanistisk eller preklinisk validering for enhver kandidatindikasjon før videre datasamling prioriteres
+- Hvis hyperthyroidisme forfølges videre, omdefiner bevisøk spesifikt for terapeutisk (ikke diagnostisk forbehandling) bruk av rhTSH
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

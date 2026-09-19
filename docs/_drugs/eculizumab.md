@@ -29,80 +29,81 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Eculizumab: From Original Indication Not Provided to Cyclic Hematopoiesis
+# Eculizumab: Fra ikke oppgitt originalindikasjon til syklisk hematopoese
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-> The evidence pack for eculizumab does not include original indication or mechanism-of-action (MOA) data (flagged as a **blocking data gap**).
-> The TxGNN model predicts eculizumab may be effective for **cyclic hematopoiesis**, but this prediction is supported by **0 clinical trials** and **0 publications**, and the accompanying mechanistic rationale explicitly states there is **no known biological link** between eculizumab's complement-inhibiting mechanism and this disease.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not provided in evidence pack (data gap) |
-| Predicted New Indication | Cyclic Hematopoiesis |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Evidenspakken for eculizumab inneholder ikke originalindikasjon eller virkningsmekanisme (MOA)-data (flagget som et **blokkert datamangel**).
+> TxGNN-modellen forutsier at eculizumab kan være effektivt for **syklisk hematopoese**, men denne forutsielsen støttes av **0 kliniske forsøk** og **0 publikasjoner**, og den medfølgende mekanistiske begrunnelsen sier eksplisitt at det **ikke er noen kjent biologisk forbindelse** mellom eculizumabs komplementinhiberende mekanisme og denne sykdommen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Detailed mechanism-of-action data for eculizumab is not available in this evidence pack (marked as a High-severity data gap). Based on the drug's known target class, eculizumab is an anti-C5 monoclonal antibody that blocks terminal complement activation (MAC/C5a formation).
-
-The repurposing rationale provided alongside this prediction, however, is explicitly **negative**: cyclic hematopoiesis is caused by *ELANE* gene mutations affecting neutrophil elastase and granulocyte production regulation — a pathway unrelated to complement activation. The rationale states there is "no known intersection" between eculizumab's mechanism and this disease's pathophysiology, and characterizes the prediction as arising purely from TxGNN network-similarity patterns rather than any mechanistic hypothesis.
-
-This is an important caveat: a high TxGNN score alone does not indicate biological plausibility. In this case, the model score (rank 597, score 0.9997) is not corroborated by mechanism, clinical trials, or literature, which is consistent with its classification as **L5 – model prediction only**.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Emne | Innhold |
+|------|---------|
+| Originalindikasjon | Ikke oppgitt i evidenspakke (datamangel) |
+| Forutsatt ny indikasjon | Syklisk hematopoese |
+| TxGNN-forutsigelsesscore | 99.97% |
+| Bevisnivå | L5 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forutsielsen rimelig?
 
-Currently no related literature available.
+Detaljerte virkningsmekanisme-data for eculizumab er ikke tilgjengelige i denne evidenspakken (merket som et alvorlig datamangel). Basert på legemidlets kjente målklasse er eculizumab et anti-C5 monoklonalt antistoff som blokkerer terminal komplementaktivering (MAC/C5a-dannelse).
 
-*Note: Among the other 9 lower-ranked candidate indications in this evidence pack, two (rank 4 – congenital neutropenia-myelofibrosis-nephromegaly syndrome; rank 10 – primary release disorder of platelets) returned literature hits, but these were reviewed and judged to be search noise — the retrieved papers discuss eculizumab's already-established use in PNH, aHUS, and myasthenic syndromes, not the predicted indications themselves. None constitute direct or indirect evidence for the top-ranked prediction (cyclic hematopoiesis).*
+Ombruksforklaringen som følger med denne forutsielsen er imidlertid eksplisitt **negativ**: syklisk hematopoese er forårsaket av *ELANE*-genmutatsjoner som påvirker nøytrofilelastase og granulosyttprodukasjonsregulering — en bane som er urelatert til komplementaktivering. Forklaringen sier at det ikke er noen kjent forbindelse mellom eculizumabs mekanisme og denne sykdommens patofysiologi, og karakteriserer forutsielsen som oppstått rent fra likhetsmønstre i nettverket snarere enn fra noen mekanistisk hypotese.
 
----
-
-## Norway Market Information
-
-Eculizumab is not currently marketed and holds no active authorizations on file (0 licenses recorded).
+Dette er et viktig forbehold: en høy TxGNN-score alene indikerer ikke biologisk plausibilitet. I dette tilfelle er modellscoren (rangering 597, score 0.9997) ikke bekreftet av mekanisme, kliniske forsøk eller litteratur, som er konsistent med klassifiseringen som **L5 – kun modellforutsigelse**.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøk
 
-Please refer to the package insert for safety information.
-
-*Note: TFDA/label warnings, contraindications, and DDI data could not be retrieved and are flagged in the source evidence pack as a **Blocking** data gap — this specifically prevents the candidate from proceeding to the S1 preliminary safety evaluation stage.*
+Ingen relaterte kliniske forsøk er for øyeblikket registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra litteratur
 
-**Decision: Hold**
+Ingen relatert litteratur er for øyeblikket tilgjengelig.
 
-**Rationale:**
-The top-ranked predicted indication (cyclic hematopoiesis) has no supporting clinical trials or literature, and the provided mechanistic rationale explicitly states there is no biological link between eculizumab's complement-inhibition mechanism and this disease — the TxGNN score reflects network similarity only. Combined with a blocking gap in TFDA safety/label data, this candidate cannot currently advance past S0.
+*Merk: Blant de øvrige 9 lavere-rangerte kandidatindikasjonene i denne evidenspakken returnerte to (rangering 4 – medfødt nøytropeni-myelofibrose-nefromegali-syndrom; rangering 10 – primær frigjøringsforstyrrelse av blodplater) litteraturtreff, men disse ble gjennomgått og bedømt som søkestøy — de hentede artiklene diskuterer eculizumabs allerede etablert bruk ved PNH, aHUS og myasteniske syndromer, ikke de forutsatte indikasjonene selv. Ingen utgjør direkte eller indirekte bevis for den topprangerte forutsielsen (syklisk hematopoese).*
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — blocking gap, required to enter S1 safety evaluation
-- Mechanism of action (MOA) data via DrugBank API — required for mechanistic plausibility assessment
-- Original indication/regulatory history for eculizumab, currently absent from this evidence pack
-- Independent mechanistic or preclinical evidence specifically linking complement (C5) inhibition to cyclic hematopoiesis, if this candidate is to be reconsidered
-- Re-screening of the remaining 9 lower-ranked candidates in this pack, all of which also carry L5/Hold status with no direct supporting evidence
+---
+
+## Norsk markedsinformasjon
+
+Eculizumab er ikke for øyeblikket markedsført og har ingen registrerte autorisasjoner (0 lisenser registrert).
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningslisten for sikkerhetsinformasjon.
+
+*Merk: TFDA/etikettadvarsler, kontraindikasjoner og DDI-data kunne ikke hentes og er flagget i kildeevidenspakken som et **blokkert** datamangel — dette hindrer spesifikt kandidaten fra å gå videre til S1-stadiet for foreløpig sikkerhetsvurdering.*
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Den topprangerte forutsatte indikasjonen (syklisk hematopoese) har ingen støttende kliniske forsøk eller litteratur, og den gitte mekanistiske forklaringen sier eksplisitt at det ikke er noen biologisk forbindelse mellom eculizumabs komplementinhiberende mekanisme og denne sykdommen — TxGNN-scoren reflekterer kun nettverkslikhet. Kombinert med et blokkert datamangel i TFDA sikkerhet/etikett-data, kan denne kandidaten ikke for øyeblikket gå videre fra S0.
+
+**For å gå videre, er følgende nødvendig:**
+- TFDA pakningsliste (advarsler, kontraindikasjoner) — blokkert datamangel, påkrevd for å gå inn i S1-sikkerhetsvurderingen
+- Virkningsmekanisme (MOA)-data via DrugBank API — påkrevd for mekanistisk plausibilitetsvurdering
+- Originalindikasjon/regulatorisk historie for eculizumab, som for øyeblikket mangler fra denne evidenspakken
+- Uavhengig mekanistisk eller preklinisk bevis som spesifikt knytter komplementinhibisjon (C5) til syklisk hematopoese, dersom denne kandidaten skal vurderes på nytt
+- Ny screening av de gjenstående 9 lavere-rangerte kandidatene i denne pakken, som alle også har L5/Avvent-status uten direkte støttende bevis
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

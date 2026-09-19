@@ -29,80 +29,81 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Degarelix: From GnRH-Dependent Hormonal Conditions to Hypertrichosis
+# Degarelix: Fra GnRH-avhengige hormonelle tilstander til hypertrikose
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Degarelix is a GnRH (gonadotropin-releasing hormone) antagonist that suppresses LH/FSH and downstream gonadal hormone secretion; its established clinical use (e.g., advanced hormone-dependent prostate cancer) is not recorded in this evidence pack.
-> The TxGNN model's top prediction is **Hypertrichosis (disease)**,
-> but this is supported by **0 clinical trials** and **0 publications**, and the drug's own repurposing rationale flags the mechanistic link as likely model noise rather than a genuine biological connection.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not provided in evidence pack (data gap — see DG001/DG002). Degarelix is a GnRH antagonist; its class is used in hormone-dependent gonadal-axis conditions, but no confirmed original indication text was supplied. |
-| Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Degarelix er en GnRH-antagonist (gonadotropin-releasing hormone) som undertrykker LH/FSH og nedstrøms kjønnshormonsekresjonen; dets etablerte kliniske bruk (f.eks. avansert hormonabhengig prostatakreft) er ikke registrert i denne bevissamlingen.
+> TxGNN-modellens toppprediksjon er **Hypertrikose (sykdom)**,
+> men dette støttes av **0 kliniske studier** og **0 publikasjoner**, og legemidlets egen repurposeringsargumentasjon markerer den mekanistiske koblingen som sannsynlig modellstøy snarere enn en genuin biologisk sammenheng.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigoversikt
 
-Currently, detailed mechanism of action data is not available in the evidence pack (DG002, High severity). Based on the repurposing rationale text supplied alongside the predictions, Degarelix is a GnRH antagonist that inhibits LH/FSH release and downstream gonadal steroid production. This mechanism is well established for gonadal-axis-dependent conditions.
-
-However, hypertrichosis (excessive hair growth) is typically driven by inherited follicular abnormalities rather than gonadal hormone signaling. The evidence pack's own rationale explicitly characterizes this link as "embedding similarity noise" (相似度雜訊) rather than a substantiated mechanistic connection — there is no known pathway by which GnRH antagonism would influence hair follicle biology in this condition.
-
-A biologically more coherent candidate lower in the ranking is **central precocious puberty** (rank 9, L4 evidence). This is a GnRH-dependent condition for which GnRH agonists (e.g., leuprolide) are already standard therapy; a GnRH antagonist like degarelix could theoretically suppress the axis more directly, without the initial flare-up seen with agonists. This remains a class-level mechanistic hypothesis only — no degarelix-specific clinical or case-report evidence currently exists for this indication.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Emne | Innhold |
+|------|---------|
+| Opprinnelig indikasjon | Ikke oppgitt i bevissamlingen (datakløft — se DG001/DG002). Degarelix er en GnRH-antagonist; denne klassen brukes for hormonabhengige tilstander på gonadal-aksen, men ingen bekreftet opprinnelig indikasjon ble oppgitt. |
+| Forutsagt ny indikasjon | Hypertrikose (sykdom) |
+| TxGNN-prediksjonspoengsum | 99.99% |
+| Bevisnivå | L5 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige i bevissamlingen (DG002, høy alvorlighetsgrad). Basert på repurposeringsargumentasjonen som følger prediksjonen, er Degarelix en GnRH-antagonist som hemmer LH/FSH-frigjøring og påfølgende produksjon av kjønnssteroider. Denne mekanismen er godt etablert for tilstander avhengig av gonadal-aksen.
 
-*(Note: 20 literature records were attached to a lower-ranked candidate — "malformation syndrome with odontal/periodontal component," rank 4 — but all concern general periodontal disease pathophysiology and treatment, with no mention of degarelix or GnRH pathways. These are assessed as database co-occurrence noise rather than drug-specific evidence and are therefore not included here.)*
+Imidlertid er hypertrikose (overdreven hårvekst) typisk drevet av arvelige følikkeleravvikelser snarere enn signalering av kjønnshormoner. Bevissamlingen karakteriserer eksplisitt denne forbindelsen som «embedding similarity noise» (相似度雜訊) snarere enn en underbygget mekanistisk forbindelse — det foreligger ingen kjent vei hvorved GnRH-antagonisme ville påvirke hårsekkelbiologien i denne tilstanden.
 
----
-
-## Norway Market Information
-
-Degarelix currently holds no marketing authorizations in Norway (0 licenses on record; market status: Not Marketed).
+En biologisk mer koherent kandidat lavere i rangeringen er **sentral prekok pubertet** (rang 9, L4-bevis). Dette er en GnRH-avhengig tilstand som GnRH-agonister (f.eks. leuprolide) allerede er standardbehandling for; en GnRH-antagonist som degarelix kunne teoretisk undertrykke aksen mer direkte, uten den innledende oppblusningen som observeres med agonister. Dette er bare en mekanistisk hypotese på klassenivå — det foreligger for øyeblikket ingen degarelix-spesifikk klinisk bevis eller kasuistikk for denne indikasjonen.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøksbevis
 
-Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and drug-drug interaction data are all flagged as data gaps in this evidence pack — see DG001, "Blocking" severity, which prevents completion of initial safety screening (S1) until TFDA/local label data is obtained.)*
+Det er for øyeblikket ingen registrerte relevante kliniske studier.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Det er for øyeblikket ingen relevant litteratur tilgjengelig.
 
-**Rationale:**
-The top-ranked prediction (hypertrichosis) has no supporting clinical trials or literature and is assessed by the evidence pack itself as a mechanistically implausible, likely noise-driven association (Evidence Level L5). Even the most biologically plausible candidate in this set — central precocious puberty — remains at L4 (mechanism/class-level reasoning only, no direct clinical evidence for degarelix), and safety data required for any progression is currently blocked by a data gap.
+*(Merk: 20 litteraturposter ble vedlagt en lavere rangert kandidat — «malformasjonssyndrom med tann-/tannkjøtt-komponent», rang 4 — men alle gjelder generell patofysiologi og behandling av tannkjøttsykdom, uten nevning av degarelix eller GnRH-baner. Disse vurderes som database co-forekomststøy i stedet for legemiddel-spesifikk bevis og er derfor ikke inkludert her.)*
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain TFDA/local package insert warnings and contraindications before any S1 safety screening can proceed
-- Resolve DG002 (High): confirm degarelix's mechanism of action and approved original indication(s) via DrugBank API
-- If pursuing the central precocious puberty hypothesis, commission a targeted literature/preclinical search specific to degarelix (not GnRH agonists generally) to test mechanistic plausibility before allocating further resources
-- Given the top candidate's mechanistic implausibility, consider deprioritizing hypertrichosis and re-screening lower-ranked, mechanistically coherent candidates instead
+---
+
+## Norsk markedsinformasjon
+
+Degarelix har for øyeblikket ingen markedsautoritasasjoner i Norge (0 godkjennelser registrert; markedsstatus: Ikke markedsført).
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+*(Nøkkeladvarslinger, kontraindikasjoner og legemiddel-legemiddel-interaksjonsdata er alle flagget som datakløfter i denne bevissamlingen — se DG001, «Blokkering» alvorlighetsgrad, som blokkerer gjennomføringen av innledende sikkerhetsvurdering (S1) til TFDA/lokale etikett-data er tilgjengelige.)*
+
+---
+
+## Konklusjon og neste skritt
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Topprangert prediksjon (hypertrikose) har ingen støttende kliniske studier eller litteratur og vurderes av bevissamlingen selv som mekanistisk usannsynlig, sannsynlig støydrevet assosiasjon (Bevisnivå L5). Selv den mest biologisk plausible kandidaten blant disse — sentral prekok pubertet — forblir på L4 (bare mekanisme/klasse-nivå resonnement, ingen direkte klinisk bevis for degarelix), og sikkerhetsdataene som kreves for enhver progresjon er for øyeblikket blokkert av en datakløft.
+
+**For å fortsette, er følgende nødvendig:**
+- Løs DG001 (Blokkering): oppnå TFDA/lokale pakningsvedlegg advarslinger og kontraindikasjoner før noen S1 sikkerhetsvurdering kan fortsette
+- Løs DG002 (Høy): bekreft degarelix' virkningsmekanisme og godkjent(e) original indikasjon(er) via DrugBank API
+- Hvis du forfølger hypotesen om sentral prekok pubertet, iverksett et målrettet litteratur-/preklinisk søk spesifikt for degarelix (ikke GnRH-agonister generelt) for å teste mekanistisk plausibilitet før videre ressurser tildeles
+- Gitt toppkandidatens mekanistiske usannsynlighet, vurder å nedprioritere hypertrikose og i stedet vurdere lavere rangert, mekanistisk koherent kandidater
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,76 +29,77 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Bupivacaine: From Local Anesthesia to Acrodermatitis Chronica Atrophicans
+# Bupivacaine: Fra lokal anestesi til Acrodermatitis Chronica Atrophicans
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-> Bupivacaine is a well-known local anesthetic/analgesic agent (voltage-gated sodium channel blocker), though its Norway-approved indication text is not present in this evidence pack.
-> The TxGNN model predicts it may be effective for **Acrodermatitis Chronica Atrophicans**, a late-stage skin manifestation of Lyme disease,
-> but **no clinical trials** and **no publications** currently support this direction — the model's own rationale flags the mechanistic link as unsupported.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in registry data (drug class per evidence pack: local anesthesia/regional analgesia); no Norway-approved indication text available |
-| Predicted New Indication | Acrodermatitis Chronica Atrophicans |
-| TxGNN Prediction Score | 99.23% |
-| Evidence Level | L5 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Bupivacaine er et velkjent lokalt anestesi-/analgetikum (blokker av spenningskontrollerte natriumkanaler), selv om den norsk godkjente indikajonsteksten ikke er tilgjengelig i denne evidenspakken.
+> TxGNN-modellen predikerer at det kan være effektivt for **Acrodermatitis Chronica Atrophicans**, en senskiftet hudmanifestasjón av Lyme-sykdom,
+> men **ingen kliniske studier** og **ingen publikasjoner** støtter denne retningen for øyeblikket — modellens egen begrunnelse flagger den mekanistiske koblingen som ustøttet.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Kort oversikt
 
-Currently, detailed mechanism of action data is not available in structured form (original_moa is flagged as a data gap). Based on the rationale text accompanying this prediction, Bupivacaine is a voltage-gated sodium channel blocker whose known pharmacological effect is local anesthesia/analgesia.
-
-Acrodermatitis chronica atrophicans is a chronic, atrophic skin manifestation of late-stage Lyme disease (Borrelia infection), pathologically driven by chronic spirochetal infection, immune response, and abnormal collagen metabolism. There is no known pharmacological overlap between sodium-channel blockade (Bupivacaine's mechanism) and the infectious/immune/fibrotic pathways underlying this condition.
-
-The evidence pack's own rationale explicitly states that this high TxGNN score likely reflects an indirect knowledge-graph association (e.g., co-occurrence with other dermatology drugs) rather than a genuine mechanistic link. No direct pharmacological rationale supports this repurposing hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke dokumentert i registreringsdata (stoffklasse per evidenspakke: lokal anestesi/regional analgesi); ingen norsk godkjent indikajonstekst tilgjengelig |
+| Predikert ny indikasjon | Acrodermatitis Chronica Atrophicans |
+| TxGNN-prediksjonspoeng | 99.23% |
+| Evidensnivå | L5 |
+| Norsk markedsstatus | Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available
+For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige i strukturert form (opprinnelig_virkningsmekanisme er flagget som et datakløft). Basert på begrunnelsesteksten som følger med denne prediksjonen, er bupivacaine en blokker av spenningskontrollerte natriumkanaler hvis kjente farmakologiske effekt er lokal anestesi/analgesi.
 
----
+Acrodermatitis chronica atrophicans er en kronisk, atrofisk hudmanifestasjón av senskiftet Lyme-sykdom (Borrelia-infeksjon), patologisk drevet av kronisk spiroketal infeksjon, immunrespons og abnorm kollagenmetabolisme. Det finnes ingen kjent farmakologisk overlapping mellom natriumkanalblokade (bupivacaines mekanisme) og de infeksiøse/immune/fibrotiske veiene som ligger til grunn for denne tilstanden.
 
-## Norway Market Information
-
-Currently no marketed authorizations in Norway (market status: Not Marketed; 0 licenses on record)
+Evidenspakkens egen mekanistiske analyse flagger eksplisitt den predikerte assosiasjonen som farmakologisk implausibel, sannsynligvis en kunnskapsgraf-samtidsforekomst-artefakt (f.eks. samtidsforekomst med andre dermatologiske legemidler) snarere enn en ekte mekanistisk kobling. Ingen direkte farmakologisk rasjonale støtter denne ny-bruk-hypotesen.
 
 ---
 
-## Safety Considerations
+## Klinisk studiebevis
 
-Please refer to the package insert for safety information.
+Ingen relaterte kliniske studier registrert for øyeblikket
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Ingen relatert litteratur tilgjengelig for øyeblikket
 
-**Rationale:**
-There is no clinical or literature evidence supporting this indication, and the evidence pack's own mechanistic analysis flags the predicted association as lacking pharmacological plausibility (likely a knowledge-graph co-occurrence artifact). The drug is also not currently marketed in Norway, and safety documentation is incomplete.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Norway product label warnings and contraindications (blocking data gap — required before any S1 safety review)
-- Confirmed original mechanism of action and approved indication text (currently a data gap)
-- Preclinical or mechanistic studies establishing a plausible biological link to acrodermatitis chronica atrophicans before further evaluation
-- Re-screening of lower-ranked candidates (neonatal dermatomyositis, secondary ILD in childhood connective tissue disease, amyopathic dermatomyositis) — all similarly lack mechanistic or evidentiary support and carry the same Hold recommendation
+## Norsk markedsinformasjon
+
+Ingen markedsførte godkjennelser i Norge for øyeblikket (markedsstatus: Ikke markedsført; 0 lisenser i arkiv)
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste skritt
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Det foreligger ingen klinisk eller litteraturbevis som støtter denne indikasjonen, og evidenspakkens egen mekanistiske analyse karakteriserer den predikerte assosiasjonen som farmakologisk implausibel (sannsynligvis en kunnskapsgraf-samtidsforekomst-artefakt). Legemidlet er dessuten ikke markedsført i Norge for øyeblikket, og sikkerhetsdokumentasjonen er ufullstendig.
+
+**Følgende er nødvendig for å fortsette:**
+- TFDA/norske produktadvarsler og kontraindikasjoner (datakløft som må løses — påkrevd før S1-sikkerhetsvurdering)
+- Bekreftet opprinnelig virkningsmekanisme og godkjent indikajonstekst (for øyeblikket et datakløft)
+- Prekliniske eller mekanistiske studier som etablerer en plausibel biologisk kobling til acrodermatitis chronica atrophicans før videre evaluering
+- Ny screening av lavere-rangerte kandidater (neonatal dermatomyositt, sekundær ILD i barndomskonnektivvevssykdom, amyopatisk dermatomyositt) — som alle tilsvarende mangler mekanistisk eller bevisbasert støtte og har samme Avvent-anbefaling
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

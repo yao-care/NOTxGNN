@@ -29,90 +29,91 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Delamanid: From Multidrug-Resistant Tuberculosis to Bovine Tuberculosis
+# Delamanid: Fra legemiddelresistent tuberkulose til bovint tuberkulose
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Delamanid is a nitro-dihydro-imidazooxazole antimycobacterial, established for treating multidrug-resistant pulmonary tuberculosis (MDR-TB) in humans.
-> The TxGNN model's top prediction points to **Tuberculosis, Bovine** (caused by *Mycobacterium bovis*, a close relative of *M. tuberculosis*),
-> but this specific prediction is currently supported only by **0 clinical trials** and **1 indirect publication** (pathogen genomics, not a drug efficacy study).
-> A related, more clinically actionable prediction in the same evidence set — **Inactive Tuberculosis** — is backed by **2 active Phase 2/3 clinical trials on delamanid itself** and **20 publications**, and is flagged below for consideration.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Multidrug-resistant pulmonary tuberculosis (MDR-TB) — known pharmacological use; not present in the current regulatory record (see Data Gaps) |
-| Predicted New Indication | Tuberculosis, Bovine |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L5 (model prediction only; no delamanid-specific clinical or preclinical study for this indication) |
-| Taiwan Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Delamanid er en nitro-dihydro-imidazooxazol-antimykobakteriell substans som er etablert for behandling av legemiddelresistent pulmonær tuberkulose (MDR-TB) hos mennesker.
+> TxGNN-modellens toppprediksjon peker på **Bovint tuberkulose** (forårsaket av *Mycobacterium bovis*, en nær slektning av *M. tuberculosis*),
+> men denne spesifikke prediksjonen er for tiden støttet bare av **0 kliniske forsøk** og **1 indirekte publikasjon** (patogenomikk, ikke en legemiddeleffektivitetsstudie).
+> En relatert, mer klinisk handlingsorientert prediksjon i samme evidenssett — **Inaktiv tuberkulose** — er støttet av **2 aktive fase 2/3 kliniske forsøk med delamanid selv** og **20 publikasjoner**, og er flagget nedenfor for vurdering.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available in this evidence pack (flagged as DG002, High severity). Based on established pharmacological knowledge, delamanid is a nitro-dihydro-imidazooxazole derivative that inhibits mycolic acid biosynthesis in the mycobacterial cell wall, and it is used clinically (outside this jurisdiction) as part of combination therapy for MDR pulmonary tuberculosis caused by *Mycobacterium tuberculosis*.
-
-*Mycobacterium bovis*, the causative agent of bovine (and zoonotic) tuberculosis, is a member of the same *Mycobacterium tuberculosis* complex and shares a nearly identical cell wall architecture, including mycolic acid biosynthesis pathways. Mechanistically, this makes cross-species activity plausible — the same target that delamanid inhibits in *M. tuberculosis* is largely conserved in *M. bovis*.
-
-However, the single supporting publication (PMID 39487429) is a whole-genome sequencing study of drug resistance patterns in *M. bovis* isolates — it characterizes the pathogen, but does **not** test delamanid's efficacy against it. This prediction should therefore be read as a target/pathogen-similarity hypothesis rather than an evidence-backed repurposing opportunity.
-
-**Note:** Within the same evidence pack, rank 2 ("Inactive Tuberculosis") shares the same underlying biology but has direct clinical trial support for delamanid, including an active Phase 2/3 trial (CRUSH-TB) and a Phase 3 prevention trial (PHOENIx MDR-TB) — see below.
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Legemiddelresistent pulmonær tuberkulose (MDR-TB) — kjent farmakologisk bruk; ikke tilstede i gjeldende reguleringsblokk (se Datamangler) |
+| Forutsagt ny indikasjon | Bovint tuberkulose |
+| TxGNN-prediksjonspoengsum | 99.91% |
+| Bevisgrad | L5 (modellprediksjon kun; ingen delamanid-spesifikk klinisk eller preklinisk studie for denne indikasjonen) |
+| Taiwans markedsstatus | ✗ Ikke markedsført (Not marketed) |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-**For the top-ranked prediction (Tuberculosis, Bovine): Currently no related clinical trials registered.**
+For tiden er detaljert informasjon om virkningsmekanisme ikke tilgjengelig i denne evidenspakken (flagget som DG002, høy alvorlighetsgrad). Basert på etablert farmakologisk kunnskap er delamanid en nitro-dihydro-imidazooxazol-derivat som hemmer mybølsyre-biosyntese i den mybakterielle celleveggen, og det brukes klinisk (utenfor denne jurisdiksjonen) som del av kombinasjonsterapi for MDR pulmonær tuberkulose forårsaket av *Mycobacterium tuberculosis*.
 
-*For reference, the closely related rank-2 prediction ("Inactive Tuberculosis") has direct delamanid trial support:*
+*Mycobacterium bovis*, agensen for bovint (og zoonotisk) tuberkulose, er medlem av samme *Mycobacterium tuberculosis*-kompleks og deler en nesten identisk celleveggarkitektur, inkludert mybølsyre-biosyntesebaner. Mekanistisk gjør dette tverkartsaktivitet sannsynlig — det samme målet som delamanid hemmer i *M. tuberculosis* er stort sett konservert i *M. bovis*.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Imidlertid er den eneste støttepublikasjonen (PMID 39487429) en helgenomsekvenseringsstudie av legemiddelresistansmønstre i *M. bovis*-isolater — den karakteriserer patogenet, men **tester ikke** delamanids effektivitet mot det. Denne prediksjonen bør derfor leses som en mål-/patogenliknings-hypotese snarere enn en bevis-støttet ombruksmulighet.
+
+**Merknad:** Innenfor samme evidenssett, rangering 2 ("Inaktiv tuberkulose") deler samme underliggende biologi men har direkte klinisk forsøksstøtte for delamanid, inkludert et aktivt fase 2/3-forsøk (CRUSH-TB) og et fase 3-forebyggingsforsøk (PHOENIx MDR-TB) — se nedenfor.
+
+---
+
+## Klinisk forsøksbevis
+
+**For topprangerte prediksjonen (Bovint tuberkulose): For tiden ingen relaterte kliniske forsøk registrert.**
+
+*For referanse har den nært relaterte rangeringsprediksjon 2 ("Inaktiv tuberkulose") direkte delamanid-forsøksstøtte:*
+
+| Forsøksnummer | Fase | Status | Inkludering | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT05766267](https://clinicaltrials.gov/study/NCT05766267) | Phase 2/3 | Active, not recruiting | 288 | 17-week short-course regimens (BMZ + Rifabutin or Delamanid) vs. standard 6-month regimen for pulmonary TB |
-| [NCT03568383](https://clinicaltrials.gov/study/NCT03568383) | Phase 3 | Active, not recruiting | 5,832 | 26 weeks delamanid vs. 26 weeks isoniazid for TB prevention in high-risk household contacts of MDR-TB index cases |
+| [NCT05766267](https://clinicaltrials.gov/study/NCT05766267) | Fase 2/3 | Aktiv, ikke rekrutterer | 288 | 17-ukers kortkursregimer (BMZ + Rifabutin eller Delamanid) vs. standard 6-måneders regime for pulmonær TB |
+| [NCT03568383](https://clinicaltrials.gov/study/NCT03568383) | Fase 3 | Aktiv, ikke rekrutterer | 5,832 | 26 ukers delamanid vs. 26 ukers isoniazid for TB-forebygging hos høyrisikohustandskontakter av MDR-TB-indekskasser |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [39487429](https://pubmed.ncbi.nlm.nih.gov/39487429/) | 2024 | Molecular epidemiology (WGS) | BMC Genomics | Whole-genome sequencing of zoonotic *M. bovis* isolates characterizing genetic diversity and drug-resistance markers; does not evaluate delamanid directly |
+| [39487429](https://pubmed.ncbi.nlm.nih.gov/39487429/) | 2024 | Molekylær epidemiologi (WGS) | BMC Genomics | Helgenomsekvensering av zoonotiske *M. bovis*-isolater som karakteriserer genetisk mangfold og legemiddelresistansmarkører; evaluerer ikke delamanid direkte |
 
 ---
 
-## Taiwan Market Information
+## Taiwans markedsinformasjon
 
-Delamanid currently holds **no marketing authorization** in this jurisdiction (`total_licenses: 0`, `market_status: Not marketed`). No license records are available to summarize.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and drug-drug interaction data are all currently unavailable — flagged as DG001, Blocking severity, since it prevents S1 safety pre-assessment.)*
+Delamanid har for tiden **ingen godkjennelse for markedsføring** i denne jurisdiksjonen (`total_licenses: 0`, `market_status: Not marketed`). Ingen lisensposter er tilgjengelige for sammendrag.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Se pakningsvedlegget for sikkerhetsinformasjon.
 
-**Rationale:**
-The top-ranked prediction (Tuberculosis, Bovine) is supported only by the TxGNN score and one indirect pathogen-genomics paper — no clinical trials or delamanid-specific studies exist for this indication (Evidence Level L5). Combined with a Blocking data gap on TFDA warnings/contraindications (DG001) and the drug's unmarketed status locally, there is insufficient evidence to advance this specific prediction.
+*(Viktige advarsler, kontraindikasjoner og legemiddel–legemiddel-interaksjondata er alle for tiden utilgjengelige — flagget som DG001, blokkerende alvorlighetsgrad, siden det forhindrer S1 sikkerhetsprevurdering.)*
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) to close DG001 before any safety pre-assessment
-- DrugBank MOA confirmation to close DG002 and support mechanistic rationale
-- Preclinical or *in vitro* efficacy data of delamanid against *M. bovis* specifically
-- **Consider re-scoping the repurposing target to "Inactive Tuberculosis" (rank 2)**, which has active Phase 2/3 delamanid-specific trials and substantially more literature support, and would represent a stronger candidate for Guardrails-based evaluation
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Topprangerte prediksjonen (Bovint tuberkulose) er støttet bare av TxGNN-poengsummen og ett indirekte patogenomikk-papir — ingen kliniske forsøk eller delamanid-spesifikke studier eksisterer for denne indikasjonen (Bevisgrad L5). Kombinert med et blokkerende datamangler på TFDA-advarsler/kontraindikasjoner (DG001) og stoffets umarkedsførte status lokalt, er det utilstrekkelig bevis for å fremme denne spesifikke prediksjonen.
+
+**For å fortsette, trengs følgende:**
+- TFDA/produsent-pakningsvedlegg (advarsler, kontraindikasjoner) for å lukke DG001 før noen sikkerhetsprevurdering
+- DrugBank MOA-bekreftelse for å lukke DG002 og støtte mekanistisk begrunnelse
+- Preklinisk eller *in vitro*-effektivitetsdata for delamanid spesifikt mot *M. bovis*
+- **Vurder å omomfatte ombruksmålet til "Inaktiv tuberkulose" (rangering 2)**, som har aktive fase 2/3 delamanid-spesifikke forsøk og betydelig mer litteraturstøtte, og ville representere en sterkere kandidat for Guardrails-basert evaluering
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,87 +29,88 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Pravastatin: From Hypercholesterolemia to Homozygous Familial Hypercholesterolemia
+# Pravastatin: Fra hyperkolesterolemi til homozygot familiær hyperkolesterolemi
 
-## One-Sentence Summary
+## Sammendrag på én setning
 
-> Pravastatin is a HMG-CoA reductase inhibitor (statin) established for treating hypercholesterolemia and reducing cardiovascular risk.
-> The TxGNN model predicts it may be effective for **Homozygous Familial Hypercholesterolemia (HoFH)**,
-> but the supporting evidence — **1 clinical trial** (not testing pravastatin itself) and **13 publications** (mostly on other statins or general FH context) — is indirect and does not yet establish efficacy of pravastatin alone in this population.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this Evidence Pack (`taiwan_regulatory.licenses` is empty); pravastatin is generally indicated for hypercholesterolemia/dyslipidemia |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia (HoFH) |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L3 (indirect/observational evidence only; no direct RCT of pravastatin in HoFH) |
-| Norway Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Pravastatin er en HMG-CoA reduktasehemmer (statin) etablert for behandling av hyperkolesterolemi og reduksjon av kardiovaskulær risiko.
+> TxGNN-modellen forutsier at den kan være effektiv for **Homozygot familiær hyperkolesterolemi (HoFH)**,
+> men den støttende evidensen — **1 klinisk studie** (som ikke tester pravastatin selv) og **13 publikasjoner** (hovedsakelig om andre statiner eller generell FH-kontekst) — er indirekte og etablerer ennå ikke effektiviteten av pravastatin alene i denne populasjonen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack (flagged as a High-severity data gap, DG002). Based on general pharmacological knowledge, pravastatin is a HMG-CoA reductase inhibitor that lowers hepatic cholesterol synthesis and is used to manage hypercholesterolemia and reduce cardiovascular risk.
-
-HoFH is characterized by near-complete absence of functional LDL receptors, which is mechanistically the pathway statins primarily rely on to lower LDL-C. This creates an important caveat: as noted in the repurposing rationale, statins have **limited standalone efficacy** in HoFH and are typically used only as background/adjunct therapy alongside PCSK9 inhibitors, ezetimibe, or LDL apheresis — not as monotherapy.
-
-The single clinical trial identified (NCT03510715) actually tests alirocumab, not pravastatin, in pediatric HoFH, and is graded "C" relevance — useful only as disease-background context. The literature base is similarly indirect, consisting largely of reviews/guidelines on other statins (rosuvastatin, atorvastatin), ezetimibe, and general statin-in-FH systematic reviews, rather than pravastatin-specific HoFH data. The prediction is therefore mechanistically plausible as an adjunct but not well supported as a primary therapy signal.
+| Element | Innhold |
+|------|---------|
+| Original indikasjon | Ikke dokumentert i denne Evidence Pack (`taiwan_regulatory.licenses` er tom); pravastatin er generelt indisert for hyperkolesterolemi/dyslipidemi |
+| Forutsagt ny indikasjon | Homozygot familiær hyperkolesterolemi (HoFH) |
+| TxGNN-prediksjonspoeng | 99.95% |
+| Evidensnivå | L3 (kun indirekte/observasjonsdata; ingen direkte RCT av pravastatin ved HoFH) |
+| Markedsstatus i Norge | Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Foreløpig mangler detaljerte data om virkningsmåten i denne Evidence Pack (flagget som et datakløft med høy alvorlighetsgrad, DG002). Basert på generell farmakologisk kunnskap er pravastatin en HMG-CoA reduktasehemmer som senker hepatisk kolesterolsyntese og brukes til å håndtere hyperkolesterolemi og redusere kardiovaskulær risiko.
+
+HoFH karakteriseres ved nesten fullstendig mangel på funksjonelle LDL-reseptorer, noe som er mekanistisk den veien statiner først og fremst er avhengige av for å senke LDL-C. Dette reiser et viktig forbehold: som nevnt i rasjonaliteten for ombruk, har statiner **begrenset ensidig effektivitet** ved HoFH og brukes vanligvis bare som bakgrunns-/tilleggsterapi sammen med PCSK9-hemmere, ezetimib eller LDL-aferese — ikke som monoterapi.
+
+Den eneste kliniske studien som er identifisert (NCT03510715) tester faktisk alirocumab, ikke pravastatin, ved pediatrisk HoFH, og er gradert "C" relevans — nyttig bare som sykdomsbakgrunnskontekst. Litteraturgrunnlaget er tilsvarende indirekte, bestående hovedsakelig av oversikter/retningslinjer om andre statiner (rosuvastatin, atorvastatin), ezetimib og generelle statin-i-FH systematiske oversikter, snarere enn pravastatin-spesifikke HoFH-data. Prediksjonen er derfor mekanistisk plausibel som tilleggsterapi, men ikke godt støttet som et primærterapisignal.
+
+---
+
+## Klinisk studie-evidens
+
+| Studienummer | Fase | Status | Inklusjon | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Completed | 18 | Evaluated alirocumab (not pravastatin) in children/adolescents with HoFH on top of background lipid-lowering therapy; relevant only as HoFH population/background-treatment context, not direct evidence for pravastatin. |
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Fase 3 | Fullført | 18 | Evaluerte alirocumab (ikke pravastatin) hos barn/ungdom med HoFH på toppen av bakgrunns lipidsenkende terapi; relevant bare som HoFH-populasjon/bakgrunnsbehandlingskontekst, ikke direkte evidens for pravastatin. |
 
 ---
 
-## Literature Evidence
+## Litteratur-evidens
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Systematic Review | Cochrane Database Syst Rev | Statins (including pravastatin) in children with FH; largely covers heterozygous FH, notes HoFH as the severe end of the spectrum. |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Clinical Guideline | Endocr Pract | AACE/ACE dyslipidemia management guideline; statins positioned as foundational therapy across FH severity. |
-| [28685504](https://pubmed.ncbi.nlm.nih.gov/28685504/) | 2017 | Systematic Review | Cochrane Database Syst Rev | Earlier version of the statins-in-FH-children Cochrane review. |
-| [31358055](https://pubmed.ncbi.nlm.nih.gov/31358055/) | 2019 | Preclinical | Stem Cell Res Ther | iPSC-derived LDLR-deficient hepatocyte model for FH; supports disease mechanism, not direct pravastatin efficacy. |
-| [15531000](https://pubmed.ncbi.nlm.nih.gov/15531000/) | 2004 | Review | Clin Ther | Rosuvastatin review noting HoFH as a treatment indication for statins as a class. |
-| [12269853](https://pubmed.ncbi.nlm.nih.gov/12269853/) | 2002 | Review | Drugs | Rosuvastatin review; reports rosuvastatin outperformed pravastatin on lipid profile in comparative trials. |
-| [9793596](https://pubmed.ncbi.nlm.nih.gov/9793596/) | 1998 | Review | Ann Pharmacother | Atorvastatin review (comparator statin, not pravastatin-specific). |
-| [14727947](https://pubmed.ncbi.nlm.nih.gov/14727947/) | 2003 | Review | Am J Cardiovasc Drugs | Ezetimibe review; relevant as a common combination partner with statins in severe FH. |
+| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Systematisk oversikt | Cochrane Database Syst Rev | Statiner (inkludert pravastatin) hos barn med FH; dekker stort sett heterozygot FH, noterer HoFH som den alvorlige enden av spekteret. |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Klinisk retningslinje | Endocr Pract | AACE/ACE dyslipidemi-styringsretningslinje; statiner er posisjonert som grunnleggende terapi på tvers av FH-alvorlighetsgrad. |
+| [28685504](https://pubmed.ncbi.nlm.nih.gov/28685504/) | 2017 | Systematisk oversikt | Cochrane Database Syst Rev | Tidligere versjon av statiner-i-FH-barn Cochrane-oversikten. |
+| [31358055](https://pubmed.ncbi.nlm.nih.gov/31358055/) | 2019 | Preklinisk | Stem Cell Res Ther | iPSC-avledet LDLR-manglende hepatocytt-modell for FH; støtter sykdomsmekanisme, ikke direkte pravastatin-effektivitet. |
+| [15531000](https://pubmed.ncbi.nlm.nih.gov/15531000/) | 2004 | Oversikt | Clin Ther | Rosuvastatin-oversikt som noterer HoFH som en behandlingsindikasjon for statiner som klasse. |
+| [12269853](https://pubmed.ncbi.nlm.nih.gov/12269853/) | 2002 | Oversikt | Drugs | Rosuvastatin-oversikt; rapporterer at rosuvastatin utkonkurrerte pravastatin på lipidprofil i komparative studier. |
+| [9793596](https://pubmed.ncbi.nlm.nih.gov/9793596/) | 1998 | Oversikt | Ann Pharmacother | Atorvastatin-oversikt (sammenlignende statin, ikke pravastatin-spesifikk). |
+| [14727947](https://pubmed.ncbi.nlm.nih.gov/14727947/) | 2003 | Oversikt | Am J Cardiovasc Drugs | Ezetimib-oversikt; relevant som en vanlig kombinasjonspartner med statiner ved alvorlig FH. |
 
 ---
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-No marketing authorizations were found for pravastatin in the Norwegian register — consistent with the reported "Not marketed" status and 0 total licenses in this Evidence Pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and DDI data are all marked as gaps in this Evidence Pack; DG001 flags the missing TFDA label as a Blocking gap that prevents a full S1 safety pre-assessment.)
+Ingen markedsføringstillatelser for pravastatin ble funnet i det norske registeret — konsistent med den rapporterte «Ikke markedsført»-statusen og 0 totale lisenser i denne Evidence Pack.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og DDI-data er alle merket som kløfter i denne Evidence Pack; DG001 flagger det manglende TFDA-merket som et blokkerende kløft som hindrer en fullstendig S1-sikkerhets-forvurdering.)
 
-**Rationale:**
-- Evidence for pravastatin specifically in HoFH is indirect (the only trial tests a different drug, alirocumab) and the mechanistic rationale itself flags limited standalone efficacy in HoFH due to near-absent LDL receptor function. Combined with a Blocking data gap on TFDA label safety information (DG001), the candidate is not ready to advance.
+---
 
-**To proceed, the following is needed:**
-- TFDA label PDF (warnings/contraindications) to clear the Blocking gap (DG001) and enable S1 safety review
-- DrugBank MOA data to confirm mechanistic rationale (DG002)
-- Direct clinical evidence on pravastatin (alone or as background therapy) specifically in confirmed HoFH patients
-- Clarification of intended use case: adjunct/background therapy alongside PCSK9i/ezetimibe/apheresis, rather than monotherapy positioning
+## Konklusjon og neste skritt
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+- Evidensen for pravastatin spesifikt ved HoFH er indirekte (den eneste studien tester et annet legemiddel, alirocumab) og den mekanistiske rasjonaliteten selv peker på begrenset ensidig effektivitet ved HoFH på grunn av nesten fraværende LDL-reseptorfunksjon. Kombinert med et blokkerende datakløft på TFDA-merket sikkerhetsinformasjon (DG001), er kandidaten ikke klar til å gå videre.
+
+**For å gå videre, kreves følgende:**
+- TFDA-merke PDF (advarsler/kontraindikasjoner) for å fjerne det blokkerende kløftet (DG001) og muliggjøre S1-sikkerhetsvurdering
+- DrugBank MOA-data for å bekrefte mekanistisk rasjonalitet (DG002)
+- Direkte klinisk evidens på pravastatin (alene eller som bakgrunnssterapi) spesifikt hos bekreftet HoFH-pasienter
+- Avklaring av tiltenkt brukstilfelle: tilleggsterapi/bakgrunnssterapi sammen med PCSK9i/ezetimib/aferese, snarere enn monoterapi-posisjonering
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

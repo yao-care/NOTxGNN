@@ -29,82 +29,83 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Glimepiride：從第二型糖尿病到 Focal Stiff Limb Syndrome（機轉關聯性存疑）
+# Glimepirid: Fra type 2-diabetes til Focal Stiff Limb Syndrome (virkningsmåte-assosiasjon usikker)
 
-## 一句話總結
+## Oppsummering i en setning
 
-Glimepiride 是磺醯脲類（sulfonylurea）口服降血糖藥物，作用於胰臟 β 細胞 KATP 通道促進胰島素分泌。
-TxGNN 模型預測其可能對 **Focal Stiff Limb Syndrome** 有效，
-但目前**無臨床試驗、無文獻支持**，且模型自身生成的機轉推論已明確指出此為知識圖譜的潛在偽陽性連結。
-
----
-
-## 快速總覽
-
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | 第二型糖尿病（依藥理學常識推斷；本 Evidence Pack 未提供正式核准適應症文字，`original_indications` 為空） |
-| 預測新適應症 | Focal Stiff Limb Syndrome |
-| TxGNN 預測分數 | 99.75%（rank 3254 / 全庫排序） |
-| 證據等級 | L5（僅模型預測，無實際研究） |
-| 當地市場狀態 | ✗ Not marketed |
-| 核准證號數量 | 0 |
-| 建議決策 | **Hold** |
+Glimepirid er et sulfonylureum-basert oralt antidiabetikum som virker på KATP-kanalen i bukspyttkjertelceller (β-celler) for å fremme insulinutskillelse.
+TxGNN-modellen forutsier at det muligens kan være effektivt for **Focal Stiff Limb Syndrome**,
+men det finnes for tiden **ingen kliniske forsøk eller litteraturstøtte**, og modellens egen mekanismegenerering indikerer allerede at dette sannsynligvis er en falsk positiv lenke i kunnskapsgrafen.
 
 ---
 
-## 為什麼這個預測合理性存疑？
+## Rask oversikt
 
-Glimepiride 的作用機轉為阻斷胰臟 β 細胞 KATP 通道（SUR1/Kir6.2 次單元），促使細胞去極化、鈣離子流入，進而刺激胰島素分泌，屬於典型的磺醯脲類降血糖藥物機轉。此機轉高度侷限於胰島 β 細胞與血糖調控路徑。
-
-Focal Stiff Limb Syndrome 屬於 Stiff Person Syndrome 光譜疾病，核心病理為抗 GAD65 抗體導致中樞神經系統 GABA 合成障礙，造成肌肉僵直與痙攣，本質上是自體免疫神經系統疾病，與磺醯脲類藥物的胰島素分泌機轉並無已知交集。
-
-依 Evidence Pack 提供之 `repurposing_rationale`，此高分預測**極可能是知識圖譜偽陽性**：GAD65 蛋白同時表現於中樞神經系統 GABA 能神經元與胰臟 β 細胞，TxGNN 很可能是透過「GAD65／糖尿病」這個共病捷徑產生錯誤的高分關聯，而非反映真實的藥理學合理性。目前無法建立支持此預測的生物學假說，亦無任何機轉層級（MOA）正式資料可供驗證——`original_moa` 為 Data Gap，屬於本案高優先級待補資訊。
-
-> 補充：本組九個候選適應症中，第 9 名「Pancreatic agenesis」的機轉假說相對較合理（磺醯脲類已知可用於 KATP 通道基因 KCNJ11/ABCC8 突變之新生兒糖尿病），但因胰臟發育不全患者可能缺乏足量功能性 β 細胞，合理性仍存在重大不確定性，且僅有的文獻（PMID 12720536）與此適應症無直接相關。此候選值得留意但仍不足以支持進入下一階段。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Type 2-diabetes (konkludert fra farmakologisk kunnskap; Evidence Pack gir ingen formell godkjenningsindikasjon, `original_indications` er tom) |
+| Forutsagt ny indikasjon | Focal Stiff Limb Syndrome |
+| TxGNN-prediksjonspoengsum | 99.75% (rangering 3254 / total database) |
+| Bevisnivå | L5 (kun modellprediksjon, ingen faktisk forskning) |
+| Markedsstatus lokalt | ✗ Ikke markedsført |
+| Antall godkjenningssertifikater | 0 |
+| Anbefalt beslutning | **Hold** |
 
 ---
 
-## 文獻證據
+## Hvorfor er denne prediksjonen mekanistisk tvilsom?
 
-目前無相關文獻可查。
+Glimepirids virkningsmåte er å blokkere KATP-kanalen i bukspyttkjertelceller (SUR1/Kir6.2-underenheter), som forårsaker cellular depolarisering og kalsiuminnstrømming, noe som stimulerer insulinutskillelse – en typisk sulfonylureum-virkningsmåte begrenset til øyer-β-celler og glukosekontrollveier.
 
----
+Focal Stiff Limb Syndrome er en del av Stiff Person Syndrome-spekteret, hvis kjernepathologi er anti-GAD65-antistoff som forårsaker GABA-syntesestyrke i sentralnervesystemet, noe som forårsaker muskelstivhet og kramper – en autoimmunsykdom i nervesystemet uten kjent kryssing med sulfonylureums insulinsekresjonsmekanisme.
 
-## 當地市場資訊
+I henhold til `repurposing_rationale` som er gitt i Evidence Pack, er denne høye-scoren-prediksjonen **svært sannsynlig å være en kunnskapsgrafs falsk-positiv**: GAD65-proteinet uttrykkes både i sentralnervesystemets GABAerg-neuroner og i bukspyttkjertelceller (β-celler); TxGNN genererte sannsynligvis denne feilaktige høye-score-assosiasjonen via "GAD65/diabetes"-felveien snarere enn å gjenspeile ekte farmakologisk sannsynlighet. Det er ingen støtte for å bygge en biologisk hypotese for denne prediksjonen, og det finnes ingen formell mekanisme-nivå (MOA) data til verifisering – `original_moa` er klassifisert som datakløft, en høy-prioritets informasjonshull for dette tilfellet.
 
-本藥品目前**未於當地市場核准上市**，無有效核准證號資料（`total_licenses` = 0）。
-
----
-
-## 安全性考量
-
-請參閱藥品仿單以獲得安全性資訊。
-
-> 注意：`data_gaps` 中標記「DMP package insert warnings/contraindications」為 **Blocking** 等級缺口，直接影響安全性初評（S1）之進行，需優先補齊。
+> Tilleggsmerknad: Blant disse ni kandidatindikasjonene er det niende kandidatet «Pancreatic agenesis» (bukspyttkjertel-agenesie) med relativt mer rimelig mekanismeformodling (sulfonylureum er kjent for å kunne brukes i nyfødt diabetes forårsaket av KATP-kanal-gen KCNJ11/ABCC8 mutasjoner), men fordi pasienter med bukspytktkjerttel-utviklingsmangler kan mangle tilstrekkelig funksjonelle β-celler, er rimelighetens sikkerhet fortsatt betydelig usikker, og den eneste tilgjengelige litteraturen (PMID 12720536) har ingen direkte tilknytning til denne indikasjonen. Denne kandidaten er verdt oppmerksomhet men utilstrekkelig til å støtte fremgang til neste fase.
 
 ---
 
-## 結論與後續步驟
+## Klinisk forsøksbevis
 
-**決策：Hold**
+Det er for tiden ingen relaterte kliniske forsøksregistreringer.
 
-**理由：**
-- 證據等級為 L5，僅有模型預測分數，無任何臨床試驗或文獻支持。
-- 模型自身生成的機轉推論已明確指出此為知識圖譜偽陽性（透過 GAD65 節點產生的間接連結），缺乏生物學合理性。
-- 藥物尚未於當地市場核准上市，且作用機轉（MOA）與安全性仿單資料均為待補缺口，無法進行安全性初評。
+---
 
-**若要繼續推進，需要補齊：**
-- Glimepiride 正式 MOA 資料（DrugBank API 查詢）
-- TFDA／當地主管機關仿單警語與禁忌症資料（解決 Blocking 缺口 DG001）
-- 針對 Stiff Person Syndrome 光譜疾病與磺醯脲類藥物之間，尋求任何體外／動物實驗或病例報告等初步機轉證據
-- 若優先順序調整，建議另行評估第 9 名候選「Pancreatic agenesis」，因其具備相對明確的 KATP 通道機轉基礎，值得獨立檢視是否有 KCNJ11/ABCC8 相關案例報告可支持
+## Litteraturbevis
+
+For tiden ingen relatert litteratur funnet.
+
+---
+
+## Informasjon om lokalt marked
+
+Legemidlet er for tiden **ikke godkjent for markedsføring på lokalt marked**, uten effektive godkjenningssertifikater (`total_licenses` = 0).
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+> Merk: I `data_gaps` er "DMP package insert warnings/contraindications" merket som **Blocking**-niveau kløft, noe som direkte påvirker sikkerhetsinitialvurderingen (S1) og må fylles med høy prioritet.
+
+---
+
+## Konklusjon og videre trinn
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+- Bevisnivå er L5, kun modellprediksjonspoengsum, uten noen klinisk forsøks- eller litteraturstøtte.
+- Modellens egen mekanismegenerering har allerede gjort klart at dette er en kunnskapsgrafs falsk positiv (indirekte lenke generert via GAD65-noden), mangler biologisk rimelighetsjustifikasjon.
+- Legemidlet er ikke godkjent på lokalt marked, og både virkningsmåte (MOA) og sikkerhetspakningsvedleggsdata er informasjonshull som må fylles, noe som gjør sikkerhetsinitialvurderingen (S1) umulig.
+
+**Hvis man fortsetter, er følgende nødvendig:**
+- Glimepirids formelle MOA-data (DrugBank API-spørring)
+- TFDA/lokal tilsynsmyndighets pakningsvedleggets advarsler og kontraindikasjonsdata (løse Blocking-kløften DG001)
+- Søk etter all mulig in vitro/dyreforsøks- eller kasuistisk bevis for mekanisme mellom Stiff Person Syndrome-spektret og sulfonylureum-medikamenter
+- Hvis prioritering endres, anbefales det å separat evaluere den niende kandidaten «Pancreatic agenesis» fordi den har relativt klar KATP-kanal-mekanismegrunnlag og er verdt uavhengig inspeksjon for å se om det finnes KCNJ11/ABCC8-relaterte kasusforsøks- eller rapportbevis som kan støtte det
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

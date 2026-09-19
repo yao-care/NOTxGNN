@@ -29,76 +29,77 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Indacaterol: From Chronic Obstructive Airway Disease to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Indacaterol: Fra kronisk obstruktiv lungesykdom til nefrogent syndrom for upassende antidurese
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-Indacaterol is a long-acting β2-adrenergic receptor agonist (LABA) used in respiratory disease (COPD/asthma) based on the trial and mechanistic evidence in this pack; formal original-indication text could not be confirmed because the drug is currently unlicensed in the target market.
-The TxGNN model's top-ranked prediction is **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, but this pairing has **0 clinical trials** and **0 publications** supporting it, and the evidence pack's own mechanistic review flags it as a likely knowledge-graph false positive.
-Across all 10 top-ranked TxGNN predictions for this drug, only one ("bronchial disease," rank 7) has strong clinical evidence (L1) — but that signal simply reconfirms the drug's known LABA pharmacology rather than representing a novel repurposing opportunity.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not confirmed by local license data (0 authorizations on file); drug class evidence points to COPD/asthma (LABA) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis |
-| TxGNN Prediction Score | 99.54% |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Indacaterol er en langvirkende β2-adrenergisk agonist (LABA) brukt ved respiratorisk sykdom (KOLS/astma) basert på kliniske forsøk og mekanistisk bevis i denne pakken; formell original-indikasjon tekst kunne ikke bekreftes fordi legemidlet for tiden er ulisensiert i målmarkedet.
+TxGNN-modellens høyest rangerte prediksjon er **Nefrogent syndrom for upassende antidurese (NSIAD)**, men denne kombinasjonen har **0 kliniske forsøk** og **0 publikasjoner** som støtter det, og evidenspakkens egen mekanistiske gjennomgang flagger det som sannsynlig en falskt positiv i kunnskapsgrafen.
+Blant alle 10 høyest rangerte TxGNN-prediksjoner for dette legemidlet, har bare en («bronkial sykdom», rang 7) sterkt klinisk bevis (L1) — men det signalet bekrefter ganske enkelt legemidlets kjente LABA-farmakologi i stedet for å representere en ny bruksomlegging.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available (DrugBank MOA field is a data gap). Based on the mechanistic evidence embedded throughout this pack's clinical trial and rationale entries, indacaterol is a long-acting β2-adrenergic receptor agonist that produces bronchodilation via direct action on airway smooth muscle β2 receptors — the pharmacological basis for its established use in obstructive airway disease.
-
-NSIAD, in contrast, is a hereditary disorder caused by gain-of-function mutations in the vasopressin V2 receptor, which drives renal water retention independent of any β2-adrenergic pathway. There is no known pharmacological, receptor-level, or physiological overlap between LABA activity and V2-receptor-mediated free water handling. The evidence pack's own repurposing rationale for this candidate explicitly characterizes it as a **graph-association false positive** rather than a genuine mechanistic hypothesis, and no clinical trials or literature exist to counter that assessment.
-
-For context, of the 10 highest-ranked TxGNN predictions for indacaterol, nine (NSIAD, headache disorder, trigeminal autonomic cephalalgia, paratenonitis, calcific tendinitis, hypertrichosis, myositis, anaphylaxis, Ambras-type hypertrichosis) are flagged in the source rationale as lacking mechanistic plausibility or reflecting adverse-event signals mistaken for therapeutic ones. The tenth ("bronchial disease") is well supported (L1, multiple Phase 3 RCTs) but represents the drug's **already-established** LABA pharmacology, not a new indication. Taken together, this evidence pack does not currently surface a credible novel repurposing candidate for indacaterol.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke bekreftet av lokale lisensdata (0 autorisasjoner på fil); bevis på legemiddelklasse peker på KOLS/astma (LABA) |
+| Forutsagt ny indikasjon | Nefrogent syndrom for upassende antidurese |
+| TxGNN prediksjonsscore | 99.54% |
+| Bevisnivå | L5 (kun modellprediksjon, ingen støttende forsøk eller litteratur) |
+| Markedsstatus | Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelig (DrugBank MOA-felt er et datahull). Basert på mekanistisk bevis som er innebygd gjennom hele denne pakkens innlyselser om kliniske forsøk og begrunnelse, er indacaterol en langvirkende β2-adrenergisk agonist som produserer bronkodilatasjon gjennom direkt virkning på β2-reseptorer på glatt muskulatur i luftveiene — det farmakologiske grunnlaget for dets etablerte bruk ved obstruktiv lungesykdom.
 
----
+NSIAD er i kontrast en arvelig lidelse forårsaket av gain-of-function-mutasjoner i vasopressin V2-reseptoren, som driver nyre vannretensjon uavhengig av noen β2-adrenergisk vei. Det er ingen kjent farmakologisk, reseptornivå eller fysiologisk overlapping mellom LABA-aktivitet og V2-reseptor-formidlet vannbehandling. Evidenspakkens egen bruksomlegerings begrunnelse for denne kandidaten karakteriserer eksplisitt den som en **kunnskapsgrafs-assosiasjon falskt positiv** i stedet for en genuinn mekanistisk hypotese, og ingen kliniske forsøk eller litteratur finnes for å motsi denne vurderingen.
 
-## Market Information
-
-No authorizations are on file — this product is currently **not marketed** in the target jurisdiction, and no license records are available to summarize.
+For kontekst, av de 10 høyest rangerte TxGNN-prediksjoner for indacaterol, er ni (NSIAD, hodepinesykdom, trigeminal autonom cephalgia, paratenonitis, kalsifiserende senebetennelse, hypertrikose, myositt, anafilaksi, hypertrikose av Ambras-type) flagget i kildebegrunnelsen som manglende mekanistisk rimelighet eller som reflekterer bivirkningstegn som blir tatt for terapeutiske. Den tiende («bronkial sykdom») er godt støttet (L1, flere fase 3 RCT-er) men representerer legemidlets **allerede etablerte** LABA-farmakologi, ikke en ny indikasjon. Samlet sett presenterer denne evidenspakken for tiden ikke en troverdig ny bruksomleggeingskandidat for indacaterol.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøk
 
-Please refer to the package insert for safety information. Note that key warnings, contraindications, and drug-drug interaction data are all currently unavailable (flagged as a **Blocking** data gap — DG001: TFDA-equivalent package insert warnings/contraindications not yet sourced), which by itself precludes a full safety assessment (S1 stage) for any indication of this drug.
+For tiden ingen registrerte kliniske forsøk relatert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For tiden ingen relatert litteratur tilgjengelig.
 
-**Rationale:**
-The top-ranked TxGNN prediction (NSIAD) has no mechanistic plausibility, no clinical trials, and no literature support, and is explicitly assessed as a likely false positive. The only well-evidenced prediction in this pack ("bronchial disease") does not constitute a new indication. No repurposing case currently exists that would justify advancing past the earliest evaluation stage.
+---
 
-**To proceed, the following is needed:**
-- TFDA-equivalent package insert (warnings/contraindications) — currently blocking (DG001)
-- Detailed mechanism of action data from DrugBank — currently high-severity gap (DG002)
-- A genuine mechanistic or preclinical rationale linking β2-adrenergic signaling to V2-receptor-mediated antidiuresis, if this candidate is to be pursued further
-- If pursuing the "bronchial disease" signal instead, reframe as label-extension/on-mechanism confirmation rather than repurposing, and source formal local regulatory indication text
+## Markedsinformasjon
+
+Ingen autorisasjoner er på fil — dette produktet er for tiden **ikke markedsført** i målmyndigheten, og ingen lisensposter er tilgjengelig for oppsummering.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst referer til produktresumeet for sikkerhetsinformasjon. Legg merke til at viktige advarsler, kontraindikasjoner og data om legemiddelinteraksjon er alle for tiden utilgjengelige (flagget som et **blokkerende** datahull — DG001: TFDA-ekvivalent produktresume advarsler/kontraindikasjoner ikke ennå hentet), som i seg selv hindrer en fullstendig sikkerhetsvurdering (S1 stadium) for noen indikasjon av dette legemidlet.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Den høyest rangerte TxGNN-prediksjonen (NSIAD) har ingen mekanistisk rimelighet, ingen kliniske forsøk og ingen litteraturstøtte, og er eksplisitt vurdert som sannsynlig falskt positiv. Den eneste godt dokumenterte prediksjonen i denne pakken («bronkial sykdom») utgjør ikke en ny indikasjon. Ingen bruksomleggeringstilfelle finnes for tiden som ville rettferdiggjøre avansering forbi det tidligste evalueringsstadiet.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA-ekvivalent produktresume (advarsler/kontraindikasjoner) — for tiden blokkert (DG001)
+- Detaljerte mekanisme-of-action-data fra DrugBank — for tiden høy-alvorlighetsgrad hull (DG002)
+- En genuinn mekanistisk eller preklinisk begrunnelse som knytter β2-adrenergisk signalisering til V2-reseptor-formidlet antidurese, hvis denne kandidaten skal forfølges videre
+- Hvis du forfølger «bronkial sykdom»-signalet i stedet, rammer om det som indikasjoneutvidelse/bekjeftelse av virkningsmekanisme i stedet for bruksomlegging, og innhent formell lokal regulatorisk indikasjonsbeskrivelse
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,108 +29,109 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Caplacizumab: From Anti-vWF Nanobody to Thrombotic Thrombocytopenic Purpura
+# Caplacizumab: Fra anti-vWF-nanobody til trombotisk trombocytopenisk purpura
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-Caplacizumab is a humanized, bivalent anti-von Willebrand factor (anti-vWF) nanobody approved in the US and EU for acquired thrombotic thrombocytopenic purpura (aTTP), but not yet registered in Norway.
-The TxGNN model predicts it may be effective for **Thrombotic Thrombocytopenic Purpura** (ranked 5th among 10 platelet-disorder predictions; TxGNN score 99.9965%), which is the most evidence-rich indication in this analysis, supported by **14 clinical trials** and **20 publications**.
-Of note, the top TxGNN prediction by score is *primary release disorder of platelets* (99.9998%), but no clinical or literature evidence currently supports that direction; TTP is selected as the primary focus of this report given its L1-level evidence and actionable recommendation.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | No approved indication in Norway (not yet marketed) |
-| Predicted New Indication (Primary Focus) | Thrombotic Thrombocytopenic Purpura (TTP) |
-| TxGNN Prediction Score | 99.9965% |
-| Evidence Level | L1 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Caplacizumab er en humanisert, bivalent anti-von Willebrand-faktor (anti-vWF) nanobody som er godkjent i USA og EU for ervervet trombotisk trombocytopenisk purpura (aTTP), men ennå ikke registrert i Norge.
+TxGNN-modellen forutsier at det kan være effektivt for **Trombotisk trombocytopenisk purpura** (rangert som nr. 5 blant 10 blodplatellforstyrrelsespredikasjoner; TxGNN-skår 99.9965%), som er den mest bevisrike indikasjonen i denne analysen, støttet av **14 kliniske studier** og **20 publikasjoner**.
+Det er verdt å merke at den øverste TxGNN-prediksjonen etter skår er *primær frigjøringsforstyrrelse av blodplater* (99.9998%), men ingen klinisk eller litteraturbevis støtter for tiden denne retningen; TTP er valgt som det primære fokus for denne rapporten gitt dens L1-nivåbevis og handlingskraftig anbefaling.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversikt
 
-Currently, formal mechanism of action data is not available in the local database (DrugBank query returned a data gap). However, based on information published in peer-reviewed literature, caplacizumab belongs to the nanobody class of biologics and binds specifically to the A1 domain of von Willebrand factor (vWF), competitively blocking the interaction between vWF ultra-large multimers and platelet glycoprotein Ib (GPIb). This prevents the initial platelet-adhesion step that triggers microvascular thrombosis under high shear conditions.
-
-In acquired TTP, an autoantibody-mediated severe deficiency of ADAMTS13 — the protease responsible for cleaving vWF — leads to accumulation of ultra-large vWF multimers in the circulation. These multimers spontaneously capture platelets via GPIb, forming widespread microvascular platelet-rich thrombi. The resulting clinical picture is microangiopathic hemolytic anemia, severe thrombocytopenia, and ischemic end-organ damage, with untreated mortality exceeding 90%. Caplacizumab's mechanism directly interrupts the most upstream pathological step in this cascade, making the mechanistic link to TTP extremely high.
-
-This prediction is strongly supported by regulatory precedent: the EMA granted approval in 2018 and the US FDA in 2019 for caplacizumab in adults with acquired TTP, based on the Phase 2 TITAN trial (NCT01151423) and the Phase 3 HERCULES trial (NCT02553317). More recently, emerging data suggest caplacizumab may enable TTP management without first-line therapeutic plasma exchange in selected patients, representing a significant shift in standard of care.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT01151423](https://clinicaltrials.gov/study/NCT01151423) | Phase 2 | Completed | 75 | TITAN trial: Single-blind, randomized, placebo-controlled RCT; caplacizumab as adjunct to plasma exchange in aTTP; established foundational efficacy and safety data |
-| [NCT02553317](https://clinicaltrials.gov/study/NCT02553317) | Phase 3 | Completed | 145 | HERCULES trial: Double-blind, placebo-controlled RCT; caplacizumab significantly reduced time to platelet normalization, TTP-related mortality, major thromboembolic events, and disease exacerbations |
-| [NCT05468320](https://clinicaltrials.gov/study/NCT05468320) | Phase 3 | Completed | 51 | Open-label, single-arm, multicenter Phase 3 study evaluating caplacizumab + immunosuppression without first-line therapeutic plasma exchange; primary endpoint: remission |
-| [NCT04074187](https://clinicaltrials.gov/study/NCT04074187) | Phase 2/3 | Completed | 21 | Japanese Phase 2/3 trial; evaluated prevention of aTTP recurrence and composite endpoints in Asian patients, supporting cross-ethnic applicability |
-| [NCT02878603](https://clinicaltrials.gov/study/NCT02878603) | Phase 3 | Completed | 104 | Post-HERCULES long-term follow-up study; assessed long-term safety, repeated-use efficacy, and characterization of aTTP outcomes beyond acute treatment |
-| [NCT05876221](https://clinicaltrials.gov/study/NCT05876221) | N/A | Completed | 223 | Large real-world observational study; evaluated platelet count dynamics under caplacizumab and its uncoupling from ADAMTS13 activity, identifying clinical implications for over- and under-treatment |
-| [NCT04985318](https://clinicaltrials.gov/study/NCT04985318) | N/A | Recruiting | 350 | REACT-2020: German national prospective real-world study; describes prescription practices, confirms efficacy, and identifies predictors of persistent autoimmune activity and complications in iTTP |
-| [NCT06291025](https://clinicaltrials.gov/study/NCT06291025) | N/A | Recruiting | 131 | Multicenter non-inferiority single-arm study exploring caplacizumab + immunosuppression + plasma infusion without therapeutic plasma exchange as an alternative treatment strategy |
-| [NCT06376786](https://clinicaltrials.gov/study/NCT06376786) | N/A | Recruiting | 132 | Italian iTTP prospective national registry; aims to define natural history, disease severity, and long-term clinical outcomes over up to 6 years of follow-up |
-| [NCT07205861](https://clinicaltrials.gov/study/NCT07205861) | N/A | Recruiting | 1,200 | TWI-LIGHT: Large-scale French retrospective epidemiological study (n=1,200) in the national TMA cohort; characterizes iTTP patient demographics, treatment patterns, and outcomes at a population level |
+| Punkt | Innhold |
+|-------|---------|
+| Opprinnelig indikasjon | Ingen godkjent indikasjon i Norge (ennå ikke markedsført) |
+| Forutsagt ny indikasjon (primært fokus) | Trombotisk trombocytopenisk purpura (TTP) |
+| TxGNN-prediksjonsscoring | 99.9965% |
+| Bevisnivå | L1 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Fortsett med sikkerhetstiltak |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen fornuftig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [30625070](https://pubmed.ncbi.nlm.nih.gov/30625070/) | 2019 | Phase 3 RCT | N Engl J Med | HERCULES trial: caplacizumab significantly reduced TTP-related deaths, recurrences, and major thromboembolic events; time to platelet count response was shorter vs placebo |
-| [26863353](https://pubmed.ncbi.nlm.nih.gov/26863353/) | 2016 | Phase 2 RCT | N Engl J Med | TITAN trial: anti-vWF nanobody reduced time to response and number of exacerbations; safety profile comparable to placebo in aTTP patients |
-| [32914526](https://pubmed.ncbi.nlm.nih.gov/32914526/) | 2020 | Clinical Guideline | J Thromb Haemost | ISTH guidelines for treatment of TTP; recommends caplacizumab as part of triple therapy (plasma exchange + immunosuppression + caplacizumab) |
-| [40533296](https://pubmed.ncbi.nlm.nih.gov/40533296/) | 2025 | Guideline Update | J Thromb Haemost | 2025 ISTH focused update: incorporates new evidence on both immune-mediated and congenital TTP; updates treatment algorithms based on post-caplacizumab era data |
-| [32914582](https://pubmed.ncbi.nlm.nih.gov/32914582/) | 2020 | Clinical Guideline | J Thromb Haemost | ISTH guidelines for diagnosis of TTP; standardizes ADAMTS13 testing and diagnostic criteria, underpinning evidence-based patient selection for caplacizumab |
-| [36053773](https://pubmed.ncbi.nlm.nih.gov/36053773/) | 2023 | Systematic Review & Meta-analysis | Blood Advances | Systematic review and meta-analysis combining RCT and real-world data; confirms faster platelet response and reduced adverse outcomes with caplacizumab added to standard of care |
-| [37045600](https://pubmed.ncbi.nlm.nih.gov/37045600/) | 2023 | Systematic Review | Expert Rev Hematol | Systematic review and meta-analysis of caplacizumab efficacy and safety across diverse patient populations; notes consistent benefit with manageable bleeding risk |
-| [40388146](https://pubmed.ncbi.nlm.nih.gov/40388146/) | 2025 | Review | JAMA | Current comprehensive review of iTTP: incidence (2–6 per million/year), pathophysiology, diagnostic criteria, and 2025 management recommendations including caplacizumab |
-| [34266669](https://pubmed.ncbi.nlm.nih.gov/34266669/) | 2022 | Expert Consensus | Medicina Clinica | Spanish national expert consensus for TTP diagnosis and treatment; endorses caplacizumab-based triple therapy and ADAMTS13-guided treatment duration |
-| [28416507](https://pubmed.ncbi.nlm.nih.gov/28416507/) | 2017 | Review | Blood | Foundational review of TTP pathophysiology; explains ADAMTS13 deficiency, ultra-large vWF multimer accumulation, and the mechanistic rationale for targeting vWF-GPIb interaction |
+For øyeblikket er formale data om virkningsmekanisme ikke tilgjengelige i den lokale databasen (DrugBank-spørring returnerte et datagap). Imidlertid, basert på informasjon publisert i fagfellevurdert litteratur, tilhører caplacizumab nanobody-klassen av biologics og binder seg spesifikt til A1-domenet til von Willebrand-faktor (vWF), og konkurrerer med blokkeringen av interaksjonen mellom vWF ultra-store multimerer og blodplatell glykoprotein Ib (GPIb). Dette forhindrer det første trinnet i blodplatell-adhesjon som utløser mikrovascular trombose under høye skjærkrefter.
+
+Ved ervervet TTP fører en autoantistoff-mediert alvorlig mangel på ADAMTS13 — proteaesen som er ansvarlig for å kløyve vWF — til akkumulering av ultra-store vWF-multimerer i sirkulasjonen. Disse multimererene fanger spontant blodplater via GPIb, og danner utbredte mikrovascular blodplatell-rike trombi. Det resulterende kliniske bildet er mikroangiopatisk hemolytisk anemi, alvorlig trombocytopeni og iskemisk skade på sluttorganer, med ubehandlet dødelighet over 90 %. Caplacizumabs mekanisme avbryter direkte det mest oppstrøms patologiske trinnet i denne kaskaden, noe som gjør den mekanistiske lenken til TTP ekstremt høy.
+
+Denne prediksjonen er sterkt støttet av regulatorisk presedens: EMA tildelte godkjenning i 2018 og US FDA i 2019 for caplacizumab hos voksne med ervervet TTP, basert på fase 2 TITAN-studien (NCT01151423) og fase 3 HERCULES-studien (NCT02553317). Nylig har nye data dukket opp som tyder på at caplacizumab kan muliggjøre TTP-håndtering uten førstelinjeterapeutisk plasmautveksling hos utvalgte pasienter, som representerer en betydelig endring i standard praksis.
 
 ---
 
-## Norway Market Information
+## Bevis fra kliniske studier
 
-Caplacizumab is currently not marketed in Norway and holds no registered marketing authorizations. There are no product licenses to display.
-
-> For reference: caplacizumab is commercially available as **Cablivi** (Sanofi/Ablynx) in the EU and the US, approved for adults with acquired TTP in combination with plasma exchange and immunosuppression.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Note for evaluators**: Based on caplacizumab's established pharmacological mechanism (inhibition of vWF-GPIb-mediated platelet adhesion), the following considerations are clinically relevant even in the absence of local safety data:
-> - **Bleeding risk**: Anti-platelet adhesion activity can increase hemorrhagic complications, particularly in patients with additional bleeding risk factors
-> - **Rebound thrombosis**: Premature discontinuation before ADAMTS13 activity recovery may trigger TTP exacerbation
-> - **Special populations**: Data in pediatric patients is limited (one retrospective study, n=4); pregnancy and lactation data are not available
+| Forsøksnummer | Fase | Status | Deltakerantall | Viktige funn |
+|---|---|---|---|---|
+| [NCT01151423](https://clinicaltrials.gov/study/NCT01151423) | Fase 2 | Fullført | 75 | TITAN-studie: Enkeltblindet, randomisert, placebokontrollert RCT; caplacizumab som tillegg til plasmautveksling ved aTTP; etablerte grunnleggende effektivitets- og sikkerhetdata |
+| [NCT02553317](https://clinicaltrials.gov/study/NCT02553317) | Fase 3 | Fullført | 145 | HERCULES-studie: Dobbeltblindet, placebokontrollert RCT; caplacizumab reduserte signifikant tiden til blodplatellnormalisering, TTP-relatert dødelighet, større tromboemboliske hendelser og sykdomsforverringer |
+| [NCT05468320](https://clinicaltrials.gov/study/NCT05468320) | Fase 3 | Fullført | 51 | Åpen-label, enarmig, flersenter fase 3-studie som evaluerer caplacizumab + immunosuppresjon uten førstelinjeterapeutisk plasmautveksling; primært endepunkt: remisjon |
+| [NCT04074187](https://clinicaltrials.gov/study/NCT04074187) | Fase 2/3 | Fullført | 21 | Japansk fase 2/3-studie; evaluerte forebygging av aTTP-gjentakelse og sammensatte endepunkter hos asiatiske pasienter, og støtter tverenetisk anvendelighet |
+| [NCT02878603](https://clinicaltrials.gov/study/NCT02878603) | Fase 3 | Fullført | 104 | Post-HERCULES-langtidsfølgstudium; evaluerte langtidssikkerhet, effektivitet ved gjentatt bruk og karakterisering av aTTP-resultater utover akutt behandling |
+| [NCT05876221](https://clinicaltrials.gov/study/NCT05876221) | N/A | Fullført | 223 | Stor virkelighetstudie; evaluerte blodplatelltellings-dynamikk under caplacizumab og dens avkobling fra ADAMTS13-aktivitet, og identifiserte kliniske implikasjoner for over- og underbehandling |
+| [NCT04985318](https://clinicaltrials.gov/study/NCT04985318) | N/A | Rekrutterer | 350 | REACT-2020: Tysk nasjonalt prospektiv virkelighetstudie; beskriver forskrivningspraksiser, bekrefter effektivitet og identifiserer prediktorer for vedvarende autoimmun aktivitet og komplikasjoner ved iTTP |
+| [NCT06291025](https://clinicaltrials.gov/study/NCT06291025) | N/A | Rekrutterer | 131 | Flersenter ikke-underlegen enarmig studie som utforsker caplacizumab + immunosuppresjon + plasminfusjon uten terapeutisk plasmautveksling som en alternativ behandlingsstrategi |
+| [NCT06376786](https://clinicaltrials.gov/study/NCT06376786) | N/A | Rekrutterer | 132 | Italiensk iTTP prospektiv nasjonalt register; har som mål å definere naturlig historie, sykdomsalvorlighet og langtidskliniske resultater over opptil 6 år med oppfølging |
+| [NCT07205861](https://clinicaltrials.gov/study/NCT07205861) | N/A | Rekrutterer | 1,200 | TWI-LIGHT: Stor fransk retrospektiv epidemiologisk studie (n=1,200) i det nasjonale TMA-kohorten; karakteriserer iTTP-pasientdemografi, behandlingsmønstre og resultater på populasjonsnivå |
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Proceed with Guardrails**
+| PMID | År | Type | Tidsskrift | Viktige funn |
+|------|-----|------|-----------|--------------|
+| [30625070](https://pubmed.ncbi.nlm.nih.gov/30625070/) | 2019 | Fase 3 RCT | N Engl J Med | HERCULES-studie: caplacizumab reduserte signifikant TTP-relatert død, gjentakelser og større tromboemboliske hendelser; tiden til blodplatelltellings-respons var kortere enn med placebo |
+| [26863353](https://pubmed.ncbi.nlm.nih.gov/26863353/) | 2016 | Fase 2 RCT | N Engl J Med | TITAN-studie: anti-vWF-nanobody reduserte tiden til respons og antall forverringer; sikkerhetsprofilen var sammenlignbar med placebo hos aTTP-pasienter |
+| [32914526](https://pubmed.ncbi.nlm.nih.gov/32914526/) | 2020 | Klinisk retningslinje | J Thromb Haemost | ISTH-retningslinjer for behandling av TTP; anbefaler caplacizumab som en del av trippelterapi (plasmautveksling + immunosuppresjon + caplacizumab) |
+| [40533296](https://pubmed.ncbi.nlm.nih.gov/40533296/) | 2025 | Retningslinjeoppdatering | J Thromb Haemost | 2025 ISTH fokusert oppdatering: inkorporerer nye bevis på både immun-medieret og medfødt TTP; oppdaterer behandlingsalgoritmer basert på post-caplacizumab-epoken-data |
+| [32914582](https://pubmed.ncbi.nlm.nih.gov/32914582/) | 2020 | Klinisk retningslinje | J Thromb Haemost | ISTH-retningslinjer for diagnose av TTP; standardiserer ADAMTS13-testing og diagnostiske kriterier, og støtter bevisbasert pasientseleksjon for caplacizumab |
+| [36053773](https://pubmed.ncbi.nlm.nih.gov/36053773/) | 2023 | Systematisk oversikt og metaanalyse | Blood Advances | Systematisk oversikt og metaanalyse som kombinerer RCT og virkelighetsdata; bekrefter raskere blodplatellrespons og reduserte uønskede resultater med caplacizumab lagt til standard praksis |
+| [37045600](https://pubmed.ncbi.nlm.nih.gov/37045600/) | 2023 | Systematisk oversikt | Expert Rev Hematol | Systematisk oversikt og metaanalyse av caplacizumab-effektivitet og sikkerhet på tvers av ulike pasientpopulasjoner; merker konsekvent fordel med håndterbar blødningsrisiko |
+| [40388146](https://pubmed.ncbi.nlm.nih.gov/40388146/) | 2025 | Oversikt | JAMA | Gjeldende omfattende oversikt av iTTP: forekomst (2–6 per million/år), patofysiologi, diagnostiske kriterier og 2025-behandlingsanbefalinger inkludert caplacizumab |
+| [34266669](https://pubmed.ncbi.nlm.nih.gov/34266669/) | 2022 | Ekspertskjønn | Medicina Clinica | Spansk nasjonalt ekspertskjønn for TTP-diagnose og behandling; godkjenner caplacizumab-basert trippelterapi og ADAMTS13-guidet behandlingsvarighet |
+| [28416507](https://pubmed.ncbi.nlm.nih.gov/28416507/) | 2017 | Oversikt | Blood | Grunnleggende oversikt over TTP-patofysiologi; forklarer ADAMTS13-mangel, ultra-store vWF-multimerer-akkumulering og den mekanistiske rasjonale for målretting mot vWF-GPIb-interaksjon |
 
-**Rationale:**
-Caplacizumab has L1-level evidence for acquired TTP, supported by two completed Phase 3 RCTs (HERCULES and a no-TPE Phase 3 study), an Asian-population Phase 2/3 trial, long-term follow-up data, and a rapidly growing body of real-world evidence across multiple countries. The mechanistic fit is extremely high — the drug's core mechanism directly addresses the primary pathological event in TTP. EMA and FDA approval provides additional regulatory validation, and the 2025 ISTH guideline update continues to endorse its use.
+---
 
-**To proceed, the following is needed:**
-- Formal marketing authorization application for Norway (EMA-approved dossier available as basis)
-- Mechanism of action documentation sourced from DrugBank or regulatory submission files
-- Local safety data: Norwegian-language package insert and pharmacovigilance plan
-- Drug-drug interaction assessment (current data gap)
-- Rare disease patient access pathway evaluation (TTP incidence ~2–6 per million/year)
-- Pharmacoeconomic analysis within the Norwegian healthcare reimbursement framework
-- Clarification of treatment pathway: whether first-line TPE-free strategy (NCT05468320) changes the required clinical infrastructure
+## Norsk markedsinformasjon
+
+Caplacizumab er for øyeblikket ikke markedsført i Norge og har ingen registrerte markedsføringstillatelser. Det finnes ingen produktgodkjenninger som skal vises fram.
+
+> For referanse: caplacizumab er kommersielt tilgjengelig som **Cablivi** (Sanofi/Ablynx) i EU og USA, godkjent for voksne med ervervet TTP i kombinasjon med plasmautveksling og immunosuppresjon.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+> **Merknad for evaluatorer**: Basert på caplacizumabs etablerte farmakologiske mekanisme (inhibisjon av vWF-GPIb-mediiert blodplatell-adhesjon), er følgende hensyn klinisk relevante selv i fravær av lokale sikkerhetdata:
+> - **Blødningsrisiko**: Anti-blodplatell-adhesjon-aktivitet kan øke blødningskomplikasjoner, spesielt hos pasienter med tilleggsblødningsrisikofaktorer
+> - **Rebound-trombose**: For tidlig avslutning før ADAMTS13-aktivitet-gjenoppretting kan utløse TTP-forverring
+> - **Spesielle populasjoner**: Data hos pediatriske pasienter er begrenset (én retrospektiv studie, n=4); data for graviditet og amming er ikke tilgjengelige
+
+---
+
+## Konklusjon og neste skritt
+
+**Beslutning: Fortsett med sikkerhetstiltak**
+
+**Begrunnelse:**
+Caplacizumab har L1-nivåbevis for ervervet TTP, støttet av to fullførte fase 3-RCTer (HERCULES og en no-TPE fase 3-studie), en asiatisk-populasjon fase 2/3-studie, langtidsfølgstudiedata og en raskt voksende kropp av virkelighetsdata på tvers av flere land. Det mekanistiske samsvar er ekstremt høyt — legemidlets kjernemekanisme adresserer direkte den primære patologiske hendelsen i TTP. EMA- og FDA-godkjenning gir ytterligere regulatorisk validering, og 2025 ISTH-retningslinjen fortsetter å godkjenne bruken.
+
+**For å fortsette er følgende nødvendig:**
+- Formell søknad om markedsføringstillatelse for Norge (EMA-godkjent dossiér tilgjengelig som grunnlag)
+- Dokumentasjon av virkningsmekanisme innhentet fra DrugBank eller regulatoriske innsendingsfiler
+- Lokale sikkerhetdata: norsk pakningsvedlegg og farmakovigilansplan
+- Vurdering av interaksjon mellom legemidler (gjeldende datagap)
+- Tilgangsveier for sjeldne sykdommer for pasienter (TTP-forekomst ~2–6 per million/år)
+- Farmakoøkonomisk analyse innen norsk helsevesens refusjonsramme
+- Avklaring av behandlingsvei: om førstelinjebehandling uten TPE (NCT05468320) endrer den nødvendige kliniske infrastrukturen
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

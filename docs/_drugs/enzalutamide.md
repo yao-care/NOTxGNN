@@ -29,72 +29,73 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Enzalutamide: From Castration-Resistant Prostate Cancer to Prostate Cancer/Brain Cancer Susceptibility
+# Enzalutamid: Fra kastrasjonsresistent prostatakreft til prostatakreft/hjernekreft-mottakelighet
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-Enzalutamide is a second-generation androgen receptor (AR) antagonist whose established use is castration-resistant prostate cancer (CRPC); this specific role is described in the evidence pack's mechanistic rationale even though formal license/MOA fields are marked as data gaps.
-The TxGNN model's top-ranked prediction for this drug is **prostate cancer/brain cancer susceptibility**, a genetic-susceptibility label rather than a defined disease entity.
-Currently **0 clinical trials** and **0 publications** support this specific prediction, and the model itself flags the score as likely a knowledge-graph co-occurrence artifact rather than a genuine mechanistic signal.
+Enzalutamid er en androgen-reseptor (AR) antagonist fra andre generasjon hvis etablerte indikasjon er kastrasjonsresistent prostatakreft (CRPC); denne spesifikke rollen er beskrevet i evidenspakkens mekanistiske begrunnelse selv om offisielle felter for lisens/MOA er merket som datakløfter.
+TxGNN-modellens høyest rangerte prediksjon for dette legemidlet er **prostatakreft/hjernekreft-mottakelighet**, en genetisk-mottakelighetsetikett snarere enn en definert sykdomsenhet.
+For øyeblikket **0 kliniske forsøk** og **0 publikasjoner** støtter denne spesifikke prediksjonen, og modellen selv flagger poengsummen som sannsynligvis et artefakt fra kunnskapsgrafs samforekomst snarere enn et genuint mekanistisk signal.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Castration-resistant prostate cancer (CRPC) — no Norway license text available; drug is a globally approved AR antagonist for this indication (per mechanistic rationale in evidence pack) |
-| Predicted New Indication | Prostate cancer/brain cancer susceptibility |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Kastrasjonsresistent prostatakreft (CRPC) — ingen norsk lisenstekst tilgjengelig; legemidlet er globalt godkjent AR-antagonist for denne indikasjonen (iht. mekanistisk begrunnelse i evidenspakke) |
+| Predikert ny indikasjon | Prostatakreft/hjernekreft-mottakelighet |
+| TxGNN-prediksjonsscore | 99.71% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-The evidence pack's `original_moa` field is marked as a data gap, but the mechanistic rationale attached to other candidates in the same pack confirms enzalutamide's known pharmacology: it is a second-generation AR antagonist that blocks testosterone/DHT binding to the androgen receptor and inhibits AR nuclear translocation and DNA binding — the mechanism underlying its established use in CRPC.
+Evidenspakkens `original_moa` felt er merket som en datakløft, men den mekanistiske begrunnelsen knyttet til andre kandidater i samme pakke bekrefter enzalutamids kjente farmakologi: det er en androgen-reseptor antagonist fra andre generasjon som blokkerer testosteron/DHT binding til androgen-reseptoren og hemmer AR nukleær translokalisering og DNA binding — mekanismen som ligger til grunn for dens etablerte bruk i CRPC.
 
-The top-ranked new label, "prostate cancer/brain cancer susceptibility," is not a distinct disease with a plausible AR-driven pathophysiology. It appears to be a genetic-predisposition tag that combines two loosely related conditions. The evidence pack's own rationale explicitly states this: the high TxGNN score likely stems from the knowledge graph's "prostate cancer" node co-occurring with the "brain cancer" node, rather than reflecting any real biological link to enzalutamide's AR-blocking mechanism.
+Den høyest rangerte nye etiketten, «prostatakreft/hjernekreft-mottakelighet,» er ikke en distinkt sykdom med en plausibel AR-drevet patofysiologi. Det ser ut til å være en genetisk-predisposisjon-etikett som kombinerer to løst relaterte tilstander. Evidenspakkens egen begrunnelse sier dette eksplisitt: den høye TxGNN-poengsummen stammer sannsynligvis fra at kunnskapsgrafen har «prostatakreft»-noden som forekommer sammen med «hjernekreft»-noden, snarere enn at den reflekterer noen reell biologisk forbindelse til enzalutamids AR-blokkerende mekanisme.
 
-Because there is no independent AR-pathway evidence for brain cancer susceptibility, and no clinical or literature data support this pairing, the mechanistic case for repurposing toward this label is weak. It should be treated as model noise pending further validation, not as a genuine repurposing hypothesis.
+Fordi det ikke finnes uavhengig AR-bane-bevis for hjernekreft-mottakelighet, og ingen klinisk eller litteraturdata støtter denne pairingen, er den mekanistiske saken for ombruk mot denne etiketten svak. Den bør behandles som modellstøy som venter på ytterligere validering, ikke som en genuint ombruk-hypotese.
 
-## Clinical Trial Evidence
+## Klinisk forsøks-bevis
 
-Currently no related clinical trials registered.
+For øyeblikket ingen relaterte kliniske forsøk registrert.
 
-## Literature Evidence
+## Litteratur-bevis
 
-Currently no related literature available.
+For øyeblikket ingen relatert litteratur tilgjengelig.
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Enzalutamide is currently **not marketed** in Norway (0 authorizations); no license, dosage form, or approved-indication data are available for this market.
+Enzalutamid er for øyeblikket **ikke markedsført** i Norge (0 godkjennelser); ingen lisens, doseringsform eller godkjent indikasjon data er tilgjengelig for dette markedet.
 
-## Cytotoxicity
+## Cytotoksisitet
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (androgen receptor signaling inhibitor) — not a conventional cytotoxic chemotherapy agent |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitet klassifisering | Målrettet terapi (hemmer av androgen-reseptor-signalering) — ikke et konvensjonelt cytotoksisk kjemoterapi-middel |
+| Myelosuppresjon risiko | Vennligst se pakningsvedleggets advarsler og forholdsregler |
+| Emetogenisitet klassifisering | Vennligst se pakningsvedleggets advarsler og forholdsregler |
+| Overvåkings elementer | Vennligst se pakningsvedleggets advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Vennligst se pakningsvedleggets advarsler og forholdsregler |
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information. (Note: TFDA/manufacturer warning and contraindication data are currently missing — flagged as a Blocking data gap that must be resolved before any safety pre-assessment can proceed.)
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Merk: TFDA/produsent advarsel og kontraindikasjon data mangler for øyeblikket — flagget som en blokkerende datakløft som må løses før noen sikkerhetspre-vurdering kan fortsette.)
 
-## Conclusion and Next Steps
+## Konklusjon og neste skritt
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-The top-ranked prediction ("prostate cancer/brain cancer susceptibility") has no supporting clinical trials or literature (Evidence Level L5), and its own mechanistic rationale identifies the score as a likely knowledge-graph artifact rather than a real AR-pathway-driven signal.
+**Begrunnelse:**
+Den høyest rangerte prediksjonen («prostatakreft/hjernekreft-mottakelighet») har ingen støttende kliniske forsøk eller litteratur (Bevisnivå L5), og dens egen mekanistiske begrunnelse identifiserer poengsummen som et sannsynlig kunnskapsgrafs-artefakt snarere enn et reelt AR-bane-drevet signal.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently a Blocking data gap
-- Formal MOA documentation from DrugBank — currently a High-severity data gap
-- Independent preclinical or clinical evidence linking AR antagonism to brain cancer susceptibility, if this candidate is to be pursued further
-- Consider re-scoping evaluation toward better-evidenced candidates already present in this dataset, e.g. "benign reproductive system neoplasm" (L4, Research Question) or the drug's own core CRPC indication (L1, though not a novel repurposing case)
+**For å fortsette, kreves følgende:**
+- TFDA pakningsvedlegg (advarsler/kontraindikasjoner) — for øyeblikket en blokkerende datakløft
+- Formell MOA dokumentasjon fra DrugBank — for øyeblikket en høy-alvorlighets datakløft
+- Uavhengig preklinisk eller klinisk bevis som knytter AR antagonisme til hjernekreft-mottakelighet, dersom denne kandidaten skal forfølges videre
+- Vurder omfangsendring av evalueringen mot bedre-evidensierte kandidater allerede til stede i dette datasettet, f.eks. «godartet neoplasi i reproduktivt system» (L4, Forskningsspørsmål) eller legemidlets egen kjerne CRPC-indikasjon (L1, selv om ikke en ny ombruk-sak)
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

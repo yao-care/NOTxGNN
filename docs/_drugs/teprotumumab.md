@@ -29,62 +29,63 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Teprotumumab: From Thyroid Eye Disease to Monosomy X
+# Teprotumumab: Fra tyroideaøyesykdom til Monosomi X
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-Teprotumumab is an IGF-1R antagonist known for treating thyroid eye disease (Graves' ophthalmopathy). The TxGNN model predicts it may be effective for **Monosomy X** (a Turner syndrome karyotype), but this is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack itself flags a potential mechanistic contradiction rather than a genuine pharmacological link.
+Teprotumumab er en IGF-1R-antagonist kjent for behandling av tyroideaøyesykdom (Graves' oftalmopati). TxGNN-modellen forutsier at det kan være effektivt for **Monosomi X** (en Turner-syndrom-karotype), men dette støttes for øyeblikket av **0 kliniske studier** og **0 publikasjoner**, og bevispakningen selv flagrer en potensiell mekanistisk motsetning snarere enn en genuin farmakologisk sammenheng.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Thyroid eye disease (Graves' ophthalmopathy) — inferred from the drug's known clinical use; no Norway regulatory license data is available |
-| Predicted New Indication | Monosomy X |
-| TxGNN Prediction Score | 99.79% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Tyroideaøyesykdom (Graves' oftalmopati) — utledet fra legemidlets kjente kliniske bruk; ingen regulatoriske lisensdata fra Norge er tilgjengelige |
+| Forutsagt ny indikasjon | Monosomi X |
+| TxGNN-prediksjonspoeng | 99.79% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen fornuftig?
 
-Currently, detailed mechanism of action data is not available in the source record (`original_moa: [Data Gap]`). Based on information embedded elsewhere in this evidence pack, teprotumumab is known to act as an **IGF-1R (insulin-like growth factor-1 receptor) antagonist**, used clinically to reduce orbital inflammation and fibrosis in thyroid eye disease.
+For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige i kildeposten (`original_moa: [Data Gap]`). Basert på informasjon inkorporert andre steder i denne bevispakningen, er teprotumumab kjent for å virke som en **IGF-1R-antagonist (insulin-lignende vekstfaktor-1-reseptorantagonist)**, brukt klinisk for å redusere orbitalinflammation og fibrose ved tyroideaøyesykdom.
 
-Monosomy X is a karyotype associated with Turner syndrome. Growth impairment in Turner syndrome is conventionally managed by **promoting** GH/IGF-1 signaling — the opposite pharmacological direction from teprotumumab's IGF-1R **blockade**. The evidence pack's own rationale explicitly notes this direction conflict and suggests the prediction more likely reflects a knowledge-graph proximity artifact (shared "IGF-1R" or "X-chromosome disorder" nodes) than a validated mechanistic relationship.
+Monosomi X er en karotype assosiert med Turner-syndrom. Veksthem i Turner-syndrom blir konvensjonelt behandlet ved å **fremme** GH/IGF-1-signalering — den motsatte farmakologiske retningen fra teprotumumabs IGF-1R-**blokade**. Bevispakningen's egen begrunnelse noterer eksplisitt denne retningskonflikten og antyder at prediksjonen mer sannsynlig reflekterer en knowledge-graph-nærhet-artefakt (delte "IGF-1R"- eller "X-kromosom-forstyrrelse"-noder) enn en validert mekanistisk sammenheng.
 
-Given this direct conflict between the drug's known pharmacology and the biological need of the predicted indication, and the complete absence of clinical or preclinical corroboration, this prediction should be treated as exploratory only, not as a credible repurposing lead at this stage.
+Gitt denne direkte konflikten mellom legemidlets kjente farmakologi og det biologiske behovet for den forutsagte indikasjonen, og det fullstendige fraværet av klinisk eller preklinisk korroborering, bør denne prediksjonen behandles som eksploratorisk kun, ikke som en troverdig reposisjoreringskandidat på dette stadiet.
 
-## Clinical Trial Evidence
+## Klinisk studiebevis
 
-Currently no related clinical trials registered
+For øyeblikket ingen relaterte kliniske studier registrert
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available
+For øyeblikket ingen relatert litteratur tilgjengelig
 
-## Norway Market Information
+## Markedsinformasjon fra Norge
 
-Teprotumumab is currently **not marketed** in Norway (0 authorizations on file; no license records available).
+Teprotumumab er for øyeblikket **ikke markedsført** i Norge (0 godkjennelser på register; ingen lisensposter tilgjengelige).
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-The top-ranked predicted indication (Monosomy X, part of the Turner syndrome spectrum) has zero clinical trial or literature support, and the pack's own mechanistic analysis suggests the drug's IGF-1R-blocking action may run counter to the growth-promotion need in this condition. Combined with the drug's non-marketed status in Norway, there is no basis to advance beyond hypothesis generation.
+**Begrunnelse:**
+Den øverst rangerte forutsagte indikasjonen (Monosomi X, del av Turner-syndrom-spekteret) har null klinisk studie- eller litteraturstøtte, og pakningen's egen mekanistiske analyse antyder at legemidlets IGF-1R-blokkeringshandling kan gå imot behovet for vekstfremmelse i denne tilstanden. Kombinert med legemidlets ikke-markedsførte status i Norge, er det ingen grunnlag for å gå videre enn hypotesegenerering.
 
-**To proceed, the following is needed:**
-- Confirmed MOA and original indication data (currently `[Data Gap]`) from DrugBank/manufacturer sources
-- Preclinical or mechanistic studies clarifying any plausible role of IGF-1R modulation in Turner syndrome/monosomy X biology
-- TFDA-equivalent safety data — warnings, contraindications, and DDI (currently all `[Data Gap]` or not found)
-- Any emerging clinical case reports or trials before re-evaluating this candidate
+**For å fortsette, trengs følgende:**
+- Bekreftet MOA- og opprinnelige indikasjondata (for øyeblikket `[Data Gap]`) fra DrugBank/produsent-kilder
+- Prekliniske eller mekanistiske studier som klargjør enhver plausibel rolle for IGF-1R-modulering i Turner-syndrom/monosomi X-biologi
+- TFDA-tilsvarende sikkerhetsdata — advarsler, kontraindikasjoner og DDI (for øyeblikket alle `[Data Gap]` eller ikke funnet)
+- Eventuelle nye kliniske kasuistikker eller studier før re-evaluering av denne kandidaten
 
-*Note: This evidence pack contains 9 additional candidate indications (rank 2–10, including esophageal varices, mixed gonadal dysgenesis, and related X-chromosome/vascular conditions), all scored L5/Hold with no supporting trials or literature and similarly weak or unresolved mechanistic rationale. None currently warrant progression.*
+*Merk: Denne bevispakningen inneholder 9 ytterligere kandidatindikasjoner (rang 2–10, inkludert esophagusvariser, blandet gonadal dysgenesis og relaterte X-kromosom/vaskulære tilstander), alle vurdert som L5/Avvent uten støtte fra forsøk eller litteratur og med tilsvarende svak eller uløst mekanistisk begrunnelse. Ingen av disse anbefales for øyeblikket for progresjon.*
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

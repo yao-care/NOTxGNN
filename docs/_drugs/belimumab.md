@@ -29,82 +29,83 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Belimumab: From Systemic Lupus Erythematosus to Primary Release Disorder of Platelets
+# Belimumab: Fra systemisk lupus erythematosus til primær frigjøringsforstyrrelse av blodplater
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Belimumab is a monoclonal antibody targeting BAFF/BLyS, known to be approved for systemic lupus erythematosus (SLE), though detailed regulatory and mechanism-of-action data for this evidence pack are currently unavailable.
-> The TxGNN model predicts it may be effective for **Primary Release Disorder of Platelets**,
-> but this direction is currently supported by **0 relevant clinical trials** and **0 publications** — the one linked trial concerns an unrelated disease entity.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Systemic Lupus Erythematosus (SLE) — based on known clinical use; not confirmed by regulatory data in this pack |
-| Predicted New Indication | Primary Release Disorder of Platelets |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L5 (model prediction only; no supportive clinical or literature evidence) |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Belimumab er et monoklonalt antistoff som retter seg mot BAFF/BLyS, kjent for å være godkjent for systemisk lupus erythematosus (SLE), selv om detaljerte regulatoriske og virkningsmekanisme-data for denne evidenspakken for øyeblikket ikke er tilgjengelige.
+> TxGNN-modellen forutser at det kan være effektivt for **Primær frigjøringsforstyrrelse av blodplater**,
+> men denne retningen støttes for øyeblikket av **0 relevante kliniske forsøk** og **0 publikasjoner** — det ene koblede forsøket gjelder en urelatert sykdomsenhet.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available for belimumab in this evidence pack (marked as a High-severity data gap). Based on known information, belimumab is a monoclonal antibody that inhibits BAFF/BLyS, thereby suppressing B-cell survival and reducing autoantibody production — a mechanism consistent with its established use in autoimmune conditions such as SLE.
-
-Primary release disorder of platelets, however, is an intrinsic platelet granule secretion defect and is not a B-cell– or autoantibody-mediated disease. There is no established biological pathway connecting BAFF inhibition to correction of platelet granule release function. The single clinical trial linked to this prediction (NCT01610492) actually studied idiopathic membranous glomerulonephropathy — a completely different disease entity — and was flagged as a disease-entity mismatch, not genuine supporting evidence.
-
-Given the absence of a plausible mechanistic link and the lack of any on-target clinical or literature evidence, this top-ranked TxGNN prediction should be treated as a low-confidence, algorithm-only signal at this stage.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Systemisk lupus erythematosus (SLE) — basert på kjent klinisk bruk; ikke bekreftet av regulatoriske data i denne pakken |
+| Forutsagt ny indikasjon | Primær frigjøringsforstyrrelse av blodplater |
+| TxGNN-prediksjonscore | 99.96% |
+| Evidensnivå | L5 (kun modellpreduksjon; ingen støttende klinisk eller litteraturbevis) |
+| Norges markedsstatus | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt vedtak | Hold |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+For øyeblikket er detaljerte virkningsmekanisme-data for belimumab ikke tilgjengelige i denne evidenspakken (merket som en datakløft med høy alvorlighetsgrad). Basert på kjent informasjon er belimumab et monoklonalt antistoff som hemmer BAFF/BLyS, og undertrykker dermed B-cellenes overlevelse og reduserer produksjonen av autoantistoffer — en mekanisme som er konsistent med dens etablerte bruk i autoimmun tilstander som SLE.
+
+Primær frigjøringsforstyrrelse av blodplater er imidlertid en iboende feil i blodplategranulutskilning og er ikke en B-celle- eller autoantistoff-mediiert sykdom. Det er ingen etablert biologisk sti som forbinder BAFF-hemming til korreksjon av blodplates frigjørings-funksjon. Det ene kliniske forsøket som er knyttet til denne prediksjonen (NCT01610492) studerte faktisk idiopatisk membranøs glomerulonefritt — en helt annen sykdomsenhet — og ble flagget som en sykdomsenhet-uoverensstemmelse, ikke ekte støttende bevis.
+
+Gitt mangelen på en plausibel mekanistisk forbindelse og fraværet av noe på-target klinisk eller litteraturbevis, bør denne topprangerte TxGNN-prediksjonen behandles som et signal med lav tillit, kun algoritme, på dette stadiet.
+
+---
+
+## Bevis fra kliniske forsøk
+
+| Forsøksnummer | Fase | Status | Innrulling | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT01610492](https://clinicaltrials.gov/study/NCT01610492) | Phase 2 | Completed | 14 | Mechanistic study of belimumab in idiopathic membranous glomerulonephropathy — **disease entity mismatch**, not related to platelet release disorder; does not constitute supporting evidence |
+| [NCT01610492](https://clinicaltrials.gov/study/NCT01610492) | Fase 2 | Avsluttet | 14 | Mekanistisk studie av belimumab i idiopatisk membranøs glomerulonefritt — **sykdomsenhet-uoverensstemmelse**, ikke relatert til primær frigjøringsforstyrrelse av blodplater; utgjør ikke støttende bevis |
 
-No clinical trials directly targeting primary release disorder of platelets were identified.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+Ingen kliniske forsøk som direkte retter seg mot primær frigjøringsforstyrrelse av blodplater ble identifisert.
 
 ---
 
-## Norway Market Information
+## Litteraturbevis
 
-Belimumab currently holds no marketing authorizations in Norway (market status: Not marketed; total authorizations: 0).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/Norway label warnings and contraindications are marked as a Blocking data gap in this evidence pack and could not be retrieved for this evaluation.)*
+For øyeblikket er ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Norges markedsinformasjon
 
-**Decision: Hold**
+Belimumab har for øyeblikket ingen markedsføringsautorisasjoner i Norge (markedsstatus: Ikke markedsført; totalt antall autorisasjoner: 0).
 
-**Rationale:**
-The top-ranked predicted indication (primary release disorder of platelets) lacks a plausible mechanistic connection to belimumab's known BAFF-inhibition pathway, and has no supporting clinical trial or literature evidence — the only linked trial addresses an unrelated disease. Combined with a Blocking data gap on regulatory safety information (DG001), this candidate cannot proceed past S0.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Norway package insert data (warnings, contraindications) — required before any S1 safety screening (DG001, Blocking)
-- Confirmed mechanism of action and approved indication data from DrugBank (DG002, High)
-- Disease-entity-matched clinical trials or literature specifically studying belimumab in platelet release/granule disorders
-- If pursuing alternative candidates, rank 4 (fetal and neonatal alloimmune thrombocytopenia) shows relatively stronger mechanistic plausibility (B-cell/alloantibody-mediated pathology) and may warrant reprioritization, though it also currently lacks any clinical or literature evidence
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+*(Merk: TFDA/Norges etikettadvarsler og kontraindikasjoner er merket som en blokkerende datakløft i denne evidenspakken og kunne ikke hentes for denne evalueringen.)*
+
+---
+
+## Konklusjon og neste trinn
+
+**Vedtak: Hold**
+
+**Begrunnelse:**
+Den topprangerte forutsatte indikasjonen (primær frigjøringsforstyrrelse av blodplater) mangler en plausibel mekanistisk forbindelse til belimumabs kjente BAFF-hemnings-sti, og har ingen støttende klinisk forsøks- eller litteraturbevis — det eneste koblede forsøket omhandler en urelatert sykdom. Kombinert med en blokkerende datakløft på regulatoriske sikkerhetsopplysninger (DG001), kan denne kandidaten ikke gå videre forbi S0.
+
+**For å gå videre, kreves følgende:**
+- TFDA/Norges pakningsvedleggsdata (advarsler, kontraindikasjoner) — nødvendig før noe S1 sikkerhetskontroll (DG001, blokkering)
+- Bekreftet virkningsmekanisme og godkjent indikasjonsdata fra DrugBank (DG002, høy)
+- Sykdomsenhet-matchende kliniske forsøk eller litteratur som spesifikt studerer belimumab i blodplates frigjørings-/granulutskilnings-forstyrrelse
+- Hvis man forfølger alternative kandidater, rangering 4 (fetal og neonatal alloimun trombocytopeni) viser relativt sterkere mekanistisk plausibilitet (B-celle/alloantistoff-mediiert patologi) og kan forsvare ompriorisering, selv om det også for øyeblikket mangler noe klinisk eller litteraturbevis
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

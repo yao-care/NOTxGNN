@@ -29,78 +29,79 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Bezlotoxumab: From Clostridioides difficile Infection Recurrence Prevention to Acute Female Pelvic Peritonitis
+# Bezlotoxumab: Fra prevensjon av tilbakefallende *Clostridioides difficile*-infeksjon til akutt kvinnelig bekkenperitonitt
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-> Bezlotoxumab is a monoclonal antibody used to prevent recurrence of *Clostridioides difficile* infection (CDI) by neutralizing toxin B.
-> The TxGNN model predicts it may be effective for **Acute Female Pelvic Peritonitis**,
-> but currently **no clinical trials** and **no publications** support this direction, and no plausible mechanistic link has been identified.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available (no approved indication data on file) |
-| Predicted New Indication | Acute Female Pelvic Peritonitis |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 |
-| Norway Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Bezlotoxumab er et monoklonalt antistoff som brukes til å forhindre tilbakefall av *Clostridioides difficile*-infeksjon (CDI) ved å nøytralisere toksin B.
+> TxGNN-modellen forutsier at det kan være effektivt for **Akutt kvinnelig bekkenperitonitt**,
+> men foreløpig **ingen kliniske forsøk** og **ingen publikasjoner** støtter denne retningen, og ingen plausibel mekanistisk sammenheng er blitt identifisert.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Raskt oversikt
 
-Currently, detailed mechanism of action data is not available. Based on known information, bezlotoxumab is a fully human monoclonal antibody that binds and neutralizes *Clostridioides difficile* toxin B, and it is used to reduce recurrence of CDI in patients receiving antibacterial therapy for the infection. It has no known broad-spectrum antimicrobial, anti-inflammatory, or immunomodulatory activity beyond this specific toxin-neutralizing function.
-
-Acute female pelvic peritonitis is typically caused by mixed aerobic/anaerobic bacterial infection ascending from the female genital tract (e.g., pelvic inflammatory disease), and its pathophysiology does not involve *C. difficile* toxin B or any known target of bezlotoxumab. According to the evidence pack's own mechanistic assessment, this is a high-scoring TxGNN prediction with **no identified pathophysiological connection** to the drug's actual mechanism, and is considered likely model noise rather than a biologically grounded hypothesis.
-
-This pattern repeats across all ten predicted indications in this evidence pack (ectopic pregnancies, structural gynecological lesions, lumbar spinal stenosis, vascular malformations, etc.) — none share a plausible mechanistic rationale with toxin B neutralization, and none are supported by any clinical trial or literature evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Ikke tilgjengelig (ingen godkjent indikasjondata på fil) |
+| Forutsagt ny indikasjon | Akutt kvinnelig bekkenperitonitt |
+| TxGNN-prediksjonspoeng | 99.89% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | Ikke markedsført (Ikke markedsført) |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available
+Detaljert data om virkningsmekanismen er foreløpig ikke tilgjengelig. Basert på kjent informasjon er bezlotoxumab et fullt humant monoklonalt antistoff som binder og nøytraliserer *Clostridioides difficile* toksin B, og det brukes til å redusere tilbakefall av CDI hos pasienter som får antibakteriell terapi for infeksjonen. Det har ingen kjent bred-spektrum antimikrobiell, anti-inflammatorisk eller immunmodulatorisk aktivitet utover denne spesifikke toksin-nøytraliseringsfunksjonen.
 
----
+Akutt kvinnelig bekkenperitonitt er vanligvis forårsaket av blandet aerob/anaerob bakteriinfeksjon fra de kvinnelige kjønnsorganene (f.eks. bekkeninflammasjon), og dens patofysiologi innebærer ikke *C. difficile* toksin B eller noen kjent target av bezlotoxumab. I henhold til denne bevissamlingens egen mekanistiske vurdering er dette en høy-scoret TxGNN-prediksjon uten **identifisert patofysiologisk forbindelse** til stoffets faktiske virkningsmekanisme, og anses som sannsynlig modellstøy snarere enn en biologisk begrunnet hypotese.
 
-## Norway Market Information
-
-Bezlotoxumab is not currently marketed in Norway (0 authorizations on file). No product/license data available.
+Dette mønsteret gjentar seg over alle ti forutsagte indikasjoner i denne bevissamlingen (ektopiske svangerskap, strukturelle gynekologiske lesioner, lumbal spinalkanalstenose, vaskulære misdannelser, osv.) — ingen deler en plausibel mekanistisk begrunnelse med toksin B-nøytralisering, og ingen støttes av noen klinisk forsøk eller litteraturbevis.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøk
 
-Please refer to the package insert for safety information.
-
-*(Note: Two blocking/high-severity data gaps exist — TFDA label warnings/contraindications and detailed MOA — which must be resolved before any safety evaluation (S1 stage) can proceed.)*
+Foreløpig ingen relaterte kliniske forsøk registrert
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Foreløpig ingen relatert litteratur tilgjengelig
 
-**Rationale:**
-The predicted indication has no mechanistic plausibility, no clinical trial evidence, and no literature support (Evidence Level L5 — model prediction only). The drug itself is not marketed in this jurisdiction, and critical safety data (label warnings, contraindications) and MOA details are missing, blocking further evaluation.
+---
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings and contraindications) — currently a **Blocking** data gap
-- Confirmed mechanism of action detail from DrugBank or primary literature — currently a **High** severity data gap
-- Independent biological rationale connecting toxin B neutralization to female pelvic peritonitis pathophysiology, if this candidate is to be pursued further
-- Given the absence of any supporting evidence across all 10 ranked predictions in this pack, consider deprioritizing this drug-indication set entirely rather than investing further curation effort
+## Markedsinformasjon for Norge
+
+Bezlotoxumab er ikke for tiden markedsført i Norge (0 autorisasjoner på fil). Ingen produkt-/lisensdata tilgjengelig.
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+*(Merk: To blokkerende/høy-alvorlighets-datakløfter finnes — TFDA etikettvarsler/kontraindikasjoner og detaljert MOA — som må løses før noen sikkerhetsevaluering (S1-fase) kan fortsette.)*
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Den forutsagte indikasjonen har ingen mekanistisk plausibilitet, ingen bevis fra kliniske forsøk, og ingen litteraturstøtte (Bevisnivå L5 — bare modellprediksjon). Stoffet selv er ikke markedsført i denne jurisdiksjonen, og kritiske sikkerheetsdata (etikettvarsler, kontraindikasjoner) og MOA-detaljer mangler, noe som blokkerer videre evaluering.
+
+**For å fortsette, trengs følgende:**
+- TFDA/produsentens pakningsvedlegg (varsler og kontraindikasjoner) — foreløpig en **Blokkerende** datakløft
+- Bekreftet detalj om virkningsmekanismen fra DrugBank eller primærlitteratur — foreløpig en **Høy alvorlighets** datakløft
+- Uavhengig biologisk begrunnelse som forbinder toksin B-nøytralisering til patofysiologien av kvinnelig bekkenperitonitt, hvis denne kandidaten skal forfølges videre
+- Gitt fraværet av støttende bevis over alle 10 rangerte prediksjoner i denne pakken, vurder å deprioritere dette legemiddel-indikasjonssett helt i stedet for å investere videre kurateringsinnsats
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

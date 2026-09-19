@@ -29,77 +29,76 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-Using no additional skill — this is a direct content-generation task with an explicit, fully-specified output format, not a coding/debugging/build task.
+# Lomitapid: Fra homozygot familiekolesterolemi til makrotrombocytopeni med mitralinsuffisiens
 
-# Lomitapide: From Homozygous Familial Hypercholesterolemia to Macrothrombocytopenia with Mitral Valve Insufficiency
+## Sammenfattelse på én setning
 
-## One-Sentence Summary
-
-> Lomitapide is a microsomal triglyceride transfer protein (MTP) inhibitor already approved abroad for **homozygous familial hypercholesterolemia (HoFH)** — though this original indication is missing from the structured drug record and only surfaces indirectly in the evidence pack's literature.
-> The TxGNN model's top-ranked new prediction is **macrothrombocytopenia with mitral valve insufficiency**, a rare inherited platelet disorder.
-> This prediction is supported by **zero clinical trials and zero publications** — it is a pure model score with no mechanistic rationale.
+> Lomitapid er en mikrosomal trigliseridtransferprotein-hemmer (MTP-hemmer) som allerede er godkjent i utlandet for **homozygot familiekolesterolemi (HoFH)** — selv om denne opprinnelige indikasjonen mangler fra den strukturerte legemiddeloppføringen og bare dukker opp indirekte i litteraturen i bevissamlingen.
+> TxGNN-modellens høyest rangerte nye prediksjonsresultat er **makrotrombocytopeni med mitralinsuffisiens**, en sjelden nedarvet blodplattlidelse.
+> Denne prediksjonen støttes av **null kliniske forsøk og null publikasjoner** — det er en ren modellscore uten mekanistisk begrunnelse.
 
 ---
 
-## Quick Overview
+## Hurtigoversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not present in structured data (`original_indications` is empty). Homozygous Familial Hypercholesterolemia (HoFH) is inferable from the literature/trial evidence attached to a *different* ranked entry (see note below), but is not confirmed in the drug record. |
-| Predicted New Indication | Macrothrombocytopenia with mitral valve insufficiency |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism-of-action data is officially flagged as a data gap (DG002) in this evidence pack. Based on information surfacing elsewhere in the pack, lomitapide is known to act as an **MTP inhibitor**, blocking hepatic and intestinal apoB-lipoprotein assembly to lower LDL-C/VLDL — the basis of its established use in severe hypercholesterolemia.
-
-For the top-ranked predicted indication, macrothrombocytopenia with mitral valve insufficiency, the evidence pack's own rationale is explicit: *"an extremely rare hereditary disorder with no known pathological link to MTP inhibition. This is purely a graph neural network prediction score, unsupported by any mechanism, trial, or literature."* There is no plausible pharmacological bridge between apoB/lipoprotein assembly inhibition and inherited platelet/valvular pathology. The high TxGNN score likely reflects an indirect graph association (e.g., shared lipid-metabolism nodes) rather than a genuine biological signal.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke tilstede i strukturerte data (`original_indications` er tom). Homozygot familiekolesterolemi (HoFH) kan utledes fra litteraturen/forsøksbeviser knyttet til en *annen* rangert oppføring (se merknad nedenfor), men er ikke bekreftet i legemiddeloppføringen. |
+| Forutsagt ny indikasjon | Makrotrombocytopeni med mitralinsuffisiens |
+| TxGNN-prediksjonscore | 99.92% |
+| Bevisnivå | L5 (modellprediksjon kun, ingen støttende studier) |
+| Taiwans markedsstatus | Ikke markedsført (Ikke markedsført) |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | **Hold** |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related clinical trials registered.
+Detaljerte data om virkningsmekanisme er offisielt flagget som datakløft (DG002) i denne bevissamlingen. Basert på informasjon som dukker opp andre steder i bevissamlingen, er lomitapid kjent for å virke som en **MTP-hemmer** som blokkerer hepatisk og intestinal apoB-lipoproteinsyntese for å senke LDL-C/VLDL — grunnlaget for dets etablerte bruk ved alvorlig hyperkolesterolemi.
 
----
-
-## Literature Evidence
-
-Currently no related literature available.
+For den høyest rangerte forutsagte indikasjonen, makrotrombocytopeni med mitralinsuffisiens, er bevissamlingens eget begrunnelse eksplisitt: *"en ekstremt sjelden nedarvet lidelse uten kjent patologisk forbindelse til MTP-hemming. Dette er rent en graf nevralt nettverk-prediksjonscore, uten støtte fra mekanisme, forsøk eller litteratur."* Det finnes ingen plausibel farmakologisk forbindelse mellom apoB/lipoproteinsyntesehemming og nedarvet blodplatt-/klappepatologi. Den høye TxGNN-scoren gjenspeiler sannsynligvis en indirekte grafassosasjon (f.eks. delte lipidstoffskifte-noder) snarere enn et genuint biologisk signal.
 
 ---
 
-## Taiwan Market Information
+## Bevis fra kliniske forsøk
 
-Lomitapide is **not currently marketed in Taiwan** (0 authorizations, 0 licenses on record). No product/dosage form/indication data is available to tabulate.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (TFDA label warnings/contraindications are flagged as a **Blocking** data gap — DG001 — and must be obtained before any S1 safety evaluation can proceed.)
+For tiden er ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra litteratur
 
-**Decision: Hold**
+For tiden er ingen relatert litteratur tilgjengelig.
 
-**Rationale:**
-The top-ranked predicted indication (macrothrombocytopenia with mitral valve insufficiency) has no clinical trials, no literature, and no plausible mechanistic link — evidence level L5, decision stage S0. There is no basis to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- TFDA label (warnings/contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action and original approved indication(s) for lomitapide — currently missing from the drug record (DG002)
-- Re-evaluation of ranks 2–8 and 10 in this same prediction set, all of which are likewise L5/Hold with no supporting evidence
+## Taiwans markedsinformasjon
 
-**⚠️ Data quality note (important for upstream correction):** Rank 9 in this same prediction batch, *hyperlipoproteinemia*, carries strong evidence (12 clinical trials including multiple completed Phase 3 studies, 19 publications) and is the only L1/S3 entry in the set. However, its own rationale flags that this is very likely **not a novel repurposing signal** — it corresponds to lomitapide's already-approved indication (HoFH, marketed as Juxtapid/Lojuxta, FDA-approved 2012), miscategorized as "new" only because the `original_indications` field is empty. This should be corrected at the data source before the candidate is scored again, to avoid conflating "confirmed original indication" with "repurposing discovery" in future reports.
+Lomitapid er **for tiden ikke markedsført i Taiwan** (0 godkjennelser, 0 lisenser på register). Ingen produkt-/doserings-/indikasjonsdata er tilgjengelig for tabulering.
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsopplysninger. (TFDA-merking advarsler/kontraindikasjoner er flagget som en **blokkering** datakløft — DG001 — og må innhentes før S1 sikkerhetsverifisering kan iverksettes.)
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Den høyest rangerte forutsagte indikasjonen (makrotrombocytopeni med mitralinsuffisiens) har ingen kliniske forsøk, ingen litteratur og ingen plausibel mekanistisk forbindelse — bevisnivå L5, beslutningsstadium S0. Det er intet grunnlag for å fremme denne kandidaten.
+
+**For å gå videre er følgende nødvendig:**
+- TFDA-merking (advarsler/kontraindikasjoner) — for tiden en blokkering datakløft (DG001)
+- Bekreftet virkningsmekanisme og opprinnelige godkjente indikasjoner for lomitapid — for tiden mangler fra legemiddeloppføringen (DG002)
+- Ny vurdering av rangering 2–8 og 10 i det samme prediksjonssettet, som alle på samme måte er L5/Hold uten støttende bevis
+
+**⚠️ Datakvalitetsmerknad (viktig for oppstrøms korreksjon):** Rangering 9 i dette samme prediksjonspartiet, *hyperlipoproteinemi*, bærer sterkt bevis (12 kliniske forsøk inkludert flere fullførte fase-3-studier, 19 publikasjoner) og er den eneste L1/S3-oppføring i settet. Imidlertid flagger dens egen begrunnelse at dette meget sannsynlig **ikke er et nytt omdisponerings-signal** — det tilsvarer lomitapids allerede godkjente indikasjon (HoFH, markedsført som Juxtapid/Lojuxta, FDA-godkjent 2012), feilkategorisert som "ny" kun fordi `original_indications`-feltet er tomt. Dette bør korrigeres på datakilde før kandidaten blir evaluert på nytt, for å unngå å blande "bekreftet opprinnelig indikasjon" med "omdisponerings-oppdagelse" i fremtidige rapporter.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,97 +29,98 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Elbasvir: From Hepatitis C Virus Infection to Hepatitis B Virus Infection
+# Elbasvir: Fra hepatitt C-virusineksjon til hepatitt B-virusineksjon
 
-## One-Sentence Summary
+## Sammendrag på én setning
 
-Elbasvir is an NS5A inhibitor originally developed as a component of the fixed-dose combination Zepatier® (elbasvir/grazoprevir) for chronic hepatitis C virus (HCV) infection. The TxGNN model's top prediction suggests possible efficacy against **Hepatitis B virus infection**, but this is supported by **0 HBV-specific clinical trials** and **essentially no HBV-specific literature** — the underlying evidence base consists entirely of HCV trials and reviews, with the model's own rationale flagging the connection as likely a knowledge-graph artifact rather than a real pharmacological link.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Chronic hepatitis C virus (HCV) infection (as NS5A-inhibitor component of the grazoprevir/elbasvir combination, Zepatier®) |
-| Predicted New Indication | Hepatitis B virus infection |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Elbasvir er en NS5A-hemmer som opprinnelig ble utviklet som komponent i fastdosiskombinasjon Zepatier® (elbasvir/grazoprevir) for kronisk hepatitt C-virusineksjon (HCV). TxGNN-modellens toppprediksjon foreslår mulig effekt mot **hepatitt B-virusineksjon**, men dette støttes av **0 HBV-spesifikke kliniske studier** og **praktisk talt ingen HBV-spesifikk litteratur** — kunnskapsgrunnlaget består helt og fullt av HCV-studier og oversiktsartikler, og modellens egen begrunnelse flagrer forbindelsen som sannsynligvis en kunnskapsgrafartefakt snarere enn en riktig farmakologisk sammenheng.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Elbasvir is a hepatitis C virus (HCV)-specific NS5A protein inhibitor that acts on the Hepacivirus replication complex. Its efficacy has been extensively demonstrated in combination with the NS3/4A protease inhibitor grazoprevir for HCV genotypes 1, 4, and 6, including in cirrhotic, HIV-coinfected, renally impaired, and transplant populations.
-
-Hepatitis B virus (HBV), however, belongs to the Hepadnaviridae family and replicates via a reverse transcriptase mechanism entirely distinct from HCV's RNA-dependent RNA polymerase / NS5A-based replication complex. HBV does not express an NS5A homolog, so there is no known direct molecular target overlap between elbasvir's mechanism of action and HBV biology.
-
-The evidence pack's own repurposing rationale is explicit on this point: the high TxGNN score most likely reflects semantic proximity of "viral hepatitis" as a disease category within the knowledge graph, rather than a genuine pharmacological signal. This is corroborated by the fact that all associated clinical trials and literature in the evidence pack pertain to HCV (and its comorbidities — HIV, chronic kidney disease, transplantation), with no experimental or clinical data testing elbasvir against HBV. Notably, the remaining 9 TxGNN candidates for this drug (hepatitis E, hepatitis A, animal viral hepatitis, Omsk hemorrhagic fever, Kyasanur forest disease, HIV, feline AIDS, SIV, and an unrelated neurodevelopmental disorder) show comparably weak or absent mechanistic support, suggesting the model's overall prediction set for elbasvir clusters around a "viral/hepatitis" semantic neighborhood rather than validated drug-target biology.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Kronisk hepatitt C-virusineksjon (som NS5A-hemmende komponent i kombinasjonen grazoprevir/elbasvir, Zepatier®) |
+| Forutsagt ny indikasjon | Hepatitt B-virusineksjon |
+| TxGNN-prediksjonspoeng | 99.71% |
+| Bevisnivå | L4 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-*(Extracted from the top-ranked candidate: Hepatitis B virus infection — note: all trials below studied elbasvir for HCV, not HBV; none directly test HBV efficacy)*
+Elbasvir er en hepatitt C-virus (HCV)-spesifikk NS5A-proteinhemmer som virker på Hepacivirus-replikasjonskompleksen. Dens effektivitet er blitt grundig demonstrert i kombinasjon med NS3/4A-proteasehemmeren grazoprevir for HCV-genotyper 1, 4 og 6, inkludert i sirrotiske, HIV-koinfiserte, nyresvikt og transplantasjonsbefolkninger.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Hepatitt B-virus (HBV) tilhører imidlertid Hepadnaviridae-familien og replikeres via en revers-transkriptase-mekanisme som er helt forskjellig fra HCVs RNA-avhengige RNA-polymerase / NS5A-baserte replikasjonskompleks. HBV uttrykker ikke en NS5A-homolog, så det er ingen kjent direkte molekylær målgenovergang mellom elbasvirs virkningsmekanisme og HBV-biologi.
+
+Bevisskyttelens egen begrunnelse for omformål er eksplisitt på dette punktet: den høye TxGNN-poengsum reflekterer sannsynligvis semantisk nærhet til "virushepatitt" som en sykdomskategori innenfor kunnskapsgrafen, snarere enn et ekte farmakologisk signal. Dette bekreftes av at alle tilknyttede kliniske studier og litteratur i bevisskytellen gjelder HCV (og dens sameksisterende tilstander — HIV, kronisk nyreavstand, transplantasjon), uten noen eksperimentelle eller kliniske data som tester elbasvir mot HBV. Spesielt bemerkelsesverdige er de resterende 9 TxGNN-kandidatene for dette stoffet (hepatitt E, hepatitt A, dyreviralt hepatitt, Omsk hemorhagisk feber, Kyasanur-skogssykdom, HIV, felint AIDS, SIV og en urelatert nevrutviklingsforstyrrelse) som viser sammenlignbar svak eller fraværende mekanistisk støtte, noe som antyder at modellens generelle prediksjonsset for elbasvir grupperer seg rundt et "virus/hepatitt" semantisk nabolag snarere enn validert drug-target-biologi.
+
+---
+
+## Klinisk studiebevis
+
+*(Hentet fra topprankede kandidat: Hepatitt B-virusineksjon — merk: alle studier under studerte elbasvir for HCV, ikke HBV; ingen tester direkte HBV-effektivitet)*
+
+| Studie nummer | Fase | Status | Antall deltakere | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT02332720](https://clinicaltrials.gov/study/NCT02332720) | Phase 2 | Completed | 413 | Grazoprevir + uprifosbuvir with elbasvir or ruzasvir ± ribavirin in chronic HCV GT3/4/5/6; graded "C" — HCV population, not HBV |
-| [NCT03423641](https://clinicaltrials.gov/study/NCT03423641) | N/A | Completed | 33,808 | Real-world safety comparison of DAA-treated vs. untreated HCV patients; no HBV arm |
-| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Phase 4 | Completed | 87 | Cardiovascular risk outcomes after HCV eradication in HIV/HCV coinfection; not HBV-related |
-| [NCT01532973](https://clinicaltrials.gov/study/NCT01532973) | Phase 1 | Completed | 48 | PK/PD study of elbasvir monotherapy in HCV-infected males (GT1/GT3); no HBV cohort |
-| [NCT02105688](https://clinicaltrials.gov/study/NCT02105688) | Phase 3 | Completed | 301 | Grazoprevir/elbasvir in treatment-naïve HCV GT1/4/6 on opiate substitution therapy; graded "C" — HCV only |
-| [NCT03797066](https://clinicaltrials.gov/study/NCT03797066) | Phase 4 | Terminated | 13 | Point-of-care test-and-treat with grazoprevir/elbasvir in homeless HCV GT1/4 population |
-| [NCT02332707](https://clinicaltrials.gov/study/NCT02332707) | Phase 2 | Completed | 443 | Grazoprevir/uprifosbuvir with elbasvir or ruzasvir in HCV GT1/2 |
-| [NCT02600325](https://clinicaltrials.gov/study/NCT02600325) | Phase 3 | Completed | 80 | Grazoprevir/elbasvir for acute HCV GT1/4 in HIV-positive patients (DAHHS-2); graded "C" — HCV only |
-| [NCT01717326](https://clinicaltrials.gov/study/NCT01717326) | Phase 2 | Completed | 573 | Grazoprevir/elbasvir ± ribavirin, SVR12 as primary endpoint in chronic HCV |
-| [NCT01932762](https://clinicaltrials.gov/study/NCT01932762) | Phase 2 | Completed | 98 | Grazoprevir ± elbasvir ± ribavirin in treatment-naïve HCV GT2/4/5/6 |
+| [NCT02332720](https://clinicaltrials.gov/study/NCT02332720) | Fase 2 | Fullført | 413 | Grazoprevir + uprifosbuvir med elbasvir eller ruzasvir ± ribavirin i kronisk HCV GT3/4/5/6; vurdert som "C" — HCV-populasjon, ikke HBV |
+| [NCT03423641](https://clinicaltrials.gov/study/NCT03423641) | N/A | Fullført | 33,808 | Reell verden sikkerhetsammenligning av DAA-behandlede vs. ubehandlede HCV-pasienter; ingen HBV-arm |
+| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Fase 4 | Fullført | 87 | Kardiovaskulær risiko etter HCV-utrydding i HIV/HCV-koinfeksjon; ikke HBV-relatert |
+| [NCT01532973](https://clinicaltrials.gov/study/NCT01532973) | Fase 1 | Fullført | 48 | PK/PD-studie av elbasvir-monoterapi i HCV-infiserte menn (GT1/GT3); ingen HBV-kohort |
+| [NCT02105688](https://clinicaltrials.gov/study/NCT02105688) | Fase 3 | Fullført | 301 | Grazoprevir/elbasvir hos behandlingsnaive HCV GT1/4/6 på opioidsubstitusjonsbehandling; vurdert som "C" — bare HCV |
+| [NCT03797066](https://clinicaltrials.gov/study/NCT03797066) | Fase 4 | Terminert | 13 | Punkt-of-care test-og-behandling med grazoprevir/elbasvir i hjemløs HCV GT1/4-populasjon |
+| [NCT02332707](https://clinicaltrials.gov/study/NCT02332707) | Fase 2 | Fullført | 443 | Grazoprevir/uprifosbuvir med elbasvir eller ruzasvir i HCV GT1/2 |
+| [NCT02600325](https://clinicaltrials.gov/study/NCT02600325) | Fase 3 | Fullført | 80 | Grazoprevir/elbasvir for akutt HCV GT1/4 i HIV-positive pasienter (DAHHS-2); vurdert som "C" — bare HCV |
+| [NCT01717326](https://clinicaltrials.gov/study/NCT01717326) | Fase 2 | Fullført | 573 | Grazoprevir/elbasvir ± ribavirin, SVR12 som primært endepunkt i kronisk HCV |
+| [NCT01932762](https://clinicaltrials.gov/study/NCT01932762) | Fase 2 | Fullført | 98 | Grazoprevir ± elbasvir ± ribavirin i behandlingsnaive HCV GT2/4/5/6 |
 
-**None of the listed trials enrolled HBV-infected patients or tested elbasvir's antiviral activity against HBV.**
+**Ingen av de listede studiene inkluderte HBV-infiserte pasienter eller testet elbasvirs antivirale aktivitet mot HBV.**
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [25529080](https://pubmed.ncbi.nlm.nih.gov/25529080/) | 2015 | Review | Liver International | Discusses progress toward HCV eradication and HBV "functional cure" strategies as parallel but mechanistically distinct goals; does not propose elbasvir for HBV |
-| [41734217](https://pubmed.ncbi.nlm.nih.gov/41734217/) | 2025 | Review | Klinicka mikrobiologie a infekcni lekarstvi | Retrospective review of antiviral treatment patterns for chronic HBV and HCV in children (Ostrava); covers standard-of-care agents, not elbasvir-specific HBV data |
-| [26904396](https://pubmed.ncbi.nlm.nih.gov/26904396/) | 2016 | Review (pending classification) | Acta Pharmaceutica Sinica B | Explicitly distinguishes HCV (curable, DAA-targetable via NS3/4A, NS5B, NS5A) from HBV and HIV, which lack these same druggable targets — directly supports the mechanistic implausibility noted above |
-| [32039536](https://pubmed.ncbi.nlm.nih.gov/32039536/) | 2020 | pending | Journal of Viral Hepatitis | Real-world Taiwan cohort on liver/renal adverse effects of elbasvir/grazoprevir in HCV GT1 patients; safety data only, no HBV relevance |
-| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | pending | Clinical Pharmacokinetics | 2019 update on HCV DAA pharmacokinetics/pharmacodynamics, including elbasvir/grazoprevir; HCV-focused |
+| [25529080](https://pubmed.ncbi.nlm.nih.gov/25529080/) | 2015 | Oversikt | Liver International | Diskuterer fremgang mot HCV-utrydding og HBV "funksjonell helbredelse" strategier som parallelle men mekanistisk forskjellige mål; foreslår ikke elbasvir for HBV |
+| [41734217](https://pubmed.ncbi.nlm.nih.gov/41734217/) | 2025 | Oversikt | Klinicka mikrobiologie a infekcni lekarstvi | Retrospektiv gjennomgang av antivirale behandlingsmønstre for kronisk HBV og HCV hos barn (Ostrava); dekker standard omsorgsagenter, ikke elbasvir-spesifikke HBV-data |
+| [26904396](https://pubmed.ncbi.nlm.nih.gov/26904396/) | 2016 | Oversikt (avventer klassifisering) | Acta Pharmaceutica Sinica B | Skiller eksplisitt HCV (helbar, DAA-målbar via NS3/4A, NS5B, NS5A) fra HBV og HIV, som mangler de samme druggable målene — støtter direkte den mekanistiske implausibiliteten nevnt ovenfor |
+| [32039536](https://pubmed.ncbi.nlm.nih.gov/32039536/) | 2020 | avventer | Journal of Viral Hepatitis | Virkelighet verden Taiwan-kohort på lever-/nyrebiverkningstolerans av elbasvir/grazoprevir i HCV GT1-pasienter; bare sikkerhetdata, ingen HBV-relevans |
+| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | avventer | Clinical Pharmacokinetics | 2019 oppdatering på HCV DAA farmakokinetikk/farmakodynamikk, inkludert elbasvir/grazoprevir; HCV-fokusert |
 
-**No literature reports elbasvir efficacy, in vitro activity, or clinical experience specifically against HBV.**
-
----
-
-## Norway Market Information
-
-No marketing authorizations are currently registered in Norway. The drug (elbasvir, DrugBank ID DB11574) has a market status of "Not Marketed" with 0 total licenses on file.
+**Ingen litteratur rapporterer elbasvir-effektivitet, in vitro-aktivitet eller klinisk erfaring spesifikt mot HBV.**
 
 ---
 
-## Safety Considerations
+## Markedsinformasjon for Norge
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are currently unavailable — DDI query returned no results, and TFDA/label warning data collection is flagged as a blocking data gap pending PDF label retrieval and parsing.)
+Ingen markedsgodkjenninger er for tiden registrert i Norge. Legemidlet (elbasvir, DrugBank ID DB11574) har markedsstatus "Ikke markedsført" med 0 totale lisenser på fil.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og legemiddelinteraksjondata er for tiden utilgjengelige — DDI-søk returnerte ingen resultater, og TFDA/etikett-advarselsdatasamling er flagret som en blokkerende datakløft som avventer PDF-etikett-uthenting og analyse.)
 
-**Rationale:**
-Elbasvir's mechanism (HCV-specific NS5A inhibition of the Hepacivirus replication complex) has no known target overlap with HBV, which replicates via a distinct reverse-transcriptase-dependent pathway. All available clinical trial and literature evidence in the pack concerns HCV (and its comorbidities), with zero direct evidence — clinical, in vitro, or mechanistic — of anti-HBV activity. The remaining 9 TxGNN candidates for this drug show similarly weak or non-existent support, suggesting the prediction set reflects knowledge-graph clustering around "viral hepatitis" rather than validated pharmacology.
+---
 
-**To proceed, the following is needed:**
-- Formal MOA and drug classification data from DrugBank (currently a High-severity data gap, DG002)
-- TFDA/Norwegian label warnings and contraindications (currently a Blocking data gap, DG001), required before any S1 safety screening
-- In vitro or preclinical evidence of elbasvir activity against HBV replication (e.g., HBV cell culture or animal model data) before further evidence escalation is warranted
-- If no such preclinical signal emerges, this candidate should be deprioritized in favor of ranks with stronger mechanistic plausibility
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Elbasvirs mekanisme (HCV-spesifikk NS5A-hemming av Hepacivirus-replikasjonskompleksen) har ingen kjent målgenovergang med HBV, som replikeres via en distinkt revers-transkriptase-avhengig vei. All tilgjengelig klinisk studie- og litteraturbevis i pakken gjelder HCV (og dets sameksisterende tilstander), med null direkte bevis — klinisk, in vitro eller mekanistisk — av anti-HBV-aktivitet. De resterende 9 TxGNN-kandidatene for dette stoffet viser lignende svak eller ikke-eksisterende støtte, noe som antyder at prediksjonssettet reflekterer kunnskapsgrafiklustering rundt "virushepatitt" snarere enn validert farmakologi.
+
+**For å gå videre er følgende nødvendig:**
+- Formell MOA- og legemiddelklassifiseringsdata fra DrugBank (for tiden en alvorlig datakløft, DG002)
+- TFDA/norske etikettadvarsler og kontraindikasjoner (for tiden en blokkerende datakløft, DG001), påkrevd før noen S1-sikkerhetssikting
+- In vitro eller preklinisk bevis for elbasvir-aktivitet mot HBV-replikasjon (f.eks. HBV-cellekulturell eller dyremodelldata) før videre eskalering av bevis er berettiget
+- Hvis ingen slik preklinisk signal dukker opp, bør denne kandidaten deprioriteres til fordel for rangeringer med sterkere mekanistisk troverdighet
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,86 +29,87 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Nelarabine: From T-cell Acute Lymphoblastic Leukemia to Relapsing-Remitting Multiple Sclerosis
+# Nelarabine: Fra T-celle akutt lymfoblastisk leukemi til tilbakevendende-remitterende multippel sklerose
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-Nelarabine is a purine nucleoside analog chemotherapy agent originally developed for relapsed/refractory T-cell acute lymphoblastic leukemia and T-cell lymphoblastic lymphoma. The TxGNN model predicts it may be effective for **relapsing-remitting multiple sclerosis**, but this prediction is currently supported by **no registered clinical trials** and **no published literature** — it rests on the model score alone.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | T-cell acute lymphoblastic leukemia (T-ALL) / T-cell lymphoblastic lymphoma (T-LBL) *(general background knowledge — not present in the Norway license data, as the drug is not marketed there)* |
-| Predicted New Indication | Relapsing-remitting multiple sclerosis |
-| TxGNN Prediction Score | 99.43% |
-| Evidence Level | L5 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Nelarabine er en purinukleosidanaloga kjemoterapiagent opprinnelig utviklet for tilbakefalt/refraktær T-celle akutt lymfoblastisk leukemi og T-celle lymfoblastisk lymfom. TxGNN-modellen forutsier at det kan være effektivt for **tilbakevendende-remitterende multippel sklerose**, men denne prediksjonen er for tiden støttet av **ingen registrerte kliniske forsøk** og **ingen publisert litteratur** — det hviler kun på modellskåren alene.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on general background knowledge, nelarabine is a prodrug of 9-β-D-arabinofuranosylguanine (ara-G), a purine nucleoside analog that is selectively phosphorylated and accumulates in T-lymphoblasts, causing DNA-strand breaks and cell death. Its clinical efficacy in T-ALL/T-LBL is well established, but this mechanism is directed at proliferating malignant T-cells rather than the autoimmune/neuroinflammatory processes underlying multiple sclerosis.
-
-There is no direct mechanistic or clinical rationale in the evidence pack linking nelarabine's cytotoxic, T-cell-depleting activity to relapsing-remitting MS. While selective T-cell cytotoxicity is a shared theme with some MS immunomodulators (e.g., cladribine, another purine analog approved for MS), nelarabine's known neurotoxicity profile is a significant concern for use in a neurological disease population. This prediction should be treated as a model-generated hypothesis requiring substantial mechanistic and preclinical validation before further consideration.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | T-celle akutt lymfoblastisk leukemi (T-ALL) / T-celle lymfoblastisk lymfom (T-LBL) *(generell bakgrunnsinformasjon — ikke tilstede i Norges lisensdatai, da medikamentet ikke er markedsført der)* |
+| Forutsagt ny indikasjon | Tilbakevendende-remitterende multippel sklerose |
+| TxGNN prediksjonspoengsum | 99.43% |
+| Bevisnivå | L5 |
+| Norges markedsstatus | Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Norway Market Information
+## Hvorfor er denne prediksjonen fornuftig?
 
-Nelarabine currently has no marketing authorization in Norway (0 licenses on record); no product or indication data is available for this market.
+For tiden er detaljerte mekanismedata ikke tilgjengelige i bevisematerialet. Basert på generell bakgrunnsinformasjon er nelarabine en prodrug av 9-β-D-arabinofuranosylguanin (ara-G), en purinukleosidanaloga som blir selektivt fosforyert og akkumuleres i T-lymfoblaster, som forårsaker DNA-strandbrudd og celledød. Dets kliniske effektivitet i T-ALL/T-LBL er godt etablert, men denne mekanismen er rettet mot prolifererende maligne T-celler i stedet for de autoimmune/nevroinflammatoriske prosessene som ligger til grunn for multippel sklerose.
 
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (purine nucleoside analog / antimetabolite — prodrug of ara-G) |
-| Myelosuppression Risk | High — neutropenia, thrombocytopenia, and anemia are commonly reported; nelarabine also carries a distinct risk of severe neurotoxicity (peripheral neuropathy, somnolence, seizures) |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | CBC with differential, neurological status assessment (due to neurotoxicity risk), liver and renal function |
-| Handling Protection | Must follow cytotoxic/hazardous drug handling regulations (USP <800> or equivalent) |
-
-*Note: The above is based on general pharmacological knowledge of nelarabine, as no drug-specific toxicity data was provided in this evidence pack (see Data Gap DG002).*
+Det er ingen direkte mekanistisk eller klinisk begrunnelse i bevisematerialet som knytter nelarabines cytotoksiske, T-celle-depletørende aktivitet til tilbakevendende-remitterende MS. Mens selektiv T-celle cytotoksisitet er et delt tema med noen MS-immunmodulatorer (f.eks. cladribine, en annen purinanaloga godkjent for MS), er nelarabines kjente neurotoksisitetsprofil en betydelig bekymring for bruk i en nevrologisk sykdomspopulasjon. Denne prediksjonen bør behandles som en modellgenerert hypotese som krever betydelig mekanistisk og preklinisk validering før videre vurdering.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøksbevis
 
-Please refer to the package insert for safety information.
+For tiden er ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For tiden er ingen relatert litteratur tilgjengelig.
 
-**Rationale:**
-The prediction is supported only by a TxGNN model score (L5), with zero clinical trials or literature evidence, no MOA data, no Norway market presence, and unresolved safety data gaps (including TFDA-equivalent labeling, a Blocking-severity gap). There is currently no basis to move this candidate forward.
+---
 
-**To proceed, the following is needed:**
-- Mechanism of action data to assess plausibility for a neuroinflammatory indication (DG002)
-- Official warnings/contraindications/label data (DG001, Blocking)
-- Any preclinical or exploratory clinical evidence linking nelarabine to MS or related autoimmune neurological conditions
-- Confirmation of original indication and regulatory status from a validated source
+## Norges markedsinformasjon
+
+Nelarabine har for tiden ingen markedsføringstillatelse i Norge (0 lisenserregistrert); ingen produkt- eller indikasjondata er tilgjengelige for dette markedet.
+
+---
+
+## Cytotoksisitet
+
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitetsklassifisering | Konvensjonell cytotoksisk (purinukleosidanaloga / antimetabolitt — prodrug av ara-G) |
+| Myelosuppresjonrisiko | Høy — nøytropeni, trombocytopeni og anemi blir vanligvis rapportert; nelarabine har også en distinkt risiko for alvorlig neurotoksisitet (perifer neuropati, søvnighet, anfall) |
+| Emetogenitetsklassifisering | Lav til moderat |
+| Overvåkingspunkter | CBC med differensial, nevrologisk statusvurdering (på grunn av neurotoksisitetsrisiko), lever- og nyrefunksjon |
+| Håndteringsvern | Må følge regulering for håndtering av cytotoksiske/farlige legemidler (USP <800> eller tilsvarende) |
+
+*Merk: Det ovennevnte er basert på generell farmakologisk kunnskap om nelarabine, da ingen legemiddelspesifikke toksisitetsdata ble gitt i dette bevisematerialet (se Datakløft DG002).*
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Prediksjonen er støttet kun av en TxGNN modellpoengsum (L5), med null kliniske forsøk eller litteraturbevis, ingen MOA-data, ingen markedstilstedeværelse i Norge, og uløste sikkerhetsdataklofter (inkludert TFDA-ekvivalent merking, en kloft av Blocking-alvorlighetsgrad). Det er for tiden ingen basis for å bevege denne kandidaten fremover.
+
+**For å gå videre, følgende er nødvendig:**
+- Mekanismedata for å vurdere sannsynlighet for en nevroinflammatorisk indikasjon (DG002)
+- Offisielle advarsler/kontraindikasjoner/etikettdata (DG001, Blocking)
+- Eventuell preklinisk eller utforskende klinisk bevis som knytter nelarabine til MS eller relaterte autoimmune nevrologiske tilstander
+- Bekreftelse av opprinnelig indikasjon og regulatorisk status fra en validert kilde
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

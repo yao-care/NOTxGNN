@@ -29,91 +29,92 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Ponatinib: From Unspecified Original Indication to Gingival Fibromatosis
+# Ponatinib: Fra uavklart opprinnelig indikasjon til Gingival Fibromatose
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Ponatinib's original approved indication and mechanism of action are not available in the current data set (both flagged as data gaps).
-> The TxGNN model predicts it may be effective for **Gingival Fibromatosis**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — evidence level L5 (model prediction only).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available (no license or indication data on file) |
-| Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.04% |
-| Evidence Level | L5 |
-| Norway Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Ponatinibs opprinnelige godkjent indikasjon og virkningsmekanisme er ikke tilgjengelige i det nåværende datasettet (begge flagget som datahull).
+> TxGNN-modellen predikerer at det kan være effektivt for **Gingival Fibromatose**,
+> men denne prediksjonen støttes for tiden av **0 kliniske forsøk** og **0 publikasjoner** — bevisnivå L5 (kun modellpreduksjon).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data for ponatinib is not on file (flagged as a High-severity data gap). However, the evidence pack's own repurposing rationale identifies ponatinib as a multi-kinase inhibitor targeting BCR-ABL, FGFR, PDGFR, VEGFR, KIT, and SRC — consistent with its known class as a tyrosine kinase inhibitor.
-
-Gingival fibromatosis is mechanistically linked to SOS1/PDGFR signaling and fibroblast overproliferation. Since ponatinib inhibits PDGFR, there is a theoretical basis for suppressing fibroblast proliferation. However, this link is derived purely from the TxGNN score — there is no supporting mechanistic literature, preclinical data, or clinical evidence, and because the original indication data is entirely missing, no credible pharmacological analogy can be drawn between the original and predicted indications.
-
-Given the very weak evidentiary basis (score-only prediction, TxGNN rank 9202 — far outside typical high-confidence ranges), this prediction should be treated as exploratory only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke tilgjengelig (ingen lisens- eller indikasjonsdata i arkiv) |
+| Predikert ny indikasjon | Fibromatose, gingival |
+| TxGNN-prediksjonspoengsum | 99.04% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+For tiden er detaljerte virkningsmekanisme-data for ponatinib ikke registrert (flagget som et høytsvært datahull). Imidlertid identifiserer bevissakens egen repurposing-rasjonale ponatinib som en multi-kinase-hemmer som retter seg mot BCR-ABL, FGFR, PDGFR, VEGFR, KIT og SRC — konsistent med dens kjente klasse som en tyrosin-kinase-hemmer.
 
----
+Gingival fibromatose er mekanistisk knyttet til SOS1/PDGFR-signalering og fibroblast-overproliferasjon. Siden ponatinib hemmer PDGFR, finnes det et teoretisk grunnlag for å undertrykke fibroblast-proliferasjon. Imidlertid er denne koblingen avledet rent fra TxGNN-poengsum — det finnes ingen støttende mekanistisk litteratur, prekliniske data eller kliniske bevis, og fordi de opprinnelige indikasjonsdata mangler helt, kan det ikke trekkes noen troverdig farmakologisk analogi mellom de opprinnelige og predikerte indikasjonene.
 
-## Norway Market Information
-
-Ponatinib is currently **not marketed** and holds **0 authorizations**, so no license/product table is available.
+Gitt det svært svake evidentiargrunnlaget (kun-score-preduksjon, TxGNN-rangering 9202 — langt utenfor typiske høykonfidens-områder), bør denne prediksjonen behandles som kun utforskende.
 
 ---
 
-## Cytotoxicity
+## Klinisk forsøksbevis
 
-Ponatinib's repurposing rationale identifies it as a multi-kinase inhibitor (BCR-ABL/FGFR/PDGFR/VEGFR/KIT/SRC), consistent with a targeted antineoplastic therapy class, so this section is included for completeness.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-kinase inhibitor: BCR-ABL/FGFR/PDGFR/VEGFR/KIT/SRC) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+For tiden ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information. (Regulatory label warnings, contraindications, and DDI data are currently a **blocking** data gap — see DG001.)
+For tiden ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformasjon for Norge
 
-**Decision: Hold**
+Ponatinib er for tiden **ikke markedsført** og har **0 godkjennelser**, så ingen lisens-/produkttabell er tilgjengelig.
 
-**Rationale:**
-The top prediction (gingival fibromatosis) is supported only by the TxGNN score, with no clinical trials or literature (L5) and a low prediction rank (9202), and both original-indication and MOA data are missing — insufficient basis to advance. A secondary candidate in the same evidence pack, **liposarcoma** (score 99.00%, rank 9484), has one preclinical kinase-screening publication (PMID [29132397](https://pubmed.ncbi.nlm.nih.gov/29132397/), L4) suggesting a theoretical kinase-pathway overlap, but it does not test ponatinib directly and is also rated Hold.
+---
 
-**To proceed, the following is needed:**
-- TFDA/label warnings and contraindications for ponatinib (DG001, blocking)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Original indication and regulatory history for ponatinib
-- Mechanistic or preclinical studies directly testing ponatinib in gingival fibromatosis or liposarcoma
-- If pursuing the liposarcoma signal, targeted validation of ponatinib (not general kinase inhibitors) against liposarcoma cell lines
+## Cytotoksisitet
+
+Ponatinibs repurposing-rasjonale identifiserer den som en multi-kinase-hemmer (BCR-ABL/FGFR/PDGFR/VEGFR/KIT/SRC), konsistent med en målrettet antineoplastisk terapi-klasse, så denne delen er inkludert for fullstendighet.
+
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitetsklassifisering | Målrettet terapi (multi-kinase-hemmer: BCR-ABL/FGFR/PDGFR/VEGFR/KIT/SRC) |
+| Risiko for myelosuppresjon | Vennligst se pakningsvedlegget for advarsler og forholdsregler |
+| Emetogenisitetsklassifisering | Vennligst se pakningsvedlegget for advarsler og forholdsregler |
+| Overvåkingselementer | Vennligst se pakningsvedlegget for advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Vennligst se pakningsvedlegget for advarsler og forholdsregler |
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Regulatory label-advarsler, kontraindikasjoner og DDI-data er for tiden et **blokkerende** datahull — se DG001.)
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Hold**
+
+**Rasjonale:**
+Den beste prediksjonen (gingival fibromatose) støttes kun av TxGNN-poengsum, uten kliniske forsøk eller litteratur (L5) og en lav prediksjonsrangering (9202), og både opprinnelig-indikasjon og MOA-data mangler — utilstrekkelig grunnlag for å gå videre. En sekundær kandidat i samme bevissakk, **liposarkom** (poengsum 99.00%, rangering 9484), har en preklinisk kinase-screeningpublikasjon (PMID [29132397](https://pubmed.ncbi.nlm.nih.gov/29132397/), L4) som antyder en teoretisk kinase-veioverlapning, men den tester ikke ponatinib direkte og er også vurdert til Hold.
+
+**For å gå videre, er følgende nødvendig:**
+- TFDA/label-advarsler og kontraindikasjoner for ponatinib (DG001, blokkering)
+- Bekreftet virkningsmekanisme-data fra DrugBank (DG002)
+- Opprinnelig indikasjon og regulatorisk historie for ponatinib
+- Mekanistiske eller prekliniske studier som direkte tester ponatinib ved gingival fibromatose eller liposarkom
+- Hvis liposarkom-signalet følges opp, målrettet validering av ponatinib (ikke generelle kinase-hemmere) mot liposarkom-cellelinjer
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

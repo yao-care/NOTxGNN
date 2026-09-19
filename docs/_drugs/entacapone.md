@@ -29,76 +29,75 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Entacapone: From Parkinson's Disease to PLA2G6-Associated Neurodegeneration
+# Entacapone: Fra Parkinsons sykdom til PLA2G6-assosiiert nevrodegenerasjon
 
-## One-Sentence Summary
+## Sammenfattelse i en setning
 
-Entacapone is a COMT inhibitor used as an adjunct to levodopa/carbidopa therapy in Parkinson's disease, extending dopamine precursor availability.
-The TxGNN model predicts it may be effective for **PLA2G6-Associated Neurodegeneration**,
-but currently **no clinical trials** and **no publications** support this specific prediction.
+Entacapone er en COMT-inhibitor brukt som supplement til levodopa/carbidopa-terapi ved Parkinsons sykdom, som forlenger dopaminprekursorens tilgjengelighet. TxGNN-modellen forutsier at det kan være effektivt for **PLA2G6-assosiiert nevrodegenerasjon**, men for øyeblikket **ingen kliniske studier** og **ingen publikasjoner** støtter denne spesifikke forutsigelsen.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Parkinson's disease (adjunct to levodopa therapy) — inferred from repurposing rationale text; no formal indication text or MOA data provided in this evidence pack |
-| Predicted New Indication | PLA2G6-Associated Neurodegeneration |
-| TxGNN Prediction Score | 99.76% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available (Data Gap DG002). Based on information present elsewhere in this evidence pack, entacapone is known as a COMT inhibitor co-administered with levodopa in Parkinson's disease, prolonging levodopa's central availability. Its efficacy in Parkinson's disease is well established.
-
-For the top-ranked prediction, PLA2G6-Associated Neurodegeneration, the evidence pack provides **no mechanistic rationale text, no clinical trials, and no literature**. This is unusual compared to lower-ranked predictions in the same batch (e.g., rank 4 "juvenile parkinsonism of Hunt" and rank 7 "Lewy body dementia"), which do include reasoned mechanistic links to dopaminergic pathways. Without any supporting rationale or evidence, this top-ranked prediction should be treated as an unvalidated model output rather than a scientifically substantiated hypothesis — despite carrying the highest TxGNN score in this batch.
-
-Notably, two other candidates in this same prediction set — **Lewy body dementia** (rank 7) and **progressive supranuclear palsy-corticobasal syndrome** (rank 10) — have documented literature and/or clinical trial signals tied to dopaminergic mechanisms shared with Parkinson's disease. These may warrant prioritization over PLA2G6-Associated Neurodegeneration for further evaluation.
+| Emne | Innhold |
+|------|---------|
+| Opprinnelig indikasjon | Parkinsons sykdom (supplement til levodopa-terapi) — utledet fra tekst om gjenbruksrationale; ingen formell indikasjon eller MOA-data gitt i dette bevisgrunnlaget |
+| Forutsagt ny indikasjon | PLA2G6-assosiiert nevrodegenerasjon |
+| TxGNN prognose-score | 99.76% |
+| Bevisgrunnlag | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forutsigelsen rimelig?
 
-Currently no related clinical trials registered.
+Detaljerte data om virkningsmekanisme er for øyeblikket ikke tilgjengelig (datakløft DG002). Basert på informasjon som finnes andre steder i dette bevisgrunnlaget, er entacapone kjent som en COMT-inhibitor som samadministreres med levodopa ved Parkinsons sykdom, og forlenger levodopas sentrale tilgjengelighet. Dens effektivitet ved Parkinsons sykdom er godt etablert.
 
----
+For den høyest rangerte forutsigelsen, PLA2G6-assosiiert nevrodegenerasjon, gir bevisgrunnlaget **ingen mekanistisk rasjonale, ingen kliniske studier, og ingen litteratur**. Dette er uvanlig sammenlignet med lavere rangerte forutsigelser i samme batch (f.eks. rangering 4 "juvenile parkinsonism of Hunt" og rangering 7 "Lewy body dementia"), som inkluderer gjennomtenkt mekanistiske koblinger til dopaminergiske veier. Uten noen understøttende rasjonale eller bevis, bør denne høyest rangerte forutsigelsen behandles som et uvalidert modelutput i stedet for en vitenskapelig understøttet hypotese — til tross for at den bærer den høyeste TxGNN-poengsum i denne batchen.
 
-## Literature Evidence
-
-Currently no related literature available.
+Bemerkelsesverdig nok har to andre kandidater i dette samme forutsigelsessettet — **Lewy body dementia** (rangering 7) og **progressive supranuclear palsy-corticobasal syndrome** (rangering 10) — dokumentert litteratur og/eller kliniske signaler knyttet til dopaminergiske mekanismer som deles med Parkinsons sykdom. Disse kan være verdt prioritering fremfor PLA2G6-assosiiert nevrodegenerasjon for videre evaluering.
 
 ---
 
-## Norway Market Information
+## Bevis fra kliniske studier
 
-Entacapone is not currently marketed in Norway (0 authorizations on record); no license data is available in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+For øyeblikket er det ingen relaterte kliniske studier registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For øyeblikket er ingen relatert litteratur tilgjengelig.
 
-**Rationale:**
-The top-ranked prediction (PLA2G6-Associated Neurodegeneration) has no supporting clinical trials, literature, or mechanistic rationale — it is a pure model output (L5) and should not proceed without further validation.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory label data (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action from DrugBank — currently a High-severity data gap (DG002)
-- Preclinical or mechanistic studies linking entacapone's COMT-inhibitory activity to PLA2G6-associated neurodegeneration pathology
-- Consider evaluating the better-evidenced alternatives in this batch (Lewy body dementia, PSP-corticobasal syndrome) as higher-priority repurposing candidates for entacapone
+## Markedsinformasjon for Norge
+
+Entacapone markedsføres for øyeblikket ikke i Norge (0 godkjenninger registrert); ingen lisensdata er tilgjengelig i dette bevisgrunnlaget.
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Den høyest rangerte forutsigelsen (PLA2G6-assosiiert nevrodegenerasjon) har intet understøttende bevis fra kliniske studier, litteratur, eller mekanistisk rasjonale — det er et rent modelutput (L5) og bør ikke fortsettes uten videre validering.
+
+**For å fortsette er følgende nødvendig:**
+- TFDA/regulatoriske merkedata (advarsler, kontraindikasjoner) — for øyeblikket en blokkerende datakløft (DG001)
+- Bekreftet virkningsmekanisme fra DrugBank — for øyeblikket en alvorlig datakløft (DG002)
+- Prekliniske eller mekanistiske studier som knytter entacapones COMT-inhibitoriske aktivitet til PLA2G6-assosiiert nevrodegenereringpatologi
+- Vurder de bedre-dokumenterte alternativene i denne batchen (Lewy body dementia, PSP-corticobasal syndrome) som høyere-prioritets gjenbrukskandidater for entacapone
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

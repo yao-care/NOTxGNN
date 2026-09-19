@@ -29,78 +29,77 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-Using no additional skill — this is a direct report-generation task following the supplied template; I'll produce the Markdown report from the evidence pack as instructed.
+# Corifollitropin alfa: Fra egg-utløsing (IVF) til gastroduodenitt
 
-# Corifollitropin Alfa: From Ovulation Induction (IVF) to Gastroduodenitis
+## Enlinjesammendrag
 
-## One-Sentence Summary
-
-Corifollitropin alfa is a long-acting FSH receptor agonist used for controlled ovarian stimulation in IVF (per mechanistic notes in this evidence pack; not formally coded in the structured indication fields). The TxGNN model predicts a possible association with **Gastroduodenitis**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model-relatedness score with no biological or clinical corroboration.
+Corifollitropin alfa er en langtidsvirkende FSH-reseptor-agonist brukt for kontrollert ovariell stimulering ved IVF (ifølge mekanistiske notater i denne bevispakken; ikke formelt kodet i strukturerte indikasjonsfelt). TxGNN-modellen forutsier en mulig assosiasjon med **Gastroduodenitt**, men denne forutsielsen er for tiden støttet av **0 kliniske studier** og **0 publikasjoner** — det er en ren modellrelatert poengsum uten biologisk eller klinisk korroborering.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in structured regulatory data; known pharmacological use is ovulation induction/controlled ovarian stimulation (IVF), per rationale notes in this evidence pack |
-| Predicted New Indication | Gastroduodenitis |
-| TxGNN Prediction Score | 99.65% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Norway Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on the limited information present in this evidence pack, corifollitropin alfa is understood to be a long-acting FSH receptor agonist used for ovulation induction in assisted reproductive technology. According to the evidence pack's own mechanistic assessment, there is **no known biological pathway** connecting FSH receptor agonism to gastroduodenitis, or to any of the seven other candidate indications generated for this drug (migraine, peptic ulcer disease, migraine with brainstem aura, Raynaud disease, pulmonary hypertension, kyphoscoliotic heart disease, and migraine susceptibility).
-
-Notably, the rationale for one lower-ranked candidate (pulmonary hypertension) explicitly flags that corifollitropin's known adverse-effect profile — OHSS-related thrombotic risk from ovarian stimulation — runs *counter* to that indication direction, i.e., it is a safety signal rather than a therapeutic opportunity. For the eighth-ranked candidate (migraine susceptibility), 20 literature records were retrieved, but on review they concern epilepsy genetics and neuroinflammation background biology, not corifollitropin or FSH-pathway pharmacology — they do not constitute repurposing evidence.
-
-In summary, all eight TxGNN-predicted indications for this drug are graph-based relatedness scores (~99.4–99.7%) unaccompanied by mechanistic hypotheses, clinical trials, or relevant literature. This is a low-confidence signal set that should not be interpreted as a validated repurposing opportunity at this stage.
+| Punkt | Innhold |
+|-------|---------|
+| Opprinnelig indikasjon | Ikke dokumentert i strukturerte reguleringsdata; kjent farmakologisk bruk er egg-utløsing/kontrollert ovariell stimulering (IVF), ifølge begrunnelsesnotater i denne bevispakken |
+| Forutsagt ny indikasjon | Gastroduodenitt |
+| TxGNN-prediksjonspoeng | 99.65% |
+| Bevisnivå | L5 (bare modellprediksjon, ingen støttestudier) |
+| Markedsstatus i Norge | Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forutsielsen rimelig?
 
-Currently no related clinical trials registered
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige (flagget som et høyseveritets datakløft). Basert på den begrensede informasjonen som er tilstede i denne bevispakken, forstås corifollitropin alfa som en langtidsvirkende FSH-reseptor-agonist brukt for egg-utløsing i assistert reproduktiv teknologi. Ifølge bevispakkens egen mekanistiske vurdering finnes det **ingen kjent biologisk vei** som forbinder FSH-reseptor-agonisme til gastroduodenitt, eller til noen av de syv andre kandidatindikasjonene som ble generert for dette legemidlet (migrene, peptisk ulcuslidelse, migrene med hjernestammesaura, Raynauds sykdom, pulmonær hypertensjon, kyphoskoliotisk hjertesykdom og migrenetendens).
 
----
+Påtagelig er det at begrunnelsen for en lavere rangert kandidat (pulmonær hypertensjon) eksplisitt flaggerer at corifollitropins kjente bivirkningsprofil — OHSS-relatert tromboembolisk risiko fra ovariell stimulering — løper *mot* denne indikasjonens retning, dvs. det er et sikkerhetssignal snarere enn en terapeutisk mulighet. For den åttende rangerte kandidaten (migrenetendens) ble 20 litteraturposter hentet, men ved gjennomgang angår de epilepsi-genetikk og nevroinflammatorisk bakgrunnsbiologi, ikke corifollitropin eller FSH-bane-farmakologi — de utgjør ikke bevis for gjenbruk.
 
-## Literature Evidence
-
-Currently no related literature available
+Oppsummert er alle åtte TxGNN-forutsagte indikasjonene for dette legemidlet grafbaserte relateringspoeng (~99.4–99.7%) uten ledsagende mekanistiske hypoteser, kliniske studier eller relevant litteratur. Dette er et signalsett med lavt tillit som ikke bør tolkes som en validert gjenbrykssmulighet på dette stadiet.
 
 ---
 
-## Norway Market Information
+## Bevis fra kliniske studier
 
-This drug is not currently marketed in Norway (0 authorizations on file). No product license records are available in this dataset.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/regulatory label warnings and contraindications are flagged as a Blocking data gap in this evidence pack — see Conclusion below.)*
+Ingen relaterte kliniske studier er registrert for tiden
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Ingen relevant litteratur er tilgjengelig for tiden
 
-**Rationale:**
-No clinical trials or relevant literature support the top-ranked predicted indication (gastroduodenitis), and the evidence pack's own mechanistic analysis finds no biological link across all eight candidate indications. Combined with the absence of MOA data and Norway market presence, this candidate does not meet the threshold to proceed.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory label data (warnings, contraindications) — currently a **Blocking** data gap preventing S1 safety screening
-- Confirmed mechanism of action (MOA) data from DrugBank or primary literature
-- Preclinical or mechanistic studies establishing a plausible pathway between FSH receptor agonism and any of the predicted GI, vascular, or neurological indications
-- Re-evaluation once clinical trial registries (ClinicalTrials.gov/ICTRP) or PubMed return drug-specific (not disease-background) evidence for the target indication
+## Markedsinformasjon for Norge
+
+Dette legemidlet markedsføres ikke for tiden i Norge (0 godkjennelser på fil). Ingen produktlisensregistreringer er tilgjengelige i dette datasettet.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+*(Merk: TFDA/regulatoriske etikettadvarsler og kontraindikasjoner er flagget som et blokkende datakløft i denne bevispakken — se Konklusjon nedenfor.)*
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Ingen kliniske studier eller relevant litteratur støtter den høyest rangerte forutsagte indikasjonen (gastroduodenitt), og bevispakkens egen mekanistiske analyse finner ingen biologisk forbindelse på tvers av alle åtte kandidatindikasjonene. Kombinert med fraværet av MOA-data og Norges markedstilstedeværelse oppfyller denne kandidaten ikke terskelen for å fortsette.
+
+**For å fortsette kreves følgende:**
+- TFDA/regulatoriske etikettdata (advarsler, kontraindikasjoner) — for tiden et **blokkende** datakløft som hindrer S1-sikkerhetskontroll
+- Bekreftet data om virkningsmekanisme (MOA) fra DrugBank eller primærlitteratur
+- Prekliniske eller mekanistiske studier som etablerer en plausibel vei mellom FSH-reseptor-agonisme og noen av de forutsagte GI-, vaskulære eller nevrologiske indikasjonene
+- Revurdering når kliniske forsøksregistre (ClinicalTrials.gov/ICTRP) eller PubMed returnerer legemiddelspesifikke (ikke sykdomsbakgrunns) bevis for målindikasjonen
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

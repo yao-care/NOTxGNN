@@ -29,83 +29,82 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-Using the drug-repurposing evaluation report format to produce the requested report.
+# Regadenoson: Fra farmakologisk kardial stressagens til anafilaksi (sannsynlig artefakt)
 
-# Regadenoson: From Pharmacologic Cardiac Stress Agent to Anaphylaxis (Likely Artifact)
+## Enlinjesammendrag
 
-## One-Sentence Summary
-
-Regadenoson is an adenosine A2A receptor agonist used internationally as a pharmacologic stress agent for cardiac perfusion imaging; no Taiwan/Norway-approved indication or MOA record is currently on file.
-The TxGNN model's top prediction is **Anaphylaxis**, but this signal is most plausibly a reverse-causality artifact — anaphylactoid/hypersensitivity reaction is a known **adverse effect** of regadenoson, not a treatment target.
-Evidence support is minimal: **1 clinical trial (graded irrelevant, "C")** and **0 supporting publications**.
+Regadenoson er en adenosin A2A-reseptoragonist som brukes internasjonalt som farmakologisk stressagens for kardial perfusjonsavbilding; ingen godkjent indikasjon i Taiwan/Norge eller MOA-registrering er for øyeblikket arkivert.
+TxGNN-modellens beste forutsigelse er **Anafilaksi**, men dette signalet er mest sannsynlig et omvendt-kausalitet-artefakt — anafilaktor/overfølsomhetsreaksjon er en kjent **bivirkning** av regadenoson, ikke et behandlingsmål.
+Bevisstøtten er minimal: **1 klinisk forsøk (vurdert irrelevant, "C")** og **0 støttende publikasjoner**.
 
 ---
 
-## Quick Overview
+## Hurtigoversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not available in evidence pack (drug not licensed in Taiwan/Norway; internationally used as a pharmacologic cardiac stress-testing agent) |
-| Predicted New Indication | Anaphylaxis |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 (model prediction only, no supportive real-world evidence) |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Originalindikasjon | Ikke tilgjengelig i evidenspakken (legemiddel ikke godkjent i Taiwan/Norge; internasjonalt brukt som farmakologisk kardial stresstest-agens) |
+| Forutsagt ny indikasjon | Anafilaksi |
+| TxGNN forutsigelsesscore | 99.85% |
+| Bevisnivå | L5 (kun modellforutsigelse, ingen støttende virkelighetsbeviser) |
+| Markedsstatus Norge | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | **Ventilasjon** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forutsigelsen rimelig?
 
-Currently, detailed mechanism of action data is not available (Data Gap). Based on available evidence, regadenoson is an adenosine A2A receptor agonist. In the one identified clinical trial context, it is used as a pharmacologic stress agent to simulate exercise-induced cardiac blood flow changes during MRI/perfusion imaging — not as a disease-modifying therapeutic.
+For øyeblikket er detaljert virkningsmekanisme-data ikke tilgjengelig (Datakløft). Basert på tilgjengelig bevis er regadenoson en adenosin A2A-reseptoragonist. I den identifiserte kliniske forsøkskonteksten brukes det som en farmakologisk stressagens for å simulere øvelsesinindusert kardial blodstrømsendringer under MR/perfusjonsavbilding — ikke som en sykdomsmodifiserende terapeutisk.
 
-Critically, the repurposing rationale provided in the evidence pack itself flags that hypersensitivity/anaphylactoid reactions are a **known, labeled adverse effect** of regadenoson. This means the TxGNN prediction linking regadenoson to "anaphylaxis" most likely reflects a *drug-causes-adverse-event* relationship embedded in the knowledge graph, rather than a *drug-treats-disease* relationship. This is a well-recognized failure mode for embedding-based prediction models (reverse causality / polarity confusion) and should not be interpreted as a genuine treatment signal.
+Kritisk er at bevispakningen selv eksplisitt identifiserer at overfølsomhet/anafilaktor-reaksjoner er en **kjent, merket bivirkning** av regadenoson. Dette betyr at TxGNN-forutsigelsen som forbinder regadenoson med "anafilaksi" mest sannsynlig gjenspeiler en *legemiddel-forårsaker-bivirkning*-forhold innebygd i kunnskapsgrafen, snarere enn et *legemiddel-behandler-sykdom*-forhold. Dette er en velkjent sviktmodus for embedding-baserte forutsigelsesmodeller (omvendt kausalitet / polaritets-forvirring) og bør ikke tolkes som et genuint behandlingssignal.
 
-The remaining three candidates (food-dependent exercise-induced anaphylaxis, esotropia, pseudoallergy) show no identifiable mechanistic link to A2A receptor pharmacology, and pseudoallergy has the same reverse-causality concern as the top prediction. None of the four candidates are supported by clinical trials or literature.
+De gjenstående tre kandidatene (matavhengig øvelsesinindusert anafilaksi, esotropi, pseudoallergi) viser ingen identifiserbar mekanisk sammenheng med A2A-reseptorfarmakologi, og pseudoallergi har samme omvendt-kausalitet-bekymring som beste forutsigelse. Ingen av de fire kandidatene er støttet av kliniske forsøk eller litteratur.
 
 ---
 
-## Clinical Trial Evidence
+## Klinisk forsøksbevis
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Inklusjon | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT06854458](https://clinicaltrials.gov/study/NCT06854458) | N/A | Recruiting | 1000 | Multicenter stress cardiac MRI perfusion imaging study; regadenoson used as a pharmacologic stress agent to assess coronary blood flow. Not designed to treat anaphylaxis — any anaphylaxis events would be safety monitoring endpoints, not efficacy endpoints. **Relevance grade: C (does not support the predicted indication).** |
+| [NCT06854458](https://clinicaltrials.gov/study/NCT06854458) | N/A | Rekrutterer | 1000 | Flersentersstudie av stresskardialt MR-perfusjonsavbilding; regadenoson brukt som farmakologisk stressagens for vurdering av koronar blodstrøm. Ikke designet for behandling av anafilaksi — eventuelle anafilaksi-hendelser ville være sikkerhetsovervåkings-endepunkter, ikke effektivitets-endepunkter. **Relevansgrad: C (støtter ikke den forutsagte indikasjon).** |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
-
----
-
-## Norway Market Information
-
-Regadenoson currently has no marketing authorization on file (0 licenses; market status: Not marketed). No product table can be generated.
+For øyeblikket ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Safety Considerations
+## Markedsinformasjon Norge
 
-- **Key Warnings**: Not available in structured safety data (Data Gap). Note, however, that the repurposing rationale explicitly identifies hypersensitivity/anaphylactoid reaction as a known labeled risk of regadenoson — this is directly relevant to interpreting the top-ranked prediction and should be treated as a safety signal, not a treatment opportunity.
-- **Drug Interactions**: Query returned no results (not found).
-
-Please refer to the package insert for complete safety information once available (see Data Gap DG001, currently marked Blocking).
+Regadenoson har for øyeblikket ingen markedsføringsgodkjennelse arkivert (0 lisenser; markedsstatus: Ikke markedsført). Ingen produkttabell kan genereres.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+- **Viktige advarsler**: Ikke tilgjengelig i strukturert sikkerhetsdata (Datakløft). Merk imidlertid at bevispakningen eksplisitt identifiserer overfølsomhet/anafilaktor-reaksjon som en kjent merket risiko for regadenoson — dette er direkte relevant for tolking av beste-rangerte forutsigelse og bør behandles som et sikkerhetssignal, ikke en behandlingsmulighet.
+- **Legemiddelinteraksjoner**: Søket ga ingen resultater (ikke funnet).
 
-**Rationale:**
-All four predicted indications are Evidence Level L5 (model prediction only), with either irrelevant (Grade C) or no clinical trial support and zero supporting literature. The top-ranked candidate, anaphylaxis, is very likely a reverse-causality artifact reflecting a known adverse drug reaction rather than a genuine therapeutic relationship, and the drug is not currently marketed in Norway or Taiwan.
+Vennligst se pakningsvedlegget for fullstendig sikkerhetsinformasjon når den blir tilgjengelig (se Datakløft DG001, for øyeblikket merket som blokkering).
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain official label warnings/contraindications from TFDA before any safety pre-screening can begin
-- Resolve DG002 (High): confirm mechanism of action via DrugBank to properly evaluate mechanistic plausibility
-- Independent verification of TxGNN edge polarity (treats vs. causes) for the anaphylaxis prediction before further investment
-- If pursued, seek prospective clinical or case-report evidence specifically evaluating a therapeutic (not adverse) relationship between regadenoson and any of the four candidate indications
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Ventilasjon**
+
+**Begrunnelse:**
+Alle fire forutsagte indikasjonene er Bevisnivå L5 (kun modellforutsigelse), med enten irrelevant (Grad C) eller ingen klinisk forsøksstøtte og null støttende litteratur. Den best-rangerte kandidaten, anafilaksi, er meget sannsynlig et omvendt-kausalitet-artefakt som gjenspeiler en kjent legemiddelreaksjon snarere enn et genuint terapeutisk forhold, og legemiddelet er ikke markedsført i Norge eller Taiwan.
+
+**For å fortsette, kreves følgende:**
+- Avklare DG001 (Blokkering): innhent offisiell merkeadvarsel/motindikasjoner fra TFDA før noen sikkerhetsvurdering kan igangsettes
+- Avklare DG002 (Høy): bekreft virkningsmekanisme via DrugBank for å riktig vurdere mekanistisk plausibilitet
+- Uavhengig verifisering av TxGNN edge polaritet (behandler vs. forårsaker) for anafilaksi-forutsigelsen før ytterligere investering
+- Hvis forfølgt, søk prospektiv klinisk eller kasuistisk bevis som spesifikt evaluerer et terapeutisk (ikke en bivirkning) forhold mellom regadenoson og noen av de fire kandidat-indikasjonene
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

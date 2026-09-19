@@ -29,88 +29,89 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Dupilumab: From Atopic Dermatitis / Asthma to Bronchitis
+# Dupilumab: Fra atopisk dermatitt / astma til bronkitt
 
-## One-Sentence Summary
+## Sammenfattelse i én setning
 
-Dupilumab is a monoclonal antibody with an established role in moderate-to-severe atopic dermatitis and asthma, both driven by Type 2 (Th2) inflammation. The TxGNN model predicts it may also be effective for **Bronchitis**, but this direction is currently supported by only **1 clinical trial** (on a related condition) and **6 publications**, most of which address asthma/COPD rather than bronchitis directly.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Moderate-to-severe Atopic Dermatitis / Asthma *(inferred from clinical trial and literature descriptions in this evidence pack — no formal TFDA/DrugBank indication text was retrieved; see Data Gaps)* |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L2 *(indirect — see caveat in rationale below)* |
-| Norway Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Dupilumab er et monoklonalt antistoff med etablert rolle i moderat til alvorlig atopisk dermatitt og astma, begge drevet av Type 2 (Th2) inflammasjon. TxGNN-modellen forutsier at det også kan være effektivt for **bronkitt**, men denne retningen støttes foreløpig av kun **1 klinisk studie** (på en relatert tilstand) og **6 publikasjoner**, hvorav de fleste tar for seg astma/KOLS i stedet for bronkitt direkte.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigoversikt
 
-Detailed mechanism-of-action data from DrugBank is currently a data gap (DG002, High severity). However, the literature evidence collected in this pack independently and consistently describes dupilumab's mechanism: it is a fully human monoclonal antibody (IgG4 isotype) that binds the shared interleukin-4 receptor alpha (IL-4Rα) subunit, blocking signaling of both IL-4 and IL-13 — the two key cytokines driving Type 2/Th2-mediated inflammation (PMID 25006719, PMID 30194992, PMID 29557246).
-
-Dupilumab's established uses (atopic dermatitis, asthma, and related conditions such as chronic rhinosinusitis) share this same Type 2/eosinophilic inflammatory pathway. Bronchitis — particularly its eosinophilic and smoking-associated (asthma-COPD overlap) subtypes — has been linked in the literature to the same Th2/IL-4/IL-13 axis (PMID 30196731 discusses chronic bronchitis within asthma-COPD overlap; PMID 38488768 discusses "novel therapies for eosinophilic pediatric plastic bronchitis"; PMID 39904363 reviews pharmacologic approaches, including biologics, for preventing COPD/bronchitis exacerbations).
-
-This provides a plausible mechanistic rationale for repurposing: if bronchitis in a given patient is driven by eosinophilic/Type 2 airway inflammation, IL-4/IL-13 blockade could plausibly reduce inflammation and exacerbations, similar to its established effect in asthma. That said, the evidence currently available is largely extrapolated from adjacent respiratory conditions (asthma, COPD, CRS) rather than from trials conducted specifically in a bronchitis population — this gap should be weighed carefully in any decision.
+| Punkt | Innhold |
+|-------|---------|
+| Original indikasjon | Moderat til alvorlig atopisk dermatitt / astma *(antatt fra klinisk studie- og litteraturbeskrivelser i denne bevispacken — ingen formell TFDA/DrugBank-indikasjon tekst ble hentet; se Datakløfter)* |
+| Forutsagt ny indikasjon | Bronkitt |
+| TxGNN-prediksjonscore | 99.92% |
+| Bevisnivå | L2 *(indirekte — se forbeholdene i begrunnelsen nedenfor)* |
+| Markedsstatus Norge | ✗ Ikke markedsført (Ikke markedsført) |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | **Vent** |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prognosen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Detaljerte data om virkningsmekanisme fra DrugBank er foreløpig en datakløft (DG002, høy alvorlighetsgrad). Litteraturbevisene samlet i denne pakken beskriver imidlertid dupilumabs virkningsmekanisme uavhengig og konsistent: det er et fullt humant monoklonalt antistoff (IgG4-isotype) som binder den delte interleukin-4-reseptoralfa (IL-4Rα)-underenheten, og blokkerer signalering fra både IL-4 og IL-13 — de to nøkkelcytokiner som driver Type 2/Th2-mediert inflammasjon (PMID 25006719, PMID 30194992, PMID 29557246).
+
+Dupilumabs etablerte bruksområder (atopisk dermatitt, astma, og relaterte tilstander som kronisk rhinosinusitt) deler denne samme Type 2/eosinofil inflammasjonsbanen. Bronkitt — særlig dens eosinofil og røykingassosiierte (astma-KOLS overlap) undertyper — har blitt forbundet i litteraturen med samme Th2/IL-4/IL-13-akse (PMID 30196731 diskuterer kronisk bronkitt innen astma-KOLS overlap; PMID 38488768 diskuterer «nye terapi for eosinofil pediatrisk plastisk bronkitt»; PMID 39904363 gjennomgår farmakologiske tilnærminger, inkludert biologikker, for å forhindre KOLS/bronkitt-forverringer).
+
+Dette gir en plausibel mekanistisk begrunnelse for reposisjonering: hvis bronkitt hos en gitt pasient er drevet av eosinofil/Type 2 luftveisinflammasjon, kunne IL-4/IL-13-blokkering plausibelt redusere inflammasjon og forverringer, på samme måte som dens etablerte virkning i astma. Når det er sagt, bygger bevisene som er tilgjengelig for tiden i stor grad på ekstrapolering fra tilgrensende luftveistilstander (astma, KOLS, CRS) i stedet for fra studier gjennomført spesifikt i en bronkittpopulasjon — denne kløften bør veies nøye i enhver beslutning.
+
+---
+
+## Klinisk forsøksbevis
+
+| Studienummer | Fase | Status | Deltakerantall | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Phase 2 | Completed | 33 | Randomized, double-blind, placebo-controlled study of dupilumab in chronic rhinosinusitis without nasal polyps (CRSsNP) — a related upper-airway Type 2-inflammatory condition, not bronchitis itself. Aimed to determine clinical effectiveness across several disease endotypes and inform patient-selection guidance for future applied research. |
+| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Fase 2 | Avsluttet | 33 | Randomisert, dobbeltblindet, placebokontrollert studie av dupilumab i kronisk rhinosinusitt uten nesepolypper (CRSsNP) — en relatert øvre luftvei Type 2-inflammatorisk tilstand, ikke bronkitt i seg selv. Hadde som mål å bestemme klinisk effektivitet på tvers av flere sykdomsendotyper og informere retningslinjer for pasientvalg i fremtidig anvendt forskning. |
 
-*Note: No trial registered to date has enrolled a bronchitis-specific population; the single retrieved trial targets a mechanistically related but distinct diagnosis (CRSsNP).*
+*Merk: Ingen studie registrert til nå har rekruttert en bronkitt-spesifikk populasjon; den eneste hentede studien retter seg mot en mekanistisk relatert men distinkt diagnose (CRSsNP).*
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | Systematic Review / Meta-analysis | Journal of Asthma | Meta-analysis of RCTs comparing dupilumab vs. placebo in uncontrolled asthma; established efficacy/safety profile in Type 2 airway disease. |
-| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | Open-label Extension Study | Lancet Respiratory Medicine | TRAVERSE study: long-term (>1 year) safety and efficacy of dupilumab in moderate-to-severe asthma. |
-| [39904363](https://pubmed.ncbi.nlm.nih.gov/39904363/) | 2025 | Review | Tuberculosis and Respiratory Diseases | Comprehensive review of pharmacologic therapies, including biologics, for preventing COPD exacerbations. |
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Review / Expert Opinion | Expert Opinion on Pharmacotherapy | Discusses treatment challenges in smoking-induced airway diseases, including chronic bronchitis and asthma-COPD overlap. |
-| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | Review | Pediatric Pulmonology | Reviews novel therapies, including biologics, for eosinophilic pediatric plastic bronchitis. |
-| [32428511](https://pubmed.ncbi.nlm.nih.gov/32428511/) | 2020 | Observational Study | Chest | MRI-based evaluation of anti-T2 biologic treatment effects on lung ventilation in prednisone-dependent asthma. |
+| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | Systematisk oversikt / Meta-analyse | Journal of Asthma | Meta-analyse av RCT-er som sammenligner dupilumab vs. placebo i ukontrollert astma; etablert effektivitets-/sikkerhetsprofil i Type 2 luftveisykdom. |
+| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | Åpen-etikett forlengelsesstudie | Lancet Respiratory Medicine | TRAVERSE-studie: langtidsikkerhet og effektivitet (>1 år) av dupilumab i moderat til alvorlig astma. |
+| [39904363](https://pubmed.ncbi.nlm.nih.gov/39904363/) | 2025 | Oversikt | Tuberculosis and Respiratory Diseases | Omfattende oversikt over farmakologiske terapi, inkludert biologikker, for å forhindre KOLS-forverringer. |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Oversikt / Ekspertuttalelse | Expert Opinion on Pharmacotherapy | Diskuterer behandlingsutfordringer i røykinginduserte luftveisykdommer, inkludert kronisk bronkitt og astma-KOLS overlap. |
+| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | Oversikt | Pediatric Pulmonology | Gjennomgår nye terapi, inkludert biologikker, for eosinofil pediatrisk plastisk bronkitt. |
+| [32428511](https://pubmed.ncbi.nlm.nih.gov/32428511/) | 2020 | Observasjonell studie | Chest | MR-basert evaluering av anti-T2 biologisk behandlingseffekter på lungventilasjon i prednisonavhengig astma. |
 
 ---
 
-## Norway Market Information
+## Markedsinformasjon Norge
 
-Dupilumab currently holds **no marketing authorization** in Norway according to this evidence pack (market status: Not marketed / Not Marketed; 0 total authorizations; no license records available).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. *(Key warnings, contraindications, and drug-drug interaction data were not retrievable at this time — TFDA package insert extraction is flagged as a Blocking data gap, DG001, which prevents a full S1 safety pre-assessment.)*
+Dupilumab har foreløpig **ingen markedsføringsgodkjenning** i Norge i henhold til denne bevispacken (markedsstatus: Ikke markedsført / Ikke markedsført; 0 totale godkjenninger; ingen lisensregistreringer tilgjengelig).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. *(Viktige advarsler, kontraindikasjoner og legemiddel-legemiddel-interaksjonsdata kunne ikke hentes på dette tidspunktet — TFDA-pakningsvedlegg-utdrag er flagget som en blokkerende datakløft, DG001, som forhindrer en fullstendig S1-sikkerhetsvurdering for denne kandidaten.)*
 
-**Rationale:**
-- The TFDA package insert (warnings/contraindications) is a **Blocking** data gap (DG001), which by itself precludes a preliminary safety assessment (S1) for this candidate.
-- Efficacy evidence specific to bronchitis is indirect: the single registered trial targets a related but distinct condition (CRSsNP), and the supporting literature is drawn mainly from asthma/COPD populations rather than bronchitis itself.
-- Dupilumab is not currently marketed in Norway, so there is no local safety/utilization track record to draw on.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications, precautions) — DG001
-- Confirmed DrugBank mechanism-of-action record — DG002
-- Confirmation of the drug's formally approved original indication(s) (regulatory license text)
-- Ideally, a trial or observational study conducted specifically in a bronchitis (particularly eosinophilic/Type 2) population, rather than extrapolation from asthma/COPD/CRS data
-- Norway market registration status confirmation, should commercialization be considered
+## Konklusjon og neste steg
+
+**Beslutning: Vent**
+
+**Begrunnelse:**
+- TFDA-pakningsvedlegget (advarsler/kontraindikasjoner) er en **blokkerende** datakløft (DG001), som i seg selv forhindrer en foreløpig sikkerhetsvurdering (S1) for denne kandidaten.
+- Effektivitetsbevis som er spesifikt for bronkitt er indirekte: den eneste registrerte studien retter seg mot en relatert men distinkt tilstand (CRSsNP), og den støttende litteraturen er hentet hovedsakelig fra astma/KOLS-populasjoner i stedet for bronkitt selv.
+- Dupilumab er ikke markedsført i Norge, så det eksisterer ingen lokal sikkerhet-/brukserfaring å basere seg på.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA-pakningsvedlegg (advarsler, kontraindikasjoner, forsiktighetsregler) — DG001
+- Bekreftet DrugBank virkningsmekanisme-post — DG002
+- Bekrefting av legemidlets formelt godkjente opprinnelige indikasjon(er) (regulatorisk lisenstekst)
+- Ideelt sett, en studie eller observasjonell studie gjennomført spesifikt i en bronkitt (særlig eosinofil/Type 2) populasjon, i stedet for ekstrapolering fra astma/KOLS/CRS-data
+- Bekreftelse av markedsregistreringsstatus i Norge, dersom kommersialisering skal vurderes
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

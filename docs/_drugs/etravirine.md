@@ -29,98 +29,99 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Etravirine: From HIV-1 Infection (NNRTI-Resistant, Treatment-Experienced) to Congenital HIV Infection (Perinatal/Mother-to-Child Transmission Setting)
+# Etravirine: Fra HIV-1-infeksjon (NNRTI-resistent, behandlingserfaren) til medfødt HIV-infeksjon (perinatal/overføring fra mor til barn)
 
-## One-Sentence Summary
+## Sammenfatting i én setning
 
-Etravirine is a second-generation NNRTI originally used to treat HIV-1 infection in treatment-experienced adults and children with NNRTI-resistance mutations. Among the TxGNN predictions, the two clinically valid and evidence-backed candidates are **Congenital HIV Infection** (perinatal/mother-to-child transmission setting) and **AIDS-Related Complex**, each supported by **L2-level evidence** (real-world pharmacokinetic studies in pregnant women, plus background trial data). The model's top two raw-ranked predictions (simian and feline immunodeficiency virus infection) are **veterinary/animal-model diseases, not valid human indications**, and are excluded from this evaluation.
+Etravirine er en andregennerasjons NNRTI opprinnelig brukt til behandling av HIV-1-infeksjon hos behandlingserfarne voksne og barn med NNRTI-resistensmutasjoner. Blant TxGNN-prediksjoner er de to klinisk gyldige og bevis-støttede kandidatene **medfødt HIV-infeksjon** (perinatal/overføring fra mor til barn) og **AIDS-relatert kompleks**, hver støttet av **L2-nivå-bevis** (virkelighetstro farmakokinetiske studier hos gravide kvinner, pluss bakgrunnsdata fra kliniske forsøk). Modellens to øverste rårangerte spådommer (simian og felin immunsviktvirus-infeksjon) er **veterinær-/dyremodell-sykdommer, ikke gyldige menneskelige indikasjoner**, og er ekskludert fra denne evalueringen.
 
-> **Methodology note:** TxGNN's raw top-10 ranking includes several outputs that are not clinically actionable: rank 1 (simian immunodeficiency virus), rank 2 (feline AIDS), and rank 3 (a rare congenital neurodevelopmental disorder) are non-human diseases or unsupported noise per the evidence pack's own rationale. Ranks 6–10 (prostate fibroma, Brenner tumor, benign reproductive neoplasms, familial hyperlipidemia) have zero supporting trials or literature and are flagged in the source data as embedding artifacts. This report therefore focuses on **rank 4 (Congenital HIV Infection)** and **rank 5 (AIDS-Related Complex)** — the only candidates with real clinical trial/literature support and coherent mechanistic rationale.
+> **Metodologisk notat:** TxGNNs rårangerte topp-10 inkluderer flere resultater som ikke er klinisk handlingsbar: rang 1 (simian immunsviktvirus-infeksjon), rang 2 (felin AIDS), og rang 3 (en sjelden medfødt nevroutviklingsforstyrelse) er ikke-menneskelige sykdommer eller ustøttet støy per bevispaklagens egen begrunnelse. Rang 6–10 (prostatfibrom, Brenner-tumor, godartede reproduktive neoplasier, familiær hyperlipidemi) har null støttende forsøk eller litteratur og er flagget i kildedataene som innebygningsartefakter. Denne rapporten fokuserer derfor på **rang 4 (medfødt HIV-infeksjon)** og **rang 5 (AIDS-relatert kompleks)** — de eneste kandidatene med reelle kliniske forsøks-/litteraturstøtte og sammenhengende mekanistisk begrunnelse.
 
 ---
 
-## Quick Overview
+## Kort oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | HIV-1 infection in treatment-experienced adults/children with NNRTI-resistance mutations (per repurposing rationale; no formal `original_indications` record in source data) |
-| Predicted New Indication | Congenital HIV Infection (perinatal/mother-to-child transmission prevention); AIDS-Related Complex as a secondary, closely related candidate |
-| TxGNN Prediction Score | 99.79% (rank 4, congenital HIV) |
-| Evidence Level | L2 |
-| Norway Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** (pending blocking safety data) |
+| Opprinnelig indikasjon | HIV-1-infeksjon hos behandlingserfarne voksne/barn med NNRTI-resistensmutasjoner (per ombruks-rasjonale; ingen formell `original_indications`-post i kildedataene) |
+| Forventet ny indikasjon | Medfødt HIV-infeksjon (perinatal / overføring fra mor til barn); AIDS-relatert kompleks som sekundær, nært beslektet kandidat |
+| TxGNN-prediksjonsscore | 99.79% (rang 4, medfødt HIV) |
+| Bevisnivå | L2 |
+| Norges markedsstatus | ✗ Ikke markedsført (Ikke markedsført) |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | **Avhold** (avventende blokkerande sikkerhetdata) |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne spådommen rimelig?
 
-Currently, detailed mechanism of action data (DrugBank MOA field) is not available — this is flagged in the evidence pack as a **High-severity data gap (DG002)**. Based on information embedded in the evidence pack's own rationale, etravirine is a second-generation non-nucleoside reverse transcriptase inhibitor (NNRTI) that inhibits HIV-1 reverse transcriptase and is approved for treatment-experienced HIV-1-infected patients carrying NNRTI-resistance mutations.
+Virkningsmekanisme-data (DrugBank MOA-felt) er foreløpig ikke tilgjengelig — flagget i bevispapakken som **høyseveritets-datakløft (DG002)**. Basert på informasjon innebygd i bevispapakkes egen begrunnelse, er etravirine en andregennerasjons ikke-nukleosid revers transkriptase-hemmer (NNRTI) som hemmer HIV-1 revers transkriptase og er godkjent for behandlingserfarne HIV-1-smittede pasienter som bærer NNRTI-resistensmutasjoner.
 
-Both candidate indications are not really "new" mechanisms but **extensions of the existing approved mechanism into adjacent clinical contexts**:
+Begge kandidatindikasjonene er ikke egentlig «nye» mekanismer, men **utvidelser av den eksisterende godkjente mekanismen til tilgrensende kliniske kontekster**:
 
-- **Congenital HIV Infection / perinatal exposure**: Etravirine's antiretroviral activity is already used off-label in highly treatment-experienced pregnant women to construct a suppressive regimen and reduce vertical transmission risk. Pharmacokinetic data in pregnancy (NCT00855335) and case reports (PMID 20587860) already exist, supporting extrapolation to formal use in perinatal/congenital HIV management.
-- **AIDS-Related Complex (ARC)**: A historical clinical classification for symptomatic HIV infection not yet meeting full AIDS criteria. Etravirine's approved population (treatment-experienced, NNRTI-resistant HIV-1 patients) directly overlaps with this population, making this less a novel hypothesis and more a labeling/nomenclature extension.
+- **Medfødt HIV-infeksjon / perinatal eksponering**: Etravivens antiretroviral aktivitet er allerede brukt off-label hos høyt behandlingserfarne gravide kvinner for å konstruere et suppressivt regime og redusere vertikal transmisjonrisiko. Farmakokinetiske data i graviditet (NCT00855335) og kasuistikker (PMID 20587860) eksisterer allerede, noe som støtter ekstrapolasjon til formell bruk i perinatal/medfødt HIV-håndtering.
+- **AIDS-relatert kompleks (ARC)**: En historisk klinisk klassifisering for symptomatisk HIV-infeksjon som ennå ikke oppfyller fulle AIDS-kriterier. Etravivens godkjente populasjon (behandlingserfarne, NNRTI-resistente HIV-1-pasienter) overlapper direkte med denne populasjonen, noe som gjør dette mindre en ny hypotese og mer en merking-/nomenklatur-utvidelse.
 
-Neither candidate represents a genuinely new pharmacological mechanism; both leverage etravirine's established antiretroviral activity in populations adjacent to its current approved use.
+Ingen av kandidatene representerer en genuint ny farmakologisk mekanisme; begge utnytter etravivens etablerte antiretroviral aktivitet i populasjoner tilstøtende dens nåværende godkjente bruk.
 
 ---
 
-## Clinical Trial Evidence (Congenital HIV Infection)
+## Bevis fra kliniske forsøk (medfødt HIV-infeksjon)
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Antall inkludert | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT00855335](https://clinicaltrials.gov/study/NCT00855335) | Phase 3 | Completed | 77 | Etravirine-specific PK study (± darunavir/ritonavir, rilpivirine) in HIV-1-infected pregnant women — directly supports perinatal dosing safety |
-| [NCT04630002](https://clinicaltrials.gov/study/NCT04630002) | Phase 1 | Completed | 54 | PK interaction study of etravirine (± darunavir/ritonavir) with GSK3640254 in healthy adults |
-| [NCT01199731](https://clinicaltrials.gov/study/NCT01199731) | Phase 2b | Terminated | 30 | Etravirine used as active control arm in NNRTI-resistant, treatment-experienced HIV-1 adults |
-| [NCT07412977](https://clinicaltrials.gov/study/NCT07412977) | N/A | Not yet recruiting | 5160 | French prospective cohort assessing impact of viral infections (incl. HIV) and antiviral treatment during pregnancy on maternal/child outcomes |
-| [NCT00042289](https://clinicaltrials.gov/study/NCT00042289) | Phase 4 | Completed | 1578 | IMPAACT P1026s — PK of antiretroviral/TB drugs in pregnant and postpartum women and infants (background ARV-class evidence) |
-| [NCT02951052](https://clinicaltrials.gov/study/NCT02951052) | Phase 3 | Active, not recruiting | 618 | ATLAS: switch to long-acting cabotegravir/rilpivirine in virologically suppressed HIV-1 adults (background, not etravirine-specific) |
-| [NCT03299049](https://clinicaltrials.gov/study/NCT03299049) | Phase 3 | Active, not recruiting | 1049 | ATLAS-2M: long-acting CAB+RPV dosing interval comparison (background) |
-| [NCT02938520](https://clinicaltrials.gov/study/NCT02938520) | Phase 3 | Active, not recruiting | 631 | FLAIR: long-acting CAB+RPV switch maintenance (background) |
-| [NCT02429791](https://clinicaltrials.gov/study/NCT02429791) | Phase 3 | Completed | 510 | Switch to dolutegravir + rilpivirine in suppressed HIV-1 adults (background) |
+| [NCT00855335](https://clinicaltrials.gov/study/NCT00855335) | Fase 3 | Ferdigstilt | 77 | Etravirine-spesifikk PK-studie (± darunavir/ritonavir, rilpivirine) hos HIV-1-smittede gravide kvinner — støtter direkte perinatal doseringsikkerhet |
+| [NCT04630002](https://clinicaltrials.gov/study/NCT04630002) | Fase 1 | Ferdigstilt | 54 | PK-interaksjonsstudie av etravirine (± darunavir/ritonavir) med GSK3640254 hos friske voksne |
+| [NCT01199731](https://clinicaltrials.gov/study/NCT01199731) | Fase 2b | Avsluttet | 30 | Etravirine brukt som aktiv kontrollarm hos NNRTI-resistente, behandlingserfarne HIV-1-voksne |
+| [NCT07412977](https://clinicaltrials.gov/study/NCT07412977) | N/A | Ennå ikke rekrutterer | 5160 | Fransk prospektiv kohortstudie som vurderer påvirkning av virusinfeksjoner (inkl. HIV) og antiviralt behandling under graviditet på morskapelige/barnskap utfall |
+| [NCT00042289](https://clinicaltrials.gov/study/NCT00042289) | Fase 4 | Ferdigstilt | 1578 | IMPAACT P1026s — PK av antiretroviral/TB-legemidler hos gravide og postpartum-kvinner og spedbarn (bakgrunn ARV-klasse-bevis) |
+| [NCT02951052](https://clinicaltrials.gov/study/NCT02951052) | Fase 3 | Aktiv, ikke rekrutterer | 618 | ATLAS: bytte til langtids cabotegravir/rilpivirine hos virologisk suppressert HIV-1-voksne (bakgrunn, ikke etravirine-spesifikk) |
+| [NCT03299049](https://clinicaltrials.gov/study/NCT03299049) | Fase 3 | Aktiv, ikke rekrutterer | 1049 | ATLAS-2M: langtids CAB+RPV doseringsintervall-sammenlikning (bakgrunn) |
+| [NCT02938520](https://clinicaltrials.gov/study/NCT02938520) | Fase 3 | Aktiv, ikke rekrutterer | 631 | FLAIR: langtids CAB+RPV bytte-vedlikehold (bakgrunn) |
+| [NCT02429791](https://clinicaltrials.gov/study/NCT02429791) | Fase 3 | Ferdigstilt | 510 | Bytte til dolutegravir + rilpivirine hos suppressert HIV-1-voksne (bakgrunn) |
 
-**Data quality note:** NCT04273165 ("Etravirine in Friedreich Ataxia") is flagged in the source data as a mapping error under this disease cluster and is excluded from this table; it is unrelated to congenital HIV infection.
+**Datakvalitetsnotat:** NCT04273165 («Etravirine i Friedreich ataksi») er flagget i kildedataene som en kartleggingsfeil under denne sykdomsklyngen og er ekskludert fra denne tabellen; den er uavhengig av medfødt HIV-infeksjon.
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [20587860](https://pubmed.ncbi.nlm.nih.gov/20587860/) | 2010 | Cohort/Case series | Antiviral Therapy | Two case reports of darunavir + etravirine (± raltegravir) use in highly treatment-experienced pregnant women, informing perinatal safety/efficacy |
+| [20587860](https://pubmed.ncbi.nlm.nih.gov/20587860/) | 2010 | Kohortstudie/Kasuistikk | Antiviral Therapy | To kasuistikker av darunavir + etravirine (± raltegravir) bruk hos høyt behandlingserfarne gravide kvinner, som informerer perinatal sikkerhet/effektivitet |
 
-Additional supporting literature exists for the related AIDS-Related Complex candidate (PMID 19290032, cohort study on GI adverse events in HIV treatment; PMID 27067022, NNRTI-resistance mutation analysis), reinforcing the broader NNRTI-resistant HIV population rationale but not specific to congenital transmission.
-
----
-
-## Norway Market Information
-
-Etravirine currently has **no marketing authorization in Norway** — 0 licenses on record. No product/dosage form data is available.
+Tilleggsstøttende litteratur eksisterer for den relaterte AIDS-relatert kompleks-kandidaten (PMID 19290032, kohortstudie om GI-bivirkninger i HIV-behandling; PMID 27067022, NNRTI-resistens mutasjonsanalyse), noe som forsterker den bredere NNRTI-resistent HIV-populasjons-begrunnelse, men ikke spesifikk for medfødt transmisjon.
 
 ---
 
-## Safety Considerations
+## Norges markedsinformasjon
 
-Please refer to the package insert for safety information.
-
-**Critical limitation:** TFDA-equivalent label warnings and contraindications are flagged as a **Blocking-severity data gap (DG001)** in this evidence pack — "impact: cannot proceed to S1 safety pre-assessment." No drug-drug interaction data was found (query status: not found). This gap must be resolved before any further clinical development discussion.
+Etravirine har foreløpig **ingen markedsføringstillatelse i Norge** — 0 lisenser på post. Ingen produkt-/doseringsformdata er tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-**Rationale:**
-The congenital HIV and AIDS-related complex candidates have reasonable mechanistic coherence and L2-level supporting evidence (etravirine is already used off-label in pregnancy with existing PK data). However, this drug is not marketed in Norway (0 authorizations) and lacks essential safety label data (Blocking gap DG001), which by definition prevents entry into the S1 safety pre-assessment stage. A "Proceed with Guardrails" recommendation cannot be responsibly issued until basic safety documentation is available.
+**Kritisk begrensning:** TFDA-ekvivalente merkingadvarsler og kontraindikasjoner er flagget som en **blokkerande-alvorlighets-datakløft (DG001)** i denne bevispapakken — «påvirkning: kan ikke gå videre til S1 sikkerhetsvurdering.» Ingen legemiddel-legemiddel-interaksjondata ble funnet (spørringstatus: ikke funnet). Dette kløftet må løses før ytterligere klinisk utviklingsdiskusjon.
 
-**To proceed, the following is needed:**
-- Obtain TFDA/manufacturer product label (warnings, contraindications, DDI) — Blocking gap DG001
-- Obtain DrugBank/manufacturer MOA documentation — High-priority gap DG002
-- Manually verify and correct trial-to-disease mapping (e.g., NCT04273165 misclassified under congenital-HIV/rare neurodevelopmental disorder clusters)
-- Clarify Norway regulatory pathway status, since the drug currently holds zero local authorizations
-- If pursuing the perinatal/congenital HIV indication, prioritize sourcing additional pregnancy-specific safety and dosing data beyond the single PK trial and case-series literature currently available
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avhold**
+
+**Begrunnelse:**
+Medfødt HIV og AIDS-relatert kompleks-kandidatene har rimelig mekanistisk sammenheng og L2-nivå-støttende bevis (etravirine er allerede brukt off-label i graviditet med eksisterende PK-data). Imidlertid er dette legemiddelet ikke markedsført i Norge (0 godkjenninger) og mangler essensielle sikkerhetsmerkingsdata (blokkerande kløft DG001), som per definisjon forhindrer inngang til S1 sikkerhetsvurdering. En «Fortsett med sikkerhetstiltak»-anbefaling kan ikke ansvarlsfullt utstedes før grunnleggende sikkerhetsdokumentasjon er tilgjengelig.
+
+**For å fortsette, kreves følgende:**
+- Innhent TFDA/produsent-produktmerking (advarsler, kontraindikasjoner, DDI) — blokkerande kløft DG001
+- Innhent DrugBank/produsent MOA-dokumentasjon — høyt prioritert kløft DG002
+- Manuelt bekrefte og korrigere forsøk-til-sykdom-kartlegging (f.eks. NCT04273165 feilklassifisert under medfødt-HIV/sjelden nevroutviklings-forstyrrelseklynger)
+- Klargjør Norges regulatoriske veiledesStatus, siden legemiddelet foreløpig har null lokale godkjenninger
+- Hvis man forfølger perinatal/medfødt HIV-indikasjonen, prioriterer du innhenting av tilleggsstøttende graviditet-spesifikk sikkerhet og doseringsdata utover den enkeltstandende PK-studie og kasuistikk-litteratur som for øyeblikket er tilgjengelig
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

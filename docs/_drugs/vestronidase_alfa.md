@@ -29,77 +29,78 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Vestronidase Alfa: From Mucopolysaccharidosis VII (Sly Syndrome) to Scheie Syndrome
+# Vestronidase Alfa: Fra Mucopolysaccharidose VII (Sly-syndrom) til Scheie-syndrom
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Vestronidase alfa is a recombinant human β-glucuronidase (GUS) enzyme replacement therapy, originally developed for Mucopolysaccharidosis VII (MPS VII, Sly syndrome).
-> The TxGNN model predicts it may be effective for **Scheie syndrome**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the underlying enzyme deficiency in Scheie syndrome does not match the drug's target.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Mucopolysaccharidosis VII (MPS VII, Sly syndrome) — inferred from supporting literature in this evidence pack |
-| Predicted New Indication | Scheie syndrome |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L5 |
-| Norway Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Vestronidase alfa er en rekombinant humant β-glukuronidase (GUS) enzymerstattingsterapi, opprinnelig utviklet for Mucopolysaccharidose VII (MPS VII, Sly-syndrom).
+> TxGNN-modellen forutsier at den kan være effektiv for **Scheie-syndrom**, men denne prediksjonen støttes foreløpig av **0 kliniske forsøk** og **0 publikasjoner**, og det underliggende enzymmangelen i Scheie-syndrom samsvarer ikke med stoffets mål.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversikt
 
-Currently, detailed mechanism of action data is not available (Data Gap: DG002). Based on information available in this evidence pack, vestronidase alfa is a recombinant human β-glucuronidase (GUS) enzyme replacement therapy. Its approved and clinically studied use is Mucopolysaccharidosis VII (Sly syndrome), a lysosomal storage disorder caused specifically by GUS deficiency; the Phase 3 pivotal trial (UX003-CL301, NCT02377921) demonstrated reduced urinary glycosaminoglycans (GAG) in this population.
-
-Scheie syndrome, however, is a mild form of Mucopolysaccharidosis I (MPS I), caused by deficiency of **α-L-iduronidase**, not GUS. The standard enzyme replacement therapy for MPS I is laronidase — a different recombinant enzyme entirely. TxGNN's prediction appears to be driven by broad semantic similarity between "lysosomal storage diseases" in the knowledge graph, rather than by any shared enzymatic or metabolic pathway. The repurposing rationale in this evidence pack explicitly flags this as a mechanistic mismatch: vestronidase alfa is not a candidate therapy for α-L-iduronidase deficiency.
-
-Given this, the prediction should be treated as a hypothesis-generation signal only, not as a mechanistically grounded lead.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Mucopolysaccharidose VII (MPS VII, Sly-syndrom) — utledet fra støttende litteratur i denne bevissamlingen |
+| Forutsagt ny indikasjon | Scheie-syndrom |
+| TxGNN-prediksjonspoengsum | 99.90% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt avgjørelse | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available
+Foreløpig er detaljert virkningsmekanisme-data ikke tilgjengelig (Datagap: DG002). Basert på informasjon som er tilgjengelig i denne bevissamlingen, er vestronidase alfa en rekombinant humant β-glukuronidase (GUS) enzymerstattingsterapi. Dens godkjente og klinisk studerte bruk er Mucopolysaccharidose VII (Sly-syndrom), en lysosomalt lagringssykdom forårsaket spesifikt av GUS-mangel; fase 3-pivotforsøket (UX003-CL301, NCT02377921) demonstrerte redusert urin-glykosaminoglykaner (GAG) i denne populasjonen.
 
----
+Scheie-syndrom er imidlertid en mild form av Mucopolysaccharidose I (MPS I), forårsaket av mangel på **α-L-iduronidase**, ikke GUS. Standardenzymerstattingsterapien for MPS I er laronidase — et helt annet rekombinant enzym. TxGNNs prediksjon ser ut til å være drevet av bred semantisk likhet mellom «lysosomale lagringssykdommer» i kunnskapsgrafen, snarere enn av noen delt enzymatisk eller metabolsk vei. Begrunnelsen for gjenbruk i denne bevissamlingen flagget eksplisitt dette som et mekanistisk misforhold: vestronidase alfa er ikke en kandidatterapi for α-L-iduronidase-mangel.
 
-## Norway Market Information
-
-Vestronidase alfa currently has no marketing authorization in Norway (market status: not marketed; 0 authorizations on file).
+Gitt dette, bør prediksjonen behandles som et hypotesegenerasjonssignal kun, ikke som en mekanistisk begrunnet kandidat.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøk
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/label warnings and contraindications data are currently a **Blocking** data gap — DG001 — preventing entry into the S1 safety pre-assessment stage.)*
+Foreløpig ingen relaterte kliniske forsøk registrert
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra litteratur
 
-**Decision: Hold**
+Foreløpig ingen relatert litteratur tilgjengelig
 
-**Rationale:**
-The predicted indication (Scheie syndrome) has no supporting clinical trials or literature, and the enzyme deficiency underlying Scheie syndrome (α-L-iduronidase) does not match vestronidase alfa's target (GUS) — there is no mechanistic basis for repurposing. In addition, a Blocking data gap (missing TFDA label/warnings) prevents this candidate from entering safety pre-assessment regardless of efficacy evidence.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert / label with warnings and contraindications (DG001, Blocking)
-- Confirmed mechanism of action documentation from DrugBank (DG002, High)
-- Direct genetic or enzymatic evidence linking GUS replacement therapy to α-L-iduronidase-deficient disease before further evaluation
-- Consider re-evaluating lower-ranked candidates in this pack (e.g., Hurler syndrome, Sanfilippo syndrome) only after confirming they do not share the same GUS/α-L-iduronidase mismatch identified here — both currently also show mechanistic incompatibility per the repurposing rationale
+## Markedsinformasjon for Norge
+
+Vestronidase alfa har foreløpig ingen markedsføringstillatelse i Norge (markedsstatus: ikke markedsført; 0 godkjenninger på fil).
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+*(Merk: TFDA-etikett/advarsler og kontraindikasjonsdata er foreløpig et **blokerende** datagap — DG001 — som hindrer inngangen til sikkerhetsvurderingsstadiet S1.)*
+
+---
+
+## Konklusjon og neste skritt
+
+**Avgjørelse: Avvent**
+
+**Begrunnelse:**
+Den forutsagte indikasjonen (Scheie-syndrom) har ingen støttende kliniske forsøk eller litteratur, og enzymmangelen som ligger til grunn for Scheie-syndrom (α-L-iduronidase) samsvarer ikke med vestronidase altas mål (GUS) — det er ingen mekanistisk basis for gjenbruk. I tillegg hindrer et blokerende datagap (manglende TFDA-etikett/advarsler) denne kandidaten fra å inngå i sikkerhetsvurderingen uavhengig av effektivitetsbevis.
+
+**For å gå videre, kreves følgende:**
+- TFDA-pakningsvedlegg / etikett med advarsler og kontraindikasjoner (DG001, blokkering)
+- Bekreftet virkningsmekanisme-dokumentasjon fra DrugBank (DG002, Høy)
+- Direkte genetisk eller enzymatisk bevis som knytter GUS-erstatningsterapi til α-L-iduronidase-mangel før videre evaluering
+- Vurder å re-evaluere lavere-rangerte kandidater i denne pakken (f.eks. Hurler-syndrom, Sanfilippo-syndrom) kun etter å ha bekreftet at de ikke deler det samme GUS/α-L-iduronidase-misforholdet som er identifisert her — begge viser foreløpig også mekanistisk inkompatibilitet per begrunnelsen for gjenbruk
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

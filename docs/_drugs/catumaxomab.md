@@ -29,68 +29,63 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-Using no formal skill here — this is a direct documentation/report-writing task with a fixed template, not a coding or debugging task requiring skill workflows.
+# Catumaxomab: Fra ikke tilgjengelig til alvorlig ikke-proliferativ diabetisk retinopati
 
-Note: The evidence pack uses field name `taiwan_regulatory` and `candidate_id: TW-...`, with Chinese-language field values (e.g., `market_status: "Not marketed"`), confirming this is a **Taiwan** market context — I've labeled the market section accordingly rather than "Norway" (the latter appears to be a template artifact from a different country's report).
+## Sammendrag på en setning
 
----
+> Catumaxomabs opprinnelige indikasjon og virkningsmekanisme er ikke dokumentert i denne evidenspakken (datagap DG002, høy alvorlighetsgrad).
+> TxGNN-modellen predikerer at det kan være effektivt for **alvorlig ikke-proliferativ diabetisk retinopati**,
+> men dette er en **modellscore-kun-prediksjon (L5)** — ingen kliniske forsøk eller litteratur støtter dette for tiden, og to andre kandidater (legemiddelindusert osteoporose, diabetisk retinopati) viser samme mønster.
 
-# Catumaxomab: From Not Available to Severe Nonproliferative Diabetic Retinopathy
+## Rask oversikt
 
-## One-Sentence Summary
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke tilgjengelig (ingen data gitt; se datagap DG002) |
+| Predikert ny indikasjon | Alvorlig ikke-proliferativ diabetisk retinopati |
+| TxGNN-prediksjonsscore | 99.64% |
+| Bevisnivå | L5 |
+| Markedsstatus i Taiwan | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
-> Catumaxomab's original indication and mechanism of action are not documented in this evidence pack (Data Gap DG002, High severity).
-> The TxGNN model predicts it may be effective for **Severe Nonproliferative Diabetic Retinopathy**,
-> but this is a **model-score-only prediction (L5)** — no clinical trials or literature currently support it, and two other candidates (drug-induced osteoporosis, diabetic retinopathy) show the same pattern.
+## Hvorfor er denne prediksjonen rimelig?
 
-## Quick Overview
+For tiden er detaljert virkningsmekanisme-data ikke tilgjengelig for catumaxomab i denne evidenspakken (datagap DG002, høy alvorlighetsgrad), og ingen opprinnelig indikasjon ble gitt heller. Dette betyr at den farmakologiske sammenhengen mellom catumaxomabs etablerte bruk og de predikerte nye indikasjonene ikke kan fastslås ut fra de tilgjengelige dataene.
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available (no data provided; see Data Gap DG002) |
-| Predicted New Indication | Severe nonproliferative diabetic retinopathy |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Enda viktigere er at evidenspakkens eget ombruksresonnement argumenterer **mot** mekanistisk sannsynlighet for alle tre rangerte kandidater. Resonnementet beskriver catumaxomab som en trifunksjonell bisspesifikk antistoff (anti-EpCAM × anti-CD3) som virker via T-celle–mediert tumorcytolysis, krever intraperitonealt administrasjon, og har en kjent risiko for systemisk cytokinutløsningsreaksjon. Det sier eksplisitt at det er **ingen kjent biologisk sammenheng** mellom denne mekanismen og enten den vaskulære/metabolske patologien ved diabetisk retinopati (rangering 1 og 3) eller osteoklast/osteoblast-benremodeleringsvei (rangering 2), og flaggerer «høy mekanistisk usannsynlighet».
 
-## Why is This Prediction Reasonable?
+Gitt at de høye TxGNN-scoreene (>99% for alle tre) ikke korroboreres av noen mekanistisk, preklinisk eller klinisk evidens — og direkte motbevisdes av modellens eget resonnement — bør disse kandidatene behandles som kun modellstatistiske signaler snarere enn vitenskapelig støttede ombruksypoteser for tiden.
 
-Currently, detailed mechanism of action data is not available for catumaxomab in this evidence pack (Data Gap DG002, High severity), and no original indication was provided either. This means the pharmacological relationship between catumaxomab's established use and the predicted new indications cannot be established from the data on hand.
+## Bevis fra kliniske forsøk
 
-More importantly, the evidence pack's own repurposing rationale argues **against** mechanistic plausibility for all three ranked candidates. The rationale text describes catumaxomab as a trifunctional bispecific antibody (anti-EpCAM × anti-CD3) that works via T-cell–mediated tumor cytolysis, requires intraperitoneal administration, and carries a known risk of systemic cytokine release reaction. It explicitly states there is **no known biological link** between this mechanism and either the vascular/metabolic pathology of diabetic retinopathy (ranks 1 and 3) or osteoclast/osteoblast bone-remodeling pathways (rank 2), and flags "high mechanistic implausibility."
+Ingen relaterte kliniske forsøk er registrert for tiden.
 
-Given that the high TxGNN scores (>99% for all three) are not corroborated by any mechanistic, preclinical, or clinical evidence — and are directly contradicted by the model's own rationale text — these candidates should be treated as model-only statistical signals rather than scientifically supported repurposing hypotheses at this time.
+## Bevis fra litteratur
 
-## Clinical Trial Evidence
+Ingen relatert litteratur er for tiden tilgjengelig.
 
-Currently no related clinical trials registered.
+## Markedsinformasjon for Taiwan
 
-## Literature Evidence
+Catumaxomab er **ikke markedsført i Taiwan** (0 registrerte autorisasjoner). Ingen produktlisens eller godkjent-indikasjon-data er tilgjengelig i denne evidenspakken.
 
-Currently no related literature available.
+## Sikkerhetshensyn
 
-## Taiwan Market Information
+Vennligst se pakningsvedlegg for sikkerhetsopplysninger. (TFDA-advarsler/kontraindikasjon-data er et **blokkerende** datagap — DG001 — og må løses før sikkerhetsvurdering på S1 kan fortsette.)
 
-Catumaxomab is **not marketed in Taiwan** (0 authorizations on record). No product license or approved-indication data is available in this evidence pack.
+## Konklusjon og neste trinn
 
-## Safety Considerations
+**Beslutning: Avvent**
 
-Please refer to the package insert for safety information. (TFDA warnings/contraindications data is a **Blocking** data gap — DG001 — and must be resolved before any safety assessment can proceed.)
+**Resonnement:**
+Bevisnivå er L5 (modellscore kun) for alle tre predikerte indikasioner, med null støtte fra kliniske forsøk eller litteratur. Modellens eget resonnement argumenterer mot sannsynlighet, legemidlet er umarkedsført i Taiwan, og et blokkerende-alvorlighetsgrads sikkerhetsdatagap (TFDA-advarsler/kontraindikasioner) gjenstår uløst.
 
-## Conclusion and Next Steps
+**For å fortsette, trengs følgende:**
+- TFDA pakningsvedlegg / advarsler og kontraindikasjon-data (løser DG001, blokkerende — nødvendig før sikkerhetsvurdering på S1)
+- Catumaxomab virkningsmekanisme-detaljer fra DrugBank (løser DG002, høy)
+- Opprinnelig indikasjon og godkjent klinisk brukshistorie for catumaxomab
+- Enhver preklinisk eller klinisk evidens som direkte forbinder EpCAM×CD3 T-celle-engasjement til diabetisk retinopati eller osteoporose-patofysiologi, hvis denne kandidaten skal vurderes på nytt
 
-**Decision: Hold**
-
-**Rationale:**
-Evidence level is L5 (model score only) for all three predicted indications, with zero supporting clinical trials or literature. The model's own mechanistic rationale argues against plausibility, the drug is unmarketed in Taiwan, and a Blocking-severity safety data gap (TFDA warnings/contraindications) remains unresolved.
-
-**To proceed, the following is needed:**
-- TFDA package insert / warnings and contraindications data (resolves DG001, Blocking — required before any S1 safety screening)
-- Catumaxomab mechanism of action detail from DrugBank (resolves DG002, High)
-- Original indication and approved clinical usage history for catumaxomab
-- Any preclinical or clinical evidence directly linking EpCAM×CD3 T-cell engagement to diabetic retinopathy or osteoporosis pathophysiology, if this candidate is to be revisited
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

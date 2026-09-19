@@ -29,76 +29,77 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Posaconazole: From Invasive Fungal Infection Prophylaxis to Pneumocystosis
+# Posaconazol: Fra profylakse av invasiv soppinfeksjon til pneumocystose
 
-## One-Sentence Summary
+## Sammenfatning på en setning
 
-Posaconazole is a triazole antifungal used in known clinical practice for prophylaxis of invasive fungal infections (e.g., aspergillosis, candidiasis) in high-risk immunocompromised patients.
-The TxGNN model predicts it may be effective for **Pneumocystosis (Pneumocystis jirovecii pneumonia, PCP)**,
-with **2 clinical trials** and **5 publications** currently identified, though none directly and specifically validate posaconazole use in PCP.
+Posaconazol er et triazol-soppmiddel som brukes i kjent klinisk praksis for profylakse av invasiv soppinfeksjon (f.eks. aspergillosis, candidose) hos høyrisikoimmunokompromitterte pasienter.
+TxGNN-modellen forutsier at det kan være effektivt for **pneumocystose (Pneumocystis jirovecii-pneumoni, PCP)**,
+med **2 kliniske forsøk** og **5 publikasjoner** identifisert til nå, selv om ingen direkte og spesifikt validerer bruk av posaconazol ved PCP.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Prophylaxis of invasive fungal infections (Aspergillus/Candida) in high-risk immunocompromised patients (based on known drug-class use; no Norway license data available) |
-| Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L4 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Profylakse av invasiv soppinfeksjon (Aspergillus/Candida) hos høyrisikoimmunokompromitterte pasienter (basert på kjent stoffklasseanvendelse; ingen norsk lisensdata tilgjengelig) |
+| Forutsagt ny indikasjon | Pneumocystose |
+| TxGNN-prediksjonspoeng | 99.77% |
+| Bevisnivå | L4 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known pharmacology, posaconazole is a triazole antifungal that inhibits fungal CYP51 (14α-demethylase), blocking ergosterol synthesis in the fungal cell membrane. It is established for prevention of invasive fungal infections in high-risk populations such as patients with hematologic malignancy, prolonged neutropenia, or graft-versus-host disease (GVHD) after stem cell transplantation.
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelig i bevissakken. Basert på kjent farmakologi er posaconazol et triazol-soppmiddel som hemmer sopp-CYP51 (14α-demetylase), og blokkerer ergosterol-syntese i soppens cellemembranen. Det er etablert for forebygging av invasiv soppinfeksjon hos høyrisikopopulasjoner som pasienter med hematologisk malignitet, vedvarende nøytropeni, eller transplantat-mot-vert-sykdom (GVHD) etter stamcelletransplantasjon.
 
-Pneumocystis jirovecii is an atypical fungal organism with a distinct membrane sterol composition, and its susceptibility to conventional triazoles has historically been uncertain. However, posaconazole has documented off-label use as PCP prophylaxis/salvage therapy in patients intolerant of first-line TMP-SMX.
+Pneumocystis jirovecii er en atypisk sopporganisme med karakteristisk sterolsammensetning i membranen, og dens følsomhet for konvensjonelle triazol-midler har historisk vært usikker. Imidlertid har posaconazol dokumentert bruk utenfor godkjenning som PCP-profylakse/redningsbehandling hos pasienter som ikke tåler førstelinjebehandling TMP-SMX.
 
-This represents a mechanistic extension rather than a direct pharmacological indication — the same high-risk transplant/hematology-oncology patient population that receives posaconazole for mold/yeast prophylaxis is also at elevated risk for PCP, providing an epidemiological rationale that runs parallel to, but does not substitute for, direct clinical validation.
+Dette representerer en mekanistisk utvidelse snarere enn en direkte farmakologisk indikasjon — den samme høyrisikogruppen av transplantat-/hemato-onkologipasienter som mottar posaconazol for sopp-/gjærrofylakse er også i forhøyet risiko for PCP, og gir et epidemiologisk grunnlag som går parallelt med, men ikke erstatter, direkte klinisk validering.
 
-## Clinical Trial Evidence
+## Klinisk forsøksbevis
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Inkludering | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT04368559](https://clinicaltrials.gov/study/NCT04368559) | Phase 3 | Completed | 602 | Compared IV rezafungin (an echinocandin, not posaconazole) vs. standard antimicrobial regimen for prevention of invasive fungal disease in allogeneic HSCT recipients. Relevance is indirect — different drug class, and target indication was invasive candidiasis, not PCP. |
-| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Phase 2 | Recruiting | 358 | Platform trial evaluating post-transplant cyclophosphamide-based GVHD prophylaxis regimens in mismatched unrelated donor PBSC transplant. Does not specify posaconazole or PCP as primary endpoints; relevance limited to the shared high-risk transplant population background. |
+| [NCT04368559](https://clinicaltrials.gov/study/NCT04368559) | Fase 3 | Fullført | 602 | Sammenlignet IV rezafungin (en ekinokandin, ikke posaconazol) versus standard antimikrobiell regime for forebygging av invasiv soppinfeksjon hos allogene HSCT-mottakere. Relevansen er indirekte — annen stoffklasse, og målindikasjon var invasiv candidose, ikke PCP. |
+| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Fase 2 | Rekrutterer | 358 | Plattformforsøk som evaluerer posttransplantasjon cyklofosafamid-baserte GVHD-profylakseregimer ved mismatched urelativ donor PBSC-transplantasjon. Spesifiserer ikke posaconazol eller PCP som primære endepunkter; relevansen er begrenset til den delte høyrisikotransplantasjonspopulasjonsbakgrunnen. |
 
-Both trials are graded **C (indirect relevance)** — neither directly studies posaconazole for pneumocystosis.
+Begge forsøk er gradert **C (indirekte relevans)** — ingen av dem studerer direkte posaconazol for pneumocystose.
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Hovedfunn |
 |------|-----|------|------|---------|
-| [41232547](https://pubmed.ncbi.nlm.nih.gov/41232547/) | 2025 | Review/Guideline | Lancet Infectious Diseases | UK best-practice update on diagnosis of serious fungal diseases, covering non-culture diagnostic methods across invasive fungal disease categories including PCP. |
-| [26901377](https://pubmed.ncbi.nlm.nih.gov/26901377/) | 2016 | Review | Swiss Medical Weekly | Overview of invasive candidiasis, aspergillosis, cryptococcosis, and Pneumocystis pneumonia; notes posaconazole's established role in reducing invasive candidiasis in high-risk hemato-oncology patients, without direct PCP treatment data. |
-| [41362140](https://pubmed.ncbi.nlm.nih.gov/41362140/) | 2025 | Review/Guideline | Chinese Journal of Tuberculosis and Respiratory Diseases | 2025 clinical practice guideline for diagnosis/management of invasive pulmonary fungal disease in China, covering broad antifungal management principles. |
-| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | PK Study | Clinical Pharmacokinetics | Reviews pulmonary epithelial lining fluid penetration of antifungal agents, relevant to posaconazole's lung tissue distribution but not disease-specific efficacy. |
-| [35596686](https://pubmed.ncbi.nlm.nih.gov/35596686/) | 2022 | Cohort | Transplant Infectious Disease | Retrospective cohort on infectious complications (including fungal) in GVHD after liver transplantation; provides population context but no posaconazole-PCP outcome data. |
+| [41232547](https://pubmed.ncbi.nlm.nih.gov/41232547/) | 2025 | Oversikt/Retningslinje | Lancet Infectious Diseases | Oppdatering av beste praksis fra Storbritannia om diagnose av alvorlige soppinfeksjoner, som dekker ikke-kulturbaserte diagnostiske metoder på tvers av kategorier av invasiv soppinfeksjon inkludert PCP. |
+| [26901377](https://pubmed.ncbi.nlm.nih.gov/26901377/) | 2016 | Oversikt | Swiss Medical Weekly | Oversikt over invasiv candidose, aspergillosis, kryptokokkose og Pneumocystis-pneumoni; merker posaconazols etablert rolle i reduksjon av invasiv candidose hos høyrisko hemato-onkologipasienter, uten direkte PCP-behandlingsdata. |
+| [41362140](https://pubmed.ncbi.nlm.nih.gov/41362140/) | 2025 | Oversikt/Retningslinje | Chinese Journal of Tuberculosis and Respiratory Diseases | Retningslinje for klinisk praksis fra 2025 for diagnose/behandling av invasiv pulmonal soppinfeksjon i Kina, som dekker brede prinsipper for soppmiddelbehandling. |
+| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | PK-studie | Clinical Pharmacokinetics | Gjennomgår penetrasjon av soppmiddler i lungeepitels dekningsvæske, relevant for posaconazols fordeling i lungevev, men ikke sykdomsspesifikk effektivitet. |
+| [35596686](https://pubmed.ncbi.nlm.nih.gov/35596686/) | 2022 | Kohort | Transplant Infectious Disease | Retrospektiv kohort over infeksiøse komplikasjoner (inkludert sopp) ved GVHD etter levertransplantasjon; gir populasjonskontekst, men ingen posaconazol-PCP-utfallsdata. |
 
-No publication in the current evidence pack reports a direct clinical outcome of posaconazole used specifically to treat or prevent pneumocystosis.
+Ingen publikasjon i dagens bevissakk rapporterer et direkte klinisk utfall av posaconazol brukt spesifikt til å behandle eller forebygge pneumocystose.
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Posaconazole is currently **not marketed in Norway**, and no drug authorization (marketing license) records are available in this evidence pack.
+Posaconazol markedsføres for tiden **ikke i Norge**, og ingen legemiddelgodkjennelses- eller markedsføringslisensoversikt er tilgjengelig i denne bevissakken.
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-## Conclusion and Next Steps
+## Konklusjon og neste steg
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-Evidence is limited to mechanistic plausibility (L4) — the identified clinical trials are only indirectly related (different drug or different primary indication), and the literature consists of reviews/guidelines and background cohort data rather than direct evidence of posaconazole efficacy in pneumocystosis. The drug is also not currently marketed in Norway, and a blocking safety data gap (product label warnings/contraindications) prevents a complete S1 safety assessment.
+**Begrunnelse:**
+Beviset er begrenset til mekanistisk plausibilitet (L4) — de identifiserte kliniske forsøkene er kun indirekte relatert (annen legemiddel eller annen primær indikasjon), og litteraturen består av oversikter/retningslinjer og bakgrunnskohortsdata snarere enn direkte bevis på posaconazols effektivitet ved pneumocystose. Legemiddelet markedsføres heller ikke for tiden i Norge, og et blokkerende sikkerhetsdatakavium (advarsler på produktetiketten/kontraindikasjoner) forhindrer en fullstendig S1-sikkerhetsvurdering.
 
-**To proceed, the following is needed:**
-- Norway/TFDA-equivalent package insert data (warnings, contraindications, DDI) to close the blocking data gap (DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Direct clinical or in vitro evidence of posaconazole activity against *Pneumocystis jirovecii*, ideally dedicated PCP prophylaxis/treatment trials
-- Route of administration and dosing feasibility assessment for the PCP patient population
-- Clarification of original approved indication(s) and license status, since no Norway license records currently exist
+**For å fortsette er følgende nødvendig:**
+- Norge/TFDA-ekvivalent pakningsvedleggdata (advarsler, kontraindikasjoner, DDI) for å lukke det blokkerende sikkerhetsdatakaviumet (DG001)
+- Bekreftet virkningsmekanismedata fra DrugBank (DG002)
+- Direkte klinisk eller in vitro-bevis på posaconazols aktivitet mot *Pneumocystis jirovecii*, ideelt dedikerte PCP-profylakse/behandlingsforsøk
+- Vurdering av administreringsrute og doseringsmulighet for PCP-pasientpopulasjonen
+- Avklaring av originalindikasjon(er) og lisenstatus, da ingen norske godkjenningsarkiver finnes for tiden
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

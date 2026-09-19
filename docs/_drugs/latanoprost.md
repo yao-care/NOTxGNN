@@ -29,78 +29,79 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Latanoprost: From Ophthalmic Glaucoma Use to Primary Hereditary Glaucoma
+# Latanoprost: Fra øyeglaukom til primær arvelig glaukom
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-> Latanoprost is a prostaglandin F2α analogue used to lower intraocular pressure in glaucoma; the evidence pack does not carry a formally recorded original indication (drug is not yet marketed in Norway), but its established pharmacology already targets the glaucoma disease spectrum.
-> The TxGNN model's top prediction — **Primary Hereditary Glaucoma** — is essentially a genetic subtype within that same spectrum rather than a novel disease area, and is supported by **1 completed Phase 2 clinical trial** and **0 publications**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (no Norway license record; drug is a prostaglandin analogue known for IOP-lowering / glaucoma use, per mechanistic notes) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L2 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+> Latanoprost er et prostaglandin F2α-analogon som brukes til å senke øyetrykket ved glaukom; bevisepakken inneholder ingen formelt registrert originalindikasjon (legemidlet er ikke markedsført i Norge ennå), men den etablerte farmakologien retter seg allerede mot glaukomsjukdomsspekteret.
+> TxGNN-modellens toppprediksjon — **Primær arvelig glaukom** — er i hovedsak en genetisk undertype innenfor samme spekter i stedet for et nytt sykdomsområde, og støttes av **1 fullført fase 2-klinisk studie** og **0 publikasjoner**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data (`original_moa`) is not available as a structured field. However, the repurposing rationale confirms that latanoprost is a **prostaglandin F2α analogue (FP receptor agonist)** that lowers intraocular pressure by increasing **uveoscleral outflow** — the standard mechanism underlying all approved prostaglandin-analogue glaucoma therapies.
-
-Primary hereditary glaucoma is a genetically-defined subtype within the broader glaucoma disease spectrum. Because the predicted indication shares the same underlying pathophysiology (elevated intraocular pressure) as the drug's known pharmacological target, this is better characterized as an **extension of an existing indication class** rather than a true cross-disease repurposing hypothesis — a point explicitly noted in the model's own rationale.
-
-The remaining 9 predicted indications in this evidence pack (e.g., visceral calciphylaxis, thoracic outlet syndrome subtypes, angiodysplasia, blue toe syndrome, lymphangiectasis) have **no identified mechanistic link** to FP-receptor agonism and are flagged as statistical knowledge-graph associations without biological plausibility — all rated L5/Hold and excluded from further evidence review below.
+| Emne | Innhold |
+|------|---------|
+| Originalindikasjon | Ikke tilgjengelig i bevisepakken (ingen lisensregistrering i Norge; legemidlet er et prostaglandinanalogon som er kjent for IOP-senking / glaukombruk, basert på mekanistiske notater) |
+| Predikert ny indikasjon | Primær arvelig glaukom |
+| TxGNN-prediksjonsscore | 99.88% |
+| Bevisnivå | L2 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Fortsett med sikringstiltak |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+For tiden er detaljerte data om virkningsmekanisme (`original_moa`) ikke tilgjengelig som et strukturert felt. Imidlertid bekrefter begrunnelsen for omformål at latanoprost er et **prostaglandin F2α-analogon (FP-reseptoragonist)** som senker øyetrykket ved å øke **uveoskleralt utflyt** — standardmekanismen som ligger til grunn for all godkjent prostaglandinanalog-glaukomterapi.
+
+Primær arvelig glaukom er en genetisk definert undertype innenfor det bredere glaukomsjukdomsspekteret. Fordi den predikerte indikasjonen deler samme underliggende patofysiologi (forhøyet øyetrykk) som legemidlets kjente farmakologiske mål, er dette bedre karakterisert som en **utvidelse av en eksisterende indikasjonklasse** i stedet for en sann tverrsykdom-omformålshypotese — et punkt som er eksplisitt notert i modellens egen begrunnelse.
+
+De resterende 9 predikerte indikasjonene i denne bevisepakken (f.eks. viscerale calciphylaksis, thoracic outlet-syndromer, angiodysplasi, blå tå-syndrom, lymfangiektasi) har **ingen identifisert mekanistisk kobling** til FP-reseptoragonisme og er flagget som statistiske forbindelser fra kunnskapsgraf uten biologisk plausibilitet — alle rangert L5/Avvent og ekskludert fra ytterligere bevisgjennomgang nedenfor.
+
+---
+
+## Klinisk studieevidens
+
+| Studienummer | Fase | Status | Antall deltakere | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Phase 2 | Completed | 37 | Assessed ocular hypotensive effect and safety of latanoprost combined with dorzolamide in pediatric primary glaucoma refractory to surgery |
+| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Fase 2 | Fullført | 37 | Evaluerte øyetrykkssenking og sikkerhet av latanoprost kombinert med dorzolamid hos pediatriske pasienter med primær glaukom som er refraktær overfor kirurgi |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
-
----
-
-## Norway Market Information
-
-Latanoprost currently holds **no marketing authorization in Norway** (market status: Not Marketed, 0 licenses on record). No product/dosage-form information is available for this evidence pack.
+For tiden er ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Safety Considerations
+## Norges markedsinformasjon
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug-drug interaction data were retrievable at this time (DDI query returned no results).
+Latanoprost har for tiden **ingen markedsgodkjenning i Norge** (markedsstatus: Ikke markedsført, 0 lisenser på register). Ingen produkt-/doseringsforminformasjon er tilgjengelig for denne bevisepakken.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetsvurderinger
 
-**Decision: Proceed with Guardrails**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Ingen viktige advarsler, kontraindikasjoner eller legemiddelinteraksjondata kunne hentes fram på dette tidspunktet (DDI-søk returnerte ingen resultater).
 
-**Rationale:**
-One completed Phase 2 trial directly supports use of latanoprost (and combination therapy) in a related pediatric glaucoma population, and the mechanistic link to primary hereditary glaucoma is strong since both fall within the same IOP-lowering therapeutic rationale. However, the drug has no current Norway market authorization and lacks formal safety/label data, so guardrails are required before any commercial or clinical advancement.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory label data (warnings, contraindications) — currently blocking per data gap DG001
-- Confirmed mechanism-of-action documentation from DrugBank (DG002)
-- Clarification of the drug's actual original/approved indication history, since no license records exist in Norway
-- Assessment of whether "primary hereditary glaucoma" requires a distinct regulatory pathway from general glaucoma indications, or whether this is more appropriately treated as label extension rather than repurposing
-- The 9 lower-ranked predictions (L5/Hold) require no further action unless new mechanistic or trial evidence emerges
+## Konklusjon og neste trinn
+
+**Beslutning: Fortsett med sikringstiltak**
+
+**Begrunnelse:**
+En fullført fase 2-studie støtter direkte bruk av latanoprost (og kombinasjonsterapi) i en relatert pediatrisk glaukom-populasjon, og den mekanistiske koblingen til primær arvelig glaukom er sterk siden begge faller innenfor samme terapeutiske begrunnelse for IOP-senking. Legemidlet har imidlertid ingen gjeldende markedsgodkjenning i Norge og mangler formale sikkerhets-/etikett-data, så sikringstiltak er påkrevd før noen kommersielle eller kliniske framskritt.
+
+**For å fortsette, trengs følgende:**
+- TFDA/regulatoriske etikettdata (advarsler, kontraindikasjoner) — for tiden blokkert per datagjap DG001
+- Bekreftet dokumentasjon av virkningsmekanisme fra DrugBank (DG002)
+- Avklaring av legemidlets faktiske original-/godkjente indikasjonhistorie, siden ingen lisensregistreringer eksisterer i Norge
+- Vurdering av hvorvidt «primær arvelig glaukom» krever en distinkt regulatorisk vei fra generelle glaukomindikasjon, eller om dette er mer passende behandlet som etikettutvidelse i stedet for omformål
+- De 9 lavere-rangerte prediksjoner (L5/Avvent) krever ingen videre handling med mindre nye mekanistiske eller studieevidens kommer fram
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

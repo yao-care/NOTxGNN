@@ -29,74 +29,75 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Insulin Human: From Diabetes Mellitus to Autoimmune Oophoritis
+# Insulin Human: Fra Diabetes Mellitus til autoimmun ooforitt
 
-## One-Sentence Summary
+## Sammenfatting i en setning
 
-Insulin Human is the biosynthetic equivalent of endogenous human insulin, originally used to control blood glucose in diabetes mellitus. The TxGNN model predicts it may be effective for **Autoimmune Oophoritis**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale confirms no known mechanistic connection between the two.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Diabetes Mellitus (Type 1/2, glycaemic control) — not formally documented in Taiwan license data (drug is not marketed) |
-| Predicted New Indication | Autoimmune Oophoritis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Insulin Human er den biosynttetiske ekvivalenten av endogent humaninsulin, opprinnelig brukt til å kontrollere blodglukose ved diabetes mellitus. TxGNN-modellen forutsier at det kan være effektivt for **autoimmun ooforitt**, men denne retningen er for øyeblikket støttet av **0 kliniske forsøk** og **0 publikasjoner**, og modellens egen begrunnelse bekrefter ingen kjent mekanistisk forbindelse mellom de to.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available (flagged as a data gap in the evidence pack). Based on general clinical knowledge, Insulin Human is used to replace or supplement endogenous insulin for glycaemic control in diabetes mellitus. It is not currently marketed in Taiwan, so no formal Taiwanese label text exists to cross-reference.
-
-For the top-ranked prediction, autoimmune oophoritis, the evidence pack's own repurposing rationale states there is **no direct physiological connection** between insulin and autoimmune oophoritis. The high TxGNN score is most likely driven by indirect co-occurrence of autoimmune-disease nodes within the knowledge graph, rather than a biologically interpretable mechanism. This is a case where a high model confidence score does not correspond to a credible pharmacological hypothesis.
-
-It is also worth noting that this evidence pack contains 10 predicted indications for insulin, and the pattern across them is informative: several (drug-induced localized lipodystrophy, centrifugal lipodystrophy, pressure-induced localized lipoatrophy, idiopathic localized lipodystrophy) are very likely **reversed-causality artifacts** — insulin injection is a well-known *cause* of localized lipodystrophy, not a treatment for it. The only candidate in the batch with a coherent clinical rationale is rank 9, "pancreatic agenesis" (L3, decision stage S2, "Research Question"), where insulin replacement is already standard care for the resulting neonatal diabetes — but this reflects existing practice rather than a genuinely novel indication. None of the batch currently rises to a level warranting active investment.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Diabetes Mellitus (type 1/2, glukosekontroll) — ikke formelt dokumentert i taiwanske lisensdataer (legemidlet er ikke på markedet) |
+| Forutsagt ny indikasjon | Autoimmun ooforitt |
+| TxGNN prediksjonspoeng | 99.84% |
+| Evidensnivå | L5 |
+| Taiwan markedsstatus | Ikke på markedet (Ikke på markedet) |
+| Antall godkjenninger | 0 |
+| Anbefalt avgjørelse | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available
+For øyeblikket er data om detaljert virkningsmekanisme ikke tilgjengelig (flagget som et datagap i evidenspakken). Basert på generell klinisk kunnskap brukes Insulin Human til å erstatte eller supplere endogent insulin for glukosekontroll ved diabetes mellitus. Det er ikke for øyeblikket på markedet i Taiwan, så ingen formell taiwansk etikettekst eksisterer for kryssreferanse.
 
----
+For den øverst rangerte prediksjonen, autoimmun ooforitt, sier evidenspakkens egen begrunnelse for ombruk at det er **ingen direkte fysiologisk forbindelse** mellom insulin og autoimmun ooforitt. Den høye TxGNN-skåren er mest sannsynlig drevet av indirekte samforekomst av autoimmun-sykdom-noder innenfor kunnskapsgrafen, snarere enn en biologisk tolkbar mekanisme. Dette er et tilfelle hvor en høy modellkonfidensscore ikke korresponderer med en troverdig farmakologisk hypotese.
 
-## Taiwan Market Information
-
-Insulin Human is not currently marketed in Taiwan (0 authorizations on record), so no product licenses are available to summarize.
+Det er også verdt å merke seg at denne evidenspakken inneholder 10 forutsagte indikasjoner for insulin, og mønsteret på tvers av dem er informativt: flere (stoff-indusert lokalisert lipodystrofi, sentrifugal lipodystrofi, trykkindusert lokalisert lipoatrofi, idiopatisk lokalisert lipodystrofi) er meget sannsynlig **artefakter fra omvendt kausalitet** — insulininjeksjon er en velkjent *årsak* til lokalisert lipodystrofi, ikke en behandling for det. Den eneste kandidaten i batchen med en koherent klinisk begrunnelse er rang 9, "pankreasagenesi" (L3, beslutningsstadium S2, "Forskningsspørsmål"), hvor insulinerstatning allerede er standardbehandling for den resulterende neonataldiabetes — men dette gjenspeiler eksisterende praksis snarere enn en genuint ny indikasjon. Ingen av kandidatene i batchen når for øyeblikket til et nivå som rettferdiggjør aktivt arbeid.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøksbevis
 
-Please refer to the package insert for safety information.
+For øyeblikket ingen relaterte kliniske forsøk registrert
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For øyeblikket ingen relatert litteratur tilgjengelig
 
-**Rationale:**
-There is no clinical trial or literature evidence supporting insulin for autoimmune oophoritis, and the mechanistic rationale explicitly states there is no known pathophysiological link — this pattern is consistent with a spurious knowledge-graph co-occurrence rather than a genuine therapeutic signal.
+---
 
-**To proceed, the following is needed:**
-- TFDA label warnings/contraindications data (blocking gap — required before any S1 safety screening can proceed)
-- DrugBank mechanism-of-action data (high-priority gap affecting mechanistic assessment)
-- Any preclinical or immunological evidence directly linking insulin signaling to ovarian autoimmune pathology, before this candidate is reconsidered
-- If further exploration in this drug's prediction batch is desired, redirect attention to rank 9 (pancreatic agenesis), which has a plausible mechanism and L3 evidence, rather than the top-scored but mechanistically unsupported candidate
+## Taiwan markedsinformasjon
+
+Insulin Human er ikke for øyeblikket på markedet i Taiwan (0 godkjenninger på posten), så ingen produktlisensdata er tilgjengelige for oppsummering.
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Avgjørelse: Avvent**
+
+**Begrunnelse:**
+Det er ingen klinisk forsøks- eller litteraturbevis som støtter insulin for autoimmun ooforitt, og den mekanistiske begrunnelsen sier eksplisitt at det ikke er noen kjent patofysiologisk forbindelse — dette mønsteret er i samsvar med en falsk samforekomst innenfor kunnskapsgrafen snarere enn et genuint terapeutisk signal.
+
+**For å gå videre, er følgende nødvendig:**
+- TFDA-etikett advarsel- og kontraindikasjondata (blokkerende gap — nødvendig før sikkerhetsgjennomgang på S1-stadiet kan gjennomføres)
+- DrugBank-data om virkningsmekanisme (høyt prioritert gap som påvirker mekanistisk vurdering)
+- Eventuelle prekliniske eller immunologiske bevis som direkte knytter insulin-signalering til ovariell autoimmun patologi, før denne kandidaten blir revurdert
+- Hvis ytterligere utforsking av denne stoffets prediksjonsgruppe er ønskelig, omdirig oppmerksomheten mot rang 9 (pankreasagenesi), som har en plausibel mekanisme og L3 evidens, snarere enn den topprangerte men mekanistisk ikke-støttet kandidaten
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

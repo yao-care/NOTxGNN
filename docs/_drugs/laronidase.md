@@ -29,81 +29,82 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Laronidase: From Mucopolysaccharidosis I to Lysosomal Storage Disease with Skeletal Involvement
+# Laronidase: Fra mucopolysakkaridose I til lysosomale lagringssykdommer med skjelettinvolvering
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-> Laronidase is a recombinant human alpha-L-iduronidase enzyme replacement therapy, originally developed and marketed (as Aldurazyme) for **Mucopolysaccharidosis I (MPS I)** — including Hurler, Hurler-Scheie, and Scheie syndromes.
-> The TxGNN model predicts it may be effective for **Lysosomal Storage Disease with Skeletal Involvement**, a prediction that in practice overlaps substantially with the drug's already-established disease spectrum,
-> supported by **4 publications** in the evidence pack (no registered clinical trials in this dataset).
+> Laronidase er en rekombinant human alfa-L-iduronidase enzymerstattingsterapi som opprinnelig ble utviklet og markedsført (som Aldurazyme) for **mucopolysakkaridose I (MPS I)** — inkludert Hurler-, Hurler-Scheie- og Scheie-syndrom.
+> TxGNN-modellen forutsier at det kan være effektivt for **lysosomale lagringssykdommer med skjelettinvolvering**, en forutsigelse som i praksis overlapper betydelig med legemidlets allerede etablerte sykdomsspektrum,
+> støttet av **4 publikasjoner** i bevissamlingen (ingen registrerte kliniske studier i dette datasettet).
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Mucopolysaccharidosis I (MPS I) — Hurler / Hurler-Scheie / Scheie syndrome (derived from literature evidence; no license record available) |
-| Predicted New Indication | Lysosomal storage disease with skeletal involvement |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L1 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Originalindikasjon | Mucopolysakkaridose I (MPS I) — Hurler-/Hurler-Scheie-/Scheie-syndrom (utledet fra litteraturbevis; ingen lisensdata tilgjengelig) |
+| Forutsagt ny indikasjon | Lysosomale lagringssykdommer med skjelettinvolvering |
+| TxGNN-prediksjonspoeng | 99.31% |
+| Bevisnivå | L1 |
+| Status på norsk marked | Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Fortsett med sikkerhetstiltak |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data (`original_moa`) is not available as a structured field. However, the evidence pack's repurposing rationale provides substantive mechanistic detail: laronidase is a recombinant human alpha-L-iduronidase that directly supplies the lysosomal enzyme missing in MPS I patients, degrading accumulated glycosaminoglycans (GAGs) and reducing skeletal, joint, and multi-organ involvement.
+Foreløpig er detaljerte data for virkningsmekanisme (`original_moa`) ikke tilgjengelige som et strukturert felt. Imidlertid gir bevissamlingens ombruksresonnering betydelig mekanistisk detalj: laronidase er en rekombinant human alfa-L-iduronidase som direkte leverer det lysosomale enzymet som mangler hos MPS I-pasienter, og nedbryter akkumulerte glykosaminglikaner (GAG-er) og reduserer involvering av skjelett, ledd og flerorgan.
 
-The "predicted new indication" — lysosomal storage disease with skeletal involvement — is not a novel pharmacological hypothesis but essentially describes the disease spectrum the drug already treats (MPS I, marketed as Aldurazyme). This should be understood as **model confirmation of an already-established indication** rather than a new repurposing candidate. The mechanistic link is direct and well-documented, which explains the high TxGNN score and the L1 evidence level.
+Den «forutsagt nye indikasjonen» — lysosomale lagringssykdommer med skjelettinvolvering — er ikke en ny farmakologisk hypotese, men beskriver i hovedsak sykdomsspektret som legemidlet allerede behandler (MPS I, markedsført som Aldurazyme). Dette bør forstås som **modellbekreftelse av en allerede etablert indikasjon** snarere enn en ny ombrukskandidat. Den mekanistiske koblingen er direkte og godt dokumentert, noe som forklarer høy TxGNN-poengsum og L1-bevisnivået.
 
-Because of this overlap, the primary value of this evaluation is regulatory/market validation (e.g., for jurisdictions like Norway where the drug is not currently marketed) rather than discovery of a new therapeutic use.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+På grunn av denne overlappingen er primærverdien av denne evalueringen regulatorisk/markedsvalidering (f.eks. for jurisdiksjoner som Norge der legemidlet ikke er markedsført) snarere enn oppdagelse av en ny terapeutisk bruk.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske studier
 
-| PMID | Year | Type | Journal | Key Findings |
+Det er foreløpig ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturbevis
+
+| PMID | År | Type | Tidsskrift | Nøkkelfunn |
 |------|-----|------|------|---------|
-| [25345091](https://pubmed.ncbi.nlm.nih.gov/25345091/) | 2014 | Review | Pediatric Endocrinology Reviews | Comprehensive review of MPS I pathophysiology, diagnosis (GAG accumulation, iduronidase assay), and disease spectrum from Hurler to Scheie syndrome |
-| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Review | BioDrugs | Overview of laronidase development as recombinant alpha-L-iduronidase ERT for MPS I, including orphan drug designation and early Phase I trial results |
-| [23127271](https://pubmed.ncbi.nlm.nih.gov/23127271/) | 2012 | Cohort/Case series | Pediatric Neurology | 6.5-year follow-up of a Scheie syndrome patient on laronidase ERT; documented anthropometric, cardiac, ophthalmologic, and skeletal outcomes over long-term treatment |
-| [18758061](https://pubmed.ncbi.nlm.nih.gov/18758061/) | 2008 | Mechanistic/In vitro | Biological & Pharmaceutical Bulletin | Demonstrated laronidase uptake into MPS I fibroblasts/osteoblasts via mannose-6-phosphate receptors, with lysosomal processing and substrate cleavage |
+| [25345091](https://pubmed.ncbi.nlm.nih.gov/25345091/) | 2014 | Oversikt | Pediatric Endocrinology Reviews | Omfattende gjennomgang av MPS I-patofysiologi, diagnose (GAG-akkumulasjon, iduronidase-assay), og sykdomsspektrum fra Hurler til Scheie-syndrom |
+| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Oversikt | BioDrugs | Oversikt over laronidaseutvikling som rekombinant alfa-L-iduronidase ERT for MPS I, inkludert betegnelse som sjelden sykdom og tidlige fase I-forsøksresultater |
+| [23127271](https://pubmed.ncbi.nlm.nih.gov/23127271/) | 2012 | Kohort/Caseserie | Pediatric Neurology | Oppfølging av 6,5 år av en Scheie-syndrom-pasient på laronidase ERT; dokumentert antropometrisk, kardiak, oftalmologisk og skjelettutfall over langtidsbehandling |
+| [18758061](https://pubmed.ncbi.nlm.nih.gov/18758061/) | 2008 | Mekanistisk/In vitro | Biological & Pharmaceutical Bulletin | Demonstrerte laronidaseopptaking i MPS I-fibroblaster/osteoblaster via mannose-6-fosfat-reseptorer, med lysosomale prosessering og substratnedbrytning |
 
 ---
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-No authorization records are available. Laronidase is currently **not marketed** in Norway (0 authorizations on file), which is consistent with the absence of licensing data in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Ingen autorisasjonsjournaler er tilgjengelige. Laronidase er foreløpig **ikke markedsført** i Norge (0 autorisasjoner på fil), som er i samsvar med fravær av lisensdata i denne bevissamlingen.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-**Rationale:**
-The mechanistic link between laronidase and MPS I / skeletal lysosomal storage disease is direct, well-established, and supported by consistent literature (including a placebo-controlled RCT and long-term follow-up cohorts) — this is essentially the drug's known indication rather than a novel hypothesis. However, key regulatory and safety data (TFDA warnings/contraindications) are missing, and the drug is not currently marketed in Norway, so guardrails are needed before any market action.
+---
 
-**To proceed, the following is needed:**
-- Resolve **DG001 (Blocking)**: Obtain TFDA/Norwegian regulatory label — warnings, contraindications, and full safety profile — required before S1 safety evaluation can proceed
-- Resolve **DG002 (High)**: Formal documentation of MOA from DrugBank API to support mechanistic review
-- Confirm whether a Norway marketing authorization application is planned, given current "not marketed" status
-- Note: A secondary prediction for **Sanfilippo syndrome (MPS III)** was also evaluated in this evidence pack but flagged as a mechanistic mismatch (laronidase does not address the heparan sulfate-degrading enzymes deficient in MPS III, and has poor blood-brain barrier penetration for the CNS involvement characteristic of Sanfilippo syndrome) — recommendation for that indication is **Hold** and it is excluded from this report's primary conclusion.
+## Konklusjon og neste trinn
+
+**Beslutning: Fortsett med sikkerhetstiltak**
+
+**Begrunnelse:**
+Den mekanistiske koblingen mellom laronidase og MPS I / skelettale lysosomale lagringssykdommer er direkte, velestablert og støttet av konsistent litteratur (inkludert en placebokontrollert RCT og langtidsoppfølgingskohorter) — dette er i hovedsak legemidlets kjente indikasjon snarere enn en ny hypotese. Imidlertid mangler viktige regulatoriske og sikkerhetsdata (TFDA-advarsler/kontraindikasjoner), og legemidlet er ikke markedsført i Norge, så sikkerhetstiltak er nødvendig før noen markedshandling.
+
+**For å fortsette er følgende nødvendig:**
+- Løs **DG001 (Blokkering)**: Innhent TFDA/norsk regulatorisk etikett — advarsler, kontraindikasjoner og fullstendig sikkerhetsprofil — nødvendig før S1-sikkerhetsevaluering kan fortsette
+- Løs **DG002 (Høy)**: Formell dokumentasjon av MOA fra DrugBank API for å støtte mekanistisk gjennomgang
+- Bekreft om en søknad om markedsautorisasjon i Norge er planlagt, gitt gjeldende status «ikke markedsført»
+- Merk: En sekundær prediksjon for **Sanfilippo-syndrom (MPS III)** ble også evaluert i denne bevissamlingen, men flagget som mekanistisk mismatch (laronidase løser ikke heparan-sulfat-nedbrytende enzymer som mangler hos MPS III, og har dårlig blod-hjerne-barriere-gjennomtrengning for CNS-involvering karakteristisk for Sanfilippo-syndrom) — anbefaling for denne indikasjonen er **Hold** og den er ekskludert fra denne rapportens primærkonklusjon.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

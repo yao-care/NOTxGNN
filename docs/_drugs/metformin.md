@@ -29,82 +29,83 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Metformin: From Undocumented Original Indication to Focal Stiff Limb Syndrome
+# Metformin: Fra Udokumentert Originalindikasjon til Fokalt Stivt Lemmesynrom
 
-## One-Sentence Summary
+## Sammendrag i Én Setning
 
-> The original indication for Metformin is not documented in the current evidence pack (data gap flagged as Blocking/High severity).
-> The TxGNN model predicts it may be effective for **Focal Stiff Limb Syndrome**, a rare GAD65-antibody-mediated autoimmune neurological disorder,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model-driven signal (L5), and the drug's own repurposing rationale flags the mechanistic link as likely indirect rather than causal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (data gap) |
-| Predicted New Indication | Focal Stiff Limb Syndrome |
-| TxGNN Prediction Score | 99.45% |
-| Evidence Level | L5 (model prediction only, no clinical or literature support) |
-| Norway Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Originalindikasjon for metformin er ikke dokumentert i den nåværende evidenspakken (datahull flagget som Blocking/høy alvorlighetsgrad).
+> TxGNN-modellen predikerer at det kan være effektivt for **Fokalt Stivt Lemmesynrom**, en sjelden GAD65-antistoff-mediiert autoimmun nevrologisk lidelse,
+> men denne prediksjonen støttes for øyeblikket av **0 kliniske prøver** og **0 publikasjoner** — det er et rent modellstyrt signal (L5), og legemidlets egen repurposing-begrunnelse flagger den mekanistiske forbindelsen som sannsynligvis indirekte snarere enn årsakssammenhengsmessig.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask Oversikt
 
-Currently, detailed mechanism of action data is not available for Metformin in this evidence pack (flagged as a High-severity data gap). Metformin's known pharmacology — AMPK activation, suppression of hepatic gluconeogenesis, and improved insulin sensitivity — is well established in the metabolic disease space, but no verified MOA record exists in this dataset to formally link it to the predicted indication.
-
-Notably, the evidence pack's own mechanistic rationale for this prediction is cautionary rather than supportive: Focal Stiff Limb Syndrome is driven by GAD65-antibody-mediated loss of GABAergic inhibitory signaling in the spinal cord/brainstem — a pathway with no established connection to Metformin's known metabolic mechanisms. The high TxGNN score likely reflects an indirect knowledge-graph association (e.g., metabolic comorbidity or drug side-effect edges in the graph) rather than a genuine mechanism-driven signal.
-
-Given the complete absence of clinical trials, literature, or a plausible mechanistic bridge, this prediction should be treated as a low-confidence, exploratory hypothesis rather than a repurposing candidate ready for evaluation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Ikke dokumentert i evidenspakken (datahull) |
+| Predikert Ny Indikasjon | Fokalt Stivt Lemmesynrom |
+| TxGNN Prediksjonspoeng | 99.45% |
+| Bevisnivå | L5 (kun modellprediksjon, ingen klinisk eller litteraturstøtte) |
+| Norges Markedsstatus | Ikke markedsført |
+| Antall Autorisasjoner | 0 |
+| Anbefalt Beslutning | I bero |
 
 ---
 
-## Literature Evidence
+## Hvorfor Er Denne Prediksjonen Fornuftig?
 
-Currently no related literature available
+For øyeblikket er detaljerte virkningsmekanisme-data ikke tilgjengelige for metformin i denne evidenspakken (flagget som et høy-alvorlighetsgrad datahull). Metformins kjente farmakologi — AMPK-aktivering, undertrykking av hepatisk glukoneogenese, og forbedret insulinfølsomhet — er veletablert innen metabolisk sykdomsbehandling, men det finnes ingen verifisert MOA-post i dette datasettet til å formelt knytte det til den predikerte indikasjon.
 
----
+Det er bemerkelsesverdig at evidenspakkens egen mekanistiske begrunnelse for denne prediksjonen er advarende snarere enn støttende: Fokalt Stivt Lemmesynrom er drevet av GAD65-antistoff-mediiert tap av GABAergisk inhibitorisk signalering i ryggmargen/hjernestammen — en vei uten etablert forbindelse til metformins kjente metabolske mekanismer. Den høye TxGNN-poengsummen gjenspeiler sannsynligvis en indirekte kunnskapsgraf-assosiasjon (f.eks. metabolsk komorbiditet eller legemiddel-bivirkning-kanter i grafen) snarere enn et ekte mekanisme-drevet signal.
 
-## Norway Market Information
-
-Metformin currently has no marketing authorization recorded in Norway (0 licenses on file); no product/dosage form data is available in this evidence pack.
+Gitt det fullstendige fraværet av kliniske prøver, litteratur, eller en plausibel mekanistisk bro, bør denne prediksjonen behandles som en lav-tillit, utforskende hypotese snarere enn en repurposing-kandidat klar for evaluering.
 
 ---
 
-## Safety Considerations
+## Evidens fra Kliniske Prøver
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA-equivalent warnings/contraindications and drug interaction data are flagged as a Blocking data gap — this prevents any Stage-1 safety evaluation for this candidate.)*
+For øyeblikket ingen relaterte kliniske prøver registrert
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
-
-**Rationale:**
-The prediction is supported only by a TxGNN model score (L5, no clinical trials or literature), and the accompanying mechanistic rationale explicitly notes the biological link to GABAergic autoimmune pathology is indirect and not mechanism-driven. Combined with the drug's "not marketed" status in Norway and missing safety data, there is currently no basis to advance this candidate beyond exploratory tracking.
-
-**To proceed, the following is needed:**
-- TFDA-equivalent package insert data (warnings, contraindications) — currently a Blocking gap
-- Verified Metformin mechanism of action (MOA) record from DrugBank or equivalent source
-- Confirmation of Metformin's actual original indication(s), currently undocumented in this evidence pack
-- Any preclinical or case-level evidence connecting AMPK/metabolic pathways to GABAergic/autoimmune neurological disease, to justify moving from L5 to L4
+For øyeblikket ingen relatert litteratur tilgjengelig
 
 ---
 
-**Note on related candidates:** This evidence pack (`TW-DB00331-multi`) contains 4 additional predicted indications for Metformin at similarly high TxGNN scores (classic stiff person syndrome, opsismodysplasia, thiamine-responsive dysfunction syndrome, and drug-induced localized lipodystrophy) — all rated L5/Hold with no clinical or literature support. One candidate (thiamine-responsive dysfunction syndrome) carries a flagged **safety concern** rather than therapeutic opportunity, since Metformin's known mitochondrial Complex I inhibition may be mechanistically counterproductive in that condition. None of these five candidates currently meet the threshold for further evaluation.
+## Norges Markedsinformasjon
+
+Metformin har for øyeblikket ingen markedsføringstillatelse registrert i Norge (0 lisenser på fil); ingen produkt-/dosisform-data er tilgjengelig i denne evidenspakken.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+*(Merk: TFDA-ekvivalente advarsler/kontraindikasjoner og legemiddel-interaksjonsdata er flagget som et Blocking-datahull — dette hindrer noen Fase 1-sikkerhetsevaluering for denne kandidaten.)*
+
+---
+
+## Konklusjon og Neste Trinn
+
+**Beslutning: I bero**
+
+**Begrunnelse:**
+Prediksjonen støttes kun av en TxGNN-modellpoeng (L5, ingen kliniske prøver eller litteratur), og den medfølgende mekanistiske begrunnelsen noterer eksplisitt at den biologiske forbindelsen til GABAergisk autoimmun patologi er indirekte og ikke mekanisme-drevet. Kombinert med legemidlets «ikke markedsført»-status i Norge og manglende sikkerhetdata, finnes det for øyeblikket ingen grunnlag for å fremme denne kandidaten utover utforskende overvåking.
+
+**For å gå videre, er følgende nødvendig:**
+- TFDA-ekvivalente pakningsvedleggs-data (advarsler, kontraindikasjoner) — for øyeblikket et Blocking-hull
+- Verifisert metformin-virkningsmekanisme (MOA)-post fra DrugBank eller tilsvarende kilde
+- Bekreftelse av metformins faktiske originalindikasjon(er), for øyeblikket udokumentert i denne evidenspakken
+- Eventuell preklinisk eller kasus-nivå-evidens som kobler AMPK/metabolske veier til GABAergisk/autoimmun nevrologisk sykdom, for å rettferdiggjøre overgang fra L5 til L4
+
+---
+
+**Merknad om relaterte kandidater:** Denne evidenspakken (`TW-DB00331-multi`) inneholder 4 ytterligere predikerte indikasjoner for metformin med lignende høye TxGNN-poeng (klassisk stivt person-syndrom, opsismodysplasia, tiamin-responsiv dysfunksjonssyndrom, og legemiddel-indusert lokalisert lipodystrofi) — alle vurdert som L5/I bero uten klinisk eller litteraturstøtte. En kandidat (tiamin-responsiv dysfunksjonssyndrom) har en flagget **sikkerhetsbekymring** snarere enn terapeutisk mulighet, siden metformins kjente mitokondriell Complex I-hemming kan være mekanistisk kontraproduktiv i denne tilstanden. Ingen av disse fem kandidatene oppfyller for øyeblikket terskelen for videre evaluering.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

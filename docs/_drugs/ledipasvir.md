@@ -29,93 +29,94 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Ledipasvir: From Chronic Hepatitis C to Hepatitis B Virus Infection
+# Ledipasvir: Fra kronisk hepatitt C til hepatitt B-virusinfeksjon
 
-## One-Sentence Summary
+## Én-setning sammendrag
 
-> Ledipasvir is an NS5A inhibitor best known as a component of the ledipasvir/sofosbuvir (Harvoni) fixed-dose combination for chronic hepatitis C virus (HCV) infection.
-> The TxGNN model predicts it may also be effective for **Hepatitis B Virus (HBV) Infection**,
-> with **21 clinical trials** and **20 publications** identified in the evidence pack — but the strongest direct evidence (a dedicated Phase 2 HBV trial) reported a **negative efficacy signal**, and much of the remaining literature concerns HBV *reactivation risk* during HCV treatment rather than antiviral benefit against HBV itself.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in Norway regulatory data (drug unmarketed); per known clinical use, ledipasvir is used as part of the ledipasvir/sofosbuvir combination for chronic hepatitis C |
-| Predicted New Indication | Hepatitis B Virus Infection |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L3 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Ledipasvir er en NS5A-hemmer best kjent som en komponent i den faste dosissammensetningen ledipasvir/sofosbuvir (Harvoni) for kronisk hepatitt C-virusinfeksjon (HCV).
+> TxGNN-modellen forutsier at det også kan være effektivt for **hepatitt B-virusinfeksjon (HBV)**,
+> med **21 kliniske forsøk** og **20 publikasjoner** identifisert i bevissamlingen — men de sterkeste direkte bevisene (et dedikert fase 2 HBV-forsøk) rapporterte et **negativt effektivitetssignal**, og mye av den gjenværende litteraturen omhandler *reaktiveringsrisiko for HBV* under HCV-behandling snarere enn antiviralt utbytte mot HBV selv.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available from DrugBank in this evidence pack. Based on known information, ledipasvir is an HCV NS5A protein inhibitor, marketed exclusively as part of the ledipasvir/sofosbuvir fixed-dose combination for chronic genotype 1/4/5/6 HCV infection. HCV (Flaviviridae, positive-sense RNA virus) and HBV (Hepadnaviridae, a DNA virus replicating via reverse transcription) are virologically distinct families with no known overlapping molecular target — NS5A has no HBV homolog.
-
-Despite this mechanistic gap, the prediction is not entirely without a rationale to test: patients coinfected with HCV and HBV are common, and retrospective data suggested modest reductions in HBsAg during HCV treatment with ledipasvir/sofosbuvir, motivating a dedicated Phase 2 trial (NCT03312023) in HBV-monoinfected subjects. However, the published results of that trial (PMID 36045503) showed **no clinically meaningful suppression of HBV DNA**, indicating the earlier HBsAg-decline signal did not translate into antiviral efficacy. In parallel, a substantial portion of the literature base actually documents the *opposite* clinical concern — HBV reactivation during ledipasvir/sofosbuvir treatment of HCV/HBV-coinfected patients — which is a safety signal, not a therapeutic rationale.
-
-**In summary: the high TxGNN score for this indication appears to reflect literature co-occurrence (both diseases are frequently studied together in coinfected populations) rather than a validated pharmacological effect.** The evidence pack's own rationale and "Hold" recommendation align with this interpretation.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03312023](https://clinicaltrials.gov/study/NCT03312023) | Phase 2 | Completed | 21 | Open-label study directly testing ledipasvir/sofosbuvir for 12 weeks in HBV-monoinfected subjects; hypothesis-generating, but published results showed no significant HBV DNA decline |
-| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Phase 2/3 | Completed | 23 | Studied incidence and risk factors for HBV reactivation during direct-acting antiviral treatment of HCV/HBV coinfection — a safety, not efficacy, endpoint |
-| [NCT02613871](https://clinicaltrials.gov/study/NCT02613871) | Phase 3 | Completed | 111 | LDV/SOF for HCV genotype 1/2 in HCV/HBV-coinfected patients (Taiwan); treatment target was HCV clearance, not HBV |
-| [NCT01938430](https://clinicaltrials.gov/study/NCT01938430) | Phase 2 | Completed | 339 | LDV/SOF + ribavirin in advanced liver disease/post-transplant HCV patients (genotype 1/4, some HBV-exposed); HCV-focused endpoints |
-| [NCT02010255](https://clinicaltrials.gov/study/NCT02010255) | Phase 2 | Completed | 334 | Companion cohort study to NCT01938430, same protocol; HCV efficacy endpoint |
-
-*Note: 16 additional trials in the evidence pack are standard HCV genotype 1/2/4 treatment studies with only incidental HBV coinfection status and were excluded here as not directly relevant to HBV efficacy.*
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke dokumentert i norsk regulatorisk data (legemiddel ikke markedsført); ifølge kjent klinisk bruk brukes ledipasvir som en del av kombinasjonen ledipasvir/sofosbuvir for kronisk hepatitt C |
+| Forutsagt ny indikasjon | Hepatitt B-virusinfeksjon |
+| TxGNN-prediksjonsresultat | 99.91% |
+| Bevisnivå | L3 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
+For tiden er detaljerte virkningsmekanisme-data ikke tilgjengelige fra DrugBank i denne bevissamlingen. Basert på kjent informasjon er ledipasvir en HCV NS5A-hemmer, markedsført utelukkende som en del av den faste dosissammensetningen ledipasvir/sofosbuvir for kronisk hepatitt C-virusinfeksjon med genotype 1/4/5/6. HCV (Flaviviridae, positivt-rettet RNA-virus) og HBV (Hepadnaviridae, et DNA-virus som replikeres via revers transkripasjon) er virologisk distinkte familier uten kjent overlappende molekylært mål — NS5A har ingen HBV-homolog.
+
+Til tross for dette mekanistiske gapet er prediksjonen ikke helt uten grunnlag for testing: pasienter med koinfeksjon med HCV og HBV er vanlige, og retrospektive data antydet beskjedne reduksjoner i HBsAg under HCV-behandling med ledipasvir/sofosbuvir, noe som motiverte et dedikert fase 2-forsøk (NCT03312023) hos HBV-monoinfiserte forsøkspersoner. Imidlertid viste de publiserte resultatene fra det forsøket (PMID 36045503) **ingen klinisk meningsfull undertrykking av HBV DNA**, noe som indikerer at det tidligere HBsAg-nedgangsignalet ikke omsettes til antiviralt utbytte. Parallelt dokumenterer en betydelig del av litteraturbasen faktisk den *motsatte* kliniske bekymringen — HBV-reaktivering under ledipasvir/sofosbuvir-behandling av pasienter med HCV/HBV-koinfeksjon — som er et sikkerhetssignal, ikke en terapeutisk begrunnelse.
+
+**Oppsummert: den høye TxGNN-scoren for denne indikasjonen synes å reflektere koforekomst i litteraturen (begge sykdommer blir hyppig studert sammen i koinfiserte populasjoner) snarere enn en validert farmakologisk effekt.** Bevissamlingens egen begrunnelse og "Avvent"-anbefaling stemmer overens med denne tolkningen.
+
+---
+
+## Bevis fra kliniske forsøk
+
+| Forsøksnummer | Fase | Status | Antall deltakere | Viktige funn |
+|----------|------|------|---------|---------|
+| [NCT03312023](https://clinicaltrials.gov/study/NCT03312023) | Fase 2 | Avsluttet | 21 | Åpen-label-studie som direkte testet ledipasvir/sofosbuvir i 12 uker hos HBV-monoinfiserte forsøkspersoner; hypotesegenererende, men publiserte resultater viste ingen betydelig HBV DNA-nedgang |
+| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Fase 2/3 | Avsluttet | 23 | Studerte insidens og risikofaktorer for HBV-reaktivering under direkte virkende antiviral behandling av HCV/HBV-koinfeksjon — et sikkerhets-, ikke effektivitets-, endepunkt |
+| [NCT02613871](https://clinicaltrials.gov/study/NCT02613871) | Fase 3 | Avsluttet | 111 | LDV/SOF for HCV-genotype 1/2 hos pasienter med HCV/HBV-koinfeksjon (Taiwan); behandlingsmål var HCV-clearance, ikke HBV |
+| [NCT01938430](https://clinicaltrials.gov/study/NCT01938430) | Fase 2 | Avsluttet | 339 | LDV/SOF + ribavirin hos pasienter med avansert leversykdom/etter transplantasjon med HCV (genotype 1/4, noen HBV-eksponert); HCV-fokuserte endepunkter |
+| [NCT02010255](https://clinicaltrials.gov/study/NCT02010255) | Fase 2 | Avsluttet | 334 | Ledsagerkohort-studie til NCT01938430, samme protokoll; HCV-effektivitetsendepunkt |
+
+*Merknad: 16 ytterligere forsøk i bevissamlingen er standard HCV-genotype 1/2/4 behandlingsstudier med bare tilfeldig HBV-koinfeksjonsstatus og ble ekskludert her som ikke direkte relevante for HBV-effektivitet.*
+
+---
+
+## Litteraturbevis
+
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [36045503](https://pubmed.ncbi.nlm.nih.gov/36045503/) | 2023 | Phase 2 open-label trial | J Med Virol | Direct test of LDV/SOF in HBV-monoinfected subjects; no significant decline in HBV DNA at Week 12 despite hypothesis based on retrospective HBsAg signal |
-| [34864948](https://pubmed.ncbi.nlm.nih.gov/34864948/) | 2022 | Cohort (108-week follow-up) | Clin Infect Dis | Taiwan cohort of HCV/HBV-coinfected patients treated with LDV/SOF; evaluated HBV reactivation, not HBV cure |
-| [29174546](https://pubmed.ncbi.nlm.nih.gov/29174546/) | 2018 | Prospective cohort | Gastroenterology | Risks and outcomes of HCV treatment with LDV/SOF in HBV-coinfected patients; reactivation-focused |
-| [29334502](https://pubmed.ncbi.nlm.nih.gov/29334502/) | 2018 | Cohort (reactivation risk) | J Clin Gastroenterol | Examined HBV reactivation risk in actively/previously infected patients during DAA therapy |
-| [27486112](https://pubmed.ncbi.nlm.nih.gov/27486112/) | 2016 | Cohort (no reactivation) | Clin Infect Dis | Taiwan/Korea cohort of 173 patients (103 with prior HBV exposure); no HBV reactivation observed during LDV/SOF |
-| [27367295](https://pubmed.ncbi.nlm.nih.gov/27367295/) | 2016 | Pilot study | Antivir Ther | Gane et al.; evaluated whether LDV/SOF can suppress HCV in HBV-coinfected patients — HCV-focused |
-| [33523503](https://pubmed.ncbi.nlm.nih.gov/33523503/) | 2021 | Prospective observational | J Viral Hepat | HBV reactivation risk during DAA treatment for HCV in cancer patients with HBV/HCV coinfection |
-| [37254310](https://pubmed.ncbi.nlm.nih.gov/37254310/) | 2024 | In silico / molecular docking | J Biomol Struct Dyn | Computational screening of antiviral compounds against HBx protein; not specific to ledipasvir mechanism |
+| [36045503](https://pubmed.ncbi.nlm.nih.gov/36045503/) | 2023 | Fase 2 åpen-label-forsøk | J Med Virol | Direkte test av LDV/SOF hos HBV-monoinfiserte forsøkspersoner; ingen betydelig nedgang i HBV DNA ved uke 12 til tross for hypotese basert på retrospektivt HBsAg-signal |
+| [34864948](https://pubmed.ncbi.nlm.nih.gov/34864948/) | 2022 | Kohortstudie (108-ukers oppfølging) | Clin Infect Dis | Taiwan-kohorte av pasienter med HCV/HBV-koinfeksjon behandlet med LDV/SOF; evaluerte HBV-reaktivering, ikke HBV-helbredelse |
+| [29174546](https://pubmed.ncbi.nlm.nih.gov/29174546/) | 2018 | Prospektiv kohorte | Gastroenterology | Risiko og utfall av HCV-behandling med LDV/SOF hos pasienter med HBV-koinfeksjon; reaktivering-fokusert |
+| [29334502](https://pubmed.ncbi.nlm.nih.gov/29334502/) | 2018 | Kohorte (reaktiveringsrisiko) | J Clin Gastroenterol | Undersøkte HBV-reaktiveringsrisiko hos aktivt/tidligere infiserte pasienter under DAA-behandling |
+| [27486112](https://pubmed.ncbi.nlm.nih.gov/27486112/) | 2016 | Kohorte (ingen reaktivering) | Clin Infect Dis | Taiwan/Korea-kohorte av 173 pasienter (103 med tidligere HBV-eksponering); ingen HBV-reaktivering observert under LDV/SOF |
+| [27367295](https://pubmed.ncbi.nlm.nih.gov/27367295/) | 2016 | Pilotstudie | Antivir Ther | Gane et al.; evaluerte om LDV/SOF kan undertrykke HCV hos pasienter med HBV-koinfeksjon — HCV-fokusert |
+| [33523503](https://pubmed.ncbi.nlm.nih.gov/33523503/) | 2021 | Prospektiv observasjonell | J Viral Hepat | HBV-reaktiveringsrisiko under DAA-behandling for HCV hos kreftpasienter med HBV/HCV-koinfeksjon |
+| [37254310](https://pubmed.ncbi.nlm.nih.gov/37254310/) | 2024 | In silico / molekylær docking | J Biomol Struct Dyn | Beregningsscreening av antivirale forbindelser mot HBx-protein; ikke spesifikt for ledipasvir-mekanisme |
 
 ---
 
-## Norway Market Information
+## Informasjon om norsk marked
 
-Ledipasvir is currently **not marketed in Norway** (market status: Not marketed). No authorization records are available in the evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (TFDA/DMP label warnings and contraindications were not available in this evidence pack — flagged as a **Blocking** data gap, see Next Steps.)
+Ledipasvir er for tiden **ikke markedsført i Norge** (markedsstatus: Ikke markedsført). Ingen autorisasjonsposter er tilgjengelige i bevissamlingen.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyninger
 
-**Decision: Hold**
+Se pakningsinformasjonen for sikkerhetsinformasjon. (TFDA/DMP-merketadvarsler og kontraindikasjoner var ikke tilgjengelige i denne bevissamlingen — flagget som et **blokkerende** datagap, se Neste steg.)
 
-**Rationale:**
-Although the TxGNN score is very high (99.91%), the strongest and most direct clinical evidence — a Phase 2 trial specifically testing ledipasvir/sofosbuvir in HBV-monoinfected patients (NCT03312023 / PMID 36045503) — reported no meaningful antiviral effect on HBV DNA. Most of the remaining trial and literature base concerns HBV *reactivation risk* during HCV treatment, which is a safety consideration working against this indication rather than supporting evidence for it. The mechanistic basis (HCV NS5A inhibition) also has no established relevance to HBV replication (reverse transcriptase-dependent, cccDNA-based). This candidate should not advance without new positive efficacy data.
+---
 
-**To proceed, the following is needed:**
-- Resolution of the **Blocking** data gap: TFDA/DMP label warnings and contraindications (DG001)
-- Resolution of the **High** priority data gap: confirmed mechanism of action from DrugBank (DG002)
-- If pursued further, an updated systematic review or a properly powered, randomized trial with a confirmed antiviral (HBV DNA/HBsAg) endpoint would be required to override the current negative Phase 2 signal
-- Given the negative primary trial result, further investment in this specific indication is not currently recommended; lower-ranked candidates in this evidence pack (e.g., hepatitis E virus infection, rank 2) may warrant separate evaluation given their distinct mechanistic rationale
+## Konklusjon og neste steg
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Selv om TxGNN-scoren er svært høy (99.91%), rapporterte de sterkeste og mest direkte kliniske bevisene — et fase 2-forsøk som spesifikt testet ledipasvir/sofosbuvir hos HBV-monoinfiserte pasienter (NCT03312023 / PMID 36045503) — ingen meningsfullt antiviralt effekt på HBV DNA. Mesteparten av det gjenværende forsøks- og litteraturgrunnlaget omhandler HBV *reaktiveringsrisiko* under HCV-behandling, som er en sikkerhetshensyning som virker mot denne indikasjonen snarere enn støttende bevis for den. Det mekanistiske grunnlaget (HCV NS5A-hemming) har heller ingen etablert relevans for HBV-replikering (revers transkriptase-avhengig, cccDNA-basert). Denne kandidaten bør ikke avanseres uten nye positive effektivitetsdata.
+
+**For å gå videre er følgende nødvendig:**
+- Løsning av det **blokkerende** datagapet: TFDA/DMP-merketadvarsler og kontraindikasjoner (DG001)
+- Løsning av det **høyprioritets** datagapet: bekreftet virkningsmekanisme fra DrugBank (DG002)
+- Hvis det forfølges videre, vil en oppdatert systematisk gjennomgang eller et ordentlig gjennomførbart, randomisert forsøk med et bekreftet antiviralt (HBV DNA/HBsAg) endepunkt være nødvendig for å motvirke det nåværende negative fase 2-signalet
+- Gitt det negative primære forsøksresultatet, anbefales det ikke å investere videre i denne spesifikke indikasjonen for tiden; lavere-rangerte kandidater i denne bevissamlingen (f.eks. hepatitt E-virusinfeksjon, rangering 2) kan berettige separat evaluering gitt deres distinkte mekanistiske begrunnelse
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

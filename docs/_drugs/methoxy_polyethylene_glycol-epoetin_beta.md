@@ -29,95 +29,96 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Methoxy Polyethylene Glycol-Epoetin Beta: From Erythropoiesis Stimulation to Primary Release Disorder of Platelets
+# Methoxy Polyethylene Glycol-Epoetin Beta: Fra erytropoiesestimulering til primær utløsingsforstyrrelse av blodplater
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-> Methoxy polyethylene glycol-epoetin beta (PEG-epoetin beta) is an erythropoiesis-stimulating agent (ESA) that activates the EPO receptor to promote red blood cell precursor proliferation and differentiation; detailed original-indication and regulatory data are not on file for Norway.
-> The TxGNN model predicts it may be relevant to **Primary Release Disorder of Platelets**,
-> but **no clinical trials and no literature** currently support this direction — the model's own mechanistic rationale flags this as a possible false positive rather than a genuine biological hypothesis.
+> Methoxy polyethylene glycol-epoetin beta (PEG-epoetin beta) er et erytropoiesestimulerende middel (ESA) som aktiverer EPO-reseptoren for å fremme proliferasjon og differensiering av erytroide forløperceller; detaljerte opplysninger om originalindikasjon og regulatoriske data er ikke tilgjengelige for Norge.
+> TxGNN-modellen forutsier at det kan være relevant for **Primær utløsingsforstyrrelse av blodplater**,
+> men **ingen kliniske forsøk og ingen litteratur** støtter for øyeblikket denne retningen — modellens egen mekanistiske begrunnelse markerer dette som et mulig falskt positiv snarere enn en genuin biologisk hypotese.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not documented in evidence pack (no Norway marketing license on file; drug functions as an erythropoiesis-stimulating agent per mechanistic rationale) |
-| Predicted New Indication | Primary Release Disorder of Platelets |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Ikke dokumentert i bevissamlingen (ingen markedsgodkjenning i Norge på fil; medisin fungerer som erytropoiesestimulerende middel ifølge mekanistisk begrunnelse) |
+| Forutsagt ny indikasjon | Primær utløsingsforstyrrelse av blodplater |
+| TxGNN-prediksjonspoeng | 99.36% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen fornuftig?
 
-Currently, detailed mechanism of action data is not available in the evidence pack (flagged as a High-severity data gap, DG002). Based on the information that is available, methoxy PEG-epoetin beta is a pegylated erythropoiesis-stimulating agent (ESA) that acts on the EPO receptor to drive proliferation and differentiation of erythroid precursor cells — this is its established pharmacology, referenced consistently across the model's own rationale text.
+For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige i bevissamlingen (flagget som høy-alvorlighetsgrad datagap, DG002). Basert på informasjonen som er tilgjengelig, er methoxy PEG-epoetin beta et pegylert erytropoiesestimulerende middel (ESA) som virker på EPO-reseptoren for å fremme proliferasjon og differensiering av erytroide forløperceller — dette er dens etablerte farmakologi, referert konsekvent gjennom modellens egen begrunnelsestekst.
 
-Primary release disorder of platelets is a defect in platelet granule content release, a mechanism unrelated to erythroid lineage signaling. The evidence pack's own repurposing rationale is explicit that **no known biological intersection exists** between EPO/EPOR signaling and platelet granule release pathways, and suggests the high TxGNN score more likely reflects proximity between "blood disorder" nodes in the knowledge graph rather than a genuine mechanistic link.
+Primær utløsingsforstyrrelse av blodplater er en defekt i blodplateletgranulerutløsing, en mekanisme som er uavhengig av erytroid linjesingnalering. Bevissamlingens egen repurposing-begrunnelse er eksplisitt at **ingen kjent biologisk skjæringspunkt eksisterer** mellom EPO/EPOR-signalering og blodplateletgranulerutløsingsveier, og antyder at den høye TxGNN-poengsummen mer sannsynlig gjenspeiler avstanden mellom «blodlidelse»-noder i kunnskapsgrafen fremfor en genuin farmakologisk forbindelse.
 
-Given this, the prediction should be treated as a hypothesis-generation artifact rather than a validated pharmacological rationale. It does not meet the threshold for further evaluation without independent mechanistic or preclinical support.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Gitt dette, bør prediksjonen behandles som en hypotesegenerering-artefakt snarere enn en validert farmakologisk begrunnelse. Den oppfyller ikke terskelen for videre evaluering uten uavhengig mekanistisk eller preklinisk støtte.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøksbevis
 
-Currently no related literature available
-
----
-
-## Norway Market Information
-
-No authorizations on file — this drug is not currently marketed in Norway (0 licenses recorded).
+For øyeblikket er det ingen relaterte kliniske forsøk registrert
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information (key warnings, contraindications, and drug interactions are not documented in the evidence pack).
-
-**Note from model rationale (class-level, not indication-specific):** ESA-class drugs carry a well-established increased thromboembolic risk due to erythrocytosis-related blood viscosity changes. This is referenced in the rationale for a lower-ranked candidate in this same prediction batch (see below) and should be kept in mind for any ESA repurposing evaluation, regardless of target indication.
+For øyeblikket er det ingen relatert litteratur tilgjengelig
 
 ---
 
-## Additional Candidates in This Batch
+## Markedsinformasjon for Norge
 
-The same TxGNN run generated 6 further candidates for this drug, all scored L5 / Hold, with no supporting trials or literature:
+Ingen godkjennelser på fil — dette legemidlet er ikke for øyeblikket markedsført i Norge (0 lisenser registrert).
 
-| Disease | Score | Note |
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon (viktige advarsler, kontraindikasjoner og legemiddelinteraksjoner er ikke dokumentert i bevissamlingen).
+
+**Merknad fra modellbegrunnelse (klassespesifikt, ikke indikasjonsspesifikt):** ESA-klassemidler har en veletablert økt tromboembolisk risiko på grunn av erytrocytose-relaterte endringer i blodviskositet. Dette er referert i begrunnelsen for en lavere rangert kandidat i samme prediksjonsgruppe (se nedenfor) og bør tas i betraktning for enhver ESA-repurposing-evaluering, uavhengig av målindikasjon.
+
+---
+
+## Ytterligere kandidater i denne serien
+
+Den samme TxGNN-kjøringen genererte 6 ytterligere kandidater for dette legemidlet, alle rangert L5 / Avvent, uten støtte fra forsøk eller litteratur:
+
+| Sykdom | Poengsum | Merknad |
 |---|---|---|
-| Glanzmann thrombasthenia | 99.30% | Structural GPIIb/IIIa defect — no ESA mechanistic basis |
-| Pseudo-von Willebrand disease | 99.25% | GPIbα gain-of-function defect — no ESA mechanistic basis |
-| Severe nonproliferative diabetic retinopathy | 99.15% | EPO has dual retinal roles (neuroprotective vs. pro-proliferative); direction unclear, unsupported |
-| Heparin cofactor 2 deficiency | 99.10% | Hepatic serpin defect — no known EPO pathway overlap |
-| Antithrombin deficiency type 2 | 99.07% | SERPINC1 mutation — no known EPO pathway overlap |
-| Factor 5 excess with spontaneous thrombosis | 99.04% | **Directionally conflicting**: ESA's known thrombosis risk could worsen this condition — flagged as potentially harmful, not just unsupported |
+| Glanzmanns trombasteni | 99.30% | Strukturell GPIIb/IIIa-defekt — ingen ESA-mekanistisk grunnlag |
+| Pseudo-von Willebrand-sykdom | 99.25% | GPIbα gain-of-function-defekt — ingen ESA-mekanistisk grunnlag |
+| Alvorlig non-proliferativ diabetisk retinopati | 99.15% | EPO har doble retinale roller (neuroprotektiv vs. proliferasjonsfremkallende); retning uklar, uten støtte |
+| Heparinkofaktor 2-mangel | 99.10% | Hepatisk serpin-defekt — ingen kjent EPO-veioverflate |
+| Antitrombin-mangel type 2 | 99.07% | SERPINC1-mutasjon — ingen kjent EPO-veioverflate |
+| Faktor V-overskudd med spontan trombose | 99.04% | **Retningskonfliktuelt**: ESAs kjente tromboserisiko kunne forverre denne tilstanden — flagget som potensielt skadelig, ikke bare uten støtte |
 
-None of these candidates changes the overall conclusion; all remain at the model-prediction-only evidence tier.
+Ingen av disse kandidatene endrer den overordnede konklusjonen; alle forblir på bevisnivået basert kun på modellprediksjon.
 
 ---
 
-## Conclusion and Next Steps
+## Konklusjon og neste steg
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-No clinical trial or literature evidence exists for any prediction in this batch, and the model's own mechanistic rationale for the top candidate questions whether the high score reflects genuine biology or knowledge-graph node proximity. One lower-ranked candidate (factor V excess with spontaneous thrombosis) is mechanistically opposed to the drug's known thrombosis risk, reinforcing the need for caution across this prediction set.
+**Begrunnelse:**
+Ingen klinisk forsøks- eller litteraturbevis eksisterer for noen prediksjon i denne serien, og modellens egen mekanistiske begrunnelse for topkandidaten stiller spørsmål ved om den høye poengsummen gjenspeiler genuint biologi eller nodenavstanden i kunnskapsgrafen. En lavere rangert kandidat (faktor V-overskudd med spontan trombose) er mekanistisk motsatt til medisinens kjente tromboserisiko, noe som forsterker behovet for forsiktighet på tvers av denne prediksjonsserien.
 
-**To proceed, the following is needed:**
-- TFDA/regulatory-equivalent safety labeling (warnings, contraindications) — currently blocking (DG001)
-- Verified mechanism of action detail from DrugBank or primary literature (DG002)
-- Independent mechanistic or preclinical evidence linking EPO/EPOR signaling to platelet granule release before advancing past S0
-- Re-screening of this candidate set for false-positive risk given the absence of any supporting trial or publication evidence across all 7 predictions
+**For å fortsette, trengs følgende:**
+- TFDA/regulatorisk-ekvivalent sikkerhetsinformasjon (advarsler, kontraindikasjoner) — for øyeblikket blokkert (DG001)
+- Verifisert virkningsmekanismedetalj fra DrugBank eller primærlitteratur (DG002)
+- Uavhengig mekanistisk eller preklinisk bevis som knytter EPO/EPOR-signalering til blodplateletgranulerutløsing før fremgang forbi S0
+- Ny screening av denne kandidatserien for falskt-positiv risiko gitt fravær av noen støttende forsøks- eller publikasjonsbevis på tvers av alle 7 prediksjoner
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

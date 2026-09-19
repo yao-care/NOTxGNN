@@ -29,76 +29,75 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Orlistat: From Obesity Management to Hypervitaminosis
+# Orlistat: Fra fedmestyrring til hypervitaminose
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-Orlistat is a pancreatic lipase inhibitor generally used for weight management in obesity (not confirmed via the current Taiwan/Norway regulatory dataset, as the drug is not marketed in this evidence pack).
-The TxGNN model predicts it may be effective for **Hypervitaminosis**,
-but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a mechanism-only hypothesis.
+Orlistat er en pankreatisk lipasehemmer som generelt brukes til vektkontroll ved fedme (ikke bekreftet via det nåværende Taiwan/Norge-lovgivinsdatasett, da legemidlet ikke er markedsført i denne bevissamlingen). TxGNN-modellen forutsier at det kan være effektivt for **hypervitaminose**, men denne prediksjonen er for øyeblikket støttet av **0 kliniske forsøk** og **0 publikasjoner** — det er en hypotese basert kun på virkningsmekanisme.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not available in regulatory dataset (drug not marketed); commonly known as an anti-obesity/weight-management agent |
-| Predicted New Indication | Hypervitaminosis |
-| TxGNN Prediction Score | 99.42% |
-| Evidence Level | L5 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Original indikasjon | Ikke tilgjengelig i lovgivinsdatasett (legemidlet er ikke markedsført); vanligvis kjent som et antifedme-/vektkontrollmiddel |
+| Forutsagt ny indikasjon | Hypervitaminose |
+| TxGNN forutsigelsesscore | 99.42% |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed official mechanism-of-action documentation is not available in this evidence pack (`original_moa` = Data Gap). However, based on the drug's known pharmacology, orlistat is a pancreatic/gastric lipase inhibitor that blocks the hydrolysis of dietary triglycerides in the intestinal lumen, thereby reducing the absorption of dietary fat.
+Detaljert offisiell dokumentasjon av virkningsmekanisme er ikke tilgjengelig i denne bevissamlingen (`original_moa` = datakløft). Imidlertid, basert på legemidlets kjente farmakologi, er orlistat en pankreatisk/gastrisk lipasehemmer som blokkerer hydrolysen av diettrigliserider i tarmlumen, og derved reduserer absorpsjonen av diettfett.
 
-Absorption of the fat-soluble vitamins (A, D, E, K) depends on the formation of mixed lipid micelles in the gut — the same process orlistat disrupts. This is why fat-soluble vitamin deficiency is a well-recognized side effect of orlistat therapy in its original obesity indication. The TxGNN prediction essentially proposes the inverse application of this same mechanism: using orlistat's fat-malabsorption effect to lower excessive circulating levels of fat-soluble vitamins in hypervitaminosis.
+Absorpsjonen av fettløselige vitaminer (A, D, E, K) avhenger av dannelsen av blandede lipidmicellestrukturer i tarmen — samme prosess som orlistat forstyrrer. Dette er hvorfor mangel på fettløselige vitaminer er en godt anerkjent bivirkning av orlistat-terapi i dens opprinnelige fedmeindikasjon. TxGNN-prediksjonen foreslår i hovedsak den omvendte anvendelsen av denne samme mekanismen: bruk av orlistats fettmalabsorpsjonseffekt for å senke overdrevne sirkulerende nivåer av fettløselige vitaminer ved hypervitaminose.
 
-This is a mechanistically plausible hypothesis, but it has not been tested in any registered clinical trial or published study. The high TxGNN score (99.42%) reflects strong structural/mechanistic similarity inferred by the model, **not** clinical validation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Dette er en mekanistisk plausibel hypotese, men den har ikke blitt testet i noe registrert klinisk forsøk eller publisert studie. Den høye TxGNN-scoren (99.42%) gjenspeiler sterk strukturell/mekanistisk likhet sluttet av modellen, **ikke** klinisk validering.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske forsøk
 
-Currently no related literature available
-
----
-
-## Norway Market Information
-
-This drug is not currently marketed in this dataset (`market_status`: Not marketed), and no authorization records are available (`total_licenses`: 0).
+For øyeblikket ingen relaterte kliniske forsøk registrert
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information.
+For øyeblikket ingen relatert litteratur tilgjengelig
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformasjon for Norge
 
-**Decision: Hold**
+Dette legemidlet er ikke for øyeblikket markedsført i dette datasettet (`market_status`: Ikke markedsført), og ingen autorisasjonsregistreringer er tilgjengelige (`total_licenses`: 0).
 
-**Rationale:**
-The prediction rests solely on mechanistic reasoning (Evidence Level L5) with no supporting clinical trials or literature, and the drug is not currently marketed in this jurisdiction. This does not meet the evidentiary bar to advance to safety review or clinical evaluation.
+---
 
-**To proceed, the following is needed:**
-- Confirmed official mechanism-of-action documentation (DrugBank API query — currently blocked, DG002)
-- TFDA/regulatory label warnings and contraindications (Blocking gap, DG001) before any S1 safety screening can occur
-- Confirmation of the drug's actual approved original indication(s) from an authoritative regulatory source
-- At minimum, preclinical or case-level evidence exploring orlistat's effect on fat-soluble vitamin clearance in hypervitaminosis before considering further evaluation
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Prediksjonen bygger utelukkende på mekanistisk resonnement (Evidensnivå L5) uten støtte fra kliniske forsøk eller litteratur, og legemidlet er ikke for øyeblikket markedsført i denne jurisdiksjon. Dette oppfyller ikke bevisgrensen for å gå videre til sikkerhetsgjennomgang eller klinisk evaluering.
+
+**For å gå videre kreves følgende:**
+- Bekreftet offisiell dokumentasjon av virkningsmekanisme (DrugBank API-spørring — for øyeblikket blokkert, DG002)
+- Regulatoriske merkingsvarsler og kontraindikasjoner fra TFDA (Blokkerende kløft, DG001) før noen sikkerhetskontroll på S1-nivå kan finne sted
+- Bekrefting av legemidlets faktiske godkjente opprinnelige indikasjon(er) fra en autoritativ lovgivningskilde
+- Minst preklinisk eller kasusistisk bevis som utforsker orlistats effekt på fettløseligt vitamineklirinering ved hypervitaminose før vurdering av videre evaluering
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

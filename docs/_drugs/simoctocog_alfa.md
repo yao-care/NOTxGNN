@@ -29,79 +29,80 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Simoctocog Alfa: From Haemophilia A to Pseudo-von Willebrand Disease
+# Simoctocog Alfa: Fra Hemofili A til Pseudo-von Willebrand-sykdom
 
-## One-Sentence Summary
+## Ensetnings-sammendrag
 
-> Simoctocog alfa is a recombinant human coagulation factor VIII (rFVIII) product, known for use in Haemophilia A.
-> The TxGNN model's top prediction is **Pseudo-von Willebrand Disease**, with a score of **99.99%**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the mechanistic rationale itself is weak.
+> Simoctocog alfa er et rekombinant humant koagulasjonsfaktor VIII (rFVIII)-preparat, kjent for bruk ved Hemofili A.
+> TxGNN-modellens toppprediksjon er **Pseudo-von Willebrand-sykdom**, med en skår på **99.99%**,
+> men denne prediksjonen er for tiden støttet av **0 kliniske studier** og **0 publikasjoner**, og den mekanistiske begrunnelsen selv er svak.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Haemophilia A (bleeding prophylaxis/treatment) — not present in this Evidence Pack's license data, based on known rFVIII product class |
-| Predicted New Indication | Pseudo-von Willebrand disease |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Originalindikasjon | Hemofili A (blødingsprofylakse/behandling) — ikke presentert i dette bevispackets godkjenningsdata, basert på kjent rFVIII-produktklasse |
+| Predikert ny indikasjon | Pseudo-von Willebrand-sykdom |
+| TxGNN-prediksjons skår | 99.99% |
+| Bevisnivå | L5 |
+| Norsk markedsstatus | Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on known information, simoctocog alfa is a recombinant human factor VIII (rFVIII) product, used to replace deficient endogenous FVIII and restore the intrinsic coagulation pathway in Haemophilia A patients.
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige (flagget som et datakløft med høy alvorlighetsgrad). Basert på kjent informasjon er simoctocog alfa et rekombinant humant faktor VIII (rFVIII)-preparat som brukes for å erstatte mangelfull endogen FVIII og gjenopprette den indre koagulasjonsbanen hos pasienter med Hemofili A.
 
-However, the top-ranked predicted indication — pseudo-von Willebrand disease — is caused by an abnormal platelet GPIbα receptor with excessive affinity for von Willebrand factor (vWF), **not** by FVIII deficiency. Per the evidence pack's own mechanistic assessment, rFVIII replacement has no direct pathophysiological role in correcting this platelet-receptor defect. The high TxGNN score most likely reflects the close graph proximity of the FVIII–vWF complex in the knowledge graph, rather than a causal treatment relationship.
+Imidlertid er den topprangerte predikerte indikasjonen — pseudo-von Willebrand-sykdom — forårsaket av en abnorm platelett GPIbα-reseptor med overdreven affinitet for von Willebrand-faktor (vWF), **ikke** av FVIII-mangel. I henhold til bevispackets egen mekanistiske vurdering har rFVIII-erstatning ingen direkte patofysiologisk rolle i korrigering av denne platelett-reseptor-defekten. Den høye TxGNN-skåren gjenspeiler mest sannsynlig den nære nærheten til FVIII–vWF-kompleksen i kunnskapsgrafen, snarere enn et kausalt behandlingsforhold.
 
-Notably, among the 10 candidates in this evidence pack, **rank 9 ("Haemophilia A with vascular abnormality")** carries the strongest genuine mechanistic plausibility, since it falls within the known FVIII replacement indication space — yet it scored far lower and has zero supporting trials or literature. This divergence between mechanistic plausibility and model score is an important caveat: the top-ranked prediction should not be treated as clinically actionable without independent mechanistic and label verification.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Det er verdt å merke at blant de 10 kandidatene i dette bevispacket har **rang 9 ("Hemofili A med vaskulær abnormitet")** den sterkeste genuine mekanistiske plausibilitet, siden den ligger innenfor de kjente indikasjonene for FVIII-erstatning — likevel fikk den en langt lavere skår og har null støttende studier eller litteratur. Denne divergensen mellom mekanistisk plausibilitet og modellskår er en viktig forbehold: den topprangerte prediksjonen bør ikke behandles som klinisk handlingsdyktig uten uavhengig mekanistisk og godkjennings-verifisering.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske studier
 
-Currently no related literature available
-
----
-
-## Norway Market Information
-
-This product is not currently marketed in Norway; no marketing authorizations (0 licenses) have been issued, so no license-level indication text is available for cross-reference.
+For tiden ingen relevante kliniske studier registrert
 
 ---
 
-## Safety Considerations
+## Bevis fra litteratur
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/label-level warnings and contraindications are marked as a Blocking data gap — this must be resolved before any safety pre-assessment (S1) can proceed.)*
+For tiden ingen relevant litteratur tilgjengelig
 
 ---
 
-## Conclusion and Next Steps
+## Norsk markedsinformasjon
 
-**Decision: Hold**
+Dette produktet er for tiden ikke markedsført i Norge; ingen markedsføringsgodkjennelser (0 lisenser) er blitt utstedt, så ingen indikasjonstermer fra godkjenningsdokumenter er tilgjengelig for kryssreferanse.
 
-**Rationale:**
-The evidence level is L5 (model prediction only, no clinical trials or literature), and the top-ranked indication's own mechanistic rationale suggests it reflects knowledge-graph proximity rather than a causal treatment effect. A Blocking data gap on product labeling (warnings/contraindications) also prevents the case from entering safety pre-assessment.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank/manufacturer to validate or refute the FVIII–vWF proximity hypothesis
-- TFDA/EMA label PDF parsing to resolve the Blocking safety data gap (warnings, contraindications)
-- Manual clinical/haematology expert review of whether "pseudo-von Willebrand disease" has any documented off-label FVIII response, given the mechanistic mismatch
-- Re-evaluate rank 9 ("Haemophilia A with vascular abnormality") as a mechanistically stronger candidate, despite its lower TxGNN score, once literature search is expanded
-- Literature/clinical trial search using disease-specific terms (current search returned zero hits across all 10 candidates, suggesting search strategy may need broadening)
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+*(Merk: Advarsler og kontraindikasjoner på godkjenningsnivå fra TFDA er markert som et blokkerende datakløft — dette må løses før noen sikkerhetspre-vurdering (S1) kan fortsette.)*
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Bevisnivået er L5 (kun modellprediksjon, ingen kliniske studier eller litteratur), og den topprangerte indikasjonen sin egen mekanistiske begrunnelse tyder på at den gjenspeiler nærhet i kunnskapsgrafen snarere enn et kausalt behandlingsforhold. Et blokkerende datakløft for godkjenningsdata (advarsler/kontraindikasjoner) forhindrer også at saken går inn i sikkerhetspre-vurdering.
+
+**For å fortsette er følgende nødvendig:**
+- Bekreftet virkningsmekanisme-data (MOA) fra DrugBank/produsent for å validere eller tilbakevise FVIII–vWF-nærhetshypotesen
+- Analyse av TFDA/EMA-godkjennings-PDF for å løse det blokkerende sikkerhetsdatakløftet (advarsler, kontraindikasjoner)
+- Manuell klinisk/hematologisk fagekspertvurdering av hvorvidt "pseudo-von Willebrand-sykdom" har noen dokumentert FVIII-respons når brukt utenfor indikasjon, gitt den mekanistiske uoverensstemmelsen
+- Re-evaluering av rang 9 ("Hemofili A med vaskulær abnormitet") som en mekanistisk sterkere kandidat, til tross for dens lavere TxGNN-skår, når litteratursøket er utvidet
+- Litteratur-/klinisk studiesøk ved bruk av sykdomsspesifikke termer (nåværende søk returnerte null treff på tvers av alle 10 kandidater, noe som tyder på at søkestrategien kanskje må utvides)
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

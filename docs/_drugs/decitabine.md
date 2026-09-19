@@ -29,78 +29,79 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Decitabine: Toward a New Predicted Indication in Refractory Cytopenia of Childhood
+# Decistabin: Mot en ny predikert indikasjon ved refraktær cytopeni i barndommen
 
-## One-Sentence Summary
+## Sammenfatning på en setning
 
-> Decitabine (DrugBank DB01262) currently has no license records or original indication data available in this evidence pack, and it is not marketed in Norway.
-> The TxGNN model predicts it may be effective for **Refractory Cytopenia of Childhood**,
-> with **0 registered clinical trials** and **1 supporting publication** currently available.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no license records or original indication data in evidence pack |
-| Predicted New Indication | Refractory Cytopenia of Childhood |
-| TxGNN Prediction Score | 99.03% |
-| Evidence Level | L3 (single retrospective/observational study, no RCT or clinical trial registered) |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Decistabin (DrugBank DB01262) har for øyeblikket ingen lisensoppføringer eller opprinnelige indikasjondata tilgjengelige i denne evidenspakken, og det er ikke markedsført i Norge.
+> TxGNN-modellen forutsier at det kan være effektivt for **refraktær cytopeni i barndommen**,
+> med **0 registrerte kliniske studier** og **1 støttende publikasjon** som for øyeblikket er tilgjengelige.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data for decitabine is not available in this evidence pack. Without confirmed original indication and MOA information, a mechanistic rationale linking decitabine to Refractory Cytopenia of Childhood cannot be substantiated from the supplied evidence.
-
-The single supporting publication describes decitabine used in combination with a minimally myelosuppressive regimen as a bridging therapy to allogeneic hematopoietic stem cell transplantation (allo-HSCT) in pediatric myelodysplastic syndrome (MDS), of which refractory cytopenia of childhood is a recognized subtype. This suggests a plausible clinical context for the prediction, but the mechanistic and indication-relationship analysis cannot be completed until MOA data (DG002) is resolved.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [35624441](https://pubmed.ncbi.nlm.nih.gov/35624441/) | 2022 | Pending classification | BMC Pediatrics | Single-center 10-year experience using decitabine combined with a minimally myelosuppressive regimen as bridging therapy to allo-HSCT in pediatric MDS |
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke tilgjengelig – ingen lisensoppføringer eller opprinnelige indikasjondata i evidenspakken |
+| Predikert ny indikasjon | Refraktær cytopeni i barndommen |
+| TxGNN-prediksjonspoengsum | 99.03% |
+| Evidensnivå | L3 (enkelt retrospektivt/observasjonsstudie, ingen RCT eller registrert klinisk studie) |
+| Status på det norske markedet | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Holdes på vent |
 
 ---
 
-## Norway Market Information
+## Hvorfor er denne prediksjonen rimelig?
 
-Decitabine has no license records in Norway (0 authorizations, market status: Not Marketed).
+For øyeblikket er detaljerte data om virkningsmekanisme for decistabin ikke tilgjengelige i denne evidenspakken. Uten bekreftet opprinnelig indikasjon og MOA-informasjon, kan en mekanistisk begrunnelse som forbinder decistabin med refraktær cytopeni i barndommen ikke underbygges fra den leverte evidensen.
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> Note: TFDA/label warnings and contraindications (DG001) are currently a **Blocking** data gap — this prevents a full S1 safety pre-assessment.
+Den eneste støttende publikasjonen beskriver decistabin brukt i kombinasjon med et minimalt myelosuppressivt regime som overgangsbehandling til allogen hematopoetisk stamcelletransplantasjon (allo-HSCT) ved pediatrisk myelodysplastisk syndrom (MDS), hvorav refraktær cytopeni i barndommen er en anerkjent undertype. Dette antyder en plausibel klinisk kontekst for prediksjonen, men den mekanistiske og indikasjonforholdsanalysen kan ikke fullføres før MOA-data (DG002) er løst.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra kliniske studier
 
-**Decision: Hold**
+For øyeblikket ingen relaterte kliniske studier registrert.
 
-**Rationale:**
-- A blocking data gap (DG001 – TFDA label warnings/contraindications) prevents completion of the S1 safety pre-assessment, and evidence for the predicted indication is currently limited to a single retrospective/observational publication with no registered clinical trials.
+---
 
-**To proceed, the following is needed:**
-- TFDA label PDF with warnings/contraindications (DG001, Blocking)
-- Mechanism of action (MOA) data via DrugBank API (DG002, High)
-- Additional clinical trial or higher-tier literature evidence to support the predicted indication beyond a single single-center retrospective study
-- Confirmation of decitabine's original approved indication(s) to establish a mechanistic rationale
+## Litteraturbevis
+
+| PMID | År | Type | Journal | Hovedfunn |
+|------|-----|------|--------|---------|
+| [35624441](https://pubmed.ncbi.nlm.nih.gov/35624441/) | 2022 | Avventende klassifisering | BMC Pediatrics | Erfaring fra ett senter over 10 år med bruk av decistabin kombinert med et minimalt myelosuppressivt regime som overgangsbehandling til allo-HSCT ved pediatrisk MDS |
+
+---
+
+## Markedsinformasjon for Norge
+
+Decistabin har ingen lisensoppføringer i Norge (0 autorisasjoner, markedsstatus: Ikke markedsført).
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+> Merk: TFDA-etikettadvarsler og kontraindikasjoner (DG001) er for øyeblikket en **blokkerende** datakløft – dette forhindrer en fullstendig S1-sikkerhetsvurdering.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Holdes på vent**
+
+**Begrunnelse:**
+- En blokkerende datakløft (DG001 – TFDA-etikettadvarsler/kontraindikasjoner) forhindrer fullføring av S1-sikkerhetsvurderingen, og bevis for den predikerte indikasjonen er for øyeblikket begrenset til en enkelt retrospektiv/observasjonspublikasjon uten registrerte kliniske studier.
+
+**For å fortsette er følgende nødvendig:**
+- TFDA-etikett-PDF med advarsler/kontraindikasjoner (DG001, Blokkering)
+- Data for virkningsmekanisme (MOA) via DrugBank API (DG002, Høy)
+- Ytterligere klinisk studie eller høyere-nivå litteraturbevis for å støtte den predikerte indikasjonen utover en enkelt retrospektiv studie fra ett senter
+- Bekreftelse av decistavins opprinnelige godkjente indikasjon(er) for å etablere en mekanistisk begrunnelse
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

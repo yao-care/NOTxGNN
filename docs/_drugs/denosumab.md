@@ -29,80 +29,81 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Denosumab: From Unspecified Original Indication to Severe Nonproliferative Diabetic Retinopathy
+# Denosumab: Fra uspesifisert original indikasjon til alvorlig nonproliferativ diabetisk retinopati
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-> Denosumab is a RANKL-targeted monoclonal antibody; this evidence pack does not contain data on its original approved indication or mechanism of action (data gaps DG001/DG002).
-> The TxGNN model predicts potential efficacy for **Severe Nonproliferative Diabetic Retinopathy**,
-> but currently **no clinical trials** and **no literature** support this specific direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in evidence pack (original MOA and indication data are both flagged as data gaps — see DG001/DG002) |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Market Status (Taiwan) | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Denosumab er et RANKL-rettet monoklonalt antistoff; denne bevisoversikten inneholder ikke data om den opprinnelige godkjente indikasjonen eller virkningsmekanismen (datamangler DG001/DG002).
+> TxGNN-modellen predikerer potensiell effekt for **Alvorlig nonproliferativ diabetisk retinopati**,
+> men for tiden **ingen kliniske forsøk** og **ingen litteratur** støtter denne spesifikke retningen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available for denosumab in this evidence pack (DG002, High severity). Without confirmed original indication or MOA data, no direct mechanistic bridge can be established to severe nonproliferative diabetic retinopathy (NPDR).
-
-The repurposing rationale notes that the OPG/RANKL/RANK signaling axis has been theoretically associated with vascular endothelial dysfunction and pathological angiogenesis, which are relevant to diabetic microvascular disease. However, this link is speculative — it is not derived from any training data, clinical trial, or publication specific to severe NPDR. The 0.996 TxGNN score reflects graph-neural-network connection strength only, not clinical or mechanistic validation.
-
-Given the missing MOA and original indication data, this prediction should be treated as a pure hypothesis-generation signal rather than a mechanistically substantiated candidate.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Emne | Innhold |
+|------|---------|
+| Original indikasjon | Ikke spesifisert i bevisoversikten (opprinnelige virkningsmekanisme- og indikasjondata er begge flagget som datamangler — se DG001/DG002) |
+| Predikert ny indikasjon | Alvorlig nonproliferativ diabetisk retinopati |
+| TxGNN-prediksjonspoengsum | 99.63% |
+| Bevisnivå | L5 (kun modellpreduksjon, ingen støttende studier) |
+| Markedsstatus (Taiwan) | Ikke markedsført (Ikke markedsført) |
+| Antall godkjennelser | 0 |
+| Anbefalt avgjørelse | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+For øyeblikket er detaljerte virkningsmekanisme-data ikke tilgjengelige for denosumab i denne bevisoversikten (DG002, høy alvorlighetsgrad). Uten bekreftet original indikasjon eller virkningsmekanisme-data kan ingen direkte mekanistisk bro etableres til alvorlig nonproliferativ diabetisk retinopati (NPDR).
+
+Omformuleringens rasjonale noterer at OPG/RANKL/RANK-signalerings-aksen har blitt teoretisk assosiert med vaskulær endotelial dysfunksjon og patologisk angiogenese, som er relevant for diabetisk mikrovaskulær sykdom. Imidlertid er denne koblingen spekulativ — den er ikke avledet fra noen treningsdata, klinisk forsøk eller publikasjon spesifikk for alvorlig NPDR. TxGNN-skåren på 0.996 reflekterer kun styrken på grafnevralt-nettverksforbindelsen, ikke klinisk eller mekanistisk validering.
+
+Gitt de manglende virkningsmekanisme- og original indikasjonsdataene, bør denne prediksjonen behandles som et signal for ren hypotesegenerering snarere enn en mekanistisk underbygget kandidat.
 
 ---
 
-## Market Information
+## Bevis fra kliniske forsøk
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
+For øyeblikket ingen relaterte kliniske forsøk registrert.
+
+---
+
+## Litteraturbevis
+
+For øyeblikket ingen relatert litteratur tilgjengelig.
+
+---
+
+## Markedsinformasjon
+
+| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| — | — | — | No authorizations on record (0 licenses; not marketed) |
+| — | — | — | Ingen godkjennelser på posten (0 lisenser; ikke markedsført) |
 
 ---
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Se pakningsvedlegget for sikkerhetsinformasjon.
 
-(Key warnings, contraindications, and drug interaction data are all currently unavailable — DG001, Blocking severity, must be resolved via TFDA label retrieval before any safety assessment can proceed.)
+(Viktige advarsler, kontraindikasjoner og data om legemiddelinteraksjon er alle for øyeblikket utilgjengelige — DG001, blokkering alvorlighetsgrad, må løses ved innhenting av TFDA-etikett før noen sikkerhetsvurdering kan fortsette.)
 
 ---
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Avgjørelse: Avvent**
 
-**Rationale:**
-The prediction rests solely on a TxGNN connectivity score (L5) with zero supporting clinical trials or literature, and two unresolved data gaps — missing TFDA label/safety data (Blocking) and missing MOA (High) — prevent even a preliminary S1 safety evaluation.
+**Begrunnelse:**
+Prediksjonen hviler kun på en TxGNN-tilkoblingsskår (L5) med null støttende kliniske forsøk eller litteratur, og to uløste datamangler — manglende TFDA-pakningsvedlegg/sikkerhedsdata (blokkering) og manglende virkningsmekanisme (høy) — hindrer selv en foreløpig S1-sikkerhetsvurdering.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — DG001, blocking
-- Denosumab mechanism of action data from DrugBank — DG002
-- Original approved indication(s) to establish original-to-new indication rationale
-- Disease-specific (severe NPDR) clinical or preclinical evidence; note that the broader "diabetic retinopathy" category (rank 2, score 0.992) already has L4 evidence (1 Phase 3 trial, 2 publications) and may be a more tractable starting point for further investigation
+**For å fortsette, er følgende nødvendig:**
+- TFDA-pakningsvedlegg (advarsler, kontraindikasjoner) — DG001, blokkering
+- Denosumab virkningsmekanisme-data fra DrugBank — DG002
+- Opprinnelig godkjent indikasjon(er) for å etablere rasjonalet for opprinnelig-til-ny indikasjon
+- Sykdomsspesifikt (alvorlig NPDR) klinisk eller preklinisk bevis; merk at den bredere "diabetisk retinopati"-kategori (rang 2, poengsum 0.992) allerede har L4-bevis (1 fase 3-forsøk, 2 publikasjoner) og kan være et mer håndterbart utgangspunkt for ytterligere etterforskning
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

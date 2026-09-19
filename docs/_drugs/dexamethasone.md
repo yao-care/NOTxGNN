@@ -29,92 +29,91 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-Using the report template above (matching the Evidence Pack schema exactly) — here is the report:
+# Dexamethasone: Fra systemisk kortikosteroidterapi til alopecia areata
+
+## Sammendrag på én setning
+
+> Dexametason er en potent, langvirkende syntetisk kortikosteroid med bredt etablerte anti-inflammatoriske og immunosuppressive bruksområder.
+> TxGNN-modellen forutsier at det kan være effektivt for **Alopecia Areata**,
+> og i motsetning til de fleste co-occurrence-drevne prediksjoner, er denne støttet av **ekte litteraturbevis** — inkludert randomiserte kontrollerte studier og systematiske oversikter over dexametason oral mini-pulse (OMP) terapi — selv om ingen klinisk studie i evidenspakken ble designet spesifikt for denne indikasjonen.
 
 ---
 
-# Dexamethasone: From Systemic Corticosteroid Therapy to Alopecia Areata
+## Rask oversikt
 
-## One-Sentence Summary
-
-> Dexamethasone is a potent, long-acting synthetic corticosteroid with broadly established anti-inflammatory and immunosuppressive uses.
-> The TxGNN model predicts it may be effective for **Alopecia Areata**,
-> and unlike most co-occurrence-driven predictions, this one is backed by **genuine literature evidence** — including RCTs and systematic reviews on dexamethasone oral mini-pulse (OMP) therapy — even though no clinical trial in the evidence pack was designed specifically for this indication.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in evidence pack (dexamethasone is a synthetic corticosteroid with broad, well-established anti-inflammatory/immunosuppressive uses; `original_moa` and `original_indications` are data gaps in this pack) |
-| Predicted New Indication | Alopecia Areata |
-| TxGNN Prediction Score | 99.99% (rank 168) |
-| Evidence Level | L2 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Element | Innhold |
+|---|---|
+| Opprinnelig indikasjon | Ikke spesifisert i evidenspakken (dexametason er en syntetisk kortikosteroid med bredt, godt etablerte anti-inflammatoriske/immunosuppressive bruksområder; `original_moa` og `original_indications` er dataluker i denne pakken) |
+| Predikert ny indikasjon | Alopecia Areata |
+| TxGNN prediksjonspoengsum | 99.99% (rank 168) |
+| Bevisnivå | L2 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Fortsett med sikkerhetstiltak |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen fornuftig?
 
-Currently, detailed mechanism of action data is not available in the formal MOA field (data gap). However, the evidence pack's repurposing rationale provides a clear mechanistic account: dexamethasone is a potent, long-acting glucocorticoid that produces systemic immunosuppression, blocking the T-cell-mediated peribulbar inflammatory infiltrate that drives the autoimmune attack on hair follicles in alopecia areata (AA).
+Foreløpig er detaljerte data om virkningsmekanisme ikke tilgjengelige i det formelle MOA-feltet (datakluft). Imidlertid gir evidenspakkens begrunnelse for ombruk en klar mekanistisk forklaring: dexametason er en potent, langvirkende glukokortikoid som fremkaller systemisk immunsuppresjon, og blokkerer T-celle-mediert perikulær inflammatorisk infiltrasjon som driver det autoimmune angrepet på hårfollikler i alopecia areata (AA).
 
-Importantly, this is **not a novel mechanistic hypothesis** — dexamethasone mini-pulse (oral or IV) therapy is already an established off-label treatment option in dermatology practice for moderate-to-severe AA, particularly in patients who are ineligible for or cannot access JAK inhibitors. The TxGNN prediction therefore recovers a real, clinically-practiced use rather than proposing an untested mechanistic leap.
+Viktig er det at dette **ikke er en ny mekanistisk hypotese** — dexametason mini-pulse (oral eller IV) terapi er allerede et etablert off-label behandlingsalternativ i dermatologisk praksis for moderat til alvorlig AA, særlig hos pasienter som ikke er kvalifisert for eller ikke kan få tilgang til JAK-hemmere. TxGNN-prediksjonen gjenoppretter derfor en reell, klinisk praktisert bruk i stedet for å foreslå et utestet mekanistisk sprang.
 
-It is worth noting that none of the clinical trials automatically linked to this prediction in the evidence pack are actually AA trials — they are oncology trials (multiple myeloma, mesothelioma, NSCLC, etc.) where dexamethasone was used as supportive/combination therapy, and the database link is a drug co-occurrence false positive. The genuine supporting evidence for this indication comes entirely from the **literature** (PubMed), not from registered clinical trials.
-
----
-
-## Clinical Trial Evidence
-
-Currently no clinical trials specifically evaluating dexamethasone for alopecia areata are registered. The clinical trials returned during evidence collection (e.g., NCT02004275, NCT02685826, NCT05408026 — all multiple myeloma trials using dexamethasone as a combination-therapy backbone) were flagged in the evidence pack as **database co-occurrence false positives**, unrelated to alopecia areata, and are therefore excluded from this table.
+Det er verdt å merke seg at ingen av de kliniske studiene som automatisk er knyttet til denne prediksjonen i evidenspakken, faktisk er AA-studier — de er onkologistudier (multippelt myelom, mesoteliom, NSCLC osv.) der dexametason ble brukt som støtte-/kombinasjonsterapi, og databaselinken er en falskt positiv drug co-occurrence. Det egentlige støttende beviset for denne indikasjonen kommer helt fra **litteraturen** (PubMed), ikke fra registrerte kliniske studier.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske studier
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [36086930](https://pubmed.ncbi.nlm.nih.gov/36086930/) | 2022 | RCT | Dermatologic Therapy | Randomized comparison of low-dose dexamethasone oral mini-pulse vs. DPCP contact sensitization in severe pediatric AA |
-| [36070222](https://pubmed.ncbi.nlm.nih.gov/36070222/) | 2022 | RCT (multicentric) | Dermatologic Therapy | Multicentric study of oral dexamethasone mini-pulse therapy for moderate-to-severe AA; positioned as an accessible alternative to JAK inhibitors |
-| [39042154](https://pubmed.ncbi.nlm.nih.gov/39042154/) | 2024 | Systematic review / Network meta-analysis | Archives of Dermatological Research | Compares systemic steroids, oral JAK inhibitors, and contact immunotherapy for severe AA; no single treatment shown clearly superior |
-| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Review | Pediatric Dermatology | Reviews pulse-dose corticosteroid dosing regimens and associated side effects for AA in children |
-| [35330017](https://pubmed.ncbi.nlm.nih.gov/35330017/) | 2022 | Prospective cohort | Journal of Clinical Medicine | Real-world evidence on dexamethasone mini-pulse therapy efficacy/safety and predictors of response in AA |
-| [31579982](https://pubmed.ncbi.nlm.nih.gov/31579982/) | 2019 | Prospective cohort | Dermatologic Therapy | Compares 1-day vs 3-day IV dexamethasone pulse regimens plus topical clobetasol in 73 children with severe AA |
-| [26179196](https://pubmed.ncbi.nlm.nih.gov/26179196/) | 2015 | Cohort, long-term follow-up | Dermatologic Therapy | Long-term (median 96-month) follow-up of combined oral dexamethasone pulse + topical corticosteroid in 65 children with severe AA |
-| [16707886](https://pubmed.ncbi.nlm.nih.gov/16707886/) | 2006 | Comparative study | Dermatology (Basel) | Compares efficacy, relapse rate, and side effects across three systemic corticosteroid regimens for AA |
-| [17656876](https://pubmed.ncbi.nlm.nih.gov/17656876/) | 2002 | Clinical commentary/review | Indian J Dermatol Venereol Leprol | Discusses risk-benefit of dexamethasone pulse therapy for extensive AA |
-| [10535249](https://pubmed.ncbi.nlm.nih.gov/10535249/) | 1999 | Case series | The Journal of Dermatology | Twice-weekly 5 mg dexamethasone oral pulse in 30 patients with extensive AA; reports terminal hair regrowth outcomes |
+Foreløpig er ingen kliniske studier som spesifikt evaluerer dexametason for alopecia areata registrert. De kliniske studiene som ble funnet under evidenssamlingen (f.eks. NCT02004275, NCT02685826, NCT05408026 — alle multippelt myelom-studier som brukte dexametason som kombinasjonsterapibase) ble flagget i evidenspakken som **falskt positive database co-occurrence**, som ikke er relatert til alopecia areata, og er derfor ekskludert fra denne tabellen.
 
 ---
 
-## Norway Market Information
+## Litteraturbevis
 
-No marketing authorizations are currently registered in Norway (`total_licenses = 0`, `licenses = []`).
+| PMID | År | Type | Tidsskrift | Viktige funn |
+|---|---|---|---|---|
+| [36086930](https://pubmed.ncbi.nlm.nih.gov/36086930/) | 2022 | Randomisert kontrollert studie | Dermatologic Therapy | Randomisert sammenligning av lavdose dexametason oral mini-pulse mot DPCP kontaktsensibilisering i alvorlig pediatrisk AA |
+| [36070222](https://pubmed.ncbi.nlm.nih.gov/36070222/) | 2022 | Randomisert kontrollert studie (multisentrum) | Dermatologic Therapy | Multisenter-studie av oral dexametason mini-pulse terapi for moderat-alvorlig AA; posisjonert som et tilgjengelig alternativ til JAK-hemmere |
+| [39042154](https://pubmed.ncbi.nlm.nih.gov/39042154/) | 2024 | Systematisk oversikt / Nettverksmetaanalyse | Archives of Dermatological Research | Sammenligner systemiske steroider, orale JAK-hemmere og kontakt-immunterapi for alvorlig AA; ingen enkelt behandling vises klart overlegen |
+| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Oversikt | Pediatric Dermatology | Gjennomgår pulse-dose kortikosteroid doseringsskjemaer og tilknyttede bivirkninger for AA hos barn |
+| [35330017](https://pubmed.ncbi.nlm.nih.gov/35330017/) | 2022 | Prospektiv kohortstudie | Journal of Clinical Medicine | Empirisk bevis for dexametason mini-pulse terapi effektivitet/sikkerhet og prediktorer for respons i AA |
+| [31579982](https://pubmed.ncbi.nlm.nih.gov/31579982/) | 2019 | Prospektiv kohortstudie | Dermatologic Therapy | Sammenligner 1-dags vs 3-dagers IV dexametason pulse-skjemaer pluss topisk klobetasol hos 73 barn med alvorlig AA |
+| [26179196](https://pubmed.ncbi.nlm.nih.gov/26179196/) | 2015 | Kohort, langtidsstudie | Dermatologic Therapy | Langtids- (median 96 måneder) oppfølging av kombinert oral dexametason pulse + topisk kortikosteroid hos 65 barn med alvorlig AA |
+| [16707886](https://pubmed.ncbi.nlm.nih.gov/16707886/) | 2006 | Sammenligningsstudie | Dermatology (Basel) | Sammenligner effektivitet, tilbakefall og bivirkninger på tvers av tre systemiske kortikosteroid-skjemaer for AA |
+| [17656876](https://pubmed.ncbi.nlm.nih.gov/17656876/) | 2002 | Klinisk kommentar/oversikt | Indian J Dermatol Venereol Leprol | Diskuterer risiko-nytte ved dexametason pulse terapi for omfattende AA |
+| [10535249](https://pubmed.ncbi.nlm.nih.gov/10535249/) | 1999 | Kasusserier | The Journal of Dermatology | To ganger ukentlig 5 mg dexametason oral pulse hos 30 pasienter med omfattende AA; rapporterer resultater for terminalt hårgjenvekst |
 
 ---
 
-## Safety Considerations
+## Norsk markedsinformasjon
 
-Please refer to the package insert for safety information. `key_warnings`, `contraindications`, and DDI data are not available in this evidence pack (query status: not found).
+Ingen markedsføringsautorisasjoner er for tiden registrert i Norge (`total_licenses = 0`, `licenses = []`).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails**
+Vennligst se pakningsvedlegget for sikkerhetsopplysninger. `key_warnings`, `contraindications` og DDI-data er ikke tilgjengelig i denne evidenspakken (spørringsstatus: ikke funnet).
 
-**Rationale:**
-The literature evidence — including two RCTs, a systematic review/network meta-analysis, and multiple cohort studies — supports dexamethasone oral/IV mini-pulse therapy as an already-practiced off-label option for moderate-to-severe alopecia areata (Evidence Level L2). However, this evidence pack has a **Blocking** data gap on formal Norway/regulatory label safety data (warnings, contraindications), which prevents the candidate from formally entering the S1 safety review stage.
+---
 
-**To proceed, the following is needed:**
-- Retrieve TFDA/Norway-equivalent product label warnings and contraindications (Blocking gap, DG001)
-- Retrieve formal mechanism of action (MOA) documentation from DrugBank or equivalent source (High priority gap, DG002)
-- Formal DDI review, given dexamethasone's well-known interaction profile (CYP3A4 inducers/substrates, live vaccines, NSAIDs)
-- Dosing/regimen standardization review — literature uses varied mini-pulse protocols (e.g., 5 mg twice weekly vs. monthly IV pulses); no consensus regimen has been established
-- Confirm route/formulation compatibility (oral tablet vs. IV pulse) against locally available dosage forms, since no Norway licenses currently exist
+## Konklusjon og neste steg
+
+**Beslutning: Fortsett med sikkerhetstiltak**
+
+**Begrunnelse:**
+
+Litteraturbeviset — inkludert to randomiserte kontrollerte studier, en systematisk oversikt/nettverksmetaanalyse og flere kohortstudier — støtter dexametason oral/IV mini-pulse terapi som et allerede praktisert off-label alternativ for moderat-alvorlig alopecia areata (Bevisnivå L2). Imidlertid har denne evidenspakken en **blokkert** datakluft på formelle Norge/regulatoriske merkedata for sikkerhet (advarsler, kontraindikasjoner), som hindrer kandidaten fra å formelt gå inn i S1 sikkerhetsvurderingsfasen.
+
+**For å fortsette er følgende nødvendig:**
+
+- Hent TFDA/Norge-ekvivalente produktmerkingsadvarsler og kontraindikasjoner (Blokkert gap, DG001)
+- Hent formell dokumentasjon av virkningsmekanisme (MOA) fra DrugBank eller tilsvarende kilde (Høy prioritet gap, DG002)
+- Formell DDI-gjennomgang, gitt dexametasons velkjente interaksjonsprofil (CYP3A4-induktorer/substrater, levende vaksiner, NSAIDs)
+- Dosering/regime-standardiseringsgjennomgang — litteratur bruker varierte mini-pulse-protokoller (f.eks. 5 mg to ganger ukentlig vs. månedlige IV-pulser); ingen konsensusregime har blitt etablert
+- Bekreft rute-/formuleringkompatibilitet (oral tablett vs. IV pulse) mot lokalt tilgjengelige doseringsformer, siden ingen norske lisenser for tiden eksisterer
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

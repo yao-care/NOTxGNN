@@ -29,91 +29,92 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Nevirapine: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
+# Nevirapin: Fra HIV-1-infeksjon til felint ervervet immunsviktssyndrom
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-Nevirapine is a first-generation non-nucleoside reverse transcriptase inhibitor (NNRTI) established for the treatment of human HIV-1 infection as part of combination antiretroviral therapy. The TxGNN model predicts potential activity against **feline acquired immunodeficiency syndrome (FIV infection)**, a veterinary retroviral disease, but this direction is currently supported by only **1 in vitro/structural comparison study** and **no clinical trials**, with the sole available literature suggesting nevirapine may actually **lack** cross-activity against feline reverse transcriptase.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | HIV-1 infection (well-established use as part of combination antiretroviral therapy; no Norway license records available to extract formal indication text — see Data Gap DG001) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (FIV infection) |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L4 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Nevirapin er en første generasjons ikke-nukleosidisk revers transkriptasehemmer (NNRTI) som er etablert for behandling av HIV-1-infeksjon hos mennesker som del av kombinert antiretroviral terapi. TxGNN-modellen predikerer potensiell aktivitet mot **felint ervervet immunsviktssyndrom (FIV-infeksjon)**, en veterinær retroviral sykdom, men denne retningen støttes for øyeblikket kun av **1 in vitro/strukturell sammenligningsstudie** og **ingen kliniske forsøk**, med den eneste tilgjengelige litteraturen som tyder på at nevirapin faktisk kan **mangle** kryssaktivitet mot felin revers transkriptase.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available (DrugBank query returned a data gap for structured MOA). Based on known information, nevirapine belongs to the NNRTI (non-nucleoside reverse transcriptase inhibitor) class, and its efficacy against HIV-1 infection — as part of combination antiretroviral regimens — is well established in humans. Mechanistically, NNRTIs act by binding to an allosteric hydrophobic pocket on the HIV-1 reverse transcriptase (RT) enzyme, which is structurally distinct across different retroviruses.
-
-The predicted new indication, feline immunodeficiency virus (FIV) infection, is caused by a different lentivirus that also relies on a reverse transcriptase enzyme, which is the superficial basis for TxGNN's similarity-based prediction (both are RT-dependent retroviral infections). However, the single available literature source (PMID 38031646) directly cautions against this extrapolation: it reports that feline RT differs structurally from HIV-1 RT and appears to **lack the hydrophobic binding pocket** required for NNRTI binding. In other words, the only evidence identified for this pairing points toward an absence of cross-species activity rather than a therapeutic signal.
-
-Additionally, FIV infection is a veterinary (feline) disease rather than a human indication, so even if in vitro activity were confirmed, the translational pathway to a human drug-repurposing candidate would remain undefined. For these reasons, the mechanistic plausibility of this specific prediction is weak despite the high TxGNN similarity score.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Emne | Innhold |
+|------|---------|
+| Originalindikasjon | HIV-1-infeksjon (veletablert bruk som del av kombinert antiretroviral terapi; ingen norske lisensregistreringer tilgjengelige for utvinning av formell indikasjonsbeskrivelse — se datakløft DG001) |
+| Predikert ny indikasjon | Felint ervervet immunsviktssyndrom (FIV-infeksjon) |
+| TxGNN prediksjonspoeng | 99.85% |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Pausér |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
+For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige (DrugBank-spørring returnerte en datakløft for strukturert MOA). Basert på kjent informasjon tilhører nevirapin NNRTI-klassen (ikke-nukleosidisk revers transkriptasehemmer), og dets effektivitet mot HIV-1-infeksjon — som del av kombinerte antiretroviral terapi — er veletablert hos mennesker. Fra et mekanistisk perspektiv virker NNRTI-midler ved å binde seg til en allosterisk hydrofob lomme på HIV-1 revers transkriptase (RT) enzymet, som er strukturelt distinkt på tvers av ulike retrovirus.
+
+Den predikerte nye indikasjonen, felint immunsviktsvirus (FIV) infeksjon, er forårsaket av et annet lentivirus som også er avhengig av et revers transkriptase-enzym, som er det overfladiske grunnlaget for TxGNN's likhetbaserte prediksjon (begge er RT-avhengige retroviral infeksjoner). Imidlertid advarer den eneste tilgjengelige litteraturkilden (PMID 38031646) direkte mot denne ekstrapolasjonen: den rapporterer at felin RT er strukturelt forskjellig fra HIV-1 RT og ser ut til å **mangle den hydrofobe bindingslommen** som kreves for NNRTI-binding. Med andre ord peker den eneste identifiserte evidensen for denne paringen mot et fravær av kryssarter-aktivitet snarere enn et terapeutisk signal.
+
+I tillegg er FIV-infeksjon en veterinær (felin) sykdom snarere enn en humanindikasjon, så selv om in vitro-aktivitet ble bekreftet, ville translasjonsbanen til en ompurposerings-kandidat for mennesker fortsatt være udefinert. Av disse årsakene er den mekanistiske plausibiliteten til denne spesifikke prediksjonen svak til tross for den høye TxGNN likhetsscore.
+
+---
+
+## Evidens fra kliniske studier
+
+For øyeblikket er det ingen registrerte relaterte kliniske studier.
+
+---
+
+## Litteraturbevis
+
+| PMID | År | Type | Tidsskrift | Nøkkelfunn |
 |------|-----|------|------|---------|
-| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | In vitro / structural comparison | Journal of Veterinary Science | Biochemical and structural comparison of NNRTIs (nevirapine, efavirenz, rilpivirine) against feline vs. human immunodeficiency virus reverse transcriptase; findings indicate FIV RT lacks the hydrophobic pocket needed for NNRTI binding, suggesting limited cross-species antiviral activity rather than efficacy |
+| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | In vitro / strukturell sammenligning | Journal of Veterinary Science | Biokjemisk og strukturell sammenligning av NNRTI-midler (nevirapin, efavirenz, rilpivirin) mot felint vs. humant immunsviktsvirus revers transkriptase; funnene indikerer at FIV RT mangler den hydrofobe lommen som kreves for NNRTI-binding, noe som tyder på begrenset kryssarter-antivirale aktivitet snarere enn effektivitet |
 
 ---
 
-## Norway Market Information
+## Informasjon om norskmarkedet
 
-No Norway market authorization records are available for nevirapine (market status: **Not Marketed**, 0 authorizations on file).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/package-insert warnings and contraindications data, and drug-drug interaction data, are flagged as data gaps in this evidence pack — see "To proceed" below.)*
+Ingen registreringer av norsk markedsautorisasjon er tilgjengelige for nevirapin (markedsstatus: **Ikke markedsført**, 0 autorisasjoner på fil).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-**Rationale:**
-The only literature identified for this specific prediction (feline AIDS) argues against, rather than for, meaningful cross-reactivity of nevirapine against FIV reverse transcriptase, there are no clinical trials, and the indication itself is non-human (veterinary), leaving no clear translational path. Combined with a Blocking-severity data gap on package-insert warnings/contraindications, this candidate does not currently meet the threshold to advance past initial screening (S0).
-
-**To proceed, the following is needed:**
-- TFDA/manufacturer package-insert warnings and contraindications (Data Gap DG001, Blocking — required before any S1 safety evaluation)
-- DrugBank mechanism-of-action detail (Data Gap DG002, High)
-- If pursuing an FIV-related research direction: in vitro/in vivo confirmation of nevirapine activity against feline RT, since the current single source suggests the opposite
-- Clarification of whether a human-relevant repurposing hypothesis (vs. veterinary) is intended before further investment
+*(Merk: TFDA/pakningsvedlegg-advarsler og kontraindikasjonsdata, samt legemiddel-legemiddelinteraksjondata, er flagget som datakløfter i denne evidenspakken — se «For å fortsette» nedenfor.)*
 
 ---
 
-## Other Model-Predicted Indications in This Evidence Pack (Not Analyzed in Detail)
+## Konklusjon og neste trinn
 
-This evidence pack contains two additional TxGNN predictions for nevirapine that were not the primary focus of this report but are worth noting given the "multi-indication" nature of this candidate:
+**Beslutning: Pausér**
 
-| Rank | Disease | TxGNN Score | Evidence Level | Decision Stage | Recommendation | Note |
-|------|---------|-------------|-----------------|-----------------|------------------|------|
-| 2 | Simian immunodeficiency virus (SIV) infection | 99.85% | L3 | S1 | Research Question | 17 literature hits, but wild-type SIV RT is intrinsically NNRTI-resistant; most studies use HIV-1 RT/SIV chimeras (SHIV) as an animal model for HIV research rather than evidence of direct SIV efficacy. Non-human indication. |
-| 3 | Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter | 99.82% | L5 | S0 | Hold | No clinical trials, no literature, and no plausible mechanistic link to nevirapine's known pharmacology (rare genetic neurodevelopmental disorder vs. an antiretroviral RT inhibitor). |
+**Begrunnelse:**
+Den eneste litteraturen som er identifisert for denne spesifikke prediksjonen (felint AIDS) argumenterer mot, snarere enn for, meningsfull kryssreaktivitet av nevirapin mot FIV revers transkriptase, det foreligger ingen kliniske forsøk, og indikasjonen selv er ikke-human (veterinær), og etterlater ingen klar translasjonsbane. Kombinert med en blokkering-alvorlighetsgrad datakløft på pakningsvedlegg-advarsler/kontraindikasjoner, oppfyller denne kandidaten for øyeblikket ikke terskelen for å avansere forbi første screeningsfase (S0).
 
-None of the three predicted indications in this evidence pack currently support a "Go" or "Proceed with Guardrails" decision; all require substantially more mechanistic or preclinical evidence before further evaluation.
+**For å fortsette er følgende nødvendig:**
+- TFDA/produsent pakningsvedlegg advarsler og kontraindikasjoner (Datakløft DG001, Blokkering — påkrevd før noen S1 sikkerhetsvurdering)
+- DrugBank virkningsmekanisme-detaljer (Datakløft DG002, Høy)
+- Hvis en FIV-relatert forskningsretning forfølges: in vitro/in vivo-bekreftelse av nevirapin-aktivitet mot felint RT, siden den nåværende enkeltkilden tyder på det motsatte
+- Avklaring av om en menneske-relevant ompurposerings-hypotese (vs. veterinær) er tilsiktet før ytterligere investering
+
+---
+
+## Andre modellpredikerte indikasjoner i denne evidenspakken (ikke analysert i detalj)
+
+Denne evidenspakken inneholder to tilleggsprefiksjoner for nevirapin som ikke var hovedfokus for denne rapporten, men er verdt å bemerke gitt den «multi-indikasjon»-karakteren til denne kandidaten:
+
+| Rangering | Sykdom | TxGNN-poeng | Evidensnivå | Beslutningsstadium | Anbefaling | Merknad |
+|------|---------|-------------|-----------------|------------------|------------------|------|
+| 2 | Simian immunsviktsvirus (SIV) infeksjon | 99.85% | L3 | S1 | Forskningsspørsmål | 17 litteraturtreff, men villtype SIV RT er iboende NNRTI-resistent; de fleste studier bruker HIV-1 RT/SIV-kimaerer (SHIV) som dyremodell for HIV-forskning snarere enn bevis på direkte SIV-effektivitet. Ikke-human indikasjon. |
+| 3 | Nevrouviklingsforstyrrelser med ataksisk gangart, fraværende tale og redusert kortikal hvitmateriale | 99.82% | L5 | S0 | Pausér | Ingen kliniske forsøk, ingen litteratur, og ingen plausibel mekanistisk forbindelse til nevirpins kjente farmakologi (sjelden genetisk nevrouviklingsforstyrrelser vs. en antiretroviral RT-hemmer). |
+
+Ingen av de tre predikerte indikasjonene i denne evidenspakken støtter for øyeblikket en «Gjennomfør» eller «Fortsett med sikkerhetstiltak» beslutning; alle krever betydelig mer mekanistisk eller preklinisk bevis før ytterligere evaluering.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

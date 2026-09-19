@@ -29,60 +29,61 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Silodosin: From Benign Prostatic Hyperplasia (BPH) to Ambras Type Hypertrichosis Universalis Congenita
+# Silodosin: Fra Benign Prostatahyperplasi (BPH) til Ambras Type Hypertrichosis Universalis Congenita
 
-## One-Sentence Summary
+## Sammenfatting i én setning
 
-Silodosin is a highly selective α1A-adrenergic receptor antagonist, clinically known for treating benign prostatic hyperplasia (BPH)-related lower urinary tract symptoms by acting on prostate/bladder-neck smooth muscle. The TxGNN model predicts a possible link to **Ambras Type Hypertrichosis Universalis Congenita**, a rare congenital hair-overgrowth disorder, but this is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack itself flags no identifiable mechanistic connection.
+Silodosin er en høyselektiv α1A-adrenergisk reseptorantagonist, klinisk kjent for å behandle symptomer på nedre urinveier relatert til benign prostatahyperplasi (BPH), ved å virke på glatt muskulatur i prostata og blærehals. TxGNN-modellen forutsier en mulig sammenheng med **Ambras Type Hypertrichosis Universalis Congenita**, en sjelden medfødt hårvekstforstyrrelse, men dette er for øyeblikket støttet av **0 kliniske forsøk** og **0 publikasjoner**, og selve evidenspakken flagget ingen identifiserbar mekanistisk forbindelse.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not formally provided (`original_indications` is empty; `original_moa` is flagged as a data gap). Prediction-rationale text references silodosin's known action on prostate/bladder-neck smooth muscle, consistent with its established BPH use. |
-| Predicted New Indication | Ambras Type Hypertrichosis Universalis Congenita |
-| TxGNN Prediction Score | 99.99% (global rank 153) |
-| Evidence Level | L5 (model prediction only — no trials, no literature) |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Ikke formelt angitt (`original_indications` er tom; `original_moa` er flagget som et datakløft). Forutsigelsesgrunnlagsteksten refererer til silodosins kjente virkning på glatt muskulatur i prostata og blærehals, i samsvar med dets etablerte BPH-bruk. |
+| Forutsagt ny indikasjon | Ambras Type Hypertrichosis Universalis Congenita |
+| TxGNN-forutsigelsespoengsum | 99.99% (global rangering 153) |
+| Bevisnivå | L5 (kun modellforutsigelse — ingen forsøk, ingen litteratur) |
+| Norges markedsstatus | Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forutsigelsen rimelig?
 
-Detailed mechanism-of-action data is not available in this evidence pack — it is explicitly listed as a data gap (DrugBank MOA query, severity High; TFDA label, severity Blocking). Based on the mechanistic notes attached to each prediction, silodosin is understood as a highly selective α1A-adrenergic receptor antagonist acting primarily on prostate and bladder-neck smooth muscle — the pharmacological basis for its known BPH use.
+Detaljerte virkningsmekanisme-data er ikke tilgjengelige i denne evidenspakken — det er eksplisitt oppført som et datakløft (DrugBank MOA-spørring, alvorlighetsgrad Høy; TFDA-etikett, alvorlighetsgrad Blokkering). Basert på de mekanistiske merknadene knyttet til hver forutsigelse, forstås silodosin som en høyselektiv α1A-adrenergisk reseptorantagonist som virker primært på glatt muskulatur i prostata og blærehals — det farmakologiske grunnlaget for dets etablerte BPH-bruk.
 
-Ambras type hypertrichosis universalis congenita is a rare congenital disorder linked to chromosomal rearrangements near hair-follicle developmental genes (e.g., near *TRPS1*) — a biological pathway with no known intersection with α1A-adrenergic signaling. The evidence pack's own rationale field states directly that there is **no identifiable mechanistic link** here.
+Ambras type hypertrichosis universalis congenita er en sjelden medfødt tilstand knyttet til kromosomale omarrangeringer nær hårsekk-utviklingsgener (f.eks. nær *TRPS1*) — en biologisk vei uten kjent skjæringspunkt med α1A-adrenergisk signalisering. Evidenspakkens eget grunnlagsfeld uttaler direkte at det er **ingen identifiserbar mekanistisk forbindelse** her.
 
-This should therefore be read as a pure embedding-similarity output from the TxGNN model, not a mechanistically grounded hypothesis. The same pattern holds across all six candidates in this pack: none have a plausible mechanistic rationale, none have clinical trials, and the one candidate with attached literature (rank 3, "malformation syndrome with odontal/periodontal component," 20 papers) was found on inspection to be an irrelevant keyword mismatch — none of those papers mention silodosin or α1-adrenergic pharmacology at all.
+Dette bør derfor leses som et rent embedding-likhets-funn fra TxGNN-modellen, ikke en mekanistisk begrunnet hypotese. Det samme mønsteret gjelder alle seks kandidatene i denne pakken: ingen har en sannsynlig mekanistisk begrunnelse, ingen har kliniske forsøk, og den ene kandidaten med tilknyttet litteratur (rangering 3, «malformasjonsyndrom med odontalt/periodontalt komponent,» 20 artikler) ble funnet ved inspeksjon å være et irrelevant søkeordsmatch — ingen av disse artiklene nevner silodosin eller α1-adrenergisk farmakologi i det hele tatt.
 
-## Clinical Trial Evidence
+## Klinisk forsøksevidens
 
-Currently no related clinical trials registered
+Ingen relaterte kliniske forsøk er for øyeblikket registrert
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available
+Ingen relatert litteratur er for øyeblikket tilgjengelig
 
-## Norway Market Information
+## Norges markedsinformasjon
 
-No market authorization records are currently available for silodosin (market status: Not Marketed; 0 authorizations on file).
+Ingen markedsautoriseringsregistreringer er for øyeblikket tilgjengelige for silodosin (markedsstatus: Ikke markedsført; 0 autorisasjoner på fil).
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Se pakningvedlegg for sikkerhetsinformasjon.
 
-## Conclusion and Next Steps
+## Konklusjon og neste steg
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-- All six candidates in this evidence pack are TxGNN outputs only (Evidence Level L5), with no clinical trials and no mechanistically plausible rationale; the one candidate with associated literature turned out to be an unrelated keyword mismatch. There is currently no basis to advance any candidate for silodosin.
+**Begrunnelse:**
+- Alle seks kandidatene i denne evidenspakken er utelukkende TxGNN-modellfunn (Bevisnivå L5), uten kliniske forsøk og uten mekanistisk sannsynlig begrunnelse; den ene kandidaten med tilknyttet litteratur viste seg å være et irrelevant søkeordsmatch. Det finnes for øyeblikket intet grunnlag for å ta fatt på noen kandidat for silodosin.
 
-**To proceed, the following is needed:**
-- TFDA-equivalent label (warnings/contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action from DrugBank — currently a High-severity data gap (DG002)
-- Formal original-indication/approved-labeling data (currently empty in this pack)
-- Should any future TxGNN candidate for silodosin show a biologically plausible α1A-adrenergic mechanism, dedicated clinical-trial and literature evidence collection for that specific candidate before re-scoring
+**For å komme videre, er følgende nødvendig:**
+- TFDA-ekvivalent etikett (advarsler/kontraindikasjoner) — for øyeblikket er det en Blokkering datakløft (DG001)
+- Bekreftet virkningsmekanisme fra DrugBank — for øyeblikket er det et Høy-alvorlighetsgrad datakløft (DG002)
+- Formale data om opprinnelig indikasjon/godkjent merking (for øyeblikket tom i denne pakken)
+- Dersom en eventuell fremtidig TxGNN-kandidat for silodosin viser en biologisk plausibel α1A-adrenergisk mekanisme, dedikert innsamling av bevis fra kliniske forsøk og litteratur for denne spesifikke kandidaten før omvurdering
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

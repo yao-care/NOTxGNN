@@ -29,62 +29,63 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Reteplase: From Acute Myocardial Infarction to Posteroinferior Myocardial Infarction
+# Reteplase: Fra akutt myokardialinfarkst til posteroinferior myokardialinfarkst
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-Reteplase (recombinant plasminogen activator, DB00015) is an established thrombolytic used for acute myocardial infarction, as confirmed by multiple trials in this evidence pack (e.g., GUSTO-V, SPEED/GUSTO-4).
-The TxGNN model predicts it may also be effective for the anatomically distinct subtype **Posteroinferior Myocardial Infarction**,
-but this specific prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model prediction (L5).
+Reteplase (rekombinant plasminogenaktivator, DB00015) er et etablert trombolitikum som brukes for akutt myokardialinfarkst, bekreftet av flere forsøk i denne evidenspakken (f.eks. GUSTO-V, SPEED/GUSTO-4).
+TxGNN-modellen forutsier at det også kan være effektivt for den anatomisk distinkte subtypien **posteroinferior myokardialinfarkst**,
+men denne spesifikke prediksjonen støttes for øyeblikket av **0 kliniske forsøk** og **0 publikasjoner** — det er en ren modellforutsigelse (L5).
 
-## Quick Overview
+## Hurtig oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Acute Myocardial Infarction (thrombolytic therapy) — inferred from cited trial/literature context; no Norway license record available |
-| Predicted New Indication | Posteroinferior Myocardial Infarction |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Akutt myokardialinfarkst (trombolitisk terapi) — utledet fra sitatforsøk/litteraturkontekst; ingen norsk godkjenningsjournal tilgjengelig |
+| Forutsagt ny indikasjon | Posteroinferior myokardialinfarkst |
+| TxGNN prediksjonsresultat | 99.90% |
+| Evidensnivå | L5 |
+| Markedsstatus Norge | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Utsett |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen fornuftig?
 
-Currently, detailed mechanism of action data is not available (data gap DG002). Based on information embedded in the evidence pack, reteplase is a recombinant tissue plasminogen activator (also referenced as BM 06.022), a thrombolytic that dissolves coronary thrombi. Its efficacy in acute myocardial infarction — the general condition — has been demonstrated across several large trials (e.g., NCT00046228, PMID 11079647, PMID 15800019), all involving reteplase for acute MI in various clinical settings.
+For øyeblikket er detaljert virkningsmekanisme-data ikke tilgjengelig (datakløft DG002). Basert på informasjon som er innebygd i evidenspakken, er reteplase en rekombinant vevs-plasminogenaktivator (også referert til som BM 06.022), et trombolitikum som løser opp koronartrombuser. Effektiviteten ved akutt myokardialinfarkst — den generelle tilstanden — har blitt demonstrert over flere store forsøk (f.eks. NCT00046228, PMID 11079647, PMID 15800019), som alle omfattet reteplase for akutt MI i ulike kliniske innstillinger.
 
-Posteroinferior myocardial infarction is an anatomical location subtype of acute MI, not a distinct disease with a different pathophysiology. Since reteplase already dissolves the causative coronary thrombus regardless of infarct location, the mechanistic rationale for this "new" indication is strong in principle. However, the very high TxGNN score most likely reflects disease-ontology granularity (a location-specific ICD/ontology term nested under a broader indication already treated by the drug) rather than a genuinely novel therapeutic hypothesis — hence no dedicated trials or literature exist for this specific subtype.
+Posteroinferior myokardialinfarkst er en anatomisk lokaliserings-subtype av akutt MI, ikke en distinkt sykdom med annen patofysiologi. Siden reteplase allerede løser opp den årsaksgivende koronartrombosen uavhengig av infarktplassering, er den mekanistiske begrunnelsen for denne "nye" indikasjonen sterkt i prinsippet. Imidlertid gjenspeiler den meget høye TxGNN-poengsum sannsynligvis sykdomsontologi-granularitet (et lokaliserings-spesifikt ICD/ontologi-term nestet under en bredere indikasjon allerede behandlet med legemidlet) snarere enn en genuint ny terapihypotese — derfor eksisterer det ingen dedikerte forsøk eller litteratur for denne spesifikke subtypien.
 
-## Clinical Trial Evidence
+## Klinisk forsøksevidens
 
-Currently no related clinical trials registered.
+Ingen relaterte kliniske forsøk er for øyeblikket registrert.
 
-## Literature Evidence
+## Litteratursevidens
 
-Currently no related literature available.
+Ingen relatert litteratur er for øyeblikket tilgjengelig.
 
-## Norway Market Information
+## Markedsinformasjon Norge
 
-Reteplase is currently **not marketed** in Norway. No authorization records (0 licenses) are available in the evidence pack, so no dosage form or approved indication text can be extracted.
+Reteplase er for øyeblikket **ikke markedsført** i Norge. Ingen godkjenningsjournal (0 godkjennelser) er tilgjengelig i evidenspakken, så ingen dosering eller godkjent indikasjonstekst kan ekstraheres.
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Se pakningsinformasjonen for sikkerhetsinformasjon.
 
-> Note: TFDA/Norway label warnings and contraindications (DG001) are marked as a **Blocking** data gap in this evidence pack — this prevents formal S1 safety screening for this candidate.
+> Merk: TFDA/Norge merkingsadvarsler og kontraindikasjoner (DG001) er markert som en **blokkering** datakløft i denne evidenspakken — dette forhindrer formell S1 sikkerhetsscreening for denne kandidaten.
 
-## Conclusion and Next Steps
+## Konklusjon og neste steg
 
-**Decision: Hold**
+**Beslutning: Utsett**
 
-**Rationale:**
-The top-ranked predicted indication (posteroinferior MI) has no supporting clinical trials or literature — it is evidence level L5 (model prediction only). Combined with the blocking gap in TFDA safety/label data, this candidate cannot proceed past S0/S1 review at this time.
+**Begrunnelse:**
+Den topprangerte forutsagte indikasjonen (posteroinferior MI) har ingen støttende kliniske forsøk eller litteratur — det er evidensnivå L5 (bare modellforutsigelse). Kombinert med datakløften i TFDA sikkerhet/merking-data, kan denne kandidaten ikke gå videre forbi S0/S1-gjennomgang på dette tidspunktet.
 
-**To proceed, the following is needed:**
-- TFDA/Norway package insert (warnings, contraindications) — currently blocking (DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Subtype-specific (posteroinferior MI) trial or registry data, if any exist outside PubMed/ClinicalTrials.gov
-- **Consider re-evaluating this candidate profile using a better-evidenced predicted indication from the same pack**: rank 3 "septal myocardial infarction" (L2, one completed Phase 3 RCT — NCT00046228) or rank 5 "coronary stenosis" (L3, six supporting publications including facilitated-PCI cohort data) show substantially stronger evidence bases within this same drug's prediction set.
+**For å gå videre, er følgende nødvendig:**
+- TFDA/Norge pakningsinformasjon (advarsler, kontraindikasjoner) — for øyeblikket blokkering (DG001)
+- Bekreftet virkningsmekanisme-data fra DrugBank (DG002)
+- Subtype-spesifikk (posteroinferior MI) forsøks- eller registerdata, hvis de finnes utenfor PubMed/ClinicalTrials.gov
+- **Vurder å re-evaluere denne kandidatprofilen ved bruk av en bedre-evidensiert forutsagt indikasjon fra samme pakke**: rangering 3 "septalt myokardialinfarkst" (L2, ett fullført fase 3-RCT — NCT00046228) eller rangering 5 "koronarstenose" (L3, seks støttende publikasjoner inkludert data fra fasilitert PCI kohort) viser vesentlig sterkere evidensgrunnlag innenfor denne samme legemiddelets prediksjonsresultat.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

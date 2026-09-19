@@ -29,76 +29,77 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Levodopa: From Parkinson's Disease (Unconfirmed) to Rasmussen Subacute Encephalitis
+# Levodopa: Fra Parkinsons sykdom (ubekreftet) til Rasmussens subakutt encefalitt
 
-## One-Sentence Summary
+## Oppsummering i en setning
 
-Levodopa is a dopamine precursor conventionally associated with Parkinson's disease treatment, though the original indication is not documented in this evidence pack.
-The TxGNN model predicts it may be effective for **Rasmussen subacute encephalitis**,
-but currently **0 clinical trials** and **0 publications** support this direction — the score reflects a model-only prediction.
+Levodopa er en dopaminforløper som konvensjonelt er forbundet med behandling av Parkinsons sykdom, selv om den opprinnelige indikasjonen ikke er dokumentert i denne bevissamlingen.
+TxGNN-modellen forutsier at det kan være effektivt for **Rasmussens subakutt encefalitt**,
+men for øyeblikket **0 kliniske studier** og **0 publikasjoner** støtter denne retningen — poengsummen reflekterer en modell-kun-prediksjon.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Kategori | Verdi |
 |------|------|
-| Original Indication | Not specified in evidence pack (`original_indications` empty) |
-| Predicted New Indication | Rasmussen subacute encephalitis |
-| TxGNN Prediction Score | 99.06% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Ikke spesifisert i bevissamlingen (`original_indications` tom) |
+| Forutsagt ny indikasjon | Rasmussens subakutt encefalitt |
+| TxGNN-prediksjonspoengsum | 99.06% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available for this candidate (flagged as a **High-severity data gap**). Based on general pharmacological knowledge, levodopa is a dopamine precursor converted by DOPA decarboxylase (DDC) into dopamine, acting primarily on the nigrostriatal dopaminergic pathway.
+For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige for denne kandidaten (flagget som et **høyalvorlig datakull**). Basert på generell farmakologisk kunnskap er levodopa en dopaminforløper som konverteres av DOPA-dekarboxylase (DDC) til dopamin, som virker primært på den nigrostriatale dopaminerge banen.
 
-Rasmussen subacute encephalitis is a unilateral, autoimmune/inflammatory epileptic encephalopathy driven by T-cell mediated neuronal destruction and chronic inflammation — a mechanism with no established connection to dopamine synthesis or transmission.
+Rasmussens subakutt encefalitt er en ensidig, autoimmun/inflammatorisk epileptisk encefalopati drevet av T-celle-mediert nevronal ødeleggelse og kronisk inflammasjon — en mekanisme uten etablert forbindelse til dopaminsyntese eller -overføring.
 
-The TxGNN score of 0.99 likely reflects a topological association within the knowledge graph (possibly via shared epilepsy or neurodegenerative disease nodes) rather than a pharmacologically interpretable mechanism. **No mechanistic rationale currently supports this prediction**, and it should be treated as a hypothesis-generating signal only, not an actionable candidate.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+TxGNN-poengsummen på 0.99 gjenspeiler sannsynligvis en topologisk assosiasjon innenfor kunnskapsgrafen (muligens gjennom delte epilepsi- eller nevrodegenerative sykdom-noder) snarere enn en farmakologisk tolkbar mekanisme. **Ingen mekanistisk begrunnelse støtter for øyeblikket denne prediksjonen**, og det bør behandles som et hypotesegenererende signal bare, ikke en handlingsdyktig kandidat.
 
 ---
 
-## Literature Evidence
+## Bevis for kliniske studier
 
-Currently no related literature available.
-
----
-
-## Norway Market Information
-
-Levodopa is currently **not marketed** in Norway under this evidence pack, and no authorization records are available (`total_licenses = 0`).
+For øyeblikket er ingen relaterte kliniske studier registrert.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information. (TFDA label warnings/contraindications retrieval is flagged as a **Blocking** data gap in this evidence pack and must be resolved before any safety assessment can proceed.)
+For øyeblikket er ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformasjon for Norge
 
-**Decision: Hold**
+Levodopa er for øyeblikket **ikke markedsført** i Norge under denne bevissamlingen, og ingen autorisasjonsregistre er tilgjengelige (`total_licenses = 0`).
 
-**Rationale:**
-This candidate is supported only by an L5 model prediction with no clinical trials, no literature, and no plausible mechanistic link to the predicted indication. A Blocking data gap on regulatory safety information further precludes any safety pre-assessment.
+---
 
-**To proceed, the following is needed:**
-- TFDA/official label data (warnings, contraindications) — currently blocking S1 safety review
-- Confirmed mechanism of action (MOA) via DrugBank or primary literature
-- Confirmed original indication(s) for this candidate
-- Preclinical or case-level evidence connecting dopaminergic mechanisms to Rasmussen encephalitis pathology, before further evaluation is warranted
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Henting av TFDA-etikettadvarsler/kontraindikasjoner er flagget som et **blokkerende** datakull i denne bevissamlingen og må løses før noen sikkerhetsvurdering kan fortsette.)
+
+---
+
+## Konklusjon og neste skritt
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Denne kandidaten støttes bare av en L5-modellprediksjon uten kliniske studier, ingen litteratur, og ingen plausibel mekanistisk lenke til den forutsagte indikasjonen. Et blokkerende datakull på regulatorisk sikkerhetsinformasjon forelegger ytterligere enhver sikkerhetsprevurdering.
+
+**For å fortsette, trengs følgende:**
+- TFDA/offisielle etikettdata (advarsler, kontraindikasjoner) — for øyeblikket blokkerer S1-sikkerhetsvurdering
+- Bekreftet virkningsmekanisme (MOA) via DrugBank eller primær litteratur
+- Bekreftet opprinnelig indikasjon(er) for denne kandidaten
+- Prekliniske eller case-nivå-bevis som knytter dopaminerge mekanismer til Rasmussens encefalittpatologi, før ytterligere evaluering er berettiget
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

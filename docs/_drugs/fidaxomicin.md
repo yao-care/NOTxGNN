@@ -29,64 +29,65 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Fidaxomicin: From Unspecified Original Indication to Staphylococcal Scalded Skin Syndrome
+# Fidaxomicin: Fra uspesifisert opprinnelig indikasjon til Staphylococcal Scalded Skin Syndrome
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> The evidence pack for Fidaxomicin (DrugBank ID: DB08874) does not contain data on its original approved indication or mechanism of action, and the drug currently holds no marketing authorization in Norway.
-> The TxGNN model's top prediction is **Staphylococcal Scalded Skin Syndrome (SSSS)**, but this is supported by **0 clinical trials** and **0 publications**,
-> and the rationale accompanying the prediction itself flags the mechanistic link as weak, most likely a model artifact rather than a genuine repurposing signal.
+> Evidenspakken for Fidaxomicin (DrugBank ID: DB08874) inneholder ikke data om dets opprinnelige godkjente indikasjon eller virkemåte, og legemidlet har for tiden ingen markedsgodkjenning i Norge.
+> TxGNN-modellens topprediksjon er **Staphylococcal Scalded Skin Syndrome (SSSS)**, men dette støttes av **0 kliniske forsøk** og **0 publikasjoner**,
+> og begrunnelsen som følger med prediksjonen selv markerer den mekanistiske sammenhengen som svak, mest sannsynlig en modellartefakt i stedet for et genuint repurposerings-signal.
 
-## Quick Overview
+## Hurtigoversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no license/indication data in evidence pack |
-| Predicted New Indication | Staphylococcal Scalded Skin Syndrome |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Punkt | Innhold |
+|-------|---------|
+| Opprinnelig indikasjon | Ikke tilgjengelig — ingen lisens-/indikasjondata i evidenspakken |
+| Forutsagt ny indikasjon | Staphylococcal Scalded Skin Syndrome |
+| TxGNN-prediksjonsscore | 99.71% |
+| Bevisnivå | L5 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Vent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available for Fidaxomicin in this evidence pack, and no original indication is on record either. What can be reconstructed from general pharmacology (as noted in the model's own rationale) is that fidaxomicin is a narrow-spectrum macrolide with in vitro activity against some Gram-positive organisms, including *S. aureus*. However, it is administered orally and has negligible systemic bioavailability (<0.5%), acting almost exclusively within the gut lumen.
+For øyeblikket er det ikke tilgjengelig detaljerte data om virkemåte for Fidaxomicin i denne evidenspakken, og ingen opprinnelig indikasjon er registrert heller. Det som kan rekonstrueres fra generell farmakologi (som nevnt i modellens egen begrunnelse) er at fidaxomicin er et snevertsektrum-makrolid med in vitro-aktivitet mot noen gram-positive organismer, inkludert *S. aureus*. Den administreres imidlertid oralt og har ubetydelig systemisk biotilgjengelighet (<0,5%), og virker nesten utelukkende innenfor tarmlumen.
 
-Staphylococcal Scalded Skin Syndrome is a toxin-mediated, systemic skin disease that requires an antibiotic capable of reaching therapeutic concentrations systemically to clear the toxin-producing staphylococcal focus. Given fidaxomicin's pharmacokinetic profile, it cannot achieve meaningful systemic exposure, so the mechanistic basis for this prediction is weak.
+Staphylococcal Scalded Skin Syndrome er en toksittformidlet, systemisk hudsykdom som krever et antibiotikum som er i stand til å nå terapeutiske konsentrasjoner systemisk for å fjerne toksinproduserende staphylococcus-fokus. Gitt fidaxomicinets farmakokinetiske profil, kan det ikke oppnå meningsfull systemisk eksponering, så det mekanistiske grunnlaget for denne prediksjonen er svakt.
 
-The model's own repurposing rationale explicitly characterizes this as a likely case of TxGNN embedding overgeneralization — the model appears to be picking up on "anti-staphylococcal activity" as a shared feature without accounting for the route-of-administration and pharmacokinetic mismatch. This same caveat (no systemic exposure, no topical/parenteral formulation) recurs across nearly all of the top 9 predicted indications for this drug (bullous impetigo, impetigo, hordeolum, S. aureus pneumonia), and two predictions (inhalational and toxin-mediated botulism) are mechanistically unrelated altogether (neurotoxin-mediated disease vs. an antibacterial agent), and one (vulvovaginal candidiasis) involves a fungal pathogen against which fidaxomicin, an antibacterial RNA polymerase inhibitor, has no known activity.
+Modellens egen repurposerings-begrunnelse karakteriserer eksplisitt dette som et sannsynlig tilfelle av TxGNN-embedding-overgeneralisering — modellen ser ut til å plukke opp «anti-staphylococcus-aktivitet» som en delt egenskap uten å ta hensyn til administrasjonsmåte og farmakokinetisk uoverensstemmelse. Samme forbehold (ingen systemisk eksponering, ingen topisk/parenteral formulering) gjentar seg på tvers av nesten alle de ni beste forutsagte indikasjonene for dette legemidlet (bullös impetig, impetig, hordeolum, *S. aureus*-pneumoni), og to prediksjoner (inhalativ og toksittformidlet botulisme) er mekanistisk usammenhengende i det hele tatt (nevrotoksin-formidlet sykdom vs. et antibakterielt middel), og en (vulvovaginal kandidose) involverer en sopppatogen som fidaxomicin, et antibakteriell RNA-polymerase-hemmer, ikke har kjent aktivitet mot.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøk
 
-Currently no related clinical trials registered
+Foreløpig ingen relaterte kliniske forsøk registrert
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available
+Foreløpig ingen relatert litteratur tilgjengelig
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Fidaxomicin currently holds **no marketing authorization in Norway** (market status: Not Marketed, 0 licenses on record). No product, dosage form, or approved-indication data is available.
+Fidaxomicin har for øyeblikket **ingen markedsgodkjenning i Norge** (markedsstatus: Ikke markedsført, 0 lisenser registrert). Ingen produkt-, doseringsform- eller godkjent-indikasjondata er tilgjengelig.
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-*(Note: key warnings, contraindications, and drug-drug interaction data are marked as a blocking data gap (DG001) in this evidence pack — TFDA/regulatory label data has not yet been retrieved and parsed.)*
+*(Merk: viktige advarsler, kontraindikasjoner og legemiddelinteraksjonsdata er merket som en blokkerende datakløft (DG001) i denne evidenspakken — TFDA/regulatoriske etiketterdata har ikke blitt hentet og analysert ennå.)*
 
-## Conclusion and Next Steps
+## Konklusjon og neste skritt
 
-**Decision: Hold**
+**Beslutning: Vent**
 
-**Rationale:**
-The top prediction (SSSS) carries a high TxGNN similarity score but is entirely unsupported by clinical trials or literature (Evidence Level L5), and the model's own mechanistic rationale flags fidaxomicin's negligible systemic absorption as a fundamental barrier to efficacy in a systemic, toxin-mediated skin disease. This pattern repeats across essentially all top-ranked predictions for this drug — several are mechanistically implausible (fungal or neurotoxin-mediated diseases against a narrow-spectrum antibacterial), and none have an available route of administration (topical/ophthalmic/parenteral) matching the proposed indication. Combined with a blocking safety data gap (DG001), there is no basis to advance any of these candidates past initial screening.
+**Begrunnelse:**
+Topprediksjonen (SSSS) har høy TxGNN-likhetsscore, men er helt uten støtte fra kliniske forsøk eller litteratur (Bevisnivå L5), og modellens egen mekanistiske begrunnelse identifiserer fidaxomicinets ubetydelige systemisk absorpsjon som en grunnleggende barriere for effektivitet i en systemisk, toksittformidlet hudsykdom. Dette mønsteret gjentar seg på tvers av i hovedsak alle topprangerte prediksjoner for dette legemidlet — flere er mekanistisk usannsynlige (soppformidlet eller nevrotoksin-formidlet sykdommer mot et snevertsektrum-antibakteriell middel), og ingen har tilgjengelig administrasjonsmåte (topisk/oftalmisk/parenteral) som samsvarer med den foreslåtte indikasjonen. Kombinert med en blokkerende sikkerhetsdatakløft (DG001), er det ingen grunnlag for å avansere noen av disse kandidatene forbi innledende screening.
 
-**To proceed, the following is needed:**
-- Resolve DG001: retrieve and parse TFDA (or equivalent) label warnings/contraindications before any S1 safety screening can occur
-- Obtain confirmed mechanism of action (DG002) and original approved indication for fidaxomicin to properly anchor similarity-to-original analysis
-- If SSSS or impetigo-type indications are to be pursued further, first establish whether a topical/dermatologic formulation of fidaxomicin is technically feasible, since the oral formulation's PK profile does not support these use cases
-- Independent literature/mechanism review to distinguish genuine repurposing signal from TxGNN embedding overgeneralization before committing further evaluation resources
+**For å fortsette er følgende nødvendig:**
+- Løs DG001: hent og analyser TFDA (eller tilsvarende) etikett-advarsler/kontraindikasjoner før noen S1-sikkerhetssscreening kan forekomme
+- Få bekreftet virkemåte (DG002) og opprinnelig godkjent indikasjon for fidaxomicin for å riktig forankre likhets-til-original-analyse
+- Hvis SSSS- eller impetig-type-indikasjoner skal forfølges videre, etabler først om en topisk/dermatologisk formulering av fidaxomicin er teknisk gjennomførbar, siden den orale formuleringens PK-profil ikke støtter disse brukssakene
+- Uavhengig litteratur-/mekanisme-gjennomgang for å skille genuint repurposerings-signal fra TxGNN-embedding-overgeneralisering før du forplikter videre evalueringsressurser
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

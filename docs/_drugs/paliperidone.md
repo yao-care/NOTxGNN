@@ -29,82 +29,83 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Paliperidone: From Schizophrenia to Treatment-Refractory Schizophrenia
+# Paliperidone: Fra schizofreni til behandlingsresistent schizofreni
 
-## One-Sentence Summary
+## Sammendrag på en setning
 
-Paliperidone is an antipsychotic (the active metabolite of risperidone, D2/5-HT2A receptor antagonist) already used for schizophrenia-spectrum disorders. The TxGNN model returned nine higher-scoring predictions (retinal dystrophy, X-linked/syndromic myopia, hydranencephaly, a glycosylation disorder, CMT type 1G, glycine encephalopathy) that the evidence pack itself flags as mechanistically implausible with **zero supporting trials or literature** — these are treated as model noise, not candidates. The only prediction with real support is an extension into **treatment-refractory schizophrenia**, backed by **4 clinical trials** and **2 publications**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in the Norway licensing data (0 authorizations); mechanistically established as schizophrenia/schizoaffective disorder per the drug's known antipsychotic class |
-| Predicted New Indication | Treatment-Refractory Schizophrenia (selected from rank 10 — see note below on why rank 1 was not used) |
-| TxGNN Prediction Score | 99.80% (score 0.99796, rank 2663) |
-| Evidence Level | L2 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
-> **Note on ranking:** TxGNN's top 9 predictions by score (rank 1 = retinal dystrophy at 99.92%, down through glycine encephalopathy) have **no clinical trials, no literature, and no mechanistic rationale** — the evidence pack's own annotations explicitly state there is "no identifiable pharmacological mechanism link" for each. These are disregarded as spurious graph-noise signals. The lowest-scoring prediction in this set, **treatment-refractory schizophrenia** (rank 10, still >99.7% score), is the only one with real trial and literature backing and a coherent mechanism, so it is used as the featured candidate in this report.
+Paliperidone er et antipsykotikum (det aktive metabolitten av risperidon, D2/5-HT2A-reseptorantagonist) som allerede brukes til schizofreni-spektrum-lidelser. TxGNN-modellen returnerte ni høyere-scorede prediksjoner (retinal dystrofi, X-koblet/syndromisk myopi, hydranensefall, en glykosyleringsforstyrrelse, CMT type 1G, glysinencefalopati) som bevisberetningen selv flaggerer som mekanistisk implausible med **null støttende studier eller litteratur** — disse behandles som modellstøy, ikke kandidater. Den eneste prediksjonen med reell støtte er en utvidelse til **behandlingsresistent schizofreni**, støttet av **4 kliniske studier** og **2 publikasjoner**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Drug-level mechanism of action data is formally flagged as a gap (**DG002, High severity**) — no structured MOA record was retrievable from DrugBank at this cutoff. However, the evidence pack's own repurposing rationale documents that paliperidone is the active metabolite of risperidone and acts as a **D2/5-HT2A receptor antagonist**, which is the core pharmacological mechanism underlying antipsychotic therapy.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke dokumentert i Norges licensieringsdata (0 godkjennelser); mekanistisk etablert som schizofreni/schizoaffektiv lidelse i henhold til medikamentets kjente antipsykotikum-klasse |
+| Forutsagt ny indikasjon | Behandlingsresistent schizofreni (valgt fra rangering 10 — se merknad nedenfor om hvorfor rangering 1 ikke ble brukt) |
+| TxGNN-prediksjonspoengsum | 99,80% (poengsum 0,99796, rangering 2663) |
+| Bevisnivå | L2 |
+| Norges markedsstatus | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt avgjørelse | Avvent |
 
-This is not a cross-disease repurposing case in the classic sense — paliperidone's established therapeutic class already targets schizophrenia. The "new indication" here is better understood as an extension of use into a **treatment-resistant subpopulation** of the same disease, supported by real-world naturalistic and comparative-effectiveness trial designs (e.g., paliperidone palmitate case series, aripiprazole-vs-paliperidone multi-omics RCT). This is mechanistically coherent and lower-risk than the other nine model predictions, which involve unrelated congenital, ophthalmologic, neurodevelopmental, and metabolic disorders with no plausible link to central dopamine/serotonin receptor blockade.
+> **Merknad om rangering:** TxGNNs ni øverste prediksjoner etter poengsum (rangering 1 = retinal dystrofi ved 99,92%, nedover til glysinencefalopati) har **ingen kliniske studier, ingen litteratur, og ingen mekanistisk begrunnelse** — bevisberetningens egne merknader sier eksplisitt at det er "ingen identifiserbar farmakologisk mekanismekobling" for hver. Disse blir avvist som falske grafstøysignaler. Det lavest-scorede prediksjonen i dette settet, **behandlingsresistent schizofreni** (rangering 10, fremdeles >99,7% poengsum), er den eneste med reell studie- og litteraturstøtte og en sammenhengende mekanisme, så det brukes som den fremtredende kandidaten i denne rapporten.
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Medikamentnivå-virkningsmekanisme-data er formelt flagget som et gap (**DG002, Høy alvorlighetsgrad**) — ingen strukturert MOA-journal kunne hentes fra DrugBank ved denne avslutningen. Imidlertid dokumenterer bevisberetningens egen rasjonale for omformål at paliperidone er det aktive metabolitten av risperidon og fungerer som en **D2/5-HT2A-reseptorantagonist**, som er den kjernefarmakologiske mekanismen bak antipsykotikum-terapi.
+
+Dette er ikke et klassisk krysssykdom-omformålingstilfelle — paliperidones etablerte terapeutiske klasse målretter allerede schizofreni. Den "nye indikasjonen" her bør bedre forstås som en utvidelse av bruk til en **behandlingsresistent subpopulasjon** av samme sykdom, støttet av virkelighetens naturalistiske og komparativ-effektivitets-forsøksdesign (f.eks. paliperidone palmitat case-serier, aripiprazol-vs-paliperidone multi-omics RCT). Dette er mekanistisk sammenhengende og lavere-risiko enn de ni andre modellprediksjoner, som involverer urelaterte medfødt, oftalmologisk, nevro-utviklings-, og metaboliske lidelser uten plausibel kobling til sentral dopamin/serotonin-reseptor-blokkering.
+
+---
+
+## Bevis fra kliniske forsøk
+
+| Prøvenummer | Fase | Status | Rekruttering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT01860781](https://clinicaltrials.gov/study/NCT01860781) | Phase 4 | Completed | 30 | Prospective naturalistic case series evaluating paliperidone palmitate effectiveness across three schizophrenia patient subgroups |
-| [NCT07047651](https://clinicaltrials.gov/study/NCT07047651) | Phase 4 | Recruiting | 40 | Combines pharmacotherapy with recovery-oriented programs (RECOVERYTRSGR/RECOVERYTRSBDGR) for treatment-resistant schizophrenia and bipolar disorder |
-| [NCT05741502](https://clinicaltrials.gov/study/NCT05741502) | Phase 4 | Terminated | 5 | Compared clozapine vs. non-clozapine antipsychotics on inflammatory markers in treatment-refractory schizophrenia; low relevance, terminated early with minimal enrollment |
-| [NCT06060886](https://clinicaltrials.gov/study/NCT06060886) | Phase 4 | Unknown status | 244 | Open-label multicenter RCT (SchizOMICS) comparing aripiprazole vs. paliperidone/risperidone using multi-omics data in first-episode psychosis |
+| [NCT01860781](https://clinicaltrials.gov/study/NCT01860781) | Fase 4 | Gjennomført | 30 | Prospektiv naturalistisk case-serie evaluerer paliperidone palmitat-effektivitet på tvers av tre schizofreni-pasientundergrupper |
+| [NCT07047651](https://clinicaltrials.gov/study/NCT07047651) | Fase 4 | Rekrutterer | 40 | Kombinerer farmakoterapie med gjenopprettings-orienterte programmer (RECOVERYTRSGR/RECOVERYTRSBDGR) for behandlingsresistent schizofreni og bipolar lidelse |
+| [NCT05741502](https://clinicaltrials.gov/study/NCT05741502) | Fase 4 | Avsluttet | 5 | Sammenlignet klozapin vs. ikke-klozapin-antipsykotika på inflammatoriske markører ved behandlingsresistent schizofreni; lav relevans, avsluttet tidlig med minimal rekruttering |
+| [NCT06060886](https://clinicaltrials.gov/study/NCT06060886) | Fase 4 | Ukjent status | 244 | Åpen-label multisenter RCT (SchizOMICS) som sammenligner aripiprazol vs. paliperidone/risperidon ved hjelp av multi-omics data ved første-episode psykose |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [31648341](https://pubmed.ncbi.nlm.nih.gov/31648341/) | 2019 | Review | Actas Españolas de Psiquiatría | Reviews antipsychotic pharmacotherapy evidence for schizoaffective disorder, noting the lack of disorder-specific treatment guidelines |
-| [23364281](https://pubmed.ncbi.nlm.nih.gov/23364281/) | 2013 | Review | Current Opinion in Psychiatry | Evidence-informed pharmacological approach for early-onset schizophrenia spectrum disorders, including dosing and adverse-effect monitoring |
+| [31648341](https://pubmed.ncbi.nlm.nih.gov/31648341/) | 2019 | Gjennomgang | Actas Españolas de Psiquiatría | Gjennomgår bevis for antipsykotikum-farmakoterapie ved schizoaffektiv lidelse, og merker mangelen på lidelsesspecifikk behandlingsveiledning |
+| [23364281](https://pubmed.ncbi.nlm.nih.gov/23364281/) | 2013 | Gjennomgang | Current Opinion in Psychiatry | Bevisbasert farmakologisk tilnærming til tidlig-oppstart schizofreni-spektrum-lidelser, inkludert dosering og bivirkningsovervåking |
 
 ---
 
-## Norway Market Information
+## Norges markedsinformasjon
 
-No marketing authorizations were found for paliperidone in the Norway regulatory dataset (`taiwan_regulatory.total_licenses = 0`; market status: Not marketed / Not marketed).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. A **blocking data gap (DG001)** exists: TFDA-equivalent label warnings and contraindications for paliperidone could not be retrieved at this cutoff, which prevents this candidate from entering the S1 safety pre-assessment stage. No drug-drug interaction records were found in the current query (`ddi.query_status: not_found`).
+Ingen markedsføringstillatelser ble funnet for paliperidone i Norges regulatorisk datasett (`taiwan_regulatory.total_licenses = 0`; markedsstatus: Ikke markedsført / Ikke markedsført).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vær vennlig å se pakkevedlegget for sikkerhetsinformasjon. En **blokkeringsdatakløft (DG001)** eksisterer: TFDA-ekvivalente etikettadvarsler og kontraindikasjoner for paliperidone kunne ikke hentes ved denne avslutningen, noe som forhindrer denne kandidaten fra å gå inn i S1-sikkerhet-før-vurderingsfasen. Ingen legemiddel-legemiddel-interaksjonsdata ble funnet i gjeldende spørring (`ddi.query_status: not_found`).
 
-**Rationale:**
-While the treatment-refractory schizophrenia indication has coherent mechanistic rationale and moderate clinical evidence (L2, 4 trials, 2 reviews) that would otherwise support a "Proceed with Guardrails" call, the drug-level safety data gap (DG001, Blocking) means this candidate **cannot yet enter the S1 safety pre-assessment**, and the drug is not currently marketed in Norway (0 authorizations). The nine other TxGNN-flagged indications (retinal dystrophy, myopia subtypes, hydranencephaly, glycosylation disorder, CMT type 1G, glycine encephalopathy) should be excluded from further evaluation — they have no clinical, literature, or mechanistic support and appear to be knowledge-graph artifacts.
+---
 
-**To proceed, the following is needed:**
-- Retrieve TFDA-equivalent label warnings/contraindications (DG001) to unblock S1 safety review
-- Retrieve structured MOA data from DrugBank (DG002) to formally support the mechanistic rationale
-- Confirm Norway marketing/import pathway status, since the drug currently has zero local authorizations
-- If DG001/DG002 are resolved favorably, re-score treatment-refractory schizophrenia for "Proceed with Guardrails" and define specific monitoring guardrails (e.g., metabolic/EPS monitoring per antipsychotic class norms)
+## Konklusjon og neste trinn
+
+**Avgjørelse: Avvent**
+
+**Begrunnelse:**
+Selv om behandlingsresistent schizofreni-indikasjonen har sammenhengende mekanistisk begrunnelse og moderat klinisk bevis (L2, 4 studier, 2 gjennomganger) som ellers ville støtte en "Fortsett med sikkerhetstiltak"-oppfordring, forhindrer medikamentnivå-sikkerhetsdatakløften (DG001, Blokkering) denne kandidaten fra ennå å kunne gå inn i S1-sikkerhet-før-vurderingen, og medikamentet er ikke for tiden markedsført i Norge (0 godkjennelser). De ni andre TxGNN-flaggede indikasjoner (retinal dystrofi, myopi-undertyper, hydranensefall, glykosyleringsforstyrrelse, CMT type 1G, glysinencefalopati) bør utelukkes fra videre evaluering — de har ingen klinisk, litteratur- eller mekanistisk støtte og ser ut til å være kunnskapsgraf-artefakter.
+
+**For å fortsette er følgende nødvendig:**
+- Hent TFDA-ekvivalente etikettadvarsler/kontraindikasjoner (DG001) for å oppheve S1-sikkerhetskjønn
+- Hent strukturert MOA-data fra DrugBank (DG002) for å formelt støtte den mekanistiske begrunnelsen
+- Bekreft Norges markedsføring/importvei-status, siden medikamentet for tiden har null lokale godkjennelser
+- Hvis DG001/DG002 blir løst gunstig, re-score behandlingsresistent schizofreni for "Fortsett med sikkerhetstiltak" og definer spesifikke overvåkingssikkerhetstiltak (f.eks. metabolisk/EPS-overvåking i henhold til antipsykotikum-klasse-normer)
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,90 +29,91 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Ramucirumab: From VEGFR2-Driven Antiangiogenic Therapy to Uterine Ligament Adenocarcinoma
+# Ramucirumab: Fra VEGFR2-drevet antiangiogenetisk terapi til adenokarsinom i livmoderligamenter
 
-## One-Sentence Summary
+## Oppsummering i en setning
 
-> Ramucirumab is an anti-VEGFR2 monoclonal antibody; the original approved indication was not documented in the current evidence pack.
-> The TxGNN model predicts it may be effective for **uterine ligament adenocarcinoma**,
-> but this direction is currently supported by **0 clinical trials** and **0 publications** — prediction-only evidence.
+> Ramucirumab er et anti-VEGFR2-monoklonalt antistoff; den opprinnelige godkjente indikasjonen ble ikke dokumentert i den gjeldende evidenspakken.
+> TxGNN-modellen forutsier at det kan være effektivt for **adenokarsinom i livmoderligamenter**,
+> men denne retningen støttes for øyeblikket av **0 kliniske forsøk** og **0 publikasjoner** — bare forutsigelsesbasert evidens.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Emne | Innhold |
 |------|------|
-| Original Indication | Not documented in evidence pack |
-| Predicted New Indication | Uterine ligament adenocarcinoma |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Ikke dokumentert i evidenspakken |
+| Forutsatt ny indikasjon | Adenokarsinom i livmoderligamenter |
+| TxGNN-forutsigelsespoeng | 99.95% |
+| Evidensnivå | L5 |
+| Status på norsk marked | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forutsigelsen rimelig?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on the rationale text accompanying the TxGNN prediction, ramucirumab is described as an anti-VEGFR2 monoclonal antibody that inhibits tumour angiogenesis — a mechanism with theoretical antitumour potential across highly vascularised solid tumours, including gynecological malignancies. However, the drug's original approved indication and detailed clinical MOA documentation were not provided in this evidence pack.
+For øyeblikket er detaljerte data for virkningsmekanisme ikke tilgjengelig (flagget som et datakløft med høy alvorlighet). Basert på begrunnelsesteksten som følger TxGNN-forutsigelsen, beskrives ramucirumab som et anti-VEGFR2-monoklonalt antistoff som hemmer tumorvaskularisering — en mekanisme med teoretisk antitumørpotensial på tvers av sterkt vaskulariserte solide tumorer, inkludert gynekologiske ondartelser. Imidlertid ble legemidlets opprinnelige godkjente indikasjon og detaljert klinisk MOA-dokumentasjon ikke gitt i denne evidenspakken.
 
-The predicted indication, uterine ligament adenocarcinoma, is an extremely rare histological subtype of gynecological cancer. The stated mechanistic rationale for pursuing this indication is that VEGF-driven angiogenesis is a shared feature across many gynecological malignancies, making VEGFR2 blockade a biologically plausible strategy. That said, the rationale itself explicitly notes there is **no clinical trial or literature evidence directly supporting this specific tumour subtype** — the connection is a generalized extrapolation from anti-angiogenic pharmacology rather than a validated, subtype-specific mechanistic finding.
+Den forutsatte indikasjonen, adenokarsinom i livmoderligamenter, er en ekstremt sjelden histologisk undertype av gynekologisk kreft. Den uttrykte mekanistiske begrunnelsen for å forfølge denne indikasjonen er at VEGF-drevet vaskularisering er en delt egenskap på tvers av mange gynekologiske ondartelser, noe som gjør VEGFR2-blokkade til en biologisk plausibel strategi. Når det er sagt, bemerker begrunnelsen selv at det er **ingen kliniske forsøk eller litteraturbevis som direkte støtter denne spesifikke tumorsubtypen** — forbindelsen er en generalisert ekstrapolasjon fra antiangiogenetisk farmakologi snarere enn et validert, subtypespesifikt mekanistisk funn.
 
-All ten ranked predictions in this evidence pack (ranks 1–10) follow the same pattern: rare uterine/cervical adenocarcinoma subtypes, high TxGNN scores (>99.9%), but zero supporting trials or publications. This suggests the prediction signal is coming from network-level similarity among rare gynecological tumour nodes in the knowledge graph, rather than from disease-specific pharmacological evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Alle ti rangerte forutsigelser i denne evidenspakken (ranger 1–10) følger samme mønster: sjeldne uteri-/cervix-adenokarsinomer, høye TxGNN-poeng (>99.9%), men null støttende forsøk eller publikasjoner. Dette antyder at forutsigelsessignalet kommer fra nettverk-nivå-likhet blant sjeldne gynekologiske tumorknuter i kunnskapsgrafen, snarere enn fra sykdomsspesifikk farmakologisk evidens.
 
 ---
 
-## Literature Evidence
+## Evidens fra kliniske forsøk
 
-Currently no related literature available
-
----
-
-## Norway Market Information
-
-Ramucirumab is currently **not marketed** in Norway, with **0 registered authorizations**. No license records are available in this evidence pack.
+For øyeblikket ingen relaterte kliniske forsøk registrert
 
 ---
 
-## Cytotoxicity
+## Litteraturbevis
 
-Based on the available rationale data, ramucirumab is classified as a **targeted antineoplastic agent (anti-VEGFR2 monoclonal antibody)**, distinct from conventional cytotoxic chemotherapy.
+For øyeblikket ingen relatert litteratur tilgjengelig
 
-| Item | Content |
+---
+
+## Informasjon om norsk marked
+
+Ramucirumab er for øyeblikket **ikke markedsført** i Norge, med **0 registrerte godkjenninger**. Ingen lisensposter er tilgjengelig i denne evidenspakken.
+
+---
+
+## Cytotoksisitet
+
+Basert på tilgjengelige begrunnelsesdata, er ramucirumab klassifisert som et **målrettet antineoplastisk agens (anti-VEGFR2-monoklonalt antistoff)**, distinkt fra konvensjonell cytotoksisk kjemoterapi.
+
+| Emne | Innhold |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (anti-VEGFR2 monoclonal antibody) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Cytotoksisitetsklassifisering | Målrettet terapi (anti-VEGFR2-monoklonalt antistoff) |
+| Risiko for benmarvssuppresjon | Se pakningsvedlegget for advarsler og forholdsregler |
+| Emetogenisitetsklassifisering | Se pakningsvedlegget for advarsler og forholdsregler |
+| Overvåkingspunkter | Se pakningsvedlegget for advarsler og forholdsregler |
+| Håndteringsvern | Se pakningsvedlegget for advarsler og forholdsregler |
 
 ---
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Se pakningsvedlegget for sikkerhetsinformasjon.
 
 ---
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-All ten predicted indications are extremely rare gynecological adenocarcinoma subtypes supported only by TxGNN model scores (Evidence Level L5), with zero clinical trials or literature evidence. Combined with the drug's non-marketed status in Norway (0 authorizations) and blocking-level data gaps in the safety label, there is currently insufficient basis to advance any of these candidates beyond hypothesis generation.
+**Begrunnelse:**
+Alle ti forutsatte indikasjoner er ekstremt sjeldne gynekologiske adenokarsinomsubtyper støttet kun av TxGNN-modellpoeng (Evidensnivå L5), med null kliniske forsøk eller litteraturbevis. Kombinert med legemidlets ikke-markedsførte status i Norge (0 godkjenninger) og datakløft på blokkernivå i sikkerhetsetiketten, er det for øyeblikket utilstrekkelig grunnlag for å fremme noen av disse kandidatene utover hypotesegenerering.
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) — flagged as a Blocking data gap
-- Detailed mechanism of action (MOA) and drug classification data from DrugBank — flagged as a High-severity data gap
-- Documentation of the drug's original approved indication(s) and Norway licensing history
-- Preclinical or case-level evidence specifically linking VEGFR2 inhibition to uterine ligament/cervical adenocarcinoma subtypes before considering progression to S1 evaluation
+**For å fortsette, er følgende nødvendig:**
+- TFDA/produsents pakningsvedlegg (advarsler, kontraindikasjoner) — flagget som datakløft på blokkernivå
+- Detaljerte virkningsmekanisme (MOA) og legemiddelklassifikasjonsdata fra DrugBank — flagget som datakløft med høy alvorlighet
+- Dokumentasjon av legemidlets opprinnelige godkjente indikasjon(er) og Norges lisensieringshistorie
+- Preklinisk eller kasustisk bevis som spesifikt knytter VEGFR2-hemming til uteri-ligament/cervix-adenokarsinomsubtyper før vurdering av progresjon til S1-evaluering
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

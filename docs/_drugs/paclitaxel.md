@@ -29,119 +29,120 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Paclitaxel: From Data-Gap Original Indication to Female Breast Carcinoma
+# Paclitaxel: Fra datakløft originalindikasjon til Female Breast Carcinoma
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-Paclitaxel is a taxane, microtubule-stabilizing chemotherapy agent; this evidence pack does not contain the original approved indication text or a marketing authorization for the reviewed jurisdiction (0 licenses on file). The TxGNN model predicts continued/expanded efficacy for **Female Breast Carcinoma**, with **50 clinical trials** and **20 publications** currently supporting this direction — largely reflecting paclitaxel's already well-established role as a breast cancer chemotherapy backbone rather than a novel mechanistic hypothesis.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no approved indication text on file (drug not marketed, 0 licenses) |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.995% (rank 82) |
-| Evidence Level | L1 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Paclitaxel er et taxan, microtubuli-stabiliserende kjemoterapi-middel; denne bevissamlingen inneholder ikke den originale godkjent indikasjon eller en markedsføringsgodkjenning for den gjennomgåtte jurisdiksjonen (0 lisenser på fil). TxGNN-modellen predikerer fortsatt/utvidet effektivitet for **Female Breast Carcinoma**, med **50 kliniske studier** og **20 publikasjoner** som for tiden støtter denne retningen — i stor grad gjenspeiler dette paclitaxels allerede veletablerte rolle som en brystkreft-kjemoterapirygggrad snarere enn en ny mekanistisk hypotese.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available in this evidence pack (Data Gap). Based on the mechanistic evidence provided alongside the prediction, paclitaxel is a **microtubule-stabilizing agent (taxane class)**: it promotes tubulin polymerization and inhibits depolymerization, blocking mitotic spindle function and inducing G2/M-phase arrest and apoptosis.
-
-Breast cancer cells proliferate rapidly and are characteristically sensitive to microtubule-targeting agents. This is an **established**, not exploratory, mechanistic role — paclitaxel (as Taxol® and generics) is already widely used across breast cancer subtypes in combination regimens (e.g., with trastuzumab, lapatinib, anthracyclines, and more recently checkpoint inhibitors). The TxGNN prediction here largely reconfirms a mechanism-of-action relationship that is heavily supported by real-world oncology practice rather than proposing a novel repurposing hypothesis.
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Ikke tilgjengelig — ingen godkjent indikasjon tekst på fil (middel ikke markedsført, 0 lisenser) |
+| Predikert ny indikasjon | Female Breast Carcinoma |
+| TxGNN prediksjons poengsum | 99.995% (rang 82) |
+| Bevismål | L1 |
+| Norges markedsstatus | Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Fortsett med sikkerhetstiltak |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+For tiden er detaljert virkningsmekanisme-data ikke tilgjengelig i denne bevissamlingen (datakløft). Basert på den mekanistiske evidensen gitt sammen med prediksjonen, er paclitaxel en **microtubuli-stabiliserende middel (taxan-klasse)**: den fremmer tubulin-polymerisering og inhiberer depolymerisering, blokkerer mitotisk spindel-funksjon og induserer G2/M-fase arrest og apoptose.
+
+Brystkrefceller formerer seg raskt og er karakteristisk sensitive overfor microtubuli-målende middel. Dette er en **etablert**, ikke utforskende, mekanistisk rolle — paclitaxel (som Taxol® og generika) er allerede mye brukt på tvers av brystkreft-subtyper i kombinasjonsregimer (f.eks. med trastuzumab, lapatinib, antraykliner, og nyere checkpoint-inhibitorer). TxGNN-prediksjonen her bekrefter i stor grad en virkningsmekanisme-forhold som er tungt støttet av virkelighets-onkologipraksis snarere enn å foreslå en ny repurposering-hypotese.
+
+---
+
+## Klinisk forsøksbevis
+
+| Forsøksnummer | Fase | Status | Rekruttering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT00003992](https://clinicaltrials.gov/study/NCT00003992) | Phase 2 | Completed | 200 | Paclitaxel + trastuzumab adjuvant therapy for HER2-overexpressing stage II/IIIA breast cancer; foundational trial for taxane–HER2 combination |
-| [NCT00281658](https://clinicaltrials.gov/study/NCT00281658) | Phase 3 | Completed | 444 | Lapatinib + paclitaxel vs. placebo + paclitaxel in ErbB2-amplified metastatic breast cancer; direct efficacy comparison |
-| [NCT00003088](https://clinicaltrials.gov/study/NCT00003088) | Phase 3 | Completed | 2,005 | Sequential doxorubicin/paclitaxel/cyclophosphamide vs. concurrent AC→paclitaxel at different intervals, node-positive stage II/IIIA breast cancer |
-| [NCT01275677](https://clinicaltrials.gov/study/NCT01275677) | Phase 3 | Completed | 3,270 | Adjuvant chemotherapy ± trastuzumab (with weekly paclitaxel backbone) in node-positive/high-risk HER2-low invasive breast cancer |
-| [NCT00431080](https://clinicaltrials.gov/study/NCT00431080) | Phase 3 | Completed | 478 | Dose-dense G-CSF-supported FE75C→docetaxel vs. paclitaxel as adjuvant chemotherapy, axillary node-positive breast cancer |
-| [NCT00016276](https://clinicaltrials.gov/study/NCT00016276) | Phase 3 | Terminated | 396 | AC ± dexrazoxane → weekly paclitaxel ± trastuzumab, HER2+ stage IIIA/IIIB/IV breast cancer |
-| [NCT00513292](https://clinicaltrials.gov/study/NCT00513292) | Phase 3 | Completed | 280 | Neoadjuvant FEC-75→paclitaxel+trastuzumab vs. paclitaxel+trastuzumab→FEC-75+trastuzumab, HER2+ operable breast cancer |
-| [NCT01901146](https://clinicaltrials.gov/study/NCT01901146) | Phase 3 | Completed | 725 | ABP 980 (trastuzumab biosimilar) vs. trastuzumab, HER2+ early breast cancer |
-| [NCT01848197](https://clinicaltrials.gov/study/NCT01848197) | N/A | Unknown | 1,000 | Paclitaxel every 2 weeks vs. weekly, adjuvant treatment of breast cancer — direct dosing-schedule comparison |
-| [NCT00272987](https://clinicaltrials.gov/study/NCT00272987) | Phase 3 | Terminated | 63 | Paclitaxel + trastuzumab + lapatinib vs. paclitaxel + trastuzumab + placebo, ErbB2-overexpressing metastatic breast cancer |
+| [NCT00003992](https://clinicaltrials.gov/study/NCT00003992) | Fase 2 | Avsluttet | 200 | Paclitaxel + trastuzumab adjuvant terapi for HER2-overuttrykkende stadium II/IIIA brystkreft; grunnleggende forsøk for taxan–HER2 kombinasjon |
+| [NCT00281658](https://clinicaltrials.gov/study/NCT00281658) | Fase 3 | Avsluttet | 444 | Lapatinib + paclitaxel vs. placebo + paclitaxel i ErbB2-amplifisert metastatisk brystkreft; direkte effektivitetssammenligning |
+| [NCT00003088](https://clinicaltrials.gov/study/NCT00003088) | Fase 3 | Avsluttet | 2,005 | Sekvensielle doxorubicin/paclitaxel/cyclophosphamid vs. samtidig AC→paclitaxel ved ulike intervaller, lymfeknuttepositivt stadium II/IIIA brystkreft |
+| [NCT01275677](https://clinicaltrials.gov/study/NCT01275677) | Fase 3 | Avsluttet | 3,270 | Adjuvant kjemoterapi ± trastuzumab (med ukentlig paclitaxel-rygggrad) i lymfeknuttepositivt/høyrisikobehandling HER2-lavt invasivt brystkreft |
+| [NCT00431080](https://clinicaltrials.gov/study/NCT00431080) | Fase 3 | Avsluttet | 478 | Dosistett G-CSF-støttet FE75C→docetaxel vs. paclitaxel som adjuvant kjemoterapi, aksillær lymfeknuttepositivt brystkreft |
+| [NCT00016276](https://clinicaltrials.gov/study/NCT00016276) | Fase 3 | Avbrutt | 396 | AC ± dexrazoxane → ukentlig paclitaxel ± trastuzumab, HER2+ stadium IIIA/IIIB/IV brystkreft |
+| [NCT00513292](https://clinicaltrials.gov/study/NCT00513292) | Fase 3 | Avsluttet | 280 | Neodjuvant FEC-75→paclitaxel+trastuzumab vs. paclitaxel+trastuzumab→FEC-75+trastuzumab, HER2+ operabel brystkreft |
+| [NCT01901146](https://clinicaltrials.gov/study/NCT01901146) | Fase 3 | Avsluttet | 725 | ABP 980 (trastuzumab biosimilær) vs. trastuzumab, HER2+ tidlig brystkreft |
+| [NCT01848197](https://clinicaltrials.gov/study/NCT01848197) | N/A | Ukjent | 1,000 | Paclitaxel annenhver uke vs. ukentlig, adjuvant behandling av brystkreft — direkte doserings-skjema sammenligning |
+| [NCT00272987](https://clinicaltrials.gov/study/NCT00272987) | Fase 3 | Avbrutt | 63 | Paclitaxel + trastuzumab + lapatinib vs. paclitaxel + trastuzumab + placebo, ErbB2-overuttrykkende metastatisk brystkreft |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [31783552](https://pubmed.ncbi.nlm.nih.gov/31783552/) | 2019 | Review | Biomolecules | Comprehensive review of paclitaxel's mechanistic and clinical effects in breast cancer, including resistance mechanisms |
-| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Review | Drug and Therapeutics Bulletin | Early review establishing paclitaxel/docetaxel role in breast and ovarian cancer, including licensing extension to metastatic breast carcinoma |
-| [11147586](https://pubmed.ncbi.nlm.nih.gov/11147586/) | 2000 | Cohort (Phase II) | Cancer | Doxorubicin + paclitaxel efficacy/toxicity in advanced breast carcinoma, importance of prior adjuvant anthracycline exposure |
-| [15305399](https://pubmed.ncbi.nlm.nih.gov/15305399/) | 2004 | RCT (GONO trial) | Cancer | Concomitant vs. sequential epirubicin + paclitaxel as first-line therapy in metastatic breast carcinoma |
-| [11751485](https://pubmed.ncbi.nlm.nih.gov/11751485/) | 2001 | Phase II RCT | Clin Cancer Res | Doxorubicin followed by sequential vs. concurrent paclitaxel + cyclophosphamide, dose-dense adjuvant regimen, 5-year results |
-| [39317691](https://pubmed.ncbi.nlm.nih.gov/39317691/) | 2024 | — | Chem Biol Drug Des | Paclitaxel combination therapeutics against breast carcinoma with in vivo biomarker identification |
-| [39009452](https://pubmed.ncbi.nlm.nih.gov/39009452/) | 2024 | — | J Immunother Cancer | Paclitaxel's role on tumor-associated macrophages enhancing PD-1 blockade in triple-negative breast cancer |
-| [32461977](https://pubmed.ncbi.nlm.nih.gov/32461977/) | 2020 | Real-world study | BioMed Res Int | Neoadjuvant epirubicin/cyclophosphamide + weekly paclitaxel/trastuzumab efficacy in HER2+ breast carcinoma |
-| [24823476](https://pubmed.ncbi.nlm.nih.gov/24823476/) | 2014 | — | Nature Communications | TEKT4 germline variations enriched in paclitaxel-resistant breast cancer, biomarker for treatment response |
-| [17272681](https://pubmed.ncbi.nlm.nih.gov/17272681/) | 2007 | — | Mol Pharmacol | Stathmin-mediated resistance to paclitaxel/vinblastine in breast carcinoma cells and reversal strategies |
+| [31783552](https://pubmed.ncbi.nlm.nih.gov/31783552/) | 2019 | Oversikt | Biomolecules | Omfattende oversikt over paclitaxels mekanistiske og kliniske effekter i brystkreft, inkludert resistensmekanismer |
+| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Oversikt | Drug and Therapeutics Bulletin | Tidlig oversikt som etablerer paclitaxel/docetaxel rolle i brystkreft og eggstokkreft, inkludert lisensutvidelse til metastatisk brystkreft |
+| [11147586](https://pubmed.ncbi.nlm.nih.gov/11147586/) | 2000 | Kohort (Fase II) | Cancer | Doxorubicin + paclitaxel effektivitet/toksisitet i avansert brystkreft, betydningen av tidligere adjuvant antrayklinineksponering |
+| [15305399](https://pubmed.ncbi.nlm.nih.gov/15305399/) | 2004 | RCT (GONO-forsøk) | Cancer | Samtidig vs. sekvensielle epirubicin + paclitaxel som første-linjs terapi i metastatisk brystkreft |
+| [11751485](https://pubmed.ncbi.nlm.nih.gov/11751485/) | 2001 | Fase II RCT | Clin Cancer Res | Doxorubicin fulgt av sekvensielle vs. samtidige paclitaxel + cyclophosphamid, dosistett adjuvant regime, 5-års resultater |
+| [39317691](https://pubmed.ncbi.nlm.nih.gov/39317691/) | 2024 | — | Chem Biol Drug Des | Paclitaxel kombinasjons-terapi mot brystkreft med in vivo biomarkør-identifikasjon |
+| [39009452](https://pubmed.ncbi.nlm.nih.gov/39009452/) | 2024 | — | J Immunother Cancer | Paclitaxels rolle på tumor-assosierte makrofager som forbedrer PD-1-blokkade i trippel-negativ brystkreft |
+| [32461977](https://pubmed.ncbi.nlm.nih.gov/32461977/) | 2020 | Virkelige verden-studie | BioMed Res Int | Neodjuvant epirubicin/cyclophosphamid + ukentlig paclitaxel/trastuzumab effektivitet i HER2+ brystkreft |
+| [24823476](https://pubmed.ncbi.nlm.nih.gov/24823476/) | 2014 | — | Nature Communications | TEKT4 germline varianter beriklet i paclitaxel-resistenspgd brystkreft, biomarkør for behandlingsrespons |
+| [17272681](https://pubmed.ncbi.nlm.nih.gov/17272681/) | 2007 | — | Mol Pharmacol | Stathmin-mediert resistens til paclitaxel/vinblastin i brystkreft-celler og reversionsstrategier |
 
 ---
 
-## Norway Market Information
+## Markeds informasjon for Norge
 
-No marketing authorizations are currently on file for paclitaxel in this jurisdiction (total_licenses = 0; market status: Not Marketed). No product name, dosage form, or approved indication text is available for extraction.
-
----
-
-## Cytotoxicity
-
-**This section applies — paclitaxel is a conventional cytotoxic antineoplastic agent (taxane class).**
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (Taxane class — microtubule-stabilizing agent) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | As a conventional cytotoxic agent, standard cytotoxic drug handling and disposal precautions apply |
+Ingen markedsføringsgodkjenninger er for tiden på fil for paclitaxel i denne jurisdiksjonen (total_licenses = 0; markedsstatus: Ikke markedsført). Ingen produktnavn, doseringsform eller godkjent indikasjon tekst er tilgjengelig for ekstraksjon.
 
 ---
 
-## Safety Considerations
+## Cytotoksisitet
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and DDI data are marked as Data Gap / not found in this evidence pack — this is flagged as a **Blocking** data gap (DG001) that must be resolved before any safety-related decision.)
+**Denne delen gjelder — paclitaxel er et konvensjonelt cytotoksisk antineoplastisk middel (taxan-klasse).**
 
----
-
-## Other Predicted Indications (Overview)
-
-This evidence pack ranks 10 predicted indications for paclitaxel; most are breast-cancer subtypes that reinforce the same established mechanism rather than independent hypotheses:
-
-- **Ranks 2–4** (ER-negative, hormone-resistant, ER-positive breast cancer): L1–L2 evidence, "Proceed with Guardrails" — supported by large Phase 3 trials (e.g., IMpassion130, RIGHT Choice) but represent molecular subsets of the same disease rather than a new indication.
-- **Rank 5** (Ehrlich tumor carcinoma): L4, **Hold** — this is a mouse xenograft tumor model, not a human disease entity; evidence is preclinical only.
-- **Ranks 6–8** (bilateral breast carcinoma, gene-expression-profiled breast carcinoma, nipple carcinoma): L2–L4, mostly **Hold** — rare anatomical subtypes or symptom-management trials, not disease-specific efficacy trials.
-- **Ranks 9–10** (parameningeal / botryoid embryonal rhabdomyosarcoma): L5, **Hold** — pure TxGNN model output with zero supporting clinical trials or literature.
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitets klassifisering | Konvensjonelt cytotoksisk (Taxan-klasse — microtubuli-stabiliserende middel) |
+| Myelosuppresjons risiko | Vennligst se pakningsmedlegg advarsler og forsiktighetsregler |
+| Emetogenisitets klassifisering | Vennligst se pakningsmedlegg advarsler og forsiktighetsregler |
+| Overvåkings elementer | Vennligst se pakningsmedlegg advarsler og forsiktighetsregler |
+| Håndterings beskyttelse | Som et konvensjonelt cytotoksisk middel, gjelder standard cytotoksisk medisin håndterings- og disposisjons forsiktighetsregler |
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails**
+Vennligst se pakningsmedlegg for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og DDI-data er markert som datakløft / ikke funnet i denne bevissamlingen — dette er flagget som en **blokkering** datakløft (DG001) som må løses før noen sikkerhetsbeslutning.)
 
-**Rationale:**
-The top prediction (Female Breast Carcinoma) is backed by L1-level evidence — multiple completed Phase 3 RCTs and a near-maximal TxGNN score (99.995%) — confirming paclitaxel's well-established, mechanistically sound role in breast cancer chemotherapy. However, this evidence pack has two unresolved data gaps that block full safety sign-off, and the drug currently has no market authorization on file in this jurisdiction.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain official regulatory package insert / label warnings and contraindications
-- Resolve DG002 (High): obtain drug MOA data via DrugBank API to complete mechanistic documentation
-- Clarify local marketing/import status — confirm whether "Not Marketed" reflects a genuine regulatory gap or a limitation of the source dataset, given paclitaxel is a globally established oncology agent
-- If pursuing lower-ranked, non-breast indications (ranks 5–10), treat separately — these require independent, disease-specific evidence generation before any development decision
+## Andre predikerte indikasjoner (oversikt)
+
+Denne bevissamlingen rangerer 10 predikerte indikasjoner for paclitaxel; de fleste er brystkreft-subtyper som forsterker samme etablerte mekanisme snarere enn uavhengige hypoteser:
+
+- **Ranger 2–4** (ER-negativ, hormonresistent, ER-positiv brystkreft): L1–L2 bevis, "Fortsett med sikkerhetstiltak" — støttet av store fase 3-forsøk (f.eks. IMpassion130, RIGHT Choice) men representerer molekylære delsett av samme sykdom snarere enn en ny indikasjon.
+- **Rang 5** (Ehrlich tumorkarsinoma): L4, **Vent** — dette er en musegenmodell tumormodell, ikke en menneskelig sykdomsenhet; bevis er kun preklinisk.
+- **Ranger 6–8** (bilateral brystkreft, gen-ekspresjon-profilert brystkreft, brystvortekarsinoma): L2–L4, hovedsakelig **Vent** — sjeldne anatomiske subtyper eller symptom-styring forsøk, ikke sykdomsspesifikk effektivitetsforsøk.
+- **Ranger 9–10** (parameningealt / botryo embryonalt rabdomyosarkom): L5, **Vent** — ren TxGNN modell utdata med null støttende kliniske forsøk eller litteratur.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Fortsett med sikkerhetstiltak**
+
+**Begrunnelse:**
+Topp-predikasjonen (Female Breast Carcinoma) støttes av L1-nivå bevis — flere avsluttede fase 3 RCT-er og en nesten maksimal TxGNN-poengsum (99.995%) — som bekrefter paclitaxels veletablerte, mekanistisk fornuftige rolle i brystkreft kjemoterapi. Imidlertid har denne bevissamlingen to uløste datakløfter som blokkerer fullstendig sikkerhetsgodkjenning, og middelet har for tiden ingen markedsføringsgodkjenning på fil i denne jurisdiksjonen.
+
+**For å fortsette er følgende nødvendig:**
+- Løs DG001 (blokkering): innhent offisielt regulatorisk pakningsmedlegg / etikett advarsler og kontraindikasjoner
+- Løs DG002 (høy): innhent medisinvirkningsmål data via DrugBank API for å fullføre mekanistisk dokumentasjon
+- Avklart lokalt markedsførings-/importstatus — bekrefte at "Ikke markedsført" gjenspeiler et genuint regulatorisk gap eller en begrensningsmne av kildedatasett, gitt at paclitaxel er en globalt etablert onkologi-middel
+- Hvis du forfølger lavere-rangerte, ikke-brystkreft-indikasjoner (ranger 5–10), behandle separat — disse krever uavhengig, sykdomsspesifikk bevis-generering før noen udviklings-beslutning
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

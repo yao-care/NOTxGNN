@@ -29,78 +29,79 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Spironolactone: From an Undocumented Original Indication to Hypotrichosis Simplex of the Scalp
+# Spironolakton: Fra en udokumentert original indikasjon til Hypotrichosis Simplex of the Scalp
 
-## One-Sentence Summary
+## En setnings sammendrag
 
-> The original approved indication for spironolactone is not documented in this evidence pack (data gap, pending DrugBank/label lookup).
-> The TxGNN model predicts a possible link to **Hypotrichosis Simplex of the Scalp**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — model score alone.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (data gap — pending DrugBank query) |
-| Predicted New Indication | Hypotrichosis Simplex of the Scalp |
-| TxGNN Prediction Score | 99.26% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Den opprinnelige godkjente indikasjonen for spironolakton er ikke dokumentert i denne bevissamlingen (datakluft, venter på DrugBank/etikett-oppslag).
+> TxGNN-modellen forutsier en mulig sammenheng med **Hypotrichosis Simplex of the Scalp**,
+> men denne prediksjonen er for øyeblikket støttet av **0 kliniske studier** og **0 publikasjoner** — modellpoeng alene.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available for spironolactone in this evidence pack (`original_moa` = data gap). Based on the rationale text supplied alongside the prediction, spironolactone is known to act as a **mineralocorticoid receptor antagonist with anti-androgen activity**, and it does have real-world off-label use in androgenetic alopecia — so a general link between spironolactone and hair-related conditions is not implausible on its face.
-
-However, the evidence pack's own mechanistic assessment for this specific prediction is skeptical: **hypotrichosis simplex of the scalp** is an autosomal dominant, structural/developmental hair follicle disorder that is **not androgen-dependent**. There is no established biological link between spironolactone's known MOA and this disease's pathophysiology — the connection is assessed as a TxGNN extrapolation based on phenotypic similarity (hair-related outcomes) rather than genuine mechanistic overlap.
-
-A second, lower-ranked prediction (**congenital hypotrichosis milia**, score 99.04%) shows the same pattern: a rare ectodermal/follicular developmental disorder with no known relationship to mineralocorticoid or anti-androgen pathways. Both predictions in this evidence pack are flagged as lacking mechanistic support beyond the model's statistical association.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke dokumentert i bevissamlingen (datakluft — venter på DrugBank-spørring) |
+| Forutsagt ny indikasjon | Hypotrichosis Simplex of the Scalp |
+| TxGNN prediksjonspoeng | 99.26% |
+| Bevisgrad | L5 (modellpreduksjon kun, ingen kliniske studier eller litteratur) |
+| Status på norsk marked | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+For øyeblikket er detaljerte virkningsmekanisme-data ikke tilgjengelige for spironolakton i denne bevissamlingen (`original_moa` = datakluft). Basert på begrunnelsesteksten som er gitt sammen med prediksjonen, er spironolakton kjent for å virke som en **mineralokortikoid reseptor antagonist med anti-androgen aktivitet**, og det har faktisk off-label-bruk i den kliniske praksis ved androgenetisk alopeci — så en generell sammenheng mellom spironolakton og hårrelaterte tilstander er ikke urimelig på sitt ansikt.
 
----
+Imidlertid er bevissamlingens egen mekanistiske vurdering for denne spesifikke prediksjonen skeptisk: **hypotrichosis simplex of the scalp** er en autosomalt dominant, strukturell/utviklings-relatert hårfollikkellidelse som er **ikke androgen-avhengig**. Det finnes ingen etablert biologisk sammenheng mellom spironolaktones kjente virkningsmekanisme og denne sykdommens patofysiologi — koblingen er vurdert som en TxGNN-ekstrapolasjon basert på fenotypisk likhet (hårrelaterte utfall) snarere enn genuin mekanistisk overlapping.
 
-## Norway Market Information
-
-Spironolactone is currently **not marketed** in Norway under this evidence pack (0 authorizations, no license records available).
+En andre, lavere rangert preduksjon (**congenital hypotrichosis milia**, poeng 99.04%) viser samme mønster: en sjelden ektodermale/follikulær utviklingslidelse uten kjent sammenheng til mineralokortikoid eller anti-androgen veier. Begge prediksjoner i denne bevissamlingen er flagget som manglende mekanistisk støtte utover modellens statistiske assosiasjon.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske studier
 
-Please refer to the package insert for safety information.
-
-*(Note: key warnings, contraindications, and DDI data are flagged as blocking/high-severity data gaps — see Conclusion below.)*
+For øyeblikket ingen relaterte kliniske studier registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For øyeblikket ingen relatert litteratur tilgjengelig.
 
-**Rationale:**
-Both candidate indications are supported only by TxGNN model scores (L5, no clinical or literature evidence), and the evidence pack's own mechanistic rationale explicitly notes a lack of biological plausibility for the top prediction. In addition, a **Blocking** data gap (missing TFDA/label warnings and contraindications) prevents the drug from even entering the S1 safety pre-assessment stage.
+---
 
-**To proceed, the following is needed:**
-- TFDA/product label warnings and contraindications (DG001 — Blocking, required for S1 safety screening)
-- Mechanism of action data via DrugBank API (DG002 — High severity)
-- Documentation of spironolactone's original approved indication(s)
-- Independent clinical or preclinical evidence linking spironolactone to hypotrichosis simplex of the scalp, beyond model-derived similarity
+## Status på norsk marked
+
+Spironolakton er for øyeblikket **ikke markedsført** i Norge under denne bevissamlingen (0 godkjenninger, ingen lisensposter tilgjengelige).
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+*(Merk: viktige advarsler, kontraindikasjoner og DDI-data er flagget som blokkerende/høy-alvorlighetsgrad dataklufter — se Konklusjon nedenfor.)*
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Begge kandidatindikasjoner er støttet kun av TxGNN modellpoeng (L5, ingen klinisk eller litteraturbevis), og bevissamlingens egen mekanistiske begrunnelse noter eksplisitt mangel på biologisk plausibilitet for topprediksjonen. I tillegg forhindrer en **blokkerende** datakluft (manglende TFDA/etikettadvarsler og kontraindikasjoner) at stoffet til og med går inn i S1 sikkerhet pre-vurderingsstadiet.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA/produktetikett advarsler og kontraindikasjoner (DG001 — blokkerende, påkrevd for S1 sikkerhet screening)
+- Virkningsmekanisme data via DrugBank API (DG002 — høy alvorlighetsgrad)
+- Dokumentasjon av spironolaktones opprinnelige godkjente indikasjon(er)
+- Uavhengig klinisk eller preklinisk bevis som knytter spironolakton til hypotrichosis simplex of the scalp, utover modell-avledet likhet
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

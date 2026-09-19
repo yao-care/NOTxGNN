@@ -29,87 +29,88 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Sacituzumab Govitecan: From Antibody-Drug Conjugate Oncology Therapy to Drug-Induced Osteoporosis
+# Sacituzumab Govitecan: Fra antistoff-legemiddelkonjugat-terapi innen onkologi til legemiddelindusert osteoporose
 
-## One-Sentence Summary
+## En-setnings oppsummering
 
-> Sacituzumab govitecan is a Trop-2–targeted antibody-drug conjugate (ADC) delivering the cytotoxic payload SN-38, used in oncology.
-> The TxGNN model predicts a possible link to **drug-induced osteoporosis**, but this prediction is supported by **0 clinical trials** and **0 publications**, and the drug's own mechanism (systemic cytotoxic chemotherapy) runs counter to a bone-protective effect.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no Norway license or approved-indication text on file (drug not marketed) |
-| Predicted New Indication | Drug-Induced Osteoporosis |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Sacituzumab govitecan er et Trop-2–rettet antistoff-legemiddelkonjugat (ADC) som leverer det cytotoksiske virkestoffet SN-38, brukt innen onkologi.
+> TxGNN-modellen forutsier en mulig forbindelse til **legemiddelindusert osteoporose**, men denne forutsigelsen støttes av **0 kliniske forsøk** og **0 publikasjoner**, og legemidlets egen virkemåte (systemisk cytotoksisk kjemoterapi) motvirker en beinheskyttende effekt.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Detailed formal mechanism-of-action data is not on file for this drug (flagged as a High-severity data gap). Based on the information available in the evidence pack, sacituzumab govitecan is a Trop-2–targeted antibody conjugated to SN-38, the active metabolite of irinotecan and a topoisomerase I inhibitor — a highly cytotoxic chemotherapeutic mechanism used to kill tumour cells.
-
-There is no known pathway by which this mechanism would promote bone formation or inhibit bone resorption. The evidence pack's own analysis states the TxGNN score likely reflects an indirect knowledge-graph association (e.g., cancer treatment co-occurring with bone loss in the literature) rather than a genuine causal or therapeutic relationship. In fact, systemic cytotoxic ADCs are more commonly associated with *worsening* bone health via treatment-related toxicity, not improving it.
-
-Notably, this pattern repeats across all four TxGNN-ranked candidates for this drug (drug-induced osteoporosis, severe nonproliferative diabetic retinopathy, diabetic retinopathy, diabetic cataract) — each is a high-scoring prediction with an explicitly stated absence of mechanistic plausibility and, in two cases, a mechanism running directly opposite to the proposed indication (e.g., known ocular toxicity vs. a proposed retinopathy indication). This consistent disconnect suggests the high TxGNN scores for this drug reflect graph-structural noise rather than a genuine repurposing signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Ikke tilgjengelig — ingen norsk lisens eller godkjent indikajonstekst i arkivet (legemiddel ikke markedsført) |
+| Forutsagt ny indikasjon | Legemiddelindusert osteoporose |
+| TxGNN-forutsigelsesscore | 99.78% |
+| Bevisnivå | L5 |
+| Norges markedsstatus | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forutsigelsen rimelig?
 
-Currently no related literature available.
+Detaljerte formelle data om virkemåte er ikke tilgjengelig for dette legemiddelet (flagget som alvorlig datakløft). Basert på informasjonen som er tilgjengelig i evidensepakken, er sacituzumab govitecan et Trop-2–rettet antistoff konjugert til SN-38, det aktive metabolitten av irinotekan og en topoizomerase I-hemmer — en svært cytotoksisk kjemoterapeutisk mekanisme som brukes til å drepe tumorsceller.
 
----
+Det er ingen kjent mekanisme der denne virkemåten ville fremme beindannelse eller hemme benresorpsjonen. Evidensepakkens egen analyse angir at TxGNN-scoren sannsynligvis reflekterer en indirekte kunnskapsgraff-assosiasjon (f.eks. kreftbehandling som oppstår samtidig med bentap i litteraturen) snarere enn et genuint årsakssammenhengende eller terapeutisk forhold. Faktisk er systemiske cytotoksiske ADCer mer vanlig assosiert med *forverring* av bentilstanden via behandlingsrelatert toksisitet, ikke forbedring av det.
 
-## Norway Market Information
-
-No authorization records are available — the drug is not currently marketed in Norway (0 licenses on file).
+Bemerkelsesverdig oppstår dette mønsteret på tvers av alle fire TxGNN-rangerte kandidater for dette legemiddelet (legemiddelindusert osteoporose, alvorlig ikke-proliferativ diabetisk retinopati, diabetisk retinopati, diabetisk katarakt) — hver er en høyt scoret forutsigelse med en eksplisitt oppgitt mangel på mekanistisk plausibilitet og, i to tilfeller, en mekanisme som løper direkte motsatt av den foreslåtte indikasjonen (f.eks. kjent okulær toksisitet kontra en foreslått retinopati-indikasjon). Denne konsistente frakobblingen foreslår at de høye TxGNN-scorene for dette legemiddelet reflekterer støy i grafstrukturen snarere enn et genuint repurposing-signal.
 
 ---
 
-## Cytotoxicity
+## Bevis fra kliniske forsøk
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted cytotoxic (ADC) — Trop-2–targeted antibody conjugated to SN-38, a topoisomerase I inhibitor |
-| Myelosuppression Risk | High — the evidence pack notes this class of ADC is known to exacerbate myelosuppression and systemic toxicity |
-| Emetogenicity Classification | Please refer to the package insert |
-| Monitoring Items | CBC with differential (neutropenia risk), GI/diarrhea monitoring, liver function |
-| Handling Protection | Cytotoxic drug handling precautions required (hazardous cytotoxic payload) |
+For tiden ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information. TFDA label warnings/contraindications and formal DDI data are not currently on file (flagged as a Blocking data gap).
+For tiden ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformasjon for Norge
 
-**Decision: Hold**
+Ingen autorisasjonsoppføringer er tilgjengelige — legemiddelet markedsføres ikke for tiden i Norge (0 lisenser i arkivet).
 
-**Rationale:**
-There is no clinical trial or literature evidence (Evidence Level L5), the proposed mechanism does not plausibly support the predicted indication — and by the evidence pack's own analysis may run counter to it — and the drug is not marketed in Norway. This candidate should not advance without independent mechanistic or clinical justification.
+---
 
-**To proceed, the following is needed:**
-- TFDA/official product label with warnings, contraindications, and prescribing information (Blocking gap — required before any S1 safety review)
-- Formal, verified mechanism-of-action documentation (High-priority gap)
-- Independent mechanistic or preclinical rationale specifically supporting a bone-protective effect, given the drug's known cytotoxic profile
-- Re-screening of the other three TxGNN-ranked candidates for this drug is not recommended unless new supporting evidence emerges, as all show the same lack of mechanistic plausibility
+## Cytotoksisitet
+
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitetsklassifisering | Målrettet cytotoksisk (ADC) — Trop-2–rettet antistoff konjugert til SN-38, en topoizomerase I-hemmer |
+| Myelosuppresjonrisiko | Høy — evidensepakken bemerker at denne klassen av ADCer er kjent for å forverke myelosuppresjon og systemisk toksisitet |
+| Emetogenisitetsklassifisering | Vennligst se pakningsvedlegget |
+| Overvåkingspunkter | Fullblodtelling med differensial (nøytropeniarisiko), GI/diaré-overvåking, leverfunksjonsprøver |
+| Håndteringsbeskyttelse | Sikkerhetstiltak for håndtering av cytotoksiske legemidler påkrevd (farlig cytotoksisk virkestoff) |
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. TFDA-merkingadvarsler/kontraindikasjoner og formelle DDI-data er for tiden ikke tilgjengelig i arkivet (flagget som blokkerende datakløft).
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Det er ingen bevis fra kliniske forsøk eller litteratur (Bevisnivå L5), den foreslåtte virkemåten støtter ikke plausibelt den forutsagte indikasjonen — og i henhold til evidensepakkens egen analyse kan den motvirke det — og legemiddelet markedsføres ikke i Norge. Denne kandidaten bør ikke avansere uten uavhengig mekanistisk eller klinisk begrunnelse.
+
+**For å gå videre kreves følgende:**
+- TFDA/offisiell produktetikett med advarsler, kontraindikasjoner og forskrivningsinformasjon (Blokkerende kløft — påkrevd før enhver S1 sikkerhetsvurdering)
+- Formell, bekreftet virkemåte-dokumentasjon (Høy-prioritet kløft)
+- Uavhengig mekanistisk eller preklinisk begrunnelse som spesifikt støtter en beinheskyttende effekt, gitt legemidlets kjente cytotoksisk profil
+- Omskanning av de tre andre TxGNN-rangerte kandidatene for dette legemiddelet anbefales ikke med mindre nye støttende bevis oppstår, siden alle viser samme mangel på mekanistisk plausibilitet
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

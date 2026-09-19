@@ -29,90 +29,91 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Omalizumab: From Allergic Asthma to Bronchitis
+# Omalizumab: Fra allergisk astma til bronkitt
 
-## One-Sentence Summary
+## Sammendrag på én setning
 
-> Omalizumab is a humanized anti-IgE monoclonal antibody with internationally established efficacy in severe allergic asthma; it is not currently marketed in Norway.
-> The TxGNN model predicts it may be effective for **Bronchitis**,
-> with **2 clinical trials** and **8 publications** currently identified, though most of this evidence comes from asthma populations rather than a confirmed bronchitis diagnosis.
+> Omalizumab er et humanisert anti-IgE-monoklonalt antistoff med internasjonalt etablert effektivitet ved alvorlig allergisk astma; det er for øyeblikket ikke markedsført i Norge.
+> TxGNN-modellen forutsier at det kan være effektivt for **bronkitt**,
+> med **2 kliniske forsøk** og **8 publikasjoner** som er identifisert, selv om det meste av dette beviset kommer fra astmapopulasjoner snarere enn fra en bekreftet bronkittdiagnose.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not licensed in Norway; internationally recognized for severe allergic asthma (per literature evidence in this pack) |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.9992% |
-| Evidence Level | L3 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Original indikasjon | Ikke lisensiert i Norge; internasjonalt anerkjent for alvorlig allergisk astma (per litteraturbevis i denne pakken) |
+| Forutsagt ny indikasjon | Bronkitt |
+| TxGNN prediksjonspoeng | 99.9992% |
+| Bevisnivå | L3 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information drawn from the attached literature, omalizumab is a humanized anti-IgE monoclonal antibody that binds free IgE and reduces FcεRI expression on mast cells and basophils, which decreases IgE-mediated airway inflammation. Its efficacy in severe allergic asthma has been well documented, and mechanistically this same pathway may be relevant to bronchitis when the underlying inflammation is allergic or eosinophilic in nature.
+For øyeblikket er detaljert data om virkningsmekanisme ikke tilgjengelig i denne bevisepakken. Basert på kjent informasjon fra vedlagte litteratur er omalizumab et humanisert anti-IgE-monoklonalt antistoff som binder fri IgE og reduserer FcεRI-uttrykk på mastceller og basofiler, noe som minker IgE-mediiert luftveisinflammasjon. Effektiviteten ved alvorlig allergisk astma er godt dokumentert, og mekanistisk kan denne samme signalveien være relevant for bronkitt når den underliggende inflammasjonen er allergisk eller eosinofil i art.
 
-Bronchitis and asthma frequently overlap clinically — eosinophilic bronchitis and asthma share airway inflammatory features, and smoking-induced chronic bronchitis is often discussed alongside asthma-COPD overlap. This overlap is the basis for the TxGNN prediction.
+Bronkitt og astma overlapper hyppig klinisk — eosinofil bronkitt og astma deler luftveisinflammasjonskarakteristika, og røykingsindusert kronisk bronkitt diskuteres ofte sammen med astma-COPD-overlapp. Dette overlappet er grunnlaget for TxGNN-prediksjonen.
 
-However, it is important to note that the two clinical trials retrieved for this indication (NCT02477332 and NCT02049294) were not designed with bronchitis as the primary diagnosis — the enrolled populations were asthma patients (one for chronic spontaneous urticaria dose-finding, one for asthma with eosinophilic bronchitis as a steroid-sparing sub-study of only 11 patients). The mechanistic link is therefore indirect, inferred through the asthma–bronchitis overlap rather than direct clinical evidence in a bronchitis-diagnosed population.
+Det er imidlertid viktig å merke seg at de to kliniske forsøkene som ble hentet for denne indikasjonenen (NCT02477332 og NCT02049294) ikke ble designet med bronkitt som primær diagnose — de rekrutterte populasjonene var astmapasienter (ett for kronisk spontan urtikaria dosisfinding, ett for astma med eosinofil bronkitt som en steroidbesparende delundersøkelse av bare 11 pasienter). Den mekanistiske forbindelsen er derfor indirekte, utledet gjennom astma-bronkittoverlappet snarere enn direkte klinisk bevis i en bronkittdiagnostisert populasjon.
 
 ---
 
-## Clinical Trial Evidence
+## Klinisk forsøksbevis
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Rekruttering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | Phase 2b | Completed | 382 | Dose-finding study of QGE031 (ligelizumab, an anti-IgE agent) as add-on therapy in chronic spontaneous urticaria — not a bronchitis-specific trial; included for mechanistic relevance only |
-| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Phase 2/3 | Completed | 11 | Randomized, placebo-controlled trial evaluating whether omalizumab allows steroid dose reduction in patients with asthma and persistent eosinophilic bronchitis; very small sample size limits conclusiveness |
+| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | Fase 2b | Fullført | 382 | Dosisfinding-studie av QGE031 (ligelizumab, et anti-IgE-agens) som tilleggsterapi ved kronisk spontan urtikaria — ikke et bronkittspesifikt forsøk; inkludert kun for mekanistisk relevans |
+| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Fase 2/3 | Fullført | 11 | Randomisert, placebokontrollert forsøk som evaluerer hvorvidt omalizumab tillater reduksjon av steroidose hos pasienter med astma og vedvarende eosinofil bronkitt; svært lite utvalg begrenser konklusiviteten |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | Cohort | Postepy Dermatologii i Alergologii | Biologic therapy (including omalizumab) may benefit older patients with severe allergic asthma-COPD overlap phenotype |
-| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Review | Clin Rev Allergy Immunol | Overview of omalizumab approval and post-approval experience in moderate-to-severe persistent asthma |
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Review | Expert Opin Pharmacother | Discusses treatment challenges in smoking-induced airway disease, including chronic bronchitis, in asthma and asthma-COPD overlap patients |
-| [21163396](https://pubmed.ncbi.nlm.nih.gov/21163396/) | 2010 | Review | Rev Mal Respir | French expert review on definitions and treatment of adult asthma exacerbations |
-| [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | Review | Masui | Japanese perioperative management review noting omalizumab's role in severe allergic asthma alongside bronchitis-related airway inflammation |
-| [21121874](https://pubmed.ncbi.nlm.nih.gov/21121874/) | 2011 | Pooled Analysis | Curr Med Res Opin | Pooled safety analysis of omalizumab in children with allergic (IgE-mediated) asthma |
-| [17663923](https://pubmed.ncbi.nlm.nih.gov/17663923/) | 2007 | Review | Allergol Immunopathol | General review of monoclonal antibody use in pediatric allergic and respiratory disease |
-| [31478531](https://pubmed.ncbi.nlm.nih.gov/31478531/) | 2019 | Case Report | J Investig Allergol Clin Immunol | Rare case of plastic bronchitis following bronchial thermoplasty; not related to omalizumab treatment |
+| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | Kohort | Postepy Dermatologii i Alergologii | Biologisk terapi (inkludert omalizumab) kan være til fordel for eldre pasienter med alvorlig allergisk astma-COPD-overlappfenotype |
+| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Oversikt | Clin Rev Allergy Immunol | Oversikt over omalizumab-godkjenning og post-godkjenningserfaring ved moderat til alvorlig vedvarende astma |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Oversikt | Expert Opin Pharmacother | Diskuterer behandlingsutfordringer ved røykingsindusert luftveisykdom, inkludert kronisk bronkitt, hos astma- og astma-COPD-overlapppasienter |
+| [21163396](https://pubmed.ncbi.nlm.nih.gov/21163396/) | 2010 | Oversikt | Rev Mal Respir | Fransk ekspertgjennomgang av definisjoner og behandling av astmautløsninger hos voksne |
+| [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | Oversikt | Masui | Japansk perioperativ ledelsesgjennomgang som bemerker omalizumabs rolle ved alvorlig allergisk astma sammen med bronkittrelatert luftveisinflammasjon |
+| [21121874](https://pubmed.ncbi.nlm.nih.gov/21121874/) | 2011 | Pooled-analyse | Curr Med Res Opin | Poolet sikkerhetsanalyse av omalizumab hos barn med allergisk (IgE-mediiert) astma |
+| [17663923](https://pubmed.ncbi.nlm.nih.gov/17663923/) | 2007 | Oversikt | Allergol Immunopathol | Generell oversikt over monoklonalt antistoffbruk ved pediatrisk allergisk og respiratorisk sykdom |
+| [31478531](https://pubmed.ncbi.nlm.nih.gov/31478531/) | 2019 | Kasusrapport | J Investig Allergol Clin Immunol | Sjelden tilfelle av plastisk bronkitt etter bronkial termoplasti; ikke relatert til omalizumabbehandling |
 
 ---
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Omalizumab currently has **no market authorization records in Norway** (0 licenses, market status: Not Marketed). No product, dosage form, or approved indication text is available for this jurisdiction.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Omalizumab har for øyeblikket **ingen markedsgodkjenningsoppføringer i Norge** (0 lisenser, markedsstatus: Ikke markedsført). Ingen produktinformasjon, doseringsform eller godkjent indikasjonst ekst er tilgjengelig for denne jurisdiksjonen.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vennligst se produktresumé for sikkerhetsinformasjon.
 
-**Rationale:**
-The clinical trial and literature evidence for bronchitis is indirect — the two supporting trials primarily enrolled asthma patients rather than subjects with a confirmed bronchitis diagnosis, and no direct RCT targets bronchitis as the primary endpoint. Combined with the drug's current lack of market authorization in Norway and outstanding blocking safety data gaps, the evidence does not yet support advancing this indication.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Norway product labeling with warnings and contraindications (currently a Blocking data gap)
-- Detailed mechanism of action (MOA) documentation from DrugBank (currently a High-severity data gap)
-- Dedicated clinical trials enrolling patients with a confirmed (eosinophilic) bronchitis diagnosis, rather than asthma-overlap populations
-- Clarification of the regulatory pathway, given zero existing Norway market authorizations
+## Konklusjon og neste trinn
 
-**Note:** Within this same evidence pack, the predicted indication "obstructive lung disease" (rank 3) has substantially stronger, more direct evidence (Evidence Level L1, multiple completed Phase 3 RCTs directly evaluating omalizumab in allergic asthma) and may warrant a separate, higher-priority evaluation.
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Det kliniske forsøks- og litteraturbeviset for bronkitt er indirekt — de to støttende forsøkene rekrutterte primært astmapasienter snarere enn forsøkspersoner med en bekreftet bronkittdiagnose, og ingen direkte RCT har bronkitt som primær endepunkt. Kombinert med medisinens nåværende mangel på markedsgodkjenning i Norge og utestående kritiske datamangler innen sikkerhet, støtter beviset ikke ennu å flytte denne indikasionenen videre.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA/Norge-produktinformasjon med advarsler og kontraindikasjoner (for øyeblikket en kritisk datamangler)
+- Detaljert dokumentasjon av virkningsmekanisme (MOA) fra DrugBank (for øyeblikket en datamangler med høy alvorlighetsgrad)
+- Dedikerte kliniske forsøk som rekrutterer pasienter med en bekreftet (eosinofil) bronkittdiagnose, snarere enn astma-overlappopulasjoner
+- Avklaring av reguleringsveien, gitt null eksisterende markedsgodkjennelser i Norge
+
+**Merknad:** Innenfor denne samme bevisepakken har den forutsagte indikasjon «obstruktiv lungesykdom» (rangering 3) vesentlig sterkere, mer direkte bevis (Bevisnivå L1, flere fullførte fase 3-forsøk som direkte evaluerer omalizumab ved allergisk astma) og kan rettferdiggjøre en separat evaluering med høyere prioritet.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

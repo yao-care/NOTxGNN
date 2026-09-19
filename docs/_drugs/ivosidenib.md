@@ -29,83 +29,84 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Ivosidenib: From IDH1-Mutated Acute Myeloid Leukemia to Bulbar Polio
+# Ivosidenib: Fra IDH1-mutert akutt myeloid leukemi til bulbær polio
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-Ivosidenib is an IDH1 mutant enzyme inhibitor, inferred from available data to be approved for IDH1-mutated acute myeloid leukemia (AML) — formal original-indication documentation is currently a data gap.
-The TxGNN model's top-ranked prediction for this drug is **Bulbar Polio**, but **0 clinical trials** and **0 publications** currently support this specific link, and the model's own rationale notes no known mechanistic connection.
+Ivosidenib er en IDH1-mutant enzymhemmer, antatt ut fra tilgjengelige data å være godkjent for IDH1-mutert akutt myeloid leukemi (AML) — formell dokumentasjon av original indikasjon er for øyeblikket en datakløft.
+TxGNN-modellens topprangerte prediksjon for dette legemidlet er **bulbær polio**, men **0 kliniske studier** og **0 publikasjoner** støtter for øyeblikket denne spesifikke forbindelsen, og modellens egen begrunnelse merker ingen kjent mekanistisk forbindelse.
 
-## Quick Overview
+## Hurtig oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | IDH1-mutated AML (inferred from repurposing rationale text; not confirmed by formal license/label data — see Data Gap DG001/DG002) |
-| Predicted New Indication | Bulbar Polio |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L5 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | IDH1-mutert AML (antatt ut fra gjenbruksbegrunnelse; ikke bekreftet av formelle lisensdata – se datakløft DG001/DG002) |
+| Forutsagt ny indikasjon | Bulbær polio |
+| TxGNN prediksjonspoeng | 99.31% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available (Data Gap DG002). Based on the repurposing rationale accompanying this evidence pack, ivosidenib is understood to inhibit the mutant IDH1 enzyme, blocking accumulation of the oncometabolite 2-hydroxyglutarate (2-HG) in IDH1-mutated cancers such as AML.
+For øyeblikket er det ikke tilgjengelig detaljerte data om virkningsmekanisme (datakløft DG002). Basert på gjenbruksbegrunnelsen som følger med denne bevissamlingen, forstås ivosidenib å hemme det muterte IDH1-enzymet, og blokkerer akkumulering av onkometabolitten 2-hydroksyglutarat (2-HG) i IDH1-muterte kreftformer som AML.
 
-Bulbar polio is a poliovirus-induced motor neuron disease. There is no known biological relationship between IDH1/2-HG metabolism and poliovirus-mediated neuronal injury. The model's own generated rationale explicitly states that this high score likely reflects a **sparse or noisy edge in the underlying knowledge graph**, rather than a genuine mechanistic relationship, and that no mechanistic hypothesis currently supports this pairing.
+Bulbær polio er en poliovirus-indusert motorneuron-sykdom. Det eksisterer ingen kjent biologisk forbindelse mellom IDH1/2-HG-metabolisme og poliovirus-mediert nevroneskade. Modellens egen genererte begrunnelse slår eksplisitt fast at denne høye poengsum sannsynligvis reflekterer en **sparsom eller støyende kant i den underliggende kunnskapsgrafen**, snarere enn en genuin mekanistisk forbindelse, og at ingen mekanistisk hypotese for øyeblikket støtter denne koblingen.
 
-No clinical trials, literature, or biological plausibility currently exist to support ivosidenib as a candidate treatment for bulbar polio. This prediction should be treated as a model artifact requiring no immediate action, rather than a genuine repurposing signal.
+Ingen kliniske studier, litteratur eller biologisk sannsynlighet eksisterer for øyeblikket for å støtte ivosidenib som en kandidatbehandling for bulbær polio. Denne prediksjonen bør behandles som en modellartefakt som ikke krever umiddelbar handling, snarere enn som et genuint gjenbrukssignal.
 
-## Clinical Trial Evidence
+## Klinisk studiebevis
 
-Currently no related clinical trials registered
+For øyeblikket ingen relaterte kliniske studier registrert
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available
+For øyeblikket ingen relatert litteratur tilgjengelig
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Ivosidenib is not currently marketed in Norway. No authorization records are available in this evidence pack (0 licenses on file).
+Ivosidenib er for øyeblikket ikke markedsført i Norge. Ingen autorisasjonsregistre er tilgjengelige i denne bevissamlingen (0 lisenser på fil).
 
-## Cytotoxicity
+## Cytotoksisitet
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (mutant IDH1 enzyme inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitetsklassifisering | Målrettet terapi (IDH1-mutant enzymhemmer) |
+| Risiko for myelosuppresjon | Se pakningsvedleggets advarsler og forholdsregler |
+| Emetogenisitetsklassifisering | Se pakningsvedleggets advarsler og forholdsregler |
+| Overvåkingselementer | Se pakningsvedleggets advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Se pakningsvedleggets advarsler og forholdsregler |
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Se pakningsvedlegget for sikkerhetsinformasjon.
 
-## Conclusion and Next Steps
+## Konklusjon og neste steg
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-The TxGNN score is high, but there is no clinical trial evidence, no published literature, and no plausible mechanistic rationale linking ivosidenib to bulbar polio. This pairing most likely reflects noise in the knowledge graph rather than a true repurposing opportunity.
+**Begrunnelse:**
+TxGNN-poengsum er høy, men det eksisterer ingen klinisk studiebevis, ingen publisert litteratur og ingen plausibel mekanistisk begrunnelse som knytter ivosidenib til bulbær polio. Denne koblingen reflekterer mest sannsynlig støy i kunnskapsgrafen snarere enn en ekte gjenbruksmulighet.
 
-**To proceed, the following is needed:**
-- Formal MOA and original-indication documentation (resolve DG001, DG002) before any further scoring
-- TFDA/EMA package insert warnings and contraindications for baseline safety review
-- If this candidate is revisited, an independent mechanistic hypothesis beyond the current graph signal is required before advancing past S0
+**For å fortsette, er følgende nødvendig:**
+- Formell MOA- og original-indikasjonsdokumentasjon (løs DG001, DG002) før ytterligere poengsum
+- TFDA/EMA pakningsvedleggets advarsler og kontraindikasjoner for grunnlinjesikkerhetsvurdering
+- Hvis denne kandidaten blir gjenbesøkt, kreves en uavhengig mekanistisk hypotese utover det nåværende grafsignalet før man går videre enn S0
 
 ---
 
-### Additional Predicted Indications in This Evidence Pack
+### Ytterligere forutsagte indikassjoner i denne bevissamlingen
 
-This evidence pack contains two other candidate indications for ivosidenib that are mechanistically more plausible and warrant separate tracking rather than dismissal:
+Denne bevissamlingen inneholder to andre kandidatindikassjoner for ivosidenib som er mekanistisk mer plausible og som rettferdiger separat sporing snarere enn avvisning:
 
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation | Rationale Summary |
-|------|---------|-------------|-----------------|-----------------|--------------------|
-| 2 | AML/MDS related to alkylating agents | 99.26% | L4 | Research Question | Ivosidenib is used in IDH1-mutated AML broadly (including some therapy-related subtypes per AGILE trial); extrapolation to alkylating-agent-related AML/MDS is mechanistically reasonable if IDH1 mutation is present, but subtype-specific mutation prevalence and added toxicity from prior chemotherapy exposure are unconfirmed. |
-| 3 | AML/MDS related to radiation | 99.26% | L4 | Research Question | Same extrapolation logic as above for radiation-induced therapy-related myeloid neoplasms; no subtype-specific trial or literature evidence currently exists in this pack. |
+| Rangering | Sykdom | TxGNN-poengsum | Bevisnivå | Anbefaling | Sammendrag av begrunnelse |
+|-----------|--------|----------------|-----------|------------|---------------------------|
+| 2 | AML/MDS relatert til alkylerende midler | 99.26% | L4 | Forskningsspørsmål | Ivosidenib brukes bredt i IDH1-mutert AML (inkludert noen terapirelaterte subtyper ifølge AGILE-forsøket); ekstrapolering til alkylerende-middel-relatert AML/MDS er mekanistisk rimelig hvis IDH1-mutasjon er til stede, men subtypespesifikk mutasjonsprevales og tilleggtoksisitet fra tidligere kjemoterapieksponering er ubekreftet. |
+| 3 | AML/MDS relatert til stråling | 99.26% | L4 | Forskningsspørsmål | Samme ekstrapoleringslogikk som ovenfor for strålingsindusert terapirelatert myeloid neoplasmer; ingen subtypespesifikk forsøk eller litteraturbevis eksisterer for øyeblikket i denne samlingen. |
 
-These two candidates should be prioritized over the Bulbar Polio prediction for any future research question follow-up, as they build on an established (though not formally documented in this pack) approved use of ivosidenib in IDH1-mutated AML.
+Disse to kandidatene bør prioriteres fremfor Bulbær polio-prediksjonen for enhver framtidig oppfølging av forskningsspørsmål, da de bygger på en etablert (om enn ikke formelt dokumentert i denne samlingen) godkjent bruk av ivosidenib i IDH1-mutert AML.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,77 +29,76 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Elafibranor: Investigational PPAR Agonist — Predicted New Indication: Amenorrhea
+# Elafibranor: Eksperimentell PPAR-agonist — Forutsagt ny indikasjon: Amenorrhoe
 
-*Note: No original indication data is available for this drug in the current evidence pack, so the title cannot follow the standard "From X to Y" format.*
+*Merk: Det finnes ingen opprinnelige indikasjonsdata for dette legemidlet i den nåværende evidenspakken, så tittelen kan ikke følge standard "Fra X til Y"-format.*
 
-## One-Sentence Summary
+## Oppsummering i en setning
 
-Elafibranor is a PPAR-α/δ dual agonist; no original approved indication or detailed mechanism-of-action data is currently available in this evidence pack.
-The TxGNN model predicts it may be effective for **Amenorrhea**,
-but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure computational (knowledge-graph) prediction with no clinical or mechanistic evidence backing it.
+Elafibranor er en PPAR-α/δ dual agonist; det finnes for øyeblikket ingen opprinnelig godkjent indikasjon eller detaljerte virkningsmekanismedata i denne evidenspakken. TxGNN-modellen forutsier at det kan være effektivt for **Amenorrhoe**, men denne prediksjonen er for øyeblikket støttet av **0 kliniske forsøk** og **0 publikasjoner** — det er en ren beregningsbasert (kunnskapsgrafikk)-prediksjon uten klinisk eller mekanistisk bevis som støtter den.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available (no data in evidence pack) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism-of-action data for elafibranor is not available. Based on the limited information in this evidence pack, elafibranor is classified as a PPAR-α/δ dual agonist. No original indication data, published literature, or clinical trial evidence is available to establish a link between this mechanism and amenorrhea, the hypothalamic-pituitary-ovarian axis, or menstrual cycle regulation.
-
-The TxGNN score (0.999) reflects a knowledge-graph connection strength only — it does not encode or imply a specific biological pathway. At present, there is no experimental, mechanistic, or clinical support for this repurposing hypothesis; it is derived purely from model inference.
+| Punkt | Innhold |
+|------|--------|
+| Opprinnelig indikasjon | Ikke tilgjengelig (ingen data i evidenspakken) |
+| Forutsagt ny indikasjon | Amenorrhoe |
+| TxGNN-prediksjonspoeng | 99.86% |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related clinical trials registered
+For øyeblikket er det ikke tilgjengelig detaljerte virkningsmekanismedata for elafibranor. Basert på den begrensede informasjonen i denne evidenspakken, er elafibranor klassifisert som en PPAR-α/δ dual agonist. Ingen opprinnelige indikasjonsdata, publisert litteratur eller klinisk forsøksbevis er tilgjengelig for å etablere en sammenheng mellom denne mekanismen og amenorrhoe, hypothalamus-hypofyse-ovarie-aksen eller regulering av menstruasjonssyklus.
 
----
-
-## Literature Evidence
-
-Currently no related literature available
+TxGNN-skåren (0.999) reflekterer kun styrken på kunnskapsgrafikk-forbindelser — den koder ikke eller antyder ikke en spesifikk biologisk vei. For øyeblikket finnes det ingen eksperimentell, mekanistisk eller klinisk støtte for denne hypotesen; den er avledet rent fra modellinferens.
 
 ---
 
-## Norway Market Information
+## Klinisk forsøksbevis
 
-Currently no marketing authorizations recorded in Norway (drug not yet marketed).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+For øyeblikket ingen relaterte kliniske forsøk registrert
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For øyeblikket ingen relatert litteratur tilgjengelig
 
-**Rationale:**
-The prediction relies solely on a TxGNN knowledge-graph score (Evidence Level L5), with no clinical trials, literature, or mechanistic data linking PPAR-α/δ agonism to amenorrhea. The drug is also not marketed in Norway, so no regulatory or real-world safety experience exists to draw on.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory label warnings and contraindications (blocking gap — required before any safety pre-assessment, per DG001)
-- Detailed mechanism-of-action (MOA) data to assess mechanistic plausibility (per DG002)
-- Confirmation of elafibranor's original approved indication(s), if any exist in other jurisdictions
-- Preclinical or mechanistic studies linking PPAR-α/δ pathways to reproductive endocrinology or menstrual regulation
-- Any observational or case-level clinical evidence before this candidate can advance beyond S0
+## Informasjon om det norske marked
+
+For øyeblikket er det ikke registrert noen markedsføringstillatelser i Norge (legemidlet er ennå ikke markedsført).
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Prediksjonen er utelukkende avhengig av en TxGNN kunnskapsgrafikk-skåre (Evidensnivå L5), uten kliniske forsøk, litteratur eller mekanistiske data som knytter PPAR-α/δ-agonisme til amenorrhoe. Legemidlet er heller ikke markedsført i Norge, så det finnes ingen regulatoriske eller praktiske sikkerhetserfaringer å bygge på.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA/regulatoriske merkeadvarsler og kontraindikasjoner (blokkerende gap — nødvendig før sikkerheitsforvurderingen, etter DG001)
+- Detaljerte virkningsmekanismedata (MOA) for å vurdere mekanistisk plausibilitet (etter DG002)
+- Bekrefting av elafibranors opprinnelig godkjente indikasjon(er), hvis de finnes i andre jurisdiksjoner
+- Prekliniske eller mekanistiske studier som knytter PPAR-α/δ-stier til reproduktiv endokrinologi eller menstruasjonsregulering
+- Eventuelle observasjons- eller kasuistiske kliniske bevis før denne kandidaten kan avansere forbi S0
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

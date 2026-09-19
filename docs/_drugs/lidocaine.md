@@ -29,60 +29,61 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Lidocaine: From Local Anesthesia to Punctate Epithelial Keratoconjunctivitis
+# Lidocaine (Lidokain): Fra lokal anestesi til punktat epitelial keratokonjunktivitt
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-Lidocaine is a widely used amide-type local anesthetic; formal indication and mechanism-of-action data for this drug are not available in the current evidence pack. TxGNN's top prediction suggests possible relevance to **Punctate Epithelial Keratoconjunctivitis**, but this prediction is supported by **zero clinical trials** and **zero publications**, and the drug's own pharmacology argues against benefit rather than for it.
+Lidocaine er et vidt brukt lokalt anestetikum av amidtypen; formell indikasjon og data om virkningsmåte for dette legemidlet er ikke tilgjengelig i det nåværende bevisematerialet. TxGNNs toppprediksjon foreslår mulig relevans til **punktat epitelial keratokonjunktivitt**, men denne prediksjonen støttes av **null kliniske forsøk** og **null publikasjoner**, og legemidlets egen farmakologi taler mot nytte snarere enn for det.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (Lidocaine is generally known as a local anesthetic; formal approved-indication text is a flagged data gap) |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Punkt | Innhold |
+|------|---------|
+| Opprinnelig indikasjon | Ikke dokumentert i dette bevisematerialet (Lidocaine er generelt kjent som et lokalt anestetikum; formelt godkjent indikasjon er flagget som datamangel) |
+| Forutsagt ny indikasjon | Punktat epitelial keratokonjunktivitt |
+| TxGNN-prediksjonspoengsum | 99.99% |
+| Bevisnivå | L5 |
+| Norsk markedsstatus | ✗ Ikke på markedet |
+| Antall godkjenninger | 0 |
+| Anbefalt avgjørelse | Vent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed mechanism-of-action data for lidocaine is not available in this evidence pack (flagged as a High-severity data gap). Based on general pharmacological knowledge, lidocaine is an amide-type local anesthetic that blocks voltage-gated Na⁺ channels in nerve terminals, producing reversible loss of sensation — it has no known epithelial-repair or anti-inflammatory mechanism.
+Detaljerte virkningsmåtdata for lidocaine er ikke tilgjengelig i dette bevisematerialet (flagget som datamangel av høy alvorlighetsgrad). Basert på generell farmakologisk kunnskap, er lidocaine et lokalt anestetikum av amidtypen som blokkerer spenningskontrollerte Na⁺-kanaler i nerveterminalene, og framkaller reversibelt tap av sensasjon – det har ingen kjent epitelreparasjons- eller antiinflammatorisk virkningsmåte.
 
-For the top-ranked prediction, punctate epithelial keratoconjunctivitis is a corneal epithelial surface disease. The repurposing rationale provided alongside the prediction explicitly notes that repeated or prolonged use of topical anesthetics is a **known risk factor for "anesthetic abuse keratopathy,"** meaning lidocaine could plausibly *worsen* rather than improve this condition. There is no supporting clinical trial or literature evidence for this specific pairing — the prediction is a pure model output (TxGNN score only, Evidence Level L5, Decision Stage S0).
+For den topprangerte prediksjonen er punktat epitelial keratokonjunktivitt en korneal epitelial overflatensykdom. Omgrunnelsen for ny bruk som er gitt sammen med prediksjonen, noterer eksplisitt at gjentatt eller langvarig bruk av topikale anestesier er en **kjent risikofaktor for «keratopati fra anestesimisbruk»**, noe som betyr at lidocaine plausibelt kunne forverret snarere enn forbedret denne tilstanden. Det finnes ingen støttende kliniske forsøk eller litteraturbevis for denne spesifikke kombinasjonen — prediksjonen er en ren modellutgang (bare TxGNN-poengsum, Evidence Level L5, Decision Stage S0).
 
-It is worth noting that other, lower-ranked candidates in this evidence pack carry stronger (though still preliminary) support: **conjunctival disorder** (rank 6, Evidence Level L3, multiple Phase 4 trials using lidocaine as ocular surface/perioperative anesthesia) and **atopic conjunctivitis** (rank 5, Evidence Level L4, mechanistic literature on neurogenic modulation of allergic conjunctival responses). These reflect lidocaine's established role as an ocular anesthetic adjunct rather than a primary disease-modifying therapy, and neither constitutes direct evidence for treating the disease itself.
+Det er verdt å merke seg at andre, lavere-rangerte kandidater i dette bevisematerialet har sterkere (skjønt fortsatt foreløpig) støtte: **konjunktivallidelse** (rangering 6, Bevisnivå L3, flere gjennomførte fase 4-forsøk som bruker lidocaine som okular overflate/perioperativ anestesi) og **atopisk konjunktivitt** (rangering 5, Bevisnivå L4, mekanistisk litteratur om nevrogenmodulering av allergiske konjunktivale responser). Disse reflekterer lidocaines etablerte rolle som et okulart anestesiadjuvans snarere enn som en primær sykdomsmodifiserende terapi, og ingen av dem utgjør direkte bevis for behandling av selve sykdommen.
 
-## Clinical Trial Evidence
+## Klinisk prøvebevis
 
-Currently no related clinical trials registered.
+For tiden er det ingen registrerte relevante kliniske forsøk.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+For tiden er det ingen tilgjengelig relevant litteratur.
 
-## Norway Market Information
+## Informasjon om norsk marked
 
-No marketing authorizations are on record for lidocaine in this dataset (`market_status`: not marketed; `total_licenses`: 0).
+Ingen markedsføringstillatelser er registrert for lidocaine i dette datasettet (`market_status`: ikke på markedet; `total_licenses`: 0).
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information. (No key warnings, contraindications, or drug-interaction data were available in this evidence pack; the TFDA/label warning data gap is flagged as Blocking, meaning safety review cannot proceed until this is resolved.)
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Ingen viktige advarsler, kontraindikasjoner eller data om legemiddelinteraksjoner var tilgjengelige i dette bevisematerialet; manglende TFDA/etikett-advarseldata er flagget som Blokkert, noe som betyr at sikkerhetsvurdering ikke kan gå videre før dette er løst.)
 
-## Conclusion and Next Steps
+## Konklusjon og neste steg
 
-**Decision: Hold**
+**Avgjørelse: Vent**
 
-**Rationale:**
-The top-ranked prediction (punctate epithelial keratoconjunctivitis) has no clinical or literature support and is mechanistically questionable — repeated topical anesthetic use is a recognized cause of corneal epithelial toxicity, so the risk-benefit direction is unclear at best and unfavorable at worst. This candidate should not proceed.
+**Begrunnelse:**
+Den topprangerte prediksjonen (punktat epitelial keratokonjunktivitt) har ingen klinisk eller litteraturstøtte og er mekanistisk tvilsom — gjentatt bruk av topikale anestesier er en anerkjent årsak til korneal epitelial toksisitet, så risiko-nytte-retningen er uklar i beste fall og ugunstig i verste fall. Denne kandidaten bør ikke gå videre.
 
-**To proceed, the following is needed:**
-- Resolve the Blocking data gap: obtain TFDA/label warnings, contraindications, and DDI data before any safety evaluation is possible
-- Obtain documented mechanism-of-action and original approved indication data for lidocaine
-- If this repurposing line is still of interest, redirect evaluation toward the better-evidenced candidates in this same evidence pack — **conjunctival disorder** (L3, multiple completed Phase 4 trials) and **atopic conjunctivitis** (L4, mechanistic support) — rather than the top TxGNN-score candidate, which lacks any supporting evidence
-- If pursued, any future ophthalmic use of lidocaine should be framed as a perioperative/procedural anesthetic adjunct, not as disease-modifying therapy, given the absence of a repair or anti-inflammatory mechanism
+**For å gå videre, er følgende nødvendig:**
+- Avklar datamangelen markert som Blokkert: innhent TFDA/etikett-advarsler, kontraindikasjoner og DDI-data før sikkerhetsvurdering kan gjennomføres
+- Innhent dokumentert virkningsmåte- og opprinnelig godkjent indikasjondata for lidocaine
+- Hvis denne repurposeringslinjen fortsatt er av interesse, omdirigér evalueringen mot kandidatene med sterkere evidens i dette samme bevisematerialet — **konjunktivallidelse** (L3, flere gjennomførte fase 4-forsøk) og **atopisk konjunktivitt** (L4, mekanistisk støtte) — snarere enn toppkandidaten for TxGNN-poengsum, som mangler noen som helst støtende bevis
+- Hvis denne forfølges, bør enhver framtidig oftalmologisk bruk av lidocaine presenteres som et perioperativt/prosedurisk anestesiadjuvans, ikke som sykdomsmodifiserende terapi, gitt manglende reparasjons- eller antiinflammatorisk virkningsmåte
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

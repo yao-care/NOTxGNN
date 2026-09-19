@@ -29,78 +29,79 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Varenicline: From Smoking Cessation to Migraine Disorder
+# Varenicline: Fra røykeslutt til migrene
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-Varenicline is a nicotinic acetylcholine receptor (nAChR) partial agonist historically developed and used as an aid for smoking cessation. The TxGNN model predicts it may be effective for **Migraine Disorder**, but this prediction is currently supported only by a single, unrelated case report — **no clinical trials and no literature directly investigating varenicline for migraine exist** — and other evidence in this dataset shows headache is a recognized *adverse effect* of varenicline rather than a treatment effect.
+Varenicline er en delvis agonist på nikotinerg acetylkolinreseptor (nAChR) som historisk er utviklet og brukt som hjelpemiddel mot røykeslutt. TxGNN-modellen forutsier at det kan være effektivt for **Migrene**, men denne prognosen støttes for tiden bare av en enkel, ikke-relatert kasuistikk — **ingen kliniske studier og ingen litteratur som direkte undersøker varenicline for migrene eksisterer** — og annen evidens i dette datasettet viser at hodepine er en erkjent *bivirkning* av varenicline snarere enn en behandlingseffekt.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Smoking cessation (nicotine dependence treatment) — inferred from literature evidence; no Norway regulatory license data available |
-| Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Røykeslutt (nikotinavhengighetsbehandling) — utledet fra litteraturbevis; ingen norske regulatoriske lisensdata tilgjengelig |
+| Forutsagt ny indikasjon | Migrene |
+| TxGNN-prognosescore | 99.92% |
+| Evidensnivå | L5 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prognosen rimelig?
 
-Currently, detailed mechanism of action data is not available (Data Gap). Based on known pharmacology, varenicline is a partial agonist at α4β2 nicotinic acetylcholine receptors and a full agonist at α7 nAChRs; its efficacy in smoking cessation is well established across dozens of RCTs. Nicotinic receptors are expressed in the trigeminovascular system and central pain-modulating pathways, which is the theoretical basis TxGNN appears to be using to link varenicline to migraine.
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige (Datahull). Basert på kjent farmakologi er varenicline en delvis agonist ved α4β2 nikotinerge acetylkolinreseptorer og en full agonist ved α7 nAChRs; dets effektivitet ved røykeslutt er godt etablert på tvers av dusinvis av randomiserte kontrollerte studier. Nikotinerge reseptorer er uttrykt i det trigeminovaskulære systemet og sentrale smertemoduleringsveier, noe som er det teoretiske grunnlaget TxGNN ser ut til å bruke for å knytte varenicline til migrene.
 
-However, this mechanistic link is speculative and the direction of effect is genuinely ambiguous. Nicotinic agents have been reported to *both* trigger and potentially modulate headache-type symptoms, and the dataset itself contains a case report explicitly titled "Bath-related headache induced by varenicline" (PMID 23175211, associated with the separate "headache disorder" candidate), plus a scoring note stating that varenicline is a known **cause** of headache as an adverse event rather than a treatment for it. This directly undercuts the plausibility of the migraine-disorder prediction and should be treated as a safety signal rather than an efficacy signal.
+Denne mekanistiske sammenhengen er imidlertid spekulativ, og retningen av effekten er genuint tvetydig. Nikotinerge midler er rapportert å *både* utløse og potensielt modulere hodepine-typesymptomer, og datasettet selv inneholder en kasuistikk eksplisitt titlet "Badekar-relatert hodepine indusert av varenicline" (PMID 23175211, forbundet med den separate "hodepinesykdom"-kandidaten), pluss en scoringsnotat som fastslår at varenicline er en kjent *årsak* til hodepine som en uønsket hendelse snarere enn en behandling for det. Dette underminerer direkte plausibiliteten av migreneprognosen og bør behandles som et sikkerhetssignal snarere enn et effektivitetssignal.
 
-No clinical trials or literature in this evidence pack specifically evaluate varenicline in migraine patients. The single literature record attached to this indication (a fatal cardiac arrest case report) provides no mechanistic or efficacy support at all — it is an incidental adverse-event report, not migraine-related evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Ingen kliniske studier eller litteratur i denne evidenspakken evaluerer spesifikt varenicline hos migrenepasenter. Den eneste litteraturposten knyttet til denne indikasjonen (en fatal hjertearkrestkasuistikk) gir ingen mekanistisk eller effektivitetsstøtte i det hele tatt — det er en tilfelsvis uønsket hendelsesrapport, ikke migrene-relatert evidens.
 
 ---
 
-## Literature Evidence
+## Evidens fra kliniske studier
 
-| PMID | Year | Type | Journal | Key Findings |
+For tiden ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturbevis
+
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [19585710](https://pubmed.ncbi.nlm.nih.gov/19585710/) | 2009 | Case Report | Therapie | Case report of cardiac arrest associated with varenicline use; unrelated to migraine efficacy, provides no supporting evidence for this indication |
+| [19585710](https://pubmed.ncbi.nlm.nih.gov/19585710/) | 2009 | Kasuistikk | Therapie | Kasuistikk om hjertearkrest forbundet med varenicline-bruk; ikke knyttet til migreneefficitet, gir ingen støttende bevis for denne indikasjonen |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Varenicline is currently not marketed in Norway (0 authorizations on file); no license or approved-indication data is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: Two blocking/high-severity data gaps are on file — TFDA label warnings/contraindications [DG001, Blocking] and mechanism-of-action data [DG002, High] — both required before any S1 safety assessment can proceed.)*
+Varenicline er for tiden ikke markedsført i Norge (0 godkjenninger på fil); ingen lisens- eller godkjent indikasjondata er tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-**Rationale:**
-The migraine-disorder prediction is supported only by a TxGNN score with no corroborating clinical trials or on-topic literature (Evidence Level L5), and internal evidence within this same dataset indicates headache is a known adverse effect of varenicline — directly conflicting with a therapeutic rationale. Combined with the drug's non-marketed status in Norway and missing safety/MOA data, there is insufficient basis to advance this candidate.
+*(Merk: To blokkerende/høy-alvorlighetsgrad datahull er registrert — TFDA merkattadvarslinger/kontraindikasjoner [DG001, Blokkerer] og virkningsmekanisme-data [DG002, Høy] — begge påkrevd før noen S1 sikkerhetsvurdering kan fortsette.)*
 
-**To proceed, the following is needed:**
-- Resolve the DG001 (TFDA label warnings/contraindications) and DG002 (MOA) blocking/high-severity data gaps
-- Preclinical or mechanistic studies specifically examining nAChR modulation in trigeminovascular migraine pathophysiology
-- Clarification of the headache-induction vs. headache-treatment direction of effect (adverse event vs. therapeutic signal) before any further evaluation
-- At minimum, observational or case-series data directly involving varenicline in migraine patients
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Migreneprognosen støttes kun av en TxGNN-score uten korroborerende kliniske studier eller relevant litteratur (Evidensnivå L5), og intern evidens innen dette samme datasettet indikerer at hodepine er en kjent bivirkning av varenicline — direkte i konflikt med en terapeutisk rasjonale. Kombinert med legemidlets ikke-markedsførte status i Norge og manglende sikkerhet-/MOA-data, er det utilstrekkelig grunnlag for å fremme denne kandidaten.
+
+**For å fortsette, er følgende nødvendig:**
+- Løse DG001 (TFDA merkattadvarslinger/kontraindikasjoner) og DG002 (Virkningsmekanisme) blokkerende/høy-alvorlighetsgrad datahull
+- Prekliniske eller mekanistiske studier som spesifikt undersøker nAChR-modulering i trigeminovaskulær migrenepatofysiologi
+- Klargjøring av hodepine-induksjon vs. hodepine-behandling retning av effekten (uønsket hendelse vs. terapeutisk signal) før ytterligere evaluering
+- Minst observasjonelle eller kasuistikkserier-data som direkte involverer varenicline hos migrenepasenter
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

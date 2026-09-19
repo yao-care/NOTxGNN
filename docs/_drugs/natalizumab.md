@@ -29,78 +29,77 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-Using the evidence pack as provided (no external assumptions about natalizumab's known clinical history, since `original_indications`, `licenses`, and `original_moa` are empty/gap in this dataset).
+# Natalizumab: Fra udokumentert opprinnelig indikasjon til bronkitt
 
-# Natalizumab: From Undocumented Original Indication to Bronchitis
+## Oppsummering i en setning
 
-## One-Sentence Summary
-
-Natalizumab (DrugBank ID DB00108) is described in the underlying repurposing rationale as an anti-α4-integrin (VLA-4) monoclonal antibody, but its original approved indication and formal mechanism-of-action record are not documented in the current evidence pack. The TxGNN model's top-ranked prediction is **Bronchitis**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it reflects knowledge-graph topological similarity only, with no mechanistic or clinical corroboration.
+Natalizumab (DrugBank ID DB00108) beskrives i den underliggende gjenbruksrasjonalen som et anti-α4-integrin (VLA-4) monoklonalt antistoff, men dets opprinnelig godkjente indikasjon og formelle virkningsmekanisme-register er ikke dokumentert i det gjeldende bevismateriell. TxGNN-modellens høyest rangerte prediksjon er **Bronkitt**, men denne prediksjonen støttes for tiden av **0 kliniske forsøk** og **0 publikasjoner** — det gjenspeiler bare topologisk lignhet i kunnskapsgrafen, uten mekanistisk eller klinisk støtte.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (see Data Gaps) |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.46% |
-| Evidence Level | L5 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism-of-action data for natalizumab is not available as a structured field in this evidence pack. However, the model's own rationale characterizes natalizumab as an anti-α4-integrin (VLA-4) monoclonal antibody that blocks leukocyte migration across VCAM-1-expressing endothelium into inflamed tissue. This is a mechanism associated with autoimmune/neuroinflammatory conditions, not with acute or chronic airway infection/inflammation (bronchitis).
-
-The evidence pack explicitly states that there is **no direct mechanistic argument** linking VLA-4/VCAM-1 blockade to bronchitis pathophysiology. The high TxGNN score (99.46%) appears to be driven purely by graph-embedding proximity in the knowledge graph, not by any retrieved clinical trial or literature signal — there are zero supporting records of either type for this indication pair.
-
-Given the complete absence of corroborating evidence and the lack of a coherent mechanistic hypothesis, this prediction should be treated as exploratory only, not as a basis for further clinical development at this stage.
+| Punkt | Innhold |
+|------|---------|
+| Opprinnelig indikasjon | Ikke dokumentert i bevismateriell (se Datamangler) |
+| Prediktert ny indikasjon | Bronkitt |
+| TxGNN-prediksjonsscore | 99.46% |
+| Bevisnivå | L5 |
+| Norges markedsstatus | Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related clinical trials registered.
+For tiden er detaljerte virkningsmekanisme-data for natalizumab ikke tilgjengelige som et strukturert felt i dette bevismateriell. Modellens egen rasjonale karakteriserer imidlertid natalizumab som et anti-α4-integrin (VLA-4) monoklonalt antistoff som blokkerer leukosyttmigrering over VCAM-1-eksprimerende endotel inn i betent vev. Dette er en mekanisme forbundet med autoimmune/nevroinflamatoriske tilstander, ikke med akutt eller kronisk luftveisinfeksjon/betennelse (bronkitt).
 
----
+Bevismateriell angir eksplisitt at det er **ingen direkte mekanistisk argument** som forbinder VLA-4/VCAM-1-blokering med bronkitt-patofysiologi. Den høye TxGNN-scoren (99.46%) ser ut til å være drevet helt av graf-embedding-nærhet i kunnskapsgrafen, ikke av noen hentet klinisk forsøk eller litteratursignal — det er null støttende oppføringer av noen som helst type for denne indikasjonsparet.
 
-## Literature Evidence
-
-Currently no related literature available.
+Gitt den fullstendige mangelen på støttende bevis og mangelen på en sammenhengende mekanistisk hypotese, bør denne prediksjonen behandles som kun utforskende, ikke som grunnlag for videre klinisk utvikling på dette stadiet.
 
 ---
 
-## Norway Market Information
+## Bevis fra kliniske forsøk
 
-Natalizumab has **0 authorizations** on record and a market status of "Not Marketed" in this evidence pack — no license entries are available to tabulate.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are not currently available in this evidence pack; the TFDA/product label lookup is flagged as a **Blocking** data gap — see Conclusion.)
+For tiden er det ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For tiden er det ingen relatert litteratur tilgjengelig.
 
-**Rationale:**
-The top-ranked prediction (Bronchitis) has Evidence Level L5 — a model score with zero clinical trials and zero literature support, and the pack's own mechanistic analysis finds no direct rationale connecting the drug's proposed mechanism to this disease. Separately, a **Blocking**-severity data gap (missing TFDA label/warnings) means the candidate cannot even pass an initial safety screen (S1), regardless of efficacy evidence.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory label (warnings, contraindications) — required to clear the S1 safety gate (currently Blocking gap, DG001)
-- Verified mechanism-of-action record from DrugBank or primary literature (currently High-severity gap, DG002)
-- Confirmed original approved indication(s) for the drug, to establish a baseline for mechanistic comparison
-- At minimum, preclinical or observational evidence directly linking α4-integrin/VLA-4 blockade to bronchitis pathophysiology before advancing beyond model-prediction stage
+## Norges markedsinformasjon
 
-*Note: within this same prediction batch, several other candidate indications for natalizumab (psoriasis, parapsoriasis, acute lichenoid pityriasis) are supported only by case reports describing these conditions as **adverse effects induced or aggravated by natalizumab treatment**, not as therapeutic benefits. These should not be misread as efficacy signals during triage.*
+Natalizumab har **0 autorisasjoner** i oversikten og en markedsstatus på "Ikke markedsført" i dette bevismateriell — ingen lisensposter er tilgjengelige for tabellering.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og data om legemiddelinteraksjon er for tiden ikke tilgjengelige i dette bevismateriell; TFDA/produktetikett-oppslaget er flagget som et **Blokkering**-alvorlighetsgrad-datahull — se Konklusjon.)
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Avvent**
+
+**Rasjonale:**
+Den høyest rangerte prediksjonen (Bronkitt) har bevisnivå L5 — en modellscore med null kliniske forsøk og null litteratursupport, og pakkens egen mekanistiske analyse finner ingen direkte rasjonale som forbinder legemidlets foreslåtte mekanisme til denne sykdommen. Separat er det et **Blokkering**-alvorlighetsgrad-datahull (manglende TFDA-etikett/advarsler) som betyr at kandidaten ikke engang kan passere en innledende sikkerhetskontroll (S1), uavhengig av effektivitetsbevis.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA/regulatorisk etikett (advarsler, kontraindikasjoner) — påkrevd for å rydde S1-sikkerhetsporten (for tiden blokkert datahull, DG001)
+- Verifisert virkningsmekanisme-register fra DrugBank eller primærlitteratur (for tiden høy-alvorlighetsgrad datahull, DG002)
+- Bekreftet opprinnelig godkjent indikasjon(er) for legemidlet, for å etablere en basislinje for mekanistisk sammenligning
+- Minst preklinisk eller observasjonsbevis som direkte forbinder α4-integrin/VLA-4-blokering til bronkitt-patofysiologi før avansering utover modell-prediksjonsstadium
+
+*Merknad: innenfor denne samme prediksjonsgruppen, er flere andre kandidatindikasjoner for natalizumab (psoriasis, parapsoriasis, acute lichenoid pityriasis) bare støttet av kasusrapporter som beskriver disse tilstandene som **bivirkninger indusert eller forverret av natalizumab-behandling**, ikke som terapeutiske fordeler. Disse bør ikke misforstås som effektivitetssignaler under triering.*
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

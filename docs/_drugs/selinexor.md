@@ -29,81 +29,82 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Selinexor：資料缺口下的預測適應症 — Drug-Induced Osteoporosis
+# Selinexor: Forutsagte indikasjoner under datakløfter — Legemiddel-indusert osteoporose
 
-## 一句話摘要
+## Oppsummering i én setning
 
-> Selinexor（DrugBank ID: DB11942）目前**原始適應症與作用機轉（MOA）皆為資料缺口**，且未於台灣（Norway 註冊資料庫）取得任何藥證。
-> TxGNN 模型預測其可能對 **Drug-Induced Osteoporosis（藥物誘發性骨質疏鬆症）** 有效，
-> 但目前**沒有任何臨床試驗、沒有任何文獻**支持此關聯，純屬知識圖譜連結預測。
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | 無資料（`original_indications` 為空陣列，`original_moa` 標記為 [Data Gap]） |
-| Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.22% |
-| Evidence Level | L5（僅模型預測，無實際研究） |
-| Norway (Taiwan) Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+> Selinexor (DrugBank ID: DB11942) har for øyeblikket **manglende data for både originalindikasjon og virkningsmekanisme (MOA)**, og har ikke fått noen legemiddelgodkjenning i Taiwan (Norges registreringsdatabase).
+> TxGNN-modellen forutsier at den kan være effektiv for **Legemiddel-indusert osteoporose**,
+> men det finnes for øyeblikket **ingen kliniske forsøk, ingen litteratur** som støtter denne forbindelsen – det er rent en kunnskapsgraf-prediksjon.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-目前並無法取得 Selinexor 的詳細作用機轉資料（`original_moa` = [Data Gap]），亦無原始適應症紀錄可供比對。由於缺乏原始適應症與 MOA 資訊，無法建立「原始適應症 → 新適應症」之間的藥理學連結敘事。
-
-根據 evidence pack 中的 `repurposing_rationale.mechanistic_link` 記載：TxGNN 分數 0.992 屬於**純知識圖譜連結預測**，資料集本身並未提供支持此關聯的生物機轉描述。即便外部公開資訊可能已知 Selinexor 的藥理分類，本報告依規定僅採計 Evidence Pack 內已驗證、已引用的資料，不得逕自代入未經本資料集驗證之外部知識，因此此機轉關聯**不予採計**。
-
-換言之，此預測目前僅具有統計連結強度上的參考價值，尚無機轉層面或臨床證據層面的支持。
-
----
-
-## Clinical Trial Evidence
-
-目前無相關臨床試驗註冊。
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Ingen data (`original_indications` er tom matrise, `original_moa` merket som [Data Gap]) |
+| Forutsagt ny indikasjon | Legemiddel-indusert osteoporose |
+| TxGNN-prediksjonspoengsum | 99.22% |
+| Bevisnivå | L5 (kun modellprediksjon, ingen faktisk forskning) |
+| Norge (Taiwan) markedsstatus | Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | **Hold** |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-目前無相關文獻資料。
+Detaljert virkningsmekanismeinformasjon for Selinexor er for øyeblikket ikke tilgjengelig (`original_moa` = [Data Gap]), og det finnes heller ingen registreringer av originalindikasjoner tilgjengelig for sammenligning. Siden data om virkningsmekanisme og originalindikasjon mangler, er det ikke mulig å etablere en farmakologisk forbindelse mellom "originalindikasjon → ny indikasjon".
 
----
+I henhold til `repurposing_rationale.mechanistic_link` i bevisepakken: TxGNN-poeng på 0.992 er **ren kunnskapsgraf-koblingsprediksjon**, og datasettet selv gir ingen beskrivelse av biologiske mekanismer som støtter denne forbindelsen. Selv om ekstern offentlig informasjon muligens allerede kjenner til Selinexors farmakologiske klassifisering, krever denne rapporten i henhold til reglementene at kun data som er verifisert og sitert innenfor Evidence Pack brukes – ekstern kunnskap som ikke er verifisert av dette datasettet skal ikke substitueres direkte. Derfor vil denne mekanistiske forbindelsen **ikke bli tatt i betraktning**.
 
-## Norway (Taiwan) Market Information
-
-Selinexor 目前於本地（Norway/Taiwan 註冊系統）**Not marketed**，無任何藥證紀錄（`total_licenses` = 0），故無藥證資訊可供列表。
+Med andre ord har denne prediksjonen for øyeblikket kun referanseverdi når det gjelder statistisk forbindelsesstyrke, og mangler både mekanistisk eller klinisk evidensstøtte.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøk
 
-請參考藥品仿單以獲取安全性資訊。
-
-（`key_warnings`、`contraindications` 均標記為資料缺口，`ddi.query_status` = not_found，無藥物交互作用紀錄可供列示。）
+Det finnes for øyeblikket ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Det finnes for øyeblikket ingen relatert litteraturdata tilgjengelig.
 
-**Rationale：**
-- 本候選案目前無任何臨床試驗或文獻證據支持（Evidence Level = L5），僅為 TxGNN 模型純知識圖譜預測分數。
-- `data_gaps` 中 DG001（DMP package insert warnings/contraindications）標記為 **Blocking** 等級，依規定Cannot proceed to S1 safety screening；DG002（MOA）為 High 等級缺口，Limits mechanistic-link analysis。
-- 藥物於本地Not marketed，無實際處方或安全性使用經驗可供參考。
+---
 
-**To proceed, the following is needed：**
-- 補齊 TFDA（或對應主管機關）仿單之警語與禁忌資訊，解除 DG001 阻斷性缺口
-- 透過 DrugBank API 或其他來源補齊作用機轉（MOA）資料，解除 DG002
-- 補充原始適應症紀錄，建立與 Drug-induced osteoporosis 之機轉/臨床合理性論述
-- 檢索是否有任何臨床試驗（含 ICTRP）或同儕審查文獻可支持此適應症關聯
-- 確認藥物交互作用（DDI）資料，以利後續安全性初評（S1）
+## Norge (Taiwan) markedsinformasjon
+
+Selinexor er for øyeblikket **ikke markedsført** på det lokale markedet (Norge/Taiwan registreringssystem), uten noen legemiddelgodkjennelsesregistreringer (`total_licenses` = 0), derfor finnes det ingen godkjennelsesinformasjon tilgjengelig for opplistning.
+
+---
+
+## Sikkerhetshensyn
+
+Se legemiddelpakningsvedlegget for sikkerhetsinformasjon.
+
+(`key_warnings` og `contraindications` er begge merket som datakløfter, `ddi.query_status` = not_found, ingen legemiddelinteraksjonsregistreringer finnes for presentasjon.)
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+- Denne kandidaten mangler for øyeblikket kliniske forsøk eller litteraturbevis som støtter det (Bevisnivå = L5) – det er kun ren kunnskapsgraf-modellprediksjonspoeng.
+- I `data_gaps` er DG001 (DMP-pakningsvedlegg advarsler/kontraindikasjoner) merket som **Blocking**-nivå, som i henhold til reglene ikke tillater fortsettelse til S1-sikkerhetskontroll; DG002 (MOA) er High-nivå datakløft som begrenser mekanistisk-link-analyse.
+- Legemidlet er ikke markedsført lokalt, uten faktisk klinisk erfaring med bruk eller sikkerhetserfaringer som kan refereres til.
+
+**Følgende er nødvendig for å fortsette:**
+- Supplere TFDA (eller tilsvarende regulatorisk myndighet) pakningsvedlegget med advarsler og kontraindikasjonsinformasjon for å fjerne DG001-blokkeringen
+- Supplement virkningsmekanisme (MOA) data gjennom DrugBank API eller andre kilder for å løse DG002-kløften
+- Supplement originalindikasjonregistreringer og etabler mekanistisk/klinisk rasjonalitet for legemiddel-indusert osteoporose
+- Søk etter eventuelle kliniske forsøk (inkludert ICTRP) eller fagfellevurdert litteratur som kan støtte denne indikasjonsforbindelsen
+- Bekreft legemiddelinteraksjon (DDI) data for påfølgende sikkerhetinitialvurdering (S1)
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

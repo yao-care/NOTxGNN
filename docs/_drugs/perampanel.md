@@ -29,97 +29,98 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Perampanel: From Focal-Onset Seizures to Visual Epilepsy
+# Perampanel: Fra fokale debut-anfald til visuell epilepsi
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-> Perampanel is a third-generation antiepileptic drug used for focal-onset seizures (with or without secondary generalization) and, as an adjunct, primary generalized tonic-clonic seizures.
-> The TxGNN model predicts it may also be effective for **Visual Epilepsy** (a photosensitive reflex epilepsy subtype),
-> but the supporting evidence base — **3 clinical trials** and **20 publications** — is entirely general antiepileptic evidence for perampanel, with **none specifically studying visual/photosensitive seizures**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Focal-onset seizures (± secondary generalization); adjunctive therapy for primary generalized tonic-clonic seizures *(derived from literature context — not available from local license data; drug is not currently marketed here)* |
-| Predicted New Indication | Visual epilepsy |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Norway Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Perampanel er et tredje-generasjons antiepileptikum brukt for fokale debut-anfald (med eller uten sekundær generalisering) og som adjuvant terapi for primære generaliserte tonisk-kloniske anfald.
+> TxGNN-modellen forutsier at det også kan være effektivt for **Visuell epilepsi** (en fotosensitiv refleks-epilepsi-undertype),
+> men det supporterende bevisgrunnlaget — **3 kliniske studier** og **20 publikasjoner** — består helt og holdent av generell antiepileptika-evidens for perampanel, med **ingen som spesifikt studerer visuell/fotosensitiv anfald**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversikt
 
-Currently, detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap, DG002). Based on known information from the supporting literature, perampanel is a **selective, non-competitive AMPA-receptor antagonist** — the first approved antiepileptic drug to act via this mechanism, reducing glutamate-mediated postsynaptic excitation. It is established as a broad-spectrum antiseizure medication for focal-onset and generalized tonic-clonic seizures.
-
-Visual (photosensitive) epilepsy is a reflex epilepsy syndrome in which seizures are triggered by visual stimuli (e.g., flashing lights) acting through the same underlying cortical hyperexcitability and excessive glutamatergic transmission seen in other epilepsy subtypes. Because AMPA receptors mediate the excitatory signalling that underlies seizure generation and propagation broadly, there is a plausible mechanistic rationale for perampanel to suppress photically-triggered seizures as well.
-
-However, **no clinical trial or publication in this evidence pack specifically studies perampanel in visual/photosensitive epilepsy**. The three retrieved trials and twenty publications document perampanel's efficacy across focal-onset seizures, generalized seizures, pediatric epilepsy, and status epilepticus — general antiepileptic evidence, not disease-specific confirmation for this reflex seizure subtype. One trial (NCT03653741) does examine perampanel's effect on visual evoked potentials (VEP), but this tests a neurophysiological biomarker, not treatment efficacy against visually-triggered seizures. The prediction should therefore be read as a mechanistic hypothesis extrapolated by the model, not as an evidence-confirmed indication.
+| Emne | Innhold |
+|------|---------|
+| Original indikasjon | Fokale debut-anfald (± sekundær generalisering); adjuvant terapi for primære generaliserte tonisk-kloniske anfald *(utledet fra litteraturkontekst — ikke tilgjengelig fra lokal lisensdata; legemidlet er for øyeblikket ikke markedsført her)* |
+| Predikert ny indikasjon | Visuell epilepsi |
+| TxGNN prediksjons-score | 99.92% |
+| Bevisnivå | L5 |
+| Norges markedsstatus | Ikke markedsført (Ikke markedsført) |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+For øyeblikket er detaljert virkningsmekanisme-data ikke tilgjengelig i denne bevisprisen (flagget som høy-alvorlig datakløft, DG002). Basert på kjent informasjon fra den supporterende litteraturen er perampanel en **selektiv, ikke-konkurrerende AMPA-reseptor antagonist** — det første godkjente antiepileptikum som virker via denne mekanismen, og reduserer glutamat-formidet postsynaptisk eksitasjon. Det er etablert som et bredt-spekter antiepileptikum for fokale debut-anfald og generaliserte tonisk-kloniske anfald.
+
+Visuell (fotosensitiv) epilepsi er en refleks-epilepsi-syndrom hvor anfald utløses av visuelle stimuli (f.eks. blinkende lys) som virker gjennom samme underliggende kortikale hypereksitabilitet og overaktiv glutamaterg formidling som ses i andre epilepsi-undertyper. Fordi AMPA-reseptorer formilder eksitatorisk signalering som ligger til grunn for anfalls-generering og spredning bredt, er det en plausibel mekanistisk begrunnelse for at perampanel kan undertrykke fotoinduserte anfald også.
+
+Imidlertid **ingen klinisk studie eller publikasjon i denne bevisprisen studerer spesifikt perampanel ved visuell/fotosensitiv epilepsi**. De tre hentede studiene og tjue publikasjoner dokumenterer perampanels effektivitet på tvers av fokale debut-anfald, generaliserte anfald, pediatrisk epilepsi, og status epilepticus — generell antiepileptika-evidens, ikke sykdomsspesifikk bekreftes for denne refleks-anfalls-undertypen. En studie (NCT03653741) undersøker imidlertid perampanels effekt på visuelt evokerte potensial (VEP), men dette tester en neurofiziologisk biomarkør, ikke behandlingseffektivitet mot visuelt-utløste anfald. Prediksjonen bør derfor leses som en mekanistisk hypotese ekstrapolert av modellen, ikke som en bevis-bekreftet indikasjon.
+
+---
+
+## Klinisk studiebevis
+
+| Studienummer | Fase | Status | Deltakere | Nøkkelfunn |
 |---------|------|------|------|---------|
-| [NCT03780907](https://clinicaltrials.gov/study/NCT03780907) | Phase 2 | Completed | 18 | Tolerability, safety, and pharmacokinetics of perampanel in patients with refractory partial or generalised seizures; general epilepsy population, not visual-seizure specific |
-| [NCT03653741](https://clinicaltrials.gov/study/NCT03653741) | Phase 4 | Completed | 12 | Examined perampanel's effect on neurophysiology tests (EEG, SEP, BAEP, and **VEP**) in healthy volunteers — tests a biomarker, not treatment of visually-triggered seizures |
-| [NCT02900755](https://clinicaltrials.gov/study/NCT02900755) | Phase 4 | Completed | 30 | Evaluated cognition and EEG effects of perampanel as a newly authorized AED with a novel AMPA-antagonist mechanism; general refractory partial-onset seizure population |
+| [NCT03780907](https://clinicaltrials.gov/study/NCT03780907) | Fase 2 | Fullført | 18 | Tolerabilitet, sikkerhet og farmakokinetikk for perampanel hos pasienter med refraktær partiell eller generaliserte anfald; generell epilepsi-befolkning, ikke visuell-anfalls-spesifikk |
+| [NCT03653741](https://clinicaltrials.gov/study/NCT03653741) | Fase 4 | Fullført | 12 | Undersøkte perampanels effekt på neurofiziologiske tester (EEG, SEP, BAEP, og **VEP**) hos friske frivillige — tester en biomarkør, ikke behandling av visuelt-utløste anfald |
+| [NCT02900755](https://clinicaltrials.gov/study/NCT02900755) | Fase 4 | Fullført | 30 | Evaluerte kognisjon og EEG-effekter av perampanel som et nylig godkjent antiepileptikum med en novelleiere AMPA-antagonist-mekanisme; generell refraktær partiell-debut-anfalls-befolkning |
 
-*Note: none of the above trials specifically enrolled or evaluated patients with visual/photosensitive epilepsy.*
+*Merknad: ingen av studiene ovenfor inkluderte eller evaluerte spesifikt pasienter med visuell/fotosensitiv epilepsi.*
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Nøkkelfunn |
 |------|-----|------|------|---------|
-| [37059702](https://pubmed.ncbi.nlm.nih.gov/37059702/) | 2023 | Cochrane Systematic Review | Cochrane Database Syst Rev | Add-on perampanel for drug-resistant focal epilepsy; general efficacy/safety evidence base |
-| [36206645](https://pubmed.ncbi.nlm.nih.gov/36206645/) | 2022 | Systematic Review & Meta-analysis of RCTs | Seizure | Confirms efficacy and safety of perampanel across focal and primary generalized tonic-clonic seizures |
-| [35061214](https://pubmed.ncbi.nlm.nih.gov/35061214/) | 2022 | Network Meta-analysis | Drugs | Compares third-generation ASMs (including perampanel) for adjunctive treatment of focal-onset seizures |
-| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | Systematic Review & Network Meta-analysis | J Neurol | Evaluates ASMs, including perampanel, for idiopathic generalized epilepsies |
-| [36878742](https://pubmed.ncbi.nlm.nih.gov/36878742/) | 2023 | Systematic Review & Meta-analysis | Brain Dev | Efficacy, tolerability, and safety of perampanel in children/adolescents with epilepsy |
-| [29898971](https://pubmed.ncbi.nlm.nih.gov/29898971/) | 2018 | Practice Guideline | Neurology | AAN/AES update on efficacy/tolerability of newer AEDs, including perampanel, for new-onset epilepsy |
-| [24559052](https://pubmed.ncbi.nlm.nih.gov/24559052/) | 2014 | Review (MOA & development) | Expert Opin Drug Discov | Describes perampanel as first AMPA-receptor antagonist AED; approved in 35+ countries for partial-onset seizures |
-| [36150304](https://pubmed.ncbi.nlm.nih.gov/36150304/) | 2022 | Review (Clinical trial + real-world) | Epilepsy Behav | Reviews perampanel monotherapy for focal-onset and generalized tonic-clonic seizures |
-| [37684052](https://pubmed.ncbi.nlm.nih.gov/37684052/) | 2023 | Review | BMJ | General ASM safety profile discussion including perampanel, in pregnancy/lactation context |
-| [38602656](https://pubmed.ncbi.nlm.nih.gov/38602656/) | 2024 | Preclinical/Mechanism Study | Mol Neurobiol | Investigates perampanel's effect on autophagy-mediated GluA2/PSD95 regulation in epilepsy models |
+| [37059702](https://pubmed.ncbi.nlm.nih.gov/37059702/) | 2023 | Cochrane systematisk gjennomgang | Cochrane Database Syst Rev | Tilleggsbehandling perampanel for legemiddelresistent fokal epilepsi; generell effektivitets-/sikkerhets-evidensbase |
+| [36206645](https://pubmed.ncbi.nlm.nih.gov/36206645/) | 2022 | Systematisk gjennomgang & meta-analyse av RCTs | Seizure | Bekrefter effektivitet og sikkerhet for perampanel på tvers av fokal og primær generalisert tonisk-klonisk anfald |
+| [35061214](https://pubmed.ncbi.nlm.nih.gov/35061214/) | 2022 | Nettverks meta-analyse | Drugs | Sammenligner tredje-generasjons antiepileptika (inkludert perampanel) for adjuvant behandling av fokale debut-anfald |
+| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | Systematisk gjennomgang & nettverks meta-analyse | J Neurol | Evaluerer antiepileptika, inkludert perampanel, for idiopatisk generalisert epilepsi |
+| [36878742](https://pubmed.ncbi.nlm.nih.gov/36878742/) | 2023 | Systematisk gjennomgang & meta-analyse | Brain Dev | Effektivitet, tolerabilitet og sikkerhet for perampanel hos barn/ungdom med epilepsi |
+| [29898971](https://pubmed.ncbi.nlm.nih.gov/29898971/) | 2018 | Praksisveiledning | Neurology | AAN/AES-oppdatering om effektivitet/tolerabilitet av nyere antiepileptika, inkludert perampanel, for nyoppstått epilepsi |
+| [24559052](https://pubmed.ncbi.nlm.nih.gov/24559052/) | 2014 | Gjennomgang (virkningsmekanisme & utvikling) | Expert Opin Drug Discov | Beskriver perampanel som første AMPA-reseptor antagonist antiepileptikum; godkjent i 35+ land for partiell-debut-anfald |
+| [36150304](https://pubmed.ncbi.nlm.nih.gov/36150304/) | 2022 | Gjennomgang (klinisk studie + real-world) | Epilepsy Behav | Gjennomgang av perampanel monoterapi for fokal-debut og generalisert tonisk-klonisk anfald |
+| [37684052](https://pubmed.ncbi.nlm.nih.gov/37684052/) | 2023 | Gjennomgang | BMJ | Generell antiepileptika-sikkerhetsprofil-diskusjon inkludert perampanel, i graviditet/ammingskontekst |
+| [38602656](https://pubmed.ncbi.nlm.nih.gov/38602656/) | 2024 | Preklinisk/mekanisme-studie | Mol Neurobiol | Undersøker perampanels effekt på autofagi-formidet GluA2/PSD95-regulering i epilepsi-modeller |
 
-*None of the above directly study visual/photosensitive epilepsy as a distinct indication.*
-
----
-
-## Norway Market Information
-
-Perampanel is currently **not marketed** in this jurisdiction (market status: Not marketed; 0 authorizations on record), so no license/product table is available.
+*Ingen av de ovenfor studerer direkte visuell/fotosensitiv epilepsi som en distinkt indikasjon.*
 
 ---
 
-## Safety Considerations
+## Norges markedsinformasjon
 
-Please refer to the package insert for safety information. *(Key warnings, contraindications, and drug-drug interaction data are flagged in the evidence pack as a Blocking data gap — DG001 — preventing a formal S1 safety review at this time.)*
+Perampanel er for øyeblikket **ikke markedsført** i denne juridiksjonen (markedsstatus: Ikke markedsført; 0 autorisasjoner på opptak), så ingen lisens-/produkttabell er tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. *(Nøkkeladvarsler, kontraindikasjoner og legemiddel-legemiddel interaksjon-data er flagget i bevisprisen som en blokkerende datakløft — DG001 — som forhindrer en formell S1-sikkerhetsvurdering på dette tidspunktet.)*
 
-**Rationale:**
-- The TxGNN score for visual epilepsy is high, but no clinical trial or publication in the evidence pack directly studies perampanel in this photosensitive reflex epilepsy subtype — all supporting evidence is general antiepileptic data, meeting only L5 (model prediction without disease-specific study). This mirrors the pattern seen across most other reflex-epilepsy predictions in this evidence pack (startle, orgasm-induced, audiogenic, micturition-induced, eating, thinking, reading seizures — all also scored L5/Hold).
-- Separately, a Blocking data gap (DG001: missing local label warnings/contraindications) means this candidate cannot yet proceed to a formal S1 safety review regardless of indication-level evidence.
-- For context: among the 10 predicted indications in this pack, **status epilepticus** (rank 10) shows substantially stronger, disease-specific evidence (systematic reviews, cohort studies, and 5 dedicated clinical trials) and was independently scored L3 / "Proceed with Guardrails" — this may be a more promising repurposing candidate to prioritize ahead of visual epilepsy.
+---
 
-**To proceed, the following is needed:**
-- Retrieve local (TFDA-equivalent) label warnings/contraindications to close DG001 before any safety review
-- Obtain confirmed MOA documentation from DrugBank to close DG002
-- Seek disease-specific preclinical or clinical evidence (e.g., photosensitivity/EEG photoparoxysmal response models) before advancing the visual epilepsy indication further
-- Consider re-scoping repurposing priority toward status epilepticus, which has materially stronger direct evidence
+## Konklusjon og neste skritt
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+- TxGNN-poengsum for visuell epilepsi er høy, men ingen klinisk studie eller publikasjon i bevisprisen studerer spesifikt perampanel ved denne fotosensitive refleks-epilepsi-undertypen — all supporterende evidens er generell antiepileptika-data, som oppfyller bare L5 (modellpreduksjon uten sykdomsspesifikk studie). Dette speiler mønsteret sett på tvers av de fleste andre refleks-epilepsi-prediksjoner i denne bevisprisen (startle-, orgasme-indusert, audiogen, miksjon-indusert, spis-, tanke-, lese-anfald — alle også skåret L5/Avvent).
+- Separat, en blokkerende datakløft (DG001: manglende lokal etikettadvarsler/kontraindikasjoner) betyr at denne kandidaten ikke kan gå videre til formell S1-sikkerhetsvurdering uavhengig av indikasjon-nivå evidens.
+- For kontekst: blant de 10 predikerte indikasjonene i denne prisen, **status epilepticus** (rangering 10) viser vesentlig sterkere, sykdomsspesifikk evidens (systematiske gjennomganger, kohortstudier, og 5 dedikerte kliniske studier) og ble uavhengig skåret L3 / "Fortsett med sikringsmekanismer" — dette kan være en mer lovende repurposing-kandidat å prioritere foran visuell epilepsi.
+
+**For å gå videre kreves følgende:**
+- Hent lokal (TFDA-ekvivalent) etikettadvarsler/kontraindikasjoner for å lukke DG001 før noen sikkerhetsvurdering
+- Oppnå bekreftet virkningsmekanisme-dokumentasjon fra DrugBank for å lukke DG002
+- Søk sykdomsspesifikk preklinisk eller klinisk evidens (f.eks. fotosensitivitet/EEG-fotoparoksysmal respons-modeller) før du fremskynder visuell epilepsi-indikasjon videre
+- Vurder omfang av repurposing-prioritet mot status epilepticus, som har materielt sterkere direkte evidens
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

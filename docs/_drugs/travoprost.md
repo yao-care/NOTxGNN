@@ -29,76 +29,77 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Travoprost: From Open-Angle Glaucoma/Ocular Hypertension to Visceral Calciphylaxis
+# Travoprost: Fra åpen vinkelglaukom/okulær hypertensjon til viskeral kalsifilaksi
 
-## One-Sentence Summary
+## Oppsummering i en setning
 
-> Travoprost is a prostaglandin F2α (FP receptor) analogue used topically for open-angle glaucoma and ocular hypertension (inferred from clinical trial context, as no `original_indications` were recorded).
-> The TxGNN model's top prediction is **Visceral Calciphylaxis**,
-> but this candidate currently has **0 clinical trials** and **0 publications** supporting it — the score reflects graph-embedding similarity only, with no mechanistic or clinical corroboration.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Open-angle glaucoma / ocular hypertension (inferred from trial evidence; not present in `taiwan_regulatory.licenses`) |
-| Predicted New Indication | Visceral Calciphylaxis |
-| TxGNN Prediction Score | 99.9998% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Travoprost er en prostaglandin F2α (FP-reseptor) analogon som brukes topikalt ved åpen vinkelglaukom og okulær hypertensjon (utledet fra klinisk forsøkskontekst, da ingen `original_indications` ble registrert).
+> TxGNN-modellens toppprediksjon er **viskeral kalsifilaksi**,
+> men denne kandidaten har for tiden **0 kliniske forsøk** og **0 publikasjoner** som støtter den — poenget gjenspeiler bare innebygningslikhet i kunnskapsgrafen, uten mekanistisk eller klinisk bekrefting.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversikt
 
-Currently, detailed mechanism of action data is not available (`original_moa`: [Data Gap]). Based on known pharmacology, travoprost is a synthetic prostaglandin F2α analogue and FP receptor agonist; its established clinical use is lowering intraocular pressure via increased uveoscleral outflow in glaucoma/ocular hypertension.
-
-For the top-ranked candidate, **visceral calciphylaxis**, the evidence pack's own rationale explicitly states there is no direct or indirect clinical evidence, and no known mechanistic link — calciphylaxis pathology centers on vascular calcification and microthrombosis, which is not connected to FP receptor signaling. The high TxGNN score reflects graph-embedding similarity in the knowledge graph, not a validated pharmacological hypothesis.
-
-It is worth noting that among the other nine predicted indications in this pack, only rank 5 ("vascular disease") has any clinical trial/literature attached, and even those are indirect (ocular vasoactivity findings, hyperemia adverse-event studies) rather than treatment evidence for a systemic vascular disease. Rank 10 ("hemangioendothelioma") is supported only by a case report of travoprost-induced uveal effusion — an adverse-event signal, not a therapeutic one. None of the ten predictions in this pack currently meet a credible mechanistic or clinical bar.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Åpen vinkelglaukom / okulær hypertensjon (utledet fra forsøksbevis; ikke til stede i `taiwan_regulatory.licenses`) |
+| Forutsatt ny indikasjon | Viskeral kalsifilaksi |
+| TxGNN-prediksjonspoeng | 99.9998% |
+| Bevisnivå | L5 (modellprediksjon bare, ingen støttende studier) |
+| Markedsstatus Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+For tiden er detaljerte mekanisme-for-handling-data ikke tilgjengelig (`original_moa`: [Data Gap]). Basert på kjent farmakologi er travoprost en synttetisk prostaglandin F2α-analogon og FP-reseptor-agonist; dens etablerte kliniske bruk er senking av intraokulært trykk via økt uveoskleralt utflytning ved glaukom/okulær hypertensjon.
 
----
+For den topprangerte kandidaten, **viskeral kalsifilaksi**, sier bevispakningen selv at det ikke finnes direkte eller indirekte kliniske bevis, og ingen kjent mekanistisk forbindelse — kalsifilakspatologi sentrerer seg rundt vaskulær kalsinering og mikrotromboser, som ikke er forbundet med FP-reseptor-signalering. Den høye TxGNN-poenget gjenspeiler innebygningslikhet i kunnskapsgrafen, ikke en validert farmakologisk hypotese.
 
-## Norway Market Information
-
-Travoprost currently has no marketing authorization on record (`market_status`: Not marketed / Not marketed; `total_licenses`: 0). No license entries are available to summarize.
+Det er verdt å merke at blant de ni andre forutsatte indikasjonene i denne pakken, bare rang 5 («vaskulær sykdom») har noe klinisk forsøk/litteratur vedlagt, og selv de er indirekte (okulær vasoaktivitetsfunn, hyperemiaadverseffektstudier) i stedet for behandlingsbevis for en systemisk vaskulær sykdom. Rang 10 («hemangioendoteliom») støttes bare av en kasuistikk om travoprost-indusert uveaeffusjon — et bivirkningssignal, ikke ett terapeutisk. Ingen av de ti prediksjoner i denne pakken møter for tiden en troverdig mekanistisk eller klinisk standard.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøksbevis
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are all currently unavailable — see data gaps DG001/DG002 below.)
+For tiden er det ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For tiden er det ingen relatert litteratur tilgjengelig.
 
-**Rationale:**
-The top-ranked prediction (visceral calciphylaxis) has zero clinical trials, zero literature, and an explicitly stated absence of mechanistic plausibility in the evidence pack itself — this is a pure model-similarity signal (L5) with no corroborating evidence of any kind.
+---
 
-**To proceed, the following is needed:**
-- TFDA label warnings/contraindications (DG001, Blocking — currently blocks S1 safety screening)
-- Verified mechanism of action data from DrugBank (DG002, High priority)
-- Preclinical or mechanistic studies linking FP receptor agonism to vascular calcification pathology
-- If pursuing rank 5 ("vascular disease") instead, systemic (non-ocular) pharmacokinetic/exposure data, since current evidence is limited to topical ocular effects
+## Markedsinformasjon Norge
+
+Travoprost har for tiden ingen markedsføringstillatelse på posten (`market_status`: Ikke markedsført / Ikke markedsført; `total_licenses`: 0). Ingen lisensoppføringer er tilgjengelige å oppsummere.
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og legemiddelinteraksjonsdata er alle for tiden utilgjengelige — se datastykker DG001/DG002 nedenfor.)
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Den topprangerte prediksjonen (viskeral kalsifilaksi) har null kliniske forsøk, null litteratur, og en eksplisitt oppgitt mangel på mekanistisk troverdighet i bevispakningen selv — dette er et rent modell-likhetssignal (L5) uten noen form for bekreftet bevis.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA-etikettvarsler/kontraindikasjoner (DG001, Blokkering — blokkerer for tiden S1 sikkerhetskontroll)
+- Verifisert mekanisme-for-handling-data fra DrugBank (DG002, Høy prioritet)
+- Prekliniske eller mekanistiske studier som knytter FP-reseptor-agonisme til vaskulær kalsinerings-patologi
+- Hvis man forfølger rang 5 («vaskulær sykdom») i stedet, systemisk (ikke-okulær) farmakokinetisk/eksponeringsdata, siden gjeldende bevis er begrenset til topikale okulære effekter
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

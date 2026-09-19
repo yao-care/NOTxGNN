@@ -29,92 +29,91 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-Using the drug-repurposing evaluation report format to produce the Norway-market evidence pack report for Interferon Beta-1b.
+# Interferon Beta-1b: Fra multippel sklerose (etablert bruk) til hårete celleleukemi
 
-# Interferon Beta-1b: From Multiple Sclerosis (Established Use) to Hairy Cell Leukemia
+## Sammendrag i én setning
 
-## One-Sentence Summary
-
-> Interferon beta-1b is a Type I interferon whose established clinical use — per the mechanistic evidence in this pack — is in multiple sclerosis; formal regulatory records for original indication and market authorization are not available in this dataset.
-> The TxGNN model predicts a repurposing signal for **Hairy Cell Leukemia**,
-> currently supported by **0 registered clinical trials** and **4 older publications (1987–1990)**, with no Norway market presence on file.
+> Interferon beta-1b er et type I interferon hvis etablerte kliniske bruk — basert på den mekanistiske evidensen i denne pakken — er ved multippel sklerose; formelle regulatoriske journaler for originalindikasjon og markedsautilgang er ikke tilgjengelige i dette datasettet.
+> TxGNN-modellen predikerer et repurposing-signal for **hårete celleleukemi**,
+> som for tiden støttes av **0 registrerte kliniske forsøk** og **4 eldre publikasjoner (1987–1990)**, med ingen kjent markedstilstedeværelse i Norge.
 
 ---
 
-## Quick Overview
+## Hurtig oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in regulatory dataset (0 licenses on file; see Data Gap DG001) |
-| Predicted New Indication | Hairy Cell Leukemia |
-| TxGNN Prediction Score | 99.16% |
-| Evidence Level | L3 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism-of-action data for this drug is currently not available (Data Gap DG002). Based on the mechanistic rationale supplied with this evidence pack, interferon beta-1b is a Type I interferon (IFN-β) with antiproliferative and immune-modulatory activity, signaling through the IFNAR receptor pathway. It belongs to the same Type I interferon family as interferon alpha, which is an already-established treatment for hairy cell leukemia.
-
-The rationale for this prediction rests on drug-class analogy rather than a direct indication overlap: because IFN-α and IFN-β share the same receptor and downstream antiproliferative signaling in lymphoid/myeloid precursor cells, IFN-β-1b's activity against hairy cell leukemia has biological plausibility. This is corroborated by older clinical literature (1987–1990) directly testing IFN-β-ser in hairy cell leukemia patients, some of whom had failed or preceded standard alpha-interferon therapy.
-
-However, this body of evidence predates modern standard-of-care agents for hairy cell leukemia (e.g., purine analogues such as cladribine/pentostatin), and no clinical trials have been registered on ClinicalTrials.gov to re-confirm this signal in a contemporary setting. The prediction should therefore be read as a plausible, mechanistically grounded hypothesis rather than a validated repurposing pathway.
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Ikke tilgjengelig i regulatorisk datasett (0 lisenser på fil; se datakløft DG001) |
+| Predikert ny indikasjon | Hårete celleleukemi |
+| TxGNN prediksjonspoeng | 99.16% |
+| Evidensnivå | L3 |
+| Markedsstatus Norge | Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related clinical trials registered.
+Detaljerte mekanisme-for-handling-data for dette legemidlet er for tiden ikke tilgjengelige (datakløft DG002). Basert på den mekanistiske begrunnelsen som følger med denne evidenspakken, er interferon beta-1b et type I interferon (IFN-β) med antiproliferativ og immunmodulatorisk aktivitet, som signaliserer gjennom IFNAR-reseptorbanen. Det tilhører samme type I interferon-familie som interferon alfa, som allerede er en etablert behandling for hårete celleleukemi.
+
+Begrunnelsen for denne prediksjonen hviler på medikamentklasse-analogi snarere enn overlappende indikasjoner: fordi IFN-α og IFN-β deler samme reseptor og påfølgende antiproliferativ signalering i lymfoid-/myeloid-forløperceller, har IFN-β-1b's aktivitet mot hårete celleleukemi biologisk plausibilitet. Dette understøttes av eldre klinisk litteratur (1987–1990) som direkte tester IFN-β-ser hos pasienter med hårete celleleukemi, noen av dem hadde mislyktes eller gikk forut for standard alfa-interferon-terapi.
+
+Imidlertid stammer denne litteraturen fra før moderne standard-of-care-virkemidler for hårete celleleukemi (f.eks. purinanaloga som cladribine/pentostatin), og ingen kliniske forsøk har blitt registrert på ClinicalTrials.gov for å bekrefte dette signalet på nytt i en samtidig setting. Prediksjonen bør derfor leses som en plausibel, mekanistisk begrunnet hypotese snarere enn en validert repurposing-vei.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøkseviden
 
-| PMID | Year | Type | Journal | Key Findings |
+For tiden ingen relaterte kliniske forsøk registrert.
+
+---
+
+## Litteratureviden
+
+| PMID | År | Type | Tidsskrift | Nøkkelfunn |
 |------|-----|------|------|---------|
-| [2736487](https://pubmed.ncbi.nlm.nih.gov/2736487/) | 1989 | Prospective comparative study | Cancer | 10 HCL patients treated with recombinant IFN-β-ser (90×10⁶ U SC, 3x/week); 63% normalized peripheral blood counts, 25% partial hematologic improvement, compared prospectively with IFN-α outcomes. |
-| [2198792](https://pubmed.ncbi.nlm.nih.gov/2198792/) | 1990 | Case series (post-IFN failure) | American Journal of Clinical Oncology | 3 HCL patients who failed IFN-α or IFN-β achieved complete response with pentostatin (DCF), demonstrating a salvage option after IFN-β failure. |
-| [2082943](https://pubmed.ncbi.nlm.nih.gov/2082943/) | 1990 | Case series/small trial | American Journal of Hematology | 12 heavily pretreated HCL patients (90–100% marrow hairy cells) treated with IV beta-ser IFN 90 MU 3x/week; describes dosing and tolerability. |
-| [3312839](https://pubmed.ncbi.nlm.nih.gov/3312839/) | 1987 | Retrospective cohort/experience | Leukemia | UCLA experience across 51 HCL patients on type I IFN trials; hematologic improvement in ~71% of patients starting recombinant beta-ser-IFN, comparable to alpha-IFN response rates. |
+| [2736487](https://pubmed.ncbi.nlm.nih.gov/2736487/) | 1989 | Prospektiv komparativ studie | Cancer | 10 HCL-pasienter behandlet med rekombinant IFN-β-ser (90×10⁶ U SC, 3x/uke); 63% normaliserte periferalt blodtall, 25% delvis hematologisk forbedring, sammenlignet prospektivt med IFN-α-resultater. |
+| [2198792](https://pubmed.ncbi.nlm.nih.gov/2198792/) | 1990 | Kasusserie (post-IFN-β-svikt) | American Journal of Clinical Oncology | 3 HCL-pasienter som ikke responderte på IFN-α eller IFN-β oppnådde fullstendig respons med pentostatin (DCF), som demonstrerer et redningsalternativ etter IFN-β-svikt. |
+| [2082943](https://pubmed.ncbi.nlm.nih.gov/2082943/) | 1990 | Kasusserie/liten studie | American Journal of Hematology | 12 tungt forbehandlede HCL-pasienter (90–100% hårete benmarksceller) behandlet med IV beta-ser IFN 90 MU 3x/uke; beskriver dosering og tolerabilitet. |
+| [3312839](https://pubmed.ncbi.nlm.nih.gov/3312839/) | 1987 | Retrospektiv kohort/erfaring | Leukemia | UCLA-erfaring fra 51 HCL-pasienter på type I IFN-forsøk; hematologisk forbedring hos ~71% av pasienter som startet rekombinant beta-ser-IFN, sammenlignbar med alfa-IFN-responsrater. |
 
 ---
 
-## Norway Market Information
+## Markedsinformasjon Norge
 
-This product currently has no authorization records on file in Norway (0 licenses; market status: Not Marketed).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Dette produktet har for tiden ingen godkjenningsregistreringer på fil i Norge (0 lisenser; markedsstatus: Ikke markedsført).
 
 ---
 
-## Additional Signal (Supplementary): Autoimmune Disease of the Central Nervous System
+## Sikkerhetshensyn
 
-Separately from the primary repurposing candidate above, this evidence pack also contains a second, much stronger-evidence prediction for interferon beta-1b: **autoimmune disease of central nervous system** (TxGNN score 99.02%), supported by **24 clinical trials** (including multiple completed Phase 3/Phase 4 studies such as BENEFIT and BENEFIT 11, n=278–2,878) and **18 publications**, including a Cochrane network meta-analysis. Evidence level is **L1**, decision stage **S3**, with a pack-recommended decision of **Proceed with Guardrails**.
-
-This signal is consistent with interferon beta-1b's mechanistic rationale of modulating Th1/Th17–Treg balance and inhibiting T-cell migration across the blood–brain barrier — the established mode of action in multiple sclerosis — and most likely reflects confirmation of an already well-established therapeutic use rather than a novel repurposing opportunity. It is noted here for completeness but is not the subject of this report's primary Go/Hold decision, since it does not represent a new indication.
+Vennligst se pakkeseddelen for sikkerhetsinformasjon.
 
 ---
 
-## Conclusion and Next Steps
+## Tilleggssignal (supplerende): Autoimmun sykdom i sentralnervesystemet
 
-**Decision: Hold**
+Separat fra den primære repurposing-kandidaten ovenfor, inneholder denne evidenspakken også en andre, meget sterkere-evidens-prediksjon for interferon beta-1b: **autoimmun sykdom i sentralnervesystemet** (TxGNN-poeng 99.02%), støttet av **24 kliniske forsøk** (inkludert flere fullførte fase 3/fase 4-studier som BENEFIT og BENEFIT 11, n=278–2,878) og **18 publikasjoner**, inkludert en Cochrane-nettverksmetaanalyse. Evidensnivå er **L1**, beslutningsstadium **S3**, med anbefaling om **Gå videre med sikringstiltak**.
 
-**Rationale:**
-The hairy cell leukemia signal rests entirely on small, decades-old (1987–1990) case series and cohort literature with no registered clinical trials and no evidence generated against modern standard-of-care comparators. Combined with the L3 evidence level and "Research Question" stage flagged in the source data, the evidence is insufficient to justify proceeding at this time.
+Dette signalet er i samsvar med interferon beta-1b's mekanistiske begrunnelse for modulering av Th1/Th17–Treg-balanse og inhibering av T-cellemigrering over blod-hjerne-barrieren — den etablerte virkemåten ved multippel sklerose — og gjenspeiler sannsynligvis bekreftelsen av en allerede etablert terapeutisk bruk snarere enn en ny repurposing-mulighet. Det noteres her for fullstendighet, men er ikke gjenstand for denne rapportens primære Go/Hold-beslutning, siden det ikke representerer en ny indikasjon.
 
-**To proceed, the following is needed:**
-- TFDA/Norway package insert data — warnings, contraindications, DDI (Data Gap DG001, currently blocking safety screening)
-- Confirmed mechanism-of-action documentation (Data Gap DG002)
-- Contemporary clinical trial data for interferon beta-1b in hairy cell leukemia, ideally benchmarked against purine analogue therapy
-- Route-of-administration compatibility assessment (currently "pending" in the evidence pack)
-- Confirmation of original approved indication(s) and market history, which are currently absent from the regulatory dataset
+---
+
+## Konklusjon og neste skritt
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Hårete celleleukemi-signalet hviler helt på små, tiår gamle (1987–1990) kasusserier og kohortlitteratur med ingen registrerte kliniske forsøk og ingen evidens generert mot moderne standard-of-care-sammenligninger. Kombinert med L3-evidensnivået og «Forskningsspørsmål»-stadiet flagget i kildedata, er evidensen utilstrekkelig til å rettferdiggjøre å gå videre på dette tidspunktet.
+
+**For å gå videre kreves følgende:**
+- TFDA/Norge-pakkeseddel-data — advarsler, kontraindikasjoner, DDI (datakløft DG001, som for tiden blokkerer sikkerhetskontroll)
+- Bekreftet mekanisme-for-handling-dokumentasjon (datakløft DG002)
+- Samtidig klinisk forsøksdata for interferon beta-1b ved hårete celleleukemi, ideelt sammenlignet med purinanaloga-terapi
+- Vurdering av administrasjonsrute-kompatibilitet (for tiden «venter» i evidenspakken)
+- Bekrefting av opprinnelig godkjent indikasjon(er) og markedshistorie, som for tiden mangler fra det regulatoriske datasettet
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

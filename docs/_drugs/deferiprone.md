@@ -29,88 +29,89 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Deferiprone: From Transfusional Iron Overload (Thalassemia) to Hepatic Porphyria
+# Deferiprone: Fra transfusjonsavhengig jernoverbelastning (thalassemia) til hepatisk porfiria
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Deferiprone is an oral iron chelator internationally approved (as Ferriprox) for transfusion-dependent iron overload in thalassemia; it is not currently marketed in Norway.
-> The TxGNN model's top-ranked new indication is **Hepatic Porphyria**, based on the shared mechanism of iron-catalyzed porphyrin toxicity.
-> Currently only **2 preclinical (animal model) publications** support this direction — **no clinical trials** and **no human data** are available.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Transfusion-dependent iron overload in thalassemia (internationally approved as Ferriprox; not present in Norway regulatory dataset) |
-| Predicted New Indication | Hepatic Porphyria |
-| TxGNN Prediction Score | 99.20% |
-| Evidence Level | L4 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Deferiprone er en oral jernkelator som er internasjonalt godkjent (som Ferriprox) for transfusjonsavhengig jernoverbelastning ved thalassemia; det er for øyeblikket ikke markedsført i Norge.
+> TxGNN-modellens topprangerte nye indikasjon er **hepatisk porfiria**, basert på den delte mekanismen for jernkatalysert porfyrintoksisitet.
+> For øyeblikket støtter bare **2 prekliniske (dyremodell) publikasjoner** denne retningen — **ingen kliniske forsøk** og **ingen menneskelige data** er tilgjengelige.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available. Based on known information, deferiprone is an oral trivalent-iron (Fe³⁺) chelator, whose efficacy in transfusional iron overload (thalassemia) has been proven and is the basis of its Ferriprox approval.
-
-The pathophysiology of certain hepatic porphyrias (particularly congenital erythropoietic porphyria and porphyria cutanea tarda) involves iron-catalyzed oxidation of porphyrin precursors, which drives hemolysis and skin photosensitivity. Mechanistically, removing catalytic free iron via chelation could plausibly reduce this oxidative injury — this is the rationale TxGNN is drawing on.
-
-However, the two supporting publications are murine model studies of CEP and PCT specifically, not the broader "hepatic porphyria" category used in this prediction, and no human clinical data exist. The mechanistic link is biologically credible but remains unproven in patients.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Transfusjonsavhengig jernoverbelastning ved thalassemia (internasjonalt godkjent som Ferriprox; ikke til stede i Norges reguleringsdata) |
+| Forutsagt ny indikasjon | Hepatisk porfiria |
+| TxGNN prediksjonspoeng | 99.20% |
+| Bevisnivå | L4 |
+| Norges markedsstatus | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Preclinical (murine CEP model) | Blood | Iron chelation rescued hemolytic anemia and skin photosensitivity in a congenital erythropoietic porphyria mouse model |
-| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Preclinical (murine PCT model) | Hepatology | Oral iron chelator (deferiprone/L1) reduced hepatic uroporphyrin accumulation in Hfe⁻/⁻ mice, comparable to iron-deficient diet |
+For øyeblikket er detaljert mekanisme-data ikke tilgjengelig. Basert på kjent informasjon er deferiprone en oral trivalent-jern (Fe³⁺) kelator, hvis effektivitet ved transfusjonsavhengig jernoverbelastning (thalassemia) er bevist og er grunnlaget for dens Ferriprox-godkjenning.
 
----
+Patofysiologien for visse hepatiske porfirier (særlig medfødt erytropoietisk porfiria og porfiria cutanea tarda) innebærer jernkatalysert oksydering av porfyrinprekursorer, som driver hemolytisk anemi og hudfototoksisitet. Mekanistisk kunne fjerning av katalytisk fritt jern via kelatering plausibelt redusere denne oksidative skaden — dette er rasjonalet TxGNN tegner på.
 
-## Norway Market Information
-
-Currently not marketed in Norway; no authorization records available (0 licenses).
+Imidlertid er de to støttende publikasjonene murine modelstudier av CEP og PCT spesifikt, ikke den bredere "hepatisk porfiria"-kategorien som brukes i denne prediksjonen, og ingen menneskelig klinisk data finnes. Den mekanistiske forbindelsen er biologisk troverdig, men gjenstår ubevist hos pasienter.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøk
 
-Please refer to the package insert for safety information.
-
-> **Note:** TFDA-equivalent label warnings/contraindications (DG001, Blocking severity) and detailed MOA data (DG002, High severity) are currently identified data gaps and must be resolved before any S1 safety pre-assessment can proceed.
+For øyeblikket ingen relaterte kliniske forsøk registrert
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
-
-**Rationale:**
-Evidence for hepatic porphyria is limited to two preclinical animal studies on CEP/PCT specifically, not the broader "hepatic porphyria" category; no human trials exist, and blocking safety data gaps (label warnings, contraindications) prevent a safety pre-assessment. The drug is also not currently marketed in Norway.
-
-**To proceed, the following is needed:**
-- TFDA/Norwegian-equivalent label warnings and contraindications (DG001 — blocking)
-- Detailed mechanism of action data (DG002)
-- Human clinical evidence specific to hepatic porphyria (ideally CEP/PCT patient cohorts, not just animal models)
-- Confirmation of Norway regulatory/marketing pathway, since the drug currently has zero local authorizations
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|---------|---------|
+| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Preklinisk (murin CEP-modell) | Blood | Jernkelatering reddet hemolytisk anemi og hudfototoksisitet i en medfødt erytropoietisk porfiria-musemodell |
+| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Preklinisk (murin PCT-modell) | Hepatology | Oral jernkelator (deferiprone/L1) reduserte hepatisk uroporfyrinakkumulasjon i Hfe⁻/⁻ mus, sammenlignbar med jernfattig diett |
 
 ---
 
-**Additional context on other candidates in this evidence pack:**
-- **Beta-thalassemia with other manifestations (rank 8, L1, Proceed with Guardrails)** is not a *new* indication — the rationale text confirms this reflects deferiprone's existing Ferriprox on-label use for transfusional iron overload.
-- **Ranks 2–6, 9** (idiopathic copper-associated cirrhosis, hepatoportal sclerosis, early-onset familial noncirrhotic portal hypertension, hepatopulmonary syndrome, primitive portal vein thrombosis, hereditary pyropoikilocytosis) are **L5, no supporting literature/trials**, and the rationale text for several explicitly flags them as likely false positives (e.g., copper chelation is mechanistically weak for deferiprone). These should not be pursued without independent evidence.
-- **Pyruvate kinase deficiency (rank 7, L4)** has a plausible secondary iron-overload rationale but no literature/trial support in this dataset — same "Research Question" status as the primary candidate above.
+## Norges markedsinformasjon
+
+For øyeblikket ikke markedsført i Norge; ingen autorisasjonsregistre tilgjengelig (0 lisenser).
+
+---
+
+## Sikkerhetshensyn
+
+Se pakkevedlegget for sikkerhetsinformasjon.
+
+> **Merknad:** TFDA-ekvivalente etikettadvarsler/kontraindikasjoner (DG001, Blocking severity) og detaljert virkningsmekanisme-data (DG002, High severity) er for øyeblikket identifiserte datahull og må løses før en S1-sikkerhetsvurdering kan gjennomføres.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Bevis for hepatisk porfiria er begrenset til to prekliniske dyrestudier av CEP/PCT spesifikt, ikke den bredere "hepatisk porfiria"-kategorien; ingen menneskelige forsøk finnes, og blokkering av sikkerhetsdatahull (etikettadvarsler, kontraindikasjoner) forhindrer en sikkerhetsvurdering. Legemidlet er heller ikke for øyeblikket markedsført i Norge.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA/norskeavalente etikettadvarsler og kontraindikasjoner (DG001 — blokkering)
+- Detaljert virkningsmekanisme-data (DG002)
+- Menneskelig klinisk bevis spesifikt for hepatisk porfiria (ideelt sett CEP/PCT pasientkohorter, ikke bare dyremodeller)
+- Bekrefting av norsk regulerings-/markedsføringssti, da legemidlet for øyeblikket har null lokale godkjenninger
+
+---
+
+**Tilleggskontekst om andre kandidater i dette bevissettet:**
+- **Beta-thalassemia med andre manifestasjoner (rang 8, L1, Fortsett med sikkerhetstiltak)** er ikke en *ny* indikasjon — begrunnelsesteksten bekrefter at dette gjenspeiler deferiprones eksisterende autoriserte Ferriprox-bruk for transfusjonsavhengig jernoverbelastning.
+- **Rang 2–6, 9** (idiopatisk kobberassosiert sirrhose, hepatoportal sklerose, tidlig familiær ikke-sirrotisk porthypertensjon, hepatopulmonalt syndrom, primær portalvenetrombase, arvelig pyropoikilosytose) er **L5, uten støttende litteratur/forsøk**, og begrunnelsesteksten for flere flagrer dem eksplisitt som sannsynlige falskt-positive resultater (f.eks. kobberkelatering er mekanistisk svak for deferiprone). Disse bør ikke forfølges uten uavhengig bevis.
+- **Pyruvat kinase-mangel (rang 7, L4)** har en plausibel sekundær jernoverbelastning-rasjonale, men ingen litteratur-/forsøksstøtte i dette datasettet — samme "Forskningsspørsmål"-status som primærkandidaten ovenfor.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

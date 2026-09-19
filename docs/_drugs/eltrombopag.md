@@ -29,95 +29,96 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Eltrombopag: From Immune Thrombocytopenia to HIV Infectious Disease
+# Eltrombopag: Fra immunotrombocytopeni til HIV-infeksjonssykdom
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Eltrombopag is a thrombopoietin receptor (TPO-R) agonist, historically used to treat immune thrombocytopenia (ITP) and thrombocytopenia associated with chronic liver disease and hepatitis C.
-> The TxGNN model predicts it may be effective for **HIV infectious disease**,
-> with **5 clinical trials** and **9 publications** currently identified — though nearly all evidence relates to managing *HIV-associated thrombocytopenia* rather than HIV infection itself.
+> Eltrombopag er en thrombopoietinreseptor (TPO-R)-agonist som historisk har blitt brukt til å behandle immunotrombocytopeni (ITP) og trombocytopeni assosiert med kronisk leversjukdom og hepatitt C.
+> TxGNN-modellen forutsier at det kan være effektivt for **HIV-infeksjonssykdom**,
+> med **5 kliniske forsøk** og **9 publikasjoner** for tiden identifisert — selv om nesten alt bevis omhandler behandling av *HIV-assosiert trombocytopeni* snarere enn HIV-infeksjon i seg selv.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Immune thrombocytopenia (ITP) / thrombocytopenia in chronic liver disease — inferred from mechanism and literature context (Norway license data not available) |
-| Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.26% |
-| Evidence Level | L4 (preclinical / mechanism-level evidence) |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Original indikasjon | Immunotrombocytopeni (ITP) / trombocytopeni ved kronisk leversjukdom — antatt fra virkningsmekanisme og litteraturkontekst (norske lisensdata ikke tilgjengelige) |
+| Forutsagt ny indikasjon | HIV-infeksjonssykdom |
+| TxGNN-prediksjonspoeng | 99.26% |
+| Bevisnivå | L4 (preklinisk / mekanismenivå bevis) |
+| Status på norsk marked | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvente |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available. Based on known information, eltrombopag is a thrombopoietin receptor (TPO-R) agonist that stimulates megakaryocyte proliferation and platelet production. Its efficacy in ITP is well established, and it has been used off-label for thrombocytopenia secondary to chronic infections (HCV, HIV, *H. pylori*).
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige. Basert på kjent informasjon er eltrombopag en thrombopoietinreseptor (TPO-R)-agonist som stimulerer megakaryocyttproliferasjon og blodplateproduksjon. Dets effektivitet ved ITP er veletablert, og det har blitt brukt off-label for trombocytopeni sekundær til kroniske infeksjoner (HCV, HIV, *H. pylori*).
 
-The connection to HIV, however, is largely **indirect**: the bulk of clinical trial and literature evidence supports using eltrombopag to manage **thrombocytopenia that occurs as a complication of HIV infection** (including HIV-associated ITP and immune reconstitution inflammatory syndrome-related thrombocytopenia) — this is supportive/symptomatic management of a comorbidity, not antiviral treatment of HIV itself. One in vitro screening study (PMID 32977702) suggests eltrombopag may modulate HIV-1 proviral transcription, but this finding is preliminary, derived from an FDA-approved drug library screen, and has not been validated in cell culture models beyond the initial screen, animal models, or clinical trials.
+Forbindelsen til HIV er imidlertid i stor grad **indirekte**: hoveddelen av klinisk forsøks- og litteraturbevis støtter bruk av eltrombopag til å håndtere **trombocytopeni som oppstår som en komplikasjon av HIV-infeksjon** (inkludert HIV-assosiert ITP og immunrekonstitueringsinflammatorisk syndrom-relatert trombocytopeni) — dette er understøttende/symptomatisk behandling av en komorbiditet, ikke antiviral behandling av HIV selv. Én in vitro-screeningtudie (PMID 32977702) foreslår at eltrombopag kan modulere HIV-1 proviralt transkripsjon, men dette funnet er foreløpig, avledet fra et FDA-godkjent legemiddelbibliotekets screening, og har ikke blitt validert i cellekulturmodeller utover det første screenet, dyremodeller eller kliniske forsøk.
 
-The high TxGNN score (99.26%) likely reflects a strong "drug–thrombocytopenia–HIV comorbidity" path in the knowledge graph rather than a genuine antiviral mechanism. The predicted indication label "HIV infectious disease" may therefore be **imprecise** — the more accurate and evidence-supported indication would be "HIV-associated thrombocytopenia."
+Den høye TxGNN-poengen (99.26%) gjenspeiler sannsynligvis en sterk "legemiddel–trombocytopeni–HIV-komorbiditet"-sti i kunnskapsgrafen snarere enn en ekte antiviralt mekanisme. Den forutsagte indikasjonsetiketten "HIV-infeksjonssykdom" kan derfor være **upresist** — den mer nøyaktige og bevisstøttede indikasjonen ville være "HIV-assosiert trombocytopeni."
 
 ---
 
-## Clinical Trial Evidence
+## Kliniske forsøksbevis
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Inklusjon | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT00678587](https://clinicaltrials.gov/study/NCT00678587) | Phase 3 | Terminated | 292 | Eltrombopag to reduce need for platelet transfusion in chronic liver disease patients with thrombocytopenia undergoing invasive procedures; not HIV-specific |
-| [NCT00996216](https://clinicaltrials.gov/study/NCT00996216) | Phase 3 | Completed | 27 | Open-label rollover study assessing safety of eltrombopag to maintain platelet counts enabling HCV antiviral therapy initiation; not HIV-specific |
-| [NCT01636778](https://clinicaltrials.gov/study/NCT01636778) | Phase 2 | Completed | 45 | SB-497115-GR (eltrombopag) raising platelet counts in HCV-related thrombocytopenia with compensated cirrhosis; not HIV-specific |
-| [NCT00529568](https://clinicaltrials.gov/study/NCT00529568) | Phase 3 | Completed | 759 | Eltrombopag vs placebo maintaining platelet counts to enable HCV antiviral therapy (Peg-IFN α-2b + ribavirin); SVR as endpoint; not HIV-specific |
-| [NCT00516321](https://clinicaltrials.gov/study/NCT00516321) | Phase 3 | Completed | 687 | Eltrombopag vs placebo maintaining platelet counts to enable HCV antiviral therapy (Peg-IFN α-2a + ribavirin); SVR as endpoint; not HIV-specific |
+| [NCT00678587](https://clinicaltrials.gov/study/NCT00678587) | Fase 3 | Avsluttet | 292 | Eltrombopag for å redusere behovet for blodplateinfusjon hos pasienter med kronisk leversjukdom og trombocytopeni som gjennomgår invasive inngrep; ikke HIV-spesifikt |
+| [NCT00996216](https://clinicaltrials.gov/study/NCT00996216) | Fase 3 | Ferdig | 27 | Åpen overgangstudie som vurderer sikkerhet ved eltrombopag for å opprettholde blodplatetal som muliggjør initiering av HCV-antiviralt terapi; ikke HIV-spesifikt |
+| [NCT01636778](https://clinicaltrials.gov/study/NCT01636778) | Fase 2 | Ferdig | 45 | SB-497115-GR (eltrombopag) øker blodplatetal ved HCV-relatert trombocytopeni med kompensert cirrhose; ikke HIV-spesifikt |
+| [NCT00529568](https://clinicaltrials.gov/study/NCT00529568) | Fase 3 | Ferdig | 759 | Eltrombopag vs placebo for å opprettholde blodplatetal som muliggjør HCV-antiviralt terapi (Peg-IFN α-2b + ribavirin); SVR som endepunkt; ikke HIV-spesifikt |
+| [NCT00516321](https://clinicaltrials.gov/study/NCT00516321) | Fase 3 | Ferdig | 687 | Eltrombopag vs placebo for å opprettholde blodplatetal som muliggjør HCV-antiviralt terapi (Peg-IFN α-2a + ribavirin); SVR som endepunkt; ikke HIV-spesifikt |
 
-**Note:** All five trials were graded "C" relevance by evidentiary review — none directly enrolled or targeted HIV-infected populations or antiviral endpoints; they primarily address ITP/HCV-related thrombocytopenia, which is eltrombopag's established use.
+**Merknad:** Alle fem forsøk ble vurdert som "C" relevans av bevisvurderingen — ingen inkluderte eller målrettet HIV-infiserte populasjoner eller antivirale endepunkter direkte; de adresserer først og fremst ITP/HCV-relatert trombocytopeni, som er eltrombopags etablerte bruk.
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [19932434](https://pubmed.ncbi.nlm.nih.gov/19932434/) | 2009 | Review | Hematology/Oncology Clinics of North America | Chronic infections (HCV, HIV, *H. pylori*) as causes of secondary/chronic ITP; treating the underlying infection often improves thrombocytopenia |
-| [19245929](https://pubmed.ncbi.nlm.nih.gov/19245929/) | 2009 | Review | Seminars in Hematology | Therapeutic strategies for infection-related immune thrombocytopenia, including HCV and HIV |
-| [24816314](https://pubmed.ncbi.nlm.nih.gov/24816314/) | 2014 | Review | Internal Medicine Journal | TPO-receptor agonists in ITP of less than 6 months' duration |
-| [22185370](https://pubmed.ncbi.nlm.nih.gov/22185370/) | 2012 | Cohort | Platelets | Danish real-world experience with TPO-receptor agonists in refractory ITP, including secondary ITP cases |
-| [25504472](https://pubmed.ncbi.nlm.nih.gov/25504472/) | 2015 | Case series | J Int Assoc Provid AIDS Care | TPO-receptor agonists (eltrombopag, romiplostim) as salvage therapy in refractory HIV-associated ITP after HAART optimization |
-| [28043314](https://pubmed.ncbi.nlm.nih.gov/28043314/) | 2016 | Case report | J Coll Physicians Surg Pak | Hepatitis B leading to megaloblastic anemia and severe thrombocytopenia (not HIV; adjacent infectious-thrombocytopenia context) |
-| [22992580](https://pubmed.ncbi.nlm.nih.gov/22992580/) | 2012 | Case report | AIDS | Successful use of eltrombopag without splenectomy in refractory HIV-related immune reconstitution thrombocytopenia |
-| [25333665](https://pubmed.ncbi.nlm.nih.gov/25333665/) | 2014 | Case report | AIDS | Eltrombopag successfully treated aplastic anaemia associated with HIV infection; noted possible immunomodulatory role (↓Th1/Th17, ↑Treg/Th ratio) |
-| [24128106](https://pubmed.ncbi.nlm.nih.gov/24128106/) | 2013 | Case report | Farmacia Hospitalaria | Two case reports of eltrombopag for thrombocytopenia in chronic hepatitis C |
-| [32977702](https://pubmed.ncbi.nlm.nih.gov/32977702/) | 2020 | In vitro screening | Viruses | Screen of FDA-approved drug library identifies potential modulators of HIV-1 proviral transcription; preliminary, mechanism unconfirmed |
+| [19932434](https://pubmed.ncbi.nlm.nih.gov/19932434/) | 2009 | Oversikt | Hematology/Oncology Clinics of North America | Kroniske infeksjoner (HCV, HIV, *H. pylori*) som årsaker til sekundær/kronisk ITP; behandling av den underliggende infeksjonen forbedrer ofte trombocytopeni |
+| [19245929](https://pubmed.ncbi.nlm.nih.gov/19245929/) | 2009 | Oversikt | Seminars in Hematology | Terapeutiske strategier for infeksjonsrelatert immunotrombocytopeni, inkludert HCV og HIV |
+| [24816314](https://pubmed.ncbi.nlm.nih.gov/24816314/) | 2014 | Oversikt | Internal Medicine Journal | TPO-reseptor-agonister ved ITP med mindre enn 6 måneders varighet |
+| [22185370](https://pubmed.ncbi.nlm.nih.gov/22185370/) | 2012 | Kohort | Platelets | Dansk erfaringer fra den virkelige verden med TPO-reseptor-agonister ved refraktær ITP, inkludert tilfeller av sekundær ITP |
+| [25504472](https://pubmed.ncbi.nlm.nih.gov/25504472/) | 2015 | Kasusserie | J Int Assoc Provid AIDS Care | TPO-reseptor-agonister (eltrombopag, romiplostim) som redningsbehandling ved refraktær HIV-assosiert ITP etter HAART-optimalisering |
+| [28043314](https://pubmed.ncbi.nlm.nih.gov/28043314/) | 2016 | Kasusbeskrivelse | J Coll Physicians Surg Pak | Hepatitt B som fører til megaloblastisk anemi og alvorlig trombocytopeni (ikke HIV; relatert infeksjons-trombocytopeni-kontekst) |
+| [22992580](https://pubmed.ncbi.nlm.nih.gov/22992580/) | 2012 | Kasusbeskrivelse | AIDS | Vellykket bruk av eltrombopag uten splenektomi ved refraktær HIV-relatert immunrekonstitueringstrombocytopeni |
+| [25333665](https://pubmed.ncbi.nlm.nih.gov/25333665/) | 2014 | Kasusbeskrivelse | AIDS | Eltrombopag behandlet vellykket aplastisk anemi assosiert med HIV-infeksjon; noterte mulig immunomodulatorisk rolle (↓Th1/Th17, ↑Treg/Th ratio) |
+| [24128106](https://pubmed.ncbi.nlm.nih.gov/24128106/) | 2013 | Kasusbeskrivelse | Farmacia Hospitalaria | To kasusrapporter av eltrombopag for trombocytopeni ved kronisk hepatitt C |
+| [32977702](https://pubmed.ncbi.nlm.nih.gov/32977702/) | 2020 | In vitro-screening | Viruses | Screening av FDA-godkjent legemiddelbiblitek identifiserer potensielle modulatorer av HIV-1 proviralt transkripsjon; foreløpig, mekanisme ubekreftet |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Eltrombopag is currently **not marketed in Norway**, and no product authorizations were found in the available data.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Eltrombopag er for tiden **ikke markedsført i Norge**, og ingen produktgodkjennelser ble funnet i de tilgjengelige dataene.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Se pakningsvedlegget for sikkerhetsinformasjon.
 
-**Rationale:**
-Evidence overwhelmingly supports eltrombopag's established use in managing thrombocytopenia that arises as a complication of HIV infection, rather than treating HIV infection directly. The single mechanistic lead for a direct antiviral effect (in vitro HIV-1 transcription screen) is unvalidated. The predicted indication label likely overstates the actual evidentiary link, and the drug is not currently marketed in Norway.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Norwegian package insert data (warnings, contraindications) — currently blocking (DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Clarification/re-labeling of the predicted indication to "HIV-associated thrombocytopenia" to align with existing evidence, or dedicated preclinical/clinical validation of the direct antiviral (proviral transcription) mechanism before considering this a genuine HIV-treatment repurposing candidate
-- Assessment of Norway market entry pathway, given current unmarketed status and zero existing authorizations
+## Konklusjon og neste steg
+
+**Beslutning: Avvente**
+
+**Begrunnelse:**
+Bevisene støtter overveiende eltrombopags etablerte bruk i håndtering av trombocytopeni som oppstår som en komplikasjon av HIV-infeksjon, snarere enn behandling av HIV-infeksjon direkte. Det eneste mekanistiske leddet for en direkte antiviralt effekt (in vitro HIV-1 transkripsjon-screening) er uvalidert. Den forutsagte indikasjonsetiketten overdimensjonerer sannsynligvis den faktiske bevismessige forbindelsen, og legemidlet er ikke for tiden markedsført i Norge.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA/norske pakningsvedleggsdata (advarsler, kontraindikasjoner) — blokkerer for tiden (DG001)
+- Bekreftet virkningsmekanismedata fra DrugBank (DG002)
+- Avklaring/omerking av den forutsagte indikasjonen til "HIV-assosiert trombocytopeni" for å tilpasse seg eksisterende bevis, eller dedikert preklinisk/klinisk validering av det direkte antivirale (proviralt transkripsjon)-mekanismen før en vurderer dette som en ekte kandidat for omdirigering av HIV-behandling
+- Vurdering av norsk markedsadgangsvei, gitt nåværende umarkedsført status og null eksisterende godkjennelser
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

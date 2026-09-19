@@ -29,95 +29,96 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Ustekinumab: From Plaque Psoriasis to Dermatitis
+# Ustekinumab: Fra plakkpsoriasis til dermatitt
 
-## One-Sentence Summary
+## Ett-setnings sammendrag
 
-> Ustekinumab (an IL-12/IL-23 p40 antagonist) was originally developed for moderate-to-severe plaque psoriasis, psoriatic arthritis, Crohn's disease, and ulcerative colitis.
-> The TxGNN model predicts it may also be effective for **Dermatitis** (particularly atopic dermatitis),
-> with **7 clinical trials** and **20 publications** currently supporting this direction, including two completed Phase 2 RCTs testing this exact indication.
+> Ustekinumab (en IL-12/IL-23 p40-antagonist) ble opprinnelig utviklet for moderat til alvorlig plakkpsoriasis, psoriasisartritt, Crohns sykdom og ulcerøs kolitt.
+> TxGNN-modellen forutsier at det også kan være effektivt for **dermatitt** (særlig atopisk dermatitt),
+> med **7 kliniske forsøk** og **20 publikasjoner** som for øyeblikket støtter denne retningen, inkludert to fullførte fase 2 randomiserte kontrollerte studier som tester denne eksakte indikasjonen.
 
 ---
 
-## Quick Overview
+## Hurtig oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Moderate-to-severe plaque psoriasis, psoriatic arthritis, Crohn's disease, ulcerative colitis (per literature evidence, PMID 36208443) |
-| Predicted New Indication | Dermatitis |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Moderat til alvorlig plakkpsoriasis, psoriasisartritt, Crohns sykdom, ulcerøs kolitt (basert på litteraturbevis, PMID 36208443) |
+| Forutsagt ny indikasjon | Dermatitt |
+| TxGNN-prediksjonspoeng | 99.99% |
+| Evidensnivå | L2 |
+| Status på norskmarkedet | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt avgjørelse | Avvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-The DrugBank record for ustekinumab does not provide a structured `original_moa` field, but the literature evidence gathered in this pack consistently describes its mechanism: ustekinumab is a fully human IgG1 monoclonal antibody that binds the shared p40 subunit of IL-12 and IL-23, thereby suppressing Th1, Th17, and Th22 activation (PMID 27304428). This IL-12/23 blockade is the same mechanism that underlies its approved efficacy in plaque psoriasis, an inflammatory Th17-driven skin disease.
+DrugBank-posten for ustekinumab gir ikke et strukturert felt for `original_moa`, men litteraturbevisen samlet i denne pakken beskriver konsekvent mekanismen: ustekinumab er et fullt humant IgG1 monoklonalt antistoff som binder den delte p40-underenheten av IL-12 og IL-23, og undertrykker dermed Th1-, Th17- og Th22-aktivering (PMID 27304428). Denne IL-12/23-blokkaden er den samme mekanismen som ligger til grunn for dens godkjente effektivitet i plakkpsoriasis, en inflammatorisk Th17-drevet hudsykdom.
 
-Atopic dermatitis — the dermatitis subtype most represented in the evidence below — also involves Th17/Th22 activation alongside the classic Th2 axis, giving a plausible mechanistic bridge from psoriasis to dermatitis. Both are chronic, immune-mediated inflammatory skin diseases, and clinical investigators have directly tested this hypothesis: two completed Phase 2 RCTs (in Japanese and Western populations) evaluated ustekinumab specifically in moderate-to-severe/severe atopic dermatitis, along with a mechanistic study showing down-regulation of Th2/Th22 gene expression after treatment (PMID 27745907). This combination of shared pathway biology and existing dedicated trials makes the TxGNN prediction mechanistically reasonable rather than purely statistical.
+Atopisk dermatitt — dermatitt-undertypen som er best representert i bevisen nedenfor — involverer også Th17/Th22-aktivering sammen med den klassiske Th2-aksen, noe som gir en plausibel mekanistisk bro fra psoriasis til dermatitt. Begge er kroniske, immun-medierte inflammatoriske hudsykdommer, og kliniske forskere har direkte testet denne hypotesen: to fullførte fase 2 randomiserte kontrollerte studier (i japanske og vestlige populasjoner) evaluerte ustekinumab spesifikt i moderat til alvorlig/alvorlig atopisk dermatitt, sammen med en mekanistisk studie som viste nedregulering av Th2/Th22-genekspresjon etter behandling (PMID 27745907). Denne kombinasjonen av delt biologisk vei og eksisterende dedikerte studier gjør TxGNN-prediksjonen mekanistisk rimelig snarere enn rent statistisk.
 
 ---
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøk
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Antall deltakere | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT01945086](https://clinicaltrials.gov/study/NCT01945086) | Phase 2 | Completed | 79 | Randomized, double-blind, placebo-controlled trial of ustekinumab in adult Japanese patients with severe atopic dermatitis |
-| [NCT01806662](https://clinicaltrials.gov/study/NCT01806662) | Phase 2 | Completed | 32 | Randomized pilot study of ustekinumab in chronic atopic dermatitis patients with sub-optimal response to prior therapy |
-| [NCT02074982](https://clinicaltrials.gov/study/NCT02074982) | Phase 3 | Completed | 676 | Head-to-head RCT of secukinumab vs. ustekinumab (PASI-based efficacy) in moderate-to-severe plaque psoriasis |
-| [NCT05535738](https://clinicaltrials.gov/study/NCT05535738) | Phase 2/3 | Recruiting | 45 | Suction-blister contact dermatitis model studying how biologic therapies (incl. anti-IL12/23) modulate skin inflammation |
-| [NCT01356758](https://clinicaltrials.gov/study/NCT01356758) | N/A | Completed | 126 | Cardiovascular risk assessment in severe psoriasis patients treated with biologic agents including ustekinumab |
-| [NCT07041112](https://clinicaltrials.gov/study/NCT07041112) | N/A | Completed | 1000 | Retrospective cohort evaluating 10-year drug survival of biologics (including ustekinumab) in cutaneous psoriasis/psoriatic arthritis |
-| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Phase 4 | Not yet recruiting | 10 | Microdevice platform testing multiple FDA-approved atopic dermatitis/psoriasis drugs directly in skin |
+| [NCT01945086](https://clinicaltrials.gov/study/NCT01945086) | Fase 2 | Fullført | 79 | Randomisert, dobbeltblindet, placebokontrollert fase 2-studie av ustekinumab hos voksne japanske pasienter med alvorlig atopisk dermatitt |
+| [NCT01806662](https://clinicaltrials.gov/study/NCT01806662) | Fase 2 | Fullført | 32 | Randomisert pilotstudie av ustekinumab hos pasienter med kronisk atopisk dermatitt med suboptimal respons på tidligere terapi |
+| [NCT02074982](https://clinicaltrials.gov/study/NCT02074982) | Fase 3 | Fullført | 676 | Hode-til-hode-sammenligning av secukinumab vs. ustekinumab (PASI-basert effektivitet) i moderat til alvorlig plakkpsoriasis |
+| [NCT05535738](https://clinicaltrials.gov/study/NCT05535738) | Fase 2/3 | Rekrutterer | 45 | Sugnblister-kontaktdermatittmodell som studerer hvordan biologisk terapi (inkl. anti-IL12/23) modulerer hudinflammasjon |
+| [NCT01356758](https://clinicaltrials.gov/study/NCT01356758) | N/A | Fullført | 126 | Kardiovaskulær risikoevaluering hos pasienter med alvorlig psoriasis behandlet med biologiske midler inkludert ustekinumab |
+| [NCT07041112](https://clinicaltrials.gov/study/NCT07041112) | N/A | Fullført | 1000 | Retrospektiv kohort som evaluerer 10-års medikamentell overlevelse av biologika (inkludert ustekinumab) i kutane psoriasis/psoriasisartritt |
+| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Fase 4 | Ikke startet | 10 | Mikroenhetsplattform som tester flere FDA-godkjente atopisk dermatitt/psoriasis-medikamenter direkte i hud |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [28338223](https://pubmed.ncbi.nlm.nih.gov/28338223/) | 2017 | RCT (Phase 2) | Br J Dermatol | Randomized, double-blind, placebo-controlled Phase 2 study showing ustekinumab efficacy/safety in Japanese patients with severe atopic dermatitis |
-| [27304428](https://pubmed.ncbi.nlm.nih.gov/27304428/) | 2017 | RCT (Phase 2) | Exp Dermatol | Ustekinumab (IL-12/IL-23p40 antagonist) evaluated for efficacy and safety in adults with moderate-to-severe atopic dermatitis |
-| [33849369](https://pubmed.ncbi.nlm.nih.gov/33849369/) | 2022 | Observational (real-world) | J Dermatolog Treat | Real-world evidence analysis on effectiveness of ustekinumab in atopic dermatitis patients |
-| [27745907](https://pubmed.ncbi.nlm.nih.gov/27745907/) | 2017 | Clinical study | J Am Acad Dermatol | Ustekinumab treatment in severe atopic dermatitis shown to down-regulate Th2/Th22 gene expression |
-| [29164954](https://pubmed.ncbi.nlm.nih.gov/29164954/) | 2018 | Systematic Review | J Dermatolog Treat | Systematic review of ustekinumab efficacy and safety in the treatment of atopic dermatitis |
-| [33074565](https://pubmed.ncbi.nlm.nih.gov/33074565/) | 2021 | Systematic Review/Meta-analysis | Allergy | EAACI evidence review of systemic treatments (including biologics) for moderate-to-severe atopic dermatitis |
-| [29098604](https://pubmed.ncbi.nlm.nih.gov/29098604/) | 2018 | Systematic Review/Meta-analysis | Am J Clin Dermatol | Meta-analysis assessing whether biologics, including ustekinumab, are efficacious in atopic dermatitis |
-| [36208443](https://pubmed.ncbi.nlm.nih.gov/36208443/) | 2022 | Review | Dermatol Ther | Review of off-label uses of ustekinumab beyond its approved psoriasis/Crohn's/UC indications |
-| [39987634](https://pubmed.ncbi.nlm.nih.gov/39987634/) | 2025 | Observational (FAERS analysis) | Int Immunopharmacol | Real-world adverse-event analysis of ustekinumab safety in psoriasis and psoriatic arthritis |
-| [37929636](https://pubmed.ncbi.nlm.nih.gov/37929636/) | 2024 | Case Report | Australas J Dermatol | Case of dual biologic therapy (ustekinumab + dupilumab) in a patient with severe atopic dermatitis and Crohn's disease, no drug interaction observed over 7 months |
+| [28338223](https://pubmed.ncbi.nlm.nih.gov/28338223/) | 2017 | RCT (Fase 2) | Br J Dermatol | Randomisert, dobbeltblindet, placebokontrollert fase 2-studie som viser ustekinumabs effektivitet/sikkerhet hos japanske pasienter med alvorlig atopisk dermatitt |
+| [27304428](https://pubmed.ncbi.nlm.nih.gov/27304428/) | 2017 | RCT (Fase 2) | Exp Dermatol | Ustekinumab (IL-12/IL-23p40-antagonist) evaluert for effektivitet og sikkerhet hos voksne med moderat til alvorlig atopisk dermatitt |
+| [33849369](https://pubmed.ncbi.nlm.nih.gov/33849369/) | 2022 | Observasjonell (virkelig verden) | J Dermatolog Treat | Analyse av virkeligverdenbevis på effektivitet av ustekinumab hos pasienter med atopisk dermatitt |
+| [27745907](https://pubmed.ncbi.nlm.nih.gov/27745907/) | 2017 | Klinisk studie | J Am Acad Dermatol | Ustekinumab-behandling ved alvorlig atopisk dermatitt viste nedregulering av Th2/Th22-genekspresjon |
+| [29164954](https://pubmed.ncbi.nlm.nih.gov/29164954/) | 2018 | Systematisk gjennomgang | J Dermatolog Treat | Systematisk gjennomgang av effektivitet og sikkerhet av ustekinumab i behandlingen av atopisk dermatitt |
+| [33074565](https://pubmed.ncbi.nlm.nih.gov/33074565/) | 2021 | Systematisk gjennomgang/Metaanalyse | Allergy | EAACI-evidensgjennomgang av systemisk behandling (inkludert biologika) for moderat til alvorlig atopisk dermatitt |
+| [29098604](https://pubmed.ncbi.nlm.nih.gov/29098604/) | 2018 | Systematisk gjennomgang/Metaanalyse | Am J Clin Dermatol | Metaanalyse som evaluerer hvorvidt biologika, inkludert ustekinumab, er effektive ved atopisk dermatitt |
+| [36208443](https://pubmed.ncbi.nlm.nih.gov/36208443/) | 2022 | Oversikt | Dermatol Ther | Oversikt over off-label bruk av ustekinumab utover dets godkjente psoriasis/Crohns/UC-indikasjoner |
+| [39987634](https://pubmed.ncbi.nlm.nih.gov/39987634/) | 2025 | Observasjonell (FAERS-analyse) | Int Immunopharmacol | Analyse av bivirkninger fra virkelig verden av ustekinumabs sikkerhet ved psoriasis og psoriasisartritt |
+| [37929636](https://pubmed.ncbi.nlm.nih.gov/37929636/) | 2024 | Caserapport | Australas J Dermatol | Caserapport om dobbel biologisk terapi (ustekinumab + dupilumab) hos en pasient med alvorlig atopisk dermatitt og Crohns sykdom, ingen legemiddelinteraksjon observert over 7 måneder |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Ustekinumab is currently **not marketed** in Norway under this evidence pack, and no authorization records (product licenses, dosage forms) are available in the dataset.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: Key warnings, contraindications, and drug-drug interaction data are flagged in the evidence pack as a Blocking data gap — TFDA-equivalent label information has not yet been retrieved and is required before this candidate can proceed to a formal safety evaluation.)*
+Ustekinumab er for øyeblikket **ikke markedsført** i Norge ifølge denne evidenspakken, og ingen autorisasjonsregistreringer (produktlisenser, doseringsformer) er tilgjengelige i datasettet.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-**Rationale:**
-The mechanistic rationale and existing evidence base (7 trials, 20 publications, including two completed Phase 2 RCTs directly testing ustekinumab in atopic dermatitis) are encouraging, but a Blocking data gap on official label warnings/contraindications prevents entry into the safety evaluation stage, and the drug is not currently marketed in Norway.
+*(Merk: Viktige advarsler, kontraindikasjoner og legemiddelinteraksjondata er flagget i evidenspakken som en kritisk informasjonsmangler — informasjon tilsvarende TFDA-merking har ikke blitt hentet inn ennå og er nødvendig før denne kandidaten kan gå videre til en formell sikkerhetsevaluering.)*
 
-**To proceed, the following is needed:**
-- Official package insert / label data (warnings, contraindications) to resolve the Blocking data gap and enable a formal S1 safety review
-- Confirmation of detailed mechanism-of-action documentation via DrugBank (to resolve the MOA data gap)
-- Assessment of regulatory pathway for market entry in Norway, since no authorizations currently exist
-- Additional Phase 3-level trial data specific to the dermatitis indication, as current direct evidence is limited to completed Phase 2 studies
+---
+
+## Konklusjon og neste steg
+
+**Avgjørelse: Avvent**
+
+**Begrunnelse:**
+Det mekanistiske grunnlaget og eksisterende evidensbase (7 forsøk, 20 publikasjoner, inkludert to fullførte fase 2 randomiserte kontrollerte studier som direkte tester ustekinumab ved atopisk dermatitt) er lovende, men en kritisk informasjonsmangler angående offisielle merkingsadvarsler/kontraindikasjoner forhindrer inngang i sikkerhetsevalueringsfasen, og legemidlet er for øyeblikket ikke markedsført i Norge.
+
+**For å kunne fortsette er følgende nødvendig:**
+- Offisielt pakningsvedlegg / merkingsdata (advarsler, kontraindikasjoner) for å løse den kritiske informasjonsmankelen og muliggjøre en formell S1-sikkerhetsevaluering
+- Bekrefting av detaljert virkningsmekanisme-dokumentasjon via DrugBank (for å løse informasjonsmangelen om MOA)
+- Vurdering av regulatorisk vei for markedsinngang i Norge, siden ingen autorisasjoner for øyeblikket eksisterer
+- Ytterligere fase 3-nivå forsøksdata spesifikt for dermatitt-indikasjonen, da gjeldende direkte bevis er begrenset til fullførte fase 2-studier
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

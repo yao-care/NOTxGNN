@@ -29,76 +29,77 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Cabotegravir: From Undetermined Original Indication to Rheumatoid Arthritis
+# Cabotegravir: Fra udeterminert originalindikasjon til revmatoid artritt
 
-## One-Sentence Summary
+## Sammenfatting i én setning
 
-> Cabotegravir (DrugBank ID: DB11751) currently has no verified original indication or mechanism of action on file, and the drug is not yet marketed in Taiwan (TFDA).
-> The TxGNN model predicts a possible new indication for **Rheumatoid Arthritis**,
-> but this prediction is supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags no known mechanistic overlap.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no license or indication data on file |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.45% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Cabotegravir (DrugBank ID: DB11751) har for tiden ingen verifisert originalindikasjon eller virkningsmekanisme registrert, og legemidlet er ikke ennå markedsført i Taiwan (TFDA).
+> TxGNN-modellen predikerer en mulig ny indikasjon for **revmatoid artritt**,
+> men denne prediksjonen støttes av **0 kliniske forsøk** og **0 publikasjoner**, og modellens egen begrunnelse angir ingen kjent mekanistisk overlapping.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Kort oversikt
 
-Currently, detailed mechanism of action data is not available for cabotegravir in this evidence pack, and no original indication is recorded. Based on general pharmacological class knowledge referenced in the evidence pack's own rationale, cabotegravir is an HIV integrase strand transfer inhibitor (INSTI), acting by blocking viral DNA integration into the host genome.
-
-The evidence pack's own mechanistic rationale for the top prediction explicitly states that this integrase-inhibition mechanism has **no known overlap** with rheumatoid arthritis pathophysiology (TNF-α, IL-6, synovial proliferation pathways). The rationale further notes that the missing original-indication data may have destabilized the model's embedding, which could explain the anomalously high score despite the lack of biological plausibility.
-
-The remaining four ranked candidates (sclerosing cholangitis, bronchitis, colobomatous microphthalmia–rhizomelic dysplasia syndrome, severe nonproliferative diabetic retinopathy) show the same pattern: high TxGNN scores with explicitly stated absence of mechanistic linkage, no clinical trials, and no literature. This is consistent with model noise rather than a credible repurposing signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Ikke tilgjengelig — ingen lisens- eller indikasjonsdata på fil |
+| Predikert ny indikasjon | Revmatoid artritt |
+| TxGNN-prediksjonspoeng | 99.45% |
+| Bevisgrad | L5 (kun modellpreduksjon, ingen understøttende studier) |
+| Markedsstatus i Taiwan | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Utsette |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige for cabotegravir i denne bevissamlingen, og ingen originalindikasjon er registrert. Basert på allmenn farmakologisk klassekunnskap som refereres i bevissamlingens egen begrunnelse, er cabotegravir en HIV-integrase-strandoverføringsinhibitor (INSTI), som virker ved å blokkere viral DNA-integrasjon inn i vertscellenes genom.
 
----
+Bevissamlingens egen mekanistiske begrunnelse for topprediksjonen sier eksplisitt at denne integrase-inhibisjon-mekanismen har **ingen kjent overlapping** med revmatoid artritts patofysiologi (TNF-α, IL-6, synoviale proliferasjonsstier). Begrunnelsen bemerker videre at manglende originalindikasjon-data kan ha destabilisert modellens embedding, som kunne forklare den uvanlig høye poengstillingen til tross for mangel på biologisk plausibilitet.
 
-## Taiwan Market Information
-
-No approved licenses on file — cabotegravir is not currently marketed in Taiwan (0 authorizations).
+De gjenværende fire rangerte kandidater (skleroserande kolangitt, bronkitt, kolobomatøs mikroftalmi–rizzomeli dysplasi-syndrom, alvorlig ikke-proliferativ diabetisk retinopati) viser det samme mønsteret: høye TxGNN-poeng med eksplisitt angitt fravær av mekanistisk forbindelse, ingen kliniske forsøk, og ingen litteratur. Dette er konsistent med modellstøy heller enn et kredibelt gjenbrukssignal.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøk
 
-Safety data is currently unavailable (TFDA label, contraindications, and drug interaction data are all flagged as blocking data gaps — see DG001). Please refer to the package insert once available for safety information.
+For tiden er det ingen relaterte kliniske forsøk registrert
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For tiden er ingen relatert litteratur tilgjengelig
 
-**Rationale:**
-The prediction rests solely on an L5 model score with no clinical trial or literature support, and the evidence pack's own mechanistic analysis finds no known biological link between HIV integrase inhibition and rheumatoid arthritis. Combined with a blocking safety data gap (no TFDA label) and the drug's unmarketed status in Taiwan, there is no basis to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- TFDA product label (warnings, contraindications) — resolves DG001 (blocking)
-- Verified mechanism of action from DrugBank — resolves DG002
-- Verified original indication(s) for the drug
-- Independent preclinical or mechanistic evidence linking INSTI pharmacology to autoimmune/rheumatologic pathways before any further evaluation stage (S1+)
+## Markedsinformasjon for Taiwan
+
+Ingen godkjente lisenser på fil — cabotegravir er ikke for tiden markedsført i Taiwan (0 autorisasjoner).
+
+---
+
+## Sikkerhetshensyn
+
+Sikkerhetsdata er for tiden utilgjengelig (TFDA-etikett, kontraindikasjoner og legemiddelinteraksjonsdata er alle merket som sikkerhetsdatagap som blokkerer — se DG001). Vennligst konsulter pakningsvedlegget når det blir tilgjengelig for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Utsette**
+
+**Begrunnelse:**
+Prediksjonen hviler utelukkende på en L5-modellpoeng uten klinisk forsøk- eller litteraturstøtte, og bevissamlingens egen mekanistiske analyse finner ingen kjent biologisk forbindelse mellom HIV-integrase-inhibisjon og revmatoid artritt. Kombinert med et sikkerhetsdatagap som blokkerer (ingen TFDA-etikett) og legemidlets umarkedsført status i Taiwan, er det ingen basis for å fremme denne kandidaten.
+
+**For å komme videre er følgende nødvendig:**
+- TFDA-produktetikett (advarsler, kontraindikasjoner) — løser DG001 (blokkering)
+- Verifisert virkningsmekanisme fra DrugBank — løser DG002
+- Verifisert originalindikasjon(er) for legemidlet
+- Uavhengig preklinisk eller mekanistisk bevis som knytter INSTI-farmakologi til autoimmun-/reumatologiske stier før videre evalueringsstadium (S1+)
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

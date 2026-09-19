@@ -29,80 +29,81 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Rilpivirine: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
+# Rilpivirine: Fra HIV-1-infeksjon til Felint Ervervet Immunsviktssyndrom
 
-## One-Sentence Summary
+## Sammendrag på én setning
 
-> Rilpivirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) originally developed for HIV-1 infection in humans.
-> The TxGNN model's top-ranked prediction is **feline acquired immunodeficiency syndrome** — a veterinary disease caused by feline immunodeficiency virus (FIV), not a human indication —
-> and this is currently supported by only **1 in vitro structural study** and **no clinical trials**.
+> Rilpivirine er en ikke-nukleosid reversstranskriptasehemmer (NNRTI) som opprinnelig ble utviklet for HIV-1-infeksjon hos mennesker.
+> TxGNN-modellens topprangerte prediksjon er **felint ervervet immunsviktssyndrom** — en veterinærsykdom forårsaket av felint immunsviktvirus (FIV), ikke en menneskelig indikasjon —
+> og denne støttes for tiden bare av **1 in vitro-strukturell studie** og **ingen kliniske forsøk**.
 
-⚠️ **Note on this candidate**: The #1-ranked TxGNN prediction in this evidence pack targets a **veterinary disease (cats)**, not a human condition. This is flagged as a likely low-value or off-target model output and is scored `Hold` in the evidence pack itself. Human-relevant candidates with much stronger evidence exist further down the same prediction list (see Conclusion).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | HIV-1 infection (NNRTI; inferred from evidence pack literature/rationale — no formal Norway label text available) |
-| Predicted New Indication | Feline acquired immunodeficiency syndrome (FIV infection in cats) |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 |
-| Norway Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+⚠️ **Merknad om denne kandidaten**: TxGNN-prediksjonen rangert #1 i dette bevisemnet målretter en **veterinærsykdom (katter)**, ikke en menneskelig tilstand. Dette flagges som et sannsynlig lavverdi- eller off-target-modellutput og er scoret `Hold` i selve bevisemnet. Menneskerelevante kandidater med mye sterkere bevis finnes lenger ned på samme prediksjonslist (se Konklusjon).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available in this evidence pack (`original_moa: [Data Gap]`). Based on information available in the supporting literature, rilpivirine is a diarylpyrimidine-class NNRTI that binds the HIV-1 reverse transcriptase (RT) enzyme, non-competitively blocking viral replication. Its efficacy in HIV-1 infection is well established, including in long-acting injectable combination form with cabotegravir.
-
-The predicted new indication — feline immunodeficiency virus (FIV)-related syndrome — is mechanistically adjacent only in the broadest sense: FIV is also a lentivirus with a reverse transcriptase enzyme, so an NNRTI could in theory interfere with viral replication. However, FIV RT and HIV-1 RT are structurally distinct, and the single available study is a **biochemical/structural comparison**, not a functional antiviral efficacy study.
-
-Per the evidence pack's own rationale: *"僅有單一生化/結構比較研究，分析 NNRTI 對貓免疫缺陷病毒(FIV) RT 之結合特性；FIV RT 與 HIV-1 RT 結構差異顯著，交叉活性未經功能性驗證，屬獸醫學範疇而非人類藥物再利用標的。"* In short, cross-species binding was studied structurally but never confirmed functionally, and the target species is not human — this is why the evidence pack itself assigns `Evidence Level L4` and `Decision Stage S0 / Hold`.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | HIV-1-infeksjon (NNRTI; utledet fra litteratur/begrunnelse i bevisemnet — ingen formell norsk pakningsvedlegg tilgjengelig) |
+| Predikert ny indikasjon | Felint ervervet immunsviktssyndrom (FIV-infeksjon hos katter) |
+| TxGNN-prediksjonspoeng | 99.97% |
+| Bevisnivå | L4 |
+| Markedsstatus i Norge | ✗ Ikke markedsført (Ikke markedsført) |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | In vitro structural study | Journal of Veterinary Science | Compared biochemical/structural binding of NNRTIs (nevirapine, efavirenz, rilpivirine) against feline vs. human immunodeficiency virus reverse transcriptase, exploring theoretical potential of NNRTIs for FIV treatment in cats; no in vivo or clinical efficacy data reported. |
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige i dette bevisemnet (`original_moa: [Data Gap]`). Basert på informasjon som finnes i støttende litteratur, er rilpivirine en diarylpyrimidin-klasse NNRTI som binder HIV-1-reversstranskriptasemnet (RT), og blokkerer ikke-kompetitivt viral replikasjon. Dens effektivitet ved HIV-1-infeksjon er veletablert, også i langvarig injiserbar kombinasjonsform med cabotegravir.
 
----
+Den predikerte nye indikasjonen — felint immunsviktvirus (FIV)-relatert syndrom — er mekanistisk tilstøtende bare i videste forstand: FIV er også et lentivirus med en reversstranskriptaseenzym, så en NNRTI kunne i teorien forstyrre viral replikasjon. Imidlertid er FIV RT og HIV-1 RT strukturelt atskilte, og den eneste tilgjengelige studien er en **biokjemisk/strukturell sammenligning**, ikke en funksjonell antiviral effektivitetsstudie.
 
-## Norway Market Information
-
-No authorization records found — rilpivirine is not currently marketed in Norway (`total_licenses: 0`, `licenses: []`).
+Per bevisemnet egen begrunnelse: *"Det finnes kun en enkelt biokjemisk/strukturell sammenligningsstudie som analyserer NNRTI-bindingsegenskaper til felint immunsviktvirus (FIV) RT; FIV RT og HIV-1 RT har betydelige strukturelle ulikheter, og tversarts aktivitet er ikke funksjonelt verifisert — det tilhører veterinærmedisinsk område og er ikke et mål for menneskelig legemiddel-omforbruk."* Kort sagt, tversarts binding ble studert strukturelt men aldri bekreftet funksjonelt, og målarten er ikke menneske — dette er grunnen til at bevisemnet selv tilordner `Evidence Level L4` og `Decision Stage S0 / Hold`.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøk
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are all marked as data gaps in this evidence pack; DDI query returned no results.)
+For tiden ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra litteratur
 
-**Decision: Hold**
+| PMID | År | Type | Tidsskrift | Nøkkelfunn |
+|------|-----|------|------------|---------|
+| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | In vitro-strukturell studie | Journal of Veterinary Science | Sammenlignet biokjemisk/strukturell binding av NNRTI-er (nevirapin, efavirenz, rilpivirine) mot felint kontra menneskelig immunsviktvirus-reversstranskriptase, utforsket teoretisk potensial for NNRTI-er for FIV-behandling hos katter; ingen in vivo- eller kliniske effektivitetsdata rapportert. |
 
-**Rationale:**
-The top-ranked TxGNN prediction targets a veterinary condition (feline AIDS/FIV) rather than a human disease, is supported by only one preclinical structural-comparison paper with no functional or clinical validation, and is already self-scored `L4 / Hold` in the evidence pack. This candidate does not meet the bar for human drug repurposing evaluation.
+---
 
-**To proceed, the following is needed:**
-- If pursuing this candidate specifically: functional antiviral efficacy data of rilpivirine against live FIV (in vitro or in vivo), and confirmation of veterinary regulatory pathway relevance (likely out of scope for a human repurposing program).
-- **Recommended alternative**: re-scope this evaluation to rank 4 (`AIDS related complex`, L2, Proceed with Guardrails) or rank 5 (`congenital HIV` — actually reflects CAB/RPV LA use in pregnant women with HIV, L2, Research Question), both of which have multiple Phase 3 trials and are within rilpivirine's actual human disease area.
-- Resolve blocking data gaps: **DG001** (TFDA/Norway label warnings & contraindications — Blocking, required before any S1 safety review) and **DG002** (formal MOA from DrugBank — High priority).
-- Manually re-verify TxGNN disease-label mapping for rank 5 ("congenital human immunodeficiency virus"), as the underlying trial/literature evidence actually concerns maternal-fetal pharmacokinetics rather than a distinct congenital-HIV indication.
+## Markedsinformasjon for Norge
+
+Ingen autorisasjonsregistreringer funnet — rilpivirine er for tiden ikke markedsført i Norge (`total_licenses: 0`, `licenses: []`).
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og data om legemiddelinteraksjoner er alle markert som datagap i dette bevisemnet; DDI-spørring ga ingen resultater.)
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Topprangerte TxGNN-prediksjon målretter en veterinærtilstand (felint AIDS/FIV) i stedet for en menneskelig sykdom, støttes av bare en preklinisk strukturell sammenligningsartikkel uten funksjonell eller klinisk validering, og er allerede selvscorét `L4 / Hold` i bevisemnet. Denne kandidaten oppfyller ikke terskelen for evaluering av menneskelig legemiddel-omforbruk.
+
+**For å fortsette, følgende er nødvendig:**
+- Hvis denne kandidaten forfølges spesifikt: funksjonell antiviral effektivitetsdata for rilpivirine mot levende FIV (in vitro eller in vivo), og bekrefting av relevansen av den veterinære reguleringsvei (sannsynligvis utenfor omfang for et menneskelig omforbruksprogram).
+- **Anbefalt alternativ**: omdefiner denne evalueringen til rang 4 (`AIDS-relatert kompleks`, L2, Fortsett med sikringer) eller rang 5 (`medfødt HIV` — gjenspeiler faktisk CAB/RPV LA-bruk hos gravide kvinner med HIV, L2, Forskningsspørsmål), som begge har flere fase 3-forsøk og er innenfor rilpivirines faktiske menneskelige sykdomsområde.
+- Løs blokkerende datagap: **DG001** (TFDA/norsk pakningsvedlegg advarsler og kontraindikasjoner — Blokkering, påkrevd før noen S1-sikkerhetsvurdering) og **DG002** (formell MOA fra DrugBank — Høy prioritet).
+- Verifiser på nytt manuelt TxGNN-sykdoms-etikettkartlegging for rang 5 ("medfødt menneskelig immunsviktsvirus"), da det underliggende forsøks-/litteraturbevis faktisk gjelder mor-foster farmakokinetikk i stedet for en distinkt medfødt-HIV-indikasjon.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

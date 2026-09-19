@@ -29,91 +29,90 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-Using no additional skill — this is a direct report-generation task with a fully specified template; I'll produce the Markdown report following it exactly.
+# Gefitinib: Fra ikke-småcellet lungekarsinom til Fibromatose, Gingival
 
-# Gefitinib: From Non-Small Cell Lung Cancer to Fibromatosis, Gingival
+## Ensetningssammendrag
 
-## One-Sentence Summary
-
-> Gefitinib is a first-generation EGFR tyrosine kinase inhibitor (EGFR-TKI) known clinically for the treatment of EGFR-mutant non-small cell lung cancer (NSCLC).
-> The TxGNN model predicts it may be effective for **Fibromatosis, Gingival**, but this direction is currently supported by **0 clinical trials** and **0 publications** — it is a model-score-only prediction with no mechanistic or empirical backing.
+> Gefitinib er en EGFR-tyrosinkinasehemmer av første generasjon (EGFR-TKI) kjent klinisk for behandling av EGFR-mutant ikke-småcellet lungekarsinom (NSCLC).
+> TxGNN-modellen forutsier at det kan være effektivt for **Fibromatose, Gingival**, men denne retningen støttes for tiden av **0 kliniske forsøk** og **0 publikasjoner** — det er en modellscore-bare-prediksjon uten mekanistisk eller empirisk grunnlag.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in the local regulatory registry (0 licenses on file). Based on known pharmacology, gefitinib is an EGFR-TKI indicated for EGFR mutation-positive non-small cell lung cancer (NSCLC). |
-| Predicted New Indication | Fibromatosis, Gingival |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 |
-| Norway Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available from the local registry (data gap DG002). Based on known pharmacological information from the evidence pack itself, gefitinib is a first-generation EGFR tyrosine kinase inhibitor that blocks EGFR autophosphorylation and downstream RAS/MEK/ERK signalling, and it is the standard-of-care mechanism for EGFR-mutant NSCLC.
-
-Gingival fibromatosis, however, is a benign connective-tissue overgrowth disorder with no established link to EGFR-driven oncogenic signalling. The evidence pack's own mechanistic assessment for this candidate states explicitly that there is **no known mechanistic connection** between gefitinib's EGFR-TKI activity and gingival fibromatosis, and no clinical trial or literature evidence exists to support the association. This candidate therefore appears to be a pure knowledge-graph score artifact (TxGNN rank 1590) rather than a biologically grounded repurposing hypothesis.
-
-It is worth noting that several lower-ranked predictions in this evidence pack (e.g., lung hilum carcinoma, lung germ cell tumor, pulmonary sulcus neoplasm) are anatomically and mechanistically closer to gefitinib's established NSCLC indication, though even these lack indication-specific trial or literature confirmation. See Conclusion for further discussion.
+| Emne | Innhold |
+|------|---------|
+| Opprinnelig indikasjon | Ikke registrert i det lokale regulatoriske registeret (0 lisenser på fil). Basert på kjent farmakologi er gefitinib en EGFR-TKI indisert for EGFR-mutasjonspositivt ikke-småcellet lungekarsinom (NSCLC). |
+| Prediktert ny indikasjon | Fibromatose, Gingival |
+| TxGNN-prediktjonsscore | 99.89% |
+| Bevisnivoå | L5 |
+| Markedsstatus i Norge | Ikke markedsført (Ikke markedsført) |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related clinical trials registered.
+For tiden er detaljerte virkningsmekanisme-data ikke tilgjengelig fra det lokale registeret (datagap DG002). Basert på kjent farmakologisk informasjon fra bevisepakken selv, er gefitinib en EGFR-tyrosinkinasehemmer av første generasjon som blokkerer EGFR-autofosforyering og nedstrøms RAS/MEK/ERK-signalering, og det er standard-behandlings-mekanismen for EGFR-mutant NSCLC.
 
----
+Gingival fibromatose er imidlertid en godartet bindevevs-vekstsyndrom uten etablert forbindelse til EGFR-drevet onkogen signalering. Bevisepakkens egen mekanistiske vurdering for denne kandidaten sier eksplisitt at det **ikke finnes noen kjent mekanistisk forbindelse** mellom gefitinibs EGFR-TKI-aktivitet og gingival fibromatose, og det finnes ingen klinisk forsøk eller litteraturbevis som støtter assosiasjonen. Denne kandidaten ser derfor ut til å være et rent kunnskapsgraff-score-artefakt (TxGNN rank 1590) snarere enn en biologisk grunnfestet ombrukshypotese.
 
-## Literature Evidence
-
-Currently no related literature available.
+Det er verdt å merke seg at flere lavere-rangerte prediksjoner i denne bevisepakken (f.eks. lungerot-karsinom, lunges gjermcelletumor, pulmonalt sulkus-neoplasme) er anatomisk og mekanistisk nærmere gefitinibs etablerte NSCLC-indikasjon, selv om selv disse mangler indikasjonsspesifikk forsøks- eller litteraturbekrefelse. Se Konklusjon for videre diskusjon.
 
 ---
 
-## Norway Market Information
+## Bevis for kliniske forsøk
 
-Gefitinib currently holds **no marketing authorization** in Norway (0 licenses on file; market status: Not marketed / Not Marketed).
-
----
-
-## Cytotoxicity
-
-Gefitinib is an antineoplastic agent (original indication class: NSCLC; drug class confirmed across the evidence pack's own mechanistic rationales as an EGFR tyrosine kinase inhibitor).
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (EGFR tyrosine kinase inhibitor; not a conventional cytotoxic chemotherapy agent) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+For tiden er det ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information.
+For tiden er det ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformasjon for Norge
 
-**Decision: Hold**
+Gefitinib har for tiden **ingen markedsføringstillatelse** i Norge (0 lisenser på fil; markedsstatus: Ikke markedsført / Ikke markedsført).
 
-**Rationale:**
-The featured prediction (gingival fibromatosis, TxGNN score 99.89%) has no clinical trial or literature support and no plausible mechanistic link — it is a model-score-only (L5) association. This is compounded by a **Blocking** data gap (DG001: TFDA/local label warnings and contraindications unavailable), which prevents even an initial safety screen (S1), and by the drug having zero marketing authorizations locally.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (obtain and parse the official package insert for warnings/contraindications) before any S1 safety evaluation can occur.
-- Resolve DG002 (confirm MOA via DrugBank API) to properly document mechanistic rationale.
-- If gingival fibromatosis remains the target, generate a specific mechanistic hypothesis and seek preclinical/case-level evidence — none currently exists.
-- Consider re-scoping evaluation toward the more anatomically plausible candidates in this pack (rank 5, lung hilum carcinoma, which reached decision_stage S1 / "Research Question"), which — while still weakly supported — are mechanistically closer to gefitinib's established NSCLC activity.
+## Cytotoksisitet
+
+Gefitinib er et anti-neoplastisk middel (opprinnelig indikasjonklasse: NSCLC; stoffklasse bekreftet på tvers av bevisepakkens egen mekanistiske begrunnelse som en EGFR-tyrosinkinasehemmer).
+
+| Emne | Innhold |
+|------|---------|
+| Cytotoksisitetsklassifisering | Målrettet terapi (EGFR-tyrosinkinasehemmer; ikke et konvensjonelt cytotoksisk kjemoterapi-middel) |
+| Risiko for myelosuppresjon | Vær vennlig å se pakkeseddelens advarsler og forholdsregler |
+| Emetogenisitetsklassifisering | Vær vennlig å se pakkeseddelens advarsler og forholdsregler |
+| Overvåkingselementer | Vær vennlig å se pakkeseddelens advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Vær vennlig å se pakkeseddelens advarsler og forholdsregler |
+
+---
+
+## Sikkerhetshensyn
+
+Vær vennlig å se pakkesedlen for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Den presenterte prediksjonen (gingival fibromatose, TxGNN-score 99.89%) har ingen klinisk forsøks- eller litteraturstøtte og ingen plausibel mekanistisk forbindelse — det er en modellscore-bare (L5) assosiasjon. Dette forverres av et **blokkerende** datagap (DG001: TFDA/lokale merkininger for advarsler og kontraindikasjoner utilgjengelige), som forhindrer selv en innledende sikkerhetskontroll (S1), og ved at stoffet ikke har noen markedsføringstillatelser lokalt.
+
+**For å fortsette, trengs følgende:**
+- Løse DG001 (få tak i og tolke den offisielle pakkeseddelen for advarsler/kontraindikasjoner) før noen S1-sikkerhetsevaluering kan foregå.
+- Løse DG002 (bekrefte MOA via DrugBank API) for å riktig dokumentere mekanistisk begrunnelse.
+- Hvis gingival fibromatose forblir målet, generere en spesifikk mekanistisk hypotese og søke preklinisk/casenivå-bevis — ingen finnes for tiden.
+- Vurder å omfokusere evalueringen mot de mer anatomisk plausible kandidatene i denne pakken (rank 5, lungerot-karsinom, som nådde beslutningstrin S1 / «Forskningsspørsmål»), som — selv om fortsatt svakt støttet — er mekanistisk nærmere gefitinibs etablerte NSCLC-aktivitet.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

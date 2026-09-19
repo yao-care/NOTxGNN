@@ -29,94 +29,95 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Defibrotide: From Hepatic Veno-Occlusive Disease to Thrombotic Thrombocytopenic Purpura
+# Defibrotide: Fra hepatisk veno-okklusiv sykdom til trombotisk trombocytopeni
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-Defibrotide's established clinical use — evident from trial context (NCT02851407, Phase 3) — is prevention of hepatic veno-occlusive disease (VOD) in patients undergoing hematopoietic stem cell transplantation (HSCT). TxGNN's top-ranked prediction (pseudo-von Willebrand disease) has **zero supporting evidence** and is explicitly flagged by the evidence review as a likely knowledge-graph artifact. The most credible predicted new indication is **Thrombotic Thrombocytopenic Purpura (TTP) / transplant-associated thrombotic microangiopathy (TA-TMA)**, supported by **11 publications** spanning 1984–2023, though with **no dedicated clinical trials** and **no market presence in Norway**.
+Defibrotides etablerte kliniske bruk — som fremkommer fra studienkontekst (NCT02851407, fase 3) — er forebygging av hepatisk veno-okklusiv sykdom (VOD) hos pasienter som gjennomgår hematopoietisk stamcelletransplantasjon (HSCT). TxGNNs høyest rangerte prediksjon (pseudo-von Willebrand-sykdom) har **null støttende bevis** og er eksplisitt flagget av evidensvurderingen som et sannsynlig kunnskapsgraf-artefakt. Den mest troverdig predikerte nye indikasjonen er **Trombotisk trombocytopeni (TTP) / transplantasjonsassosiert trombotisk mikroangiopati (TA-TMA)**, støttet av **11 publikasjoner** fra 1984–2023, selv om med **ingen dedikerte kliniske studier** og **ingen markedstilstedeværelse i Norge**.
 
-> **Note on candidate selection**: This evidence pack contains 10 TxGNN-predicted indications. Eight of them (ranks 1–3, 5–9) have **no clinical trial or literature evidence at all** and are scored L5/Hold — several rationales explicitly state the mechanistic direction is *opposite* to defibrotide's antithrombotic profile (e.g., Glanzmann thrombasthenia, factor V deficiency, collagen receptor defects are *bleeding* disorders, not thrombotic ones). Only rank 4 (TTP) and rank 10 (thrombocytopenic purpura, near-duplicate evidence set) reach L3/S2. This report focuses on TTP as the scientifically defensible candidate rather than mechanically reporting the highest raw TxGNN score.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not formally recorded in this evidence pack (0 licenses; unmarketed in Norway). Trial context (NCT02851407) indicates established use in prevention of hepatic veno-occlusive disease (VOD) in HSCT patients |
-| Predicted New Indication | Thrombotic Thrombocytopenic Purpura (TTP) |
-| TxGNN Prediction Score | 99.71% (rank 3665 overall) |
-| Evidence Level | L3 (observational studies / case series, no RCTs) |
-| Norway Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+> **Merknad om kandidatvalg**: Denne beviспакken inneholder 10 TxGNN-predikerte indikasjoner. Åtte av dem (rangeringer 1–3, 5–9) har **ingen kliniske studier eller litteraturbevis i det hele tatt** og er vurdert til L5/Hold — flere begrunnelser oppgir eksplisitt at den mekanistiske retningen er *motsatt* av defibrotides antitrombotiske profil (f.eks. Glanzmanns trombasteni, faktor V-mangel, kolagenreseptordefekter er *blødnings*forstyrrelser, ikke trombotiske). Bare rangering 4 (TTP) og rangering 10 (trombocyttopen purpura, nesten duplikat bevissett) når L3/S2. Denne rapporten fokuserer på TTP som den vitenskapelig forsvarlige kandidaten i stedet for å mekanisk rapportere den høyeste råe TxGNN-poengene.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available in structured form (Data Gap). Based on the available trial and literature context, defibrotide is a polydeoxyribonucleotide with antithrombotic, profibrinolytic, and endothelial-protective properties, and its established use is prevention/treatment of hepatic VOD in HSCT patients — a condition driven by sinusoidal endothelial injury and microvascular thrombosis.
-
-TTP and transplant-associated thrombotic microangiopathy (TA-TMA) share substantial pathophysiological overlap with VOD: both occur predominantly in the HSCT setting and are driven by endothelial injury with consumptive microthrombus formation. This overlap is reflected directly in the literature — several papers on defibrotide-and-TTP are framed specifically in transplant patients (e.g., Uderzo 2000, Corti 2002), and reviews of TA-TMA (Ikezoe 2018, Choi 2009, Batts & Lazarus 2007) describe essentially the same endothelial-injury mechanism defibrotide is designed to address in VOD.
-
-However, this mechanistic plausibility is tempered by evidence quality: no RCTs exist, most literature is older case series/case reports (1984–2002), and — importantly — one publication (Perotti 1994) reports TTP occurring **as an adverse event following** defibrotide therapy, rather than as a treatment response. This creates a safety signal that must be resolved before clinical application (see Safety Considerations below).
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-*(Note: NCT02851407, a completed Phase 3 VOD-prevention trial, appears elsewhere in this evidence pack but was graded "C" / not relevant by the evidence reviewer for platelet-disorder indications — it is not counted as TTP evidence.)*
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke formelt registrert i denne beviспakken (0 lisenser; umarkedsført i Norge). Studienkontekst (NCT02851407) indikerer etablert bruk ved forebygging av hepatisk veno-okklusiv sykdom (VOD) hos HSCT-pasienter |
+| Predikert ny indikasjon | Trombotisk trombocytopeni (TTP) |
+| TxGNN-prediksjonspoengsum | 99,71% (rangering 3665 totalt) |
+| Bevissttufe | L3 (observasjonsstudier / kasusserie, ingen RCT-er) |
+| Markedsstatus Norge | ✗ Ikke markedsført (Ikke markedsført) |
+| Antall autorisasjoner | 0 |
+| Anbefalt avgjørelse | Fortsett med sikringstiltak |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [11100281](https://pubmed.ncbi.nlm.nih.gov/11100281/) | 2000 | Cohort | Bone Marrow Transplant | TTP incidence and risk factors in 131 pediatric leukemia patients undergoing HSCT |
-| [11960280](https://pubmed.ncbi.nlm.nih.gov/11960280/) | 2002 | Case series | Bone Marrow Transplant | Defibrotide described as a promising treatment for TTP in HSCT patients |
-| [8317470](https://pubmed.ncbi.nlm.nih.gov/8317470/) | 1993 | Case series | Am J Hematol | Treatment of TTP with defibrotide |
-| [6547211](https://pubmed.ncbi.nlm.nih.gov/6547211/) | 1984 | Case series | Nephron | Defibrotide as a new antithrombotic agent in HUS/TTP-related acute renal failure |
-| [30305540](https://pubmed.ncbi.nlm.nih.gov/30305540/) | 2018 | Review | Rinsho Ketsueki | Management of transplant-associated thrombotic microangiopathy (TA-TMA) |
-| [17603513](https://pubmed.ncbi.nlm.nih.gov/17603513/) | 2007 | Review | Bone Marrow Transplant | Diagnosis and treatment progress in TA-TMA |
-| [19228075](https://pubmed.ncbi.nlm.nih.gov/19228075/) | 2009 | Review | Drugs | TMA in HSCT: diagnosis and treatment overview |
-| [10775024](https://pubmed.ncbi.nlm.nih.gov/10775024/) | 2000 | Case report | Clin Appl Thromb Hemost | Defibrotide used in recurrent TTP |
-| [37001283](https://pubmed.ncbi.nlm.nih.gov/37001283/) | 2023 | In-vitro/mechanistic | Thrombosis Research | Defibrotide mitigates endothelial cell injury from COVID-19/TMA patient plasmas |
-| [7896218](https://pubmed.ncbi.nlm.nih.gov/7896218/) | 1994 | Case report (Adverse Event) | Haematologica | **TTP reported as an adverse event after defibrotide therapy** — safety signal, not efficacy evidence |
+For tiden er detaljert virkningsmekanisme-data ikke tilgjengelig i strukturert form (Datakløft). Basert på tilgjengelig studie- og litteraturkontekst er defibrotide et polydeoxyribonukleotid med antitrombotiske, profibrinolytiske og endotel-beskyttende egenskaper, og dets etablerte bruk er forebygging/behandling av hepatisk VOD hos HSCT-pasienter — en tilstand drevet av sinusoidalt endotelskade og mikrovaskulær trombose.
+
+TTP og transplantasjonsassosiert trombotisk mikroangiopati (TA-TMA) deler betydelig patofysiologisk overlapping med VOD: begge forekommer primært i HSCT-innstillingen og drives av endotelskade med forbrukende mikrotrombusformasjon. Denne overlappingen gjenspeiles direkte i litteraturen — flere artikler om defibrotide-og-TTP er rammet spesifikt rundt transplantasjonspasienter (f.eks. Uderzo 2000, Corti 2002), og gjennomganger av TA-TMA (Ikezoe 2018, Choi 2009, Batts & Lazarus 2007) beskriver i hovedsak samme endotelskademekanisme defibrotide er utformet for å løse ved VOD.
+
+Imidlertid blir denne mekanistiske plausibiliteten dempet av beviskvalitet: ingen RCT-er finnes, mesteparten av litteraturen er eldre kasusserie/kasusbeskrivelser (1984–2002), og — viktigst — en publikasjon (Perotti 1994) rapporterer TTP oppstår **som en uønsket hendelse etter** defibrotide-terapi, i stedet for som en behandlingsrespons. Dette skaper et sikkerhetssignal som må løses før klinisk bruk (se sikkerhetshensyn nedenfor).
 
 ---
 
-## Norway Market Information
+## Klinisk studieevidensbevis
 
-Defibrotide is currently **not marketed in Norway** — 0 marketing authorizations are on record in this evidence pack. No product/dosage-form data is available.
+For tiden ingen relaterte kliniske studier registrert.
 
----
-
-## Safety Considerations
-
-- **Data gap flagged as Blocking**: No TFDA/label warnings or contraindications are available in this evidence pack (DG001, severity: Blocking) — this prevents any preliminary safety assessment.
-- **Safety signal from literature**: One case report (Perotti et al., 1994, Haematologica) describes TTP occurring *after* defibrotide therapy, i.e., as a possible adverse event rather than a therapeutic benefit. This directly conflicts with the repurposing hypothesis and must be reconciled before proceeding.
-- No structured drug-drug interaction data is available (query returned no results).
-
-Please refer to the package insert for complete safety information once available.
+*(Merknad: NCT02851407, en fullført fase 3 VOD-forebyggingsstudie, vises andre steder i denne beviспakken men ble klassifisert som "C" / ikke relevant av evidensvurdereren for trombocyttforstyrrelser indikasjoner — den regnes ikke som TTP-bevis.)*
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Proceed with Guardrails** *(conditional — see rationale)*
+| PMID | År | Type | Tidsskrift | Viktige funn |
+|------|-----|------|-----|---------|
+| [11100281](https://pubmed.ncbi.nlm.nih.gov/11100281/) | 2000 | Kohorte | Bone Marrow Transplant | TTP-insidensrate og risikofaktorer hos 131 pediatriske leukemipasienter som gjennomgår HSCT |
+| [11960280](https://pubmed.ncbi.nlm.nih.gov/11960280/) | 2002 | Kasusserie | Bone Marrow Transplant | Defibrotide beskrevet som lovende behandling for TTP hos HSCT-pasienter |
+| [8317470](https://pubmed.ncbi.nlm.nih.gov/8317470/) | 1993 | Kasusserie | Am J Hematol | Behandling av TTP med defibrotide |
+| [6547211](https://pubmed.ncbi.nlm.nih.gov/6547211/) | 1984 | Kasusserie | Nephron | Defibrotide som et nytt antitrombotisk agens ved HUS/TTP-relatert akutt nyresvikt |
+| [30305540](https://pubmed.ncbi.nlm.nih.gov/30305540/) | 2018 | Gjennomgang | Rinsho Ketsueki | Behandling av transplantasjonsassosiert trombotisk mikroangiopati (TA-TMA) |
+| [17603513](https://pubmed.ncbi.nlm.nih.gov/17603513/) | 2007 | Gjennomgang | Bone Marrow Transplant | Diagnose og behandlingsframskritt ved TA-TMA |
+| [19228075](https://pubmed.ncbi.nlm.nih.gov/19228075/) | 2009 | Gjennomgang | Drugs | TMA ved HSCT: oversikt over diagnose og behandling |
+| [10775024](https://pubmed.ncbi.nlm.nih.gov/10775024/) | 2000 | Kasusbeskrivelse | Clin Appl Thromb Hemost | Defibrotide brukt ved tilbakevendende TTP |
+| [37001283](https://pubmed.ncbi.nlm.nih.gov/37001283/) | 2023 | In vitro/mekanistisk | Thrombosis Research | Defibrotide lindrer endotelcelleskade fra COVID-19/TMA-pasientplasma |
+| [7896218](https://pubmed.ncbi.nlm.nih.gov/7896218/) | 1994 | Kasusbeskrivelse (Uønsket hendelse) | Haematologica | **TTP rapportert som en uønsket hendelse etter defibrotide-terapi** — sikkerhetssignal, ikke virkningsbevis |
 
-**Rationale:**
-Among 10 TxGNN-predicted indications, TTP/TA-TMA is the only one with a mechanistically coherent rationale (shared endothelial-injury pathophysiology with defibrotide's known VOD use) and multi-decade literature support (11 publications, L3 evidence). However, the absence of RCTs, the presence of a conflicting adverse-event report, and a **Blocking-severity safety data gap** mean this cannot advance to formal evaluation (S1) without additional data.
+---
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer label warnings and contraindications (DG001, Blocking — required before any S1 safety evaluation)
-- Structured mechanism of action data (DG002, High)
-- Resolution of the conflicting signal between defibrotide-as-treatment (case series) vs. defibrotide-as-cause (Perotti 1994 AE report) for TTP
-- Confirmation of the drug's actual approved original indication(s), since `original_indications` is currently empty in this pack
-- If pursued further, a targeted literature/registry search specifically for TA-TMA (rather than idiopathic TTP) given the stronger mechanistic and clinical-context overlap with defibrotide's known VOD indication
+## Markedsstatus Norge
+
+Defibrotide er for tiden **ikke markedsført i Norge** — 0 markedsføringstillatelser er registrert i denne beviспakken. Ingen produkt-/doseringsform-data er tilgjengelige.
+
+---
+
+## Sikkerhetshensyn
+
+- **Datakløft flagget som blokkerande**: Ingen TFDA/etikett-advarsler eller kontraindikasjoner er tilgjengelige i denne beviспakken (DG001, alvorlighetsgrad: Blokkerande) — dette forhindrer noen foreløpig sikkerhetsvurdering.
+- **Sikkerhetssignal fra litteratur**: En kasusbeskrivelse (Perotti et al., 1994, Haematologica) beskriver TTP oppstår *etter* defibrotide-terapi, dvs. som en mulig uønsket hendelse i stedet for en terapeutisk fordel. Dette er i direkte konflikt med ombrukshypotesen og må løses før fortsettelse.
+- Ingen strukturert legemiddelinteraksjonsdata er tilgjengelige (spørring ga ingen resultater).
+
+Vennligst se pakningsvedlegget for fullstendig sikkerhetsinformasjon når tilgjengelig.
+
+---
+
+## Konklusjon og neste steg
+
+**Avgjørelse: Fortsett med sikringstiltak** *(betinget — se begrunnelse)*
+
+**Begrunnelse:**
+Blant 10 TxGNN-predikerte indikasjoner er TTP/TA-TMA den eneste med en mekanistisk sammenhengende begrunnelse (delt endotelskade-patofysiologi med defibrotides kjente VOD-bruk) og multi-tiår litteraturstøtte (11 publikasjoner, L3-bevis). Imidlertid betyr fravær av RCT-er, tilstedeværelsen av en motstridende uønsket hendelsesrapport, og en **blokkeringskritikalitets sikkerhetsdatakløft** at dette ikke kan gå videre til formell vurdering (S1) uten tilleggdata.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA/produsent etikett-advarsler og kontraindikasjoner (DG001, Blokkerande — påkrevd før noen sikkerhetsvurdering på S1-nivå)
+- Strukturert virkningsmekanismedata (DG002, Høy)
+- Løsning av det motstridende signalet mellom defibrotide-som-behandling (kasusserie) vs. defibrotide-som-årsak (Perotti 1994 uønsket hendelsesrapport) for TTP
+- Bekreftelse av legemidlets faktiske godkjente opprinnelige indikasjon(er), siden `original_indications` er for tiden tom i denne pakken
+- Hvis fulgt videre, en målrettet litteratur-/registergjennomgang spesifikt for TA-TMA (i stedet for idiopatisk TTP) gitt den sterkere mekanistiske og klinisk-kontekst overlappingen med defibrotides kjente VOD-indikasjon
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

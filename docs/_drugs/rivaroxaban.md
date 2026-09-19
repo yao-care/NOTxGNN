@@ -29,83 +29,84 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Rivaroxaban: From Anticoagulation (VTE/AF) to Rheumatoid Arthritis
+# Rivaroxaban: Fra antikoagulasjon (VTE/AF) til revmatoid artritt
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Rivaroxaban is a Factor Xa inhibitor used for anticoagulation (VTE prophylaxis/treatment and stroke prevention in atrial fibrillation), as referenced across the trial and literature evidence in this pack (e.g., EINSTEIN, ACT trials).
-> The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**,
-> but **0 clinical trials** and only **4 tangentially related publications** currently support this direction, and the mechanistic rationale itself flags this as likely a comorbidity artifact rather than a true treatment signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not confirmed via regulatory filing (drug not marketed in Norway); evidence pack context indicates anticoagulation for VTE/AF |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.57% |
-| Evidence Level | L4 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Rivaroxaban er en faktor Xa-hemmer som brukes til antikoagulasjon (VTE-profylakse/behandling og hjerneslag-forebygging ved atrieflimmer), som referert i studie- og litteraturbevisene i denne pakken (f.eks. EINSTEIN, ACT-forsøk).
+> TxGNN-modellen forutsier at det kan være effektivt for **revmatoid artritt**,
+> men **0 kliniske forsøk** og bare **4 tangentialt relaterte publikasjoner** støtter for øyeblikket denne retningen, og den mekanistiske begrunnelsen selv flagget dette som sannsynligvis en komorbiditetsartefakt snarere enn et ekte behandlingssignal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Detailed mechanism of action data is not available in the structured drug record (MOA field is a data gap). Based on evidence within this pack, rivaroxaban is a direct Factor Xa inhibitor used for anticoagulation — it has no known anti-inflammatory or immunomodulatory activity.
-
-Rheumatoid arthritis (RA) is a chronic autoimmune inflammatory disease. RA patients do carry an elevated risk of venous thromboembolism (VTE) due to chronic inflammation, and in clinical practice such patients sometimes require anticoagulant therapy — but this represents **comorbidity management**, not treatment of RA itself.
-
-The evidence pack's own mechanistic assessment is explicit on this point: none of the four supporting publications demonstrate an anti-rheumatic effect of rivaroxaban. The literature instead covers VTE diagnosis/management (including in RA patients as an incidental comorbidity), thrombin generation assays in autoimmune disease, and DOAC adherence patterns. The high TxGNN score most likely reflects a learned RA–VTE comorbidity association in the knowledge graph rather than a causal RA-treatment pathway. This candidate should be interpreted with significant caution.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Innhold |
+|-------|---------|
+| Opprinnelig indikasjon | Ikke bekreftet via regulatorisk godkjenning (legemiddel ikke markedsført i Norge); konteksten for bevisepakken indikerer antikoagulasjon for VTE/AF |
+| Forutsagt ny indikasjon | Revmatoid artritt |
+| TxGNN prediksjonspoeng | 99.57% |
+| Evidensnivå | L4 |
+| Norges markedsstatus | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt avgjørelse | Utsett |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [33141212](https://pubmed.ncbi.nlm.nih.gov/33141212/) | 2020 | Review | JAMA | General review of lower-extremity DVT diagnosis/treatment; not RA-specific |
-| [34175144](https://pubmed.ncbi.nlm.nih.gov/34175144/) | 2021 | Review | La Revue de médecine interne | Thrombin generation assay use in autoimmune disease (incl. antiphospholipid syndrome) for hypercoagulability screening; not a rivaroxaban-RA efficacy study |
-| [29621248](https://pubmed.ncbi.nlm.nih.gov/29621248/) | 2018 | Cohort | PLoS One | Adherence comparison of rivaroxaban vs. apixaban in atrial fibrillation; unrelated to RA |
-| [41918541](https://pubmed.ncbi.nlm.nih.gov/41918541/) | 2026 | Case Report | Cureus | Case of thromboembolic stroke in an 88-year-old with AF who incidentally had steroid-treated RA; RA is a background detail, not a treatment target |
+Detaljerte data om virkningsmekanisme er ikke tilgjengelig i de strukturerte legemiddeldata (MOA-felt er et datakav). Basert på bevis innenfor denne pakken er rivaroxaban en direkte faktor Xa-hemmer som brukes til antikoagulasjon — det har ingen kjent anti-inflammatorisk eller immunomodulatorisk aktivitet.
 
----
+Revmatoid artritt (RA) er en kronisk autoimmun inflammatorisk sykdom. RA-pasienter har faktisk en forhøyet risiko for venøs tromboembolisme (VTE) på grunn av kronisk inflammasjon, og i klinisk praksis krever slike pasienter noen ganger antikoagulansterapi — men dette representerer **håndtering av medsykdom**, ikke behandling av RA selv.
 
-## Norway Market Information
-
-Currently no marketing authorization on file for rivaroxaban in Norway (0 licenses; market status: Not Marketed).
+Bevisepakkens egen mekanistiske vurdering er eksplisitt på dette punktet: ingen av de fire støttende publikasjonene demonstrerer en antirevmatisk effekt av rivaroxaban. Litteraturen dekker i stedet VTE-diagnose/-håndtering (inkludert hos RA-pasienter som en tilleggsdiagnose), trombingenerasjonsanalyser ved autoimmun sykdom, og DOAC-overholdelsesmønstre. Den høye TxGNN-skåren gjenspeiler mest sannsynlig en lært RA–VTE-medsykdomsassosiasjon i kunnskapsgrafen snarere enn en kausal RA-behandlingsvei. Denne kandidaten bør tolkes med betydelig forsiktighet.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøk
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/label warnings, contraindications, and DDI data are flagged as a blocking data gap in this evidence pack — see Conclusion.)*
+For øyeblikket ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra litteraturen
 
-**Decision: Hold**
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|---------|----------|
+| [33141212](https://pubmed.ncbi.nlm.nih.gov/33141212/) | 2020 | Oversikt | JAMA | Generell oversikt over diagnose og behandling av underekstremitets-DVT; ikke RA-spesifikk |
+| [34175144](https://pubmed.ncbi.nlm.nih.gov/34175144/) | 2021 | Oversikt | La Revue de médecine interne | Bruk av trombingenerasjonsanalyser ved autoimmun sykdom (inkl. antifosffolipidsyndrom) for screening av hyperkoagulabilitet; ikke en rivaroxaban-RA-effektivitetsstudie |
+| [29621248](https://pubmed.ncbi.nlm.nih.gov/29621248/) | 2018 | Kohort | PLoS One | Sammenligninger av overholdelse av rivaroxaban vs. apixaban ved atrieflimmer; ikke relatert til RA |
+| [41918541](https://pubmed.ncbi.nlm.nih.gov/41918541/) | 2026 | Kasusrapport | Cureus | Tilfelle av tromboembolisk hjerneslag hos en 88-åring med atrieflimmer som tilfeldig hadde steroid-behandlet RA; RA er en bakgrunnsdetalj, ikke et behandlingsmål |
 
-**Rationale:**
-There is no clinical trial evidence and no literature directly demonstrating a therapeutic effect of rivaroxaban on rheumatoid arthritis; the drug's known Factor Xa-inhibitor mechanism has no plausible link to RA disease activity, and the supporting literature relates to VTE management in RA patients rather than RA treatment itself. Combined with an S0 decision stage and L4 evidence level, this candidate does not meet the bar to proceed.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory label data (warnings, contraindications) — currently a **Blocking** data gap
-- Confirmed mechanism of action (MOA) from DrugBank — currently a **High** severity data gap
-- Any preclinical/mechanistic study directly linking Factor Xa inhibition to RA disease pathways, if such evidence exists
-- Should this candidate be revisited, the other TxGNN-flagged indications for rivaroxaban in this pack (gout, HIV infection, brachydactyly-syndactyly syndrome) were also reviewed and are similarly Hold — gout and the rare skeletal disorder have essentially no supporting evidence, and HIV-related evidence concerns anticoagulant safety in HIV patients (drug-drug interactions with antiretrovirals) rather than antiviral efficacy
+## Norsk markedsinformasjon
+
+For øyeblikket ingen markedsføringsgodkjenning for rivaroxaban i Norge (0 lisenser; markedsstatus: Ikke markedsført).
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+*(Merk: TFDA/etikett-advarsler, kontraindikasjoner og DDI-data er flagget som et blokkerende datakav i denne bevisepakken — se Konklusjon.)*
+
+---
+
+## Konklusjon og neste steg
+
+**Avgjørelse: Utsett**
+
+**Begrunnelse:**
+Det er ingen kliniske forsøksbevis og ingen litteratur som direkte demonstrerer en terapeutisk effekt av rivaroxaban på revmatoid artritt; legemidlets kjente faktor Xa-hemmer-mekanisme har ingen plausibel forbindelse til RA-sykdomsaktivitet, og den støttende litteraturen angår VTE-håndtering hos RA-pasienter snarere enn RA-behandling selv. Kombinert med et S0 beslutningstadium og L4 evidensnivå, oppfyller denne kandidaten ikke kravet for å gå videre.
+
+**For å gå videre, er følgende nødvendig:**
+- TFDA/regulatorisk etikett-data (advarsler, kontraindikasjoner) — for øyeblikket et **blokkerende** datakav
+- Bekreftet virkningsmekanisme (MOA) fra DrugBank — for øyeblikket et datakav med **høy** alvorlighetsgrad
+- Enhver preklinisk/mekanistisk studie som direkte knytter faktor Xa-hemming til RA-sykdomsveier, hvis slike bevis finnes
+- Dersom denne kandidaten skulle revisiteres, var de andre TxGNN-flaggede indikasjoner for rivaroxaban i denne pakken (gikt, HIV-infeksjon, brachydaktyly-syndaktyly-syndrom) også vurdert og er tilsvarende Utsett — gikt og den sjeldne skjelettlidelsen mangler i det vesentlige støttende bevis, og HIV-relatert evidens angår antikoagulansikkerhet hos HIV-pasienter (legemiddel-legemiddel-interaksjoner med antiretrovirale legemidler) snarere enn antivirale effekt
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

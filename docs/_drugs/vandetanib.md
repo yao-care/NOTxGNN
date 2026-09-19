@@ -29,119 +29,120 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Vandetanib: From Medullary Thyroid Cancer to Renal Cell Carcinoma
+# Vandetanib: Fra medullær tyroidkreft til nyrecellekarsinom
 
-## One-Sentence Summary
+## Ensetningssammendrag
 
-> Vandetanib is a multi-target tyrosine kinase inhibitor (VEGFR2/EGFR/RET) internationally approved for advanced medullary thyroid cancer (MTC), though it is **not currently marketed in Norway**.
-> The TxGNN model predicts it may also be effective for **Renal Cell Carcinoma**,
-> with **4 clinical trials** (2 completed, 2 terminated) and **6 publications** currently supporting this direction — though the trial evidence is limited by small sample sizes and early termination.
+> Vandetanib er en multi-target tyrosinkinas-hemmer (VEGFR2/EGFR/RET) som er internasjonalt godkjent for avansert medullær tyroidkreft (MTC), selv om den **ikke for øyeblikket er markedsført i Norge**.
+> TxGNN-modellen forutsier at den også kan være effektiv for **nyrecellekarsinom**,
+> med **4 kliniske studier** (2 fullførte, 2 avsluttede) og **6 publikasjoner** som støtter denne retningen — selv om bevisene fra studiene er begrenset av små utvalgsstørrelser og tidlig avslutning.
 
 ---
 
-## Quick Overview
+## Hurtigoversikt
 
-| Item | Content |
+| Emne | Innhold |
 |------|------|
-| Original Indication | Not marketed in Norway (0 authorizations); internationally approved for Medullary Thyroid Cancer (MTC), per literature evidence (PMID 24451769, 32691271) |
-| Predicted New Indication | Renal Cell Carcinoma (disease) |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L3 (Research Question / Decision Stage S1) |
-| Norway Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Opprinnelig indikasjon | Ikke markedsført i Norge (0 godkjennelser); internasjonalt godkjent for medullær tyroidkreft (MTC), ifølge litteraturbevis (PMID 24451769, 32691271) |
+| Forutsagt ny indikasjon | Nyrecellekarsinom (sykdom) |
+| TxGNN-prediksjonspoengsum | 99.92% |
+| Bevisnivå | L3 (Forspørsmål / Beslutningsstadium S1) |
+| Norsk markedsstatus | ✗ Ikke markedsført (Ikke markedsført) |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | **Hold** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Formal mechanism-of-action documentation for vandetanib is currently a data gap (DG002, High severity). Based on the information available within this evidence pack, vandetanib is characterized as a **VEGFR2/EGFR/RET multi-target tyrosine kinase inhibitor** — the same antiangiogenic mechanism shared by already-approved RCC drugs such as sunitinib, pazopanib, and cabozantinib (see literature PMID 28477875, 26677336).
+Formell dokumentasjon av virkningsmekanisme for vandetanib er for tiden et datahull (DG002, høy alvorlighetsgrad). Basert på informasjonen som er tilgjengelig i denne bevissamlingen, er vandetanib karakterisert som en **VEGFR2/EGFR/RET multi-target tyrosinkinas-hemmer** — den samme antiangiogene mekanismen som deles av allerede godkjente RCC-medikamenter som sunitinib, pazopanib og kabozantinib (se litteratur PMID 28477875, 26677336).
 
-Renal cell carcinoma, particularly clear cell and VHL-associated subtypes, is strongly driven by VEGF/HIF pathway overactivation, making VEGFR2 inhibition mechanistically plausible. This is partly supported by a completed Phase 2 trial in VHL-associated renal tumors (NCT00566995, n=37, grade B relevance). However, vandetanib's direct clinical evidence in RCC remains sparse compared to its established, RET-driven mechanism in MTC — most RCC-specific trials for vandetanib were terminated early or severely underpowered (n=3–7), suggesting the mechanistic rationale has not yet translated into robust clinical proof for this specific drug (as opposed to its drug class).
+Nyrecellekarsinom, særlig klarcelle- og VHL-assosierte undertyper, er sterkt drevet av VEGF/HIF-bane overaktivering, noe som gjør VEGFR2-hemming mekanistisk plausibel. Dette støttes delvis av en gjennomført fase 2-studie i VHL-assosierte nyresvulster (NCT00566995, n=37, grad B relevans). Imidlertid forblir vandetanibs direkte kliniske bevis i RCC sparsomt sammenlignet med sin etablerte, RET-drevet mekanisme i MTC — de fleste RCC-spesifikke studier for vandetanib ble avsluttet tidlig eller var alvorlig underpoweret (n=3–7), noe som tyder på at den mekanistiske begrunnelsen ennå ikke har ført til robust klinisk bevis for denne spesifikke medikamenten (i motsetning til dens medikamentklasse).
 
 ---
 
-## Clinical Trial Evidence
+## Klinisk studiebevis
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studinummer | Fase | Status | Inklusjon | Nøkkelfunn |
 |---------|------|------|------|---------|
-| [NCT00566995](https://clinicaltrials.gov/study/NCT00566995) | Phase 2 | Completed | 37 | Vandetanib in VHL-associated renal tumors; single-arm, mechanism-relevant population; no reported efficacy outcome data in this pack (grade B) |
-| [NCT02495103](https://clinicaltrials.gov/study/NCT02495103) | Phase 1/2 | Terminated | 7 | Vandetanib + metformin in HLRCC/SDH-associated or sporadic papillary RCC; extremely small sample, rare subtype (grade C) |
-| [NCT01372813](https://clinicaltrials.gov/study/NCT01372813) | Phase 2 | Terminated | 3 | Vandetanib monotherapy in advanced clear cell RCC; terminated with n=3, no statistical power (grade C) |
-| [NCT01191892](https://clinicaltrials.gov/study/NCT01191892) | Phase 2 | Completed | 82 | Carboplatin/gemcitabine ± vandetanib; regimen is atypical for RCC (more consistent with NSCLC/urothelial protocols) — indication tagging flagged as needing manual verification (grade C) |
+| [NCT00566995](https://clinicaltrials.gov/study/NCT00566995) | Fase 2 | Fullført | 37 | Vandetanib i VHL-assosierte nyresvulster; enkeltarm, mekanismelevant populasjon; ingen rapporterte effektivitetsresultater i denne samlingen (grad B) |
+| [NCT02495103](https://clinicaltrials.gov/study/NCT02495103) | Fase 1/2 | Avsluttet | 7 | Vandetanib + metformin i HLRCC/SDH-assosiert eller sporadisk papillær RCC; ekstremt lite utvalg, sjelden undertype (grad C) |
+| [NCT01372813](https://clinicaltrials.gov/study/NCT01372813) | Fase 2 | Avsluttet | 3 | Vandetanib-monoterapi i avansert klarcelle-RCC; avsluttet med n=3, ingen statistisk styrke (grad C) |
+| [NCT01191892](https://clinicaltrials.gov/study/NCT01191892) | Fase 2 | Fullført | 82 | Carboplatin/gemcitabin ± vandetanib; regime er atypisk for RCC (mer konsistent med NSCLC/urotelialt protokoller) — indikasjonsmerkingen merket som nødvendig for manuell verifisering (grad C) |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Nøkkelfunn |
 |------|-----|------|------|---------|
-| [40779213](https://pubmed.ncbi.nlm.nih.gov/40779213/) | 2025 | Review | Clin Exp Metastasis | Targeted/epigenetic strategies in fumarate hydratase-deficient RCC; no direct vandetanib efficacy data |
-| [36302175](https://pubmed.ncbi.nlm.nih.gov/36302175/) | 2023 | Phase 2 (other drug) | Clin Cancer Res | Guadecitabine trial in SDH-deficient tumors including HLRCC-RCC; comparator mechanism context only |
-| [31043488](https://pubmed.ncbi.nlm.nih.gov/31043488/) | 2019 | Preclinical (mouse model) | Mol Cancer Res | TFE3-RCC mouse model identifies novel therapeutic targets; no vandetanib-specific data |
-| [26677336](https://pubmed.ncbi.nlm.nih.gov/26677336/) | 2015 | Review (other drug) | OncoTargets Ther | Antiangiogenic TKI class review (sunitinib, sorafenib, pazopanib, vandetanib) across solid tumors |
-| [28477875](https://pubmed.ncbi.nlm.nih.gov/28477875/) | 2017 | Review (other drug) | Bull Cancer | Cabozantinib MOA/efficacy review; contextualizes shared VEGFR2/RET target class |
-| [24451769](https://pubmed.ncbi.nlm.nih.gov/24451769/) | 2012 | Review | ASCO Educational Book | Confirms vandetanib's FDA-approved RET-driven mechanism in medullary thyroid cancer — supports original indication context |
+| [40779213](https://pubmed.ncbi.nlm.nih.gov/40779213/) | 2025 | Oversikt | Clin Exp Metastasis | Målrettede/epigenetiske strategier i fumarathydrolase-defisient RCC; ingen direkte vandetanib-effektivitetsdata |
+| [36302175](https://pubmed.ncbi.nlm.nih.gov/36302175/) | 2023 | Fase 2 (annet medikament) | Clin Cancer Res | Guadesitibin-studie i SDH-defisiente tumorer inkludert HLRCC-RCC; kun komparativ mekanisme-kontekst |
+| [31043488](https://pubmed.ncbi.nlm.nih.gov/31043488/) | 2019 | Preklinisk (musemodell) | Mol Cancer Res | TFE3-RCC-musemodell identifiserer nye terapeutiske mål; ingen vandetanib-spesifikk data |
+| [26677336](https://pubmed.ncbi.nlm.nih.gov/26677336/) | 2015 | Oversikt (annet medikament) | OncoTargets Ther | Antiangiogen TKI-klasseoversikt (sunitinib, sorafenib, pazopanib, vandetanib) på tvers av solide tumorer |
+| [28477875](https://pubmed.ncbi.nlm.nih.gov/28477875/) | 2017 | Oversikt (annet medikament) | Bull Cancer | Kabozantinib MOA/effektivitets-oversikt; kontekstualiserer delt VEGFR2/RET-målklasse |
+| [24451769](https://pubmed.ncbi.nlm.nih.gov/24451769/) | 2012 | Oversikt | ASCO Educational Book | Bekrefter vandetanibs FDA-godkjente RET-drevet mekanisme i medullær tyroidkreft — støtter den opprinnelige indikasjonskonteksten |
 
 ---
 
-## Other Predicted Indications (Ranks 2–10, Lower Evidence)
+## Andre forutsåtte indikasioner (Rangeringer 2–10, lavere bevis)
 
-These additional TxGNN-predicted candidates share high prediction scores but lack direct clinical or literature support; all are at decision stage S0 (Hold) except the two entries below.
+Disse ytterligere TxGNN-forutsåtte kandidatene har høy prediksjonspoengsum men mangler direkte klinisk eller litteraturstøtte; alle er på beslutningsstadium S0 (Hold) bortsett fra de to postene nedenfor.
 
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation | Note |
+| Rangering | Sykdom | TxGNN-score | Bevisnivå | Anbefaling | Merknad |
 |------|---------|------|------|------|------|
-| 2 | RCC (Xp11.2/TFE3 fusion) | 99.90% | L5 | Hold | No trials/literature; network-similarity inference only |
-| 3 | RCC associated with neuroblastoma | 99.90% | L5 | Hold | No direct evidence; rare disease association |
-| 4 | Unclassified RCC | 99.90% | L5 | Hold | No direct evidence |
-| 5 | Renal pelvis carcinoma | 99.88% | L4 | Hold | Sole trial (NCT01191892) has questionable indication tagging; histology differs from RCC |
-| 6 | Clear cell renal carcinoma | 99.87% | **L3** | **Research Question** | Strongest sub-evidence: VHL-population trial (NCT00566995) + 16 literature items; overlaps with rank-1 rationale |
-| 7 | Childhood kidney cell carcinoma | 99.86% | L5 | Hold | No pediatric trials/literature; safety in children unestablished |
-| 8 | Renal carcinoma (general) | 99.83% | **L3** | **Research Question** | Aggregates same trials/literature as ranks 1 and 6 |
-| 9 | Angiolipoma | 99.82% | L5 | Hold | No known VEGFR/EGFR/RET pathology link; likely network artifact (e.g., tuberous sclerosis co-morbidity) |
-| 10 | Familial spontaneous pneumothorax | 99.76% | L5 | Hold | No plausible mechanistic link; likely prediction artifact (e.g., Birt-Hogg-Dubé network proximity); not recommended for further investment |
+| 2 | RCC (Xp11.2/TFE3-fusjon) | 99.90% | L5 | Hold | Ingen studier/litteratur; kun nettverks-likhetsinferens |
+| 3 | RCC assosiert med nevroblastom | 99.90% | L5 | Hold | Ingen direkte bevis; sjelden sykdomsassosisasjon |
+| 4 | Iklassifisert RCC | 99.90% | L5 | Hold | Ingen direkte bevis |
+| 5 | Nyrebassengkarsinom | 99.88% | L4 | Hold | Eneste studie (NCT01191892) har usikker indikasjonsmerkingsetiketting; histologi skiller seg fra RCC |
+| 6 | Klarcelle nyrekarsinom | 99.87% | **L3** | **Forspørsmål** | Sterkeste under-bevis: VHL-populasjonsstudie (NCT00566995) + 16 litteraturposter; overlapper med rangering-1-begrunnelse |
+| 7 | Nyrecellekarsinom hos barn | 99.86% | L5 | Hold | Ingen pediatriske studier/litteratur; sikkerhet hos barn ikke etablert |
+| 8 | Nyrekarsinom (generelt) | 99.83% | **L3** | **Forspørsmål** | Aggregerer samme studier/litteratur som rangeringer 1 og 6 |
+| 9 | Angiolipom | 99.82% | L5 | Hold | Ingen kjent VEGFR/EGFR/RET-patologilink; sannsynlig nettverksartefakt (f.eks. tubeøs sclerose-komorbiditet) |
+| 10 | Familial spontan pneumotoraks | 99.76% | L5 | Hold | Ingen plausibel mekanistisk link; sannsynlig prediksjonsartefakt (f.eks. Birt-Hogg-Dubé nettverksnærvær); ikke anbefalt for videre investering |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Vandetanib currently holds **0 marketing authorizations** in Norway (market status: Not marketed / Not Marketed). No product listings, dosage forms, or approved indication text are available in the regulatory dataset for this drug.
+Vandetanib har for øyeblikket **0 markedsføringsgodkjennelser** i Norge (markedsstatus: Ikke markedsført / Ikke markedsført). Ingen produktoppføringer, doseringsformer eller godkjent indikasjonsinformasjon er tilgjengelige i det regulatoriske datasettet for dette legemidlet.
 
 ---
 
-## Cytotoxicity
+## Cytotoksisitet
 
-Vandetanib is an antineoplastic agent (targeted kinase inhibitor class; approved indication involves cancer treatment), so this section applies.
+Vandetanib er et antineoplastisk middel (målrettet kinase-hemmerklasse; godkjent indikasjon gjelder kreftbehandling), så denne delen gjelder.
 
-| Item | Content |
+| Emne | Innhold |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy — multi-target tyrosine kinase inhibitor (VEGFR2, EGFR, RET) |
-| Myelosuppression Risk | Low — TKIs generally cause less myelosuppression than conventional cytotoxics; class-wide hepatotoxicity (PMID 23981115) and proteinuria (PMID 32105149) are more prominent reported risks |
-| Emetogenicity Classification | Low to Moderate (typical for oral TKIs) |
-| Monitoring Items | Liver function tests, renal function/urinalysis (proteinuria monitoring), blood pressure, baseline CBC; a class-wide treatment-related mortality meta-analysis (PMID 22651902) supports close monitoring during therapy |
-| Handling Protection | TFDA package insert is not yet available (Blocking data gap, DG001) — formal handling protocol cannot be confirmed; standard oral antineoplastic handling precautions recommended pending resolution |
+| Cytotoksisitetsklassifisering | Målrettet terapi — multi-target tyrosinkinas-hemmer (VEGFR2, EGFR, RET) |
+| Myelosuppresjonsrisiko | Lav — TKI-er forårsaker generelt mindre myelosuppresjon enn konvensjonelle cytotoksiske midler; klasse-bred hepatotoksisitet (PMID 23981115) og proteinuri (PMID 32105149) er mer fremtredende rapporterte risikofaktorer |
+| Emetogenisitetsklassifisering | Lav til moderat (typisk for oral TKI-er) |
+| Overvåkingspunkter | Leverfunksjonstester, nyrefunksjon/urinanalyse (proteinuri-overvåking), blodtrykk, baseline CBC; en klasse-bred behandlings-relatert dødelighets metaanalyse (PMID 22651902) støtter nøye overvåking under terapi |
+| Håndteringsbeskyttelse | TFDA pakningsvedlegg er ennå ikke tilgjengelig (blokkerings-datahull, DG001) — formell håndteringsprosedyre kan ikke bekreftes; standard oral antineoplastisk håndteringsforsiktigheter anbefales mens løsning venter |
 
 ---
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information. Formal warnings, contraindications, and drug-drug interaction data for vandetanib are not yet available in this evidence pack (DG001, Blocking severity) — this gap currently **prevents completion of the S1 safety pre-assessment**.
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Formelle advarsler, kontraindikasjoner og legemiddel-legemiddel interaksjonsdata for vandetanib er ennå ikke tilgjengelige i denne bevissamlingen (DG001, blokkerings alvorlighetsgrad) — dette gapet **hindrer fullføringen av sikkerhetsvurderingen på S1-stadiet**.
 
 ---
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Hold**
 
-**Rationale:**
-The strongest candidate indication (renal cell carcinoma, rank 1) reaches only evidence level L3 (Research Question stage), supported by trials that are largely terminated or severely underpowered (n=3–7), with only one adequately sized completed trial (n=37) in a rare VHL-associated subgroup. Critically, TFDA safety/warning data is a **Blocking** data gap, which prevents the mandatory S1 safety pre-assessment from being completed, and the drug is not currently marketed in Norway.
+**Begrunnelse:**
+Den sterkeste kandidatindikasionen (nyrecellekarsinom, rangering 1) når bare bevisnivå L3 (Forspørsmål-stadiet), og støttes av studier som i stor grad enten er avsluttet eller kraftig underpoweret (n=3–7), med bare en gjennomført studie med tilstrekkelig størrelse (n=37) i en sjelden VHL-assosiert undergruppe. Kritisk sett er TFDA sikkerhet/advarselsdata et **blokkerings**-datahull, som hindrer den obligatoriske sikkerhetsvurderingen på S1-stadiet fra å bli fullført, og legemidlet er ikke for øyeblikket markedsført i Norge.
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain TFDA or equivalent regulatory package insert data on warnings and contraindications
-- Resolve DG002 (High): obtain formal MOA documentation from DrugBank or equivalent source
-- Clarify apparent indication mislabeling in NCT01191892 (regimen more consistent with NSCLC/urothelial than RCC)
-- Identify larger, adequately powered RCC-specific trials for vandetanib (current trials are terminated or underpowered)
-- Assess Norway market entry / import pathway feasibility given current "not marketed" status
+**For å fortsette er følgende nødvendig:**
+- Løs DG001 (blokkering): innhent TFDA eller tilsvarende regulatorisk pakningsvedleggdata om advarsler og kontraindikasjoner
+- Løs DG002 (høy): innhent formell MOA-dokumentasjon fra DrugBank eller tilsvarende kilde
+- Avklar tilsynelatende indikasjonsfeilmerking i NCT01191892 (regime mer konsistent med NSCLC/urotelialt enn RCC)
+- Identifiser større, tilstrekkelig poweret RCC-spesifikke studier for vandetanib (nåværende studier er avsluttet eller underpoweret)
+- Vurder norsk markedsinngang / importveigjennomførbarhet gitt nåværende status som "ikke markedsført"
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

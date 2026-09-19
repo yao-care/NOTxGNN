@@ -29,100 +29,99 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Sebelipase Alfa: From Unmarketed Status in Norway to Lysosomal Acid Lipase Deficiency (Wolman Disease / Cholesteryl Ester Storage Disease)
+# Sebelipase alfa: Fra uten markedsstatus i Norge til Lysosomal Acid Lipase Deficiency (Wolman-sykdom / Cholesteryl Ester Storage Disease)
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-Sebelipase alfa is not currently on the Norwegian market and has no locally recorded approved indication.
-The TxGNN model — after filtering out several mechanistically implausible top hits — correctly converges on **Lysosomal Acid Lipase Deficiency (LAL-D)**, spanning the infantile-onset form (**Wolman disease**) and the later-onset form (**Cholesteryl Ester Storage Disease, CESD**), supported by **9 clinical trials (including 1 completed Phase 3 RCT)** and **~19 publications**.
+Sebelipase alfa er ikke for tiden på det norske markedet og har ingen lokalt registrert godkjent indikasjon.
+TxGNN-modellen — etter filtrering av flere mekanistisk usannsynlige toppsjanser — konvergerer korrekt på **Lysosomal Acid Lipase Deficiency (LAL-D)**, som spenner over infantil-debut-formen (**Wolman-sykdom**) og senere-debut-formen (**Cholesteryl Ester Storage Disease, CESD**), støttet av **9 kliniske forsøk (inkludert 1 fullført fase 3 RCT)** og **~19 publikasjoner**.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Punkt | Innhold |
 |------|------|
-| Original Indication | None on file — not marketed in Norway (data gap). Globally approved as Kanuma® for LAL-D since 2015 (PMID 26452566). |
-| Predicted New Indication | Lysosomal Acid Lipase Deficiency (Wolman disease / Cholesteryl Ester Storage Disease) |
-| TxGNN Prediction Score | ~99.7% (Wolman disease 99.72% / CESD 99.72%) |
-| Evidence Level | L2 (1 completed pivotal Phase 3 RCT — ARISE, NCT01757184 — plus multiple long-term cohort/extension studies) |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Opprinnelig indikasjon | Ingen på fil — ikke markedsført i Norge (dataforskjell). Globalt godkjent som Kanuma® for LAL-D siden 2015 (PMID 26452566). |
+| Forutsagt ny indikasjon | Lysosomal Acid Lipase Deficiency (Wolman-sykdom / Cholesteryl Ester Storage Disease) |
+| TxGNN prediksjonspoengsum | ~99.7% (Wolman-sykdom 99.72% / CESD 99.72%) |
+| Bevisnivå | L2 (1 fullført pivot fase 3 RCT — ARISE, NCT01757184 — pluss flere langsiktige kohort-/forlengelsestudier) |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt avgjørelse | Fortsett med sikkerhetstiltak |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-The DrugBank-sourced mechanism-of-action field in this evidence pack is a confirmed data gap. However, the literature evidence retrieved for this candidate independently establishes the mechanism: sebelipase alfa is a **recombinant human lysosomal acid lipase (rhLAL)** enzyme-replacement therapy (Shirley, *Drugs* 2015, PMID 26452566). It directly supplies the enzyme that is absent or deficient in LAL-D — a 1:1 enzyme-substrate correction, not an indirect similarity heuristic.
+DrugBank-kildendatafeltets virkningsmekanisme i denne evidenspakken er en bekreftet datahull. Imidlertid etablerer litteraturbeviset som er hentet for denne kandidaten mekanismen uavhengig: sebelipase alfa er en **rekombinant humant lysosomal acid lipase (rhLAL)** enzymerstattingsterapi (Shirley, *Drugs* 2015, PMID 26452566). Det leverer direkte enzymet som er fraværende eller mangelfull i LAL-D — en 1:1 enzym-substratkorrigering, ikke en indirekte lighetsteheuristikk.
 
-This matters because the raw TxGNN ranking (predicted_indications ranks 1–10) is dominated by other lysosomal storage diseases that share phenotypic embedding space but have **unrelated deficient enzymes**: Scheie/Hurler syndrome (α-L-iduronidase), Gaucher disease (glucocerebrosidase), Tay-Sachs disease (hexosaminidase A). None of these would be corrected by rhLAL, and the evidence pack's own rationale annotations explicitly flag them as mechanistically unsupported (Hold, L5, no clinical evidence). By contrast, Wolman disease and CESD are simply the two ends of the **same LAL-D disease spectrum** that sebelipase alfa was originally developed for — the trial program listed under "cholesteryl ester storage disease" (rank 4) in fact enrolled both infantile Wolman-disease patients and late-onset CESD patients, which explains why the Wolman-disease entry (rank 5) shows 0 trials in its own record despite having a completed L2/S3 evidence assessment — a database classification artifact rather than an evidence gap.
+Dette er viktig fordi råTxGNN-rangeringen (predicted_indications ranger 1–10) er dominert av andre lysosomale lagringssykdommer som deler fenotypisk innebygd plass, men har **urelated mangelfule enzymer**: Scheie/Hurler-syndrom (α-L-iduronidase), Gaucher-sykdom (glukoserebrosidasee), Tay-Sachs-sykdom (heksosaminidase A). Ingen av disse ville blitt korrigert av rhLAL, og evidenspakkens egen rasjonale merking markerer eksplisitt dem som mekanistisk ustøttet (Hold, L5, ingen kliniske bevis). I kontrast er Wolman-sykdom og CESD rett og slett de to endene av det **samme LAL-D-sykdomsspekteret** som sebelipase alfa opprinnelig ble utviklet for — forsøksprogrammet som er oppført under "cholesteryl ester storage disease" (rang 4) innrullerte faktisk både infantile Wolman-sykdomspasienter og senoppstått CESD-pasienter, noe som forklarer hvorfor Wolman-sykdom-posten (rang 5) viser 0 forsøk i sin egen registrering til tross for å ha en fullført L2/S3 evidensvurdering — en databaseklassifiseringsartefakt snarere enn et datahull.
 
-In practical terms, this "prediction" is not a novel repurposing hypothesis but a **re-identification of the drug's own established global indication** in a market (Norway) where it currently has no authorization. The clinical utility of this report is therefore less about new pharmacology and more about flagging a market-entry / registration gap.
+I praksis er denne "prediksjonen" ikke en nyskapende ombrukshypotese, men en **gjenidentifisering av medikamentets eget etablerte globale indikasjon** i et marked (Norge) der det for tiden ikke har noen autorisasjon. Den kliniske nytten av denne rapporten er derfor mindre om ny farmakologi og mer om å identifisere et markeds-inngangs-/autorisasjonshull.
 
 ---
 
-## Clinical Trial Evidence
+## Klinisk prøvebevis
 
-*(Pooled from the CESD/LAL-D trial program, which encompasses both Wolman disease and CESD patients)*
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Antall innrullert | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT01757184](https://clinicaltrials.gov/study/NCT01757184) | Phase 3 | Completed | 66 | Pivotal randomized placebo-controlled trial (ARISE) of sebelipase alfa 1 mg/kg IV every other week in late-onset LAL-D (CESD) |
-| [NCT02112994](https://clinicaltrials.gov/study/NCT02112994) | Phase 2 | Completed | 31 | Multicenter open-label safety/efficacy study across a broad LAL-D population |
-| [NCT02193867](https://clinicaltrials.gov/study/NCT02193867) | Phase 2 | Terminated | 10 | Weekly infusions up to 3 years in infants with rapidly progressive LAL-D (Wolman disease) |
-| [NCT01371825](https://clinicaltrials.gov/study/NCT01371825) | Phase 2/3 | Completed | 9 | Dose-escalation study in children with growth failure due to LAL-D, weekly dosing up to 5 years |
-| [NCT01488097](https://clinicaltrials.gov/study/NCT01488097) | Phase 2 | Completed | 8 | Extension study evaluating long-term safety/tolerability in adults with LAL-D-related liver dysfunction |
-| [NCT01307098](https://clinicaltrials.gov/study/NCT01307098) | Phase 1/2 | Completed | 9 | First-in-human dose-escalation study in adults with LAL-D-related liver dysfunction |
-| [NCT02376751](https://clinicaltrials.gov/study/NCT02376751) | N/A | No longer available | N/A | Expanded access protocol for LAL-D patients pending commercial availability |
-| [NCT02926872](https://clinicaltrials.gov/study/NCT02926872) | N/A | Terminated | 22 | DETECT: screening for LAL-D as underlying cause of pediatric liver injury |
-| [NCT04532047](https://clinicaltrials.gov/study/NCT04532047) | Phase 1 | Recruiting | 10 | PEARL basket trial: in-utero enzyme replacement feasibility across multiple LSDs (not LAL-D specific; low direct relevance) |
+| [NCT01757184](https://clinicaltrials.gov/study/NCT01757184) | Fase 3 | Fullført | 66 | Pivot randomisert placebokontrollert forsøk (ARISE) med sebelipase alfa 1 mg/kg IV hver annen uke ved senoppstått LAL-D (CESD) |
+| [NCT02112994](https://clinicaltrials.gov/study/NCT02112994) | Fase 2 | Fullført | 31 | Flersenter åpen sikkerhet/effektivitetsstudie på tvers av bred LAL-D-populasjon |
+| [NCT02193867](https://clinicaltrials.gov/study/NCT02193867) | Fase 2 | Avsluttet | 10 | Ukentlige infusjoner opp til 3 år hos spedbarn med raskt progrederende LAL-D (Wolman-sykdom) |
+| [NCT01371825](https://clinicaltrials.gov/study/NCT01371825) | Fase 2/3 | Fullført | 9 | Dosestegringsstudie hos barn med vekstsvikt på grunn av LAL-D, ukentlig dosering opp til 5 år |
+| [NCT01488097](https://clinicaltrials.gov/study/NCT01488097) | Fase 2 | Fullført | 8 | Fortsettelsesstudie som evaluerer langsiktig sikkerhet/tolerabilitet hos voksne med LAL-D-relatert leversvikt |
+| [NCT01307098](https://clinicaltrials.gov/study/NCT01307098) | Fase 1/2 | Fullført | 9 | Første-hos-mennesker dosestegringsstudie hos voksne med LAL-D-relatert leversvikt |
+| [NCT02376751](https://clinicaltrials.gov/study/NCT02376751) | N/A | Ikke lenger tilgjengelig | N/A | Protokoll for utvidet tilgang for LAL-D-pasienter i påvente av kommersiell tilgjengelighet |
+| [NCT02926872](https://clinicaltrials.gov/study/NCT02926872) | N/A | Avsluttet | 22 | DETECT: screening for LAL-D som underliggende årsak til pediatrisk leverskade |
+| [NCT04532047](https://clinicaltrials.gov/study/NCT04532047) | Fase 1 | Rekrutterer | 10 | PEARL basket-forsøk: in-utero enzymerstattingsgjennomførbarhet på tvers av flere LSDs (ikke LAL-D-spesifikk; lav direkte relevans) |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [34774639](https://pubmed.ncbi.nlm.nih.gov/34774639/) | 2022 | RCT (extension) | Journal of Hepatology | Final results of Phase 3 ARISE study; sebelipase alfa efficacy/safety in children and adults with LAL-D |
-| [35442238](https://pubmed.ncbi.nlm.nih.gov/35442238/) | 2022 | Cohort | J Pediatr Gastroenterol Nutr | Long-term treatment outcomes from single-arm open-label study (NCT02112994) |
-| [34906190](https://pubmed.ncbi.nlm.nih.gov/34906190/) | 2021 | Cohort (10-yr) | Orphanet J Rare Dis | Nationwide cohort of ERT in Wolman disease with up to 10 years of follow-up |
-| [29628368](https://pubmed.ncbi.nlm.nih.gov/29628368/) | 2018 | Cohort | J Clin Lipidol | Sebelipase alfa improves atherogenic biomarkers (Phase 3 ARISE data) |
-| [38918870](https://pubmed.ncbi.nlm.nih.gov/38918870/) | 2024 | Case series | Orphanet J Rare Dis | Twice-weekly dosing rescues severely ill infants with Wolman disease |
-| [28179030](https://pubmed.ncbi.nlm.nih.gov/28179030/) | 2017 | Open-label dose-escalation | Orphanet J Rare Dis | Survival outcomes in infants treated with sebelipase alfa |
-| [33407676](https://pubmed.ncbi.nlm.nih.gov/33407676/) | 2021 | Long-term follow-up | Orphanet J Rare Dis | Long-term survival with sebelipase alfa in rapidly progressive LAL-D (final results, 2 open-label studies) |
-| [40781810](https://pubmed.ncbi.nlm.nih.gov/40781810/) | 2025 | Registry | Liver International | International registry data: sebelipase alfa improves aminotransferase levels |
-| [39770929](https://pubmed.ncbi.nlm.nih.gov/39770929/) | 2024 | Review | Nutrients | Practical diagnosis/management recommendations for LAL-D, focus on Wolman disease |
-| [26452566](https://pubmed.ncbi.nlm.nih.gov/26452566/) | 2015 | Review | Drugs | Sebelipase alfa: first global approval |
+| [34774639](https://pubmed.ncbi.nlm.nih.gov/34774639/) | 2022 | RCT (forlengelse) | Journal of Hepatology | Endelige resultater fra fase 3 ARISE-studie; sebelipase alfa effektivitet/sikkerhet hos barn og voksne med LAL-D |
+| [35442238](https://pubmed.ncbi.nlm.nih.gov/35442238/) | 2022 | Kohort | J Pediatr Gastroenterol Nutr | Langsiktige behandlingsresultater fra enkeltarms åpen studie (NCT02112994) |
+| [34906190](https://pubmed.ncbi.nlm.nih.gov/34906190/) | 2021 | Kohort (10-år) | Orphanet J Rare Dis | Nasjonal kohort av ERT ved Wolman-sykdom med opp til 10 års oppfølging |
+| [29628368](https://pubmed.ncbi.nlm.nih.gov/29628368/) | 2018 | Kohort | J Clin Lipidol | Sebelipase alfa forbedrer aterogeniske biomerker (fase 3 ARISE-data) |
+| [38918870](https://pubmed.ncbi.nlm.nih.gov/38918870/) | 2024 | Kasusserie | Orphanet J Rare Dis | To ganger ukentlig dosering redder alvorlig syke spedbarn med Wolman-sykdom |
+| [28179030](https://pubmed.ncbi.nlm.nih.gov/28179030/) | 2017 | Åpen dosestegringsstudie | Orphanet J Rare Dis | Overlevelsesresultater hos spedbarn behandlet med sebelipase alfa |
+| [33407676](https://pubmed.ncbi.nlm.nih.gov/33407676/) | 2021 | Langsiktig oppfølging | Orphanet J Rare Dis | Langsiktig overlevelse med sebelipase alfa ved raskt progrederende LAL-D (endelige resultater, 2 åpne studier) |
+| [40781810](https://pubmed.ncbi.nlm.nih.gov/40781810/) | 2025 | Register | Liver International | Internasjonale registerdata: sebelipase alfa forbedrer aminotransferasenivåer |
+| [39770929](https://pubmed.ncbi.nlm.nih.gov/39770929/) | 2024 | Oversikt | Nutrients | Praktiske anbefalinger for diagnose/behandling av LAL-D, fokus på Wolman-sykdom |
+| [26452566](https://pubmed.ncbi.nlm.nih.gov/26452566/) | 2015 | Oversikt | Drugs | Sebelipase alfa: første globale godkjenning |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Sebelipase alfa currently holds no marketing authorization in Norway and no license records are available in the evidence pack (`total_licenses: 0`).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> Note: The evidence base independently indicates infusion-associated hypersensitivity is a known clinical concern with sebelipase alfa (e.g., PMID 38572778 describes a 14-step desensitization protocol for a Wolman-disease patient), but no structured warnings, contraindications, or DDI data are present in the DrugBank-sourced safety fields of this evidence pack (DG001, blocking severity).
+Sebelipase alfa har for tiden ingen markedsføringstillatelse i Norge, og ingen lisensregistreringer er tilgjengelige i evidenspakken (`total_licenses: 0`).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-**Rationale:**
-The core drug-disease pairing (sebelipase alfa → LAL-D/Wolman disease/CESD) is mechanistically direct and backed by a completed pivotal Phase 3 RCT (ARISE) plus multiple long-term cohort and registry studies — this is in fact the drug's own globally approved indication (Kanuma®, approved since 2015), not a speculative repurposing hypothesis. However, the drug is entirely unmarketed in Norway and this specific evidence pack is missing safety/label data, so the appropriate next step is a guarded regulatory-entry pathway rather than an unconditional "Go."
+> Merknad: Evidensgrunnlaget indikerer uavhengig at infusjonsrelatert hypersensitivitet er et kjent klinisk problem med sebelipase alfa (f.eks. PMID 38572778 beskriver en 14-trinns desensitiseringsprotokoll for en Wolman-sykdomspassient), men ingen strukturerte advarsler, kontraindikasjoner eller DDI-data er tilstede i DrugBank-kilder sikkerhetsfeltene i denne evidenspakken (DG001, blocking severity).
 
-**To proceed, the following is needed:**
-- TFDA/Norwegian-equivalent label data — key warnings, contraindications (DG001, blocking; requires PDF label retrieval)
-- Structured DrugBank MOA record (DG002)
-- Formal Norway market authorization / import license assessment, since the drug has no local regulatory footprint
-- Explicit exclusion of the other TxGNN top-10 candidates (Scheie syndrome, Hurler syndrome, growth hormone insensitivity syndrome, Gaucher disease, lysosomal storage disease with skeletal involvement, autosomal ichthyosis syndrome, Tay-Sachs disease, benign adrenal neoplasm) from further review — all lack mechanistic plausibility and supporting evidence per the rationale annotations in this pack
+---
+
+## Konklusjon og neste trinn
+
+**Avgjørelse: Fortsett med sikkerhetstiltak**
+
+**Begrunnelse:**
+Kjernemedikament-sykdom-parringen (sebelipase alfa → LAL-D/Wolman-sykdom/CESD) er mekanistisk direkte og støttet av en fullført pivot fase 3 RCT (ARISE) pluss flere langsiktige kohort- og registerstudier — dette er faktisk medikamentets eget globalt godkjent indikasjon (Kanuma®, godkjent siden 2015), ikke en spekulativ ombrukshypotese. Imidlertid er medikamentet helt uten markedsføring i Norge, og denne spesifikke evidenspakken mangler sikkerhet/merkingdata, så det passende neste trinnet er en forsiktig regulatorisk inngangs-vei snarere enn et ubetinget "Go."
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA/norsk-tilsvarende merkingdata — viktige advarsler, kontraindikasjoner (DG001, blocking; krever PDF-merkingsforspørsel)
+- Strukturert DrugBank MOA-post (DG002)
+- Formell vurdering av norsk markedsautorisasjon/importlisens, siden medikamentet ikke har noe lokalt regulatorisk fotavtrykk
+- Eksplisitt eksklusjon av de andre TxGNN top-10-kandidatene (Scheie-syndrom, Hurler-syndrom, veksthormoninsensitivitetssyndrom, Gaucher-sykdom, lysosomale lagringssykdommer med skjelettbetegnelse, autosomalt ichthyosis-syndrom, Tay-Sachs-sykdom, godartet binyresvulst) fra videre gjennomgang — alle mangler mekanistisk plausibilitet og støttende bevis per rasjonale merknader i denne pakken
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

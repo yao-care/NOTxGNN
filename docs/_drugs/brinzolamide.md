@@ -29,74 +29,75 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Brinzolamide: From Glaucoma to Primary Hereditary Glaucoma
+# Brinzolamid: Fra glaukom til primært arvelig glaukom
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-Brinzolamide is a carbonic anhydrase (CA-II/CA-IV) inhibitor used topically to lower intraocular pressure in glaucoma and ocular hypertension. The TxGNN model predicts it may also be effective for **Primary Hereditary Glaucoma**, a genetically distinct glaucoma subtype, but this prediction is currently supported by **no clinical trials or published literature** — it is a model-only signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in current data source (DrugBank field empty) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
-| TxGNN Prediction Score | 99.48% |
-| Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Brinzolamid er en topikalt anvendt inhibitor av kullsyreanhydrase (CA-II/CA-IV) som senker intraokulært trykk ved glaukom og okulær hypertensjon. TxGNN-modellen forutsier at det også kan være effektivt for **Primært arvelig glaukom**, en genetisk distinkt glaukomsubtype, men denne prediksjonen støttes for tiden av **ingen kliniske studier eller publisert litteratur** — det er et modell-kun signal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available in the structured `original_moa` field. However, based on the repurposing rationale supplied with this evidence pack, brinzolamide is known to act as a carbonic anhydrase (CA-II/CA-IV) inhibitor, acting locally on the ciliary body epithelium to reduce aqueous humor production and lower intraocular pressure — the established pharmacological basis for treating primary open-angle glaucoma and ocular hypertension.
-
-The predicted new indication, primary hereditary glaucoma, shares the same downstream pathophysiology (elevated intraocular pressure from aqueous humor dynamics imbalance) as the drug's established use. This makes the mechanistic link plausible at the level of intraocular pressure control.
-
-However, primary hereditary glaucoma is a genetically defined subtype (e.g., associated with *MYOC* or *CYP1B1* mutations) with a distinct etiology from sporadic open-angle glaucoma. Whether CA inhibition adequately addresses the underlying disease process in these genetic subtypes — rather than simply managing a shared downstream symptom (elevated IOP) — has not been established. This should therefore not be treated as a straightforward extension of an existing approved indication, but as a hypothesis requiring dedicated evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|------|---------|
+| Opprinnelig indikasjon | Ikke tilgjengelig i gjeldende datakilde (DrugBank-felt tomt) |
+| Predikert ny indikasjon | Primært arvelig glaukom |
+| TxGNN-prediksjonspoeng | 99.48% |
+| Bevisnivå | L5 |
+| Taiwan-markedsstatus | ✗ Ikke markedsført (Ikke markedsført) |
+| Antall autorisasjoner | 0 |
+| Anbefalt avgjørelse | Avvente |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+For tiden er detaljert mekanismedata ikke tilgjengelig i det strukturerte `original_moa`-feltet. Imidlertid, basert på omformålingsbegrunnelsen som følger med denne dokumentpakken, er brinzolamid kjent for å virke som en kullsyreanhydraseinhibitor (CA-II/CA-IV) som virker lokalt på epitelet i flimmerlegemet for å redusere produksjonen av akvøs humor og senke det intraokulære trykket — det etablerte farmakologiske grunnlaget for behandling av primært åpenvinkel-glaukom og okulær hypertensjon.
 
----
+Den predikerte nye indikasjonen, primært arvelig glaukom, deler samme nedstrømsfysiologi (forhøyet intraokulært trykk fra ubalanse i akvøs humor-dynamikk) som stoffets etablerte bruk. Dette gjør den mekanistiske forbindelsen plausibel på nivå av intraokulært trykkontroll.
 
-## Taiwan Market Information
-
-Brinzolamide currently holds no marketing authorization in this jurisdiction (0 licenses on record); no product listing is available.
+Imidlertid er primært arvelig glaukom en genetisk definert subtype (f.eks. assosiert med *MYOC* eller *CYP1B1* mutasjoner) med en distinkt etiologi fra sporadisk åpenvinkel-glaukom. Hvorvidt CA-inhibisjon på adekvat måte adresserer den underliggende sykdomprosessen i disse genetiske subtypene — heller enn bare å håndtere et delt nedstrøms-symptom (forhøyet IOP) — har ikke blitt etablert. Dette bør derfor ikke behandles som en rett videreføring av en eksisterende godkjent indikasjon, men som en hypotese som krever dedikert evidens.
 
 ---
 
-## Safety Considerations
+## Klinisk studieevidens
 
-Please refer to the package insert for safety information. Note: TFDA label warnings/contraindications data has not yet been retrieved (data gap, blocking severity — required before any Stage 1 safety assessment can proceed).
+For tiden er det ingen relaterte kliniske studier registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For tiden er det ingen relatert litteratur tilgjengelig.
 
-**Rationale:**
-The TxGNN prediction score is high, but there is zero clinical trial or literature evidence, and the predicted indication (a genetic glaucoma subtype) is mechanistically distinct enough from the drug's established use that mechanism alone is insufficient support. This is an L5, model-only signal.
+---
 
-**To proceed, the following is needed:**
-- TFDA label warnings/contraindications (blocking gap — required before any safety evaluation)
-- Confirmed original indication and MOA from DrugBank or label source
-- Preclinical or genetic-subtype-specific evidence linking CA inhibition to hereditary glaucoma pathophysiology (not just IOP control)
-- Any case reports, registries, or trials specifically in hereditary/genetic glaucoma populations
+## Taiwan-markedsinformasjon
+
+Brinzolamid holder for tiden ingen markedsføringsgodkjenning i denne jurisdiksjonen (0 lisenser på register); ingen produktlisting er tilgjengelig.
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon. Merk: TFDA-etikettadvarsler/kontraindikasjoner-data har ikke blitt hentet ennå (datahull som blokkerer alvorlighetsgrad — påkrevd før enhver fase 1 sikkerhetsvurdering kan gjennomføres).
+
+---
+
+## Konklusjon og neste trinn
+
+**Avgjørelse: Avvente**
+
+**Begrunnelse:**
+TxGNN-prediksjonspoengsum er høyt, men det er null klinisk studie eller litteraturbeviser, og den predikerte indikasjonen (en genetisk glaukomsubtype) er mekanistisk distinkt nok fra stoffets etablerte bruk til at mekanisme alene er utilstrekkelig støtte. Dette er et L5, modell-kun signal.
+
+**For å fortsette, er følgende påkrevd:**
+- TFDA-etikettadvarsler/kontraindikasjoner (datahull som blokkerer — påkrevd før enhver sikkerhetsvurdering)
+- Bekreftet opprinnelig indikasjon og MOA fra DrugBank eller etikett-kilde
+- Preklinisk eller genetisk-subtype-spesifikk evidens som kobler CA-inhibisjon til arvelig glaukom-patofysiologi (ikke bare IOP-kontroll)
+- Eventuelle kasuistikker, registre, eller studier spesifikt i arvelig/genetisk glaukom-populasjoner
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

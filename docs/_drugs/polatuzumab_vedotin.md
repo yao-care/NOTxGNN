@@ -29,87 +29,88 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Polatuzumab Vedotin: From B-cell Lymphoma to HER2 Positive Breast Carcinoma
+# Polatuzumab Vedotin: Fra B-cellelymfom til HER2-positivt brystkreft
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-Polatuzumab vedotin is an antibody-drug conjugate (ADC) targeting CD79b, currently approved for B-cell malignancies such as diffuse large B-cell lymphoma (DLBCL). TxGNN predicts a possible link to **HER2 positive breast carcinoma**, but this prediction is currently supported by **no clinical trials and no published literature** — it rests solely on a model score (**Evidence Level L5**).
+Polatuzumab vedotin er et antistoff-legemiddel-konjugat (ADC) som retter seg mot CD79b, og er for tiden godkjent for B-cellemaligniteter som diffust storcellet B-cellelymfom (DLBCL). TxGNN forutsier en mulig sammenheng med **HER2-positivt brystkreft**, men denne prediksjon støttes for tiden ikke av **noen kliniske forsøk og ingen publisert litteratur** — den hviler utelukkende på et modellresultat (**bevisnivå L5**).
 
 ---
 
-## Quick Overview
+## Kort oversikt
 
-| Item | Content |
+| Emne | Innhold |
 |------|------|
-| Original Indication | Diffuse large B-cell lymphoma (DLBCL) and other B-cell malignancies (per drug mechanism description; not present as structured data) |
-| Predicted New Indication | HER2 positive breast carcinoma |
-| TxGNN Prediction Score | 99.34% |
-| Evidence Level | L5 |
-| Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Diffust storcellet B-cellelymfom (DLBCL) og andre B-cellemaligniteter (basert på beskrivelse av legemiddelmekanisme; ikke tilstede som strukturerte data) |
+| Forutsagt ny indikasjon | HER2-positivt brystkreft |
+| TxGNN prediksjonspoeng | 99.34 % |
+| Bevisnivå | L5 |
+| Markedsstatus | Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvente |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Polatuzumab vedotin is an antibody-drug conjugate that selectively delivers the cytotoxin MMAE (monomethyl auristatin E) to B cells expressing CD79b, a component of the B-cell receptor complex. It is currently approved for DLBCL and other B-cell malignancies. The evidence pack's structured `original_moa` field is marked as a data gap, but this mechanism can be inferred from the model's rationale text.
+Polatuzumab vedotin er et antistoff-legemiddel-konjugat som selektivt leverer det cytotoksiske legemidlet MMAE (monomethyl auristatin E) til B-celler som uttrykker CD79b, en komponent av B-celle-reseptorkomplekset. Det er for tiden godkjent for DLBCL og andre B-cellemaligniteter. Feltet `original_moa` i evidenspakken er merket som datamangel, men denne mekanismen kan utledes fra modellens begrunnelsestekst.
 
-HER2 positive breast carcinoma and DLBCL belong to entirely different tumor biology categories — the former is an epithelial tumor driven by HER2 overexpression, while the latter is a hematologic malignancy of B-cell origin. CD79b is not a marker expressed on HER2 positive breast cancer cells, so there is no shared drug target between the original and predicted indications.
+HER2-positivt brystkreft og DLBCL tilhører helt ulike tumorbiologi-kategorier — førstnevnte er en epitelial tumor drevet av HER2-overekspresjon, mens sistnevnte er en hematologisk malignitet av B-celle-opprinnelse. CD79b er ikke en markør som uttrykkes på HER2-positive brystkreftceller, så det er ingen delt mål mellom opprinnelig og forutsagt indikasjon.
 
-Given this, the current prediction should be treated as a statistical association produced by the TxGNN graph model rather than a mechanistically grounded hypothesis. Without any supporting mechanistic, clinical, or literature evidence, this candidate is best classified as a likely false positive at this stage.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Gitt dette, bør gjeldende prediksjon behandles som en statistisk assosiasjon produsert av TxGNN-grafmodellen snarere enn en mekanistisk begrunnet hypotese. Uten noen støttende mekanistisk, klinisk eller litteraturbevis, er denne kandidaten best klassifisert som et falskt positivt resultat på dette stadiet.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske forsøk
 
-Currently no related literature available
-
----
-
-## Market Information
-
-No marketing authorizations are currently on record for this drug (0 licenses, market status: not marketed).
+For tiden ingen relaterte kliniske forsøk registrert
 
 ---
 
-## Cytotoxicity
+## Bevis fra litteratur
 
-Polatuzumab vedotin is an antibody-drug conjugate that delivers a cytotoxic payload (MMAE) and is classified as an antineoplastic agent.
+For tiden ingen relatert litteratur tilgjengelig
 
-| Item | Content |
+---
+
+## Markedsinformasjon
+
+Det er for tiden ingen markedsføringstillatelser registrert for dette legemidlet (0 lisenser, markedsstatus: ikke markedsført).
+
+---
+
+## Cytotoksisitet
+
+Polatuzumab vedotin er et antistoff-legemiddel-konjugat som leverer en cytotoksisk nyttelast (MMAE) og er klassifisert som et antineoplastisk middel.
+
+| Emne | Innhold |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy — antibody-drug conjugate (ADC) delivering cytotoxic payload (MMAE) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Must follow cytotoxic drug handling regulations, consistent with ADC/cytotoxic payload agents |
+| Cytotoksisitetsklassifisering | Målrettet terapi — antistoff-legemiddel-konjugat (ADC) som leverer cytotoksisk nyttelast (MMAE) |
+| Risiko for myelosuppresjon | Se pakningsvedlegg for advarsler og forholdsregler |
+| Klassifisering av emetogenitet | Se pakningsvedlegg for advarsler og forholdsregler |
+| Overvåkingspunkter | Se pakningsvedlegg for advarsler og forholdsregler |
+| Beskyttelse ved håndtering | Må følge regelverket for håndtering av cytotoksiske legemidler, i samsvar med ADC/cytotoksisk nyttelast-agenser |
 
 ---
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Se pakningsvedlegg for sikkerhetsinformasjon.
 
 ---
 
-## Conclusion and Next Steps
+## Konklusjon og neste skritt
 
-**Decision: Hold**
+**Beslutning: Avvente**
 
-**Rationale:**
-This candidate has Evidence Level L5 — no clinical trials, no literature, and no plausible mechanistic link between the CD79b target and HER2 positive breast carcinoma biology. The prediction currently reflects a model-level statistical association only and does not meet the threshold to advance.
+**Begrunnelse:**
+Denne kandidaten har bevisnivå L5 — ingen kliniske forsøk, ingen litteratur, og ingen sannsynlig mekanistisk sammenheng mellom CD79b-målet og HER2-positiv brystkreft-biologi. Prediksjon gjenspeiler for tiden utelukkende en statistisk assosiasjon på modellnivå og oppfyller ikke terskelen for å avansere.
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank (currently a data gap, DG002)
-- TFDA package insert warnings, contraindications, and drug interaction data (currently a blocking data gap, DG001)
-- Any preclinical or mechanistic evidence connecting CD79b/MMAE pathway activity to HER2 positive breast cancer biology, before further evaluation is warranted
+**For å fortsette, trengs følgende:**
+- Bekreftet virkningsmekanisme (MOA)-data fra DrugBank (for tiden datamangel, DG002)
+- TFDA-pakningsvedlegg advarsler, kontraindikasjoner og legemiddelinteraksjonsdata (for tiden blokkerende datamangel, DG001)
+- Eventuell preklinisk eller mekanistisk bevis som forbinder CD79b/MMAE-veivaktivitet til HER2-positiv brystkreft-biologi, før ytterligere evaluering er berettiget
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

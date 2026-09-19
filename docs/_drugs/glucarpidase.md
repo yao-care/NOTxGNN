@@ -29,76 +29,77 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Glucarpidase: From Methotrexate Toxicity to Diabetic Cataract
+# Glucarpidase: Fra metotreksattoksisitet til diabetisk katarakt
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-> Glucarpidase is a recombinant bacterial carboxypeptidase used clinically to rapidly hydrolyze excess methotrexate in patients with impaired renal clearance.
-> The TxGNN model predicts potential efficacy for **Diabetic Cataract**,
-> but currently **0 clinical trials** and **0 publications** support this direction — evidence strength is minimal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | No approved indication data available (drug not marketed in this jurisdiction); known clinical use is methotrexate toxicity rescue in renal impairment |
-| Predicted New Indication | Diabetic Cataract |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 |
-| Norway Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Glucarpidase er en rekombinant bakteriell karboxypeptidase som klinisk brukes til raskt å hydrolyisere overskudd av metotreksat hos pasienter med nedsatt nyreklaring.
+> TxGNN-modellen forutsier potensiell effektivitet for **Diabetisk katarakt**,
+> men for tiden finnes **0 kliniske studier** og **0 publikasjoner** som støtter denne retningen — bevisstyrken er minimal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available (marked as a High-severity data gap). Based on the limited information in this evidence pack, glucarpidase's known clinical role is enzymatic hydrolysis of methotrexate into inactive metabolites (DAMPA and glutamate) to reduce toxicity in patients with delayed renal clearance — a rescue/antidote function, not a disease-modifying therapy.
-
-There is no known biological pathway connecting this folate-analog-metabolizing mechanism to diabetic cataract, which is driven by hyperglycemia-induced polyol pathway activation, osmotic stress, and lens protein glycation/oxidation. No mechanistic bridge is proposed in the evidence pack, and the rationale text explicitly states no known linkage exists.
-
-Notably, all 10 of this drug's top predicted indications cluster tightly around cataract subtypes (diabetic, senile, nuclear, cortical, mature, immature, etc.) and diabetic retinopathy, with nearly identical scores (~0.998) despite having no shared underlying pathology with methotrexate metabolism. This pattern — high score clustering with zero mechanistic, preclinical, or clinical support — is characteristic of an embedding-level artifact rather than a genuine biological signal, likely because glucarpidase is a sparsely connected orphan drug in the underlying knowledge graph.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Innhold |
+|-------|---------|
+| Opprinnelig indikasjon | Ingen godkjente indikasjondata tilgjengelig (legemiddel ikke markedsført i denne jurisdiksjonen); kjent klinisk bruk er redning av metotreksattoksisitet ved nedsatt nyrefunksjon |
+| Forutsagt ny indikasjon | Diabetisk katarakt |
+| TxGNN prediksjonspoengsum | 99.85% |
+| Bevisnivå | L5 |
+| Norges markedsstatus | Ikke markedsført (Ikke markedsført) |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+For tiden er detaljert data om virkningsmekanisme ikke tilgjengelig (merket som et kritisk datakløft). Basert på den begrensede informasjonen i denne bevissamlingen, er glucarpidases kjente kliniske rolle enzymatisk hydrolyse av metotreksat til inaktive metabolitter (DAMPA og glutamat) for å redusere toksisitet hos pasienter med forsinket nyreklaring — en rednings-/motgiftfunksjon, ikke en sykdomsmodifiserende terapi.
 
----
+Det finnes ingen kjent biologisk vei som forbinder denne folatanalog-metaboliserende mekanismen til diabetisk katarakt, som er drevet av hyperglykemi-indusert polyolveiens aktivering, osmotisk stress og linsens proteinglykering/oksydasjon. Ingen mekanistisk forbindelse er foreslått i bevissamlingen, og rasjonalet-teksten sier eksplisitt at ingen kjent forbindelse finnes.
 
-## Norway Market Information
-
-This drug is not marketed in this jurisdiction (0 authorizations on record), so no product license table is available.
+Bemerkelsesverdig er det at alle 10 av dette legemidlets beste forutsagte indikasjoner klynger seg tett rundt kataraktsubtyper (diabetisk, aldersrelatert, nukleær, kortikal, moden, umoden osv.) og diabetisk retinopati, med nesten identiske poengsum (~0.998) til tross for at de ikke har noen delt underliggende patologi med metotreksatmetabolisme. Dette mønsteret — høyt poengsum som klynger seg med null mekanistisk, preklinisk eller klinisk støtte — er karakteristisk for en embedding-nivå artefakt snarere enn et genuint biologisk signal, sannsynligvis fordi glucarpidase er et sparsomt koblet foreldreløst legemiddel i den underliggende kunnskapsgrafen.
 
 ---
 
-## Safety Considerations
+## Klinisk studieevidens
 
-Please refer to the package insert for safety information. (Note: TFDA/local label warnings and contraindications are flagged as a **Blocking** data gap in this evidence pack — this must be resolved before any safety evaluation can proceed.)
+For tiden er det ingen relaterte kliniske studier registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For tiden er det ingen relatert litteratur tilgjengelig.
 
-**Rationale:**
-The prediction is supported by TxGNN score alone (L5, no clinical or literature evidence), and all top-10 predicted indications for this drug cluster suspiciously around a single unrelated disease family (cataract/diabetic eye disease) with no plausible mechanistic connection to glucarpidase's known enzymatic function — this pattern suggests a model artifact rather than a credible repurposing signal.
+---
 
-**To proceed, the following is needed:**
-- Resolve the Blocking data gap: TFDA/local label warnings and contraindications
-- Obtain verified mechanism of action (MOA) data from DrugBank or primary literature
-- Independent mechanistic or preclinical evidence linking carboxypeptidase G2 activity to diabetic cataract pathology before further investment
-- Given the clustering pattern across all 10 predictions, consider a KG-connectivity review for this orphan drug rather than pursuing individual indications
+## Norges markedsinformasjon
+
+Dette legemiddelet er ikke markedsført i denne jurisdiksjonen (0 autorisasjoner på rekord), så ingen produktlisenstabel er tilgjengelig.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Merk: TFDA/lokale merkeadvarsler og kontraindikasjoner er flagget som et **blokkering** datakløft i denne bevissamlingen — dette må løses før noen sikkerhetsvurdering kan skje.)
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Rasjonale:**
+Prediksjonen støttes av TxGNN-poengsum alene (L5, ingen klinisk eller litteraturbevis), og alle 10 beste forutsagte indikasjoner for dette legemiddelet klynger seg mistenkelig rundt en enkelt urelated sykdomsfamilie (katarakt/diabetisk øyesykdom) uten noen plausibel mekanistisk forbindelse til glucarpidases kjente enzymatiske funksjon — dette mønsteret tyder på en modellartefakt snarere enn et genuint omdisponerings-signal.
+
+**For å fortsette, er følgende nødvendig:**
+- Løs blokkerings-datakløftet: TFDA/lokale merkeadvarsler og kontraindikasjoner
+- Hent verifisert virkningsmekanisme (MOA) data fra DrugBank eller primærlitteratur
+- Uavhengig mekanistisk eller preklinisk bevis som knytter karboxypeptidase G2-aktivitet til diabetisk katarakt-patologi før videre investering
+- Gitt klyngemønsteret på tvers av alle 10 prediksjoner, vurder en KG-tilkoblings-gjennomgang for dette foreldreløse legemiddelet snarere enn å forfølge individuelle indikasjoner
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

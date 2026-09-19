@@ -29,91 +29,92 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Entecavir: From Chronic Hepatitis B to Chronic Hepatitis C Virus Infection
+# Entecavir: Fra kronisk hepatitt B til kronisk hepatitt C-virusinfeksjon
 
-## One-Sentence Summary
+## Oppsummering i en setning
 
-Entecavir is a guanosine nucleoside analogue whose established, real-world use is the treatment of chronic hepatitis B virus (HBV) infection — though this original indication is not captured in the source dataset (data gap). The TxGNN model's top-ranked prediction points to **chronic hepatitis C virus infection (HCV)**, but the accompanying evidence — 45 clinical trials and 20 publications — consists almost entirely of HBV-focused studies with no direct anti-HCV efficacy data, and the mechanistic rationale explicitly argues **against** biological plausibility (HCV has no reverse-transcription step for entecavir to target).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Chronic Hepatitis B virus infection (well-established clinical use; not present in the source regulatory/licensing dataset) |
-| Predicted New Indication | Chronic Hepatitis C virus infection |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Entecavir er en guanosin nukleosidanallog hvis etablerte, virkelige kliniske bruk er behandling av kronisk hepatitt B-virusinfeksjon (HBV) — selv om denne originalindikasjonen ikke fanges opp i kildedata (datahull). TxGNN-modellens høyest rangerte prediksjon peker på **kronisk hepatitt C-virusinfeksjon (HCV)**, men medfølgende bevis — 45 kliniske studier og 20 publikasjoner — består nesten utelukkende av HBV-fokuserte studier uten direkte anti-HCV-effektivitetsdata, og den mekanistiske begrunnelsen argumenterer eksplisitt **mot** biologisk plausibilitet (HCV har ikke reversoppskrivingstrinn for entecavir å målrette).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigoversikt
 
-Detailed mechanism-of-action data for entecavir is not available in this evidence pack (data gap, ID: DG002). Based on established pharmacology, entecavir is a guanosine nucleoside analogue that undergoes intracellular phosphorylation to compete with the natural substrate for incorporation by HBV reverse transcriptase, blocking priming, reverse transcription, and DNA synthesis. This mechanism is specific to reverse-transcribing viruses.
-
-Hepatitis C virus, however, is a positive-strand RNA virus that replicates via an RNA-dependent RNA polymerase and has no reverse-transcription step. The repurposing rationale attached to this candidate is explicit on this point: *"Entecavir 標的為 HBV 反轉錄酶，HCV 為 RNA 病毒依賴 RNA 聚合酶（無反轉錄步驟），機轉上無直接抑制 HCV 複製之理論基礎"* — there is no direct theoretical basis for entecavir inhibiting HCV replication. Nearly all of the clinical trials retrieved for this candidate involve entecavir being used to manage the **HBV component** of HBV/HCV co-infection (e.g., preventing HBV reactivation during HCV DAA therapy), not as an anti-HCV agent itself.
-
-**Caveat:** This dataset lists `original_indications` as empty, which appears to be a data-collection gap rather than a true absence of indication — entecavir's well-documented core indication is chronic HBV infection (this is independently corroborated by rank-2 evidence in the same evidence pack, which carries an L1 evidence level and a "Proceed with Guardrails" recommendation). Readers should treat the HCV prediction below as a **low-confidence, high-score TxGNN artifact** rather than a validated repurposing opportunity.
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Kronisk hepatitt B-virusinfeksjon (veletablert klinisk bruk; ikke til stede i kildedata for regulering/godkjenning) |
+| Prediktert ny indikasjon | Kronisk hepatitt C-virusinfeksjon |
+| TxGNN prediksjonspoeng | 99.98% |
+| Bevisnivå | L4 |
+| Status på det norske marked | Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Detaljerte virkningsmekanisme-data for entecavir er ikke tilgjengelige i denne bevisspakken (datahull, ID: DG002). Basert på etablert farmakologi er entecavir en guanosin nukleosidanallog som gjennomgår intracellulær fosforylasjøn for å konkurrere med det naturlige substratet for inkorporering av HBV-reverstranskriptase, som blokkerer primeringsreaksjon, reversoppskrivning og DNA-syntese. Denne mekanismen er spesifikk for reversoppskrivende virus.
+
+Hepatitt C-virus er imidlertid et positivt-strenget RNA-virus som replikeres via en RNA-avhengig RNA-polymerase og har ingen reversoppskrivingstrinn. Ombruksbegrunnelsen knyttet til denne kandidaten er eksplisitt på dette punktet: *"Entecavir 標的為 HBV 反轉錄酶，HCV 為 RNA 病毒依賴 RNA 聚合酶（無反轉錄步驟），機轉上無直接抑制 HCV 複製之理論基礎"* — det er ingen direkte teoretisk grunnlag for at entecavir inhiberer HCV-replikasjon. Nesten alle kliniske studier hentet for denne kandidaten involverer entecavir som brukes til å håndtere **HBV-komponenten** av HBV/HCV-saminfeksjon (f.eks. forebygging av HBV-reaktivering under HCV-DAA-terapi), ikke som et anti-HCV-middel i seg selv.
+
+**Forbeholdelse:** Dette datasettet viser `original_indications` som tomt, som ser ut til å være et datainsamlingshull i stedet for et sant fravær av indikasjon — entecavirs veldokumenterte kjerneindikasjon er kronisk HBV-infeksjon (dette er uavhengig bekreftet av rang-2-bevis i samme bevisspakke, som har et L1-bevisnivå og en "Fortsett med sikringsmekanismer"-anbefaling). Lesere bør behandle HCV-prediksjonen nedenfor som et **lavkonfidensielt, høy-poengsum TxGNN-artefakt** snarere enn en validert ombruksmulighet.
+
+---
+
+## Klinisk studibevis
+
+| Studienummer | Fase | Status | Innrullering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Phase 2/3 | Completed | 23 | HCV/HBV co-infection study; entecavir used only to manage HBV reactivation risk during DAA therapy for HCV — not tested as an HCV treatment (relevance grade C) |
-| [NCT00065507](https://clinicaltrials.gov/study/NCT00065507) | Phase 3 | Completed | 195 | Entecavir vs. adefovir in HBV with hepatic decompensation; HBV-only trial, no HCV relevance (relevance grade C) |
-| [NCT00371150](https://clinicaltrials.gov/study/NCT00371150) | Phase 4 | Completed | 131 | Observational antiviral effect of entecavir in Black/Hispanic patients with chronic HBV (not HCV) |
-| [NCT00412529](https://clinicaltrials.gov/study/NCT00412529) | Phase 3 | Completed | 44 | Viral kinetics of telbivudine vs. entecavir in HBeAg-positive chronic HBV |
-| [NCT00096785](https://clinicaltrials.gov/study/NCT00096785) | Phase 3 | Completed | 69 | Entecavir vs. adefovir viral load reduction in nucleoside-naive chronic HBV |
-| [NCT01037166](https://clinicaltrials.gov/study/NCT01037166) | Phase 2 | Completed | 84 | Entecavir antiviral activity in Japanese HBV patients with incomplete lamivudine response |
-| [NCT01022801](https://clinicaltrials.gov/study/NCT01022801) | Phase 2 | Completed | 120 | Entecavir vs. lamivudine dose-response in Japanese chronic HBV patients |
-| [NCT02881008](https://clinicaltrials.gov/study/NCT02881008) | Phase 1/2 | Completed | 48 | Myrcludex B vs. entecavir in HBeAg-negative chronic HBV |
+| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Fase 2/3 | Avsluttet | 23 | HCV/HBV-saminfeksjonsstudie; entecavir brukt kun til å håndtere HBV-reaktiveringrisiko under DAA-terapi for HCV — ikke testet som HCV-behandling (relevansvurdering C) |
+| [NCT00065507](https://clinicaltrials.gov/study/NCT00065507) | Fase 3 | Avsluttet | 195 | Entecavir vs. adefovir i HBV med hepatisk dekompensasjon; kun HBV-studie, ingen HCV-relevans (relevansvurdering C) |
+| [NCT00371150](https://clinicaltrials.gov/study/NCT00371150) | Fase 4 | Avsluttet | 131 | Observasjonsmessig antiviruseffekt av entecavir hos sorte/hispansktalige pasienter med kronisk HBV (ikke HCV) |
+| [NCT00412529](https://clinicaltrials.gov/study/NCT00412529) | Fase 3 | Avsluttet | 44 | Viruskinetikk av telbivudin vs. entecavir i HBeAg-positive kronisk HBV |
+| [NCT00096785](https://clinicaltrials.gov/study/NCT00096785) | Fase 3 | Avsluttet | 69 | Entecavir vs. adefovir virusmengde-reduksjon i nukleosid-naive kronisk HBV |
+| [NCT01037166](https://clinicaltrials.gov/study/NCT01037166) | Fase 2 | Avsluttet | 84 | Entecavir antivirusaktivitet hos japanske HBV-pasienter med ufullstendig lamivudin-respons |
+| [NCT01022801](https://clinicaltrials.gov/study/NCT01022801) | Fase 2 | Avsluttet | 120 | Entecavir vs. lamivudin dose-respons hos japanske pasienter med kronisk HBV |
+| [NCT02881008](https://clinicaltrials.gov/study/NCT02881008) | Fase 1/2 | Avsluttet | 48 | Myrcludex B vs. entecavir i HBeAg-negative kronisk HBV |
 
-**Note:** None of the retrieved trials directly test entecavir's efficacy against HCV; all involve HBV treatment or HBV management within HBV/HCV co-infected populations.
+**Merknad:** Ingen av de hentet studiene tester direkte entecavirs effektivitet mot HCV; alle involverer HBV-behandling eller HBV-håndtering innenfor HBV/HCV-saminfiserte populasjoner.
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [36146665](https://pubmed.ncbi.nlm.nih.gov/36146665/) | 2022 | Cohort | Viruses | In anti-HCV-antibody-positive chronic HBV patients treated with nucleos(t)ide analogues (including entecavir), HCV RNA levels were tracked but no antiviral effect against HCV was demonstrated |
-| [24773464](https://pubmed.ncbi.nlm.nih.gov/24773464/) | 2014 | Review | Expert Opin Pharmacother | Reviews treatment advances for HBV/HCV co-infection; entecavir discussed only as HBV-directed therapy |
-| [32527114](https://pubmed.ncbi.nlm.nih.gov/32527114/) | 2021 | Review | Chin Clin Oncol | Discusses timing of HBV and HCV antiviral therapy in HCC patients; no direct anti-HCV role for entecavir |
-| [28230928](https://pubmed.ncbi.nlm.nih.gov/28230928/) | 2017 | Cohort | J Gastroenterol Hepatol | Investigates HBV reactivation risk during DAA therapy for HCV in co-infected patients |
-| [22959099](https://pubmed.ncbi.nlm.nih.gov/22959099/) | 2013 | Case report/Review | Clin Res Hepatol Gastroenterol | Describes therapeutic challenges of HBV/HCV dual infection; entecavir used for HBV component |
-| [36873880](https://pubmed.ncbi.nlm.nih.gov/36873880/) | 2023 | Case report | Frontiers in Medicine | Reports unusual viral evolution following antiviral therapy in a concurrent HBV/HCV-infected patient |
+| [36146665](https://pubmed.ncbi.nlm.nih.gov/36146665/) | 2022 | Kohort | Viruses | Hos anti-HCV-antistoff-positive pasienter med kronisk HBV behandlet med nukleosid(t)idanaloger (inkludert entecavir), ble HCV RNA-nivåer fulgt, men ingen antiviruseffekt mot HCV ble demonstrert |
+| [24773464](https://pubmed.ncbi.nlm.nih.gov/24773464/) | 2014 | Oversikt | Expert Opin Pharmacother | Gjennomgår behandlingsfremskritt for HBV/HCV-saminfeksjon; entecavir diskutert kun som HBV-rettet terapi |
+| [32527114](https://pubmed.ncbi.nlm.nih.gov/32527114/) | 2021 | Oversikt | Chin Clin Oncol | Diskuterer timing av HBV- og HCV-antivirusbehandling hos HCC-pasienter; ingen direkte anti-HCV-rolle for entecavir |
+| [28230928](https://pubmed.ncbi.nlm.nih.gov/28230928/) | 2017 | Kohort | J Gastroenterol Hepatol | Undersøker HBV-reaktiveringrisiko under DAA-terapi for HCV hos saminfiserte pasienter |
+| [22959099](https://pubmed.ncbi.nlm.nih.gov/22959099/) | 2013 | Kasuistikk/Oversikt | Clin Res Hepatol Gastroenterol | Beskriver terapeutiske utfordringer ved dual HBV/HCV-infeksjon; entecavir brukt til HBV-komponenten |
+| [36873880](https://pubmed.ncbi.nlm.nih.gov/36873880/) | 2023 | Kasuistikk | Frontiers in Medicine | Rapporterer uvanlig virusevolvering etter antivirusbehandling hos en samtidig HBV/HCV-infisert pasient |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Entecavir is currently **not marketed in Norway** according to the source dataset (0 authorizations, no license records available).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. A drug label / regulatory warning dataset was not available for this evaluation (data gap DG001, marked as Blocking — this currently prevents a formal S1 safety pre-assessment).
+Entecavir er for tiden **ikke markedsført i Norge** ifølge kildedata (0 godkjenninger, ingen lisensregistreringer tilgjengelige).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Et legemiddeletikett-/sikkerhetsadvarselsdatasett var ikke tilgjengelig for denne evalueringen (datahull DG001, merket som blokkering — dette forhindrer for tiden en formell S1-sikkerhet-preevaluering).
 
-**Rationale:**
-The top-ranked TxGNN prediction (HCV) lacks a plausible mechanistic basis — entecavir targets HBV reverse transcriptase, while HCV replication does not involve reverse transcription — and no retrieved clinical trial or publication demonstrates direct anti-HCV efficacy; all supporting evidence instead reflects entecavir's established role in managing HBV in HBV/HCV co-infected patients. Combined with a Blocking-severity data gap on regulatory safety labeling, this candidate does not currently meet the bar to proceed.
+---
 
-**To proceed, the following is needed:**
-- TFDA/official product label (warnings, contraindications) to clear the Blocking data gap (DG001)
-- Confirmed mechanism-of-action documentation (DG002)
-- If pursued further, a re-evaluation of whether "chronic hepatitis C" is the correct target — consider instead reviewing the co-listed **chronic hepatitis B virus infection** prediction (evidence level L1, "Proceed with Guardrails"), which reflects entecavir's true, well-established indication and is better supported for any repurposing or lifecycle-extension analysis
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Den høyest rangerte TxGNN-prediksjonen (HCV) mangler en plausibel mekanistisk grunnlag — entecavir målretter HBV-reverstranskriptase, mens HCV-replikasjon ikke involverer reversoppskrivning — og ingen hentet klinisk studie eller publikasjon demonstrerer direkte anti-HCV-effektivitet; alt støttende bevis reflekterer i stedet entecavirs etablerte rolle i å håndtere HBV hos HBV/HCV-saminfiserte pasienter. Kombinert med et blokkeringsdatahull på sikkerhetsmerkinger fra regulatoriske myndigheter, møter denne kandidaten for tiden ikke standarden for å fortsette.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA/offisielt produktvedlegg (advarsler, kontraindikasjoner) for å avklare blokkeringsdatahuller (DG001)
+- Bekreftet virkningsmekanisme-dokumentasjon (DG002)
+- Hvis det forfølges videre, en re-evaluering av hvorvidt "kronisk hepatitt C" er det korrekte målet — vurder i stedet å gjennomgå den medfølgende **kronisk hepatitt B-virusinfeksjon**-prediksjonen (bevisnivå L1, "Fortsett med sikringsmekanismer"), som reflekterer entecavirs sanne, veletablerte indikasjon og er bedre støttet for enhver ombruk eller legemiddellevetid-forlengelsesanalyse
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

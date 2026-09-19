@@ -29,70 +29,71 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Cobicistat: From Antiretroviral Pharmacokinetic Enhancer to Simian Immunodeficiency Virus Infection
+# Cobicistat: Fra antiretroviral farmakokkinetisk forsterker til Simian Immunodeficiency Virus-infeksjon
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-Cobicistat is a CYP3A4 inhibitor used clinically as a pharmacokinetic booster in combination antiretroviral therapy (e.g., with elvitegravir, atazanavir, darunavir) rather than as a direct antiviral agent in its own right. The TxGNN model predicts a possible link to **Simian Immunodeficiency Virus Infection**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model output with no corroborating evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Pharmacokinetic enhancer (booster) for antiretroviral therapy — not an independent disease indication |
-| Predicted New Indication | Simian Immunodeficiency Virus Infection |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Cobicistat er en CYP3A4-hemmer som brukes klinisk som farmakokkinetisk forsterker i kombinert antiretroviral terapi (f.eks. med elvitegravir, atazanavir, darunavir) snarere enn som direkte antiviralt middel i seg selv. TxGNN-modellen forutsier en mulig sammenheng til **Simian Immunodeficiency Virus-infeksjon**, men denne prediksjonen støttes for øyeblikket av **0 kliniske forsøk** og **0 publikasjoner** — det er et rent modellresultat uten støttende bevis.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversikt
 
-A structured, DrugBank-sourced mechanism-of-action record is currently unavailable for cobicistat (flagged as a High-severity data gap, DG002). Based on the pharmacological information embedded in the model's own rationale, cobicistat is known to act as a CYP3A4 inhibitor — it has no direct antiviral activity of its own, and its clinical role is limited to raising plasma concentrations of co-administered antiretrovirals. It does not target any viral replication machinery.
-
-Simian Immunodeficiency Virus (SIV) is the primate analog of HIV and is commonly used as an animal model for HIV research. The TxGNN model's high score for this association likely reflects proximity in the knowledge graph between cobicistat, HIV-related drug classes, and SIV as an HIV-model disease entity — rather than any evidence that cobicistat itself has anti-SIV activity. At best, cobicistat could theoretically serve as a booster for other antiviral compounds in an SIV treatment regimen, analogous to its human ARV use; it would not function as a standalone therapeutic.
-
-Two additional candidates were predicted with near-identical scores: **feline acquired immunodeficiency syndrome (FIV)**, which follows the same booster-only logic with added concern about species-specific CYP450 differences between cats and humans, and a **rare neurodevelopmental disorder** (ataxic gait, absent speech, decreased cortical white matter) for which no plausible mechanistic link to CYP3A4 inhibition exists at all. This third candidate is assessed as a likely false positive and is not recommended for further investigation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Farmakokkinetisk forsterker (booster) for antiretroviral terapi — ikke en selvstendig sykdomsindikasjon |
+| Forutsagt ny indikasjon | Simian Immunodeficiency Virus-infeksjon |
+| TxGNN prediksjonspoeng | 99.92% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvente |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen fornuftig?
 
-Currently no related literature available.
+En strukturert, DrugBank-dokumentert oppføring av virkningsmekanisme er for øyeblikket utilgjengelig for cobicistat (flagget som en høyalvorlighetsgrad datakløft, DG002). Basert på den farmakologiske informasjonen innebygd i modellens egen begrunnelse, er cobicistat kjent for å fungere som en CYP3A4-hemmer — den har ingen direkte antivirale aktivitet i seg selv, og dens kliniske rolle er begrenset til å øke plasmakonsentrasjoner av samtidig administrerte antiretroviraler. Den fungerer ikke direkte mot virale replikasjonssystemer.
 
----
+Simian Immunodeficiency Virus (SIV) er primatanalogen til HIV og brukes vanligvis som en dyremodell for HIV-forskning. TxGNN-modellens høye poengsum for denne assosiasjonen gjenspeiler sannsynligvis nærhet i kunnskapsgrafen mellom cobicistat, HIV-relaterte stoffklasser, og SIV som en HIV-modell sykdomsenhet — snarere enn noe bevis for at cobicistat i seg selv har anti-SIV-aktivitet. I beste fall kunne cobicistat teoretisk tjene som forsterker for andre antivirale stoffer i et SIV-behandlingsregime, analogt til dets humane ARV-bruk; det ville ikke fungere som et frittstående terapeutikum.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA label warnings/contraindications are marked as a Blocking data gap (DG001) — required before this candidate can advance to a formal safety assessment.)*
+To tilleggskandidater ble forutsagt med nesten identiske poengsum: **felint ervervet immunsviktssyndrom (FIV)**, som følger samme booster-kun logikk med økt bekymring om artsspesifikke CYP450-forskjeller mellom katter og mennesker, og en **sjelden neuro-utviklingsmessig lidelse** (ataksisk gang, manglende tale, redusert kortikal hvit substans) som det ikke finnes noen plausibel mekanistisk sammenheng til CYP3A4-hemming for. Denne tredje kandidaten vurderes som en sannsynlig falsk positiv og anbefales ikke for videre etterforskning.
 
 ---
 
-## Conclusion and Next Steps
+## Klinisk forsøksbevis
 
-**Decision: Hold**
+Ingen relaterte kliniske forsøk er for øyeblikket registrert.
 
-**Rationale:**
-All three TxGNN-predicted indications for cobicistat lack any clinical trial or literature support, and the underlying mechanism (a pharmacokinetic booster with no intrinsic antiviral or neurological activity) does not plausibly justify standalone therapeutic use in any of the predicted conditions. Cobicistat is also not currently marketed in Norway, and core regulatory/safety data are missing.
+---
 
-**To proceed, the following is needed:**
-- TFDA-equivalent label data — warnings, contraindications (DG001, blocking)
-- Confirmed mechanism of action via DrugBank API (DG002)
-- Preclinical or in vitro evidence establishing any direct or booster-mediated relevance to SIV infection specifically
-- Complete drug-drug interaction (DDI) profile before any further evaluation stage
+## Litteraturbevis
+
+Ingen relatert litteratur er tilgjengelig for øyeblikket.
+
+---
+
+## Sikkerhetshensyn
+
+Se pakkeutsendingen for sikkerhetsinformasjon.
+
+*(Merk: TFDA-advarsler på merkingen og kontraindikasjoner er flagget som en blokkert datakløft (DG001) — påkrevd før denne kandidaten kan gå videre til en formell sikkerhetsvurdering.)*
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvente**
+
+**Begrunnelse:**
+Alle tre TxGNN-forutsagte indikasjoner for cobicistat mangler enhver klinisk forsøk eller litteraturstøtte, og den underliggende mekanismen (en farmakokkinetisk forsterker uten iboende antivirale eller nevrologiske aktiviteter) rettferdiggjør ikke på plausibel måte frittstående terapeutisk bruk i noen av de forutsagte tilstandene. Cobicistat er heller ikke for øyeblikket markedsført i Norge, og sentrale regulatoriske og sikkerhetsmessige data mangler.
+
+**For å gå videre, kreves følgende:**
+- TFDA-ekvivalent merkingsdata — advarsler, kontraindikasjoner (DG001, blokkert)
+- Bekreftet virkningsmekanisme via DrugBank API (DG002)
+- Preklinisk eller in vitro-bevis som etablerer noen direkte eller forsterker-medieret relevans til SIV-infeksjon spesifikt
+- Fullstendig legemiddel-legemiddel interaksjon (DDI) profil før videre evalueringsstadium
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

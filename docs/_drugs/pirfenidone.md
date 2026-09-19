@@ -29,76 +29,77 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Pirfenidone: From Idiopathic Pulmonary Fibrosis to Extracutaneous Mastocytoma
+# Pirfenidone: Fra idiopatisk lungefibrose til ekstrakutan mastocytom
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-> Pirfenidone is an oral antifibrotic agent established for the treatment of idiopathic pulmonary fibrosis (IPF), acting through inhibition of TGF-β1- and PDGF-mediated fibroblast proliferation and collagen synthesis.
-> The TxGNN model predicts it may be effective for **Extracutaneous Mastocytoma**, with a prediction score of **99.71%**,
-> but currently **no clinical trials** and **no publications** support this specific direction — the prediction is model-derived only.
+> Pirfenidone er et oralt antifibrotisk middel etablert for behandling av idiopatisk lungefibrose (IPF), som virker gjennom hemming av TGF-β1- og PDGF-mediert fibroblastproliferasjon og kollagensyntese.
+> TxGNN-modellen forutsier at det kan være effektivt for **Ekstrakutan mastocytom**, med en prediksjonspoeng på **99.71%**,
+> men for øyeblikket **ingen kliniske studier** og **ingen publikasjoner** støtter denne spesifikke retningen — prediksjonen er kun modell-avledet.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Punkt | Innhold |
 |------|------|
-| Original Indication | Idiopathic Pulmonary Fibrosis (IPF) — not recorded in the evidence pack; inferred from established drug identity |
-| Predicted New Indication | Extracutaneous Mastocytoma |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Original indikasjon | Idiopatisk lungefibrose (IPF) — ikke registrert i bevismaterialet; utledet fra etablert legemiddelidentitet |
+| Forutsagt ny indikasjon | Ekstrakutan mastocytom |
+| TxGNN-prediksjonspoeng | 99.71% |
+| Bevisnivå | L5 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed mechanism of action data for pirfenidone is not available in this evidence pack (flagged as a High-severity data gap, DG002). Based on information surfaced elsewhere in this pack (literature cited under a separate predicted indication), pirfenidone is known to inhibit TGF-β1, PDGF, EGF and FGF signaling, thereby reducing fibroblast proliferation and collagen deposition — the mechanism underlying its approved use in IPF.
+Detaljerte data om virkningsmekanisme for pirfenidone er ikke tilgjengelig i dette bevismaterialet (flagget som datakløft med høy alvorlighetsgrad, DG002). Basert på informasjon som dukket opp andre steder i denne pakken (litteratur sitert under en separat forutsagt indikasjon), er pirfenidone kjent for å hemme TGF-β1, PDGF, EGF og FGF-signalering, og dermed redusere fibroblastproliferasjon og kollagendeposition — mekanismen bak dens godkjente bruk ved IPF.
 
-Extracutaneous mastocytoma is a rare neoplastic proliferation of mast cells driven primarily by **KIT mutations**, a pathway mechanistically unrelated to TGF-β-driven fibrosis. The repurposing rationale attached to this prediction explicitly notes that the high TxGNN score likely reflects a shared "fibrosis/stromal remodeling" graph neighborhood rather than a genuine mechanistic connection, and states there is **no direct link** between anti-TGF-β activity and KIT-driven mast cell pathology.
+Ekstrakutan mastocytom er en sjelden neoplastisk proliferasjon av mastceller drevet primært av **KIT-mutasjoner**, en vei som mekanistisk ikke er relatert til TGF-β-drevet fibrose. Begrunnelsen for ombruk knyttet til denne prediksjonen noterer eksplisitt at det høye TxGNN-poeng sannsynligvis gjenspeiler et delt "fibrose/stromal ombygging"-grafisk naborskap snarere enn en ekte mekanistisk forbindelse, og sier at det er **ingen direkte forbindelse** mellom anti-TGF-β-aktivitet og KIT-drevet mastcellpatologi.
 
-Given the absence of any preclinical, clinical trial, or literature support, this prediction should be interpreted as a graph-similarity signal rather than a mechanistically grounded hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Gitt fraværet av noen preklinisk bevis, kliniske studier eller litteraturbevis, bør denne prediksjonen tolkes som et grafsimilaritetssignal snarere enn en mekanistisk begrunnet hypotese.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske studier
 
-Currently no related literature available.
-
----
-
-## Norway Market Information
-
-Pirfenidone is **not currently marketed in Norway** (0 authorizations on record). No license or product information is available in this evidence pack.
+For øyeblikket er ingen relaterte kliniske studier registrert.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information.
+For øyeblikket er ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Norsk markedsinformasjon
 
-**Decision: Hold**
+Pirfenidone er **ikke for øyeblikket markedsført i Norge** (0 autorisasjoner registrert). Ingen lisens- eller produktinformasjon er tilgjengelig i dette bevismaterialet.
 
-**Rationale:**
-The prediction score is high, but it is unsupported by any clinical trial, real-world, or literature evidence (Evidence Level L5), and the proposed mechanistic link between anti-fibrotic TGF-β inhibition and KIT-driven mast cell pathology is not established. TFDA/label-level safety data (warnings, contraindications) is also missing (Blocking data gap DG001), which independently prevents any safety pre-assessment.
+---
 
-**To proceed, the following is needed:**
-- TFDA-equivalent product labeling — warnings and contraindications (DG001, Blocking)
-- Confirmed mechanism of action data for pirfenidone (DG002, High)
-- Preclinical evidence directly linking anti-fibrotic activity to mast cell tumor biology
-- **Note:** a separate candidate in this pack, *fibroblastic neoplasm* (rank 9, Evidence Level L4/S1), has meaningfully more support (6 publications, including a pilot cohort on desmoid tumors) but also carries a safety red flag — two case reports of sarcoma progression and dermatofibroma aggravation following pirfenidone use. This candidate warrants separate causality review and may be a more actionable priority than the current top-ranked prediction.
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Prediksjonspoengene er høye, men det er ikke støttet av noen klinisk studie, virkeligverdens eller litteraturbevis (Bevisnivå L5), og den foreslåtte mekanistiske forbindelsen mellom antifibrotisk TGF-β-hemming og KIT-drevet mastcellpatologi er ikke etablert. TFDA/merkenivå sikkerhetdata (advarsler, kontraindikasjoner) mangler også (Blokkerende datakløft DG001), noe som uavhengig forhindrer enhver sikkerhetsprevurdering.
+
+**For å fortsette er følgende nødvendig:**
+- TFDA-ekvivalent produktmerking — advarsler og kontraindikasjoner (DG001, Blokkerende)
+- Bekreftet virkningsmekanisme-data for pirfenidone (DG002, Høy)
+- Preklinisk bevis som direkte kobler antifibrotisk aktivitet til mastcelltumorbiologi
+- **Merk:** en separat kandidat i denne pakken, *fibroblastisk neoplasme* (rang 9, Bevisnivå L4/S1), har meningsfullt mer støtte (6 publikasjoner, inkludert en pilotkohort om desmoide tumorer) men har også et rødt flagg — to tilfellerapporter om sarkomprogressjon og dermatofibroma-forverring etter pirfenidone-bruk. Denne kandidaten rettferdiggjør separat kausalitetsvurdering og kan være en mer handlingsbar prioritet enn den nåværende topprangerte prediksjonen.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,80 +29,81 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Levofloxacin: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+# Levofloxacin: Fra bakterieinfeksjoner til punktat epitelial keratokonjunktivitt
 
-## One-Sentence Summary
+## Sammenfatting i én setning
 
-Levofloxacin is a broad-spectrum fluoroquinolone antibiotic originally developed for bacterial infections. The TxGNN model's top-ranked prediction suggests possible effectiveness for **Punctate Epithelial Keratoconjunctivitis**, but this direction is currently supported by only **1 publication** and **no clinical trials**, and the available literature describes a parasitic (not bacterial) etiology — so the mechanistic fit is questionable.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Bacterial infections (fluoroquinolone antibacterial class) — no Norway-specific indication text available |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Levofloxacin er et bredt spektrums fluorokinolon-antibiotikum opprinnelig utviklet for bakterieinfeksjoner. TxGNN-modellens høyest rangerte prediksjon antyder mulig effektivitet for **punktat epitelial keratokonjunktivitt**, men denne retningen støttes for tiden kun av **1 publikasjon** og **ingen kliniske forsøk**, og den tilgjengelige litteraturen beskriver parasittær (ikke bakteriell) etiologi — så den mekanistiske relevansen er tvilsom.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacological knowledge, levofloxacin belongs to the fluoroquinolone antibiotic class, which inhibits bacterial DNA gyrase and topoisomerase IV. Its efficacy against a broad range of Gram-positive and Gram-negative bacterial infections — including ocular surface infections such as bacterial conjunctivitis and keratitis — is well established, which is the basis for the TxGNN model linking it to keratoconjunctivitis.
-
-However, the single supporting publication for this prediction describes an **outbreak of microsporidial (parasitic) keratoconjunctivitis** linked to swimming-pool water contamination in Taiwan — not a bacterial pathogen. Levofloxacin has no established direct antiparasitic mechanism against microsporidia, so its applicability to this specific disease entity is mechanistically weak. The prediction likely reflects the model associating levofloxacin with "keratoconjunctivitis" as a disease category broadly (via its known ophthalmic antibacterial use) rather than a validated mechanism against this particular pathogen.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Outbreak Report/Case Series | American Journal of Ophthalmology | Describes an outbreak of microsporidial keratoconjunctivitis linked to contaminated swimming pool water in Taiwan; does not evaluate levofloxacin efficacy directly. |
+| Punkt | Innhold |
+|-------|---------|
+| Originalindikasjon | Bakterieinfeksjoner (fluorokinolon-antibakteriell klasse) — ingen norskspesifikk indikationstekst tilgjengelig |
+| Predikert ny indikasjon | Punktat epitelial keratokonjunktivitt |
+| TxGNN-prediksjons score | 99.92% |
+| Evidensnivå | L4 |
+| Status på norsk marked | ✗ Ikke markedsført |
+| Antall autoriseringer | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Norway Market Information
+## Hvorfor er denne prediksjonen rimelig?
 
-Levofloxacin is not currently marketed in Norway (0 active authorizations); no license or approved-indication data is available in this evidence pack.
+For tiden er detaljerte mekanisme-av-handling-data ikke tilgjengelige. Basert på generell farmakologisk kunnskap tilhører levofloxacin fluorokinolon-antibiotikum-klassen, som hemmer bakteriell DNA-gyrase og topoisomerase IV. Dens effektivitet mot et bredt spektrum av Gram-positive og Gram-negative bakterieinfeksjoner — inkludert øyeoverflatinfeksjoner som bakteriell konjunktivitt og keratitt — er godt etablert, som er grunnlaget for at TxGNN-modellen kobler den til keratokonjunktivitt.
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Imidlertid beskriver den eneste støttende publikasjonen for denne prediksjonen et **utbrudd av mikrosporidium (parasittær) keratokonjunktivitt** knyttet til kontaminering av bassengvann i Taiwan — ikke en bakteriell patogen. Levofloxacin har ingen etablert direkte antiparasittær mekanisme mot mikrosporidium, så dens anvendelighet på denne spesifikke sykdomsentiteten er mekanistisk svak. Prediksjonen reflekterer sannsynligvis at modellen forbinder levofloxacin med «keratokonjunktivitt» som en sykdomskategori bredt (via dens kjente oftalmologiske antibakteriell bruk) heller enn en validert mekanisme mot denne spesielle patogenen.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra kliniske forsøk
 
-**Decision: Hold**
-
-**Rationale:**
-The only literature support describes a parasitic (microsporidial) etiology rather than a bacterial one, so the mechanistic rationale for levofloxacin in this indication is weak. With no clinical trials and only a single non-interventional case series, the evidence base (L4) is insufficient to support further development.
-
-**To proceed, the following is needed:**
-- Confirmed mechanism of action data (currently a data gap)
-- In vitro or preclinical evidence of levofloxacin activity against microsporidia specifically
-- TFDA/regulatory label warnings and contraindications (currently a blocking data gap per meta.data_gaps)
-- Additional literature or trial data directly evaluating levofloxacin treatment outcomes in keratoconjunctivitis
+For tiden ingen relaterte kliniske forsøk registrert.
 
 ---
 
-**Additional Note:** This evidence pack contains 10 TxGNN-predicted indications for levofloxacin. Two other candidates show materially stronger evidence than the top-ranked prediction above and may warrant separate evaluation:
-- **Septicemic plague** (rank 9, L3, *Proceed with Guardrails*) — levofloxacin is FDA-approved for plague under the Animal Rule, backed by nonhuman primate efficacy data.
-- **Monoclonal gammopathy** (rank 7, L2, *Research Question*) — supported by the TEAMM Phase 3 RCT and multiple cohort studies, though these evaluate levofloxacin as infection prophylaxis in multiple myeloma specifically, not treatment of monoclonal gammopathy broadly (including MGUS), so the disease-scope match needs clarification.
+## Bevis fra litteratur
+
+| PMID | År | Type | Journal | Viktige funn |
+|------|-----|------|---------|-------|
+| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Utbruddrapport/kasusserie | American Journal of Ophthalmology | Beskriver et utbrudd av mikrosporidium keratokonjunktivitt knyttet til kontaminert bassengvann i Taiwan; evaluerer ikke levofloxacins effektivitet direkte. |
+
+---
+
+## Norsk markedsinformasjon
+
+Levofloxacin er ikke for tiden markedsført i Norge (0 aktive autoriseringer); ingen lisens- eller godkjent-indikasjondata er tilgjengelig i denne evidenspakken.
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Den eneste litteraturstøtten beskriver parasittær (mikrosporidium) etiologi heller enn bakteriell, så den mekanistiske begrunnelsen for levofloxacin i denne indikasjonen er svak. Med ingen kliniske forsøk og kun en enkelt ikke-intervensjonell kasusserie, er evidensgrunnlaget (L4) utilstrekkelig til å støtte videre utvikling.
+
+**For å fortsette er følgende nødvendig:**
+- Bekreftet mekanisme-av-handling-data (for tiden et datakluft)
+- In vitro eller prekliniske bevis på levofloxacin-aktivitet mot mikrosporidium spesifikt
+- TFDA/regulatoriske pakningsvedlegg advarsler og kontraindikasjoner (for tiden et blokkerende datakluft per meta.data_gaps)
+- Ytterligere litteratur- eller forsøksdata som direkte evaluerer levofloxacin-behandlingsresultater i keratokonjunktivitt
+
+---
+
+**Tilleggsnotat:** Denne evidenspakken inneholder 10 TxGNN-predikerte indikasjoner for levofloxacin. To andre kandidater viser vesentlig sterkere bevis enn den høyest rangerte prediksjonen ovenfor og kan være verdt separat evaluering:
+- **Septikemisk pest** (rangering 9, L3, *Fortsett med sikkerhetstiltak*) — levofloxacin er godkjent av FDA for pest under Animal Rule, støttet av effektivitetsdata fra ikke-menneskelige primater.
+- **Monoklonal gammopati** (rangering 7, L2, *Forskningsspørsmål*) — støttet av TEAMM Fase 3 RCT og flere kohort-studier, selv om disse evaluerer levofloxacin som infeksjonsprofilakse ved multippelt myelom spesifikt, ikke behandling av monoklonal gammopati bredt (inkludert MGUS), så samsvaret i sykdomsomfang trenger avklaring.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

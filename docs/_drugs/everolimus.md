@@ -29,97 +29,98 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Everolimus: From Advanced Renal Cell Carcinoma to Liposarcoma
+## Everolimus: Fra avansert nyrecellekarsinom til liposarkom
 
-## One-Sentence Summary
+## Oppsummering på én setning
 
-> Everolimus is an mTOR inhibitor (rapalog) with established use in advanced renal cell carcinoma, based on descriptions found in the supporting literature.
-> The TxGNN model predicts it may also be effective for **Liposarcoma**,
-> with **1 clinical trial** and **5 publications** currently supporting this direction.
-> No official Taiwan/Norway marketing authorization or label safety data are available for this candidate, which limits the strength of this conclusion.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Advanced Renal Cell Carcinoma (post-antiangiogenic therapy) — inferred from literature context (PMID 33867192); no formal license/label data available |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L2 (1 published Phase 2 trial, formal status still Active/Not Recruiting) |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+> Everolimus er en mTOR-hemmer (rapalog) med etablert bruk ved avansert nyrecellekarsinom, basert på beskrivelser funnet i den støttende litteraturen.
+> TxGNN-modellen forutsier at det også kan være effektivt for **Liposarkom**,
+> med **1 klinisk prøvelse** og **5 publikasjoner** som for tiden støtter denne retningen.
+> Ingen offisiell Taiwan/Norge markedsføringsgodkjenning eller merkeetikettdata er tilgjengelige for denne kandidaten, noe som begrenser styrken av denne konklusjonen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Detailed mechanism of action data was not provided directly in the DrugBank field for this candidate (data gap). However, the supporting literature in this evidence pack consistently and repeatedly describes everolimus as **"an mTOR inhibitor"** (e.g., PMID 33867192, PMID 27601542), consistent with its known classification as a rapalog. Everolimus was originally used in advanced renal cell carcinoma, a setting where the PI3K/Akt/mTOR signaling axis is a well-established driver of tumor growth.
-
-Liposarcoma — specifically the dedifferentiated subtype (DDL) — shares this same pathway biology. PMID 26518767 directly demonstrates **activation of the Akt-mTOR pathway in dedifferentiated liposarcoma specimens**, providing a molecular rationale for mTOR-targeted intervention. Because DDL frequently also harbors CDK4 amplification, combining everolimus with a CDK4/6 inhibitor (ribociclib) — as tested in NCT03114527 and reported in PMID 37967116 — offers a mechanistically synergistic approach: CDK4/6 inhibition addresses the cell-cycle driver while mTOR inhibition addresses the downstream survival pathway. This provides a plausible, biology-driven basis for the TxGNN prediction rather than a purely statistical association.
+| Element | Innhold |
+|------|--------|
+| Originalindikasjon | Avansert nyrecellekarsinom (etter antiangiogen terapi) — utledet fra litteraturkontekst (PMID 33867192); ingen offisiell lisens/merkeetikettdata tilgjengelige |
+| Forutsagt ny indikasjon | Liposarkom |
+| TxGNN prediksjonspoengsum | 99.88% |
+| Bevisnivå | L2 (1 publisert fase 2-prøvelse, offisiell status fortsatt aktiv/ikke rekrutterer) |
+| Norges markedsstatus | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Fortsett med sikkerhetstiltak |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Detaljert virkningsmekanismedata ble ikke gitt direkte i DrugBank-feltet for denne kandidaten (datagap). Imidlertid beskriver den støttende litteraturen i denne bevisutstillingen konsekvent og gjentatt everolimus som **"en mTOR-hemmer"** (f.eks. PMID 33867192, PMID 27601542), i samsvar med dens kjente klassifisering som en rapalog. Everolimus ble opprinnelig brukt til avansert nyrecellekarsinom, en setting der PI3K/Akt/mTOR-signaleringsbanen er en godt etablert driver for tumorvekst.
+
+Liposarkom – spesielt den dedifferensierte undertypen (DDL) – deler denne samme veibanbiologien. PMID 26518767 demonstrerer direkte **aktivering av Akt-mTOR-signaleringsbanen i dedifferensierte liposarkomprøver**, noe som gir en molekylær begrunnelse for mTOR-rettet intervensjon. Fordi DDL ofte også inneholder CDK4-amplifisering, kan kombinasjonen av everolimus med en CDK4/6-hemmer (ribociclib) – som testet i NCT03114527 og rapportert i PMID 37967116 – tilby en mekanistisk synergistisk tilnærming: CDK4/6-hemming adresserer cellsyklusdriveren mens mTOR-hemming adresserer den nedstrøms overlevingsbanen. Dette gir et plausibelt, biologi-drevet grunnlag for TxGNN-prediksjonen i stedet for en rent statistisk assosiasjon.
+
+---
+
+## Klinisk prøvelsesbevis
+
+| Prøvelsenummer | Fase | Status | Rekruttering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Phase 2 | Active, not recruiting | 48 | Two-arm study of ribociclib + everolimus in advanced dedifferentiated liposarcoma (Arm A) and leiomyosarcoma (Arm B) after ≥1 prior systemic therapy; evaluates anti-tumor activity of combined CDK4/6 and mTOR inhibition. |
+| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Fase 2 | Aktiv, ikke rekrutterer | 48 | To-arms studie av ribociclib + everolimus ved avansert dedifferensiert liposarkom (Arm A) og leiomyosarkom (Arm B) etter ≥1 tidligere systemisk terapi; evaluerer anti-tumoraktiviteten ved kombinert CDK4/6 og mTOR-hemming. |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | Phase 2 clinical trial report | Clinical Cancer Research | Reports the ribociclib + everolimus (SAR-096) trial; CDK4/mTOR combination shows synergistic growth inhibition in DDL/LMS tumor models, supporting clinical rationale. |
-| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Review | Frontiers in Oncology | PDOX mouse models identify effective combination regimens with CDK inhibitors (e.g., palbociclib) in sarcomas, supporting cell-cycle/mTOR pathway targeting strategy. |
-| [26518767](https://pubmed.ncbi.nlm.nih.gov/26518767/) | 2016 | Mechanistic/immunohistochemical study | Tumour Biology | Demonstrates activation of the Akt-mTOR and MAPK pathways in dedifferentiated liposarcoma specimens; in vitro data show antitumor effect of an mTOR inhibitor. |
-| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Preclinical | Anticancer Research | Evaluates eribulin in combination with mechanistically different anticancer agents in liposarcoma models; broad-spectrum combination antitumor activity context. |
-| [41991999](https://pubmed.ncbi.nlm.nih.gov/41991999/) | 2026 | Mechanistic study | Oncogene | Identifies XPO1 inhibitor (selinexor) disruption of the core transcriptional circuitry driving DDLPS; supports the concept of targeting dysregulated survival/transcriptional pathways in this tumor type. |
+| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | Fase 2 klinisk prøvelelsesrapport | Clinical Cancer Research | Rapporterer ribociclib + everolimus (SAR-096) prøvelsen; CDK4/mTOR-kombinasjonen viser synergistisk veksthemming i DDL/LMS-tumormodeller, og støtter klinisk begrunnelse. |
+| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Oversikt | Frontiers in Oncology | PDOX-musemodeller identifiserer effektive kombinasjonsregimer med CDK-hemmere (f.eks. palbociclib) i sarkomaer, og støtter cellsyklus/mTOR-veibanmålstrategi. |
+| [26518767](https://pubmed.ncbi.nlm.nih.gov/26518767/) | 2016 | Mekanistisk/immunhistokjemisk studie | Tumour Biology | Demonstrerer aktivering av Akt-mTOR og MAPK-signaleringsbanen i dedifferensierte liposarkomprøver; in vitro-data viser antitumor-effekt av en mTOR-hemmer. |
+| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Preklinisk | Anticancer Research | Evaluerer eribulin i kombinasjon med mekanistisk ulike kreftmidler i liposarkommodeller; bredt spekter kombinert antitumor-aktivitet kontekst. |
+| [41991999](https://pubmed.ncbi.nlm.nih.gov/41991999/) | 2026 | Mekanistisk studie | Oncogene | Identifiserer XPO1-hemmer (selinexor) forstyrring av kjerne-transkripsjonell krets som driver DDLPS; støtter konseptet med å målrette dysregulert overlevelse/transkripsjonelle veier i denne tumortypen. |
 
 ---
 
-## Norway Market Information
+## Norges markedsinformasjon
 
-Currently not marketed in Norway; no license/authorization records are available in the evidence pack.
-
----
-
-## Cytotoxicity
-
-Everolimus is an oncology-use mTOR-targeted agent and is therefore included here.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (mTOR inhibitor / rapalog) — not a conventional cytotoxic agent |
-| Myelosuppression Risk | Not available in the evidence pack; please refer to the package insert |
-| Emetogenicity Classification | Not available in the evidence pack; please refer to the package insert |
-| Monitoring Items | Not available in the evidence pack; please refer to the package insert |
-| Handling Protection | Not available in the evidence pack; please refer to the package insert |
+For tiden ikke markedsført i Norge; ingen lisens-/godkjenningsregistreringer er tilgjengelige i bevisutstillingen.
 
 ---
 
-## Safety Considerations
+## Cytotoksisitet
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug-drug interaction data were available in this evidence pack.
+Everolimus er et onkologi-bruk mTOR-rettet middel og er derfor inkludert her.
+
+| Element | Innhold |
+|------|--------|
+| Cytotoksisitetsklassifisering | Målrettet terapi (mTOR-hemmer / rapalog) – ikke et konvensjonelt cytotoksisk middel |
+| Myelosuppresjonrisiko | Ikke tilgjengelig i bevisutstillingen; vennligst se pakningsvedlegget |
+| Emetogenisitetsklassifisering | Ikke tilgjengelig i bevisutstillingen; vennligst se pakningsvedlegget |
+| Overvåkingspunkter | Ikke tilgjengelig i bevisutstillingen; vennligst se pakningsvedlegget |
+| Håndteringsbeskyttelse | Ikke tilgjengelig i bevisutstillingen; vennligst se pakningsvedlegget |
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Ingen viktige advarsler, kontraindikasjoner eller legemiddel-legemiddelinteraksjonsdata var tilgjengelige i denne bevisutstillingen.
 
-**Rationale:**
-There is a biologically plausible mechanistic link (Akt-mTOR pathway activation in DDL) and an actively reported Phase 2 combination trial (ribociclib + everolimus), which together support cautious further evaluation. However, the trial itself is not yet formally completed, and this candidate carries a **Blocking** data gap (TFDA/local label warnings and contraindications) that must be resolved before any safety-relevant decision can be finalized.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain official label/package insert warnings and contraindications
-- Resolve DG002 (High): confirm mechanism of action via DrugBank API query
-- Confirm formal completion and topline results of NCT03114527
-- Clarify the original approved indication(s) via an authoritative regulatory source, since `taiwan_regulatory.licenses` is currently empty and the "original indication" in this report was inferred from literature context only
+## Konklusjon og neste steg
+
+**Beslutning: Fortsett med sikkerhetstiltak**
+
+**Begrunnelse:**
+Det er en biologisk plausibel mekanistisk forbindelse (Akt-mTOR-signalering aktivering i DDL) og en aktivt rapportert fase 2-kombinasjonsprøvelse (ribociclib + everolimus), som sammen støtter forsiktig videre evaluering. Imidlertid er prøvelsen selv ikke ennå formelt avsluttet, og denne kandidaten har en **blokkerende** datagap (TFDA/lokal merkeetikettadvarsler og kontraindikasjoner) som må løses før noen sikkerhetsmessig relevant beslutning kan sluttføres.
+
+**For å fortsette, følgende er nødvendig:**
+- Løse DG001 (Blokkering): få offisiell merkeetikettadvarsler og kontraindikasjoner
+- Løse DG002 (Høy): bekrefte virkningsmekanisme via DrugBank API-spørring
+- Bekrefte formell avslutning og topline-resultater av NCT03114527
+- Avklare den opprinnelige godkjente indikasjon(er) via en autoritativ regulatorisk kilde, siden `taiwan_regulatory.licenses` for tiden er tom og den "opprinnelige indikasjon" i denne rapporten ble utledet fra litteraturkontekst alene
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

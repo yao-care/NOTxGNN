@@ -29,74 +29,75 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Turoctocog Alfa Pegol: From Hemophilia A to Acquired Coagulation Factor Deficiency
+# Turoctocog alfa pegol: Fra Hemofili A til Ervervet Mangel på Koagulasjonsfaktor
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-Turoctocog alfa pegol is a PEGylated recombinant Factor VIII (FVIII) replacement therapy, originally developed for FVIII deficiency in **Hemophilia A** (inferred from the drug's mechanistic description; formal original-indication data is not yet documented in this evidence pack). The TxGNN model's top-ranked prediction (platelet release disorder) does not hold up mechanistically, so the report instead highlights **Acquired Coagulation Factor Deficiency** as the most pharmacologically plausible candidate among the 10 predictions. **No clinical trials or literature currently support any of the 10 predicted indications** — this is a pure model-prediction (L5) case with an unresolved MOA data gap.
+Turoctocog alfa pegol er en PEGylert rekombinant faktor VIII (FVIII) erstatningsterapi, opprinnelig utviklet for FVIII-mangel ved Hemofili A (utledet fra stoffets mekanistiske beskrivelse; formelle data om originalindikasjon er ikke ennå dokumentert i denne bevisepakken). TxGNN-modellens topprangerte prediksjon (trombocyttfrigjøringsforstyrrelse) holder ikke mekanistisk, så rapporten fremhever i stedet **Ervervet Mangel på Koagulasjonsfaktor** som den farmakologisk mest plausible kandidaten blant de 10 prediksjonene. **Ingen kliniske forsøk eller litteratur støtter for øyeblikket noen av de 10 predikterte indikasjonene** — dette er et rent modellprediktert tilfelle (L5) med et uløst MOA-datahull.
 
 ---
 
-## Quick Overview
+## Rask Oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not documented in regulatory data (drug is not yet marketed in Norway); inferred to be Hemophilia A / FVIII deficiency based on drug class |
-| Predicted New Indication | Acquired Coagulation Factor Deficiency (selected as the mechanistically strongest of 10 candidates; TxGNN's #1-ranked prediction, platelet release disorder, was assessed as not pharmacologically plausible — see rationale below) |
-| TxGNN Prediction Score | 99.97% (rank 525 of all disease predictions) |
-| Evidence Level | L5 (model prediction only — no clinical trials or literature for any of the 10 candidates) |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Originalindikasjon | Ikke dokumentert i regulatoriske data (legemiddelet er ikke ennå markedsført i Norge); antatt å være Hemofili A / FVIII-mangel basert på stoffklasse |
+| Prediktert Ny Indikasjon | Ervervet Mangel på Koagulasjonsfaktor (valgt som det mekanistisk sterkeste blant 10 kandidater; TxGNN sin #1-rangerte prediksjon, trombocyttfrigjøringsforstyrrelse, ble vurdert som ikke farmakologisk plausibel — se begrunnelse nedenfor) |
+| TxGNN Prediktert Poengsum | 99.97% (rangert 525 av alle sykdomspredikasjoner) |
+| Bevisnivå | L5 (modellprediksjon kun — ingen kliniske forsøk eller litteratur for noen av de 10 kandidatene) |
+| Norsk Markedsstatus | ✗ Ikke markedsført |
+| Antall Autorisasjoner | 0 |
+| Anbefalt Avgjørelse | Opphold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor Er Denne Prediktionen Rimelig?
 
-Detailed formal mechanism-of-action data is currently a documented gap (DG002, High severity — DrugBank API lookup pending). Based on contextual information available in this evidence pack, turoctocog alfa pegol is a **PEGylated recombinant Factor VIII replacement therapy**, used to correct FVIII deficiency in Hemophilia A.
+Detaljerte formelle data om virkningsmekanisme er for øyeblikket et dokumentert hull (DG002, høy alvorlighetsgrad — DrugBank API-oppslag venter). Basert på kontekstinformasjon tilgjengelig i denne bevisepakken, er turoctocog alfa pegol en **PEGylert rekombinant faktor VIII-erstatningsterapi**, brukt til å korrigere FVIII-mangel ved Hemofili A.
 
-Among the 10 TxGNN-predicted indications, most (platelet release disorder, pseudo-von Willebrand disease, Glanzmann thrombasthenia, Scott syndrome, collagen receptor defects, constitutional thrombocytopenia, FNAIT, and two ambiguous/likely-mislabeled entries) involve **platelet-level dysfunction or unrelated genetic syndromes**, not coagulation-factor deficiency. FVIII replacement cannot correct platelet granule secretion defects, receptor abnormalities, or membrane phospholipid scrambling — these predictions likely reflect TxGNN's knowledge graph clustering diseases through a shared "bleeding tendency" node rather than genuine pharmacological relevance.
+Blant de 10 TxGNN-predikterte indikasjonene, involverer de fleste (trombocyttfrigjøringsforstyrrelse, pseudo-von Willebrand-sykdom, Glanzmanns thrombasteni, Scott-syndrom, kollagenreseptordefekter, konstitusjonell trombocytopeni, FNAIT, og to tvetydige/sannsynlig feilmerkede oppføringer) **trombocyttnivå-dysfunksjon eller urelaterte genetiske syndromer**, ikke koagulasjonsfaktormangel. FVIII-erstatning kan ikke korrigere defekter i trombocyttgranulesekresjonen, reseptoravvik, eller fosfatidylserinscrambling på membranen — disse prediksjonene gjenspeiler trolig TxGNN's kunnskapsgrafs klynging av sykdommer gjennom en delt «blødningstendens»-node heller enn genuine farmakologisk relevans.
 
-**Acquired Coagulation Factor Deficiency** stands out as the exception: this category includes acquired Hemophilia A (e.g., anti-FVIII autoantibody-mediated FVIII deficiency), for which standard/long-acting FVIII replacement products are already used as supportive therapy in current practice. This is the only one of the 10 predictions where the disease mechanism (FVIII insufficiency) directly matches the drug's mechanism (FVIII replacement) — which is why the evidence pack advances it to decision-stage S1 ("Research Question") while the other 9 remain at S0 (Hold).
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+**Ervervet Mangel på Koagulasjonsfaktor** skiller seg ut som unntak: denne kategorien inkluderer ervervet Hemofili A (f.eks. anti-FVIII autoantistoff-mediert FVIII-mangel), for hvilken standard/langtidsvirkende FVIII-erstatningsprodukter allerede brukes som støtteterapi i gjeldende praksis. Dette er den eneste av de 10 prediksjonene hvor sykdomsmekanismen (FVIII-utilstrekkelighet) direkte samsvarer med stoffets mekanisme (FVIII-erstatning) — og det er hvorfor bevisepakken fremhever det til beslutningstrinn S1 («Forskningsspørsmål») mens de øvrige 9 forblir på S0 (Opphold).
 
 ---
 
-## Literature Evidence
+## Bevis fra Kliniske Forsøk
 
-Currently no related literature available.
-
----
-
-## Norway Market Information
-
-Turoctocog alfa pegol is **not marketed in Norway** — no product authorizations are currently registered (0 licenses on file), so no dosage-form or approved-indication table can be produced at this time.
+For øyeblikket ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Safety Considerations
+## Bevis fra Litteratur
 
-Please refer to the package insert for safety information. (Note: TFDA/label warnings and contraindications are flagged as a **Blocking data gap** (DG001) in this evidence pack — they must be resolved before any safety pre-assessment (S1) can proceed.)
+For øyeblikket ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Informasjon om Norges Marked
 
-**Decision: Hold**
+Turoctocog alfa pegol er **ikke markedsført i Norge** — ingen produktautorisasjoner er for øyeblikket registrert (0 lisenser på fil), så ingen tabell over doseringsform eller godkjent-indikasjon kan produseres på dette tidspunktet.
 
-**Rationale:**
-All 10 TxGNN-predicted indications for turoctocog alfa pegol currently have zero supporting clinical trials or literature (L5, prediction-only), the drug is not marketed in Norway, and both the formal MOA data and TFDA/label safety data are documented gaps. Even the mechanistically most plausible candidate (acquired coagulation factor deficiency) has no direct evidence yet — it only qualifies for further inquiry (S1), not advancement.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain TFDA/Norway label warnings and contraindications before any S1 safety pre-assessment
-- Resolve DG002 (High): confirm formal MOA via DrugBank API to validate the FVIII-replacement mechanistic rationale
-- Search specifically for literature/case series on FVIII product use in acquired Hemophilia A / acquired coagulation factor deficiency
-- Re-evaluate the remaining 9 predictions' plausibility before allocating further review resources to them
+## Sikkerhetshensyn
+
+Vennligst se pakningslisten for sikkerhetsinformasjon. (Merk: TFDA/etikett-advarsler og kontraindikasjoner er flagget som et **Blokkerende datahull** (DG001) i denne bevisepakken — de må løses før noen sikkerhet-forhåndsvurdering (S1) kan fortsette.)
+
+---
+
+## Konklusjon og Neste Trinn
+
+**Avgjørelse: Opphold**
+
+**Begrunnelse:**
+Alle 10 TxGNN-predikterte indikasjonene for turoctocog alfa pegol har for øyeblikket null støttende kliniske forsøk eller litteratur (L5, prediksjon kun), legemiddelet er ikke markedsført i Norge, og både de formelle MOA-data og TFDA/etikett-sikkerhetsdataene er dokumenterte hull. Selv den mekanistisk mest plausible kandidaten (ervervet koagulasjonsfaktormangel) har ingen direkte bevis ennå — den kvalifiserer bare for videre undersøkelse (S1), ikke videre fremdrift.
+
+**For å gå videre er følgende nødvendig:**
+- Løs DG001 (Blokkerende): innhent TFDA/Norge-etikettvarsler og kontraindikasjoner før noen S1-sikkerhetsvurdering
+- Løs DG002 (Høy): bekreft formell MOA via DrugBank API for å validere den mekanistiske begrunnelsen for FVIII-erstatning
+- Søk spesifikt etter litteratur/kasusserier på FVIII-produktbruk i ervervet Hemofili A / ervervet koagulasjonsfaktormangel
+- Revurder de gjenværende 9 prediksjonenes plausibilitet før du allokerer videre ressurser til disse
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

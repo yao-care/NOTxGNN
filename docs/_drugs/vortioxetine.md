@@ -29,81 +29,82 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Vortioxetine: From Major Depressive Disorder to Neurotic Disorder
+# Vortioxetin: Fra alvorlig depressiv lidelse til nevrotisk lidelse
 
-## One-Sentence Summary
+## Sammendrag på en setning
 
-> Vortioxetine is a multimodal serotonergic antidepressant, and literature in this evidence pack describes it as "currently approved for the treatment of major depressive disorder (MDD)."
-> The TxGNN model's top-ranked prediction is **Neurotic Disorder**, an older, broad diagnostic term overlapping with the depressive/anxiety spectrum,
-> currently supported by only **1 clinical trial** and **1 publication**. A closely related candidate in the same prediction set — **Neurotic Depression** — is essentially synonymous with MDD under older nomenclature and carries far stronger evidence (6 clinical trials, 20 publications, multiple Phase 3 RCTs).
+> Vortioxetin er et multimodalt serotonergt antidepressivum, og litteraturen i denne bevissamlingen beskriver det som «for tiden godkjent for behandling av alvorlig depressiv lidelse (MDD)».
+> TxGNN-modellens høyest rangerte prediksjon er **Nevrotisk lidelse**, en eldre, bred diagnostisk betegnelse som overlapper depressivt/angstspekteret,
+> for tiden støttet av kun **1 klinisk forsøk** og **1 publikasjon**. En nært beslektet kandidat i samme prediksjonsresultat — **Nevrotisk depresjon** — er i det vesentlige synonymt med MDD under eldre nomenklattur og har langt sterkere bevis (6 kliniske forsøk, 20 publikasjoner, flere fase 3 RCT).
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Major Depressive Disorder (MDD) — per literature within this pack (PMID 29189941, 25016186); `original_moa`/`original_indications` fields are data gaps and not marketed in Norway, so no local license text is available |
-| Predicted New Indication | Neurotic Disorder |
-| TxGNN Prediction Score | 99.24% |
-| Evidence Level | L3 (per pack scoring: single retrospective real-world trial, Grade C relevance + one Review, Tier 3) |
-| Norway Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Alvorlig depressiv lidelse (MDD) — i henhold til litteraturen i denne samlingen (PMID 29189941, 25016186); `original_moa`/`original_indications`-felt er datahull og ikke markedsført i Norge, så ingen lokal lisenstekst er tilgjengelig |
+| Predikert ny indikasjon | Nevrotisk lidelse |
+| TxGNN prediksjonspoengsum | 99,24% |
+| Bevisnivå | L3 (etter pakkepoengsum: enkelt retrospektivt virkelighetsstudium, Grad C-relevans + en oversikt, Nivå 3) |
+| Markedsstatus i Norge | ✗ Ikke markedsført (Ikke markedsført) |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-The `drug.original_moa` field is marked as a data gap. However, literature already collected in this evidence pack (Sanchez et al. 2015, PMID 25016186) describes vortioxetine's mechanism: it is a serotonin transporter (SERT) inhibitor with additional 5-HT1A receptor agonism, 5-HT1B partial agonism, and 5-HT3/5-HT7/5-HT1D receptor antagonism, which increases serotonergic, noradrenergic, dopaminergic, cholinergic, histaminergic, and glutamatergic neurotransmission in brain circuits implicated in mood and cognition.
+`drug.original_moa`-feltet er merket som et datahull. Imidlertid beskriver litteraturen som allerede er samlet i denne bevissamlingen (Sanchez et al. 2015, PMID 25016186) vortioxetins mekanisme: det er en serotonitransporter (SERT)-hemmer med tilleggs 5-HT1A-reseptor-agonisme, 5-HT1B-delvis agonisme, og 5-HT3/5-HT7/5-HT1D-reseptor-antagonisme, som øker serotonerge, noradrenerge, dopaminerge, kolinnerge, histaminerge og glutamaterge nevrotransmisjon i hjernekretser involvert i humør og kognisjon.
 
-"Neurotic disorder" is a broad, largely obsolete diagnostic umbrella (ICD-9-era terminology, not part of current DSM-5 nomenclature) that spans anxiety- and depression-adjacent presentations. Mechanistically, a multimodal serotonergic agent is plausible for this spectrum, but because the term itself lacks diagnostic specificity, the supporting evidence is thin and largely indirect — this is explicitly acknowledged in the pack's own `repurposing_rationale` for this candidate.
+«Nevrotisk lidelse» er en bred, stort sett foreldet diagnostisk samlebetegnelse (ICD-9-era terminologi, ikke del av nåværende DSM-5-nomenklattur) som omfatter angst- og depresjonsnære manifestasjoner. Fra et mekanistisk perspektiv er en multimodal serotonergen agent plausibel for dette spekteret, men fordi betegnelsen selv mangler diagnostisk spesifisitet, er den støttende evidensen begrenset og stort sett indirekte — dette er eksplisitt anerkjent i pakkens egen `repurposing_rationale` for denne kandidaten.
 
-Notably, four of the five predicted indications in this pack (neurotic disorder, neurotic depression, melancholia, dysthymic disorder) all sit within the same depressive/neurotic-spectrum cluster, essentially re-detecting vortioxetine's known antidepressant profile through different historical naming conventions. Among these, **neurotic depression** (rank 2, score 99.09%) has by far the strongest clinical evidence — six trials including multiple completed Phase 3 RCTs, and 20 publications including systematic reviews and network meta-analyses in MDD — and should be treated as the practical anchor for this signal cluster. The fifth candidate, *benign paroxysmal torticollis of infancy*, is a pediatric paroxysmal disorder with no supporting trials or literature and is most plausibly model noise rather than a genuine repurposing signal.
+Det er bemerkelsesverdig at fire av fem predikerte indikasjoner i denne pakken (nevrotisk lidelse, nevrotisk depresjon, melankoli, dystymic lidelse) alle ligger innenfor samme depressiv/nevrotisk-spektrum-klynge, og i hovedsak gjenfinner vortioxetins kjente antidepressivprofil gjennom ulike historiske navngivingnormer. Blant disse har **nevrotisk depresjon** (rangering 2, poengsum 99.09%) langt den sterkeste kliniske evidensen — seks forsøk inkludert flere fullførte fase 3 RCT, og 20 publikasjoner inkludert systematiske oversikter og nettverksmetaanalyser i MDD — og bør behandles som det praktiske ankeret for denne signalklyngen. Den femte kandidaten, *benign paroxysmalt tortikollis hos spedbarn*, er en pediatrisk paroxysmalsykdom uten støttende forsøk eller litteratur og er mest plausibelt modellstøy snarere enn et genuint ombruks-signal.
 
 ---
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøk
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Antall deltakere | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT04446039](https://clinicaltrials.gov/study/NCT04446039) | N/A | Completed | 370,212 | Large real-world retrospective claims-database cohort comparing medication utilization patterns and adverse-outcome risk across commonly used antidepressants; not designed specifically around a "neurotic disorder" diagnosis, so relevance is indirect (Grade C). |
+| [NCT04446039](https://clinicaltrials.gov/study/NCT04446039) | N/A | Fullført | 370,212 | Stort retrospektivt virkelighetsstudium basert på forsikringskravdata som sammenligner medikamentbruksmønstre og risiko for ugunstige utfall på tvers av hyppig brukte antidepressiva; ikke spesifikt utformet for «nevrotisk lidelse»-diagnose, så relevansen er indirekte (Grad C). |
 
 ---
 
-## Literature Evidence
+## Bevis fra litteratur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [31006795](https://pubmed.ncbi.nlm.nih.gov/31006795/) | 2019 | Review | Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova | Case-based review of "neurotic depression" treatment, noting the advantages of combining antidepressants with cognitive behavioral therapy. |
+| [31006795](https://pubmed.ncbi.nlm.nih.gov/31006795/) | 2019 | Oversikt | Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova | Kasusbasert oversikt over «nevrotisk depresjon»-behandling som bemerker fordelene ved å kombinere antidepressiva med kognitiv atferdsterapi. |
 
 ---
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Vortioxetine is currently **not marketed in Norway** (`market_status: Not marketed`, `total_licenses: 0`); no authorization records are available in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-interaction data are currently unavailable in this evidence pack (`DG001`, marked *Blocking* — TFDA/Norway package insert warnings and contraindications have not yet been retrieved, which prevents entry into the S1 safety pre-assessment stage).
+Vortioxetin er for tiden **ikke markedsført i Norge** (`market_status: Not marketed`, `total_licenses: 0`); ingen godkjennelsesregistre er tilgjengelige i denne bevissamlingen.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyns
 
-**Decision: Hold**
+Vennligst se pakningsvedlegget for sikkerhetsopplysninger. Viktige advarsler, kontraindikasjoner og data om legemiddelinteraksjoner er for tiden utilgjengelige i denne bevissamlingen (`DG001`, markert som *Blokkering* — advarsler og kontraindikasjoner i TFDA/Norge-pakningsvedlegget er ennå ikke hentet, noe som forhindrer oppføring i S1 sikkerhetsvurderingsfasen).
 
-**Rationale:**
-- The top-ranked candidate, "Neurotic Disorder," is an imprecise legacy diagnostic term with only one indirect real-world trial and one case-review article — insufficient evidence to proceed on its own.
-- Within the same prediction cluster, "Neurotic Depression" (L1/S3, "Proceed with Guardrails") is a far stronger, better-evidenced signal and is essentially equivalent to vortioxetine's known MDD indication under older nomenclature; it should be the priority target if this repurposing direction is pursued.
+---
 
-**To proceed, the following is needed:**
-- Retrieve TFDA/Norway package insert warnings, contraindications, and DDI data (DG001, blocking) before any S1 safety assessment.
-- Retrieve confirmed mechanism-of-action data from DrugBank (DG002).
-- Clarify diagnostic mapping of legacy terms (neurotic disorder, neurotic depression, melancholia, dysthymic disorder) to current DSM-5/ICD-11 categories to consolidate this into a single, well-defined target indication — likely centered on "Neurotic Depression"/MDD-spectrum use.
-- Treat "benign paroxysmal torticollis of infancy" as low-priority/likely noise given zero supporting trials or literature; do not advance without independent mechanistic justification.
+## Konklusjon og neste steg
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+- Den høyest rangerte kandidaten, «Nevrotisk lidelse», er en upresis arvet diagnostisk betegnelse med kun ett indirekte virkelighetsforsøk og en kasusgjennomgangsartikkel — utilstrekkelig evidens for å gå videre på egenhånd.
+- Innenfor samme prediksjonsklynge er «Nevrotisk depresjon» (L1/S3, «Fortsett med sikkerhetstiltak») et langt sterkere, bedre-bevist signal og er i det vesentlige ekvivalent med vortioxetins kjente MDD-indikasjon under eldre nomenklattur; det bør være målet med høyeste prioritet hvis denne ombruksretningen forfølges.
+
+**For å gå videre er følgende nødvendig:**
+- Hent TFDA/Norge-pakningsvedleggets advarsler, kontraindikasjoner og DDI-data (DG001, blokkering) før sikkerhetsvurdering på S1-nivå.
+- Hent bekreftet virkemekanisme-data fra DrugBank (DG002).
+- Avklar diagnostisk kartlegging av arvet terminer (nevrotisk lidelse, nevrotisk depresjon, melankoli, dystymic lidelse) til gjeldende DSM-5/ICD-11-kategorier for å konsolidere dette til en enkel, veldefinert målindikasjon — sannsynlig sentrert på «Nevrotisk depresjon»/MDD-spektrum-bruk.
+- Behandle «benign paroxysmalt tortikollis hos spedbarn» som lavprioritet/sannsynlig støy gitt null støttende forsøk eller litteratur; ikke gå videre uten uavhengig mekanistisk begrunnelse.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,92 +29,93 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Vismodegib: From Basal Cell Carcinoma to Medulloblastoma with Extensive Nodularity
+# Vismodegib: Fra basalcellekarsinom til medulloblastom med omfattende nodularitet
 
-## One-Sentence Summary
+## Ensetnings oppsummering
 
-> Vismodegib is a Smoothened (SMO) inhibitor whose real-world approved use is for locally advanced/metastatic basal cell carcinoma (BCC) — as reflected in this evidence pack's own rank-9 candidate, which carries strong clinical trial support.
-> The TxGNN model's **top-ranked** prediction, however, points to **Medulloblastoma with Extensive Nodularity**, a SHH-pathway-driven brain tumour.
-> This specific prediction is currently supported by **0 clinical trials** and **0 publications** in this dataset — the mechanistic rationale is strong, but the evidence chain still needs to be built.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available from Norway licensing data (drug not marketed). Based on evidence-pack context (rank 9 rationale), vismodegib's known real-world approved indication is locally advanced/metastatic basal cell carcinoma (BCC) |
-| Predicted New Indication | Medulloblastoma with extensive nodularity |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Vismodegib er en Smoothened (SMO)-hemmer hvis faktisk godkjent bruk er for lokalt avansert/metastatisk basalcellekarsinom (BCC) — som reflektert i denne evidenspakkens egen rang-9-kandidat, som har sterkt klinisk prøvestøtte.
+> TxGNN-modellens **topprankerte** prediksjon peker imidlertid på **medulloblastom med omfattende nodularitet**, en SHH-vei-drevet hjernetumor.
+> Denne spesifikke prediksjonen støttes for øyeblikket av **0 kliniske studier** og **0 publikasjoner** i dette datasettet — den mekanistiske begrunnelsen er sterk, men bevissekvensen må fortsatt bygges opp.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Vismodegib is a Smoothened (SMO) antagonist that blocks the Hedgehog (Hh) signaling pathway. This official MOA field is marked as a data gap in this pack, but the mechanism is consistently described across the pack's own rationale texts and cited literature (e.g., PMID 22679179, PMID 24756807): vismodegib binds SMO and prevents aberrant activation of GLI transcription factors, suppressing tumour proliferation in Hh-driven cancers.
-
-The predicted indication — SHH-subtype medulloblastoma — is mechanistically well matched: this brain tumour subtype is directly dependent on constitutive Hedgehog pathway activation, the same pathway vismodegib was designed to block. This is analogous to vismodegib's established real-world approved use in BCC, where PTCH1/SMO pathway mutations drive tumorigenesis (see the rank-9 candidate "skin cancer" in this same pack, which shows large-scale Phase II trial support, e.g. NCT01367665, n=1232).
-
-Notably, the rationale attached to this top-ranked prediction explicitly notes: *"現實世界中 vismodegib 已核准用於成人復發性/轉移性髓母細胞瘤"* (vismodegib is already approved in the real world for adult recurrent/metastatic medulloblastoma). This suggests the TxGNN model has correctly identified a mechanistically and clinically valid signal — the absence of trials/literature in this specific dataset likely reflects a gap in evidence retrieval/indexing for this exact indication term, rather than an absence of real-world evidence. This gap should be closed by targeted literature search before proceeding.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Emne | Innhold |
+|------|---------|
+| Original indikasjon | Ikke tilgjengelig fra norsk lisensdata (legemiddel ikke markedsført). Basert på kontekst fra evidenspakken (rang-9 begrunnelse), er vismodegib's kjente faktisk godkjente indikasjon lokalt avansert/metastatisk basalcellekarsinom (BCC) |
+| Predikert ny indikasjon | Medulloblastom med omfattende nodularitet |
+| TxGNN-prediksjonspoeng | 99.93% |
+| Evidensnivå | L5 |
+| Norsk markedsstatus | ✗ Ikke markedsført (Ikke markedsført) |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available
+Vismodegib er en Smoothened (SMO)-antagonist som blokkerer Hedgehog (Hh)-signalveien. Dette offisielle MOA-feltet er markert som en datakløft i denne pakken, men mekanismen er konsekvent beskrevet gjennom pakkens egne begrunnelsestekster og sitert litteratur (f.eks. PMID 22679179, PMID 24756807): vismodegib binder SMO og forhindrer uønsket aktivering av GLI-transkripsjonfaktorer, og undertrycker tumorproliferasjon i Hh-drevne kreftformer.
 
----
+Den predikerte indikasjonen — SHH-subtype medulloblastom — er mekanistisk godt matchet: denne hjernekreften er direkte avhengig av konstant Hedgehog-signalveien aktivering, den samme veien vismodegib ble designet til å blokkere. Dette er analogt til vismodegib's etablerte og faktisk godkjente bruk i BCC, hvor PTCH1/SMO-vei mutasjoner driver tumorigenese (se rang-9-kandidaten "hudkreft" i denne samme pakken, som viser storskala fase II-prøvestøtte, f.eks. NCT01367665, n=1232).
 
-## Norway Market Information
-
-No market authorization data available — vismodegib is not currently marketed in Norway (0 authorizations on file).
+Bemerkelsesverdig nok noterer begrunnelsen knyttet til denne topprankerte prediksjonen eksplisitt: *"現實世界中 vismodegib 已核准用於成人復發性/轉移性髓母細胞瘤"* (vismodegib er allerede godkjent i den reelle verden for voksen tilbakevendende/metastatisk medulloblastom). Dette tyder på at TxGNN-modellen har korrekt identifisert et mekanistisk og klinisk gyldig signal — fraværet av prøver/litteratur i dette spesifikke datasettet reflekterer sannsynlig en kløft i bevisinnsamling/indeksering for dette eksakte indikasjonsbegrepet, snarere enn et fravær av reell-verdens bevis. Denne kløften bør lukkes med målrettet litteratursøk før framgang.
 
 ---
 
-## Cytotoxicity
+## Klinisk prøvebevis
 
-Vismodegib is an antineoplastic agent (Hedgehog pathway inhibitor used in cancer indications), so this section applies.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (Hedgehog pathway / Smoothened inhibitor) — not a conventional cytotoxic chemotherapy agent |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+For øyeblikket ingen relaterte kliniske studier registrert
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/label warnings and contraindications are flagged as a **Blocking** data gap [DG001] in this evidence pack — this must be resolved before any S1 safety evaluation can proceed.)*
+For øyeblikket ingen relatert litteratur tilgjengelig
 
 ---
 
-## Conclusion and Next Steps
+## Norsk markedsinformasjon
 
-**Decision: Hold**
+Ingen markedsføringsgodkjenningsdata tilgjengelig — vismodegib er ikke for øyeblikket markedsført i Norge (0 godkjennelser på fil).
 
-**Rationale:**
-The TxGNN score for this indication is very high (99.93%), and the mechanistic rationale (SHH-pathway dependency in medulloblastoma) is sound and consistent with vismodegib's known real-world use. However, this dataset currently provides **zero clinical trials and zero literature citations** for this specific indication, placing it at evidence level L5 — model prediction only, with no corroborating study evidence assembled yet.
+---
 
-**To proceed, the following is needed:**
-- Targeted literature/trial search for "vismodegib + medulloblastoma" (the rationale text itself indicates real-world approval exists — this needs to be sourced and added to the evidence pack)
-- TFDA/product label warnings and contraindications (DG001, Blocking severity — currently prevents S1 safety evaluation)
-- Formal mechanism of action (MOA) documentation from DrugBank (DG002, High severity)
-- Norway market authorization pathway assessment, since the drug is currently not marketed there
+## Cytotoksisitet
+
+Vismodegib er et antineoplastisk agens (Hedgehog-vei hemmer brukt i kreftiindikasjonene), så denne delen gjelder.
+
+| Emne | Innhold |
+|------|---------|
+| Cytotoksisitetsklassifikasjon | Målrettet terapi (Hedgehog-vei / Smoothened-hemmer) — ikke en konvensjonell cytotoksisk kjemoterapi-agens |
+| Myelosuppresjonrisiko | Vennligst se pakningsvedleggets advarsler og forsiktighetsregler |
+| Emetogenisitetsklassifikasjon | Vennligst se pakningsvedleggets advarsler og forsiktighetsregler |
+| Overvåkingselementer | Vennligst se pakningsvedleggets advarsler og forsiktighetsregler |
+| Håndteringsbeskyttelse | Vennligst se pakningsvedleggets advarsler og forsiktighetsregler |
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+*(Merk: TFDA/etikett advarsler og kontraindikasjoner er flagget som en **blokkering** datakløft [DG001] i denne evidenspakken — dette må løses før en S1-sikkerhetsevaluering kan finne sted.)*
+
+---
+
+## Konklusjon og neste skritt
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+TxGNN-poengsum for denne indikasjonen er veldig høyt (99.93%), og den mekanistiske begrunnelsen (SHH-vei-avhengighet i medulloblastom) er solid og konsekvent med vismodegib's kjente faktisk godkjente bruk i verden. Imidlertid gir dette datasettet for øyeblikket **null kliniske studier og null litteratursiteringer** for denne spesifikke indikasjonen, noe som plasserer det på evidensnivå L5 — modellprediksjon bare, uten korroborerende studiebevis samlet ennå.
+
+**For å fortsette, trengs følgende:**
+- Målrettet litteratur-/studiesøk for "vismodegib + medulloblastom" (selve begrunnelsesteksten indikerer at faktisk godkjenning eksisterer — dette må uthentes og legges til evidenspakken)
+- TFDA/produktetikett advarsler og kontraindikasjoner (DG001, blokkering alvorlighetsgrad — forhindrer for øyeblikket S1-sikkerhetsevaluering)
+- Formell virkningsmekanisme (MOA) dokumentasjon fra DrugBank (DG002, høy alvorlighetsgrad)
+- Vurdering av norsk markedsføringsgodkjenningsprosess, siden legemidlet for øyeblikket ikke er markedsført der
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

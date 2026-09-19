@@ -29,58 +29,59 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Tildrakizumab: From Plaque Psoriasis to Severe Nonproliferative Diabetic Retinopathy
+# Tildrakizumab: Fra plakkpsoriasis til alvorlig ikke-proliferativ diabetisk retinopati
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-Tildrakizumab is an anti-IL-23p19 monoclonal antibody originally developed for moderate-to-severe plaque psoriasis. The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**, but this direction is currently supported by **0 clinical trials** and **0 publications** — it is a pure network-score prediction with no independent evidence base.
+Tildrakizumab er et anti-IL-23p19 monoklonalt antistoff opprinnelig utviklet for moderat til alvorlig plakkpsoriasis. TxGNN-modellen forutsier at det kan være effektivt for **alvorlig ikke-proliferativ diabetisk retinopati**, men denne retningen er for øyeblikket støttet av **0 kliniske forsøk** og **0 publikasjoner** — det er en ren nettverkspoengprediksjon uten uavhengig bevisgrunnlag.
 
-## Quick Overview
+## Hurtigoversikt
 
-| Item | Content |
-|------|---------|
-| Original Indication | Moderate-to-severe plaque psoriasis (based on known drug class; no Taiwan license text available in this evidence pack) |
-| Predicted New Indication | Severe nonproliferative diabetic retinopathy |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Moderat til alvorlig plakkpsoriasis (basert på kjent legemiddelklasse; ingen taiwanesisk lisenstekst tilgjengelig i denne bevispacken) |
+| Forutsagt ny indikasjon | Alvorlig ikke-proliferativ diabetisk retinopati |
+| TxGNN-prediksjonspoeng | 99.63% |
+| Bevisnivå | L5 |
+| Taiwan-markedsstatus | Ikke markedsført (Ikke markedsført) |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available (data gap DG002). Based on known drug-class information, tildrakizumab is a humanized IgG1/κ monoclonal antibody that selectively binds the p19 subunit of IL-23, blocking IL-23/Th17 signaling; it is used to treat moderate-to-severe plaque psoriasis, an IL-23/Th17-driven inflammatory skin disease.
+For øyeblikket er ikke detaljerte virkningsmekanisme-data tilgjengelig (datakløft DG002). Basert på kjent legemiddelklasse-informasjon er tildrakizumab et humanisert IgG1/κ monoklonalt antistoff som selektivt binder p19-underenheten av IL-23, blokkerer IL-23/Th17-signalering og brukes til å behandle moderat til alvorlig plakkpsoriasis, en IL-23/Th17-drevet inflammatorisk hudsykdom.
 
-Diabetic retinopathy pathology, in contrast, is primarily driven by hyperglycemia-induced microvascular injury and VEGF-mediated neovascularization. While chronic low-grade inflammation and Th17 involvement have been proposed in some diabetic vascular complications, there is no established causal or mechanistic pathway connecting IL-23 inhibition to diabetic retinopathy in the literature reviewed. This prediction therefore rests solely on the TxGNN network association score and currently lacks any independent mechanistic, preclinical, or clinical support.
+Diabetisk retinopati-patologi er derimot primært drevet av hyperglykemi-indusert mikrovaskulær skade og VEGF-mediiert neovaskulærisering. Selv om kronisk lavgradig inflammasjon og Th17-deltakelse har blitt foreslått i noen diabetiske vaskulære komplikasjoner, finnes det ingen etablert kausal eller mekanistisk vei som forbinder IL-23-hemming til diabetisk retinopati i den gjennomgåtte litteraturen. Denne prediksjonen hviler derfor utelukkende på TxGNN-nettverksassosiasjonspoenget og mangler for øyeblikket enhver uavhengig mekanistisk, preklinisk eller klinisk støtte.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøk
 
-Currently no related clinical trials registered.
+For øyeblikket er det ingen relaterte kliniske forsøk registrert.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+For øyeblikket er det ingen relatert litteratur tilgjengelig.
 
-## Taiwan Market Information
+## Taiwans markedsinformasjon
 
-Tildrakizumab is currently not marketed in Taiwan (0 authorizations); no license or approved-indication information is available in this evidence pack.
+Tildrakizumab er for øyeblikket ikke markedsført i Taiwan (0 godkjennelser); ingen lisens- eller godkjent-indikasjon-informasjon er tilgjengelig i denne bevispacken.
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information (TFDA warnings, contraindications, and drug interaction data are not yet available — see data gap DG001).
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon (TFDA-advarsler, kontraindikasjoner og legemiddelinteraksjonsdata er ikke ennå tilgjengelig — se datakløft DG001).
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-The evidence level is L5 — a model prediction with no supporting clinical trials or literature — and the drug is not currently marketed in Taiwan. Critical safety data (TFDA warnings/contraindications, DG001) and confirmed mechanism of action (DG002) are both missing, which blocks any S1 safety pre-assessment.
+**Begrunnelse:**
+Bevisnivået er L5 — en modellprediksjon uten støttende kliniske forsøk eller litteratur — og legemidlet er for øyeblikket ikke markedsført i Taiwan. Kritiske sikkerheetsdata (TFDA-advarsler/kontraindikasjoner, DG001) og bekreftet virkningsmekanisme (DG002) mangler begge, noe som blokkerer enhver forhåndsvurdering av sikkerhet på S1-nivå.
 
-**To proceed, the following is needed:**
-- TFDA package insert with warnings and contraindications (DG001 — Blocking)
-- Confirmed original mechanism of action data (DG002)
-- Preclinical or mechanistic studies linking IL-23/Th17 inhibition to diabetic retinopathy pathology
-- Any clinical trial, case report, or observational data on tildrakizumab in diabetic microvascular/ophthalmic complications
+**For å gå videre, kreves følgende:**
+- TFDA-pakningsvedlegg med advarsler og kontraindikasjoner (DG001 — Blokkering)
+- Bekreftet opprinnelig virkningsmekanisme-data (DG002)
+- Prekliniske eller mekanistiske studier som forbinder IL-23/Th17-hemming til diabetisk retinopati-patologi
+- Ethvert klinisk forsøk, kasuistikk eller observasjonelle data om tildrakizumab ved diabetiske mikrovaskulære/oftalmologiske komplikasjoner
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

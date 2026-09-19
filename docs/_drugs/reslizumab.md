@@ -29,62 +29,63 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Reslizumab: From Eosinophilic Asthma to Immune Thrombocytopenia
+# Reslizumab: Fra eosinofil astma til immun trombocytopeni
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Reslizumab is an anti-IL-5 monoclonal antibody originally developed for eosinophilic asthma.
-> The TxGNN model predicts it may be effective for **Immune Thrombocytopenia (thrombocytopenia due to immune destruction)**,
-> but currently **no clinical trials and no directly relevant literature** support this prediction — the score reflects an indirect knowledge-graph association rather than established pharmacology.
+> Reslizumab er et anti-IL-5 monoklonalt antistoff opprinnelig utviklet for eosinofil astma.
+> TxGNN-modellen forutsier at det kan være effektivt for **Immun trombocytopeni (trombocytopeni på grunn av immun ødeleggelse)**,
+> men for tiden **ingen kliniske studier og ingen direkte relevant litteratur** støtter denne prediksjonen — scoren gjenspeiler en indirekte knowledge-graph-assosiasjon snarere enn etablert farmakologi.
 
-## Quick Overview
+## Hurtigoversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Eosinophilic asthma (per drug mechanism description; not on file in Taiwan licenses — drug is not marketed) |
-| Predicted New Indication | Thrombocytopenia due to immune destruction |
-| TxGNN Prediction Score | 99.53% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|------|---------|
+| Original indikasjon | Eosinofil astma (per farmakon mekanismebeskrivelse; ikke arkivert i Taiwan-lisenser — farmakon er ikke markedsført) |
+| Forutsagt ny indikasjon | Trombocytopeni på grunn av immun ødeleggelse |
+| TxGNN prediksjonspoengsum | 99.53% |
+| Bevisnivå | L5 |
+| Taiwan markedsstatus | Ikke markedsført (Ikke markedsført) |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvente |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available (MOA: Data Gap). Based on known information, Reslizumab is an anti-IL-5 monoclonal antibody that inhibits eosinophil production and activation, and its efficacy in eosinophilic asthma is well established.
+For tiden er detaljert virkningsmekanisme-data ikke tilgjengelig (MOA: Datakløft). Basert på kjent informasjon er reslizumab et anti-IL-5 monoklonalt antistoff som hemmer eosinofil-produksjon og aktivering, og dets effektivitet ved eosinofil astma er godt etablert.
 
-However, the repurposing rationale for immune thrombocytopenia explicitly notes that **no known mechanism links the IL-5 pathway to megakaryocyte function or immune-mediated platelet destruction**. The high TxGNN score appears to stem from an indirect knowledge-graph connection — likely through general immune-modulation or autoimmune-related nodes — rather than any documented molecular or clinical pathway. There is no direct pharmacological rationale connecting eosinophil suppression to platelet immune destruction at this time.
+Imidlertid bemerker gjenbruksbegrunnelsen for immun trombocytopeni eksplisitt at **ingen kjent mekanisme knytter IL-5-veien til megakaryocytt-funksjon eller immun-mediiert platelett-ødeleggelse**. Det høye TxGNN-poengsumet ser ut til å stamme fra en indirekte knowledge-graph-forbindelse — sannsynligvis gjennom generell immun-modulering eller autoimmun-relaterte noder — snarere enn noen dokumentert molekylær eller klinisk vei. Det er ingen direkte farmakologisk begrunnelse som forbinder eosinofil-undertrykkelse til immun platelett-ødeleggelse på dette tidspunktet.
 
-A secondary, lower-ranked prediction ("primary release disorder of platelets") is supported only by a single review article on mepolizumab (a different anti-IL-5 agent) in hypereosinophilic syndrome, which does not address reslizumab or platelet release mechanisms directly. This further indicates the current evidence base for platelet-related indications is speculative rather than substantive.
+En sekundær, lavere rangert prediksjon («primær utgivelsesforstyrrelse av plateletter») støttes kun av en enkelt oversiktsartikkel om mepolizumab (et annet anti-IL-5-middel) ved hypereosinofilt syndrom, som ikke tar opp reslizumab eller platelett-utgivelsesmekanismer direkte. Dette indikerer videre at det nåværende bevisgrunnlaget for platelett-relaterte indikasjoner er spekulativt snarere enn substansielt.
 
-## Clinical Trial Evidence
+## Klinisk studiebeviser
 
-Currently no related clinical trials registered.
+For tiden ingen relaterte kliniske studier registrert.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+For tiden ingen relatert litteratur tilgjengelig.
 
-## Taiwan Market Information
+## Taiwan markedsinformasjon
 
-Reslizumab is currently **not marketed in Taiwan** (0 authorizations on file). No license or approved-indication records are available for reference.
+Reslizumab er for tiden **ikke markedsført i Taiwan** (0 godkjenninger på fil). Ingen lisens- eller godkjent-indikasjon-poster er tilgjengelige for referanse.
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information. (TFDA warnings/contraindications and drug interaction data are not yet available — see data gap DG001.)
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (TFDA-advarsler/kontraindikasjoner og legemiddelinteraksjon-data er ennå ikke tilgjengelig — se datakløft DG001.)
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Avvente**
 
-**Rationale:**
-The prediction is supported only by a model score (Evidence Level L5), with no clinical trials, no directly relevant literature, and no established mechanistic link between the IL-5 pathway and immune-mediated platelet destruction. There is insufficient evidence to advance this candidate.
+**Begrunnelse:**
+Prediksjonen støttes kun av en modellpoengsum (Bevisnivå L5), uten kliniske studier, ingen direkte relevant litteratur, og ingen etablert mekanistisk forbindelse mellom IL-5-veien og immun-mediiert platelett-ødeleggelse. Det er utilstrekkelig bevis for å fremme denne kandidaten.
 
-**To proceed, the following is needed:**
-- Reslizumab MOA detail from DrugBank (data gap DG002)
-- TFDA package insert warnings/contraindications (data gap DG001, blocking for S1 safety review)
-- Preclinical or mechanistic studies directly linking IL-5/eosinophil biology to platelet immune destruction
-- Any case reports or observational data on reslizumab use in patients with concurrent thrombocytopenia
+**For å fortsette, er følgende nødvendig:**
+- Reslizumab MOA-detaljer fra DrugBank (datakløft DG002)
+- TFDA pakningsvedlegg advarsler og kontraindikasjoner (datakløft DG001, blokkering av S1-sikkerhetsvurdering)
+- Prekliniske eller mekanistiske studier som direkte knytter IL-5/eosinofil-biologi til immun platelett-ødeleggelse
+- Eventuelle saksrapporter eller observasjonsdata om reslizumab-bruk hos pasienter med samtidig trombocytopeni
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

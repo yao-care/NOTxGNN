@@ -29,77 +29,78 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Albutrepenonacog Alfa: From Hemophilia B (Background Knowledge, Unconfirmed) to Pseudo-von Willebrand Disease
+# Albutrepenonacog alfa: Fra hemofili B (bakgrunnskunnskap, ubekreftet) til pseudo-von Willebrand-sykdom
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-Albutrepenonacog alfa is a recombinant coagulation factor product; its original approved indication is not documented in the current source data, though background pharmacological knowledge (also referenced in the model's own rationale) suggests it functions as a **recombinant Factor IX replacement therapy** for Factor IX deficiency (Hemophilia B). The TxGNN model predicts it may be relevant to **Pseudo-von Willebrand Disease**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the model's own mechanistic rationale describes the two conditions as acting at different physiological levels with **no established mechanistic link**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in source data (Data Gap); background knowledge suggests Factor IX replacement therapy for Hemophilia B — unconfirmed |
-| Predicted New Indication | Pseudo-von Willebrand Disease |
-| TxGNN Prediction Score | 99.94% (raw rank #878 among all candidate diseases) |
-| Evidence Level | L5 (model prediction only, no clinical or literature evidence) |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Albutrepenonacog alfa er et rekombinant koagulasjonsfaktor-preparat; dens opprinnelig godkjente indikasjon er ikke dokumentert i gjeldende kildedata, selv om farmakologisk bakgrunnskunnskap (også referert i modellens egen begrunnelse) antyder at det fungerer som en **rekombinant faktor IX-erstatningsterapi** for faktor IX-mangel (hemofili B). TxGNN-modellen forutsier at det kan være relevant for **pseudo-von Willebrand-sykdom**, men denne prediksjonen støttes for tiden av **0 kliniske forsøk** og **0 publikasjoner**, og modellens egen mekanistiske begrunnelse beskriver de to tilstandene som virkende på ulike fysiologiske nivåer med **ingen etablert mekanistisk sammenheng**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity Data Gap in this evidence pack). Based on the limited background information carried in this pack, albutrepenonacog alfa is presumed to be a recombinant Factor IX replacement product, acting on the **secondary hemostasis (coagulation factor) pathway**. This presumption is not confirmed by a formal MOA record and should be treated as unverified until DrugBank/regulatory source data can be reconciled.
-
-The predicted new indication, Pseudo-von Willebrand Disease, is a **primary hemostasis disorder** caused by a gain-of-function abnormality in the platelet GpIb receptor, leading to excessive affinity for von Willebrand factor. This is mechanistically distinct from a coagulation-factor deficiency: one is a platelet-receptor/binding disorder, the other is a clotting-factor deficiency. The evidence pack's own repurposing rationale is explicit on this point, stating that the two conditions "act at different levels" and that there is "no known mechanistic link" between them.
-
-Given this, the prediction should be read as a **statistical association surfaced by the TxGNN knowledge graph model**, not as a mechanistically or clinically validated hypothesis. The high raw prediction score (99.94%) reflects the model's internal ranking confidence, not external validation — no clinical trials, literature, or regulatory precedent currently exist to corroborate it.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Innhold |
+|-------|---------|
+| Opprinnelig indikasjon | Ikke dokumentert i kildedata (datakløft); bakgrunnskunnskap antyder faktor IX-erstatningsterapi for hemofili B — ubekreftet |
+| Forutsagt ny indikasjon | Pseudo-von Willebrand-sykdom |
+| TxGNN-prediksjonspoengsum | 99.94% (råranking #878 blant alle kandidatsykdommer) |
+| Bevisnivå | L5 (modellprediksjon kun, ingen klinisk eller litteraturbevis) |
+| Status på norskmarkedet | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Vent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelig (flagget som et datakløft med høy alvorlighetsgrad i dette bevismateriell). Basert på begrenset bakgrunnsinformasjon i denne pakken, antas albutrepenonacog alfa å være et rekombinant faktor IX-erstatningsprodukt som virker på **sekundær hemostase (koagulasjonsfaktor)-banen**. Denne forutsetningen er ikke bekreftet av en formell MOA-post og bør behandles som ubekreftet til DrugBank/regulatoriske kildedata kan avstemmes.
 
----
+Den forutsatte nye indikasjonen, pseudo-von Willebrand-sykdom, er en **primær hemostaseforstyrrelse** forårsaket av en gain-of-function-abnormalitet i trombocyttens GpIb-reseptor, som fører til overdreven affinitet for von Willebrand-faktor. Dette er mekanistisk forskjellig fra en koagulasjonsfaktormangel: den ene er en trombocytt-reseptor/bindingsforstyrrelse, den andre er en koagulasjonsfaktormangel. Bevismateriellset er eksplisitt på dette punktet og angir at de to tilstandene «virker på ulike nivåer» og at det er «ingen kjent mekanistisk sammenheng» mellom dem.
 
-## Norway Market Information
-
-Albutrepenonacog alfa currently holds no marketing authorization in Norway (market status: **not marketed**, 0 licenses on record). No product/dosage-form information is available for this evaluation.
+Gitt dette, bør prediksjonen leses som en **statistisk assosiasjon som kom fram fra TxGNN-kunnskapsgrafmodellen**, ikke som en mekanistisk eller klinisk validert hypotese. Det høye råprediksjonspoengsumet (99.94%) gjenspeiler modellens interne rangeringskonfidens, ikke ekstern validering — ingen kliniske forsøk, litteratur eller regulatorisk presedens eksisterer for øyeblikket for å korroborere det.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøk
 
-Please refer to the package insert for safety information.
-
-*(Note: this evidence pack flags the absence of TFDA package-insert warnings/contraindications as a **Blocking** data gap — see Conclusion below. No drug-drug interaction records were found in the queried source.)*
+For tiden ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For tiden ingen relevant litteratur tilgjengelig.
 
-**Rationale:**
-- There is no clinical trial or literature evidence supporting use of albutrepenonacog alfa in Pseudo-von Willebrand Disease (or in any of the other five lower-ranked predicted indications in this pack — primary platelet release disorder, Glanzmann thrombasthenia, Scott syndrome, collagen-receptor bleeding diathesis, and constitutional thrombocytopenia), and the model's own mechanistic rationale for each candidate describes the underlying pathophysiology as distinct from coagulation-factor replacement.
-- A **Blocking**-severity data gap exists for TFDA/package-insert safety information (warnings, contraindications), which by this program's own criteria prevents entry into the S1 safety pre-assessment stage. A **High**-severity gap also exists for confirmed mechanism of action.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain and parse the official package insert to establish key warnings and contraindications before any safety pre-assessment can begin.
-- Resolve DG002 (High): confirm mechanism of action via DrugBank or another authoritative source, since the current MOA is presumed rather than verified.
-- Confirm the drug's original approved indication(s), which are currently absent from the source regulatory data.
-- If this candidate is to be advanced despite the weak mechanistic rationale, obtain independent preclinical or case-level evidence linking Factor IX pathway modulation to platelet-mediated bleeding disorders such as Pseudo-von Willebrand Disease.
+## Informasjon om norskmarkedet
+
+Albutrepenonacog alfa har for tiden ingen markedsføringstillatelse i Norge (markedsstatus: **ikke markedsført**, 0 lisenser registrert). Ingen produkt-/legemiddelformsinformasjon er tilgjengelig for denne evalueringen.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+*(Merknad: dette bevismateriell flagger fraværet av TFDA-pakningsvedlegg-advarsler/kontraindikasjoner som et **blokkering**-alvorlighetsgrad datakløft — se konklusjon nedenfor. Ingen legemiddel-legemiddel-interaksjonsregistreringer ble funnet i den spørte kilden.)*
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Vent**
+
+**Begrunnelse:**
+- Det er ingen klinisk forsøks- eller litteraturbevis som støtter bruk av albutrepenonacog alfa ved pseudo-von Willebrand-sykdom (eller ved noen av de fem andre lavere rangerte forutsette indikasjoner i denne pakken — primær trombocyttvriværelse, Glanzmanns trombasteni, Scott-syndrom, kollagen-reseptor-blødningsdiates og konstitusjonell trombocytopeni), og modellens egen mekanistiske begrunnelse for hver kandidat beskriver den underliggende patofysiologien som forskjellig fra koagulasjonsfaktor-erstatning.
+- Et datakløft med **blokkering**-alvorlighetsgrad for TFDA/pakningsvedlegg-sikkerhetsinformasjon (advarsler, kontraindikasjoner) eksisterer, som etter dette programmets egne kriterier hindrer inntreden til S1-sikkerhetsvurdering. Et **høy**-alvorlighetsgrad datakløft eksisterer også for bekreftet virkningsmekanisme.
+
+**For å kunne gå videre er følgende nødvendig:**
+- Løse DG001 (Blokkering): skaffe og tolke det offisielle pakningsvedlegget for å etablere viktige advarsler og kontraindikasjoner før noen sikkerhetsvurdering kan begynne.
+- Løse DG002 (Høy): bekrefte virkningsmekanisme via DrugBank eller annen autoritativ kilde, siden den nåværende MOA er antatt heller enn bekreftet.
+- Bekrefte legemidlets opprinnelig godkjente indikasjon(er), som for tiden er fraværende fra regulatoriske kildedata.
+- Hvis denne kandidaten skal fremmes til tross for den svake mekanistiske begrunnelsen, innhent uavhengige prekliniske eller kasuistikk-bevis som kobler faktor IX-veimodulering til trombocytt-formidlet blødningsforstyrrelser som pseudo-von Willebrand-sykdom.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

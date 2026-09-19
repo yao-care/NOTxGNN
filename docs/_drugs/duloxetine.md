@@ -29,111 +29,106 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-Using the report as directly specified by the provided evaluation-report prompt/template (this is a report-authoring task with its own embedded instructions, not a coding task — no other skill applies).
+# Duloksetin: Fra depresjonssykdommer/angststoffer til Obsessiv-Kompulsiv Lidelse
 
-Note on candidate selection: `predicted_indications` is sorted by raw TxGNN score, not by evidence quality. Rank 1 ("benign paroxysmal torticollis of infancy") and ranks 4–10 all carry **L5 / Hold**, zero trials, zero literature, and the pack's own rationale explicitly flags them as likely knowledge-graph noise. The only candidate with real clinical and literature support is **rank 3 — Obsessive-Compulsive Disorder (L2 / S2 / Proceed with Guardrails)**. As a repurposing evaluation, that is the candidate worth reporting on; the report below is built on it, with the low-evidence candidates summarized briefly at the end for completeness.
+## Sammenfatting i én setning
 
----
-
-# Duloxetine: From Depression/Anxiety Disorders to Obsessive-Compulsive Disorder
-
-## One-Sentence Summary
-
-> Duloxetine is a serotonin-norepinephrine reuptake inhibitor (SNRI) originally used for mood and anxiety disorders (per literature evidence; no formal Norway license record exists, as the drug is currently **not marketed** there).
-> The TxGNN model predicts it may also be effective for **Obsessive-Compulsive Disorder (OCD)**,
-> with **5 clinical trials** (1 directly on-topic, Phase 4, completed) and **20 publications** — including a double-blind RCT — currently supporting this direction.
+> Duloksetin er en serotonin-noradrenalin-gjenopptak-hemmer (SNRI) opprinnelig brukt for stemnings- og angstlidelser (ifølge litteraturbevis; ingen formell norsk godkjenning finnes, da stoffet for øyeblikket **ikke er på markedet** der).
+> TxGNN-modellen predikerer at det også kan være effektivt for **Obsessiv-Kompulsiv Lidelse (OCD)**,
+> med **5 kliniske forsøk** (1 direkte relevant, fase 4, fullført) og **20 publikasjoner** — inkludert en dobbeltblindet RCT — som for øyeblikket støtter denne retningen.
 
 ---
 
-## Quick Overview
+## Hurtig oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available from an official license record (drug not marketed in Norway, 0 licenses). Literature (PMID 31749717) describes duloxetine as approved elsewhere for major depressive disorder, generalized anxiety disorder, diabetic peripheral neuropathic pain, fibromyalgia, and chronic musculoskeletal pain |
-| Predicted New Indication | Obsessive-Compulsive Disorder |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L2 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in structured form (DrugBank MOA field: Data Gap). Based on known pharmacology, duloxetine is a serotonin-norepinephrine reuptake inhibitor (SNRI) whose efficacy in mood and anxiety disorders is well established; mechanistically this dual-reuptake action may extend to OCD.
-
-The current first-line pharmacotherapy for OCD is SSRIs (serotonin-pathway only). Duloxetine's SNRI mechanism adds enhanced noradrenergic transmission on top of the serotonergic effect, which provides a theoretical basis for use as an **augmentation or alternative option in patients who do not respond adequately to standard serotonin reuptake inhibitors (SRIs)**.
-
-This extension is not purely theoretical: a double-blind controlled trial (PMID 27811556) demonstrated an augmentation benefit, a completed Phase 4 trial (NCT00464698) was specifically designed to test duloxetine in OCD, and multiple open-label studies, case series, and reviews reinforce the signal. Taken together, the mechanistic extension has moderate-to-high plausibility, but it remains an **off-label extension** — it is not an original approved indication, and no large Phase 3 monotherapy RCT exists yet.
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Ikke tilgjengelig fra offisiell godkjenningsjournal (stoffet er ikke markedsført i Norge, 0 godkjenninger). Litteratur (PMID 31749717) beskriver duloksetin som godkjent andre steder for stor depresjonssykdom, generalisert angstlidelse, diabetisk perifer neuropatisk smerte, fibromyalgi og kronisk muskuloskelettal smerte |
+| Forventet ny indikasjon | Obsessiv-Kompulsiv Lidelse |
+| TxGNN-prediksjonspoengsum | 99,84 % |
+| Bevisnivå | L2 |
+| Norsk markedsstatus | ✗ Ikke på markedet |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Fortsett med sikringsmekanismer |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige i strukturert form (DrugBank MOA-felt: Datakløft). Basert på kjent farmakologi er duloksetin en serotonin-noradrenalin-gjenopptak-hemmer (SNRI) hvis effektivitet i stemnings- og angstlidelser er godt etablert; mekanistisk kan denne doble-gjennopptakshemmingen utvides til OCD.
+
+Den nåværende førstelinjefarmakoterapi for OCD er SSRIer (kun serotonin-vei). Duloksetins SNRI-mekanisme legger til forbedret noradrenergisk overføring på toppen av den serotonerge effekten, som gir et teoretisk grunnlag for bruk som **forsterking eller alternativt valg for pasienter som ikke reagerer tilstrekkelig på standard serotonin-gjenopptak-hemmer (SRIer)**.
+
+Denne utvidelsen er ikke rent teoretisk: en dobbeltblindet kontrollert studie (PMID 27811556) demonstrerte en forsterkingseffekt, en fullført fase 4-studie (NCT00464698) var spesielt utformet for å teste duloksetin ved OCD, og flere åpne label-studier, kasusserier og oversiktsartikler forsterker signalet. Samlet sett har den mekanistiske utvidelsen moderat til høy plausibilitet, men det er fortsatt en **off-label utvidelse** — det er ikke en opprinnelig godkjent indikasjon, og ingen stor fase 3-monoterapistudie finnes ennå.
+
+---
+
+## Klinisk forsøksbevis
+
+| Forsøksnummer | Fase | Status | Inkludering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT00464698](https://clinicaltrials.gov/study/NCT00464698) | Phase 4 | Completed | 20 | Directly designed to assess duloxetine efficacy in OCD; small sample, no placebo arm reported in summary |
-| [NCT01404871](https://clinicaltrials.gov/study/NCT01404871) | N/A | Completed | 26 | Predicts differential medication response in OCD (clomipramine, escitalopram, or duloxetine); relevant population but not a pure efficacy trial |
-| [NCT02476136](https://clinicaltrials.gov/study/NCT02476136) | N/A | Unknown | 8,800 | Large IPD meta-analysis of antidepressant efficacy across anxiety disorders by baseline severity; may include OCD subgroup but not OCD-specific |
-| [NCT01944657](https://clinicaltrials.gov/study/NCT01944657) | N/A | Withdrawn | 0 | TMS vs. medication monotherapy for major depression — withdrawn, no enrollment; low relevance to OCD (database keyword overlap only) |
-| [NCT05930912](https://clinicaltrials.gov/study/NCT05930912) | N/A | Unknown | 1 | Psychoanalytic treatment case study in autism spectrum disorder; N=1, low relevance (keyword overlap only) |
+| [NCT00464698](https://clinicaltrials.gov/study/NCT00464698) | Fase 4 | Fullført | 20 | Direkte utformet for å vurdere duloksetin-effektivitet ved OCD; lite utvalg, ingen placebo-arm rapportert i sammendrag |
+| [NCT01404871](https://clinicaltrials.gov/study/NCT01404871) | N/A | Fullført | 26 | Forutsier differensiell medikamentrespons ved OCD (klomipamin, escitalopram eller duloksetin); relevant populasjon men ikke en ren effektivitetsstudie |
+| [NCT02476136](https://clinicaltrials.gov/study/NCT02476136) | N/A | Ukjent | 8 800 | Stor IPD-metaanalyse av antidepressiv effektivitet på tvers av angstlidelser etter baselinje-alvorlighetsgrad; kan inkludere OCD-undergruppe men ikke OCD-spesifikk |
+| [NCT01944657](https://clinicaltrials.gov/study/NCT01944657) | N/A | Trukket tilbake | 0 | TMS vs. monoterapi-medikament for stor depresjonssykdom — trukket tilbake, ingen inkludering; lav relevans for OCD (kun databasenøkkelordsoverlapping) |
+| [NCT05930912](https://clinicaltrials.gov/study/NCT05930912) | N/A | Ukjent | 1 | Psykoanalytisk behandlingscasusstudie ved autismespekterforstyrrelse; N=1, lav relevans (kun nøkkelordsoverlapping) |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [27811556](https://pubmed.ncbi.nlm.nih.gov/27811556/) | 2016 | RCT | J Clin Psychopharmacol | Double-blind controlled trial evaluating duloxetine **augmentation** in treatment-resistant OCD |
-| [25637377](https://pubmed.ncbi.nlm.nih.gov/25637377/) | 2015 | Open-label | Int J Neuropsychopharmacol | Open-label study of duloxetine monotherapy for DSM-IV OCD |
-| [18208931](https://pubmed.ncbi.nlm.nih.gov/18208931/) | 2008 | Case series | J Psychopharmacol | Case series switching from SSRIs to duloxetine in resistant OCD, building on the SNRI rationale seen with venlafaxine |
-| [21779536](https://pubmed.ncbi.nlm.nih.gov/21779536/) | 2011 | Review | Innov Clin Neurosci | Reviews SNRIs as pharmacological alternatives for OCD when SSRIs/clomipramine are inadequate |
-| [16669725](https://pubmed.ncbi.nlm.nih.gov/16669725/) | 2006 | Critical Review | J Clin Psychiatry | Critical review of SNRIs (venlafaxine, clomipramine) in OCD as an alternative to first-line SSRIs |
-| [24766145](https://pubmed.ncbi.nlm.nih.gov/24766145/) | 2014 | Review | Expert Opin Pharmacother | Updated review of serotonergic antidepressants, including SNRIs, in OCD pathophysiology and treatment |
-| [31749717](https://pubmed.ncbi.nlm.nih.gov/31749717/) | 2019 | Review | Front Psychiatry | Systematic review of duloxetine use beyond MDD/GAD, covering psychiatric indications including OCD |
-| [19483491](https://pubmed.ncbi.nlm.nih.gov/19483491/) | 2009 | Case report | Clin Neuropharmacol | High-dose duloxetine in treatment-resistant OCD with sustained full remission |
-| [17632660](https://pubmed.ncbi.nlm.nih.gov/17632660/) | 2007 | Case report | Prim Care Companion J Clin Psychiatry | Case of OCD responding to duloxetine treatment |
-| [39735048](https://pubmed.ncbi.nlm.nih.gov/39735048/) | 2024 | Case report | Cureus | Supratherapeutic duloxetine combined with CBT in severe treatment-resistant OCD with comorbid depression |
+| [27811556](https://pubmed.ncbi.nlm.nih.gov/27811556/) | 2016 | RCT | J Clin Psychopharmacol | Dobbeltblindet kontrollert forsøk som evaluerer duloksetin-**forsterking** ved behandlingsresistent OCD |
+| [25637377](https://pubmed.ncbi.nlm.nih.gov/25637377/) | 2015 | Åpen label | Int J Neuropsychopharmacol | Åpen label-studie av duloksetin-monoterapi for DSM-IV OCD |
+| [18208931](https://pubmed.ncbi.nlm.nih.gov/18208931/) | 2008 | Kasusserie | J Psychopharmacol | Kasusserie av skifte fra SSRIer til duloksetin ved resistent OCD, bygget på SNRI-rasjonalet sett med venlafaksin |
+| [21779536](https://pubmed.ncbi.nlm.nih.gov/21779536/) | 2011 | Oversiktsartikkel | Innov Clin Neurosci | Gjennomgår SNRIer som farmakologiske alternativer for OCD når SSRIer/klomipamin er utilstrekkelige |
+| [16669725](https://pubmed.ncbi.nlm.nih.gov/16669725/) | 2006 | Kritisk gjennomgang | J Clin Psychiatry | Kritisk gjennomgang av SNRIer (venlafaksin, klomipamin) ved OCD som et alternativ til førstelinjen-SSRIer |
+| [24766145](https://pubmed.ncbi.nlm.nih.gov/24766145/) | 2014 | Oversiktsartikkel | Expert Opin Pharmacother | Oppdatert oversiktsartikkel over serotonerge antidepressiver, inkludert SNRIer, i OCD-patofysiologi og behandling |
+| [31749717](https://pubmed.ncbi.nlm.nih.gov/31749717/) | 2019 | Oversiktsartikkel | Front Psychiatry | Systematisk gjennomgang av duloksetin-bruk utover stor depresjonssykdom/GAD, som dekker psykiatriske indikasjoner inkludert OCD |
+| [19483491](https://pubmed.ncbi.nlm.nih.gov/19483491/) | 2009 | Kasusrapport | Clin Neuropharmacol | Høydose duloksetin i behandlingsresistent OCD med vedvarende fullstendig remisjon |
+| [17632660](https://pubmed.ncbi.nlm.nih.gov/17632660/) | 2007 | Kasusrapport | Prim Care Companion J Clin Psychiatry | Case av OCD som reagerte på duloksetin-behandling |
+| [39735048](https://pubmed.ncbi.nlm.nih.gov/39735048/) | 2024 | Kasusrapport | Cureus | Supraterateutisk duloksetin kombinert med KBT ved alvorlig behandlingsresistent OCD med komorbiditeten depresjon |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Duloxetine currently holds **no marketing authorization in Norway** (0 licenses on record; market status: Not Marketed). No product/dosage-form/indication data is available to tabulate.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. Structured safety data (key warnings, contraindications, drug-drug interactions) is not currently available in this evidence pack — this is flagged as a **Blocking** data gap (DG001: TFDA/package-insert warnings and contraindications) that must be resolved before this candidate can enter the S1 safety review stage.
+Duloksetin har for øyeblikket **ingen markedsføringstillatelse i Norge** (0 godkjenninger på fil; markedsstatus: Ikke på markedet). Ingen produkt/doserings-form/indikasjondata er tilgjengelig for tabulering.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails**
-
-**Rationale:**
-Duloxetine's SNRI mechanism, supported by a double-blind RCT (PMID 27811556) and a completed Phase 4 trial (NCT00464698) specifically designed around OCD, gives this candidate moderate-to-high plausibility as an augmentation/alternative option for SRI-refractory OCD patients. However, it lacks large Phase 3 monotherapy RCTs, is not a formally approved indication anywhere reviewed, and the drug is not currently marketed in Norway.
-
-**To proceed, the following is needed:**
-- TFDA/Norway package-insert warnings and contraindications (Blocking data gap, DG001) — required before any S1 safety evaluation
-- Formal mechanism-of-action documentation from DrugBank (High-priority data gap, DG002)
-- Drug-drug interaction data (current DDI query status: not_found)
-- A larger, controlled monotherapy trial in a primary (non-augmentation) OCD population
-- Regulatory pathway/market-access assessment, since duloxetine is not currently marketed in Norway
+Se pakningsvedlegget for sikkerhetsinformasjon. Strukturerte sikkerhetsdata (viktige advarsler, kontraindikasjoner, legemiddel-legemiddel-interaksjoner) er for øyeblikket ikke tilgjengelige i denne bevissamlingen — dette er flagget som en **blokkerande** datakløft (DG001: TFDA/pakningsvedleggsadvarsler og kontraindikasjoner) som må løses før denne kandidaten kan gå inn i S1-sikkerhetsgjennomgangsstadiet.
 
 ---
 
-### Appendix: Other Predicted Indications (Not Recommended for Further Action)
+## Konklusjon og neste trinn
 
-The remaining 9 predicted indications for duloxetine all scored **L5 (model prediction only)** with **zero clinical trials and zero literature**, and are recommended **Hold**:
+**Beslutning: Fortsett med sikringsmekanismer**
 
-- Agoraphobia (rank 2, L4/S1, "Research Question") — indirect evidence only, via panic disorder/GAD literature; no agoraphobia-specific study
-- Benign paroxysmal torticollis of infancy, paranoid/schizotypal/histrionic/schizoid personality disorders, Ohdo syndrome and variants, ligneous conjunctivitis, blepharophimosis–intellectual disability syndrome (Ohdo type) — all L5/Hold, with the evidence pack's own rationale describing these as mechanistically implausible or likely knowledge-graph noise (e.g., Ohdo syndrome and ligneous conjunctivitis have no biological connection to monoamine reuptake inhibition).
+**Begrunnelse:**
+Duloksetins SNRI-mekanisme, støttet av en dobbeltblindet RCT (PMID 27811556) og en fullført fase 4-studie (NCT00464698) spesielt utformet rundt OCD, gir denne kandidaten moderat til høy plausibilitet som forsterking/alternativt valg for SRI-refraktær OCD-pasienter. Imidlertid mangler den store fase 3-monoterapistudier, er ikke en formelt godkjent indikasjon noe sted som er gjennomgått, og stoffet er for øyeblikket ikke markedsført i Norge.
 
-These are not recommended for pharmacist reporting or further evaluation at this time.
+**For å fortsette kreves følgende:**
+- TFDA/Norsk pakningsvedleggsadvarsler og kontraindikasjoner (Blokkerande datakløft, DG001) — påkrevd før eventuell S1-sikkerhetsgjennomgang
+- Formell virkningsmekanisme-dokumentasjon fra DrugBank (Høyprioritets datakløft, DG002)
+- Legemiddel-legemiddel-interaksjonsdata (nåværende DDI-spørringsstatus: not_found)
+- En større, kontrollert monoterapistudie i en primær (ikke-forsterking) OCD-populasjon
+- Regulatorisk vei/markedsadgangs-vurdering, siden duloksetin for øyeblikket ikke er markedsført i Norge
+
+---
+
+### Vedlegg: Andre forventede indikasjoner (ikke anbefalt for videre handling)
+
+De gjenværende 9 forventede indikasjonene for duloksetin alle scoret **L5 (kun modellprediksjoner)** med **null kliniske forsøk og null litteratur**, og anbefales **Avvent**:
+
+- Agorafobi (rangering 2, L4/S1, "Forskningsspørsmål") — indirekte bevis bare, via panikksykdom/GAD-litteratur; ingen agorafobispesifikk studie
+- Benign paroksysmal tortikolis i spedbarnsalderen, paranoid/skizotypisk/hysteroid/skizoid personlighetsforstyrrelse, Ohdo-syndrom og varianter, ligneøs konjunktivitt, blefarofimose–intellektuell utviklingsforstyrrelse (Ohdo-type) — alle L5/Avvent, med bevissamlingens egen rasjonale som beskriver disse som mekanistisk implausible eller sannsynlig kunnskapsgrafs-støy (f.eks. Ohdo-syndrom og ligneøs konjunktivitt har ingen biologisk forbindelse til monoamin-gjennopptakshemming).
+
+Disse anbefales ikke for farmasøyt-rapportering eller videre evaluering på dette tidspunkt.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

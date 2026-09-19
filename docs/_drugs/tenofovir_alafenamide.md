@@ -29,90 +29,91 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Tenofovir Alafenamide: From Unclear Original Indication to Simian Immunodeficiency Virus (SIV) Infection
+# Tenofovir Alafenamide: Fra uavklart original indikasjon til Simian Immunodeficiency Virus (SIV) infeksjon
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Tenofovir Alafenamide (DB09299) has an unspecified original indication in this evidence pack (data gap), so its established clinical role cannot be confirmed here.
-> The TxGNN model's top-ranked prediction — **feline acquired immunodeficiency syndrome** — has **zero supporting evidence** and is a veterinary condition, so it is not clinically actionable.
-> Instead, this report focuses on the highest-ranked prediction that has actual supporting data, **Simian Immunodeficiency Virus (SIV) Infection**, backed by **1 clinical trial** and **9 publications**, mostly preclinical macaque studies relevant to HIV pre-exposure prophylaxis research.
+> Tenofovir alafenamide (DB09299) har en uspecifisert original indikasjon i denne dokumentasjonen (datakløft), så dens etablerte kliniske rolle kan ikke bekreftes her.
+> TxGNN-modellens topprangerte prediksjon — **feline ervervet immunsviktssyndrom** — har **null støtteevidens** og er en veterinærtilstand, så den er ikke klinisk handlingsbar.
+> I stedet fokuserer denne rapporten på det høyest rangerte prediksjonen som har faktisk støttendedata, **Simian Immunodeficiency Virus (SIV) infeksjon**, støttet av **1 klinisk forsøk** og **9 publikasjoner**, for det meste prekliniske makakk-studier relevant for HIV-prevensjonsforskning.
 
-> **Note on indication selection:** `predicted_indications[0]` (feline AIDS, score 99.89%) and `predicted_indications[2]` (a rare pediatric neurodevelopmental disorder, score 99.87%) both have no clinical trials or literature attached, and neither represents a human disease context suitable for repurposing evaluation. `predicted_indications[1]` (SIV infection, score 99.89% — statistically indistinguishable from rank 1) is the only prediction with retrievable evidence, so it is used as the primary subject of this report.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in evidence pack (data gap) |
-| Predicted New Indication | Simian Immunodeficiency Virus (SIV) Infection |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L4 (preclinical / mechanism studies) |
-| Taiwan Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> **Merknad om indikasjonvalg:** `predicted_indications[0]` (feline AIDS, poengsum 99,89%) og `predicted_indications[2]` (en sjelden pediatrisk nevrouptviklingsstyrning, poengsum 99,87%) har begge ingen kliniske forsøk eller litteratur vedlagt, og ingen representerer en menneskelig sykdomskontekst egnet for ombruksevaluering. `predicted_indications[1]` (SIV-infeksjon, poengsum 99,89% — statistisk ikke til å skille fra rangering 1) er det eneste prediksjonen med gjenfinnbar evidens, så det brukes som hovudtemaet i denne rapporten.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Raskt overblikk
 
-Currently, detailed mechanism of action data is not available for this drug in the evidence pack. Based on known pharmacological class information, Tenofovir Alafenamide is a nucleotide reverse transcriptase inhibitor (NRTI) prodrug that is intracellularly converted to tenofovir diphosphate, which inhibits retroviral reverse transcriptase.
-
-SIV (simian immunodeficiency virus) and SHIV (simian/human immunodeficiency virus) are the standard non-human-primate models used to study HIV pathogenesis, prevention, and treatment, since HIV itself does not naturally infect macaques. The literature evidence in this pack consists almost entirely of macaque PrEP (pre-exposure prophylaxis) and PEP (post-exposure prophylaxis) studies — vaginal inserts, oral regimens, and biodegradable implants delivering tenofovir alafenamide (alone or combined with emtricitabine/elvitegravir) to block SHIV transmission. This is mechanistically consistent with tenofovir alafenamide's known reverse-transcriptase-inhibiting activity, and the SIV/SHIV model is a translational proxy for HIV — not a distinct new human disease target.
-
-In other words, this "predicted new indication" most likely reflects the model recognizing tenofovir alafenamide's established antiretroviral pharmacology through its animal-model research literature, rather than identifying a genuinely novel therapeutic application. The clinical implication is that this evidence supports the drug's known antiretroviral mechanism rather than a new repurposing opportunity.
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Ikke spesifisert i dokumentasjonen (datakløft) |
+| Forutsagt ny indikasjon | Simian Immunodeficiency Virus (SIV) infeksjon |
+| TxGNN-prediksjonspoengsum | 99,89% |
+| Bevistnivå | L4 (preklinisk / mekanismestudier) |
+| Taiwans markedsstatus | Ikke markedsført (Ikke markedsført) |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er dette prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+For øyeblikket er detaljert mekanismeinformasjon ikke tilgjengelig for dette legemidlet i dokumentasjonen. Basert på kjent farmakologisk klasseinformasjon, er tenofovir alafenamide et nukleotid-reverstranskriptasehemmer (NRTI) prodrug som intracellulært konverteres til tenofovir difosafat, som hemmer retroviralt reverstranskriptase.
+
+SIV (simian immunodeficiency virus) og SHIV (simian/human immunodeficiency virus) er standardmodellene for ikke-menneskeaper som brukes til å studere HIV-patogenese, prevensjon og behandling, siden HIV selv ikke naturlig infiserer makakker. Litteratureviendens i denne pakken består nesten utelukkende av makakk PrEP (pre-eksposeringspprofylakse) og PEP (post-eksposeringspprofylakse) studier — vaginale innlegg, orale regimer og nedbrytbare implantater som leverer tenofovir alafenamide (alene eller kombinert med emtricitabin/elvitegravir) for å blokkere SHIV-overføring. Dette er mekanistisk konsistent med tenofovir alafenamides kjente reverstranskriptasehemmende aktivitet, og SIV/SHIV-modellen er en translasjonell proxy for HIV — ikke et distinkt nytt menneskelig sykdomsmål.
+
+Med andre ord, dette "forutsatte nye indikasjon" gjenspeiler sannsynligvis modellens gjenkjennelse av tenofovir alafenamides etablerte antiretroviral farmakologi gjennom dens dyremodell-forskningslitteratur, snarere enn identifisering av en genuint ny terapeutisk applikasjon. Den kliniske implikasjonen er at denne evidensen støtter legemidlets kjente antiretroviral mekanisme snarere enn en ny omutnyttingsmulighet.
+
+---
+
+## Evidens fra kliniske forsøk
+
+| Forsøksnummer | Fase | Status | Inkludering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Phase 1/2 | Unknown | 12 | Evaluated vedolizumab combined with antiretroviral therapy (ART) to achieve sustained HIV virological remission after ART interruption; not a direct tenofovir alafenamide efficacy trial, and relevance to this specific indication is unconfirmed |
+| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Fase 1/2 | Ukjent | 12 | Evaluerte vedolizumab kombinert med antiretroviral terapi (ART) for å oppnå vedvarende HIV virologisk remisjon etter ART-avbrudd; ikke et direkte tenofovir alafenamide-effektivitetsforsøk, og relevans til denne spesifikke indikasjonen er ubekreftet |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | Preclinical | Nature Communications | Early ART initiation with oral emtricitabine/tenofovir alafenamide plus long-acting cabotegravir/rilpivirine achieved SHIV remission in macaques |
-| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Preclinical | J Infect Dis | TAF/elvitegravir vaginal inserts gave extended post-exposure protection against vaginal SHIV in macaques |
-| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Preclinical | Frontiers in Immunology | Described a dual-purpose humanized mouse model for testing antiviral strategies against SIV and HIV |
-| [35913838](https://pubmed.ncbi.nlm.nih.gov/35913838/) | 2022 | Preclinical | J Antimicrob Chemother | Biodegradable implant releasing tenofovir alafenamide showed safety and efficacy for vaginal HIV protection in macaques |
-| [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) | 2019 | Preclinical | J Infect Dis | Oral TAF/emtricitabine or TAF alone protected macaques against vaginal SHIV infection |
-| [31730629](https://pubmed.ncbi.nlm.nih.gov/31730629/) | 2019 | Preclinical | PLoS One | Developed a protocol for reliable daily oral ARV dosing in macaques for preclinical HIV prevention/treatment studies |
-| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Preclinical | J Infect Dis | Oral emtricitabine/TAF chemoprophylaxis protected macaques from rectal SHIV infection |
-| [22740713](https://pubmed.ncbi.nlm.nih.gov/22740713/) | 2012 | Preclinical | J Infect Dis | Oral pre-exposure prophylaxis reduced inflammation and CD4 loss in acute SHIV breakthrough infection |
-| [16810108](https://pubmed.ncbi.nlm.nih.gov/16810108/) | 2006 | Preclinical | J Acquir Immune Defic Syndr | Oral tenofovir disoproxil fumarate and topical GS-7340 (TAF precursor) protected infant macaques against repeated oral SIV challenge |
+| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | Preklinisk | Nature Communications | Tidlig ART-initiering med oral emtricitabin/tenofovir alafenamide pluss langtidsvirkende cabotegravir/rilpivirine oppnådde SHIV-remisjon hos makakker |
+| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Preklinisk | J Infect Dis | TAF/elvitegravir vaginale innlegg ga utvidet post-eksposeringssbeskyttelse mot vaginal SHIV hos makakker |
+| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Preklinisk | Frontiers in Immunology | Beskrev en dual-purpose humanisert musemodell for testing av antivirale strategier mot SIV og HIV |
+| [35913838](https://pubmed.ncbi.nlm.nih.gov/35913838/) | 2022 | Preklinisk | J Antimicrob Chemother | Nedbrytbar implantat som frigjorde tenofovir alafenamide viste sikkerhet og effektivitet for vaginal HIV-beskyttelse hos makakker |
+| [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) | 2019 | Preklinisk | J Infect Dis | Oral TAF/emtricitabin eller TAF alene beskyttet makakker mot vaginal SHIV-infeksjon |
+| [31730629](https://pubmed.ncbi.nlm.nih.gov/31730629/) | 2019 | Preklinisk | PLoS One | Utviklet en protokoll for pålitelig daglig oral ARV-dosering hos makakker for prekliniske HIV-prevensjon/behandlingsstudier |
+| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Preklinisk | J Infect Dis | Oral emtricitabin/TAF-kjemoprofylakse beskyttet makakker mot rektal SHIV-infeksjon |
+| [22740713](https://pubmed.ncbi.nlm.nih.gov/22740713/) | 2012 | Preklinisk | J Infect Dis | Oral pre-eksposeringspprofylakse reduserte inflammasjon og CD4-tap i akutt SHIV-gjennombruddinfeksjon |
+| [16810108](https://pubmed.ncbi.nlm.nih.gov/16810108/) | 2006 | Preklinisk | J Acquir Immune Defic Syndr | Oral tenofovir disoproxil fumarat og topisk GS-7340 (TAF-forløper) beskyttet babymakakker mot gjentatt oralt SIV-utfordring |
 
 ---
 
-## Taiwan Market Information
+## Taiwans markedsinformasjon
 
-Tenofovir Alafenamide currently has **no marketing authorizations recorded in Taiwan** (market status: Not marketed / Not Marketed, 0 licenses). No product-level dosage form or approved-indication data is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-interaction data are not currently available in this evidence pack; retrieval of the TFDA-approved label (DG001, Blocking severity) is required before any safety assessment can proceed.
+Tenofovir alafenamide har for øyeblikket **ingen markedsføringsautorisasjoner registrert på Taiwan** (markedsstatus: Ikke markedsført / Ikke markedsført, 0 lisenser). Ingen produktnivå-dosering eller godkjent indikasjondata er tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetsbetraktninger
 
-**Decision: Hold**
+Se pakningsvedlegget for sikkerhetsinformasjon. Viktige advarsler, kontraindikasjoner og legemiddelinteraksjondata er for øyeblikket ikke tilgjengelig i denne dokumentasjonen; henting av TFDA-godkjent etikett (DG001, Blockering alvorlighetsgrad) er nødvendig før noen sikkerhetsvurdering kan fortsette.
 
-**Rationale:**
-The evidence base for the top-ranked prediction (feline AIDS) is empty, and the best-supported prediction (SIV infection) is backed only by preclinical macaque studies and one early-phase trial of unconfirmed relevance — consistent with Evidence Level L4, not sufficient for a Go decision. The drug is also not currently marketed in Taiwan, and a Blocking-severity data gap (TFDA label warnings/contraindications) prevents any safety evaluation.
+---
 
-**To proceed, the following is needed:**
-- TFDA-approved package insert (warnings, contraindications) to resolve the Blocking data gap
-- Confirmed original indication(s) and mechanism of action from DrugBank or product labeling
-- Clarification of whether "SIV infection" evidence reflects a genuine new indication or simply reconfirms tenofovir alafenamide's known antiretroviral/PrEP mechanism
-- Re-review of the rank-1 (feline AIDS) and rank-3 (rare neurodevelopmental disorder) predictions to determine whether they are valid signals or knowledge-graph artifacts, before any further repurposing work is based on them
+## Konklusjon og neste skritt
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Bevisgrunnlaget for det topprangertet prediksjon (feline AIDS) er tomt, og det best-støttet prediksjon (SIV-infeksjon) er støttet bare av prekliniske makakk-studier og ett tidlig-fase forsøk av ubekreftet relevans — konsistent med bevisnivå L4, ikke tilstrekkelig for en Go-beslutning. Legemidlet markedsføres heller ikke for øyeblikket på Taiwan, og en Blockering-alvorlighetsgrad datakløft (TFDA etikett advarsler/kontraindikasjoner) forhindrer noen sikkerhetsvurdering.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA-godkjent pakningsvedlegg (advarsler, kontraindikasjoner) for å løse Blockering-alvorlighetsgrad datakløften
+- Bekreftet original indikasjon(er) og mekanisme for legemiddelhandling fra DrugBank eller produktetikett
+- Avklaring av hvorvidt "SIV-infeksjon" evidensen gjenspeiler en genuint ny indikasjon eller ganske enkelt bekrefter tenofovir alafenamides kjente antiretroviral/PrEP-mekanisme
+- Ny vurdering av rangering-1 (feline AIDS) og rangering-3 (sjelden nevrouptviklingsstyrning) prediksjoner for å avgjøre hvorvidt de er gyldige signaler eller kunnskapsgrafartefakter, før noe ytterligere omutnyttingsarbeid er basert på dem
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

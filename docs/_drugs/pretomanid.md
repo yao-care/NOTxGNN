@@ -29,78 +29,79 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Pretomanid: From Tuberculosis to Candidiasis
+# Pretomanid: Fra tuberkulose til kandidiasis
 
-## One-Sentence Summary
+## Oppsummering på én setning
 
-Pretomanid is a nitroimidazooxazine antimycobacterial developed for drug-resistant tuberculosis (used as part of the BPaL/BPaLM regimen with bedaquiline, linezolid, and moxifloxacin). The TxGNN model's top prediction suggests possible activity against **Candidiasis**, but this pairing has **zero supporting clinical trials or literature** and, per mechanistic review, lacks biological plausibility — Candida species do not possess the Ddn/F420 nitroreductase system that pretomanid requires for activation.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Drug-resistant pulmonary tuberculosis (BPaL/BPaLM regimen) — not present in Norway licensing data; drawn from literature context |
-| Predicted New Indication | Candidiasis |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L5 (model prediction only, no clinical or literature evidence) |
-| Norway Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Pretomanid er en antimykobakteriell nitroimidazooxazin utviklet for medikamentresistent tuberkulose (brukt som del av BPaL/BPaLM-regime sammen med bedaquiline, linezolid og moxifloxacin). Modellens topprediksjon foreslår mulig aktivitet mot **kandidiasis**, men denne kombinasjonen har **null støtting fra kliniske studier eller litteratur** og mangler, etter mekanistisk gjennomgang, biologisk plausibilitet — *Candida*-arter har ikke Ddn/F420-nitroreduktase-systemet som pretomanid krever for aktivering.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Detailed DrugBank mechanism-of-action data is not available for pretomanid in this evidence pack. However, cross-referencing the supplied literature and mechanistic annotations shows that pretomanid is a nitroimidazooxazine (PA-824) that requires activation by the mycobacteria-specific **Ddn/F420 deazaflavin-dependent nitroreductase system** to generate its bactericidal effect. This activation pathway is unique to mycobacteria and is the basis for pretomanid's role in the BPaL regimen for extensively drug-resistant and treatment-intolerant multidrug-resistant TB.
-
-Candidiasis is caused by *Candida* fungal species, which do not express the Ddn/F420 nitroreductase system. Nitroimidazole-class drugs are broadly known to lack antifungal activity through this mechanism. This means the TxGNN association is most likely driven by embedding similarity rather than any real pharmacological or clinical signal — consistent with the complete absence of clinical trials or publications linking pretomanid to candidiasis in this dataset.
-
-For context, a biologically more plausible candidate in this dataset is **leprosy** (rank 2, *M. leprae*, same genus as *M. tuberculosis*), which shares the same nitroreductase activation pathway in theory. However, the strongest piece of direct evidence available (PMID 17005816, "*Mycobacterium leprae is naturally resistant to PA-824*") directly **refutes** efficacy — animal model data show no bactericidal activity against *M. leprae* despite the shared genus. This underscores that genus-level mechanistic similarity does not guarantee functional equivalence, and reinforces caution around the top-ranked candidiasis prediction as well.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Innhold |
+|-------|---------|
+| Originalindikasjon | Medikamentresistent lungetuberkulose (BPaL/BPaLM-regime) — ikke til stede i norske lisenseringdata; hentet fra litteraturkontekst |
+| Predikert ny indikasjon | Kandidiasis |
+| TxGNN-prediksjonscore | 99.69% |
+| Bevisnivå | L5 (modellprediksjon kun, ingen klinisk eller litteraturbevis) |
+| Markedsstatus i Norge | Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Innstilles |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+Detaljerte DrugBank-data om virkningsmekanisme er ikke tilgjengelig for pretomanid i denne bevissamlingen. Imidlertid viser kryssreferansering av den medfølgende litteraturen og mekanistiske annoteringer at pretomanid er en nitroimidazooxazin (PA-824) som krever aktivering av det mykobakteriespesifikke **Ddn/F420 deazaflavin-avhengige nitroreduktase-systemet** for å generere sin bakterisidal effekt. Denne aktiveringsbanen er unik for mykobakteria og er grunnlaget for pretomanids rolle i BPaL-regime for omfattende medikamentresistent og behandlingsintolerant multimedikamentresistent TB.
 
----
+Kandidiasis er forårsaket av *Candida*-arter, som ikke uttrykker Ddn/F420-nitroreduktase-systemet. Nitroimidazol-klasselegemidler er generelt kjent for å mangle antifungal aktivitet gjennom denne mekanismen. Dette betyr at TxGNN-assosiasjonen mest sannsynlig er drevet av innebygd likhet snarere enn noen virkelig farmakologisk eller klinisk signal — i samsvar med det fullstendige fravær av kliniske studier eller publikasjoner som knytter pretomanid til kandidiasis i dette datasettet.
 
-## Norway Market Information
-
-Pretomanid is not currently marketed in Norway (0 authorizations on record). No product license, dosage form, or approved indication data is available.
+For kontekst er en biologisk mer plausibel kandidat i dette datasettet **spedalskhet** (rangering 2, *M. leprae*, samme slekt som *M. tuberculosis*), som i teorien deler den samme nitroreduktase-aktiveringsbanen. Imidlertid motsier det sterkeste direkte beviset som er tilgjengelig (PMID 17005816, "*Mycobacterium leprae is naturally resistant to PA-824*") direkte effektiviteten — dyremodelldata viser ingen bakterisidal aktivitet mot *M. leprae* til tross for den delte slekten. Dette understreker at likhet på slektsnivå ikke garanterer funksjonell ekvivalens, og forsterker forsiktighet rundt topprankingen av kandidiasis.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske studier
 
-Structured safety data (warnings, contraindications, DDI) is not currently available for pretomanid in this evidence pack (TFDA label data collection is a blocking data gap — DG001).
-
-One safety signal did surface indirectly through the mechanistic review across other candidate indications in this dataset: pretomanid carries a known **QT-interval prolongation risk**, a cardiac safety concern that should be factored into any future clinical development regardless of target indication.
-
-Please refer to the package insert for complete safety information once available.
+Ingen relaterte kliniske studier er for tiden registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Ingen relatert litteratur er for tiden tilgjengelig.
 
-**Rationale:**
-The top-ranked prediction (candidiasis) has no clinical trial or literature support and lacks mechanistic plausibility, since *Candida* species do not possess the mycobacteria-specific nitroreductase activation pathway pretomanid depends on. The next-best candidate in this dataset (leprosy) does have a partially plausible shared-genus mechanism, but is directly contradicted by existing preclinical evidence showing *M. leprae* is naturally resistant to pretomanid (PA-824). No candidate in this evidence pack currently meets a bar for further development.
+---
 
-**To proceed, the following is needed:**
-- TFDA label/warnings and contraindications data (DG001, blocking — required before any S1 safety screening)
-- DrugBank-sourced detailed MOA data (DG002) to properly assess mechanistic overlap for future candidates
-- If repurposing is still of interest, prioritize candidate diseases with an actual mycobacterial or nitroreductase-dependent pathogenesis rather than the current TxGNN top-ranked outputs
-- Independent in vitro confirmation before considering any candidate in this list for further evaluation
+## Norsk markedsinformasjon
+
+Pretomanid er for tiden ikke markedsført i Norge (0 godkjennelser på registrer). Ingen produktlisens, dosisform eller godkjent indikasjondata er tilgjengelig.
+
+---
+
+## Sikkerhetshensyn
+
+Strukturert sikkerhetsdata (advarsler, kontraindikasjoner, DDI) er for tiden ikke tilgjengelig for pretomanid i denne bevissamlingen (TFDA-merkedata-innsamling er en blokkerende datagap — DG001).
+
+Ett sikkerhetssignal dukket opp indirekte gjennom den mekanistiske gjennomgangen av andre kandidatindikasjoner i dette datasettet: pretomanid har en kjent **QT-intervallforlengelsesrisiko**, en hjertesikkerhetsspørsmål som bør tas med i vurderingen ved enhver fremtidig klinisk utvikling uavhengig av målindikasjon.
+
+Se pakningsvedlegget for fullstendig sikkerhetsinformasjon når den er tilgjengelig.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Innstilles**
+
+**Begrunnelse:**
+Topprankingen (kandidiasis) har ingen klinisk studie- eller litteraturstøtte og mangler mekanistisk plausibilitet, siden *Candida*-arter ikke besitter det mykobakteriespesifikke nitroreduktase-aktiveringssystemet som pretomanid er avhengig av. Neste beste kandidat i dette datasettet (spedalskhet) har en delvis plausibel delt-slektsmekanisme, men er direkte motsagt av eksisterende preklinisk bevis som viser at *M. leprae* er naturlig resistent mot pretomanid (PA-824). Ingen kandidat i denne bevissamlingen oppfyller for tiden en bar for videre utvikling.
+
+**For å fortsette er følgende nødvendig:**
+- TFDA-merke/advarsler og kontraindikasjonsdata (DG001, blokkering — påkrevd før S1-sikkerhetsscreening)
+- DrugBank-hentet detaljert MOA-data (DG002) for å riktig vurdere mekanistisk overlapping for fremtidige kandidater
+- Dersom repurposering fortsatt er av interesse, prioriter kandidatsykdommer med faktisk mykobakteriell eller nitroreduktase-avhengig patogenese i stedet for gjeldende TxGNN-topprankingsresultater
+- Uavhengig in vitro-bekreftelse før vurdering av noen kandidat på denne listen for videre evaluering
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

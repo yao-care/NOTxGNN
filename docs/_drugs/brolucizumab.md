@@ -29,78 +29,79 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Brolucizumab: From Ophthalmic Neovascular Disease to Mitochondrial Oxidative Phosphorylation Disorder Due to Nuclear DNA Anomalies
+# Brolucizumab: Fra økulær neovaskularisert sykdom til mitokondrielt oksidativt fosforyleringsforstyrrelse forårsaket av kjerne-DNA-anomalier
 
-## One-Sentence Summary
+## Sammenfattelse i en setning
 
-> Brolucizumab is known clinically as an intravitreal anti-VEGF-A therapy for ocular neovascular disease, though this original indication is not documented in the current Norway regulatory dataset.
-> The TxGNN model's top prediction suggests possible effectiveness for **mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies**,
-> but **0 clinical trials** and **0 publications** currently support this direction, and the drug is not marketed in Norway.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in Norway regulatory data. Known clinical use (per drug mechanism description) is intravitreal anti-VEGF therapy for ocular neovascular disease. |
-| Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
-| TxGNN Prediction Score | 99.67% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Brolucizumab er klinisk kjent som intravetreal anti-VEGF-A-terapi for økulær neovaskularisert sykdom, selv om denne opprinnelige indikasjonen ikke er dokumentert i gjeldende norsk regulatorisk datasett.
+> TxGNN-modellens toppprediksjon foreslår mulig effektivitet for **mitokondrielt oksidativt fosforyleringsforstyrrelse forårsaket av kjerne-DNA-anomalier**,
+> men **0 kliniske prøver** og **0 publikasjoner** støtter for øyeblikket denne retningen, og legemidlet er ikke markedsført i Norge.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigoversikt
 
-Currently, detailed mechanism of action data is not available from DrugBank. Based on the information available in this evidence pack, brolucizumab is an anti-VEGF-A single-chain antibody fragment (scFv) administered by intravitreal injection, working by blocking VEGF signaling to reduce pathological angiogenesis in ocular disease.
-
-Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies is a metabolic/energy-production disease driven by electron transport chain defects — a pathophysiology with no known overlap with VEGF-mediated angiogenesis. The evidence pack's own rationale states explicitly that no biological pathway connects the two conditions, and that this high TxGNN score reflects a graph-neural-network relational inference rather than a mechanistically grounded signal.
-
-Given the absence of any supporting clinical trial or literature evidence, and the explicit mechanistic disconnect noted in the rationale, this prediction should be treated as exploratory only. It is worth noting that the remaining ranked predictions for this drug (esophageal varices with/without bleeding, exocrine pancreatic insufficiency) show the same pattern — high TxGNN scores with no mechanistic or clinical support, and in the case of esophageal variceal bleeding, a rationale that flags a *plausible safety concern in the opposite direction* (anti-VEGF agents are associated with impaired vascular/wound healing and bleeding risk, which could theoretically worsen rather than help a bleeding-prone condition).
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke dokumentert i norsk regulatorisk data. Kjent klinisk bruk (ifølge legemidlets virkningsmekanisme) er intravetreal anti-VEGF-terapi for økulær neovaskularisert sykdom. |
+| Predikert ny indikasjon | Mitokondrielt oksidativt fosforyleringsforstyrrelse forårsaket av kjerne-DNA-anomalier |
+| TxGNN-prediksjonspoengsum | 99.67% |
+| Bevisgrad | L5 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available
+For øyeblikket er detaljerte virkningsmekanismedata ikke tilgjengelige fra DrugBank. Basert på informasjonen som er tilgjengelig i denne bevissamlingen, er brolucizumab et anti-VEGF-A enkelt-kjede antiststoffragment (scFv) administrert ved intravetreal injeksjon, som virker ved å blokkere VEGF-signalering for å redusere patologisk angiogenese i økulær sykdom.
 
----
+Mitokondrielt oksidativt fosforyleringsforstyrrelse forårsaket av kjerne-DNA-anomalier er en metabolsk/energiproduksjonssykdom forårsaket av elektronenes transportkjededefekter — en patofysiologi uten kjent overlapping med VEGF-mediator angiogenese. Bevissamlingen selv sier eksplisitt at ingen biologisk vei forbinder de to tilstandene, og at denne høye TxGNN-poengsummen reflekterer en grafneural-nettverksrelasjonell slutning snarere enn et mekanistisk begrunnet signal.
 
-## Norway Market Information
-
-Brolucizumab currently holds no marketing authorization in Norway (Not marketed, 0 licenses on record). No product/dosage form/indication data is available to tabulate.
+Gitt fraværet av enhver støttende klinisk prøve eller litteraturbevis, og den eksplisitte mekanistiske frakobblingen som er notert i begrunnelsen, bør denne prediksjonen behandles som kun utforskende. Det er verdt å merke seg at de gjenværende rangerte prediksjoner for dette legemidlet (spiserørvariser med/uten blødning, eksokrin pankreatisk insuffisiens) viser samme mønster — høye TxGNN-poeng uten mekanistisk eller klinisk støtte, og når det gjelder spiserørvariseblødning, en begrunnelse som flaggmarkerer en *sannsynlig sikkerhetsbetenkeling i motsatt retning* (anti-VEGF-midler er forbundet med nedsatt vaskulær/sårheling og blødningsrisiko, som teoretisk kunne forverre snarere enn hjelpe en blødningsutsatt tilstand).
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske prøver
 
-Please refer to the package insert for safety information.
-
-*Note: Warning/contraindication/DDI data could not be retrieved from the current data sources. This is flagged in the source evidence pack as a blocking data gap (DG001) for safety pre-assessment.*
+For øyeblikket er det ikke registrert relaterte kliniske prøver
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For øyeblikket er det ingen relatert litteratur tilgjengelig
 
-**Rationale:**
-The top-ranked prediction is supported only by a model score (L5, no clinical trials or literature), and the mechanistic rationale in the evidence pack itself concludes there is no known biological pathway linking brolucizumab's anti-VEGF activity to mitochondrial oxidative phosphorylation disorders. Combined with the drug's unmarketed status in Norway and a blocking gap in safety labeling data, there is no basis to advance this candidate at this time.
+---
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) — currently blocking (DG001)
-- Confirmed mechanism of action via DrugBank API query (DG002)
-- Any preclinical or mechanistic literature directly linking VEGF inhibition to nuclear-DNA-related mitochondrial disorders
-- Re-evaluation of lower-ranked predictions (esophageal varices, exocrine pancreatic insufficiency) only if independent clinical/mechanistic evidence emerges, given the bleeding-risk concern already noted for the variceal-bleeding candidate
+## Norsk markedsinformasjon
+
+Brolucizumab har for øyeblikket ingen markedsføringstillatelse i Norge (Ikke markedsført, 0 lisenser registrert). Ingen produkt-/doseringsform-/indikasjonsdata er tilgjengelige for tabulering.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+*Merk: Advarsels-/kontraindikasjon-/DDI-data kunne ikke hentes fra de gjeldende datakilder. Dette er flaggmarkert i kildebevissamlingen som en blokkerende datagap (DG001) for sikkerhetsvurdering før gjennomføring.*
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Topprangert prediksjon er støttet kun av en modellpoengsum (L5, ingen kliniske prøver eller litteratur), og den mekanistiske begrunnelsen i bevissamlingen selv konkluderer med at det ikke finnes noen kjent biologisk vei som forbinder brolucizumabs anti-VEGF-aktivitet til mitokondrielle oksidativt fosforyleringsforstyrrelse. Kombinert med legemidlets umarkedsførte status i Norge og en blokkering av sikkerhetsmerkingdata, er det ingen grunnlag for å fremme denne kandidaten på dette tidspunktet.
+
+**For å fortsette, kreves følgende:**
+- TFDA/produsent pakningsvedlegg (advarsler, kontraindikasjoer) — for øyeblikket blokkering (DG001)
+- Bekreftet virkningsmekanisme via DrugBank API-spørring (DG002)
+- Enhver preklinisk eller mekanistisk litteratur som direkte forbinder VEGF-hemming til kjerne-DNA-relaterte mitokondrielle forstyrrelse
+- Ny vurdering av lavere rangerte prediksjoner (spiserørvariser, eksokrin pankreatisk insuffisiens) kun hvis uavhengig klinisk/mekanistisk bevis dukker opp, gitt blødningsrisikobetenkelig allerede notert for kandidaten med variseblødning
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

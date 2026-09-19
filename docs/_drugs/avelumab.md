@@ -29,88 +29,87 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Avelumab: From Merkel Cell Carcinoma to Human Herpesvirus 8-Related Tumor
+# Avelumab: Fra merkelcellekarsinom til menneskelig herpesvirus 8-relatert tumor
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-Avelumab is an anti-PD-L1 monoclonal antibody internationally approved for Merkel cell carcinoma and urothelial carcinoma (no Norway license data is available in this evidence pack).
-The TxGNN model's top-ranked prediction is **Human Herpesvirus 8-Related Tumor** (e.g. HHV-8-associated Kaposi sarcoma / primary effusion lymphoma),
-but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model output with no corroborating evidence.
+Avelumab er et anti-PD-L1 monoklonalt antistoff som er internasjonalt godkjent for merkelcellekarsinom og urotelielt karsinom (det finnes ingen informasjon om norsk godkjenning i dette bevisepakken). Topprangert prediksjon fra TxGNN-modellen er **Menneskelig herpesvirus 8-relatert tumor** (f.eks. HHV-8-assosiert Kaposi sarkom / primær effusjonlymfom), men denne prediksjonen er for øyeblikket støttet av **0 kliniske studier** og **0 publikasjoner** — det er rent modelloutput uten bekrefende bevis.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not licensed in Norway (0 authorizations); internationally approved for Merkel cell carcinoma and urothelial carcinoma |
-| Predicted New Indication | Human Herpesvirus 8-Related Tumor |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available (flagged as a blocking data gap, DG002). Based on the information embedded in this evidence pack, avelumab is an anti-PD-L1 monoclonal antibody, and its efficacy has been established for Merkel cell carcinoma and urothelial carcinoma — both settings where PD-L1-mediated immune evasion drives tumor progression.
-
-The mechanistic rationale for HHV-8-related tumors is that virus-associated malignancies (e.g. Kaposi sarcoma, primary effusion lymphoma) also frequently exploit checkpoint-mediated immune evasion, and blocking PD-L1 could theoretically restore T-cell recognition of viral tumor antigens. However, this population commonly presents with concurrent HIV infection or other immunosuppression, which substantially complicates the risk-benefit profile of checkpoint blockade and is not addressed anywhere in this dataset.
-
-This remains a mechanism-only extrapolation: there is no PD-L1 expression data, no preclinical model, and no clinical or literature evidence specific to HHV-8-related tumors to support the prediction.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke godkjent i Norge (0 godkjennelser); internasjonalt godkjent for merkelcellekarsinom og urotelielt karsinom |
+| Forutsagt ny indikasjon | Menneskelig herpesvirus 8-relatert tumor |
+| TxGNN prediksjonsresultat | 99.97% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related clinical trials registered.
+For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige (flagget som en blokkerende datakløft, DG002). Basert på informasjonen som ligger i dette bevisepakken, er avelumab et anti-PD-L1 monoklonalt antistoff, og dets effektivitet er etablert for merkelcellekarsinom og urotelielt karsinom — begge tilstander der PD-L1-formidlet immunflukt driver tumorprogresjon.
 
----
+Den mekanistiske begrunnelsen for HHV-8-relaterte tumorer er at virusassosierte ondartede sykdommer (f.eks. Kaposi sarkom, primær effusjonlymfom) også ofte utnytter checkpoint-formidlet immunflukt, og blokkering av PD-L1 kunne teoretisk gjenopprette T-celle-gjenkjenning av virale tumorantigener. Imidlertid presenterer denne populasjonen seg vanligvis med samtidig HIV-infeksjon eller annen immunsuppresjon, som vesentlig kompliserer risiko-fordel-profilen for checkpoint-blokkering og som ikke behandles noe sted i dette datasettet.
 
-## Literature Evidence
-
-Currently no related literature available.
+Dette forblir en ekstrapolasjon basert kun på mekanisme: det er ingen PD-L1-uttrykkdata, ingen preklinisk modell, og ingen klinisk eller litteraturbevis spesifikt for HHV-8-relaterte tumorer som støtter prediksjonen.
 
 ---
 
-## Cytotoxicity
+## Bevis fra kliniske studier
 
-Avelumab is an antineoplastic agent (immune checkpoint inhibitor class), so this section is included.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (anti-PD-L1 monoclonal antibody; not conventional cytotoxic chemotherapy) |
-| Myelosuppression Risk | Low — checkpoint inhibitors are not typically myelosuppressive; toxicity is primarily immune-related (irAEs) rather than hematologic |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Thyroid, liver and renal function; infusion-related reaction monitoring; surveillance for immune-related adverse events (colitis, pneumonitis, endocrinopathies) |
-| Handling Protection | No special cytotoxic-drug handling protocol required; standard biologic infusion precautions apply |
-
-Note: No drug-specific toxicity dataset was available (DrugBank toxicity fields empty); the above reflects general class characteristics of PD-L1 inhibitors and should be confirmed against the official package insert once available.
+For øyeblikket er det ingen relaterte kliniske studier registrert.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and DDI data are all flagged as data gaps or "not found" in this evidence pack — DG001 is a blocking gap.)
+For øyeblikket er det ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Cytotoksisitet
 
-**Decision: Hold**
+Avelumab er et antineoplastisk legemiddel (checkpoint-hemmer-klasse), så denne delen er inkludert.
 
-**Rationale:**
-The top-ranked prediction (Human Herpesvirus 8-Related Tumor) has an L5 evidence level — no clinical trials, no literature, and a plausible but unverified mechanistic rationale complicated by the frequent HIV/immunosuppression comorbidity in this population. This does not meet the threshold to advance to safety screening (S1).
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitetsklassifisering | Immunterapi (anti-PD-L1 monoklonalt antistoff; ikke konvensjonell cytotoksisk kjemoterapi) |
+| Myelosuppresjonsrisiko | Lav — checkpoint-hemmere er vanligvis ikke myelosuppressive; toksisitet er primært immun-relatert (irAEs) snarere enn hematologisk |
+| Emetogenitetsklassifisering | Lav |
+| Overvåkingselementer | Thyroidea-, lever- og nyrfunksjon; overvåking av infusjonsrelaterte reaksjoner; overvåking av immun-relaterte bivirkninger (kolitt, pneumonitt, endokrinopatier) |
+| Håndteringsbeskyttelse | Ingen spesiell håndteringsprotokoll for cytotoksiske legemidler nødvendig; standard biologisk infusjonsforholdsregler gjelder |
 
-**To proceed, the following is needed:**
-- Official label data (warnings/contraindications) from TFDA or equivalent regulatory source — currently blocking (DG001)
-- Formal MOA documentation from DrugBank or product label (DG002)
-- Preclinical or biomarker evidence of PD-L1 expression in HHV-8-associated tumors
-- Safety assessment specific to concurrent HIV/immunosuppressed populations before any clinical exploration
+Merknad: Ingen medikamentspesifikk toksisitetsdatasett var tilgjengelig (DrugBank-toksisitetsfelt tomme); det ovennevnte reflekterer generelle klassekjennetegn for PD-L1-hemmere og bør bekreftes mot det offisielle pakningsvedlegget når det blir tilgjengelig.
 
-**Note:** Among the 10 candidates in this pack, ranks 9–10 (prostatic urethra urothelial carcinoma; kidney pelvis sarcomatoid transitional cell carcinoma) show comparatively stronger mechanistic grounding — both are histological/anatomical extensions of avelumab's already-approved urothelial carcinoma indication, and rank 10 has one completed real-world observational trial (NCT05431777, L3). These may warrant prioritization over the top-ranked HHV-8 prediction for further evaluation.
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon. (Hovedadvarsler, kontraindikasjoner og DDI-data er alle flagget som datakløfter eller «ikke funnet» i dette bevisepakken — DG001 er en blokkerende kløft.)
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Topprangert prediksjon (Menneskelig herpesvirus 8-relatert tumor) har et L5 bevisnivå — ingen kliniske studier, ingen litteratur, og en plausibel men ubekreftet mekanistisk begrunnelse komplisert av hyppig HIV/immunsuppresjon komorbiditet i denne populasjonen. Dette oppfyller ikke terskelen for å avansere til sikkerhetsprøving (S1).
+
+**For å fortsette er følgende nødvendig:**
+- Offisielle etikettdata (advarsler/kontraindikasjoner) fra TFDA eller tilsvarende regulatorisk kilde — blokkerer for øyeblikket (DG001)
+- Formell MOA-dokumentasjon fra DrugBank eller produktetikett (DG002)
+- Preklinisk eller biomerkebevis for PD-L1-uttrykk i HHV-8-assosierte tumorer
+- Sikkerhetsvurdering spesifikk for samtidsforekommende HIV/immunsupprimerte populasjoner før noen klinisk utforskning
+
+**Merknad:** Blant de 10 kandidatene i dette bevisepakken viser rangene 9–10 (urotelielt karsinom i prostatisk urethra; sarkomatiod transisjonscellekarsinom i nyrebasseng) sammenlignbar sterkere mekanistisk grunnlag — begge er histologiske/anatomiske utvidelser av avelumabs allerede godkjente urotelielt karsinom-indikasjon, og rang 10 har én fullført real-world observasjonsstudie (NCT05431777, L3). Disse kan berettige prioritering over topprangert HHV-8-prediksjon for videre evaluering.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

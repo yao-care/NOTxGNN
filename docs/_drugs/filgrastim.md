@@ -29,95 +29,96 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Filgrastim: From Neutropenia (G-CSF Supportive Care) to Primary Platelet Release Disorder
+# Filgrastim: Fra neutropeni (G-CSF-støtteterapi) til primær sekresjonsforstyrrelse av platelett
 
-## One-Sentence Summary
+## Oppsummering i en setning
 
-> Filgrastim is a recombinant human G-CSF, clinically used to stimulate neutrophil recovery and mobilize hematopoietic stem cells in the supportive-care setting (e.g., around chemotherapy and stem cell transplantation).
-> The TxGNN model predicts it may be effective for **Primary Release Disorder of Platelets**,
-> but the supporting evidence is weak — the **13 clinical trials** identified all use Filgrastim only as a supportive agent for stem cell mobilization/neutrophil recovery in unrelated transplant protocols, and only **1 publication** loosely touches on the topic, with no evidence directly evaluating Filgrastim for this indication.
+> Filgrastim er et rekombinant humant G-CSF som klinisk brukes til å stimulere neutrofil-gjenoppretting og mobilisere hematopoietiske stamceller i støtteterapisammenheng (f.eks. rundt kjemoterapi og stamcelletransplantasjon).
+> TxGNN-modellen forutsier at det kan være effektivt for **Primær sekresjonsforstyrrelse av platelett**,
+> men bevisstøtten er svak — alle **13 kliniske forsøk** som er identifisert bruker Filgrastim bare som støtteagent for stamcelle-mobilisering/neutrofil-gjenoppretting i ikke-relaterte transplantprotokoller, og bare **1 publikasjon** berører emnet løst, uten direkte bevis som evaluerer Filgrastim for denne indikasjonen.
 
-> ⚠️ **Note on original indication**: The evidence pack does not contain a confirmed regulatory-approved indication text for Filgrastim (`original_indications` is empty, `original_moa` is a data gap). The "Neutropenia" framing above is inferred from repeated context in the trial relevance annotations (G-CSF used for "幹細胞動員/嗜中性球恢復") and should be confirmed against an authoritative label before use in any external-facing document.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available in evidence pack (regulatory data gap) — G-CSF is contextually referenced as supporting neutrophil recovery/stem cell mobilization |
-| Predicted New Indication | Primary Release Disorder of Platelets |
-| TxGNN Prediction Score | 99.99% (rank 48 among all predictions) |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> ⚠️ **Merknad om original indikasjon**: Bevisepakken inneholder ikke en bekreftet regulatorisk godkjent indikasjonstekst for Filgrastim (`original_indications` er tom, `original_moa` er et datahull). Beskrivelsen av «Neutropeni» ovenfor er utledet fra gjentatt kontekst i merknadene om forsøksrelevans (G-CSF brukt for «stamcelle-mobilisering/neutrofil-gjenoppretting») og bør bekreftes mot en autoritativ etikett før bruk i dokument rettet til eksterne.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available (flagged as a **High-severity data gap** in the evidence pack). Based on the contextual information available, Filgrastim is a recombinant granulocyte colony-stimulating factor (G-CSF) whose known pharmacology is to stimulate proliferation and differentiation of granulocyte precursor cells and to mobilize hematopoietic stem cells — a mechanism used clinically to support neutrophil recovery after myelosuppressive therapy and to mobilize stem cells before transplantation.
-
-Primary release disorder of platelets, by contrast, is a defect in platelet granule secretion machinery (pathways such as ADP/TXA2 signaling and granule exocytosis). The evidence pack's own mechanistic analysis states explicitly that there is **no direct biological link** between G-CSF signaling and platelet granule release pathways. The high TxGNN score most likely reflects an indirect association learned from the knowledge graph — both concepts cluster under broad "hematologic disease/hematopoiesis" nodes — rather than a genuine shared mechanism.
-
-Consistent with this, all 13 clinical trials retrieved for this indication are studies of allogeneic/autologous hematopoietic stem cell transplantation for unrelated conditions (leukemia, lymphoma, sarcoma, MS, SLE, COVID-19), in which Filgrastim/G-CSF appears only as a supportive-care agent for stem cell mobilization or post-transplant neutrophil recovery — not as an investigational treatment for platelet release disorders. Several trials were explicitly graded "C" (low relevance) during triage. This prediction should be treated as **hypothesis-generating only**, not as evidence of therapeutic plausibility.
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Ikke tilgjengelig i bevisepakken (regulatorisk datahull) — G-CSF er kontekstuelt referert som støtte for neutrofil-gjenoppretting/stamcelle-mobilisering |
+| Forutsagt ny indikasjon | Primær sekresjonsforstyrrelse av platelett |
+| TxGNN-prediktjonsscore | 99.99% (rangert 48 blant alle prediksjoner) |
+| Bevisnivå | L5 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelig (flagget som et **høy-alvorlighet datahull** i bevisepakken). Basert på tilgjengelig kontekstinformasjon, er Filgrastim et rekombinant granulocytt-kolonistimulerende faktor (G-CSF) hvis kjente farmakologi er å stimulere proliferasjon og differensiering av granulocytt-forløperceller og mobilisere hematopoietiske stamceller — en mekanisme som klinisk brukes til å støtte neutrofil-gjenoppretting etter myelosuppressiv terapi og mobilisere stamceller før transplantasjon.
+
+Primær sekresjonsforstyrrelse av platelett er derimot en defekt i plateletgranul-sekresjonsmaskineri (veier som ADP/TXA2-signalering og granul-eksocytose). Bevisepakkens egen mekanistiske analyse uttaler eksplisitt at det er **ingen direkte biologisk sammenheng** mellom G-CSF-signalering og plateletgranul-frigjøringsvei. Den høye TxGNN-scoren reflekterer mest sannsynlig en indirekte assosiasjon som er lært fra kunnskapsgrafen — begge konsepter klynges under brede «hematologisk sykdom/hematopoese»-noder — snarere enn en genuin delt mekanisme.
+
+I samsvar med dette er alle 13 kliniske forsøk som er hentet for denne indikasjonen studier av allogeneisk/autolog hematopoietisk stamcelletransplantasjon for ikke-relaterte tilstander (leukemi, lymfom, sarkom, MS, SLE, COVID-19), der Filgrastim/G-CSF vises bare som støtteagent for stamcelle-mobilisering eller post-transplant neutrofil-gjenoppretting — ikke som undersøkelsesbehandling for sekresjonforstyrrelser av platelett. Flere forsøk ble eksplisitt gradering «C» (lav relevans) under vurdering. Denne prediksjonen bør behandles som **hypotesegenerering bare**, ikke som bevis for terapeutisk plausibilitet.
+
+---
+
+## Klinisk forsøksbevis
+
+| Forsøksnummer | Fase | Status | Innrullering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT00281879](https://clinicaltrials.gov/study/NCT00281879) | Phase 2 | Terminated | 200 | Unrelated donor HSCT for hematologic malignancies; G-CSF used for stem cell mobilization/neutrophil recovery, not for platelet disorders (graded low relevance) |
-| [NCT00043979](https://clinicaltrials.gov/study/NCT00043979) | Phase 2 | Completed | 60 | Allogeneic/syngeneic HSCT for pediatric sarcomas; G-CSF as supportive agent only (graded low relevance) |
-| [NCT00354172](https://clinicaltrials.gov/study/NCT00354172) | Phase 2 | Terminated | 16 | Umbilical cord blood transplant + NK cells for myeloid leukemia not in remission |
-| [NCT00923364](https://clinicaltrials.gov/study/NCT00923364) | Phase 2 | Completed | 19 | Reduced-intensity HSCT for patients with GATA2 mutations |
-| [NCT02646098](https://clinicaltrials.gov/study/NCT02646098) | Phase 2 | Completed | 64 | CD34+ selected vs. unselected autologous HSCT in MCL/DLBCL; G-CSF used for stem cell collection (graded low relevance) |
-| [NCT05436418](https://clinicaltrials.gov/study/NCT05436418) | Phase 1/2 | Recruiting | 260 | Post-transplant cyclophosphamide + sirolimus/MMF for GVHD prophylaxis after PBSCT |
-| [NCT05170828](https://clinicaltrials.gov/study/NCT05170828) | Phase 1 | Withdrawn | 0 | Cryopreserved HLA-mismatched unrelated donor bone marrow transplant with PTCy |
-| [NCT00076752](https://clinicaltrials.gov/study/NCT00076752) | Phase 2 | Completed | 9 | Autologous HSCT for severe systemic lupus erythematosus |
-| [NCT04540120](https://clinicaltrials.gov/study/NCT04540120) | Phase 2 | Terminated | 49 | Dapansutrile (NLRP3 inhibitor) for moderate COVID-19/cytokine release syndrome (unrelated to Filgrastim mechanism) |
-| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Phase 2 | Recruiting | 358 | Post-transplant cyclophosphamide-based GVHD prophylaxis in mismatched unrelated donor PBSCT |
+| [NCT00281879](https://clinicaltrials.gov/study/NCT00281879) | Fase 2 | Avbrutt | 200 | Ikke-relatert donor HSCT for hematologiske maligniteter; G-CSF brukt for stamcelle-mobilisering/neutrofil-gjenoppretting, ikke for plateletforstyrrelser (gradering lav relevans) |
+| [NCT00043979](https://clinicaltrials.gov/study/NCT00043979) | Fase 2 | Fullført | 60 | Allogeneisk/syngeneisk HSCT for pediatriske sarkomer; G-CSF som støtteagent bare (gradering lav relevans) |
+| [NCT00354172](https://clinicaltrials.gov/study/NCT00354172) | Fase 2 | Avbrutt | 16 | Navlestrengstransplantasjon + NK-celler for myeloid leukemi ikke i remisjon |
+| [NCT00923364](https://clinicaltrials.gov/study/NCT00923364) | Fase 2 | Fullført | 19 | Redusert intensitet HSCT for pasienter med GATA2-mutasjoner |
+| [NCT02646098](https://clinicaltrials.gov/study/NCT02646098) | Fase 2 | Fullført | 64 | CD34+ valgt vs. ikke-valgt autolog HSCT i MCL/DLBCL; G-CSF brukt for stamcelle-innsamling (gradering lav relevans) |
+| [NCT05436418](https://clinicaltrials.gov/study/NCT05436418) | Fase 1/2 | Rekrutterer | 260 | Post-transplant cyclophosphamid + sirolimus/MMF for GVHD-profylakse etter PBSCT |
+| [NCT05170828](https://clinicaltrials.gov/study/NCT05170828) | Fase 1 | Trukket | 0 | Kryokonservert HLA-mismatchet ikke-relatert donor benmargtransplantasjon med PTCy |
+| [NCT00076752](https://clinicaltrials.gov/study/NCT00076752) | Fase 2 | Fullført | 9 | Autolog HSCT for alvorlig systemisk lupus erythematosus |
+| [NCT04540120](https://clinicaltrials.gov/study/NCT04540120) | Fase 2 | Avbrutt | 49 | Dapansutrile (NLRP3-hemmer) for moderat COVID-19/cytokinfrislappelsessyndrom (ikke-relatert til Filgrastim-mekanisme) |
+| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Fase 2 | Rekrutterer | 358 | Post-transplant cyclophosphamid-basert GVHD-profylakse i mismatchet ikke-relatert donor PBSCT |
 
-**None of the above trials directly evaluate Filgrastim as a treatment for platelet release disorders; all identified uses are supportive-care/stem cell mobilization in unrelated transplant contexts.**
+**Ingen av ovennevnte forsøk evaluerer direkte Filgrastim som behandling for sekresjonforstyrrelser av platelett; alle identifiserte bruker er støtte/stamcelle-mobilisering i ikke-relaterte transplantsammenhenger.**
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [29770133](https://pubmed.ncbi.nlm.nih.gov/29770133/) | 2018 | Cohort study | Frontiers in Immunology | G-CSF mobilization in healthy stem cell donors preferentially mobilizes lymphocyte subsets; does not address platelet granule release function |
+| [29770133](https://pubmed.ncbi.nlm.nih.gov/29770133/) | 2018 | Kohort-studie | Frontiers in Immunology | G-CSF-mobilisering i friske stamcelledonorer mobiliserer preferensielt lymfocytt-undergrupper; adresserer ikke plateletgranul-frigjørelsesnfunksjon |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Filgrastim is currently **not marketed in Norway** (0 authorizations on record). No product license or approved indication text is available in the evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Important flag**: The evidence pack marks TFDA/product-label warnings and contraindications as a **Blocking-severity data gap** — this must be resolved (via TFDA label retrieval and parsing) before any safety assessment (S1 stage) can proceed. Drug interaction data was also queried with no results found.
+Filgrastim er for tiden **ikke markedsført i Norge** (0 autorisasjoner på posten). Ingen produktlisens eller godkjent indikasjonstekst er tilgjengelig i bevisepakken.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vennligst se pakningsvedlegg for sikkerhetsinformasjon.
 
-**Rationale:**
-The TxGNN score is high, but the evidence pack's own mechanistic and clinical-trial review finds no direct biological or clinical link between Filgrastim's known G-CSF activity and platelet granule release disorders — all retrieved trials use Filgrastim only as a supportive agent in unrelated transplant protocols, and only one loosely related observational study exists. Combined with a Blocking-severity gap in safety/label data, this candidate does not meet the bar to advance beyond signal detection (S0).
+> **Viktig flagg**: Bevisepakken markerer TFDA/pakningsvedlegg-advarsler og kontraindikasjoner som et **kritisk datahull** — dette må løses (via TFDA-etikett-henting og parsing) før noen sikkerhetsvurdering (S1) kan fortsette. Legemiddelinteraksjons-data ble også spurt med ingen resultater funnet.
 
-**To proceed, the following is needed:**
-- Retrieve and parse the official TFDA/product label for warnings, contraindications, and DDI (Blocking gap, DG001)
-- Obtain confirmed mechanism-of-action and approved-indication data from DrugBank (High-severity gap, DG002)
-- Seek preclinical or mechanistic evidence directly linking G-CSF/granulocyte signaling to platelet granule secretion pathways, if such a hypothesis is to be pursued further
-- Re-triage the "pending" relevance-graded trials to confirm none provide direct evidence before any re-evaluation
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+TxGNN-scoren er høy, men bevisepakkens egen mekanistiske og klinisk-forsøksvurdering finner ingen direkte biologisk eller klinisk sammenheng mellom Filgrastims kjente G-CSF-aktivitet og sekresjonforstyrrelser av platelett — alle hentede forsøk bruker Filgrastim bare som støtteagent i ikke-relaterte transplantprotokoller, og bare en løst relatert observasjonsstudie finnes. Kombinert med et kritisk datahull i sikkerhet/etikett-data, oppfyller denne kandidaten ikke terskelen for å gå videre utover signaldeteksjon (S0).
+
+**For å fortsette, er følgende nødvendig:**
+- Hent og parse den offisielle TFDA-etiketten for advarsler, kontraindikasjoner, og DDI (kritisk datahull, DG001)
+- Innhent bekreftet virkningsmekanisme og godkjent indikasjons-data fra DrugBank (høy-alvorlighet datahull, DG002)
+- Søk preklinisk eller mekanistisk bevis direkte som kobler G-CSF/granulocytt-signalering til plateletgranul-sekresjons-veier, hvis en slik hypotese skal forfølges videre
+- Revurderes de «ventende» relevans-graderte forsøkene for å bekrefte ingen gir direkte bevis før noen re-evaluering
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

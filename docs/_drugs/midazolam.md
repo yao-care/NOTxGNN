@@ -29,101 +29,102 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Midazolam: From Procedural Sedation to Insomnia
+# Midazolam: Fra prosedyresedasjon til søvnløshet
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-Midazolam is a short-acting benzodiazepine established for procedural sedation, anesthesia induction, and status epilepticus. The TxGNN model predicts it may also be effective for **Insomnia**, a signal supported by **32 screened clinical trials** and **11 curated publications**, several of which are decades-old randomized controlled trials that already demonstrated oral midazolam's efficacy as a short-term hypnotic.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available from Norway license data (drug unmarketed); internationally established for procedural sedation, anesthesia induction, and status epilepticus |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L2 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Midazolam er et benzodiazepinderivat med kort virkningstid etablert for prosedyresedasjon, anestesiinduksjon og status epilepticus. TxGNN-modellen forutsier at det også kan være effektivt for **søvnløshet**, et signal som understøttes av **32 gjennomgåtte kliniske forsøk** og **11 kuraterte publikasjoner**, hvorav flere er tiår gamle randomiserte kontrollerte studier som allerede demonstrerte oral midazolams effektivitet som korttids-hypnotikum.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigoversikt
 
-The evidence pack's `original_moa` field is a data gap, but the repurposing rationale supplied with the prediction fills this in: midazolam is a short-acting benzodiazepine that potentiates GABA-A receptor-mediated chloride channel conductance, producing sedative, anxiolytic, and hypnotic effects. This places it in the same pharmacological family as established hypnotics such as flurazepam and zolpidem — the mechanistic link to insomnia is direct and well-characterized, not a novel hypothesis.
-
-Notably, this is less a case of genuine "drug repurposing" and more a re-surfacing of a previously validated use. Oral midazolam was already marketed in several European countries during the 1980s–1990s specifically as a short-term treatment for insomnia, before falling out of favor relative to newer hypnotics. The TxGNN prediction is therefore consistent with historical clinical precedent rather than an unproven mechanistic extrapolation.
-
-Because midazolam's sedative/anesthetic use and its historical hypnotic use share the identical GABA-A mechanism, the biological plausibility for insomnia is high. The main open question is not "does it work" (older RCTs already answered that) but whether it remains a *competitive* option given modern hypnotics with better next-day safety profiles.
+| Punkt | Innhold |
+|------|--------|
+| Originalindikasjon | Ikke tilgjengelig fra norske lisensdata (legemiddel ikke markedsført); internasjonalt etablert for prosedyresedasjon, anestesiinduksjon og status epilepticus |
+| Forutsagt ny indikasjon | Søvnløshet |
+| TxGNN-prediksjonspoeng | 99.74% |
+| Bevisnivå | L2 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Fortsett med sikringsmekanismer |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Bevis-pakken har et datahull i feltet `original_moa`, men ombruksgrunnlaget som medfølger prediksjonen fyller dette inn: midazolam er et benzodiazepinderivat med kort virkningstid som forsterker GABA-A reseptor-mediiert kloridkanalkonduktans, og produserer sedative, angstdempende og søvninduktive effekter. Dette plasserer det i samme farmakologiske familie som etablerte hypnotika som flurazepam og zolpidem — den mekanistiske forbindelsen til søvnløshet er direkte og godt karakterisert, ikke en ny hypotese.
+
+Bemerkelsesverdig er at dette mindre er et genuint tilfelle av "legemiddelombru" og mer en gjenopplivelse av en tidligere validert bruk. Oral midazolam ble allerede markedsført i flere europeiske land i løpet av 1980-tallet–1990-tallet spesifikt som korttidsbehandling for søvnløshet, før det falt ut av favør sammenlignet med nyere hypnotika. TxGNN-prediksjonen er derfor konsistent med historisk klinisk presedens snarere enn en ubevist mekanistisk ekstrapolasjon.
+
+Fordi midazolams sedasjon-/anestesibruk og dens historiske søvninduktive bruk deler den identiske GABA-A-mekanismen, er den biologiske sannsynlighet for søvnløshet høy. Hovedspørsmålet er ikke "fungerer det" (eldre RCT-er svarte allerede på det), men om det fortsatt er et *konkurransedyktig* alternativ gitt moderne hypnotika med bedre sikkerhetsprofiler dagen etter.
+
+---
+
+## Klinisk forsøksbevis
+
+| Forsøksnummer | Fase | Status | Deltakere | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Phase 4 | Completed | 111 | Dexmedetomidine vs. midazolam compared for postoperative sleep quality after TURP under spinal anesthesia; directly measures midazolam's effect on sleep outcomes (Grade B). |
-| [NCT04082767](https://clinicaltrials.gov/study/NCT04082767) | Phase 3 | Unknown | 120 | Dexmedetomidine vs. midazolam sedation efficacy in critically ill ventilated children; benzodiazepine-related agitation/delirium as comparator endpoint. |
-| [NCT05606315](https://clinicaltrials.gov/study/NCT05606315) | Phase 4 | Unknown | 285 | Remimazolam (benzodiazepine analog) vs. standard sedation in ICU mechanical ventilation post-maxillofacial surgery. |
-| [NCT01966315](https://clinicaltrials.gov/study/NCT01966315) | N/A | Terminated | 5 | 24-hour polysomnography comparing dexmedetomidine vs. midazolam on sleep quality/quantity and delirium incidence in ICU patients. |
-| [NCT00826553](https://clinicaltrials.gov/study/NCT00826553) | Phase 1 | Terminated | 6 | Polysomnographic comparison of α2-agonist vs. GABA-agonist (midazolam-class) sedation on sleep staging and total sleep time. |
-| [NCT07336095](https://clinicaltrials.gov/study/NCT07336095) | Phase 3 | Not yet recruiting | 195 | Oral melatonin vs. oral midazolam as premedication in children undergoing tonsillectomy, framed around sleep-inducing effect. |
-| [NCT06407518](https://clinicaltrials.gov/study/NCT06407518) | N/A | Recruiting | 280 | Preoperative oral midazolam evaluated in patients with sleep disturbance/anxiety undergoing colorectal cancer surgery; oral midazolam solution noted as "safe and effective for short-term hypnosis." |
-| [NCT00744380](https://clinicaltrials.gov/study/NCT00744380) | N/A | Completed | 23 | Dexmedetomidine vs. midazolam for facilitating ICU extubation, comparing benzodiazepine sedation transition. |
-| [NCT01343095](https://clinicaltrials.gov/study/NCT01343095) | N/A | Terminated | 8 | ICU noise-reduction trial measuring sedative medication use and sleep quality as secondary endpoints (indirect overlap only). |
-| [NCT06498869](https://clinicaltrials.gov/study/NCT06498869) | N/A | Completed | 178 | Ketamine's effect on sleep quality (PSQI) in colonoscopy patients; midazolam used as part of baseline sedation regimen. |
+| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Fase 4 | Fullført | 111 | Deksmedetomidin vs. midazolam sammenlignet for postoperativ søvnkvalitet etter TURP under ryggmargsanestesi; måler direkte midazolams effekt på søvnutfall (Grade B). |
+| [NCT04082767](https://clinicaltrials.gov/study/NCT04082767) | Fase 3 | Ukjent | 120 | Deksmedetomidin vs. midazolam sedasjonseffektivitet hos kritisk syke ventilerte barn; benzodiazepinrelatert agitasjon/delirium som sammenlikningspunkt. |
+| [NCT05606315](https://clinicaltrials.gov/study/NCT05606315) | Fase 4 | Ukjent | 285 | Remimazolam (benzodiazepinanalog) vs. standardsedasjon i ICU mekanisk ventilasjon etter maxillofacial kirurgi. |
+| [NCT01966315](https://clinicaltrials.gov/study/NCT01966315) | Ikke oppgitt | Avsluttet | 5 | 24-timers polysomnografi som sammenligner deksmedetomidin vs. midazolam på søvnkvalitet/mengde og deliriumforekomst hos ICU-pasienter. |
+| [NCT00826553](https://clinicaltrials.gov/study/NCT00826553) | Fase 1 | Avsluttet | 6 | Polysomnografisk sammenligning av α2-agonist vs. GABA-agonist (midazolam-klasse) sedasjon på søvnstadier og total søvntid. |
+| [NCT07336095](https://clinicaltrials.gov/study/NCT07336095) | Fase 3 | Ikke påbegynt | 195 | Oral melatonin vs. oral midazolam som premedikasjoneering hos barn som gjennomgår tonsillektomi, fokusert på søvninduktiv effekt. |
+| [NCT06407518](https://clinicaltrials.gov/study/NCT06407518) | Ikke oppgitt | Rekrutterer | 280 | Preoperativ oral midazolam evaluert hos pasienter med søvnforstyrrelser/angst som gjennomgår kolorektal kreftkirurgi; oral midazolam-løsning nevnt som "sikker og effektiv for korttids-hypnose." |
+| [NCT00744380](https://clinicaltrials.gov/study/NCT00744380) | Ikke oppgitt | Fullført | 23 | Deksmedetomidin vs. midazolam for å lette ICU ekstubering, sammenligning av benzodiazepinsedasjonsovergang. |
+| [NCT01343095](https://clinicaltrials.gov/study/NCT01343095) | Ikke oppgitt | Avsluttet | 8 | ICU støyreduksjonsforsøk som måler sedasjonslegemiddelbruk og søvnkvalitet som sekundære endepunkter (indirekte overlapping bare). |
+| [NCT06498869](https://clinicaltrials.gov/study/NCT06498869) | Ikke oppgitt | Fullført | 178 | Ketamins effekt på søvnkvalitet (PSQI) hos kolonoskopi-pasienter; midazolam brukt som del av basal sedasjonsregime. |
 
-*Note: The majority of the 32 screened trials study midazolam in perioperative/ICU sedation contexts rather than chronic insomnia treatment; only the trials above have direct relevance graded (B/C) or explicit sleep/insomnia framing.*
+*Merknad: Flertallet av de 32 gjennomgåtte forsøkene studerer midazolam i perioperativ/ICU sedasjonssammenheng snarere enn kronisk søvnløshetbehandling; bare forsøkene ovenfor har direkte relevans gradert (B/C) eller eksplisitt søvn-/søvnløshetsramme.*
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | RCT | British Journal of Clinical Pharmacology | Double-blind trial: midazolam 15mg vs. Vesparax in 30 patients with insomnia secondary to neuromuscular disease; midazolam was an effective hypnotic, better tolerated, no hangover effect. |
-| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | RCT | Journal of Clinical Psychopharmacology | 14-day multicenter RCT comparing flurazepam and midazolam in chronic insomniacs, assessing sleep, performance, and plasma levels. |
-| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | RCT | Journal of Clinical Psychopharmacology | Executive summary companion to the above multicenter chronic-insomnia RCT of flurazepam vs. midazolam. |
-| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | RCT | Arzneimittel-Forschung | Dose-finding pilot study (10–30mg oral) in 75 hospitalized patients with mild-to-moderate insomnia; established optimal dosing range for midazolam as a hypnotic. |
-| [36615100](https://pubmed.ncbi.nlm.nih.gov/36615100/) | 2022 | RCT | Journal of Clinical Medicine | Notes benzodiazepines (incl. midazolam) traditionally used for insomnia but may increase delirium risk; evaluates lemborexant as an alternative in high-risk sedation patients. |
-| [17988972](https://pubmed.ncbi.nlm.nih.gov/17988972/) | 2007 | Review | Orvosi Hetilap | General review of insomnia pathogenesis (primary vs. secondary) and hyperarousal state. |
-| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Review | Acta Psychiatrica Scandinavica Suppl. | Review of benzodiazepine hypnotics' clinical use, pharmacokinetic/pharmacodynamic differentiation, and rationale for a variety of agents. |
-| [22729271](https://pubmed.ncbi.nlm.nih.gov/22729271/) | 2013 | Other | Psychopharmacology | Preclinical/behavioral study of zolpidem's sedative and memory effects (comparator hypnotic class, not midazolam-specific). |
-| [21396773](https://pubmed.ncbi.nlm.nih.gov/21396773/) | 2011 | Preclinical | Pain | Mouse model showing neuropathic pain-associated insomnia linked to altered GABAergic transmission — supports GABA-mechanism relevance to insomnia broadly. |
-| [36912148](https://pubmed.ncbi.nlm.nih.gov/36912148/) | 2024 | Cohort | American Journal of Hospice & Palliative Care | Case-based report on symptom management including sedatives at end of life in COVID-19 patients (indirect relevance). |
+| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | RCT | British Journal of Clinical Pharmacology | Dobbeltblindet forsøk: midazolam 15mg vs. Vesparax hos 30 pasienter med søvnløshet sekundært til neuromuskulær sykdom; midazolam var et effektivt hypnotikum, bedre tolerert, ingen bakrus-effekt. |
+| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | RCT | Journal of Clinical Psychopharmacology | 14-dagers multisenterstudie som sammenligner flurazepam og midazolam hos kroniske søvnløshetpasienter, evaluering av søvn, ytelse og plasmanivåer. |
+| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | RCT | Journal of Clinical Psychopharmacology | Oppsummeringssamarbeider til ovenfor nevnt multisenterstudie med kronisk søvnløshet på flurazepam vs. midazolam. |
+| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | RCT | Arzneimittel-Forschung | Dosebestemmelsespilotforsøk (10–30mg oral) hos 75 inneliggende pasienter med mild til moderat søvnløshet; etablerte optimal doseringsområde for midazolam som hypnotikum. |
+| [36615100](https://pubmed.ncbi.nlm.nih.gov/36615100/) | 2022 | RCT | Journal of Clinical Medicine | Bemerker at benzodiazepiner (inkl. midazolam) tradisjonelt brukt for søvnløshet, men kan øke deliriumrisiko; evaluerer lemborexant som alternativ hos høyrisikopasienter. |
+| [17988972](https://pubmed.ncbi.nlm.nih.gov/17988972/) | 2007 | Oversikt | Orvosi Hetilap | Generell oversikt over søvnløshetspatogenese (primær vs. sekundær) og hyperarousal-tilstand. |
+| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Oversikt | Acta Psychiatrica Scandinavica Suppl. | Oversikt over benzodiazepinhypnotikuers klinisk bruk, farmakokinetisk/farmakodinamisk differensiering og begrunnelse for et spekter av agenser. |
+| [22729271](https://pubmed.ncbi.nlm.nih.gov/22729271/) | 2013 | Annet | Psychopharmacology | Preklinisk/atferdsstudium av zolpidems sedative og hukommelses-effekter (sammenlignbar hypnotika-klasse, ikke midazolam-spesifikk). |
+| [21396773](https://pubmed.ncbi.nlm.nih.gov/21396773/) | 2011 | Preklinisk | Pain | Musmodell som viser neuropatisk smerte-assosiert søvnløshet knyttet til endret GABAerg overføring — støtter GABA-mekanismrelevans for søvnløshet bredt. |
+| [36912148](https://pubmed.ncbi.nlm.nih.gov/36912148/) | 2024 | Kohort | American Journal of Hospice & Palliative Care | Kasusbasert rapport om symptomstyring inkl. sedasjonsmidler ved livets slutt hos COVID-19-pasienter (indirekte relevans). |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Midazolam is **not currently marketed in Norway** — the evidence pack contains zero authorization records (`total_licenses: 0`). No product name, dosage form, or approved indication text is available from the local regulator.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Note:** The evidence pack flags a **Blocking** data gap (DG001) for TFDA-equivalent label warnings/contraindications, which currently prevents this candidate from clearing the S1 safety pre-screen. This must be resolved before formal safety evaluation can proceed.
+Midazolam er **ikke for tiden markedsført i Norge** — bevis-pakken inneholder null autorisasjonsposter (`total_licenses: 0`). Ingen produktnavn, doseringsform eller godkjent indikasjonjtekst er tilgjengelig fra den lokale regulatoren.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-**Rationale:**
-The mechanistic link is strong and historically validated — oral midazolam was clinically proven effective for insomnia in multiple RCTs (1981–1990) and was even marketed for this use in Europe. However, most supporting evidence is decades old, small-scale, and the drug is currently unmarketed in Norway with a **blocking data gap** on label safety information (warnings/contraindications), so guardrails are required before advancing.
+> **Merknad:** Bevis-pakken flagget et **blokkerende** datahull (DG001) for TFDA-ekvivalente etikettadvarsler/kontraindikasjoner, som for tiden hindrer denne kandidaten fra å passere S1-sikkerhetsprescreening. Dette må løses før formell sikkerhetsevaluering kan fortsette.
 
-**To proceed, the following is needed:**
-- TFDA/local package insert data (warnings, contraindications) — resolves blocking gap DG001
-- Formal drug-drug interaction (DDI) data (currently `not_found`)
-- Structured original MOA and original-indication documentation for the regulatory dossier — resolves gap DG002
-- A market-entry regulatory pathway assessment, since midazolam holds zero authorizations in Norway
-- Contemporary comparative-effectiveness data against modern hypnotics (e.g., zolpidem, lemborexant), given most positive insomnia trials predate current standard of care
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Fortsett med sikringsmekanismer**
+
+**Begrunnelse:**
+Den mekanistiske forbindelsen er sterk og historisk validert — oral midazolam ble klinisk bevist effektiv for søvnløshet i flere RCT-er (1981–1990) og ble til og med markedsført for denne bruken i Europa. Imidlertid er de fleste støttende bevis tiår gamle, småskala, og legemiddelet er for tiden umarkedsført i Norge med et **blokkerende datahull** på etikettsikkerhetsinformasjon (advarsler/kontraindikasjoner), så sikringsmekanismer er nødvendig før videre fremdrift.
+
+**For å fortsette kreves følgende:**
+- TFDA/lokal pakningsvedleggdata (advarsler, kontraindikasjoner) — løser blokkerende gap DG001
+- Formell legemiddel-legemiddel interaksjonsdata (DDI) (for tiden `not_found`)
+- Strukturert opprinnelig MOA og originalindikasjonsdokumentasjon for det regulatoriske dossieret — løser gap DG002
+- Vurdering av regulatorisk inngangssti for marked, siden midazolam har null autorisasjoner i Norge
+- Moderne sammenlignende effektivitetsdata mot moderne hypnotika (f.eks. zolpidem, lemborexant), gitt at de fleste positive søvnløshetsforsøk stammer fra før dagens standard for behandling
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

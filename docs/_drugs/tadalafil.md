@@ -29,94 +29,95 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-# Tadalafil: From PDE5-Mediated Vascular Indications to Ambras Type Hypertrichosis Universalis Congenita — Evidence Insufficient
+# Tadalafil: Fra PDE5-mediert vaskulær indikasjon til Ambras type hypertrichosis universalis congenita — evidens utilstrekkelig
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-> Tadalafil is a PDE5 (phosphodiesterase type 5) inhibitor whose established pharmacology acts on vascular smooth muscle and corpus cavernosum tissue, but no approved indication or MOA record is present in this evidence pack.
-> The TxGNN model's top prediction — **Ambras type hypertrichosis universalis congenita** — has **no clinical trials and no supporting literature**, and the model's own rationale flags it as a likely embedding artifact rather than a biologically plausible signal.
-> Across all 8 candidate indications screened, none reach a defensible evidence tier; the single most clinically relevant literature hit (a case report) actually describes tadalafil-*induced* migraine aura, i.e. an adverse effect, not a therapeutic signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in evidence pack (no approved indications on file); known PDE5-inhibitor pharmacology targets vascular smooth muscle / corpus cavernosum |
-| Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 |
-| Norway Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Tadalafil er en PDE5 (fosfodiesteeras type 5)-hemmer hvis etablerte farmakologi virker på vaskulær glatt muskulatur og corpus cavernosum-vev, men ingen godkjent indikasjon eller MOA-journal er til stede i denne evidenspakken.
+> TxGNNs topprangerte prediksjon — **Ambras type hypertrichosis universalis congenita** — har **ingen kliniske studier og ingen støttende litteratur**, og modellens egen begrunnelse markerer den som sannsynligvis en embedding-artefakt snarere enn et biologisk plausibelt signal.
+> Av alle 8 screenede kandidatindikasjonene når ingen et forsvarlig evidensnivå; det eneste mest klinisk relevante litteraturtreffet (en kasusrapport) beskriver faktisk tadalafil-*forårsaket* migreneaura, dvs. en uønsket effekt, ikke et terapeutisk signal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigoversikt
 
-Currently, detailed mechanism of action data is not available (flagged as a Blocking/High-severity data gap in this pack). Based on the fragments available, tadalafil is known to act as a **PDE5 inhibitor**, with pharmacological effects on vascular smooth muscle and corpus cavernosum tissue — the mechanistic basis typically cited for tadalafil's established uses (erectile dysfunction, BPH, pulmonary arterial hypertension), though the specific original indication is not itself recorded in this evidence pack.
-
-The top-ranked prediction, Ambras type hypertrichosis universalis congenita, is a rare congenital hair-growth disorder. There is no known or hypothesized pathway connecting PDE5/cGMP-mediated vasodilation to follicular growth regulation. The model's own rationale explicitly states this score reflects an "embedding similarity artifact" rather than a biologically grounded signal — a conclusion echoed for ranks #2, #4, #5, and #6 (hypertrichosis, Dandy-Walker–associated syndrome, hair shaft abnormality, trichomegaly), all of which score >99.6% with **zero clinical trials and zero literature** support.
-
-Rank #3 (a periodontal/odontal malformation syndrome) initially looks better supported with 20 literature hits, but on inspection every article addresses general periodontal pathophysiology or treatment — **none mention tadalafil or PDE5 inhibitors at all**. This is disease-term co-occurrence noise, not drug-relevant evidence. Rank #7 (kyphoscoliotic heart disease) has a theoretically coherent hypothesis (PDE5 inhibitors are used in pulmonary hypertension, which can complicate kyphoscoliosis) but zero supporting trials or literature. Overall, no candidate in this pack clears even a preliminary mechanistic-plausibility bar with real-world evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Ikke registrert i evidenspakken (ingen godkjente indikasjoner i saksmappe); kjent PDE5-hemmer farmakologi retter seg mot vaskulær glatt muskulatur / corpus cavernosum |
+| Forutsagt ny indikasjon | Ambras type hypertrichosis universalis congenita |
+| TxGNN-prediksjonspoengsum | 99.98% |
+| Evidensnivå | L5 |
+| Markedsstatus Norge | Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available for the top-ranked indication (Ambras type hypertrichosis universalis congenita).
+For tiden er ikke detaljerte mekanisme-data tilgjengelige (flagget som en blokkering/høy-alvorlighetsgrad datakløft i denne pakken). Basert på fragmentene som er tilgjengelige, er tadalafil kjent for å virke som en **PDE5-hemmer**, med farmakologiske effekter på vaskulær glatt muskulatur og corpus cavernosum-vev — det mekanistiske grunnlaget som typisk siteres for tadalafils etablerte bruksområder (erektil dysfunksjon, BPH, pulmonal arteriell hypertensjon), selv om den spesifikke originalindikasjonen ikke i seg selv er registrert i denne evidenspakken.
 
----
+Den topprangerte prediksjonen, Ambras type hypertrichosis universalis congenita, er en sjelden medfødt hårvekstforstyrrelse. Det er ingen kjent eller antatt vei som knytter PDE5/cGMP-mediiert vasodilatation til follikelvekstregulering. Modellens egen begrunnelse angir eksplisitt at dette poengsum gjenspeiler en "embedding-artefakt" snarere enn et biologisk basert signal — en konklusjon gjentatt for rang #2, #4, #5, og #6 (hypertrichosis, Dandy-Walker-assosiiert syndrom, hårstaftabnormitet, trichomegaly), som alle skorer >99.6% med **null kliniske studier og null litteraturstøtte**.
 
-## Norway Market Information
-
-No marketing authorizations are on file for tadalafil in this evidence pack. Market status is recorded as **"Not marketed"** with **0 total licenses** and no dosage forms/routes listed.
+Rang #3 (et periodontalt/odontalt malformasjonssyndrom) ser opprinnelig bedre ut med 20 litteraturtreff, men ved nærmere gjennomgang adresserer hver artikkel generell periodontalpataofysiologi eller behandling — **ingen nevner tadalafil eller PDE5-hemmere i det hele tatt**. Dette er støy fra medforekomst av sykdomsbegreper, ikke legemiddelrelevant evidens. Rang #7 (kyphoskoliotisk hjertesykdom) har en teoretisk sammenhengsfull hypotese (PDE5-hemmere brukes i pulmonal hypertensjon, som kan komplisere kyphoskoliose) men null støttende studier eller litteratur. Samlet sett klarer ingen kandidat i denne pakken selv en preliminær mekanistisk-plausibilitetskriteria med virkelighetsbasert evidens.
 
 ---
 
-## Other Candidate Indications Screened (Context)
+## Klinisk prøvebevis
 
-Since this evidence pack evaluated 8 candidates for tadalafil, the table below summarizes why each was screened out, for completeness:
-
-| Rank | Disease | TxGNN Score | Evidence | Verdict |
-|------|---------|-------------|----------|---------|
-| 2 | Hypertrichosis (disease) | 99.98% | None | No mechanistic link |
-| 3 | Odontal/periodontal malformation syndrome | 99.97% | 20 papers, none drug-specific | Co-occurrence noise |
-| 4 | Dandy-Walker malformation syndrome | 99.97% | None | No mechanistic link |
-| 5 | Isolated genetic hair shaft abnormality | 99.96% | None | No mechanistic link |
-| 6 | Familial isolated trichomegaly | 99.65% | None | No mechanistic link |
-| 7 | Kyphoscoliotic heart disease | 99.43% | None | Theoretical PAH-overlap hypothesis only, unconfirmed |
-| 8 | Migraine with brainstem aura | 99.08% | 1 case report ([PMID 17059442](https://pubmed.ncbi.nlm.nih.gov/17059442/)) | **Adverse-effect signal, not therapeutic evidence** — see Safety below |
+For tiden er ingen relaterte kliniske studier registrert.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-- **Key Warnings / Contraindications**: Not available in this evidence pack (TFDA/label data flagged as a Blocking data gap — DG001).
-- **Drug Interactions**: No DDI data returned (query status: not found).
-- **Literature-derived safety signal**: A case report ([PMID 17059442](https://pubmed.ncbi.nlm.nih.gov/17059442/), *Cephalalgia*, 2006) describes tadalafil-associated typical migraine aura without headache. This suggests PDE5-inhibitor–mediated cerebral vasodilation can *provoke* migraine-aura-like events — the opposite of a therapeutic effect for migraine, and worth noting as a precaution rather than a repurposing lead.
+For tiden ingen relatert litteratur tilgjengelig for topprangerte indikasjon (Ambras type hypertrichosis universalis congenita).
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformasjon Norge
 
-**Decision: Hold**
+Ingen markedsføringstillatelser er registrert for tadalafil i denne evidenspakken. Markedsstatus er registrert som **"Ikke markedsført"** med **0 totale lisenser** og ingen dosisformer/ruter oppført.
 
-**Rationale:**
-All 8 candidate indications sit at Evidence Level L5 (or L4 for a single adverse-event case report), with `decision_stage: S0` and no clinical trial or drug-specific literature support. The highest-scoring predictions are explicitly flagged by the model's own rationale as embedding artifacts. No candidate in this pack meets the threshold to advance past initial screening.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain TFDA/label warnings and contraindications — required before any S1 safety pre-assessment can begin.
-- Resolve DG002 (High): obtain confirmed MOA and approved indications from DrugBank — required to establish a genuine mechanistic rationale for any candidate.
-- If pursuing rank #7 (kyphoscoliotic heart disease / pulmonary hypertension overlap) further, commission a targeted literature search for tadalafil in kyphoscoliosis-associated pulmonary hypertension specifically, since the current pack found no drug-specific studies.
-- No further action recommended on ranks #1–6, #8 without new experimental or clinical data — these are not viable repurposing leads based on current evidence.
+## Andre screenede kandidatindikasjonser (kontekst)
+
+Fordi denne evidenspakken evaluerte 8 kandidater for tadalafil, oppsummerer tabellen nedenfor hvorfor hver enkelt ble screenet ut, for fullstendighet:
+
+| Rang | Sykdom | TxGNN-poengsum | Evidens | Vurdering |
+|------|--------|----------------|---------|-----------|
+| 2 | Hypertrichosis (sykdom) | 99.98% | Ingen | Ingen mekanistisk kobling |
+| 3 | Odontalt/periodontalt malformasjonssyndrom | 99.97% | 20 arbeider, ingen legemiddelspesifikk | Medforekomst-støy |
+| 4 | Dandy-Walker malformasjonssyndrom | 99.97% | Ingen | Ingen mekanistisk kobling |
+| 5 | Isolert genetisk hårstaftabnormitet | 99.96% | Ingen | Ingen mekanistisk kobling |
+| 6 | Familiær isolert trichomegaly | 99.65% | Ingen | Ingen mekanistisk kobling |
+| 7 | Kyphoskoliotisk hjertesykdom | 99.43% | Ingen | Teoretisk PAH-overlap-hypotese bare, ubekreftet |
+| 8 | Migrene med hjernestammeavura | 99.08% | 1 kasusrapport ([PMID 17059442](https://pubmed.ncbi.nlm.nih.gov/17059442/)) | **Uønsket-effekt-signal, ikke terapeutisk evidens** — se Sikkerhet nedenfor |
+
+---
+
+## Sikkerhet
+
+- **Viktige advarsler / Kontraindikasjoner**: Ikke tilgjengelig i denne evidenspakken (TFDA/etikett-data flagget som en blokkering datakløft — DG001).
+- **Legemiddelinteraksjoner**: Ingen DDI-data returnert (spørringsstatus: ikke funnet).
+- **Litteraturutledet sikkerhetssignal**: En kasusrapport ([PMID 17059442](https://pubmed.ncbi.nlm.nih.gov/17059442/), *Cephalalgia*, 2006) beskriver tadalafil-assosiiert typisk migreneaura uten hodepine. Dette antyder at PDE5-hemmer–mediiert cerebral vasodilatation kan *utløse* migrene-aura-lignende hendelser — det motsatte av en terapeutisk effekt for migrene, og verdt å merke som en advarsel snarere enn en repurposing-kandidat.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Alle 8 kandidatindikasjonene ligger på evidensnivå L5 (eller L4 for en enkelt uønsket-effekt kasusrapport), med `decision_stage: S0` og ingen klinisk studie- eller legemiddelspesifikk litteraturstøtte. De høyest-scorende prediksjoner er eksplisitt flagget av modellens egen begrunnelse som embedding-artefakter. Ingen kandidat i denne pakken når terskelen for å avansere forbi initiell screening.
+
+**For å fortsette er følgende nødvendig:**
+- Løs DG001 (Blokkering): skaff TFDA/etikett-advarsler og kontraindikasjoner — påkrevd før noen S1 sikkerhet pre-vurdering kan begynne.
+- Løs DG002 (Høy): skaff bekreftet MOA og godkjente indikasjoner fra DrugBank — påkrevd for å etablere en genuint mekanistisk begrunnelse for en kandidat.
+- Hvis du forfølger rang #7 (kyphoskoliotisk hjertesykdom / pulmonal hypertensjon-overlap) videre, bestill et målrettet litteratursøk for tadalafil i kyphoskoliose-assosiiert pulmonal hypertensjon spesifikt, siden den nåværende pakken fant ingen legemiddelspesifikke studier.
+- Ingen ytterligere handling anbefales for rang #1–6, #8 uten nye eksperimentelle eller kliniske data — disse er ikke levedyktige kandidater for legemiddelombruk basert på nåværende evidens.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

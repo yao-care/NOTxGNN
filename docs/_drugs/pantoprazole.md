@@ -29,91 +29,92 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Pantoprazole: From Gastroesophageal Reflux Disease to Active Peptic Ulcer Disease
+# Pantoprazol: Fra gastroøsofagal reflukssykdom til aktiv peptisk ulkussykdom
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-Pantoprazole is a proton pump inhibitor (PPI) originally used to treat gastroesophageal reflux disease (GERD) and erosive esophagitis.
-The TxGNN model predicts it may be effective for **Active Peptic Ulcer Disease**,
-with **3 clinical trials** and **19 publications** currently supporting this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Gastroesophageal reflux disease (GERD) / Erosive esophagitis *(from general PPI-class knowledge; no regulatory license text available for this market)* |
-| Predicted New Indication | Active Peptic Ulcer Disease |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L1 |
-| Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Pantoprazol er en protontuppinhibitor (PPI) opprinnelig brukt til behandling av gastroøsofagal reflukssykdom (GERD) og erosiv esofagitt.
+TxGNN-modellen spår at det kan være effektivt for **Aktiv peptisk ulkussykdom**,
+med **3 kliniske studier** og **19 publikasjoner** som for tiden støtter denne retningen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data (DrugBank MOA field) is flagged as a data gap. Based on the surrounding literature evidence, however, pantoprazole is a substituted benzimidazole proton pump inhibitor that **irreversibly and specifically binds to the H+/K+-ATPase** in gastric parietal cells, blocking the final step of gastric acid secretion. This mechanism is well documented across the retrieved publications (e.g. PMID 19938880, 9017763) and underlies its established efficacy in GERD and erosive esophagitis.
-
-Gastric acid is the central pathogenic driver of peptic ulcer formation and impaired mucosal healing, so acid suppression by pantoprazole is directly applicable to active peptic ulcer disease. It is worth noting explicitly, per the repurposing rationale in the evidence pack, that this is **not a typical "new use" discovery** — peptic ulcer disease (together with H. pylori eradication co-therapy) is already a core, long-established indication for PPIs including pantoprazole. The TxGNN prediction here largely reconfirms a known pharmacological relationship rather than surfacing a genuinely novel indication, which should be kept in mind when interpreting the "repurposing" framing.
-
-Nonetheless, the depth of trial and literature support (including head-to-head Phase 3 trials against other PPIs, and multiple H. pylori eradication triple-therapy RCTs) makes this the strongest-evidenced prediction among the candidates reviewed, and validates the model's ability to recover clinically true relationships.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Gastroøsofagal reflukssykdom (GERD) / Erosiv esofagitt *(fra generell kunnskapsbase om PPI-klassen; ingen regulatorisk lisenttekst tilgjengelig for dette markedet)* |
+| Forutsagt ny indikasjon | Aktiv peptisk ulkussykdom |
+| TxGNN-prediksjonspoengsum | 99.69% |
+| Bevisnivå | L1 |
+| Markedsstatus | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Fortsett med sikkerhetstiltak |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+For tiden er detaljerte data om virkningsmekanisme (DrugBank MOA-felt) merket som et datagap. Basert på litteraturbevis rundt dette indikerer imidlertid pantoprazol en substituert benzimidazol-protontuppinhibitor som **irreversibelt og spesifikt binder til H+/K+-ATPase** i gastriske parietale celler, og blokkerer det siste steget av gastrisk syresekresjon. Denne mekanismen er godt dokumentert på tvers av hentet litteratur (f.eks. PMID 19938880, 9017763) og ligger til grunn for etablert effektivitet ved GERD og erosiv esofagitt.
+
+Gastrisk syre er den sentrale patogene faktoren for dannelse av peptisk ulkus og svekket slimhinneheling, så syresuppresjon med pantoprazol er direkte relevant for aktiv peptisk ulkussykdom. Det er verdt å presisere eksplisitt, i henhold til gjenbruksrasjonalet i bevisdokumentet, at dette **ikke er en typisk "ny bruk"-oppdagelse** — peptisk ulkussykdom (sammen med H. pylori-utrydding som samterapi) er allerede en kjerneinndikasjon for PPIer inkludert pantoprazol. TxGNN-prediksjonen her bekrefter i stor grad et kjent farmakologisk forhold snarere enn å avdekke en virkelig ny indikasjon, noe som bør tas i betraktning når man tolker "gjenbruks"-rammeverket.
+
+Likevel gjør dybden av studie- og litteraturstøtte (inkludert head-to-head fase 3-studier mot andre PPIer, og flere H. pylori-utrydelses trippelterapi-RCT-er) dette til den best-beviset prediksjonen blant kandidatene gjennomgått, og validerer modellens evne til å gjenvunne klinisk sanne forhold.
+
+---
+
+## Bevis fra kliniske studier
+
+| Studiummer | Fase | Status | Inkludering | Nøkkelfunn |
 |---------|------|------|------|---------|
-| [NCT02084420](https://clinicaltrials.gov/study/NCT02084420) | Phase 3 | Completed | 323 | Multicenter, randomized, double-blind, active-controlled trial comparing ilaprazole vs. pantoprazole triple therapy for H. pylori eradication in gastric/duodenal ulcer patients |
-| [NCT02197039](https://clinicaltrials.gov/study/NCT02197039) | N/A | Completed | 316 | Identified risk factors predicting poor fading of stigmata of recent hemorrhage or early rebleeding after endoscopic hemostasis and high-dose PPI infusion in peptic ulcer bleeding |
-| [NCT00930670](https://clinicaltrials.gov/study/NCT00930670) | Phase 4 | Completed | 320 | Evaluated influence of PPIs (including pantoprazole) and statins on clopidogrel antiplatelet effect in PCI patients on dual antiplatelet therapy |
+| [NCT02084420](https://clinicaltrials.gov/study/NCT02084420) | Fase 3 | Fullført | 323 | Flersenter-, randomisert, dobbeltblindet, aktivt-kontrollert studie som sammenligner ilaprazol vs. pantoprazol trippelterapi for H. pylori-utrydding hos pasienter med mage-/duodenalulkus |
+| [NCT02197039](https://clinicaltrials.gov/study/NCT02197039) | N/A | Fullført | 316 | Identifiserte risikofaktorer som forutsier dårlig fading av tegn på nylig blødning eller tidlig gjentatt blødning etter endoskopisk hemostase og høy-dose PPI-infusjon i peptisk ulkusblødning |
+| [NCT00930670](https://clinicaltrials.gov/study/NCT00930670) | Fase 4 | Fullført | 320 | Evaluerte påvirkning av PPIer (inkludert pantoprazol) og statiner på klopidogrels antitrombocytteffekt hos PCI-pasienter på dobbel antitrombocyttterapi |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Nøkkelfunn |
 |------|-----|------|------|---------|
-| [15244210](https://pubmed.ncbi.nlm.nih.gov/15244210/) | 2003 | RCT | Hepato-gastroenterology | Compared efficacy of lansoprazole vs. pantoprazole in active duodenal ulcer treatment and H. pylori eradication |
-| [18824852](https://pubmed.ncbi.nlm.nih.gov/18824852/) | 2008 | RCT | Digestion | Prospective randomized study comparing intermittent vs. continuous pantoprazole infusion for peptic ulcer bleeding/rebleeding |
-| [12752349](https://pubmed.ncbi.nlm.nih.gov/12752349/) | 2003 | RCT | Aliment Pharmacol Ther | Compared three pantoprazole-based triple therapies for H. pylori eradication and gastric ulcer healing |
-| [16677158](https://pubmed.ncbi.nlm.nih.gov/16677158/) | 2006 | RCT | J Gastroenterol Hepatol | Prospective RCT of pantoprazole infusion as adjuvant therapy to endoscopic treatment in peptic ulcer bleeding |
-| [19938880](https://pubmed.ncbi.nlm.nih.gov/19938880/) | 2009 | Review | Clinical Drug Investigation | Overview of pantoprazole pharmacology — irreversible H+/K+-ATPase binding, long duration of action, favorable interaction profile |
-| [38652367](https://pubmed.ncbi.nlm.nih.gov/38652367/) | 2024 | Preclinical (animal) | Inflammopharmacology | Combined pantoprazole + mesenchymal stem cell treatment accelerated gastric ulcer healing in rats via reduced oxidative stress/inflammation/apoptosis |
-| [10632647](https://pubmed.ncbi.nlm.nih.gov/10632647/) | 2000 | Clinical Study | Aliment Pharmacol Ther | Pantoprazole + amoxicillin + azithromycin/clarithromycin for H. pylori eradication in duodenal ulcer |
-| [22919877](https://pubmed.ncbi.nlm.nih.gov/22919877/) | 2012 | Clinical Study | Med Arch (Sarajevo) | Efficacy of PPI after endoscopic hemostasis in bleeding peptic ulcer, and role of H. pylori |
-| [9678814](https://pubmed.ncbi.nlm.nih.gov/9678814/) | 1998 | Clinical Study | Aliment Pharmacol Ther | Two-week pantoprazole + 1-week amoxicillin/clarithromycin effective for H. pylori eradication and duodenal ulcer healing |
-| [11802510](https://pubmed.ncbi.nlm.nih.gov/11802510/) | 2001 | RCT | Wien Klin Wochenschr | RCT of amoxycillin + clarithromycin with sucralfate vs. pantoprazole for H. pylori eradication in duodenal ulcer |
+| [15244210](https://pubmed.ncbi.nlm.nih.gov/15244210/) | 2003 | RCT | Hepato-gastroenterology | Sammenligning av effektivitet av lansoprazol vs. pantoprazol ved behandling av aktivt duodenalulkus og H. pylori-utrydding |
+| [18824852](https://pubmed.ncbi.nlm.nih.gov/18824852/) | 2008 | RCT | Digestion | Prospektiv randomisert studie som sammenligner intermitterende vs. kontinuerlig pantoprazol-infusjon for peptisk ulkusblødning/gjentatt blødning |
+| [12752349](https://pubmed.ncbi.nlm.nih.gov/12752349/) | 2003 | RCT | Aliment Pharmacol Ther | Sammenligning av tre pantoprazol-baserte trippelterapier for H. pylori-utrydding og magulkusheling |
+| [16677158](https://pubmed.ncbi.nlm.nih.gov/16677158/) | 2006 | RCT | J Gastroenterol Hepatol | Prospektiv RCT av pantoprazol-infusjon som adjuvant terapi til endoskopisk behandling ved peptisk ulkusblødning |
+| [19938880](https://pubmed.ncbi.nlm.nih.gov/19938880/) | 2009 | Oversikt | Clinical Drug Investigation | Oversikt over pantoprazol-farmakologi — irreversibel H+/K+-ATPase-binding, lang varighet av virkning, gunstig interaksjonsprofil |
+| [38652367](https://pubmed.ncbi.nlm.nih.gov/38652367/) | 2024 | Preklinisk (dyreforsøk) | Inflammopharmacology | Kombinert pantoprazol + mesenkymale stamcelle-behandling akselererte magulkusheling hos rotter via redusert oksidativ stress/betennelse/apoptose |
+| [10632647](https://pubmed.ncbi.nlm.nih.gov/10632647/) | 2000 | Klinisk studie | Aliment Pharmacol Ther | Pantoprazol + amoksicillin + azitromycin/klaritromycin for H. pylori-utrydding ved duodenalulkus |
+| [22919877](https://pubmed.ncbi.nlm.nih.gov/22919877/) | 2012 | Klinisk studie | Med Arch (Sarajevo) | Effektivitet av PPI etter endoskopisk hemostase ved blødende peptisk ulkus, og rolle av H. pylori |
+| [9678814](https://pubmed.ncbi.nlm.nih.gov/9678814/) | 1998 | Klinisk studie | Aliment Pharmacol Ther | To ukers pantoprazol + 1 ukes amoksicillin/klaritromycin effektivt for H. pylori-utrydding og duodenalulkusheling |
+| [11802510](https://pubmed.ncbi.nlm.nih.gov/11802510/) | 2001 | RCT | Wien Klin Wochenschr | RCT av amoksicillin + klaritromycin med sukralfat vs. pantoprazol for H. pylori-utrydding ved duodenalulkus |
 
 ---
 
-## Market Information
+## Markedsinformasjon
 
-Pantoprazole is currently **not marketed** in this jurisdiction (market status: Not marketed), and no marketing authorization records are available in the regulatory dataset (`total_licenses = 0`).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Pantoprazol er for tiden **ikke markedsført** i denne jurisdiksjonen (markedsstatus: Ikke markedsført), og ingen markedsføringstillatelsesregistre er tilgjengelige i det regulatoriske datasettet (`total_licenses = 0`).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-**Rationale:**
-Evidence level L1 (multiple completed Phase 3/4 trials plus RCTs directly evaluating pantoprazole in peptic ulcer disease and H. pylori eradication) strongly supports the efficacy signal. However, since this indication overlaps with pantoprazole's already-established core use rather than representing a genuinely novel repurposing target, and since key drug-level safety and regulatory data are missing, guardrails are needed before any formal indication expansion or market entry decision.
+---
 
-**To proceed, the following is needed:**
-- Official product label warnings/contraindications (TFDA/local regulator equivalent) — currently a Blocking data gap (DG001)
-- Formal DrugBank/manufacturer MOA documentation — currently a High-severity data gap (DG002)
-- Local drug-drug interaction (DDI) data, since the current query returned no results
-- Confirmation of local marketing authorization status and dosage forms before any market-entry planning
+## Konklusjon og neste trinn
+
+**Beslutning: Fortsett med sikkerhetstiltak**
+
+**Begrunnelse:**
+Bevisnivå L1 (flere fullførte fase 3/4-studier pluss RCT-er som direkte evaluerer pantoprazol ved peptisk ulkussykdom og H. pylori-utrydding) støtter sterkt effektivitetssignalet. Siden denne indikasjonen imidlertid overlapper pantoprazols allerede etablerte kjerneanvendelse snarere enn å representere et virkelig nytt gjenbruksmål, og siden viktige sikkerhetsdata og regulatoriske data på stoffnivå mangler, er sikkerhetstiltak nødvendig før noen formell indikasjonsutviding eller markedsinngangsbeslutning.
+
+**For å fortsette, er følgende nødvendig:**
+- Offisielle advarsler og kontraindikasjoner på produktetiketten (TFDA/lokal reguleringsinstans tilsvarende) — for tiden et blokkerende datagap (DG001)
+- Formell DrugBank/produsent-dokumentasjon av virkningsmekanisme — for tiden et alvorlig datagap (DG002)
+- Lokale legemiddelinteraksjons (DDI)-data, siden gjeldende spørring returnerte ingen resultater
+- Bekrefting av lokal markedsføringstillatelsesstatus og doseringsformer før planlegging av markedsinngang
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

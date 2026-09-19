@@ -29,82 +29,83 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Netarsudil: From Unspecified Original Indication to Primary Hereditary Glaucoma
+# Netarsudil: Fra uspesifisert originalindikasjon til Primær Arvelig Glaukom
 
-## One-Sentence Summary
+## Oppsummering i en setning
 
-> Netarsudil's original approved indication is not recorded in the current regulatory dataset (data gap), though supporting evidence in this Evidence Pack indicates it is an already-marketed Rho-kinase (ROCK) inhibitor used for intraocular pressure control.
-> The TxGNN model additionally predicts potential efficacy for **Primary Hereditary Glaucoma**,
-> but this specific genetic subtype is currently supported by only **1 indirectly related clinical trial** and **0 dedicated publications**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in current dataset (data gap — `original_indications` is empty and `original_moa` is marked as a data gap; see note below) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
-| TxGNN Prediction Score | 99.50% |
-| Evidence Level | L4 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
-**Note on Original Indication:** The Evidence Pack's own analysis of a related, higher-ranked prediction ("glaucoma", rank 2 in this pack) states that netarsudil's mechanism (ROCK inhibition lowering intraocular pressure) corresponds to its already-established approved use for open-angle glaucoma/ocular hypertension — the empty `original_indications` field is flagged internally as a data gap rather than evidence that no approved use exists. This should be confirmed against a primary regulatory source before use in decision-making.
+> Netarsudils opprinnelige godkjent indikasjon er ikke registrert i det gjeldende regulatoriske datasett (datakluft), selv om støttebeviser i denne Evidence Pack indikerer at det er en allerede markedsført Rho-kinase (ROCK)-hemmer brukt til kontroll av intraokulært trykk.
+> TxGNN-modellen forutsier dessuten potensiell effektivitet for **Primær Arvelig Glaukom**,
+> men denne spesifikke genetiske undertypen er for øyeblikket støttet av kun **1 indirekte relatert klinisk studie** og **0 dedikerte publikasjoner**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Detailed mechanism-of-action data is not available in the `drug.original_moa` field (marked as a data gap). However, the evidence pack's repurposing rationale describes netarsudil as a selective **Rho-kinase (ROCK) inhibitor** that also inhibits the norepinephrine transporter (NET). ROCK inhibition relaxes the cytoskeleton of trabecular meshwork and Schlemm's canal endothelial cells, reducing resistance to aqueous humor outflow and thereby lowering intraocular pressure (IOP) — a mechanism already well validated for glaucoma broadly.
+| Element | Innhold |
+|--------|--------|
+| Originalindikasjon | Ikke registrert i gjeldende datasett (datakluft — `original_indications` er tom og `original_moa` er merket som en datakluft; se notat nedenfor) |
+| Forutsagt ny indikasjon | Primær Arvelig Glaukom |
+| TxGNN-prediksjonspoengsum | 99.50% |
+| Bevisnivå | L4 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
-Hereditary forms of glaucoma (e.g., primary congenital glaucoma, juvenile open-angle glaucoma, commonly associated with *MYOC*/*CYP1B1* mutations) share the same downstream pathology: abnormal trabecular meshwork structure/function leading to increased outflow resistance. Because ROCK inhibitors act directly on trabecular meshwork cytoskeleton and extracellular matrix rather than on the specific causative gene product, there is a plausible mechanistic rationale for genotype-independent efficacy in hereditary glaucoma.
-
-That said, the only identified trial (NCT06969586) does **not** actually study primary hereditary glaucoma — it enrolls patients with **Fuchs Endothelial Corneal Dystrophy (FECD)**, a distinct corneal endothelial disease, and evaluates corneal cell protection after cataract surgery rather than IOP control in genetically defined glaucoma. The two conditions only share the common thread of "ROCK inhibitor activity in anterior segment tissue." Direct clinical evidence for this specific predicted indication is therefore essentially absent, and the mechanistic bridge remains a hypothesis rather than a demonstrated effect.
+**Notat om originalindikasjon:** Evidence Packens egen analyse av en relatert, høyere rangert prediksjon ("glaukom", rangering 2 i denne pakken) slår fast at netarsudils mekanisme (ROCK-hemning som senker intraokulært trykk) tilsvarer dets allerede etablerte godkjent bruk for åpen-vinkel glaukom/okulær hypertensjon — det tomme `original_indications`-feltet er internt flagget som en datakluft snarere enn bevis på at ingen godkjent bruk eksisterer. Dette bør bekreftes mot en primær regulatorisk kilde før bruk i beslutningstagning.
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Detaljert informasjon om virkningsmekanisme er ikke tilgjengelig i feltet `drug.original_moa` (merket som en datakluft). Imidlertid beskriver bevisepakken grunnlaget for repurposering netarsudil som en selektiv **Rho-kinase (ROCK)-hemmer** som også hemmer noradrenalin-transportøren (NET). ROCK-hemning avslapper cytoskelettet i trabekulær nettmaske og endotelceller i Schlemms kanal, og reduserer dermed motstanden mot utflyt av kammervæske og senker således det intraokulære trykket (IOP) — en mekanisme som allerede er godt validert for glaukom generelt.
+
+Arvelige former for glaukom (f.eks. primært medfødt glaukom, juvenilt åpen-vinkel glaukom, vanligvis forbundet med *MYOC*/*CYP1B1*-mutasjoner) deler samme nedstrøms patologi: unormal trabekulær nettmaske struktur/funksjon som fører til økt utstrømningsresistans. Fordi ROCK-hemmere virker direkte på trabekulær nettmaske cytoskjelett og ekstracellulær matrise snarere enn på det spesifikke årsaksgivende genproduktet, er det en plausibel mekanistisk begrunnelse for genotype-uavhengig effektivitet ved arveformet glaukom.
+
+Når det er sagt, gjør det eneste identifiserte forsøket (NCT06969586) **ikke** faktisk studie primær arveformet glaukom — det inkluderer pasienter med **Fuchs Endothelial Corneal Dystrophy (FECD)**, en distinkt korneal endotelial sykdom, og evaluerer beskyttelse av hornhinne-celler etter grå stær-operasjon snarere enn IOP-kontroll i genetisk definert glaukom. De to tilstandene deler bare den felles tråden av "ROCK-hemmer aktivitet i forstøtt vev." Direkte klinisk bevis for denne spesifikke forutsagte indikasjonen er derfor i hovedsak fraværende, og den mekanistiske broen forblir en hypotese snarere enn en påvist effekt.
+
+---
+
+## Bevis fra kliniske forsøk
+
+| Forsøksnummer | Fase | Status | Inkludering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT06969586](https://clinicaltrials.gov/study/NCT06969586) | N/A | Enrolling by Invitation | 50 | Evaluates whether topical ROCK inhibitors reduce corneal endothelial cell loss after cataract surgery in patients with glaucoma and Fuchs Endothelial Corneal Dystrophy (FECD). Relevance graded **C**: the study population is FECD patients, not primary hereditary glaucoma patients — it is an indirect, mechanism-sharing signal rather than direct evidence for this indication. |
+| [NCT06969586](https://clinicaltrials.gov/study/NCT06969586) | N/A | Rekrutterer ved invitasjon | 50 | Evaluerer hvorvidt topikale ROCK-hemmere reduserer tap av korneal endotelial celle etter grå stær-operasjon hos pasienter med glaukom og Fuchs Endothelial Corneal Dystrophy (FECD). Relevans gradert **C**: studiepopulasjonen er FECD-pasienter, ikke primære arvelige glaukom-pasienter — det er et indirekte, mekanisme-delt signal snarere enn direkte bevis for denne indikasjonen. |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
-
----
-
-## Norway Market Information
-
-No marketing authorizations are on record for netarsudil in Norway (`total_licenses`: 0; market status: Not Marketed). No product/dosage-form/indication data can be extracted at this time.
+For tiden ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Safety Considerations
+## Markedsinformasjon for Norge
 
-Please refer to the package insert for safety information.
-
-*(Note: key warnings, contraindications, and drug-drug interaction data are all marked as data gaps in this Evidence Pack. Notably, TFDA-equivalent package-insert warnings/contraindications are flagged internally as a **Blocking** severity data gap, meaning a formal safety pre-screen (S1) cannot currently be completed for this drug.)*
+Ingen markedsføringstillatelser er registrert for netarsudil i Norge (`total_licenses`: 0; markedsstatus: Ikke markedsført). Ingen produkt-/doserings-form-/indikasjondata kan hentes ut på dette tidspunktet.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-**Rationale:**
-Evidence specific to primary hereditary glaucoma is limited to a single ongoing trial that actually studies a different corneal condition (FECD), graded only as indirectly relevant (Grade C), placing this indication at Evidence Level L4 / Decision Stage S1 ("Research Question"). Combined with a blocking data gap on safety warnings/contraindications and the drug's undetermined regulatory status in Norway (0 authorizations, not marketed), there is currently insufficient direct evidence or regulatory groundwork to proceed further.
+*(Notat: nøkkeladvarslinger, kontraindikasjoner og legemiddel-legemiddel interaksjonsdata er alle merket som dataklufter i denne Evidence Pack. Særlig bemerkes at TFDA-ekvivalente pakningsvedleggsadvarsler/kontraindikasjoner er internt flagget som en datakluft med **blokkerings-alvorlighetsgrad**, noe som betyr at en formell sikkerhetspre-screening (S1) for øyeblikket ikke kan fullføres for dette legemidlet.)*
 
-**To proceed, the following is needed:**
-- Resolution of the blocking data gap (DG001): TFDA/regulatory package-insert warnings and contraindications, required before any safety pre-screen (S1) can be completed
-- Confirmed mechanism-of-action documentation from DrugBank (DG002), to properly assess mechanistic plausibility for genetic glaucoma subtypes
-- Clinical trials or literature studying netarsudil specifically in primary hereditary/genetic glaucoma populations (e.g., *MYOC*/*CYP1B1*-associated disease), rather than extrapolating from Fuchs corneal dystrophy studies
-- Clarification of netarsudil's true original approved indication and regulatory status, given that a related prediction in this same Evidence Pack (glaucoma, broadly) indicates the drug may already be an approved IOP-lowering agent elsewhere — this should be verified against primary regulatory sources rather than left as an empty field
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Bevis spesifikt for primær arveformet glaukom er begrenset til en enkelt pågående studie som faktisk studerer en annen korneal tilstand (FECD), vurdert kun som indirekte relevant (Grad C), som plasserer denne indikasjonen på Bevisnivå L4 / Beslutningsstadium S1 ("Forskningsspørsmål"). Kombinert med en blokkerings-alvorlighetsgrad datakluft på sikkerhetadvarsler/kontraindikasjoner og legemidlets ubestemt regulatorisk status i Norge (0 autorisasjoner, ikke markedsført), er det for øyeblikket utilstrekkelig direkte bevis eller regulatorisk grunnlag for å fortsette videre.
+
+**For å fortsette, kreves følgende:**
+- Løsing av datakluften med blokkerings-alvorlighetsgrad (DG001): TFDA/regulatoriske pakningsvedleggsadvarsler og kontraindikasjoner, nødvendig før sikkerhetspre-screening (S1) kan fullføres
+- Bekreftet dokumentasjon av virkningsmekanisme fra DrugBank (DG002), for å kunne vurdere mekanistisk plausibilitet for genetiske glaukom-undertyper
+- Kliniske forsøk eller litteratur som studerer netarsudil spesifikt i primær arvelig/genetisk glaukom populasjoner (f.eks. *MYOC*/*CYP1B1*-assosiert sykdom), snarere enn å ekstrapolere fra Fuchs korneal dystrofi studier
+- Avklaring av netarsudils sanne opprinnelige godkjent indikasjon og regulatorisk status, gitt at en relatert prediksjon i samme Evidence Pack (glaukom, bredt) indikerer at legemidlet allerede kan være et godkjent IOP-senkende middel andre steder — dette bør verifiseres mot primære regulatoriske kilder snarere enn å bli stående som et tomt felt
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

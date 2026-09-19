@@ -29,76 +29,77 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Metreleptin: From Leptin Deficiency (Lipodystrophy) to Familial Generalized Lentiginosis
+# Metreleptin: Fra leptin-mangel (lipodystrofi) til familial generalisert lentiginose
 
-## One-Sentence Summary
+## Sammenfatting i en setning
 
-Metreleptin is a recombinant leptin analog used to treat leptin deficiency in generalized lipodystrophy. The TxGNN model's top prediction is **Familial Generalized Lentiginosis**, with a **99.71%** prediction score, but there are currently **0 clinical trials** and **0 publications** supporting this direction — the evidence pack's own mechanistic analysis also finds no plausible biological link.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not present in evidence pack (data gap). Metreleptin is generally known as treatment for leptin deficiency associated with generalized lipodystrophy |
-| Predicted New Indication | Familial Generalized Lentiginosis |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Metreleptin er en rekombinant leptin-analog som brukes til å behandle leptin-mangel ved generalisert lipodystrofi. TxGNN-modellens toppprediksjon er **Familial generalisert lentiginose**, med en **99.71%** prediksjonspoeng, men det finnes for øyeblikket **0 kliniske prøver** og **0 publikasjoner** som støtter denne retningen — evidenspakkens egen mekanistiske analyse finner heller ingen plausibel biologisk forbindelse.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Kort oversikt
 
-Currently, detailed mechanism of action data is not available (data gap). Based on the limited information in the evidence pack, metreleptin acts as a leptin receptor agonist, primarily regulating hypothalamic energy metabolism and adipose tissue signaling.
-
-Familial generalized lentiginosis is an autosomal dominant pigmentary skin disorder. The evidence pack's own rationale analysis states there is **no known mechanistic connection** between the leptin signaling pathway and this disease's pathology, and no hypothesis could be established given the missing MOA data.
-
-The same pattern holds across all top-10 TxGNN candidates for this drug (see disease list in source data): rare pigmentary syndromes (gastrocutaneous syndrome, Moynahan syndrome, acromelanosis, etc.), tumor entities driven by unrelated pathways (rhabdoid tumor via SMARCB1/INI1 loss, schwannoma via NF2/merlin loss), and other rare multisystem syndromes — none of which have an established or plausible link to leptin receptor signaling per the provided rationale. This suggests the prediction is driven primarily by network-based similarity in the TxGNN model rather than a defensible biological mechanism.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Innhold |
+|-------|---------|
+| Opprinnelig indikasjon | Ikke til stede i evidenspakken (datamanko). Metreleptin er generelt kjent som behandling for leptin-mangel forbundet med generalisert lipodystrofi |
+| Predikert ny indikasjon | Familial generalisert lentiginose |
+| TxGNN prediksjonspoeng | 99.71% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+For øyeblikket er detaljert virkningsmåtedata ikke tilgjengelig (datamanko). Basert på begrenset informasjon i evidenspakken, fungerer metreleptin som en leptin-reseptor agonist, som primært regulerer hypotalamisk energimetabolisme og signalering av fettvev.
 
----
+Familial generalisert lentiginose er en autosomalt dominant pigmentær hudsykdom. Evidenspakkens egen rasjonale-analyse sier at det **ikke er noen kjent mekanistisk forbindelse** mellom leptin-signalveien og patologien til denne sykdommen, og ingen hypotese kunne etableres på grunn av manglende virkningsmåtedata.
 
-## Norway Market Information
-
-Metreleptin currently holds **no marketing authorizations in Norway** (0 licenses on record); the drug is not marketed in this market.
+Det samme mønsteret gjelder over alle topp-10 TxGNN-kandidater for dette legemidlet (se sykdomsliste i kildedataene): sjeldne pigmentære syndromer (gastrokutant syndrom, Moynahan-syndrom, akromelanose, osv.), tumorentiteter drevet av urelaterte veier (rabdomyoid tumor via SMARCB1/INI1-tap, schwannoma via NF2/merlin-tap), og andre sjeldne multisystem-syndromer — hvorav ingen har en etablert eller plausibel forbindelse til leptin-reseptor-signalering per den gitte rasjonalen. Dette tyder på at prediksjonen er drevet primært av nettverksbasert likhet i TxGNN-modellen heller enn en forsvarbelig biologisk mekanisme.
 
 ---
 
-## Safety Considerations
+## Kliniske prøvebevis
 
-Please refer to the package insert for safety information.
-
-Note: TFDA/label-level warnings and contraindications (DG001) are flagged as a **Blocking** data gap in the source evidence pack, meaning a formal safety (S1) evaluation cannot currently be completed for this candidate.
+For øyeblikket ingen relaterte kliniske prøver registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For øyeblikket ingen relatert litteratur tilgjengelig.
 
-**Rationale:**
-All top-10 predicted indications for metreleptin sit at evidence level L5 (model prediction only — no clinical trials, no literature), and the evidence pack's own mechanistic review found no plausible biological rationale linking leptin receptor signaling to any of the candidate diseases. Combined with a Blocking-severity safety data gap and zero market presence in Norway, there is currently no basis to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Norway label warnings, contraindications, and DDI data (DG001, Blocking)
-- Confirmed mechanism of action from DrugBank or primary literature (DG002)
-- Targeted literature/clinical trial search specific to top-ranked candidate diseases to check for any evidence TxGNN's training data may not surface
-- Independent pharmacological plausibility review before allocating further evaluation resources to this drug-indication pair
+## Markedsinformasjon for Norge
+
+Metreleptin har for øyeblikket **ingen markedsføringsautoriseringer i Norge** (0 lisenser på register); legemidlet er ikke markedsført i dette markedet.
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+Merk: TFDA/Norge etikett-advarsler og kontraindikasjoner (DG001) er flagget som en **Blokkerende** datamanko i kildeevidsenpakken, noe som betyr at en formell sikkerhetsevaluering (S1) ikke kan fullføres for øyeblikket for denne kandidaten.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Rasjonale:**
+Alle topp-10 predikerte indikasjoner for metreleptin ligger på bevisnivå L5 (modellprediksjon kun — ingen kliniske prøver, ingen litteratur), og evidenspakkens egen mekanistiske gjennomgang fant ingen plausibel biologisk rasjonale som knytter leptin-reseptor-signalering til noen av kandidatsykdommene. Kombinert med en Blokkerende-alvorlighetsgrad sikkerhetsdatamanko og null markedstilstedeværelse i Norge, finnes det for øyeblikket ikke grunnlag for å fremme denne kandidaten.
+
+**For å gå videre er følgende nødvendig:**
+- TFDA/Norge etikett-advarsler, kontraindikasjoner og DDI-data (DG001, Blokkerende)
+- Bekreftet virkningsmåte fra DrugBank eller primærlitteratur (DG002)
+- Målrettet litteratur-/klinisk prøvesøk spesifikt for topprangerte kandidatsykdommer for å kontrollere for eventuelle bevis som TxGNNs treningsdata kanskje ikke avdekket
+- Uavhengig farmakologisk plausibilitetsvurdering før videre evalueringsressurser tildeles til dette legemiddel-indikasjon-paret
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

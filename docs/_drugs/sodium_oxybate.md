@@ -29,99 +29,100 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Sodium Oxybate: From Narcolepsy with Cataplexy to Insomnia
+# Sodium Oxybate: Fra Narkolepsi med Katapleksi til Insomni
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-> Sodium oxybate (brand name Xyrem) is a CNS depressant originally developed and approved internationally for narcolepsy with cataplexy.
-> The TxGNN model predicts it may also be effective for **Insomnia**,
-> with **13 clinical trials** and **13 publications** currently supporting this direction — including a completed, placebo-controlled Phase 2 trial specifically in chronic insomnia.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Narcolepsy with cataplexy (per international approvals cited in trial/literature records; not currently licensed in Norway) |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Sodium oxybate (merkenavn Xyrem) er et CNS-depressivum som opprinnelig ble utviklet og godkjent internasjonalt for narkolepsi med katapleksi.
+> TxGNN-modellen forutsier at det også kan være effektivt for **Insomni**,
+> med **13 kliniske studier** og **13 publikasjoner** som for tiden støtter denne retningen — inkludert en gjennomført, placebokontrollert fase 2-studie spesifikt ved kronisk insomni.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversikt
 
-Formal mechanism-of-action data is not populated in the drug record (marked as a data gap). However, information embedded in the trial and literature records itself indicates that sodium oxybate acts as a **GABA-B and GHB receptor agonist**, promoting slow-wave (deep) sleep and improving sleep consolidation — this is stated explicitly in several of the underlying study summaries (e.g., PMID 21476957: "GABA(B) receptor agonists have reported effects on sleep including decreased sleep onset latency, increased sleep consolidation and increases in slow wave sleep").
-
-Sodium oxybate's approved indication, narcolepsy with cataplexy, is itself a sleep-architecture disorder in which the drug's core benefit is consolidating fragmented, disrupted nighttime sleep. Insomnia is mechanistically adjacent — both conditions involve impaired sleep initiation/maintenance and reduced slow-wave sleep. This overlap is why a completed, placebo-controlled Phase 2 trial (NCT00383643) directly tested sodium oxybate against zolpidem (Ambien) in chronic insomnia patients, independent of narcolepsy.
-
-That said, sodium oxybate is also GHB, a compound with recognized abuse liability, dependence potential, and CNS/respiratory depression risk (reflected indirectly in the literature evidence, e.g., PMID 11174231 on GHB withdrawal syndrome). This raises the bar for how a repurposing signal in a benign condition like insomnia should be evaluated relative to a serious, refractory condition like narcolepsy.
+| Element | Innhold |
+|--------|---------|
+| Opprinnelig indikasjon | Narkolepsi med katapleksi (per internasjonale godkjennelser sitert i studie-/litteraturposter; ikke for øyeblikket lisensiert i Norge) |
+| Forutsagt ny indikasjon | Insomni |
+| TxGNN-forutsigelsesscore | 99.99% |
+| Bevisnivå | L2 |
+| Norges markedsstatus | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne forutsigelsen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Formelle data om virkningsmekanisme er ikke fyllt inn i legemiddelposten (markert som et datahull). Imidlertid indikerer informasjonen innebygd i studie- og litteraturpostene at sodium oxybate virker som en **GABA-B og GHB-reseptor-agonist**, fremmer slow-wave (dyp) søvn og forbedrer søvnkonsolidering — dette er eksplisitt angitt i flere av de underliggende studiesammendraget (f.eks. PMID 21476957: "GABA(B)-reseptor-agonister har rapporterte effekter på søvn inkludert redusert søvnlatens, økt søvnkonsolidering og øket slow-wave søvn").
+
+Sodium oxybiates godkjente indikasjon, narkolepsi med katapleksi, er i seg selv en søvnarkitektur-forstyrrelse hvor legemidlets kjernebenefit er konsolidering av fragmentert, forstyrret nattsøvn. Insomni er mekanistisk nær — begge tilstander involverer nedsatt søvninitiation/vedlikehold og redusert slow-wave søvn. Denne overlappingen er hvorfor en gjennomført, placebokontrollert fase 2-studie (NCT00383643) direkte testet sodium oxybate mot zolpidem (Ambien) hos pasienter med kronisk insomni, uavhengig av narkolepsi.
+
+Når det er sagt, er sodium oxybate også GHB, en forbindelse med erkjent misbrukspotensial, avhengighetspotensial og risiko for CNS/respiratorisk depresjon (reflektert indirekte i litteraturbeviset, f.eks. PMID 11174231 om GHB-abstinenssyndom). Dette setter høyere krav til hvordan et omdisponeringssignal i en godartedtilstand som insomni bør evalueres relativt til en alvorlig, behandlingsresistent tilstand som narkolepsi.
+
+---
+
+## Klinisk studieevidens
+
+| Studienummer | Fase | Status | Deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT00383643](https://clinicaltrials.gov/study/NCT00383643) | Phase 2 | Completed | 48 | Randomized, double-blind, double-dummy, placebo-controlled trial comparing sodium oxybate and zolpidem in chronic insomnia |
-| [NCT02637648](https://clinicaltrials.gov/study/NCT02637648) | Phase 3 | Unknown | 60 | Sodium oxybate (3–9g/night) for headache response, sleep quality and QoL in cluster headache with sleep disturbance |
-| [NCT00641186](https://clinicaltrials.gov/study/NCT00641186) | Phase 2 | Completed | 30 | Open-label trial of Xyrem for excessive daytime sleepiness and nocturnal sleep disturbance in Parkinson's disease |
-| [NCT04803786](https://clinicaltrials.gov/study/NCT04803786) | N/A | Completed | 110 | Real-world observational study (TENOR) on patients switching from Xyrem to low-sodium oxybate |
-| [NCT04508166](https://clinicaltrials.gov/study/NCT04508166) | N/A | Completed | 27 | Deep-sleep-boosting drug conditions (incl. sodium oxybate) tested for preventing post-traumatic intrusive memories |
-| [NCT00594256](https://clinicaltrials.gov/study/NCT00594256) | Phase 2 | Completed | 8 | Open-label pilot of adjunctive Xyrem for schizophrenia and associated sleep disturbances |
-| [NCT00330291](https://clinicaltrials.gov/study/NCT00330291) | Phase 2 | Withdrawn | 0 | Planned trial of Xyrem for treatment-refractory insomnia due to PTSD |
-| [NCT07077278](https://clinicaltrials.gov/study/NCT07077278) | Phase 4 | Not yet recruiting | 25 | Low-sodium oxybate for autonomic symptom burden in idiopathic hypersomnia with POTS |
-| [NCT06421532](https://clinicaltrials.gov/study/NCT06421532) | Phase 2 | Enrolling by invitation | 60 | Low-sodium oxybate ± vagus nerve stimulation to enhance glymphatic clearance via deepened sleep in CAA |
-| [NCT03626727](https://clinicaltrials.gov/study/NCT03626727) | Early Phase 1 | Withdrawn | 0 | Planned open-label trial of Xyrem for post-traumatic narcolepsy and hypersomnia |
+| [NCT00383643](https://clinicaltrials.gov/study/NCT00383643) | Fase 2 | Gjennomført | 48 | Randomisert, dobbeltblindet, dobbelt-dummy, placebokontrollert studie som sammenlikner sodium oxybate og zolpidem ved kronisk insomni |
+| [NCT02637648](https://clinicaltrials.gov/study/NCT02637648) | Fase 3 | Ukjent | 60 | Sodium oxybate (3–9g/natt) for hodepinebedring, søvnkvalitet og livskvalitet ved klyngemigrene med søvnforstyrrelser |
+| [NCT00641186](https://clinicaltrials.gov/study/NCT00641186) | Fase 2 | Gjennomført | 30 | Åpen studie av Xyrem for overdreven daglig døsighet og nattlig søvnforstyrrelser ved Parkinsons sykdom |
+| [NCT04803786](https://clinicaltrials.gov/study/NCT04803786) | N/A | Gjennomført | 110 | Virkelighetsstudie (TENOR) om pasienter som skifter fra Xyrem til lav-natrium oxybate |
+| [NCT04508166](https://clinicaltrials.gov/study/NCT04508166) | N/A | Gjennomført | 27 | Dyp søvnforbedrende legemiddeltilstander (inkl. sodium oxybate) testet for å forhindre post-traumatiske påtrengende minner |
+| [NCT00594256](https://clinicaltrials.gov/study/NCT00594256) | Fase 2 | Gjennomført | 8 | Åpen pilotstudie av tilleggs-Xyrem ved schizofreni og tilhørende søvnforstyrrelser |
+| [NCT00330291](https://clinicaltrials.gov/study/NCT00330291) | Fase 2 | Trukket tilbake | 0 | Planlagt studie av Xyrem for behandlingsresistent insomni på grunn av PTSD |
+| [NCT07077278](https://clinicaltrials.gov/study/NCT07077278) | Fase 4 | Rekruttering ikke påbegynt ennå | 25 | Lav-natrium oxybate for autonome symptombyrde ved idiopatisk hypersomni med POTS |
+| [NCT06421532](https://clinicaltrials.gov/study/NCT06421532) | Fase 2 | Rekruttering ved invitasjon | 60 | Lav-natrium oxybate ± vagusnervestimulering for å forbedre glymfatisk clearance via fordypet søvn ved CAA |
+| [NCT03626727](https://clinicaltrials.gov/study/NCT03626727) | Tidlig fase 1 | Trukket tilbake | 0 | Planlagt åpen studie av Xyrem for post-traumatisk narkolepsi og hypersomni |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [26171909](https://pubmed.ncbi.nlm.nih.gov/26171909/) | 2015 | Systematic Review (Cochrane) | Cochrane Database Syst Rev | Effects of opioid, hypnotic and sedating medications, including GABA-B agonists, on sleep-disordered breathing |
-| [36931805](https://pubmed.ncbi.nlm.nih.gov/36931805/) | 2023 | RCT | Lancet Neurology | Double-blind, placebo-controlled trial context for narcolepsy sleep-wake pharmacotherapy in pediatric patients |
-| [40120323](https://pubmed.ncbi.nlm.nih.gov/40120323/) | 2025 | Cohort study (propensity-matched) | J Clin Neurosci | Treatment patterns and comorbidities of narcolepsy patients treated with immediate-release sodium oxybate |
-| [18852348](https://pubmed.ncbi.nlm.nih.gov/18852348/) | 2008 | Open-label study | Arch Neurol | Sodium oxybate improved polysomnographic sleep measures and daytime sleepiness in Parkinson's disease |
-| [37590830](https://pubmed.ncbi.nlm.nih.gov/37590830/) | 2023 | Review | Continuum (Minneap Minn) | Comprehensive review of pediatric sleep disorders including insomnia and narcolepsy |
-| [18805301](https://pubmed.ncbi.nlm.nih.gov/18805301/) | 2008 | Review | Revue Neurologique | Overview of narcolepsy with cataplexy including sleep-maintenance insomnia as a feature |
-| [20082966](https://pubmed.ncbi.nlm.nih.gov/20082966/) | 2009 | Review | Parkinsonism Relat Disord | Sleepiness and sleep disruption in Parkinson's disease |
-| [20166851](https://pubmed.ncbi.nlm.nih.gov/20166851/) | 2010 | Review | Expert Opin Emerg Drugs | Emerging pharmacologic treatments for narcolepsy and nocturnal sleep disruption |
-| [21815499](https://pubmed.ncbi.nlm.nih.gov/21815499/) | 2011 | Review | Revue Medicale Suisse | Bidirectional relationship between chronic pain and sleep disorder, treatment approaches |
-| [31526967](https://pubmed.ncbi.nlm.nih.gov/31526967/) | 2019 | Case report | Sleep Medicine | Sodium oxybate used to treat severe sleep initiation failure in a child with EBV encephalitis |
+| [26171909](https://pubmed.ncbi.nlm.nih.gov/26171909/) | 2015 | Systematisk oversikt (Cochrane) | Cochrane Database Syst Rev | Effekter av opioder, søvnmidler og sedasjonsmidler, inkludert GABA-B-agonister, på søvnrelaterte pustestans |
+| [36931805](https://pubmed.ncbi.nlm.nih.gov/36931805/) | 2023 | RCT | Lancet Neurology | Dobbeltblindet, placebokontrollert studiesammenheng for narkolepsisøvn-våken farmakterapi hos pediatriske pasienter |
+| [40120323](https://pubmed.ncbi.nlm.nih.gov/40120323/) | 2025 | Kohortstudie (propensity-matched) | J Clin Neurosci | Behandlingsmønstre og komorbiditeter hos narkolepsypasienter behandlet med umiddelbar-release sodium oxybate |
+| [18852348](https://pubmed.ncbi.nlm.nih.gov/18852348/) | 2008 | Åpen studie | Arch Neurol | Sodium oxybate forbedret polysomnografiske søvnmål og daglig døsighet ved Parkinsons sykdom |
+| [37590830](https://pubmed.ncbi.nlm.nih.gov/37590830/) | 2023 | Oversikt | Continuum (Minneap Minn) | Omfattende oversikt over pediatriske søvnforstyrrelser inkludert insomni og narkolepsi |
+| [18805301](https://pubmed.ncbi.nlm.nih.gov/18805301/) | 2008 | Oversikt | Revue Neurologique | Oversikt over narkolepsi med katapleksi inkludert søvnvedlikeholds-insomni som et trekk |
+| [20082966](https://pubmed.ncbi.nlm.nih.gov/20082966/) | 2009 | Oversikt | Parkinsonism Relat Disord | Døsighet og søvnforstyrrelser ved Parkinsons sykdom |
+| [20166851](https://pubmed.ncbi.nlm.nih.gov/20166851/) | 2010 | Oversikt | Expert Opin Emerg Drugs | Fremvoksende farmakologiske behandlinger for narkolepsi og nattlig søvnforstyrrelser |
+| [21815499](https://pubmed.ncbi.nlm.nih.gov/21815499/) | 2011 | Oversikt | Revue Medicale Suisse | Toveis forhold mellom kronisk smerte og søvnforstyrrelser, behandlingstilnærminger |
+| [31526967](https://pubmed.ncbi.nlm.nih.gov/31526967/) | 2019 | Caserapport | Sleep Medicine | Sodium oxybate brukt til å behandle alvorlig søvninitieringsfeil hos et barn med EBV-encefalitt |
 
 ---
 
-## Norway Market Information
+## Norges markedsinformasjon
 
-Currently not marketed in Norway; no marketing authorizations are on record.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Note: TFDA/local label warnings, contraindications, and drug-drug interaction data are currently a blocking data gap — see Conclusion below.)
+Ikke markedsført i Norge for øyeblikket; ingen markedsføringstillatelser er registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Merk: TFDA/lokale etikett-advarsler, kontraindikasjoner og legemiddel-legemiddel interaksjonsdata er for øyeblikket et blokkerende datahull — se konklusjon nedenfor.)
 
-**Rationale:**
-A completed, placebo-controlled Phase 2 trial (NCT00383643) directly supports efficacy in chronic insomnia, giving this candidate an L2 evidence level. However, sodium oxybate is not currently marketed in Norway, and formal safety label data (warnings, contraindications) is a **blocking** data gap — this is required before any safety pre-assessment (S1) can proceed, and is particularly important given sodium oxybate's known CNS depressant and controlled-substance profile.
+---
 
-**To proceed, the following is needed:**
-- TFDA/local package insert data (warnings, contraindications) — currently blocking
-- Formal DrugBank-sourced mechanism of action confirmation
-- Drug-drug interaction data (current query returned no results)
-- Assessment of abuse/dependence risk relative to a non-life-threatening indication (insomnia) versus the original refractory indication (narcolepsy with cataplexy)
-- Regulatory pathway review, since the drug currently holds no Norwegian marketing authorization
+## Konklusjon og neste skritt
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+En gjennomført, placebokontrollert fase 2-studie (NCT00383643) støtter direkte efficacy ved kronisk insomni, noe som gir denne kandidaten et L2-bevisnivå. Imidlertid er sodium oxybate ikke for øyeblikket markedsført i Norge, og formelle sikkerhetsetikett-data (advarsler, kontraindikasjoner) er et **blokkerende** datahull — dette er nødvendig før noen sikkerhet-forhåndsvurdering (S1) kan fortsette, og er spesielt viktig gitt sodium oxybiates kjente CNS-depressiv og kontrollert-stoff profil.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA/lokale pakningsvedleggsdata (advarsler, kontraindikasjoner) — blokkerer for øyeblikket
+- Formell bekrefting av virkningsmekanisme fra DrugBank-kilder
+- Legemiddel-legemiddel interaksjonsdata (nåværende søk ga ingen resultater)
+- Vurdering av misbruks-/avhengighetrisiko relativt til en ikke-livstruende indikasjon (insomni) versus den opprinnelige behandlingsresistente indikasjonen (narkolepsi med katapleksi)
+- Gjennomgang av regulatorisk vei, siden legemidlet for øyeblikket ikke har noen norsk markedsføringstillatelse
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

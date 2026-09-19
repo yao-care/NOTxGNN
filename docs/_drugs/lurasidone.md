@@ -29,98 +29,99 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Lurasidone: From Bipolar Depression/Schizophrenia to Manic Bipolar Affective Disorder
+# Lurasidone: Fra bipolar depresjon/schizofreni til manisk bipolar affektiv lidelse
 
-## One-Sentence Summary
+## Sammenfatting i én setning
 
-Lurasidone is an atypical antipsychotic internationally approved for schizophrenia and bipolar I depression. The TxGNN model predicts it may also be effective for **manic episodes of bipolar affective disorder**, with **15 clinical trials** and **19 publications** currently supporting the broader bipolar I disorder indication — though very few of these directly address the acute manic phase itself.
+Lurasidone er et atypisk antipsykotikum som er internasjonalt godkjent for schizofreni og bipolar I depresjon. TxGNN-modellen forutsier at det også kan være effektivt for **maniske episoder av bipolar affektiv lidelse**, med **15 kliniske forsøk** og **19 publikasjoner** som for øyeblikket støtter den bredere indikasjon for bipolar I lidelse — selv om svært få av disse direkte adresserer den akutte maniske fasen selv.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not documented in local regulatory filings (drug not marketed); internationally established for schizophrenia and bipolar I depression |
-| Predicted New Indication | Manic Bipolar Affective Disorder |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L1 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Opprinnelig indikasjon | Ikke dokumentert i lokale regulatoriske registreringer (legemiddel ikke markedsført); internasjonalt etablert for schizofreni og bipolar I depresjon |
+| Forutsagt ny indikasjon | Manisk bipolar affektiv lidelse |
+| TxGNN prediksjonspoengsum | 99.98% |
+| Bevisnivå | L1 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Fortsett med sikringsmål |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen fornuftig?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacology, lurasidone is a D2/5‑HT2A/5‑HT7 receptor antagonist — a receptor profile shared by other atypical antipsychotics used across the full spectrum of bipolar disorder (manic, mixed, and depressive episodes, as well as maintenance therapy).
+For øyeblikket er detaljerte mekanisme-for-virkning-data ikke tilgjengelige i denne bevissamlingen. Basert på kjent farmakologi er lurasidone en D2/5‑HT2A/5‑HT7-reseptorantagonist — en reseptorprofil som deles av andre atypiske antipsykotika som brukes over hele spekteret av bipolar lidelse (maniske, blandede og depressive episoder, så vel som vedlikeholdsterapi).
 
-Lurasidone's established indications (schizophrenia, bipolar I depression) and the predicted new indication (manic bipolar affective disorder) sit within the same disease category — bipolar I disorder — just different mood phases. Since D2/5‑HT2A antagonism is the pharmacological basis for antimanic efficacy in essentially all approved second-generation antipsychotics, there is reasonable mechanistic plausibility for extending lurasidone's use to the manic phase.
+Lurasidones etablerte indikasjoner (schizofreni, bipolar I depresjon) og den forutsagte nye indikasjonen (manisk bipolar affektiv lidelse) faller innenfor samme sykdomskategori — bipolar I lidelse — bare forskjellige humørfaser. Siden D2/5‑HT2A-antagonisme er det farmakologiske grunnlaget for antimanisk effektivitet i praktisk talt alle godkjente antipsykotika av andre generasjon, er det rimelig mekanistisk plausibilitet for å utvide lurasidones bruk til den maniske fasen.
 
-However, the evidence base has an important caveat: the highest-quality completed Phase 3 trials for lurasidone specifically studied **bipolar I depression** and **maintenance/relapse-prevention** (adjunctive to lithium/divalproex), not acute mania as a standalone indication. One review (PMID 31957501) explicitly notes that "lurasidone has not been studied in patients with mania or bipolar psychosis." A dedicated pediatric mania trial (NCT01932541) was withdrawn with zero enrollment. This means the prediction is directionally reasonable (same disease category, same drug class mechanism) but requires confirmatory acute-mania efficacy data before being treated as clinically validated.
+Bevisgrunnlaget har imidlertid en viktig forbehold: de høyeste kvalitetskompletterte fase 3-forsøkene for lurasidone studerte spesifikt **bipolar I depresjon** og **vedlikehold/tilbakefall-forebygging** (tilleggsmedisin til litium/divalproex), ikke akutt mani som en selvstendig indikasjon. En gjennomgang (PMID 31957501) bemerker eksplisitt at "lurasidone ikke har blitt studert hos pasienter med mani eller bipolar psykose." Et dedikert pediatrisk maniforsøk (NCT01932541) ble trukket tilbake med null påmelding. Dette betyr at prediksjonen er retningsbestemt rimelig (samme sykdomskategori, samme mekanisme for legemiddelklasse) men krever bekreftet akutt-manisk effektivitetsdata før den behandles som klinisk validert.
 
 ---
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøk
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Påmelding | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT01986114](https://clinicaltrials.gov/study/NCT01986114) | Phase 3 | Completed | 495 | Long-term efficacy and safety of lurasidone (SM-13496) in Bipolar I Disorder — direct drug-disease evidence |
-| [NCT01358357](https://clinicaltrials.gov/study/NCT01358357) | Phase 3 | Completed | 965 | PREVAIL series: lurasidone adjunctive to lithium/divalproex for prevention of recurrence in Bipolar I Disorder (with/without rapid cycling or psychotic features) |
-| [NCT01914393](https://clinicaltrials.gov/study/NCT01914393) | Phase 3 | Completed | 702 | 104-week open-label extension evaluating long-term safety/effectiveness of flexibly-dosed lurasidone in pediatric subjects |
-| [NCT04383691](https://clinicaltrials.gov/study/NCT04383691) | Phase 3 | Terminated | 124 | RCT of lurasidone vs placebo for Bipolar I Depression — terminated, reason not specified in this evidence pack |
-| [NCT02046369](https://clinicaltrials.gov/study/NCT02046369) | Phase 3 | Completed | 350 | Efficacy and safety of lurasidone in children/adolescents with Bipolar I Depression |
-| [NCT01575561](https://clinicaltrials.gov/study/NCT01575561) | Phase 3 | Completed | 377 | Open-label extension of lurasidone adjunctive to lithium/divalproex in Bipolar I Disorder |
-| [NCT02731612](https://clinicaltrials.gov/study/NCT02731612) | Phase 3 | Completed | 100 | ELICE-BD: lurasidone adjunctive therapy for cognitive functioning in euthymic Bipolar I/II patients |
-| [NCT02147379](https://clinicaltrials.gov/study/NCT02147379) | Phase 3 | Completed | 53 | Cognitive functioning changes with lurasidone vs treatment-as-usual in euthymic Bipolar I patients |
-| [NCT01986101](https://clinicaltrials.gov/study/NCT01986101) | Phase 3 | Completed | 525 | RCT of lurasidone (SM-13496) vs placebo for Bipolar I Depression |
-| [NCT01932541](https://clinicaltrials.gov/study/NCT01932541) | Phase 4 | Withdrawn | 0 | Open-label trial of lurasidone specifically for **mania** in children/adolescents — withdrawn before enrollment, no data generated |
+| [NCT01986114](https://clinicaltrials.gov/study/NCT01986114) | Fase 3 | Fullført | 495 | Langsiktig effektivitet og sikkerhet for lurasidone (SM-13496) i bipolar I lidelse — direkte legemiddel-sykdom-bevis |
+| [NCT01358357](https://clinicaltrials.gov/study/NCT01358357) | Fase 3 | Fullført | 965 | PREVAIL-serien: lurasidone tilleggsmedisin til litium/divalproex for forebygging av tilbakefall i bipolar I lidelse (med/uten raskt syklende eller psykotiske trekk) |
+| [NCT01914393](https://clinicaltrials.gov/study/NCT01914393) | Fase 3 | Fullført | 702 | 104-ukers åpen-merke forlengelse evaluering av langsiktig sikkerhet/effektivitet av fleksibel-dosert lurasidone hos pediatriske forsøkspersoner |
+| [NCT04383691](https://clinicaltrials.gov/study/NCT04383691) | Fase 3 | Stoppet | 124 | RCT av lurasidone vs placebo for bipolar I depresjon — stoppet, årsak ikke spesifisert i denne bevissamlingen |
+| [NCT02046369](https://clinicaltrials.gov/study/NCT02046369) | Fase 3 | Fullført | 350 | Effektivitet og sikkerhet for lurasidone hos barn/ungdommer med bipolar I depresjon |
+| [NCT01575561](https://clinicaltrials.gov/study/NCT01575561) | Fase 3 | Fullført | 377 | Åpen-merke forlengelse av lurasidone tilleggsmedisin til litium/divalproex i bipolar I lidelse |
+| [NCT02731612](https://clinicaltrials.gov/study/NCT02731612) | Fase 3 | Fullført | 100 | ELICE-BD: lurasidone tilleggsterapi for kognitiv fungering hos eutimiske bipolar I/II pasienter |
+| [NCT02147379](https://clinicaltrials.gov/study/NCT02147379) | Fase 3 | Fullført | 53 | Endringer i kognitiv fungering med lurasidone vs standardbehandling hos eutimiske bipolar I pasienter |
+| [NCT01986101](https://clinicaltrials.gov/study/NCT01986101) | Fase 3 | Fullført | 525 | RCT av lurasidone (SM-13496) vs placebo for bipolar I depresjon |
+| [NCT01932541](https://clinicaltrials.gov/study/NCT01932541) | Fase 4 | Trukket tilbake | 0 | Åpen-merke forsøk av lurasidone spesifikt for **mani** hos barn/ungdommer — trukket tilbake før påmelding, ingen data generert |
 
-*Note: Additional trials in the evidence pack involve other drugs (vortioxetine, cariprazine, ketamine/D-cycloserine) or are only indirectly related (antenatal antipsychotic exposure, SMART trial design) and were excluded from this table as lower relevance (Grade C).*
+*Merknad: Ytterligere forsøk i bevissamlingen involverer andre legemidler (vortioxetin, kariprazin, ketamin/D-cycloserine) eller er bare indirekte relatert (prenatalt antipsykotikum eksponering, SMART-forsøksdesign) og ble ekskludert fra denne tabellen som lavere relevans (Grad C).*
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [39557452](https://pubmed.ncbi.nlm.nih.gov/39557452/) | 2024 | Systematic Review / Dose-Response Meta-analysis | BMJ Mental Health | Dose-response relationship for lurasidone efficacy, acceptability, and metabolic/endocrine profile in bipolar depression |
-| [31957501](https://pubmed.ncbi.nlm.nih.gov/31957501/) | 2020 | Review | Expert Opin Pharmacother | Evaluates lurasidone in bipolar disorder; explicitly notes it has **not** been studied in mania or bipolar psychosis |
-| [33177610](https://pubmed.ncbi.nlm.nih.gov/33177610/) | 2021 | Systematic Review / Network Meta-analysis | Molecular Psychiatry | Compares antipsychotics/mood stabilizers (incl. lurasidone) for bipolar disorder maintenance phase |
-| [37595997](https://pubmed.ncbi.nlm.nih.gov/37595997/) | 2023 | Network Meta-analysis | Lancet Psychiatry | Comparative efficacy/tolerability of pharmacological interventions for acute bipolar depression |
-| [29536616](https://pubmed.ncbi.nlm.nih.gov/29536616/) | 2018 | Guideline (CANMAT/ISBD) | Bipolar Disorders | Standard treatment guideline for bipolar disorder management |
-| [34599629](https://pubmed.ncbi.nlm.nih.gov/34599629/) | 2021 | Guideline (CANMAT/ISBD) | Bipolar Disorders | Recommendations for bipolar disorder with mixed presentations (closer to manic/mixed phase) |
-| [24170243](https://pubmed.ncbi.nlm.nih.gov/24170243/) | 2014 | Commentary | Am J Psychiatry | "Lurasidone and bipolar disorder" |
-| [39243127](https://pubmed.ncbi.nlm.nih.gov/39243127/) | 2024 | Review | Med Sci Monit | Narrative review of new antipsychotics/mood stabilizers for bipolar disorder and schizophrenia, incl. lurasidone |
-| [25963405](https://pubmed.ncbi.nlm.nih.gov/25963405/) | 2016 | Review | Asia-Pac Psychiatry | Antipsychotics as antidepressants; notes lurasidone approved specifically for bipolar depression |
-| [37815563](https://pubmed.ncbi.nlm.nih.gov/37815563/) | 2023 | Review | JAMA | General diagnosis and treatment review of bipolar disorder |
+| [39557452](https://pubmed.ncbi.nlm.nih.gov/39557452/) | 2024 | Systematisk gjennomgang / Dose-respons-metaanalyse | BMJ Mental Health | Dose-respons-forhold for lurasidone effektivitet, akseptabilitet og metabolsk/endokrin profil i bipolar depresjon |
+| [31957501](https://pubmed.ncbi.nlm.nih.gov/31957501/) | 2020 | Gjennomgang | Expert Opin Pharmacother | Evaluerer lurasidone i bipolar lidelse; bemerker eksplisitt at **ikke** har blitt studert hos mani eller bipolar psykose |
+| [33177610](https://pubmed.ncbi.nlm.nih.gov/33177610/) | 2021 | Systematisk gjennomgang / Nettverks-metaanalyse | Molecular Psychiatry | Sammenligner antipsykotika/humørstabilisatorer (inkl. lurasidone) for bipolar lidelse vedlikeholdsfase |
+| [37595997](https://pubmed.ncbi.nlm.nih.gov/37595997/) | 2023 | Nettverks-metaanalyse | Lancet Psychiatry | Komparativ effektivitet/tolerabilitet av farmakologiske intervensjoner for akutt bipolar depresjon |
+| [29536616](https://pubmed.ncbi.nlm.nih.gov/29536616/) | 2018 | Retningslinje (CANMAT/ISBD) | Bipolar Disorders | Standardbehandlingsretningslinje for bipolar lidelseshåndtering |
+| [34599629](https://pubmed.ncbi.nlm.nih.gov/34599629/) | 2021 | Retningslinje (CANMAT/ISBD) | Bipolar Disorders | Anbefalinger for bipolar lidelse med blandet presentasjon (nærmere manisk/blandet fase) |
+| [24170243](https://pubmed.ncbi.nlm.nih.gov/24170243/) | 2014 | Kommentar | Am J Psychiatry | "Lurasidone og bipolar lidelse" |
+| [39243127](https://pubmed.ncbi.nlm.nih.gov/39243127/) | 2024 | Gjennomgang | Med Sci Monit | Narrativ gjennomgang av nye antipsykotika/humørstabilisatorer for bipolar lidelse og schizofreni, inkl. lurasidone |
+| [25963405](https://pubmed.ncbi.nlm.nih.gov/25963405/) | 2016 | Gjennomgang | Asia-Pac Psychiatry | Antipsykotika som antidepressiver; bemerker lurasidone godkjent spesifikt for bipolar depresjon |
+| [37815563](https://pubmed.ncbi.nlm.nih.gov/37815563/) | 2023 | Gjennomgang | JAMA | Generell diagnose og behandlingsgjennomgang av bipolar lidelse |
 
 ---
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Lurasidone is currently **not marketed** in Norway (market status: Not marketed, 0 authorizations). No product license or approved indication text is available for this drug in the local regulatory dataset.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Lurasidone er for øyeblikket **ikke markedsført** i Norge (markedsstatus: Ikke markedsført, 0 godkjennelser). Ingen produktlisens eller godkjent indikajons-tekst er tilgjengelig for dette legemiddelet i det lokale regulatoriske datasettet.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-**Rationale:**
-Lurasidone has a substantial body of completed Phase 3 evidence (L1) supporting its use across bipolar I disorder — including depression treatment and maintenance/relapse prevention — which shares mechanistic and diagnostic overlap with the manic phase. However, evidence specifically demonstrating efficacy in **acute mania** is weak (the only dedicated pediatric mania trial was withdrawn), and the drug is not currently marketed locally, so no local safety labeling exists yet.
+---
 
-**To proceed, the following is needed:**
-- Local regulatory/package insert data (warnings, contraindications, DDI) — currently blocking (DG001)
-- Confirmed mechanism of action detail from DrugBank (DG002)
-- Dedicated efficacy/safety data for lurasidone in acute manic or mixed episodes (current evidence is predominantly for the depressive/maintenance phase)
-- Regulatory pathway assessment for market entry, since lurasidone holds zero authorizations in this market
+## Konklusjon og neste trinn
+
+**Beslutning: Fortsett med sikringsmål**
+
+**Begrunnelse:**
+Lurasidone har en betydelig mengde fullstendig fase 3-bevis (L1) som støtter bruken over bipolar I lidelse — inkludert depresjonbehandling og vedlikehold/tilbakefall-forebygging — som deler mekanistisk og diagnostisk overlapping med den maniske fasen. Bevis som spesifikt demonstrerer effektivitet i **akutt mani** er imidlertid svakt (det eneste dedikerte pediatriske maniforsøket ble trukket tilbake), og legemiddelet er ikke for øyeblikket markedsført lokalt, så ingen lokal sikkerhetsetikett finnes ennå.
+
+**For å fortsette er følgende nødvendig:**
+- Lokale regulatoriske/pakningsvedlegg-data (advarsler, kontraindikajoner, DDI) — blokkert av (DG001)
+- Bekreftet mekanisme-for-virkning-detaljer fra DrugBank (DG002)
+- Dedikert effektivitets- og sikkerhetdata for lurasidone i akutt maniske eller blandede episoder (gjeldende bevis er overveiende for den depressive/vedlikeholds-fasen)
+- Regulatorisk vurdering av veien til markedsføring, siden lurasidone har null godkjennelser i dette markedet
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

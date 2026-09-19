@@ -29,64 +29,63 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **0** stk.
 
 </div>
 
-# Cangrelor: No Repurposing Predictions Available
+# Cangrelor: Ingen eksisterende prognose for ny bruk
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-Cangrelor is an intravenous, direct-acting P2Y12 platelet receptor antagonist used in acute cardiovascular settings such as percutaneous coronary intervention (PCI).
-The current evidence pack contains **no TxGNN repurposing predictions** for this drug, and critical data gaps in mechanism of action and safety information prevent a complete evaluation.
-This report serves as a preliminary record pending further data collection.
+Cangrelor er en intravenøs, direkte virkende P2Y12 plateletaggregasjonshemmer brukt i akutte kardiovaskulære situasjoner som perkutan koronar intervensjon (PCI). Gjeldende bevissamling inneholder **ingen TxGNN-baserte prognoser for ny bruk** av dette legemidlet, og kritiske datagap i virkningsmekanisme og sikkerhetsinformasjon hindrer en fullstendig evaluering. Denne rapporten fungerer som foreløpig dokumentasjon i påventing av ytterligere datainnsamling.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|---------|
-| Original Indication | Antiplatelet therapy during percutaneous coronary intervention (PCI) |
-| Predicted New Indication | No prediction available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — model prediction only; no supporting predictions generated |
-| Norway Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why Assessment Is Limited
-
-Cangrelor (brand names: Kengreal / Kengrexal) is a short-acting, reversible P2Y12 ADP receptor antagonist administered intravenously. Unlike oral antiplatelet agents such as clopidogrel or ticagrelor, cangrelor has an extremely short plasma half-life (~3–5 minutes), making it uniquely suited for procedural settings where rapid platelet inhibition onset and offset are required.
-
-Detailed mechanism of action data from DrugBank was not retrieved in the current evidence pack (Data Gap DG002). Without this information, it is not possible to reason about mechanistic similarity to potential new indications.
-
-More critically, the TxGNN model did not generate any repurposing predictions for cangrelor in this pipeline run. The `predicted_indications` array is empty, meaning the core analytical output of the repurposing workflow is absent. This may reflect insufficient graph connectivity in the underlying knowledge graph, or the drug may simply not have been scored against any new disease nodes in this run.
+| Punkt | Innhold |
+|-------|---------|
+| Opprinnelig indikasjon | Antitrombotisk terapi under perkutan koronar intervensjon (PCI) |
+| Forutsatt ny indikasjon | Ingen prognose tilgjengelig |
+| TxGNN-prediksjonspoeng | N/A |
+| Evidensnivå | L5 — kun modellprediksjon; ingen støttende prognoser generert |
+| Status på det norske marked | Ikke markedsført |
+| Antall markedsføringstillatelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Norway Market Information
+## Hvorfor vurdering er begrenset
 
-Cangrelor is **not currently approved or marketed in Norway**. No product authorizations are on record in the regulatory database.
+Cangrelor (merkenavn: Kengreal / Kengrexal) er en korttidsvirkende, reversibel P2Y12 ADP-reseptorantagonist gitt intravenøst. I motsetning til orale antitrombotika som klopidogrel eller tikagrelor, har cangrelor en ekstremt kort plasmahalveringstid (~3–5 minutter), noe som gjør det særlig egnet for prosedyrebaserte situasjoner hvor rask oppstart og avslutning av plateletaggregasjonshemning er påkrevet.
 
----
+Detaljerte data for virkningsmekanisme fra DrugBank ble ikke hentet i gjeldende bevissamling (Data Gap DG002). Uten denne informasjonen er det ikke mulig å resonnere om mekanismisk likhet til potensielle nye indikasjoner.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Enda mer kritisk: TxGNN-modellen genererte ingen prognoser for ny bruk av cangrelor i denne pipeline-kjøringen. Matrisen `predicted_indications` er tom, noe som betyr at kjernanalytisk utdata fra arbeidsflyt for ny bruk mangler. Dette kan reflektere utilstrekkelig graftilkobling i den underliggende kunnskapsgrafen, eller legemidlet har muligens ikke blitt scoret mot noen nye sykdomsnoder i denne kjøringen.
 
 ---
 
-## Conclusion and Next Steps
+## Informasjon om det norske marked
 
-**Decision: Hold**
+Cangrelor er **ikke for tiden godkjent eller markedsført i Norge**. Ingen produktgodkjennelser er registrert i den regulatoriske databasen.
 
-**Rationale:**
-The evidence pack contains no TxGNN-generated repurposing predictions, and two blocking/high-severity data gaps (DG001: safety warnings; DG002: mechanism of action) prevent any meaningful clinical or mechanistic evaluation.
+---
 
-**To proceed, the following is needed:**
-- Re-run TxGNN scoring pipeline to generate `predicted_indications` for cangrelor
-- Retrieve mechanism of action (MOA) from DrugBank API (Data Gap DG002)
-- Parse package insert PDF to extract key warnings and contraindications (Data Gap DG001 — currently marked as Blocking severity)
-- Review EMA/Norwegian regulatory status for cangrelor (Kengrexal), as the drug is EU-approved and may qualify for a Norway market authorization review
+## Sikkerhetshensyn
+
+Se pakningsvedlegg for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Bevissamlingen inneholder ingen TxGNN-genererte prognoser for ny bruk, og to blokkerende/alvorlige datagap (DG001: sikkerhetsadvarsler; DG002: virkningsmekanisme) hindrer enhver meningsfull klinisk eller mekanismisk vurdering.
+
+**For å gå videre er følgende nødvendig:**
+- Kjør TxGNN-scoringsprosessen på nytt for å generere `predicted_indications` for cangrelor
+- Hent virkningsmekanisme (MOA) fra DrugBank API (Data Gap DG002)
+- Analyser PDF-pakningsvedlegg for å trekke ut viktige advarsler og kontraindikasjoner (Data Gap DG001 — er for tiden merket med blokkerings alvorlighetsgrad)
+- Gjennomgå EMA/norsk regulatorisk status for cangrelor (Kengrexal), ettersom legemidlet er EU-godkjent og kan kvalifisere for vurdering av norsk markedsføringstillatelse
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

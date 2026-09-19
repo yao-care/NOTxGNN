@@ -29,93 +29,94 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Cabazitaxel: From Metastatic Castration-Resistant Prostate Cancer to Female Breast Carcinoma
+# Cabazitaxel: Fra metastatisk kastrasjonsresistent prostatakreft til brystkarsinomer hos kvinnor
 
-## One-Sentence Summary
+## Ensetningsammendrag
 
-Cabazitaxel is a third-generation semisynthetic taxane, originally approved (in combination with prednisone) for metastatic castration-resistant prostate cancer after docetaxel failure. The TxGNN model predicts it may be effective for **Female Breast Carcinoma**, with currently **0 registered clinical trials in the ClinicalTrials.gov feed** but **20 supporting publications**, including one Phase II RCT and one Phase I/II combination trial.
+Cabazitaxel er en tredjegenerasjons semisyntetisk taksan, opprinnelig godkjent (i kombinasjon med prednisolon) for metastatisk kastrasjonsresistent prostatakreft etter docetaxel-svikt. TxGNN-modellen predikerer at det kan være effektivt for **Brystkarsinomer hos kvinnor**, med for tiden **0 registrerte kliniske studier i ClinicalTrials.gov-feeden** men **20 støttepublikasjoner**, inkludert en fase II RCT og en fase I/II kombinasjonsstudie.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Metastatic Castration-Resistant Prostate Cancer (mCRPC), per literature evidence (no formal regulatory license data available) |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L2 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Opprinnelig indikasjon | Metastatisk kastrasjonsresistent prostatakreft (mCRPC), basert på litteraturbevis (ingen formelle regulatoriske lisensdata tilgjengelig) |
+| Forutsagt ny indikasjon | Brystkarsinomer hos kvinnor |
+| TxGNN-prediksjonspoeng | 99.92% |
+| Bevisnivå | L2 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Fortsett med sikkerhetstiltak |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available in the evidence pack (Data Gap DG002). Based on information contained in the supporting literature, cabazitaxel is a taxane-class microtubule inhibitor structurally related to docetaxel, and it was FDA-approved in 2010 for use in combination with prednisone in taxane-refractory metastatic prostate cancer (TROPIC study). Its efficacy in that original indication has been proven, and mechanistically it may be applicable to breast cancer given the class effect of taxanes.
+For tiden er detaljert data om virkningsmekanisme ikke tilgjengelig i bevissamlingen (Datakløft DG002). Basert på informasjon i støttende litteratur er cabazitaxel en taksan-klasse mikrotubuli-inhibitor som er strukturelt relatert til docetaxel, og det ble FDA-godkjent i 2010 for bruk i kombinasjon med prednisolon ved taksan-refraktær metastatisk prostatakreft (TROPIC-studien). Dets effektivitet i den opprinnelige indikasjonen er bevist, og mekanistisk kan det være anvendelig ved brystkreft gitt taksanenes klasseeffekt.
 
-Taxanes (paclitaxel, docetaxel) are already standard-of-care components of breast cancer chemotherapy, and cabazitaxel was specifically engineered to have low affinity for the P-glycoprotein efflux pump, giving it activity against taxane/anthracycline-resistant tumor cell lines — including resistant MCF-7 breast cancer models described in the literature. This resistance-overcoming profile is the key pharmacological rationale connecting the original prostate cancer indication to the predicted breast cancer indication: both are settings where taxane-refractory disease is a major clinical problem.
+Taksaner (paclitaxel, docetaxel) er allerede standardkomponenter i brystkreftkjemoterapi, og cabazitaxel ble spesielt konstruert for å ha lav affinitet for P-glykoprotein-effluks-pumpen, noe som gir det aktivitet mot taksan/antrasyklinresistente tumorcellelinjer — inkludert resistente MCF-7 brystkreft-modeller beskrevet i litteraturen. Denne motstandsovervinnings-profilen er den viktigste farmakologiske begrunnelsen som forbinder den opprinnelige prostatakreft-indikasjonen til den forutsagte brystkreft-indikasjonen: begge er kliniske situasjoner der taksan-refraktær sykdom er et hovedproblem.
 
-The supporting evidence base spans a spectrum from an early-phase clinical combination trial and a randomized Phase II neoadjuvant trial in HER2-negative/triple-negative breast cancer, through pharmacology reviews on resistance mechanisms and dosing, to multiple preclinical nanoparticle-delivery studies aimed at improving cabazitaxel's poor solubility for breast tumor targeting — indicating active, ongoing translational interest in this indication.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
-
-*(Note: two literature-indexed clinical studies exist — a Phase II RCT and a Phase I/II dose-escalation trial — see Literature Evidence below, as they were not captured in the structured clinical_trials registry field.)*
+Støttebevissamlingen spenner over et spekter fra en tidligfase-klinisk kombinasjonsstudie og en randomisert fase II neoadjuvant studie i HER2-negativ/trippelnegativ brystkreft, gjennom farmakologi-oversikter om motstandsmekanismer og dosering, til flere prekliniske nanopartikkel-leveranse-studier rettet mot å forbedre cabazitaxels dårlige løselighet for brysttumor-targeting — noe som indikerer aktiv, pågående translasjonsforskning i denne indikasjonen.
 
 ---
 
-## Literature Evidence
+## Kliniske forsøk
 
-| PMID | Year | Type | Journal | Key Findings |
+For tiden er ingen relaterte kliniske studier registrert
+
+*(Merk: to litteraturindekserte kliniske studier finnes — en fase II RCT og en fase I/II dosisskalerings-studie — se Litteraturbevis nedenfor, da de ikke ble fanget opp i det strukturerte clinical_trials-registreringsfelt.)*
+
+---
+
+## Litteraturbevis
+
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [28768217](https://pubmed.ncbi.nlm.nih.gov/28768217/) | 2017 | RCT (Phase II) | European Journal of Cancer | GENEVIEVE trial: neoadjuvant cabazitaxel vs weekly paclitaxel compared, evaluating pathological complete response in operable TNBC/luminal B HER2-negative breast cancer |
-| [21339064](https://pubmed.ncbi.nlm.nih.gov/21339064/) | 2011 | Phase I/II Clinical Trial | European Journal of Cancer | Dose-escalation study of cabazitaxel + capecitabine in metastatic breast cancer after prior anthracycline/taxane; established MTD, safety, PK, and antitumor activity |
-| [33247980](https://pubmed.ncbi.nlm.nih.gov/33247980/) | 2021 | Review | British Journal of Clinical Pharmacology | Overview of taxane pharmacology (incl. cabazitaxel) and role of therapeutic drug monitoring-based dose adjustment |
-| [25416788](https://pubmed.ncbi.nlm.nih.gov/25416788/) | 2015 | Review | Molecular Cancer Therapeutics | Mechanisms of cabazitaxel resistance in taxane-resistant models, including MCF-7 breast cancer cells; less cross-resistance vs paclitaxel/docetaxel |
-| [26651178](https://pubmed.ncbi.nlm.nih.gov/26651178/) | 2016 | Review | Expert Opinion on Therapeutic Patents | Patent perspective on taxane anticancer agents, including cabazitaxel's FDA approval history |
-| [30521787](https://pubmed.ncbi.nlm.nih.gov/30521787/) | 2019 | Preclinical | Chemistry and Physics of Lipids | Cabazitaxel + thymoquinone co-loaded lipospheres as a synergistic combination for breast cancer |
-| [33360926](https://pubmed.ncbi.nlm.nih.gov/33360926/) | 2021 | Preclinical | Colloids and Surfaces B: Biointerfaces | Cabazitaxel-loaded nanostructured lipid carriers (NLCs) designed and evaluated against breast cancer cell lines |
-| [34309357](https://pubmed.ncbi.nlm.nih.gov/34309357/) | 2021 | Preclinical | Bioconjugate Chemistry | Cyclic cell-penetrating peptide-targeted cabazitaxel delivery for prostate and breast cancer therapy |
-| [36918084](https://pubmed.ncbi.nlm.nih.gov/36918084/) | 2023 | Preclinical | Journal of Controlled Release | Redox-responsive nanomedicine co-delivering cabazitaxel and dasatinib to modulate tumor-stromal crosstalk in breast cancer |
-| [33753567](https://pubmed.ncbi.nlm.nih.gov/33753567/) | 2021 | Preclinical | Journal for ImmunoTherapy of Cancer | Cabazitaxel modulates tumor-associated macrophages to enhance CD47-targeted immunotherapy in triple-negative breast cancer |
+| [28768217](https://pubmed.ncbi.nlm.nih.gov/28768217/) | 2017 | RCT (fase II) | European Journal of Cancer | GENEVIEVE-studien: neoadjuvant cabazitaxel vs ukentlig paclitaxel sammenlignet, evaluering av patologisk komplett respons ved operabel TNBC/luminal B HER2-negativ brystkreft |
+| [21339064](https://pubmed.ncbi.nlm.nih.gov/21339064/) | 2011 | Fase I/II klinisk studie | European Journal of Cancer | Dosisskalerings-studie av cabazitaxel + capecitabin ved metastatisk brystkreft etter tidligere anthrasykliner/taksaner; etablerte MTD, sikkerhet, PK og antitumor-aktivitet |
+| [33247980](https://pubmed.ncbi.nlm.nih.gov/33247980/) | 2021 | Oversikt | British Journal of Clinical Pharmacology | Oversikt over taksan-farmakologi (inkl. cabazitaxel) og rolle for terapeautisk legemiddel-overvåkingsbasert dosisjustering |
+| [25416788](https://pubmed.ncbi.nlm.nih.gov/25416788/) | 2015 | Oversikt | Molecular Cancer Therapeutics | Mekanismer for cabazitaxel-resistens i taksan-resistente modeller, inkludert MCF-7 brystkreft-celler; mindre krysresistens vs paclitaxel/docetaxel |
+| [26651178](https://pubmed.ncbi.nlm.nih.gov/26651178/) | 2016 | Oversikt | Expert Opinion on Therapeutic Patents | Patentperspektiv på taksan-antikreftstoffer, inkludert cabazitaxels FDA-godkjennelseshistorie |
+| [30521787](https://pubmed.ncbi.nlm.nih.gov/30521787/) | 2019 | Preklinisk | Chemistry and Physics of Lipids | Cabazitaxel + thymoquinon co-lastet lipofærer som en synergistisk kombinasjon for brystkreft |
+| [33360926](https://pubmed.ncbi.nlm.nih.gov/33360926/) | 2021 | Preklinisk | Colloids and Surfaces B: Biointerfaces | Cabazitaxel-lastet nanostrukturerte lipidformidlere (NLC-er) designet og evaluert mot brystkreft-cellelinjer |
+| [34309357](https://pubmed.ncbi.nlm.nih.gov/34309357/) | 2021 | Preklinisk | Bioconjugate Chemistry | Syklisk cellpenetrerende peptid-rettet cabazitaxel-leveranse for prostata- og brystkreftterapi |
+| [36918084](https://pubmed.ncbi.nlm.nih.gov/36918084/) | 2023 | Preklinisk | Journal of Controlled Release | Redoks-responsiv nanomedisiner som co-leverer cabazitaxel og dasatinib for å modulere tumor-stromal samspill ved brystkreft |
+| [33753567](https://pubmed.ncbi.nlm.nih.gov/33753567/) | 2021 | Preklinisk | Journal for ImmunoTherapy of Cancer | Cabazitaxel modulerer tumorassosierte makrofager for å forbedre CD47-rettet immunterapi ved trippelnegativ brystkreft |
 
 ---
 
-## Cytotoxicity
+## Cytotoksisitet
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (Taxane class — microtubule-stabilizing agent) |
-| Myelosuppression Risk | High — neutropenia is reported as the most common dose-limiting toxicity across taxane class studies, alongside peripheral neuropathy |
-| Emetogenicity Classification | Low to moderate (typical of taxane-class agents) |
-| Monitoring Items | CBC with differential (neutrophil count especially), liver function, peripheral neuropathy assessment |
-| Handling Protection | Must follow cytotoxic drug handling regulations (hazardous drug precautions during preparation and administration) |
+| Cytotoksisitets-klassifisering | Konvensjonell cytotoksisk (Taksan-klasse — mikrotubuli-stabiliserende agens) |
+| Miyelosuppresjonrisiko | Høy — neutropeni er rapportert som den mest vanlige dosisbegrensende toksisiteten på tvers av taksan-klassestudier, sammen med perifer neuropati |
+| Emetogenitets-klassifisering | Lav til moderat (typisk for taksan-klasse-agens) |
+| Overvåkingselementer | Fullblodtelling (FBT) med differensialtelling (nøytrofiltall spesielt), leverfunksjon, perifer neuropati-vurdering |
+| Håndteringsbeskyttelse | Må følge regulasjoner for håndtering av cytotoksiske legemidler (farlige legemiddel-forholdsregler under forberedelse og administrasjon) |
 
 ---
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Se produktresumé for sikkerhetsinformasjon.
 
 ---
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Proceed with Guardrails**
+**Beslutning: Fortsett med sikkerhetstiltak**
 
-**Rationale:**
-One Phase II RCT (GENEVIEVE) and one Phase I/II combination trial provide direct clinical signal for cabazitaxel in breast cancer, reinforced by resistance-mechanism and pharmacology reviews plus an active stream of preclinical delivery-optimization research. However, cabazitaxel-specific breast cancer evidence remains limited to early/mid-phase trials (L2), and the drug is not currently marketed in Norway.
+**Begrunnelse:**
+En fase II RCT (GENEVIEVE) og en fase I/II kombinasjonsstudie gir direkte klinisk signal for cabazitaxel ved brystkreft, forsterket av motstandsmekanisme- og farmakologi-oversikter pluss en aktiv strøm av preklinisk leveranse-optimalisering-forskning. Imidlertid forblir cabazitaxel-spesifikk brystkreft-bevis begrenset til tidligfase/midfase-studier (L2), og legemidlet er for tiden ikke markedsført i Norge.
 
-**To proceed, the following is needed:**
-- Formal mechanism of action (MOA) documentation from DrugBank or regulatory source
-- TFDA/Norwegian regulatory labeling, warnings, and contraindications (currently Data Gap, Blocking severity)
-- Drug-drug interaction data
-- Confirmation of whether more recent/later-phase cabazitaxel breast cancer trials exist beyond the identified Phase I/II and Phase II studies
+**For å fortsette er følgende nødvendig:**
+- Formell dokumentasjon av virkningsmekanisme (MOA) fra DrugBank eller regulatorisk kilde
+- TFDA/Norsk regulatorisk merking, advarsler og kontraindikasjoner (for tiden Datakløft, blokkering-alvorlighet)
+- Legemiddel-legemiddel-interaksjonsdata
+- Bekrefelse på om nyere/senere-fase cabazitaxel brystkreft-studier finnes utover de identifiserte fase I/II og fase II studiene
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

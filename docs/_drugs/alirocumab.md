@@ -29,113 +29,114 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Alirocumab: From Hypercholesterolemia to Cholesterol Catabolic Process Disease
+# Alirocumab: Fra hyperkolesterolemi til kolesterol katabolsk prosess sykdom
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-Alirocumab (DrugBank DB09302) is a PCSK9-inhibitor monoclonal antibody whose established pharmacology lowers LDL-cholesterol by preserving hepatic LDL-receptor recycling. Among the 10 TxGNN-predicted indications supplied in this evidence pack, the only one with real supporting data is **"cholesterol catabolic process disease"** — a cholesterol-clearance disorder category mechanistically adjacent to alirocumab's known LDL-receptor pathway effect — backed by **1 completed Phase 3 trial** and **19 publications**. The other 9 candidates (including the single highest-scoring TxGNN hit, ichthyosis) carry no clinical or literature support and are flagged **Hold**.
+Alirocumab (DrugBank DB09302) er en PCSK9-inhibitor monoklonal antistoff hvis etablerte farmakologi senker LDL-kolesterol ved å bevare hepatisk LDL-reseptorsirkulering. Blant de 10 TxGNN-forutsagte indikasjonene som er levert i denne dokumentasjonspakken, er den eneste med reell støttende data **"kolesterol katabolsk prosess sykdom"** — en kolesterol-klaringsstørrelse som er mekanistisk tilstøtende til alirocumabs kjente LDL-reseptorbane-effekt — støttet av **1 fullført fase 3-studie** og **19 publikasjoner**. De øvrige 9 kandidatene (inkludert det enkelte høyeste TxGNN-treffet, iktyose) har ingen klinisk eller litteraturstøtte og er flagget som **Avvent**.
 
-> **Note on indication selection:** TxGNN's single highest raw score (99.43%, rank #6127) belongs to "ichthyosis, X-linked" — but the evidence pack's own rationale states this likely reflects semantic proximity in the knowledge graph ("lipid/sterol" neighborhood) rather than a real mechanistic link, and it has zero clinical/literature evidence. This report therefore focuses on the evidence-supported candidate (rank #5) rather than the top raw-score candidate; all 10 predictions are tabulated later in this report for full transparency.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Hypercholesterolemia / mixed dyslipidemia (LDL-C lowering; not confirmed via Taiwan license data — see note below) |
-| Predicted New Indication | Cholesterol catabolic process disease |
-| TxGNN Prediction Score | 99.36% (rank #6644) |
-| Evidence Level | L2 |
-| Taiwan Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
-*Original Indication note: `drug.original_indications` and Taiwan license records are empty in this evidence pack (data gap DG002, MOA also unconfirmed). The indication above is inferred from the drug's own supporting literature within this pack (e.g., PMID 38185721, 38658193), not from a TFDA-approved label, since alirocumab has no Taiwan market authorization on record.*
-
-*Evidence Level note: the evidence pack's internal scoring tags this candidate "L1," but per this report's determination rules (≥2 completed Phase 3 RCTs = L1), only **one** completed Phase 3 trial is on record here, so it is classified **L2** (1 completed Phase 2/3 trial) rather than L1.*
+> **Merknad om indikasjonvalg:** TxGNNs eneste høyeste råpoengsum (99,43 %, rang #6127) tilhører "iktyose, X-koblet" — men rapportens egen begrunnelse sier at dette sannsynligvis reflekterer semantisk nærhet i kunnskapsgrafen ("lipid/sterol"-nabolag) heller enn en reell mekanistisk forbindelse, og det har null klinisk/litteraturbevis. Denne rapporten fokuserer derfor på den bevis-støttede kandidaten (rang #5) heller enn den høyeste råpoengsum-kandidaten; alle 10 prediksjoner er tabulert senere i denne rapporten for full transparens.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Detailed DrugBank mechanism-of-action text is flagged as a data gap (DG002) in this evidence pack. Based on the supporting literature it does contain, alirocumab is a human monoclonal antibody that binds circulating PCSK9 (proprotein convertase subtilisin/kexin type 9), blocking PCSK9-mediated degradation of hepatic LDL receptors. This preserves LDL-receptor recycling, increases hepatic clearance of LDL particles, and lowers circulating LDL-cholesterol (PMID 38185721, 39947256). Its established therapeutic role, per the literature in this pack, spans hypercholesterolemia, homozygous/heterozygous familial hypercholesterolemia, and reduction of recurrent cardiovascular events after acute coronary syndrome (ODYSSEY OUTCOMES, PMID 38658193, 39913634).
+| Punkt | Innhold |
+|-------|---------|
+| Original indikasjon | Hyperkolesterolemi / blandet dyslipidemi (LDL-C-reduksjon; ikke bekreftet via taiwanesisk lisensdata — se merknad nedenfor) |
+| Forutsagt ny indikasjon | Kolesterol katabolsk prosess sykdom |
+| TxGNN-prediksjonspoengsum | 99,36 % (rang #6644) |
+| Bevisnivå | L2 |
+| Status på taiwanesisk marked | ✗ Ikke markedsført (Ikke markedsført) |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Fortsett med sikkerhetstiltak |
 
-"Cholesterol catabolic process disease" is a broad ontology category covering disorders of cholesterol degradation and clearance, which overlaps substantially with LDL-receptor-pathway disorders (e.g., familial hypercholesterolemia, HIV-associated dyslipidemia/atherosclerosis). Because alirocumab acts directly on the LDL-receptor recycling step, this predicted indication sits within the drug's known mechanistic neighborhood rather than representing a distant, speculative repurposing signal — unlike most of the other 9 candidates in this pack, which involve unrelated pathways (steroid sulfatase, mitochondrial β-oxidation, skeletal dysplasia, etc.).
+*Merknad om original indikasjon: `drug.original_indications` og taiwanesisk lisensregistrering er tomme i denne dokumentasjonspakken (datakluft DG002, MOA også ubekreftet). Indikasjonsovenfor er utledet fra rapportets egen støttende litteratur (f.eks. PMID 38185721, 38658193), ikke fra en TFDA-godkjent merkelapp, siden alirocumab har ingen taiwanesisk markedsautorisasjon på register.*
 
-The strongest supporting evidence is a completed Phase 3 trial (EPIC-HIV, NCT03207945) evaluating PCSK9 inhibition for cardiovascular risk reduction in antiretroviral-treated HIV patients — a population with atherogenic, non-calcified-plaque-predominant dyslipidemia consistent with impaired cholesterol clearance. This is complemented by a large, consistent body of review literature and one large real-world safety dataset (47,296 patient-years, PMID 38658193) specific to alirocumab, giving this prediction a materially stronger evidentiary basis than the other candidates in this evidence pack.
+*Merknad om bevisnivå: dokumentasjonspakkens interne poengsum merker denne kandidaten som "L1," men etter denne rapportens bestemmelsesregler (≥2 avsluttede fase 3 RCT-er = L1), er bare **én** fullført fase 3-studie registrert her, så det er klassifisert som **L2** (1 fullført fase 2/3-studie) heller enn L1.*
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Detaljert DrugBank-mekanisme-for-handling-tekst er merket som en datakluft (DG002) i denne dokumentasjonspakken. Basert på den støttende litteraturen som finnes, er alirocumab et humanoidmonoklonalt antistoff som binder sirkulerende PCSK9 (proprotein convertase subtilisin/kexin type 9), og blokkerer PCSK9-formidlet degradering av hepatiske LDL-reseptorer. Dette bevarer LDL-reseptorsirkulering, øker hepatisk clearance av LDL-partikler og senker sirkulerende LDL-kolesterol (PMID 38185721, 39947256). Dens etablerte terapeutiske rolle, ifølge litteraturen i denne pakken, spenner over hyperkolesterolemi, homozyg/heterozyg familiær hyperkolesterolemi og reduksjon av tilbakevendende kardiovaskulære hendelser etter akutt koronarsyndrom (ODYSSEY OUTCOMES, PMID 38658193, 39913634).
+
+"Kolesterol katabolsk prosess sykdom" er en bred ontologikategori som omfatter lidelser i kolesteroldegradation og -clearance, som overlapper betydelig med LDL-reseptorbane-lidelser (f.eks. familiær hyperkolesterolemi, HIV-assosiert dyslipidemi/aterosklerose). Fordi alirocumab virker direkte på LDL-reseptorsirkuleringstrinnet, ligger denne forutsagte indikasjoneni innenfor rapportens kjente mekanistiske nabolag snarere enn å representere et fjernt, spekulativt repurposing-signal — i motsetning til de fleste av de øvrige 9 kandidatene i denne pakken, som involverer urelated baner (steroid sulfatase, mitokondriell β-oksidasjon, skelettal dysplasi, osv.).
+
+Den sterkeste støttende bevisningen er en fullført fase 3-studie (EPIC-HIV, NCT03207945) som evaluerte PCSK9-inhibisjon for kardiovaskulær risikoreuksjon hos antiretroviral-behandlede HIV-pasienter — en populasjon med aterogenisk, ikke-kalsifisert-plakett-dominerende dyslipidemi som er i samsvar med nedsat kolesterol-clearance. Dette er supplert av en stor, konsistent litteraturbase og ett stort real-world sikkerhetsresultat (47 296 pasient-år, PMID 38658193) spesifikt til alirocumab, som gir denne prediksjonen en vesentlig sterkere bevisgrunnlag enn de øvrige kandidatene i denne dokumentasjonspakken.
+
+---
+
+## Klinisk studie bevis
+
+| Studie nummer | Fase | Status | Inskrivning | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT03207945](https://clinicaltrials.gov/study/NCT03207945) | Phase 3 | Completed | 118 | EPIC-HIV study: evaluated PCSK9 inhibition's effect on cardiovascular risk in antiretroviral-treated HIV patients, using noninvasive imaging to assess atherosclerosis (increased vascular inflammation, non-calcified plaque) linked to impaired LDL clearance. |
+| [NCT03207945](https://clinicaltrials.gov/study/NCT03207945) | Fase 3 | Fullført | 118 | EPIC-HIV-studie: evaluerte PCSK9-inhibisjonens effekt på kardiovaskulær risiko hos antiretroviral-behandlede HIV-pasienter, ved hjelp av ikke-invasiv avbildning for å vurdere aterosklerose (økt vaskulær betennelse, ikke-kalsifisert plakett) koblet til nedsat LDL-clearance. |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [38658193](https://pubmed.ncbi.nlm.nih.gov/38658193/) | 2024 | Safety cohort (alirocumab-specific) | Eur Heart J Cardiovasc Pharmacother | Real-world safety analysis from 47,296 patient-years (ODYSSEY OUTCOMES); confirms sustained LDL-C lowering and reduced recurrent ischemic events/all-cause death with alirocumab vs placebo. |
-| [39913634](https://pubmed.ncbi.nlm.nih.gov/39913634/) | 2025 | Post-hoc RCT analysis (alirocumab-specific) | Diabetes Care | ODYSSEY OUTCOMES post-hoc analysis: alirocumab lowers both Lp(a) and LDL-C without increasing new-onset diabetes risk. |
-| [29526502](https://pubmed.ncbi.nlm.nih.gov/29526502/) | 2018 | Cohort (alirocumab-specific) | Kidney International | Alirocumab retains LDL-C-lowering efficacy and safety in patients with impaired renal function (eGFR 30–59) vs preserved function. |
-| [38185721](https://pubmed.ncbi.nlm.nih.gov/38185721/) | 2024 | Review | Signal Transduct Target Ther | Comprehensive review of PCSK9's role in lipid metabolism and as a therapeutic target across cardiovascular, liver, infectious, and autoimmune disease. |
-| [38277255](https://pubmed.ncbi.nlm.nih.gov/38277255/) | 2024 | Review | Curr Opin Lipidol | Update on PCSK9-directed therapies; two CV outcomes trials of PCSK9 monoclonal antibodies confirmed marked LDL-C and cardiovascular risk reduction. |
-| [39751968](https://pubmed.ncbi.nlm.nih.gov/39751968/) | 2025 | Review | Curr Atheroscler Rep | Review of novel pharmacologic therapies, including PCSK9 inhibitors, for homozygous familial hypercholesterolemia (HoFH). |
-| [36422206](https://pubmed.ncbi.nlm.nih.gov/36422206/) | 2022 | Review | Medicina (Kaunas) | Review of familial hypercholesterolemia diagnostics and treatment, including PCSK9-targeted options. |
-| [36739653](https://pubmed.ncbi.nlm.nih.gov/36739653/) | 2023 | Review | Kardiol Pol | Reviews evidence for PCSK9's role in LDL metabolism and clinical impact of PCSK9 inhibitors on lipid parameters and cardiovascular risk. |
-| [37686091](https://pubmed.ncbi.nlm.nih.gov/37686091/) | 2023 | Review | Int J Mol Sci | Broad review of dyslipidemia treatment approaches aimed at normalizing TC, TG, and LDL-C. |
-| [39947256](https://pubmed.ncbi.nlm.nih.gov/39947256/) | 2025 | Review | Pharmacol Ther | Compares extracellular PCSK9 inhibition (alirocumab, evolocumab) vs intracellular suppression (inclisiran) as LDL-C-lowering strategies. |
+| [38658193](https://pubmed.ncbi.nlm.nih.gov/38658193/) | 2024 | Sikkerhetskohort (alirocumab-spesifikt) | Eur Heart J Cardiovasc Pharmacother | Real-world sikkerhetanalyse fra 47 296 pasient-år (ODYSSEY OUTCOMES); bekrefter vedvarende LDL-C-senking og reduserte tilbakevendende iskemiske hendelser/død fra alle årsaker med alirocumab vs placebo. |
+| [39913634](https://pubmed.ncbi.nlm.nih.gov/39913634/) | 2025 | Post-hoc RCT-analyse (alirocumab-spesifikt) | Diabetes Care | ODYSSEY OUTCOMES post-hoc analyse: alirocumab senker både Lp(a) og LDL-C uten å øke risikoen for nyoppstått diabetes. |
+| [29526502](https://pubmed.ncbi.nlm.nih.gov/29526502/) | 2018 | Kohort (alirocumab-spesifikt) | Kidney International | Alirocumab bevarer LDL-C-senkende effektivitet og sikkerhet hos pasienter med redusert nyreverksyn (eGFR 30–59) versus bevart nyreverksyn. |
+| [38185721](https://pubmed.ncbi.nlm.nih.gov/38185721/) | 2024 | Gjennomgang | Signal Transduct Target Ther | Omfattende gjennomgang av PCSK9s rolle i lipidmetabolisme og som terapeutisk mål på tvers av kardiovaskulær, lever-, infeksjøs og autoimmun sykdom. |
+| [38277255](https://pubmed.ncbi.nlm.nih.gov/38277255/) | 2024 | Gjennomgang | Curr Opin Lipidol | Oppdatering på PCSK9-dirigerte terapi; to CV-resultat-studier av PCSK9-monoklonale antistoffer bekreftet markert LDL-C og kardiovaskulær risikoreuksjon. |
+| [39751968](https://pubmed.ncbi.nlm.nih.gov/39751968/) | 2025 | Gjennomgang | Curr Atheroscler Rep | Gjennomgang av nye farmakologiske terapi, inkludert PCSK9-inhibitorer, for homozyg familiær hyperkolesterolemi (HoFH). |
+| [36422206](https://pubmed.ncbi.nlm.nih.gov/36422206/) | 2022 | Gjennomgang | Medicina (Kaunas) | Gjennomgang av diagnostikk og behandling av familiær hyperkolesterolemi, inkludert PCSK9-målrettede alternativer. |
+| [36739653](https://pubmed.ncbi.nlm.nih.gov/36739653/) | 2023 | Gjennomgang | Kardiol Pol | Gjennomgang av bevis for PCSK9s rolle i LDL-metabolisme og klinisk innvirkning av PCSK9-inhibitorer på lipidparametere og kardiovaskulær risiko. |
+| [37686091](https://pubmed.ncbi.nlm.nih.gov/37686091/) | 2023 | Gjennomgang | Int J Mol Sci | Bred gjennomgang av dyslipidemi-behandlingstilnærminger rettet mot normalisering av TC, TG og LDL-C. |
+| [39947256](https://pubmed.ncbi.nlm.nih.gov/39947256/) | 2025 | Gjennomgang | Pharmacol Ther | Sammenligner ekstracellulær PCSK9-inhibisjon (alirocumab, evolocumab) versus intracellulær undertrykking (inclisiran) som LDL-C-senking-strategier. |
 
 ---
 
-## Taiwan Market Information
+## Taiwan marked informasjon
 
-Alirocumab currently has **no Taiwan Food and Drug Administration (TFDA) market authorization on record** (market status: Not marketed / Not marketed; total licenses: 0). No product license, dosage form, or approved-indication text is available in this evidence pack to tabulate.
+Alirocumab har for tiden **ingen taiwanesisk mat- og legemiddelmyndighets (TFDA) markedsautorisasjon på register** (markedsstatus: Ikke markedsført / Ikke markedsført; totalt lisenser: 0). Ingen produktlisens, doseringsform eller godkjent indikasjon-tekst er tilgjengelig i denne dokumentasjonspakken til å tabulere.
 
 ---
 
-## Other TxGNN-Predicted Indications (Screened Out)
+## Øvrige TxGNN-forutsagte indikasioner (Screenet ut)
 
-For transparency, the remaining 9 TxGNN predictions in this evidence pack are summarized below. None have clinical trial or literature support, and one shows a potential **mechanism-conflict signal** worth flagging for pharmacovigilance awareness even though it is not currently actionable.
+For transparens er de gjenstående 9 TxGNN-prediksjoner i denne dokumentasjonspakken oppsummert nedenfor. Ingen har klinisk studie eller litteraturstøtte, og en viser et potensielt **mekanisme-konflikt-signal** som er verdt å flagge for farmakovigilans-bevissthet selv om det for øyeblikket ikke er handlingsgrunnlag.
 
-| Rank | Disease | Evidence Level | Decision | Note |
+| Rang | Sykdom | Bevisnivå | Beslutning | Merknad |
 |------|---------|------|------|------|
-| 1 | Ichthyosis, X-linked (without steroid sulfatase deficiency) | L5 | Hold | Highest raw TxGNN score, but no known mechanistic or clinical link; likely a knowledge-graph semantic artifact. |
-| 2 | Disorder of other vitamins/cofactors metabolism | L5 | Hold | Disease definition too broad to establish a mechanistic link. |
-| 3 | Xanthomatosis (disease) | L3 | Research Question | Indirect support only — cited literature describes disease genotypes (dysbetalipoproteinemia, sitosterolemia), not alirocumab treatment outcomes. |
-| 4 | 46,XY DSD due to DHT backdoor pathway defect | L5 | Hold | Speculative link to steroidogenesis; no evidence alirocumab affects steroid enzyme activity. |
-| 6 | 46,XY DSD due to cholesterol synthesis defect | L5 | Hold | **Mechanism-conflict flag**: this disease involves cholesterol *under-synthesis* (e.g., Smith-Lemli-Opitz), while alirocumab *lowers* circulating LDL-C — opposite direction, potential safety concern rather than mere lack of evidence. |
-| 7 | Dappled diaphyseal dysplasia | L5 | Hold | Skeletal dysplasia; no known link to lipoprotein/PCSK9 pathways. |
-| 8 | Neutral lipid storage disease | L5 | Hold | Involves intracellular triglyceride storage defects (e.g., ATGL/CGI-58), mechanistically distinct from PCSK9-LDL receptor pathway. |
-| 9 | 3-Hydroxyacyl-CoA dehydrogenase deficiency | L5 | Hold | Mitochondrial fatty-acid β-oxidation disorder; no overlap with PCSK9 pathway. |
-| 10 | Spastic paraplegia–optic atrophy–neuropathy spectrum | L5 | Hold | Neurodegenerative disorder; no evidence of CNS penetration or relevance for a peripherally-acting mAb. |
+| 1 | Iktyose, X-koblet (uten steroid sulfatase mangel) | L5 | Avvent | Høyeste råpoengsum for TxGNN, men ingen kjent mekanistisk eller klinisk forbindelse; sannsynligvis en kunnskapsgrafsemantisk gjenstand. |
+| 2 | Lidelse av andre vitaminer/kofaktorer metabolisme | L5 | Avvent | Sykdomsdefinisjon for bred til å etablere en mekanistisk forbindelse. |
+| 3 | Xantomatose (sykdom) | L3 | Forskningsspørsmål | Indirekte støtte bare — sitert litteratur beskriver sykdomsgenotyper (dysbetalioproteinemi, sitosterolemi), ikke alirocumab-behandlingsresultater. |
+| 4 | 46,XY DSD på grunn av DHT bakdør bane defekt | L5 | Avvent | Spekulativ forbindelse til steroidogenese; ingen bevis på at alirocumab påvirker steroidenzymaktivitet. |
+| 6 | 46,XY DSD på grunn av kolesterolsyntese defekt | L5 | Avvent | **Mekanisme-konflikt-flagg**: denne sykdommen involverer kolesterol *under-syntese* (f.eks. Smith-Lemli-Opitz), mens alirocumab *senker* sirkulerende LDL-C — motsatt retning, potensielt sikkerhetsproblem snarere enn bare mangel på bevis. |
+| 7 | Dapplet diafyseal dysplasi | L5 | Avvent | Skelettal dysplasi; ingen kjent forbindelse til lipoprotein/PCSK9 baner. |
+| 8 | Nøytral lipidlagringssykdom | L5 | Avvent | Involverer intracellulær triglyserid lagring defekter (f.eks. ATGL/CGI-58), mekanistisk distinkt fra PCSK9-LDL reseptor bane. |
+| 9 | 3-Hydroxyacyl-CoA dehydrogenase mangel | L5 | Avvent | Mitokondriell fettsyre β-oksidasjon lidelse; ingen overlapp med PCSK9 bane. |
+| 10 | Spastisk paraplegia–optisk atrofi–neuropati spektrum | L5 | Avvent | Neurodegenerativ lidelse; ingen bevis for CNS penetrasjon eller relevans for en perifert virkende mAb. |
 
 ---
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are all marked as data gaps in this evidence pack — DG001, blocking severity — and TFDA package insert parsing is still pending.)
+Se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og legemiddelinteraksjon data er alle merket som dataklufter i denne dokumentasjonspakken — DG001, blokkering av alvorlighetsgrad — og TFDA pakningsvedlegg parsing er fortsatt ventende.)
 
 ---
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Proceed with Guardrails**
+**Beslutning: Fortsett med sikkerhetstiltak**
 
-**Rationale:**
-One completed Phase 3 trial (EPIC-HIV) plus a substantial, consistent body of review-level literature and real-world safety data (47,296 patient-years) support a mechanistically direct — though broadly-defined — link between alirocumab's LDL-receptor pathway effect and cholesterol catabolic/clearance disorders. This is meaningfully stronger than the other 9 candidates in this evidence pack, none of which have any clinical or literature support, but the indication label itself is an ontology umbrella term rather than a precise clinical diagnosis, and alirocumab has no existing Taiwan market authorization.
+**Begrunnelse:**
+En fullført fase 3-studie (EPIC-HIV) pluss en betydelig, konsistent litteraturbase og real-world sikkerhet data (47 296 pasient-år) støtter en mekanistisk direkte — men bredt definert — forbindelse mellom alirocumabs LDL-reseptor bane effekt og kolesterol katabolsk/clearance lidelser. Dette er vesentlig sterkere enn de øvrige 9 kandidatene i denne dokumentasjonspakken, ingen av disse har noen klinisk eller litteraturstøtte, men indikasjonsetiketten selv er et ontologi-paraplyterm snarere enn en presis klinisk diagnose, og alirocumab har ingen eksisterende taiwanesisk markedsautorisasjon.
 
-**To proceed, the following is needed:**
-- TFDA package insert parsing to resolve the blocking safety data gap (DG001) before any S1 safety review can begin
-- DrugBank MOA confirmation (DG002) to formally validate the mechanistic rationale
-- Clinical disambiguation of "cholesterol catabolic process disease" into an actionable, narrower diagnostic scope (e.g., specific familial hypercholesterolemia subtype or HIV-associated dyslipidemia)
-- Assessment of a Taiwan market-entry pathway (named-patient/import basis), since there is currently no local authorization
-- A dedicated safety monitoring plan (lipid panel, injection-site reactions, hypersensitivity) given the absence of contraindication/DDI data
-- Continued exclusion of rank #6 ("46,XY DSD due to cholesterol synthesis defect") from any repurposing pathway, given its opposite-direction mechanism-conflict signal
+**For å fortsette, kreves følgende:**
+- TFDA pakningsvedlegg parsing for å løse den blokkerende sikkerhetsdatakluft (DG001) før noen S1 sikkerhetsvurdering kan begynne
+- DrugBank MOA-bekreftelse (DG002) for formelt å validere den mekanistiske begrunnelse
+- Klinisk disambiguering av "kolesterol katabolsk prosess sykdom" til et handlingsgrunnlag, smalere diagnostisk omfang (f.eks. spesifikt familiær hyperkolesterolemi undertype eller HIV-assosiert dyslipidemi)
+- Vurdering av en taiwanesisk marked-inngang vei (navngitt pasient/import grunnlag), siden det for øyeblikket ikke finnes noen lokal autorisasjon
+- En dedikert sikkerhetskontrollplan (lipidpanel, injeksjonssteds reaksjoner, hypersensitivitet) gitt fravær av kontraindikasjons/DDI data
+- Fortsatt eksklusjon av rang #6 ("46,XY DSD på grunn av kolesterolsyntese defekt") fra noen repurposing vei, gitt sitt motsatt-retnings mekanisme-konflikt-signal
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

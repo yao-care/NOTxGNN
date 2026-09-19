@@ -29,60 +29,61 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Empagliflozin：原始適應症資料缺失 → 預測新適應症為 Focal Stiff Limb Syndrome
+# Empagliflozin: Original indikasjondata mangler → Forutsagt ny indikasjon for Focal Stiff Limb Syndrome
 
-## 一句話摘要
+## En-setnings sammendrag
 
-Empagliflozin（SGLT2 抑制劑）在本 Evidence Pack 中原始適應症與作用機轉均標示為資料缺口，無法確認其既有臨床用途。TxGNN 模型預測其對 **Focal Stiff Limb Syndrome**（與 Classic Stiff Person Syndrome 同分並列）具有潛在效果，但**目前無任何臨床試驗、無任何文獻佐證**，且模型附帶的機轉分析本身已指出兩者間**無已知生物學關聯**。
+Empagliflozin (SGLT2-hemmere) i denne Evidence Pack har både original indikasjon og virkningsmekanisme markert som datakløfter, noe som gjør det umulig å bekreftte dets eksisterende kliniske bruk. TxGNN-modellen forutsier potensielle effekter for **Focal Stiff Limb Syndrome** (delt første plass med Classic Stiff Person Syndrome), men det finnes **for tiden ingen kliniske studier eller litteraturbevis**, og modellens mekanismeanalyse selv har indikert **ingen kjent biologisk assosiasjon** mellom dem.
 
-## 快速總覽
+## Rask oversikt
 
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | 資料缺失（Evidence Pack 未提供，對應 DG001） |
-| 預測新適應症 | Focal Stiff Limb Syndrome（Rank 1，與 Classic Stiff Person Syndrome 同分） |
-| TxGNN 預測分數 | 99.06% |
-| 證據等級 | L5（純模型預測，無試驗、無文獻） |
-| 台灣上市狀態 | Not marketed |
-| 許可證數量 | 0 |
-| 建議決策 | Hold |
+| Punkt | Innhold |
+|------|--------|
+| Opprinnelig indikasjon | Datamangel (ikke levert i Evidence Pack, tilsvarende DG001) |
+| Forutsagt ny indikasjon | Focal Stiff Limb Syndrome (Rank 1, delt første plass med Classic Stiff Person Syndrome) |
+| TxGNN forutsagt poengsum | 99.06% |
+| Bevisnivå | L5 (ren modellprediksjon, ingen studier, ingen litteratur) |
+| Status på taiwansk marked | Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Hold |
 
-## 為什麼這個預測合理？
+## Hvorfor er denne prediksjonen rimelig?
 
-目前沒有完整的作用機轉（MOA）資料——Evidence Pack 中 `original_moa` 欄位本身即標示為資料缺口（DG002）。根據 TxGNN 附帶的機轉關聯敘述，可得知 empagliflozin 屬 SGLT2 抑制劑，藥理作用為抑制腎臟近曲小管的鈉-葡萄糖共同運輸蛋白 2（SGLT2），減少腎臟對葡萄糖的再吸收。
+For tiden finnes det ingen fullstendig data for virkningsmekanisme (MOA) — `original_moa`-feltet i Evidence Pack er i seg selv markert som datakløft (DG002). Basert på mekanismerelatert narrativ levert av TxGNN, er det kjent at empagliflozin er en SGLT2-hemmere, med farmakologisk virkning av å hemme natrium-glukose-cotransporter 2 (SGLT2) i de renale proximale tubuli, noe som reduserer gjenopptak av glukose av nyrene.
 
-由於 `original_indications` 與 `taiwan_regulatory.licenses` 均為空值，無法比對此藥物已核准用途與三個預測適應症（focal stiff limb syndrome、classic stiff person syndrome、opsismodysplasia）之間的關聯性。
+Fordi `original_indications` og `taiwan_regulatory.licenses` begge er tomme verdier, er det umulig å sammenlikne legemidlets godkjente bruksområder med de tre forutsagte indikasjonene (focal stiff limb syndrome, classic stiff person syndrome, opsismodysplasia).
 
-更關鍵的是，TxGNN 自身附帶的機轉分析已明確指出：這三個預測適應症在生物學機轉上與 SGLT2 抑制劑的腎臟/代謝作用路徑**無已知關聯**——stiff limb/person syndrome 屬自體免疫神經傳導疾病（核心病理為抗 GAD65 抗體導致 GABA 能抑制性傳導缺損），opsismodysplasia 則為 INPPL1 基因突變引起的骨骼發育不良疾病。三者皆缺乏臨床前或臨床證據支持此連結，屬純演算法高分預測，不具生物學合理性佐證。
+Enda mer kritisk, mekanismeanalysen som følger med TxGNN selv har klart indikert: disse tre forutsagte indikasjonene har **ingen kjent assosiasjon** på biologisk mekanismenivå med nyre-/metabolsk virkningsveien til SGLT2-hemmere — stiff limb/person syndrom tilhører autoimmun nevrologiske ledningsforstyrrelser (med kjernepathologi av anti-GAD65 antistoff-indusert GABAerg inhibitorisk ledningsdefekt), mens opsismodysplasia er en skjelettdysplasi-sykdom forårsaket av INPPL1-genmutasjoner. Alle tre mangler preklinisk eller klinisk bevis som støtter denne forbindelsen, og representerer rene algoritmiske høytrangerte spådommer uten biologisk plausibilitetsstøtte.
 
-## 臨床試驗證據
+## Klinisk studie-bevis
 
-目前無相關臨床試驗登記。
+For tiden finnes det ingen relaterte kliniske studieregistreringer.
 
-## 文獻證據
+## Litteraturbevis
 
-目前無相關文獻資料。
+For tiden finnes det ingen relatert litteraturdata.
 
-## 台灣市場資訊
+## Taiwansk markedsinformasjon
 
-Empagliflozin 目前**未在台灣上市**，查驗登記許可證數量為 0，無許可證明細資料可列示。
+Empagliflozin er for tiden **ikke markedsført i Taiwan**, antallet godkjenningsregistreringslisenser er 0, og det finnes ingen lisensdetaljdata å vise.
 
-## 安全性考量
+## Sikkerhetshensyn
 
-請參考藥品仿單以取得完整安全性資訊（Evidence Pack 中之 key_warnings、contraindications 與藥物交互作用資料目前均為資料缺口，DDI 查詢結果為 not_found）。
+Vennligst referer til pakningsvedlegget for fullstendig sikkerhetsinformasjon (nøkkeladvarsler, kontraindikasjoner og legemiddel-legemiddel interaksjonsdata i Evidence Pack er for tiden datakløfter, og DDI-spørringsresultatet er not_found).
 
-## 結論與後續步驟
+## Konklusjon og neste trinn
 
-**決策：Hold**
+**Beslutning: Hold**
 
-**理由：**
-三項預測適應症證據等級均為 L5（純模型預測），無任何臨床試驗或文獻佐證，且 TxGNN 自身機轉分析已指出與原始藥理路徑無已知關聯；同時藥物層級仍有 Blocking 級資料缺口（DMP package insert warnings/contraindications），尚未具備進入下一階段安全性初評（S1）的最低條件。
+**Begrunnelse:**
+Alle tre forutsagte indikasjonene har bevisnivå L5 (ren modellprediksjon), uten noen kliniske studier eller litteraturbevis, og TxGNNs egen mekanismeanalyse har indikert ingen kjent assosiasjon med den originale farmakologiske veien; samtidig har legemiddelnivået fortsatt datakløfter på Blocking-nivå (DMP pakningsvedleggsadvarsler/kontraindikasjoner), og oppfyller ikke ennå minimumsbetingelsene for å gå inn i neste fase av sikkerhetsvurdering (S1).
 
-**若要繼續推進，需要補齊：**
-- TFDA 仿單警語與禁忌資料（DG001，Blocking，為進入 S1 安全性初評之前提）
-- 完整作用機轉（MOA）資料（DG002）
-- 針對三項預測適應症，檢索是否存在臨床前動物實驗或個案報告可支持機轉合理性
-- 若持續無法建立生物學合理性，建議暫緩此候選藥物-適應症配對的後續資源投入
+**Hvis du vil fortsette, må du fullføre:**
+- TFDA pakningsvedleggsadvarsler og kontraindikasjonsdata (DG001, Blocking, forutsetning for å gå inn i S1 sikkerhetsvurdering)
+- Fullstendig virkningsmekanismedata (MOA) (DG002)
+- For de tre forutsagte indikasjonene, søk etter om prekliniske dyreforsøk eller caserapporter finnes for å støtte mekanismeplausibilitet
+- Hvis du kontinuerlig ikke klarer å etablere biologisk plausibilitet, anbefales det å utsette videre ressursinvestering i dette kandidatlegemiddel-indikasjonsparet
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

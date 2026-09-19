@@ -29,79 +29,80 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Fulvestrant: From Unconfirmed Original Indication to HIV Infectious Disease
+# Fulvestrant: Fra Ukjent Original Indikasjon til HIV-Infeksjonssykdom
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-Fulvestrant (DB00947) has no confirmed original indication in this evidence pack — both the approved-use record and the mechanism of action are flagged as data gaps (DG001, DG002).
-The TxGNN model predicts it may be effective for **HIV infectious disease**,
-but this direction is currently supported by **0 clinical trials** and only **1 tangentially related publication**, with the model's own scoring stage recommending **Hold**.
+Fulvestrant (DB00947) har ingen bekreftet original indikasjon i denne bevissamlingen — både autorisasjonsposten og virkningsmekanismen er flagget som datakløfter (DG001, DG002).
+TxGNN-modellen forutsier at den kan være effektiv for **HIV infeksjonssykdom**,
+men denne retningen støttes for tiden av **0 kliniske forsøk** og bare **1 tangensielt relatert publikasjon**, med modellens eget scoretrinn som anbefaler **Avvent**.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not available — no license records or indication text in this evidence pack (see data gap DG001) |
-| Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.91% (rank 1374) |
-| Evidence Level | L5 |
-| Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Original indikasjon | Ikke tilgjengelig — ingen lisensrekorder eller indikasjonsbeskrivelse i denne bevissamlingen (se datakløft DG001) |
+| Forutsagt ny indikasjon | HIV infeksjonssykdom |
+| TxGNN-prediksjonspoengsum | 99.91% (rangering 1374) |
+| Bevisnivå | L5 |
+| Markedsstatus | Ikke markedsført (Ikke markedsført) |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available for fulvestrant in this evidence pack (data gap DG002, High severity). Without MOA data, and without any confirmed original indication (data gap DG001, Blocking severity — TFDA label retrieval still pending), it is not possible to construct a pharmacologically grounded argument for why fulvestrant would work in HIV infection.
+For tiden er detaljerte virkningsmekanisme-data ikke tilgjengelige for fulvestrant i denne bevissamlingen (datakløft DG002, høy alvorlighetsgrad). Uten MOA-data, og uten noen bekreftet original indikasjon (datakløft DG001, blokkerende alvorlighetsgrad — TFDA-etiketthenting venter fortsatt), er det ikke mulig å konstruere et farmakologisk begrunnet argument for hvorfor fulvestrant ville fungere ved HIV-infeksjon.
 
-The model's own rationale for this candidate is explicit about this weakness: the single supporting publication is a multi-cohort cross-omics analysis of HTLV-1-associated myelopathy (HAM) — a distinct retrovirus-driven neuroinflammatory disease — not a direct study of HIV or of fulvestrant's estrogen receptor (ER) pathway in relation to HIV replication or immune modulation. No mechanistic bridge between ER antagonism and HIV pathophysiology is established in the available evidence.
+Modellens eget argument for denne kandidaten er eksplisitt om denne svakheten: den eneste støttende publikasjonen er en multi-kohort tverrfaglig analyse av HTLV-1-assosiert myelopati (HAM) — en distinkt retrovirus-drevet neuroinflammasjonssykdom — ikke en direkte studie av HIV eller av fulvestrants østrogenreseptor (ER) vei i forhold til HIV-replikasjon eller immunmodulering. Ingen mekanistisk bro mellom ER-antagonisme og HIV-patofysiologi er etablert i de tilgjengelige bevisene.
 
-Given this, the high TxGNN score most plausibly reflects proximity between nodes in the underlying knowledge graph rather than a validated pharmacological signal. This candidate should be treated as hypothesis-generating only, not as evidence of therapeutic potential.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Gitt dette, gjenspeiler den høye TxGNN-scoren mest sannsynlig nærhet mellom noder i den underliggende kunnskapsgrafen snarere enn et validert farmakologisk signal. Denne kandidaten bør behandles som kun hypotesegenererende, ikke som bevis for terapeutisk potensial.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøksbelegg
 
-| PMID | Year | Type | Journal | Key Findings |
+For tiden ingen relaterte kliniske forsøk registrert.
+
+---
+
+## Litteraturbevis
+
+| PMID | År | Type | Tidsskrift | Nøkkelfunn |
 |------|-----|------|------|---------|
-| [40343334](https://pubmed.ncbi.nlm.nih.gov/40343334/) | 2025 | Cross-omics Analysis (Tier 3) | Research Square | Multi-cohort (epi)genomic analysis of HTLV-1-associated myelopathy (HAM), a neuroinflammatory disorder related to but distinct from HIV; does not directly study fulvestrant or HIV infection. Relevance to the predicted indication is unconfirmed (marked "pending"). |
+| [40343334](https://pubmed.ncbi.nlm.nih.gov/40343334/) | 2025 | Tverrfaglig analyse (Tier 3) | Research Square | Multi-kohort (epi)genomisk analyse av HTLV-1-assosiert myelopati (HAM), en neuroinflammasjonssykdom relatert til men distinkt fra HIV; studerer ikke direkte fulvestrant eller HIV-infeksjon. Relevans til den forutsagte indikasjon er ubekreftet (markert «venter»). |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-No authorized products found — `total_licenses = 0` and the licenses list is empty in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are all flagged as data gaps or "not found" in this evidence pack.)
+Ingen autoriserte produkter funnet — `total_licenses = 0` og lisensenlisten er tom i denne bevissamlingen.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og legemiddelinteraksjonsdata er alle flagget som datakløfter eller «ikke funnet» i denne bevissamlingen.)
 
-**Rationale:**
-The evidence level is L5 (model prediction only) — there are zero clinical trials and a single, indirectly relevant publication that does not study HIV or fulvestrant directly. Combined with two unresolved data gaps (missing TFDA safety label — Blocking; missing MOA — High), this candidate cannot advance to a safety or mechanistic evaluation stage.
+---
 
-**To proceed, the following is needed:**
-- TFDA label / package insert (warnings, contraindications) — required before any S1 safety screening (DG001)
-- Confirmed mechanism of action via DrugBank API query (DG002)
-- Confirmation of fulvestrant's actual original approved indication(s), currently absent from this pack
-- Literature or preclinical studies directly linking ER antagonism (or fulvestrant specifically) to HIV viral replication or immune regulation
-- If no further direct evidence emerges, this candidate should remain deprioritized relative to higher-evidence candidates (e.g., rank 2, "multiple endocrine neoplasia," which is backed by dozens of fulvestrant-containing Phase 2/3 breast cancer trials, though note that disease label itself warrants a relevance check against those trials)
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Bevisnivået er L5 (kun modellprediksjon) — det er null kliniske forsøk og en eneste, indirekte relevant publikasjon som ikke studerer HIV eller fulvestrant direkte. Kombinert med to uløste datakløfter (manglende TFDA sikkerhetsetikett — Blokkering; manglende MOA — Høy), kan denne kandidaten ikke avansere til et sikkerhet eller mekanistisk evalueringstrinn.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA-etikett / pakningsvedlegg (advarsler, kontraindikasjoner) — påkrevd før noen S1 sikkerhetsgjennomgang (DG001)
+- Bekreftet virkningsmekanisme via DrugBank API-spørring (DG002)
+- Bekreftelse av fulvestrants faktiske original autoriserte indikasjon(er), som for tiden ikke finnes i denne pakken
+- Litteratur eller prekliniske studier som direkte knytter ER-antagonisme (eller fulvestrant spesifikt) til HIV viral replikasjon eller immunregulering
+- Hvis ingen ytterligere direkte bevis dukker opp, bør denne kandidaten forbli nedprioritert i forhold til kandidater med høyere bevis (f.eks. rangering 2, «multipel endokrin neoplasi», som støttes av dusin av fulvestrant-innholdende fase 2/3 brystkreftforsøk, selv om merk at selve sykdomsetiketten krever en relevanskontroll mot disse forsøkene)
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

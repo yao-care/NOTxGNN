@@ -29,59 +29,60 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Lonoctocog Alfa: From Hemophilia A to Pseudo-von Willebrand Disease
+# Lonoctocog Alfa: Fra Hemofili A til Pseudo-von Willebrand-sykdom
 
-## One-Sentence Summary
+## Oppsummering på én setning
 
-Lonoctocog alfa is a recombinant single-chain Factor VIII product, used as replacement therapy for Hemophilia A. The TxGNN model predicts it may be effective for **Pseudo-von Willebrand Disease**, but this prediction is supported by **0 clinical trials** and **0 publications**, and the accompanying mechanistic analysis explicitly finds no meaningful pharmacological link between the drug and this platelet-receptor disorder.
+Lonoctocog alfa er et rekombinant single-chain Factor VIII-produkt som brukes som erstatningsterapi for hemofili A. TxGNN-modellen forutsier at det kan være effektivt for **pseudo-von Willebrand-sykdom**, men denne prediksjonen støttes av **0 kliniske studier** og **0 publikasjoner**, og den medfølgende mekanistiske analysen finner eksplisitt ingen meningsfull farmakologisk sammenheng mellom legemidlet og denne blodplate-reseptor-forstyrrelsen.
 
-## Quick Overview
+## Hurtig oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Hemophilia A (Factor VIII replacement therapy) — not present in the evidence pack itself; inferred from the drug's known classification as a recombinant FVIII product (DrugBank DB13998) |
-| Predicted New Indication | Pseudo-von Willebrand disease |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Punkt | Innhold |
+|------|---------|
+| Opprinnelig indikasjon | Hemofili A (Factor VIII-erstatningsterapi) — ikke inkludert i bevisematerialet selv; utledet fra legemidlets kjente klassifisering som rekombinant FVIII-produkt (DrugBank DB13998) |
+| Predikert ny indikasjon | Pseudo-von Willebrand-sykdom |
+| TxGNN-prediksjons-score | 99.85% |
+| Bevisnivå | L5 (kun modellprediksjon, ingen støttestudier) |
+| Markedsstatus i Taiwan | Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available for lonoctocog alfa in this evidence pack (flagged as a High-severity data gap). Based on general pharmacological knowledge, it functions as a recombinant Factor VIII replacement, restoring intrinsic-pathway tenase complex activity in patients with FVIII deficiency.
+For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelig for lonoctocog alfa i dette bevisematerialet (flagget som et alvorlig datahull). Basert på generell farmakologisk kunnskap fungerer det som en rekombinant Factor VIII-erstatning som gjenoppretter aktiviteten til intrinsic-pathway tenase-kompleksen hos pasienter med FVIII-mangel.
 
-However, the repurposing rationale supplied for the top-ranked predicted indication directly argues against mechanistic plausibility: pseudo-von Willebrand disease is caused by a gain-of-function mutation in the platelet GPIb receptor, leading to abnormally high affinity for VWF and accelerated platelet/VWF clearance. FVIII levels are typically normal in this condition, and the standard treatment approach is antiplatelet therapy — not factor replacement. The evidence pack itself states "無機轉關聯" (no mechanistic link) for this candidate.
+Imidlertid argumenterer grunnlaget for gjenbruk oppgitt for den høyest rangerte predikerte indikasjonen direkte mot mekanistisk plausibilitet: pseudo-von Willebrand-sykdom er forårsaket av en gain-of-function-mutasjon i blodplate GPIb-reseptoren, som fører til abnormalt høy affinitet for VWF og akselerert blodplate/VWF-klarering. FVIII-nivåene er vanligvis normale ved denne tilstanden, og standard behandlingstilnærming er antiplatelet-terapi — ikke faktor-erstatning. Bevisematerialet selv sier "無機轉關聯" (ingen mekanistisk sammenheng) for denne kandidaten.
 
-The other three predicted indications in this pack show the same pattern: primary platelet release disorder (granule secretion defect), Glanzmann thrombasthenia (GPIIb/IIIa deficiency), and Scott syndrome (ANO6/TMEM16F phospholipid-scramblase defect) are all platelet-function disorders where FVIII is not the deficient factor. Scott syndrome has the closest conceptual proximity (it affects the phospholipid platform on which FVIIIa/FIXa complexes assemble), but even there the rationale concludes FVIII supplementation cannot correct the underlying defect. In short, the high TxGNN similarity scores appear to be driven by graph-level proximity in the knowledge graph (all are inherited bleeding disorders) rather than by an actual actionable mechanism.
+De tre andre predikerte indikasjonene i denne pakken viser samme mønster: primær blodplate-frigjøringsstilstand (granulesekresjondefekt), Glanzmanns trombasteni (GPIIb/IIIa-mangel) og Scott-syndrom (ANO6/TMEM16F phospholipid-scramblase-defekt) er alle blodplate-funktionsforstyrrelser der FVIII ikke er den manglende faktoren. Scott-syndrom har nærmest konseptuell nærhet (det påvirker fosfolipid-plattformen der FVIIIa/FIXa-komplekser monteres), men selv der konkluderer begrunnelsen at FVIII-supplementering ikke kan korrigere den underliggende defekten. Kort sagt synes de høye TxGNN-likhetsscore å være drevet av nærhet på graf-nivå i kunnskapsgrafen (alle er arvelige blødningsforstyrrelser) snarere enn av en faktisk handlingsbar mekanisme.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske studier
 
-Currently no related clinical trials registered
+Ingen relaterte kliniske studier registrert for øyeblikket
 
-## Literature Evidence
+## Bevis fra litteratur
 
-Currently no related literature available
+Ingen relevant litteratur tilgjengelig for øyeblikket
 
-## Taiwan Market Information
+## Taiwan-markedsinformasjon
 
-Not marketed in Taiwan — no product authorizations are on record (total_licenses = 0).
+Ikke markedsført i Taiwan — ingen produktgodkjenninger er registrert (total_licenses = 0).
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Vennligst referer til pakningsvedlegget for sikkerhetsinformasjon.
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-This candidate is at decision stage S0 with Evidence Level L5 — a TxGNN score alone, with zero clinical trials, zero literature, and a mechanistic rationale that explicitly refutes pharmacological relevance to the top-ranked predicted indication (pseudo-von Willebrand disease is a platelet-receptor disorder, not an FVIII deficiency). The three next-ranked predictions (primary platelet release disorder, Glanzmann thrombasthenia, Scott syndrome) share the same disqualifying pattern. There is no basis to advance this candidate past initial screening.
+**Begrunnelse:**
+Denne kandidaten er på beslutningsstadium S0 med bevisnivå L5 — kun en TxGNN-score, med null kliniske studier, null litteratur, og en mekanistisk begrunnelse som eksplisitt tilbakeviser farmakologisk relevans for den høyest rangerte predikerte indikasjonen (pseudo-von Willebrand-sykdom er en blodplate-reseptor-forstyrrelse, ikke en FVIII-mangel). De tre neste-rangerte prediksjonene (primær blodplate-frigjøringsstilstand, Glanzmanns trombasteni, Scott-syndrom) deler samme diskvalifiserende mønster. Det er ingen grunnlag for å avansere denne kandidaten forbi innledende screening.
 
-**To proceed, the following is needed:**
-- Actual MOA data from DrugBank (DG002) to properly characterize FVIII pharmacology
-- TFDA label warnings/contraindications (DG001) — currently a Blocking gap preventing any S1 safety review
-- Any real-world or mechanistic evidence that would reconcile the TxGNN prediction with the documented lack of pharmacological overlap, before this candidate could be reconsidered
+**For å fortsette, er følgende nødvendig:**
+- Faktiske MOA-data fra DrugBank (DG002) for å ordentlig karakterisere FVIII-farmakologi
+- TFDA-etikettadvarsler/kontraindikasjoner (DG001) — for øyeblikket en blokkering som forhindrer noen S1-sikkerhetsvurdering
+- Enhver faktisk eller mekanistisk bevis som ville forene TxGNN-prediksjonen med den dokumenterte mangelen på farmakologisk overlap, før denne kandidaten kunne vurderes på nytt
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

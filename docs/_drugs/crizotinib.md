@@ -29,90 +29,91 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Crizotinib: From ALK-Positive Non-Small Cell Lung Cancer to Fibromatosis, Gingival
+# Crizotinib: Fra ALK-positiv ikke-småcellet lungecancer til fibromatosis, gingival
 
-## One-Sentence Summary
+## Ensetnings sammendrag
 
-Crizotinib is an oral ALK/ROS1/MET tyrosine kinase inhibitor; formal Taiwan regulatory and DrugBank MOA records are currently missing from this evidence pack, but literature embedded in this candidate set consistently identifies its established use as ALK/ROS1-rearranged non-small cell lung cancer (NSCLC). The TxGNN model's top-ranked prediction in this batch is **Gingival Fibromatosis (Fibromatosis, Gingival)**, but this prediction is currently supported by **zero clinical trials** and **zero publications**, making it a purely computational hypothesis with no mechanistic corroboration.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in Taiwan regulatory data (drug not marketed, 0 licenses); literature in this evidence pack indicates established use is ALK/ROS1-positive NSCLC |
-| Predicted New Indication | Fibromatosis, Gingival |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Crizotinib er en oral ALK/ROS1/MET-tyrosinkinasehemmer; formelle taiwanske regulatoriske og DrugBank MOA-poster mangler for øyeblikket fra denne bevisspakken, men litteraturen som er inkludert i dette kandidatsett identifiserer konsistent dens etablerte bruk som ALK/ROS1-omarrangert ikke-småcellet lungecancer (NSCLC). TxGNN-modellens høyest rangerte prediksjon i denne gruppen er **Gingival fibromatosis (Fibromatosis, Gingival)**, men denne prediksjonen støttes for øyeblikket av **null kliniske studier** og **null publikasjoner**, noe som gjør det til en rent beregningmessig hypotese uten mekanistisk bekrefting.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigoversikt
 
-Detailed mechanism of action data for crizotinib is not directly recorded in this evidence pack (Data Gap DG002, High severity). Based on literature evidence attached elsewhere in this same candidate set, crizotinib is known to be an ATP-competitive small-molecule inhibitor of the receptor tyrosine kinases ALK, ROS1, and c-Met/MET, approved for NSCLC harboring EML4-ALK rearrangements and ROS1 fusions.
-
-Gingival fibromatosis is a benign, non-neoplastic fibrous overgrowth of gingival connective tissue, typically driven by genetic (e.g., *SOS1*) or drug-induced fibroblast proliferation pathways — a biology unrelated to ALK/ROS1/MET receptor tyrosine kinase signaling. The evidence pack's own rationale for this candidate states explicitly: *"無任何機轉關聯報導；牙齦纖維瘤病與 ALK/ROS1/MET 路徑無已知連結，僅為 TxGNN 純預測分數"* (no mechanistic linkage reported; no known connection between ALK/ROS1/MET and gingival fibromatosis pathogenesis — this is a pure TxGNN score with no supporting biology).
-
-Notably, this same candidate batch contains several other crizotinib-predicted indications with markedly stronger evidence — e.g., rank 4 "lung hilum carcinoma" (L3, Proceed with Guardrails) and rank 5 "lung benign neoplasm" (L1, 20 publications, though likely an ontology-label mismatch pointing back to crizotinib's already-known ALK/ROS1-positive NSCLC indication). This suggests the model's true, biologically grounded signal for crizotinib clusters around lung/ALK-ROS1-driven tumors, not gingival fibromatosis, reinforcing that the top-ranked prediction here should be treated with caution rather than as the strongest repurposing candidate in this set.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Innhold |
+|-------|---------|
+| Opprinnelig indikasjon | Ikke registrert i taiwanske regulatoriske data (legemiddel ikke markedsført, 0 lisenser); litteraturen i denne bevisspakken indikerer at etablert bruk er ALK/ROS1-positiv NSCLC |
+| Predikert ny indikasjon | Gingival fibromatosis |
+| TxGNN prediksjonspoeng | 99.81% |
+| Bevisnivå | L5 (kun modellprediksjon, ingen støttende studier) |
+| Taiwan markedsstatus | Ikke markedsført (Ikke markedsført) |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Stopp |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+Detaljerte virkningsmekanisme-data for crizotinib er ikke direkte registrert i denne bevisspakken (Datagap DG002, høy alvorlighetsgrad). Basert på litteraturbeviser vedlagt andre steder i dette samme kandidatsettett, er crizotinib kjent for å være en ATP-kompetitiv småmolekyl-hemmer av reseptor-tyrosinkinasene ALK, ROS1 og c-Met/MET, godkjent for NSCLC med EML4-ALK omarrangeringer og ROS1-fusjoner.
 
----
+Gingival fibromatosis er en godartad, ikke-neoplastisk fibrøs overvekst av gingivalt bindevev, typisk drevet av genetiske (f.eks. *SOS1*) eller legemiddelinduserte fibroblast-proliferasjonveier — en biologi som ikke er knyttet til ALK/ROS1/MET-reseptor-tyrosinkinase-signalering. Beviskasets eget resonnement for denne kandidaten sier eksplisitt: *"無任何機轉關聯報導；牙齦纖維瘤病與 ALK/ROS1/MET 路徑無已知連結，僅為 TxGNN 純預測分數"* (ingen mekanistisk sammenheng rapportert; ingen kjent forbindelse mellom ALK/ROS1/MET og gingival fibromatosis patogenese — dette er en ren TxGNN poengsum uten støttende biologi).
 
-## Taiwan Market Information
-
-No marketing authorizations currently registered in Taiwan — crizotinib is not marketed in Taiwan under this candidate record (0 licenses).
+Bemerkelsesverdig nok inneholder denne samme kandidatgruppen flere andre crizotinib-predikerte indikasjoner med markant sterkere beviser — f.eks. rangering 4 "lungehilus-karsinom" (L3, Fortsett med sikringstiltak) og rangering 5 "godartad lungesvulst" (L1, 20 publikasjoner, selv om det sannsynligvis er en ontologi-etikettfeilmatch som peker tilbake til crizotinibs allerede kjente ALK/ROS1-positive NSCLC-indikasjon). Dette tyder på at modellens sanne, biologisk funderte signal for crizotinib grupperer seg rundt lunge/ALK-ROS1-drevne svulster, ikke gingival fibromatosis, noe som forsterker at den høyest rangerte prediksjonen her bør behandles med forsiktighet snarere enn som den sterkeste omformålskandidaten i dette settet.
 
 ---
 
-## Cytotoxicity
+## Bevis fra kliniske studier
 
-Crizotinib is an antineoplastic agent (targeted therapy) based on literature embedded in this evidence pack, though formal DrugBank category/toxicity fields were not provided.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (ALK/ROS1/MET tyrosine kinase inhibitor), not conventional cytotoxic chemotherapy |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions (no toxicity data provided in this evidence pack) |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+For øyeblikket er ingen relaterte kliniske studier registrert.
 
 ---
 
-## Safety Considerations
+## Litteraturbeviser
 
-Please refer to the package insert for safety information.
-
-*Note: TFDA warnings/contraindications data acquisition is currently flagged as a Blocking data gap (DG001) — this must be resolved before any S1 safety assessment can proceed.*
+For øyeblikket er ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Taiwan markedsinformasjon
 
-**Decision: Hold**
+Ingen markedsføringstillatelser er for øyeblikket registrert i Taiwan — crizotinib er ikke markedsført i Taiwan under denne kandidatposten (0 lisenser).
 
-**Rationale:**
-The top-ranked prediction (Gingival Fibromatosis) has an L5 evidence level — no clinical trials, no publications, and no plausible mechanistic link to crizotinib's known ALK/ROS1/MET targets. Combined with a Blocking gap in TFDA label data and a High-severity gap in confirmed MOA, this specific candidate does not meet the minimum evidence bar to advance.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — Blocking gap DG001
-- Confirmed DrugBank MOA record — High severity gap DG002
-- Preclinical or mechanistic evidence directly linking ALK/ROS1/MET signaling to gingival fibromatosis pathogenesis
-- Re-evaluate this candidate set's higher-evidence entries (rank 4 "lung hilum carcinoma," L3; rank 5 "lung benign neoplasm," L1) as more promising repurposing directions, pending ontology-label verification against crizotinib's known NSCLC indication
+## Cytotoksisitet
+
+Crizotinib er et antineoplastisk middel (målrettet terapi) basert på litteraturen som er inkludert i denne bevisspakken, selv om formelle DrugBank-kategori-/toksisitetsfelt ikke ble gitt.
+
+| Punkt | Innhold |
+|-------|---------|
+| Klassifisering av cytotoksisitet | Målrettet terapi (ALK/ROS1/MET-tyrosinkinasehemmer), ikke konvensjonell cytotoksisk kjemoterapi |
+| Risiko for myelosuppresjon | Vennligst se pakningsvedlegget for advarsler og forholdsregler (ingen toksisitetsdata gitt i denne bevisspakken) |
+| Klassifisering av emetogenisitet | Vennligst se pakningsvedlegget for advarsler og forholdsregler |
+| Overvåkingspunkter | Vennligst se pakningsvedlegget for advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Vennligst se pakningsvedlegget for advarsler og forholdsregler |
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+*Merk: TFDA advarsler/kontraindikasjoner datahenting er for øyeblikket flagget som et blokkerende datagap (DG001) — dette må løses før noen S1-sikkerhetsvurdering kan fortsette.*
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Stopp**
+
+**Begrunnelse:**
+Den høyest rangerte prediksjonen (Gingival fibromatosis) har et L5-bevisnivå — ingen kliniske studier, ingen publikasjoner, og ingen plausibel mekanistisk sammenheng med crizotinibs kjente ALK/ROS1/MET-mål. Kombinert med et blokkerende gap i TFDA-etikett data og et gap med høy alvorlighetsgrad i bekreftet MOA, oppfyller denne spesifikke kandidaten ikke minimumskravet til bevis for å fortsette.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA pakningsvedlegg (advarsler/kontraindikasjoner) — Blokkering datagap DG001
+- Bekreftet DrugBank MOA-post — Høy alvorlighetsgrad datagap DG002
+- Preklinisk eller mekanistisk beviser som direkte knytter ALK/ROS1/MET-signalering til gingival fibromatosis patogenese
+- Revurdere denne kandidatsettets høyere-bevis poster (rangering 4 "lungehilus-karsinom," L3; rangering 5 "godartad lungesvulst," L1) som mer lovende omformålsretninger, avhengig av ontologi-etikettverifisering mot crizotinibs kjente NSCLC-indikasjon
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

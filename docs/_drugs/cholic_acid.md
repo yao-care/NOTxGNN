@@ -29,93 +29,90 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-Using the report as specified — this is a direct content-generation task per the detailed template, no additional skill applies. Note upfront: the rank-1 prediction (HIV infectious disease) has evidence that is largely tangential or **contradictory** to the predicted direction — I've written the report to reflect that honestly rather than oversell it.
+# Kolesyre: Fra ingen registrert indikasjon til HIV-infeksjonssykdom
+
+## Sammenfatting i én setning
+
+> Kolesyre (DrugBank DB02659) har ingen registrert indikasjon eller data om virkningsmekanisme tilgjengelig i denne bevissamlingen, og det er ikke for tiden markedsført i Norge.
+> TxGNN-modellens topprankede prediksjon er **HIV-infeksjonssykdom** (score 99.79%),
+> men de **9 støttepublikasjoner** er for det meste ikke relatert (spermisid/prevensjonsmiddel, blodproduktsterilisering, biomarkerstudier) eller aktivt **motstridende** mot den forutsagte retningen — én studie viser at kolesyrederivativer *fremmer* HIV-1-replikasjon i stedet for å hemme det.
 
 ---
 
-# Cholic Acid: From No Registered Indication to HIV Infectious Disease
+## Rask oversikt
 
-## One-Sentence Summary
-
-> Cholic acid (DrugBank DB02659) has no registered indication or MOA data available in this Evidence Pack, and it is not currently marketed in Norway.
-> The TxGNN model's top-ranked prediction is **HIV infectious disease** (score 99.79%),
-> but the **9 supporting publications** are mostly unrelated (spermicide/contraceptive, blood-product sterilization, biomarker studies) or actively **contradict** the predicted direction — one study shows cholic acid derivatives *inducing* HIV-1 replication rather than inhibiting it.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no indication registered, drug not marketed |
-| Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.79% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Emne | Innhold |
+|------|--------|
+| Opprinnelig indikasjon | Ikke tilgjengelig — ingen indikasjon registrert, medikament ikke markedsført |
+| Forutsagt ny indikasjon | HIV-infeksjonssykdom |
+| TxGNN-prediksjonscore | 99.79% |
+| Bevisnivå | L5 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available, and no original indication is registered for cholic acid in this dataset. Based on the evidence pack alone, no reliable pharmacological rationale connecting cholic acid to HIV treatment can be established.
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelig, og ingen opprinnelig indikasjon er registrert for kolesyre i dette datasettet. Basert alene på bevissamlingen kan ingen pålitelig farmakologisk begrunnelse som forbinder kolesyre til HIV-behandling etableres.
 
-Separately from the top-ranked HIV prediction, the evidence pack does contain material (attached to a lower-ranked candidate, "vitamin deficiency disorder") indicating cholic acid is used clinically as bile acid replacement therapy (e.g., Cholbam®) in rare bile acid synthesis disorders — this is the drug's known real-world use context, though it is not the "original indication" formally recorded here.
+Uavhengig av topprankede HIV-prediksjon inneholder bevissamlingen materiale (knyttet til en lavere-rangert kandidat, "vitaminmangelsykdom") som indikerer at kolesyre klinisk brukes som gallesyreerstatning (f.eks. Cholbam®) i sjeldne forstyrrelser i gallesyresyntese — dette er medikamentets kjente kliniske bruk, selv om det ikke er "opprinnelig indikasjon" formelt registrert her.
 
-For the HIV prediction specifically, the mechanistic rationale is weak to contradictory. The supporting literature largely concerns cholic acid's **topical spermicidal/surfactant properties** in vaginal contraceptive sponges (with incidental *in vitro* anti-HIV activity in that local context) — not systemic antiretroviral activity. More critically, one study (PMID 16610808) reports that amino-functionalized cholic acid derivatives **enhance** HIV-1 replication and syncytia formation in T cells — the opposite of a therapeutic effect. This is consistent with the pipeline's own assessment (Evidence Level L5, decision stage S0) that this prediction lacks credible mechanistic or clinical support.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+For HIV-prediksjonen spesifikt er den mekanistiske begrunnelsen svak til motstridende. Den støttende litteraturen omhandler i stor grad kolesyres **topikale spermisidale/overflateaktive egenskaper** i vaginale prevensjonssponger (med tilfeldig *in vitro*-anti-HIV-aktivitet i denne lokale sammenhengen) — ikke systemisk antiretroviral aktivitet. Mer kritisk rapporterer én studie (PMID 16610808) at aminofunksjonalisert kolesyrederivativer **forverrer** HIV-1-replikasjon og synkytiadannelse i T-celler — det motsatte av en terapeutisk effekt. Dette er konsistent med pipelineens egen vurdering (Bevisnivå L5, beslutningsstadium S0) om at denne prediksjonen mangler troverdige mekanistiske eller kliniske bevis.
 
 ---
 
-## Literature Evidence
+## Kliniske forsøksresultater
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [16610808](https://pubmed.ncbi.nlm.nih.gov/16610808/) | 2006 | In vitro (negative direction) | J Med Chem | Amino-functionalized cholic acid derivatives **induced** HIV-1 replication and syncytia formation in T cells — contradicts the predicted therapeutic direction |
-| [7688380](https://pubmed.ncbi.nlm.nih.gov/7688380/) | 1993 | Clinical (spermicide/contraceptive) | Hum Reprod | Cholic acid (sodium cholate), as part of the Protectaid vaginal sponge, showed dose-dependent *in vitro* inhibition of HIV-1 reverse transcriptase — topical/local effect, not systemic antiretroviral evidence |
-| [20030469](https://pubmed.ncbi.nlm.nih.gov/20030469/) | 2010 | Cohort (biomarker/PK) | Pharmacotherapy | Evaluated plasma bile acid concentrations in HIV patients on protease inhibitor therapy as a possible hepatotoxicity marker — not a treatment study |
-| [2870224](https://pubmed.ncbi.nlm.nih.gov/2870224/) | 1986 | Not classified | Lancet | Sodium cholate + tri(n-butyl)phosphate used to sterilize hepatitis/HTLV-III viruses in blood products — an ex vivo decontamination method, not a clinical HIV treatment |
-| [9238301](https://pubmed.ncbi.nlm.nih.gov/9238301/) | 1997 | Not classified | Ann NY Acad Sci | Title concerns anti-STD vaginal contraceptive sponges; no abstract available |
-| [7848210](https://pubmed.ncbi.nlm.nih.gov/7848210/) | 1994 | Not classified | Aust NZ J Obstet Gynaecol | General review on future contraceptives in the context of HIV/STD protection; not specific to cholic acid |
-| [8849197](https://pubmed.ncbi.nlm.nih.gov/8849197/) | 1995 | Not classified | Ann Acad Med Singapore | Review of barrier contraception methods (mainly condoms) and STD/HIV protection; not specific to cholic acid |
-| [32052857](https://pubmed.ncbi.nlm.nih.gov/32052857/) | 2020 | Not classified | Hepatology | Review on new NASH drugs in HIV patients, discussing drug-drug interaction concerns with antiretrovirals; not related to cholic acid efficacy |
-| [28745428](https://pubmed.ncbi.nlm.nih.gov/28745428/) | 2017 | Not classified | ChemMedChem | Methodological paper on how the detergent Triton X-100 can distort HIV-1 protease inhibitor assay results; unrelated to cholic acid |
-
-**Note:** None of the above literature demonstrates systemic antiretroviral efficacy of cholic acid. The most directly relevant finding (PMID 16610808) points in the opposite therapeutic direction.
+For tiden finnes ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Norway Market Information
+## Litteraturbevis
 
-Cholic acid is currently **not marketed** in Norway (market status: Not marketed / Not Marketed), and no authorization records are available in this dataset.
+| PMID | År | Type | Tidsskrift | Nøkkelfunn |
+|------|-----|------|-------------|---------|
+| [16610808](https://pubmed.ncbi.nlm.nih.gov/16610808/) | 2006 | In vitro (negativ retning) | J Med Chem | Aminofunksjonalisert kolesyrederivativer **fremmet** HIV-1-replikasjon og synkytiadannelse i T-celler — motsier den forutsagte terapeutiske retningen |
+| [7688380](https://pubmed.ncbi.nlm.nih.gov/7688380/) | 1993 | Klinisk (spermisid/prevensjonsmiddel) | Hum Reprod | Kolesyre (natriumkholat), som del av prevensjonsspongen Protectaid, viste doseavhengig *in vitro*-hemming av HIV-1-revers transkriptase — lokal effekt, ikke systemisk antiretroviral bevis |
+| [20030469](https://pubmed.ncbi.nlm.nih.gov/20030469/) | 2010 | Kohortstudie (biomarkør/PK) | Pharmacotherapy | Vurderte plasmakonsentrasjoner av gallesyrer hos HIV-pasienter på proteasehemmertherapier som mulig hepatotoksisitetsmarkør — ikke en behandlingsstudie |
+| [2870224](https://pubmed.ncbi.nlm.nih.gov/2870224/) | 1986 | Ikke klassifisert | Lancet | Natriumkholat + tri(n-butyl)fosfat brukt for å sterilisere hepatitt/HTLV-III-virus i blodprodukter — en ex vivo-dekontamineringsmetode, ikke en klinisk HIV-behandling |
+| [9238301](https://pubmed.ncbi.nlm.nih.gov/9238301/) | 1997 | Ikke klassifisert | Ann NY Acad Sci | Tittel gjelder anti-STI-vaginalsponger; ingen abstrakt tilgjengelig |
+| [7848210](https://pubmed.ncbi.nlm.nih.gov/7848210/) | 1994 | Ikke klassifisert | Aust NZ J Obstet Gynaecol | Generell gjennomgang av fremtidlige prevensjonsmidler i sammenheng med HIV/STI-beskyttelse; ikke spesifikk for kolesyre |
+| [8849197](https://pubmed.ncbi.nlm.nih.gov/8849197/) | 1995 | Ikke klassifisert | Ann Acad Med Singapore | Gjennomgang av barriereprevensjonsmetoder (hovedsakelig kondomer) og STI/HIV-beskyttelse; ikke spesifikk for kolesyre |
+| [32052857](https://pubmed.ncbi.nlm.nih.gov/32052857/) | 2020 | Ikke klassifisert | Hepatology | Gjennomgang av nye NASH-medikamenter hos HIV-pasienter, som diskuterer bekymringer for legemiddel-legemiddel-interaksjon med antiretrovirale midler; ikke relatert til kolesyre-effektivitet |
+| [28745428](https://pubmed.ncbi.nlm.nih.gov/28745428/) | 2017 | Ikke klassifisert | ChemMedChem | Metodologisk artikkel om hvordan detergensen Triton X-100 kan forvrenge resultater fra HIV-1-proteasehemmersøk; ikke relatert til kolesyre |
+
+**Merknad:** Ingen av ovenstående litteraturkilder demonstrerer systemisk antiretroviral effektivitet av kolesyre. Det mest direkte relevante funnet (PMID 16610808) peker i motsatt terapeutisk retning.
 
 ---
 
-## Safety Considerations
+## Norsk markedsinformasjon
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug interaction data are not currently available (flagged as Blocking data gap DG001 — TFDA-equivalent label warnings/contraindications not yet obtained).
+Kolesyre er for tiden **ikke markedsført** i Norge (markedsstatus: Ikke markedsført), og ingen autorisasjonsregistreringer er tilgjengelige i dette datasettet.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vennligst referer til pakningsvedlegget for sikkerhetsinformasjon. Viktige advarsler, kontraindikasjoner og data om legemiddelinteraksjoner er for tiden ikke tilgjengelig (flagget som datahull DG001 — advarsler/kontraindikasjoner fra TFDA-ekvivalent merkeetikett ennå ikke innhentet).
 
-**Rationale:**
-The top-ranked prediction (HIV infectious disease) is supported only by tangential or contradictory literature — no study demonstrates systemic antiretroviral efficacy of cholic acid, and one *in vitro* study shows the opposite effect (enhanced HIV-1 replication). Combined with the absence of MOA data, original indication data, and Norway market registration, this candidate does not meet the threshold to advance beyond S0.
+---
 
-**To proceed, the following is needed:**
-- Resolve blocking data gap DG001: obtain TFDA/label-equivalent warnings and contraindications before any S1 safety evaluation
-- Resolve data gap DG002: confirm mechanism of action via DrugBank or primary literature
-- Identify any dedicated pharmacological or clinical study directly testing cholic acid (or a specific derivative) for antiretroviral activity, ideally resolving the contradictory *in vitro* signal from PMID 16610808
-- Clarify cholic acid's actual regulatory status and approved indication(s) in Norway/comparable markets, since none are currently recorded
-- Given the weak and partly negative evidence, this candidate is not recommended for further investment unless new supporting data emerges
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Topprankede prediksjon (HIV-infeksjonssykdom) er støttet kun av tangensielle eller motstridende resultater — ingen studie demonstrerer systemisk antiretroviral effektivitet av kolesyre, og én *in vitro*-studie viser motsatt effekt (økt HIV-1-replikasjon). Kombinert med fraværet av data om virkningsmekanisme, data om opprinnelig indikasjon, og norsk markedsregistrering oppfyller denne kandidaten ikke terskelen for å avansere utover S0.
+
+**For å fortsette er følgende nødvendig:**
+- Løse datahull DG001: innhente advarsler og kontraindikasjoner fra TFDA-ekvivalent merkeetikett før noen sikkerhetsvurdering på stadiet S1
+- Løse datahull DG002: bekrefte virkningsmekanisme via DrugBank eller primærlitteratur
+- Identifisere enhver dedikert farmakologisk eller klinisk studie som direkte tester kolesyre (eller et spesifikt derivat) for antiretroviral aktivitet, ideelt løst det motstridende *in vitro*-signalet fra PMID 16610808
+- Klargjøre kolesyres faktiske regulatoriske status og godkjent(e) indikasjon(er) i Norge/sammenlignbare markeder, siden ingen er foreløpig registrert
+- Gitt de svake og delvis negative bevisene anbefales denne kandidaten ikke for videre investering med mindre nye støttende data oppstår
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

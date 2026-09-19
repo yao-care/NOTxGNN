@@ -29,84 +29,85 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Insulin Aspart: From Diabetes Mellitus to Type 1 Diabetes Mellitus
+# Insulin aspart: Fra diabetes mellitus til type 1 diabetes mellitus
 
-## One-Sentence Summary
+## Sammendrag på én setning
 
-Insulin aspart is a rapid-acting human insulin analogue already used to control blood glucose in people with diabetes mellitus.
-The TxGNN model's top prediction is **Type 1 Diabetes Mellitus**, supported by **69 clinical trials** and **20 publications**.
-However, this is the drug's already-established core indication rather than a novel repurposing signal — see the caveat below.
+Insulin aspart er et hurtigvirkende humaninsulinanalog som allerede brukes til å kontrollere blodsukker hos personer med diabetes mellitus.
+TxGNN-modellens toppprediksjon er **type 1 diabetes mellitus**, støttet av **69 kliniske forsøk** og **20 publikasjoner**.
+Dette er imidlertid legemidlets allerede etablerte kjerneindikasjoner snarere enn et nytt bruksområdessignal — se forbehold nedenfor.
 
-## Quick Overview
+## Oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Diabetes mellitus (Type 1 and Type 2) — per literature evidence (e.g. PMID [12215068](https://pubmed.ncbi.nlm.nih.gov/12215068/)); no Norway license record exists to confirm the formal indication text |
-| Predicted New Indication | Type 1 Diabetes Mellitus |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L1 (≥2 completed Phase 3 RCTs, e.g. NCT02546401, NCT00474045, NCT00312156, NCT00046150) |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Diabetes mellitus (type 1 og type 2) — per litteraturbevis (f.eks. PMID [12215068](https://pubmed.ncbi.nlm.nih.gov/12215068/)); ingen norsk lisenspost eksisterer for å bekrefte den formelle indikasjonsteksten |
+| Forutsagt ny indikasjon | Type 1 diabetes mellitus |
+| TxGNN prediktskår | 99.95% |
+| Bevisnivå | L1 (≥2 fullførte fase 3 RCT-forsøk, f.eks. NCT02546401, NCT00474045, NCT00312156, NCT00046150) |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available (data gap DG002). Based on known information, insulin aspart is a rapid-acting human insulin analogue (a single amino-acid substitution at position B28 of human insulin), and its efficacy in lowering postprandial glucose in diabetes mellitus is already well established and extensively documented in the literature and clinical trial record provided in this evidence pack.
+For tiden er detaljerte data for virkningsmekanisme ikke tilgjengelige (datakløft DG002). Basert på kjent informasjon er insulin aspart et hurtigvirkende humaninsulinanalog (en aminosyresubstitusjon på posisjon B28 av humaninsulin), og dets effektivitet ved senking av postprandielt glukose ved diabetes mellitus er allerede vel etablert og omfattende dokumentert i litteraturen og klinisk forsøksjournal gitt i denne bevisesken.
 
-**Important caveat:** Unlike a typical repurposing candidate, TxGNN's top-ranked prediction here — "Type 1 Diabetes Mellitus" — is not a *new* indication. It is the drug's original, already-approved therapeutic use. This pattern is common when a drug-disease edge is already strongly represented in the knowledge graph used to train TxGNN: the model essentially reproduces a known association rather than surfacing a genuine repurposing hypothesis. The large volume of Phase 3 RCTs and reviews confirms the *known* indication, but it should not be read as evidence for a novel use.
+**Viktig forbehold:** I motsetning til en typisk bruksområdeskandidaten er TxGNN's topprangerte prediksjon her — «type 1 diabetes mellitus» — ikke en *ny* indikasjon. Det er legemidlets opprinnelig, allerede godkjent terapeutisk bruk. Dette mønsteret er vanlig når en legemiddel-sykdom-kant allerede er sterkt representert i kunnskapsgrafen som brukes til å trene TxGNN: modellen reproduserer i hovedsak en kjent assosiasjon snarere enn å avdekke en genuint ny bruksområdeshypotese. Det store volumet av fase 3 RCT-forsøk og oversikter bekrefter den *kjente* indikasjonen, men det bør ikke leses som bevis for en ny bruk.
 
-Genuinely novel candidates on this list — such as rank 2 "autoimmune oophoritis," rank 3 "opsismodysplasia," rank 6/7 stiff person syndrome variants — currently have **no clinical trial or literature support at all**, so they cannot yet be evaluated. Rank 8 "pancreatic agenesis" and rank 5 "permanent neonatal diabetes mellitus" are mechanistically closer to a true rare-disease repurposing story (insulin is already used off-label in neonatal diabetes syndromes) but only have 1–2 supporting publications each, insufficient for a formal evidence tier above L4.
+Genuint nye kandidater på denne listen — som rang 2 «autoimmun ooforitt», rang 3 «opsismodysplasi», rang 6/7 varianter av stiv person-syndrom — har for tiden **ingen klinisk forsøks- eller litteraturstøtte**, så de kan ennå ikke evalueres. Rang 8 «pankreatisk agenesis» og rang 5 «permanent neonatal diabetes mellitus» er mekanistisk nærmere en sann sjelden-sykdom-bruksområdeshystorie (insulin brukes allerede off-label ved neonatal diabetes-syndromer) men har bare 1–2 støttepublikasjoner hver, utilstrekkelig for et formelt bevisnivå over L4.
 
-## Clinical Trial Evidence
+## Klinisk forsøksbeviser
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Deltakere | Nøkkelfunn |
 |---------|------|------|------|---------|
-| [NCT02546401](https://clinicaltrials.gov/study/NCT02546401) | Phase 3 | Completed | 22 | Pre- vs post-meal bolus timing of insulin aspart in T1D patients on insulin pump |
-| [NCT00474045](https://clinicaltrials.gov/study/NCT00474045) | Phase 3 | Completed | 470 | Insulin detemir vs NPH insulin, both combined with insulin aspart bolus, in pregnant women with T1D |
-| [NCT00312156](https://clinicaltrials.gov/study/NCT00312156) | Phase 3 | Completed | 347 | Insulin detemir vs NPH insulin with mealtime insulin aspart in children/adolescents with T1D |
-| [NCT00046150](https://clinicaltrials.gov/study/NCT00046150) | Phase 3 | Completed | 59 | HMR1964 vs insulin aspart safety in CSII pumps for T1D |
-| [NCT00992537](https://clinicaltrials.gov/study/NCT00992537) | Phase 1 | Completed | 27 | PK/PD comparison of IDegAsp vs IDeg vs insulin aspart in T1D |
-| [NCT01464099](https://clinicaltrials.gov/study/NCT01464099) | Phase 1 | Completed | 24 | Bioequivalence of NovoLog 100 U/mL vs 200 U/mL formulations in T1D |
-| [NCT03436498](https://clinicaltrials.gov/study/NCT03436498) | Phase 1 | Completed | 45 | Safety of SAR341402 vs NovoLog in CSII pumps in adults with T1D |
-| [NCT00607087](https://clinicaltrials.gov/study/NCT00607087) | Phase 4 | Completed | 289 | Insulin glulisine vs aspart vs lispro via CSII pump parameters in T1D |
-| [NCT02568280](https://clinicaltrials.gov/study/NCT02568280) | Phase 1 | Completed | 42 | Postprandial glucose metabolism with faster-acting insulin aspart in T1D |
-| [NCT00095446](https://clinicaltrials.gov/study/NCT00095446) | Phase 4 | Completed | 513 | External CSII with insulin aspart vs insulin lispro in T1D and insulin-requiring T2D |
+| [NCT02546401](https://clinicaltrials.gov/study/NCT02546401) | Fase 3 | Fullført | 22 | Insulin aspart før og etter måltid-timing ved bolus hos T1D-pasienter på insulinpumpe |
+| [NCT00474045](https://clinicaltrials.gov/study/NCT00474045) | Fase 3 | Fullført | 470 | Insulin detemir vs NPH-insulin, begge kombinert med insulin aspart-bolus, hos gravide med T1D |
+| [NCT00312156](https://clinicaltrials.gov/study/NCT00312156) | Fase 3 | Fullført | 347 | Insulin detemir vs NPH-insulin med måltidsinsulin aspart hos barn/ungdom med T1D |
+| [NCT00046150](https://clinicaltrials.gov/study/NCT00046150) | Fase 3 | Fullført | 59 | HMR1964 vs insulin aspart sikkerhet i CSII-pumper for T1D |
+| [NCT00992537](https://clinicaltrials.gov/study/NCT00992537) | Fase 1 | Fullført | 27 | PK/PD sammenligning av IDegAsp vs IDeg vs insulin aspart i T1D |
+| [NCT01464099](https://clinicaltrials.gov/study/NCT01464099) | Fase 1 | Fullført | 24 | Bioequivalens av NovoLog 100 U/mL vs 200 U/mL formuleringer i T1D |
+| [NCT03436498](https://clinicaltrials.gov/study/NCT03436498) | Fase 1 | Fullført | 45 | Sikkerhet av SAR341402 vs NovoLog i CSII-pumper hos voksne med T1D |
+| [NCT00607087](https://clinicaltrials.gov/study/NCT00607087) | Fase 4 | Fullført | 289 | Insulin glulisine vs aspart vs lispro via CSII-pumpeparametere i T1D |
+| [NCT02568280](https://clinicaltrials.gov/study/NCT02568280) | Fase 1 | Fullført | 42 | Postprandielt glukosemetabolisme med hurtigere virkende insulin aspart i T1D |
+| [NCT00095446](https://clinicaltrials.gov/study/NCT00095446) | Fase 4 | Fullført | 513 | Ekstern CSII med insulin aspart vs insulin lispro i T1D og insulinkrevende T2D |
 
-## Literature Evidence
+## Litteraturbeviser
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Nøkkelfunn |
 |------|-----|------|------|---------|
-| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | RCT (Phase 3a) | Lancet | ONWARDS 6: once-weekly insulin icodec vs once-daily degludec, both with insulin aspart bolus, in T1D |
-| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT: insulin degludec vs detemir, both with insulin aspart, in pregnant women with T1D |
-| [37804858](https://pubmed.ncbi.nlm.nih.gov/37804858/) | 2023 | RCT | Lancet Diabetes Endocrinol | CopenFast: faster-acting insulin aspart vs insulin aspart in T1D/T2D pregnancy and post-delivery |
-| [21333580](https://pubmed.ncbi.nlm.nih.gov/21333580/) | 2011 | Systematic Review | Diabetes Metab | Efficacy/safety of insulin aspart vs regular human insulin in T1D and T2D |
-| [35746893](https://pubmed.ncbi.nlm.nih.gov/35746893/) | 2023 | Meta-Analysis | Diabetes Metab J | Faster-acting aspart vs aspart via insulin pump in T1D |
-| [41697686](https://pubmed.ncbi.nlm.nih.gov/41697686/) | 2026 | Review | JAMA | General review of Type 1 Diabetes pathophysiology and management |
-| [37290466](https://pubmed.ncbi.nlm.nih.gov/37290466/) | 2023 | Review | Lancet Diabetes Endocrinol | Management of T1D in pregnancy: lifestyle, pharmacotherapy, technology |
-| [15871555](https://pubmed.ncbi.nlm.nih.gov/15871555/) | 2003 | Review | Treat Endocrinol | Spotlight review of insulin aspart in T1D and T2D |
-| [12215068](https://pubmed.ncbi.nlm.nih.gov/12215068/) | 2002 | Review | Drugs | Comprehensive review of insulin aspart's role in T1D and T2D management |
-| [25143741](https://pubmed.ncbi.nlm.nih.gov/25143741/) | 2014 | Review | Vasc Health Risk Manag | Insulin degludec/aspart combination for T1D and T2D |
+| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | RCT (fase 3a) | Lancet | ONWARDS 6: ukentlig insulin icodec vs daglig degludec, begge med insulin aspart-bolus, i T1D |
+| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT: insulin degludec vs detemir, begge med insulin aspart, hos gravide med T1D |
+| [37804858](https://pubmed.ncbi.nlm.nih.gov/37804858/) | 2023 | RCT | Lancet Diabetes Endocrinol | CopenFast: hurtigere virkende insulin aspart vs insulin aspart i T1D/T2D graviditet og etter fødsel |
+| [21333580](https://pubmed.ncbi.nlm.nih.gov/21333580/) | 2011 | Systematisk oversikt | Diabetes Metab | Effektivitet/sikkerhet av insulin aspart vs regulært humaninsulin i T1D og T2D |
+| [35746893](https://pubmed.ncbi.nlm.nih.gov/35746893/) | 2023 | Metaanalyse | Diabetes Metab J | Hurtigere virkende aspart vs aspart via insulinpumpe i T1D |
+| [41697686](https://pubmed.ncbi.nlm.nih.gov/41697686/) | 2026 | Oversikt | JAMA | Generell oversikt over type 1 diabetes patofysiologi og behandling |
+| [37290466](https://pubmed.ncbi.nlm.nih.gov/37290466/) | 2023 | Oversikt | Lancet Diabetes Endocrinol | Behandling av T1D under graviditet: livsstil, farmakologi, teknologi |
+| [15871555](https://pubmed.ncbi.nlm.nih.gov/15871555/) | 2003 | Oversikt | Treat Endocrinol | Fokusert oversikt over insulin aspart i T1D og T2D |
+| [12215068](https://pubmed.ncbi.nlm.nih.gov/12215068/) | 2002 | Oversikt | Drugs | Omfattende oversikt over insulin asparts rolle i T1D og T2D-behandling |
+| [25143741](https://pubmed.ncbi.nlm.nih.gov/25143741/) | 2014 | Oversikt | Vasc Health Risk Manag | Insulin degludec/aspart-kombinasjon for T1D og T2D |
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Currently no marketing authorization on record — insulin aspart is not marketed in Norway per the available regulatory data (`market_status: Not marketed`, `total_licenses: 0`).
+For tiden ingen markedsautorisasjon på register — insulin aspart er ikke markedsført i Norge per tilgjengelige regulatoriske data (`market_status: Not marketed`, `total_licenses: 0`).
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information. **Note:** data gap DG001 (TFDA/label warnings and contraindications) is flagged as *Blocking* in the evidence pack — this prevents a formal S1 safety pre-assessment and must be resolved before any decision beyond Hold.
+Vær vennlig å se pakningsvedlegget for sikkerhetsinformasjon. **Merk:** datakløft DG001 (TFDA/pakningsvedlegg advarsler og kontraindikasjoner) er merket som *Blokkerande* i bevisesken — dette forhindrer en formell S1 sikkerhetspre-vurdering og må løses før noen beslutning utover Avvent.
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-The top-ranked prediction ("Type 1 Diabetes Mellitus") duplicates insulin aspart's already-established core indication rather than representing a novel repurposing opportunity, so it delivers limited incremental value. In addition, a blocking data gap (missing product label/safety warnings, DG001) and missing MOA data (DG002) prevent a proper safety pre-assessment, and the drug currently has no marketing authorization in Norway.
+**Begrunnelse:**
+Topprangeringen («type 1 diabetes mellitus») dupliserer insulin asparts allerede etablerte kjerneindikasjoner snarere enn å representere en genuint ny bruksområdesmulighet, så den gir begrenset inkrementell verdi. I tillegg forhindrer en blokkerande datakløft (manglende produktvedlegg/sikkerhet advarsler, DG001) og manglende MOA-data (DG002) en forsvarlig sikkerhetspre-vurdering, og legemidlet har for tiden ingen markedsautorisasjon i Norge.
 
-**To proceed, the following is needed:**
-- Resolve DG001: obtain and parse official product label warnings/contraindications
-- Resolve DG002: confirm mechanism of action via DrugBank API
-- Re-scope the repurposing question toward lower-ranked, genuinely novel candidates (e.g. permanent neonatal diabetes mellitus, pancreatic agenesis) and gather dedicated clinical/literature evidence for those, since they currently have only 1–2 supporting publications each
-- Clarify Norway market/licensing pathway, since the drug is not currently marketed there
+**For å fortsette, er følgende nødvendig:**
+- Løs DG001: innhent og analyser offisielle produktvedlegg advarsler/kontraindikasjoner
+- Løs DG002: bekreft virkningsmekanisme via DrugBank API
+- Omdefiner bruksområdespørsmålet mot lavere rangerte, genuint nye kandidater (f.eks. permanent neonatal diabetes mellitus, pankreatisk agenesis) og samle dedikert klinisk/litteraturbevis for disse, siden de for tiden bare har 1–2 støttepublikasjoner hver
+- Klargjør norsk marked/licensing-vei, siden legemidlet ikke er markedsført der for tiden
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

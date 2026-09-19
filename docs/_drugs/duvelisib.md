@@ -29,121 +29,118 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-Using the Evidence Pack you provided (candidate `TW-DB11952-multi`, DUVELISIB), here is the evaluation report. Note upfront: the top-ranked prediction (Hodgkin lymphoma) carries an explicit disease-entity mismatch warning embedded in the evidence pack itself — I've kept the template's `predicted_indications[0]` as the report subject per your spec, but flagged this prominently rather than glossing over it, and pointed to the stronger-evidence alternative (`B-cell neoplasm`, rank 9) in the conclusion.
+# Duvelisib: Fra CLL/SLL og folikulært lymfom til Hodgkins lymfom
+
+## Sammendrag i én setning
+
+Duvelisib er en dual PI3K-δ/γ-inhibitor som opprinnelig ble godkjent for tilbakefallende/refraktær kronisk lymfocyttær leukemi (CLL)/småcellet lymfositisk lymfom (SLL) og folikulært lymfom. TxGNN-modellens toppreduksjon peker på **Hodgkins lymfom**, men ved nærmere inspeksjon beskriver de **11 kliniske forsøk** og **16 publikasjoner** som siteres som støttebevis nesten utelukkende **Non-Hodgkins lymfom (NHL)**-populasjoner (indolent NHL, folikulært lymfom, CLL/SLL, PTCL) snarere enn klassisk Hodgkins lymfom — ingen forsøk i denne bevisserien foretar faktisk klassisk Hodgkins lymfom-pasienter.
 
 ---
 
-# Duvelisib: From CLL/SLL and Follicular Lymphoma to Hodgkin's Lymphoma
+## Rask oversikt
 
-## One-Sentence Summary
-
-Duvelisib is a dual PI3K-δ/γ inhibitor originally approved for relapsed/refractory chronic lymphocytic leukemia (CLL) / small lymphocytic lymphoma (SLL) and follicular lymphoma. The TxGNN model's top prediction points to **Hodgkin's Lymphoma**, but on closer inspection, the **11 clinical trials** and **16 publications** cited as supporting evidence almost all describe **Non-Hodgkin Lymphoma (NHL)** populations (indolent NHL, follicular lymphoma, CLL/SLL, PTCL) rather than classical Hodgkin lymphoma — no trial in this evidence set actually enrolls Hodgkin lymphoma patients.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Relapsed/refractory CLL/SLL and relapsed/refractory follicular lymphoma (drawn from cited literature, e.g. PMID 30430368, 38423708 — no Taiwan-specific approved indication text is on file) |
-| Predicted New Indication | Hodgkin's Lymphoma ⚠️ (see mismatch caveat below) |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Punkt | Innhold |
+|------|---------|
+| Opprinnelig indikasjon | Tilbakefallende/refraktær CLL/SLL og tilbakefallende/refraktær folikulært lymfom (hentet fra sitert litteratur, f.eks. PMID 30430368, 38423708 — ingen Taiwan-spesifikk godkjent indikasjonstekst er på fil) |
+| Forutsagt ny indikasjon | Hodgkins lymfom ⚠️ (se merknad om mismatch nedenfor) |
+| TxGNN-prediksjonspoeng | 99.94% |
+| Bevisnivå | L4 |
+| Taiwan markedsstatus | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed mechanism-of-action data is flagged as a data gap (DG002) in this evidence pack. Based on information available in the cited literature, Duvelisib is a small-molecule, orally administered dual inhibitor of phosphoinositide 3-kinase delta and gamma (PI3K-δ/γ) (PMID 30430368, 38423708). It blocks B-cell receptor (BCR) signaling and disrupts PI3Kγ-mediated tumor microenvironment support, a mechanism central to several B-cell and T-cell lymphoid malignancies. Its efficacy in CLL/SLL and follicular lymphoma is well established (first global approval 2018, per PMID 30430368), and mechanistically this BCR/PI3K-pathway dependency is shared broadly across lymphoid neoplasms.
+Detaljerte data om virkningsmekanisme er flagget som et datamanko (DG002) i denne bevisserien. Basert på informasjon tilgjengelig i den siterte litteraturen, er duvelisib et lite molekyl, oralt administrert dual inhibitor av fosfoinositid 3-kinase delta og gamma (PI3K-δ/γ) (PMID 30430368, 38423708). Det blokkerer B-cellereseptor (BCR)-signalering og forstyrrer PI3Kγ-formidlet tumor-mikroomgivelsestøtte, en mekanisme som er sentral for flere B-celle- og T-celle-lymfoide malignianser. Dets effektivitet i CLL/SLL og folikulært lymfom er veletablert (første global godkjenning 2018, etter PMID 30430368), og mekanistisk deles denne BCR/PI3K-bane-avhengigheten bredt på tvers av lymfoide neoplasier.
 
-**However, the repurposing rationale for classical Hodgkin lymphoma specifically is weak.** The evidence pack's own analysis flags this: *"⚠️ Disease entity mismatch: the 11 trials and most literature listed here actually target Non-Hodgkin Lymphoma (indolent NHL, follicular lymphoma, CLL/SLL) rather than classical Hodgkin lymphoma — the two differ fundamentally in pathophysiology and treatment target (cHL is defined by Reed-Sternberg cells and PD-1/PD-L1-driven immune escape, not the atypical B-cell BCR-signaling dependency seen in NHL). No trial in this set directly enrolls Hodgkin lymphoma patients."* This should be treated as a probable data-labeling error (NHL/HL name confusion) rather than a genuine mechanistic signal, and the mechanistic extrapolation to Hodgkin lymphoma remains unsupported by direct evidence.
+**Men omgjennomformåls-begrunnelsen for klassisk Hodgkins lymfom spesifikt er svak.** Bevisseriens egen analyse flagger dette: *"⚠️ Sykdomsenhetsmismatch: de 11 forsøkene og mesteparten av litteraturen som er oppført her, målretter faktisk Non-Hodgkins Lymfom (indolent NHL, folikulært lymfom, CLL/SLL) snarere enn klassisk Hodgkins lymfom — de to skiller seg fundamentalt i patofysiologi og behandlingsmål (cHL er definert av Reed-Sternberg-celler og PD-1/PD-L1-drevet immun escape, ikke den atypiske B-celle BCR-signalerings-avhengigheten sett i NHL). Ingen forsøk i dette settet foretar direkte klassisk Hodgkins lymfom-pasienter."* Dette bør behandles som en sannsynlig datafeil ved merking (NHL/HL-navnforvirring) snarere enn et ekte mekanistisk signal, og den mekanistiske ekstrapolering til Hodgkins lymfom forblir ikke støttet av direkte bevis.
 
-By contrast, the evidence pack's rank-9 candidate, **B-cell neoplasm**, is supported by a completed Phase 3 pivotal trial (NCT02004522, the DUO trial) and reflects Duvelisib's actual approved indication space — this is a substantially stronger, evidence-backed repurposing signal than the Hodgkin lymphoma prediction (see Conclusion).
+Derimot er bevisseriens rang-9-kandidat, **B-cellesvulst**, støttet av et fullført fase 3-pivotforsøk (NCT02004522, DUO-forsøket) og reflekterer duvelisibs faktisk godkjente indikasjonsrom — dette er et vesentlig sterkere, bevis-støttet omgjennomformål-signal enn Hodgkins lymfom-prediksjonen (se Konklusjon).
 
 ---
 
-## Clinical Trial Evidence
+## Klinisk forsøksbevis
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Rekruttering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT04379167](https://clinicaltrials.gov/study/NCT04379167) | Phase 2 | Unknown | 140 | Single-arm study of YY-20394 (a duvelisib analog) in relapsed/refractory follicular NHL. Grade C — status unknown, population not confirmed as classical HL. |
-| [NCT05923502](https://clinicaltrials.gov/study/NCT05923502) | N/A | Not Yet Recruiting | 200 | Real-world observational study (CHANT) of Duvelisib capsules in Non-Hodgkin's Lymphoma — explicitly NHL, not HL. |
-| [NCT04803201](https://clinicaltrials.gov/study/NCT04803201) | Phase 2 | Suspended | 170 | Randomized study of chemo ± Duvelisib in CD30-negative peripheral T-cell lymphoma; suspended. |
-| [NCT01882803](https://clinicaltrials.gov/study/NCT01882803) | Phase 2 | Completed | 129 | Duvelisib monotherapy in refractory indolent NHL. Grade C — title explicitly "Non-Hodgkin Lymphoma," disease entity does not match. |
-| [NCT04038359](https://clinicaltrials.gov/study/NCT04038359) | Phase 2 | Completed | 103 | Compared two intermittent dosing schedules of Duvelisib in indolent NHL; dosing-schedule study, not HL-specific. |
-| [NCT05044039](https://clinicaltrials.gov/study/NCT05044039) | Phase 1 | Active, Not Recruiting | 42 | Duvelisib following CAR T-cell therapy to improve CAR-T persistence in lymphoma post-CAR-T relapse; not HL-specific. |
-| [NCT04836832](https://clinicaltrials.gov/study/NCT04836832) | Phase 1 | Withdrawn | 0 | Duvelisib + acalabrutinib in relapsed/refractory indolent NHL; withdrawn, no data generated. |
-| [NCT02640833](https://clinicaltrials.gov/study/NCT02640833) | Phase 1 | Withdrawn | 0 | Duvelisib + venetoclax in relapsed/refractory CLL/SLL/NHL; withdrawn, no data generated. |
-| [NCT05065866](https://clinicaltrials.gov/study/NCT05065866) | Phase 1 | Completed | 14 | Duvelisib + BMS-986345 dose-finding study in lymphoid malignancy. |
-| [NCT01871675](https://clinicaltrials.gov/study/NCT01871675) | Phase 1 | Completed | 48 | Duvelisib (IPI-145) + rituximab or bendamustine/rituximab in relapsed/refractory lymphoma or CLL. |
+| [NCT04379167](https://clinicaltrials.gov/study/NCT04379167) | Fase 2 | Ukjent | 140 | Enkeltarmstudie av YY-20394 (en duvelisib-analog) i tilbakefallende/refraktær folikulært NHL. Grad C — status ukjent, populasjon ikke bekreftet som klassisk HL. |
+| [NCT05923502](https://clinicaltrials.gov/study/NCT05923502) | N/A | Ennå ikke rekrutterer | 200 | Real-world observasjonsstudie (CHANT) av duvelisib-kapsler i Non-Hodgkins Lymfom — eksplisitt NHL, ikke HL. |
+| [NCT04803201](https://clinicaltrials.gov/study/NCT04803201) | Fase 2 | Suspendert | 170 | Randomisert studie av kjemo ± duvelisib i CD30-negativ perifer T-cellelymfom; suspendert. |
+| [NCT01882803](https://clinicaltrials.gov/study/NCT01882803) | Fase 2 | Fullført | 129 | Duvelisib-monoterapi i refraktær indolent NHL. Grad C — tittel eksplisitt "Non-Hodgkins Lymfom," sykdomsenhet stemmer ikke. |
+| [NCT04038359](https://clinicaltrials.gov/study/NCT04038359) | Fase 2 | Fullført | 103 | Sammenlignet to intermitterende doserskjemaer av duvelisib i indolent NHL; doserskjema-studie, ikke HL-spesifikk. |
+| [NCT05044039](https://clinicaltrials.gov/study/NCT05044039) | Fase 1 | Aktiv, ikke rekrutterer | 42 | Duvelisib etter CAR T-celle-terapi for å forbedre CAR-T-persistens i lymfom etter CAR-T-tilbakefall; ikke HL-spesifikk. |
+| [NCT04836832](https://clinicaltrials.gov/study/NCT04836832) | Fase 1 | Trukket tilbake | 0 | Duvelisib + acalabrutinib i tilbakefallende/refraktær indolent NHL; trukket tilbake, ingen data generert. |
+| [NCT02640833](https://clinicaltrials.gov/study/NCT02640833) | Fase 1 | Trukket tilbake | 0 | Duvelisib + venetoclax i tilbakefallende/refraktær CLL/SLL/NHL; trukket tilbake, ingen data generert. |
+| [NCT05065866](https://clinicaltrials.gov/study/NCT05065866) | Fase 1 | Fullført | 14 | Duvelisib + BMS-986345 dosisfinnende studie i lymfoid malignitet. |
+| [NCT01871675](https://clinicaltrials.gov/study/NCT01871675) | Fase 1 | Fullført | 48 | Duvelisib (IPI-145) + rituximab eller bendamustin/rituximab i tilbakefallende/refraktær lymfom eller CLL. |
 
-*One additional trial (NCT02576275, Phase 3, Withdrawn, 0 enrolled) was excluded from this table as it generated no data.*
+*Ett tilleggsforsk (NCT02576275, fase 3, trukket tilbake, 0 rekruttert) ble ekskludert fra denne tabellen da det ikke genererte data.*
 
-**None of the above trials enroll a classical Hodgkin lymphoma population.**
+**Ingen av forsøkene ovenfor foretar en klassisk Hodgkins lymfom-populasjon.**
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [36685572](https://pubmed.ncbi.nlm.nih.gov/36685572/) | 2022 | Systematic Review/Meta-analysis | Frontiers in Immunology | Meta-analysis of Duvelisib safety/efficacy across relapsed/refractory lymphoid neoplasm subtypes — covers NHL/CLL populations, not classical HL specifically. |
-| [30799261](https://pubmed.ncbi.nlm.nih.gov/30799261/) | 2019 | Review | The Lancet. Oncology | Commentary on Duvelisib in indolent Non-Hodgkin lymphoma. |
-| [31580408](https://pubmed.ncbi.nlm.nih.gov/31580408/) | 2019 | Review | Am J Health-Syst Pharm | Summarizes approved targeted therapies for B- and T-cell lymphomas, including Duvelisib. |
-| [33616890](https://pubmed.ncbi.nlm.nih.gov/33616890/) | 2021 | Review | Drugs | Novel therapy approaches in follicular lymphoma, including PI3K inhibitors. |
-| [32356174](https://pubmed.ncbi.nlm.nih.gov/32356174/) | 2020 | Review | Curr Treat Options Oncol | Reviews PI3K inhibitors (including Duvelisib) as targeted therapy in lymphoma generally; no HL-specific data. |
-| [33132100](https://pubmed.ncbi.nlm.nih.gov/33132100/) | 2021 | Review | Clin Lymphoma Myeloma Leuk | Discusses next-generation PI3K inhibitors' potential in B-cell NHL. |
-| [29191916](https://pubmed.ncbi.nlm.nih.gov/29191916/) | 2018 | Phase 1 clinical study | Blood | Original Phase 1 dose-escalation study establishing Duvelisib's clinical activity in advanced hematologic malignancies (CLL, NHL subtypes). |
-| [36882482](https://pubmed.ncbi.nlm.nih.gov/36882482/) | 2023 | Preclinical/Mechanistic | Scientific Reports | Shows PI3Kγ/δ inhibition disrupts mantle cell lymphoma (an NHL subtype) proliferation and migration. |
-| [27872741](https://pubmed.ncbi.nlm.nih.gov/27872741/) | 2016 | Review | Mediterr J Hematol Infect Dis | Reviews novel drugs, including PI3K inhibitors, in follicular lymphoma. |
-| [32658557](https://pubmed.ncbi.nlm.nih.gov/32658557/) | 2020 | Review | Future Oncology | Reviews PI3K-class inhibitor use in Non-Hodgkin lymphoma. |
+| [36685572](https://pubmed.ncbi.nlm.nih.gov/36685572/) | 2022 | Systematisk gjennomgang/meta-analyse | Frontiers in Immunology | Meta-analyse av duvelisib-sikkerhet/-effektivitet på tvers av tilbakefallende/refraktær lymfoid neoplasm-undertyper — dekker NHL/CLL-populasjoner, ikke klassisk HL spesifikt. |
+| [30799261](https://pubmed.ncbi.nlm.nih.gov/30799261/) | 2019 | Gjennomgang | The Lancet. Oncology | Kommentar om duvelisib i indolent Non-Hodgkins lymfom. |
+| [31580408](https://pubmed.ncbi.nlm.nih.gov/31580408/) | 2019 | Gjennomgang | Am J Health-Syst Pharm | Oppsummerer godkjente målrettede terapier for B- og T-cellelymfomer, inkludert duvelisib. |
+| [33616890](https://pubmed.ncbi.nlm.nih.gov/33616890/) | 2021 | Gjennomgang | Drugs | Ny terapi-tilnærming i folikulært lymfom, inkludert PI3K-inhibitorer. |
+| [32356174](https://pubmed.ncbi.nlm.nih.gov/32356174/) | 2020 | Gjennomgang | Curr Treat Options Oncol | Gjennomgår PI3K-inhibitorer (inkludert duvelisib) som målrettet terapi i lymfom generelt; ingen HL-spesifikke data. |
+| [33132100](https://pubmed.ncbi.nlm.nih.gov/33132100/) | 2021 | Gjennomgang | Clin Lymphoma Myeloma Leuk | Diskuterer neste generasjons PI3K-inhibitorers potensial i B-celle NHL. |
+| [29191916](https://pubmed.ncbi.nlm.nih.gov/29191916/) | 2018 | Fase 1 klinisk studie | Blood | Original fase 1 dose-eskalerings-studie som etablerte duvelisibs kliniske aktivitet i avanserte hematologiske malignianser (CLL, NHL-undertyper). |
+| [36882482](https://pubmed.ncbi.nlm.nih.gov/36882482/) | 2023 | Preklinisk/mekanistisk | Scientific Reports | Viser at PI3Kγ/δ-inhibisjon forstyrrer mantelcellelymfom (en NHL-subtype) proliferasjon og migrasjon. |
+| [27872741](https://pubmed.ncbi.nlm.nih.gov/27872741/) | 2016 | Gjennomgang | Mediterr J Hematol Infect Dis | Gjennomgår nye legemidler, inkludert PI3K-inhibitorer, i folikulært lymfom. |
+| [32658557](https://pubmed.ncbi.nlm.nih.gov/32658557/) | 2020 | Gjennomgang | Future Oncology | Gjennomgår PI3K-klasse-inhibitorbruk i Non-Hodgkins lymfom. |
 
-**No publication in this evidence set specifically studies classical Hodgkin lymphoma.**
-
----
-
-## Taiwan Market Information
-
-Duvelisib currently holds **no marketing authorization in Taiwan** (`market_status`: Not marketed / Not Marketed; `total_licenses`: 0). No license records are available to tabulate.
+**Ingen publikasjon i denne bevisserien studerer spesifikt klassisk Hodgkins lymfom.**
 
 ---
 
-## Cytotoxicity
+## Taiwan markedsinformasjon
 
-Duvelisib is an antineoplastic agent (approved for hematologic malignancies — CLL/SLL, follicular lymphoma), so this section applies.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (small-molecule PI3K-δ/γ dual inhibitor) — not a conventional cytotoxic chemotherapeutic |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions (no quantified toxicity data in this evidence pack; the literature notes PI3K inhibitors as a class carry a "severe toxicity profile" that has led to restricted use — PMID 35899388, 33275709) |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Duvelisib har for tiden **ingen markedsføringsgodkjenning i Taiwan** (`market_status`: Ikke markedsført / Not Marketed; `total_licenses`: 0). Ingen lisensregistreringer er tilgjengelige for tabulering.
 
 ---
 
-## Safety Considerations
+## Cytotoksisitet
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and DDI data are all listed as data gaps in this evidence pack; DG001 — TFDA package insert warnings/contraindications — is flagged as a **Blocking** gap, meaning this candidate cannot proceed to the S1 safety pre-screen until resolved.)
+Duvelisib er et antineoplastisk middel (godkjent for hematologiske malignianser — CLL/SLL, folikulært lymfom), så denne seksjonen gjelder.
+
+| Punkt | Innhold |
+|------|---------|
+| Cytotoksisitetsklassifisering | Målrettet terapi (lite molekyl PI3K-δ/γ dual inhibitor) — ikke en konvensjonell cytotoksisk kjemoterapi |
+| Myelosuppresjon-risiko | Vennligst referer til pakningsemballasjevarsler og forholdsregler (ingen kvantifiserte toksisitetsdata i denne bevisserien; litteraturen noterer at PI3K-inhibitorer som en klasse bærer en "alvorlig toksisitetsprofil" som har ført til begrenset bruk — PMID 35899388, 33275709) |
+| Emetogenisitetsklassifisering | Vennligst referer til pakningsemballasjevarsler og forholdsregler |
+| Overvåkingspunkter | Vennligst referer til pakningsemballasjevarsler og forholdsregler |
+| Håndteringsbeskyttelse | Vennligst referer til pakningsemballasjevarsler og forholdsregler |
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vennligst referer til pakningsemballasjen for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og DDI-data er alle oppført som datamangler i denne bevisserien; DG001 — TFDA-pakningsemballasjevarsler/kontraindikasjoner — er flagget som et **blokkerende** manko, noe som betyr at denne kandidaten ikke kan fortsette til S1-sikkerhetspre-screeningen før dette er løst.)
 
-**Rationale:**
-The evidence cited for the Hodgkin lymphoma prediction is built almost entirely on Non-Hodgkin Lymphoma trials and literature — a probable disease-entity mislabeling rather than genuine mechanistic support — leaving the actual HL-specific evidence base at essentially zero. Combined with a Blocking safety data gap (no TFDA package insert on file) and no Taiwan market presence, this candidate does not meet the threshold to proceed.
+---
 
-**To proceed, the following is needed:**
-- Verify and correct the disease-entity labeling on the NCT/PMID records currently mapped to "Hodgkin's Lymphoma" (likely an NHL/HL confusion) before re-scoring this candidate
-- Obtain the TFDA package insert (warnings, contraindications) to close Blocking gap DG001 and enable the S1 safety pre-screen
-- Obtain confirmed mechanism-of-action documentation from DrugBank to close High-severity gap DG002
-- If genuine interest in Hodgkin lymphoma remains, a dedicated early-phase trial enrolling a confirmed classical HL population would be required — no such trial currently exists
-- **Recommend evaluating rank-9 "B-cell neoplasm" as the priority candidate instead** — it is supported by L1 evidence (completed Phase 3 DUO trial, NCT02004522) and aligns with Duvelisib's already-established global approval in CLL/SLL and follicular lymphoma, making it a substantially stronger repurposing case within this same evidence pack
+## Konklusjon og neste trinn
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Bevisene som siteres for Hodgkins lymfom-prediksjonen er bygget nesten utelukkende på Non-Hodgkins Lymfom-forsøk og litteratur — en sannsynlig datafeil ved merking av sykdomsenhet snarere enn genuint mekanistisk støtte — som etterlater det faktiske HL-spesifikke bevisgrunnlaget ved praktisk talt null. Kombinert med et blokkerende sikkerhetsdatamanko (ingen TFDA-pakningsemballasje på fil) og ingen Taiwan markedstilstedeværelse, oppfyller ikke denne kandidaten terskelen for å kunne fortsette.
+
+**For å kunne fortsette, er følgende nødvendig:**
+- Bekreft og korriger sykdomsenhetsmerkingen på NCT/PMID-postene som for tiden er kartlagt til "Hodgkins Lymfom" (sannsynlig en NHL/HL-forvirring) før denne kandidaten re-scores
+- Innhent TFDA-pakningsemballasjen (advarsler, kontraindikasjoner) for å lukke det blokkerende manko DG001 og muliggjøre S1-sikkerhetspre-screeningen
+- Innhent bekreftet dokumentasjon om virkningsmekanisme fra DrugBank for å lukke manko DG002 av høy alvorlighetsgrad
+- Hvis genuint interesse i Hodgkins lymfom gjenstår, vil et dedikert tidlig-fase forsøk som foretar en bekreftet klassisk HL-populasjon være nødvendig — intet slikt forsøk eksisterer for tiden
+- **Anbefales å evaluere rang-9-kandidaten "B-cellesvulst" som prioritet i stedet** — den er støttet av L1-bevis (fullført fase 3 DUO-forsøk, NCT02004522) og samordner med duvelisibs allerede etablerte global godkjenning i CLL/SLL og folikulært lymfom, noe som gjør den til et vesentlig sterkere omgjennomformål-tilfelle innenfor denne samme bevisserien
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

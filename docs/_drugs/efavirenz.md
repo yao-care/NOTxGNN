@@ -29,77 +29,78 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Efavirenz: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
+# Efavirenz: Fra HIV-1-infeksjon til Simian Immunodeficiency Virus-infeksjon
 
-## One-Sentence Summary
+## Sammenfatting i én setning
 
-Efavirenz is a non-nucleoside reverse transcriptase inhibitor (NNRTI) established for HIV-1 infection treatment (reflected consistently across the supporting literature, though not explicitly listed in this evidence pack).
-The TxGNN model predicts it may be relevant to **Simian Immunodeficiency Virus (SIV) infection**,
-but the supporting evidence base consists almost entirely of **preclinical macaque-model studies (16 publications)** and a single **withdrawn, enrollment-zero trial**, with no confirmed human clinical development for this specific indication.
+Efavirenz er en ikke-nukleosid revers transkriptase-inhibitor (NNRTI) etablert for behandling av HIV-1-infeksjon (reflektert konsekvent gjennom den støttende litteraturen, selv om det ikke er eksplisitt oppført i denne bevissamlingen).
+TxGNN-modellen predikerer at det kan være relevant for **Simian Immunodeficiency Virus (SIV)-infeksjon**,
+men bevisgrunnlaget består nesten utelukkende av **prekliniske makakmodellstudier (16 publikasjoner)** og en eneste **trukket tilbake, null påmelding prøve**, uten bekreftet menneskelig klinisk utvikling for denne spesifikke indikasjonen.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | HIV-1 infection (inferred from consistent literature context; not explicitly captured in `taiwan_regulatory` data) |
-| Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L4 (preclinical/mechanistic studies only) |
-| Norway Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | HIV-1-infeksjon (utledet fra konsekvent litteraturkontekst; ikke eksplisitt fanget i `taiwan_regulatory` data) |
+| Predikert ny indikasjon | Simian immunodeficiency virus-infeksjon |
+| TxGNN-prediksjonspoengsum | 99.80% |
+| Bevisnivå | L4 (kun prekliniske/mekanistiske studier) |
+| Markedsstatus i Norge | Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Hold |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed mechanism of action data is not available in this evidence pack (`original_moa: [Data Gap]`). Based on the supporting literature, efavirenz is a well-characterized NNRTI that inhibits HIV-1 reverse transcriptase, and its clinical use for HIV-1 infection is well established in the broader literature context accompanying this evidence pack.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelig i denne bevissamlingen (`original_moa: [Data Gap]`). Basert på den støttende litteraturen er efavirenz en velkarakterisert NNRTI som hemmer HIV-1-revers transkriptase, og dens kliniske bruk for HIV-1-infeksjon er veletablert i den bredere litteraturkonteksten som følger med denne bevissamlingen.
 
-The predicted indication, "simian immunodeficiency virus infection," is not a human disease — SIV is the macaque analog of HIV used to build the RT-SHIV chimeric virus model (SIV backbone with HIV-1 reverse transcriptase inserted) specifically so that HIV-targeted NNRTIs like efavirenz can be tested in nonhuman primates. Mechanistically, this is coherent: because efavirenz's target (HIV-1 RT) is deliberately engineered into the RT-SHIV virus, efavirenz is pharmacologically active against it. However, this represents a **research/animal-model use case rather than a novel human therapeutic indication**, and should not be interpreted as a new clinical repurposing opportunity in the conventional sense.
+Den predikerte indikasjonen, "simian immunodeficiency virus-infeksjon," er ikke en menneskesykdom — SIV er primatanalogen av HIV som brukes for å konstruere den RT-SHIV-kimeriske virusmodellen (SIV-rygg med HIV-1-revers transkriptase innsatt) spesielt slik at HIV-målrettede NNRTIer som efavirenz kan testes i ikke-menneskelige primater. Mekanistisk sett er dette koherent: fordi efavirenz sitt mål (HIV-1 RT) bevisst er konstruert inn i RT-SHIV-viruset, er efavirenz farmakologisk aktivt mot det. Dette representerer imidlertid en **forskning/dyremodell-bruksfall snarere enn en ny menneskelig terapeutisk indikasjon**, og bør ikke tolkes som en ny klinisk omposisjonering-mulighet i konvensjonell forstand.
 
-It is worth noting that the second-ranked prediction ("feline acquired immunodeficiency syndrome," i.e., FIV in cats) shows the same pattern — real efavirenz-containing HIV trials (e.g., ATRIPLA in NCT01263015) appear in the evidence set, but only because ATRIPLA is the human comparator drug in trials of *unrelated* investigational compounds (dolutegravir/GSK1349572), not because of an FIV-specific human study.
+Det er verdt å merke seg at den andre-rangerte prediksjonen ("felin ervervede immunmangelssyndrom," dvs. FIV i katter) viser samme mønster — reelle efavirenz-inneholdende HIV-prøver (f.eks. ATRIPLA i NCT01263015) vises i bevissettet, men bare fordi ATRIPLA er det menneskelige sammenligningslegemiddelet i prøver av *urelaterte* eksperimentelle forbindelser (dolutegravir/GSK1349572), ikke på grunn av en FIV-spesifikk menneskelig studie.
 
-## Clinical Trial Evidence
+## Klinisk prøvebevis
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Prøvenummer | Fase | Status | Påmelding | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | NA | Withdrawn | 0 | Study of HIV/SIV viral decay kinetics with integrase inhibitor raltegravir in nonhuman primate models; withdrawn with zero enrollment, providing no usable efficacy data for efavirenz specifically |
+| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | NA | Trukket tilbake | 0 | Studie av HIV/SIV virusnedbrytin gskinetikk med integrase-inhibitor raltegravir i ikke-menneskelige primater; trukket tilbake med null påmelding, hvilket ikke gir brukbare effektivitetsdata for efavirenz spesielt |
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [35856680](https://pubmed.ncbi.nlm.nih.gov/35856680/) | 2022 | Preclinical (NHP model) | Antimicrob Agents Chemother | Mass spectrometry imaging of antiretroviral (incl. efavirenz) tissue distribution vs. viral RNA and fibrosis in RT-SHIV-infected macaque spleens |
-| [24777106](https://pubmed.ncbi.nlm.nih.gov/24777106/) | 2014 | Preclinical (NHP model) | Antimicrob Agents Chemother | Enhanced 4–5 drug HAART regimens improve RT-SHIV viral decay kinetics in rhesus macaques |
-| [24505452](https://pubmed.ncbi.nlm.nih.gov/24505452/) | 2014 | Preclinical (NHP model) | PLoS One | Characterizes residual viremia and lack of viral evolution in RT-SHIV macaque HAART model |
-| [26559632](https://pubmed.ncbi.nlm.nih.gov/26559632/) | 2015 | Preclinical (NHP model) | Retrovirology | Well-mixed plasma/tissue viral populations in RT-SHIV macaques suggest no ongoing tissue replication during ART |
-| [22933296](https://pubmed.ncbi.nlm.nih.gov/22933296/) | 2012 | Preclinical (NHP model) | J Virol | Ultrasensitive PCR detects pre-existing drug-resistant RT-SHIV variants in macaques prior to ART |
-| [21084490](https://pubmed.ncbi.nlm.nih.gov/21084490/) | 2011 | Preclinical (NHP model) | J Virol | Genetic diversity of RT-SHIV persists in macaques despite efavirenz-containing ART |
-| [21289110](https://pubmed.ncbi.nlm.nih.gov/21289110/) | 2011 | Preclinical (mechanistic) | J Virol | Gag-Pol/clathrin interaction study in HIV-1 and related primate lentiviruses |
-| [20032180](https://pubmed.ncbi.nlm.nih.gov/20032180/) | 2010 | Preclinical (NHP model) | J Virol | Identifies viral sanctuaries persisting during HAART in the RT-SHIV macaque AIDS model |
-| [20668516](https://pubmed.ncbi.nlm.nih.gov/20668516/) | 2010 | Preclinical (NHP model) | PLoS One | Viral decay kinetics characterized in HAART-treated RT-SHIV macaque model |
-| [19889213](https://pubmed.ncbi.nlm.nih.gov/19889213/) | 2009 | Preclinical (NHP model) | Retrovirology | RT-SHIV subpopulation dynamics in macaques during short-course efavirenz monotherapy followed by combination ART |
+| [35856680](https://pubmed.ncbi.nlm.nih.gov/35856680/) | 2022 | Preklinisk (NHP-modell) | Antimicrob Agents Chemother | Massespectrometrisk avbildning av antiretroviral (inkl. efavirenz) vevsdistribusjon kontra viral RNA og fibrose i RT-SHIV-infiserte primat-milter |
+| [24777106](https://pubmed.ncbi.nlm.nih.gov/24777106/) | 2014 | Preklinisk (NHP-modell) | Antimicrob Agents Chemother | Forbedret HAART-regimer med 4-5 legemidler forbedrer RT-SHIV-virusnedbrytin gskinetikk hos rhesus-makaker |
+| [24505452](https://pubmed.ncbi.nlm.nih.gov/24505452/) | 2014 | Preklinisk (NHP-modell) | PLoS One | Karakteriserer residuell viremi og mangel på virusevolusjon i RT-SHIV-makak HAART-modell |
+| [26559632](https://pubmed.ncbi.nlm.nih.gov/26559632/) | 2015 | Preklinisk (NHP-modell) | Retrovirology | Velblandede plasma/vevs virale populasjoner i RT-SHIV-makaker antyder ingen pågående vevreplikasjon under ART |
+| [22933296](https://pubmed.ncbi.nlm.nih.gov/22933296/) | 2012 | Preklinisk (NHP-modell) | J Virol | Ultrafølsom PCR detekterer pre-eksisterende legemiddelresistente RT-SHIV-varianter i makaker før ART |
+| [21084490](https://pubmed.ncbi.nlm.nih.gov/21084490/) | 2011 | Preklinisk (NHP-modell) | J Virol | Genetisk mangfold av RT-SHIV vedvarer i makaker til tross for efavirenz-inneholdende ART |
+| [21289110](https://pubmed.ncbi.nlm.nih.gov/21289110/) | 2011 | Preklinisk (mekanistisk) | J Virol | Gag-Pol/klathrin-interaksjonsstudie i HIV-1 og relaterte primat-lentiviruser |
+| [20032180](https://pubmed.ncbi.nlm.nih.gov/20032180/) | 2010 | Preklinisk (NHP-modell) | J Virol | Identifiserer virale fristed som vedvarer under HAART i RT-SHIV-makak AIDS-modellen |
+| [20668516](https://pubmed.ncbi.nlm.nih.gov/20668516/) | 2010 | Preklinisk (NHP-modell) | PLoS One | Virusnedbrytin gskinetikk karakterisert i HAART-behandlet RT-SHIV-makak-modell |
+| [19889213](https://pubmed.ncbi.nlm.nih.gov/19889213/) | 2009 | Preklinisk (NHP-modell) | Retrovirology | RT-SHIV-subpopulasjons dynamikk i makaker under kortkurs efavirenz-monoterapi etterfulgt av kombinasjons-ART |
 
-*Additional publications (e.g., PMID 15328115, 15564466, 15919889, 19195672, 15040537, 17045247) further support the RT-SHIV/efavirenz macaque model but are omitted here for brevity.*
+*Ytterligere publikasjoner (f.eks. PMID 15328115, 15564466, 15919889, 19195672, 15040537, 17045247) gir videre støtte til RT-SHIV/efavirenz-makakmodellen men er utelatt her av korthetshensyn.*
 
-## Norway Market Information
+## Informasjon om det norske markedet
 
-No marketing authorization data is available — efavirenz is currently **not marketed** in this jurisdiction (`total_licenses: 0`).
+Ingen autorisasjonsdata for markedsføring er tilgjengelig — efavirenz er for øyeblikket **ikke markedsført** i denne rettsordenen (`total_licenses: 0`).
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information. (All safety fields in this evidence pack — key warnings, contraindications, and drug interactions — are currently data gaps.)
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Alle sikkerhetsfelt i denne bevissamlingen — viktige advarsler, kontraindikasjoner og legemiddelinteraksjoner — er for øyeblikket datalakuner.)
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Hold**
 
-**Rationale:**
-The top-ranked predicted indication ("simian immunodeficiency virus infection") is an animal-model disease rather than a human clinical indication, and the sole associated clinical trial was withdrawn with zero enrollment. Evidence Level L4 (preclinical only), combined with a **Blocking** data gap on TFDA/label safety information and missing MOA data, means this candidate is not ready for further evaluation.
+**Begrunnelse:**
+Den høyest-rangerte predikerte indikasjonen ("simian immunodeficiency virus-infeksjon") er en dyremodell-sykdom snarere enn en menneskelig klinisk indikasjon, og den eneste tilknyttede kliniske prøven ble trukket tilbake med null påmelding. Bevisnivå L4 (kun preklinisk), kombinert med en **Blokkering**-datalakune på TFDA/merketikett-sikkerhetsinformasjon og manglende MOA-data, betyr at denne kandidaten ikke er klar for videre evaluering.
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain official label warnings/contraindications before any S1 safety screening
-- Resolve DG002: obtain formal MOA data from DrugBank to support mechanistic rationale
-- Clarify the actual human-relevant indication being targeted — the current "SIV infection" and "feline AIDS" predictions reflect nonhuman research models, not repurposable human diseases; re-run or re-map TxGNN output against a human-disease ontology filter
-- Confirm real-world marketing/regulatory status, since 0 authorizations are currently on file
+**For å fortsette kreves følgende:**
+- Løs DG001 (Blokkering): få offisielle merketikett-advarsler/kontraindikasjoner før S1 sikkerhetskontroll
+- Løs DG002: få formelle MOA-data fra DrugBank for å støtte mekanistisk begrunnelse
+- Klargjør den faktiske menneske-relevante indikasjonen som blir målrettet — de nåværende "SIV-infeksjon" og "felin AIDS"-prediksjoner reflekterer ikke-menneskelige forskningsmodeller, ikke omposisjonerbare menneskesykdommer; kjør eller kartlegg TxGNN-utgang på nytt mot et menneskesykdom-ontologi-filter
+- Bekreft reell-verdens markedsføring/regulatorisk status, siden 0 autorisasjoner for øyeblikket er på fil
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

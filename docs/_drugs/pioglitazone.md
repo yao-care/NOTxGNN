@@ -29,95 +29,96 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Pioglitazone: From Type 2 Diabetes Mellitus to Opsismodysplasia
+# Pioglitazone: Fra type 2-diabetes mellitus til opsismodysplasi
 
-## One-Sentence Summary
+## Sammenfatting på en setning
 
-Pioglitazone is a thiazolidinedione (TZD)-class insulin sensitizer historically used for type 2 diabetes mellitus.
-The TxGNN model's top-ranked prediction in this evidence pack is **Opsismodysplasia**, a rare skeletal dysplasia,
-but this candidate has **0 clinical trials** and **0 supporting publications**, and the model's own rationale flags it as likely knowledge-graph noise rather than a genuine signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Type 2 Diabetes Mellitus (based on known pharmacology; no Norway license/indication text available in this evidence pack) |
-| Predicted New Indication | Opsismodysplasia |
-| TxGNN Prediction Score | 99.59% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Pioglitazone er et insulinfølsomhetsfremmende stoff i tiazolidindion-klassen (TZD) som historisk har blitt brukt ved type 2-diabetes mellitus.
+TxGNN-modellens høyest rangerte prediksjon i denne bevissamlingen er **opsismodysplasi**, en sjelden skjelettdysplasi,
+men denne kandidaten har **0 kliniske forsøk** og **0 støttende publikasjoner**, og modellens egen begrunnelse flagger det som sannsynlig kunnskapsgrafen-støy snarere enn et genuint signal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigoversikt
 
-Currently, detailed mechanism of action data is not available (data gap DG002, flagged as High severity). Based on known information, pioglitazone is a PPAR-γ agonist that acts as an insulin sensitizer, with established efficacy in type 2 diabetes through improved peripheral glucose uptake and pancreatic beta-cell function preservation.
-
-Opsismodysplasia, however, is a genetic skeletal dysplasia caused by *INPPL1* mutations affecting bone growth-plate signaling. There is no established mechanistic pathway connecting PPAR-γ agonism to *INPPL1*-mediated skeletal development. The evidence pack's own repurposing rationale is explicit on this point: the high TxGNN score likely reflects sparse knowledge-graph connectivity around this rare-disease node rather than a real pharmacological relationship, and the drug's actual rank (4832) among all candidate diseases is far outside any range that would normally support prioritization.
-
-Given the absence of any clinical trial, observational, or mechanistic literature specific to this pairing, this prediction should be treated as a hypothesis-generation artifact rather than an actionable repurposing lead.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Type 2-diabetes mellitus (basert på kjent farmakologi; ingen norsk lisens/indikasjonsformalisme tilgjengelig i denne bevissamlingen) |
+| Predikert ny indikasjon | Opsismodysplasi |
+| TxGNN-prediksjonscore | 99,59% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | **Avvent** |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+For tiden er det ikke tilgjengelig detaljert informasjon om virkningsmekanisme (datakløft DG002, flagget som høy alvorlighetsgrad). Basert på tilgjengelig informasjon er pioglitazone en PPAR-γ-agonist som fungerer som et insulinfølsomhetsfremmende stoff, med etablert effektivitet ved type 2-diabetes gjennom forbedret perifer glukoseopptak og bevaring av bukspyttkjertels betaceller-funksjon.
 
----
+Opsismodysplasi er imidlertid en genetisk skjelettdysplasi forårsaket av *INPPL1*-mutasjoner som påvirker signalering i vekstplatene i knoklene. Det eksisterer ingen etablert mekanistisk sammenheng mellom PPAR-γ-agonisme og *INPPL1*-mediiert skjelettutviklingen. Bevissamlingens egen omformål-begrunnelse er eksplisitt på dette punktet: den høye TxGNN-scoren reflekterer sannsynligvis sparsomme forbindelser i kunnskapsgrafen rundt denne sjeldensjukdom-noden snarere enn en virkelig farmakologisk sammenheng, og stoffets faktiske rangering (4832) blant alle kandidatsykdommer ligger langt utenfor ethvert område som normalt ville støtte prioritering.
 
-## Norway Market Information
-
-Pioglitazone is not currently marketed in Norway under this evidence pack (`market_status: Not marketed`, `total_licenses: 0`). No authorization records are available for review.
+Gitt fraværet av alle kliniske forsøk, observasjons- eller mekanistisk litteratur spesifikk for denne kombinasjonen, bør denne prediksjonen behandles som en artefakt fra hypotesegenerering snarere enn en handlingsorientert omformål-kandidat.
 
 ---
 
-## Other Candidate Indications Considered (Not Prioritized)
+## Kliniske forsøk
 
-The evidence pack included 8 additional low-ranked candidates, all similarly assessed as L5 / Hold due to weak or absent mechanistic and clinical support:
-
-| Rank | Disease | TxGNN Score | Key Issue |
-|------|---------|-------------|-----------|
-| 2 | Focal stiff limb syndrome | 99.50% | Autoimmune/GABA-ergic disease; no mechanistic or empirical link to PPAR-γ |
-| 3 | Classic stiff person syndrome | 99.50% | Same as above |
-| 4 | Thiamine-responsive dysfunction syndrome | 99.48% | Underlying defect (SLC19A2) not addressed by insulin sensitization |
-| 5 | Drug-induced localized lipodystrophy | 99.30% | Mechanistically contradictory — TZDs are also known to *cause* fat redistribution |
-| 6 | Centrifugal lipodystrophy | 99.26% | Pediatric, idiopathic; no supporting evidence |
-| 7 | Pressure-induced localized lipoatrophy | 99.24% | Mechanical/local etiology; weak systemic PPAR-γ link |
-| 8 | Idiopathic localized lipodystrophy | 99.19% | Etiology unknown; no directed evidence |
-| 9 | Pancreatic agenesis | 99.18% | 9 retrieved publications are all general T2DM/TZD reviews — keyword mismatch, not disease-specific evidence |
-
-None of the 9 candidates reach beyond L5 evidence, and none currently justify escalation past model-prediction stage.
+Ingen relaterte kliniske forsøk er registrert for tiden.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are not available in this evidence pack — DG001 is flagged as a Blocking data gap, preventing initial safety-stage evaluation.)
+Ingen relatert litteratur er tilgjengelig for tiden.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformasjon for Norge
 
-**Decision: Hold**
+Pioglitazone er ikke for tiden markedsført i Norge i henhold til denne bevissamlingen (`market_status: Ikke markedsført`, `total_licenses: 0`). Ingen autorisasjonsposter er tilgjengelige for gjennomgang.
 
-**Rationale:**
-All 9 predicted indications are L5 (model prediction only), with no clinical trials and either no literature or literature that is mismatched to the specific disease. The top-ranked candidate (opsismodysplasia) has no plausible mechanistic pathway and is explicitly flagged by the model's own rationale as likely graph noise. Combined with a Blocking safety data gap (DG001) and absent MOA data (DG002), there is currently no basis to advance any candidate past S0.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001: obtain TFDA/regulatory label warnings and contraindications for pioglitazone
-- Resolve DG002: confirm detailed MOA via DrugBank API query
-- If pursuing the pancreatic agenesis candidate (rank 9), manually verify whether any of the 9 retrieved publications are truly disease-specific rather than general T2DM/TZD reviews
-- Given the uniformly weak signal across all 9 candidates, consider re-running TxGNN with rank-based (not raw score) thresholding before further evidence collection is commissioned
+## Andre kandidatindikasjoner som ble vurdert (ikke prioritert)
+
+Bevissamlingen inkluderte 8 ytterligere lavtrangerte kandidater, alle på samme måte vurdert som L5 / Avvent på grunn av svak eller fraværende mekanistisk og klinisk grunnlag:
+
+| Rangering | Sykdom | TxGNN-score | Nøkkelspørsmål |
+|-----------|--------|-------------|----------------|
+| 2 | Fokal stiv lemme-syndrom | 99,50% | Autoimmun/GABAerg sykdom; ingen mekanistisk eller empirisk sammenheng til PPAR-γ |
+| 3 | Klassisk stiv person-syndrom | 99,50% | Det samme som ovenfor |
+| 4 | Tiamin-responsiv dysfunksjonssyndrom | 99,48% | Underliggende defekt (SLC19A2) løses ikke av insulinfølsomhetsfremmende behandling |
+| 5 | Legemiddelinducert lokalisert lipodystrofi | 99,30% | Mekanistisk motstridende — TZDer er også kjent for å *forårsake* fettomfordeling |
+| 6 | Sentrifugal lipodystrofi | 99,26% | Pediatrisk, idiopatisk; ingen støttende bevis |
+| 7 | Trykkinducert lokalisert lipoatrofi | 99,24% | Mekanisk/lokal etiologi; svak systemisk PPAR-γ-sammenheng |
+| 8 | Idiopatisk lokalisert lipodystrofi | 99,19% | Etiologi ukjent; ingen rettet bevis |
+| 9 | Bukspyttkjertels agenesе | 99,18% | 9 hentet publikasjoner er alle generelle T2DM/TZD-oversikter — søkeord-mismatch, ikke sykdomsspesifikk bevis |
+
+Ingen av de 9 kandidatene når ut over L5-bevis, og ingen begrunner for tiden eskalering forbi modellprediksjonstrinnet.
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og legemiddelinteraksjondata er ikke tilgjengelig i denne bevissamlingen — DG001 er flagget som en blokkerende datakløft som forhindrer initial vurdering i sikkerhetsstadiet.)
+
+---
+
+## Konklusjon og neste skritt
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Alle 9 predikerte indikasjoner er L5 (kun modellprediksjon), uten kliniske forsøk og med enten ingen litteratur eller litteratur som ikke er relevant for den spesifikke sykdommen. Den høyest rangerte kandidaten (opsismodysplasi) har ingen troverdig mekanistisk sammenheng og er eksplisitt flagget av modellens egen begrunnelse som sannsynlig kunnskapsgrafen-støy. Kombinert med en blokkerende sikkerhetsdatakløft (DG001) og fraværende MOA-data (DG002), eksisterer det for tiden intet grunnlag for å fremme noen kandidat forbi S0.
+
+**For å kunne fortsette, er følgende nødvendig:**
+- Løse DG001: få TFDA/regulatoriske merkevareadvarsler og kontraindikasjoner for pioglitazone
+- Løse DG002: bekrefte detaljert virkningsmekanisme via DrugBank API-spørring
+- Dersom man forfølger bukspyttkjertels agenesе-kandidaten (rangering 9), manuelt verifisere hvorvidt noen av de 9 hentet publikasjoner virkelig er sykdomsspesifikk snarere enn generelle T2DM/TZD-oversikter
+- Gitt det jevnt svake signalet på tvers av alle 9 kandidater, vurder å kjøre TxGNN på nytt med rangbasert (ikke rå score) terskelbestemmelse før videre bevisinnsamling iverksettes
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,102 +29,103 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Ezetimibe: From Hypercholesterolemia to Hyperlipoproteinemia
+# Ezetimibe: Fra hyperkolesterolemi til hyperlipoproteinemi
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Ezetimibe is an NPC1L1 inhibitor that blocks intestinal cholesterol absorption, established as add-on therapy for hypercholesterolemia and dyslipidemia.
-> The TxGNN model's top signal, **Hyperlipoproteinemia**, is supported by **80+ clinical trials** and **20+ publications** — but this evidence pack's own mechanistic rationale flags it as the drug's *existing* approved use rather than a genuinely new indication.
-> A more novel, but much weaker, signal appears further down the ranked list (see caveat below).
+> Ezetimibe er en NPC1L1-inhibitor som blokkerer intestinal kolesterolabsorpsjon, etablert som tilleggsbehandling for hyperkolesterolemi og dyslipidemier.
+> TxGNN-modellens toppresultat, **Hyperlipoproteinemi**, støttes av **80+ kliniske forsøk** og **20+ publikasjoner** — men denne bevissamlingens egen mekanistiske begrunnelse markerer det som legemidlets *eksisterende* godkjente bruk snarere enn et genuint nytt bruksområde.
+> Et mer novelt, men betydelig svakere signal vises lenger ned på den rangerte listen (se forbehold nedenfor).
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not documented in Norway regulatory filings (drug not marketed locally, 0 authorizations); literature in this pack confirms ezetimibe's established use is LDL-C-lowering / hypercholesterolemia therapy |
-| Predicted New Indication | Hyperlipoproteinemia |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L1 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Originalindikasjon | Ikke dokumentert i norske regulatoriske dokumenter (legemiddel ikke markedsført lokalt, 0 autoriseringer); litteratur i denne pakken bekrefter at ezetimbes etablerte bruk er LDL-C-senking / hyperkolesterolemibehandling |
+| Predikert ny indikasjon | Hyperlipoproteinemi |
+| TxGNN-prediksjonspoengsum | 99.63% |
+| Bevisnivå | L1 |
+| Norges markedsstatus | ✗ Ikke markedsført |
+| Antall autoriseringer | 0 |
+| Anbefalt beslutning | Gå videre med sikringsmekanismer |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, no structured MOA field is available (`original_moa: [Data Gap]`), but the evidence pack's mechanistic rationale supplies the underlying pharmacology: **ezetimibe selectively inhibits the NPC1L1 (Niemann-Pick C1-Like 1) transporter on the intestinal brush border**, blocking absorption of dietary and biliary cholesterol. This lowers LDL-C and produces a synergistic lipid-lowering effect when combined with statins.
+For tiden er det ingen strukturert virkningsmåte-felt tilgjengelig (`original_moa: [Data Gap]`), men bevissamlingens mekanistiske begrunnelse gir den underliggende farmakologien: **ezetimibe blokkerer selektivt NPC1L1 (Niemann-Pick C1-Like 1)-transportøren på tarmens børstegrenseflate**, blokkerer absorpsjon av dietetisk og biliær kolesterol. Dette senker LDL-C og produserer en synergistisk lipidsenkende effekt når det kombineres med statiner.
 
-**Important caveat:** the model's rank-1 prediction, *hyperlipoproteinemia*, is explicitly annotated in this evidence pack's own `repurposing_rationale` as *"the drug's existing approved indication, not a new-use signal"* (原文: 此為藥物之既有核准適應症，非新用途訊號). The rank-2 prediction, *familial hypercholesterolemia*, is similarly described as a *"standard adjunct therapy"* already in clinical use — not a repurposing candidate. Both are therefore best read as **model validation** (TxGNN correctly recovering known indications) rather than novel repurposing opportunities.
+**Viktig forbehold:** modellens rang-1-prediksjon, *hyperlipoproteinemi*, er eksplisitt kommentert i bevissamlingens egen `repurposing_rationale` som *"legemidlets eksisterende godkjente indikasjon, ikke et nytt brukssignal"* (原文: 此為藥物之既有核准適應症，非新用途訊號). Rang-2-prediksjonen, *familiær hyperkolesterolemi*, er på samme måte beskrevet som en *"standard tilleggsbehandling"* allerede i klinisk bruk — ikke en ombrukskandidat. Begge er derfor best lest som **modellvalidering** (TxGNN korrekt gjenhenter kjente indikasjoner) snarere enn nye ombruksmuligheter.
 
-The genuinely exploratory signal in this candidate set is rank 3, *hypercholesterolemia due to CYP7A1 (cholesterol 7α-hydroxylase) deficiency* — a rare monogenic bile-acid synthesis disorder where NPC1L1 blockade could theoretically reduce cholesterol/bile-acid recycling. However, this carries only **L4 evidence** (mechanistic extrapolation, no clinical trials) and is staged as a **Research Question**, not ready for further action. Rank 4 (CETP deficiency) is unsupported (L5, Hold) since that condition typically presents with elevated, not deficient, HDL-C — mechanistically disconnected from ezetimibe's action.
+Det genuint utforsket signalet i dette kandidatsett er rang 3, *hyperkolesterolemi på grunn av CYP7A1 (kolesterol 7α-hydroxylase)-mangel* — en sjelden monogen gallesyresynteseforstyrrelse der NPC1L1-blokkering teoretisk kunne redusere kolesterol/gallesyre-resirkulering. Imidlertid har dette kun **L4-bevis** (mekanistisk ekstrapolering, ingen kliniske forsøk) og er arrangert som et **Forsøksspørsmål**, ikke klart for videre tiltak. Rang 4 (CETP-mangel) er ustøttet (L5, Hold) siden denne tilstanden typisk presenteres med forhøyet, ikke mangel, HDL-C — mekanistisk frakoblet fra ezetimbes virkning.
 
 ---
 
-## Clinical Trial Evidence
+## Kliniske forsøksbevis
 
-*(Evidence for rank-1 prediction: Hyperlipoproteinemia)*
+*(Bevis for rang-1-prediksjon: Hyperlipoproteinemi)*
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT00093899](https://clinicaltrials.gov/study/NCT00093899) | Phase 3 | Completed | 611 | Ezetimibe/simvastatin + fenofibrate coadministration lowers cholesterol and triglycerides in mixed hyperlipidemia |
-| [NCT06005597](https://clinicaltrials.gov/study/NCT06005597) | Phase 3 | Completed | 407 | Obicetrapib + ezetimibe fixed-dose combination on top of maximal lipid-lowering therapy in HeFH/ASCVD |
-| [NCT01763827](https://clinicaltrials.gov/study/NCT01763827) | Phase 3 | Completed | 615 | Ezetimibe as active comparator vs evolocumab for LDL-C lowering |
-| [NCT01043380](https://clinicaltrials.gov/study/NCT01043380) | Phase 4 | Completed | 245 | PRECISE-IVUS: ezetimibe+statin vs statin alone on coronary plaque regression by intravascular ultrasound |
-| [NCT00092833](https://clinicaltrials.gov/study/NCT00092833) | Phase 3 | Terminated | 49 | Ezetimibe 10 mg/day open-label treatment-use study in homozygous FH / homozygous sitosterolemia |
-| [NCT00092560](https://clinicaltrials.gov/study/NCT00092560) | Phase 3 | Completed | 587 | Fenofibrate + ezetimibe coadministration efficacy/safety in mixed hyperlipidemia |
-| [NCT00349284](https://clinicaltrials.gov/study/NCT00349284) | Phase 3 | Completed | 181 | Fenofibrate vs ezetimibe vs combination in Type IIb dyslipidemia with metabolic syndrome features |
-| [NCT00843661](https://clinicaltrials.gov/study/NCT00843661) | Phase 4 | Unknown | 60 | Ezetimibe+fenofibrate vs pravastatin monotherapy in HIV patients on protease inhibitors |
-| [NCT03434613](https://clinicaltrials.gov/study/NCT03434613) | Phase 4 | Completed | 64 | Statin monotherapy vs statin/ezetimibe combination effect on hepatic steatosis in NAFLD |
-| [NCT04862260](https://clinicaltrials.gov/study/NCT04862260) | Early Phase 1 | Active, not recruiting | 3 | Exploratory cholesterol-metabolism reprogramming (ezetimibe+atorvastatin+evolocumab) in pancreatic adenocarcinoma |
+| [NCT00093899](https://clinicaltrials.gov/study/NCT00093899) | Fase 3 | Fullført | 611 | Ezetimibe/simvastatin + fenofibratt samadministrering senker kolesterol og triglyserider ved blandet hyperlipidemier |
+| [NCT06005597](https://clinicaltrials.gov/study/NCT06005597) | Fase 3 | Fullført | 407 | Obicetrapib + ezetimibe fastdose-kombinasjon i tillegg til maksimal lipidsenkende terapi ved HeFH/ASCVD |
+| [NCT01763827](https://clinicaltrials.gov/study/NCT01763827) | Fase 3 | Fullført | 615 | Ezetimibe som aktiv komparator mot evolocumab for LDL-C-senking |
+| [NCT01043380](https://clinicaltrials.gov/study/NCT01043380) | Fase 4 | Fullført | 245 | PRECISE-IVUS: ezetimibe+statin mot statin alene på koronar plakk-regresjon ved intravaskulær ultralyd |
+| [NCT00092833](https://clinicaltrials.gov/study/NCT00092833) | Fase 3 | Avsluttet | 49 | Ezetimibe 10 mg/dag åpen-label behandlingsforsøk ved homozygot FH / homozygot sitosterolemi |
+| [NCT00092560](https://clinicaltrials.gov/study/NCT00092560) | Fase 3 | Fullført | 587 | Fenofibratt + ezetimibe samadministrering effektivitet/sikkerhet ved blandet hyperlipidemier |
+| [NCT00349284](https://clinicaltrials.gov/study/NCT00349284) | Fase 3 | Fullført | 181 | Fenofibratt mot ezetimibe mot kombinasjon ved type IIb dyslipidemier forbundet med metabolsk syndrom |
+| [NCT00843661](https://clinicaltrials.gov/study/NCT00843661) | Fase 4 | Ukjent | 60 | Ezetimibe+fenofibratt mot pravastatin-monoterapi ved HIV-pasienter på proteasehemmere |
+| [NCT03434613](https://clinicaltrials.gov/study/NCT03434613) | Fase 4 | Fullført | 64 | Statinmonoterapi mot statin/ezetimibe-kombinasjons effekt på hepatisk steatose ved NAFLD |
+| [NCT04862260](https://clinicaltrials.gov/study/NCT04862260) | Tidlig fase 1 | Aktiv, ikke rekrutterer | 3 | Utforskende kolesterol-metabolismeomprogrammering (ezetimibe+atorvastatin+evolocumab) ved pankreatisk adenokarsinom |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-*(Evidence for rank-1 prediction: Hyperlipoproteinemia)*
+*(Bevis for rang-1-prediksjon: Hyperlipoproteinemi)*
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [40347969](https://pubmed.ncbi.nlm.nih.gov/40347969/) | 2025 | RCT | Lancet | TANDEM trial: obicetrapib+ezetimibe fixed-dose combination significantly reduces LDL-C |
-| [41206969](https://pubmed.ncbi.nlm.nih.gov/41206969/) | 2026 | RCT | JAMA | Oral PCSK9 inhibitor enlicitide evaluated in HeFH patients not at goal on standard lipid-lowering therapy (incl. ezetimibe) |
-| [25939291](https://pubmed.ncbi.nlm.nih.gov/25939291/) | 2015 | Review | Cardiology Clinics | Ezetimibe among established add-on therapies for familial hypercholesterolemia |
-| [38599725](https://pubmed.ncbi.nlm.nih.gov/38599725/) | 2024 | Review | Indian Heart Journal | FH underdiagnosis/undertreatment; ezetimibe's role in standard management |
-| [35593194](https://pubmed.ncbi.nlm.nih.gov/35593194/) | 2022 | Review | J Cardiovasc Pharmacol Ther | PCSK9 inhibitors reviewed against background statin/ezetimibe therapy in statin-intolerant and FH patients |
-| [40682836](https://pubmed.ncbi.nlm.nih.gov/40682836/) | 2025 | — | Molecular Medicine Reports | Review of current hyperlipidemia drug classes, including cholesterol absorption inhibitors |
-| [33766264](https://pubmed.ncbi.nlm.nih.gov/33766264/) | 2021 | — | J American College of Cardiology | New/emerging LDL-C and ApoB-lowering therapies positioned alongside ezetimibe/PCSK9i |
-| [30702994](https://pubmed.ncbi.nlm.nih.gov/30702994/) | 2019 | — | Circulation Research | Overview of cholesterol-lowering agent classes, including ezetimibe's NPC1L1 mechanism |
-| [19654419](https://pubmed.ncbi.nlm.nih.gov/19654419/) | 2009 | — | Drug and Therapeutics Bulletin | Direct review/update on ezetimibe efficacy and safety evidence at the time |
-| [34480646](https://pubmed.ncbi.nlm.nih.gov/34480646/) | 2021 | — | Current Cardiology Reports | Global burden and treatment approaches for FH, including ezetimibe |
+| [40347969](https://pubmed.ncbi.nlm.nih.gov/40347969/) | 2025 | RCT | Lancet | TANDEM-forsøk: obicetrapib+ezetimibe fastdose-kombinasjon reduserer LDL-C betydelig |
+| [41206969](https://pubmed.ncbi.nlm.nih.gov/41206969/) | 2026 | RCT | JAMA | Oral PCSK9-inhibitor enlicitide evaluert ved HeFH-pasienter ikke ved målnivå på standard lipidsenkende terapi (inkl. ezetimibe) |
+| [25939291](https://pubmed.ncbi.nlm.nih.gov/25939291/) | 2015 | Gjennomgang | Cardiology Clinics | Ezetimibe blant etablerte tilleggsbehandlinger for familiær hyperkolesterolemi |
+| [38599725](https://pubmed.ncbi.nlm.nih.gov/38599725/) | 2024 | Gjennomgang | Indian Heart Journal | FH-underdiagnose/underbehandling; ezetimbes rolle i standardbehandling |
+| [35593194](https://pubmed.ncbi.nlm.nih.gov/35593194/) | 2022 | Gjennomgang | J Cardiovasc Pharmacol Ther | PCSK9-hemmere gjennomgått mot bakgrunn statin/ezetimibe-terapi ved statin-intolerant og FH-pasienter |
+| [40682836](https://pubmed.ncbi.nlm.nih.gov/40682836/) | 2025 | — | Molecular Medicine Reports | Gjennomgang av gjeldende hyperlipidemier-legemiddelklasser, inkl. kolesterolabsorpsjonshemmere |
+| [33766264](https://pubmed.ncbi.nlm.nih.gov/33766264/) | 2021 | — | J American College of Cardiology | Nye/oppdukkende LDL-C- og ApoB-senkende terapier plassert ved siden av ezetimibe/PCSK9i |
+| [30702994](https://pubmed.ncbi.nlm.nih.gov/30702994/) | 2019 | — | Circulation Research | Oversikt over kolesterolsenkende agentklasser, inkl. ezetimbes NPC1L1-mekanisme |
+| [19654419](https://pubmed.ncbi.nlm.nih.gov/19654419/) | 2009 | — | Drug and Therapeutics Bulletin | Direkte gjennomgang/oppdatering av ezetimbes effektivitets- og sikkerhetsbeviser på den tiden |
+| [34480646](https://pubmed.ncbi.nlm.nih.gov/34480646/) | 2021 | — | Current Cardiology Reports | Global byrde og behandlingstilnærminger for FH, inkl. ezetimibe |
 
 ---
 
-## Norway Market Information
+## Norges markedsinformasjon
 
-No authorization records are present in the evidence pack — `market_status = Not marketed (Not Marketed)` with `total_licenses = 0`. Ezetimibe currently has no registered product license in Norway per available data.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (`key_warnings`, `contraindications`, and DDI records are all flagged as data gaps in this evidence pack, and DDI query status is `not_found`.)
+Ingen autorisasjonsposter finnes i bevissamlingen — `market_status = Ikke markedsført (Not Marketed)` med `total_licenses = 0`. Ezetimibe har for tiden ingen registrert produktlisens i Norge etter tilgjengelige data.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails**
+Se pakningsvedlegget for sikkerhetsinformasjon. (`key_warnings`, `contraindications` og DDI-registre er alle flagget som datakløfter i denne bevissamlingen, og DDI-søkestatus er `not_found`.)
 
-**Rationale:**
-The rank-1 signal (hyperlipoproteinemia, L1 evidence) is backed by extensive Phase 3 RCT data, but this evidence pack itself identifies it as the drug's *existing* indication rather than a novel repurposing opportunity — so the "Proceed with Guardrails" call should be understood as validating ezetimibe's established use, not greenlighting a new indication. The one candidate that would represent genuine repurposing (CYP7A1-deficiency hypercholesterolemia, rank 3) remains at L4/Research Question stage and is not yet actionable.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Norwegian regulatory label data (DG001, Blocking) — required before any S1 safety pre-assessment
-- Formal DrugBank MOA confirmation (DG002, High) to replace the rationale-derived mechanistic summary used here
-- If pursuing the CYP7A1-deficiency signal: dedicated preclinical/mechanistic studies, since no clinical trials currently exist for this ultra-rare indication
-- Re-scope the "new indication" framing for this candidate, since ranks 1–2 substantially overlap with ezetimibe's known label
+## Konklusjon og neste trinn
+
+**Beslutning: Gå videre med sikringsmekanismer**
+
+**Begrunnelse:**
+Rang-1-signalet (hyperlipoproteinemi, L1-bevis) støttes av omfattende fase 3 RCT-data, men denne bevissamlingen selv identifiserer det som legemidlets *eksisterende* indikasjon snarere enn en ny ombruksmulighet — så "Gå videre med sikringsmekanismer"-kallet skal forstås som validering av ezetimbes etablerte bruk, ikke grønnlys for en ny indikasjon. Den ene kandidaten som ville representere genuint ombruk (CYP7A1-mangelshyperkolesterolemi, rang 3) forblir ved L4/Forsøksspørsmål-stadium og er ennå ikke handlingsbar.
+
+**For å gå videre er det nødvendig med:**
+- TFDA/norsk regulatorisk etikett-data (DG001, Blocking) — nødvendig før noen S1 sikkerhet pre-assessment
+- Formell DrugBank-virkningsmåte-bekreftelse (DG002, High) for å erstatte den rationale-utledet mekanistiske oppsummeringen brukt her
+- Hvis man forfølger CYP7A1-mangel-signalet: dedikert preklinisk/mekanistisk forskning, siden det ikke finnes kliniske forsøk for denne ultra-sjeldne indikasjonen
+- Omdefiner rammeverket for "ny indikasjon" for denne kandidaten, siden rangene 1–2 i vesentlig grad overlapper med ezetimbes kjente etikett
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

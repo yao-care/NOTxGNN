@@ -29,77 +29,78 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Ranolazine: From Unspecified Original Indication to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Ranolazin: Fra uspesifisert originalindikasjon til nefrogen syndrom av upassende antidiurese
 
-## One-Sentence Summary
+## Oppsummering i en setning
 
-> Ranolazine's original indication and mechanism of action are not available in the current evidence pack.
-> The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**,
-> with **0 clinical trials** and **0 publications** currently supporting this direction — this is a pure computational prediction with no mechanistic or clinical corroboration.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no approved indication on record (drug not marketed in Norway) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis |
-| TxGNN Prediction Score | 99.65% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Ranolazins originalindikasjon og virkningsmekanisme er ikke tilgjengelige i den nåværende bevissamlingen.
+> TxGNN-modellen forutsier at det kan være effektivt for **Nefrogen Syndrom av Upassende Antidiurese (NSIAD)**,
+> med **0 kliniske studier** og **0 publikasjoner** som for øyeblikket støtter denne retningen — dette er en ren beregningsbasert prediksjon uten mekanistisk eller klinisk støtte.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action (MOA) data for ranolazine is not available in the source database. As a result, no molecular pathway connecting ranolazine to the pathophysiology of NSIAD — which is driven by gain-of-function mutations in the AVPR2 gene and dysregulated activation of renal collecting-duct water channels — can be established or verified.
-
-Because the drug's original indication is also unrecorded in this evidence pack, no relationship between an original indication and NSIAD can be assessed. This candidate rank (score 0.996) is derived solely from TxGNN knowledge-graph embedding similarity, without any explainable biological pathway. The possibility that this represents graph noise or a spurious association (e.g., arising from shared drug-class or side-effect nodes rather than a true therapeutic mechanism) cannot be excluded.
-
-Given the absence of MOA, clinical, and literature support, this prediction should currently be treated as a hypothesis-generating signal only, not as a basis for further development action.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Punkt | Innhold |
+|------|--------|
+| Originalindikasjon | Ikke tilgjengelig — ingen godkjent indikasjon registrert (legemiddel ikke markedsført i Norge) |
+| Predikert ny indikasjon | Nefrogen syndrom av upassende antidiurese |
+| TxGNN prediksjonspoeng | 99.65% |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Stans |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen fornuftig?
 
-Currently no related literature available
+For øyeblikket er detaljerte data om virkningsmekanisme (MOA) for ranolazin ikke tilgjengelige i kildedatabasen. Som et resultat kan ingen molekylær vei som forbinder ranolazin til patofysiologien til NSIAD — som er drevet av gain-of-function-mutasjoner i AVPR2-genet og dysregulert aktivering av vannkanaler i nyres samlegang — etableres eller bekreftes.
 
----
+Fordi legemidlets originalindikasjon også er uregistrert i denne bevissamlingen, kan ingen relasjon mellom originalindikasjon og NSIAD vurderes. Denne kandidatrangen (poeng 0.996) er utledet utelukkende fra TxGNN-kunnskapsgrafs embedding-likhet, uten noen forklarbar biologisk vei. Muligheten for at dette representerer grafstøy eller en spuriøs assosiasjon (f.eks. fra delte legemiddelklasse- eller bivirknings-noder i stedet for en ekte terapeutisk mekanisme) kan ikke utelukkes.
 
-## Norway Market Information
-
-No marketing authorizations on record — ranolazine is not currently marketed in Norway (0 licenses).
+Gitt fraværet av MOA-, klinisk og litteraturstøtte, bør denne prediksjonen for øyeblikket behandles som bare et hypotesegenererende signal, ikke som grunnlag for videre utviklingshandling.
 
 ---
 
-## Safety Considerations
+## Evidens fra kliniske studier
 
-Please refer to the package insert for safety information.
+For øyeblikket ingen relaterte kliniske studier registrert
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For øyeblikket ingen relatert litteratur tilgjengelig
 
-**Rationale:**
-This candidate is supported only by a TxGNN embedding-similarity score (L5, S0 decision stage), with no mechanistic rationale, no clinical trials, no literature, and no regulatory/safety data available. There is no basis at this time to advance beyond model prediction.
+---
 
-**To proceed, the following is needed:**
-- Ranolazine mechanism of action (MOA) data (DrugBank API or equivalent source)
-- Original approved indication(s) for ranolazine, to assess biological plausibility relative to NSIAD
-- TFDA/regulatory label warnings and contraindications (currently blocking S1 safety screening)
-- Any preclinical or case-level evidence linking ranolazine to vasopressin/AVPR2 pathway activity
-- Confirmation of whether this prediction is corroborated in other markets' evidence packs (if available), to rule out a graph-noise artifact
+## Markedsinformasjon for Norge
+
+Ingen markedsføringstillatelser registrert — ranolazin er ikke for øyeblikket markedsført i Norge (0 lisenser).
+
+---
+
+## Sikkerhetshensyn
+
+Se pakkesedlen for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Stans**
+
+**Begrunnelse:**
+Denne kandidaten støttes kun av et TxGNN embedding-similarity-poeng (L5, S0 beslutningsfase), uten mekanistisk begrunnelse, uten kliniske studier, uten litteratur og uten tilgjengelige regulatoriske/sikkerhetdata. Det er intet grunnlag på dette tidspunktet for å komme videre enn modellprediksjon.
+
+**Følgende er nødvendig for å gå videre:**
+- Ranolazin virkningsmekanisme (MOA) data (DrugBank API eller tilsvarende kilde)
+- Original godkjente indikasjon(er) for ranolazin, for å vurdere biologisk sannsynlighet i forhold til NSIAD
+- TFDA/regulatoriske etikettadvarsler og kontraindikasjoner (blokkerer for øyeblikket S1 sikkerhetsvscreening)
+- All preklinisk eller case-nivå evidens som knytter ranolazin til vasopressin/AVPR2-veiaktivitet
+- Bekrefting av hvorvidt denne prediksjonen er bekreftet i andre markeders bevissamlinger (hvis tilgjengelig), for å ekskludere en grafstøy-artefakt
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

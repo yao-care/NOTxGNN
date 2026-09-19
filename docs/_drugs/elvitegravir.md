@@ -29,68 +29,67 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-Using no additional skill — this is a direct, fully-specified report-generation task; I'll follow the provided template exactly against the given Evidence Pack.
+# Elvitegravir: Fra HIV-1-infeksjon til Feline Immunodeficiency Virus (FIV)-infeksjon
 
-# Elvitegravir: From HIV-1 Infection to Feline Immunodeficiency Virus (FIV) Infection
+## Sammendrag på én setning
 
-## One-Sentence Summary
+Elvitegravir er kjent i bevissamlingens egne mekanistiske notater som en HIV-1-integrase-strandoverføringshemmer (INSTI); imidlertid er det ikke tilstede noen formell opprinnelig indikasjon eller MOA-registrering i kildedata (begge er flagget som datamangler).
+TxGNN-modellens toppforutsigelse er **Feline Acquired Immunodeficiency Syndrome (FIV)** — en veterinær, ikke-menneskelig sykdom — med en poengsum på **99.89%**, men denne rangeringen er støttet av **0 kliniske forsøk** og **0 publikasjoner**.
+En andrerangert kandidat, Simian Immunodeficiency Virus (SIV)-infeksjon, har faktisk støttende litteratur (7 artikler), men disse er forskningstoolstudier av HIV-medikamentresistans i makak-modeller, ikke en menneskelig klinisk indikasjon. Samlet sett er beviset som støtter denne kandidaten som en genuin menneskelig legemiddelomlegging-mulighet veldig svakt.
 
-Elvitegravir is known in the evidence pack's own mechanistic notes as an HIV-1 integrase strand transfer inhibitor (INSTI); however, no formal original-indication or MOA record is present in the source data (both are flagged as data gaps).
-The TxGNN model's top prediction is **Feline Acquired Immunodeficiency Syndrome (FIV)** — a veterinary, non-human disease — with a score of **99.89%**, but this ranking is supported by **0 clinical trials** and **0 publications**.
-A second-ranked candidate, Simian Immunodeficiency Virus (SIV) infection, does have supporting literature (7 papers), but these are HIV-drug-resistance research-tool studies in macaque models, not a human clinical indication. Overall, the evidence supporting this candidate as a genuine human drug-repurposing opportunity is very weak.
+## Hurtigoversikt
 
-## Quick Overview
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke angitt i bevissamlingen (`original_indications` tom; mekanistiske notater beskriver elvitegravir som en HIV-1-integrasehemmer) |
+| Forutsagt ny indikasjon | Feline Acquired Immunodeficiency Syndrome (FIV) |
+| TxGNN-forutsigelsespoeng | 99.89% |
+| Bevisnivå | L5 |
+| Status på norskmarkedet | Ikke markedsført (Ikke markedsført) |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Vente |
 
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in evidence pack (`original_indications` empty; mechanistic notes describe elvitegravir as an HIV-1 integrase inhibitor) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (FIV) |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 |
-| Norway Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+## Hvorfor er denne forutsigelsen rimelig?
 
-## Why is This Prediction Reasonable?
+For tiden er detaljerte virkningsmekanismedata ikke tilgjengelig (datamangel DG002). Basert på de mekanistiske notatene innebygd i bevissamlingen, er elvitegravir en HIV-1-integrase-strandoverføringshemmer (INSTI), en klasse som blokkerer retroviralt DNA-integrasjon inn i vertens genom.
 
-Currently, detailed mechanism of action data is not available (data gap DG002). Based on the mechanistic notes embedded in the evidence pack, elvitegravir is an HIV-1 integrase strand transfer inhibitor (INSTI), a class that blocks retroviral DNA integration into the host genome.
+Den topprangerte forutsagte indikasjonen — Feline Immunodeficiency Virus (FIV)-infeksjon — er biologisk knyttet til elvitegravirs mekanisme bare gjennom et bredt taksonomiargument: FIV og HIV er begge lentivirus, og integraserettet hemming er teoretisk tversartsanvendbar. Imidlertid er denne begrunnelsen eksplisitt notert i bevissamlingen som **kun teoretisk**, uten noen in vitro eller in vivo FIV-spesifikk data, og FIV er en veterinær (felint) sykdom snarere enn et typisk menneskelig legemiddelomleggingsmål.
 
-The top-ranked predicted indication — feline immunodeficiency virus (FIV) infection — is biologically linked to elvitegravir's mechanism only through a broad taxonomic argument: FIV and HIV are both lentiviruses, and integrase-targeted inhibition is theoretically cross-species applicable. However, this rationale is explicitly noted in the evidence pack as **theoretical only**, with no in vitro or in vivo FIV-specific data, and FIV is a veterinary (feline) disease rather than a typical human drug-repurposing target.
+En sekundær kandidat, SIV-infeksjon (rang 2), har sterkere mekanistisk støtte — flere in vitro- og ikke-menneske-primatstudier bekrefter elvitegravirs antiviralt aktivitet og resistensprofil mot SIV/SHIV, gitt den høye homologien mellom SIV og HIV-integrasesekvenser. Kritisk imidlertid, disse studiene bruker SIV/SHIV-makak-modeller rent som **forskningsverktøy for å studere HIV-medikamentresistans**, ikke som et behandlingsmål for en apesykdom. Heller ingen av de forutsagte indikasjonene representerer derfor en troverdig kandidat for menneskelig legemiddelomlegging under standard legemiddelomleggingskriterier.
 
-A secondary candidate, SIV infection (rank 2), has stronger mechanistic support — multiple in vitro and non-human-primate studies confirm elvitegravir's antiviral activity and resistance profile against SIV/SHIV, given the high homology between SIV and HIV integrase sequences. Critically, however, these studies use SIV/SHIV macaque models purely as **research tools to study HIV drug resistance**, not as a treatment target for a monkey disease. Neither predicted indication, therefore, represents a credible human repurposing candidate under standard drug-repurposing criteria.
+## Bevis fra kliniske forsøk
 
-## Clinical Trial Evidence
+For tiden ingen relaterte kliniske forsøk registrert
 
-Currently no related clinical trials registered
+## Litteraturbevis
 
-## Literature Evidence
+For tiden ingen relatert litteratur tilgjengelig
 
-Currently no related literature available
+*(Merknad: den topprangerte forutsagte indikasjonen, FIV, har ingen støttende litteratur. Rang-2-kandidaten, SIV-infeksjon, har 7 støttende publikasjoner — primært in vitro-resistens-/mekanisme-studier i SIV/SHIV-modeller — men disse tjener som HIV-integrasehemmer-forskningsverktøy snarere enn bevis for en distinkt menneskelig indikasjon, og er derfor ikke tabulert her i henhold til rang-1-rapporteringskonvensjonen.)*
 
-*(Note: the top-ranked predicted indication, FIV, has no supporting literature. The rank-2 candidate, SIV infection, has 7 supporting publications — primarily in vitro resistance/mechanism studies in SIV/SHIV models — but these serve as HIV integrase-inhibitor research tools rather than evidence for a distinct human indication, and are therefore not tabulated here per the rank-1 reporting convention.)*
+## Norges markedsinformasjon
 
-## Norway Market Information
+Dette legemidlet har for tiden ingen markedsføringstillatelse i Norge (Ikke markedsført / Ikke markedsført); `total_licenses` = 0 og ingen lisensoppføringer er tilgjengelig i bevissamlingen.
 
-This drug currently has no marketing authorization in Norway (Not marketed / Not Marketed); `total_licenses` = 0 and no license records are available in the evidence pack.
+## Sikkerhetshensyn
 
-## Safety Considerations
+Se pakningsvedlegget for sikkerhetsinformasjon.
 
-Please refer to the package insert for safety information.
+*(Merknad: datamangel DG001 — TFDA/lokalt pakningsvedlegg advarsler og kontraindikasjoner — er flagget som et **blokkert** alvorlighetsmangler, som betyr at denne kandidaten ennå ikke kan bestå innledende sikkerhetsvurdering (S1).)*
 
-*(Note: data gap DG001 — TFDA/local package insert warnings and contraindications — is flagged as a **Blocking** severity gap, meaning this candidate cannot yet pass initial safety screening (S1).)*
+## Konklusjon og neste steg
 
-## Conclusion and Next Steps
+**Beslutning: Vente**
 
-**Decision: Hold**
+**Begrunnelse:**
+Den topprangerte forutsagte indikasjonen (FIV) er en veterinærsykdom uten kliniske forsøk eller litteraturstøtte (Bevisnivå L5, beslutningsfase S0), og er ikke et troverdig menneskelig legemiddelomleggingsmål. Neste beste kandidat (SIV-infeksjon) er støttet bare av HIV-resistensforskningsverktøystudier i dyremodeller, ikke en genuin sykdomsindikasjon. Kombinert med et **blokkert** datamangel (DG001) og manglende MOA-dokumentasjon (DG002), møter denne kandidaten ikke terskelen for å gå videre.
 
-**Rationale:**
-The top-ranked predicted indication (FIV) is a veterinary disease with no clinical trial or literature support (Evidence Level L5, decision stage S0), and is not a credible human repurposing target. The next-best candidate (SIV infection) is backed only by HIV-resistance research-tool studies in animal models, not a genuine disease indication. Combined with a Blocking safety data gap (DG001) and missing MOA documentation (DG002), this candidate does not meet the threshold to advance.
+**For å gå videre, kreves følgende:**
+- TFDA/regulatorisk pakningsvedlegg (advarsler, kontraindikasjoner) — nødvendig for å fjerne det **blokkerte** datamangler (DG001) før noen S1-sikkerhetsvurdering
+- Bekreftet MOA-dokumentasjon via DrugBank API (DG002)
+- Ny screening av TxGNN-resultater for å identifisere om høyere-kvalitet, menneskelig-relevante forutsagte indikasjoner finnes utover de nåværende topp 3 (rang 3, en sjelden nevrouviklingsforstyrrelselse, antas å være modelstøy uten biologisk plausibilitet)
+- Hvis interesse gjenstår i SIV-relatert forskningsvinkel, avklaring av tiltenkt menneskelig befolkning og klinisk translasjonsbarhet, siden nåværende bevis er begrenset til ikke-menneske-primat-medikamentresistans-modellering
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications) — required to clear the Blocking data gap (DG001) before any S1 safety review
-- Confirmed MOA documentation via DrugBank API (DG002)
-- Re-screening of TxGNN outputs to identify whether any higher-quality, human-relevant predicted indications exist beyond the current top 3 (rank 3, a rare neurodevelopmental disorder, is assessed as likely graph noise with no biological plausibility)
-- If any interest remains in the SIV-related research angle, clarification of intended human population and clinical translatability, since current evidence is confined to non-human-primate drug-resistance modeling
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,64 +29,65 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Aprepitant: From Chemotherapy-Induced Nausea and Vomiting to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Aprepitant: Fra kjemoterapiindusert kvalme og oppkast til nefrogen syndrom med upassende antidiurese
 
-## One-Sentence Summary
+## Oppsummering i en setning
 
-> Aprepitant is a neurokinin-1 (NK1)/substance P receptor antagonist, publicly known for use in preventing chemotherapy-induced and postoperative nausea and vomiting.
-> The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis**,
-> but currently **no clinical trials** and **no literature** support this specific direction — the model's own rationale states there is no known mechanistic link between NK1 antagonism and AVP receptor signaling.
+> Aprepitant er en neurokinin-1 (NK1)/substans P-reseptorantagonist, offentlig kjent for bruk i forebygging av kjemoterapiindusert og postoperativ kvalme og oppkast.
+> TxGNN-modellen predikerer at det kan være effektivt for **nefrogen syndrom med upassende antidiurese**,
+> men foreløpig **ingen kliniske studier** og **ingen litteratur** støtter denne spesifikke retningen — modellens egen begrunnelse angir at det ikke er kjent mekanistisk sammenheng mellom NK1-antagonisme og AVP-reseptor-signalering.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not captured in evidence pack (aprepitant is a known NK1/substance P receptor antagonist, commonly indicated for CINV/PONV) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Punkt | Innhold |
+|------|--------|
+| Opprinnelig indikasjon | Ikke inkludert i evidenspakken (aprepitant er en kjent NK1/substans P-reseptorantagonist, vanligvis indisert for CINV/PONV) |
+| Predikert ny indikasjon | Nefrogen syndrom med upassende antidiurese |
+| TxGNN-prediksjonspoengsum | 99.97% |
+| Evidensnivå | L5 |
+| Taiwan-markedsstatus | Ikke markedsført (Ikke markedsført) |
+| Antall autorisasjoner | 0 |
+| Anbefalt avgjørelse | Avvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available in the structured evidence pack. Based on the model's own rationale, aprepitant is known to be an NK1 (neurokinin-1/substance P receptor) antagonist. Its established pharmacology relates to substance P–mediated emetic pathways, not to arginine vasopressin (AVP) receptor signaling, which underlies nephrogenic syndrome of inappropriate antidiuresis.
+For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige i den strukturerte evidenspakken. Basert på modellens egen begrunnelse, er aprepitant kjent for å være en NK1 (neurokinin-1/substans P-reseptor) antagonist. Dens etablerte farmakologi er knyttet til substans P-formidlet kvalme-veier, ikke til arginin vasopressin (AVP) reseptor-signalering, som ligger til grunn for nefrogen syndrom med upassende antidiurese.
 
-The repurposing rationale explicitly states that this indication has no known intersection with the AVP signaling pathway, and that the high TxGNN score is purely data-driven rather than mechanism-supported. There is no plausible pharmacological bridge between the original NK1-antagonist activity and the pathophysiology of this predicted indication based on currently available information.
+Begrunnelsen for ombruk angir eksplisitt at denne indikasjonen ikke har kjent skjæringspunkt med AVP-signaleringsbanen, og at den høye TxGNN-poengsum er rent datadrevet snarere enn mekanisme-støttet. Det er ingen plausibel farmakologisk sammenheng mellom den opprinnelige NK1-antagonist-aktiviteten og patofysiologien til denne predikerte indikasjonen basert på foreløpig tilgjengelig informasjon.
 
-Given the absence of any mechanistic hypothesis grounded in existing pharmacology, this prediction should be treated as an exploratory signal only, not as a mechanistically motivated repurposing candidate.
+Gitt fraværet av enhver mekanistisk hypotese forankret i eksisterende farmakologi, bør denne prediksjonen behandles som et eksplorativt signal kun, ikke som en mekanisme-motivert ombruk-kandidat.
 
-## Clinical Trial Evidence
+## Kliniske studier
 
-Currently no related clinical trials registered.
+Det er foreløpig ingen relaterte kliniske studier registrert.
 
-## Literature Evidence
+## Litteraturbeviser
 
-Currently no related literature available.
+Det er foreløpig ingen relatert litteratur tilgjengelig.
 
-## Norway Market Information
+## Norske markedsinformasjon
 
-No Taiwan marketing authorizations were found for this product (market status: Not marketed / not marketed, 0 licenses on record).
+Ingen taiwanske markedsautorisasjoner ble funnet for dette produktet (markedsstatus: Ikke markedsført / ikke markedsført, 0 lisenser på rekord).
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-*(Note: TFDA label warnings/contraindications data is flagged as a **Blocking** data gap (DG001) — this evaluation cannot proceed to a full S1 safety assessment until this is resolved.)*
+*(Merk: TFDA-etikett-advarsler/kontraindikasjoner-data er flagget som en **blokkerende** datakluft (DG001) — denne evalueringen kan ikke gå videre til en fullstendig S1 sikkerhetsvurdering før dette er løst.)*
 
-## Conclusion and Next Steps
+## Konklusjon og neste skritt
 
-**Decision: Hold**
+**Avgjørelse: Avvent**
 
-**Rationale:**
-The prediction sits at evidence level L5 — a model score with no supporting clinical trials or literature, and the model's own rationale confirms no known mechanistic link to the original drug's pharmacology. Combined with a blocking gap in TFDA safety labeling data, there is currently no basis to advance this candidate beyond hypothesis generation.
+**Begrunnelse:**
+Prediksjonen befinner seg på evidensnivå L5 — en modellpoengsum uten støttende kliniske studier eller litteratur, og modellens egen begrunnelse bekrefter ingen kjent mekanistisk sammenheng med originallegemidlets farmakologi. Kombinert med en blokkerende datakluft i TFDA sikkerhetsetikett-data, er det foreløpig ingen grunnlag for å fremme denne kandidaten utover hypotesegenerering.
 
-**To proceed, the following is needed:**
-- TFDA label warnings/contraindications (DG001, Blocking) — required before any S1 safety evaluation
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Preclinical or mechanistic studies establishing a biological link between NK1 antagonism and AVP-mediated antidiuresis
-- Any clinical case reports, observational data, or trials specifically evaluating aprepitant in SIADH/nephrogenic antidiuresis-related conditions
+**For å gå videre er følgende nødvendig:**
+- TFDA etikett-advarsler/kontraindikasjoner (DG001, blokkering) — påkrevd før enhver S1 sikkerhetsvurdering
+- Bekreftet virkningsmekanisme-data fra DrugBank (DG002)
+- Prekliniske eller mekanistiske studier som etablerer en biologisk sammenheng mellom NK1-antagonisme og AVP-formidlet antidiurese
+- Enhver klinisk caserapport, observasjonsdata, eller studier som spesifikt evaluerer aprepitant i SIADH/nefrogen antidiurese-relaterte tilstander
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

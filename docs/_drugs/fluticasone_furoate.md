@@ -29,90 +29,91 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-# Fluticasone Furoate: From Corticosteroid Therapy to Atopic Eczema
+# Fluticasone Furoat: Fra kortikosteroidterapi til atopisk eksem
 
-## One-Sentence Summary
+## Sammenfatting på én setning
 
-> Fluticasone Furoate is a potent inhaled/intranasal corticosteroid; the evidence pack does not contain a structured original-indication record for this product (unmarketed in Norway), but it is broadly known as an ICS used for asthma and allergic rhinitis.
-> The TxGNN model predicts it may be effective for **Atopic Eczema**,
-> with **10 clinical trials** and **2 publications** currently supporting this direction — though most trials use the Propionate ester rather than Furoate itself.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in evidence pack (no Norway license records); generically known as an ICS for asthma/allergic rhinitis |
-| Predicted New Indication | Atopic Eczema |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L3 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Fluticasone furoat er et potent inhalert/nasalt kortikosteroid; bevissamlingen inneholder ikke en strukturert originalindikasjonsoversikt for dette produktet (ikke markedsført i Norge), men det er bredt kjent som et IKS brukt for astma og allergisk rhinitt.
+> TxGNN-modellen forutsier at det kan være effektivt for **Atopisk eksem**,
+> med **10 kliniske studier** og **2 publikasjoner** som for tiden støtter denne retningen — selv om de fleste studiene bruker propionatesteret i stedet for furoatet selv.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Detailed mechanism of action data (`original_moa`) is not available in the evidence pack. Based on the repurposing rationale, Fluticasone Furoate is described as a high-potency glucocorticoid receptor agonist that suppresses pro-inflammatory cytokines (IL-4, IL-13, TNF-α) and keratinocyte inflammatory responses — the standard mechanism by which topical corticosteroids control atopic dermatitis.
-
-The predicted link to atopic eczema is mechanistically plausible: corticosteroid receptor activation to suppress Th2-driven inflammation is a well-established therapeutic principle across allergic/inflammatory skin conditions. However, nearly all supporting clinical trials in this evidence pack use **Fluticasone Propionate**, not Fluticasone Furoate. The two are different ester forms with different systemic bioavailability (Furoate has lower systemic exposure), so mechanistic extrapolation is reasonable but not a direct molecular equivalence — this is an important caveat rather than confirmed cross-ester efficacy.
-
-Note: a related predicted indication in the same evidence pack, **bronchitis/COPD** (rank 2), has direct Furoate-specific RCT evidence (PMID 21977941) and is already a labeled use in combination products (e.g., fluticasone furoate/vilanterol) — that pathway represents label-extension rather than a novel repurposing hypothesis, and carries stronger (L2) evidence than the atopic eczema signal discussed here.
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Ikke spesifisert i bevissamlingen (ingen godkjenninger i Norge); generelt kjent som et IKS for astma/allergisk rhinitt |
+| Forutsagt ny indikasjon | Atopisk eksem |
+| TxGNN-prediksjonspoengsum | 99.98% |
+| Bevisnivå | L3 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Detaljert virkningsmekanisme-data (`original_moa`) er ikke tilgjengelig i bevissamlingen. Basert på begrunnelsen for omformål, beskrives fluticasone furoat som en høypotent glukokortikoidreseptor-agonist som undertrykker pro-inflammatoriske cytokiner (IL-4, IL-13, TNF-α) og inflammatoriske svar i keratinocytter — standardmekanismen som topiske kortikosteroider kontrollerer atopisk dermatitt med.
+
+Den forutsagte lenken til atopisk eksem er mekanistisk plausibel: glukokortikoidreseptoriaktivering for å undertrykke Th2-drevet inflammasjon er et veletablert terapeutisk prinsipp på tvers av allergiske/inflammatoriske hudsykdommer. Imidlertid bruker nesten alle støttende kliniske studier i denne bevissamlingen **fluticasone propionat**, ikke fluticasone furoat. De to er forskjellige esterformer med forskjellig systemisk biotilgjengelighet (furoat har lavere systemisk eksponering), så mekanistisk ekstrapolering er rimelig men ikke bekreftet ekvivalens på tvers av esterformer — dette er et viktig forbehold snarere enn bekreftet effektivitet.
+
+Merk: en relatert forutsagt indikasjon i samme bevissamling, **bronkitt/KOLS** (rangering 2), har direkte furoatspesifikke RCT-bevis (PMID 21977941) og er allerede en godkjent indikasjon i kombinasjonsprodukter (f.eks. fluticasone furoat/vilanterol) — den banen representerer merketikett-utvidelse snarere enn en ny omformål-hypotese, og har sterkere (L2) bevis enn atopisk eksem-signalet diskutert her.
+
+---
+
+## Klinisk studiebevis
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT00690105](https://clinicaltrials.gov/study/NCT00690105) | Phase 4 | Completed | 577 | Tacrolimus 0.1% vs Fluticasone (Propionate) 0.005% ointment in adults with facial "red face" atopic dermatitis |
-| [NCT00689832](https://clinicaltrials.gov/study/NCT00689832) | Phase 4 | Completed | 487 | Tacrolimus 0.03% vs Fluticasone 0.005% ointment in children ≥2y with moderate-severe AD |
-| [NCT03742414](https://clinicaltrials.gov/study/NCT03742414) | Phase 2 | Active, not recruiting | 398 | Proactive skin-barrier care + fluticasone propionate cream vs reactive therapy to prevent AD/food allergy progression in infants |
-| [NCT01915914](https://clinicaltrials.gov/study/NCT01915914) | Phase 4 | Completed | 107 | Intermittent (2x/week) fluticasone propionate 0.05% cream + moisturizer to reduce AD relapse risk in stabilized pediatric patients |
-| [NCT00616538](https://clinicaltrials.gov/study/NCT00616538) | Phase 4 | Completed | 121 | EpiCeram (non-steroidal) vs mid-strength fluticasone propionate 0.05% in pediatric moderate-severe AD |
-| [NCT04706559](https://clinicaltrials.gov/study/NCT04706559) | NA | Completed | 98 | Oral probiotic supplementation efficacy in children with AD (SCORAD index) — adjunctive, not steroid-focused |
-| [NCT00119158](https://clinicaltrials.gov/study/NCT00119158) | Phase 4 | Completed | 90 | Concomitant Elidel (pimecrolimus) 1% + Cutivate (fluticasone propionate) 0.05% in severe AD lesions |
-| [NCT00546000](https://clinicaltrials.gov/study/NCT00546000) | Phase 4 | Completed | 56 | Open-label HPA-axis safety evaluation of Cutivate (fluticasone propionate) lotion 0.05% in pediatric AD |
-| [NCT01772056](https://clinicaltrials.gov/study/NCT01772056) | Phase 3 | Terminated | 54 | Twice-weekly fluticasone propionate 0.05% maintenance to reduce AD relapse in children — trial terminated early |
-| [NCT07537751](https://clinicaltrials.gov/study/NCT07537751) | NA | Completed | 40 | Topical crisaborole 2% vs fluticasone propionate 0.05% in mild-moderate pediatric AD (SCORAD/ISGA outcomes) |
+| [NCT00690105](https://clinicaltrials.gov/study/NCT00690105) | Fase 4 | Fullført | 577 | Takrolimus 0.1% vs fluticasone (propionat) 0.005% salve hos voksne med ansikts-«rødt ansikt» atopisk dermatitt |
+| [NCT00689832](https://clinicaltrials.gov/study/NCT00689832) | Fase 4 | Fullført | 487 | Takrolimus 0.03% vs fluticasone 0.005% salve hos barn ≥2y med moderat-alvorlig AD |
+| [NCT03742414](https://clinicaltrials.gov/study/NCT03742414) | Fase 2 | Aktiv, ikke rekrutterer | 398 | Proaktiv hudbarriepleie + fluticasone propionat-krem vs reaktiv terapi for å forebygge AD/matallergiprogresjon hos spedbarn |
+| [NCT01915914](https://clinicaltrials.gov/study/NCT01915914) | Fase 4 | Fullført | 107 | Intermitterende (2x/uke) fluticasone propionat 0.05% krem + fuktighetsbevarende middel for å redusere AD-tilbakefall hos stabiliserte pediatriske pasienter |
+| [NCT00616538](https://clinicaltrials.gov/study/NCT00616538) | Fase 4 | Fullført | 121 | EpiCeram (ikke-steroid) vs fluticasone propionat med middels styrke 0.05% hos barn med moderat-alvorlig AD |
+| [NCT04706559](https://clinicaltrials.gov/study/NCT04706559) | NA | Fullført | 98 | Oral probiotisk supplementering effektivitet hos barn med AD (SCORAD-indeks) — tilleggsmiddel, ikke steroid-fokusert |
+| [NCT00119158](https://clinicaltrials.gov/study/NCT00119158) | Fase 4 | Fullført | 90 | Samtidig Elidel (pimecrolimus) 1% + Cutivate (fluticasone propionat) 0.05% på alvorlige AD-lesjoner |
+| [NCT00546000](https://clinicaltrials.gov/study/NCT00546000) | Fase 4 | Fullført | 56 | Åpen-label HPA-akse-sikkerhetsevaluering av Cutivate (fluticasone propionat) lotion 0.05% hos barn med AD |
+| [NCT01772056](https://clinicaltrials.gov/study/NCT01772056) | Fase 3 | Terminert | 54 | To ganger per uke fluticasone propionat 0.05% vedlikehold for å redusere AD-tilbakefall hos barn — studien ble terminert tidlig |
+| [NCT07537751](https://clinicaltrials.gov/study/NCT07537751) | NA | Fullført | 40 | Topisk crisaborol 2% vs fluticasone propionat 0.05% hos barn med mild-moderat AD (SCORAD/ISGA-resultater) |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Review | Neuroimmunomodulation | Reviews intranasal corticosteroid use across allergic rhinitis, asthma and atopic dermatitis, with focus on HPA-axis suppression risk |
-| [40066386](https://pubmed.ncbi.nlm.nih.gov/40066386/) | 2025 | Case Report | Indian J Otolaryngol Head Neck Surg | Case study on allergen immunotherapy in autoimmune patients; notes AIT application extends to atopic dermatitis |
+| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Oversikt | Neuroimmunomodulation | Gjennomgang av intranasalt kortikosteroidbruk på tvers av allergisk rhinitt, astma og atopisk dermatitt, med fokus på HPA-akse-suppressionsrisiko |
+| [40066386](https://pubmed.ncbi.nlm.nih.gov/40066386/) | 2025 | Kasuistikk | Indian J Otolaryngol Head Neck Surg | Kasuistikk om allergen-immunterapi hos pasienter med autoimmun sykdom; merker at AIT-applikasjon strekker seg til atopisk dermatitt |
 
 ---
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Currently no Norway market authorizations found for this product (`market_status`: Not Marketed, 0 licenses on record).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+For tiden er det ikke funnet noen godkjenninger for dette produktet på det norske markedet (`market_status`: Ikke markedsført, 0 lisenser registrert).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-**Rationale:**
-Evidence for Fluticasone Furoate specifically in atopic eczema is Level L3 (observational/uncontrolled and cross-ester extrapolation) — nearly all supporting trials use the Propionate ester, and the only Phase 3 RCT (NCT01772056) was terminated early with a small sample (n=54). The mechanism is plausible but not yet confirmed for the Furoate ester in this indication.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Norway package insert warnings and contraindications (currently a Blocking data gap — required before any S1 safety evaluation)
-- Confirmed mechanism of action (MOA) data specific to Fluticasone Furoate (High-severity data gap)
-- Direct Furoate-specific trial or pharmacokinetic bridging data for atopic dermatitis (most existing evidence is for Propionate)
-- Consider prioritizing the bronchitis/COPD signal (rank 2) instead, which has direct Furoate RCT evidence (PMID 21977941) and L2 evidence supporting "Proceed with Guardrails"
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Bevis for fluticasone furoat spesifikt ved atopisk eksem er nivå L3 (observasjons-/ukontrollerte og ekstrapolering på tvers av esterformer) — nesten alle støttende studier bruker propionatesteret, og den eneste fase 3-RCT (NCT01772056) ble terminert tidlig med et lite utvalg (n=54). Mekanismen er plausibel men ennå ikke bekreftet for furoatesteret ved denne indikasjonen.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA/Norge pakningsvedlegg advarsler og kontraindikasjoner (for tiden en blokkerende datamangel — påkrevd før noen S1-sikkerhetsevaluering)
+- Bekreftet virkningsmekanisme (MOA) data spesifikt for fluticasone furoat (datamangel av høy alvorlighetsgrad)
+- Direkte furoatspesifikk studie eller farmakokinetisk brodata for atopisk dermatitt (de fleste eksisterende bevis er for propionat)
+- Vurder å prioritere bronkitt/KOLS-signalet (rangering 2) i stedet, som har direkte furoat-RCT-bevis (PMID 21977941) og L2-bevis som støtter «Fortsett med forbehold»
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,81 +29,82 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **0** stk.
 
 </div>
 
-# Abiraterone Acetate: Evaluation Pending — No Predicted Indication Available
+# Abiraterone acetat: Evaluering avventer — ingen forutsagt indikasjon tilgjengelig
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-Abiraterone acetate is a CYP17A1 inhibitor originally developed for the treatment of metastatic castration-resistant prostate cancer (mCRPC). The TxGNN model has **not yet generated a predicted new indication** for this drug. The current evidence pack contains significant data gaps that must be resolved before evaluation can proceed.
+Abiraterone acetat er en CYP17A1-hemmer opprinnelig utviklet for behandling av metastatisk kastrationresistent prostatakrefft (mCRPC). TxGNN-modellen har **ikke ennå generert en forutsagt ny indikasjon** for dette legemidlet. Den nåværende bevissamlingen inneholder betydelige datahull som må løses før evaluering kan fortsette.
 
-## Quick Overview
+## Hurtigoversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Metastatic castration-resistant prostate cancer (mCRPC)¹ |
-| Predicted New Indication | — (No prediction available) |
-| TxGNN Prediction Score | — |
-| Evidence Level | L5 (No prediction or supporting studies) |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Metastatisk kastrationresistent prostatakrefft (mCRPC)¹ |
+| Forutsagt ny indikasjon | — (Ingen prediksjon tilgjengelig) |
+| TxGNN-prediksjonsresultat | — |
+| Bevisnivå | L5 (Ingen prediksjon eller støttende studier) |
+| Status på Taiwans marked | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | **Avvent** |
 
-> ¹ Based on globally established use; no TFDA licence data available in this evidence pack.
+> ¹ Basert på globalt etablert bruk; ingen TFDA-lisensdata tilgjengelig i denne bevissamlingen.
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, no new indication has been predicted by TxGNN for abiraterone acetate, so mechanistic plausibility cannot be assessed at this time.
+For tiden har ingen ny indikasjon blitt forutsagt av TxGNN for abiraterone acetat, så mekanistisk plausibilitet kan ikke vurderes på dette tidspunktet.
 
-For context, abiraterone acetate is a prodrug of abiraterone, which irreversibly inhibits CYP17A1 (17α-hydroxylase/C17,20-lyase), a key enzyme in androgen biosynthesis. By blocking androgen production in the testes, adrenal glands, and prostate tumour tissue, it suppresses tumour growth driven by androgen receptor signalling. It is globally approved (FDA, EMA) for use in combination with prednisone for mCRPC and metastatic high-risk castration-sensitive prostate cancer (mCSPC).
+For kontekst er abiraterone acetat et prodrug av abiraterone, som irreversibelt hemmer CYP17A1 (17α-hydroxylase/C17,20-lyase), et nøkkelenzym i androgenbiosyntesen. Ved å blokkere androgenproduktsjonen i testiklene, binyrenene og prostatakrefftvevsene, hemmer det tumorveksten som er drevet av androgenreseptorsignalering. Det er globalt godkjent (FDA, EMA) for bruk i kombinasjon med prednison for mCRPC og metastatisk høyrisiko kastrasjonssensitiv prostatakrefft (mCSPC).
 
-Detailed mechanism of action data was not included in the evidence pack (identified as Data Gap DG002). Once TxGNN generates a predicted indication, the MOA data should be retrieved from DrugBank to assess whether the CYP17A1 inhibition pathway — or secondary pharmacological effects — could be relevant to the new target disease.
+Detaljerte data om virkningsmekanisme var ikke inkludert i bevissamlingen (identifisert som datahull DG002). Når TxGNN genererer en forutsagt indikasjon, bør data om virkningsmekanisme hentes fra DrugBank for å vurdere om CYP17A1-hemningsbanen – eller sekundære farmakologiske effekter – kunne være relevant for den nye målsykdommen.
 
-## Clinical Trial Evidence
+## Klinisk forsøksbevis
 
-Currently no predicted indication has been generated; therefore, no indication-specific clinical trial search was performed.
+For tiden har ingen forutsagt indikasjon blitt generert; derfor ble ingen indikasjonsspesifikk klinisk forsøkssøking utført.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no predicted indication has been generated; therefore, no indication-specific literature search was performed.
+For tiden har ingen forutsagt indikasjon blitt generert; derfor ble ingen indikasjonsspesifikk litteratursøking utført.
 
-## Taiwan Market Information
+## Taiwans markedsinformasjon
 
-Abiraterone acetate has **no TFDA-approved licences** recorded in this evidence pack. The drug is listed as "Not marketed" in Taiwan.
+Abiraterone acetat har **ingen TFDA-godkjente lisenser** registrert i denne bevissamlingen. Legemidlet er oppført som "Ikke markedsført" i Taiwan.
 
-## Cytotoxicity
+## Cytotoksisitet
 
-Abiraterone acetate is an antineoplastic agent (androgen biosynthesis inhibitor) and therefore requires cytotoxicity consideration.
+Abiraterone acetat er et antineoplastisk middel (androgenbiosyntesehemmer) og krever derfor vurdering av cytotoksisitet.
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (Hormonal / Androgen biosynthesis inhibitor) |
-| Myelosuppression Risk | Low (not a conventional cytotoxic; anaemia is a known adverse effect) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Liver function (ALT/AST — hepatotoxicity risk), blood pressure, serum potassium, serum cortisol, CBC, cardiac function |
-| Handling Protection | Standard precautions; not classified as conventional cytotoxic — no special closed-system handling required, but pregnant women should avoid handling crushed/broken tablets |
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitetsklassifisering | Målrettet terapi (Hormonell / Androgenbiosyntesehemmer) |
+| Myelosuppresjonrisiko | Lav (ikke et konvensjonelt cytotoksikum; anemi er en kjent bivirkning) |
+| Emetogenitetsklassifisering | Lav |
+| Parametre som skal overvåkes | Leverfunksjon (ALT/AST — hepatotoksisitetrisiko), blodtrykk, serumkalium, serumkortisol, CBC, hjertfunksjon |
+| Håndtelingskrav | Standardforholdsregler; ikke klassifisert som konvensjonelt cytotoksikum — ingen spesiell lukket systemhåndtering påkrevd, men gravide kvinner bør unngå håndtering av knuste/oppbrutte tabletter |
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-No TFDA package insert data, warnings, contraindications, or drug–drug interaction data were available in this evidence pack.
+Ingen TFDA-pakningsvedleggsdata, advarsler, kontraindikasjoner eller legemiddel–legemiddelinteraksjonsdata var tilgjengelig i denne bevissamlingen.
 
-> Please refer to the package insert for safety information. Key safety concerns known globally include:
-> - **Hepatotoxicity** — ALT/AST elevations requiring monitoring
-> - **Mineralocorticoid excess** — Hypertension, hypokalaemia, fluid retention (due to CYP17A1 blockade upstream of mineralocorticoid synthesis)
-> - **Adrenocortical insufficiency** — Requires concomitant corticosteroid administration
-> - **Cardiac disorders** — Cardiac failure, atrial fibrillation reported
+> Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Viktige globale sikkerhetshensyn inkluderer:
+> - **Hepatotoksisitet** — ALT/AST-elevasjoner som krever overvåking
+> - **Mineralokortikoidoverskudd** — Høyt blodtrykk, hypokalemi, væskeretensjon (på grunn av CYP17A1-blokkering oppstrøms for mineralokortikoidbiosyntese)
+> - **Binyrebarkeinsufficiens** — Krever samtidig administrering av kortikosteroid
+> - **Hjertesykdommer** — Hjertesvikt, atrieflimmer rapportert
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-The TxGNN model has not yet produced a predicted new indication for abiraterone acetate, and there are multiple blocking data gaps (TFDA labelling, MOA data). Without a target indication, no evidence-level assessment or go/no-go recommendation can be made.
+**Begrunnelse:**
+TxGNN-modellen har ikke ennå produsert en forutsagt ny indikasjon for abiraterone acetat, og det finnes flere blokkerende datahull (TFDA-merking, data om virkningsmekanisme). Uten en målindikasjon kan ingen bevisnivåvurdering eller go/no-go-anbefaling gis.
 
-**To proceed, the following is needed:**
-- Run TxGNN prediction pipeline for abiraterone acetate to generate candidate indications
-- Resolve **DG001** (Blocking): Retrieve TFDA package insert warnings and contraindications, or note that the drug is not marketed in Taiwan and source safety data from FDA/EMA labels instead
-- Resolve **DG002** (High): Query DrugBank for MOA and pharmacological classification (DrugBank ID: [DB05812](https://go.drugbank.com/drugs/DB05812))
-- Clarify Taiwan regulatory pathway — if the drug is not marketed in Taiwan, determine whether a TFDA import pathway or special access scheme applies
-- Re-generate the evidence pack once the above gaps are filled and TxGNN predictions are available
+**For å fortsette er følgende nødvendig:**
+- Kjør TxGNN-prediksjonsrørledningen for abiraterone acetat for å generere kandidatindikasjonene
+- Løs **DG001** (Blokkering): Hent TFDA-pakningsvedleggets advarsler og kontraindikasjoner, eller noter at legemidlet ikke er markedsført i Taiwan og hent sikkerhetsinformasjon fra FDA/EMA-etiketter i stedet
+- Løs **DG002** (Høy): Søk i DrugBank etter data om virkningsmekanisme og farmakologisk klassifisering (DrugBank ID: [DB05812](https://go.drugbank.com/drugs/DB05812))
+- Klargjør Taiwans regulatoriske vei — hvis legemidlet ikke er markedsført i Taiwan, bestem om en TFDA-importvei eller ordning for spesiell tilgang gjelder
+- Regenerer bevissamlingen når de ovennevnte gapene er fylt og TxGNN-prediksjoner er tilgjengelige
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

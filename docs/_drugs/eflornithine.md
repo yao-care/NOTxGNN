@@ -29,60 +29,61 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Eflornithine: From African Trypanosomiasis/Hirsutism to Esotropia (Low-Confidence Prediction)
+# Eflornithine: Fra afrikanisk trypanosomiasis/hirsutisme til esotropi (prediksjon med lav selvtillit)
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-Eflornithine is an irreversible ornithine decarboxylase (ODC) inhibitor known clinically for treating African trypanosomiasis and, topically, facial hirsutism. TxGNN predicts a possible new indication for **Esotropia**, but this is supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags no plausible pharmacological link — this is a model-only signal, not evidence-backed.
+Eflornithine er en irreversibel ornithin dekarboxylase (ODC)-hemmer kjent klinisk for behandling av afrikanisk trypanosomiasis og, topisk, ansiktshirsutisme. TxGNN forutsier en mulig ny indikasjon for **esotropi**, men dette støttes av **0 kliniske forsøk** og **0 publikasjoner**, og modellens egen begrunnelse flagger ingen plausibel farmakologisk sammenheng — dette er et modellbasert signal, ikke evidensbasert.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not on record in this dataset (no Taiwan license/formal indication text available); known clinical uses per available evidence: African trypanosomiasis, topical treatment of facial hirsutism |
-| Predicted New Indication | Esotropia |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Ikke registrert i dette datasettet (ingen taiwansk lisens/formell indikasjonstekst tilgjengelig); kjente kliniske bruksområder per tilgjengelig bevis: afrikanisk trypanosomiasis, topisk behandling av ansiktshirsutisme |
+| Forutsagt ny indikasjon | Esotropi |
+| TxGNN prediksjonspoeng | 99.85% |
+| Bevisnivå | L5 |
+| Taiwansk markedsstatus | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed mechanism of action (MOA) data is not available in the formal `original_moa` field for this candidate (flagged as a **Blocking** data gap, DG001/DG002). Based on the supplementary evidence attached to this prediction, eflornithine is understood to irreversibly inhibit ornithine decarboxylase (ODC), blocking polyamine synthesis — a mechanism underlying its established use in African trypanosomiasis (antiparasitic) and topical suppression of facial hair growth (antiproliferative effect on hair follicles).
+Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelig i det formelle `original_moa`-feltet for denne kandidaten (flagget som **blokkering** datakløft, DG001/DG002). Basert på det tilleggsbevis som er vedlagt denne prediksjonen, forstås eflornithine å irreversibelt hemme ornithin dekarboxylase (ODC) og blokkere polyaminsyntese — en mekanisme som ligger til grunn for dens etablerte bruk mot afrikanisk trypanosomiasis (antiparasittisk) og topisk undertrykkelse av økt ansiktshårvekst (antiproliferativ effekt på hårfollikler).
 
-Esotropia is a disorder of extraocular muscle tone/neuromuscular control, not a proliferative, parasitic, or polyamine-dependent condition. The model's own repurposing rationale explicitly states there is **no known physiological or pharmacological mechanism** connecting ODC inhibition/polyamine blockade to esotropia, and assesses this prediction as most likely an artifact ("noise") of the TxGNN embedding space rather than a biologically grounded signal.
+Esotropi er en lidelse av ekstrakular muskeltonus/neuromuskulær kontroll, ikke en proliferativ, parasittisk eller polyaminavhengig tilstand. Modellens egen begrunnelse for omdisponering sier eksplisitt at det **ikke finnes noen kjent fysiologisk eller farmakologisk mekanisme** som forbinder ODC-hemmelse/polyaminblokkade til esotropi, og vurderer denne prediksjonen som mest sannsynlig et artefakt («støy») av TxGNN embedding-rom snarere enn et biologisk begrunnet signal.
 
-A secondary candidate, neurotrophic keratopathy (rank 2, score 99.38%), was also evaluated but shows a similarly unsupported — and potentially mechanistically **unfavorable** — link: ODC inhibition would be expected to *reduce* polyamine-driven corneal epithelial regeneration rather than improve it. Neither candidate has any corroborating trial or literature evidence.
+En sekundær kandidat, neurotrof keratopati (rangering 2, poengsum 99.38%), ble også evaluert men viser en lignende ustøttet — og potensielt mekanistisk **ugunstig** — sammenheng: ODC-hemmelse ville forventes å *redusere* polyamin-drevet korneal epitelial regenerasjon i stedet for å forbedre den. Ingen av kandidatene har noe bekreftende forsøks- eller litteraturbevis.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøk
 
-Currently no related clinical trials registered.
+For øyeblikket ingen relaterte kliniske forsøk registrert.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+For øyeblikket ingen relatert litteratur tilgjengelig.
 
-## Taiwan Market Information
+## Taiwansk markedsinformasjon
 
-Eflornithine is not currently marketed in Taiwan; no license records are available (`total_licenses = 0`).
+Eflornithine er ikke for tiden markedsført i Taiwan; ingen lisensposter er tilgjengelig (`total_licenses = 0`).
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-drug interaction data are not available in this evidence pack — resolving this is a **Blocking** gap, DG001, required before any S1 safety evaluation can proceed.)
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og data om legemiddelinteraksjon er ikke tilgjengelig i dette bevismateriell — løsing av dette er et **blokkering** gap, DG001, nødvendig før noen S1 sikkerhetsevaluering kan fortsette.)
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-The prediction rests solely on a TxGNN model score (L5) with no clinical trials, no literature, and no plausible mechanistic pathway identified by the model's own rationale — in fact, the mechanism plausibly points the opposite direction for the secondary candidate. Combined with a Blocking gap on TFDA/label safety data (DG001) and a missing formal MOA (DG002), this candidate cannot advance past S0.
+**Begrunnelse:**
+Prediksjonen hviler utelukkende på en TxGNN-modellpoengsum (L5) uten kliniske forsøk, uten litteratur, og uten plausibel mekanistisk vei identifisert av modellens egen begrunnelse — faktisk peker mekanismen plausibelt i motsatt retning for den sekundære kandidaten. Kombinert med et **blokkering** gap på TFDA/etikett sikkerhetsdataene (DG001) og en manglende formell MOA (DG002), kan denne kandidaten ikke avansere forbi S0.
 
-**To proceed, the following is needed:**
-- Confirmed original MOA and approved indication(s) from DrugBank/regulatory source (resolve DG002)
-- TFDA (or equivalent) label warnings/contraindications (resolve DG001, Blocking — required before any S1 safety review)
-- Independent pharmacological plausibility review for esotropia given the absence of a mechanistic rationale
-- Ongoing literature/trial surveillance in case new evidence emerges, given the current absence of any supporting study
+**For å fortsette, er følgende nødvendig:**
+- Bekreftet originalmekanisme (MOA) og godkjent indikasjon(er) fra DrugBank/regulatorisk kilde (løs DG002)
+- TFDA (eller tilsvarende) etikett advarsler/kontraindikasjoner (løs DG001, **blokkering** — nødvendig før noen S1 sikkerhetsevaluering)
+- Uavhengig farmakologisk plausibilitetsevaluering for esotropi gitt fravær av en mekanistisk begrunnelse
+- Løpende litteratur-/forsøksovervåking i tilfelle nye bevis dukker opp, gitt nåværende mangel på noen støttestudie
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
