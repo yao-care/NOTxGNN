@@ -29,91 +29,92 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Fenofibrate: From Dyslipidemia to Homozygous Familial Hypercholesterolemia
+# Fenofibrat: Fra dyslipidemi til homozygot familiesyk høyt kolesterol
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Fenofibrate is a PPARα agonist traditionally used to manage hypertriglyceridemia and mixed hyperlipidemia (dyslipidemia).
-> The TxGNN model predicts it may also be effective for **Homozygous Familial Hypercholesterolemia (HoFH)**,
-> but this direction is currently supported by only **1 indirectly relevant clinical trial** (testing a different drug in the same disease population) and **11 publications**, none of which are direct fenofibrate RCTs in HoFH.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Dyslipidemia (hypertriglyceridemia / mixed hyperlipoproteinemia) — inferred from supporting literature; no formal Norway label text available |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L4 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Fenofibrat er en PPARα-agonist som tradisjonelt brukes til å behandle hypertriglyseridemi og blandet dyslipidemi.
+> TxGNN-modellen forutsier at det også kan være effektivt for **homozygot familiesyk høyt kolesterol (HoFH)**,
+> men denne retningen er for øyeblikket støttet av bare **1 indirekte relevant klinisk forsøk** (som tester et annet legemiddel i samme sykdomspopulasjon) og **11 publikasjoner**, hvorav ingen er direkte fenofibrat-randomiserte kontrollerte forsøk i HoFH.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available. Based on known information, fenofibrate is a fibrate-class **PPARα agonist**, and its efficacy in dyslipidemia (hypertriglyceridemia, mixed hyperlipoproteinemia) has been proven; mechanistically, this profile is being evaluated for potential relevance to homozygous familial hypercholesterolemia.
-
-Dyslipidemia and HoFH both fall under disorders of lipid metabolism, which is likely why the TxGNN model linked them. However, the pathophysiology differs substantially: HoFH results from a near-complete loss of LDL receptor (LDLR) function, whereas fenofibrate's core action — increasing lipoprotein lipase (LPL) activity and lowering ApoC-III — primarily reduces triglycerides and modestly raises HDL, with only limited effect on LDL-C.
-
-Because HoFH patients require LDLR-independent treatment strategies (PCSK9 monoclonal antibodies, lomitapide, LDL apheresis), fenofibrate's mechanism has weak evidence for meaningful LDL-C reduction in this specific population. It may still have a role as adjunctive triglyceride control, but not as a core therapy — which is consistent with the model's own generated rationale for this candidate.
+| Element | Innhold |
+|---------|----------|
+| Opprinnelig indikasjon | Dyslipidemi (hypertriglyseridemi / blandet hyperlipoproteinemi) — utledet fra støttende litteratur; ingen offisielle norske merkingstekster tilgjengelig |
+| Forutsagt ny indikasjon | Homozygot familiesyk høyt kolesterol |
+| TxGNN-prediksjonspoeng | 99,91% |
+| Bevisnivå | L4 |
+| Status på norskmarkedet | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+For øyeblikket er detaljerte mekanisme-data ikke tilgjengelig. Basert på tilgjengelig informasjon er fenofibrat en fibrat-klasse **PPARα-agonist**, og dets effektivitet ved dyslipidemi (hypertriglyseridemi, blandet hyperlipoproteinemi) er bevist; mekanistisk blir denne profilen evaluert for potensiell relevans til homozygot familiesyk høyt kolesterol.
+
+Dyslipidemi og HoFH faller begge under stoffskiftesykdommer i lipidmetabolismen, noe som sannsynligvis forklarer hvorfor TxGNN-modellen koblet dem sammen. Imidlertid avviker patofysiologien vesentlig: HoFH resulterer fra nesten komplett tap av LDL-reseptor (LDLR)-funksjon, mens fenofibrats kjernemekanisme — øking av lipoproteinkliase (LPL)-aktivitet og senking av ApoC-III — primært reduserer triglyserider og beskjedent øker HDL, med bare begrenset effekt på LDL-C.
+
+Fordi HoFH-pasienter krever LDLR-uavhengige behandlingsstrategier (PCSK9-monoklonale antistoffer, lomitapid, LDL-aferese), har fenofibrats mekanisme svak evidens for meningsfull LDL-C-reduksjon i denne spesifikke populasjonen. Det kan likevel ha en rolle som tilleggbehandling for triglyseridkontroll, men ikke som kjerneterapi — noe som er konsistent med modellens egen genererte begrunnelse for denne kandidaten.
+
+---
+
+## Evidens fra kliniske forsøk
+
+| Forsøksnummer | Fase | Status | Inkludering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Completed | 18 | Evaluated **alirocumab** (a PCSK9 inhibitor, not fenofibrate) in children/adolescents with HoFH on LDL-C reduction over 12–48 weeks. Only the disease population overlaps; this is not direct evidence for fenofibrate. |
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Fase 3 | Fullført | 18 | Evaluerte **alirocumab** (en PCSK9-hemmer, ikke fenofibrat) hos barn/ungdom med HoFH for LDL-C-reduksjon over 12–48 uker. Bare sykdomspopulasjonen overlapper; dette er ikke direkte evidens for fenofibrat. |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [6593751](https://pubmed.ncbi.nlm.nih.gov/6593751/) | 1984 | Small trial | Pharmacological Research Communications | 22 type II hyperlipoproteinemia patients treated with fenofibrate 300 mg/day; one patient with HoFH showed the greatest fall in total and LDL cholesterol among the cohort. |
-| [2042836](https://pubmed.ncbi.nlm.nih.gov/2042836/) | 1991 | Review | Annals of the New York Academy of Sciences | Reviews pharmacologic/surgical treatments for dyslipidemic children, noting fenofibrate among agents with variable success in familial hypercholesterolemia. |
-| [24734312](https://pubmed.ncbi.nlm.nih.gov/24734312/) | 2014 | Review/PK | Pharmacotherapy | PK interaction study of lomitapide (an approved HoFH drug) with commonly co-used lipid-lowering agents including fenofibrate. |
-| [24946816](https://pubmed.ncbi.nlm.nih.gov/24946816/) | 2014 | Review | Internal Medicine Journal | Reviews liver transplantation for HoFH and notes emerging lipid-lowering drug alternatives to LDL-apheresis. |
-| [37979722](https://pubmed.ncbi.nlm.nih.gov/37979722/) | 2024 | Review | Indian Heart Journal | States fenofibrate's most definite monotherapy indication is severe hypertriglyceridemia (>500 mg/dL) to prevent pancreatitis; modest cardiovascular benefit noted. |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Review/Guideline | Endocrine Practice | AACE/ACE clinical practice guideline for dyslipidemia management and cardiovascular disease prevention. |
-| [26432726](https://pubmed.ncbi.nlm.nih.gov/26432726/) | 2015 | Review | Indian Heart Journal | Reviews LDL-C reduction strategies including statins and PCSK9 inhibitors for severe hypercholesterolemia. |
-| [14620392](https://pubmed.ncbi.nlm.nih.gov/14620392/) | 2003 | Review | Pharmacotherapy | Reviews ezetimibe as a selective cholesterol absorption inhibitor, contextualizing non-statin LDL-lowering options. |
-| [9129869](https://pubmed.ncbi.nlm.nih.gov/9129869/) | 1997 | Review | Drugs | Pharmacology and therapeutic potential of atorvastatin in hyperlipidemia management. |
-| [35499807](https://pubmed.ncbi.nlm.nih.gov/35499807/) | 2022 | Review | Current Atherosclerosis Reports | Reviews dyslipidemia management in pregnancy; not specific to HoFH or fenofibrate. |
+| [6593751](https://pubmed.ncbi.nlm.nih.gov/6593751/) | 1984 | Liten studie | Pharmacological Research Communications | 22 pasienter med type II hyperlipoproteinemi behandlet med fenofibrat 300 mg/dag; én pasient med HoFH viste størst fall i total- og LDL-kolesterol i kohorten. |
+| [2042836](https://pubmed.ncbi.nlm.nih.gov/2042836/) | 1991 | Oversikt | Annals of the New York Academy of Sciences | Gjennomgår farmakologisk/kirurgisk behandling av dyslipidemi hos barn, og nevner fenofibrat blant midler med variabel effekt ved familiesyk høyt kolesterol. |
+| [24734312](https://pubmed.ncbi.nlm.nih.gov/24734312/) | 2014 | Oversikt/FK | Pharmacotherapy | Farmakokinetisk interaksjonsstudie av lomitapid (et godkjent HoFH-legemiddel) med vanlig brukte lipidsenkende midler, inkludert fenofibrat. |
+| [24946816](https://pubmed.ncbi.nlm.nih.gov/24946816/) | 2014 | Oversikt | Internal Medicine Journal | Gjennomgår levertransplantasjon for HoFH og nevner nye lipidsenkende legemidler som alternativer til LDL-aferese. |
+| [37979722](https://pubmed.ncbi.nlm.nih.gov/37979722/) | 2024 | Oversikt | Indian Heart Journal | Påpeker at fenofibrats mest definitive monoterapiindikasjon er alvorlig hypertriglyseridemi (>500 mg/dL) for forebygging av pankreatitt; beskjeden kardiovaskulær nytte notert. |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Oversikt/Veiledning | Endocrine Practice | AACE/ACE klinisk praksisveiledning for dyslipidemibehandling og forebygging av kardiovaskulær sykdom. |
+| [26432726](https://pubmed.ncbi.nlm.nih.gov/26432726/) | 2015 | Oversikt | Indian Heart Journal | Gjennomgår LDL-C-reduksjon strategier inkludert statiner og PCSK9-hemmere for alvorlig hyperkolesterolemi. |
+| [14620392](https://pubmed.ncbi.nlm.nih.gov/14620392/) | 2003 | Oversikt | Pharmacotherapy | Gjennomgår ezetimib som selektiv hemmer av kolesterolabsorpsjon, og kontekstualiserer ikke-statin-baserte LDL-senkende alternativer. |
+| [9129869](https://pubmed.ncbi.nlm.nih.gov/9129869/) | 1997 | Oversikt | Drugs | Farmakologi og terapeutisk potensial for atorvastatin ved behandling av hyperlipidemi. |
+| [35499807](https://pubmed.ncbi.nlm.nih.gov/35499807/) | 2022 | Oversikt | Current Atherosclerosis Reports | Gjennomgår dyslipidemibehandling under graviditet; ikke spesifikk for HoFH eller fenofibrat. |
 
 ---
 
-## Norway Market Information
+## Markedsinformasjon Norge
 
-Fenofibrate is currently **not marketed in Norway** (total authorizations: 0). No license records are available to summarize approved indications, dosage forms, or product names.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (No key warnings, contraindications, or drug interaction data are currently available in the evidence pack — TFDA/label warning data is flagged as a blocking data gap.)
+Fenofibrat er for øyeblikket **ikke markedsført i Norge** (totalt antall autorisasjoner: 0). Ingen lisensieringsoptegnelser er tilgjengelige for å oppsummere godkjente indikasjoner, doseringsformer eller produktnavn.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Se pakningsvedlegget for sikkerhetsinformasjon. (Ingen viktige advarsler, kontraindikasjoner eller data om legemiddelinteraksjoner er for øyeblikket tilgjengelig i dokumentsamlingen — TFDA/merkingvarslingsdata er flagget som et blokkerende datahull.)
 
-**Rationale:**
-Evidence for fenofibrate in HoFH is limited to preclinical/mechanistic-level data (L4) with no direct fenofibrate clinical trials in this population — the only registered trial evaluates a different drug (alirocumab) in the same disease group. Combined with fenofibrate's weak mechanistic fit for LDLR-independent disease and the drug's current non-marketed status in Norway, this candidate does not meet the threshold to proceed.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Norwegian label warnings and contraindications (currently a blocking data gap)
-- Detailed mechanism of action (MOA) data from DrugBank
-- At least one fenofibrate-specific clinical trial or controlled study in a HoFH population
-- Formal Norway licensing/regulatory pathway assessment, since the drug is not yet marketed
+## Konklusjon og neste skritt
 
-**Note:** Within this evidence pack, **rank 2 — hyperlipoproteinemia** — has substantially stronger support (L1 evidence, multiple completed Phase 3 RCTs, recommendation: *Proceed with Guardrails*) and may warrant separate evaluation as a more viable repurposing candidate for this drug.
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Evidensen for fenofibrat ved HoFH er begrenset til prekliniske/mekanistiske data (L4) uten direkte kliniske fenofibrat-forsøk i denne populasjonen — det eneste registrerte forsøket evaluerer et annet legemiddel (alirocumab) i samme sykdomsgruppe. Kombinert med fenofibrats svake mekanistiske samsvar for LDLR-uavhengig sykdom og legemidlets nåværende ikke-markedsførte status i Norge, oppfyller denne kandidaten ikke terskelen for å fortsette.
+
+**For å fortsette kreves følgende:**
+- TFDA/norske merkingadvarsler og kontraindikasjoner (for øyeblikket et blokkerende datahull)
+- Detaljerte mekanisme-data (MOA) fra DrugBank
+- Minst ett fenofibrat-spesifikt klinisk forsøk eller kontrollert studie i en HoFH-populasjon
+- Formell vurdering av norsk lisensieringsmuligheter/regulatorisk vei, ettersom legemiddelet ikke ennå er markedsført
+
+**Merknad:** Innenfor denne dokumentsamlingen har **rang 2 — hyperlipoproteinemi** — vesentlig sterkere støtte (L1-evidens, flere fullførte fase 3-RCTs, anbefaling: *Fortsett med forbehold*) og kan måtte utsettes for separat evaluering som en mer levedyktig repurposingkandidat for dette legemiddelet.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,109 +29,110 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Risperidone: From Schizophrenia/Bipolar Disorder to Major Affective Disorder
+# Risperidone: Fra schizofreni/bipolar lidelse til hovedaffektiv lidelse
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-Risperidone is a well-established atypical antipsychotic (serotonin-dopamine antagonist) originally used for schizophrenia and bipolar mania.
-The TxGNN model predicts it may also be effective for **Major Affective Disorder** — covering bipolar maintenance and augmentation therapy for treatment-resistant depression —
-with **35+ clinical trials** and **20 publications** currently supporting this direction, including multiple completed Phase 3 RCTs.
+Risperidone er et veletablert atypisk antipsykotikum (serotonin-dopamin antagonist) som opprinnelig ble brukt til schizofreni og bipolar mani.
+TxGNN-modellen spår at det også kan være effektivt for **hovedaffektiv lidelse** — som dekker bipolar vedlikehold og forsterkningsterapii for behandlingsresistent depresjon —
+med **35+ kliniske forsøk** og **20 publikasjoner** som for tiden støtter denne retningen, inkludert flere fullførte fase 3-RCT-er.
 
-> Note: TxGNN also flagged five other candidate indications for this drug (see "Other Predicted Indications" below). Three of them are ultra-rare genetic syndromes with no plausible mechanistic link and no supporting trials or literature — these are most likely knowledge-graph noise rather than real signals. This report focuses on the one candidate with substantive clinical evidence.
+> Merknad: TxGNN identifiserte også fem andre kandidatindikasjoner for dette legemidlet (se "Andre forutsagte indikasjoner" nedenfor). Tre av dem er ultrasjeldne genetiske syndromer uten plausibel mekanistisk sammenheng og uten støtte fra forsøk eller litteratur — disse er mest sannsynlig støy i kunnskapsgrafen snarere enn virkelige signaler. Denne rapporten fokuserer på kandidaten med substansiell klinisk evidens.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Schizophrenia / Bipolar Mania (well-established use, referenced within trial records; formal local regulatory text not available) |
-| Predicted New Indication | Major Affective Disorder (bipolar disorder & treatment-resistant depression) |
-| TxGNN Prediction Score | 99.11% |
-| Evidence Level | L1 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Opprinnelig indikasjon | Schizofreni / bipolar mani (veletablert bruk, referert i forsøksrapporter; formell lokal regulatorisk tekst ikke tilgjengelig) |
+| Forutsagt ny indikasjon | Hovedaffektiv lidelse (bipolar lidelse & behandlingsresistent depresjon) |
+| TxGNN-prediktpoengsum | 99.11% |
+| Bevisnivå | L1 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Fortsett med sikringsmekanismer |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed mechanism of action data is not available in the source records for this drug. Based on known information, risperidone is a second-generation ("atypical") antipsychotic acting as a serotonin-dopamine antagonist (D2 and 5-HT2A receptor antagonism). Its efficacy in schizophrenia and bipolar mania is well established — this is explicitly referenced in trial NCT00277654, which notes risperidone "is currently approved by the United States Food and Drug Administration (FDA) for the treatment of schizophrenia and bipolar mania."
+Detaljerte data om mekanisme for legemiddelens virkning er ikke tilgjengelig i kildepostene for dette legemidlet. Basert på kjent informasjon er risperidone et antipsykotikum fra andre generasjon ("atypisk") som virker som en serotonin-dopamin antagonist (D2- og 5-HT2A-reseptorantagonisme). Effektiviteten ved schizofreni og bipolar mani er veletablert — dette refereres eksplisitt i forsøket NCT00277654, som bemerker at risperidone "for tiden er godkjent av amerikanske Food and Drug Administration (FDA) for behandling av schizofreni og bipolar mani."
 
-Major affective disorder (bipolar disorder and major depressive disorder) shares overlapping neurobiology with the psychotic and manic states risperidone already treats — dysregulated dopaminergic and serotonergic signaling in cortico-limbic circuits. This mechanistic overlap explains why risperidone has long been used clinically as an adjunct: as monotherapy for bipolar maintenance (preventing manic/depressive relapse) and as an SSRI-augmentation strategy in treatment-resistant depression (TRD), consistent with the broader class effect seen with other second-generation antipsychotics (aripiprazole, quetiapine, olanzapine) approved for MDD augmentation.
+Hovedaffektiv lidelse (bipolar lidelse og alvorlig depressiv lidelse) deler overlappende nevrobiologi med de psykotiske og maniske tilstander som risperidone allerede behandler — dysregulert dopaminergi og serotoninergi i kortico-limbiske kretsløp. Denne mekanistiske overlappingen forklarer hvorfor risperidone lenge har vært brukt klinisk som tilleggsmiddel: som monoterapi for bipolar vedlikehold (forebygging av mani-/depressiv tilbakefall) og som SSRI-forsterkningsstrategi ved behandlingsresistent depresjon (TRD), i samsvar med den bredere klasseeffekten observert med andre antipsykotika fra andre generasjon (aripiprazol, kvetiapin, olanzapin) godkjent for MDD-forsterkning.
 
-The volume and quality of supporting evidence — including large randomized, placebo-controlled Phase 3 trials in both bipolar maintenance (n=585) and TRD augmentation (n=630, n=258) — indicate this is not a speculative model artifact but a reflection of an already-recognized, clinically practiced use pattern.
+Volumet og kvaliteten på støttende evidens — inkludert store randomiserte, placebokontrollerte fase 3-forsøk i både bipolar vedlikehold (n=585) og TRD-forsterkning (n=630, n=258) — indikerer at dette ikke er en spekulativ modellartifakt, men en refleksjon av et allerede erkjent, klinisk praktisert bruksmønster.
 
 ---
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøk
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Deltakere | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT00095134](https://clinicaltrials.gov/study/NCT00095134) | Phase 3 | Completed | 630 | Double-blind adjunctive risperidone vs. placebo in MDD with sub-optimal response to antidepressant therapy |
-| [NCT00044681](https://clinicaltrials.gov/study/NCT00044681) | Phase 3 | Completed | 258 | Efficacy, safety and long-term maintenance of risperidone augmentation of SSRI monotherapy in unipolar treatment-resistant depression |
-| [NCT00391222](https://clinicaltrials.gov/study/NCT00391222) | Phase 3 | Completed | 585 | Risperidone long-acting injectable (LAI) monotherapy vs. placebo for prevention of mood episodes in Bipolar I disorder |
-| [NCT00057681](https://clinicaltrials.gov/study/NCT00057681) | Phase 3 | Completed | 379 | TEAM study: lithium vs. valproate vs. risperidone for early-onset mania in children/adolescents with bipolar disorder |
-| [NCT00277654](https://clinicaltrials.gov/study/NCT00277654) | Phase 3 | Completed | 111 | Randomized, double-blind, placebo-controlled risperidone monotherapy in bipolar disorder with comorbid anxiety |
-| [NCT00167479](https://clinicaltrials.gov/study/NCT00167479) | Phase 4 | Completed | 60 | Risperidone monotherapy for bipolar disorder with moderate-to-severe anxiety; efficacy, tolerability and safety |
-| [NCT00203723](https://clinicaltrials.gov/study/NCT00203723) | Phase 4 | Terminated | 45 | Combined ECT + risperidone vs. ECT alone for treatment-resistant depression |
-| [NCT00176202](https://clinicaltrials.gov/study/NCT00176202) | Phase 3 | Completed | 65 | Risperidone vs. divalproex sodium in pediatric bipolar disorder, with MRI-based circuitry assessment |
-| [NCT00221403](https://clinicaltrials.gov/study/NCT00221403) | Phase 3 | Completed | 46 | Placebo-controlled trial of valproate and risperidone in young children (ages 3-7) with bipolar disorder |
-| [NCT01282632](https://clinicaltrials.gov/study/NCT01282632) | Phase 1/2 | Completed | 42 | Pilot trial: risperidone vs. olanzapine as add-on to failed SSRI therapy in treatment-resistant depression |
+| [NCT00095134](https://clinicaltrials.gov/study/NCT00095134) | Fase 3 | Avsluttet | 630 | Dobbeltblindet tilleggbehandling med risperidone versus placebo ved MDD med suboptimal respons på antidepressiv terapi |
+| [NCT00044681](https://clinicaltrials.gov/study/NCT00044681) | Fase 3 | Avsluttet | 258 | Effektivitet, sikkerhet og langtidsvedlikehold av risperidone-forsterkning av SSRI-monoterapi ved unipolær behandlingsresistent depresjon |
+| [NCT00391222](https://clinicaltrials.gov/study/NCT00391222) | Fase 3 | Avsluttet | 585 | Risperidone langtidsvirkende injeksjon (LAI) som monoterapi versus placebo for forebygging av humørpisoder ved bipolar I-lidelse |
+| [NCT00057681](https://clinicaltrials.gov/study/NCT00057681) | Fase 3 | Avsluttet | 379 | TEAM-studie: litium versus valproat versus risperidone for tidlig debut av mani hos barn/ungdom med bipolar lidelse |
+| [NCT00277654](https://clinicaltrials.gov/study/NCT00277654) | Fase 3 | Avsluttet | 111 | Randomisert, dobbeltblindet, placebokontrollert risperidone-monoterapi ved bipolar lidelse med komorbid angst |
+| [NCT00167479](https://clinicaltrials.gov/study/NCT00167479) | Fase 4 | Avsluttet | 60 | Risperidone-monoterapi ved bipolar lidelse med moderat til alvorlig angst; effektivitet, tolerabilitet og sikkerhet |
+| [NCT00203723](https://clinicaltrials.gov/study/NCT00203723) | Fase 4 | Avbryttet | 45 | Kombinert elektrokonvulsiv terapi + risperidone versus elektrokonvulsiv terapi alene ved behandlingsresistent depresjon |
+| [NCT00176202](https://clinicaltrials.gov/study/NCT00176202) | Fase 3 | Avsluttet | 65 | Risperidone versus divalproex natrium ved pediatrisk bipolar lidelse, med MRI-basert kretsløpvurdering |
+| [NCT00221403](https://clinicaltrials.gov/study/NCT00221403) | Fase 3 | Avsluttet | 46 | Placebokontrollert forsøk med valproat og risperidone hos små barn (alder 3-7 år) med bipolar lidelse |
+| [NCT01282632](https://clinicaltrials.gov/study/NCT01282632) | Fase 1/2 | Avsluttet | 42 | Pilot-forsøk: risperidone versus olanzapin som tillegg til mislykket SSRI-terapi ved behandlingsresistent depresjon |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [17975181](https://pubmed.ncbi.nlm.nih.gov/17975181/) | 2007 | RCT | Annals of Internal Medicine | Randomized trial of risperidone augmentation for treatment-refractory major depressive disorder |
-| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | Systematic Review + NMA | J Affective Disorders | Network meta-analysis comparing augmentation agents (including risperidone) for treatment-resistant depression |
-| [35861202](https://pubmed.ncbi.nlm.nih.gov/35861202/) | 2023 | Systematic Review + Meta-analysis | J Psychopharmacology | Augmentation/combination treatments for early-stage treatment-resistant depression |
-| [24919175](https://pubmed.ncbi.nlm.nih.gov/24919175/) | 2014 | Meta-analysis | Braz J Med Biol Res | Efficacy/tolerability of atypical antipsychotic augmentation (17 trials, 3807 patients) of antidepressants in MDD |
-| [23554581](https://pubmed.ncbi.nlm.nih.gov/23554581/) | 2013 | Meta-analysis | PLoS Medicine | Risk-benefit profile of adjunctive atypical antipsychotics for depression |
-| [35510505](https://pubmed.ncbi.nlm.nih.gov/35510505/) | 2023 | Systematic Review + Meta-analysis | Psychological Medicine | Efficacy and safety/tolerability of antipsychotics (mono- and adjunctive) in adult MDD |
-| [21154393](https://pubmed.ncbi.nlm.nih.gov/21154393/) | 2010 | Cochrane Review | Cochrane Database Syst Rev | Second-generation antipsychotics added to antidepressants for MDD and dysthymia |
-| [25295435](https://pubmed.ncbi.nlm.nih.gov/25295435/) | 2014 | Nationwide Population-Based Study | J Clinical Psychiatry | Real-world effectiveness of SGA (including risperidone) augmentation for MDD |
-| [21189367](https://pubmed.ncbi.nlm.nih.gov/21189367/) | 2011 | Review | Annals of Pharmacotherapy | Efficacy and safety of risperidone augmentation in major depressive disorder |
-| [20486830](https://pubmed.ncbi.nlm.nih.gov/20486830/) | 2010 | Review | Expert Opin Pharmacotherapy | Risperidone LAI as monotherapy and adjunctive therapy for maintenance treatment of bipolar I disorder |
+| [17975181](https://pubmed.ncbi.nlm.nih.gov/17975181/) | 2007 | RCT | Annals of Internal Medicine | Randomisert forsøk av risperidone-forsterkning ved behandlingsrefraktær alvorlig depressiv lidelse |
+| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | Systematisk gjennomgang + NMA | J Affective Disorders | Nettverksmetaanalyse som sammenligner forsterkningsagenter (inkludert risperidone) for behandlingsresistent depresjon |
+| [35861202](https://pubmed.ncbi.nlm.nih.gov/35861202/) | 2023 | Systematisk gjennomgang + Metaanalyse | J Psychopharmacology | Forsterknings-/kombinasjonsbehandlinger for tidlig behandlingsresistent depresjon |
+| [24919175](https://pubmed.ncbi.nlm.nih.gov/24919175/) | 2014 | Metaanalyse | Braz J Med Biol Res | Effektivitet/tolerabilitet av atypisk antipsykotikum-forsterkning (17 forsøk, 3807 pasienter) av antidepressiver ved MDD |
+| [23554581](https://pubmed.ncbi.nlm.nih.gov/23554581/) | 2013 | Metaanalyse | PLoS Medicine | Risiko-nytteprofil ved tilleggbehandling med atypisk antipsykotikum for depresjon |
+| [35510505](https://pubmed.ncbi.nlm.nih.gov/35510505/) | 2023 | Systematisk gjennomgang + Metaanalyse | Psychological Medicine | Effektivitet og sikkerhet/tolerabilitet av antipsykotika (mono- og tilleggbehandling) ved voksen MDD |
+| [21154393](https://pubmed.ncbi.nlm.nih.gov/21154393/) | 2010 | Cochrane-gjennomgang | Cochrane Database Syst Rev | Antipsykotika fra andre generasjon lagt til antidepressiver for MDD og dysthymi |
+| [25295435](https://pubmed.ncbi.nlm.nih.gov/25295435/) | 2014 | Nasjonalbasert populasjonsstudie | J Clinical Psychiatry | Reell effektivitet av antipsykotika fra andre generasjon-forsterkning (inkludert risperidone) for MDD |
+| [21189367](https://pubmed.ncbi.nlm.nih.gov/21189367/) | 2011 | Gjennomgang | Annals of Pharmacotherapy | Effektivitet og sikkerhet av risperidone-forsterkning ved alvorlig depressiv lidelse |
+| [20486830](https://pubmed.ncbi.nlm.nih.gov/20486830/) | 2010 | Gjennomgang | Expert Opin Pharmacotherapy | Risperidone LAI som monoterapi og tilleggterapi for vedlikeholdsbehandling av bipolar I-lidelse |
 
 ---
 
-## Other Predicted Indications (Lower Priority / Screened Out)
+## Andre forutsagte indikasjoner (Lavere prioritet / Screenet ut)
 
-The Evidence Pack also flagged five additional candidates. These are summarized for transparency but are not recommended for further action at this time:
+Bevisene identifiserte også fem ytterligere kandidater. Disse er oppsummert for transparens, men anbefales ikke for videre tiltak på dette tidspunktet:
 
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation | Comment |
+| Rangering | Lidelse | TxGNN-poengsum | Bevisnivå | Anbefaling | Kommentar |
 |------|---------|------|------|------|---------|
-| 1 | Gaze palsy, familial horizontal, with progressive scoliosis | 99.76% | L5 | Hold | ROBO3-related skeletal/neurological disorder; no plausible mechanistic link to D2/5-HT2A antagonism. Likely graph noise. |
-| 2 | Asperger syndrome, susceptibility to | 99.74% | L5 | Hold | Risperidone is used off-label for irritability in autism spectrum disorder, but this entry is a "susceptibility" label, not a treatable clinical diagnosis, and has zero supporting trials/literature. |
-| 3 | Amelocerebrohypohidrotic syndrome | 99.69% | L5 | Hold | Ultra-rare genetic syndrome (enamel/CNS/sweat gland). No known pathophysiological connection. Likely graph noise. |
-| 4 | Phelan-McDermid syndrome | 99.59% | L4 | Research Question | SHANK3-related neurodevelopmental disorder with comorbid ASD/bipolar features; risperidone is used clinically for comorbid behavioral/mood symptoms, but evidence is limited to case reports and a preclinical zebrafish model. |
-| 5 | Trichotillomania | 99.51% | L3 | Research Question | Multiple case reports/series (1997–2025) support risperidone as an SSRI-augmentation strategy for treatment-resistant hair-pulling disorder, but no RCTs exist. |
+| 1 | Blikklammelse, familial horisontalt, med progressiv skoliose | 99.76% | L5 | Avvent | ROBO3-relatert skjelett-/nevrologisk lidelse; ingen plausibel mekanistisk sammenheng med D2/5-HT2A-antagonisme. Mest sannsynlig grafstøy. |
+| 2 | Asperger-syndrom, mottakelighet for | 99.74% | L5 | Avvent | Risperidone brukes off-label for irritabilitet ved autismespektrumlelse, men denne oppføringen er en "mottakelighets"-etikett, ikke en behandlebar klinisk diagnose, og har null støttende forsøk/litteratur. |
+| 3 | Ameloserebrohypohidrotisk syndrom | 99.69% | L5 | Avvent | Ultrasjelden genetisk lidelse (emalj/CNS/svettkjertler). Ingen kjent patofysiologisk sammenheng. Mest sannsynlig grafstøy. |
+| 4 | Phelan-McDermid-syndrom | 99.59% | L4 | Forskningsspørsmål | SHANK3-relatert neurouviklingslelse med komorbid ASD/bipolar trekk; risperidone brukes klinisk for komorbid atferd-/humørsymptomer, men evidensen er begrenset til casusrapporter og en preklinisk zebrafiskmodell. |
+| 5 | Trikotillomani | 99.51% | L3 | Forskningsspørsmål | Flere casusrapporter/serier (1997–2025) støtter risperidone som en SSRI-forsterkningsstrategi for behandlingsresistent hårtrekk-lidelse, men ingen RCT-er finnes. |
 
 ---
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information. No structured warnings, contraindications, or drug-interaction data were available in this Evidence Pack (flagged as a **Blocking** data gap — see Conclusion below).
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Ingen strukturert varsel-, motindikasjons- eller legemiddelinteraksjonsdata var tilgjengelig i denne evidenspakken (flagget som et **blokkeringsdatamanko** — se Konklusjon nedenfor).
 
 ---
 
-## Conclusion and Next Steps
+## Konklusjon og neste steg
 
-**Decision: Proceed with Guardrails**
+**Beslutning: Fortsett med sikringsmekanismer**
 
-**Rationale:**
-Major affective disorder is supported by an unusually strong evidence base for a TxGNN-predicted indication — multiple completed Phase 3 RCTs in both bipolar maintenance and treatment-resistant depression augmentation, corroborated by systematic reviews, network meta-analyses, and a Cochrane review. This reflects an already-recognized clinical use pattern rather than a novel, unvalidated hypothesis. However, this drug is not currently marketed in this jurisdiction, and critical safety documentation is missing, so proceeding requires explicit guardrails rather than an unconditional go.
+**Begrunnelse:**
+Hovedaffektiv lidelse støttes av en uvanlig sterkt evidensbase for en TxGNN-forutsagt indikasjon — flere fullførte fase 3-forsøk i både bipolar vedlikehold og behandlingsresistent depresjon-forsterkning, bekreftet av systematiske gjennomganger, nettverksmetaanalyser og en Cochrane-gjennomgang. Dette reflekterer et allerede erkjent klinisk bruksmønster snarere enn en ny, uvalidert hypotese. Imidlertid er dette legemidlet ikke for tiden markedsført i denne jurisdiksjonen, og kritisk sikkerhetsdokumentasjon mangler, så det å gå videre krever eksplisitte sikringsmekanismer snarere enn en ubetinget godkjenning.
 
-**To proceed, the following is needed:**
-- TFDA/local package insert warnings and contraindications (currently a **Blocking** data gap — required before any safety screening can begin)
-- Confirmed mechanism of action documentation from DrugBank (currently a **High**-severity data gap)
-- A defined local regulatory pathway, since the drug currently has zero authorizations and "Not Marketed" status
-- Safety monitoring plan addressing known antipsychotic-class risks (metabolic syndrome, extrapyramidal symptoms, prolactin elevation) given the drug's established but currently undocumented safety profile
-- Further prospective/controlled evidence for the lower-tier candidates (trichotillomania, Phelan-McDermid syndrome) before considering escalation beyond "Research Question" status
+**For å gå videre, er følgende nødvendig:**
+- TFDA/lokale pakningsvedleggsadvarsler og motindikasjoner (for tiden et **blokkeringsdatamanko** — påkrevd før noen sikkerhetskontroll kan begynne)
+- Bekreftet mekanismedokumentasjon for legemiddelvirkning fra DrugBank (for tiden et **høy-alvorlighets** datamanko)
+- En definert lokal regulatorisk vei, siden legemidlet for tiden har null autorisasjoner og "Ikke markedsført"-status
+- Sikkerhetskontrollplan som adresserer kjente antipsykotika-klassrisiker (metabolsk syndrom, ekstrapyramidale symptomer, prolaktinelevering) gitt legemidlets etablerte, men for tiden udokumenterte sikkerhetsprofil
+- Ytterligere prospektiv/kontrollert evidens for kandidatene med lavere rangering (trikotillomani, Phelan-McDermid-syndrom) før vurdering av eskalering utover "Forskningsspørsmål"-status
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,76 +29,77 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Asfotase Alfa: From Hypophosphatasia to Mitochondrial Oxidative Phosphorylation Disorder
+# Asfotase Alfa: Fra hypophosphatasi til mitokondriell oxidativ fosforylerings-lidelse
 
-## One-Sentence Summary
+## Oppsummering på en setning
 
-> Asfotase alfa is a bone-targeted enzyme replacement therapy originally developed for hypophosphatasia (HPP).
-> The TxGNN model predicts it may be effective for **mitochondrial oxidative phosphorylation (OXPHOS) disorder due to nuclear DNA anomalies**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the accompanying mechanistic review found no known biological link between the two conditions.
+> Asfotase alfa er en bentarget enzymerstattingsterapi opprinnelig utviklet for hypophosphatasi (HPP).
+> TxGNN-modellen forutsier at det kan være effektivt for **mitokondriell oxidativ fosforylerings-lidelse på grunn av kjerne-DNA-anomalier**,
+> men denne prediksjonen er for tiden støttet av **0 kliniske forsøk** og **0 publikasjoner**, og den medfølgende mekanistiske gjennomgangen fant ingen kjent biologisk sammenheng mellom de to tilstandene.
 
 ---
 
-## Quick Overview
+## Kort oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Hypophosphatasia (HPP) — enzyme replacement therapy |
-| Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Hypophosphatasi (HPP) — enzymerstattingsterapi |
+| Predikert ny indikasjon | Mitokondriell oxidativ fosforylerings-lidelse på grunn av kjerne-DNA-anomalier |
+| TxGNN prediksjonspoeng | 99.95% |
+| Bevisgrad | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Structured mechanism-of-action data is not currently available for this drug. Based on known information, asfotase alfa is a bone-targeted recombinant human tissue-nonspecific alkaline phosphatase (TNSALP), used as enzyme replacement therapy for hypophosphatasia. Its mechanism involves restoring bone matrix mineralization by hydrolyzing extracellular inorganic pyrophosphate, which otherwise accumulates and inhibits mineralization in HPP patients.
+Strukturert data om virkningsmekanisme er for tiden ikke tilgjengelig for dette legemidlet. Basert på kjent informasjon, er asfotase alfa en bentarget rekombinant menneskelig vevsnon-spesifikk alkalisk fosfatase (TNSALP), brukt som enzymerstattingsterapi for hypophosphatasi. Dens mekanisme innebærer å gjenopprette bentetthet ved å hydrolyse ekstracelluler uorganisk pyrofosfat, som ellers akkumuleres og hemmer mineraliseringen hos HPP-pasienter.
 
-The top-ranked predicted indication, mitochondrial OXPHOS disorder due to nuclear DNA anomalies, is pathophysiologically distinct: it arises from defects in the mitochondrial respiratory chain, not from impaired bone mineralization. The evidence pack's own mechanistic review explicitly notes there is **no known biological intersection** between the ALP-mediated bone mineralization pathway and OXPHOS pathology — the prediction appears to be driven purely by network embedding similarity in TxGNN, not by a testable biological hypothesis.
+Den høyest rangerte predikerte indikasjonen, mitokondriell OXPHOS-lidelse på grunn av kjerne-DNA-anomalier, er patofysiologisk distinkt: den oppstår fra defekter i mitokondriell respirasjonskjede, ikke fra nedsatt benmineralisering. Bevissamlingens egen mekanistiske gjennomgang merker eksplisitt at det er **ingen kjent biologisk skjæring** mellom ALP-mediert benmineralisering og OXPHOS-patologi — prediksjonen synes å bli drevet rent av nettverksinnbedding-likhet i TxGNN, ikke av en testbar biologisk hypotese.
 
-This pattern repeats across the remaining nine predicted indications (rank 2–10): most connections are attributed to superficial phenotypic overlap (e.g., other skeletal disorders such as Steel syndrome, Scheie/Hurler syndrome, lysosomal storage diseases) or shared treatment modality (enzyme replacement therapy) rather than a shared molecular target or pathway. Several candidates (e.g., esophageal varices, exocrine pancreatic insufficiency, familial apolipoprotein C-II deficiency) have no discernible mechanistic rationale at all. Given the complete absence of supporting clinical or literature evidence, none of the top 10 predictions currently warrant further investment beyond exploratory hypothesis generation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Dette mønsteret gjentar seg over de gjenværende ni predikerte indikasjonene (rangering 2–10): de fleste forbindelser tilskrives overfladisk fenotypisk overlapping (f.eks. andre skjelettlidelser som Steel syndrome, Scheie/Hurler syndrome, lysosomale lagringslidelser) eller delt behandlingsmodalitet (enzymerstattingsterapi) snarere enn et delt molekylært mål eller signalvei. Flere kandidater (f.eks. øsofagale varices, eksokrin pankreasinsuffisiens, familiær apolipoprotein C-II-mangel) har ingen diskernibel mekanistisk begrunnelse i det hele tatt. Gitt den fullstendige mangelen på støttende klinisk eller litteraturbevis, garanterer ingen av de 10 beste prediksjoner for tiden videre investering utover utforskende hypotesegenerering.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske forsøk
 
-Currently no related literature available.
-
----
-
-## Norway Market Information
-
-Asfotase alfa currently holds no market authorization in Norway (0 licenses on record).
+For tiden er det ingen registrerte relaterte kliniske forsøk.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information.
+For tiden er det ingen tilgjengelig relatert litteratur.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformasjon for Norge
 
-**Decision: Hold**
+Asfotase alfa innehar for tiden ingen markedsgodkjenning i Norge (0 lisenser på register).
 
-**Rationale:**
-The top-ranked prediction is supported only by a TxGNN similarity score with no clinical trials, no literature, and — per the evidence pack's own mechanistic review — no identifiable biological link to the drug's known mode of action. Evidence level is L5 (model prediction only), which does not meet the threshold for further development investment.
+---
 
-**To proceed, the following is needed:**
-- Structured mechanism-of-action (MOA) data from DrugBank or primary literature
-- TFDA/regulatory label warnings and contraindications (currently blocking safety pre-screening, per DG001)
-- Preclinical or mechanistic studies establishing a plausible link between TNSALP-mediated bone mineralization and mitochondrial OXPHOS pathology, if this indication is to be pursued further
-- Continued monitoring for new clinical trial registrations or publications on any of the top 10 candidates before re-evaluating decision stage
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Den høyest rangerte prediksjonen er støttet bare av en TxGNN-likhetsscore uten noen kliniske forsøk, ingen litteratur, og — ifølge bevissamlingens egen mekanistiske gjennomgang — ingen identifiserbar biologisk sammenheng til legemidlets kjente virkningsmekanisme. Bevisgrad er L5 (kun modellprediksjon), som ikke oppfyller terskelen for videre utviklingsinvestering.
+
+**For å fortsette, er følgende nødvendig:**
+- Strukturert data om virkningsmekanisme (MOA) fra DrugBank eller primærlitteratur
+- TFDA/regulatoriske etikettadvarsler og kontraindikasjoner (for tiden blokkerer sikkerhet pre-screening, per DG001)
+- Prekliniske eller mekanistiske studier som etablerer en plausibel sammenheng mellom TNSALP-mediert benmineralisering og mitokondriell OXPHOS-patologi, hvis denne indikasjonen skal forfølges videre
+- Fortsatt overvåking for nye kliniske forsøksregistreringer eller publikasjoner på noen av de 10 beste kandidatene før ny evaluering av beslutningsstadiet
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

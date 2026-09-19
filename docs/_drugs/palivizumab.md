@@ -29,78 +29,79 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Palivizumab: From RSV Prophylaxis to Benign Neoplasm of Tongue
+# Palivizumab: Fra RSV-profylakse til godartad neoplasme av tunge
 
-## One-Sentence Summary
+## Sammenfatting i én setning
 
-> Palivizumab is a monoclonal antibody targeting the RSV F protein, used for respiratory syncytial virus (RSV) prophylaxis in high-risk infants.
-> The TxGNN model predicts a possible association with **Benign Neoplasm of Tongue**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications**, with no plausible mechanistic rationale identified.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | RSV (Respiratory Syncytial Virus) infection prophylaxis — referenced in evidence pack rationale text; not formally recorded in Norway regulatory filings |
-| Predicted New Indication | Benign neoplasm of tongue |
-| TxGNN Prediction Score | 99.94% (rank 923 of full candidate list) |
-| Evidence Level | L5 |
-| Norway Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Palivizumab er et monoklonalt antistoff som retter seg mot RSV F-proteinet, brukt til profylakse mot respirasjonssynsytialvirus (RSV) hos høyrisiko-spedbarn.
+> TxGNN-modellen predikerer en mulig sammenheng med **godartad neoplasme av tunge**,
+> men denne prediksjonen er for tiden støttet av **0 kliniske studier** og **0 publikasjoner**, uten noen plausibel mekanistisk begrunnelse identifisert.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Oversikt
 
-Detailed mechanism of action data is currently not available for palivizumab in this evidence pack. Based on the evidence pack's own annotations, palivizumab is an RSV F-protein–targeting monoclonal antibody, used to prevent RSV infection in vulnerable pediatric populations.
-
-The top 10 TxGNN-predicted indications for this drug — benign neoplasm of tongue, epiglottis neoplasm, cervical neuroblastoma, hypopharyngeal neoplasm, floor-of-mouth neoplasm, testicular tumor, cystic neoplasm, jugular foramen schwannoma, mesenchymoma, and thyroglossal duct cyst — span an unrelated mix of benign and malignant neoplasms across disparate anatomical sites and tissue origins (epithelial, neural crest, mesenchymal, and developmental/congenital).
-
-The evidence pack's own repurposing rationale explicitly states, for every one of these top 10 candidates, that there is **no known mechanistic link** between an antiviral neutralizing antibody and neoplastic disease processes. This pattern — a cluster of biologically unrelated, low-prevalence, and mechanistically disconnected diseases all scoring near the top of the model's global rank (though still relatively deep at rank ~920–970) — is consistent with a modeling artifact rather than a genuine repurposing signal. No indication in this set warrants further investigation without independent supporting evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | RSV-infeksjonsprofylakse (Respiratory Syncytial Virus) — referert i evidenspakkens begrunnelsestekst; ikke formelt registrert i norske regulatoriske søknader |
+| Forventet ny indikasjon | Godartad neoplasme av tunge |
+| TxGNN-prediksjonspoeng | 99.94% (rangering 923 av fullstendig kandidatliste) |
+| Bevisnivå | L5 |
+| Markedsstatus Norge | Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+Detaljerte mekanismedata for palivizumab er for tiden ikke tilgjengelige i denne evidenspakken. Basert på evidenspakkens egne merknad, er palivizumab et RSV F-protein-målrettet monoklonalt antistoff som brukes til å forebygge RSV-infeksjon hos sårbare pediatriske populasjoner.
 
----
+De 10 beste TxGNN-predikerte indikasjonene for dette legemidlet — godartad neoplasme av tunge, epiglottisneoplasme, cervical neuroblastom, hypofaryng neoplasme, munngolvneoplasme, testikkeltumor, kystisk neoplasme, schwannoma i foramen jugulare, mesenchymom og thyreoglossal gangcyste — spenner over en urelatert blanding av godartade og ondartade neoplasmer på ulike anatomiske steder og vevsoprinnelser (epiteliale, neurale kjølestammer, mesenkymale og utviklings-/medfødte).
 
-## Norway Market Information
-
-Palivizumab is not marketed in Norway per this evidence pack (market status: not marketed; 0 authorizations on file). No product license records are available to summarize.
+Evidenspakkens egen omdisponeringsbegrunnelse bekrefter eksplisitt at det for hver enkelt av disse 10 beste kandidatene **ikke er noen kjent mekanistisk sammenheng** mellom et antiviralt nøytraliserende antistoff og neoplastiske sykdomsprosesser. Dette mønsteret — en klynge av biologisk urelaterte, lavprevalente og mekanistisk frakoblede sykdommer som alle scorer nær toppen av modellens globale rangering (men likevel relativt dypt ved ~920–970) — er konsistent med en modellartefakt snarere enn et genuint omdisponeringssignal. Ingen indikasjon i dette settet berettiger videre etterforsking uten uavhengig støttende bevis.
 
 ---
 
-## Safety Considerations
+## Klinisk studiebeviser
 
-Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and drug interaction data are not currently available in the evidence pack. Note: TFDA/label warning and contraindication data is flagged as a **Blocking** data gap (DG001) for safety review purposes.)*
+For tiden ingen relaterte kliniske studier registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For tiden ingen relatert litteratur tilgjengelig.
 
-**Rationale:**
-All top 10 TxGNN-predicted indications for palivizumab are rated L5 (model prediction only), with zero supporting clinical trials or literature, and the evidence pack itself documents no plausible mechanistic connection between an RSV-neutralizing antibody and any of the predicted neoplastic conditions. There is no basis to advance any candidate indication at this time.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): TFDA/local label warnings and contraindications, required before any S1 safety screening can occur
-- Resolve DG002 (High): Confirmed mechanism of action data from DrugBank, needed to evaluate mechanistic plausibility of any future candidate
-- Independent literature or preclinical search specifically targeting palivizumab and oncology/neoplasm pathways, to confirm whether the current top-10 list reflects a genuine signal or a model artifact
-- If no supporting evidence emerges, consider deprioritizing this drug-indication cluster in future TxGNN evidence pack refresh cycles
+## Markedsinformasjon for Norge
+
+Palivizumab er ikke markedsført i Norge ifølge denne evidenspakken (markedsstatus: ikke markedsført; 0 godkjennelser på fil). Ingen produktlisensposter er tilgjengelige for sammenfatning.
+
+---
+
+## Sikkerhetshensyn
+
+Se pakkeseddelen for sikkerhetsinformasjon.
+
+*(Viktige advarsler, kontraindikasjoner og legemiddelinteraksjondata er for tiden ikke tilgjengelige i evidenspakken. Merk: TFDA/etikett-advarsler og kontraindikasjonsdata er flagget som et blokkerende datagap (DG001) for sikkerhetsvurderingsformål.)*
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Alle 10 beste TxGNN-predikerte indikasjoner for palivizumab er vurdert som L5 (kun modellpreduksjon), uten støttende kliniske studier eller litteratur, og evidenspakken selv dokumenterer ingen plausibel mekanistisk sammenheng mellom et RSV-nøytraliserende antistoff og noen av de predikerte neoplastiske tilstandene. Det er ingen grunnlag for å fremme noen kandidatindikasjon på dette tidspunktet.
+
+**For å gå videre, kreves følgende:**
+- Løs DG001 (Blokkering): TFDA/lokale etikett-advarsler og kontraindikasjoner, nødvendig før noen S1 sikkerhetsgransking kan finne sted
+- Løs DG002 (Høy): Bekreftet mekanismedata fra DrugBank, nødvendig for å evaluere mekanistisk plausibilitet for en eventuell fremtidig kandidat
+- Uavhengig litteratur- eller preklinisk søk spesifikt rettet mot palivizumab og onkologi/neoplasmbaner, for å bekrefte om den nåværende topplisten over 10 reflekterer et genuint signal eller en modellartefakt
+- Hvis det ikke fremkommer noen støttende bevis, bør du vurdere å nedprioritere denne klyngen av legemiddel-indikasjon i fremtidige oppfriskningssykler av TxGNN-evidenspakken
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

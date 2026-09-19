@@ -29,74 +29,75 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Verteporfin: From Photosensitizer Therapy (Data Gap) to Predicted Mitochondrial Oxidative Phosphorylation Disorder
+# Verteporfin: Fra fotosensibilisatorterapi (datakløft) til predikert mitokondrielidelse i oxidativ fosforylering
 
-## One-Sentence Summary
+## Sammendrag på én setning
 
-Verteporfin's original indication and mechanism of action are currently marked as data gaps in the evidence pack (it is clinically known as a photosensitizer used in photodynamic therapy). The TxGNN model predicts it may be relevant to **mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model output with no corroborating evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in current data (see Data Gap DG001) |
-| Predicted New Indication | Mitochondrial Oxidative Phosphorylation Disorder due to Nuclear DNA Anomalies |
-| TxGNN Prediction Score | 99.49% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Verteporfins opprinnelige indikasjon og virkningsmekanisme er for øyeblikket markert som datakløfter i bevissamlingen (det er klinisk kjent som en fotosensibilisator brukt i fotodinamisk terapi). TxGNN-modellen predikerer at det kan være relevant for **mitokondrielidelse i oxidativ fosforylering på grunn av anomalier i kjerneDNA**, men denne prediksjonen er for øyeblikket støttet av **0 kliniske forsøk** og **0 publikasjoner** — det er et rent modellutfall uten bekreftet bevis.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigoversikt
 
-Currently, detailed mechanism of action data is not available for verteporfin (DG002, High severity). Based on generally known clinical information, verteporfin is a photosensitizing agent used in photodynamic therapy (historically associated with age-related macular degeneration), though this information is not confirmed within the structured fields of this evidence pack, and no original indication is recorded.
-
-Some literature suggests verteporfin can inhibit YAP/TAZ signaling within the Hippo pathway, which has a theoretical, indirect relationship to mitochondrial metabolic regulation. However, no mechanistic evidence linking verteporfin specifically to mitochondrial oxidative phosphorylation disorders due to nuclear DNA anomalies exists in this evidence pack — the connection is speculative rather than established.
-
-Because both the original indication and MOA are unconfirmed, and the predicted indication is a rare monogenic mitochondrial disease with a very different disease biology from verteporfin's known ophthalmic/photodynamic use, the mechanistic rationale for this prediction is weak and should be treated as hypothesis-generating only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke tilgjengelig i gjeldende data (se datakløft DG001) |
+| Predikert ny indikasjon | Mitokondrielidelse i oxidativ fosforylering på grunn av anomalier i kjerneDNA |
+| TxGNN-prediksjonsresultat | 99.49% |
+| Bevisnivå | L5 |
+| Markedsstatus i Taiwan | Ikke markedsført |
+| Antall tillatelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige for verteporfin (DG002, høy alvorlighet). Basert på generelt kjent klinisk informasjon, er verteporfin en fotosensibiliserende agens brukt i fotodinamisk terapi (historisk forbundet med aldersrelatert makuladegenerasjon), selv om denne informasjonen ikke er bekreftet innen de strukturerte feltene i denne bevissamlingen, og ingen opprinnelig indikasjon er registrert.
 
----
+Noe litteratur antyder at verteporfin kan hemme YAP/TAZ-signalering i Hippo-banen, som har et teoretisk, indirekte forhold til mitokondriell metabolsk regulering. Det finnes imidlertid ingen mekanistisk bevis som spesifikt knytter verteporfin til mitokondrielidelser i oxidativ fosforylering på grunn av anomalier i kjerneDNA i denne bevissamlingen — forbindelsen er spekulativ snarere enn etablert.
 
-## Taiwan Market Information
-
-Verteporfin currently has **no marketing authorization in Taiwan** (market status: Not marketed / Not marketed, 0 licenses on file). No product/dosage form information is available.
+Fordi både den opprinnelige indikasyonen og virkningsmekanismen er ubekreftet, og den predikerte indikasyonen er en sjelden monogen mitokondrielidelse med svært annen sykdomsbiologi enn verteporfins kjente oftalmologiske/fotodinamiske bruk, er det mekanistiske grunnlaget for denne prediksjonen svakt og bør behandles som kun hypotesegenererende.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøk
 
-Please refer to the package insert for safety information. Note: TFDA package insert warnings and contraindications are currently unavailable (Data Gap DG001, Blocking severity) — this must be resolved before any safety-related evaluation (S1) can proceed.
+For øyeblikket ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra litteratur
 
-**Decision: Hold**
+For øyeblikket ingen relatert litteratur tilgjengelig.
 
-**Rationale:**
-This prediction is evidence level L5 — a TxGNN model output with no supporting clinical trials, literature, confirmed MOA, or Taiwan market presence. A Blocking-severity data gap (TFDA safety labeling) also prevents any safety pre-screening.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) to resolve DG001 (Blocking)
-- Confirmed original indication and mechanism of action via DrugBank to resolve DG002
-- Literature or preclinical evidence establishing a mechanistic link between verteporfin and mitochondrial oxidative phosphorylation disorders
-- Any available clinical trial or case-report data for this indication before advancing beyond S0
+## Markedsinformasjon fra Taiwan
+
+Verteporfin har for øyeblikket **ingen markedsføringstillatelse i Taiwan** (markedsstatus: Ikke markedsført / Ikke markedsført, 0 lisenser på fil). Ingen informasjon om produkt/doseringsform er tilgjengelig.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Merk: TFDA-pakningsvedleggets advarsler og kontraindikasjoner er for øyeblikket ikke tilgjengelige (datakløft DG001, blokkeringsalvorlighet) — dette må løses før noen sikkerhetsvurdering (S1) kan gjennomføres.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Grunnlag:**
+Denne prediksjonen er bevisnivå L5 — et TxGNN-modellutfall uten støttende kliniske forsøk, litteratur, bekreftet virkningsmekanisme eller markedstilstedeværelse i Taiwan. En datakløft med blokkeringsalvorlighet (TFDA-sikkerhetsmerketing) forhindrer også enhver sikkerhetsvurdering.
+
+**For å fortsette er følgende nødvendig:**
+- TFDA-pakningsvedlegg (advarsler/kontraindikasjoner) for å løse DG001 (blokkeringsalvorlighet)
+- Bekreftet opprinnelig indikasjon og virkningsmekanisme via DrugBank for å løse DG002
+- Litteratur eller preklinisk bevis som etablerer en mekanistisk kobling mellom verteporfin og mitokondrielidelser i oxidativ fosforylering
+- Alle tilgjengelige kliniske forsøks- eller saksrapportdata for denne indikasyonen før man går videre enn S0
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

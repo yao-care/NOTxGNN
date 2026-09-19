@@ -29,90 +29,91 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Lamivudine: From Antiretroviral Therapy to Feline Acquired Immunodeficiency Syndrome
+# Lamivudine: Fra antiretroviral terapi til felin ervervet immunsviktsyndrom
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-> Lamivudine (3TC) is a nucleoside reverse transcriptase inhibitor publicly known for treating HIV-1 and chronic hepatitis B, though this evidence pack does not itself document the original indication (flagged as a data gap).
-> The TxGNN model's top-ranked prediction is **Feline Acquired Immunodeficiency Syndrome** — a disease that occurs only in cats, not humans —
-> supported by **5 clinical trials** (all actually about human HIV-1, not feline disease) and **5 publications** (all in vitro/animal studies in cats).
-> This is not a viable human repurposing candidate; it reflects a species-mismatch artifact in the prediction pipeline.
+> Lamivudine (3TC) er en nukleosidrevers transkriptasehemmer kjent offentlig for behandling av HIV-1 og kronisk hepatitt B, selv om denne bevissamlingen ikke dokumenterer den opprinnelige indikasjonen (merket som datamanko).
+> TxGNN-modellens topprangerte prediksjon er **felin ervervet immunsviktsyndrom** — en sykdom som kun forekommer hos katter, ikke hos mennesker —
+> støttet av **5 kliniske forsøk** (alle faktisk om HIV-1 hos mennesker, ikke felin sykdom) og **5 publikasjoner** (alle in vitro/dyrestudier med katter).
+> Dette er ikke en levedyktig kandidat for legemiddelrepurposing hos mennesker; det gjenspeiler en artsmismatch-artefakt i prediksjons-pipelinen.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not documented in this evidence pack (`original_indications` empty, `original_moa` flagged as Data Gap DG002). Lamivudine is publicly known as an NRTI antiretroviral for HIV-1/chronic hepatitis B, but this is not sourced from the pack. |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (FIV infection in cats) |
-| TxGNN Prediction Score | 99.93% (rank 1070) |
-| Evidence Level | L4 (preclinical/animal studies only; no human clinical evidence for this indication exists or can exist) |
-| Norway Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Opprinnelig indikasjon | Ikke dokumentert i denne bevissamlingen (`original_indications` tom, `original_moa` flagget som datamanko DG002). Lamivudine er allmenn kjent som en NRTI antiretroviral for HIV-1/kronisk hepatitt B, men dette er ikke hentet fra samlingen. |
+| Predikert ny indikasjon | Felin ervervet immunsviktsyndrom (FIV-infeksjon hos katter) |
+| TxGNN-prediksjonspoengsum | 99.93% (rangering 1070) |
+| Bevisnivå | L4 (prekliniske/dyrestudier bare; intet klinisk humanbevis for denne indikasjonen eksisterer eller kan eksistere) |
+| Status på norsk marked | Ikke markedsført (Ikke markedsført) |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | **Avvent** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (DG002). Based on public pharmacological knowledge, lamivudine inhibits retroviral reverse transcriptase and is used in humans against HIV-1 and hepatitis B virus.
+For tiden er detaljert handlingsmekanismedata ikke tilgjengelig i denne bevissamlingen (DG002). Basert på offentlig farmakologisk kunnskap hemmer lamivudine retroviral revers transkriptase og brukes hos mennesker mot HIV-1 og hepatitt B-virus.
 
-The mechanistic logic behind this prediction is real: Feline Immunodeficiency Virus (FIV) is a lentivirus closely related to HIV, and lamivudine (often combined with zidovudine) has been studied experimentally in cats as a veterinary analog of human antiretroviral therapy. This is a well-established use of the HIV/FIV animal model in retrovirology research.
+Den mekanistiske logikken bak denne prediksjonen er reell: Felin immunsviktsvirus (FIV) er et lentivirus nært beslektet med HIV, og lamivudine (ofte kombinert med zidovudin) har blitt studert eksperimentelt hos katter som et veterinært analogon til human antiretroviral terapi. Dette er en vel etablert bruk av HIV/FIV-dyremodellen i retroviroløgi-forskning.
 
-However, **"feline acquired immunodeficiency syndrome" is a disease of domestic cats, not humans**, and cannot be pursued as a human drug repurposing indication through any regulatory pathway. The high TxGNN score most likely reflects the drug's genuine antiretroviral mechanism being correctly linked to a lentiviral disease in the knowledge graph, without a species filter. This candidate should be treated as a research/veterinary-pharmacology curiosity rather than a human indication for repurposing evaluation.
+Men **"felin ervervet immunsviktsyndrom" er en sykdom hos husekatter, ikke hos mennesker**, og kan ikke forfølges som en human indikasjon for legemiddelrepurposing gjennom noen regulatorisk vei. Det høye TxGNN-poengsummet skyldes sannsynligvis at legemidlets genuine antiretroviral mekanisme er riktig koblet til en lentiviral sykdom i kunnskapsgrafen, uten et artfilter. Denne kandidaten bør behandles som en forskningsmessig/veterinær-farmakologisk kuriøsitet snarere enn en human indikasjon for repurposing-evaluering.
 
 ---
 
-## Clinical Trial Evidence
+## Klinisk forsøksbevis
 
-⚠ Note: none of the trials below actually study feline AIDS (impossible in a human trial). They are lamivudine/HIV-1 trials in humans that were retrieved by drug-name match, not disease match, and do not constitute evidence for the predicted indication.
+⚠ Merk: ingen av forsøkene nedenfor studerer faktisk felin AIDS (umulig i et forsøk hos mennesker). De er lamivudine/HIV-1-forsøk hos mennesker som ble hentet ved legemiddelnavn-søk, ikke sykdomssøk, og utgjør ikke bevis for den predikterte indikasjonen.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Deltakelse | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT01499199](https://clinicaltrials.gov/study/NCT01499199) | Phase 3 | Completed | 13 | Dolutegravir + abacavir/lamivudine in ART-naive HIV-1 adults; CNS/plasma PK over 96 weeks |
-| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Phase 3 | Completed | 844 | Dolutegravir + abacavir/lamivudine vs Atripla in ART-naive HIV-1 adults, non-inferiority over 96 weeks |
-| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Phase 2 | Completed | 208 | Dose-selection of dolutegravir with abacavir/lamivudine or tenofovir/emtricitabine in ART-naive HIV-1 adults |
-| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Phase 4 | Completed | 145 | Boosted darunavir + lamivudine vs darunavir + emtricitabine/tenofovir or lamivudine/tenofovir in naive HIV-1 patients |
-| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Phase 3 | Completed | 828 | Dolutegravir vs raltegravir, both with dual NRTI backbone (ABC/3TC or TDF/FTC), in ART-naive HIV-1 adults |
+| [NCT01499199](https://clinicaltrials.gov/study/NCT01499199) | Fase 3 | Avsluttet | 13 | Dolutegravir + abacavir/lamivudine hos ART-naive HIV-1-voksne; CNS/plasma PK over 96 uker |
+| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Fase 3 | Avsluttet | 844 | Dolutegravir + abacavir/lamivudine mot Atripla hos ART-naive HIV-1-voksne, ikke-inferiøriitet over 96 uker |
+| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Fase 2 | Avsluttet | 208 | Dosisvalg av dolutegravir med abacavir/lamivudine eller tenofovir/emtricitabin hos ART-naive HIV-1-voksne |
+| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Fase 4 | Avsluttet | 145 | Forsterket darunavir + lamivudine mot darunavir + emtricitabin/tenofovir eller lamivudine/tenofovir hos naive HIV-1-pasienter |
+| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Fase 3 | Avsluttet | 828 | Dolutegravir mot raltegravir, begge med dobbel NRTI-rygg (ABC/3TC eller TDF/FTC), hos ART-naive HIV-1-voksne |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Animal study | Viruses | Evaluated ZDV, ZDV+IFN-α, ZDV+lamivudine, and ZDV+valproic acid in naturally FIV-infected cats over 1 year |
-| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Case series (animal) | J Feline Med Surg | Long-term antiretroviral therapy follow-up in FIV-infected domestic cats |
-| [11943320](https://pubmed.ncbi.nlm.nih.gov/11943320/) | 2002 | In vitro/in vivo | Vet Immunol Immunopathol | AZT/3TC combination showed additive-to-synergistic anti-FIV activity in PBMCs |
-| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | In vitro | Antiviral Res | Combined zidovudine/lamivudine/abacavir suppressed FIV replication in vitro |
-| [11327469](https://pubmed.ncbi.nlm.nih.gov/11327469/) | 2001 | In vitro | Am J Vet Res | Characterized 3TC-resistant FIV mutants and replication kinetics |
+| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Dyrestudie | Viruses | Evaluerte ZDV, ZDV+IFN-α, ZDV+lamivudine og ZDV+valproinsyre hos naturlig FIV-infiserte katter over 1 år |
+| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Kasuistikk (dyr) | J Feline Med Surg | Langtidsoppfølging med antiretroviral terapi hos FIV-infiserte husekatter |
+| [11943320](https://pubmed.ncbi.nlm.nih.gov/11943320/) | 2002 | In vitro/in vivo | Vet Immunol Immunopathol | AZT/3TC-kombinasjonen viste additiv-til-synergisk anti-FIV-aktivitet i PBMCs |
+| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | In vitro | Antiviral Res | Kombinert zidovudin/lamivudine/abacavir undertrykket FIV-replikasjon in vitro |
+| [11327469](https://pubmed.ncbi.nlm.nih.gov/11327469/) | 2001 | In vitro | Am J Vet Res | Karakteriserte 3TC-resistente FIV-mutanter og replikasjonskinetikk |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Not marketed — 0 authorizations on record, no license entries available in the evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (All key warnings, contraindications, and DDI fields in this evidence pack are flagged as data gaps; TFDA/label data was not retrievable — see DG001, classified as a **Blocking** severity gap.)
+Ikke markedsført — 0 godkjennelser registrert, ingen lisensoppføringer tilgjengelig i bevissamlingen.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Se pakningsvedlegget for sikkerhetsinformasjon. (Alle viktige advarsler, kontraindikasjoner og DDI-felt i denne bevissamlingen er flagget som datamanko; TFDA/etikett-data var ikke hentbar — se DG001, klassifisert som **blokkeringsseveritetsdatamanko**.)
 
-**Rationale:**
-The top-ranked TxGNN prediction (feline acquired immunodeficiency syndrome) is a veterinary disease with no human equivalent, so it cannot proceed through a human drug repurposing pathway regardless of prediction score. The clinical trial evidence attached to it is mismatched (human HIV trials, not FIV), and the literature is limited to in vitro/animal studies. Additionally, a Blocking-severity data gap (missing TFDA label/warnings) prevents any Stage 1 safety review even if a valid human indication were substituted.
+---
 
-**To proceed, the following is needed:**
-- Re-run indication filtering to exclude non-human/veterinary disease terms from the candidate list
-- Resolve DG001 (TFDA label/warnings) and DG002 (MOA) before evaluating any remaining candidate
-- Note: ranks 2–5 in this same evidence pack (SIV infection, an ultra-rare neurodevelopmental disorder, an obsolete lipid disorder term, and a likely HBV/HCV mislabeling) were already independently assessed as **Hold** — this drug currently has no actionable repurposing candidate in the pack.
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Den topprangerte TxGNN-prediksjonen (felin ervervet immunsviktsyndrom) er en veterinær sykdom uten human ekvivalent, så den kan ikke gå videre gjennom en human repurposing-vei uansett prediksjonspoengsum. Klinisk forsøksbevis knyttet til den er uoverensstemmende (human HIV-forsøk, ikke FIV), og litteraturen er begrenset til in vitro/dyrestudier. I tillegg hindrer en blokkeringsseveritetsdatamanko (manglende TFDA-etikett/advarsler) enhver stage 1-sikkerhetsvurdering selv dersom en gyldig human indikasjon ble erstattet.
+
+**For å fortsette trengs følgende:**
+- Kjør indikasjonsfiltreringen på nytt for å ekskludere ikke-human/veterinær sykdomsuttrykk fra kandidatlisten
+- Løs DG001 (TFDA-etikett/advarsler) og DG002 (MOA) før evaluering av eventuell gjenværende kandidat
+- Merk: rangeringene 2–5 i denne samme bevissamlingen (SIV-infeksjon, en ultra-sjelden neurouviklingsforstyrrelse, en foreldet lipidstoffskiftesykdom-betegnelse og sannsynlig HBV/HCV-feilmerking) ble allerede uavhengig vurdert som **Avvent** — dette legemiddelet har for tiden ingen handlingsbar repurposing-kandidat i samlingen.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,91 +29,90 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-Using none of the specialized coding/debugging skills here — this is a direct content-generation task with a fully specified template, so I'll proceed straight to drafting the report.
+# Zidovudin: Fra HIV/AIDS antiretroviral terapi til felid ervervet immunsviktsyndrom
 
-# Zidovudine: From HIV/AIDS Antiretroviral Therapy to Feline Acquired Immunodeficiency Syndrome
+## Sammenfattelse på en setning
 
-## One-Sentence Summary
-
-> Zidovudine (AZT/ZDV) is the original nucleoside reverse transcriptase inhibitor (NRTI), globally established as an antiretroviral for HIV/AIDS in humans — though this specific evidence pack contains no formal record of that original indication.
-> The TxGNN model's top-ranked prediction is **feline acquired immunodeficiency syndrome (FIV/FAIDS)**, a veterinary (non-human) disease, supported only by **20 preclinical animal-model publications** and **zero clinical trials**.
-> Because the top-scoring candidate is not a human indication, this signal is not actionable for human drug repurposing in its current form.
+> Zidovudin (AZT/ZDV) er den opprinnelige nukleosidrevers transkriptasehemmeren (NRTI), globalt etablert som antiretroviral for HIV/AIDS hos mennesker — selv om denne spesifikke bevisspakken inneholder ingen formell registrering av den opprinnelige indikasjonen.
+> TxGNN-modellens topprangerte prediksjon er **felid ervervet immunsviktsyndrom (FIV/FAIDS)**, en veterinærsjukdom (ikke-menneskelig), støttet bare av **20 prekliniske dyremodellpublikasjoner** og **null kliniske forsøk**.
+> Fordi den toppscorende kandidaten ikke er en menneskelig indikasjon, er dette signalet ikke handlingsbar for menneskelig medikament omgjøring i sin nåværende form.
 
 ---
 
-## Quick Overview
+## Raskt oversikt
 
-| Item | Content |
+| Emne | Innhold |
 |------|------|
-| Original Indication | Not recorded in source data (drug not locally marketed); zidovudine is internationally documented as the first NRTI antiretroviral for HIV/AIDS |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (veterinary indication — not applicable to human patients) |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L4 (preclinical/animal-model literature only; not translatable to human indication) |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Ikke registrert i kildedata (medikament ikke markedsført lokalt); zidovudin er internasjonalt dokumentert som den første NRTI antiretroviral for HIV/AIDS |
+| Forutsagt ny indikasjon | Felid ervervet immunsviktsyndrom (veterinærindikasjon — ikke aktuelt for menneskelige pasienter) |
+| TxGNN prediksjonspoeng | 99.96% |
+| Bevistnivå | L4 (kun preklinisk/dyremodellitteratur; ikke overførbar til menneskelig indikasjon) |
+| Norsk markedsstatus | Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvente |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed mechanism-of-action data is not available in this evidence pack (`original_moa`: Data Gap). Based on the extensive literature returned across all ranked indications, zidovudine is consistently described as a thymidine-analogue nucleoside reverse transcriptase inhibitor (NRTI) — it is phosphorylated intracellularly and incorporated by retroviral reverse transcriptase, terminating proviral DNA synthesis. This mechanism is species-agnostic at the enzyme level, which explains why the drug shows anti-retroviral activity not only against HIV-1 in humans but also against related lentiviruses in other species.
+Detaljert data om virkningsmekanisme er ikke tilgjengelig i denne bevisspakken (`original_moa`: Datagap). Basert på den omfattende litteraturen returnert over alle rangerte indikasjoner, beskrives zidovudin konsekvent som en tymidin-analog nukleosidrevers transkriptasehemmer (NRTI) — den er fosforylert intracellulært og inkorporert av retroviral revers transkriptase, som avbryter proviral DNA-syntese. Denne mekanismen er artsuavhengig på enzymnivå, noe som forklarer hvorfor medikamentet viser antiretroviral aktivitet ikke bare mot HIV-1 hos mennesker, men også mot relaterte lentiviruser hos andre arter.
 
-This mechanistic non-specificity is exactly why the top two TxGNN predictions — **feline acquired immunodeficiency syndrome** (rank 1, score 0.9996) and **simian immunodeficiency virus infection** (rank 2, nearly identical score 0.9996) — score so highly: the knowledge graph links zidovudine to these entities through decades of comparative-virology literature in which cats and macaques were used as *experimental animal models* for HIV/AIDS drug development, not because zidovudine is a clinically indicated therapy for pet or primate disease. In other words, the model is picking up literature co-occurrence from preclinical model systems, not a genuine new human therapeutic opportunity.
+Denne mekanistiske ikke-spesifisiteten er nøyaktig hvorfor de to topprangerte TxGNN-prediksjonen — **felid ervervet immunsviktsyndrom** (rang 1, poeng 0.9996) og **simianimmunsviktvirusinfeksjon** (rang 2, nesten identisk poeng 0.9996) — scorer så høyt: kunnskapsgrafen forbinder zidovudin til disse enhetene gjennom tiår med komparativ virologi-litteratur der katter og makaker ble brukt som *eksperimentelle dyremodeller* for HIV/AIDS-medikamentutvikling, ikke fordi zidovudin er en klinisk indisert terapi for kjæledyr eller primatsjukdom. Med andre ord, modellen plukker opp litteratur co-forekomst fra prekliniske modellsystemer, ikke en genuine ny menneskelig terapeutisk mulighet.
 
-By contrast, ranks 5 and 6 in this same evidence pack — **AIDS related complex** and **congenital human immunodeficiency virus** — are strongly supported by dozens of completed Phase 1–3 human trials (including the landmark ACTG 076 trial for perinatal transmission prevention) and are, in fact, *already established* human uses of zidovudine rather than novel repurposing candidates. Ranks 3 and 4 (a rare neurodevelopmental syndrome and "obsolete familial combined hyperlipidemia") have already been internally flagged with no mechanistic link, and for rank 4 the plausible relationship runs in the *opposite* direction — NRTI therapy is associated with lipodystrophy/dyslipidemia as an adverse effect, not a treatment benefit. Taken together, this candidate bundle illustrates a case where raw TxGNN ranking, without species and clinical-context filtering, surfaces model artifacts rather than viable repurposing signals.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for feline acquired immunodeficiency syndrome (as expected — this is a veterinary indication and would not appear in ClinicalTrials.gov/ICTRP for human subjects).
+Derimot, ranger 5 og 6 i denne samme bevisspakken — **AIDS-relatert kompleks** og **kongenital menneskelig immunsviktvirus** — er sterkt støttet av dusinvis av fullførte fase 1–3 menneskelige forsøk (inkludert landemerkeforsøket ACTG 076 for prevensjon av perinatal overføring) og er faktisk *allerede etablert* menneskelig bruk av zidovudin snarere enn nye omgjøringskandidater. Ranger 3 og 4 (et sjeldent nevroevolutivt syndrom og "foreldet familiesamset hyperlipidemi") er allerede internt flagget uten mekanistisk forbindelse, og for rang 4 går det mulige forholdet i *motsatt retning* — NRTI-terapi er assosiert med lipodystrofi/dyslipidemi som bivirkningseffekt, ikke terapeutisk fordel. Samlet sett illustrerer denne kandidatbundelen et tilfelle der råt TxGNN-rangering, uten art- og klinisk kontekstfiltrering, presenterer modellartefakter snarere enn levedyktige omgjøringssignaler.
 
 ---
 
-## Literature Evidence
+## Kliniske forsøksbevis
 
-All available literature for this indication consists of preclinical animal-model studies in domestic cats; none are human clinical trials, RCTs, or reviews.
+For tiden ingen relaterte kliniske forsøk registrert for felid ervervet immunsviktsyndrom (som forventet — dette er en veterinærindikasjon og ville ikke dukke opp i ClinicalTrials.gov/ICTRP for menneskelige forsøkspersoner).
 
-| PMID | Year | Type | Journal | Key Findings |
+---
+
+## Litteraturbevis
+
+All tilgjengelig litteratur for denne indikasjonen består av prekliniske dyremodellstudier hos hjemmekatter; ingen er menneskelige kliniske forsøk, randomiserte kontrollerte forsøk eller oversikter.
+
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [2475068](https://pubmed.ncbi.nlm.nih.gov/2475068/) | 1989 | Preclinical (feline model) | Antimicrob Agents Chemother | Established FIV as a model for AZT-based reverse-transcriptase-targeted chemotherapy for human AIDS |
-| [3034403](https://pubmed.ncbi.nlm.nih.gov/3034403/) | 1987 | Preclinical (feline model) | Cancer Research | Early evaluation of AZT in FeLV-infected cats as a therapy/prophylaxis model for AIDS |
-| [2178336](https://pubmed.ncbi.nlm.nih.gov/2178336/) | 1990 | Preclinical (feline model) | Antimicrob Agents Chemother | Interferon-alpha plus AZT evaluated in presymptomatic feline leukemia virus-induced AIDS (FAIDS) |
-| [2163339](https://pubmed.ncbi.nlm.nih.gov/2163339/) | 1990 | Preclinical (feline model, toxicology) | Fundam Appl Toxicol | Dose-ranging toxicity study of AZT in FeLV-infected cats |
-| [8381867](https://pubmed.ncbi.nlm.nih.gov/8381867/) | 1993 | Preclinical (feline model) | J Acquir Immune Defic Syndr | Prophylactic AZT reduced early viremia and lymphocyte decline but did not prevent primary FIV infection |
-| [7688949](https://pubmed.ncbi.nlm.nih.gov/7688949/) | 1993 | Preclinical (feline model) | Arch Virol | AZT and cyclosporine reduced plasma (but not PBMC) FIV titers |
-| [11943320](https://pubmed.ncbi.nlm.nih.gov/11943320/) | 2002 | Preclinical (feline model) | Vet Immunol Immunopathol | AZT/3TC combination showed additive-to-synergistic anti-FIV activity in vitro; questioned efficacy in chronic infection |
-| [18550661](https://pubmed.ncbi.nlm.nih.gov/18550661/) | 2008 | Preclinical (feline model, genetics) | J Virol | Phylogenetic analysis of FIV genes in cats undergoing AZT treatment vs. treatment-naïve cats |
-| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Preclinical (feline model) | Viruses | Compared AZT alone vs. AZT combinations (IFN-α, 3TC, valproic acid) in naturally FIV-infected cats over one year |
-| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Preclinical (feline model, long-term) | J Feline Med Surg | Long-term (5–6 year) follow-up of AZT-based antiretroviral therapy in FIV-infected cats |
+| [2475068](https://pubmed.ncbi.nlm.nih.gov/2475068/) | 1989 | Preklinisk (felid modell) | Antimicrob Agents Chemother | Etablerte FIV som modell for AZT-basert revers transkriptase-rettet kjemoterapi for menneskelig AIDS |
+| [3034403](https://pubmed.ncbi.nlm.nih.gov/3034403/) | 1987 | Preklinisk (felid modell) | Cancer Research | Tidlig evaluering av AZT i FeLV-infiserte katter som terapi-/profylaksemodell for AIDS |
+| [2178336](https://pubmed.ncbi.nlm.nih.gov/2178336/) | 1990 | Preklinisk (felid modell) | Antimicrob Agents Chemother | Interferon-alfa pluss AZT evaluert i presymptomatisk felid leukemivirus-indusert AIDS (FAIDS) |
+| [2163339](https://pubmed.ncbi.nlm.nih.gov/2163339/) | 1990 | Preklinisk (felid modell, toksikologi) | Fundam Appl Toxicol | Dose-rekkevidde toksisitetsstudie av AZT i FeLV-infiserte katter |
+| [8381867](https://pubmed.ncbi.nlm.nih.gov/8381867/) | 1993 | Preklinisk (felid modell) | J Acquir Immune Defic Syndr | Profylaktisk AZT reduserte tidlig viremi og lymfocytreduksjon men forhindret ikke primær FIV-infeksjon |
+| [7688949](https://pubmed.ncbi.nlm.nih.gov/7688949/) | 1993 | Preklinisk (felid modell) | Arch Virol | AZT og ciklosporin reduserte plasma (men ikke PBMC) FIV-titere |
+| [11943320](https://pubmed.ncbi.nlm.nih.gov/11943320/) | 2002 | Preklinisk (felid modell) | Vet Immunol Immunopathol | AZT/3TC-kombinasjon viste additiv til synergistisk anti-FIV-aktivitet in vitro; satte spørsmål ved effektivitet i kronisk infeksjon |
+| [18550661](https://pubmed.ncbi.nlm.nih.gov/18550661/) | 2008 | Preklinisk (felid modell, genetikk) | J Virol | Fylogenetisk analyse av FIV-gener i katter som gjennomgår AZT-behandling kontra behandling-naive katter |
+| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Preklinisk (felid modell) | Viruses | Sammenlignet AZT alene kontra AZT-kombinasjoner (IFN-α, 3TC, valporsyre) i naturlig FIV-infiserte katter over ett år |
+| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Preklinisk (felid modell, langsiktig) | J Feline Med Surg | Langsiktig (5–6 år) oppfølging av AZT-basert antiretroviral terapi i FIV-infiserte katter |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-This drug currently has no authorizations on file for this market (`market_status`: Not Marketed; `total_licenses`: 0). No product listings are available to summarize.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No structured warnings, contraindications, or drug-interaction data are currently available in the evidence pack (`key_warnings`, `contraindications`, and DDI queries all returned no data). This is flagged as a **Blocking** data gap (DG001) — official label/monograph data must be sourced before this candidate can proceed through initial safety screening (S1).
+Dette medikamentet har for tiden ingen autorisasjoner registrert for dette markedet (`market_status`: Ikke markedsført; `total_licenses`: 0). Ingen produktoppføringer er tilgjengelige å oppsummere.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Se pakningsinformasjonen for sikkerhetsinformasjon. Ingen strukturerte advarsler, kontraindikasjoner eller legemiddelinteraksjonsdata er for tiden tilgjengelige i bevisspakken (`key_warnings`, `contraindications` og DDI-spørringer returnerte ingen data). Dette er flagget som et **blokkerende** datagap (DG001) — offisiell merkinginformasjon/monografidata må skaffes før denne kandidaten kan gå videre gjennom innledende sikkerhetskontroll (S1).
 
-**Rationale:**
-The highest-ranked TxGNN prediction (feline acquired immunodeficiency syndrome) is a veterinary, non-human indication with no clinical trial evidence and only preclinical animal-model literature — it is not actionable as a human drug repurposing candidate. Combined with a Blocking safety data gap (no label/warnings data) and the drug's absence from the local market, there is insufficient basis to advance.
+---
 
-**To proceed, the following is needed:**
-- Official product label / TFDA-equivalent monograph data (warnings, contraindications, DDIs) to close the Blocking data gap (DG001)
-- Confirmed mechanism-of-action documentation (DG002)
-- Species/entity filtering on TxGNN outputs to exclude non-human disease terms before ranking is presented for human repurposing review
-- If pursued further, reassessment should focus on the lower-ranked but clinically grounded signals in this pack (AIDS related complex, congenital HIV infection) — noting these reflect zidovudine's *already established* human use rather than a novel repurposing opportunity, so they would not qualify as new indications either
+## Konklusjon og neste trinn
+
+**Beslutning: Avvente**
+
+**Begrunnelse:**
+Den høyest rangerte TxGNN-prediksjonen (felid ervervet immunsviktsyndrom) er en veterinærindikasjon for ikke-mennesker uten bevis for kliniske forsøk og bare preklinisk dyremodellitteratur — den er ikke handlingsbar som menneskelig medikament omgjøringskandidat. Kombinert med et blokkerende sikkerhetsdatagap (ingen merkinginformasjon/advarselsdata) og medikamentets fravær fra det lokale markedet, er det utilstrekkelig grunnlag for å gå videre.
+
+**For å gå videre, er følgende nødvendig:**
+- Offisiell produktmerkinginformasjon / TFDA-ekvivalent monografidata (advarsler, kontraindikasjoner, DDI-er) for å lukke det blokkerende datagapet (DG001)
+- Bekreftet virkningsmekanisme-dokumentasjon (DG002)
+- Art-/enhetfiltrering på TxGNN-utganger for å utelukke ikke-mennesketige sjukdomsbetegnelser før rangering presenteres for menneskelig omgjøringsvurdering
+- Hvis fortsatt forfølgt, bør revurdering fokuseres på de lavere rangerte men klinisk funderte signalene i denne pakken (AIDS-relatert kompleks, kongenital HIV-infeksjon) — med merknad om at disse gjenspeiler zidovudins *allerede etablert* menneskelig bruk snarere enn ny omgjøringsmulighet, så de ville ikke kvalifisere som nye indikasjoner heller
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

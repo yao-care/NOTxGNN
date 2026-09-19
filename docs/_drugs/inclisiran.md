@@ -29,95 +29,95 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Inclisiran: From Hypercholesterolemia to Potassium Deficiency Disease
+# Inclisiran: Fra hyperkholesterolemi til kaliummangelsykdom
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-> Inclisiran (DB14901) is a PCSK9-targeted siRNA; its originally approved indication is not captured in this evidence pack (Norway licensing data is empty — the drug is currently **not marketed**).
-> TxGNN's top-ranked prediction in this batch is **Potassium Deficiency Disease** (score 99.93%),
-> but this signal is supported by **0 clinical trials** and **0 publications** — it is a pure model artifact with no biological rationale, and the internal scoring engine itself flags it as **Hold**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — `taiwan_regulatory.licenses` is empty in this evidence pack. (General pharmacological background, not from this dataset: inclisiran is a PCSK9-directed siRNA used for LDL-C lowering/ASCVD risk reduction.) |
-| Predicted New Indication | Potassium deficiency disease |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Norway Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Inclisiran (DB14901) er en PCSK9-rettet siRNA; dens opprinnelig godkjente indikasjon er ikke fanget i denne bevissamlingen (norske lisensieringsdata er tomme — legemidlet er for tiden **ikke markedsført**).
+> TxGNNs topp-rangerte prediksjon i denne serien er **kaliummangelsykdom** (score 99.93%), men dette signalet støttes av **0 kliniske forsøk** og **0 publikasjoner** — det er en ren modellartefakt uten biologisk begrunnelse, og den interne scoringmotoren selv flaggerer det som **Hold**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available for inclisiran in this evidence pack (`original_moa: [Data Gap]`). Based on general pharmacological knowledge, inclisiran is a small interfering RNA (siRNA) that silences hepatic PCSK9 mRNA translation, thereby increasing LDL-receptor recycling and lowering circulating LDL cholesterol.
-
-For the top-ranked prediction in this batch — **potassium deficiency disease** — the evidence pack's own mechanistic assessment explicitly states there is **no known biological relationship** between the PCSK9/LDL-receptor pathway and potassium homeostasis, and **no trial or literature evidence** exists to support the link. This is consistent with a high TxGNN embedding-similarity score that does not correspond to plausible pharmacology — a known failure mode of pure graph-embedding predictions when unconstrained by mechanistic filters.
-
-Given this, the prediction should **not** be interpreted as a genuine repurposing signal. It is retained in this report for transparency and audit purposes only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Innhold |
+|------|---------|
+| Opprinnelig indikasjon | Ikke tilgjengelig — `taiwan_regulatory.licenses` er tom i denne bevissamlingen. (Generell farmakologisk bakgrunn, ikke fra dette datasettet: inclisiran er en PCSK9-rettet siRNA brukt for LDL-C-senkelse/ASCVD-risikoreduksjon.) |
+| Forutsagt ny indikasjon | Kaliummangelsykdom |
+| TxGNN-prediksjons-poengsum | 99.93% |
+| Bevisnivå | L5 (modellprediksjon kun, ingen støttestudier) |
+| Norsk markedsstatus | ✗ Ikke markedsført (Ikke markedsført) |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+For tiden er detaljerte virkningsmekanisme-data ikke tilgjengelige for inclisiran i denne bevissamlingen (`original_moa: [Data Gap]`). Basert på generell farmakologisk kunnskap, er inclisiran en liten interfererende RNA (siRNA) som hemmer hepatisk PCSK9 mRNA-translasjon, og dermed øker LDL-reseptor-resirkulering og senker sirkulerende LDL-kolesterol.
 
----
+For den topp-rangerte prediksjonen i denne serien — **kaliummangelsykdom** — erklærer bevissamlingens egen mekanistiske vurdering eksplisitt at det er **ingen kjent biologisk sammenheng** mellom PCSK9/LDL-reseptor-banen og kaliumhomøostase, og **ingen forsøks- eller litteraturbevis** eksisterer for å støtte forbindelsen. Dette er konsistent med en høy TxGNN embedding-likhets-poengsum som ikke tilsvarer plausibel farmakologi — en kjent sviktmodus for ren graf-embedding-prediksjoner når de ikke er begrenset av mekanistiske filtre.
 
-## Norway Market Information
-
-Inclisiran is currently **not marketed** in Norway — `taiwan_regulatory.market_status = "Not marketed"`, with **0 authorizations** on file. No license records are available to summarize.
+Gitt dette, skal prediksjonen **ikke** tolkes som et genuint ombruksignal. Det er beholdt i denne rapporten for transparens- og revisjonsformål.
 
 ---
 
-## Other Candidates in This Batch (Context)
+## Klinisk forsøksbevis
 
-This evidence pack ("TW-DB14901-multi") contains 10 TxGNN-ranked predictions for inclisiran, most of which share the same problem as the top hit — high score, zero evidence, "Hold." One candidate stands out as materially different and warrants separate follow-up:
+For tiden er ingen relaterte kliniske forsøk registrert.
 
-| Rank | Disease | TxGNN Score | Evidence Level | Decision Stage | Recommendation | Note |
+---
+
+## Litteraturbevis
+
+For tiden er ingen relatert litteratur tilgjengelig.
+
+---
+
+## Norsk markedsinformasjon
+
+Inclisiran er for tiden **ikke markedsført** i Norge — `taiwan_regulatory.market_status = "Not marketed"`, med **0 godkjennelser** på fil. Ingen lisenseopplysninger er tilgjengelige for oppsummering.
+
+---
+
+## Andre kandidater i denne serien (kontekst)
+
+Denne bevissamlingen ("TW-DB14901-multi") inneholder 10 TxGNN-rangerte prediksjoner for inclisiran, de fleste av dem deler det samme problemet som tophiten — høy poengsum, null bevis, "Hold." En kandidat skiller seg ut som vesentlig annerledes og garanterer separat oppfølging:
+
+| Rangering | Sykdom | TxGNN-poengsum | Bevisnivå | Beslutningsstadium | Anbefaling | Notat |
 |------|---------|-------------|-----------------|------------------|-----------------|------|
-| 1 | Potassium deficiency disease | 99.93% | L5 | S0 | Hold | No mechanistic link, no evidence |
-| 2 | Esophageal disease | 99.87% | L5 | S0 | Hold | No evidence |
-| 4 | Migraine disorder | 99.83% | L5 | S0 | Hold | No evidence |
-| 7 | Migraine w/ or w/o aura, susceptibility | 99.78% | L5 | S0 | Hold | 20 papers retrieved, but all on epilepsy/migraine genetics — none address PCSK9/lipid pathways |
-| **8** | **Aortic malformation** | **99.76%** | **L4** | **S1** | **Research Question** | **2 active Phase 3 pediatric FH trials (NCT06597006, NCT06597019); plausible mechanistic link via LDL-C-driven vascular/valvular lipid deposition, but trial inclusion criteria (HoFH/HeFH) need manual verification against "aortic malformation" as a MeSH-level term** |
-| 9 | Esophageal ulcer | 99.73% | L5 | S0 | Hold | No evidence |
-| 10 | Raynaud disease | 99.73% | L5 | S0 | Hold | No evidence |
+| 1 | Kaliummangelsykdom | 99.93% | L5 | S0 | Hold | Ingen mekanistisk forbindelse, ingen bevis |
+| 2 | Spiserørsykdom | 99.87% | L5 | S0 | Hold | Ingen bevis |
+| 4 | Migrene | 99.83% | L5 | S0 | Hold | Ingen bevis |
+| 7 | Migrene med eller uten aura, disponering | 99.78% | L5 | S0 | Hold | 20 artikler hentet, men alle om epilepsi/migrene-genetikk — ingen adresserer PCSK9/lipidveier |
+| **8** | **Aortamalformasjon** | **99.76%** | **L4** | **S1** | **Forskningsspørsmål** | **2 aktive fase 3 pediatriske FH-forsøk (NCT06597006, NCT06597019); plausibel mekanistisk forbindelse via LDL-C-drevet vaskulær/valvulær lipiddeposisjon, men forsøksinklusjonskriterier (HoFH/HeFH) trenger manuell verifisering mot "aortamalformasjon" som et MeSH-nivåterm** |
+| 9 | Spiserørsår | 99.73% | L5 | S0 | Hold | Ingen bevis |
+| 10 | Raynaud-sykdom | 99.73% | L5 | S0 | Hold | Ingen bevis |
 
-Rank 8 ("aortic malformation") is the only candidate in this batch that reached decision stage S1 with real clinical trial backing, and is the more appropriate target for a dedicated follow-up evaluation report — not the top-ranked "potassium deficiency disease" entry.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. `safety.key_warnings`, `safety.contraindications`, and `safety.ddi` are all marked as data gaps in this evidence pack (see DG001, "Blocking" severity — TFDA/label warnings not yet retrieved).
+Rangering 8 ("aortamalformasjon") er den eneste kandidaten i denne serien som nådde beslutningsstadium S1 med virkelig klinisk forsøksstøtte, og er det mer passende målet for en dedikert oppfølgingsevaluering — ikke den topp-rangerte "kaliummangelsykdom"-oppføringen.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. `safety.key_warnings`, `safety.contraindications`, og `safety.ddi` er alle markert som datahull i denne bevissamlingen (se DG001, "Blocking"-alvorlighetsgrad — TFDA/etikett-advarsler ikke ennå hentet).
 
-**Rationale:**
-The top-ranked prediction (potassium deficiency disease) has a very high TxGNN score but zero corroborating clinical or literature evidence, and the pack's own rationale confirms no biological plausibility. This is a model-artifact signal, not a genuine repurposing candidate.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): retrieve TFDA/Norway label warnings and contraindications before any S1 safety screening can begin for this drug
-- Resolve DG002 (High): pull structured MOA data from DrugBank to properly evaluate mechanistic plausibility across all candidates
-- If continuing repurposing exploration for inclisiran, redirect focus to **rank 8 (aortic malformation)** — verify actual inclusion criteria of NCT06597006/NCT06597019 against the predicted indication term before advancing to S2
-- Populate `taiwan_regulatory.licenses` / `original_indications` — currently empty, blocking a complete original-vs-new indication comparison
-- Do not advance "potassium deficiency disease," "esophageal disease/ulcer/malformation," "migraine," or "Raynaud disease" without new supporting evidence — all currently L5/Hold
+## Konklusjon og neste trinn
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Den topp-rangerte prediksjonen (kaliummangelsykdom) har en meget høy TxGNN-poengsum, men null bekrefteende klinisk eller litteraturbevis, og pakningens egen begrunnelse bekrefter ingen biologisk plausibilitet. Dette er et modellartefaktsignal, ikke en genuint ombrukskandidat.
+
+**For å gå videre, er følgende nødvendig:**
+- Løs DG001 (Blocking): hent TFDA/Norge-etikett-advarsler og kontraindikasjoner før noen S1-sikkerhetsscreening kan begynne for dette legemidlet
+- Løs DG002 (High): hent strukturerte MOA-data fra DrugBank for å korrekt evaluere mekanistisk plausibilitet på tvers av alle kandidater
+- Hvis du fortsetter ombruksutforsking for inclisiran, omdirigér fokus til **rangering 8 (aortamalformasjon)** — bekreft faktiske inklusjonskriterier for NCT06597006/NCT06597019 mot det forutsagte indikasjonstermet før du går videre til S2
+- Fyll `taiwan_regulatory.licenses` / `original_indications` — for tiden tomme, blokkerer en fullstendig original-versus-ny indikasjonsammenligning
+- Ikke gå videre med "kaliummangelsykdom," "spiserørsykdom/sår/malformasjon," "migrene," eller "Raynaud-sykdom" uten nye støttebevis — alle for tiden L5/Hold
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

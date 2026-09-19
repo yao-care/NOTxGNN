@@ -29,101 +29,102 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Oxybutynin: From Overactive Bladder to Restless Legs Syndrome
+# Oxybutynin: Fra overaktiv blære til Rastløs beinyndrom
 
-## One-Sentence Summary
+## Sammenfattelse på en setning
 
-> Oxybutynin is an M3 muscarinic receptor antagonist whose established antispasmodic action targets bladder detrusor smooth muscle (consistent with its classic use in overactive bladder/urinary incontinence).
-> TxGNN's top-ranked prediction for this compound is **Restless Legs Syndrome**, but this candidate has **zero clinical trials and zero literature citations**, and the model's own mechanistic rationale explicitly states there is no known biological link between anticholinergic activity and RLS pathophysiology.
-> Two lower-ranked candidates (gastroduodenitis, peptic ulcer disease) were also evaluated in this pack — only peptic ulcer disease has any supporting literature, and it consists solely of pre-1990 case reports and reviews predating modern PPI/H2-blocker therapy.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Overactive bladder / urinary incontinence (inferred from M3-antagonist mechanism described in the evidence; formal approved-indication text unavailable — drug is not marketed) |
-| Predicted New Indication | Restless Legs Syndrome |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L5 (model prediction only — no clinical trials or literature) |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
-### Other Predicted Indications in This Pack
-
-| Rank | Disease | TxGNN Score | Evidence Level | Decision |
-|------|---------|-------------|-----------------|----------|
-| 2 | Gastroduodenitis | 99.62% | L5 (no trials/literature) | Hold |
-| 3 | Peptic ulcer disease | 99.31% | L3 (3 historical publications, no trials) | Hold |
+> Oxybutynin er en M3-muskarinreseptantagonist hvis etablerte antispastiske virkning retter seg mot glatt muskulatur i blæredetrusor (konsistent med dets klassiske bruk ved overaktiv blære/urininkontinens).
+> TxGNNs topprangerte prediksjon for denne forbindelsen er **Rastløs beinyndrom**, men denne kandidaten har **null kliniske forsøk og null litteraturhenvisninger**, og modellens egen mekanistiske begrunnelse slår eksplisitt fast at det ikke finnes noen kjent biologisk forbindelse mellom antikolinergisk aktivitet og patofysiologi for Rastløs beinyndrom.
+> To kandidater med lavere rangering (gastroduodenitt, peptisk ulcuslidelse) ble også evaluert i denne pakken — bare peptisk ulcuslidelse har noe støttende litteratur, og den består utelukkende av caserapporter og oversiktsartikler fra før 1990 som forut for moderne PPI/H2-blokkertherapeutikk.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Detailed mechanism-of-action data for oxybutynin is marked as a data gap in this pack, but the evidence itself describes oxybutynin as an M3 muscarinic receptor antagonist with antispasmodic/anticholinergic activity, acting primarily on bladder detrusor smooth muscle — consistent with its well-known original use in overactive bladder.
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Overaktiv blære/urininkontinens (utledet fra M3-antagonistmekanisme beskrevet i bevisene; formell godkjent indiksjonstekst utilgjengelig — legemidlet er ikke markedsført) |
+| Predikert ny indikasjon | Rastløs beinyndrom |
+| TxGNN prediksjonspoengsum | 99.74% |
+| Bevisnivå | L5 (kun modellprediksjon — ingen kliniske forsøk eller litteratur) |
+| Norsk markedsstatus | Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Hold |
 
-For the top-ranked candidate, **Restless Legs Syndrome**, the model's own rationale states there is **no plausible mechanistic link**: RLS pathophysiology is driven by central dopaminergic dysfunction and iron metabolism abnormalities, neither of which intersects with peripheral/central anticholinergic activity. The high TxGNN score here reflects graph-embedding similarity rather than biological plausibility, and is not corroborated by any clinical trial or publication.
+### Andre predikerte indikasjoner i denne pakken
 
-The third-ranked candidate, **peptic ulcer disease**, has a more coherent (though outdated) mechanistic story: anticholinergic agents were historically used to reduce vagally-mediated gastric acid secretion and GI smooth muscle spasm — a rationale that predates H2-blockers and PPIs, which have since become standard of care and are far more targeted at the actual etiologies of PUD (H. pylori, NSAID use). Notably, one case report in the evidence (PMID 2360335) documents oxybutynin-induced reflux esophagitis via lower esophageal sphincter relaxation — a mechanism that could plausibly **worsen** GERD, a common PUD comorbidity, rather than help it.
-
----
-
-## Clinical Trial Evidence
-
-*(Restless Legs Syndrome — top-ranked candidate)*
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-*(Restless Legs Syndrome — top-ranked candidate)*
-
-Currently no related literature available.
-
-### Supporting Literature for Peptic Ulcer Disease (Rank 3 Candidate)
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [14173506](https://pubmed.ncbi.nlm.nih.gov/14173506/) | 1964 | Cohort/Clinical Evaluation | Curr Ther Res Clin Exp | Early clinical evaluation of oxybutynin chloride in gastrointestinal disease |
-| [4380481](https://pubmed.ncbi.nlm.nih.gov/4380481/) | 1965 | Review | Arch Int Pharmacodyn Ther | Characterizes oxybutynin as a musculotropic antispasmodic with moderate anticholinergic action |
-| [2360335](https://pubmed.ncbi.nlm.nih.gov/2360335/) | 1990 | Case Report | DICP | Reports oxybutynin-induced reflux esophagitis via reduced lower esophageal sphincter tone — a potential contraindication signal for GI use |
-
-No literature was returned for the gastroduodenitis candidate (Rank 2).
+| Rangering | Sykdom | TxGNN poengsum | Bevisnivå | Beslutning |
+|-----------|--------|----------------|-----------|-----------|
+| 2 | Gastroduodenitt | 99.62% | L5 (ingen forsøk/litteratur) | Hold |
+| 3 | Peptisk ulcuslidelse | 99.31% | L3 (3 historiske publikasjoner, ingen forsøk) | Hold |
 
 ---
 
-## Norway Market Information
+## Hvorfor er denne prediksjonen rimelig?
 
-This drug is currently **not marketed** on the market covered by this dataset. No authorization/license records are available (`total_licenses = 0`).
+Detaljert data om virkningsmekanisme for Oxybutynin er merket som et datagap i denne pakken, men bevisene selv beskriver Oxybutynin som en M3-muskarinreseptantagonist med antispastisk/antikolinergisk aktivitet som virker primært på glatt muskulatur i blæredetrusor — konsistent med dets velkjente opprinnelige bruk ved overaktiv blære.
 
----
+For den topprangerte kandidaten, **Rastløs beinyndrom**, slår modellens egen begrunnelse fast at det **ikke finnes noen plausibel mekanistisk forbindelse**: patofysiologi for Rastløs beinyndrom drives av sentral dopaminergisk dysfunksjon og jernstoffskifteavvik, hvorav ingen krysser seg med perifer/sentral antikolinergisk aktivitet. Det høye TxGNN-poengsumet her reflekterer grafembedding-likhet snarere enn biologisk plausibilitet, og det støttes ikke av noe klinisk forsøk eller publikasjon.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information. This pack flags TFDA-equivalent label warnings/contraindications as a **Blocking data gap (DG001)** — this must be resolved before any S1 safety assessment can proceed.
-
-Separately, the literature review above (PMID 2360335) surfaced a specific adverse-effect signal relevant to GI repurposing candidates: oxybutynin can induce reflux esophagitis via LES relaxation, which is a mechanistic concern for the peptic ulcer disease candidate specifically.
+Den tredje-rangerte kandidaten, **peptisk ulcuslidelse**, har en mer sammenhengende (men foreldet) mekanistisk historie: antikolinergiske midler ble historisk brukt for å redusere vagalt-mediert magesyreseksresjon og glatt tarmmuskelsammentrekninger — en begrunnelse som forut for H2-blokkerere og PPI-er, som siden er blitt standard behandling og er langt mer rettet mot de faktiske årsakene til peptisk ulcuslidelse (H. pylori, NSAID-bruk). Bemerkelsesverdig dokumenterer en caserapport i bevisene (PMID 2360335) Oxybutynin-indusert refluksesophagitt via relaksasjon av nedre spiselørssfinktter — en mekanisme som plausibelt kunne **forverre** GERD, en vanlig komorbiditet ved peptisk ulcuslidelse, snarere enn å hjelpe det.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra kliniske forsøk
 
-**Decision: Hold** (all three candidates in this pack)
+*(Rastløs beinyndrom — topprangert kandidat)*
 
-**Rationale:**
-- The top-ranked candidate (RLS, 99.74%) has no clinical trials, no literature, and no biological plausibility per the model's own rationale — this is a pure graph-similarity artifact, not a repurposing signal.
-- The peptic ulcer disease candidate has some historical evidence (L3) but it predates modern PUD standard-of-care and carries a plausible aggravation risk (reflux esophagitis) rather than a therapeutic benefit.
-- The drug is not marketed in this jurisdiction, and TFDA-equivalent label/safety data is a **Blocking** gap (DG001), so no candidate here can advance past S0/S1 regardless of prediction score.
+Ingen relaterte kliniske forsøk er for tiden registrert.
 
-**To proceed, the following is needed:**
-- Resolve DG001 (label warnings/contraindications) via TFDA-equivalent regulatory source — blocking for any further evaluation
-- Resolve DG002 (confirmed MOA via DrugBank API) to validate or refute mechanistic rationale for any candidate
-- If RLS is to be pursued further, independent literature/trial search is required — this pack currently contains none
-- Re-evaluate peptic ulcer disease only if modern comparative evidence (vs. PPI/H2-blocker) emerges; current evidence is insufficient and carries a competing safety signal
+---
+
+## Bevis fra litteratur
+
+*(Rastløs beinyndrom — topprangert kandidat)*
+
+Ingen relatert litteratur er for tiden tilgjengelig.
+
+### Støttende litteratur for peptisk ulcuslidelse (rangering 3. kandidat)
+
+| PMID | År | Type | Tidsskrift | Nøkkelfunn |
+|------|-----|------|------------|---------|
+| [14173506](https://pubmed.ncbi.nlm.nih.gov/14173506/) | 1964 | Kohorte/klinisk evaluering | Curr Ther Res Clin Exp | Tidlig klinisk evaluering av Oxybutynin klorid ved gastrointestinal sykdom |
+| [4380481](https://pubmed.ncbi.nlm.nih.gov/4380481/) | 1965 | Oversikt | Arch Int Pharmacodyn Ther | Karakteriserer Oxybutynin som et muskulotropt antispastikum med moderat antikolinergisk virkning |
+| [2360335](https://pubmed.ncbi.nlm.nih.gov/2360335/) | 1990 | Caserapport | DICP | Rapporterer Oxybutynin-indusert refluksesophagitt via redusert tone i nedre spiselørssfinktter — et potensielt kontraindikasjonsignale for GI-bruk |
+
+Ingen litteratur ble returnert for gastroduodenitt-kandidaten (rangering 2).
+
+---
+
+## Norsk markedsinformasjon
+
+Dette legemidlet er for tiden **ikke markedsført** på markedet som er dekket av dette datasettet. Ingen autorisasjons-/lisensregistre er tilgjengelige (`total_licenses = 0`).
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Denne pakken flagrer TFDA-ekvivalente etikettadvarsler/kontraindikasjoner som et **blokkerende datagap (DG001)** — dette må løses før noen S1-sikkerhetsvurdering kan fortsette.
+
+Separat frembrakte litteraturgjennomgangen ovenfor (PMID 2360335) et spesifikt bivirkningssignal relevant for GI-omformålingskandidater: Oxybutynin kan indusere refluksesophagitt via relaksasjon av nedre spiselørssfinktter, som er en mekanistisk bekymring for peptisk ulcuslidelse-kandidaten spesifikt.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Hold** (alle tre kandidatene i denne pakken)
+
+**Begrunnelse:**
+- Den topprangerte kandidaten (Rastløs beinyndrom, 99.74%) har ingen kliniske forsøk, ingen litteratur og ingen biologisk plausibilitet ifølge modellens egen begrunnelse — dette er et rent graflikhet-artefakt, ikke et omformålingssignal.
+- Peptisk ulcuslidelse-kandidaten har noe historisk bevis (L3), men den forut for moderne standardbehandling av peptisk ulcuslidelse og har en plausibel forverringrisiko (refluksesophagitt) snarere enn en terapeutisk fordel.
+- Legemidlet er ikke markedsført i denne juridiksjonen, og TFDA-ekvivalente etikett-/sikkerhetdata er et **blokkerende** gap (DG001), så ingen kandidat her kan komme videre enn S0/S1 uavhengig av prediksjonsscore.
+
+**For å fortsette, kreves følgende:**
+- Løse DG001 (etikettadvarsler/kontraindikasjoner) via TFDA-ekvivalent regulatorisk kilde — blokkering for videre evaluering
+- Løse DG002 (bekreftet MOA via DrugBank API) for å validere eller tilbakevise mekanistisk begrunnelse for noen kandidat
+- Hvis Rastløs beinyndrom skal forfølges videre, er uavhengig litteratur-/prøvesøk nødvendig — denne pakken inneholder for tiden ingen
+- Vurder på nytt peptisk ulcuslidelse bare hvis moderne komparativ bevis (vs. PPI/H2-blokker) dukker opp; gjeldende bevis er utilstrekkelig og har et konkurrerende sikkerhetssignal
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,79 +29,80 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Lusutrombopag: From Thrombocytopenia (TPO-RA Therapy) to Hereditary Thrombocytopenia with Normal Platelets
+# Lusutrombopag: Fra trombocytopeni (TPO-RA-terapi) til arvelig trombocytopeni med normale trombocytter
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Lusutrombopag is a thrombopoietin receptor (TPO/MPL) agonist; its original approved indication is not documented in this evidence pack (no Norway license records exist).
-> The TxGNN model predicts it may be effective for **Hereditary Thrombocytopenia with Normal Platelets**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model-generated hypothesis.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no Norway license records exist for this product |
-| Predicted New Indication | Hereditary Thrombocytopenia with Normal Platelets |
-| TxGNN Prediction Score | 99.995% (overall rank 88) |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Lusutrombopag er en thrombopoietin-reseptor (TPO/MPL) agonist; dens opprinnelige godkjente indikasjon er ikke dokumentert i denne evidenspakken (ingen norske lisensregistreringer finnes).
+> TxGNN-modellen forutsier at det kan være effektivt for **arvelig trombocytopeni med normale trombocytter**,
+> men denne prediksjonen støttes for tiden av **0 kliniske forsøk** og **0 publikasjoner** — det er en ren modellgenerert hypotese.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-The structured `original_moa` field for this drug is currently a data gap (DG002, High severity). However, the model's own rationale text identifies lusutrombopag as a **TPO receptor (MPL) agonist** — a drug class that stimulates megakaryocyte proliferation and differentiation to increase platelet counts.
-
-Mechanistically, this places lusutrombopag on the same pharmacological axis as **platelet-production-deficiency disorders**. Hereditary thrombocytopenia with normal platelets (i.e., low platelet count without accompanying structural/functional platelet defects) is, in principle, a plausible extension of TPO-receptor agonism, since the underlying deficit is quantitative (insufficient production) rather than qualitative (defective platelet function).
-
-That said, this is a genetic/hereditary condition, and no clinical trial or published evidence currently exists to confirm efficacy or safety of a TPO-RA in this specific population. The link should be treated as a mechanistically plausible research hypothesis only, not a validated therapeutic pathway.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke tilgjengelig — ingen norske lisensregistreringer finnes for dette produktet |
+| Forutsagt ny indikasjon | Arvelig trombocytopeni med normale trombocytter |
+| TxGNN-prediksjonsscore | 99.995% (samlet rangering 88) |
+| Bevisnivå | L5 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available
+Det strukturerte `original_moa`-feltet for dette legemidlet er for tiden et datahull (DG002, høy alvorlighetsgrad). Imidlertid identifiserer modellens egen begrunnelsestekst lusutrombopag som en **TPO-reseptor (MPL) agonist** — en legemiddelklasse som stimulerer megakaryocy tt-proliferasjon og differensiering for å øke trombocy tt-tallet.
 
----
+Mekanistisk plasserer dette lusutrombopag på samme farmakologiske akse som **trombocy tt-produksjonsmangel-lidelser**. Arvelig trombocytopeni med normale trombocytter (dvs. lavt trombocy tt-tall uten ledsagende strukturelle/funksjonelle trombocy tt-defekter) er i prinsippet en plausibel utvidelse av TPO-reseptor-agonisme, siden den underliggende mangelen er kvantitativ (utilstrekkelig produksjon) i stedet for kvalitativ (defekt trombocy ttfunksjon).
 
-## Norway Market Information
-
-Lusutrombopag has **no marketing authorizations recorded in Norway** (`total_licenses: 0`, `market_status: Not marketed`). No product/license table can be generated from the current evidence pack.
+Når det er sagt, er dette en genetisk/arvelig tilstand, og ingen klinisk forsøk eller publisert bevis finnes for tiden for å bekrefte effektivitet eller sikkerhet for en TPO-RA i denne spesifikke populasjonen. Koblingen bør kun behandles som en mekanistisk plausibel forskningshypotese, ikke en validert terapeutisk vei.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøk
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/label warnings, contraindications, and DDI data are currently unavailable — flagged as DG001, Blocking severity, in the evidence pack. This gap must be closed before any Stage 1 safety assessment can proceed.)*
+For tiden registrert ingen relaterte kliniske forsøk
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Ingen relatert litteratur er for tiden tilgjengelig
 
-**Rationale:**
-The prediction score is high, and the TPO-receptor-agonist mechanism offers a plausible biological rationale, but there is zero clinical trial or literature support, no confirmed mechanism-of-action record, no safety/label data, and the drug is not currently marketed in Norway. This falls squarely in Evidence Level L5 (model prediction only) and does not meet the bar to advance past Stage 0/1.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain and parse the official label (warnings, contraindications) from the relevant regulatory authority
-- Resolve DG002 (High): confirm mechanism of action via DrugBank API or primary literature
-- Identify and document the drug's actual original approved indication(s)
-- Search for any preclinical or case-level evidence specific to hereditary thrombocytopenia (normal-platelet subtype) before considering further investment
-- Re-evaluate market/registration status if commercial availability becomes relevant to feasibility
+## Norsk markedsinformasjon
+
+Lusutrombopag har **ingen markedsføringstillatelser registrert i Norge** (`total_licenses: 0`, `market_status: Not marketed`). Ingen produkt-/lisens-tabell kan genereres fra den gjeldende evidenspakken.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+*(Merk: TFDA/etikettadvarsler, kontraindikasjoner og DDI-data er for tiden ikke tilgjengelige — merket som DG001, blokkerings-alvorlighet, i evidenspakken. Dette hullet må lukkes før noen sikkerhetsvurdering i Fase 1 kan gjennomføres.)*
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Prediksjonsscore er høy, og TPO-reseptor-agonist-mekanismen gir en plausibel biologisk begrunnelse, men det finnes null klinisk forsøk eller litteraturstøtte, ingen bekreftet virkningsmekanisme-post, ingen sikkerhet/etikettdata, og legemidlet er ikke for tiden markedsført i Norge. Dette faller klart inn under bevisnivå L5 (kun modellprediksjon) og oppfyller ikke grensen for å gå videre forbi Fase 0/1.
+
+**For å fortsette, er følgende nødvendig:**
+- Løs DG001 (blokkering): få og analyser den offisielle etiketten (advarsler, kontraindikasjoner) fra relevant regulatorisk myndighet
+- Løs DG002 (høy): bekreft virkningsmekanisme via DrugBank API eller primærlitteratur
+- Identifiser og dokumenter legemidlets faktiske opprinnelige godkjente indikasjon(er)
+- Søk etter eventuelle prekliniske eller saksnivå-bevis spesifikt for arvelig trombocytopeni (normal-trombocy tt-undertype) før du vurderer ytterligere investering
+- Re-evaluer markeds-/registreringsstatus hvis kommersiell tilgjengelighet blir relevant for gjennomførbarhet
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

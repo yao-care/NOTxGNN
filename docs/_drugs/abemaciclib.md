@@ -29,93 +29,94 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **0** stk.
 
 </div>
 
-# ABEMACICLIB: Drug Repurposing Evaluation Report
+# ABEMACICLIB: Rapport om omvurdering av legemiddelbruk
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-Abemaciclib is a selective CDK4/6 inhibitor, widely approved internationally for the treatment of HR-positive, HER2-negative advanced or metastatic breast cancer.
-The TxGNN model **did not generate any predicted new indications** for this drug in the current analysis run.
-As a result, this report serves as a **baseline data status assessment** rather than a full repurposing evaluation.
+Abemaciclib er en selektiv CDK4/6-hemmer som er bredt godkjent internasjonalt for behandling av HR-positive, HER2-negative avansert eller metastatisk brystkreft.
+TxGNN-modellen **genererte ingen forutsagte nye indikasjoner** for dette legemidlet i gjeldende analysegang.
+Som følge av dette fungerer denne rapporten som en **vurdering av grunnleggende datastatus** snarere enn en fullstendig omvurdering av legemiddelbruk.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not recorded in this evidence pack (internationally approved for HR+/HER2− breast cancer) |
-| Predicted New Indication | **None** — TxGNN returned no predicted indications |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | **L5** (No predictions, no supporting studies in pack) |
-| Taiwan Market Status | ❌ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Opprinnelig indikasjon | Ikke registrert i denne evidenspakken (internasjonalt godkjent for HR+/HER2− brystkreft) |
+| Forutsagt ny indikasjon | **Ingen** — TxGNN returnerte ingen forutsagte indikasjoner |
+| TxGNN-prediksjonspoeng | N/A |
+| Evidensnivå | **L5** (Ingen prediksjoner, ingen støttestudier i pakken) |
+| Status på Taiwan-marked | ❌ Ikke markedsført (Ikke markedsført) |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | **Avvent** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-No new indication was predicted by TxGNN in this analysis cycle. Therefore, a mechanistic plausibility assessment cannot be performed at this time.
+Ingen ny indikasjon ble forutsagt av TxGNN i denne analysesyklusen. Derfor kan en vurdering av mekanistisk plausibilitet ikke utføres på dette tidspunktet.
 
-For reference, Abemaciclib is a selective, orally bioavailable inhibitor of cyclin-dependent kinases 4 and 6 (CDK4/6). By blocking CDK4/6, it prevents phosphorylation of the retinoblastoma protein (Rb), thereby arresting the cell cycle at the G1-to-S phase transition and inhibiting tumour cell proliferation. This mechanism has been validated in HR+/HER2− breast cancer and is being explored in other CDK4/6-dependent malignancies internationally. However, the evidence pack's MOA field was not populated, and this description is based on established pharmacological knowledge.
+For referanse er abemaciclib en selektiv, oralt biotilgjengelig hemmer av cyclin-avhengige kinaser 4 og 6 (CDK4/6). Ved blokkering av CDK4/6 forhindrer det fosforyleringen av retinoblastoma-proteinet (Rb), stanser cellsyklusen ved G1-til-S-fasovergangen, og hemmer tumorcellproliferasjon. Denne mekanismen er validert i HR+/HER2− brystkreft og utforskes i andre CDK4/6-avhengige maligniteter internasjonalt. Imidlertid var MOA-feltet i evidenspakken ikke fylt ut, og denne beskrivelsen er basert på etablert farmakologisk kunnskap.
 
-Should TxGNN generate candidate indications in future runs, the CDK4/6 inhibition mechanism provides a rational basis for exploring repurposing in tumour types with Rb pathway dependency (e.g., certain lung cancers, liposarcomas, mantle cell lymphoma).
-
----
-
-## Clinical Trial Evidence
-
-No predicted indication was returned by the TxGNN model, so no indication-specific clinical trials are presented.
+Dersom TxGNN genererer kandidatindikasjoner i fremtidende analyser, gir CDK4/6-hemningsmekanismen et rasjonelt grunnlag for utforsking av omvurdering av legemiddelbruk i tumortyper med avhengighet av Rb-veien (f.eks. visse lungekrefttyper, liposarkomer, mantellcellelymfom).
 
 ---
 
-## Literature Evidence
+## Klinisk forsøksevidens
 
-No predicted indication was returned by the TxGNN model, so no indication-specific literature is presented.
-
----
-
-## Taiwan Market Information
-
-Abemaciclib currently holds **no TFDA marketing authorizations** in Taiwan (market status: Not marketed). No license records are available.
+Ingen forutsagt indikasjon ble returnert av TxGNN-modellen, så ingen indikasjonsspesifikke kliniske forsøk presenteres.
 
 ---
 
-## Cytotoxicity
+## Litteraturvidens
 
-Abemaciclib is an **antineoplastic agent** (CDK4/6 inhibitor, classified as targeted therapy). The following cytotoxicity profile is provided based on established pharmacological knowledge, as the evidence pack did not contain detailed toxicity data.
+Ingen forutsagt indikasjon ble returnert av TxGNN-modellen, så ingen indikasjonsspesifikk litteratur presenteres.
 
-| Item | Content |
+---
+
+## Taiwan-markedsinformasjon
+
+Abemaciclib har for tiden **ingen TFDA-markedsføringstillatelser** på Taiwan (markedsstatus: Ikke markedsført). Ingen lisensregistreringer er tilgjengelige.
+
+---
+
+## Cytotoxisitet
+
+Abemaciclib er et **antineoplastisk agens** (CDK4/6-hemmer, klassifisert som målrettet terapi). Følgende cytotoxisitetsprofil er gitt basert på etablert farmakologisk kunnskap, da evidenspakken ikke inneholdt detaljerte toxisitetsdata.
+
+| Element | Innhold |
 |------|------|
-| Cytotoxicity Classification | **Targeted therapy** (selective CDK4/6 inhibitor; not a conventional cytotoxic agent) |
-| Myelosuppression Risk | **Moderate to High** — Neutropenia is a common adverse effect of CDK4/6 inhibitors; dose adjustments may be required |
-| Emetogenicity Classification | **Low to Moderate** — Diarrhoea is more clinically significant than nausea/vomiting for this drug |
-| Monitoring Items | CBC with differential (neutrophils especially), liver function tests (ALT/AST/bilirubin), serum creatinine, signs of venous thromboembolism, signs of interstitial lung disease |
-| Handling Protection | Standard oral targeted therapy handling; does not require the full cytotoxic drug handling precautions applicable to conventional chemotherapy |
+| Cytotoxisitetsklassifisering | **Målrettet terapi** (selektiv CDK4/6-hemmer; ikke et konvensjonelt cytotoksisk agens) |
+| Risiko for myelosuppresjon | **Moderat til høy** — Nøytropeni er en vanlig bivirkning av CDK4/6-hemmere; dosejusteringer kan være nødvendige |
+| Emetogenicitetsklassifisering | **Lav til moderat** — Diaré er mer klinisk signifikant enn kvalme/oppkasting for dette legemidlet |
+| Overvåkingspunkter | CBC med differensial (nøytrofiler spesielt), leverfunksjonstester (ALT/AST/bilirubin), serum kreatinin, tegn på venøs tromboembolisme, tegn på interstitiell lungessykdom |
+| Håndteringsbeskyttelse | Standard oral målrettet terapi-håndtering; krever ikke de fulle forsiktighetsreglene for håndtering av cytotoksiske legemidler som gjelder for konvensjonell kjemoterapi |
 
 ---
 
-## Safety Considerations
+## Sikkerhetsbetraktninger
 
-The evidence pack did not contain populated safety data (warnings, contraindications, or drug-drug interactions were not available from TFDA or DDI queries).
+Evidenspakken inneholdt ikke fylt sikkerhetsdata (advarsler, kontraindikasjoner eller legemiddel-legemiddel interaksjoner var ikke tilgjengelige fra TFDA eller DDI-spørringer).
 
-> Please refer to the package insert for safety information. Internationally, key safety concerns for abemaciclib include diarrhoea, neutropenia, hepatotoxicity, venous thromboembolism, and interstitial lung disease/pneumonitis.
+> Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Internasjonalt inkluderer viktige sikkerhetsbetraktninger for abemaciclib diaré, nøytropeni, hepatotoksisitet, venøs tromboembolisme og interstitiell lungessykdom/pneumonitt.
 
 ---
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-The TxGNN model did not return any predicted new indications for Abemaciclib in this analysis run. Without a candidate indication, no repurposing evaluation can proceed. Additionally, the drug is not currently marketed in Taiwan, and multiple data gaps (MOA, TFDA labelling/warnings, contraindications) remain unresolved.
+**Begrunnelse:**
+TxGNN-modellen returnerte ingen forutsagte nye indikasjoner for Abemaciclib i denne analysekjøringen. Uten en kandidatindikasjon kan ingen omvurdering av legemiddelbruk fortsette. I tillegg er legemidlet ikke for tiden markedsført på Taiwan, og flere datakløfter (MOA, TFDA-merking/advarsler, kontraindikasjoner) er uløst.
 
-**To proceed, the following is needed:**
-- **Re-run TxGNN prediction** with updated knowledge graph data to determine if new indications emerge
-- **Populate MOA data** via DrugBank API (Data Gap DG002, severity: High)
-- **Obtain TFDA package insert** warnings and contraindications if/when the drug gains marketing authorization (Data Gap DG001, severity: Blocking)
-- **Monitor Taiwan regulatory status** — Abemaciclib is marketed in many countries (US: Verzenio; EU: Verzenios); Taiwan approval may be forthcoming
-- **If a predicted indication is generated in future**, re-initiate the evaluation pipeline with a complete evidence pack
+**For å fortsette, kreves følgende:**
+- **Kjør TxGNN-prediksjon på nytt** med oppdaterte kunnskapsgrafikdata for å avgjøre om nye indikasjoner dukker opp
+- **Fyll MOA-data** via DrugBank API (Data Gap DG002, alvorlighetsgrad: Høy)
+- **Innhent advarsler og kontraindikasjoner fra TFDA-pakningsvedlegget** hvis/når legemidlet oppnår markedsføringsgodkjenning (Data Gap DG001, alvorlighetsgrad: Blokkering)
+- **Overvåk regulatorisk status på Taiwan** — Abemaciclib er markedsført i mange land (USA: Verzenio; EU: Verzenios); Taiwan-godkjenning kan være forestående
+- **Hvis en forutsagt indikasjon genereres i fremtiden**, gjenstartar evalueringspipelinen med en komplett evidenspakke
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

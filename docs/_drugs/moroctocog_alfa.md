@@ -29,88 +29,89 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-# Moroctocog Alfa: From Hemophilia A to Primary Release Disorder of Platelets
+# Moroctocog Alfa: Fra Hemofili A til Primær Frigjøringsdefekt hos Blodplater
 
-## One-Sentence Summary
+## Oppsummering i En Setning
 
-> Moroctocog alfa is a recombinant coagulation Factor VIII (FVIII) product, pharmacologically indicated in the class of Hemophilia A / FVIII replacement therapy; however, formal Norway regulatory indication text is unavailable because the product is **not marketed in Norway**.
-> The TxGNN model predicts it may be effective for **Primary Release Disorder of Platelets**, but currently **0 relevant clinical trials** and **0 publications** support this specific direction — the 7 retrieved trials are all graded "C" (not related to the predicted disease).
-> This top-ranked TxGNN prediction appears to be a database co-morbidity artifact rather than a mechanistically grounded signal; a lower-ranked candidate (Acquired Coagulation Factor Deficiency, rank 4) shows substantially stronger and more plausible evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available from Norway regulatory data (product not marketed); drug class is recombinant FVIII, typically used for Hemophilia A |
-| Predicted New Indication | Primary Release Disorder of Platelets |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Moroctocog alfa er et rekombinant koagulasjonsfaktor VIII (FVIII) produkt, farmakologisk indisert i klassen Hemofili A / FVIII-erstatningsterapi; imidlertid er formell norsk regulatorisk indikasjonstekst utilgjengelig fordi produktet **ikke er markedsført i Norge**.
+> TxGNN-modellen forutsier at det kan være effektivt for **Primær Frigjøringsdefekt hos Blodplater**, men for tiden **0 relevante kliniske studier** og **0 publikasjoner** støtter denne spesifikke retningen — de 7 hentede studiene er alle klassifisert som "C" (ikke relatert til den forutsagte sykdommen).
+> Denne høyest-rangerte TxGNN-forutsigelsen virker å være en database-komorbiditets-/grafnærhet-artefakt snarere enn et mekanistisk fundert signal; en lavere-rangert kandidat (Ervervet Koagulasjonsfaktormangel, rang 4) viser vesentlig sterkere og mer plausibel bevis.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask Oversikt
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacology, moroctocog alfa is a recombinant human Factor VIII (FVIII) product, functioning by replacing deficient clotting factor activity in the coagulation cascade — its established use is in Hemophilia A.
-
-Primary release disorder of platelets (a platelet storage pool disease) is pathologically distinct from Hemophilia A: the defect lies in platelet granule content/release, not in plasma coagulation factor levels or activity. Supplementing FVIII does not address a platelet secretion defect, so there is no direct mechanistic pathway linking moroctocog alfa's pharmacology to this disease.
-
-Consistent with this, the retrieved clinical trials for this prediction are all graded "C" — they concern unrelated topics (hemophilia A prophylaxis trials, AML hematology monitoring, post-COVID-19 vaccination syndrome, artificial liver support, portal vein hemostasis) rather than platelet storage pool disease itself. This pattern is typical of a TxGNN co-morbidity/graph-proximity artifact rather than a genuine mechanistic signal, and the evidence pack's own rationale explicitly flags this as a likely false positive.
+| Element | Innhold |
+|---------|---------|
+| Original Indikasjon | Ikke tilgjengelig fra norske regulatoriske data (produkt ikke markedsført); stoffklasse er rekombinant FVIII, typisk brukt for Hemofili A |
+| Forutsagt Ny Indikasjon | Primær Frigjøringsdefekt hos Blodplater |
+| TxGNN Forutsigelsesscore | 99.97% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall Autorisasjoner | 0 |
+| Anbefalt Beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor Er Denne Forutsigelsen Rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+For tiden er detaljerte mekanismedata ikke tilgjengelige i denne bevissamlingen. Basert på kjent farmakologi, er moroctocog alfa et rekombinant humant Faktor VIII (FVIII) produkt som fungerer ved å erstatte mangelfull koagulasjonfaktorsaktivitet i koagulasjonskaskaden — den etablerte bruken er for Hemofili A.
+
+Primær frigjøringsdefekt hos blodplater (en lagringspoolsykdom hos blodplater) er patologisk distinkt fra Hemofili A: defekten ligger i innholdet/frigjøringen av blodplatgranula, ikke i plasmakoagulasjonsfaktornivåer eller -aktivitet. Supplering med FVIII løser ikke en frigjøringsdefekt hos blodplater, så det finnes ingen direkte mekanistisk vei som knytter moroctocog alfas farmakologi til denne sykdommen.
+
+Konsistent med dette er de hentede kliniske studiene for denne forutsigelsen alle klassifisert som "C" — de omhandler ikke-relaterte emner (Hemofili A-profylaksestudier, AML-hematologimonitorering, post-COVID-19-vaksinasjonssyndrom, kunstig leverstøtte, hemostase i portalvenen) snarere enn lagringspoolsykdom hos blodplater selv. Dette mønsteret er typisk for en TxGNN-komorbiditets-/grafnærhet-artefakt snarere enn et ekte mekanistisk signal, og bevisamlingens egen begrunnelse flagget eksplisitt dette som en sannsynlig falsk positiv.
+
+---
+
+## Klinisk Studiebeviser
+
+| Studie Nummer | Fase | Status | Antall Deltakere | Sentrale Funn |
 |---------|------|------|------|---------|
-| [NCT04161495](https://clinicaltrials.gov/study/NCT04161495) | Phase 3 | Completed | 159 | BIVV001 (rFVIIIFc-VWF-XTEN) prophylaxis in severe Hemophilia A — not related to platelet release disorder |
-| [NCT04759131](https://clinicaltrials.gov/study/NCT04759131) | Phase 3 | Completed | 74 | Pediatric BIVV001 safety/efficacy in severe Hemophilia A — not related |
-| [NCT01913405](https://clinicaltrials.gov/study/NCT01913405) | Phase 3 | Completed | 30 | PEGylated rFVIII (BAX 855) in Hemophilia A patients undergoing surgery — not related |
-| [NCT07343687](https://clinicaltrials.gov/study/NCT07343687) | N/A | Not yet recruiting | 80 | Coagulation profiling in AML patients — observational, not a treatment trial |
-| [NCT07400848](https://clinicaltrials.gov/study/NCT07400848) | N/A | Recruiting | 200 | Lab evaluation of post-COVID-19-vaccination syndrome — not related |
-| [NCT07329036](https://clinicaltrials.gov/study/NCT07329036) | N/A | Recruiting | 25 | Artificial liver support system in acute-on-chronic liver failure — not related |
-| [NCT07439939](https://clinicaltrials.gov/study/NCT07439939) | N/A | Recruiting | 45 | Systemic/portal hemostasis during TIPS placement — not related |
+| [NCT04161495](https://clinicaltrials.gov/study/NCT04161495) | Fase 3 | Fullført | 159 | BIVV001 (rFVIIIFc-VWF-XTEN) profylakse ved alvorlig Hemofili A — ikke relatert til frigjøringsdefekt hos blodplater |
+| [NCT04759131](https://clinicaltrials.gov/study/NCT04759131) | Fase 3 | Fullført | 74 | Pediatrisk BIVV001 sikkerhet/effektivitet ved alvorlig Hemofili A — ikke relatert |
+| [NCT01913405](https://clinicaltrials.gov/study/NCT01913405) | Fase 3 | Fullført | 30 | PEGylert rFVIII (BAX 855) hos Hemofili A-pasienter som gjennomgår kirurgi — ikke relatert |
+| [NCT07343687](https://clinicaltrials.gov/study/NCT07343687) | N/A | Ikke påbegynt rekruttering | 80 | Koagulasjonsprofilering hos AML-pasienter — observasjonell, ikke en behandlingsstudie |
+| [NCT07400848](https://clinicaltrials.gov/study/NCT07400848) | N/A | Rekrutterer | 200 | Laboratoriumevaluering av post-COVID-19-vaksinasjonssyndrom — ikke relatert |
+| [NCT07329036](https://clinicaltrials.gov/study/NCT07329036) | N/A | Rekrutterer | 25 | Kunstig leverstøttesystem ved akutt på kronisk leversvikt — ikke relatert |
+| [NCT07439939](https://clinicaltrials.gov/study/NCT07439939) | N/A | Rekrutterer | 45 | Systemisk/portal hemostase under TIPS-plassering — ikke relatert |
 
-**Note:** None of the retrieved trials directly investigate moroctocog alfa (or FVIII therapy) for primary release disorder of platelets. All were graded "C" (not relevant) in the evidence pack's own relevance assessment.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+**Merk:** Ingen av de hentede studiene undersøker direkte moroctocog alfa (eller FVIII-terapi) for primær frigjøringsdefekt hos blodplater. Alle ble klassifisert som "C" (ikke relevant) i bevisamlingens egen relevansesvurdering.
 
 ---
 
-## Norway Market Information
+## Litteraturbevis
 
-Moroctocog alfa currently holds **no marketing authorization in Norway** (0 licenses on file). No product/dosage-form data is available for review.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+For tiden er ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformasjon for Norge
 
-**Decision: Hold**
+Moroctocog alfa har for tiden **ingen markedsføringstillatelse i Norge** (0 lisenser registrert). Ingen produkt-/doseringsformddata er tilgjengelig for gjennomgang.
 
-**Rationale:**
-The top-ranked TxGNN prediction (primary release disorder of platelets) lacks any supporting clinical trial or literature evidence, and the disease's underlying platelet-granule-release pathology has no plausible mechanistic link to FVIII replacement. Combined with the product's non-marketed status in Norway, this candidate does not meet the threshold to advance past model-prediction-only status.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) documentation for moroctocog alfa
-- TFDA/Norway-equivalent product labeling (warnings, contraindications, DDI) — currently a Blocking data gap (DG001)
-- If this indication is still of interest: preclinical/mechanistic studies specifically linking FVIII pharmacology to platelet storage pool disease, since none currently exist
+## Sikkerhetshensyn
 
-**Additional note for portfolio consideration:**
-Within the same evidence pack, **rank 4 — Acquired Coagulation Factor Deficiency** — shows a materially stronger signal (Evidence Level L3, decision stage S2, "Research Question"), including two completed Phase 2/3 trials on structurally analogous B-domain-deleted recombinant FVIII products (NCT01178294, NCT04580407) in acquired Hemophilia A. This candidate is mechanistically coherent with moroctocog alfa's known FVIII activity and may warrant separate evaluation as a more promising repurposing direction than the top-ranked candidate reviewed here.
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og Neste Steg
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Den høyest-rangerte TxGNN-forutsigelsen (primær frigjøringsdefekt hos blodplater) mangler enhver støttende klinisk studie- eller litteraturbevis, og sykdommens underliggende blodplate-granula-frigjøring-patologi har ingen plausibel mekanistisk forbindelse til FVIII-erstatning. Kombinert med produktets ikke-markedsførte status i Norge, oppfyller denne kandidaten ikke terskelen for å avansere forbi stadiet som en modellforutsigelse alene.
+
+**For å fortsette, er følgende nødvendig:**
+- Bekreftet dokumentasjon for virkningsmekanisme (MOA) for moroctocog alfa
+- TFDA/norsk ekvivalent produktmerking (advarsler, kontraindikasjoner, DDI) — for tiden en blokkerende datakløft (DG001)
+- Hvis denne indikasjonen fortsatt er av interesse: prekliniske/mekanistiske studier som spesifikt knytter FVIII-farmakologi til lagringspoolsykdom hos blodplater, siden ingen for tiden eksisterer
+
+**Tilleggsnotat for porteføljevurdering:**
+Innenfor samme bevissamling viser **rang 4 — Ervervet Koagulasjonsfaktormangel** — et materielt sterkere signal (Bevisnivå L3, beslutningsstadium S2, "Forskningsspørsmål"), inkludert to fullførte fase 2/3-studier på strukturelt analoge B-domene-slettet rekombinant FVIII-produkter (NCT01178294, NCT04580407) ved ervervet Hemofili A. Denne kandidaten er mekanistisk samstemt med moroctocog alfas kjente FVIII-aktivitet og kan fortjene separat evaluering som en mer lovende gjenbruksretning enn den høyest-rangerte kandidaten som er gjennomgått her.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,75 +29,74 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-Using no additional tooling — this is a direct content-generation task against the provided Evidence Pack, following the fixed report template.
+# Pembrolizumab: Fra PD-1-rettet onkologisk immunterapi (indikasjonstekst ikke levert) til gingivalt fibromatose
 
-# Pembrolizumab: From PD-1–Directed Oncology Immunotherapy (Indication Text Not Provided) to Gingival Fibromatosis
+## Sammendrag på en setning
 
-## One-Sentence Summary
+Pembrolizumab er et PD-1-blokkerende monoklonalt antistoff som brukes bredt innen onkologi (evidenspakken refererer NSCLC, melanom, MSI-H/dMMR-kreftformer og hepatocellulart karsinom i sitert litteratur, selv om det strukturerte `original_indications`-feltet er tomt).
+TxGNN-modellens høyest rangerte prediksjon er **Gingivalt fibromatose**, men denne støttes av **0 kliniske forsøk** og **0 publikasjoner**, og legemidlets eget omforbrukingsgrunnlag angir at mekanismen ikke gjelder for denne benigne tilstanden.
 
-Pembrolizumab is a PD-1–blocking monoclonal antibody used broadly in oncology (the evidence pack's cited literature references NSCLC, melanoma, MSI-H/dMMR cancers, and hepatocellular carcinoma, though the structured `original_indications` field itself is empty).
-The TxGNN model's top-ranked prediction is **Gingival Fibromatosis**, but this is supported by **0 clinical trials** and **0 publications**, and the drug's own repurposing rationale states the mechanism does not apply to this benign condition.
+## Raskt oversyn
 
-## Quick Overview
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Ikke spesifisert i evidenspakken (`original_indications` er tomt); litteraturkontekst indikerer bred PD-1-checkpoint-inhibitorbruk innen onkologi |
+| Forutsagt ny indikasjon | Fibromatose, gingivalt |
+| TxGNN-prediksjonspoengsum | 99.40% (rangering 6326 blant alle prediksjoner) |
+| Bevisnivå | L5 |
+| Norges markedsstatus | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in the evidence pack (`original_indications` is empty); literature context indicates broad PD-1 checkpoint–inhibitor oncology use |
-| Predicted New Indication | Fibromatosis, Gingival |
-| TxGNN Prediction Score | 99.40% (rank 6326 among all predictions) |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+## Hvorfor er denne prediksjonen rimelig?
 
-## Why is This Prediction Reasonable?
+Detaljerte data om virkningsmekanisme er for tiden ikke tilgjengelige for dette legemidlet i evidenspakken (Datakløft DG002, høy alvorlighetsgrad). Basert på kjent farmakologi blokkerer pembrolizumab PD-1-reseptoren på T-celler, og desinhiberer således anti-tumorimmunsvar i immunogene, immunevasive maligniteter.
 
-Currently, detailed mechanism of action data is not available for this drug in the evidence pack (Data Gap DG002, High severity). Based on known pharmacology, pembrolizumab blocks the PD-1 receptor on T cells, disinhibiting anti-tumour immune responses in immunogenic, immune-evasive malignancies.
+Gingivalt fibromatose er imidlertid en benign fibrøs vevsvekst – typisk arvelig eller legemiddelindusert (f.eks. av phenytoin, ciclosporin, kalciumkanalblokkere) – og er ikke en malignitet med immunevajons-fenotypt. Omforbrukingsgrunnlaget som leveres med denne prediksjonen angir eksplisitt at det er **ingen mekanistisk sammenheng** mellom PD-1-blokkade og gingivalt fibromatose, og ingen klinisk eller litteraturbevis støtter assosiasjonen.
 
-Gingival fibromatosis, however, is a benign fibrous tissue overgrowth condition — typically hereditary or drug-induced (e.g., by phenytoin, cyclosporine, calcium channel blockers) — and is not a malignancy with an immune-evasion phenotype. The repurposing rationale supplied with this prediction states explicitly that there is **no mechanistic link** between PD-1 blockade and gingival fibromatosis, and no clinical or literature evidence supports the association.
+Denne prediksjonen synes å være en nettverksbasert artefakt av TxGNN-modellen (en høy likhetsscore uten plausibelt biologisk grunnlag), snarere enn et ekte omforbrukingssignal. Derimot er andre lavere rangerte kandidater i denne samme serien – *lungerot-karsinom*, *lungekimcelletumor* og *lungetoppsneoplasme* – anatomiske/posisjonsbaserte undertyper av lungmalignitet der pembrolizumabs klassenivå-NSCLC-mekanisme i det minste teoretisk kan utvides, og disse ble scoret på beslutningsstadium S1 («Forskningsspørsmål») snarere enn S0 («Avvent»). Disse kan berettige separat evaluering foran den høyest rangerte kandidaten diskutert her.
 
-This prediction appears to be a network-based artifact of the TxGNN model (a high similarity score without a plausible biological basis), rather than a genuine repurposing signal. By contrast, other lower-ranked candidates in this same batch — *lung hilum carcinoma*, *lung germ cell tumor*, and *pulmonary sulcus neoplasm* — are anatomical/positional subtypes of lung malignancy where pembrolizumab's class-level NSCLC mechanism is at least theoretically extendable, and these were scored at decision stage S1 ("Research Question") rather than S0 ("Hold"). These may warrant separate evaluation ahead of the top-ranked candidate discussed here.
+## Bevis fra kliniske forsøk
 
-## Clinical Trial Evidence
+Ingen relaterte kliniske forsøk er for tiden registrert
 
-Currently no related clinical trials registered
+## Litteraturbevis
 
-## Literature Evidence
+Ingen relatert litteratur er for tiden tilgjengelig
 
-Currently no related literature available
+## Markedsinformasjon for Norge
 
-## Norway Market Information
+Pembrolizumab er for tiden **ikke markedsført** i Norge ifølge denne evidenspakken (0 godkjennelser på registreringen; `market_status` = Ikke markedsført). Ingen produktlisenser er tilgjengelige å oppføre.
 
-Pembrolizumab is currently **not marketed** in Norway under this evidence pack (0 authorizations on record; `market_status` = Not marketed). No product licenses are available to list.
+## Cytotoksisitet
 
-## Cytotoxicity
+*(Avsnitt inkludert: selv om det strukturerte `original_indications`-feltet er tomt, identifiserer den siterte litteraturen gjennom hele denne evidenspakken konsekvent pembrolizumab som et antineoplasmisk PD-1-immunolog checkpoint-inhibitor som brukes på tvers av flere krefttyper.)*
 
-*(Section included: although the structured `original_indications` field is empty, the cited literature throughout this evidence pack consistently identifies pembrolizumab as an antineoplastic PD-1 immune checkpoint inhibitor used across multiple cancer types.)*
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitetsklassifisering | Immunterapi (anti-PD-1-immunolog checkpoint-inhibitor) – ikke et konvensjonelt cytotoksisk middel |
+| Risiko for myelosuppresjon | Lav – pembrolizumab virker ikke via direkte cytotoksisitet på benmargsprogenitorer; det dominerende toksisitetsmønsteret er immunrelaterte bivirkninger (irAEs) snarere enn klassisk myelosuppresjon |
+| Emetogenisitetsklassifisering | Lav |
+| Overvåkingselementer | Baseline og periodiske skjoldbruskkirtelsfunksjonstester (TSH/fritt T4), leverfunksjon, nyrefunksjon, kortisol/ACTH (for hypofysitt), hjertekrumpmuskelverdier hvis miokarditt mistenkes, og klinisk overvåking for irAEs (kolitt, pneumonitt, dermatologiske reaksjoner, myositt/myastenia gravis) |
+| Håndteringsbeskyttelse | Som et monoklonalt antistoff biologisk middel krever pembrolizumab ikke sikkerhetsforsiktigheter for lukket-system-håndtering av farlige cytotoksiske legemidler som brukes for konvensjonell kjemoterapi; administrer ifølge institusjonell onkologi-infusjonsprotokoll og pakningsvedlegget |
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (anti-PD-1 immune checkpoint inhibitor) — not a conventional cytotoxic agent |
-| Myelosuppression Risk | Low — pembrolizumab does not act via direct cytotoxicity to marrow precursors; the dominant toxicity pattern is immune-related adverse events (irAEs) rather than classical myelosuppression |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Baseline and periodic thyroid function (TSH/free T4), liver function, renal function, cortisol/ACTH (for hypophysitis), cardiac enzymes if myocarditis suspected, and clinical surveillance for irAEs (colitis, pneumonitis, dermatologic reactions, myositis/myasthenia gravis) |
-| Handling Protection | As a monoclonal antibody biologic, pembrolizumab does not require the closed-system/cytotoxic hazardous-drug handling precautions used for conventional chemotherapy; administer per institutional oncology infusion protocol and the package insert |
+## Sikkerhetshensyn
 
-## Safety Considerations
+Se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og DDI-data er alle registrert som datakløfter i denne evidenspakken – DG001 er flagget som **Blokkering**, noe som betyr at TFDA/etikett-nivå-advarsler og kontraindikasjoner må oppnås før denne kandidaten engang kan gå inn i S1-sikkerhetsevalueringsstadiet.)
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and DDI data are all recorded as Data Gaps in this evidence pack — DG001 is flagged as **Blocking**, meaning TFDA/label-level warnings and contraindications must be obtained before this candidate can even enter the S1 safety review stage.)
+## Konklusjon og neste trinn
 
-## Conclusion and Next Steps
+**Beslutning: Avvent**
 
-**Decision: Hold**
+**Grunngivelse:**
+Den høyest rangerte forutsa indikasjon (gingivalt fibromatose) har null klinisk forsøk eller litteraturstøtte, og det leverte mekanistiske grunnlag motsier direkte biologisk plausibilitet – en benign fibrøs vevsvekst har ingen etablert sammenheng til PD-1-mediert tumorimmunevasjon. Separat hindrer en datakløft med blokkerings-alvorlighet (manglende TFDA-etikett advarsler/kontraindikasjoner) denne kandidaten fra formelt å gå inn i S1-sikkerhetsevalueringsstadiet uavhengig av indikasjonsnivå-bevis.
 
-**Rationale:**
-The top-ranked predicted indication (gingival fibromatosis) has zero clinical trial or literature support, and the supplied mechanistic rationale directly contradicts biological plausibility — a benign fibrous overgrowth condition has no established relationship to PD-1-mediated tumour immune evasion. Separately, a Blocking-severity data gap (missing TFDA label warnings/contraindications) prevents this candidate from formally entering the S1 safety evaluation stage regardless of indication-level evidence.
+**For å fortsette kreves følgende:**
+- Løs DG001 (Blokkering): oppnå og analyser den offisielle TFDA/norske etiketten for advarsler og kontraindikasjoner
+- Løs DG002: oppnå bekreftet virkningsmekanisme-data fra DrugBank
+- Gjenveie prioritering av kandidatene med høyere plausibilitet i denne samme prediksjonsserien (lungerot-karsinom, lungekimcelletumor, lungetoppsneoplasme – for tiden på beslutningsstadium S1) snarere enn den høyeste TxGNN-score-kandidaten, som mangler biologisk plausibilitet
+- Hvis gingivalt fibromatose skal forfølges videre til tross for det ovennevnte, ville dedikert preklinisk/mekanistisk forskning være nødvendig, da ingen klinisk eller litteraturbevis for tiden eksisterer
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain and parse the official TFDA/Norwegian label for warnings and contraindications
-- Resolve DG002: obtain confirmed mechanism-of-action data from DrugBank
-- Reconsider prioritizing the higher-plausibility candidates in this same prediction batch (lung hilum carcinoma, lung germ cell tumor, pulmonary sulcus neoplasm — currently at decision stage S1) rather than the top TxGNN-score candidate, which lacks biological plausibility
-- If gingival fibromatosis is to be pursued further despite the above, dedicated preclinical/mechanistic studies would be required, as no clinical or literature evidence currently exists
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

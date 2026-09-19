@@ -29,83 +29,84 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Prasugrel: From Antiplatelet Therapy to Pulmonary Hypertension
+# Prasugrel: Fra antitrombosytt-terapi til pulmonær hypertensjon
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-> Prasugrel is a thienopyridine P2Y12 receptor inhibitor (antiplatelet agent); detailed original indication and MOA data are not available in the current evidence pack.
-> The TxGNN model predicts it may be effective for **Pulmonary Hypertension**, but the supporting evidence is limited to **2 clinical trials and 2 publications**, none of which directly address prasugrel or pulmonary hypertension — this is a high-score, low-evidence signal.
+> Prasugrel er en thienopyridin-P2Y12-reseptorblokkator (antitrombosytt-middel); detaljerte opplysninger om originale indikasjoner og virkningsmekanisme er ikke tilgjengelige i denne bevisspakken.
+> TxGNN-modellen forutsier at det kan være effektivt for **pulmonær hypertensjon**, men den støttende bevis er begrenset til **2 kliniske forsøk og 2 publikasjoner**, hvorav ingen direkte omhandler prasugrel eller pulmonær hypertensjon — dette er et høyt-poeng-signal med lav bevis.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not available in evidence pack (drug not marketed in Norway; classified as a thienopyridine P2Y12 inhibitor / antiplatelet agent based on literature evidence) |
-| Predicted New Indication | Pulmonary Hypertension |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L5 (model prediction only) |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Ikke tilgjengelig i bevisspakken (legemiddel ikke markedsført i Norge; klassifisert som thienopyridin-P2Y12-blokkator / antitrombosytt-middel basert på litteraturbeviser) |
+| Forutsagt ny indikasjon | Pulmonær hypertensjon |
+| TxGNN-prediksjonspoeng | 99.88% |
+| Bevisnivå | L5 (kun modellpreduksjon) |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available (`original_moa: [Data Gap]`). Based on information embedded in the evidence pack's literature notes, prasugrel is a thienopyridine-class P2Y12 receptor inhibitor, in the same pharmacological family as clopidogrel and ticlopidine, and its established role is as an antiplatelet agent (e.g., for stent thrombosis prevention).
+For tiden er detaljert virkningsmekanisme-data ikke tilgjengelig (`original_moa: [Data Gap]`). Basert på informasjon som er innebygd i litteraturnotatene i bevisspakken, er prasugrel en thienopyridin-klasse P2Y12-reseptorblokkator, i samme farmakologiske familie som klopidogrel og tiklopydin, og dens etablerte rolle er som antitrombosytt-middel (f.eks. for preventering av stenttrombase).
 
-For the top-ranked predicted indication, **pulmonary hypertension**, the model's own repurposing rationale is explicit about the weakness of the link: *"No direct mechanistic connection. Antiplatelet drugs may theoretically play an adjunct role in some thrombotic/CTEPH (chronic thromboembolic pulmonary hypertension) pathophysiology, but the trials and literature provided are not focused on pulmonary hypertension — this is a typical TxGNN high-score signal without corresponding evidence (a likely false positive)."*
+For den høyest rangerte forutsagte indikasjonen, **pulmonær hypertensjon**, er modellens egen omformål-logikk eksplisitt om svakheten i forbindelsen: *"Ingen direkte mekanistisk forbindelse. Antitrombosytt-midler kan teoretisk spille en tilleggsrolle i noe tromboembolisme-/KTPH (kronisk tromboembolis pulmonær hypertensjon) patofysiologi, men forsøkene og litteraturen som er oppgitt er ikke fokusert på pulmonær hypertensjon — dette er et typisk TxGNN høyt-poeng-signal uten tilsvarende beviser (en sannsynlig falsk positiv)."*
 
-Both retrieved clinical trials (NOAC use in atrial fibrillation; cancer-associated thrombosis screening) and both retrieved publications (COVID-19 comorbidity therapy; clopidogrel adherence post-PCI) are only tangentially related to antiplatelet therapy in general and do not study prasugrel in pulmonary hypertension. The mechanistic hypothesis (antiplatelet effect in CTEPH) is biologically plausible in theory but currently unsupported by direct data.
+Både de hentede kliniske forsøkene (NOAC-bruk ved atrieflimmer; kreftassosiert tromboembolisme-screening) og begge hentede publikasjoner (COVID-19 komorbiditet-terapi; klopidogrel-etterlevelse etter PCI) er kun tangensielt relatert til antitrombosytt-terapi generelt og studerer ikke prasugrel i pulmonær hypertensjon. Den mekanistiske hypotesen (antitrombosytt-effekt i KTPH) er biologisk plausibel i teorien, men er for tiden ikke støttet av direkte data.
 
-**Note on alternative candidates:** Among the other 9 predicted indications in this evidence pack, **migraine disorder** (rank 2, score 99.88%) has comparatively stronger supporting evidence — an open-label pilot study and a retrospective cohort study specifically describing thienopyridine (clopidogrel/prasugrel class) use reducing migraine symptoms in patients with patent foramen ovale (PFO), reaching evidence level **L3 / decision stage S1 (Research Question)**. This may warrant separate evaluation, though it is drug-class-level evidence rather than prasugrel-specific.
+**Merknad om alternative kandidater:** Blant de andre 9 forutsagte indikasjonene i denne bevisspakken, **migrene** (rangering 2, poeng 99.88%) har relativt sterkere støttende beviser — en åpen pilot-studie og en retrospektiv kohortstudie som spesifikt beskriver thienopyridin (klopidogrel/prasugrel-klasse) bruk som reduserer migrene-symptomer hos pasienter med patentforamen ovale (PFO), og når bevisnivå **L3 / beslutningsstadium S1 (Forskningsspørsmål)**. Dette kan garantere separat evaluering, selv om det er beviser på legemiddelklasse-nivå snarere enn prasugrel-spesifikk.
 
 ---
 
-## Clinical Trial Evidence
+## Kliniske forsøksbeviser
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Deltakere | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT03993119](https://clinicaltrials.gov/study/NCT03993119) | N/A | Completed | 500 | Observational cross-sectional study of NOAC management in elderly Spanish patients with non-valvular atrial fibrillation; no direct relevance to prasugrel or pulmonary hypertension (relevance grade C). |
-| [NCT04846556](https://clinicaltrials.gov/study/NCT04846556) | N/A | Completed | 300 | Retrospective study on trial-eligibility for cancer-associated thrombosis (CARAVAGGIO-type population); does not involve prasugrel or pulmonary hypertension (relevance grade C). |
+| [NCT03993119](https://clinicaltrials.gov/study/NCT03993119) | N/A | Avsluttet | 500 | Observasjonell tverrsnittsstudie av NOAC-håndtering hos eldre spanske pasienter med ikke-ventilklaffbetinget atrieflimmer; ingen direkte relevans til prasugrel eller pulmonær hypertensjon (relevansnivå C). |
+| [NCT04846556](https://clinicaltrials.gov/study/NCT04846556) | N/A | Avsluttet | 300 | Retrospektiv studie av forsøkskvalifikasjon for kreftassosiert tromboembolisme (CARAVAGGIO-type populasjon); involverer ikke prasugrel eller pulmonær hypertensjon (relevansnivå C). |
 
 ---
 
-## Literature Evidence
+## Litteraturbeviser
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | Cohort | Curr Med Res Opin | Factors associated with clopidogrel adherence in ACS patients post-PCI; prasugrel mentioned only as an alternative regimen, not studied in pulmonary hypertension. |
-| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | Observational/retrospective | Kardiologiia | ACTIV registry analysis of background cardiovascular therapy and COVID-19 outcomes; no specific data on prasugrel or pulmonary hypertension. |
+| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | Kohortstudie | Curr Med Res Opin | Faktorer knyttet til klopidogrel-etterlevelse hos AKS-pasienter etter PCI; prasugrel nevnt kun som et alternativt regime, ikke studert i pulmonær hypertensjon. |
+| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | Observasjonell/retrospektiv | Kardiologiia | ACTIV-register-analyse av bakgrunnskardiologisk terapi og COVID-19-utfall; ingen spesifikk data på prasugrel eller pulmonær hypertensjon. |
 
 ---
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Prasugrel currently holds **no marketing authorization** in Norway (`market_status: Not marketed / Not Marketed`, `total_licenses: 0`). No product listings are available for review.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug interaction data were retrievable for this evaluation (`DDI query_status: not_found`).
+Prasugrel har for tiden **ingen markedsføringstillatelse** i Norge (`market_status: Not marketed / Not Marketed`, `total_licenses: 0`). Ingen produktoppføringer er tilgjengelige for gjennomgang.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Se pakningsvedlegget for sikkerhetsinformasjon. Ingen viktige advarsler, kontraindikasjoner eller legemiddelinteraksjon-data var hentbar for denne evalueringen (`DDI query_status: not_found`).
 
-**Rationale:**
-The top-ranked predicted indication (pulmonary hypertension) has evidence level **L5** — a TxGNN model score with no corresponding disease-specific clinical trials or literature. Combined with the drug's non-marketed status in Norway and a **blocking data gap** on the official package insert (warnings/contraindications), the candidate does not currently meet the threshold to proceed past initial screening (S0).
+---
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings and contraindications) — currently a **blocking** data gap (DG001)
-- Confirmed mechanism of action data from DrugBank or equivalent source (DG002)
-- Disease-specific (pulmonary hypertension, ideally CTEPH) preclinical or clinical evidence for prasugrel, rather than general antiplatelet-class literature
-- If pursuing the migraine/PFO signal (rank 2) instead, a prasugrel-specific trial or case series, since current evidence is at the thienopyridine drug-class level only
+## Konklusjon og neste trinn
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Den høyest rangerte forutsagte indikasjonen (pulmonær hypertensjon) har bevisnivå **L5** — et TxGNN-modellpoeng uten tilsvarende sykdomsspesifikke kliniske forsøk eller litteratur. Kombinert med legemidlets ikke-markedsførte status i Norge og en **blokkerende datakløft** på det offisielle pakningsvedlegget (advarsler/kontraindikasjoner), oppfyller kandidaten for tiden ikke terskelen til å gå videre forbi innledende screening (S0).
+
+**For å komme videre kreves følgende:**
+- TFDA/produsent-pakningsvedlegg (advarsler og kontraindikasjoner) — for tiden en **blokkerende** datakløft (DG001)
+- Bekreftet virkningsmekanisme-data fra DrugBank eller tilsvarende kilde (DG002)
+- Sykdomsspesifikke (pulmonær hypertensjon, ideelt KTPH) prekliniske eller kliniske beviser for prasugrel, snarere enn generell antitrombosytt-klasse litteratur
+- Dersom man forfølger migrenésignalet/PFO (rangering 2) i stedet, en prasugrel-spesifikk forsøk eller kasuistikk, da gjeldende beviser er kun på thienopyridin-legemiddelklasse-nivå
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

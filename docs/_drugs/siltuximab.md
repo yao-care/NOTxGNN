@@ -29,76 +29,77 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-# Siltuximab: From Multicentric Castleman Disease to Extracutaneous Mastocytoma
+# Siltuximab: Fra multisentrisk Castlemans sykdom til ekstrakutan mastocytom
 
-## One-Sentence Summary
+## Sammenfattende setning
 
-> Siltuximab is an anti-IL-6 chimeric monoclonal antibody, established for the treatment of HHV-8-negative multicentric Castleman disease.
-> The TxGNN model predicts it may be effective for **Extracutaneous Mastocytoma**,
-> but this direction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model prediction with no mechanistic or clinical corroboration.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Multicentric Castleman Disease (HHV-8 negative) *(not present in the drug/regulatory record; inferred from the mechanistic rationale provided for the Kaposi's sarcoma candidate)* |
-| Predicted New Indication | Extracutaneous Mastocytoma |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L5 (model prediction only) |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Siltuximab er et anti-IL-6 kimerikk monoklonalt antistoff, etablert for behandling av HHV-8-negativ multisentrisk Castlemans sykdom.
+> TxGNN-modellen forutsier at det kan være effektivt for **Ekstrakutan mastocytom**,
+> men denne retningen er for tiden støttet av **0 kliniske forsøk** og **0 publikasjoner** — det er en ren modellpreduksjon uten mekanistisk eller klinisk underbyggelse.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on the mechanistic notes accompanying this evidence pack, siltuximab is an anti-IL-6 chimeric monoclonal antibody that blocks IL-6/STAT3 signaling, and its efficacy in multicentric Castleman disease — a cytokine-driven lymphoproliferative disorder — is well established.
-
-Extracutaneous mastocytoma is a rare, localized mast-cell tumor. There is a loose biological rationale in that IL-6 levels have been observed to correlate with disease burden in some mast-cell disorders, but the evidence pack explicitly notes that **no direct mechanistic data support IL-6 as a key driver of this specific, rare tumor subtype**. This prediction is therefore a high-scoring model output without any corroborating mechanistic, clinical, or literature evidence, consistent with its L5 evidence level and "Hold" recommendation.
-
-It is worth noting that other predictions in this pack — particularly hepatic veno-occlusive disease (rank 3, endothelial injury with IL-6 elevation post-HSCT) and Kaposi's sarcoma (rank 5, viral IL-6 from KSHV/HHV-8 overlapping with siltuximab's approved Castleman disease indication) — carry somewhat stronger biological plausibility than the top-ranked extracutaneous mastocytoma prediction, though none currently have direct clinical evidence for siltuximab use.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Multisentrisk Castlemans sykdom (HHV-8 negativ) *(ikke tilstede i legemiddel-/reguleringsposten; utledet fra den mekanistiske begrunnelsen gitt for Kaposis sarkomskandidat)* |
+| Forutsagt ny indikasjon | Ekstrakutan mastocytom |
+| TxGNN-prediksjonspoeng | 99.64% |
+| Bevisnivå | L5 (kun modellpreduksjon) |
+| Markedsstatus i Norge | Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available
+For tiden er detaljert mekanisme-for-virkning (MOA)-data ikke tilgjengelig (flagget som høyalvorlighets-data-gap). Basert på de mekanistiske notatene som følger med dette evidenskorpus, er siltuximab et anti-IL-6 kimerikk monoklonalt antistoff som blokkerer IL-6/STAT3-signalering, og dets effektivitet ved multisentrisk Castlemans sykdom — en cytokin-drevet lymfoproliferativ lidelse — er godt etablert.
 
----
+Ekstrakutan mastocytom er en sjelden, lokalisert mastcelltumor. Det er en løs biologisk begrunnelse i det at IL-6-nivåer har blitt observert å korrelere med sykdomsbyrde i noen mastcellsykdommer, men evidenskorpuset noterer eksplisitt at **ingen direkte mekanistiske data støtter IL-6 som en nøkkeldriver for denne spesifikke, sjeldne tumorundertypen**. Denne prediksjonen er derfor et høyt-scorende modellresultat uten noen bekreftet mekanistisk, klinisk eller litteraturbevis, konsistent med dens L5-bevisnivå og «Hold»-anbefaling.
 
-## Norway Market Information
-
-Siltuximab currently has no marketing authorization records in Norway (0 authorizations; market status: Not Marketed).
+Det er verdt å merke seg at andre prediksjoner i denne pakken — særlig hepatisk veno-okklusive sykdom (rangering 3, endoteleskade med IL-6-heving post-HSCT) og Kaposis sarkom (rangering 5, viral IL-6 fra KSHV/HHV-8 som overlapper med siltuximabs godkjente indikasjon for multisentrisk Castlemans sykdom) — har noe sterkere biologisk plausibilitet enn den topprangerte ekstrakutan mastocytom-prediksjonen, men ingen har for tiden direkte klinisk bevis for siltuximab-bruk.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøksbevis
 
-Please refer to the package insert for safety information. (TFDA label warnings/contraindications are flagged as a Blocking data gap — see Next Steps.)
+For tiden ingen tilknyttede kliniske forsøk registrert
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For tiden ingen tilknyttet litteratur tilgjengelig
 
-**Rationale:**
-The top-ranked prediction (extracutaneous mastocytoma) has no supporting clinical trials or literature, and the drug's own mechanism-of-action data is missing — evidence is insufficient to proceed beyond model-prediction stage (L5).
+---
 
-**To proceed, the following is needed:**
-- TFDA label data (warnings/contraindications) — currently a Blocking gap preventing S1 safety pre-screening
-- Confirmed mechanism-of-action (MOA) data from DrugBank to support mechanistic-link analysis
-- Disease-specific preclinical or case-level evidence for extracutaneous mastocytoma before any further evaluation
-- Consider re-prioritizing evaluation toward candidates with stronger mechanistic plausibility already noted in this pack (e.g., hepatic veno-occlusive disease, Kaposi's sarcoma), pending dedicated evidence searches for those indications
+## Markedsinformasjon for Norge
+
+Siltuximab har for tiden ingen markedsautorisasjoner i Norge (0 autorisasjoner; markedsstatus: Ikke markedsført).
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon. (TFDA-merkingsadvarsler/kontraindikasjoner er flagget som blokkerings-data-gap — se Neste trinn.)
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Topprangeringen (ekstrakutan mastocytom) har ingen støttende kliniske forsøk eller litteratur, og legemiddelets egen mekanisme-for-virkning-data mangler — bevis er utilstrekkelig til å gå videre enn modellprediksjonstrinnet (L5).
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA-merkingsdata (advarsler/kontraindikasjoner) — for tiden et blokkerings-data-gap som hindrer S1 sikkerhetsforhåndsscreening
+- Bekreftet mekanisme-for-virkning (MOA)-data fra DrugBank for å støtte mekanistisk-koblings-analyse
+- Sykdomsspesifikk preklinisk eller case-nivå bevis for ekstrakutan mastocytom før ytterligere evaluering
+- Vurder å re-prioritere evaluering mot kandidater med sterkere mekanistisk plausibilitet allerede notert i denne pakken (f.eks. hepatisk veno-okklusive sykdom, Kaposis sarkom), avhengig av dedikert evidensøk for disse indikasjonene
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

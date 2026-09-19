@@ -29,81 +29,78 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-Using the Evidence Pack as provided, here is the evaluation report.
+# Aflibercept: Fra neovaskulær øyesykdom til esotropi
+
+## Sammendrag i en setning
+
+> Aflibercept er et VEGF-A/VEGF-B/PlGF-falleprotein opprinnelig utviklet for neovaskulære øyesykdommer som vått AMD, DME og RVO.
+> TxGNN-modellen forutsier at det kan være effektivt for **esotropi**, men denne prediksjonen støttes for tiden av **0 kliniske forsøk** og **0 publikasjoner**,
+> og den foreslåtte mekanistiske forbindelsen mellom anti-VEGF-aktivitet og esotropi (en ekstrakulær muskulatur-/neuromuskulær forstyrrelse) er ikke godt etablert.
 
 ---
 
-# Aflibercept: From Neovascular Eye Disease to Esotropia
+## Rask oversikt
 
-## One-Sentence Summary
-
-> Aflibercept is a VEGF-A/VEGF-B/PlGF trap protein originally developed for neovascular eye diseases such as wet AMD, DME, and RVO.
-> The TxGNN model predicts it may be effective for **Esotropia**, but this prediction is currently supported by **0 clinical trials** and **0 publications**,
-> and the proposed mechanistic link between anti-VEGF activity and esotropia (an extraocular muscle/neuromuscular disorder) is not well established.
-
----
-
-## Quick Overview
-
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not available in regulatory license data (drug not marketed); based on the drug's known mechanism, it is described in this evidence pack as used for neovascular eye diseases (e.g., wet AMD, DME, RVO) |
-| Predicted New Indication | Esotropia |
-| TxGNN Prediction Score | 99.38% |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Ikke tilgjengelig i regulatoriske lisensdata (legemidlet er ikke markedsført); basert på legemidlets kjente mekanisme beskrives det i denne bevispakken som brukt for neovaskulære øyesykdommer (f.eks. vått AMD, DME, RVO) |
+| Forutsagt ny indikasjon | Esotropi |
+| TxGNN-forutsigelsesscore | 99.38% |
+| Bevisnivå | L5 (kun modellprediksjon, ingen støttende forsøk eller litteratur) |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-The formal `original_moa` field for this drug is marked as a data gap, so a fully sourced mechanism-of-action statement is not currently available. However, the evidence pack's own repurposing rationale describes aflibercept as a VEGF-A/VEGF-B/PlGF trap protein that blocks angiogenic signaling, and notes it is used for neovascular eye diseases such as wet AMD, diabetic macular edema (DME), and retinal vein occlusion (RVO). All of these are conditions driven by pathological blood vessel growth in the retina/choroid.
+Det formelle `original_moa`-feltet for dette legemidlet er merket som en datakløft, så det finnes for tiden ingen fullstendig dokumentert virkningsmekanisme. Imidlertid beskriver bevispakkens egen begrunnelse for gjenbruk aflibercept som et VEGF-A/VEGF-B/PlGF-falleprotein som blokkerer angiogen signalering, og bemerker at det brukes for neovaskulære øyesykdommer som vått AMD, diabetisk makulært ødem (DME) og retinal venøs okklusjon (RVO). Alle disse er tilstander som skyldes patologisk blodkarvekst i netthinnen/choroidea.
 
-Esotropia, by contrast, is a form of strabismus caused by extraocular muscle tone imbalance, accommodative convergence abnormalities, or cranial nerve (typically CN VI) dysfunction — a neuromuscular/ocular-motor control problem, not a vascular or angiogenic one. There is no established pharmacological pathway connecting VEGF-trap activity to extraocular muscle balance or nerve function.
+Esotropi er derimot en form for strabismus forårsaket av ubalanse i ekstrakulær muskeltonus, avvik i akkommodativ konvergens, eller dysfunksjon i hjernenerven (typisk CN VI) — et neuromuskulært/okulomotorisk kontrollproblem, ikke vaskulært eller angiogent. Det finnes ingen etablert farmakologisk vei som forbinder VEGF-falleaktivitet med ekstrakulær muskelbalanse eller nervefunksjon.
 
-Based on the rationale provided in this evidence pack, the two conditions appear to share only a broad "ophthalmic disease" classification in the knowledge graph. The high TxGNN score (99.38%) most likely reflects topological similarity between disease nodes in the knowledge graph rather than a genuine pharmacological connection, and should be treated as a **high-risk candidate false positive**. This assessment is further limited by the unresolved MOA data gap and the fact that the drug is not currently marketed in this jurisdiction, both of which reduce confidence in any causal inference.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Basert på begrunnelsen gitt i denne bevispakken, ser de to tilstandene ut til bare å dele en bred "oftalmologisk sykdom"-klassifisering i kunnskapsgrafen. Den høye TxGNN-poengsum (99.38%) gjenspeiler mest sannsynlig et topologisk artefakt i kunnskapsgrafen snarere enn et genuint biologisk forhold, og bør behandles som **falskt positivt med høy risiko**. Denne vurderingen er videre begrenset av den uløste blokkerte datakløften på TFDA pakkeseddel advarsler/kontraindikasjoner og en manglende bekreftet MOA, som begge reduserer tilliten til enhver kausal slutning.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske forsøk
 
-Currently no related literature available.
-
----
-
-## Norway Market Information
-
-This drug is not currently marketed in Norway (market status: Not Marketed), and no marketing authorization records are available in this evidence pack.
+For tiden er det ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information.
+For tiden er det ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Informasjon om norsk marked
 
-**Decision: Hold**
+Dette legemidlet er for tiden ikke markedsført i Norge (markedsstatus: Ikke markedsført), og ingen godkjennelsesregistre er tilgjengelige i denne bevispakken.
 
-**Rationale:**
-Despite a high TxGNN prediction score, this candidate has zero supporting clinical trials and zero supporting literature, and the proposed mechanistic link between anti-VEGF activity and esotropia is not pharmacologically well-supported — it likely reflects a knowledge-graph topological artifact rather than a genuine biological relationship. Combined with an unresolved blocking data gap on TFDA package insert warnings/contraindications and a missing confirmed MOA, this candidate does not currently meet the threshold to advance past initial screening.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action from DrugBank or another authoritative source — currently a High-severity data gap (DG002)
-- An independent mechanistic plausibility review specifically addressing the VEGF-pathway-to-strabismus link before further evidence collection is prioritized
-- Any available preclinical or case-level evidence connecting VEGF signaling to extraocular muscle/neuromuscular function, if it exists
-- Updated market/regulatory status confirmation, since the drug is currently unmarketed in this jurisdiction
+## Sikkerhetshensyn
+
+Se pakkeseddelen for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Til tross for en høy TxGNN-forutsigelsesscore, har denne kandidaten null støttende kliniske forsøk og null støttende litteratur, og den foreslåtte mekanistiske forbindelsen mellom anti-VEGF-aktivitet og esotropi er ikke farmakologisk godt støttet — det gjenspeiler mest sannsynlig et topologisk artefakt i kunnskapsgrafen snarere enn et genuint biologisk forhold. Kombinert med en uløst blokkert datakløft på TFDA pakkeseddel advarsler/kontraindikasjoner og en manglende bekreftet MOA, oppfyller denne kandidaten ikke for tiden terskelen for å avansere forbi innledende screening.
+
+**For å gå videre er følgende nødvendig:**
+- TFDA pakkeseddel (advarsler, kontraindikasjoner) — for tiden en blokkert datakløft (DG001)
+- Bekreftet virkningsmekanisme fra DrugBank eller en annen autoritativ kilde — for tiden en datakløft med høy alvorlighetsgrad (DG002)
+- En uavhengig vurdering av mekanistisk plausibilitet som spesifikt adresserer VEGF-vei til strabismus-koblingen før videre bevisinnsamling prioriteres
+- Eventuell tilgjengelig preklinisk eller saksnivå bevis som forbinder VEGF-signalering med ekstrakulær muskulatur/neuromuskulær funksjon, hvis det eksisterer
+- Oppdatert bekreftelse av markeds-/regulatorisk status, siden legemidlet for tiden er umarkedsført i denne juridiksjonen
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

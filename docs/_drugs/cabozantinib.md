@@ -29,87 +29,88 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Cabozantinib: From Renal Cell Carcinoma to Liposarcoma
+# Cabozantinib: Fra nyrecellekarsinom til liposarkom
 
-## One-Sentence Summary
+## Oppsummering i en setning
 
-Cabozantinib is an oral multi-kinase inhibitor (VEGFR2 / MET / AXL) approved for renal cell carcinoma, where anti-angiogenic and MET-inhibitory activity are its core therapeutic mechanisms.
-The TxGNN model predicts it may be effective for **Liposarcoma**,
-with **1 clinical trial** and **1 publication** currently supporting this direction.
+Cabozantinib er en oral multi-kinase-hemmer (VEGFR2 / MET / AXL) godkjent for nyrecellekarsinom, der anti-angiogenetisk og MET-hemmende aktivitet er dets sentrale terapeutiske mekanismer.
+TxGNN-modellen forutsier at det kan være effektivt for **liposarkom**,
+med **1 klinisk forsøk** og **1 publikasjon** som for tiden støtter denne hypotesen.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Punkt | Innhold |
 |------|---------|
-| Original Indication | Renal Cell Carcinoma |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L3 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Research Question |
+| Opprinnelig indikasjon | Nyrecellekarsinom |
+| Forutsagt ny indikasjon | Liposarkom |
+| TxGNN prediksjonspoeng | 99.83% |
+| Bevisgrad | L3 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Forskningsspørsmål |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available from this Evidence Pack. Based on known pharmacological information, Cabozantinib (Cabometyx®) is a small-molecule tyrosine kinase inhibitor that simultaneously suppresses VEGFR2, MET, and AXL — three kinases central to tumor angiogenesis, invasive growth, and immune evasion. Its established efficacy in renal cell carcinoma, where VEGFR/MET co-activation is the primary oncogenic driver, has been confirmed in multiple Phase 3 trials and forms the pharmacological foundation for this repurposing hypothesis.
+For tiden er detaljerte virkningsmekanisme-data ikke tilgjengelig fra denne bevispakken. Basert på kjent farmakologisk informasjon er cabozantinib (Cabometyx®) en småmolekyl-tyrosinkinasehemmer som samtidig hemmer VEGFR2, MET og AXL — tre kinaser sentrale for tumorangiogenese, invasiv vekst og immunundvikelse. Dets etablerte effektivitet ved nyrecellekarsinom, hvor VEGFR/MET-samaktivering er den primære onkogene driveren, er bekreftet i flere fase 3-forsøk og danner det farmakologiske grunnlaget for denne gjenbrukshypotesen.
 
-Liposarcoma — particularly the Dedifferentiated (DDLPS) and Myxoid/Round Cell (MRCLS) subtypes — is characterised by CDK4 amplification and MDM2 amplification, while a subset of tumours also demonstrates MET overexpression and aberrant AXL signalling. Cabozantinib's MET and AXL inhibitory activity may suppress tumour cell proliferation and attenuate immune escape in these subtypes. The mechanistic link is considered moderate: although direct CDK4/MDM2 targeting is outside cabozantinib's pharmacological profile, its anti-angiogenic and MET-inhibitory components provide biologically plausible antitumour activity against the vascular and invasive characteristics common to aggressive liposarcoma subtypes.
+Liposarkom — særlig underkategoriene dedifferensiert (DDLPS) og myksoid/rundcellet (MRCLS) — er karakterisert ved CDK4-amplifisering og MDM2-amplifisering, mens en delmengde av tumorer også viser MET-overekspresjon og avvikende AXL-signalisering. Cabozantinibs MET- og AXL-hemmende aktivitet kan hemme tumorcelleproliferasjon og redusere immunflukt i disse underkategoriene. Den mekanistiske koblingen blir ansett som moderat: selv om direkte CDK4/MDM2-targeting er utenfor cabozantinibs farmakologiske profil, gir dets anti-angiogenetiske og MET-hemmende komponenter biologisk plausibel antitumor-aktivitet mot de vaskulære og invasive karakteristikkene som er vanlige i aggressive liposarkomunderkategorier.
 
-The ongoing Phase 2 trial NCT05836571 is evaluating the combination of cabozantinib with ipilimumab and nivolumab in advanced soft tissue sarcoma — a broad category that encompasses liposarcoma as a subtype — and a Phase 1 neoadjuvant study (PMID 41770651) demonstrates that concurrent cabozantinib with radiation therapy is being actively explored in extremity sarcomas. These early signals support the biological rationale, though liposarcoma-specific efficacy data remains absent at present.
+Det pågående fase 2-forsøket NCT05836571 evaluerer kombinasjonen av cabozantinib med ipilimumab og nivolumab ved avansert mykvevssarkom — en bred kategori som omfatter liposarkom som en underkategori — og en fase 1 neoadjuvant studie (PMID 41770651) viser at cabozantinib kombinert med strålingsterapi aktivt utforskes ved ekstremitetssarkomer. Disse tidlige signalene støtter den biologiske begrunnelsen, selv om det for tiden mangler liposarkomspesifikke effektivitetsdata.
 
 ---
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøk
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Deltakere | Viktige funn |
 |-------------|-------|--------|------------|--------------|
-| [NCT05836571](https://clinicaltrials.gov/study/NCT05836571) | Phase 2 | Active, Not Recruiting | 66 | Randomised comparison of cabozantinib + ipilimumab + nivolumab versus ipilimumab + nivolumab alone in advanced soft tissue sarcoma; liposarcoma subtypes may be included but subgroup-specific results are pending — eligibility criteria should be reviewed to confirm liposarcoma representation |
+| [NCT05836571](https://clinicaltrials.gov/study/NCT05836571) | Fase 2 | Aktivt, ikke rekruttering | 66 | Randomisert sammenligning av cabozantinib + ipilimumab + nivolumab versus ipilimumab + nivolumab alene ved avansert mykvevssarkom; liposarkomunderkategorier kan være inkludert, men underkategori-spesifikke resultater venter fremdeles — inklusjonskriterier bør gjennomgås for å bekrefte liposarkomrepresentasjon |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [41770651](https://pubmed.ncbi.nlm.nih.gov/41770651/) | 2026 | Phase 1 RCT | American Journal of Clinical Oncology | Phase 1 safety study of neoadjuvant cabozantinib combined with concurrent radiation therapy in patients with extremity soft tissue sarcoma; primary objective was to evaluate feasibility and the risk of fistula or perforation — historically a limiting concern for this combination |
+| PMID | År | Type | Tidsskrift | Viktige funn |
+|------|-----|------|---------|--------------|
+| [41770651](https://pubmed.ncbi.nlm.nih.gov/41770651/) | 2026 | Fase 1 RCT | American Journal of Clinical Oncology | Fase 1 sikkerhetsstudie av neoadjuvant cabozantinib kombinert med samtidig strålingsterapi hos pasienter med ekstremitets mykvevssarkom; primær målsetning var å evaluere gjennomførbarhet og risikoen for fistel eller perforasjon — historisk sett en begrensende bekymring for denne kombinasjonen |
 
 ---
 
-## Cytotoxicity
+## Cytotoksisitet
 
-| Item | Content |
+| Punkt | Innhold |
 |------|---------|
-| Cytotoxicity Classification | Targeted therapy — Multi-kinase inhibitor (VEGFR2 / MET / AXL) |
-| Myelosuppression Risk | Moderate — neutropenia and thrombocytopenia reported in pivotal RCC trials; require close haematological monitoring |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | CBC with differential, liver function (ALT / AST / bilirubin), renal function, thyroid function, blood pressure, urine protein |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Cytotoksisitetsklassifisering | Målrettet terapi — Multi-kinasehemmer (VEGFR2 / MET / AXL) |
+| Myelosuppresjonrisiko | Moderat — nøytropeni og trombocytopeni rapportert i pivot RCC-forsøk; krever nøye hematologisk overvåkning |
+| Emetogenitetsklassifisering | Lav til moderat |
+| Overvåkningsparameter | Fullblodtelling med differensial, leverfunksjon (ALT / AST / bilirubin), nyrefunksjon, skjoldbruskfunksjon, blodtrykk, urinprotein |
+| Sikkerhetsinformasjon | Se pakningskildets advarsler og forholdsregler |
 
 ---
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Se pakningskilde for sikkerhetsinformasjon.
 
 ---
 
-## Conclusion and Next Steps
+## Konklusjon og neste steg
 
-**Decision: Research Question**
+**Beslutning: Forskningsspørsmål**
 
-**Rationale:**
-Available evidence is limited to one Phase 2 trial in broad soft tissue sarcoma (which may include liposarcoma as a subtype but has not published liposarcoma-specific efficacy outcomes) and one Phase 1 safety study; there are no liposarcoma-specific efficacy endpoints reported to date, making a formal repurposing progression decision premature.
+**Begrunnelse:**
+Tilgjenglig bevis er begrenset til ett fase 2-forsøk i bredt mykvevssarkom (som kan inkludere liposarkom som en underkategori, men som ikke har publisert liposarkomspesifikke effektivitetsresultater) og ett fase 1-sikkerhetsstudie; det finnes ingen liposarkomspesifikke effektivitetsendepunkter rapportert til dato, som gjør det for tidlig å ta en formell gjenbruksbeslutning.
 
-**To proceed, the following is needed:**
-- Confirm whether NCT05836571 contains a liposarcoma-specific subgroup with independently analysable efficacy data; request sub-group results from the trial investigators if needed
-- Identify or conduct preclinical studies (liposarcoma cell lines, xenograft models) to establish proof-of-concept for MET/AXL-mediated activity in DDLPS or MRCLS subtypes
-- Obtain full MOA data via DrugBank API query to complete the mechanistic link analysis
-- Retrieve the package insert (Taiwan TFDA or EMA/FDA source) to complete safety profiling: warnings, contraindications, and key drug interactions
-- Define the most biologically relevant liposarcoma subtype(s) for prioritisation (Dedifferentiated vs. Myxoid vs. Pleomorphic) based on available MET / AXL expression data from public genomic databases (e.g., COSMIC, cBioPortal)
+**For å gå videre er følgende nødvendig:**
+- Bekreft om NCT05836571 inneholder en liposarkomspesifikk undergruppe med effektivitetsdata som kan analyseres uavhengig; be om undergruppe-resultater fra forsøkslederne om nødvendig
+- Identifiser eller gjennomfør prekliniske studier (liposarkomcellelinjer, xenograftmodeller) for å etablere konseptbevis for MET/AXL-mediiert aktivitet i DDLPS eller MRCLS underkategorier
+- Innhent fullstendig MOA-data via DrugBank API-spørring for å fullføre analysen av den mekanistiske koblingen
+- Innhent pakningskilde (Taiwan TFDA eller EMA/FDA-kilde) for å fullføre sikkerhetsprofilering: advarsler, kontraindikasjoner og viktige legemiddelinteraksjoner
+- Definer den/de mest biologisk relevante liposarkomunderkategoriene for prioritering (Dedifferensiert vs. Myksoid vs. Pleomorf) basert på tilgjenglig MET / AXL-uttrykkingsdata fra offentlige genomiske databaser (f.eks. COSMIC, cBioPortal)
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

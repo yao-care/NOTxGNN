@@ -29,101 +29,102 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Prilocaine: From Local Anesthesia to Neuralgia
+# Prilocaine: Fra lokal anestesi til nevralgi
 
-## One-Sentence Summary
+## Sammendrag på én setning
 
-> Prilocaine is an amide-type local anesthetic, most widely used in combination with lidocaine as the eutectic mixture EMLA® cream for topical/regional anesthesia.
-> Among 10 TxGNN-predicted indications, **Neuralgia** (particularly postherpetic neuralgia) stands out as the only candidate with substantive supporting evidence,
-> with **12 clinical trials** and **20 publications** identified, including several completed RCTs on lidocaine-prilocaine cream in postherpetic neuralgia.
+> Prilocaine er et amidtype lokalanestesimiddel som oftest brukes i kombinasjon med lidokain som den eutektiske blandingen EMLA® creme for topisk/regional anestesi.
+> Blant 10 TxGNN-predikerte indikasjoner skiller **Nevralgi** (spesielt postherpes nevralgi) seg ut som den eneste kandidaten med betydelig støttende evidens,
+> med **12 kliniske forsøk** og **20 publikasjoner** identifisert, inkludert flere fullførte RCT-er på lidokain-prilocaine creme i postherpes nevralgi.
 
-*Note: TxGNN generated 10 candidate indications for prilocaine in this evidence pack; the other 9 (e.g., papillary conjunctivitis, manic bipolar disorder, bronchitis, allergic asthma, rosacea conjunctivitis) had no clinical trial or literature support and were scored L4–L5/Hold. This report focuses on the one candidate (Neuralgia) that reached decision stage S3.*
+*Merk: TxGNN genererte 10 kandidatindikasjoner for prilocaine i denne evidenspakken; de øvrige 9 (f.eks. papillær konjunktivitt, manisk bipolær lidelse, bronkitt, allergisk astma, rosacé konjunktivitt) hadde ingen klinisk forsøks- eller litteraturstøtte og ble scoret L4–L5/Hold. Denne rapporten fokuserer på den ene kandidaten (Nevralgi) som nådde beslutningsstadium S3.*
 
 ---
 
-## Quick Overview
+## Oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not formally registered in this dataset — clinically established as a local/regional anesthetic (typically combined with lidocaine as EMLA cream) |
-| Predicted New Indication | Neuralgia (postherpetic neuralgia) |
-| TxGNN Prediction Score | 99.34% |
-| Evidence Level | L2 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Opprinnelig indikasjon | Ikke formelt registrert i dette datasettet — klinisk etablert som lokalanestesi/regional anestesi (typisk kombinert med lidokain som EMLA creme) |
+| Predikert ny indikasjon | Nevralgi (postherpes nevralgi) |
+| TxGNN-prediksjonspoeng | 99.34% |
+| Evidensnivå | L2 |
+| Markedsstatus Norge | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Gå videre med sikkerhetstiltak |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (DG002). Based on established pharmacology, prilocaine is an amide-type local anesthetic that, after topical or subcutaneous administration, blocks voltage-gated sodium channels on peripheral neurons, inhibiting depolarization and action potential propagation. It is most commonly used clinically as part of EMLA (eutectic mixture of lidocaine 2.5% and prilocaine 2.5%) for procedural and dermatologic anesthesia.
+For øyeblikket er detaljert data om virkningsmekanisme ikke tilgjengelig i denne evidenspakken (DG002). Basert på etablert farmakologi er prilocaine et amidtype lokalanestesimiddel som, etter topisk eller subkutan administrasjon, blokkerer spenningsavhengige natriumkanaler på perifere nevroner, og hemmer depolarisering og aksjonspotensialutbredelse. Det brukes klinisk oftest som del av EMLA (eutektisk blanding av lidokain 2,5% og prilocaine 2,5%) for prosedyre- og dermatologisk anestesi.
 
-Neuralgia — especially postherpetic neuralgia (PHN) — is characterized by aberrant peripheral sensory nerve firing and sensitization. Sodium-channel blockade by prilocaine (in combination with lidocaine) provides a mechanistically plausible route to reducing this abnormal signaling, and EMLA cream already has decades of clinical use for neuralgic pain relief, both as a standalone analgesic and as a pretreatment to reduce procedural pain (e.g., before capsaicin 8% patch application).
+Nevralgi — særlig postherpes nevralgi (PHN) — er preget av avvikende perifer sensibilisk nervfyring og sensibilisering. Natriumkanalblokking av prilocaine (i kombinasjon med lidokain) gir en mekanistisk plausibel vei for å redusere dette unormale signaliseringen, og EMLA creme har allerede tiår av klinisk bruk for nevralgiisk smertelindring, både som frittstående analgetikum og som forbehandling for å redusere prosedyresmerte (f.eks. før applicering av capsaicin 8% plaster).
 
-The key limitation is that essentially all supporting evidence involves prilocaine **in combination with lidocaine** (EMLA), not prilocaine as monotherapy. No identified trial isolates prilocaine's independent contribution to neuralgia relief.
+Nøkkelbegrensningen er at praktisk talt all støttende evidens involverer prilocaine **i kombinasjon med lidokain** (EMLA), ikke prilocaine som monoterapi. Ingen identifisert forsøk isolerer prilocaines uavhengige bidrag til nevralgierelieff.
 
 ---
 
-## Clinical Trial Evidence
+## Klinisk forsøksbevis
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Deltakelse | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT00916942](https://clinicaltrials.gov/study/NCT00916942) | Phase 2 | Completed | 20 | Open-label study of topical lidocaine 2.5%/prilocaine 2.5% cream as pre-treatment for NGX-4010 (capsaicin patch) in postherpetic neuralgia |
-| [NCT06247592](https://clinicaltrials.gov/study/NCT06247592) | N/A | Unknown | 70 | Greater occipital nerve block using 2% prilocaine vs pulsed radiofrequency in chronic migraine |
-| [NCT06899438](https://clinicaltrials.gov/study/NCT06899438) | N/A | Completed | 38 | Prilocaine injection vs botulinum toxin A compared for myofascial pain syndrome trigger points |
-| [NCT07021365](https://clinicaltrials.gov/study/NCT07021365) | N/A | Not yet recruiting | 30 | Ganglion impar radiofrequency ablation vs phenol neurolysis for chronic coccydynia (local-anesthetic-based nerve block techniques) |
-| [NCT03587220](https://clinicaltrials.gov/study/NCT03587220) | N/A | Completed | 44 | Mechanistic study of capsaicin-induced desensitization combined with topical local anesthetic on cutaneous nociceptive C-fibers |
-| [NCT03220113](https://clinicaltrials.gov/study/NCT03220113) | Phase 1/2 | Unknown | 100 | De-Novo algorithm (dexamethasone, lidocaine, thiamine) injected into trigeminal/occipital nerve branches for chronic craniofacial neuralgia/migraine |
-| [NCT05411900](https://clinicaltrials.gov/study/NCT05411900) | Phase 2 | Unknown | 164 | RCT of repeated botulinum toxin A injections for peripheral neuropathic pain in carpal tunnel syndrome |
-| [NCT02736890](https://clinicaltrials.gov/study/NCT02736890) | Phase 2 | Terminated | 8 | Subcutaneous botulinum toxin A for at-level back pain in spinal cord injury |
-| [NCT01911377](https://clinicaltrials.gov/study/NCT01911377) | Phase 2 | Terminated | 12 | Botulinum toxin A for allodynic-type neuropathic pain in spinal cord injury/multiple sclerosis |
-| [NCT04914637](https://clinicaltrials.gov/study/NCT04914637) | N/A | Completed | 66 | Dry needling combined with interlaminar epidural steroid injection for chronic neck pain from cervical disc herniation |
+| [NCT00916942](https://clinicaltrials.gov/study/NCT00916942) | Fase 2 | Fullført | 20 | Åpen studie av topisk lidokain 2,5%/prilocaine 2,5% creme som forbehandling for NGX-4010 (capsaicin plaster) i postherpes nevralgi |
+| [NCT06247592](https://clinicaltrials.gov/study/NCT06247592) | N/A | Ukjent | 70 | Større occipital nerveblokk med 2% prilocaine vs pulsert radiofrekvens i kronisk migrene |
+| [NCT06899438](https://clinicaltrials.gov/study/NCT06899438) | N/A | Fullført | 38 | Prilocaine injeksjon vs botulinumtoksin A sammenlignet for myofascial smertesyndrom triggerpunkter |
+| [NCT07021365](https://clinicaltrials.gov/study/NCT07021365) | N/A | Rekrutterer ikke ennå | 30 | Ganglion impar radiofrekvensablasjon vs fenol neurolyse for kronisk koksyni (lokalanestesiobaserte nerveblokkeringsteknikker) |
+| [NCT03587220](https://clinicaltrials.gov/study/NCT03587220) | N/A | Fullført | 44 | Mekanistisk studie av capsaicin-indusert desensibilisering kombinert med topisk lokalanestesi på kutan nosiseptive C-fibre |
+| [NCT03220113](https://clinicaltrials.gov/study/NCT03220113) | Fase 1/2 | Ukjent | 100 | De-Novo algoritme (deksametason, lidokain, tiamin) injisert i trigeminale/occipitale nervegrener for kronisk kranio-ansiktsneuralgi/migrene |
+| [NCT05411900](https://clinicaltrials.gov/study/NCT05411900) | Fase 2 | Ukjent | 164 | RCT av gjentatt botulinumtoksin A injeksjon for perifer neuropatisk smerte i carpal tunnel syndrom |
+| [NCT02736890](https://clinicaltrials.gov/study/NCT02736890) | Fase 2 | Avsluttet | 8 | Subkutan botulinumtoksin A for ryggsmerte på nivå i ryggmargsskade |
+| [NCT01911377](https://clinicaltrials.gov/study/NCT01911377) | Fase 2 | Avsluttet | 12 | Botulinumtoksin A for allodyni-type neuropatisk smerte i ryggmargsskade/multippel sklerose |
+| [NCT04914637](https://clinicaltrials.gov/study/NCT04914637) | N/A | Fullført | 66 | Tørr nålestikking kombinert med interlaminar epidural steroidinjeksjon for kronisk nakkesmerte fra cervical discherniasjon |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [2493878](https://pubmed.ncbi.nlm.nih.gov/2493878/) | 1989 | RCT | BMJ | Lignocaine-prilocaine cream significantly reduced pain in postherpetic neuralgia |
-| [2616182](https://pubmed.ncbi.nlm.nih.gov/2616182/) | 1989 | RCT | Pain | EMLA cream (5–10g, 24h application) significantly improved pain intensity in refractory PHN, including facial PHN subgroup |
-| [22182397](https://pubmed.ncbi.nlm.nih.gov/22182397/) | 2011 | RCT | BMC Anesthesiol | Lidocaine 2.5%/prilocaine 2.5% cream pretreatment improved tolerability of capsaicin 8% patch (NGX-4010) in PHN patients |
-| [1430539](https://pubmed.ncbi.nlm.nih.gov/1430539/) | 1992 | Review | J Dermatol Surg Oncol | EMLA reviewed as an effective, safe topical anesthetic, including use in postherpetic neuralgia |
-| [10353509](https://pubmed.ncbi.nlm.nih.gov/10353509/) | 1999 | Cohort | Pain | Single and repeated EMLA applications reduced spontaneous and evoked pain in PHN patients (n=11) |
-| [12378018](https://pubmed.ncbi.nlm.nih.gov/12378018/) | 2002 | Cohort | J Korean Med Sci | Identified prognostic factors (age, affected area, pain duration) for progression to postherpetic neuralgia |
-| [24310458](https://pubmed.ncbi.nlm.nih.gov/24310458/) | 2013 | Review | Turk Neurosurg | Evaluated invasive procedures for medically intractable genitofemoral/ilioinguinal neuralgia |
-| [23314014](https://pubmed.ncbi.nlm.nih.gov/23314014/) | 2013 | Review | Curr Opin Support Palliat Care | Evidence-based approach to managing persistent wound-related pain, including topical anesthetics |
-| [2046584](https://pubmed.ncbi.nlm.nih.gov/2046584/) | 1991 | Case report | Med J Aust | Early clinical report on EMLA cream use in herpetic neuralgia |
-| [1875823](https://pubmed.ncbi.nlm.nih.gov/1875823/) | 1991 | Case report | Med J Aust | Companion report on EMLA cream in herpetic neuralgia |
+| [2493878](https://pubmed.ncbi.nlm.nih.gov/2493878/) | 1989 | RCT | BMJ | Lidokain-prilocaine creme reduserte signifikant smerte i postherpes nevralgi |
+| [2616182](https://pubmed.ncbi.nlm.nih.gov/2616182/) | 1989 | RCT | Pain | EMLA creme (5–10g, 24h påføring) forbedret signifikant smerteintenistet i refraktær PHN, inkludert ansiktsfasett PHN undergruppe |
+| [22182397](https://pubmed.ncbi.nlm.nih.gov/22182397/) | 2011 | RCT | BMC Anesthesiol | Lidokain 2,5%/prilocaine 2,5% creme forbehandling forbedret tolerabilitet for capsaicin 8% plaster (NGX-4010) i PHN pasienter |
+| [1430539](https://pubmed.ncbi.nlm.nih.gov/1430539/) | 1992 | Oversikt | J Dermatol Surg Oncol | EMLA gjennomgått som effektiv, sikker topisk anestesi, inkludert bruk i postherpes nevralgi |
+| [10353509](https://pubmed.ncbi.nlm.nih.gov/10353509/) | 1999 | Kohort | Pain | Enkelt og gjentatt EMLA påføring reduserte spontan og fremkaldt smerte hos PHN pasienter (n=11) |
+| [12378018](https://pubmed.ncbi.nlm.nih.gov/12378018/) | 2002 | Kohort | J Korean Med Sci | Identifiserte prognostiske faktorer (alder, affisiert område, smertevarsighet) for progresjon til postherpes nevralgi |
+| [24310458](https://pubmed.ncbi.nlm.nih.gov/24310458/) | 2013 | Oversikt | Turk Neurosurg | Evaluerte invasive prosedyrer for medikamentelt intraktabel genitofemoral/ilioinguinal nevralgi |
+| [23314014](https://pubmed.ncbi.nlm.nih.gov/23314014/) | 2013 | Oversikt | Curr Opin Support Palliat Care | Evidensbasert tilnærming til håndtering av vedvarende sårrelatert smerte, inkludert topiske anestesimidler |
+| [2046584](https://pubmed.ncbi.nlm.nih.gov/2046584/) | 1991 | Caserapport | Med J Aust | Tidlig klinisk rapport om EMLA creme bruk i herpetisk nevralgi |
+| [1875823](https://pubmed.ncbi.nlm.nih.gov/1875823/) | 1991 | Caserapport | Med J Aust | Ledsagerrapport om EMLA creme i herpetisk nevralgi |
 
 ---
 
-## Norway Market Information
+## Markedsinformasjon Norge
 
-Prilocaine currently has **no marketing authorization on file in Norway** (market status: Not marketed / Not marketed; total licenses: 0). No product-level dosage form or approved-indication data is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. Formal key warnings, contraindications, and drug-drug interaction data (DG001) are not yet available for this drug in the current dataset and must be obtained from the TFDA/Norway product label before clinical use is expanded to a new indication.
+Prilocaine har for tiden **ingen markedsføringstillatelse registrert i Norge** (markedsstatus: Ikke markedsført / Ikke markedsført; totalt antall lisenser: 0). Ingen informasjon om registrerte produkter, doseringsformer eller godkjente indikasjoner er tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails**
+Vennligst se pakningsvedlegg for sikkerhetsinformasjon. Formelle nøkkeladvarsler, kontraindikasjonier og legemiddelinteraksjonsdata (DG001) er for øyeblikket ikke tilgjengelig for dette legemidlet i det nåværende datasettet og må innhentes fra TFDA/Norge pakningsvedlegg før klinisk bruk kan utvides til en ny indikasjon.
 
-**Rationale:**
-Three completed RCTs (tier 1) and one completed Phase 2 trial support lidocaine-prilocaine cream (EMLA) for pain relief in postherpetic neuralgia, with a coherent sodium-channel-blockade mechanism. However, prilocaine has not been tested as monotherapy, and it currently has no Norway market authorization.
+---
 
-**To proceed, the following is needed:**
-- Official TFDA/Norway package insert data — key warnings and contraindications (DG001, currently blocking)
-- Verified mechanism-of-action documentation from DrugBank or equivalent source (DG002)
-- Evidence isolating prilocaine's independent contribution versus the lidocaine-prilocaine combination
-- Assessment of methemoglobinemia and systemic absorption risk — a known class effect of prilocaine, particularly relevant if topical use is expanded to patients with compromised skin barrier
-- A regulatory pathway assessment, since prilocaine is not currently marketed in Norway (0 authorizations on file)
+## Konklusjon og neste trinn
+
+**Beslutning: Gå videre med sikkerhetstiltak**
+
+**Begrunnelse:**
+Tre fullførte RCT-er (nivå 1) og en fullført fase 2 studie støtter lidokain-prilocaine creme (EMLA) for smertelindring i postherpes nevralgi, med en sammenhengende natriumkanalblokkeringsmekanisme. Imidlertid har prilocaine ikke blitt testet som monoterapi, og det har for tiden ingen markedsføringstillatelse i Norge.
+
+**For å fortsette er følgende nødvendig:**
+- Offisiell TFDA/Norge pakningsvedlegg data — nøkkeladvarsler og kontraindikasjonier (DG001, for øyeblikket blokkert)
+- Verifisert virkningsmekanisme-dokumentasjon fra DrugBank eller tilsvarende kilde (DG002)
+- Bevis som isolerer prilocaines uavhengige bidrag versus lidokain-prilocaine kombinasjonen
+- Vurdering av metthemoglobinemia og systemisk absorpsjonsrisiko — en kjent klasseeffekt av prilocaine, spesielt relevant hvis topisk bruk utvides til pasienter med kompromittert hudbarriere
+- En vurdering av regulatorisk vei, siden prilocaine ikke er markedsført i Norge (0 godkjennelser på fil)
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

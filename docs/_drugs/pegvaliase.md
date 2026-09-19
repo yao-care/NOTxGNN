@@ -29,79 +29,80 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Pegvaliase: From Phenylketonuria to Diabetic Retinopathy
+# Pegvaliase: Fra fenylketonuri til diabetisk retinopati
 
-## One-Sentence Summary
+## Oppsummering på en setning
 
-Pegvaliase is a PEGylated phenylalanine ammonia lyase (PAL) enzyme substitution therapy originally used to control blood phenylalanine levels in **phenylketonuria (PKU)**.
-The TxGNN model predicts it may be effective for **Diabetic Retinopathy**, but currently **no clinical trials and no literature** support this direction — the prediction is model-output only.
+Pegvaliase er en PEGylert fenylalanin ammoniakk-lyase (PAL) enzymerstattingsterapi opprinnelig brukt til å kontrollere blodets fenylalaninnivåer ved **fenylketonuri (PKU)**.
+TxGNN-modellen forutsier at det kan være effektivt for **diabetisk retinopati**, men for tiden **ingen kliniske forsøk og ingen litteratur** støtter denne retningen — prediksjonen er kun modellutgang.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Phenylketonuria (PKU) — control of blood phenylalanine levels |
-| Predicted New Indication | Diabetic Retinopathy |
-| TxGNN Prediction Score | 99.17% |
-| Evidence Level | L5 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Original indikasjon | Fenylketonuri (PKU) — kontroll av blodets fenylalaninnivåer |
+| Forutsagt ny indikasjon | Diabetisk retinopati |
+| TxGNN prediksjonspoengsum | 99.17% |
+| Bevisgrad | L5 |
+| Markedsstatus Norge | Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
-**Note:** Two closely related indications were also flagged with near-identical scores and the same L5/Hold status: *severe nonproliferative diabetic retinopathy* (99.16%) and *diabetic cataract* (99.11%). None have any supporting trials or literature.
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available (MOA: Data Gap). Based on known information, pegvaliase is an enzyme substitution therapy that metabolizes phenylalanine into trans-cinnamic acid and ammonia, and its efficacy in phenylketonuria is well established.
-
-However, this mechanism has **no known biological overlap** with the pathophysiology of diabetic retinopathy, which is primarily driven by VEGF-mediated neovascularization, chronic hyperglycemia, oxidative stress, polyol pathway activation, and AGE accumulation. There is no plausible pharmacological pathway connecting phenylalanine metabolism to retinal microvascular disease.
-
-Given that this drug node also has no recorded MOA and zero DDI entries in the knowledge graph, the sparse connectivity around pegvaliase likely produced a spurious high-confidence prediction rather than a genuine biological signal. This assessment is consistent with the evidence pack's own repurposing rationale, which explicitly flags the score as a probable false positive driven by data sparsity.
+**Notat:** To nært beslektede indikasjoner ble også merket med nesten identiske poengsum og samme L5/Avvent-status: *alvorlig nonproliferativ diabetisk retinopati* (99.16%) og *diabetisk katarakt* (99.11%). Ingen har noen støttende forsøk eller litteratur.
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related clinical trials registered.
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige (MOA: Datahull). Basert på kjent informasjon er pegvaliase en enzymerstattingsterapi som metaboliserer fenylalanin til trans-kanellesyre og ammoniakk, og dens effektivitet ved fenylketonuri er godt etablert.
 
----
+Imidlertid har denne mekanismen **ingen kjent biologisk overlapping** med patofysiologien ved diabetisk retinopati, som primært er drevet av VEGF-mediert neovaskularisering, kronisk hyperglykemi, oksidativ stress, polyolstieaktivering og AGE-akkumulering. Det er ingen plausibel farmakologisk vei som forbinder fenylalanin-metabolisme til retinale mikrovaskulære sykdommer.
 
-## Literature Evidence
-
-Currently no related literature available.
+Gitt at denne legemiddelnoden også mangler registrert MOA og null DDI-oppføringer i kunnskapsgrafen, produserte den sparsomme tilkoblingen rundt pegvaliase sannsynligvis en spuriøs høy-konfidens prediksjon snarere enn et genuint biologisk signal. Denne vurderingen er konsistent med bevispakkens egen omformålsrasjonale, som eksplisitt merker poengsumet som en sannsynlig falsk positiv drevet av grafsparsitet.
 
 ---
 
-## Norway Market Information
+## Klinisk forsøksevidens
 
-Pegvaliase is **not currently marketed in Norway** and holds no marketing authorizations on record (0 licenses).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA label warnings/contraindications are flagged in the evidence pack as a Blocking data gap — DG001 — meaning this candidate cannot proceed to S1 safety review until label data is obtained.)*
+For tiden ingen beslektede kliniske forsøk registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturevidens
 
-**Decision: Hold**
+For tiden ingen beslektet litteratur tilgjengelig.
 
-**Rationale:**
-There is no clinical or literature evidence supporting this indication, the mechanistic link between PAL enzyme substitution and diabetic retinopathy is biologically implausible, and the underlying MOA/DDI data gaps suggest the high TxGNN score may be an artifact of graph sparsity rather than a genuine signal. A Blocking data gap (missing TFDA warnings/contraindications) also prevents any safety review at this stage.
+---
 
-**To proceed, the following is needed:**
-- TFDA label data (warnings, contraindications) — resolves Blocking gap DG001
-- Verified mechanism of action from DrugBank or primary literature — resolves High-priority gap DG002
-- Preclinical or mechanistic evidence establishing a biological rationale linking PAL/phenylalanine metabolism to diabetic retinal disease
-- At minimum, one observational study or case report before advancing past S0
+## Markedsinformasjon for Norge
+
+Pegvaliase er **for tiden ikke markedsført i Norge** og har ingen markedsgodkjenninger registrert (0 lisenser).
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+*(Notat: TFDA-advarsler/kontraindikasjoner er merket i bevispakningen som et blokkerende datahull — DG001 — noe som betyr at denne kandidaten ikke kan gå videre til S1-sikkerhetsgjennomgang inntil etikett-data er innhentet.)*
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Rasjonale:**
+Det er ingen klinisk eller litteraturbevis som støtter denne indikasjonen, den mekanistiske koblingen mellom PAL-enzymerstattning og diabetisk retinopati er biologisk implausibel, og de underliggende MOA/DDI-datahullene antyder at det høye TxGNN-poengsumet kan være et artefakt av grafsparsitet snarere enn et genuint signal. Et blokkerende datahull (manglende TFDA-advarsler/kontraindikasjoner) forhindrer også sikkerhetsgjennomgang på dette stadiet.
+
+**For å gå videre, kreves følgende:**
+- TFDA-etikett-data (advarsler, kontraindikasjoner) — løser det blokkerende datahullet DG001
+- Bekreftet virkningsmekanisme fra DrugBank eller primærlitteratur — løser høyprioritet-datahullet DG002
+- Preklinisk eller mekanistisk bevis som etablerer en biologisk rasjonale som forbinder PAL/fenylalanin-metabolisme til diabetisk retinalsykdom
+- Minst ett observasjonelt studie eller tilfellerapport før framgang forbi S0
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

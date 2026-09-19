@@ -29,100 +29,101 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-# Sofosbuvir: From Chronic Hepatitis C Virus Infection to Hepatitis B Virus Infection
+# Sofosbuvir: Fra kronisk hepatitt C-virus-infeksjon til hepatitt B-virus-infeksjon
 
-## One-Sentence Summary
+## Sammenfatting i en setning
 
-> Sofosbuvir is a nucleotide NS5B polymerase inhibitor originally developed for chronic hepatitis C virus (HCV) infection.
-> The TxGNN model predicts it may also be effective for **Hepatitis B Virus Infection**,
-> with **111 clinical trials** and **18 publications** indexed against this candidate — however, closer review shows almost none of this evidence directly tests antiviral efficacy against HBV itself.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Chronic Hepatitis C Virus (HCV) Infection *(inferred from mechanistic evidence in this pack; no Taiwan/Norway label data available)* |
-| Predicted New Indication | Hepatitis B Virus Infection |
-| TxGNN Prediction Score | 99.77% (rank 2917) |
-| Evidence Level | L4 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Sofosbuvir er en nukleotid-NS5B-polymerasehemmer opprinnelig utviklet for kronisk hepatitt C-virus (HCV)-infeksjon.
+> TxGNN-modellen forutsier at det også kan være effektivt for **hepatitt B-virus-infeksjon**,
+> med **111 kliniske studier** og **18 publikasjoner** katalogisert mot denne kandidaten — imidlertid viser nærmere gjennomgang at nesten ingen av dette beviset direkte tester antivirus-effektivitet mot HBV selv.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Sofosbuvir is a prodrug that is metabolized intracellularly into its active triphosphate form (GS-461203), which competitively inhibits the HCV NS5B RNA-dependent RNA polymerase (RdRp) and causes chain termination during viral RNA replication. This mechanism is highly specific to HCV, a positive-strand RNA virus.
-
-HBV, by contrast, is a partially double-stranded DNA virus that replicates via reverse transcription of an RNA pregenome, using a viral reverse transcriptase rather than an RdRp. There is no established structural or catalytic overlap between sofosbuvir's target and HBV's replication machinery, so the mechanistic case for direct antiviral activity against HBV is weak.
-
-The high TxGNN score for this candidate appears to be driven largely by **confounded evidence**: the majority of indexed trials and publications involve patients with **HCV/HBV coinfection**, where sofosbuvir-based regimens are used to treat the HCV component, while HBV outcomes (viral load, HBsAg, reactivation) are measured only as a secondary safety signal — not as the primary treatment target. The one genuinely HBV-specific study identified (NCT03312023 / PMID 36045503) tested ledipasvir/sofosbuvir in HBV mono-infected subjects and observed only a **modest reduction in HBsAg**, insufficient to establish therapeutic efficacy. Multiple other publications instead describe **HBV reactivation** occurring *during* sofosbuvir-based HCV treatment — an adverse safety signal, not evidence of benefit.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03312023](https://clinicaltrials.gov/study/NCT03312023) | Phase 2 | Completed | 21 | The only trial directly testing ledipasvir/sofosbuvir in HBV **mono-infected** subjects; endpoints were HBsAg/HBV DNA decline at Week 12 (result: modest HBsAg reduction only) |
-| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Phase 2/3 | Completed | 23 | HCV/HBV coinfection cohort assessing incidence and predictors of **HBV reactivation** during DAA treatment of HCV (relevance grade B) |
-| [NCT02613871](https://clinicaltrials.gov/study/NCT02613871) | Phase 3 | Completed | 111 | LDV/SOF FDC in Taiwanese HCV genotype 1/2 patients coinfected with HBV; primary endpoint is HCV antiviral efficacy, not HBV (relevance grade C) |
-| [NCT04997564](https://clinicaltrials.gov/study/NCT04997564) | Phase 4 | Unknown | 120 | SOF/VEL plus prophylactic TAF in HCV/HBV-coinfected patients in China, designed to prevent HBV reactivation during HCV treatment |
-| [NCT02219685](https://clinicaltrials.gov/study/NCT02219685) | Phase 2 | Completed | 40 | Placebo-controlled study of LDV/SOF on cerebral metabolism/neurocognition in chronic HCV; mechanistically unrelated to HBV (relevance grade C) |
-| [NCT02605304](https://clinicaltrials.gov/study/NCT02605304) | Phase 2 | Terminated | 7 | Retreatment strategies for DAA-failed HCV patients; indexed via drug overlap only |
-| [NCT03572140](https://clinicaltrials.gov/study/NCT03572140) | N/A | Unknown | 297 | Safety and resistance-associated variant assessment of sofosbuvir + daclatasvir in chronic HCV genotype 4 |
-| [NCT02483156](https://clinicaltrials.gov/study/NCT02483156) | Phase 2/3 | Completed | 80 | Sofosbuvir + ribavirin vs. an investigational combination in Egyptian adults with HCV genotype 4 |
-| [NCT01805882](https://clinicaltrials.gov/study/NCT01805882) | Phase 2 | Completed | 229 | Pilot study of multiple sofosbuvir-based combination regimens for chronic HCV |
-| [NCT03687229](https://clinicaltrials.gov/study/NCT03687229) | N/A | Unknown | 60 | Effect of DAA therapy on miRNA-122 and insulin resistance in chronic HCV patients |
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Kronisk hepatitt C-virus (HCV)-infeksjon *(antatt fra mekanistisk bevis i denne pakken; ingen tilgjengelige Taiwan-/Norgesetikettdata)* |
+| Forutsagt ny indikasjon | Hepatitt B-virus-infeksjon |
+| TxGNN-prediktjonsscore | 99.77% (rang 2917) |
+| Bevisnivå | L4 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall autoriseringer | 0 |
+| Anbefalt beslutning | Holde |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [36045503](https://pubmed.ncbi.nlm.nih.gov/36045503/) | 2023 | Phase 2 open-label | J Med Virol | Only direct HBV-treatment study of LDV/SOF; showed modest HBsAg decline but no strong virologic response in HBV mono-infected subjects |
-| [33031326](https://pubmed.ncbi.nlm.nih.gov/33031326/) | 2020 | Case report / review | Medicine | HBV reactivation following successful HCV treatment with sofosbuvir + ribavirin |
-| [31632097](https://pubmed.ncbi.nlm.nih.gov/31632097/) | 2019 | Cohort | Infection and Drug Resistance | Management of HBV reactivation post-DAA treatment in HCV-HBV coinfected patients with pretreatment HBeAg seroconversion |
-| [29334502](https://pubmed.ncbi.nlm.nih.gov/29334502/) | 2018 | Cohort | J Clin Gastroenterol | Examines risk of HBV reactivation among patients treated with ledipasvir-sofosbuvir for HCV |
-| [31542053](https://pubmed.ncbi.nlm.nih.gov/31542053/) | 2019 | Case report | J Med Case Reports | HBV reactivation via immune-escape mutant in an anti-HBc-positive patient during SOF/VEL therapy for HCV |
-| [33523503](https://pubmed.ncbi.nlm.nih.gov/33523503/) | 2021 | Prospective observational | J Viral Hepat | HBV reactivation in cancer patients receiving DAAs for HCV treatment |
-| [27621502](https://pubmed.ncbi.nlm.nih.gov/27621502/) | 2015 | ADR report | Hospital Pharmacy | Reports HBV reactivation associated with simeprevir + sofosbuvir treatment of HCV |
-| [37517414](https://pubmed.ncbi.nlm.nih.gov/37517414/) | 2023 | Review/modelling | Lancet Gastroenterol Hepatol | Global epidemiological modelling of HBV prevalence and care cascade; no drug-specific data |
-| [39914746](https://pubmed.ncbi.nlm.nih.gov/39914746/) | 2025 | Review | J Hepatology | Discusses lessons from HCV DAA treatment uptake applicable to future HBV/HDV therapies (not sofosbuvir-specific) |
-| [40242313](https://pubmed.ncbi.nlm.nih.gov/40242313/) | 2025 | In vitro model | JHEP Reports | Novel in vitro co-infection system for HBV/HCV/HDV/HEV; methodological tool, not efficacy data |
+Sofosbuvir er et prodrug som metaboliseres intracellulært til sin aktive trifosfatform (GS-461203), som kompetitivt hemmer HCV NS5B RNA-avhengig RNA-polymerase (RdRp) og forårsaker kjedeavslutning under viral RNA-replikasjon. Denne mekanismen er svært spesifikk for HCV, et positivt-stranget RNA-virus.
+
+HBV er derimot et delvis dobbeltstranget DNA-virus som repliseres via revers transkripsjon av en RNA-pregenom, ved bruk av en viral revers transkriptase i stedet for en RdRp. Det er ingen etablert strukturell eller katalytisk overlapping mellom sofosbuvirs mål og HBVs replikasjonsmaskiner, så det mekanistiske grunnlaget for direkte antivirus-aktivitet mot HBV er svakt.
+
+Den høye TxGNN-scoren for denne kandidaten ser ut til å være drevet i stor grad av **forvirrende bevis**: flertallet av katalogiserte studier og publikasjoner involverer pasienter med **HCV/HBV-saminfeksjon**, der sofosbuvir-baserte regimer brukes til å behandle HCV-komponenten, mens HBV-resultater (viral last, HBsAg, reaktivering) måles bare som et sekundært sikkerhetssignal — ikke som det primære behandlingsmålet. Den eneste genuint HBV-spesifikke studien som ble identifisert (NCT03312023 / PMID 36045503) testet ledipasvir/sofosbuvir hos HBV-mono-infiserte deltakere og observerte bare en **beskjeden reduksjon i HBsAg**, utilstrekkelig til å etablere terapeutisk effektivitet. Flere andre publikasjoner beskriver i stedet **HBV-reaktivering** som oppstår *under* sofosbuvir-basert HCV-behandling — et negativt sikkerhetssignal, ikke bevis på fordel.
 
 ---
 
-## Norway Market Information
+## Klinisk studiebevis
 
-Sofosbuvir currently holds **no marketing authorization in Norway** (`market_status: Not marketed`, 0 licenses on record). No approved indication text, dosage form, or product information is available for this evaluation.
+| Studienummer | Fase | Status | Deltakere | Viktige funn |
+|---------|------|--------|-----------|---------|
+| [NCT03312023](https://clinicaltrials.gov/study/NCT03312023) | Fase 2 | Ferdigstilt | 21 | Den eneste studien som direkte tester ledipasvir/sofosbuvir hos HBV **mono-infiserte** deltakere; endepunkter var HBsAg/HBV DNA-nedgang ved uke 12 (resultat: bare beskjeden HBsAg-reduksjon) |
+| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Fase 2/3 | Ferdigstilt | 23 | HCV/HBV-saminfeksjonskohort som vurderer insidens og prediktorer for **HBV-reaktivering** under DAA-behandling av HCV (relevansgrad B) |
+| [NCT02613871](https://clinicaltrials.gov/study/NCT02613871) | Fase 3 | Ferdigstilt | 111 | LDV/SOF FDC hos taiwanske HCV-genotype 1/2-pasienter saminfisert med HBV; primærendepunkt er HCV-antivirus-effektivitet, ikke HBV (relevansgrad C) |
+| [NCT04997564](https://clinicaltrials.gov/study/NCT04997564) | Fase 4 | Ukjent | 120 | SOF/VEL pluss profylaktisk TAF hos HCV/HBV-saminfiserte pasienter i Kina, designet for å forhindre HBV-reaktivering under HCV-behandling |
+| [NCT02219685](https://clinicaltrials.gov/study/NCT02219685) | Fase 2 | Ferdigstilt | 40 | Placebokontrollert studie av LDV/SOF på hjernemetabolisme/neuroognisjon ved kronisk HCV; mekanistisk urelatert til HBV (relevansgrad C) |
+| [NCT02605304](https://clinicaltrials.gov/study/NCT02605304) | Fase 2 | Avbrutt | 7 | Gjenbehandlingsstrategier for DAA-mislykkede HCV-pasienter; katalogisert via legemiddeloverlapp bare |
+| [NCT03572140](https://clinicaltrials.gov/study/NCT03572140) | N/A | Ukjent | 297 | Sikkerhet- og resistensassosiert variantvurdering av sofosbuvir + daclatasvir ved kronisk HCV-genotype 4 |
+| [NCT02483156](https://clinicaltrials.gov/study/NCT02483156) | Fase 2/3 | Ferdigstilt | 80 | Sofosbuvir + ribavirin vs. en eksperimentell kombinasjon hos egyptiske voksne med HCV-genotype 4 |
+| [NCT01805882](https://clinicaltrials.gov/study/NCT01805882) | Fase 2 | Ferdigstilt | 229 | Pilotstudie av flere sofosbuvir-baserte kombinasjonsregimer for kronisk HCV |
+| [NCT03687229](https://clinicaltrials.gov/study/NCT03687229) | N/A | Ukjent | 60 | Virkning av DAA-terapi på miRNA-122 og insulinresistens hos pasienter med kronisk HCV |
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information.
+| PMID | År | Type | Tidsskrift | Viktige funn |
+|------|----|----|-----------|---------|
+| [36045503](https://pubmed.ncbi.nlm.nih.gov/36045503/) | 2023 | Fase 2 åpen-etikett | J Med Virol | Eneste direkte HBV-behandlingsstudie av LDV/SOF; viste beskjeden HBsAg-nedgang men ingen sterk virologisk respons hos HBV-mono-infiserte deltakere |
+| [33031326](https://pubmed.ncbi.nlm.nih.gov/33031326/) | 2020 | Kasusrapport / oversikt | Medicine | HBV-reaktivering etter vellykket HCV-behandling med sofosbuvir + ribavirin |
+| [31632097](https://pubmed.ncbi.nlm.nih.gov/31632097/) | 2019 | Kohort | Infection and Drug Resistance | Håndtering av HBV-reaktivering etter DAA-behandling hos HCV-HBV-saminfiserte pasienter med HBeAg-serkonversjon før behandling |
+| [29334502](https://pubmed.ncbi.nlm.nih.gov/29334502/) | 2018 | Kohort | J Clin Gastroenterol | Undersøker risiko for HBV-reaktivering blant pasienter behandlet med ledipasvir-sofosbuvir for HCV |
+| [31542053](https://pubmed.ncbi.nlm.nih.gov/31542053/) | 2019 | Kasusrapport | J Med Case Reports | HBV-reaktivering via immunflukt-mutant hos en anti-HBc-positiv pasient under SOF/VEL-terapi for HCV |
+| [33523503](https://pubmed.ncbi.nlm.nih.gov/33523503/) | 2021 | Prospektiv observasjonell | J Viral Hepat | HBV-reaktivering hos kreftpasienter som mottar DAAs for HCV-behandling |
+| [27621502](https://pubmed.ncbi.nlm.nih.gov/27621502/) | 2015 | ADR-rapport | Hospital Pharmacy | Rapporterer HBV-reaktivering forbundet med simeprevir + sofosbuvir-behandling av HCV |
+| [37517414](https://pubmed.ncbi.nlm.nih.gov/37517414/) | 2023 | Oversikt/modellering | Lancet Gastroenterol Hepatol | Global epidemiologisk modellering av HBV-prevalens og omsorgskaskade; ingen legemiddelspesifikke data |
+| [39914746](https://pubmed.ncbi.nlm.nih.gov/39914746/) | 2025 | Oversikt | J Hepatology | Diskuterer leksjoner fra HCV DAA-behandlingsopptak som er anvendbare for fremtidige HBV/HDV-terapier (ikke sofosbuvir-spesifikk) |
+| [40242313](https://pubmed.ncbi.nlm.nih.gov/40242313/) | 2025 | In vitro-modell | JHEP Reports | Nytt in vitro-saminfeksjonssystem for HBV/HCV/HDV/HEV; metodologisk verktøy, ikke effektivitetsdata |
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformasjon for Norge
 
-**Decision: Hold**
+Sofosbuvir har for øyeblikket **ingen markedsautorisasjon i Norge** (`market_status: Not marketed`, 0 lisenser registrert). Ingen godkjent indiksjonstekst, doseringsform eller produktinformasjon er tilgjengelig for denne evalueringen.
 
-**Rationale:**
-Despite the high TxGNN prediction score, the mechanistic basis for sofosbuvir's activity against HBV is not supported — sofosbuvir targets the HCV RdRp, while HBV replicates via a distinct reverse transcriptase pathway. Nearly all indexed clinical and literature evidence involves HCV/HBV coinfection populations where sofosbuvir is treating the HCV component, or describes HBV **reactivation** as an adverse event during HCV therapy. The single HBV mono-infection trial (NCT03312023/PMID 36045503) showed only a modest HBsAg reduction, well short of a clinically meaningful antiviral effect.
+---
 
-**To proceed, the following is needed:**
-- Confirmed drug mechanism of action (MOA) data from DrugBank (currently a data gap, DG002)
-- TFDA/regulatory label warnings and contraindications (currently a blocking data gap, DG001)
-- Mature efficacy results (HBV DNA/HBsAg seroconversion) from further dedicated HBV mono-infection trials, since existing data is a single small Phase 2 study
-- Re-evaluation of trial/literature relevance grading to systematically exclude coinfection-safety studies from the efficacy evidence base
+## Sikkerhetshensyn
 
-**Note:** Among this drug's other predicted indications, **Hepatitis E virus infection** (rank 2, TxGNN score 99.49%, Evidence Level L3, decision stage S1 – "Research Question") shows a stronger biological rationale (in vitro RdRp inhibition, resistance-variant characterization, and case series in ribavirin-refractory transplant patients) and may warrant separate evaluation as a more promising repurposing candidate than HBV.
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Holde**
+
+**Begrunnelse:**
+Til tross for den høye TxGNN-prediktjonscoren, er det mekanistiske grunnlaget for sofosbuvirs aktivitet mot HBV ikke støttet — sofosbuvir retter seg mot HCV RdRp, mens HBV repliseres via en distinkt revers transkriptase-bane. Nesten alt indeksert klinisk og litteraturbevis involverer HCV/HBV-saminfeksjonspopulasjoner der sofosbuvir behandler HCV-komponenten, eller beskriver HBV-**reaktivering** som en negativ hendelse under HCV-terapi. Den eneste HBV-mono-infeksjonsstudien (NCT03312023/PMID 36045503) viste bare en beskjeden HBsAg-reduksjon, godt kortere enn en klinisk meningsfull antivirus-effekt.
+
+**For å fortsette, trengs følgende:**
+- Bekreftet legemiddels virkningsmekanisme (MOA)-data fra DrugBank (for øyeblikket et datahull, DG002)
+- TFDA/regulatoriske etikettadvarsler og kontraindikasjoner (for øyeblikket et blokkerende datahull, DG001)
+- Modne effektivitetsresultater (HBV DNA/HBsAg-serkonversjon) fra ytterligere dedikerte HBV-mono-infeksjonsstudier, ettersom eksisterende data er en enkelt liten fase 2-studie
+- Gjenoppvurdering av studie-/litteraturrelevansgradering for å systematisk ekskludere saminfeksjonssikkerhetsstudier fra effektivitetsbevisgrunnlaget
+
+**Merk:** Blant dette legemidlets andre forutsagte indikasjoner, **hepatitt E-virus-infeksjon** (rang 2, TxGNN-score 99,49%, bevisnivå L3, beslutningsstadium S1 – "Forskningsspørsmål") viser et sterkere biologisk rasjonale (in vitro RdRp-hemming, resistensvariantkarakterisering og kasusserier hos ribavirin-resistente transplantpasienter) og kan berettige separat evaluering som en mer lovende omfordelingskandidat enn HBV.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

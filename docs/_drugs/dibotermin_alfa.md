@@ -29,80 +29,81 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Dibotermin Alfa: From Bone Regeneration to Esotropia
+# Dibotermin alfa: fra beinregenering til esotropi
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-> Dibotermin alfa is a recombinant human BMP-2 used to promote bone induction and regeneration (e.g., spinal fusion, tibial fracture repair).
-> The TxGNN model predicts it may be effective for **Esotropia**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications**, and no plausible mechanistic pathway has been identified.
+> Dibotermin alfa er et rekombinant humant BMP-2 som brukes til å fremme beininduksjon og beinregenering (f.eks. spinalfusjon, reparasjon av tibiafrakstur).
+> TxGNN-modellen forutsier at det kan være effektivt for **esotropi**,
+> men denne prediksjonen støttes foreløpig av **0 kliniske forsøk** og **0 publikasjoner**, og ingen plausibel mekanistisk vei har blitt identifisert.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Punkt | Innhold |
 |------|------|
-| Original Indication | Not available from Norway regulatory data (drug not marketed); per evidence context, historically used for bone induction/regeneration (spinal fusion, tibial fracture repair) |
-| Predicted New Indication | Esotropia |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 (model prediction only, no clinical or literature support) |
-| Norway Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Originalindikasjon | Ikke tilgjengelig fra norske regulatoriske data (legemiddel ikke markedsført); ifølge evidenskonteksten, historisk brukt for beininduksjon/beinregenering (spinalfusjon, reparasjon av tibiafrakstur) |
+| Predikert ny indikasjon | Esotropi |
+| TxGNN-prediksjonspoeng | 99.97% |
+| Evidensnivå | L5 (kun modellprediksjon, ingen klinisk eller litteraturstøtte) |
+| Markedsstatus i Norge | Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Vent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available (`original_moa: [Data Gap]`). Based on the limited information available in the evidence pack, dibotermin alfa is a recombinant human bone morphogenetic protein-2 (BMP-2), and its known clinical use relates to bone induction and regeneration — for example, spinal fusion and tibial fracture repair.
+Foreløpig er detaljerte data om virkningsmekanisme ikke tilgjengelige (`original_moa: [Data Gap]`). Basert på den begrensede informasjonen som er tilgjengelig i evidenspakken, er dibotermin alfa et rekombinant humant benmorfoprotein-2 (BMP-2), og dets kjente kliniske bruk er relatert til beininduksjon og beinregenering — for eksempel spinalfusjon og reparasjon av tibiafrakstur.
 
-Esotropia is a form of strabismus caused by extraocular muscle/neuromuscular imbalance, a condition mechanistically unrelated to osteoinduction. The evidence pack's own rationale explicitly states there is **no known mechanistic relationship** between BMP-2 signaling and esotropia, and no experimental or clinical evidence supports this link.
+Esotropi er en form for strabismus forårsaket av ekstraokular muskel/neuromuskulær ubalanse, en tilstand som mekanistisk ikke er relatert til osteoinduksjon. Evidenspakkens egen begrunnelse slår eksplisitt fast at det **ikke er noen kjent mekanistisk sammenheng** mellom BMP-2-signalisering og esotropi, og ingen eksperimentell eller klinisk evidens støtter denne forbindelsen.
 
-Given the absence of both mechanistic rationale and empirical evidence, this prediction should be treated as a pure model artifact rather than a biologically grounded repurposing hypothesis. The same caveat applies to several other TxGNN-ranked indications for this drug (e.g., breast cancer subtypes), where the underlying BMP-2 tumor biology literature — where it exists at all — points toward tumor-promoting rather than therapeutic effects.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Gitt fraværet av både mekanistisk begrunnelse og empirisk evidens, bør denne prediksjonen behandles som rent modelllartefakt heller enn som en biologisk fundert repurposinghypotese. Den samme merknaden gjelder flere andre TxGNN-rangerte indikasjoner for dette legemiddelet (f.eks. brystkreftsubtypinger), der den underliggende BMP-2 tumorbiologi-litteraturen — der den i det hele tatt finnes — peker mot tumorfremmende heller enn terapeutiske effekter.
 
 ---
 
-## Literature Evidence
+## Kliniske forsøksbevis
 
-Currently no related literature available
-
-*Note: A lower-ranked candidate (breast tumor luminal A/B, rank 5) returned 19 "matching" PMIDs, but all were confirmed to be database keyword mismatches (B-cell immunology, hepatitis B vaccines, HLA-B serotyping) unrelated to either the drug or the disease, and are excluded as noise.*
+Foreløpig ingen relaterte kliniske forsøk registrert
 
 ---
 
-## Norway Market Information
+## Litteraturbevis
 
-Dibotermin alfa currently holds no market authorization in Norway (0 licenses on record); no product or approved indication text is available.
+Foreløpig ingen relatert litteratur tilgjengelig
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/Norway label warnings and contraindications are flagged as a **Blocking** data gap — required before any safety-stage (S1) evaluation can proceed.)*
+*Merknad: En lavere rangert kandidat (brysttumortyper luminal A/B, rang 5) ga 19 «samsvarende» PMIDer, men alle ble bekreftet å være databasenøkkelordmismatches (B-celleimmunologi, hepatitt B-vaksinerer, HLA-B-serotypering) som ikke er relatert til verken legemiddelet eller sykdommen, og er ekskludert som støy.*
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformasjon for Norge
 
-**Decision: Hold**
+Dibotermin alfa har foreløpig ingen markedsgodkjenning i Norge (0 lisenser); ingen produkttekst eller godkjent indikasjonsinformasjon er tilgjengelig.
 
-**Rationale:**
-The TxGNN score is high, but there is zero clinical trial or literature support, no coherent mechanistic link between BMP-2 osteoinduction and esotropia (a neuromuscular condition), and the drug is not currently marketed in Norway. This combination places the candidate at the lowest evidence tier (L5) with no basis to advance.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Norway package insert warnings and contraindications (currently Blocking data gap, DG001)
-- Confirmed mechanism of action data from DrugBank or primary literature (DG002)
-- Any preclinical or case-level evidence specifically linking BMP-2 signaling to extraocular muscle/neuromuscular function
-- Re-screening of the other TxGNN-ranked candidates (e.g., breast cancer subtypes) for genuine literature support, since automated matches were found to include false positives
+## Sikkerhetshensyn
+
+Se pakningsinformasjonen for sikkerhetsinformasjon.
+
+*(Merknad: TFDA/Norge pakningsinformasjonsadvarsler og kontraindikasjoner er flagget som en **blokkerende** datagap — nødvendig før noen sikkerhetstrinns-evaluering (S1) kan gjennomføres.)*
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Vent**
+
+**Begrunnelse:**
+TxGNN-poengene er høye, men det er ingen støtte fra kliniske forsøk eller litteratur, ingen sammenhengende mekanistisk forbindelse mellom BMP-2-osteoinduksjon og esotropi (en neuromuskulær tilstand), og legemiddelet er foreløpig ikke markedsført i Norge. Denne kombinasjonen plasserer kandidaten på det laveste evidensnivået (L5) uten grunnlag for å gå videre.
+
+**For å fortsette, trengs følgende:**
+- TFDA/Norge pakningsinformasjonsadvarsler og kontraindikasjoner (foreløpig blokkerende datagap, DG001)
+- Bekreftet virkningsmekanismedata fra DrugBank eller primærlitteratur (DG002)
+- Eventuell preklinisk eller kasusistisk evidens som spesifikt knytter BMP-2-signalisering til ekstraokular muskel/neuromuskulær funksjon
+- Fornyet screening av de øvrige TxGNN-rangerte kandidatene (f.eks. brystkreftsubtypinger) for genuin litteraturstøtte, ettersom automatiserte treff viste seg å inkludere falske positiver
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

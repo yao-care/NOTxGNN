@@ -29,91 +29,92 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Trastuzumab Emtansine: From HER2-Positive Breast Cancer to Normal Breast-Like Subtype of Breast Carcinoma
+# Trastuzumab Emtansine: Fra HER2-positiv brystkreft til Normal bryst-lignende subtype av brystkarsinoma
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-> Trastuzumab emtansine (T-DM1) is an antibody-drug conjugate (ADC) that links trastuzumab to the cytotoxic maytansinoid DM1, and per trial-reported context in this evidence pack it is already used as a standard treatment for HER2-positive breast cancer.
-> The TxGNN model's top-ranked prediction for this drug is **Normal Breast-Like Subtype of Breast Carcinoma**,
-> but currently only **1 indirectly relevant clinical trial** and **no dedicated publications** support this specific direction.
+> Trastuzumab emtansine (T-DM1) er et antistoff-medikament-konjugat (ADC) som kobler trastuzumab til det cytotoksiske maytansinoidet DM1, og ifølge forsøksrapportert kontekst i denne bevissamlingen brukes det allerede som standardbehandling for HER2-positiv brystkreft.
+> TxGNN-modellens høyest rangerte prediksjon for denne medikamenten er **Normal bryst-lignende subtype av brystkarsinoma**,
+> men for tiden bare **1 indirekte relevant klinisk forsøk** og **ingen dedikerte publikasjoner** støtter denne spesifikke retningen.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Punkt | Innhold |
 |------|------|
-| Original Indication | HER2-positive breast cancer (per trial-reported context, e.g. NCT03203616; not a formally licensed indication in Norway) |
-| Predicted New Indication | Normal Breast-Like Subtype of Breast Carcinoma |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L3 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | HER2-positiv brystkreft (ifølge forsøksrapportert kontekst, f.eks. NCT03203616; ikke en formelt godkjent indikasjon i Norge) |
+| Forutsagt ny indikasjon | Normal bryst-lignende subtype av brystkarsinoma |
+| TxGNN prediksjonsresultat | 99.82% |
+| Bevisnivå | L3 |
+| Markedsstatus i Norge | Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed mechanism of action data is not available in the regulatory record (`original_moa` is flagged as a data gap). However, the evidence pack's own repurposing rationale describes T-DM1 as an anti-HER2 antibody-drug conjugate: trastuzumab targets HER2-overexpressing tumour cells and delivers the cytotoxic payload DM1 (a maytansinoid) directly into them, combining targeted delivery with cytotoxic cell killing.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelig i regulatorisk register (`original_moa` er flagget som et datahull). Bevissamlingens egen begrunnelse for ombruk beskriver imidlertid T-DM1 som et anti-HER2 antistoff-medikament-konjugat: trastuzumab retter seg mot tumorceller med HER2-overekspresjon og leverer den cytotoksiske payloaden DM1 (et maytansinoid) direkte inn i dem, som kombinerer målrettet levering med cytotoksisk celledødning.
 
-"Normal breast-like" is one of the intrinsic molecular subtypes of breast carcinoma, and its HER2 expression status is heterogeneous — some tumours in this subtype may express HER2, others may not. The evidence pack itself notes that there is currently no direct evidence that this specific subtype responds preferentially to T-DM1; the mechanistic link rests on a single variable (HER2 expression) rather than subtype-specific data, which is why the supporting evidence is graded L3 (Research Question stage) rather than stronger.
+«Normal bryst-lignende» er en av de iboende molekylære subtypene av brystkarsinoma, og dens HER2-ekspresjonsstatus er heterogen — noen tumorer i denne subtypen kan uttrykke HER2, andre ikke. Bevissamlingen selv bemerker at det for tiden ikke finnes direkte bevis for at denne spesifikke subtypen reagerer preferensialt på T-DM1; den mekanistiske forbindelsen er basert på en enkelt delt variabel (HER2-ekspresjon) i stedet for subtypespesifikke data, som er grunnen til at de støttende bevisene er klassifisert L3 (Forskningsspørsmål-stadium) i stedet for sterkere.
 
-For context, this same evidence pack also surfaced three closely related TxGNN predictions for T-DM1: **progesterone-receptor (PR) positive breast cancer** and **PR-negative breast cancer** (both L2, "Proceed with Guardrails," backed by multiple Phase 1–3 trials directly testing T-DM1 in HER2-positive populations), and **luminal A/B breast tumour** (L4, "Hold," where the mechanistic link is weaker because luminal tumours are predominantly HER2-negative). Relative to these, the normal breast-like prediction sits at the lower end of directly testable evidence.
+For kontekst, denne samme bevissamlingen frembragte også tre nært beslektede TxGNN-prediksjoner for T-DM1: **progesteronreseptor (PR) positiv brystkreft** og **PR-negativ brystkreft** (begge L2, «Fortsett med sikkerhetstiltak», støttet av flere fase 1–3 forsøk som direkte tester T-DM1 i HER2-positive populasjoner), og **luminal A/B brysttumor** (L4, «Avvent», hvor den mekanistiske forbindelsen er svakere fordi luminale tumorer er overveiende HER2-negative). I forhold til disse, sitter normal bryst-lignende prediksjon i den nedre enden av direkte testbar bevis.
 
 ---
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøk
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Antall deltakere | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT06348134](https://clinicaltrials.gov/study/NCT06348134) | Phase 2 | Recruiting | 74 | Assessing optimal neoadjuvant-to-adjuvant anti-HER2-based therapy in Nigerian women with HER2+ breast cancer; not specific to normal breast-like subtype and does not test T-DM1 as monotherapy — graded as indirectly relevant (Grade B). |
+| [NCT06348134](https://clinicaltrials.gov/study/NCT06348134) | Fase 2 | Rekrutterer | 74 | Vurdering av optimal neoadjuvant-til-adjuvant anti-HER2-basert terapi hos nigerianske kvinner med HER2+ brystkreft; ikke spesifikk for normal bryst-lignende subtype og tester ikke T-DM1 som monoterapi — klassifisert som indirekte relevant (Klasse B). |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
-
----
-
-## Norway Market Information
-
-Trastuzumab emtansine is currently **not marketed** in Norway, and no marketing authorization records are available in this evidence pack (0 licenses).
+For tiden ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Cytotoxicity
+## Markedsinformasjon Norge
 
-| Item | Content |
+Trastuzumab emtansine er for tiden **ikke markedsført** i Norge, og ingen markedsgodkjennelsesoppføringer er tilgjengelige i denne bevissamlingen (0 lisenser).
+
+---
+
+## Cytotoksisitet
+
+| Punkt | Innhold |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy — Antibody-Drug Conjugate (ADC): anti-HER2 trastuzumab linked to the cytotoxic maytansinoid payload DM1 |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions (no drug-specific toxicity data available in this evidence pack) |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Contains a cytotoxic (maytansinoid) payload; standard cytotoxic/hazardous drug handling precautions are expected to apply pending confirmation from the official label |
+| Klassifisering av cytotoksisitet | Målrettet terapi — Antistoff-medikament-konjugat (ADC): anti-HER2 trastuzumab koblet til den cytotoksiske maytansinoid payloaden DM1 |
+| Risiko for myelosuppresjon | Se pakningsvedlegget advarsler og forholdsregler (ingen medikamentation-spesifikke toksisitetsdata tilgjengelig i denne bevissamlingen) |
+| Klassifisering av emetogenitet | Se pakningsvedlegget advarsler og forholdsregler |
+| Overvåkingselementer | Se pakningsvedlegget advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Inneholder en cytotoksisk (maytansinoid) payload; standard cytotoksisk/farlig stoffhåndteringsforsiktighetsregler antas å gjelde under påventing av bekreftelse fra det offisielle merket |
 
 ---
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Se pakningsvedlegget for sikkerhetsinformasjon.
 
 ---
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-The mechanistic link for the "normal breast-like subtype" indication rests on a single shared variable (HER2 expression) rather than subtype-specific evidence, and it is supported by only one indirectly relevant, still-recruiting Phase 2 trial with no dedicated literature — insufficient to advance beyond the research-question stage.
+**Begrunnelse:**
+Den mekanistiske forbindelsen for indikasjon «normal bryst-lignende subtype» er basert på en enkelt delt variabel (HER2-ekspresjon) i stedet for subtypespesifikke bevis, og det er støttet av bare en indirekte relevant, fortsatt rekrutterende fase 2 forsøk med ingen dedikerte publikasjoner — utilstrekkelig til å gå videre forbi forskningsspørsmål-stadiet.
 
-**To proceed, the following is needed:**
-- Regulatory label data (TFDA/official package insert warnings and contraindications — currently a Blocking data gap, DG001)
-- Confirmed mechanism of action documentation (currently a High-severity data gap, DG002)
-- Subtype-specific data on HER2 expression prevalence within the normal breast-like molecular subtype
-- Dedicated trials or studies testing T-DM1 specifically in normal breast-like breast carcinoma
-- Consider prioritizing the related PR-positive and PR-negative HER2+ breast cancer predictions from the same TxGNN run, which already have L2 evidence and a "Proceed with Guardrails" recommendation
+**For å gå videre er følgende nødvendig:**
+- Regulatoriske merkedata (TFDA/offisielt pakningsvedlegg advarsler og kontraindikasjoner — for tiden et blokkerende datahull, DG001)
+- Bekreftet virkningsmekanisme dokumentasjon (for tiden et datahull med høy alvorlighetsgrad, DG002)
+- Subtypespesifikke data om HER2-ekspresjonsprevalen innenfor den normale bryst-lignende molekylære subtypen
+- Dedikerte forsøk eller studier som tester T-DM1 spesifikt i normal bryst-lignende brystkarsinoma
+- Vurder prioritering av de relaterte PR-positive og PR-negative HER2+ brystkreft-prediksjoner fra samme TxGNN-kjøring, som allerede har L2 bevis og en «Fortsett med sikkerhetstiltak» anbefaling
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

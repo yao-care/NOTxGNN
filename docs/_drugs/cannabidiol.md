@@ -29,87 +29,88 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **0** stk.
 
 </div>
 
-# Cannabidiol: Repurposing Evaluation Pending — Insufficient Data to Complete Analysis
+# Cannabidiol: Vurdering av ombruk i påvente — Utilstrekkelige data for å fullføre analysen
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-Cannabidiol (CBD) is a phytocannabinoid compound (DrugBank ID: DB09061); however, the current Evidence Pack contains no original indication records, no TxGNN-predicted new indications, and no mechanism of action or safety data.
-A full repurposing evaluation **cannot be completed at this time** — this report documents the current state of data collection and the gaps that must be resolved before the candidate can advance.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | No data available |
-| Predicted New Indication | No TxGNN prediction available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A — no predictions generated |
-| Taiwan Market Status | ✗ Not marketed (0 authorizations) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Cannabidiol (CBD) er en fytokannabinoid forbindelse (DrugBank ID: DB09061); imidlertid inneholder det gjeldende bevispacken ingen registreringer av original indikasjon, ingen TxGNN-predikerte nye indikasjoner, og ingen data om virkningsmekanisme eller sikkerhet.
+En fullstendig ombruksvurdering **kan ikke fullføres på dette tidspunktet** — denne rapporten dokumenterer gjeldende tilstand for datainnsamling og hullene som må løses før kandidaten kan avansere.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, no predicted indication has been generated for Cannabidiol in this Evidence Pack. The TxGNN model either has not yet been run for this candidate, or the candidate was filtered out prior to prediction.
-
-Additionally, detailed mechanism of action data is not available in the current dataset. Without MOA information, it is not possible to establish a mechanistic link between Cannabidiol and any proposed new indication.
-
-Until TxGNN predictions are generated and MOA data is retrieved from DrugBank, this section cannot be meaningfully completed.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for any predicted indication.
-
-*(No predicted indications were provided in this Evidence Pack.)*
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Ingen data tilgjengelig |
+| Predikert ny indikasjon | Ingen TxGNN-prediksjon tilgjengelig |
+| TxGNN prediksjons-score | N/A |
+| Bevisnivå | N/A — ingen prediksjoner generert |
+| Markedsstatus i Taiwan | ✗ Ikke markedsført (0 godkjennelser) |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | **Avvent** |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available for any predicted indication.
+For øyeblikket er ingen predikert indikasjon generert for Cannabidiol i dette bevispacken. TxGNN-modellen har enten ikke blitt kjørt for denne kandidaten ennå, eller kandidaten ble filtrert ut før prediksjonen.
 
-*(No predicted indications were provided in this Evidence Pack.)*
+Dessuten er detaljerte data om virkningsmekanisme ikke tilgjengelig i det gjeldende datasettet. Uten MOA-informasjon er det ikke mulig å etablere en mekanistisk forbindelse mellom Cannabidiol og noen foreslått ny indikasjon.
 
----
-
-## Taiwan Market Information
-
-Cannabidiol currently holds **no drug authorizations** in Taiwan. No licensed products are on record.
+Inntil TxGNN-prediksjoner genereres og MOA-data hentes fra DrugBank, kan denne seksjonen ikke fylles ut på en meningsfull måte.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøksbevis
 
-Please refer to the package insert for safety information.
+For øyeblikket ingen relaterte kliniske forsøk registrert for noen predikert indikasjon.
 
-> The current Evidence Pack contains no usable safety data. Key warnings, contraindications, and drug-drug interaction records all require remediation before a safety evaluation can proceed (see **Data Gaps** below).
+*(Ingen predikerte indikasjoner ble gitt i dette bevispacken.)*
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For øyeblikket ingen relatert litteratur tilgjengelig for noen predikert indikasjon.
 
-**Rationale:**
-The Evidence Pack is incomplete in all critical domains — there are no TxGNN-predicted indications, no mechanism of action data, no original indication records, and no safety data. There is currently no basis on which to evaluate this candidate for drug repurposing.
+*(Ingen predikerte indikasjoner ble gitt i dette bevispacken.)*
 
-**To proceed, the following is needed:**
+---
 
-| Priority | Gap ID | Item | Action Required |
-|----------|--------|------|-----------------|
-| 🔴 Blocking | DG001 | Safety warnings & contraindications | Download and parse TFDA package insert PDF from the TFDA website |
-| 🟠 High | DG002 | Mechanism of action (MOA) | Query DrugBank API for DB09061 pharmacology data |
-| 🟠 High | — | TxGNN predicted indications | Re-run TxGNN pipeline for Cannabidiol; confirm the candidate was not incorrectly excluded |
-| 🟡 Medium | — | Original indication records | Populate `original_indications` from DrugBank approved indications or WHO/EMA label data |
-| 🟡 Medium | — | Drug-drug interaction data | Re-query DDI database (current result: `not_found`; verify query parameters) |
+## Markedsinformasjon i Taiwan
 
-Once the Blocking and High-priority gaps are resolved, this candidate should be re-evaluated with a new Evidence Pack version.
+Cannabidiol har for øyeblikket **ingen legemiddelgodkjennelser** i Taiwan. Ingen lisensierte produkter er registrert.
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+> Det gjeldende bevispacken inneholder ingen brukbar sikkerhetdata. Viktige advarsler, kontraindikasjoner og registreringer av legemiddel-legemiddel-interaksjon må alle utbedres før en sikkerhetsanalyse kan fortsette (se **Datahull** nedenfor).
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Bevispacken er ufullstendig på alle kritiske områder — det finnes ingen TxGNN-predikerte indikasjoner, ingen data om virkningsmekanisme, ingen registreringer av original indikasjon, og ingen sikkerhetdata. Det finnes for øyeblikket intet grunnlag for å vurdere denne kandidaten for ombruk av legemidler.
+
+**For å fortsette, er følgende nødvendig:**
+
+| Prioritet | Gap ID | Element | Nødvendig handling |
+|-----------|--------|---------|-------------------|
+| 🔴 Blokkering | DG001 | Sikkerhetsadvarsler og kontraindikasjoner | Last ned og parse TFDA-pakningsvedlegg PDF fra TFDA-nettstedet |
+| 🟠 Høy | DG002 | Virkningsmekanisme (MOA) | Spør DrugBank API for DB09061 farmakologidata |
+| 🟠 Høy | — | TxGNN predikerte indikasjoner | Kjør TxGNN-pipeline på nytt for Cannabidiol; bekreft at kandidaten ikke ble feilaktig ekskludert |
+| 🟡 Medium | — | Registreringer av original indikasjon | Fylle `original_indications` fra DrugBank godkjente indikasjoner eller WHO/EMA-etikettpdata |
+| 🟡 Medium | — | Legemiddel-legemiddel-interaksjonsdata | Omspør DDI-databasen (gjeldende resultat: `not_found`; verifiser spørringsparametere) |
+
+Når de blokkerende og høyt prioriterte hullene er løst, bør denne kandidaten vurderes på nytt med en ny bevispacke-versjon.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

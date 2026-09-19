@@ -29,75 +29,76 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Darunavir: From HIV-1 Infection to Simian Immunodeficiency Virus (SIV) Infection
+# Darunavir: Fra HIV-1-infeksjon til Simian Immunodeficiency Virus (SIV)-infeksjon
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-Darunavir is a boosted HIV-1 protease inhibitor used as part of combination antiretroviral therapy (cART) for HIV/AIDS.
-The TxGNN model predicts it may be effective for **Simian Immunodeficiency Virus (SIV) Infection** — the primate-model correlate of HIV —
-but currently only **4 preclinical animal-model publications** support this direction, none of which specifically test darunavir alone, and **no clinical trials** exist for this indication.
+Darunavir er en boostet HIV-1 proteasehemmer som brukes som del av kombinasjonsantiretroviral terapi (cART) for HIV/AIDS.
+TxGNN-modellen forutsier at det kan være effektivt for **Simian Immunodeficiency Virus (SIV)-infeksjon** — primatenes modellekvivalent av HIV —
+men for tiden støttes denne retningen bare av **4 prekliniske dyremodell-publikasjoner**, hvorav ingen tester spesielt darunavir alene, og **ingen kliniske forsøk** finnes for denne indikasjonen.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in evidence pack (drug is not marketed in Norway); known pharmacological classification is HIV-1 infection, treated as part of boosted cART regimens |
-| Predicted New Indication | Simian Immunodeficiency Virus Infection |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Ikke spesifisert i bevisepakken (legemidlet er ikke markedsført i Norge); kjent farmakologisk klassifisering er HIV-1-infeksjon, behandlet som del av boostede cART-regimer |
+| Forutsagt ny indikasjon | Simian Immunodeficiency Virus-infeksjon |
+| TxGNN prediksjonspoengsum | 99.97% |
+| Bevisnivå | L4 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available. Based on known information, darunavir is a member of the HIV-1 protease inhibitor (PI) class, its efficacy in HIV-1 infection (as part of boosted cART) has been proven, and mechanistically it may be applicable to SIV infection.
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige. Basert på kjent informasjon er darunavir medlem av HIV-1 proteasehemmeklassen (PI), dets effektivitet ved HIV-1-infeksjon (som del av boostet cART) har blitt bevist, og mekanistisk kan det være anvendbart på SIV-infeksjon.
 
-SIV is the retrovirus used to establish AIDS models in non-human primates and is genetically and structurally closely related to HIV-1, including a substantial degree of conservation in the Gag-Pol polyprotein processing pathway that PI-class drugs target. This cross-species mechanistic similarity is a well-established rationale for using HIV antiretrovirals, including PIs, in SIV-infected macaque research models.
+SIV er retrovirus som brukes til å etablere AIDS-modeller i primatene som ikke er mennesker, og er genetisk og strukturelt nært beslektet med HIV-1, inkludert en betydelig grad av konservering i Gag-Pol polyproteinbearbeidingen som PI-klassestoffer målretter. Denne tversspesies mekanistiske likheten er en veletablert begrunnelse for bruk av HIV-antiretrovirale midler, inkludert PIs, i SIV-infisert makak-forsøksmodeller.
 
-However, it is important to note that the four supporting publications describe multi-drug cART regimens (some combined with adjunct agents such as the HDAC inhibitor SAHA or the gold compound auranofin) used in SIV/macaque reservoir and eradication research — darunavir (or PI-class drugs generally) appears only as one backbone component, not as the specific subject of efficacy testing. No study isolates or quantifies darunavir's individual contribution to SIV suppression.
+Imidlertid er det viktig å merke at de fire støttende publikasjonene beskriver flerstoff cART-regimer (noen kombinert med tilleggsmidler som HDAC-hemmeren SAHA eller gullforeningen auranofin) brukt i SIV/makak-reservoir og utryddingsforskning — darunavir (eller PI-klassestoffer generelt) vises kun som en ryggrad-komponent, ikke som det spesifikke emne for effektivitetstesting. Ingen studie isolerer eller kvantifiserer darunavirs individuelle bidrag til SIV-undertrykking.
 
-## Clinical Trial Evidence
+## Klinisk forsøksbevis
 
-Currently no related clinical trials registered.
+For tiden finnes ingen relaterte kliniske forsøk registrert.
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Animal Cohort | AIDS Res Hum Retroviruses | Compared two novel injectable coformulated cART regimens (PI-class backbone) for suppressing SIV replication in rhesus macaques |
-| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Animal Cohort | PLoS One | Evaluated suppressive cART plus HDAC inhibitor SAHA on viral reservoirs in SIV-infected Chinese rhesus macaques |
-| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Animal Cohort | PLoS Pathogens | Highly intensified multidrug ART achieved long-term viral suppression and reservoir restriction in SIVmac251-infected macaques |
-| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Animal Cohort | AIDS (London) | Gold compound auranofin, added to ART, restricted the viral reservoir and delayed rebound after ART suspension in SIV-infected macaques |
+| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Dyrkohort | AIDS Res Hum Retroviruses | Sammenlignet to nye injiserbare koformulerte cART-regimer (PI-klasse ryggrad) for undertrykkelse av SIV-replikasjon i rhesus-makaker |
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Dyrkohort | PLoS One | Evaluerte suppressiv cART pluss HDAC-hemmer SAHA på virusreservoarer i SIV-infiserte kinesiske rhesus-makaker |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Dyrkohort | PLoS Pathogens | Høyt intensivert flerestoff-ART oppnådde langsiktig virusundertrykking og reservoarbegrensning i SIVmac251-infiserte makaker |
+| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Dyrkohort | AIDS (London) | Gullforening auranofin, tilsatt ART, begrenset virusreservoaret og forsinket tilbakespring etter ART-suspensjon i SIV-infiserte makaker |
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Darunavir is currently not marketed in Norway; no authorization records are available in the evidence pack.
+Darunavir er for tiden ikke markedsført i Norge; ingen autorisasjonsposter er tilgjengelige i bevisepakken.
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-## Other TxGNN-Predicted Candidates (Reviewed, Not Recommended)
+## Andre TxGNN-forutsagte kandidater (gjennomgått, ikke anbefalt)
 
-| Rank | Disease | Evidence Level | Reason for Hold |
+| Rangering | Sykdom | Bevisnivå | Årsak til avvent |
 |------|---------|----------------|------------------|
-| 2 | Feline acquired immunodeficiency syndrome | L4 | The single supporting trial (NCT02770508) is a human Phase 4 boosted-darunavir HIV regimen study, not a feline/FIV study — likely a disease-ontology mapping error in the knowledge graph; requires engineering review before further consideration |
-| 3 | Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter | L5 | No mechanistic rationale, no clinical or literature evidence — model score only |
-| 4 | Obsolete familial combined hyperlipidemia | L5 | Mechanistically contradictory: darunavir (especially ritonavir-boosted regimens) is a known cause of dyslipidemia, making it a risk factor rather than a treatment; disease label is also flagged as obsolete |
+| 2 | Feline ervervet immundefektsyndrom | L4 | Det eneste støttende forsøket (NCT02770508) er en menneskelig fase 4 boostet darunavir HIV-regime studie, ikke en feline/FIV studie — sannsynligvis en sykdomsontologi-kartleggingsfeil i kunnskapsgrafen; krever teknisk gjennomgang før videre vurdering |
+| 3 | Nevrutviklingsforstyrrrelse med ataksisk gang, fravær av tale, og redusert kortikal hvit materie | L5 | Ingen mekanistisk begrunnelse, ingen klinisk eller litteraturbevis — bare modellpoengsum |
+| 4 | Foreldet familial kombinert hyperlipidemie | L5 | Mekanistisk motstridende: darunavir (særlig ritonavir-boostet regimer) er en kjent årsak til dyslipidemi, noe som gjør det til en risikofaktor snarere enn en behandling; sykdomsetiketten er også flagget som foreldet |
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-The only candidate reaching decision stage S1 (SIV infection) is supported solely by preclinical macaque studies in which darunavir is one component of multi-drug regimens, not the subject of dedicated efficacy testing — this is L4 evidence with no clinical trials. The remaining three candidates carry either a likely data/ontology error, no mechanistic support, or a mechanistically contraindicated relationship, and are all rated Hold.
+**Begrunnelse:**
+Den eneste kandidaten som når beslutningsstadium S1 (SIV-infeksjon) støttes utelukkende av prekliniske primatstuder der darunavir er en komponent av flerestoff-regimer, ikke emnet for dedikert effektivitetstesting — dette er L4-bevis uten kliniske forsøk. De gjenværende tre kandidatene bærer enten en sannsynlig data-/ontologifeil, ingen mekanistisk støtte, eller et mekanistisk motsatt forhold, og alle er vurdert til avvent.
 
-**To proceed, the following is needed:**
-- Darunavir-specific (monotherapy or defined-combination) efficacy data in SIV models, isolating its contribution from co-administered agents
-- Resolution of the suspected disease-ontology mapping error for "feline acquired immunodeficiency syndrome" (rank 2) before any further evaluation
-- TFDA/regulatory label data (warnings, contraindications, DDI) once available, to support S1 safety screening
-- Confirmed original indication and MOA data from DrugBank or product labeling, since both are currently data gaps
+**For å gå videre, følgende er nødvendig:**
+- Darunavir-spesifikk (monoterapi eller definert kombinasjon) effektivitetsdata i SIV-modeller, isolering av dets bidrag fra samtidig administrerte stoffer
+- Løsning av mistenkt sykdomsontologi-kartleggingsfeil for "feline ervervet immundefektsyndrom" (rangering 2) før ytterligere vurdering
+- TFDA/regulatorisk etikettdata (advarsler, kontraindikasjoner, DDI) når tilgjengelig, for å støtte S1 sikkerhetsvurdering
+- Bekreftet opprinnelig indikasjon og MOA-data fra DrugBank eller produktmerking, siden begge for tiden er datahull
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

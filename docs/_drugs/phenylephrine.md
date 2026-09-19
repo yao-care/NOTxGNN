@@ -29,100 +29,97 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-Using the report template you provided — this is a straightforward document-generation task, no engineering/debugging skill applies, so I'm producing the deliverable directly.
+# Fenylefrin: Fra nasalt avsvellingsmiddel til nasalholesykdom
+
+## Oppsummering på en setning
+
+Fenylefrin er en selektiv α1-adrenerg reseptoragonist som er mest brukt klinisk som topisk nasal/okulær avsvellingsmiddel og som vasopressor. TxGNN-modellen forutsier at det kan være formelt effektivt for **Nasalholesykdom**, med **8 kliniske forsøk** og **8 publikasjoner** som for tiden støtter denne retningen — selv om bevisene i stor grad dokumenterer fenylefrins *allerede etablerte* avsvellingsmiddel-bruk snarere enn en ny terapeutisk hypotese.
 
 ---
 
-# Phenylephrine: From Nasal Decongestant to Nasal Cavity Disease
+## Rask oversikt
 
-## One-Sentence Summary
-
-Phenylephrine is a selective α1-adrenergic receptor agonist most widely used clinically as a topical nasal/ocular decongestant and as a vasopressor. The TxGNN model predicts it may be formally effective for **Nasal Cavity Disease**, with **8 clinical trials** and **8 publications** currently supporting this direction — though the evidence largely documents phenylephrine's *already established* decongestant use rather than a novel therapeutic hypothesis.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in Norway regulatory data (no marketed license); pharmacologically established as a nasal/ocular decongestant and vasopressor |
-| Predicted New Indication | Nasal Cavity Disease |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L2 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Punkt | Innhold |
+|------|--------|
+| Opprinnelig indikasjon | Ikke tilgjengelig i norske reguleringsdata (ingen markedsført lisens); farmakologisk etablert som nasalt/okulært avsvellingsmiddel og vasopressor |
+| Forutsagt ny indikasjon | Nasalholesykdom |
+| TxGNN-prediksjonspoengsum | 99.97% |
+| Bevisnivå | L2 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Fortsett med sikkerhetstiltak |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, DrugBank's formal mechanism-of-action field for phenylephrine is a data gap in this evidence pack. Based on well-established pharmacology captured in the repurposing rationale, phenylephrine is a **selective α1-adrenergic receptor agonist** that acts on vascular smooth muscle in the nasal mucosa, producing vasoconstriction that reduces mucosal congestion and edema — the classical decongestant mechanism.
+For tiden er DrugBank sitt formelle virkningsmåte-felt for fenylefrin et datakap i denne bevisepakken. Basert på veletablert farmakologi fanget i grunnlaget for omdisponering, er fenylefrin en **selektiv α1-adrenerg reseptoragonist** som virker på glatt muskulatur i nasalmucosa, og produserer karsnøring som reduserer slimhinnekongestjon og ødem — den klassiske avsvellingsmiddelmekanismen.
 
-This is not so much a novel repurposing hypothesis as a **consolidation of already-documented clinical use**: phenylephrine (alone or in combinations such as Cophenylcaine, Kovanaze, and Polydexa) is routinely used before nasoendoscopy, sinus surgery, and other nasal/ENT procedures to shrink mucosa and improve visualization and comfort. The predicted indication "Nasal Cavity Disease" therefore aligns tightly with existing off-label/adjunct practice rather than requiring mechanistic extrapolation.
+Dette er ikke så mye en ny omdisponerings-hypotese som en **konsolidering av allerede-dokumentert klinisk bruk**: fenylefrin (alene eller i kombinasjoner som Co-fenylcain, Kovanaze og Polydexa) brukes rutinmessig før nasendoskopi, bihuleskirurgi og andre nasale/HNO-prosedyrer for å krympe mucosa og forbedre visualisering og komfort. Den forutsagte indikasjonen «Nasalholesykdom» står derfor i sterk overensstemmelse med eksisterende off-label/hjelpemiddel-praksis snarere enn å kreve mekanistisk ekstrapolasjon.
 
-This is why the evidence level here (L2) is meaningfully stronger than the other two candidate indications identified for this drug in the same evidence pack — acute laryngopharyngitis (L5, no trials/literature) and trigeminal autonomic cephalalgia (L4, phenylephrine used only as a diagnostic pupillometry reagent, not a treatment). For nasal cavity disease, the mechanism is direct, well-precedented, and supported by an actual Phase 2 RCT.
+Dette er hvorfor bevisnivået her (L2) er meningsfullt sterkere enn de to andre kandidat-indikasjonene identifisert for dette legemidlet i samme bevisepakke — akutt laryngfaryngitt (L5, ingen forsøk/litteratur) og trigeminal autonom cefalalgi (L4, fenylefrin brukt bare som diagnostisk pupillometri-reagens, ikke som behandling). For nasalholesykdom er mekanismen direkte, godt presedens, og støttet av et faktisk Fase 2 RCT.
 
 ---
 
-## Clinical Trial Evidence
+## Kliniske forsøksbeviser
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Inkludering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT00562120](https://clinicaltrials.gov/study/NCT00562120) | Phase 2 | Completed | 21 | Double-blind, 4-way crossover RCT testing an H3-antagonist vs. nasal decongestant therapy on allergen-induced nasal congestion; most direct comparative evidence for this indication (Grade A) |
-| [NCT03380715](https://clinicaltrials.gov/study/NCT03380715) | N/A | Completed | 106 | Co-phenylcaine (contains phenylephrine) nasal spray vs. nebulization for mucosal decongestion/anesthesia before rigid nasoendoscopy |
-| [NCT04104789](https://clinicaltrials.gov/study/NCT04104789) | Phase 2 | Withdrawn | 0 | Kovanaze (phenylephrine/tetracaine) nasal mist vs. articaine injection for maxillary pulpal anesthesia; trial withdrawn, no data generated |
-| [NCT03962634](https://clinicaltrials.gov/study/NCT03962634) | Phase 2 | Terminated | 3 | Same Kovanaze vs. articaine comparison; terminated early with negligible enrollment |
-| [NCT03228914](https://clinicaltrials.gov/study/NCT03228914) | Phase 4 | Completed | 20 | Compares oxymetazoline vs. epinephrine (not phenylephrine) for preoperative sinus surgery decongestion; indirect α-agonist class reference only |
-| [NCT02993770](https://clinicaltrials.gov/study/NCT02993770) | N/A | Unknown | 120 | Endoscopic vs. external dacryocystorhinostomy surgical technique comparison; not a direct phenylephrine intervention trial |
-| [NCT06457100](https://clinicaltrials.gov/study/NCT06457100) | Phase 1/2 | Active, not recruiting | 60 | Esmolol vs. lidocaine infusion for recovery quality after functional endoscopic sinus surgery; phenylephrine not the studied agent |
-| [NCT06443255](https://clinicaltrials.gov/study/NCT06443255) | Phase 3 | Completed | 16 | Compares cocaine, lidocaine/xylometazoline, and saline for intranasal analgesia during awake nasotracheal intubation; phenylephrine arm not included |
+| [NCT00562120](https://clinicaltrials.gov/study/NCT00562120) | Fase 2 | Avsluttet | 21 | Dobbeltblindet, 4-veis kryssovers RCT som tester H3-antagonist mot nasal avsvellingsmiddel-terapi ved allergen-indusert nasal kongestjon; mest direkte sammenliknende bevis for denne indikasjonen (Klasse A) |
+| [NCT03380715](https://clinicaltrials.gov/study/NCT03380715) | N/A | Avsluttet | 106 | Co-fenylcain (inneholder fenylefrin) nasalspray mot nebulisering for mucosa-avsvelling/anestesi før stiv nasendoskopi |
+| [NCT04104789](https://clinicaltrials.gov/study/NCT04104789) | Fase 2 | Trukket tilbake | 0 | Kovanaze (fenylefrin/tetracain) nasalmist mot artikain-injeksjon for maksilær palpær anestesi; forsøk trukket tilbake, ingen data generert |
+| [NCT03962634](https://clinicaltrials.gov/study/NCT03962634) | Fase 2 | Avsluttet | 3 | Samme Kovanaze mot artikain sammenligning; avsluttet tidlig med ubetydelig inkludering |
+| [NCT03228914](https://clinicaltrials.gov/study/NCT03228914) | Fase 4 | Avsluttet | 20 | Sammenligner oksimetazolin mot adrenalin (ikke fenylefrin) for preoperativ bihuleskirurgi avsvelling; indirekte α-agonist klasse referanse bare |
+| [NCT02993770](https://clinicaltrials.gov/study/NCT02993770) | N/A | Ukjent | 120 | Endoskopisk mot ekstern dakryosystorhinostomi kirurgisk teknikk sammenligning; ikke et direkte fenylefrin-intervensjonsforsøk |
+| [NCT06457100](https://clinicaltrials.gov/study/NCT06457100) | Fase 1/2 | Aktiv, rekrutterer ikke | 60 | Esmolol mot lidokain-infusjon for bedringskvalitet etter funksjonell endoskopisk bihuleskirurgi; fenylefrin ikke det studerte agens |
+| [NCT06443255](https://clinicaltrials.gov/study/NCT06443255) | Fase 3 | Avsluttet | 16 | Sammenligner kokain, lidokain/xylomet azolin og saltløsning for intra-nasal smertelindring under våken nasotrakeal intubasjon; fenylefrin arm ikke inkludert |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [15854186](https://pubmed.ncbi.nlm.nih.gov/15854186/) | 2005 | RCT | Int J Clin Pract | Double-blind RCT of cophenylcaine spray (phenylephrine-containing) vs. placebo before flexible nasendoscopy; minimal pain/discomfort in both arms |
-| [40899890](https://pubmed.ncbi.nlm.nih.gov/40899890/) | 2025 | RCT/experimental | Vestnik otorinolaringologii | Safety/efficacy evaluation of Polydexa nasal spray with phenylephrine in acute rhinosinusitis |
-| [25133491](https://pubmed.ncbi.nlm.nih.gov/25133491/) | 2014 | RCT | PLoS One | Triple-blind RCT on topical tranexamic acid for bleeding/surgical field quality during FESS in chronic rhinosinusitis (adjunct nasal-cavity surgery context) |
-| [37184554](https://pubmed.ncbi.nlm.nih.gov/37184554/) | 2023 | Review | Vestnik otorinolaringologii | Endoscopic mucosal assessment after topical antibiotic therapy including Polydexa with phenylephrine for granulomatosis with polyangiitis |
-| [37970776](https://pubmed.ncbi.nlm.nih.gov/37970776/) | 2023 | Review | Vestnik otorinolaringologii | Pathogenesis-based treatment approach for inflammatory diseases of nose and paranasal sinuses |
-| [9780066](https://pubmed.ncbi.nlm.nih.gov/9780066/) | 1998 | Cohort | Int J Pediatr Otorhinolaryngol | Acoustic rhinometry of nasal cavity/nasopharynx geometry after adenotonsillectomy |
-| [7378007](https://pubmed.ncbi.nlm.nih.gov/7378007/) | 1980 | Case report | Arch Ophthalmol | Cocaine and intranasal phenylephrine toxicity during dacryocystorhinostomy; highlights sympathomimetic interaction risk |
-| [1375136](https://pubmed.ncbi.nlm.nih.gov/1375136/) | 1992 | In vitro / mechanism | Clin Otolaryngol Allied Sci | Dose-dependent effects of nasal drugs, including phenylephrine, on ciliary beat frequency in vitro |
+| [15854186](https://pubmed.ncbi.nlm.nih.gov/15854186/) | 2005 | RCT | Int J Clin Pract | Dobbeltblindet RCT av co-fenylcain spray (fenylefrin-inneholdende) mot placebo før fleksibel nasendoskopi; minimal smerte/ubehag i begge grupper |
+| [40899890](https://pubmed.ncbi.nlm.nih.gov/40899890/) | 2025 | RCT/eksperimentell | Vestnik otorinolaringologii | Sikkerhet/effektivitets-evaluering av Polydexa nasalspray med fenylefrin ved akutt rhinosinusitt |
+| [25133491](https://pubmed.ncbi.nlm.nih.gov/25133491/) | 2014 | RCT | PLoS One | Trippelblindet RCT om topisk traneksamsynsyre for blødning/operativt felt kvalitet under FESS ved kronisk rhinosinusitt (hjelpemiddel nasalhole-kirurgi kontekst) |
+| [37184554](https://pubmed.ncbi.nlm.nih.gov/37184554/) | 2023 | Oversikt | Vestnik otorinolaringologii | Endoskopisk mucosa-vurdering etter topisk antibiotikabehandling inkludert Polydexa med fenylefrin for granulomatose med polyangiitt |
+| [37970776](https://pubmed.ncbi.nlm.nih.gov/37970776/) | 2023 | Oversikt | Vestnik otorinolaringologii | Patogenese-basert behandlingstilnærming for inflammatoriske sykdommer i nese og paranasale bihuler |
+| [9780066](https://pubmed.ncbi.nlm.nih.gov/9780066/) | 1998 | Kohorte | Int J Pediatr Otorhinolaryngol | Akustisk rhinometri av nasalhole/nasofaring geometri etter adenotonsillektomi |
+| [7378007](https://pubmed.ncbi.nlm.nih.gov/7378007/) | 1980 | Pasientrapport | Arch Ophthalmol | Kokain og intra-nasal fenylefrin toksisitet under dakryosystorhinostomi; fremhever risiko for sympatomimetika-interaksjon |
+| [1375136](https://pubmed.ncbi.nlm.nih.gov/1375136/) | 1992 | In vitro / mekanisme | Clin Otolaryngol Allied Sci | Doseavhengige effekter av nasale legemidler, inkludert fenylefrin, på ciliar slag-frekvens in vitro |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-No marketed authorizations were found for phenylephrine in Norway under this evidence pack (`total_licenses = 0`). The drug is currently classified as **Not marketed / Not marketed**, so no product-level license table is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and drug interaction data are all marked as data gaps in this evidence pack — notably flagged as a **Blocking** gap (DG001: TFDA label warnings/contraindications) that prevents completion of the S1 safety pre-assessment.)*
+Ingen markedsførte autorisasjoner ble funnet for fenylefrin i Norge under denne bevisepakken (`total_licenses = 0`). Legemidlet er for tiden klassifisert som **Ikke markedsført / Ikke markedsført**, så ingen tabell for produktnivå-lisens er tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-**Rationale:**
-The mechanistic basis is strong and non-novel — phenylephrine's decongestant effect on nasal mucosa is pharmacologically well-established and already reflected in real-world adjunct use (Cophenylcaine, Kovanaze, Polydexa) — and one Phase 2 crossover RCT (NCT00562120) provides direct comparative evidence, supporting an L2 evidence level. However, the drug is not currently marketed in this jurisdiction and a **blocking** safety data gap (TFDA/label warnings and contraindications) remains unresolved, so full clinical adoption cannot proceed without further data.
+*(Viktige advarsler, kontraindikasjoner og legemiddelinteraksjondata er alle merket som datakap i denne bevisepakken — spesielt flagget som et **Blokkerings** gap (DG001: TFDA pakningsvedlegg advarsler/kontraindikasjoner) som forhindrer fullføring av S1 sikkerhetsvurderingen.)*
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain and parse the official product label for warnings/contraindications before any S1 safety assessment
-- Resolve DG002 (High): confirm formal DrugBank/regulatory MOA documentation
-- Clarify route/dosage-form compatibility for the "nasal cavity disease" indication (intranasal spray vs. combination formulations)
-- Assess regulatory pathway feasibility given the drug currently has zero marketed licenses in this jurisdiction
+---
 
-**Note on other predicted indications:** Two additional candidates for phenylephrine were assessed in this evidence pack — acute laryngopharyngitis (L5, no supporting trials or literature, **Hold**) and trigeminal autonomic cephalalgia (L4, phenylephrine used only as a diagnostic pupillometry reagent for cluster headache/Horner's differentiation, not as treatment, **Hold**). Neither is recommended for further action at this time.
+## Konklusjon og neste trinn
+
+**Beslutning: Fortsett med sikkerhetstiltak**
+
+**Begrunnelse:**
+Det mekanistiske grunnlaget er sterkt og ikke-nytt — fenylefrins avsvellingseffekt på nasalmucosa er farmakologisk veletablert og allerede reflektert i virkelig verden hjelpemiddel-bruk (Co-fenylcain, Kovanaze, Polydexa) — og et Fase 2 kryssovers RCT (NCT00562120) gir direkte sammenliknende bevis, som støtter et L2 bevisnivå. Imidlertid er legemidlet for tiden ikke markedsført i denne jurisdiksjonen og et **blokkerings** sikkerhetsdatakap (TFDA/pakningsvedlegg advarsler og kontraindikasjoner) gjenstår uløst, så full klinisk adoptering kan ikke fortsette uten ytterligere data.
+
+**For å fortsette, er følgende nødvendig:**
+- Løs DG001 (Blokkering): få tak i og tolke den offisielle produktetiketten for advarsler/kontraindikasjoner før noen S1 sikkerhetsvurdering
+- Løs DG002 (Høy): bekreft formell DrugBank/regulatorisk MOA dokumentasjon
+- Avklar rute/doseringform-kompatibilitet for indikasjonen «nasalholesykdom» (intra-nasal spray mot kombinasjons-formuleringer)
+- Vurder gjennomførbarhet av regulatorisk vei gitt at legemidlet for tiden har null markedsførte lisenser i denne jurisdiksjonen
+
+**Notat om andre forutsagte indikasjoner:** To ytterligere kandidater for fenylefrin ble vurdert i denne bevisepakken — akutt laryngfaryngitt (L5, ingen støttende forsøk eller litteratur, **Hold**) og trigeminal autonom cefalalgi (L4, fenylefrin brukt bare som diagnostisk pupillometri-reagens for kluster hodepine/Horner differensiering, ikke som behandling, **Hold**). Ingen av dem anbefales for videre handling på dette tidspunktet.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

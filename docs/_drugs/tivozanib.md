@@ -29,90 +29,91 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tivozanib: From Renal Cell Carcinoma to Endocervical Carcinoma
+# Tivozanib: Fra nyrcellekarsinoma til endoservikalt karsinoma
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-> Tivozanib is a highly selective VEGFR-1/2/3 tyrosine kinase inhibitor, originally developed as an antiangiogenic therapy for renal cell carcinoma.
-> The TxGNN model predicts it may also be effective for **Endocervical Carcinoma**,
-> but this signal is currently supported by **no registered clinical trials** and **no published literature** — it is a model-derived hypothesis only.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Renal cell carcinoma (based on known drug class information; not confirmed in Norway regulatory data — drug is unmarketed) |
-| Predicted New Indication | Endocervical Carcinoma |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Tivozanib er en høyt selektiv VEGFR-1/2/3 tyrosinkinase-hemmer, opprinnelig utviklet som en antiangiogenetisk terapi for nyrcellekarsinoma.
+> TxGNN-modellen forutsier at det også kan være effektivt for **endoservikalt karsinoma**,
+> men dette signalet støttes for tiden av **ingen registrerte kliniske forsøk** og **ingen publisert litteratur** — det er kun en modellhypotese.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available in the evidence pack (Data Gap DG002). Based on the mechanistic rationale accompanying this prediction, Tivozanib is a highly selective VEGFR-1/2/3 tyrosine kinase inhibitor — its antiangiogenic activity has been established in the treatment of solid tumours such as renal cell carcinoma.
-
-Endocervical carcinoma is also a solid tumour, and antiangiogenic mechanisms are theoretically applicable across tumour types, since most solid tumours depend on VEGF-driven neovascularization to sustain growth. However, this mechanistic link is entirely extrapolated — there is no cervical-cancer-specific pharmacodynamic, translational, or clinical data confirming that Tivozanib's antiangiogenic effect translates into benefit for this indication.
-
-This is one of ten TxGNN-predicted indications for Tivozanib, nearly all clustered around rare cervical/uterine adenocarcinoma subtypes with scores between 99.76%–99.81%. The tight score clustering across rare histological variants, combined with the complete absence of supporting trials or literature, suggests this reflects a broad "antiangiogenic-agent-for-gynecologic-tumour" pattern learned by the model rather than a specific, validated biological relationship.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Nyrcellekarsinoma (basert på kjent legemiddelklasse informasjon; ikke bekreftet i norske regulatoriske data — legemidlet er ikke markedsført) |
+| Forutsagt ny indikasjon | Endoservikalt karsinoma |
+| TxGNN-prediksjonspoengsum | 99.81% |
+| Bevisgrad | L5 |
+| Markeds status i Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt avgjørelse | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige i bevissamlingen (datakløft DG002). Basert på den mekanistiske begrunnelsen som følger denne prediksjonen, er tivozanib en høyt selektiv VEGFR-1/2/3 tyrosinkinase-hemmer — dens antiangiogenetiske aktivitet har blitt etablert i behandlingen av solide tumorer som nyrcellekarsinoma.
 
----
+Endoservikalt karsinoma er også en solid tumor, og antiangiogenetiske mekanismer er teoretisk anvendelig på tvers av tumortyper, siden de fleste solide tumorer er avhengige av VEGF-drevet neovaskularisering for å opprettholde vekst. Imidlertid er denne mekanistiske sammenhengen helt ekstrapolert — det finnes ingen servikal-karsinomspesifikke farmakodynamiske, translasjonelle eller kliniske data som bekrefter at tivozanibs antiangiogenetiske virkning resulterer i fordel for denne indikasjonen.
 
-## Norway Market Information
-
-Tivozanib is currently **not marketed in Norway** (0 authorizations on file). No product, dosage form, or approved indication data is available for this market.
+Dette er en av ti TxGNN-forutsatte indikasjonene for tivozanib, nesten alle klynget rundt sjeldne servikale/uterine adenokarsinomsubtypologier med poengsum mellom 99.76%–99.81%. Den tette poengsklustring på tvers av sjeldne histologiske varianter, kombinert med det fullstendige fraværet av støttende forsøk eller litteratur, tyder på at dette gjenspeiler et bredt «antiangiogenetisk-middel-for-gynekologisk-tumor»-mønster som modellen lærte seg, snarere enn et spesifikt, validert biologisk forhold.
 
 ---
 
-## Cytotoxicity
+## Klinisk forsøksbevis
 
-Tivozanib is an antineoplastic agent (VEGFR tyrosine kinase inhibitor class).
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (VEGFR-1/2/3 tyrosine kinase inhibitor) |
-| Myelosuppression Risk | Low — TKIs of this class are generally less myelosuppressive than conventional cytotoxics; drug-specific toxicity data not yet available |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Blood pressure, urinalysis (proteinuria), thyroid function, liver function tests, CBC |
-| Handling Protection | Please refer to the package insert warnings and precautions once available (TFDA label data is a blocking gap — DG001) |
+For tiden ingen relaterte kliniske forsøk registrert
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information.
+For tiden ingen relatert litteratur tilgjengelig
 
 ---
 
-## Conclusion and Next Steps
+## Informasjon om det norske markedet
 
-**Decision: Hold**
+Tivozanib er for tiden **ikke markedsført i Norge** (0 autorisasjoner på fil). Ingen produkt-, dosisform- eller godkjent indikasjondata er tilgjengelige for dette markedet.
 
-**Rationale:**
-The prediction rests on Evidence Level L5 (model prediction only) with zero supporting clinical trials or literature, and a critical safety data gap (TFDA label/warnings, DG001) blocks even a preliminary S1 safety assessment. There is no basis to advance this candidate at this time.
+---
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert data — warnings, contraindications, and drug interactions (DG001, blocking)
-- Confirmed original indication and regulatory approval history for Tivozanib
-- Targeted literature and trial search for VEGFR inhibitors in cervical/gynecologic adenocarcinoma to assess whether a biological rationale exists beyond generic antiangiogenic extrapolation
-- Reassessment of Norway market entry pathway, since the drug currently holds no local authorization
+## Cytotoksisitet
+
+Tivozanib er et antineoplastisk middel (VEGFR tyrosinkinase-hemmerklasse).
+
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitetsklassifisering | Målrettet terapi (VEGFR-1/2/3 tyrosinkinase-hemmer) |
+| Risiko for myelosuppresjon | Lav — tyrosinkinasehemmere av denne klassen er generelt mindre myelosuppressiv enn konvensjonelle cytotoksika; legemiddelspesifikke toksisitetsdata er ennå ikke tilgjengelige |
+| Emetogenitetsklassifisering | Lav |
+| Overvåkingsparametre | Blodtrykk, urinalyse (proteinuri), skjoldbruskkjertelfunksjon, leverfunksjonstester, CBC |
+| Håndteringsbeskyttelse | Vennligst se pakningsvedleggets advarsler og forholdsregler når disse er tilgjengelige (TFDA-etikettdata er en blokkerende datakløft — DG001) |
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Avgjørelse: Avvent**
+
+**Begrunnelse:**
+Prediksjonen hviler på bevisgrad L5 (kun modelprediksjon) uten noe som helst støtte fra kliniske forsøk eller litteratur, og en kritisk sikkerhetsdatakløft (TFDA-etikett/advarsler, DG001) blokkerer selv en foreløpig S1-sikkerhetsvurdering. Det er ingen grunnlag for å fremme denne kandidaten på dette tidspunktet.
+
+**Følgende er nødvendig for å fortsette:**
+- TFDA/produsentens pakningsvedleggsdata — advarsler, kontraindikasjoner og legemiddelinteraksjoner (DG001, blokkering)
+- Bekreftet opprinnelig indikasjon og regulatorisk godkjenningshistorie for tivozanib
+- Målrettet litteratur- og forsøkssøk for VEGFR-hemmere i servikale/gynekologiske adenokarsinomer for å vurdere om en biologisk begrunnelse eksisterer utover generisk antiangiogenetisk ekstrapolasjon
+- Ny vurdering av Norges markedsintroduksjonsvei, siden legemidlet for tiden ikke har noen lokal godkjenning
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

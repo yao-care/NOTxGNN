@@ -29,74 +29,75 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Fosaprepitant: From Chemotherapy-Induced Nausea and Vomiting to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Fosaprepitant: Fra kjemoterapiindusert kvalme og oppkastning til nefrogent syndrom av upassende antidiurese
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Fosaprepitant is an NK1 (neurokinin-1/substance P) receptor antagonist, the intravenous prodrug of aprepitant, whose established supportive-care role in chemotherapy-induced nausea and vomiting is reflected in the clinical trial evidence within this pack.
-> The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis**,
-> but currently **0 clinical trials** and **0 publications** support this specific indication — the prediction rests solely on the network model.
+> Fosaprepitant er en NK1 (neurokinin-1/substans P) reseptorantagonist, den intravenøse pro-legemiddelen til aprepitant, hvis etablerte rolle innen supportiv terapi for kjemoterapiindusert kvalme og oppkastning reflekteres i klinisk forsøksbevis i denne pakken.
+> TxGNN-modellen forutsier at det kan være effektivt for **nefrogent syndrom av upassende antidiurese**,
+> men for tiden støtter **0 kliniske forsøk** og **0 publikasjoner** denne spesifikke indikasjonen — prediksjonen hviler utelukkende på nettverksmodellen.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Punkt | Innhold |
 |------|------|
-| Original Indication | Not specified in Norway regulatory data; trial evidence elsewhere in this pack indicates established use in chemotherapy-induced nausea/vomiting prophylaxis |
-| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Ikke spesifisert i norske reguleringsdata; forsøksbevis andre steder i denne pakken indikerer etablert bruk i profylakse av kjemoterapiindusert kvalme/oppkastning |
+| Forutsagt ny indikasjon | Nefrogent syndrom av upassende antidiurese |
+| TxGNN-prediksjonspoengsum | 99.92% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avventende |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available (marked as a data gap in this evidence pack). Based on the information present, Fosaprepitant belongs to the NK1 receptor antagonist class, and trial evidence elsewhere in this pack (e.g. studies of fosaprepitant/aprepitant combined with 5-HT3 antagonists and dexamethasone in cisplatin-based chemotherapy) indicates its established role as an antiemetic in oncology supportive care.
+For tiden er det ikke tilgjengelige detaljerte data om virkningsmekanisme (merket som et datagap i denne bevisepakken). Basert på tilgjengelig informasjon tilhører fosaprepitant klassen NK1-reseptorantagonister, og forsøksbevis andre steder i denne pakken (f.eks. studier av fosaprepitant/aprepitant kombinert med 5-HT3-antagonister og dexamethasone i cisplatin-basert kjemoterapi) indikerer sin etablerte rolle som antiemetisk middel i onkologisk supportiv behandling.
 
-Nephrogenic syndrome of inappropriate antidiuresis (NSIAD), however, is a distinct disorder driven by gain-of-function mutations in the vasopressin V2 receptor, causing water retention independent of circulating vasopressin. No mechanistic link between substance P/NK1 signaling and V2-receptor-mediated free water reabsorption is documented in this evidence pack. This prediction should therefore be treated as a network-derived hypothesis rather than a mechanistically grounded candidate; independent pharmacological or physiological rationale would need to be established before further investment.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Nefrogent syndrom av upassende antidiurese (NSIAD) er imidlertid en distinkt lidelse forårsaket av gain-of-function-mutasjoner i vasopressin V2-reseptoren, som forårsaker væskeholding uavhengig av sirkulerende vasopressin. Ingen mekanistisk forbindelse mellom substans P/NK1-signalering og V2-reseptor-mediiert fri vannreabsorpsjon er dokumentert i denne bevisepakken. Denne prediksjonen bør derfor behandles som en nettverksavledet hypotese snarere enn en mekanistisk begrunnet kandidat; uavhengig farmakologisk eller fysiologisk begrunnelse må etableres før videre investering.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøksbevis
 
-Currently no related literature available.
-
----
-
-## Norway Market Information
-
-Fosaprepitant is currently **not marketed in Norway** (0 authorizations on record), so no license/product information is available in this evidence pack.
+For tiden er det ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information.
+For tiden ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformasjon i Norge
 
-**Decision: Hold**
+Fosaprepitant er for tiden ikke markedsført i Norge (0 autorisasjoner på posten), så ingen lisens-/produktinformasjon er tilgjengelig i denne bevisepakken.
 
-**Rationale:**
-The predicted indication (NSIAD) has no supporting clinical trials or literature and no established mechanistic rationale connecting NK1 antagonism to vasopressin V2-receptor pathophysiology — evidence level L5, model prediction only. The drug is also not currently marketed in Norway, adding regulatory uncertainty on top of the evidentiary gap.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data (currently a flagged, blocking data gap)
-- TFDA/regulatory label warnings and contraindications (currently a flagged, blocking data gap)
-- Preclinical or mechanistic evidence linking substance P/NK1 signaling to AVP/V2-receptor-mediated water retention
-- Any case reports, observational data, or trials specifically involving NSIAD or related SIADH-spectrum disorders
+## Sikkerhetsoverveielser
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Avventende**
+
+**Begrunnelse:**
+Den forutsagte indikasjonen (NSIAD) har ingen støttende kliniske forsøk eller litteratur og ingen etablert mekanistisk begrunnelse som forbinder NK1-antagonisme til vasopressin V2-reseptor-patofysiologi — bevisnivå L5, kun modellprediksjon. Medikamentet er heller ikke for tiden markedsført i Norge, noe som legger til regulatorisk usikkerhet oppå bevismanglene.
+
+**Følgende er nødvendig for å gå videre:**
+- Bekreftet virkningsmekanisme (MOA)-data (for tiden flagget, blokkert datagap)
+- TFDA-advarsler og kontraindikasjoner (for tiden flagget, blokkert datagap)
+- Preklinisk eller mekanistisk bevis som knytter substans P/NK1-signalering til AVP/V2-reseptor-mediiert væskeholding
+- Kasuistikker, observasjonsdata eller forsøk som spesifikt involverer NSIAD eller beslektede SIADH-spektrum-lidelser
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

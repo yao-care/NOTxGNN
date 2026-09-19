@@ -29,118 +29,119 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Olaparib: From BRCA-Mutated Ovarian Cancer to Breast Carcinoma
+# Olaparib: Fra BRCA-mutert eggstokkkreftt til brystkreft
 
-## One-Sentence Summary
+## Sammendrag på en setning
 
-> Olaparib is a PARP1/2 inhibitor originally developed and approved internationally for BRCA-mutated ovarian cancer maintenance therapy.
-> The TxGNN model flags **Female Breast Carcinoma** as a related indication, with **73 clinical trials** and **20 publications** in the evidence pack —
-> however, this is very likely an already-established indication (olaparib has been approved for gBRCA-mutated HER2-negative breast cancer since 2018) rather than a genuinely novel repurposing signal. See caveat below.
+> Olaparib er en PARP1/2-hemmer opprinnelig utviklet og godkjent internasjonalt for vedlikeholdsbehandling av BRCA-mutert eggstokkkreftt.
+> TxGNN-modellen flagger **Kvinnelig brystkreft** som en relatert indikasjon, med **73 kliniske studier** og **20 publikasjoner** i evidenspakken —
+> men dette er svært sannsynlig allerede en etablert indikasjon (olaparib har vært godkjent for gBRCA-mutert HER2-negativ brystkreft siden 2018) snarere enn et genuint nytt gjenbrukssignal. Se merknad nedenfor.
 
-> ⚠️ **Data quality note**: `drug.original_indications` and `taiwan_regulatory.licenses` are both empty in this Evidence Pack, and `original_moa` is flagged as a data gap (DG002). The repurposing rationale itself flags this as a likely database omission, since olaparib (Lynparza®) is a well-established, globally approved oncology drug. This report is written strictly from the supplied Evidence Pack; external verification against the actual TFDA/Norway label is required before any decision.
+> ⚠️ **Merknad om datakvalitet**: `drug.original_indications` og `taiwan_regulatory.licenses` er begge tomme i denne evidenspakken, og `original_moa` er flagget som datakløft (DG002). Selv gjenbruksbegrunnelsen flaggerer dette som sannsynlig databaseomission, siden olaparib (Lynparza®) er et godt etablert, globalt godkjent onkologilegemiddel. Denne rapporten er skrevet strengt fra den angitte evidenspakken; ekstern verifisering mot det faktiske TFDA/Norge-bladet er påkrevd før enhver beslutning.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not available in Evidence Pack (0 licenses recorded); publicly known original approval: BRCA-mutated, platinum-sensitive relapsed ovarian cancer (maintenance therapy) |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.09% |
-| Evidence Level | L1 |
-| Norway Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original indikasjon | Ikke tilgjengelig i evidenspakken (0 lisenser registrert); offentlig kjent original godkjenning: BRCA-mutert, platinumsensitiv tilbakefallt eggstokkkreftt (vedlikeholdsbehandling) |
+| Forutsagt ny indikasjon | Kvinnelig brystkreft |
+| TxGNN-forutsigelsesscore | 99.09% |
+| Bevisnivå | L1 |
+| Markedsstatus i Norge | ✗ Ikke markedsført (Ikke markedsført) |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Gå videre med sikringstiltak |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forutsigelsen rimelig?
 
-Currently, no structured MOA field is available for olaparib in this Evidence Pack (DG002, High severity). However, the repurposing rationale supplies the mechanistic basis: olaparib is a **PARP1/2 (poly-ADP-ribose polymerase) inhibitor**. In tumor cells with BRCA1/2 mutations or broader homologous recombination deficiency (HRD), PARP inhibition blocks single-strand DNA damage repair, causing accumulation of double-strand breaks and cell death via **synthetic lethality**. This mechanism has been extensively validated both biologically and clinically in BRCA-mutated tumors.
+For øyeblikket er ingen strukturert virkningsmåte-felt tilgjengelig for olaparib i denne evidenspakken (DG002, høy alvorlighetsgrad). Imidlertid gir gjenbruksbegrunnelsen det mekanistiske grunnlaget: olaparib er en **PARP1/2-hemmer (poly-ADP-ribose polymerase hemmer)**. I tumorceller med BRCA1/2-mutasjoner eller bredere homolog rekombinasjonsmangel (HRD), blokkerer PARP-hemming enkeltstreng-DNA-skadegreparasjon, noe som forårsaker ansamling av dobbeltstrengbrudd og celledød via **syntetisk lethality**. Denne mekanismen har blitt omfattende validert både biologisk og klinisk i BRCA-muterte tumorer.
 
-BRCA1/2 mutations drive both hereditary ovarian cancer and hereditary breast cancer through the same DNA-repair pathway. Since olaparib's synthetic-lethality mechanism is gene-defect–driven rather than tissue-specific, its efficacy readily extends from ovarian to breast cancer in patients sharing the same germline BRCA1/2 mutation — this is not a speculative repurposing hypothesis but a mechanistically expected and clinically confirmed extension.
+BRCA1/2-mutasjoner driver både arvelig eggstokkkrefft og arvelig brystkreft gjennom samme DNA-reparasjonssti. Siden olapariba sin syntetisk-lethality-mekanisme er genetisk-defekt-drevet snarere enn vevsSpesifikk, utvider effektiviteten seg lett fra eggstokkkreftt til brystkreft hos pasienter som deler samme germinal BRCA1/2-mutasjon — dette er ikke en spekulativ gjenbrukshypotese men en mekanistisk forventet og klinisk bekreftet utvidelse.
 
-Importantly, the clinical evidence in this pack (OlympiAD, OlympiA) shows this "predicted" indication is **already an approved, guideline-standard use** of olaparib in gBRCA-mutated HER2-negative breast cancer (both metastatic and high-risk early-stage adjuvant settings) in multiple jurisdictions since 2018–2022. The TxGNN signal here should be interpreted as **evidence confirmation of an existing indication**, not discovery of a novel one.
+Det er viktig å merke seg at det kliniske beviset i denne pakken (OlympiAD, OlympiA) viser at denne "forutsatte" indikasjonen **allerede er en godkjent, retningslinjestandard bruk** av olaparib i gBRCA-mutert HER2-negativ brystkreft (både metastatisk og høy-risiko tidlig-adjuvant instillinger) i flere jurisdiksjoner siden 2018–2022. TxGNN-signalet her bør tolkes som **bevisbekreftelse av en eksisterende indikasjon**, ikke oppdagelse av en ny.
 
 ---
 
-## Clinical Trial Evidence
+## Evidens fra kliniske studier
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studienummer | Fase | Status | Antall deltakere | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT02282020](https://clinicaltrials.gov/study/NCT02282020) | Phase 3 | Completed | 266 | Olaparib monotherapy vs. physician's choice single-agent chemotherapy in platinum-sensitive relapsed, gBRCA1/2-mutated ovarian cancer |
-| [NCT03162627](https://clinicaltrials.gov/study/NCT03162627) | Phase 1 | Active, not recruiting | 90 | Selumetinib + olaparib in solid tumors (incl. breast) with Ras pathway alterations or PARP resistance |
-| [NCT02418624](https://clinicaltrials.gov/study/NCT02418624) | Phase 1 | Completed | 25 | Carboplatin + olaparib → olaparib monotherapy vs. capecitabine as first-line therapy in BRCA1/2-mutated HER2-negative advanced breast cancer |
-| [NCT03402841](https://clinicaltrials.gov/study/NCT03402841) | Phase 3b | Completed | 279 | Single-arm olaparib maintenance in platinum-sensitive relapsed non-germline BRCA ovarian/endometrioid cancer |
-| [NCT02503436](https://clinicaltrials.gov/study/NCT02503436) | N/A (observational) | Completed | 276 | C-PATROL: real-world effectiveness/safety of olaparib in BRCAm+ platinum-sensitive relapsed ovarian cancer |
-| [NCT00679783](https://clinicaltrials.gov/study/NCT00679783) | Phase 2 | Completed | 99 | AZD2281 (olaparib) in BRCA-mutated/triple-negative breast cancer and recurrent ovarian cancer — response rate and correlative biomarkers |
-| [NCT05564377](https://clinicaltrials.gov/study/NCT05564377) | Phase 2 | Recruiting | 2900 | ComboMATCH biomarker-directed combination therapy platform trial, includes breast cancer cohorts |
-| [NCT04421963](https://clinicaltrials.gov/study/NCT04421963) | Phase 3 | Active, not recruiting | 185 | ROSY-O rollover study providing continued olaparib treatment post parent-study completion |
-| [NCT06545942](https://clinicaltrials.gov/study/NCT06545942) | Phase 1 | Active, not recruiting | 220 | MOMA-313 monotherapy or combined with a PARP inhibitor (olaparib) in advanced/metastatic solid tumors |
-| [NCT04330040](https://clinicaltrials.gov/study/NCT04330040) | Phase 4 | Completed | 202 | Olaparib in Indian patients with platinum-sensitive relapsed ovarian cancer and BRCA1/2-mutated metastatic breast cancer |
+| [NCT02282020](https://clinicaltrials.gov/study/NCT02282020) | Fase 3 | Fullført | 266 | Olaparib-monoterapi vs. legens valg enkeltagens kjemoterapi ved platinumsensitiv tilbakefallt, gBRCA1/2-mutert eggstokkkreftt |
+| [NCT03162627](https://clinicaltrials.gov/study/NCT03162627) | Fase 1 | Aktiv, rekrutterer ikke | 90 | Selumetinib + olaparib ved solide tumorer (inkl. bryst) med Ras-vei-alterasjoner eller PARP-resistens |
+| [NCT02418624](https://clinicaltrials.gov/study/NCT02418624) | Fase 1 | Fullført | 25 | Carboplatin + olaparib → olaparib-monoterapi vs. capecitabine som førstelinjebehandling ved BRCA1/2-mutert HER2-negativ avansert brystkreft |
+| [NCT03402841](https://clinicaltrials.gov/study/NCT03402841) | Fase 3b | Fullført | 279 | Enkeltarms olaparib-vedlikehold ved platinumsensitiv tilbakefallt, ikke-germinal BRCA eggstokk-/endometrioidkreft |
+| [NCT02503436](https://clinicaltrials.gov/study/NCT02503436) | N/A (observasjonsbasert) | Fullført | 276 | C-PATROL: effektivitet/sikkerhet av olaparib i praksis ved BRCAm+ platinumsensitiv tilbakefallt eggstokkkreftt |
+| [NCT00679783](https://clinicaltrials.gov/study/NCT00679783) | Fase 2 | Fullført | 99 | AZD2281 (olaparib) ved BRCA-mutert/trippel-negativ brystkreft og gjentakende eggstokkkreftt — responsrate og korrelative biomarkører |
+| [NCT05564377](https://clinicaltrials.gov/study/NCT05564377) | Fase 2 | Rekrutterer | 2900 | ComboMATCH biomarkør-styrt kombinasjonsterapi-plattformtudie, inkludert brystkreft-kohorter |
+| [NCT04421963](https://clinicaltrials.gov/study/NCT04421963) | Fase 3 | Aktiv, rekrutterer ikke | 185 | ROSY-O fortsettelsesstudie som gir fortsatt olaparib-behandling etter avslutning av mortudie |
+| [NCT06545942](https://clinicaltrials.gov/study/NCT06545942) | Fase 1 | Aktiv, rekrutterer ikke | 220 | MOMA-313 monoterapi eller kombinert med en PARP-hemmer (olaparib) ved avansert/metastatisk solide tumorer |
+| [NCT04330040](https://clinicaltrials.gov/study/NCT04330040) | Fase 4 | Fullført | 202 | Olaparib ved indiske pasienter med platinumsensitiv tilbakefallt eggstokkkreftt og BRCA1/2-mutert metastatisk brystkreft |
 
-*Note: 43 additional trials in the evidence pack are graded "pending" (unreviewed relevance) and are omitted from this table; most are combination/basket trials across multiple solid tumor types rather than breast-cancer-specific.*
+*Merknad: 43 ytterligere studier i evidenspakken er klassifisert som "under vurdering" (ugjennomgått relevans) og er utelatt fra denne tabellen; de fleste er kombinasjons-/kurvstudier på tvers av flere solide tumortyper snarere enn brystkreft-spesifikke.*
 
 ---
 
-## Literature Evidence
+## Bevis fra litteraturen
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [28578601](https://pubmed.ncbi.nlm.nih.gov/28578601/) | 2017 | RCT | N Engl J Med | OlympiAD: olaparib shows antitumor activity in metastatic breast cancer with germline BRCA mutation |
-| [34081848](https://pubmed.ncbi.nlm.nih.gov/34081848/) | 2021 | RCT | N Engl J Med | OlympiA: adjuvant olaparib reduces recurrence in gBRCA1/2-mutated, HER2-negative early breast cancer |
-| [30689707](https://pubmed.ncbi.nlm.nih.gov/30689707/) | 2019 | RCT | Ann Oncol | OlympiAD final OS and tolerability: olaparib vs. chemotherapy in gBRCA-mutated HER2-negative mBC |
-| [36228963](https://pubmed.ncbi.nlm.nih.gov/36228963/) | 2022 | RCT | Ann Oncol | OlympiA phase 3 overall survival results for adjuvant olaparib in high-risk early breast cancer |
-| [36893711](https://pubmed.ncbi.nlm.nih.gov/36893711/) | 2023 | RCT | Eur J Cancer | OlympiAD extended follow-up: sustained OS and safety data for olaparib in gBRCAm HER2-negative mBC |
-| [33119476](https://pubmed.ncbi.nlm.nih.gov/33119476/) | 2020 | Phase 2 single-arm | J Clin Oncol | TBCRC 048: olaparib activity in mBC with somatic BRCA1/2 or non-BRCA HR-related gene mutations |
-| [34143979](https://pubmed.ncbi.nlm.nih.gov/34143979/) | 2021 | Phase 2 combination | Cancer Cell | I-SPY2: durvalumab + olaparib + paclitaxel increases pCR in high-risk HER2-negative breast cancer |
-| [33710534](https://pubmed.ncbi.nlm.nih.gov/33710534/) | 2021 | Review | Target Oncol | Overview of PARP inhibitors (olaparib, talazoparib) approved for BRCA-mutated HER2-negative breast cancer |
-| [35163586](https://pubmed.ncbi.nlm.nih.gov/35163586/) | 2022 | Review | Int J Mol Sci | Molecular mechanisms, biomarkers and emerging therapies for chemotherapy-resistant TNBC |
-| [37253112](https://pubmed.ncbi.nlm.nih.gov/37253112/) | 2023 | Translational/Functional | Cancer Res | Functional characterization of RAD51C variants relevant to HR-deficiency and PARP inhibitor sensitivity |
+| [28578601](https://pubmed.ncbi.nlm.nih.gov/28578601/) | 2017 | RCT | N Engl J Med | OlympiAD: olaparib viser antitumor-aktivitet ved metastatisk brystkreft med germinal BRCA-mutasjon |
+| [34081848](https://pubmed.ncbi.nlm.nih.gov/34081848/) | 2021 | RCT | N Engl J Med | OlympiA: adjuvant olaparib reduserer gjentakelse ved gBRCA1/2-mutert, HER2-negativ tidlig brystkreft |
+| [30689707](https://pubmed.ncbi.nlm.nih.gov/30689707/) | 2019 | RCT | Ann Oncol | OlympiAD endelig OS og tolerabilitet: olaparib vs. kjemoterapi ved gBRCA-mutert HER2-negativ mBC |
+| [36228963](https://pubmed.ncbi.nlm.nih.gov/36228963/) | 2022 | RCT | Ann Oncol | OlympiA fase 3 overordnet overlevelsesresultater for adjuvant olaparib ved høy-risiko tidlig brystkreft |
+| [36893711](https://pubmed.ncbi.nlm.nih.gov/36893711/) | 2023 | RCT | Eur J Cancer | OlympiAD utvidet oppfølging: vedvarende OS og sikkerhetdata for olaparib ved gBRCAm HER2-negativ mBC |
+| [33119476](https://pubmed.ncbi.nlm.nih.gov/33119476/) | 2020 | Fase 2, enkeltarm | J Clin Oncol | TBCRC 048: olaparib-aktivitet ved mBC med somatisk BRCA1/2 eller ikke-BRCA HR-relaterte genmutasjoner |
+| [34143979](https://pubmed.ncbi.nlm.nih.gov/34143979/) | 2021 | Fase 2, kombinasjon | Cancer Cell | I-SPY2: durvalumab + olaparib + paclitaxel øker pCR ved høy-risiko HER2-negativ brystkreft |
+| [33710534](https://pubmed.ncbi.nlm.nih.gov/33710534/) | 2021 | Oversiktsartikkel | Target Oncol | Oversikt over PARP-hemmere (olaparib, talazoparib) godkjent for BRCA-mutert HER2-negativ brystkreft |
+| [35163586](https://pubmed.ncbi.nlm.nih.gov/35163586/) | 2022 | Oversiktsartikkel | Int J Mol Sci | Molekylære mekanismer, biomarkører og kommende terapier for kjemoterapiresistent TNBC |
+| [37253112](https://pubmed.ncbi.nlm.nih.gov/37253112/) | 2023 | Translasjonell/Funksjonell | Cancer Res | Funksjonell karakterisering av RAD51C-varianter relevant for HR-mangel og PARP-hemmer-følsomhet |
 
 ---
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-No authorization records are present in the Evidence Pack (`total_licenses: 0`, `licenses: []`). Olaparib currently has **no registered marketing authorization in Norway per this data source**. This should be independently verified against the national medicines register before proceeding, since olaparib (Lynparza®) is centrally authorized in the EU/EEA and would ordinarily be expected to appear.
+Ingen autorisasjonsregistreringer er tilstede i evidenspakken (`total_licenses: 0`, `licenses: []`). Olaparib har for øyeblikket **ingen registrert markedsføringstillatelse i Norge ifølge denne datakilden**. Dette bør verifiseres uavhengig mot nasjonalt legemiddelregister før man fortsetter, siden olaparib (Lynparza®) er sentralt autorisert i EU/EØS og ville normalt forventes å vises.
 
 ---
 
-## Cytotoxicity
+## Cytotoksisitet
 
-Olaparib is an antineoplastic agent (PARP inhibitor, oncology indication) and this section therefore applies.
+Olaparib er et antineoplastisk middel (PARP-hemmer, onkologiindikasjon) og denne delen gjelder derfor.
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (PARP inhibitor; synthetic lethality in HR-deficient tumors) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Cytotoksisitet-klassifisering | Målrettet terapi (PARP-hemmer; syntetisk lethality i HR-defisiente tumorer) |
+| Myelosuppresjonrisiko | Vennligst se pakkeblad-advarsler og forholdsregler |
+| Emetogenitet-klassifisering | Vennligst se pakkeblad-advarsler og forholdsregler |
+| Overvåkingselementer | Vennligst se pakkeblad-advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Vennligst se pakkeblad-advarsler og forholdsregler |
 
-*Detailed toxicity/monitoring data could not be sourced — this is blocked by DG001 (TFDA label warnings/contraindications not yet retrieved).*
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug-drug interaction data are currently available in this Evidence Pack (all fields flagged as data gaps; DDI query returned no results).
+*Detaljerte toksisitets-/overvåkingsdata kunne ikke innhentes — dette er blokkert av DG001 (TFDA-pakkeblad advarsler/kontraindikasjoner ikke ennå hentet).*
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails**
+Vennligst se pakkeblad for sikkerhetsinformasjon. Ingen viktige advarsler, kontraindikasjoner eller legemiddel-legemiddel-interaksjondata er for øyeblikket tilgjengelig i denne evidenspakken (alle felt flagget som datakløfter; DDI-søk returnerte ingen resultater).
 
-**Rationale:**
-Clinical evidence is strong (5 Phase 3 RCTs, including two pivotal trials — OlympiAD and OlympiA — directly establishing olaparib's efficacy in gBRCA-mutated breast cancer), justifying Evidence Level L1. However, this appears to represent confirmation of an **already internationally approved indication** rather than a novel repurposing candidate, and critical safety and regulatory data (TFDA/Norway label, MOA, market authorization) are missing from this pack — hence guardrails rather than an unconditional Go.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): retrieve and parse the actual product label for warnings, contraindications, and DDI data
-- Resolve DG002 (High): confirm structured MOA from DrugBank API
-- Verify actual Norway/EEA marketing authorization status for olaparib (Lynparza®), since 0 licenses in this pack is inconsistent with its known EU centralized authorization
-- Confirm whether "female breast carcinoma" should be reclassified as an existing approved indication rather than a TxGNN-predicted new indication, to avoid mischaracterizing this candidate in downstream reporting
+## Konklusjon og neste trinn
+
+**Beslutning: Gå videre med sikringstiltak**
+
+**Begrunnelse:**
+Klinisk bevis er sterkt (5 fase 3 RCT-er, inkludert to sentrale studier — OlympiAD og OlympiA — som direkte etablerer olapariba sin effektivitet ved gBRCA-mutert brystkreft), noe som rettferdiggjør bevisnivå L1. Imidlertid ser dette ut til å representere bekreftelse av en **allerede internasjonalt godkjent indikasjon** snarere enn en ny gjenbrukskandidat, og kritisk sikkerhet og regulatoriske data (TFDA/Norge-pakkeblad, virkningsmåte, markedsføringsautorisasjon) mangler fra denne pakken — derfor sikringstiltak snarere enn ubetinget grønt lys.
+
+**For å fortsette, trengs følgende:**
+- Løs DG001 (Blokkering): hent og analysér det faktiske produktbladet for advarsler, kontraindikasjoner og DDI-data
+- Løs DG002 (Høy): bekreft strukturert virkningsmåte fra DrugBank API
+- Verifiser faktisk markedsføringsautorisasjonsstatus i Norge/EØS for olaparib (Lynparza®), siden 0 lisenser i denne pakken er inkonsistent med dens kjente EU-sentraliserte autorisasjon
+- Bekreft hvorvidt "kvinnelig brystkreft" skal omklassifiseres som en eksisterende godkjent indikasjon snarere enn en TxGNN-forutsagt ny indikasjon, for å unngå feilkarakterisering av denne kandidaten i etterfølgende rapportering
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

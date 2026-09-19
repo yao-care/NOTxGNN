@@ -29,81 +29,78 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-Using the provided Evidence Pack (v4, data cutoff 2026-07-14) for DB14783 / Diroximel Fumarate, here is the evaluation report.
+# Diroximel Fumarat: Fra tilbakefallende multippel sklerose til diabetisk katarakt
+
+## Sammendrag i én setning
+
+Diroximel fumarat er et fumaratklasse-agens godkjent for tilbakefallende former av multippel sklerose, som virker via aktivering av Nrf2/ARE antioksidantveien. TxGNN-modellen forutsier at det kan være effektivt for **Diabetisk katarakt**, men det eksisterer for tiden **0 kliniske forsøk** og **0 publikasjoner** som støtter denne spesifikke retningen — prognosen hviler helt på en mekanistisk analogi pluss en svært høy (poengsum ≈1.0) score fra graff-nevrale nettverk.
 
 ---
 
-# Diroximel Fumarate: From Relapsing Multiple Sclerosis to Diabetic Cataract
+## Rask oversikt
 
-## One-Sentence Summary
-
-Diroximel fumarate is a fumarate-class agent approved for relapsing forms of multiple sclerosis, acting via Nrf2/ARE antioxidant pathway activation. The TxGNN model predicts it may be effective for **Diabetic Cataract**, but currently **0 clinical trials** and **0 publications** support this specific direction — the prediction rests entirely on a mechanistic analogy plus a very high (score ≈1.0) graph-neural-network score.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Relapsing forms of multiple sclerosis (per repurposing rationale; not independently confirmed by a Taiwan license record — drug is not marketed in Taiwan) |
-| Predicted New Indication | Diabetic Cataract |
-| TxGNN Prediction Score | 99.9993% (rank 23 among candidate indications) |
-| Evidence Level | L5 (model prediction only, no clinical/preclinical study identified) |
-| Taiwan Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Tilbakefallende former av multippel sklerose (jf. ombruksrasjonale; ikke uavhengig bekreftet av Taiwan-lisensoppføring — medikamentet er ikke markedsført i Taiwan) |
+| Forutsagt ny indikasjon | Diabetisk katarakt |
+| TxGNN-prognosepoengsum | 99.9993% (rangert 23 blant kandidatindikasjonene) |
+| Bevisnivå | L5 (modellprognose kun, ingen klinisk/preklinisk studie identifisert) |
+| Taiwans markedsstatus | ✗ Ikke markedsført (Ikke markedsført) |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prognosen rimelig?
 
-Detailed, source-verified mechanism-of-action data for diroximel fumarate is not yet available in this evidence pack (flagged as a High-severity data gap, DG002). Based on the information captured in the repurposing rationale, diroximel fumarate is a prodrug of monomethyl fumarate, and its known pharmacology involves activation of the Nrf2/ARE (nuclear factor erythroid 2–related factor 2 / antioxidant response element) pathway together with anti-inflammatory effects — the basis of its approved use in relapsing multiple sclerosis.
+Detaljerte, kildebekreftede data om virkningsmekanisme for diroximel fumarat er foreløpig ikke tilgjengelig i denne evidenspakken (merket som alvorlig datakløft, DG002). Basert på informasjonen som er fanget opp i ombruksrasyonalen, er diroximel fumarat en prodrug av monometyl fumarat, og dens kjente farmakologi involverer aktivering av Nrf2/ARE (nukleær faktor erytroid 2–relatert faktor 2 / antioksidant-respons-element) veien sammen med antiinflammatoriske effekter — grunnlaget for dens godkjente bruk ved tilbakefallende multippel sklerose.
 
-Diabetic cataract pathology centers on oxidative damage to lens epithelial cells and activation of the polyol pathway under chronic hyperglycemia. Because Nrf2 activation is a recognized cellular defense against oxidative stress, there is a theoretical mechanistic bridge between diroximel fumarate's known pharmacology and diabetic cataract pathophysiology. However, this connection is a **cross-indication mechanistic analogy only** — it has not been tested in any diabetic cataract–specific trial, preclinical model, or published study, and the TxGNN score alone should not be read as clinical evidence of efficacy.
+Diabetisk katarakt patologi sentrerer seg på oksidativ skade på linsens epitelceller og aktivering av polyolveien under kronisk hyperglykemi. Fordi Nrf2-aktivering er en anerkjent cellulær forsvarsmekanisme mot oksidativt stress, finnes der en teoretisk mekanistisk bro mellom diroximel fumarats kjente farmakologi og diabetisk katarakt patofysiologi. Imidlertid er denne forbindelsen kun en **mekanistisk tverrindikasjon-analogi** — den har ikke blitt testet i noen diabetisk katarakt–spesifikk klinisk studie, preklinisk modell, eller publisert studie, og TxGNN-poengsum alene bør ikke tolkes som klinisk bevis for effektivitet.
 
-It is also worth noting that this candidate sits within a cluster of ten TxGNN-predicted lens/retinal indications with near-identical scores (diabetic retinopathy, severe nonproliferative diabetic retinopathy, and several cataract subtypes such as cortical, nuclear senile, immature, and mature cataract). The rationale text itself flags some of these — notably **tetanic cataract** and **craniostenosis cataract**, whose etiologies (hypocalcemia, craniosynostosis syndromes) have no plausible link to Nrf2 pathway biology — as likely model over-generalization from shared disease-ontology clustering rather than genuine mechanistic signal. Diabetic cataract and diabetic retinopathy are the only two candidates in this list with a directly traceable, biologically coherent hyperglycemia/oxidative-stress rationale.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Det er også verdt å merke seg at denne kandidaten ligger innenfor en klynge av ti TxGNN-predikerte linse-/retina-indikasjonene med nesten identiske poengsum (diabetisk retinopati, alvorlig nonproliferativ diabetisk retinopati, og flere katarakt-subtyper som kortikal, nukleær senilt, umoden og modent katarakt). Rasyonalet selv merker noen av disse — særlig **tetanisk katarakt** og **kraniostenose-katarakt**, hvis etiologier (hypokalcemi, kraniosynostose-syndromer) har ingen plausibel tilknytning til Nrf2-vei-biologi — som sannsynlig modellover-generalisering fra klynging basert på delt sykdomsontologi snarere enn genuin mekanistisk signal. Diabetisk katarakt og diabetisk retinopati er de eneste to kandidatene på denne listen med en direkte sporbar, biologisk koherent hyperglykemi/oksidativstress-rasjonale.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske forsøk
 
-Currently no related literature available.
-
----
-
-## Taiwan Market Information
-
-Diroximel fumarate is currently **not marketed in Taiwan** — no TFDA license records exist for this product (0 authorizations on file), so no dosage form or approved indication text is available from Taiwan regulatory sources.
+Ingen relaterte kliniske forsøk er for tiden registrert.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information.
-
-*(Note: retrieval of TFDA package insert warnings/contraindications is recorded as a Blocking data gap (DG001) in this evidence pack — this specifically prevents the candidate from entering the S1 safety initial-evaluation stage until resolved.)*
+For tiden er det ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Taiwans markedsinformasjon
 
-**Decision: Hold**
+Diroximel fumarat er for tiden **ikke markedsført i Taiwan** — ingen TFDA-lisensoppføringer eksisterer for dette produktet (0 autorisasjoner på fil), så ingen dosiseringsform eller godkjent indikasjon er tilgjengelig fra taiwanske regulatoriske kilder.
 
-**Rationale:**
-The TxGNN score is very high, but it is supported by zero clinical trials, zero publications, and no confirmed mechanism-of-action data — this is an L5, Stage S0 "Research Question" candidate. In addition, the missing TFDA warnings/contraindications data is a Blocking gap that independently prevents any safety initial evaluation, regardless of efficacy evidence.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications, DDI) to clear the Blocking safety gap (DG001)
-- Verified mechanism-of-action documentation from DrugBank or primary literature (DG002)
-- Preclinical/in-vitro evidence testing Nrf2 pathway activation specifically in diabetic lens or retinal microvascular models
-- Clarification of Taiwan regulatory pathway, since the drug is not currently marketed locally
-- Continued monitoring of diabetic retinopathy as a related, mechanistically comparable candidate, given its similar score and rationale
+## Sikkerhetshensyn
+
+Se pakkeseddelen for sikkerhetsinformasjon.
+
+*(Notat: innhenting av TFDA-pakkeseddel-advarsler/kontraindikasjoner er registrert som en blokkeringskløft (DG001) i denne evidenspakken — dette blokkerer spesifikt kandidaten fra å gå inn i S1-fasen for sikkerhet initial-evaluering inntil det er løst.)*
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+TxGNN-poengsumet er svært høyt, men det er støttet av 0 kliniske forsøk, 0 publikasjoner, og ingen bekreftet virkningsmekanisme-data — dette er en L5, fase S0 "Forskningsspørsmål" kandidat. I tillegg er de manglende TFDA advarsler/kontraindikasjoner dataene en blokkeringskløft som uavhengig blokkerer enhver sikkerhet initial-evaluering, uavhengig av effektivitetsbevis.
+
+**For å fortsette, følgende er nødvendig:**
+- TFDA-pakkeseddel (advarsler, kontraindikasjoner, DDI) for å rydde sikkerhet-blokkeringskløften (DG001)
+- Bekreftet virkningsmekanisme-dokumentasjon fra DrugBank eller primærlitteratur (DG002)
+- Preklinisk/in-vitro-bevis som tester Nrf2-vei-aktivering spesifikt i diabetisk linse eller retinal mikrovaskular modeller
+- Avklaring av Taiwan regulatorisk vei, siden medikamentet ikke er markedsført lokalt for tiden
+- Fortsatt overvåking av diabetisk retinopati som en relatert, mekanistisk sammenlignbar kandidat, gitt dens lignende poengsum og rasjonale
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

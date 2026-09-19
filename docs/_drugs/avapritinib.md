@@ -29,90 +29,91 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Avapritinib: From Unclear Original Indication to Axial Spondylometaphyseal Dysplasia
+# Avapritinib: Fra uavklart originalindikasjon til aksiell spondylometafyseal dysplasi
 
-## One-Sentence Summary
+## Oppsummering på én setning
 
-> Avapritinib's original approved indication and full mechanism-of-action data are currently unavailable in this evidence pack, though it is referenced elsewhere as a selective KIT/PDGFRA inhibitor.
-> The TxGNN model predicts it may be effective for **Axial Spondylometaphyseal Dysplasia**, a rare skeletal dysplasia,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available (data gap — no approved indication text on file) |
-| Predicted New Indication | Axial spondylometaphyseal dysplasia |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Norway Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Avapritinibs original godkjent indikasjon og fullstendig mekanisme-for-virkning-data er for øyeblikket utilgjengelig i denne evidenspakken, selv om det refereres til det andre steder som en selektiv KIT/PDGFRA-hemmer.
+> TxGNN-modellen forutsier at det kan være effektivt for **aksiell spondylometafyseal dysplasi**, en sjelden skjeletdysplasi,
+> men denne prediksjonen er for øyeblikket støttet av **0 kliniske forsøk** og **0 publikasjoner** — det er et signal fra modellen alene.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism-of-action data is not available in this evidence pack. Based on the mechanistic notes accompanying the model output, avapritinib is described as a **selective KIT/PDGFRA tyrosine kinase inhibitor**. PDGFRA signaling plays a role in cartilage and bone development, which is the theoretical basis offered for a link to this ultra-rare skeletal dysplasia syndrome.
-
-However, the model's own rationale text is explicit that this link is speculative: it states there is "no concrete evidence of pathogenic mechanism overlap with avapritinib's targets" for this disease, and that the prediction is "purely a high-scoring TxGNN output with no clinical or literature support." The same caveat applies across all ten ranked predictions in this pack — several cluster around ALS and motor neuron disease (rationale invokes an indirect PDGFRα role in oligodendrocyte precursor cells and blood-brain-barrier integrity), while others (rare skeletal/neurodevelopmental syndromes) have **no known mechanistic connection at all** to the KIT/PDGFRA pathway.
-
-Because the original indication and MOA fields are both data gaps, and because none of the ten predicted indications have any corroborating clinical trial or literature evidence, this candidate should be treated as an early-stage hypothesis-generation output only, not a repurposing candidate ready for evaluation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Ikke tilgjengelig (datagap — ingen godkjent indiksjonstekst på fil) |
+| Predikert ny indikasjon | Aksiell spondylometafyseal dysplasi |
+| TxGNN prediksjonspoeng | 99.92% |
+| Evidensnivå | L5 |
+| Status på norskmarkedet | Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available
+For øyeblikket er detaljerte mekanisme-for-virkning-data ikke tilgjengelig i denne evidenspakken. Basert på de mekanistiske notatene som følger modellutsendingen, beskrives avapritinib som en **selektiv KIT/PDGFRA tyrosinkinase-hemmer**. PDGFRA-signalering spiller en rolle i brusk- og benutvikling, som er det teoretiske grunnlaget som tilbys for en forbindelse til dette ultrasjeldne skjeletdysplasi-syndromet.
 
----
+Imidlertid er modellens egen begrunnelsestekst eksplisitt i at denne forbindelsen er spekulativ: den sier at det er «ingen konkret bevis for overlapping av patogenetisk mekanisme med avapritinibs mål» for denne sykdommen, og at prediksjonen er «rent et høyt-scorende TxGNN-utdata uten klinisk eller litteraturstøtte». Den samme forbehold gjelder på tvers av alle ti rangerte prediksjoner i denne pakken — flere klynger rundt ALS og motorneuronsjukdom (begrunnelsen påkaller en indirekte PDGFRα-rolle i oligodendrocytt-forløperceller og blod-hjerne-barriere-integritet), mens andre (sjeldne skjelet-/nevro-utviklingssyndrom) har **ingen kjent mekanistisk forbindelse i det hele tatt** til KIT/PDGFRA-banen.
 
-## Norway Market Information
-
-Avapritinib is not currently marketed in Norway (0 authorizations on file); no license records are available for this evidence pack.
+Fordi både originalindikasjon og MOA-felt er datagap, og fordi ingen av de ti predikterte indikasjonene har noen korroborerende klinisk forsøks- eller litteraturbevis, skal denne kandidaten behandles som et tidlig-fase hypotesegenererende utdata alene, ikke en gjenbrukskandidat klar for evaluering.
 
 ---
 
-## Cytotoxicity
+## Klinisk forsøksbevis
 
-Based on the mechanistic description available (selective KIT/PDGFRA tyrosine kinase inhibitor), avapritinib falls into the targeted anticancer therapy class rather than conventional cytotoxic chemotherapy. No structured toxicity data is included in this evidence pack.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (KIT/PDGFRA tyrosine kinase inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+For øyeblikket ingen registrerte relaterte kliniske forsøk
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information.
+For øyeblikket ingen tilgjengelig litteratur
 
 ---
 
-## Conclusion and Next Steps
+## Informasjon om norskmarkedet
 
-**Decision: Hold**
+Avapritinib markedsføres for øyeblikket ikke i Norge (0 godkjenninger på fil); ingen lisensoppføringer er tilgjengelige for denne evidenspakken.
 
-**Rationale:**
-All ten predicted indications carry evidence level L5 (model prediction only) with zero supporting clinical trials or literature. Combined with the drug's unmarketed status in Norway and a blocking data gap on TFDA label warnings/contraindications, there is no basis to advance any of these candidates beyond hypothesis stage.
+---
 
-**To proceed, the following is needed:**
-- Confirmed original indication(s) and approved label text
-- Detailed mechanism of action (MOA) data, ideally sourced from DrugBank
-- TFDA-equivalent label warnings and contraindications (currently a Blocking gap, DG001)
-- At minimum, preclinical or case-level evidence connecting avapritinib to any of the ranked predicted indications before S1 safety screening can begin
+## Cytotoksisitet
+
+Basert på den mekanistiske beskrivelsen som er tilgjengelig (selektiv KIT/PDGFRA tyrosinkinase-hemmer), faller avapritinib inn i klassen for målrettet kreftterapibehandling snarere enn konvensjonell cytotoksisk kjemoterapi. Ingen strukturert toksisitetsdata er inkludert i denne evidenspakken.
+
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitet klassifisering | Målrettet terapi (KIT/PDGFRA tyrosinkinase-hemmer) |
+| Risiko for myelosuppresjon | Vennligst se advarslene og forholdsreglene i pakningsvedlegget |
+| Emetogenitet klassifisering | Vennligst se advarslene og forholdsreglene i pakningsvedlegget |
+| Overvakingspunkter | Vennligst se advarslene og forholdsreglene i pakningsvedlegget |
+| Beskyttelse ved håndtering | Vennligst se advarslene og forholdsreglene i pakningsvedlegget |
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Alle ti predikterte indikasjonene har evidensnivå L5 (kun modellprediksjoner) med null korroborerende kliniske forsøk eller litteratur. Kombinert med legemidlets umarkedsførte status i Norge og et blokkerende datagap vedrørende TFDA-etikettadvarsler/kontraindikasjoner, er det intet grunnlag for å fremme noen av disse kandidatene utover hypotesestadium.
+
+**For å fortsette er følgende nødvendig:**
+- Bekreftet original indikasjon(er) og godkjent merkningstekst
+- Detaljert mekanisme-for-virkning (MOA) data, ideelt hentet fra DrugBank
+- TFDA-tilsvarende merknadsadvarsler og kontraindikasjoner (for øyeblikket et blokkerende gap, DG001)
+- Minst preklinisk eller kasuistisk bevis som knytter avapritinib til noen av de rangerte predikterte indikasjonene før S1-sikkerhetskontroll kan begynne
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

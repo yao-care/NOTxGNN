@@ -29,86 +29,87 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tagraxofusp: From CD123+ Hematologic Malignancies to Esotropia
+# Tagraxofusp: Fra CD123+ hematologiske maligniseringer til Esotropi
 
-## One-Sentence Summary
+## Sammendrag på én setning
 
-Tagraxofusp is a CD123-targeted diphtheria toxin fusion protein used in CD123-positive hematologic malignancies (per associated clinical trial documentation, including blastic plasmacytoid dendritic cell neoplasm, BPDCN). The TxGNN model's top-ranked prediction is **Esotropia**, an ophthalmologic/neuromuscular condition, but this signal is currently supported by **0 clinical trials** and **0 publications**, and the mechanism of CD123-targeted cytotoxic therapy has no known relationship to strabismus.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not confirmed via Norway regulatory data (drug not marketed). Clinical trial documentation in this evidence pack references CD123-positive hematologic malignancies, including blastic plasmacytoid dendritic cell neoplasm (BPDCN), AML, and high-risk MDS |
-| Predicted New Indication | Esotropia |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Tagraxofusp er et CD123-målrettet difteri-toksin-fusjonprotein brukt til CD123-positive hematologiske maligniseringer (etter tilknyttet klinisk forsøksdokumentasjon, inkludert blastisk plasmacytoid dendritic cell neoplasme, BPDCN). TxGNN-modellens topprankede prediksjon er **Esotropi**, en oftalmologisk/nevromuskulær tilstand, men dette signalet er for tiden støttet av **0 kliniske forsøk** og **0 publikasjoner**, og mekanismen for CD123-målrettet cytotoksisk terapi har ingen kjent sammenheng med strabismus.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Detailed mechanism of action data (DrugBank MOA field) is not available for this candidate (data gap DG002). Based on information embedded in the associated clinical trial records, tagraxofusp is a protein-drug conjugate consisting of a diphtheria toxin redirected to target CD123, used in CD123-positive hematologic malignancies such as BPDCN, AML, and MDS — a mechanism distinct from conventional cytotoxic chemotherapy.
-
-Esotropia is a form of strabismus caused by extraocular muscle or neuromuscular dysfunction, and has no established pathophysiological link to CD123 expression or hematologic malignancy biology. The evidence pack's own repurposing rationale for this candidate explicitly states there is no known mechanistic connection and no supporting clinical or literature evidence. This prediction should be treated as a high-confidence TxGNN embedding-space signal without independent biological or clinical corroboration — a likely model artifact rather than a genuine repurposing opportunity.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+| Element | Innhold |
+|------|--------|
+| Originalindikasjon | Ikke bekreftet via norsk regulatorisk data (legemiddelet er ikke markedsført). Klinisk forsøksdokumentasjon i denne bevissamlingen refererer til CD123-positive hematologiske maligniseringer, inkludert blastisk plasmacytoid dendritic cell neoplasme (BPDCN), AML og høyrisikoMDS |
+| Forutsagt ny indikasjon | Esotropi |
+| TxGNN prediksjonspoeng | 99.73% |
+| Bevisnivå | L5 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Norway Market Information
+## Hvorfor er denne prediksjonen rimelig?
 
-Tagraxofusp is not currently marketed in Norway (market status: Not marketed); no marketing authorizations are on record. No Norway product/license information is available for extraction.
+Detaljerte mekanisme-for-virkning-data (DrugBank MOA-felt) er ikke tilgjengelig for denne kandidaten (datagap DG002). Basert på informasjon innebygd i de tilknyttede kliniske forsøkspostene er tagraxofusp et protein-legemiddel-konjugat bestående av et difteri-toksin omdirigert til å målrette CD123, brukt til CD123-positive hematologiske maligniseringer som BPDCN, AML og høyrisikoMDS — en mekanisme som skiller seg fra konvensjonell cytotoksisk kjemoterapi.
 
----
-
-## Cytotoxicity
-
-Tagraxofusp targets CD123-positive hematologic malignancies (BPDCN/AML/MDS per associated trial documentation) and is classified as antineoplastic.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (CD123-targeted protein-drug conjugate/immunotoxin; mechanistically distinct from conventional cytotoxic chemotherapy per trial documentation) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Esotropi er en form for strabismus forårsaket av ekstraokular muskel- eller nevromuskulær dysfunksjon, og har ingen etablert patofysiologisk sammenheng med CD123-uttrykk eller hematologisk malignitetsbiologi. Bevissamlingens egen begrunnelse for repurposering for denne kandidaten sier eksplisitt at det ikke er noen kjent mekanistisk sammenheng og ingen støttende klinisk eller litteraturbevis. Denne prediksjonen bør behandles som et høykonfidens TxGNN embedding-rom-signal uten uavhengig biologisk eller klinisk bekreftigelse — sannsynligvis en modellartefakt snarere enn en mulig repurposering-lead.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøksbevis
 
-Please refer to the package insert for safety information. TFDA label warnings/contraindications have not yet been retrieved for this candidate (data gap DG001, severity: Blocking) — this must be resolved before any S1 safety pre-assessment can proceed.
+For tiden ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For tiden ingen relatert litteratur tilgjengelig.
 
-**Rationale:**
-This candidate has zero clinical trial or literature evidence (L5) and no plausible mechanistic link between CD123-targeted cytotoxic therapy and esotropia. The evidence pack's own rationale characterizes this as lacking biological plausibility, consistent with a TxGNN false-positive/model-noise signal rather than an actionable repurposing lead.
+---
 
-**To proceed, the following is needed:**
-- TFDA/official label data (warnings, contraindications, DDI) — currently blocking (DG001)
-- Confirmed mechanism of action (DrugBank MOA) — currently missing (DG002)
-- Independent mechanistic or preclinical rationale connecting CD123 biology to ophthalmologic/neuromuscular conditions, if this signal is to be pursued further
-- **Note:** Among the other ranked candidates in this evidence pack, rank 2 ("pre-malignant neoplasm") is associated with 5 active/ongoing clinical trials involving tagraxofusp in AML, BPDCN, and high-risk MDS populations. While these trials do not directly validate "pre-malignant neoplasm" as a distinct indication, they reflect real, ongoing clinical development within the drug's existing disease area and may warrant separate review in preference to this candidate.
+## Norsk markedsinformasjon
+
+Tagraxofusp er for tiden ikke markedsført i Norge (markedsstatus: Ikke markedsført); ingen markedsføringstillatelser er på record. Ingen norsk produkt/lisens-informasjon er tilgjengelig for utvinning.
+
+---
+
+## Cytotoksisitet
+
+Tagraxofusp målretter CD123-positive hematologiske maligniseringer (BPDCN/AML/høyrisikoMDS etter tilknyttet forsøksdokumentasjon) og klassifiseres som antineoplastisk.
+
+| Element | Innhold |
+|------|--------|
+| Cytotoksisitetsklassifisering | Målrettet terapi (CD123-målrettet protein-legemiddel-konjugat/immunotoksin; mekanistisk distinkt fra konvensjonell cytotoksisk kjemoterapi etter forsøksdokumentasjon) |
+| Myelosuppresjon-risiko | Vennligst se pakningsvedleggets advarsler og forholdsregler |
+| Emetogenisitetsklassifisering | Vennligst se pakningsvedleggets advarsler og forholdsregler |
+| Overvåkingspunkter | Vennligst se pakningsvedleggets advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Vennligst se pakningsvedleggets advarsler og forholdsregler |
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. TFDA etikett-advarsler/kontraindikasjoner har ikke blitt hentet for denne kandidaten ennå (datagap DG001, alvorlighetsgrad: Blokkering) — dette må løses før noen S1 sikkerhet pre-vurdering kan fortsette.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Denne kandidaten har null kliniske forsøk eller litteraturbevis (L5) og ingen plausibel mekanistisk sammenheng mellom CD123-målrettet cytotoksisk terapi og esotropi. Bevissamlingens egen begrunnelse karakteriserer dette som manglende biologisk plausibilitet, konsistent med et TxGNN falskt-positiv/modellstøy-signal snarere enn en mulig repurposering-lead.
+
+**For å fortsette er følgende nødvendig:**
+- TFDA/offisiell etikett-data (advarsler, kontraindikasjoner, DDI) — for tiden blokkert (DG001)
+- Bekreftet virkningsmekanisme (DrugBank MOA) — for tiden mangler (DG002)
+- Uavhengig mekanistisk eller preklinisk begrunnelse som forbinder CD123-biologi til oftalmologiske/nevromuskulære tilstander, dersom dette signalet skal forfølges videre
+- **Merk:** Blant de andre rangerte kandidatene i denne bevissamlingen er rank 2 ("pre-malignant neoplasm") forbundet med 5 aktive/pågående kliniske forsøk som involverer tagraxofusp i AML-, BPDCN- og høyrisikoMDS-populasjoner. Selv om disse forsøkene ikke direkte validerer "pre-malignant neoplasm" som en distinkt indikasjon, reflekterer de faktisk, pågående klinisk utvikling innenfor legemidlets eksisterende sykdomsområde og kan være verdt separat vurdering fremfor denne kandidaten.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

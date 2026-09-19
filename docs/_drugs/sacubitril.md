@@ -29,90 +29,91 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Sacubitril: From Heart Failure to Diabetic Nephropathy
+# Sacubitril: fra hjertesvikt til diabetisk nefropati
 
-## One-Sentence Summary
+## Sammenfatting på én setning
 
-> Sacubitril, marketed only in combination with valsartan (ARNI, e.g. Entresto), is internationally established for heart failure with reduced ejection fraction (HFrEF). Among five TxGNN-predicted indications, **Diabetic Nephropathy** is the only one supported by actual evidence — **2 clinical trials** and **17 publications** — while the model's two highest-ranked predictions are assessed as mechanistic false positives with no supporting data.
+> Sacubitril, som kun markedsføres i kombinasjon med valsartan (ARNI, f.eks. Entresto), er internasjonalt etablert for hjertesvikt med redusert ejeksjonsfraksjon (HFrEF). Blant fem TxGNN-predikerte indikasjoner er **Diabetisk nefropati** den eneste som støttes av faktisk evidens — **2 kliniske studier** og **17 publikasjoner** — mens modellens to høyest rangerte prediksjoner vurderes som mekanistiske falskt positive uten støttende data.
 
-**Note on candidate selection:** TxGNN's top-ranked prediction (score 99.58%, "brain small vessel disease 1 with or without ocular anomalies") and second-ranked prediction (score 99.57%, a COL4A1-related hematuria/retinal syndrome) are excluded from this report. Both are flagged in the evidence pack itself as false positives — the associated literature consists entirely of unrelated congenital ophthalmologic case reports, and no mechanistic link to neprilysin inhibition exists. This report instead evaluates rank 3, **Diabetic Nephropathy**, which is the highest-ranked prediction with genuine clinical trial and literature support.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Heart failure with reduced ejection fraction (HFrEF), as sacubitril/valsartan combination — not captured in Norway regulatory data since the product is currently unlicensed there |
-| Predicted New Indication | Diabetic Nephropathy |
-| TxGNN Prediction Score | 99.50% |
-| Evidence Level | L3 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+**Merknad om kandidatvalg:** TxGNN sin høyest rangerte prediksjon (score 99,58 %, «hjernesmå karsykdom 1 med eller uten okularanomalier») og andren-rangerte prediksjon (score 99,57 %, et COL4A1-relatert hematuri/retinalt syndrom) er ekskludert fra denne rapporten. Begge er flagget i selve evidenspakken som falskt positive — den tilknyttede litteraturen består utelukkende av ikke-relaterte medfødte oftalmologiske kasuistikker, og det finnes ingen mekanistisk forbindelse til nephrylysin-inhibisjon. Denne rapporten evaluerer i stedet rang 3, **Diabetisk nefropati**, som er den høyest rangerte prediksjonen med genuin klinisk studie- og litteraturstøtte.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Raskt overblikk
 
-Detailed mechanism of action data is not yet available in DrugBank for this record (data gap DG002). Based on known pharmacology, sacubitril is the prodrug component of the ARNI (angiotensin receptor–neprilysin inhibitor) combination sacubitril/valsartan. Sacubitril inhibits neprilysin, an enzyme that degrades natriuretic peptides, thereby raising natriuretic peptide levels; the valsartan component blocks the angiotensin II type 1 receptor. Together these actions reduce cardiac wall stress and blood pressure, which underlies the drug's proven efficacy in HFrEF.
-
-The link between heart failure and diabetic nephropathy is pharmacologically plausible rather than coincidental: both conditions share overlapping pathophysiology involving the renin-angiotensin-aldosterone system (RAAS), glomerular hyperfiltration, and volume/pressure overload. Elevated natriuretic peptide activity from neprilysin inhibition is hypothesized to reduce intraglomerular pressure and glomerulosclerosis, while the ARB component already has established renoprotective effects in diabetic kidney disease independent of the ARNI combination.
-
-Multiple animal models (db/db mice, streptozotocin-induced diabetic rats, Zucker Obese rats) consistently show that sacubitril/valsartan reduces proteinuria, oxidative stress, and inflammatory markers (including NLRP3 inflammasome and Nrf2/HO-1 pathway modulation) more effectively than ARB monotherapy. A secondary analysis of the PARADIGM-HF trial (PMID 29661699) found neprilysin inhibition slowed renal function decline in patients with type 2 diabetes and HFrEF. However, no completed trial has used diabetic nephropathy as its primary endpoint — the dedicated Phase 4 trial (NCT06501651) has not yet begun recruiting.
+| Punkt | Innhold |
+|---------|---------|
+| Original indikasjon | Hjertesvikt med redusert ejeksjonsfraksjon (HFrEF), som sacubitril/valsartan-kombinasjon — ikke registrert i norske reguleringsdata ettersom produktet for øyeblikket ikke er markedsført der |
+| Predikert ny indikasjon | Diabetisk nefropati |
+| TxGNN-prediksjons score | 99,50 % |
+| Evidensnivå | L3 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Detaljert mekanismedata er ikke ennå tilgjengelig i DrugBank for denne posten (datakløft DG002). Basert på kjent farmakologi er sacubitril prodrug-komponenten av ARNI-kombinasjonen (angiotensin-reseptor–nephrylysin-inhibitor) sacubitril/valsartan. Sacubitril hemmer nephrylysin, et enzym som bryter ned natriuretiske peptider, og øker dermed natriuretiske peptid-nivåer; valsartan-komponenten blokkerer angiotensin II type 1-reseptoren. Sammen reduserer disse virkningene veggstress og blodtrykk i hjertet, som ligger til grunn for legemidlets påvist effektivitet i HFrEF.
+
+Forbindelsen mellom hjertesvikt og diabetisk nefropati er farmakologisk plausibel snarere enn tilfeldig: begge tilstander deler overlappende patofysiologi som involverer renin-angiotensin-aldosteron-systemet (RAAS), glomerulær hyperfiltrasjon og volum-/trykkoverbelastning. Økt natriuretisk peptid-aktivitet fra nephrylysin-inhibisjon antas å redusere intraglomerulært trykk og glomerulosclerose, mens ARB-komponenten allerede har etablert nefroprotektiv effekt ved diabetisk nyresykdom uavhengig av ARNI-kombinasjonen.
+
+Flere dyremodeller (db/db-mus, streptozotocin-induserte diabetiske rotter, Zucker-fettrotter) viser konsistent at sacubitril/valsartan reduserer proteinuri, oksidativstress og inflammatoriske markører (inkludert NLRP3-inflammasom og Nrf2/HO-1-vei-modulering) mer effektivt enn ARB-monoterapi. En sekundær analyse av PARADIGM-HF-studien (PMID 29661699) fant at nephrylysin-inhibisjon bremset nedgangen i nyrefunksjon hos pasienter med type 2-diabetes og HFrEF. Imidlertid har ingen ferdig studie brukt diabetisk nefropati som primært endepunkt — den dedikerte fase 4-studien (NCT06501651) har ennå ikke begynt rekruttering.
+
+---
+
+## Evidens fra kliniske studier
+
+| Studie nummer | Fase | Status | Inklusjon | Sentrale funn |
 |---------|------|------|------|---------|
-| [NCT06501651](https://clinicaltrials.gov/study/NCT06501651) | Phase 4 | Not yet recruiting | 297 | Randomized, controlled, multicenter trial comparing sacubitril/valsartan vs. valsartan alone in patients with essential hypertension and type 2 diabetic nephropathy; 12-week treatment period, 2:1 randomization. Directly targets the indication but has no results yet. |
-| [NCT04735354](https://clinicaltrials.gov/study/NCT04735354) | N/A | Completed | 268 | Retrospective, non-interventional real-world EMR study in India of HFrEF patients on sacubitril/valsartan; provides only indirect metabolic/renal safety signal, not a diabetic nephropathy efficacy trial. |
+| [NCT06501651](https://clinicaltrials.gov/study/NCT06501651) | Fase 4 | Ennå ikke rekruttering | 297 | Randomisert, kontrollert, multisentertudie som sammenligner sacubitril/valsartan vs. valsartan alene hos pasienter med essensiell hypertensjon og type 2 diabetisk nefropati; 12-ukers behandlingsperiode, 2:1 randomisering. Direkte målsetting av indikasjonen, men uten resultater ennå. |
+| [NCT04735354](https://clinicaltrials.gov/study/NCT04735354) | N/A | Avsluttet | 268 | Retrospektiv, ikke-intervensjonell virkelighetsstudie basert på elektronisk pasientjournal i India av HFrEF-pasienter på sacubitril/valsartan; gir kun indirekte metabolsk/renal sikkerhetssignal, ikke en efficacy-studie for diabetisk nefropati. |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Sentrale funn |
 |------|-----|------|------|---------|
-| [29661699](https://pubmed.ncbi.nlm.nih.gov/29661699/) | 2018 | RCT (secondary analysis) | Lancet Diabetes Endocrinol | Secondary analysis of PARADIGM-HF trial: neprilysin inhibition slowed renal function decline in type 2 diabetics with HFrEF on background RAAS blockade. |
-| [37549515](https://pubmed.ncbi.nlm.nih.gov/37549515/) | 2023 | Cohort (randomized) | Int Immunopharmacol | 112 diabetic nephropathy patients with hypertension; sacubitril/valsartan combined with nifedipine improved renal function vs. valsartan combination. |
-| [40416927](https://pubmed.ncbi.nlm.nih.gov/40416927/) | 2025 | Clinical study | Diabetes Metab Syndr Obes | BOLD-MRI study evaluating renal protective effects of sacubitril/valsartan in type 2 diabetics. |
-| [37625003](https://pubmed.ncbi.nlm.nih.gov/37625003/) | 2023 | Review | Diabetes Care | Overview of diabetic kidney disease therapy pillars, situating RAAS/neprilysin-targeting agents among evolving treatment options. |
-| [34431635](https://pubmed.ncbi.nlm.nih.gov/34431635/) | 2021 | Review | Rev Med Suisse | Discusses potential role of sacubitril/valsartan in type 2 diabetes, including glycemic and renal effects. |
-| [35992034](https://pubmed.ncbi.nlm.nih.gov/35992034/) | 2022 | Animal study | Diabetes Metab Syndr Obes | Sacubitril/valsartan improved early diabetic nephropathy progression in rats via NLRP3 inflammasome inhibition. |
-| [36589853](https://pubmed.ncbi.nlm.nih.gov/36589853/) | 2022 | Animal study | Front Endocrinol | Sacubitril/valsartan improved diabetic kidney disease and regulated gut microbiota in mice. |
-| [32596035](https://pubmed.ncbi.nlm.nih.gov/32596035/) | 2020 | Animal study | PeerJ | LCZ696 mitigated diabetic nephropathy via reduced oxidative stress, NF-κB inflammation, and glomerulosclerosis in rats. |
-| [33870733](https://pubmed.ncbi.nlm.nih.gov/33870733/) | 2021 | Animal study | Am J Physiol Renal Physiol | Differential renoprotective effects of sacubitril/valsartan vs. valsartan alone in db/db and KKAy diabetic mouse models. |
-| [37202215](https://pubmed.ncbi.nlm.nih.gov/37202215/) | 2023 | Animal study | Nephrol Dial Transplant | Sacubitril/valsartan ameliorated renal tubulointerstitial injury via increased renal plasma flow in a mouse model of diabetes with aldosterone excess. |
+| [29661699](https://pubmed.ncbi.nlm.nih.gov/29661699/) | 2018 | RCT (sekundær analyse) | Lancet Diabetes Endocrinol | Sekundær analyse av PARADIGM-HF-studien: nephrylysin-inhibisjon bremset nyrefunksjonsfall hos type 2-diabetikere med HFrEF på bakgrunnsbehandling med RAAS-blokkering. |
+| [37549515](https://pubmed.ncbi.nlm.nih.gov/37549515/) | 2023 | Kohort (randomisert) | Int Immunopharmacol | 112 diabetisk nefropati-pasienter med hypertensjon; sacubitril/valsartan kombinert med nifedipin forbedret nyrefunksjon vs. valsartan-kombinasjon. |
+| [40416927](https://pubmed.ncbi.nlm.nih.gov/40416927/) | 2025 | Klinisk studie | Diabetes Metab Syndr Obes | BOLD-MRI-studie som evaluerer nyrevernseffekter av sacubitril/valsartan hos type 2-diabetikere. |
+| [37625003](https://pubmed.ncbi.nlm.nih.gov/37625003/) | 2023 | Oversikt | Diabetes Care | Oversikt over diabetisk nyresykdoms terapipilarer, og situerer RAAS/nephrylysin-målrettede legemidler blant utviklende behandlingsvalg. |
+| [34431635](https://pubmed.ncbi.nlm.nih.gov/34431635/) | 2021 | Oversikt | Rev Med Suisse | Diskuterer potensiell rolle av sacubitril/valsartan i type 2-diabetes, inkludert glykemiske og renale effekter. |
+| [35992034](https://pubmed.ncbi.nlm.nih.gov/35992034/) | 2022 | Dyrestudie | Diabetes Metab Syndr Obes | Sacubitril/valsartan forbedret progresjon av tidlig diabetisk nefropati hos rotter via NLRP3-inflammasom-inhibisjon. |
+| [36589853](https://pubmed.ncbi.nlm.nih.gov/36589853/) | 2022 | Dyrestudie | Front Endocrinol | Sacubitril/valsartan forbedret diabetisk nyresykdom og regulerte tarmflora hos mus. |
+| [32596035](https://pubmed.ncbi.nlm.nih.gov/32596035/) | 2020 | Dyrestudie | PeerJ | LCZ696 reduserte diabetisk nefropati via redusert oksidativstress, NF-κB-inflammasjon og glomerulosclerose hos rotter. |
+| [33870733](https://pubmed.ncbi.nlm.nih.gov/33870733/) | 2021 | Dyrestudie | Am J Physiol Renal Physiol | Differensielle nyrevernseffekter av sacubitril/valsartan vs. valsartan alene i db/db- og KKAy-diabetiske musemodeller. |
+| [37202215](https://pubmed.ncbi.nlm.nih.gov/37202215/) | 2023 | Dyrestudie | Nephrol Dial Transplant | Sacubitril/valsartan bedret renal tubulointerstitiell skade via økt renal plasmaflyt i en musemodell av diabetes med aldosteron-overskudd. |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Currently no marketing authorizations recorded in Norway — sacubitril (as sacubitril/valsartan) is not marketed under this regulatory dataset (0 licenses).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-drug interaction data are not currently available in this evidence pack (data gap DG001, flagged as **Blocking** — required before initial safety assessment can proceed).
+For øyeblikket er det ingen markedsføringstillatelser registrert i Norge — sacubitril (som sacubitril/valsartan) er ikke markedsført under dette regulatoriske datasettet (0 lisenser).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Se pakningsvedlegget for sikkerhetsinformasjon. Viktige advarsler, kontraindikasjoner og data om legemiddelinteraksjoner er for øyeblikket ikke tilgjengelige i denne evidenspakken (datakløft DG001, flagget som **Blokkering** — påkrevd før første sikkerhetsvurdering kan gjennomføres).
 
-**Rationale:**
-The mechanistic rationale and preclinical/observational evidence for sacubitril/valsartan in diabetic nephropathy are reasonably consistent (L3), but no completed trial has used renal outcomes as a primary endpoint, and the only purpose-built Phase 4 RCT (NCT06501651) has not yet started recruiting. Combined with the drug's currently unlicensed status in Norway and a blocking gap in labeling/safety data, a "Go" or "Guardrails" recommendation is premature.
+---
 
-**To proceed, the following is needed:**
-- Results from NCT06501651 (Hyper-Save Study) once recruitment and follow-up are complete
-- TFDA/Norwegian product labeling (warnings, contraindications, DDI) to close blocking gap DG001
-- DrugBank-sourced mechanism of action detail to close gap DG002
-- Confirmation of whether/when a Norway marketing authorization application is planned, given current unmarketed status
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Den mekanistiske begrunnelse og preklinisk/observasjonelle evidens for sacubitril/valsartan ved diabetisk nefropati er rimelig konsistent (L3), men ingen ferdig studie har brukt renale endepunkter som primær endepunkt, og den eneste spesialbygde fase 4-RCT (NCT06501651) har ennå ikke begynt rekruttering. Kombinert med legemidlets for øyeblikket ikke-markedsførte status i Norge og en blokkering av gap i merking/sikkerhetdata, er en «Go»- eller «Guardrails»-anbefaling prematur.
+
+**For å gå videre trengs følgende:**
+- Resultater fra NCT06501651 (Hyper-Save Study) når rekruttering og oppfølging er fullført
+- TFDA/Norsk produktmerking (advarsler, kontraindikasjoner, DDI) for å lukke blokkeringsgapet DG001
+- DrugBank-baserte mekanismedata for å lukke gap DG002
+- Bekreftelse av om/når en norsk markedsføringstillatelsessøknad er planlagt, gitt nåværende ikke-markedsført status
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

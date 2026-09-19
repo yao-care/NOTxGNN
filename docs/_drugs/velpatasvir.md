@@ -29,102 +29,103 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Velpatasvir: From Hepatitis C Virus Infection to Hepatitis B Virus Infection
+# Velpatasvir: Fra hepatitt C-virusinfeksjon til hepatitt B-virusinfeksjon
 
-## One-Sentence Summary
+## Oppsummering i en setning
 
-> Velpatasvir is an NS5A inhibitor originally developed as part of combination antiviral therapy (Sofosbuvir/Velpatasvir, brand Epclusa; and Sofosbuvir/Velpatasvir/Voxilaprevir, brand Vosevi) for chronic **Hepatitis C virus (HCV) infection**.
-> The TxGNN model predicts it may also be effective for **Hepatitis B virus (HBV) infection**,
-> with **26 clinical trials** and **20 publications** nominally linked to this prediction — however, on closer review nearly all of this evidence actually concerns HCV treatment, not HBV, which substantially weakens the case for repurposing.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Chronic Hepatitis C virus infection (component of Sofosbuvir/Velpatasvir [Epclusa] and Sofosbuvir/Velpatasvir/Voxilaprevir [Vosevi] combination regimens) |
-| Predicted New Indication | Hepatitis B virus infection |
-| TxGNN Prediction Score | 99.87% (rank 1936) |
-| Evidence Level | L4 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Velpatasvir er en NS5A-hemmer opprinnelig utviklet som del av kombinasjonsantiviroterapien (sofosbuvir/velpatasvir, merkenavn Epclusa; og sofosbuvir/velpatasvir/voxilaprevir, merkenavn Vosevi) for kronisk **hepatitt C-virusinfeksjon (HCV)**.
+> TxGNN-modellen forutsier at det også kan være effektivt for **hepatitt B-virusinfeksjon (HBV)**,
+> med **26 kliniske forsøk** og **20 publikasjoner** nominelt knyttet til denne prediksjonen — imidlertid, ved nærmere gjennomgang gjelder nesten alt dette beviset faktisk HCV-behandling, ikke HBV, noe som betydelig svekker saken for gjenbruk.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, a validated, structured mechanism-of-action record is not available for Velpatasvir in this evidence pack (flagged as a High-severity data gap). Based on the surrounding trial and literature context, Velpatasvir is known to act as a pangenotypic **HCV NS5A inhibitor**, used exclusively in fixed-dose combination with sofosbuvir (± voxilaprevir) for chronic hepatitis C across genotypes 1–6.
-
-Hepatitis C and Hepatitis B share only a superficial relationship: both are classified as "viral hepatitis" and cause liver inflammation, but they are caused by entirely unrelated viruses — HCV is a single-stranded RNA *Flaviviridae* virus that depends on an NS5A/NS5B replication complex, while HBV is a partially double-stranded DNA *Hepadnaviridae* virus that replicates via reverse transcriptase and a cccDNA reservoir in the nucleus. There is no known structural or functional homolog of NS5A in the HBV replication cycle.
-
-Because of this, the mechanistic rationale for repurposing is explicitly assessed as **weak** in this pack ("HBV 為 DNA 病毒、複製機轉與 HCV 完全不同，無同源標的，機轉關聯薄弱"). Consistent with this, when the underlying evidence is inspected, the large majority of "supporting" trials and publications are in fact HCV treatment studies that happen to co-occur with hepatitis B in the knowledge graph (e.g., HCV/HBV coinfection cohorts, or general "viral hepatitis" review articles) — not direct evidence of anti-HBV activity for Velpatasvir. This pattern is best interpreted as a knowledge-graph co-occurrence artifact rather than a genuine biological signal.
+| Punkt | Innhold |
+|------|--------|
+| Opprinnelig indikasjon | Kronisk hepatitt C-virusinfeksjon (komponent av sofosbuvir/velpatasvir [Epclusa] og sofosbuvir/velpatasvir/voxilaprevir [Vosevi] kombinasjonsbehandlinger) |
+| Forutsagt ny indikasjon | Hepatitt B-virusinfeksjon |
+| TxGNN-prediksjonsscore | 99.87% (rang 1936) |
+| Bevisnivå | L4 |
+| Markedsstatus i Norge | ✗ Ikke på markedet |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+For tiden er ingen validert, strukturert mekanismedokumentasjon tilgjengelig for velpatasvir i denne bevispakken (flagget som et kritisk datagap). Basert på den omkringliggende forsøks- og litteraturkonteksten, er velpatasvir kjent for å virke som en pangenotypisk **HCV NS5A-hemmer**, brukt utelukkende i fastdose-kombinasjon med sofosbuvir (± voxilaprevir) for kronisk hepatitt C på tvers av genotyper 1–6.
+
+Hepatitt C og hepatitt B deler kun et overfladisk forhold: begge er klassifisert som «virale hepatitter» og forårsaker leverinflammasjon, men de forårsakes av helt urelaterte virus — HCV er et enkeltstrengnet RNA-virus av typen *Flaviviridae* som er avhengig av en NS5A/NS5B-replikasjonskompleks, mens HBV er et delvis dobbeltstrengnet DNA-virus av typen *Hepadnaviridae* som replikeres via reverse transcriptase og et cccDNA-reservoir i cellekjernen. Det er ingen kjent strukturell eller funksjonell homolog av NS5A i HBV-replikasjonssyklusen.
+
+På grunn av dette blir den mekanistiske begrunnelsen for gjenbruk eksplisitt vurdert som **svak** i denne pakken ("HBV 為 DNA 病毒、複製機轉與 HCV 完全不同、無同源標的、機轉關聯薄弱"). I samsvar med dette viser en gjennomgang av det underliggende beviset at det store flertallet av «støttende» forsøk og publikasjoner faktisk er HCV-behandlingsstudier som tilfeldigvis oppstår sammen med hepatitt B i kunnskapsgrafen (f.eks. HCV/HBV-koinfeksjonkohorter, eller generelle «virale hepatitter»-reviewartikler) — ikke direkte bevis for anti-HBV-aktivitet for velpatasvir. Dette mønsteret tolkes best som et kunnskapsgraff-samforekomstartefakt snarere enn et genuint biologisk signal.
+
+---
+
+## Bevis fra kliniske forsøk
+
+| Forsøknummer | Fase | Status | Rekruttering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT04997564](https://clinicaltrials.gov/study/NCT04997564) | Phase 4 | Unknown | 120 | 12-week SOF/VEL for HCV/HBV co-infected patients, with prophylactic tenofovir alafenamide (TAF) to prevent HBV reactivation — the only trial in this set that directly addresses HBV management, but as a *reactivation-prevention* strategy, not as a Velpatasvir efficacy study against HBV. |
-| [NCT02996682](https://clinicaltrials.gov/study/NCT02996682) | Phase 3 | Completed | 102 | SOF/VEL ± ribavirin for chronic **HCV** infection with decompensated cirrhosis. |
-| [NCT02201901](https://clinicaltrials.gov/study/NCT02201901) | Phase 3 | Completed | 268 | SOF/VEL FDC for chronic **HCV** with Child-Pugh Class B cirrhosis. |
-| [NCT02625909](https://clinicaltrials.gov/study/NCT02625909) | Phase 3 | Completed | 222 | Shortened SOF/VEL interferon-free therapy for recently acquired **HCV** in people who inject drugs and HIV coinfection. |
-| [NCT01858766](https://clinicaltrials.gov/study/NCT01858766) | Phase 2 | Completed | 379 | SOF + VEL ± ribavirin in treatment-naive chronic **HCV** (genotypes 1–6). |
-| [NCT04695769](https://clinicaltrials.gov/study/NCT04695769) | Phase 4 | Completed | 281 | Ribavirin + SOF/VEL/VOX in **HCV** non-responder retreatment. |
-| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Phase 4 | Completed | 87 | Cardiovascular outcomes after **HCV** eradication with DAAs in HIV/HCV coinfection. |
-| [NCT02533427](https://clinicaltrials.gov/study/NCT02533427) | Phase 1 | Completed | 15 | Drug interaction study: effect of SOF/VEL/VOX on a hormonal contraceptive; not disease-specific. |
-| [NCT03570112](https://clinicaltrials.gov/study/NCT03570112) | N/A | Completed | 40 | Natural history and vertical transmission of chronic **HCV** in pregnancy, treated postpartum with Epclusa. |
-| [NCT05016609](https://clinicaltrials.gov/study/NCT05016609) | Phase 4 | Unknown | 1800 | Point-of-care **HCV** testing/treatment model among people who inject drugs. |
+| [NCT04997564](https://clinicaltrials.gov/study/NCT04997564) | Fase 4 | Ukjent | 120 | 12-ukers SOF/VEL for HCV/HBV-koinfiserte pasienter, med profylaktisk tenofovir alafenamid (TAF) for å forhindre HBV-reaktivering — det eneste forsøket i dette settet som direkte adresserer HBV-behandling, men som en *reaktiveringsprevensjon*-strategi, ikke som en velpatasvir-effektivitetsstudie mot HBV. |
+| [NCT02996682](https://clinicaltrials.gov/study/NCT02996682) | Fase 3 | Avsluttet | 102 | SOF/VEL ± ribavirin for kronisk **HCV**-infeksjon med dekompensert sirrhose. |
+| [NCT02201901](https://clinicaltrials.gov/study/NCT02201901) | Fase 3 | Avsluttet | 268 | SOF/VEL FDC for kronisk **HCV** med Child-Pugh klasse B sirrhose. |
+| [NCT02625909](https://clinicaltrials.gov/study/NCT02625909) | Fase 3 | Avsluttet | 222 | Forkortet SOF/VEL interferon-fri terapi for nylig ervervet **HCV** hos personer som injiserer narkotika og HIV-koinfeksjon. |
+| [NCT01858766](https://clinicaltrials.gov/study/NCT01858766) | Fase 2 | Avsluttet | 379 | SOF + VEL ± ribavirin hos behandlingsnaive kronisk **HCV** (genotyper 1–6). |
+| [NCT04695769](https://clinicaltrials.gov/study/NCT04695769) | Fase 4 | Avsluttet | 281 | Ribavirin + SOF/VEL/VOX hos **HCV**-non-responder gjenbehandling. |
+| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Fase 4 | Avsluttet | 87 | Kardiovaskulære utfall etter **HCV**-utryddelse med DAA-er hos HIV/HCV-koinfeksjon. |
+| [NCT02533427](https://clinicaltrials.gov/study/NCT02533427) | Fase 1 | Avsluttet | 15 | Legemiddelinteraksjonsstudie: effekt av SOF/VEL/VOX på hormonell prevensjon; ikke sykdomsspesifikk. |
+| [NCT03570112](https://clinicaltrials.gov/study/NCT03570112) | N/A | Avsluttet | 40 | Naturlig historie og vertikal overføring av kronisk **HCV** under graviditet, behandlet postpartum med Epclusa. |
+| [NCT05016609](https://clinicaltrials.gov/study/NCT05016609) | Fase 4 | Ukjent | 1800 | Point-of-care **HCV**-testing/-behandlingsmodell blant personer som injiserer narkotika. |
 
-⚠️ **Relevance note:** Of the 26 trials retrieved under this prediction, only one (NCT04997564) touches HBV at all, and even that is a prophylaxis-against-reactivation design, not a treatment trial of Velpatasvir for HBV. All others are HCV-specific trials that were matched to this prediction through shared "viral hepatitis" context rather than direct HBV evidence.
+⚠️ **Relevansnotat:** Av de 26 forsøkene som ble hentet under denne prediksjonen, berører bare ett (NCT04997564) HBV i det hele tatt, og selv det er en design for profylakse mot reaktivering, ikke en behandlingsprøve av velpatasvir for HBV. Alle andre er HCV-spesifikke forsøk som ble matchet til denne prediksjonen gjennom delt «virale hepatitter»-kontekst snarere enn direkte HBV-bevis.
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [31542053](https://pubmed.ncbi.nlm.nih.gov/31542053/) | 2019 | Case Report | J Med Case Rep | HBV reactivation (with an HBsAg immune-escape mutant) in an HBcAb-positive patient while being treated with sofosbuvir/velpatasvir for HCV — a safety signal, not evidence of anti-HBV efficacy. |
-| [34092970](https://pubmed.ncbi.nlm.nih.gov/34092970/) | 2021 | Review | World J Gastroenterol | Reviews pediatric HBV and HCV management; notes HCV DAAs (including SOF/VEL) are curative, while HBV treatment remains non-curative and mechanistically distinct. |
-| [29369303](https://pubmed.ncbi.nlm.nih.gov/29369303/) | 2018 | Conference Report | AIDS Rev | International Conference on Viral Hepatitis 2017 report covering global HBV and HCV burden and eradication roadmaps — general context, no drug-specific HBV data. |
-| [41734217](https://pubmed.ncbi.nlm.nih.gov/41734217/) | 2025 | Retrospective | Klin Mikrobiol Infekc Lek | Retrospective review of antiviral treatment for chronic HBV and HCV in children in Ostrava; HBV and HCV therapies discussed separately. |
-| [40414600](https://pubmed.ncbi.nlm.nih.gov/40414600/) | 2025 | Cross-sectional | Ann Hepatol | Global pricing comparison of HBV and HCV antiviral therapies; no efficacy data. |
-| [32935438](https://pubmed.ncbi.nlm.nih.gov/32935438/) | 2021 | Cohort | J Viral Hepat | Myanmar HCV treatment program; HBV-coinfected participants were treated concurrently with **tenofovir** (not velpatasvir) alongside SOF/VEL for their HCV. |
-| [39735164](https://pubmed.ncbi.nlm.nih.gov/39735164/) | 2024 | Real-world Cohort | J Virus Erad | Real-life SOF/VEL effectiveness/safety in Chinese HCV patients, including those with HCV/HBV coinfection; focus remains on HCV clearance. |
-| [35248213](https://pubmed.ncbi.nlm.nih.gov/35248213/) | 2022 | Cohort | Lancet Gastroenterol Hepatol | SHARED-3 trial: SOF/VEL safety and efficacy in treatment-naive **HCV** genotype 4 patients in Rwanda. |
-| [33217040](https://pubmed.ncbi.nlm.nih.gov/33217040/) | 2021 | Real-world Cohort | J Gastroenterol Hepatol | Real-world SOF/VEL ± ribavirin efficacy/safety in **HCV** genotype 3 patients. |
-| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | Review | Clin Pharmacokinet | PK/PD review of HCV DAA regimens including sofosbuvir/velpatasvir; HCV-specific. |
+| [31542053](https://pubmed.ncbi.nlm.nih.gov/31542053/) | 2019 | Kasusrapport | J Med Case Rep | HBV-reaktivering (med en HBsAg-immunundvikingsmutant) hos en HBcAb-positiv pasient under behandling med sofosbuvir/velpatasvir for HCV — et sikkerhetssignal, ikke bevis for anti-HBV-effektivitet. |
+| [34092970](https://pubmed.ncbi.nlm.nih.gov/34092970/) | 2021 | Gjennomgang | World J Gastroenterol | Gjennomgår pediatrisk HBV- og HCV-behandling; merker at HCV-DAA-er (inkludert SOF/VEL) er kurative, mens HBV-behandling forblir ikke-kurativ og mekanistisk distinkt. |
+| [29369303](https://pubmed.ncbi.nlm.nih.gov/29369303/) | 2018 | Konferenserapport | AIDS Rev | Internasjonal konferanserapport om viral hepatitt 2017 som dekker global HBV- og HCV-byrde og utryddelsesveikart — generell kontekst, ingen legemiddel-spesifikk HBV-data. |
+| [41734217](https://pubmed.ncbi.nlm.nih.gov/41734217/) | 2025 | Retrospektiv | Klin Mikrobiol Infekc Lek | Retrospektiv gjennomgang av antiviral behandling for kronisk HBV og HCV hos barn i Ostrava; HBV- og HCV-terapi diskuteres separat. |
+| [40414600](https://pubmed.ncbi.nlm.nih.gov/40414600/) | 2025 | Tverrsnittsstudie | Ann Hepatol | Global prissammenlikning av HBV- og HCV-antivirale terapi; ingen effektivitetsdata. |
+| [32935438](https://pubmed.ncbi.nlm.nih.gov/32935438/) | 2021 | Kohort | J Viral Hepat | Myanmar HCV-behandlingsprogram; HBV-koinfiserte deltakere ble behandlet samtidig med **tenofovir** (ikke velpatasvir) sammen med SOF/VEL for deres HCV. |
+| [39735164](https://pubmed.ncbi.nlm.nih.gov/39735164/) | 2024 | Real-verdens kohort | J Virus Erad | Real-verdens SOF/VEL-effektivitet/-sikkerhet hos kinesiske HCV-pasienter, inkludert de med HCV/HBV-koinfeksjon; fokus forblir på HCV-utklaring. |
+| [35248213](https://pubmed.ncbi.nlm.nih.gov/35248213/) | 2022 | Kohort | Lancet Gastroenterol Hepatol | SHARED-3-forsøk: SOF/VEL-sikkerhet og effektivitet hos behandlingsnaive **HCV** genotype 4-pasienter i Rwanda. |
+| [33217040](https://pubmed.ncbi.nlm.nih.gov/33217040/) | 2021 | Real-verdens kohort | J Gastroenterol Hepatol | Real-verdens SOF/VEL ± ribavirin-effektivitet/-sikkerhet hos **HCV** genotype 3-pasienter. |
+| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | Gjennomgang | Clin Pharmacokinet | PK/PD-gjennomgang av HCV DAA-regimer inkludert sofosbuvir/velpatasvir; HCV-spesifikk. |
 
-⚠️ **Relevance note:** Only PMID 31542053 discusses HBV directly, and it describes a reactivation risk rather than therapeutic benefit. The remaining literature is either HCV-specific or discusses HBV and HCV in parallel without providing mechanistic or clinical evidence that Velpatasvir treats HBV.
-
----
-
-## Norway Market Information
-
-Velpatasvir currently has **no marketing authorization on file in Norway** (0 licenses recorded). It is only known globally as a component of fixed-dose combination products (e.g., Epclusa: sofosbuvir/velpatasvir; Vosevi: sofosbuvir/velpatasvir/voxilaprevir), both indicated for chronic hepatitis C — no monotherapy or HBV-indicated product exists.
+⚠️ **Relevansnotat:** Bare PMID 31542053 diskuterer HBV direkte, og det beskriver en reaktiveringsrisiko snarere enn terapeutisk fordel. Den gjenværende litteraturen er enten HCV-spesifikk eller diskuterer HBV og HCV parallelt uten å gi mekanistisk eller klinisk bevis for at velpatasvir behandler HBV.
 
 ---
 
-## Safety Considerations
+## Markedsinformasjon for Norge
 
-Please refer to the package insert for safety information. (TFDA label warnings/contraindications and DrugBank DDI data are not currently available for this candidate — see Next Steps.)
+Velpatasvir har for tiden **ingen markedsautorisasjon registrert i Norge** (0 lisenser registrert). Det er globalt kun kjent som komponent av fastdose-kombinasjonsprodukter (f.eks. Epclusa: sofosbuvir/velpatasvir; Vosevi: sofosbuvir/velpatasvir/voxilaprevir), begge indisert for kronisk hepatitt C — intet monopreparatprodukt eller HBV-indisert produkt finnes.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Se pakningsvedlegget for sikkerhetsinformasjon. (TFDA-etikettvarsler/kontraindikasjoner og DrugBank DDI-data er for tiden ikke tilgjengelig for denne kandidaten — se Neste trinn.)
 
-**Rationale:**
-Although a substantial volume of trials and publications is nominally linked to this prediction, almost all of it evaluates Velpatasvir's established use in HCV rather than HBV, and there is no known homologous drug target between the HCV NS5A protein and the HBV replication machinery. The evidence level (L4) reflects mechanism-level plausibility at best, not a validated therapeutic signal, and the pack's own scoring assigns this candidate "Hold." The nine lower-ranked candidates in this evidence pack (Hepatitis E, Hepatitis A, animal viral hepatitis, Omsk hemorrhagic fever, Kyasanur forest disease, HIV, feline AIDS, SIV infection, and an unrelated neurodevelopmental disorder) show even weaker or entirely absent direct evidence and are similarly held or flagged as noise/research-question only.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory label data (warnings, contraindications) — currently a blocking data gap (DG001)
-- Confirmed DrugBank mechanism-of-action record (DG002)
-- In vitro or preclinical evidence of Velpatasvir activity against HBV replication (e.g., cccDNA transcription, polymerase inhibition) before any further clinical consideration
-- Re-triage of the clinical trial/literature evidence set to remove HCV-only mismatches and identify any genuinely HBV-specific data, if such data exist
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Selv om et betydelig volum av forsøk og publikasjoner nominelt er knyttet til denne prediksjonen, evaluerer nesten alle det etablerte bruket av velpatasvir ved HCV snarere enn HBV, og det er ingen kjent homolog medikamentmål mellom HCV NS5A-proteinet og HBV-replikasjonsmaskineriet. Bevisnivået (L4) gjenspeiler mekanismenivå-plausibilitet i beste fall, ikke et validert terapeutisk signal, og pakken som sådan vurderer denne kandidaten til «Avvent». De ni lavere-rangerte kandidatene i denne bevispakken (Hepatitt E, Hepatitt A, dyrevirale hepatitter, Omsk hemoragisk feber, Kyasanur Forest-sykdom, HIV, feline AIDS, SIV-infeksjon, og en urelatert nevrutviklingsforstyrrrelse) viser enda svakere eller helt fraværende direkte bevis og er tilsvarende avvent eller flagget som støy/kun forskningsspørsmål.
+
+**For å fortsette, trengs følgende:**
+- TFDA/reguleringsmessig etikett-data (varsler, kontraindikasjoner) — for tiden en blokkerende datagap (DG001)
+- Bekreftet DrugBank mekanismedokumentasjon (DG002)
+- In vitro eller preklinisk bevis for velpatasvir-aktivitet mot HBV-replikasjon (f.eks. cccDNA-transkripsjon, polymerase-hemming) før videre klinisk vurdering
+- Ny vurdering av det kliniske forsøks-/litteraturbevissettet for å fjerne HCV-kun-feilsamsvar og identifisere eventuelt genuint HBV-spesifikke data, hvis slike data finnes
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

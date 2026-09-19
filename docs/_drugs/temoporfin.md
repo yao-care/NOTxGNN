@@ -29,71 +29,72 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Temoporfin: From Head and Neck Squamous Cell Carcinoma (PDT) to Nasopharyngeal Teratoma
+# Temoporfin: Fra plateskivecellekarsinom i hode og hals (PDT) til nasofaryks teratom
 
-## One-Sentence Summary
+## Sammenfattelse i én setning
 
-Temoporfin (mTHPC/Foscan) is a photosensitizer originally used for photodynamic therapy (PDT) of head and neck squamous cell carcinoma. The TxGNN model predicts potential efficacy for **Nasopharyngeal Teratoma**, but currently **no clinical trials** and **no literature** support this specific prediction.
+Temoporfin (mTHPC/Foscan) er en fotosensitizer opprinnelig brukt for fotodynamisk terapi (PDT) av plateskivecellekarsinom i hode og hals. TxGNN-modellen forutsier potensiell effektivitet for **Nasofaryks teratom**, men for tiden **ingen kliniske forsøk** og **ingen litteratur** støtter denne spesifikke prediksjonen.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Head and neck squamous cell carcinoma (photodynamic therapy) — inferred from evidence-pack rationale; no Norway license record on file |
-| Predicted New Indication | Nasopharyngeal Teratoma |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Plateskivecellekarsinom i hode og hals (fotodynamisk terapi) — utledet fra evidenspakkens begrunnelse; ingen norsk lisenspost på fil |
+| Forutsagt ny indikasjon | Nasofaryks teratom |
+| TxGNN-prediksjonspoengsum | 99.78% |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Venter |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed DrugBank mechanism-of-action data is currently unavailable (data gap). Based on information embedded in the evidence pack, temoporfin is a photosensitizer that, upon light activation at a specific wavelength, generates singlet oxygen causing tumor cell necrosis/apoptosis — the established mechanism behind its approved use in photodynamic therapy for head and neck squamous cell carcinoma.
+Detaljerte DrugBank mekanisme-for-virkning-data er for tiden ikke tilgjengelig (datakløft). Basert på informasjon innebygget i evidenspakken, er temoporfin en fotosensitizer som, ved lysaktivering ved en spesifikk bølgelengde, genererer singlet oksygen som forårsaker tumorcellenekrose/apoptose — den etablerte mekanismen bak dens godkjente bruk i fotodynamisk terapi for plateskivecellekarsinom i hode og hals.
 
-Nasopharyngeal teratoma, however, is predominantly a germ-cell-derived tumor rather than a superficial mucosal squamous lesion. The evidence pack's own mechanistic assessment for this candidate is weak: teratomas are not a typical PDT target, and light delivery to this tumor type is not well established.
+Nasofaryks teratom er imidlertid først og fremst en tumortype avledet fra kjønnsceller snarere enn en overfladisk mucøs plateskivelesjoner. Evidenspakkens egen mekanistiske vurdering for denne kandidaten er svak: teratomer er ikke et typisk PDT-mål, og lyslevering til denne tumortypen er ikke godt etablert.
 
-This is reflected in the pack's mechanistic-link note: *"畸胎瘤非典型光動力治療標的（多為生殖細胞來源腫瘤，非黏膜表淺鱗狀上皮病灶），機轉關聯薄弱，無實證支持。"* No clinical trials or publications currently support extending temoporfin PDT to this indication.
+Dette reflekteres i pakkens mekanisme-koblingsnotat: *"畸胎瘤非典型光動力治療標的（多為生殖細胞來源腫瘤，非黏膜表淺鱗狀上皮病灶），機轉關聯薄弱，無實證支持。"* Ingen kliniske forsøk eller publikasjoner støtter for tiden utvidelsen av temoporfin PDT til denne indikasjonen.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøk
 
-Currently no related clinical trials registered
+For tiden ingen relaterte kliniske forsøk registrert
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available
+For tiden ingen relatert litteratur tilgjengelig
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Temoporfin currently holds **no marketing authorization** in Norway (market status: not marketed; 0 authorizations on file). No product/dosage-form data is available for this market.
+Temoporfin har for tiden **ingen markedsføringstillatelse** i Norge (markedsstatus: ikke markedsført; 0 godkjenninger på fil). Ingen produkt-/doseringsformdata er tilgjengelig for dette markedet.
 
-## Cytotoxicity
+## Cytotoksisitet
 
-Temoporfin is used as a photosensitizing agent for cancer photodynamic therapy, so cytotoxicity considerations are noted, though its mechanism (light-activated singlet-oxygen generation) differs from conventional systemic cytotoxic chemotherapy.
+Temoporfin brukes som et fotosensitiviserende middel for kreft fotodynamisk terapi, så cytotoksisitetshensyn er notert, selv om mekanismen (lysaktiverte singlet-oksygenerasjon) er forskjellig fra konvensjonell systemisk cytotoksisk kjemoterapi.
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Photodynamic therapy agent (photosensitizer) — does not map cleanly to conventional cytotoxic/targeted/immunotherapy categories; localized, light-dependent cytotoxicity |
-| Myelosuppression Risk | Not expected to be significant — mechanism is local phototoxicity rather than systemic bone-marrow-active cytotoxicity; formal toxicity data not available (data gap), please confirm against package insert |
-| Emetogenicity Classification | Low (localized phototoxic mechanism; not typical of emetogenic systemic chemotherapy) |
-| Monitoring Items | Skin/eye photosensitivity precautions (light avoidance post-injection), airway patency monitoring for head/neck PDT (post-treatment swelling risk noted in related literature), liver function |
-| Handling Protection | Patient-level light-protection protocol required post-administration; standard cytotoxic-drug handling classification not confirmed (data gap) — please refer to the package insert |
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitetsklassifisering | Fotodynamisk terapi-middel (fotosensitizer) — kartlegges ikke rent til konvensjonelle cytotoksiske/målrettede/immunoterapikategorier; lokalisert, lysavhengig cytotoksisitet |
+| Risiko for myelosuppresjon | Ikke forventet å være betydelig — mekanismen er lokal fototoksisitet snarere enn systemisk beinnemark-aktiv cytotoksisitet; formelle toksisitetsdata ikke tilgjengelig (datakløft), vennligst bekreft mot pakningsvedlegg |
+| Emetogenitetsklassifisering | Lav (lokalisert fototoksisk mekanisme; ikke typisk for emetogen systemisk kjemoterapi) |
+| Overvåkingselementer | Forholdsregler for hud- og øyefotofølsomhet (lysunngåelse etter injeksjon), overvåking av åpne luftveier for hode-/hals-PDT (risiko for oppsvelling etter behandling notert i relatert litteratur), leverfunksjon |
+| Håndteringsbeskyttelse | Lysbeskyttelsesprotokoll på pasientnivå kreves etter administrasjon; standard håndteringsklassifisering for cytotoksiske midler ikke bekreftet (datakløft) — vennligst se pakningsvedlegg |
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Vennligst se pakningsvedlegg for sikkerhetsinformasjon.
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Venter**
 
-**Rationale:**
-The top-ranked prediction (Nasopharyngeal Teratoma) has no supporting clinical trials or literature, and the mechanistic rationale itself is assessed as weak (non-mucosal, non-squamous tumor type mismatched with PDT's superficial-illumination mechanism).
+**Begrunnelse:**
+Den topp-rangerte prediksjonen (Nasofaryks teratom) har ingen støttende kliniske forsøk eller litteratur, og den mekanistiske begrunnelsen selv er vurdert som svak (ikke-mucøs, ikke-plateskivecelltumortype uoverensstemmende med PDTs overfladiske belysningsmekanism).
 
-**To proceed, the following is needed:**
-- Formal DrugBank/TFDA-equivalent MOA, warnings, and contraindication data (currently blocking safety pre-assessment per DG001/DG002)
-- Any preclinical or case-level evidence specifically addressing light delivery feasibility to nasopharyngeal/germ-cell tumors
-- Consider redirecting research priority toward the pipeline's higher-evidence candidates (e.g., benign neoplasm of tongue, benign neoplasm of floor of mouth, cystic neoplasm — all L3, S2, with cohort/case-series PDT literature), which are mechanistically consistent with temoporfin's established head-and-neck mucosal PDT use
+**For å fortsette er følgende nødvendig:**
+- Formelle DrugBank/TFDA-ekvivalent virkningsmekanism, advarsler og kontraindikasjondata (for tiden blokkering av sikkerhetsvurdering før operasjon per DG001/DG002)
+- Eventuelle prekliniske eller saksnivå bevis som spesifikt adresserer lysleveringsfrihet til nasofaryks/kjønnscelle-tumorer
+- Vurder å omdirigere forskningsprioritet mot rørledningens kandidater med høyere evidensgrad (f.eks. godartede neoplasmer av tunge, godartede neoplasmer av munngulv, cystisk neoplasme — alle L3, S2, med kohorte-/case-serien PDT-litteratur), som er mekanistisk konsistent med temoporfins etablerte hode- og halsmucøs PDT-bruk
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,81 +29,82 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Ropeginterferon Alfa-2b: Original Indication Not on Record → Laubry-Pezzi Syndrome (Low-Confidence Prediction)
+# Ropeginterferon alfa-2b: Originalindikasjon ikke dokumentert → Laubry-Pezzis syndrom (lavtillitsestimal prediksjon)
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> The original approved indication for ropeginterferon alfa-2b is not available in this evidence pack (`original_indications` is empty; MOA marked as data gap).
-> The TxGNN model's top-ranked prediction is **Laubry-Pezzi syndrome** (a congenital heart defect), with a score of **99.93%** but
-> **zero supporting clinical trials and zero literature**. The evidence pack itself flags this as a likely false positive from embedding-space overfitting rather than a genuine repurposing signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available (data gap — `original_indications` is empty) |
-| Predicted New Indication | Laubry-Pezzi syndrome |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
-| Norway Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Den godkjente originalindikasjon for ropeginterferon alfa-2b er ikke tilgjengelig i denne bevispakken (`original_indications` er tom; MOA merket som datakløft).
+> Modellens topprankerte prediksjon fra TxGNN er **Laubry-Pezzi syndrom** (en medfødt hjertelesjed), med en skår på **99.93%** men
+> **null støttende kliniske studier og null litteratur**. Bevispakken selv flagger dette som en sannsynlig falsk positiv fra overfitting av embeddings-rom snarere enn et genuint omforbrukssignal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available for ropeginterferon alfa-2b (marked `[Data Gap]` in this evidence pack). No original indication is on record either, which prevents any assessment of mechanistic continuity between an established use and the predicted new indication.
-
-More importantly, the model's own rationale field for this top prediction states explicitly that Laubry-Pezzi syndrome — a congenital cardiac malformation (ventricular septal defect with overriding aorta) — has **no known mechanistic relationship** to interferon's immunomodulatory, antiviral, or antiproliferative activity, and that the extremely high TxGNN score combined with zero clinical or literature evidence is a "typical false-positive pattern from embedding-space overfitting." The same pattern (very high score, zero evidence, no plausible mechanism) repeats across ranks 1–5 and 7–10, all of which are structural/congenital or chromosomal disorders unrelated to interferon pharmacology.
-
-**⚠️ Notable data quality anomaly at rank 6:** The candidate "disorder of fucoglycosan synthesis" is the only entry in the top 10 with attached literature (4 papers, L2 evidence) — but all 4 papers are about **polycythemia vera (PV)** and ropeginterferon alfa-2b's established JAK2V617F-suppressing, interferon-α-mediated mechanism, not about the labeled rare metabolic disease. This strongly suggests a disease-ontology labeling error in the underlying knowledge graph rather than a genuine link to fucoglycosan metabolism. It is worth noting for context that ropeginterferon alfa-2b (Besremi) is an interferon already used clinically for PV in other markets — this is not a novel prediction so much as a mislabeled instance of an existing, well-established indication.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Ikke tilgjengelig (datakløft — `original_indications` er tom) |
+| Predikert ny indikasjon | Laubry-Pezzis syndrom |
+| TxGNN prediksjonsresultat | 99.93% |
+| Bevisnivå | L5 |
+| Status på det norske marked | Ikke markedsført (Ikke markedsført) |
+| Antall godkjenninger | 0 |
+| Anbefalt avgjørelse | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available
+For øyeblikket er detaljerte mekanisme-av-virkning-data ikke tilgjengelig for ropeginterferon alfa-2b (merket `[Data Gap]` i denne bevispakken). Ingen originalindikasjon er dokumentert heller, noe som hindrer enhver vurdering av mekanistisk kontinuitet mellom en etablert bruk og den predikerte nye indikasjonen.
 
-*(Note: the top-ranked candidate, Laubry-Pezzi syndrome, has no attached literature. The only literature in this evidence pack is attached to rank 6, "disorder of fucoglycosan synthesis," and concerns polycythemia vera rather than the labeled disease — see data quality note above.)*
+Enda viktigere, modellens eget begrunnelsesfelt for denne topprankerte prediksjonen oppgir eksplisitt at Laubry-Pezzis syndrom — en medfødt kardial malformasjon (ventrikkelsepto-defekt med overliggende aorta) — har **ingen kjent mekanistisk sammenheng** til interferons immunomodulerende, antiviral eller antiproliferativ virkning, og at den ekstremt høye TxGNN-skåren kombinert med null klinisk eller litteraturbevis er et "typisk falskt-positivt mønster fra overfitting av embeddings-rom". Det samme mønsteret (svært høy skår, null bevis, ingen plausibel mekanisme) gjentar seg over rangeringene 1–5 og 7–10, som alle er strukturelle/medfødte eller kromosomale lidelser uten tilknytning til interferons farmakologi.
 
----
-
-## Norway Market Information
-
-No marketing authorizations are currently on record for this drug (`total_licenses: 0`).
+**⚠️ Bemerkelsesverdig datakvalitetsavvik på rang 6:** Kandidaten "forstyrrelser i fucoglycosan-syntese" er den eneste oppføringen i topp 10 med tilknyttet litteratur (4 artikler, L2 bevis) — men alle 4 artikler handler om **polycythemia vera (PV)** og ropeginterferon alfa-2bs etablerte JAK2V617F-supprimerende, interferon-α-medierte mekanisme, ikke om den merket sjeldne metabolske sykdommen. Dette tyder sterkt på en merking-feil i sykdomsontologien i det underliggende kunnskapsgrafen snarere enn en genuin forbindelse til fucoglycosan-metabolisme. Det er verdt å merke seg i konteksten at ropeginterferon alfa-2b (Besremi) allerede er et interferon som brukes klinisk for PV i andre markeder — dette er ikke så mye en novell prediksjon som en feilaktig merket instans av en eksisterende, veletablert indikasjon.
 
 ---
 
-## Safety Considerations
+## Klinisk studiebevis
 
-Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and drug interaction data are all marked as data gaps in this evidence pack; DDI query status is "not found.")*
+Ingen relaterte kliniske studier er for tiden registrert
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Ingen relatert litteratur er for tiden tilgjengelig
 
-**Rationale:**
-Every prediction in this batch is L5 (model score only, no clinical trials, no literature) except rank 6, whose only literature does not actually correspond to its labeled disease. The top-ranked candidate is explicitly flagged in its own rationale as a probable false positive. There is no basis to advance this candidate to safety or clinical review.
+*(Merknad: topprankerte kandidaten, Laubry-Pezzis syndrom, har ingen tilknyttet litteratur. Den eneste litteraturen i denne bevispakken er knyttet til rang 6, "forstyrrelser i fucoglycosan-syntese", og handler om polycythemia vera snarere enn den merket sykdommen — se datakvalitetsmerknad ovenfor.)*
 
-**To proceed, the following is needed:**
-- TFDA/EMA package insert data (warnings, contraindications) — currently a **blocking** data gap (DG001)
-- MOA data via DrugBank API — currently a **high-severity** data gap (DG002)
-- Confirmation of the drug's actual original approved indication(s), since `original_indications` is empty
-- Correction of the disease-ontology mapping for rank 6 ("disorder of fucoglycosan synthesis" vs. its attached polycythemia vera literature) — this may reveal a real, already-established indication worth tracking separately rather than treating as a novel repurposing candidate
-- Re-run or re-validate the TxGNN prediction batch for this drug once the ontology mapping issue is resolved, as the current top-10 list does not appear to reflect real signal
+---
+
+## Markedsinformasjon for Norge
+
+Ingen markedsføringstillatelser er for tiden dokumentert for dette legemidlet (`total_licenses: 0`).
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+*(Viktige advarsler, kontraindikasjoner og legemiddelinteraksjondata er alle merket som datakløfter i denne bevispakken; DDI-spørringsstatus er "ikke funnet".)*
+
+---
+
+## Konklusjon og neste trinn
+
+**Avgjørelse: Avvent**
+
+**Begrunnelse:**
+Hver prediksjon i denne gruppen er L5 (modellresultat bare, ingen kliniske studier, ingen litteratur) bortsett fra rang 6, hvis eneste litteratur faktisk ikke tilsvarer sin merket sykdom. Topprankerte kandidaten er eksplisitt flagget i sin egen begrunnelse som en sannsynlig falsk positiv. Det er ingen grunnlag for å fremme denne kandidaten til sikkerhets- eller klinisk gjennomgang.
+
+**For å komme videre, er følgende nødvendig:**
+- TFDA/EMA-pakningsvedleggsdata (advarsler, kontraindikasjoner) — for tiden en **blokkerende** datakløft (DG001)
+- MOA-data via DrugBank API — for tiden en **høy-alvorlighetsgrad** datakløft (DG002)
+- Bekrefting av legemidlets faktiske originalindikasjoner som godkjent, siden `original_indications` er tom
+- Korreksjon av sykdomsontologimappingen for rang 6 ("forstyrrelser i fucoglycosan-syntese" vs. dens tilknyttede polycythemia vera-litteratur) — dette kan avsløre en reell, allerede etablert indikasjon som er verdt å spore separat snarere enn å behandle som en novell omforbrukskandidat
+- Omkjøring eller revalidering av TxGNN-prediksjonsgruppen for dette legemidlet når ontologimappingsproblemet er løst, da den nåværende topp-10-listen ikke ser ut til å reflektere reelt signal
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

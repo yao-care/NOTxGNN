@@ -29,77 +29,78 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Mogamulizumab: From Cutaneous T-Cell Lymphoma to Prostatic Urethra Urothelial Carcinoma
+# Mogamulizumab: Fra kutane T-celleslymfomer til urotelialt karsinom i prostata-urinrør
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Mogamulizumab is a humanized anti-CCR4 monoclonal antibody historically associated with cutaneous T-cell lymphoma (CTCL)/Sézary syndrome (per the evidence pack's mechanistic notes; not present in the structured indication record).
-> The TxGNN model predicts it may be effective for **prostatic urethra urothelial carcinoma**,
-> but **0 clinical trials** and **0 publications** currently support this direction — this is a pure computational prediction.
+> Mogamulizumab er et humanisert anti-CCR4-monoklonalt antistoff historisk knyttet til kutane T-celleslymfomer (CTCL)/Sézarys syndrom (ifølge bevispakets mekanistiske notater; ikke til stede i det strukturerte `original_indications`-feltet).
+> TxGNN-modellen predikerer at det kan være effektivt for **urotelialt karsinom i prostata-urinrør**,
+> men **0 kliniske studier** og **0 publikasjoner** støtter for tiden denne retningen — dette er en ren beregningsbasert prediksjon.
 
-## Quick Overview
+## Kort oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Cutaneous T-cell lymphoma (CTCL) / Sézary syndrome — referenced only in the evidence-pack rationale text; not captured in the structured `original_indications` field |
-| Predicted New Indication | Prostatic urethra urothelial carcinoma |
-| TxGNN Prediction Score | 99.44% (rank 5955) |
-| Evidence Level | L5 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Kutane T-celleslymfomer (CTCL) / Sézarys syndrom — referert kun i bevispakets rasjonale-tekst; ikke fanget i det strukturerte `original_indications`-feltet |
+| Forutsagt ny indikasjon | Urotelialt karsinom i prostata-urinrør |
+| TxGNN prediksjonspoengsum | 99.44% (rang 5955) |
+| Bevisnivå | L5 |
+| Status på norsk marked | Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt avgjørelse | Utsett |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Structured mechanism-of-action data is not available for this drug (`original_moa: [Data Gap]`). However, the repurposing rationale attached to each candidate consistently describes mogamulizumab as a humanized anti-CCR4 monoclonal antibody that depletes CCR4-positive tumor-infiltrating regulatory T cells (Tregs) via antibody-dependent cellular cytotoxicity (ADCC), thereby relieving tumor-mediated immune suppression.
+Strukturerte virkemåte-data er ikke tilgjengelig for dette legemidlet (`original_moa: [Data Gap]`). Imidlertid beskriver rasjonale-teksten knyttet til hver kandidat konsekvent mogamulizumab som et humanisert anti-CCR4-monoklonalt antistoff som depletterer CCR4-positive tumor-infiltrerende regulatoriske T-celler (Tregs) via antisstoff-avhengig cellulær cytotoksisitet (ADCC), og derved lindrer tumor-formidlet immunsuppresjon.
 
-The predicted new indications — urothelial carcinomas of the prostatic urethra, renal pelvis, and bladder, plus several rare tumors (HHV8-related tumors, ectomesenchymoma, malignant granular cell skin tumor) — are linked to the original mechanism only through a general biological hypothesis: many solid tumors show CCR4+ Treg infiltration, and depleting these cells could theoretically restore anti-tumor immunity. None of the seven candidates have specific biomarker data, preclinical models, or clinical experience cited in this evidence pack to confirm CCR4/Treg involvement in these specific tumor types.
+De forutsatte nye indikasjonene — urotelialt karsinom i prostata-urinrør, nyrebækken og blæren, pluss flere sjeldne tumorer (HHV8-relaterte tumorer, ektomesenkymom, ondartad granulær celletumor i huden) — er knyttet til den opprinnelige mekanismen bare gjennom en generell biologisk hypotese: mange solide tumorer viser CCR4+ Treg-infiltrasjon, og depletering av disse cellene kunne teoretisk gjenopprette anti-tumor-immunitet. Ingen av de sju kandidatene har spesifikke biomarkør-data, prekliniske modeller eller klinisk erfaring sitert i denne bevispakningen for å bekrefte CCR4/Treg-involvering i disse spesifikke tumortyper.
 
-In short, this is a mechanistically plausible but entirely unvalidated extrapolation. The TxGNN score reflects network-based similarity in the knowledge graph, not experimental or clinical evidence.
+Kort sagt, dette er en mekanistisk plausibel men helt uvalidert ekstrapolasjon. TxGNN-poengsumet reflekterer nettverksbasert likhet i kunnskapsgrafen, ikke eksperimentell eller klinisk evidens.
 
-## Clinical Trial Evidence
+## Evidens fra kliniske studier
 
-Currently no related clinical trials registered
+Ingen relaterte kliniske studier er for tiden registrert
 
-## Literature Evidence
+## Litteratureviden
 
-Currently no related literature available
+Ingen relatert litteratur er for tiden tilgjengelig
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Mogamulizumab currently holds **no market authorizations in Norway** (`total_licenses: 0`, `market_status: Not marketed`). No product listings, dosage forms, or approved indication text are available in the evidence pack.
+Mogamulizumab har for tiden **ingen markedsautorisasjoner i Norge** (`total_licenses: 0`, `market_status: Not marketed`). Ingen produktoppføringer, doseringsformer eller godkjent indikasjonsstekst er tilgjengelig i bevispakningen.
 
-## Cytotoxicity
+## Cytotoksisitet
 
-Mogamulizumab is an antineoplastic biologic (anti-CCR4 monoclonal antibody, immunotherapy class); the section below is included accordingly.
+Mogamulizumab er et antineoplastisk biologikum (anti-CCR4-monoklonalt antistoff, immunterapiklasse); seksjonen nedenfor er inkludert tilsvarende.
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (anti-CCR4 monoclonal antibody; Treg-depleting mechanism, not a conventional cytotoxic agent) |
-| Myelosuppression Risk | Not characterized in this evidence pack. Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Low (typical for antibody-based immunotherapies, which generally carry minimal direct emetogenic potential) |
-| Monitoring Items | CBC, skin/mucocutaneous examination, infusion-reaction monitoring, and surveillance for immune-related adverse events (liver function, thyroid function, GI symptoms) — consistent with monoclonal antibody immunotherapy class |
-| Handling Protection | No cytotoxic hazardous-drug data provided; confirm handling requirements against institutional biologics/monoclonal antibody infusion protocols |
+| Element | Innhold |
+|---------|---------|
+| Klassifikasjon av cytotoksisitet | Immunterapi (anti-CCR4-monoklonalt antistoff; Treg-depleterende mekanisme, ikke et konvensjonelt cytotoksisk middel) |
+| Risiko for myelosuppresjon | Ikke karakterisert i denne bevispakningen. Vennligst se pakningsvedleggets advarsler og forholdsregler |
+| Klassifikasjon av emetogenitet | Lav (typisk for antisstoff-basert immunterapi, som generelt har minimal direkte emetogen potensial) |
+| Overvåkingspunkter | CBC, hud-/mukokutan undersøkelse, infusjonsreaksjonsovervåking og overvåking for immunrelaterte bivirkninger (leverfunksjon, skjoldbruskkirtel-funksjon, GI-symptomer) — i samsvar med monoklonalt antistoff-immunterapiklasse |
+| Håndteringsbeskyttelse | Ingen cytotoksisk farliglegemidler-data gitt; bekreft håndteringskrav mot institusjonelle biologikum/monoklonalt antistoff-infusjonsprotokoll |
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-> Note: This is a **Blocking** data gap (DG001 — TFDA/label warnings and contraindications unavailable), which by itself is sufficient to prevent progression past initial safety screening (S1).
+> Merk: Dette er en **blokkering** datakløft (DG001 — TFDA/etikett-advarsler og motindikasjoner utilgjengelig), som i seg selv er tilstrekkelig til å forhindre progresjon forbi initiell sikkerhetspreskåning (S1).
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Avgjørelse: Utsett**
 
-**Rationale:**
-All seven predicted indications sit at evidence level L5 (model prediction only, no trials or literature), the drug is not marketed in Norway, and a Blocking safety data gap (TFDA/label warnings and contraindications) prevents any safety pre-screening. There is currently no basis to advance beyond the hypothesis stage.
+**Begrunnelse:**
+Alle sju forutsagte indikasjonene ligger på bevisnivå L5 (modellprediksjon kun, ingen studier eller litteratur), legemidlet er ikke markedsført i Norge, og en blokkering datakløft (TFDA/regulatorisk etikett-data: advarsler, motindikasjoner) forhindrer enhver sikkerhetspreskåning. Det er for tiden ingen grunnlag for å avansere forbi hypotesestadiet.
 
-**To proceed, the following is needed:**
-- Resolve DG001: obtain TFDA/regulatory label data (warnings, contraindications, DDI)
-- Resolve DG002: confirm mechanism of action via DrugBank API (beyond the rationale-text description)
-- Confirm the drug's actual original approved indication(s) in structured form
-- Targeted literature/trial search for CCR4 expression or Treg infiltration in urothelial carcinoma and the other candidate tumor types
-- If any signal emerges, prioritize preclinical/biomarker studies before considering clinical evaluation
+**For å fortsette, er følgende nødvendig:**
+- Løs DG001: innhent TFDA/regulatorisk etikett-data (advarsler, motindikasjoner, DDI)
+- Løs DG002: bekreft virkemåte via DrugBank API (utover rasjonale-tekst-beskrivelsen)
+- Bekreft legemidlets faktiske opprinnelig godkjente indikasjon(er) i strukturert form
+- Målrettet litteratur-/forsøkssøk for CCR4-ekspresjon eller Treg-infiltrasjon i urotelialt karsinom og de andre kandidattumortypene
+- Hvis noe signal dukker opp, prioriter preklinisk/biomarkør-studier før du vurderer klinisk evaluering
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,82 +29,79 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-Using the evidence pack provided, here is the drug repurposing evaluation report.
+# Nilotinib: Fra kronisk myeloid leukemi til dermatofibrosarkom protuberans
 
----
+## Oppsummering i en setning
 
-# Nilotinib: From Chronic Myeloid Leukemia to Dermatofibrosarcoma Protuberans
+Nilotinib er en andregennerasjons tyrosinkinasehemmer opprinnelig utviklet for Philadelphia-kromosom-positiv kronisk myeloid leukemi (Ph+ CML). TxGNN-modellen predikerer at det kan være effektivt for **dermatofibrosarkom protuberans (DFSP)**, men denne retningen støttes for øyeblikket av bare **0 kliniske studier** og **1 publikasjon**, noe som betyr at evidensgrunnlaget er mekanistisk snarere enn klinisk på dette stadiet.
 
-## One-Sentence Summary
+## Rask oversikt
 
-Nilotinib is a second-generation tyrosine kinase inhibitor originally developed for Philadelphia chromosome-positive chronic myeloid leukemia (Ph+ CML). The TxGNN model predicts it may be effective for **Dermatofibrosarcoma Protuberans (DFSP)**, but this direction is currently supported by only **0 clinical trials** and **1 publication**, meaning the evidence base is mechanistic rather than clinical at this stage.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Kronisk myeloid leukemi (Ph+ CML)† |
+| Predikert ny indikasjon | Dermatofibrosarkom protuberans |
+| TxGNN-prediksjonspoeng | 99.31% |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | ✗ Ikke på markedet |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
-## Quick Overview
+† Ikke tilstede i `original_indications`/`original_moa`-feltene i evidenspakken (flagget som datakløft, DG002). Dette er basert på generelt kjent informasjon om nilotinib snarere enn på det leverte evidensmaterialet.
 
-| Item | Content |
-|------|------|
-| Original Indication | Chronic Myeloid Leukemia (Ph+ CML)† |
-| Predicted New Indication | Dermatofibrosarcoma Protuberans |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L4 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+## Hvorfor er denne prediksjonen rimelig?
 
-† Not present in the evidence pack's `original_indications`/`original_moa` fields (flagged as a data gap, DG002). This is based on generally known information about nilotinib rather than the supplied evidence pack.
+For øyeblikket er detaljerte mekanisme-av-virkning-data ikke tilgjengelig i evidenspakken (datakløft DG002). Basert på generelt kjent informasjon er nilotinib en andregennerasjons BCR-ABL-tyrosinkinasehemmer (TKI) hvis effektivitet ved Ph+-kronisk myeloid leukemi er veletablert; den har også anerkjent off-target-inhibitorisk aktivitet mot PDGFR-α/β og KIT.
 
-## Why is This Prediction Reasonable?
+Dermatofibrosarkom protuberans (DFSP) er et bløtvevssarkom som karakteristisk drives av en COL1A1-PDGFB-genfusjon, som forårsaker konstitutiv aktivering av PDGFR-β-signalveien. Imatinib, en førstegennerasjons TKI i samme farmakologiske klasse som nilotinib, er allerede en etablert behandling for irresektabelt eller metastatisk DFSP nettopp på grunn av sin anti-PDGFR-aktivitet. Dette skaper en plausibel mekanistisk forbindelse mellom nilotinibs kjente målprofil og DFSP-biologi.
 
-Currently, detailed mechanism of action data is not available in the evidence pack (data gap DG002). Based on generally known information, nilotinib is a second-generation BCR-ABL tyrosine kinase inhibitor (TKI) whose efficacy in Ph+ chronic myeloid leukemia is well established; it also has recognized off-target inhibitory activity against PDGFR-α/β and KIT.
+Det eneste hentede litteraturpunktet (PMID 29408302) gjennomgår den bredere rollen til småmolekyl PDGFR-inhibitorer — som en klasse — ved neoplastisk sykdom, noe som er konsistent med denne begrunnelsen, men gir ikke nilotinib-spesifikk eller DFSP-spesifikk klinisk resultatdata. Prediksjonen bør derfor betraktes som mekanistisk plausibel, men ikke ennå klinisk validert.
 
-Dermatofibrosarcoma protuberans (DFSP) is a soft-tissue sarcoma characteristically driven by a COL1A1-PDGFB gene fusion, which causes constitutive activation of the PDGFR-β signaling pathway. Imatinib, a first-generation TKI in the same pharmacological class as nilotinib, is already an established treatment for unresectable or metastatic DFSP precisely because of its anti-PDGFR activity. This creates a plausible mechanistic bridge between nilotinib's known target profile and DFSP biology.
+## Klinisk prøvebevis
 
-The single retrieved literature item (PMID 29408302) reviews the broader role of small-molecule PDGFR inhibitors — as a class — in neoplastic disease, which is consistent with this rationale but does not provide nilotinib-specific or DFSP-specific clinical outcome data. The prediction should therefore be regarded as mechanistically plausible but not yet clinically validated.
+Ingen relaterte kliniske studier er for øyeblikket registrert
 
-## Clinical Trial Evidence
+## Litteraturbevis
 
-Currently no related clinical trials registered
+| PMID | År | Type | Tidsskrift | Viktige funn |
+|------|-----|------|---------|---------|
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Oversikt | Pharmacological Research | Gjennomgår rollen til småmolekyl PDGFR-inhibitorer (en klasse som inkluderer nilotinib) i behandling av neoplastiske lidelser; støtter en mekanistisk, men ikke DFSP-spesifikk, begrunnelse for PDGFR-drevne tumorer |
 
-## Literature Evidence
+## Markedsinformasjon for Norge
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Review | Pharmacological Research | Reviews the role of small-molecule PDGFR inhibitors (a class that includes nilotinib) in treating neoplastic disorders; supports a mechanistic, but not DFSP-specific, rationale for PDGFR-driven tumors |
+Nilotinib er for øyeblikket ikke på markedet i Norge — ingen markedsføringssamtykker er registrert i evidenspakken.
 
-## Norway Market Information
+## Cytotoksisitet
 
-Nilotinib is currently not marketed in Norway — no marketing authorizations are recorded in the evidence pack.
+Nilotinib er et antineoplastisk middel (opprinnelig indikasjon er en hematologisk ondartelse, CML), så denne delen gjelder.
 
-## Cytotoxicity
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitetsklassifisering | Målrettet terapi (BCR-ABL/PDGFR/KIT-tyrosinkinasehemmer) |
+| Risiko for myelosuppresjon | Se advarsler og forsiktighetsregler i pakningsvedlegget |
+| Emetogenitetsklassifisering | Se advarsler og forsiktighetsregler i pakningsvedlegget |
+| Overvåkingselementer | Se advarsler og forsiktighetsregler i pakningsvedlegget |
+| Håndteringsbeskyttelse | Se advarsler og forsiktighetsregler i pakningsvedlegget |
 
-Nilotinib is an antineoplastic agent (original indication is a hematologic malignancy, CML), so this section applies.
+## Sikkerhetshensyn
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (BCR-ABL/PDGFR/KIT tyrosine kinase inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Se pakningsvedlegget for sikkerhetsinformasjon.
 
-## Safety Considerations
+## Konklusjon og neste trinn
 
-Please refer to the package insert for safety information.
+**Beslutning: Avvent**
 
-## Conclusion and Next Steps
+**Begrunnelse:**
+- TxGNN-poengsum er høyt, men det underliggende evidensgrunnlaget er begrenset til en enkelt mekanisme-klassegjennomgang med ingen DFSP-spesifikk eller nilotinib-spesifikk klinisk data, og null registrerte kliniske studier — noe som plasserer dette på Evidensnivå L4 (kun mekanisme).
+- Kritisk sikkerhetsinformasjon (TFDA/produktetikett-advarsler og kontraindikasjoner) er merket som en **blokkerende** datakløft (DG001), som per definisjon hindrer denne kandidaten fra å gå inn i S1-stadiet for sikkerhetsprelimær evaluering.
 
-**Decision: Hold**
+**For å fortsette, kreves følgende:**
+- TFDA-pakningsvedlegg-data (advarsler, kontraindikasjoner) — for øyeblikket blokkerende, må løses først
+- Bekreftet mekanisme-av-virkning (MOA) detalj fra DrugBank (datakløft DG002)
+- Sykdomsspesifikk bevis for nilotinib ved DFSP, særlig ved imatinib-resistente eller PDGFB-omgjorte tilfeller
+- Stoff-stoff-interaksjon (DDI) profil, for øyeblikket uløst (`not_found`)
+- Bekrefting av norsk markedsførings-/importvei, gitt at stoffet for øyeblikket ikke er på markedet
 
-**Rationale:**
-- The TxGNN score is high, but the underlying evidence base is limited to a single mechanism-class review article with no DFSP-specific or nilotinib-specific clinical data, and zero registered clinical trials — placing this at Evidence Level L4 (mechanism-only).
-- Critical safety information (TFDA/product label warnings and contraindications) is marked as a **Blocking** data gap (DG001), which by definition prevents this candidate from entering the S1 safety preliminary evaluation stage.
-
-**To proceed, the following is needed:**
-- TFDA package insert data (warnings, contraindications) — currently blocking, must be resolved first
-- Confirmed mechanism of action (MOA) detail from DrugBank (data gap DG002)
-- Disease-specific evidence for nilotinib in DFSP, particularly in imatinib-resistant or PDGFB-rearranged cases
-- Drug-drug interaction (DDI) profile, currently unresolved (`not_found`)
-- Confirmation of Norway marketing/import pathway, given the drug is not currently marketed
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

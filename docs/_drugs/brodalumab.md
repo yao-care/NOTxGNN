@@ -29,77 +29,78 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Brodalumab: From an Unspecified Original Indication to Strongyloidiasis (Flagged as a Reversed-Direction Signal)
+# Brodalumab: fra uspesifisert original indikasjon til strongyloidiasis (flagget som reversert-retnings signal)
 
-## One-Sentence Summary
+## Sammenfatning i én setning
 
-> Brodalumab's original indication is not recorded in this evidence pack, though it is known to act as an **IL-17RA antagonist**.
-> The TxGNN model's top prediction — **Strongyloidiasis** — is not supported by any clinical trials or literature, and the model's own mechanistic rationale indicates the association runs in the *opposite* direction: IL-17 blockade is a known **risk factor** for strongyloidiasis, not a treatment for it.
-> This is best read as a safety signal miscaptured as a repurposing opportunity, not a viable candidate.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not provided in this evidence pack (`original_indications` empty) |
-| Predicted New Indication | Strongyloidiasis ⚠️ (mechanistically reversed — see below) |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 (no clinical trials, no literature) |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+> Brodalumabs originale indikasjon er ikke registrert i denne evidenspakken, men det er kjent at det virker som en **IL-17RA antagonist**.
+> TxGNN-modellens toppprediksjon — **strongyloidiasis** — er ikke støttet av noen kliniske forsøk eller litteratur, og modellens egen mekanistiske begrunnelse indikerer at assosiasjonen går i *motsatt* retning: IL-17 blokkering er en kjent **risikofaktor** for strongyloidiasis, ikke en behandling for det.
+> Dette tolkes best som et sikkerhetssignal som er misoppfattet som en omformål-mulighet, ikke en levedyktig kandidat.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Raskt oversikt
 
-Formal mechanism-of-action data (DrugBank `original_moa`) is not available in this evidence pack. However, the model's own rationale annotations identify brodalumab as an **IL-17RA (interleukin-17 receptor A) antagonist**, which blocks IL-17-mediated signaling. IL-17RA-targeting biologics as a class are used to suppress IL-17-driven inflammatory responses.
-
-The original indication field is empty in this pack, so no direct comparison to the predicted indication can be made from the structured data. What *can* be assessed is the mechanistic plausibility of the top-ranked prediction on its own terms — and here the evidence pack flags a critical problem.
-
-**This prediction is not reasonable, and the evidence pack itself says so.** IL-17 is a key host-defense cytokine against intestinal nematodes, including *Strongyloides stercoralis*. Clinically, IL-17 pathway inhibitors (brodalumab, secukinumab, and related agents) are known to *increase* the risk of strongyloidiasis reactivation/hyperinfection — package inserts for this drug class typically require screening and treatment of latent strongyloidiasis *before* initiating therapy. TxGNN's topological similarity scoring appears to have picked up a real biological relationship (IL-17RA ↔ strongyloidiasis) but assigned it the wrong causal direction — a known failure mode where "risk association" and "therapeutic indication" edges are conflated in the knowledge graph. This should be treated as a **contraindication signal**, not a repurposing lead.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Ikke oppgitt i denne evidenspakken (`original_indications` tom) |
+| Forutsagt ny indikasjon | Strongyloidiasis ⚠️ (mekanistisk reversert — se nedenfor) |
+| TxGNN prediksjonspoengsum | 99.84% |
+| Evidensnivå | L5 (ingen kliniske forsøk, ingen litteratur) |
+| Markedsstatus i Norge | Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt avgjørelse | **Hold** |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+Formale virkningsmekanisme-data (DrugBank `original_moa`) er ikke tilgjengelig i denne evidenspakken. Imidlertid identifiserer modellens egne rasjonale-anmerkninger brodalumab som en **IL-17RA (interleukin-17 reseptor A) antagonist**, som blokkerer IL-17-medierad signalering. IL-17RA-målrettede biologiske midler som en klasse brukes til å undertrykke IL-17-drevne inflammatoriske responser.
 
----
+Det originale indikasjonsfelt er tomt i denne pakken, så ingen direkte sammenligning til den forutsagte indikasjon kan gjøres fra de strukturerte dataene. Hva som *kan* vurderes er den mekanistiske plausibiliteten til den topprangerte prediksjonen på egne betingelser — og her flagget evidenspakken et kritisk problem.
 
-## Norway Market Information
-
-Brodalumab has **0 authorizations** on record and is **not marketed** in Norway (`Not marketed`) per this evidence pack. No license entries are available to tabulate.
+**Denne prediksjonen er ikke rimelig, og evidenspakken selv sier det.** IL-17 er en nøkkelverts-forsvars-cytokin mot intestinale rundormer, inkludert *Strongyloides stercoralis*. Klinisk er inhibitorer av IL-17-banen (brodalumab, secukinumab og relaterte midler) kjent for å *øke* risikoen for strongyloidosis-reaktivering/hyperinfeksjon — pakningsvedlegg for denne middelklassen krever typisk screening og behandling av latent strongyloidiasis *før* initiering av terapi. TxGNNs topologiske likhets-scoring ser ut til å ha plukket opp et reelt biologisk forhold (IL-17RA ↔ strongyloidiasis), men tilordnet det feil kausal retning — en kjent feilmodus der "risiko-assosiasjon" og "terapeutisk indikasjon"-kanter blir sammenblandet i kunnskapsgrafen. Dette bør behandles som et **kontraindikasjons-signal**, ikke en omformål-mulighet.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøksevidence
 
-- **Mechanistic Safety Signal (from prediction rationale, not formal labeling):** The evidence pack's own analysis notes that IL-17 pathway blockade — the mechanism of brodalumab — is associated with an *increased* risk of *Strongyloides* infection/hyperinfection syndrome. This mirrors known class-level guidance for IL-17 inhibitors requiring strongyloidiasis screening prior to treatment initiation.
-- Formal package insert warnings, contraindications, and drug-drug interaction data are not available in this evidence pack (flagged as a **Blocking** data gap, DG001). Please refer to the official package insert for complete safety information once available.
+For tiden ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturevidence
 
-**Decision: Hold**
+For tiden ingen relatert litteratur tilgjengelig.
 
-**Rationale:**
-The top-ranked prediction (strongyloidiasis) is directionally inverted — it describes a known risk of the drug's mechanism, not a therapeutic opportunity — and carries zero supporting clinical trials or literature (L5). No other candidate in the top 10 (ranks 2–10, all ophthalmic/inflammatory conditions) reaches beyond L4/L5, and several (e.g., isolated optic neuritis) carry their own directional uncertainty, since IL-17 inhibitors have been associated with case reports of CNS demyelinating disease exacerbation.
+---
 
-**To proceed, the following is needed:**
-- Formal DrugBank/TFDA data for original indication and MOA, to establish a true baseline for mechanistic comparison
-- TFDA package insert (warnings, contraindications, DDI) to close Blocking data gap DG001
-- Any brodalumab-specific (not class-level) case reports or pharmacovigilance data on strongyloidiasis, to confirm risk directionality rather than infer it
-- If pursuing the optic neuritis/CRION cluster (ranks 5–8) as a longer-shot hypothesis, targeted literature search for Th17/IL-17 involvement in demyelinating optic neuropathies, alongside explicit review of CNS demyelination risk associated with IL-17 inhibitor use
+## Markedsinformasjon for Norge
+
+Brodalumab har **0 godkjennelser** på journalen og er **ikke markedsført** i Norge (`Not marketed`) per denne evidenspakken. Ingen lisensoppføringer er tilgjengelige for tabulering.
+
+---
+
+## Sikkerhetshensyn
+
+- **Mekanistisk sikkerhetssignal (fra prediksjons begrunnelse, ikke formell merking):** Evidenspakkens egen analyse merker at IL-17-veiblokkering — mekanismen for brodalumab — er assosiert med en *økt* risiko for *Strongyloides* infeksjon/hyperinfeksjonssyndrom. Dette speiler kjent klassenivå-veiledning for IL-17 inhibitorer som krever strongyloidiasis screening før behandlingsinitiering.
+- Formale pakningsvedlegg-advarsler, kontraindikasjoner og legemiddel-legemiddel interaksjonsdata er ikke tilgjengelig i denne evidenspakken (flagget som et **blokkering** datagap, DG001). Vennligst referer til det offisielle pakningsvedlegget for fullstendig sikkerhetsinformasjon når det blir tilgjengelig.
+
+---
+
+## Konklusjon og neste steg
+
+**Avgjørelse: Hold**
+
+**Begrunnelse:**
+Den topprangerte prediksjonen (strongyloidiasis) er motsatt rettet — det beskriver en kjent risiko for midlets mekanisme, ikke en terapeutisk mulighet — og har null støttekliniske forsøk eller litteratur (L5). Ingen annen kandidat i topp 10 (rangeringer 2–10, alle oftalmologiske/inflammatoriske tilstander) når videre enn L4/L5, og flere (f.eks. isolert optisk neuritt) har sine egne retnings-usikkerheter, siden IL-17 inhibitorer har vært assosiert med case reports av CNS demyeliniserings-sykdom forverring.
+
+**For å fortsette, er følgende nødvendig:**
+- Formale DrugBank/TFDA-data for original indikasjon og MOA, for å etablere en ekte grunnlinje for mekanistisk sammenligning
+- TFDA pakningsvedlegg (advarsler, kontraindikasjoner, DDI) for å lukke blokkering datagap DG001
+- Noen brodalumab-spesifikke (ikke klassenivå) case reports eller farmakovigilans-data på strongyloidiasis, for å bekrefte retningen på risikoen i stedet for å utlede den
+- Hvis du forfølger optisk neuritt/CRION-klyngen (rangeringer 5–8) som en lengre-shot-hypotese, målrettet litteratursøk for Th17/IL-17 involvering i demyeliniserende optisk neuropatier, sammen med eksplisitt gjennomgang av risiko for CNS demyelinisering assosiert med IL-17 inhibitor bruk
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

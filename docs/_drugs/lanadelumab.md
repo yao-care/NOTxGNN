@@ -29,100 +29,101 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Lanadelumab: From Undocumented Original Indication to C1 Inhibitor Deficiency (Hereditary Angioedema)
+# Lanadelumab: Fra udokumentert originalindikasjon til C1-inhibitormangel (hereditær angiødem)
 
-## One-Sentence Summary
+## Oppsummering i en setning
 
-> The Evidence Pack does not record a documented original indication for lanadelumab (DrugBank field empty), though supporting literature within the pack identifies it as a plasma kallikrein inhibitor developed for hereditary angioedema (HAE) prophylaxis.
-> The TxGNN model predicts high relevance to **C1 Inhibitor Deficiency**, which is in fact the disease category underlying HAE — meaning this signal largely **confirms an already-established indication rather than a novel repurposing opportunity**.
-> Evidence is substantial: **22 clinical trials** (including one completed pivotal Phase 3 RCT) and **20 publications** support this indication, but the drug is currently **not marketed in Norway** and safety documentation is entirely absent.
+> Dokumentasjonspakken registrerer ikke en dokumentert originalindikasjon for lanadelumab (DrugBank-felt er tomt), men støttende litteratur i pakken identifiserer det som en plasmakallkrekinin-inhibitor utviklet for hereditær angiødem (HAE)-profylakse.
+> TxGNN-modellen forutsier høy relevans for **C1-inhibitormangel**, som faktisk er sykdomskategorien som ligger til grunn for HAE — noe som betyr at dette signalet i stor grad **bekrefter en allerede etablert indikasjon i stedet for en ny repositioneringsmulighet**.
+> Bevis er omfattende: **22 kliniske forsøk** (inkludert ett gjennomført pivot-fase 3-RCT) og **20 publikasjoner** støtter denne indikasjonen, men legemidlet er for øyeblikket **ikke markedsført i Norge** og sikkerhetsdokumentasjon mangler helt.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Punkt | Innhold |
 |------|------|
-| Original Indication | Not documented in DrugBank record (field empty); literature (PMID 30267321) identifies HAE prophylaxis as the drug's known global indication |
-| Predicted New Indication | C1 Inhibitor Deficiency |
-| TxGNN Prediction Score | 99.996% |
-| Evidence Level | L2 (1 completed Phase 3 RCT + extensive supportive Phase 3/real-world/systematic-review evidence) |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Originalindikasjon | Ikke dokumentert i DrugBank-post (felt er tomt); litteratur (PMID 30267321) identifiserer HAE-profylakse som legemidlets kjente global indikasjon |
+| Forutsatt ny indikasjon | C1-inhibitormangel |
+| TxGNN-prediksjonsscore | 99.996% |
+| Bevisnivå | L2 (1 gjennomført fase 3-RCT + omfattende støttende fase 3/real-world/systematisk oversikt-bevis) |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available in the structured `original_moa` field (flagged as data gap DG002). However, literature within this Evidence Pack (PMID 30267321) describes lanadelumab as a fully human monoclonal antibody that inhibits plasma kallikrein. Mutations in the *SERPING1* gene cause C1 inhibitor (C1-INH) deficiency or dysfunction, leading to uncontrolled plasma kallikrein activity and excess bradykinin production — the vasodilator believed to drive angioedema symptoms.
+For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige i det strukturerte `original_moa`-feltet (flagget som datakløft DG002). Imidlertid beskriver litteratur i denne dokumentasjonspakken (PMID 30267321) lanadelumab som et fullt humanisert monoklonalt antistoff som hemmer plasmakallkrekinin. Mutasjoner i *SERPING1*-genet forårsaker C1-inhibitor (C1-INH)-mangel eller dysfunksjon, noe som fører til ukontrollert plasmakallkreinin-aktivitet og overproduksjon av bradykinin — vasodilatoren som antas å drive angiødemsymptomer.
 
-Importantly, "C1 inhibitor deficiency" (the predicted indication) is not a distinct new disease target relative to lanadelumab's mechanism — it is the underlying pathophysiological category of hereditary angioedema, the condition the drug's own mechanism was designed to treat. This suggests the TxGNN prediction here is best interpreted as a **validation signal** (the model correctly recovering a known drug-disease relationship) rather than a true off-label repurposing hypothesis. This is reinforced by the fact that lanadelumab (Takhzyro®) is already approved and marketed for HAE in the US, EU, Japan, China, and South Korea, per the clinical trial and literature evidence below — it simply has not yet obtained authorization in Norway.
+Det er viktig å merke seg at "C1-inhibitormangel" (den forutsatte indikasjonen) ikke er et distinkt nytt sykdomsmål i forhold til lanadelumabs mekanisme — det er den underliggende patofysiologiske kategorien av hereditær angiødem, tilstanden som legemidlets egen mekanisme var designet for å behandle. Dette tyder på at TxGNN-prediksjonen her best tolkes som et **valideringssignal** (modellen korrekt gjenoppretter et kjent legemiddel-sykdom-forhold) snarere enn en sann off-label-repositioneringsmulighet. Dette forsterkes av det faktum at lanadelumab (Takhzyro®) allerede er godkjent og markedsført for HAE i USA, EU, Japan, Kina og Sør-Korea, ifølge kliniske forsøks- og litteraturbevis nedenfor — det har rett og slett ikke oppnådd autorisasjon i Norge ennå.
 
-Because the "original indication" field in this Evidence Pack is empty, we recommend this be treated as a **data completeness issue** in the source DrugBank extraction rather than genuine absence of an approved indication, and flagged for correction before this candidate proceeds further.
+Fordi "originalindikasjon"-feltet i denne dokumentasjonspakken er tomt, anbefaler vi at dette behandles som et **problem med datakomplettheten** i DrugBank-ekstraksjonen i stedet for ekte fravær av en godkjent indikasjon, og flagges for korreksjon før denne kandidaten går videre.
 
 ---
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøk
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Antall deltakere | Nøkkelfunn |
 |---------|------|------|------|---------|
-| [NCT02586805](https://clinicaltrials.gov/study/NCT02586805) | Phase 3 | Completed | 125 | HELP Study — pivotal randomized, double-blind, placebo-controlled trial of lanadelumab for long-term prophylaxis against HAE attacks (Type I/II) |
-| [NCT02741596](https://clinicaltrials.gov/study/NCT02741596) | Phase 3 | Completed | 212 | HELP Study Extension — open-label long-term safety and efficacy follow-up |
-| [NCT04070326](https://clinicaltrials.gov/study/NCT04070326) | Phase 3 | Completed | 21 | SPRING Study — PK/PD and efficacy of lanadelumab in pediatric HAE patients (2–<12 years) |
-| [NCT04180163](https://clinicaltrials.gov/study/NCT04180163) | Phase 3 | Completed | 12 | Efficacy and safety of lanadelumab in Japanese HAE Type I/II patients |
-| [NCT05460325](https://clinicaltrials.gov/study/NCT05460325) | Phase 3 | Completed | 20 | Safety, PK, and efficacy of lanadelumab in Chinese HAE patients over 26 weeks |
-| [NCT04444895](https://clinicaltrials.gov/study/NCT04444895) | Phase 3 | Completed | 73 | Long-term safety/efficacy in non-histaminergic angioedema with normal C1-INH |
-| [NCT04687137](https://clinicaltrials.gov/study/NCT04687137) | Phase 3 | Completed | 12 | Japan Expanded Access Program prior to local licensure |
-| [NCT01923207](https://clinicaltrials.gov/study/NCT01923207) | Phase 1 | Completed | 32 | First-in-human single ascending dose safety/tolerability/PK study |
-| [NCT02093923](https://clinicaltrials.gov/study/NCT02093923) | Phase 1 | Completed | 38 | Multiple ascending dose safety/tolerability/PK study in HAE subjects |
-| [NCT03845400](https://clinicaltrials.gov/study/NCT03845400) | N/A | Completed | 168 | EMPOWER — real-world observational study of HAE attack rates before/after lanadelumab (US/Canada) |
+| [NCT02586805](https://clinicaltrials.gov/study/NCT02586805) | Fase 3 | Avsluttet | 125 | HELP-studie — pivot-randomisert, dobbeltblindet, placebokontrollert forsøk av lanadelumab for langtidsprofylakse mot HAE-anfall (type I/II) |
+| [NCT02741596](https://clinicaltrials.gov/study/NCT02741596) | Fase 3 | Avsluttet | 212 | HELP-studie forlengelse — åpen-label langtidsikkerhet og effektivitetsoppfølging |
+| [NCT04070326](https://clinicaltrials.gov/study/NCT04070326) | Fase 3 | Avsluttet | 21 | SPRING-studie — PK/PD og effektivitet av lanadelumab hos pediatriske HAE-pasienter (2–<12 år) |
+| [NCT04180163](https://clinicaltrials.gov/study/NCT04180163) | Fase 3 | Avsluttet | 12 | Effektivitet og sikkerhet av lanadelumab hos japanske HAE type I/II-pasienter |
+| [NCT05460325](https://clinicaltrials.gov/study/NCT05460325) | Fase 3 | Avsluttet | 20 | Sikkerhet, PK og effektivitet av lanadelumab hos kinesiske HAE-pasienter over 26 uker |
+| [NCT04444895](https://clinicaltrials.gov/study/NCT04444895) | Fase 3 | Avsluttet | 73 | Langtidsikkerhet/effektivitet ved ikke-histaminerg angiødem med normal C1-INH |
+| [NCT04687137](https://clinicaltrials.gov/study/NCT04687137) | Fase 3 | Avsluttet | 12 | Japan Expanded Access Program før lokal lisensering |
+| [NCT01923207](https://clinicaltrials.gov/study/NCT01923207) | Fase 1 | Avsluttet | 32 | Første menneske enkelt stigende dose sikkerhet/tolerabilitet/PK-studie |
+| [NCT02093923](https://clinicaltrials.gov/study/NCT02093923) | Fase 1 | Avsluttet | 38 | Studie av flere stigende doser sikkerhet/tolerabilitet/PK hos HAE-fagpersoner |
+| [NCT03845400](https://clinicaltrials.gov/study/NCT03845400) | N/A | Avsluttet | 168 | EMPOWER — observasjonsstudie fra virkeligheten av HAE-anfallsrater før/etter lanadelumab (USA/Canada) |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Nøkkelfunn |
 |------|-----|------|------|---------|
-| [30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/) | 2018 | RCT | JAMA | Lanadelumab significantly reduced HAE attack rate vs placebo (HELP Study primary publication) |
-| [34287942](https://pubmed.ncbi.nlm.nih.gov/34287942/) | 2022 | Open-label extension | Allergy | Long-term (HELP OLE) prevention of HAE attacks confirmed in patients ≥12 years |
-| [40434599](https://pubmed.ncbi.nlm.nih.gov/40434599/) | 2025 | Network Meta-Analysis | Drugs in R&D | Comparative efficacy/safety of lanadelumab vs garadacimab, C1-INH, berotralstat for LTP of HAE |
-| [39508959](https://pubmed.ncbi.nlm.nih.gov/39508959/) | 2024 | Systematic Review | Clin Rev Allergy Immunol | Characterizes breakthrough attacks in HAE patients on long-term prophylaxis including lanadelumab |
-| [39701274](https://pubmed.ncbi.nlm.nih.gov/39701274/) | 2025 | Real-world observational | JACI In Practice | Multicountry INTEGRATED study confirming real-world effectiveness of lanadelumab |
-| [30267321](https://pubmed.ncbi.nlm.nih.gov/30267321/) | 2018 | Review | Drugs | "First Global Approval" review — MOA, development history, and regulatory status |
-| [30539362](https://pubmed.ncbi.nlm.nih.gov/30539362/) | 2019 | Review | BioDrugs | Review of preclinical and Phase 1 studies of lanadelumab |
-| [32187470](https://pubmed.ncbi.nlm.nih.gov/32187470/) | 2020 | Review | NEJM | General review of hereditary angioedema pathophysiology and treatment |
-| [37898409](https://pubmed.ncbi.nlm.nih.gov/37898409/) | 2024 | Review | J Allergy Clin Immunol | Burden of C1-INH-deficient HAE in the Asia-Pacific region |
-| [33602658](https://pubmed.ncbi.nlm.nih.gov/33602658/) | 2021 | Review | J Investig Allergol Clin Immunol | Overview of current and emerging HAE treatments including lanadelumab |
+| [30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/) | 2018 | RCT | JAMA | Lanadelumab reduserte signifikant HAE-anfallsrate kontra placebo (HELP-studie hovedpublikasjon) |
+| [34287942](https://pubmed.ncbi.nlm.nih.gov/34287942/) | 2022 | Åpen-label forlengelse | Allergy | Langtidsprevensjon (HELP OLE) av HAE-anfall bekreftet hos pasienter ≥12 år |
+| [40434599](https://pubmed.ncbi.nlm.nih.gov/40434599/) | 2025 | Nettverksmeta-analyse | Drugs in R&D | Sammenlignende effektivitet/sikkerhet av lanadelumab vs garadacimab, C1-INH, berotralstat for LTP av HAE |
+| [39508959](https://pubmed.ncbi.nlm.nih.gov/39508959/) | 2024 | Systematisk oversikt | Clin Rev Allergy Immunol | Karakteriserer gjennombruddanfall hos HAE-pasienter på langtidsprofylakse inkludert lanadelumab |
+| [39701274](https://pubmed.ncbi.nlm.nih.gov/39701274/) | 2025 | Observasjonsstudie fra virkeligheten | JACI In Practice | Flerlandsstudie INTEGRATED som bekrefter effektivitet av lanadelumab i praksis |
+| [30267321](https://pubmed.ncbi.nlm.nih.gov/30267321/) | 2018 | Oversikt | Drugs | "Første global godkjenning"-oversikt — MOA, utviklingshistorie og regulatorisk status |
+| [30539362](https://pubmed.ncbi.nlm.nih.gov/30539362/) | 2019 | Oversikt | BioDrugs | Oversikt over prekliniske og fase 1-studier av lanadelumab |
+| [32187470](https://pubmed.ncbi.nlm.nih.gov/32187470/) | 2020 | Oversikt | NEJM | Generell oversikt over hereditær angiødem-patofysiologi og behandling |
+| [37898409](https://pubmed.ncbi.nlm.nih.gov/37898409/) | 2024 | Oversikt | J Allergy Clin Immunol | Sykdomsbyrde av C1-INH-mangel HAE i Asia-Stillehavsregionen |
+| [33602658](https://pubmed.ncbi.nlm.nih.gov/33602658/) | 2021 | Oversikt | J Investig Allergol Clin Immunol | Oversikt over gjeldende og kommende HAE-behandlinger inkludert lanadelumab |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-No authorizations are currently registered in Norway. Lanadelumab has **0 licenses** on file and is classified as **Not marketed (not marketed)** in this dataset, despite being approved and marketed elsewhere (US, EU, Japan, China, South Korea) as **Takhzyro®**.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Note:** This is a blocking data gap (DG001) — no TFDA/local label warnings, contraindications, or drug-drug interaction data are currently available for this candidate, and formal S1 safety evaluation cannot proceed until this is remediated.
+Det er for øyeblikket ingen autorisasjoner registrert i Norge. Lanadelumab har **0 lisenser** på fil og er klassifisert som **Ikke markedsført** i dette datasettet, til tross for at det er godkjent og markedsført andre steder (USA, EU, Japan, Kina, Sør-Korea) som **Takhzyro®**.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vær vennlig å se pakningsvedlegget for sikkerhetsinformasjon.
 
-**Rationale:**
-Efficacy evidence is strong — a completed pivotal Phase 3 RCT (HELP Study) plus extensive supportive Phase 3, real-world, and systematic-review data across multiple regulatory jurisdictions where the drug is already approved for HAE. However, the drug has zero market authorizations in Norway, and a **blocking data gap** prevents any formal safety review (no label warnings, contraindications, or DDI data available). The predicted indication is also effectively identical to the drug's own established use, so this should be reclassified internally as indication confirmation rather than a repurposing candidate before further action.
+> **Merk:** Dette er en blokkerende datakløft (DG001) — ingen TFDA/lokale merkingers advarsler, kontraindikasjoner eller legemiddel-legemiddel-interaksjondata er for øyeblikket tilgjengelige for denne kandidaten, og formell S1-sikkerhetevaluering kan ikke fortsette før dette blir løst.
 
-**To proceed, the following is needed:**
-- Local label/safety data (TFDA-equivalent warnings and contraindications) — download and parse (DG001, blocking)
-- Structured mechanism of action data via DrugBank API (DG002)
-- Correction of the empty `original_indications` field in the source drug record — confirm and document lanadelumab's established HAE indication
-- Confirmation of Norway market authorization application status, if any is planned
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Effektivitetsbevis er sterkt — en gjennomført pivot-fase 3-RCT (HELP-studie) pluss omfattende støttende fase 3, real-world og systematisk gjennomgang av bevis på tvers av flere regulatoriske jurisdiksjoner hvor legemidlet allerede er godkjent for HAE. Imidlertid har legemidlet null markedsautorisasjoner i Norge, og en **blokkerende datakløft** hindrer enhver formell sikkerhetsgjennomgang (ingen etikett-advarsler, kontraindikasjoner eller DDI-data tilgjengelige). Den forutsatte indikasjonen er også faktisk identisk med legemidlets egen etablerte bruk, så dette bør reklassifiseres internt som indikasjonbekreftelse i stedet for en repositioneringskandidat før videre handling.
+
+**For å gå videre, er følgende nødvendig:**
+- Lokale etikett-/sikkerhetdata (TFDA-ekvivalente advarsler og kontraindikasjoner) — last ned og analysere (DG001, blokkering)
+- Strukturerte virkningsmekanisme-data via DrugBank API (DG002)
+- Korreksjon av det tomme `original_indications`-feltet i kildemedikamentposten — bekreft og dokumenter lanadelumabs etablerte HAE-indikasjon
+- Bekreftelse av status for søknad om markedsautorisasjon i Norge, dersom planlagt
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

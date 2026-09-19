@@ -29,78 +29,79 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Tocofersolan: From Vitamin E Deficiency to Amenorrhea
+# Tocofersolan: Fra vitamin E-mangel til amenore
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-Tocofersolan (TPGS) is a water-soluble form of vitamin E, historically used to correct vitamin E deficiency in patients with chronic cholestasis. The TxGNN model predicts a possible link to **Amenorrhea**, but this prediction is currently supported by **no clinical trials** and **no published literature** — it is a model-only signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Vitamin E deficiency associated with chronic cholestasis (based on known pharmacological use; not confirmed via regulatory label data) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L5 |
-| Norway Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Tocofersolan (TPGS) er en vannløselig form av vitamin E, historisk brukt til å korrigere vitamin E-mangel hos pasienter med kronisk kolestase. TxGNN-modellen forutsier en mulig sammenheng med **Amenore**, men denne prediksjonen støttes for tiden av **ingen kliniske studier** og **ingen publisert litteratur** — det er bare et modellsignal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigoversikt
 
-Currently, detailed mechanism of action data is not available. Based on known information, tocofersolan is a polyethylene glycol succinate ester of vitamin E (TPGS), used primarily as a micellar solubilizer to aid absorption of fat-soluble vitamin E in patients with impaired bile flow (e.g., cholestasis). Its established efficacy is limited to correcting vitamin E deficiency, not to any direct hormonal or reproductive pathway.
-
-There is no known mechanistic pathway connecting vitamin E supplementation to hypothalamic-pituitary-ovarian axis regulation or menstrual cycle control. The high TxGNN score most likely reflects an indirect graph relationship — for example, shared nodes related to oxidative stress pathways — rather than a validated biological mechanism. Without supporting trial or literature evidence, this connection should be treated as exploratory only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+| Punkt | Innhold |
+|------|--------|
+| Originalindikasjon | Vitamin E-mangel forbundet med kronisk kolestase (basert på kjent farmakologisk bruk; ikke bekreftet via regulatoriske etikettdata) |
+| Predikert ny indikasjon | Amenore |
+| TxGNN prediksjonspoengsum | 99.31% |
+| Bevisnivå | L5 |
+| Markedsstatus Norge | Ikke på markedet |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvente |
 
 ---
 
-## Norway Market Information
+## Hvorfor er denne prediksjonen rimelig?
 
-Tocofersolan is not currently marketed in Norway (0 authorizations on record). No product license data is available for review.
+For tiden er ikke detaljerte data om virkningsmekanisme tilgjengelig. Basert på kjent informasjon er tocofersolan en polyetylenglykol-sukkinat-ester av vitamin E (TPGS), brukt primært som en mizellær solubilisator for å assistere absorpsjon av fettløselig vitamin E hos pasienter med nedsatt gallestrøm (f.eks. kolestase). Dens etablerte effektivitet er begrenset til å korrigere vitamin E-mangel, ikke til noen direkte hormonell eller reproduktiv vei.
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Det finnes ingen kjent virkningsmekanisme som forbinder vitamin E-tilskudd til regulering av hypotalamus-hypofyse-eggstokk-aksen eller menstruasjonssykluskontroll. Det høye TxGNN-poengsumet reflekterer mest sannsynlig et indirekte grafrelasjonsbindinger — for eksempel delte noder relatert til oksidativstress-veier — snarere enn en validert biologisk mekanisme. Uten støttende studie- eller litteraturbevis bør denne forbindelsen behandles som utforsking kun.
 
 ---
 
-## Additional Predicted Indication (Secondary Candidate)
+## Bevis fra kliniske studier
 
-A second candidate — **Acne** (TxGNN score: 99.03%, rank 9278) — was also flagged, with the same evidence profile: no clinical trials, no literature, and no direct pharmacological rationale beyond a theoretical antioxidant/anti-inflammatory link. This candidate carries the same **L5 / Hold** status and is not prioritized over amenorrhea.
+For tiden ingen relaterte kliniske studier registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For tiden ingen relatert litteratur tilgjengelig.
 
-**Rationale:**
-Both predicted indications rely solely on TxGNN model scores with no corroborating clinical trials, literature, or mechanistic pathway. Combined with the absence of MOA, safety, and regulatory data, there is currently no basis to advance either candidate beyond exploratory screening.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank or primary literature
-- TFDA/regulatory label warnings and contraindications (currently a Blocking data gap)
-- Preclinical or observational evidence linking vitamin E/TPGS to reproductive endocrine or dermatologic pathways
-- DDI and safety profile data before any S1 safety pre-assessment can begin
+## Markedsinformasjon for Norge
+
+Tocofersolan er for tiden ikke på markedet i Norge (0 godkjenninger på journalføring). Ingen data om produktlisens er tilgjengelige for vurdering.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Ytterligere predikert indikasjon (sekundær kandidat)
+
+En annen kandidat — **Akne** (TxGNN-poengsum: 99.03%, rangering 9278) — ble også flagget, med samme bevisavtrykk: ingen kliniske studier, ingen litteratur, og ingen direkte farmakologisk begrunnelse utover en teoretisk antioksidant/antiinflammatorisk forbindelse. Denne kandidaten har samme **L5 / Avvente**-status og prioriteres ikke fremfor amenore.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvente**
+
+**Begrunnelse:**
+Begge predikerte indikasjoner baserer seg utelukkende på TxGNN-modellpoengsum uten støttende kliniske studier, litteratur eller virkningsmekanisme. Kombinert med fraværet av MOA-, sikkerhets- og regulatoriske data, finnes det for tiden ingen grunnlag for å fremme noen av kandidatene utenfor utforskende screening.
+
+**For å fortsette er følgende nødvendig:**
+- Bekreftet virkningsmekanisme (MOA) data fra DrugBank eller primærlitteratur
+- TFDA/regulatoriske etikettadvarsler og kontraindikasjoner (for tiden et blokkerende datagap)
+- Preklinisk eller observasjonsbevis som knytter vitamin E/TPGS til reproduktiv endokrin eller dermatologisk vei
+- DDI og sikkerhetsprofildata før noen S1 sikkerhets-pre-vurdering kan begynne
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

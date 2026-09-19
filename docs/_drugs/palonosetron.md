@@ -29,90 +29,89 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-Using no specific skill — this is a direct report-drafting task per the fixed template in the prompt, not a coding/debugging workflow.
+# Palonosetron: Fra kjemoterapiindusert kvalme og oppkasting til Migrenelidelse
 
-# Palonosetron: From Chemotherapy-Induced Nausea and Vomiting to Migraine Disorder
+## Sammendrag i én setning
 
-## One-Sentence Summary
-
-Palonosetron is a 5-HT3 receptor antagonist used to prevent chemotherapy-induced nausea and vomiting (CINV). The TxGNN model predicts it may be effective for **Migraine Disorder**, but the only supporting literature (a single case report) actually describes palonosetron **inducing** migraine-type headache as an adverse effect — not treating it. No clinical trials support this or any of the other four predicted indications.
+Palonosetron er en 5-HT3-antagonist som brukes til å forhindre kjemoterapiindusert kvalme og oppkasting (CINV). TxGNN-modellen forutsier at det kan være effektivt for **Migrenelidelse**, men den eneste litteraturen som ble funnet (en enkelt caserapport) beskriver faktisk at palonosetron **induserte** migreneliknende hodepine som en bivirkning — ikke som behandling av det. Ingen kliniske forsøk støtter dette eller noen av de fire andre forutsagte indikasjonene.
 
 ---
 
-## Quick Overview
+## Hurtig oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Chemotherapy-induced nausea and vomiting (CINV) prevention — general pharmacological knowledge; not confirmed via Norway regulatory data (drug not marketed in Norway) |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L5 (model prediction only; sole literature hit is contradictory) |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in this Evidence Pack (DG002). Based on general pharmacological knowledge, palonosetron is a highly selective 5-HT3 receptor antagonist, and its efficacy in preventing CINV is well established. It acts on peripheral and central 5-HT3 receptors involved in the emetic reflex.
-
-Migraine pathophysiology, however, is primarily mediated by 5-HT1B/1D and 5-HT1F receptors (the targets of triptans and ditans), not 5-HT3 receptors. There is no established pharmacological rationale linking 5-HT3 antagonism to migraine prevention or treatment.
-
-More importantly, the only literature evidence retrieved for this indication (PMID 21132477, "Palonosetron-induced migraine-type headache") documents the **opposite** relationship: a case report of palonosetron **causing** a migraine-type headache as an adverse drug reaction, not resolving one. This is a contradictory signal that actively argues against the TxGNN prediction rather than supporting it. Given the lack of mechanistic plausibility and the directionally opposite evidence, this candidate should not advance without independent confirmatory data.
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Forebygging av kjemoterapiindusert kvalme og oppkasting (CINV) — generell farmakologisk kunnskap; ikke bekreftet via norske reguleringsdata (legemidlet er ikke markedsført i Norge) |
+| Forutsagt ny indikasjon | Migrenelidelse |
+| TxGNN prediksjonspoengsum | 99.74% |
+| Bevisnivå | L5 (kun modellprediksjon; eneste litteraturresultat er motstridende) |
+| Status på det norske markedet | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related clinical trials registered.
+For tiden er detaljert mekanisme-for-handling-data ikke tilgjengelig i denne bevissamlingen (DG002). Basert på generell farmakologisk kunnskap er palonosetron en høyt selektiv 5-HT3-antagonist, og dets effektivitet i forebygging av CINV er veldig vel etablert. Det virker på periferisk og sentralt 5-HT3-reseptorer involvert i brekreflex.
+
+Migrene patofysiologi er imidlertid primært medieres av 5-HT1B/1D og 5-HT1F-reseptorer (målene for triptaner og ditaner), ikke 5-HT3-reseptorer. Det er ingen etablert farmakologisk begrunnelse som kobler 5-HT3-antagonisme til migreneprevensjon eller behandling.
+
+Enda viktigere, den eneste litteraturen som ble hentet fram for denne indikasjonen (PMID 21132477, "Palonosetron-indusert migreneliknende hodepine") dokumenterer det **motsatte** forholdet: en caserapport av palonosetron som **induserte** en migreneliknende hodepine som en uønsket legemiddelreaksjon, ikke å løse den. Dette er et motstridende signal som aktivt argumenterer mot TxGNN-prediksjonen snarere enn å støtte den. Gitt mangelen på mekanistisk plausibilitet og de retningsbestemt motsatte bevisene, bør ikke denne kandidaten komme videre uten uavhengige bekreftelsesdata.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøksbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+For tiden ingen relaterte kliniske forsøk registrert.
+
+---
+
+## Litteraturbevis
+
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [21132477](https://pubmed.ncbi.nlm.nih.gov/21132477/) | 2011 | Case Report (Adverse Event) | Canadian Journal of Anaesthesia | Reports palonosetron **inducing** migraine-type headache — an adverse event, not evidence of therapeutic benefit for migraine |
+| [21132477](https://pubmed.ncbi.nlm.nih.gov/21132477/) | 2011 | Caserapport (bivirkning) | Canadian Journal of Anaesthesia | Rapporterer at palonosetron **induserte** migreneliknende hodepine — en uønsket hendelse, ikke bevis for terapeutisk nytte for migrene |
 
 ---
 
-## Norway Market Information
+## Informasjon om det norske markedet
 
-Palonosetron is not currently marketed in Norway (0 authorizations). No product/license records are available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. TFDA/manufacturer label warnings and contraindications for palonosetron are not yet available in this dataset (DG001 — Blocking gap).
+Palonosetron er ikke for tiden markedsført i Norge (0 autorisasjoner). Ingen produkt-/lisensieringsregistre er tilgjengelige.
 
 ---
 
-## Other Predicted Indications (Screened Out)
+## Sikkerhetshensyn
 
-Four additional TxGNN-predicted indications were reviewed and are not recommended for further evaluation due to absence of any supporting evidence:
+Se produktresumé for sikkerhetsinformasjon. TFDA/produsentens etikettadvarsler og kontraindikasjoner for palonosetron er ennå ikke tilgjengelig i dette datasettet (DG001 — Blockeringsgap).
 
-| Rank | Disease | TxGNN Score | Evidence | Assessment |
+---
+
+## Andre forutsagte indikasjoner (screenet ut)
+
+Fire ytterligere TxGNN-forutsagte indikasjoner ble vurdert og anbefales ikke for videre evaluering på grunn av mangel på støttende bevis:
+
+| Rang | Sykdom | TxGNN-poengsum | Bevis | Vurdering |
 |------|---------|-------------|----------|------------|
-| 2 | Migraine with brainstem aura | 99.67% | None | No mechanistic link (5-HT3 vs. 5-HT1/2 pathways) |
-| 3 | Migraine susceptibility | 99.44% | 20 papers, all on epilepsy/migraine genetic comorbidity | None mention palonosetron; genetic susceptibility literature, not drug evidence |
-| 4 | Atrophoderma vermiculata | 99.13% | None | Rare keratinizing skin disorder; no biological plausibility |
-| 5 | Ulerythema ophryogenesis | 99.07% | None | Same disease spectrum as #4; no biological plausibility |
+| 2 | Migrene med hjernestammeavura | 99.67% | Ingen | Ingen mekanistisk sammenheng (5-HT3 vs. 5-HT1/2-stier) |
+| 3 | Migreneoverfølsomhet | 99.44% | 20 artikler, alle om epilepsi/migrene genetisk komorbiditiet | Ingen nevner palonosetron; genetisk disposisjon litteratur, ikke legemiddelbevis |
+| 4 | Atrophoderma vermiculata | 99.13% | Ingen | Sjelden keratiniserende hudsykdom; ingen biologisk plausibilitet |
+| 5 | Ulerythema ophryogenesis | 99.07% | Ingen | Samme sykdomsspektrum som #4; ingen biologisk plausibilitet |
 
 ---
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-The top-ranked prediction (migraine disorder) is supported only by a case report describing the drug **causing** migraine-type headache, which contradicts rather than supports repurposing. All other predicted indications have zero clinical trial or literature support, and no coherent mechanistic rationale connects a 5-HT3 antagonist to these conditions.
+**Begrunnelse:**
+Topprangert prediksjon (migrenelidelse) støttes bare av en caserapport som beskriver at legemidlet **forårsaket** migreneliknende hodepine, som motsier snarere enn støtter gjenbruk. Alle andre forutsagte indikasjoner har null klinisk forsøk eller litteraturstøtte, og ingen sammenhengende mekanistisk begrunnelse kobler en 5-HT3-antagonist til disse tilstandene.
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert data (warnings, contraindications) — currently a Blocking gap (DG001)
-- Confirmed mechanism of action from DrugBank (DG002)
-- Independent literature or preclinical evidence showing a *therapeutic* (not adverse) effect of palonosetron on migraine before any further evaluation stage is initiated
+**For å fortsette er følgende nødvendig:**
+- TFDA/produsent produktresumé-data (advarsler, kontraindikasjoner) — for tiden en Blockeringsgap (DG001)
+- Bekreftet mekanisme for handling fra DrugBank (DG002)
+- Uavhengig litteratur eller preklinisk bevis som viser en *terapeutisk* (ikke uønsket) effekt av palonosetron på migrene før noe videre evalueringsstadium initieres
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

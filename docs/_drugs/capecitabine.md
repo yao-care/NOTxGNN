@@ -29,101 +29,102 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Capecitabine: From Colorectal Cancer to Gastric Tubular Adenocarcinoma
+# Capecitabine: Fra kolorektalkreft til gastrisk tubulært adenokarsinom
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-Capecitabine (Xeloda) is an oral fluoropyrimidine prodrug established globally as standard-of-care for colorectal and breast cancer, but currently without marketing authorization in this jurisdiction.
-The TxGNN model identifies it as a strong candidate (score 99.94%) for **Gastric Tubular Adenocarcinoma** — the most common histological subtype of gastric cancer and the first predicted indication with actionable clinical evidence.
-This direction is supported by **20 publications**, including at least 8 completed Phase 3 RCTs demonstrating that capecitabine-based CAPOX regimens are active and guideline-endorsed in gastric adenocarcinoma internationally.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Colorectal cancer; breast cancer (globally approved; no locally registered indication) |
-| Predicted New Indication | Gastric Tubular Adenocarcinoma |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L1 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Capecitabine (Xeloda) er et oralt fluorpyrimidin-prodrug etablert globalt som standard-behandling for kolorektalkreft og brystkreft, men har for øyeblikket ingen markedsføringstillatelse i denne jurisdiksjonen.
+TxGNN-modellen identifiserer det som en sterk kandidat (score 99.94%) for **gastrisk tubulært adenokarsinom** — den vanligste histologiske subtypen av magekreft og første predikerte indikasjon med handlingsbar klinisk evidens.
+Denne retningen støttes av **20 publikasjoner**, inkludert minst 8 gjennomførte fase 3 RCT-er som viser at capecitabine-baserte CAPOX-regime er aktive og retningslinjeanbefalt for gastrisk adenokarsinom internasjonalt.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Capecitabine is an oral prodrug selectively converted to 5-fluorouracil (5-FU) within tumor tissue by thymidine phosphorylase (TP), an enzyme overexpressed in many solid carcinomas. The resulting 5-FU inhibits thymidylate synthase (TS), blocking de novo synthesis of thymidine monophosphate (dTMP) and halting DNA replication in rapidly proliferating cancer cells. This tumor-selective activation mechanism explains both capecitabine's preferential efficacy in TP-rich solid tumors and its characteristic toxicity profile (e.g., hand-foot syndrome).
-
-Gastric tubular adenocarcinoma is the predominant histological subtype of gastric cancer and exhibits high TP expression, making it biologically well-suited for capecitabine activation. In clinical practice, CAPOX (capecitabine + oxaliplatin) has become a standard chemotherapy backbone for gastric cancer internationally. The landmark CLASSIC trial (Lancet 2012) demonstrated that adjuvant CAPOX after D2 gastrectomy significantly improved disease-free survival in Stage II–IIIB gastric cancer, while the GLOW and SPOTLIGHT Phase 3 trials subsequently established CAPOX as the standard backbone against which newer targeted agents are evaluated.
-
-The mechanistic link between colorectal cancer (capecitabine's primary approved indication) and gastric tubular adenocarcinoma is compelling: both are gastrointestinal epithelial tumors sharing similar oncogenic features — Wnt/β-catenin activation, TP53 alterations, EGFR signaling, and equivalent sensitivity to fluoropyrimidine-platinum combination chemotherapy. Multiple recent Phase 3 trials across diverse combination partners (checkpoint inhibitors, anti-CLDN18.2 antibodies) have uniformly validated CAPOX as an effective and reproducible chemotherapy platform in gastric adenocarcinoma, providing strong mechanistic and clinical confidence in this TxGNN prediction.
-
----
-
-## Clinical Trial Evidence
-
-Currently no clinical trials specifically registered under the histological entity "gastric tubular adenocarcinoma." Evidence is derived from broader gastric adenocarcinoma trials in which tubular adenocarcinoma constitutes the majority of enrolled patients (see Literature Evidence below for supporting Phase 3 RCT data).
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Kolorektalkreft; brystkreft (globalt godkjent; ingen lokalt registrert indikasjon) |
+| Predikert ny indikasjon | Gastrisk tubulært adenokarsinom |
+| TxGNN prediksjons-score | 99.94% |
+| Evidensnivå | L1 |
+| Norges markeds-status | Ikke markedsført |
+| Antall tillatelser | 0 |
+| Anbefalt beslutning | Fortsett med sikkerhetstiltak |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [22226517](https://pubmed.ncbi.nlm.nih.gov/22226517/) | 2012 | Phase 3 RCT | Lancet | CLASSIC trial: adjuvant CAPOX after D2 gastrectomy significantly improved DFS vs surgery alone in Stage II–IIIB gastric cancer |
-| [34252374](https://pubmed.ncbi.nlm.nih.gov/34252374/) | 2021 | Phase 3 RCT | Lancet Oncology | RESOLVE trial: perioperative SOX shown non-inferior to postoperative CapOx after D2 gastrectomy; CapOx confirmed as standard adjuvant reference |
-| [39952264](https://pubmed.ncbi.nlm.nih.gov/39952264/) | 2025 | Phase 3 RCT | Lancet Oncology | RESOLVE final report: mature OS data confirming long-term survival benefit of CapOx adjuvant chemotherapy after D2 gastrectomy |
-| [37524953](https://pubmed.ncbi.nlm.nih.gov/37524953/) | 2023 | Phase 3 RCT | Nature Medicine | GLOW trial: zolbetuximab + CAPOX vs placebo + CAPOX in CLDN18.2+/HER2− advanced gastric/GEJ adenocarcinoma; CAPOX confirmed as active first-line backbone |
-| [34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/) | 2021 | Phase 3 RCT | Lancet | CheckMate 649: nivolumab + CAPOX/FOLFOX vs CAPOX/FOLFOX alone in HER2-negative advanced gastric/GEJ/esophageal adenocarcinoma; significant OS improvement |
-| [38806195](https://pubmed.ncbi.nlm.nih.gov/38806195/) | 2024 | Phase 3 RCT | BMJ | RATIONALE-305: tislelizumab + capecitabine-based chemotherapy vs placebo in advanced gastric/GEJ adenocarcinoma; statistically significant OS improvement |
-| [38051328](https://pubmed.ncbi.nlm.nih.gov/38051328/) | 2023 | Phase 3 RCT | JAMA | ORIENT-16: sintilimab + CAPOX vs CAPOX alone in unresectable gastric/GEJ cancer; significant OS benefit confirmed |
-| [37875143](https://pubmed.ncbi.nlm.nih.gov/37875143/) | 2023 | Phase 3 RCT | Lancet Oncology | KEYNOTE-859: pembrolizumab + CAPOX/FP vs placebo + CAPOX/FP in HER2-negative advanced gastric/GEJ adenocarcinoma; OS benefit confirmed |
-| [30982686](https://pubmed.ncbi.nlm.nih.gov/30982686/) | 2019 | Phase 3 RCT | Lancet | FLOT4: FLOT vs ECF/ECX (capecitabine-containing arm) perioperative for resectable gastric/GEJ adenocarcinoma; ECX confirmed as valid active comparator |
-| [33610734](https://pubmed.ncbi.nlm.nih.gov/33610734/) | 2021 | Phase 2 RCT | Annals of Oncology | FAST trial: zolbetuximab + EOX vs EOX alone in CLDN18.2+ advanced gastric/GEJ adenocarcinoma; Phase 2 signal that preceded the confirmatory GLOW Phase 3 |
+Capecitabine er et oralt prodrug selektivt konvertert til 5-fluorouracil (5-FU) i tumorvev av thymidine fosforase (TP), et enzym som overeksprimeres i mange solide karsinomer. Den resulterende 5-FU hemmer thymidylat syntase (TS), som blokkerer de novo-syntese av thymidine monofosfat (dTMP) og stopper DNA-replikering i raskt prolifererende kreftceller. Denne tumor-selektive aktiveringsmekanismen forklarer både capecitabines foretrukne effektivitet i TP-rike solide tumorer og dens karakteristiske toksisitetsprofil (for eksempel hånd-fot-syndrom).
+
+Gastrisk tubulært adenokarsinom er den dominerende histologiske subtypen av magekreft og viser høy TP-ekspresjon, noe som gjør det biologisk godt egnet for capecitabine-aktivering. I klinisk praksis har CAPOX (capecitabine + oxaliplatin) blitt en standard kemoterapibakgrunn for magekreft internasjonalt. CLASSIC-studien (Lancet 2012) demonstrerte at adjuvant CAPOX etter D2-gastrektomi signifikant forbedret sykdomsfritt overlevelse ved Stadium II–IIIB magekreft, mens GLOW- og SPOTLIGHT-fase 3-studiene senere etablerte CAPOX som standard bakgrunn som nyere målrettede midler evalueres mot.
+
+Den mekanistiske koblingen mellom kolorektalkreft (capecitabines primær godkjent indikasjon) og gastrisk tubulært adenokarsinom er overbevisende: begge er gastrointestinale epitelvev-tumorer som deler lignende onkogene egenskaper — Wnt/β-catenin-aktivering, TP53-alterasjoner, EGFR-signalering, og tilsvarende følsomhet for fluorpyrimidin-platina-kombinasjonskjemoterapi. Flere nylige fase 3-studier på tvers av ulike kombinasjonspartnere (checkpoint-hemmere, anti-CLDN18.2-antistoffer) har konsekvent validert CAPOX som en effektiv og reproduserbar kemoterapibakgrunn i gastrisk adenokarsinom, noe som gir sterk mekanistisk og klinisk tillit til denne TxGNN-prediksjonen.
 
 ---
 
-## Norway Market Information
+## Klinisk prøve-evidens
 
-No marketing authorizations are currently registered for capecitabine in this jurisdiction.
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Fluoropyrimidine class (oral prodrug of 5-FU) |
-| Myelosuppression Risk | Moderate — neutropenia and thrombocytopenia reported; generally less pronounced than intravenous 5-FU continuous infusion |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | CBC with differential, liver function tests (ALT/AST/bilirubin), serum creatinine and creatinine clearance, DPD enzyme activity (DPYD genotyping strongly recommended prior to initiation) |
-| Handling Protection | Must follow cytotoxic drug handling regulations; oral tablet formulation — avoid direct contact with broken or crushed tablets; caregiver protection measures required |
+For øyeblikket ingen kliniske studier som er spesifikt registrert under den histologiske enheten "gastrisk tubulært adenokarsinom." Evidensen er hentet fra bredere gastrisk adenokarsinom-studier der tubulært adenokarsinom utgjør flertallet av inkluderte pasienter (se Litteraturbevis nedenfor for støtte fase 3 RCT-data).
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information.
+| PMID | År | Studietyp | Tidsskrift | Viktige funn |
+|------|-----|----------|-------------|-------------|
+| [22226517](https://pubmed.ncbi.nlm.nih.gov/22226517/) | 2012 | Fase 3 RCT | Lancet | CLASSIC-studie: adjuvant CAPOX etter D2-gastrektomi forbedret DFS signifikant versus kirurgi alene ved Stadium II–IIIB magekreft |
+| [34252374](https://pubmed.ncbi.nlm.nih.gov/34252374/) | 2021 | Fase 3 RCT | Lancet Oncology | RESOLVE-studie: perioperativ SOX vist ikke-mindreværdig sammenlignet med postoperativ CapOx etter D2-gastrektomi; CapOx bekreftet som standard adjuvant referanse |
+| [39952264](https://pubmed.ncbi.nlm.nih.gov/39952264/) | 2025 | Fase 3 RCT | Lancet Oncology | RESOLVE endelig rapport: moden OS-data som bekrefter langsiktig overlevelsesfordel av CapOx adjuvant kjemoterapi etter D2-gastrektomi |
+| [37524953](https://pubmed.ncbi.nlm.nih.gov/37524953/) | 2023 | Fase 3 RCT | Nature Medicine | GLOW-studie: zolbetuximab + CAPOX versus placebo + CAPOX i CLDN18.2+/HER2− avansert mage/GEJ-adenokarsinom; CAPOX bekreftet som aktiv førstlinje-bakgrunn |
+| [34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/) | 2021 | Fase 3 RCT | Lancet | CheckMate 649: nivolumab + CAPOX/FOLFOX versus CAPOX/FOLFOX alene i HER2-negativt avansert mage/GEJ/spiserør-adenokarsinom; signifikant OS-forbedring |
+| [38806195](https://pubmed.ncbi.nlm.nih.gov/38806195/) | 2024 | Fase 3 RCT | BMJ | RATIONALE-305: tislelizumab + capecitabine-basert kjemoterapi versus placebo i avansert mage/GEJ-adenokarsinom; statistisk signifikant OS-forbedring |
+| [38051328](https://pubmed.ncbi.nlm.nih.gov/38051328/) | 2023 | Fase 3 RCT | JAMA | ORIENT-16: sintilimab + CAPOX versus CAPOX alene i operabel mage/GEJ-kreft; signifikant OS-fordel bekreftet |
+| [37875143](https://pubmed.ncbi.nlm.nih.gov/37875143/) | 2023 | Fase 3 RCT | Lancet Oncology | KEYNOTE-859: pembrolizumab + CAPOX/FP versus placebo + CAPOX/FP i HER2-negativt avansert mage/GEJ-adenokarsinom; OS-fordel bekreftet |
+| [30982686](https://pubmed.ncbi.nlm.nih.gov/30982686/) | 2019 | Fase 3 RCT | Lancet | FLOT4: FLOT versus ECF/ECX (capecitabine-inneholdende arm) perioperativ for operabel mage/GEJ-adenokarsinom; ECX bekreftet som gyldig aktiv komparator |
+| [33610734](https://pubmed.ncbi.nlm.nih.gov/33610734/) | 2021 | Fase 2 RCT | Annals of Oncology | FAST-studie: zolbetuximab + EOX versus EOX alene i CLDN18.2+ avansert mage/GEJ-adenokarsinom; fase 2-signal som gikk forut for den bekrefta GLOW-fase 3 |
 
 ---
 
-## Conclusion and Next Steps
+## Norges markedsinformasjon
 
-**Decision: Proceed with Guardrails**
+Ingen markedsføringstillatelser er for øyeblikket registrert for capecitabine i denne jurisdiksjonen.
 
-**Rationale:**
-Multiple completed Phase 3 RCTs consistently demonstrate that capecitabine-based CAPOX regimens are effective and internationally guideline-recommended for gastric adenocarcinoma — the category encompassing gastric tubular adenocarcinoma as its predominant histotype — providing strong L1-level clinical evidence with a well-established mechanistic basis (TP-selective activation and TS inhibition in gastric tumor tissue).
+---
 
-**To proceed, the following is needed:**
-- Obtain local package insert or SPC for complete warnings and contraindications (Data Gap DG001 — currently blocking formal safety evaluation)
-- Establish local market authorization pathway: no current registration in this jurisdiction; off-label use or special import approval will be required
-- Implement DPYD genotyping / DPD enzyme activity screening before initiating treatment to identify patients at high risk of severe fluoropyrimidine toxicity
-- Define patient selection biomarkers: HER2 status (for trastuzumab addition), CLDN18.2 expression (for zolbetuximab consideration), PD-L1 CPS (for checkpoint inhibitor combination eligibility)
-- Confirm baseline renal function: dose adjustment required for CrCl 30–50 mL/min; use is contraindicated if CrCl < 30 mL/min
-- Review full drug interaction profile before prescribing, with particular attention to anticoagulants (coumarin class) and antiepileptic agents (phenytoin)
+## Cytotoksisitet
+
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitets-klassifisering | Konvensjonell cytotoksisk — Fluorpyrimidin-klasse (oralt prodrug av 5-FU) |
+| Myelosuppresjon-risiko | Moderat — nøytropeni og trombocytopeni rapportert; generelt mindre uttalt enn intravenøs 5-FU kontinuerlig infusjon |
+| Emetogenisitet-klassifisering | Lav til moderat |
+| Overvåkingselementer | CBC med differensial, leverfunksjonstester (ALT/AST/bilirubin), serum kreatinin og kreatinin clearance, DPD-enzym aktivitet (DPYD-genotyping sterkt anbefalt før oppstart) |
+| Beskyttelse ved håndtering | Må følge cytotoksisk legemiddelhåndtering-reguleringer; oral tablettform — unngå direkte kontakt med knuste eller ødelagte tabletter; beskyttelsestiltak for omsorgsperson kreves |
+
+---
+
+## Sikkerhetsbetraktninger
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste skritt
+
+**Beslutning: Fortsett med sikkerhetstiltak**
+
+**Begrunnelse:**
+Multiple gjennomførte fase 3-studier viser konsekvent at capecitabine-baserte CAPOX-regime er effektive og internasjonalt retningslinjeanbefalt for gastrisk adenokarsinom — kategorien som omfatter gastrisk tubulært adenokarsinom som dens dominerende histotype — noe som gir sterk L1-nivå klinisk evidens med et godt etablert mekanistisk grunnlag (TP-selektiv aktivering og TS-hemming i magekreftvev).
+
+**For å fortsette er følgende nødvendig:**
+- Innhente lokalt pakningsvedlegg eller SPC for komplette advarsler og kontraindikasjoner (Data Gap DG001 — blokkerer for øyeblikket formell sikkerhets-evaluering)
+- Etablere lokal markedsførings-autoriserings vei: ingen nåværende registrering i denne jurisdiksjonen; off-label bruk eller spesiell import-godkjennelse vil være påkrevd
+- Implementere DPYD-genotyping / DPD-enzym aktivitet screening før oppstart av behandling for å identifisere pasienter med høy risiko for alvorlig fluorpyrimidin-toksisitet
+- Definere pasientseleksjons-biomarkører: HER2-status (for trastuzumab-tillegg), CLDN18.2-ekspresjon (for zolbetuximab-vurdering), PD-L1 CPS (for checkpoint-hemmer kombinasjons-valgbarhet)
+- Bekreft baseline nyrefunksjon: dosejustering påkrevd for CrCl 30–50 mL/min; bruk er kontraindisert hvis CrCl < 30 mL/min
+- Gjennomgå full legemiddelinteraksjonsprofil før ordinering, med særlig oppmerksomhet på antikoagulanter (kumarinklasse) og antiepileptika (fenytoin)
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

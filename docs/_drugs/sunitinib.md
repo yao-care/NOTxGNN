@@ -29,103 +29,102 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-Using the report as a direct drafting task (no coding/debugging skill applies) — writing directly per the specified template and evidence pack below.
+# Sunitinib: Fra nyrecellekarsinom til liposarkom
 
-# Sunitinib: From Renal Cell Carcinoma to Liposarcoma
+## Oppsummering i en setning
 
-## One-Sentence Summary
-
-> Sunitinib is a multi-targeted tyrosine kinase inhibitor already established as first-line therapy for advanced/metastatic renal cell carcinoma (RCC), and is also used in GIST and pancreatic neuroendocrine tumors.
-> The TxGNN model predicts it may also be effective for **Liposarcoma**,
-> with **3 clinical trials** (2 graded highly relevant) and **9 publications** currently supporting this direction.
+> Sunitinib er en multi-målrettet tyrosinkinasehemmer som allerede er etablert som førstelinjeterapi for avansert/metastatisk nyrecellekarsinom (RCC), og brukes også ved GIST og pankreatiske neuroendokrine tumorer.
+> TxGNN-modellen predikerer at det også kan være effektivt for **liposarkom**,
+> med **3 kliniske studier** (2 vurdert som svært relevant) og **9 publikasjoner** som for tiden støtter denne retningen.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Renal cell carcinoma (established/approved indication; sunitinib is also a standard therapy for GIST and pancreatic neuroendocrine tumor) |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L2 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism-of-action data is not available directly from DrugBank in this evidence pack (flagged as a High-severity data gap). Based on the mechanistic evidence gathered for this prediction, sunitinib is a multi-targeted tyrosine kinase inhibitor (TKI) that inhibits VEGFR1/2/3, PDGFRα/β, KIT, FLT3, and RET. Its established efficacy in renal cell carcinoma, GIST, and pancreatic neuroendocrine tumors is driven by blocking tumor angiogenesis (VEGFR) and receptor-tyrosine-kinase-driven proliferation (KIT/PDGFR).
-
-Liposarcoma — particularly the myxoid/round cell subtype — is a highly vascularized soft tissue sarcoma with partial PDGFR pathway activation, which provides a plausible mechanistic bridge from sunitinib's original renal/GI indications to this new tumor type. This rationale is reinforced by two completed Phase II soft tissue sarcoma trials (NCT00400569, NCT00474994) that specifically enrolled liposarcoma patients, along with a dedicated Phase II study (PMID 21154746) evaluating sunitinib across leiomyosarcoma, liposarcoma, and malignant fibrous histiocytoma histologies.
+| Punkt | Innhold |
+|------|--------|
+| Opprinnelig indikasjon | Nyrecellekarsinom (etablert/godkjent indikasjon; sunitinib er også standardterapi for GIST og pankreatisk neuroendokrin tumor) |
+| Predikert ny indikasjon | Liposarkom |
+| TxGNN-prediksjonspoengsum | 99.87% |
+| Bevisnivå | L2 |
+| Norsk markedsstatus | ✗ Ikke på markedet |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Fortsett med sikringsmekanismer |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+For tiden er detaljerte data om virkningsmekanisme ikke direkte tilgjengelig fra DrugBank i denne bevissamlingen (flagget som datakløft av høy alvorlighetsgrad). Basert på mekanistiske bevis samlet inn for denne prediksjonen, er sunitinib en multi-målrettet tyrosinkinasehemmer (TKI) som hemmer VEGFR1/2/3, PDGFRα/β, KIT, FLT3 og RET. Dens etablerte effektivitet ved nyrecellekarsinom, GIST og pankreatiske neuroendokrine tumorer er drevet av blokkering av tumorangiogenese (VEGFR) og reseptortyrosinkinase-drevet proliferasjon (KIT/PDGFR).
+
+Liposarkom – særlig myksoid/rundcellesubtyen – er et sterkt vaskularisert bløtvevssarkom med delvis PDGFR-veiaktivering, som gir en plausibel mekanistisk bro fra sunitinibs opprinnelige nyre-/GI-indikasjoner til denne nye tumortypen. Denne begrunnelsen forsterkes av to fullførte fase II-studier av bløtvevssarkom (NCT00400569, NCT00474994) som spesifikt rekrutterte liposarkompasienter, sammen med en dedikert fase II-studie (PMID 21154746) som evaluerte sunitinib på tvers av leiomyosarkom, liposarkom og ondart fibøst histiocytom histologier.
+
+---
+
+## Klinisk prøvelsesbevis
+
+| Prøvelsesnummer | Fase | Status | Rekruttering | Nøkkelfunn |
 |---------|------|------|------|---------|
-| [NCT00400569](https://clinicaltrials.gov/study/NCT00400569) | Phase 2 | Completed | 48 | Open-label single-site trial of sunitinib malate in metastatic/unresectable soft tissue sarcoma, including leiomyosarcoma, liposarcoma, fibrosarcoma, and MFH; dosed once daily 28/42-day cycles until progression or toxicity |
-| [NCT00474994](https://clinicaltrials.gov/study/NCT00474994) | Phase 2 | Completed | 53 | Multicenter continuous-dosing study of sunitinib in non-GIST sarcomas, explicitly covering liposarcoma population |
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | Completed | 131 | SARC024 blanket protocol primarily testing regorafenib (same TKI class) across sarcoma subtypes; sunitinib referenced only as precedent, not directly tested |
+| [NCT00400569](https://clinicaltrials.gov/study/NCT00400569) | Fase 2 | Fullført | 48 | Åpen-merket studie på ett sted med sunitinibmaleat ved metastatisk/uoperabelt bløtvevssarkom, inkludert leiomyosarkom, liposarkom, fibrosarkom og MFH; dosert én gang daglig i 28/42-dagers sykluser til progresjon eller toksisitet |
+| [NCT00474994](https://clinicaltrials.gov/study/NCT00474994) | Fase 2 | Fullført | 53 | Flersenter kontinuerlig doseringsstudie av sunitinib ved ikke-GIST-sarkomer som eksplisitt dekker liposarkom-populasjonen |
+| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Fase 2 | Fullført | 131 | SARC024 paraplystudieprotokoll som primært tester regorafenib (samme TKI-klasse) på tvers av sarkomsubtyer; sunitinib referert kun som presedens, ikke direkte testet |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Nøkkelfunn |
 |------|-----|------|------|---------|
-| [21154746](https://pubmed.ncbi.nlm.nih.gov/21154746/) | 2011 | Phase II trial | Int J Cancer | Phase II study of sunitinib malate in relapsed/refractory soft tissue sarcoma, focused on leiomyosarcoma, liposarcoma, and MFH; evaluated safety and efficacy across these histologies |
-| [38254762](https://pubmed.ncbi.nlm.nih.gov/38254762/) | 2024 | Review | Cancers | Reviews genetic, epigenetic, and transcriptomic alterations in liposarcoma to guide targeted therapy selection |
-| [24555529](https://pubmed.ncbi.nlm.nih.gov/24555529/) | 2014 | Review | Expert Rev Anticancer Ther | Reviews emerging systemic therapies for adult soft tissue sarcoma by subtype |
-| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Review | Ann Oncol | Discusses histology-driven medical treatment of soft tissue sarcoma, noting high drug activity in myxoid liposarcoma |
-| [23482782](https://pubmed.ncbi.nlm.nih.gov/23482782/) | 2013 | Case report | Anticancer Res | Long-lasting clinical benefit of sunitinib malate in a heavily pre-treated metastatic liposarcoma patient |
-| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Review | Magyar Onkologia | Discusses histological subtype-based medical treatment strategies for soft tissue sarcomas |
-| [28423517](https://pubmed.ncbi.nlm.nih.gov/28423517/) | 2017 | Genomic case series | Oncotarget | NGS profiling of extraskeletal myxoid chondrosarcoma, evaluating predictive factors for sunitinib benefit |
-| [38717131](https://pubmed.ncbi.nlm.nih.gov/38717131/) | 2024 | Case series | Am J Surg Pathol | Clinicopathologic analysis of a distinctive myofibroblastic sarcoma subtype; tangential relevance to sarcoma classification landscape |
-| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Trial protocol | BMC Cancer | REGOSARC trial protocol evaluating regorafenib (same TKI class) in advanced soft tissue sarcoma |
+| [21154746](https://pubmed.ncbi.nlm.nih.gov/21154746/) | 2011 | Fase II-studie | Int J Cancer | Fase II-studie av sunitinibmaleat ved residiv/refraktær bløtvevssarkom, fokusert på leiomyosarkom, liposarkom og MFH; evaluerte sikkerhet og effektivitet på tvers av disse histologiene |
+| [38254762](https://pubmed.ncbi.nlm.nih.gov/38254762/) | 2024 | Oversikt | Cancers | Gjennomgår genetiske, epigenetiske og transkriptomiske forandringer i liposarkom for å veilede valg av målrettet terapi |
+| [24555529](https://pubmed.ncbi.nlm.nih.gov/24555529/) | 2014 | Oversikt | Expert Rev Anticancer Ther | Gjennomgår fremvoksende systemiske terapier for voksent bløtvevssarkom etter subtype |
+| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Oversikt | Ann Oncol | Diskuterer histologi-drevet medisinsk behandling av bløtvevssarkom, og bemerker høy legemiddelaktivitet i myksoid liposarkom |
+| [23482782](https://pubmed.ncbi.nlm.nih.gov/23482782/) | 2013 | Kasuistikk | Anticancer Res | Langvarig klinisk fordel av sunitinibmaleat hos en tungt forbehandlet pasient med metastatisk liposarkom |
+| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Oversikt | Magyar Onkologia | Diskuterer strategier for medisinsk behandling basert på histologisk subtype for bløtvevssarkomer |
+| [28423517](https://pubmed.ncbi.nlm.nih.gov/28423517/) | 2017 | Genomisk kasuistikkserie | Oncotarget | NGS-profilering av ekstraskeletalt myksoid kondrosarkom, evaluering av prediktive faktorer for sunitinibfordel |
+| [38717131](https://pubmed.ncbi.nlm.nih.gov/38717131/) | 2024 | Kasuistikkserie | Am J Surg Pathol | Klinicopatologisk analyse av en distinkt myofibroblastisk sarkomsubtype; tangential relevans for sarkomklassifikasjonslandskapet |
+| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Studieprotokoll | BMC Cancer | REGOSARC-studieprotokoll som evaluerer regorafenib (samme TKI-klasse) ved avansert bløtvevssarkom |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Sunitinib is currently **not marketed in Norway** — no authorizations are registered in this evidence pack (0 licenses).
+Sunitinib er for tiden **ikke på markedet i Norge** – ingen godkjennelser er registrert i denne bevissamlingen (0 lisenser).
 
 ---
 
-## Cytotoxicity
+## Cytotoksisitet
 
-| Item | Content |
+| Punkt | Innhold |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-targeted tyrosine kinase inhibitor; not a conventional cytotoxic chemotherapy agent) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Based on known TKI-class effects reflected in the broader sunitinib literature (e.g., cardiac function and hypertension studies), monitoring of blood pressure, cardiac function, CBC, liver function, and thyroid function should be considered |
-| Handling Protection | Please refer to institutional protocols for oral targeted anticancer agent handling |
+| Cytotoksisitetsklassifisering | Målrettet terapi (multi-målrettet tyrosinkinasehemmer; ikke et konvensjonelt cytotoksisk kjemoterapiagens) |
+| Myelosupresjonsrisiko | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Emetogenisitetsklassifisering | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Basert på kjente TKI-klasseeffekter reflektert i den bredere sunitinib-litteraturen (f.eks. kardial funksjon og hypertensjonsstudier), bør overvåking av blodtrykk, kardial funksjon, CBC, leverfunksjon og skjoldbruskjertelfunksjon vurderes |
+| Håndtelingsbeskyttelse | Se institusjonelle protokoller for håndtering av oralt målrettet kreftlegemiddel |
 
 ---
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Se pakningsvedlegget for sikkerhetsinformasjon.
 
 ---
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Proceed with Guardrails**
+**Beslutning: Fortsett med sikringsmekanismer**
 
-**Rationale:**
-Two completed Phase II trials and a dedicated liposarcoma-focused study provide moderate (L2) clinical evidence, and the TxGNN score is very high (99.87%). However, sunitinib is not currently marketed in Norway, and both the TFDA/Norway package insert (Blocking gap) and detailed DrugBank MOA data (High-severity gap) are missing, preventing a full safety (S1) evaluation.
+**Begrunnelse:**
+To fullførte fase II-studier og en dedikert liposarkom-fokusert studie gir moderat (L2) klinisk bevis, og TxGNN-poengsumet er svært høyt (99.87%). Imidlertid markedsføres sunitinib for tiden ikke i Norge, og både TFDA/norsk pakningsvedlegg (blokkering av datakløft) og detaljerte DrugBank MOA-data (datakløft av høy alvorlighetsgrad) mangler, noe som hindrer en fullstendig sikkerhetsevaluering (S1).
 
-**To proceed, the following is needed:**
-- Norway/TFDA-equivalent package insert (warnings, contraindications) — currently a blocking data gap
-- Verified DrugBank mechanism-of-action data
-- Norway market access assessment, given 0 current authorizations
-- Liposarcoma-subtype-specific (myxoid/round cell vs. dedifferentiated) efficacy stratification, as current trials pool multiple sarcoma histologies
-- Safety monitoring plan for hypertension and cardiac toxicity, known TKI-class risks noted in the broader sunitinib literature
+**For å gå videre, trengs følgende:**
+- Norge/TFDA-ekvivalent pakningsvedlegg (advarsler, kontraindikasjoner) – for tiden en blokkering av datakløft
+- Verifisert DrugBank virkningsmekanisme-data
+- Norsk markedstilgangsassessment gitt 0 nåværende godkjennelser
+- Liposarkom-subtypespesifikk (myksoid/rundcelle vs. dedifferensiert) effektivitetsstratifisering, ettersom nåværende studier samler flere sarkomhistologier
+- Sikkerhetovervåkingsplan for hypertensjon og kardial toksisitet, kjente TKI-klasserisikofaktorer notert i den bredere sunitinib-litteraturen
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

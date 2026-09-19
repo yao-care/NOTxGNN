@@ -29,78 +29,79 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **0** stk.
 
 </div>
 
-# Canagliflozin: Drug Repurposing Evaluation — Prediction Data Unavailable
+# Canagliflozin: Evaluering av legemiddelombruk — Prediksjonsdata utilgjengelig
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-Canagliflozin (DrugBank DB08907) is a drug under evaluation for repurposing potential via the TxGNN model. However, **this Evidence Pack contains no TxGNN prediction results**, and both the original indication data and mechanism of action are currently absent. This report serves as a **data gap summary** and remediation roadmap rather than a full repurposing evaluation.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | No data available in this Evidence Pack |
-| Predicted New Indication | No TxGNN prediction results available |
-| TxGNN Prediction Score | — |
-| Evidence Level | L5 (model prediction not yet available) |
-| Norway Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Canagliflozin (DrugBank DB08907) er et legemiddel som evalueres for ombrukspotensialet via TxGNN-modellen. Imidlertid **inneholder denne Evidence Pack ingen TxGNN-prediksjonsresultater**, og både de opprinnelige indikasjonsdata og virkningsmekanismen er for tiden fraværende. Denne rapporten fungerer som en **oppsummering av datamangeler** og handlingsplan for utbedring i stedet for en fullstendig ombruksevaluering.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Kort oversikt
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack (Data Gap DG002). The `original_moa` field is missing, and no original indications have been recorded in the regulatory data.
-
-Based on publicly available pharmacological knowledge, Canagliflozin belongs to the sodium-glucose cotransporter-2 (SGLT2) inhibitor class. This class acts by blocking glucose reabsorption in the proximal tubule of the kidney, leading to glucosuria and blood glucose reduction. Beyond glycaemic control, SGLT2 inhibitors have demonstrated cardiovascular and renal protective effects that are partially independent of their glucose-lowering mechanism — making them of interest in metabolic, cardiac, and renal repurposing contexts.
-
-However, because the `predicted_indications` array in this Evidence Pack is empty, **no formal TxGNN repurposing prediction has been loaded**. A mechanistic rationale for any specific new indication cannot be confirmed from this data alone. Re-running the TxGNN pipeline with complete drug–disease graph embeddings is required before proceeding with repurposing evaluation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered in this Evidence Pack.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ingen data tilgjengelig i denne Evidence Pack |
+| Forutsagt ny indikasjon | Ingen TxGNN-prediksjonsresultater tilgjengelige |
+| TxGNN-prediksjonspoeng | — |
+| Bevisnivå | L5 (modellprediksjon ikke ennå tilgjengelig) |
+| Status i norsk marked | Ikke markedsført |
+| Antall autoriseringer | 0 |
+| Anbefalt beslutning | **Behold** |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available in this Evidence Pack.
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelig i denne Evidence Pack (datamangel DG002). Feltet `original_moa` mangler, og ingen opprinnelige indikasjoner er registrert i regelverksdata.
 
----
+Basert på offentlig tilgjengelig farmakologisk kunnskap tilhører Canagliflozin klassen av natriumglukose-kotransporter-2 (SGLT2)-hemmere. Denne klassen virker ved å blokkere glukosereabsorpsjon i den proksimale tubelen i nyrene, noe som fører til glukosuri og reduksjon av blodsukker. Utover glykemisk kontroll har SGLT2-hemmere demonstrert kardiovaskulære og renale beskyttende effekter som er delvis uavhengige av deres blodsukkerreduserende mekanisme — noe som gjør dem av interesse i metabolske, kardiale og renale ombukskontekster.
 
-## Norway Market Information
-
-Canagliflozin has **no registered authorizations** in Norway based on the current Evidence Pack. No license records are available.
+Imidlertid, fordi `predicted_indications`-matrisen i denne Evidence Pack er tom, **er ingen formell TxGNN-ombruksprediksjon lastet inn**. En mekanistisk begrunnelse for enhver spesifikk ny indikasjon kan ikke bekreftes fra disse data alene. Det er nødvendig å kjøre TxGNN-pipelinen på nytt med komplette legemiddel-sykdoms-graf-innleiringer før man fortsetter med ombruksevaluering.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske studier
 
-Please refer to the package insert for safety information.
-
-> **Note:** Key warnings, contraindications, and drug–drug interaction data are all absent from this Evidence Pack. The data gap DG001 (TFDA package insert warnings) is classified as **Blocking severity**, meaning safety assessment cannot proceed until this gap is resolved.
+For tiden er ingen relaterte kliniske studier registrert i denne Evidence Pack.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For tiden er ingen relatert litteratur tilgjengelig i denne Evidence Pack.
 
-**Rationale:**
-This Evidence Pack is critically incomplete — the `predicted_indications` array is empty, MOA data is missing, safety data is unavailable, and there are no Norwegian regulatory records. There is insufficient basis to evaluate any repurposing hypothesis at this stage.
+---
 
-**To proceed, the following is needed:**
+## Informasjon om norsk marked
 
-- **[Blocking — DG001]** Obtain and parse the TFDA package insert PDF to extract key warnings and contraindications
-- **[High — DG002]** Query DrugBank API for Canagliflozin MOA, pharmacodynamics, and drug categories
-- **[Critical]** Re-run the TxGNN prediction pipeline to populate `predicted_indications` — this is the core deliverable without which no repurposing evaluation is possible
-- Verify Norway/EMA regulatory status via the Norwegian Medicines Agency (NoMA / Legemiddelverket) to confirm whether any authorizations exist under brand names (e.g., Invokana, Vokanamet)
-- After obtaining DDI data, perform drug interaction screening against common co-medications relevant to the candidate indication
+Canagliflozin har **ingen registrerte autoriseringer** i Norge basert på gjeldende Evidence Pack. Ingen lisensposter er tilgjengelige.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+> **Merk:** Viktige advarsler, kontraindikasjoner og legemiddel-legemiddel-interaksjonsdata mangler alle fra denne Evidence Pack. Datamangelen DG001 (TFDA-pakningsvedlegg-advarsler) er klassifisert som **blokkerings-alvorlighetsgrad**, noe som betyr at sikkerhetsvurderingen ikke kan fortsette før denne mangelen er løst.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Behold**
+
+**Begrunnelse:**
+Denne Evidence Pack er kritisk ufullstendig — `predicted_indications`-matrisen er tom, MOA-data mangler, sikkerhetdata er utilgjengelig, og det er ingen norske regelverksregistreringer. Det er et utilstrekkelig grunnlag for å evaluere noen ombukshypotese på dette stadiet.
+
+**For å fortsette, trengs følgende:**
+
+- **[Blokkering — DG001]** Innhent og parse TFDA-pakningsvedlegg-PDF for å trekke ut viktige advarsler og kontraindikasjoner
+- **[Høy — DG002]** Spør DrugBank API for Canagliflozin MOA, farmakodynamikk og legemiddelkategorier
+- **[Kritisk]** Kjør TxGNN-prediksjons-pipelinen på nytt for å populere `predicted_indications` — dette er leveransen som er kritisk; uten den kan ingen ombruksevaluering gjennomføres
+- Verifiser norsk/EMA-regelverksstatus via Norges legemiddelverket (NoMA / Legemiddelverket) for å bekrefte om noen autoriseringer finnes under merkenavn (f.eks. Invokana, Vokanamet)
+- Etter å ha innhentet DDI-data, foreta screening for legemiddelinteraksjoner mot vanlige samlegemidler som er relevante for kandidatindikasjonen
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

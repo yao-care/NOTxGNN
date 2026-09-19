@@ -29,86 +29,87 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Desloratadine: From Antihistamine Use (Original Indication Not Recorded) to Cold Urticaria
+# Desloratadin: Fra antihistaminbruk (original indikasjon ikke registrert) til kald urticaria
 
-## One-Sentence Summary
+## Ettsetningssammendrag
 
-Desloratadine's original indication data was not provided in this evidence pack (the drug is not currently marketed in Norway, and no license-based indication text is available), but it is documented as a second-generation, long-acting H1-antihistamine. The TxGNN model predicts it may be effective for **Cold Urticaria**, with **3 Phase 4 clinical trials** and **7 publications** currently supporting this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded — no Norway license data or listed original indications in this evidence pack |
-| Predicted New Indication | Cold Urticaria |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L1 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Desloratadins opprinnelige indikasjondata ble ikke gitt i denne bevissamlingen (stoffet markedsføres ikke for tiden i Norge, og ingen lisensbasert indiksjonstekst er tilgjengelig), men det er dokumentert som et andregenera­sjons, langvirkende H1-antihistamin. TxGNN-modellen forutsier at det kan være effektivt for **kald urticaria**, med **3 fase 4-kliniske studier** og **7 publikasjoner** som for tiden støtter denne retningen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action (MOA) data from DrugBank is not available for desloratadine (flagged as a High-severity data gap). Based on the evidence provided in this pack, desloratadine is described as a long-acting, selective peripheral H1-receptor antagonist — the active metabolite of loratadine. It inhibits cold-stimulus-triggered mast cell degranulation and histamine release, which is the central pathological mechanism underlying cold urticaria.
-
-Second-generation H1-antihistamines are already recommended as first-line therapy for cold urticaria under international guidelines (e.g., EAACI/GA²LEN/EDF), and desloratadine is one of the agents used in this class. This mechanistic link — rather than a formal comparison between a documented original indication and a new one — is what underlies the TxGNN prediction, since Norway regulatory/licensing data for this compound is not currently available (market status: Not Marketed).
-
-Because the drug is unmarketed in Norway, no independent local indication text exists to compare against; the strength of this prediction therefore rests primarily on the clinical trial and literature evidence summarized below rather than on precedent from an approved original indication.
+| Punkt | Innhold |
+|-------|---------|
+| Original indikasjon | Ikke registrert — ingen norske lisensdata eller opplistet opprinnelige indikasjoner i denne bevissamlingen |
+| Forutsagt ny indikasjon | Kald urticaria |
+| TxGNN-forutsigelsesscore | 99.94% |
+| Bevisnivå | L1 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Fortsett med forbehold |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prognosen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+For tiden er detaljerte data om virkningsmekanisme (MOA) fra DrugBank ikke tilgjengelig for desloratadin (flagget som et alvorlig datakløft). Basert på bevisene gitt i denne samlingen, er desloratadin beskrevet som et langvirkende, selektivt perifert H1-reseptor­antagonist — det aktive stoffskifteproduktet av loratadin. Det hemmer kaldstimulus-utløst mastcelle-degranulering og histaminutfrigjøring, som er den sentrale patologiske mekanismen under kald urticaria.
+
+Andregenera­sjons H1-antihistaminer anbefales allerede som førstelines­behandling for kald urticaria under internasjonale retningslinjer (f.eks. EAACI/GA²LEN/EDF), og desloratadin er ett av stoffene som brukes i denne klassen. Denne mekanistiske forbindelsen — snarere enn en formell sammenligning mellom en dokumentert original indikasjon og en ny — er det som ligger til grunn for TxGNN-prognosen, siden norske regulerings-/lisensdata for dette stoffet ikke er tilgjengelig for tiden (markedsstatus: Ikke markedsført).
+
+Fordi stoffet ikke er markedsført i Norge, finnes det ingen uavhengig lokal indiksjonstekst å sammenligne med; styrken på denne prediksjonen hviler derfor primært på de kliniske studie- og litteraturbevisene oppsummert nedenfor snarere enn på presedens fra en godkjent original indikasjon.
+
+---
+
+## Klinisk studiebevis
+
+| Studienummer | Fase | Status | Inklusjon | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT01444196](https://clinicaltrials.gov/study/NCT01444196) | Phase 4 | Completed | 30 | Dose-escalation study (5/10/20 mg) assessing the dose of desloratadine sufficient to inhibit cold urticaria symptoms |
-| [NCT00600847](https://clinicaltrials.gov/study/NCT00600847) | Phase 4 | Completed | 33 | Randomized, double-blind, placebo-controlled crossover study comparing 5 mg vs. 20 mg desloratadine on experimentally induced cold urticaria lesions; hypothesis that updosing (20 mg) is more effective than standard dose |
-| [NCT01940393](https://clinicaltrials.gov/study/NCT01940393) | Phase 4 | Completed | 150 | Evaluation of the inhibitory effect of 5 antihistamines (including desloratadine) in urticaria, including cold-induced forms |
+| [NCT01444196](https://clinicaltrials.gov/study/NCT01444196) | Fase 4 | Fullført | 30 | Doseoppskaleringstudie (5/10/20 mg) som vurderer dosen av desloratadin som er tilstrekkelig for å hemme symptomer på kald urticaria |
+| [NCT00600847](https://clinicaltrials.gov/study/NCT00600847) | Fase 4 | Fullført | 33 | Randomisert, dobbeltblindet, placebokontrollert crossover-studie som sammenligner 5 mg mot 20 mg desloratadin på eksperimentelt indusert kald urticaria-lesjoner; hypotesen er at doseøkning (20 mg) er mer effektivt enn standarddose |
+| [NCT01940393](https://clinicaltrials.gov/study/NCT01940393) | Fase 4 | Fullført | 150 | Evaluering av hemmeeffekten av 5 antihistaminer (inkludert desloratadin) ved urticaria, inkludert kulldeinduserte former |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [14754651](https://pubmed.ncbi.nlm.nih.gov/14754651/) | 2004 | RCT | J Dermatolog Treat | 5 mg desloratadine for 4 days significantly inhibited ice-cube-induced cold urticaria reactions in 12 patients |
-| [19201016](https://pubmed.ncbi.nlm.nih.gov/19201016/) | 2009 | RCT | J Allergy Clin Immunol | High-dose desloratadine decreased wheal volume and improved cold provocation thresholds vs. standard dose in acquired cold urticaria (randomized, placebo-controlled crossover) |
-| [22242678](https://pubmed.ncbi.nlm.nih.gov/22242678/) | 2012 | RCT | Br J Dermatol | Randomized controlled trial of H1-antihistamine dose escalation measuring critical temperature threshold in cold urticaria |
-| [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Review | Drugs | Review of chronic urticaria aetiology and management, including antihistamine treatment options |
-| [19032340](https://pubmed.ncbi.nlm.nih.gov/19032340/) | 2008 | Review | Allergy | Review of second-generation antihistamines (ebastine) in allergic rhinitis and chronic idiopathic urticaria, contextualizing antihistamine efficacy in urticarial disease |
-| [29698807](https://pubmed.ncbi.nlm.nih.gov/29698807/) | 2018 | Case Series | J Allergy Clin Immunol Pract | Description of food-dependent cold urticaria as a new physical urticaria variant |
-| [38025339](https://pubmed.ncbi.nlm.nih.gov/38025339/) | 2023 | Case Report | Qatar Med J | Case report of cold-induced urticaria following black ant bite-induced anaphylaxis |
+| [14754651](https://pubmed.ncbi.nlm.nih.gov/14754651/) | 2004 | RCT | J Dermatolog Treat | 5 mg desloratadin i 4 dager hemmet signifikant iskube-induserte kald urticaria-reaksjoner hos 12 pasienter |
+| [19201016](https://pubmed.ncbi.nlm.nih.gov/19201016/) | 2009 | RCT | J Allergy Clin Immunol | Høy dose desloratadin reduserte blemnevolum og forbedret kulldeprovokasjonsterskler versus standarddose ved ervervet kald urticaria (randomisert, placebokontrollert crossover) |
+| [22242678](https://pubmed.ncbi.nlm.nih.gov/22242678/) | 2012 | RCT | Br J Dermatol | Randomisert kontrollert studie av H1-antihistamin doseoppskalering som måler kritisk temperaturterskel ved kald urticaria |
+| [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Oversikt | Drugs | Oversikt over kronisk urticaria etiologi og behandling, inkludert antihistaminbehandlingsalternativer |
+| [19032340](https://pubmed.ncbi.nlm.nih.gov/19032340/) | 2008 | Oversikt | Allergy | Oversikt over andregenera­sjons antihistaminer (ebastine) ved allergisk rinitt og kronisk idiopatisk urticaria, som setter antihistamineffektivitet i urticaria-sykdom i perspektiv |
+| [29698807](https://pubmed.ncbi.nlm.nih.gov/29698807/) | 2018 | Kasusserie | J Allergy Clin Immunol Pract | Beskrivelse av matavhengig kald urticaria som en ny fysisk urticaria-variant |
+| [38025339](https://pubmed.ncbi.nlm.nih.gov/38025339/) | 2023 | Kasusrapport | Qatar Med J | Kasusrapport om kulldeindusert urticaria etter anafylaksi indusert av svart maur-bitt |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Desloratadine is currently not marketed in Norway — no license records are available in the regulatory dataset (total authorizations: 0).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data were not available in this evidence pack; TFDA-equivalent labeling review is flagged as a Blocking data gap.)
+Desloratadin markedsføres ikke for tiden i Norge — ingen lisensoppføringer er tilgjengelig i det regulatoriske datasettet (totalt antall autorisasjoner: 0).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails**
+Vennligst se pakningsvedlegget for sikkerhetsopplysninger. (Viktige advarsler, kontraindikasjoner og data om medikamentsamvirkninger var ikke tilgjengelig i denne bevissamlingen; TFDA-ekvivalent merkingsgjennomgang er flagget som et blokkerende datakløft.)
 
-**Rationale:**
-Three completed Phase 4 randomized/controlled trials and consistent supporting literature (including three RCTs) demonstrate a dose-dependent inhibitory effect of desloratadine on cold urticaria symptoms, meeting the L1 evidence threshold. However, the drug is not currently marketed in Norway and lacks basic safety labeling data, so guardrails are needed before proceeding.
+---
 
-**To proceed, the following is needed:**
-- TFDA-equivalent package insert data (warnings/contraindications) — currently a Blocking data gap
-- Confirmed drug-drug interaction (DDI) profile
-- DrugBank-sourced mechanism of action documentation to formally support the mechanistic rationale
-- Norway market entry/regulatory filing status, or an alternative reference market's approved indication text, to establish a documented "original indication" baseline
+## Konklusjon og neste trinn
+
+**Beslutning: Fortsett med forbehold**
+
+**Begrunnelse:**
+Tre fullførte fase 4-randomiserte/kontrollerte studier og konsistent støttende litteratur (inkludert tre RCT-er) demonstrerer en doseavhengig hemmeeffekt av desloratadin på symptomer på kald urticaria, og oppfyller L1-bevissterskelen. Stoffet markedsføres imidlertid ikke for tiden i Norge og mangler grunnleggende sikkerhetsmerkingsdata, så forbehold er nødvendig før man fortsetter.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA-ekvivalent pakningsvedleggsdata (advarsler/kontraindikasjoner) — for tiden et blokkerende datakløft
+- Bekreftet profil for medikamentsamvirkninger (DDI)
+- DrugBank-basert dokumentasjon av virkningsmekanisme for formelt å støtte den mekanistiske begrunnelsen
+- Norsk markedsinngangsstatus/regulatorisk innsendings­status, eller en alternativ referansemarkedets godkjent indiksjonstekst, for å etablere en dokumentert grunnlinje for «original indikasjon»
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

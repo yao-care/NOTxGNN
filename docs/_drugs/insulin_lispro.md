@@ -29,78 +29,79 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Insulin Lispro: From Diabetes Mellitus to Autoimmune Oophoritis
+# Insulin lispro: Fra diabetes mellitus til autoimmun ooforitt
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Insulin lispro is a rapid-acting insulin analog originally used to achieve glycemic control in diabetes mellitus.
-> The TxGNN model predicts it may be effective for **Autoimmune Oophoritis**,
-> but currently **no clinical trials and no published literature** support this direction, and no plausible biological mechanism connecting the two has been identified.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Diabetes Mellitus (glycemic control) — not documented in the current Taiwan regulatory dataset |
-| Predicted New Indication | Autoimmune Oophoritis |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L5 |
-| Norway Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Insulin lispro er et hurtigvirkende insulinanalog som opprinnelig ble brukt for å oppnå glykemisk kontroll ved diabetes mellitus.
+> TxGNN-modellen forutsier at det kan være effektivt for **autoimmun ooforitt**,
+> men for tiden **finnes det ingen kliniske studier og ingen publisert litteratur** som støtter denne retningen, og ingen rimelig biologisk mekanisme som forbinder de to er identifisert.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversikt
 
-Currently, detailed mechanism of action data is not available. Based on known information, insulin lispro is a rapid-acting insulin analog whose efficacy in glycemic control for diabetes mellitus is well established, acting via the insulin receptor to promote glucose uptake and regulate metabolism.
-
-However, no known mechanistic relationship exists between insulin signaling and autoimmune oophoritis, which is an autoimmune inflammatory process affecting ovarian tissue. There is no established pathway by which insulin (or lispro specifically) would modulate this disease process.
-
-Given the absence of any supporting clinical trials or literature, this high TxGNN score likely reflects noise or an indirect comorbidity association captured in the model's embedding space, rather than a genuine, mechanistically grounded treatment signal. This prediction should be treated as hypothesis-generating only, not as a basis for clinical action.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Diabetes mellitus (glykemisk kontroll) — ikke dokumentert i det nåværende regulatoriske datasett for Taiwan |
+| Forutsagt ny indikasjon | Autoimmun ooforitt |
+| TxGNN-prediksjonspoengsum | 99.78% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | Ikke på markedet (Ikke på markedet) |
+| Antall godkjenninger | 0 |
+| Anbefalt vedtak | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige. Basert på kjent informasjon er insulin lispro et hurtigvirkende insulinanalog hvis effektivitet for glykemisk kontroll ved diabetes mellitus er godt etablert, og det virker via insulinreseptoren for å fremme glukoseopptak og regulere metabolismen.
 
----
+Imidlertid finnes ingen kjent mekanistisk forbindelse mellom insulinsignalering og autoimmun ooforitt, som er en autoimmun inflammatorisk prosess som påvirker ovarievev. Det finnes ingen etablert vei hvorved insulin (eller lispro spesifikt) ville modulere denne sykdomsprosessen.
 
-## Norway Market Information
-
-Insulin Lispro is currently not marketed (Not marketed), and no product authorization records are available in this dataset (0 licenses).
+Gitt fraværet av noen støttende kliniske studier eller litteratur, reflekterer denne høye TxGNN-poengsum sannsynligvis støy eller en indirekte komorbiditetsassosisasjon fanget i modellens embedding-rom, snarere enn et genuint, mekanistisk begrunnet behandlingssignal. Denne prediksjonen bør behandles som kun hypotesegenererende, ikke som grunnlag for klinisk handling.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske studier
 
-Please refer to the package insert for safety information.
+Ingen relaterte kliniske studier er for tiden registrert
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra litteratur
 
-**Decision: Hold**
+Ingen relatert litteratur er for tiden tilgjengelig
 
-**Rationale:**
-This prediction is supported only by a raw TxGNN model score (L5), with no clinical trials, no literature, and no identifiable biological mechanism linking insulin lispro to autoimmune oophoritis. The evidence base is insufficient to justify further investment at this time.
+---
 
-**To proceed, the following is needed:**
-- TFDA label warnings/contraindications (currently a Blocking data gap — required before any safety pre-assessment)
-- Mechanism of action (MOA) data from DrugBank
-- Preclinical or mechanistic studies specifically linking insulin signaling to autoimmune oophoritis pathophysiology
-- If no such evidence emerges, this candidate should remain deprioritized
+## Markedsinformasjon for Norge
 
-**Note:** Among the other predicted indications in this evidence pack, *pancreatic agenesis* (rank 7, L3, "Proceed with Guardrails") has a mechanistically direct rationale — insulin is the established standard of care for neonatal diabetes secondary to pancreatic agenesis — and may warrant a separate, dedicated evaluation report rather than being treated as this candidate's primary signal.
+Insulin lispro er for tiden ikke på markedet (Ikke på markedet), og ingen produktgodkjenningsregistre er tilgjengelige i dette datasettet (0 lisenser).
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Vedtak: Avvent**
+
+**Begrunnelse:**
+Denne prediksjonen støttes kun av en rå TxGNN-modellpoengsum (L5), uten kliniske studier, uten litteratur, og uten identifiserbar biologisk mekanisme som forbinder insulin lispro til autoimmun ooforitt. Bevisgrunnlaget er utilstrekkelig til å rettferdiggjøre videre investering på dette tidspunktet.
+
+**For å gå videre er følgende nødvendig:**
+- TFDA-etikettadvarsler/kontraindikasjoner (for tiden en blokkerende datamangel — kreves før noen sikkerhetsvurdering)
+- Virkningsmekanisme (MOA)-data fra DrugBank
+- Prekliniske eller mekanistiske studier som spesifikt forbinder insulinsignalering til autoimmun ooforitt-patofysiologi
+- Dersom ingen slik evidens fremkommer, bør denne kandidaten forbli nedprioritert
+
+**Merknad:** Blant de andre forutsagte indikasjonene i denne evidenspakken har *bukspyttkjertelagenesi* (rangering 7, L3, «Fortsett med forholdsregler») en mekanistisk direkte begrunnelse — insulin er den etablerte standard for omsorg for neonatalt diabetes sekundær til bukspyttkjertelagenesi — og kan være berettiget til en separat, dedikert evalueringsrapport i stedet for å bli behandlet som denne kandidatens primære signal.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,69 +29,70 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Fentanyl: From Pain Management to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Fentanyl: Fra smertelindring til nefrogent syndrom med upassende antidiurese
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-Fentanyl is a potent synthetic opioid (mu-opioid receptor agonist) generally used for management of moderate-to-severe pain. The TxGNN model predicts a possible association with **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, with a prediction score of **99.46%**, but currently **zero clinical trials and zero publications** support this direction in the evidence pack.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in evidence pack (fentanyl is generally known as an opioid analgesic for moderate-to-severe pain) |
-| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.46% (model rank 5778) |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Fentanyl er et potent syntetisk opioid (mu-opioidreseptor-agonist) som generelt brukes til behandling av moderat til alvorlig smerte. TxGNN-modellen forutsier en mulig assosiasjon med **nefrogent syndrom med upassende antidiurese (NSIAD)**, med en prediksjonspoengsum på **99.46%**, men det finnes foreløpig **null kliniske forsøk og null publikasjoner** som støtter denne retningen i evidenspakken.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available for fentanyl in this evidence pack (flagged as data gap DG002, High severity). Based on general pharmacological knowledge, fentanyl is a potent synthetic opioid and mu-opioid receptor (MOR) agonist clinically used for management of moderate-to-severe pain, including perioperative and breakthrough cancer pain.
-
-The TxGNN model predicts a possible association with nephrogenic syndrome of inappropriate antidiuresis (NSIAD), a rare condition typically caused by a gain-of-function mutation in the vasopressin V2 receptor (AVPR2) that leads to inappropriate water retention independent of ADH levels. Opioids are known to influence antidiuretic hormone (ADH/vasopressin) release, which offers a theoretical point of mechanistic overlap, but the evidence pack does not include a completed mechanistic rationale, similarity analysis, clinical trials, or literature for this candidate (`repurposing_rationale` and `route_compatibility` are marked "pending"). As a result, the biological plausibility of this link cannot currently be substantiated beyond the raw model score.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke spesifisert i evidenspakken (fentanyl er generelt kjent som opioidanalgetikum for moderat til alvorlig smerte) |
+| Forutsagt ny indikasjon | Nefrogent syndrom med upassende antidiurese |
+| TxGNN-prediksjonspoengsum | 99.46% (modellrangering 5778) |
+| Bevissnivå | L5 |
+| Markedsstatus Norge | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt avgjørelse | Avvent |
 
 ---
 
-## Safety Considerations
+## Hvorfor er denne prediksjonen rimelig?
 
-Please refer to the package insert for safety information.
+Foreløpig er detaljerte mekanismedata for fentanyl ikke tilgjengelige i denne evidenspakken (flagget som datakløft DG002, høy alvorlighetsgrad). Basert på generell farmakologisk kunnskap er fentanyl et potent syntetisk opioid og mu-opioidreseptor (MOR) agonist som klinisk brukes til behandling av moderat til alvorlig smerte, inkludert perioperativ og gjennombruddssmerter ved kreft.
 
-*(Note: TFDA warnings and contraindications for fentanyl have not yet been retrieved — this is flagged as a Blocking data gap (DG001) that must be resolved before any S1 safety review.)*
+TxGNN-modellen forutsier en mulig assosiasjon med nefrogent syndrom med upassende antidiurese (NSIAD), en sjelden tilstand som typisk er forårsaket av en gain-of-function-mutasjon i vasopressin V2-reseptoren (AVPR2) som fører til upassende væskeretendering uavhengig av ADH-nivåer. Opioider er kjent for å påvirke utskillelsen av antidiuretisk hormon (ADH/vasopressin), som gir et teoretisk punkt for mekanistisk overlapping, men evidenspakken inkluderer ikke en fullstendig mekanistisk begrunnelse, likhetsanalyse, kliniske forsøk eller litteratur for denne kandidaten (`repurposing_rationale` og `route_compatibility` er merket som under behandling). Som et resultat kan den biologiske plausibiliteten av denne forbindelsen foreløpig ikke underbygges utover den rå modellpoengssummen.
 
 ---
 
-## Conclusion and Next Steps
+## Klinisk forsøksevidens
 
-**Decision: Hold**
+Foreløpig ingen relaterte kliniske forsøk registrert.
 
-**Rationale:**
-The TxGNN prediction score is high, but there is no supporting clinical trial or literature evidence (Evidence Level L5), no completed mechanistic rationale, and critical safety data (warnings/contraindications) has not yet been obtained — a Blocking gap. Fentanyl is also not currently marketed in Norway, so there is no existing regulatory foothold to build on.
+---
 
-**To proceed, the following is needed:**
-- TFDA/label warnings and contraindications (DG001, Blocking — required before S1 safety review)
-- Mechanism of action data for fentanyl (DG002)
-- Completed mechanistic rationale and similarity analysis linking opioid pharmacology to NSIAD
-- Clinical trial and literature search specifically targeting fentanyl/opioids and NSIAD or SIADH-related conditions
-- Norway market/regulatory pathway assessment if repurposing is pursued
+## Litteraturevidensen
+
+Foreløpig ingen relatert litteratur tilgjengelig.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst referer til pakningsvedlegget for sikkerhetsinformasjon.
+
+*(Merk: TFDA-advarsler og kontraindikasjoner for fentanyl er ennå ikke hentet — dette er flagget som en blokkerende datakløft (DG001) som må løses før noen S1-sikkerhetsvurdering.)*
+
+---
+
+## Konklusjon og neste trinn
+
+**Avgjørelse: Avvent**
+
+**Begrunnelse:**
+TxGNN-prediksjonspoengssummen er høy, men det finnes ingen støttende klinisk forsøks- eller litteraturvidens (Bevissnivå L5), ingen fullstendig mekanistisk begrunnelse, og kritiske sikkerhetdata (advarsler/kontraindikasjoner) er ennå ikke blitt innhentet — en blokkerende datakløft. Fentanyl er heller ikke foreløpig markedsført i Norge, så det finnes ingen eksisterende regulatorisk fotfeste å bygge på.
+
+**For å fortsette er følgende nødvendig:**
+- TFDA/pakningsvedlegg-advarsler og kontraindikasjoner (DG001, Blokkering — påkrevd før S1-sikkerhetsvurdering)
+- Mekanismedata for fentanyl (DG002)
+- Fullstendig mekanistisk begrunnelse og likhetsanalyse som forbinder opioidfarmakologi til NSIAD
+- Klinisk forsøks- og litteratursøk spesifikt rettet mot fentanyl/opioider og NSIAD eller SIADH-relaterte tilstander
+- Vurdering av Norges marked og regulatorisk godkjenningsvei hvis denne nye indikasjonen blir forfølgt
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

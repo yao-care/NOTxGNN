@@ -29,69 +29,70 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Alglucosidase Alfa: From Pompe Disease to Adult Polyglucosan Body Disease
+# Alglucosidase alfa: Fra Pompe-sykdom til voksne polyglukosan-kropp-sykdom
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Alglucosidase alfa is a recombinant human acid α-glucosidase (rhGAA) enzyme replacement therapy known for treating Pompe disease (glycogen storage disease type II). The TxGNN model predicts it may be effective for **Adult Polyglucosan Body Disease**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic analysis flags the prediction as a likely ontology/embedding artifact rather than a genuine pharmacological signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Pompe disease (inferred from mechanistic rationale — no official Norwegian license text available; drug is not marketed) |
-| Predicted New Indication | Adult Polyglucosan Body Disease |
-| TxGNN Prediction Score | 99.47% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Alglucosidase alfa er en rekombinant menneskelig sur α-glukosidase (rhGAA) enzymersatningsbehandling kjent for behandling av Pompe-sykdom (glykogenlageringsykdom type II). TxGNN-modellen forutsier at det kan være effektivt for **voksne polyglukosan-kropp-sykdom**, men denne retningen er for øyeblikket støttet av **0 kliniske forsøk** og **0 publikasjoner**, og bevispaketets egen mekanistiske analyse flaggar forutsigelsen som et sannsynlig ontologi-/innebygd-romlig artefakt snarere enn et ekte farmakologisk signal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, the drug's official mechanism of action field is marked as a data gap in this evidence pack. However, based on the mechanistic rationale supplied alongside the predictions, alglucosidase alfa is understood to be recombinant human acid α-glucosidase (rhGAA), used to replace the deficient GAA enzyme in Pompe disease patients so that lysosomal glycogen accumulation can be broken down.
-
-Adult Polyglucosan Body Disease (APBD), by contrast, is caused by deficiency of glycogen branching enzyme (GBE1), leading to abnormal, poorly-branched polyglucosan bodies accumulating in neuronal cytoplasm — a non-lysosomal, cytoplasmic metabolic process distinct from the lysosomal GAA pathway that alglucosidase alfa acts on. Although both conditions fall under the broad umbrella of "glycogen storage disease," the causative enzymes, accumulation sites, and pathological mechanisms differ, and rhGAA replacement cannot correct a GBE1 functional defect.
-
-Notably, this same mechanism-mismatch pattern recurs across all 10 of the drug's top TxGNN predictions in this evidence pack — including two other GBE1-related GSD IV subtypes (ranks 2–3) and six unrelated congenital ophthalmic/cranial-nerve disorders (ranks 4, 5, 6, 7, 8, 9, 10: congenital entropion/ectropion, Horner syndrome, ptosis-vocal cord paralysis syndrome, camptodactyly-myopia-fibrosis syndrome, epiblepharon, and ptosis-strabismus-ectopic pupils syndrome). None of these has any known or hypothesized biological pathway connecting it to GAA enzyme replacement therapy. This recurring pattern strongly suggests the high TxGNN scores reflect disease-ontology or embedding-space proximity (e.g., shared "glycogen storage disease" labeling, or general rare-disease clustering) rather than genuine pharmacological plausibility, and the full prediction set should be treated as a likely noise cluster rather than individually promising leads.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Punkt | Innhold |
+|------|---------|
+| Opprinnelig indikasjon | Pompe-sykdom (utledet fra mekanistisk begrunnelse — ingen offisiell norsk autorisasjonstekst tilgjengelig; legemidlet markedsføres ikke) |
+| Forutsagt ny indikasjon | Voksne polyglukosan-kropp-sykdom |
+| TxGNN forutsigelsesscore | 99.47% |
+| Bevisnivå | L5 (modellforutsigelse bare, ingen kliniske forsøk eller litteratur) |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forutsigelsen rimelig?
 
-Currently no related literature available
+For tiden er legemidlets offisielle virkningsmekanisme-felt markert som et datahull i denne bevispakningen. Imidlertid, basert på den mekanistiske begrunnelsen som følger med forutsigelsene, forstås alglucosidase alfa å være rekombinant menneskelig sur α-glukosidase (rhGAA), brukt for å erstatte det manglende GAA-enzymet hos Pompe-sykdom-pasienter slik at lysosomale glykogenansamlinger kan brytes ned.
 
----
+Voksne polyglukosan-kropp-sykdom (APBD) er derimot forårsaket av mangel på glykogenforgreningsenzym (GBE1), som fører til unormale, dårlig forgrenet polyglukosan-legemer som akkumuleres i nevronalt cytoplasma — en ikke-lysosomale, cytoplasmatisk metabolsk prosess atskilt fra den lysosomale GAA-banen som alglucosidase alfa virker på. Selv om begge tilstander faller inn under den brede kategorien av «glykogenlageringsykdom», skiller de årsaksforhold-enzymer, akkumuleringssteder og patologiske mekanismer seg ut, og rhGAA-erstatning kan ikke korrigere en GBE1-funksjonell defekt.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Bemerkelsesverdig gjentar samme mekanisme-mismatch-mønster seg på tvers av alle 10 av legemidlets beste TxGNN-forutsigelser i dette bevispakket — inkludert to andre GBE1-relaterte GSD IV-subtyper (ranger 2–3) og seks ikke-relaterte medfødt oftalmologisk/kranial-nerve-lidelser (ranger 4, 5, 6, 7, 8, 9, 10: medfødt entropion/ektropion, Horners syndrom, ptose-stemmebåndsparalyse-syndrom, camptodactyly-myopi-fibrose-syndrom, epiblefaron, og ptose-strabismus-ektopiske pupiller-syndrom). Ingen av disse har noen kjent eller hypotetisert biologisk bane som forbinder det til GAA-enzymersatningsbehandling. Dette gjentakende mønsteret tyder sterkt på at de høye TxGNN-score reflekterer sykdoms-ontologi eller innebygd-romlig nærhet (f.eks. delt «glykogenlageringsykdom»-merking, eller generell sjelden-sykdom-clustering) snarere enn ekte farmakologisk plausibilitet, og hele forutsigelsessettet bør behandles som et sannsynlig støycluster snarere enn individuelt lovende ledetråder.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra kliniske forsøk
 
-**Decision: Hold**
+For tiden ingen relaterte kliniske forsøk registrert
 
-**Rationale:**
-- All 10 top-ranked predicted indications are Evidence Level L5 (model prediction only, zero clinical trials, zero literature), and the mechanistic rationale accompanying each prediction explicitly flags mechanism mismatches or unrelated pathology — pointing to a likely embedding-space artifact rather than a credible repurposing signal for adult polyglucosan body disease or any of the other 9 predicted indications.
-- A blocking data gap also exists on TFDA/regulatory safety labeling (warnings, contraindications), which independently prevents this candidate from advancing to a Stage 1 safety review regardless of the repurposing signal's strength.
+---
 
-**To proceed, the following is needed:**
-- Official mechanism of action (MOA) data confirmed via DrugBank or the manufacturer's label (currently a data gap)
-- TFDA/EMA package insert warnings and contraindications (currently a blocking data gap)
-- Independent wet-lab or genetic/biomarker evidence connecting GAA enzyme replacement to GBE1-mediated polyglucosan accumulation, before any further evaluation of this repurposing direction is warranted
-- A review of the full 10-prediction cluster to determine whether a systematic ontology-similarity artifact affecting this drug's TxGNN outputs should be flagged to the model/data team
+## Litteraturbevis
+
+For tiden ingen relatert litteratur tilgjengelig
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+- Alle 10 topprankerte forutsagte indikasjoner er bevisnivå L5 (modellforutsigelse bare, null kliniske forsøk, null litteratur), og den mekanistiske begrunnelsen som følger hver forutsigelse flaggar eksplisitt mekanismeavvik eller ikke-relatert patologi — som peker mot et sannsynlig innebygd-romlig artefakt snarere enn et troverdig ombruk-signal for voksne polyglukosan-kropp-sykdom eller noen av de andre 9 forutsagte indikasjonene.
+- Et blokkerende datahull finnes også på TFDA/regulatorisk sikkerhetsetikett (advarsler, kontraindikasjoner), som uavhengig forhindrer denne kandidaten fra å gå videre til en fase 1-sikkerhetsgjennomgang uavhengig av ombrukssignalstyrken.
+
+**For å gå videre kreves følgende:**
+- Offisiell virkningsmekanisme (MOA) data bekreftet via DrugBank eller produsentens etikett (for tiden et datahull)
+- TFDA/EMA pakningsvedlegg advarsler og kontraindikasjoner (for tiden et blokkerende datahull)
+- Uavhengig våt-lab eller genetisk/biomarkør-evidens som forbinder GAA-enzymersatning til GBE1-medieret polyglukosan-ansamling, før ytterligere evaluering av denne ombruksretningen er berettiget
+- En gjennomgang av hele 10-forutsigelsesklyngen for å bestemme om et systematisk ontologi-likhet-artefakt som påvirker dette legemidlets TxGNN-utdata bør flagges til modell-/datateamet
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

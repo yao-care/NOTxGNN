@@ -29,94 +29,95 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Imatinib: From Chronic Myeloid Leukaemia/GIST to Heart Fibrosarcoma
+# Imatinib: Fra kronisk myeloid leukemi/GIST til hjertfibrosarkom
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Imatinib was originally marketed for chronic myeloid leukaemia and certain gastrointestinal stromal tumours (GIST) as a tyrosine kinase inhibitor.
-> The TxGNN model predicts it may be effective for **Heart Fibrosarcoma**,
-> but currently only **0 clinical trials** and **1 publication** (a review/commentary) support this specific direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Chronic myeloid leukaemia; gastrointestinal stromal tumour (GIST) — per literature reference (PMID 18623899) |
-| Predicted New Indication | Heart Fibrosarcoma |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 |
-| Norway Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Imatinib ble opprinnelig markedsført for kronisk myeloid leukemi og enkelte gastrointestinale stromale tumorer (GIST) som en tyrosinkinasehemmer.
+> TxGNN-modellen forutsier at det kan være effektivt for **hjertfibrosarkom**,
+> men for øyeblikket støttes kun denne spesifikke retningen av **0 kliniske studier** og **1 publikasjon** (en oversikt/kommentar).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data (`original_moa`) is not available in the structured drug record. Based on the repurposing rationale provided in this evidence pack, imatinib inhibits BCR-ABL, KIT, and PDGFR tyrosine kinases — the same mechanism underlying its approved use in CML and GIST.
-
-The proposed link to heart fibrosarcoma is purely mechanistic inference: **if** a given heart fibrosarcoma tumour harbours a PDGFR-driven genotype, it could theoretically be sensitive to imatinib. However, there is no cardiac tumour–specific data (preclinical or clinical) confirming this, and no evidence that heart fibrosarcomas commonly express PDGFR/KIT alterations. This is explicitly flagged in the evidence pack as an inferential (not confirmed) mechanistic link, which is why the evidence level is rated L4 rather than higher.
-
-By contrast, other fibrosarcoma-family predictions in this same evidence pack (e.g., dermatofibrosarcoma protuberans / "fibroblastic neoplasm" and "conventional fibrosarcoma") have much stronger mechanistic and clinical support, since DFSP is driven by a COL1A1-PDGFB fusion that is a well-established, direct imatinib target. Heart fibrosarcoma does not currently have this level of molecular characterization in the supplied evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|--------|---------|
+| Opprinnelig indikasjon | Kronisk myeloid leukemi; gastrointestinal stromal tumor (GIST) — basert på litteraturreferanse (PMID 18623899) |
+| Forutsagt ny indikasjon | Hjertfibrosarkom |
+| TxGNN-prediksjonspoengsum | 99.94% |
+| Evidensnivå | L4 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [18623899](https://pubmed.ncbi.nlm.nih.gov/18623899/) | 2008 | Review/Commentary | Prescrire International | Discusses imatinib's expanding indications since its original approval for CML and GIST; notes that newer indications, while promising, are not always supported by robust comparative evidence (e.g., non-comparative trial data in Ph+ ALL). Does not specifically address heart fibrosarcoma. |
+For øyeblikket er detaljerte mekanismedata for virkemåte (`original_moa`) ikke tilgjengelige i den strukturerte legemiddelposten. Basert på begrunnelsen for omformål gitt i denne evidenspakken, hemmer imatinib BCR-ABL, KIT og PDGFR-tyrosinkinaser — den samme mekanismen som ligger til grunn for dens godkjente bruk ved CML og GIST.
 
----
+Den foreslåtte koblingen til hjertfibrosarkom er rent mekanistisk slutning: **hvis** en gitt hjertfibrosarkom-tumor bærer en PDGFR-drevet genotype, kunne den teoretisk sett være sensitiv for imatinib. Imidlertid finnes det ingen hjerttumorspesifikke data (prekliniske eller kliniske) som bekrefter dette, og ingen bevis for at hjertfibrosarkomer vanligvis uttrykker PDGFR/KIT-alterasjoner. Dette er eksplisitt flagget i evidenspakken som en inferensiell (ikke bekreftet) mekanistisk kobling, som er grunnen til at evidensnivået er klassifisert som L4 snarere enn høyere.
 
-## Norway Market Information
-
-Currently no marketing authorization records available in Norway (0 licenses on file; market status: Not marketed / Not Marketed).
+Til sammenligning har andre fibrosarkom-familjeprediksoner i denne samme evidenspakken (f.eks. dermatofibrosarkom protuberans / «fibroblastisk neoplasi» og «konvensjonell fibrosarkom») mye sterkere mekanistisk og klinisk støtte, siden DFSP er drevet av en COL1A1-PDGFB-fusjon som er et velkjent, direkte imatinib-mål. Hjertfibrosarkom har for øyeblikket ikke dette nivået av molekylær karakterisering i den tilgjengelige evidensen.
 
 ---
 
-## Cytotoxicity
+## Evidens fra kliniske studier
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (tyrosine kinase inhibitor targeting BCR-ABL/KIT/PDGFR) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+For øyeblikket ingen registrerte relevante kliniske studier.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA-equivalent label warnings/contraindications are flagged as a Blocking data gap (DG001) in this evidence pack and must be resolved before any S1 safety review can proceed.)*
+| PMID | År | Type | Journal | Viktige funn |
+|------|-----|------|---------|---------|
+| [18623899](https://pubmed.ncbi.nlm.nih.gov/18623899/) | 2008 | Oversikt/Kommentar | Prescrire International | Diskuterer imatinibs utvidende indikasjoner siden opprinnelig godkjenning for CML og GIST; bemerker at nyere indikasjoner, selv om lovende, ikke alltid er støttet av robust komparativ evidens (f.eks. ikke-komparativ studiedata ved Ph+ ALL). Adresserer ikke spesifikt hjertfibrosarkom. |
 
 ---
 
-## Conclusion and Next Steps
+## Norsk markedsinformasjon
 
-**Decision: Hold**
+For øyeblikket ingen markedsføringsgodkjennelsesregistreringer tilgjengelige i Norge (0 lisenser på fil; markedsstatus: Ikke markedsført).
 
-**Rationale:**
-The mechanistic link between imatinib and heart fibrosarcoma is inferential rather than confirmed — there are no clinical trials and only a single non-specific review-level publication. Combined with the missing regulatory label/safety data (Blocking gap DG001), the evidence does not meet the bar to advance this candidate past S1.
+---
 
-**To proceed, the following is needed:**
-- TFDA-equivalent product label (warnings, contraindications) to clear the Blocking safety gap (DG001)
-- Confirmed mechanism of action data (currently marked as Data Gap) (DG002)
-- Molecular/genomic characterization data confirming PDGFR/KIT/BCR-ABL alterations specifically in heart fibrosarcoma cohorts
-- Preclinical (in vitro/in vivo) or case-level clinical evidence specific to cardiac fibrosarcoma before considering trial design
+## Cytotoksisitet
 
-*For reference: within this same evidence pack, "conventional fibrosarcoma" (rank 3, L2, Research Question) and "fibroblastic neoplasm"/DFSP (rank 2, L3, Research Question) show substantially stronger mechanistic and trial-level support for imatinib repurposing and may be more actionable candidates for further evaluation.*
+| Element | Innhold |
+|--------|---------|
+| Cytotoksisitetsklassifisering | Målrettet terapi (tyrosinkinasehemmer som sikter BCR-ABL/KIT/PDGFR) |
+| Myelosuppresjonrisiko | Se pakningsvedlegget for advarsler og forholdsregler |
+| Emetogenitetsklassifisering | Se pakningsvedlegget for advarsler og forholdsregler |
+| Overvåkingspunkter | Se pakningsvedlegget for advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Se pakningsvedlegget for advarsler og forholdsregler |
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+*(Merknad: TFDA-ekvivalente etikett-advarsler/kontraindikasjoner er flagget som en blokkering-datakløft (DG001) i denne evidenspakken og må løses før noen S1 sikkerhetsvurdering kan fortsette.)*
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Den mekanistiske koblingen mellom imatinib og hjertfibrosarkom er inferensiell snarere enn bekreftet — det finnes ingen kliniske studier og bare en enkelt publikasjon på revisjonnivå som ikke er spesifikk. Kombinert med manglende reguleringsetikett-/sikkerhetsinformasjon (blokkering-kløft DG001), oppfyller evidensen ikke standarden for å fremme denne kandidaten forbi S1.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA-ekvivalent produktetikett (advarsler, kontraindikasjoner) for å rydde blokkering-sikkerhetskløften (DG001)
+- Bekreftet mekanismedata for virkemåte (for øyeblikket merket som Datakløft) (DG002)
+- Molekylær/genomisk karakteriseringsdata som bekrefter PDGFR/KIT/BCR-ABL-alterasjoner spesifikt i hjertfibrosarkom-kohorter
+- Preklinisk (in vitro/in vivo) eller case-nivå klinisk evidens spesifikt for kardial fibrosarkom før man vurderer studiedesign
+
+*For referanse: innenfor denne samme evidenspakken viser «konvensjonell fibrosarkom» (rangering 3, L2, Forskningsspørsmål) og «fibroblastisk neoplasi»/DFSP (rangering 2, L3, Forskningsspørsmål) vesentlig sterkere mekanistisk og forsøksnivå-evidens for imatinib-omformål og kan være mer handlingsbare kandidater for videre evaluering.*
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

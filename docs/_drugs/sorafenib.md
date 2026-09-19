@@ -29,80 +29,81 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Sorafenib: From Renal Cell/Hepatocellular Carcinoma to Liposarcoma
+## Sorafenib: Fra nyrecellekarsinom/hepatocellulært karsinom til liposarkom
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-Sorafenib is a multi-targeted kinase inhibitor originally established for renal cell carcinoma and hepatocellular carcinoma. The TxGNN model predicts it may also be effective for **Liposarcoma**, with **2 clinical trials** and **8 publications** currently supporting this direction.
+Sorafenib er en multimålrettet kinasehemmer opprinnelig etablert for nyrecellekarsinom og hepatocellulært karsinom. TxGNN-modellen predikerer at det også kan være effektivt for **liposarkom**, med **2 kliniske forsøk** og **8 publikasjoner** som for tiden støtter denne retningen.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in the Norway licensing database (sorafenib is currently not marketed there); evidence within this pack (clinical trial and literature text) identifies its established indications as hepatocellular carcinoma and renal cell carcinoma |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L2 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Punkt | Innhold |
+|-------|---------|
+| Original indikasjon | Ikke registrert i Norges retningslinjedatabase (sorafenib markedsføres for tiden ikke der); bevis innen denne pakken (klinisk forsøk og litteraturtekst) identifiserer de etablerte indikasjonene som hepatocellulært karsinom og nyrecellekarsinom |
+| Predikert ny indikasjon | Liposarkom |
+| TxGNN-prediksjonsscore | 99.82% |
+| Bevisnivå | L2 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Fortsett med sikkerhetstiltak |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed mechanism-of-action data from DrugBank is not available for this drug (data gap). Based on descriptions embedded in the clinical trial evidence within this pack, sorafenib is a multi-targeted kinase inhibitor that blocks RAF/MEK/ERK signal transduction and inhibits VEGFR-1/2/3 and PDGFR-mediated angiogenesis ("Sorafenib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth and by blocking blood flow to the tumor" — NCT00217620). This dual anti-proliferative/anti-angiogenic mechanism underlies its established use in renal cell carcinoma and hepatocellular carcinoma, both of which are highly vascularized, angiogenesis-dependent tumors.
+Detaljerte mekanisme-for-virkning-data fra DrugBank er ikke tilgjengelig for dette legemidlet (datakløft). Basert på beskrivelser innebygd i det kliniske forsøksbeviset innen denne pakken, er sorafenib en multimålrettet kinasehemmer som blokkerer RAF/MEK/ERK-signaloverføring og hemmer VEGFR-1/2/3- og PDGFR-formidlet angiogenese ("Sorafenib kan stoppe veksten av tumorceller ved å blokkere noen av enzymer som er nødvendige for cellvekst og ved å blokkere blodtilførselen til svulsten" — NCT00217620). Denne doble anti-proliferative/anti-angiogene mekanisme ligger til grunn for etablert bruk i nyrecellekarsinom og hepatocellulært karsinom, som begge er sterkt vaskulisert, angiogeneseavhengige svulster.
 
-Soft tissue sarcomas, including liposarcoma, similarly show frequent PDGFR pathway activation and tumor vascular dependence, providing a plausible mechanistic bridge. Dedifferentiated liposarcoma additionally shows PTEN down-regulation, which may interact with RAF/AKT signaling (PMID 23416162). This mechanistic overlap is reflected in the completed Phase 2 SWOG trial (S0505) that directly tested sorafenib in advanced soft tissue sarcoma populations including liposarcoma subtypes.
+Myke vevsarkomer, inkludert liposarkom, viser på samme måte hyppig aktivering av PDGFR-signalveien og tumorvaskulær avhengighet, noe som gir en plausibel mekanistisk forbindelse. Dedifferensiert liposarkom viser dessuten PTEN-nedregulering, som kan samhandle med RAF/AKT-signalering (PMID 23416162). Denne mekanistiske overlappingen gjenspeiles i det fullførte fase 2 SWOG-forsøket (S0505) som direkte testet sorafenib i avanserte myke vevsarkompopulasjoner inkludert liposarkomundertyper.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøk
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Antall deltakere | Nøkkelfunn |
 |---------|------|------|------|---------|
-| [NCT00217620](https://clinicaltrials.gov/study/NCT00217620) | Phase 2 | Completed | 51 | Sorafenib (BAY 43-9006) tested in advanced soft tissue sarcomas including liposarcoma subtypes; direct drug-disease evidence |
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | Completed | 131 | SARC024 blanket protocol on oral regorafenib (structurally related, not sorafenib) in selected sarcoma subtypes — indirect supportive precedent only |
+| [NCT00217620](https://clinicaltrials.gov/study/NCT00217620) | Fase 2 | Fullført | 51 | Sorafenib (BAY 43-9006) testet i avanserte myke vevsarkomer inkludert liposarkomundertyper; direkte legemiddel-sykdom-bevis |
+| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Fase 2 | Fullført | 131 | SARC024 paraplyprotokoll for oral regorafenib (strukturelt beslektet, ikke sorafenib) i valgte sarkomundertyper — bare indirekte støttende presedens |
 
-## Literature Evidence
+## Bevis fra litteratur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Nøkkelfunn |
 |------|-----|------|------|---------|
-| [21751200](https://pubmed.ncbi.nlm.nih.gov/21751200/) | 2012 | Phase 2 trial (SWOG S0505) | Cancer | Sorafenib tested in advanced soft tissue sarcoma patients with limited therapeutic options; a multitargeted kinase inhibitor of RAF, VEGFR1-3, PDGFR-β, and c-kit |
-| [24554062](https://pubmed.ncbi.nlm.nih.gov/24554062/) | 2014 | Phase 1 trial | Annals of Surgical Oncology | Neoadjuvant sorafenib + conformal radiotherapy in extremity soft tissue sarcoma; synergy hypothesis with antiangiogenic therapy |
-| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Review | Annals of Oncology | Histology-driven medical therapy in soft tissue sarcomas, including liposarcoma-specific agent activity |
-| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Review | Magyar Onkologia | Histological subtype-based medical treatment approach for soft tissue sarcomas |
-| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Review | Frontiers in Oncology | PDOX models identify effective combination therapies (CDK inhibitor palbociclib) for sarcoma |
-| [18413802](https://pubmed.ncbi.nlm.nih.gov/18413802/) | 2008 | Preclinical | Molecular Cancer Therapeutics | Sorafenib inhibits growth/MAPK signaling in malignant peripheral nerve sheath and dedifferentiated liposarcoma cell lines |
-| [23416162](https://pubmed.ncbi.nlm.nih.gov/23416162/) | 2013 | Preclinical (xenograft) | American Journal of Pathology | Dedifferentiated liposarcoma xenograft models reveal PTEN down-regulation as a malignant signature, relevant to PI3K/RAF pathway inhibition |
-| [25075796](https://pubmed.ncbi.nlm.nih.gov/25075796/) | 2014 | Case report | Anti-Cancer Drugs | Response to trabectedin (different drug) in advanced synovial sarcoma — indirect sarcoma-class precedent only |
+| [21751200](https://pubmed.ncbi.nlm.nih.gov/21751200/) | 2012 | Fase 2-forsøk (SWOG S0505) | Cancer | Sorafenib testet i avanserte myke vevsarkompasienter med begrensede terapi-alternativer; en multimålrettet kinasehemmer av RAF, VEGFR1-3, PDGFR-β og c-kit |
+| [24554062](https://pubmed.ncbi.nlm.nih.gov/24554062/) | 2014 | Fase 1-forsøk | Annals of Surgical Oncology | Neoadjuvant sorafenib + konformal strålebehandling i mykt vevsarkom i ekstremiteten; synergihypotese med antiangiogen terapi |
+| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Oversikt | Annals of Oncology | Histologi-drevet medisinsk terapi i myke vevsarkomer, inkludert liposarkom-spesifikk agent-aktivitet |
+| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Oversikt | Magyar Onkologia | Histologisk subtype-basert medisinsk behandlingstilnærming for myke vevsarkomer |
+| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Oversikt | Frontiers in Oncology | PDOX-modeller identifiserer effektive kombinasjonsterapier (CDK-hemmer palbociclib) for sarkom |
+| [18413802](https://pubmed.ncbi.nlm.nih.gov/18413802/) | 2008 | Preklinisk | Molecular Cancer Therapeutics | Sorafenib hemmer vekst/MAPK-signalering i ondartede perifere nerveskjede- og dedifferensiert liposarkomcellelinjer |
+| [23416162](https://pubmed.ncbi.nlm.nih.gov/23416162/) | 2013 | Preklinisk (xenograft) | American Journal of Pathology | Dedifferensiert liposarkom xenograft-modeller avslører PTEN-nedregulering som et ondartartet trekk, relevant for PI3K/RAF-veihemming |
+| [25075796](https://pubmed.ncbi.nlm.nih.gov/25075796/) | 2014 | Saksrapport | Anti-Cancer Drugs | Respons på trabectedin (annet legemiddel) i avansert synovialsarkom — bare indirekte sarkomklasse-presedens |
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Sorafenib is currently **not marketed in Norway** — no active authorizations are on record in the regulatory database (0 licenses).
+Sorafenib markedsføres for tiden **ikke i Norge** — ingen aktive autorisasjoner er registrert i reguleringsmyndighetenes database (0 lisenser).
 
-## Cytotoxicity
+## Cytotoksisitet
 
-| Item | Content |
+| Punkt | Innhold |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-kinase inhibitor targeting RAF/VEGFR/PDGFR), not conventional cytotoxic chemotherapy |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Cytotoksisitetsklassifisering | Målrettet terapi (multikinas-hemmer målrettet RAF/VEGFR/PDGFR), ikke konvensjonell cytotoksisk kjemoterapi |
+| Myelosuppresjonsrisiko | Se pakningsvedlegget for advarsler og forholdsregler |
+| Emetogenitetsklassifisering | Se pakningsvedlegget for advarsler og forholdsregler |
+| Overvåkingspunkter | Se pakningsvedlegget for advarsler og forholdsregler |
+| Håndteringsvern | Se pakningsvedlegget for advarsler og forholdsregler |
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information. Note: TFDA/regulatory-agency-level warning and contraindication data for this drug is flagged as a **blocking data gap** (DG001) — this must be resolved before a formal S1 safety assessment can proceed.
+Se pakningsvedlegget for sikkerhetsinformasjon. Merk: TFDA/reguleringsmyndighetenes advarsler og kontraindikasjonsdata for dette legemidlet er flagget som en **blokkering datakløft** (DG001) — dette må løses før en formell S1-sikkerhetsvurdering kan gå videre.
 
-## Conclusion and Next Steps
+## Konklusjon og neste steg
 
-**Decision: Proceed with Guardrails**
+**Beslutning: Fortsett med sikkerhetstiltak**
 
-**Rationale:**
-A completed Phase 2 trial (SWOG S0505) and multiple mechanistically consistent preclinical studies support biological plausibility of sorafenib in soft tissue sarcoma/liposarcoma, but no liposarcoma-subtype-specific confirmatory trial exists, and formal safety-label data is currently unavailable.
+**Begrunnelse:**
+Et fullført fase 2-forsøk (SWOG S0505) og flere mekanistisk konsistente prekliniske studier støtter biologisk plausibilitet av sorafenib i mykt vevsarkom/liposarkom, men det finnes ingen liposarkom-subtype-spesifikk bekreftelsesforsøk, og formelle sikkerhetsmerkingsdata er for tiden utilgjengelig.
 
-**To proceed, the following is needed:**
-- TFDA/Norway package insert warnings and contraindications (DG001, blocking — required before S1 safety evaluation)
-- Formal DrugBank-sourced mechanism of action documentation (DG002)
-- Liposarcoma-subtype-specific trial data or subgroup analysis from existing sarcoma trials
-- A defined safety monitoring plan given the drug's antiangiogenic/kinase-inhibitor toxicity profile
+**For å fortsette, er følgende nødvendig:**
+- TFDA/Norges pakningsvedleggsadvarsler og kontraindikasjoner (DG001, blokkering — nødvendig før S1-sikkerhetsvurdering)
+- Formell DrugBank-hentet mekanisme-for-virkning-dokumentasjon (DG002)
+- Liposarkom-subtype-spesifikk forsøksdata eller subgruppeanalyse fra eksisterende sarkomatforsøk
+- En definert sikkerhetsoversiktsplan gitt legemidlets antiangiogen/kinasehemmer-toksisitetsprofil
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

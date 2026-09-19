@@ -29,76 +29,77 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Norelgestromin: From Contraception to Amenorrhea
+# Norelgestromin: Fra prevensjon til amenorré
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-> Norelgestromin is the active metabolite of norgestimate and is used as a progestin component in combined hormonal contraceptive products (e.g., transdermal patch); no confirmed original indication or mechanism-of-action record is available in this dataset.
-> The TxGNN model predicts it may be effective for **Amenorrhea**, based purely on a computational prediction score, with **no supporting clinical trials or literature** currently identified.
-> Given the absence of any real-world evidence and outstanding safety data gaps, this candidate is at the earliest and weakest stage of evaluation.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available from regulatory data (drug not marketed in Norway; no license records). Based on general pharmacological knowledge, norelgestromin is used for contraception as part of combined hormonal contraceptive patches. |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.51% (rank 5435) |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Norelgestromin er det aktive metabolitten av norgestimate og benyttes som gestagen-komponent i kombinerte hormonale prevensjonsmidler (f.eks. transdermalt plaster); ingen bekreftet opprinnelig indikasjon eller mekanisme-for-virkemåte-register er tilgjengelig i dette datasettet.
+> TxGNN-modellen predikerer at det kan være effektivt mot **Amenorré**, basert utelukkende på en beregnet prediksjonspoeng, med **ingen støttende kliniske forsøk eller litteratur** som per nå er identifisert.
+> Gitt fravær av data fra virkelig verden og utestående sikkerhetsdatahull, er denne kandidaten på det tidligste og svakeste stadiet av evaluering.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available in this dataset (`original_moa`: [Data Gap]), and no original indication records exist either. Based on general pharmacological knowledge, norelgestromin is the active metabolite of norgestimate and belongs to the progestin class, most commonly known as a component of combined hormonal contraceptive transdermal patches.
-
-Progestin-class drugs are pharmacologically known to suppress ovulation and thin the endometrial lining — mechanisms that, as a class effect, can lead to amenorrhea or menstrual suppression. This is a well-established pharmacological property of progestins in general, not a finding specific to norelgestromin.
-
-However, because this dataset provides no confirmed original indication and no verified MOA source, the mechanistic link between norelgestromin and amenorrhea described above should be treated strictly as a **theoretical, class-level inference**. It cannot be used as supporting evidence for the evidence-level determination, which is why this candidate remains at L5 (model prediction only).
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke tilgjengelig fra regulatoriske data (legemidlet er ikke markedsført i Norge; ingen lisensjournaler). Basert på generell farmakologisk kunnskap, benyttes norelgestromin til prevensjon som del av kombinerte hormonale prevensjonplaster. |
+| Predikert ny indikasjon | Amenorré |
+| TxGNN-prediksjonspoeng | 99.51% (rangering 5435) |
+| Bevisgrad | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført (Ikke markedsført) |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available
+For tiden er detaljert data om virkemåte ikke tilgjengelig i dette datasettet (`original_moa`: [Data Gap]), og ingen journalert opprinnelig indikasjon finnes heller. Basert på generell farmakologisk kunnskap, er norelgestromin det aktive metabolitten av norgestimate og tilhører gestagen-klassen, mest kjent som komponent i kombinerte hormonale prevensjonplaster.
 
----
+Gestagen-klasselegemidler er farmakologisk kjent for å undertrykke ovulasjon og gjøre endometriet tynnere — mekanismer som, som en klasseffekt, kan føre til amenorré eller menstruasjonssuppresjon. Dette er en godt etablert farmakologisk egenskap hos gestagener generelt, ikke et funn spesifikt for norelgestromin.
 
-## Norway Market Information
-
-Norelgestromin is not currently marketed in Norway, and no marketing authorizations are on record (`total_licenses`: 0).
+Imidlertid, fordi dette datasettet ikke gir noen bekreftet opprinnelig indikasjon og ingen verifisert MOA-kilde, bør den mekanistiske koblingen mellom norelgestromin og amenorré beskrevet ovenfor behandles strengt som en **teoretisk, klasseneivå-inferens**. Den kan ikke benyttes som støttende bevis for fastleggelsen av bevisgrad, som er grunnen til at denne kandidaten forblir på L5 (modellprediktusjon kun).
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøk
 
-Please refer to the package insert for safety information.
+Ingen relaterte kliniske forsøk er per nå registrert
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra litteratur
 
-**Decision: Hold**
+Ingen relatert litteratur tilgjengelig per nå
 
-**Rationale:**
-- The prediction is supported only by the TxGNN model score (L5, no clinical trials, no literature), and a **Blocking**-severity data gap (TFDA/package-insert warnings and contraindications, DG001) means this candidate cannot yet pass the S1 safety pre-screening stage.
+---
 
-**To proceed, the following is needed:**
-- Confirmed original indication and mechanism-of-action (MOA) data for norelgestromin (currently marked High-severity data gap, DG002)
-- Official package insert / label warnings and contraindications (Blocking data gap, DG001) to enable S1 safety evaluation
-- Drug-drug interaction (DDI) data (currently not found)
-- Generation or identification of preclinical/mechanistic or clinical evidence specific to amenorrhea before advancing beyond S0
+## Markedsinformasjon for Norge
+
+Norelgestromin er ikke for tiden markedsført i Norge, og ingen godkjennelser for markedsføring er registrert (`total_licenses`: 0).
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+- Prediksjonen støttes kun av TxGNN-modellpoeng (L5, ingen kliniske forsøk, ingen litteratur), og et **Blokkering**-alvorlighetsgrad datahull (TFDA/pakningsvedlegg-advarsler og kontraindikasjoner, DG001) betyr at denne kandidaten ennå ikke kan passere sikkerhetsforgjenningsscreening-stadiet S1.
+
+**For å fortsette er følgende nødvendig:**
+- Bekreftet opprinnelig indikasjon og virkemåte-data for norelgestromin (per nå markert høy-alvorlighetsgrad datahull, DG002)
+- Offisielt pakningsvedlegg / etikett advarsler og kontraindikasjoner (Blokkering datahull, DG001) for å muliggjøre S1 sikkerhetsevaluering
+- Legemiddel-legemiddel interaksjon (DDI) data (per nå ikke funnet)
+- Generering eller identifikasjon av prekliniske/mekanistiske eller kliniske bevis spesifikt for amenorré før framskriding utenfor S0
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

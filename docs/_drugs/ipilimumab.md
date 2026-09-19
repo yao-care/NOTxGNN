@@ -29,113 +29,114 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Ipilimumab: From Cutaneous Melanoma to Non-Cutaneous Melanoma
+# Ipilimumab: Fra kutant melanom til ikke-kutant melanom
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Ipilimumab is an anti-CTLA-4 immune checkpoint inhibitor originally established for (cutaneous) metastatic melanoma.
-> The TxGNN model additionally predicts activity in **Non-Cutaneous Melanoma** (uveal, mucosal, acral, and CNS-metastatic subtypes),
-> with **80 clinical trials** and **5 publications** identified in the evidence pack, including several completed Phase 2/3 studies specific to non-cutaneous subtypes.
+> Ipilimumab er en anti-CTLA-4 immune checkpoint-hemmer som opprinnelig ble etablert for (kutant) metastatisk melanom.
+> TxGNN-modellen forutsier dessuten aktivitet i **ikke-kutant melanom** (uvealt, mukøst, akralt og CNS-metastatisk undertyper),
+> med **80 kliniske forsøk** og **5 publikasjoner** identifisert i bevisepakken, inkludert flere fullførte fase 2/3 studier spesifikk for ikke-kutante undertyper.
 
-*Note: The evidence pack also contained a second TxGNN prediction — **choroideremia** (score 99.06%, rank 9029) — but this candidate has zero supporting trials or literature, and the pack itself states there is no known mechanistic link between anti-CTLA-4 immune activation and this monogenic retinal degeneration. It has been screened out (evidence level L5, decision stage S0, recommendation **Hold**) and is not discussed further below.*
+*Merknad: Bevisepakken inneholdt også en annen TxGNN-prediksjon — **korioderemie** (score 99,06%, rangering 9029) — men denne kandidaten har null støttende forsøk eller litteratur, og pakken selv sier at det ikke er noe kjent mekanistisk bånd mellom anti-CTLA-4 immune aktivering og denne monogene netthinnedegenereringen. Den har blitt screenet ut (bevisnivå L5, beslutningsstadium S0, anbefaling **Hold**) og diskuteres ikke videre nedenfor.*
 
 ---
 
-## Quick Overview
+## Hurtigoversikt
 
-| Item | Content |
+| Punkt | Innhold |
 |------|------|
-| Original Indication | Metastatic (cutaneous) melanoma — no local license on file (see note below) |
-| Predicted New Indication | Non-Cutaneous Melanoma (uveal, mucosal, acral, leptomeningeal-metastatic) |
-| TxGNN Prediction Score | 99.02% |
-| Evidence Level | L2 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Opprinnelig indikasjon | Metastatisk (kutant) melanom — ingen lokal lisens på fil (se merknad nedenfor) |
+| Forutsagt ny indikasjon | Ikke-kutant melanom (uvealt, mukøst, akralt, leptomeningeal-metastatisk) |
+| TxGNN-prediksjonsscore | 99,02% |
+| Bevisnivå | L2 |
+| Markedsstatus i Norge | Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Fortsett med sikringsmekanismer |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Ipilimumab is an anti-CTLA-4 monoclonal antibody. It blocks the inhibitory CTLA-4 signal on T cells, thereby restoring and amplifying tumor-specific T-cell activation and proliferation. Critically, this is a **host immune-modulation mechanism**, not one that targets a specific tumor genotype (e.g., BRAF mutation status). Because the drug acts on the patient's immune system rather than on melanoma-specific molecular drivers, there is a plausible mechanistic rationale for activity across melanoma subtypes beyond the cutaneous form — including uveal, mucosal, acral, and CNS-metastatic (leptomeningeal) disease.
+Ipilimumab er et anti-CTLA-4 monoklonalt antistoff. Det blokkerer det inhibitoriske CTLA-4-signalet på T-celler, og gjenoppretter og forsterker dermed tumorspesifikk T-celle-aktivering og -proliferasjon. Kritisk er det at dette er en **vertmekanisme for immune-modulasjon**, ikke en som retter seg mot en spesifikk tumorgenotype (f.eks. BRAF-mutasjonsstatus). Fordi stoffet virker på pasientens immunsystem i stedet for på melanom-spesifikke molekylære drivere, finnes det en plausibel mekanistisk begrunnelse for aktivitet på tvers av melanom-undertyper utover den kutante formen — inkludert uvealt, mukøst, akralt og CNS-metastatisk (leptomeningeal) sykdom.
 
-Ipilimumab is already established for metastatic cutaneous melanoma. The predicted new indication, non-cutaneous melanoma, represents a **label-adjacent extension** within the same disease family rather than a novel therapeutic area — a pattern generally associated with lower repurposing risk. That said, the rationale in the evidence pack flags an important caveat: uveal melanoma occurs in an immune-privileged ocular environment and typically carries a lower tumor mutational burden, and mucosal melanoma shows a similar, though less pronounced, pattern. Both subtypes have historically shown **lower response rates to checkpoint inhibition** than cutaneous disease, which tempers — but does not eliminate — the mechanistic plausibility.
+Ipilimumab er allerede etablert for metastatisk kutant melanom. Den forutsatte nye indikasjonen, ikke-kutant melanom, representerer en **indikasjonsnær utvidelse** innen samme sykdomsfamilie i stedet for et nytt terapeutisk område — et mønster som generelt er forbundet med lavere repurposeringsrisiko. Når det er sagt, fremhever begrunnelsen i bevisepakken en viktig advarsel: uvealt melanom oppstår i et immunprivilegert øyemiljø og har typisk en lavere tumormutatsjonsbelastning, og mukøst melanom viser et lignende, men mindre uttalt, mønster. Begge undertypene har historisk vist **lavere responsrater på checkpoint-hemming** enn kutant sykdom, noe som dempet — men ikke eliminerer — den mekanistiske plausibiliteten.
 
-Detailed drug-level mechanism-of-action documentation (DrugBank MOA field) was not available in this evidence pack; the mechanistic description above is derived from the repurposing rationale rather than a structured MOA record.
+Detaljert dokumentasjon av virkningsmekanisme på stoffnivå (DrugBank MOA-felt) var ikke tilgjengelig i denne bevisepakken; den mekanistiske beskrivelsen ovenfor er avledet fra repurposeringsbegrunnelsen i stedet for en strukturert MOA-post.
 
 ---
 
-## Clinical Trial Evidence
+## Klinisk forsøksbevis
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Deltakere | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT01654692](https://clinicaltrials.gov/study/NCT01654692) | Phase 2 | Completed | 86 | Ipilimumab + fotemustine in unresectable/locally advanced or metastatic melanoma, including uveal melanoma population — direct, completed evidence (Grade A) |
-| [NCT02626962](https://clinicaltrials.gov/study/NCT02626962) | Phase 2 | Completed | 52 | Nivolumab + ipilimumab in previously untreated metastatic **uveal** melanoma — directly relevant non-cutaneous subtype |
-| [NCT01730157](https://clinicaltrials.gov/study/NCT01730157) | Early Phase 1 | Terminated | 6 | Sequential hepatic radioembolization + ipilimumab in **uveal** melanoma with liver metastases |
-| [NCT02939300](https://clinicaltrials.gov/study/NCT02939300) | Phase 2 | Completed | 18 | Ipilimumab + nivolumab in melanoma **leptomeningeal metastases** (Grade B) |
-| [NCT03220009](https://clinicaltrials.gov/study/NCT03220009) | Phase 2 | Withdrawn | 0 | Adjuvant nivolumab vs. observation after neoadjuvant ipilimumab+nivolumab in **mucosal** melanoma — directly relevant subtype but trial withdrawn |
-| [NCT02224781](https://clinicaltrials.gov/study/NCT02224781) | Phase 3 | Active, not recruiting | 267 | DREAMseq: sequencing of ipilimumab+nivolumab vs. targeted therapy in advanced melanoma (Grade B, indirect support) |
-| [NCT01927419](https://clinicaltrials.gov/study/NCT01927419) | Phase 2 | Completed | 142 | Randomized double-blind nivolumab+ipilimumab vs. ipilimumab alone in untreated advanced melanoma (Grade B, indirect support) |
-| [NCT01810016](https://clinicaltrials.gov/study/NCT01810016) | Phase 1 | Terminated | 8 | NY-ESO-1 vaccine + ipilimumab in unresectable/metastatic melanoma (Grade C, weak evidence) |
-| [NCT02388906](https://clinicaltrials.gov/study/NCT02388906) | Phase 3 | Completed | 906 | CheckMate 238: adjuvant nivolumab vs. ipilimumab after resection of high-risk melanoma — large completed RCT, general population |
-| [NCT01515189](https://clinicaltrials.gov/study/NCT01515189) | Phase 3 | Completed | 831 | Ipilimumab 3 mg/kg vs. 10 mg/kg in previously treated/untreated melanoma — large completed dose-finding RCT, general population |
+| [NCT01654692](https://clinicaltrials.gov/study/NCT01654692) | Fase 2 | Fullført | 86 | Ipilimumab + fotemustine i uresektabelt/lokalt avansert eller metastatisk melanom, inkludert uvealt melanom-populasjon — direkte, fullført bevis (Karakter A) |
+| [NCT02626962](https://clinicaltrials.gov/study/NCT02626962) | Fase 2 | Fullført | 52 | Nivolumab + ipilimumab i tidligere ubehandlet metastatisk **uvealt** melanom — direkte relevant ikke-kutant undertype |
+| [NCT01730157](https://clinicaltrials.gov/study/NCT01730157) | Tidlig fase 1 | Avsluttet | 6 | Sekvensiell hepatisk radioembolisering + ipilimumab i **uvealt** melanom med levermetastaser |
+| [NCT02939300](https://clinicaltrials.gov/study/NCT02939300) | Fase 2 | Fullført | 18 | Ipilimumab + nivolumab i melanom **leptomeningeal metastaser** (Karakter B) |
+| [NCT03220009](https://clinicaltrials.gov/study/NCT03220009) | Fase 2 | Trukket tilbake | 0 | Adjuvant nivolumab vs. observasjon etter neoadjuvant ipilimumab+nivolumab i **mukøst** melanom — direkte relevant undertype men forsøk trukket tilbake |
+| [NCT02224781](https://clinicaltrials.gov/study/NCT02224781) | Fase 3 | Aktivt, rekrutterer ikke | 267 | DREAMseq: sekvensering av ipilimumab+nivolumab vs. målrettet terapi i avansert melanom (Karakter B, indirekte støtte) |
+| [NCT01927419](https://clinicaltrials.gov/study/NCT01927419) | Fase 2 | Fullført | 142 | Randomisert dobbeltblind nivolumab+ipilimumab vs. ipilimumab alene i ubehandlet avansert melanom (Karakter B, indirekte støtte) |
+| [NCT01810016](https://clinicaltrials.gov/study/NCT01810016) | Fase 1 | Avsluttet | 8 | NY-ESO-1 vaksin + ipilimumab i uresektabelt/metastatisk melanom (Karakter C, svakt bevis) |
+| [NCT02388906](https://clinicaltrials.gov/study/NCT02388906) | Fase 3 | Fullført | 906 | CheckMate 238: adjuvant nivolumab vs. ipilimumab etter resektion av høyrisikomellanom — stort fullført RCT, allmenn populasjon |
+| [NCT01515189](https://clinicaltrials.gov/study/NCT01515189) | Fase 3 | Fullført | 831 | Ipilimumab 3 mg/kg vs. 10 mg/kg i tidligere behandlet/ubehandlet melanom — stort fullført dosefinnende RCT, allmenn populasjon |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [24999899](https://pubmed.ncbi.nlm.nih.gov/24999899/) | 2014 | Cohort | The Medical Journal of Australia | Real-world efficacy/tolerability of ipilimumab across **cutaneous, uveal, and mucosal** melanoma; assessed response by subtype, BRAF status, and irAE incidence |
-| [28183255](https://pubmed.ncbi.nlm.nih.gov/28183255/) | 2018 | Review | Current Cancer Drug Targets | Systematic review of melanoma adjuvant treatment (2000–2015); explicitly notes non-cutaneous melanoma comprises ~5% of cases |
-| [37887546](https://pubmed.ncbi.nlm.nih.gov/37887546/) | 2023 | Cohort | Current Oncology | Retrospective multicenter cohort comparing anti-PD-1 monotherapy vs. combination with ipilimumab by age group in advanced melanoma |
-| [29466692](https://pubmed.ncbi.nlm.nih.gov/29466692/) | 2018 | Review | Discovery Medicine | Clinical update on anti-PD-1 antibodies as monotherapy or combined with ipilimumab in advanced melanoma |
-| [40236344](https://pubmed.ncbi.nlm.nih.gov/40236344/) | 2025 | Case Report | Cureus | Case of metastatic melanoma with colonic involvement, treated with immunotherapy; highlights GI immune-related adverse event risk |
+| [24999899](https://pubmed.ncbi.nlm.nih.gov/24999899/) | 2014 | Kohortstudie | The Medical Journal of Australia | Virkelighetens effektivitet/tolerabilitet av ipilimumab på tvers av **kutant, uvealt og mukøst** melanom; vurderte respons etter undertype, BRAF-status og irAE-forekomst |
+| [28183255](https://pubmed.ncbi.nlm.nih.gov/28183255/) | 2018 | Oversiktsartikkel | Current Cancer Drug Targets | Systematisk oversikt over melanom adjuvant behandling (2000–2015); bemerker uttrykkelig at ikke-kutant melanom utgjør ~5% av tilfellene |
+| [37887546](https://pubmed.ncbi.nlm.nih.gov/37887546/) | 2023 | Kohortstudie | Current Oncology | Retrospektiv multisenterstudie som sammenligner anti-PD-1 monoterapi vs. kombinasjon med ipilimumab etter aldersgruppe i avansert melanom |
+| [29466692](https://pubmed.ncbi.nlm.nih.gov/29466692/) | 2018 | Oversiktsartikkel | Discovery Medicine | Klinisk oppdatering på anti-PD-1 antistoffer som monoterapi eller kombinert med ipilimumab i avansert melanom |
+| [40236344](https://pubmed.ncbi.nlm.nih.gov/40236344/) | 2025 | Kasuistikk | Cureus | Tilfelle av metastatisk melanom med koloninvolvering, behandlet med immunterapi; fremhever GI immunerelatert bivirkning-risiko |
 
 ---
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Ipilimumab is **not currently marketed** in this jurisdiction (0 authorizations on file). No local license records or approved indication text are available for extraction.
+Ipilimumab er **ikke for øyeblikket markedsført** i denne jurisdiksjonen (0 autorisasjoner på fil). Ingen lokale lisenspostinger eller godkjent indikasjonstekst er tilgjengelig for utvinning.
 
 ---
 
-## Cytotoxicity
+## Cytotoksisitet
 
-Melanoma is a malignant neoplasm, and ipilimumab is an anticancer immune checkpoint inhibitor; this section is included per the antineoplastic-drug criteria.
+Melanom er en malign neoplasi, og ipilimumab er en antikreftstoff immune checkpoint-hemmer; denne delen er inkludert per kriteriene for antineoplastiske stoffer.
 
-| Item | Content |
+| Punkt | Innhold |
 |------|------|
-| Cytotoxicity Classification | Immunotherapy (anti-CTLA-4 immune checkpoint inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Cytotoksisitet-klassifisering | Immunterapi (anti-CTLA-4 immune checkpoint-hemmer) |
+| Myelosuppresjonrisiko | Vennligst se pakningsvedleggets advarsler og forsiktighetsregler |
+| Emetogenisitets-klassifisering | Vennligst se pakningsvedleggets advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Vennligst se pakningsvedleggets advarsler og forsiktighetsregler |
+| Håndteringsbeskyttelse | Vennligst se pakningsvedleggets advarsler og forsiktighetsregler |
 
-*Note: Unlike conventional cytotoxic chemotherapy, checkpoint inhibitors are primarily associated with immune-related adverse events (e.g., colitis, hepatitis, dermatitis, endocrinopathies) rather than myelosuppression — but no drug-specific toxicity data were present in this evidence pack, so specific claims are deferred to the package insert.*
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No warnings, contraindications, or drug-interaction data were available in this evidence pack — this is flagged as a **Blocking** data gap (DG001: TFDA/local label warnings and contraindications) that must be resolved before this candidate can proceed to safety evaluation (S1).
+*Merknad: I motsetning til konvensjonell cytotoksisk kjemoterapi er checkpoint-hemmer primært forbundet med immunerelaterte bivirkninger (f.eks. kolitt, hepatitt, dermatitt, endokrinopati) snarere enn myelosuppresjon — men ingen stoffspesifikk toksisitetsdata var til stede i denne bevisepakken, så spesifikke påstander blir utsatt til pakningsvedlegget.*
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Ingen advarsler, kontraindikasjoner eller legemiddelinteraksjonsdata var tilgjengelige i denne bevisepakken — dette flagges som et **blokkerende** datakløft (DG001: TFDA/lokal merking advarsler og kontraindikasjoner) som må løses før denne kandidaten kan fortsette til sikkerhetsevaluering (S1).
 
-**Rationale:**
-Multiple completed Phase 2 trials provide direct evidence for ipilimumab activity in non-cutaneous melanoma subtypes (uveal, mucosal, leptomeningeal-metastatic), and the mechanism — non-genotype-specific immune activation — is plausibly generalizable across melanoma subtypes. However, response rates in uveal and mucosal disease are historically lower than in cutaneous melanoma, and the drug is not currently marketed in this jurisdiction, so evidence is sufficient to advance cautiously but not for an unconditional Go.
+---
 
-**To proceed, the following is needed:**
-- Local label safety data (TFDA/regulatory warnings, contraindications) — currently a **Blocking** gap (DG001)
-- Structured mechanism-of-action documentation from DrugBank (DG002)
-- Subtype-stratified efficacy data (uveal vs. mucosal vs. acral response rates) to size expected benefit
-- Route/formulation compatibility assessment (currently pending in evidence pack)
-- Market entry/registration pathway assessment, since the drug currently holds zero local authorizations
-- Exclude choroideremia from further development given absence of mechanistic plausibility and supporting evidence
+## Konklusjon og neste skritt
+
+**Beslutning: Fortsett med sikringsmekanismer**
+
+**Begrunnelse:**
+Flere fullførte fase 2-forsøk gir direkte bevis for ipilimumab-aktivitet i ikke-kutante melanom-undertyper (uvealt, mukøst, leptomeningeal-metastatisk), og mekanismen — ikke-genotype-spesifikk immune-aktivering — er plausibel og generaliserbar på tvers av melanom-undertyper. Imidlertid er responsratene i uvealt og mukøst sykdom historisk lavere enn i kutant melanom, og stoffet er ikke for øyeblikket markedsført i denne jurisdiksjonen, så bevis er tilstrekkelig til å gå videre forsiktig men ikke for en betingelsesløs Go.
+
+**For å fortsette, er følgende nødvendig:**
+- Lokal etikettsikerhetdata (TFDA/regulatoriske advarsler, kontraindikasjoner) — for øyeblikket et **blokkerende** kløft (DG001)
+- Strukturert virkningsmekanisme-dokumentasjon fra DrugBank (DG002)
+- Undertypestratifisert effektivitetsdata (uvealt vs. mukøst vs. akralt responsrater) for å dimensjonere forventet nytte
+- Rute-/formuleringskompatibilitetsvurdering (for øyeblikket ventende i bevisepakken)
+- Markedsinntredings-/registreringsveiledning, siden stoffet for øyeblikket holder null lokale autorisasjoner
+- Ekskluder korioderemie fra videre utvikling gitt fravær av mekanistisk plausibilitet og støttende bevis
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

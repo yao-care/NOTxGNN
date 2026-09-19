@@ -29,77 +29,74 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-Using no specialized skill — this is a direct content-generation task with a fully specified template already provided; no coding, debugging, or brainstorming is required.
+# Tolcapone: Fra Parkinsons sykdom til Rasmussens subakutt encefalitt
+
+## Sammendrag i én setning
+
+Tolcapone er en katekol-O-metyltransferase (COMT) hemmende stoff, opprinnelig brukt som et tilleggsmedikament til levodopa/karbidopa ved Parkinsons sykdom. TxGNN-modellens topprangerte prognose for dette stoffet er **Rasmussens subakutt encefalitt**, men denne spesifikke kandidaten har for tiden **0 kliniske forsøk** og **0 publikasjoner** som støtter det — hele bevisgrunnlaget er modellskåren selv.
 
 ---
 
-# Tolcapone: From Parkinson's Disease to Rasmussen Subacute Encephalitis
+## Rask oversikt
 
-## One-Sentence Summary
-
-Tolcapone is a catechol-O-methyltransferase (COMT) inhibitor, originally used as an adjunct to levodopa/carbidopa in Parkinson's disease. The TxGNN model's top-ranked prediction for this drug is **Rasmussen Subacute Encephalitis**, but this specific candidate currently has **0 clinical trials** and **0 publications** supporting it — the entire evidence base is the model score itself.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Parkinson's disease (adjunct to levodopa/carbidopa) — inferred from COMT-inhibitor classification cited in the evidence pack; no Norway market license on file to confirm approved wording |
-| Predicted New Indication | Rasmussen Subacute Encephalitis |
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Parkinsons sykdom (tilleggsmedikament til levodopa/karbidopa) — utledet fra COMT-hemmer-klassifiseringen sitert i bevissamlingen; ingen norsk markedslisens i arkivet for å bekrefte godkjent ordlyd |
+| Prognostisert ny indikasjon | Rasmussens subakutt encefalitt |
 | TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Evidensnivå | L5 |
+| Norsk markedsstatus | ✗ Ikke på markedet |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prognosen rimelig?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on the information available, Tolcapone is a COMT inhibitor used adjunctively with levodopa/carbidopa in Parkinson's disease, acting on catecholamine/dopamine metabolism.
+For tiden er det ikke tilgjengelig detaljerte virkningsmekanisme-data (flagget som alvorlig datamangel). Basert på tilgjengelig informasjon er tolcapone en COMT-hemmer brukt som tilleggsmedikament med levodopa/karbidopa ved Parkinsons sykdom, som virker på katekkolamin-/dopamin-metabolisme.
 
-Rasmussen encephalitis, however, is an autoimmune/inflammatory unilateral cortical disease with no established link to dopamine metabolism or the COMT pathway. The evidence pack's own rationale confirms this: there is no mechanistic connection, and no clinical trial or literature evidence exists for this pairing — it is purely a high TxGNN embedding-similarity score with no corroborating signal.
+Rasmussens encefalitt er imidlertid en autoimmun/inflammatorisk ensildig kortikalsykdom uten etablert forbindelse til dopaminmetabolisme eller COMT-signalveien. Bevissamlingens egen begrunnelse bekrefter dette: det finnes ingen mekanistisk forbindelse, og ingen kliniske forsøk eller litteraturbevis foreligger for denne kombinasjonen — det er rent og skjært et høyt likhetsmål fra TxGNN uten noen bekreftet indisium.
 
-Notably, this same evidence pack contains two other candidates with clearer biological plausibility given Tolcapone's known pharmacology: **Lewy body dementia** (rank 6, L4, overlapping dopaminergic neurodegeneration) and **juvenile parkinsonism / Hunt's paralysis agitans** (rank 10, L4, mechanistically near-identical to the drug's core approved use). Neither has clinical trial or literature evidence in this dataset, but both merit consideration as more credible secondary hypotheses than the top-ranked score alone.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Bemerkelsesverdig nok inneholder denne samme bevissamlingen to andre kandidater med klarere biologisk plausibilitet gitt tolcapones kjente farmakologi: **Lewy-legeme-demens** (rangering 6, L4, overlappende dopaminergisk nevrodegenrasjon) og **juvenil parkinsonisme/Hunts paralyse agitans** (rangering 10, L4, mekanistisk nesten identisk med stoffets kjernegodkjente bruk). Ingen av dem har kliniske forsøk eller litteraturbevis i dette datasettet, men begge fortjener vurdering som mer troverdige sekundærhypoteser enn topprangeringen alene.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske forsøk
 
-Currently no related literature available
-
----
-
-## Norway Market Information
-
-Currently no market authorization records in Norway — Tolcapone is not marketed in this territory.
+For tiden er det ikke registrert tilknyttede kliniske forsøk
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information.
+For tiden er det ikke tilgjengelig tilknyttet litteratur
 
 ---
 
-## Conclusion and Next Steps
+## Norsk markedsinformasjon
 
-**Decision: Hold**
+For tiden finnes det ingen markedsgodkjenningsoppføringer i Norge — tolcapone er ikke markedsført i dette territoriet.
 
-**Rationale:**
-The top-ranked prediction (Rasmussen subacute encephalitis) has no clinical, literature, or mechanistic support (Evidence Level L5), and the drug is not currently marketed in Norway. Critical safety data — TFDA warnings/contraindications (Blocking gap) and detailed MOA (High-severity gap) — are also missing, precluding even an initial safety screen.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert: warnings, contraindications (DG001)
-- Detailed MOA data from DrugBank (DG002)
-- If pursuing repurposing further, re-scope the candidate indication toward the higher-plausibility L4 signals in this dataset (Lewy body dementia, juvenile parkinsonism) rather than the top TxGNN score alone, and seek dedicated literature/trial searches for those specific indications
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Topprangeringen (Rasmussens subakutt encefalitt) har ingen klinisk, litteratur- eller mekanistisk støtte (evidensnivå L5), og stoffet er ikke for tiden markedsført i Norge. Kritisk sikkerhetsinformasjon — TFDA-advarsler/kontraindikasjoner (kritisk datamangel) og detaljert virkningsmekanisme (alvorlig datamangel) — mangler dessuten, noe som forhindrer selv en innledende sikkerhetsvurdering.
+
+**For å fortsette, trengs det følgende:**
+- TFDA/myndighetsgodkjent produktresumé: advarsler, kontraindikasjoner (DG001)
+- Detaljert virkningsmekanisme-data fra DrugBank (DG002)
+- Hvis man skal fortsette med ny anvendelse videre, refokuser kandidatindikasjonen på høyere-plausibilitet L4-signaler i dette datasettet (Lewy-legeme-demens, juvenil parkinsonisme) snarere enn topprangeringen fra TxGNN alene, og søk etter dedikert litteratur- og forsøkssøk for disse spesifikke indikasjonene
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

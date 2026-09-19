@@ -29,94 +29,95 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# ABALOPARATIDE: Drug Repurposing Evaluation Report
+# ABALOPARATIDE: Evalueringsrapport for legemiddelombruk
 
-## One-Sentence Summary
+## Oppsummering i en setning
 
-Abaloparatide (DB05084) is a synthetic analog of parathyroid hormone-related protein (PTHrP), primarily used for the treatment of postmenopausal osteoporosis at high risk of fracture. The TxGNN model currently has **no predicted new indications** for this drug, and the evidence pack contains significant data gaps that prevent a full evaluation.
+Abaloparatide (DB05084) er et syntetisk analog av paratyreoidehormon-relatert protein (PTHrP), primært brukt til behandling av osteoporose etter overgangsalderen hos pasienter med høy bruddrisiko. TxGNN-modellen har for øyeblikket **ingen predikerte nye indikasjoner** for dette legemidlet, og bevispaket inneholder betydelige datahull som forhindrer en fullstendig evaluering.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Drug Name (INN) | ABALOPARATIDE |
+| Element | Innhold |
+|---------|---------|
+| Legemiddelnavn (INN) | ABALOPARATIDE |
 | DrugBank ID | DB05084 |
-| Original Indication | Not recorded in evidence pack (known use: postmenopausal osteoporosis) |
-| Predicted New Indication | — (No TxGNN prediction available) |
-| TxGNN Prediction Score | — |
-| Evidence Level | L5 (No prediction, no supporting studies) |
-| Taiwan Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Originalindikasjon | Ikke registrert i bevispaket (kjent bruk: osteoporose etter overgangsalderen) |
+| Predikert ny indikasjon | — (Ingen TxGNN-prediksjon tilgjengelig) |
+| TxGNN prediksjonscore | — |
+| Bevisnivå | L5 (Ingen prediksjon, ingen støttende studier) |
+| Status på Taiwans marked | ✗ Ikke markedsført (Ikke markedsført) |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | **Venter** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, the TxGNN model has not generated any repurposing predictions for abaloparatide. Without a predicted indication, mechanism-based plausibility analysis cannot be performed.
+For øyeblikket har TxGNN-modellen ikke generert noen ombruksprediksjoner for abaloparatide. Uten en predikert indikasjon kan mekanisme-basert plausibilitetsvurdering ikke utføres.
 
-Based on publicly available knowledge, abaloparatide is a synthetic 34-amino-acid peptide analog of human parathyroid hormone-related protein (PTHrP(1-34)). It selectively activates the PTH1 receptor in its RG conformation, stimulating osteoblast-mediated bone formation while having a relatively lower effect on bone resorption compared to teriparatide. This anabolic mechanism increases bone mineral density and reduces fracture risk.
+Basert på offentlig tilgjengelig kunnskap er abaloparatide et syntetisk 34-aminosyre-analog av humant paratyreoidehormon-relatert protein (PTHrP(1-34)). Det aktiverer selektivt PTH1-reseptoren i sin RG-konformasjon, stimulerer osteoblast-mediering av benvekst samtidig som det har en relativt lavere effekt på benresorpsjon sammenlignet med teriparatide. Denne anabolske mekanismen øker benmineraltettheten og reduserer bruddrisikoen.
 
-> ⚠️ The evidence pack lists the mechanism of action (MOA) as a data gap. The description above is based on established pharmacological literature. A formal MOA entry from DrugBank should be obtained to support any future analysis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no TxGNN-predicted indication is available; therefore, no targeted clinical trial search was conducted for repurposing candidates.
+> ⚠️ Bevispaket angir virkningsmekanismen (MOA) som et datahull. Beskrivelsen ovenfor er basert på etablert farmakologisk litteratur. Formelle MOA-data fra DrugBank bør innhentes for å støtte fremtidlige analyser.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøksbevis
 
-Currently no TxGNN-predicted indication is available; therefore, no targeted literature search was conducted for repurposing candidates.
-
----
-
-## Taiwan Market Information
-
-Abaloparatide is **not marketed in Taiwan**. No TFDA drug licenses were found.
-
-| Item | Detail |
-|------|--------|
-| TFDA License Count | 0 |
-| Market Status | Not marketed (Not marketed) |
-| Dosage Forms Available | None |
+For øyeblikket er ingen TxGNN-predikert indikasjon tilgjengelig; derfor ble det ikke utført noe målrettet søk i kliniske forsøk for ombrukskandidater.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-> Please refer to the package insert for safety information.
+For øyeblikket er ingen TxGNN-predikert indikasjon tilgjengelig; derfor ble det ikke utført noe målrettet litteratursøk for ombrukskandidater.
+
+---
+
+## Taiwans markedsinformasjon
+
+Abaloparatide er **ikke markedsført på Taiwan**. Ingen TFDA-legemiddellisenser ble funnet.
+
+| Element | Detalj |
+|---------|--------|
+| Antall TFDA-lisenser | 0 |
+| Markedsstatus | Ikke markedsført (Ikke markedsført) |
+| Tilgjengelige dosisformer | Ingen |
+
+---
+
+## Sikkerhetshensyn
+
+> Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 >
-> All safety fields (key warnings, contraindications, and drug-drug interactions) returned as data gaps or not found in the current evidence pack. A TFDA package insert or international reference (e.g., US FDA Tymlos label) should be consulted before any clinical evaluation proceeds.
+> Alle sikkerhetsfelt (viktige advarsler, kontraindikasjoner og legemiddel-legemiddel-interaksjoner) ble returnert som datahull eller ikke funnet i det gjeldende bevispaket. Et TFDA-pakningsvedlegg eller en internasjonal referanse (f.eks. US FDA Tymlos-merking) bør konsulteres før eventuelle klinisk evaluering fortsetter.
 
-**Known data gaps:**
-- TFDA package insert warnings/contraindications (Severity: **Blocking** — prevents Stage 1 safety screening)
-- Drug-drug interaction profile: query returned no results
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-There are no TxGNN-predicted new indications for abaloparatide at this time, and the drug is not marketed in Taiwan. Multiple critical data gaps (MOA, safety profile) further prevent meaningful evaluation. The candidate cannot proceed to any stage of repurposing assessment in its current state.
-
-**To proceed, the following is needed:**
-1. **TxGNN prediction rerun** — Confirm whether abaloparatide is included in the knowledge graph; if not, evaluate whether its drug–disease edges can be incorporated
-2. **Mechanism of action (MOA)** — Retrieve formal MOA data from DrugBank API (Data Gap DG002, severity: High)
-3. **Safety profile** — Obtain TFDA package insert or reference international labeling (Data Gap DG001, severity: Blocking)
-4. **Regulatory pathway assessment** — Since abaloparatide has zero Taiwan licenses, any repurposing effort would require a full new drug application or special import pathway rather than indication expansion
+**Kjente datahull:**
+- TFDA-pakningsvedlegg advarsler/kontraindikasjoner (Alvorlighetsgrad: **Blokkering** — forhindrer sikkerhetsvurdering i fase 1)
+- Legemiddel-legemiddel-interaksjonsprofil: søket ga ingen resultater
 
 ---
 
-*Report generated: 2026-04-03 | Evidence Pack version: v4 | Candidate ID: TW-DB05084-multi*
+## Konklusjon og neste steg
 
-*⚠️ This report is for research reference only and does not constitute medical advice. Any drug repurposing candidate requires clinical validation before application.*
+**Beslutning: Venter**
+
+**Begrunnelse:**
+Det er ingen TxGNN-predikerte nye indikasjoner for abaloparatide på dette tidspunktet, og legemidlet er ikke markedsført på Taiwan. Flere kritiske datahull (MOA, sikkerhetsprofil) forhindrer ytterligere meningsfull evaluering. Kandidaten kan ikke fortsette til noen fase av legemiddelombruksvurdering i sin nåværende tilstand.
+
+**For å fortsette er følgende nødvendig:**
+1. **Ny TxGNN-prediksjonskjøring** — Bekrefter om abaloparatide er inkludert i kunnskapsgrafen; hvis ikke, vurderer om dets legemiddel-sykdomsrelasjoner kan integreres
+2. **Virkningsmekanisme (MOA)** — Innhenter formelle MOA-data fra DrugBank API (datahull DG002, alvorlighetsgrad: Høy)
+3. **Sikkerhetsprofil** — Innhenter TFDA-pakningsvedlegg eller konsulterer internasjonal merking (datahull DG001, alvorlighetsgrad: Blokkering)
+4. **Vurdering av regulatorisk vei** — Siden abaloparatide har null Taiwan-lisenser, ville enhver ombruksarbeid kreve en fullstendig ny legemiddelapplikasjon eller spesiell importveivei i stedet for utvidelse av indikasjoner
+
+---
+
+*Rapport generert: 2026-04-03 | Bevispaketversjon: v4 | Kandidat-ID: TW-DB05084-multi*
+
+*⚠️ Denne rapporten er kun til forskningsbruk og utgjør ikke medisinsk råd. Enhver legemiddelombrukskandidat krever klinisk validering før bruk.*
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

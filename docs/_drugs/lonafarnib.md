@@ -29,74 +29,75 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Lonafarnib: From Progeria/HDV Infection to Leprosy
+# Lonafarnib: Fra progeria/HDV-infeksjon til lepra
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Lonafarnib is a farnesyltransferase inhibitor with established clinical use in Hutchinson-Gilford Progeria Syndrome and hepatitis D virus (HDV) infection.
-> The TxGNN model predicts it may be effective for **Leprosy**,
-> but currently **no clinical trials** and **no publications** support this direction — the prediction rests on the model score alone.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in current dataset (known clinical uses per literature: Hutchinson-Gilford Progeria Syndrome, HDV infection) |
-| Predicted New Indication | Leprosy |
-| TxGNN Prediction Score | 99.14% |
-| Evidence Level | L5 |
-| Norway Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Lonafarnib er en farnesyltransferase-hemmer med etablert klinisk bruk ved Hutchinson-Gilford Progeria-syndrom og hepatitt D-virus (HDV)-infeksjon.
+> TxGNN-modellen predikerer at det kan være effektivt for **lepra**,
+> men foreløpig **ingen kliniske studier** og **ingen publikasjoner** støtter denne retningen — prediksjonen hviler kun på modellscoren.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Oversikt
 
-Detailed mechanism of action data is not available in this Evidence Pack (`original_moa: [Data Gap]`). Based on external knowledge, lonafarnib is a farnesyltransferase inhibitor whose established clinical applications are Hutchinson-Gilford Progeria Syndrome (blocking farnesylation of defective lamin A/progerin) and chronic HDV infection (blocking prenylation of the large HDV antigen to prevent viral assembly).
-
-No known or plausible mechanistic link connects farnesyltransferase inhibition to the pathophysiology of leprosy, which is driven by *Mycobacterium leprae* infection, mycobacterial cell wall biosynthesis, and host immune/granulomatous response. No literature was found describing an effect of prenylation inhibition on mycobacterial viability or anti-mycobacterial host immunity. The prediction should therefore be treated as a model-generated hypothesis without independent mechanistic or empirical support.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Ikke registrert i gjeldende datasett (kjent klinisk bruk fra litteratur: Hutchinson-Gilford Progeria-syndrom, HDV-infeksjon) |
+| Forutsagt ny indikasjon | Lepra |
+| TxGNN-prediksjonscore | 99.14% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Norway Market Information
+## Hvorfor er denne prediksjonen rimelig?
 
-Lonafarnib currently holds no market authorization in Norway (0 licenses on record; market status: not marketed).
+Detaljerte data om virkningsmekanismen er ikke tilgjengelig i denne bevissamlingen (`original_moa: [Data Gap]`). Basert på ekstern kunnskap er lonafarnib en farnesyltransferase-hemmer hvis etablerte kliniske anvendelser er Hutchinson-Gilford Progeria-syndrom (blokkering av farnesylering av defekt lamin A/progerin) og kronisk HDV-infeksjon (blokkering av prenylering av stort HDV-antigen for å forhindre virusassemblering).
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Ingen kjent eller plausibel mekanistisk forbindelse knytter farnesyltransferase-hemming til patofysiologien av lepra, som drives av *Mycobacterium leprae*-infeksjon, mykobakteriell cellveggbiosyntese og vert immun/granulomatøs respons. Ingen litteratur ble funnet som beskriver en effekt av prenyleringshemming på mykobakteriell levedyktighet eller vert anti-mykobakteriell immunitet. Prediksjonen bør derfor behandles som en modellgenerert hypotese uten uavhengig mekanistisk eller empirisk grunnlag.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra kliniske studier
 
-**Decision: Hold**
+Ingen relaterte kliniske studier er registrert for tiden.
 
-**Rationale:**
-The prediction is supported only by a TxGNN model score (L5) with no corroborating clinical trials, literature, or plausible mechanistic rationale linking farnesyltransferase inhibition to leprosy pathophysiology. The drug is also not currently marketed in Norway, and core safety data (warnings, contraindications, DDI) are unavailable.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank or primary literature
-- TFDA/regulatory label data (warnings, contraindications) to clear the S1 safety gate
-- Preclinical or mechanistic studies evaluating farnesyltransferase inhibition in *M. leprae* infection or host anti-mycobacterial immunity
-- At minimum, case-level or observational evidence before advancing beyond S0
+## Litteraturbevis
+
+Ingen relatert litteratur er tilgjengelig for tiden.
+
+---
+
+## Markedsinformasjon for Norge
+
+Lonafarnib har ikke markedsautorisasjon i Norge for tiden (0 lisenser registrert; markedsstatus: ikke markedsført).
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Prediksjonen støttes kun av en TxGNN-modellscore (L5) uten bekræftende kliniske studier, litteratur eller plausibel mekanistisk rasjonale som knytter farnesyltransferase-hemming til lepras patofysiologi. Legemidlet er heller ikke markedsført i Norge for tiden, og viktige sikkerhetsdata (advarsler, kontraindikasjoner, legemiddel-legemiddel-interaksjoner) er utilgjengelige.
+
+**For å fortsette er følgende nødvendig:**
+- Bekreftet virkningsmekanisme (MOA) data fra DrugBank eller primærlitteratur
+- TFDA/regulatoriske etikettdata (advarsler, kontraindikasjoner) for å fjerne sikkerhetskontrollporten S1
+- Prekliniske eller mekanistiske studier som evaluerer farnesyltransferase-hemming i *M. leprae*-infeksjon eller vert anti-mykobakteriell immunitet
+- Minst bevis på kasussnivå eller observasjonsstudier før avansering utover S0
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

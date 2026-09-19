@@ -29,81 +29,82 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Icosapent Ethyl: From Undisclosed Original Indication to Predicted Hemoglobinopathy
+# Icosapent Ethyl: Fra udokumentert original indikasjon til forutsagt hemoglobinopati
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-The original indication for Icosapent Ethyl is not recorded in this evidence pack (no licensed products or approved indication text available), so its established therapeutic use cannot be confirmed from the current data.
-The TxGNN model predicts it may be effective for **Hemoglobinopathy** (specifically sickle cell disease-related pathology), with **0 clinical trials** and **1 preclinical publication** currently supporting this direction.
-Given the absence of clinical trial data, market authorization, and safety/MOA information, this remains an early-stage, model-driven hypothesis.
+Den opprinnelige indikasjonen for Icosapent Ethyl er ikke dokumentert i denne bevissamlingen (ingen lisensierte produkter eller godkjent indikasjonsbeskrivelse tilgjengelig), så dens etablerte terapeutiske bruk kan ikke bekreftes ut fra nåværende data.
+TxGNN-modellen forutsier at det kan være effektivt for **hemoglobinopati** (spesifikt patologi relatert til sekelcellesyke), med **0 kliniske studier** og **1 preklinisk publikasjon** som for tiden støtter denne retningen.
+Gitt fraværet av kliniske forsøksdata, markedsautorisasjon og sikkerhet/MOA-informasjon, gjenstår dette som en tidlig fase, modell-drevet hypotese.
 
 ---
 
-## Quick Overview
+## Hurtigoversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not available (no license/indication data in evidence pack) |
-| Predicted New Indication | Hemoglobinopathy |
-| TxGNN Prediction Score | 99.09% |
-| Evidence Level | L4 |
-| Norway Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Ikke tilgjengelig (ingen lisens/indikasjondata i bevissamlingen) |
+| Forutsagt ny indikasjon | Hemoglobinopati |
+| TxGNN-prediksjonspoengsum | 99.09% |
+| Bevisnivå | L4 |
+| Status i det norske markedet | Ikke markedsført (Ikke markedsført) |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvente |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed mechanism of action data for Icosapent Ethyl is not available in this evidence pack (data gap). Based on its INN, Icosapent Ethyl is the ethyl ester of eicosapentaenoic acid (EPA), an omega-3 fatty acid — a class known for anti-inflammatory and pro-resolving lipid mediator activity.
+Detaljerte data om virkningsmekanisme for Icosapent Ethyl er ikke tilgjengelig i denne bevissamlingen (datakløft). Basert på dens INN er Icosapent Ethyl etylesteret av eikosapentaensyre (EPA), en omega-3 fettsyre — en klasse kjent for anti-inflammatorisk og pro-resolvende lipidmediatoraktivitet.
 
-The one supporting publication describes **Epeleuton**, a synthetic omega-3 fatty acid, reducing hypoxia/reperfusion-induced inflammatory vasculopathy in a mouse model of sickle cell disease — a hemoglobinopathy. Since Icosapent Ethyl belongs to the same chemical class (omega-3 fatty acid ethyl ester), there is a plausible mechanistic rationale that it could similarly modulate the inflammatory vasculopathy underlying sickle cell disease and related hemoglobinopathies. However, this link is drawn from a structurally analogous compound rather than direct evidence on Icosapent Ethyl itself, and should be treated as hypothesis-generating only.
+Den ene støttende publikasjonen beskriver **Epeleuton**, en syntetisk omega-3 fettsyre strukturelt relatert til Icosapent Ethyls klasse, som reduserte hypoksia/reperfusjons-indusert inflammatorisk vaskulopati i en musemodell av sekelcellesyke — en hemoglobinopati. Siden Icosapent Ethyl tilhører samme kjemiske klasse (omega-3 fettsyre etylester), er det en plausibel mekanistisk begrunnelse for at den kunne på tilsvarende måte modulere den inflammatoriske vaskulopatien som ligger til grunn for sekelcellesyke og relaterte hemoglobinopatier. Imidlertid er denne forbindelsen trukket fra en strukturelt analog forbindelse i stedet for direkte bevis på Icosapent Ethyl selv, og bør behandles som rent hypotesegenerering.
 
-Without confirmed original indication or MOA data for Icosapent Ethyl, the original indication–new indication relationship cannot be formally established at this time.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Uten bekreftet opprinnelig indikasjon eller MOA-data for Icosapent Ethyl, kan forholdet mellom original indikasjon og ny indikasjon ikke formelt etableres på dette tidspunktet.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske studier
 
-| PMID | Year | Type | Journal | Key Findings |
+For tiden ingen relaterte kliniske studier registrert.
+
+---
+
+## Bevis fra litteratur
+
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [38105727](https://pubmed.ncbi.nlm.nih.gov/38105727/) | 2024 | Preclinical (mouse model) | Haematologica | Epeleuton, a synthetic ω-3 fatty acid structurally related to Icosapent Ethyl's class, reduced hypoxia/reperfusion-driven inflammatory vasculopathy in a sickle cell disease mouse model, suggesting pro-resolving lipid mediators may target inflammatory pathways in hemoglobinopathies |
+| [38105727](https://pubmed.ncbi.nlm.nih.gov/38105727/) | 2024 | Preklinisk (musemodell) | Haematologica | Epeleuton, en syntetisk ω-3 fettsyre strukturelt relatert til Icosapent Ethyls klasse, reduserte hypoksia/reperfusjons-drevet inflammatorisk vaskulopati i en sekelcellesyke-musemodell, noe som tyder på at pro-resolvende lipidmediatorer kan målrette inflammatoriske veier i hemoglobinopatier |
 
 ---
 
-## Norway Market Information
+## Informasjon om det norske markedet
 
-No authorization records available — Icosapent Ethyl is currently not marketed and has 0 registered licenses.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: key warnings, contraindications, and drug interaction data were not available in this evidence pack — flagged as a Blocking data gap for TFDA/regulatory warning information.)*
+Ingen autorisasjonsdata tilgjengelig — Icosapent Ethyl er for tiden ikke markedsført og har 0 registrerte lisenser.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vennligst se pakningvedlegget for sikkerhetsinformasjon.
 
-**Rationale:**
-The prediction rests on a single preclinical study of a structurally related (not identical) compound, with no clinical trials, no MOA confirmation, and no market authorization for Icosapent Ethyl itself. Combined with a Blocking data gap on regulatory safety warnings, there is insufficient evidence to proceed.
+*(Merk: viktige advarsler, kontraindikasjoner og data om legemiddelinteraksjoner var ikke tilgjengelige i denne bevissamlingen — flagget som en blokkerende datakløft for TFDA/regulatorisk advarselsinformasjon.)*
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert data (warnings, contraindications) — currently Blocking
-- Confirmed mechanism of action (MOA) for Icosapent Ethyl
-- Confirmed original indication and licensing status
-- Direct (not analog-based) preclinical or clinical evidence of Icosapent Ethyl in hemoglobinopathy/sickle cell disease
-- Drug-drug interaction data
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvente**
+
+**Begrunnelse:**
+Prediksjonen hviler på en enkelt preklinisk studie av en strukturelt relatert (ikke identisk) forbindelse, uten kliniske forsøk, ingen MOA-bekreftelse og ingen markedsautorisasjon for Icosapent Ethyl selv. Kombinert med en blokkerende datakløft om regulatoriske sikkerhetstadvarsler, er det utilstrekkelig bevis for å fortsette.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA/regulatorisk pakningvedlegg-data (advarsler, kontraindikasjoner) — for tiden blokkert
+- Bekreftet virkningsmekanisme (MOA) for Icosapent Ethyl
+- Bekreftet opprinnelig indikasjon og lisensstatus
+- Direkte (ikke analog-basert) preklinisk eller klinisk bevis på Icosapent Ethyl i hemoglobinopati/sekelcellesyke
+- Data om legemiddelinteraksjoner
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

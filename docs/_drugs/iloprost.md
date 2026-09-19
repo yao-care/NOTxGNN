@@ -29,79 +29,80 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Iloprost: From Pulmonary Arterial Hypertension to Hypotrichosis Simplex of the Scalp
+# Iloprost: Fra Pulmonal Arteriell Hypertensjon til Hypotrichosis Simplex av Hodebunnen
 
-## One-Sentence Summary
+## Sammendrag på en Setning
 
-> Iloprost is a synthetic prostacyclin (PGI2) analogue with well-established global use in pulmonary arterial hypertension (PAH); it has never been marketed in Taiwan.
-> The TxGNN model's top-ranked prediction is **Hypotrichosis Simplex of the Scalp**, a hereditary follicular keratinization disorder,
-> but this signal is supported by **0 clinical trials** and **0 publications** — it is a pure model-embedding artifact with no biological rationale.
-> Separately, this run also flagged several biologically coherent PAH-subtype expansions (see "Other Candidate Indications" below) that merit independent evaluation.
+> Iloprost er en syntetisk prostacyclin-analogue (PGI2) med veletablert global bruk i pulmonal arteriell hypertensjon (PAH); det har aldri blitt markedsført i Taiwan.
+> TxGNN-modellens høyest rangerte prediksjon er **Hypotrichosis Simplex av Hodebunnen**, en arvelig follikulær keratiniseringssykdom,
+> men dette signalet støttes av **0 kliniske forsøk** og **0 publikasjoner** — det er et rent modellinnebygd artefakt uten biologisk begrunnelse.
+> Separat flagget denne kjøringen også flere biologisk konsistente PAH-undertype-utvidelser (se «Andre Kandidatindikasjoner» nedenfor) som fortjener uavhengig evaluering.
 
-## Quick Overview
+## Rask Oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not on file in Taiwan evidence pack (drug unmarketed, 0 licenses); internationally, iloprost is indicated for pulmonary arterial hypertension (WHO Group 1) |
-| Predicted New Indication | Hypotrichosis Simplex of the Scalp |
-| TxGNN Prediction Score | 99.45% |
-| Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|---------|---------|
+| Original Indikasjon | Ikke registrert i Taiwan-bevispaket (medisin ikke markedsført, 0 lisenser); internasjonalt er iloprost indisert for pulmonal arteriell hypertensjon (WHO-gruppe 1) |
+| Forutsagt Ny Indikasjon | Hypotrichosis Simplex av Hodebunnen |
+| TxGNN-prediksjonspoeng | 99.45% |
+| Bevisnivå | L5 |
+| Taiwan-markedsstatus | ✗ Ikke Markedsført (Ikke markedsført) |
+| Antall Autorisasjoner | 0 |
+| Anbefalt Beslutning | Avvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available (data gap DG002 — MOA pending DrugBank query). Based on known pharmacological information, iloprost activates the prostacyclin IP receptor / cAMP pathway, producing vasodilation and inhibition of platelet aggregation. Clinically, this mechanism underlies its established use (outside Taiwan) in pulmonary arterial hypertension and, in some markets, critical limb ischemia.
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige (datakløft DG002 — MOA avventer DrugBank-spørring). Basert på kjent farmakologisk informasjon aktiverer iloprost prostacyclin IP-reseptor/cAMP-veien, noe som produserer vasodilatation og hemming av plateletaggregering. Klinisk ligger denne mekanismen til grunn for dets etablerte bruk (utenfor Taiwan) i pulmonal arteriell hypertensjon og, i noen markeder, kritisk lemiskkemi.
 
-Hypotrichosis simplex of the scalp is a hereditary disorder of hair follicle keratinization, associated with genes such as *APCDD1*, and its pathology is unrelated to vascular tone or platelet function. There is no known pathway connecting PGI2/IP-receptor signaling to this condition. This is reflected directly in the model's own rationale, which states the link is based purely on embedding similarity with "no biological support" (無生物學支持).
+Hypotrichosis simplex av hodebunnen er en arvelig sykdom av hårfollikkelkeratinisering, assosiert med gener som *APCDD1*, og dens patologi er ikke relatert til vaskulær tone eller blodplatesfunksjon. Det er ingen kjent vei som forbinder PGI2/IP-reseptor-signalering til denne tilstanden. Dette gjenspeiles direkte i modellens egen begrunnelse, som sier at lenken er basert rent på innebygd likhet med «ingen biologisk støtte».
 
-Notably, this same TxGNN run also predicted several pulmonary arterial hypertension subtypes for iloprost (associated with congenital heart disease, connective tissue disease, HIV infection, chronic hemolytic anemia, and schistosomiasis) — all mechanistically consistent with iloprost's known PGI2 pharmacology and, in some cases, backed by completed Phase 3 trial data. These represent materially stronger repurposing signals than the top-ranked hypotrichosis prediction (see "Other Candidate Indications" below).
+Verdt å merke seg, denne samme TxGNN-kjøringen predikerte også flere pulmonal-arteriell-hypertensjon-undertyper for iloprost (assosiert med medfødt hjertesykdom, bindevevssykdom, HIV-infeksjon, kronisk hemolytisk anemi og schistosomiasis) — alle mekanistisk konsistente med iloprosts kjente PGI2-farmakologi og, i noen tilfeller, støttet av fullførte fase 3-forsøksdata. Disse representerer vesentlig sterkere gjenbrukssignaler enn hypotrichosis-prediksjonen med høyest rangering (se «Andre Kandidatindikasjoner» nedenfor).
 
-## Clinical Trial Evidence
+## Bevis fra Kliniske Forsøk
 
-Currently no related clinical trials registered.
+For tiden ingen relaterte kliniske forsøk registrert.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+For tiden ingen relatert litteratur tilgjengelig.
 
-## Taiwan Market Information
+## Taiwan-markedsinformasjon
 
-Iloprost is not currently marketed in Taiwan. No product authorizations are on file (0 licenses).
+Iloprost er ikke markedsført i Taiwan for tiden. Ingen produktautoriseringer er registrert (0 lisenser).
 
-## Other Candidate Indications (Same Model Run)
+## Andre Kandidatindikasjoner (Samme Modellkjøring)
 
-For context, the same evidence pack scored 8 additional TxGNN predictions for iloprost. Unlike hypotrichosis, most of these fall within iloprost's established PAH pharmacology and carry meaningfully stronger evidence:
+For kontekst scoret det samme bevispaket 8 ytterligere TxGNN-prediksjoner for iloprost. I motsetning til hypotrichosis faller de fleste av disse innenfor iloprosts veletablerte PAH-farmakologi og har vesentlig sterkere bevis:
 
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation | Key Support |
-|------|---------|-------------|-----------------|-----------------|-------------|
-| 6 | PAH associated with HIV infection | 99.21% | L1 | Proceed with Guardrails | Completed Phase 3 double-blind, placebo-controlled crossover RCT (NCT00709956, n=64) |
-| 3 | PAH associated with congenital heart disease | 99.32% | L2 | Proceed with Guardrails | 1 trial (NCT01383083, n=42, status unknown) + 17 supporting publications |
-| 5 | PAH associated with connective tissue disease | 99.21% | L2 | Proceed with Guardrails | Long-term IV iloprost cohort data (PMID 27651181) + 20 supporting publications |
-| 7 | PAH associated with chronic hemolytic anemia | 99.21% | L4 | Research Question | Mechanistic plausibility only, no direct evidence |
-| 8 | PAH associated with schistosomiasis | 99.21% | L4 | Research Question | 1 indirect pediatric case series |
-| 4 | Pulmonary arteriovenous malformation | 99.31% | L4 | Hold | 1 indirect HHT-related case report |
-| 2 | Congenital hypotrichosis milia | 99.33% | L5 | Hold | No evidence, no mechanistic link |
-| 9 | Diffuse alopecia areata | 99.10% | L5 | Hold | No evidence, no mechanistic link |
+| Rangering | Sykdom | TxGNN-poeng | Bevisnivå | Anbefaling | Viktig Støtte |
+|-----------|--------|------------|---------|----------|-------------|
+| 6 | PAH forbundet med HIV-infeksjon | 99.21% | L1 | Fortsett med Sikkerhetstiltak | Fullført fase 3 dobbeltblindet, placebokontrollert crossover-RCT (NCT00709956, n=64) |
+| 3 | PAH forbundet med medfødt hjertesykdom | 99.32% | L2 | Fortsett med Sikkerhetstiltak | 1 forsøk (NCT01383083, n=42, status ukjent) + 17 støttende publikasjoner |
+| 5 | PAH forbundet med bindevevssykdom | 99.21% | L2 | Fortsett med Sikkerhetstiltak | Langtids IV iloprost kohortedata (PMID 27651181) + 20 støttende publikasjoner |
+| 7 | PAH forbundet med kronisk hemolytisk anemi | 99.21% | L4 | Forskningsspørsmål | Kun mekanistisk plausibilitet, ingen direkte bevis |
+| 8 | PAH forbundet med schistosomiasis | 99.21% | L4 | Forskningsspørsmål | 1 indirekte pediatrisk kasusserie |
+| 4 | Pulmonal arteriovenøs malformasjon | 99.31% | L4 | Avvent | 1 indirekte HHT-relatert kasurapport |
+| 2 | Medfødt hypotrichosis milia | 99.33% | L5 | Avvent | Ingen bevis, ingen mekanistisk lenke |
+| 9 | Diffus alopecia areata | 99.10% | L5 | Avvent | Ingen bevis, ingen mekanistisk lenke |
 
-If pursuing repurposing for iloprost, we recommend redirecting evaluation toward **PAH associated with HIV infection** (rank 6, L1) as the primary candidate, with congenital-heart-disease-PAH and connective-tissue-disease-PAH (rank 3 & 5, L2) as secondary candidates.
+Hvis man forfølger gjenbruk for iloprost, anbefaler vi å omdirigere evalueringen mot **PAH forbundet med HIV-infeksjon** (rangering 6, L1) som den primære kandidaten, med medfødt-hjertesykdom-PAH og bindevevssykdom-PAH (rangering 3 & 5, L2) som sekundære kandidater.
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-## Conclusion and Next Steps
+## Konklusjon og Neste Steg
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-The top-ranked prediction, hypotrichosis simplex of the scalp, has no supporting clinical trials, no supporting literature, and no known biological mechanism connecting iloprost's prostacyclin pathway to this hereditary follicular disorder — this is a pure model-similarity artifact, not a credible repurposing signal.
+**Begrunnelse:**
+Prediksjonen med høyest rangering, hypotrichosis simplex av hodebunnen, har ingen støttende kliniske forsøk, ingen støttende litteratur og ingen kjent biologisk mekanisme som forbinder iloprosts prostacyclin-vei til denne arvelige follikulære sykdommen — dette er et rent modelllikheitsartefakt, ikke et troverdig gjenbrukssignal.
 
-**To proceed, the following is needed:**
-- TFDA label warnings/contraindications data (DG001, blocking — required before any S1 safety screening)
-- Confirmed mechanism of action from DrugBank (DG002)
-- If repurposing interest continues, re-scope evaluation to the PAH-subtype candidates identified above (particularly HIV-associated PAH, L1 evidence), rather than hypotrichosis simplex
+**For å fortsette, er følgende nødvendig:**
+- TFDA-merking advarsler/kontraindikasjoner data (DG001, blokkerer — kreves før enhver S1-sikkerhetskontroll)
+- Bekreftet virkningsmekanisme fra DrugBank (DG002)
+- Hvis gjenbruksinteresse fortsetter, omdefiner evalueringen til PAH-undertype-kandidatene identifisert ovenfor (særlig HIV-assosiert PAH, L1-bevis), snarere enn hypotrichosis simplex
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

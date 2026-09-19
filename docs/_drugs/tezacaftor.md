@@ -29,70 +29,71 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Tezacaftor: From Cystic Fibrosis to HIV Infectious Disease
+# Tezacaftor: Fra cystisk fibrose til HIV-infeksjon
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-> Tezacaftor is a CFTR corrector originally developed for the treatment of cystic fibrosis, correcting misfolded CFTR protein and promoting its trafficking to the cell membrane.
-> The TxGNN model predicts it may be effective for **HIV Infectious Disease**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications**, making it a model-inference-only signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Cystic Fibrosis |
-| Predicted New Indication | HIV Infectious Disease |
-| TxGNN Prediction Score | 99.24% |
-| Evidence Level | L5 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Tezacaftor er en CFTR-korrigeringsfaktor opprinnelig utviklet for behandling av cystisk fibrose, som retter opp feilfoldet CFTR-protein og fremmer dets transport til cellemembranen.
+> TxGNN-modellen forutsier at den kan være effektiv for **HIV-infeksjon**,
+> men denne prediksjonen støttes for øyeblikket av **0 kliniske forsøk** og **0 publikasjoner**, noe som gjør det til et rent modellforutsigelsessignal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data for tezacaftor is not available (flagged as a High-severity data gap). Based on the information available, tezacaftor is a CFTR corrector used in combination regimens for cystic fibrosis, where it corrects CFTR protein misfolding and restores its trafficking to the cell membrane.
-
-There is no known mechanistic overlap between CFTR protein folding/trafficking pathways and HIV viral replication or host immune response pathways. The repurposing rationale explicitly notes that this high TxGNN score most likely reflects knowledge-graph embedding similarity rather than a validated biological mechanism.
-
-The two other top-ranked predictions (leprosy, multiple endocrine neoplasia) show the same pattern: no mechanistic connection to CFTR biology and no supporting clinical or literature evidence. Given the absence of a plausible biological rationale and the complete lack of trial/literature support across all three candidates, this prediction set should be treated as exploratory only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Cystisk fibrose |
+| Forutsagt ny indikasjon | HIV-infeksjon |
+| TxGNN-prediksjonspoengsum | 99.24% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+For øyeblikket foreligger det ikke detaljerte virkningsmekanisme-data for tezacaftor (klassifisert som alvorlig datakløft). Basert på tilgjengelig informasjon er tezacaftor en CFTR-korrigeringsfaktor brukt i kombinasjonsregimer for cystisk fibrose, der den retter opp feilfolding av CFTR-protein og gjenoppretter dets transport til cellemembranen.
 
----
+Det finnes ingen kjent mekanistisk sammenheng mellom CFTR-protein folding/transport-stier og HIV-virusreplikasjon eller vert-immunrespons-stier. Begrunnelsen for ombruk påpeker eksplisitt at denne høye TxGNN-poengstummen mest sannsynlig reflekterer likheter i kunnskapsgrafen embedding heller enn en validert biologisk mekanisme.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+De to andre høyest rangerte prediksjoner (spedalskhet, multipel endokrin neoplasi) viser samme mønster: ingen mekanistisk forbindelse til CFTR-biologi og ingen støtte fra kliniske forsøk eller litteratur. Gitt fraværet av en plausibel biologisk begrunnelse og fullstendig mangel på forsøks-/litteraturstøtte på tvers av alle tre kandidater, bør dette prediksjonssettet behandles som rent utforskende.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra kliniske forsøk
 
-**Decision: Hold**
+For øyeblikket ingen relaterte kliniske forsøk registrert.
 
-**Rationale:**
-No clinical trials or literature evidence exist for HIV infectious disease (or the other two ranked predictions), and the repurposing rationale itself identifies no plausible mechanistic link to CFTR biology. The high TxGNN score alone (L5, model-prediction-only) is insufficient to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert warnings and contraindications (currently Blocking data gap, DG001)
-- Confirmed original mechanism of action data via DrugBank (currently High-severity data gap, DG002)
-- Independent literature or preclinical evidence establishing a biological link between CFTR modulation and HIV pathophysiology
-- Confirmation of Taiwan/Norway market and licensing status, currently listed as unmarketed with zero authorizations
+## Bevis fra litteratur
+
+For øyeblikket ingen relevant litteratur tilgjengelig.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Ingen kliniske forsøk eller litteraturbevis eksisterer for HIV-infeksjon (eller de to andre rangerte prediksjoner), og begrunnelsen for ombruk selv identifiserer ingen plausibel mekanistisk forbindelse til CFTR-biologi. Den høye TxGNN-poengstummen alene (L5, rent modellforutsigelse) er utilstrekkelig for å fremme denne kandidaten.
+
+**For å fortsette trengs følgende:**
+- TFDA/regulatorisk pakningsvedlegg advarsler og kontraindikasjoner (for øyeblikket blokkering datakløft, DG001)
+- Bekreftet opprinnelig virkningsmekanisme-data via DrugBank (for øyeblikket alvorlig datakløft, DG002)
+- Uavhengig litteratur eller preklinkisk bevis som etablerer en biologisk forbindelse mellom CFTR-modulering og HIV-patofysiologi
+- Bekrefting av Taiwan/Norges markeds- og lisensieringsstatus, for øyeblikket oppført som ikke markedsført med null godkjennelser
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

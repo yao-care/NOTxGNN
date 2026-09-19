@@ -29,81 +29,78 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-Using the evidence pack as provided, here is the evaluation report.
+# Doravirine: Fra HIV-1-infeksjon til felint ervervet immunsviktsyndrom
+
+## Sammendrag i en setning
+
+Doravirine er en non-nukleosid reversert transkriptasehemmer (NNRTI) utviklet for HIV-1-infeksjon. TxGNN-modellens høyest rangerte prediksjon antyder mulig relevans til **felint ervervet immunsviktsyndrom (FIV)** — en veterinær lentivirus-infeksjon, ikke en menneskesykdom — og denne retningen støttes for øyeblikket av **ingen kliniske forsøk og ingen litteratur**, som tilsvarer det laveste evidensnivået (L5, kun modellprediksjon).
 
 ---
 
-# Doravirine: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
+## Rask oversikt
 
-## One-Sentence Summary
-
-Doravirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) developed for HIV-1 infection. The TxGNN model's top-ranked prediction suggests possible relevance to **feline acquired immunodeficiency syndrome (FIV)** — a veterinary lentivirus infection, not a human disease — and this direction is currently supported by **no clinical trials and no literature**, corresponding to the lowest evidence tier (L5, model prediction only).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | HIV-1 infection (based on drug-class context in the evidence pack; not confirmed via Norway regulatory data, as the drug is not marketed there) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (FIV) |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | HIV-1-infeksjon (basert på kontekst for legemiddelklasse i evidenspakken; ikke bekreftet via norske reguleringsdata, da legemidlet ikke er markedsført der) |
+| Forutsagt ny indikasjon | Felint ervervet immunsviktsyndrom (FIV) |
+| TxGNN-prediksjonspoeng | 99.93% |
+| Evidensnivå | L5 |
+| Status på det norske marked | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Pausert |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed mechanism of action (MOA) data for doravirine is not available in this evidence pack (flagged as a High-severity data gap). Based on the drug-class context referenced throughout the evidence pack's repurposing rationale, doravirine belongs to the non-nucleoside reverse transcriptase inhibitor (NNRTI) class — antiretrovirals whose activity depends on binding a highly specific pocket within the HIV-1 reverse transcriptase (RT) enzyme.
+Detaljerte data om virkningsmekanisme (MOA) for doravirine er ikke tilgjengelige i denne evidenspakken (flagget som en alvorlig datakløft). Basert på konteksten for legemiddelklasse som refereres i hele evidenspakkens begrunnelse for legemiddelomobruk, tilhører doravirine klassen non-nukleosid reversert transkriptasehemmere (NNRTI) — antiretrovirale midler hvis aktivitet avhenger av binding til en høyt spesifikk lomme innen HIV-1 reversert transkriptase (RT) enzym.
 
-The top-ranked prediction, FIV, appears to arise from knowledge-graph semantic similarity between "antiretroviral drugs" and "lentivirus infections" in general, rather than from direct pharmacological or clinical evidence. FIV is caused by a lentivirus that, while distantly related to HIV-1, has a reverse-transcriptase structure that differs substantially from it. NNRTIs are well known to be highly sequence-specific to the HIV-1 non-nucleoside binding pocket — the same drug class (e.g., efavirenz, nevirapine) shows little to no cross-reactivity even against the closely related HIV-2, let alone FIV. FIV is also a veterinary (feline) disease model, not a human indication, placing it outside the conventional scope of human drug repurposing.
+Den høyest rangerte prediksjonen, FIV, ser ut til å oppstå fra semantisk likhet i kunnskapsgrafen mellom «antiretrovirale midler» og «lentivirus-infeksjoner» generelt, snarere enn fra direkte farmakologiske eller kliniske bevis. FIV er forårsaket av et lentivirus som, selv om det er fjernt relatert til HIV-1, har en reversert transkriptase-struktur som skiller seg vesentlig fra den. NNRTI er godt kjent for å være høyt sekvens-spesifikk til HIV-1 non-nukleosid bindingslommen — den samme legemiddelklassen (f.eks. efavirenz, nevirapin) viser liten til ingen kryssreaktivitet selv mot det nært relaterte HIV-2, langt mindre mot FIV. FIV er også en veterinær (felint) sykdom, ikke en menneskelig indikasjon, noe som plasserer den utenfor det konvensjonelle omfanget av legemiddelomobruk hos mennesker.
 
-The evidence pack's own mechanistic assessment for this candidate explicitly characterizes it as likely embedding-space noise rather than a biologically plausible repurposing signal. Two lower-confidence candidates were also reviewed for context: simian immunodeficiency virus (SIV) infection (rank 2 — mechanistically plausible in principle as another lentivirus, but lacking direct cross-reactivity evidence and, like FIV, not a human indication) and a rare neurodevelopmental disorder (rank 3 — no biological rationale connects it to reverse-transcriptase inhibition, and it is flagged as a probable false positive). Neither strengthens the case for the top-ranked prediction.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Evidenspakkens egen mekanistiske vurdering av denne kandidaten karakteriserer eksplisitt den som sannsynlig støy i embedding-rommet snarere enn et biologisk plausibelt ombrukssignal. To lavere-konfidenskandidater ble også vurdert for kontekst: simian immunsviktvirus (SIV) infeksjon (rang 2 — mekanistisk plausibel i prinsippet som et annet lentivirus, men mangler direkte bevis for kryssreaktivitet og er, som FIV, ikke en menneskelig indikasjon) og en sjelden nevro-utviklingsforstyrrelse (rang 3 — ingen biologisk begrunnelse forbinder den til reversert transkriptasehemming, og den er flagget som en sannsynlig falsk positiv). Ingen av dem styrker tilfellet for den høyest rangerte prediksjonen.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøksevidens
 
-Currently no related literature available.
-
-*Note: One literature item was retrieved under the rank-2 candidate (SIV infection) — [31658118](https://pubmed.ncbi.nlm.nih.gov/31658118/), a 2020 review on islatravir. This concerns a different drug (islatravir, not doravirine) and therefore does not constitute direct supporting evidence for doravirine.*
+For øyeblikket ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Norway Market Information
+## Litteraturbevis
 
-Doravirine currently holds no marketing authorization in Norway (market status: Not marketed / Not Marketed; 0 licenses on file). No product, dosage form, or approved-indication data is available for this market.
+For øyeblikket ingen relatert litteratur tilgjengelig.
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. TFDA package insert warnings/contraindications and DDI data are currently unavailable (DDI query status: not found) — this is recorded as a **Blocking** data gap (DG001) that prevents proceeding to safety (S1) evaluation.
+*Merknad: En litteraturoppføring ble hentet under rang-2-kandidaten (SIV-infeksjon) — [31658118](https://pubmed.ncbi.nlm.nih.gov/31658118/), en 2020-oversikt over islatravir. Dette gjelder et annet legemiddel (islatravir, ikke doravirine) og utgjør derfor ikke direkte støttende bevis for doravirine.*
 
 ---
 
-## Conclusion and Next Steps
+## Informasjon om det norske marked
 
-**Decision: Hold**
+Doravirine har for øyeblikket ingen markedsføringstillatelse i Norge (markedsstatus: Ikke markedsført; 0 lisenser på fil). Ingen produkt-, doseringsform-, eller godkjent-indikasjondata er tilgjengelig for dette markedet.
 
-**Rationale:**
-The evidence level is L5 (model prediction only, no clinical trials or literature), and the underlying mechanistic rationale for the top-ranked indication (FIV) is weak — FIV is a non-human veterinary disease with no established cross-reactivity data for NNRTIs. Combined with the absence of Norway market presence and a Blocking safety data gap, this candidate does not currently meet the bar for further evaluation.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Norway package insert (warnings, contraindications) — Blocking gap (DG001), required before any S1 safety evaluation
-- Confirmed mechanism of action (MOA) documentation — High-priority gap (DG002)
-- Direct pharmacological or in vitro evidence of doravirine activity against FIV or other non-HIV-1 lentiviruses
-- Direct (drug-specific) literature or trial evidence for the SIV-infection candidate, since the current literature match concerns a different drug (islatravir)
-- Clarification of clinical relevance, since the top-ranked prediction is a veterinary indication rather than a human disease target
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. TFDA-pakningsvedlegg advarsler/kontraindikasjoner og DDI-data er for øyeblikket ikke tilgjengelige (DDI-spørringsstatus: ikke funnet) — dette registreres som en **blokkerende** datakløft (DG001) som hindrer videre framgang til sikkerhetsvurdering (S1).
+
+---
+
+## Konklusjon og neste skritt
+
+**Beslutning: Pausert**
+
+**Begrunnelse:**
+Evidensnivået er L5 (kun modellprediksjon, ingen kliniske forsøk eller litteratur), og den underliggende mekanistiske begrunnelsen for den høyest rangerte indikasjonen (FIV) er svak — FIV er en ikke-menneskelig veterinærsykdom uten etablerte data om NNRTI-kryssreaktivitet. Kombinert med fraværet av norsk markedstilstedeværelse og en blokkerende sikkerhetsdatakløft, oppfyller denne kandidaten for øyeblikket ikke terskelen for videre vurdering.
+
+**For å fortsette er følgende nødvendig:**
+- TFDA/norsk pakningsvedlegg (advarsler, kontraindikasjoner) — Blokkerende datakløft (DG001), påkrevd før enhver S1-sikkerhetsvurdering
+- Bekreftet virkningsmekanisme (MOA)-dokumentasjon — Kløft med høy prioritet (DG002)
+- Direkte farmakologisk eller in vitro-bevis for doravirin-aktivitet mot FIV eller andre non-HIV-1 lentivirus
+- Direkte (legemiddelspesifikk) litteratur- eller forsøksbevis for SIV-infeksjonskandidaten, siden det nåværende litteraturtreffet gjelder et annet legemiddel (islatravir)
+- Klargjøring av klinisk relevans, siden den høyest rangerte prediksjonen er en veterinær indikasjon snarere enn et menneskelig sykdomsmål
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

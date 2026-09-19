@@ -29,78 +29,79 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Galcanezumab: From Migraine Prevention to Heparin Cofactor 2 Deficiency
+# Galcanezumab: Fra migreneforebygging til heparinkofaktor 2-mangel
 
-## One-Sentence Summary
+## Sammendrag på en setning
 
-Galcanezumab is an anti-CGRP (calcitonin gene-related peptide) monoclonal antibody, known clinically for migraine prevention (original indication data not recorded in this evidence pack).
-The TxGNN model predicts it may be effective for **Heparin Cofactor 2 Deficiency**,
-but currently **no clinical trials** and **no publications** support this direction — the prediction rests on the model score alone.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in this evidence pack (original_indications is empty); known pharmacology indicates use as an anti-CGRP antibody for migraine prevention |
-| Predicted New Indication | Heparin cofactor 2 deficiency |
-| TxGNN Prediction Score | 99.50% |
-| Evidence Level | L5 |
-| Norway Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Galcanezumab er et anti-CGRP (calcitonin gene-related peptide) monoklonal antistoff, kjent klinisk for migrenforebygging (originale indikasjonsdata er ikke registrert i denne bevissakken).
+TxGNN-modellen forutsier at det kan være effektivt for **heparinkofaktor 2-mangel**,
+men for tiden finnes det **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen — prediksjonen er basert på modellpoengstanden alene.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available (MOA field is a data gap). Based on known pharmacology, galcanezumab is an anti-CGRP monoclonal antibody, and its efficacy in migraine prevention is well established through the trigeminovascular pain pathway.
-
-However, the evidence pack's own mechanistic assessment is explicit that **no known biological link exists** between CGRP signaling and heparin cofactor II (a serine protease inhibitor that inhibits thrombin). CGRP acts on neurovascular pain transmission and vasodilation, whereas heparin cofactor II deficiency is a coagulation-related genetic condition — these two systems have no established pharmacological overlap.
-
-This appears to be a case where the TxGNN model assigned a numerically high score without an underlying biological rationale (also reflected in the low prediction rank of 5461 out of the full candidate list). The model score alone is insufficient grounds for prioritizing this candidate; independent mechanistic or preclinical validation would be required before this prediction can be considered credible.
-
-**Note:** Two other candidates were also predicted for this drug with similarly high scores but equally weak mechanistic support — *antithrombin deficiency type 2* (score 99.41%, rank 6213) and *factor 5 excess with spontaneous thrombosis* (score 99.41%, rank 6221). All three fall into the coagulation/hemostasis disease cluster, suggesting the model may be picking up a spurious pattern rather than a true CGRP–coagulation relationship.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Innhold |
+|------|--------|
+| Original indikasjon | Ikke registrert i denne bevissakken (original_indications er tom); kjent farmakologi indikerer bruk som anti-CGRP-antistoff for migrenforebygging |
+| Forutsagt ny indikasjon | Heparinkofaktor 2-mangel |
+| TxGNN-prediksjonspoengstand | 99.50% |
+| Bevisnivå | L5 |
+| Markedsstatus Norge | Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available
+For tiden er detaljerte virkningsmekanisme-data ikke tilgjengelige (MOA-feltet er en datamangler). Basert på kjent farmakologi er galcanezumab et anti-CGRP monoklonal antistoff, og dets effektivitet i migrenforebygging er godt etablert gjennom trigeminovaskular smertevei.
 
----
+Imidlertid er bevissakken sitt eget mekanistiske vurdering eksplisitt at **ingen kjent biologisk forbindelse finnes** mellom CGRP-signalering og heparinkofaktor II (en serinproteasehemmer som hemmer trombin). CGRP virker på neurovaskular smertesignalering og vasodilatasjon, mens heparinkofaktor II-mangel er en blødningsrelatert genetisk tilstand — disse to systemene har ingen etablert farmakologisk sammenfall.
 
-## Norway Market Information
+Dette ser ut til å være et tilfelle der TxGNN-modellen tildelte en numerisk høy poengstand uten et underliggende biologisk grunnlag (også reflektert i den lave prediksjonsrangeringen på 5461 av den fulle kandidatlisten). Modellpoengstanden alene er utilstrekkelig grunnlag for å prioritere denne kandidaten; uavhengig mekanistisk eller preklinisk validering ville være nødvendig før denne prediksjonen kan anses som troverdig.
 
-Galcanezumab is not marketed in Norway under this evidence pack (0 authorizations recorded); no license data is available for review.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+**Merknad:** To andre kandidater ble også forutsagt for dette legemidlet med tilsvarende høye poengstander, men like svak mekanistisk støtte — *antitrombin-mangel type 2* (poengstand 99.41%, rangering 6213) og *faktor 5-overskudd med spontan trombose* (poengstand 99.41%, rangering 6221). Alle tre faller inn i blødnings-/hemostase-sykdomsklyngen, noe som antyder at modellen kanskje plukker opp et falskt mønster snarere enn et ekte CGRP–blødningsforhold.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra kliniske studier
 
-**Decision: Hold**
+For tiden ingen relaterte kliniske studier registrert
 
-**Rationale:**
-Despite a high TxGNN prediction score, there is no clinical trial or literature evidence, and the mechanistic rationale explicitly identifies no known biological connection between CGRP signaling and heparin cofactor II function. The evidence level (L5) reflects model prediction only, which is insufficient to justify further development effort at this stage.
+---
 
-**To proceed, the following is needed:**
-- Confirmed original indication and MOA data for galcanezumab (currently data gaps)
-- TFDA/regulatory label warnings and contraindications (currently data gaps, marked Blocking severity)
-- Independent mechanistic or preclinical evidence linking CGRP pathways to coagulation/hemostasis disorders
-- Re-evaluation if any clinical trials or case reports emerge connecting anti-CGRP therapy to coagulation factor abnormalities
+## Bevis fra litteratur
+
+For tiden ingen relatert litteratur tilgjengelig
+
+---
+
+## Markedsinformasjon Norge
+
+Galcanezumab er ikke markedsført i Norge etter denne bevissakken (0 autorisasjoner registrert); ingen lisensdatakort er tilgjengelig for gjennomgang.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Til tross for en høy TxGNN-prediksjonspoengstand, finnes det ingen klinisk studie eller litteraturbevis, og den mekanistiske begrunnelsen identifiserer eksplisitt ingen kjent biologisk forbindelse mellom CGRP-signalering og heparinkofaktor II-funksjon. Bevisnivået (L5) gjenspeiler modellprediksjon kun, som er utilstrekkelig til å rettferdiggjøre ytterligere utviklingsinnsats på dette stadiet.
+
+**For å fortsette trengs følgende:**
+- Bekreftet original indikasjon og MOA-data for galcanezumab (for tiden datamangler)
+- TFDA/regulatoriske etikettadvarsler og kontraindikasjoner (for tiden datamangler, merket med blokkerende alvorlighetsgrad)
+- Uavhengig mekanistisk eller preklinisk bevis som knytter CGRP-veier til blødnings-/hemostase-forstyrrelser
+- Revurdering hvis noen kliniske studier eller kasuistikker dukker opp som forbinder anti-CGRP-terapi til blødningsfaktorforstyrrelser
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

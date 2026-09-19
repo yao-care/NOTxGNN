@@ -29,66 +29,67 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Oritavancin: From Gram-Positive Bacterial Infections to Bacteroidaceae Infectious Disease
+# Oritavancin: Fra gram-positive bakterieinfeksjoner til Bacteroidaceae-infeksjonssykdom
 
-## One-Sentence Summary
+## Sammenfatting på en setning
 
-> Oritavancin is a lipoglycopeptide antibiotic whose known spectrum of activity is limited to gram-positive bacteria.
-> The TxGNN model predicts it may be effective for **Bacteroidaceae Infectious Disease**,
-> but this prediction has **no supporting clinical trials or literature**, and the evidence pack's own mechanistic analysis indicates the prediction is **biologically implausible**.
+> Oritavancin er et lipoglycopeptidantibiotikum hvis kjente aktivitetsspektrum er begrenset til gram-positive bakterier.
+> TxGNN-modellen forutser at det kan være effektivt mot **Bacteroidaceae-infeksjonssykdom**,
+> men denne forutsigelsen har **ingen støttende kliniske studier eller litteratur**, og evidensens egen mekanistiske analyse indikerer at forutsigelsen er **biologisk usannsynlig**.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Emne | Innhold |
 |------|------|
-| Original Indication | Not formally documented in this evidence pack (drug not marketed in Taiwan; no approved indication text available). Known drug class: lipoglycopeptide antibiotic active against gram-positive organisms. |
-| Predicted New Indication | Bacteroidaceae infectious disease |
-| TxGNN Prediction Score | 99.48% |
-| Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Original indikasjon | Ikke formelt dokumentert i denne evidenspakken (legemiddel ikke markedsført på Taiwan; ingen godkjent indikationstekst tilgjengelig). Kjent legemiddelklasse: lipoglycopeptidantibiotikum aktivt mot gram-positive organismer. |
+| Forutsagt ny indikasjon | Bacteroidaceae-infeksjonssykdom |
+| TxGNN-prediksjonspoeng | 99.48% |
+| Bevisnivå | L5 |
+| Status på Taiwan-marked | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forutsigelsen rimelig?
 
-Detailed mechanism of action data is flagged as a data gap in this evidence pack (`original_moa: [Data Gap]`). However, the repurposing rationale attached to the top prediction describes oritavancin as a lipoglycopeptide antibiotic that binds the D-Ala-D-Ala terminus of cell wall precursors, inhibiting peptidoglycan synthesis — a mechanism effective **only against gram-positive bacteria**.
+Detaljerte data om virkningsmekanisme er flagget som et datahull i denne evidenspakken (`original_moa: [Data Gap]`). Imidlertid beskriver gjenutnyttelsesgrunnlaget knyttet til toppforutsigelsen oritavancin som et lipoglycopeptidantibiotikum som binder D-Ala-D-Ala-terminalen til celleveggens forløpere, og hemmer peptidoglykansyntese — en mekanisme som er effektiv **bare mot gram-positive bakterier**.
 
-Bacteroidaceae are gram-negative anaerobes whose outer membrane structurally blocks penetration by large glycopeptide molecules. According to the evidence pack itself, this makes the mechanistic link between oritavancin and the predicted indication **contradictory to the drug's known antibacterial spectrum**, rather than supportive of it.
+Bacteroidaceae er gram-negative anaeober hvis ytre membran strukturelt blokkerer penetrasjon av store glykopeptidmolekyler. Ifølge evidenspakken selv er den mekanistiske lenken mellom oritavancin og den forutsagte indikasjon **i strid med legemidlets kjente antibakteriespektrum**, snarere enn støttende.
 
-The same pattern holds for the other two top-ranked predictions in this evidence pack:
-- **Ophthalmic herpes zoster** is a viral infection; oritavancin has no known antiviral activity.
-- **Mycoplasma pneumoniae pneumonia** involves a cell-wall-deficient organism, which is intrinsically resistant to cell-wall-synthesis inhibitors like oritavancin.
+Det samme mønsteret gjelder for de to andre topp-rangerte forutsigelsene i denne evidenspakken:
+- **Oftalmisk herpes zoster** er en virusinfeksjon; oritavancin har ingen kjent antivirusaktivitet.
+- **Mycoplasma pneumoniae-pneumoni** involverer en celleveggsdefisient organisme, som er iboende motstandsdyktig mot celleveggsyntesehemmere som oritavancin.
 
-All three top TxGNN-ranked predictions for this drug carry high similarity scores but are flagged, by the evidence pack's own mechanistic annotations, as pharmacologically inconsistent with oritavancin's established mode of action. This strongly suggests these are model-noise predictions rather than genuine repurposing candidates.
+Alle tre topp TxGNN-rangerte forutsigelser for dette legemiddelet har høye likhetsskårer, men er flagget av evidensens egen mekanistiske annoteringer som farmakologisk inkonsistent med oritavancins etablerte virkningsmekanisme. Dette tyder sterkt på at disse er modellstøy-forutsigelser snarere enn ekte gjenutnyttelsesskandidater.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske studier
 
-Currently no related clinical trials registered
+For øyeblikket er det ikke registrert relaterte kliniske studier
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available
+For øyeblikket er ingen relevant litteratur tilgjengelig
 
-## Taiwan Market Information
+## Markedsinformasjon for Taiwan
 
-No marketing authorizations currently exist in Taiwan — oritavancin is not marketed in this jurisdiction (`market_status: Not marketed`, `total_licenses: 0`).
+Ingen markedsføringsautorisasjoner eksisterer for øyeblikket på Taiwan — oritavancin er ikke markedsført i denne jurisdiksjonen (`market_status: Not marketed`, `total_licenses: 0`).
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Vennligst henvise til pakningsvedlegget for sikkerhetsinformasjon.
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-The TxGNN score is numerically high (99.48%), but evidence level is L5 — no clinical trials, no literature, and no real-world exposure data support this prediction. More importantly, the evidence pack's own mechanistic rationale explicitly contradicts the prediction: oritavancin's gram-positive-selective, cell-wall-dependent mechanism is incompatible with a gram-negative anaerobic target (Bacteroidaceae), and the same disqualifying logic applies to the other two ranked candidates (a viral infection and a cell-wall-deficient organism). This is a case where the model score should not override mechanistic plausibility.
+**Begrunnelse:**
+TxGNN-skåren er numerisk høy (99.48%), men bevisnivå er L5 — ingen kliniske studier, ingen litteratur, og ingen data fra virkeligheten støtter denne forutsigelsen. Enda viktigere er det at evidensens egen mekanistiske begrunnelse eksplisitt motsier forutsigelsen: oritavancins gram-positiv-selektive, celleveggsavhengige mekanisme er uforenlig med et gram-negativt anaerobisk mål (Bacteroidaceae), og den samme diskvalifiserende logikken gjelder for de to andre rangerte kandidatene (en virusinfeksjon og en celleveggsdefisient organisme). Dette er et tilfelle der modellskåren ikke bør ha forrang over mekanistisk rimelighet.
 
-**To proceed, the following is needed:**
-- Confirmed MOA and approved indication data from DrugBank/manufacturer labeling (currently marked as data gaps: DG001, DG002)
-- TFDA/regulatory package insert with warnings and contraindications
-- Independent review of why TxGNN assigned high scores to mechanistically contradicted indications (possible model calibration issue for this drug node)
-- If pursued further, in vitro susceptibility data against Bacteroidaceae species before any preclinical or clinical investment
+**For å fortsette er følgende nødvendig:**
+- Bekreftet MOA og godkjent indikasjondata fra DrugBank/produsentmerking (for øyeblikket merket som datahull: DG001, DG002)
+- TFDA/regulatorisk pakningsvedlegg med advarsler og kontraindikasjoner
+- Uavhengig gjennomgang av hvorfor TxGNN tildelte høye skårer til mekanistisk motsagte indikasjoner (mulig modellkalibrasjonsproblem for denne legemiddelnoden)
+- Hvis forfølges videre, in vitro-følsomhetsdata mot Bacteroidaceae-arter før noen preklinisk eller klinisk investering
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

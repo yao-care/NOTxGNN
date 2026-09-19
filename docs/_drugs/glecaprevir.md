@@ -29,102 +29,103 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Glecaprevir: From Hepatitis C Virus Infection to HIV Infectious Disease
+# Glecaprevir: Fra hepatitt C-virusinfeksjon til HIV-infeksjonssykdom
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-> Glecaprevir is an NS3/4A protease inhibitor originally developed (as the glecaprevir/pibrentasvir combination, e.g. Mavyret/Maviret) for chronic hepatitis C virus (HCV) infection.
-> The TxGNN model ranks **HIV infectious disease** as its #1 predicted new indication with a **99.87% score**,
-> but the supporting evidence — **15 clinical trials** and **19 publications** — almost entirely describes HCV treatment in HIV/HCV co-infected populations, not direct antiretroviral activity, and the drug's own repurposing rationale flags this as a likely false positive.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Chronic Hepatitis C Virus (HCV) infection *(inferred from clinical trial corpus in this evidence pack — DrugBank `original_indications` and `original_moa` fields were empty/Data Gap)* |
-| Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.87% (rank 1845) |
-| Evidence Level | L4 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+> Glecaprevir er en NS3/4A-proteaseinhibitor som opprinnelig ble utviklet (som glecaprevir/pibrentasvir-kombinasjonen, f.eks. Mavyret/Maviret) for kronisk hepatitt C-virusinfeksjon (HCV).
+> TxGNN-modellen rangerer **HIV-infeksjonssykdom** som sin #1 foreslåtte nye indikasjon med en **99,87 % score**,
+> men den støttende evidensen — **15 kliniske forsøk** og **19 publikasjoner** — beskriver nesten utelukkende HCV-behandling i HIV/HCV-koinfiserte populasjoner, ikke direkte antiretroviral aktivitet, og stoffets egen ombruksgrunnlag flagger dette som en sannsynlig falsk positiv.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Detailed mechanism-of-action data for glecaprevir is not available in the supplied DrugBank record (Data Gap). Based on the clinical trial evidence in this pack, glecaprevir is well established as an **NS3/4A serine protease inhibitor**, co-formulated with the NS5A inhibitor pibrentasvir, for pan-genotypic chronic HCV infection. It has no documented affinity for HIV protease or any other HIV replication target.
-
-Mechanistically, HCV (Flaviviridae) and HIV (Retroviridae) belong to unrelated viral families with structurally distinct protease enzymes; there is no known cross-reactivity. The high TxGNN score most plausibly reflects a **comorbidity confounder** rather than a genuine pharmacological signal: nearly every trial retrieved for this candidate enrolled HIV/HCV co-infected patients in whom glecaprevir/pibrentasvir was used to cure the *HCV* component, while HIV was managed separately with antiretroviral therapy. One retrieved trial (NCT02634008) does not even involve glecaprevir — it tested a different regimen (paritaprevir/ritonavir/ombitasvir/dasabuvir).
-
-This pattern is consistent across the full top-10 prediction list: alongside HIV, TxGNN also ranks feline AIDS, simian immunodeficiency virus infection, hepatitis A/B/E, and two rare Flaviviridae hemorrhagic fevers — none of which have direct supporting evidence for glecaprevir's antiviral activity. This suggests the model is picking up a "viral infection" / "co-morbid population" pattern in the knowledge graph rather than a specific, mechanistically grounded repurposing signal for HIV.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Kronisk hepatitt C-virusinfeksjon *(utledet fra klinisk forsøkskopus i denne bevispappen — DrugBank `original_indications` og `original_moa` felt var tomme/Datagap)* |
+| Foreslått ny indikasjon | HIV-infeksjonssykdom |
+| TxGNN prediksjons-score | 99,87 % (rangering 1845) |
+| Bevisnivå | L4 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | **Avvent** |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Detaljerte data om virkningsmekanisme for glecaprevir er ikke tilgjengelig i det oppgitte DrugBank-registeret (Datagap). Basert på klinisk forsøksevidents i denne pakken, er glecaprevir godt etablert som en **NS3/4A serinproteasehibitor**, sam-formulert med NS5A-inhibitoren pibrentasvir, for pan-genotypisk kronisk HCV-infeksjon. Det er ingen dokumentert affinitet for HIV-protease eller noen annen HIV-replikasjonsmål.
+
+Mekanistisk sett tilhører HCV (Flaviviridae) og HIV (Retroviridae) urelaterte virusfamilier med strukturelt distinkte proteasenzymer; det er ingen kjent kryssreaktivitet. Den høye TxGNN-scoren reflekterer mest sannsynlig en **komorbiditetskonfunder** snarere enn et genuint farmakologisk signal: nesten alle forsøk hentet for denne kandidaten inkluderte HIV/HCV-koinfiserte pasienter der glecaprevir/pibrentasvir ble brukt til å kurere *HCV*-komponenten, mens HIV ble behandlet separat med antiretroviral terapi. Ett hentet forsøk (NCT02634008) involverer ikke engang glecaprevir — det testet et annet regime (paritaprevir/ritonavir/ombitasvir/dasabuvir).
+
+Dette mønsteret er konsistent over hele top-10 prediksjonslisten: ved siden av HIV, rangerer TxGNN også kattAIDS, apeimmunsviktvirus-infeksjon, hepatitt A/B/E og to sjeldne Flaviviridae-blødingsfebere — ingen av disse har direkte støttende bevis for glecaprevirs antivirale aktivitet. Dette antyder at modellen plukker opp et "virusinfeksjon" / "koinfisert populasjon"-mønster i kunnskapsgrafen snarere enn et spesifikt, mekanistisk begrunnet ombruksignal for HIV.
+
+---
+
+## Klinisk forsøksevidents
+
+| Forsøksnummer | Fase | Status | Inkludering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT02634008](https://clinicaltrials.gov/study/NCT02634008) | Phase 3 | Completed | 83 | Pilot study in recent HCV infection ± HIV co-infection; **uses a different regimen (paritaprevir/ritonavir/ombitasvir/dasabuvir)**, not glecaprevir — graded low relevance |
-| [NCT05108935](https://clinicaltrials.gov/study/NCT05108935) | N/A | Completed | 17 | Telemedicine delivery of MOUD, HIV PrEP, and HCV treatment at needle exchanges; not a glecaprevir efficacy trial for HIV |
-| [NCT04577482](https://clinicaltrials.gov/study/NCT04577482) | N/A | Completed | 42 | Real-world SVR outcomes with glecaprevir/pibrentasvir in DAA-experienced chronic HCV patients (Russia); HIV status not the endpoint |
-| [NCT07040319](https://clinicaltrials.gov/study/NCT07040319) | Phase 1/2 | Not yet recruiting | 30 | PK/safety of glecaprevir/pibrentasvir initiated in pregnancy for HCV, with/without HIV co-infection; safety, not HIV efficacy |
-| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Phase 4 | Completed | 87 | Cardiovascular risk after HCV eradication in HIV mono-infected vs. HCV/HIV co-infected patients — observational, not an HIV drug-efficacy trial |
-| [NCT02738138](https://clinicaltrials.gov/study/NCT02738138) (EXPEDITION-2) | Phase 3 | Completed | 153 | Efficacy/safety of glecaprevir/pibrentasvir for HCV in HIV-1 co-infected adults; primary endpoint is HCV SVR12, not HIV viral load |
-| [NCT02939989](https://clinicaltrials.gov/study/NCT02939989) (MAGELLAN-3) | Phase 3 | Completed | 33 | Glecaprevir/pibrentasvir + sofosbuvir/ribavirin in HCV virologic-failure patients; HCV endpoint only |
-| [NCT03222583](https://clinicaltrials.gov/study/NCT03222583) | Phase 3 | Completed | 546 | Large Asian RCT of glecaprevir/pibrentasvir for HCV genotypes 1–6, with/without HIV co-infection; HIV is a baseline covariate, not the treated condition |
-| [NCT04352309](https://clinicaltrials.gov/study/NCT04352309) (EASY) | N/A | Completed | 99 | Real-world 8-week glecaprevir/pibrentasvir effectiveness in HCV + cirrhosis (Russia); no HIV efficacy data |
-| [NCT03868163](https://clinicaltrials.gov/study/NCT03868163) | N/A | Completed | 161 | Real-world glecaprevir/pibrentasvir effectiveness in chronic HCV genotypes 1–6 (Russia); no HIV efficacy data |
+| [NCT02634008](https://clinicaltrials.gov/study/NCT02634008) | Fase 3 | Avsluttet | 83 | Pilotstudie i fersk HCV-infeksjon ± HIV-koinfeksjon; **bruker et annet regime (paritaprevir/ritonavir/ombitasvir/dasabuvir)**, ikke glecaprevir — gradert lav relevans |
+| [NCT05108935](https://clinicaltrials.gov/study/NCT05108935) | N/A | Avsluttet | 17 | Telemedisinsk levering av MOUD, HIV PrEP og HCV-behandling ved nåleutvekslingssteder; ikke et glecaprevir-effektivitetsforsøk for HIV |
+| [NCT04577482](https://clinicaltrials.gov/study/NCT04577482) | N/A | Avsluttet | 42 | Virkelighetsresultater for SVR med glecaprevir/pibrentasvir hos DAA-erfarne kroniske HCV-pasienter (Russland); HIV-status var ikke endepunktet |
+| [NCT07040319](https://clinicaltrials.gov/study/NCT07040319) | Fase 1/2 | Ikke rekrutterer ennå | 30 | PK/sikkerhet for glecaprevir/pibrentasvir initialisert ved graviditet for HCV, med/uten HIV-koinfeksjon; sikkerhet, ikke HIV-effektivitet |
+| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Fase 4 | Avsluttet | 87 | Kardiovaskulær risiko etter HCV-utryddelse hos HIV-monoinfiserte vs. HCV/HIV-koinfiserte pasienter — observasjonell, ikke et HIV-legemiddeleffektivitetsforsøk |
+| [NCT02738138](https://clinicaltrials.gov/study/NCT02738138) (EXPEDITION-2) | Fase 3 | Avsluttet | 153 | Effektivitet/sikkerhet for glecaprevir/pibrentasvir for HCV hos HIV-1-koinfiserte voksne; primært endepunkt er HCV SVR12, ikke HIV virale load |
+| [NCT02939989](https://clinicaltrials.gov/study/NCT02939989) (MAGELLAN-3) | Fase 3 | Avsluttet | 33 | Glecaprevir/pibrentasvir + sofosbuvir/ribavirin hos HCV-pasienter med virologisk svikt; kun HCV-endepunkt |
+| [NCT03222583](https://clinicaltrials.gov/study/NCT03222583) | Fase 3 | Avsluttet | 546 | Stor asiatisk RCT for glecaprevir/pibrentasvir for HCV genotyper 1–6, med/uten HIV-koinfeksjon; HIV er en baseline-kovariant, ikke den behandlede tilstanden |
+| [NCT04352309](https://clinicaltrials.gov/study/NCT04352309) (EASY) | N/A | Avsluttet | 99 | Virkelighetseffektivitet av åtte ukers glecaprevir/pibrentasvir ved HCV + sirrose (Russland); ingen HIV-effektivitetsdata |
+| [NCT03868163](https://clinicaltrials.gov/study/NCT03868163) | N/A | Avsluttet | 161 | Virkelighetseffektivitet av glecaprevir/pibrentasvir ved kronisk HCV genotyper 1–6 (Russland); ingen HIV-effektivitetsdata |
 
-**None of the retrieved trials evaluate glecaprevir as a treatment for HIV itself.** All either treat the HCV component of HIV/HCV co-infection or are unrelated safety/logistics studies.
+**Ingen av de hentede forsøkene evaluerer glecaprevir som en behandling for HIV selv.** Alle behandler enten HCV-komponenten av HIV/HCV-koinfeksjon eller er urelaterte sikkerhet-/logistikkstudier.
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [31504702](https://pubmed.ncbi.nlm.nih.gov/31504702/) | 2020 | DDI study | J Infect Dis | Characterizes drug-drug interactions between glecaprevir/pibrentasvir and HIV antiretrovirals — relevant to **co-administration safety**, not anti-HIV efficacy |
-| [37671831](https://pubmed.ncbi.nlm.nih.gov/37671831/) | 2023 | Cohort | J Antimicrob Chemother | Real-world SVR to glecaprevir/pibrentasvir in HIV/HCV-coinfected patients; HIV is lower with SVR to HCV, not treated by the drug |
-| [34664197](https://pubmed.ncbi.nlm.nih.gov/34664197/) | 2021 | Case Report | Clin J Gastroenterol | Successful HCV genotype 4a clearance with glecaprevir/pibrentasvir in an HIV/HCV-coinfected hemophilia patient |
-| [36415300](https://pubmed.ncbi.nlm.nih.gov/36415300/) | 2022 | Case Report | J Prev Med Hyg | Hyperbilirubinemia/jaundice during glecaprevir/pibrentasvir + ART in an HIV-infected patient — safety signal, not efficacy |
-| [39697370](https://pubmed.ncbi.nlm.nih.gov/39697370/) | 2024 | N/A | Clin Exp Hepatol | Effectiveness of glecaprevir/pibrentasvir for HCV in HIV/HCV-coinfected patients on bictegravir/FTC/TAF |
-| [29595065](https://pubmed.ncbi.nlm.nih.gov/29595065/) | 2018 | Review | Expert Opin Pharmacother | Overview of protease-inhibitor therapy for HCV, including HIV/HCV coinfection context |
-| [30671330](https://pubmed.ncbi.nlm.nih.gov/30671330/) | 2017 | Review | GMS Infect Dis | Protease inhibitors for HCV treatment, including HIV-coinfected populations |
-| [30499343](https://pubmed.ncbi.nlm.nih.gov/30499343/) | 2019 | Review | Future Microbiol | Glecaprevir/pibrentasvir for chronic HCV infection |
-| [29845496](https://pubmed.ncbi.nlm.nih.gov/29845496/) | 2018 | Review | Hepatol Int | Glecaprevir/pibrentasvir expanding access to HCV therapy |
-| [29369303](https://pubmed.ncbi.nlm.nih.gov/29369303/) | 2018 | Conference report | AIDS Reviews | Viral hepatitis conference report; HBV/HCV burden and DAA landscape |
+| [31504702](https://pubmed.ncbi.nlm.nih.gov/31504702/) | 2020 | DDI-studie | J Infect Dis | Karakteriserer legemiddelinteraksjoner mellom glecaprevir/pibrentasvir og HIV-antiretroviraler — relevant for **sam-administreringssikkerhet**, ikke anti-HIV-effektivitet |
+| [37671831](https://pubmed.ncbi.nlm.nih.gov/37671831/) | 2023 | Kohort | J Antimicrob Chemother | Virkelighets-SVR til glecaprevir/pibrentasvir hos HIV/HCV-koinfiserte pasienter; HIV er lavere med SVR til HCV, ikke behandlet av legemidlet |
+| [34664197](https://pubmed.ncbi.nlm.nih.gov/34664197/) | 2021 | Kasuistikk | Clin J Gastroenterol | Vellykket HCV-genotype 4a-klaring med glecaprevir/pibrentasvir hos en HIV/HCV-koinfisert hemofili-pasient |
+| [36415300](https://pubmed.ncbi.nlm.nih.gov/36415300/) | 2022 | Kasuistikk | J Prev Med Hyg | Hyperbiluribinemi/gulhet under glecaprevir/pibrentasvir + ART hos en HIV-infisert pasient — sikkerhetssignal, ikke effektivitet |
+| [39697370](https://pubmed.ncbi.nlm.nih.gov/39697370/) | 2024 | N/A | Clin Exp Hepatol | Effektivitet av glecaprevir/pibrentasvir for HCV hos HIV/HCV-koinfiserte pasienter på bictegravir/FTC/TAF |
+| [29595065](https://pubmed.ncbi.nlm.nih.gov/29595065/) | 2018 | Oversikt | Expert Opin Pharmacother | Oversikt over proteasehibitor-terapi for HCV, inkludert HIV/HCV-koinfeksjonssammenheng |
+| [30671330](https://pubmed.ncbi.nlm.nih.gov/30671330/) | 2017 | Oversikt | GMS Infect Dis | Proteasehibitorer for HCV-behandling, inkludert HIV-koinfiserte populasjoner |
+| [30499343](https://pubmed.ncbi.nlm.nih.gov/30499343/) | 2019 | Oversikt | Future Microbiol | Glecaprevir/pibrentasvir for kronisk HCV-infeksjon |
+| [29845496](https://pubmed.ncbi.nlm.nih.gov/29845496/) | 2018 | Oversikt | Hepatol Int | Glecaprevir/pibrentasvir ekspanderer tilgangen til HCV-terapi |
+| [29369303](https://pubmed.ncbi.nlm.nih.gov/29369303/) | 2018 | Konferanserapport | AIDS Reviews | Rapport fra virushepatittkonferanse; HBV/HCV-byrde og DAA-landskap |
 
-**No publication reports direct antiretroviral (anti-HIV) activity for glecaprevir.** The strongest direct relevance is the DDI paper (PMID 31504702), which is a safety/co-administration reference for treating HCV alongside HIV therapy — not evidence of an HIV indication.
-
----
-
-## Norway Market Information
-
-Glecaprevir is currently **not marketed in Norway** — no marketing authorizations were found (`total_licenses: 0`, `licenses: []`).
+**Ingen publikasjon rapporterer direkte antiretroviral (anti-HIV) aktivitet for glecaprevir.** Den sterkeste direkte relevansen er DDI-papiret (PMID 31504702), som er en sikkerhet/sam-administreringsreferanse for behandling av HCV ved siden av HIV-terapi — ikke bevis for en HIV-indikasjon.
 
 ---
 
-## Safety Considerations
+## Markedsinformasjon for Norge
 
-Please refer to the package insert for safety information. *(Key warnings, contraindications, and DDI data were all flagged as Data Gap / not found in this evidence pack. Note separately: the meta data-gap log lists the TFDA/label warnings gap (DG001) as **Blocking** for S1 safety review, and the MOA gap (DG002) as **High** impact.)*
+Glecaprevir er for øyeblikket **ikke markedsført i Norge** — ingen markedsføringsautoriseringer ble funnet (`total_licenses: 0`, `licenses: []`).
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Se pakningsvedlegget for sikkerhetsinformasjon. *(Nøkkelvarsler, kontraindikasjoner og DDI-data var alle flagget som Datagap / ikke funnet i denne evidensenpakken. Merk separat: metadatagap-loggen lister TFDA/etikett-varsler-gapet (DG001) som **Blokkering** for S1-sikkerhetsgjennomgang, og MOA-gapet (DG002) som **Høy** påvirkning.)*
 
-**Rationale:**
-Despite a high TxGNN score, the mechanistic basis for glecaprevir treating HIV is absent (HCV NS3/4A vs. HIV protease share no target homology), and every retrieved trial/publication addresses HCV treatment in HIV-co-infected patients rather than anti-HIV activity. The internal repurposing rationale explicitly identifies this as a likely comorbidity-driven false positive, reinforced by the presence of biologically implausible co-ranked predictions (feline AIDS, SIV, rare hemorrhagic fevers) in the same top-10 list.
+---
 
-**To proceed, the following is needed:**
-- Direct *in vitro* anti-HIV activity data for glecaprevir (currently absent) before this candidate can move past S0
-- Resolution of Data Gap DG002 (MOA) via DrugBank API query
-- Resolution of Data Gap DG001 (TFDA/label warnings and contraindications) — currently Blocking for any S1 safety evaluation
-- If no direct antiviral evidence against HIV emerges, this candidate should be closed as a network-artifact false positive rather than advanced further
+## Konklusjon og neste skritt
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Til tross for en høy TxGNN-score, er det mekanistiske grunnlaget for glecaprevir som behandler HIV fraværende (HCV NS3/4A vs. HIV-protease deler ingen målhomologi), og hver hentet studie/publikasjon behandler HCV-behandling hos HIV-koinfiserte pasienter snarere enn anti-HIV-aktivitet. Det interne ombruksgrunnlaget identifiserer eksplisitt dette som en sannsynlig komorbiditet-drevet falsk positiv, forsterket av tilstedeværelsen av biologisk implausible sam-rangerte prediksjoner (kattAIDS, SIV, sjeldne blødingsfebere) i samme top-10-liste.
+
+**For å gå videre, er følgende nødvendig:**
+- Direkte *in vitro*-anti-HIV-aktivitetsdata for glecaprevir (for øyeblikket fraværende) før denne kandidaten kan gå forbi S0
+- Løsning av Datagap DG002 (MOA) via DrugBank API-spørring
+- Løsning av Datagap DG001 (TFDA/etikett-varsler og kontraindikasjoner) — for øyeblikket blokkering for S1-sikkerhetsevaluering
+- Hvis det ikke blir funnet direkte antivirale bevis mot HIV, bør denne kandidaten lukkes som et nettverksartefakt falsk positiv snarere enn å drives videre
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

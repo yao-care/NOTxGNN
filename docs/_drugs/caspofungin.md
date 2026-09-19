@@ -29,74 +29,74 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Caspofungin: From Antifungal Therapy to Gastrin Secretion Abnormality
+# Caspofungin: Fra antifungal terapi til abnormalitet i gastrinsekresjon
 
-## One-Sentence Summary
+## Sammenfattelse i én setning
 
-Caspofungin is an echinocandin-class antifungal agent; the evidence pack does not specify its Norway-approved indication (drug is currently unmarketed there).
-The TxGNN model predicts a possible link to **Gastrin Secretion Abnormality**, but this prediction is supported by **zero clinical trials** and **zero publications**, and the accompanying mechanistic analysis explicitly finds no plausible biological pathway connecting the two.
+Caspofungin er et antifungalt middel i echinocandin-klassen; bevissamlingen spesifiserer ikke dets godkjent indikasjon i Norge (midlet er for tiden ikke markedsført der). TxGNN-modellen forutsier en mulig sammenheng med **abnormalitet i gastrinsekresjon**, men denne prognosen støttes av **null kliniske studier** og **null publikasjoner**, og den tilhørende mekanistiske analysen finner eksplisitt ingen plausibel biologisk vei som knytter de to sammen.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Punkt | Innhold |
 |------|------|
-| Original Indication | Not specified in evidence pack (known drug class: echinocandin antifungal; no approved-indication text provided) |
-| Predicted New Indication | Gastrin Secretion Abnormality |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L5 (model prediction only, no supporting trials/literature) |
-| Norway Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Original indikasjon | Ikke spesifisert i bevissamlingen (kjent stoffklasse: echinocandin-antifungal; ingen godkjent indikasjon oppgitt) |
+| Forutsagt ny indikasjon | Abnormalitet i gastrinsekresjon |
+| TxGNN-prediksjonsresultat | 99.44% |
+| Bevisnivå | L5 (modellprognose bare, ingen støttende studier/litteratur) |
+| Markedsstatus i Norge | Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Vent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prognosen rimelig?
 
-Currently, the drug's `original_moa` field is marked as a data gap. However, the evidence pack's own mechanistic rationale identifies caspofungin as an echinocandin antifungal that inhibits fungal cell wall β-1,3-D-glucan synthase — a fungus-specific enzyme with no human homolog.
+For tiden er `original_moa`-feltet for stoffet merket som et datagap. Imidlertid identifiserer bevissamlingens egen mekanistiske begrunnelse caspofungin som et echinocandin-antifungal som hemmer fungal cellevegg β-1,3-D-glukan syntase — et fungus-spesifikt enzym uten human homolog.
 
-No known pharmacological pathway links this mechanism to gastrin secretion regulation (e.g., G-cell function, H+/K+-ATPase, somatostatin signaling, or CCK2 receptor activity). The original indication (systemic antifungal therapy) and the predicted new indication (a gastroenterological/endocrine disorder) share no obvious pathophysiological overlap.
+Ingen kjent farmakologisk vei knytter denne mekanismen til regulering av gastrinsekresjon (f.eks. G-celle funksjon, H+/K+-ATPase, somatostatinsignalering eller CCK2-reseptoraktivitet). Den opprinnelige indikasjonen (systemisk antifungal terapi) og den forutsagte nye indikasjonen (en gastroenterologisk/endokrin lidelse) deler ingen åpenbar patofysiologisk overlapp.
 
-Given the complete absence of clinical trials or literature, and the lack of any interpretable biological mechanism, this prediction is most likely a model artifact or a false-positive association within the knowledge graph rather than a genuine repurposing signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Gitt den fullstendige mangelen på kliniske studier eller litteratur, og mangelen på noen tolkbar biologisk mekanisme, er denne prognosen mest sannsynlig en modellartefakt eller en falskt-positiv associasjon i kunnskapsgrafen snarere enn et genuint gjenbrukssignal.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske studier
 
-Currently no related literature available
-
----
-
-## Norway Market Information
-
-No authorizations on record — caspofungin is not currently marketed in Norway (0 licenses).
+For tiden ingen relaterte kliniske studier registrert
 
 ---
 
-## Safety Considerations
+## Bevis fra litteraturen
 
-Please refer to the package insert for safety information.
+For tiden ingen relatert litteratur tilgjengelig
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformasjon for Norge
 
-**Decision: Hold**
+Ingen godkjennelser i arkivene — caspofungin er for tiden ikke markedsført i Norge (0 lisenser).
 
-**Rationale:**
-This candidate sits at evidence level L5 (model score only) with no clinical trials, no literature, and no plausible mechanistic link — the evidence pack's own rationale argues against biological plausibility. It does not meet the minimum bar to advance past S0.
+---
 
-**To proceed, the following is needed:**
-- Confirmed MOA and TFDA/regulatory label data (currently blocking safety review per DG001/DG002)
-- Independent literature or preclinical evidence establishing a mechanistic link between echinocandin activity and gastrin regulation
-- If no such evidence emerges, this candidate should be deprioritized as a likely false-positive prediction
+## Sikkerhetsvurderinger
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Vent**
+
+**Begrunnelse:**
+Denne kandidaten ligger på bevisnivå L5 (modellprognose bare) uten kliniske studier, ingen litteratur og ingen plausibel mekanistisk sammenheng — bevissamlingens egen begrunnelse argumenterer mot biologisk plausibilitet. Det oppfyller ikke minimumskravet for å gå videre forbi S0.
+
+**For å gå videre er følgende nødvendig:**
+- Bekreftet MOA og TFDA/regulatoriske merkedata (for tiden blokkerer sikkerhetsvurdering per DG001/DG002)
+- Uavhengig litteratur eller preklinisk bevis som etablerer en mekanistisk sammenheng mellom echinocandin-aktivitet og gastrins regulering
+- Hvis ingen slik bevis dukker opp, bør denne kandidaten nedprioriteres som en sannsynlig falskt-positiv prediksjon
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

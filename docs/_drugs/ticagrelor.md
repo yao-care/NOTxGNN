@@ -29,92 +29,93 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# TICAGRELOR: From Acute Coronary Syndrome to Intracranial Arteriosclerosis
+# TICAGRELOR: Fra akutt koronart syndrom til intrakraniell arteriosclerose
 
-## One-Sentence Summary
+## Sammenfatning
 
-> Ticagrelor is an oral P2Y12 receptor antagonist established for antiplatelet therapy in acute coronary syndrome (ACS) and post-PCI thrombosis prevention.
-> The TxGNN model predicts it may be effective for **Intracranial Arteriosclerosis** (intracranial arterial stenosis),
-> with **11 clinical trials** and **3 publications** currently supporting this direction, including a dedicated Phase 3 RCT (CAPTIVA).
+> Ticagrelor er en oral P2Y12-reseptorantagonist etablert for antiplateletterapi ved akutt koronart syndrom (AKS) og forebygging av trombose etter PCI.
+> TxGNN-modellen predikerer at det kan være effektivt for **Intrakraniell arteriosclerose** (intrakraniell arteriell stenose),
+> med **11 kliniske forsøk** og **3 publikasjoner** som for tiden støtter denne retningen, inkludert et dedikert fase 3 RCT (CAPTIVA).
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Felt | Innhold |
 |------|------|
-| Original Indication | Acute Coronary Syndrome (ACS) / post-PCI antiplatelet therapy — based on established clinical use; no Norway license record available in this dataset |
-| Predicted New Indication | Intracranial Arteriosclerosis |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L2 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Oprindelig indikasjon | Akutt koronart syndrom (AKS) / antiplateletterapi etter PCI — basert på etablert klinisk bruk; ingen norsk lisenspost tilgjengelig i dette datasettet |
+| Predikert ny indikasjon | Intrakraniell arteriosclerose |
+| TxGNN-prediksjonspoeng | 99.97% |
+| Bevisnivå | L2 |
+| Markeds status i Norge | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Gå videre med sikkerhetstiltak |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed structured MOA data for ticagrelor was flagged as a data gap (DG002) in this evidence pack. However, the literature evidence collected does describe its pharmacology: ticagrelor is a cyclopentyl-triazolopyrimidine, a reversible, direct-acting oral P2Y12 receptor antagonist that blocks a central amplification pathway of platelet activation. Unlike thienopyridines (e.g., clopidogrel), it does not require hepatic bioactivation, giving it a faster and more predictable onset/offset of antiplatelet effect.
+Detaljerte strukturerte MOA-data for ticagrelor ble flagget som et datahull (DG002) i denne bevissamlingen. Imidlertid beskriver litteraturen som ble samlet inn sin farmakologi: ticagrelor er et cyclopentyl-triazolopyrimidin, en reversibel, direkte virkende oral P2Y12-reseptorantagonist som blokkerer en sentral forsterketsvei for plateletaktivering. I motsetning til tieno­pyridiner (f.eks. clopidogrel), krever det ikke hepatisk biotransformasjon, noe som gir det raskere og mer forutsigbar start/stopp av antiplateleteffekt.
 
-Ticagrelor's original indication — ACS and post-PCI thrombosis prevention — is fundamentally an arterial, platelet-dependent thrombotic disease process. Intracranial arteriosclerosis (intracranial atherosclerotic stenosis, ICAS) shares the same underlying pathophysiology: plaque rupture or endothelial injury triggers platelet-dependent thrombus formation, which is the dominant mechanism behind ischemic stroke in ICAS patients. This mechanistic overlap is the basis for extrapolating P2Y12 inhibition from coronary to intracranial arterial beds.
+Ticagrelors oprindelige indikasjon — AKS og forebygging av trombose etter PCI — er fundamentalt en arteriell, plateletavhengig trombotisk sykdomsprosess. Intrakraniell arteriosclerose (intrakraniell atherosclerotisk stenose, ICAS) deler den samme underliggende patofysiologien: plakkrupt eller endotelskade utløser plateletavhengig trombusdannelse, som er den dominerende mekanismen bak iskemisk slag hos ICAS-pasienter. Denne mekanistiske overlappingen er grunnlaget for å ekstrapolere P2Y12-inhibisjon fra koronar til intrakraniell arteriell seng.
 
-That said, the repurposing rationale explicitly flags an important caveat: intracranial vessels carry a higher bleeding (intracerebral hemorrhage) risk than coronary vessels, so the mechanistic plausibility does not automatically translate to an equivalent risk-benefit profile. This is reflected in the evidence level (L2) and the "Proceed with Guardrails" recommendation — the direction is biologically sound and already being tested in a dedicated Phase 3 trial, but confirmatory efficacy/safety data specific to the intracranial vasculature is still pending.
+Når det er sagt, flagger repurposeringsbegrunnelsen en viktig advarsel: intrakranielle kar har betydelig høyere blødnings-(intracerebral blødning-)risiko enn koronarkår, så den mekanistiske plausibilitet innebærer ikke automatisk en tilsvarende risiko-nytte-profil. Dette gjenspeiles i bevisnivået (L2) og anbefalingen «Gå videre med sikkerhetstiltak» — retningen er biologisk rimelig og blir allerede testet i et dedikert fase 3 forsøk, men bekreftet effektivitets-/sikkerhetskontrolldata spesifikk for intrakraniell vaskulatur er fortsatt ventende.
 
 ---
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøk
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Innskriving | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT05047172](https://clinicaltrials.gov/study/NCT05047172) | Phase 3 | Active, not recruiting | 1,683 | CAPTIVA trial: directly compares rivaroxaban, ticagrelor, and both vs. clopidogrel for lowering 1-year ischemic stroke/ICH/vascular death in intracranial arterial stenosis — the most directly relevant trial for this indication |
-| [NCT04948749](https://clinicaltrials.gov/study/NCT04948749) | N/A | Recruiting | 792 | DREAM-PRIDE: drug-eluting stent + aggressive medical therapy vs. standard medical therapy alone for preventing 1-year stroke recurrence in symptomatic intracranial atherosclerotic disease |
-| [NCT06714526](https://clinicaltrials.gov/study/NCT06714526) | N/A | Recruiting | 100 | Pilot RCT comparing genotype-guided P2Y12 inhibitor selection vs. conventional clopidogrel in symptomatic intracranial atherosclerotic disease (ICAD) |
-| [NCT06857045](https://clinicaltrials.gov/study/NCT06857045) | N/A | Withdrawn | 0 | Planned RCT of 3- vs 6-month DAPT after NOVA intracranial sirolimus-eluting stent implantation; trial was withdrawn |
-| [NCT01732822](https://clinicaltrials.gov/study/NCT01732822) | Phase 3 | Completed | 13,885 | EUCLID: ticagrelor vs. clopidogrel in peripheral artery disease for reducing cardiovascular death/MI/ischemic stroke — large Phase 3 dataset, general PAD population (not intracranial-specific) |
-| [NCT02605447](https://clinicaltrials.gov/study/NCT02605447) | Phase 4 | Completed | 2,009 | EVOLVE Short DAPT: safety of 3-month DAPT in high-bleeding-risk patients after PCI with an everolimus-eluting stent |
-| [NCT01813435](https://clinicaltrials.gov/study/NCT01813435) | Phase 3 | Completed | 15,991 | GLOBAL LEADERS: ticagrelor+aspirin (1 month) then ticagrelor monotherapy (23 months) vs. standard DAPT after stent implantation |
-| [NCT07354828](https://clinicaltrials.gov/study/NCT07354828) | N/A | Not yet recruiting | 3,500 | Quality control standard system for DAPT-based coronary revascularization in high-bleeding-risk ACS patients (China) |
-| [NCT07164859](https://clinicaltrials.gov/study/NCT07164859) | Phase 3 | Not yet recruiting | 1,700 | SOLOPCI: very short DAPT (stopping aspirin at day 7) vs. standard DAPT duration in elderly PCI patients |
-| [NCT06058130](https://clinicaltrials.gov/study/NCT06058130) | N/A | Unknown | 2,171 | Anticoagulation alone vs. anticoagulation + antiplatelet therapy in acute ischemic stroke with concomitant AF and extracranial/intracranial artery stenosis |
+| [NCT05047172](https://clinicaltrials.gov/study/NCT05047172) | Fase 3 | Pågår, rekrutterer ikke | 1,683 | CAPTIVA-forsøk: sammenligner direkte rivaroxaban, ticagrelor, og begge vs. clopidogrel for å senke 1-års iskemisk slag/ICH/vaskulær død i intrakraniell arteriell stenose — det mest direkte relevante forsøket for denne indikasjonen |
+| [NCT04948749](https://clinicaltrials.gov/study/NCT04948749) | N/A | Rekrutterer | 792 | DREAM-PRIDE: stent med legemiddelfrisetting + aggressiv medisinsk terapi vs. standard medisinsk terapi alene for å forebygge 1-års slagrecidiv i symptomatisk intrakraniell atherosclerotisk sykdom |
+| [NCT06714526](https://clinicaltrials.gov/study/NCT06714526) | N/A | Rekrutterer | 100 | Pilot RCT som sammenligner genotype-guidet P2Y12-inhibitorvalg vs. konvensjonell clopidogrel ved symptomatisk intrakraniell atherosclerotisk sykdom (ICAD) |
+| [NCT06857045](https://clinicaltrials.gov/study/NCT06857045) | N/A | Trukket tilbake | 0 | Planlagt RCT av 3- vs 6-måneders DAPT etter NOVA intrakraniell sirolimus-frisettingsstent-implantering; forsøket ble trukket tilbake |
+| [NCT01732822](https://clinicaltrials.gov/study/NCT01732822) | Fase 3 | Fullført | 13,885 | EUCLID: ticagrelor vs. clopidogrel ved perifer arteriell sykdom for å redusere kardiovaskulær død/MI/iskemisk slag — stort fase 3 datasett, generell PAD-populasjon (ikke intrakraniell-spesifikk) |
+| [NCT02605447](https://clinicaltrials.gov/study/NCT02605447) | Fase 4 | Fullført | 2,009 | EVOLVE Short DAPT: sikkerhet ved 3-måneders DAPT hos pasienter med høy blødningsrisiko etter PCI med everolimus-frisettingsstent |
+| [NCT01813435](https://clinicaltrials.gov/study/NCT01813435) | Fase 3 | Fullført | 15,991 | GLOBAL LEADERS: ticagrelor+aspirin (1 måned) deretter ticagrelor-monoterapi (23 måneder) vs. standard DAPT etter stent-implantering |
+| [NCT07354828](https://clinicaltrials.gov/study/NCT07354828) | N/A | Ikke ennå rekrutterer | 3,500 | Kvalitetskontrollstandartsystem for DAPT-basert koronar revaskularisering hos AKS-pasienter med høy blødningsrisiko (Kina) |
+| [NCT07164859](https://clinicaltrials.gov/study/NCT07164859) | Fase 3 | Ikke ennå rekrutterer | 1,700 | SOLOPCI: svært kort DAPT (stoppet aspirin på dag 7) vs. standard DAPT-varighet hos eldre PCI-pasienter |
+| [NCT06058130](https://clinicaltrials.gov/study/NCT06058130) | N/A | Ukjent | 2,171 | Antikoagulasjon alene vs. antikoagulasjon + antiplateletterapi ved akutt iskemisk slag med samtidig AF og ekstrakraniell/intrakraniell arteriell stenose |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [39862061](https://pubmed.ncbi.nlm.nih.gov/39862061/) | 2025 | RCT (trial design) | International Journal of Stroke | Design paper for the CAPTIVA trial: standard clopidogrel+aspirin for symptomatic intracranial atherosclerotic stenosis (ICAS) leaves high residual stroke risk up to 12 months; CAPTIVA tests whether alternative dual antithrombotic combinations (including ticagrelor) outperform clopidogrel+aspirin |
-| [38252758](https://pubmed.ncbi.nlm.nih.gov/38252758/) | 2024 | Review | Stroke | Focused update on intracranial atherosclerosis — introduces current knowledge gaps and highlights in ICAS management |
-| [39658130](https://pubmed.ncbi.nlm.nih.gov/39658130/) | 2025 | Cohort | Journal of NeuroInterventional Surgery | Real-world experience with ticagrelor 60 mg BID + aspirin 81 mg vs. standard aspirin+clopidogrel for neurointerventional procedures (intracranial stenting), suggesting ticagrelor as a viable DAPT alternative in this setting |
+| [39862061](https://pubmed.ncbi.nlm.nih.gov/39862061/) | 2025 | RCT (forsøksdesign) | International Journal of Stroke | Designpapir for CAPTIVA-forsøket: standard clopidogrel+aspirin for symptomatisk intrakraniell atherosclerotisk stenose (ICAS) etterlater høy residual slagrisiko opp til 12 måneder; CAPTIVA tester om alternative dual antitrombotiske kombinasjoner (inkludert ticagrelor) presterer bedre enn clopidogrel+aspirin |
+| [38252758](https://pubmed.ncbi.nlm.nih.gov/38252758/) | 2024 | Gjennomgang | Stroke | Fokusert oppdatering på intrakraniell atherosclerose — introduserer nåværende kunnskapshull og høydepunkter i ICAS-håndtering |
+| [39658130](https://pubmed.ncbi.nlm.nih.gov/39658130/) | 2025 | Kohorte | Journal of NeuroInterventional Surgery | Erfaring fra virkelig verden med ticagrelor 60 mg BID + aspirin 81 mg vs. standard aspirin+clopidogrel for neurointerventionelle prosedyrer (intrakraniell stenting), som foreslår ticagrelor som et praktisk DAPT-alternativ i denne settingen |
 
 ---
 
-## Norway Market Information
+## Markeds informasjon i Norge
 
-Ticagrelor is currently **not marketed in Norway** according to this dataset (market status: Not marketed / Not Marketed; total authorizations: 0). No product license records are available to summarize.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-drug interaction data were not available in this evidence pack (flagged as a **Blocking** data gap — TFDA/regulatory package insert has not yet been retrieved).
+Ticagrelor er for tiden **ikke markedsført i Norge** ifølge dette datasettet (markeds status: Ikke markedsført; totale godkjennelser: 0). Ingen produktlisensoppføringer er tilgjengelige å oppsummere.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetsbetraktninger
 
-**Decision: Proceed with Guardrails**
+Vær vennlig å se pakkeseddelen for sikkerhetsinformasjon. Viktige advarsler, kontraindikasjoner, og legemiddel-legemiddel interaksjonsdata var ikke tilgjengelige i denne bevissamlingen (flagget som et **Blokkering** datahull — TFDA/regulatorisk pakkeseddel har ikke blitt hentet ennå).
 
-**Rationale:**
-The mechanistic rationale is strong (shared platelet-dependent arterial thrombosis pathway between ACS and intracranial arteriosclerosis) and is already being tested in a large, ongoing Phase 3 RCT (CAPTIVA, n=1,683) specifically in this population. However, the intracranial vasculature carries materially higher bleeding/ICH risk than the coronary circulation, and confirmatory outcome data from CAPTIVA (expected completion 2027-01) is not yet available — so this cannot yet advance without additional safety guardrails.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications) — currently a **Blocking** data gap (DG001)
-- Confirmed structured MOA documentation from DrugBank (DG002)
-- CAPTIVA trial primary results (ischemic stroke/ICH/vascular death outcomes) once available
-- Intracranial-hemorrhage-specific risk stratification and monitoring plan before any clinical positioning
-- Confirmation of Norway/local market and licensing pathway, since the drug is currently unmarketed in this jurisdiction
+## Konklusjon og neste trinn
+
+**Beslutning: Gå videre med sikkerhetstiltak**
+
+**Begrunnelse:**
+Den mekanistiske begrunnelsen er sterk (delt plateletavhengig arteriell trombose-vei mellom AKS og intrakraniell arteriosclerose) og blir allerede testet i et stort, pågående fase 3 RCT (CAPTIVA, n=1,683) spesifikt i denne populasjonen. Imidlertid bærer intrakraniell vaskulatur vesentlig høyere blødnings-/ICH-risiko enn koronararkuleringen, og bekreftet utfallsdata fra CAPTIVA (forventet ferdigstillelse 2027-01) er ennå ikke tilgjengelig — så dette kan ikke gå videre uten ytterligere sikkerhetstiltak.
+
+**For å gå videre, er følgende nødvendig:**
+- TFDA/regulatorisk pakkeseddel (advarsler, kontraindikasjoner) — for tiden et **Blokkering** datahull (DG001)
+- Bekreftet strukturert MOA-dokumentasjon fra DrugBank (DG002)
+- CAPTIVA-forsøks primærresultater (iskemisk slag/ICH/vaskulær døds utfall) når de blir tilgjengelige
+- Intrakraniell blødningsspesifikk risikostratifisering og overvåkingsplan før noen klinisk posisjonering
+- Bekreftelse av Norge/lokale markeds- og lisensveier, siden legemidlet for tiden er umarkedsført i denne jurisdiksjonen
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

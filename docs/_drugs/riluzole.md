@@ -29,76 +29,77 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Riluzole: From Amyotrophic Lateral Sclerosis to Bilateral Parasagittal Parieto-Occipital Polymicrogyria
+# Riluzole: Fra amyotrofisk lateralsklerose til bilateral parasagittal parietooccipital polymikrogiri
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-Riluzole is the well-established treatment for amyotrophic lateral sclerosis (ALS), acting through inhibition of glutamate release and excitotoxicity in motor neurons. The TxGNN model's top-ranked prediction for this candidate is **Bilateral Parasagittal Parieto-Occipital Polymicrogyria**, a cortical developmental malformation, but this direction is currently supported by **0 clinical trials** and **0 publications** — it is a pure algorithmic signal with no biological or clinical corroboration.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Amyotrophic Lateral Sclerosis (ALS) — formal regulatory indication text unavailable; inferred from literature evidence in this pack |
-| Predicted New Indication | Bilateral Parasagittal Parieto-Occipital Polymicrogyria |
-| TxGNN Prediction Score | 99.99% (rank 112) |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Riluzole er den godt etablerte behandlingen for amyotrofisk lateralsklerose (ALS), som virker gjennom hemming av glutamatutskilling og eksitotoksisitet i motorneuroner. TxGNN-modellens høyest rangerte prediksjon for denne kandidaten er **Bilateral Parasagittal Parietooccipital Polymikrogiri**, en kortikal utviklingsmisdannelse, men denne retningen er for øyeblikket støttet av **0 kliniske forsøk** og **0 publikasjoner** — det er et rent algoritmisk signal uten biologisk eller klinisk understøtning.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigoversikt
 
-Detailed, formally sourced mechanism-of-action data is not available in this evidence pack (flagged as a High-severity data gap). However, literature evidence attached to a lower-ranked prediction in this same pack (PMID 21128691, 20942785, 31108504) consistently describes riluzole as a **glutamate release inhibitor / voltage-gated sodium channel blocker** that reduces excitotoxic injury to cortical and spinal motor neurons — the pharmacological basis for its FDA-approved use in ALS since 1995.
-
-The top-ranked predicted indication here, bilateral parasagittal parieto-occipital polymicrogyria, is a **cortical developmental malformation** rather than a neurodegenerative or excitotoxicity-driven disease. Per the evidence pack's own mechanistic assessment, there is **no clear pathophysiological link** between riluzole's glutamate-modulating action and cortical malformation biology — the rationale explicitly characterizes this as "screening noise" arising from a high TxGNN score without mechanistic support.
-
-By contrast, several other candidates within this same prediction set (e.g., rank 8, "amyotrophic lateral sclerosis, susceptibility to," which reached L1 evidence with 19 supporting publications) sit squarely within the ALS disease spectrum and share strong mechanistic plausibility with riluzole's known pharmacology. This top-ranked candidate does not.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Innhold |
+|-------|---------|
+| Opprinnelig indikasjon | Amyotrofisk lateralsklerose (ALS) — formell tekst for regulatorisk indikasjon utilgjengelig; utledet fra litteraturbevis i denne rapporten |
+| Predikert ny indikasjon | Bilateral Parasagittal Parietooccipital Polymikrogiri |
+| TxGNN prediksjonspoengsum | 99.99% (rang 112) |
+| Bevisnivå | L5 |
+| Markedsstatus Norge | ✗ Ikke på markedet |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvente |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+Detaljerte, formelt dokumenterte data om virkningsmekanisme er ikke tilgjengelig i denne bevisepakken (flagget som høy alvorligheitsgrad datamangel). Litteraturbevis knyttet til en lavere rangert prediksjon i samme pakke (PMID 21128691, 20942785, 31108504) beskriver konsistent riluzole som en **glutamaturskilling-hemmer / spenningsavhengig natriumkanalblokker** som reduserer eksitotoksisk skade på kortikal og spinal motorneuroner — det farmakologiske grunnlaget for dens FDA-godkjente bruk ved ALS siden 1995.
 
----
+Den høyest rangerte predikerte indikasjonen her, bilateral parasagittal parietooccipital polymikrogiri, er en **kortikal utviklingsmisdannelse** snarere enn en nevrodegenerativ eller eksitotoksisitetsdrevet sykdom. Ifølge bevisepakkens egen mekanistiske vurdering, er det **ingen klar patofysiologisk forbindelse** mellom riluzoles glutamatmoduleringsvirkning og patologi knyttet til kortikal misdannelse — begrunnelsen karakteriserer eksplisitt dette som «screeningsstøy» som oppstår fra en høy TxGNN-poengsum uten mekanistisk støtte.
 
-## Norway Market Information
-
-Riluzole is not currently marketed in this region, and no authorization records are available in this dataset (0 licenses on file).
+Derimot ligger flere andre kandidater innenfor samme prediksjonsett (f.eks. rang 8, «amyotrofisk lateralsklerose, mottakelighet for», som nådde L1-bevis med 19 støttende publikasjoner) direkte innenfor ALS-sykdomsspekteret og deler sterk mekanistisk sannsynlighet med riluzoles kjente farmakologi. Denne høyest rangerte kandidaten gjør ikke det.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske forsøk
 
-Please refer to the package insert for safety information.
-
-*(Note: This candidate carries a Blocking-severity data gap — TFDA/regulatory label warnings and contraindications have not yet been retrieved, which by internal scoring rules prevents entry into the S1 safety pre-screen stage.)*
+Ingen relaterte kliniske forsøk er for øyeblikket registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Ingen relatert litteratur er for øyeblikket tilgjengelig.
 
-**Rationale:**
-This prediction is supported only by a raw TxGNN similarity score (L5), with zero clinical trials, zero literature, and no plausible mechanistic connection between riluzole's glutamate-excitotoxicity pharmacology and a cortical malformation syndrome. The evidence pack's own rationale text labels this as likely algorithmic noise.
+---
 
-**To proceed, the following is needed:**
-- Preclinical/mechanistic studies establishing any biological rationale linking glutamate modulation to polymicrogyria pathophysiology
-- Formal mechanism-of-action documentation (currently a High-severity data gap)
-- TFDA/label-level warnings, contraindications, and DDI data (currently a Blocking-severity data gap preventing safety pre-screen)
-- Consider redirecting evaluation effort toward **rank 8 (ALS susceptibility)** within this same prediction set, which already reaches L1 evidence with 19 supporting publications and a "Proceed with Guardrails" recommendation — a substantially stronger candidate than the top-ranked entry reviewed here.
+## Markedsinformasjon Norge
+
+Riluzole er for øyeblikket ikke på markedet i denne regionen, og ingen autorisasjonsregistreringer er tilgjengelige i dette datasettet (0 lisenser på fil).
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+*(Merk: Denne kandidaten har en blokkering-alvorligheitsgrad datamangel — TFDA/regulatoriske merkingadvarsler og kontraindikasjoner er ikke ennå hentet, som etter interne scoringsregler forhindrer oppføring i sikkerhetspre-screeningsfasen S1.)*
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvente**
+
+**Begrunnelse:**
+Denne prediksjonen er støttet kun av en rå TxGNN-likhetsscore (L5), uten kliniske forsøk, uten litteratur, og uten plausibel mekanistisk forbindelse mellom riluzoles glutamat-eksitotoksisitet-farmakologi og et kortikal misdannelsessyndrom. Bevisepakkens egen begrunnelsestekst merker dette som sannsynligvis algoritmisk støy.
+
+**For å fortsette er følgende nødvendig:**
+- Prekliniske/mekanistiske studier som etablerer en biologisk begrunnelse som knytter glutamatmodulering til polymikrogiri-patofysiologi
+- Formell dokumentasjon av virkningsmekanisme (for øyeblikket en høy alvorligheitsgrad datamangel)
+- TFDA/merkingsnivå advarsler, kontraindikasjoner og DDI-data (for øyeblikket en blokkering-alvorligheitsgrad datamangel som forhindrer sikkerhetspre-screening)
+- Vurder å omdirigere evalueringsinnsats mot **rang 8 (ALS-mottakelighet)** innenfor samme prediksjonsett, som allerede når L1-bevis med 19 støttende publikasjoner og en «Fortsett med sikringsmekanismer»-anbefaling — en vesentlig sterkere kandidat enn den høyest rangerte oppføringen som er gjennomgått her.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

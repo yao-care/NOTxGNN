@@ -29,63 +29,64 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Rufinamide: From Lennox-Gastaut Syndrome to Febrile Infection-Related Epilepsy Syndrome
+# Rufinamid: Fra Lennox-Gastaut-syndrom til febril infeksjonsrelatert epilepsi-syndrom
 
-## One-Sentence Summary
+## Sammendrag på en setning
 
-> Rufinamide is a triazole-derivative anticonvulsant; within this evidence pack, its established role is referenced only indirectly as basis therapy for Lennox-Gastaut syndrome (the formal `original_indications` field is empty).
-> The TxGNN model predicts it may be effective for **febrile infection-related epilepsy syndrome (FIRES)**,
-> but this is currently supported by **0 clinical trials** and **0 publications** — the prediction score alone.
+> Rufinamid er et triazol-derivat antikonvulsivum; innen denne bevissamlingen refereres dets etablerte rolle kun indirekte som basisbehandling for Lennox-Gastaut-syndrom (feltet `original_indications` er tomt).
+> TxGNN-modellen forutsier at det kan være effektivt for **febril infeksjonsrelatert epilepsi-syndrom (FIRES)**,
+> men dette støttes for øyeblikket av **0 kliniske studier** og **0 publikasjoner** — bare prediksjonsscoren.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not confirmed in evidence pack (`original_indications` is empty); Lennox-Gastaut syndrome is referenced only within the rank-5 rationale text, pending TFDA label confirmation (DG001) |
-| Predicted New Indication | Febrile infection-related epilepsy syndrome (FIRES) |
-| TxGNN Prediction Score | 99.57% |
-| Evidence Level | L5 (model prediction only — no clinical trials or literature identified) |
-| Norway Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Ikke bekreftet i bevissamlingen (`original_indications` er tomt); Lennox-Gastaut-syndrom refereres kun innen rang-5-begrunnelsesteksten, venter TFDA-merketbekreftelse (DG001) |
+| Forutsagt ny indikasjon | Febril infeksjonsrelatert epilepsi-syndrom (FIRES) |
+| TxGNN-prediksjonspoengsum | 99,57 % |
+| Bevisnivå | L5 (modellprediksjon kun — ingen kliniske studier eller litteratur identifisert) |
+| Markedsstatus i Norge | Ikke markedsført (Ikke markedsført) |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed mechanism-of-action (MOA) data for rufinamide is not available in this evidence pack — this is flagged as a High-severity data gap (DG002). Within the pack's own text, rufinamide's use in Lennox-Gastaut syndrome (LGS) — a severe childhood epileptic encephalopathy frequently involving epileptic spasms and multiple seizure types — is cited as existing "indication basis" (see rank-5 rationale), and the drug's presumed broad-spectrum sodium-channel modulation is used elsewhere in the pack to argue plausibility for related syndromes.
+Detaljerte data om virkningsmekanisme (MOA) for rufinamid er ikke tilgjengelige i denne bevissamlingen — dette er flagget som et datahull med høy alvorlighetsgrad (DG002). Innen pakkets egen tekst siteres rufinamids bruk ved Lennox-Gastaut-syndrom (LGS) — en alvorlig barneepileptisk ensefalopati som ofte involverer epileptiske spasmer og flere krampeanfallstyper — som eksisterende «indikasjonsbasis» (se rang-5-begrunnelse), og legemidlets antatte bredt spektrum natriumkanalmodulasjon brukes ellers i pakken til å argumentere for plausibilitet for relaterte syndromer.
 
-For the top-ranked candidate, febrile infection-related epilepsy syndrome (FIRES), the pack does not yet contain a specific mechanistic rationale (`mechanistic_link`/`similarity_to_original` are marked "pending"). FIRES is a rare, severe epileptic encephalopathy triggered by febrile illness that frequently progresses to super-refractory status epilepticus and is often treated with agents effective in other refractory epileptic encephalopathies. Given rufinamide's referenced role in LGS and the sodium-channel mechanism invoked for adjacent candidates in this same pack, extension to FIRES is mechanistically plausible in principle — but currently this rests solely on the TxGNN score, with no confirmatory trial, ICTRP, or literature evidence.
+For den topprankede kandidaten, febril infeksjonsrelatert epilepsi-syndrom (FIRES), inneholder pakken ennå ikke en spesifikk mekanistisk begrunnelse (`mechanistic_link`/`similarity_to_original` er merket «venter»). FIRES er en sjelden, alvorlig epileptisk ensefalopati utløst av febril sykdom som ofte progrederer til superrefraktær status epilepticus og behandles ofte med midler som er effektive ved andre refraktære epileptiske ensef alopatier. Gitt rufinamids refererte rolle i LGS og natriumkanalmekanismen som er påberopt for tilstøtende kandidater i denne samme pakken, er utvidelse til FIRES mekanistisk plausibel i prinsippet — men for øyeblikket hviler dette utelukkende på TxGNN-scoren, uten noen bekreftelses-studie, ICTRP- eller litteraturbevis.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske studier
 
-Currently no related clinical trials registered.
+For øyeblikket er ingen relaterte kliniske studier registrert.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+For øyeblikket er ingen relatert litteratur tilgjengelig.
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Rufinamide is not currently marketed and has zero authorizations on file (`total_licenses: 0`, `licenses: []`) — no marketing-authorization table can be generated from this evidence pack.
+Rufinamid er for øyeblikket ikke markedsført og har null autorisasjoner på fil (`total_licenses: 0`, `licenses: []`) — ingen markedsføringsautorisasjonstabell kan genereres fra denne bevissamlingen.
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Se pakningsvedlegget for sikkerhetsinformasjon.
 
-> **Data gap note:** TFDA/product-label warnings and contraindications are marked as a **Blocking** data gap (DG001) — per the evidence pack, this specifically prevents entry into the S1 safety initial-assessment stage. No key warnings, contraindications, or DDI records are currently on file (`ddi.query_status: not_found`).
+> **Datahull-notat:** TFDA/produktmerke-advarsler og kontraindikaser er merket som et **blokkerende** datahull (DG001) — i henhold til bevissamlingen, forhindrer dette spesifikt inngang til S1-sikkerhetsinitialbedømmingsstadiet. Ingen viktige advarsler, kontraindikaser eller DDI-poster er for øyeblikket på fil (`ddi.query_status: not_found`).
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-The top-ranked indication (FIRES) has Evidence Level L5 — a TxGNN score with zero supporting trials or literature — and the drug is unmarketed with a blocking data gap on safety labeling (DG001), which by itself prevents any S1 safety assessment.
+**Begrunnelse:**
+Topprankede indikasjon (FIRES) har bevisnivå L5 — en TxGNN-poengsum med null støttende studier eller litteratur — og legemidlet er umarkedsført med et blokkerende datahull på sikkerhetsmerkingen (DG001), som i seg selv forhindrer enhver S1-sikkerhetsbedømmelse.
 
-**To proceed, the following is needed:**
-- TFDA product label (warnings/contraindications) — resolves DG001, currently blocking
-- Confirmed mechanism of action via DrugBank API — resolves DG002
-- Confirmation of rufinamide's actual original approved indication(s), since `original_indications` is currently empty
-- Targeted literature/clinical-trial search specific to FIRES to move beyond L5
-- Regulatory pathway assessment, given zero current market authorizations
+**For å fortsette, er følgende nødvendig:**
+- TFDA produktmerke (advarsler/kontraindikaser) — løser DG001, for øyeblikket blokkert
+- Bekreftet virkningsmekanisme via DrugBank API — løser DG002
+- Bekreftelse av rufinamids faktiske originale godkjente indikasjon(er), siden `original_indications` er for øyeblikket tomt
+- Målrettet litteratur-/klinisk-studie-søk spesifikk for FIRES for å gå utover L5
+- Vurdering av regulatorisk vei, gitt null gjeldende markedsautorisasjoner
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

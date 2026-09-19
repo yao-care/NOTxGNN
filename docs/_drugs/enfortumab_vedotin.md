@@ -29,106 +29,107 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Enfortumab Vedotin: From Unspecified Original Indication to Leprosy (Low-Confidence Signal)
+# Enfortumab vedotin: Fra uspesifisert originalindikasjon til lepra (signal med lav sikkerhet)
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-Enfortumab vedotin is an antibody-drug conjugate (ADC) targeting Nectin-4; this evidence pack does not include its original regulatory indication or mechanism-of-action data. TxGNN's top-ranked prediction is **Leprosy** (score 99.53%), but there are **zero clinical trials and zero publications** supporting this signal, and the model's own mechanistic rationale flags it as probable graph noise rather than a genuine biological relationship. All 9 predicted indications in this pack carry a **Hold** recommendation.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not provided (no license/regulatory data; drug not marketed) |
-| Predicted New Indication | Leprosy |
-| TxGNN Prediction Score | 99.53% |
-| Evidence Level | L5 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Enfortumab vedotin er et antistoff-medikament-konjugat (ADC) som retter seg mot Nectin-4; denne bevis-pakken inneholder ikke dets oprindelige regulatoriske indikasjon eller mekanisme-for-virkning-data. TxGNNs høyeste rangerte prediksjon er **lepra** (score 99.53%), men det finnes **null kliniske forsøk og null publikasjoner** som støtter dette signalet, og modellens eget mekanistiske begrunnelse markerer det som sannsynlig grafstøy snarere enn en genuin biologisk sammenheng. Alle 9 predikerte indikasjoner i denne pakken har en **Avvent**-anbefaling.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available for enfortumab vedotin in this evidence pack. Based on the literature evidence that is present (a 2025 FAERS pharmacovigilance study on ADCs in bladder cancer), the drug's real-world use context appears to be an anti-Nectin-4 antibody-drug conjugate delivering the cytotoxic payload MMAE (monomethyl auristatin E) in advanced bladder cancer — but this is inferred from a safety-signal paper, not confirmed regulatory or indication data.
-
-For the top-ranked prediction, **leprosy**, no mechanistic link exists between Nectin-4 targeting or a microtubule-disrupting cytotoxin and *Mycobacterium leprae* infection. The rationale accompanying this prediction states explicitly: *"Enfortumab vedotin is an anti-Nectin-4 ADC (MMAE payload); there is no known mechanism explaining efficacy against leprosy infection. The high TxGNN score likely reflects lack of biological grounding and may represent knowledge-graph noise."*
-
-This same pattern repeats across all 9 predictions in this pack: multiple endocrine neoplasia, cerebral infarction, HIV, homozygous familial hypercholesterolemia, and two veterinary/non-human diseases (infectious bovine rhinotracheitis, malignant catarrh) all lack any plausible mechanistic connection to an ADC cytotoxic payload. The one indication with literature support, candidiasis, is contradicted by the direction of the evidence — the cited paper describes ADC-associated immunosuppression as an **adverse-event risk signal**, not a therapeutic rationale. Taken together, this cluster of predictions does not currently support any repurposing hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Ikke oppgitt (ingen lisens-/regulatoriske data; medikament ikke markedsført) |
+| Predikert ny indikasjon | Lepra |
+| TxGNN prediksjons score | 99.53% |
+| Bevis nivå | L5 |
+| Status på norsk marked | Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available for the top-ranked indication (leprosy).
+For tiden er det ikke tilgjengelig detaljert mekanisme-for-virkning-data for enfortumab vedotin i denne bevis-pakken. Basert på litteraturbeviset som er tilstede (en 2025 FAERS farmakovigilans-studie om ADC-er i blærekreft), synes medikamentets virkelige brukskontekst å være et anti-Nectin-4-antistoff-medikament-konjugat som leverer den cytotoksiske lasten MMAE (monomethyl auristatin E) i avansert blærekreft — men dette er utledet fra en sikkerhetssignal-artikkel, ikke bekreftet regulatorisk eller indikasjondata.
 
----
+For topprangerte prediksjon, **lepra**, eksisterer det ingen mekanistisk sammenheng mellom Nectin-4-targeting eller en mikrotubuli-forstyrrende cytotoksin og *Mycobacterium leprae*-infeksjon. Begrunnelsen som følger med denne prediksjonen uttaler eksplisitt: *"Enfortumab vedotin er en anti-Nectin-4 ADC (MMAE last); det er ingen kjent mekanisme som forklarer effektivitet mot lepra-infeksjon. Den høye TxGNN-scoren gjenspeiler sannsynligvis mangel på biologisk grunnlag og kan representere kunnskapsgraff-støy."*
 
-## All Predicted Indications (Ranked Summary)
-
-Because this evidence pack evaluates multiple low-confidence signals for the same drug, the full ranked set is summarized below rather than a single indication in isolation.
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Note |
-|------|----------------------|-------------|-----------------|------|
-| 1 | Leprosy | 99.53% | L5 | No mechanistic basis; likely graph noise |
-| 2 | Multiple endocrine neoplasia | 99.43% | L5 | No mechanistic basis |
-| 3 | Cytomegalovirus infection | 99.36% | L5 | Any ADC-related link would be immunosuppression risk, not therapeutic benefit |
-| 4 | Candidiasis | 99.30% | L4 | Sole literature (FAERS study) describes ADC-associated infection risk, not treatment efficacy — evidence direction contradicts prediction |
-| 5 | Cerebral infarction | 99.23% | L5 | No mechanistic basis |
-| 6 | HIV infectious disease | 99.19% | L5 | No mechanistic basis |
-| 7 | Homozygous familial hypercholesterolemia | 99.18% | L5 | No mechanistic basis |
-| 8 | Infectious bovine rhinotracheitis | 99.13% | L5 | Non-human (veterinary) disease |
-| 9 | Malignant catarrh | 99.13% | L5 | Non-human (veterinary) disease |
+Dette samme mønsteret gjentar seg på tvers av alle 9 prediksjoner i denne pakken: multipel endokrin neoplasi, hjerneinfarkt, HIV, homozygøs familær hyperkolesterolemi, og to veterinær-/ikke-menneske-sykdommer (infeksiøs bovint rhinotracheitis, ondartete katarrh) mangler alle enhver plausibel mekanistisk sammenheng med en ADC cytotoksisk last. Den ene indikasjonen med litteraturstøtte, candidose, motsies av bevisenes retning — den siterte artikkelen beskriver ADC-assosiert immunsuppresjon som et **risikosignal for uønskede hendelser**, ikke en terapeutisk begrunnelse. Samlet sett støtter denne klyngen av prediksjoner ikke for tiden noen omdirigerings-hypotese.
 
 ---
 
-## Norway Market Information
+## Bevis fra kliniske forsøk
 
-The drug is not marketed and has no registered authorizations in this dataset (0 licenses).
-
----
-
-## Cytotoxicity
-
-Based on drug-class inference from the available literature (ADC context in bladder cancer), enfortumab vedotin is treated as an antineoplastic agent for this section.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (antibody-drug conjugate delivering an MMAE cytotoxic payload) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+For tiden er det ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information.
+For tiden er det ingen relatert litteratur tilgjengelig for topprangerte indikasjon (lepra).
 
 ---
 
-## Conclusion and Next Steps
+## Alle predikerte indikasjoner (rangert oppsummering)
 
-**Decision: Hold**
+Fordi denne bevis-pakken evaluerer flere signaler med lav sikkerhet for samme medikament, oppsummeres det fullstendige rangerte settet nedenfor snarere enn en enkelt indikasjon isolert.
 
-**Rationale:**
-No clinical trial or literature evidence supports any of the 9 predicted indications above L4, and the highest-scoring prediction (leprosy) has an explicitly stated lack of biological plausibility. The one candidate with supporting literature (candidiasis) is contradicted in direction — the evidence describes a safety risk, not a treatment rationale. Combined with missing original indication and MOA data, this candidate does not meet the threshold to advance past S0.
+| Rangering | Predikert indikasjon | TxGNN score | Bevis nivå | Merknad |
+|-----------|----------------------|-------------|-----------|--------|
+| 1 | Lepra | 99.53% | L5 | Ingen mekanistisk grunnlag; sannsynligvis grafstøy |
+| 2 | Multipel endokrin neoplasi | 99.43% | L5 | Ingen mekanistisk grunnlag |
+| 3 | Cytomegalovirus-infeksjon | 99.36% | L5 | Enhver ADC-relatert sammenheng ville være immunsuppresjon-risiko, ikke terapeutisk fordel |
+| 4 | Candidose | 99.30% | L4 | Eneste litteratur (FAERS-studie) beskriver ADC-assosiert infeksjonsrisiko, ikke behandlingseffektivitet — bevisenes retning motsier prediksjonen |
+| 5 | Hjerneinfarkt | 99.23% | L5 | Ingen mekanistisk grunnlag |
+| 6 | HIV infeksjonssykdom | 99.19% | L5 | Ingen mekanistisk grunnlag |
+| 7 | Homozygøs familær hyperkolesterolemi | 99.18% | L5 | Ingen mekanistisk grunnlag |
+| 8 | Infeksiøs bovint rhinotracheitis | 99.13% | L5 | Ikke-menneske (veterinær) sykdom |
+| 9 | Ondartete katarrh | 99.13% | L5 | Ikke-menneske (veterinær) sykdom |
 
-**To proceed, the following is needed:**
-- TFDA/regulatory label (warnings, contraindications) — currently a **Blocking** data gap (DG001); required before any S1 safety screening
-- Confirmed mechanism of action data from DrugBank — currently a **High** severity gap (DG002)
-- Original indication and regulatory history for the drug
-- If any of these 9 signals are to be pursued further, dedicated literature/clinical-trial searches specific to that disease-drug pair, since none currently exist beyond the single (contradictory) candidiasis reference
+---
+
+## Norsk markedsinformasjon
+
+Medikamentet er ikke markedsført og har ingen registrerte godkjenninger i dette datasettet (0 lisenser).
+
+---
+
+## Cytotoksisitet
+
+Basert på klassifisering av medikamentgruppen fra den tilgjengelige litteraturen (ADC-kontekst i blærekreft), behandles enfortumab vedotin som et antineoplastisk stoff for denne delen.
+
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitets klassifisering | Målrettet terapi (antistoff-medikament-konjugat som leverer en MMAE cytotoksisk last) |
+| Myelosuppresjon risiko | Se pakningsvedlegg for advarsler og forholdsregler |
+| Emetogenisitets klassifisering | Se pakningsvedlegg for advarsler og forholdsregler |
+| Overvåkings elementer | Se pakningsvedlegg for advarsler og forholdsregler |
+| Håndterings beskyttelse | Se pakningsvedlegg for advarsler og forholdsregler |
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegg for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Ingen klinisk forsøk eller litteraturbevis støtter noen av de 9 predikerte indikasjonene over L4, og den høyeste scorede prediksjonen (lepra) har en eksplisitt angitt mangel på biologisk plausibilitet. Den ene kandidaten med støttende litteratur (candidose) motsies i retning — beviset beskriver en sikkerheitsrisiko, ikke en terapeutisk begrunnelse. Kombinert med manglende originalindikasjon og MOA-data, oppfyller denne kandidaten ikke terskelen for å gå videre forbi S0.
+
+**For å gå videre er følgende nødvendig:**
+- TFDA/regulatorisk etikett (advarsler, kontraindikasjoner) — for tiden en **Blokkerende** datakløft (DG001); påkrevd før noen S1 sikkerhetskontroll
+- Bekreftet mekanisme-for-virkning-data fra DrugBank — for tiden en **Høy** alvorlighetsgrad kløft (DG002)
+- Originalindikasjon og regulatorisk historie for medikamentet
+- Hvis noen av disse 9 signalene skal forfølges videre, dedikerte litteratur-/kliniske-forsøks-søk spesifikk for det sykdom-medikament-par, siden ingen for tiden eksisterer utover den enkle (motstridende) candidose-referansen
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

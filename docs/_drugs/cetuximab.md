@@ -29,138 +29,139 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Cetuximab: From Anti-EGFR Oncology Therapy to Bronchial Adenomas/Carcinoids, Childhood
+# Cetuximab: Fra anti-EGFR onkologiterapi til bronkiale adenomer/karsinoider, barnealder
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-> Cetuximab is an anti-EGFR chimeric monoclonal antibody; this evidence pack does not contain a Taiwan-approved indication text or formal MOA record (both flagged as data gaps), but the embedded trial/literature background consistently identifies it as an established therapy for EGFR-overexpressing head and neck squamous cell carcinoma (HNSCC) and metastatic colorectal cancer (mCRC).
-> The TxGNN model's top-ranked prediction is **Bronchial Adenomas/Carcinoids, Childhood**, but this candidate is currently supported by **0 clinical trials** and **0 publications** — it is a pure model prediction (L5).
-> Two other candidates further down the ranked list (**Cystic Neoplasm** and **Pre-malignant Neoplasm**) have meaningfully stronger evidence (L2, Research Question stage) and are summarized separately below.
+> Cetuximab er en anti-EGFR-kimerisk monoklonal antistoff; denne evidenspakken inneholder ikke en Taiwan-godkjent indikasjonsfremstilling eller formell MOA-journal (begge flagget som datakløfter), men den innebygde studie-/litteratursammenhengen identifiserer det konsistent som en etablert terapi for EGFR-overeksprimerende plateepitelkarsinom av hode og nakke (HNSCC) og metastatisk kolorektal kreft (mCRC).
+> TxGNN-modellens topprangerte prediksjon er **Bronkiale adenomer/karsinoider, barnealder**, men denne kandidaten er for tiden støttet av **0 kliniske studier** og **0 publikasjoner** — det er en ren modellprediksjon (L5).
+> To andre kandidater lenger ned på den rangerte listen (**Cystisk neoplasme** og **Premalignt neoplasme**) har meningsfullt sterkere evidens (L2, Research Question-fase) og er oppsummert separat nedenfor.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Punkt | Innhold |
 |------|------|
-| Original Indication | Not specified in Taiwan regulatory data (no local market license on file). Internationally, cetuximab is an established anti-EGFR therapy for HNSCC and RAS/BRAF wild-type mCRC, as referenced throughout the embedded trial/literature background of this pack. |
-| Predicted New Indication | Bronchial Adenomas/Carcinoids, Childhood |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Taiwan Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Ikke spesifisert i Taiwan-regulatoriske data (ingen lokal markedslisens på fil). Internasjonalt er cetuximab en etablert anti-EGFR-terapi for HNSCC og RAS/BRAF villtype mCRC, som referanser gjennom hele den innebygde studie-/litteratursammenhengen i denne pakken. |
+| Predikert ny indikasjon | Bronkiale adenomer/karsinoider, barnealder |
+| TxGNN-prediksjonspoengsum | 99.95% |
+| Evidensnivå | L5 (kun modellprediksjon, ingen støttestudier) |
+| Taiwan markedsstatus | Ikke markedsført (Not marketed) |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data for cetuximab is not available in this evidence pack (data gap DG002). Based on the background context embedded across the trial and literature evidence in this pack, cetuximab is known to be a chimeric IgG1 monoclonal antibody that blocks the epidermal growth factor receptor (EGFR), and its efficacy has been established in EGFR-overexpressing tumors — chiefly HNSCC and mCRC — through decades of trials referenced throughout this dataset (e.g., NCT00265941, NCT01302834, NCT00056030).
+For tiden er detaljert virkningsmåtsinformasjon for cetuximab ikke tilgjengelig i denne evidenspakken (datakløft DG002). Basert på bakgrunnskonteksten som er innebygd på tvers av studie- og litteraturbevisene i denne pakken, er cetuximab kjent for å være en kimerisk IgG1-monoklonal antistoff som blokkerer epidermis vekstfaktorreceptor (EGFR), og effektiviteten er etablert i EGFR-overeksprimerende tumorer — først og fremst HNSCC og mCRC — gjennom tiår av studier referanset gjennom dette datasettet (f.eks. NCT00265941, NCT01302834, NCT00056030).
 
-For the top-ranked candidate specifically, the model's own rationale is explicit that the mechanistic link is **weak**: bronchial adenomas/carcinoids of childhood are neuroendocrine tumors, not a typical EGFR-driven malignancy, and the pediatric population lacks any cetuximab safety data. In other words, this is the case where a high TxGNN similarity score does not correspond to a plausible biological mechanism — the prediction should be treated as hypothesis-generating only, not as a candidate for further development at this time.
+For den topprangerte kandidaten spesifikt er modellens egen begrunnelse eksplisitt at den mekanistiske forbindelsen er **svak**: bronkiale adenomer/karsinoider i barndommen er neuroendokrine tumorer, ikke en typisk EGFR-drevet ondartelse, og barnepopulasjonen mangler sikkerhetdata for cetuximab. Med andre ord er dette tilfellet der en høy TxGNN-likhetsscore ikke tilsvarer en plausibel biologisk mekanisme — prediksjonen bør behandles som kun hypotesegenerering, ikke som en kandidat for videre utvikling på dette tidspunktet.
 
-By contrast, further down the ranked list, two candidates show a much more coherent mechanistic story consistent with cetuximab's known EGFR-blockade action: **adenoid cystic carcinoma** (within the "cystic neoplasm" category) and **chemoprevention of EGFR-overexpressing pre-malignant upper aerodigestive lesions** (within "pre-malignant neoplasm"). These are discussed in the overview section below.
-
----
-
-## Clinical Trial Evidence (Top-Ranked Candidate: Bronchial Adenomas/Carcinoids, Childhood)
-
-Currently no related clinical trials registered.
+Derimot viser to kandidater lenger ned på den rangerte listen en meget mer sammenhengende mekanistisk historie i samsvar med cetuximabs kjente EGFR-blokkadeaksjon: **adenoid cystisk karsinom** (innen kategorien «cystisk neoplasme») og **kjemoprevensjon av EGFR-overeksprimerende premalignte øvre aerodigestive lesjoner** (innen kategorien «premalignt neoplasme»). Disse diskuteres i oversiktsseksjonen nedenfor.
 
 ---
 
-## Literature Evidence (Top-Ranked Candidate: Bronchial Adenomas/Carcinoids, Childhood)
+## Klinisk studie-evidens (topprangerte kandidat: Bronkiale adenomer/karsinoider, barnealder)
 
-Currently no related literature available.
-
----
-
-## Taiwan Market Information
-
-No Taiwan market authorizations are on file for cetuximab in this evidence pack (`total_licenses = 0`, `market_status = Not marketed`).
+For tiden ingen relaterte kliniske studier registrert.
 
 ---
 
-## Other Predicted Indications in This Evidence Pack
+## Litteratur-evidens (topprangerte kandidat: Bronkiale adenomer/karsinoider, barnealder)
 
-This evidence pack contains 10 TxGNN-predicted indications for cetuximab, ranging from L5 (no supporting evidence) to L2 (Phase II trial + review-level literature support). For completeness and to avoid burying stronger signals, all 10 are summarized below.
+For tiden ingen relatert litteratur tilgjengelig.
 
-| Rank | Disease | TxGNN Score | Evidence Level | Decision Stage | Recommendation | Trials | Literature |
+---
+
+## Taiwan markedsinformasjon
+
+Ingen Taiwan-markedsgodkjenninger er på fil for cetuximab i denne evidenspakken (`total_licenses = 0`, `market_status = Not marketed`).
+
+---
+
+## Andre predikerte indikasjoneri denne evidenspakken
+
+Denne evidenspakken inneholder 10 TxGNN-predikerte indikasjoneri for cetuximab, varierende fra L5 (ingen støtteevidenserer) til L2 (fase II-studie + gjennomgangs-nivå litteraturstøtte). For fullstendighet og for å unngå å begrave sterkere signaler, er alle 10 oppsummert nedenfor.
+
+| Rangering | Sykdom | TxGNN poengsum | Evidensnivå | Beslutningsfase | Anbefaling | Studier | Litteratur |
 |------|---------|------|------|------|------|------|------|
-| 1 | Bronchial adenomas/carcinoids, childhood | 99.95% | L5 | S0 | Hold | 0 | 0 |
-| 2 | Non-seminomatous lesion | 99.95% | L5 | S0 | Hold | 0 | 0 |
-| 3 | Ductal or ductular proliferation | 99.95% | L4 | S0 | Hold | 0 | 20 |
-| 4 | Chondroid hamartoma | 99.95% | L5 | S0 | Hold | 0 | 0 |
-| 5 | Tumor of testis and paratestis | 99.95% | L5 | S0 | Hold | 0 | 0 |
-| 6 | Odontogenic cyst | 99.95% | L4 | S0 | Hold | 0 | 2 |
-| 7 | Thyroglossal duct cyst | 99.95% | L5 | S0 | Hold | 0 | 0 |
-| **8** | **Cystic neoplasm** | 99.95% | **L2** | **S2** | **Research Question** | **5** | **20** |
-| 9 | Epiglottis neoplasm | 99.95% | L5 | S1 | Research Question | 0 | 0 |
-| **10** | **Pre-malignant neoplasm** | 99.95% | **L2** | **S2** | **Research Question** | **~50** | **2** |
+| 1 | Bronkiale adenomer/karsinoider, barnealder | 99.95% | L5 | S0 | Hold | 0 | 0 |
+| 2 | Ikke-seminomatøs lesjon | 99.95% | L5 | S0 | Hold | 0 | 0 |
+| 3 | Duktalt eller duktuløst proliferasjon | 99.95% | L4 | S0 | Hold | 0 | 20 |
+| 4 | Kondroidt hamartom | 99.95% | L5 | S0 | Hold | 0 | 0 |
+| 5 | Tumor av testis og paratestis | 99.95% | L5 | S0 | Hold | 0 | 0 |
+| 6 | Odontogen cyste | 99.95% | L4 | S0 | Hold | 0 | 2 |
+| 7 | Thyroglossal gangsyste | 99.95% | L5 | S0 | Hold | 0 | 0 |
+| **8** | **Cystisk neoplasme** | 99.95% | **L2** | **S2** | **Forskningsspørsmål** | **5** | **20** |
+| 9 | Epiglottis neoplasme | 99.95% | L5 | S1 | Forskningsspørsmål | 0 | 0 |
+| **10** | **Premalignt neoplasme** | 99.95% | **L2** | **S2** | **Forskningsspørsmål** | **~50** | **2** |
 
-### Notable candidate — Cystic Neoplasm (Rank 8)
+### Bemerkelsesverdig kandidat — Cystisk neoplasme (rangering 8)
 
-The strongest single piece of evidence in this pack is a directly matched Phase I/II trial for adenoid cystic carcinoma (a "cystic neoplasm" subtype):
+Det sterkeste enkeltbeviset i denne pakken er en direkte samsvarende fase I/II-studie for adenoid cystisk karsinom (en «cystisk neoplasme»-undertype):
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studienummer | Fase | Status | Rekruttering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT01192087](https://clinicaltrials.gov/study/NCT01192087) | Phase 1/2 | Unknown | 49 | ACCEPT trial: cetuximab + IMRT + carbon-ion boost for adenoid cystic carcinoma; graded "A" relevance in the source evidence pack |
+| [NCT01192087](https://clinicaltrials.gov/study/NCT01192087) | Fase 1/2 | Ukjent | 49 | ACCEPT-studie: cetuximab + IMRT + karbon-ion-boost for adenoid cystisk karsinom; gradert «A»-relevans i kildeevidensepakken |
 
-Supporting literature (RCT/prospective evidence prioritized):
+Støttelitteratur (RCT/prospektiv evidens prioritert):
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [18804410](https://pubmed.ncbi.nlm.nih.gov/18804410/) | 2009 | Phase II prospective trial | Oral Oncology | Cetuximab monotherapy in recurrent/metastatic salivary gland carcinomas (23 adenoid cystic carcinoma patients); clinical benefit rate reported |
-| [18366287](https://pubmed.ncbi.nlm.nih.gov/18366287/) | 2008 | Review | Expert Rev Anticancer Ther | Systemic therapy options, including anti-EGFR agents, for recurrent/metastatic salivary gland cancers |
-| [22144378](https://pubmed.ncbi.nlm.nih.gov/22144378/) | 2013 | Case report | Head & Neck | Metastatic adenoid cystic carcinoma responding to cetuximab + weekly paclitaxel after paclitaxel-alone failure |
+| [18804410](https://pubmed.ncbi.nlm.nih.gov/18804410/) | 2009 | Fase II prospektiv studie | Oral Oncology | Cetuximab-monoterapi ved gjentakende/metastatisk spyttkjertelkarsinom (23 adenoid cystisk karsinom-pasienter); klinisk responssats rapportert |
+| [18366287](https://pubmed.ncbi.nlm.nih.gov/18366287/) | 2008 | Gjennomgang | Expert Rev Anticancer Ther | Systemisk terapialternativer, inkludert anti-EGFR-agenser, for gjentakende/metastatisk spyttkjertelkarsinom |
+| [22144378](https://pubmed.ncbi.nlm.nih.gov/22144378/) | 2013 | Kasusrapport | Head & Neck | Metastatisk adenoid cystisk karsinom som responderer på cetuximab + ukentlig paclitaxel etter paclitaxel-monoterapisvikt |
 
-### Notable candidate — Pre-malignant Neoplasm (Rank 10)
+### Bemerkelsesverdig kandidat — Premalignt neoplasme (rangering 10)
 
-A dedicated single-agent Phase II trial exists in high-risk pre-malignant upper aerodigestive lesions, plus a review directly addressing EGFR-targeted chemoprevention:
+En dedikert enkeltagens fase II-studie eksisterer i høyrisikopremalignte øvre aerodigestive lesjoner, pluss en gjennomgang som direkte adresserer EGFR-målrettet kjemoprevensjon:
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studienummer | Fase | Status | Rekruttering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT00524017](https://clinicaltrials.gov/study/NCT00524017) | Phase 2 | Completed | 35 | Single-agent cetuximab in high-risk pre-malignant upper aerodigestive lesions |
+| [NCT00524017](https://clinicaltrials.gov/study/NCT00524017) | Fase 2 | Fullført | 35 | Enkeltagens cetuximab i høyrisiko-premalignte øvre aerodigestive lesjoner |
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [24412287](https://pubmed.ncbi.nlm.nih.gov/24412287/) | 2014 | Review | Oral Oncology | EGFR is overexpressed in oral pre-malignant lesions; discusses EGFR-targeted chemoprevention rationale for HNSCC |
+| [24412287](https://pubmed.ncbi.nlm.nih.gov/24412287/) | 2014 | Gjennomgang | Oral Oncology | EGFR er overeksprimert i orale premalignte lesjoner; diskuterer EGFR-målrettet kjemoprevensjon-rasjonale for HNSCC |
 
-**Important caveat:** as the source rationale notes, the majority of the ~50 trials tagged to this candidate (e.g., NCT00956007, NCT05959356, NCT00056030) actually enrolled patients with **already-diagnosed** HNSCC/CRC rather than true pre-malignant lesions. Only NCT00524017 is a genuine chemoprevention trial. This distinction matters because treatment-population risk/benefit does not transfer directly to a chemoprevention setting.
+**Viktig forbehold:** som kilderasjonaliseringen bemerker, er flertallet av de ~50 studiene merket til denne kandidaten (f.eks. NCT00956007, NCT05959356, NCT00056030) faktisk rekruttert pasienter med **allerede diagnostisert** HNSCC/CRC i stedet for ekte premalignte lesjoner. Bare NCT00524017 er en genuin kjemoprevensjon-studie. Denne distinksjonen er viktig fordi risiko/nytte-profilen i behandlingspopulasjonen overføres ikke direkte til en kjemoprevensjon-setting.
 
 ---
 
-## Cytotoxicity
+## Cytotoksisitet
 
-Cetuximab is an antineoplastic agent (anti-EGFR monoclonal antibody used in HNSCC/mCRC per the embedded trial background), so this section applies.
+Cetuximab er et antineoplastisk middel (anti-EGFR-monoklonal antistoff brukt i HNSCC/mCRC per den innebygde studie-bakgrunnen), så denne seksjonen gjelder.
 
-| Item | Content |
+| Punkt | Innhold |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (anti-EGFR chimeric IgG1 monoclonal antibody) — not a conventional cytotoxic agent |
-| Myelosuppression Risk | Not quantified in this evidence pack; please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Not quantified in this evidence pack; please refer to the package insert warnings and precautions |
-| Monitoring Items | Infusion-related reactions/hypersensitivity (referenced in NCT00896896 "Immunoreactivity to Cetuximab in Cancer Patients," n=538, and PMID 39415301 severe infusion reaction case report); skin toxicity (referenced in PMID 30141310, skin disorders as a prognostic factor in mCRC) |
-| Handling Protection | Not specified in this evidence pack (TFDA label data is a blocking data gap, DG001); please refer to the package insert |
+| Cytotoksisitetsklassifisering | Målrettet terapi (anti-EGFR kimerisk IgG1-monoklonal antistoff) — ikke en konvensjonell cytotoksisk agens |
+| Risiko for benmargdepreksjon | Ikke kvantifisert i denne evidenspakken; se vennligst pakningsinlegget for advarsler og forholdsregler |
+| Emetogenitets klassifisering | Ikke kvantifisert i denne evidenspakken; se vennligst pakningsinlegget for advarsler og forholdsregler |
+| Overvåkingselementer | Infusjonsrelaterte reaksjoner/overfølsomhet (referanset i NCT00896896 «Immunreaktivitet til cetuximab hos kreftpasienter», n=538, og PMID 39415301 alvorlig infusjonsreaksjons-kasusrapport); hudsykdom (referanset i PMID 30141310, hudsykdommer som prognostisk faktor i mCRC) |
+| Håndteringsbeskyttelse | Ikke spesifisert i denne evidenspakken (TFDA-merkedata er en blokkerende datakløft, DG001); se vennligst pakningsinlegget |
 
 ---
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug interaction data are all marked as data gaps in this evidence pack (DG001, blocking severity), and no DDI records were found (`query_status: not_found`).
+Se vennligst pakningsinlegget for sikkerhetsinformasjon. Viktige advarsler, kontraindikasjoner og legemiddelinteraksjondata er alle markert som datakløfter i denne evidenspakken (DG001, blokkerende alvorlighetsgrad), og ingen DDI-poster ble funnet (`query_status: not_found`).
 
 ---
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Hold**
 
-**Rationale:**
-The top-ranked TxGNN prediction (bronchial adenomas/carcinoids, childhood) has zero supporting clinical trials or literature and is explicitly flagged by the model's own rationale as mechanistically implausible (non-EGFR-driven neuroendocrine tumor, no pediatric safety data). This candidate does not meet the bar for further evaluation at this time.
+**Begrunnelse:**
+Den topprangerte TxGNN-prediksjonen (bronkiale adenomer/karsinoider, barnealder) har null støttekliniske studier eller litteratur og er eksplisitt flagget av modellens egen begrunnelse som mekanistisk implausibel (ikke-EGFR-drevet neuroendokrin tumor, ingen pediatrisk sikkerhetdata). Denne kandidaten oppfyller ikke terskelen for videre evaluering på dette tidspunktet.
 
-**To proceed, the following is needed:**
-- Resolve DG001 (blocking): obtain TFDA label warnings/contraindications before any S1 safety screening can occur
-- Resolve DG002 (high): obtain formal DrugBank MOA record to properly evaluate mechanistic plausibility across all 10 candidates
-- If pursuing repurposing work on this drug, redirect attention to the two evidence-backed candidates identified in this pack — **Cystic Neoplasm** (adenoid cystic carcinoma, L2/Research Question, Phase I/II trial + Phase II prospective literature) and **Pre-malignant Neoplasm** (EGFR chemoprevention, L2/Research Question, dedicated Phase II trial) — rather than the top-ranked but evidence-free candidate
+**For å gå videre er det nødvendig med følgende:**
+- Løs DG001 (blokkering): få TFDA-merkeadvarsler/kontraindikasjoner før S1-sikkerhetskjerning kan gjennomføres
+- Løs DG002 (høy): få formell DrugBank MOA-journal for å ordentlig evaluere mekanistisk plausibilitet på tvers av alle 10 kandidater
+- Hvis repurposing-arbeid forfølges for dette legemidlet, omdirigerer oppmerksomheten til de to evidensstøttede kandidatene identifisert i denne pakken — **Cystisk neoplasme** (adenoid cystisk karsinom, L2/Forskningsspørsmål, fase I/II-studie + fase II prospektiv litteratur) og **Premalignt neoplasme** (EGFR-kjemoprevensjon, L2/Forskningsspørsmål, dedikert fase II-studie) — i stedet for den topprangerte men evidensfrie kandidaten
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

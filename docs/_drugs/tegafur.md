@@ -29,106 +29,107 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tegafur: From Established Fluoropyrimidine Chemotherapy to Colonic Neoplasm
+# Tegafur: Fra etablert fluoropyrimidinkemorapi til kolonneoplasi
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-Tegafur is an oral prodrug of 5-fluorouracil, most widely known as a component of combination regimens such as UFT (tegafur/uracil) and S-1 (tegafur/gimeracil/oteracil), used broadly in gastrointestinal and other solid tumors. The TxGNN model predicts high relevance for **Colonic Neoplasm**, and this is strongly supported by **31 clinical trials** (multiple completed Phase 3 RCTs) and **20 publications** — though the evidence indicates this is an *already-established* clinical use rather than a genuinely novel repurposing signal.
+Tegafur er en oral prodrug av 5-fluorouracil, mest kjent som en komponent av kombinasjonsregimer som UFT (tegafur/uracil) og S-1 (tegafur/gimeracil/oteracil), brukt bredt i gastrointestinale og andre solide tumorer. TxGNN-modellen forutsier høy relevans for **Kolonneoplasi**, og dette støttes sterkt av **31 kliniske forsøk** (flere fullførte fase 3 RCT-er) og **20 publikasjoner** — selv om bevisene indikerer at dette er en *allerede etablert* klinisk bruk snarere enn et genuint nytt bruksområl.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not formally recorded in the regulatory dataset (no approved license on file). Based on known pharmacology, tegafur is a 5-FU prodrug used clinically as a component of UFT/S-1 combinations across gastric, colorectal, breast, and lung cancers |
-| Predicted New Indication | Colonic Neoplasm |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L1 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original indikasjon | Ikke formelt registrert i det regulatoriske datasettet (ingen godkjent lisens på fil). Basert på kjent farmakologi brukes tegafur klinisk som en komponent av UFT/S-1-kombinasjoner ved mage-, kolorektal-, bryst- og lungekreft |
+| Forutsagt ny indikasjon | Kolonneoplasi |
+| TxGNN-prediksjonscore | 99.90% |
+| Bevisnivå | L1 |
+| Markedsstatus Norge | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Gå videre med sikkerhetstiltak |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prognosen rimelig?
 
-Formal mechanism-of-action documentation was not retrievable from DrugBank in this evidence pack (flagged as a High-severity data gap, DG002). Based on the available evidence-pack rationale, tegafur is metabolized in the liver via CYP2A6 to its active moiety, 5-fluorouracil, which inhibits thymidylate synthase and disrupts DNA synthesis — a cytotoxic mechanism broadly effective against highly proliferative malignancies, including colorectal cancer.
+Formell dokumentasjon av virkningsmekanisme var ikke tilgjengelig fra DrugBank i denne bevissamlingen (flagget som datakløft med høy alvorlighetsgrad, DG002). Basert på den tilgjengelige bevissamlingens begrunnelse metaboliseres tegafur i leveren via CYP2A6 til sitt aktive stoff, 5-fluorouracil, som hemmer thymidylat synthase og forstyrrer DNA-syntese — en cytotoksisk mekanisme bredt effektiv mot høyt proliferative ondartede svulster, inkludert kolorektal kreft.
 
-Importantly, the evidence pack itself flags a critical caveat: **tegafur (as UFT or S-1) already carries an established, guideline-recognized role in colon and colorectal cancer treatment** — most visibly as adjuvant therapy after curative resection and in metastatic settings. The very large body of completed Phase 3 RCTs below reflects decades of confirmed clinical use rather than a newly-discovered signal. In other words, the TxGNN model's high score for "colonic neoplasm" is best interpreted as **validation of known pharmacology**, not as a novel drug-repurposing opportunity. This distinction should inform how much strategic weight is placed on this candidate versus genuinely new signals.
+Viktigere er at bevissamlingen selv flaggerer et kritisk forbehold: **tegafur (som UFT eller S-1) har allerede en etablert, retningslinje-anerkjent rolle i tykk- og kolorektale kreftbehandling** — mest synlig som adjuvant terapi etter kurativ reseksjon og i metastatiske innstillinger. Det meget store antallet fullførte fase 3 RCT-er nedenfor reflekterer tiår av bekreftet klinisk bruk snarere enn et nylig oppdaget signal. Med andre ord bør TxGNN-modellens høye score for «kolonneoplasi» best tolkes som **validering av kjent farmakologi**, ikke som et nyopdaget bruksområl for legemiddelgjenbruk. Denne distinksjonen bør informere hvor mye strategisk vekt som tillegges denne kandidaten kontra genuint nye signaler.
 
 ---
 
-## Clinical Trial Evidence
+## Klinisk forsøksbeviser
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Antall deltakere | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT00378716](https://clinicaltrials.gov/study/NCT00378716) | Phase 3 | Completed | 1,608 | UFT+leucovorin vs 5-FU+leucovorin, head-to-head in resected stage II/III colon cancer |
-| [NCT00152230](https://clinicaltrials.gov/study/NCT00152230) | Phase 3 | Completed | 900 | UFT postoperative adjuvant chemotherapy vs surgery alone (Dukes C colorectal cancer, NSAS-CC) |
-| [NCT00392899](https://clinicaltrials.gov/study/NCT00392899) | Phase 3 | Completed | 2,025 | UFT adjuvant chemotherapy vs observation in curatively resected stage II colon cancer |
-| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Phase 3 | Completed | 1,535 | UFT+leucovorin vs S-1 as adjuvant treatment for stage III colon cancer |
-| [NCT00209742](https://clinicaltrials.gov/study/NCT00209742) | Phase 3 | Unknown | 340 | Multi-arm comparison of UFT+LV / UFT+LV+PSK regimens for stage III colorectal cancer |
-| [NCT01918852](https://clinicaltrials.gov/study/NCT01918852) | Phase 3 | Completed | 161 | SALTO trial: S-1 (tegafur-based) vs capecitabine as first-line therapy in metastatic colorectal cancer |
-| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Phase 3 | Unknown | 1,191 | S-1+oxaliplatin (SOX) vs capecitabine+oxaliplatin (XELOX) adjuvant therapy for stage III colorectal cancer |
-| [NCT01225744](https://clinicaltrials.gov/study/NCT01225744) | Phase 2 | Completed | 47 | UFT + cetuximab + irinotecan + oxaliplatin in first-line metastatic colorectal cancer |
-| [NCT00002801](https://clinicaltrials.gov/study/NCT00002801) | Phase 1 | Completed | 30 | UFT + leucovorin + radiotherapy postoperatively for rectal cancer |
-| [NCT05266300](https://clinicaltrials.gov/study/NCT05266300) | N/A | Completed | 722 | Clinical implementation of DPYD genotyping in patients treated with fluoropyrimidines (incl. tegafur), safety/pharmacogenomics focus |
+| [NCT00378716](https://clinicaltrials.gov/study/NCT00378716) | Fase 3 | Fullført | 1,608 | UFT+leucovorin vs 5-FU+leucovorin, direkte sammenligning ved reseksjonert stadium II/III kolorektal kreft |
+| [NCT00152230](https://clinicaltrials.gov/study/NCT00152230) | Fase 3 | Fullført | 900 | UFT postoperativ adjuvant kemorapi vs kirurgi alene (Dukes C kolorektal kreft, NSAS-CC) |
+| [NCT00392899](https://clinicaltrials.gov/study/NCT00392899) | Fase 3 | Fullført | 2,025 | UFT adjuvant kemorapi vs observasjon ved kurerbart reseksjonert stadium II kolonnkreft |
+| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Fase 3 | Fullført | 1,535 | UFT+leucovorin vs S-1 som adjuvant behandling for stadium III kolonnkreft |
+| [NCT00209742](https://clinicaltrials.gov/study/NCT00209742) | Fase 3 | Ukjent | 340 | Multi-arm sammenligning av UFT+LV / UFT+LV+PSK-regimer for stadium III kolorektal kreft |
+| [NCT01918852](https://clinicaltrials.gov/study/NCT01918852) | Fase 3 | Fullført | 161 | SALTO-forsøk: S-1 (tegafur-basert) vs capecitabine som førsteline-terapi i metastatisk kolorektal kreft |
+| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Fase 3 | Ukjent | 1,191 | S-1+oxaliplatin (SOX) vs capecitabine+oxaliplatin (XELOX) adjuvant terapi for stadium III kolorektal kreft |
+| [NCT01225744](https://clinicaltrials.gov/study/NCT01225744) | Fase 2 | Fullført | 47 | UFT + cetuximab + irinotecan + oxaliplatin i førsteline metastatisk kolorektal kreft |
+| [NCT00002801](https://clinicaltrials.gov/study/NCT00002801) | Fase 1 | Fullført | 30 | UFT + leucovorin + strålebehandling postoperativt for rektalkreft |
+| [NCT05266300](https://clinicaltrials.gov/study/NCT05266300) | N/A | Fullført | 722 | Klinisk implementering av DPYD-genotypisering hos pasienter behandlet med fluoropyrimidiner (inkl. tegafur), sikkerhet/farmakogenomikk fokus |
 
 ---
 
-## Literature Evidence
+## Litteraturbeviser
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | RCT | Clinical Colorectal Cancer | ACTS-CC 02 Phase III trial: S-1+oxaliplatin vs UFT/LV as postoperative adjuvant therapy in high-risk stage III colon cancer |
-| [33714860](https://pubmed.ncbi.nlm.nih.gov/33714860/) | 2021 | RCT | ESMO Open | Updated 5-year survival analysis of ACTS-CC 02; SOX not superior to UFT/LV on disease-free survival |
-| [33950962](https://pubmed.ncbi.nlm.nih.gov/33950962/) | 2021 | RCT | Medicine | Nationwide cohort study and meta-analysis: UFT vs 5-FU as postoperative adjuvant chemotherapy in stage II/III colon cancer |
-| [15108041](https://pubmed.ncbi.nlm.nih.gov/15108041/) | 2004 | RCT | Int J Clin Oncol | Adjuvant immunochemotherapy trial combining OK-432 with UFT and HCFU in colorectal cancer |
-| [16648506](https://pubmed.ncbi.nlm.nih.gov/16648506/) | 2006 | RCT | J Clin Oncol | NSABP C-06: oral UFT+leucovorin vs IV 5-FU+leucovorin in stage II/III colon carcinoma |
-| [26347106](https://pubmed.ncbi.nlm.nih.gov/26347106/) | 2015 | RCT | Annals of Oncology | JFMC33-0502 Phase III trial on treatment duration of UFT/LV adjuvant therapy for stage IIB/III colon cancer |
-| [25209093](https://pubmed.ncbi.nlm.nih.gov/25209093/) | 2014 | Review | Clinical Colorectal Cancer | Asian consensus guideline adaptation for metastatic colorectal cancer management |
-| [17952521](https://pubmed.ncbi.nlm.nih.gov/17952521/) | 2007 | Review | Surgery Today | Review of UFT clinical evidence, mechanism of action, and future directions in adjuvant chemotherapy for solid tumors |
-| [6402917](https://pubmed.ncbi.nlm.nih.gov/6402917/) | 1983 | Cohort | Am J Clin Oncol | Comparative study of oral tegafur vs IV 5-fluorouracil in metastatic colorectal cancer |
-| [7990476](https://pubmed.ncbi.nlm.nih.gov/7990476/) | 1994 | Cohort | J Surg Oncol | Effects of preoperative UFT chemotherapy on DNA ploidy, cell cycle, and histology in gastric/colonic cancer |
+| [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | RCT | Clinical Colorectal Cancer | ACTS-CC 02 fase III forsøk: S-1+oxaliplatin vs UFT/LV som postoperativ adjuvant terapi i høyrisikostadie III kolonnkreft |
+| [33714860](https://pubmed.ncbi.nlm.nih.gov/33714860/) | 2021 | RCT | ESMO Open | Oppdatert 5-års overlevelsesanalyse av ACTS-CC 02; SOX ikke overlegen UFT/LV på sykdomsfri overlevelse |
+| [33950962](https://pubmed.ncbi.nlm.nih.gov/33950962/) | 2021 | RCT | Medicine | Nasjonalt kohortstudie og meta-analyse: UFT vs 5-FU som postoperativ adjuvant kemorapi i stadium II/III kolonnkreft |
+| [15108041](https://pubmed.ncbi.nlm.nih.gov/15108041/) | 2004 | RCT | Int J Clin Oncol | Adjuvant immun-kjemoterapiforsøk som kombinerer OK-432 med UFT og HCFU i kolorektal kreft |
+| [16648506](https://pubmed.ncbi.nlm.nih.gov/16648506/) | 2006 | RCT | J Clin Oncol | NSABP C-06: oral UFT+leucovorin vs IV 5-FU+leucovorin i stadium II/III kolonkarsinom |
+| [26347106](https://pubmed.ncbi.nlm.nih.gov/26347106/) | 2015 | RCT | Annals of Oncology | JFMC33-0502 fase III forsøk på varigheten av UFT/LV adjuvant terapi for stadium IIB/III kolonnkreft |
+| [25209093](https://pubmed.ncbi.nlm.nih.gov/25209093/) | 2014 | Review | Clinical Colorectal Cancer | Asiatisk konsensusguideline-adaptasjon for metastatisk kolorektal kreftstyring |
+| [17952521](https://pubmed.ncbi.nlm.nih.gov/17952521/) | 2007 | Review | Surgery Today | Oversikt over UFT klinisk beviser, virkningsmekanisme, og fremtidsretninger innen adjuvant kemorapi for solide tumorer |
+| [6402917](https://pubmed.ncbi.nlm.nih.gov/6402917/) | 1983 | Kohort | Am J Clin Oncol | Sammenlignende studie av oral tegafur vs IV 5-fluorouracil i metastatisk kolorektal kreft |
+| [7990476](https://pubmed.ncbi.nlm.nih.gov/7990476/) | 1994 | Kohort | J Surg Oncol | Effekter av preoperativ UFT-kemorapi på DNA-ploiditet, cellsyklus, og histologi i mage-/kolonnkreft |
 
 ---
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Tegafur is currently **not marketed** in Norway, and no drug authorization records are available in this evidence pack.
+Tegafur er for tiden **ikke markedsført** i Norge, og ingen godkjenningsarkiver for legemidler er tilgjengelige i denne bevissamlingen.
 
 ---
 
-## Cytotoxicity
+## Cytotoksisitet
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (fluoropyrimidine class; 5-FU prodrug) |
-| Myelosuppression Risk | Medium — fluoropyrimidines are associated with neutropenia and leukopenia; DPYD-deficient patients are at markedly elevated risk (see NCT05266300 genotyping study) |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | CBC with differential, liver and renal function, electrolytes; DPYD genotype/phenotype status where available to reduce severe toxicity risk |
-| Handling Protection | Must follow institutional cytotoxic/hazardous drug handling regulations |
+| Cytotoksisitetsklassifisering | Konvensjonell cytotoksisk (fluoropyrimidiniklasse; 5-FU prodrug) |
+| Myelosuppresjonrisiko | Medium — fluoropyrimidiner er forbundet med neutropeni og leukopeni; DPYD-defisiente pasienter har markant økt risiko (se NCT05266300 genotypiseringsstudie) |
+| Emetogenisitetsklassifisering | Lav til moderat |
+| Overvåkingselementer | CBC med differensial, lever- og nyrefunksjon, elektrolytter; DPYD-genotype/-fenotype status hvor tilgjengelig for å redusere risiko for alvorlig toksisitet |
+| Håndteringsbeskyttelse | Må følge institusjonelle cytotoksiske/farlige legemiddelhåndteringsforskrifter |
 
 ---
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information. No structured warnings, contraindications, or drug-interaction data were available in this evidence pack; the absence of Norwegian product-label warnings/contraindications is flagged as a **Blocking** data gap (DG001) that must be resolved before final safety sign-off.
+Se pakningsvedlegget for sikkerhetsinformasjon. Ingen strukturert advarsel, kontraindikasjoner, eller legemiddelinteraksjonsdata var tilgjengelig i denne bevissamlingen; fraværet av norske produktetikettadvarslinger/kontraindikasjoner flaggeres som et **blokerande** datakløft (DG001) som må løses før endelig sikkerhetsgodkjenning.
 
 ---
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Proceed with Guardrails**
+**Beslutning: Gå videre med sikkerhetstiltak**
 
-**Rationale:**
-The colonic neoplasm signal is backed by an unusually large and mature evidence base — multiple completed Phase 3 RCTs (some with >1,500 patients) and consistent literature support (L1) — but this reflects **confirmation of an already-established use** of tegafur/UFT/S-1 in colorectal cancer, not a new discovery. The other nine predicted indications in this pack (villous adenoma, NET G1, lipoma, leiomyoma, lymphangioma, hemangioma, etc.) have negligible-to-weak evidence (L4–L5) and are mechanistically implausible for a cytotoxic agent, and should remain on **Hold**.
+**Begrunnelse:**
+Kolonneoplasi-signalet støttes av et uvanlig stort og modent bevisgrunnlag — flere fullførte fase 3 RCT-er (noen med >1,500 pasienter) og konsistent litteraturstøtte (L1) — men dette reflekterer **bekrefting av en allerede etablert bruk** av tegafur/UFT/S-1 i kolorektal kreft, ikke en ny oppdagelse. De andre ni forutsagte indikasjonene i denne samlingen (villøs adenoma, NET G1, lipom, leiomyom, lymfangiom, hemangiom, osv.) har neglisjerbar-til-svak beviser (L4–L5) og er mekanistisk usannsynlige for et cytotoksisk stoff, og bør forbli på **Venting**.
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain formal product-label warnings/contraindications before any S1 safety review
-- Resolve DG002 (High): confirm mechanism-of-action documentation via DrugBank API
-- Clarify regulatory pathway: since tegafur holds zero authorizations in Norway, determine whether market entry (rather than "repurposing") is the actual strategic question
-- Reassess portfolio priority: given this candidate largely reconfirms known clinical practice, consider whether resources are better directed toward genuinely novel signals elsewhere in the prediction set
+**For å gå videre, er følgende nødvendig:**
+- Løs DG001 (Blokerande): Skaffa formelle produktetikettadvarslinger/kontraindikasjoner før noen S1 sikkerhetsvurdering
+- Løs DG002 (Høy): Bekreft dokumentasjon av virkningsmekanisme via DrugBank API
+- Avklarring av regulatorisk vei: Siden tegafur ikke har noen godkjenninger i Norge, avgjør om markedsinngang (snarere enn «gjenbruk») er det faktiske strategiske spørsmål
+- Revurder porteføljeprioritet: Gitt at denne kandidaten stort sett bekrefter kjent klinisk praksis, vurder om ressurser er bedre rettet mot genuint nye signaler andre steder i prediksjonssettet
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

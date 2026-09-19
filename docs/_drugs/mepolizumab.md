@@ -29,78 +29,79 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Mepolizumab: From Severe Eosinophilic Asthma to Immune Thrombocytopenia
+# Mepolizumab: Fra alvorlig eosinofil astma til immunologisk trombocytopeni
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-> Mepolizumab is a humanized monoclonal antibody targeting interleukin-5 (IL-5), clinically used for severe eosinophilic asthma and other eosinophil-driven diseases.
-> The TxGNN model predicts it may be effective for **Thrombocytopenia due to Immune Destruction**,
-> but this direction is currently supported only by **1 case-level publication**, with **no registered clinical trials**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not confirmed in this evidence pack (drug is unmarketed in this jurisdiction; no license text available) |
-| Predicted New Indication | Thrombocytopenia due to immune destruction |
-| TxGNN Prediction Score | 99.66% |
-| Evidence Level | L4 |
-| Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Mepolizumab er et humanisert monoklonalt antistoff rettet mot interleukin-5 (IL-5), klinisk brukt for alvorlig eosinofil astma og andre eosinofil-drevne sykdommer.
+> TxGNN-modellen forutsier at det kan være effektivt for **Trombocytopeni på grunn av immunologisk destruksjon**,
+> men denne retningen er for tiden støttet bare av **1 kasuistikk**, med **ingen registrerte kliniske studier**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigoversikt
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap in this evidence pack). Based on general known information, mepolizumab is an anti-IL-5 monoclonal antibody that depletes eosinophils by blocking IL-5-mediated survival and activation signaling; it is used in eosinophil-driven diseases such as severe eosinophilic asthma and related hypereosinophilic conditions.
-
-The single supporting literature item in this pack describes a case in which mepolizumab resolved a steroid-resistant, hypereosinophilic condition with concomitant improvement of a thrombotic microangiopathy — suggesting a possible mechanistic overlap between eosinophil-driven inflammation and immune-mediated platelet destruction/consumption. This provides a plausible biological rationale for the TxGNN prediction, but it is a single case observation rather than a validated causal mechanism, so the linkage should be considered exploratory.
-
-Formal confirmation of the drug's original approved indication(s) and MOA (via DrugBank/regulatory label) is required before this mechanistic rationale can be treated as established evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---|---|
+| Opprinnelig indikasjon | Ikke bekreftet i denne bevissamlingen (legemiddel er ikke markedsført i denne jurisdiksjonen; ingen lisensdokumenter tilgjengelig) |
+| Forutsagt ny indikasjon | Trombocytopeni på grunn av immunologisk destruksjon |
+| TxGNN-prognose | 99.66% |
+| Bevisnivå | L4 |
+| Markedsstatus | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Case report | Blood Cells, Molecules & Diseases | Mepolizumab resolved a steroid-resistant hypereosinophilic diathesis, with concomitant amelioration of a mixed thrombotic microangiopathy, in a patient with atypical hemolytic uremic syndrome |
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige (flagget som et alvorlig datakløft i denne bevissamlingen). Basert på generell kjent informasjon er mepolizumab et anti-IL-5 monoklonalt antistoff som reduserer eosinofiler ved å blokkere IL-5-mediiert overlevelse og aktiveringssignalering; det brukes i eosinofil-drevne sykdommer som alvorlig eosinofil astma og relaterte hypereosinofil tilstander.
 
----
+Det eneste støttende litteraturelementet i denne pakken beskriver en sak der mepolizumab løste en steroidresistent hypereosinofil diathese med samtidig forbedring av en blandet trombotisk mikroangiopati — som antyder et mulig mekanistisk overlap mellom eosinofil-drevet inflammasjon og immunmediiert platedestruksjon/forbruk. Dette gir en plausibel biologisk begrunnelse for TxGNN-prediksjonen, men det er en enkelt kasusobservasjon snarere enn en validert kausalmekanisme, så sammenhengen bør betraktes som utforskende.
 
-## Norway Market Information
-
-This product is currently not marketed and has no license records available in this evidence pack (0 authorizations).
+Formell bekrefting av legemidlets opprinnelige godkjente indikasjon(er) og MOA (via DrugBank/regulatory label) er nødvendig før denne mekanistiske begrunnelsen kan behandles som etablert bevis.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske studier
 
-Please refer to the package insert for safety information.
+For tiden ingen registrerte kliniske studier relatert til denne indikasjonen.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+| PMID | År | Type | Journal | Hovedfunn |
+|---|---|---|---|---|
+| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Kasuistikk | Blood Cells, Molecules & Diseases | Mepolizumab løste en steroidresistent hypereosinofil diathese, med samtidig forbedring av en blandet trombotisk mikroangiopati, hos en pasient med atypisk hemolytisk uremisk syndrom |
 
-**Rationale:**
-Evidence supporting this indication consists of a single case report with no registered clinical trials, and core drug-level data (original approved indication, MOA, TFDA/label warnings) are marked as blocking or high-severity data gaps. The mechanistic rationale is plausible but not yet substantiated.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory label data (warnings, contraindications) — currently a Blocking gap (DG001)
-- Confirmed mechanism of action from DrugBank — currently a High-severity gap (DG002)
-- Confirmed original approved indication(s) for the drug
-- Additional clinical evidence (trials or observational studies) specifically evaluating anti-IL-5 therapy in immune thrombocytopenia, beyond the single case report currently available
+## Norsk markedsinformasjon
+
+Dette produktet er for tiden ikke markedsført og har ingen lisensjournaler tilgjengelig i denne bevissamlingen (0 godkjennelser).
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Bevisene som støtter denne indikasjonen består av en enkelt kasuistikk uten registrerte kliniske studier, og kjernedata på legemiddelnivå (opprinnelig godkjent indikasjon, MOA, TFDA/label-advarsler) er markert som blokkerende eller alvorlige datakløfter. Den mekanistiske begrunnelsen er plausibel, men ikke ennå bekreftet.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA/regulatory label-data (advarsler, kontraindikasjoner) — for tiden et blokkerende kløft (DG001)
+- Bekreftet virkningsmekanisme fra DrugBank — for tiden et alvorlig kløft (DG002)
+- Bekreftet opprinnelig(e) godkjent(e) indikasjon(er) for legemiddelet
+- Ytterligere kliniske bevis (studier eller observasjonsstudier) som spesifikt evaluerer anti-IL-5-terapi ved immunologisk trombocytopeni, utover den eneste kasuistikken som er tilgjengelig for øyeblikket
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

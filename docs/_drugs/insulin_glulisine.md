@@ -29,98 +29,99 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Insulin Glulisine: From Diabetes Mellitus (General) to Type 1 Diabetes Mellitus
+# Insulin glulisine: Fra Diabetes Mellitus (generelt) til Type 1 Diabetes Mellitus
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Insulin glulisine (Apidra) is a rapid-acting human insulin analogue whose established clinical role is glycemic control in diabetes mellitus.
-> The TxGNN model predicts it is effective for **Type 1 Diabetes Mellitus**, supported by **~70 clinical trials** and **20 publications**.
-> **Important caveat:** this is not a novel repurposing signal — T1DM is already the drug's core, licensed use; the model has essentially re-identified its known indication rather than surfaced a new one.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not extractable from license data (data gap — no Norway licenses on file); by known pharmacology, insulin glulisine is used for glycemic control in diabetes mellitus |
-| Predicted New Indication | Type 1 Diabetes Mellitus |
-| TxGNN Prediction Score | 99.55% |
-| Evidence Level | L1 (≥2 completed Phase 3 RCTs) |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails — but see caveat: this confirms established use, it is not a repurposing opportunity |
+> Insulin glulisine (Apidra) er en hurtigvirkende humaninsulinanalolog hvis etablerte kliniske rolle er glykemikontroll ved diabetes mellitus.
+> TxGNN-modellen forutsier at det er effektivt for **Type 1 Diabetes Mellitus**, støttet av **~70 kliniske forsøk** og **20 publikasjoner**.
+> **Viktig forbehold:** dette er ikke et nytt gjenutgivingssignal — T1DM er allerede insulinets kjernelisensierte indikasjon; modellen har i hovedsak gjenidentifisert dens kjente indikasjon snarere enn å avdekke en ny.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available (data gap). Based on known pharmacology, insulin glulisine is a recombinant rapid-acting human insulin analogue (modified at B3/B29) that binds the insulin receptor to promote peripheral glucose uptake and suppress hepatic glucose output, mimicking physiological mealtime (bolus) insulin secretion.
-
-Type 1 diabetes mellitus is characterized by absolute insulin deficiency due to autoimmune β-cell destruction; exogenous insulin replacement — including rapid-acting analogues like glulisine — is the foundational, guideline-standard treatment, not an emerging or repurposed use. The evidence pack's own repurposing rationale explicitly flags this: *"Insulin glulisine directly replaces the deficient insulin secretion in Type 1 diabetes patients; this is a core pharmacological action, not a drug repurposing scenario."*
-
-Practically, this means the very large body of clinical trial and literature evidence below should be read as **validation of an already-established indication**, not discovery of a new one. The high TxGNN score and L1 evidence level reflect the strength of the drug-disease association in the underlying knowledge graph, which is expected and appropriate for a drug's primary indication.
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Ikke gjennomarbeidbar fra lisensdata (datagap — ingen norske lisenser på fil); basert på kjent farmakologi, brukes insulin glulisine for glykemikontroll ved diabetes mellitus |
+| Forutsagt ny indikasjon | Type 1 Diabetes Mellitus |
+| TxGNN-prediksjonscore | 99.55% |
+| Bevisgrad | L1 (≥2 fullførte fase 3 RCT-er) |
+| Markedsstatus i Norge | Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Gå videre med forbehold — men se forbeholdet: dette bekrefter etablert bruk, det er ikke en gjenutgivingsmulighet |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+For tiden er detaljerte mekanisme-for-handling-data ikke tilgjengelige (datagap). Basert på kjent farmakologi er insulin glulisine en rekombinant hurtigvirkende humaninsulinanalolog (modifisert ved B3/B29) som binder insulinreseptoren for å fremme perifer glukoseopptak og undertrykke hepatisk glukoseutgang, og etterligner fysiologisk måltids-(bolus-)insulinsekresjon.
+
+Type 1 diabetes mellitus er karakterisert ved absolutt insulinmangel på grunn av autoimmun β-cellødeleggelse; eksogen insulinerstatning — inkludert hurtigvirkende analoger som glulisine — er den grunnleggende, retningslinjestandardbehandlingen, ikke en fremvoksende eller gjenutgit bruk. Det eget bevispakets gjenutgivingsrasjonale markerer dette eksplisitt: *"Insulin glulisine erstatter direkte den manglende insulinsekresjon ved Type 1 diabetes-pasienter; dette er en kjernefarmakologisk handling, ikke et gjenutgivingsscenario for medikament."*
+
+Praktisk sett betyr dette at den svært store kliniske forsøks- og litteraturbevissamlingen nedenfor bør leses som **validering av en allerede etablert indikasjon**, ikke oppdagelse av en ny. Den høye TxGNN-scoren og L1-bevisgradnivå reflekterer styrken av medikament-sykdom-assosiasjonen i den underliggende kunnskapsgrafen, som er forventet og passende for en medikasjons primærindikasjon.
+
+---
+
+## Kliniske forsøksbevis
+
+| Forsøksnummer | Fase | Status | Rekruttering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT00607087](https://clinicaltrials.gov/study/NCT00607087) | Phase 4 | Completed | 289 | Glulisine superior to aspart/lispro via CSII pump in reducing unexplained hyperglycemia and infusion-set occlusion in T1DM |
-| [NCT00965549](https://clinicaltrials.gov/study/NCT00965549) | Phase 4 | Completed | 463 | Basal-plus-one glulisine regimen non-inferior to biphasic insulin for HbA1c control |
-| [NCT00115570](https://clinicaltrials.gov/study/NCT00115570) | Phase 3 | Completed | 572 | Glulisine as safe/effective as lispro in children and adolescents with T1DM over 26 weeks |
-| [NCT00290979](https://clinicaltrials.gov/study/NCT00290979) | Phase 3 | Completed | 250 | Glulisine non-inferior to lispro on HbA1c change in T1DM, 28-week study |
-| [NCT00135096](https://clinicaltrials.gov/study/NCT00135096) | Phase 3 | Completed | 345 | Pre-meal vs post-meal glulisine dosing with glargine basal insulin, weight change outcomes |
-| [NCT01204593](https://clinicaltrials.gov/study/NCT01204593) | Phase 4 | Completed | 206 | Glargine + glulisine basal-bolus therapy in previously uncontrolled T1DM patients |
-| [NCT00545337](https://clinicaltrials.gov/study/NCT00545337) | Phase 3 | Completed | 60 | Efficacy/safety of glulisine with glargine basal insulin in T1DM (HbA1c, AE, labs) |
-| [NCT00397553](https://clinicaltrials.gov/study/NCT00397553) | Phase 3 | Completed | 104 | Local efficacy/safety data for glulisine + glargine in T1DM |
-| [NCT00539448](https://clinicaltrials.gov/study/NCT00539448) | Phase 4 | Completed | 98 | Open-label evaluation of glargine + glulisine dosing and safety in T1DM |
-| [NCT02518945](https://clinicaltrials.gov/study/NCT02518945) | Phase 3 | Completed | 26 | Glulisine used as background insulin therapy while testing dapagliflozin add-on in T1DM |
+| [NCT00607087](https://clinicaltrials.gov/study/NCT00607087) | Fase 4 | Fullført | 289 | Glulisine overlegen aspart/lispro via CSII-pumpe ved reduksjon av uforklart hyperglykemi og okklusion av infusjonsset ved T1DM |
+| [NCT00965549](https://clinicaltrials.gov/study/NCT00965549) | Fase 4 | Fullført | 463 | Basal-pluss-en glulisine-regime ikke-underlegen tofaset insulin for HbA1c-kontroll |
+| [NCT00115570](https://clinicaltrials.gov/study/NCT00115570) | Fase 3 | Fullført | 572 | Glulisine like sikkert/effektivt som lispro hos barn og ungdom med T1DM over 26 uker |
+| [NCT00290979](https://clinicaltrials.gov/study/NCT00290979) | Fase 3 | Fullført | 250 | Glulisine ikke-underlegen lispro ved HbA1c-endring ved T1DM, 28-ukers studie |
+| [NCT00135096](https://clinicaltrials.gov/study/NCT00135096) | Fase 3 | Fullført | 345 | Før-måltid kontra etter-måltid glulisine-dosering med glargine-basalinsulin, utfall vedr. vektendring |
+| [NCT01204593](https://clinicaltrials.gov/study/NCT01204593) | Fase 4 | Fullført | 206 | Glargine + glulisine basal-bolus-terapi hos tidligere ukontrollerte T1DM-pasienter |
+| [NCT00545337](https://clinicaltrials.gov/study/NCT00545337) | Fase 3 | Fullført | 60 | Effektivitet/sikkerhet ved glulisine med glargine-basalinsulin ved T1DM (HbA1c, AE, lab) |
+| [NCT00397553](https://clinicaltrials.gov/study/NCT00397553) | Fase 3 | Fullført | 104 | Lokal effektivitet/sikkerhet-data for glulisine + glargine ved T1DM |
+| [NCT00539448](https://clinicaltrials.gov/study/NCT00539448) | Fase 4 | Fullført | 98 | Åpen-merket evaluering av glargine + glulisine-dosering og sikkerhet ved T1DM |
+| [NCT02518945](https://clinicaltrials.gov/study/NCT02518945) | Fase 3 | Fullført | 26 | Glulisine brukt som bakgrunn-insulinbehandling mens testing av dapagliflozin-tillegg ved T1DM |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [16308840](https://pubmed.ncbi.nlm.nih.gov/16308840/) | 2005 | RCT | Horm Metab Res | Multicenter RCT comparing glulisine to lispro in adults with T1DM (n=672); comparable efficacy and safety |
-| [41366610](https://pubmed.ncbi.nlm.nih.gov/41366610/) | 2026 | Phase III RCT | Diabetes Obes Metab | Biosimilar glulisine shows comparable immunogenicity, efficacy, and safety to originator in T1DM |
-| [21457066](https://pubmed.ncbi.nlm.nih.gov/21457066/) | 2011 | RCT | Diabetes Technol Ther | Randomized crossover: glulisine vs aspart vs lispro via CSII in T1DM |
-| [21291333](https://pubmed.ncbi.nlm.nih.gov/21291333/) | 2011 | RCT | Diabetes Technol Ther | 26-week trial: glulisine comparable efficacy/safety to lispro in pediatric basal-bolus regimen |
-| [19614947](https://pubmed.ncbi.nlm.nih.gov/19614947/) | 2009 | RCT | Diabetes Obes Metab | Glulisine vs lispro with glargine basal insulin in Japanese T1DM patients |
-| [19496630](https://pubmed.ncbi.nlm.nih.gov/19496630/) | 2009 | Review | Drugs | Comprehensive review of glulisine's role in diabetes management |
-| [18076215](https://pubmed.ncbi.nlm.nih.gov/18076215/) | 2008 | PK/PD Study | Clin Pharmacokinet | Clinical PK/PD profile of glulisine vs regular human insulin |
-| [16123473](https://pubmed.ncbi.nlm.nih.gov/16123473/) | 2005 | PK/PD Study | Diabetes Care | PK, postprandial glucose control, and safety of glulisine in pediatric T1DM |
-| [28544684](https://pubmed.ncbi.nlm.nih.gov/28544684/) | 2017 | Cohort | Pediatr Int | 1-year CSII use of glulisine improves post-meal glucose in pediatric T1DM |
-| [35933650](https://pubmed.ncbi.nlm.nih.gov/35933650/) | 2022 | Comparative Study | Acta Diabetol | Real-world comparison of glulisine, lispro, aspart via CSII pump in T1DM |
+| [16308840](https://pubmed.ncbi.nlm.nih.gov/16308840/) | 2005 | RCT | Horm Metab Res | Multisentertudie som sammenligner glulisine med lispro hos voksne med T1DM (n=672); sammenlignbar effektivitet og sikkerhet |
+| [41366610](https://pubmed.ncbi.nlm.nih.gov/41366610/) | 2026 | Fase III RCT | Diabetes Obes Metab | Biosimilar glulisine viser sammenlignbar immunogenisitet, effektivitet og sikkerhet med originalpreparatet ved T1DM |
+| [21457066](https://pubmed.ncbi.nlm.nih.gov/21457066/) | 2011 | RCT | Diabetes Technol Ther | Randomisert crossover: glulisine mot aspart mot lispro via CSII ved T1DM |
+| [21291333](https://pubmed.ncbi.nlm.nih.gov/21291333/) | 2011 | RCT | Diabetes Technol Ther | 26-ukers forsøk: glulisine sammenlignbar effektivitet/sikkerhet med lispro i pediatrisk basal-bolus-regime |
+| [19614947](https://pubmed.ncbi.nlm.nih.gov/19614947/) | 2009 | RCT | Diabetes Obes Metab | Glulisine mot lispro med glargine-basalinsulin hos japanske T1DM-pasienter |
+| [19496630](https://pubmed.ncbi.nlm.nih.gov/19496630/) | 2009 | Oversikt | Drugs | Omfattende oversikt over glulisines rolle i diabetes-behandling |
+| [18076215](https://pubmed.ncbi.nlm.nih.gov/18076215/) | 2008 | PK/PD-studie | Clin Pharmacokinet | Klinisk PK/PD-profil av glulisine mot vanlig humaninsulin |
+| [16123473](https://pubmed.ncbi.nlm.nih.gov/16123473/) | 2005 | PK/PD-studie | Diabetes Care | PK, postprandial glukosekontroll og sikkerhet ved insulin glulisine hos barn med T1DM |
+| [28544684](https://pubmed.ncbi.nlm.nih.gov/28544684/) | 2017 | Kohort | Pediatr Int | 1-års CSII-behandling med glulisine forbedrer post-måltids-glukose hos barn med T1DM |
+| [35933650](https://pubmed.ncbi.nlm.nih.gov/35933650/) | 2022 | Sammenlignende studie | Acta Diabetol | Sammenligning i praksis av glulisine, lispro, aspart via CSII-pumpe ved T1DM |
 
 ---
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-No marketed authorizations are currently on file — **0 licenses**, market status **Not Marketed**. No product name, dosage form, or approved indication text is available in the evidence pack for Norway.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (No key warnings, contraindications, or drug interaction data are currently available for this evidence pack; TFDA/Norway label data is flagged as a **blocking data gap**.)
+Ingen markedsførte godkjenninger er for tiden registrert — **0 lisenser**, markedsstatus **Ikke markedsført**. Ingen produktnavn, doseringsform eller godkjent indikasjonstekst er tilgjengelig i bevispacken for Norge.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Ingen viktige advarsler, kontraindikasjoner eller data om medikament-interaksjoner er for tiden tilgjengelige for denne bevispacken; TFDA/Norges etikett-data flagges som et **blokkerende datagap**.)
 
-**Rationale:**
-The evidence base is strong (L1 — multiple completed Phase 3 RCTs plus extensive Phase 4 and observational data) and unambiguously supports insulin glulisine's efficacy in Type 1 Diabetes Mellitus. However, this is **not a repurposing candidate** in the traditional sense — T1DM is the drug's established primary indication, and the TxGNN prediction essentially reconfirms known pharmacology rather than identifying a new therapeutic opportunity. The relevant "guardrail" here is regulatory, not clinical: the drug is not currently marketed in Norway.
+---
 
-**To proceed, the following is needed:**
-- Obtain TFDA/Norway product label (warnings, contraindications, DDI) — currently a blocking data gap (DG001)
-- Obtain formal MOA documentation from DrugBank (DG002)
-- If commercial launch in Norway is the actual goal, this should be pursued as a standard **marketing authorization application** using the existing global T1DM evidence base, not as a repurposing workflow
-- Lower-confidence signals (ranks 2–10: e.g. thiamine-responsive dysfunction syndrome, pancreatic agenesis) remain at L5/Research-Question or Hold status and would require dedicated literature/trial searches before any further evaluation
+## Konklusjon og neste steg
+
+**Beslutning: Gå videre med forbehold**
+
+**Begrunnelse:**
+Bevisgrunnlaget er sterkt (L1 — flere fullførte fase 3 RCT-er pluss omfattende fase 4 og observasjonsdata) og støtter utvetydig insulin glulisines effektivitet ved Type 1 Diabetes Mellitus. Imidlertid er dette **ikke en gjenutgivingskandidat** i tradisjonell forstand — T1DM er insulinets etablerte primærindikasjon, og TxGNN-prediksjonen bekrefter i hovedsak kjent farmakologi snarere enn identifiserer en ny terapeutisk mulighet. Det relevante "forbeholdet" her er reguleringsmessig, ikke klinisk: medikamentet er for tiden ikke markedsført i Norge.
+
+**For å gå videre, trengs følgende:**
+- Innhent TFDA/Norges produktetikett (advarsler, kontraindikasjoner, DDI) — for tiden et blokkerende datagap (DG001)
+- Innhent formell MOA-dokumentasjon fra DrugBank (DG002)
+- Hvis kommersiell lansering i Norge er det aktuelle målet, bør dette forfølges som en standard **søknad om markedsautorisasjon** ved bruk av det eksisterende globale T1DM-bevisgrunnlaget, ikke som en gjenutgivingsarbeidsflyt
+- Signaler med lavere tillit (rangeringer 2–10: f.eks tiaminerresponsiv dysfunksjonssyndrom, pancreasamgenesi) forblir på L5/Forskningsspørsmål eller Hold-status og ville kreve dedikerte litteratur-/forsøkssøk før noen ytterligere evaluering
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

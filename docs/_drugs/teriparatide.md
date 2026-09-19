@@ -29,97 +29,98 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Teriparatide: From Osteoporosis to Pregnancy and Lactation-Associated Osteoporosis
+# Teriparatide: Fra osteoporose til osteoporose assosiert med graviditet og laktasjon
 
-## One-Sentence Summary
+## En-setnings oppsummering
 
-> Teriparatide (recombinant human PTH 1-34) is an anabolic bone agent originally developed for osteoporosis treatment (marketed as Forteo).
-> Among 10 TxGNN-predicted indications, the top-ranked candidate (duodenal ulcer) lacks any mechanistic or clinical support, so this report focuses on the most clinically defensible candidate — **Pregnancy and Lactation-Associated Osteoporosis (PLO)** —
-> supported by **2 clinical trials** (mechanistic evidence) and **19 publications**, including case series and systematic reviews of off-label teriparatide use.
+> Teriparatide (rekombinant humant PTH 1-34) er et anabolt bentilblivelsesmiddel som opprinnelig ble utviklet til behandling av osteoporose (markedsført som Forteo).
+> Blant 10 TxGNN-predikerte indikasjoner mangler den høyest rangerte kandidaten (duodenalt ulcus) enhver mekanistisk eller klinisk støtte, så denne rapporten fokuserer på den mest klinisk forsvarlingsbare kandidaten — **Osteoporose assosiert med graviditet og laktasjon (PLO)** —
+> støttet av **2 kliniske studier** (mekanistisk bevis) og **19 publikasjoner**, inkludert kasusserier og systematiske oversikter over off-label bruk av teriparatide.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Osteoporosis (inferred from drug identity; not populated in `original_indications`, see data gap below) |
-| Predicted New Indication | Pregnancy and Lactation-Associated Osteoporosis (PLO) |
-| TxGNN Prediction Score | 99.55% (rank #8 among 10 candidates by score, but strongest by evidence) |
-| Evidence Level | L3 |
-| Norway Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original indikasjon | Osteoporose (antatt fra medisinidentitet; ikke populert i `original_indications`, se datakløft nedenfor) |
+| Predikert ny indikasjon | Osteoporose assosiert med graviditet og laktasjon (PLO) |
+| TxGNN prediksjonspoeng | 99.55% (rangering #8 blant 10 kandidater etter poeng, men sterkest etter bevis) |
+| Bevisnivå | L3 |
+| Markedsstatus Norge | ✗ Ikke markedsført (Ikke markedsført) |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Fortsett med sikkerhetstiltak |
 
-**Note on ranking:** The model's #1-ranked prediction (duodenal ulcer, score 99.86%) and most other top-10 candidates (esophageal malformation, duodenal obstruction, Worth syndrome, SCOT deficiency, etc.) have **no clinical trials, no literature, and the evidence pack's own rationale explicitly states there is no known mechanistic link**. This report evaluates PLO instead because it is the only candidate with substantive supporting evidence.
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in the evidence pack (DG002). Based on known pharmacology and supporting trial data (NCT00277706 confirms teriparatide's approved anabolic bone-building action), teriparatide is a PTH(1-34) analog that stimulates osteoblast activity and promotes new bone formation — distinguishing it from antiresorptive agents (bisphosphonates, denosumab) that only slow bone loss.
-
-PLO is a rare condition of rapid bone loss occurring in late pregnancy or the postpartum/lactation period, presenting with vertebral fragility fractures. Its underlying pathophysiology — an imbalance favoring bone resorption over formation — overlaps with the pathophysiology of postmenopausal osteoporosis, teriparatide's proven original indication.
-
-Because teriparatide directly stimulates bone formation, it is mechanistically well-suited to reverse the rapid bone loss seen in PLO. This is reflected in the literature: multiple retrospective cohorts and case series (e.g., PMID 34132853, 35903718) report improved bone mineral density with teriparatide in PLO patients, and reviews (e.g., PMID 28084543) identify teriparatide as one of the preferred off-label treatment options. However, no randomized controlled trial has been conducted in this population, and safety in the peripartum/lactation context requires careful evaluation.
+**Merknad om rangering:** Modellens #1-rangerte prediksjon (duodenalt ulcus, poeng 99.86%) og de fleste andre topp-10-kandidater (øsofagusmalformasjon, duodenal obstruksjon, Worth-syndrom, SCOT-mangel, osv.) har **ingen kliniske studier, ingen litteratur, og bevissamlingen egen begrunnelse slår eksplisitt fast at det ikke finnes kjent mekanistisk sammenheng**. Denne rapporten evaluerer PLO i stedet fordi det er den eneste kandidaten med vesentlig støttende bevis.
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+For tiden er detaljert data om virkningsmekanisme ikke tilgjengelig i bevissamlingen (DG002). Basert på kjent farmakologi og støttende forsøksdata (NCT00277706 bekrefter teriparatides godkjente anabole bentilblivelsesvirkning), er teriparatide en PTH(1-34)-analog som stimulerer osteoblastaktivitet og fremmer bentilblivelse — noe som skiller den fra antiresorptive midler (bifosfonater, denosumab) som bare bremser bentap.
+
+PLO er en sjelden tilstand med raskt bentap som oppstår på sent tidspunkt i graviditeten eller i postpartum-/laktasjonsperioden, og som presenteres med skjørhetsfrakturer i ryggsøylen. Dens underliggende patofysiologi — en ubalanse som favoriserer benresorpsjon fremfor tilblivelse — overlapper med patofysiologien til postmenopausal osteoporose, teriparatides beviste original indikasjon.
+
+Fordi teriparatide direkte stimulerer bentilblivelse, er den mekanistisk velmatched til PLOs raskt bentap-patofysiologi. Dette reflekteres i litteraturen: flere retrospektive kohorter og kasusserier (f.eks. PMID 34132853, 35903718) rapporterer forbedret benmineraltetthet med teriparatide hos PLO-pasienter, og oversikter (f.eks. PMID 28084543) identifiserer teriparatide som ett av de foretrukne off-label behandlingsalternativene. Imidlertid har ingen randomisert kontrollert studie blitt gjennomført i denne populasjonen, og sikkerhet i peripartum-/laktasjonskonteksten krever nøye evaluering.
+
+---
+
+## Klinisk forsøksbevis
+
+| Forsøksnummer | Fase | Status | Inklusjon | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT02440581](https://clinicaltrials.gov/study/NCT02440581) | N/A | Completed | 141 | Studied renal osteodystrophy (CKD-related bone loss), not PLO directly; relevance graded C — indirect support for teriparatide's role in metabolic bone disease. |
-| [NCT00277706](https://clinicaltrials.gov/study/NCT00277706) | Phase 1 | Completed | 40 | Confirmed PTH(1-34)'s osteogenic effect on oral bone regeneration; relevance graded C — mechanistic support only, not PLO population. |
+| [NCT02440581](https://clinicaltrials.gov/study/NCT02440581) | N/A | Fullført | 141 | Studerte renal osteodystrofi (CKD-relatert bentap), ikke PLO direkte; relevans gradert C — indirekte støtte for teriparatides rolle i metabolsk bentilstand. |
+| [NCT00277706](https://clinicaltrials.gov/study/NCT00277706) | Fase 1 | Fullført | 40 | Bekreftet PTH(1-34)s osteogen effekt på oral bentilblivelse; relevans gradert C — kun mekanistisk støtte, ikke PLO-populasjon. |
 
-*Note: No trials have been conducted specifically in the PLO population; both listed trials provide indirect mechanistic support only.*
+*Merknad: Ingen forsøk er blitt gjennomført spesifikt i PLO-populasjonen; begge oppførte forsøk gir kun indirekte mekanistisk støtte.*
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [40205203](https://pubmed.ncbi.nlm.nih.gov/40205203/) | 2025 | Systematic Review/Meta-analysis | Osteoporosis International | 35 studies, 943 patients with pregnancy-associated osteoporosis; treatment response analysis inconclusive due to limited data. |
-| [37708365](https://pubmed.ncbi.nlm.nih.gov/37708365/) | 2024 | Systematic Review/Meta-analysis | J Clin Endocrinol Metab | Compared therapeutic interventions for PLO; optimal management still undefined. |
-| [34132853](https://pubmed.ncbi.nlm.nih.gov/34132853/) | 2021 | Retrospective Cohort/Case Series | Calcified Tissue International | 19 PLO patients treated with teriparatide vs. conventional management; assessed BMD and trabecular bone score outcomes. |
-| [35903718](https://pubmed.ncbi.nlm.nih.gov/35903718/) | 2022 | Case Series | Geburtshilfe und Frauenheilkunde | 47 women with PLO and vertebral fractures treated with teriparatide; assessed effect on subsequent fracture and BMD. |
-| [34037833](https://pubmed.ncbi.nlm.nih.gov/34037833/) | 2021 | Retrospective Cohort | Calcified Tissue International | Evaluated BMD after teriparatide discontinuation with/without sequential antiresorptive therapy in PLO. |
-| [39008200](https://pubmed.ncbi.nlm.nih.gov/39008200/) | 2024 | Review | Endocrine | Reviews effective strategies for PLO with specific focus on teriparatide use. |
-| [36764958](https://pubmed.ncbi.nlm.nih.gov/36764958/) | 2023 | Case Report | Calcified Tissue International | Bone microarchitecture/strength changes during combined teriparatide and zoledronic acid treatment in severe PLO. |
-| [33620518](https://pubmed.ncbi.nlm.nih.gov/33620518/) | 2022 | Review | Calcified Tissue International | Overview of PLO pathophysiology, diagnosis, and treatment landscape. |
-| [28084543](https://pubmed.ncbi.nlm.nih.gov/28084543/) | 2017 | Review | Zeitschrift für Rheumatologie | Identifies teriparatide and bisphosphonates as the best treatment options for PLO based on ~100 published cases. |
-| [39156353](https://pubmed.ncbi.nlm.nih.gov/39156353/) | 2024 | Case Report | Cureus | Successful subsequent pregnancy after teriparatide treatment for PLO. |
+| [40205203](https://pubmed.ncbi.nlm.nih.gov/40205203/) | 2025 | Systematisk oversikt/Meta-analyse | Osteoporosis International | 35 studier, 943 pasienter med graviditetsassosiert osteoporose; behandlingsresponsanalyse ikke konklusiv på grunn av begrenset data. |
+| [37708365](https://pubmed.ncbi.nlm.nih.gov/37708365/) | 2024 | Systematisk oversikt/Meta-analyse | J Clin Endocrinol Metab | Sammenlignet terapeutiske intervensjoner for PLO; optimal behandling fortsatt udefinerbar. |
+| [34132853](https://pubmed.ncbi.nlm.nih.gov/34132853/) | 2021 | Retrospektiv kohort/Kasusserie | Calcified Tissue International | 19 PLO-pasienter behandlet med teriparatide kontra konvensjonell behandling; vurderte benmineraltetthet og trabekkulært benpoeng-utfall. |
+| [35903718](https://pubmed.ncbi.nlm.nih.gov/35903718/) | 2022 | Kasusserie | Geburtshilfe und Frauenheilkunde | 47 kvinner med PLO og ryggsøylefrakturer behandlet med teriparatide; vurderte effekt på påfølgende frakturer og benmineraltetthet. |
+| [34037833](https://pubmed.ncbi.nlm.nih.gov/34037833/) | 2021 | Retrospektiv kohort | Calcified Tissue International | Evaluerte benmineraltetthet etter teriparatidediskontinuering med og uten sekvensielle antiresorptive terapi hos PLO. |
+| [39008200](https://pubmed.ncbi.nlm.nih.gov/39008200/) | 2024 | Oversikt | Endocrine | Gjennomgår effektive strategier for PLO med spesifikt fokus på teriparatidebruk. |
+| [36764958](https://pubmed.ncbi.nlm.nih.gov/36764958/) | 2023 | Kasusrapport | Calcified Tissue International | Benmikroarkitektur og styrkeendringer under kombinert teriparatide- og zoledronsyrebehandling i alvorlig PLO. |
+| [33620518](https://pubmed.ncbi.nlm.nih.gov/33620518/) | 2022 | Oversikt | Calcified Tissue International | Oversikt over PLO-patofysiologi, diagnose og behandlingslandskap. |
+| [28084543](https://pubmed.ncbi.nlm.nih.gov/28084543/) | 2017 | Oversikt | Zeitschrift für Rheumatologie | Identifiserer teriparatide og bifosfonater som de beste behandlingsalternativene for PLO basert på ~100 publiserte tilfeller. |
+| [39156353](https://pubmed.ncbi.nlm.nih.gov/39156353/) | 2024 | Kasusrapport | Cureus | Vellykket påfølgende graviditet etter teriparatidebehandling for PLO. |
 
 ---
 
-## Norway Market Information
+## Markedsinformasjon Norge
 
-Teriparatide is currently **not marketed in Norway** (0 authorizations on record). No license data is available to summarize product names, dosage forms, or approved indications.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information (`key_warnings`, `contraindications`, and DDI data are all marked as data gaps — DG001, Blocking severity).
-
-**Additional signal from literature (not part of formal safety dataset):** Two case reports (PMID 26992073) describe worsening of calcinosis cutis in osteoporosis patients with autoimmune disease (dermatomyositis, CREST syndrome) following teriparatide treatment — a signal worth flagging for pharmacist review, though not yet reflected in formal labeling data available to this evaluation.
+Teriparatide er for tiden **ikke markedsført i Norge** (0 godkjenninger registrert). Ingen lisensdata er tilgjengelig for å oppsummere produktnavn, dosisformer eller godkjente indikasjoner.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails** (for the PLO indication specifically)
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon (`key_warnings`, `contraindications` og DDI-data er alle merket som datakløfter — DG001, blokkering alvorlighetsgrad).
 
-**Rationale:**
-Teriparatide's anabolic mechanism is well-matched to PLO's rapid bone-loss pathophysiology, and multiple cohort studies, case series, and reviews support its off-label use with favorable BMD/fracture outcomes — but no RCT exists in this population, and the drug is not currently marketed in Norway. All other top-scoring TxGNN predictions (duodenal ulcer, esophageal malformation, Worth syndrome, etc.) should remain on **Hold**, as the evidence pack itself confirms no plausible mechanistic link or supporting evidence.
+**Ytterliggere signal fra litteratur (ikke del av formelt sikkerhetsdatasett):** To kasusrapporter (PMID 26992073) beskriver forverring av calcinosis cutis hos osteoporosepasienter med autoimmun sykdom (dermatomyositt, CREST-syndrom) etter teriparatidebehandling — et signal som er verdt å flagge for farmakøytgjennomgang, selv om det ennå ikke reflekteres i formelle merkingsdata tilgjengelig for denne evalueringen.
 
-**To proceed, the following is needed:**
-- TFDA/Norwegian label warnings and contraindications (Blocking data gap, DG001)
-- Detailed MOA data from DrugBank (High-priority data gap, DG002)
-- Regulatory pathway assessment given current unmarketed status in Norway
-- Formal safety review of teriparatide use during pregnancy/lactation (including known class-level osteosarcoma boxed warning and the calcinosis cutis signal above)
-- Prospective or registry-based studies in the PLO population to close the RCT evidence gap
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Fortsett med sikkerhetstiltak** (for PLO-indikasjonen spesifikt)
+
+**Begrunnelse:**
+Teriparatides anabole mekanisme er velmatched til PLOs raskt bentap-patofysiologi, og flere kohort-studier, kasusserier og oversikter støtter off-label bruk med gunstige benmineraltetthet-/frakturresultater — men ingen RCT eksisterer i denne populasjonen, og medikamentet er ikke for tiden markedsført i Norge. Alle andre topp-scorende TxGNN-prediksjoner (duodenalt ulcus, øsofagusmalformasjon, Worth-syndrom, osv.) bør forbli på **Avvent**, ettersom bevissamlingen selv bekrefter at det ikke finnes plausibel mekanistisk sammenheng eller støttende bevis.
+
+**For å fortsette, kreves følgende:**
+- TFDA/norske merkingsadvarsler og kontraindikasjoner (Blokkering datakløft, DG001)
+- Detaljert data om virkningsmekanisme fra DrugBank (Høy-prioritet datakløft, DG002)
+- Evaluering av regulatorisk vei gitt nåværende unmarkedsført status i Norge
+- Formell sikkerhetsgransking av teriparatidebruk under graviditet/laktasjon (inkludert kjent klassebokset sort boks-advarsel om osteosarkom og calcinosis cutis-signalet ovenfor)
+- Prospektive eller registerbaserte studier i PLO-populasjonen for å lukke RCT-bevisgapet
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

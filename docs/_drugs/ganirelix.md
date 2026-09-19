@@ -29,81 +29,82 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Ganirelix: From Unlicensed GnRH Antagonist to Hypertrichosis (Low-Confidence Prediction)
+# Ganirelix: Fra ikke-godkjent GnRH-antagonist til hypertrikose (prediksjon med lav sikkerhet)
 
-## One-Sentence Summary
+## Enlinjesummering
 
-> Ganirelix's original indication is not on file — the drug is currently **not marketed in Taiwan** and no approved-indication text exists in this evidence pack; based on the repurposing rationale notes it is understood as a GnRH receptor antagonist. TxGNN's top-ranked prediction is **Hypertrichosis (disease)**, but this prediction is supported by **0 clinical trials and 0 publications**, and the evidence pack's own mechanistic review flags it as unsubstantiated.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — drug is unlicensed/not marketed in Taiwan, no indication text on file |
-| Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.98% (rank #420 among all predictions) |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Taiwan Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+> Ganirelix' originale indikasjon er ikke dokumentert — legemidlet er for øyeblikket **ikke markedsført i Taiwan** og ingen godkjennelses-indikasjon-tekst finnes i denne bevissamlingen; basert på merknadene om ombruksrasjonale forstås det som en GnRH-reseptorantagonist. TxGNN's topprangerte prediksjon er **Hypertrikose (sykdom)**, men denne prediksjonen støttes av **0 kliniske studier og 0 publikasjoner**, og bevissamlingens egen mekanistiske gjennomgang flagget det som usubstansiert.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversikt
 
-Currently, detailed mechanism of action data for ganirelix is not available from DrugBank (data gap DG002). Based on the mechanistic annotations embedded in this evidence pack's repurposing rationale, ganirelix is a **GnRH receptor antagonist** — it blocks pituitary GnRH receptors and suppresses LH/FSH release, consistent with its known clinical role in reproductive endocrinology. No official original-indication text or license record exists because the drug is not currently marketed in Taiwan.
-
-For the **top-ranked prediction (Hypertrichosis)**, the evidence pack's own mechanistic review is explicitly skeptical: hypertrichosis is etiologically heterogeneous (drug-induced, endocrine, genetic), and there is **no clear pathway connecting GnRH/gonadal-axis suppression to generalized hair overgrowth**, except possibly in androgen-driven subtypes — a link the rationale itself describes as "insufficient to support the hypothesis." This is reflected in the **L5 evidence level and Hold recommendation** assigned to this candidate.
-
-Notably, several **lower-ranked candidates in this same prediction set show far stronger mechanistic coherence** than the top hit, because they involve conditions where the hypothalamic-pituitary-gonadal axis is the direct disease driver:
-- **Central precocious puberty (rank 9)** — GnRH-driven premature LH/FSH pulsatility is the most direct pharmacological match for a GnRH antagonist.
-- **Aromatase excess syndrome (rank 8)** — peripheral estrogen excess can secondarily trigger central precocious puberty, where GnRH antagonism could theoretically slow progression.
-- **Familial male-limited precocious puberty (rank 6)** — mechanism is peripheral (LHCGR mutation), so relevance is directionally uncertain but flagged as a "Research Question."
-
-These three are staged as **S1 / Research Question** rather than Hold, unlike the top-ranked hypertrichosis prediction, and may warrant separate evaluation despite currently having zero clinical or literature evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Ikke tilgjengelig — legemidlet er ikke godkjent/ikke markedsført i Taiwan, ingen indikasjon oppført |
+| Forventet ny indikasjon | Hypertrikose (sykdom) |
+| TxGNN prediksjonspoengsum | 99.98% (rangering #420 blant alle prediksjoner) |
+| Bevisnivå | L5 (modellprediksjon bare, ingen støttestudier) |
+| Taiwan markedsstatus | ✗ Ikke markedsført (Ikke markedsført) |
+| Antall godkjenninger | 0 |
+| Anbefalt avgjørelse | **Vent** |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+For øyeblikket er detaljerte data om virkningsmekanisme for ganirelix ikke tilgjengelige fra DrugBank (datahull DG002). Basert på de mekanistiske annoteringsene som er innebygd i denne bevissamlingens ombruksrasjonale, er ganirelix en **GnRH-reseptorantagonist** — det blokkerer GnRH-reseptorer i hypofysen og undertrykker LH/FSH-frigjøring, i samsvar med dens kjente kliniske rolle innen reproduktiv endokrinologi. Ingen offisiell originale-indikasjon eller lisenspost finnes fordi legemidlet ikke er markedsført i Taiwan.
 
----
+For den **topprankerte prediksjonen (Hypertrikose)** er bevissamlingens egen mekanistiske gjennomgang eksplisitt skeptisk: hypertrikose er etiologisk heterogen (legemiddelindusert, endokrin, genetisk), og det finnes **ingen klar sammenheng mellom undertrykking av GnRH/gonadal-aksen og generalisert hårvekst**, bortsett fra muligens i androgen-drevne undertyper — en forbindelse som rasjonalet selv beskriver som "utilstrekkelig til å støtte hypotesen." Dette reflekteres i **L5-bevisnivå og Vent-anbefalingen** tildelt denne kandidaten.
 
-## Taiwan Market Information
+Bemerkelsesverdig viser flere **lavere-rangerte kandidater i dette samme prediksjonssettet langt sterkere mekanistisk sammenheng** enn tophiten, fordi de involverer tilstander hvor hypotalamus-hypofyse-gonadal-aksen er den direkte sykdomsfaktoren:
+- **Sentral pubertas praecox (rangering 9)** — GnRH-drevet prematur LH/FSH-pulsatilitet er det mest direkte farmakologiske samsvaret for en GnRH-antagonist.
+- **Aromatase overskuddsyndrom (rangering 8)** — perifer østrogen overskudd kan sekundært utløse sentral pubertas praecox, hvor GnRH-antagonisme teoretisk kunne bremse progresjon.
+- **Familial mannbegrenset pubertas praecox (rangering 6)** — mekanisme er perifer (LHCGR-mutasjon), så relevans er retningsubestemt men flagget som et "Forskningsspørsmål."
 
-Ganirelix is **not currently licensed or marketed in Taiwan** — there are 0 authorization records on file, so no product/dosage-form/indication table can be generated.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA package-insert warnings/contraindications are flagged as a **Blocking** data gap (DG001) in this evidence pack — this must be resolved before any S1 safety pre-assessment can proceed.)*
+Disse tre er stadiet som **S1 / Forskningsspørsmål** snarere enn Vent, ulikt topprankerte hypertrikose-prediksjonen, og kan berettige separat evaluering til tross for at de for øyeblikket har null klinisk eller litteraturbevis.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra kliniske studier
 
-**Decision: Hold**
+Ingen relaterte kliniske studier er for øyeblikket registrert.
 
-**Rationale:**
-The top-ranked prediction (Hypertrichosis) has an extremely high TxGNN score but zero supporting clinical trials, zero literature, and the evidence pack's own mechanistic review judges the biological rationale as weak. This does not meet the bar to advance past S0.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently blocking (DG001)
-- DrugBank MOA data to formally validate the mechanistic rationale (DG002)
-- Original indication / regulatory history for ganirelix (currently absent from this evidence pack)
-- If the program wants to pursue the mechanistically stronger candidates instead (central precocious puberty, aromatase excess syndrome, familial male-limited precocious puberty), a dedicated literature/trial search is needed, as none currently exists for any of them
+## Litteraturbevis
+
+Ingen relatert litteratur er for øyeblikket tilgjengelig.
+
+---
+
+## Taiwan markedsinformasjon
+
+Ganirelix er **ikke for øyeblikket lisensiert eller markedsført i Taiwan** — det er 0 autorisasjonsposter på fil, så ingen produkt-/doseringsform-/indikasjonstabell kan genereres.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+*(Merk: TFDA-pakningsvedleggets advarsler/kontraindikasjoner er flagget som et **blokkerende** datahull (DG001) i denne bevissamlingen — dette må løses før noen S1 sikkerhetspre-vurdering kan fortsette.)*
+
+---
+
+## Konklusjon og neste steg
+
+**Avgjørelse: Vent**
+
+**Rasjonale:**
+Topprankerte prediksjonen (Hypertrikose) har et ekstremt høyt TxGNN-poengsum men null støttende kliniske studier, null litteratur, og bevissamlingens egen mekanistiske gjennomgang vurderer det biologiske rasjonalet som svakt. Dette oppfyller ikke kravet for å gå videre forbi S0.
+
+**For å fortsette, er det nødvendig med:**
+- TFDA-pakningsvedlegg (advarsler/kontraindikasjoner) — for øyeblikket blokkerer (DG001)
+- DrugBank MOA-data for formelt validere det mekanistiske rasjonalet (DG002)
+- Original indikasjon / regulatorisk historie for ganirelix (for øyeblikket fraværende fra denne bevissamlingen)
+- Hvis programmet ønsker å forfølge de mekanistisk sterkere kandidatene i stedet (sentral pubertas praecox, aromatase overskuddsyndrom, familial mannbegrenset pubertas praecox), er det nødvendig med et dedikert litteratur-/studiasøk, da ingen eksisterer for noen av dem for øyeblikket
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

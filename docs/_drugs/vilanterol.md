@@ -29,96 +29,97 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Vilanterol: From Combination Bronchodilator Component to Obstructive Lung Disease
+# Vilanterol: Fra kombinasjonsbrokklotspreider-komponent til obstruktiv lungesykdom
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-Vilanterol is a long-acting beta2-agonist (LABA) used almost exclusively as a component of fixed-dose combination inhalers (with fluticasone furoate and/or umeclidinium) for COPD and asthma maintenance therapy; no standalone original indication is recorded in this evidence pack. The TxGNN model assigns an extremely high score to **Obstructive Lung Disease**, and this signal is strongly corroborated by real-world evidence, with **50 clinical trials** and **20 publications** — including landmark trials such as IMPACT and FULFIL — currently supporting this direction.
+Vilanterol er en langvirkende beta2-agonist (LABA) som brukes nesten utelukkende som komponent i fastdose-kombinasjonsinhalatorer (med flutikasonafenoat og/eller umeklidinium) for vedlikeholdsterapi ved KOLS og astma; ingen frittstående original indikasjon er registrert i denne bevissamlingen. TxGNN-modellen gir en ekstremt høy poengsum til **Obstruktiv lungesykdom**, og dette signalet støttes sterkt av virkelighetsdata, med **50 kliniske studier** og **20 publikasjoner** — inkludert landemerke-studier som IMPACT og FULFIL — som for tiden støtter denne retningen.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not separately recorded in this evidence pack; Vilanterol is used as a LABA component in COPD/asthma combination inhalers (fluticasone furoate/vilanterol, umeclidinium/vilanterol, fluticasone furoate/umeclidinium/vilanterol) |
-| Predicted New Indication | Obstructive Lung Disease |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L1 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Opprinnelig indikasjon | Ikke separat registrert i denne bevissamlingen; Vilanterol brukes som en LABA-komponent i KOLS/astma-kombinasjonsinhalatorer (flutikasonafenoat/vilanterol, umeklidinium/vilanterol, flutikasonafenoat/umeklidinium/vilanterol) |
+| Predikert ny indikasjon | Obstruktiv lungesykdom |
+| TxGNN prediksjonspoeng | 99.97% |
+| Bevisnivå | L1 |
+| Status på norsk marked | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Fortsett under vilkår |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen fornuftig?
 
-Currently, detailed mechanism of action data is not available (DrugBank MOA field is a data gap). Based on known information, Vilanterol is a long-acting beta2-adrenergic agonist that is never marketed as a single agent — it is always combined with an inhaled corticosteroid (fluticasone furoate) and/or a long-acting muscarinic antagonist (umeclidinium) in products such as Relvar/Breo Ellipta, Anoro Ellipta, and Trelegy Ellipta.
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelig (DrugBank MOA-felt er et datakrav). Basert på kjent informasjon er vilanterol en langvirkende beta2-adrenergisk agonist som aldri markedsføres som et enkelt middel — det kombineres alltid med en inhalert kortikosteroid (flutikasonafenoat) og/eller en langvirkende muskarinantagonist (umeklidinium) i produkter som Relvar/Breo Ellipta, Anoro Ellipta og Trelegy Ellipta.
 
-The predicted indication, "obstructive lung disease," is essentially the umbrella category that already covers COPD and asthma — the two conditions these vilanterol-containing combinations are already approved and extensively studied for. This is not a novel mechanistic leap but a confirmatory signal: TxGNN has identified a relationship that is already densely supported by the existing evidence base for the drug class.
+Den predikerte indikasjonen, «obstruktiv lungesykdom», er i hovedsak paraplykategorien som allerede dekker KOLS og astma — de to tilstandene som disse vilanterol-inneholdende kombinasjonene allerede er godkjent og omfattende studert for. Dette er ikke et nytt mekanistisk sprang, men et bekraftende signal: TxGNN har identifisert en sammenheng som allerede er tett støttet av det eksisterende bevisgrunlaget for stoffklassen.
 
-This explains both the very high prediction score and the unusually large volume of supporting evidence (50 trials, 20 publications), including a Phase 3 mortality-outcome trial (IMPACT, n=16,568) and multiple large comparative-effectiveness studies. The main caveat is that Vilanterol itself has no recorded monotherapy indication and is not currently marketed in Norway, so any pathway forward would need to address it strictly as part of a combination product.
+Dette forklarer både den svært høye prediksjonspoengsum og det uvanlig store volumet av støttende bevis (50 studier, 20 publikasjoner), inkludert en fase 3-studie med mortalitetsutfalling (IMPACT, n=16,568) og flere store sammenligningsstudier av effektivitet. Det viktigste forbeholdet er at vilanterol selv ikke har noen registrert monoterapiindikasjon og ikke for tiden er markedsført i Norge, så enhver fremtidig vei ville måtte adressere det strengt som del av et kombinasjonsprodukt.
 
 ---
 
-## Clinical Trial Evidence
+## Bevis fra kliniske studier
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studie-nummer | Fase | Status | Antall deltakere | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT01313676](https://clinicaltrials.gov/study/NCT01313676) | Phase 3 | Completed | 16,568 | IMPACT trial: FF/UMEC/VI vs FF/VI vs UMEC/VI on survival in COPD patients with CV risk |
-| [NCT01706198](https://clinicaltrials.gov/study/NCT01706198) | Phase 3 | Completed | 4,233 | FF/VI vs usual maintenance therapy — 12-month effectiveness study in asthma |
-| [NCT02924688](https://clinicaltrials.gov/study/NCT02924688) | Phase 3 | Completed | 2,436 | FF/UMEC/VI vs FF/VI in inadequately controlled asthma |
-| [NCT03034915](https://clinicaltrials.gov/study/NCT03034915) | Phase 4 | Completed | 2,696 | UMEC/VI vs UMEC vs Salmeterol, 24-week COPD comparison |
-| [NCT02105974](https://clinicaltrials.gov/study/NCT02105974) | Phase 3 | Completed | 1,621 | FF/VI 100/25 vs VI 25 alone in COPD — lung function contribution study |
-| [NCT02345161](https://clinicaltrials.gov/study/NCT02345161) | Phase 3 | Completed | 1,811 | FF/UMEC/VI vs budesonide/formoterol in COPD |
-| [NCT01313650](https://clinicaltrials.gov/study/NCT01313650) | Phase 3 | Completed | 1,538 | GSK573719(UMEC)/VI and individual components vs placebo in COPD |
-| [NCT04937387](https://clinicaltrials.gov/study/NCT04937387) | Phase 3 | Completed | 359 | FF/UMEC/VI vs FF/VI in Chinese participants with inadequately controlled asthma |
-| [NCT05535972](https://clinicaltrials.gov/study/NCT05535972) | Phase 4 | Completed | 463 | Real-world effectiveness of Trelegy Ellipta (FF/UMEC/VI) in symptomatic COPD |
-| [NCT03474081](https://clinicaltrials.gov/study/NCT03474081) | Phase 4 | Completed | 800 | Single inhaler triple therapy (FF/UMEC/VI) vs tiotropium monotherapy in COPD |
+| [NCT01313676](https://clinicaltrials.gov/study/NCT01313676) | Fase 3 | Fullført | 16,568 | IMPACT-studie: FF/UMEC/VI vs FF/VI vs UMEC/VI på overlevelse hos KOLS-pasienter med CV-risiko |
+| [NCT01706198](https://clinicaltrials.gov/study/NCT01706198) | Fase 3 | Fullført | 4,233 | FF/VI vs vanlig vedlikeholdsterapi — 12-månederseffektivitetsstudie ved astma |
+| [NCT02924688](https://clinicaltrials.gov/study/NCT02924688) | Fase 3 | Fullført | 2,436 | FF/UMEC/VI vs FF/VI ved utilstrekkelig kontrollert astma |
+| [NCT03034915](https://clinicaltrials.gov/study/NCT03034915) | Fase 4 | Fullført | 2,696 | UMEC/VI vs UMEC vs Salmeterol, 24-ukers KOLS-sammenligningstudie |
+| [NCT02105974](https://clinicaltrials.gov/study/NCT02105974) | Fase 3 | Fullført | 1,621 | FF/VI 100/25 vs VI 25 alene ved KOLS — lungefunksjonsbidragstudie |
+| [NCT02345161](https://clinicaltrials.gov/study/NCT02345161) | Fase 3 | Fullført | 1,811 | FF/UMEC/VI vs budesonid/formoterol ved KOLS |
+| [NCT01313650](https://clinicaltrials.gov/study/NCT01313650) | Fase 3 | Fullført | 1,538 | GSK573719(UMEC)/VI og individuelle komponenter vs placebo ved KOLS |
+| [NCT04937387](https://clinicaltrials.gov/study/NCT04937387) | Fase 3 | Fullført | 359 | FF/UMEC/VI vs FF/VI hos kinesiske deltakere med utilstrekkelig kontrollert astma |
+| [NCT05535972](https://clinicaltrials.gov/study/NCT05535972) | Fase 4 | Fullført | 463 | Virkelighetseffektivitet av Trelegy Ellipta (FF/UMEC/VI) ved symptomatisk KOLS |
+| [NCT03474081](https://clinicaltrials.gov/study/NCT03474081) | Fase 4 | Fullført | 800 | Triple terapi med enkelt inhalator (FF/UMEC/VI) vs tiotropium monoterapi ved KOLS |
 
 ---
 
-## Literature Evidence
+## Bevis fra litteraturen
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [29668352](https://pubmed.ncbi.nlm.nih.gov/29668352/) | 2018 | RCT | New England Journal of Medicine | IMPACT trial: once-daily single-inhaler triple vs dual therapy in COPD |
-| [28375647](https://pubmed.ncbi.nlm.nih.gov/28375647/) | 2017 | RCT | Am J Respir Crit Care Med | FULFIL trial: once-daily triple therapy for COPD |
-| [32918892](https://pubmed.ncbi.nlm.nih.gov/32918892/) | 2021 | RCT | Lancet Respiratory Medicine | CAPTAIN trial: FF/UMEC/VI vs FF/VI in inadequately controlled asthma |
-| [32162970](https://pubmed.ncbi.nlm.nih.gov/32162970/) | 2020 | RCT (post-hoc) | Am J Respir Crit Care Med | Reduction in all-cause mortality with FF/UMEC/VI vs UMEC/VI (IMPACT follow-up) |
-| [32299860](https://pubmed.ncbi.nlm.nih.gov/32299860/) | 2020 | RCT (subgroup) | European Respiratory Journal | Effect of exacerbation history on outcomes in the IMPACT trial |
-| [35849317](https://pubmed.ncbi.nlm.nih.gov/35849317/) | 2022 | Network Meta-Analysis | Advances in Therapy | FF/UMEC/VI vs other triple/dual therapies for COPD |
-| [39696097](https://pubmed.ncbi.nlm.nih.gov/39696097/) | 2024 | Systematic Review/Meta-analysis | BMC Pulmonary Medicine | UMEC/VI vs other bronchodilators in COPD management |
-| [31389190](https://pubmed.ncbi.nlm.nih.gov/31389190/) | 2019 | Systematic Review | The Clinical Respiratory Journal | Fixed-dose UMEC/VI for COPD |
-| [28956463](https://pubmed.ncbi.nlm.nih.gov/28956463/) | 2017 | Review | Expert Review of Respiratory Medicine | FF and vilanterol for treatment of COPD |
-| [39797646](https://pubmed.ncbi.nlm.nih.gov/39797646/) | 2024 | Cohort Study | BMJ | Comparative effectiveness/safety of single-inhaler triple therapies in COPD (new-user cohort) |
+| [29668352](https://pubmed.ncbi.nlm.nih.gov/29668352/) | 2018 | RCT | New England Journal of Medicine | IMPACT-studie: enkeltdoser trippleterapi vs dobbel terapi ved KOLS |
+| [28375647](https://pubmed.ncbi.nlm.nih.gov/28375647/) | 2017 | RCT | Am J Respir Crit Care Med | FULFIL-studie: engang daglig trippleterapi ved KOLS |
+| [32918892](https://pubmed.ncbi.nlm.nih.gov/32918892/) | 2021 | RCT | Lancet Respiratory Medicine | CAPTAIN-studie: FF/UMEC/VI vs FF/VI ved utilstrekkelig kontrollert astma |
+| [32162970](https://pubmed.ncbi.nlm.nih.gov/32162970/) | 2020 | RCT (post-hoc) | Am J Respir Crit Care Med | Reduksjon i all-cause mortalitet med FF/UMEC/VI vs UMEC/VI (IMPACT-oppfølging) |
+| [32299860](https://pubmed.ncbi.nlm.nih.gov/32299860/) | 2020 | RCT (undergruppe) | European Respiratory Journal | Effekt av eksaserbasjonshistorie på utfall i IMPACT-studien |
+| [35849317](https://pubmed.ncbi.nlm.nih.gov/35849317/) | 2022 | Nettverks meta-analyse | Advances in Therapy | FF/UMEC/VI vs annen trippleterapi/dobbel terapi ved KOLS |
+| [39696097](https://pubmed.ncbi.nlm.nih.gov/39696097/) | 2024 | Systematisk gjennomgang/Meta-analyse | BMC Pulmonary Medicine | UMEC/VI vs andre bronkodilatorer i KOLS-behandling |
+| [31389190](https://pubmed.ncbi.nlm.nih.gov/31389190/) | 2019 | Systematisk gjennomgang | The Clinical Respiratory Journal | Fastdose UMEC/VI ved KOLS |
+| [28956463](https://pubmed.ncbi.nlm.nih.gov/28956463/) | 2017 | Oversikt | Expert Review of Respiratory Medicine | FF og vilanterol for behandling av KOLS |
+| [39797646](https://pubmed.ncbi.nlm.nih.gov/39797646/) | 2024 | Kohort-studie | BMJ | Sammenlignende effektivitet/sikkerhet for trippleterapi med enkelt inhalator ved KOLS (nybruker-kohort) |
 
 ---
 
-## Norway Market Information
+## Informasjon om norsk marked
 
-Vilanterol is currently not marketed in Norway, and no product authorizations are recorded (total licenses: 0). No license-level product details (authorization number, product name, dosage form, approved indication) are available in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug-drug interaction data were available for evaluation (DDI query returned no results); this is flagged as a **Blocking** data gap (DG001) preventing a formal S1 safety assessment.
+Vilanterol er for tiden ikke markedsført i Norge, og ingen produktgodkjennelser er registrert (totalt lisenser: 0). Ingen detaljdata på lisenssnivå (godkjenningsnummer, produktnavn, legemiddelform, godkjent indikasjon) er tilgjengelig i denne bevissamlingen.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Ingen viktige advarsler, kontraindikasjoner eller data om legemiddelinteraksjoner var tilgjengelige for evaluering (DDI-spørring returnerte ingen resultater); dette flagges som en **blokkerande** datakluft (DG001) som hindrer en formell S1-sikkerhetssvurdering.
 
-**Rationale:**
-Efficacy evidence is exceptionally strong (L1: multiple large, completed Phase 3 RCTs including the landmark IMPACT and FULFIL trials, plus mortality-benefit data), but this evidence largely reconfirms Vilanterol's established role in COPD/asthma combination therapy rather than revealing a novel indication. Formal safety labeling and Norway market status data are both missing, which blocks a complete regulatory/safety evaluation.
+---
 
-**To proceed, the following is needed:**
-- Official product label / SmPC (warnings, contraindications, DDI) to resolve the Blocking data gap (DG001)
-- DrugBank/mechanism-of-action confirmation (DG002)
-- Clarification of whether any monotherapy or combination-product pathway is planned for the Norway market, since Vilanterol has zero current authorizations there
-- Confirmation that any "new indication" framing accounts for the fact that this is largely confirmatory evidence for an already-established combination-therapy use, not a de novo repurposing signal
+## Konklusjon og neste trinn
+
+**Beslutning: Fortsett under vilkår**
+
+**Begrunnelse:**
+Effektivitetsbeviser er ekstremt sterke (L1: flere store, fullførte fase 3 RCT-er inkludert landemerke-studiene IMPACT og FULFIL, pluss mortalitetsfordelsdata), men disse bevisene bekrefter i stor grad vilanterols etablerte rolle i KOLS/astma-kombinasjonsterapi heller enn å avsløre en ny indikasjon. Formell sikkerhetsmerketing og informasjon om status på norsk marked mangler begge, noe som blokkerer en komplett regulatorisk/sikkerhetsevaluering.
+
+**For å fortsette trengs følgende:**
+- Offisiell produktmerking / SmPC (advarsler, kontraindikasjoner, DDI) for å løse blokkerandekluften (DG001)
+- DrugBank/virkningsmekanisme-bekreftelse (DG002)
+- Avklaring av om noen monoterapi- eller kombinasjonsprodukt-vei planlegges for det norske markedet, siden vilanterol har null gjeldende godkjennelser der
+- Bekreftelse på at eventuell «ny indikasjon»-framing redegjør for at dette i stor grad er bekraftende bevis for en allerede etablert kombinasjonsterapi-bruk, ikke et de novo repurposing-signal
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

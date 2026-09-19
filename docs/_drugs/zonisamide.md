@@ -29,59 +29,60 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Zonisamide: From Epilepsy (Partial Seizures) to Tourette Syndrome
+# Zonisamid: Fra epilepsi (partielle anfall) til Tourettes syndrom
 
-## One-Sentence Summary
+## Oppsummering i en setning
 
-Zonisamide is a broad-spectrum antiepileptic drug, classically used as adjunctive therapy for partial seizures. The TxGNN model predicts it may be effective for **Tourette syndrome**, but this direction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model prediction.
+Zonisamid er et bredt antiepilepsi-legemiddel som klassisk brukes som adjuvant terapi for partielle anfall. TxGNN-modellen forutsier at det kan være effektivt for **Tourettes syndrom**, men denne retningen er for tiden støttet av **0 kliniske forsøk** og **0 publikasjoner** — det er en ren modellforutsigelse.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Epilepsy, partial seizures (adjunctive therapy) — inferred from known drug classification; no Norway license record available (drug not currently marketed) |
-| Predicted New Indication | Tourette syndrome |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Punkt | Innhold |
+|------|--------|
+| Opprinnelig indikasjon | Epilepsi, partielle anfall (adjuvant terapi) — utledet fra kjent legemiddelklassifisering; ingen norsk lisensuregistrering tilgjengelig (legemiddelet er ikke for tiden markedsført) |
+| Forutsagt ny indikasjon | Tourettes syndrom |
+| TxGNN-prediksjonspoengsum | 99.85% |
+| Bevisgrad | L5 |
+| Markedsstatus i Norge | Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available. Based on known information, zonisamide is classified as a broad-spectrum anticonvulsant (multiple mechanisms including Na⁺ and T-type Ca²⁺ channel blockade), its efficacy in epilepsy/partial seizures has been proven, and mechanistically it may theoretically be applicable to tic disorders.
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelig. Basert på kjent informasjon klassifiseres zonisamid som et bredt antikrampemiddel (flere mekanismer inkludert Na⁺ og T-type Ca²⁺-kanalblokkering), dets effektivitet ved epilepsi/partielle anfall er blitt bevist, og mekanistisk kan det teoretisk være anvendelig for tikforstyrrelser.
 
-The rationale for Tourette syndrome specifically rests on zonisamide's dopaminergic modulatory activity, loosely analogous to case reports of other antiepileptic drugs used off-label for tic disorders. However, this dataset contains no clinical trials or literature directly supporting this indication — the association is derived purely from the TxGNN knowledge-graph prediction, not from any observed or documented efficacy signal.
+Begrunnelsen for Tourettes syndrom spesielt hviler på zonisamids dopaminerg modulatorisk aktivitet, løst analogt med kasuistikker av andre antiepilepsi-legemidler brukt off-label for tikforstyrrelser. Imidlertid inneholder dette datasettet ingen kliniske forsøk eller litteratur som direkte støtter denne indikasjonen — assosiasjonen er utledet rent fra TxGNN-kunnskapsgraforediksjonen, ikke fra noe observert eller dokumentert effektivitetssignal.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøk
 
-Currently no related clinical trials registered.
+For tiden ingen relaterte kliniske forsøk registrert.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+For tiden ingen relatert litteratur tilgjengelig.
 
-## Norway Market Information
+## Informasjon om marked i Norge
 
-Zonisamide currently holds no marketing authorizations in Norway (market status: Not Marketed, 0 licenses on record).
+Zonisamid har for tiden ingen markedsføringstillatelser i Norge (markedsstatus: Ikke markedsført, 0 lisenser registrert).
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-The top-ranked prediction (Tourette syndrome) has no supporting clinical trials or literature — it is evidence level L5, a pure model-based association with no observed efficacy or safety signal, so it cannot proceed without further validation.
+**Begrunnelse:**
+Den topprankede prediksjonen (Tourettes syndrom) har ingen støttende kliniske forsøk eller litteratur — det er bevisgrad L5, en ren modellbasert assosiasjon uten observert efficacy eller sikkerhetssignal, så det kan ikke avansere uten ytterligere validering.
 
-**To proceed, the following is needed:**
-- TFDA/local regulatory label data (warnings, contraindications) — currently a blocking data gap
-- Detailed mechanism of action (MOA) documentation
-- Preclinical or case-level evidence directly linking zonisamide to tic-disorder symptom reduction
-- **Note for prioritization:** other candidates in this evidence pack are far better supported and merit separate review — notably *absence epilepsy* (rank 8, evidence level L1, decision stage S3, "Proceed with Guardrails," backed by a completed Phase 3 RCT with n=583 directly comparing zonisamide to carbamazepine). This is likely a more actionable repurposing candidate than the top TxGNN-ranked indication.
-- Caution: predictions for *methemoglobinemia* (ranks 3, 4, 6) may reflect an **adverse-effect direction rather than a therapeutic one**, since zonisamide is a sulfonamide derivative and sulfonamides are known to induce (not treat) methemoglobinemia — these should be flagged as likely false positives during safety review, not pursued as indications.
+**For å avansere, er følgende nødvendig:**
+- TFDA/lokale regulatoriske merkedata (advarsler, kontraindikasjoner) — for tiden en blokkerende datagap
+- Detaljert dokumentasjon av virkningsmekanisme (MOA)
+- Prekliniske eller kasuistiske bevis som direkte knytter zonisamid til reduksjon av tikforstyrrelsessymptomer
+- **Merknad for prioritering:** andre kandidater i denne bevispakken er langt bedre støttet og fortjener separat gjennomgang — særlig *absence epilepsi* (rang 8, bevisgrad L1, beslutningsstadium S3, "Avansér med sikkerhetstiltak," støttet av en fullført fase 3 RCT med n=583 som direkte sammenlignet zonisamid med carbamazepin). Dette er sannsynligvis en mer handlingsdyktig ombrukingskandidat enn topprangeringen fra TxGNN.
+- Forsiktighet: prediksjoner for *metthemoglobinemi* (ranger 3, 4, 6) kan gjenspeile en **bivirkningsretning snarere enn en terapeutisk**, siden zonisamid er et sulfonamid-derivat og sulfonamider er kjent for å indusere (ikke behandle) metthemoglobinemi — disse bør flagges som sannsynlige falske positiver under sikkerhetsvurdering, ikke forfølges som indikasjoner.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

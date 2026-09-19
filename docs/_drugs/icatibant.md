@@ -29,88 +29,89 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Icatibant: From Undocumented Original Indication to C1 Inhibitor Deficiency
+# Icatibant: Fra Udokumentert Original Indikasjon til C1-inhibitor-mangel
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-> Icatibant's original approved indication was not specified in this evidence pack (the drug is not currently marketed in Norway).
-> The TxGNN model predicts it may be effective for **C1 Inhibitor Deficiency**,
-> with **0 registered clinical trials** and **20 publications** currently supporting this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in regulatory data (drug not marketed in Norway) |
-| Predicted New Indication | C1 inhibitor deficiency |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L3 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Icatibants opprinnelige godkjente indikasjon var ikke spesifisert i denne bevissamlingen (legemidlet er ikke for tiden markedsført i Norge).
+> TxGNN-modellen forutsier at den kan være effektiv for **C1-inhibitor-mangel**,
+> med **0 registrerte kliniske prøver** og **20 publikasjoner** som for tiden støtter denne retningen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask Oversikt
 
-Currently, detailed mechanism of action data is not available in the structured evidence pack (`original_moa: [Data Gap]`). However, the supporting literature consistently and independently describes icatibant as a selective **bradykinin B2 receptor antagonist**, used to block bradykinin-mediated vascular permeability in patients with C1 inhibitor deficiency (e.g., PMID 22686628: "Icatibant, a bradykinin B2 receptor antagonist, is an established treatment for acute attacks of hereditary angioedema (HAE) with C1-inhibitor (C1-INH) deficiency"; PMID 34965883 describes it as "indicated for the acute treatment of hereditary angioedema (HAE) attacks").
-
-No formal "original indication" field was provided for the Norway market, but the literature body — spanning national registries and cohorts from Spain, Czech Republic, UK, Italy, Croatia, and the Asia-Pacific region across 2010–2024 — consistently and specifically links icatibant to the treatment of angioedema attacks caused by C1-INH deficiency (both hereditary and acquired forms). This suggests the TxGNN-predicted association reflects an already well-established pharmacological use rather than a novel, speculative repurposing hypothesis.
-
-Mechanistically, C1-INH deficiency leads to unchecked activation of the kallikrein-kinin cascade and excess bradykinin generation, which drives the vascular permeability and tissue swelling characteristic of angioedema attacks. Direct antagonism of the bradykinin B2 receptor addresses this core pathophysiology, which explains why the evidence base — though largely observational/registry-based rather than randomized — is broad and consistent across multiple independent populations.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Original Indikasjon | Ikke spesifisert i regulatoriske data (legemidlet er ikke markedsført i Norge) |
+| Forutsagt Ny Indikasjon | C1-inhibitor-mangel |
+| TxGNN Prediktiv Poengsum | 99.99% |
+| Bevisnivå | L3 |
+| Norsk Markedsstatus | ✗ Ikke markedsført |
+| Antall Godkjenninger | 0 |
+| Anbefalt Beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne Prediksjonen Rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [37898409](https://pubmed.ncbi.nlm.nih.gov/37898409/) | 2024 | Review | J Allergy Clin Immunol | Reviews disease burden of C1-INH-deficient HAE with focus on Asia-Pacific access gaps |
-| [37716525](https://pubmed.ncbi.nlm.nih.gov/37716525/) | 2023 | Retrospective (bicenter) | JACI In Practice | Diagnosis, course, and therapy of acquired C1-INH deficiency; notes no licensed therapy exists for the acquired form |
-| [37146882](https://pubmed.ncbi.nlm.nih.gov/37146882/) | 2023 | National survey | JACI In Practice | UK-wide demographic survey of HAE and acquired C1-INH deficiency patients |
-| [35871284](https://pubmed.ncbi.nlm.nih.gov/35871284/) | 2023 | Retrospective chart review | J Clin Pharmacol | Documents extensive off-label use of icatibant/C1-INH concentrates in non-HAE bradykinin-mediated angioedema (2016–2020) |
-| [35662289](https://pubmed.ncbi.nlm.nih.gov/35662289/) | 2022 | Registry-based analysis | Clin Exp Allergy | Icatibant and C1-inhibitor use in treating laryngeal HAE attacks |
-| [34965883](https://pubmed.ncbi.nlm.nih.gov/34965883/) | 2021 | Real-world registry (Icatibant Outcome Survey) | Allergy Asthma Clin Immunol | Spain-specific outcomes for icatibant in C1-INH-deficient HAE (type 1/2) |
-| [33472202](https://pubmed.ncbi.nlm.nih.gov/33472202/) | 2021 | Nationwide retrospective study | Int Arch Allergy Immunol | Czech Republic occurrence, clinical features, and management of acquired C1-INH deficiency |
-| [33602658](https://pubmed.ncbi.nlm.nih.gov/33602658/) | 2021 | Review | J Investig Allergol Clin Immunol | Overview of HAE treatment landscape including kallikrein-kinin pathway inhibitors |
-| [32753245](https://pubmed.ncbi.nlm.nih.gov/32753245/) | 2020 | Clinical recommendations (CREAK) | Rev Med Interne | French expert recommendations for diagnosis and treatment of acquired C1-INH-deficient angioedema |
-| [30280305](https://pubmed.ncbi.nlm.nih.gov/30280305/) | 2018 | Case series | J Clin Immunol | Icatibant and recombinant C1-INH use for HAE attacks during pregnancy |
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige i den strukturerte bevissamlingen (`original_moa: [Data Gap]`). Imidlertid beskriver den støttende litteraturen konsekvent og uavhengig icatibant som en selektiv **bradykinin B2-reseptorantagonist**, brukt for å blokkere bradykinin-formidlet vaskulær permeabilitet hos pasienter med C1-inhibitor-mangel (f.eks. PMID 22686628: "Icatibant, en bradykinin B2-reseptorantagonist, er en etablert behandling for akutte anfall av arvelig angioødem (HAE) med C1-inhibitor (C1-INH) mangel"; PMID 34965883 beskriver den som "indikert for akutt behandling av arvelig angioødem (HAE) anfall").
+
+Intet formelt "original indikasjon"-felt ble gitt for det norske markedet, men litteratursamlingen — som omfatter nasjonale registre og kohorter fra Spania, Tsjekkia, Storbritannia, Italia, Kroatia og Asia-Stillehavsregionen fra 2010–2024 — knytter konsekvent og spesifikt icatibant til behandling av angioødem-anfall forårsaket av C1-INH-mangel (både arvelig og ervervet form). Dette antyder at den TxGNN-forutsagte assosiationen reflekterer en allerede veletablert farmakologisk bruk snarere enn en ny, spekulativ hypotese om legemiddelombruk.
+
+Mekanistisk fører C1-INH-mangel til ukontrollert aktivering av kallikrein-kininkaskaden og overproduksjon av bradykinin, som fører til vaskulær permeabilitet og vevsoppsvelling karakteristisk for angioødem-anfall. Direkte antagonisme av bradykinin B2-reseptoren håndterer denne kjernepathofysiologien, som forklarer hvorfor bevisgrunnlaget — selv om det er stort sett observasjonsbasert/registerbasert snarere enn randomisert — er bredt og konsistent på tvers av flere uavhengige populasjoner.
 
 ---
 
-## Norway Market Information
+## Bevis fra Kliniske Prøver
 
-Currently not marketed in Norway; no authorization records are available (`total_licenses: 0`).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. A Blocking data gap (missing TFDA-equivalent label warnings/contraindications) currently prevents a full safety review of this candidate.
+For tiden er det ingen relaterte kliniske prøver registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+| PMID | År | Type | Tidsskrift | Viktige Funn |
+|------|-----|------|---------|---------|
+| [37898409](https://pubmed.ncbi.nlm.nih.gov/37898409/) | 2024 | Oversikt | J Allergy Clin Immunol | Gjennomgår sykdomsbyrden av C1-INH-mangel HAE med fokus på tilgangsgap i Asia-Stillehavsregionen |
+| [37716525](https://pubmed.ncbi.nlm.nih.gov/37716525/) | 2023 | Retrospektiv (to-senters) | JACI In Practice | Diagnose, forløp og terapi for ervervet C1-INH-mangel; bemerker at ingen godkjent terapi eksisterer for den ervervede formen |
+| [37146882](https://pubmed.ncbi.nlm.nih.gov/37146882/) | 2023 | Nasjonal undersøkelse | JACI In Practice | Demografisk undersøkelse på landsnivå i Storbritannia av HAE og ervervede C1-INH-mangel pasienter |
+| [35871284](https://pubmed.ncbi.nlm.nih.gov/35871284/) | 2023 | Retrospektiv journalgjennomgang | J Clin Pharmacol | Dokumenterer omfattende off-label bruk av icatibant/C1-INH-konsentrater i ikke-HAE bradykinin-formidlet angioødem (2016–2020) |
+| [35662289](https://pubmed.ncbi.nlm.nih.gov/35662289/) | 2022 | Registerbasert analyse | Clin Exp Allergy | Icatibant og C1-inhibitorbruk ved behandling av laryngeal HAE-anfall |
+| [34965883](https://pubmed.ncbi.nlm.nih.gov/34965883/) | 2021 | Virkelighetsregister (Icatibant Outcome Survey) | Allergy Asthma Clin Immunol | Spania-spesifikke resultater for icatibant i C1-INH-mangel HAE (type 1/2) |
+| [33472202](https://pubmed.ncbi.nlm.nih.gov/33472202/) | 2021 | Nasjonalomfattende retrospektiv studie | Int Arch Allergy Immunol | Forekomst i Tsjekkia, kliniske trekk og ledelse av ervervet C1-INH-mangel |
+| [33602658](https://pubmed.ncbi.nlm.nih.gov/33602658/) | 2021 | Oversikt | J Investig Allergol Clin Immunol | Oversikt over HAE-behandlingslandskapet inkludert kallikrein-kinin-banehemmere |
+| [32753245](https://pubmed.ncbi.nlm.nih.gov/32753245/) | 2020 | Kliniske anbefalinger (CREAK) | Rev Med Interne | Franske ekspertanbefalinger for diagnose og behandling av ervervet C1-INH-mangel angioødem |
+| [30280305](https://pubmed.ncbi.nlm.nih.gov/30280305/) | 2018 | Kasusserie | J Clin Immunol | Icatibant og rekombinant C1-INH-bruk for HAE-anfall under graviditet |
 
-**Rationale:**
-The predicted indication is supported by a strong TxGNN score and a consistent, multi-national body of observational/registry literature, but no randomized clinical trial data is present in this evidence pack, and a Blocking safety data gap (DG001) explicitly prevents entry into the S1 safety review stage.
+---
 
-**To proceed, the following is needed:**
-- TFDA-equivalent package insert (warnings, contraindications) — resolves DG001
-- Confirmed mechanism of action documentation from DrugBank — resolves DG002
-- Formal original indication/regulatory history for this candidate (currently absent)
-- Registered clinical trial evidence, if any exists, to upgrade evidence level beyond L3
-- Norway market entry/registration pathway assessment, given current "not marketed" status
+## Norsk Markedsinformasjon
+
+For tiden ikke markedsført i Norge; ingen godkjenningsregistreringer er tilgjengelige (`total_licenses: 0`).
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Et blokkerende datahull (manglende TFDA-ekvivalente merkingadvarsler/kontraindikasjoner) forhindrer for tiden en full sikkerhetsvurdering av denne kandidaten.
+
+---
+
+## Konklusjon og Neste Trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Den forutsatte indikasjon er støttet av en sterk TxGNN-poengsum og en konsistent, flernasjonalt korpus av observasjons-/registerbasert litteratur, men ingen randomiserte kliniske prøvedata er til stede i denne bevissamlingen, og et blokkerende sikkerhetsdatahull (DG001) eksplisitt forhindrer inntreden i S1-fasen for sikkerhetsvurdering.
+
+**For å gå videre kreves følgende:**
+- TFDA-ekvivalent pakningsvedlegg (advarsler, kontraindikasjoner) — løser DG001
+- Bekreftet dokumentasjon av virkningsmekanisme fra DrugBank — løser DG002
+- Formell original indikasjon/regulatorisk historie for denne kandidaten (for tiden fraværende)
+- Registrert klinisk prøvebevis, hvis det finnes, for å heve bevisnivået over L3
+- Vurdering av muligheter for markedsinntreden og registrering i Norge, gitt den nåværende "ikke markedsført" statusen
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

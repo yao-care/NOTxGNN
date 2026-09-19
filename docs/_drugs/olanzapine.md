@@ -29,95 +29,96 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Olanzapine: From Schizophrenia/Bipolar Disorder to Agoraphobia (Treatment-Resistant Panic Disorder)
+# Olanzapin: fra schizofreni/bipolar lidelse til agorafobi (behandlingsresistent panikksyndrom)
 
-## One-Sentence Summary
+## Sammendrag på én setning
 
-Olanzapine is a well-established atypical antipsychotic used for schizophrenia and bipolar I disorder. Among three TxGNN-predicted new indications in this evidence pack, the most clinically credible signal points to **Agoraphobia**, specifically as an augmentation therapy in treatment-resistant panic disorder, supported by **7 publications** (no dedicated clinical trials yet). Evidence level is **L3**, and a critical safety data gap (TFDA warnings/contraindications) currently blocks full risk assessment.
+Olanzapin er et veletablert atypisk antipsykotikum som brukes for schizofreni og bipolar I lidelse. Blant tre TxGNN-forutsagte nye indikasjoner i denne evidenspakken, peker det mest klinisk troverdige signalet mot **agorafobi**, spesielt som forsterkningsterapeutikk ved behandlingsresistent panikksyndrom, støttet av **7 publikasjoner** (ennå ingen egne kliniske studier). Evidensnivå er **L3**, og en kritisk sikkerhetsdatakløft (TFDA-advarsler/kontraindikasjoner) blokkerer for tiden full risikovurdering.
 
-> Note: This evidence pack contains 3 TxGNN-predicted indications for olanzapine. The top TxGNN-ranked prediction ("benign paroxysmal torticollis of infancy") is explicitly flagged in its own rationale as having no mechanistic support and a serious pediatric safety concern, so it is **not** used as the lead indication in this report. See "Other Predicted Indications" below.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in the evidence pack. (General pharmacology background: olanzapine is an atypical antipsychotic typically approved for schizophrenia and bipolar I disorder — not sourced from this evidence pack.) |
-| Predicted New Indication | Agoraphobia (as augmentation in treatment-resistant panic disorder) |
-| TxGNN Prediction Score | 99.47% (rank 5685) |
-| Evidence Level | L3 |
-| Market Status | ✗ Not marketed (0 authorizations on record) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Merk: Denne evidenspakken inneholder 3 TxGNN-forutsagte indikasjoner for olanzapin. Den høyest TxGNN-rangerte prediksjonen ("benign paroksysmal tortikollis i spedbarnsalderen") er eksplisitt flagget i sin egen begrunnelse som manglende mekanistisk grunnlag og alvorlige bekymringer om sikkerhet ved pediatrisk bruk, så den brukes **ikke** som hovedindikasjonen i denne rapporten. Se "Andre forutsagte indikasjoner" nedenfor.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Detailed formal MOA data for olanzapine (`original_moa`) is flagged as a data gap in this evidence pack (DG002). Based on the mechanistic rationale extracted from the literature evidence itself, olanzapine acts as a **D2/5-HT2A receptor antagonist**. This dual dopaminergic-serotonergic modulation is theorized to reduce anxiety and catastrophic cognitive interpretation in patients with treatment-resistant panic disorder and agoraphobia.
-
-Critically, the literature does **not** support olanzapine as monotherapy for agoraphobia. Rather, the strongest study (Sepede et al., 2006, 12-week open-label fixed-dose trial) evaluated low-dose olanzapine (5 mg/d) as an **add-on to SSRIs** in patients who had already failed SSRI monotherapy. This is consistent with the broader literature theme: olanzapine augmentation in SSRI/SNRI-resistant panic disorder with agoraphobia, not first-line or standalone treatment.
-
-Because the original approved use (schizophrenia/bipolar disorder) and the predicted new use (anxiety/panic-spectrum disorder) both involve modulation of dopaminergic-serotonergic circuitry implicated in mood and anxiety regulation, the mechanistic extension to a treatment-resistant anxiety indication is biologically plausible, though it remains supported only by small open-label and case-level evidence rather than confirmatory RCTs.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Ikke registrert i evidenspakken. (Generell farmakologibakgrunn: olanzapin er et atypisk antipsykotikum vanligvis godkjent for schizofreni og bipolar I lidelse — ikke hentet fra denne evidenspakken.) |
+| Forutsagt ny indikasjon | Agorafobi (som forsterkningsterapeutikk ved behandlingsresistent panikksyndrom) |
+| TxGNN-prediksjonsscore | 99.47% (rang 5685) |
+| Evidensnivå | L3 |
+| Markedsstatus | ✗ Ikke markedsført (0 godkjenninger registrert) |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Venting |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
+Detaljerte formelle MOA-data for olanzapin (`original_moa`) er flagget som en datakløft i denne evidenspakken (DG002). Basert på den mekanistiske begrunnelsen som er trukket ut fra litteraturbeviset selv, virker olanzapin som en **D2/5-HT2A-reseptorantagonist**. Denne doble dopaminerge-serotoninerg modulering antas å redusere angst og katastrofal kognitiv tolkning hos pasienter med behandlingsresistent panikksyndrom og agorafobi.
+
+Kritisk sett støtter litteraturen **ikke** olanzapin som monoterapi for agorafobi. Snarere evaluerte den sterkeste studien (Sepede et al., 2006, 12-ukers åpen-merke fast-dose forsøk) lavdose olanzapin (5 mg/dag) som et **tillegg til SSRIer** hos pasienter som allerede hadde sviktet SSRI-monoterapi. Dette er konsistent med det bredere litteraturtemaet: olanzapin-forsterking ved SSRI/SNRI-resistent panikksyndrom med agorafobi, ikke førstelinjebehandling eller selvstending behandling.
+
+Fordi den opprinnelig godkjente bruken (schizofreni/bipolar lidelse) og den forutsagte nye bruken (angst/panikk-spektrum lidelse) begge involverer modulering av dopaminerge-serotoninerg neuralkrets involvert i affekt- og angstregulering, er den mekanistiske utvidelsen til en behandlingsresistent angstindikasjonen biologisk plausibel, selv om den fortsatt er støttet kun av små åpen-merke og case-nivå bevis snarere enn bekrefende RCTs.
+
+---
+
+## Klinisk forsøksbevis
+
+Ingen relaterte kliniske forsøk registrert for øyeblikket
+
+---
+
+## Litteraturbevis
+
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [16415705](https://pubmed.ncbi.nlm.nih.gov/16415705/) | 2006 | Open-label trial (12-week, fixed-dose) | Journal of Clinical Psychopharmacology | Low-dose olanzapine (5 mg/d) added to SSRI in 31 SSRI-resistant panic disorder patients (with/without agoraphobia); assessed via Panic Attack and Anticipatory Anxiety Scale |
-| [40946318](https://pubmed.ncbi.nlm.nih.gov/40946318/) | 2025 | Integrative Systematic Review | Psychotherapy and Psychosomatics | Reviews pharmacological, psychotherapeutic, and neurostimulatory options for treatment-resistant anxiety disorders |
-| [26635099](https://pubmed.ncbi.nlm.nih.gov/26635099/) | 2016 | Systematic Review | Expert Opinion on Pharmacotherapy | Reviews treatment options for treatment-resistant panic disorder, a population with persistent symptoms despite standard therapy |
-| [25012437](https://pubmed.ncbi.nlm.nih.gov/25012437/) | 2014 | Cohort (24-month naturalistic outcome) | Journal of Affective Disorders | Comorbid agoraphobia/panic/OCD/GAD worsen 24-month clinical outcomes in bipolar I disorder |
-| [10739446](https://pubmed.ncbi.nlm.nih.gov/10739446/) | 2000 | Case Report | The American Journal of Psychiatry | Early case report describing olanzapine's effect on panic attacks |
-| [15470803](https://pubmed.ncbi.nlm.nih.gov/15470803/) | 2004 | Case Report | Pharmacopsychiatry | Chronic, treatment-refractory panic disorder patient remitted on olanzapine + paroxetine combination |
-| [17099612](https://pubmed.ncbi.nlm.nih.gov/17099612/) | 2006 | Case Report (CBT case series) | Psychiatria Danubina | Case of comorbid panic disorder with agoraphobia and psychosis, successfully treated with CBT; olanzapine context discussed |
+| [16415705](https://pubmed.ncbi.nlm.nih.gov/16415705/) | 2006 | Åpen-merke forsøk (12-uke, fast-dose) | Journal of Clinical Psychopharmacology | Lavdose olanzapin (5 mg/dag) lagt til SSRI hos 31 SSRI-resistente panikksyndrom-pasienter (med/uten agorafobi); vurdert via Panic Attack and Anticipatory Anxiety Scale |
+| [40946318](https://pubmed.ncbi.nlm.nih.gov/40946318/) | 2025 | Integrerende systematisk gjennomgang | Psychotherapy and Psychosomatics | Gjennomgår farmakologiske, psykoterapeutiske og neuroestimulatoriske alternativer for behandlingsresistent angstlidelse |
+| [26635099](https://pubmed.ncbi.nlm.nih.gov/26635099/) | 2016 | Systematisk gjennomgang | Expert Opinion on Pharmacotherapy | Gjennomgår behandlingsalternativer for behandlingsresistent panikksyndrom, en populasjon med vedvarende symptomer til tross for standardbehandling |
+| [25012437](https://pubmed.ncbi.nlm.nih.gov/25012437/) | 2014 | Kohort (24-måneders naturalistisk resultat) | Journal of Affective Disorders | Komorbidet agorafobi/panikk/OCD/GAD forverrer 24-måneders klinisk resultat i bipolar I lidelse |
+| [10739446](https://pubmed.ncbi.nlm.nih.gov/10739446/) | 2000 | Caserapport | The American Journal of Psychiatry | Tidlig caserapport som beskriver olanzapins effekt på panikkanfall |
+| [15470803](https://pubmed.ncbi.nlm.nih.gov/15470803/) | 2004 | Caserapport | Pharmacopsychiatry | Kronisk, behandlingsrefraktær panikksyndrom-pasient i remisjon på olanzapin + paroxetin-kombinasjon |
+| [17099612](https://pubmed.ncbi.nlm.nih.gov/17099612/) | 2006 | Caserapport (CBT-caseserie) | Psychiatria Danubina | Casehistorie med komorbidet panikksyndrom med agorafobi og psykose, vellykket behandlet med CBT; olanzapin-kontekst diskutert |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Not currently marketed. The evidence pack lists **0 authorizations**, so no license table is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> ⚠ **Blocking Data Gap (DG001):** TFDA-equivalent label warnings and contraindications for olanzapine are not available in this evidence pack. This is flagged as a *Blocking* severity gap — it prevents this candidate from progressing to the S1 safety review stage. No drug-drug interaction data was found (`query_status: not_found`).
+Ikke markedsført for øyeblikket. Evidenspakken lister **0 godkjenninger**, så ingen lisenstabel er tilgjengelig.
 
 ---
 
-## Other Predicted Indications (Lower Priority)
+## Sikkerhetsoverveielser
 
-| Rank | Indication | TxGNN Score | Evidence Level | Recommendation | Note |
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+> ⚠ **Blokkering av datakløft (DG001):** TFDA-ekvivalente merkeadvarsler og kontraindikasjoner for olanzapin er ikke tilgjengelige i denne evidenspakken. Dette er flagget som en *blokkering*-kløft — det hindrer denne kandidaten i å gå videre til S1-sikkerhetsvurderingsfasen. Ingen legemiddel-legemiddel-interaksjonsdata ble funnet (`query_status: not_found`).
+
+---
+
+## Andre forutsagte indikasjoner (lavere prioritet)
+
+| Rang | Indikasjon | TxGNN-score | Evidensnivå | Anbefaling | Merknad |
 |------|-----------|------------|----------------|-----------------|------|
-| 1 | Benign paroxysmal torticollis of infancy | 99.54% | L5 | Hold | No mechanistic link identified; this is a pediatric migraine-spectrum condition with no pathophysiological connection to D2/5-HT2A antagonism. Using an antipsychotic in infants raises serious safety concerns. TxGNN score reflects graph-based association only, not clinical plausibility. |
-| 3 | Dysthymic disorder | 99.28% | L4 | Hold | Evidence is indirect — one open-label trial in comorbid borderline personality disorder + dysthymia, plus class-level (second-generation antipsychotic) reviews for MDD/dysthymia, and unrelated-drug (amisulpride, substituted benzamides) evidence. No olanzapine-specific controlled trial for dysthymia exists. |
+| 1 | Benign paroksysmal tortikollis i spedbarnsalderen | 99.54% | L5 | Venting | Ingen mekanistisk kobling identifisert; dette er en pediatrisk migrenespektrum-tilstand uten patofysiologisk forbindelse til D2/5-HT2A-antagonisme. Bruk av et antipsykotikum hos spedbarn reiser alvorlige sikkerhetsbetenkeligher. TxGNN-score reflekterer grafbasert assosiasjon bare, ikke klinisk plausibilitet. |
+| 3 | Dystymic lidelse | 99.28% | L4 | Venting | Bevis er indirekte — en åpen-merke forsøk ved komorbidet grensepersonlighetsforstyrrelse + dystymic lidelse, pluss klassebasis (andregenerasjons antipsykotikum) gjennomganger for MDD/dystymic lidelse, og urelated-legemiddel (amisulprid, substituert benzamider) bevis. Ingen olanzapin-spesifikk kontrollert forsøk for dystymic lidelse finnes. |
 
 ---
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Venting**
 
-**Rationale:**
-The agoraphobia signal has the most credible mechanistic and literature support among the three predicted indications (D2/5-HT2A augmentation therapy in SSRI-resistant panic disorder/agoraphobia), but it rests on evidence level L3 with no controlled trials — only one 12-week open-label study and several case reports/reviews. More importantly, the **blocking data gap on TFDA safety information (DG001)** means this candidate cannot yet pass initial safety screening (S1), regardless of the promising efficacy signal.
+**Begrunnelse:**
+Agorafobi-signalet har det mest troverdige mekanistiske og litteraturbaserte grunnlaget blant de tre forutsagte indikasjonene (D2/5-HT2A-forsterking ved SSRI-resistent panikksyndrom/agorafobi), men det hviler på evidensnivå L3 uten kontrollerte forsøk — kun en 12-ukers åpen-merke studie og flere casehistorier/gjennomganger. Enda viktigere, **datakløften som blokkerer TFDA-sikkerhetsinformasjon (DG001)** betyr at denne kandidaten ennå ikke kan passere initial sikkerhetskontroll (S1), uavhengig av det lovende effektivitetssignalet.
 
-**To proceed, the following is needed:**
-- Resolve DG001: obtain TFDA-equivalent label (warnings, contraindications) via official regulatory source
-- Resolve DG002: obtain formal MOA/pharmacology data via DrugBank API
-- Identify or commission a controlled trial (RCT) specifically evaluating olanzapine augmentation in treatment-resistant agoraphobia/panic disorder
-- If pursuing lower-ranked predictions (dysthymic disorder, torticollis), first establish a credible mechanistic rationale and pediatric-specific safety data before any further evaluation
+**For å gå videre, er følgende nødvendig:**
+- Løs DG001: innhent TFDA-ekvivalent merkeliste (advarsler, kontraindikasjoner) fra offisiell regulatorisk kilde
+- Løs DG002: innhent formelle MOA/farmakologidata via DrugBank API
+- Identifiser eller kommisjonér en kontrollert studie (RCT) som spesifikt evaluerer olanzapin-forsterking ved behandlingsresistent agorafobi/panikksyndrom
+- Hvis du forfølger lavere-rangerte prediksjoner (dystymic lidelse, tortikollis), etabler først en trovverdig mekanistisk begrunnelse og pediatrisk-spesifikk sikkerhetdata før noe ytterligere evaluering
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,70 +29,71 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tasonermin: From Soft Tissue Sarcoma (Isolated Limb Perfusion) to Prostatic Urethra Urothelial Carcinoma
+# Tasonermin: Fra bløtdelssarkom (isolert lemmeperfusjon) til urotelkarsinom i prostataurethra
 
-## One-Sentence Summary
+## Ensetnings sammendrag
 
-Tasonermin is a recombinant TNF-alpha internationally known for use in soft tissue sarcoma via isolated limb perfusion; no formal original indication record exists in this Evidence Pack.
-The TxGNN model predicts it may be effective for **Prostatic Urethra Urothelial Carcinoma**,
-but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure network-inference signal at this stage.
+Tasonermin er et rekombinant TNF-alpha internasjonalt kjent for bruk i bløtdelssarkom via isolert lemmeperfusjon; ingen formell originalindikasjonsregistrering finnes i denne bevissamlingen.
+TxGNN-modellen forutsier at det kan være effektivt for **urotelkarsinom i prostataurethra**,
+men denne forutsigelsen støttes for øyeblikket av **0 kliniske forsøk** og **0 publikasjoner** — det er et rent nettverksinferenssignal på dette stadiet.
 
-## Quick Overview
+## Kortfattet oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available (no Norway/Taiwan license on record) |
-| Predicted New Indication | Prostatic Urethra Urothelial Carcinoma |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Ikke tilgjengelig (ingen Norge/Taiwan-lisens registrert) |
+| Forutsagt ny indikasjon | Urotelkarsinom i prostataurethra |
+| TxGNN-forutsigelsesscore | 99.81% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forutsigelsen rimelig?
 
-Currently, detailed mechanism of action data is not available. Based on known information, Tasonermin (recombinant human TNF-alpha) is understood to act via TNFR1 to induce apoptosis of tumor vascular endothelium, disrupt tumor microvasculature, and activate anti-tumor immune responses, giving it theoretical broad-spectrum cytotoxic potential against solid tumors. It has an established international use in soft tissue sarcoma via isolated limb perfusion.
+For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige. Basert på kjent informasjon, forstås Tasonermin (rekombinant humant TNF-alpha) å virke via TNFR1 for å indusere apoptose av tumorvaskulært endotel, forstyrre tumorens mikrovaskularitet og aktivere antitumor immunresponser, noe som gir det teoretisk bredt spektrum cytotoksisk potensial mot solide svulster. Det har en etablert internasjonalt bruk i bløtdelssarkom via isolert lemmeperfusjon.
 
-For the top-ranked candidate, prostatic urethra urothelial carcinoma, the repurposing rationale is purely mechanistic extrapolation: TNF-alpha's vascular-disruptive and immune-activating effects are hypothesized to be applicable to solid urothelial tumors, but there is currently **no direct clinical or literature evidence** connecting Tasonermin to this indication. The same pattern holds across ranks 2–10 (other urothelial carcinomas, HER2+ breast carcinoma, and several rare gynecologic adenocarcinomas) — all are network-predicted associations without supporting trials or publications.
+For den topprankede kandidaten, urotelkarsinom i prostataurethra, er repurposingrasjonalet rent mekanistisk ekstrapolering: TNF-alphas vaskulær-disruptive og immun-aktiverende effekter antas å være anvendelige på solide urotheliale svulster, men det er for øyeblikket **ingen direkte klinisk eller litteraturbevis** som forbinder Tasonermin til denne indikasjonen. Det samme mønsteret gjelder for rangeringer 2–10 (andre urotheliale karsinomer, HER2+ brystkreft og flere sjeldne gynekologiske adenokarsinomer) — alle er nettverkspredikterte assosiasjoner uten støttende forsøk eller publikasjoner.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøk
 
-Currently no related clinical trials registered
+For øyeblikket ingen relaterte kliniske forsøk registrert
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available
+For øyeblikket ingen relatert litteratur tilgjengelig
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Not marketed in Norway; no authorization records available (total_licenses = 0).
+Ikke markedsført i Norge; ingen autorisasjonsregistre tilgjengelig (total_licenses = 0).
 
-## Cytotoxicity
+## Cytotoksisitet
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy / biologic response modifier (recombinant TNF-alpha cytokine) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitet klassifikasjon | Immunterapi / biologisk responsmodifikator (rekombinant TNF-alpha cytokin) |
+| Myelosuppresjon risiko | Vennligst se advarsler og forsiktighetsregler i pakningsvedlegget |
+| Emetogenitet klassifikasjon | Vennligst se advarsler og forsiktighetsregler i pakningsvedlegget |
+| Overvåkingspunkter | Vennligst se advarsler og forsiktighetsregler i pakningsvedlegget |
+| Håndteringsbeskyttelse | Vennligst se advarsler og forsiktighetsregler i pakningsvedlegget |
 
-## Safety Considerations
+## Sikkerhetsoverveielser
 
-Please refer to the package insert for safety information.
+Vennligst se pakningsvedlegget for sikkerthetsinformasjon.
 
-## Conclusion and Next Steps
+## Konklusjon og neste skritt
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-The top-ranked and all subsequent predicted indications sit at Evidence Level L5 (model prediction only, no clinical trials or literature), and the drug is not marketed in Norway/Taiwan. Combined with a blocking data gap in TFDA label warnings/contraindications, there is currently no basis for advancing to safety screening or clinical evaluation.
+**Begrunnelse:**
+De topprankede og alle påfølgende forutsatte indikasjoner befinner seg på bevisnivå L5 (modellforutsigelse bare, ingen kliniske forsøk eller litteratur), og legemidlet er ikke markedsført i Norge/Taiwan. Kombinert med et blokkerende datagap i TFDA-etikettadvarsler/kontraindikasjoner, er det for øyeblikket intet grunnlag for å gå videre til sikkerhetsscreening eller klinisk evaluering.
 
-**To proceed, the following is needed:**
-- TFDA-approved label warnings and contraindications (DG001, blocking — required before any S1 safety assessment)
-- Confirmed mechanism-of-action documentation from DrugBank or primary literature (DG002)
-- Preclinical or mechanistic studies on TNF-alpha activity in urothelial carcinoma to substantiate the mechanistic link
-- Route-of-administration compatibility assessment (currently marked "pending" for all candidates)
+**For å fortsette, er følgende nødvendig:**
+- TFDA-godkjent etikettadvarsler og kontraindikasjoner (DG001, blokkering — obligatorisk før noen S1-sikkerhetsassessment)
+- Bekreftet virkningsmekanisme-dokumentasjon fra DrugBank eller primær litteratur (DG002)
+- Prekliniske eller mekanistiske studier på TNF-alpha aktivitet i urotelkarsinom for å underbygge den mekanistiske forbindelsen
+- Kompatibilitetsassessment for administreringsvei (for øyeblikket merket "ventende" for alle kandidater)
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,84 +29,85 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Nintedanib: From Idiopathic Pulmonary Fibrosis to Dermatofibrosarcoma Protuberans
+# Nintedanib: Fra idiopatisk lungefibrose til dermatofibrosarkom protuberans
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Nintedanib is a triple angiokinase inhibitor (targeting VEGFR/FGFR/PDGFR) internationally approved for idiopathic pulmonary fibrosis (IPF) and, in combination with docetaxel, for non-small cell lung cancer.
-> The TxGNN model predicts it may be effective for **Dermatofibrosarcoma Protuberans (DFSP)**,
-> but currently **0 clinical trials** and only **1 non-drug-specific review article** support this direction — the case rests on mechanistic plausibility rather than direct clinical evidence.
+> Nintedanib er en trippel angiokinasehemmer (som retter seg mot VEGFR/FGFR/PDGFR) med internasjonal godkjenning for idiopatisk lungefibrose (IPF) og, i kombinasjon med docetaxel, for ikke-småcellet lungekreft.
+> TxGNN-modellen forutsier at det kan være effektivt for **Dermatofibrosarkom protuberans (DFSP)**,
+> men for tiden **0 kliniske studier** og bare **1 ikke-spesifikk oversiktsartikkel** støtter denne retningen — saken hviler på mekanistisk plausibilitet snarere enn direkte klinisk bevis.
 
-*Note: this evidence pack contains no Norway licensing data for nintedanib (market status: unmarketed, 0 authorizations), so the original indication above reflects the drug's known international approvals rather than a Norway-specific label.*
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Idiopathic pulmonary fibrosis (IPF); NSCLC (in combination with docetaxel) — general international indication; no Norway-specific license text available |
-| Predicted New Indication | Dermatofibrosarcoma protuberans |
-| TxGNN Prediction Score | 99.15% |
-| Evidence Level | L4 |
-| Norway Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+*Merk: denne bevissamlingen inneholder ingen norsk lisensdata for nintedanib (markedsstatus: ikke markedsført, 0 godkjenninger), så den opprinnelige indikasjonen ovenfor gjenspeiler legemidlets kjente internasjonale godkjenninger snarere enn en norskspesifikk merking.*
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversikt
 
-Nintedanib is described in the evidence pack's repurposing rationale as a **triple angiokinase inhibitor**, with activity against PDGFRα/β in addition to VEGFR and FGFR (the drug-level `original_moa` field itself is flagged as a data gap — DG002 — but this mechanistic detail is preserved in the rationale text). This PDGFR-inhibitory activity is the pharmacological basis for the DFSP prediction.
-
-DFSP is a well-characterized soft tissue tumor driven by the **COL1A1-PDGFB fusion gene**, which causes constitutive activation of the PDGFRB receptor — this is an established, textbook oncogenic mechanism, and it is precisely why the current standard-of-care agent for DFSP (imatinib) works by inhibiting PDGFR. Because nintedanib also inhibits PDGFR signaling, there is a plausible theoretical overlap between its pharmacology and DFSP's driver pathway, which is consistent with the model's very high prediction score (0.9915).
-
-However, this remains a **mechanism-level hypothesis, not a demonstrated clinical effect**. No nintedanib-specific clinical trial or case data for DFSP currently exists; the only supporting literature is a general review of PDGFR-inhibitor drug class pharmacology, not a nintedanib/DFSP-specific study.
-
-Two additional candidates were flagged by the model with similar scores — **liposarcoma** (0.9913, rank 8457) and **ovarian myxoid liposarcoma** (0.9911, rank 8580) — but both are evidence level L5 (model prediction only, no supporting trials or literature) and carry weaker or unconfirmed mechanistic rationale (liposarcoma subtypes show only inconsistent PDGFR/FGFR upregulation; myxoid liposarcoma is driven by FUS-DDIT3/EWSR1-DDIT3, a pathway with no established link to nintedanib's targets). Both are recommended **Hold** and are not pursued further in this report.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|------|---------|
+| Opprinnelig indikasjon | Idiopatisk lungefibrose (IPF); ikke-småcellet lungekreft (i kombinasjon med docetaxel) — generell internasjonal indikasjon; ingen norskspesifikk lisenstekst tilgjengelig |
+| Forutsagt ny indikasjon | Dermatofibrosarkom protuberans |
+| TxGNN-prediksjonspoengsum | 99.15% |
+| Bevisnivå | L4 |
+| Norsk markedsstatus | Ikke markedsført (Ikke markedsført) |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
+Nintedanib beskrives i bevissamlingens ombruksrasjonale som en **trippel angiokinasehemmer**, med aktivitet mot PDGFRα/β i tillegg til VEGFR og FGFR (selve `original_moa`-feltet på legemiddelnivå er flagget som et datahull — DG002 — men denne mekanistiske detaljen er bevart i rasjonalteksten). Denne PDGFR-hemmende aktiviteten er det farmakologiske grunnlaget for DFSP-prediksjonen.
+
+DFSP er en godt karakterisert bløtvevstumor drevet av **COL1A1-PDGFB fusjonsgenet**, som forårsaker konstant aktivering av PDGFRB-reseptoren — dette er en etablert, læreboksmessig onkogen mekanisme, og det er nettopp hvorfor det nåværende standardbehandlingsmidlet for DFSP (imatinib) virker ved å hemme PDGFR. Fordi nintedanib også hemmer PDGFR-signalering, er det en plausibel teoretisk overlapping mellom dets farmakologi og DFSPs drivervei, som er konsistent med modellens meget høye prediksjonspoengsum (0.9915).
+
+Imidlertid er dette fortsatt en **mekanisme-nivå-hypotese, ikke en påvist klinisk effekt**. Det finnes ingen nintedanib-spesifikk klinisk studie eller kasusdata for DFSP; den eneste støttende litteraturen er en generell oversikt over PDGFR-hemmer-legemiddelklassens farmakologi, ikke en nintedanib-/DFSP-spesifikk studie.
+
+To ytterligere kandidater ble flagget av modellen med lignende poengsum — **liposarkom** (0.9913, rang 8457) og **myksoid liposarkom i ovariene** (0.9911, rang 8580) — men begge er bevisnivå L5 (bare modellprediksjoner, ingen støttende studier eller litteratur) og har svakere eller ubekreftet mekanistisk rasjonale (liposarkomsubtyper viser bare inkonsistent PDGFR/FGFR-oppregulering; myksoid liposarkom er drevet av FUS-DDIT3/EWSR1-DDIT3, en vei uten etablert kobling til nintedanibs mål). Begge anbefales **Hold** og forfølges ikke videre i denne rapporten.
+
+---
+
+## Klinisk studiebevis
+
+For tiden ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturbevis
+
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Review | Pharmacological Research | Reviews the role of small-molecule PDGFR inhibitors (as a drug class) in treating neoplastic disorders; discusses PDGF/PDGFR biology relevant to tumors like DFSP, but does not report nintedanib-specific or DFSP-specific clinical data |
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Oversikt | Pharmacological Research | Gjennomgår rollen av småmolekyl-PDGFR-hemmere (som en legemiddelklasse) i behandlingen av neoplastiske lidelser; diskuterer PDGF/PDGFR-biologi relevant for tumorer som DFSP, men rapporterer ikke nintedanib-spesifikk eller DFSP-spesifikk klinisk data |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Nintedanib is currently **not marketed in Norway** (0 marketing authorizations on record), so no license/product table is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(No structured key warnings, contraindications, or drug-interaction data are currently available in this evidence pack — TFDA/Norway package insert data is flagged as a Blocking data gap, DG001.)*
+Nintedanib er for tiden **ikke markedsført i Norge** (0 markedsføringsgodkjenninger på register), så ingen lisens-/produkttabell er tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-**Rationale:**
-- The mechanistic rationale (PDGFR inhibition overlapping with DFSP's COL1A1-PDGFB driver pathway) is biologically plausible and mirrors the established mechanism of the current DFSP standard of care (imatinib), which is why TxGNN assigns a very high score. However, there are zero clinical trials and no drug-specific literature confirming this in practice — evidence level L4 means this is currently a research hypothesis, not a validated repurposing candidate.
+*(Ingen strukturerte viktige advarsler, kontraindikasjoner eller legemiddelinteraksjonsdata er for tiden tilgjengelige i denne bevissamlingen — TFDA/norsk pakningsvedleggsdata er flagget som et blokkerende datahull, DG001.)*
 
-**To proceed, the following is needed:**
-- Norway/TFDA package insert data — key warnings and contraindications (DG001, Blocking)
-- Confirmed structured mechanism-of-action documentation from DrugBank (DG002, High)
-- Preclinical (in vitro/in vivo) or case-report evidence of nintedanib activity specifically in DFSP
-- Clarification of Norway regulatory/market pathway, given the drug currently has no local marketing authorization
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+- Den mekanistiske rasjonalen (PDGFR-hemming som overlapper med DFSPs COL1A1-PDGFB drivervei) er biologisk plausibel og gjenspeiler den etablerte mekanismen for den nåværende DFSP-standarden (imatinib), som er hvorfor TxGNN tildeler en meget høy poengsum. Imidlertid finnes det null kliniske studier og ingen legemiddelspesifikk litteratur som bekrefter dette i praksis — bevisnivå L4 betyr at dette for tiden er en forskningshypotese, ikke en validert ombrukskandidat.
+
+**For å gå videre, er følgende nødvendig:**
+- Norsk/TFDA-pakningsvedleggsdata — viktige advarsler og kontraindikasjoner (DG001, Blocking)
+- Bekreftet strukturert dokumentasjon av virkningsmekanisme fra DrugBank (DG002, High)
+- Preklinisk (in vitro/in vivo) eller kasusrapportbevis for nintedanib-aktivitet spesifikt i DFSP
+- Avklaring av norsk regulatorisk/markedsvei, gitt at legemidlet for tiden ikke har noen lokal markedsføringsgodkjenning
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

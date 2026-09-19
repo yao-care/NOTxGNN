@@ -29,79 +29,80 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Efmoroctocog Alfa: From Hemophilia A to Pseudo-von Willebrand Disease
+# Efmoroctocog Alfa: Fra Hemofili A til Pseudo-von Willebrands sykdom
 
-## One-Sentence Summary
+## Sammenfatning i én setning
 
-> Efmoroctocog alfa is a recombinant Factor VIII Fc-fusion replacement therapy, originally developed for Factor VIII deficiency (Hemophilia A).
-> The TxGNN model's top-ranked prediction is **Pseudo-von Willebrand Disease**,
-> but this candidate currently has **0 clinical trials** and **0 publications** supporting it, and the model's own mechanistic annotation flags the biological link as weak.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Hemophilia A (inferred from FVIII replacement mechanism; no formal approved-indication text available — product not marketed) |
-| Predicted New Indication | Pseudo-von Willebrand Disease |
-| TxGNN Prediction Score | 99.997% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Efmoroctocog alfa er en rekombinant faktor VIII Fc-fusjon-ersatningsterapi, opprinnelig utviklet for faktor VIII-mangel (Hemofili A).
+> TxGNN-modellens høyest rangerte prediksjon er **Pseudo-von Willebrands sykdom**,
+> men denne kandidaten har for øyeblikket **0 kliniske studier** og **0 publikasjoner** som støtter det, og modellens egen mekanistiske annotasjon flagger det biologiske forholdet som svakt.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available (Data Gap). Based on the mechanistic annotations included elsewhere in this evidence pack, efmoroctocog alfa is a Factor VIII Fc-fusion protein replacement therapy whose established efficacy is in correcting **Factor VIII deficiency** (Hemophilia A) by directly replacing the missing clotting factor.
-
-Pseudo-von Willebrand Disease, however, is not a Factor VIII deficiency — it is caused by a **gain-of-function mutation in the platelet GPIb receptor**, which binds von Willebrand factor with abnormally high affinity and clears large VWF multimers. The evidence pack's own repurposing rationale for this candidate explicitly states that the mechanistic link is weak: *"FVIII 替代療法無法糾正血小板受體缺陷"* (FVIII replacement cannot correct the platelet-receptor defect). In other words, the disease driving TxGNN's highest score is a platelet-receptor disorder, not a coagulation-factor disorder, so there is no clear pharmacological rationale for efmoroctocog alfa's use here.
-
-Notably, among the 10 predicted indications, the one with the **strongest mechanistic coherence** with the drug's known FVIII-replacement mechanism is ranked lowest by TxGNN score: *"hemophilia A with vascular abnormality"* (rank 9, score 99.78%), which the evidence pack itself describes as remaining "本質上仍屬 Hemophilia A 範疇" (essentially still within the Hemophilia A spectrum). This inverse relationship between TxGNN score and mechanistic plausibility across the top-10 list is an important caveat: it suggests the model may be picking up on network/embedding similarity between bleeding disorders broadly, rather than a specific, actionable pharmacological mechanism for platelet-function or platelet-receptor diseases. All ten candidates remain in the S0 stage with a Hold recommendation and zero supporting trials or literature.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Innhold |
+|------|--------|
+| Originalindikasjon | Hemofili A (utledet fra FVIII-erstatningsmekanisme; ingen formell godkjent-indiksjonstekst tilgjengelig — produkt ikke markedsført) |
+| Predikert ny indikasjon | Pseudo-von Willebrands sykdom |
+| TxGNN-prediksjonspoeng | 99.997% |
+| Bevisnivå | L5 (modellprediksjon kun, ingen kliniske studier eller litteratur) |
+| Norsk markedsstatus | Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvente |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available
+For øyeblikket er detaljerte data om virkningsmåte ikke tilgjengelige (datakløft). Basert på de mekanistiske annoteringene som er inkludert andre steder i denne bevissamlingen, er efmoroctocog alfa en faktor VIII Fc-fusjon-proteinersatningsterapi hvis etablerte effektivitet ligger i å korrigere **faktor VIII-mangel** (Hemofili A) ved direkte å erstatte den manglende koaguleringsfaktoren.
 
----
+Pseudo-von Willebrands sykdom er imidlertid ikke en faktor VIII-mangel — den er forårsaket av en **gain-of-function-mutasjon i blodplate-GPIb-reseptor**, som binder von Willebrand-faktor med unormalt høy affinitet og fjerner store VWF-multimerer. Bevispapirets egen begrunnelse for drug repurposing av denne kandidaten sier eksplisitt at det mekanistiske forholdet er svakt: *"FVIII 替代療法無法糾正血小板受體缺陷"* (FVIII-erstatning kan ikke korrigere blodplate-reseptordefekten). Med andre ord, sykdommen som driver TxGNNs høyeste poeng er en blodplate-reseptorsykdom, ikke en koagulasjonfaktorsykdom, så det er ingen klar farmakologisk begrunnelse for bruk av efmoroctocog alfa her.
 
-## Norway Market Information
-
-This drug is not currently marketed in Norway; no authorization records are available (0 licenses on file).
+Spesielt blant de 10 predikerte indikasjonene, er den med den **sterkeste mekanistiske sammenheng** med medikamentets kjente FVIII-erstatningsmekanisme rangert lavest av TxGNN-poeng: *«hemofili A med vaskulær abnormitet»* (rang 9, poeng 99.78%), som bevispapiret selv beskriver som fortsatt "本質上仍屬 Hemophilia A 範疇" (i hovedsak fortsatt innenfor Hemofili A-spekteret). Dette omvendte forholdet mellom TxGNN-poeng og mekanistisk plausibilitet over topp-10-listen er en viktig merknad: det antyder at modellen kan plukke opp nettverks-/embedding-likheter mellom blødningssykdommer bredt, snarere enn en spesifikk, handlingsdyktig farmakologisk mekanisme for blodplatefunksjons- eller blodplate-reseptorsykdommer. Alle ti kandidater forblir i S0-stadiet med en Avvente-anbefaling og null støttende studier eller litteratur.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske studier
 
-Please refer to the package insert for safety information.
-
-*(Note: Key warnings, contraindications, and drug-interaction data are all recorded as Data Gaps in this evidence pack — including the TFDA/label warning data, which is flagged as a **Blocking** gap that prevents entry into the S1 safety-screening stage.)*
+Ingen relaterte kliniske studier er for øyeblikket registrert
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+Ingen relatert litteratur er for øyeblikket tilgjengelig
 
-**Rationale:**
-The top-ranked candidate (Pseudo-von Willebrand Disease) has an L5 evidence level — a model prediction with no supporting clinical trials or literature — and its own mechanistic rationale indicates a weak biological link to FVIII replacement therapy. None of the 10 predicted indications in this evidence pack have any clinical or literature support, and a Blocking data gap (missing TFDA label/warnings) currently prevents this candidate from proceeding to safety screening (S1) at all.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain and parse TFDA label warnings/contraindications before any S1 safety evaluation
-- Resolve DG002 (High): confirm efmoroctocog alfa's formal MOA via DrugBank API to validate the mechanistic reasoning above
-- If pursuing platelet-disorder indications (ranks 1–8, 10): obtain preclinical or case-level evidence, since the stated mechanisms (platelet receptor/granule/membrane defects) are not corrected by FVIII replacement — current mechanistic plausibility is low
-- If pursuing the mechanistically strongest candidate (rank 9, hemophilia A with vascular abnormality): seek clinical trial or case-series evidence, since it currently has no literature/trial support despite the best mechanistic fit
-- Confirm original approved indication text and Taiwan/Norway regulatory status once the product enters a market with licensing data
+## Norsk markedsinformasjon
+
+Dette medikamentet er ikke for øyeblikket markedsført i Norge; ingen autorisasjonsposter er tilgjengelige (0 lisenser på fil).
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+*(Merknad: Nøkkeladversler, kontraindikasjoner og legemiddelinteraksjonsdata er alle registrert som datakløfter i denne bevissamlingen — inkludert TFDA/etikett-advarseldata, som er flagget som en **blokkerende** datakløft som forhindrer inngang til S1-sikkerhetssikktingsstadiet.)*
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvente**
+
+**Begrunnelse:**
+Toppkandidaten (Pseudo-von Willebrands sykdom) har et L5-bevisnivå — en modellprediksjon uten støttende kliniske studier eller litteratur — og dens egen mekanistiske begrunnelse indikerer en svak biologisk forbindelse til FVIII-ersatningsterapi. Ingen av de 10 predikerte indikasjonene i denne bevissamlingen har noen klinisk eller litteraturstøtte, og en blokkerende datakløft (manglende TFDA-etikett/advarsler) forhindrer for øyeblikket at denne kandidaten fortsetter til sikkerhetssikting (S1) i det hele tatt.
+
+**For å fortsette, er følgende nødvendig:**
+- Løs DG001 (Blokkering): hent og tolket TFDA-etikett-advarsler/kontraindikasjoner før noen S1-sikkerhetsevaluering
+- Løs DG002 (Høy): bekreft efmoroctocog alfas formelle virkningsmåte via DrugBank API for å validere det mekanistiske resonnementet ovenfor
+- Hvis du forfølger blodplate-lidelsesindikasioner (ranger 1–8, 10): hent prekliniske eller case-series bevis, siden de angivne mekanismene (blodplate-reseptor/granula/membrandefekter) ikke korrigeres av FVIII-erstatning — nåværende mekanistisk plausibilitet er lav
+- Hvis du forfølger den mekanistisk sterkeste kandidaten (rang 9, hemofili A med vaskulær abnormitet): søk bevis fra kliniske studier eller case-series, siden den for øyeblikket mangler litteratur-/studiestøtte til tross for best mekanistisk samsvar
+- Bekreft originalt godkjent indiksjonstekst og Taiwan/Norsk regulatorisk status når produktet kommer inn på et marked med lisenseringsdata
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

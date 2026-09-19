@@ -29,77 +29,72 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-Using the drug-repurposing report template to produce the requested output directly from the evidence pack (no specialized skill applies to this pure content-generation task).
+# Acetylsalisylsyre: Fra smerte, feber og betennelse til migrene med brainstemaurora
 
-Note up front: I'm treating `predicted_indications[0]` (rank 1: "migraine with brainstem aura") as the primary predicted indication per the template's extraction rules, since that's the array's first entry. The evidence pack also contains 8 additional candidate indications (including a much stronger `thrombotic disease` signal at L1/S3) that fall outside this template's single-indication scope — flagging that here in case a follow-up report on that candidate is wanted.
+## Sammenfatting på én setning
 
----
+Acetylsalisylsyre (aspirin) er et lenge etablert analgetikum, antipyretikum, anti-inflammatorisk og blodplateleggregasjonshemmende middel, selv om den spesifikke opprinnelige indikationen ikke er dokumentert i det nåværende regulatoriske datasett. TxGNN-modellen forutsier at det kan være effektivt for **Migrene med brainstemaurora**, en sjelden migrenetype, med **0 dedikerte kliniske forsøk** men **19 støttende publikasjoner**, hvorav de fleste adresserer migrene eller migrene-med-aurora bredt snarere enn denne spesifikke undertypen.
 
-# Acetylsalicylic Acid: From Pain, Fever, and Inflammation to Migraine with Brainstem Aura
+## Kort oversikt
 
-## One-Sentence Summary
-
-Acetylsalicylic acid (aspirin) is a long-established analgesic, antipyretic, anti-inflammatory, and antiplatelet agent, though its specific original indication is not documented in the current regulatory dataset. The TxGNN model predicts it may be effective for **Migraine with Brainstem Aura**, a rare migraine subtype, with **0 dedicated clinical trials** but **19 supporting publications**, most of which address migraine or migraine-with-aura broadly rather than this specific subtype.
-
-## Quick Overview
-
-| Item | Content |
+| Kategori | Innhold |
 |------|------|
-| Original Indication | Not documented in the Norway regulatory dataset (no license records on file); generically known as an analgesic, antipyretic, anti-inflammatory, and antiplatelet agent |
-| Predicted New Indication | Migraine with Brainstem Aura |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L3 |
-| Norway Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Opprinnelig indikasjon | Ikke dokumentert i det norske regulatoriske datasett (ingen lisenshistorikk på fil); generelt kjent som analgetikum, antipyretikum, anti-inflammatorisk og blodplateleggregasjonshemmende middel |
+| Predikert ny indikasjon | Migrene med brainstemaurora |
+| TxGNN prediksjonspoengsum | 99.94% |
+| Bevisnivå | L3 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Fortsett med sikkerhetstiltak |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed mechanism-of-action data for acetylsalicylic acid is not available in the current DrugBank extract (flagged in this evidence pack as a High-severity data gap). Based on well-established pharmacology, however, aspirin irreversibly inhibits cyclooxygenase (COX-1/COX-2), blocking prostaglandin and thromboxane A2 synthesis. This reduces platelet aggregation and dampens prostaglandin-mediated neurogenic inflammation and vascular dilation — mechanisms implicated in migraine pathophysiology.
+Detaljerte farmakodynamiske data for acetylsalisylsyre er ikke tilgjengelige i den nåværende DrugBank-ekstraksjon (flagget i denne evidenspakken som en høyalvorlighetsgrad datakløft). Basert på veletablert farmakologi inhiberer aspirin imidlertid irreversibelt syklooksygenase (COX-1/COX-2), og blokkerer prostaglandin- og tromboxan A2-syntese. Dette reduserer platetaggregering og dempner prostaglandin-mediert neurogen betennelse og vaskulær dilatasjon — mekanismer involvert i migrenefysiologi.
 
-Migraine with aura, including the rarer brainstem-aura subtype, is driven substantially by cortical spreading depression and associated neurogenic-inflammatory/vascular changes. The American Headache Society's evidence assessment already rates aspirin as Level A (well-established) for acute migraine treatment in general, and smaller retrospective and observational studies specifically in migraine-with-aura populations (e.g., a 203-patient retrospective cohort and a dedicated observational case series) suggest a possible prophylactic benefit. Because aspirin is not a vasoconstrictor — unlike triptans — it does not carry the same theoretical contraindication concerns that limit triptan use in brainstem aura.
+Migrene med aurora, inkludert den sjeldnere brainstemaurora-varianten, er vesentlig drevet av kortikal spredningsdepresjon og tilhørende neurogen-betennelsesmessig/vaskulær endring. American Headache Society's evidensesvurdering klassifiserer allerede aspirin som Nivå A (veletablert) for akutt migrenebehandling generelt, og mindre retrospektive og observasjonelle studier spesielt i migrene-med-aurora-populasjoner (f.eks. en 203-pasients retrospektiv kohorte og en dedikert observasjonell kasusserie) antyder mulig profylaktisk nytte. Fordi aspirin ikke er en vasokonstriktor — i motsetning til triptaner — mangler den samme teoretiske kontraindikasjonshensyn som begrenser triptan-bruk i brainstemaurora.
 
-That said, essentially all of the supporting literature addresses migraine or migraine-with-aura as a whole; no trial or publication in this pack specifically enrolled or confirmed patients with brainstem aura. The rationale is therefore a reasonable mechanistic extrapolation from the broader migraine-with-aura literature, not direct evidence for this specific, rare subtype — consistent with the L3 (observational/no RCT) evidence level assigned.
+Når det er sagt, adresserer praktisk talt all støttende litteratur migrene eller migrene-med-aurora som helhet; ingen forsøk eller publikasjon i denne samlingen spesifikt rekrutterte eller bekreftet pasienter med brainstemaurora. Rasjonalet er derfor en rimelig mekanistisk ekstrapolasjon fra den bredere migrene-med-aurora-litteraturen, ikke direkte bevis for denne spesifikke, sjeldne varianten — i samsvar med L3 (observasjonell, ingen dedikert RCT) bevisnivået som er tildelt.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøk
 
-Currently no related clinical trials registered.
+Ingen relevante kliniske forsøk er registrert.
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [10448545](https://pubmed.ncbi.nlm.nih.gov/10448545/) | 1999 | RCT | Cephalalgia | Double-blind, double-dummy, multicenter RCT (n=278): IV lysine acetylsalicylate (≈1g ASA) vs. SC sumatriptan vs. placebo in acute migraine attacks (with or without aura) |
-| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | RCT | European Heart Journal | PRIMA trial: randomized evaluation of percutaneous PFO closure in migraine-with-aura patients refractory to medical treatment |
-| [25729594](https://pubmed.ncbi.nlm.nih.gov/25729594/) | 2014 | Retrospective Cohort | Current Health Sciences Journal | Retrospective review of 203 migraine-with-aura patients; 46.8% treated with low-dose ASA prophylaxis vs. other standard preventive therapies |
-| [29017164](https://pubmed.ncbi.nlm.nih.gov/29017164/) | 2017 | Observational Case Series | European Neurology | Aspirin used specifically as prophylaxis in patients with migraine with aura |
-| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Systematic Review | Headache | Systematic review of antithrombotic drugs, including aspirin, as migraine preventive medication |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Guideline (AHS Evidence Assessment) | Headache | American Headache Society assessment classifies aspirin as Level A evidence for acute migraine pharmacotherapy |
-| [30291554](https://pubmed.ncbi.nlm.nih.gov/30291554/) | 2018 | Review | Current Pain and Headache Reports | Reviews pathophysiologic and clinical differences between episodic migraine with and without aura |
-| [34384631](https://pubmed.ncbi.nlm.nih.gov/34384631/) | 2021 | Review | Revue Neurologique | Describes cortical spreading depression as the pivotal mechanism underlying migraine aura |
-| [11139754](https://pubmed.ncbi.nlm.nih.gov/11139754/) | 2000 | Review | Revue Neurologique | Reviews prophylactic treatment strategies and indications for preventive therapy in migraine |
-| [16103551](https://pubmed.ncbi.nlm.nih.gov/16103551/) | 2005 | Case Report | Heart (British Cardiac Society) | Clopidogrel (an antiplatelet agent) reduced migraine-with-aura recurrence after transcatheter PFO/ASD closure |
+| PMID | År | Type | Tidsskrift | Viktige funn |
+|------|-----|------|---------|---------|
+| [10448545](https://pubmed.ncbi.nlm.nih.gov/10448545/) | 1999 | RCT | Cephalalgia | Dobbelblind, dobbel-dummy multisenterstudium (n=278): IV lysine-acetylsalisylat (≈1 g ASA) vs. subkutant sumatriptan vs. placebo ved akutte migreneanfall (med eller uten aurora) |
+| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | RCT | European Heart Journal | PRIMA-forsøk: randomisert evaluering av perkutan PFO-lukking hos migrene-med-aurora-pasienter som ikke responderer på medisinsk behandling |
+| [25729594](https://pubmed.ncbi.nlm.nih.gov/25729594/) | 2014 | Retrospektiv kohortstudie | Current Health Sciences Journal | Retrospektiv gjennomgang av 203 migrene-med-aurora-pasienter; 46.8% behandlet med lavdose-ASA-profylakse vs. annen standard forebyggende terapi |
+| [29017164](https://pubmed.ncbi.nlm.nih.gov/29017164/) | 2017 | Observasjonell kasusserie | European Neurology | Aspirin brukt spesifikt som profylakse hos pasienter med migrene med aurora |
+| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Systematisk gjennomgang | Headache | Systematisk gjennomgang av antitrombotiske legemidler, inkludert aspirin, som migrene-forebyggende medisin |
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Retningslinje (AHS-evidensesvurdering) | Headache | American Headache Society-vurdering klassifiserer aspirin som Nivå A-bevis for akutt migrenebehandling |
+| [30291554](https://pubmed.ncbi.nlm.nih.gov/30291554/) | 2018 | Oversikt | Current Pain and Headache Reports | Gjennomgang av patofysiologiske og kliniske forskjeller mellom episodisk migrene med og uten aurora |
+| [34384631](https://pubmed.ncbi.nlm.nih.gov/34384631/) | 2021 | Oversikt | Revue Neurologique | Beskriver kortikal spredningsdepresjon som den sentrale mekanismen bak migrenaurora |
+| [11139754](https://pubmed.ncbi.nlm.nih.gov/11139754/) | 2000 | Oversikt | Revue Neurologique | Gjennomgang av profylaktiske behandlingsstrategier og indikasjoner for forebyggende terapi ved migrene |
+| [16103551](https://pubmed.ncbi.nlm.nih.gov/16103551/) | 2005 | Kasusrapport | Heart (British Cardiac Society) | Klopidogrel (et blodplateleggregasjonshemmende legemiddel) reduserte migrene-med-aurora-gjentakelser etter transkatet PFO/ASD-lukking |
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-No marketing authorization records are currently on file for acetylsalicylic acid in Norway (0 licenses; market status "Not marketed/Not Marketed" in this dataset). Given that aspirin is a globally available generic, this likely reflects a gap in the specific regulatory data source rather than confirmed true market absence — this should be verified directly before any go/no-go decision.
+Ingen markedsgodkjennelseshistorikk er for tiden på fil for acetylsalisylsyre i Norge (0 lisenser; markedsstatus "Ikke markedsført" i dette datasett). Gitt at aspirin er et globalt tilgjengelig generikum, gjenspeiler dette sannsynligvis en kløft i den spesifikke regulatoriske datakilde snarere enn bekreftet fravær av faktisk marked — dette bør verifiseres direkte før noen go/no-go-beslutning.
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Proceed with Guardrails**
+**Beslutning: Fortsett med sikkerhetstiltak**
 
-**Rationale:**
-- Aspirin has a mechanistically plausible role in migraine with aura — supported by one RCT (IV ASA vs. sumatriptan vs. placebo), a retrospective cohort, and an observational case series specifically studying aspirin in migraine-with-aura patients, plus a Level A general-migraine rating from the American Headache Society. However, no evidence in this pack directly addresses the brainstem-aura subtype, and overall evidence strength is L3 (observational, no dedicated RCT for this indication).
+**Begrunnelse:**
+- Aspirin har en mekanistisk plausibel rolle ved migrene med aurora — støttet av en RCT (IV ASA vs. sumatriptan vs. placebo), en retrospektiv kohorte, og en observasjonell kasusserie som spesifikt studerer aspirin ved migrene-med-aurora-pasienter, pluss en Nivå A-vurdering for generell migrenebehandling fra American Headache Society. Imidlertid adresserer ingen bevis i denne samlingen direkte brainstemaurora-undertypen, og den samlede bevisstyrken er L3 (observasjonell, ingen dedikert RCT for denne indikasjonen).
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain TFDA/regulatory package insert warnings and contraindications — currently a complete data gap that blocks entry into the S1 safety pre-screening stage
-- Resolve DG002 (High): obtain detailed mechanism-of-action data via the DrugBank API to strengthen the mechanistic-relevance analysis
-- Confirm Norway marketing/regulatory status, since 0 authorizations are on record despite aspirin's status as a widely marketed generic drug
-- Seek or commission a study specifically enrolling migraine-with-brainstem-aura patients, since current evidence is extrapolated from the broader migraine-with-aura population
+**For å fortsette, er følgende nødvendig:**
+- Løs DG001 (Blokkering): oppnå TFDA/regulatorisk pakningsvedlegg-advarsler og kontraindikasioner — for tiden en komplett datakløft som forhindrer inngang til S1-stadiet
+- Løs DG002 (Høy): oppnå detaljert mekanisme-for-handling-data via DrugBank API for å styrke analysen av mekanistisk relevans
+- Bekreft markedsføringen/regulatorisk status i Norge, siden 0 godkjennelser er dokumentert til tross for aspirins status som et vidt markedsført generisk legemiddel
+- Søk eller kommisjonér en studie som spesifikt rekrutterer migrene-med-brainstemaurora-pasienter, siden nåværende bevis er ekstrapolert fra den bredere migrene-med-aurora-befolkningen
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

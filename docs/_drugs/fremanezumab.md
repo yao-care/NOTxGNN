@@ -29,87 +29,88 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Fremanezumab: From Migraine (Episodic/Chronic) Prevention to Migraine with Brainstem Aura
+# Fremanezumab: Fra migreneforebygging (episodisk/kronisk) til migrene med hjernestammearura
 
-## One-Sentence Summary
+## Oppsummering i en setning
 
-> Fremanezumab is a fully humanized anti-CGRP monoclonal antibody approved for the preventive treatment of episodic and chronic migraine.
-> The TxGNN model predicts it may also be effective for **Migraine with Brainstem Aura**, a rare migraine subtype involving posterior-circulation symptoms.
-> Currently **no dedicated clinical trials** and **20 publications** (mostly preclinical, case reports, and general real-world migraine cohorts) support this specific direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no local (Norway) marketing authorization on file; per the evidence pack's mechanistic notes, fremanezumab is approved for episodic/chronic migraine prevention |
-| Predicted New Indication | Migraine with Brainstem Aura |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L3 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Fremanezumab er et fullt humanisert anti-CGRP monoklonalt antistoff godkjent for forebyggende behandling av episodisk og kronisk migrene.
+> TxGNN-modellen predikerer at det også kan være effektivt for **migrene med hjernestammearura**, en sjelden migreneundertype som involverer posteriore sirkulasjonssymptomer.
+> For øyeblikket finnes det **ingen dedikerte kliniske forsøk** og **20 publikasjoner** (for det meste preklinkisk, kasuistikker og generelle observasjonsbaserte migrenekohorter) som støtter denne spesifikke indikasjonen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Detailed DrugBank mechanism-of-action data for fremanezumab is not available in this evidence pack (flagged as a data gap, DG002). However, the evidence itself indicates that fremanezumab is a fully humanized anti-CGRP monoclonal antibody, already approved for prevention of episodic and chronic migraine, acting by inhibiting CGRP-mediated activation of the trigeminovascular system.
-
-Migraine with brainstem aura (formerly "basilar-type migraine") is a rare migraine subtype in which typical aura symptoms are accompanied by brainstem/posterior-circulation features. Because fremanezumab's approved use already spans migraine broadly, and preclinical models show it can modulate cortical spreading depression (CSD) — the presumed electrophysiological substrate of migraine aura — there is a plausible mechanistic rationale for extending its use to aura-associated subtypes.
-
-That said, the mechanistic link is only partial: animal studies (PMID 31127003, PMID 31895266) show fremanezumab slows CSD propagation rate and shortens cortical recovery time, but does **not** prevent CSD-induced arterial dilatation or plasma protein extravasation — meaning the drug does not fully block the vascular component of the aura mechanism. In addition, brainstem aura is a rare subtype historically excluded from pivotal CGRP-mAb trials (e.g., FOCUS), so direct clinical evidence is limited to case reports and reviews on migraine aura/hemiplegic migraine, plus general real-world cohorts of chronic migraine patients not specifically enrolled for the brainstem-aura subtype.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Innhold |
+|-------|---------|
+| Original indikasjon | Ikke tilgjengelig — ingen lokal (norsk) markedsføringstillatelse registrert; ifølge mekanismebeskrivelsen i bevisemateriellet er fremanezumab godkjent for forebygging av episodisk/kronisk migrene |
+| Prediktert ny indikasjon | Migrene med hjernestammearura |
+| TxGNN-prediksjonsscore | 99.94% |
+| Bevisnivå | L3 |
+| Norsk markedsstatus | Ikke markedsført |
+| Antall markedsføringstillatelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [41618146](https://pubmed.ncbi.nlm.nih.gov/41618146/) | 2026 | Individual patient analysis | The Journal of Headache and Pain | Effectiveness and safety of anti-CGRP mAbs (incl. fremanezumab) in hemiplegic migraine, a related aura subtype historically excluded from RCTs |
-| [40264646](https://pubmed.ncbi.nlm.nih.gov/40264646/) | 2025 | Case report + review | Frontiers in Neurology | Anti-CGRP mAb efficacy in hemiplegic migraine; role in aura subtypes remains largely unexplored due to RCT exclusion |
-| [35268319](https://pubmed.ncbi.nlm.nih.gov/35268319/) | 2022 | Case reports/Review | Journal of Clinical Medicine | Reviews anti-CGRP mAbs (incl. fremanezumab) in migraine aura prevention; scarce data on aura-specific efficacy |
-| [38332541](https://pubmed.ncbi.nlm.nih.gov/38332541/) | 2024 | Observational case series | CNS Neuroscience & Therapeutics | Limited clinical evidence on anti-CGRP mAb effectiveness for preventive treatment of migraine with aura |
-| [31127003](https://pubmed.ncbi.nlm.nih.gov/31127003/) | 2019 | Animal/Mechanistic | J Neuroscience | Fremanezumab does not affect CSD-induced arterial dilatation/plasma protein extravasation — partial mechanistic engagement with aura |
-| [31895266](https://pubmed.ncbi.nlm.nih.gov/31895266/) | 2020 | Animal/Mechanistic | Pain | Fremanezumab slows CSD propagation and shortens cortical recovery, but does not prevent CSD occurrence |
-| [35302681](https://pubmed.ncbi.nlm.nih.gov/35302681/) | 2022 | Cohort (real-world) | European Journal of Neurology | Post hoc FOCUS analysis: fremanezumab efficacy/QoL outcomes in patients with vs. without aura or neurological dysfunction |
-| [35775208](https://pubmed.ncbi.nlm.nih.gov/35775208/) | 2022 | Pending classification | Cephalalgia | Effects of anti-CGRP mAbs (erenumab, fremanezumab, galcanezumab) on migraine prodromal/accompanying and central symptoms |
-| [37638190](https://pubmed.ncbi.nlm.nih.gov/37638190/) | 2023 | Cohort (real-world) | Frontiers in Neurology | Real-world efficacy and tolerability of fremanezumab in chronic migraine (general population, 3-month prospective study) |
-| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Review | Handbook of Experimental Pharmacology | Overview of CGRP's role in migraine pathophysiology, including the aura subgroup |
+Detaljert informasjon om virkningsmekanisme fra DrugBank for fremanezumab er ikke tilgjengelig i dette bevisemateriellet (flagget som et datakløft, DG002). Bevisemateriellet selv indikerer imidlertid at fremanezumab er et fullt humanisert anti-CGRP monoklonalt antistoff, allerede godkjent for forebygging av episodisk og kronisk migrene, og fungerer ved å hemme CGRP-mediert aktivering av det trigeminavaskulære systemet.
+
+Migrene med hjernestammearura (tidligere «basilaris-type migrene») er en sjelden migreneundertype der typiske aurasymptomer er ledsaget av hjernestamme-/posteriore sirkulasjonsfenomener. Fordi fremanezumabs godkjente bruk allerede spenner over migrene bredt, og preklinkiske modeller viser at det kan modulere kortikal spredningstransmisjon (CSD) — det antatte elektrofysiologiske grunnlaget for migreneaura — finnes det en plausibel mekanistisk begrunnelse for å utvide bruken til aura-relaterte undertyper.
+
+Likevel er den mekanistiske forbindelsen bare delvis: dyreforsøk (PMID 31127003, PMID 31895266) viser at fremanezumab bremser CSD-forplantningstakten og forkorter hjernebarkens gjenopprettingstid, men **forhindrer ikke** CSD-indusert arteriell utvidelse eller plasmaproteinekstravasasjon — noe som betyr at stoffet ikke fullt ut blokkerer den vaskulære komponenten av aura-mekanismen. I tillegg er hjernestammearura en sjelden undertype som historisk har vært ekskludert fra pivotale CGRP-mAb-forsøk (f.eks. FOCUS), så direkte klinisk evidens er begrenset til kasuistikker og oversikter over migrene-aura/hemiplegeisk migrene, pluss generelle observasjonsbaserte kohorter av kroniske migrenepasienter som ikke spesifikt var rekruttert for hjernestammearura-undertypen.
 
 ---
 
-## Norway Market Information
+## Klinisk forsøksbevis
 
-Fremanezumab currently has **no marketing authorization on file for Norway** (0 authorizations; market status: Not Marketed).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+For øyeblikket er det ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+| PMID | År | Type | Tidsskrift | Nøkkelfunn |
+|------|-----|------|---------|-----------|
+| [41618146](https://pubmed.ncbi.nlm.nih.gov/41618146/) | 2026 | Individuell pasientanalyse | The Journal of Headache and Pain | Effektivitet og sikkerhet av anti-CGRP mAbs (inkl. fremanezumab) ved hemiplegeisk migrene, en relatert aura-undertype historisk ekskludert fra RCTer |
+| [40264646](https://pubmed.ncbi.nlm.nih.gov/40264646/) | 2025 | Kasuistikk + oversikt | Frontiers in Neurology | Anti-CGRP mAb-effektivitet ved hemiplegeisk migrene; rolle ved aura-undertyper forblir stort sett uutforsket på grunn av RCT-eksklusjon |
+| [35268319](https://pubmed.ncbi.nlm.nih.gov/35268319/) | 2022 | Kasuistikk/oversikt | Journal of Clinical Medicine | Oversikt over anti-CGRP mAbs (inkl. fremanezumab) ved migrene-aura-forebygging; sparsomt med data om aura-spesifikk effektivitet |
+| [38332541](https://pubmed.ncbi.nlm.nih.gov/38332541/) | 2024 | Kasuistiske observasjonsstudier | CNS Neuroscience & Therapeutics | Begrenset klinisk bevis for anti-CGRP mAb-effektivitet for forebyggende behandling av migrene med aura |
+| [31127003](https://pubmed.ncbi.nlm.nih.gov/31127003/) | 2019 | Dyreforsøk/mekanistisk | J Neuroscience | Fremanezumab påvirker ikke CSD-indusert arteriell utvidelse/plasmaproteinekstravasasjon — delvis mekanistisk engasjement med aura |
+| [31895266](https://pubmed.ncbi.nlm.nih.gov/31895266/) | 2020 | Dyreforsøk/mekanistisk | Pain | Fremanezumab bremser CSD-forplantning og forkorter hjernebarkens gjenopprettingstid, men forhindrer ikke CSD-forekomst |
+| [35302681](https://pubmed.ncbi.nlm.nih.gov/35302681/) | 2022 | Observasjonsbasert kohort | European Journal of Neurology | Post hoc FOCUS-analyse: fremanezumab-effektivitet/livskvalitetsresultater hos pasienter med vs. uten aura eller nevrologisk dysfunksjon |
+| [35775208](https://pubmed.ncbi.nlm.nih.gov/35775208/) | 2022 | Avventer klassifisering | Cephalalgia | Effekter av anti-CGRP mAbs (erenumab, fremanezumab, galcanezumab) på forvarsel-, ledsagende og sentrale migrenesymptomer |
+| [37638190](https://pubmed.ncbi.nlm.nih.gov/37638190/) | 2023 | Observasjonsbasert kohort | Frontiers in Neurology | Observasjonsbasert effektivitet og tolerabilitet av fremanezumab ved kronisk migrene (befolkningsstudium, 3-måneds prospektiv studie) |
+| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Oversikt | Handbook of Experimental Pharmacology | Oversikt over CGRPs rolle i migrenepatofysiologi, inkludert aura-undergruppen |
 
-**Rationale:**
-- Evidence level L3 rests on preclinical/mechanistic studies and general real-world migraine cohorts rather than trials targeting migraine with brainstem aura specifically; this subtype has historically been excluded from pivotal CGRP-mAb trials, and the drug has no current marketing authorization in Norway.
+---
 
-**To proceed, the following is needed:**
-- Formal DrugBank/TFDA mechanism-of-action and labeling data (DG002, DG001)
-- A dedicated clinical trial or systematic case series in patients with confirmed migraine with brainstem aura
-- Local (Norway) regulatory/market-authorization status update
-- Standard safety profile (warnings, contraindications, DDI) once labeling data becomes available
+## Norsk markedsinformasjon
+
+Fremanezumab har for øyeblikket **ingen markedsføringstillatelse registrert for Norge** (0 markedsføringstillatelser; markedsstatus: Ikke markedsført).
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+- Bevisnivå L3 er basert på preklinkiske/mekanistiske studier og generelle observasjonsbaserte migrenekohorter snarere enn forsøk rettet mot migrene med hjernestammearura spesifikt; denne undertypen har historisk vært ekskludert fra pivotale CGRP-mAb-forsøk, og stoffet har ingen gjeldende markedsføringstillatelse i Norge.
+
+**For å komme videre er følgende nødvendig:**
+- Formell DrugBank/TFDA-virkningsmekanisme og merkingsinformasjon (DG002, DG001)
+- Et dedikert klinisk forsøk eller systematiske kasusserier hos pasienter med bekreftet migrene med hjernestammearura
+- Oppdatering av norsk regulatorisk- og markedsføringsstatus
+- Standard sikkerhetsprofil (advarsler, kontraindikasjoner, legemiddelinteraksjoner) når merkingsinformasjon blir tilgjengelig
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

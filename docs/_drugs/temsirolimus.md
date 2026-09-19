@@ -29,81 +29,82 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Temsirolimus: From mTOR-Targeted Oncology Therapy to Liposarcoma
+# Temsirolimus: Fra mTOR-rettet onkologiterapi til liposarkom
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-Temsirolimus is an mTOR inhibitor (a prodrug of sirolimus) used in oncology; its specific original approved indication is not recorded in this evidence pack.
-The TxGNN model predicts it may be effective for **Liposarcoma**,
-with **5 clinical trials** (2 using temsirolimus directly, Grade A) and **1 publication** currently supporting this direction.
+Temsirolimus er en mTOR-hemmer (en profarmak av sirolimus) som brukes i onkologi; dens spesifikke originale godkjent indikasjon er ikke registrert i denne bevissamlingen.
+TxGNN-modellen predikerer at det kan være effektivt for **Liposarkom**,
+med **5 kliniske studier** (2 bruker temsirolimus direkte, Grade A) og **1 publikasjon** som for tiden støtter denne retningen.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (no approved indication text on file; drug not marketed in Norway) |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.54% |
-| Evidence Level | L3 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Ikke tilgjengelig i bevissamlingen (ingen godkjent indiksjonstekst på fil; legemiddel ikke markedsført i Norge) |
+| Predikert ny indikasjon | Liposarkom |
+| TxGNN-prediksjonspoeng | 99.54% |
+| Evidensnivå | L3 |
+| Markedsstatus for Norge | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Hold |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed mechanism-of-action data for temsirolimus is not available in this evidence pack. Based on the drug repurposing rationale provided, temsirolimus is an mTOR inhibitor (prodrug of sirolimus) that blocks the PI3K/AKT/mTOR signaling pathway. This pathway is a well-established target in oncology, and the evidence pack notes it is frequently dysregulated in dedifferentiated and myxoid liposarcoma subtypes (e.g., through CDK4/MDM2 amplification-driven downstream signaling or PTEN loss).
+Detaljerte data om mekanisme-handling for temsirolimus er ikke tilgjengelig i denne bevissamlingen. Basert på begrunnelsen for legemiddelombruk som er gitt, er temsirolimus en mTOR-hemmer (profarmak av sirolimus) som blokkerer PI3K/AKT/mTOR-signaleringsbanen. Denne banen er et veletablert mål innen onkologi, og bevissamlingen bemerker at den hyppig er deregulert i dedifferensierte og myxoide liposarkomssubtyper (f.eks. gjennom CDK4/MDM2-amplifisering-drevet nedstrøms signalering eller PTEN-tap).
 
-The relationship between temsirolimus's original use and liposarcoma is mechanistic rather than indication-based, since no original approved indication is recorded here. However, two of the five identified clinical trials used temsirolimus itself (brand name Torisel) directly in sarcoma populations — one in combination with liposomal doxorubicin, and one in pediatric recurrent/refractory sarcoma with cixutumumab — both rated Grade A relevance by the evidence pipeline.
+Forholdet mellom temsirolimus' originalbruk og liposarkom er mekanistisk snarere enn indikasjonbasert, siden ingen original godkjent indikasjon er registrert her. Imidlertid brukte to av de fem identifiserte kliniske studiene temsirolimus selv (merkenavn Torisel) direkte i sarkompopulasjoner — en i kombinasjon med lipososmal doxorubicin, og en i pediatrisk tilbakevendende/refraktær sarkom med cixutumumab — begge vurdert til Grade A relevans av bevissamlingspipelinen.
 
-The remaining three trials use related mTOR pathway inhibitors (sirolimus, ridaforolimus, everolimus) rather than temsirolimus itself, providing class-level rather than drug-specific support. Historically, single-agent mTOR inhibition has shown only limited, non-definitive efficacy in liposarcoma trials, suggesting that combination regimens (with cytotoxic chemotherapy or IGF-1R inhibitors) are more likely to be clinically meaningful than monotherapy.
+De resterende tre studiene bruker relaterte mTOR-banehemmere (sirolimus, ridaforolimus, everolimus) snarere enn temsirolimus selv, og gir klasse-nivå snarere enn legemiddel-spesifikk støtte. Historisk sett har enkelt-agent mTOR-hemming vist bare begrenset, ikke-definitiv effektivitet i liposarkomstudier, noe som antyder at kombinasjonregimer (med cytotoksisk kjemoterapi eller IGF-1R-hemmere) er mer sannsynlig å være klinisk meningsfullt enn monoterapi.
 
-## Clinical Trial Evidence
+## Kliniske studiebevis
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studinummer | Fase | Status | Rekruttering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | Phase 1/2 | Completed | 24 | Torisel (temsirolimus) + liposomal doxorubicin in recurrent soft tissue/bone sarcoma; dose-finding and efficacy assessment. Direct drug evidence. |
-| [NCT01614795](https://clinicaltrials.gov/study/NCT01614795) | Phase 2 | Completed | 46 | Temsirolimus + cixutumumab (IMC-A12) in pediatric recurrent/refractory sarcoma. Direct drug evidence. |
-| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Phase 2 | Completed | 70 | Sirolimus + cyclophosphamide in metastatic/unresectable myxoid liposarcoma and chondrosarcoma. Class-effect (sirolimus, not temsirolimus). |
-| [NCT00093080](https://clinicaltrials.gov/study/NCT00093080) | Phase 2 | Completed | 216 | Ridaforolimus (AP23573), an mTOR inhibitor, in advanced sarcoma. Class-effect evidence, largest cohort. |
-| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Phase 2 | Active, not recruiting | 48 | Ribociclib + everolimus in advanced dedifferentiated liposarcoma and leiomyosarcoma. Class-effect (everolimus, not temsirolimus). |
+| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | Fase 1/2 | Fullført | 24 | Torisel (temsirolimus) + lipososmal doxorubicin ved tilbakevendende mykt vev/beinsarkom; dosebestemmelse og effektivitetsvurdering. Direkte legemiddelbevis. |
+| [NCT01614795](https://clinicaltrials.gov/study/NCT01614795) | Fase 2 | Fullført | 46 | Temsirolimus + cixutumumab (IMC-A12) i pediatrisk tilbakevendende/refraktær sarkom. Direkte legemiddelbevis. |
+| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Fase 2 | Fullført | 70 | Sirolimus + cyclophosphamide ved metastatisk/uopererbar myxoid liposarkom og kondrosarkom. Klasse-effekt (sirolimus, ikke temsirolimus). |
+| [NCT00093080](https://clinicaltrials.gov/study/NCT00093080) | Fase 2 | Fullført | 216 | Ridaforolimus (AP23573), en mTOR-hemmer, ved avansert sarkom. Klasse-effektbevis, største kohort. |
+| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Fase 2 | Aktiv, ikke i rekruttering | 48 | Ribociclib + everolimus ved avansert dedifferensiert liposarkom og leiomyosarkom. Klasse-effekt (everolimus, ikke temsirolimus). |
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Review | Bulletin du cancer | Review of targeted treatments for rare connective tissue tumors and sarcomas, covering molecular subtyping and pathway-directed therapy approaches. |
+| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Gjennomgang | Bulletin du cancer | Oversikt over målrettede behandlinger for sjeldne bindevevstumorer og sarkom, som dekker molekylær undertypisering og bane-rettet terapi-tilnærminger. |
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Temsirolimus currently holds no marketing authorization in Norway (0 authorizations on file); no product or dosage form data is available.
+Temsirolimus har for tiden ingen markedsføringstillatelse i Norge (0 godkjennelser på fil); ingen produkt- eller dosering-data er tilgjengelig.
 
-## Cytotoxicity
+## Cytotoksisitet
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (mTOR inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitetsklassifisering | Målrettet terapi (mTOR-hemmer) |
+| Myelosuppresjonrisiko | Vennligst se pakningsvedleggets advarsler og forholdsregler |
+| Emetogenitetsklassifisering | Vennligst se pakningsvedleggets advarsler og forholdsregler |
+| Overvåkingspunkter | Vennligst se pakningsvedleggets advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Vennligst se pakningsvedleggets advarsler og forholdsregler |
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information. Note: TFDA-equivalent labeling data (warnings/contraindications) for this drug is currently a **blocking data gap**, which prevents completion of the standard S1 safety pre-assessment.
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Merk: TFDA-ekvivalent merknaddata (advarsler/kontraindikasjoner) for dette legemiddelet er for tiden et **blokkerende datakløft**, som hindrer ferdigstillelse av standard S1-sikkerhetsvurdering.
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Hold**
 
-**Rationale:**
-While two trials use temsirolimus directly in sarcoma populations (Grade A relevance) and the mTOR pathway has a plausible mechanistic role in liposarcoma, the evidence is limited to Phase 1/2 studies with no confirmatory Phase 3 data, and the drug is not marketed in Norway. Critically, the missing TFDA-equivalent labeling data is a blocking gap that prevents a safety pre-assessment (S1), so the candidate cannot yet advance to Go or Proceed with Guardrails.
+**Begrunnelse:**
+Selv om to studier bruker temsirolimus direkte i sarkompopulasjoner (Grade A relevans) og mTOR-banen har en plausibel mekanistisk rolle i liposarkom, er beviset begrenset til Fase 1/2-studier uten bekreftende Fase 3-data, og legemiddelet er ikke markedsført i Norge. Kritisk sett er det manglende TFDA-ekvivalente merknadsdata et blokkerende gap som hindrer en sikkerhetsvurdering (S1), slik at kandidaten ennå ikke kan avansere til Go eller Proceed with Guardrails.
 
-**To proceed, the following is needed:**
-- TFDA (or equivalent) label warnings/contraindications, to unblock the S1 safety assessment (DG001)
-- Confirmed mechanism-of-action and DrugBank category/toxicity data (DG002)
-- Original approved indication(s) for temsirolimus, to properly frame the repurposing rationale
-- Additional liposarcoma-specific trial data, ideally combination-regimen Phase 2/3 results, given monotherapy's historically limited efficacy in this tumor type
-- Route-of-administration compatibility assessment (currently pending)
+**For å fortsette, trengs følgende:**
+- TFDA (eller ekvivalent) merknadadvarsler/kontraindikasjoner, for å oppheve blokeringen av S1-sikkerhetsvurderingen (DG001)
+- Bekreftet mekanisme-handlings- og DrugBank-kategori/-toksisitetsdata (DG002)
+- Original godkjent indikasjon(er) for temsirolimus, for å ordentlig ramme inn ombruks-begrunnelsen
+- Ytterligere liposarkom-spesifikk studie-data, ideelt kombinasjons-regime Fase 2/3-resultater, gitt monoterapiens historisk begrenset effektivitet i denne tumortypen
+- Administreringsvei-kompatibilitetsvurdering (for tiden under behandling)
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

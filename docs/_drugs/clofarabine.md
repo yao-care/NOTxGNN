@@ -29,113 +29,114 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Clofarabine: From Pediatric Acute Lymphoblastic Leukemia to Myeloid Leukemia
+# Clofarabin: Fra pediatrisk akutt lymfoblastleukemi til myeloid leukemi
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-> Clofarabine is a purine nucleoside analog originally developed and approved (FDA, 2004) for relapsed/refractory acute lymphoblastic leukemia (ALL) in pediatric patients who failed at least two prior regimens.
-> The TxGNN model predicts it may also be effective for **Myeloid Leukemia (AML)**,
-> with **44 clinical trials** and **20 publications** currently supporting this direction — though it is not yet marketed in Norway and key safety documentation is still missing.
+> Clofarabin er en purinukleosidanalog opprinnelig utviklet og godkjent (FDA, 2004) for tilbakevendende/refraktær akutt lymfoblastleukemi (ALL) hos pediatriske pasienter som har mislyktes med minst to tidligere behandlingsserier.
+> TxGNN-modellen predikerer at det også kan være effektivt for **Myeloid leukemi (AML)**,
+> med **44 kliniske studier** og **20 publikasjoner** som for øyeblikket støtter denne retningen — selv om det ikke ennå er markedsført i Norge og viktig sikkerhetsdokumentasjon fortsatt mangler.
 
 ---
 
-## Quick Overview
+## Hurtigoversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not licensed in Norway (0 authorizations); internationally approved for relapsed/refractory pediatric ALL (ages 1–21, ≥2 prior regimens) |
-| Predicted New Indication | Myeloid Leukemia (AML) |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L2 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Ikke lisensiert i Norge (0 godkjenninger); internasjonalt godkjent for tilbakevendende/refraktær pediatrisk ALL (alder 1–21, ≥2 tidligere behandlingsserier) |
+| Predikert ny indikasjon | Myeloid leukemi (AML) |
+| TxGNN-prediktionsscore | 99.88% |
+| Evidensnivå | L2 |
+| Status på norsk marked | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed mechanism-of-action data from DrugBank is currently unavailable for clofarabine (data gap), and the drug holds no market authorization in Norway. However, the clinical trial and literature evidence collected consistently describes clofarabine as a second-generation deoxyadenosine (purine) nucleoside analog that inhibits ribonucleotide reductase and DNA polymerase, and disrupts mitochondrial membrane integrity to trigger apoptosis — a mechanism specifically targeting rapidly dividing cells. It was originally approved for relapsed/refractory pediatric ALL after other regimens failed.
+Detaljerte data om virkningsmekanisme fra DrugBank er for øyeblikket utilgjengelige for clofarabin (datagap), og legemidlet har ingen markedsgodkjenning i Norge. Imidlertid beskriver det kliniske studie- og litteraturgrunnlaget som er samlet inn konsekvent clofarabin som et andre generasjons deoxyadenosin (purin) nukleosidanalog som hemmer ribonukleotidreduktase og DNA-polymerase, og forstyrrer integritet i mitokondriemembranen for å utløse apoptose — en mekanisme som spesifikt retter seg mot raskt delende celler. Det ble opprinnelig godkjent for tilbakevendende/refraktær pediatrisk ALL etter at andre behandlingsserier mislyktes.
 
-ALL and AML both originate from the hematopoietic stem/progenitor compartment and share the defining biological feature that clofarabine is designed to exploit: rapidly proliferating leukemic blasts with high DNA synthesis activity. This mechanistic overlap is the biological rationale for the TxGNN prediction, and it is not merely theoretical — clofarabine has already been extensively studied "off-label" in AML, myelodysplastic syndrome (MDS), and CML blast phase, both as monotherapy and in combination regimens (with cytarabine, idarubicin, busulfan, mitoxantrone, etc.).
+ALL og AML oppstår begge fra det hematopoietiske stam-/progenitor-kompartementet og deler det karakteristiske biologiske trekket som clofarabin er utformet for å utnytte: raskt prolifererende leukemiske blaster med høy DNA-syntesaktivitet. Denne mekanistiske overlappingen er den biologiske begrunnelsen for TxGNN-prediksjonen, og den er ikke bare teoretisk — clofarabin har allerede blitt omfattende studert "off-label" i AML, myelodysplastisk syndrom (MDS), og CML-blastfase, både som monoterapi og i kombinasjonsregimer (med cytarabin, idarubicin, busulfan, mitoxantron, etc.).
 
-The depth of existing investigation reinforces this plausibility: 44 clinical trials and 20 publications specifically address clofarabine in myeloid leukemia populations, including multiple completed Phase 2 studies and a large completed Phase 2/3 programme (NCT00454480, n=2000) in AML/high-risk MDS. This indicates an area of substantial existing clinical practice rather than a purely graph-derived association.
+Dybden av eksisterende undersøkelse styrker denne plausibiliteten: 44 kliniske studier og 20 publikasjoner adresserer spesifikt clofarabin i myeloid leukemipopulasjoner, inkludert flere avsluttede Fase 2-studier og et stort avsluttet Fase 2/3-program (NCT00454480, n=2000) i AML/høyrisiko-MDS. Dette indikerer et område for omfattende eksisterende klinisk praksis snarere enn en rent grafutledet assosiasjon.
 
 ---
 
-## Clinical Trial Evidence
+## Klinisk studiebevis
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studienummer | Fase | Status | Inkludering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT00454480](https://clinicaltrials.gov/study/NCT00454480) | Phase 2/3 | Completed | 2000 | Large treatment-development programme for older AML/high-risk MDS patients, including gemtuzumab ozogamicin and tipifarnib comparator arms |
-| [NCT00932412](https://clinicaltrials.gov/study/NCT00932412) | Phase 2 | Completed | 735 | Randomized CLARA (clofarabine/intermediate-dose cytarabine) vs HDAC as consolidation in newly-diagnosed younger AML |
-| [NCT02665065](https://clinicaltrials.gov/study/NCT02665065) | Phase 3 | Active, not recruiting | 153 | Iomab-B + RIC transplant vs conventional care in active/relapsed/refractory AML |
-| [NCT00373529](https://clinicaltrials.gov/study/NCT00373529) | Phase 2 | Completed | 116 | Single-agent clofarabine in previously untreated older AML unlikely to benefit from intensive chemotherapy |
-| [NCT00067028](https://clinicaltrials.gov/study/NCT00067028) | Phase 1/2 | Completed | 116 | Clofarabine/AraC vs Clofarabine/Idarubicin vs triple combo in relapsed AML, high-grade MDS, and CML myeloid blast phase |
-| [NCT01295307](https://clinicaltrials.gov/study/NCT01295307) | Phase 2 | Completed | 86 | Clofarabine salvage therapy in relapsed/refractory AML as bridge to allogeneic HCT |
-| [NCT01101880](https://clinicaltrials.gov/study/NCT01101880) | Phase 2 | Completed | 50 | Clofarabine + high-dose cytarabine + G-CSF priming in newly diagnosed AML/advanced MDS/MPN |
-| [NCT02686593](https://clinicaltrials.gov/study/NCT02686593) | Phase 2 | Completed | 50 | CLAM regimen (clofarabine/cytarabine/mitoxantrone) as first salvage for relapsed/refractory AML |
-| [NCT00044889](https://clinicaltrials.gov/study/NCT00044889) | Phase 2 | Completed | 40 | Early open-label study of clofarabine in adult refractory/relapsed AML |
-| [NCT01090167](https://clinicaltrials.gov/study/NCT01090167) | Phase 1 | Completed | 14 | Safety, tolerability and PK of clofarabine in Japanese AML patients |
+| [NCT00454480](https://clinicaltrials.gov/study/NCT00454480) | Fase 2/3 | Avsluttet | 2000 | Stort behandlingsutviklingsprogram for eldre AML/høyrisiko-MDS-pasienter, inkludert gemtuzumab ozogamicin og tipifarnib sammenligningsarmer |
+| [NCT00932412](https://clinicaltrials.gov/study/NCT00932412) | Fase 2 | Avsluttet | 735 | Randomisert CLARA (clofarabin/intermediærdose cytarabin) versus HDAC som konsolideringsbehandling ved nydiagnostisert yngre AML |
+| [NCT02665065](https://clinicaltrials.gov/study/NCT02665065) | Fase 3 | Aktiv, ikke rekrutterer | 153 | Iomab-B + RIC-transplantasjon versus konvensjonell pleie ved aktiv/tilbakevendende/refraktær AML |
+| [NCT00373529](https://clinicaltrials.gov/study/NCT00373529) | Fase 2 | Avsluttet | 116 | Enkeltagens clofarabin hos tidligere ubehandlet eldre AML usannsynlig å dra nytte av intensiv kjemoterapi |
+| [NCT00067028](https://clinicaltrials.gov/study/NCT00067028) | Fase 1/2 | Avsluttet | 116 | Clofarabin/AraC versus Clofarabin/Idarubicin versus tredobbel kombinasjon ved tilbakevendende AML, høygradig MDS og CML-myeloid blastfase |
+| [NCT01295307](https://clinicaltrials.gov/study/NCT01295307) | Fase 2 | Avsluttet | 86 | Clofarabin-reddingsterapi ved tilbakevendende/refraktær AML som bro til allogen HCT |
+| [NCT01101880](https://clinicaltrials.gov/study/NCT01101880) | Fase 2 | Avsluttet | 50 | Clofarabin + høydose cytarabin + G-CSF-priming ved nydiagnostisert AML/avansert MDS/MPN |
+| [NCT02686593](https://clinicaltrials.gov/study/NCT02686593) | Fase 2 | Avsluttet | 50 | CLAM-regimen (clofarabin/cytarabin/mitoxantron) som første reddingsterapi ved tilbakevendende/refraktær AML |
+| [NCT00044889](https://clinicaltrials.gov/study/NCT00044889) | Fase 2 | Avsluttet | 40 | Tidlig åpen studie av clofarabin hos voksne refraktær/tilbakevendende AML |
+| [NCT01090167](https://clinicaltrials.gov/study/NCT01090167) | Fase 1 | Avsluttet | 14 | Sikkerhet, tolerabilitet og PK av clofarabin hos japanske AML-pasienter |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [31246522](https://pubmed.ncbi.nlm.nih.gov/31246522/) | 2019 | Phase III RCT | J Clin Oncol | AML08 trial: clofarabine can replace anthracyclines/etoposide in remission induction for childhood AML |
-| [18565853](https://pubmed.ncbi.nlm.nih.gov/18565853/) | 2008 | RCT | Blood | Randomized study of clofarabine vs clofarabine+low-dose cytarabine as front-line therapy in older AML/high-risk MDS |
-| [31905904](https://pubmed.ncbi.nlm.nih.gov/31905904/) | 2019 | Cohort | Cancers | Clofarabine-based consolidation (CLARA) improves relapse-free survival in AML with micro-complex karyotype |
-| [32187883](https://pubmed.ncbi.nlm.nih.gov/32187883/) | 2020 | Phase 2 | Cancer Medicine | CLAM (clofarabine/cytarabine/mitoxantrone) shows high response rates, effective bridge to allo-HSCT in refractory/relapsed AML |
-| [29773602](https://pubmed.ncbi.nlm.nih.gov/29773602/) | 2018 | Phase IB | Haematologica | Clofarabine + HDAC + liposomal daunorubicin in pediatric relapsed/refractory AML |
-| [39078289](https://pubmed.ncbi.nlm.nih.gov/39078289/) | 2024 | Cohort | Clin Cancer Res | Pharmacogenomic (ACS10) score personalizes AML induction regimen selection |
-| [25457773](https://pubmed.ncbi.nlm.nih.gov/25457773/) | 2015 | Review | Crit Rev Oncol Hematol | Comprehensive review of clofarabine's role in adult AML, monotherapy and combination strategies |
-| [22957815](https://pubmed.ncbi.nlm.nih.gov/22957815/) | 2013 | Review | Leukemia & Lymphoma | Review of clofarabine's role in AML treatment |
-| [21182488](https://pubmed.ncbi.nlm.nih.gov/21182488/) | 2011 | Review | Curr Med Chem | Novel and emerging drugs for AML, including clofarabine pharmacology |
-| [17852710](https://pubmed.ncbi.nlm.nih.gov/17852710/) | 2007 | Review | Leukemia & Lymphoma | "Clofarabine: past, present, and future" — mechanism and combination rationale |
+| [31246522](https://pubmed.ncbi.nlm.nih.gov/31246522/) | 2019 | Fase III RCT | J Clin Oncol | AML08-studie: clofarabin kan erstatte antracykliner/etoposid i remisjonsinuksjon for barndommens AML |
+| [18565853](https://pubmed.ncbi.nlm.nih.gov/18565853/) | 2008 | RCT | Blood | Randomisert studie av clofarabin versus clofarabin+lavdose cytarabin som førstelinjeterapi hos eldre AML/høyrisiko-MDS |
+| [31905904](https://pubmed.ncbi.nlm.nih.gov/31905904/) | 2019 | Kohort | Cancers | Clofarabin-basert konsolideringsbehandling (CLARA) forbedrer tilbakefallsfri overlevelse hos AML med mikro-kompleks karyotype |
+| [32187883](https://pubmed.ncbi.nlm.nih.gov/32187883/) | 2020 | Fase 2 | Cancer Medicine | CLAM (clofarabin/cytarabin/mitoxantron) viser høye responsrater, effektiv bro til allo-HSCT ved refraktær/tilbakevendende AML |
+| [29773602](https://pubmed.ncbi.nlm.nih.gov/29773602/) | 2018 | Fase IB | Haematologica | Clofarabin + HDAC + liposomal daunorubicin hos pediatrisk tilbakevendende/refraktær AML |
+| [39078289](https://pubmed.ncbi.nlm.nih.gov/39078289/) | 2024 | Kohort | Clin Cancer Res | Farmakogenomisk (ACS10) score personaliserer valg av AML-induksjonsregimen |
+| [25457773](https://pubmed.ncbi.nlm.nih.gov/25457773/) | 2015 | Gjennomgang | Crit Rev Oncol Hematol | Omfattende gjennomgang av clofarabins rolle hos voksne AML, monoterapi og kombinasjonsstrategier |
+| [22957815](https://pubmed.ncbi.nlm.nih.gov/22957815/) | 2013 | Gjennomgang | Leukemia & Lymphoma | Gjennomgang av clofarabins rolle i AML-behandling |
+| [21182488](https://pubmed.ncbi.nlm.nih.gov/21182488/) | 2011 | Gjennomgang | Curr Med Chem | Nye og fremvoksende legemidler for AML, inkludert clofarabin-farmakologi |
+| [17852710](https://pubmed.ncbi.nlm.nih.gov/17852710/) | 2007 | Gjennomgang | Leukemia & Lymphoma | "Clofarabin: fortid, nåtid og fremtid" — mekanisme og kombinasjonsrationale |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Clofarabine is currently **not marketed in Norway** (0 authorizations on record).
+Clofarabin er for øyeblikket **ikke markedsført i Norge** (0 godkjenninger på register).
 
 ---
 
-## Cytotoxicity
+## Cytotoksisitet
 
-Clofarabine is a conventional cytotoxic antineoplastic agent (purine nucleoside antimetabolite), so this section applies.
+Clofarabin er et konvensjonelt cytotoksisk antineoplastisk middel (purin nukleosidantimetabolitt), så denne delen gjelder.
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (purine/deoxyadenosine nucleoside analog, antimetabolite class) |
-| Myelosuppression Risk | High — as a DNA synthesis inhibitor targeting rapidly dividing cells, bone marrow suppression (neutropenia, thrombocytopenia, anemia) is expected; trial literature reports Grade >3 hematological toxicity as a common event (e.g., PMID 22431002) |
-| Emetogenicity Classification | Moderate to High (consistent with intravenous purine analog chemotherapy) |
-| Monitoring Items | CBC with differential, liver function tests, renal function/creatinine, fluid balance and blood pressure (capillary leak/hypotension risk reported with nucleoside analogs), signs of infection |
-| Handling Protection | Requires standard cytotoxic/hazardous drug handling precautions (PPE, closed-system transfer devices) per antineoplastic handling regulations |
+| Cytotoksisitetsklassifisering | Konvensjonelt cytotoksisk (purin/deoxyadenosin nukleosidanalog, antimetabolittklasse) |
+| Myelosuppresjonrisiko | Høy — som en DNA-syntesehemmer som retter seg mot raskt delende celler, er benmargssuppresjon (neutropeni, trombocytopeni, anemi) forventet; litteraturen fra studier rapporterer Grad >3 hematologisk toksisitet som en vanlig hendelse (f.eks. PMID 22431002) |
+| Emetogenisitetsklassifisering | Moderat til høy (i samsvar med intravenøs purinanalogkjemoterapi) |
+| Overvåkingspunkter | CBC med differensial, leverfunksjonstester, nyrefunksjon/kreatinin, væskebalanse og blodtrykk (kapillærlekkasje-/hypotensjonrisiko rapportert med nukleosidanaloger), tegn på infeksjon |
+| Håndteringsbeskyttelse | Krever standard cytotoksisk/farlig legemiddelhåndteringsforsiktigheter (PPE, lukket system overføringsutstyr) per antineoplastisk håndteringsforskrifter |
 
 ---
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
 ---
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-The myeloid leukemia indication is well supported mechanistically and by a substantial body of clinical evidence (44 trials, 20 publications, including a completed Phase III pediatric AML RCT). However, clofarabine has no current market authorization in Norway, and a **Blocking**-severity data gap (missing TFDA-equivalent label warnings/contraindications) prevents entry into the Stage 1 (S1) safety evaluation. Until this is resolved, neither "Go" nor "Proceed with Guardrails" can be responsibly recommended.
+**Begrunnelse:**
+Indikasjon for myeloid leukemi er godt støttet mekanistisk og av en omfattende mengde klinisk evidens (44 studier, 20 publikasjoner, inkludert en avsluttet Fase III pediatrisk AML RCT). Imidlertid har clofarabin ingen gjeldende markedsgodkjenning i Norge, og et **blokeringsalvorlighet-datagap** (manglende TFDA-ekvivalent etikettvarsler/kontraindikasjoner) forhindrer inngang til Stage 1 (S1) sikkerhetsevaluering. Inntil dette er løst, kan verken "Go" eller "Proceed with Guardrails" ansvarlig anbefales.
 
-**To proceed, the following is needed:**
-- Official prescribing information / SmPC with warnings, contraindications, and drug-drug interaction data (resolves the Blocking gap)
-- Detailed mechanism-of-action and DrugBank pharmacological classification data (resolves the High-severity gap)
-- Confirmation of Norway/EU marketing authorization status or applicable off-label/named-patient access pathways for AML
-- Systematic relevance grading of the 44 myeloid leukemia trials and 20 publications (currently unclassified/"pending")
-- Route-of-administration and dosing feasibility assessment for the AML population (currently unassessed)
+**For å fortsette, trengs følgende:**
+- Offisiell forskriverinformasjon / SmPC med advarsler, kontraindikasjoner og legemiddel-legemiddel interaksjonsdata (løser blokeringsgapet)
+- Detaljert virkningsmekanisme og DrugBank farmakologisk klassifiseringdata (løser høy-alvorlighet-gapet)
+- Bekreftelse av Norge/EU-markedsgodkjenningsstatus eller gjeldende off-label/navngitt pasient-tilgangsveger for AML
+- Systematisk relevansgradering av de 44 myeloid leukemistudiene og 20 publikasjonene (for øyeblikket uklassifisert/"avventer")
+- Vurdering av administreringsrute og doseringsjennomførbarhet for AML-populasjonen (for øyeblikket uvurdert)
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

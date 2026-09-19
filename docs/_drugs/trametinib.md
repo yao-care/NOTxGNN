@@ -29,105 +29,106 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Trametinib: From Malignant Melanoma to Choroideremia
+# Trametinib: Fra malignt melanom til koreideremi
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-> Trametinib is a MEK1/2 inhibitor developed and used (in combination with dabrafenib) for BRAF V600E/K mutation-positive malignant melanoma.
-> The TxGNN model's top-ranked prediction is **Choroideremia**, a rare inherited retinal degeneration,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications**, and no known pathophysiological link to the drug's MAPK/MEK mechanism has been identified.
+> Trametinib er en MEK1/2-hemmer utviklet og brukt (i kombinasjon med dabrafenib) for BRAF V600E/K-mutasjonspositiv malignt melanom.
+> TxGNN-modellens topprangerte prediksjon er **koreideremi**, en sjelden arvelig netthinnedegenersjon,
+> men denne prediksjonen er for øyeblikket støttet av **0 kliniske studier** og **0 publikasjoner**, og ingen kjent patofysiologisk sammenheng til legemidlets MAPK/MEK-mekanisme er identifisert.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Malignant melanoma, BRAF V600E/K mutation-positive (inferred from international trial records; no locally approved indication text on file) |
-| Predicted New Indication | Choroideremia |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Originalindikasjon | Malignt melanom, BRAF V600E/K-mutasjonspositiv (utledet fra internasjonale prøveregistreringer; ingen lokalt godkjent indiksjonstekst på fil) |
+| Forutsagt ny indikasjon | Koreideremi |
+| TxGNN prediksjonspoengsum | 99.31% |
+| Bevisnivå | L5 |
+| Status på Taiwan-markedet | Ikke markedsført (Ikke markedsført) |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen fornuftig?
 
-Currently, detailed mechanism of action data is not available in the evidence pack (original_moa flagged as a data gap). Based on information embedded in the supporting trial records provided in this pack, trametinib (GSK1120212) is described as "a reversible and highly selective allosteric inhibitor of MEK1 and MEK2," developed for the treatment of malignant melanoma, typically in combination with the BRAF inhibitor dabrafenib.
+For øyeblikket er detaljerte virkningsmekanismedata ikke tilgjengelig i bevissamlingen (original_moa flagget som et datahull). Basert på informasjon innebygd i de støttende prøveregistreringene som følger med i denne pakken, beskrives trametinib (GSK1120212) som "en reversibel og svært selektiv allosterisk hemmer av MEK1 og MEK2," utviklet for behandling av malignt melanom, typisk i kombinasjon med BRAF-hemmeren dabrafenib.
 
-Choroideremia is a rare X-linked inherited retinal degenerative disease caused by loss-of-function mutations in the *CHM* gene (encoding Rab escort protein-1), which impairs prenylation of Rab GTPases required for photoreceptor and retinal pigment epithelium trafficking. There is no established connection between this pathway and MAPK/MEK signaling, and the evidence pack's own rationale explicitly flags this: *"與 MAPK/MEK 通路無已知病理生理關聯"* — no known pathophysiological relationship exists.
+Koreideremi er en sjelden X-koblet arvelig netthinnedegenersjon forårsaket av funksjonstap-mutasjoner i *CHM*-genet (som koder for Rab-eskorteprotein-1), som påvirker prenylasjonen av Rab GTPaser som kreves for fotoreseptor- og retinalt pigmentepitel-transport. Det finnes ingen etablert forbindelse mellom denne stien og MAPK/MEK-signaling, og bevissamlingens eget begrunnelse flagget dette eksplisitt: *"與 MAPK/MEK 通路無已知病理生理關聯"* — ingen kjent patofysiologisk sammenheng eksisterer.
 
-Given the absence of any supporting clinical trial or literature evidence (evidence level L5, decision stage S0), the high TxGNN score for this candidate most likely reflects a spurious correlation in the model's embedding space rather than a genuine biological signal. This is a useful illustration of a case where raw prediction rank should not be interpreted as clinical priority without independent mechanistic or experimental corroboration.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Gitt fraværet av alle støttende kliniske prøver eller litteraturbeviser (bevisnivå L5, beslutningsstadium S0), gjenspeiler den høye TxGNN-poengsum for denne kandidaten mest sannsynlig en spuriøs korrelasjon i modellens innebyggingsrom snarere enn et genuint biologisk signal. Dette er en nyttig illustrasjon av en sak hvor råprediksjonsrangering ikke skal tolkes som klinisk prioritet uten uavhengig mekanistisk eller eksperimentell bekreftigelse.
 
 ---
 
-## Literature Evidence
+## Klinisk bevismateriell fra prøver
 
-Currently no related literature available.
-
----
-
-## Taiwan Market Information
-
-Trametinib is currently **not marketed** in Taiwan under this evidence pack (0 authorizations on file). No product license or approved-indication records are available for extraction.
+Ingen relaterte kliniske prøver er for øyeblikket registrert.
 
 ---
 
-## Cytotoxicity
+## Litteraturbevis
 
-Trametinib is an antineoplastic agent (MEK1/2 inhibitor used in BRAF-mutant melanoma), so this section applies.
+Ingen relatert litteratur er for øyeblikket tilgjengelig.
 
-| Item | Content |
+---
+
+## Informasjon om Taiwan-markedet
+
+Trametinib er for øyeblikket **ikke markedsført** på Taiwan under denne bevissamlingen (0 godkjennelser på fil). Ingen produktlisensar eller godkjente indikasjonsposter er tilgjengelige for uttak.
+
+---
+
+## Cellegiftighet
+
+Trametinib er et antineoplastisk middel (MEK1/2-hemmer brukt i BRAF-mutert melanom), så denne delen gjelder.
+
+| Element | Innhold |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (MEK1/2 inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Cellegiftklassifisering | Målrettet terapi (MEK1/2-hemmer) |
+| Risiko for beinmargshemming | Vennligst se pakningsvedlegget for advarsler og forholdsregler |
+| Emetogenisitetsklassifisering | Vennligst se pakningsvedlegget for advarsler og forholdsregler |
+| Overvåkingselementer | Vennligst se pakningsvedlegget for advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Vennligst se pakningsvedlegget for advarsler og forholdsregler |
 
 ---
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The choroideremia prediction has no supporting clinical trials or literature (L5/S0), and no known mechanistic pathway links MEK inhibition to CHM-related retinal degeneration. The high TxGNN score is best treated as a candidate for model-artifact review rather than a repurposing lead.
-
-**To proceed, the following is needed:**
-- Preclinical/mechanistic evidence connecting MAPK-MEK signaling to CHM-deficient retinal pathology (if any exists)
-- Independent verification of the TxGNN embedding score with the modeling team to rule out spurious correlation
-- Trametinib mechanism of action (MOA) and TFDA/local label data to close current data gaps (DG001, DG002)
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
 ---
 
-## Note: Other Predicted Indications in This Evidence Pack
+## Konklusjon og neste steg
 
-This evidence pack is a multi-candidate ("TW-DB08911-multi") output, and ranks 2–9 show notably better-supported (though still early-stage) signals — worth flagging alongside the headline prediction above:
+**Beslutning: Avvent**
 
-| Rank | Disease | Evidence Level | Decision Stage | Recommendation | Key Support |
-|------|---------|----------------|-----------------|-----------------|--------------|
-| 2 | Non-cutaneous melanoma | L2 | S2 | Research Question | Phase 3 DREAMseq + multiple Phase 2 trials (BRAF-mutant population, not subtype-specific) |
-| 7 | Acral lentiginous melanoma | L2 | S2 | Research Question | [NCT02083354](https://clinicaltrials.gov/study/NCT02083354) — subtype-specific Phase 2 ORR data, n=77 |
-| 9 | Superficial spreading melanoma | L3 | S2 | Research Question | Molecular-matched Phase 2 trial + case reports (brain/choroidal metastasis response) |
-| 3, 4, 6, 8 | Epithelioid, eyelid, amelanotic, lentigo maligna melanoma | L4 | S1 | Research Question | Case reports/reviews only, no subtype-specific trials |
-| 5, 10 | Scrotum melanoma, balloon cell melanoma | L5 | S0 | Hold | No evidence |
+**Begrunnelse:**
+Koreideremiprediksjonen har ingen støttende kliniske prøver eller litteratur (L5/S0), og ingen kjent mekanistisk vei forbinder MEK-hemming til CHM-relatert netthinnedegenersjon. Den høye TxGNN-poengsum behandles best som en kandidat for modellartifaktgjennomgang snarere enn som en repurposingkandidat.
 
-**Important caveat:** all of ranks 2–10 are histologic/anatomic **subtypes of melanoma** — the disease space trametinib is already used in (combined with dabrafenib) internationally. These do not represent novel-organ repurposing in the way choroideremia would; they reflect within-indication subtype extrapolation, and their clinical value depends on subtype-specific BRAF mutation prevalence (e.g., acral and mucosal subtypes have markedly lower BRAF V600 mutation rates than classic cutaneous melanoma).
+**For å gå videre, er følgende nødvendig:**
+- Preklinisk/mekanistisk bevis som forbinder MAPK-MEK-signalering til CHM-defekt netthinnepatologi (hvis det finnes)
+- Uavhengig verifisering av TxGNN-innebyggingspoengsum med modelleringsteamet for å utelukke spuriøs korrelasjon
+- Trametinib virkningsmekanisme (MOA) og TFDA/lokale merkedata for å lukke gjeldende datahull (DG001, DG002)
+
+---
+
+## Merknad: Andre forutsagte indikasjoner i denne bevissamlingen
+
+Denne bevissamlingen er en multi-kandidat ("TW-DB08911-multi") utdata, og rangeringer 2–9 viser merkbart bedre støttet (om enn fortsatt tidlig-stadium) signaler — verdt å flagge sammen med hovedprediksjonen ovenfor:
+
+| Rangering | Sykdom | Bevisnivå | Beslutningsstadium | Anbefaling | Sentral støtte |
+|------|---------|----------------|-----------------|-----------------|-----------|
+| 2 | Ikke-kutant melanom | L2 | S2 | Forskningsspørsmål | Fase 3 DREAMseq + flere Fase 2-studier (BRAF-mutert populasjon, ikke subtypspesifikk) |
+| 7 | Acralt lentigøst melanom | L2 | S2 | Forskningsspørsmål | [NCT02083354](https://clinicaltrials.gov/study/NCT02083354) — subtypspesifikk Fase 2 ORR-data, n=77 |
+| 9 | Overflatisk spreiende melanom | L3 | S2 | Forskningsspørsmål | Molekylært matchet Fase 2-studie + saksrapporter (respons på hjerne-/korioidalmetastase) |
+| 3, 4, 6, 8 | Epithelioid, øyelokk, amelanotisk, lentigo maligna melanom | L4 | S1 | Forskningsspørsmål | Kun saksrapporter/gjennomganger, ingen subtypspesifikke studier |
+| 5, 10 | Skrotalt melanom, ballongcellemelanom | L5 | S0 | Avvent | Ingen bevis |
+
+**Viktig forbehold:** alle rangeringer 2–10 er histologisk/anatomisk **undertyper av melanom** — sykdomsrommet trametinib allerede er brukt i (kombinert med dabrafenib) internasjonalt. Disse representerer ikke repurposering til nytt organ på samme måte som koreideremi ville gjøre; de gjenspeiler ekstrapolasjon av undertyper innen samme indikasjon, og deres kliniske verdi avhenger av subtypspesifikk BRAF-mutasjonsprevalens (f.eks. acralt og slimhinne-undertyper har markant lavere BRAF V600-mutasjonsrater enn klassisk kutant melanom).
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

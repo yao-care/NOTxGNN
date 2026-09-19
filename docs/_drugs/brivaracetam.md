@@ -29,92 +29,93 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Brivaracetam: From Focal-Onset Epilepsy to Status Epilepticus
+# Brivaracetam: Fra fokusert epilepsi til status epilepticus
 
-## One-Sentence Summary
+## Sammenfattelse på én setning
 
-Brivaracetam is a high-affinity SV2A ligand originally developed and used as adjunctive therapy for focal-onset (partial) seizures in epilepsy.
-Among the ten indications predicted by the TxGNN model, **Status Epilepticus** shows by far the strongest supporting evidence and is the focus of this report,
-with **2 clinical trials** (including one direct head-to-head comparison with levetiracetam) and **19 publications** currently supporting this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Focal-onset (partial) seizures / epilepsy, adjunctive treatment (inferred from literature; no Norway license text available) |
-| Predicted New Indication | Status Epilepticus |
-| TxGNN Prediction Score | 99.40% |
-| Evidence Level | L2 |
-| Norway Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Brivaracetam er en ligand med høy affinitet for SV2A, opprinnelig utviklet og brukt som adjuvant terapi for fokuserte (partielle) anfall ved epilepsi.
+Blant de ti indikasjoner som er forutsagt av TxGNN-modellen, viser **status epilepticus** langt den sterkeste støttende evidensen og er fokus for denne rapporten,
+med **2 kliniske forsøk** (inkludert en direkte head-to-head sammenligning med levetiracetam) og **19 publikasjoner** som for tiden støtter denne retningen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available in the evidence pack (data gap, DG002). Based on known information from the literature, brivaracetam is a high-affinity, selective ligand of synaptic vesicle protein 2A (SV2A), structurally related to levetiracetam but with 15- to 30-fold greater binding affinity and faster brain penetration. Its efficacy in focal-onset epilepsy has been established through multiple Phase 3 trials and is now supported for status epilepticus by real-world and registry data.
-
-Status epilepticus (SE) is, pathophysiologically, a failure of the mechanisms that normally terminate a seizure — it is a continuation and intensification of the same underlying seizure biology already targeted by brivaracetam in its approved indication. Levetiracetam, the parent compound acting on the same SV2A target, is already widely used intravenously in SE management, making brivaracetam's extension into this indication a class-effect extrapolation rather than a novel mechanistic hypothesis.
-
-Mechanistically, brivaracetam's rapid blood-brain-barrier penetration and available intravenous formulation are particularly well suited to the emergency treatment setting of SE, where fast onset of action is critical. This combination of established SV2A pharmacology, an IV formulation, and accumulating multicenter registry and comparative trial data supports the plausibility of this predicted indication.
+| Punkt | Innhold |
+|-------|---------|
+| Original indikasjon | Fokuserte (partielle) anfall / epilepsi, adjuvant behandling (utledet fra litteratur; ingen norsk lisenstekst tilgjengelig) |
+| Forutsagt ny indikasjon | Status epilepticus |
+| TxGNN-prediksjonsresultat | 99.40% |
+| Evidensnivå | L2 |
+| Markedsstatus i Norge | Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Fortsett med forbehold |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige i evidenspakken (datakløft, DG002). Basert på kjent informasjon fra litteraturen, er brivaracetam en ligand med høy affinitet og selektivitet for synaptic vesicle protein 2A (SV2A), strukturelt relatert til levetiracetam men med 15- til 30-fold større bindingsaffinitet og raskere penetrasjon av hjernen. Dets effektivitet ved fokusert epilepsi er etablert gjennom flere fase 3-studier og er nå støttet for status epilepticus av data fra virkeligheten og registerdata.
+
+Status epilepticus (SE) er, patofysiologisk, en svikt i mekanismene som normalt avslutter et anfall — det er en fortsettelse og intensivering av den samme underliggende anfallsbiologien som allerede er målrettet av brivaracetam i sin godkjente indikasjon. Levetiracetam, moderverbindelsen som virker på det samme SV2A-målet, er allerede mye brukt intravenøst ved SE-behandling, noe som gjør brivaracetams utvidelse til denne indikasjonen til en klasse-effekt-ekstrapolasjon snarere enn en ny mekanistisk hypotese.
+
+Mekanistisk sett er brivaracetams raskere penetrasjon av blod-hjerne-barrieren og tilgjengelig intravenøs formulering særlig godt egnet til akuttsituasjonen ved SE-behandling, der rask virkningstid er kritisk. Denne kombinasjonen av etablert SV2A-farmakologi, en IV-formulering, og akkumulerende multisenters register- og sammenlignende forsøksdata støtter plausibiliteten av denne forutsagte indikasjonen.
+
+---
+
+## Evidens fra kliniske forsøk
+
+| Forsøksnummer | Fase | Status | Rekruttering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT07163572](https://clinicaltrials.gov/study/NCT07163572) | N/A | Completed | 152 | Direct comparison of IV brivaracetam vs. IV levetiracetam for acute management of pediatric status epilepticus; addresses the current gap in pediatric SE data for brivaracetam. |
-| [NCT07443241](https://clinicaltrials.gov/study/NCT07443241) | N/A | Completed | 779 | Retrospective real-world study of sex-related differences in etiology, diagnostics, treatment, and outcomes of SE (2011–2023 cohort); includes treatment data but not brivaracetam-specific. |
+| [NCT07163572](https://clinicaltrials.gov/study/NCT07163572) | N/A | Fullført | 152 | Direkte sammenligning av IV brivaracetam versus IV levetiracetam for akutt behandling av pediatrisk status epilepticus; adresserer det nåværende gapet i pediatriske SE-data for brivaracetam. |
+| [NCT07443241](https://clinicaltrials.gov/study/NCT07443241) | N/A | Fullført | 779 | Retrospektiv studie fra virkeligheten av kjønnsspesifikke forskjeller i etiologi, diagnostikk, behandling og utfall av SE (2011–2023 kohort); inkluderer behandlingsdata, men ikke brivaracetam-spesifikk. |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [32278203](https://pubmed.ncbi.nlm.nih.gov/32278203/) | 2020 | Systematic Review | J Neurol Sci | Efficacy/tolerability of IV brivaracetam for SE; notes sparse controlled trial data limiting current recommendation strength. |
-| [41838218](https://pubmed.ncbi.nlm.nih.gov/41838218/) | 2026 | Systematic Review | J Neurol | Most recent systematic review of brivaracetam for SE; evaluates efficacy and safety across accumulated studies. |
-| [31342405](https://pubmed.ncbi.nlm.nih.gov/31342405/) | 2019 | Systematic Review | CNS Drugs | IV brivaracetam in SE treatment; highlights favorable pharmacokinetics for emergency use. |
-| [32822230](https://pubmed.ncbi.nlm.nih.gov/32822230/) | 2020 | Review | Epilepsy Currents | AES Treatments Committee comprehensive review of refractory convulsive SE; evaluates 8 parenteral ASMs including brivaracetam as third-line option. |
-| [26891946](https://pubmed.ncbi.nlm.nih.gov/26891946/) | 2016 | Review | Expert Rev Clin Pharmacol | Brivaracetam in focal/idiopathic generalized epilepsies and SE; summarizes seizure reduction and responder rates across dose ranges. |
-| [36528008](https://pubmed.ncbi.nlm.nih.gov/36528008/) | 2023 | Review (photosensitivity model) | Epilepsy & Behavior | Compares brivaracetam and levetiracetam using the photosensitivity/EEG biomarker model as a lens for SE treatment decisions. |
-| [31260101](https://pubmed.ncbi.nlm.nih.gov/31260101/) | 2019 | Multicenter Registry | Epilepsia | Multicenter evaluation of IV brivaracetam use in SE, supported by preclinical effectiveness in animal SE models. |
-| [33561784](https://pubmed.ncbi.nlm.nih.gov/33561784/) | 2021 | Multicentric Retrospective Study | Seizure | Italian multicenter retrospective study evaluating use, effectiveness, and adverse events of IV brivaracetam in SE. |
-| [30530123](https://pubmed.ncbi.nlm.nih.gov/30530123/) | 2019 | Cohort/PK Study | Epilepsy Research | Correlates IV brivaracetam loading dose and plasma levels with clinical response in SE patients. |
-| [32480279](https://pubmed.ncbi.nlm.nih.gov/32480279/) | 2020 | Case Report | Seizure | Case report describing use of brivaracetam in absence status epilepticus. |
+| [32278203](https://pubmed.ncbi.nlm.nih.gov/32278203/) | 2020 | Systematisk oversikt | J Neurol Sci | Effektivitet/toleranse av IV brivaracetam for SE; bemerker sparsomme kontrollerte forsøksdata som begrenser styrken på nåværende anbefalinger. |
+| [41838218](https://pubmed.ncbi.nlm.nih.gov/41838218/) | 2026 | Systematisk oversikt | J Neurol | Nyeste systematiske oversikt over brivaracetam for SE; evaluerer effektivitet og sikkerhet på tvers av akkumulerte studier. |
+| [31342405](https://pubmed.ncbi.nlm.nih.gov/31342405/) | 2019 | Systematisk oversikt | CNS Drugs | IV brivaracetam i SE-behandling; fremhever gunstig farmakokinetikk for akuttbruk. |
+| [32822230](https://pubmed.ncbi.nlm.nih.gov/32822230/) | 2020 | Oversikt | Epilepsy Currents | AES Treatments Committee omfattende oversikt over refraktær konvulsiv SE; evaluerer 8 parenterale antiepileptiske stoffers – inkludert brivaracetam som tredje-linje alternativ. |
+| [26891946](https://pubmed.ncbi.nlm.nih.gov/26891946/) | 2016 | Oversikt | Expert Rev Clin Pharmacol | Brivaracetam ved fokusert/idiopatisk generalisert epilepsi og SE; oppsummerer anfallsreduksjon og responderrater på tvers av dosisintervaller. |
+| [36528008](https://pubmed.ncbi.nlm.nih.gov/36528008/) | 2023 | Oversikt (fotosensitivitetsmodell) | Epilepsy & Behavior | Sammenligner brivaracetam og levetiracetam ved å bruke fotosensitivitets-/EEG-biomerkermodellen som en lins for SE-behandlingsbeslutninger. |
+| [31260101](https://pubmed.ncbi.nlm.nih.gov/31260101/) | 2019 | Multisenters register | Epilepsia | Multisenters evaluering av IV brivaracetam-bruk i SE, støttet av preklinisk effektivitet i dyremodeller for SE. |
+| [33561784](https://pubmed.ncbi.nlm.nih.gov/33561784/) | 2021 | Multisentrisk retrospektiv studie | Seizure | Italiensk multisenters retrospektiv studie som evaluerer bruk, effektivitet og bivirkninger av IV brivaracetam i SE. |
+| [30530123](https://pubmed.ncbi.nlm.nih.gov/30530123/) | 2019 | Kohort-/farmakokinetisk studie | Epilepsy Research | Korrelerer IV brivaracetam-lastdose og plasmanivoer med klinisk respons hos SE-pasienter. |
+| [32480279](https://pubmed.ncbi.nlm.nih.gov/32480279/) | 2020 | Pasientrapport | Seizure | Pasientrapport som beskriver bruk av brivaracetam ved fravær status epilepticus. |
 
 ---
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Currently not marketed in Norway — no local authorization/license data is available for this product.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: key warnings, contraindications, and drug-drug interaction data are all currently unavailable — DG001 identifies this as a blocking gap for the S1 safety review stage.)*
+Ikke markedsført i Norge for øyeblikket — ingen lokal autorisasjons-/lisensdata er tilgjengelig for dette produktet.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-**Rationale:**
-One completed head-to-head trial (IV brivaracetam vs. levetiracetam, N=152) plus multiple systematic reviews and multicenter registry studies support the use of IV brivaracetam in status epilepticus, consistent with the already-established use of the same-class SV2A ligand levetiracetam in this setting. This corresponds to Evidence Level L2 — sufficient to proceed cautiously, but not yet to a full "Go" given the absence of a dedicated adult RCT.
+*(Merk: viktige advarsler, kontraindikasjoner og data om legemiddel-legemiddel-interaksjoner er alle for tiden utilgjengelige — DG001 identifiserer dette som en blokkering datakløft for S1 sikkerhetsvurderingsstadiet.)*
 
-**To proceed, the following is needed:**
-- Local regulatory/label data (TFDA/EMA package insert warnings and contraindications) — currently a blocking data gap (DG001)
-- Drug-drug interaction data (current DDI query returned "not found")
-- Formal mechanism-of-action documentation for regulatory submission (DG002)
-- A prospective RCT in the adult SE population, as the strongest current comparative trial is in pediatric patients
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Fortsett med forbehold**
+
+**Begrunnelse:**
+Én gjennomført head-to-head studie (IV brivaracetam versus levetiracetam, N=152) pluss flere systematiske oversikter og multisenters registerstudier støtter bruken av IV brivaracetam ved status epilepticus, i samsvar med allerede etablert bruk av samme-klasse SV2A-liganden levetiracetam i denne settingen. Dette tilsvarer evidensnivå L2 — tilstrekkelig til å fortsette forsiktig, men ikke ennå til en full "Ja" gitt fraværet av en dedikert voksne-RCT.
+
+**For å fortsette, trengs følgende:**
+- Lokale regulatoriske/etikett-data (TFDA/EMA-pakningsvedleggsadvarsler og kontraindikasjoner) — for tiden en blokkering datakløft (DG001)
+- Legemiddel-legemiddel-interaksjonsdata (nåværende DDI-spørring returnerte "ikke funnet")
+- Formell dokumentasjon av virkningsmekanisme for regulatorisk innsending (DG002)
+- En prospektiv RCT i den voksne SE-populasjonen, da den sterkeste nåværende sammenligningsforsøk er i pediatriske pasienter
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,98 +29,99 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Eribulin: From Liposarcoma to Fibroblastic Neoplasm (Solitary Fibrous Tumor)
+# Eribulin: Fra liposarkom til fibroblastisk neoplasi (Solitary Fibrous Tumor)
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-> Eribulin is a microtubule inhibitor chemotherapy agent, with FDA-approved use in unresectable liposarcoma referenced in the underlying evidence.
-> The TxGNN model generated 10 candidate indications for this drug; among them, **Fibroblastic Neoplasm (Solitary Fibrous Tumor)** stands out as the only candidate backed by a **completed Phase II clinical trial** and **multiple supporting publications**, while 7 of the other 9 candidates (including the model's #1-ranked prediction, "familial Mediterranean fever") have zero clinical or literature support and are flagged by the evidence pack itself as likely model noise.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Unresectable liposarcoma (soft tissue sarcoma) — noted in evidence pack rationale; no formal indication list was returned for this drug |
-| Predicted New Indication | Fibroblastic Neoplasm (Solitary Fibrous Tumor) |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L3 (one completed, single-arm Phase II trial specific to this indication + supportive preclinical literature; not yet a randomized Phase 2/3 trial, so short of L2) |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
-**Note on selection:** This report evaluates the *best-evidenced* candidate from the 10 TxGNN predictions supplied, not the top-ranked one. The #1 ranked prediction ("autosomal recessive familial Mediterranean fever," score 99.82%) has no clinical or literature evidence at all, and its own mechanistic rationale explicitly states it is "very likely TxGNN model noise/false positive." Fibroblastic neoplasm (model rank 8, score 99.36%) is the only candidate with a dedicated completed trial.
+> Eribulin er en mikrotubuli-hemmer kjemoterapi-agent med FDA-godkjenning for bruk ved ikke-resektabelt liposarkom som referert i underliggende bevis.
+> TxGNN-modellen genererte 10 kandidatindikasjon for dette legemidlet; blant dem skiller **Fibroblastisk neoplasi (Solitary Fibrous Tumor)** seg ut som den eneste kandidaten støttet av en **gjennomført klinisk utprøving i fase II** og **flere støttepublikasjoner**, mens 7 av de andre 9 kandidatene (inkludert modellens #1-rangerte prediksjon, "familial Mediterranean fever") ikke har noen klinisk eller litteraturstøtte og er flagget av selv bevispacken som sannsynlig modellstøy.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism-of-action data for eribulin is not available in this evidence pack (flagged as a High-severity data gap, DG002). Based on the information that is available, eribulin is a microtubule dynamics inhibitor (halichondrin B analog class) used as cytotoxic chemotherapy, with an established, FDA-approved role in unresectable liposarcoma — a soft-tissue sarcoma.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke-resektabelt liposarkom (bløtvevssarkom) — nevnt i bevispackens begrunnelse; ingen formell indikasjonsliste ble returnert for dette legemidlet |
+| Predikert ny indikasjon | Fibroblastisk neoplasi (Solitary Fibrous Tumor) |
+| TxGNN Prediksjonsscore | 99.36% |
+| Bevisnivå | L3 (en gjennomført, enkeltarms fase II-utprøving spesifikk for denne indikasjon + støttende preklinisk litteratur; ennå ikke en randomisert fase 2/3-utprøving, så ikke helt opp til L2) |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Fortsett med sikkerhetstiltak |
 
-Fibroblastic neoplasms, and specifically Solitary Fibrous Tumor (SFT), belong to the same broad soft-tissue sarcoma family as liposarcoma. Multiple preclinical studies in the evidence pack demonstrate eribulin activity and resistance mechanisms specifically in fibrosarcoma cell lines (e.g., HT1080), and a patient-derived xenograft (PDX) study (PMID 28284173) explicitly identified eribulin and trabectedin as effective candidates against SFT — a finding that appears to have directly motivated the dedicated ERASING Phase II trial (NCT03840772).
-
-This gives fibroblastic neoplasm/SFT a stronger and more mechanistically coherent rationale than most of the other 9 TxGNN predictions in this pack, most of which (mesothelioma subtypes, pleural adenomatoid tumor, familial Mediterranean fever) have no clinical trials, no literature, and mechanistic rationales that acknowledge the connection is speculative.
+**Merknad om valg:** Denne rapporten vurderer den *best-bevisede* kandidaten fra de 10 TxGNN-prediksjoner som ble levert, ikke den høyest rangerte. Den #1-rangerte prediksjonen ("autosomalt recessiv familial Mediterranean fever," poeng 99.82%) har ingen klinisk eller litteraturbevis i det hele tatt, og dens egen mekanistiske begrunnelse angir eksplisitt at det er "meget sannsynlig TxGNN modellstøy/falsk positiv." Fibroblastisk neoplasi (modellrangering 8, poeng 99.36%) er den eneste kandidaten med en dedikert gjennomført utprøving.
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+For øyeblikket er detaljerte virkningsmekanisme-data for eribulin ikke tilgjengelige i denne bevispacken (flagget som et datakløft med høy alvorlighetsgrad, DG002). Basert på informasjonen som er tilgjengelig, er eribulin en mikrotubuli-dynamikk-hemmer (halichondrin B-analogklasse) brukt som cytotoksisk kjemoterapi, med en etablert, FDA-godkjent rolle ved ikke-resektabelt liposarkom — et bløtvevssarkom.
+
+Fibroblastiske neoplasier, og spesifikt Solitary Fibrous Tumor (SFT), tilhører den samme brede bløtvevssarkom-familien som liposarkom. Flere prekliniske studier i bevispacken demonstrerer eribulin-aktivitet og resistansmekanismer spesifikt i fibrosarkom-cellelinjer (f.eks. HT1080), og en pasientavledet xenograft-studie (PDX) (PMID 28284173) identifiserte eksplisitt eribulin og trabectedin som effektive kandidater mot SFT — et funn som synes å ha direkte motivert den dedikerte ERASING fase II-utprøvingen (NCT03840772).
+
+Dette gir fibroblastisk neoplasi/SFT en sterkere og mer mekanistisk sammenhengende begrunnelse enn de fleste av de andre 9 TxGNN-prediksjoner i denne pakken, hvorav de fleste (mesoteliom-undertyper, pleural adenomatoid tumor, familial Mediterranean fever) ikke har kliniske utprøvinger, ingen litteratur, og mekanistiske begrunnelser som anerkjenner at forbindelsen er spekulativ.
+
+---
+
+## Klinisk utprøvingsbevis
+
+| Utprøvingsnummer | Fase | Status | Rekruttering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT03840772](https://clinicaltrials.gov/study/NCT03840772) | Phase 2 | Completed | 16 | ERASING trial (Italian Sarcoma Group): single-arm Phase II study of eribulin in advanced Solitary Fibrous Tumor |
+| [NCT03840772](https://clinicaltrials.gov/study/NCT03840772) | Fase 2 | Gjennomført | 16 | ERASING-utprøving (Italian Sarcoma Group): enkeltarms fase II-studie av eribulin ved avansert Solitary Fibrous Tumor |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [28284173](https://pubmed.ncbi.nlm.nih.gov/28284173/) | 2017 | Preclinical (PDX) | European Journal of Cancer | Patient-derived SFT xenografts show high sensitivity to doxorubicin/dacarbazine; also highlight eribulin and trabectedin as effective candidates — basis for later clinical testing |
-| [38136399](https://pubmed.ncbi.nlm.nih.gov/38136399/) | 2023 | Review | Cancers | Overview of diagnosis and treatment of extrameningeal Solitary Fibrous Tumor |
-| [40295012](https://pubmed.ncbi.nlm.nih.gov/40295012/) | 2025 | Preclinical (in vivo) | In Vivo | Eribulin-resistant HT1080 fibrosarcoma cells become more malignant; combination with methionine restriction overcomes resistance in mouse models |
-| [39197933](https://pubmed.ncbi.nlm.nih.gov/39197933/) | 2024 | Preclinical (in vitro) | Anticancer Research | Recombinant methioninase increases eribulin efficacy 16-fold in eribulin-resistant HT1080 fibrosarcoma cells |
-| [38423656](https://pubmed.ncbi.nlm.nih.gov/38423656/) | 2024 | Preclinical (in vitro) | Anticancer Research | Strong synergy between recombinant methioninase and eribulin against fibrosarcoma cells, sparing normal fibroblasts |
+| [28284173](https://pubmed.ncbi.nlm.nih.gov/28284173/) | 2017 | Preklinisk (PDX) | European Journal of Cancer | Pasientavledede SFT-xenografter viser høy sensitivitet for doxorubicin/dacarbazine; fremhever også eribulin og trabectedin som effektive kandidater — grunnlag for senere klinisk testing |
+| [38136399](https://pubmed.ncbi.nlm.nih.gov/38136399/) | 2023 | Oversikt | Cancers | Oversikt over diagnose og behandling av ekstramenigeal Solitary Fibrous Tumor |
+| [40295012](https://pubmed.ncbi.nlm.nih.gov/40295012/) | 2025 | Preklinisk (in vivo) | In Vivo | Eribulin-resistente HT1080 fibrosarkom-celler blir mer ondartete; kombinasjon med metioninrestriksjon overvinner resistans i musemodeller |
+| [39197933](https://pubmed.ncbi.nlm.nih.gov/39197933/) | 2024 | Preklinisk (in vitro) | Anticancer Research | Rekombinant methioninase øker eribulin-effektivitet 16-fold i eribulin-resistente HT1080 fibrosarkom-celler |
+| [38423656](https://pubmed.ncbi.nlm.nih.gov/38423656/) | 2024 | Preklinisk (in vitro) | Anticancer Research | Sterk synergi mellom rekombinant methioninase og eribulin mot fibrosarkom-celler, sparer normale fibroblaster |
 
 ---
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-No marketing authorization records were found for Eribulin in Norway (0 authorizations; market status: not marketed).
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (microtubule inhibitor, halichondrin B analog class) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Standard cytotoxic drug handling precautions apply, consistent with other antineoplastic chemotherapy agents |
+Ingen markedsføringstillatelsesoppføringer ble funnet for eribulin i Norge (0 godkjenninger; markedsstatus: ikke markedsført).
 
 ---
 
-## Safety Considerations
+## Cytotoksisitet
 
-Please refer to the package insert for safety information. Note: retrieval of TFDA-equivalent label warnings and contraindications for this drug is currently a **blocking data gap (DG001)** — this must be resolved before any clinical safety assessment (S1 stage) can proceed.
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitetsklassifisering | Konvensjonell cytotoksisk (mikrotubuli-hemmer, halichondrin B-analogklasse) |
+| Benmargssuppresjonrisiko | Se advarsel og forholdsregler i pakningsvedlegget |
+| Emetogenitetsklassifisering | Se advarsel og forholdsregler i pakningsvedlegget |
+| Overvåkingselementer | Se advarsel og forholdsregler i pakningsvedlegget |
+| Håndteringsbeskyttelse | Standard sikkerhetshåndtering for cytotoksisk legemidler gjelder, i samsvar med andre antineoplastiske kjemoterapiagenter |
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails**
+Se pakningsvedlegget for sikkerhetsinformasjon. Merk: innhenting av advarsler og kontraindikasjoner fra TFDA-ekvivalent merking for dette legemidlet er for øyeblikket et **blokkeringsdatakløft (DG001)** — dette må løses før noen klinisk sikkerhetsassessering (S1-fase) kan fortsette.
 
-**Rationale:**
-Fibroblastic neoplasm/Solitary Fibrous Tumor is supported by a completed, dedicated Phase II trial (ERASING, n=16) and consistent preclinical mechanistic evidence, making it the only credible candidate among the 10 TxGNN predictions supplied. However, the trial is small and single-arm (not randomized), and drug-level safety/label data is entirely missing, so this cannot yet support a full "Go" decision.
+---
 
-**To proceed, the following is needed:**
-- Resolve blocking data gap DG001: obtain package insert warnings, contraindications, and DDI data
-- Resolve data gap DG002: obtain formal mechanism-of-action data from DrugBank
-- Seek confirmatory or larger-cohort data beyond the 16-patient ERASING trial before considering formal repurposing
-- Deprioritize (Hold) the 7 low-evidence TxGNN candidates in this pack (mesothelioma subtypes, pleural adenomatoid tumor, familial Mediterranean fever) unless new clinical or literature evidence emerges
-- Continue monitoring dermatofibrosarcoma protuberans and ovarian myxoid liposarcoma as secondary "Research Question" leads (currently L4, mechanism-only support)
+## Konklusjon og neste trinn
+
+**Beslutning: Fortsett med sikkerhetstiltak**
+
+**Begrunnelse:**
+Fibroblastisk neoplasi/Solitary Fibrous Tumor er støttet av en gjennomført, dedikert fase II-utprøving (ERASING, n=16) og konsistent preklinisk mekanistisk bevis, noe som gjør det til den eneste troverdige kandidaten blant de 10 TxGNN-prediksjoner som ble levert. Imidlertid er utprøvingen liten og enkeltarms (ikke randomisert), og legemiddeldata på sikkerhet/merking mangler helt, så dette kan ikke ennå støtte en full "Go"-beslutning.
+
+**For å fortsette, er følgende nødvendig:**
+- Løse blokkeringsdatakløft DG001: skaffe advarsler, kontraindikasjoner og DDI-data fra pakningsvedlegget
+- Løse datakløft DG002: skaffe formelle virkningsmekanisme-data fra DrugBank
+- Søke bekreftende eller større kohort-data utover den 16-pasient ERASING-utprøvingen før du vurderer formell omformål
+- Deprioritere (Vent) de 7 lav-bevis TxGNN-kandidatene i denne pakken (mesoteliom-undertyper, pleural adenomatoid tumor, familial Mediterranean fever) med mindre nye kliniske eller litteraturbevis oppstår
+- Fortsette overvåkingen av dermatofibrosarcoma protuberans og ovarialt myksoid liposarkom som sekundære "Research Question"-ledere (for øyeblikket L4, kun mekanisme-støtte)
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

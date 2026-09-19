@@ -29,90 +29,91 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Pemigatinib: From FGFR-Driven Oncology Use to Multiple Endocrine Neoplasia
+# Pemigatinib: Fra FGFR-drevet onkologibruk til multippel endokrin neoplasi
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-Pemigatinib is referenced across this evidence pack as an FGFR1-3 kinase inhibitor; its originally approved indication is not recorded in the current data set.
-The TxGNN model predicts it may be effective for **Multiple Endocrine Neoplasia**,
-but this direction is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale text flags the mechanistic link as weak and likely an artifact of the knowledge graph.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in current evidence pack |
-| Predicted New Indication | Multiple Endocrine Neoplasia |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Pemigatinib er referert til i denne bevissamlingen som en FGFR1-3 kinase-hemmer; dens opprinnelig godkjente indikasjon er ikke registrert i det aktuelle datasettet.
+TxGNN-modellen predikerer at det kan være effektivt for **multippel endokrin neoplasi**,
+men denne retningen er for øyeblikket støttet av **0 kliniske forsøk** og **0 publikasjoner**, og modellens egen begrunnelsestekst flagger den mekanistiske linken som svak og sannsynligvis en artefakt i kunnskapsgrafen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data for pemigatinib is not available in this evidence pack. Based on information embedded elsewhere in the pack (repurposing rationale text for other candidates), pemigatinib is consistently described as an **FGFR1-3 kinase inhibitor**, used in a context comparable to other FGFR inhibitors such as infigratinib. This is consistent with its known drug class but is not independently confirmed by a structured MOA field here.
-
-The relationship between pemigatinib's (unrecorded) original indication and Multiple Endocrine Neoplasia (MEN) cannot be established from the data provided, since no original indication is listed and no licenses are on file. What the evidence pack does supply is the model's own mechanistic assessment, which is unfavorable: MEN syndromes are driven primarily by **MEN1 and RET** mutations, and have no established connection to the **FGFR1-3** signaling axis that pemigatinib targets.
-
-Because of this mismatch, the pack's own rationale concludes that the high TxGNN score most likely reflects an **indirect knowledge-graph association** — for example, shared proximity to other endocrine-tumor nodes — rather than a genuine pharmacological mechanism. This should be treated as a low-confidence, hypothesis-generating signal only, not a mechanistically grounded repurposing candidate.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Originalt indikasjonsområde | Ikke tilgjengelig i gjeldende bevissamling |
+| Predikert nytt indikasjonsområde | Multippel endokrin neoplasi |
+| TxGNN prediksjonspoeng | 99.71% |
+| Bevisnivå | L5 |
+| Status på norsk marked | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+For øyeblikket er detaljerte mekanisme-av-handling-data for pemigatinib ikke tilgjengelige i denne bevissamlingen. Basert på informasjon innebygd andre steder i samlingen (begrunnelsestekst for ombruk av andre kandidater), beskrives pemigatinib konsistent som en **FGFR1-3 kinase-hemmer**, brukt i en sammenheng som kan sammenlignes med andre FGFR-hemmere som infigratinib. Dette er konsistent med dens kjente legemiddelklasse, men er ikke uavhengig bekreftet av et strukturert MOA-felt her.
 
----
+Forholdet mellom pemigatinibs (uregistrert) originale indikasjon og multippel endokrin neoplasi kan ikke etableres fra dataene som er gitt, siden ingen original indikasjon er oppført og ingen lisenser er på fil. Det som bevissamlingen faktisk inneholder, er modellens egen mekanistiske vurdering, som er ugunstig: MEN-syndrom drives primært av **MEN1 og RET**-mutasjoner, og har ingen etablert forbindelse til **FGFR1-3** signaleringsaksen som pemigatinib retter seg mot.
 
-## Norway Market Information
-
-Pemigatinib is currently **not marketed** in Norway (market status: Not marketed) and no authorization records exist in this evidence pack (total licenses: 0). No product table can be generated at this time.
+På grunn av dette misforholdet konkluderer pakkens egen begrunnelse at den høye TxGNN-poengene mest sannsynlig reflekterer en **indirekte kunnskapsograf-assosiasjon** — for eksempel delt nærhet til andre endokrine tumor-noder — heller enn en genuin farmakologisk mekanisme. Dette bør behandles som et lavtillitssignal kun for hypotesegenerering, ikke som en mekanistisk begrunnet ombrukskandidat.
 
 ---
 
-## Cytotoxicity
+## Klinisk forsøksbevis
 
-Pemigatinib is referenced in this evidence pack as an FGFR1-3 kinase inhibitor used in oncology contexts (e.g., discussion of FGFR-driven resistance in HER2+ breast carcinoma, and comparison to other FGFR inhibitors explored in FGFR3-driven skeletal disease). On that basis it is treated here as an antineoplastic, targeted small-molecule therapy, though this classification is inferred rather than confirmed via a structured DrugBank category field.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (FGFR1-3 kinase inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+For øyeblikket er det ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information.
+For øyeblikket er det ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Informasjon om norsk marked
 
-**Decision: Hold**
+Pemigatinib er for øyeblikket **ikke markedsført** i Norge (markedsstatus: Ikke markedsført) og ingen godkjennelsesopplysninger finnes i denne bevissamlingen (totalt lisenser: 0). Ingen produkttabell kan genereres på dette tidspunktet.
 
-**Rationale:**
-The top-ranked prediction (Multiple Endocrine Neoplasia) has zero supporting clinical trials or literature, and the model's own mechanistic rationale explicitly states the FGFR1-3 pathway has no established link to MEN pathogenesis — this is an L5, hypothesis-only signal with a stated risk of being knowledge-graph noise.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory label data (warnings, contraindications) — flagged as a *Blocking* data gap (DG001)
-- Confirmed mechanism of action (MOA) from DrugBank or equivalent source — flagged as a *High* severity data gap (DG002)
-- Confirmation of pemigatinib's actual original approved indication(s), currently absent from this pack
-- Independent mechanistic or preclinical evidence linking FGFR inhibition to MEN before any further evaluation stage is considered
+## Cytotoksisitet
+
+Pemigatinib er referert til i denne bevissamlingen som en FGFR1-3 kinase-hemmer brukt i onkologikontekster (f.eks. diskusjon av FGFR-drevet resistens i HER2+ brystkreft, og sammenligning med andre FGFR-hemmere som er utforsket i FGFR3-drevet skjelettsykdom). På det grunnlaget behandles det her som en antineoplastisk, målrettet småmolekyl terapi, selv om denne klassifiseringen er sluttet heller enn bekreftet via et strukturert DrugBank-kategorifelt.
+
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitetsklassifisering | Målrettet terapi (FGFR1-3 kinase-hemmer) |
+| Myelosuppresjonrisiko | Se pakningsvedlegget for advarsler og forholdsregler |
+| Emetogenisitetsklassifisering | Se pakningsvedlegget for advarsler og forholdsregler |
+| Overvåkingspunkter | Se pakningsvedlegget for advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Se pakningsvedlegget for advarsler og forholdsregler |
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Den topprangerte prediksjonen (multippel endokrin neoplasi) har null støttende kliniske forsøk eller litteratur, og modellens egen mekanistiske begrunnelse uttaler eksplisitt at FGFR1-3-signaleringsaksen ikke har noen etablert forbindelse til MEN-patogenese — dette er et L5-signal basert kun på hypotese, med angitt risiko for å være kunnskapsograf-støy.
+
+**For å fortsette er følgende nødvendig:**
+- TFDA/regulatorisk merkedata (advarsler, kontraindikasjoner) — flagget som en *Blokkerende* datakløft (DG001)
+- Bekreftet mekanisme-av-handling (MOA) fra DrugBank eller tilsvarende kilde — flagget som *Høy* alvorlighetsgrad datakløft (DG002)
+- Bekreftelse av pemigatinibs faktisk opprinnelig godkjent indikasjon(er), for øyeblikket fraværende fra denne pakken
+- Uavhengig mekanistisk eller preklinisk bevis som knytter FGFR-hemming til MEN før noen ytterligere evalueringsfase vurderes
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

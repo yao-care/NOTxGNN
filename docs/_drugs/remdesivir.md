@@ -29,94 +29,91 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-Using the provided Evidence Pack, here is the evaluation report.
+# Remdesivir: fra COVID-19 (SARS-CoV-2-infeksjon) til multipel endokrin neoplasi
+
+## Sammenfatting på én setning
+
+Remdesivir er et nukleotid-analogt antiviralt middel som opprinnelig ble utviklet og klinisk brukt mot RNA-virus, mest omfattende dokumentert i denne evidenspakken gjennom store COVID-19 (SARS-CoV-2) forsøk. TxGNN-modellens høyest rangerte prediksjon er **multipel endokrin neoplasi**, men denne kandidaten støttes av **null kliniske forsøk** og **null publikasjoner**, og modellens nest høyest rangerte kandidat (HIV-infeksjon) viser seg – ved gjennomgang av bevis – å være bygget helt på feilmerkede COVID-19-forsøksdata i stedet for genuint HIV-bevis. Samlet sett støtter ikke dette kandidatsettet en gjenbruksavgjørelse på dette tidspunktet.
 
 ---
 
-# Remdesivir: From COVID-19 (SARS-CoV-2 Infection) to Multiple Endocrine Neoplasia
+## Rask oversikt
 
-## One-Sentence Summary
-
-Remdesivir is a nucleotide-analog antiviral originally developed and clinically used against RNA viruses, most extensively documented in this evidence pack through large-scale COVID-19 (SARS-CoV-2) trials. The TxGNN model's top-ranked prediction is **Multiple Endocrine Neoplasia**, but this candidate is supported by **zero clinical trials** and **zero publications**, and the model's second-ranked candidate (HIV infection) turns out — on evidence review — to be built entirely on mislabeled COVID-19 trial data rather than genuine HIV evidence. Overall, this candidate set does not currently support a repurposing decision.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in Taiwan regulatory filings (drug not marketed); clinical trial evidence in this pack consistently identifies remdesivir's established use as treatment of COVID-19 (SARS-CoV-2 infection) |
-| Predicted New Indication | Multiple Endocrine Neoplasia |
-| TxGNN Prediction Score | 99.50% |
-| Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Punkt | Innhold |
+|-------|---------|
+| Original indikasjon | Ikke dokumentert i Taiwan-regulatoriske registreringer (legemiddel ikke markedsført); bevis fra kliniske forsøk i denne pakken identifiserer konsekvent remdesivirs etablerte bruk som behandling av COVID-19 (SARS-CoV-2-infeksjon) |
+| Forutsagt ny indikasjon | Multipel endokrin neoplasi |
+| TxGNN-prediksjonspoeng | 99.50% |
+| Bevisnivå | L5 |
+| Status på Taiwan-marked | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Innestill |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed, verified mechanism-of-action data for remdesivir is not available from DrugBank in this evidence pack (flagged as a High-severity data gap). Based on the repurposing rationale accompanying the predictions, remdesivir is a nucleotide analog that inhibits the viral RNA-dependent RNA polymerase (RdRp), the replication enzyme used by RNA viruses such as SARS-CoV-2 and Ebola virus.
+Detaljerte, verifiserte data om virkningsmekanisme for remdesivir er ikke tilgjengelig fra DrugBank i denne evidenspakken (flagget som en datakløft med høy alvorlighetsgrad). Basert på gjenbruksrasjonalet som følger med prediksjoner, er remdesivir et nukleotid-analogt middel som hemmer den virale RNA-avhengig RNA-polymerase (RdRp), replikasjonsenzymet som brukes av RNA-virus som SARS-CoV-2 og Ebola-virus.
 
-Multiple Endocrine Neoplasia (MEN) is a hereditary tumor syndrome driven by germline mutations in genes such as *RET* and *MEN1*, with a pathophysiology centered on endocrine cell proliferation rather than viral replication. There is no known mechanistic pathway connecting RdRp inhibition to MEN pathogenesis, and no clinical trials or literature were retrieved to support this link. The evidence pack's own rationale explicitly characterizes this prediction as likely **graph-embedding noise** in the TxGNN knowledge graph rather than a biologically grounded signal.
+Multipel endokrin neoplasi (MEN) er et arvelig tumordsyndrom drevet av germlinale mutasjoner i gener som *RET* og *MEN1*, med en patofysiologi sentrert rundt endokrin cellproliferasjon snarere enn viral replikasjon. Det er ingen kjent mekanistisk vei som forbinder RdRp-hemming til MEN-patogenese, og ingen kliniske forsøk eller litteratur ble hentet for å støtte denne koblingen. Evidenspakkens eget rasjonale karakteriserer eksplisitt denne prediksjonen som sannsynlig **graph-embedding-støy** i TxGNN-kunnskapsgrafen snarere enn et biologisk fundert signal.
 
-A related pattern appears in the model's second-ranked prediction, HIV infection: although 23 clinical trials and 20 publications were retrieved, manual review shows nearly all of them are COVID-19/SARS-CoV-2 studies that were mismatched to the "HIV infectious disease" label in the source database, not genuine remdesivir-for-HIV evidence. This reinforces that this candidate set, as currently derived, does not represent a validated repurposing signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for the top-ranked predicted indication (Multiple Endocrine Neoplasia).
+Et relatert mønster vises i modellens nest høyest rangerte prediksjon, HIV-infeksjon: selv om 23 kliniske forsøk og 20 publikasjoner ble hentet, viser manuell gjennomgang at nesten alle av dem er COVID-19/SARS-CoV-2-studier som ble feilmatches til etiketten "HIV-infeksjonssykdom" i kildedatabasen, ikke genuine remdesivir-for-HIV-bevis. Dette forsterker at dette kandidatsettet, som det for øyeblikket er avledet, ikke representerer et validert gjenbrukssignal.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske forsøk
 
-Currently no related literature available for the top-ranked predicted indication (Multiple Endocrine Neoplasia).
-
----
-
-## Other Predicted Indications Screened Out (Context)
-
-The evidence pack included five additional candidates beyond the top rank. All were reviewed and rejected for the same reasons — mechanistic implausibility, absent evidence, or database mislabeling:
-
-| Rank | Disease | Score | Evidence | Key Issue |
-|------|---------|-------|----------|-----------|
-| 2 | HIV infectious disease | 99.32% | 23 trials / 20 papers (all COVID-19-related) | Database mislabeling — no genuine HIV evidence; RdRp inhibitor does not target reverse transcriptase |
-| 3 | Feline acquired immunodeficiency syndrome | 99.07% | None | Likely confusion with feline coronavirus (FIP) graph neighbors; FIV is a retrovirus, mechanism mismatch |
-| 4 | Simian immunodeficiency virus infection | 99.07% | None | Retrovirus, same mechanism mismatch as HIV/FIV |
-| 5 | Neurodevelopmental disorder (ataxic gait, absent speech, decreased white matter) | 99.03% | None | Rare genetic disorder, no plausible biological link to antiviral RdRp inhibition |
-| 6 | Homozygous familial hypercholesterolemia | 99.03% | None | Lipid metabolism disorder (LDLR/APOB/PCSK9), no plausible link to antiviral mechanism |
-
-All six candidates were assigned a **Hold** recommendation by the scoring system.
+Det er for øyeblikket ingen relaterte kliniske forsøk registrert for den høyest rangerte forutsagte indikasjonen (multipel endokrin neoplasi).
 
 ---
 
-## Taiwan Market Information
+## Litteraturbevis
 
-Remdesivir is currently **not marketed** in Taiwan — no drug licenses are on file, so no approved indication text, dosage form, or authorization number is available for reference.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. TFDA-specific warnings and contraindications for remdesivir could not be retrieved in this evidence pack (flagged as a Blocking-severity data gap), and no drug-drug interaction records were found.
+Det er for øyeblikket ingen relatert litteratur tilgjengelig for den høyest rangerte forutsagte indikasjonen (multipel endokrin neoplasi).
 
 ---
 
-## Conclusion and Next Steps
+## Andre forutsagte indikasjoner som er utelukket (kontekst)
 
-**Decision: Hold**
+Evidenspakken inkluderte fem ytterligere kandidater utover topprankingen. Alle ble gjennomgått og avvist av de samme årsakene — mekanistisk implausibilitet, fraværende bevis, eller feilmerking av database:
 
-**Rationale:**
-The top-ranked predicted indication (Multiple Endocrine Neoplasia) has no supporting clinical trials, literature, or plausible mechanistic rationale (Evidence Level L5). The next most "evidenced" candidate (HIV) is an artifact of database mislabeling — the underlying trials and publications are almost entirely COVID-19 studies, not genuine HIV evidence. None of the six candidates in this evidence pack meet a bar sufficient for further clinical evaluation.
+| Rangering | Sykdom | Poeng | Bevis | Nøkkelproblematikk |
+|----------|---------|-------|----------|-------------|
+| 2 | HIV-infeksjonssykdom | 99.32% | 23 forsøk / 20 artikler (alle COVID-19-relaterte) | Feilmerking av database — ingen genuint HIV-bevis; RdRp-hemmer retter seg ikke mot revers transkriptase |
+| 3 | Felint immundefisienssyndrom | 99.07% | Ingen | Sannsynlig forvirring med felint coronavirus (FIP) grafnaboskaper; FIV er et retrovirus, mekanismemismatch |
+| 4 | Simian immunodeficiency virus-infeksjon | 99.07% | Ingen | Retrovirus, samme mekanismemismatch som HIV/FIV |
+| 5 | Nevrutviklingsforstyrrelse (ataktisk gang, fraværende tale, nedsatt hvit substans) | 99.03% | Ingen | Sjelden genetisk forstyrrelse, ingen plausibel biologisk kobling til antiviralt RdRp-hemming |
+| 6 | Homozygot familiær hyperkolesterolemi | 99.03% | Ingen | Lipidmetabolisme-forstyrrelser (LDLR/APOB/PCSK9), ingen plausibel kobling til antiviralt mekanisme |
 
-**To proceed, the following is needed:**
-- TFDA package insert data (warnings, contraindications) — currently a Blocking data gap
-- Verified mechanism-of-action data from DrugBank — currently a High-severity data gap
-- Correction of disease-label mapping errors in the underlying trial/literature database (the HIV mislabeling should be flagged upstream so it does not recur in future candidate generation)
-- If any future TxGNN run produces a mechanistically plausible RNA-virus-related indication for remdesivir, that candidate should be re-evaluated on its own merits
+Alle seks kandidater ble tildelt en **innestillingsanbefaling** av scoringssystemet.
+
+---
+
+## Informasjon om Taiwan-marked
+
+Remdesivir er for øyeblikket **ikke markedsført** på Taiwan – ingen legemiddellisenser finnes i registre, så ingen godkjent indikasjonstekst, doseringsform eller godkjenningsnummer er tilgjengelig som referanse.
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon. TFDA-spesifikke advarsler og kontraindikasjoner for remdesivir kunne ikke hentes i denne evidenspakken (flagget som en datakløft med blokkerings-alvorlighetsgrad), og ingen registre over legemiddel-legemiddel-interaksjoner ble funnet.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Innestill**
+
+**Begrunnelse:**
+Den høyest rangerte forutsagte indikasjonen (multipel endokrin neoplasi) har ingen støtte fra kliniske forsøk, litteratur, eller plausibel mekanistisk rasjonale (Bevisnivå L5). Den neste mest «bevisede» kandidaten (HIV) er en artefakt av databasefeilmerking – de underliggende forsøkene og publikasjonene er nesten helt COVID-19-studier, ikke genuint HIV-bevis. Ingen av de seks kandidatene i denne evidenspakken oppfyller en terskel som er tilstrekkelig for videre klinisk evaluering.
+
+**For å gå videre er følgende nødvendig:**
+- TFDA-pakningsvedleggsdata (advarsler, kontraindikasjoner) – for øyeblikket en datakløft med blokkerings-alvorlighetsgrad
+- Verifisert data om virkningsmekanisme fra DrugBank – for øyeblikket en datakløft med høy alvorlighetsgrad
+- Korrigering av feil i kartlegging av sykdomsetiketter i den underliggende forsøks-/litteraturdatabasen (HIV-feilmerkingen bør flagges oppstrøms slik at den ikke gjentas i fremtidig kandidatgenerering)
+- Hvis noen fremtidig TxGNN-kjøring produserer en mekanistisk plausibel RNA-virus-relatert indikasjon for remdesivir, bør den kandidaten re-evalueres på egne vilkår
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

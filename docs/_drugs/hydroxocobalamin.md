@@ -29,63 +29,64 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Hydroxocobalamin: From Unspecified Original Indication to Esophageal Varices (Without Bleeding)
+# Hydroxocobalamin: Fra uspesifisert originalindikasjon til øsofagale variser (uten blødning)
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-Hydroxocobalamin's original approved indication is not available in the current dataset (DrugBank extract lists no original indications and no Taiwan/Norway market license exists).
-The TxGNN model predicts potential efficacy for **Esophageal Varices without Bleeding** (and, at an essentially identical score, **Esophageal Varices with Bleeding**),
-but this is currently supported by **0 clinical trials** and **0 publications** — this is a pure model-prediction signal with no direct clinical or preclinical evidence.
+Hydroxocobalamins opprinnelig godkjente indikasjon er ikke tilgjengelig i det nåværende datasettet (DrugBank-utdrag viser ingen originale indikasjoner og ingen Taiwan/Norge markedslisens eksisterer).
+TxGNN-modellen forutsier potensiell effektivitet for **øsofagale variser uten blødning** (og, med en praktisk talt identisk poengsum, **øsofagale variser med blødning**),
+men dette støttes for øyeblikket av **0 kliniske forsøk** og **0 publikasjoner** — dette er et rent modellforutsigelses-signal uten direkte kliniske eller prekliniske bevis.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no original indications recorded, and the drug is not yet licensed in Norway |
-| Predicted New Indication | Esophageal Varices without Bleeding (rank 1); Esophageal Varices with Bleeding (rank 2, same score) |
-| TxGNN Prediction Score | 99.23% |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Norway Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Ikke tilgjengelig — ingen originale indikasjoner registrert, og medikamentet er ennå ikke godkjent i Norge |
+| Forutsagt ny indikasjon | Øsofagale variser uten blødning (rangering 1); øsofagale variser med blødning (rangering 2, samme poengsum) |
+| TxGNN-forutsikelses-poengsum | 99.23% |
+| Bevisgrad | L5 (modellforutsigelse kun, ingen støttende forsøk eller litteratur) |
+| Norges markedsstatus | Not marketed (Not marketed) |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne forutsielsen rimelig?
 
-Detailed mechanism of action data for hydroxocobalamin is currently marked as a data gap (DG002) and not available from this evidence pack. However, the model's own rationale field provides a mechanistic hypothesis: hydroxocobalamin is known to scavenge nitric oxide (NO-scavenging), producing systemic vasoconstriction — a property already exploited clinically for conditions such as vasoplegic shock and refractory hypotension.
+Detaljerte mekanisme-data for hydroxocobalamin er for øyeblikket merket som et datakrav-gap (DG002) og ikke tilgjengelig fra denne bevisspakken. Imidlertid gir modellens egen rasjonaliseringsfeld en mekanistisk hypotese: hydroxocobalamin er kjent for å sekvestre nitrogenmonoksid (NO-sekvestering), som produserer systemisk vasokonstriksjon — en egenskap som allerede utnyttes klinisk for tilstander som vasoplegisk sjokk og refraktær hypotensjon.
 
-This same vasoconstrictive mechanism is the pharmacological basis for established esophageal varices therapies (e.g., vasopressin, terlipressin, somatostatin), which reduce portal pressure. This gives the "with bleeding" prediction a plausible physiological rationale. The "without bleeding" prediction (primary prophylaxis) extends this logic to long-term, non-acute use, which raises additional concerns — chronic vasoconstrictor exposure (hypertension risk) and hydroxocobalamin's known interference with certain laboratory colorimetric assays would need separate evaluation.
+Denne samme vasokonstriksjonsmekanismen er det farmakologiske grunnlaget for etablerte øsofagale variser-terapier (f.eks. vasopressin, terlipressin, somatostatin), som reduserer portaltrykk. Dette gir "med blødning"-forutsielsen en plausibel fysiologisk rasjonale. "Uten blødning"-forutsielsen (primær profylakse) utvider denne logikken til langvarig, ikke-akutt bruk, noe som reiser ytterligere bekymringer — kronisk vasokonstriksjonseksponering (hypertensjonrisiko) og hydroxocobalamins kjente interferens med visse kolorimetriske laboratorie-analyser ville trenge separat evaluering.
 
-Importantly, this mechanistic link is explicitly flagged in the evidence pack as inferential, not evidence-based: there are no preclinical or clinical studies directly testing hydroxocobalamin in either esophageal varices indication. The connection should be treated as a hypothesis-generating signal only.
+Viktigst er det at denne mekanistiske forbindelsen er eksplisitt flagget i bevisspakken som inferensiell, ikke evidensbasert: det finnes ingen prekliniske eller kliniske studier som direkte tester hydroxocobalamin i noen av øsofagale variser-indikasjonene. Forbindelsen bør behandles som et hypotesegenererende signal kun.
 
-## Clinical Trial Evidence
+## Klinisk forsøks-bevis
 
-Currently no related clinical trials registered.
+Ingen relaterte kliniske forsøk registrert for øyeblikket.
 
-## Literature Evidence
+## Litteratur-bevis
 
-Currently no related literature available.
+Ingen relatert litteratur tilgjengelig for øyeblikket.
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Hydroxocobalamin is currently **not marketed in Norway** (market status: Not marketed) and has **0 authorizations** on record — no license or approved-indication data exists to summarize.
+Hydroxocobalamin er for øyeblikket **ikke markedsført i Norge** (markedsstatus: Not marketed) og har **0 godkjennelser** på rekord — ingen lisens eller godkjente-indikasjon data eksisterer for å oppsummere.
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-drug interaction data are all currently unavailable — DDI query returned no results, and TFDA label warnings/contraindications are marked as a **blocking** data gap, DG001.)
+Vennligst referer til pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner, og legemiddel-interaksjons data er alle for øyeblikket utilgjengelig — legemiddel-interaksjons-spørring returnerte ingen resultater, og TFDA-etikettadvarsler/kontraindikasjoner er merket som et **blokkerende** datakrav-gap, DG001.)
 
-## Conclusion and Next Steps
+## Konklusjon og neste steg
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-- Both predictions are L5 (model prediction only) with zero supporting trials or literature, and a blocking data gap (missing TFDA label/warnings) prevents even an initial safety screen (S1).
+**Rasjonale:**
+- Begge forutsielsene er L5 (modellforutsigelse kun) med null støttende forsøk eller litteratur, og et blokkerende datakrav-gap (manglende TFDA-etikett/advarsler) forhindrer selv en innledende sikkerhetsvurdering (S1).
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain and parse the TFDA/product label for warnings, contraindications, and precautions.
-- Resolve DG002: retrieve confirmed mechanism of action via DrugBank API.
-- Establish the drug's actual original indication(s) and any existing market licenses (currently none identified).
-- Conduct a targeted literature/clinical trial search specific to hydroxocobalamin and portal hypertension/esophageal varices to move beyond model-only evidence (L5 → higher tier).
-- If evidence emerges, evaluate route compatibility (IV formulation vs. required route for varices management) and long-term safety (hypertension, lab assay interference) before advancing past S0.
+**For å fortsette, er følgende nødvendig:**
+- Løs DG001 (blokkerende): innhent og parse TFDA/produktetiketten for advarsler, kontraindikasjoner, og forholdsregler.
+- Løs DG002: hent bekreftet virkningsmekanisme via DrugBank API.
+- Etabler medikamentets faktiske originalindikasjon(er) og eventuelle eksisterende markedslisenser (ingen identifisert for øyeblikket).
+- Gjennomfør et målrettet litteratur-/klinisk forsøks-søk spesifikt for hydroxocobalamin og portalt hypertensjon/øsofagale variser for å bevege seg utover modell-kun-bevis (L5 → høyere nivå).
+- Hvis bevis dukker opp, evaluer rutekompabilitet (IV-formulering vs. påkrevd rute for øsofagale variser-behandling) og langtids-sikkerhet (hypertensjon, laboratorie-analyseinterferens) før fremgang forbi S0.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

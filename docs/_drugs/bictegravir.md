@@ -29,82 +29,79 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-Using the provided Evidence Pack, here is the drug repurposing evaluation report. Note: `taiwan_regulatory` data (not Norway) was used for the market-status sections, since the underlying dataset is Taiwan-specific (TFDA, "TW-DB11799").
+# Bictegravir: Fra HIV-1-infeksjon til felin immunsviktyndrom
+
+## Sammendrag i én setning
+
+> Bictegravir (som en del av fastdosiskombinasjon Biktarvy) er en integrase strand transfer-hemmer som brukes internasjonalt for HIV-1-infeksjon, men den er ikke registrert i Taiwan og data på legemiddelnivå for indikasjon/MOA er ikke tilgjengelig i denne bevissamlingen.
+> TxGNN-modellen forutsier at den kan være effektiv for **felin immunsviktyndrom**,
+> men denne høyest rangerte prediksjonen har for tiden **ingen kliniske forsøk eller publisert litteratur** — bevis finnes bare for en nært beslektet, lignende scoret prediksjon (SIV-infeksjon).
 
 ---
 
-# Bictegravir: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
+## Rask oversikt
 
-## One-Sentence Summary
-
-> Bictegravir (as part of the fixed-dose combination Biktarvy) is an integrase strand transfer inhibitor internationally used for HIV-1 infection, though it is not currently registered in Taiwan and drug-level indication/MOA data are not available in this evidence pack.
-> The TxGNN model predicts it may be effective for **Feline Acquired Immunodeficiency Syndrome**,
-> but this top-ranked prediction currently has **no supporting clinical trials or literature** — evidence exists only for a closely related, similarly-scored prediction (simian immunodeficiency virus infection).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in Taiwan regulatory data (no licenses on file); internationally, bictegravir is used for HIV-1 infection as part of Biktarvy |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature identified) |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Ikke tilgjengelig i taiwanske reguleringsdata (ingen lisenser registrert); internasjonalt brukes bictegravir for HIV-1-infeksjon som del av Biktarvy |
+| Forutsagt ny indikasjon | Felin immunsviktyndrom |
+| TxGNN-prediksjonspoengsum | 99.82% |
+| Bevisnivå | L5 (modellprediksjon bare, ingen kliniske forsøk eller litteratur identifisert) |
+| Taiwansk markedsstatus | Ikke på markedet |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvente |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available (blocking data gap, DG002). Based on known pharmacology, bictegravir is an HIV-1 **integrase strand transfer inhibitor (INSTI)**, marketed internationally as a component of Biktarvy (bictegravir/emtricitabine/tenofovir alafenamide) for HIV-1 infection. It is not currently registered or marketed in Taiwan.
+For øyeblikket er detaljert mekanismdata ikke tilgjengelig (blokkerende datagap, DG002). Basert på kjent farmakologi, bictegravir er en HIV-1 **integrase strand transfer-hemmer (INSTI)**, markedsført internasjonalt som en komponent av Biktarvy (bictegravir/emtricitabine/tenofovir alafenamid) for HIV-1-infeksjon. Den er ikke registrert eller markedsført i Taiwan.
 
-The top-ranked predicted indication, feline acquired immunodeficiency syndrome, is caused by feline immunodeficiency virus (FIV) — a lentivirus structurally and mechanistically related to HIV, also dependent on a viral integrase to insert its genome into host DNA. This provides a plausible mechanistic rationale (cross-lentivirus integrase inhibition) for the TxGNN prediction, even though no dedicated FIV/veterinary study data exists to confirm it.
+Den høyest rangerte forutsagte indikasjon, felin immunsviktyndrom, er forårsaket av felin immunsviktvirus (FIV) — et lentivirus strukturelt og mekanistisk beslektet med HIV, også avhengig av et viralt integrase for å sette sitt genom inn i vert-DNA. Dette gir en plausibel mekanistisk begrunnelse (hemming av integrase på tvers av lentivirus) for TxGNN-prediksjonen, selv om ingen dedikerte FIV-/veterinære studiedata finnes for å bekrefte det.
 
-Notably, a second, equally-scored prediction — simian immunodeficiency virus (SIV) infection — is supported by actual literature (see below) describing bictegravir's *in vitro* antiviral activity against SIV and INSTI-resistant HIV-1 strains in nonhuman primate models. While SIV infection is not a human clinical indication, this literature strengthens the underlying biological plausibility that bictegravir's integrase-inhibition mechanism extends across related lentiviruses, indirectly supporting (but not proving) the feline AIDS prediction. Both predicted indications are non-human/veterinary in nature, which is an important caveat for a human drug repurposing evaluation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Særlig bemerkelsesverdig er det at en annen, like scoret prediksjon — simian immunodeficiency virus (SIV)-infeksjon — er støttet av faktisk litteratur (se nedenfor) som beskriver bictegravirs *in vitro* antivirale aktivitet mot SIV og INSTI-resistente HIV-1-stammer i modeller med ikke-menneskelige primater. Mens SIV-infeksjon ikke er en menneskelig klinisk indikasjon, styrker denne litteraturen den underliggende biologiske plausibiliteten at bictegravirs integrase-hemming-mekanisme strekker seg på tvers av relaterte lentivirus, indirekte støtter (men beviser ikke) prediksjonen om felin AIDS. Begge forutsagte indikasjoner er ikke-menneskelig/veterinær av natur, noe som er en viktig advarsel for en evaluering av menneskelig legemiddelreposisjonering.
 
 ---
 
-## Literature Evidence
+## Klinisk forsøksbevis
 
-Currently no related literature available for the top-ranked prediction (feline acquired immunodeficiency syndrome).
-
-*For context, the closely related, equally-scored prediction ("simian immunodeficiency virus infection," rank 2) is supported by 3 publications on bictegravir's antiviral activity against SIV/HIV-1 integrase-inhibitor-resistant strains (PMID [28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/), [32506843](https://pubmed.ncbi.nlm.nih.gov/32506843/), [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/)), all preclinical/mechanistic in nature — none are human RCTs.*
+For tiden er det ingen registrerte relaterte kliniske forsøk
 
 ---
 
-## Taiwan Market Information
+## Litteraturbevis
 
-Bictegravir is not currently marketed in Taiwan; no authorization records are available.
+For tiden er det ingen tilgjengelig litteratur for den høyest rangerte prediksjonen (felin immunsviktyndrom).
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+*For kontekst er den nært beslektede, like scoret prediksjonen ("SIV-infeksjon," rangering 2) støttet av 3 publikasjoner om bictegravirs antivirale aktivitet mot SIV og INSTI-resistente HIV-1-stammer i modeller med ikke-menneskelige primater (PMID [28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/), [32506843](https://pubmed.ncbi.nlm.nih.gov/32506843/), [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/)), alle preklinisk/mekanistisk av natur — ingen er menneskelige RCT-er.*
 
 ---
 
-## Conclusion and Next Steps
+## Taiwansk markedsinformasjon
 
-**Decision: Hold**
+Bictegravir er for tiden ikke markedsført i Taiwan; ingen autorisasjonsregister er tilgjengelig.
 
-**Rationale:**
-The top-ranked prediction (feline acquired immunodeficiency syndrome) has zero supporting clinical trials or literature (L5), targets a non-human/veterinary condition rather than a human indication, and the drug carries a blocking data gap on TFDA warnings/contraindications (DG001) plus a high-impact MOA data gap (DG002) — together insufficient to support any human repurposing decision.
+---
 
-**To proceed, the following is needed:**
-- TFDA label data (warnings, contraindications) to clear the blocking safety data gap
-- Confirmed MOA data from DrugBank
-- Clarification of whether a human-relevant analog indication exists (e.g., retroviral/lentiviral disease in humans), since current top predictions are veterinary/nonhuman
-- If pursuing the feline AIDS or SIV angle, this would need to be reframed as a veterinary drug repurposing evaluation rather than a human one
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvente**
+
+**Begrunnelse:**
+Den høyest rangerte prediksjonen (felin immunsviktyndrom) har null kliniske forsøk eller litteraturstøtte (L5), målretter en ikke-menneskelig/veterinær tilstand snarere enn en menneskelig indikasjon, og legemidlet har et blokkerende datagap om TFDA-advarsler/kontraindikasjoner (DG001) pluss et høyimpakt MOA-datagap (DG002) — tilsammen utilstrekkelig til å støtte noen menneskelig reposisjoningsbeslutning.
+
+**For å gå videre kreves følgende:**
+- TFDA-merkedata (advarsler, kontraindikasjoner) for å fjerne det blokkerende sikkerhetsdata-gapet
+- Bekreftet MOA-data fra DrugBank
+- Avklarering av om det finnes en menneske-relevant analogindikasjon (f.eks. retroviral eller lentivirusrelatert sykdom hos mennesker), siden nåværende topprediksjoner er veterinær/ikke-menneskelig
+- Hvis man forfølger felin AIDS eller SIV-vinkelen, må dette gjenformuleres som en veterinær evaluering av legemiddelreposisjonering snarere enn en menneskelig
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

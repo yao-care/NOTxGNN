@@ -29,59 +29,58 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Risdiplam: From Spinal Muscular Atrophy to Acne (Disease)
+# Risdiplam: Fra spinal muskelatrofi til akne (sykdom)
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-Risdiplam is an SMN2 mRNA splicing modulator originally developed for spinal muscular atrophy (SMA).
-The TxGNN model predicts it may be effective for **Acne (Disease)**,
-but this prediction is currently supported by **0 clinical trials** and **0 publications**, with no known mechanistic rationale.
+Risdiplam er en SMN2 mRNA spleising-modulator opprinnelig utviklet for spinal muskelatrofi (SMA). TxGNN-modellen forutsier at det kan være effektivt for **akne (sykdom)**, men denne prediksjonen er for tiden støttet av **0 kliniske forsøk** og **0 publikasjoner**, uten kjent mekanistisk begrunnelse.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Punkt | Innhold |
 |------|------|
-| Original Indication | Spinal Muscular Atrophy (SMA) |
-| Predicted New Indication | Acne (Disease) |
-| TxGNN Prediction Score | 99.45% |
-| Evidence Level | L5 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Spinal muskelatrofi (SMA) |
+| Forutsagt ny indikasjon | Akne (sykdom) |
+| TxGNN prediksjonspoeng | 99.45% |
+| Bevisnivå | L5 |
+| Norges markedsstatus | Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Venting |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data for risdiplam is not available (data gap). Based on known information, risdiplam is an SMN2 mRNA splicing modulator used in spinal muscular atrophy, acting to increase functional SMN protein expression in motor neurons. Its efficacy in SMA is well established.
+For tiden er detaljerte mekanismedata for risdiplam ikke tilgjengelige (datahull). Basert på kjent informasjon er risdiplam en SMN2 mRNA spleising-modulator brukt ved spinal muskelatrofi, som virker for å øke uttrykk av funksjonell SMN-protein i motorneuroner. Dets effektivitet ved SMA er velestablert.
 
-However, this mechanism has no known or plausible molecular connection to acne, which involves follicular/sebaceous gland inflammation, androgen metabolism, and abnormal keratinization. The TxGNN score reflects only knowledge-graph embedding similarity rather than a validated biological pathway, and the absence of any supporting clinical trials or literature further weakens confidence in this prediction.
+Imidlertid har denne mekanismen ingen kjent eller plausibel molekylær forbindelse til akne, som innebærer inflammasjon i hårsekker og talgkirtler, androgenmetabolisme og abnorm keratinisering. TxGNN-poengene gjenspeiler kun likheter i knowledge-graph embedding i stedet for en validert biologisk vei, og fraværet av støttende kliniske forsøk eller litteratur svekker tilliten til denne prediksjonen ytterligere.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøk
 
-Currently no related clinical trials registered
+For tiden ingen relaterte kliniske forsøk registrert
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available
+For tiden ingen relatert litteratur tilgjengelig
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Risdiplam is not currently marketed in Norway; no authorization records are available.
+Risdiplam er for tiden ikke markedsført i Norge; ingen godkjenningsregistreringer er tilgjengelige.
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-## Conclusion and Next Steps
+## Konklusjon og neste skritt
 
-**Decision: Hold**
+**Beslutning: Venting**
 
-**Rationale:**
-The prediction is based solely on TxGNN model output (L5) with no clinical trial or literature support, and the proposed mechanistic link between an SMN2 splicing modulator and acne pathophysiology is not biologically plausible.
+**Begrunnelse:**
+Prediksjonen er basert utelukkende på TxGNN-modellresultat (L5) uten støtte fra kliniske forsøk eller litteratur, og den foreslåtte mekanistiske forbindelsen mellom en SMN2 spleising-modulator og aknes patofysiologi er ikke biologisk plausibel.
 
-**To proceed, the following is needed:**
-- TFDA/regulatory label data (warnings, contraindications) — currently blocking (DG001)
-- Confirmed mechanism of action (MOA) data from DrugBank or primary literature (DG002)
-- Independent mechanistic or preclinical evidence linking SMN2 modulation to dermatological/acne pathways before further evaluation
+**For å fortsette er følgende nødvendig:**
+- TFDA/regulatoriske merkedata (advarsler, kontraindikasjoner) — blokkerer for tiden (DG001)
+- Bekreftet mekanismedata (MOA) fra DrugBank eller primærlitteratur (DG002)
+- Uavhengig mekanistisk eller preklinisk bevis som knytter SMN2-modulering til dermatologiske/akne-veier før videre evaluering
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

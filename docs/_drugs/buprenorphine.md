@@ -29,80 +29,79 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Buprenorphine: From Opioid Analgesia to Acute Intermittent Porphyria
+# Buprenorphin: Fra opioid analgesi til akutt intermitterende porfyri
 
-## One-Sentence Summary
+## Sammenfatting i én setning
 
-Buprenorphine is a partial μ-opioid receptor agonist generally used in pain management and opioid dependence treatment.
-The TxGNN model predicts it may be relevant to **Acute Intermittent Porphyria (AIP)**,
-but currently only **1 case report** supports this direction — and that report discusses safe anesthetic use in an AIP patient, not treatment efficacy for AIP itself.
+Buprenorphin er en partial μ-opioidreceptor agonist som vanligvis brukes i smertebehandling og behandling av opioidavhengighet. TxGNN-modellen predikerer at det kan være relevant for **Akutt intermitterende porfyri (AIP)**, men for tiden støtter kun **1 kasuistikk** denne retningen — og den kasuistikken diskuterer sikker anestesianvendelse hos en AIP-pasient, ikke behandlingseffektivitet for AIP selv.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|---------|
-| Original Indication | Not available in evidence pack (no Norway license records; buprenorphine is generally recognized as an opioid analgesic/opioid dependence treatment) |
-| Predicted New Indication | Acute Intermittent Porphyria |
-| TxGNN Prediction Score | 99.41% |
-| Evidence Level | L4 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action (MOA) data is not available for buprenorphine in this evidence pack (data gap DG002, High severity). Based on generally known pharmacology, buprenorphine is a partial agonist at the μ-opioid receptor, and — unlike some other analgesics — is not considered a potent inducer of hepatic ALA synthase or CYP450 enzymes, the pathway central to porphyric crisis provocation.
-
-The single supporting publication (PMID 8301837, 1993 case report) describes the anesthetic management of an AIP patient undergoing surgery, in which buprenorphine was selected specifically because it was judged **safe to use** in AIP without triggering a crisis. This is important to clarify: the evidence documents that buprenorphine can be safely administered to AIP patients for an unrelated purpose (surgical analgesia), not that buprenorphine treats or improves AIP itself. AIP is a metabolic disorder driven by heme biosynthesis pathway defects, and there is no established therapeutic mechanism by which opioid receptor agonism would address the underlying enzymatic deficiency.
-
-The high TxGNN score most likely reflects a graph relationship of "safe co-occurrence" rather than a true "therapeutic-for" relationship. This distinction should be treated as a significant caveat when interpreting the prediction.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke tilgjengelig i evidenspakken (ingen norske godkjenningsregistreringer; buprenorphin er generelt kjent som opioidanalgetikum/opioidavhengighetsbehandling) |
+| Predikert ny indikasjon | Akutt intermitterende porfyri |
+| TxGNN-prediksjonscore | 99.41% |
+| Bevisnivå | L4 |
+| Norges markedsstatus | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related clinical trials registered.
+For tiden er detaljerte data om virkningsmekanisme (MOA) for buprenorphin ikke tilgjengelig i denne evidenspakken (datakløft DG002, Høy alvorlighetsgrad). Basert på generelt kjent farmakologi er buprenorphin en partial agonist på μ-opioidreseptoren, og — i motsetning til noen andre analgetika — regnes det ikke som en potent inducer av hepatisk ALA-syntase eller CYP450-enzymer, de sentrale mekanismene som fører til porfyrisk krise.
 
----
+Den eneste støttende publikasjonen (PMID 8301837, 1993 kasuistikk) beskriver anestesihåndtering av en AIP-pasient som gjennomgår kirurgi, der buprenorphin ble valgt spesifikt fordi det ble vurdert som **trygt å bruke** hos AIP uten å utløse en krise. Dette er viktig å presisere: evidensen dokumenterer at buprenorphin kan administreres trygt til AIP-pasienter for et urelatert formål (kirurgisk analgesi), ikke at buprenorphin behandler eller forbedrer AIP selv. AIP er en metabolsk lidelse drevet av defekter i hemebiosyntesebanen, og det finnes ingen etablert terapeutisk mekanisme der opioidreceptor-agonisme kan håndtere den underliggende enzymangelen.
 
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [8301837](https://pubmed.ncbi.nlm.nih.gov/8301837/) | 1993 | Case Report | Masui (Japanese J Anesthesiology) | Describes safe anesthetic management of a patient with suspected/confirmed AIP undergoing gynecologic surgery; buprenorphine chosen as an analgesic not expected to provoke a porphyric crisis. Does **not** evaluate buprenorphine as AIP therapy. |
+Den høye TxGNN-skåren reflekterer mest sannsynlig en graff-relasjon av «sikker sameksistens» snarere enn en sann «terapeutisk-for»-relasjon. Denne distinksjonen bør behandles som et betydelig forbehold når man tolker prediksjonen.
 
 ---
 
-## Norway Market Information
+## Klinisk forsøksbevis
 
-Buprenorphine currently has **no marketing authorization records** in this evidence pack (market status: Not Marketed, 0 licenses on file).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-Note: TFDA/label warnings, contraindications, and drug interaction data are currently unavailable (data gap DG001, **Blocking** severity) — this gap directly prevents completion of the initial safety screening (S1 stage) for this candidate.
+For tiden er det ingen relaterte kliniske forsøk registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+| PMID | År | Type | Journal | Hovedfunn |
+|------|-----|------|---------|----------|
+| [8301837](https://pubmed.ncbi.nlm.nih.gov/8301837/) | 1993 | Kasuistikk | Masui (Japansk tidsskrift for anestesiologi) | Beskriver sikker anestesihåndtering av en pasient med mistenkt/bekreftet AIP som gjennomgår gynekologisk kirurgi; buprenorphin valgt som analgetikum, ikke forventet å utløse porfyrisk krise. **Evaluerer ikke** buprenorphin som AIP-terapi. |
 
-**Rationale:**
-The only supporting literature is a single case report addressing anesthetic safety in an AIP patient — not therapeutic efficacy for AIP — and no clinical trials exist for this indication. Combined with a Blocking-severity safety data gap and the drug's unmarketed status in Norway, the evidence does not support progression past initial screening.
+---
 
-**To proceed, the following is needed:**
-- TFDA/official label warnings and contraindications (resolves DG001, currently blocking)
-- Drug mechanism of action detail from DrugBank (resolves DG002)
-- A mechanistic or preclinical rationale connecting opioid receptor pharmacology to heme biosynthesis/porphyrin metabolism, if this indication is to be pursued further
-- Clarification/re-labeling of the literature evidence as safety-context rather than efficacy-context, to avoid overstating the current evidence base
+## Markedsinformasjon for Norge
+
+Buprenorphin har for tiden **ingen registreringer av markedsgodkjenning** i denne evidenspakken (markedsstatus: Ikke markedsført, 0 godkjenninger).
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+Merk: TFDA/etikettadvarsler, kontraindikasjoner og legemiddelinteraksjonsdata er for tiden utilgjengelig (datakløft DG001, **Blokkerende** alvorlighetsgrad) — denne kløften hindrer gjennomføring av innledende sikkerhetsvurdering (S1-fasen) for denne kandidaten.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Den eneste støttende litteraturen er en enkelt kasuistikk som omhandler anestesisikkerhet hos en AIP-pasient — ikke terapeutisk effektivitet for AIP — og det finnes ingen kliniske forsøk for denne indikasjonen. Kombinert med en sikkerhetsdatakløft med blokkerende alvorlighetsgrad og legemidlets umarkedsførte status i Norge, støtter ikke evidensen videre framgang forbi innledende sikkerhetsvurdering.
+
+**For å gå videre, kreves følgende:**
+- TFDA/offisiell etikettadvarsler og kontraindikasjoner (løser DG001, for tiden blokkering)
+- Detaljer om legemidlets virkningsmekanisme fra DrugBank (løser DG002)
+- En mekanistisk eller preklinisk begrunnelse som forbinder opioidreceptor-farmakologi med hemsyntese/porfyrinmetabolisme, dersom denne indikasjonen skal forfølges videre
+- Avklaring/re-merking av litteraturbeviset som sikkerhetssammenheng snarere enn effektivitetssammenheng, for å unngå overstatelse av dagens bevisbasis
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

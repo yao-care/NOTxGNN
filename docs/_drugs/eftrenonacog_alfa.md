@@ -29,62 +29,63 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Eftrenonacog Alfa: From Hemophilia B to Pseudo-von Willebrand Disease
+# Eftrenonacog alfa: Fra hemofili B til pseudo-von Willebrand-sykdom
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-Eftrenonacog alfa is a recombinant Factor IX-Fc fusion protein used as coagulation factor replacement therapy for Hemophilia B.
-The TxGNN model predicts it may be effective for **Pseudo-von Willebrand Disease**,
-but this signal is currently supported by **0 clinical trials** and **0 publications**, and the underlying mechanistic rationale itself raises concerns about a false-positive prediction.
+Eftrenonacog alfa er et rekombinant Factor IX-Fc fusjonprotein som brukes som koagulasjonsfaktor-erstatningsterapi for hemofili B.
+TxGNN-modellen forutsier at det kan være effektivt for **pseudo-von Willebrand-sykdom**,
+men dette signalet støttes foreløpig av **0 kliniske forsøk** og **0 publikasjoner**, og det underliggende mekanistiske resonnementet i seg selv reiser bekymringer om en falsk positiv prediksjon.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Hemophilia B (based on known drug class; formal indication text not available in this dataset) |
-| Predicted New Indication | Pseudo-von Willebrand Disease |
-| TxGNN Prediction Score | 99.48% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Original indikasjon | Hemofili B (basert på kjent legemiddelklasse; formell indiksjonstekst er ikke tilgjengelig i dette datasettet) |
+| Forutsagt ny indikasjon | Pseudo-von Willebrand-sykdom |
+| TxGNN-prediksjonspoeng | 99.48% |
+| Bevisnivå | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available in DrugBank for this record. Based on known pharmacology, eftrenonacog alfa is a recombinant Factor IX-Fc fusion protein that replaces deficient endogenous Factor IX in the intrinsic coagulation pathway, and its efficacy in Hemophilia B is well established.
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelig i DrugBank for denne posten. Basert på kjent farmakologi er eftrenonacog alfa et rekombinant Factor IX-Fc fusjonprotein som erstatter mangelfull endogent Factor IX i den indre koaguleringsbanen, og effektiviteten i hemofili B er godt etablert.
 
-However, the top three TxGNN-predicted indications for this drug — pseudo-von Willebrand disease, primary release disorder of platelets, and Glanzmann thrombasthenia — are all **platelet-level disorders** (abnormal GPIb–vWF affinity, defective granule release, and GPIIb/IIIa receptor deficiency, respectively), not coagulation factor deficiencies. Factor IX replacement acts on thrombin generation and has no known mechanism to correct platelet receptor or granule defects.
+De tre beste TxGNN-forutsagte indikasjonene for dette legemidlet — pseudo-von Willebrand-sykdom, primær utslipsforstyrrelse av blodplater og Glanzmann-trombasteni — er imidlertid alle **blodplate-nivå-forstyrrelser** (unormal GPIb–vWF affinitet, defekt granulatutslipping og GPIIb/IIIa-reseptormangel, henholdsvis), ikke koagulasjonsfaktormangel. Factor IX-erstatning virker på trombingenerasjon og har ingen kjent mekanisme for å korrigere blodplate-reseptor- eller granulatdefekter.
 
-This mismatch suggests the high TxGNN scores likely reflect clustering of "bleeding disorder" nodes within the knowledge graph rather than genuine shared pharmacology. All three candidates should be treated as low-confidence, mechanism-unclear signals pending further validation, not as pharmacologically grounded repurposing hypotheses.
+Dette avviket antyder at høye TxGNN-poenger sannsynligvis gjenspeiler klyngring av «blødningsforstyrrelse»-noder innen kunnskapsgrafen snarere enn ekte delt farmakologi. Alle tre kandidatene bør behandles som signaler med lav sikkerhet og uklar mekanisme som venter på ytterligere validering, ikke som farmakologisk baserte omdisponeringshypoteser.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske forsøk
 
-Currently no related clinical trials registered
+For tiden er ingen relaterte kliniske forsøk registrert
 
-## Literature Evidence
+## Bevis fra litteratur
 
-Currently no related literature available
+For tiden er ingen relatert litteratur tilgjengelig
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-This drug is not currently marketed in Norway (0 authorizations on record); no license or product information is available.
+Dette legemidlet er ikke for tiden markedsført i Norge (0 autorisasjoner på posten); ingen lisens- eller produktinformasjon er tilgjengelig.
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Se pakningsvedlegget for sikkerhetsinformasjon.
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-This is a model-only (L5) prediction with no supporting clinical trials or literature, and the proposed mechanistic link between Factor IX replacement and platelet-function disorders is weak — the pattern is more consistent with knowledge-graph node clustering than true pharmacological relevance.
+**Begrunnelse:**
+Dette er en modell-kun prediksjon (L5) uten støttende kliniske forsøk eller litteratur, og den foreslåtte mekanistiske koblingen mellom Factor IX-erstatning og blodplate-funksjonsforstyrrelser er svak — mønsteret er mer i samsvar med kunnskapsgraf-nodeklyngring enn ekte farmakologisk relevans.
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank or primary literature (currently a blocking data gap, DG002)
-- TFDA/manufacturer labeling with warnings and contraindications, required before any safety pre-screening (blocking data gap, DG001)
-- Independent mechanistic or preclinical evidence directly linking Factor IX pathway activity to platelet-vWF or platelet-receptor disorders
-- Real-world case reports or registry data on Factor IX products used in these platelet disorders, if any exist, to distinguish true signal from prediction artifact
+**For å fortsette, kreves følgende:**
+- Bekreftet data om virkningsmekanisme (MOA) fra DrugBank eller primærlitteratur (for tiden kritisk datakløft, DG002)
+- TFDA/produsentmerking med advarsler og kontraindikasjoner, påkrevd før eventuell sikkerhetspre-screening (kritisk datakløft, DG001)
+- Uavhengig mekanistisk eller preklinisk evidens som direkte knytter Factor IX-veiens aktivitet til blodplate-vWF eller blodplate-reseptorforstyrrelser
+- Virkelige tilfellerapporter eller registerdata for Factor IX-produkter som brukes i disse blodplate-forstyrrelsene, hvis noen finnes, for å skille ekte signal fra prediksjonsartefakt
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,91 +29,92 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Lacosamide: From Epilepsy to Manic Bipolar Affective Disorder
+# Lacosamide: Fra epilepsi til manisk bipolar affektiv lidelse
 
-## One-Sentence Summary
+## Sammendrag på én setning
 
-Lacosamide is an antiepileptic drug used for partial-onset (focal) seizures, acting via selective enhancement of slow inactivation of voltage-gated sodium channels. The TxGNN model's top-ranked prediction is efficacy in **manic bipolar affective disorder**, but the supporting evidence base — **1 clinical trial** and **14 publications** — is thin and largely addresses bipolar *depression* rather than the manic phase specifically predicted. This is a mechanistically plausible but evidence-mismatched signal that requires further clarification before advancing.
+Lacosamide er et anti-epileptisk legemiddel som brukes ved fokal utgangspunkt (fokal) krampeanfall, og virker gjennom selektiv forbedring av langsom inaktivering av spenningsstyrte natriumkanaler. TxGNN-modellens høyest rangerte prediksjon er effektivitet ved **manisk bipolar affektiv lidelse**, men det understøttende bevisgrunnlaget — **1 klinisk prøving** og **14 publikasjoner** — er tynt og omhandler hovedsakelig bipolar *depresjon* snarere enn den maniske fasen som er spesielt predikert. Dette er et mekanistisk plausibelt, men bevis-retnings mismatch-signal som krever ytterligere avklaring før man går videre.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Epilepsy (partial-onset/focal seizures) — inferred from antiepileptic drug classification in the evidence pack; no Norway-approved indication text available (drug not marketed) |
-| Predicted New Indication | Manic Bipolar Affective Disorder |
-| TxGNN Prediction Score | 99.96% (rank 711) |
-| Evidence Level | L3 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Epilepsi (fokal utgangspunkt/fokal krampeanfall) — utledet fra klassifisering som anti-epileptisk legemiddel i bevisgrunnlagspakken; ingen Norge-godkjent indikasjonstekst tilgjengelig (legemiddel ikke markedsført) |
+| Predikert ny indikasjon | Manisk bipolar affektiv lidelse |
+| TxGNN prediksjonspoeng | 99.96% (rangering 711) |
+| Bevisnivå | L3 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvente |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-The structured `original_moa` field for lacosamide is marked as a data gap. However, literature within this evidence pack describes lacosamide's mechanism as selective enhancement of the *slow* inactivation state of voltage-gated sodium channels, producing extended neuronal membrane stabilization (PMID 28845834). This is the same general mechanistic class shared by established mood stabilizers such as lamotrigine and valproate, both of which have approved or well-documented roles in bipolar disorder — providing a plausible pharmacological rationale for exploring lacosamide as a mood stabilizer.
+Det strukturerte `original_moa`-feltet for lacosamide er markert som et datahull. Imidlertid beskriver litteraturen i denne bevisgrunnlagspakken lacosamides mekanisme som selektiv forbedring av *langsom* inaktiveringsstilstand av spenningsstyrte natriumkanaler, noe som produserer forlenget nevronmembranstabilisering (PMID 28845834). Dette er den samme generelle mekanistiske klassen som deles av etablerte humørregulerende midler som lamotrigin og valproat, som begge har godkjent eller godt dokumentert roller ved bipolar lidelse — noe som gir en plausibel farmakologisk begrunnelse for å utforske lacosamide som et humørregulerende middel.
 
-That said, there is a notable **evidence-direction mismatch**. The only registered trial (NCT07412132) explicitly targets "Major Depressive Episodes of Bipolar Disorder," not mania, and is justified by prior open-label data on depressive/manic symptom improvement rather than a manic-specific hypothesis. The retrospective and open-label literature identified (PMID 30251375, 33666402) similarly focuses on bipolar *depression*. One case report (PMID 30275630) documents lacosamide-precipitated neutropenia in a bipolar patient — an unrelated safety signal rather than efficacy evidence.
+Når det er sagt, er det en bemerkelsesverdig **bevis-retnings mismatch**. Den eneste registrerte prøvingen (NCT07412132) retter seg eksplisitt mot "Alvorlige depressive episoder ved bipolar lidelse," ikke mani, og er begrunnet av tidligere åpen-label data på forbedring av depressive/maniske symptomer snarere enn en manisk-spesifikk hypotese. Den retrospektive og åpen-label litteraturen som er identifisert (PMID 30251375, 33666402) fokuserer likeledes på bipolar *depresjon*. En kasuistikk (PMID 30275630) dokumenterer lacosamide-utløst neutropeni hos en bipolar pasient — et ikke-relatert sikkerhetssignal snarere enn bevis for effektivitet.
 
-In short: the sodium-channel mood-stabilizing rationale is biologically reasonable by analogy to other AEDs used in bipolar disorder, but no identified study directly evaluates lacosamide for the *manic* phase specifically flagged by TxGNN. The prediction should be treated as a hypothesis-generating signal, not a validated indication.
+Kort sagt: det natriumkanal-medierende humørregulerende rasjonalet er biologisk rimelig ved analogi til andre anti-epileptiske legemidler som brukes ved bipolar lidelse, men ingen identifisert studie evaluerer direkte lacosamide for den *maniske* fasen som er spesifikt flagget av TxGNN. Prediksjonen bør behandles som et hypotesegenererende signal, ikke en validert indikasjon.
 
 ---
 
-## Clinical Trial Evidence
+## Bevis fra kliniske prøvinger
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Prøvingnummer | Fase | Status | Antall deltakere | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT07412132](https://clinicaltrials.gov/study/NCT07412132) | Phase 3 | Recruiting | 40 | Evaluates lacosamide as augmentation therapy for **major depressive episodes** in Bipolar I/II disorder (not manic episodes); rationale drawn from earlier open-label observations of improved depressive/manic symptoms in epilepsy and BD populations |
+| [NCT07412132](https://clinicaltrials.gov/study/NCT07412132) | Fase 3 | Rekrutterer | 40 | Evaluerer lacosamide som augmenteringsterapi for **alvorlige depressive episoder** ved bipolar I/II lidelse (ikke maniske episoder); begrunnelse basert på tidligere åpen-label observasjoner av forbedret depressiv/manisk symptom ved epilepsi og BD-populasjoner |
 
 ---
 
-## Literature Evidence
+## Bevis fra litteraturen
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [30251375](https://pubmed.ncbi.nlm.nih.gov/30251375/) | 2018 | Retrospective cohort | Psychiatry Clin Neurosci | 30-day comparison of lacosamide vs. other antiepileptics in bipolar disorder patients without epilepsy — first direct lacosamide-in-BD data |
-| [33666402](https://pubmed.ncbi.nlm.nih.gov/33666402/) | 2021 | Open-label pilot trial | J Clin Psychopharmacol | 12-week pilot trial of lacosamide specifically for bipolar **depression** |
-| [28845834](https://pubmed.ncbi.nlm.nih.gov/28845834/) | 2017 | Case report | Acta Biomed | Clinical mood stabilization with lacosamide in a patient with comorbid PTSD and fronto-temporal epilepsy; describes slow Na+ channel inactivation mechanism |
-| [30275630](https://pubmed.ncbi.nlm.nih.gov/30275630/) | 2018 | Case report (adverse event) | Indian J Psychol Med | Lacosamide-precipitated neutropenia in a bipolar disorder patient with comorbid epilepsy — safety signal |
-| [38304661](https://pubmed.ncbi.nlm.nih.gov/38304661/) | 2024 | Case report | Cureus | Complex case of bipolar I disorder with multiple comorbidities including seizure-like activity |
-| [40777679](https://pubmed.ncbi.nlm.nih.gov/40777679/) | 2025 | Case report | Cureus | Xylazine withdrawal in a patient with comorbid bipolar disorder; largely tangential to efficacy |
-| [32693579](https://pubmed.ncbi.nlm.nih.gov/32693579/) | 2020 | Mechanistic review | ACS Chem Neurosci | CRMP2 druggability review — relevant to lacosamide's secondary (non-Nav) mechanism |
-| [37782796](https://pubmed.ncbi.nlm.nih.gov/37782796/) | 2023 | Structural/mechanistic | PNAS | Cryo-EM structural basis of Nav channel inhibition by AEDs (lamotrigine), supporting class mechanism relevant to lacosamide |
-| [29957667](https://pubmed.ncbi.nlm.nih.gov/29957667/) | 2018 | Review | Ther Drug Monit | TDM update on AEDs, notes expanding use of AEDs beyond epilepsy including bipolar disorder |
-| [22210279](https://pubmed.ncbi.nlm.nih.gov/22210279/) | 2012 | Review | Adv Drug Deliv Rev | Chemical/pharmacokinetic properties of newer AEDs including lacosamide — background pharmacology only |
+| [30251375](https://pubmed.ncbi.nlm.nih.gov/30251375/) | 2018 | Retrospektiv kohortstudie | Psychiatry Clin Neurosci | 30-dagers sammenligning av lacosamide vs. andre anti-epileptiske legemidler hos bipolære pasienter uten epilepsi — første direkte lacosamide-in-BD data |
+| [33666402](https://pubmed.ncbi.nlm.nih.gov/33666402/) | 2021 | Åpen-label pilotprøving | J Clin Psychopharmacol | 12-ukers pilotprøving av lacosamide spesifikt for bipolar **depresjon** |
+| [28845834](https://pubmed.ncbi.nlm.nih.gov/28845834/) | 2017 | Kasuistikk | Acta Biomed | Klinisk humørregulering med lacosamide hos en pasient med komorbid PTSD og frontotemporal epilepsi; beskriver mekanismen for langsom Na+-kanal inaktivering |
+| [30275630](https://pubmed.ncbi.nlm.nih.gov/30275630/) | 2018 | Kasuistikk (bivirkningshendelse) | Indian J Psychol Med | Lacosamide-utløst neutropeni hos bipolar pasient med komorbid epilepsi — sikkerhetssignal |
+| [38304661](https://pubmed.ncbi.nlm.nih.gov/38304661/) | 2024 | Kasuistikk | Cureus | Kompleks tilfelle av bipolar I lidelse med flere komorbiditeter inkludert krampelignende aktivitet |
+| [40777679](https://pubmed.ncbi.nlm.nih.gov/40777679/) | 2025 | Kasuistikk | Cureus | Xylazin-abstinenssyndrom hos pasient med komorbid bipolar lidelse; stort sett perifert til effektivitet |
+| [32693579](https://pubmed.ncbi.nlm.nih.gov/32693579/) | 2020 | Mekanistisk gjennomgang | ACS Chem Neurosci | Gjennomgang av CRMP2 som legemiddelmål — relevant for lacosamides sekundær (ikke-Nav) mekanisme |
+| [37782796](https://pubmed.ncbi.nlm.nih.gov/37782796/) | 2023 | Strukturell/mekanistisk | PNAS | Cryo-EM strukturell basis for Nav-kanalhemming av anti-epileptiske legemidler (lamotrigin), som understøtter klassemekanisme relevant for lacosamide |
+| [29957667](https://pubmed.ncbi.nlm.nih.gov/29957667/) | 2018 | Gjennomgang | Ther Drug Monit | TDM oppdatering av anti-epileptiske legemidler, merknader om utvidet bruk utover epilepsi inkludert bipolar lidelse |
+| [22210279](https://pubmed.ncbi.nlm.nih.gov/22210279/) | 2012 | Gjennomgang | Adv Drug Deliv Rev | Kjemiske/farmakokinetiske egenskaper for nyere anti-epileptiske legemidler inkludert lacosamide — kun bakgrunnsfarmakologi |
 
 ---
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Lacosamide currently holds **no marketing authorization in Norway** (market status: Not Marketed; 0 authorizations on file as of data cutoff 2026-09-03). No product-level licensing or approved indication text is available for extraction.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: Structured warnings, contraindications, and DDI data were not retrievable for this evidence pack — flagged as a Blocking data gap (DG001) requiring TFDA/Norway label sourcing before any safety-relevant decision.)*
+Lacosamide har for øyeblikket **ingen markedsgodkjenning i Norge** (markedsstatus: Ikke markedsført; 0 godkjenninger på fil per datokutoff 2026-09-03). Ingen produktnivå-lisensiering eller godkjent indikasjonstekst er tilgjengelig for ekstraksjon.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-**Rationale:**
-The mechanistic rationale (sodium-channel-mediated mood stabilization, paralleling lamotrigine/valproate) is plausible, but the only completed/ongoing evidence addresses bipolar **depression**, not the manic phase specifically predicted by TxGNN. With only L3 evidence, a single small (n=40), still-recruiting, non-manic-specific trial, and no formal safety labeling available, the evidence does not yet support proceeding.
+*(Merk: Strukturerte advarsler, kontraindikasjoner og DDI-data var ikke hentet for denne bevisgrunnlagspakken — flagget som en Blocking-gap (DG001) som krever TFDA/Norge-etikett-sourcing før noen sikkerhetsvurdering kan finne sted.)*
 
-**To proceed, the following is needed:**
-- Direct clinical evidence (trial or retrospective analysis) evaluating lacosamide specifically in manic/hypomanic episodes, not only bipolar depression
-- Resolution of Blocking gap DG001 (TFDA/Norway warnings and contraindications) before any S1 safety screening can occur
-- Formal MOA documentation from DrugBank (High-priority gap DG002)
-- Confirmation of Norway market/import pathway, given the drug currently has no local authorization
+---
 
-**Additional note:** Among the 10 TxGNN-predicted indications evaluated for lacosamide in this evidence pack, **migraine disorder** (rank 5) shows substantially stronger evidence — Evidence Level L1, including a completed head-to-head Phase 3 RCT vs. propranolol (n=600) and mechanistic CGRP-lowering data — and carries a "Proceed with Guardrails" recommendation. This candidate may warrant a separate, dedicated evaluation report.
+## Konklusjon og neste trinn
+
+**Beslutning: Avvente**
+
+**Begrunnelse:**
+Det mekanistiske rasjonalet (natriumkanal-mediert humørregulering, parallelt med lamotrigin/valproat) er plausibelt, men det eneste fullførte/pågående beviset omhandler bipolar **depresjon**, ikke den maniske fasen som spesifikt er predikert av TxGNN. Med kun L3-bevis, en enkelt liten (n=40), fortsatt-rekrutterende, ikke-manisk-spesifikk prøving, og ingen formell sikkerhetsetikett tilgjengelig, støtter beviset ikke videre framskriting.
+
+**For å fortsette, er følgende nødvendig:**
+- Direkte klinisk bevis (prøving eller retrospektiv analyse) som evaluerer lacosamide spesifikt i manisk/hypomanisk episoder, ikke kun bipolar depresjon
+- Løsning av Blocking-gap DG001 (TFDA/Norge advarsler og kontraindikasjoner) før noen S1 sikkerhetsvurdering kan finne sted
+- Formell MOA-dokumentasjon fra DrugBank (høyt prioritert gap DG002)
+- Bekreftelse av Norges marked/import-vei, gitt at legemiddelet for øyeblikket har ingen lokal godkjenning
+
+**Ytterligere merknad:** Blant de 10 TxGNN-predikerte indikasjonene som ble evaluert for lacosamide i denne bevisgrunnlagspakken, viser **migrenelidelse** (rangering 5) vesentlig sterkere bevis — Bevisnivå L1, inkludert en fullført head-to-head fase 3 RCT vs. propranolol (n=600) og mekanistisk CGRP-senking data — og har en "Fortsett med sikkerhetstiltak" anbefaling. Denne kandidaten kan være verdt en separat, dedikert evalueringsrapport.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

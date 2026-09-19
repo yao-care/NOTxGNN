@@ -29,63 +29,64 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# ABATACEPT: Drug Repurposing Preliminary Assessment
+# ABATACEPT: Innledende vurdering av resirkulering av legemiddel
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-Abatacept (DrugBank: DB01281) is a selective T-cell co-stimulation modulator (CTLA4-Ig fusion protein), widely used internationally for rheumatoid arthritis and other autoimmune conditions. Currently, **no TxGNN predicted indications** are available for evaluation, and the drug is **not marketed in Taiwan**. This report serves as a preliminary data inventory; further data collection is required before repurposing assessment can proceed.
+Abatacept (DrugBank: DB01281) er en selektiv T-celle ko-stimulasjonsmodulator (CTLA4-Ig fusjonprotein), bredt brukt internasjonalt for revmatoid artritt og andre autoimmune tilstander. For tiden er **ingen TxGNN-predikerte indikasjoner** tilgjengelige for evaluering, og legemiddelet er **ikke markedsført i Taiwan**. Denne rapporten tjener som en innledende datainventar; ytterligere datainnsamling er nødvendig før vurdering av resirkulering av legemiddel kan fortsette.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (no Taiwan licenses) |
-| Predicted New Indication | None — TxGNN prediction not yet available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 (Insufficient data) |
-| Taiwan Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke tilgjengelig i evidenspakken (ingen Taiwan-lisenser) |
+| Forutsagt ny indikasjon | Ingen — TxGNN-prediksjon ikke ennå tilgjengelig |
+| TxGNN prediktiv poengsum | N/A |
+| Bevisgrad | L5 (Utilstrekkelige data) |
+| Taiwans markedsstatus | ✗ Ikke markedsført (Ikke markedsført) |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | **Avvent** |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on publicly known information, Abatacept is a soluble fusion protein consisting of the extracellular domain of human CTLA-4 linked to the modified Fc portion of human IgG1. It functions as a selective T-cell co-stimulation modulator by binding to CD80/CD86 on antigen-presenting cells, thereby blocking the CD28 co-stimulatory signal required for full T-cell activation.
+For tiden er detaljerte virkningsmekanisme-data ikke tilgjengelig i evidenspakken. Basert på offentlig tilgjengelig informasjon er abatacept et løselig fusjonprotein som består av det ekstracellulære domenet til menneskelig CTLA-4 koblet til den modifiserte Fc-delen av menneskelig IgG1. Det fungerer som en selektiv T-celle ko-stimulasjonsmodulator ved å binde seg til CD80/CD86 på antigen-presenterende celler, og dermed blokkerer CD28 ko-stimulatory signalet som kreves for full T-celle-aktivering.
 
-Internationally, Abatacept (brand name: Orencia®) has been approved for rheumatoid arthritis, juvenile idiopathic arthritis, and psoriatic arthritis. However, these indications are **not reflected in the current evidence pack** as the drug holds no Taiwan FDA (TFDA) marketing authorization.
+Internasjonalt er abatacept (merkenavn: Orencia®) godkjent for revmatoid artritt, juvenil idiopatisk artritt og psoriasisartritt. Disse indikasjonene reflekteres imidlertid **ikke i gjeldende evidenspakken** ettersom legemiddelet ikke har noen Taiwan FDA (TFDA) markedsføringsautoritet.
 
-Since no TxGNN-predicted indications have been generated, it is not possible to evaluate mechanistic plausibility for any specific repurposing candidate at this time. The TxGNN model prediction pipeline should be run with Abatacept's knowledge graph data to identify potential new indications.
+Siden ingen TxGNN-predikerte indikasjoner har blitt generert, er det ikke mulig å evaluere mekanistisk plausibilitet for noen spesifikk resirkuleringskandidat på nåværende tidspunkt. TxGNN-modellens prediktive pipeline bør kjøres med abatasepts kunnskapsgrafidata for å identifisere potensielle nye indikasjoner.
 
-## Clinical Trial Evidence
+## Kliniske forsøksbevis
 
-No predicted indication is available; therefore, no indication-specific clinical trial search was conducted.
+Ingen forutsagt indikasjon er tilgjengelig; derfor ble det ikke utført noe indikasjonsspesifikt klinisk forsøkssøk.
 
-## Literature Evidence
+## Litteraturbevis
 
-No predicted indication is available; therefore, no indication-specific literature search was conducted.
+Ingen forutsagt indikasjon er tilgjengelig; derfor ble det ikke utført noe indikasjonsspesifikt litteratursøk.
 
-## Taiwan Market Information
+## Taiwans markedsinformasjon
 
-Abatacept currently holds **no marketing authorization** from the Taiwan FDA (TFDA). There are no licensed products in Taiwan.
+Abatacept har for tiden **ingen markedsføringsautoritet** fra Taiwan FDA (TFDA). Det er ingen lisensierte produkter i Taiwan.
 
-## Safety Considerations
+## Sikkerhetsvurderinger
 
-> Please refer to the package insert for safety information.
+> Vennligst se pakningsbilaget for sikkerhetsinformasjon.
 >
-> Note: TFDA package insert warnings, contraindications, and drug-drug interaction data were not retrievable for this drug (no Taiwan marketing authorization exists). Safety evaluation should reference international labelling (e.g., US FDA, EMA) if a repurposing candidate is identified.
+> Merknad: Advarsler fra TFDA-pakningsmerkingen, kontraindikasjoner og legemiddel-legemiddel-interaksjonsdata var ikke tilgjengelig for dette legemiddelet (ingen Taiwan-markedsføringsautoritet eksisterer). Sikkerhetsevaluering skal referere til internasjonal merking (f.eks. US FDA, EMA) hvis en resirkuleringskandidat identifiseres.
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-The evidence pack is critically incomplete — there are no TxGNN-predicted indications to evaluate, no Taiwan market authorization data, and no locally available safety labelling. Without a target indication, a repurposing assessment cannot proceed.
+**Begrunnelse:**
+Evidenspakken er kritisk ufullstendig — det finnes ingen TxGNN-predikerte indikasjoner å evaluere, ingen Taiwan-markedsautoriseringsdata, og ingen lokalt tilgjengelig sikkerhetsinformasjon. Uten en målindikasjon kan en vurdering av resirkulering av legemiddel ikke fortsette.
 
-**To proceed, the following is needed:**
-- **Run TxGNN prediction pipeline** for Abatacept (DB01281) to generate candidate repurposing indications
-- **Obtain mechanism of action (MOA) data** from DrugBank API (Data Gap DG002, severity: High)
-- **Obtain safety labelling data** — either from TFDA (if future approval occurs) or from international regulatory sources such as the US FDA or EMA (Data Gap DG001, severity: Blocking)
-- **Assess Taiwan regulatory pathway** — since Abatacept is not currently marketed in Taiwan, determine whether importation or special access programs would be feasible for any identified repurposing indication
-- **Re-evaluate** once predicted indications and safety data are available
+**For å fortsette, er følgende nødvendig:**
+- **Kjør TxGNN-prediktiv pipeline** for abatacept (DB01281) for å generere kandidat-resirkulering-indikasjoner
+- **Hent virkningsmekanisme (MOA) data** fra DrugBank API (Data Gap DG002, alvorlighetsgrad: Høy)
+- **Hent sikkerhetsmerkingsdata** — enten fra TFDA (hvis fremtidig godkjenning oppstår) eller fra internasjonale regulatoriske kilder som US FDA eller EMA (Data Gap DG001, alvorlighetsgrad: Blokkering)
+- **Vurder Taiwan regulatorisk vei** — siden abatacept for tiden ikke er markedsført i Taiwan, bestemme om importasjon eller spesielle tilgangsprogrammer ville være gjennomførbar for noen identifisert resirkulering-indikasjon
+- **Omvurder** når predikerte indikasjoner og sikkerhetdata er tilgjengelige
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

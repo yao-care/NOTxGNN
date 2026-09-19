@@ -29,88 +29,89 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Methotrexate: From Antifolate Chemotherapy/Immunomodulatory Use to Pulmonary Blastoma
+# Methotrexate: Fra antifolatekjemoterapi/immunmodulatorisk bruk til lungeblastom
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Methotrexate (DrugBank DB00563) is a dihydrofolate reductase (DHFR) inhibitor long used across oncology and autoimmune disease settings, though no formal original-indication or regulatory record is present in this evidence pack. TxGNN's top-ranked prediction is **Pulmonary Blastoma**, but this candidate is currently supported by **0 clinical trials** and **0 publications** — it is a pure model output with no clinical or mechanistic corroboration to date.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not on record — `taiwan_regulatory.licenses` is empty and `original_indications` is empty (see Data Gaps DG001/DG002) |
-| Predicted New Indication | Pulmonary Blastoma |
-| TxGNN Prediction Score | 99.45% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Methotrexate (DrugBank DB00563) er en dihydrofolatreduktase (DHFR) inhibitor som lenge har vært brukt innen onkologi og autoimmun sykdompraksis, selv om ingen formell originalindikasjon eller regulatorisk dokumentasjon er til stede i denne bevissamlingen. TxGNNs topprangerte prediksjon er **lungeblastom**, men denne kandidaten støttes for tiden av **0 kliniske prøver** og **0 publikasjoner** — det er en ren modellutgang uten klinisk eller mekanistisk bekrefelse til dags dato.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Detailed mechanism-of-action data is flagged as a data gap in this evidence pack (`original_moa: [Data Gap]`, DG002, severity High). Based on the mechanistic rationale attached to this candidate, methotrexate acts as a DHFR inhibitor, blocking folate-dependent purine and pyrimidine synthesis and thereby exerting cytotoxic pressure on rapidly dividing cells — a mechanism broadly applicable across many malignancies.
-
-Pulmonary blastoma, however, is an extremely rare sarcomatoid lung tumor. The rationale explicitly states that there is currently no mechanistic discussion or clinical data connecting methotrexate to this specific tumor type — the association exists solely as an output of the TxGNN network-similarity model, without any corroborating trial or literature signal.
-
-Given the complete absence of supporting evidence, this specific prediction should be treated as hypothesis-generating only, not as a basis for clinical or research prioritization at this time.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Ikke på register — `taiwan_regulatory.licenses` er tom og `original_indications` er tom (se Datakløfter DG001/DG002) |
+| Forutsagt ny indikasjon | Lungeblastom |
+| TxGNN prediksjonspoeng | 99.45% |
+| Bevisnivå | L5 |
+| Norges markedsstatus | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+Detaljerte data om virkningsmekanisme er flagget som en datakløft i denne bevissamlingen (`original_moa: [Data Gap]`, DG002, alvorlighetsgrad Høy). Basert på den mekanistiske begrunnelsen knyttet til denne kandidaten, virker methotrexate som en DHFR inhibitor, som blokkerer folatavhengig purin- og pyrimidinsyntese og derved utøver cytotoksisk press på raskt delende celler — en mekanisme som bredt gjelder for mange maligniteter.
 
----
+Lungeblastom er imidlertid en ekstremt sjelden sarkomalignende lungetumor. Begrunnelsen sier eksplisitt at det for tiden ikke finnes noen mekanistisk diskusjon eller klinisk data som forbinder methotrexate til denne spesifikke tumortypen — assosiasjonen eksisterer utelukkende som et resultat av TxGNN-nettverkssimilaritetsmodellen, uten noen bekreftet prøve- eller litteratursignal.
 
-## Norway Market Information
-
-No marketing authorizations are on record for this product in the current dataset (`total_licenses = 0`, `market_status = Not marketed / Not Marketed`). No license table can be populated.
+Gitt det fullstendige fraværet av støttende bevis, bør denne spesifikke prediksjonen behandles som hypotesegenererende kun, ikke som grunnlag for klinisk eller forskningsprioritering på dette tidspunktet.
 
 ---
 
-## Cytotoxicity
+## Bevis fra kliniske prøver
 
-Methotrexate is a conventional antimetabolite/antifolate cytotoxic agent (criterion: known cytotoxic chemotherapy class), so this section applies.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (Antimetabolite / Antifolate — DHFR inhibitor) |
-| Myelosuppression Risk | High — literature within this evidence pack repeatedly documents dose-limiting hematologic toxicity and nephrotoxicity-related prolonged exposure requiring rescue interventions (e.g., leucovorin rescue, high-flux hemodialysis) in high-dose regimens |
-| Emetogenicity Classification | Low to moderate, dose-dependent (higher with high-dose IV regimens) |
-| Monitoring Items | CBC with differential, renal function (creatinine/eGFR), hepatic function, serum MTX levels for high-dose regimens, mucositis/oral toxicity |
-| Handling Protection | Must follow cytotoxic/hazardous drug handling regulations during preparation and administration |
+Ingen relaterte kliniske prøver er for tiden registrert.
 
 ---
 
-## Safety Considerations
+## Litteraturbevis
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and DDI data are all marked as data gaps in this evidence pack — DG001, Blocking severity.)
+Ingen relatert litteratur er for tiden tilgjengelig.
 
 ---
 
-## Conclusion and Next Steps
+## Norges markedsinformasjon
 
-**Decision: Hold**
+Ingen markedsautoriseringer er på register for dette produktet i det nåværende datasettet (`total_licenses = 0`, `market_status = Not marketed / Not Marketed`). Ingen lisenstabell kan fylles ut.
 
-**Rationale:**
-The top-ranked prediction (Pulmonary Blastoma) has an L5 evidence level — no clinical trials and no literature support this specific indication. It is purely an algorithmic output and cannot proceed to safety or clinical evaluation without independent substantiation.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Norway package-insert data (warnings, contraindications, DDI) — currently Blocking (DG001)
-- Confirmed mechanism-of-action documentation from DrugBank (DG002)
-- Independent mechanistic or preclinical rationale linking methotrexate to pulmonary blastoma specifically, before any trial or literature search is warranted
-- **Note:** within this same evidence pack, other predicted indications for methotrexate carry substantially stronger evidence (e.g., *Hodgkin's lymphoma* and *rhabdomyosarcoma*, both L2/S2 "Proceed with Guardrails"). If the goal is near-term repurposing evaluation, those candidates warrant separate reports and should be prioritized over Pulmonary Blastoma.
+## Cytotoksisitet
+
+Methotrexate er en konvensjonell antimetabolitt/antifolatcytotoksisk agent (kriterium: kjent cytotoksisk kjemoterapiklasse), så denne delen gjelder.
+
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitetsklassifisering | Konvensjonell cytotoksisk (antimetabolitt / antifolat — DHFR inhibitor) |
+| Myelosuppresjonrisiko | Høy — litteratur innen denne bevissamlingen dokumenterer gjentatt dosebegrensende hematologisk toksisitet og nefrotoksisitetsrelatert forlenget eksponering som krever redningstiltak (f.eks. leukovorinredning, høyflukshemodialyse) i høydoseregimer |
+| Emetogenitetsklassifisering | Lav til moderat, doseavhengig (høyere med høydose IV-regimer) |
+| Overvåkingsparametere | Blodcelletal med differensial, nyreverkskapasitet (kreatinin/eGFR), leverfunksjon, serum MTX-nivåer for høydoseregimer, slimhinneinflammasjon/oral toksisitet |
+| Håndteringsbeskyttelse | Må følge regler for håndtering av cytotoksiske og farlige legemidler under preparering og administrasjon |
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegget for sikkerhetsinformasjon. (Nøkkeladvarsler, kontraindikasjoner og DDI-data er alle markert som datakløfter i denne bevissamlingen — DG001, Blocking severity.)
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Den topprangerte prediksjonen (lungeblastom) har et L5 bevisnivå — ingen kliniske prøver og ingen litteratur støtter denne spesifikke indikasjonen. Det er rent en algoritmisk utgang og kan ikke gå videre til sikkerhet eller klinisk evaluering uten uavhengig bekrefelse.
+
+**For å fortsette, er følgende nødvendig:**
+- TFDA/Norges pakningsvedlegg-data (advarsler, kontraindikasjoner, DDI) — for tiden Blocking (DG001)
+- Bekreftet dokumentasjon av virkningsmekanisme fra DrugBank (DG002)
+- Uavhengig mekanistisk eller preklinisk begrunnelse som forbinder methotrexate til lungeblastom spesifikt, før noen prøve- eller litteratursøk er berettiget
+- **Merk:** innen denne samme bevissamlingen har andre forutsagte indikasjoner for methotrexate vesentlig sterkere bevis (f.eks. *Hodgkins lymfom* og *rabdomyosarkom*, begge L2/S2 "Fortsett med sikkerhetstiltak"). Hvis målet er evaluering av nær-tids ombruk, fortjener disse kandidatene separate rapporter og bør prioriteres fremfor lungeblastom.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

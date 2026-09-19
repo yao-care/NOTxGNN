@@ -29,78 +29,79 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Ravulizumab: From Complement-Mediated Disease to Congenital Neutropenia (G6PC3 Deficiency)
+# Ravulizumab: Fra komplement-mediert sykdom til medfødt nøytropeni (G6PC3-mangel)
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-> Ravulizumab is a long-acting terminal complement (C5) inhibitor; its original approved indication is not available in the current dataset.
-> The TxGNN model predicts it may be effective for **Autosomal Recessive Severe Congenital Neutropenia due to G6PC3 Deficiency**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — evidence rests entirely on the model's embedding similarity, and the evidence pack itself flags the mechanistic rationale as likely spurious.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in current dataset (no approved indication text in Norway regulatory records) |
-| Predicted New Indication | Autosomal Recessive Severe Congenital Neutropenia due to G6PC3 Deficiency |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Ravulizumab er en langtidsvirkende terminal komplementinhibitor (C5); dens opprinnelige godkjente indikasjon er ikke tilgjengelig i det nåværende datasettet.
+> TxGNN-modellen forutsier at det kan være effektivt for **autosomalt recessiv alvorlig medfødt nøytropeni på grunn av G6PC3-mangel**,
+> men denne prediksjonen støttes for tiden av **0 kliniske studier** og **0 publikasjoner** — bevis hviler helt på modellens embedding-space-likhet, og bevismaterialet selv markerer den mekanistiske begrunnelsen som sannsynlig usann.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available in the structured MOA field. However, the evidence pack's own repurposing rationale describes ravulizumab as a long-acting C5 complement inhibitor (a derivative of eculizumab), meaning its established pharmacology blocks the terminal complement cascade (C5 cleavage → C5a/C5b-9 formation).
-
-The predicted indication — congenital neutropenia due to G6PC3 deficiency — is driven by endoplasmic reticulum stress and apoptosis in neutrophil precursors, a mechanism rooted in glycogen/glucose metabolism rather than complement activation. According to the evidence pack's own mechanistic assessment, **there is no known direct biological link between the C5 complement pathway and G6PC3-deficient neutropenia**. The high TxGNN score most likely reflects embedding-space similarity across a cluster of neutrophil-related diseases in the knowledge graph, rather than a genuine, validated mechanistic connection.
-
-This caveat is consistent across the other top-ranked predictions in this evidence pack (cyclic hematopoiesis, CXCR2-deficient neutropenia, X-linked SCN) — all are neutrophil/hematopoietic disorders with distinct, non-complement-driven etiologies, reinforcing that the model may be clustering on phenotypic similarity (neutropenia) rather than shared drug-target biology.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke tilgjengelig i nåværende datasett (ingen godkjent indikasjon i norske regulatoriske registre) |
+| Forutsagt ny indikasjon | Autosomalt recessiv alvorlig medfødt nøytropeni på grunn av G6PC3-mangel |
+| TxGNN-prediksjonscore | 99.96% |
+| Bevisnivå | L5 |
+| Status på det norske markedet | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available
+For tiden er detaljerte mekanismedata ikke tilgjengelige i det strukturerte MOA-feltet. Imidlertid beskriver bevismaterialet sitt eget gjenbruksrationale ravulizumab som en langtidsvirkende C5-komplementinhibitor (et derivat av eculizumab), hvilket betyr at dens virkningsmåte blokkerer terminal komplementkaskade (C5-kløyvning → C5a/C5b-9-dannelse).
 
----
+Den forutsagte indikasjonen — medfødt nøytropeni på grunn av G6PC3-mangel — drives av endoplasmatisk retikulum-stress og apoptose i nøytrofil-prekursorer, en mekanisme som er forankret i glykogen-/glukosemetabolisme heller enn komplementaktivering. Ifølge bevismaterialet sitt eget mekanistiske vurdering, **finnes det ingen kjent direkte biologisk sammenheng mellom C5-komplementbanen og G6PC3-mangel-nøytropeni**. Den høye TxGNN-scoren reflekterer sannsynligvis embedding-space-likhet på tvers av en klynge av nøytrofil-relaterte sykdommer i kunnskapsgrafen, heller enn en genulin, validert mekanistisk forbindelse.
 
-## Norway Market Information
-
-Ravulizumab is not currently marketed in Norway, and no authorization records are available in the dataset.
+Denne forbehold er konsistent på tvers av de andre topprankede prediksjonen i dette bevismaterialet (syklisk hematopoiese, CXCR2-deficient nøytropeni, X-linked SCN) — alle er nøytrofil-/hematopoietiske lidelser med distinkte, ikke-komplement-drevne etiologier, noe som forsterker at modellen kan gruppere på fenotypisk likhet (nøytropeni) heller enn delt legemiddel-målbiologi.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske studier
 
-Please refer to the package insert for safety information.
-
-*Note: TFDA label warnings/contraindications (DG001) are flagged as a **Blocking** data gap in the evidence pack — this drug cannot proceed to a safety pre-assessment (S1) until this data is obtained.*
+For tiden ingen relevante kliniske studier registrert
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra litteratur
 
-**Decision: Hold**
+For tiden ingen relevant litteratur tilgjengelig
 
-**Rationale:**
-This prediction is supported only by an L5 model score (rank 731/~, no clinical trials, no literature), and the evidence pack's own mechanistic analysis explicitly questions the biological plausibility of the C5-pathway/G6PC3-neutropenia link, attributing the high score to disease-embedding similarity rather than genuine target relevance. Combined with a Blocking data gap on TFDA safety labeling, this candidate does not meet the threshold to advance past S0.
+---
 
-**To proceed, the following is needed:**
-- Structured MOA data from DrugBank/label sources (currently a High-severity data gap, DG001/DG002)
-- TFDA/regulatory label (warnings, contraindications) to enable S1 safety pre-assessment (Blocking gap)
-- Independent literature or preclinical evidence directly linking complement C5 activity to G6PC3-deficient neutrophil pathology
-- Confirmation of the drug's actual original approved indication(s), currently missing from regulatory records
+## Informasjon om det norske marked
+
+Ravulizumab er ikke for tiden markedsført i Norge, og ingen godkjennelsesregistre er tilgjengelige i datasettet.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+*Merk: TFDA-merkingadvarsler/kontraindikasjoner (DG001) er markert som en **kritisk** datagap i bevismaterialet — dette legemidlet kan ikke gå videre til sikkerhet før-vurdering (S1) inntil disse dataene er innhentet.*
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Denne prediksjonen støttes kun av en L5-modelscore (rangering 731/~, ingen kliniske studier, ingen litteratur), og bevismaterialet sitt eget mekanistiske analyse stiller eksplisitt spørsmål ved den biologiske plausibilitet av C5-banen/G6PC3-nøytropeni-koblingen, og tilskriver den høye scoren til sykdoms-embedding-likhet heller enn genulin målrelevans. Kombinert med en kritisk datagap på TFDA-sikkerhetsmerkingen, oppfyller denne kandidaten ikke terskelen for å avansere forbi S0.
+
+**For å fortsette, trengs følgende:**
+- Strukturerte MOA-data fra DrugBank/merkingskjelder (for tiden en datagap med høy alvorlighetsgrad, DG001/DG002)
+- TFDA/regulatorisk merking (advarsler, kontraindikasjoner) for å muliggjøre sikkerhet før-vurdering (S1) (kritisk datagap)
+- Uavhengig litteratur eller preklinisk bevis som direkte knytter komplement C5-aktivitet til G6PC3-mangel nøytrofil-patologi
+- Bekreftelse av legemidlets faktiske opprinnelige godkjente indikasjon(er), som for tiden mangler i regulatoriske registre
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

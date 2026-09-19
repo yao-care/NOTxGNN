@@ -29,80 +29,79 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Rivastigmine: From Alzheimer's Disease to Glaucoma
+# Rivastigmin: Fra Alzheimers sykdom til glaukom
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-Rivastigmine is a cholinesterase inhibitor originally used in Alzheimer's and Parkinson's disease dementia.
-The TxGNN model predicts it may also lower intraocular pressure and be useful in **Glaucoma**,
-but this is currently supported only by **0 clinical trials** and **3 preclinical/review publications**.
+Rivastigmin er en kolinesterasehemmer opprinnelig brukt ved Alzheimers sykdom og parkinsonisme-demens. TxGNN-modellen forutsier at det også kan senke intraokulært trykk og være nyttig ved **glaukom**, men dette støttes for tiden bare av **0 kliniske forsøk** og **3 prekliniske/review-publikasjoner**.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Alzheimer's disease dementia (based on known drug class; not verified in the current regulatory data pack) |
-| Predicted New Indication | Glaucoma |
-| TxGNN Prediction Score | 99.27% |
-| Evidence Level | L4 (preclinical/mechanistic evidence only) |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, rivastigmine is a carbamate-type acetylcholinesterase (and butyrylcholinesterase) inhibitor, originally developed to increase cholinergic transmission in Alzheimer's and Parkinson's disease dementia.
-
-Cholinergic signaling via muscarinic (M3) receptors in the anterior eye segment is known to regulate aqueous humor outflow through the trabecular meshwork, and non-selective AChE inhibitors are established hypotensive agents in the eye. This provides a plausible mechanistic bridge between rivastigmine's central cholinergic activity and a potential ocular hypotensive effect.
-
-This link is directly supported by an early animal study showing that topical rivastigmine lowered intraocular pressure in rabbits, alongside more recent reviews of cholinergic agents and AChE inhibitor chemistry relevant to glaucoma. However, all available evidence is preclinical or narrative-review in nature — there is no human clinical trial data confirming this repurposing signal.
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Alzheimers sykdomsdemens (basert på kjent legemiddelklasse; ikke verifisert i gjeldende regulatorisk datapakke) |
+| Predikert ny indikasjon | Glaukom |
+| TxGNN prediksjonspoeng | 99.27% |
+| Bevisnivå | L4 (kun preklinisk/mekanistisk bevis) |
+| Markedsføringsstatus i Norge | ✗ Ikke markedsført |
+| Antall autoriseringer | 0 |
+| Anbefalt avgjørelse | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related clinical trials registered
+For tiden er detaljerte data om virkningsmekanismen ikke tilgjengelig i denne bevisgangen. Basert på kjent informasjon er rivastigmin en karbamattype acetylkolinesterase- (og butyrylkolinesterase)-hemmer, opprinnelig utviklet for å øke kolinerg signalering ved Alzheimers sykdom og parkinsonisme-demens.
 
----
+Kolinerg signalering via muskarinerge (M3) reseptorer i forsegmentet av øyet er kjent for å regulere utstrømming av humor aquosus gjennom trabekulærmaskene, og ikke-selektive AChE-hemmere er etablerte øyetrykkssenkende midler. Dette gir en plausibel mekanistisk forbindelse mellom rivastigmins sentrale kolinerg aktivitet og en potensiell okuløs blodtrykkssenkende effekt.
 
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [10673128](https://pubmed.ncbi.nlm.nih.gov/10673128/) | 2000 | Animal study (preclinical) | J Ocul Pharmacol Ther | Topical rivastigmine, a selective AChE inhibitor, lowered intraocular pressure in normotensive rabbits over an 8-hour monitoring period |
-| [39130374](https://pubmed.ncbi.nlm.nih.gov/39130374/) | 2024 | Review | Front Mol Biosci | Reviews cholinergic (muscarinic) regulation of IOP via the trabecular meshwork and limitations of current M3 agonists, framing rationale for cholinergic IOP-lowering agents |
-| [27967267](https://pubmed.ncbi.nlm.nih.gov/27967267/) | 2017 | Review (patent literature) | Expert Opin Ther Pat | Reviews AChE inhibitors/reactivators, noting mild AChE inhibition has therapeutic relevance in Alzheimer's disease, myasthenia gravis, and glaucoma |
+Denne forbindelsen støttes direkte av en tidlig dyreforsøksstudie som viste at topisk rivastigmin senket intraokulært trykk hos kaniner, sammen med nyere oversikter over kolinerg-aktive stoffer og AChE-hemmerkjemi relevant for glaukom. Imidlertid er all tilgjengelig bevis av preklinisk eller narrativ oversiktsnatur — det finnes ingen kliniske forsøksdata fra mennesker som bekrefter dette repurposingssignalet.
 
 ---
 
-## Norway Market Information
+## Kliniske forsøksdata
 
-Rivastigmine currently holds no marketing authorization in Norway (0 licenses on record); no product/dosage form data is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+For tiden er det ikke registrert relevante kliniske forsøk
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbeviser
 
-**Decision: Hold**
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|---------|---------|
+| [10673128](https://pubmed.ncbi.nlm.nih.gov/10673128/) | 2000 | Dyreforsøksstudie (preklinisk) | J Ocul Pharmacol Ther | Topisk rivastigmin, en selektiv AChE-hemmer, senket intraokulært trykk hos normotensive kaniner over en 8-timers observasjonsperiode |
+| [39130374](https://pubmed.ncbi.nlm.nih.gov/39130374/) | 2024 | Oversikt | Front Mol Biosci | Gjennomgår kolinerg (muskarinerge) regulering av IOP via trabekulærmaskene og begrensninger for gjeldende M3-agonister, som framstiller begrunnelsen for kolinerg-aktive IOP-senkende midler |
+| [27967267](https://pubmed.ncbi.nlm.nih.gov/27967267/) | 2017 | Oversikt (patentlitteratur) | Expert Opin Ther Pat | Gjennomgår AChE-hemmere/-reaktivatorer, og noterer at mild AChE-hemming har terapeutisk relevans ved Alzheimers sykdom, myasthenia gravis og glaukom |
 
-**Rationale:**
-The glaucoma signal rests on a single 25-year-old animal study plus two narrative reviews — no human clinical trials, no confirmed MOA data, and the drug is not currently marketed in Norway. Evidence is too preliminary to support progression.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank or equivalent source
-- TFDA/Norway-equivalent regulatory label (warnings, contraindications) — currently a Blocking data gap (DG001)
-- At least one human proof-of-concept study (e.g., ocular formulation safety/IOP-lowering trial)
-- Formal ophthalmic route/formulation compatibility assessment, since current approved formulations are oral/transdermal, not ocular
+## Markedsinformasjon for Norge
+
+Rivastigmin har for tiden ingen markedsføringstillatelse i Norge (0 lisenser registrert); ingen produkt-/doseringsformdata er tilgjengelig.
+
+---
+
+## Sikkerhetsoverveielser
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste skritt
+
+**Avgjørelse: Avvent**
+
+**Begrunnelse:**
+Glaukkomsignalet hviler på en enkelt 25 år gammel dyreforsøksstudie pluss to narrative oversikter — ingen kliniske forsøk på mennesker, ingen bekreftet virkningsmekanisme-data, og rivastigmin markedsføres ikke for tiden i Norge. Beviset er for foreløpig til å støtte videre utvikling.
+
+**For å fortsette trengs følgende:**
+- Bekreftet virkningsmekanisme (MOA)-data fra DrugBank eller tilsvarende kilde
+- TFDA/Norge-ekvivalent regulatorisk merking (advarsler, kontraindikasjoner) — for tiden et blokkerende datahull (DG001)
+- Minst ett bevis-av-konsept-studie på mennesker (f.eks. sikkerhetsstudie av okuløs formulering/IOP-senkende forsøk)
+- Formell kompatibilitetsvurdering av okuløs rute/formulering, siden gjeldende godkjente formuleringer er oral/transdermal, ikke okuløs
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

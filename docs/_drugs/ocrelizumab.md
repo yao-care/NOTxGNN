@@ -29,66 +29,58 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-Using the evidence pack as provided (no code changes involved, so I'm proceeding directly to report generation per the template). A few data-integrity notes before the report:
+# Ocrelizumab: Fra uspesifisert original indikasjon til HER2-positiv brystkreft
 
-- `drug.original_indications` is empty and `original_moa` is flagged `[Data Gap]` — I have **not** substituted outside knowledge for these; the report states plainly that this data is missing rather than guessing.
-- `taiwan_regulatory.licenses` is empty (0 authorizations) — per the "omit empty sections" rule, the Norway Market Information table is omitted rather than shown empty.
-- Ocrelizumab is not classified as antineoplastic anywhere in this evidence pack (no DrugBank category, no original-indication keyword, not a cytotoxic chemo class) — the Cytotoxicity section is therefore omitted.
-- For rank 4 ("breast tumor luminal A or B"), the pack's own `repurposing_rationale` explicitly flags the 19 "literature" hits as false-positive keyword matches (B-cell/HLA-B/hepatitis-B papers) rather than real evidence — I carried that caveat into the conclusion instead of treating the raw count of 19 as supporting evidence.
+## Oppsummering i en setning
 
----
+Ocrelizumab (DrugBank-ID DB11988) er et anti-CD20 B-celle-depleterende monoklonalt antistoff; dens opprinnelig godkjente indikasjon er ikke registrert i denne evidenspakken (flagget som datakløft). TxGNN-modellen predikerer at det kan være effektivt for **HER2-positiv brystkreft**, men denne prediksjonen støttes for tiden av **0 kliniske studier** og **0 publikasjoner**, noe som representerer en hypotese som kun er basert på modellpreduksjon uten etablert biologisk begrunnelse.
 
-# Ocrelizumab: From Unspecified Original Indication to HER2 Positive Breast Carcinoma
+## Rask oversikt
 
-## One-Sentence Summary
+| Punkt | Innhold |
+|------|---------|
+| Opprinnelig indikasjon | Ikke registrert i denne evidenspakken (datakløft — se konklusjon) |
+| Predikert ny indikasjon | HER2-positiv brystkreft |
+| TxGNN-prediksjonspoeng | 99.89% |
+| Evidensnivå | L5 |
+| Status på norsk marked | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Avvent |
 
-Ocrelizumab (DrugBank ID DB11988) is an anti-CD20 B-cell depleting monoclonal antibody; its original approved indication is not captured in this evidence pack (flagged as a data gap). The TxGNN model predicts it may be effective for **HER2 Positive Breast Carcinoma**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, representing a model-prediction-only hypothesis with no established biological rationale.
+## Hvorfor er denne prediksjonen fornuftig?
 
-## Quick Overview
+Foreløpig er detaljerte virkningsmekanisme-data ikke tilgjengelige (datakløft DG002, høy alvorlighetsgrad). Basert på informasjon som er tilgjengelig andre steder i denne evidenspakken, er ocrelizumab kvalitativt kjent som et anti-CD20 B-celle-depleterende monoklonalt antistoff.
 
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in this evidence pack (data gap — see Conclusion) |
-| Predicted New Indication | HER2 Positive Breast Carcinoma |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Den predikerte indikasjonen, HER2-positiv brystkreft, drives av ERBB2 (HER2) reseptor-tyrosinkinase-overuttrykk — en signaleringsvei uten etablert biologisk eller farmakologisk overlapping med CD20-formidlet B-celle-depletering. Evidenspakkens egen omformål-begrunnelse sier dette eksplisitt: forbindelsen reflekterer nærhet i TxGNN-innbettingsrommet, ikke et validert mekanistisk eller klinisk forhold.
 
-## Why is This Prediction Reasonable?
+Fordi det ikke finnes kliniske studier eller publisert litteratur som støtter denne kombinasjonen, og det ikke finnes en plausibel mekanistisk forbindelse mellom stoffets kjente farmakologi og den predikerte tumorbiologien, bør denne kandidaten behandles som en rent beregningsbasert hypotese i stedet for en klinisk relevant kandidat på dette stadiet.
 
-Currently, detailed mechanism of action data is not available (data gap DG002, High severity). Based on information present elsewhere in this evidence pack, ocrelizumab is qualitatively known as an anti-CD20 B-cell depleting monoclonal antibody.
+## Bevis fra kliniske studier
 
-The predicted indication, HER2 positive breast carcinoma, is driven by ERBB2 (HER2) receptor tyrosine kinase overexpression — a signaling pathway with no established biological or pharmacological overlap with CD20-mediated B-cell depletion. The evidence pack's own repurposing rationale states this explicitly: the connection reflects proximity in the TxGNN embedding space, not a validated mechanistic or clinical relationship.
+For tiden ingen relaterte kliniske studier registrert
 
-Because there is no supporting clinical trial or published literature for this pairing, and no plausible mechanistic bridge between the drug's known pharmacology and the predicted tumor biology, this candidate should be treated as a purely computational hypothesis rather than a clinically actionable lead at this stage.
+## Bevis fra litteraturen
 
-## Clinical Trial Evidence
+For tiden ingen relatert litteratur tilgjengelig
 
-Currently no related clinical trials registered
+## Sikkerhetshensyn
 
-## Literature Evidence
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-Currently no related literature available
+## Konklusjon og neste skritt
 
-## Safety Considerations
+**Beslutning: Avvent**
 
-Please refer to the package insert for safety information.
+**Begrunnelse:**
+- Null kliniske studier og null fagfellevurdert litteratur støtter ocrelizumab for HER2-positiv brystkreft. Alle fem TxGNN-rangerte brystkreftsubtyyper evaluert for dette legemidlet (HER2+, normalbryst-lignende, PR+, luminal A/B, PR−) har samme L5-evidensnivå, og ingen har en etablert mekanistisk begrunnelse.
+- En datakløft med blokkeringsseveritet (DG001: manglende TFDA/pakningsvedlegg-advarsler og kontraindikasjoner) betyr at denne kandidaten ikke kan engang gjennomføre S1 sikkerhetsvurdering, uavhengig av effektivitets-evidensgapet.
 
-## Conclusion and Next Steps
+**For å gå videre, er følgende nødvendig:**
+- TFDA/regulatorisk pakningsvedlegg (advarsler, kontraindikasjoner) for å lukke blokkeringsdatakløften (DG001)
+- Bekreftet virkningsmekanisme-data (DG002) for å etablere eller utelukke en biologisk begrunnelse som knytter anti-CD20 B-celle-depletering til HER2-drevet eller hormonreseptor-drevet brystkreftveier
+- Prospektive prekliniske eller translasjonale studier som tester ocrelizumab spesifikt i HER2+-brystkreftmodeller, siden ingen finnes for tiden
+- Manuell re-verifisering av eventuelle fremtidige «brysttumor luminal A eller B»-litteraturtreff — de 19 PubMed-resultatene hentet for den kandidaten ble gjennomgått og funnet å være falskt positive nøkelordstreff (B-celle-utviklingsbiologi, hepatitt-B-vaksin og HLA-B-typeartikler), ikke genuin brystkreftbevis
 
-**Decision: Hold**
-
-**Rationale:**
-- Zero clinical trials and zero peer-reviewed literature support ocrelizumab for HER2 positive breast carcinoma. All five TxGNN-ranked breast cancer subtypes evaluated for this drug (HER2+, normal breast-like, PR+, luminal A/B, PR−) share this same L5 evidence level, and none has an established mechanistic rationale.
-- A Blocking-severity data gap (DG001: missing TFDA/label warnings and contraindications) means this candidate cannot complete even the S1 safety pre-screen, independent of the efficacy evidence gap.
-
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications) to close the Blocking data gap (DG001)
-- Confirmed mechanism-of-action data (DG002) to establish or rule out a biological rationale linking anti-CD20 B-cell depletion to HER2-driven or hormone-receptor-driven breast cancer pathways
-- Prospective preclinical or translational studies testing ocrelizumab specifically in HER2+ breast cancer models, since none currently exist
-- Manual re-verification of any future "breast tumor luminal A or B" literature hits — the 19 PubMed results retrieved for that candidate were reviewed and found to be false-positive keyword matches (B-cell developmental biology, hepatitis-B vaccine, and HLA-B typing papers), not genuine breast cancer evidence
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

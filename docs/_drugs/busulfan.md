@@ -29,122 +29,119 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-Using no specialized skill here — this is a direct content-generation task with an explicit template already provided in the prompt; I'll follow it directly.
+# Busulfan: Fra alkylerende kjemoterapiagent til myelodystrofisk syndrom
+
+## Sammendrag i én setning
+
+> Busulfan er et bifunksjonelt alkylerende middel som klassisk brukes i kjemototerapi og, mer nylig, som en hjørnesten i pre-transplantasjonskondisjoneringsskjemaer; denne dokumentasjonen inneholder ikke et formelt kodet «opprinnelig indikasjons»-felt, men de underliggende mekanistiske dataene beskriver det som en standardkomponent i allogeneisk hematopoietisk stamcelletransplantasjon (HSCT) kondisjoneringen.
+> TxGNN-modellen predikerer at det kan være effektivt for **Myelodystrofisk syndrom (MDS)**,
+> støttet av **50 kliniske studier** og **20 publikasjoner** — mye av dette gjenspeiler allerede etablert standardbehandling snarere enn et virkelig nytt omdisponerings-signal.
 
 ---
 
-# Busulfan: From Alkylating Chemotherapy Agent to Myelodysplastic Syndrome
+## Rask oversikt
 
-## One-Sentence Summary
-
-> Busulfan is a bifunctional alkylating agent classically used in chemotherapy and, more recently, as a cornerstone of pre-transplant conditioning regimens; this evidence pack does not contain a formally coded "original indication" field, but the underlying mechanistic data describe it as a standard component of allogeneic hematopoietic stem cell transplantation (HSCT) conditioning.
-> The TxGNN model predicts it may be effective for **Myelodysplastic Syndrome (MDS)**,
-> with **50 clinical trials** and **20 publications** currently supporting this direction — much of which reflects an already-established standard-of-care use rather than a truly novel repurposing signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (`original_indications` empty; `original_moa` marked as a data gap). Busulfan is a classical alkylating agent historically used for cytoreductive chemotherapy and as HSCT conditioning. |
-| Predicted New Indication | Myelodysplastic Syndrome (MDS) |
-| TxGNN Prediction Score | 99.62% |
-| Evidence Level | L2 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke dokumentert i denne dokumentasjonen (`original_indications` er tom; `original_moa` markert som datamangel). Busulfan er et klassisk alkylerende middel historisk brukt for cytoreduktiv kjemoterapi og som HSCT-kondisjonerig. |
+| Predikert ny indikasjon | Myelodystrofisk syndrom (MDS) |
+| TxGNN-prediksjonspoengsum | 99,62% |
+| Bevisnivå | L2 |
+| Markedsstatus Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt avgjørelse | Fortsett med forholdsregler |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed formal MOA data (DrugBank `original_moa`) is not available in this evidence pack. Based on the mechanistic rationale that *is* captured in the pack's `repurposing_rationale`, busulfan is a bifunctional alkylating agent that crosslinks DNA, producing potent, dose-dependent myelotoxicity. This property has historically been exploited for cytoreductive chemotherapy (classically in chronic myeloid leukemia, prior to the tyrosine-kinase-inhibitor era) and — more centrally to the evidence gathered here — as a standard component of myeloablative or reduced-intensity **conditioning regimens** prior to allogeneic HSCT, typically combined with fludarabine or cyclophosphamide.
+Detaljerte formelle MOA-data (DrugBank `original_moa`) er ikke tilgjengelige i denne dokumentasjonen. Basert på den mekanistiske begrunnelsen som *er* fanget i dokumentasjonens `repurposing_rationale`, er busulfan et bifunksjonelt alkylerende middel som danner tverrbindinger i DNA, som produserer potent, dose-avhengig myelotoksisitet. Denne egenskapen har historisk blitt utnyttet for cytoreduktiv kjemoterapi (klassisk ved kronisk myeloid leukemi, før tyrosinkinase-inhibitor-epoken) og — mer sentralt for bevisene samlet her — som en standardkomponent i myeloablativ eller redusert-intensitets **kondisjoneringsskjemaer** før allogeneisk HSCT, typisk kombinert med fludarabin eller syklofosfamid.
 
-The relationship between busulfan's established pharmacology and the top predicted indication, MDS, is direct rather than speculative: MDS is a clonal hematopoietic stem cell disorder for which allogeneic HSCT is the only potentially curative option, and busulfan-based conditioning is already the clinical standard used to ablate the diseased hematopoietic clone and permit donor stem cell engraftment. As the evidence pack itself notes for this candidate: *"this is not a genuinely novel indication but rather a consolidation of evidence for an already-established standard clinical use."*
+Forholdet mellom busulfans etablerte farmakologi og den øverste predikerte indikasjonen, MDS, er direkte snarere enn spekulativt: MDS er en klonal hematopoietisk stamcellesykdom som allogeneisk HSCT er det eneste potensielt kurative alternativet for, og busulfan-basert kondisjonerig er allerede den kliniske standarden som brukes til å ablate den syke hematopoietiske klonen og muliggjøre donorens stamcelle-engraftment. Som dokumentasjonen selv bemerker for denne kandidaten: *«dette er ikke en virkelig ny indikasjon, men snarere en konsolidering av bevis for en allerede etablert standardklinisk bruk.»*
 
-Mechanistically, this cytotoxic/myeloablative action is disease-agnostic with respect to which abnormal hematopoietic clone is being eradicated — which is why the model's next several ranked predictions (refractory cytopenia of childhood, unclassified MDS, 5q- deletion syndrome, aregenerative/severe aplastic anemia) all cluster around the same underlying mechanism: busulfan clearing marrow to enable transplant. A more exploratory signal — busulfan conditioning to enable engraftment of CCR5-modified or gene-edited CD34+ cells in HIV cure strategies (rank 7) — extends the same mechanism to an experimental, non-oncologic context and carries substantially weaker, largely Phase 1 evidence.
+Mekanistisk er denne cytotoksiske/myeloablative handlingen sykdomsuavhengig med hensyn til hvilken abnorm hematopoietisk klon som blir slettet — som er hvorfor modellens neste flere rangerte prediksjoner (refraktær cytopeni i barndom, uklassifisert MDS, 5q- delesjonssyndrom, aregenerativ/alvorlig aplastisk anemi) alle klynges rundt samme underliggende mekanisme: busulfan renser margen for å muliggjøre transplantasjon. Et mer eksplorativt signal — busulfan-kondisjonerig for å muliggjøre engraftment av CCR5-modifiserte eller genredigerte CD34+-celler i HIV-kurstrategier (rang 7) — utvider samme mekanisme til en eksperimental, ikke-onkologisk kontekst og har vesentlig svakere, stort sett fase 1-bevis.
 
 ---
 
-## Clinical Trial Evidence
-*(for top-ranked predicted indication: Myelodysplastic Syndrome)*
+## Bevis fra kliniske studier
+*(for topprankert predikert indikasjon: Myelodystrofisk syndrom)*
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studie-nummer | Fase | Status | Registrering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT06477549](https://clinicaltrials.gov/study/NCT06477549) | Phase 2 | Recruiting | 220 | RCT comparing bendamustine vs. ruxolitinib added to fludarabine/busulfan conditioning in haploidentical HSCT; graded A relevance — large, directly on-mechanism. |
-| [NCT02250937](https://clinicaltrials.gov/study/NCT02250937) | Phase 2 | Active, not recruiting | 116 | Randomized study of venetoclax with timed-sequential busulfan/cladribine/fludarabine conditioning in AML and MDS; graded A relevance. |
-| [NCT00416598](https://clinicaltrials.gov/study/NCT00416598) | Phase 2 | Completed | 546 | Large trial of decitabine maintenance after busulfan-containing induction/intensification in AML; graded B (busulfan as background agent). |
-| [NCT00454480](https://clinicaltrials.gov/study/NCT00454480) | Phase 2/3 | Completed | 2000 | Large treatment-development program for older AML and high-risk MDS patients incorporating busulfan-based regimens. |
-| [NCT00226512](https://clinicaltrials.gov/study/NCT00226512) | Phase 3 | Withdrawn | 203 | Multi-institutional RCT of non-myeloablative fludarabine/busulfan conditioning ± anti-lymphocyte antibodies for AML/MDS allo-HSCT. |
-| [NCT00002989](https://clinicaltrials.gov/study/NCT00002989) | Phase 3 | Unknown | 207 | Randomized trial assessing intensification of the conditioning regimen for allo-HSCT in leukemia/MDS with high relapse risk. |
-| [NCT00301834](https://clinicaltrials.gov/study/NCT00301834) | Phase 2 | Completed | 35 | Fludarabine/busulfan/alemtuzumab as reduced-toxicity ablative conditioning for children with marrow failure syndromes or MDS/leukemia. |
-| [NCT01177371](https://clinicaltrials.gov/study/NCT01177371) | Phase 2 | Completed | 13 | High-dose busulfan + cyclophosphamide followed by allogeneic BMT for leukemia, MDS, myeloma, and lymphoma. |
-| [NCT00186342](https://clinicaltrials.gov/study/NCT00186342) | N/A | Completed | 120 | Busulfan/etoposide/cyclophosphamide conditioning; tolerability/efficacy in acute leukemia and MDS/MPD patients aged 51–60. |
-| [NCT02861417](https://clinicaltrials.gov/study/NCT02861417) | Phase 2 | Active, not recruiting | 204 | Timed-sequential busulfan plus post-transplant cyclophosphamide for allogeneic transplantation in blood cancers. |
+| [NCT06477549](https://clinicaltrials.gov/study/NCT06477549) | Fase 2 | Rekrutterer | 220 | RCT sammenligner bendamustine kontra ruxolitinib lagt til fludarabin/busulfan-kondisjonerig i haploidentisk HSCT; gradert A relevans — stor, direkte på-mekanisme. |
+| [NCT02250937](https://clinicaltrials.gov/study/NCT02250937) | Fase 2 | Aktiv, ikke rekrutterende | 116 | Randomisert studie av venetoclax med tidspunkt-sekvensielt busulfan/cladribin/fludarabin-kondisjonerig i AML og MDS; gradert A relevans. |
+| [NCT00416598](https://clinicaltrials.gov/study/NCT00416598) | Fase 2 | Avsluttet | 546 | Stor studie av decitabin vedlikeholdelse etter busulfan-inneholdende induksjon/intensivasjon i AML; gradert B (busulfan som bakgrunnsagent). |
+| [NCT00454480](https://clinicaltrials.gov/study/NCT00454480) | Fase 2/3 | Avsluttet | 2000 | Stort behandlingsutviklingsprogram for eldre AML- og høyrisikopasienter med MDS som inkorporerer busulfan-baserte skjemaer. |
+| [NCT00226512](https://clinicaltrials.gov/study/NCT00226512) | Fase 3 | Trukket tilbake | 203 | Multisenter-RCT av ikke-myeloablativ fludarabin/busulfan-kondisjonerig ± anti-lymfocytt-antistoff for AML/MDS allo-HSCT. |
+| [NCT00002989](https://clinicaltrials.gov/study/NCT00002989) | Fase 3 | Ukjent | 207 | Randomisert studie som vurderer intensivering av kondisjoneringsskjemaet for allo-HSCT i leukemi/MDS med høyt recidivrisiko. |
+| [NCT00301834](https://clinicaltrials.gov/study/NCT00301834) | Fase 2 | Avsluttet | 35 | Fludarabin/busulfan/alemtuzumab som redusert-toksisitet ablativ kondisjonerig for barn med marvfeilsyndromer eller MDS/leukemi. |
+| [NCT01177371](https://clinicaltrials.gov/study/NCT01177371) | Fase 2 | Avsluttet | 13 | Høydose busulfan + syklofosfamid etterfulgt av allogeneisk BMT for leukemi, MDS, myelom og lymfom. |
+| [NCT00186342](https://clinicaltrials.gov/study/NCT00186342) | N/A | Avsluttet | 120 | Busulfan/etopid/syklofosfamid-kondisjonerig; tolerabilitet/effektivitet i akutt leukemi og MDS/MPD-pasienter i alderen 51–60. |
+| [NCT02861417](https://clinicaltrials.gov/study/NCT02861417) | Fase 2 | Aktiv, ikke rekrutterende | 204 | Tidspunkt-sekvensielt busulfan pluss post-transplantasjons-syklofosfamid for allogeneisk transplantasjon i blodkrefttyper. |
 
-*40 additional trials in the evidence pack were not included above for brevity; most are general hematologic-malignancy/HSCT-conditioning trials in which busulfan is a background regimen component rather than the primary study intervention.*
+*40 ytterligere studier i dokumentasjonen ble ikke inkludert ovenfor for brevhetens skyld; de fleste er generelle hematologisk-malignitet/HSCT-kondisjoneringsstudier der busulfan er en bakgrunnskomponent snarere enn primær studieintervensjon.*
 
 ---
 
-## Literature Evidence
-*(for top-ranked predicted indication: Myelodysplastic Syndrome)*
+## Litteraturbeviser
+*(for topprankert predikert indikasjon: Myelodystrofisk syndrom)*
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [35617104](https://pubmed.ncbi.nlm.nih.gov/35617104/) | 2022 | RCT | American Journal of Hematology | Final analysis of a Phase III RCT: treosulfan-based conditioning shows non-inferior/superior event-free survival vs. reduced-intensity busulfan in older AML/MDS patients. |
-| [31606445](https://pubmed.ncbi.nlm.nih.gov/31606445/) | 2020 | RCT | The Lancet Haematology | Randomized, non-inferiority Phase 3 trial: treosulfan vs. busulfan+fludarabine conditioning before allo-HSCT in older AML/MDS patients. |
-| [36702138](https://pubmed.ncbi.nlm.nih.gov/36702138/) | 2023 | RCT (Phase 3) | The Lancet Haematology | Open-label, multicentre RCT: G-CSF+decitabine+busulfan-cyclophosphamide vs. busulfan-cyclophosphamide conditioning to reduce relapse in MDS/secondary AML. |
-| [28380315](https://pubmed.ncbi.nlm.nih.gov/28380315/) | 2017 | RCT (Phase 3) | Journal of Clinical Oncology | Randomized comparison of myeloablative vs. reduced-intensity conditioning (busulfan-containing) for AML/MDS allo-HSCT. |
-| [34692485](https://pubmed.ncbi.nlm.nih.gov/34692485/) | 2021 | Meta-analysis of RCTs | Frontiers in Oncology | Reduced-intensity conditioning shows comparable outcomes to myeloablative conditioning for AML/MDS allo-HSCT. |
-| [33425740](https://pubmed.ncbi.nlm.nih.gov/33425740/) | 2020 | Systematic Review/Meta-analysis | Frontiers in Oncology | Long-term outcomes of treosulfan- vs. busulfan-based conditioning for MDS and AML before HSCT. |
-| [40079242](https://pubmed.ncbi.nlm.nih.gov/40079242/) | 2025 | Review | American Journal of Hematology | Contemporary review of allogeneic HSCT for myelofibrosis and MDS, including conditioning regimen selection. |
-| [34489555](https://pubmed.ncbi.nlm.nih.gov/34489555/) | 2021 | Cohort (registry, propensity-matched) | Bone Marrow Transplantation | Nationwide Japanese registry: fludarabine/busulfan vs. busulfan/cyclophosphamide myeloablative conditioning for MDS. |
-| [33471943](https://pubmed.ncbi.nlm.nih.gov/33471943/) | 2021 | Cohort | Cancer | Fractionated IV busulfan myeloablative conditioning improves survival in older AML/MDS patients. |
-| [37856098](https://pubmed.ncbi.nlm.nih.gov/37856098/) | 2024 | Evidence-based risk review | Pediatric Blood & Cancer | Evidence-based assessment of busulfan exposure and subsequent malignancy risk, relevant to non-malignant/gene-therapy conditioning use. |
+| [35617104](https://pubmed.ncbi.nlm.nih.gov/35617104/) | 2022 | RCT | American Journal of Hematology | Sluttanalyse av en fase III RCT: treosulfan-basert kondisjonerig viser ikke-inferiør/overlegen event-fri overlevelse kontra redusert-intensitets busulfan hos eldre AML/MDS-pasienter. |
+| [31606445](https://pubmed.ncbi.nlm.nih.gov/31606445/) | 2020 | RCT | The Lancet Haematology | Randomisert, ikke-inferiøritets fase 3 studie: treosulfan kontra busulfan+fludarabin-kondisjonerig før allo-HSCT hos eldre AML/MDS-pasienter. |
+| [36702138](https://pubmed.ncbi.nlm.nih.gov/36702138/) | 2023 | RCT (fase 3) | The Lancet Haematology | Åpen-etikett, multisenter-RCT: G-CSF+decitabin+busulfan-syklofosfamid kontra busulfan-syklofosfamid-kondisjonerig for å redusere recidiv i MDS/sekundær AML. |
+| [28380315](https://pubmed.ncbi.nlm.nih.gov/28380315/) | 2017 | RCT (fase 3) | Journal of Clinical Oncology | Randomisert sammenligning av myeloablativ kontra redusert-intensitets kondisjonerig (busulfan-inneholdende) for AML/MDS allo-HSCT. |
+| [34692485](https://pubmed.ncbi.nlm.nih.gov/34692485/) | 2021 | Meta-analyse av RCT | Frontiers in Oncology | Redusert-intensitets kondisjonerig viser sammenlignbare resultater med myeloablativ kondisjonerig for AML/MDS allo-HSCT. |
+| [33425740](https://pubmed.ncbi.nlm.nih.gov/33425740/) | 2020 | Systematisk oversikt/Meta-analyse | Frontiers in Oncology | Langtidsresultater av treosulfan- kontra busulfan-basert kondisjonerig for MDS og AML før HSCT. |
+| [40079242](https://pubmed.ncbi.nlm.nih.gov/40079242/) | 2025 | Oversikt | American Journal of Hematology | Samtidsoversikt over allogeneisk HSCT for myelofibrose og MDS, inkludert valg av kondisjoneringsskjema. |
+| [34489555](https://pubmed.ncbi.nlm.nih.gov/34489555/) | 2021 | Kohorte (register, propensity-matchet) | Bone Marrow Transplantation | Nasjonalt japansk register: fludarabin/busulfan kontra busulfan/syklofosfamid myeloablativ kondisjonerig for MDS. |
+| [33471943](https://pubmed.ncbi.nlm.nih.gov/33471943/) | 2021 | Kohorte | Cancer | Fraksjonert IV busulfan myeloablativ kondisjonerig forbedrer overlevelse hos eldre AML/MDS-pasienter. |
+| [37856098](https://pubmed.ncbi.nlm.nih.gov/37856098/) | 2024 | Bevisbasert risikovurdering | Pediatric Blood & Cancer | Bevisbasert vurdering av busulfan-eksponering og påfølgende malignitetsrisiko, relevant for ikke-malignt/genterapi-kondisjoneringbruk. |
 
-*10 additional publications in the evidence pack (largely retrospective cohorts and case reports on treosulfan/busulfan comparisons and long-term toxicity) were not included above for brevity.*
-
----
-
-## Norway Market Information
-
-Busulfan currently holds **no marketing authorizations** in the regulatory registry captured by this evidence pack (`market_status`: not marketed; `total_licenses`: 0). No product name, dosage form, or approved-indication text is available for extraction from `taiwan_regulatory.licenses`.
+*10 ytterligere publikasjoner i dokumentasjonen (stort sett retrospektive kohortestudier og kasuistikker om treosulfan/busulfan-sammenligninger og langsiktig toksisitet) ble ikke inkludert ovenfor for brevhetens skyld.*
 
 ---
 
-## Cytotoxicity
+## Markedsinformasjon Norge
 
-Busulfan meets the antineoplastic/cytotoxic criteria: it is a classical alkylating agent, and the evidence pack's own mechanistic rationale explicitly describes it as inducing "DNA crosslinking leading to myeloablative cytotoxicity."
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (alkylating agent, alkyl sulfonate class) |
-| Myelosuppression Risk | High — busulfan is used specifically for its potent, myeloablative bone-marrow-clearing effect in conditioning regimens; profound and prolonged cytopenias are expected and intended in this context. |
-| Emetogenicity Classification | Moderate to High (typical for IV alkylating agents at myeloablative/conditioning doses; confirm exact category against the package insert) |
-| Monitoring Items | CBC with differential, hepatic function (veno-occlusive disease/SOS risk is a known busulfan-class concern), pulmonary function, and — where used at myeloablative doses — seizure prophylaxis and plasma-level (PK-guided) monitoring |
-| Handling Protection | Yes — standard cytotoxic/hazardous drug handling precautions required for preparation and administration |
+Busulfan har for tiden **ingen markedsføringstillatelser** i det regelverksregister som er fanget opp av denne dokumentasjonen (`market_status`: ikke markedsført; `total_licenses`: 0). Ingen produktnavn, doseringsstyrke eller godkjent-indikajonstekst er tilgjengelig for uttrukking fra `taiwan_regulatory.licenses`.
 
 ---
 
-## Safety Considerations
+## Cytotoksisitet
 
-Please refer to the package insert for safety information. (`key_warnings`, `contraindications`, and drug-interaction data are all marked as data gaps in this evidence pack; no DDI records were found.)
+Busulfan oppfyller kriteriene for antineoplastisk/cytotoksisk: det er en klassisk alkylerende middel, og dokumentasjonens egen mekanistiske begrunnelse beskriver eksplisitt at det induserer «DNA-tverrbinding som fører til myeloablativ cytotoksisitet.»
+
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitetsklassifisering | Konvensjonell cytotoksisk (alkylerende middel, alkylsulfon-klasse) |
+| Myelosuprsjons risiko | Høy — busulfan brukes spesifikt for dets potente, myeloablative benmarg-rensende effekt i kondisjoneringsskjemaer; dypfinnende og vedvarende cytopenier forventes og er tilsiktet i denne sammenhengen. |
+| Emetogenisitetsklassifisering | Moderat til høy (typisk for IV alkylerende midler ved myeloablativ/kondisjoneringsdoser; bekreft eksakt kategori mot pakningsvedlegget) |
+| Overvåkingselementer | CBC med differensial, hepatisk funksjon (veno-oklusiv sykdom/SOS-risiko er en kjent busulfan-klassekonsern), lungekapasitet, og — der det brukes ved myeloablativ dosering — krampeprofylakse og plasmanivå (PK-veiledning) overvåking |
+| Håndteringsbeskyttelse | Ja — standardiserte cytotoksisk/farlig stoff-håndteringsprinsipp kreves for klargjøring og administrasjon |
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Proceed with Guardrails**
+Se pakningsvedlegget for sikkerhetsinformasjon. (`key_warnings`, `contraindications` og stoff-vekselvirkningsdata er alle markert som datamangel i denne dokumentasjonen; ingen DDI-poster ble funnet.)
 
-**Rationale:**
-The top predicted indication (MDS) is supported by strong, largely Phase 2–3 evidence (L2), including multiple randomized trials directly comparing busulfan-based conditioning regimens in this population — this is less a "new" repurposing hypothesis and more a data-driven confirmation of busulfan's already-standard role in HSCT conditioning for MDS. Lower-ranked predictions in this pack range from moderately supported (refractory cytopenia of childhood, severe aplastic anemia — L2/L3) to essentially unsupported model artifacts (5q- deletion syndrome, seborrheic keratosis, feline AIDS — L5, no trials or literature), and should not be advanced without dedicated evidence.
+---
 
-**To proceed, the following is needed:**
-- Official Taiwan/Norway package insert (PI) warnings and contraindications — currently a **blocking data gap (DG001)**; without this, the candidate cannot formally clear the S1 safety pre-screen despite the strength of efficacy evidence.
-- Confirmed DrugBank MOA record (DG001/DG002) to replace the inferred mechanistic summary used in this report.
-- Formal `original_indications` and licensing data, since none were present in this evidence pack.
-- Given busulfan already lacks Norway marketing authorization, a market-access/registration pathway assessment before any further clinical positioning work.
+## Konklusjon og neste trinn
+
+**Avgjørelse: Fortsett med forholdsregler**
+
+**Begrunnelse:**
+Den øverst predikerte indikasjonen (MDS) støttes av sterke, stort sett fase 2–3 bevis (L2), inkludert flere randomiserte studier som direkte sammenligner busulfan-baserte kondisjoneringsskjemaer i denne populasjonen — dette er mindre en «ny» omdisponerings-hypotese og mer en datadrevet bekrefting av busulfans allerede-standardrolle i HSCT-kondisjonerig for MDS. Lavere-rangerte prediksjoner i denne dokumentasjonen spenner fra moderat støttet (refraktær cytopeni i barndom, alvorlig aplastisk anemi — L2/L3) til i hovedsak ikke-støttet modellartefakter (5q- delesjonssyndrom, seborrøisk keratose, felin AIDS — L5, ingen studier eller litteratur), og bør ikke avanseres uten dedikert bevis.
+
+**For å fortsette er følgende nødvendig:**
+- Offisiell Taiwan/Norge pakningsvedlegg (PI) advarsler og kontraindikasjoner — for tiden et **blokkerende datamangel (DG001)**; uten dette kan kandidaten ikke formelt passere S1 sikkerhets-pre-screening til tross for styrken av effektivitetsbevisene.
+- Bekreftet DrugBank MOA-post (DG001/DG002) for å erstatte den antatte mekanistiske sammenfattingen som brukes i denne rapporten.
+- Formelle `original_indications` og licensieringsdata, siden ingen var til stede i denne dokumentasjonen.
+- Gitt at busulfan allerede mangler markedsføring tillatelse i Norge, en vurdering av markedsadgang/registreringsvei før ytterligere arbeider med klinisk posisjonering.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

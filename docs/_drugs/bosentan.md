@@ -29,89 +29,90 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Bosentan: From Pulmonary Arterial Hypertension to Rheumatoid Arthritis
+# Bosentan: Fra pulmonal arteriell hypertensjon til revmatoid artritt
 
-## One-Sentence Summary
+## Sammendrag på én setning
 
-> Bosentan is a dual endothelin receptor (ETA/ETB) antagonist historically used for pulmonary arterial hypertension (PAH), though formal original-indication data was not captured in this evidence pack (data gap).
-> The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**,
-> with **1 clinical trial** and **15 publications** currently associated with this direction — but the evidence is largely mechanistic/preclinical, and the single registered trial actually targets a different disease (Giant Cell Arteritis).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (0 Taiwan licenses on file). Bosentan is generally known as an endothelin receptor antagonist developed for pulmonary arterial hypertension — not confirmed by the data provided here (see DG001/DG002). |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L4 (preclinical / mechanistic studies only) |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Bosentan er en dual endotelin-reseptor (ETA/ETB) antagonist historisk brukt for pulmonal arteriell hypertensjon (PAH), selv om formelle data for opprinnelig indikasjon ikke ble innsamlet i denne bevissamlingen (datakløft).
+> TxGNN-modellen forutsier at det kan være effektivt for **revmatoid artritt**,
+> med **1 klinisk studie** og **15 publikasjoner** som for tiden er knyttet til denne retningen — men beviset er hovedsakelig mekanistisk/preklinisk, og den eneste registrerte studien målretter seg faktisk mot en annen sykdom (gigantcellearteriitt).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available (data gap DG002). Based on known pharmacology, Bosentan is a dual endothelin receptor antagonist (ETA/ETB), and its efficacy in pulmonary arterial hypertension is well established through blockade of endothelin-1 (ET-1)-mediated vasoconstriction.
-
-The mechanistic rationale for rheumatoid arthritis (RA) rests on the observation that ET-1 levels are elevated in RA synovial tissue, and animal models (collagen-induced arthritis, zymosan-induced arthritis) show that ETA/ETB blockade reduces TNF-α, LTB4, and other inflammatory mediators. IL-15 and IL-17-driven nociception in arthritis models has also been shown to be attenuated by dual ET receptor antagonism. These findings suggest a biologically plausible anti-inflammatory role for endothelin blockade in joint disease.
-
-However, this link remains indirect and unproven in humans. The only registered clinical trial associated with this prediction (NCT06957002) is a Phase 2 study of Bosentan in **Giant Cell Arteritis**, not rheumatoid arthritis — a related but distinct rheumatic condition. No RA-specific human trial currently exists, so this prediction should be treated as a research hypothesis rather than a clinically validated indication.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT06957002](https://clinicaltrials.gov/study/NCT06957002) | Phase 2 | Not Yet Recruiting | 40 | Multicenter RCT testing Bosentan + glucocorticoids vs. glucocorticoids alone for failure-free survival at 12 months — **note: enrolled population is Giant Cell Arteritis (GCA), not RA**; relevance graded "C" (mechanistic proxy only) |
+| Punkt | Innhold |
+|-------|---------|
+| Opprinnelig indikasjon | Ikke dokumentert i bevissamlingen (0 Taiwan-lisenser på fil). Bosentan er generelt kjent som en endotelin-reseptor-antagonist utviklet for pulmonal arteriell hypertensjon — ikke bekreftet av dataene som er gitt her (se DG001/DG002). |
+| Forutsagt ny indikasjon | Revmatoid artritt |
+| TxGNN-prediksjonspoeng | 99.80% |
+| Evidensnivå | L4 (bare prekliniske/mekanistiske studier) |
+| Taiwans markedsstatus | Ikke markedsført (Ikke markedsført) |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Vente |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| PMID | Year | Type | Journal | Key Findings |
+For øyeblikket er detaljerte data om virkningsmåte ikke tilgjengelige (datakløft DG002). Basert på kjent farmakologi er Bosentan en dual endotelin-reseptor-antagonist (ETA/ETB), og dets effektivitet ved pulmonal arteriell hypertensjon er veletablert gjennom blokade av endotelin-1 (ET-1)-mediiert vasokonstriksjion.
+
+Den mekanistiske begrunnelsen for revmatoid artritt (RA) er basert på observasjonen av at ET-1-nivåer er forhøyet i RA-synovialt vev, og dyremodeller (kollagen-indusert artritt, zymosan-indusert artritt) viser at ETA/ETB-blokade reduserer TNF-α, LTB4 og andre inflammatoriske mediatorer. IL-15 og IL-17-drevet nosiception ved artritt-modeller har også vist seg å bli redusert av dual ET-reseptorblokade. Disse funnene antyder en biologisk plausibel anti-inflammatorisk rolle for endotelninblokade ved leddekskalasykdom.
+
+Imidlertid forblir denne forbindelsen indirekte og ubevist hos mennesker. Den eneste registrerte kliniske studien som er knyttet til denne prediksjonen (NCT06957002) er en fase 2-studie av Bosentan ved **gigantcellearteriitt**, ikke revmatoid artritt — en relatert men distinkt reumatisk tilstand. Ingen RA-spesifikk humanstudier finnes for øyeblikket, så denne prediksjonen bør behandles som en forskningstese heller enn en klinisk validert indikasjon.
+
+---
+
+## Bevis fra kliniske studier
+
+| Studienummer | Fase | Status | Inkludering | Hovedfunn |
+|---------|------|------|---------|---------|
+| [NCT06957002](https://clinicaltrials.gov/study/NCT06957002) | Fase 2 | Ennå ikke rekrutterer | 40 | Multisenter-RCT som tester Bosentan + glukokortikosteroider vs. bare glukokortikosteroider for begivenhetsfri overlevelse ved 12 måneder — **merk: inkludert populasjon er gigantcellearteriitt (GCA), ikke RA**; relevans vurdert som "C" (bare mekanistisk proxy) |
+
+---
+
+## Bevis fra litteraturen
+
+| PMID | År | Type | Journal | Hovedfunn |
 |------|-----|------|------|---------|
-| [22249931](https://pubmed.ncbi.nlm.nih.gov/22249931/) | 2012 | Preclinical (animal) | Inflammation Research | Bosentan ameliorates collagen-induced arthritis in mice; TNF-α drives induction of endothelin system genes |
-| [18515326](https://pubmed.ncbi.nlm.nih.gov/18515326/) | 2008 | Preclinical (animal) | Journal of Leukocyte Biology | ET receptor blockade modulates neutrophil accumulation and edema in zymosan-induced arthritis; ET-1 elevated in RA synovium |
-| [19969421](https://pubmed.ncbi.nlm.nih.gov/19969421/) | 2010 | Preclinical (animal) | Pain | IL-17-mediated articular hypernociception in antigen-induced arthritis; ET pathway implicated in RA pain signaling |
-| [16766656](https://pubmed.ncbi.nlm.nih.gov/16766656/) | 2006 | Preclinical (animal) | PNAS | IL-15-driven inflammatory hypernociception (relevant to RA) inhibited by dual ETA/ETB receptor antagonism |
-| [24268012](https://pubmed.ncbi.nlm.nih.gov/24268012/) | 2014 | Review | Rheumatic Diseases Clinics of North America | Reviews PAH associated with connective tissue disease, including RA, and current ERA-based treatment options |
-| [16218473](https://pubmed.ncbi.nlm.nih.gov/16218473/) | 2005 | Review | Lupus | Reviews PAH complicating connective tissue diseases including RA; discusses ET-1 pathophysiology |
-| [20054770](https://pubmed.ncbi.nlm.nih.gov/20054770/) | 2009 | Case report | Kardiologia Polska | Pediatric case of Eisenmenger syndrome + juvenile RA treated with Bosentan; clinical improvement noted |
-| [19487226](https://pubmed.ncbi.nlm.nih.gov/19487226/) | 2009 | Review | Rheumatology (Oxford) | Reviews vasculopathy and PAH in autoimmune/rheumatic disease context |
+| [22249931](https://pubmed.ncbi.nlm.nih.gov/22249931/) | 2012 | Preklinisk (dyr) | Inflammation Research | Bosentan forbedrer kollagen-indusert artritt hos mus; TNF-α driver induksjon av endotelin-systemgener |
+| [18515326](https://pubmed.ncbi.nlm.nih.gov/18515326/) | 2008 | Preklinisk (dyr) | Journal of Leukocyte Biology | ET-reseptorblokade modulerer nøytrofil-akkumulasjon og ødem ved zymosan-indusert artritt; ET-1 forhøyet i RA-synovium |
+| [19969421](https://pubmed.ncbi.nlm.nih.gov/19969421/) | 2010 | Preklinisk (dyr) | Pain | IL-17-mediiert artikulær hypernosiception ved antigen-indusert artritt; ET-vei involvert i RA-smertesignalering |
+| [16766656](https://pubmed.ncbi.nlm.nih.gov/16766656/) | 2006 | Preklinisk (dyr) | PNAS | IL-15-drevet inflammatorisk hypernosiception (relevant for RA) hemmet av dual ETA/ETB-reseptorblokade |
+| [24268012](https://pubmed.ncbi.nlm.nih.gov/24268012/) | 2014 | Oversikt | Rheumatic Diseases Clinics of North America | Gjennomgår PAH assosiert med bindevevssykdom, inkludert RA, og nåværende ERA-baserte behandlingsalternativ |
+| [16218473](https://pubmed.ncbi.nlm.nih.gov/16218473/) | 2005 | Oversikt | Lupus | Gjennomgår PAH som kompliserer bindevevssykdommer inkludert RA; diskuterer ET-1-patofysiologi |
+| [20054770](https://pubmed.ncbi.nlm.nih.gov/20054770/) | 2009 | Pasientrapport | Kardiologia Polska | Pediatrisk tilfelle av Eisenmengers syndrom + juvenil RA behandlet med Bosentan; klinisk forbedring notert |
+| [19487226](https://pubmed.ncbi.nlm.nih.gov/19487226/) | 2009 | Oversikt | Rheumatology (Oxford) | Gjennomgår vaskulopati og PAH i autoimmusn/reumatisk sykdomskontekst |
 
 ---
 
-## Taiwan Market Information
+## Taiwans markedsinformasjon
 
-Bosentan currently has **0 authorizations on file** and is not marketed in Taiwan per this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data were not available in this evidence pack — flagged as Blocking data gap DG001, required before any S1 safety pre-assessment can proceed.)
+Bosentan har for øyeblikket **0 autorisasjoner på fil** og er ikke markedsført i Taiwan ifølge denne bevissamlingen.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og data om legemiddelinteraksjoner var ikke tilgjengelige i denne bevissamlingen — flagget som blokkerende datakløft DG001, nødvendig før en S1-sikkerhetsvurdering kan fortsette.)
 
-**Rationale:**
-The top-ranked prediction (Rheumatoid Arthritis) is supported only by preclinical/mechanistic evidence (L4) and animal models of arthritis; the sole registered trial targets a different disease (Giant Cell Arteritis, not RA). No completed human RA trial or RCT data exists to justify advancing this indication at this time.
+---
 
-**To proceed, the following is needed:**
-- A dedicated RA-specific clinical trial or at minimum a Phase 2 proof-of-concept study
-- TFDA/regulatory-grade package insert data (warnings, contraindications, DDI) — currently a Blocking gap (DG001)
-- Confirmed mechanism of action documentation (DG002)
-- Formal Taiwan regulatory pathway, given the drug is currently unmarketed (0 licenses)
+## Konklusjon og neste trinn
 
-**Note for reviewers:** Within the same evidence pack, **limited systemic sclerosis** (rank 3, TxGNN score 99.65%) shows substantially stronger evidence — a systematic review/meta-analysis, a 300-patient observational study, and multiple mechanistic papers on Bosentan reversing endothelial-to-mesenchymal transition — reaching evidence level **L2** with a "Proceed with Guardrails" recommendation. This candidate may warrant prioritization over the RA hypothesis for near-term development.
+**Beslutning: Vente**
+
+**Begrunnelse:**
+Den topprankede prediksjonen (Revmatoid artritt) er støttet kun av prekliniske/mekanistiske bevis (L4) og dyremodeller av artritt; den eneste registrerte studien målretter seg mot en annen sykdom (gigantcellearteriitt, ikke RA). Ingen avsluttet humanstudier med RA eller RCT-bevis finnes for å rettferdiggjøre fremgang for denne indiksjonen på dette tidspunktet.
+
+**For å fortsette kreves følgende:**
+- En dedikert RA-spesifikk klinisk studie eller i det minste en fase 2 proof-of-concept-studie
+- TFDA/regulatorisk-kvalitet pakningsvedlegg-data (advarsler, kontraindikasjoner, DDI) — for øyeblikket en blokkerende kløft (DG001)
+- Bekreftet virkningsmåte-dokumentasjon (DG002)
+- Formell Taiwan regulatorisk vei, gitt at legemidlet for øyeblikket er umarkedsført (0 lisenser)
+
+**Merknad for anmeldere:** Innen samme bevissamling viser **begrenset systemisk sklerose** (rangering 3, TxGNN-poeng 99.65%) betydelig sterkere bevis — en systematisk oversikt/metaanalyse, en 300-pasient observasjonsstudie og flere mekanistiske artikler om Bosentan som reverserer endotel-til-mesenkymale overganger — når bevisnivå **L2** med en "Gå videre med sikkerhetstiltak"-anbefaling. Denne kandidaten kan rettferdiggjøre prioritering over RA-hypotesen for nærtidig utvikling.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

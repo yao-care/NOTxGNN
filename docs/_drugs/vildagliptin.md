@@ -29,76 +29,75 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Vildagliptin: From Type 2 Diabetes Mellitus to Classic Stiff Person Syndrome
+# Vildagliptin: Fra Type 2-diabetes til klassisk stiff person-syndrom
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-Vildagliptin is a DPP-4 (dipeptidyl peptidase-IV) inhibitor originally developed for glycemic control in type 2 diabetes mellitus.
-The TxGNN model predicts it may be effective for **Classic Stiff Person Syndrome**,
-but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only signal.
+Vildagliptin er en DPP-4-hemmer (dipeptidylpeptidase-IV-hemmer) som opprinnelig ble utviklet for glykemisk kontroll ved type 2-diabetes. TxGNN-modellen forutser at det kan være effektivt for **klassisk stiff person-syndrom**, men denne prognosen er for tiden støttet av **0 kliniske forsøk** og **0 publikasjoner** — det er et rent modellsignal.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Type 2 Diabetes Mellitus (drug class/literature-derived; no Norway license record exists for this drug) |
-| Predicted New Indication | Classic Stiff Person Syndrome |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available (DG002, High severity). Based on literature retrieved for this evidence pack, vildagliptin is a selective DPP-4 inhibitor that blocks degradation of the incretin hormones GLP-1 and GIP, thereby enhancing glucose-dependent insulin secretion and suppressing inappropriate glucagon release — its efficacy in type 2 diabetes is well documented.
-
-For the top-ranked prediction, **classic stiff person syndrome**, there is **no known mechanistic link** to the DPP-4/incretin pathway. Stiff person syndrome is an anti-GAD65 autoimmune neurological disorder affecting GABAergic inhibitory transmission, a biological system unrelated to incretin signaling. The evidence pack itself notes this explicitly: the prediction rests solely on the TxGNN embedding score, with no supporting trials or publications identified.
-
-By contrast, other candidates further down the model's ranked list have stronger biological plausibility — notably **type 1 diabetes mellitus** (rank 10), where DPP-4 inhibition could theoretically prolong endogenous GLP-1 activity to support residual β-cell function, and this is backed by an actual randomized controlled trial (see Conclusion). This top prediction should therefore be read as a low-confidence, mechanism-agnostic model output rather than a biologically grounded hypothesis.
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Type 2-diabetes (legemiddelklasse/litteraturbasert; ingen norsk autorisasjon for dette legemidlet) |
+| Foreslått ny indikasjon | Klassisk stiff person-syndrom |
+| TxGNN-prediksjons-score | 99.88% |
+| Bevisnivå | L5 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prognosen rimelig?
 
-Currently no related clinical trials registered.
+For tiden er detaljerte virkningsmekanisme-data ikke tilgjengelige (DG002, høy alvorlighetsgrad). Basert på litteratur hentet for denne bevissamlingen, er vildagliptin en selektiv DPP-4-hemmer som blokkerer nedbrytningen av incretin-hormonene GLP-1 og GIP, og derved forbedrer glukoseavhengig insulinutskillelse og undertrykker upassende glukagonutskillelse — dens effektivitet ved type 2-diabetes er godt dokumentert.
 
----
+For den høyest rangerte prognosen, **klassisk stiff person-syndrom**, er det **ingen kjent mekanistisk sammenheng** til DPP-4/incretin-banen. Stiff person-syndrom er en anti-GAD65-autoimmun neurologisk lidelse som påvirker GABAerg inhibitorisk overføring, et biologisk system som er uavhengig av incretin-signalering. Bevissamlingen selv bemerker dette eksplisitt: prognosen hviler utelukkende på TxGNN-innebygningsscore, uten identifiserte støttende forsøk eller publikasjoner.
 
-## Literature Evidence
-
-Currently no related literature available.
+I kontrast har andre kandidater lenger ned på modellens rangerte liste sterkere biologisk plausibilitet — særlig **type 1-diabetes** (rangering 10), der DPP-4-hemming teoretisk kunne forlenge endogen GLP-1-aktivitet for å støtte gjenværende β-cellfunksjon, og dette er støttet av et faktisk randomisert kontrollert forsøk (se Konklusjon). Denne toppprognosen bør derfor leses som et mekanismeagnostisk modellresultat med lav tillit snarere enn som en biologisk grunnlagt hypotese.
 
 ---
 
-## Norway Market Information
+## Bevis fra kliniske forsøk
 
-Vildagliptin currently holds **no marketing authorization** in Norway (market status: Not Marketed; 0 licenses on record). No product-level dosage form or approved-indication data is available for this market.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+For tiden er det ingen registrerte relaterte kliniske forsøk.
 
 ---
 
-## Conclusion and Next Steps
+## Bevis fra litteratur
 
-**Decision: Hold**
+For tiden er det ingen tilgjengelig relatert litteratur.
 
-**Rationale:**
-The top-ranked predicted indication (classic stiff person syndrome) has no mechanistic rationale, no clinical trial evidence, and no supporting literature — it is a pure L5 model prediction. Combined with the lack of Norway market authorization and missing safety/MOA data, there is no basis to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- Official product label / regulatory safety data (warnings, contraindications) — currently blocking (DG001)
-- Verified mechanism of action data from DrugBank or equivalent source (DG002)
-- Independent mechanistic or preclinical rationale connecting DPP-4 inhibition to GAD65-mediated autoimmune neurological disease before any further evaluation
-- **Alternative candidate worth tracking instead:** type 1 diabetes mellitus (rank 10) already has an L2/S2 "Research Question" status, including a completed double-blind RCT (rapamycin + vildagliptin, PMID 33124663) targeting β-cell function recovery — this is a substantially stronger repurposing signal than the top-ranked prediction and may warrant separate evaluation
+## Informasjon om norsk marked
+
+Vildagliptin har for tiden **ingen markedsføringstillatelse** i Norge (markedsstatus: Ikke markedsført; 0 autorisasjoner registrert). Det finnes ingen data på produktnivå for doseringsform eller godkjent indikasjon på dette markedet.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakkeseddelen for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Den høyest rangerte foreslåtte indikasjonen (klassisk stiff person-syndrom) har ingen mekanistisk begrunnelse, ingen bevis fra kliniske forsøk, og ingen støttende litteratur — det er en ren L5-modellprediksjon. Kombinert med mangel på norsk markedsføringstillatelse og manglende sikkerhet-/virkningsmekanisme-data, er det ingen grunnlag for å fremme denne kandidaten.
+
+**For å gå videre er følgende nødvendig:**
+- Offisiell produktetikett / regulatoriske sikkerhetsdata (advarsler, kontraindikasjoner) — for tiden blokkerer (DG001)
+- Verifisert virkningsmekanisme-data fra DrugBank eller tilsvarende kilde (DG002)
+- Uavhengig mekanistisk eller preklinisk begrunnelse som forbinder DPP-4-hemming til GAD65-mediiert autoimmun neurologisk sykdom før ytterligere evaluering
+- **Alternativ kandidat verdt å følge opp i stedet:** type 1-diabetes (rangering 10) har allerede L2/S2 "Forskningsspørsmål"-status, inkludert et gjennomført dobbeltblindt RCT (rapamycin + vildagliptin, PMID 33124663) med mål om gjenoppretting av β-cellfunksjon — dette er et vesentlig sterkere gjenbrukssignal enn den høyest rangerte prognosen og kan berettige egen evaluering
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

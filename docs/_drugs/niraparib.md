@@ -29,103 +29,104 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Niraparib: From Ovarian Cancer to Cystic Neoplasm
+# Niraparib: Fra Eggstokkkrefft til Cystisk Neoplasme
 
-## One-Sentence Summary
+## Oppsummering i en setning
 
-Niraparib is an oral PARP1/2 inhibitor already used internationally as maintenance therapy for platinum-sensitive ovarian, fallopian tube, and primary peritoneal cancer. Within this evidence pack, the TxGNN model's highest-scored candidate with actual supporting data predicts benefit in **Cystic Neoplasm** — a label that, in the retrieved trials and literature, corresponds almost entirely to high-grade serous ovarian carcinoma and uterine/endometrial serous carcinoma — supported by **3 clinical trials** and **9 publications**. However, none of the identified trials have yet produced mature efficacy results (one withdrawn, one terminated early with only 11 patients, one still recruiting), so this remains an early, unconfirmed signal (Evidence Level L2) rather than a validated new indication.
+Niraparib er en oral PARP1/2-hemmer som allerede brukes internasjonalt som vedlikeholdsterapi for platinumfølsom kreft i eggstokk, eggleder og primær peritoneum. Innenfor denne evidenspakken forutsier TxGNN-modellens høyest rangerte kandidat med faktisk støttende data fordel ved **Cystisk Neoplasme** — en betegnelse som i de hentede forsøkene og litteraturen tilsvarer nesten helt høygrads seøs eggstokkkrefft og livmor-/livmorspell seøs kreft — støttet av **3 kliniske forsøk** og **9 publikasjoner**. Imidlertid har ingen av de identifiserte forsøkene ennå produsert modne effektivitetsresultater (ett trukket tilbake, ett avsluttet tidlig med bare 11 pasienter, ett fortsatt rekrutterer), så dette forblir et tidlig, ubekreftet signal (Bevisnivå L2) snarere enn en validert ny indikasjon.
 
-> **Note on TxGNN ranking:** The single highest-scoring prediction overall in this dataset ("epiglottis neoplasm", score 99.99%) has **zero** supporting clinical trials or literature and is mechanistically implausible for a PARP inhibitor. This report therefore focuses on the highest-scored prediction that is actually supported by evidence. Eight of the ten predicted indications in this pack (epiglottis neoplasm, benign neoplasm of hypopharynx/tongue/floor of mouth, cervical neuroblastoma, tumor of testis and paratestis, inner ear neoplasm, schwannoma of jugular foramen) have no clinical trial or literature support and remain at Evidence Level L5 with a "Hold" status.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Ovarian, fallopian tube, and primary peritoneal cancer — maintenance treatment after response to platinum-based chemotherapy (derived from trial/literature descriptions in this pack; no Norway license record exists) |
-| Predicted New Indication | Cystic Neoplasm (evidence maps to high-grade serous ovarian carcinoma / uterine serous carcinoma) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> **Merknad om TxGNN-rangering:** Den enkelt høyest scorede prediksjonen totalt sett i dette datasettet ("neoplasme av epiglottis", score 99.99%) har **null** støttende kliniske forsøk eller litteratur og er mekanistisk implausibel for en PARP-hemmer. Denne rapporten fokuserer derfor på den høyest scorede prediksjonen som faktisk har støtte fra evidens. Åtte av de ti forutsagte indikasjonene i denne pakken (neoplasme av epiglottis, benign neoplasme av hypofaring/tunge/munngolv, cervical neuroblastom, svulst av testis og paratestis, neoplasme av indre øre, schwannom av foramen jugulare) har ingen støtte fra kliniske forsøk eller litteratur og forblir på bevisnivå L5 med status Avvent.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data from DrugBank is not available (flagged as a High-severity data gap, DG002). Based on information embedded elsewhere in this evidence pack, niraparib is a PARP1/2 (poly ADP-ribose polymerase) inhibitor that acts through a synthetic lethality mechanism, producing selective cytotoxicity in tumours with homologous recombination deficiency (HRD) — including BRCA1/2-mutated cancers. This mechanism is already the basis of niraparib's established use in ovarian, fallopian tube, and primary peritoneal cancer maintenance therapy.
-
-The predicted new indication "Cystic Neoplasm" is a broad label, but the trials and publications actually retrieved under it are overwhelmingly about **high-grade serous ovarian carcinoma (HGSOC)** and **uterine/endometrial serous carcinoma (ESC/USC)** — diseases that frequently present as cystic adnexal masses. Literature in this pack explicitly notes that ESC "has similar molecular characteristics to high-grade serous ovarian carcinoma... such as similar chromosomal instability, somatic copy number variation profiles and somatic mutations," and that ESC treatment protocols already borrow from HGSOC management. Approximately half of HGSOC cases carry HRD, the population in which niraparib and other PARP inhibitors show the strongest activity.
-
-Mechanistically, this makes the prediction reasonable: the new candidate indication is not a novel biological hypothesis but largely an extension of niraparib's already-validated HRD-targeting activity into a molecularly similar, cystic-presenting gynecologic tumour type. The main gap is not mechanism but **maturity of clinical evidence** specifically for this label — the trials identified are early-phase, underpowered, or still recruiting.
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Kreft i eggstokk, eggleder og primær peritoneum — vedlikeholdsbehandling etter respons på platinumbasert kjemoterapikurs (utledet fra forsøks-/litteraturbeskrivelser i denne pakken; ingen norsk lisens eksisterer) |
+| Forutsatt ny indikasjon | Cystisk Neoplasme (evidens tilsvarer høygrads seøs eggstokkkrefft / livmor seøs kreft) |
+| TxGNN-prediksjonscore | 99.99% |
+| Bevisnivå | L2 |
+| Norsk markedsstatus | Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt avgjørelse | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+For tiden er detaljerte data om virkningsmekanisme fra DrugBank ikke tilgjengelige (flagget som en data-gap med alvorlighetsgrad Høy, DG002). Basert på informasjon som er innebygd annet sted i denne evidenspakken, er niraparib en PARP1/2-hemmer (poly ADP-ribose polymerase) som virker gjennom en syntetisk letalitet-mekanisme, og produserer selektiv cytotoksisitet i svulster med homolog rekombinasjonsmangel (HRD) — inkludert BRCA1/2-muterte kreftformer. Denne mekanismen er allerede grunnlaget for niraparibs etablerte bruk i vedlikeholdsbehandling av kreft i eggstokk, eggleder og primær peritoneum.
+
+Den forutsagte nye indiksjonen "Cystisk Neoplasme" er en bred betegnelse, men forsøkene og publikasjonene som faktisk er hentet under den er overveiende om **høygrads seøs eggstokkkrefft (HGSOC)** og **livmor-/livmorspell seøs kreft (ESC/USC)** — sykdommer som ofte presenteres som cystisk adneksale masser. Litteratur i denne pakken bemerker eksplisitt at livmorspell seøs kreft "har lignende molekylære karakteristika til høygrads seøs eggstokkkrefft... som lignende kromosomalt instabilitet, somatiske kopiantalvariasjonsprofiler og somatiske mutasjoner," og at behandlingsprotokoller for livmorspell seøs kreft allerede låner fra styringen av høygrads seøs eggstokkkrefft. Omtrent halvparten av høygrads seøs eggstokkkrefft-tilfellene bærer HRD, populasjonen der niraparib og andre PARP-hemmere viser den sterkeste aktiviteten.
+
+Mekanistisk sett gjør dette prediksjonen rimelig: den nye kandidatindiksjonen er ikke en ny biologisk hypotese, men stort sett en utvidelse av niraparibs allerede validerte HRD-målende aktivitet inn i en molekylært lik, cystisk-presenterende gynekologisk svulsttype. Det viktigste gapet er ikke mekanisme, men **modenhet av klinisk evidens** spesifikt for denne betegnelsen — forsøkene som er identifisert er tidlig-fase, underpowered, eller fortsatt rekrutterer.
+
+---
+
+## Bevis fra kliniske forsøk
+
+| Forsøksnummer | Fase | Status | Registrering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT04716686](https://clinicaltrials.gov/study/NCT04716686) | Phase 2 | Recruiting | 83 | Niraparib monotherapy as maintenance/recurrent treatment for endometrial serous carcinoma; rationale based on molecular overlap between ESC and HGSOC. No mature efficacy data yet reported. |
-| [NCT04159155](https://clinicaltrials.gov/study/NCT04159155) | Phase 2/3 | Terminated | 11 | Canadian umbrella trial assessing front-line/maintenance treatment (including niraparib-relevant arms) in serous or p53-mutant endometrial cancer; terminated with only 11 of planned participants enrolled — reason for termination (safety vs. operational) not specified in this pack. |
-| [NCT05289648](https://clinicaltrials.gov/study/NCT05289648) | Early Phase 1 | Withdrawn | 0 | Preoperative niraparib window-of-opportunity study in high-grade endometrial cancer; withdrawn before enrollment, no data generated. |
+| [NCT04716686](https://clinicaltrials.gov/study/NCT04716686) | Fase 2 | Rekrutterer | 83 | Niraparib-monoterapi som vedlikeholdsbehandling/tilbakefall-behandling for livmorspell seøs kreft; begrunnelse basert på molekylær overlapp mellom livmorspell seøs kreft og høygrads seøs eggstokkkrefft. Ingen modne effektivitetsdata rapportert ennå. |
+| [NCT04159155](https://clinicaltrials.gov/study/NCT04159155) | Fase 2/3 | Avsluttet | 11 | Kanadisk paraplyforøk som vurderer førstelinjes-/vedlikeholdsbehandling (inkludert niraparib-relevante armer) i seøs eller p53-mutant livmorspell kreft; avsluttet med bare 11 av planlagte deltakere inkludert — årsak til avslutning (sikkerhet versus operasjonell) ikke spesifisert i denne pakken. |
+| [NCT05289648](https://clinicaltrials.gov/study/NCT05289648) | Tidlig fase 1 | Trukket tilbake | 0 | Preoperativ niraparib window-of-opportunity-studie i høygrads livmorspell kreft; trukket tilbake før registrering, ingen data generert. |
 
 ---
 
-## Literature Evidence
+## Litteraturbeviser
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [40473279](https://pubmed.ncbi.nlm.nih.gov/40473279/) | 2025 | Phase II protocol / clinical study | BMJ Open | Study protocol for a Phase II trial of maintenance niraparib in stage III/IV or recurrent uterine serous carcinoma, a disease with poor 2–5 year survival where new maintenance options are needed. |
-| [31851805](https://pubmed.ncbi.nlm.nih.gov/31851805/) | 2019 | Review | New England Journal of Medicine | Overview of personalized, biomarker-driven primary treatment strategies (including PARP inhibitors) in serous ovarian cancer. |
-| [41323499](https://pubmed.ncbi.nlm.nih.gov/41323499/) | 2025 | Review/Guideline | Pathology Oncology Research | Evaluates comprehensive genomic profiling (F1CDx) for HRD detection to guide PARP inhibitor therapy decisions in ovarian cancer. |
-| [41520277](https://pubmed.ncbi.nlm.nih.gov/41520277/) | 2026 | Preclinical (organoid/spheroid) | Cancer Biology & Therapy | Evaluates carboplatin + PARP inhibitor combinations in HGSOC organoid/spheroid models; notes niraparib is approved for platinum-sensitive recurrent disease and is being explored front-line and in combination. |
-| [40702505](https://pubmed.ncbi.nlm.nih.gov/40702505/) | 2025 | Retrospective/Bioinformatics | Journal of Ovarian Research | Identifies cancer stem cell-based HGSOC subtypes and a prognostic model, with implications for treatment stratification. |
-| [41214101](https://pubmed.ncbi.nlm.nih.gov/41214101/) | 2025 | Mechanistic/Basic Science | Scientific Reports | Describes Claudin-4 as a regulator of genomic instability and immune evasion in HGSOC, relevant to PARP-inhibitor-responsive biology. |
-| [34321239](https://pubmed.ncbi.nlm.nih.gov/34321239/) | 2021 | Mechanistic/Translational | Cancer Research | Shows acquired RAD51C promoter methylation loss drives PARP inhibitor resistance in HGSOC PDX models — relevant to resistance mechanisms. |
-| [41465250](https://pubmed.ncbi.nlm.nih.gov/41465250/) | 2025 | Mechanistic/Proteomic | International Journal of Molecular Sciences | Proteomic profiling of poly-pharmacological effects of PARP inhibitors (olaparib, niraparib, rucaparib) in HGSOC cells, relevant to adverse effect mechanisms. |
-| [31466953](https://pubmed.ncbi.nlm.nih.gov/31466953/) | 2019 | Case Report | BMJ Case Reports | Case of niraparib maintenance therapy in an ovarian cancer patient with brain metastases. |
+| [40473279](https://pubmed.ncbi.nlm.nih.gov/40473279/) | 2025 | Fase II-protokoll / klinisk studie | BMJ Open | Studieprotokoll for fase II-forsøk av vedlikeholdsbehandling med niraparib i stadium III/IV eller tilbakefall livmor seøs kreft, en sykdom med dårlig 2–5 års overlevelse der nye vedlikeholdsalternativer er nødvendige. |
+| [31851805](https://pubmed.ncbi.nlm.nih.gov/31851805/) | 2019 | Oversikt | New England Journal of Medicine | Oversikt over personaliserte, biomarkørbaserte primærbehandlingsstrategier (inkludert PARP-hemmere) i seøs eggstokkkrefft. |
+| [41323499](https://pubmed.ncbi.nlm.nih.gov/41323499/) | 2025 | Oversikt/Retningslinje | Pathology Oncology Research | Evaluerer omfattende genomisk profilering (F1CDx) for HRD-deteksjon til å veilede PARP-hemmer-terapi-beslutninger i eggstokkkrefft. |
+| [41520277](https://pubmed.ncbi.nlm.nih.gov/41520277/) | 2026 | Preklinisk (organoid/spheroid) | Cancer Biology & Therapy | Evaluerer karboplatinum + PARP-hemmer-kombinasjoner i høygrads seøs eggstokkkrefft organoid/spheroid-modeller; bemerker at niraparib er godkjent for platinumfølsom tilbakefall-sykdom og blir undersøkt i førstelinjes- og kombinasjonsindstillinger. |
+| [40702505](https://pubmed.ncbi.nlm.nih.gov/40702505/) | 2025 | Retrospektiv/Bioinformatikk | Journal of Ovarian Research | Identifiserer kreftsubstamcellebaserte høygrads seøs eggstokkkrefft-subtyper og en prognostisk modell, med implikasjoner for behandlingsstratifisering. |
+| [41214101](https://pubmed.ncbi.nlm.nih.gov/41214101/) | 2025 | Mekanistisk/Grunnforskning | Scientific Reports | Beskriver Claudin-4 som en regulator av genomisk instabilitet og immunologisk unnvikelse i høygrads seøs eggstokkkrefft, relevant for PARP-hemmer-responsiv biologi. |
+| [34321239](https://pubmed.ncbi.nlm.nih.gov/34321239/) | 2021 | Mekanistisk/Translasjonell | Cancer Research | Viser at oppkjøpt RAD51C-promoter metyleringssvekkelse driver PARP-hemmer-resistens i høygrads seøs eggstokkkrefft PDX-modeller — relevant for resistensmekanismer. |
+| [41465250](https://pubmed.ncbi.nlm.nih.gov/41465250/) | 2025 | Mekanistisk/Proteomisk | International Journal of Molecular Sciences | Proteomisk profilering av poly-farmakologiske effekter av PARP-hemmere (olaparib, niraparib, rucaparib) i høygrads seøs eggstokkkrefft-celler, relevant for mekanismer for bivirkninger. |
+| [31466953](https://pubmed.ncbi.nlm.nih.gov/31466953/) | 2019 | Kasuistikk | BMJ Case Reports | Kasuistikk av niraparib-vedlikeholdsbehandling i eggstokk-kreftpasient med hjernemetastaser. |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Niraparib is **not currently marketed in Norway** — the evidence pack records 0 authorizations, so no product name, dosage form, or approved-indication text is available for extraction.
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy — PARP1/2 inhibitor acting via synthetic lethality in HRD-deficient tumours |
-| Myelosuppression Risk | High — PARP inhibitors as a class carry genotoxic potential, with a recognized risk of secondary myeloid neoplasms (treatment-related MDS/AML); no product-specific haematology data is available in this evidence pack |
-| Emetogenicity Classification | Low-to-moderate (typical for oral PARP inhibitors) |
-| Monitoring Items | Complete blood count with differential (frequent monitoring during early treatment), blood pressure, renal and hepatic function |
-| Handling Protection | Oral small-molecule antineoplastic agent; standard cytotoxic/antineoplastic handling precautions are advisable pending confirmation from an official Norway package insert |
+Niraparib er **ikke for tiden markedsført i Norge** — evidenspakken registrerer 0 autorisasjoner, så ingen produktnavn, doseringsform eller godkjent-indiksjonstekst er tilgjengelig for utvinning.
 
 ---
 
-## Safety Considerations
+## Cytotoksisitet
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are all flagged as data gaps in this evidence pack, and this is classified as a Blocking-severity gap that prevents a formal S1 safety pre-assessment.)
+| Element | Innhold |
+|---------|------|
+| Cytotoksisitetsklassifikasjon | Målrettet terapi — PARP1/2-hemmer som virker gjennom syntetisk letalitet i HRD-defisiente svulster |
+| Risiko for myelosuppresjon | Høy — PARP-hemmere som en klasse har genotoksisk potensial, med erkjent risiko for sekundære myeloide neoplasmers (behandlingsrelatert MDS/AML); ingen produktspesifikk hematologisk data er tilgjengelig i denne evidenspakken |
+| Emetogenitet-klassifikasjon | Lav til moderat (typisk for orale PARP-hemmere) |
+| Monitorerings-elementer | Komplett blodtellinger med differensial (hyppig overvåking under tidlig behandling), blodtrykk, nyre- og leverfunksjon |
+| Håndteringsvern | Oral småmolekyl-antineoplastisk stoff; standardiserte cytotoksiske/antineoplastiske håndteringsprekausjoner anbefales mens man venter på bekreftelse fra offisiell norsk pakkevedlegg |
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Se pakkevedlegget for sikkerhetsinformasjon. (Nøkkeadvarsler, kontraindikasjoner og data om legemiddelinteraksjoner er alle flagget som data-gaps i denne evidenspakken, og dette er klassifisert som et Blocking-alvorlighets-gap som forhindrer en formell S1 sikkerhet pre-assessment.)
 
-**Rationale:**
-Niraparib's core PARP-inhibitor mechanism is well established in HRD-driven serous gynecologic cancers, and the "Cystic Neoplasm" prediction is biologically coherent with its known activity in ovarian and endometrial serous carcinoma. However, none of the three supporting trials has produced completed, mature efficacy data (withdrawn, terminated at n=11, or still recruiting), the drug has no market authorization in Norway, and a Blocking-severity data gap (missing package insert warnings/contraindications) prevents even a preliminary safety assessment.
+---
 
-**To proceed, the following is needed:**
-- Official package insert / warnings & contraindications data to resolve the Blocking data gap (DG001) and enable an S1 safety pre-assessment
-- Confirmed mechanism-of-action documentation via DrugBank API (DG002)
-- Maturation of NCT04716686 (Phase 2, recruiting, expected completion December 2026) and clarification of why NCT04159155 was terminated (safety vs. operational reasons)
-- A drug-drug interaction profile, currently returned as "not found"
-- No further action on the other 9 TxGNN-predicted indications (including the top-scored "epiglottis neoplasm") unless new clinical trial or literature evidence emerges — all currently lack any supporting data
+## Konklusjon og neste trinn
+
+**Avgjørelse: Avvent**
+
+**Begrunnelse:**
+Niraparibs kjernemekanism for PARP-hemming er velestablert i HRD-drevne seøse gynekologiske kreftformer, og prediksjonen "Cystisk Neoplasme" er biologisk sammenhengende med dets kjente aktivitet i seøs eggstokk- og livmorspell-kreft. Imidlertid har ingen av de tre støttende forsøkene produsert fullstendige, modne effektivitetsdata (trukket tilbake, avsluttet ved n=11, eller fortsatt rekrutterer), legemidlet har ingen markedsautorisasjon i Norge, og et Blocking-alvorlighets data-gap (manglende pakkevedlegg advarsler/kontraindikasjoner) forhindrer selv en foreløpig sikkerhet-assessment.
+
+**For å fortsette er følgende nødvendig:**
+- Offisiell pakkevedlegg / advarsler & kontraindikasjons-data for å løse Blocking data-gapet (DG001) og muliggjøre en S1 sikkerhet pre-assessment
+- Bekreftet mekanisme-for-virkning dokumentasjon via DrugBank API (DG002)
+- Modenhet av NCT04716686 (Fase 2, rekrutterer, forventet ferdigstillelse desember 2026) og avklaring av hvorfor NCT04159155 ble avsluttet (sikkerhet versus operasjonelle årsaker)
+- En legemiddel-legemiddel-interaksjon-profil, som for tiden er returnert som "ikke funnet"
+- Ingen ytterligere handling på de øvrige 9 TxGNN-forutsagte indikasjonene (inkludert den toppscorude "neoplasme av epiglottis") med mindre ny klinisk forsøk eller litteraturbevis dukker opp — alle mangler for tiden enhver støttende data
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

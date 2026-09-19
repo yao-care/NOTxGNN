@@ -29,78 +29,79 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Ziconotide: From Severe Chronic Pain to Migraine Disorder
+# Ziconotid: Fra alvorlig kronisk smerte til migrenelidelse
 
-## One-Sentence Summary
+## Sammendrag på en setning
 
-> Ziconotide is an N-type calcium channel blocker administered via intrathecal infusion, originally used for the management of severe chronic pain in patients who cannot tolerate or fail systemic analgesics. The TxGNN model predicts it may also be effective for **Migraine Disorder**, but this direction is currently supported by only **1 case report** and **no clinical trials**.
+> Ziconotid er en N-type kalsiumkanalblokker som administreres via intratekal infusjon, opprinnelig brukt til behandling av alvorlig kronisk smerte hos pasienter som ikke tåler eller ikke responderer på systemisk analgetika. TxGNN-modellen forutsier at det også kan være effektivt for **migrenelidelse**, men denne retningen støttes foreløpig bare av **1 case report** og **ingen kliniske studier**.
 
 ---
 
-## Quick Overview
+## Hurtigoversikt
 
-| Item | Content |
+| Punkt | Innhold |
 |------|------|
-| Original Indication | Severe chronic pain (intrathecal therapy) — not specified in the evidence pack; based on general drug knowledge only |
-| Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Alvorlig kronisk smerte (intratekal terapi) – ikke spesifisert i bevispasen; basert på generell stoffkunnskap kun |
+| Forutsagt ny indikasjon | Migrenelidelse |
+| TxGNN-prediksjonspoeng | 99.92% |
+| Bevisnivå | L4 |
+| Norges markedsstatus | ✗ Ikke på markedet |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data is not available in the evidence pack (original_moa: Data Gap). Based on the model's own rationale, ziconotide selectively blocks N-type (Cav2.2) voltage-gated calcium channels, which suppresses release of neurotransmitters — including CGRP and glutamate — from afferent terminals in the spinal dorsal horn and trigeminal system. This is mechanistically plausible for migraine, since CGRP-mediated trigeminal signaling is a well-established driver of migraine pathophysiology.
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige i bevispasen (original_moa: Datakløft). Basert på modellens egen begrunnelse, blokkerer ziconotid selektivt N-type (Cav2.2) spenningsstyrte kalsiumkanaler, som undertrykker frigjøring av nevrotransmittere – inkludert CGRP og glutamat – fra affente terminaler i ryggradsmargens dorsale horn og trigeminus-systemet. Dette er mekanistisk plausibelt for migrenekrankhet, siden CGRP-mediiert trigeminus-signalering er en vel etablert driver av migrenepatolagi.
 
-However, ziconotide's proven efficacy is in chronic, severe, treatment-refractory pain delivered exclusively via implanted intrathecal pump — an invasive delivery route with a narrow therapeutic window (risk of neuropsychiatric and cognitive adverse effects). Migraine is typically managed with oral, subcutaneous, or nasal therapies; extrapolating from intrathecal chronic-pain use to migraine management represents a substantial leap in both mechanism-to-clinic translation and feasible route of administration.
+Imidlertid er ziconotids bevist effektivitet i kronisk, alvorlig, behandlingsrefraktær smerte levert utelukkende via implantert intratekal pumpe – en invasiv leveringsrute med et smalt terapeutisk vindu (risiko for neuropsykiatriske og kognitive bivirkninger). Migrenekrankhet blir vanligvis håndtert med oral, subkutan eller nasal terapi; ekstrapolering fra intratekal kronisk-smerte-bruk til migrenekrankhet-behandling representerer et betydelig hopp både i mekanisme-til-klinikk-oversettelse og gjennomførbar administreringsrute.
 
-The only direct clinical evidence identified is a single case report describing resolution of chronic migraine with intrathecal ziconotide in a patient already using an intrathecal pump for other indications — this is hypothesis-generating, not confirmatory, evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Det eneste direkte kliniske bevis som er identifisert, er en enkelt case report som beskriver oppløsning av kronisk migrenekrankhet med intratekal ziconotid hos en pasient som allerede bruker en intratekal pumpe til andre indikasjoner – dette er hypotesegenererende, ikke bekreftet, bevis.
 
 ---
 
-## Literature Evidence
+## Bevis fra kliniske studier
 
-| PMID | Year | Type | Journal | Key Findings |
+For tiden er det ingen relaterte kliniske studier registrert.
+
+---
+
+## Bevis fra litteraturen
+
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [26392785](https://pubmed.ncbi.nlm.nih.gov/26392785/) | 2015 | Case Report | Journal of Pain Research | Single case of chronic migraine headache resolution following intrathecal ziconotide, in a patient with pre-existing intrathecal pump for chronic pain |
+| [26392785](https://pubmed.ncbi.nlm.nih.gov/26392785/) | 2015 | Case Report | Journal of Pain Research | Enkelt tilfelle av kronisk migrenekrankhet-hodepine-oppløsning etter intratekal ziconotid, hos en pasient med tidligere intratekal pumpe til kronisk smerte |
 
 ---
 
-## Norway Market Information
+## Norges markedsinformasjon
 
-Ziconotide currently holds no marketing authorization in Norway (market status: Not marketed / Not marketed). No license records are available in the evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: key warnings, contraindications, and DDI data are marked as data gaps in this evidence pack — see DG001 below.)*
+Ziconotid har for tiden ingen markedsforingsautorisasjon i Norge (markedsstatus: Ikke på markedet / Ikke på markedet). Ingen lisensopplysninger er tilgjengelige i bevispasen.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetsvurderinger
 
-**Decision: Hold**
+Vennligst se pakkeseddelen for sikkerhetsinformasjon.
 
-**Rationale:**
-The only supporting evidence for migraine is a single case report (L4), with no clinical trials, no dedicated MOA data, and no Norwegian regulatory/safety information available. The proposed intrathecal delivery route is also poorly aligned with standard migraine treatment paradigms, further weakening feasibility.
+*(Merk: viktige advarsler, kontraindikasjoner og legemiddelinteraksjonsdata (DDI) er merket som datakløfter i denne bevispasen – se DG001 nedenfor.)*
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): Official label warnings/contraindications, ideally sourced from TFDA or equivalent regulatory PDF
-- Resolve DG002 (High): Confirmed mechanism of action data from DrugBank
-- Additional clinical evidence beyond a single case report (e.g., case series, observational study) before advancing past S1
-- Assessment of route compatibility — intrathecal pump implantation is not standard practice for migraine and would require separate risk-benefit justification
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Det eneste støttende bevis for migrenelidelse er en enkelt case report (L4), uten kliniske studier, ingen dedikert MOA-data, og ingen norsk regulatorisk/sikkerhetsinformasjon tilgjengelig. Den foreslåtte intratekal leveringsruten er også dårlig alignet med standard migrenelidelse-behandlingsparadigmer, som svekker gjennomførbarhet ytterligere.
+
+**For å gå videre, er det følgende nødvendig:**
+- Løs DG001 (Blokkerer): Offisiell etikett-advarsler/kontraindikasjoner, ideelt hentet fra TFDA eller tilsvarende regulatorisk PDF
+- Løs DG002 (Høy): Bekreftet virkningsmekanisme-data fra DrugBank
+- Ytterligere kliniske bevis utover en enkelt case report (f.eks. case series, observasjonell studie) før avansering forbi S1
+- Vurdering av rutekompatibilitet – intratekal pumpe-implantasjon er ikke standard praksis for migrenekrankhet og ville kreve separat risiko-nytte-begrunnelse
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

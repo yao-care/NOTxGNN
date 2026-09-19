@@ -29,81 +29,82 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Febuxostat: From Hyperuricemia (Gout) to Renal Hypouricemia
+# Febuxostat: Fra hyperurikemi (gikt) til renal hypourikemi
 
-## One-Sentence Summary
+## Sammendrag i en setning
 
-Febuxostat is a xanthine oxidase inhibitor best known for treating chronic hyperuricemia in gout patients.
-The TxGNN model predicts it may also be relevant to **renal hypouricemia** (a condition of *low* serum urate, often complicated by exercise-induced acute kidney injury),
-with **1 clinical trial** and **2 publications** currently available as supporting evidence — none of which directly confirms efficacy in this new indication.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in the evidence pack (no Norway license records); febuxostat is publicly known as a xanthine oxidase inhibitor indicated for chronic hyperuricemia in gout |
-| Predicted New Indication | Renal Hypouricemia (hypouricemia, renal) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Febuxostat er en ksantinoksidase-hemmer som er best kjent for behandling av kronisk hyperurikemi hos pasienter med gikt.
+TxGNN-modellen predikerer at det kan være relevant også for **renal hypourikemi** (en tilstand med *lav* serumurikat, ofte komplisert av treningsindusert akutt nyresvikt),
+med **1 klinisk forsøk** og **2 publikasjoner** tilgjengelige som støttende bevis — hvorav ingen direkte bekrefter effektivitet i denne nye indikasjonen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available for this candidate. Based on generally known pharmacology, febuxostat is a **non-purine selective xanthine oxidase inhibitor**, a drug class whose efficacy in reducing serum urate production has been well established in the treatment of chronic hyperuricemia and gout.
-
-The predicted new indication, renal hypouricemia (RHUC), is mechanistically distinct — it is a condition of *low* urate caused by urate transporter (URAT1) defects, not high urate. The connection is not urate-lowering per se, but rather the antioxidant/renoprotective effect of xanthine oxidase inhibition: reducing reactive oxygen species generated during purine catabolism may help prevent **exercise-induced acute kidney injury (EIAKI)**, a known complication in RHUC patients. This is a mechanism-driven repurposing hypothesis rather than a direct extension of febuxostat's approved urate-lowering effect, and it is supported by only a single published case report at this time.
-
-Because the original indication and MOA fields are both marked as data gaps in this evidence pack, this rationale should be treated as provisional pending confirmation from primary regulatory/DrugBank sources.
+| Element | Innhold |
+|---------|---------|
+| Originalindikasjon | Ikke tilgjengelig i bevissamlingen (ingen norske lisensregistreringer); febuxostat er offentlig kjent som en ksantinoksidase-hemmer indikert for kronisk hyperurikemi ved gikt |
+| Predikert ny indikasjon | Renal hypourikemi (hypourikemi, renal) |
+| TxGNN prediksjonspoeng | 99.99% |
+| Bevissikkerhetsnivå | L4 |
+| Norsk markedsstatus | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+For tiden er detaljerte virkningsmekanisme-data ikke tilgjengelige for denne kandidaten. Basert på generelt kjent farmakologi er febuxostat en **ikke-purin-selektiv ksantinoksidase-hemmer**, en stoffklasse hvis effektivitet i å redusere serum-urikatproduksjon er godt etablert i behandlingen av kronisk hyperurikemi og gikt.
+
+Den predikerte nye indikasjonen, renal hypourikemi (RHUC), er mekanistisk distinkt — den er en tilstand med *lav* urikat forårsaket av defekter i urikat-transportøren (URAT1), ikke høyt urikat. Forbindelsen er ikke urikatsenking per se, men snarere antioksidant/nyrebeskyttende effekt av ksantinoksidase-hemming: reduksjon av reaktive oksygenarter som produseres under purin-katabolisme kan bidra til å forhindre **treningsindusert akutt nyresvikt (EIAKI)**, en kjent komplikasjon hos RHUC-pasienter. Dette er en mekanisme-drevet repurposing-hypotese snarere enn en direkte utvidelse av febuxostats godkjente urikatsenking-effekt, og den støttes kun av en enkel publisert kasuistikk på dette tidspunktet.
+
+Fordi både originalindikasjon og virkningsmekanisme-felt er merket som datakløfter i denne bevissamlingen, bør denne begrunnelsen behandles som foreløpig inntil bekreftelse fra primære regulerings-/DrugBank-kilder foreligger.
+
+---
+
+## Klinisk forsøksbevis
+
+| Forsøksnummer | Fase | Status | Rekruttering | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT04398251](https://clinicaltrials.gov/study/NCT04398251) | Phase 4 | Unknown | 100 | Prospective controlled study on uric acid control, stone recurrence, and renal function in patients with hyperuricemia-related calculi (Shanghai Xu-hui Central Hospital, Dept. of Urology). Note: this trial concerns *hyperuricemia*, not renal hypouricemia — relevance to the predicted indication is uncertain and marked "pending" review. |
+| [NCT04398251](https://clinicaltrials.gov/study/NCT04398251) | Fase 4 | Ukjent | 100 | Prospektivt kontrollert forsøk på urinsyrekontroll, gjentakelse av steiner og nyrefunksjon hos pasienter med hyperurikemi-relaterte kalkuler (Shanghai Xu-hui Central Hospital, avdeling for urologi). Merk: dette forsøket gjelder *hyperurikemi*, ikke renal hypourikemi — relevansen for den predikerte indikasjonen er usikker og merket som 'avventer gjennomgang'. |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [36754409](https://pubmed.ncbi.nlm.nih.gov/36754409/) | 2023 | Case Report | Internal Medicine (Tokyo) | 16-year-old athlete with familial renal hypouricemia (URAT1 compound heterozygous mutation) and recurrent exercise-induced AKI; febuxostat proposed as prophylaxis via xanthine oxidoreductase inhibition when hydration alone failed. |
-| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Review | Clinical Rheumatology | Narrative review of hypouricemia etiology and clinical management for rheumatologists; general background, not febuxostat-specific. |
+| [36754409](https://pubmed.ncbi.nlm.nih.gov/36754409/) | 2023 | Kasuistikk | Internal Medicine (Tokyo) | 16 år gammel atlet med familiær renal hypourikemi (URAT1 sammensatt heterozygot mutasjon) og gjentakende treningsindusert AKI; febuxostat foreslått som profylakse via ksantinoksidoreduktase-hemming når væskeerstatning alene mislyktes. |
+| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Narrativ gjennomgang | Clinical Rheumatology | Narrativ oversikt over hypourikemi-etiologi og klinisk ledelse for revmatologer; generell bakgrunninformasjon, ikke febuxostat-spesifikk. |
 
 ---
 
-## Norway Market Information
+## Norsk markedsinformasjon
 
-Febuxostat currently holds **no marketing authorization in Norway** (0 licenses on record); the evidence pack lists market status as "not marketed." No authorization or product data is available for this section.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-drug interaction data are not currently available in this evidence pack (flagged as a **Blocking** data gap — DG001), so this candidate cannot yet proceed to safety pre-assessment (S1).
+Febuxostat innehar for tiden **ingen markedsføringsgodkjenning i Norge** (0 lisenser på registreringen); bevissamlingen oppgir markedsstatus som "ikke markedsført". Ingen godkjennings- eller produktdata er tilgjengelige for denne delen.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetsoverveielser
 
-**Decision: Hold**
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Viktige advarsler, motindikasjoner og data om legemiddel-legemiddel-interaksjoner er for tiden ikke tilgjengelige i denne bevissamlingen (flagget som en **blokkerende** datakløft — DG001), så denne kandidaten kan ikke ennå gå videre til sikkerhetspre-vurdering (S1).
 
-**Rationale:**
-The mechanistic hypothesis is plausible but supported by only a single case report and one clinical trial of uncertain relevance (no completed RCT specific to renal hypouricemia). Combined with a **blocking safety data gap** (no TFDA/Norway label warnings or contraindications available) and the drug's non-marketed status in Norway, the evidence does not yet support advancement.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Norway package insert (warnings, contraindications) to clear the blocking safety gap (DG001)
-- Confirmed mechanism of action and original approved indication from DrugBank (DG002)
-- Additional case series or a dedicated clinical trial evaluating febuxostat specifically for EIAKI prevention in renal hypouricemia patients
-- Re-review of NCT04398251 relevance, since its population (hyperuricemia/urolithiasis) does not clearly match the predicted indication (renal hypouricemia)
+## Konklusjon og neste trinn
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Den mekanistiske hypotesen er plausibel, men støttes kun av en enkel kasuistikk og ett klinisk forsøk av usikker relevans (ingen gjennomfør RCT spesifikt for renal hypourikemi). Kombinert med en **blokkerende sikkerhetsdatakløft** (ingen TFDA/norske merkelappadvarsler eller motindikasjoner tilgjengelige) og stoffets ikke-markedsførte status i Norge, støttes bevisene ikke tilstrekkelig for videre gjennomgang.
+
+**For å komme videre er følgende nødvendig:**
+- TFDA/norsk pakningsvedlegg (advarsler, motindikasjoner) for å fjerne den blokkerende sikkerhetskløften (DG001)
+- Bekreftet virkningsmekanisme og originalgodkjent indikasjon fra DrugBank (DG002)
+- Tilleggskasuistikk eller et dedikert klinisk forsøk som evaluerer febuxostat spesifikt for EIAKI-profylakse hos pasienter med renal hypourikemi
+- Ny gjennomgang av NCT04398251-relevans, siden populasjonen (hyperurikemi/urolithiasis) ikke tydelig samsvarer med den predikerte indikasjonen (renal hypourikemi)
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

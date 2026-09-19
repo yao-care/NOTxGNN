@@ -29,94 +29,89 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-Using the given Evidence Pack, here is the report. Note upfront: `predicted_indications[0]` (highest TxGNN score) is **hyperthyroidism**, which has zero supporting trials/literature and the evidence pack's own rationale states no known mechanistic link — so this is a genuine "Hold" case, not spin.
+# Palbociclib: Fra metastatisk brystkreft til hypertyroidisme
+
+## Oppsummering i en setning
+
+> Palbociclib er en CDK4/6-hemmer brukt ved HR+/HER2-negativ metastatisk brystkreft (per kontekstlitteratur i denne bevisepakken; ingen formell norsk indikasjonsdokumentasjon finnes ettersom legemidlet ikke er markedsført der).
+> TxGNN-modellen forutsier at det kan være effektivt for **Hypertyroidisme**, med en **99.44%** score,
+> men dette rangeres med **0 kliniske forsøk** og **0 publikasjoner** som for tiden støtter retningen — et signal kun fra modellen.
 
 ---
 
-# Palbociclib: From Metastatic Breast Cancer to Hyperthyroidism
+## Rask oversikt
 
-## One-Sentence Summary
-
-> Palbociclib is a CDK4/6 inhibitor used in HR+/HER2-negative metastatic breast cancer (per contextual literature in this evidence pack; no formal Norway indication record exists as the drug is not marketed there).
-> The TxGNN model predicts it may be effective for **Hyperthyroidism**, with a **99.44%** score,
-> but this ranks with **0 clinical trials** and **0 publications** currently supporting the direction — a model-only signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not formally recorded (Norway: not marketed, no license text). Contextual literature repeatedly identifies palbociclib as a CDK4/6 inhibitor for HR+/HER2-negative metastatic breast cancer. |
-| Predicted New Indication | Hyperthyroidism |
-| TxGNN Prediction Score | 99.44% (rank 5957) |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke formelt registrert (Norge: ikke markedsført, ingen lisenstekst). Kontekstlitteraturen identifiserer gjentatte ganger palbociclib som en CDK4/6-hemmer for HR+/HER2-negativ metastatisk brystkreft. |
+| Forutsagt ny indikasjon | Hypertyroidisme |
+| TxGNN prediksjons-score | 99.44% (rang 5957) |
+| Bevisnivå | L5 |
+| Norges markedsstatus | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detailed mechanism of action data is flagged as a data gap (DG002) in this evidence pack. Based on rationale text embedded in the pack itself, palbociclib is a CDK4/6 inhibitor blocking retinoblastoma protein phosphorylation to arrest the cell cycle at G1/S — a mechanism used therapeutically in HR+/HER2-negative breast cancer.
+Detaljerte virkningsmekanisme-data er flagget som en datamangel (DG002) i denne bevisepakken. Basert på rasjonale-tekst innebygd i pakken selv, er palbociclib en CDK4/6-hemmer som blokkerer retinoblastom-protein-fosforylering for å stanse cellsyklusen ved G1/S — en mekanisme som brukes terapeutisk ved HR+/HER2-negativ brystkreft.
 
-Critically, the evidence pack's own repurposing rationale for this specific prediction states: *"無可辨識機轉關聯 (no identifiable mechanistic link)... Palbociclib 為 CDK4/6 抑制劑，與甲狀腺激素合成/釋放路徑無已知交互作用"* — i.e., there is no known interaction between CDK4/6 inhibition and thyroid hormone synthesis or release pathways. The high TxGNN score is not corroborated by any biological plausibility argument, clinical trial, or published case evidence.
-
-This is a case where the model's statistical score (99.44%) is high but entirely unsupported — the appropriate interpretation is a candidate for future hypothesis generation, not a repurposing signal ready for review.
+Kritisk sett, bevisepakkens egen rasjonale for denne spesifikke prediksjonen angir: *"無可辨識機轉關聯 (no identifiable mechanistic link)... Palbociclib 為 CDK4/6 抑制劑，與甲狀腺激素合成/釋放路徑無已知交互作用"* — det vil si at det ikke finnes noen kjent interaksjon mellom CDK4/6-hemming og thyroidhormonets syntetiserings- eller frigjøringsvei. TxGNN-scoren er høy, men er helt uten støtte — den riktige tolkningen er en kandidat for fremtidig hypotesegenerering, ikke et ombestemmelse-signal som er klart for vurdering.
 
 ---
 
-## Clinical Trial Evidence
+## Klinisk forsøksbevis
 
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+Ingen relaterte kliniske forsøk er for tiden registrert.
 
 ---
 
-## Norway Market Information
+## Litteraturbevis
 
-Palbociclib is **not marketed** in Norway under this evidence pack (`market_status: Not marketed`, `total_licenses: 0`). No license records are available to summarize.
-
----
-
-## Cytotoxicity
-
-Palbociclib is an antineoplastic agent (targeted therapy) per contextual literature in this pack (breast cancer treatment references across multiple citations, e.g., PMID 40504547, 33587021).
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy (CDK4/6 kinase inhibitor) — not conventional cytotoxic chemotherapy |
-| Myelosuppression Risk | High — cited as a common class-effect adverse event in the pack's literature (PMID 37994878: "common adverse events, such as bone marrow suppression") |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC with differential (per bone marrow suppression signal in cited literature); liver and renal function |
-| Handling Protection | Not specified in this evidence pack — please refer to institutional hazardous/cytotoxic drug handling guidelines |
+Ingen relatert litteratur er for tiden tilgjengelig.
 
 ---
 
-## Safety Considerations
+## Norges markedsinformasjon
 
-Please refer to the package insert for safety information. (`key_warnings`, `contraindications`, and DDI query all returned no data in this evidence pack — DG001 flags TFDA label data as a **Blocking** gap preventing S1 safety evaluation.)
+Palbociclib er **ikke markedsført** i Norge under denne bevisepakken (`market_status: Not marketed`, `total_licenses: 0`). Ingen lisensoppføringer er tilgjengelige for oppsummering.
 
 ---
 
-## Conclusion and Next Steps
+## Cytotoksisitet
 
-**Decision: Hold**
+Palbociclib er et antineoplatisk middel (målrettet terapi) per kontekstlitteratur i denne pakken (brystkreftbehandlingsreferanser på tvers av flere sitater, f.eks. PMID 40504547, 33587021).
 
-**Rationale:**
-This candidate has evidence level L5 (model prediction only), zero clinical trials, zero literature, and the pack's own mechanistic rationale explicitly states no known link between CDK4/6 inhibition and thyroid hormone pathways. There is no basis to advance beyond hypothesis stage (S0).
+| Element | Innhold |
+|---------|---------|
+| Cytotoksisitet-klassifisering | Målrettet terapi (CDK4/6-kinase-hemmer) — ikke konvensjonell cytotoksisk kjemoterapi |
+| Risiko for myelosuppresjon | Høy — sitert som en vanlig klasseffekt bivirkning i pakken litteratur (PMID 37994878: "common adverse events, such as bone marrow suppression") |
+| Emetogenisitet-klassifisering | Vennligst se pakningsinformasjon for advarsler og forholdsregler |
+| Overvåkingspunkter | CBC med differensial (per myelosuppresjon signal i sitert litteratur); lever- og nyrefunksjon |
+| Håndteringsbeskyttelse | Ikke spesifisert i denne bevisepakken — vennligst se institusjonale retningslinjer for håndtering av farlige/cytotoksiske legemidler |
 
-**To proceed, the following is needed:**
-- TFDA/regulatory label data (DG001, **Blocking** — required before any S1 safety screening)
-- Formal MOA documentation (DG002) to properly assess mechanistic plausibility
-- Preclinical or in vitro evidence specifically linking CDK4/6 pathway activity to thyroid hormone regulation, before this indication warrants further evaluation
-- *Optional secondary note*: two other TxGNN candidates in this pack had more substantive (though still weak) signal and may be worth independent evaluation — rheumatoid arthritis (L4, case report + preclinical CDK6-synovial hyperplasia mechanism, but conflicting literature on autoimmune induction) and thrombotic disease (L4, but existing evidence points toward CDK4/6i **causing** thromboembolic risk rather than treating it — this candidate should likely be closed rather than pursued).
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsinformasjon for sikkerhetsinformasjon. (`key_warnings`, `contraindications`, og DDI-spørring returnerte ingen data i denne bevisepakken — DG001 flagger TFDA-merkatdata som et **blokkerende** gap som hindrer S1-sikkerhetsvurdering.)
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Hold**
+
+**Rasjonale:**
+Denne kandidaten har bevisnivå L5 (kun modellprediksjon), null kliniske forsøk, null litteratur, og pakkens egen mekanistiske rasjonale angir eksplisitt ingen kjent forbindelse mellom CDK4/6-hemming og thyroidhormon-vei. Det er ingen grunnlag for å gå videre fra hypotesestadiet (S0).
+
+**For å gå videre, kreves følgende:**
+- TFDA/regulatorisk merkatdata (DG001, **blokkerende** — påkrevd før eventuell S1-sikkerhetsvurdering)
+- Formell MOA-dokumentasjon (DG002) for å ordentlig vurdere mekanistisk plausibilitet
+- Preklinisk eller in vitro-bevis som spesifikt knytter CDK4/6-vei-aktivitet til thyroidhormonregulering, før denne indikasjonen fortjener videre evaluering
+- *Valgfritt sekundært notat*: to andre TxGNN-kandidater i denne pakken hadde mer substansiell (men fortsatt svak) signal og kan være verdt uavhengig evaluering — revmatoid artritt (L4, kasusbeviser + preklinisk CDK6-synovial hyperplasi-mekanisme, men motstridende litteratur om autoimmun induksjon) og trombotisk sykdom (L4, men eksisterende bevis peker mot at CDK4/6i **forårsaker** tromboembolisk risiko heller enn å behandle den — denne kandidaten bør sannsynligvis lukkes heller enn forfølges).
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

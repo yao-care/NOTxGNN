@@ -29,97 +29,98 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Atosiban: From Preterm Labor to Primary Hereditary Glaucoma
+# Atosiban: fra prematurt arbeidskap til primært arvelig glaukom
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-Atosiban is an oxytocin/vasopressin V1A receptor antagonist used clinically as a tocolytic to suppress uterine contractions in preterm labor. TxGNN predicts a possible new application in **Primary Hereditary Glaucoma**, but this is the top-ranked of ten low-confidence predictions for this drug, none of which is supported by any registered clinical trial or mechanistic literature. Given the model-only nature of the evidence, this candidate does not currently support further development.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Preterm labor (tocolytic) — based on drug class/mechanism only; not documented in Norway regulatory records |
-| Predicted New Indication | Primary Hereditary Glaucoma |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Atosiban er en oksytocin-/vasopressin V1A-reseptor-antagonist som brukes klinisk som tocolytisk middel for å hemme uteruskontraksjoner ved prematurt arbeidskap. TxGNN forutsier en mulig ny anvendelse ved **primært arvelig glaukom**, men dette er den høyest rangerte av ti forutsigelser med lav sikkerhet for dette legemidlet, og ingen av disse støttes av registrerte kliniske studier eller mekanistisk litteratur. Gitt at bevisene kun er basert på modell, støtter ikke denne kandidaten for tiden videre utvikling.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtig oversikt
 
-Currently, detailed mechanism of action data for atosiban is not available from DrugBank (Data Gap DG002). Based on the rationale accompanying this prediction, atosiban's only well-established clinical action is competitive antagonism of the oxytocin receptor and vasopressin V1A receptor, used to inhibit uterine smooth muscle contraction in threatened preterm labor.
-
-There is no established or biologically plausible pathway connecting oxytocin/V1A receptor antagonism to aqueous humor dynamics or intraocular pressure regulation, which underlie primary hereditary glaucoma and open-angle glaucoma (ranks 1–2). The TxGNN score for this indication is very high (99.92%), but it is not corroborated by any clinical trial or published literature — this pattern strongly suggests the prediction reflects graph-embedding similarity in the knowledge graph rather than genuine pharmacological plausibility.
-
-Across the other predicted indications in this evidence pack, the same pattern holds: hair/follicle-related predictions (ranks 3, 4, 5, 7), thoracic outlet syndrome (ranks 8, 9), and calciphylaxis (rank 10) all lack any mechanistic or clinical rationale. The one exception — "vascular disease" (rank 6) — has literature evidence, but it points in the **opposite direction**: cardioprotective effects reported in the literature are attributed to oxytocin receptor **agonism**, whereas atosiban is a receptor **antagonist**, and a separate cohort study associates tocolytic exposure with increased neonatal intraventricular hemorrhage and death. This is a safety signal, not supporting evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-*(No trials are associated with the top-ranked indication, primary hereditary glaucoma. Note: rank 9, "venous thoracic outlet syndrome," lists NCT03570294, but this trial evaluates oxidative stress in preterm women receiving atosiban and has no direct relevance to thoracic outlet syndrome — it is a mismatched pairing per the evidence pack's own relevance grading (Grade C).)*
+| Element | Innhold |
+|------|---------|
+| Opprinnelig indikasjon | Prematurt arbeidskap (tocolytisk) – basert kun på legemiddelklasse/mekanisme; ikke dokumentert i norske regulatoriske journaler |
+| Forutsagt ny indikasjon | Primært arvelig glaukom |
+| TxGNN-forutsigelsesscore | 99.92% |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | ✗ Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forutsigelsen rimelig?
 
-Currently no related literature available for primary hereditary glaucoma.
+For tiden er detaljerte virkningsmekanisme-data for atosiban ikke tilgjengelig fra DrugBank (datakløft DG002). Basert på begrunnelsen som følger med denne forutsigelsen, er atosibans eneste godt etablerte kliniske virkning konkurrerende antagonisme av oksytocin-reseptoren og vasopressin V1A-reseptoren, som brukes til å hemme glatt muskelkontraksjon i livmoren ved truet prematurt arbeidskap.
 
----
+Det finnes ingen etablert eller biologisk plausibel vei som forbinder oksytocin-/V1A-reseptor-antagonisme med væskedinamikk i kammervæten eller regulering av intraokulært trykk, som ligger til grunn for primært arvelig glaukom og åpenvinklet glaukom (rangeringer 1–2). TxGNN-scoren for denne indikasjonen er meget høy (99.92%), men den blir ikke bekreftet av noen klinisk studie eller publisert litteratur – dette mønsteret antyder sterkt at forutsigelsen gjenspeiler grafinnebygging-likhet i kunnskapsgrafen i stedet for ekte farmakologisk plausibilitet.
 
-## Norway Market Information
-
-Atosiban is **not marketed** in Norway (`taiwan_regulatory.market_status = Not marketed`), with **0 registered authorizations**. No product, dosage form, or approved indication text is available for this drug in the current dataset.
+På tvers av de andre forutsagte indikasjonene i denne bevissamlingen gjelder samme mønster: hår-/follikkelrelaterte forutsigelser (rangeringer 3, 4, 5, 7), thoracic outlet syndrome (rangeringer 8, 9), og calciphylaxis (rangering 10) mangler alle mekanistisk eller klinisk begrunnelse. Det ene unntaket – «vaskulær sykdom» (rangering 6) – har litteraturbevis, men det peker i **motsatt retning**: kardioprotektive effekter rapportert i litteraturen tilskrives oksytocin-reseptor**agonisme**, mens atosiban er en reseptor**antagonist**, og en separat kohort-studie forbinder tocolytisk eksponering med økt neonatal intraventrikulær blødning og død. Dette er et sikkerhetssignal, ikke støttende bevis.
 
 ---
 
-## Other Predicted Indications (For Reference)
+## Klinisk forsøkbevis
 
-The evidence pack scores ten indications for atosiban; none currently reaches an actionable evidence level. Summary:
+For tiden ingen relaterte kliniske forsøk registrert.
 
-| Rank | Disease | TxGNN Score | Evidence Level | Note |
+*(Ingen forsøk er forbundet med den høyest rangerte indikasjonen, primært arvelig glaukom. Merk: rangering 9, «venøst thoracic outlet syndrome», lister NCT03570294, men dette forsøket evaluerer oksidativt stress hos premature gravide som mottar atosiban og har ingen direkte relevans til thoracic outlet syndrome – det er en feilmatchet paring per bevissamlingens egen relevans-gradering (Grad C).)*
+
+---
+
+## Litteraturbevis
+
+For tiden ingen relatert litteratur tilgjengelig for primært arvelig glaukom.
+
+---
+
+## Markedsinformasjon for Norge
+
+Atosiban er **ikke markedsført** i Norge (`taiwan_regulatory.market_status = Not marketed`), med **0 registrerte autorisasjoner**. Ingen produkt, doseringsform eller godkjent indiksjonstekst er tilgjengelig for dette legemidlet i det gjeldende datasettet.
+
+---
+
+## Andre forutsagte indikasjonene (til referanse)
+
+Bevissamlingen scorer ti indikasjonene for atosiban; ingen når for tiden et evidensnivå som tillater handling. Sammendrag:
+
+| Rangering | Sykdom | TxGNN-score | Evidensnivå | Merknad |
 |------|---------|-------------|-----------------|------|
-| 1 | Primary hereditary glaucoma | 99.92% | L5 | No mechanistic or clinical support |
-| 2 | Open-angle glaucoma | 99.92% | L5 | No mechanistic or clinical support |
-| 3 | Congenital hypotrichosis milia | 99.89% | L5 | No mechanistic or clinical support |
-| 4 | Alopecia | 99.89% | L5 | No direct study; only indirect oxytocin/skin biology speculation |
-| 5 | Hypotrichosis simplex of the scalp | 99.89% | L5 | No mechanistic or clinical support |
-| 6 | Vascular disease | 99.87% | L4 | **Mechanistically contradictory** (antagonist vs. protective agonist effects) + a safety signal (neonatal IVH/death with tocolytic exposure) |
-| 7 | Diffuse alopecia areata | 99.86% | L5 | No mechanistic or clinical support |
-| 8 | Arterial thoracic outlet syndrome | 99.86% | L5 | No mechanistic or clinical support |
-| 9 | Venous thoracic outlet syndrome | 99.86% | L5 | Only trial listed is a mismatched pairing (Grade C relevance) |
-| 10 | Visceral calciphylaxis | 99.84% | L5 | No mechanistic or clinical support |
+| 1 | Primært arvelig glaukom | 99.92% | L5 | Ingen mekanistisk eller klinisk støtte |
+| 2 | Åpenvinklet glaukom | 99.92% | L5 | Ingen mekanistisk eller klinisk støtte |
+| 3 | Congenital hypotrichosis milia | 99.89% | L5 | Ingen mekanistisk eller klinisk støtte |
+| 4 | Alopecia | 99.89% | L5 | Ingen direkte studie; kun indirekte spekulasjon om oksytocin/hudbiologi |
+| 5 | Hypotrichosis simplex of the scalp | 99.89% | L5 | Ingen mekanistisk eller klinisk støtte |
+| 6 | Vaskulær sykdom | 99.87% | L4 | **Mekanistisk selvmotsigende** (antagonist vs. beskyttende agonist-effekter) + et sikkerhetssignal (neonatal IVH/død med tocolytisk eksponering) |
+| 7 | Diffus alopecia areata | 99.86% | L5 | Ingen mekanistisk eller klinisk støtte |
+| 8 | Arteriell thoracic outlet syndrome | 99.86% | L5 | Ingen mekanistisk eller klinisk støtte |
+| 9 | Venøst thoracic outlet syndrome | 99.86% | L5 | Eneste forsøk som er oppført er en feilmatchet paring (Grad C relevans) |
+| 10 | Visceral calciphylaxis | 99.84% | L5 | Ingen mekanistisk eller klinisk støtte |
 
-None of these indications meet the threshold for progression beyond S0/S1 hold status.
-
----
-
-## Safety Considerations
-
-No safety data (key warnings, contraindications, or drug interactions) are currently available for atosiban in this evidence pack — this is flagged as a **Blocking** data gap (DG001) that prevents any S1 safety assessment. Please refer to the manufacturer's product information or regulatory sources in markets where atosiban is approved (e.g., EU/EMA) before any further evaluation.
+Ingen av disse indikasjonene oppfyller terskelen for progresjon utover S0/S1 avvent-status.
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Ingen sikkerhetsinformasjon (viktige advarsler, kontraindikasjoner eller legemiddelinteraksjoner) er for tiden tilgjengelig for atosiban i denne bevissamlingen – dette er merket som en **blokkerende** datakløft (DG001) som hindrer enhver S1-sikkerhetsvurdering. Vennligst se produsentens produktinformasjon eller regulatoriske kilder i markeder der atosiban er godkjent (f.eks. EU/EMA) før videre vurdering.
 
-**Rationale:**
-All ten TxGNN-predicted indications for atosiban are unsupported by clinical trials or credible mechanistic literature (nine at L5). The single indication reaching L4 ("vascular disease") is undermined by opposing receptor pharmacology and an associated safety signal (neonatal IVH/death with tocolytic exposure) rather than genuine supporting evidence. Atosiban is also not marketed in Norway, and both safety labeling (DG001, Blocking) and mechanism-of-action data (DG002, High) are missing.
+---
 
-**To proceed, the following is needed:**
-- Obtain atosiban's approved product labeling (warnings/contraindications) from a market where it is registered (e.g., EMA/EU SmPC), to resolve DG001
-- Obtain confirmed MOA detail from DrugBank API to resolve DG002
-- If pursuing glaucoma-related indications: commission dedicated preclinical studies on oxytocin/V1A receptor pathways in aqueous humor dynamics, since no literature currently exists
-- Before considering any cardiovascular-related repurposing (rank 6), specifically investigate the antagonist-vs-agonist mechanistic conflict and the neonatal IVH/death safety signal in PMID 30646165
+## Konklusjon og neste skritt
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Alle ti TxGNN-forutsagte indikasjonene for atosiban er ikke støttet av kliniske forsøk eller troverdig mekanistisk litteratur (ni på L5). Den eneste indikasjonen som når L4 («vaskulær sykdom») blir undergravd av motsatt reseptor-farmakologi og et forbundet sikkerhetssignal (neonatal IVH/død med tocolytisk eksponering) i stedet for ekte støttende bevis. Atosiban er heller ikke markedsført i Norge, og både sikkerhetsmerknad (DG001, Blokkering) og virkningsmekanisme-data (DG002, Høy) mangler.
+
+**For å komme videre, er følgende nødvendig:**
+- Innhent atosibans godkjente produktmerknad (advarsler/kontraindikasjoner) fra et marked hvor det er registrert (f.eks. EMA/EU SmPC), for å løse DG001
+- Innhent bekreftet MOA-detaljer fra DrugBank API for å løse DG002
+- Hvis man forfølger glaukom-relaterte indikasjonene: iverksett dedikerte prekliniske studier på oksytocin-/V1A-reseptor-veier i kammervæte-dynamikk, da det for tiden ikke finnes litteratur
+- Før man vurderer noen kardiovaskulær-relatert legemiddelombruk (rangering 6), undersøk spesifikt antagonist-vs-agonist-mekanistisk konflikt og neonatal IVH/død-sikkerhetssignalet i PMID 30646165
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

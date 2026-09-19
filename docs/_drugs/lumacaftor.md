@@ -29,77 +29,78 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Lumacaftor：從囊狀纖維化到痲瘋病
+# Lumacaftor: Fra cystisk fibrose til spedalskhet
 
-## 一句話摘要
+## Sammenfatting i ett setning
 
-Lumacaftor 是一種 CFTR 蛋白質摺疊校正劑，原用於治療囊狀纖維化（與 ivacaftor 併用，如 Orkambi，適用於 F508del-CFTR 突變患者）。
-TxGNN 模型預測其可能對**痲瘋病（Leprosy）**有效，但目前**沒有臨床試驗、也沒有文獻**支持此方向，證據等級為最低的 L5。
-
----
-
-## 快速總覽
-
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | 囊狀纖維化（合併 ivacaftor 使用，如 Orkambi） |
-| 預測新適應症 | 痲瘋病（Leprosy） |
-| TxGNN 預測分數 | 99.44% |
-| 證據等級 | L5（僅模型預測，無實際研究支持） |
-| 台灣市場狀態 | Not marketed |
-| 許可證數量 | 0 |
-| 建議決策 | Hold（暫緩） |
+Lumacaftor er en CFTR-proteinfoldingkorreksjonsmiddel, opprinnelig brukt til behandling av cystisk fibrose (brukt sammen med ivacaftor, slik som Orkambi, egnet for pasienter med F508del-CFTR-mutasjoner).
+TxGNN-modellen forutsier at det kan være effektivt for **spedalskhet (Leprosy)**, men det finnes for tiden **ingen kliniske forsøk eller litteraturbeviser** for denne retningen, og bevisnivået er det laveste L5.
 
 ---
 
-## 為什麼這個預測合理性存疑？
+## Hurtigoversikt
 
-Lumacaftor 官方 MOA 欄位標記為資料缺口（[Data Gap]），但根據已知藥理學資訊，Lumacaftor 是一種 CFTR 蛋白質摺疊校正劑（CFTR corrector），透過分子伴侶樣作用改善 F508del-CFTR 突變蛋白的細胞內運輸與功能，臨床上僅核准與 ivacaftor 併用（如 Orkambi）治療囊狀纖維化。
-
-痲瘋病的病理機轉為 *Mycobacterium leprae* 感染引發之慢性肉芽腫性發炎與周邊神經損傷，目前並無已知證據顯示 CFTR 蛋白摺疊或氯離子通道功能與此病理過程存在生物學關聯。
-
-TxGNN 給出的高分（0.994）較可能反映知識圖譜中的間接連結（例如藥物—基因—疾病共現路徑），而非具生物合理性的機轉假說。在缺乏任何支持性文獻或試驗的情況下，此預測的機轉合理性應被視為**存疑**，需要人工複核後才能決定是否進一步投入資源。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Cystisk fibrose (kombinert bruk av ivacaftor, slik som Orkambi) |
+| Forutsagt ny indikasjon | Spedalskhet (Leprosy) |
+| TxGNN-prediksjonsresultat | 99.44% |
+| Bevisnivå | L5 (kun modellprediksjon, ingen faktisk forskningsstøtte) |
+| Taiwan-markedsstatus | Not marketed |
+| Antall godkjenningsbevis | 0 |
+| Anbefalt beslutning | Hold (utsett) |
 
 ---
 
-## 文獻證據
+## Hvorfor er rimeligheten til denne prediksjonen tvilsom?
 
-目前無相關文獻資料
+Selv om Lumacaftor offisielt har MOA-feltet markert som datakløft ([Data Gap]), basert på kjent farmakologisk informasjon er Lumacaftor en CFTR-proteinfoldingkorreksjonsmiddel som forbedrer intracellulær transport og funksjon av F508del-CFTR-mutantproteinet gjennom molekylchaperon-lignende virkning, og er klinisk godkjent kun i kombinasjon med ivacaftor (slik som Orkambi) til behandling av cystisk fibrose.
 
----
+Patogenesen av spedalskhet er kronisk granulomatøs inflammasjon og perifer nerveskade forårsaket av *Mycobacterium leprae*-infeksjon, og det finnes for tiden ingen kjent bevis som viser biologisk sammenheng mellom CFTR-proteinfoldning eller kloridjonionekanal-funksjon og denne patogenetiske prosessen.
 
-## 台灣市場資訊
-
-該藥品目前**未於台灣上市**，無許可證記錄可供列出。
+Den høye poengsum gitt av TxGNN (0.994) reflekterer sannsynligvis indirekte koblinger i kunnskapsgrafen (for eksempel stoff–gen–sykdom-sameksistenssti), snarere enn en patogenetisk hypotese med biologisk rimelighet. I fravær av noen litteraturbeviser eller forsøk, bør mekanismenes rimelighet av denne prediksjonen anses som **tvilsom**, og det kreves manuell gjennomgang før man avgjør om man skal investere videre ressurser.
 
 ---
 
-## 安全性考量
+## Klinisk forsøksbeviser
 
-請參考仿單以獲取安全性資訊。
-
-（註：仿單警語與禁忌事項目前為 Blocking 等級資料缺口，須先取得 TFDA 官方仿單內容，才能進行 S1 安全性初評。）
+For tiden ingen relevante kliniske forsøk registrert
 
 ---
 
-## 結論與下一步
+## Litteraturbeviser
 
-**決策：Hold（暫緩）**
+For tiden ingen relevant litteraturdata
 
-**理由：**
-TxGNN 預測分數雖高，但完全缺乏臨床試驗與文獻支持（L5），且機轉層面（CFTR 蛋白摺疊校正 vs. 分枝桿菌感染性肉芽腫疾病）無已知生物學關聯，機轉合理性存疑。此外，仿單警語與禁忌事項仍為 Blocking 等級資料缺口，尚無法進行安全性初評。
+---
 
-**若要繼續推進，需要補齊：**
-- TFDA 官方仿單警語／禁忌（DG001，Blocking，須下載並解析）
-- DrugBank 完整 MOA 資料以確認機轉關聯性（DG002，High）
-- 針對 CFTR 調節劑是否具抗分枝桿菌或免疫調節作用的臨床前機轉研究
-- 機轉合理性人工複核結果，作為是否進入下一階段（S1）的判斷依據
+## Taiwan-markedsinformasjon
+
+Legemidlet er for tiden **ikke markedsført i Taiwan**, og det er ingen godkjenningsbeviser tilgjengelig for opplistning.
+
+---
+
+## Sikkerhetshensyn
+
+Se produktinformasjonen for sikkerhetsinformasjon.
+
+(Merknad: Produktinformasjonsadvarsel og kontraindikasjon er for tiden datakløfter på blokkernivå, og du må først oppnå offisiell TFDA-produktinformasjon før du kan utføre S1-sikkerhetsvurdering.)
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Hold (utsett)**
+
+**Begrunnelse:**
+Selv om TxGNN-prediksjonsscore er høyt, mangler det helt kliniske forsøk og litteraturbeviser (L5), og på mekanismenivå (CFTR-proteinfoldingkorreksjon vs. mykobakteriell infeksiøs granulomatøs sykdom) er det ingen kjent biologisk sammenheng, og mekanismenes rimelighet er tvilsom. Dessuten er produktinformasjonsadvarsel og kontraindikasjon fortsatt datakløfter på blokkernivå, og S1-sikkerhetsvurdering kan ikke utføres ennå.
+
+**For å fortsette fremover, må følgende fylles ut:**
+- Offisiell TFDA produktinformasjon advarsel/kontraindikasjon (DG001, Blocking, må lastes ned og analyseres)
+- Fullstendig DrugBank MOA-data for å bekrefte mekanismekorrelasjoner (DG002, High)
+- Preklinisk mekanismeforskning på om CFTR-modulatorer har antimykobakteriell eller immunmodulatorisk effekt
+- Resultat av manuell gjennomgang av mekanismenes rimelighet, som grunnlag for vurdering av hvorvidt man skal gå til neste fase (S1)
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

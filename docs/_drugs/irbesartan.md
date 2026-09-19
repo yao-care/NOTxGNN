@@ -29,63 +29,64 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Irbesartan: From Hypertension to Malignant Renovascular Hypertension
+# Irbesartan: Fra hypertensjon til malign renovaskular hypertensjon
 
-## One-Sentence Summary
+## Sammenfatning i én setning
 
-Irbesartan is an angiotensin II receptor blocker (ARB); the detailed approved indication text is not available in this dataset. The TxGNN model predicts potential efficacy for **Malignant Renovascular Hypertension**, but this prediction is currently supported by **no clinical trials and no literature** — it rests solely on mechanistic plausibility (RAAS pathway blockade).
+Irbesartan er en angiotensin II-reseptorblokkerer (ARB); detaljert godkjent indikasjonsbeskrivelse er ikke tilgjengelig i dette datasettet. TxGNN-modellen forutsier potensiell effektivitet for **malign renovaskular hypertensjon**, men denne prognosen støttes for øyeblikket av **ingen kliniske studier og ingen litteratur** — den baseres utelukkende på mekanistisk plausibilitet (RAAS-veiblokade).
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Emne | Innhold |
 |------|------|
-| Original Indication | Not specified in dataset (no drug license or indication text available; Irbesartan is a known ARB commonly used for hypertension) |
-| Predicted New Indication | Malignant Renovascular Hypertension |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L4 (mechanism-based, no clinical/literature support) |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Ikke spesifisert i datasettet (ingen medikamentlisens eller indikasjonsbeskrivelse tilgjengelig; Irbesartan er en kjent ARB som vanligvis brukes mot hypertensjon) |
+| Forutsagt ny indikasjon | Malign renovaskular hypertensjon |
+| TxGNN prediktiv score | 99.31% |
+| Bevisnivå | L4 (mekanisme-basert, ingen klinisk/litteraturstøtte) |
+| Markedsstatus for Norge | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt vedtak | Hold |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prognosen rimelig?
 
-Currently, detailed mechanism of action data for this candidate is not available in the dataset (flagged as a High-severity data gap, DG002). Based on general pharmacological knowledge, Irbesartan belongs to the angiotensin II receptor blocker (ARB) class, which blocks the AT1 receptor to suppress RAAS-driven vasoconstriction — a pathway central to the pathophysiology of renovascular hypertension (renal artery stenosis → increased renin release → systemic hypertension).
+For øyeblikket er detaljerte data om virkningsmåte for denne kandidaten ikke tilgjengelig i datasettet (merket som høy-alvorlighetsgrad datakløft, DG002). Basert på generell farmakologisk kunnskap tilhører Irbesartan angiotensin II-reseptorblokkerer-klassen (ARB), som blokkerer AT1-reseptoren for å dempe RAAS-drevet vasokonstriksjon — en vei som er sentral for patofysiologien ved renovaskular hypertensjon (nyrearteriestenose → økt renin-frigjøring → systemisk hypertensjon).
 
-Mechanistically, this explains why TxGNN assigns a high prediction score: ARB pharmacology is conceptually aligned with the pathophysiology of malignant renovascular hypertension. However, this is an important caution rather than pure support — ARBs and ACE inhibitors carry a well-established risk of inducing acute kidney injury in patients with bilateral renal artery stenosis or stenosis of a solitary functioning kidney, which is precisely the population this indication targets. The prediction should therefore be treated as a mechanistic hypothesis requiring careful safety evaluation, not as validated efficacy.
+Mekanistisk sett forklarer dette hvorfor TxGNN tildeler en høy prediktiv score: ARB-farmakologi er konseptuelt i tråd med patofysiologien ved malign renovaskular hypertensjon. Imidlertid er dette en viktig advarsel snarere enn ren støtte — ARB-er og ACE-hemmere har en veletablert risiko for å forårsake akutt nyreskade hos pasienter med bilateral nyrearteriestenose eller stenose i en enkelt fungerende nyre, som er nettopp populasjonen denne indikasjonen retter seg mot. Prognosen bør derfor behandles som en mekanistisk hypotese som krever nøye sikkerhetsvurdering, ikke som validert effektivitet.
 
-## Clinical Trial Evidence
+## Bevis fra kliniske studier
 
-Currently no related clinical trials registered.
+Ingen relaterte kliniske studier er for øyeblikket registrert.
 
-## Literature Evidence
+## Litteraturbevis
 
-Currently no related literature available.
+Ingen relatert litteratur er for øyeblikket tilgjengelig.
 
-*(Note: the evidence pack does contain 20 literature entries under a lower-ranked, lower-confidence candidate indication — "pulmonary hypertension owing to lung disease and/or hypoxia" — but none of those articles mention Irbesartan or ARBs; they are general hypoxia/oncology biology papers and do not constitute supporting evidence for that indication either.)*
+*(Merknad: bevissamlingen inneholder imidlertid 20 litteraturreferanser under en lavere rangert, lavere konfidensindikasjon — "pulmonal hypertensjon på grunn av lungesykdom og/eller hypoksi" — men ingen av disse artiklene nevner Irbesartan eller ARB-er; de er generelle hypoksi-/onkologibiologiartikler og utgjør heller ikke støttende bevis for den indikasjonen heller.)*
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Irbesartan is currently **not marketed** in Norway per this dataset — no drug licenses were found (`total_licenses: 0`).
+Irbesartan er for øyeblikket **ikke markedsført** i Norge i henhold til dette datasettet — ingen medikamentlisenser ble funnet (`total_licenses: 0`).
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Detailed safety data (key warnings, contraindications, drug interactions) is not available in this dataset. This is flagged as a **Blocking**-severity data gap (DG001 — TFDA/regulatory package insert warnings and contraindications), meaning this candidate cannot proceed to formal safety evaluation (S1) until the official prescribing information is retrieved.
+Detaljerte sikkerhetdata (sentrale advarsler, kontraindikasjon, legemiddelinteraksjoner) er ikke tilgjengelig i dette datasettet. Dette er merket som en **Blocking**-alvorlighetsgrad datakløft (DG001 — TFDA/regulatorisk pakningssedhette advarsler og kontraindikasjon), som betyr at denne kandidaten ikke kan gå videre til formell sikkerhetsvurdering (S1) inntil den offisielle produktinformasjonen hentes.
 
-Please refer to the official package insert for complete safety information once available. Given the known class-effect risk of ARBs in renal artery stenosis (potential acute kidney injury), renal function and safety data should be prioritized before any further evaluation of this specific indication.
+Vennligst se den offisielle pakningssedhetten for fullstendig sikkerhetsinformasjon når den er tilgjengelig. Gitt den kjente klasse-effekt-risikoen for ARB-er ved nyrearteriestenose (potensiell akutt nyreskade), bør nyrefunksjon og sikkerhetdata prioriteres før videre evaluering av denne spesifikke indikasjonen.
 
-## Conclusion and Next Steps
+## Konklusjon og neste skritt
 
-**Decision: Hold**
+**Vedtak: Hold**
 
-**Rationale:**
-Evidence level is L4 — the prediction is supported only by class-level mechanistic reasoning, with zero clinical trials or literature directly addressing Irbesartan in malignant renovascular hypertension. The drug is not currently marketed in Norway, and a Blocking safety data gap (missing package insert warnings/contraindications) prevents progression to formal safety review. There is also a known class-risk (AKI in renal artery stenosis) that directly conflicts with the target population, warranting caution rather than advancement.
+**Begrunnelse:**
+Bevisnivå er L4 — prognosen støttes kun av mekanistisk resonnering på klassenivå, uten noen kliniske studier eller litteratur som direkte omhandler Irbesartan ved malign renovaskular hypertensjon. Legemidlet er for øyeblikket ikke markedsført i Norge, og en Blocking sikkerhetsdatakløft (manglende pakningssedhette advarsler/kontraindikasjon) hindrer framskriden til formell sikkerhetsvurdering. Det finnes også en kjent klassespesifikk risiko (AKI ved nyrearteriestenose) som direkte strider mot målpopulasjonen, som rettferdiggjør forsiktighet snarere enn framgang.
 
-**To proceed, the following is needed:**
-- Official prescribing information (TFDA or equivalent) for warnings and contraindications (resolves blocking gap DG001)
-- Detailed mechanism of action data from DrugBank (resolves DG002)
-- Targeted literature/trial search specifically for ARB use in renovascular or malignant hypertension (current literature set is unrelated)
-- Renal function monitoring protocol given the known AKI risk of ARBs in bilateral/solitary-kidney renal artery stenosis
-- Reassessment of Norway market entry status before considering repurposing pathway
+**For å gå videre kreves følgende:**
+- Offisiell produktinformasjon (TFDA eller tilsvarende) for advarsler og kontraindikasjon (løser blocking-kløft DG001)
+- Detaljert virkningsmåtedata fra DrugBank (løser DG002)
+- Målrettet litteratur-/forsøkssøk spesifikt for ARB-bruk ved renovaskular eller malign hypertensjon (gjeldende litteratursamling er ikke relevant)
+- Nyrefunksjonsovervåkningsprotokoll gitt den kjente AKI-risikoen for ARB-er ved bilateral/enkelt-nyre nyrearteriestenose
+- Revurdering av markedsstatussen i Norge før man vurderer omsidesbruksforløp
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

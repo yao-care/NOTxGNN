@@ -29,68 +29,69 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Pregabalin: From Neuropathic Pain to Tendinitis
+# Pregabalin: Fra nevropatisk smerte til tendinitt
 
-## One-Sentence Summary
+## Oppsummering i én setning
 
-Pregabalin is an α2δ (alpha-2-delta) voltage-gated calcium channel ligand historically used for neuropathic pain and as adjunctive therapy for partial epilepsy, with additional off-label use in generalized anxiety disorder and fibromyalgia.
-The TxGNN model predicts it may be effective for **Tendinitis**, but this direction is currently supported by **0 clinical trials** and only **6 tangentially related publications** — mostly on post-surgical opioid-sparing analgesia rather than tendinitis treatment itself.
+Pregabalin er en α2δ (alpha-2-delta) spenningsstyrert kalsiumkanalsligand som historisk har blitt brukt til nevropatisk smerte og som adjuvansbehandling ved partiell epilepsi, med ytterligere off-label-bruk ved generalisert angstlidelse og fibromyalgi.
+TxGNN-modellen predikerer at det kan være effektivt for **tendinitt**, men denne retningen støttes for øyeblikket av **0 kliniske studier** og bare **6 tangentielt relaterte publikasjoner** — hovedsakelig om postoperativ opioidbesparende smertelindring snarere enn tendinitt-behandling i seg selv.
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
+| Element | Innhold |
 |------|------|
-| Original Indication | Not documented in the evidence pack (no TFDA/DrugBank license text available); literature (PMID 30001248) indicates established use for neuropathic pain and adjunctive partial-epilepsy treatment |
-| Predicted New Indication | Tendinitis |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Opprinnelig indikasjon | Ikke dokumentert i evidence pack (ingen TFDA/DrugBank-lisensfil tilgjengelig); litteratur (PMID 30001248) indikerer etablert bruk til nevropatisk smerte og adjuvansbehandling ved partiell epilepsi |
+| Forutsagt ny indikasjon | Tendinitt |
+| TxGNN-prediksjonscore | 99.71% |
+| Bevisnivå | L4 |
+| Status på taiwansk marked | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Avvent |
 
-## Why is This Prediction Reasonable?
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently, detailed mechanism of action data from DrugBank is not available (flagged as a High-severity data gap). Based on what is documented in the supporting literature and the model's own rationale, pregabalin acts as a ligand of the α2δ subunit of voltage-gated calcium channels, producing central antinociceptive and anti-hyperalgesic effects. Clinically, this mechanism has been used to reduce opioid consumption after arthroscopic shoulder (rotator cuff/tendon) surgery.
+For øyeblikket er detaljerte virkningsmekanisme-data fra DrugBank ikke tilgjengelig (flagget som et høyt-alvorlighets datamangler). Basert på hva som er dokumentert i støttende litteratur og modellens egen begrunnelse, virker pregabalin som en ligand av α2δ-delenheten av spenningsstyrt kalsiumkanaler, som produserer sentrale antinosiseptiske og antihyperalgesiske effekter. Klinisk har denne mekanismen blitt brukt til å redusere opioidforbruk etter artroskopisk skulderkirurgi (rotatorkuff/sene).
 
-However, the mechanistic link to tendinitis itself is weak. Tendinitis is fundamentally an inflammatory/degenerative condition of tendon tissue, whereas pregabalin's action is centered on central pain sensitization rather than local inflammation, collagen repair, or tendon healing. The supporting literature largely describes pregabalin as a perioperative analgesic adjunct *after* tendon surgery (e.g., rotator cuff repair) — not as a treatment for tendinitis pathology or its resolution. As the evidence pack's own rationale states, there is "no direct correspondence" between pregabalin's mechanism and the inflammatory pathology of tendinitis; the prediction appears to arise from co-occurrence in the literature (pain management around tendon procedures) rather than a disease-modifying rationale.
+Imidlertid er den mekanistiske forbindelsen til tendinitt i seg selv svak. Tendinitt er fundamentalt en inflammatorisk/degenerativ tilstand av senelaget, mens pregabalins virkning er sentrert på sentral smertesensitivisering snarere enn lokal inflammasjon, kollagenreparasjon eller seneheling. Den støttende litteraturen beskriver i stor grad pregabalin som et perioperativt analgetisk adjuvans *etter* senekirurgi (f.eks. rotatorkuff-reparasjon) — ikke som en behandling for tendinitt-patologi eller dets helbredelse. Som evidence pack-ens egen begrunnelse angir, er det «ingen direkte korrespondanse» mellom pregabalins mekanisme og tendinittens inflammatoriske patologi; prediksjonen ser ut til å oppstå fra samtidig forekomst i litteraturen (smertelindring rundt seneprosedyrer) snarere enn en sykdomsmodifiserende begrunnelse.
 
-## Clinical Trial Evidence
+## Klinisk prøvingsbevis
 
-Currently no related clinical trials registered.
+For øyeblikket er det ingen relaterte kliniske studier registrert.
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [32839073](https://pubmed.ncbi.nlm.nih.gov/32839073/) | 2021 | RCT | J Orthop Sci | Retrospective cohort evaluating analgesic efficacy and opioid-sparing effect of pregabalin after arthroscopic rotator cuff (tendon) repair surgery |
-| [34052386](https://pubmed.ncbi.nlm.nih.gov/34052386/) | 2022 | RCT | Arthroscopy | Perioperative oral pregabalin produced pain scores comparable to interscalene brachial plexus block after arthroscopic rotator cuff repair |
-| [40818536](https://pubmed.ncbi.nlm.nih.gov/40818536/) | 2025 | Review/Editorial | Arthroscopy | Editorial on piriformis syndrome diagnosis and surgical release of the piriformis tendon; not focused on pregabalin efficacy |
-| [41017607](https://pubmed.ncbi.nlm.nih.gov/41017607/) | 2025 | Case Report | Praxis | Case of fluoroquinolone-associated disability including tendinopathy after ciprofloxacin; pregabalin not the subject drug |
-| [37051935](https://pubmed.ncbi.nlm.nih.gov/37051935/) | 2023 | Case Report | Pain Practice | Case of posterior femoral cutaneous nerve impingement from hamstring tendonitis after marathon running |
-| [39703364](https://pubmed.ncbi.nlm.nih.gov/39703364/) | 2024 | Preclinical | Adv Pharmacol Pharm Sci | Rat study of a plant extract (not pregabalin) attenuating vincristine-induced peripheral neuropathy; only tangential relevance |
+| [32839073](https://pubmed.ncbi.nlm.nih.gov/32839073/) | 2021 | RCT | J Orthop Sci | Retrospektiv kohortstudie som evaluerer analgetisk effektivitet og opioidbesparende effekt av pregabalin etter artroskopisk rotatorkuff-(sene)-reparasjonskirurgi |
+| [34052386](https://pubmed.ncbi.nlm.nih.gov/34052386/) | 2022 | RCT | Arthroscopy | Perioperativ oral pregabalin ga smertescore sammenlignbar med interscalene braksialt pleksusblokk etter artroskopisk rotatorkuff-reparasjon |
+| [40818536](https://pubmed.ncbi.nlm.nih.gov/40818536/) | 2025 | Gjennomgang/Lederskrift | Arthroscopy | Lederskrift om diagnose av piriformis-syndrom og kirurgisk frigjøring av piriformis-senen; ikke fokusert på pregabalin-effektivitet |
+| [41017607](https://pubmed.ncbi.nlm.nih.gov/41017607/) | 2025 | Caserapport | Praxis | Tilfelle av fluorkinolon-assosiert funksjonshemming inkludert tendinopatologi etter siprofloksacin; pregabalin er ikke det aktuelle stoffet |
+| [37051935](https://pubmed.ncbi.nlm.nih.gov/37051935/) | 2023 | Caserapport | Pain Practice | Tilfelle av posterior femoralt kutant nerveinnsnevring fra hamstring-tendinitt etter marathonløp |
+| [39703364](https://pubmed.ncbi.nlm.nih.gov/39703364/) | 2024 | Preklinisk | Adv Pharmacol Pharm Sci | Rattestudie av et planteekstrakt (ikke pregabalin) som demper vincristin-indusert perifer neuropati; bare tangentiell relevans |
 
-Note: none of the above studies directly evaluate pregabalin as a treatment for tendinitis; relevance is indirect (perioperative pain control around tendon surgery or unrelated tendon case reports).
+Merk: ingen av studiene ovenfor evaluerer direkte pregabalin som behandling for tendinitt; relevans er indirekte (perioperativ smertelindring rundt senekirurgi eller ikke-relaterte sene-caserapporter).
 
-## Taiwan Market Information
+## Taiwansk markedsinformasjon
 
-Pregabalin is currently **not marketed** in Taiwan under this evidence pack (0 authorizations, no license records available).
+Pregabalin er for øyeblikket **ikke markedsført** i Taiwan ifølge denne evidence pack (0 godkjennelser, ingen lisensoppføringer tilgjengelig).
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and DDI data are not yet available in this evidence pack; TFDA label retrieval is flagged as a Blocking data gap — DG001.)
+Vennligst se pakningsvedlegget for sikkerhetsopplysninger. (Viktige advarsler, kontraindikasjoner og DDI-data er ennå ikke tilgjengelig i denne evidence pack; TFDA-etikettinnhenting er flagget som et blokkering-datamangler — DG001.)
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Avvent**
 
-**Rationale:**
-No clinical trials directly test pregabalin for tendinitis, and the supporting literature addresses perioperative opioid-sparing analgesia after tendon surgery rather than tendinitis treatment or resolution. The proposed mechanism (central calcium-channel modulation of pain sensitization) does not clearly address the underlying inflammatory/degenerative pathology of tendinitis, so the evidence level remains L4 (mechanistic/indirect only).
+**Begrunnelse:**
+Ingen kliniske studier tester direkte pregabalin for tendinitt, og den støttende litteraturen omhandler perioperativ opioidbesparende smertelindring etter senekirurgi snarere enn tendinitt-behandling eller helbredelse. Den foreslåtte mekanismen (sentral kalsiumkanal-modulering av smertesensitivisering) løser ikke tydelig den underliggende inflammatoriske/degenerative patologien av tendinitt, så bevisnivået forblir L4 (kun mekanistisk/indirekte).
 
-**To proceed, the following is needed:**
-- TFDA label data (warnings/contraindications) — currently Blocking (DG001)
-- Confirmed mechanism of action from DrugBank (DG002)
-- A prospective study designed to evaluate pregabalin's effect on tendinitis pain/healing specifically, rather than post-surgical analgesia as a surrogate
-- Reassessment of the TxGNN prediction rationale to rule out confounding from co-occurrence in perioperative pain literature
+**For å fortsette, trengs følgende:**
+- TFDA-etikett-data (advarsler/kontraindikasjoner) — for øyeblikket blokkering (DG001)
+- Bekreftet virkningsmekanisme fra DrugBank (DG002)
+- En prospektiv studie designet for å evaluere pregabalins effekt på tendinitt-smerte/heling spesifikt, snarere enn postoperativ smertelindring som surrogatmål
+- Revurdering av TxGNN-prediksjons-begrunnelsen for å utelukke confounding fra samtidig forekomst i perioperativ smertlitteratur
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

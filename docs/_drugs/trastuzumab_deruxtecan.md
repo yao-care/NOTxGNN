@@ -29,88 +29,89 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Trastuzumab Deruxtecan: From HER2-Targeted ADC Therapy to Drug-Induced Osteoporosis
+# Trastuzumab deruxtecan: Fra HER2-rettet ADC-terapi til medikamentindusert osteoporose
 
-## One-Sentence Summary
+## Sammendrag på en setning
 
-> Trastuzumab deruxtecan is a HER2-targeted antibody-drug conjugate (ADC) carrying a cytotoxic topoisomerase I inhibitor payload (DXd); the original approved indication is not documented in this evidence pack.
-> The TxGNN model predicts a possible association with **drug-induced osteoporosis**,
-> but this is supported by **0 clinical trials** and **0 publications** — the prediction rests entirely on the model score, with no independent evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (data gap — MOA and original indication fields both blank) |
-| Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L5 |
-| Norway Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+> Trastuzumab deruxtecan er et HER2-rettet antistoff-legemiddelkonjugat (ADC) som bærer en cytotoksisk topoisomerase I-hemmer som virkestoffladning (DXd); den opprinnelige godkjente indikasjonen er ikke dokumentert i dette bevismaterielet.
+> TxGNN-modellen forutsier en mulig sammenheng med **medikamentindusert osteoporose**,
+> men dette støttes av **0 kliniske forsøk** og **0 publikasjoner** — forutsigelsen hviler utelukkende på modellskåren, uten uavhengig bevis.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Detailed mechanism of action data is not available in structured form (`original_moa` = data gap). However, the evidence pack's own rationale text identifies trastuzumab deruxtecan as a HER2-targeted antibody-drug conjugate whose payload, DXd, is a topoisomerase I inhibitor — a systemic cytotoxic chemotherapy agent, not a bone-protective agent.
-
-Clinically, cytotoxic chemotherapy and HER2-directed endocrine-adjacent regimens (e.g., aromatase inhibition, ovarian suppression in HER2+ breast cancer) are well-recognized **causes** of drug-induced bone loss, not treatments for it. The predicted link therefore runs in the opposite direction from established pharmacology: the drug is mechanistically more plausible as a *risk factor* for osteoporosis than as a *therapy* for it.
-
-Given this, the prediction should be treated as a likely false positive of the data-driven TxGNN model rather than a biologically grounded repurposing hypothesis. No mechanistic, trial, or literature evidence currently supports pursuing this indication.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke dokumentert i bevismaterielet (datakløft — MOA- og opprinnelig indikasjonsfelt begge tomme) |
+| Forutsagt ny indikasjon | Medikamentindusert osteoporose |
+| TxGNN-forutsigelse-skår | 99.31% |
+| Bevisnivå | L5 |
+| Status på norsk marked | ✗ Ikke markedsført |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | **Avvent** |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne forutsigelsen rimelig?
 
-Currently no related literature available
+Detaljerte data om virkningsmekanisme er ikke tilgjengelig i strukturert form (`original_moa` = datakløft). Imidlertid identifiserer bevismaterielet selv trastuzumab deruxtecan som et HER2-rettet antistoff-legemiddelkonjugat hvis virkestoffladning, DXd, er en topoisomerase I-hemmer — et systemisk cytotoksisk kemoterapi-middel, ikke et benbeskyttende legemiddel.
 
----
+Klinisk sett er cytotoksisk kemoterapi og HER2-rettede behandlingsregimer brukt sammen med hormonbehandling (f.eks. aromatasinhibisjon, ovarial undertrykking ved HER2+ brystkreft) velkjente **årsaker** til medikamentindusert bentap, ikke behandlinger for det. Den forutsagte koblingen går derfor i motsatt retning fra etablert farmakologi: legemidlet er mekanistisk mer plausibelt som en *risikofaktor* for osteoporose enn som en *behandling* for det.
 
-## Norway Market Information
-
-Trastuzumab deruxtecan is not currently marketed in Norway; no authorizations are on record.
+Gitt dette, bør forutsigelsen behandles som et sannsynlig falskt positivt resultat av den data-drevne TxGNN-modellen snarere enn som en biologisk begrunnet gjenbrukshypotese. Ingen mekanistisk, forsøks- eller litteraturbevis støtter for tiden forfølgelsen av denne indikasjonen.
 
 ---
 
-## Cytotoxicity
+## Bevis fra kliniske forsøk
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (HER2-directed ADC) with conventional cytotoxic payload (DXd, topoisomerase I inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Must follow cytotoxic/ADC drug handling regulations |
+Ingen relaterte kliniske forsøk er for tiden registrert
 
 ---
 
-## Safety Considerations
+## Bevis fra litteratur
 
-Please refer to the package insert for safety information.
+Ingen relatert litteratur er for tiden tilgjengelig
 
 ---
 
-## Conclusion and Next Steps
+## Markedsinformasjon for Norge
 
-**Decision: Hold**
+Trastuzumab deruxtecan er ikke for tiden markedsført i Norge; ingen godkjennelser er registrert.
 
-**Rationale:**
-The predicted indication is unsupported by any clinical trial or literature evidence and is mechanistically implausible — the drug's known cytotoxic ADC profile is more consistent with *causing* bone loss than treating osteoporosis. Combined with blocking data gaps in MOA and TFDA safety labeling, there is no basis to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- Confirmed original approved indication and MOA data (currently missing from evidence pack)
-- TFDA/manufacturer package insert (warnings, contraindications) — currently a blocking data gap
-- Independent mechanistic or preclinical evidence explaining a plausible bone-protective effect, if any exists, before further evaluation
-- Re-review after data gaps DG001/DG002 are remediated
+## Cytotoksisitet
+
+| Element | Innhold |
+|---------|---------|
+| Klassifisering av cytotoksisitet | Målrettet terapi (HER2-rettet ADC) med konvensjonell cytotoksisk virkestoffladning (DXd, topoisomerase I-hemmer) |
+| Risiko for myelosuppresjon | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+| Klassifisering av emetogenitet | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+| Sikkerhet ved håndtering | Må følge forskrifter for håndtering av cytotoksiske/ADC-legemidler |
+
+---
+
+## Sikkerhetshensyn
+
+Se pakningsvedlegg for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Den forutsagte indikasjonen støttes ikke av noen kliniske forsøk eller litteraturbevis og er mekanistisk usannsynlig — legemidlets kjente cytotoksiske ADC-profil er mer i samsvar med *å forårske* bentap enn å behandle osteoporose. Kombinert med manglende data for MOA og TFDA-sikkerhetsetikett, finnes det ikke grunnlag for å fremme denne kandidaten.
+
+**For å fortsette trengs følgende:**
+- Bekreftet opprinnelig godkjent indikasjon og MOA-data (for tiden manglende fra bevismaterielet)
+- TFDA/produsentens pakningsvedlegg (advarsler, kontraindikasjoner) — for tiden en blokkering av datakløft
+- Uavhengig mekanistisk eller preklinisk bevis som forklarer en plausibel benbeskyttende effekt, hvis den eksisterer, før videre evaluering
+- Gjennomgang på nytt etter at datakløfter DG001/DG002 er avhjulpet
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

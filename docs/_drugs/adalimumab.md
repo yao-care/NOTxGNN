@@ -29,92 +29,83 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-Using the drug-repurposing evaluation report format to produce this report from the supplied Evidence Pack. A few notes on how I handled data gaps before the report itself:
+# Adalimumab: Fra revmatoid artritt til revmatoid vaskulitt
 
-- `taiwan_regulatory.licenses` is empty and `original_indications` is empty, so the evidence pack contains **no sourced original-indication text**. Per the prompt's fallback rule for missing MOA data, I've applied the same logic here: Adalimumab's original indication (rheumatoid arthritis) is stated as general/public drug knowledge, clearly distinguished from evidence-pack-sourced regulatory data (which shows 0 Norway licenses / not marketed).
-- The report focuses on `predicted_indications[0]` ("rheumatoid vasculitis"), consistent with the template's single-indication structure.
-- Adalimumab is an immunomodulator (TNF-α inhibitor), not an antineoplastic/cytotoxic agent → the Cytotoxicity section is omitted per the rules.
+## Sammendrag i én setning
 
----
+Adalimumab er en TNF-α-hemmer som opprinnelig brukes til å behandle revmatoid artritt og relaterte inflammatoriske artropatier. TxGNN-modellen forutsier at det kan være effektivt for **revmatoid vaskulitt**, med **5 kliniske forsøk** og **20 publikasjoner** som for tiden er hentet inn for å støtte denne retningen, selv om det meste av forsøksbeviset er indirekte (generelle RA/biologika-praksismønsterstudier i stedet for RV-spesifikke intervensjonelle forsøk).
 
-# Adalimumab: From Rheumatoid Arthritis to Rheumatoid Vasculitis
+## Kort oversikt
 
-## One-Sentence Summary
+| Emne | Innhold |
+|------|---------|
+| Originalindikasjon | Revmatoid artritt (ikke tilstede i bevispakets regulatoriske data; basert på etablert stoffinformasjon) |
+| Forutsagt ny indikasjon | Revmatoid vaskulitt |
+| TxGNN-prediktskår | 99.80% |
+| Bevisnivå | L3 |
+| Markedsstatus i Norge | Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Venting |
 
-Adalimumab is a TNF-α inhibitor originally used to treat rheumatoid arthritis and related inflammatory arthropathies.
-The TxGNN model predicts it may be effective for **Rheumatoid Vasculitis**,
-with **5 clinical trials** and **20 publications** currently retrieved in support of this direction, though most of the trial evidence is indirect (general RA/biologics practice-pattern studies rather than RV-specific interventional trials).
+## Hvorfor er denne prediksjonen rimelig?
 
-## Quick Overview
+Detaljerte mekanismedata er ikke tilgjengelige i bevispakningen for denne kandidaten (flagget som databrist med høy alvorlighetsgrad, DG002). Basert på etablert stoffinformasjon er adalimumab et fullt humant monoklonalt antistoff som binder tumornecrosis factor-alfa (TNF-α), og blokkerer dets pro-inflammatoriske sytokineffekter. Dets effektivitet ved revmatoid artritt (RA) er vel etablert, og det er godkjent på tvers av flere TNF-α-drevne inflammatoriske artropatier.
 
-| Item | Content |
-|------|------|
-| Original Indication | Rheumatoid Arthritis (not present in evidence pack's regulatory data; based on established drug information) |
-| Predicted New Indication | Rheumatoid Vasculitis |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L3 |
-| Norway Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Revmatoid vaskulitt (RV) er en av de alvorligste ekstraarticulære manifestasjonene av RA – en systemisk vaskulitt som rammer små til medium kar og oppstår fra samme underliggende autoimmun/inflammatoriske prosess som leddsjukdom, med TNF-α implisert i dens patogenese sammen med immunkompleks-avleiringer. Fordi RV oppstår nesten utelukkende hos pasienter med (ofte langvarig, serumpositivt) RA, er et stoff som allerede er bevist til å kontrollere RA-drevet inflammasjon mekanistisk plausibelt for RV også.
 
-## Why is This Prediction Reasonable?
+Det skal sies at litteraturbevisene er blandede: ved siden av en systematisk oversikt og saksrapporter om adalimumab som kontrollerer RV, er det også saksrapporter om anti-TNF-terapi som er *assosiert med* vaskulitt-lignende eller lupus-lignende hendelser, og om RV-symptomer som gjentakende seg etter reduksjon av adalimumab-dosen. Dette toveist signal (TNF-α-hemming som både en plausibel behandling og en rapportert utløser/framkallende årsak av vaskulitiske hendelser) er en viktig nyanse for tolkningen av TxGNN-prediksjonen og berettiger nøye klinisk skjønn fra sak til sak i stedet for en generell effektivitetsantagelse.
 
-Detailed mechanism-of-action data is not available in the evidence pack for this candidate (flagged as a High-severity data gap, DG002). Based on established drug information, adalimumab is a fully human monoclonal antibody that binds tumor necrosis factor-alpha (TNF-α), blocking its pro-inflammatory cytokine effects. Its efficacy in rheumatoid arthritis (RA) is well established, and it is approved across multiple TNF-α-driven inflammatory arthropathies.
+## Bevis fra kliniske forsøk
 
-Rheumatoid vasculitis (RV) is one of the most severe extra-articular manifestations of RA — a systemic vasculitis affecting small-to-medium vessels that arises from the same underlying autoimmune/inflammatory process as joint disease, with TNF-α implicated in its pathogenesis alongside immune-complex deposition. Because RV occurs almost exclusively in patients with (often long-standing, seropositive) RA, a drug already proven to control RA-driven inflammation is mechanistically plausible for RV as well.
-
-That said, the literature evidence is mixed: alongside a systematic review and case reports of adalimumab controlling RV, there are also case reports of anti-TNF therapy being *associated with* vasculitis-like or lupus-like events, and of RV symptoms recurring after adalimumab dose reduction. This bidirectional signal (TNF-α inhibition as both a plausible treatment and a reported trigger/precipitant of vasculitic events) is an important nuance for interpreting the TxGNN prediction and warrants careful case-by-case clinical judgment rather than a blanket efficacy assumption.
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Forsøksnummer | Fase | Status | Innskriving | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not yet recruiting | 80 | Evaluates perioperative immunosuppressant (incl. biologic) holding strategies in rheumatology patients undergoing shoulder arthroplasty; assesses flare risk, not an RV efficacy trial |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completed | 184 | Observational study of tocilizumab (not adalimumab) practice patterns in RA patients with inadequate DMARD response |
-| [NCT05111743](https://clinicaltrials.gov/study/NCT05111743) | N/A | Completed | 9,261 | Real-world safety study of brolucizumab in wet AMD — unrelated drug/indication, likely a keyword-matched false positive |
-| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | Completed | 808 | Cross-sectional study of biological DMARD treatment patterns and RA disease characteristics in China |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750,000 | Large-scale study of incident immune-mediated inflammatory disease risk in patients on biologics/immunosuppressants for a single IMID |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Ikke påbegynt rekruttering | 80 | Evaluerer perioperativ immunsupprimering (inkl. biologika) holdstrategier hos reumatologipasienter som gjennomgår skulderleddprotesekirurgi; vurderer flarefarer, ikke en RV-effektivitetsforsøk |
+| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Avsluttet | 184 | Observasjonell studie av tocilizumab (ikke adalimumab) praksismønstre hos RA-pasienter med utilstrekkelig DMARD-respons |
+| [NCT05111743](https://clinicaltrials.gov/study/NCT05111743) | N/A | Avsluttet | 9,261 | Virkelighetsstudie av sikkerhet ved brolucizumab i fuktig AMD – urelatert stoff/indikasjon, sannsynligvis et nøkkelordsopphenting-falskt positivt |
+| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | Avsluttet | 808 | Tverrseksjonell studie av biologisk DMARD-behandlingsmønstre og RA-sykdomskjennetegn i Kina |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Ukjent | 750,000 | Omfattende studie av insidenrisiko for immun-mediert inflammatorisk sykdom hos pasienter på biologika/immunsupprimering for en enkelt IMID |
 
-**Note:** None of the retrieved trials are interventional studies of adalimumab specifically for rheumatoid vasculitis; they are broader RA/biologics safety and practice-pattern studies (one appears unrelated). No dedicated RV trial for adalimumab is currently registered.
+**Notat:** Ingen av de hentede forsøkene er intervensjonelle studier av adalimumab spesifikk for revmatoid vaskulitt; de er bredere RA/biologika sikkerhet og praksismønsterstudier (en ser ut til å være urelatert). Ingen dedikert RV-forsøk for adalimumab er for tiden registrert.
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Tidsskrift | Viktige funn |
 |------|-----|------|------|---------|
-| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systematic Review | Clinical Rheumatology | Systematic review of biological therapy (including anti-TNF agents) in rheumatoid vasculitis; RV is a severe extra-articular RA manifestation requiring aggressive treatment |
-| [18799049](https://pubmed.ncbi.nlm.nih.gov/18799049/) | 2008 | Systematic Review | Clin Exp Rheumatol | Systematic review of 2,707 RA patients (18 vasculitis cases) comparing vasculitis occurrence with vs. without anti-TNF treatment |
-| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | Network Meta-Analysis (36 RCTs) | Int J Mol Sci | Compares 5 TNF inhibitors (incl. adalimumab) vs. methotrexate/placebo on radiographic joint destruction in RA — supports adalimumab's established anti-inflammatory efficacy |
-| [30773522](https://pubmed.ncbi.nlm.nih.gov/30773522/) | 2019 | Case Report | Internal Medicine (Tokyo) | Acute pulmonary hypertension crisis in an RV patient 8 months after adalimumab dose reduction — signals risk of RV flare on de-escalation |
-| [25133007](https://pubmed.ncbi.nlm.nih.gov/25133007/) | 2014 | Case Report | Case Reports in Rheumatology | Digital (RA-associated) vasculitis responded well to adalimumab in a 42-year-old patient |
-| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Cohort Study | RMD Open | BSRBR-RA registry comparison of lupus-like and vasculitis-like event risk between TNFi- and nbDMARD-treated RA patients |
-| [34068884](https://pubmed.ncbi.nlm.nih.gov/34068884/) | 2021 | Review | J Clin Medicine | Update on treatment of RA-associated episcleritis/scleritis, an extra-articular manifestation overlapping with the RV spectrum |
-| [28719435](https://pubmed.ncbi.nlm.nih.gov/28719435/) | 2018 | Case Report | Am J Dermatopathology | Leukocytoclastic vasculitis with perivascular hemophagocytosis reported during adalimumab therapy for RA |
-| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Case Report | Internal Medicine (Tokyo) | ANCA-associated nephritis emerging during abatacept/adalimumab therapy for RA, later attenuated by tocilizumab |
-| [19482531](https://pubmed.ncbi.nlm.nih.gov/19482531/) | 2009 | Case Report | Nephrologie & Therapeutique | ANCA-associated vasculitis (necrotizing glomerulonephritis) reported in an RA patient on adalimumab |
+| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systematisk oversikt | Clinical Rheumatology | Systematisk oversikt over biologisk terapi (inkl. anti-TNF-midler) ved revmatoid vaskulitt; RV er en alvorlig ekstraarticulær RA-manifestasjon som krever aggressiv behandling |
+| [18799049](https://pubmed.ncbi.nlm.nih.gov/18799049/) | 2008 | Systematisk oversikt | Clin Exp Rheumatol | Systematisk oversikt over 2,707 RA-pasienter (18 vaskulitt-tilfeller) som sammenligner vaskulittforekomst med vs. uten anti-TNF-behandling |
+| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | Nettverksmeta-analyse (36 RCTer) | Int J Mol Sci | Sammenligner 5 TNF-hemmere (inkl. adalimumab) vs. methotrexat/placebo på radiografisk leddforringing ved RA – støtter adalimumabs etablerte antiinflammatoriske effektivitet |
+| [30773522](https://pubmed.ncbi.nlm.nih.gov/30773522/) | 2019 | Saksrapport | Internal Medicine (Tokyo) | Akutt pulmonal hypertensjonskrise hos en RV-pasient 8 måneder etter reduksjon av adalimumab-dosen – signaliserer risiko for RV-flare ved nedskalering |
+| [25133007](https://pubmed.ncbi.nlm.nih.gov/25133007/) | 2014 | Saksrapport | Case Reports in Rheumatology | Digital (RA-assosiert) vaskulitt responderte godt på adalimumab hos en 42 år gammel pasient |
+| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Kohortstudie | RMD Open | BSRBR-RA-registersammenlikning av lupus-lignende og vaskulitt-lignende hendelsesrisiko mellom TNFi- og nbDMARD-behandlede RA-pasienter |
+| [34068884](https://pubmed.ncbi.nlm.nih.gov/34068884/) | 2021 | Oversikt | J Clin Medicine | Oppdatering på behandling av RA-assosiert episkleritt/skleritt, en ekstraarticulær manifestasjon som overlapper RV-spekteret |
+| [28719435](https://pubmed.ncbi.nlm.nih.gov/28719435/) | 2018 | Saksrapport | Am J Dermatopathology | Leukocytoklaistisk vaskulitt med perivaskulær hemofagocytose rapportert under adalimumab-terapi for RA |
+| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Saksrapport | Internal Medicine (Tokyo) | ANCA-assosiert nefritt som oppstår under abatacept/adalimumab-terapi for RA, senere demper av tocilizumab |
+| [19482531](https://pubmed.ncbi.nlm.nih.gov/19482531/) | 2009 | Saksrapport | Nephrologie & Therapeutique | ANCA-assosiert vaskulitt (nekrotiserende glomerulonefritt) rapportert hos en RA-pasient på adalimumab |
 
-## Norway Market Information
+## Markedsinformasjon for Norge
 
-Adalimumab is currently **not marketed** in Norway according to the available regulatory data (0 authorizations on record). No product/authorization details are available to tabulate.
+Adalimumab er for tiden **ikke markedsført** i Norge i henhold til tilgjengelige regulatoriske data (0 autorisasjoner registrert). Ingen produkt-/autorisasjonsdetaljer er tilgjengelige for tabellarisk oversikt.
 
-## Safety Considerations
+## Sikkerhetshensyn
 
-Please refer to the package insert for safety information.
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 
-*(All safety fields in the evidence pack — key warnings, contraindications, and drug-drug interactions — are currently unavailable. Notably, retrieval of the Norway package insert warnings/contraindications is flagged as a **Blocking** data gap, since it prevents an initial S1 safety assessment.)*
+*(Alle sikkerhetsfelter i bevispakningen – viktige advarsler, kontraindikasjoner og legemiddelinteraksjoner – er for tiden utilgjengelige. Spesielt er henting av advarsler/kontraindikasjoner i det norske pakningsvedlegget flagget som et **blokkerende** databrist, da det forhindrer en innledende S1 sikkerhetsrangering.)*
 
-## Conclusion and Next Steps
+## Konklusjon og neste trinn
 
-**Decision: Hold**
+**Beslutning: Venting**
 
-**Rationale:**
-- A Blocking data gap exists (Norway package insert warnings/contraindications not retrieved), which by definition prevents even the initial (S1) safety assessment required before this candidate can advance.
-- Adalimumab is not currently marketed in Norway, and no adalimumab trial specifically targets rheumatoid vasculitis as an indication — supporting evidence is limited to one systematic review, one earlier systematic review of vasculitis events, an RCT meta-analysis on a different endpoint (joint destruction), and several case reports (some describing adalimumab controlling RV, others describing anti-TNF-associated vasculitic/autoimmune adverse events). This corresponds to Evidence Level L3, not L1/L2.
+**Begrunnelse:**
+- Det foreligger et blokkerende databrist (advarsler/kontraindikasjoner i norsk pakningsvedlegg ikke hentet), som per definisjon forhindrer selv den innledende (S1) sikkerhetsrangering som kreves før denne kandidaten kan fremme.
+- Adalimumab er for tiden ikke markedsført i Norge, og ingen adalimumab-forsøk retter seg spesifikt mot revmatoid vaskulitt som indikasjon – støttende bevis er begrenset til én systematisk oversikt, én tidligere systematisk oversikt over vaskulitthendelser, en RCT-metaanalyse på et annet endepunkt (leddforringing), og flere saksrapporter (noen beskriver adalimumab som kontrollerer RV, andre beskriver anti-TNF-assosiert vaskulitt-lignende/autoimmune uønskede hendelser). Dette tilsvarer bevisnivå L3, ikke L1/L2.
 
-**To proceed, the following is needed:**
-- Retrieve the official Norway package insert (warnings, contraindications) to complete the S1 safety assessment (Blocking gap, DG001)
-- Obtain detailed mechanism-of-action reference data from DrugBank to strengthen the mechanistic rationale (High-priority gap, DG002)
-- Confirm the drug's original approved indication(s) and regulatory history via authoritative regulatory sources, since this evidence pack contains no sourced original-indication or licensing data
-- Given the mixed signal in the case-report literature (both efficacy and RV-flare/vasculitis-inducing reports), any future evaluation should specifically weigh anti-TNF-associated vasculitis risk against RV treatment benefit before considering guardrails for clinical use
+**For å gå videre kreves følgende:**
+- Hent det offisielle norske pakningsvedlegget (advarsler, kontraindikasjoner) for å fullføre S1 sikkerhetsrangering (blokkerende databrist, DG001)
+- Hent detaljerte mekanismedata fra DrugBank for å styrke mekanistisk begrunnelse (høyt prioritert databrist, DG002)
+- Bekreft stoffets opprinnelig godkjente indikasjon(er) og regulatorisk historie via pålitelige regulatoriske kilder, da denne bevispakningen inneholder ingen kilder-basert originalindikasjon eller lisenseringsdata
+- Gitt det blandede signalet i saksrapportlitteraturen (både effektivitet og RV-flare/vaskulitt-induserende rapporter), bør enhver fremtidig evaluering spesifikt veie anti-TNF-assosiert vaskulittrisiko mot RV-behandlingsfordel før man vurderer guardrails for klinisk bruk
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

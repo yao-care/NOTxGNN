@@ -29,113 +29,112 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-Using no specific coding skill here—this is a direct content-generation task per the detailed template provided in the system prompt, so I'll produce the report directly from the Evidence Pack.
+# Idelalisib: Fra B-cellelymfoide ondartninger til mantelcellelymfom
 
-# Idelalisib: From B-Cell Lymphoid Malignancies to Mantle Cell Lymphoma
+## Sammenfatting i én setning
 
-## One-Sentence Summary
-
-> Idelalisib is an oral PI3Kδ (phosphatidylinositol 3-kinase delta) inhibitor originally developed for relapsed chronic lymphocytic leukemia (CLL), follicular lymphoma (FL), and small lymphocytic lymphoma (SLL) — all B-cell malignancies driven by B-cell receptor (BCR) signalling.
-> The TxGNN model predicts it may also be effective for **Mantle Cell Lymphoma (MCL)**, another BCR/PI3Kδ-dependent B-cell neoplasm,
-> with **9 clinical trials** and **20 publications** currently supporting this direction — including a completed Phase 1 trial reporting direct clinical activity in MCL.
+> Idelalisib er en oral PI3Kδ (fosfatidylinositol 3-kinase delta) hemmer opprinnelig utviklet for tilbakevendende kronisk lymfatisk leukemi (CLL), follikulært lymfom (FL) og lite lymfosittlymfom (SLL) — alle B-celleondartninger drevet av B-cellereseptor (BCR) signalering.
+> TxGNN-modellen forutsier at det også kan være effektivt for **mantelcellelymfom (MCL)**, en annen BCR/PI3Kδ-avhengig B-celleneoplasi,
+> med **9 kliniske studier** og **20 publikasjoner** som for tiden støtter denne retningen — inkludert en fullført fase 1-studie som rapporterer direkte klinisk aktivitet i MCL.
 
 ---
 
-## Quick Overview
+## Rask oversikt
 
-| Item | Content |
-|------|------|
-| Original Indication | Not on file in the Norway regulatory registry (no license record). Per the literature evidence in this pack (e.g., PMID 25187123, 25637459), idelalisib was originally approved elsewhere for relapsed CLL, relapsed follicular lymphoma, and relapsed SLL |
-| Predicted New Indication | Mantle Cell Lymphoma (MCL) |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L3 |
-| Norway Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in this Evidence Pack (drug-level MOA field is a data gap). Based on known information drawn from the literature evidence collected here, idelalisib is a first-in-class, selective inhibitor of the delta isoform of phosphatidylinositol 3-kinase (PI3Kδ), a lipid kinase expressed almost exclusively in hematopoietic cells and constitutively active downstream of the B-cell receptor (BCR) in B-cell malignancies (PMID 30069634, 28295729).
-
-Its efficacy in relapsed CLL, follicular lymphoma, and SLL is well established in the literature (PMID 25637459, 25187123), and mechanistically this rationale extends naturally to mantle cell lymphoma. MCL is likewise a mature B-cell neoplasm characterized by the t(11;14) translocation and constitutive BCR/PI3K/AKT pathway activation, which drives survival and proliferation of the malignant clone (PMID 22361516, 24273091). Because idelalisib blocks the same upstream signalling node exploited by MCL cells, it is biologically plausible that the drug retains activity in this related lymphoma subtype.
-
-This is not purely theoretical: a dedicated Phase 1 clinical trial (PMID 24615778, published in *Blood*) directly tested idelalisib in relapsed/refractory MCL and reported measurable clinical activity, later summarized in a companion report titled "Idelalisib has activity in mantle cell lymphoma" (PMID 24795031). However, subsequent mechanistic work also identified intrinsic and acquired resistance pathways in MCL (e.g., CBX5 loss, PMID 40466505; p300/CBP-mediated resistance, PMID 33850273), indicating that while the mechanistic rationale is sound, clinical benefit in MCL is not uniform and combination strategies may be needed.
+| Element | Innhold |
+|---------|---------|
+| Original indikasjon | Ikke på fil i det norske regulatoriske register (ingen lisensoppføring). I følge litteraturbeviset i denne pakken (f.eks. PMID 25187123, 25637459), ble idelalisib opprinnelig godkjent andre steder for tilbakevendende CLL, tilbakevendende follikulært lymfom og tilbakevendende SLL |
+| Forutsett ny indikasjon | Mantelcellelymfom (MCL) |
+| TxGNN-prediksjonspoengsum | 99.84% |
+| Bevissnivå | L3 |
+| Norsk markeds status | ✗ Ikke markedsført (Ikke markedsført) |
+| Antall godkjennelser | 0 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Clinical Trial Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige i denne bevisepakken (drug-level MOA-feltet er et datahull). Basert på kjent informasjon hentet fra litteraturbeviset samlet her, er idelalisib en først-i-klasse, selektiv hemmer av delta-isoformen av fosfatidylinositol 3-kinase (PI3Kδ), en lipidkinase uttrykt nesten utelukkende i hematopoietiske celler og konstitusjonsaktiv nedstrøms for B-cellereseptoren (BCR) i B-celleondartninger (PMID 30069634, 28295729).
+
+Dets effektivitet ved tilbakevendende CLL, follikulært lymfom og SLL er veletablert i litteraturen (PMID 25637459, 25187123), og mekanistisk strekker denne begrunnelsen seg naturlig til mantelcellelymfom. MCL er likeledes en moden B-celleneoplasi karakterisert ved t(11;14) translokasjon og konstitusjonsaktivering av BCR/PI3K/AKT-banen, som driver overlevelse og proliferasjon av den ondartede klonen (PMID 22361516, 24273091). Fordi idelalisib blokkerer den samme opstrøms signaliseringsnoden som utnyttes av MCL-celler, er det biologisk sannsynlig at legemidlet beholder aktivitet i denne relaterte lymfomsubtypen.
+
+Dette er ikke rent teoretisk: en dedikert fase 1-klinisk studie (PMID 24615778, publisert i *Blood*) testet direkte idelalisib ved tilbakevendende/refraktær MCL og rapporterte målbar klinisk aktivitet, senere oppsummert i en ledsagende rapport med tittelen "Idelalisib has activity in mantle cell lymphoma" (PMID 24795031). Imidlertid identifiserte senere mekanistisk arbeid også iboende og ervervet resistansvei i MCL (f.eks. CBX5-tap, PMID 40466505; p300/CBP-mediiert resistans, PMID 33850273), som indikerer at selv om den mekanistiske begrunnelsen er solid, er klinisk nytte i MCL ikke ensartet og kombinasjonsstrategier kan være nødvendig.
+
+---
+
+## Klinisk studiebevis
+
+| Studienummer | Fase | Status | Påmelding | Viktige funn |
 |---------|------|------|------|---------|
-| [NCT01838434](https://clinicaltrials.gov/study/NCT01838434) | Phase 1 | Completed | 106 | Idelalisib + lenalidomide in relapsed/refractory MCL |
-| [NCT01088048](https://clinicaltrials.gov/study/NCT01088048) | Phase 1 | Completed | 241 | Idelalisib combined with chemo/immunomodulatory/anti-CD20 agents in relapsed/refractory iNHL, MCL, or CLL |
-| [NCT02603445](https://clinicaltrials.gov/study/NCT02603445) | Phase 1 | Completed | 20 | BCL201 + idelalisib combination in follicular lymphoma and MCL |
-| [NCT03740529](https://clinicaltrials.gov/study/NCT03740529) | Phase 1/2 | Completed | 803 | Pirtobrutinib in CLL/SLL/NHL patients who failed standard of care (idelalisib-experienced population) |
-| [NCT02824159](https://clinicaltrials.gov/study/NCT02824159) | N/A | Completed | 121 | Real-world pharmacokinetic/side-effect correlation study of ibrutinib and idelalisib; notes EMA approval of idelalisib specifically for MCL |
-| [NCT01796470](https://clinicaltrials.gov/study/NCT01796470) | Phase 2 | Terminated | 66 | Entospletinib + idelalisib in relapsed/refractory hematologic malignancies including MCL, CLL, DLBCL, iNHL |
-| [NCT02457598](https://clinicaltrials.gov/study/NCT02457598) | Phase 1 | Terminated | 203 | Tirabrutinib combined with targeted anti-cancer therapies in B-cell malignancies |
-| [NCT03151057](https://clinicaltrials.gov/study/NCT03151057) | Phase 1 | Terminated | 16 | Idelalisib as post-allogeneic HSCT maintenance in B-cell malignancies |
-| [NCT04985214](https://clinicaltrials.gov/study/NCT04985214) | N/A | Unknown | 464 | Quality-of-life assessment in lymphoma patients (incl. MCL) treated with oral therapies including idelalisib |
+| [NCT01838434](https://clinicaltrials.gov/study/NCT01838434) | Fase 1 | Fullført | 106 | Idelalisib + lenalidomid ved tilbakevendende/refraktær MCL |
+| [NCT01088048](https://clinicaltrials.gov/study/NCT01088048) | Fase 1 | Fullført | 241 | Idelalisib kombinert med kjemo-/immunmodulatoriske/anti-CD20-midler ved tilbakevendende/refraktær iNHL, MCL eller CLL |
+| [NCT02603445](https://clinicaltrials.gov/study/NCT02603445) | Fase 1 | Fullført | 20 | BCL201 + idelalisib-kombinasjon ved follikulært lymfom og MCL |
+| [NCT03740529](https://clinicaltrials.gov/study/NCT03740529) | Fase 1/2 | Fullført | 803 | Pirtobrutinib hos CLL/SLL/NHL-pasienter som ikke responderte på standardbehandling (idelalisib-erfarent populasjon) |
+| [NCT02824159](https://clinicaltrials.gov/study/NCT02824159) | N/A | Fullført | 121 | Studie av farmakokinetikk/bivirkningskorrelasjon i virkeligheten av ibrutinib og idelalisib; noterer EMA-godkjenning av idelalisib spesifikt for MCL |
+| [NCT01796470](https://clinicaltrials.gov/study/NCT01796470) | Fase 2 | Avsluttet | 66 | Entospletinib + idelalisib ved tilbakevendende/refraktær hematologiske ondartninger inkludert MCL, CLL, DLBCL, iNHL |
+| [NCT02457598](https://clinicaltrials.gov/study/NCT02457598) | Fase 1 | Avsluttet | 203 | Tirabrutinib kombinert med målrettet kreftbehandling i B-celleondartninger |
+| [NCT03151057](https://clinicaltrials.gov/study/NCT03151057) | Fase 1 | Avsluttet | 16 | Idelalisib som vedlikehold etter allogen HSCT ved B-celleondartninger |
+| [NCT04985214](https://clinicaltrials.gov/study/NCT04985214) | N/A | Ukjent | 464 | Vurdering av livskvalitet hos lymfompasienter (inkl. MCL) behandlet med oral terapi inkludert idelalisib |
 
 ---
 
-## Literature Evidence
+## Litteraturbevis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | År | Type | Journal | Viktige funn |
 |------|-----|------|------|---------|
-| [24615778](https://pubmed.ncbi.nlm.nih.gov/24615778/) | 2014 | Phase 1 Trial | Blood | Phase 1 study of PI3Kδ inhibitor idelalisib in 40 patients with relapsed/refractory MCL; safety, PK, and response data |
-| [24795031](https://pubmed.ncbi.nlm.nih.gov/24795031/) | 2014 | Clinical Report | Cancer Discovery | Idelalisib effective in heavily pretreated MCL patients |
-| [27342398](https://pubmed.ncbi.nlm.nih.gov/27342398/) | 2017 | Mechanistic/Clinical | Clinical Cancer Research | Idelalisib impacts MCL cell growth via translation-regulatory mechanism disruption |
-| [33850273](https://pubmed.ncbi.nlm.nih.gov/33850273/) | 2022 | Preclinical | Acta Pharmacologica Sinica | p300/CBP inhibitor A-485 overcomes intrinsic idelalisib resistance in MCL (in vitro/in vivo) |
-| [40466505](https://pubmed.ncbi.nlm.nih.gov/40466505/) | 2025 | Preclinical | Phytomedicine | CBX5 loss drives PI3Kδ inhibitor resistance in MCL; propolis restores sensitivity via ferroptosis |
-| [38815797](https://pubmed.ncbi.nlm.nih.gov/38815797/) | 2024 | Preclinical | Cancer Letters | Idelalisib enhances anti-tumor effect of palbociclib via PLK1 in B-cell lymphoma (incl. MCL) |
-| [24974852](https://pubmed.ncbi.nlm.nih.gov/24974852/) | 2014 | Review | British Journal of Haematology | Overview of current regimens and novel agents for MCL |
-| [26360791](https://pubmed.ncbi.nlm.nih.gov/26360791/) | 2015 | Review | Expert Opinion on Pharmacotherapy | Treatment options for MCL, including PI3K-pathway agents |
-| [23512567](https://pubmed.ncbi.nlm.nih.gov/23512567/) | 2013 | Review | Current Treatment Options in Oncology | Current and emerging therapies in MCL by patient fitness/age |
-| [28775119](https://pubmed.ncbi.nlm.nih.gov/28775119/) | 2017 | Review | Haematologica | Practical approach to incidence and management of ibrutinib/idelalisib toxicity |
+| [24615778](https://pubmed.ncbi.nlm.nih.gov/24615778/) | 2014 | Fase 1-studie | Blood | Fase 1-studie av PI3Kδ-hemmer idelalisib hos 40 pasienter med tilbakevendende/refraktær MCL; sikkerhet, PK og responsdata |
+| [24795031](https://pubmed.ncbi.nlm.nih.gov/24795031/) | 2014 | Klinisk rapport | Cancer Discovery | Idelalisib effektiv hos sterkt pretrakterte MCL-pasienter |
+| [27342398](https://pubmed.ncbi.nlm.nih.gov/27342398/) | 2017 | Mekanistisk/klinisk | Clinical Cancer Research | Idelalisib påvirker MCL-cellvekst via forstyrring av translasjonskontrollert mekanisme |
+| [33850273](https://pubmed.ncbi.nlm.nih.gov/33850273/) | 2022 | Preklinisk | Acta Pharmacologica Sinica | p300/CBP-hemmer A-485 overcoming iboende idelalisib-resistans i MCL (in vitro/in vivo) |
+| [40466505](https://pubmed.ncbi.nlm.nih.gov/40466505/) | 2025 | Preklinisk | Phytomedicine | CBX5-tap driver PI3Kδ-hemmerresistans i MCL; propolis gjenoppretter følsomhet via ferroptose |
+| [38815797](https://pubmed.ncbi.nlm.nih.gov/38815797/) | 2024 | Preklinisk | Cancer Letters | Idelalisib fremmer anti-tumor-effekten av palbociclib via PLK1 ved B-cellelymfom (inkl. MCL) |
+| [24974852](https://pubmed.ncbi.nlm.nih.gov/24974852/) | 2014 | Oversiktsartikkel | British Journal of Haematology | Oversikt over nåværende behandlingsregiemer og nye midler for MCL |
+| [26360791](https://pubmed.ncbi.nlm.nih.gov/26360791/) | 2015 | Oversiktsartikkel | Expert Opinion on Pharmacotherapy | Behandlingsalternativ for MCL, inkludert PI3K-bane-midler |
+| [23512567](https://pubmed.ncbi.nlm.nih.gov/23512567/) | 2013 | Oversiktsartikkel | Current Treatment Options in Oncology | Nåværende og framvoksende terapi ved MCL etter pasientfitness/alder |
+| [28775119](https://pubmed.ncbi.nlm.nih.gov/28775119/) | 2017 | Oversiktsartikkel | Haematologica | Praktisk tilnærming til insidens og håndtering av ibrutinib/idelalisib-toksisitet |
 
 ---
 
-## Norway Market Information
+## Norsk markeds informasjon
 
-Idelalisib is currently **not marketed in Norway** (`Not marketed`) and holds **0 authorizations** on file — no license records are available to summarize.
-
----
-
-## Cytotoxicity
-
-*This section applies because idelalisib is an antineoplastic agent (targeted small-molecule kinase inhibitor used across B-cell hematologic malignancies).*
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (PI3Kδ inhibitor, oral small-molecule kinase inhibitor; not a conventional cytotoxic chemotherapy agent) |
-| Myelosuppression Risk | Low to moderate — neutropenia has been reported in idelalisib trials, but the dominant safety signals described in the literature are non-hematologic (hepatotoxicity, colitis, pneumonitis) (PMID 28775119, 30069634) |
-| Emetogenicity Classification | Low — oral targeted kinase inhibitor, not among conventionally high-emetogenic agents |
-| Monitoring Items | Liver function tests (baseline and frequent early monitoring), CBC with differential, respiratory symptom/imaging surveillance (pneumonitis risk), GI symptom monitoring (colitis/diarrhea), infection surveillance |
-| Handling Protection | Standard oral hazardous-drug handling precautions per institutional policy for targeted oncology agents; not classified under conventional cytotoxic reconstitution/handling regulations |
+Idelalisib er for tiden ikke markedsført i Norge (`Ikke markedsført`) og har 0 godkjennelser på fil — ingen lisensoppføringer er tilgjengelige for oppsummering.
 
 ---
 
-## Safety Considerations
+## Toksisitet
 
-Please refer to the package insert for safety information. (No structured warnings, contraindications, or drug-interaction data are currently on file in this Evidence Pack — see Data Gap DG001, blocking severity.)
+*Denne delen gjelder fordi idelalisib er et antineoplastisk middel (målrettet liten-molekyl kinasehemmer brukt på tvers av B-celle hematologiske ondartninger).*
+
+| Element | Innhold |
+|---------|---------|
+| Toksisitetsklassifisering | Målrettet terapi (PI3Kδ hemmer, oral liten-molekyl kinasehemmer; ikke et konvensjonelt toksisk kjemoterapimiddel) |
+| Risiko for myelosuppresjon | Lav til moderat — nøtropeni er rapportert i idelalisib-studier, men de dominerende sikkerhetssignalene beskrevet i litteraturen er ikke-hematologiske (hepatotoksisitet, kolitt, pneumonitt) (PMID 28775119, 30069634) |
+| Emetogenitetsklassifisering | Lav — oral målrettet kinasehemmer, ikke blant konvensjonelt høy-emetogene midler |
+| Overvåkingsposter | Leverfunksjonstester (baseline og hyppig tidlig overvåking), CBC med differensial, respiratorisk symptom/bildeovervåking (pneumonittrisiko), GI symptomovervåking (kolitt/diarè), infeksjonsovervåking |
+| Håndteringsbeskyttelse | Standard forsiktighetsregler for håndtering av farlig middel per institusjonell retningslinje for målrettede onkologimidler; ikke klassifisert under konvensjonelle toksiske rekonstitusjon-/håndteringsbestemmelser |
 
 ---
 
-## Conclusion and Next Steps
+## Sikkerhetshensyn
 
-**Decision: Hold**
+Se pakningsvedlegget for sikkerhetsinformasjon. (Ingen strukturerte advarsler, kontraindikasjoner eller legemiddelinteraksjonsdata er for tiden på fil i denne bevisepakken — se datahull DG001, blokkeringsalvorlighet.)
 
-**Rationale:**
-While mechanistic rationale is sound and a completed Phase 1 trial plus multiple early-phase combination studies show clinical activity of idelalisib in MCL, there is no confirmatory Phase 2/3 RCT specific to this indication, and the drug is not currently marketed in Norway. Critically, official label safety data (warnings/contraindications) is a **Blocking** data gap (DG001), which prevents this candidate from entering the S1 safety pre-assessment stage.
+---
 
-**To proceed, the following is needed:**
-- Official package insert / TFDA-equivalent label with warnings and contraindications (resolves DG001, Blocking)
-- Confirmed mechanism-of-action documentation from DrugBank (resolves DG002)
-- Regulatory pathway assessment for Norway market entry, given current "Not Marketed" status
-- If development continues, a confirmatory Phase 2 (ideally randomized) trial specifically in MCL patients to move beyond the existing Phase 1 activity signal
+## Konklusjon og neste trinn
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Selv om den mekanistiske begrunnelsen er solid og en fullført fase 1-studie pluss flere tidlig-fase kombinasjonsstudier viser klinisk aktivitet av idelalisib ved MCL, er det ingen bekreftet fase 2/3-RCT spesifikk for denne indikasjon, og legemidlet er for tiden ikke markedsført i Norge. Kritisk sett, er offisielle sikkerhetdata på etiketten (advarsler/kontraindikasjoner) et blokkeringsdatahull (DG001), som hindrer denne kandidaten fra å gå inn i S1-sikkerhet før-vurderingsstadium.
+
+**For å fortsette, er følgende nødvendig:**
+- Offisielt pakningsvedlegg / TFDA-ekvivalent etikett med advarsler og kontraindikasjoner (løser DG001, blokkering)
+- Bekreftet dokumentasjon av virkningsmekanisme fra DrugBank (løser DG002)
+- Vurdering av regulatorisk vei for inngang til det norske marked, gitt nåværende "Ikke markedsført" status
+- Hvis utvikling fortsetter, en bekreftet fase 2 (ideelt randomisert) studie spesifikt hos MCL-pasienter for å gå utover det eksisterende fase 1 aktivitetssignal
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -29,89 +29,90 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Bempedoic Acid: From Hypercholesterolemia to Homozygous Familial Hypercholesterolemia
+# Bempedoic acid: Fra hyperkholesterolemi til homozygot familiær hyperkholesterolemi
 
-## One-Sentence Summary
+## Sammendrag i én setning
 
-> Bempedoic acid is an ATP-citrate lyase (ACL) inhibitor used to lower LDL-cholesterol in patients with hypercholesterolemia/atherosclerotic cardiovascular disease who need additional LDL-C reduction beyond statins.
-> Among the TxGNN-predicted indications, the top-ranked candidate (**hyperthyroidism**, score 99.61%) was reviewed and found to have **no credible mechanistic or literature support** — it is flagged as likely model noise.
-> The strongest evidence-backed candidate is **Homozygous Familial Hypercholesterolemia (HoFH)**, supported by **1 real-world cohort study and 17 supporting publications**, reaching Evidence Level **L3**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not on file in the regulatory dataset (drug not marketed locally); literature confirms established use as an LDL-C–lowering agent for hypercholesterolemia / ASCVD risk reduction, used alongside statins, ezetimibe, and PCSK9 inhibitors |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia (HoFH) |
-| TxGNN Prediction Score | 99.48% (rank #6 among predictions; rank #1 "hyperthyroidism" excluded — see note below) |
-| Evidence Level | L3 |
-| Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
-**Note on TxGNN ranking:** The single highest TxGNN score (hyperthyroidism, 99.61%) was cross-checked against its supporting literature and found to reference an unrelated drug (tiratricol) with no mechanistic connection to bempedoic acid. Ranks #2–5, #7–10 (thyroid hormone resistance, malignant catarrh, bovine rhinotracheitis, CMV infection, hyperthyroxinemia, drug-induced osteoporosis, MEN, pregnancy-associated osteoporosis) similarly have zero supporting evidence and no plausible mechanism. This report therefore focuses on the one candidate with real evidentiary support: HoFH.
+> Bempedoic acid er en hemmstoff for ATP-sitrat-lyase (ACL) som brukes til å senke LDL-kolesterol hos pasienter med hyperkholesterolemi/aterosklerotisk hjerte-karsykdom som trenger ytterligere LDL-C-reduksjon foruten statiner.
+> Blant de TxGNN-predikerte indikasjonene ble den høyest rangerte kandidaten (**hypertyroidisme**, score 99.61%) gjennomgått og funnet å være uten **troverdige mekanistiske eller litteraturstøtte** — den er flagget som sannsynlig modelstøy.
+> Den sterkeste bevis-støttede kandidaten er **Homozygot familiær hyperkholesterolemi (HoFH)**, støttet av **1 real-verdens kohortstudie og 17 støttende publikasjoner**, og oppnår bevissnivå **L3**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigoversikt
 
-Bempedoic acid inhibits ATP-citrate lyase (ACL), an enzyme upstream of HMG-CoA reductase in the hepatic cholesterol biosynthesis pathway. It is a prodrug activated by ACSVL1, an enzyme expressed almost exclusively in the liver and absent in skeletal muscle — this liver-restricted activation is why bempedoic acid does not carry the same myopathy risk as statins. ACL inhibition upregulates hepatic LDL receptor (LDLR) expression and lowers LDL-C independently of, and additively to, statin therapy.
+| Element | Innhold |
+|---------|---------|
+| Opprinnelig indikasjon | Ikke på fil i regulatorisk datasett (legemiddel ikke markedsført lokalt); litteraturen bekrefter etablert bruk som LDL-C-senking for hyperkholesterolemi / ASCVD-risikoreduks, brukt sammen med statiner, ezetimib og PCSK9-hemmere |
+| Predikert ny indikasjon | Homozygot familiær hyperkholesterolemi (HoFH) |
+| TxGNN-prediksjonspoengsum | 99.48% (rangering #6 blant prediksjoner; rangering #1 "hypertyroidisme" ekskludert — se merknad nedenfor) |
+| Bevissnivå | L3 |
+| Markedsstatus | Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Fortsett med sikkerhetstiltak |
 
-HoFH is a rare genetic disorder in which LDLR function is severely or completely deficient, producing extremely elevated LDL-C and early-onset atherosclerotic cardiovascular disease. Because LDLR function is so impaired, HoFH management typically requires combination therapy (statins, ezetimibe, PCSK9 inhibitors, evinacumab, lomitapide) to achieve any meaningful LDL-C reduction. Bempedoic acid's LDLR-upregulating, largely LDLR-independent mechanism makes it mechanistically plausible as an *add-on* agent in this population, and a 2026 real-world cohort study (PMID 41274797) already reports its use specifically in HoFH patients.
-
-This is best understood not as a novel disease-area repurposing, but as an **indication extension within the same lipid-disorder therapeutic space** the drug already occupies — which is a much lower-risk, higher-plausibility form of repurposing than the noise-driven candidates elsewhere in the TxGNN output.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered specifically for HoFH.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [41274797](https://pubmed.ncbi.nlm.nih.gov/41274797/) | 2026 | Cohort (real-world) | J Clin Lipidol | Direct real-world evaluation of bempedoic acid efficacy/tolerability specifically in HoFH patients |
-| [41741298](https://pubmed.ncbi.nlm.nih.gov/41741298/) | 2026 | Expert consensus | J Clin Lipidol | National Lipid Association update on FH management, incorporating current LDL-C-lowering options |
-| [41694628](https://pubmed.ncbi.nlm.nih.gov/41694628/) | 2026 | Case report + review | Clin Case Rep | Illustrates consequences of interrupted HoFH follow-up; reviews aggressive LDL-C-lowering strategies |
-| [41106315](https://pubmed.ncbi.nlm.nih.gov/41106315/) | 2025 | Review | Exp Mol Pathol | Reviews innovative HoFH therapies including non-statin LDL-C-lowering agents |
-| [35466160](https://pubmed.ncbi.nlm.nih.gov/35466160/) | 2022 | Review | J Atheroscler Thromb | Reviews advancements in HoFH treatment, positioning bempedoic acid among newer options |
-| [37071085](https://pubmed.ncbi.nlm.nih.gov/37071085/) | 2024 | Review | Cardiol Rev | Discusses evinacumab and other add-on therapies (incl. bempedoic acid) for HoFH |
-| [29449335](https://pubmed.ncbi.nlm.nih.gov/29449335/) | 2018 | Preclinical (animal model) | Arterioscler Thromb Vasc Biol | Bempedoic acid lowers LDL-C and attenuates atherosclerosis in LDLR-deficient miniature pigs — direct mechanistic support for LDLR-independent benefit |
-| [33766264](https://pubmed.ncbi.nlm.nih.gov/33766264/) | 2021 | Review | J Am Coll Cardiol | Reviews emerging LDL-C/ApoB-lowering therapies including bempedoic acid alongside PCSK9i and inclisiran |
-| [38576462](https://pubmed.ncbi.nlm.nih.gov/38576462/) | 2024 | Review | Am J Prev Cardiol | Emphasizes cumulative LDL-C exposure as ASCVD driver, supporting rationale for maximal LDL-C reduction in high-risk groups like HoFH |
-| [32243228](https://pubmed.ncbi.nlm.nih.gov/32243228/) | 2020 | Review | Postgrad Med | Reviews emerging LDL-C-lowering agents including bempedoic acid's mechanism and clinical positioning |
+**Merknad om TxGNN-rangering:** Det eneste høyeste TxGNN-poengsummen (hypertyroidisme, 99.61%) ble kryssjekket mot sin støttende litteratur og funnet å referere til et urelatert legemiddel (tiratricol) uten mekanistisk forbindelse til bempedoic acid. Rangeringer #2–5, #7–10 (thyroidhormonresistens, malign katarr, bovint rhinotrakeitt, CMV-infeksjon, hypertyroksinemi, legemiddel-indusert osteoporose, MEN, svangerskapsassosiert osteoporose) har på samme måte null støttende bevis og ingen plausibel mekanisme. Denne rapporten fokuserer derfor på den ene kandidaten med reell bevisstøtte: HoFH.
 
 ---
 
-## Norway Market Information
+## Hvorfor er denne prediksjonen rimelig?
 
-This drug is **not currently marketed** in the evaluated jurisdiction (0 authorizations on file); no license records are available to summarize approved indications or dosage forms.
+Bempedoic acid hemmer ATP-sitrat-lyase (ACL), et enzym oppstrøms for HMG-CoA-reduktase i hepatisk kolesterolsyntesevei. Det er et forlegemiddel aktivert av ACSVL1, et enzym som uttrykkes nesten utelukkende i lever og er fraværende i skjelettmuskulatur — denne lever-begrenset aktivering er hvorfor bempedoic acid ikke bærer samme myopatirisiko som statiner. ACL-hemming oppregulerer hepatisk LDL-reseptor (LDLR)-ekspresjon og senker LDL-C uavhengig av, og additivt til, statinterapi.
 
----
+HoFH er en sjelden genetisk lidelse der LDLR-funksjon er alvorlig eller fullstendig mangelfull, noe som fører til ekstremt forhøyet LDL-C og tidlig oppstått aterosklerotisk hjerte-karsykdom. Fordi LDLR-funksjon er så svekket, krever HoFH-behandling typisk kombinasjonsbehandling (statiner, ezetimib, PCSK9-hemmere, evinacumab, lomitapid) for å oppnå noen meningsfull LDL-C-reduksjon. Bempedoic acids LDLR-oppregulering, stort sett LDLR-uavhengig mekanisme gjør det mekanistisk plausibelt som et *tilleggsmiddel* i denne populasjonen, og en 2026 real-verdens kohortstudie (PMID 41274797) rapporterer allerede dets bruk spesifikt hos HoFH-pasienter.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Dette er best forstått ikke som repurposing til et nytt sjukdomsområ, men som en **indikasjonsutviding innen samme terapeutiske område for lipidlidelser** som legemiddelet allerede er etablert i — som er en mye lavere-risiko, høyere-plausibilitet form for repurposing enn kandidater drevet av modelstøy andre steder i TxGNN-resultat.
 
 ---
 
-## Conclusion and Next Steps
+## Klinisk studiebevis
 
-**Decision: Proceed with Guardrails**
+Det er for tiden ingen registrerte kliniske studier relatert til HoFH.
 
-**Rationale:**
-A mechanistically plausible, LDLR-independent LDL-C-lowering effect is supported by preclinical data in an LDLR-deficient animal model and a real-world clinical cohort specifically in HoFH patients, but no dedicated randomized controlled trial in HoFH exists yet — evidence is promising but not conclusive (L3).
+---
 
-**To proceed, the following is needed:**
-- Official mechanism of action (MOA) documentation from the regulatory label/DrugBank (currently flagged as Data Gap, DG002)
-- Local regulatory label warnings, contraindications, and DDI data (currently flagged as Blocking Data Gap, DG001) — required before any safety-based decision can be finalized
-- A dedicated prospective or randomized trial evaluating bempedoic acid as add-on therapy in HoFH
-- Local market authorization pathway assessment, since the drug is not currently marketed in this jurisdiction
+## Litteraturbevis
+
+| PMID | År | Type | Tidsskrift | Viktige funn |
+|------|------|------|------|---------|
+| [41274797](https://pubmed.ncbi.nlm.nih.gov/41274797/) | 2026 | Kohortstudie (real-verdens) | J Clin Lipidol | Direkte real-verdens evaluering av bempedoic acid-effektivitet/tolerabilitet spesifikt hos HoFH-pasienter |
+| [41741298](https://pubmed.ncbi.nlm.nih.gov/41741298/) | 2026 | Ekspertenkonsensus | J Clin Lipidol | National Lipid Association oppdatering på FH-behandling, som inkorporerer nåværende alternativer for LDL-C-senking |
+| [41694628](https://pubmed.ncbi.nlm.nih.gov/41694628/) | 2026 | Fallrapport + oversikt | Clin Case Rep | Illustrerer konsekvensene av avbrutt HoFH-oppfølging; gjennomgår aggressive strategier for LDL-C-senking |
+| [41106315](https://pubmed.ncbi.nlm.nih.gov/41106315/) | 2025 | Oversikt | Exp Mol Pathol | Gjennomgår innovative HoFH-terapi inkludert ikke-statin LDL-C-senking-midler |
+| [35466160](https://pubmed.ncbi.nlm.nih.gov/35466160/) | 2022 | Oversikt | J Atheroscler Thromb | Gjennomgår fremskritt innen HoFH-behandling, og plasserer bempedoic acid blant nyere alternativer |
+| [37071085](https://pubmed.ncbi.nlm.nih.gov/37071085/) | 2024 | Oversikt | Cardiol Rev | Diskuterer evinacumab og andre tilleggsterapi (inkl. bempedoic acid) for HoFH |
+| [29449335](https://pubmed.ncbi.nlm.nih.gov/29449335/) | 2018 | Preklinisk (dyremodell) | Arterioscler Thromb Vasc Biol | Bempedoic acid senker LDL-C og reduserer ateroskleros hos LDLR-manglende miniaturgris — direkte mekanistisk støtte for LDLR-uavhengig fordel |
+| [33766264](https://pubmed.ncbi.nlm.nih.gov/33766264/) | 2021 | Oversikt | J Am Coll Cardiol | Gjennomgår nye LDL-C/ApoB-senking-terapi inkludert bempedoic acid sammen med PCSK9i og inclisiran |
+| [38576462](https://pubmed.ncbi.nlm.nih.gov/38576462/) | 2024 | Oversikt | Am J Prev Cardiol | Understreker kumulativ LDL-C-eksponering som ASCVD-drivkraft, og støtter rasjonalen for maksimal LDL-C-reduksjon i høyrisiko-grupper som HoFH |
+| [32243228](https://pubmed.ncbi.nlm.nih.gov/32243228/) | 2020 | Oversikt | Postgrad Med | Gjennomgår nye LDL-C-senking-midler inkludert bempedoic acids mekanisme og klinisk posisjonering |
+
+---
+
+## Markedsinformasjon for Norge
+
+Dette legemiddelet er **ikke for tiden markedsført** i den evaluerte jurisdiksjon (0 godkjenninger på fil); ingen autorisasjonsdokumenter er tilgjengelige for å oppsummere godkjente indikasjoner eller doseringsformer.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Fortsett med sikkerhetstiltak**
+
+**Begrunnelse:**
+En mekanistisk plausibel, LDLR-uavhengig LDL-C-senking-effekt er støttet av prekliniske data i en LDLR-manglende dyremodell og en real-verdens klinisk kohortstudie spesifikt hos HoFH-pasienter, men ingen dedikert randomisert kontrollert studie i HoFH finnes ennå — beviset er lovende, men ikke konklusivt (L3).
+
+**For å fortsette, trengs følgende:**
+- Offisiell virkningsmekanisme (VM)-dokumentasjon fra regulatorisk etikett/DrugBank (for tiden flagget som datakløft, DG002)
+- Lokale regulatoriske etikett-advarsler, kontraindikasjoner og DDI-data (for tiden flagget som kritisk datakløft, DG001) — påkrevd før noen sikkerhetsbas et beslutning kan ferdigstilles
+- En dedikert prospektiv eller randomisert studie som evaluerer bempedoic acid som tilleggsterapi i HoFH
+- Vurdering av lokale godkjenningsprosesser for markedsføring, ettersom legemiddelet ikke for tiden er markedsført i denne juridiske området
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

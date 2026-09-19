@@ -29,75 +29,76 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Prasterone: From Unspecified Original Indication to Heparin Cofactor 2 Deficiency
+# Prasterone: Fra uspesifisert original indikasjon til Heparin Cofactor 2-mangel
 
-## One-Sentence Summary
+## Oppsummering i en setning
 
-> Prasterone (DHEA, DB01708) is an adrenal steroid hormone precursor; no approved indication data is available in this evidence pack, and the drug is not currently marketed in Norway.
-> The TxGNN model's top prediction is **Heparin Cofactor 2 Deficiency**, but this candidate has **no supporting clinical trials or literature**, and the proposed mechanism runs counter to known androgen pharmacology.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (no license/indication records available) |
-| Predicted New Indication | Heparin Cofactor 2 Deficiency |
-| TxGNN Prediction Score | 99.99% (rank 223 of full disease list) |
-| Evidence Level | L5 (model prediction only, no clinical or literature support) |
-| Norway Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Prasterone (DHEA, DB01708) er en adrenalt steroidhormonforløper; ingen godkjent indikasjondata er tilgjengelige i denne bevissamlingen, og legemidlet markedsføres ikke for tiden i Norge.
+> TxGNN-modellens topprediksjon er **Heparin Cofactor 2-mangel**, men denne kandidaten har **ingen støttende kliniske forsøk eller litteratur**, og den foreslåtte mekanismen strider mot kjent androgenfarmakologi.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Hurtigoversikt
 
-Currently, detailed mechanism of action data is not available for prasterone. Based on known pharmacological classification, prasterone (DHEA) is an adrenal steroid precursor that is peripherally converted into androgens and estrogens; this general class-level fact is not specific enough to establish a mechanistic bridge to heparin cofactor II deficiency.
-
-Heparin cofactor II deficiency is a hereditary disorder in which the therapeutic goal is to **restore anticoagulant activity**. Androgens, however, are generally associated with **pro-coagulant effects** — increased clotting factor synthesis and reduced natural anticoagulant activity (a pattern also reflected in this same evidence pack's other top predictions, such as antithrombin deficiency and protein S deficiency, all flagged with the same directional concern). This places the predicted indication in mechanistic tension with the drug's known pharmacology rather than in support of it.
-
-Given the absence of any clinical trials, published literature, or documented MOA linking prasterone to this disease, this ranks as a pure network-topology prediction (L5) with a plausible biological argument *against* efficacy rather than for it.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Objekt | Innhold |
+|--------|---------|
+| Original indikasjon | Ikke dokumentert i bevissamlingen (ingen lisens-/indikasjonsposter tilgjengelig) |
+| Forutsagt ny indikasjon | Heparin Cofactor 2-mangel |
+| TxGNN-prediksjonspoengsum | 99.99% (rangering 223 av fullstendig sykdomsliste) |
+| Bevisnivå | L5 (modellprediksjon kun, ingen klinisk eller litteraturstøtte) |
+| Norges markedsstatus | ✗ Ikke markedsført |
+| Antall godkjenninger | 0 |
+| Anbefalt beslutning | Pausert |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+For tiden er detaljerte virkningsmekanismedata ikke tilgjengelige for prasterone. Basert på kjent farmakologisk klassifisering er prasterone (DHEA) en adrenal steroidhormonforløper som konverteres perifert til androgener og østrogener; dette klassifiseringsnivåfaktet er ikke spesifikt nok til å etablere en mekanistisk sammenheng til heparin cofactor II-mangel.
 
----
+Heparin cofactor II-mangel er en arvelig tilstand der det terapeutiske målet er å **gjenopprette antikoagulantaktivitet**. Androgener er imidlertid generelt forbundet med **pro-koagulanteffekter** — økt syntese av koagulasjonsfaktorer og redusert naturlig antikoagulantaktivitet (et mønster som også gjenspeiles i denne samme bevissamlingens andre topprediksjoner, som antithrombin-mangel og protein S-mangel, alle flagget med samme retningspregte bekymring). Dette plasserer den forutsagte indikasjonen i mekanistisk konflikt med legemidlets kjente farmakologi snarere enn som støtte for den.
 
-## Norway Market Information
-
-Prasterone currently holds **no marketing authorizations in Norway** (market status: Not Marketed; total authorizations: 0). No license records are available to summarize.
+Gitt fraværet av noen kliniske forsøk, publisert litteratur, eller dokumentert MOA som forbinder prasterone til denne sykdommen, rangeres dette som en ren nettverkstopologi-prediksjon (L5) med et plausibelt biologisk argument *mot* effektivitet snarere enn for den.
 
 ---
 
-## Safety Considerations
+## Klinisk forsøksbeviser
 
-Please refer to the package insert for safety information. (Note: TFDA/label warnings and contraindications data are currently unavailable — see data gaps below.)
+For tiden ingen beslektede kliniske forsøk registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbeviser
 
-**Decision: Hold**
+For tiden ingen beslektet litteratur tilgjengelig.
 
-**Rationale:**
-The top-ranked prediction (heparin cofactor 2 deficiency) has zero clinical or literature evidence and its proposed pharmacology conflicts with androgens' known pro-coagulant tendency, making it biologically implausible as currently framed. Combined with missing MOA and safety label data, this candidate does not meet the bar to advance past S0.
+---
 
-**To proceed, the following is needed:**
-- TFDA/label warnings and contraindications (blocking gap — required before any S1 safety screening)
-- Confirmed mechanism of action data from DrugBank or primary literature
-- Experimental or clinical evidence on DHEA's effect on heparin cofactor II / antithrombin / protein S activity, given the directional safety concern raised above
-- Consider deprioritizing this top-ranked candidate: within this same prediction batch, **scleroderma (rank 7)** has stronger biological rationale (L4 evidence, 6 observational studies consistently showing DHEA-S deficiency correlating with disease severity, decision stage S1 "Research Question") and may be a more productive candidate to pursue next.
+## Norges markedsinformasjon
+
+Prasterone har for tiden **ingen markedsføringsgodkjenninger i Norge** (markedsstatus: Ikke markedsført; totale godkjenninger: 0). Ingen lisensdata er tilgjengelig for oppsummering.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Merk: TFDA/etikett-advarsler og kontraindikasjonsdata er for tiden utilgjengelige — se datahull nedenfor.)
+
+---
+
+## Konklusjon og neste trinn
+
+**Beslutning: Pausert**
+
+**Begrunnelse:**
+Topprangerte prediksjon (heparin cofactor 2-mangel) har null klinisk eller litteraturbevis, og dens foreslåtte farmakologi er i konflikt med androgeners kjente pro-koagulantegenskaper, noe som gjør det biologisk usannsynlig i sin nåværende form. Kombinert med manglende MOA- og sikkerhetsetikett-data, oppfyller denne kandidaten ikke kravet for å gå videre forbi S0.
+
+**For å gå videre er følgende nødvendig:**
+- TFDA/etikett-advarsler og kontraindikasjoner (blokkerende hull — kreves før S1-sikkerhetsvurdering)
+- Bekreftet virkningsmekanismedata fra DrugBank eller primærlitteratur
+- Eksperimentell eller klinisk evidens for DHEA-effekt på heparin cofactor II / antithrombin / protein S-aktivitet, gitt sikkerhetskonsernet som er reist ovenfor
+- Vurder å nedprioritere denne høyest rangerte kandidaten: innenfor samme prediksjonsgruppe har **skleroderm (rangering 7)** sterkere biologisk begrunnelse (L4-bevis, 6 observasjonsstudier som konsekvent viser DHEA-S-mangel korrelert med sykdomsalvorsgrad, beslutningsstadium S1 "Research Question") og kan være en mer produktiv kandidat å forfølge videre.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

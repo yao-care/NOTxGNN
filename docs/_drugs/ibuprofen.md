@@ -29,78 +29,79 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Ibuprofen: From NSAID Therapy to Acromesomelic Dysplasia, Hunter-Thompson Type
+# Ibuprofen: Fra NSAID-terapi til Acromesomelic Dysplasia, Hunter-Thompson-type
 
-## One-Sentence Summary
+## Sammendrag på én setning
 
-> Ibuprofen is a widely used nonsteroidal anti-inflammatory drug (NSAID), though no Taiwan-specific approved indication text is available in this evidence pack.
-> The TxGNN model's top prediction is **Acromesomelic Dysplasia, Hunter-Thompson Type**, a rare congenital skeletal disorder,
-> but this candidate currently has **0 clinical trials** and **0 publications** supporting it, and the model's own rationale flags it as a likely embedding-clustering false positive.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no `original_indications` or Taiwan license data in this evidence pack |
-| Predicted New Indication | Acromesomelic Dysplasia, Hunter-Thompson Type |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Ibuprofen er et bredt brukt ikke-steroidalt antiinflammatorisk legemiddel (NSAID), selv om ingen Taiwan-godkjent indikasjonsinformasjon er tilgjengelig i denne bevissamlingen.
+> TxGNN-modellens toppprediksjon er **Acromesomelic Dysplasia, Hunter-Thompson-type**, en sjelden medfødt skjelettlidelse,
+> men denne kandidaten har for øyeblikket **0 kliniske prøvinger** og **0 publikasjoner** som støtter det, og modellens egen begrunnelse flagger det som et sannsynlig embedding-clustering falskt positivt.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Rask oversikt
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap, DG002). Ibuprofen is generally known as a propionic-acid-class NSAID that inhibits COX-1/COX-2 and prostaglandin synthesis, but no drug-specific MOA record was returned for this candidate.
-
-Importantly, this prediction should **not** be treated as mechanistically well-supported. The model's own rationale for the top-ranked disease states that Acromesomelic Dysplasia, Hunter-Thompson Type is caused by *GDF5* gene mutations — a congenital structural skeletal disorder with **no known pathogenic overlap** with the COX/prostaglandin-inhibition pathway that underlies ibuprofen's pharmacology. The evidence pack explicitly notes this high score is suspected to be a **graph-embedding clustering false positive** rather than a biologically grounded signal.
-
-This pattern repeats across all seven ranked candidates in this pack: brachyolmia-amelogenesis imperfecta syndrome, myosclerosis, brachyolmia, brachydactyly-syndactyly syndrome, pseudoachondroplasia, and colobomatous microphthalmia-rhizomelic dysplasia syndrome are all rare congenital or developmental skeletal/connective-tissue disorders. Only pseudoachondroplasia's rationale notes a plausible (but purely symptomatic, non-disease-modifying) link — NSAID use for joint pain — while every other candidate is explicitly described as lacking a known inflammatory or mechanistic pathway connection to ibuprofen. None of the seven candidates has any supporting clinical trial or literature evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Innhold |
+|------|---------|
+| Opprinnelig indikasjon | Ikke tilgjengelig — ingen `original_indications` eller Taiwan-lisensiata i denne bevissamlingen |
+| Predikert ny indikasjon | Acromesomelic Dysplasia, Hunter-Thompson-type |
+| TxGNN-prediksjonspoengsum | 99.74% |
+| Bevisnivå | L5 |
+| Taiwan-markedsstatus | Ikke markedsført |
+| Antall autorisasjoner | 0 |
+| Anbefalt beslutning | Avvent |
 
 ---
 
-## Literature Evidence
+## Hvorfor er denne prediksjonen rimelig?
 
-Currently no related literature available.
+For øyeblikket er detaljert virkningsmekanisme-data ikke tilgjengelig (flagget som et alvorlig datgap, DG002). Ibuprofen er generelt kjent som et propionsyre-klasse-NSAID som hemmer COX-1/COX-2 og prostaglandinsyntese, men ingen legemiddel-spesifikk MOA-post ble returnert for denne kandidaten.
 
----
+Det er viktig at denne prediksjonen **ikke** bør behandles som mekanistisk godt støttet. Modellens egen begrunnelse for den høyest rangerte tilstanden slår fast at Acromesomelic Dysplasia, Hunter-Thompson-type er forårsaket av *GDF5*-genmutasjoner — en medfødt strukturell skjelettlidelse med **ingen kjent patogen overlapping** med COX/prostaglandin-hemningsbanen som ligger til grunn for ibuprofen-farmakologien. Bevissamlingen noterer eksplisitt at denne høye poengsum er mistenkt å være et **graph-embedding klusterings falskt positivt** i stedet for et biologisk forankret signal.
 
-## Taiwan Market Information
-
-Ibuprofen currently has **no marketing authorization in Taiwan** (0 licenses on record; market status: Not marketed). No product name, dosage form, or approved indication text is available for this evidence pack.
+Dette mønsteret gjentar seg på alle sju rangerte kandidater i denne pakken: brachyolmia-amelogenesis imperfecta syndrom, myosclerosis, brachyolmia, brachydactyly-syndactyly syndrom, pseudoachondroplasia og colobomatous microphthalmia-rhizomelic dysplasia syndrom er alle sjeldne medfødte eller utviklingsmessige skjelettlidelser eller bindevevslidelser. Bare pseudoachondroplasias begrunnelse noterer en plausibel (men rent symptomatisk, ikke sykdomsmodifiserende) forbindelse — NSAID-bruk for leddsmerter — mens alle andre kandidater eksplisitt beskrives som manglende en kjent inflammatorisk eller mekanistisk banetilknytning til ibuprofen. Ingen av de sju kandidatene har noen støttende klinisk prøving- eller litteraturbevis.
 
 ---
 
-## Safety Considerations
+## Bevis fra kliniske prøvinger
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA label warnings/contraindications are recorded as a Blocking data gap (DG001) — this is required before any S1 safety pre-assessment can proceed.)*
+For øyeblikket ingen relaterte kliniske prøvinger registrert.
 
 ---
 
-## Conclusion and Next Steps
+## Litteraturbevis
 
-**Decision: Hold**
+For øyeblikket ingen relatert litteratur tilgjengelig.
 
-**Rationale:**
-All seven TxGNN-predicted indications for ibuprofen are rare congenital skeletal/connective-tissue disorders with L5 evidence (score-only, no clinical trials or literature), and the top-ranked candidate's own mechanistic rationale flags it as a likely embedding-clustering false positive with no known pathogenic overlap with NSAID pharmacology. Combined with a Blocking gap on TFDA label data and a High-severity gap on MOA, this candidate cannot advance past S0.
+---
 
-**To proceed, the following is needed:**
-- TFDA label warnings/contraindications (DG001, Blocking) — required before any safety pre-assessment
-- DrugBank MOA data (DG002, High) to properly assess mechanistic plausibility
-- Independent biological/genetic rationale review to confirm or rule out the suspected embedding-clustering artifact before treating this prediction as a viable candidate
-- If pursuing further, re-run TxGNN ranking against non-rare-disease indication sets to check whether this candidate list reflects a systematic clustering issue specific to ibuprofen's embedding
+## Taiwan-markedsinformasjon
+
+Ibuprofen har for øyeblikket **ingen markedsføringsautorisasjon i Taiwan** (0 lisenser på posten; markedsstatus: Ikke markedsført). Ingen produktnavn, doseringsform eller godkjent indikasjonsinformasjon er tilgjengelig for denne bevissamlingen.
+
+---
+
+## Sikkerhetshensyn
+
+Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+
+*(Merknad: TFDA-etikettadvarsler/kontraindikasjoner er registrert som et blokkerings-datgap (DG001) — dette er påkrevd før en S1-sikkerhet forhåndsvurdering kan fortsette.)*
+
+---
+
+## Konklusjon og neste skritt
+
+**Beslutning: Avvent**
+
+**Begrunnelse:**
+Alle sju TxGNN-predikerte indikasjoner for ibuprofen er sjeldne medfødte skjelettlidelser/bindevevslidelser med L5-bevis (kun poengsum, ingen kliniske prøvinger eller litteratur), og den høyest rangerte kandidatens egen mekanistiske begrunnelse flagger det som et sannsynlig embedding-clustering falskt positivt med ingen kjent patogen overlapping med NSAID-farmakologi. Kombinert med et blokkerings-datgap på TFDA-etikettdata og et alvorlig-datgap på MOA, kan denne kandidaten ikke avansere forbi S0.
+
+**For å fortsette, kreves følgende:**
+- TFDA-etikettadvarsler/kontraindikasjoner (DG001, Blokkering) — påkrevd før en sikkerhet forhåndsvurdering
+- DrugBank MOA-data (DG002, Alvorlig) for å ordentlig vurdere mekanistisk plausibilitet
+- Uavhengig biologisk/genetisk begrunnelse-gjennomgang for å bekrefte eller utelukke det mistenkte embedding-clustering-artefakt før denne prediksjonen behandles som en levedyktig kandidat
+- Hvis videre oppfølging ønskes, kjør TxGNN-rangering på nytt mot ikke-sjelden-sykdom-indikasjonssett for å sjekke om denne kandidatlisten gjenspeiler et systematisk klusteringsproblem spesifikt for ibuprofen-embedningen
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
