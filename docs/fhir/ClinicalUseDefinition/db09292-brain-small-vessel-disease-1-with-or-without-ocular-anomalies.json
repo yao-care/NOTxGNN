@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db09292-brain-small-vessel-disease-1-with-or-without-ocular-anomalies",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db09292"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "brain small vessel disease 1 with or without ocular anomalies"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.5
+    }
+  ]
+}

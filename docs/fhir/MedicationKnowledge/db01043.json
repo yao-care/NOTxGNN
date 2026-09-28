@@ -1,0 +1,31 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "db01043",
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://notxgnn.yao.care/drugs",
+        "code": "db01043",
+        "display": "DB01043"
+      }
+    ]
+  },
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L1"
+    }
+  ]
+}

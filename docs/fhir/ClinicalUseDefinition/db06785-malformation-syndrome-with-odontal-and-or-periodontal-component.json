@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db06785-malformation-syndrome-with-odontal-and-or-periodontal-component",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db06785"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "malformation syndrome with odontal and/or periodontal component"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.5
+    }
+  ]
+}

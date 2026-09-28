@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db04835-complement-component-4a-deficiency",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db04835"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "complement component 4a deficiency"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.5
+    }
+  ]
+}

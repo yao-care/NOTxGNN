@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db05154-anomalous-left-coronary-artery-from-the-pulmonary-artery",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db05154"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "anomalous left coronary artery from the pulmonary artery"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.5
+    }
+  ]
+}
