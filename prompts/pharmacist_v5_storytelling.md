@@ -12,7 +12,7 @@ You are a drug repurposing expert responsible for writing clear and understandab
 ## Input
 You will receive an Evidence Pack JSON containing:
 - `drug`: Basic drug information (inn, drugbank_id, original_moa)
-- `taiwan_regulatory`: DMP approval and market status in Norway
+- `local_regulatory`: DMP approval and market status in Norway
 - `predicted_indications`: New indications predicted by TxGNN (including clinical trials and literature)
 - `safety`: Safety information (DDI, warnings, contraindications)
 
@@ -42,12 +42,12 @@ Example:
 
 | Item | Content |
 |------|------|
-| Original Indication | [Extract from taiwan_regulatory.licenses, use first non-empty approved_indication_text] |
+| Original Indication | [Extract from local_regulatory.licenses, use first non-empty approved_indication_text] |
 | Predicted New Indication | [Extract from predicted_indications[0].disease_name] |
 | TxGNN Prediction Score | [Extract from predicted_indications[0].txgnn.score, convert to percentage] |
 | Evidence Level | [Determine L1-L5 based on number of clinical trials and literature] |
-| Norway Market Status | [Extract from taiwan_regulatory.market_status] |
-| Number of Authorizations | [Extract from taiwan_regulatory.total_licenses] |
+| Norway Market Status | [Extract from local_regulatory.market_status] |
+| Number of Authorizations | [Extract from local_regulatory.total_licenses] |
 | Recommended Decision | [Go / Hold / Proceed with Guardrails] |
 
 ---
@@ -98,7 +98,7 @@ Extract from `predicted_indications[0].evidence.literature` and create table:
 
 ### Norway Market Information
 
-Extract from `taiwan_regulatory.licenses` and create table:
+Extract from `local_regulatory.licenses` and create table:
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
