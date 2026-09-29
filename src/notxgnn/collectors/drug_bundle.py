@@ -309,8 +309,9 @@ class DrugBundleAggregator:
         """Lazy-load collectors as needed."""
         if name not in self._collectors:
             if name == "tfda":
-                from .tfda import TFDACollector
-                self._collectors[name] = TFDACollector()
+                # 本國藥證（Phase 5 標準收集器，讀 Phase 1 的 loader / fields.yaml / drug_mapping）
+                from .nofda import LocalFDACollector
+                self._collectors[name] = LocalFDACollector()
             elif name == "tfda_package_insert":
                 from .tfda_package_insert import TFDAPackageInsertCollector
                 self._collectors[name] = TFDAPackageInsertCollector()
