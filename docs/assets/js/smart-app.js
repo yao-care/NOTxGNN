@@ -42,12 +42,12 @@
     };
 
     try {
-      showLoading('載入藥物資料庫...');
+      showLoading('Loading drug database...');
 
       // Load search index
       searchIndex = await loadSearchIndex();
 
-      showLoading('連線至 EHR 系統...');
+      showLoading('Connecting to the EHR...');
 
       // Initialize FHIR client
       fhirClient = await FHIR.oauth2.ready();
@@ -55,7 +55,7 @@
       // Initialize drug mapper
       drugMapper = new TwTxGNN.DrugMapper(searchIndex);
 
-      showLoading('讀取病患用藥資料...');
+      showLoading('Reading patient medications...');
 
       // Load patient info and medications
       await loadPatientData();
@@ -68,7 +68,7 @@
 
     } catch (error) {
       console.error('SMART App initialization error:', error);
-      showError('無法初始化應用程式: ' + (error.message || error));
+      showError('Could not initialise the app: ' + (error.message || error));
     }
   }
 
@@ -78,7 +78,7 @@
   async function loadSearchIndex() {
     const response = await fetch(CONFIG.searchIndexUrl);
     if (!response.ok) {
-      throw new Error('無法載入藥物資料庫');
+      throw new Error('Could not load the drug database');
     }
     return response.json();
   }
@@ -136,22 +136,22 @@
     const name = patient.name?.[0];
     const displayName = name ?
       `${name.family || ''}, ${name.given?.join(' ') || ''}`.trim() :
-      '未知';
+      'Unknown';
 
-    const birthDate = patient.birthDate || '未知';
+    const birthDate = patient.birthDate || 'Unknown';
     const gender = {
-      'male': '男',
-      'female': '女',
-      'other': '其他',
-      'unknown': '未知'
-    }[patient.gender] || patient.gender || '未知';
+      'male': 'Male',
+      'female': 'Female',
+      'other': 'Other',
+      'unknown': 'Unknown'
+    }[patient.gender] || patient.gender || 'Unknown';
 
     elements.patientInfo.innerHTML = `
       <div class="patient-card">
         <div class="patient-name">${escapeHtml(displayName)}</div>
         <div class="patient-details">
-          <span>出生日期: ${escapeHtml(birthDate)}</span>
-          <span>性別: ${escapeHtml(gender)}</span>
+          <span>Date of birth: ${escapeHtml(birthDate)}</span>
+          <span>Sex: ${escapeHtml(gender)}</span>
         </div>
       </div>
     `;
@@ -166,7 +166,7 @@
     if (mappingResults.length === 0) {
       elements.medList.innerHTML = `
         <div class="empty-state">
-          <p>未找到病患用藥記錄</p>
+          <p>No medication records found for this patient</p>
         </div>
       `;
       return;
@@ -175,10 +175,10 @@
     let html = '<div class="med-list">';
 
     mappingResults.forEach((result, index) => {
-      const displayName = result.displayName || result.ingredientName || '未知藥物';
+      const displayName = result.displayName || result.ingredientName || 'Unknown drug';
       const matchStatus = result.matched ?
-        `<span class="match-badge matched">有預測資料</span>` :
-        `<span class="match-badge unmatched">無預測資料</span>`;
+        `<span class="match-badge matched">Predictions available</span>` :
+        `<span class="match-badge unmatched">No predictions</span>`;
 
       const twtxgnnInfo = result.twtxgnnMatch ?
         `<span class="twtxgnn-name">→ ${escapeHtml(result.twtxgnnMatch.name)}</span>
@@ -214,7 +214,7 @@
     if (selectedIndices.length === 0) {
       elements.results.innerHTML = `
         <div class="empty-state">
-          <p>請至少選擇一個藥物</p>
+          <p>Please select at least one drug</p>
         </div>
       `;
       return;
@@ -239,17 +239,17 @@
               <span class="level-badge level-${drug.level}">${drug.level}</span>
             </h3>
             <a href="${CONFIG.drugsBaseUrl}${drug.slug}/" target="_blank" class="view-full">
-              查看完整報告 →
+              View full report →
             </a>
           </div>
 
           <div class="drug-original">
-            <strong>原適應症：</strong>
+            <strong>Original indication:</strong>
             ${escapeHtml(drug.original) || '—'}
           </div>
 
           <div class="drug-indications">
-            <strong>預測新適應症（老藥新用候選）：</strong>
+            <strong>Predicted new indications (repurposing candidates):</strong>
             <div class="indication-list">
       `;
 
@@ -263,7 +263,7 @@
                 <span class="ind-name">${escapeHtml(ind.name)}</span>
                 <span class="ind-score">${ind.score}%</span>
                 <button class="trials-btn" onclick="TwTxGNN.SmartApp.loadTrials('${escapeHtml(drug.name)}', '${escapeHtml(ind.name)}', '${trialsContainerId}')">
-                  🔬 臨床試驗
+                  🔬 Clinical trials
                 </button>
               </div>
               <div class="trials-container" id="${trialsContainerId}"></div>
@@ -274,13 +274,13 @@
         if (indications.length > 10) {
           html += `
             <div class="more-indications">
-              ...及其他 ${indications.length - 10} 個預測適應症
-              <a href="${CONFIG.drugsBaseUrl}${drug.slug}/" target="_blank">查看全部</a>
+              ...and ${indications.length - 10} more predicted indications
+              <a href="${CONFIG.drugsBaseUrl}${drug.slug}/" target="_blank">View all</a>
             </div>
           `;
         }
       } else {
-        html += '<p class="no-indications">無預測新適應症</p>';
+        html += '<p class="no-indications">No predicted new indications</p>';
       }
 
       html += `
@@ -293,7 +293,7 @@
     if (!html) {
       html = `
         <div class="empty-state">
-          <p>選取的藥物無預測資料</p>
+          <p>The selected drugs have no predictions</p>
         </div>
       `;
     }
@@ -325,7 +325,7 @@
   function showLoading(message) {
     if (elements.loading) {
       elements.loading.style.display = 'flex';
-      elements.loading.querySelector('.loading-text').textContent = message || '載入中...';
+      elements.loading.querySelector('.loading-text').textContent = message || 'Loading...';
     }
     if (elements.error) elements.error.style.display = 'none';
     if (elements.content) elements.content.style.display = 'none';
@@ -417,18 +417,18 @@
     const container = document.getElementById(containerId);
     if (!container) return;
 
-    container.innerHTML = '<span class="trials-loading">搜尋臨床試驗中...</span>';
+    container.innerHTML = '<span class="trials-loading">Searching clinical trials...</span>';
 
     const result = await searchClinicalTrials(drugName, indicationName);
 
     if (result.totalCount === 0) {
-      container.innerHTML = '<span class="trials-none">無相關臨床試驗</span>';
+      container.innerHTML = '<span class="trials-none">No related clinical trials</span>';
       return;
     }
 
     let html = `
       <div class="trials-summary">
-        找到 <strong>${result.totalCount}</strong> 個相關臨床試驗
+        <strong>${result.totalCount}</strong> related clinical trials found
       </div>
       <div class="trials-list">
     `;
@@ -449,7 +449,7 @@
       const searchUrl = `https://clinicaltrials.gov/search?cond=${encodeURIComponent(indicationName)}&intr=${encodeURIComponent(drugName)}`;
       html += `
         <a href="${searchUrl}" target="_blank" class="trials-more">
-          查看全部 ${result.totalCount} 個臨床試驗 →
+          View all ${result.totalCount} clinical trials →
         </a>
       `;
     }
@@ -477,14 +477,14 @@
    */
   function formatTrialStatus(status) {
     const statusMap = {
-      'RECRUITING': '招募中',
-      'ACTIVE_NOT_RECRUITING': '進行中',
-      'COMPLETED': '已完成',
-      'TERMINATED': '已終止',
-      'NOT_YET_RECRUITING': '尚未招募',
-      'SUSPENDED': '暫停',
-      'WITHDRAWN': '已撤回',
-      'ENROLLING_BY_INVITATION': '邀請招募'
+      'RECRUITING': 'Recruiting',
+      'ACTIVE_NOT_RECRUITING': 'Active, not recruiting',
+      'COMPLETED': 'Completed',
+      'TERMINATED': 'Terminated',
+      'NOT_YET_RECRUITING': 'Not yet recruiting',
+      'SUSPENDED': 'Suspended',
+      'WITHDRAWN': 'Withdrawn',
+      'ENROLLING_BY_INVITATION': 'Enrolling by invitation'
     };
     return statusMap[status] || status;
   }
