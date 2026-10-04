@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-03T23:34:27.193066+00:00",
+  "fetched_at": "2026-10-04T04:50:39.985814+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -34,16 +34,6 @@
       }
     },
     {
-      "id": "0d1d3721b1a8",
-      "title": "Større kontroll over prisene på medisinsk utstyr og medisiner, og forhindre prisoverskridelser. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORmVtWFIwWEZMcHNNeVdZYXpXMUZhRG9OWldYTHhZaVhnSHJ6Yk5LZ3B1NDh2NlA3RlVEOV92OVVqOHJWWE04STNsTUI3ZEtWa2NJOUZVTVVQODNoRWtka1dydW1lallrVm4xMmFIQm5XaV9VejJCM0hXRUZLWkpaSEM4eVFqT3ZxakU0NzNJRHphNThHTWJEdA?oc=5",
-      "published": "2026-10-03T09:06:44+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "e5aa7e142390",
       "title": "Eilertsen om legemiddelrapporten: – Stortinget har ikke fått det vi bestilte - HealthTalk",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYXRyNGFLSnVTbXctbWpBbTNlUEdqLUQ1cUJ3bUY3NFNpZWNsTXdMY2x2ZnBnY3pZTWxwOVh1aXpSenhzWFlHUDVxSWoyX1E0Rk5BbVk4NWwtcUkxZDNQczRVYUh5c0RSaWVIaVNhTE91Q2l3SXVGMkU5RFdEck9jNlZuOEtuVXp1UlphNmpCWGh1VVJ1cUg0VWZsTWxZMFVBY0FDamtodWFwNXNyV2k3bWZLaG5lYnpiaEhacnBrX0lUc3hO?oc=5",
@@ -51,6 +41,16 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
+      }
+    },
+    {
+      "id": "0d1d3721b1a8",
+      "title": "Større kontroll over prisene på medisinsk utstyr og medisiner, og forhindre prisoverskridelser. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORmVtWFIwWEZMcHNNeVdZYXpXMUZhRG9OWldYTHhZaVhnSHJ6Yk5LZ3B1NDh2NlA3RlVEOV92OVVqOHJWWE04STNsTUI3ZEtWa2NJOUZVTVVQODNoRWtka1dydW1lallrVm4xMmFIQm5XaV9VejJCM0hXRUZLWkpaSEM4eVFqT3ZxakU0NzNJRHphNThHTWJEdA?oc=5",
+      "published": "2026-10-03T09:06:44+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -64,12 +64,12 @@
       }
     },
     {
-      "id": "eaef04247c71",
-      "title": "Ny ADHD-medisin: Kan også forebygge depresjon - VG",
+      "id": "d3a17f83c8e7",
+      "title": "Ny ADHD-medisin: Kan også forebygge depresjon - vg.no",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQU0JpWm9LLWVpS0tKbjFUMTZwWThDSXlVUWZUMnFlU1ZfNDRQelRheW93QWZRd1lRNXQ2eHkxaWZxQVRXbzBGR1R3dkcxUkZxREN0cWV6OVJCb3E2b0V1eTZ5TUoyUjJUYmJqYndfNmR2RjlSTnpCaF8tc1F4dy1iTDFDRDlNdGV2Znc?oc=5",
       "published": "2026-09-30T14:06:45+00:00",
       "source": {
-        "name": "VG",
+        "name": "vg.no",
         "url": "https://www.vg.no"
       }
     },
@@ -94,16 +94,6 @@
       }
     },
     {
-      "id": "64cc996eb027",
-      "title": "Dobbelt så mange barn får ADHD-medisin i Kinn som i Sunnfjord - Firdaposten",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZjliXzRjNU1OMHZmZ3NvdW85TGRxRDVMM0ZiVXNxSnVnX1JZWnZjVzBBcnZ1STlhQk5jMWpRSjl4QUZZVTZGSVdzTEZMbXR0N3YzdlBTM1lYdEUzRzY3dk81Rk5qYkMxZmt6WFJvQWdVVzQwT2NWZ1BDWlBCR2JVLVlpYmtoQ2RMcmtQMDFpTndMbzltM3FUMHc5QS1vS21INDgtVA?oc=5",
-      "published": "2026-09-27T14:58:30+00:00",
-      "source": {
-        "name": "Firdaposten",
-        "url": "https://www.firdaposten.no"
-      }
-    },
-    {
       "id": "779e45cee086",
       "title": "Leserinnlegg, Vanedannende medisiner | God helse handler om mer enn en resept - Kragerø Blad Vestmar",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02djNpVWI5eWpzUnhzMUM4cDZXT2YzQWV0MVFFNUJPZ3dmTnRmYVpaZm9YSXVXSWVGYlBfQUpldjUxQ20wamdMTjFtUGZkZGRLLU8zYTVISHNJaHZfOVQ1WFpvVDNiNkVmQ0I0QUduSXV2dVNzdEItRw?oc=5",
@@ -111,6 +101,16 @@
       "source": {
         "name": "Kragerø Blad Vestmar",
         "url": "https://www.kv.no"
+      }
+    },
+    {
+      "id": "64cc996eb027",
+      "title": "Dobbelt så mange barn får ADHD-medisin i Kinn som i Sunnfjord - Firdaposten",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZjliXzRjNU1OMHZmZ3NvdW85TGRxRDVMM0ZiVXNxSnVnX1JZWnZjVzBBcnZ1STlhQk5jMWpRSjl4QUZZVTZGSVdzTEZMbXR0N3YzdlBTM1lYdEUzRzY3dk81Rk5qYkMxZmt6WFJvQWdVVzQwT2NWZ1BDWlBCR2JVLVlpYmtoQ2RMcmtQMDFpTndMbzltM3FUMHc5QS1vS21INDgtVA?oc=5",
+      "published": "2026-09-27T14:58:30+00:00",
+      "source": {
+        "name": "Firdaposten",
+        "url": "https://www.firdaposten.no"
       }
     },
     {
@@ -174,13 +174,13 @@
       }
     },
     {
-      "id": "38da47690a68",
-      "title": "De norske forskerne ba dem synge foran et surt panel. Deretter ga de dem sterke medisiner. - Aftenposten",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQjZUSmttdXJ4MmpwZW00S2ZNTTFEOUFEcUdzZE1Qc2lhYjFEcHpOZHBOejJLWk8wUVBMQ090UFN2U25MY3ZNLUVZSGIzeG12a1dObjVCZUx3Yy1Ka2h4VVd4QUg1MmtGTVFlNXZjMkdiNGpiZXRNS3NrVzBSNm9XZHhJNnBPV1RvX2pwbFBzVk9LZFZkaEQzY1J1MGRBS2hqbndtWmFsNTlXcU5WVFU0QVRCek43dUNsNDhBS0oydmsxTEhEelc4?oc=5",
-      "published": "2026-09-07T07:00:00+00:00",
+      "id": "cbc2814dfa04",
+      "title": "Helse, Medisin | Medisinmangel vart personleg for Beate: Tok kvinnehelse og beredskap til Arendalsuka - Avisa Nordhordland",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYzVpV0hVVHhTaEdlSTV2eDZ0eE5aV3NFbm1mUUtMelZ4ZFU0NmhpdE1TdUplaDRyU3djTkdtanlPb3Jaa3dxX29VdXk3WVcxXzgxcDJKaDI3ZGh4NDdscmozZmJYUkFUUnVrX2dFVG1vd0Y3NjVhWm0yQndIT3l6bG5tZ0lveS1ndWFmU2tiSDdjejFfbU9YSFJrYjM2dG5lTHM4Y19SbVVLUFlWMVJKd3ZEV1hiR3FVMTgwNThlX2tKVDA?oc=5",
+      "published": "2026-08-20T07:00:00+00:00",
       "source": {
-        "name": "Aftenposten",
-        "url": "https://www.aftenposten.no"
+        "name": "Avisa Nordhordland",
+        "url": "https://www.nordhordland.no"
       }
     },
     {
@@ -204,13 +204,13 @@
       }
     },
     {
-      "id": "cbc2814dfa04",
-      "title": "Helse, Medisin | Medisinmangel vart personleg for Beate: Tok kvinnehelse og beredskap til Arendalsuka - Avisa Nordhordland",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYzVpV0hVVHhTaEdlSTV2eDZ0eE5aV3NFbm1mUUtMelZ4ZFU0NmhpdE1TdUplaDRyU3djTkdtanlPb3Jaa3dxX29VdXk3WVcxXzgxcDJKaDI3ZGh4NDdscmozZmJYUkFUUnVrX2dFVG1vd0Y3NjVhWm0yQndIT3l6bG5tZ0lveS1ndWFmU2tiSDdjejFfbU9YSFJrYjM2dG5lTHM4Y19SbVVLUFlWMVJKd3ZEV1hiR3FVMTgwNThlX2tKVDA?oc=5",
-      "published": "2026-08-20T07:00:00+00:00",
+      "id": "52802d7fd4ef",
+      "title": "Folkemedisinene som ødelegger sexlivet - Dagbladet",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPb19UYUY2b2FIdDd3Y05acktkSng1c3ZxUGNpRm5SdXo0R2ppMVVDWldCYlh5TkZLSk9vcGN0aTF4MFRORXRHSFJGeGFNT2Jsd3hITFl3QVZyc3RMLUItMVFiMk9GMlJFbXYwN1JoY0hLYk02U3QwcFFSTXZkV0FTRzZUYw?oc=5",
+      "published": "2026-09-13T07:00:00+00:00",
       "source": {
-        "name": "Avisa Nordhordland",
-        "url": "https://www.nordhordland.no"
+        "name": "Dagbladet",
+        "url": "https://www.dagbladet.no"
       }
     },
     {
@@ -224,32 +224,22 @@
       }
     },
     {
-      "id": "52802d7fd4ef",
-      "title": "Folkemedisinene som ødelegger sexlivet - Dagbladet",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPb19UYUY2b2FIdDd3Y05acktkSng1c3ZxUGNpRm5SdXo0R2ppMVVDWldCYlh5TkZLSk9vcGN0aTF4MFRORXRHSFJGeGFNT2Jsd3hITFl3QVZyc3RMLUItMVFiMk9GMlJFbXYwN1JoY0hLYk02U3QwcFFSTXZkV0FTRzZUYw?oc=5",
-      "published": "2026-09-13T07:00:00+00:00",
-      "source": {
-        "name": "Dagbladet",
-        "url": "https://www.dagbladet.no"
-      }
-    },
-    {
-      "id": "6114145eccc5",
-      "title": "Slår alarm om medisiner - VG",
+      "id": "4352bc4a4cb0",
+      "title": "Slår alarm om medisiner - vg.no",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5hSU5tVlZVMkZLTjlrZU1fMTJ0SjdMWTBXYThfWmcwVnlZLVlxNmp3YWlUeVhSVnJvdnRhbDZiLWJwdExaR3FHTXY4eWtHUndZUjAxSzNtUVlqYWhZVzduYTlZSzMyLV9fR1AyNmstUEE4b0pMSXVF?oc=5",
       "published": "2026-05-19T07:00:00+00:00",
       "source": {
-        "name": "VG",
+        "name": "vg.no",
         "url": "https://www.vg.no"
       }
     },
     {
-      "id": "e247abf555d8",
-      "title": "Professor om nye medisiner: –⁠ Dårligst i Europa - VG",
+      "id": "8f617531b488",
+      "title": "Professor om nye medisiner: –⁠ Dårligst i Europa - vg.no",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYzNkUlBnNFRSZ1hicnZ3UjNjMUFncDk4NXdTdDVwTlRSUjRzdWYyVlJnODdYOF9mYmdUTVlRcC1kSFFVNHotaDNDa3B6SmZqSHNsN2lKV3Zkc0w3a0p6SE1kUW1Oc1BXLTRoRjNHeXZLU0RZWDlCQXhtOEdFMnY5NXVFQzQ?oc=5",
       "published": "2026-05-18T07:00:00+00:00",
       "source": {
-        "name": "VG",
+        "name": "vg.no",
         "url": "https://www.vg.no"
       }
     },
@@ -304,16 +294,6 @@
       }
     },
     {
-      "id": "e13e9a3f74de",
-      "title": "Medisintilgangen stuper i Norge: – Pasienter dør mens de venter - Finansavisen",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdDl1VkFIblNrX2tyeF9nTHJGOGFUVVlRRkJMeWF2cndwWFlSSGJ1ZXdvVVVMY1hsRFpib3BORVJHc2prYW44SDJ2LVltNXUzbFdiYzBtRzBBeW1vdENxcmFXOWcybmtuaC1OS1N3Nm1jZ2tST2s5MThvT1NxV0NhMkR1SVdpX1NvUjk2SkpuZko1QWlxQzQteVJ6YWUwbzZscFFEZEVHUnVrck95aUFPR3pFOA?oc=5",
-      "published": "2026-05-19T07:00:00+00:00",
-      "source": {
-        "name": "Finansavisen",
-        "url": "https://www.finansavisen.no"
-      }
-    },
-    {
       "id": "7dc1a9a7a88a",
       "title": "Dette kan halvere effekten av medisinen din - Hamar Arbeiderblad",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTmJYdTBfRWZKOGFoSlY1VmhYd005Z0R6MGtmdUJBV0NYUVRiNmVPaEpZLXBwd1lZbHhFOFRmbVVvRU5aV2drRnZ6ajRrUVJsblBjRExsZlRZak51STh5cllmdlBsQ2VjaE81TWlBd2lJaW1BcjdmOXkwLXFQOHUyRWtBNnA?oc=5",
@@ -354,16 +334,6 @@
       }
     },
     {
-      "id": "9389b30abe08",
-      "title": "Kolesterol-medisiner: Dramatiske funn om bivirkninger - Dagbladet",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOX0Y5d3Q3clUwR3hNMUpSNjJJSWkwcXE5NVVjWkpZbEpiWlhPdTlZMDJmVXRTTDIxWVdhdkFNc0d1bjZKYkJmWkVxZXEzVFpyUFF6aHVOekZyTFBkX2R2ckpFb1NKMHhZemJ5eGxSNVVVcXpmUjVGY2dyUXZfQlBfWGRKajNTXzI0NzE2QnhxbklScjgyV0E?oc=5",
-      "published": "2026-09-02T07:00:00+00:00",
-      "source": {
-        "name": "Dagbladet",
-        "url": "https://www.dagbladet.no"
-      }
-    },
-    {
       "id": "5cb58eedeecb",
       "title": "ILB-strid utløste politisk pålegg: Nå skal ekspertgruppe utrede tidlig tilgang til legemidler - HealthTalk",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWmxDeHNuLUtSSmY3UHF0ekpyMXNGRFZQb0pIbHMxNE1ocDdielpaT1BESzY4NFFjbjFub2hpeG9RUUwwSDZNdnpHZERzaV92QnUxcEt3T2ZueE5rekNYSk41TXcwQmdKczFkVVU4RndqNkcyT1pjbEd0R0lYN0JLOHREVE9sQ0tZb191am1oTnR4c1NkUFlYNFY5alJ5SHJ4VFFVV1dEVmZOM0pyQ2RpOEdPdnNveUw0cTlETnpPREk?oc=5",
@@ -384,12 +354,22 @@
       }
     },
     {
-      "id": "055bde4d929d",
-      "title": "Flere eldre kan hente medisin på apotek - Bergen kommune",
+      "id": "9389b30abe08",
+      "title": "Kolesterol-medisiner: Dramatiske funn om bivirkninger - Dagbladet",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOX0Y5d3Q3clUwR3hNMUpSNjJJSWkwcXE5NVVjWkpZbEpiWlhPdTlZMDJmVXRTTDIxWVdhdkFNc0d1bjZKYkJmWkVxZXEzVFpyUFF6aHVOekZyTFBkX2R2ckpFb1NKMHhZemJ5eGxSNVVVcXpmUjVGY2dyUXZfQlBfWGRKajNTXzI0NzE2QnhxbklScjgyV0E?oc=5",
+      "published": "2026-09-02T07:00:00+00:00",
+      "source": {
+        "name": "Dagbladet",
+        "url": "https://www.dagbladet.no"
+      }
+    },
+    {
+      "id": "13b00ff6e84c",
+      "title": "Flere eldre kan hente medisin på apotek - bergen.kommune.no",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUUt4cU1YcTRnVzJsQUNJQ1BMRTJEWGl5bmdEVlYwZXpmb1pEaVA0d20yczVIR2ZyRE83MloyWDVrbGJhd0lXTU0yMmZUYjdrLW9aUW9vV2xLTXBUaXlRcFN3cXNjY0cyU1FLbldLX3FPTWJJdmVIX2FrSmE2NGp1OGphenNmVTl5UXF0WEhObC1tWElMVkF6S3BPQ1gzcml6MDBPTkcwcFRDUQ?oc=5",
       "published": "2026-01-15T08:00:00+00:00",
       "source": {
-        "name": "Bergen kommune",
+        "name": "bergen.kommune.no",
         "url": "https://www.bergen.kommune.no"
       }
     },
@@ -424,33 +404,13 @@
       }
     },
     {
-      "id": "5415c63092d6",
-      "title": "Helse, NTB | Bruken av kolesterolsenkende legemidler øker kraftig - Bergensavisen",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbmlVQ202cEQtbWRtZXNyTU1CdU42T0RJako0ZnZiUlhCVVFUbEVXREFkSTlKNlM2ZnlaeERyS0ZxMkdEaTFQVlBrV3RveXBkZWZXbjVCSXRnNm9PSGF5WWpxSmVJNjAzMkZGcG9ndmZLR01VTmtlQ1cyeklmX1lWcVEwVWl2MHlsRGlXRw?oc=5",
-      "published": "2026-03-03T08:00:00+00:00",
-      "source": {
-        "name": "Bergensavisen",
-        "url": "https://www.ba.no"
-      }
-    },
-    {
-      "id": "a2fb4f96f2a7",
-      "title": "Tester nye rutiner for legemiddelbruk – Porsgrunn er neste på lista - ta.no",
+      "id": "6a1ded6a7b4a",
+      "title": "Tester nye rutiner for legemiddelbruk – Porsgrunn er neste på lista - Telemarksavisa",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWVZyNTd5RktvRDRDeE1NdnVEWnVvQXVwTDRVZDc2a3U5c1ZoWnVhN1VUS2FaZVRwdlJESnI3dlVPWGJZXzQ3YkRWYy1ndzh0b1hCOC1VMmVKQ1ZPYVZkZWxSazItZHpsTEJ4QUpJUFpGb3B2YWthemxQMlhFZzJqT1FOS2pXX0lod24yZ2VtZzJERU5KN2c4OXdyMmZtRU9JUTJNSQ?oc=5",
       "published": "2026-03-13T07:00:00+00:00",
       "source": {
-        "name": "ta.no",
+        "name": "Telemarksavisa",
         "url": "https://www.ta.no"
-      }
-    },
-    {
-      "id": "b141dfb72da4",
-      "title": "Debatt, Helse | Musikk som medisin: Hvorfor helsepolitikken må lytte - Trønder-Avisa",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUXEyRmNNbWZPaDRHd01fMjlTaEE5MkxXN3hydkNyc2VfQWFqSG45ekRSTGVfdVhfU2JkU21FTGZtVXUtRWNnVUVmcVR2Ym9oOE9zMS1yVlRoMGdGX2xVZEhXNFc0WFQ5dUFXUElIREljS1d4cl9TWExLaUJoWjl4WlpuZ2dNZkxTSTlrMGFIUQ?oc=5",
-      "published": "2025-11-16T08:00:00+00:00",
-      "source": {
-        "name": "Trønder-Avisa",
-        "url": "https://www.t-a.no"
       }
     },
     {
@@ -464,12 +424,22 @@
       }
     },
     {
-      "id": "c54c1f5acc26",
-      "title": "Alvorlig syke: Ingen av dem får medisiner - VG",
+      "id": "b141dfb72da4",
+      "title": "Debatt, Helse | Musikk som medisin: Hvorfor helsepolitikken må lytte - Trønder-Avisa",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUXEyRmNNbWZPaDRHd01fMjlTaEE5MkxXN3hydkNyc2VfQWFqSG45ekRSTGVfdVhfU2JkU21FTGZtVXUtRWNnVUVmcVR2Ym9oOE9zMS1yVlRoMGdGX2xVZEhXNFc0WFQ5dUFXUElIREljS1d4cl9TWExLaUJoWjl4WlpuZ2dNZkxTSTlrMGFIUQ?oc=5",
+      "published": "2025-11-16T08:00:00+00:00",
+      "source": {
+        "name": "Trønder-Avisa",
+        "url": "https://www.t-a.no"
+      }
+    },
+    {
+      "id": "9b8d256b2477",
+      "title": "Alvorlig syke: Ingen av dem får medisiner - vg.no",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaEZub3VaZ29uU0EyTzUyQURHUmI5OHBtZ0hVTGhYRlFGUGt6VVh2NUtWdU43Vkh6Qm1zODdMTmdPcS16RUFTQ3dNb3ktSlhfRGFoc0VDMGt6QnBLbk5GdWFiWXB5eHdzYTNWdVZoU1l1TEluVFJIbmRQbHpiSng4QVFQWQ?oc=5",
       "published": "2026-03-22T07:00:00+00:00",
       "source": {
-        "name": "VG",
+        "name": "vg.no",
         "url": "https://www.vg.no"
       }
     },
@@ -644,22 +614,22 @@
       }
     },
     {
-      "id": "6bae80839252",
-      "title": "Er alternativ medisin nøkkelen til å oppnå globale helsemål? - FN-sambandet",
+      "id": "f07eca43b5cd",
+      "title": "Er alternativ medisin nøkkelen til å oppnå globale helsemål? - fn.no",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTVczVVJ2WXoyZTNjaTlPUUdDMWhhOTFCVHlEVkJFTzNlYVJJV3pnR1NtSXNjX1VlVk8wRGQtbEFxWFdENHlwN1RsN0tPb0xCX0VJMnB3VUNoNEdpcUtHMDNuVVJOWW5HMzZ5WFZtdWd3OC1iTGtqZ2xhbFp1UnNSMGc1LTRxRmFyT0NUbU9R?oc=5",
       "published": "2023-08-18T07:00:00+00:00",
       "source": {
-        "name": "FN-sambandet",
+        "name": "fn.no",
         "url": "https://fn.no"
       }
     },
     {
-      "id": "057752fb1151",
-      "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - psykiskhelse.no",
+      "id": "9a816f56a278",
+      "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - Rådet for psykisk helse",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjkwcGZUTVRwWk15Yms3VHNEOWNjaHAzank5d0xhc3VSSkViN2RBNDZGZDBXMTdIQ1ZIWGE1WC0ycjgwREpnNHFVNlRyRV9ia2VPX0lFdGhkaFQ1RDZqY2V5TzlQMXNxbXRpZGdKUGRneXFCQUVyaXRpNkFKaFFrWTJ5ZDBjeU9JSzJ0aXBQVGZyY3BxNFRONmtCdS1PVnZtRlFv?oc=5",
       "published": "2023-10-10T07:00:00+00:00",
       "source": {
-        "name": "psykiskhelse.no",
+        "name": "Rådet for psykisk helse",
         "url": "https://psykiskhelse.no"
       }
     },
@@ -704,16 +674,6 @@
       }
     },
     {
-      "id": "62d5b2e3793a",
-      "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZEd5eTVOaFRZZHd1MVQzQUVGc09ZSlZtdnlXUEhwTkNQRXp0UEhfREhwSzNIRC1RVVVKYldGLWJlQlNtYkM1dkw2RFNvSFJXdzc1WlNhc0Y3c3JPcDFnalBGWVdJcGxtbTNuTUJfeE50NTlNNTdNMlNIY0NBdGk2MjhXMjJRVGxjcFNFbEFFNDRBUUMtaDM4R0NDbEtXdjNsckRjdjBYdGFqOFYyXzRmYmhZSVRHbldmaEUyVk5QcEFCYjMwbTNXMGxfMXJaa25WYXc?oc=5",
-      "published": "2021-05-12T07:00:00+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
       "id": "740b72cfedc0",
       "title": "Ny Alzheimers-medisin kan få grønt lys i sommer: – Mye optimisme - Avisa Nordland",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQelJuM1pGOVZDa24yT1dsLXEwLTQxMl9DWlBsX0xGQmdVOXB2b0FyTm5JS3BTUHhDaWZ6UVQ0UGZvT1BqbHRWUmVtOEJ1aC1ndEdsdEcweWp2V1JmTEhieFAwUU5tajhIS3Z0NDU5OEVQeFFVdEMxbzFLS21mdUJMVkluLWJvQlppLU5aRlpWbXlsOEwyWmw1dw?oc=5",
@@ -734,6 +694,16 @@
       }
     },
     {
+      "id": "62d5b2e3793a",
+      "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZEd5eTVOaFRZZHd1MVQzQUVGc09ZSlZtdnlXUEhwTkNQRXp0UEhfREhwSzNIRC1RVVVKYldGLWJlQlNtYkM1dkw2RFNvSFJXdzc1WlNhc0Y3c3JPcDFnalBGWVdJcGxtbTNuTUJfeE50NTlNNTdNMlNIY0NBdGk2MjhXMjJRVGxjcFNFbEFFNDRBUUMtaDM4R0NDbEtXdjNsckRjdjBYdGFqOFYyXzRmYmhZSVRHbldmaEUyVk5QcEFCYjMwbTNXMGxfMXJaa25WYXc?oc=5",
+      "published": "2021-05-12T07:00:00+00:00",
+      "source": {
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
       "id": "b50cdaf363b6",
       "title": "Bruk samfunnsperspektiv i prioritering av helsetjenester - Altinget.no",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUW5XV0s0Q3M1NHI4ZUJwZ0hlNUppbUgxMWRTMUVOdXRfNC1pYXV0Wk1YS0UwQktlM0w1dWVaZUdXQ1NocnppZnVUS2NFUUJBRXM2SVRTUEVaV0stYkhuWDRfV2FiVFhCNjZVdEQyN0NwZlN4VkxkRGoxbTRBZTA0c09YbTlMNUhkOUZaU3pjZ0hxaG8?oc=5",
@@ -744,12 +714,12 @@
       }
     },
     {
-      "id": "ac9a8bab4b9c",
-      "title": "Etter krisemøte: Lover kortere ventetid på medisiner - VG",
+      "id": "7e989ab13fab",
+      "title": "Etter krisemøte: Lover kortere ventetid på medisiner - vg.no",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbkRDTkI2X05kRGRVcW1uaTdvMFZkZl82cTZFbjNxNGNjam9NbVNyOGREYzQtSzlnMXVYc3puTk1uT1ZaMERtLURPSy00Rk9zTGNmdGFDVEU4eVdJRW9OLXFCdmpRWnZSZmFWX1B3OWlGRldlUTFnZ0l5cllkb0s0Y2owTFI0TDNhQTNMLU5KazFQLU1zVmtuRTdKZVB5ZU5KOXd1YzZ6WDhYdw?oc=5",
       "published": "2024-07-07T07:00:00+00:00",
       "source": {
-        "name": "VG",
+        "name": "vg.no",
         "url": "https://www.vg.no"
       }
     },
@@ -761,16 +731,6 @@
       "source": {
         "name": "Nettavisen",
         "url": "https://www.nettavisen.no"
-      }
-    },
-    {
-      "id": "2993a18969b8",
-      "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - fremover.no",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
-      "published": "2018-10-05T07:00:00+00:00",
-      "source": {
-        "name": "fremover.no",
-        "url": "https://www.fremover.no"
       }
     },
     {
@@ -794,6 +754,16 @@
       }
     },
     {
+      "id": "90921fcbbc80",
+      "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
+      "published": "2018-10-05T07:00:00+00:00",
+      "source": {
+        "name": "Fremover",
+        "url": "https://www.fremover.no"
+      }
+    },
+    {
       "id": "5e798a119e13",
       "title": "Utkast til legemiddelrundskriv må korrigerast - Fagforbundet",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdFpRSVBMWmFRWU9DZDJSMnA3d1NhQWUxUS05NFpFOUhKT0RtWTZiZU1hVU1DRnpDMFZiTF9EV0tldmJfMU95YzVmQ0g5MEtDTTNaa2tqY2ZXMTNOVmdvMTFZNzRLMnhBdjdjS1M1R1cwZU5JWmxEdFhWVW1hSGxrb0k4eDZGZTc0dzJCRklaY2tuNUZUTFpsTDh6cjhwUUZodzVaNzdRXzZUUHhrai1rbG5Mb3p2QjM0OTMxVzVGNjVTbFBNRjRqV3F6SU1zNEJkWGc?oc=5",
@@ -814,12 +784,12 @@
       }
     },
     {
-      "id": "34be5342a3fe",
-      "title": "Medisin-krise: –⁠ Det plager meg - VG",
+      "id": "a77d04feaa9b",
+      "title": "Medisin-krise: –⁠ Det plager meg - vg.no",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZS05CSGlKRG5FcDJqd1YxTFN4RG1MWk5OVVVtY1ZuNUFkeUVtOGVTTEs5Ri1CWEtTcGFfdHNSRndWQ2JmbHh6eDlyWG5vWFJjMlYxaHIyazNNR3FhQnN2WUdOVTdGNmRBZERTSkZQeWE?oc=5",
       "published": "2024-06-23T07:00:00+00:00",
       "source": {
-        "name": "VG",
+        "name": "vg.no",
         "url": "https://www.vg.no"
       }
     },
@@ -854,16 +824,6 @@
       }
     },
     {
-      "id": "1f8ee124566a",
-      "title": "Ja til nytt legemiddel mot atopisk eksem - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWEdfMmRHSWhnUnRBOU5GeURCbUowQnNYZUpKZkJRRi1aSnp1X1VrX2R2NWJ2dHMzalFXcEhGU1k5aG9DMmEwUWxfY2VMc0FUS09VUGliaHhoYWZuNmNKWGxEeUcxSkdaYXRRaXpzZFlLczlNZFFTaEhManJac2dsS1JRLXNKMXFzLWFKeGtCX21PMzFvRXZwdnNBZXZ3UGk4b05YakU1c3FDd2Z6dDl6bVEycw?oc=5",
-      "published": "2020-02-24T08:00:00+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
       "id": "82c1760c9c31",
       "title": "Økt forbruk bekymrer: – En av de største truslene mot global helse - Nettavisen",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZFlkNTBmOE5QdjVpVEk5cEZBZ1h1cFEzc2VGbE9LQUc1TE9aOEV1Z2V3OWxKb3l1UEJKN1RvTGg0S0JBcm1UYWx0N2NoaU5BRVNBRDBqZVhMalluMU1NdTIwWHBoTWpJMTBzN2czNEF5dEdwWHNDOFJ0TDBuZ2ttNVFFdEZ3dFIwNlpPWEZuVk1YYl9GaW1pckR4UGd3Nk1tcUdYYWJvZzlhaG5NRWl1ajM3Y0VKOGs3dXhjT1lreWo?oc=5",
@@ -871,6 +831,16 @@
       "source": {
         "name": "Nettavisen",
         "url": "https://www.nettavisen.no"
+      }
+    },
+    {
+      "id": "1f8ee124566a",
+      "title": "Ja til nytt legemiddel mot atopisk eksem - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWEdfMmRHSWhnUnRBOU5GeURCbUowQnNYZUpKZkJRRi1aSnp1X1VrX2R2NWJ2dHMzalFXcEhGU1k5aG9DMmEwUWxfY2VMc0FUS09VUGliaHhoYWZuNmNKWGxEeUcxSkdaYXRRaXpzZFlLczlNZFFTaEhManJac2dsS1JRLXNKMXFzLWFKeGtCX21PMzFvRXZwdnNBZXZ3UGk4b05YakU1c3FDd2Z6dDl6bVEycw?oc=5",
+      "published": "2020-02-24T08:00:00+00:00",
+      "source": {
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
@@ -904,12 +874,12 @@
       }
     },
     {
-      "id": "2e5108ce05d3",
-      "title": "Politisk opprør mot medisin-treghet – vil legge ned Beslutningsforum - VG",
+      "id": "a3c7747f6e42",
+      "title": "Politisk opprør mot medisin-treghet – vil legge ned Beslutningsforum - vg.no",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQakNBTWRIODFobmlMV2l3cG5NNTlza0RIVmhnRnp0V0FGWWZOalRMLXhCRm14dlc1emFPSk9QcE4zVzFkcEUzbTR2MDBORU9WbVRVX3NpYlljcE81c1hxZDhVbXRndzFnb0VaSTdjUzNZSTk5a19ydTlTdkNCemhXbTd2WHhGNERHTVNWUURWeGttUGNiMGhMNmlPYTI2U05xRkthSw?oc=5",
       "published": "2024-06-30T07:00:00+00:00",
       "source": {
-        "name": "VG",
+        "name": "vg.no",
         "url": "https://www.vg.no"
       }
     },
@@ -994,13 +964,43 @@
       }
     },
     {
-      "id": "b7f81aa9eb42",
-      "title": "Digital legemiddelliste gir økt sikkerhet for pasientene, men mer arbeid på apoteket - Forskning.no",
-      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOeWdFNDBoNlBhbHRJUmMtM1Y5cDZjbnN0RWNuYjIwRFQ0SDBCcWNVWEpzdlJ0WloyeTZqVGNOcU83bW9LZUswOWdYdzNOSWJWdUduTHZlc0JIaTdhay15alAybVU2TXhZTEhsSWdPRWxGWG5Yb1hiSFM4enlCRmxybzU4cGc0bzdqQzlaXy11Sm43TUNEMW16Y2JmeFpJeUxUSXhLSEFLUXNua2xaWXNqdXdqckx6Ykh1X01oaml1VkZGamdkSlhmWV92S3ZBOUVaM0dhM1MwVlRQcVZWdTc3YnpINmNIRHA2NDlQeTN5ZHpjenBTamtHd0NFRnZoenN4cm1kR0E2REF0Qmlu?oc=5",
-      "published": "2023-03-03T08:00:00+00:00",
+      "id": "4a4ed441eb61",
+      "title": "Helse, medisin og omsorg - Edvard Munch i ny kontekst - Mynewsdesk",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQajRCWFVjTS0yMEdmRXhMbVF5alU4WmNXSXlrMlFtMzN2Q0M0WkdoX3dIQzFzMExmaF90ZkhvakdXcWFkM2lLWDBmYld1Zzl4V0twWjE5YUQ0Vk1XeDFwOU1VUWl0dzZPTEVLRUduXzU2S29vSTZLTXpHUHJReGxwLTNTVExQeTFfT05TUHo4b0MtNGtTNFd4Q2l0bFZRYU80NldOZ1Vsc3plWHI3MHkwLVBTZEw?oc=5",
+      "published": "2025-06-11T07:00:00+00:00",
       "source": {
-        "name": "Forskning.no",
-        "url": "https://www.forskning.no"
+        "name": "Mynewsdesk",
+        "url": "https://www.mynewsdesk.com"
+      }
+    },
+    {
+      "id": "b1dbae72f776",
+      "title": "(+) Så mye bruker Sykehus-Norge på legemidler - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNGxvVFF5bTZIazJVazV0anhYcUppN1Noai0zTGk1OS05aGFDZXRWamtWQnp4YXp6dEdaRDRGWkxqbXNVZU45SHZhYnRYNldzTkZTNkkwaHZVdjRGbUp4bFExd1hObzBza0VpSWFodkRWUzlHNEhxM3JHOUNsaVg3bWd4TlN5TTBHLVpDVFRJYldUNUVjUmxBSlhzT1Bwck9wSU1fMlJYaDlNQVF2SElLSjJjZDJnRE1XdGlvYmF3Vl9jRVNrT2VHS015Yw?oc=5",
+      "published": "2025-03-20T07:00:00+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
+      "id": "88f52d404189",
+      "title": "Pasientens legemiddelliste til første sykehus - NHI.no",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNc2xsX2wzeFJ6a2Q3QnBFdnBid0dtZFhTLWxsMGZYR2ZsV1docTRyY2ZTNFdsNTdTN01YZHFVbmZlTE9teUdfU0tsUVhGRHViOWZjU2tvX3I2MUpqR0xGci1OZmVIT011QWdvSjZqXzBZS3BORUdSVXozd3RVMVpnOW9nc2llQVVHQTAwcVJ2TFpCLXBfV09RcEFRS1djTEh6SVVZRFZVQVpoQ2wyNDRMczZUaw?oc=5",
+      "published": "2022-04-06T07:00:00+00:00",
+      "source": {
+        "name": "NHI.no",
+        "url": "https://nhi.no"
+      }
+    },
+    {
+      "id": "d12731491989",
+      "title": "Mener norske pasienter må vente for lenge på ny medisin: – Forferdet - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNR3FuNGlNV3lrQmhqWWg0cG9yV1pSclluN2VQZjN1azJuZW1WWGZwdXBBMHpkUDl5Y21XZ2MzaXFjT21TX0Q4amlGTGJIVEdqd0Iyd29mMDl5eC1NTUZibFZ3MVJNTmZUVzgzTXpveDg0d2J3WFRWTGlJSm5hN21CdUV4MWFEb0NjNndudXRCeUlPWHNEMmdoUVRtR1V0YXl1cHlrclRZdVNhUTFFZHFDWlZEUlNqUF9GenV0VTRpVHFFelRKUHRnSkJhRExRU3dxSDlreFJ2RlRRZw?oc=5",
+      "published": "2025-05-08T07:00:00+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     }
   ]
