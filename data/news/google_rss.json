@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-09T20:37:10.423555+00:00",
+  "fetched_at": "2026-10-10T00:32:06.855727+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -134,23 +134,23 @@
       }
     },
     {
-      "id": "9d63483d4fb7",
-      "title": "Skriftlig spørsmål fra Anne Grethe Hauan (FrP) til helse- og omsorgsministeren - Stortinget",
+      "id": "8d5cb52d916f",
+      "title": "Skriftlig spørsmål fra Anne Grethe Hauan (FrP) til helse- og omsorgsministeren - Stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQN1ZQaFpQZHJPMFUtU09IZjhWYTMzdUwxeURnM28xVDV3cllRa2NLbE1TQzRLemhORFFwN1NTMXJfQmhuX2xMa2kzb1REUDNUQVBmc1hSTGh0MEV1RUlFMkZ1TjdPRzFwXzRuam9Yc3IxM3pDOEtpcVF2OUdDa2cyUUFKN1V0d2xoUzhNNnJ6QS1EVXc1ejNSV0QwcGtKMEJnTW5ObGNSV1BoOVl1U3NOT1EyNEpmUE1zcnB4UA?oc=5",
       "published": "2026-09-27T19:11:13+00:00",
       "source": {
-        "name": "Stortinget",
+        "name": "Stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
     {
-      "id": "4d212939f19c",
-      "title": "Strid om billigere legemidler: «Store besparelser» - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaGFEdko5M2pRM01kSmVDUTZTRk5hSUNGbEhKdlF4blRtUW5MNGNxNWYwc3JxbWswNXo1R0g1QjQyLXdzN210YmtfUG1Ickl6Vk52eXQ3cEc0ODlMcV9BdUlUT0N0eXRyYWhsTkxvaldvUXpHWlZuNXJFOXNFYlltd29HU0ZxYTlZUGdTUElTYnhjRkYxaUVQVXlDUm5KbF9tUFl5NGlKamdGUnpLRGlmak1B?oc=5",
-      "published": "2026-10-08T06:34:50+00:00",
+      "id": "779e45cee086",
+      "title": "Leserinnlegg, Vanedannende medisiner | God helse handler om mer enn en resept - Kragerø Blad Vestmar",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02djNpVWI5eWpzUnhzMUM4cDZXT2YzQWV0MVFFNUJPZ3dmTnRmYVpaZm9YSXVXSWVGYlBfQUpldjUxQ20wamdMTjFtUGZkZGRLLU8zYTVISHNJaHZfOVQ1WFpvVDNiNkVmQ0I0QUduSXV2dVNzdEItRw?oc=5",
+      "published": "2026-09-19T06:14:51+00:00",
       "source": {
-        "name": "HealthTalk",
-        "url": "https://www.healthtalk.no"
+        "name": "Kragerø Blad Vestmar",
+        "url": "https://www.kv.no"
       }
     },
     {
@@ -204,16 +204,6 @@
       }
     },
     {
-      "id": "779e45cee086",
-      "title": "Leserinnlegg, Vanedannende medisiner | God helse handler om mer enn en resept - Kragerø Blad Vestmar",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02djNpVWI5eWpzUnhzMUM4cDZXT2YzQWV0MVFFNUJPZ3dmTnRmYVpaZm9YSXVXSWVGYlBfQUpldjUxQ20wamdMTjFtUGZkZGRLLU8zYTVISHNJaHZfOVQ1WFpvVDNiNkVmQ0I0QUduSXV2dVNzdEItRw?oc=5",
-      "published": "2026-09-19T06:14:51+00:00",
-      "source": {
-        "name": "Kragerø Blad Vestmar",
-        "url": "https://www.kv.no"
-      }
-    },
-    {
       "id": "2889197de9e1",
       "title": "Professor advarer: De fleste medisiner virker langt mindre enn du tror - Aftenposten",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYnN2bWZheThpWlFnVmNtQnN5aU95U0ZQMVZVY0ZkM2swUkgwczFxUjFHUzFMbk9RdkNBMFc4dU91RlRORnYxU01PVFBoZ2ctRERhUlRfajhrSGN0YjRraGs5S0I4OEJxRTV3Mnh2TVRHeGxBdkVLVWdzMUVJU0JfLXpiNEFpbmJ2WTB3UWFjbFdRLTVyLVkxakdOYzBSTnI5U0tuRFh3QjMtWjdxWWxlQw?oc=5",
@@ -224,16 +214,6 @@
       }
     },
     {
-      "id": "1c60dcb0592e",
-      "title": "ADHD-medisin i Lyngdal: Lavest andel – sterkest vekst - Lyngdals Avis",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeHNRcUtpcDczRFdsRXVqX0lMVG9nbjhnWW4zS0lrQVNsYkxpX2VoRWc4dy0xbkU2dTkwXzVEb3hxUEEyZFkxdU9rNEpybE52NnZoenlFZjVqYm1jbFM2RU0yanhQX1J5bmhjWXlzSUJmZUNqXzlST2tmdW5QZFR1ZTVWRGRPR2RpOGRLcl85ejdYOGZaSkpn?oc=5",
-      "published": "2026-09-23T03:49:55+00:00",
-      "source": {
-        "name": "Lyngdals Avis",
-        "url": "https://www.lyngdalsavis.no"
-      }
-    },
-    {
       "id": "094a0379954d",
       "title": "(+) Nesten ingen av legemiddel-meldingene sendt innen fristen: – Vi er selvsagt ikke fornøyde - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPLUdNMl8yV2Itc3pjb0VHWlNObkVkSUt5WGdoc050SkFOd2Q5UE5SYWpZUVBhTzB2SEJNYm5WcUZVNTNnVmZFSHJnTnR1Q25uMzFtaDhMQlFiQ05zbUdmcjdCdkxpYm5aTmQzNl9WNzRxY0JEQkE4QzZBSkU5TnJEbWhxRDNfeXk2dXJoa1ppNzVUX1o4NEZDWDNCNjNPR0tuSlIxUlpJcVFHUGtiYzFmQ3VuUFdySlN1ZjRHUl92YXd0SXlCNEJSWG5sSWJmanlDcWVISENMZFR5WVA3WXc?oc=5",
@@ -241,6 +221,16 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
+      "id": "1c60dcb0592e",
+      "title": "ADHD-medisin i Lyngdal: Lavest andel – sterkest vekst - Lyngdals Avis",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeHNRcUtpcDczRFdsRXVqX0lMVG9nbjhnWW4zS0lrQVNsYkxpX2VoRWc4dy0xbkU2dTkwXzVEb3hxUEEyZFkxdU9rNEpybE52NnZoenlFZjVqYm1jbFM2RU0yanhQX1J5bmhjWXlzSUJmZUNqXzlST2tmdW5QZFR1ZTVWRGRPR2RpOGRLcl85ejdYOGZaSkpn?oc=5",
+      "published": "2026-09-23T03:49:55+00:00",
+      "source": {
+        "name": "Lyngdals Avis",
+        "url": "https://www.lyngdalsavis.no"
       }
     },
     {
@@ -274,16 +264,6 @@
       }
     },
     {
-      "id": "7f820004c905",
-      "title": "Johannesurt i folkemedisinen - NHI.no",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR0k1OWpxcXdmZVNOQUFVbGhlNnZjanpSdlNzOFNoRWs1SGZRMkpTaFFOcHNPdVh1ZDIzQWs4aFUyX05rSlBsSzRVbFRIV2tfb0Joa3hMcGhrR3hDTDZOWXoyUHhXNFFYUlR1cFdYZktOVUpwRHpObTZkWFVkTmc5VTVXcEI?oc=5",
-      "published": "2025-12-12T08:00:00+00:00",
-      "source": {
-        "name": "NHI.no",
-        "url": "https://nhi.no"
-      }
-    },
-    {
       "id": "c065791b7835",
       "title": "Setter ned ekspertgruppe om tidlig tilgang til legemidler - MEDWATCH.no",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9hSVBzcGRjM3ZPRGFaOWNrbnlfenEtWG51NGxkLVhfemZyekN5SmN1VEtMUFgzRVhTRDJrWkRaNm10bHllVi1BanJISlZKVU1HWDRTNTE1a2hVbTJ1azhUU3RubWE4djlLclNMRkRsX2RDLTQ?oc=5",
@@ -291,6 +271,16 @@
       "source": {
         "name": "MEDWATCH.no",
         "url": "https://medwatch.no"
+      }
+    },
+    {
+      "id": "7f820004c905",
+      "title": "Johannesurt i folkemedisinen - NHI.no",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR0k1OWpxcXdmZVNOQUFVbGhlNnZjanpSdlNzOFNoRWs1SGZRMkpTaFFOcHNPdVh1ZDIzQWs4aFUyX05rSlBsSzRVbFRIV2tfb0Joa3hMcGhrR3hDTDZOWXoyUHhXNFFYUlR1cFdYZktOVUpwRHpObTZkWFVkTmc5VTVXcEI?oc=5",
+      "published": "2025-12-12T08:00:00+00:00",
+      "source": {
+        "name": "NHI.no",
+        "url": "https://nhi.no"
       }
     },
     {
@@ -411,16 +401,6 @@
       "source": {
         "name": "Aftenposten",
         "url": "https://www.aftenposten.no"
-      }
-    },
-    {
-      "id": "7dc1a9a7a88a",
-      "title": "Dette kan halvere effekten av medisinen din - Hamar Arbeiderblad",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTmJYdTBfRWZKOGFoSlY1VmhYd005Z0R6MGtmdUJBV0NYUVRiNmVPaEpZLXBwd1lZbHhFOFRmbVVvRU5aV2drRnZ6ajRrUVJsblBjRExsZlRZak51STh5cllmdlBsQ2VjaE81TWlBd2lJaW1BcjdmOXkwLXFQOHUyRWtBNnA?oc=5",
-      "published": "2026-05-24T07:00:00+00:00",
-      "source": {
-        "name": "Hamar Arbeiderblad",
-        "url": "https://www.h-a.no"
       }
     },
     {
@@ -644,16 +624,6 @@
       }
     },
     {
-      "id": "cca96e95761d",
-      "title": "Ny studie: Store forskjeller mellom ulike antidepressive legemidler - VG",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTlVxWG03ZndxZzQzNzB5ek5xbEx1VFEzbmJJeTFFZzkxMEVUM0FYMVUzRlpRdHI1SXk0NGNsOXhjOHFobmxLZU1ZYmdGWEpDSzc1bE1sS0xIMGFtXzM1R3dIWUw4Y1ZWSGpKTTNIdUxBbVFURkhiSl9DNkpRaGF6VkVxb0FLdEFiLWNUYXR4TWtKQQ?oc=5",
-      "published": "2025-11-13T08:00:00+00:00",
-      "source": {
-        "name": "VG",
-        "url": "https://www.vg.no"
-      }
-    },
-    {
       "id": "65ee34dd15c7",
       "title": "Nå er det plagsomme viruset her: – Et mye brukt legemiddel hjelper definitivt ikke - varden.no",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOV2xrQXRscTBVZGloa3ZzWVl4Ql9IeWNNX2x4VE9OSHh6VF9WOGFLckN2M1Y0S2hQLTlGcHM1aTNhbmo1bGJFWEtCaVdxcTBXTmNmb3JlaU9ocVhzVHdEWEt6dEQwSHM3dEJyQWdIQmo0LWl0LVR0eXNuOWplQ2wyRy00ZldqanNENnBQZ2RWMExmcjNsVVNiWDVvT1g3MFZHTjhLZy02eDVGOGtlX2xDWWllc1FmeGVxb0pwQ01CNUJhYnZi?oc=5",
@@ -661,6 +631,16 @@
       "source": {
         "name": "varden.no",
         "url": "https://www.varden.no"
+      }
+    },
+    {
+      "id": "cca96e95761d",
+      "title": "Ny studie: Store forskjeller mellom ulike antidepressive legemidler - VG",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTlVxWG03ZndxZzQzNzB5ek5xbEx1VFEzbmJJeTFFZzkxMEVUM0FYMVUzRlpRdHI1SXk0NGNsOXhjOHFobmxLZU1ZYmdGWEpDSzc1bE1sS0xIMGFtXzM1R3dIWUw4Y1ZWSGpKTTNIdUxBbVFURkhiSl9DNkpRaGF6VkVxb0FLdEFiLWNUYXR4TWtKQQ?oc=5",
+      "published": "2025-11-13T08:00:00+00:00",
+      "source": {
+        "name": "VG",
+        "url": "https://www.vg.no"
       }
     },
     {
@@ -864,6 +844,16 @@
       }
     },
     {
+      "id": "78163b91b37e",
+      "title": "Skjerper rutiner for å skrive ut vanedannede medisiner - Larvik kommune",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNGQ4WnloR3otM0VTQ2FydUZjSUxMV0pJd3ZFMVJSamo0LWROZkstU2I2OVJMTFdDMDBBRTAzV3c0VHZnem85SGJnZ21fLUVHbWFGb3VGdmF6QzRfTzhWN3NtM1NmSEtOLVVpMlNaNGNrWEhjYlFQX2p2ckNNMnRnNkhBNTVwdGZ5T3FMVW94dXduMDV5NEZoZjNRNmtMV2MwdTMzb1M4WmRNOXl4cF9Ydnd3?oc=5",
+      "published": "2025-06-25T07:00:00+00:00",
+      "source": {
+        "name": "Larvik kommune",
+        "url": "https://www.larvik.kommune.no"
+      }
+    },
+    {
       "id": "34be5342a3fe",
       "title": "Medisin-krise: –⁠ Det plager meg - VG",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZS05CSGlKRG5FcDJqd1YxTFN4RG1MWk5OVVVtY1ZuNUFkeUVtOGVTTEs5Ri1CWEtTcGFfdHNSRndWQ2JmbHh6eDlyWG5vWFJjMlYxaHIyazNNR3FhQnN2WUdOVTdGNmRBZERTSkZQeWE?oc=5",
@@ -914,16 +904,6 @@
       }
     },
     {
-      "id": "5a3c6e17b37a",
-      "title": "Innfører legemiddel til Stills sykdom og sJIA - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmx6MTZPbFRCMGU5c0ptUVlwdEM4UHp4Wl9EV2ppb1pQa0VPdV9RVjRWQ015dlNpVHZMblM0Wldndm9WWEFVelNSbFBUa0tDRnhES3JWbng0dXVSem1jZGsyQ0l2eGRiUkF1aTNwbW5HazI1cHZyOVZwUDhUNWc2aElyUW1VdU9RZkpJQUh1TW83YzNTRW5sQVVEaUw3RnJEcUdVOUYtVnN4Rkt5M2NDc3VrNEMtOEhsOUE?oc=5",
-      "published": "2019-02-26T08:00:00+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
       "id": "61743f076712",
       "title": "Nå er apotekene tomme for denne medisinen - Østlendingen",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNU3BhLUZ1MHFqUWJ3WkJ4MGpiY2M3X3UtaVAyOC0ybkUxRERxelpNbTd5dFRJVUFNdEEwYXRpLUVuYVluSzNTNUJnTkxWRFNma2pHSGZCM3I3Znlub1ZuZXBjMURWc0tBV3c2RTlqVkcydExLUk1MVkdsYzdYNngxd1FnSHhMVlo0VUpiag?oc=5",
@@ -934,13 +914,13 @@
       }
     },
     {
-      "id": "2e5108ce05d3",
-      "title": "Politisk opprør mot medisin-treghet – vil legge ned Beslutningsforum - VG",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQakNBTWRIODFobmlMV2l3cG5NNTlza0RIVmhnRnp0V0FGWWZOalRMLXhCRm14dlc1emFPSk9QcE4zVzFkcEUzbTR2MDBORU9WbVRVX3NpYlljcE81c1hxZDhVbXRndzFnb0VaSTdjUzNZSTk5a19ydTlTdkNCemhXbTd2WHhGNERHTVNWUURWeGttUGNiMGhMNmlPYTI2U05xRkthSw?oc=5",
-      "published": "2024-06-30T07:00:00+00:00",
+      "id": "5a3c6e17b37a",
+      "title": "Innfører legemiddel til Stills sykdom og sJIA - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmx6MTZPbFRCMGU5c0ptUVlwdEM4UHp4Wl9EV2ppb1pQa0VPdV9RVjRWQ015dlNpVHZMblM0Wldndm9WWEFVelNSbFBUa0tDRnhES3JWbng0dXVSem1jZGsyQ0l2eGRiUkF1aTNwbW5HazI1cHZyOVZwUDhUNWc2aElyUW1VdU9RZkpJQUh1TW83YzNTRW5sQVVEaUw3RnJEcUdVOUYtVnN4Rkt5M2NDc3VrNEMtOEhsOUE?oc=5",
+      "published": "2019-02-26T08:00:00+00:00",
       "source": {
-        "name": "VG",
-        "url": "https://www.vg.no"
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
@@ -951,6 +931,16 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
+      }
+    },
+    {
+      "id": "2e5108ce05d3",
+      "title": "Politisk opprør mot medisin-treghet – vil legge ned Beslutningsforum - VG",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQakNBTWRIODFobmlMV2l3cG5NNTlza0RIVmhnRnp0V0FGWWZOalRMLXhCRm14dlc1emFPSk9QcE4zVzFkcEUzbTR2MDBORU9WbVRVX3NpYlljcE81c1hxZDhVbXRndzFnb0VaSTdjUzNZSTk5a19ydTlTdkNCemhXbTd2WHhGNERHTVNWUURWeGttUGNiMGhMNmlPYTI2U05xRkthSw?oc=5",
+      "published": "2024-06-30T07:00:00+00:00",
+      "source": {
+        "name": "VG",
+        "url": "https://www.vg.no"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "NHI.no",
         "url": "https://nhi.no"
+      }
+    },
+    {
+      "id": "d694353a39c3",
+      "title": "Medisin/Helse, Sykdom | Strenge begrensninger på alle legemidler i Norge - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOa0xHTGRpcHJoZjVwUFFEOWh5b3dLTWpWSW41Z3VONXFhdlhFN3RCMVNpRkNReE01dU1aQ3pna1FxR09MN0pXMkEwSzA1TTExZkxpMExlVjZTQ0hqVmhoVTlJekZLMFh3X2hUQjlucUtpVE9nd2NWTWFqMUJackNGMnNFYVotSTJqMC14b2tOZnNZRmlzblNyMzFPOVBHdUdvU1c5VzJ3?oc=5",
+      "published": "2020-03-17T07:00:00+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     }
   ]
