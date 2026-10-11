@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-10T22:16:30.868924+00:00",
+  "fetched_at": "2026-10-11T01:36:46.026242+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -17,7 +17,7 @@
       "id": "b832ca46615b",
       "title": "Frasene: Snarveien til slankemedisin - Dagbladet",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UVHBfRzhWM3NUQS1RMmpKZGpxODQtcjM1Y2hoaFlTNll6RlVmMEJ4S3ZvMEgxcEJBTF94T3BZYWZ3M0xFeEtvejBWUGQ1N2FPTGVKS09PVkhlNU1fZ1VFeFJBTGxqemdQV3ViTk40MkpnRm40UVhsYVBPbldBdjg?oc=5",
-      "published": "2026-10-10T22:05:47+00:00",
+      "published": "2026-10-10T22:25:23+00:00",
       "source": {
         "name": "Dagbladet",
         "url": "https://www.dagbladet.no"
@@ -514,16 +514,6 @@
       }
     },
     {
-      "id": "da162b48ac54",
-      "title": "Utslettet kan være et alvorlig varsko - Dagbladet",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE80dFNMTVV3NEpBZ0gzeXNlUGpTTENOckdaX3gySnhqVThuUGQxR2dNUGt4MmYtQ1E2N056bW4zMlFMWTJmdVdCSUJYS185ZjZPMktjbFY2NzJ2NW55UFRfV1BIU2lxMlpwN1NqWS1FMUZXNEhFOGYxY2RuZw?oc=5",
-      "published": "2026-09-15T07:00:00+00:00",
-      "source": {
-        "name": "Dagbladet",
-        "url": "https://www.dagbladet.no"
-      }
-    },
-    {
       "id": "78fd98393f29",
       "title": "I disse fylkene brukte de mest legemidler i 2025 - ABC Nyheter",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVUJubnd5NmJMdHhkbU5TQ3hfZTF5eFZHUWFDVVVybkktRzVnRnd0dUQxajEwc0J0T2RQcWIyNVNickFabkhyR3pnSHJ0U0NxZ0FSZWpNdUJ4eG5hVHZ4VzhwdDRYbXBMRXR4eEFucWJzNlBkOE4tLVB4ZHZyQXBFWXdRVmE4NWJyZi1QUGNZRmhDLWIz?oc=5",
@@ -544,16 +534,6 @@
       }
     },
     {
-      "id": "52802d7fd4ef",
-      "title": "Folkemedisinene som ødelegger sexlivet - Dagbladet",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPb19UYUY2b2FIdDd3Y05acktkSng1c3ZxUGNpRm5SdXo0R2ppMVVDWldCYlh5TkZLSk9vcGN0aTF4MFRORXRHSFJGeGFNT2Jsd3hITFl3QVZyc3RMLUItMVFiMk9GMlJFbXYwN1JoY0hLYk02U3QwcFFSTXZkV0FTRzZUYw?oc=5",
-      "published": "2026-09-13T07:00:00+00:00",
-      "source": {
-        "name": "Dagbladet",
-        "url": "https://www.dagbladet.no"
-      }
-    },
-    {
       "id": "a6ad94598cf6",
       "title": "Viktige helseendringer i 2026: Hva betyr det for deg? - HealthTalk",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUjB5ZzVjN0lYc19UdUZENVF3ekFnMTJvN0JORWRNSTh2OGhFemR5cmc3TndCNzRfMjdCclg3cnd4endoY3JDUUFUUlZqaE5QbXh3SHo1STNZVldJeUI5NWtIRzRtLUZvWFJxN3RtME1mVm1IU1I0Q3JxLUZIUmlCSno1QlgwRFdHYTg5RnZEa0JwRzZOUWNFbjZhQ3M2czlENmpRMWJBMGpQbWRfMVkw?oc=5",
@@ -571,6 +551,26 @@
       "source": {
         "name": "Finansavisen",
         "url": "https://www.finansavisen.no"
+      }
+    },
+    {
+      "id": "da162b48ac54",
+      "title": "Utslettet kan være et alvorlig varsko - Dagbladet",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE80dFNMTVV3NEpBZ0gzeXNlUGpTTENOckdaX3gySnhqVThuUGQxR2dNUGt4MmYtQ1E2N056bW4zMlFMWTJmdVdCSUJYS185ZjZPMktjbFY2NzJ2NW55UFRfV1BIU2lxMlpwN1NqWS1FMUZXNEhFOGYxY2RuZw?oc=5",
+      "published": "2026-09-15T07:00:00+00:00",
+      "source": {
+        "name": "Dagbladet",
+        "url": "https://www.dagbladet.no"
+      }
+    },
+    {
+      "id": "52802d7fd4ef",
+      "title": "Folkemedisinene som ødelegger sexlivet - Dagbladet",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPb19UYUY2b2FIdDd3Y05acktkSng1c3ZxUGNpRm5SdXo0R2ppMVVDWldCYlh5TkZLSk9vcGN0aTF4MFRORXRHSFJGeGFNT2Jsd3hITFl3QVZyc3RMLUItMVFiMk9GMlJFbXYwN1JoY0hLYk02U3QwcFFSTXZkV0FTRzZUYw?oc=5",
+      "published": "2026-09-13T07:00:00+00:00",
+      "source": {
+        "name": "Dagbladet",
+        "url": "https://www.dagbladet.no"
       }
     },
     {
@@ -874,8 +874,8 @@
       }
     },
     {
-      "id": "fd3f8ebd3f42",
-      "title": "Helsehjelp og forebygging - Helsedirektoratet",
+      "id": "ea7f6321ea78",
+      "title": "Kapittel 7.1 Helsehjelp og forebygging - Helsedirektoratet",
       "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNYnN6ZFJLd29qRUhBREtrNC1PTHR1X2s1Q3BNRkFCVFRrcTlhT0lleUtWZ2dKWVFvQUV0OFczejNJaXJLckh3WmFWMVRHbVdOOWxOT2N5YWo5SWcxVWtWd2laVW1fVEVacjVrWDVZSU1HYjJnbUhXZUJYV19PdVlUSlBVdkhFNFVYWTJybkJrdHJKdXN3dzdhYmFSOWZXNXk3N3FIQkwwN000YjhJMGRSRGpINFhvVDNVdlhLOEYzZG1jb2JWekdzc1kzbkZYTFJ2aWUtc2N4UUpNeGEyUDBIU2lsVVZuZHYtN1Y3Q0lpWXdvZlNoWmN2ZHFiUXdteEtGR2k5RzRqM1VMRTlSdS03MGExVVZ5MHRxdFE?oc=5",
       "published": "2025-02-01T08:00:00+00:00",
       "source": {
