@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db12404-alcohol-withdrawal-delirium",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db12404"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "alcohol withdrawal delirium"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.993
+    }
+  ]
+}

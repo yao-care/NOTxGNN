@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db05239-bilateral-parasagittal-parieto-occipital-polymicrogyria",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db05239"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "bilateral parasagittal parieto-occipital polymicrogyria"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9966
+    }
+  ]
+}
