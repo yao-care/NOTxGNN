@@ -1,0 +1,41 @@
+# NOTxGNN — KI-lesbart sammendrag
+
+## Plattformens posisjon
+
+NOTxGNN er en forskningsplattform for gjenbruk av legemidler (drug repurposing) for legemidler i Norge, drevet av 藥提醒科技有限公司 (yao.care). Den publiserer KI-prediksjoner, klinisk evidens og legemiddelsikkerhetsdata; innholdet er kun for forskning og er ikke medisinsk rådgivning.
+
+## Metode og evidens
+
+Bygger på TxGNN-metoden fra Zitnik Lab (Harvard) og utforsker mulige sammenhenger mellom eksisterende legemidler og nye indikasjoner. Modellprediksjoner kombineres med ClinicalTrials.gov, PubMed, DrugBank, data fra DMP og DDInter i sporbare rapporter.
+
+Evidensnivåene går fra L1 (sterkere klinisk evidens) til L5 (kun modellprediksjon); en modellscore betyr ikke klinisk effekt. Enhver kandidat krever fortsatt kliniske studier, myndighetsvurdering og vurdering av kvalifisert helsepersonell.
+
+## Hovedinnhold
+
+- `/` Prediksjoner for Legemiddelreposisjonering \u2014 Norge — AI-powered drug repurposing predictions for Norway. Evidence-based analysis of approved medicines for potential new therapeutic indications.
+- `/drugs/` Alle legemidler — Alle valideringsrapporter for legemidler og statistikk over evidensnivåer i NOTxGNN.
+- `/evidence-high/` Høy evidens (L1-L2) — Kandidater for legemiddelreposisjonering på nivå L1-L2 i NOTxGNN, støttet av kliniske studier eller systematiske oversikter.
+- `/evidence-medium/` Moderat evidens (L3-L4) — Kandidater for legemiddelreposisjonering på nivå L3-L4 i NOTxGNN, understøttet av observasjonelle eller prekliniske data.
+- `/evidence-low/` Kun modellprediksjon (L5) — L5-kandidater i NOTxGNN: kun modellprediksjon, uten klinisk evidens eller litteraturevidens så langt.
+- `/methodology/` Metodikk — Slik utarbeider og validerer NOTxGNN sine prediksjoner: prediksjon med TxGNN-kunnskapsgraf, evidensinnsamling, gradering L1-L5 og beslutningsanbefalinger.
+- `/guide/` Brukerveiledning — Brukerveiledning for NOTxGNN: hvordan du slår opp legemidler, leser evidensnivåer og tolker anbefalinger.
+- `/sources/` Datakilder — Datakildene bak NOTxGNN: registreringsdata fra DMP, TxGNN, ClinicalTrials.gov, PubMed og DrugBank.
+- `/downloads/` Nedlastinger — Åpne data til nedlasting fra NOTxGNN: FHIR-ressurser, prediksjonsresultater og søkeindeks.
+- `/about/` Om — NOTxGNN er en plattform for prediksjon av legemiddelreposisjonering utviklet av 藥提醒科技有限公司 (yao.care), bygget på TxGNN-modellen fra Harvard og med dekning av legemidler godkjent av DMP i Norge.
+
+## Eksempler på legemiddelrapporter
+
+- Aripiprazole (L1): https://notxgnn.yao.care/drugs/aripiprazole/
+- Canakinumab (L1): https://notxgnn.yao.care/drugs/canakinumab/
+- Capecitabine (L1): https://notxgnn.yao.care/drugs/capecitabine/
+
+## Sitering og begrensninger
+
+Siter den originale TxGNN-artikkelen (https://doi.org/10.1038/s41591-023-02233-x). Nettstedets innhold og prediksjoner er kun for forskning og undervisning og er ikke medisinsk rådgivning; all reell bruk må bekreftes av kvalifiserte fagpersoner, kliniske studier og myndighetsvurdering.
+
+## Offisielle lenker
+
+- https://notxgnn.yao.care/
+- https://www.yao.care/medical/txgnn/
+- https://github.com/yao-care/NOTxGNN
+- https://doi.org/10.1038/s41591-023-02233-x

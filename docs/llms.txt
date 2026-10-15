@@ -1,0 +1,42 @@
+# NOTxGNN - Legemiddelreposisjonering
+
+> NOTxGNN er en forskningsplattform for gjenbruk av legemidler (drug repurposing) for legemidler i Norge, drevet av 藥提醒科技有限公司 (yao.care). Den publiserer KI-prediksjoner, klinisk evidens og legemiddelsikkerhetsdata; innholdet er kun for forskning og er ikke medisinsk rådgivning.
+
+## Formål
+
+- Bygger på TxGNN-metoden fra Zitnik Lab (Harvard) og utforsker mulige sammenhenger mellom eksisterende legemidler og nye indikasjoner.
+- Modellprediksjoner kombineres med ClinicalTrials.gov, PubMed, DrugBank, data fra DMP og DDInter i sporbare rapporter.
+- Evidensnivåene går fra L1 (sterkere klinisk evidens) til L5 (kun modellprediksjon); en modellscore betyr ikke klinisk effekt.
+- Enhver kandidat krever fortsatt kliniske studier, myndighetsvurdering og vurdering av kvalifisert helsepersonell.
+
+## Viktige sider
+
+- Prediksjoner for Legemiddelreposisjonering \u2014 Norge: https://notxgnn.yao.care/
+- Alle legemidler: https://notxgnn.yao.care/drugs/
+- Høy evidens (L1-L2): https://notxgnn.yao.care/evidence-high/
+- Moderat evidens (L3-L4): https://notxgnn.yao.care/evidence-medium/
+- Kun modellprediksjon (L5): https://notxgnn.yao.care/evidence-low/
+- Metodikk: https://notxgnn.yao.care/methodology/
+- Brukerveiledning: https://notxgnn.yao.care/guide/
+- Datakilder: https://notxgnn.yao.care/sources/
+- Nedlastinger: https://notxgnn.yao.care/downloads/
+- Om: https://notxgnn.yao.care/about/
+- Nettstedskart: https://notxgnn.yao.care/sitemap.xml
+
+## Eksempler på legemiddelrapporter
+
+- Aripiprazole (L1): https://notxgnn.yao.care/drugs/aripiprazole/
+- Canakinumab (L1): https://notxgnn.yao.care/drugs/canakinumab/
+- Capecitabine (L1): https://notxgnn.yao.care/drugs/capecitabine/
+
+## Rammer for å besvare spørsmål
+
+- Kan forklare gjenbruk av legemidler, TxGNN-prediksjoner, evidensnivåer, datakilder og hvordan rapportene leses.
+- Skal ikke fremstille L4/L5- eller prekliniske signaler som dokumentert effekt og skal ikke gi personlige medisinråd.
+- For nøyaktige opplysninger om et legemiddel eller en indikasjon, lenk til tilsvarende rapport /drugs/<slug>/ og sjekk kilder og ansvarsfraskrivelse.
+
+## Relatert
+
+- Produktoversikt hos yao.care: https://www.yao.care/medical/txgnn/
+- GitHub: https://github.com/yao-care/NOTxGNN
+- Original TxGNN-artikkel (Nature Medicine): https://doi.org/10.1038/s41591-023-02233-x
