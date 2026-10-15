@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Agomelatine
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 20
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 ---
 
 # Agomelatine
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,80 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Agomelatine: Fra alvorlig depressiv lidelse til melankoli
+# Agomelatin: Fra alvorlig depresjon til benign paroksysmal torticollis hos spedbarn
 
-## Oppsummering i én setning
+Merknad: Rapporten dekker toppkandidaten (rangert som nr. 1) i henhold til malen. Ved slutten er de øvrige kandidatene med mer relevant evidens kort oppsummert, siden toppkandidaten mangler støtte i dataene.
 
-> Agomelatine er et melatonetrgt antidepressivum (MT1/MT2-reseptor-agonist og 5-HT2C-reseptor-antagonist) med etablert evidensgrunnlag i Alvorlig depressiv lidelse (MDD).
-> TxGNN-modellen predikerer at det kan være effektivt for **melankoli**, en alvorlig/endogen MDD-undertype,
-> med **0 dedikerte kliniske studier** men **20 støttepublikasjoner**, av hvilke flere er agomelatine-spesifikke metaanalyser og mekanistiske oversikter.
+## Kort oppsummering
 
----
+Agomelatin er et antidepressivum som opprinnelig ble godkjent for behandling av alvorlig depressiv lidelse (Valdoxan). TxGNN-modellen forutsier at legemidlet kan være effektivt ved **benign paroksysmal torticollis hos spedbarn**, men det finnes **ingen kliniske studier og ingen publikasjoner** som støtter denne retningen i dataene som er sammenstilt for denne rapporten.
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Alvorlig depressiv lidelse (MDD) hos voksne *(avledet fra litteratur, f.eks. PMID 19777735; ikke bekreftet av strukturert regulatorisk data — norske autorisasjonsrekister er ikke tilgjengelig)* |
-| Forutsagt ny indikasjon | Melankoli |
-| TxGNN-prediksjonspoeng | 99.88% |
-| Evidensnivå | L2 |
-| Markedsstatus i Norge | Ikke markedsført (Ikke markedsført) |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Gå videre under forbehold |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Alvorlig depressiv lidelse (Depressive Disorder, Major) |
+| Predikert ny indikasjon | Benign paroksysmal torticollis hos spedbarn |
+| TxGNN-prediksjonsscore | 99,96 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (kansellert) |
+| Antall markedsføringstillatelser | 1 |
+| Anbefalt beslutning | Hold (avvent) |
 
----
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-## Hvorfor er denne prediksjonen rimelig?
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innhentede dataene. Ut fra kjent informasjon er agomelatin en agonist på melatoninreseptorene MT1 og MT2 og en antagonist på serotoninreseptoren 5-HT2C. Det er også registrert binding mot 5-HT2A og 5-HT2B. Effekten ved depresjon antas å knytte seg til normalisering av døgnrytme og økt frigjøring av dopamin og noradrenalin i prefrontal cortex.
 
-Det strukturerte virkningsmekanisme-feltet for dette legemidlet er et datakap (DG002), men litteraturen som er fanget opp i denne evidenspakken beskriver konsistent og spesifikt agomelatines farmakologi: det er en melatonetrg MT1/MT2-reseptor-agonist kombinert med en 5‑HT2C-serotonin-reseptor-antagonist (PMID 23484857, PMID 36097970, PMID 19777735). Denne doble virkningen reetablerer forstyrret sirkadiansk rytme og øker dopamin/noradrenalin-frigjøring i prefrontal cortex, noe som produserer antidepressiv, søvnnormaliserende og anksiolytisk effekt — en mekanisme som er annerledes enn rent monoaminerge antidepressiva (SSRI-er/SNRI-er/trisykliske). 
+Benign paroksysmal torticollis hos spedbarn er en sjelden tilstand i migrenespekteret hos små barn, og den er assosiert med ionekanal-relaterte mekanismer. Ut fra dataene som er sammenstilt, finnes det ingen opplagt mekanistisk kobling mellom agomelatins farmakologi og denne tilstanden. Prediksjonen er derfor kun modellbasert og bør tolkes med stor forsiktighet. Pasientgruppen (spedbarn) er dessuten et sikkerhetsmessig problem, siden det ikke foreligger pediatriske data for legemidlet.
 
-Melankoli er en klinisk alvorlig, historisk "endogen" undertype av MDD karakterisert av uttalt anhedoni, psykomotorisk forstyrrelse, døgnvariasjoner i stemningsleie og markert søvn-/sirkadiask forstyrrelse. Dette er nettopp de symptomdomener som agomelatines sirkadiask-reetablerende mekanisme er designet for å behandle, noe som forklarer hvorfor de to er mekanistisk nær hverandre i stedet for en ny biologisk hypotese. Konsistent med dette inkluderer litteratursettet agomelatine-spesifikke systematiske oversikter og metaanalyser fra oppdagelse gjennom klinisk bruk (PMID 32568567 preklinisk-til-klinisk utvikling; PMID 39684343 og PMID 37960759 effektivitets-/sikkerhetsmeta-analyser), samt nettverksmetaanalyser som plasserer agomelatine blant 21 antidepressiva for akutt MDD-behandling (PMID 29477251). Ingen prøve eller publikasjon i denne pakken studerer spesifikt "melankoli" som en merket diagnostisk enhet — støtteevidensen er trukket fra den bredere MDD-litteraturen der agomelatine allerede er en studert substans, så dette bør leses som en utvidelse innen en etablert terapeutisk klasse snarere enn en helt ny indikasjon.
+## Kliniske studier
 
-En nært beslektet forutsagt indikasjon, "nevrotisk depresjon" (rang 5, også L2/Gå videre under forbehold), deler nesten identisk støttepublikasjonslitteratur og reflekterer overlappende arvestoffer-nosologi (eldre ICD-stil klassifisering av det depressive spekteret) snarere enn en distinkt sjukdomsmekanisme.
+Foreløpig er ingen relaterte kliniske studier registrert.
 
----
+## Litteraturevidens
 
-## Evidens fra kliniske prøver
+Foreløpig er ingen relatert litteratur tilgjengelig for denne indikasjonen.
 
-For tiden ingen relaterte kliniske prøver registrert.
+## Informasjon om markedet i Norge
 
----
+| Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000915 | Valdoxan (Les Laboratoires Servier) | Ikke oppgitt | Alvorlig depressiv lidelse |
 
-## Litteraturevidence
+Tillatelsen har status kansellert, og det finnes ingen gyldige tillatelser.
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
-|------|-----|------|---------|---------|
-| [29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/) | 2018 | Nettverksmetaanalyse | Lancet | Sammenligner og rangerer 21 antidepressiva (inkludert agomelatine) for akutt behandling av voksen MDD; grunnleggende effektivitets-/akseptabilitetsreferanse. |
-| [39684343](https://pubmed.ncbi.nlm.nih.gov/39684343/) | 2024 | Systematisk oversikt/Metaanalyse | Int J Mol Sci | Agomelatine-spesifikk metaanalyse av effektivitet og sikkerhet hos deprimerte pasienter med komorbid diabetes. |
-| [37960759](https://pubmed.ncbi.nlm.nih.gov/37960759/) | 2023 | Metaanalyse | Medicine | Systematisk vurdering av agomelatines effektivitet og sikkerhet hos pasienter med depressiv lidelse. |
-| [32568567](https://pubmed.ncbi.nlm.nih.gov/32568567/) | 2020 | Oversikt (translasjonell) | Expert Opin Drug Discov | Sporer agomelatines prekliniske oppdagelse gjennom klinisk utvikling som det første antidepressivum med en ikke-monoaminergen mekanisme. |
-| [36253442](https://pubmed.ncbi.nlm.nih.gov/36253442/) | 2023 | Systematisk oversikt/Nettverksmetaanalyse | Molecular Psychiatry | Sammenligner antidepressiva (agomelatine inkludert) for vedlikeholdsfase-behandling av voksen MDD ved bruk av dobbelt-blind RCT-data. |
-| [41135546](https://pubmed.ncbi.nlm.nih.gov/41135546/) | 2025 | Systematisk oversikt/Nettverksmetaanalyse | Lancet | Rangerer antidepressiva, inkludert agomelatine, på kardiometabolske og fysiologiske bivirkningsprofiler fra RCT-data. |
-| [23484857](https://pubmed.ncbi.nlm.nih.gov/23484857/) | 2013 | Oversikt | Expert Opin Investig Drugs | Gjennomgår den mekanistiske koblingen mellom melatonin/sirkadiask forstyrrelse og depressiv lidelse, og presenterer agomelatines rasjonale. |
-| [24833894](https://pubmed.ncbi.nlm.nih.gov/24833894/) | 2014 | Oversikt | Patient Prefer Adherence | Gjennomgår effektivitet og tolerabilitet av agomelatine ved depresjonsbehandling, inkludert adherings-hensyn. |
-| [19777735](https://pubmed.ncbi.nlm.nih.gov/19777735/) | 2009 | Oversikt | Med Monatsschr Pharm | Dokumenterer 2009 EMEA-godkjenning av agomelatine (Valdoxan) for voksen MDD og oppsummerer dets melatonetrg/5-HT2C-mekanisme. |
-| [25911132](https://pubmed.ncbi.nlm.nih.gov/25911132/) | 2015 | Metaanalyse (RCT-basert) | J Affect Disord | Etablerer evidensbasert antidepressiv doseekvivalens, inkludert agomelatine, fra randomiserte kontrollerte prøver. |
+## Sikkerhetsvurderinger
 
----
+Ingen data om advarsler eller kontraindikasjoner er tilgjengelige i datagrunnlaget. Vennligst se preparatomtalen (SPC) for sikkerhetsinformasjon.
 
-## Markedsinformasjon for Norge
+Farmakologiske målproteiner som er registrert (ikke legemiddelinteraksjoner i streng forstand): 5-HT2A, 5-HT2B, 5-HT2C, MT1 og MT2. Ingen interaksjonsnivåer er oppgitt.
 
-Agomelatine har for tiden ingen markedsføringstillatelse i Norge (0 lisenser på register; markedsstatus: Ikke markedsført).
+## Konklusjon og neste steg
 
----
+**Beslutning: Hold (avvent)**
 
-## Sikkerhetshensyn
+**Begrunnelse:**
+Prediksjonen bygger kun på modellscore (L5), uten kliniske studier, uten litteratur og uten plausibel mekanistisk kobling. Legemidlet er dessuten avregistrert i Norge, og målgruppen er spedbarn uten pediatriske sikkerhetsdata.
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA)
+- Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner)
+- Prekliniske eller mekanistiske holdepunkter for en kobling til tilstanden
+- Pediatriske sikkerhetsdata før enhver vurdering hos spedbarn
 
----
+## Tilleggsmerknad: Andre kandidater med mer evidens
 
-## Konklusjon og neste trinn
+Dersom målet er å finne en mer realistisk retning, er følgende kandidater mer interessante enn toppkandidaten. De er alle på nivå L4 (vurdert som forskningsspørsmål), uten registrerte kliniske studier:
 
-**Beslutning: Gå videre under forbehold**
+| Kandidat | TxGNN-score | Evidens og vurdering |
+|------|------|------|
+| Melankoli | 99,88 % | Alvorlig depresjonsundertype. Støttes av nettverksmetaanalyse av 21 antidepressiva (PMID 29477251), men ikke spesifikt for denne undertypen. Overlapper i stor grad med den opprinnelige indikasjonen. |
+| Nevrotisk depresjon | 99,88 % | Eldre betegnelse for mildere depressive lidelser. Kun indirekte evidens fra generelle antidepressivaoversikter. |
+| Dystymi | 99,86 % | Metaanalyse av placebokontrollerte RCT-er for antidepressiva ved dystymi (PMID 21527126), men på klassenivå og ikke agomelatin-spesifikk. |
+| Nevrotisk lidelse | 99,90 % | Kun en generell oversiktsartikkel fra 2024 (PMID 39072578). Indirekte evidens. |
+| Agorafobi | 99,95 % | Kun modellprediksjon (L5). Mulig indirekte rasjonale via angstdempende egenskaper, men uten støtte i dataene. |
 
-**Rasjonale:**
-Melankoli er mekanistisk godt tilpasset agomelatines sirkadiask-reetablerende, MT1/MT2-agonist/5-HT2C-antagonist-profil, og legemidlet har allerede et betydelig evidensgrunnlag — inkludert agomelatine-spesifikke metaanalyser — som antidepressivum. Imidlertid studerer ingen av de identifiserte litteraturene eller prøvene spesifikt "melankoli" som en definert diagnostisk enhet, og det finnes ingen klinisk prøveevidence for denne indikasjonen, så denne forblir en ekstrapolert, ikke direkte validert, utvidelse.
-
-**For å fortsette er følgende nødvendig:**
-- TFDA/lokale pakningsvedlegg sikkerhetdata (Blokkerer datakap DG001 — advarsler og kontraindikasjoner er for tiden utilgjengelig, noe som forhindrer full sikkerhetsvurdering)
-- Strukturert virkningsmekanisme-bekreftelse fra DrugBank (Høy-alvorlighetsgrad datakap DG002)
-- Bekreftet norske regulatoriske/lisensieringsdokumentasjon, siden produktet for tiden ikke er markedsført der
-- En melankoli-spesifikk klinisk operativ definisjon tilpasset gjeldende DSM/ICD-kriterier, gitt begrepets arvestoff-nosologi
-- Fullføring av legemiddel-legemiddel-interaksjonsdatasettet (gjeldende spørringstatus: ikke funnet)
-
+De øvrige kandidatene (Ohdo-syndrom og varianter, ligneøs konjunktivitt, Ohdo-type blefarofimose med intellektuell funksjonshemming, Keppen-Lubinsky syndrom) er rene modellprediksjoner uten evidens eller plausibel mekanisme, og anbefales avventet (Hold).
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Denosumab
 parent: Kun modellprediksjon (L5)
-nav_order: 105
+nav_order: 123
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,81 +29,95 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Denosumab: Fra uspesifisert original indikasjon til alvorlig nonproliferativ diabetisk retinopati
+# Denosumab: Fra osteoporose og kjempecelletumor i bein til alvorlig ikke-proliferativ diabetisk retinopati
 
-## Sammendrag i en setning
+## Sammendrag i én setning
 
-> Denosumab er et RANKL-rettet monoklonalt antistoff; denne bevisoversikten inneholder ikke data om den opprinnelige godkjente indikasjonen eller virkningsmekanismen (datamangler DG001/DG002).
-> TxGNN-modellen predikerer potensiell effekt for **Alvorlig nonproliferativ diabetisk retinopati**,
-> men for tiden **ingen kliniske forsøk** og **ingen litteratur** støtter denne spesifikke retningen.
+Denosumab er en RANKL-hemmer som opprinnelig brukes mot osteoporose (inkludert postmenopausal osteoporose), tap av benmasse og kjempecelletumor i bein.
+TxGNN-modellen forutsier at legemidlet kan ha effekt mot **alvorlig ikke-proliferativ diabetisk retinopati**,
+men det finnes **ingen kliniske studier** og **ingen litteratur som direkte undersøker retinopati** for denne indikasjonen. Prediksjonen er foreløpig kun modellbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Emne | Innhold |
-|------|---------|
-| Original indikasjon | Ikke spesifisert i bevisoversikten (opprinnelige virkningsmekanisme- og indikasjondata er begge flagget som datamangler — se DG001/DG002) |
-| Predikert ny indikasjon | Alvorlig nonproliferativ diabetisk retinopati |
-| TxGNN-prediksjonspoengsum | 99.63% |
-| Bevisnivå | L5 (kun modellpreduksjon, ingen støttende studier) |
-| Markedsstatus (Taiwan) | Ikke markedsført (Ikke markedsført) |
-| Antall godkjennelser | 0 |
-| Anbefalt avgjørelse | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Tap av benmasse, postmenopausal osteoporose, osteoporose |
+| Predikert ny indikasjon | Alvorlig ikke-proliferativ diabetisk retinopati |
+| TxGNN-prediksjonsscore | 99,63 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun opphevede tillatelser |
+| Antall tillatelser | 20 (alle opphevet) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljerte virkningsmekanisme-data ikke tilgjengelige for denosumab i denne bevisoversikten (DG002, høy alvorlighetsgrad). Uten bekreftet original indikasjon eller virkningsmekanisme-data kan ingen direkte mekanistisk bro etableres til alvorlig nonproliferativ diabetisk retinopati (NPDR).
+Data om virkningsmekanisme er ikke tilgjengelig i det kompilerte datagrunnlaget. Basert på kjent informasjon er denosumab et monoklonalt antistoff som hemmer RANKL, og effekten ved osteoporose og kjempecelletumor i bein er etablert. Mekanistisk kan det tenkes at det er relevant for diabetisk retinopati.
 
-Omformuleringens rasjonale noterer at OPG/RANKL/RANK-signalerings-aksen har blitt teoretisk assosiert med vaskulær endotelial dysfunksjon og patologisk angiogenese, som er relevant for diabetisk mikrovaskulær sykdom. Imidlertid er denne koblingen spekulativ — den er ikke avledet fra noen treningsdata, klinisk forsøk eller publikasjon spesifikk for alvorlig NPDR. TxGNN-skåren på 0.996 reflekterer kun styrken på grafnevralt-nettverksforbindelsen, ikke klinisk eller mekanistisk validering.
+RANKL/RANK-signalering har blitt foreslått å spille en rolle i betennelse og karbiologi, noe som i teorien kan knyttes til mikrovaskulær sykdom i netthinnen. Dette er spekulativt og ikke validert for retinopati. Likhet mellom opprinnelig og ny indikasjon er ikke vurdert, og mekanismen kunne ikke krysskontrolleres mot kuraterte legemiddeldata.
 
-Gitt de manglende virkningsmekanisme- og original indikasjonsdataene, bør denne prediksjonen behandles som et signal for ren hypotesegenerering snarere enn en mekanistisk underbygget kandidat.
-
----
-
-## Bevis fra kliniske forsøk
-
-For øyeblikket ingen relaterte kliniske forsøk registrert.
+Det finnes også en nærliggende prediksjon for **diabetisk retinopati** generelt (score 99,23 %). Heller ikke denne har kliniske studier, og de to funnede publikasjonene gir bare indirekte kontekst (se under).
 
 ---
 
-## Litteraturbevis
+## Kliniske studier
 
-For øyeblikket ingen relatert litteratur tilgjengelig.
+Foreløpig er ingen relevante kliniske studier registrert.
 
 ---
 
-## Markedsinformasjon
+## Litteraturevidens
 
-| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+For alvorlig ikke-proliferativ diabetisk retinopati finnes ingen relevant litteratur i datagrunnlaget. For den bredere prediksjonen diabetisk retinopati ble to publikasjoner identifisert. Ingen av dem evaluerer retinopati som utfall:
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [38899553](https://pubmed.ncbi.nlm.nih.gov/38899553/) | 2024 | Observasjonsstudie/oversikt (antatt ut fra tittel) | Diabetes, Obesity & Metabolism | Denosumab ved osteoporose var knyttet til lavere forekomst av type 2-diabetes, lavere risiko for fotsår og lavere dødelighet sammenlignet med bisfosfonater. Analyse av reelle kohortdata med systematisk oversikt og metaanalyse. |
+| [36960265](https://pubmed.ncbi.nlm.nih.gov/36960265/) | 2023 | Observasjonsstudie/kohort (antatt ut fra tittel) | Cureus | Vurdering av bruken av FRAX-verktøyet for risiko for brudd hos voksne med type 2-diabetes. Omhandler ikke denosumab mot retinopati. |
+
+---
+
+## Markedsinformasjon for Norge
+
+Alle 20 tillatelser er opphevet. Det er ingen gyldige tillatelser for tiden. Et utvalg:
+
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| — | — | — | Ingen godkjennelser på posten (0 lisenser; ikke markedsført) |
+| EMEA/H/C/001120 | Prolia | – | Tap av benmasse, postmenopausal osteoporose, osteoporose |
+| EMEA/H/C/002173 | Xgeva | – | Kjempecelletumor i bein, bentumorer |
+| EMEA/H/C/006378 | Wyost | – | Kjempecelletumor i bein, bentumorer |
+| EMEA/H/C/006507 | Rolcya | – | Osteoporose, postmenopausal osteoporose, tap av benmasse |
+| EMEA/H/C/006526 | Evfraxy | – | Tap av benmasse, osteoporose, postmenopausal osteoporose |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegget for sikkerhetsinformasjon.
+- **Legemiddelinteraksjoner**: Totalt 100 interaksjoner er registrert. Alle viste nivå **moderat** blant de 20 som er listet. Hovedgrupper:
+  - Kortikosteroider: hydrokortison, triamcinolon (inkl. oftalmisk), deksametason, betametason, budesonid, prednisolon, prednison, metylprednisolon, kortikotropin og tetrakosaktid
+  - Radiofarmaka/immunmodulerende kreftmidler: ibritumomab tiuxetan, jobenguan (I-131), tositumomab (med og uten I-131), levamisol
+  - Andre: trimetreksat, merkaptopurin, dupilumab, takrolimus
 
-(Viktige advarsler, kontraindikasjoner og data om legemiddelinteraksjon er alle for øyeblikket utilgjengelige — DG001, blokkering alvorlighetsgrad, må løses ved innhenting av TFDA-etikett før noen sikkerhetsvurdering kan fortsette.)
+Se preparatomtalen for øvrig sikkerhetsinformasjon, inkludert advarsler og kontraindikasjoner.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Avgjørelse: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen hviler kun på en TxGNN-tilkoblingsskår (L5) med null støttende kliniske forsøk eller litteratur, og to uløste datamangler — manglende TFDA-pakningsvedlegg/sikkerhedsdata (blokkering) og manglende virkningsmekanisme (høy) — hindrer selv en foreløpig S1-sikkerhetsvurdering.
+Prediksjonen er kun modellbasert (L5) uten kliniske studier eller direkte litteratur for retinopati. Alle norske tillatelser er dessuten opphevet, og sikkerhetsdata fra preparatomtale mangler.
 
-**For å fortsette, er følgende nødvendig:**
-- TFDA-pakningsvedlegg (advarsler, kontraindikasjoner) — DG001, blokkering
-- Denosumab virkningsmekanisme-data fra DrugBank — DG002
-- Opprinnelig godkjent indikasjon(er) for å etablere rasjonalet for opprinnelig-til-ny indikasjon
-- Sykdomsspesifikt (alvorlig NPDR) klinisk eller preklinisk bevis; merk at den bredere "diabetisk retinopati"-kategori (rang 2, poengsum 0.992) allerede har L4-bevis (1 fase 3-forsøk, 2 publikasjoner) og kan være et mer håndterbart utgangspunkt for ytterligere etterforskning
-
+**For å gå videre kreves:**
+- Preparatomtale med advarsler og kontraindikasjoner fra DMP
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Prekliniske data eller mekanistiske studier på RANKL/RANK i netthinnens mikrokarsykdom
+- Retrospektive kohortstudier med retinopati som utfall hos denosumab-behandlede pasienter med diabetes
+- Avklaring av markedsstatus og tilgjengelige administrasjonsveier i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

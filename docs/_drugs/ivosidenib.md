@@ -2,7 +2,7 @@
 layout: default
 title: Ivosidenib
 parent: Kun modellprediksjon (L5)
-nav_order: 193
+nav_order: 226
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,84 +29,98 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Ivosidenib: Fra IDH1-mutert akutt myeloid leukemi til bulbær polio
+# Ivosidenib: Fra akutt myeloid leukemi og kolangiokarsinom til bulbær polio
 
-## Sammendrag i en setning
+## Oppsummering i én setning
 
-Ivosidenib er en IDH1-mutant enzymhemmer, antatt ut fra tilgjengelige data å være godkjent for IDH1-mutert akutt myeloid leukemi (AML) — formell dokumentasjon av original indikasjon er for øyeblikket en datakløft.
-TxGNN-modellens topprangerte prediksjon for dette legemidlet er **bulbær polio**, men **0 kliniske studier** og **0 publikasjoner** støtter for øyeblikket denne spesifikke forbindelsen, og modellens egen begrunnelse merker ingen kjent mekanistisk forbindelse.
-
-## Hurtig oversikt
-
-| Element | Innhold |
-|---------|---------|
-| Original indikasjon | IDH1-mutert AML (antatt ut fra gjenbruksbegrunnelse; ikke bekreftet av formelle lisensdata – se datakløft DG001/DG002) |
-| Forutsagt ny indikasjon | Bulbær polio |
-| TxGNN prediksjonspoeng | 99.31% |
-| Bevisnivå | L5 |
-| Markedsstatus i Norge | Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
-
-## Hvorfor er denne prediksjonen rimelig?
-
-For øyeblikket er det ikke tilgjengelig detaljerte data om virkningsmekanisme (datakløft DG002). Basert på gjenbruksbegrunnelsen som følger med denne bevissamlingen, forstås ivosidenib å hemme det muterte IDH1-enzymet, og blokkerer akkumulering av onkometabolitten 2-hydroksyglutarat (2-HG) i IDH1-muterte kreftformer som AML.
-
-Bulbær polio er en poliovirus-indusert motorneuron-sykdom. Det eksisterer ingen kjent biologisk forbindelse mellom IDH1/2-HG-metabolisme og poliovirus-mediert nevroneskade. Modellens egen genererte begrunnelse slår eksplisitt fast at denne høye poengsum sannsynligvis reflekterer en **sparsom eller støyende kant i den underliggende kunnskapsgrafen**, snarere enn en genuin mekanistisk forbindelse, og at ingen mekanistisk hypotese for øyeblikket støtter denne koblingen.
-
-Ingen kliniske studier, litteratur eller biologisk sannsynlighet eksisterer for øyeblikket for å støtte ivosidenib som en kandidatbehandling for bulbær polio. Denne prediksjonen bør behandles som en modellartefakt som ikke krever umiddelbar handling, snarere enn som et genuint gjenbrukssignal.
-
-## Klinisk studiebevis
-
-For øyeblikket ingen relaterte kliniske studier registrert
-
-## Litteraturbevis
-
-For øyeblikket ingen relatert litteratur tilgjengelig
-
-## Markedsinformasjon for Norge
-
-Ivosidenib er for øyeblikket ikke markedsført i Norge. Ingen autorisasjonsregistre er tilgjengelige i denne bevissamlingen (0 lisenser på fil).
-
-## Cytotoksisitet
-
-| Element | Innhold |
-|---------|---------|
-| Cytotoksisitetsklassifisering | Målrettet terapi (IDH1-mutant enzymhemmer) |
-| Risiko for myelosuppresjon | Se pakningsvedleggets advarsler og forholdsregler |
-| Emetogenisitetsklassifisering | Se pakningsvedleggets advarsler og forholdsregler |
-| Overvåkingselementer | Se pakningsvedleggets advarsler og forholdsregler |
-| Håndteringsbeskyttelse | Se pakningsvedleggets advarsler og forholdsregler |
-
-## Sikkerhetshensyn
-
-Se pakningsvedlegget for sikkerhetsinformasjon.
-
-## Konklusjon og neste steg
-
-**Beslutning: Avvent**
-
-**Begrunnelse:**
-TxGNN-poengsum er høy, men det eksisterer ingen klinisk studiebevis, ingen publisert litteratur og ingen plausibel mekanistisk begrunnelse som knytter ivosidenib til bulbær polio. Denne koblingen reflekterer mest sannsynlig støy i kunnskapsgrafen snarere enn en ekte gjenbruksmulighet.
-
-**For å fortsette, er følgende nødvendig:**
-- Formell MOA- og original-indikasjonsdokumentasjon (løs DG001, DG002) før ytterligere poengsum
-- TFDA/EMA pakningsvedleggets advarsler og kontraindikasjoner for grunnlinjesikkerhetsvurdering
-- Hvis denne kandidaten blir gjenbesøkt, kreves en uavhengig mekanistisk hypotese utover det nåværende grafsignalet før man går videre enn S0
+Ivosidenib er en hemmer av mutert IDH1, opprinnelig godkjent for behandling av akutt myeloid leukemi og kolangiokarsinom.
+TxGNN-modellen forutsier at legemidlet kan ha effekt mot **bulbær polio**, men dette er en ren modellprediksjon uten støtte i kliniske studier (**0 kliniske studier**) eller litteratur (**0 publikasjoner**).
+To av de tre toppforutsigelsene (AML/MDS relatert til alkyleringsmidler og stråling) er i realiteten undergrupper av den allerede godkjente AML-indikasjonen.
 
 ---
 
-### Ytterligere forutsagte indikassjoner i denne bevissamlingen
+## Hurtigoversikt
 
-Denne bevissamlingen inneholder to andre kandidatindikassjoner for ivosidenib som er mekanistisk mer plausible og som rettferdiger separat sporing snarere enn avvisning:
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Akutt myeloid leukemi; kolangiokarsinom |
+| Predikert ny indikasjon | Bulbær polio |
+| TxGNN-prediksjonsscore | 99,31 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun kansellert (ingen gyldig markedsføringstillatelse) |
+| Antall tillatelser | 1 (kansellert) |
+| Anbefalt beslutning | Hold |
 
-| Rangering | Sykdom | TxGNN-poengsum | Bevisnivå | Anbefaling | Sammendrag av begrunnelse |
-|-----------|--------|----------------|-----------|------------|---------------------------|
-| 2 | AML/MDS relatert til alkylerende midler | 99.26% | L4 | Forskningsspørsmål | Ivosidenib brukes bredt i IDH1-mutert AML (inkludert noen terapirelaterte subtyper ifølge AGILE-forsøket); ekstrapolering til alkylerende-middel-relatert AML/MDS er mekanistisk rimelig hvis IDH1-mutasjon er til stede, men subtypespesifikk mutasjonsprevales og tilleggtoksisitet fra tidligere kjemoterapieksponering er ubekreftet. |
-| 3 | AML/MDS relatert til stråling | 99.26% | L4 | Forskningsspørsmål | Samme ekstrapoleringslogikk som ovenfor for strålingsindusert terapirelatert myeloid neoplasmer; ingen subtypespesifikk forsøk eller litteraturbevis eksisterer for øyeblikket i denne samlingen. |
+---
 
-Disse to kandidatene bør prioriteres fremfor Bulbær polio-prediksjonen for enhver framtidig oppfølging av forskningsspørsmål, da de bygger på en etablert (om enn ikke formelt dokumentert i denne samlingen) godkjent bruk av ivosidenib i IDH1-mutert AML.
+## Hvorfor er denne prediksjonen rimelig?
 
+Ivosidenib hemmer mutert IDH1-enzym og senker nivået av onkometabolitten 2-hydroksyglutarat i IDH1-muterte svulster. Data om legemidlets detaljerte virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten, så vurderingen bygger på allment kjent farmakologi.
+
+For den toppredikerte indikasjonen, **bulbær polio**, er det ikke identifisert noen plausibel mekanistisk kobling. Bulbær polio er en virusinfeksjon i motoriske nevroner forårsaket av poliovirus, og ingen IDH1-avhengig mekanisme er kjent. Den svært høye scoren (0,993) ser ut til å være en artefakt fra kunnskapsgrafen, uten støtte fra studier eller litteratur.
+
+De to neste prediksjonene, **AML/MDS relatert til alkyleringsmidler** og **AML/MDS relatert til stråling**, er biologisk plausible, men indirekte. Behandlingsrelatert AML/MDS kan ha IDH1-mutasjoner, og en eventuell effekt vil avhenge av mutasjonsstatus, ikke av årsaken til sykdommen. Begge har identisk score (0,9926), noe som tyder på at de er søskennoder i sykdomsontologien og scores samlet. De utgjør en undergruppe av en allerede godkjent bruk, og er derfor ikke ekte repurposing-kandidater.
+
+---
+
+## Kliniske studier
+
+Foreløpig er det ingen relaterte kliniske studier registrert for noen av de predikerte indikasjonene.
+
+---
+
+## Litteraturevidens
+
+Foreløpig er det ingen relatert litteratur tilgjengelig.
+
+---
+
+## Informasjon om det norske markedet
+
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005936 | Tibsovo | Ikke oppgitt | Akutt myeloid leukemi; kolangiokarsinom |
+
+Tillatelsen er kansellert, og det finnes ingen gyldige tillatelser i Norge. Innehaver: Les Laboratoires Servier.
+
+---
+
+## Cytotoksisitet
+
+| Punkt | Innhold |
+|------|------|
+| Klassifisering | Målrettet terapi (IDH1-hemmer), ikke konvensjonelt cytotoksisk |
+| Risiko for myelosuppresjon | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Emetogenisitet | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Blodstatus (CBC), lever- og nyrefunksjon, elektrolytter og EKG (QT-intervall) bør vurderes; bekreft mot pakningsvedlegget |
+| Håndteringsvern | Følg gjeldende regler for håndtering av kreftlegemidler |
+
+---
+
+## Sikkerhetsvurderinger
+
+**Legemiddelinteraksjoner:** Interaksjonssøket er gjennomført og fant totalt 100 interaksjoner. Blant de første 20 som er vist, er de viktigste:
+
+- **Alvorlig (Major):** aprepitant, klaritromycin, dolasetron, palonosetron, cisaprid, granisetron og levofloksacin. Flere av disse er knyttet til QT-forlengelse eller CYP3A4-påvirkning og krever nøye vurdering.
+- **Moderat:** famotidin, loperamid, bisakodyl, pikosulfat, polyetylenglykol, saksagliptin, eliglustat, linagliptin, natriumsulfat, lakserolje, glyserin, laktitol og laktulose.
+
+Advarsler og kontraindikasjoner fra pakningsvedlegget er ikke tilgjengelige. Se pakningsvedlegget for fullstendig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Toppprediksjonen (bulbær polio) mangler både mekanistisk støtte og enhver klinisk evidens, og er mest sannsynlig en artefakt i kunnskapsgrafen. De to AML/MDS-prediksjonene er undergrupper av en allerede godkjent indikasjon, og har ingen egne data. I tillegg er den norske tillatelsen kansellert.
+
+**For å gå videre trengs følgende:**
+- Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Subgruppeanalyser fra pivotale AML-studier (sekundær eller behandlingsrelatert AML/MDS) med IDH1-mutasjonsstatus
+- Avklaring av hvorfor den norske tillatelsen er kansellert, og om en ny søknad er aktuell
+- Vurdering av QT-relaterte og CYP3A4-relaterte interaksjoner før eventuell klinisk bruk
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

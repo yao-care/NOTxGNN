@@ -2,7 +2,7 @@
 layout: default
 title: Verteporfin
 parent: Kun modellprediksjon (L5)
-nav_order: 382
+nav_order: 449
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,75 +29,86 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Verteporfin: Fra fotosensibilisatorterapi (datakløft) til predikert mitokondrielidelse i oxidativ fosforylering
+# Verteporfin: Fra degenerativ myopi og makuladegenerasjon til mitokondriell oksidativ fosforyleringssykdom som skyldes kjerne-DNA-avvik
 
-## Sammendrag på én setning
+## Oppsummering i én setning
 
-Verteporfins opprinnelige indikasjon og virkningsmekanisme er for øyeblikket markert som datakløfter i bevissamlingen (det er klinisk kjent som en fotosensibilisator brukt i fotodinamisk terapi). TxGNN-modellen predikerer at det kan være relevant for **mitokondrielidelse i oxidativ fosforylering på grunn av anomalier i kjerneDNA**, men denne prediksjonen er for øyeblikket støttet av **0 kliniske forsøk** og **0 publikasjoner** — det er et rent modellutfall uten bekreftet bevis.
+Verteporfin er et lysaktivert legemiddel (fotosensibilisator) som opprinnelig brukes ved degenerativ myopi og makuladegenerasjon. TxGNN-modellen forutsier at det kan ha effekt på **mitokondriell oksidativ fosforyleringssykdom som skyldes kjerne-DNA-avvik**, men det finnes **0 kliniske studier** og **0 publikasjoner** i dataene som støtter denne retningen. Prediksjonen er derfor kun en hypotese.
 
 ---
 
 ## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Ikke tilgjengelig i gjeldende data (se datakløft DG001) |
-| Predikert ny indikasjon | Mitokondrielidelse i oxidativ fosforylering på grunn av anomalier i kjerneDNA |
-| TxGNN-prediksjonsresultat | 99.49% |
-| Bevisnivå | L5 |
-| Markedsstatus i Taiwan | Ikke markedsført |
-| Antall tillatelser | 0 |
-| Anbefalt beslutning | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Degenerativ myopi; makuladegenerasjon |
+| Predikert ny indikasjon | Mitokondriell oksidativ fosforyleringssykdom som skyldes kjerne-DNA-avvik |
+| TxGNN-prediksjonsscore | 99,49 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun opphørte/trukne godkjenninger |
+| Antall godkjenninger | 1 (opphørt) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige for verteporfin (DG002, høy alvorlighet). Basert på generelt kjent klinisk informasjon, er verteporfin en fotosensibiliserende agens brukt i fotodinamisk terapi (historisk forbundet med aldersrelatert makuladegenerasjon), selv om denne informasjonen ikke er bekreftet innen de strukturerte feltene i denne bevissamlingen, og ingen opprinnelig indikasjon er registrert.
+Data om virkningsmekanisme er ikke tilgjengelige for denne rapporten. Verteporfin er kjent som en fotosensibilisator som brukes sammen med lysaktivering (fotodynamisk terapi) ved neovaskulær makuladegenerasjon og beslektede øyetilstander.
 
-Noe litteratur antyder at verteporfin kan hemme YAP/TAZ-signalering i Hippo-banen, som har et teoretisk, indirekte forhold til mitokondriell metabolsk regulering. Det finnes imidlertid ingen mekanistisk bevis som spesifikt knytter verteporfin til mitokondrielidelser i oxidativ fosforylering på grunn av anomalier i kjerneDNA i denne bevissamlingen — forbindelsen er spekulativ snarere enn etablert.
+I prekliniske arbeider hemmer verteporfin også samspillet mellom YAP og TEAD, og det kan danne reaktive oksygenforbindelser (ROS) og påvirke autofagi. Disse egenskapene kan i teorien berøre mitokondriebiologi.
 
-Fordi både den opprinnelige indikasyonen og virkningsmekanismen er ubekreftet, og den predikerte indikasyonen er en sjelden monogen mitokondrielidelse med svært annen sykdomsbiologi enn verteporfins kjente oftalmologiske/fotodinamiske bruk, er det mekanistiske grunnlaget for denne prediksjonen svakt og bør behandles som kun hypotesegenererende.
-
----
-
-## Bevis fra kliniske forsøk
-
-For øyeblikket ingen relaterte kliniske forsøk registrert.
+Det finnes imidlertid ingen evidens som kobler dem til oksidative fosforyleringssykdommer drevet av kjerne-DNA. ROS fra fotosensibilisatorer kan i tillegg forverre mitokondriell dysfunksjon, så retningen på en eventuell effekt er uklar. Den eneste støtten er den høye modellscoren, og koblingen kan ikke verifiseres.
 
 ---
 
-## Bevis fra litteratur
+## Klinisk evidens
 
-For øyeblikket ingen relatert litteratur tilgjengelig.
-
----
-
-## Markedsinformasjon fra Taiwan
-
-Verteporfin har for øyeblikket **ingen markedsføringstillatelse i Taiwan** (markedsstatus: Ikke markedsført / Ikke markedsført, 0 lisenser på fil). Ingen informasjon om produkt/doseringsform er tilgjengelig.
+Det er for øyeblikket ingen registrerte kliniske studier knyttet til denne prediksjonen.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Merk: TFDA-pakningsvedleggets advarsler og kontraindikasjoner er for øyeblikket ikke tilgjengelige (datakløft DG001, blokkeringsalvorlighet) — dette må løses før noen sikkerhetsvurdering (S1) kan gjennomføres.
+Det er for øyeblikket ingen relevant litteratur tilgjengelig.
 
 ---
 
-## Konklusjon og neste trinn
+## Markedsinformasjon for Norge
 
-**Beslutning: Avvent**
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000305 | Visudyne | Ikke oppgitt | Degenerativ myopi; makuladegenerasjon |
 
-**Grunnlag:**
-Denne prediksjonen er bevisnivå L5 — et TxGNN-modellutfall uten støttende kliniske forsøk, litteratur, bekreftet virkningsmekanisme eller markedstilstedeværelse i Taiwan. En datakløft med blokkeringsalvorlighet (TFDA-sikkerhetsmerketing) forhindrer også enhver sikkerhetsvurdering.
+Godkjenningen (innehaver: CHEPLAPHARM Arzneimittel GmbH) er registrert som opphørt. Det finnes ingen gyldige godkjenninger i dataene.
 
-**For å fortsette er følgende nødvendig:**
-- TFDA-pakningsvedlegg (advarsler/kontraindikasjoner) for å løse DG001 (blokkeringsalvorlighet)
-- Bekreftet opprinnelig indikasjon og virkningsmekanisme via DrugBank for å løse DG002
-- Litteratur eller preklinisk bevis som etablerer en mekanistisk kobling mellom verteporfin og mitokondrielidelser i oxidativ fosforylering
-- Alle tilgjengelige kliniske forsøks- eller saksrapportdata for denne indikasyonen før man går videre enn S0
+---
 
+## Sikkerhetsvurderinger
+
+- **Kontraindikasjoner fra kunnskapsgraf (ikke preparatomtale):** TxGNN-kunnskapsgrafen (PrimeKG) angir kontraindikasjonskoblinger til arvelig porfyri, forstyrrelser i porfyrinmetabolismen, porfyri, leversykdom og galleblæresykdom.
+- **Legemiddelinteraksjoner:** Totalt 100 interaksjoner er funnet. De fleste i utvalget er av moderat alvorlighetsgrad, og én er mindre alvorlig (minor). Eksempler:
+  - Tetracykliner: doksysyklin, tetracyklin, minocyklin (også topikale former)
+  - Sulfonylurea-antidiabetika: klorpropamid, glimepirid, glipizid, glyburid, tolbutamid, tolazamid, acetoheksamid
+  - Andre: acetylsalisylsyre, levofloksacin, mannitol, sulfasalazin, betakaroten, papaverin
+  - Mindre alvorlig: polymyksin B
+
+Fotosensibiliserende og andre legemidler bør vurderes samlet. For øvrig sikkerhetsinformasjon, se preparatomtalen.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Prediksjonen bygger kun på en høy modellscore (evidensnivå L5), uten kliniske studier eller litteratur. Virkningsmekanismen er ikke tilgjengelig, og det er uklart om ROS-dannelse vil hjelpe eller forverre mitokondriell dysfunksjon. Den eneste norske godkjenningen er dessuten opphørt.
+
+**For å gå videre kreves følgende:**
+- Detaljerte data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Preparatomtale med advarsler og kontraindikasjoner, som er nødvendig før en sikkerhetsvurdering
+- Prekliniske studier (celle- eller dyremodeller) som tester effekt av verteporfin ved oksidative fosforyleringssykdommer, med særlig vekt på ROS-risiko
+- Avklaring av egnet administrasjonsvei og lysaktiveringsstrategi for en ikke-okulær indikasjon
+- Avklaring av regulatorisk status, siden Visudyne-godkjenningen er opphørt
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

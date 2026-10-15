@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Valsartan
-parent: Kun modellprediksjon (L5)
-nav_order: 377
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 443
+evidence_level: L4
 indication_count: 7
 ---
 
 # Valsartan
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,77 +29,106 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Valsartan: Fra hypertensjon til malign hypertensiv nyresykdom
+# Valsartan: Fra hypertensjon og hjertesvikt til malign hypertensiv nyresykdom
 
 ## Oppsummering i én setning
 
-> Valsartan er en angiotensin II type 1 (AT1) reseptorblokkant (ARB) som brukes globalt til behandling av hypertensjon og hjertesvikt, selv om det ikke er markedsført i denne jurisdiksjonen. TxGNN-modellen forutsier at det kan være effektivt for **malign hypertensiv nyresykdom**, men denne retningen støttes for øyeblikket av kun **0 kliniske forsøk** og **1 indirekte preklinisk publikasjon** (som studerer en annen legemiddelklasse), noe som gjør evidensgrunnlaget svært svakt på dette stadiet.
+Valsartan er en angiotensin II type 1-reseptorblokker (ARB) som opprinnelig brukes mot **hypertensjon** og **hjertesvikt**.
+TxGNN-modellen forutsier at legemidlet kan ha effekt ved **malign hypertensiv nyresykdom**.
+Det finnes foreløpig **ingen kliniske studier** og bare **1 indirekte publikasjon** (om et annet legemiddel, avosentan) som støtter denne retningen.
 
 ---
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
-|------|---------|
-| Original indikasjon | Hypertensjon (ARB-klasse; globalt godkjent indikasjon — ikke ennå markedsført i denne jurisdiksjonen, så lokal godkjenningstekst er ikke tilgjengelig) |
-| Forutsagt ny indikasjon | Malign hypertensiv nyresykdom |
-| TxGNN prediksjonspoeng | 99.97% |
-| Evidensnivå | L5 |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+|------|------|
+| Opprinnelig indikasjon | Hypertensjon |
+| Predikert ny indikasjon | Malign hypertensiv nyresykdom |
+| TxGNN-prediksjonsscore | 99,97 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun opphevede (avregistrerte) godkjenninger |
+| Antall godkjenninger | 9 (alle opphevet) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Formelle DrugBank-baserte data om virkningsmekanisme er for øyeblikket utilgjengelige (Data Gap DG002). Basert på den mekanistiske begrunnelsen som følger med denne evidenspakken, forstås valsartan å virke som en AT1-reseptorblokkant og hemme renin-angiotensin-aldosteron-systemet (RAAS). Dette er den samme farmakologiske klassen som er mye brukt til å bremse progresjon av hypertensiv nyreskade.
+Data om valsartans virkningsmekanisme var ikke tilgjengelige i de innsamlede dataene. Basert på kjent informasjon er valsartan en ARB, og effekten ved hypertensjon er godt dokumentert. Mekanistisk kan den derfor være aktuell ved malign hypertensiv nyresykdom.
 
-Malign hypertensiv nyresykdom er per definisjon en alvorlig komplikasjon av ukontrollert hypertensjon med markant RAAS-aktivering og nyremikovaskulær skade. Siden valsartans etablerte indikasjon (hypertensjon) direkte retter seg mot RAAS-veien antatt å drive denne nyrekomplikasjonen, finnes det en plausibel mekanistisk begrunnelse for utvidelse av bruken til denne mer alvorlige, relaterte tilstanden.
+Blokkade av AT1-reseptoren kan beskytte nyrene ved alvorlig hypertensjon gjennom redusert vasokonstriksjon, lavere trykk i glomeruli og mindre fibrose. Den eneste publikasjonen som er funnet (PMID 24368192) gjelder avosentan, en endotelinantagonist, og ikke valsartan. Den gir derfor bare indirekte kontekst.
 
-Med det sagt, den eneste litteraturen som for øyeblikket er knyttet til denne spesifikke prediksjonen (PMID 24368192) studerer **ikke** valsartan eller ARBer direkte — den undersøker avosentan, en endotelien-antagonist, i en rottemodell av hypertensiv nefropati. Dette er klassenivå, indirekte støttende evidens best, ikke legemiddelspesifikk bevis. En nært beslektet prediksjon i denne evidenspakken — "malign renovaskulær hypertensjon" (rang 2) — har faktisk litteratur som direkte tester AT1-reseptorblokering (valsartans mekanisme) i en dyremodell av malign hypertensjon (PMID 11560862), noe som gir indirekte kryssstøtte til den biologiske plausibilitet av denne klassen av prediksjoner, men fortsatt kun på preklinisk nivå.
+Det er viktig å merke seg at dette er en sterk datamaskinbasert prediksjon, men uten direkte klinisk støtte.
+
+### Andre predikerte indikasjoner (kort oversikt)
+
+| Predikert indikasjon | Score | Evidensnivå | Kommentar |
+|------|------|------|------|
+| Malign renovaskulær hypertensjon | 99,97 % | L4 | Prekliniske dyredata for ARB-klassen (PMID 11560862); ingen humane studier. ARB medfører risiko ved bilateral nyrearteriestenose. |
+| Pulmonal hypertensjon med uklar multifaktoriell mekanisme | 99,97 % | L5 | Kun modellprediksjon |
+| Pulmonal hypertensjon ved lungesykdom/hypoksi | 99,97 % | L4 | Indirekte, prekliniske data, ofte for sakubitril/valsartan |
+| Braddock syndrom | 99,96 % | L5 | Kun modellprediksjon |
+| Kronisk pulmonal hjertesykdom | 99,58 % | L4 | Forskningsspørsmål; ingen direkte test av valsartan |
+| Prinzmetal angina | 99,45 % | L5 | Spekulativ rolle for RAS-blokade |
 
 ---
 
-## Klinisk forsøksbevis
+## Evidens fra kliniske studier
 
-For øyeblikket ingen relaterte kliniske forsøk registrert.
+For den primære indikasjonen (malign hypertensiv nyresykdom) er det foreløpig ingen relaterte kliniske studier registrert.
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|------------|---------|
-| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Preklinisk/Dyrmodell | Pharmacological Research | I dobbelt transgene rotter (dTGR) med hypertensiv nefropati var avosentan (en endotelien-antagonist — **ikke** valsartan) beskyttende mot nyreskade ved doser under de som forårsaket væskeretensjon. Gir indirekte, klasserelatert (ikke legemiddelspesifikk) mekanistisk støtte kun. |
+|------|-----|------|------|---------|
+| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Preklinisk | Pharmacological Research | Avosentan (ikke valsartan) beskyttet mot hypertensiv nefropati hos transgene rotter ved doser som ikke ga væskeretensjon |
+
+Til sammenligning gjelder en sekundær indikasjon, malign renovaskulær hypertensjon: [11560862](https://pubmed.ncbi.nlm.nih.gov/11560862/) (Circulation, 2001) viser at AT1-reseptorblokkade forebygger dødelig malign hypertensjon i en dyremodell.
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Valsartan er for øyeblikket **ikke markedsført** i denne jurisdiksjonen (0 godkjennelser registrert). Ingen lokal produktlisens eller godkjent-indikasjon tekst er tilgjengelig.
+Alle 9 godkjenninger er opphevet. Ingen er gyldige i dag. Dosering/legemiddelform er ikke oppgitt i dataene.
+
+| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000716 | Exforge | – | Hypertensjon |
+| EMEA/H/C/000776 | Dafiro | – | Hypertensjon |
+| EMEA/H/C/000774 | Copalia | – | Hypertensjon |
+| EMEA/H/C/004343 | Neparvis | – | Hjertesvikt |
+| EMEA/H/C/004062 | Entresto | – | Hjertesvikt |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegget for sikkerhetsinformasjon. Merk: lokale ordinerings-etikettadvarsler og kontraindikasjonsdata (Data Gap DG001) er for øyeblikket utilgjengelige og er flagget som en **blokkerende** gap for eventuelle formelle sikkerhetsvurderinger (S1) av denne kandidaten.
+Informasjon fra pakningsvedlegget (advarsler og kontraindikasjoner) var ikke tilgjengelig i de innsamlede dataene. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
+
+**Kontraindikasjoner fra kunnskapsgraf (ikke fra preparattekst):** Kunnskapsgrafen (PrimeKG) knytter valsartan til blant annet leversvikt, pankreatitt, angioødem (inkl. ACE/RAS-blokkerinduserte former), systemisk lupus erythematosus, kaliummangel, diabetes og diabetisk ketoacidose, nøytropeni/agranulocytose, hypotensjon, urinsyregikt, hyperkalsemi, anuri, nyrearteriestenose og nedsatt nyrefunksjon.
+
+**Legemiddelinteraksjoner:** Totalt 100 interaksjoner registrert. De viktigste:
+- **Alvorlige (Major):** kaliumklorid og kaliumbikarbonat (risiko for hyperkalemi)
+- **Moderate:** insuliner (ulike typer), eksenatid, hydrokortison, eluksadolin, polyetylenglykol med elektrolytter
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Evidensen som støtter valsartan for malign hypertensiv nyresykdom er for øyeblikket begrenset til en enkelt preklinisk studie av en annen legemiddelklasse (endotelien-antagonist), uten kliniske forsøk og uten legemiddelspesifikke menneske- eller dyredata. Kombinert med fravær av bekreftet MOA-data og lokal sikkerhetsmerkering, oppfyller denne kandidaten ikke ennå terskelen for å gå videre enn modellprediksjonstadiet (L5/S0).
+Prediksjonen bygger på en høy modellscore og et plausibelt mekanistisk grunnlag, men det finnes ingen kliniske studier og ingen direkte litteratur om valsartan for denne indikasjonen (evidensnivå L4). I tillegg er alle norske/europeiske godkjenninger opphevet, og viktige sikkerhetsdata mangler.
 
-**For å gå videre, er følgende nødvendig:**
-- Bekreftet DrugBank virkningsmekanisme-data for valsartan (Data Gap DG002)
-- TFDA/lokal ordinerings-informasjon — advarsler, kontraindikasjoner (Data Gap DG001, blokkerende for S1 sikkerhetsvurdering)
-- Legemiddelspesifikk (valsartan/ARB) preklinisk eller klinisk evidens i hypertensiv nefropati eller malign hypertensiv nyresykdom, i stedet for indirekte klasserelatert litteratur
-- Vurdering av den nært beslektede "malign renovaskulær hypertensjon" prediksjonen (rang 2), som har mer direkte AT1-blokerings mekanistisk litteratur og kan være verdt prioritering som et forskningsspørsmål fremfor denne kandidaten
-
+**For å gå videre trengs følgende:**
+- Sikkerhetsdata fra preparatomtalen (advarsler og kontraindikasjoner), som i dag blokkerer sikkerhetsvurderingen
+- Data om virkningsmekanisme fra DrugBank
+- Direkte prekliniske og kliniske data for valsartan ved malign hypertensiv nyresykdom
+- Avklaring av regulatorisk status og tilgjengelige produkter i Norge
+- Plan for overvåking av nyrefunksjon og kalium, særlig ved nyrearteriestenose
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

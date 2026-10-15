@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Human
 parent: Kun modellprediksjon (L5)
-nav_order: 187
+nav_order: 220
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,110 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Insulin Human: Fra Diabetes Mellitus til autoimmun ooforitt
+# Humaninsulin: Fra diabetes mellitus til autoimmun oofoitt
 
-## Sammenfatting i en setning
+## Oppsummering i én setning
 
-Insulin Human er den biosynttetiske ekvivalenten av endogent humaninsulin, opprinnelig brukt til å kontrollere blodglukose ved diabetes mellitus. TxGNN-modellen forutsier at det kan være effektivt for **autoimmun ooforitt**, men denne retningen er for øyeblikket støttet av **0 kliniske forsøk** og **0 publikasjoner**, og modellens egen begrunnelse bekrefter ingen kjent mekanistisk forbindelse mellom de to.
+Humaninsulin er et hormon som opprinnelig brukes til behandling av diabetes mellitus.
+TxGNN-modellen forutsier at det kan ha effekt ved **autoimmun oofoitt** (autoimmune oophoritis),
+men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen er rent beregningsbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Diabetes Mellitus (type 1/2, glukosekontroll) — ikke formelt dokumentert i taiwanske lisensdataer (legemidlet er ikke på markedet) |
-| Forutsagt ny indikasjon | Autoimmun ooforitt |
-| TxGNN prediksjonspoeng | 99.84% |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Diabetes mellitus |
+| Predikert ny indikasjon | Autoimmun oofoitt |
+| TxGNN-prediksjonsscore | 99,84 % |
 | Evidensnivå | L5 |
-| Taiwan markedsstatus | Ikke på markedet (Ikke på markedet) |
-| Antall godkjenninger | 0 |
-| Anbefalt avgjørelse | Avvent |
+| Markedsstatus i Norge | Kun avregistrerte (trukket tilbake) |
+| Antall godkjenninger | 5 (alle avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-For øyeblikket er data om detaljert virkningsmekanisme ikke tilgjengelig (flagget som et datagap i evidenspakken). Basert på generell klinisk kunnskap brukes Insulin Human til å erstatte eller supplere endogent insulin for glukosekontroll ved diabetes mellitus. Det er ikke for øyeblikket på markedet i Taiwan, så ingen formell taiwansk etikettekst eksisterer for kryssreferanse.
+Data som er samlet inn for denne rapporten inneholder ikke detaljerte opplysninger om virkningsmekanisme. Basert på kjent informasjon er humaninsulin et hormon som aktiverer insulinreseptoren og styrer glukoseopptak og stoffskifte. Effekten ved diabetes mellitus er godt dokumentert.
 
-For den øverst rangerte prediksjonen, autoimmun ooforitt, sier evidenspakkens egen begrunnelse for ombruk at det er **ingen direkte fysiologisk forbindelse** mellom insulin og autoimmun ooforitt. Den høye TxGNN-skåren er mest sannsynlig drevet av indirekte samforekomst av autoimmun-sykdom-noder innenfor kunnskapsgrafen, snarere enn en biologisk tolkbar mekanisme. Dette er et tilfelle hvor en høy modellkonfidensscore ikke korresponderer med en troverdig farmakologisk hypotese.
+Det finnes en mulig, men uverifisert kobling: insulinsignalering påvirker granulosaceller i eggstokken og steroidproduksjon. Dette støtter likevel ikke en immunmodulerende rolle ved autoimmun oofoitt. Tilstanden behandles vanligvis med immunsuppresjon eller hormonerstatning, og insulin har ingen etablert plass i behandlingen.
 
-Det er også verdt å merke seg at denne evidenspakken inneholder 10 forutsagte indikasjoner for insulin, og mønsteret på tvers av dem er informativt: flere (stoff-indusert lokalisert lipodystrofi, sentrifugal lipodystrofi, trykkindusert lokalisert lipoatrofi, idiopatisk lokalisert lipodystrofi) er meget sannsynlig **artefakter fra omvendt kausalitet** — insulininjeksjon er en velkjent *årsak* til lokalisert lipodystrofi, ikke en behandling for det. Den eneste kandidaten i batchen med en koherent klinisk begrunnelse er rang 9, "pankreasagenesi" (L3, beslutningsstadium S2, "Forskningsspørsmål"), hvor insulinerstatning allerede er standardbehandling for den resulterende neonataldiabetes — men dette gjenspeiler eksisterende praksis snarere enn en genuint ny indikasjon. Ingen av kandidatene i batchen når for øyeblikket til et nivå som rettferdiggjør aktivt arbeid.
+Den høye TxGNN-scoren (0,998) er en beregningsmessig prediksjon og må ikke tolkes som klinisk støtte.
 
----
+### Andre predikerte indikasjoner (alle L5, Hold)
 
-## Klinisk forsøksbevis
+De ti øverste prediksjonene mangler alle kliniske studier og litteratur. Flere kan forklares av forvekslende sammenhenger:
 
-For øyeblikket ingen relaterte kliniske forsøk registrert
-
----
-
-## Litteraturbevis
-
-For øyeblikket ingen relatert litteratur tilgjengelig
-
----
-
-## Taiwan markedsinformasjon
-
-Insulin Human er ikke for øyeblikket på markedet i Taiwan (0 godkjenninger på posten), så ingen produktlisensdata er tilgjengelige for oppsummering.
-
----
-
-## Sikkerhetshensyn
-
-Se pakningsvedlegget for sikkerhetsinformasjon.
+| Rangering | Predikert indikasjon | Score | Vurdering |
+|------|------|------|------|
+| 1 | Autoimmun oofoitt | 99,84 % | Ingen etablert rolle for insulin |
+| 2 | Klassisk stiff person-syndrom | 99,81 % | Forvekslet: anti-GAD65-autoimmunitet og samtidig type 1-diabetes; insulin behandler diabetesen, ikke den nevrologiske sykdommen |
+| 3 | Fokalt stiff limb-syndrom | 99,81 % | Samme forvekslede sammenheng som over |
+| 4 | Tiaminresponsivt dysfunksjonssyndrom | 99,80 % | Diabetes er en del av fenotypen; tiamin er sykdomsspesifikk behandling |
+| 5 | Opsismodysplasi | 99,79 % | Spekulativ kobling via INPPL1 (SHIP2) i insulin/PI3K-signalveien; effektretning uklar |
+| 6 | Legemiddelindusert lokalisert lipodystrofi | 99,72 % | Kjent bivirkning av injisert insulin; bør behandles som sikkerhetssignal |
+| 7 | Sentrifugal lipodystrofi | 99,70 % | Fenotypeoverlapp; ingen holdepunkter for nytte |
+| 8 | Trykkindusert lokalisert lipoatrofi | 99,70 % | Fenotypeoverlapp med lipoatrofi på injeksjonssteder |
+| 9 | Pankreasagenesi | 99,70 % | Insulinerstatning er rasjonell, men er symptomatisk diabetesbehandling innenfor den opprinnelige indikasjonen, ikke ekte repurposing |
+| 10 | Idiopatisk lokalisert lipodystrofi | 99,68 % | Fenotypelikhet; ingen støttende mekanisme |
 
 ---
 
-## Konklusjon og neste trinn
+## Evidens fra kliniske studier
 
-**Avgjørelse: Avvent**
+Foreløpig er det ingen relaterte kliniske studier registrert.
+
+---
+
+## Evidens fra litteratur
+
+Foreløpig finnes det ingen relatert litteratur.
+
+---
+
+## Informasjon om det norske markedet
+
+Alle fem godkjenninger er registrert som avregistrert (cancelled), og ingen er gyldige i dag.
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000442 | Protaphane | – | Diabetes mellitus |
+| EMEA/H/C/000427 | Actraphane | – | Diabetes mellitus |
+| EMEA/H/C/000201 | Insuman | – | Diabetes mellitus |
+| EMEA/H/C/000441 | Insulatard | – | Diabetes mellitus |
+| EMEA/H/C/000428 | Mixtard | – | Diabetes mellitus |
+
+---
+
+## Sikkerhetsvurderinger
+
+Data om advarsler og kontraindikasjoner fra preparatomtalen mangler. Se preparatomtalen for sikkerhetsinformasjon.
+
+**Legemiddelinteraksjoner:** Interaksjonssøket er gjennomført og fant 100 registrerte interaksjoner. Blant de første 20 som er vist, er de fleste av moderat alvorlighetsgrad:
+
+- **Moderat:** fenylefrin, acebutolol, acetazolamid, pseudoefedrin, doksycyklin, adrenalin, etinylestradiol, hydrokortison, albiglutid, salbutamol, etanol, hydroklortiazid, alogliptin, metformin, pioglitazon, østradiol, alpelisib, benazepril
+- **Mindre:** hydrokortison (topisk), alklometason (topisk)
+
+Mange av disse påvirker blodsukkeret, og hypoglykemi eller svekket glukosekontroll er derfor relevant å overvåke.
+
+**Sikkerhetssignal knyttet til prediksjonene:** Lokal lipodystrofi og lipoatrofi er kjente bivirkninger av injisert insulin. Slike predikerte indikasjoner bør ikke tolkes som terapeutiske muligheter.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Det er ingen klinisk forsøks- eller litteraturbevis som støtter insulin for autoimmun ooforitt, og den mekanistiske begrunnelsen sier eksplisitt at det ikke er noen kjent patofysiologisk forbindelse — dette mønsteret er i samsvar med en falsk samforekomst innenfor kunnskapsgrafen snarere enn et genuint terapeutisk signal.
+Prediksjonen for autoimmun oofoitt er kun beregningsbasert (L5) uten kliniske studier eller litteratur, og insulin har ingen kjent immunmodulerende rolle ved tilstanden. Flere av de øvrige prediksjonene gjenspeiler forvekslende sammenhenger (samtidig diabetes) eller bivirkninger. Produktene er dessuten alle avregistrert i Norge.
 
-**For å gå videre, er følgende nødvendig:**
-- TFDA-etikett advarsel- og kontraindikasjondata (blokkerende gap — nødvendig før sikkerhetsgjennomgang på S1-stadiet kan gjennomføres)
-- DrugBank-data om virkningsmekanisme (høyt prioritert gap som påvirker mekanistisk vurdering)
-- Eventuelle prekliniske eller immunologiske bevis som direkte knytter insulin-signalering til ovariell autoimmun patologi, før denne kandidaten blir revurdert
-- Hvis ytterligere utforsking av denne stoffets prediksjonsgruppe er ønskelig, omdirig oppmerksomheten mot rang 9 (pankreasagenesi), som har en plausibel mekanisme og L3 evidens, snarere enn den topprangerte men mekanistisk ikke-støttet kandidaten
-
+**For å gå videre kreves følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Prekliniske eller kliniske data som viser nytte ved autoimmun oofoitt
+- Avklaring av administrasjonsvei og formuleringer, siden doseringsform mangler og alle norske godkjenninger er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nitric Oxide
-parent: Høy evidens (L1-L2)
-nav_order: 247
-evidence_level: L1
+parent: Kun modellprediksjon (L5)
+nav_order: 288
+evidence_level: L5
 indication_count: 10
 ---
 
 # Nitric Oxide
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,111 +29,99 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Nitrogenmonoksid (inhalert): Fra neonatal vedvarende pulmonær hypertensjon til pulmonær arteriell hypertensjon
+# Nitrogenoksid: Fra pulmonal hypertensjon til misdannelsessyndrom med tann- og/eller periodontal komponent
 
-> **Merknad om indikasjonvalg:** Dette Evidence Pack rangerte 10 TxGNN-predikerte indikasjoner etter rå similaritetsscore. De 6 øverste rangerte kandidatene (f.eks. «malformasjonssyndrom med odontalt/parodontalt komponent», «hypertrikose», «Dandy-Walker malformasjon») var eksplisitt flagget i pakkets egen `repurposing_rationale` som sannsynlig **kunnskapsgrafikk-innebygde artefakter** uten støttende mekanisme, forsøk eller litteratur (evidence_level L5, decision_stage S0, anbefaling Avvent) — pakken selv anbefaler å ekskludere dem fra screening. Denne rapporten fokuserer derfor på **rang 7 — Pulmonær Arteriell Hypertensjon (PAH)** — den høyeste kvalitets-, mest handlingsdyktige kandidaten i settet (Evidence Level L1, decision_stage S3, «Gå videre med forbehold»). Ranger 8–10 (relaterte PAH-undertyper) er oppsummert kort på slutten for fullstendighet.
+## Sammendrag
 
----
-
-## Oppsummering i en setning
-
-> Inhalert Nitrogenmonoksid er en etablert gassterapeutikk for hypoksisk respirasjonssvikt med pulmonær hypertensjon hos nyfødte. Evidensen i denne pakken støtter sterkt utvidelse av dens farmakologiske rasjonale til **Pulmonær Arteriell Hypertensjon** mer bredt (voksen/generell WHO Group 1 sykdom), støttet av **50 kliniske forsøk** (inkludert fullførte Phase 3/4 studier) og **20 støttende publikasjoner** som beskriver NO–sGC–cGMP-banen som en kjernemekanisme, allerede druggbar i PAH.
+Nitrogenoksid (inhalert, handelsnavn INOmax) er opprinnelig godkjent for behandling av **pulmonal hypertensjon og respirasjonssvikt**.
+TxGNN-modellen predikerer at det kan være effektivt ved **misdannelsessyndrom med odontal og/eller periodontal komponent**.
+Prediksjonen støttes likevel **ikke av noen kliniske studier** og **ikke av noen relevant litteratur** i de data som er samlet inn for denne rapporten. Den høye modellscoren skyldes trolig en artefakt i kunnskapsgrafen.
 
 ---
 
-## Hurtig oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|----------|
-| Originalindikasjon | Ikke formelt registrert i det leverte regulatoriske datasett (datakløft); per forsøks-/litteraturevídensen i denne pakken, er inhalert NOs etablerte kliniske bruk hypoksisk respirasjonssvikt med pulmonær hypertensjon hos nyfødte (PPHN) |
-| Predikert ny indikasjon | Pulmonær Arteriell Hypertensjon |
-| TxGNN-prediksjonspoeng | 99.41% (rang 6252 av kandidatsett) |
-| Evidensnivå | L1 |
-| Norges markedsstatus | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Gå videre med forbehold |
-
----
-
-## Hvorfor er denne prediksjonen rimelig?
-
-For øyeblikket er detaljerte mekanisme-for-virkning-data for denne DrugBank-oppføringen ikke tilgjengelige (datakløft). Basert på farmakologien som konsekvent beskrives gjennom de leverte forsøks- og litteraturevídensene, er Nitrogenmonoksid (NO) en endogen vaskulær endotelial avslapningsfaktor. Inhalert NO diffunderer selektivt inn i pulmonær vaskulær glatt muskulatur, aktiverer løselig guanylat syklase (sGC), og øker intracellulær cGMP, som produserer **selektiv pulmonær vasodilatasjon** uten betydelig systemisk hypotensjon — den samme mekanismen som utnyttes av godkjent oral PAH-terapier (PDE-5-hemmere, sGC-stimulatorer) som virker på denne identiske banen nedstrøms.
-
-Den etablerte originalbruken av inhalert NO — reversering av hypoksisk respirasjonssvikt forårsaket av forhøyet pulmonær vaskulær resistans hos nyfødte — og den predikerte nye indikasjonen, generell pulmonær arteriell hypertensjon, er mekanistisk samme sykdomprosess (forhøyet pulmonær arterietrykk drevet av pulmonær vaskulær tone/remodellering), som hovedsakelig skiller seg ved pasientpopulasjon (neonatal vs. voksen/bredere PAH-etiologier) og rute for kronisk administrering.
-
-Flere oversikter i evidenssetten (f.eks. PMID 32442078, 23822809, 20051913) dokumenterer direkte at NO-bane-mangel og endotelial dysfunksjon er sentrale for PAH-patogenese, og at gjenoppretting av NO-signalisering (via inhalert NO eller nedstrøms-vei-medisiner) er en av bare tre validerte terapeutiske baner i PAH (ved siden av endotelin- og prostasiklin-baner). Dette gir TxGNN-prediksjonen sterk, litteratur-bekreftet mekanistisk plausibilitet snarere enn en rent statistisk forening.
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Pulmonal hypertensjon; respirasjonssvikt |
+| Predikert ny indikasjon | Misdannelsessyndrom med odontal og/eller periodontal komponent |
+| TxGNN-prediksjonsscore | 99,57 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrerte/trukkede tillatelser |
+| Antall tillatelser | 1 (avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Klinisk forsøksbevis
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-| Forsøksnummer | Fase | Status | Innskriving | Nøkkelfunn |
-|---------|------|--------|------|---------|
-| [NCT01142219](https://clinicaltrials.gov/study/NCT01142219) | Fase 3 | Fullført | 40 | RCT av L-arginin (NO-forløper) som tilleggsterapi for falcellersykdom-assosiert PAH; direkte bevis for NO-vei-modulering |
-| [NCT04231084](https://clinicaltrials.gov/study/NCT04231084) | Fase 4 | Fullført | 115 | Direkte akutt hemodynamisk sammenligning av inhalert NO vs. inhalert epoprostenol på tvers av PH-fenotyper |
-| [NCT00139217](https://clinicaltrials.gov/study/NCT00139217) | N/A | Fullført | 400 | Stor fullført studie av ikke-invasiv inhalert NO i vedvarende pulmonær hypertensjon hos nyfødte |
-| [NCT05213676](https://clinicaltrials.gov/study/NCT05213676) | Fase 4 | Rekrutterer | 600 | Flersenter «NoNO Trial» som evaluerer avimplementering av iNO i medfødt diafragmahernie med PH |
-| [NCT01959828](https://clinicaltrials.gov/study/NCT01959828) | Fase 3 | Fullført | 18 | Sikkerhet/effektivitet av inhalert NO (IK-3001) hos japanske pasienter med PH assosiert med hjertekirurgi |
-| [NCT07099144](https://clinicaltrials.gov/study/NCT07099144) | Fase 4 | Rekrutterer | 120 | Pågående sikkerhetsstudie av INOmax kombinert med ventilasjonstøtte for neonatal hypoksisk respirasjonssvikt med PH |
-| [NCT00955487](https://clinicaltrials.gov/study/NCT00955487) | Fase 2 | Fullført | 124 | Lavdose iNO for å redusere bronkopulmonal dysplasi og assosiert pulmonær hypertensjon hos for tidlig fødte nyfødte |
-| [NCT01265888](https://clinicaltrials.gov/study/NCT01265888) | Fase 2 | Fullført | 31 | Dose-eskaleringstudie av inhalert GeNOsyl NO i PAH (WHO Group 1) og PH sekundær til idiopatisk lungefibrose |
-| [NCT06249633](https://clinicaltrials.gov/study/NCT06249633) | Tidlig Fase 1 | Ukjent | 20 | Pilottudie av tidlig iNO for ARDS-relatert pulmonær hypertensjon (lite utvalg, status ukjent) |
-| [NCT01275339](https://clinicaltrials.gov/study/NCT01275339) | Fase 4 | Avsluttet | 10 | PDE5-hemming-pilot i aortastenose-relatert pulmonær venøs hypertensjon (avsluttet, ikke-direkte NO-test) |
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Nitrogenoksid er kjent som en selektiv pulmonal vasodilator når det gis inhalert. Effekten er godt dokumentert ved pulmonal hypertensjon og respirasjonssvikt, men mekanismen kan ikke knyttes til den predikerte indikasjonen.
+
+Analysen av sammenhengen mellom opprinnelig og ny indikasjon gir ingen plausibel kobling. Litteraturen som ble funnet handler om periodontitt, tannkjøttbetennelse og plantebaserte antiinflammatoriske stoffer i celle- og dyremodeller. Én studie omhandler hvordan den orale mikrobiotaen håndterer nitritt. Ingen av disse viser at inhalert nitrogenoksid har en terapeutisk rolle ved et strukturelt misdannelsessyndrom. Den høye scoren skyldes mest sannsynlig koblinger i kunnskapsgrafen, ikke biologisk eller klinisk støtte.
 
 ---
 
-## Litteraturbevis
+## Klinisk studiedokumentasjon
 
-| PMID | År | Type | Tidsskrift | Nøkkelfunn |
-|------|-----|------|---------|---------|
-| [32442078](https://pubmed.ncbi.nlm.nih.gov/32442078/) | 2020 | Oversikt | Current Medicinal Chemistry | Detaljer NO-banen som en kjernepatomekanism, biomarkørkilde og legemiddelmål i PAH |
-| [33836637](https://pubmed.ncbi.nlm.nih.gov/33836637/) | 2021 | Oversikt | J Cardiovasc Pharmacol Ther | Kombinert PAH-terapi som målretter NO og prostasiklin-baner sammen |
-| [38054614](https://pubmed.ncbi.nlm.nih.gov/38054614/) | 2024 | Oversikt | Small | Gjennomgår inhalérbar NO-leveringsteknologi utviklet spesielt for PAH-behandling |
-| [23822809](https://pubmed.ncbi.nlm.nih.gov/23822809/) | 2013 | Oversikt | Am J Respir Crit Care Med | Landemerke-oversikt på NO-mangel og endotelial dysfunksjon som sentral PAH-mekanisme |
-| [20051913](https://pubmed.ncbi.nlm.nih.gov/20051913/) | 2010 | Oversikt | Journal of Hypertension | NO, oksidativ stress og inflammasjon som drivere av PAH-patofysiologi |
-| [35412560](https://pubmed.ncbi.nlm.nih.gov/35412560/) | 2022 | Oversikt | JAMA | Samtidig diagnose- og behandlingsoversikt av PAH |
-| [39209476](https://pubmed.ncbi.nlm.nih.gov/39209476/) | 2024 | Oversikt | European Respiratory Journal | Gjeldende PAH-behandlingsalgoritme på tvers av endotelial/NO/prostasiklin/BMP-baner |
-| [37516248](https://pubmed.ncbi.nlm.nih.gov/37516248/) | 2023 | Oversikt | Presse Médicale | Generell PAH-oversikt som dekker diagnose, patofysiologi og styring |
-| [38416633](https://pubmed.ncbi.nlm.nih.gov/38416633/) | 2024 | Nettverksmeta-analyse | European Heart Journal | Individuelle deltaker-datanettverksmeta-analyse som sammenligner PAH-behandlingsbaner |
-| [33773120](https://pubmed.ncbi.nlm.nih.gov/33773120/) | 2021 | RCT | Lancet Respiratory Medicine | REPLACE-studie: bytte til riociguat (samme NO-cGMP-bane) vs. fortsatt PDE5-hemming-terapi i PAH |
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ---
 
-## Norges markedsinformasjon
+## Litteraturdokumentasjon
 
-Nitrogenmonoksid har for øyeblikket **ingen markedsføringsautorisasjoner i Norge** (markedsstatus: Ikke markedsført; totale autorisasjoner: 0). Ingen produktnivå-dosisform eller godkjent-indikasjon-data er tilgjengelig for denne jurisdiksjonen på nåværende tidspunkt.
+Ingen av publikasjonene undersøker nitrogenoksid som legemiddel ved den predikerte indikasjonen. Tabellen viser de mest relevante treffene, i hovedsak bakgrunnsstoff om periodontal sykdom og NO-biologi.
 
----
-
-## Sikkerhetshensyn
-
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Ingen strukturerte advarsler, kontraindikasjoner eller legemiddelinteraksjonsdata kunne hentes for denne forbindelsen i det gjeldende evidenspakken; dette flagges som en **Kritisk** datakløft (DG001: TFDA/label-advarsler og kontraindikasjoner) som må løses før noen formell sikkerhetsvurdering (S1) kan fortsette.
-
----
-
-## Andre relaterte kandidater identifisert i denne evidenspakken
-
-For fullstendighet ble to ytterligere høykvalitets-kandidater identifisert blant de 10 TxGNN-prediksjoner og kan begrunne parallell sporing:
-
-- **Pulmonær arteriell hypertensjon assosiert med medfødt hjertesykdom** (rang 8, score 99.41%, Evidence Level L1, decision_stage S3, «Gå videre med forbehold») — iNO er allerede den kliniske standarden for akutt postoperativ PH-kriser etter medfødt hjertekirurgi; sterk mekanistisk og forsøksoverlapp med den primære kandidaten ovenfor.
-- **PAH assosiert med bindevevssykdom** og **PAH assosiert med kronisk hemolytisk anemi** (ranger 9–10, Evidence Level L3, decision_stage S1, «Forskningsspørsmål») — mekanistisk plausibel (endotelial NO-mangel / NO-binding av fritt hemoglobin) men for øyeblikket støttet kun av observasjonsbasert/mekanistisk litteratur, uten dedikerte intervensjonsforsøk av NO/iNO i disse undergruppeene ennå.
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [15505230](https://pubmed.ncbi.nlm.nih.gov/15505230/) | 2004 | Oversikt | Journal of Dental Research | Hypoklorsyre og taurin-N-monokloramin i betennelsesreaksjonen ved periodontal sykdom |
+| [41952916](https://pubmed.ncbi.nlm.nih.gov/41952916/) | 2026 | Narrativ oversikt | Journal of Dental Anesthesia and Pain Medicine | *Porphyromonas gingivalis* og smertemodulering |
+| [42795495](https://pubmed.ncbi.nlm.nih.gov/42795495/) | 2026 | Narrativ oversikt | Microorganisms | Oral og nasal mikrobiom og systemisk helse |
+| [35574962](https://pubmed.ncbi.nlm.nih.gov/35574962/) | 2022 | Kohortestudie | J Am Heart Assoc | Oral mikrobiotas nitrittproduksjon og kardiometabolsk risiko |
+| [24670812](https://pubmed.ncbi.nlm.nih.gov/24670812/) | 2014 | Metagenomisk analyse | PLoS One | Nitratreduserende bakterier i munnhulen og NO-homeostase |
+| [28387609](https://pubmed.ncbi.nlm.nih.gov/28387609/) | 2017 | Dyrestudie | Journal of Periodontology | Karvakrol lindrer ligaturindusert periodontitt hos rotter |
+| [36312752](https://pubmed.ncbi.nlm.nih.gov/36312752/) | 2022 | In vitro | PeerJ | Antimikrobiell og antiinflammatorisk effekt av cystatin C på gingivale fibroblaster |
+| [40430099](https://pubmed.ncbi.nlm.nih.gov/40430099/) | 2025 | In vitro | Int J Mol Sci | ATF3 regulerer cellulær aldring og osteoklastogenese i periodontale ligamentceller |
+| [20646228](https://pubmed.ncbi.nlm.nih.gov/20646228/) | 2011 | Celleforsøk | Oral Diseases | NO-produksjon i makrofager stimulert med vesikler fra *P. gingivalis* |
+| [16881806](https://pubmed.ncbi.nlm.nih.gov/16881806/) | 2006 | Celleforsøk | Journal of Periodontology | Druekjerne-proantocyanidiner beskytter mot oksidativt stress fra periodontopatogener |
 
 ---
 
-## Konklusjon og neste trinn
+## Markedsinformasjon for Norge
 
-**Beslutning: Gå videre med forbehold**
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000337 | INOmax (Linde Healthcare AB), status: avregistrert | Ikke oppgitt | Pulmonal hypertensjon; respirasjonssvikt |
 
-**Rasjonale:**
-Inhalert Nitrogenmonoksids foreslåtte utvidelse til Pulmonær Arteriell Hypertensjon er støttet av det sterkeste evidensnivået i denne pakken (L1) — inkludert fullførte Phase 3/4-forsøk som direkte tester NO eller NO-vei-agenter i relevante PAH-populasjoner — og ved en veletablert, litteratur-bekreftet mekanisme (NO–sGC–cGMP selektiv pulmonær vasodilatasjon) som allerede er grunnlaget for godkjent PAH-legemiddelklasser (PDE5-hemmere, sGC-stimulatorer). Imidlertid er legemidlet for øyeblikket ikke markedsført i Norge og mangler noen formell sikkerhetsmerkingsdata i dette datasett, så forbehold er rettferdiggjort før videre framgang.
+---
 
-**For å fortsette er følgende nødvendig:**
-- Offisiell TFDA/produsent-pakningsvedlegg-data (advarsler, kontraindikasjoner) — for øyeblikket en Kritisk datakløft
-- Bekreftet detaljert mekanisme-for-virkning (MOA)-dokumentasjon fra DrugBank eller tilsvarende kilde — for øyeblikket en Høy-alvorlighetsgrad datakløft
-- Formell legemiddel-legemiddel-interaksjon (DDI)-profil, for øyeblikket ikke hentet (`not_found`)
-- Regulatorisk veikarvalgtingsvurdering for Norges markedsinntreden, gitt null nåværende autorisasjoner
-- Klargjøring av den opprinnelige godkjente indikasjonen, ettersom dette feltet var tomt i kildedata til tross for iNOs veldokumenterte bruk i neonatal PPHN
+## Sikkerhetsvurderinger
 
+- **Kontraindikasjoner fra kunnskapsgrafen** (PrimeKG, ikke fra preparatomtale): methemoglobinemi, sulfhemoglobinemi og hjertesvikt.
+- **Legemiddelinteraksjoner**: Det er funnet 61 mulige interaksjoner. De fleste har ukjent alvorlighetsgrad.
+  - **Alvorlig (Major)**: nitrøs syre.
+  - **Moderat**: tetrakain (øyepreparat), lidokain (topikal) og benzokain (topikal).
+  - Ukjent alvorlighetsgrad, blant andre: morfin, omeprazol, atropin, adrenalin, heparin, epoprostenol, deksametason og hydrokortison.
+
+Se preparatomtalen for fullstendig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Prediksjonen mangler både kliniske studier og relevant litteratur (evidensnivå L5). En plausibel mekanisme er ikke identifisert, og inhalert nitrogenoksid har ingen kjent rolle ved et misdannelsessyndrom. Den høye modellscoren bør tolkes som en grafbasert artefakt. I tillegg har produktet ingen gyldig tillatelse i Norge.
+
+**Andre prediksjoner for samme legemiddel:**
+De data som er samlet inn for rapporten inneholder bedre støttede prediksjoner, men disse ligger tett opp mot den opprinnelige indikasjonen:
+- Pulmonal arteriell hypertensjon er vurdert til L2 med «Proceed with Guardrails». Den støttes av en fullført fase 2-studie ([NCT02734953](https://clinicaltrials.gov/study/NCT02734953), n=10), men det finnes ingen fase 3-RCT.
+- Pulmonal arteriovenøs malformasjon og PAH ved kronisk hemolytisk anemi er vurdert til L3 med «Research Question».
+
+**For å gå videre kreves:**
+- Dokumentasjon av en biologisk mekanisme som kobler NO til den predikerte tilstanden. Foreløpig finnes ingen.
+- Mekanismedata (MOA) og preparatomtalens advarsler og kontraindikasjoner, som mangler i dagens datagrunnlag.
+- En vurdering av om de bedre støttede PAH-relaterte prediksjonene bør prioriteres fremfor denne.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

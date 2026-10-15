@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Atezolizumab
-parent: Høy evidens (L1-L2)
-nav_order: 38
-evidence_level: L2
+parent: Kun modellprediksjon (L5)
+nav_order: 43
+evidence_level: L5
 indication_count: 10
 ---
 
 # Atezolizumab
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,76 +29,113 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Atezolizumab: Fra urothelvesikalkreft til urothelsarkom i prostatauretra
+# Atezolizumab: Fra urotelkarsinom til urotelkarsinom i prostatisk uretra
 
-## Oppsummering i en setning
+## Oppsummering i én setning
 
-Atezolizumab er en PD-L1-immunkontrollpunktinhibitor med global godkjenning for urothelvesikalkreft, ikke-småcellet lungecancer og andre solide tumorer.
-TxGNN-modellen predikerer at det kan være effektivt for **urothelsarkom i prostatauretra**,
-med **2 kliniske forsøk** som for tiden støtter denne retningen, selv om det ennå ikke foreligger dedikert litteratur.
+Atezolizumab er et anti-PD-L1-antistoff som opprinnelig brukes til behandling av urotelkarsinom (overgangscellekarsinom), ikke-småcellet lungekreft, urologiske svulster, brystkreft og småcellet lungekreft.
+TxGNN-modellen forutsier at legemidlet kan være effektivt mot **urotelkarsinom i prostatisk uretra**, men støtten er foreløpig svak: det finnes **1 klinisk studie** (fase 1b, ikke spesifikk for denne diagnosen) og **ingen publikasjoner** for denne indikasjonen.
 
-## Rask oversikt
+---
 
-| Element | Innhold |
+## Hurtigoversikt
+
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Ikke registrert i det norske register (produkt ikke markedsført); godkjent globalt for urothelvesikalkreft, ikke-småcellet lungecancer og andre solide tumorer som PD-L1-immunoterapi |
-| Predikert ny indikasjon | Urothelsarkom i prostatauretra |
-| TxGNN-prediksjonsresultat | 99.98% |
-| Bevisnivå | L2 |
-| Markedsstatus Norge | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt avgjørelse | Fortsett med sikringstiltak |
+| Opprinnelig indikasjon | Urotelkarsinom (overgangscellekarsinom), ikke-småcellet lungekreft, urologiske svulster, brystkreft, småcellet lungekreft |
+| Predikert ny indikasjon | Urotelkarsinom i prostatisk uretra |
+| TxGNN-prediksjonsscore | 99,98 % |
+| Evidensnivå | L3 (se merknad under) |
+| Markedsstatus i Norge | Kun kansellert |
+| Antall godkjenninger | 1 (kansellert) |
+| Anbefalt beslutning | Hold |
+
+*Merknad om evidensnivå:* Datagrunnlaget angir L3, men den eneste studien er en tidligfase (fase 1b) kombinasjonsstudie som ikke er spesifikk for prostatisk uretra. Evidensen er derfor i praksis indirekte og svak. Vi anbefaler å behandle nivået som foreløpig.
+
+---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige. Basert på tilgjengelig informasjon er atezolizumab en PD-L1-immunkontrollpunktinhibitor; dets effektivitet ved urothelvesikalkreft (blærekreft) er bevist, og mekanistisk kan det være anvendelig for urothelsarkom i prostatauretra.
+Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon er atezolizumab et anti-PD-L1-antistoff (immunsjekkpunkthemmer). Effekten i urotelkarsinom i blæren er etablert, og mekanistisk kan den være overførbar til urotelkarsinom som oppstår i prostatisk uretra.
 
-Urothelsarkom i prostatauretra tilhører samme histologiske familie som urothelsarkom i blæren — begge er urothelvesikalcancere som deler PD-L1-uttrykkingsbiologi. Regulatorisk godkjenning for atezolizumab ved urothelvesikalkreft begrenser typisk ikke etter anatomisk opprinnelsessted, noe som betyr at den godkjente virkningsmekanismen rimelig kan strekke seg til denne sjeldne primære siden.
+Urotelkarsinom i prostatisk uretra har samme histologi og tilsvarende PD-L1-biologi som urotelkarsinom i blæren. Det gir et biologisk rasjonale for PD-L1-blokade. Den eneste tilknyttede studien er imidlertid en fase 1b-studie av cabozantinib i kombinasjon med atezolizumab ved avanserte solide svulster. Prostatisk uretra er ikke et eget endepunkt, så evidensen er indirekte.
 
-Imidlertid er primære tumorer i prostatauretra uvanlige, og intet forsøk har så langt spesifikt inkludert eller stratifisert denne underpopulasjonen. Det støttende beviset kommer derfor fra tilgrensende forsøk med urothelvesikalkreft (ikke-muskelinvasiv blærekreft, kombinasjonsstudier med flere tumortyper) snarere enn stedbegrensede bekreftelsestudier.
+### Andre predikerte indikasjoner (kort oversikt)
 
-## Klinisk forsøksbevis
+| Predikert indikasjon | Score | Evidensnivå | Beslutning |
+|------|------|------|------|
+| Sarkomatoid overgangscellekarsinom i nyrebekkenet | 99,98 % | L5 | Hold |
+| Infiltrerende urotelkarsinom i blæren, sarkomatoid variant | 99,98 % | L5 | Hold |
+| Papillært urotelkarsinom i nyrebekkenet | 99,98 % | L5 | Hold |
+| Adenokarsinom i uterine ligamenter | 99,93 % | L5 | Hold |
+| Endocervikalt karsinom | 99,92 % | L2 | Forskningsspørsmål |
+| Adenoid cystisk karsinom i livmorhalsen | 99,92 % | L5 | Hold |
+| Serøst adenokarsinom i uterine ligamenter | 99,92 % | L5 | Hold |
+| Cervikalt mucinøst adenokarsinom, signetringcellevariant | 99,91 % | L5 | Hold |
+| Cervikalt mucinøst adenokarsinom, intestinal variant | 99,91 % | L5 | Hold |
 
-| Forsøksnummer | Fase | Status | Inklusjon | Viktigste funn |
+Av disse har endocervikalt karsinom det sterkeste evidensgrunnlaget (to fullførte studier og én oversiktsartikkel), mens de øvrige kun støttes av modellprediksjon.
+
+---
+
+## Klinisk studieevidens
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT02844816](https://clinicaltrials.gov/study/NCT02844816) | Fase 2 | Fullført | 172 | Evaluerte atezolizumab ved BCG-refraktær gjentakende ikke-muskelinvasiv blærekreft; samme urothelvesikalkreftfamilie men ikke spesifikk for prostatauretra |
-| [NCT03170960](https://clinicaltrials.gov/study/NCT03170960) | Fase 1 | Aktiv, ikke rekrutterer | 914 | Doseeskaleringsstudie av cabozantinib ± atezolizumab på tvers av flere urothelvesikalkreftlokasjoner (blære, nyredelvis, ureter, uretra), fokus på tidlig sikkerhet/PK |
+| [NCT03170960](https://clinicaltrials.gov/study/NCT03170960) | Fase 1 | Aktiv, ikke rekrutterende | 914 | Fase 1b-studie av cabozantinib alene eller sammen med atezolizumab ved lokalavanserte eller metastatiske solide svulster, inkludert urotelkarsinom (blære, nyrebekken, urinleder, uretra). Vurderer sikkerhet, toleranse, foreløpig effekt og farmakokinetikk. Ikke spesifikk for prostatisk uretra. |
 
-## Litteraturbevis
+---
 
-For øyeblikket ingen relatert litteratur tilgjengelig.
+## Litteraturevidens
 
-## Markedsinformasjon Norge
+Foreløpig finnes det ingen relatert litteratur for denne indikasjonen.
 
-Ingen godkjennelser funnet i det norske register — produktet er ikke for tiden markedsført i Norge.
+---
 
-## Cytotoksisitet (kun cytostatika)
+## Markedsinformasjon for Norge
 
-| Element | Innhold |
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004143 | Tecentriq | Ikke oppgitt | Urotelkarsinom, ikke-småcellet lungekreft, urologiske svulster, brystkreft, småcellet lungekreft (status: kansellert) |
+
+---
+
+## Cytotoksisitet
+
+| Punkt | Innhold |
 |------|------|
-| Cytotoksisitetsklassifikasjon | Immunoterapi (PD-L1-immunkontrollpunktinhibitor) — ikke et konvensjonelt cytostaticum |
-| Myelosuppresjonrisiko | Lav (mekanismen er immunformidlet snarere enn direkte benmarvtoksisitet; immun-relaterte bivirkninger (irAE) er hovedbekymringen i stedet) |
-| Emetogenitetsklassifikasjon | Lav |
-| Overvåkningselementer | Leverprøver, skjoldbruskkjertelfunksjon, tegn på immun-relaterte bivirkninger (kolitt, pneumonitt, hepatitt, endokrinopatier); fullblodtelling hvis kombinert med cytostatika |
-| Håndteringsbeskyttelse | Standard IV biologisk infusjonsforholdsregler; ikke klassifisert som et farlig legemiddel som krever spesielle cytostatikahåndteringsprotokoller |
+| Cytotoksisitetsklassifisering | Immunterapi (anti-PD-L1 monoklonalt antistoff), ikke konvensjonelt cytotoksisk middel |
+| Myelosuppresjonsrisiko | Se pakningsvedlegget for advarsler og forholdsregler |
+| Emetogenisitetsklassifisering | Se pakningsvedlegget for advarsler og forholdsregler |
+| Overvåkingspunkter | Se pakningsvedlegget for advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Se pakningsvedlegget for advarsler og forholdsregler |
 
-## Sikkerhetshensyn
+---
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+## Sikkerhetsvurderinger
 
-## Konklusjon og neste trinn
+Legemiddelinteraksjoner: i alt **75 interaksjoner** er registrert. De viktigste i utvalget er:
 
-**Avgjørelse: Fortsett med sikringstiltak**
+- **Alvorlige (Major):** adalimumab, baricitinib, levende BCG-vaksine (Bacillus Calmette-Guérin, stamme Tice)
+- **Moderate:** kortikosteroider (hydrokortison, triamcinolon, betametason, budesonid, deksametason, prednisolon, prednison, metylprednisolon, deflazakort), roflumilast, alefacept, alemtuzumab, anakinra, azatioprin, samt flere vaksiner (stivkrampetoksoid, miltbrannvaksine, adenovirusvaksine)
+
+Generelt gjelder interaksjonene immundempende legemidler og levende vaksiner, som kan motvirke eller komplisere immunterapi. Øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner) finnes i pakningsvedlegget.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er mekanistisk rimelig og støttet av bevis på L2-nivå fra tilgrensende forsøk med urothelvesikalkreft, men intet forsøk eller litteratur omhandler spesifikt prostatauretra-undertypen, og legemidlet er ikke ennå markedsført i Norge.
+Den høye modellscoren (99,98 %) og det biologiske rasjonalet fra etablert bruk i urotelkarsinom i blæren er lovende. Evidensen for prostatisk uretra er imidlertid kun indirekte (én fase 1b-studie uten spesifikt endepunkt), og det finnes ingen publikasjoner. I tillegg er den norske/europeiske markedsgodkjenningen kansellert, og viktige sikkerhetsdata mangler.
 
-**For å fortsette er følgende nødvendig:**
-- TFDA/merkingsikkerhetdata (advarsler, kontraindikasjoner) — for tiden et blokkerende datagap (DG001)
-- Detaljert dokumentasjon av virkningsmekanisme (MOA) fra DrugBank (DG002)
-- Stedbegrenset klinisk bevis (forsøk eller caseserie) ved urothelsarkom i prostatauretra
-- Bekreftet norsk markedsautorisasjonsstatus før noen kommersiell evaluering
-
+**For å gå videre kreves følgende:**
+- Pakningsvedlegg med advarsler og kontraindikasjoner (kritisk mangel som blokkerer sikkerhetsscreening)
+- Detaljerte data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Avklaring av årsaken til og konsekvensene av den kansellerte godkjenningen i Norge
+- Subtypespesifikke kliniske data (fase 2 eller høyere) for urotelkarsinom i prostatisk uretra
+- Vurdering av endocervikalt karsinom som en parallell kandidat med sterkere evidensgrunnlag (fullført fase 2-studie, men kun 11 deltakere)
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

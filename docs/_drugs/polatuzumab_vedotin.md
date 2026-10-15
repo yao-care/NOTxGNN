@@ -2,7 +2,7 @@
 layout: default
 title: Polatuzumab Vedotin
 parent: Kun modellprediksjon (L5)
-nav_order: 283
+nav_order: 331
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,88 +29,99 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Polatuzumab Vedotin: Fra B-cellelymfom til HER2-positivt brystkreft
+# Polatuzumab vedotin: Fra B-cellelymfom til HER2-positivt brystkarsinom
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-Polatuzumab vedotin er et antistoff-legemiddel-konjugat (ADC) som retter seg mot CD79b, og er for tiden godkjent for B-cellemaligniteter som diffust storcellet B-cellelymfom (DLBCL). TxGNN forutsier en mulig sammenheng med **HER2-positivt brystkreft**, men denne prediksjon støttes for tiden ikke av **noen kliniske forsøk og ingen publisert litteratur** — den hviler utelukkende på et modellresultat (**bevisnivå L5**).
+Polatuzumab vedotin er et antistoff-legemiddelkonjugat som opprinnelig brukes mot B-cellelymfom.
+TxGNN-modellen forutsier at det kan være effektivt mot **HER2-positivt brystkarsinom**,
+men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen er kun modellbasert.
 
 ---
 
-## Kort oversikt
+## Hurtigoversikt
 
-| Emne | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Diffust storcellet B-cellelymfom (DLBCL) og andre B-cellemaligniteter (basert på beskrivelse av legemiddelmekanisme; ikke tilstede som strukturerte data) |
-| Forutsagt ny indikasjon | HER2-positivt brystkreft |
-| TxGNN prediksjonspoeng | 99.34 % |
-| Bevisnivå | L5 |
-| Markedsstatus | Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Avvente |
+| Opprinnelig indikasjon | B-cellelymfom |
+| Predikert ny indikasjon | HER2-positivt brystkarsinom |
+| TxGNN-prediksjonsscore | 99,34 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (tilbakekalt/ikke lenger gyldig) |
+| Antall markedsføringstillatelser | 1 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor kan denne prediksjonen være rimelig?
 
-Polatuzumab vedotin er et antistoff-legemiddel-konjugat som selektivt leverer det cytotoksiske legemidlet MMAE (monomethyl auristatin E) til B-celler som uttrykker CD79b, en komponent av B-celle-reseptorkomplekset. Det er for tiden godkjent for DLBCL og andre B-cellemaligniteter. Feltet `original_moa` i evidenspakken er merket som datamangel, men denne mekanismen kan utledes fra modellens begrunnelsestekst.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Basert på kjent informasjon er polatuzumab vedotin et antistoff-legemiddelkonjugat rettet mot CD79b, en del av B-cellereseptoren. Det leverer MMAE, et giftstoff som forstyrrer mikrotubuli. Effekten er dokumentert ved B-cellelymfom.
 
-HER2-positivt brystkreft og DLBCL tilhører helt ulike tumorbiologi-kategorier — førstnevnte er en epitelial tumor drevet av HER2-overekspresjon, mens sistnevnte er en hematologisk malignitet av B-celle-opprinnelse. CD79b er ikke en markør som uttrykkes på HER2-positive brystkreftceller, så det er ingen delt mål mellom opprinnelig og forutsagt indikasjon.
+Koblingen til HER2-positivt brystkarsinom er svak og indirekte. CD79b er ikke et anerkjent mål i brystkreft, og det er ikke vist at målet uttrykkes i brystkreftvev. Et tenkelig argument er den cytotoksiske MMAE-nyttelasten, som deles med andre vedotin-konjugater. Dette er imidlertid ikke validert for denne indikasjonen.
 
-Gitt dette, bør gjeldende prediksjon behandles som en statistisk assosiasjon produsert av TxGNN-grafmodellen snarere enn en mekanistisk begrunnet hypotese. Uten noen støttende mekanistisk, klinisk eller litteraturbevis, er denne kandidaten best klassifisert som et falskt positivt resultat på dette stadiet.
-
----
-
-## Bevis fra kliniske forsøk
-
-For tiden ingen relaterte kliniske forsøk registrert
+HER2-positiv brystkreft har dessuten allerede godkjente HER2-rettede antistoff-legemiddelkonjugater (trastuzumab emtansin og trastuzumab deruxtekan). Et CD79b-rettet konjugat har derfor ingen åpenbar mekanistisk fordel. Scoren er en ren beregningsmessig prediksjon og må valideres eksperimentelt, for eksempel ved å undersøke CD79b-uttrykk i brysttumorer og cytotoksisitet in vitro.
 
 ---
 
-## Bevis fra litteratur
+## Kliniske studier
 
-For tiden ingen relatert litteratur tilgjengelig
+Det er foreløpig ingen relaterte kliniske studier registrert.
 
 ---
 
-## Markedsinformasjon
+## Litteraturevidens
 
-Det er for tiden ingen markedsføringstillatelser registrert for dette legemidlet (0 lisenser, markedsstatus: ikke markedsført).
+Det er foreløpig ingen relatert litteratur tilgjengelig.
+
+---
+
+## Markedsinformasjon for Norge
+
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004870 | Polivy | Ikke oppgitt | B-cellelymfom (status: avregistrert) |
 
 ---
 
 ## Cytotoksisitet
 
-Polatuzumab vedotin er et antistoff-legemiddel-konjugat som leverer en cytotoksisk nyttelast (MMAE) og er klassifisert som et antineoplastisk middel.
-
-| Emne | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Cytotoksisitetsklassifisering | Målrettet terapi — antistoff-legemiddel-konjugat (ADC) som leverer cytotoksisk nyttelast (MMAE) |
-| Risiko for myelosuppresjon | Se pakningsvedlegg for advarsler og forholdsregler |
-| Klassifisering av emetogenitet | Se pakningsvedlegg for advarsler og forholdsregler |
-| Overvåkingspunkter | Se pakningsvedlegg for advarsler og forholdsregler |
-| Beskyttelse ved håndtering | Må følge regelverket for håndtering av cytotoksiske legemidler, i samsvar med ADC/cytotoksisk nyttelast-agenser |
+| Klassifisering av cytotoksisitet | Målrettet terapi (antistoff-legemiddelkonjugat med MMAE-nyttelast, et mikrotubuli-hemmende middel) |
+| Risiko for myelosuppresjon | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Emetogent potensial | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Håndtering og beskyttelse | Se pakningsvedlegget for advarsler og forsiktighetsregler. Cytotoksiske legemidler krever normalt egne håndteringsrutiner. |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegg for sikkerhetsinformasjon.
+- **Legemiddelinteraksjoner**: Det er funnet 100 registrerte interaksjoner. De viktigste av dem som er oppgitt i dataene (alvorlighetsgrad «Major»):
+  - Klaritromycin
+  - Kobicistat
+  - Deferipron
+  - Samarium (153Sm) lexidronam
+
+  Flere interaksjoner av moderat alvorlighetsgrad er også registrert, blant annet med aprepitant, cimetidin, naltrekson, metronidazol, mikonazol, rosuvastatin, simvastatin, tinidazol, klotrimazol, tikagrelor, klorokin og hydroksyklorokin.
+
+Øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner) finnes i pakningsvedlegget.
 
 ---
 
-## Konklusjon og neste skritt
+## Konklusjon og neste steg
 
-**Beslutning: Avvente**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Denne kandidaten har bevisnivå L5 — ingen kliniske forsøk, ingen litteratur, og ingen sannsynlig mekanistisk sammenheng mellom CD79b-målet og HER2-positiv brystkreft-biologi. Prediksjon gjenspeiler for tiden utelukkende en statistisk assosiasjon på modellnivå og oppfyller ikke terskelen for å avansere.
+Den eneste støtten er en høy TxGNN-score. Det finnes ingen kliniske studier eller litteratur, mekanismen er svakt koblet til indikasjonen (CD79b er ikke et kjent mål i HER2-positiv brystkreft), og godkjente HER2-rettede konjugater finnes allerede. I tillegg er den eneste norske tillatelsen avregistrert.
 
-**For å fortsette, trengs følgende:**
-- Bekreftet virkningsmekanisme (MOA)-data fra DrugBank (for tiden datamangel, DG002)
-- TFDA-pakningsvedlegg advarsler, kontraindikasjoner og legemiddelinteraksjonsdata (for tiden blokkerende datamangel, DG001)
-- Eventuell preklinisk eller mekanistisk bevis som forbinder CD79b/MMAE-veivaktivitet til HER2-positiv brystkreft-biologi, før ytterligere evaluering er berettiget
-
+**For å gå videre trengs følgende:**
+- Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Eksperimentell validering: CD79b-uttrykk i HER2-positive brysttumorer og in vitro-cytotoksisitet
+- Systematisk litteratur- og studiesøk for å bekrefte at det ikke finnes støttende evidens
+- Avklaring av markedsstatus og tilgjengelighet i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

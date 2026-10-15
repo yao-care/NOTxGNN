@@ -2,7 +2,7 @@
 layout: default
 title: Lumacaftor
 parent: Kun modellprediksjon (L5)
-nav_order: 218
+nav_order: 254
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,78 +29,82 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Lumacaftor: Fra cystisk fibrose til spedalskhet
+# Lumacaftor: Fra cystisk fibrose til lepra
 
-## Sammenfatting i ett setning
+## Oppsummering i én setning
 
-Lumacaftor er en CFTR-proteinfoldingkorreksjonsmiddel, opprinnelig brukt til behandling av cystisk fibrose (brukt sammen med ivacaftor, slik som Orkambi, egnet for pasienter med F508del-CFTR-mutasjoner).
-TxGNN-modellen forutsier at det kan være effektivt for **spedalskhet (Leprosy)**, men det finnes for tiden **ingen kliniske forsøk eller litteraturbeviser** for denne retningen, og bevisnivået er det laveste L5.
+Lumacaftor er en CFTR-korrektor som opprinnelig brukes til behandling av cystisk fibrose. TxGNN-modellen forutsier at legemidlet kan ha effekt mot **lepra**, men det finnes foreløpig **ingen registrerte kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen er derfor kun modellbasert.
 
 ---
 
 ## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Cystisk fibrose (kombinert bruk av ivacaftor, slik som Orkambi) |
-| Forutsagt ny indikasjon | Spedalskhet (Leprosy) |
-| TxGNN-prediksjonsresultat | 99.44% |
-| Bevisnivå | L5 (kun modellprediksjon, ingen faktisk forskningsstøtte) |
-| Taiwan-markedsstatus | Not marketed |
-| Antall godkjenningsbevis | 0 |
-| Anbefalt beslutning | Hold (utsett) |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Cystisk fibrose |
+| Predikert ny indikasjon | Lepra |
+| TxGNN-prediksjonsscore | 99,44 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (ikke markedsført) |
+| Antall godkjenninger | 1 (avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er rimeligheten til denne prediksjonen tvilsom?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Selv om Lumacaftor offisielt har MOA-feltet markert som datakløft ([Data Gap]), basert på kjent farmakologisk informasjon er Lumacaftor en CFTR-proteinfoldingkorreksjonsmiddel som forbedrer intracellulær transport og funksjon av F508del-CFTR-mutantproteinet gjennom molekylchaperon-lignende virkning, og er klinisk godkjent kun i kombinasjon med ivacaftor (slik som Orkambi) til behandling av cystisk fibrose.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er lumacaftor en CFTR-korrektor som bedrer foldingen og transporten av F508del-CFTR-proteinet til cellemembranen. Effekten er dokumentert ved cystisk fibrose.
 
-Patogenesen av spedalskhet er kronisk granulomatøs inflammasjon og perifer nerveskade forårsaket av *Mycobacterium leprae*-infeksjon, og det finnes for tiden ingen kjent bevis som viser biologisk sammenheng mellom CFTR-proteinfoldning eller kloridjonionekanal-funksjon og denne patogenetiske prosessen.
-
-Den høye poengsum gitt av TxGNN (0.994) reflekterer sannsynligvis indirekte koblinger i kunnskapsgrafen (for eksempel stoff–gen–sykdom-sameksistenssti), snarere enn en patogenetisk hypotese med biologisk rimelighet. I fravær av noen litteraturbeviser eller forsøk, bør mekanismenes rimelighet av denne prediksjonen anses som **tvilsom**, og det kreves manuell gjennomgang før man avgjør om man skal investere videre ressurser.
+Det finnes ingen etablert mekanistisk kobling mellom CFTR-korreksjon og lepra. Lepra skyldes infeksjon med *Mycobacterium leprae*, og har ingen kjent CFTR-avhengig patofysiologi. Den høye scoren (0,994) er en prediksjon fra kunnskapsgrafen og kan skyldes nettverksnærhet via felles biologiske traséer, for eksempel proteinfolding i verten, kloridtransport eller betennelsesrelaterte og mykobakterie-relaterte koblinger til cystisk fibrose. Dette er spekulativt og ikke støttet av direkte data.
 
 ---
 
-## Klinisk forsøksbeviser
+## Klinisk studieevidens
 
-For tiden ingen relevante kliniske forsøk registrert
-
----
-
-## Litteraturbeviser
-
-For tiden ingen relevant litteraturdata
+Foreløpig er det ingen relaterte kliniske studier registrert.
 
 ---
 
-## Taiwan-markedsinformasjon
+## Litteraturevidens
 
-Legemidlet er for tiden **ikke markedsført i Taiwan**, og det er ingen godkjenningsbeviser tilgjengelig for opplistning.
-
----
-
-## Sikkerhetshensyn
-
-Se produktinformasjonen for sikkerhetsinformasjon.
-
-(Merknad: Produktinformasjonsadvarsel og kontraindikasjon er for tiden datakløfter på blokkernivå, og du må først oppnå offisiell TFDA-produktinformasjon før du kan utføre S1-sikkerhetsvurdering.)
+Foreløpig finnes det ingen relatert litteratur.
 
 ---
 
-## Konklusjon og neste trinn
+## Markedsinformasjon for Norge
 
-**Beslutning: Hold (utsett)**
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/003954 | Orkambi | Ikke oppgitt | Cystisk fibrose |
+
+Merk: Godkjenningen har status avregistrert, og det finnes ingen gyldige godkjenninger i dag.
+
+---
+
+## Sikkerhetsvurderinger
+
+**Legemiddelinteraksjoner:** Den innsamlede interaksjonssøkingen er fullført og viser 100 registrerte interaksjoner. De 20 som er listet i dataene, fordeler seg slik:
+
+- **Alvorlige (Major):** eliglustat, naldemedin, naloxegol, rolapitant
+- **Moderate:** blant annet protonpumpehemmere (omeprazol, esomeprazol, lansoprazol, deksla­nsoprazol, pantoprazol, rabeprazol), ranitidin, prednison, betametason, bupropion, antidiabetika (acetoheksamid, glimepirid, linagliptin, pioglitazon, repaglinid) og nitisinon
+
+Informasjon om advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelig. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Selv om TxGNN-prediksjonsscore er høyt, mangler det helt kliniske forsøk og litteraturbeviser (L5), og på mekanismenivå (CFTR-proteinfoldingkorreksjon vs. mykobakteriell infeksiøs granulomatøs sykdom) er det ingen kjent biologisk sammenheng, og mekanismenes rimelighet er tvilsom. Dessuten er produktinformasjonsadvarsel og kontraindikasjon fortsatt datakløfter på blokkernivå, og S1-sikkerhetsvurdering kan ikke utføres ennå.
+Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier, litteratur eller en kjent virkningsmekanisme. Legemidlet er dessuten ikke lenger markedsført i Norge, og sikkerhetsdata fra preparatomtalen mangler.
 
-**For å fortsette fremover, må følgende fylles ut:**
-- Offisiell TFDA produktinformasjon advarsel/kontraindikasjon (DG001, Blocking, må lastes ned og analyseres)
-- Fullstendig DrugBank MOA-data for å bekrefte mekanismekorrelasjoner (DG002, High)
-- Preklinisk mekanismeforskning på om CFTR-modulatorer har antimykobakteriell eller immunmodulatorisk effekt
-- Resultat av manuell gjennomgang av mekanismenes rimelighet, som grunnlag for vurdering av hvorvidt man skal gå til neste fase (S1)
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Sikkerhetsinformasjon (advarsler og kontraindikasjoner) fra preparatomtalen, som er en forutsetning for videre sikkerhetsvurdering
+- Prekliniske studier som undersøker en mulig kobling mellom CFTR-korreksjon og *M. leprae*-infeksjon
+- Vurdering av administrasjonsvei og formulering for den nye indikasjonen
+- Avklaring av den regulatoriske statusen, siden eneste godkjenning er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

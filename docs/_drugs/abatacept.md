@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Abatacept
-parent: Kun modellprediksjon (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 13
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Abatacept
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,64 +29,103 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# ABATACEPT: Innledende vurdering av resirkulering av legemiddel
+# Abatacept: Fra psoriasisartritt, juvenil revmatoid artritt og revmatoid artritt til revmatoid vaskulitt
 
-## Sammendrag i en setning
+## Oppsummering
 
-Abatacept (DrugBank: DB01281) er en selektiv T-celle ko-stimulasjonsmodulator (CTLA4-Ig fusjonprotein), bredt brukt internasjonalt for revmatoid artritt og andre autoimmune tilstander. For tiden er **ingen TxGNN-predikerte indikasjoner** tilgjengelige for evaluering, og legemiddelet er **ikke markedsført i Taiwan**. Denne rapporten tjener som en innledende datainventar; ytterligere datainnsamling er nødvendig før vurdering av resirkulering av legemiddel kan fortsette.
+Abatacept er et CTLA4-Ig-fusjonsprotein som opprinnelig brukes til behandling av revmatoid artritt, juvenil revmatoid artritt og psoriasisartritt.
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **revmatoid vaskulitt**, men støtten er svak: kun **1 klinisk studie** (uten relevans for abatacept-effekt) og **flere kasuistikker** med motstridende retning.
+Blant de ti predikerte indikasjonene har bare to (inflammatorisk spondylopati og polyartikulær juvenil revmatoid artritt) sterk studiestøtte, men begge overlapper i hovedsak med allerede godkjente indikasjoner.
 
-## Rask oversikt
+---
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Ikke tilgjengelig i evidenspakken (ingen Taiwan-lisenser) |
-| Forutsagt ny indikasjon | Ingen — TxGNN-prediksjon ikke ennå tilgjengelig |
-| TxGNN prediktiv poengsum | N/A |
-| Bevisgrad | L5 (Utilstrekkelige data) |
-| Taiwans markedsstatus | ✗ Ikke markedsført (Ikke markedsført) |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | **Avvent** |
+## Hurtigoversikt
+
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Psoriasisartritt, juvenil revmatoid artritt, revmatoid artritt |
+| Predikert ny indikasjon | Revmatoid vaskulitt |
+| TxGNN-prediksjonsscore | 99,91 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun avregistrert (kansellert) |
+| Antall godkjenninger | 1 (kansellert) |
+| Anbefalt beslutning | Hold |
+
+---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte virkningsmekanisme-data ikke tilgjengelig i evidenspakken. Basert på offentlig tilgjengelig informasjon er abatacept et løselig fusjonprotein som består av det ekstracellulære domenet til menneskelig CTLA-4 koblet til den modifiserte Fc-delen av menneskelig IgG1. Det fungerer som en selektiv T-celle ko-stimulasjonsmodulator ved å binde seg til CD80/CD86 på antigen-presenterende celler, og dermed blokkerer CD28 ko-stimulatory signalet som kreves for full T-celle-aktivering.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Abatacept er imidlertid kjent som et CTLA4-Ig-fusjonsprotein som blokkerer CD28-mediert T-celle-kostimulering. Effekten ved revmatoid artritt er dokumentert, og mekanistisk kan den være relevant for revmatoid vaskulitt.
 
-Internasjonalt er abatacept (merkenavn: Orencia®) godkjent for revmatoid artritt, juvenil idiopatisk artritt og psoriasisartritt. Disse indikasjonene reflekteres imidlertid **ikke i gjeldende evidenspakken** ettersom legemiddelet ikke har noen Taiwan FDA (TFDA) markedsføringsautoritet.
+Revmatoid vaskulitt er en komplikasjon av revmatoid artritt, en godkjent indikasjon. Immunmediert betennelse i karveggen kan i prinsippet påvirkes av T-celle-modulering.
 
-Siden ingen TxGNN-predikerte indikasjoner har blitt generert, er det ikke mulig å evaluere mekanistisk plausibilitet for noen spesifikk resirkuleringskandidat på nåværende tidspunkt. TxGNN-modellens prediktive pipeline bør kjøres med abatasepts kunnskapsgrafidata for å identifisere potensielle nye indikasjoner.
+Retningen på effekten er likevel uklar. Litteraturen inneholder både en kasuistikk der abatacept var et vellykket behandlingsalternativ, og en kasuistikk der revmatoid vaskulitt oppsto nytt under abatacept-behandling og bedret seg etter rituksimab. Prediksjonen bør derfor regnes som hypotese, ikke som bekreftet effekt.
 
-## Kliniske forsøksbevis
+---
 
-Ingen forutsagt indikasjon er tilgjengelig; derfor ble det ikke utført noe indikasjonsspesifikt klinisk forsøkssøk.
+## Evidens fra kliniske studier
 
-## Litteraturbevis
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
+|---------|------|------|------|---------|
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Rekrutterer | 80 | Håndtering av immunsuppressiva rundt skulderprotesekirurgi hos revmatologipasienter. Evaluerer ikke abatacept ved revmatoid vaskulitt. |
 
-Ingen forutsagt indikasjon er tilgjengelig; derfor ble det ikke utført noe indikasjonsspesifikt litteratursøk.
+---
 
-## Taiwans markedsinformasjon
+## Litteraturevidens
 
-Abatacept har for tiden **ingen markedsføringsautoritet** fra Taiwan FDA (TFDA). Det er ingen lisensierte produkter i Taiwan.
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [29930884](https://pubmed.ncbi.nlm.nih.gov/29930884/) | 2018 | Kasuistikk | Cureus | Abatacept som behandlingsalternativ ved revmatoid vaskulitt hos pasient med revmatoid artritt og vanlig variabel immunsvikt |
+| [22124545](https://pubmed.ncbi.nlm.nih.gov/22124545/) | 2012 | Kasuistikk | Modern Rheumatology | Rask effekt av abatacept hos pasient som ikke responderte på metotreksat, TNF-hemmere og IL-6-hemmer |
+| [27052429](https://pubmed.ncbi.nlm.nih.gov/27052429/) | 2016 | Kasuistikk | Joint Bone Spine | Nyoppstått revmatoid vaskulitt under abatacept, med bedring etter rituksimab |
+| [30119075](https://pubmed.ncbi.nlm.nih.gov/30119075/) | 2018 | Kasuistikk/oversikt | Ophthalmic Plastic and Reconstructive Surgery | Orbital vaskulitt hos revmatoid artritt-pasient under abatacept |
+| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Kasuistikk | Internal Medicine | ANCA-assosiert nefritt under abatacept og adalimumab, bedret med tocilizumab |
+| [24493331](https://pubmed.ncbi.nlm.nih.gov/24493331/) | 2015 | Kasuistikkbasert oversikt | Clinical Rheumatology | Abatacept som vellykket behandling ved myositt (nærliggende immunmediert tilstand) |
+| [34068884](https://pubmed.ncbi.nlm.nih.gov/34068884/) | 2021 | Oversikt | Journal of Clinical Medicine | Behandlingsperspektiver ved episklerit og sklerit assosiert med revmatoid artritt |
+| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Oversikt | BMC Medicine | Oppdatering om biologisk behandling ved autoimmune sykdommer |
+
+---
+
+## Markedsinformasjon for Norge
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000701 | Orencia | Ikke oppgitt | Psoriasisartritt, juvenil revmatoid artritt, revmatoid artritt (status: kansellert) |
+
+---
 
 ## Sikkerhetsvurderinger
 
-> Vennligst se pakningsbilaget for sikkerhetsinformasjon.
->
-> Merknad: Advarsler fra TFDA-pakningsmerkingen, kontraindikasjoner og legemiddel-legemiddel-interaksjonsdata var ikke tilgjengelig for dette legemiddelet (ingen Taiwan-markedsføringsautoritet eksisterer). Sikkerhetsevaluering skal referere til internasjonal merking (f.eks. US FDA, EMA) hvis en resirkuleringskandidat identifiseres.
+- **Legemiddelinteraksjoner:** Det er registrert 73 interaksjoner. Blant dem som er vist i datagrunnlaget, er de viktigste:
+  - **Alvorlige (Major):** adalimumab, baricitinib, certolizumab pegol og levende BCG-vaksine
+  - **Moderate:** blant annet roflumilast, alemtuzumab, anakinra, azatioprin, kanakinumab, alefacept, samt flere levende vaksiner
+  - **Lite alvorlige (Minor):** sinksalter (acetat, glukonat, sulfat, klorid)
 
-## Konklusjon og neste trinn
+  Kombinasjon med andre biologiske legemidler og levende vaksiner krever særlig forsiktighet.
 
-**Beslutning: Avvent**
+- **Fra litteraturen:** Oversiktsartikler tar opp infeksjonsrisiko (blant annet tuberkulose og herpes zoster) og en metaanalyse om malignitetsrisiko ved abatacept. Disse bør vurderes ved eventuell bruk.
+
+Ellers henvises det til preparatomtalen for fullstendig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Evidenspakken er kritisk ufullstendig — det finnes ingen TxGNN-predikerte indikasjoner å evaluere, ingen Taiwan-markedsautoriseringsdata, og ingen lokalt tilgjengelig sikkerhetsinformasjon. Uten en målindikasjon kan en vurdering av resirkulering av legemiddel ikke fortsette.
+For revmatoid vaskulitt finnes bare kasuistikker med motstridende retning, og ingen kontrollerte studier. Evidensnivået er L4. Produktet er dessuten kun registrert med en kansellert godkjenning i Norge.
 
-**For å fortsette, er følgende nødvendig:**
-- **Kjør TxGNN-prediktiv pipeline** for abatacept (DB01281) for å generere kandidat-resirkulering-indikasjoner
-- **Hent virkningsmekanisme (MOA) data** fra DrugBank API (Data Gap DG002, alvorlighetsgrad: Høy)
-- **Hent sikkerhetsmerkingsdata** — enten fra TFDA (hvis fremtidig godkjenning oppstår) eller fra internasjonale regulatoriske kilder som US FDA eller EMA (Data Gap DG001, alvorlighetsgrad: Blokkering)
-- **Vurder Taiwan regulatorisk vei** — siden abatacept for tiden ikke er markedsført i Taiwan, bestemme om importasjon eller spesielle tilgangsprogrammer ville være gjennomførbar for noen identifisert resirkulering-indikasjon
-- **Omvurder** når predikerte indikasjoner og sikkerhetdata er tilgjengelige
+**For å gå videre kreves:**
+- Kontrollerte eller prospektive studier av abatacept ved revmatoid vaskulitt
+- Avklaring av den motstridende signalretningen (effekt kontra nyoppstått vaskulitt under behandling)
+- Data om virkningsmekanisme og tilgang til preparatomtale (advarsler og kontraindikasjoner)
+- Avklaring av markedsstatus i Norge, siden den eneste godkjenningen er kansellert
 
+**Øvrige predikerte indikasjoner (kort):**
+- **Inflammatorisk spondylopati** (evidensnivå L1, «Proceed with Guardrails») og **polyartikulær juvenil revmatoid artritt** (L1, «Proceed with Guardrails») er hovedsakelig bekreftelse av allerede godkjente indikasjoner (psoriasisartritt og juvenil revmatoid artritt), ikke ekte repurposing. For spondylopati bør bruk begrenses til perifere/psoriatiske fenotyper.
+- **Ankyloserende spondylitt** (L2): Kun en liten, ukontrollert fase 2-pilotstudie (NCT00558506, n=30), og oversiktsartikler beskriver abatacept som lite effektivt ved aksial sykdom.
+- **Øvrige** (coccyx-hypermobilitet, Kümmells sykdom, vertebral sykdom, spondyloartropati-mottakelighet, brachydaktyli-syndaktyli-syndrom, kolobomatøs mikroftalmi-rhizomel dysplasi-syndrom): Ingen plausibel mekanistisk kobling eller evidens. Trolig grafbaserte artefakter. Anbefaling: Hold.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

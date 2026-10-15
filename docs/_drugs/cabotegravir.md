@@ -2,7 +2,7 @@
 layout: default
 title: Cabotegravir
 parent: Kun modellprediksjon (L5)
-nav_order: 67
+nav_order: 75
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,77 +29,99 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Cabotegravir: Fra udeterminert originalindikasjon til revmatoid artritt
+# Kabotegravir: Fra HIV-infeksjon til revmatoid artritt
 
-## Sammenfatting i én setning
+## Oppsummering i én setning
 
-> Cabotegravir (DrugBank ID: DB11751) har for tiden ingen verifisert originalindikasjon eller virkningsmekanisme registrert, og legemidlet er ikke ennå markedsført i Taiwan (TFDA).
-> TxGNN-modellen predikerer en mulig ny indikasjon for **revmatoid artritt**,
-> men denne prediksjonen støttes av **0 kliniske forsøk** og **0 publikasjoner**, og modellens egen begrunnelse angir ingen kjent mekanistisk overlapping.
+Kabotegravir er en integrasehemmer som opprinnelig brukes til behandling og forebygging av HIV-infeksjon. TxGNN-modellen forutsier at legemidlet kan ha effekt ved **revmatoid artritt**, men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen er rent beregningsbasert.
 
 ---
 
-## Kort oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Originalindikasjon | Ikke tilgjengelig — ingen lisens- eller indikasjonsdata på fil |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | HIV-infeksjon |
 | Predikert ny indikasjon | Revmatoid artritt |
-| TxGNN-prediksjonspoeng | 99.45% |
-| Bevisgrad | L5 (kun modellpreduksjon, ingen understøttende studier) |
-| Markedsstatus i Taiwan | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Utsette |
+| TxGNN-prediksjonsscore | 99,45 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrerte godkjenninger (ingen gyldige) |
+| Antall godkjenninger | 2 (begge avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige for cabotegravir i denne bevissamlingen, og ingen originalindikasjon er registrert. Basert på allmenn farmakologisk klassekunnskap som refereres i bevissamlingens egen begrunnelse, er cabotegravir en HIV-integrase-strandoverføringsinhibitor (INSTI), som virker ved å blokkere viral DNA-integrasjon inn i vertscellenes genom.
+Data om virkningsmekanisme er ikke tilgjengelig i dataene som er samlet inn for denne rapporten. Kabotegravir er kjent som en HIV-integrase-strengoverføringshemmer (INSTI), og effekten ved HIV er godt etablert.
 
-Bevissamlingens egen mekanistiske begrunnelse for topprediksjonen sier eksplisitt at denne integrase-inhibisjon-mekanismen har **ingen kjent overlapping** med revmatoid artritts patofysiologi (TNF-α, IL-6, synoviale proliferasjonsstier). Begrunnelsen bemerker videre at manglende originalindikasjon-data kan ha destabilisert modellens embedding, som kunne forklare den uvanlig høye poengstillingen til tross for mangel på biologisk plausibilitet.
+Revmatoid artritt er en autoimmun sykdom drevet av cytokiner og betennelse i synovialvev. Det finnes ingen kjent mekanisme som kobler hemming av HIV-integrase til disse prosessene. Den høye TxGNN-scoren (0,9945) er en beregningsmessig prediksjon og kan skyldes mønstre i kunnskapsgrafen i stedet for biologisk sammenheng. Likheten mellom opprinnelig og ny indikasjon er ikke vurdert.
 
-De gjenværende fire rangerte kandidater (skleroserande kolangitt, bronkitt, kolobomatøs mikroftalmi–rizzomeli dysplasi-syndrom, alvorlig ikke-proliferativ diabetisk retinopati) viser det samme mønsteret: høye TxGNN-poeng med eksplisitt angitt fravær av mekanistisk forbindelse, ingen kliniske forsøk, og ingen litteratur. Dette er konsistent med modellstøy heller enn et kredibelt gjenbrukssignal.
+Andre prediksjoner fra modellen er like uten støtte i evidens:
 
----
+| Rang | Predikert indikasjon | Score | Evidensnivå |
+|------|------|------|------|
+| 2 | Sklerote­rende kolangitt | 99,22 % | L5 |
+| 3 | Bronkitt | 99,19 % | L5 |
+| 4 | Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom | 99,16 % | L5 |
+| 5 | Alvorlig ikke-proliferativ diabetisk retinopati | 99,03 % | L5 |
 
-## Bevis fra kliniske forsøk
-
-For tiden er det ingen relaterte kliniske forsøk registrert
-
----
-
-## Litteraturbevis
-
-For tiden er ingen relatert litteratur tilgjengelig
+For disse er det heller ikke funnet kliniske studier eller litteratur. For skleroserende kolangitt må leversikkerhet og risiko for kolestase vurderes nøye før eventuell videre behandling. Den sjeldne utviklingsforstyrrelsen er sannsynligvis et artefakt av sparsomme nettverksdata.
 
 ---
 
-## Markedsinformasjon for Taiwan
+## Klinisk studieevidens
 
-Ingen godkjente lisenser på fil — cabotegravir er ikke for tiden markedsført i Taiwan (0 autorisasjoner).
-
----
-
-## Sikkerhetshensyn
-
-Sikkerhetsdata er for tiden utilgjengelig (TFDA-etikett, kontraindikasjoner og legemiddelinteraksjonsdata er alle merket som sikkerhetsdatagap som blokkerer — se DG001). Vennligst konsulter pakningsvedlegget når det blir tilgjengelig for sikkerhetsinformasjon.
+Foreløpig er det ikke registrert noen relaterte kliniske studier.
 
 ---
 
-## Konklusjon og neste trinn
+## Litteraturevidens
 
-**Beslutning: Utsette**
+Foreløpig finnes det ingen relatert litteratur.
+
+---
+
+## Informasjon om det norske markedet
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005756 | Apretude (avregistrert) | – | HIV-infeksjon |
+| EMEA/H/C/004976 | Vocabria (avregistrert) | – | HIV-infeksjon |
+
+Begge godkjenningene er avregistrert, og det finnes ingen gyldige godkjenninger i dataene.
+
+---
+
+## Sikkerhetsvurderinger
+
+**Legemiddelinteraksjoner:** Det er funnet 7 interaksjoner med moderat alvorlighetsgrad. Alle gjelder antacida og mineralpreparater som inneholder flerverdige kationer:
+
+- Kalsiumkarbonat
+- Aluminiumhydroksid
+- Magnesiumkarbonat
+- Magnesiumhydroksid
+- Magnesiumoksid
+- Natriumbikarbonat
+- Natriumcitrat
+
+Se preparatomtalen for sikkerhetsinformasjon om advarsler og kontraindikasjoner, da disse ikke er tilgjengelige i dataene som er samlet inn for denne rapporten.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen hviler utelukkende på en L5-modellpoeng uten klinisk forsøk- eller litteraturstøtte, og bevissamlingens egen mekanistiske analyse finner ingen kjent biologisk forbindelse mellom HIV-integrase-inhibisjon og revmatoid artritt. Kombinert med et sikkerhetsdatagap som blokkerer (ingen TFDA-etikett) og legemidlets umarkedsført status i Taiwan, er det ingen basis for å fremme denne kandidaten.
+Prediksjonen for revmatoid artritt bygger utelukkende på en modellscore uten kliniske studier, litteratur eller kjent mekanistisk sammenheng (evidensnivå L5). I tillegg har legemidlet ingen gyldig markedsføringstillatelse i Norge i dag.
 
-**For å komme videre er følgende nødvendig:**
-- TFDA-produktetikett (advarsler, kontraindikasjoner) — løser DG001 (blokkering)
-- Verifisert virkningsmekanisme fra DrugBank — løser DG002
-- Verifisert originalindikasjon(er) for legemidlet
-- Uavhengig preklinisk eller mekanistisk bevis som knytter INSTI-farmakologi til autoimmun-/reumatologiske stier før videre evalueringsstadium (S1+)
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) for å kunne vurdere en mulig mekanistisk kobling til autoimmun betennelse
+- Preparatomtale med advarsler og kontraindikasjoner, som er nødvendig for sikkerhetsscreening
+- Prekliniske data eller litteratursøk som kan gi et første evidensgrunnlag for revmatoid artritt
+- Avklaring av administrasjonsvei og formulering (langtidsvirkende injeksjon vs. tabletter) i forhold til behovet ved revmatoid artritt
+- Avklaring av regulatorisk status, siden begge godkjenningene er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

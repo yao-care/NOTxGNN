@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Icatibant
-parent: Moderat evidens (L3-L4)
-nav_order: 172
-evidence_level: L3
+parent: Høy evidens (L1-L2)
+nav_order: 204
+evidence_level: L1
 indication_count: 7
 ---
 
 # Icatibant
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **7** stk.
+Evidensnivå: **L1** | Predikerte indikasjoner: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,108 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Icatibant: Fra Udokumentert Original Indikasjon til C1-inhibitor-mangel
+# Icatibant: Fra arvelig angioødem til C1-hemmermangel
 
-## Sammendrag i en setning
+## Oppsummering
 
-> Icatibants opprinnelige godkjente indikasjon var ikke spesifisert i denne bevissamlingen (legemidlet er ikke for tiden markedsført i Norge).
-> TxGNN-modellen forutsier at den kan være effektiv for **C1-inhibitor-mangel**,
-> med **0 registrerte kliniske prøver** og **20 publikasjoner** som for tiden støtter denne retningen.
-
----
-
-## Rask Oversikt
-
-| Element | Innhold |
-|---------|---------|
-| Original Indikasjon | Ikke spesifisert i regulatoriske data (legemidlet er ikke markedsført i Norge) |
-| Forutsagt Ny Indikasjon | C1-inhibitor-mangel |
-| TxGNN Prediktiv Poengsum | 99.99% |
-| Bevisnivå | L3 |
-| Norsk Markedsstatus | ✗ Ikke markedsført |
-| Antall Godkjenninger | 0 |
-| Anbefalt Beslutning | Avvent |
+Icatibant er en selektiv bradykinin B2-reseptorantagonist som opprinnelig brukes til behandling av akutte anfall av **arvelig angioødem**.
+TxGNN-modellen predikerer at legemidlet kan være effektivt ved **C1-hemmermangel (C1 inhibitor deficiency)**. Dette ligger svært nær den opprinnelige indikasjonen, og prediksjonen støttes av **11 kliniske studier** og **20 publikasjoner** i de samlede dataene.
 
 ---
 
-## Hvorfor er denne Prediksjonen Rimelig?
+## Hurtigoversikt
 
-For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige i den strukturerte bevissamlingen (`original_moa: [Data Gap]`). Imidlertid beskriver den støttende litteraturen konsekvent og uavhengig icatibant som en selektiv **bradykinin B2-reseptorantagonist**, brukt for å blokkere bradykinin-formidlet vaskulær permeabilitet hos pasienter med C1-inhibitor-mangel (f.eks. PMID 22686628: "Icatibant, en bradykinin B2-reseptorantagonist, er en etablert behandling for akutte anfall av arvelig angioødem (HAE) med C1-inhibitor (C1-INH) mangel"; PMID 34965883 beskriver den som "indikert for akutt behandling av arvelig angioødem (HAE) anfall").
-
-Intet formelt "original indikasjon"-felt ble gitt for det norske markedet, men litteratursamlingen — som omfatter nasjonale registre og kohorter fra Spania, Tsjekkia, Storbritannia, Italia, Kroatia og Asia-Stillehavsregionen fra 2010–2024 — knytter konsekvent og spesifikt icatibant til behandling av angioødem-anfall forårsaket av C1-INH-mangel (både arvelig og ervervet form). Dette antyder at den TxGNN-forutsagte assosiationen reflekterer en allerede veletablert farmakologisk bruk snarere enn en ny, spekulativ hypotese om legemiddelombruk.
-
-Mekanistisk fører C1-INH-mangel til ukontrollert aktivering av kallikrein-kininkaskaden og overproduksjon av bradykinin, som fører til vaskulær permeabilitet og vevsoppsvelling karakteristisk for angioødem-anfall. Direkte antagonisme av bradykinin B2-reseptoren håndterer denne kjernepathofysiologien, som forklarer hvorfor bevisgrunnlaget — selv om det er stort sett observasjonsbasert/registerbasert snarere enn randomisert — er bredt og konsistent på tvers av flere uavhengige populasjoner.
-
----
-
-## Bevis fra Kliniske Prøver
-
-For tiden er det ingen relaterte kliniske prøver registrert.
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Arvelig angioødem |
+| Predikert ny indikasjon | C1-hemmermangel (C1 inhibitor deficiency) |
+| TxGNN-prediksjonsscore | 99,99 % |
+| Evidensnivå | L1 |
+| Markedsstatus i Norge | Kun opphevede godkjenninger (ingen gyldige) |
+| Antall godkjenninger | 2 (begge opphevet) |
+| Anbefalt beslutning | Proceed with Guardrails (Fortsett med forbehold) |
 
 ---
 
-## Litteraturbevis
+## Hvorfor er denne prediksjonen rimelig?
 
-| PMID | År | Type | Tidsskrift | Viktige Funn |
-|------|-----|------|---------|---------|
-| [37898409](https://pubmed.ncbi.nlm.nih.gov/37898409/) | 2024 | Oversikt | J Allergy Clin Immunol | Gjennomgår sykdomsbyrden av C1-INH-mangel HAE med fokus på tilgangsgap i Asia-Stillehavsregionen |
-| [37716525](https://pubmed.ncbi.nlm.nih.gov/37716525/) | 2023 | Retrospektiv (to-senters) | JACI In Practice | Diagnose, forløp og terapi for ervervet C1-INH-mangel; bemerker at ingen godkjent terapi eksisterer for den ervervede formen |
-| [37146882](https://pubmed.ncbi.nlm.nih.gov/37146882/) | 2023 | Nasjonal undersøkelse | JACI In Practice | Demografisk undersøkelse på landsnivå i Storbritannia av HAE og ervervede C1-INH-mangel pasienter |
-| [35871284](https://pubmed.ncbi.nlm.nih.gov/35871284/) | 2023 | Retrospektiv journalgjennomgang | J Clin Pharmacol | Dokumenterer omfattende off-label bruk av icatibant/C1-INH-konsentrater i ikke-HAE bradykinin-formidlet angioødem (2016–2020) |
-| [35662289](https://pubmed.ncbi.nlm.nih.gov/35662289/) | 2022 | Registerbasert analyse | Clin Exp Allergy | Icatibant og C1-inhibitorbruk ved behandling av laryngeal HAE-anfall |
-| [34965883](https://pubmed.ncbi.nlm.nih.gov/34965883/) | 2021 | Virkelighetsregister (Icatibant Outcome Survey) | Allergy Asthma Clin Immunol | Spania-spesifikke resultater for icatibant i C1-INH-mangel HAE (type 1/2) |
-| [33472202](https://pubmed.ncbi.nlm.nih.gov/33472202/) | 2021 | Nasjonalomfattende retrospektiv studie | Int Arch Allergy Immunol | Forekomst i Tsjekkia, kliniske trekk og ledelse av ervervet C1-INH-mangel |
-| [33602658](https://pubmed.ncbi.nlm.nih.gov/33602658/) | 2021 | Oversikt | J Investig Allergol Clin Immunol | Oversikt over HAE-behandlingslandskapet inkludert kallikrein-kinin-banehemmere |
-| [32753245](https://pubmed.ncbi.nlm.nih.gov/32753245/) | 2020 | Kliniske anbefalinger (CREAK) | Rev Med Interne | Franske ekspertanbefalinger for diagnose og behandling av ervervet C1-INH-mangel angioødem |
-| [30280305](https://pubmed.ncbi.nlm.nih.gov/30280305/) | 2018 | Kasusserie | J Clin Immunol | Icatibant og rekombinant C1-INH-bruk for HAE-anfall under graviditet |
+Detaljerte data om virkningsmekanisme var ikke tilgjengelige i de samlede dataene. Likevel er det kjent at icatibant er en selektiv antagonist av bradykinin B2-reseptoren. Ved C1-hemmermangel, enten arvelig eller ervervet, blir kallikreinaktiviteten uregulert og det dannes for mye bradykinin. Bradykinin gir utvidede kar og økt karpermeabilitet, som driver angioødemanfallene. Icatibant blokkerer denne effekten.
+
+Prediksjonen er i praksis **innenfor godkjent bruk** og ikke en egentlig ompakking: arvelig angioødem skyldes som regel C1-hemmermangel. Ervervet C1-hemmermangel har samme mekanisme, men her er direkte studiedata begrenset til oversiktsartikler og case-nær litteratur, blant annet en observasjonsstudie med åtte pasienter.
+
+Modellen rangerte også seks andre sykdommer (blant annet serpinopati, pseudo-von Willebrands sykdom, Glanzmanns trombastenii og antisyntetasesyndrom). For alle disse mangler både kliniske studier og litteratur (evidensnivå L5), og det finnes ingen påvist mekanistisk sammenheng. Disse vurderes som **Hold**, og prediksjonene regnes mest sannsynlig som modellartefakter.
 
 ---
 
-## Norsk Markedsinformasjon
+## Klinisk studieevidens
 
-For tiden ikke markedsført i Norge; ingen godkjenningsregistreringer er tilgjengelige (`total_licenses: 0`).
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
+|---------|------|------|------|---------|
+| [NCT00097695](https://clinicaltrials.gov/study/NCT00097695) | Fase 3 | Fullført | 84 | Randomisert, dobbeltblind, placebokontrollert studie av subkutan icatibant ved akutte anfall av arvelig angioødem |
+| [NCT00500656](https://clinicaltrials.gov/study/NCT00500656) | Fase 3 | Fullført | 85 | Randomisert, dobbeltblind studie av icatibant mot oral tranexamsyre; primærmål var tid til symptomlindring |
+| [NCT00912093](https://clinicaltrials.gov/study/NCT00912093) | Fase 3 | Fullført | 98 | Randomisert, dobbeltblind, placebokontrollert multisenterstudie av effekt og sikkerhet ved akutte anfall |
+| [NCT00997204](https://clinicaltrials.gov/study/NCT00997204) | Fase 3 | Fullført | 151 | Åpen studie av egenadministrert icatibant: sikkerhet, lokal toleranse og effekt ved gjentatt behandling |
+| [NCT01386658](https://clinicaltrials.gov/study/NCT01386658) | Fase 3 | Fullført | 32 | Åpen studie hos barn og ungdom: farmakokinetikk, toleranse og sikkerhet |
+| [NCT03888755](https://clinicaltrials.gov/study/NCT03888755) | Fase 3 | Fullført | 8 | Åpen studie hos japanske pasienter med akutte anfall; effekt, farmakokinetikk og sikkerhet |
+| [NCT01457430](https://clinicaltrials.gov/study/NCT01457430) | Fase 4 | Fullført | 19 | Åpen studie av egenadministrert icatibant mot behandling ved helseinstitusjon |
+| [NCT04057131](https://clinicaltrials.gov/study/NCT04057131) | Ikke relevant | Fullført | 179 | Japansk legemiddelbruksundersøkelse etter markedsføring: sikkerhet og effekt i klinisk praksis |
+| [NCT04654351](https://clinicaltrials.gov/study/NCT04654351) | Fase 3 | Fullført | 2 | Åpen studie hos japanske barn og ungdom; svært liten studie |
+| [NCT07290855](https://clinicaltrials.gov/study/NCT07290855) | Fase 4 | Fullført | 5 | Studie av icatibant ved bradykinin-indusert angioødem (Taiwan); svært liten studie |
+
+Merk: Studiene gjelder hovedsakelig arvelig angioødem. Ingen av dem er en kontrollert studie spesifikt ved ervervet C1-hemmermangel.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Et blokkerende datahull (manglende TFDA-ekvivalente merkingadvarsler/kontraindikasjoner) forhindrer for tiden en full sikkerhetsvurdering av denne kandidaten.
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [22686628](https://pubmed.ncbi.nlm.nih.gov/22686628/) | 2012 | Observasjonsstudie | Allergy | Åtte pasienter med ervervet C1-hemmermangel behandlet med icatibant 30 mg ved 48 anfall |
+| [29757016](https://pubmed.ncbi.nlm.nih.gov/29757016/) | 2018 | Oversikt (kohort) | Expert Rev Clin Immunol | Sikkerhet og effekt av icatibant hos barn over 2 år og ungdom med C1-hemmermangel |
+| [23420425](https://pubmed.ncbi.nlm.nih.gov/23420425/) | 2013 | Systematisk oversikt | Pneumonol Alergol Pol | Sammenligning av conestat alfa, C1-hemmer og icatibant ved akutte anfall hos voksne |
+| [20030426](https://pubmed.ncbi.nlm.nih.gov/20030426/) | 2010 | Oversikt | Drugs | Gjennomgang av FAST-1-studien; primærmålet nådde ikke statistisk signifikans, men flere andre effektmål viste effekt |
+| [37716525](https://pubmed.ncbi.nlm.nih.gov/37716525/) | 2023 | Retrospektiv studie | J Allergy Clin Immunol Pract | Ervervet C1-hemmermangel: diagnose, forløp og behandling; ingen godkjent behandling |
+| [33602658](https://pubmed.ncbi.nlm.nih.gov/33602658/) | 2021 | Oversikt | J Investig Allergol Clin Immunol | Nåværende og kommende behandling av arvelig angioødem |
+| [28687105](https://pubmed.ncbi.nlm.nih.gov/28687105/) | 2017 | Oversikt | Immunol Allergy Clin North Am | Ervervet C1-hemmermangel, ofte knyttet til autoimmunitet og B-celle-lidelser |
+| [24925394](https://pubmed.ncbi.nlm.nih.gov/24925394/) | 2014 | Oversikt | Chem Immunol Allergy | Bradykininmedierte sykdommer, inkludert angioødem ved C1-hemmermangel og ACE-hemmere |
+| [32753245](https://pubmed.ncbi.nlm.nih.gov/32753245/) | 2020 | Anbefalinger | Rev Med Interne | CREAK-anbefalinger for diagnose og behandling av ervervet angioødem |
+| [20667117](https://pubmed.ncbi.nlm.nih.gov/20667117/) | 2010 | Oversikt | Allergy Asthma Clin Immunol | Ervervet angioødem med bradykininmediert mekanisme |
 
 ---
 
-## Konklusjon og Neste Trinn
+## Markedsinformasjon for Norge
 
-**Beslutning: Avvent**
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000899 | Firazyr (Takeda Pharmaceuticals International AG) | Ikke oppgitt | Arvelig angioødem (opphevet) |
+| EMEA/H/C/005083 | Icatibant Accord (Accord Healthcare S.L.U.) | Ikke oppgitt | Arvelig angioødem (opphevet) |
+
+Begge godkjenningene er registrert som opphevet, og det finnes ingen gyldige godkjenninger i dataene.
+
+---
+
+## Sikkerhetsvurderinger
+
+**Legemiddelinteraksjoner:** Det er registrert 12 interaksjonsposter. Ti av dem er av moderat alvorlighetsgrad og gjelder **ACE-hemmere**: benazepril, captopril, enalapril, perindopril, trandolapril, moexipril, lisinopril, quinapril, ramipril og fosinopril. De to øvrige postene beskriver farmakologiske mål (bradykinin B1- og B2-reseptor), ikke interaksjoner mellom legemidler.
+
+For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparatomtalen.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Proceed with Guardrails (Fortsett med forbehold)**
 
 **Begrunnelse:**
-Den forutsatte indikasjon er støttet av en sterk TxGNN-poengsum og en konsistent, flernasjonalt korpus av observasjons-/registerbasert litteratur, men ingen randomiserte kliniske prøvedata er til stede i denne bevissamlingen, og et blokkerende sikkerhetsdatahull (DG001) eksplisitt forhindrer inntreden i S1-fasen for sikkerhetsvurdering.
+- For C1-hemmermangel i arvelig form er evidensen sterk, med flere fullførte fase 3-studier, inkludert randomiserte kontrollerte studier. Dette er i realiteten den godkjente indikasjonen. For ervervet form er evidensen begrenset til observasjonsdata og oversikter.
+- De øvrige seks predikerte sykdommene har ingen støtte og bør holdes (Hold).
 
-**For å gå videre kreves følgende:**
-- TFDA-ekvivalent pakningsvedlegg (advarsler, kontraindikasjoner) — løser DG001
-- Bekreftet dokumentasjon av virkningsmekanisme fra DrugBank — løser DG002
-- Formell original indikasjon/regulatorisk historie for denne kandidaten (for tiden fraværende)
-- Registrert klinisk prøvebevis, hvis det finnes, for å heve bevisnivået over L3
-- Vurdering av muligheter for markedsinntreden og registrering i Norge, gitt den nåværende "ikke markedsført" statusen
-
+**For å gå videre trengs følgende:**
+- Gyldig markedsføringstillatelse eller avklaring av hvorfor begge godkjenningene i Norge er opphevet
+- Preparatomtale med advarsler og kontraindikasjoner (mangler i dataene)
+- Detaljerte data om virkningsmekanisme (MOA)
+- Kontrollerte data for ervervet C1-hemmermangel
+- Plan for håndtering av interaksjon med ACE-hemmere
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

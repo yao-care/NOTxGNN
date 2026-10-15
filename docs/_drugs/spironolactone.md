@@ -2,7 +2,7 @@
 layout: default
 title: Spironolactone
 parent: Kun modellprediksjon (L5)
-nav_order: 332
+nav_order: 392
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,79 +29,84 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Spironolakton: Fra en udokumentert original indikasjon til Hypotrichosis Simplex of the Scalp
+# Spironolakton: Fra ødem og hjertesvikt til hypotrichosis simplex i hodebunnen
 
-## En setnings sammendrag
+## Oppsummering
 
-> Den opprinnelige godkjente indikasjonen for spironolakton er ikke dokumentert i denne bevissamlingen (datakluft, venter på DrugBank/etikett-oppslag).
-> TxGNN-modellen forutsier en mulig sammenheng med **Hypotrichosis Simplex of the Scalp**,
-> men denne prediksjonen er for øyeblikket støttet av **0 kliniske studier** og **0 publikasjoner** — modellpoeng alene.
+Spironolakton er en mineralokortikoidreseptorantagonist med antiandrogen effekt. Den er opprinnelig godkjent for ødem, hjertesvikt, levercirrhose, ascites, nefrotisk syndrom, hyperaldosteronisme og essensiell hypertensjon.
+TxGNN-modellen predikerer at legemidlet kan være effektivt mot **hypotrichosis simplex i hodebunnen**, men for øyeblikket finnes **ingen kliniske studier og ingen publikasjoner** som støtter denne retningen. Prediksjonen er kun modellbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Ikke dokumentert i bevissamlingen (datakluft — venter på DrugBank-spørring) |
-| Forutsagt ny indikasjon | Hypotrichosis Simplex of the Scalp |
-| TxGNN prediksjonspoeng | 99.26% |
-| Bevisgrad | L5 (modellpreduksjon kun, ingen kliniske studier eller litteratur) |
-| Status på norsk marked | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Ødem; hjertesvikt; levercirrhose; ascites; nefrotisk syndrom; hyperaldosteronisme; essensiell hypertensjon |
+| Predikert ny indikasjon | Hypotrichosis simplex i hodebunnen |
+| TxGNN-prediksjonsscore | 99,26 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun trukket tilbake (kansellert) |
+| Antall godkjenninger | 1 |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljerte virkningsmekanisme-data ikke tilgjengelige for spironolakton i denne bevissamlingen (`original_moa` = datakluft). Basert på begrunnelsesteksten som er gitt sammen med prediksjonen, er spironolakton kjent for å virke som en **mineralokortikoid reseptor antagonist med anti-androgen aktivitet**, og det har faktisk off-label-bruk i den kliniske praksis ved androgenetisk alopeci — så en generell sammenheng mellom spironolakton og hårrelaterte tilstander er ikke urimelig på sitt ansikt.
+Data om virkningsmekanisme (MOA) er for øyeblikket ikke tilgjengelig i de innsamlede dataene. Ut fra kjent informasjon er spironolakton en mineralokortikoidreseptorantagonist med betydelig antiandrogen aktivitet, det vil si blokkering av androgenreseptoren og redusert androgensyntese.
 
-Imidlertid er bevissamlingens egen mekanistiske vurdering for denne spesifikke prediksjonen skeptisk: **hypotrichosis simplex of the scalp** er en autosomalt dominant, strukturell/utviklings-relatert hårfollikkellidelse som er **ikke androgen-avhengig**. Det finnes ingen etablert biologisk sammenheng mellom spironolaktones kjente virkningsmekanisme og denne sykdommens patofysiologi — koblingen er vurdert som en TxGNN-ekstrapolasjon basert på fenotypisk likhet (hårrelaterte utfall) snarere enn genuin mekanistisk overlapping.
+Denne antiandrogene effekten er plausibel ved hårtap der androgensignalering bidrar til miniaturisering av hårsekkene, og spironolakton brukes utenfor godkjent indikasjon (off-label) ved kvinnelig hårtap av mønstertype. Hypotrichosis simplex i hodebunnen er imidlertid en sjelden arvelig hårtapslidelse, som vanligvis skyldes varianter i gener som CDSN, APCDD1 eller RPL21, og den er ikke primært androgendrevet.
 
-En andre, lavere rangert preduksjon (**congenital hypotrichosis milia**, poeng 99.04%) viser samme mønster: en sjelden ektodermale/follikulær utviklingslidelse uten kjent sammenheng til mineralokortikoid eller anti-androgen veier. Begge prediksjoner i denne bevissamlingen er flagget som manglende mekanistisk støtte utover modellens statistiske assosiasjon.
+Den høye TxGNN-scoren (0,993) er dermed kun en beregnet prediksjon. Det er ikke etablert noen direkte mekanistisk kobling til den underliggende genetiske patologien, og manglende MOA-data begrenser den mekanistiske vurderingen ytterligere.
 
----
-
-## Bevis fra kliniske studier
-
-For øyeblikket ingen relaterte kliniske studier registrert.
+Den rangerte neste prediksjonen, **medfødt hypotrichosis med milia** (score 99,04 %), har enda svakere støtte: den bygger på en generell, indirekte antiandrogen begrunnelse og trolig på nettverkslikhet med andre hypotrichosis-fenotyper, uten validert mekanisme. Heller ikke her er det funnet kliniske studier eller litteratur.
 
 ---
 
-## Litteraturbevis
+## Klinisk studiedokumentasjon
 
-For øyeblikket ingen relatert litteratur tilgjengelig.
-
----
-
-## Status på norsk marked
-
-Spironolakton er for øyeblikket **ikke markedsført** i Norge under denne bevissamlingen (0 godkjenninger, ingen lisensposter tilgjengelige).
+For øyeblikket er det ikke registrert noen relaterte kliniske studier.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturdokumentasjon
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+For øyeblikket finnes det ingen relatert litteratur.
 
-*(Merk: viktige advarsler, kontraindikasjoner og DDI-data er flagget som blokkerende/høy-alvorlighetsgrad dataklufter — se Konklusjon nedenfor.)*
+---
+
+## Informasjon om det norske markedet
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005535 | Qaialdo | – | Ødem; hjertesvikt; levercirrhose; ascites; nefrotisk syndrom; hyperaldosteronisme; essensiell hypertensjon |
+
+Godkjenningen er kansellert, og det finnes ingen gyldige markedsføringstillatelser for enkeltstoffprodukter eller kombinasjonsprodukter.
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Kontraindikasjoner/sykdommer med kjent risiko (fra kunnskapsgrafen, ikke fra preparatomtale):** nyresykdom, pyoureter, pankreatitt, systemisk lupus erythematosus (inkludert pediatrisk form), kaliummangel, diabetes mellitus, diabetisk ketoacidose, hyperurikemi, hyperparatyreoidisme, osteitis fibrosa, hepatisk koma, hepatisk encefalopati, neonatal ikterus, anuri, urinsyregikt, hyperkalsemi, nefrokalsinose og forstyrrelser i fosformetabolismen.
+- **Legemiddelinteraksjoner:** 100 interaksjoner er registrert. Blant de første 20 som er vist, er **loperamid** klassifisert som **alvorlig (Major)**. De fleste øvrige er av moderat alvorlighetsgrad, blant annet hydrokortison, deksametason, betametason, triamcinolon, budesonid, metformin, bupropion, morfin, bisakodyl, rcensorolje (kastorolje), dronabinol, eksenatid og SGLT2-hemmere (kanagliflozin, dapagliflozin, empagliflozin, ertugliflozin). Doksycyklin, acetylsalisylsyre og fidaksomicin er klassifisert som mindre (Minor).
+
+Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Begge kandidatindikasjoner er støttet kun av TxGNN modellpoeng (L5, ingen klinisk eller litteraturbevis), og bevissamlingens egen mekanistiske begrunnelse noter eksplisitt mangel på biologisk plausibilitet for topprediksjonen. I tillegg forhindrer en **blokkerende** datakluft (manglende TFDA/etikettadvarsler og kontraindikasjoner) at stoffet til og med går inn i S1 sikkerhet pre-vurderingsstadiet.
+Prediksjonen støttes kun av en modellscore (evidensnivå L5), uten kliniske studier eller litteratur. Sykdommen er en sjelden genetisk tilstand som ikke primært er androgendrevet, og den eneste godkjenningen i Norge er kansellert.
 
-**For å fortsette, er følgende nødvendig:**
-- TFDA/produktetikett advarsler og kontraindikasjoner (DG001 — blokkerende, påkrevd for S1 sikkerhet screening)
-- Virkningsmekanisme data via DrugBank API (DG002 — høy alvorlighetsgrad)
-- Dokumentasjon av spironolaktones opprinnelige godkjente indikasjon(er)
-- Uavhengig klinisk eller preklinisk bevis som knytter spironolakton til hypotrichosis simplex of the scalp, utover modell-avledet likhet
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) og en klargjøring av en mulig mekanistisk kobling til de underliggende genene (CDSN, APCDD1, RPL21)
+- Advarsler og kontraindikasjoner fra preparatomtalen, som i dag mangler og blokkerer sikkerhetsscreeningen
+- Litteratursøk og prekliniske data for hypotrichosis simplex og medfødt hypotrichosis med milia
+- Avklaring av administrasjonsvei og formulering (f.eks. topikal vs. oral), siden doseringsform og rutekompatibilitet ikke er vurdert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

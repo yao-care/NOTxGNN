@@ -2,7 +2,7 @@
 layout: default
 title: Cetrorelix
 parent: Kun modellprediksjon (L5)
-nav_order: 84
+nav_order: 94
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,95 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Cetrorelix: Fra GnRH-reseptorantagonisme til predikert hypertrikose
+# Cetrorelix: Fra ovulasjonsinduksjon til hypertrikose
 
-## Oppsummering i én setning
+## Oppsummering
 
-> Cetrorelix (DrugBank DB00050) er beskrevet i bevis-pakkens egen omformålsbegrunnelse som en GnRH-reseptorantagonist som undertrykker LH/FSH-sekresjon; det foreligger ingen formell opprinnelig indikasjon eller markedsdata for dette legemidlet.
-> TxGNN-modellens topprangerte prediksjon er potensiell effektivitet ved **Hypertrikose (sykdom)**,
-> men dette signalet støttes for øyeblikket av **0 kliniske studier** og **0 publikasjoner**, noe som plasserer det på den laveste tillitsgradnivået.
+Cetrorelix er en GnRH-reseptorantagonist som opprinnelig brukes til å hemme for tidlige LH-topper hos kvinner under kontrollert ovariestimulering ved fertilitetsbehandling (ovulasjonsinduksjon).
+TxGNN-modellen predikerer at legemidlet kan være effektivt mot **hypertrikose**, men dette er en ren modellprediksjon: det er **ingen kliniske studier** og **ingen publikasjoner** som støtter den.
 
 ---
 
-## Raskt overblikk
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Ikke tilgjengelig — ingen indikasjonsdata på fil (`original_indications` er tom) |
-| Forutsagt ny indikasjon | Hypertrikose (sykdom) |
-| TxGNN-prediksjonspoeng | 99.98% |
-| Bevisgrad | L5 (kun modellprediksjon, ingen klinisk/litteraturstøtte) |
-| Norges markedsstatus | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Avvent |
+| Opprinnelig indikasjon | Ovulasjon; ovulasjonsinduksjon |
+| Predikert ny indikasjon | Hypertrikose |
+| TxGNN-prediksjonsscore | 99,98 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun trukket tilbake (avregistrert) |
+| Antall godkjenninger | 1 |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte virkningsmekanisme-data er ikke tilgjengelige for dette legemidlet (feltet `original_moa` er et datahull). Imidlertid karakteriserer bevis-pakkens egen omformålsbegrunnelse cetrorelix som en **GnRH-reseptorantagonist** som blokkerer GnRH-signalering i hypofysen, og dermed undertrykker LH/FSH-frigjøring og indirekte reduserer kjønnshjertel-androgenproduksjon.
+Cetrorelix blokkerer GnRH-reseptoren (GNRHR) i hypofysen og demper dermed utskillelsen av LH og FSH. Det reduserer i sin tur produksjonen av kjønnshormoner, inkludert androgener fra gonadene. Detaljerte data om virkningsmekanisme fra legemiddeldatabasen var ikke tilgjengelige i datamaterialet som er samlet inn til denne rapporten, så beskrivelsen bygger på kjent farmakologi.
 
-Topprangert prediksjon, hypertrikose, hviler på antagelsen om at overdreven hårvekst er androgen-drevet — hvis dette stemmer, kunne undertrykking av kjønnshjertel-androgener teoretisk redusere hårvekst. Imidlertid flagger pakkens egen merknad eksplisitt denne forbindelsen som svak: **de fleste hypertrikose-tilfeller er ikke androgen-avhengig**, så det mekanistiske grunnlaget for denne spesifikke prediksjonen er begrenset og i stor grad spekulativt.
+Teoretisk kan lavere androgenpådriv hjelpe ved androgenavhengig hirsutisme. Hypertrikose er imidlertid vanligvis androgenuavhengig, så den mekanistiske koblingen er svak. Den høye TxGNN-scoren er et resultat av beregninger i en kunnskapsgraf, ikke av farmakologiske eller kliniske funn.
 
-Bemerkelsesverdig nok, blant de 10 kandidatene som ble vurdert i denne pakken, har **rangering 10 — "sentral prekok pubertét 1" (sentral prekok pubertét)** — en vesentlig sterkere mekanistisk begrunnelse: den er eksplisitt GnRH-avhengig, og en GnRH-reseptorantagonist ville virke på samme akse som gjeldende standard behandling (GnRH-agonister). Den har en lavere TxGNN-poengsum, men ble fremmet til beslutningsstadium S1 ("Forskningsspørsmål") i stedet for S0/Avvent, noe som reflekterer denne sterkere biologiske plausibilitet. Den kan berettige separat etterforskning selv om den ikke er hovedprediksjon (rangering 1).
+### Andre predikerte indikasjoner (alle uten kliniske studier eller litteratur)
+
+| Rangering | Sykdom | Score | Biologisk plausibilitet |
+|------|------|------|------|
+| 2 | Ambras-type hypertrichosis universalis congenita | 99,97 % | Ingen klar mekanisme (genomisk omlegging som påvirker TRPS1) |
+| 3 | Misdannelsessyndrom med tann-/periodontal komponent | 99,97 % | Ingen plausibel kobling |
+| 4 | Syndrom med Dandy-Walker-malformasjon | 99,96 % | Ingen mekanisme for strukturell hjernemisdannelse |
+| 5 | Isolert genetisk hårskaftavvik | 99,96 % | Ingen etablert effekt |
+| 6 | Persisterende føtal sirkulasjon | 99,67 % | Ingen relevans; sikkerhetsbekymringer hos nyfødte |
+| 7 | Familiær isolert trikomegali | 99,63 % | Spekulativ kobling |
+| 8 | Familiær mannsbegrenset tidlig pubertet | 99,55 % | Begrenset; reseptormutasjonen virker nedstrøms for GnRH (forskningsspørsmål) |
+| 9 | Aromataseoverskuddssyndrom | 99,53 % | Svak; aromatasehemmere er logisk behandling |
+| 10 | Sentral tidlig pubertet | 99,29 % | Mest biologisk plausibel (forskningsspørsmål) |
+
+Av disse er **sentral tidlig pubertet** den mest biologisk sammenhengende kandidaten, siden sykdommen skyldes tidlig aktivering av hypothalamus–hypofyse–gonade-aksen. GnRH-agonister er standardbehandling, og en antagonist som cetrorelix kan i teorien gi rask LH/FSH-suppresjon. Cetrorelix har imidlertid kort virketid, og det finnes ingen pediatriske data i materialet.
 
 ---
 
-## Bevis fra kliniske studier
+## Klinisk studiedokumentasjon
 
-For øyeblikket ingen registrerte kliniske studier av relevans.
-
----
-
-## Litteraturbevis
-
-For øyeblikket ingen tilgjengelig relevant litteratur.
+Foreløpig er det ingen relaterte kliniske studier registrert.
 
 ---
 
-## Norges markedsinformasjon
+## Litteraturdokumentasjon
 
-Ingen markedsgodkjenninger er for øyeblikket registrert i Norge for dette legemidlet (markedsstatus: **Ikke markedsført**; 0 lisenser på fil).
+Foreløpig er det ingen relatert litteratur tilgjengelig.
+
+---
+
+## Markedsinformasjon for Norge
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000233 | Cetrotide (Merck Europe B.V.) | – | Ovulasjon; ovulasjonsinduksjon |
+
+Denne godkjenningen har status som trukket tilbake, og det finnes ingen gyldige markedsføringstillatelser.
 
 ---
 
 ## Sikkerhetsvurderinger
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Ingen viktige advarsler, kontraindikasjoner eller data om legemiddelsamvirkninger er for øyeblikket på fil for dette legemidlet (DDI-forespørselsstatus: ikke funnet).
+- **Legemiddelinteraksjoner:** Det ble funnet én farmakologisk oppføring, som beskriver cetrorelix som en peptidligand som virker på GnRH₁-reseptoren (GNRHR, humant mål). Det er ikke angitt noen interaksjonsnivåer eller konkrete interagerende legemidler.
+
+Se preparatomtalen (pakningsvedlegget) for øvrig sikkerhetsinformasjon, inkludert advarsler og kontraindikasjoner.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Topprangert prediksjon (hypertrikose) støttes kun av TxGNN-modellpoengene (L5), med null kliniske studier eller publikasjoner, og dens egen mekanistiske begrunnelse er eksplisitt erkjent som svak (de fleste hypertrikose-tilfeller er ikke androgen-avhengig). Ingen opprinnelig indikasjon, virkningsmekanisme eller sikkerhetserdata er på fil for å støtte noen progresjon.
+Prediksjonen bygger kun på en modellscore (evidensnivå L5) uten kliniske studier eller publikasjoner. Den mekanistiske koblingen til hypertrikose er svak, og legemidlets markedsstatus i Norge er «kun trukket tilbake».
 
 **For å gå videre kreves følgende:**
-- TFDA/regulatoriske pakningsvedlegg-advarsler og kontraindikasjoner (flagget som **Blokkering** — forhindrer for øyeblikket inngang til sikkerhetsvurdering på stadium S1)
-- Bekreftet virkningsmekanisme via DrugBank eller tilsvarende kilder (flagget som **Høy** alvorlighetsgrad — nødvendig for analyse av mekanistisk relevans)
-- Opprinnelig godkjent indikasjon(er) og data om klinisk posisjonering
-- Hvis man fortsetter videre: målrettet litteratur-/studiessøk spesielt for **sentral prekok pubertét (rangering 10)**, gitt dens sterkere GnRH-avhengige mekanistiske sammenheng med cetrorelix' kjente farmakologi, til tross for at det for øyeblikket ikke finnes direkte bevis heller
-
+- Informasjon om virkningsmekanisme fra legemiddeldatabasen for å støtte mekanistisk analyse
+- Advarsler og kontraindikasjoner fra preparatomtalen (nødvendig før sikkerhetsscreening)
+- Litteratur- og studiesøk for hypertrikose, og eventuelt for sentral tidlig pubertet som mer plausibel kandidat
+- Vurdering av gjennomførbarhet gitt kort virketid, administrasjonsvei og at markedsføringstillatelsen er trukket tilbake
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Brolucizumab
 parent: Kun modellprediksjon (L5)
-nav_order: 61
+nav_order: 68
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,79 +29,93 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Brolucizumab: Fra økulær neovaskularisert sykdom til mitokondrielt oksidativt fosforyleringsforstyrrelse forårsaket av kjerne-DNA-anomalier
+# Brolucizumab: Fra våt makuladegenerasjon til mitokondriell oksidativ fosforyleringsforstyrrelse
 
-## Sammenfattelse i en setning
+## Oppsummering
 
-> Brolucizumab er klinisk kjent som intravetreal anti-VEGF-A-terapi for økulær neovaskularisert sykdom, selv om denne opprinnelige indikasjonen ikke er dokumentert i gjeldende norsk regulatorisk datasett.
-> TxGNN-modellens toppprediksjon foreslår mulig effektivitet for **mitokondrielt oksidativt fosforyleringsforstyrrelse forårsaket av kjerne-DNA-anomalier**,
-> men **0 kliniske prøver** og **0 publikasjoner** støtter for øyeblikket denne retningen, og legemidlet er ikke markedsført i Norge.
+Brolucizumab er et anti-VEGF-A-antistoffragment (enkeltkjede) som opprinnelig ble brukt til behandling av **våt makuladegenerasjon**.
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **mitokondriell oksidativ fosforyleringsforstyrrelse som skyldes kjerne-DNA-avvik**, men dette er en ren modellprediksjon.
+Det finnes **ingen kliniske studier** og **ingen publikasjoner** i de innsamlede dataene som støtter denne retningen.
 
 ---
 
 ## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Ikke dokumentert i norsk regulatorisk data. Kjent klinisk bruk (ifølge legemidlets virkningsmekanisme) er intravetreal anti-VEGF-terapi for økulær neovaskularisert sykdom. |
-| Predikert ny indikasjon | Mitokondrielt oksidativt fosforyleringsforstyrrelse forårsaket av kjerne-DNA-anomalier |
-| TxGNN-prediksjonspoengsum | 99.67% |
-| Bevisgrad | L5 |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Våt makuladegenerasjon |
+| Predikert ny indikasjon | Mitokondriell oksidativ fosforyleringsforstyrrelse som skyldes kjerne-DNA-avvik |
+| TxGNN-prediksjonsscore | 99,67 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
+| Antall tillatelser | 1 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-For øyeblikket er detaljerte virkningsmekanismedata ikke tilgjengelige fra DrugBank. Basert på informasjonen som er tilgjengelig i denne bevissamlingen, er brolucizumab et anti-VEGF-A enkelt-kjede antiststoffragment (scFv) administrert ved intravetreal injeksjon, som virker ved å blokkere VEGF-signalering for å redusere patologisk angiogenese i økulær sykdom.
+Data om legemidlets detaljerte virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er brolucizumab et anti-VEGF-A-antistoffragment som er gitt intravitrealt, og effekten ved våt makuladegenerasjon bygger på hemming av VEGF-drevet karnydannelse og lekkasje.
 
-Mitokondrielt oksidativt fosforyleringsforstyrrelse forårsaket av kjerne-DNA-anomalier er en metabolsk/energiproduksjonssykdom forårsaket av elektronenes transportkjededefekter — en patofysiologi uten kjent overlapping med VEGF-mediator angiogenese. Bevissamlingen selv sier eksplisitt at ingen biologisk vei forbinder de to tilstandene, og at denne høye TxGNN-poengsummen reflekterer en grafneural-nettverksrelasjonell slutning snarere enn et mekanistisk begrunnet signal.
+Det ble ikke identifisert noen tydelig mekanistisk sammenheng mellom VEGF-A-hemming og oksidative fosforyleringsforstyrrelser som skyldes kjerne-DNA-avvik. Den høye scoren (0,997) er utelukkende grafbasert og er ikke underbygget av kliniske studier eller litteratur. Likhet med den opprinnelige indikasjonen er ikke vurdert.
 
-Gitt fraværet av enhver støttende klinisk prøve eller litteraturbevis, og den eksplisitte mekanistiske frakobblingen som er notert i begrunnelsen, bør denne prediksjonen behandles som kun utforskende. Det er verdt å merke seg at de gjenværende rangerte prediksjoner for dette legemidlet (spiserørvariser med/uten blødning, eksokrin pankreatisk insuffisiens) viser samme mønster — høye TxGNN-poeng uten mekanistisk eller klinisk støtte, og når det gjelder spiserørvariseblødning, en begrunnelse som flaggmarkerer en *sannsynlig sikkerhetsbetenkeling i motsatt retning* (anti-VEGF-midler er forbundet med nedsatt vaskulær/sårheling og blødningsrisiko, som teoretisk kunne forverre snarere enn hjelpe en blødningsutsatt tilstand).
+Prediksjonen bør derfor betraktes som en hypotese som krever grunnleggende mekanistisk arbeid før videre vurdering.
 
----
+### Andre predikerte indikasjoner (til orientering)
 
-## Bevis fra kliniske prøver
+| Rang | Predikert indikasjon | TxGNN-score | Evidensnivå | Kommentar |
+|------|------|------|------|------|
+| 2 | Øsofagusvaricer uten blødning | 99,12 % | L5 | Spekulativ VEGF-/angiogenese-begrunnelse; systemisk VEGF-hemming gir blødnings-, tromboemboli- og hypertensjonsrisiko. Intravitreal administrasjon gir ingen plausibel systemisk rute. |
+| 3 | Øsofagusvaricer med blødning | 99,12 % | L5 | Samme begrunnelse; større sikkerhetsbekymring ved aktiv blødning, da hemostase og tilheling kan svekkes. |
+| 4 | Eksokrin pankreasinsuffisiens | 99,07 % | L5 | Ingen identifisert mekanistisk kobling til VEGF-A-hemming. |
 
-For øyeblikket er det ikke registrert relaterte kliniske prøver
-
----
-
-## Litteraturbevis
-
-For øyeblikket er det ingen relatert litteratur tilgjengelig
+Alle fire prediksjonene har anbefalingen «Hold».
 
 ---
 
-## Norsk markedsinformasjon
+## Kliniske studier
 
-Brolucizumab har for øyeblikket ingen markedsføringstillatelse i Norge (Ikke markedsført, 0 lisenser registrert). Ingen produkt-/doseringsform-/indikasjonsdata er tilgjengelige for tabulering.
+Foreløpig er det ikke registrert noen relaterte kliniske studier.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+Foreløpig finnes det ingen relatert litteratur.
 
-*Merk: Advarsels-/kontraindikasjon-/DDI-data kunne ikke hentes fra de gjeldende datakilder. Dette er flaggmarkert i kildebevissamlingen som en blokkerende datagap (DG001) for sikkerhetsvurdering før gjennomføring.*
+---
+
+## Informasjon om det norske markedet
+
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004913 | Beovu | Ikke oppgitt | Våt makuladegenerasjon |
+
+Tillatelsen er registrert som avregistrert (cancelled), og det finnes ingen gyldige tillatelser.
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Kontraindikasjoner fra kunnskapsgraf (ikke preparatomtale):** TxGNNs kunnskapsgraf (PrimeKG) har kontraindikasjonskoblinger mellom brolucizumab og følgende tilstander: uveitt, irissykdom, sykdom i ciliarlegemet, panuveitt, infeksjonssykdom i øyet og konjunktivitt. Dette er grafbaserte data og må verifiseres mot preparatomtalen.
+
+Ytterligere sikkerhetsinformasjon (advarsler, kontraindikasjoner og legemiddelinteraksjoner) finnes ikke i de innsamlede dataene. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Topprangert prediksjon er støttet kun av en modellpoengsum (L5, ingen kliniske prøver eller litteratur), og den mekanistiske begrunnelsen i bevissamlingen selv konkluderer med at det ikke finnes noen kjent biologisk vei som forbinder brolucizumabs anti-VEGF-aktivitet til mitokondrielle oksidativt fosforyleringsforstyrrelse. Kombinert med legemidlets umarkedsførte status i Norge og en blokkering av sikkerhetsmerkingdata, er det ingen grunnlag for å fremme denne kandidaten på dette tidspunktet.
+Prediksjonen er basert utelukkende på en grafmodell (L5) uten støtte fra kliniske studier eller litteratur, og det er ikke identifisert noen plausibel mekanistisk sammenheng. I tillegg er produktet i Norge kun registrert som avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
 
-**For å fortsette, kreves følgende:**
-- TFDA/produsent pakningsvedlegg (advarsler, kontraindikasjoer) — for øyeblikket blokkering (DG001)
-- Bekreftet virkningsmekanisme via DrugBank API-spørring (DG002)
-- Enhver preklinisk eller mekanistisk litteratur som direkte forbinder VEGF-hemming til kjerne-DNA-relaterte mitokondrielle forstyrrelse
-- Ny vurdering av lavere rangerte prediksjoner (spiserørvariser, eksokrin pankreatisk insuffisiens) kun hvis uavhengig klinisk/mekanistisk bevis dukker opp, gitt blødningsrisikobetenkelig allerede notert for kandidaten med variseblødning
-
+**For å gå videre kreves følgende:**
+- Innhenting og gjennomgang av preparatomtalen (advarsler og kontraindikasjoner), som er en blokkerende datamangel
+- Data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Prekliniske eller mekanistiske studier som kan underbygge en kobling mellom VEGF-A-hemming og den predikerte indikasjonen
+- Vurdering av administrasjonsvei og rutekompatibilitet for den predikerte indikasjonen
+- Litteratur- og studiesøk som kan identifisere eventuell støttende evidens
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

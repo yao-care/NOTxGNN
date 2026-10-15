@@ -2,15 +2,15 @@
 layout: default
 title: Tenofovir Disoproxil
 parent: Moderat evidens (L3-L4)
-nav_order: 349
-evidence_level: L3
+nav_order: 410
+evidence_level: L4
 indication_count: 4
 ---
 
 # Tenofovir Disoproxil
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **4** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,77 +29,108 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Tenofovir disoproxil: Fra antiretroviral terapi (HIV) til Simian Immunodeficiency Virus-infeksjon
+# Tenofovir disoproxil: Fra HIV-infeksjon til simian immunsviktvirus-infeksjon
 
-## Oppsummering i en setning
+## Oppsummering i én setning
 
-Tenofovir disoproxil er en nukleotidhemmer av reverstranskriptase (NRTI) og prodrug som brukes klinisk for antiretroviral terapi ved HIV. TxGNN-modellen forutsier en sterk assosiasjon med **Simian Immunodeficiency Virus (SIV)-infeksjon**, støttet av **2 kliniske forsøk** og **19 publikasjoner** — imidlertid bekrefter det underliggende beviset i stor grad tenofovirs allerede kjente rolle i HIV/SIV-profylakse før eksponering (PrEP) i dyremodeller, snarere enn å peke på en ny menneskelig indikasjon.
+Tenofovir disoproxil er en nukleotid revers transkriptase-hemmer som opprinnelig brukes til behandling av **HIV-infeksjon** og **kronisk hepatitt B**.
+TxGNN-modellen predikerer at legemidlet kan være effektivt mot **simian immunsviktvirus-infeksjon (SIV)**.
+Støtten består av **0 kliniske studier** og **20 publikasjoner**, hovedsakelig dyrestudier på makaker. Dette er translasjonell støtte for den godkjente HIV-indikasjonen, ikke en ny human indikasjon.
 
-## Kort oversikt
+---
+
+## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Original indikasjon | Ikke tilgjengelig — legemidlet har ingen lisenspost i Norge (0 godkjennelser); klinisk kjent som del av antiretroviral terapi ved HIV ifølge underliggende bevis |
-| Forutsagt ny indikasjon | Simian Immunodeficiency Virus (SIV)-infeksjon |
-| TxGNN-prediksjonspoeng | 99.95% |
-| Bevisnivå | L3 |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+| Opprinnelig indikasjon | HIV-infeksjon; kronisk hepatitt B (Viread) |
+| Predikert ny indikasjon | Simian immunsviktvirus-infeksjon |
+| TxGNN-prediksjonsscore | 99,95 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun avregistrerte (utgåtte) godkjenninger |
+| Antall godkjenninger | 14 (alle avregistrert) |
+| Anbefalt beslutning | Hold |
+
+---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Foreløpig er detaljerte data om virkningsmekanisme ikke tilgjengelige (datagap, DrugBank-spørring avventer). Basert på evidenspakkens egen rational for omdisponering, er tenofovir disoproxil oral prodrug av tenofovir (PMPA), en nukleotidhemmer av reverstranskriptase som blokkerer reverstranskriptase-enzymet som er delt på tvers av lentivirus.
+Data om virkningsmekanisme er ikke tilgjengelig i de sammenstilte dataene. Basert på kjent kunnskap er tenofovir disoproxil en nukleotid revers transkriptase-hemmer (NRTI). Etter omdanning inne i cellen til tenofovirdifosfat hemmer det viral DNA-syntese gjennom kjedeterminering.
 
-SIV og HIV tilhører begge lentivirus-slekten og bruker strukturelt lignende reverstranskriptase-enzymer, og det er derfor tenofovirs antiviralt aktivitet strekker seg mekanistisk fra HIV til SIV. Denne mekanistiske overlappingen er blitt omfattende validert i profylakse-modeller før og etter eksponering (PrEP/PEP) de siste to tiårene.
+SIV og SHIV har en revers transkriptase som ligner svært mye på HIV-1. Mekanismen er derfor sannsynligvis overførbar. Makakkstudier av PrEP og antiretroviral behandling, også i kombinasjon med emtricitabin, støtter effekt i prekliniske modeller.
 
-Imidlertid peker evidenspakken eksplisitt på et viktig forbehold: **SIV-infeksjon er en ikke-menneskelig primater-/veterinær sykdomsmodell, ikke en menneskelig klinisk indikasjon.** Den underliggende litteraturen representerer ikke en ny omdisponeringsmulighet for menneskelige pasienter — det er preklinisk validering av tenofovirs allerede etablerte HIV PrEP-mekanisme, observert i dyremodellen som brukes til å studere den. Samme forbehold gjelder for prediksjonen på rang 2 (felint AIDS/felint immunsviktsvirus), som er en utelukkende veterinær indikasjon.
+SIV-infeksjon er imidlertid en dyresykdom og en forskningsmodell, ikke en human indikasjon. Verdien ligger i å støtte den allerede godkjente HIV-indikasjonen, ikke i å åpne et nytt reelt repurposing-mål.
 
-## Klinisk forsøksbevis
+De øvrige prediksjonene er svakere:
+- **Felint ervervet immunsviktsyndrom (FIV):** Kun én veterinær, preklinisk publikasjon. Mekanisk plausibelt, men uten human relevans (Hold).
+- **Nevroutviklingsforstyrrelse med ataktisk gange, fraværende tale og redusert kortikal hvit substans:** Ingen identifiserbar mekanistisk kobling og ingen studier. Trolig en artefakt i kunnskapsgrafen (Hold).
+- **Foreldet familiær kombinert hyperlipidemi:** Sykdomstermen er markert som foreldet i ontologien, og tenofovir har ingen kjent lipidsenkende mekanisme (Hold).
 
-| Forsøksnummer | Fase | Status | Innskriving | Viktige funn |
-|---------|------|------|------|---------|
-| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | Fase NA | Trukket tilbake | 0 | Studierte HIV RNA-forfallskinetikk ved bruk av raltegravir (ikke tenofovir); trukket tilbake med null innskriving — lav relevans |
-| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Fase 1/2 | Ukjent | 12 | Vedolizumab + antiretroviral terapi for HIV virologisk remisjon; tenofovir ikke studielegemidlet, status ukjent — lav relevans |
+---
 
-*Merknad: Begge forsøk ble klassifisert som "C" (lav relevans) i den underliggende evidensvurderingen — ingen tester direkte tenofovir disoproxil mot SIV-infeksjon.*
+## Evidens fra kliniske studier
 
-## Litteraturbevis
+Foreløpig er det ingen relaterte kliniske studier registrert for den predikerte indikasjonen.
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
+---
+
+## Litteraturevidens
+
+Utvalg av de mest relevante publikasjonene (dyrestudier og oversikter; ingen RCT):
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [20874040](https://pubmed.ncbi.nlm.nih.gov/20874040/) | 2010 | Oversiktsartikkel | Pharmacotherapy | Gjennomgår systemmiske strategier for profylakse før eksponering (PrEP) for HIV-forebygging |
-| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Dyrestudie | J Infect Dis | TAF + FTC-kombinasjon beskytter makaker mot rektal SHIV-infeksjon |
-| [36477356](https://pubmed.ncbi.nlm.nih.gov/36477356/) | 2022 | Dyrestudie | JCI Insight | Hypoosmoler rektal tenofovir-dusj formulering forhindrer SHIV-erverving hos makaker |
-| [16810108](https://pubmed.ncbi.nlm.nih.gov/16810108/) | 2006 | Dyrestudie | J Acquir Immune Defic Syndr | Oral TDF og topisk GS-7340 beskytter unge makaker mot gjentatt oral SIV-eksponering |
-| [16960777](https://pubmed.ncbi.nlm.nih.gov/16960777/) | 2006 | Dyrestudie | J Infect Dis | TDF-kjemorofylakse gir delvis beskyttelse mot SHIV hos makaker under gjentatte eksponeringar |
-| [22072766](https://pubmed.ncbi.nlm.nih.gov/22072766/) | 2012 | Dyrestudie | J Virol | Vaginal 1% tenofovir-gel gir varig beskyttelse mot SHIV-infeksjon hos makaker |
-| [26743846](https://pubmed.ncbi.nlm.nih.gov/26743846/) | 2016 | Dyrestudie | J Infect Dis | FTC/TDF forhindrer vaginal SHIV-infeksjon selv med klamydia/trichomonas-koinfeksjon |
-| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Dyrestudie | J Infect Dis | TAF/elvitegravir-vaginale innsatser forlenger posteksponeringsbeskyttelse mot SHIV hos makaker |
-| [23633402](https://pubmed.ncbi.nlm.nih.gov/23633402/) | 2013 | Dyrestudie | J Infect Dis | FTC/TDF-profylakse effektiv selv mot tenofovir-resistent SHIV (K65R-mutasjon) |
-| [14557287](https://pubmed.ncbi.nlm.nih.gov/14557287/) | 2003 | Oversiktsartikkel | Clin Microbiol Rev | Klinisk potensial for asykliske nukleosidfosfonate (cidofovir, adefovir, tenofovir) mot DNA-virus-/retrovirus-infeksjoner |
+| [26743846](https://pubmed.ncbi.nlm.nih.gov/26743846/) | 2016 | Dyrestudie (makak) | J Infect Dis | Emtricitabin/TDF forhindret vaginal SHIV-infeksjon hos makaker med klamydia- og trikomonasinfeksjon |
+| [16960777](https://pubmed.ncbi.nlm.nih.gov/16960777/) | 2006 | Dyrestudie (makak) | J Infect Dis | TDF ga delvis beskyttelse mot SHIV ved gjentatte virusutfordringer |
+| [24043812](https://pubmed.ncbi.nlm.nih.gov/24043812/) | 2013 | Dyrestudie (makak) | PNAS | Vaginalring med TDF beskyttet makaker fullstendig mot gjentatte vaginale SHIV-utfordringer |
+| [27275923](https://pubmed.ncbi.nlm.nih.gov/27275923/) | 2016 | Dyrestudie (makak) | PLoS One | Pod-vaginalring med TDF og emtricitabin beskyttet makaker mot gjentatt SHIV-eksponering |
+| [23633402](https://pubmed.ncbi.nlm.nih.gov/23633402/) | 2013 | Dyrestudie (makak) | J Infect Dis | Oral emtricitabin/TDF som profylakse mot tenofovirresistent SHIV med K65R-mutasjon |
+| [16810108](https://pubmed.ncbi.nlm.nih.gov/16810108/) | 2006 | Dyrestudie (spedbarnsmakak) | J Acquir Immune Defic Syndr | Oral TDF og topikal tenofovir GS-7340 mot gjentatte orale SIV-utfordringer |
+| [12404171](https://pubmed.ncbi.nlm.nih.gov/12404171/) | 2002 | Dyrestudie (spedbarnsmakak) | J Infect Dis | Lavdose topikal (oral) TDF for å beskytte spedbarnsmakaker mot SIV |
+| [24914761](https://pubmed.ncbi.nlm.nih.gov/24914761/) | 2014 | Dyrestudie (makak) | AIDS Res Hum Retroviruses | HIV-vaksine kombinert med delvis beskyttende oral PrEP forhindret SHIV-infeksjon |
+| [22964889](https://pubmed.ncbi.nlm.nih.gov/22964889/) | 2012 | Oversikt | Curr Opin HIV AIDS | Dyremodeller for antiretroviral profylakse og neste steg i preklinisk PrEP-forskning |
+| [14557287](https://pubmed.ncbi.nlm.nih.gov/14557287/) | 2003 | Oversikt | Clin Microbiol Rev | Acykliske nukleosidfosfonater (cidofovir, adefovir, tenofovir) mot DNA-virus- og retrovirusinfeksjoner |
 
-## Markedsinformasjon for Norge
+---
 
-Foreløpig ingen autorisasjonsposter — tenofovir disoproxil er **ikke markedsført i Norge** under denne evidenspakken (0 lisenser registrert).
+## Informasjon om det norske markedet
 
-## Sikkerhetshensyn
+Alle 14 godkjenninger er avregistrert. Utvalg på 5:
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og data om legemiddelinteraksjoner er ikke for tiden tilgjengelig i denne evidenspakken — flagget som en kritisk datagap som krever TFDA/offisiell bruksanvisning før noen S1-sikkerhetsvurdering kan gjennomføres.)
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000419 | Viread | – | Kronisk hepatitt B; HIV-infeksjon |
+| EMEA/H/C/000594 | Truvada | – | HIV-infeksjon |
+| EMEA/H/C/004049 | Tenofovir disoproxil Viatris | – | HIV-infeksjon |
+| EMEA/H/C/004120 | Tenofovir disoproxil Zentiva | – | HIV-infeksjon |
+| EMEA/H/C/002574 | Stribild | – | HIV-infeksjon |
 
-## Konklusjon og neste trinn
+---
 
-**Beslutning: Avvent**
+## Sikkerhetsvurderinger
+
+Pakningsvedleggets advarsler og kontraindikasjoner er ikke tilgjengelige i de sammenstilte dataene, og det er ikke funnet registrerte legemiddelinteraksjoner. Se pakningsvedlegget for sikkerhetsinformasjon.
+
+Kunnskapsgrafen (PrimeKG) har imidlertid kontraindikasjonskoblinger til blant annet følgende tilstander (ikke hentet fra preparatomtale, må verifiseres):
+- **Nyre- og lever:** nyresykdom, leversvikt, leversykdom, fettlever, ikke-alkoholisk steatohepatitt, Fanconi-syndrom
+- **Metabolske:** laktatacidose, hypofosfatemi, osteomalaci, rakitt, hypertriglyseridemi, fedme
+- **Hjerterytme:** langt QT-syndrom, torsades de pointes
+- **Øvrige:** kronisk hepatitt C-infeksjon, epilepsi, angstlidelse, galleblæresykdom m.fl.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Ingen av de fire TxGNN-forutsagte indikasjonene representerer en genuin, praktisk gjennomførbar menneskelig omdisponeringsmulighet: de to topp-kandidatene (SIV-infeksjon, felint AIDS) er dyre-/veterinære sykdomsmodeller som kun bekrefter tenofovirs allerede etablerte antiretroviral virkningsmekanisme i ikke-menneskelige verter, mens de gjenværende to (en sjelden nevroutviklingsforstyrrelse og en foreldet hyperlipidemibetegnelse) mangler støttende bevis og er merket L5 (kun modellprediksjon). Dessuten mangler sikkerhedsdata som kreves for selv en foreløpig gjennomgang (kritisk gap).
+Den predikerte indikasjonen (SIV) er en dyremodell uten klinisk studie og uten selvstendig human terapeutisk verdi. Evidensen (L4) er rent preklinisk og støtter primært den allerede godkjente HIV-indikasjonen. I tillegg er alle norske godkjenninger avregistrert, og sikkerhetsdata fra pakningsvedlegget mangler.
 
-**For å fortsette, trengs følgende:**
-- Offisiell TFDA/produsent-bruksanvisning (advarsler, kontraindikasjoner) — for tiden en kritisk gap (DG001)
-- Bekreftet virkningsmekanisme-data fra DrugBank — for tiden en gap med **høy** alvorlighetsgrad (DG002)
-- Avklaring av norsk regulatorisk/markedsstatus, da 0 lisenser for tiden er registrert
-- Hvis forfølgt videre, reformuler søket mot genuint nye *menneskelige* indikasjon, da de nåværende top-kandidater kun validerer tenofovirs etablerte HIV/PrEP-mekanisme i dyremodeller
-
+**For å gå videre kreves:**
+- Hente og analysere pakningsvedlegg (advarsler og kontraindikasjoner) fra legemiddelmyndighetene, som er en blokkerende datamangel for sikkerhetsscreening
+- Fremskaffe data om virkningsmekanisme fra DrugBank
+- Avklare om et reelt humant repurposing-mål finnes, siden de øvrige prediksjonene (FIV, nevroutviklingsforstyrrelse, foreldet hyperlipidemi) mangler biologisk begrunnelse
+- Avklare markedsstatus i Norge, siden alle godkjenninger er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

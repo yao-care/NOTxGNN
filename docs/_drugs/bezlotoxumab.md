@@ -2,7 +2,7 @@
 layout: default
 title: Bezlotoxumab
 parent: Kun modellprediksjon (L5)
-nav_order: 52
+nav_order: 59
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,79 +29,80 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Bezlotoxumab: Fra prevensjon av tilbakefallende *Clostridioides difficile*-infeksjon til akutt kvinnelig bekkenperitonitt
+# Bezlotoksumab: Fra pseudomembranøs enterokolitt til akutt kvinnelig bekkenperitonitt
 
-## Sammendrag i en setning
+## Oppsummering i en setning
 
-> Bezlotoxumab er et monoklonalt antistoff som brukes til å forhindre tilbakefall av *Clostridioides difficile*-infeksjon (CDI) ved å nøytralisere toksin B.
-> TxGNN-modellen forutsier at det kan være effektivt for **Akutt kvinnelig bekkenperitonitt**,
-> men foreløpig **ingen kliniske forsøk** og **ingen publikasjoner** støtter denne retningen, og ingen plausibel mekanistisk sammenheng er blitt identifisert.
-
----
-
-## Raskt oversikt
-
-| Element | Innhold |
-|---------|---------|
-| Originalindikasjon | Ikke tilgjengelig (ingen godkjent indikasjondata på fil) |
-| Forutsagt ny indikasjon | Akutt kvinnelig bekkenperitonitt |
-| TxGNN-prediksjonspoeng | 99.89% |
-| Bevisnivå | L5 |
-| Markedsstatus i Norge | Ikke markedsført (Ikke markedsført) |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+Bezlotoksumab er et monoklonalt antistoff som opprinnelig ble brukt mot pseudomembranøs enterokolitt (Clostridioides difficile-infeksjon).
+TxGNN-modellen forutsier at det kan ha effekt mot **akutt kvinnelig bekkenperitonitt**,
+men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen er kun modellbasert.
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hurtigoversikt
 
-Detaljert data om virkningsmekanismen er foreløpig ikke tilgjengelig. Basert på kjent informasjon er bezlotoxumab et fullt humant monoklonalt antistoff som binder og nøytraliserer *Clostridioides difficile* toksin B, og det brukes til å redusere tilbakefall av CDI hos pasienter som får antibakteriell terapi for infeksjonen. Det har ingen kjent bred-spektrum antimikrobiell, anti-inflammatorisk eller immunmodulatorisk aktivitet utover denne spesifikke toksin-nøytraliseringsfunksjonen.
-
-Akutt kvinnelig bekkenperitonitt er vanligvis forårsaket av blandet aerob/anaerob bakteriinfeksjon fra de kvinnelige kjønnsorganene (f.eks. bekkeninflammasjon), og dens patofysiologi innebærer ikke *C. difficile* toksin B eller noen kjent target av bezlotoxumab. I henhold til denne bevissamlingens egen mekanistiske vurdering er dette en høy-scoret TxGNN-prediksjon uten **identifisert patofysiologisk forbindelse** til stoffets faktiske virkningsmekanisme, og anses som sannsynlig modellstøy snarere enn en biologisk begrunnet hypotese.
-
-Dette mønsteret gjentar seg over alle ti forutsagte indikasjoner i denne bevissamlingen (ektopiske svangerskap, strukturelle gynekologiske lesioner, lumbal spinalkanalstenose, vaskulære misdannelser, osv.) — ingen deler en plausibel mekanistisk begrunnelse med toksin B-nøytralisering, og ingen støttes av noen klinisk forsøk eller litteraturbevis.
-
----
-
-## Bevis fra kliniske forsøk
-
-Foreløpig ingen relaterte kliniske forsøk registrert
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Pseudomembranøs enterokolitt |
+| Predikert ny indikasjon | Akutt kvinnelig bekkenperitonitt |
+| TxGNN-prediksjonsscore | 99,89 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun tilbakekalte/avregistrerte godkjenninger (ikke markedsført) |
+| Antall godkjenninger | 1 (avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Litteraturbevis
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Foreløpig ingen relatert litteratur tilgjengelig
+Data om virkningsmekanisme er ikke tilgjengelig i det innsamlede datagrunnlaget. Basert på kjent informasjon er bezlotoksumab et monoklonalt antistoff som nøytraliserer toksin B fra *Clostridioides difficile*. Effekten ved pseudomembranøs enterokolitt knytter seg til at det hindrer toksinets skadelige virkning på tarmslimhinnen.
+
+Bekkenperitonitt hos kvinner skyldes vanligvis en polymikrobiell, ascenderende infeksjon fra underlivet og er ikke først og fremst toksin B-mediert. Det er derfor ikke identifisert noen plausibel mekanistisk sammenheng mellom toksin B-nøytralisering og denne tilstanden.
+
+Den høye TxGNN-scoren er en ren grafbasert prediksjon uten støtte i studier eller litteratur. Den bør tolkes med stor forsiktighet. Også de øvrige ni predikerte indikasjonene (blant annet embryonal cyste i egglederen, tubar graviditet, salpingitis isthmica nodosa, lumbal spinalstenose og bekkenvaricer) mangler både mekanistisk begrunnelse og evidens.
+
+---
+
+## Klinisk studieevidens
+
+For tiden er ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+For tiden er ingen relatert litteratur tilgjengelig.
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Bezlotoxumab er ikke for tiden markedsført i Norge (0 autorisasjoner på fil). Ingen produkt-/lisensdata tilgjengelig.
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004136 | Zinplava (Merck Sharp & Dohme B.V.) | Ikke oppgitt | Pseudomembranøs enterokolitt (status: avregistrert) |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegget for sikkerhetsinformasjon.
+Se preparatomtalen for sikkerhetsinformasjon. Data om advarsler, kontraindikasjoner og legemiddelinteraksjoner var ikke tilgjengelig i det innsamlede datagrunnlaget.
 
-*(Merk: To blokkerende/høy-alvorlighets-datakløfter finnes — TFDA etikettvarsler/kontraindikasjoner og detaljert MOA — som må løses før noen sikkerhetsevaluering (S1-fase) kan fortsette.)*
+Det kan likevel nevnes at bruk av et monoklonalt antistoff under graviditet vil gi sikkerhetsbekymringer, noe som er relevant for flere av de predikerte kvinnelige/obstetriske tilstandene.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den forutsagte indikasjonen har ingen mekanistisk plausibilitet, ingen bevis fra kliniske forsøk, og ingen litteraturstøtte (Bevisnivå L5 — bare modellprediksjon). Stoffet selv er ikke markedsført i denne jurisdiksjonen, og kritiske sikkerheetsdata (etikettvarsler, kontraindikasjoner) og MOA-detaljer mangler, noe som blokkerer videre evaluering.
+Prediksjonen har evidensnivå L5: høy modellscore, men ingen kliniske studier, ingen litteratur og ingen plausibel mekanistisk sammenheng. Produktet er dessuten ikke lenger markedsført i Norge.
 
-**For å fortsette, trengs følgende:**
-- TFDA/produsentens pakningsvedlegg (varsler og kontraindikasjoner) — foreløpig en **Blokkerende** datakløft
-- Bekreftet detalj om virkningsmekanismen fra DrugBank eller primærlitteratur — foreløpig en **Høy alvorlighets** datakløft
-- Uavhengig biologisk begrunnelse som forbinder toksin B-nøytralisering til patofysiologien av kvinnelig bekkenperitonitt, hvis denne kandidaten skal forfølges videre
-- Gitt fraværet av støttende bevis over alle 10 rangerte prediksjoner i denne pakken, vurder å deprioritere dette legemiddel-indikasjonssett helt i stedet for å investere videre kurateringsinnsats
-
+**For å gå videre kreves følgende:**
+- Hente og analysere preparatomtalen (advarsler og kontraindikasjoner), da dette er en blokkerende datamangel for sikkerhetsscreening
+- Detaljerte data om virkningsmekanisme (MOA)
+- En plausibel biologisk hypotese som knytter toksin B-nøytralisering til bekkenperitonitt, samt prekliniske data
+- Vurdering av tilgjengelighet, siden den eneste godkjenningen er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

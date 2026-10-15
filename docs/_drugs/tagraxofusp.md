@@ -2,7 +2,7 @@
 layout: default
 title: Tagraxofusp
 parent: Kun modellprediksjon (L5)
-nav_order: 337
+nav_order: 397
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,87 +29,100 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tagraxofusp: Fra CD123+ hematologiske maligniseringer til Esotropi
+# Tagraxofusp: Fra lymfom til esotropi
 
-## Sammendrag på én setning
+## Oppsummering i én setning
 
-Tagraxofusp er et CD123-målrettet difteri-toksin-fusjonprotein brukt til CD123-positive hematologiske maligniseringer (etter tilknyttet klinisk forsøksdokumentasjon, inkludert blastisk plasmacytoid dendritic cell neoplasme, BPDCN). TxGNN-modellens topprankede prediksjon er **Esotropi**, en oftalmologisk/nevromuskulær tilstand, men dette signalet er for tiden støttet av **0 kliniske forsøk** og **0 publikasjoner**, og mekanismen for CD123-målrettet cytotoksisk terapi har ingen kjent sammenheng med strabismus.
-
----
-
-## Rask oversikt
-
-| Element | Innhold |
-|------|--------|
-| Originalindikasjon | Ikke bekreftet via norsk regulatorisk data (legemiddelet er ikke markedsført). Klinisk forsøksdokumentasjon i denne bevissamlingen refererer til CD123-positive hematologiske maligniseringer, inkludert blastisk plasmacytoid dendritic cell neoplasme (BPDCN), AML og høyrisikoMDS |
-| Forutsagt ny indikasjon | Esotropi |
-| TxGNN prediksjonspoeng | 99.73% |
-| Bevisnivå | L5 |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Avvent |
+Tagraxofusp er et CD123-rettet cytotoksisk fusjonsprotein (interleukin-3 koblet til avkortet difteritoksin), som i de innsamlede dataene er registrert med lymfom som opprinnelig indikasjon.
+TxGNN-modellen forutsier at legemidlet kan være effektivt mot **esotropi**, men det finnes **0 kliniske studier** og **0 publikasjoner** som støtter denne retningen.
+Prediksjonen bygger kun på modellen og har ingen dokumentert støtte.
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hurtigoversikt
 
-Detaljerte mekanisme-for-virkning-data (DrugBank MOA-felt) er ikke tilgjengelig for denne kandidaten (datagap DG002). Basert på informasjon innebygd i de tilknyttede kliniske forsøkspostene er tagraxofusp et protein-legemiddel-konjugat bestående av et difteri-toksin omdirigert til å målrette CD123, brukt til CD123-positive hematologiske maligniseringer som BPDCN, AML og høyrisikoMDS — en mekanisme som skiller seg fra konvensjonell cytotoksisk kjemoterapi.
-
-Esotropi er en form for strabismus forårsaket av ekstraokular muskel- eller nevromuskulær dysfunksjon, og har ingen etablert patofysiologisk sammenheng med CD123-uttrykk eller hematologisk malignitetsbiologi. Bevissamlingens egen begrunnelse for repurposering for denne kandidaten sier eksplisitt at det ikke er noen kjent mekanistisk sammenheng og ingen støttende klinisk eller litteraturbevis. Denne prediksjonen bør behandles som et høykonfidens TxGNN embedding-rom-signal uten uavhengig biologisk eller klinisk bekreftigelse — sannsynligvis en modellartefakt snarere enn en mulig repurposering-lead.
-
----
-
-## Klinisk forsøksbevis
-
-For tiden ingen relaterte kliniske forsøk registrert.
-
----
-
-## Litteraturbevis
-
-For tiden ingen relatert litteratur tilgjengelig.
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Lymfom |
+| Foreslått ny indikasjon | Esotropi |
+| TxGNN-prediksjonsscore | 99,73 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun kansellert godkjenning |
+| Antall godkjenninger | 1 |
+| Anbefalt beslutning | Hold (avvent) |
 
 ---
 
-## Norsk markedsinformasjon
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Tagraxofusp er for tiden ikke markedsført i Norge (markedsstatus: Ikke markedsført); ingen markedsføringstillatelser er på record. Ingen norsk produkt/lisens-informasjon er tilgjengelig for utvinning.
+Data om virkningsmekanisme var ikke tilgjengelig i de innsamlede dataene. Ut fra allmenn kunnskap er tagraxofusp rettet mot CD123 (IL-3-reseptorens alfa-kjede) og dreper celler som uttrykker denne reseptoren. Legemidlet er i praksis knyttet til hematologiske maligniteter.
+
+Esotropi er en øyemotorisk tilstand (skjeling innover) uten kjent CD123-drevet patologi. Det finnes derfor ingen plausibel mekanistisk kobling mellom den opprinnelige indikasjonen og den foreslåtte nye indikasjonen. Den høye TxGNN-scoren skyldes mest sannsynlig nærhet i kunnskapsgrafen og ikke et biologisk begrunnet forhold.
+
+Også de øvrige ni predikerte indikasjonene (blant annet premaligne neoplasmer, indre øre-neoplasmer, godartet tungesvulst, kystiske neoplasmer og thyreoglossal gangcyste) mangler dokumentert CD123-rasjonale og har kun evidensnivå L5. De fleste av dem er godartede tilstander som vanligvis behandles kirurgisk eller lokalt, og en systemisk cytotoksisk behandling med betydelig toksisitet vil gi en ugunstig nytte-risiko-balanse.
+
+---
+
+## Klinisk studieevidens
+
+Det er for øyeblikket ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+Det er for øyeblikket ingen relatert litteratur tilgjengelig.
+
+---
+
+## Markedsinformasjon for Norge
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005031 | Elzonris | Ikke oppgitt | Lymfom |
+
+Denne godkjenningen er registrert som kansellert, og det finnes ingen gyldige godkjenninger.
 
 ---
 
 ## Cytotoksisitet
 
-Tagraxofusp målretter CD123-positive hematologiske maligniseringer (BPDCN/AML/høyrisikoMDS etter tilknyttet forsøksdokumentasjon) og klassifiseres som antineoplastisk.
-
-| Element | Innhold |
-|------|--------|
-| Cytotoksisitetsklassifisering | Målrettet terapi (CD123-målrettet protein-legemiddel-konjugat/immunotoksin; mekanistisk distinkt fra konvensjonell cytotoksisk kjemoterapi etter forsøksdokumentasjon) |
-| Myelosuppresjon-risiko | Vennligst se pakningsvedleggets advarsler og forholdsregler |
-| Emetogenisitetsklassifisering | Vennligst se pakningsvedleggets advarsler og forholdsregler |
-| Overvåkingspunkter | Vennligst se pakningsvedleggets advarsler og forholdsregler |
-| Håndteringsbeskyttelse | Vennligst se pakningsvedleggets advarsler og forholdsregler |
+| Punkt | Innhold |
+|------|------|
+| Cytotoksisitetsklassifisering | Målrettet cytotoksisk fusjonsprotein (CD123-rettet; IL-3 koblet til difteritoksin) |
+| Risiko for myelosuppresjon | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+| Emetogenisk klassifisering | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Lever- og nyrefunksjon, blodtelling; kapillærlekkasjesyndrom bør overvåkes (basert på allmenn kunnskap) |
+| Håndteringsbeskyttelse | Følg gjeldende retningslinjer for håndtering av cytotoksiske legemidler |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. TFDA etikett-advarsler/kontraindikasjoner har ikke blitt hentet for denne kandidaten ennå (datagap DG001, alvorlighetsgrad: Blokkering) — dette må løses før noen S1 sikkerhet pre-vurdering kan fortsette.
+- **Legemiddelinteraksjoner**: Det er identifisert 66 mulige interaksjoner. De 20 som er vist i de innsamlede dataene er alle av moderat alvorlighetsgrad og gjelder hovedsakelig antidiabetika, blant annet:
+  - Metformin, pioglitazon, glimepirid, klorpropamid, akarbose
+  - GLP-1-agonister (albiglutid, dulaglutid, semaglutid)
+  - DPP-4-hemmere (alogliptin, linagliptin, saksagliptin)
+  - SGLT2-hemmere (kanagliflozin, dapagliflozin, empagliflozin)
+  - Insuliner (aspart, degludek, detemir, glargin, glulisin, human isophan)
+- **Allmenn kunnskap om toksisitet** (ikke fra dataene): kapillærlekkasjesyndrom og levertoksisitet er kjente alvorlige bivirkninger, og de gjør bruk ved godartede tilstander og tidlige stadier uakseptabel uten en definert målgruppe.
+
+Advarsler og kontraindikasjoner fra pakningsvedlegget var ikke tilgjengelige. Se pakningsvedlegget for fullstendig sikkerhetsinformasjon.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Denne kandidaten har null kliniske forsøk eller litteraturbevis (L5) og ingen plausibel mekanistisk sammenheng mellom CD123-målrettet cytotoksisk terapi og esotropi. Bevissamlingens egen begrunnelse karakteriserer dette som manglende biologisk plausibilitet, konsistent med et TxGNN falskt-positiv/modellstøy-signal snarere enn en mulig repurposering-lead.
+Prediksjonen har kun modellstøtte (L5), uten kliniske studier eller litteratur, og det mangler en plausibel CD123-basert mekanisme for esotropi. I tillegg er den eneste norske godkjenningen kansellert, og legemidlets kjente toksisitet gir en ugunstig nytte-risiko-balanse for en ikke-malign øyetilstand.
 
-**For å fortsette er følgende nødvendig:**
-- TFDA/offisiell etikett-data (advarsler, kontraindikasjoner, DDI) — for tiden blokkert (DG001)
-- Bekreftet virkningsmekanisme (DrugBank MOA) — for tiden mangler (DG002)
-- Uavhengig mekanistisk eller preklinisk begrunnelse som forbinder CD123-biologi til oftalmologiske/nevromuskulære tilstander, dersom dette signalet skal forfølges videre
-- **Merk:** Blant de andre rangerte kandidatene i denne bevissamlingen er rank 2 ("pre-malignant neoplasm") forbundet med 5 aktive/pågående kliniske forsøk som involverer tagraxofusp i AML-, BPDCN- og høyrisikoMDS-populasjoner. Selv om disse forsøkene ikke direkte validerer "pre-malignant neoplasm" som en distinkt indikasjon, reflekterer de faktisk, pågående klinisk utvikling innenfor legemidlets eksisterende sykdomsområde og kan være verdt separat vurdering fremfor denne kandidaten.
-
+**For å gå videre kreves følgende:**
+- Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Detaljerte data om virkningsmekanisme (MOA) fra DrugBank
+- Et biologisk rasjonale for CD123-involvering i esotropi, eller en omprioritering mot hematologiske CD123-positive tilstander
+- Prekliniske eller observasjonelle data som støtter en ny indikasjon, før noen klinisk vurdering
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Alpelisib
 parent: Kun modellprediksjon (L5)
-nav_order: 25
+nav_order: 27
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,97 +29,95 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Alpelisib: Fra brystkreft til pulmonær hypertensjon
+# Alpelisib: Fra brystkreft til pulmonal hypertensjon
 
-## Sammendrag på en setning
+## Oppsummering
 
-> Alpelisib er en PI3Kα-hemmer hvis virkelige brukssammenheng i bevissamlingen peker på HR+/HER2-negativ avansert eller metastatisk brystkreft (formelle felt for original-indikasjon og MOA er ikke utfylt i dette datasettet).
-> TxGNN-modellen forutsier at det kan være effektivt for **Pulmonær hypertensjon**, med en prediksjonspoengsum på **99,03%**, men for øyeblikket støttes denne retningen av **0 direkte relevante kliniske studier** og **2 publikasjoner** — og begge publikasjonene beskriver medisinindusert pulmonær/kardial toksisitet i stedet for terapeutisk nytte.
+Alpelisib er en PI3Kα-selektiv hemmer som opprinnelig ble brukt til behandling av brystkreft.
+TxGNN-modellen forutsier at legemidlet kan ha effekt ved **pulmonal hypertensjon**, men dette er foreløpig kun en beregningsmessig prediksjon: det finnes **0 kliniske studier** og **1 publikasjon** (en kasuistikk om en lungebivirkning, ikke en terapeutisk effekt).
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Originalindikasjon | Brystkreft (HR+/HER2-negativ, avansert/metastatisk) — utledet fra klinisk forsøkskontekst; ikke formelt registrert i `taiwan_regulatory`/`original_indications` |
-| Forutsagt ny indikasjon | Pulmonær hypertensjon |
-| TxGNN-prediksjonspoengsum | 99,03% |
-| Bevisnivå | L5 |
-| Markedsstatus i Taiwan | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Brystkreft (Breast Neoplasms) |
+| Predikert ny indikasjon | Pulmonal hypertensjon |
+| TxGNN-prediksjonsscore | 99,03 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun opphevede (trukket) autorisasjoner |
+| Antall autorisasjoner | 1 (0 gyldige, 1 opphevet) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljert mekanismedata for alpelisib er ikke tilgjengelig i denne bevissamlingen (`original_moa: [Data Gap]`). Basert på den hentet litteraturkonteksten er alpelisib en PI3Kα (fosfoinositid-3-kinase alfa)-hemmer som brukes i onkologi, og dens effektivitet ved HR+/HER2-negativ brystkreft er godt etablert i det kliniske forsøksøkosystemet som refereres her (f.eks. den REASSURE virkelige verden-studien).
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Alpelisib er kjent som en PI3Kα-selektiv hemmer, og effekten ved brystkreft er etablert.
 
-Den biologiske begrunnelsen bak TxGNN-modellens høye poengsum (0,99) ser ut til å hvile på PI3Kα/AKT/mTOR-signaleringsbanen, som er implisert i preklinisk litteratur som en bidragsyter til vaskulær ombygging i lunger — en kjernepathologisk mekanisme ved pulmonær arteriell hypertensjon (PAH). Denne delte banen er en plausibel grunn for at modellen knytter en brystkreftmedisin til en lungevaskulær sykdom.
+Mekanistisk er det biologisk plausibelt at hemming av PI3K/AKT/mTOR-signalveien kan påvirke pulmonal vaskulær remodellering, blant annet proliferasjon av glatte muskelceller i lungearteriene og endotel-dysfunksjon. Dette er imidlertid en teoretisk kobling uten støtte fra kliniske data.
 
-Imidlertid støtter den faktiske evidensen som ble hentet for denne kandidaten **ikke** en terapeutisk fordel — den peker i motsatt retning. Det eneste kliniske forsøket som ble identifisert evaluerer en annen medisin (ribociclib) ved brystkreft og har ingen relevans for alpelisib eller pulmonær hypertensjon. De to litteraturkildene beskriver alpelisib-indusert **interstisiell lungesykdom** og **PI3Kα-veiinhibisjon-assosiert biventrikulær kardial atrofi/dysfunksjon** — begge som tyder på at alpelisib kan utgjøre kardiopulmonal risiko hos en populasjon som allerede har nedsatt kardiopulmonal reserve (PH-pasienter), i stedet for å tilby fordel. Dette er et tilfelle av et «prediksjonsbasert, mekanisme-bare» signal uten klinisk støtte og et motstridende sikkerhetssignal.
-
----
-
-## Bevis fra kliniske studier
-
-For øyeblikket finnes det ingen kliniske studier som direkte støtter alpelisib for pulmonær hypertensjon som er registrert.
-
-*(Én studie, [NCT06705504](https://clinicaltrials.gov/study/NCT06705504), ble hentet av søket men ekskludert — det er en retrospektiv virkelige verden-studie av ribociclib og alpelisib hos HR+/HER2-negative brystkreftpasienter, urelatert til alpelisib eller pulmonær hypertensjon; gradert «C — ikke relevant» i bevisvurderingen.)*
+Den eneste tilgjengelige publikasjonen beskriver en alpelisib-indusert interstitiell lungesykdom hos en pasient med avansert brystkreft. Dette tyder på en mulig lungeskade, ikke en terapeutisk nytte, og omhandler ikke pulmonal hypertensjon. Den høye TxGNN-scoren bør derfor tolkes med stor forsiktighet.
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [35730191](https://pubmed.ncbi.nlm.nih.gov/35730191/) | 2023 | Kasuistikk | Journal of Oncology Pharmacy Practice | Rapporterer et tilfelle av alpelisib-indusert interstisiell lungesykdom (progressiv lungefibrose) hos en pasient som ble behandlet for avansert brystkreft — et sikkerhetssignal, ikke effektivitetsbevis, for pulmonale indikasjoner |
-| [31039672](https://pubmed.ncbi.nlm.nih.gov/31039672/) | 2019 | Preklinisk/Translasjonell | Journal of the American Heart Association | Preklinisk studie som viser at PI3Kα-veiinhibisjon (mekanismeklassen alpelisib tilhører) forårsaker distinkt biventrikulær kardial atrofi, ombygging og høyre ventrikel-dysfunksjon — høyre ventrikel-dysfunksjon er en viktig bekymring i pulmonær hypertensjon-behandling |
+| [35730191](https://pubmed.ncbi.nlm.nih.gov/35730191/) | 2023 | Kasuistikk | J Oncol Pharm Pract | Alpelisib-indusert interstitiell lungesykdom hos en pasient med avansert brystkreft |
 
 ---
 
-## Markedsinformasjon for Taiwan
+## Informasjon om det norske markedet
 
-Alpelisib er for øyeblikket **ikke markedsført** i Taiwan — `taiwan_regulatory.total_licenses = 0`, og ingen autorisasjonsposter er tilgjengelig i bevissamlingen.
+| Autorisasjonsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004804 | Piqray | Ikke oppgitt | Brystkreft (status: opphevet) |
 
 ---
 
 ## Cytotoksisitet
 
-*(Inkludert fordi alpelisib er en onkologi-agent per sin kjente kliniske brukssammenheng i den hentet forsøksbevis.)*
-
-| Element | Innhold |
-|---------|---------|
-| Cytotoksisitetsklassifikasjon | Målrettet terapi (PI3Kα-hemmer) — ikke en konvensjonell cytotoksisk kjemoterapiagent, basert på tilgjengelig kontekst |
-| Risiko for myelosuppresjon | Ingen myelosuppresjondata tilgjengelig i denne bevissamlingen — se produktinformasjonen |
-| Emetogenitetsklassifikasjon | Ingen data tilgjengelig i denne bevissamlingen — se produktinformasjonen |
-| Overvåkingspunkter | Utover rutinemessig CBC/lever/nyreovervåking, tyder de hentet litteraturbiler på at lungefunction/bildeovervåking (risiko for interstisiell lungesykdom) og kardial funksjonsvurdering (risiko for biventrikulær atrofi/høyre ventrikel-dysfunksjon) fortjener oppmerksomhet |
-| Håndteringsbeskyttelse | Oral småmolekyl målrettet terapi; intet cytotoksisk-medisin håndteringskrav er etablert i denne bevissamlingen — se institusjonell onkologi-medisin håndtelingspolicy |
+| Punkt | Innhold |
+|------|------|
+| Klassifisering | Målrettet terapi (PI3Kα-hemmer) |
+| Risiko for myelosuppresjon | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Emetogenisitet | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Håndtering og beskyttelse | Se pakningsvedlegget for advarsler og forsiktighetsregler |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se produktinformasjonen for sikkerhetsinformasjon.
+- **Legemiddelinteraksjoner:** Det er registrert 100 interaksjoner i de innsamlede dataene. De 20 som er vist er alle av moderat alvorlighetsgrad (kilde: DDInter). Hovedsakelig gjelder de antidiabetika, som kan påvirke blodsukkeret sammen med alpelisib:
+  - Acarbose, metformin, pioglitazon, acetoheksamid, klorpropamid, glimepirid, glipizid
+  - GLP-1-agonister: albiglutid, dulaglutid, eksenatid
+  - DPP-4-hemmer: alogliptin
+  - SGLT2-hemmere: kanagliflozin, dapagliflozin, empagliflozin, ertugliflozin
+  - Andre: alosetron, bupropion, deksametason, dronabinol, fidaksomicin
 
-*(Merknad: TFDA-produktinformasjon advarsler og kontraindikasjoner er flagget som en **Blokkering** datakluft (DG001) i denne bevissamlingen — sikkerhetsvurdering for denne kandidaten kan ikke gå videre til fase 1 før dette løses. DDI-spørring returnerte heller ingen data.)*
+- **Signal om lungeskade:** Den tilgjengelige litteraturen beskriver interstitiell lungesykdom som en bivirkning, noe som er særlig relevant ved vurdering av en lungeindikasjon.
+
+Ytterligere informasjon om advarsler og kontraindikasjoner finnes i pakningsvedlegget.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Denne kandidaten hviler helt på en modellpreduksjon (Bevisnivå L5) uten støttende kliniske studier og ingen effektivitetslitteratur; den eneste hentet kliniske studien er urelatert, og de to tilgjengelige publikasjonene beskriver i stedet alpelisib-indusert pulmonær og kardial toksisitet — et sikkerhetssignal som går mot bruk ved pulmonær hypertensjon. Kombinert med en blokkering datakluft i TFDA sikkerhetdata, møter denne kandidaten ikke for øyeblikket standarden for å gå videre forbi innledende sikkerhetsvurdering (S0).
+Prediksjonen er kun modellbasert (evidensnivå L5) uten kliniske studier, og den eneste tilgjengelige litteraturen peker mot mulig lungeskade snarere enn nytte. I tillegg er den eneste norske autorisasjonen opphevet.
 
-**For å fortsette, kreves følgende:**
-- TFDA-produktinformasjon / sikkerhetsvarsler og kontraindikasjoner (løser blokkering datakluft DG001)
-- Bekreftet mekanismedokumentasjon (MOA) fra DrugBank (DG002)
-- Dedikerte prekliniske eller kliniske studier som evaluerer alpelisib spesifikt i pulmonær hypertensjon-modeller eller pasienter
-- En kardiopulmonal sikkerhetsvurderingsplan som adresserer interstisiell lungesykdom og høyre ventrikel-dysfunksjon-signalene identifisert i eksisterende litteratur
-
+**For å gå videre kreves følgende:**
+- Prekliniske data (f.eks. dyremodeller for pulmonal hypertensjon) som viser nytte og sikkerhet av PI3Kα-hemming i lungekar
+- Detaljerte data om virkningsmekanisme
+- Gjennomgang av sikkerhetsinformasjon (advarsler og kontraindikasjoner) fra pakningsvedlegget, med særlig vekt på interstitiell lungesykdom og blodsukkerforstyrrelser
+- Vurdering av formuleringsmuligheter og administrasjonsvei for den nye indikasjonen
+- Avklaring av markedsstatus og tilgjengelighet i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

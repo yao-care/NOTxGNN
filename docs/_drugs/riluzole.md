@@ -2,7 +2,7 @@
 layout: default
 title: Riluzole
 parent: Kun modellprediksjon (L5)
-nav_order: 305
+nav_order: 359
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,85 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Riluzole: Fra amyotrofisk lateralsklerose til bilateral parasagittal parietooccipital polymikrogiri
+# Riluzol: Fra amyotrofisk lateralsklerose til bilateral parasagittal parieto-oksipital polymikrogyri
 
 ## Oppsummering i én setning
 
-Riluzole er den godt etablerte behandlingen for amyotrofisk lateralsklerose (ALS), som virker gjennom hemming av glutamatutskilling og eksitotoksisitet i motorneuroner. TxGNN-modellens høyest rangerte prediksjon for denne kandidaten er **Bilateral Parasagittal Parietooccipital Polymikrogiri**, en kortikal utviklingsmisdannelse, men denne retningen er for øyeblikket støttet av **0 kliniske forsøk** og **0 publikasjoner** — det er et rent algoritmisk signal uten biologisk eller klinisk understøtning.
+Riluzol er et legemiddel som opprinnelig brukes til behandling av amyotrofisk lateralsklerose (ALS).
+TxGNN-modellen forutsier at det kan ha effekt ved **bilateral parasagittal parieto-oksipital polymikrogyri**, men det finnes foreløpig **ingen kliniske studier og ingen publikasjoner** som støtter denne spesifikke prediksjonen. Prediksjonen er rent beregningsbasert.
 
 ---
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
-|-------|---------|
-| Opprinnelig indikasjon | Amyotrofisk lateralsklerose (ALS) — formell tekst for regulatorisk indikasjon utilgjengelig; utledet fra litteraturbevis i denne rapporten |
-| Predikert ny indikasjon | Bilateral Parasagittal Parietooccipital Polymikrogiri |
-| TxGNN prediksjonspoengsum | 99.99% (rang 112) |
-| Bevisnivå | L5 |
-| Markedsstatus Norge | ✗ Ikke på markedet |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvente |
+|------|------|
+| Opprinnelig indikasjon | Amyotrofisk lateralsklerose |
+| Predikert ny indikasjon | Bilateral parasagittal parieto-oksipital polymikrogyri |
+| TxGNN-prediksjonsscore | 99,99 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Antall tillatelser | 2 (begge avregistrert) |
+| Anbefalt beslutning | Hold (avvent) |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte, formelt dokumenterte data om virkningsmekanisme er ikke tilgjengelig i denne bevisepakken (flagget som høy alvorligheitsgrad datamangel). Litteraturbevis knyttet til en lavere rangert prediksjon i samme pakke (PMID 21128691, 20942785, 31108504) beskriver konsistent riluzole som en **glutamaturskilling-hemmer / spenningsavhengig natriumkanalblokker** som reduserer eksitotoksisk skade på kortikal og spinal motorneuroner — det farmakologiske grunnlaget for dens FDA-godkjente bruk ved ALS siden 1995.
+Detaljerte data om virkningsmekanismen er for tiden ikke tilgjengelige i de sammenstilte dataene. Basert på kjent informasjon antas riluzol å modulere glutamaterg signaloverføring, og effekten ved ALS er etablert. Mekanistisk er en overføring til polymikrogyri derfor spekulativ.
 
-Den høyest rangerte predikerte indikasjonen her, bilateral parasagittal parietooccipital polymikrogiri, er en **kortikal utviklingsmisdannelse** snarere enn en nevrodegenerativ eller eksitotoksisitetsdrevet sykdom. Ifølge bevisepakkens egen mekanistiske vurdering, er det **ingen klar patofysiologisk forbindelse** mellom riluzoles glutamatmoduleringsvirkning og patologi knyttet til kortikal misdannelse — begrunnelsen karakteriserer eksplisitt dette som «screeningsstøy» som oppstår fra en høy TxGNN-poengsum uten mekanistisk støtte.
+Polymikrogyri er en utviklingsmessig misdannelse i hjernebarken, mens ALS er en nevrodegenerativ sykdom. Sammenhengen mellom de to er svak, og den høye TxGNN-scoren er kun en grafbasert prediksjon uten støtte i kliniske eller litterære data.
 
-Derimot ligger flere andre kandidater innenfor samme prediksjonsett (f.eks. rang 8, «amyotrofisk lateralsklerose, mottakelighet for», som nådde L1-bevis med 19 støttende publikasjoner) direkte innenfor ALS-sykdomsspekteret og deler sterk mekanistisk sannsynlighet med riluzoles kjente farmakologi. Denne høyest rangerte kandidaten gjør ikke det.
-
----
-
-## Bevis fra kliniske forsøk
-
-Ingen relaterte kliniske forsøk er for øyeblikket registrert.
+Til sammenligning har flere andre prediksjoner for riluzol sterkere biologisk logikk ved analogi med ALS, for eksempel *lower motor neuron syndrome with late-adult onset* (rangert som nr. 3), *monomelic amyotrophy* (nr. 6) og *Mills syndrome* (nr. 7). Også for disse mangler studier som underbygger bruken. Oppføringene *amyotrophic lateral sclerosis, susceptibility to* (nr. 8) og *ALS type 22* (nr. 10) er i praksis varianter av den eksisterende ALS-indikasjonen og ikke reell reposisjonering.
 
 ---
 
-## Litteraturbevis
+## Kliniske studier
 
-Ingen relatert litteratur er for øyeblikket tilgjengelig.
-
----
-
-## Markedsinformasjon Norge
-
-Riluzole er for øyeblikket ikke på markedet i denne regionen, og ingen autorisasjonsregistreringer er tilgjengelige i dette datasettet (0 lisenser på fil).
+Foreløpig er det ikke registrert noen relaterte kliniske studier.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Se pakningsvedlegget for sikkerhetsinformasjon.
-
-*(Merk: Denne kandidaten har en blokkering-alvorligheitsgrad datamangel — TFDA/regulatoriske merkingadvarsler og kontraindikasjoner er ikke ennå hentet, som etter interne scoringsregler forhindrer oppføring i sikkerhetspre-screeningsfasen S1.)*
+Foreløpig finnes det ingen relatert litteratur for den predikerte indikasjonen.
 
 ---
 
-## Konklusjon og neste trinn
+## Markedsinformasjon for Norge
 
-**Beslutning: Avvente**
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000109 | Rilutek | – | Amyotrofisk lateralsklerose |
+| EMEA/H/C/002622 | Riluzole Zentiva | – | Amyotrofisk lateralsklerose |
+
+Begge tillatelsene er avregistrert, så det finnes for tiden ingen gyldige markedsføringstillatelser.
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Kontraindikasjoner/risikosykdommer fra kunnskapsgraf (ikke fra preparatomtale):** nøytropeni, agranulocytose, rusmiddelmisbruk/avhengighet, hyperbilirubinemi (inkludert arvelig form), Gilberts syndrom, interstitiell lungesykdom og legemiddelindusert leverskade.
+- **Legemiddelinteraksjoner:** 44 interaksjoner er identifisert. Eksempler på de som er klassifisert som moderate: obetikolsyre, naltrekson, deferasirox, osilodrostat, anagrelid, asparaginase (E. coli), brentuksimab vedotin, klofarabin, metotreksat og epirubicin. Blant mindre alvorlige er omeprazol, koffein, teofyllin og aminofyllin. For flere (metformin, simvastatin, ranitidin, cyanokobalamin, salbutamol, ibuprofen) er alvorlighetsgraden ukjent.
+- **Leverpåvirkning:** Litteraturen oppgir at omtrent 50 % av ALS-pasienter på oral riluzol har ALAT over øvre normalgrense, 8 % over 3× og 2 % over 5×.
+
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Denne prediksjonen er støttet kun av en rå TxGNN-likhetsscore (L5), uten kliniske forsøk, uten litteratur, og uten plausibel mekanistisk forbindelse mellom riluzoles glutamat-eksitotoksisitet-farmakologi og et kortikal misdannelsessyndrom. Bevisepakkens egen begrunnelsestekst merker dette som sannsynligvis algoritmisk støy.
+Prediksjonen har høy modellscore, men ingen kliniske studier eller litteratur, og mekanismen er spekulativ for en utviklingsmessig kortikal misdannelse. Legemidlet har dessuten ingen gyldig markedsføringstillatelse i Norge for øyeblikket.
 
-**For å fortsette er følgende nødvendig:**
-- Prekliniske/mekanistiske studier som etablerer en biologisk begrunnelse som knytter glutamatmodulering til polymikrogiri-patofysiologi
-- Formell dokumentasjon av virkningsmekanisme (for øyeblikket en høy alvorligheitsgrad datamangel)
-- TFDA/merkingsnivå advarsler, kontraindikasjoner og DDI-data (for øyeblikket en blokkering-alvorligheitsgrad datamangel som forhindrer sikkerhetspre-screening)
-- Vurder å omdirigere evalueringsinnsats mot **rang 8 (ALS-mottakelighet)** innenfor samme prediksjonsett, som allerede når L1-bevis med 19 støttende publikasjoner og en «Fortsett med sikringsmekanismer»-anbefaling — en vesentlig sterkere kandidat enn den høyest rangerte oppføringen som er gjennomgått her.
-
+**For å gå videre kreves:**
+- Data om virkningsmekanismen (MOA) for riluzol
+- Systematisk litteratursøk spesifikt for polymikrogyri og glutamatmodulering
+- Preparatomtale med advarsler og kontraindikasjoner (mangler i datagrunnlaget og blokkerer sikkerhetsscreening)
+- Avklaring av markedsstatus og tilgjengelighet i Norge
+- Vurdering av mer plausible kandidater blant de øvrige prediksjonene (for eksempel motornevronsykdommer) som første prioritet
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

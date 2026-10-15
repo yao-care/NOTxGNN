@@ -2,7 +2,7 @@
 layout: default
 title: Siltuximab
 parent: Kun modellprediksjon (L5)
-nav_order: 324
+nav_order: 383
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,77 +29,88 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-# Siltuximab: Fra multisentrisk Castlemans sykdom til ekstrakutan mastocytom
+# Siltuksimab: Fra Castlemans sykdom til ekstrakutant mastocytom
 
-## Sammenfattende setning
+## Oppsummering i en setning
 
-> Siltuximab er et anti-IL-6 kimerikk monoklonalt antistoff, etablert for behandling av HHV-8-negativ multisentrisk Castlemans sykdom.
-> TxGNN-modellen forutsier at det kan være effektivt for **Ekstrakutan mastocytom**,
-> men denne retningen er for tiden støttet av **0 kliniske forsøk** og **0 publikasjoner** — det er en ren modellpreduksjon uten mekanistisk eller klinisk underbyggelse.
+Siltuksimab er et monoklonalt antistoff mot interleukin-6 (IL-6), opprinnelig brukt til behandling av gigantisk lymfeknutehyperplasi (Castlemans sykdom).
+TxGNN-modellen forutsier at legemidlet kan være virksomt mot **ekstrakutant mastocytom**, men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen bygger kun på modellen.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Multisentrisk Castlemans sykdom (HHV-8 negativ) *(ikke tilstede i legemiddel-/reguleringsposten; utledet fra den mekanistiske begrunnelsen gitt for Kaposis sarkomskandidat)* |
-| Forutsagt ny indikasjon | Ekstrakutan mastocytom |
-| TxGNN-prediksjonspoeng | 99.64% |
-| Bevisnivå | L5 (kun modellpreduksjon) |
-| Markedsstatus i Norge | Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Hold |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Gigantisk lymfeknutehyperplasi (Castlemans sykdom) |
+| Predikert ny indikasjon | Ekstrakutant mastocytom |
+| TxGNN-prediksjonsscore | 99,64 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun tilbakekalt/avregistrert godkjenning (ingen gyldig markedsføringstillatelse) |
+| Antall godkjenninger | 1 (0 gyldige, 1 avregistrert) |
+| Anbefalt beslutning | Hold (avvent) |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljert mekanisme-for-virkning (MOA)-data ikke tilgjengelig (flagget som høyalvorlighets-data-gap). Basert på de mekanistiske notatene som følger med dette evidenskorpus, er siltuximab et anti-IL-6 kimerikk monoklonalt antistoff som blokkerer IL-6/STAT3-signalering, og dets effektivitet ved multisentrisk Castlemans sykdom — en cytokin-drevet lymfoproliferativ lidelse — er godt etablert.
+Siltuksimab blokkerer IL-6, en sentral betennelsescytokin. Detaljerte opplysninger om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Ut fra kjent informasjon er siltuksimab et anti-IL-6-antistoff, og effekten ved Castlemans sykdom, en lymfoproliferativ lidelse drevet av IL-6, er godt etablert.
 
-Ekstrakutan mastocytom er en sjelden, lokalisert mastcelltumor. Det er en løs biologisk begrunnelse i det at IL-6-nivåer har blitt observert å korrelere med sykdomsbyrde i noen mastcellsykdommer, men evidenskorpuset noterer eksplisitt at **ingen direkte mekanistiske data støtter IL-6 som en nøkkeldriver for denne spesifikke, sjeldne tumorundertypen**. Denne prediksjonen er derfor et høyt-scorende modellresultat uten noen bekreftet mekanistisk, klinisk eller litteraturbevis, konsistent med dens L5-bevisnivå og «Hold»-anbefaling.
+Koblingen til mastcellesvulster er foreløpig bare en grafbasert prediksjon fra TxGNN. IL-6 kan bidra til mastcellebiologi og det inflammatoriske mikromiljøet, men det er ikke levert klinisk dokumentasjon eller litteratur som støtter denne indikasjonen. Likheten mellom den opprinnelige og den nye indikasjonen er ikke vurdert.
 
-Det er verdt å merke seg at andre prediksjoner i denne pakken — særlig hepatisk veno-okklusive sykdom (rangering 3, endoteleskade med IL-6-heving post-HSCT) og Kaposis sarkom (rangering 5, viral IL-6 fra KSHV/HHV-8 som overlapper med siltuximabs godkjente indikasjon for multisentrisk Castlemans sykdom) — har noe sterkere biologisk plausibilitet enn den topprangerte ekstrakutan mastocytom-prediksjonen, men ingen har for tiden direkte klinisk bevis for siltuximab-bruk.
-
----
-
-## Klinisk forsøksbevis
-
-For tiden ingen tilknyttede kliniske forsøk registrert
+Det bør også nevnes at flere andre predikerte indikasjoner har lignende score (blant annet hepatisk veno-okklusiv sykdom, Kaposis sarkom og familiær middelhavsfeber). Av disse har Kaposis sarkom den mest plausible, men indirekte, mekanistiske begrunnelsen: HHV-8 koder for en viral IL-6-homolog og er også en årsak til multisentrisk Castlemans sykdom.
 
 ---
 
-## Litteraturbevis
+## Klinisk studiedokumentasjon
 
-For tiden ingen tilknyttet litteratur tilgjengelig
+Det er foreløpig ingen registrerte kliniske studier knyttet til denne indikasjonen.
+
+---
+
+## Litteraturdokumentasjon
+
+Det finnes foreløpig ingen relatert litteratur for denne indikasjonen.
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Siltuximab har for tiden ingen markedsautorisasjoner i Norge (0 autorisasjoner; markedsstatus: Ikke markedsført).
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/003708 | Sylvant | – | Gigantisk lymfeknutehyperplasi |
+
+Godkjenningen har status avregistrert. Det finnes ingen gyldige godkjenninger i dag.
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegget for sikkerhetsinformasjon. (TFDA-merkingsadvarsler/kontraindikasjoner er flagget som blokkerings-data-gap — se Neste trinn.)
+**Legemiddelinteraksjoner** (100 interaksjoner funnet i databasen; utvalg nedenfor):
+
+- **Alvorlig (Major):** deferipron
+- **Moderat:** simvastatin, apiksaban, warfarin, rivaroksaban, dikumarol, lidokain, hydrokodon, teofyllin, roflumilast, aminofyllin, oksytrofyllin, takrolimus, fentanyl, stivkrampetoksoid-vaksine, nifedipin
+- **Mindre (Minor):** sinksulfat, sinkacetat, sinkglukonat, sinkklorid
+
+Mange av interaksjonene gjelder legemidler som metaboliseres via CYP-enzymer, noe som er forenlig med at IL-6-blokade kan normalisere CYP-aktiviteten. Dette bør vurderes nærmere ved samtidig bruk.
+
+Informasjon om advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelig. Se preparatomtalen for øvrig sikkerhetsinformasjon.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Hold**
+**Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Topprangeringen (ekstrakutan mastocytom) har ingen støttende kliniske forsøk eller litteratur, og legemiddelets egen mekanisme-for-virkning-data mangler — bevis er utilstrekkelig til å gå videre enn modellprediksjonstrinnet (L5).
+Prediksjonen for ekstrakutant mastocytom støttes bare av TxGNN-modellen (evidensnivå L5), uten kliniske studier eller publikasjoner. I tillegg har legemidlet ingen gyldig markedsføringstillatelse i Norge, og viktige sikkerhetsdata fra preparatomtalen mangler.
 
-**For å fortsette, er følgende nødvendig:**
-- TFDA-merkingsdata (advarsler/kontraindikasjoner) — for tiden et blokkerings-data-gap som hindrer S1 sikkerhetsforhåndsscreening
-- Bekreftet mekanisme-for-virkning (MOA)-data fra DrugBank for å støtte mekanistisk-koblings-analyse
-- Sykdomsspesifikk preklinisk eller case-nivå bevis for ekstrakutan mastocytom før ytterligere evaluering
-- Vurder å re-prioritere evaluering mot kandidater med sterkere mekanistisk plausibilitet allerede notert i denne pakken (f.eks. hepatisk veno-okklusive sykdom, Kaposis sarkom), avhengig av dedikert evidensøk for disse indikasjonene
-
+**For å gå videre kreves følgende:**
+- Hente og analysere preparatomtalen (advarsler og kontraindikasjoner), slik at sikkerhetsvurderingen kan gjennomføres
+- Supplere data om virkningsmekanisme (MOA)
+- Gjennomføre litteratursøk og prekliniske studier som undersøker IL-6s rolle i mastcellesvulster
+- Avklare tilgjengelighet og status for markedsføringstillatelse i Norge
+- Vurdere om Kaposis sarkom bør prioriteres som et alternativt forskningsspørsmål, siden den mekanistiske begrunnelsen der er sterkere (evidensnivå L4)
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Degarelix
 parent: Kun modellprediksjon (L5)
-nav_order: 103
+nav_order: 121
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,81 +29,115 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Degarelix: Fra GnRH-avhengige hormonelle tilstander til hypertrikose
+# Degarelix: Fra prostatakreft til hypertrikose
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-> Degarelix er en GnRH-antagonist (gonadotropin-releasing hormone) som undertrykker LH/FSH og nedstrøms kjønnshormonsekresjonen; dets etablerte kliniske bruk (f.eks. avansert hormonabhengig prostatakreft) er ikke registrert i denne bevissamlingen.
-> TxGNN-modellens toppprediksjon er **Hypertrikose (sykdom)**,
-> men dette støttes av **0 kliniske studier** og **0 publikasjoner**, og legemidlets egen repurposeringsargumentasjon markerer den mekanistiske koblingen som sannsynlig modellstøy snarere enn en genuin biologisk sammenheng.
+Degarelix er en GnRH-reseptorantagonist som opprinnelig brukes til behandling av prostatakreft.
+TxGNN-modellen forutsier at legemidlet kan ha effekt ved **hypertrikose**, men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen er kun modellbasert.
 
 ---
 
 ## Hurtigoversikt
 
-| Emne | Innhold |
-|------|---------|
-| Opprinnelig indikasjon | Ikke oppgitt i bevissamlingen (datakløft — se DG001/DG002). Degarelix er en GnRH-antagonist; denne klassen brukes for hormonabhengige tilstander på gonadal-aksen, men ingen bekreftet opprinnelig indikasjon ble oppgitt. |
-| Forutsagt ny indikasjon | Hypertrikose (sykdom) |
-| TxGNN-prediksjonspoengsum | 99.99% |
-| Bevisnivå | L5 |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Prostatakreft (Prostatic Neoplasms) |
+| Predikert ny indikasjon | Hypertrikose (hypertrichosis) |
+| TxGNN-prediksjonsscore | 99,99 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun trukkede (kansellerte) godkjenninger |
+| Antall godkjenninger | 2 (begge kansellert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige i bevissamlingen (DG002, høy alvorlighetsgrad). Basert på repurposeringsargumentasjonen som følger prediksjonen, er Degarelix en GnRH-antagonist som hemmer LH/FSH-frigjøring og påfølgende produksjon av kjønnssteroider. Denne mekanismen er godt etablert for tilstander avhengig av gonadal-aksen.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Basert på kjent informasjon er degarelix en GnRH-reseptorantagonist som hemmer LH og FSH og dermed reduserer produksjonen av androgener fra gonadene. Dette er grunnlaget for effekten ved hormonavhengig prostatakreft.
 
-Imidlertid er hypertrikose (overdreven hårvekst) typisk drevet av arvelige følikkeleravvikelser snarere enn signalering av kjønnshormoner. Bevissamlingen karakteriserer eksplisitt denne forbindelsen som «embedding similarity noise» (相似度雜訊) snarere enn en underbygget mekanistisk forbindelse — det foreligger ingen kjent vei hvorved GnRH-antagonisme ville påvirke hårsekkelbiologien i denne tilstanden.
+Sammenhengen mellom den opprinnelige og den nye indikasjonen er svak. Hypertrikose er generelt ikke androgendrevet (i motsetning til hirsutisme). Kjemisk kastrering ville snarere forventes å redusere enn å fremkalle androgenavhengig hårvekst. Den svært høye scoren (0,9999) er en grafbasert prediksjon uten støtte fra kliniske data eller litteratur, og den biologiske plausibiliteten er tvilsom.
 
-En biologisk mer koherent kandidat lavere i rangeringen er **sentral prekok pubertet** (rang 9, L4-bevis). Dette er en GnRH-avhengig tilstand som GnRH-agonister (f.eks. leuprolide) allerede er standardbehandling for; en GnRH-antagonist som degarelix kunne teoretisk undertrykke aksen mer direkte, uten den innledende oppblusningen som observeres med agonister. Dette er bare en mekanistisk hypotese på klassenivå — det foreligger for øyeblikket ingen degarelix-spesifikk klinisk bevis eller kasuistikk for denne indikasjonen.
+Øvrige topp-10-prediksjoner er også uten evidens:
 
----
+| Rang | Predikert indikasjon | Score | Vurdering |
+|------|------|------|------|
+| 2 | Ambras-type hypertrichosis universalis congenita | 99,98 % | Ingen plausibel mekanisme (TRPS1-regulering, ikke GnRH-aksen); trolig artefakt i kunnskapsgrafen |
+| 3 | Syndrom med Dandy-Walker-malformasjon | 99,98 % | Medfødt strukturell defekt; ingen mekanistisk relevans |
+| 4 | Misdannelsessyndrom med tann-/periodontal komponent | 99,98 % | Ingen kjent mekanisme; sannsynligvis nettverksnærhet |
+| 5 | Isolert genetisk hårskaftavvik | 99,98 % | Strukturelle genvarianter; androgensuppresjon forventes ikke å hjelpe |
+| 6 | Allergisk urtikaria | 99,97 % | Degarelix kan utløse histaminfrigjøring, så snarere et sikkerhetssignal |
+| 7 | Kuldeurtikaria | 99,86 % | Samme bekymring som ved allergisk urtikaria |
+| 8 | Familiær mannlig-begrenset tidlig pubertet | 99,84 % | Aktiverende LHCGR-mutasjoner; GnRH-antagonist virker oppstrøms, effekt usannsynlig |
+| 9 | Sentral tidlig pubertet 1 | 99,67 % | Biologisk sammenhengende (GnRH-aksesuppresjon), men uvalidert og uten pediatriske sikkerhetsdata |
+| 10 | Familiær isolert trikomegali | 99,65 % | Ingen kjent kobling til GnRH-androgenaksen |
 
-## Klinisk forsøksbevis
-
-Det er for øyeblikket ingen registrerte relevante kliniske studier.
-
----
-
-## Litteraturbevis
-
-Det er for øyeblikket ingen relevant litteratur tilgjengelig.
-
-*(Merk: 20 litteraturposter ble vedlagt en lavere rangert kandidat — «malformasjonssyndrom med tann-/tannkjøtt-komponent», rang 4 — men alle gjelder generell patofysiologi og behandling av tannkjøttsykdom, uten nevning av degarelix eller GnRH-baner. Disse vurderes som database co-forekomststøy i stedet for legemiddel-spesifikk bevis og er derfor ikke inkludert her.)*
-
----
-
-## Norsk markedsinformasjon
-
-Degarelix har for øyeblikket ingen markedsautoritasasjoner i Norge (0 godkjennelser registrert; markedsstatus: Ikke markedsført).
+Den mest mekanistisk sammenhengende hypotesen er sentral tidlig pubertet. Den bør betraktes som et forskningsspørsmål, ikke en etablert indikasjon.
 
 ---
 
-## Sikkerhetshensyn
+## Klinisk studieevidens
 
-Se pakningsvedlegget for sikkerhetsinformasjon.
-
-*(Nøkkeladvarslinger, kontraindikasjoner og legemiddel-legemiddel-interaksjonsdata er alle flagget som datakløfter i denne bevissamlingen — se DG001, «Blokkering» alvorlighetsgrad, som blokkerer gjennomføringen av innledende sikkerhetsvurdering (S1) til TFDA/lokale etikett-data er tilgjengelige.)*
+Det er foreløpig ingen relaterte kliniske studier registrert.
 
 ---
 
-## Konklusjon og neste skritt
+## Litteraturevidens
 
-**Beslutning: Avvent**
+Det foreligger foreløpig ingen relatert litteratur.
+
+---
+
+## Informasjon om det norske markedet
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/006048 | Degarelix Accord | – | Prostatakreft (kansellert) |
+| EMEA/H/C/000986 | Firmagon | – | Prostatakreft (kansellert) |
+
+Begge godkjenningene er kansellert, og det finnes ingen gyldige godkjenninger i dag.
+
+---
+
+## Cytotoksisitet
+
+| Punkt | Innhold |
+|------|------|
+| Cytotoksisitetsklassifisering | Hormonbehandling (GnRH-antagonist), ikke et konvensjonelt cytotoksisk middel |
+| Myelosuppresjonsrisiko | Ikke tilstrekkelige data; se pakningsvedlegget |
+| Emetogenisitetsklassifisering | Ikke tilstrekkelige data; se pakningsvedlegget |
+| Overvåkingspunkter | Se pakningsvedleggets advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Se pakningsvedleggets advarsler og forholdsregler |
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Kontraindikasjoner fra kunnskapsgrafen (ikke fra preparatomtale):** langt QT-syndrom, familiært langt QT-syndrom, torsades de pointes, leversykdom, galleblæresykdom og kaliummangel.
+- **Legemiddelinteraksjoner:** 100 interaksjoner funnet. Blant de 20 som er vist i de innsamlede dataene er **alvorlige (Major)**:
+  - Cisaprid
+  - Dolasetron
+
+  Mange moderate interaksjoner gjelder legemidler som kan påvirke QT-intervallet eller elektrolyttbalansen, blant annet klaritromycin, levofloksacin, ondansetron, granisetron, palonosetron, famotidin og loperamid, samt laksantia/tarmrensemidler (bisakodyl, pikosulfat, polyetylenglykol, laktulose, laktitol, magnesiumsitrat, magnesiumhydroksid, glyserin, mineralolje, lakserolje). Metronidazol er klassifisert som mindre (Minor).
+- **Histaminfrigjøring:** Degarelix er kjent for histaminfrigjøring og reaksjoner på injeksjonsstedet. Dette er særlig relevant for de predikerte urtikariaindikasjonene.
+
+Se pakningsvedlegget for fullstendig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Topprangert prediksjon (hypertrikose) har ingen støttende kliniske studier eller litteratur og vurderes av bevissamlingen selv som mekanistisk usannsynlig, sannsynlig støydrevet assosiasjon (Bevisnivå L5). Selv den mest biologisk plausible kandidaten blant disse — sentral prekok pubertet — forblir på L4 (bare mekanisme/klasse-nivå resonnement, ingen direkte klinisk bevis for degarelix), og sikkerhetsdataene som kreves for enhver progresjon er for øyeblikket blokkert av en datakløft.
+Prediksjonen om hypertrikose har kun modellstøtte (evidensnivå L5), uten kliniske studier eller litteratur, og den biologiske plausibiliteten er svak. I tillegg har legemidlet i dag kun kansellerte godkjenninger i Norge.
 
-**For å fortsette, er følgende nødvendig:**
-- Løs DG001 (Blokkering): oppnå TFDA/lokale pakningsvedlegg advarslinger og kontraindikasjoner før noen S1 sikkerhetsvurdering kan fortsette
-- Løs DG002 (Høy): bekreft degarelix' virkningsmekanisme og godkjent(e) original indikasjon(er) via DrugBank API
-- Hvis du forfølger hypotesen om sentral prekok pubertet, iverksett et målrettet litteratur-/preklinisk søk spesifikt for degarelix (ikke GnRH-agonister generelt) for å teste mekanistisk plausibilitet før videre ressurser tildeles
-- Gitt toppkandidatens mekanistiske usannsynlighet, vurder å nedprioritere hypertrikose og i stedet vurdere lavere rangert, mekanistisk koherent kandidater
-
+**For å gå videre kreves følgende:**
+- Innhenting og gjennomgang av pakningsvedlegg (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsscreening
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Systematisk litteratur- og studiesøk for de predikerte indikasjonene
+- Dersom man vil forfølge en hypotese, bør sentral tidlig pubertet prioriteres, med prekliniske og pediatriske sikkerhetsdata
+- Avklaring av årsaken til de kansellerte godkjenningene og eventuell tilgjengelighet i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

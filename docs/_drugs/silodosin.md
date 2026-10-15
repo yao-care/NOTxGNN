@@ -2,7 +2,7 @@
 layout: default
 title: Silodosin
 parent: Kun modellprediksjon (L5)
-nav_order: 323
+nav_order: 382
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,61 +29,89 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Silodosin: Fra Benign Prostatahyperplasi (BPH) til Ambras Type Hypertrichosis Universalis Congenita
+# Silodosin: Fra godartet prostataforstørrelse til Ambras-type hypertrichosis universalis congenita
 
-## Sammenfatting i én setning
+## Oppsummering i én setning
 
-Silodosin er en høyselektiv α1A-adrenergisk reseptorantagonist, klinisk kjent for å behandle symptomer på nedre urinveier relatert til benign prostatahyperplasi (BPH), ved å virke på glatt muskulatur i prostata og blærehals. TxGNN-modellen forutsier en mulig sammenheng med **Ambras Type Hypertrichosis Universalis Congenita**, en sjelden medfødt hårvekstforstyrrelse, men dette er for øyeblikket støttet av **0 kliniske forsøk** og **0 publikasjoner**, og selve evidenspakken flagget ingen identifiserbar mekanistisk forbindelse.
+Silodosin er en selektiv alfa-1A-adrenerg reseptorantagonist som opprinnelig brukes til behandling av godartet prostataforstørrelse (benign prostatahyperplasi).
+TxGNN-modellen forutsier at legemidlet kan være effektivt mot **Ambras-type hypertrichosis universalis congenita**, men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen er rent beregningsbasert.
 
-## Rask oversikt
+---
 
-| Element | Innhold |
+## Hurtigoversikt
+
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Ikke formelt angitt (`original_indications` er tom; `original_moa` er flagget som et datakløft). Forutsigelsesgrunnlagsteksten refererer til silodosins kjente virkning på glatt muskulatur i prostata og blærehals, i samsvar med dets etablerte BPH-bruk. |
-| Forutsagt ny indikasjon | Ambras Type Hypertrichosis Universalis Congenita |
-| TxGNN-forutsigelsespoengsum | 99.99% (global rangering 153) |
-| Bevisnivå | L5 (kun modellforutsigelse — ingen forsøk, ingen litteratur) |
-| Norges markedsstatus | Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Avvent |
+| Opprinnelig indikasjon | Godartet prostataforstørrelse (benign prostatahyperplasi) |
+| Predikert ny indikasjon | Ambras-type hypertrichosis universalis congenita |
+| TxGNN-prediksjonsscore | 99,99 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun trukne/avsluttede tillatelser |
+| Antall tillatelser | 3 (alle trukket tilbake) |
+| Anbefalt beslutning | Hold (avvent) |
 
-## Hvorfor er denne forutsigelsen rimelig?
+---
 
-Detaljerte virkningsmekanisme-data er ikke tilgjengelige i denne evidenspakken — det er eksplisitt oppført som et datakløft (DrugBank MOA-spørring, alvorlighetsgrad Høy; TFDA-etikett, alvorlighetsgrad Blokkering). Basert på de mekanistiske merknadene knyttet til hver forutsigelse, forstås silodosin som en høyselektiv α1A-adrenergisk reseptorantagonist som virker primært på glatt muskulatur i prostata og blærehals — det farmakologiske grunnlaget for dets etablerte BPH-bruk.
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Ambras type hypertrichosis universalis congenita er en sjelden medfødt tilstand knyttet til kromosomale omarrangeringer nær hårsekk-utviklingsgener (f.eks. nær *TRPS1*) — en biologisk vei uten kjent skjæringspunkt med α1A-adrenergisk signalisering. Evidenspakkens eget grunnlagsfeld uttaler direkte at det er **ingen identifiserbar mekanistisk forbindelse** her.
+Detaljerte data om virkningsmekanismen er ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon er silodosin en selektiv alfa-1A-adrenerg reseptorantagonist. Effekten ved godartet prostataforstørrelse er godt etablert, og skyldes avslapning av glatt muskulatur i prostata og blærehals.
 
-Dette bør derfor leses som et rent embedding-likhets-funn fra TxGNN-modellen, ikke en mekanistisk begrunnet hypotese. Det samme mønsteret gjelder alle seks kandidatene i denne pakken: ingen har en sannsynlig mekanistisk begrunnelse, ingen har kliniske forsøk, og den ene kandidaten med tilknyttet litteratur (rangering 3, «malformasjonsyndrom med odontalt/periodontalt komponent,» 20 artikler) ble funnet ved inspeksjon å være et irrelevant søkeordsmatch — ingen av disse artiklene nevner silodosin eller α1-adrenergisk farmakologi i det hele tatt.
+Ambras-syndrom er en sjelden medfødt tilstand knyttet til genomiske omleiringer som påvirker reguleringen av *TRPS1*. Det er ingen kjent signalvei som knytter alfa-1A-blokade til denne mekanismen. Den svært høye modellscoren (0,9999) gjenspeiler trolig nærhet i kunnskapsgrafen, ikke biologisk begrunnelse.
 
-## Klinisk forsøksevidens
+De andre topprangerte prediksjonene følger samme mønster: hypertrichosis (generelt), misdannelsessyndromer med tann-/periodontal komponent, syndrom med Dandy-Walker-misdannelse, isolert genetisk hårskaftavvik og familiær isolert trikomegali. For ingen av dem er det påvist en mekanistisk kobling til alfa-1A-antagonisme. Ved hypertrichosis er også effektretningen usikker, siden hårvekst kan være en bivirkning av enkelte legemidler.
 
-Ingen relaterte kliniske forsøk er for øyeblikket registrert
+---
 
-## Litteraturbevis
+## Klinisk studieevidens
 
-Ingen relatert litteratur er for øyeblikket tilgjengelig
+Det finnes for øyeblikket ingen relaterte kliniske studier registrert.
 
-## Norges markedsinformasjon
+---
 
-Ingen markedsautoriseringsregistreringer er for øyeblikket tilgjengelige for silodosin (markedsstatus: Ikke markedsført; 0 autorisasjoner på fil).
+## Litteraturevidens
 
-## Sikkerhetshensyn
+Det finnes for øyeblikket ingen relatert litteratur.
 
-Se pakningvedlegg for sikkerhetsinformasjon.
+---
+
+## Markedsinformasjon for Norge
+
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004964 | Silodosin Recordati | – | Godartet prostataforstørrelse |
+| EMEA/H/C/001209 | Silodyx | – | Godartet prostataforstørrelse |
+| EMEA/H/C/001092 | Urorec | – | Godartet prostataforstørrelse |
+
+Alle tre tillatelsene (innehaver: Recordati Ireland Ltd) har status trukket tilbake. Det finnes ingen gyldige tillatelser.
+
+---
+
+## Sikkerhetsvurderinger
+
+**Kontraindikasjoner/sykdomsrelasjoner fra kunnskapsgrafen** (ikke hentet fra preparatomtale):
+multippel systematrofi, posturalt ortostatisk takykardisyndrom (POTS), ortostatisk hypotensjon, leversvikt, nyresykdom, pyoureter og intraoperativt floppy iris-syndrom.
+
+**Legemiddelinteraksjoner:** Totalt 99 interaksjoner er registrert. Blant de oppførte finnes:
+- **Alvorlig (Major):** klaritromycin
+- **Moderat:** bupropion, aprepitant, morfin (inkl. liposomal), deksametason, kanagliflozin, dapagliflozin, empagliflozin, ertugliflozin, cimetidin, dronabinol, nabilon, eliglustat, metreleptin, mikonazol, klotrimazol, rolapitant, glyserolfenylbutyrat og opium
+
+Se preparatomtalen for fullstendig sikkerhetsinformasjon om advarsler og kontraindikasjoner.
+
+---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-- Alle seks kandidatene i denne evidenspakken er utelukkende TxGNN-modellfunn (Bevisnivå L5), uten kliniske forsøk og uten mekanistisk sannsynlig begrunnelse; den ene kandidaten med tilknyttet litteratur viste seg å være et irrelevant søkeordsmatch. Det finnes for øyeblikket intet grunnlag for å ta fatt på noen kandidat for silodosin.
+Prediksjonen bygger kun på en grafbasert modellscore (evidensnivå L5), uten kliniske studier, publikasjoner eller en plausibel mekanistisk kobling mellom alfa-1A-blokade og Ambras-syndrom. I tillegg har legemidlet ingen gyldig tillatelse i Norge.
 
-**For å komme videre, er følgende nødvendig:**
-- TFDA-ekvivalent etikett (advarsler/kontraindikasjoner) — for øyeblikket er det en Blokkering datakløft (DG001)
-- Bekreftet virkningsmekanisme fra DrugBank — for øyeblikket er det et Høy-alvorlighetsgrad datakløft (DG002)
-- Formale data om opprinnelig indikasjon/godkjent merking (for øyeblikket tom i denne pakken)
-- Dersom en eventuell fremtidig TxGNN-kandidat for silodosin viser en biologisk plausibel α1A-adrenergisk mekanisme, dedikert innsamling av bevis fra kliniske forsøk og litteratur for denne spesifikke kandidaten før omvurdering
-
+**For å gå videre kreves følgende:**
+- Hente og analysere preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel)
+- Detaljerte data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Prekliniske eller mekanistiske studier som viser en biologisk kobling til hårfollikkel- eller *TRPS1*-relaterte veier
+- Systematisk litteratur- og studiesøk for de predikerte indikasjonene
+- Avklaring av tillatelsesstatus og tilgjengelige administrasjonsveier i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

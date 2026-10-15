@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Roxadustat
-parent: Moderat evidens (L3-L4)
-nav_order: 316
-evidence_level: L4
+parent: Kun modellprediksjon (L5)
+nav_order: 370
+evidence_level: L5
 indication_count: 4
 ---
 
 # Roxadustat
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **4** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,92 +29,92 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Roxadustat: Fra nyreanemi til tørr øye-syndrom
+# Roxadustat: Fra anemi ved kronisk nyresvikt til tørrøyesyndrom
 
-## Sammenfatning på en setning
+## Oppsummering
 
-Roxadustat er en HIF prolyl-hydroxylase-hemmer (HIF-PHI) opprinnelig utviklet for å behandle nyreanemi (anemi assosiert med kronisk nyresykdom) ved å stabilisere HIF-1α/2α og indusere endogen erytropoietinproduksjon. TxGNN-modellen forutsier potensiell effektivitet for **tørr øye-syndrom**, men for tiden støttes denne retningen kun av **1 klinisk studie** (en observasjonsstudie, ikke en effektivitetsstudie) og **ingen støttende litteratur** — evidensgrunnlaget er foreløpig (**L4**).
+Roxadustat er en HIF-prolylhydroksylasehemmer som opprinnelig er godkjent for behandling av anemi ved kronisk nyresvikt.
+TxGNN-modellen predikerer at legemidlet kan være effektivt mot **tørrøyesyndrom (dry eye syndrome)**,
+men det finnes foreløpig **ingen registrerte kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen bygger kun på modellberegning.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Nyreanemi (anemi assosiert med kronisk nyresykdom) — konkludert fra mekanistisk grunnlag i evidenspakken; ingen formell regulatorisk indikasjonsdokumentasjon tilgjengelig, da legemidlet ikke er markedsført i Norge |
-| Forutsagt ny indikasjon | Tørr øye-syndrom |
-| TxGNN-prediksjonspoeng | 99.51% |
-| Evidensnivå | L4 |
-| Norsk markedsstatus | Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+| Opprinnelig indikasjon | Anemi; kronisk nyresvikt |
+| Predikert ny indikasjon | Tørrøyesyndrom (dry eye syndrome) |
+| TxGNN-prediksjonsscore | 99,51 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun trukket/avregistrert (cancelled) |
+| Antall autorisasjoner | 1 |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljert formell dokumentasjon av virkningsmekanisme er ikke tilgjengelig i regulatoriske data (datakløft). Basert på det mekanistiske grunnlaget som er dokumentert sammen med TxGNN-prediksjonen, er roxadustat en HIF-PHI (HIF prolyl-hydroxylase-hemmer) som stabiliserer HIF-1α/2α for å indusere erytropoietinproduksjon (EPO), og brukes til å behandle nyreanemi.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datamaterialet som er sammenstilt for denne rapporten. Basert på kjent informasjon er roxadustat en HIF-prolylhydroksylasehemmer (HIF-PH) som stabiliserer HIF-alfa. Data om legemidlets mål viser interaksjon med EGLN2 (egl-9 family hypoxia inducible factor 2). Effekten ved anemi ved kronisk nyresvikt er dokumentert, og EMA godkjente legemidlet for denne indikasjonen i august 2021.
 
-Den foreslåtte koblingen til tørr øye-syndrom er teoretisk: HIF-signalering er kjent for å regulere hypoksi-responsen i hornhinnens og konjunktivens epitel, og meibom-kjerteldysfunksjon — en nøkkelbidragsyter til tørre øyne — involverer inflammatoriske, hormonelle og mikrovaskulære/oksidativ-stress-veier som potensielt kunne overlappe med HIF-biologi. Imidlertid er dette en indirekte mekanistisk hypotese snarere enn en demonstrert farmakologisk effekt.
+Den mulige koblingen til tørrøyesyndrom er at HIF-aktivering kan påvirke hornhinnens og konjunktivas epitelrespons på hypoksi, betennelse og sårheling. Denne koblingen er **spekulativ**. Det er heller ikke dokumentert likhet mellom den opprinnelige og den nye indikasjonen. Systemisk HIF-stabilisering medfører dessuten teoretiske risikoer, for eksempel økt angiogenese, som må vurderes før okulær bruk.
 
-Viktig er at det eneste støttende kliniske forsøket ikke tester roxadustats effektivitet for tørre øyne — det er en observasjonsstudie som karakteriserer meibom-kjertels struktur/funksjon hos pasienter med nyreanemi som tilfeldigvis presenterer seg med tørre øyne-symptomer. Overlappingen skyldes delt pasientpopulasjon (pasienter med nyreanemi), ikke en terapeutisk intervensjon som blir evaluert. Dette begrenser betydelig styrken av den nåværende evidensen.
+### Andre prediksjoner fra modellen
 
----
+Modellen predikerte også tre andre indikasjoner, alle med evidensnivå L5 og anbefalingen Hold:
 
-## Klinisk forsøksevidens
-
-| Forsøksnummer | Fase | Status | Inklusjon | Nøkkelfunn |
-|---------|------|------|------|---------|
-| [NCT06287879](https://clinicaltrials.gov/study/NCT06287879) | NA (Observasjonsstudie) | Ukjent | 50 | Karakteriserer meibom-kjertels funksjon/morfologi hos pasienter med nyreanemi og tørre øyne-symptomer; evaluerer ikke roxadustats terapeutiske effekt på tørre øyne. Relevans klassifisert som **C** — indirekte, kun populasjonsoverlapping. |
-
----
-
-## Litteraturbevis
-
-For øyeblikket ingen relatert litteratur tilgjengelig.
-
----
-
-## Norsk markedsinformasjon
-
-Roxadustat er for øyeblikket ikke markedsført i Norge. Ingen produktautorisasjoner er registrert (0 lisenser).
-
----
-
-## Andre kandidatindikasjoner (lavere prioritet, ikke detaljert ovenfor)
-
-Evidenspakken flagget også tre ytterligere TxGNN-kandidater, alle på evidensnivå L5 (kun modellprediksjon, ingen klinisk eller litteraturstøtte). Disse er notert for fullstendighet, men anbefales ikke for videre evaluering på dette tidspunktet:
-
-| Sykdom | TxGNN-poeng | Merknad |
+| Predikert indikasjon | TxGNN-score | Kommentar |
 |------|------|------|
-| Pagets bensykdom | 99.12% | Rent mekanistisk hypotese (HIF-rolle i osteoklast/vaskulær kopling); ingen klinisk eller preklinisk data |
-| Dentinogenesis imperfecta | 99.06% | Svak biologisk sannsynlighet; sannsynligvis reflekterer indirekte grafkonnektivitet snarere enn en ekte mekanistisk forbindelse |
-| Platepitelkarsinom | 99.02% | **Sikkerhetssignal, ikke en behandlingsmulighet** — HIF-1α/2α-aktivering er generelt forstått å fremme tumorvaskularisering, invasjon og kjemoresistans i platepitelkarsinom. Denne kombinasjonen bør behandles som en potensiell kontraindikasjon/risikosignal snarere enn en ombruksmulighet. |
+| Pagets sykdom i skjelettet | 99,12 % | HIF-signalering påvirker beinomsetning, men effekten er blandet (både anabol og pro-osteoklastisk). Ingen studier. |
+| Dentinogenesis imperfecta | 99,06 % | Genetisk sykdom (vanligvis DSPP-mutasjoner). Ingen tydelig mekanistisk vei. Prediksjonen kan gjenspeile nettverksnærhet. |
+| Plateepitelkarsinom | 99,02 % | HIF-aktivering knyttes til tumorprogresjon, angiogenese og behandlingsresistens. Retningen på prediksjonen er tvilsom, og legemidlet kan være skadelig. |
 
 ---
 
-## Sikkerhetshensyn
+## Klinisk studieevidens
 
-Ingen strukturerte sikkerhetdata (advarsler, kontraindikasjoner eller legemiddelinteraksjoner) er for øyeblikket tilgjengelige for roxadustat i denne evidenspakken — vennligst se pakningsvedlegget for sikkerhetsinformasjon når det er tilgjengelig.
-
-**Klassenivå-forsigtighet (fra mekanistisk analyse, ikke formelle sikkerhetdata):** Som en HIF-PHI har roxadustats kjernemekanisme (HIF-stabilisering) en teoretisk tilknytning til tumorfremmende veier (se sikkerhetssignal for platepitelkarsinom ovenfor). Dette bør tas inn i vurderingen ved enhver fremtidig sikkerhetssvurdering, særlig for populasjoner med onkologi-tilstøtende eller kreftrisiko.
+Det finnes for tiden ingen relaterte kliniske studier registrert for tørrøyesyndrom.
 
 ---
 
-## Konklusjon og neste trinn
+## Litteraturevidens
 
-**Beslutning: Avvent**
+Det finnes for tiden ingen relevant litteratur.
+
+---
+
+## Informasjon om det norske markedet
+
+| Autorisasjonsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004871 | Evrenzo | Ikke oppgitt | Anemi; kronisk nyresvikt |
+
+Autorisasjonen (innehaver: Astellas Pharma Europe B.V.) har status **trukket/avregistrert**. Det finnes ingen gyldige autorisasjoner for øyeblikket.
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Legemiddelinteraksjoner**: Interaksjonssøket er gjennomført og ga én farmakologisk oppføring: roxadustat hemmer HIF-prolylhydroksylaser, blant annet EGLN2. Dette er en målinteraksjon, ikke en klinisk legemiddelinteraksjon, og det er ikke oppgitt alvorlighetsgrad.
+- **Teoretiske risikoer ved ny bruk**: Systemisk HIF-stabilisering kan fremme angiogenese og potensielt tumorvekst. For ny bruk ved plateepitelkarsinom kreves en grundig sikkerhetsvurdering med tanke på malignitetsrisiko.
+
+Se preparatomtalen (SPC) for fullstendig sikkerhetsinformasjon om advarsler og kontraindikasjoner, da disse ikke inngår i de sammenstilte dataene.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen om tørr øye-syndrom støttes for øyeblikket kun av en observasjonsstudie med indirekte (populasjonsoverlapping) relevans og uten effektivitetsdata, litteratur eller regulatorisk/sikkerhetsdokumentasjon. Legemidlet er heller ikke markedsført i Norge. Evidensen er utilstrekkelig til å rettferdiggjøre progresjon på dette tidspunktet.
+Prediksjonen for tørrøyesyndrom bygger utelukkende på modellscore (evidensnivå L5), uten kliniske studier eller publikasjoner. Mekanismedata mangler, og preparatet har ingen gyldig markedsføringstillatelse i Norge. Sikkerhetsdata fra preparatomtalen mangler også, noe som hindrer videre sikkerhetsscreening.
 
-**For å komme videre, kreves følgende:**
-- Løse DG001 (TFDA/lokale merkelappadvarsler og kontraindikasjoner) og DG002 (formell virkningsmekanisme-dokumentasjon) — begge blokkerer for øyeblikket eller er høy-alvorlighetsgrads datakløfter
-- En intervensjonstudie eller preklinisk studie som direkte tester roxadustats effekt på tørr øye-syndrom eller meibom-kjertels funksjon
-- Litteraturgjennomgang for å etablere biologisk sannsynlighet utover nåværende enkel-studies populasjonsoverlapping
-- Legemiddelinteraksjons- og kontraindikasjondata før noen S1-sikkerhetsgjennomgang kan fortsette
-- En dedikert risikovurdering av HIF-aktiverings/malignitets-signalet (se merknad om platepitelkarsinom) før noe videre ombruksarbeid på dette molekylet
-
+**For å gå videre kreves følgende:**
+- Hente og analysere preparatomtalen (advarsler og kontraindikasjoner) fra regulatoriske kilder
+- Fullstendige data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Prekliniske data om HIF-stabilisering i hornhinne og konjunktiva, inkludert vurdering av angiogenese
+- Vurdering av administrasjonsvei (lokal øyeadministrasjon versus systemisk bruk)
+- Avklaring av markedsstatus og tilgjengelighet i Norge, siden eneste autorisasjon er trukket
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

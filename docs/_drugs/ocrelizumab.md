@@ -2,7 +2,7 @@
 layout: default
 title: Ocrelizumab
 parent: Kun modellprediksjon (L5)
-nav_order: 250
+nav_order: 292
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,58 +29,95 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Ocrelizumab: Fra uspesifisert original indikasjon til HER2-positiv brystkreft
+# Okrelizumab: Fra multippel sklerose til HER2-positiv brystkreft
 
-## Oppsummering i en setning
+## Oppsummering
 
-Ocrelizumab (DrugBank-ID DB11988) er et anti-CD20 B-celle-depleterende monoklonalt antistoff; dens opprinnelig godkjente indikasjon er ikke registrert i denne evidenspakken (flagget som datakløft). TxGNN-modellen predikerer at det kan være effektivt for **HER2-positiv brystkreft**, men denne prediksjonen støttes for tiden av **0 kliniske studier** og **0 publikasjoner**, noe som representerer en hypotese som kun er basert på modellpreduksjon uten etablert biologisk begrunnelse.
+Okrelizumab er et anti-CD20-monoklonalt antistoff som opprinnelig brukes til behandling av multippel sklerose (MS). TxGNN-modellen forutsier at det kan ha effekt ved **HER2-positiv brystkreft**, men prediksjonen er rent beregningsbasert: det finnes **0 kliniske studier** og **0 publikasjoner** som støtter akkurat denne indikasjonen.
 
-## Rask oversikt
+---
+
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|------|---------|
-| Opprinnelig indikasjon | Ikke registrert i denne evidenspakken (datakløft — se konklusjon) |
+|------|------|
+| Opprinnelig indikasjon | Multippel sklerose |
 | Predikert ny indikasjon | HER2-positiv brystkreft |
-| TxGNN-prediksjonspoeng | 99.89% |
+| TxGNN-prediksjonsscore | 99,89 % |
 | Evidensnivå | L5 |
-| Status på norsk marked | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Avvent |
+| Markedsstatus i Norge | Kun avregistrert/trukket tilbake |
+| Antall godkjenninger | 1 (avregistrert) |
+| Anbefalt beslutning | Hold |
 
-## Hvorfor er denne prediksjonen fornuftig?
+---
 
-Foreløpig er detaljerte virkningsmekanisme-data ikke tilgjengelige (datakløft DG002, høy alvorlighetsgrad). Basert på informasjon som er tilgjengelig andre steder i denne evidenspakken, er ocrelizumab kvalitativt kjent som et anti-CD20 B-celle-depleterende monoklonalt antistoff.
+## Hvorfor er denne prediksjonen rimelig?
 
-Den predikerte indikasjonen, HER2-positiv brystkreft, drives av ERBB2 (HER2) reseptor-tyrosinkinase-overuttrykk — en signaleringsvei uten etablert biologisk eller farmakologisk overlapping med CD20-formidlet B-celle-depletering. Evidenspakkens egen omformål-begrunnelse sier dette eksplisitt: forbindelsen reflekterer nærhet i TxGNN-innbettingsrommet, ikke et validert mekanistisk eller klinisk forhold.
+Okrelizumab er et humanisert anti-CD20-antistoff som selektivt tømmer CD20-uttrykkende B-celler. Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten. Basert på kjent informasjon er legemidlet godkjent for MS, der B-celledepletering har vist klar effekt.
 
-Fordi det ikke finnes kliniske studier eller publisert litteratur som støtter denne kombinasjonen, og det ikke finnes en plausibel mekanistisk forbindelse mellom stoffets kjente farmakologi og den predikerte tumorbiologien, bør denne kandidaten behandles som en rent beregningsbasert hypotese i stedet for en klinisk relevant kandidat på dette stadiet.
+Det er ikke påvist noen direkte mekanistisk sammenheng mellom CD20-rettet B-celledepletering og HER2-drevet brystkreft. Tumorinfiltrerende B-celler diskuteres i brystkreftimmunologi, men depletering av CD20-positive celler kan være nøytralt eller til og med skadelig. Dette er spekulativt. Den svært høye TxGNN-scoren (0,999) er en ren modellprediksjon og bør ikke tolkes som klinisk evidens.
 
-## Bevis fra kliniske studier
+Merk at de øvrige toppredikasjonene (normal brystlignende subtype, progesteronreseptor-positiv, luminal A/B og progesteronreseptor-negativ brystkreft) alle er brystkrefttyper med tilsvarende score og tilsvarende mangel på evidens. Det tyder på at modellen peker på brystkreft generelt, ikke på en spesifikk subtype.
 
-For tiden ingen relaterte kliniske studier registrert
+---
 
-## Bevis fra litteraturen
+## Klinisk studieevidens
 
-For tiden ingen relatert litteratur tilgjengelig
+Foreløpig er det ikke registrert noen relaterte kliniske studier.
 
-## Sikkerhetshensyn
+---
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+## Litteraturevidens
 
-## Konklusjon og neste skritt
+Det finnes ingen litteratur som evaluerer okrelizumab ved HER2-positiv brystkreft. For predikasjonen «luminal A/B brystsvulst» ble det hentet 18 publikasjoner via nøkkelordassosiasjon med legemidlet, men ingen av dem omhandler brystkreft. De mest relevante som bakgrunn om legemidlet:
 
-**Beslutning: Avvent**
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [28002688](https://pubmed.ncbi.nlm.nih.gov/28002688/) | 2017 | RCT | N Engl J Med | Okrelizumab mot placebo ved primær progressiv MS (ORATORIO) |
+| [28002679](https://pubmed.ncbi.nlm.nih.gov/28002679/) | 2017 | RCT | N Engl J Med | Okrelizumab mot interferon beta-1a ved relapserende MS (OPERA) |
+| [40245351](https://pubmed.ncbi.nlm.nih.gov/40245351/) | 2025 | Fase 3 | Neurology | Subkutan mot intravenøs okrelizumab ved MS (OCARINA II) |
+| [35176351](https://pubmed.ncbi.nlm.nih.gov/35176351/) | 2022 | Veiledning | J Allergy Clin Immunol | Sekundær hypogammaglobulinemi, relevant for sikkerhet ved anti-CD20-behandling |
+| [35192158](https://pubmed.ncbi.nlm.nih.gov/35192158/) | 2022 | Oversikt | Drugs | Oversikt over okrelizumab ved MS |
+
+Disse publikasjonene gir ingen evidens for brystkreft. De er kun bakgrunn om legemidlets sikkerhetsprofil og bruk ved MS.
+
+---
+
+## Informasjon om det norske markedet
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004043 | Ocrevus | Ikke oppgitt | Multippel sklerose |
+
+Godkjenningen har status avregistrert/trukket tilbake. Det finnes ingen gyldige godkjenninger i dataene.
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Legemiddelinteraksjoner**: Det ble funnet 100 registrerte interaksjoner. De fleste av de viste er av moderat alvorlighetsgrad:
+  - Kortikosteroider (hydrokortison, triamcinolon, deksametason, betametason, budesonid, prednisolon, prednison): moderat
+  - Radiofarmaka og radioimmunoterapi (jobenguan I-131, ibritumomab tiuxetan, tositumomab, samarium-153-leksidronam): moderat
+  - Albendazol, pentamidin, levamisol: moderat
+  - Sinksalter (sulfat, acetat, glukonat, klorid): mindre alvorlig
+- **Bakgrunn om sikkerhet**: Litteraturen peker på risiko for sekundær hypogammaglobulinemi ved anti-CD20-behandling.
+
+Se preparatomtalen for øvrig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-- Null kliniske studier og null fagfellevurdert litteratur støtter ocrelizumab for HER2-positiv brystkreft. Alle fem TxGNN-rangerte brystkreftsubtyyper evaluert for dette legemidlet (HER2+, normalbryst-lignende, PR+, luminal A/B, PR−) har samme L5-evidensnivå, og ingen har en etablert mekanistisk begrunnelse.
-- En datakløft med blokkeringsseveritet (DG001: manglende TFDA/pakningsvedlegg-advarsler og kontraindikasjoner) betyr at denne kandidaten ikke kan engang gjennomføre S1 sikkerhetsvurdering, uavhengig av effektivitets-evidensgapet.
+Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier eller litteratur (evidensnivå L5), og det finnes ingen påvist mekanistisk sammenheng mellom CD20-depletering og brystkreft. Legemidlet har dessuten ingen gyldig markedsføringstillatelse i Norge i dataene.
 
-**For å gå videre, er følgende nødvendig:**
-- TFDA/regulatorisk pakningsvedlegg (advarsler, kontraindikasjoner) for å lukke blokkeringsdatakløften (DG001)
-- Bekreftet virkningsmekanisme-data (DG002) for å etablere eller utelukke en biologisk begrunnelse som knytter anti-CD20 B-celle-depletering til HER2-drevet eller hormonreseptor-drevet brystkreftveier
-- Prospektive prekliniske eller translasjonale studier som tester ocrelizumab spesifikt i HER2+-brystkreftmodeller, siden ingen finnes for tiden
-- Manuell re-verifisering av eventuelle fremtidige «brysttumor luminal A eller B»-litteraturtreff — de 19 PubMed-resultatene hentet for den kandidaten ble gjennomgått og funnet å være falskt positive nøkelordstreff (B-celle-utviklingsbiologi, hepatitt-B-vaksin og HLA-B-typeartikler), ikke genuin brystkreftbevis
-
+**For å gå videre kreves følgende:**
+- Detaljerte data om virkningsmekanisme (MOA)
+- Prekliniske studier som undersøker B-celler og CD20 i brystkrefts tumormikromiljø
+- Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsscreening
+- Avklaring av regulatorisk status i Norge og tilgjengelig administrasjonsvei
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Simoctocog Alfa
 parent: Kun modellprediksjon (L5)
-nav_order: 325
+nav_order: 384
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,80 +29,95 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Simoctocog Alfa: Fra Hemofili A til Pseudo-von Willebrand-sykdom
+# Simoktokog alfa: Fra hemofili A til pseudo-von Willebrand sykdom
 
-## Ensetnings-sammendrag
+## Sammendrag i én setning
 
-> Simoctocog alfa er et rekombinant humant koagulasjonsfaktor VIII (rFVIII)-preparat, kjent for bruk ved Hemofili A.
-> TxGNN-modellens toppprediksjon er **Pseudo-von Willebrand-sykdom**, med en skår på **99.99%**,
-> men denne prediksjonen er for tiden støttet av **0 kliniske studier** og **0 publikasjoner**, og den mekanistiske begrunnelsen selv er svak.
+Simoktokog alfa er en rekombinant human koagulasjonsfaktor VIII (B-domene-deletert), opprinnelig brukt til behandling av **hemofili A**.
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **pseudo-von Willebrand sykdom**, men det finnes **ingen kliniske studier** og **ingen publikasjoner** i de samlede dataene som støtter denne retningen. Prediksjonen er kun modellbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Originalindikasjon | Hemofili A (blødingsprofylakse/behandling) — ikke presentert i dette bevispackets godkjenningsdata, basert på kjent rFVIII-produktklasse |
-| Predikert ny indikasjon | Pseudo-von Willebrand-sykdom |
-| TxGNN-prediksjons skår | 99.99% |
-| Bevisnivå | L5 |
-| Norsk markedsstatus | Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+| Opprinnelig indikasjon | Hemofili A |
+| Predikert ny indikasjon | Pseudo-von Willebrand sykdom |
+| TxGNN-prediksjonsscore | 99,997 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrerte (trukket fra markedet) |
+| Antall godkjenninger | 2 (begge avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige (flagget som et datakløft med høy alvorlighetsgrad). Basert på kjent informasjon er simoctocog alfa et rekombinant humant faktor VIII (rFVIII)-preparat som brukes for å erstatte mangelfull endogen FVIII og gjenopprette den indre koagulasjonsbanen hos pasienter med Hemofili A.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Basert på kjent informasjon er simoktokog alfa en rekombinant faktor VIII som erstatter manglende FVIII ved hemofili A, og effekten ved den opprinnelige indikasjonen er etablert.
 
-Imidlertid er den topprangerte predikerte indikasjonen — pseudo-von Willebrand-sykdom — forårsaket av en abnorm platelett GPIbα-reseptor med overdreven affinitet for von Willebrand-faktor (vWF), **ikke** av FVIII-mangel. I henhold til bevispackets egen mekanistiske vurdering har rFVIII-erstatning ingen direkte patofysiologisk rolle i korrigering av denne platelett-reseptor-defekten. Den høye TxGNN-skåren gjenspeiler mest sannsynlig den nære nærheten til FVIII–vWF-kompleksen i kunnskapsgrafen, snarere enn et kausalt behandlingsforhold.
+Pseudo-von Willebrand sykdom er en blodplatelidelse forårsaket av gain-of-function-mutasjon i GP1BA. Den fører til økt binding av høymolekylære VWF-multimerer og økt klaring av blodplater. FVIII-erstatning korrigerer ikke denne defekten i blodplatenes GPIb-reseptor. Den svært høye TxGNN-scoren (0,99997) er trolig drevet av delte assosiasjoner i koagulasjonsnettverket og ikke av en påvist biologisk mekanisme.
 
-Det er verdt å merke at blant de 10 kandidatene i dette bevispacket har **rang 9 ("Hemofili A med vaskulær abnormitet")** den sterkeste genuine mekanistiske plausibilitet, siden den ligger innenfor de kjente indikasjonene for FVIII-erstatning — likevel fikk den en langt lavere skår og har null støttende studier eller litteratur. Denne divergensen mellom mekanistisk plausibilitet og modellskår er en viktig forbehold: den topprangerte prediksjonen bør ikke behandles som klinisk handlingsdyktig uten uavhengig mekanistisk og godkjennings-verifisering.
+Det samme mønsteret gjelder for de øvrige predikerte indikasjonene (rangert 2–10). De fleste er blodplatedefekter eller trombocytopenier der FVIII ikke har noen kjent rolle:
 
----
-
-## Bevis fra kliniske studier
-
-For tiden ingen relevante kliniske studier registrert
-
----
-
-## Bevis fra litteratur
-
-For tiden ingen relevant litteratur tilgjengelig
-
----
-
-## Norsk markedsinformasjon
-
-Dette produktet er for tiden ikke markedsført i Norge; ingen markedsføringsgodkjennelser (0 lisenser) er blitt utstedt, så ingen indikasjonstermer fra godkjenningsdokumenter er tilgjengelig for kryssreferanse.
+| Rang | Predikert sykdom | Score | Vurdering |
+|---|---|---|---|
+| 2 | Primær frigjøringsdefekt av blodplater | 99,997 % | Defekt i blodplatesekresjon; FVIII korrigerer ikke dette |
+| 3 | Glanzmanns trombasteni | 99,995 % | Defekt i integrin αIIbβ3; standardbehandling er blodplatetransfusjon eller rFVIIa |
+| 4 | Scotts syndrom | 99,969 % | Svak teoretisk kobling via tenase-komplekset, men ingen evidens |
+| 5 | Ervervet koagulasjonsfaktormangel | 99,952 % | Mekanistisk mest plausibel, men heterogen kategori; ervervet hemofili behandles vanligvis med bypass-midler |
+| 6 | Blødningstendens ved kollagenreseptordefekt | 99,921 % | FVIII adresserer ikke reseptordefekten |
+| 7 | Blødningslidelse ved konstitusjonell trombocytopeni | 99,917 % | Lavt blodplatetall/-funksjon, ikke FVIII-mangel |
+| 8 | Føtal og neonatal alloimmun trombocytopeni | 99,845 % | Alloimmun blodplateødeleggelse; FVIII har ingen rolle |
+| 9 | Hemofili A med vaskulær abnormitet | 99,779 % | Dekkes i praksis av den godkjente hemofili A-indikasjonen; ikke en reell ny indikasjon |
+| 10 | Trombotisk trombocytopenisk purpura (TTP) | 99,724 % | Potensiell sikkerhetsrisiko: økt FVIII kan øke trombosefaren |
 
 ---
 
-## Sikkerhetshensyn
+## Evidens fra kliniske studier
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+Foreløpig er det ingen registrerte kliniske studier knyttet til denne prediksjonen.
 
-*(Merk: Advarsler og kontraindikasjoner på godkjenningsnivå fra TFDA er markert som et blokkerende datakløft — dette må løses før noen sikkerhetspre-vurdering (S1) kan fortsette.)*
+---
+
+## Litteraturevidens
+
+Foreløpig finnes det ingen relevant litteratur.
+
+---
+
+## Markedsinformasjon for Norge
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/002813 | Nuwiq | Ikke oppgitt | Hemofili A (avregistrert) |
+| EMEA/H/C/004459 | Vihuma | Ikke oppgitt | Hemofili A (avregistrert) |
+
+Begge godkjenningene er avregistrert, og det finnes ingen gyldige markedsføringstillatelser.
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Legemiddelinteraksjoner:** Ingen interaksjoner ble funnet i de samlede dataene.
+- **Spesiell sikkerhetsbekymring (TTP):** Ved trombotisk trombocytopenisk purpura er det en prokoagulant mikroangiopati. Tilførsel av FVIII kan potensielt forverre trombosefaren, og dette er en risiko snarere enn en fordel.
+
+For øvrig sikkerhetsinformasjon, se pakningsvedlegget (preparatomtalen).
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Bevisnivået er L5 (kun modellprediksjon, ingen kliniske studier eller litteratur), og den topprangerte indikasjonen sin egen mekanistiske begrunnelse tyder på at den gjenspeiler nærhet i kunnskapsgrafen snarere enn et kausalt behandlingsforhold. Et blokkerende datakløft for godkjenningsdata (advarsler/kontraindikasjoner) forhindrer også at saken går inn i sikkerhetspre-vurdering.
+Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og den biologiske mekanismen støtter ikke FVIII-erstatning ved de predikerte blodplatelidelsene. I tillegg er begge produktene avregistrert i Norge, noe som begrenser praktisk gjennomførbarhet.
 
-**For å fortsette er følgende nødvendig:**
-- Bekreftet virkningsmekanisme-data (MOA) fra DrugBank/produsent for å validere eller tilbakevise FVIII–vWF-nærhetshypotesen
-- Analyse av TFDA/EMA-godkjennings-PDF for å løse det blokkerende sikkerhetsdatakløftet (advarsler, kontraindikasjoner)
-- Manuell klinisk/hematologisk fagekspertvurdering av hvorvidt "pseudo-von Willebrand-sykdom" har noen dokumentert FVIII-respons når brukt utenfor indikasjon, gitt den mekanistiske uoverensstemmelsen
-- Re-evaluering av rang 9 ("Hemofili A med vaskulær abnormitet") som en mekanistisk sterkere kandidat, til tross for dens lavere TxGNN-skår, når litteratursøket er utvidet
-- Litteratur-/klinisk studiesøk ved bruk av sykdomsspesifikke termer (nåværende søk returnerte null treff på tvers av alle 10 kandidater, noe som tyder på at søkestrategien kanskje må utvides)
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Advarsler og kontraindikasjoner fra pakningsvedlegget (preparatomtale), nødvendig for sikkerhetsscreening
+- Ved eventuell videre vurdering: avgrens til «ervervet koagulasjonsfaktormangel» (rang 5) med en målrettet litteraturgjennomgang, og utelukk TTP på sikkerhetsgrunnlag
+- Avklaring av produktenes tilgjengelighet siden begge godkjenningene er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

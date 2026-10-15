@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Glucagon
-parent: Kun modellprediksjon (L5)
-nav_order: 164
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 192
+evidence_level: L3
 indication_count: 1
 ---
 
 # Glucagon
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
+Evidensnivå: **L3** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,87 +29,100 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Glucagon: TxGNN-signal for irritabel tarmsyndrom — Advarsel om bevisinkongruens
+# Glukagon: Fra diabetes mellitus til irritabelt tarmsyndrom
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-> Glucagon (DrugBank DB00040) har ingen opprinnelig indikasjon eller virkemekanisme-data tilgjengelig i denne bevissamlingen, og det er ikke for tiden markedsført i Norge.
-> TxGNN tildeler det en **99.24%** score for **Irritabel tarmsyndrom (IBS)**, men nesten alle de støttende **11 kliniske forsøkene** og **20 publikasjonene** handler faktisk om **GLP-1-receptor-agonister** (liraglutide, ROSE-010, exendin-4) — et hormon som deler en genefamilie med glucagon, men virker gjennom en annen reseptor med den **motsatte fysiologiske effekten**. Dette ser ut til å være et navn-basert forvirrings-signal heller enn en genuin gjenbruksmulig.
+Glukagon er et peptidhormon som opprinnelig er godkjent for behandling av diabetes mellitus (i praksis akutt behandling av alvorlig hypoglykemi).
+TxGNN-modellen predikerer at det kan være virksomt ved **irritabelt tarmsyndrom (IBS)**.
+Støtten er svak og indirekte: de **2 kliniske studiene** og størstedelen av de **20 publikasjonene** gjelder GLP-1 og GLP-1-analoger, ikke glukagon selv.
 
-## Rask oversikt
+---
 
-| Element | Innhold |
+## Hurtigoversikt
+
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Ikke gitt i evidenspakken (ingen Norge-lisens; virkemekanisme-datakløft registrert som DG002) |
-| Predikert ny indikasjon | Irritabel tarmsyndrom (IBS) |
-| TxGNN prediksjons-score | 99.24% |
-| Bevisnivå | L5 |
-| Norges-markeds-status | Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvente |
+| Opprinnelig indikasjon | Diabetes mellitus |
+| Predikert ny indikasjon | Irritabelt tarmsyndrom |
+| TxGNN-prediksjonsscore | 99,24 % |
+| Evidensnivå | L3 |
+| Status i Norge | Kun avregistrerte (kansellerte) godkjenninger |
+| Antall godkjenninger | 2 (begge kansellert) |
+| Anbefalt beslutning | Hold |
+
+---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljerte virkemekanisme-data for glucagon ikke tilgjengelig (DG002). Basert på generell farmakologi er glucagon og GLP-1 (glucagon-lignende peptid-1) begge spalteringsprodukter fra samme forløper, proglucagon, men de virker på ulike reseptorer — GCGR for glucagon kontra GLP-1R for GLP-1 — og gir **motsatte metabolske effekter**: glucagon øker blodsukkeret via hepatisk glykogenolyse, mens GLP-1-receptor-agonister senker glukose, bremser magetomlekking, og reduserer tarmbevegelse.
+Data om virkningsmekanisme (MOA) for glukagon var ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten. Glukagon har likevel lenge vært brukt klinisk som glattmuskelavslappende og krampeløsende middel ved endoskopiske og radiologiske undersøkelser. Det gir en sannsynlig, men indirekte kobling til IBS-symptomer som tarmhypermotilitet og magesmerter.
 
-Når man gjennomgår den faktiske evidenspakken, handler **hvert klinisk forsøk og nesten hver publikasjon som støtter denne prediksjonen om GLP-1-receptor-agonister** (liraglutide, ROSE-010, exendin-4), ikke glucagon selv. Feltet for gjenbruksrasjonale flaggerer eksplisitt dette som sannsynlig "navn-basert forvirring" mellom genefamiliemedlemmene i proglucagon. Ingen forsøk eller publikasjon i denne pakken tester glucagon-administrering for IBS, og det finnes ingen mekanistisk vei som er foreslått der glucagon (et hyperglykemisk hormon) ville lindre IBS-symptomer på samme måte som sin reseptor-motsatte frende GLP-1 gjør.
+Det meste av den tilgjengelige evidensen gjelder GLP-1 og GLP-1-reseptoragonister (nativt GLP-1 og analogen ROSE-010). Disse stammer fra samme proglukagon-biologi og hemmer gastrointestinal motilitet via GLP-1-reseptoren. Glukagon virker derimot gjennom en annen reseptor (GCGR). Ekstrapolering fra GLP-1-data må derfor gjøres med stor forsiktighet.
 
-**Kort sagt: dette er svært sannsynlig et falskt-positivt signal drevet av delt navn og genefamilies-avstamning, ikke en gyldig legemiddel-gjenbruksmulig for glucagon.**
+TxGNN-scoren (0,99) er en modellprediksjon og erstatter ikke klinisk evidens.
 
-## Klinisk forsøks-bevis
+---
 
-| Forsøks-nummer | Fase | Status | Inkludering | Viktige funn |
+## Klinisk studieevidens
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT05249023](https://clinicaltrials.gov/study/NCT05249023) | NA | Fullført | 37 | Butyraters rolle i kolons helse — ingen glucagon eller GLP-1-forbindelse |
-| [NCT03256266](https://clinicaltrials.gov/study/NCT03256266) | N/A | Aktiv, rekrutterer ikke | 375 | Respons på nutrient/agenser hos organoid i tyndtarmen — urelatert til glucagon |
-| [NCT04763564](https://clinicaltrials.gov/study/NCT04763564) | Fase 2 | Avsluttet | 8 | Liraglutide (en GLP-1-agonist, **ikke glucagon**) hos pasienter med ileal pouch; forsøk avsluttet tidlig med bare 8 deltakere |
-| [NCT06333717](https://clinicaltrials.gov/study/NCT06333717) | NA | Fullført | 33 | Fullkorns rugbrødeffekt på tarm-hjerne-aksen — urelatert til glucagon |
-| [NCT00802971](https://clinicaltrials.gov/study/NCT00802971) | NA | Fullført | 12 | Frukto-oligosakkarid-tilskudd og reaktiv hypoglykemi — ikke IBS/glucagon-terapi |
-| [NCT04230655](https://clinicaltrials.gov/study/NCT04230655) | NA | Ukjent | 110 | Lavenergi-diett + magballongkirurgi for fedme — urelatert |
-| [NCT06113146](https://clinicaltrials.gov/study/NCT06113146) | NA | Fullført | 41 | Spiseraten av ultraprosessert mat på stoffskiftet — urelatert |
-| [NCT06408610](https://clinicaltrials.gov/study/NCT06408610) | NA | Fullført | 66 | Treningseffekt på tarmsdysbiose og **GLP-1** hos IBS-pasienter — igjen GLP-1, ikke glucagon |
-| [NCT02731664](https://clinicaltrials.gov/study/NCT02731664) | Fase 1 | Fullført | 12 | Native **GLP-1** hemmer GI-motilitet — mekanistisk motsatt til glucagon |
-| [NCT01056107](https://clinicaltrials.gov/study/NCT01056107) | Fase 1/2 | Fullført | 52 | ROSE-010 (en **GLP-1-analog**, ikke glucagon) ved forstoppelsesdominert IBS |
+| [NCT01056107](https://clinicaltrials.gov/study/NCT01056107) | Fase 1/2 | Fullført | 52 | Effekt av ROSE-010 (GLP-1-analog) på gastrointestinal motorikk hos kvinner med forstoppelsesdominant IBS. Nærmeste kliniske evidens i målgruppen, men legemidlet er ikke glukagon. |
+| [NCT02731664](https://clinicaltrials.gov/study/NCT02731664) | Fase 1 | Fullført | 12 | Nativt GLP-1 versus ROSE-010: hemming av motilitet i mage, tolvfingertarm og tomtarm hos friske frivillige. Gir kun mekanistisk støtte. |
 
-**Ingen av forsøkene ovenfor administrerer glucagon selv for IBS.**
+---
 
-## Litteratur-bevis
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [40134805](https://pubmed.ncbi.nlm.nih.gov/40134805/) | 2025 | Systematisk gjennomgang/Meta-analyse | Frontiers in Endocrinology | GLP-1-receptor-agonister forbedrer IBS-symptomer — bevis er for GLP-1-RA, ikke glucagon |
-| [35234561](https://pubmed.ncbi.nlm.nih.gov/35234561/) | 2022 | RCT (sub-analyse) | Scandinavian Journal of Gastroenterology | ROSE-010 (GLP-1-analog) reduserer smerte under IBS-anfall hos en spesifikk subpopulasjon |
-| [22517769](https://pubmed.ncbi.nlm.nih.gov/22517769/) | 2012 | RCT | Am J Physiol Gastrointest Liver Physiol | Randomisert, dobbeltblind, placebokontrollert dose-respons-studie av ROSE-010 (GLP-1-analog) på GI-motorfunksjon ved IBS-C |
-| [30444291](https://pubmed.ncbi.nlm.nih.gov/30444291/) | 2019 | Gjennomgang | Experimental Physiology | Foreslår en rolle for GLP-1-sekreterende L-celler i IBS-patofysiologi |
-| [28215540](https://pubmed.ncbi.nlm.nih.gov/28215540/) | 2017 | Klinisk studie | Clinics and Research in Hepatology and Gastroenterology | Lavere serum-GLP-1 korrelerer med buksmerte hos IBS-C-pasienter |
-| [31602785](https://pubmed.ncbi.nlm.nih.gov/31602785/) | 2020 | Dyrestudie | Neurogastroenterology and Motility | Exendin-4 (en GLP-1-agonist) forbedret GI-dysfunksjon i en IBS-rottemodell |
-| [23338623](https://pubmed.ncbi.nlm.nih.gov/23338623/) | 2013 | Dyrestudie | International Journal of Molecular Medicine | GLP-1s rolle i patogenesen av eksperimentelle IBS-rottemodeller |
-| [40880735](https://pubmed.ncbi.nlm.nih.gov/40880735/) | 2025 | Klinisk studie | Frontiers in Nutrition | Lavt FODMAP-diett øker sirkulerende GLP-1 hos IBS-pasienter |
-| [21694813](https://pubmed.ncbi.nlm.nih.gov/21694813/) | 2011 | Gjennomgang | Therapeutic Advances in Gastroenterology | Generelt IBS-behandlingslandskap (5-HT-midler, antidepressiver); diskuterer ikke glucagon |
-| [30023410](https://pubmed.ncbi.nlm.nih.gov/30023410/) | 2018 | Gjennomgang | Cellular and Molecular Gastroenterology and Hepatology | Hjerne-tarm-mikrobiota-akse; generell bakgrunn, ikke glucagon-spesifikk |
+| [40134805](https://pubmed.ncbi.nlm.nih.gov/40134805/) | 2025 | Systematisk oversikt/metaanalyse | Front Endocrinol | GLP-1-reseptoragonister og forbedring av IBS; GLP-1 og ROSE-010 hemmer migrerende motorkompleks og reduserer motilitet |
+| [22517769](https://pubmed.ncbi.nlm.nih.gov/22517769/) | 2012 | Randomisert, placebokontrollert, dobbeltblind studie | Am J Physiol Gastrointest Liver Physiol | ROSE-010 (GLP-1-analog) og GI-motorikk hos kvinner med IBS-C; sikkerhet, farmakodynamikk og farmakokinetikk |
+| [35234561](https://pubmed.ncbi.nlm.nih.gov/35234561/) | 2022 | Kryssanalyse av kliniske data | Scand J Gastroenterol | ROSE-010 reduserte smerte under IBS-anfall; utforsker hvilken pasientgruppe som egner seg best |
+| [40697433](https://pubmed.ncbi.nlm.nih.gov/40697433/) | 2025 | Kohort | Ann Gastroenterol | Forskrivning og seponering av GLP-1-reseptoragonister hos IBS-pasienter |
+| [30444291](https://pubmed.ncbi.nlm.nih.gov/30444291/) | 2019 | Oversikt | Exp Physiol | GLP-1s rolle i IBS-patofysiologi via L-celler |
+| [25427821](https://pubmed.ncbi.nlm.nih.gov/25427821/) | 2015 | Oversikt | Adv Exp Med Biol | Aerosolisert GLP-1 ved diabetes og IBS |
+| [40880735](https://pubmed.ncbi.nlm.nih.gov/40880735/) | 2025 | Observasjonsstudie | Front Nutr | Økt sirkulerende GLP-1 etter lav-FODMAP-diett hos IBS-pasienter |
+| [30023410](https://pubmed.ncbi.nlm.nih.gov/30023410/) | 2018 | Oversikt | Cell Mol Gastroenterol Hepatol | Hjerne-tarm-mikrobiom-aksen |
+| [41480755](https://pubmed.ncbi.nlm.nih.gov/41480755/) | 2026 | Oversikt | J Clin Invest | Mekanismer i tarm-hjerne-interaksjon, inkludert inkretinbasert terapi |
+| [26765585](https://pubmed.ncbi.nlm.nih.gov/26765585/) | 2016 | Oversikt | Expert Opin Investig Drugs | Nye utprøvende legemidler mot forstoppelsesdominant IBS |
 
-**Hver relevant publikasjon diskuterer GLP-1 eller dets analoga — ingen studerer glucagon selv ved IBS.**
+Merk: Ingen av publikasjonene gjelder glukagon direkte ved IBS. Evidensen gjelder GLP-1-banen.
 
-## Norges-markeds-informasjon
+---
 
-Glucagon (DB00040) har **ingen Norges-markeds-autorisasjon** i denne evidenspakken (0 lisenser, status: ikke markedsført).
+## Markedsinformasjon for Norge
 
-## Sikkerhetshensyn
+Datagrunnlaget viser kun to godkjenninger (europeiske sentrale godkjenninger), og begge er kansellert.
 
-Se pakningsvedlegget for sikkerhetsinformasjon. Detaljerte advarsler, motindikasjoner og legemiddelinteraksjons-data for glucagon kunne ikke hentes for denne evalueringen (datakløft DG001 — TFDA-etikettadvarsler/motindikasjoner; blokkering for S1 sikkerhetsvurdering).
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005391 | Ogluo | Ikke oppgitt | Diabetes mellitus |
+| EMEA/H/C/003848 | Baqsimi | Ikke oppgitt | Diabetes mellitus |
 
-## Konklusjon og neste skritt
+---
 
-**Beslutning: Avvente**
+## Sikkerhetsvurderinger
 
-**Rasjonale:**
-TxGNN-scoren er høy, men i hovedsak alle støttende kliniske og litteratur-bevis gjelder GLP-1-receptor-agonister i stedet for glucagon selv. Glucagon og GLP-1, til tross for at de deler en genefamilies opprinnelse (proglucagon), virker på ulike reseptorer med motsatte fysiologiske effekter, så dette beviset kan ikke ekstrapoleres til å støtte glucagon-gjenbruk. Dette er konsistent med modellens egen bevis-nivå-vurdering (L5 — predikasjon kun, ingen direkte støttende studier) og pakkens egen gjenbruksrasjonale, som eksplisitt flaggerer sannsynlig navn-forvirring i proglucagon-genefamilien.
+**Legemiddelinteraksjoner:** Totalt 25 interaksjoner er registrert. Alle de 20 som er detaljert i datagrunnlaget, har nivå **Minor** (liten klinisk betydning). De gjelder warfarin og et bredt spekter av betablokkere (blant andre acebutolol, atenolol, bisoprolol, karvedilol, labetalol, metoprolol, propranolol, sotalol, timolol, nadolol, pindolol og esmolol, også som øyedråper).
 
-**For å fortsette er følgende nødvendig:**
-- Løse DG001 (TFDA/offisiell etikett-advarsler og motindikasjoner) og DG002 (glucagon MOA) før videre sikkerhetsstadium-vurdering
-- Kjør en målrettet litteratur/forsøks-søk begrenset til glucagon (GCGR-agonisme), unntatt GLP-1/GLP-1R-agonister, for å sjekke om noen direkte bevis finnes
-- Hvis ingen direkte glucagon-spesifikke bevis finnes, nedprioriteringskandidat og registrer den som sannsynlig TxGNN falskt-positivt signal på grunn av navn-forvirring i proglucagon-genefamilien, for modell-QA-tilbakemelding
+Øvrig sikkerhetsinformasjon, som advarsler og kontraindikasjoner, mangler. Se preparatomtalen for sikkerhetsinformasjon.
 
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Evidensen for glukagon ved IBS er indirekte, siden studiene gjelder GLP-1-analoger som virker via en annen reseptor. I tillegg er virkningsmekanismen ikke dokumentert i datagrunnlaget, sikkerhetsdata mangler, og begge norske/europeiske godkjenninger er kansellert. Dette gjør prediksjonen til et forskningsspørsmål, ikke et utviklingsgrunnlag.
+
+**For å gå videre trengs:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Preparatomtale med advarsler og kontraindikasjoner fra legemiddelmyndighetene (blokkerende datamangel)
+- Direkte studier av glukagon (GCGR-agonisme) ved IBS, inkludert forprøving av effekt på tarmmotilitet og smerte
+- Avklaring av hvorfor godkjenningene ble kansellert, og om en ny godkjenning eller annen administrasjonsvei er realistisk
+- Vurdering av om GLP-1-data i det hele tatt kan overføres til glukagon
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

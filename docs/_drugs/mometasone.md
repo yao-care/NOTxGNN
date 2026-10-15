@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Mometasone
-parent: Kun modellprediksjon (L5)
-nav_order: 234
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 275
+evidence_level: L4
 indication_count: 1
 ---
 
 # Mometasone
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,82 +29,88 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Mometason: Fra kortikosteroid-responsive dermatologiske/allergiske tilstander til primær kutanøs T-cellelymfom
+# Mometason: Fra astma til primært kutant T-cellelymfom
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-> Mometason er et kortikosteroid som konvensjonelt brukes til å behandle inflammatoriske dermatologiske og allergiske tilstander (spesifikk original indikasjon er ikke registrert i denne bevissamlingen).
-> TxGNN-modellen forutsier at det kan være effektivt for **Primær kutanøs T-cellelymfom**,
-> men for øyeblikket er det **0 kliniske studier** og bare **2 caserapport-publikasjoner** tilgjengelig, og en av dem rapporterer faktisk behandlingssvikt med mometason i en relatert tilstand.
+Mometason er et potent kortikosteroid som i Norge/EØS var godkjent som en del av en kombinasjonsbehandling mot astma.
+TxGNN-modellen predikerer at det kan være effektivt mot **primært kutant T-cellelymfom**,
+men det finnes foreløpig **ingen registrerte kliniske studier** og bare **2 kasuistikker** i litteraturen. Evidensen er dermed svært begrenset.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|------|--------|
-| Original indikasjon | Ikke registrert i bevissamlingen (ingen `original_indications` eller Norges lisenstekst tilgjengelig); mometason er generelt klassifisert som et kortikosteroid |
-| Forutsagt ny indikasjon | Primær kutanøs T-cellelymfom |
-| TxGNN-prediksjonsscore | 99.36% |
-| Bevisnivå | L5 (modellprediksjon bare — ingen direkte støttende studier) |
-| Norges markedsstatus | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+|------|------|
+| Opprinnelig indikasjon | Astma |
+| Predikert ny indikasjon | Primært kutant T-cellelymfom |
+| TxGNN-prediksjonsscore | 99,36 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun tilbaketrukne/opphevede godkjenninger |
+| Antall godkjenninger | 1 (opphevet) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelig for dette legemidlet i bevissamlingen. Basert på generell farmakologisk kunnskap er mometason et kortikosteroid med anti-inflammatoriske og immunosuppressive egenskaper, som vanlig brukes for inflammatoriske hud- og allergiske/respiratoriske tilstander. En plausibel mekanistisk begrunnelse for bruken ved kutanøs T-cellelymfom (CTCL) er at topikale kortikosteroider kan undertrykke kutanøs lymfocyttinfiltrasjon og inflammasjon, som er en del av standard støttende/tilleggsbehandling i tidligstadium mycosis fungoides (en form for CTCL).
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datamaterialet. Mometason er likevel kjent som et kortikosteroid som virker via glukokortikoidreseptoren (NR3C1). Gjennom denne reseptoren dempes betennelse og immunaktivering, blant annet T-cellenes aktivering og cytokinproduksjon.
 
-Imidlertid gir de to litteraturelementene som ble hentet for denne prediksjonen ikke direkte positiv støtte: ett beskriver et tilfelle av kutanøs pseudolymfom (en *etterligner* av CTCL, ikke CTCL selv) der mometasonbehandling var **mislykket**, og det andre er en pediatrisk mycosis fungoides caserapport hvis sammendrag ikke nevner mometason i det hele tatt. Dette betyr at modellens høye score for øyeblikket ikke støttes av direkte klinisk bevis — assosiasjonen ser ut til å være drevet av nettverks-/embedding-likhet snarere enn dokumentert effektivitet.
+Astma og kutant T-cellelymfom er ulike sykdommer, men begge involverer T-celle-drevne inflammatoriske prosesser. Topikale kortikosteroider er en etablert hudrettet behandling ved tidlig mycosis fungoides, den vanligste formen for kutant T-cellelymfom. Det finnes dermed en plausibel mekanistisk kobling.
 
----
-
-## Klinisk studiebevis
-
-For øyeblikket ingen relaterte kliniske studier registrert.
+Den høye prediksjonsscoren (0,994) er imidlertid ren modellprediksjon og er ikke støttet av studiedata i det kompilerte materialet. Det er også uklart om dagens godkjente formulering (inhalasjon) er egnet for hudbehandling, siden ruteforenlighet ikke er vurdert.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske studier
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
-|------|-----|------|--------|--------------|
-| [40821495](https://pubmed.ncbi.nlm.nih.gov/40821495/) | 2025 | Caserapport | Proceedings (Baylor University Medical Center) | Kutanøs pseudolymfom (en CTCL-etterligner) på nesen; **både mometason og takrolimus var mislykket**; tilfelle behandlet til slutt med tapinarof |
-| [25442255](https://pubmed.ncbi.nlm.nih.gov/25442255/) | 2015 | Caserapport | Journal of Cutaneous Pathology | Pediatrisk (11 år gammel) CD8+CD56+ mycosis fungoides (en primær CTCL-subtype); sammendrag nevner ikke mometasonbehandling |
-
-⚠️ Ingen av publikasjonene demonstrerer effektivitet av mometason for primær kutanøs T-cellelymfom; den ene dokumenterer eksplisitt behandlingssvikt i en relatert men distinkt diagnose.
+Foreløpig er det ingen relevante kliniske studier registrert.
 
 ---
 
-## Markeds informasjon for Norge
+## Litteraturevidens
 
-Mometason er for øyeblikket **ikke markedsført** i Norge under denne bevissamlingen (`market_status: Not marketed`, 0 godkjennelser på fil). Ingen produktlisensrekorder er tilgjengelig.
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [40821495](https://pubmed.ncbi.nlm.nih.gov/40821495/) | 2025 | Kasuistikk | Proceedings (Baylor University Medical Center) | Pasient med kutan pseudolymfom (ikke ekte lymfom) som ikke responderte på mometason og takrolimus; bedring med tapinarof |
+| [25442255](https://pubmed.ncbi.nlm.nih.gov/25442255/) | 2015 | Kasuistikk | Journal of Cutaneous Pathology | 11 år gammel gutt med mycosis fungoides med CD8+CD56+ cytotoksisk immunfenotype; sjelden presentasjon i barndommen |
 
----
-
-## Sikkerhetshensyn
-
-Se pakningsvedlegget for sikkerhetsinformasjon.
-
-*(Merk: TFDA-etikettadvarsler/kontraindikasjoner og legemiddel-legemiddel-interaksjonsdata er oppført som datahull (DG001, blokkerende alvorlighetsgrad) i bevissamlingens metadelseksjon og må løses før noen klinisk sikkerhetsvurdering.)*
+Merk: Ingen av publikasjonene viser at mometason er effektivt mot kutant T-cellelymfom. Den ene beskriver tvert imot manglende effekt ved pseudolymfom.
 
 ---
 
-## Konklusjon og neste trinn
+## Markedsinformasjon for Norge
 
-**Beslutning: Avvent**
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005061 | Enerzair Breezhaler | Ikke oppgitt | Astma |
+
+Godkjenningen er opphevet, og det finnes ingen gyldige godkjenninger for mometason i datamaterialet.
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Legemiddelinteraksjoner**: Det er registrert én farmakologisk interaksjon, med målet glukokortikoidreseptoren (NR3C1), som er mometasons virkemål og ikke en interaksjon med et annet legemiddel. Ingen klinisk interaksjonsnivå er angitt.
+
+For øvrig sikkerhetsinformasjon, se preparatomtalen (pakningsvedlegget).
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Til tross for en høy TxGNN-prediksjonsscore er det ingen klinisk studiebevis og de eneste to litteraturhenvisningene støtter ikke — og i ett tilfelle motsier — effektivitet for denne indikasjonen. Kombinert med manglende MOA-data og et blokkerende gap i TFDA sikkerhet/etikett-informasjon, oppfyller denne kandidaten ennå ikke terskelen for videre evaluering.
+Prediksjonen er mekanistisk plausibel, men støttes kun av modellscore og to kasuistikker uten dokumentert effekt. Det finnes ingen kliniske studier, og den norske/europeiske godkjenningen er opphevet.
 
-**For å fortsette kreves følgende:**
-- Løse DG001 (TFDA-etikettadvarsler/kontraindikasjoner) — blokkerer for øyeblikket sikkerhetsvurdering
-- Løse DG002 (virkningsmekanisme) via DrugBank for å vurdere mekanistisk plausibilitet for CTCL
-- Identifisere litteratur eller prekliniske studier som spesifikt evaluerer kortikosteroider (mometason eller klasse) ved primær kutanøs T-cellelymfom/mycosis fungoides, i stedet for tangensielle caserapporter
-- Revurdere om de to hentede caserapportene er genuint relevante, gitt at den ene viser behandlingssvikt i en differensialdiagnose-tilstand
-
+**For å gå videre kreves følgende:**
+- Hente og gjennomgå preparatomtale med advarsler og kontraindikasjoner (blokkerende for sikkerhetsscreening)
+- Innhente detaljerte data om virkningsmekanisme fra DrugBank
+- Systematisk litteratursøk etter studier av topikal mometason ved tidlig mycosis fungoides
+- Vurdere ruteforenlighet (topikal formulering vs. godkjent inhalasjonsformulering)
+- Avklare markedsstatus og tilgjengelige topikale produkter i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

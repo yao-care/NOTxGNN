@@ -2,7 +2,7 @@
 layout: default
 title: Peginterferon Alfa-2A
 parent: Høy evidens (L1-L2)
-nav_order: 270
+nav_order: 316
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,96 +29,131 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Peginterferon alfa-2a: Fra kronisk hepatitt C til hepatitt B-virussmitta
+# Peginterferon alfa-2a: Fra kronisk hepatitt C til hepatitt B-virusinfeksjon
 
-## Sammendrag i én setning
+## Oppsummering i en setning
 
-> Peginterferon alfa-2a er det pegylerte interferonpreparatet best kjent som Pegasys, med kronisk hepatitt C som sin grunnleggende, globalt etablerte bruksform.
-> TxGNN-modellens toppprediksjon for dette legemidlet er **Hepatitt B-virussmitta**, en indikasjon støttet av **50 kliniske studier** og **20 publikasjoner** — selv om dette, som detaljert nedenfor, best forstås som en bekrefelse av en allerede godkjent bruksform snarere enn et genuint nytt omformål-signal.
+Peginterferon alfa-2a (Pegasys) er et pegylert interferon som opprinnelig er godkjent for kronisk hepatitt C, kronisk hepatitt B, polycytemia vera og essensiell trombocytemi.
+TxGNN-modellen predikerer at legemidlet kan være virksomt mot **hepatitt B-virusinfeksjon**, med **20 kliniske studier** og **20 publikasjoner** i datagrunnlaget.
+Merk at hepatitt B allerede står blant de godkjente indikasjonene, så dette er mer en bekreftelse av eksisterende bruk enn en ekte ny indikasjon.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Kronisk hepatitt C (etablert internasjonal indikasjon; ikke for tiden lisensiert i denne jurisdiksjonen) |
-| Predikert ny indikasjon | Hepatitt B-virussmitta |
-| TxGNN-prediksjonsscore | 99.94% |
-| Bevisnivå | L1 |
-| Norges markedsstatus | Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Fortsett med sikkerhetstiltak |
+| Opprinnelig indikasjon | Kronisk hepatitt C, kronisk hepatitt B, polycytemia vera, essensiell trombocytemi |
+| Predikert ny indikasjon | Hepatitt B-virusinfeksjon |
+| TxGNN-prediksjonsscore | 99,94 % |
+| Evidensnivå | L1 |
+| Markedsstatus i Norge | Kun kansellert |
+| Antall autorisasjoner | 1 |
+| Anbefalt beslutning | Proceed with Guardrails (Fortsett med sikkerhetstiltak) |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte virkningsmekanisme-data var ikke tilgjengelige fra standardreferansen for legemidler (DG002, datamangler). Imidlertid gir bevissamlingen sin egen omformål-begrunnelse den viktige mekanistiske detaljen: peginterferon alfa-2a er allerede en godkjent behandling for kronisk hepatitt B (markedsført som Pegasys), som virker ved å indusere interferon-stimulert genuttrykkelse og forbedre vertscellens immunklaring av HBV. Dette er den samme brede antiviralt/immunmodulatorisk mekanismen som ligger til grunn for dens langvarige rolle som standardbehandling for kronisk hepatitt C, som gjenspeiles gjennom det kliniske studiebeviset nedenfor (f.eks. «the current standard of care in HCV patients consists of a combination of peg-IFN alpha and ribavirin»).
+Det foreligger for tiden ikke detaljerte data om virkningsmekanisme i datagrunnlaget. Basert på kjent informasjon er peginterferon alfa-2a et pegylert interferon-alfa med immunmodulerende og antiviral effekt. Slike effekter omfatter induksjon av interferonstimulerte gener og styrkede HBV-spesifikke T-celle- og NK-celle-responser.
 
-Fordi både kronisk hepatitt B og kronisk hepatitt C er virale, hepatotrope infeksjoner som reagerer på type-I interferon-signalering, er den mekanistiske bro mellom de to godt etablert snarere enn spekulativ. Viktigvis påpeker bevissamlingen selv at dette spesifikke signalet — HBV-infeksjon — **ikke er en ny indikasjon men en eksisterende, på-etikett-bruk** ("MOA明確且非新適應症，屬既有標籤內用途"). Med andre ord har TxGNN korrekt gjennoppdaget et kjent terapeutisk forhold snarere enn brakt frem en ny hypotese. Dette bør leses som en validering av modellens pålitelighet for dette legemidlet, og det betyr også at den omfattende studiebasen nedenfor gjenspeiler tiår av bekreftelsesforskning snarere enn tidlig-fase utforskende signaler.
+Siden kronisk hepatitt B allerede er en godkjent indikasjon, er prediksjonen i praksis en bekreftelse av eksisterende bruk. Hepatitt B og C er begge kroniske virale leversykdommer, og interferonets brede antivirale og immunregulerende virkning er relevant for begge.
+
+Evidensen er sterk: en fase 3-studie, flere fase 4-studier og en banebrytende RCT (PMID 15987917) støtter effekt ved HBeAg-positiv kronisk hepatitt B.
 
 ---
 
-## Klinisk studiebevis
+## Evidens fra kliniske studier
 
-| Studie-nummer | Fase | Status | Deltakere | Viktige funn |
+Et utvalg av de mest relevante studiene (av 20 registrerte):
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT01937728](https://clinicaltrials.gov/study/NCT01937728) | Fase 4 | Fullført | 542 | Skreddersydde (individualiserte) varighet-regimer med peginterferon alfa-2a pluss ribavirin, veieledet etter virale kinetikk |
-| [NCT00436163](https://clinicaltrials.gov/study/NCT00436163) | Fase 4 | Fullført | 39 | Baltisk etter-markedsstudie: effektivitet/sikkerhet av peginterferon alfa-2a 180 mcg ukentlig i HBeAg-positiv kronisk hepatitt B, tidligere ubehandlet |
-| [NCT01706575](https://clinicaltrials.gov/study/NCT01706575) | Fase 2 | Fullført | 76 | Tilsetning av Pegasys til nukleosid(t)-analoglegemiddel-terapi i HBeAg-negativ genotype D kronisk hepatitt B med stabil HBV DNA-undertrykkelse |
-| [NCT00435825](https://clinicaltrials.gov/study/NCT00435825) | Fase 4 | Fullført | 551 | 4-armers randomisert kontrollert studie som sammenlikner 24 vs 48 uker og 90 vs 180 mcg PEGASYS-doser for HBeAg-serokonversjon og sikkerhet |
-| [NCT01011738](https://clinicaltrials.gov/study/NCT01011738) | Ikke angitt | Fullført | 1842 | Stor multisenter observasjonell kohort som evaluerer prediktorer for respons på Pegasys under behandling i HBeAg+/- kronisk hepatitt B |
-| [NCT02604823](https://clinicaltrials.gov/study/NCT02604823) | Fase 4 | Fullført | 307 | Effektivitet og sikkerhet av Pegasys hos naive, interferon- eller lamivudin-forhåndsbehandlede HBeAg-positive kronisk hepatitt B-pasienter |
-| [NCT01730508](https://clinicaltrials.gov/study/NCT01730508) | Ikke angitt | Fullført | 978 | Multisenter observasjonell kohort i kinesiske HBeAg-negative kronisk hepatitt B-pasienter som mottok Pegasys etter lokal etikett |
-| [NCT00940485](https://clinicaltrials.gov/study/NCT00940485) | Fase 4 | Fullført | 200 | Kombinasjon/sekvensielle peginterferon alfa-2a pluss entecavir for optimalisering av HBeAg-serokonversjon |
-| [NCT01086085](https://clinicaltrials.gov/study/NCT01086085) | Fase 4 | Fullført | 265 | Respons-veieledet behandling (RGT) optimalisering av PEGASYS i HBeAg-positive kronisk hepatitt B |
-| [NCT03210506](https://clinicaltrials.gov/study/NCT03210506) | Ikke angitt | Ukjent | 120 | Mekanistisk studie av cytokin-endringer under peginterferon alfa-2a og nukleosid-analog-terapi, som støtter immunregulatorisk MOA |
+| [NCT00661076](https://clinicaltrials.gov/study/NCT00661076) | Fase 3 | Fullført | 10 | Randomisert: Pegasys + adefovir versus Pegasys alene ved HBeAg-negativ kronisk hepatitt B; svært liten studie |
+| [NCT01237496](https://clinicaltrials.gov/study/NCT01237496) | Fase 3 | Fullført | 17 | HBV-spesifikke T-celle-responser ved HBeAg-negativ kronisk hepatitt B behandlet med Pegasys |
+| [NCT02604823](https://clinicaltrials.gov/study/NCT02604823) | Fase 4 | Fullført | 307 | Effekt og sikkerhet ved HBeAg-positiv kronisk hepatitt B etter 48 ukers behandling |
+| [NCT00614471](https://clinicaltrials.gov/study/NCT00614471) | Fase 4 | Fullført | 219 | Randomisert: Pegasys + entekavir i behandlingsnaive HBeAg-positive pasienter |
+| [NCT02474316](https://clinicaltrials.gov/study/NCT02474316) | Fase 4 | Ukjent | 366 | Bytte fra nukleosidanalog til kombinasjon med peginterferon alfa-2a; HBeAg-serokonversjon |
+| [NCT02560649](https://clinicaltrials.gov/study/NCT02560649) | Fase 4 | Ukjent | 324 | Responsstyrt behandling (RGT) hos NUC-erfarne pasienter; HBsAg-clearance |
+| [NCT02097004](https://clinicaltrials.gov/study/NCT02097004) | Fase 4 | Fullført | 111 | Terapeutisk vaksinasjon + peginterferon etter entekavir; HBsAg-serokonversjon |
+| [NCT03084250](https://clinicaltrials.gov/study/NCT03084250) | Fase 4 | Ukjent | 150 | Randomisert: NA + peginterferon versus NA alene ved cirrose og høy HCC-risiko |
+| [NCT02570191](https://clinicaltrials.gov/study/NCT02570191) | Fase 4 | Fullført | 60 | Åpen, ikke-randomisert studie ved HBeAg-negativ kronisk hepatitt B |
+| [NCT03181113](https://clinicaltrials.gov/study/NCT03181113) | Ikke angitt | Fullført | 473 | Langtidsoppfølging (kohort) av HBeAg-positive pasienter etter peginterferon-behandling |
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Journal | Viktige funn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [15987917](https://pubmed.ncbi.nlm.nih.gov/15987917/) | 2005 | Randomisert kontrollert studie | N Engl J Med | Pivotstudie for godkjenning: peginterferon alfa-2a ± lamivudin for HBeAg-positive kronisk hepatitt B |
-| [30318613](https://pubmed.ncbi.nlm.nih.gov/30318613/) | 2019 | Randomisert kontrollert studie | Hepatology | Entecavir/peginterferon alfa-2a kombinasjon i HBeAg-positive immuntolerante barn med kronisk hepatitt B |
-| [30549279](https://pubmed.ncbi.nlm.nih.gov/30549279/) | 2019 | Randomisert kontrollert studie | Hepatology | Entecavir og peginterferon alfa-2a hos voksne med immuntolerante kronisk HBV-infeksjon |
-| [30865588](https://pubmed.ncbi.nlm.nih.gov/30865588/) | 2019 | Systematisk oversikt/Meta-analyse | Antiviral Therapy | Metaanalyse av individuelle deltakeres data som etablerer peginterferon alfa-2a behandlingsstoppingsregler i kronisk hepatitt B |
-| [29715359](https://pubmed.ncbi.nlm.nih.gov/29715359/) | 2018 | Oversiktsartikkel | JAMA | Omfattende oversikt over kronisk hepatitt B-infeksjon og behandlingslandskap |
-| [21423260](https://pubmed.ncbi.nlm.nih.gov/21423260/) | 2011 | Oversiktsartikkel | Nat Rev Gastroenterol Hepatol | Oversikt over hepatitt B-terapi, inkludert interferon-baserte tilnærminger |
-| [18220290](https://pubmed.ncbi.nlm.nih.gov/18220290/) | 2008 | Randomisert kontrollert studie (fase 3 godkjenningsdata) | Hepatology | HBeAg og HBV DNA som resultatprediktorer under peginterferon alfa-2a-terapi (n=271, stor multikulturell studie) |
-| [33720089](https://pubmed.ncbi.nlm.nih.gov/33720089/) | 2021 | Randomisert kontrollert studie | J Pediatr Gastroenterol Nutr | Peginterferon alfa-2a pluss lamivudin eller entecavir hos barn med immuntolerante kronisk hepatitt B |
-| [26700861](https://pubmed.ncbi.nlm.nih.gov/26700861/) | 2015 | Randomisert kontrollert studie | Virology Journal | Dobbeltblindet randomisert studie av langtidseffekter av peginterferon alfa-2a hos japanske kronisk hepatitt B-pasienter |
-| [33339708](https://pubmed.ncbi.nlm.nih.gov/33339708/) | 2021 | Kohortstudie | J Formos Med Assoc | Virologiske/immunologiske prediktorer for langfristresultater av peginterferon alfa-2a i HBeAg-negative kronisk hepatitt B |
+| [15987917](https://pubmed.ncbi.nlm.nih.gov/15987917/) | 2005 | RCT | N Engl J Med | Peginterferon alfa-2a med eller uten lamivudin versus lamivudin alene ved HBeAg-positiv kronisk hepatitt B |
+| [30549279](https://pubmed.ncbi.nlm.nih.gov/30549279/) | 2019 | RCT | Hepatology | Entekavir + peginterferon alfa-2a hos voksne med HBeAg-positiv immuntolerant HBV-infeksjon |
+| [26299874](https://pubmed.ncbi.nlm.nih.gov/26299874/) | 2016 | Metaanalyse | Clin Res Hepatol Gastroenterol | Forlenget versus standard behandlingsvarighet (48 uker) med peginterferon alfa-2a |
+| [30865588](https://pubmed.ncbi.nlm.nih.gov/30865588/) | 2019 | Systematisk oversikt/metaanalyse | Antivir Ther | Stoppregler for peginterferon alfa-2a basert på individdata |
+| [33720089](https://pubmed.ncbi.nlm.nih.gov/33720089/) | 2021 | Randomisert studie | J Pediatr Gastroenterol Nutr | Peginterferon + lamivudin eller entekavir hos barn med immuntolerant kronisk hepatitt B |
+| [30318613](https://pubmed.ncbi.nlm.nih.gov/30318613/) | 2019 | Kliniske data | Hepatology | Entekavir/peginterferon alfa-2a hos barn med HBeAg-positiv immuntolerant HBV |
+| [26700861](https://pubmed.ncbi.nlm.nih.gov/26700861/) | 2015 | Randomisert studie | Virol J | Langtidseffekter hos japanske pasienter med kronisk hepatitt B |
+| [32548156](https://pubmed.ncbi.nlm.nih.gov/32548156/) | 2020 | Kohort | World J Clin Cases | Cytokiner som prediktorer for virologisk respons |
+| [18221137](https://pubmed.ncbi.nlm.nih.gov/18221137/) | 2006 | Oversikt | Recent Pat Antiinfect Drug Discov | Pegylerte interferoner ved kronisk hepatitt B |
+| [21978243](https://pubmed.ncbi.nlm.nih.gov/21978243/) | 2011 | Oversikt | Aliment Pharmacol Ther | Aktuell antiviral behandling av kronisk hepatitt B |
 
 ---
 
-## Norges markedsinformasjon
+## Markedsinformasjon for Norge
 
-Ingen godkjennelser er for tiden registrert for dette legemidlet i denne jurisdiksjonen (markedsstatus: **Ikke markedsført**, totale lisenser: 0). Alt klinisk og litteraturbevis ovenfor gjenspeiler bruk av produktet (markedsført internasjonalt som Pegasys) i andre jurisdiksjoner.
+| Autorisasjonsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000395 | Pegasys | Ikke angitt | Kronisk hepatitt C, kronisk hepatitt B, polycytemia vera, essensiell trombocytemi |
+
+Autorisasjonen har status kansellert, og det finnes ingen gyldige autorisasjoner i dag.
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegget for sikkerhetsinformasjon.
+**Legemiddelinteraksjoner:** Det er registrert 100 interaksjoner. Blant de som er klassifisert som alvorlige (Major) er:
+- Bupropion
+- Deferipron
+- Iopamidol
+- Iohexol
+- Samarium (153Sm) lexidronam
+- Eltrombopag
+
+Blant de moderate er blant annet metronidazol, tinidazol, naltrekson, rosuvastatin, simvastatin, warfarin, dikumarol, klorokin, pegvaliase og palifermin.
+
+For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparatomtalen.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Fortsett med sikkerhetstiltak**
+**Beslutning: Proceed with Guardrails (Fortsett med sikkerhetstiltak)**
 
 **Begrunnelse:**
-Bevisgrunnlaget for peginterferon alfa-2a ved hepatitt B-virussmitta er ekstraordinært sterkt (L1 — flere gjennomførte fase 3/4 randomiserte kontrollerte studier pluss en systematisk oversikt/meta-analyse), men dette gjenspeiler en allerede etablert, på-etikett-indikasjon snarere enn en ny omformål-oppdagelse, og legemidlet har for tiden ingen lokal markedsgodkjenning.
+Hepatitt B er allerede en godkjent indikasjon, og evidensen er omfattende (fase 3- og fase 4-studier samt en banebrytende RCT). Markedsstatusen i Norge er imidlertid «kun kansellert», så tilgjengelighet må avklares.
 
-**Følgende er nødvendig for å fortsette:**
-- Bekreft lokal (TFDA-ekvivalent) etikettstatus og hent det offisielle pakningsvedlegget for advarsler/kontraindikasjoner (DG001)
-- Hent formell MOA-dokumentasjon fra DrugBank eller produsent-etiketter (DG002)
-- Avklare regulatorisk vei til markedsgodkjenning gitt nåværende «Ikke markedsført»-status
-- Gitt at dette signalet er en kjent indikasjon snarere enn en ny oppdagelse, bør du vurdere omdirigering av omformål-fokusert anmeldingsinnsats mot lavere-rangerte, bevis-svake kandidater i denne samlingen (f.eks. hepatitt E-virussmitta, L3) hvor vurdering av genuin novitet er mer relevant
+**For å gå videre kreves:**
+- Verifisere tilgjengelighet og regulatorisk status (godkjenningen er kansellert)
+- Hente inn preparatomtale med advarsler og kontraindikasjoner
+- Hente inn data om virkningsmekanisme
+- Pasientutvelgelse (HBeAg-status, HBV-DNA, ALT, genotype) og stoppregler under behandling (PMID 30865588)
+- Overvåkingsplan for interferonrelaterte bivirkninger
 
+---
+
+## Andre predikerte indikasjoner (kort)
+
+| Indikasjon | Score | Evidensnivå | Beslutning |
+|------|------|------|------|
+| Hepatitt E-virusinfeksjon | 99,83 % | L4 | Forskningsspørsmål (de koblede studiene gjelder HBV, ikke HEV) |
+| Hepatitt A-virusinfeksjon | 99,82 % | L5 | Hold |
+| Viral hepatitt, dyr | 99,82 % | L4 | Hold (kun en prekliniske rottestudie) |
+| Omsk hemoragisk feber | 99,82 % | L5 | Hold (kun prediksjon) |
+| Kyasanur-skogsykdom | 99,81 % | L5 | Hold (kun prediksjon) |
+| Hjertelednings­sykdom | 99,50 % | L5 | Hold (interferon kan gi hjerterytmeforstyrrelser) |
+| Hjertesvulst | 99,37 % | L5 | Hold |
+| Hjerteklaffsykdom | 99,36 % | L5 | Hold |
+| Medfødt ventrikkelseptumdefekt | 99,23 % | L5 | Hold |
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

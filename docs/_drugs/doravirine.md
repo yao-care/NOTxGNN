@@ -2,7 +2,7 @@
 layout: default
 title: Doravirine
 parent: Kun modellprediksjon (L5)
-nav_order: 113
+nav_order: 131
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,78 +29,94 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Doravirine: Fra HIV-1-infeksjon til felint ervervet immunsviktsyndrom
+# Doravirin: Fra hiv-infeksjon til felint ervervet immunsviktsyndrom
 
-## Sammendrag i en setning
+## Oppsummering i én setning
 
-Doravirine er en non-nukleosid reversert transkriptasehemmer (NNRTI) utviklet for HIV-1-infeksjon. TxGNN-modellens høyest rangerte prediksjon antyder mulig relevans til **felint ervervet immunsviktsyndrom (FIV)** — en veterinær lentivirus-infeksjon, ikke en menneskesykdom — og denne retningen støttes for øyeblikket av **ingen kliniske forsøk og ingen litteratur**, som tilsvarer det laveste evidensnivået (L5, kun modellprediksjon).
+Doravirin er en ikke-nukleosid revers transkriptasehemmer (NNRTI) som opprinnelig brukes til behandling av **hiv-infeksjon**. TxGNN-modellen forutsier at legemidlet kan ha effekt mot **felint ervervet immunsviktsyndrom** (katte-immunsvikt), men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** som direkte støtter denne prediksjonen. Prediksjonen er kun modellbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Originalindikasjon | HIV-1-infeksjon (basert på kontekst for legemiddelklasse i evidenspakken; ikke bekreftet via norske reguleringsdata, da legemidlet ikke er markedsført der) |
-| Forutsagt ny indikasjon | Felint ervervet immunsviktsyndrom (FIV) |
-| TxGNN-prediksjonspoeng | 99.93% |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Hiv-infeksjon |
+| Predikert ny indikasjon | Felint ervervet immunsviktsyndrom |
+| TxGNN-prediksjonsscore | 99,93 % |
 | Evidensnivå | L5 |
-| Status på det norske marked | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Pausert |
+| Markedsstatus i Norge | Kun opphevede/trukne godkjenninger |
+| Antall godkjenninger | 2 (begge opphevet) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) for doravirine er ikke tilgjengelige i denne evidenspakken (flagget som en alvorlig datakløft). Basert på konteksten for legemiddelklasse som refereres i hele evidenspakkens begrunnelse for legemiddelomobruk, tilhører doravirine klassen non-nukleosid reversert transkriptasehemmere (NNRTI) — antiretrovirale midler hvis aktivitet avhenger av binding til en høyt spesifikk lomme innen HIV-1 reversert transkriptase (RT) enzym.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon er doravirin en NNRTI som hemmer revers transkriptase hos hiv-1, og effekten ved hiv-infeksjon er dokumentert. Mekanistisk kan den i prinsippet være aktuell for beslektede lentivirus.
 
-Den høyest rangerte prediksjonen, FIV, ser ut til å oppstå fra semantisk likhet i kunnskapsgrafen mellom «antiretrovirale midler» og «lentivirus-infeksjoner» generelt, snarere enn fra direkte farmakologiske eller kliniske bevis. FIV er forårsaket av et lentivirus som, selv om det er fjernt relatert til HIV-1, har en reversert transkriptase-struktur som skiller seg vesentlig fra den. NNRTI er godt kjent for å være høyt sekvens-spesifikk til HIV-1 non-nukleosid bindingslommen — den samme legemiddelklassen (f.eks. efavirenz, nevirapin) viser liten til ingen kryssreaktivitet selv mot det nært relaterte HIV-2, langt mindre mot FIV. FIV er også en veterinær (felint) sykdom, ikke en menneskelig indikasjon, noe som plasserer den utenfor det konvensjonelle omfanget av legemiddelomobruk hos mennesker.
+Felint immunsviktvirus (FIV) er et lentivirus i slekt med hiv, og dette gir et teoretisk grunnlag for prediksjonen. Det er imidlertid en viktig svakhet: NNRTI-er har generelt dårlig aktivitet mot FIV, fordi revers transkriptase hos FIV har en annen struktur i NNRTI-bindingslommen. Den høye TxGNN-scoren ser ut til å gjenspeile at sykdommen ligger nær hiv i kunnskapsgrafen, snarere enn dokumentert aktivitet. Det foreligger ingen doravirinspesifikke FIV-data.
 
-Evidenspakkens egen mekanistiske vurdering av denne kandidaten karakteriserer eksplisitt den som sannsynlig støy i embedding-rommet snarere enn et biologisk plausibelt ombrukssignal. To lavere-konfidenskandidater ble også vurdert for kontekst: simian immunsviktvirus (SIV) infeksjon (rang 2 — mekanistisk plausibel i prinsippet som et annet lentivirus, men mangler direkte bevis for kryssreaktivitet og er, som FIV, ikke en menneskelig indikasjon) og en sjelden nevro-utviklingsforstyrrelse (rang 3 — ingen biologisk begrunnelse forbinder den til reversert transkriptasehemming, og den er flagget som en sannsynlig falsk positiv). Ingen av dem styrker tilfellet for den høyest rangerte prediksjonen.
-
----
-
-## Klinisk forsøksevidens
-
-For øyeblikket ingen relaterte kliniske forsøk registrert.
+Det bør også nevnes at to andre prediksjoner i datagrunnlaget er enda svakere:
+- **Simian immunsviktvirus-infeksjon (SIV):** Moderat mekanistisk plausibilitet, men SIV (i likhet med HIV-2) er naturlig resistent mot mange NNRTI-er. Den ene tilknyttede publikasjonen gjelder islatravir, ikke doravirin. Dette er i tillegg en indikasjon knyttet til dyremodeller uten klinisk relevans for mennesker.
+- **Nevroutviklingsforstyrrelse med ataktisk gange, fraværende tale og redusert kortikal hvit substans:** Ingen plausibel mekanistisk kobling. Prediksjonen er sannsynligvis en grafbasert artefakt.
 
 ---
 
-## Litteraturbevis
+## Klinisk studieevidens
 
-For øyeblikket ingen relatert litteratur tilgjengelig.
-
-*Merknad: En litteraturoppføring ble hentet under rang-2-kandidaten (SIV-infeksjon) — [31658118](https://pubmed.ncbi.nlm.nih.gov/31658118/), en 2020-oversikt over islatravir. Dette gjelder et annet legemiddel (islatravir, ikke doravirine) og utgjør derfor ikke direkte støttende bevis for doravirine.*
+Foreløpig er det ingen relaterte kliniske studier registrert.
 
 ---
 
-## Informasjon om det norske marked
+## Litteraturevidens
 
-Doravirine har for øyeblikket ingen markedsføringstillatelse i Norge (markedsstatus: Ikke markedsført; 0 lisenser på fil). Ingen produkt-, doseringsform-, eller godkjent-indikasjondata er tilgjengelig for dette markedet.
+For den primære prediksjonen (felint ervervet immunsviktsyndrom) finnes foreløpig ingen relatert litteratur.
+
+For SIV-prediksjonen (rangert som nr. 2) er følgende publikasjon knyttet, men den er bare indirekte relevant:
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [31658118](https://pubmed.ncbi.nlm.nih.gov/31658118/) | 2020 | Oversiktsartikkel | Current Opinion in HIV and AIDS | Drøfter islatravirs potensielle rolle (en revers transkriptase-translokasjonshemmer) i behandling og forebygging av hiv-1. Gjelder ikke doravirin. |
 
 ---
 
-## Sikkerhetshensyn
+## Informasjon om det norske markedet
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. TFDA-pakningsvedlegg advarsler/kontraindikasjoner og DDI-data er for øyeblikket ikke tilgjengelige (DDI-spørringsstatus: ikke funnet) — dette registreres som en **blokkerende** datakløft (DG001) som hindrer videre framgang til sikkerhetsvurdering (S1).
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004747 | Pifeltro | Ikke oppgitt | Hiv-infeksjon (opphevet) |
+| EMEA/H/C/004746 | Delstrigo | Ikke oppgitt | Hiv-infeksjon (opphevet) |
+
+Begge godkjenningene er registrert som opphevet, og det finnes ingen gyldige godkjenninger.
 
 ---
 
-## Konklusjon og neste skritt
+## Sikkerhetsvurderinger
 
-**Beslutning: Pausert**
+**Legemiddelinteraksjoner:** Det er registrert 59 interaksjoner. Blant de som er oppgitt i datagrunnlaget er de viktigste:
+
+- **Alvorlig (Major):** deksametason, lumakaftor
+- **Moderat:** glyserolfenylbutyrat, metreleptin, troglitazon, deferasirox, prazikvantel, griseofulvin
+- **Mindre (Minor):** blant annet aprepitant, cimetidin, klaritromycin, klotrimazol, mikonazol, kobicistat, tikagrelor, ivakaftor, zafirlukast, kloramfenikol, erytromycin og flukonazol
+
+For øvrig henvises det til preparatomtalen for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Evidensnivået er L5 (kun modellprediksjon, ingen kliniske forsøk eller litteratur), og den underliggende mekanistiske begrunnelsen for den høyest rangerte indikasjonen (FIV) er svak — FIV er en ikke-menneskelig veterinærsykdom uten etablerte data om NNRTI-kryssreaktivitet. Kombinert med fraværet av norsk markedstilstedeværelse og en blokkerende sikkerhetsdatakløft, oppfyller denne kandidaten for øyeblikket ikke terskelen for videre vurdering.
+Prediksjonen er kun modellbasert (evidensnivå L5) uten kliniske studier eller direkte litteratur. Den høye scoren synes å skyldes nærhet til hiv i kunnskapsgrafen, og NNRTI-er har kjent svak aktivitet mot FIV. I tillegg har legemidlet ingen gyldige godkjenninger i Norge i dag.
 
-**For å fortsette er følgende nødvendig:**
-- TFDA/norsk pakningsvedlegg (advarsler, kontraindikasjoner) — Blokkerende datakløft (DG001), påkrevd før enhver S1-sikkerhetsvurdering
-- Bekreftet virkningsmekanisme (MOA)-dokumentasjon — Kløft med høy prioritet (DG002)
-- Direkte farmakologisk eller in vitro-bevis for doravirin-aktivitet mot FIV eller andre non-HIV-1 lentivirus
-- Direkte (legemiddelspesifikk) litteratur- eller forsøksbevis for SIV-infeksjonskandidaten, siden det nåværende litteraturtreffet gjelder et annet legemiddel (islatravir)
-- Klargjøring av klinisk relevans, siden den høyest rangerte prediksjonen er en veterinær indikasjon snarere enn et menneskelig sykdomsmål
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Sikkerhetsopplysninger fra preparatomtalen (advarsler og kontraindikasjoner), som i dag mangler og blokkerer sikkerhetsvurderingen
+- Doravirinspesifikke prekliniske data (in vitro-aktivitet mot FIV-revers transkriptase)
+- Avklaring av om en veterinær indikasjon er relevant for porteføljen, og en vurdering av administrasjonsveier og formuleringer for dyr
+- Avklaring av markedsstatus, siden begge norske godkjenninger er opphevet
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

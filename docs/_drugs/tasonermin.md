@@ -2,7 +2,7 @@
 layout: default
 title: Tasonermin
 parent: Kun modellprediksjon (L5)
-nav_order: 340
+nav_order: 400
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,71 +29,96 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tasonermin: Fra bløtdelssarkom (isolert lemmeperfusjon) til urotelkarsinom i prostataurethra
+# Tasonermin: Fra sarkom til prostatisk uretral urotelkarsinom
 
-## Ensetnings sammendrag
+## Oppsummering i én setning
 
-Tasonermin er et rekombinant TNF-alpha internasjonalt kjent for bruk i bløtdelssarkom via isolert lemmeperfusjon; ingen formell originalindikasjonsregistrering finnes i denne bevissamlingen.
-TxGNN-modellen forutsier at det kan være effektivt for **urotelkarsinom i prostataurethra**,
-men denne forutsigelsen støttes for øyeblikket av **0 kliniske forsøk** og **0 publikasjoner** — det er et rent nettverksinferenssignal på dette stadiet.
+Tasonermin er rekombinant humant TNF-alfa, opprinnelig godkjent for behandling av **sarkom** (bløtdelssarkom i ekstremiteter, gitt ved isolert lemperfusjon).
+TxGNN-modellen forutsier at legemidlet kan ha effekt ved **prostatisk uretral urotelkarsinom**, men
+det finnes for øyeblikket **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen er rent beregningsbasert.
 
-## Kortfattet oversikt
+---
 
-| Element | Innhold |
-|---------|---------|
-| Original indikasjon | Ikke tilgjengelig (ingen Norge/Taiwan-lisens registrert) |
-| Forutsagt ny indikasjon | Urotelkarsinom i prostataurethra |
-| TxGNN-forutsigelsesscore | 99.81% |
-| Bevisnivå | L5 |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Avvent |
+## Hurtigoversikt
 
-## Hvorfor er denne forutsigelsen rimelig?
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Sarkom |
+| Predikert ny indikasjon | Prostatisk uretral urotelkarsinom |
+| TxGNN-prediksjonsscore | 99,81 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (ikke markedsført) |
+| Antall godkjenninger | 1 (0 gyldige, 1 avregistrert) |
+| Anbefalt beslutning | Hold |
 
-For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige. Basert på kjent informasjon, forstås Tasonermin (rekombinant humant TNF-alpha) å virke via TNFR1 for å indusere apoptose av tumorvaskulært endotel, forstyrre tumorens mikrovaskularitet og aktivere antitumor immunresponser, noe som gir det teoretisk bredt spektrum cytotoksisk potensial mot solide svulster. Det har en etablert internasjonalt bruk i bløtdelssarkom via isolert lemmeperfusjon.
+---
 
-For den topprankede kandidaten, urotelkarsinom i prostataurethra, er repurposingrasjonalet rent mekanistisk ekstrapolering: TNF-alphas vaskulær-disruptive og immun-aktiverende effekter antas å være anvendelige på solide urotheliale svulster, men det er for øyeblikket **ingen direkte klinisk eller litteraturbevis** som forbinder Tasonermin til denne indikasjonen. Det samme mønsteret gjelder for rangeringer 2–10 (andre urotheliale karsinomer, HER2+ brystkreft og flere sjeldne gynekologiske adenokarsinomer) — alle er nettverkspredikterte assosiasjoner uten støttende forsøk eller publikasjoner.
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-## Bevis fra kliniske forsøk
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Tasonermin er kjent som rekombinant humant TNF-alfa, brukt sammen med isolert lemperfusjon ved bløtdelssarkom. Virkningen i denne bruken antas å skyldes vaskulær skade i svulsten, men dette er ikke dokumentert i dataene som er samlet for denne rapporten.
 
-For øyeblikket ingen relaterte kliniske forsøk registrert
+Det er ikke mulig å etablere en mekanistisk kobling mellom sarkom og urotelkarsinom i prostatisk uretra ut fra de foreliggende dataene. Den høye scoren (0,998) er en prediksjon fra kunnskapsgrafen alene. Systemisk TNF-alfa-toksisitet begrenser dessuten bruk utenfor regional administrering, og isolert lemperfusjon lar seg ikke overføre til svulster i urinveiene.
 
-## Litteraturbevis
+Flere av de øvrige topp-10-prediksjonene har et visst, men løst, slektskap med den opprinnelige indikasjonen:
+- **Sarkomatoid nyrebekken-overgangscellekarsinom** og **infiltrerende blæreurotelkarsinom, sarkomatoid variant**: den sarkomatoide histologien har mesenkymale trekk som ligner sarkom, noe som kan forklare modellens prediksjon. Direkte evidens mangler.
+- **HER2-positivt brystkarsinom**: TNF-alfa-signalering er kontekstavhengig og kan fremme svulstvekst, så rasjonalet er usikkert. Eksisterende HER2-målrettet behandling er svært effektiv.
+- **Gynekologiske karsinomer** (livmorligament, livmorhals): scorene gjenspeiler trolig likhet med nærliggende noder i grafen.
 
-For øyeblikket ingen relatert litteratur tilgjengelig
+---
 
-## Markedsinformasjon for Norge
+## Klinisk studieevidens
 
-Ikke markedsført i Norge; ingen autorisasjonsregistre tilgjengelig (total_licenses = 0).
+Det er for øyeblikket ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+Det er for øyeblikket ingen relatert litteratur tilgjengelig.
+
+---
+
+## Informasjon om det norske markedet
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000206 | Beromun | – | Sarkom |
+
+Godkjenningen er avregistrert (innehaver: Belpharma s.a.).
+
+---
 
 ## Cytotoksisitet
 
-| Element | Innhold |
-|---------|---------|
-| Cytotoksisitet klassifikasjon | Immunterapi / biologisk responsmodifikator (rekombinant TNF-alpha cytokin) |
-| Myelosuppresjon risiko | Vennligst se advarsler og forsiktighetsregler i pakningsvedlegget |
-| Emetogenitet klassifikasjon | Vennligst se advarsler og forsiktighetsregler i pakningsvedlegget |
-| Overvåkingspunkter | Vennligst se advarsler og forsiktighetsregler i pakningsvedlegget |
-| Håndteringsbeskyttelse | Vennligst se advarsler og forsiktighetsregler i pakningsvedlegget |
+| Punkt | Innhold |
+|------|------|
+| Cytotoksisitetsklassifisering | Biologisk kreftlegemiddel (rekombinant TNF-alfa, immunmodulerende/vaskulært virkende). Detaljert klassifisering er ikke tilgjengelig i dataene |
+| Risiko for myelosuppresjon | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Emetogenisk klassifisering | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Håndteringsbeskyttelse | Følg lokale retningslinjer for håndtering av cytostatika/kreftlegemidler inntil annet er avklart |
 
-## Sikkerhetsoverveielser
+---
 
-Vennligst se pakningsvedlegget for sikkerthetsinformasjon.
+## Sikkerhetsvurderinger
 
-## Konklusjon og neste skritt
+Se pakningsvedlegget for sikkerhetsinformasjon. Det er ikke funnet registrerte legemiddelinteraksjoner i dataene som er samlet for denne rapporten. Det bør likevel bemerkes at systemisk TNF-alfa-toksisitet er en kjent begrensning ved bruk utover regional administrering.
 
-**Beslutning: Avvent**
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-De topprankede og alle påfølgende forutsatte indikasjoner befinner seg på bevisnivå L5 (modellforutsigelse bare, ingen kliniske forsøk eller litteratur), og legemidlet er ikke markedsført i Norge/Taiwan. Kombinert med et blokkerende datagap i TFDA-etikettadvarsler/kontraindikasjoner, er det for øyeblikket intet grunnlag for å gå videre til sikkerhetsscreening eller klinisk evaluering.
+Prediksjonen bygger kun på en kunnskapsgraf-score (evidensnivå L5), uten kliniske studier, litteratur eller en identifiserbar mekanistisk kobling. Legemidlet er dessuten avregistrert i Norge, og systemisk toksisitet begrenser anvendelsen. Det samme gjelder alle de ti predikerte indikasjonene.
 
-**For å fortsette, er følgende nødvendig:**
-- TFDA-godkjent etikettadvarsler og kontraindikasjoner (DG001, blokkering — obligatorisk før noen S1-sikkerhetsassessment)
-- Bekreftet virkningsmekanisme-dokumentasjon fra DrugBank eller primær litteratur (DG002)
-- Prekliniske eller mekanistiske studier på TNF-alpha aktivitet i urotelkarsinom for å underbygge den mekanistiske forbindelsen
-- Kompatibilitetsassessment for administreringsvei (for øyeblikket merket "ventende" for alle kandidater)
-
+**For å gå videre kreves følgende:**
+- Innhenting og analyse av pakningsvedlegget med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Data om virkningsmekanisme (f.eks. fra DrugBank)
+- Prekliniske data eller litteratur som viser en rimelig mekanisme i urotelkarsinom
+- Vurdering av administrasjonsvei (regional/lokal levering) og dens gjennomførbarhet for den predikerte indikasjonen
+- Avklaring av tilgjengelighet i Norge, siden eneste godkjenning er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

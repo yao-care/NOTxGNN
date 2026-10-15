@@ -2,7 +2,7 @@
 layout: default
 title: Pemetrexed
 parent: Høy evidens (L1-L2)
-nav_order: 273
+nav_order: 319
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,112 +29,117 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Pemetrexed: Fra pleural mesoteliom til ondartret peritonealt mesoteliom
+# Pemetreksed: Fra ikke-småcellet lungekreft og mesoteliom til malignt peritonealt mesoteliom
 
-## Ensetnings sammendrag
+## Oppsummering i én setning
 
-Pemetrexed er et multimålrettet antifolatketkemoterapi som allerede er etablert som første linjens standardbehandling for ondartret pleural mesoteliom (i kombinasjon med cisplatin) og ikke-småcellelig lungekreft.
-TxGNN-modellen forutsier at det også kan være effektivt for **Ondartret peritonealt mesoteliom**,
-med **11 kliniske studier** og **20 publikasjoner** som for tiden støtter denne retningen.
+Pemetreksed er et antifolat-cellegift som opprinnelig brukes mot **ikke-småcellet lungekreft** og **mesoteliom** (kreft i brysthinnen). TxGNN-modellen forutsier at legemidlet også kan være virksomt ved **malignt peritonealt mesoteliom** (kreft i bukhinnen). Dette støttes av **7 kliniske studier** og **21 publikasjoner** i de data som er sammenstilt for rapporten, men kun små fase 2-studier og retrospektive serier er spesifikke for bukhinnen.
 
----
+## Hurtigoversikt
 
-## Rask oversikt
-
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Ingen norsk regulatorisk lisenstekst tilgjengelig. Basert på klinisk evidens i denne pakken, er pemetrexeds etablerte indikasjoner Ikke-småcellelig lungekreft og Ondartret pleural mesoteliom (pemetrexed + cisplatin er bekreftet første linjens standardbehandling for pleural mesoteliom per Vogelzang 2003 Fase 3-studie, PMID 12860938) |
-| Forutsagt ny indikasjon | Ondartret peritonealt mesoteliom |
-| TxGNN prediksjonspoeng | 99.99% |
+| Opprinnelig indikasjon | Ikke-småcellet lungekreft; mesoteliom |
+| Foreslått ny indikasjon | Malignt peritonealt mesoteliom |
+| TxGNN-prediksjonsscore | 99,99 % |
 | Evidensnivå | L2 |
-| Norges markedsstatus | Ikke markedsført (Ikke markedsført) |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Gå videre med sikkerhetstiltak |
+| Markedsstatus i Norge | Kun trukne/avsluttede godkjenninger |
+| Antall godkjenninger | 4 (alle trukket) |
+| Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
 
----
+**Merk om øvrige prediksjoner:** Flere av de ti predikerte indikasjonene er i realiteten bekreftelser av eksisterende bruk, ikke ny bruk:
+- **Pleuralt mesoteliom** (evidensnivå L1, Proceed with Guardrails): dette er en opprinnelig indikasjon. Fase 3-studien av pemetreksed pluss cisplatin (PMID 12860938) og MAPS-studien (PMID 26719230) støtter bruken.
+- **Pleuralt epitelioid mesoteliom** (L1, Proceed with Guardrails).
+- **Pleuralt sarkomatoid og bifasisk mesoteliom** (L2, Proceed with Guardrails): subtypespesifikk evidens er begrenset.
+- **Perikardkreft** (L4, forskningsspørsmål): kun kasuistikker.
+- **Godartede eller svært sjeldne tilstander** (pleural adenomatoid tumor, velutdifferensiert papillært mesoteliom, lymfohistiocytoid mesoteliom, iminoglycinuri): Hold. Høy score gjenspeiler trolig nærhet i sykdomsontologien, ikke et reelt behandlingsgrunnlag.
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljert mekanismdata over virkningsmåten ikke tilgjengelig i strukturerte DrugBank-felt (Datagap DG002). Basert på informasjon i den tilknyttede kliniske evidensen, er pemetrexed et multimålrettet antifolat som hemmer thymidylat syntase (TS), dihidrofolatreduktase (DHFR) og glycinamidribonukleotidformyltransferase (GARFT) — nøkkelfolatavhengige enzymer som kreves for DNA/nukleotidsyntese. Ved å blokkere disse banene, stopper pemetrexed replikasjon i raskt delende ondartede celler.
+Detaljerte mekanismedata (MOA) er ikke tilgjengelige i de data som er sammenstilt for denne rapporten. Basert på kjent informasjon hemmer pemetreksed tymidylatsyntase, DHFR og GARFT. Dermed blokkeres nukleotidsyntesen i raskt delende kreftceller.
 
-Ondartret pleural mesoteliom og ondartret peritonealt mesoteliom oppstår begge fra mesotele cellestammen, og skiller seg kun i den anatomiske hulrommet som påvirkes (pleura versus peritoneium). Fordi pemetrexed + cisplatin allerede er det bekreftet første linjens regime for pleural mesoteliom, er det mekanistisk enkelt å ekstrapolere denne antifolatmekanismen til peritonealt mesoteliom — tumorbiologien er svært lik selv om det primære stedet er forskjellig.
+Bukhinnemesoteliom har samme histologi og kjemosensitivitet som mesoteliom i brysthinnen, som er en godkjent indikasjon. Mekanismen kan derfor overføres direkte. I praksis brukes pemetreksed pluss platina allerede som førstelinjebehandling ved bukhinnemesoteliom, selv om spesifikke studier er få. Gjennomgangsartikler peker på at anbefalingene i stor grad er ekstrapolert fra studier av pleuralt mesoteliom (PMID 39413826).
 
-Denne ekstrapolasjonen er ikke rent teoretisk: flere retrospektive og prospektive studier tester direkte pemetrexedbaserte regime i peritonealt mesoteliom spesifikt (f.eks. Nagata 2019, PMID 31287877; Fujimoto 2017, PMID 28594258), og to aktivt rekrutterende Fase 2 RCTs (NCT06057935, NCT05001880) evaluerer pemetrexed-/platinumbasert systemisk kjemoterapi i denne populasjonen. Denne kombinasjonen av mekanistisk rimelighet og stedsspesifikk klinisk evidens støtter TxGNN-prediksjonen.
+## Klinisk studieevidens (malignt peritonealt mesoteliom)
 
----
-
-## Klinisk prøvebevis
-
-| Prøvenummer | Fase | Status | Registrering | Sentrale funn |
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT06057935](https://clinicaltrials.gov/study/NCT06057935) | Fase 2 | Rekrutterer | 64 | Randomisert studie av intraperitoneale versus intravenøse kjemoterapibehandlinger etter cytoreduktiv kirurgi + HIPEC for peritonealt mesoteliom |
-| [NCT05001880](https://clinicaltrials.gov/study/NCT05001880) | Fase 2 | Rekrutterer | 66 | Randomisert studie av carboplatin/pemetrexed/bevacizumab ± atezolizumab som neoadjuvant/palliativ terapi for peritonealt mesoteliom |
-| [NCT03875144](https://clinicaltrials.gov/study/NCT03875144) | Fase 2 | Suspendert | 66 | PIPAC + systemisk kjemoterapi (cisplatin+pemetrexed) versus systemisk kjemoterapi alene som 1. linjers MPM-behandling |
-| [NCT00402766](https://clinicaltrials.gov/study/NCT00402766) | Fase 1 | Fullført | 19 | Cisplatin, pemetrexed og imatinib mesylat i ikke-resekabel/metastatisk ondartret mesoteliom |
-| [NCT06543069](https://clinicaltrials.gov/study/NCT06543069) | Fase 2 | Rekrutterer | 28 | Sintilimab + bevacizumab kombinert med pemetrexed og cisplatin for ikke-resekabel peritonealt mesoteliom |
-| [NCT04462809](https://clinicaltrials.gov/study/NCT04462809) | Fase 2 | Ukjent | 40 | Vedlikeholdsbehandling med talazoparib etter første linjers platinumbasert kjemoterapi i pleural/peritonealt mesoteliom |
-| [NCT02535312](https://clinicaltrials.gov/study/NCT02535312) | Fase 1/2 | Aktiv, ikke rekruttering | 30 | TRC102 + pemetrexed/cisplatin i avanserte solide svulster og pemetrexed/cisplatin-refraktær mesoteliom |
-| [NCT02029690](https://clinicaltrials.gov/study/NCT02029690) | Fase 1 | Avsluttet | 85 | ADI-PEG 20 med pemetrexed og cisplatin i arginineavhengige svulster, inkludert peritonealt mesoteliom |
-| [NCT01353482](https://clinicaltrials.gov/study/NCT01353482) | Fase 1/2 | Trukket | 0 | Vorinostat med pemetrexed-cisplatin som første linjeterapi for ondartret pleural mesoteliom |
-| [NCT00061477](https://clinicaltrials.gov/study/NCT00061477) | Fase 2 | Fullført | 48 | Pemetrexed pluss gemcitabin som første linjers kjemoterapi for pleural eller peritonealt mesoteliom |
+| [NCT00061477](https://clinicaltrials.gov/study/NCT00061477) | Fase 2 | Fullført | 48 | Pemetreksed + gemcitabin som førstelinje ved pleuralt eller peritonealt mesoteliom. Direkte relevant, inkluderer bukhinnepasienter |
+| [NCT05001880](https://clinicaltrials.gov/study/NCT05001880) | Fase 2 | Rekrutterer | 66 | Randomisert: karboplatin, pemetreksed og bevacizumab med eller uten atezolizumab. Ingen resultater ennå |
+| [NCT03875144](https://clinicaltrials.gov/study/NCT03875144) | Fase 2 | Suspendert | 66 | PIPAC pluss systemisk cisplatin/pemetreksed vs. systemisk kjemoterapi alene |
+| [NCT06543069](https://clinicaltrials.gov/study/NCT06543069) | Fase 2 | Rekrutterer | 28 | Enarmet: sintilimab og bevacizumab pluss pemetreksed og cisplatin. Ingen resultater |
+| [NCT06057935](https://clinicaltrials.gov/study/NCT06057935) | Fase 2 | Rekrutterer | 64 | ICARuS II: intraperitoneal vs. intravenøs kjemoterapi etter kirurgi og HIPEC. Pemetreksed indirekte relevant |
+| [NCT02535312](https://clinicaltrials.gov/study/NCT02535312) | Fase 1/2 | Aktiv, rekrutterer ikke | 30 | TRC102 med cisplatin og pemetreksed ved avanserte solide svulster. Begrenset spesifikk informasjon |
+| [NCT00402766](https://clinicaltrials.gov/study/NCT00402766) | Fase 1 | Fullført | 19 | Cisplatin, pemetreksed og imatinib ved mesoteliom. Liten sikkerhetsstudie |
 
----
+## Litteraturevidens
 
-## Litteraturbevis
-
-| PMID | År | Type | Journal | Sentrale funn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [31417959](https://pubmed.ncbi.nlm.nih.gov/31417959/) | 2019 | Kohort | Pleura og peritoneium | Toveis kjemoterapi forbedret reseksibilitet, som muliggjorde kirurgi og HIPEC for initialt ikke-resekabel peritonealt mesoteliom |
-| [35407498](https://pubmed.ncbi.nlm.nih.gov/35407498/) | 2022 | Oversikt | Journal of Clinical Medicine | Oversikt over kirurgisk cytoreduksjon + HIPEC som foretrukken behandling; rolle for systemisk kjemoterapi gjennomgått |
-| [30450291](https://pubmed.ncbi.nlm.nih.gov/30450291/) | 2018 | Oversikt | Translational Lung Cancer Research | Omfattende gjennomgang av MPM-biologi, diagnose og behandlingsmetoder |
-| [28594258](https://pubmed.ncbi.nlm.nih.gov/28594258/) | 2017 | Retrospektiv | Expert Review of Anticancer Therapy | Retrospektiv evaluering av første linjers pemetrexed + cisplatin-effektivitet i peritonealt mesoteliom |
-| [31287877](https://pubmed.ncbi.nlm.nih.gov/31287877/) | 2019 | Retrospektiv | Japanese Journal of Clinical Oncology | Effektivitet og sikkerhet av pemetrexed + cisplatin som første linjers kjemoterapi i avansert peritonealt mesoteliom |
-| [41133016](https://pubmed.ncbi.nlm.nih.gov/41133016/) | 2025 | Retrospektiv | Clinical Medicine Insights: Oncology | Sammenligning av pemetrexed-platinumbasert versus gemcitabin-platinumbasert første linjers regime i peritonealt mesoteliom |
-| [33743636](https://pubmed.ncbi.nlm.nih.gov/33743636/) | 2021 | Retrospektiv | BMC Cancer | Effektivitet av andre linjers behandling og prognostiske faktorer etter pemetrexedbasert første linjeterapi |
-| [38806763](https://pubmed.ncbi.nlm.nih.gov/38806763/) | 2024 | Flersentertudie | Annals of Surgical Oncology | Analyse av behandlingsstrategier og resultater på tvers av en flersenter peritonealt mesoteliom-kohort |
-| [23291819](https://pubmed.ncbi.nlm.nih.gov/23291819/) | 2013 | Kasuistikk | BMJ Case Reports | Pasient responderte på gjenopptatt behandling med cisplatin og pemetrexed etter initiell progresjon |
-| [26941986](https://pubmed.ncbi.nlm.nih.gov/26941986/) | 2016 | Oversikt | Journal of Gastrointestinal Oncology | Oversikt over diagnose og behandlingsmetoder for peritonealt mesoteliom, inkludert systemisk kjemoterapialternativ |
+| [31287877](https://pubmed.ncbi.nlm.nih.gov/31287877/) | 2019 | Retrospektiv studie | Jpn J Clin Oncol | Effekt og sikkerhet av pemetreksed + cisplatin som førstelinje ved avansert peritonealt mesoteliom |
+| [28594258](https://pubmed.ncbi.nlm.nih.gov/28594258/) | 2017 | Retrospektiv studie | Expert Rev Anticancer Ther | Førstelinje pemetreksed + cisplatin ved peritonealt mesoteliom |
+| [21528659](https://pubmed.ncbi.nlm.nih.gov/21528659/) | 2011 | Enkeltsenterserie | Tumori | Pemetreksed + cisplatin hos kjemonaive pasienter: effekt og sikkerhet |
+| [41133016](https://pubmed.ncbi.nlm.nih.gov/41133016/) | 2025 | Retrospektiv sammenligning | Clin Med Insights Oncol | Pemetreksed-platina vs. gemcitabin-platina som førstelinje |
+| [38806763](https://pubmed.ncbi.nlm.nih.gov/38806763/) | 2024 | Multisenterstudie | Ann Surg Oncol | Behandlingsstrategier og utfall ved peritonealt mesoteliom |
+| [39413826](https://pubmed.ncbi.nlm.nih.gov/39413826/) | 2024 | Oversikt | JNCCN | Systemisk behandling; anbefalinger ekstrapolert fra pleuralt mesoteliom |
+| [36765620](https://pubmed.ncbi.nlm.nih.gov/36765620/) | 2023 | Oversikt | Cancers | Diagnostisk og terapeutisk forløp; CRS + HIPEC gir best overlevelse |
+| [35407498](https://pubmed.ncbi.nlm.nih.gov/35407498/) | 2022 | Oversikt | J Clin Med | Behandling av malignt peritonealt mesoteliom |
+| [30450291](https://pubmed.ncbi.nlm.nih.gov/30450291/) | 2018 | Oversikt | Transl Lung Cancer Res | Gjennomgang av sjelden kreftform med dårlig prognose |
+| [26941986](https://pubmed.ncbi.nlm.nih.gov/26941986/) | 2016 | Oversikt | J Gastrointest Oncol | Diagnostikk og behandling |
 
----
+## Markedsinformasjon for Norge
 
-## Norges markedsinformasjon
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000564 | Alimta | Ikke oppgitt | Mesoteliom; ikke-småcellet lungekreft |
+| EMEA/H/C/003905 | Pemetrexed medac | Ikke oppgitt | Ikke-småcellet lungekreft; mesoteliom |
+| EMEA/H/C/003895 | Pemetrexed Fresenius Kabi | Ikke oppgitt | Ikke-småcellet lungekreft; mesoteliom |
+| EMEA/H/C/003970 | Pemetrexed Pfizer (tidligere Pemetrexed Hospira) | Ikke oppgitt | Ikke-småcellet lungekreft; mesoteliom |
 
-For tiden er ingen markedsføringsautorisasjoner registrert — pemetrexed er **ikke markedsført** i Norge (0 lisenser).
-
----
+Alle fire godkjenninger har status «trukket/avsluttet». Det er ingen gyldige godkjenninger i de sammenstilte data.
 
 ## Cytotoksisitet
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Cytotoksisitetsklassifisering | Konvensjonell cytotoksisk (multimålrettet antifolat / antimetabolittklasse) |
-| Myelosuppresjonsrisiko | Vennligst se pakningsmedelegg for advarsler og forholdsregler |
-| Emetogenitetsklassifisering | Vennligst se pakningsmedelegg for advarsler og forholdsregler |
-| Overvåkingselementer | Vennligst se pakningsmedelegg for advarsler og forholdsregler |
-| Håndteringsbeskyttelse | Må følge håndteringsforskrifter for cytotoksiske/farlige legemidler som gjelder antineoplastiske midler |
+| Klassifisering | Konvensjonelt cytotoksisk middel (antifolat) |
+| Risiko for myelosuppresjon | Høy. Sykdomskoblinger i kunnskapsgrafen omfatter nøytropeni, trombocytopeni, agranulocytose og anemi |
+| Emetogenisitet | Lav til moderat (generell klasseinformasjon) |
+| Monitorering | Fullt blodbilde med differensialtelling, lever- og nyrefunksjon |
+| Håndtering | Følg gjeldende regler for håndtering av cytotoksiske legemidler |
 
----
+Se preparatomtalen for detaljerte advarsler og forholdsregler.
 
-## Sikkerhetshensyn
+## Sikkerhetsmomenter
 
-Vennligst se pakningsmedelegg for sikkerhetsinformasjon.
+- **Sykdomstilstander knyttet til kontraindikasjon (fra TxGNN-kunnskapsgrafen, ikke fra preparatomtale):** nyresykdom, nedsatt nyrefunksjon, pyoureter, trombocytopeni, nøytropeni, agranulocytose, anemi og makrocytær anemi.
+- **Legemiddelinteraksjoner:** 100 interaksjoner er registrert. De utvalgte moderate interaksjonene inkluderer:
+  - Syrehemmere: famotidin, ranitidin, cimetidin.
+  - Metformin.
+  - Acetylsalisylsyre.
+  - Mesalazin, balsalazid, olsalazin.
+  - Nefrotoksiske antibiotika: vankomycin, kanamycin, neomycin, polymyksin B.
+  - Amfotericin B (flere formuleringer).
+  - Levofloksacin, amoksicillin.
+  - Sapropterin.
+  
+  Mange av disse påvirker nyrefunksjon eller utskillelse og kan øke pemetreksedeksponering og toksisitet.
 
----
+Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 ## Konklusjon og neste steg
 
-**Beslutning: Gå videre med sikkerhetstiltak**
+**Beslutning: Proceed with Guardrails (fortsett med forbehold)**
 
 **Begrunnelse:**
-Evidensnivå L2 støttes av to aktivt rekrutterende Fase 2 RCTs (NCT06057935, NCT05001880) som direkte tester pemetrexedbaserte regime i peritonealt mesoteliom, pluss flere retrospektive kohortstudier som viser effektivitet av første linjers pemetrexed + cisplatin. Mekanistisk rimelighet er høy gitt pemetrexeds allerede bekreftet rolle i pleural mesoteliom, en svulst av samme cellestamme.
+Mekanismen er biologisk plausibel, og pemetreksed pluss platina brukes allerede som standard ekstrapolert behandling. Evidensen for bukhinnen er likevel begrenset til små fase 2-studier, en blandet pleural/peritoneal fase 2-studie og retrospektive serier, derfor evidensnivå L2.
 
-**For å fortsette, kreves følgende:**
-- TFDA/lokal regulatorisk varslingsdata og kontraindikasjondata (for tiden en blokkerende datagap, DG001)
-- Strukturerte DrugBank virkningsmåte og toksisitetsprofil (høyalvorlighetsgrad gap, DG002)
-- En Norge-spesifikk markedsinngangsassessering, ettersom legemidlet for tiden ikke er markedsført der
-- Modne utfallsdata fra de to pågående Fase 2 RCTs (NCT06057935, NCT05001880)
-- En formell legemiddel-legemiddelinteraksjonsgjennomgang, ettersom den gjeldende DDI-spørringen ga ingen resultater
-
+**For å gå videre trengs:**
+- Gjennomgang av preparatomtale (advarsler og kontraindikasjoner), som ikke var tilgjengelig i de sammenstilte data og er en blokkerende datamangel for sikkerhetsscreening.
+- Detaljerte mekanismedata (MOA) fra DrugBank.
+- Resultater fra pågående randomiserte fase 2-studier (NCT05001880, NCT06057935).
+- Klargjøring av regulatorisk status i Norge, siden alle godkjenninger er trukket.
+- Plan for sikkerhetsovervåking: blodbilde, nyrefunksjon og vurdering av interaksjoner (spesielt med nyretoksiske og NSAID-lignende legemidler), samt folat- og B12-tilskudd i tråd med standard praksis.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

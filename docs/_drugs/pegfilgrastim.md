@@ -2,7 +2,7 @@
 layout: default
 title: Pegfilgrastim
 parent: Kun modellprediksjon (L5)
-nav_order: 269
+nav_order: 315
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,76 +29,103 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Pegfilgrastim: Fra uspesifisert indikasjon til alvorlig ikke-proliferativ diabetisk retinopati
+# Pegfilgrastim: Fra nøytropeni hos kreftpasienter til alvorlig ikke-proliferativ diabetisk retinopati
 
-## Sammendrag i en setning
+## Oppsummering i én setning
 
-Den opprinnelige godkjente indikasjonen for pegfilgrastim er ikke tilgjengelig i dette bevisematerialet (legemiddeletikett/indikasjonsdokumentasjon er ikke hentet ennå). TxGNN-modellen predikerer potensiell effektivitet for **Alvorlig ikke-proliferativ diabetisk retinopati**, men denne prediksjonen støttes for tiden av **0 kliniske studier** og **0 publikasjoner**, og modellens egen mekanistiske begrunnelse reiser bekymringer om biologisk plausibilitet snarere enn å bekrefte den.
+Pegfilgrastim er en langtidsvirkende vekstfaktor (G-CSF) som opprinnelig brukes mot nøytropeni og febril nøytropeni forårsaket av kjemoterapi hos kreftpasienter.
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **alvorlig ikke-proliferativ diabetisk retinopati**,
+men det finnes **ingen kliniske studier** og **ingen publikasjoner** i dataene som er samlet inn for denne rapporten. Prediksjonen bygger kun på modellens score.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Ikke tilgjengelig (ingen lisensering eller indikasjonsdokumentasjon i bevisematerialet) |
-| Forutsagt ny indikasjon | Alvorlig ikke-proliferativ diabetisk retinopati |
-| TxGNN prediksjonspoengsum | 99.89% |
-| Bevisnivå | L5 (kun modellpredikering, ingen støttende kliniske studier eller litteratur) |
-| Status på det norske markedet | Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt avgjørelse | Hold |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Nøytropeni; kreft (kjemoterapiindusert febril nøytropeni) |
+| Predikert ny indikasjon | Alvorlig ikke-proliferativ diabetisk retinopati |
+| TxGNN-prediksjonsscore | 99,89 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun kansellerte godkjenninger |
+| Antall godkjenninger | 11 (alle kansellert) |
+| Anbefalt beslutning | Hold |
+
+Merk: Godkjenningene i dataene er europeiske sentrale godkjenninger (EMEA/H/C), og alle har status kansellert. Ingen gyldige godkjenninger er registrert.
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte virkningsmekanisme-data for pegfilgrastim ikke tilgjengelig i dette bevisematerialet. Basert på generell farmakologisk klassekunnskap som allerede er fanget opp i modellens egen begrunnelse, er pegfilgrastim en PEGylert G-CSF-analog hvis kjernefunksjon er å stimulere proliferasjon/differensiering av benmargsgranulosytt-forløpere og mobilisere neutrofiler (og endoteliale/hematopoietiske progenitorceller) inn i perifer sirkulasjon.
+Data om virkningsmekanisme (MOA) for pegfilgrastim er ikke tilgjengelig i dataene som er samlet inn for denne rapporten. Pegfilgrastim er en pegylert form av filgrastim (G-CSF). Effekten ved nøytropeni hos kreftpasienter er veldokumentert, og legemidlet stimulerer produksjon og modning av nøytrofile granulocytter i benmargen.
 
-Denne virkningsmekanismen har ingen klar, direkte forbindelse til patofysiologien ved diabetisk retinopati, som er drevet av hyperglykemi-indusert mikrovaskulær skade og VEGF-drevet patologisk neovaskularisering. Bevisematerialets egen repurposingbegrunnelse fremhever eksplisitt en bekymring snarere enn en fordel: G-CSF-formidlet mobilisering av endoteliale progenitorceller kan teoretisk **fremme** patologisk neovaskularisering, noe som ville være uønsket – og potensielt skadelig – ved alvorlig ikke-proliferativ sykdom som er nær ved å progrediere til proliferativt stadium. En nært beslektet annen kandidat (generell diabetisk retinopati, poengsum 99.73%) har samme mekanistiske forbehold.
+En mulig, men spekulativ, kobling til diabetisk retinopati er at G-CSF mobiliserer benmargsavledede progenitorceller, som kan påvirke reparasjon av retinale kar. Retningen på effekten er imidlertid usikker: G-CSF kan også fremme betennelse og nydannelse av kar (neovaskularisering), noe som kan være skadelig, særlig ved proliferativ sykdom. Koblingen støttes ikke av noen studie eller publikasjon i dataene.
 
-Kort sagt er dette en høyt scorende, men mekanistisk ustøttet (og mulig kontraindisert) predikksjon. Den bør behandles som en datadriven assosiasjon fra modellen snarere enn en biologisk begrunnet repurposinghypotese.
-
----
-
-## Klinisk studiebevis
-
-For tiden er det ingen relaterte kliniske studier registrert
+Den nest høyest rangerte prediksjonen, **diabetisk retinopati** (score 99,73 %), er en overordnet kategori til den første. De to prediksjonene er derfor ikke uavhengig evidens.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske studier
 
-For tiden er ingen relatert litteratur tilgjengelig
-
----
-
-## Norsk markedsinformasjon
-
-Ingen markedsføringstillatelser er for tiden registrert for pegfilgrastim i Norge (0 lisenser på fil).
+Foreløpig er det ingen relaterte kliniske studier registrert.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Se pakningsvedlegget for sikkerhetsopplysninger.
+Foreløpig er det ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Konklusjon og neste skritt
+## Markedsinformasjon for Norge
 
-**Avgjørelse: Hold**
+Alle 11 godkjenninger er kansellert. De fem første er vist under; doseringsform er ikke oppgitt i dataene.
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005312 | Cegfila (tidligere Pegfilgrastim Mundipharma) | – | – |
+| EMEA/H/C/006407 | Dyrupeg | – | Nøytropeni; kreft |
+| EMEA/H/C/000420 | Neulasta | – | Kreft; nøytropeni; febril nøytropeni; kjemoterapiindusert febril nøytropeni |
+| EMEA/H/C/004780 | Stimufend | – | – |
+| EMEA/H/C/004556 | Grasustek | – | – |
+
+---
+
+## Cytotoksisitet
+
+Pegfilgrastim er ikke et antineoplastisk legemiddel, men en støttebehandling gitt til kreftpasienter. Dette avsnittet er derfor utelatt.
+
+---
+
+## Sikkerhetsvurderinger
+
+Data om advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelig. Se preparatomtalen for sikkerhetsinformasjon.
+
+- **Legemiddelinteraksjoner**: Interaksjonssøket ga 100 treff. Dataene som er samlet inn viser 20 av dem, alle klassifisert som **moderate** (kilde: DDInter). Eksempler:
+  - Cellegift og antineoplastiske midler: paklitaksel, merkaptopurin, azacitidin, arsentrioksid, altretamin, trimetreksat, asparaginase
+  - Målrettede legemidler og antistoffer: abemaciklib, akalabrutinib, avapritinib, alemtuzumab, belantamab mafodotin, aldesleukin
+  - Radiofarmaka og radioimmunterapi: jobenguan (I-131), fludeoksyglukose (18F), ibritumomab tiuxetan, tositumomab (med og uten I-131)
+  - Andre: levamisol, pegvaliase
+
+  Interaksjonene er i hovedsak relevante for kreftbehandling, ikke for diabetisk retinopati. Ved bruk i en ny pasientgruppe må interaksjonsprofilen vurderes på nytt.
+
+- **Teoretisk sikkerhetsbekymring ved ny indikasjon**: G-CSF kan potensielt fremme betennelse og nydannelse av kar. Dette er en hypotese uten støtte i data, men må vurderes nøye hos pasienter med diabetisk retinopati.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er basert utelukkende på TxGNN-modellen (L5) uten støttende kliniske studier eller litteratur, og mekanistisk begrunnelse i seg selv reiser en plausibel sikkerhetsbekymring (potensiell fremme av patologisk neovaskularisering) snarere enn å støtte terapeutisk fordel. Det er utilstrekkelig grunnlag for å fremme denne kandidaten.
+Prediksjonen støttes kun av en høy TxGNN-score (evidensnivå L5). Det finnes ingen kliniske studier, ingen litteratur og ingen MOA-data. Retningen på en eventuell effekt er usikker og kan være skadelig. Dessuten er alle europeiske godkjenninger i dataene kansellert.
 
-**For å fortsette er følgende nødvendig:**
-- Verifisert opprinnelig godkjent indikasjon(er) og legemiddelmerking for pegfilgrastim
-- Detaljert virkningsmekanisme (MOA)-data fra DrugBank eller tilsvarende kilde
-- TFDA/Norge produktmerking advarsler og kontraindikasjoner (for tiden er dette en blokerande datagap – påkrevd før noen S1 sikkerhetsevaluering)
-- Prekliniske eller mekanistiske studier som spesifikt evaluerer G-CSF-bane-effekter på retinal neovaskularisering før videre evaluering vurderes
-- Eventuelle signaler fra virkeligheten eller kasuistikker om oftalmologiske bivirkninger assosiert med G-CSF-preparater, for å vurdere den teoretiske neovaskulariseringrisikoen
-
+**For å gå videre kreves følgende:**
+- Hente inn data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Hente og analysere preparatomtalen (advarsler og kontraindikasjoner), noe som er en blokkerende datamangel for sikkerhetsscreening
+- Systematisk litteratur- og studiesøk om G-CSF og diabetisk retinopati, inkludert prekliniske data
+- Vurdere risikoen for pro-angiogene og pro-inflammatoriske effekter i øyet
+- Avklare faktisk markedsstatus og tilgjengelige administrasjonsveier i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

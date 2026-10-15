@@ -2,7 +2,7 @@
 layout: default
 title: Axitinib
 parent: Høy evidens (L1-L2)
-nav_order: 43
+nav_order: 49
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,89 +29,97 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Aksitiinib: Fra nyrecellekarsinom til Xp11.2-translokasjon/TFE3-fusjonassosiert nyrecellekarsinom
+# Aksitinib: Fra nyrecellekarsinom til nyrecellekarsinom assosiert med Xp11.2-translokasjoner/TFE3-genfusjoner
 
-## Sammendrag i en setning
+## Sammendrag
 
-Aksitiinib er en selektiv VEGFR1/2/3-tyrosinkinasehemmer som allerede er godkjent verden over (som Inlyta) for avansert/metastatisk nyrecellekarsinom.
-TxGNN-modellen forutsier at det kan være effektivt også for **nyrecellekarsinom assosiert med Xp11.2-translokasjoner/TFE3-genfusjoner**, en sjelden, genetisk distinkt RCC-subtype som sees hovedsakelig hos barn og unge voksne,
-med **1 klinisk studie** som foreløpig støtter denne retningen og **ingen publisert litteratur** spesifikk for denne subtypien ennå.
+Aksitinib er en selektiv VEGFR-1/2/3-tyrosinkinasehemmer som opprinnelig brukes til behandling av nyrecellekarsinom (RCC).
+TxGNN-modellen predikerer at legemidlet kan være effektivt ved **nyrecellekarsinom assosiert med Xp11.2-translokasjoner/TFE3-genfusjoner**.
+Per nå finnes det **1 direkte relevant klinisk studie** (fase 2, 15 deltakere, ingen resultater ennå) og ingen publikasjoner for akkurat denne subtypen. Den omfattende evidensen for aksitinib ved RCC generelt er derimot sterk.
 
 ---
 
 ## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Avansert/metastatisk nyrecellekarsinom (godkjent verden over som Inlyta; ifølge bevissamlingen er dette aksitiinibs eksisterende kjernindikasjon, ikke en ny bruk) |
-| Forutsagt ny indikasjon | Nyrecellekarsinom assosiert med Xp11.2-translokasjoner/TFE3-genfusjoner |
-| TxGNN forutsigelsesscore | 99.90% |
-| Bevisnivå | L2 |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Hold |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Nyrecellekarsinom |
+| Predikert ny indikasjon | Nyrecellekarsinom assosiert med Xp11.2-translokasjoner/TFE3-genfusjoner |
+| TxGNN-prediksjonsscore | 99,90 % |
+| Evidensnivå | L2 |
+| Markedsstatus i Norge | Kun opphevede/trukne tillatelser |
+| Antall tillatelser | 2 (begge opphevet) |
+| Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold), som forskningsspørsmål |
 
 ---
 
-## Hvorfor er denne forutsielsen rimelig?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detaljert mekanisme-for-virkning-data for aksitiinib er ikke tilgjengelig i denne bevissamlingen (`original_moa`: Datagap). Basert på informasjon som er innbakt i omdisponeringsgrunnlaget, er aksitiinib en svært selektiv, potent hemmer av VEGFR1, VEGFR2 og VEGFR3, og det er allerede den godkjente standardbehandlingen for avansert/metastatisk nyrecellekarsinom — dette vises i bevissamlingen selv som legemidlets eksisterende kjernindikasjon, ikke som en omdisponering.
+Detaljerte data om virkningsmekanismen var ikke tilgjengelige i de innsamlede dataene. Ut fra kjent informasjon er aksitinib en selektiv hemmer av VEGF-reseptorene 1, 2 og 3, og effekten ved nyrecellekarsinom er godt dokumentert gjennom fase 3-studier, både som monoterapi og i kombinasjon med immunsjekkpunkthemmere.
 
-Xp11.2-translokasjon/TFE3-genfusjons-RCC er en genetisk og histologisk distinkt RCC-subtype, mest vanlig hos barn, ungdommer og unge voksne. Til tross for sin distinkte molekylære drivfaktor (TFE3-fusjon), viser tumorbiologi i denne subtypien fortsatt VEGF/mTOR-baneavaktivering, noe som gir en plausibel mekanistisk begrunnelse for å ekstrapolere aksitiinibs antiangiogene aktivitet fra klassisk klar-celle-RCC til denne subtypien. Imidlertid forblir subtypespesifikk effektivitetsbevis sparsomt — den eneste støttende studien rekrutterer en bred translokasjon/TFE3-RCC-populasjon «på tvers av alle aldersgrupper» i stedet for å bekreftige aktivitet spesifikt i Xp11.2-fusjonsubtypien.
-
----
-
-## Bevis fra kliniske studier
-
-| Studinummer | Fase | Status | Deltakere | Viktige funn |
-|---------|------|--------|-----------|---------|
-| [NCT03595124](https://clinicaltrials.gov/study/NCT03595124) | Fase 2 | Aktiv, ikke rekrutterende | 15 | Randomisert studie av aksitiinib/nivolumab-kombinasjon vs. nivolumab som enkeltmiddel i TFE3/translokasjon-RCC på tvers av alle aldersgrupper; lite utvalg, ingen subtypespesifikk stratifisering for Xp11.2-fusjon rapportert. |
+Xp11.2/TFE3-translokasjons-RCC er en molekylært definert RCC-variant. Den drives av TFE3-fusjon, som gir oppregulering av MET og VEGF-relaterte signalveier. Det gjør VEGFR-hemming biologisk plausibel. Den opprinnelige indikasjonen og den nye indikasjonen tilhører samme sykdomsgruppe, men studiene som ligger bak godkjenningen inkluderte hovedsakelig klarcellet histologi, så overføringen til denne subtypen er indirekte.
 
 ---
 
-## Litteraturbevis
+## Klinisk evidens
 
-Foreløpig ingen relatert litteratur tilgjengelig.
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
+|---------|------|------|------|---------|
+| [NCT03595124](https://clinicaltrials.gov/study/NCT03595124) | Fase 2 | Aktiv, ikke rekrutterende | 15 | Randomisert studie av aksitinib + nivolumab versus nivolumab alene ved uoperabelt eller metastatisk TFE/translokasjons-RCC. Ingen modne resultater ennå. |
 
 ---
 
-## Markednstatus i Norge
+## Litteraturevidens
 
-Aksitiinib er foreløpig **ikke markedsført i Norge** (0 godkjennelser registrert). Ingen doseringsformer, produktnavn eller godkjente indikajonstekster er tilgjengelige for dette markedet.
+Det finnes for tiden ingen relevant litteratur for denne spesifikke subtypen.
+
+---
+
+## Markedsinformasjon for Norge
+
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/006206 | Axitinib Accord | Ikke oppgitt | Nyrecellekarsinom (opphevet) |
+| EMEA/H/C/002406 | Inlyta | Ikke oppgitt | Nyrecellekarsinom (opphevet) |
 
 ---
 
 ## Cytotoksisitet
 
-| Element | Innhold |
-|---------|---------|
-| Cytotoksisitetsklassifisering | Målrettet terapi (VEGFR1/2/3-tyrosinkinasehemmer) |
-| Risiko for myelosuppresjon | Vennligst se pakkeseddelen for advarsler og forholdsregler |
-| Emetogenitetsklassifisering | Vennligst se pakkeseddelen for advarsler og forholdsregler |
-| Overvåkingselementer | Vennligst se pakkeseddelen for advarsler og forholdsregler |
-| Håndteringsbeskyttelse | Vennligst se pakkeseddelen for advarsler og forholdsregler |
+| Punkt | Innhold |
+|------|------|
+| Cytotoksisitetsklassifisering | Målrettet behandling (VEGFR-tyrosinkinasehemmer) |
+| Risiko for myelosuppresjon | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+| Emetogenisitetsklassifisering | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+| Håndtering og beskyttelse | Se pakningsvedlegg for advarsler og forsiktighetsregler |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Vennligst se pakkeseddelen for sikkerhetsinformasjon.
+Data om advarsler og kontraindikasjoner mangler; se pakningsvedlegget for sikkerhetsinformasjon.
+
+**Legemiddelinteraksjoner:** Totalt 100 interaksjoner er registrert. Blant de første 20 som er gjennomgått, er de viktigste:
+- **Alvorlig (Major):** klaritromycin, deksametason
+- **Moderat:** aprepitant, klotrimazol, mikonazol, naltrekson
+- **Mindre (Minor):** blant annet famotidin, ranitidin, rabeprazol, esomeprazol, lansoprazol og ulike antacida (aluminiumhydroksid, kalsiumkarbonat, magnesiumforbindelser)
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Hold**
+**Beslutning: Proceed with Guardrails (som forskningsspørsmål)**
 
 **Begrunnelse:**
-Den eneste støttende studien (NCT03595124) er en liten (n=15) fase 2-studie som omfatter en bred translokasjon/TFE3-RCC-populasjon i stedet for å bekreftige aktivitet spesifikt i Xp11.2-fusjonassosiert RCC, og ingen litteratur støtter foreløpig denne spesifikke indikasjonen. Kombinert med legemidlets umarkedsførte status i Norge og blokkering av mangler i TFDA/lokal sikkerhetsetikett, er beviset utilstrekkelig til å gå videre enn et forskningsspørsmål på dette stadiet.
+Aksitinib har sterk evidens ved RCC generelt (fase 3-studier som AXIS og KEYNOTE-426), og en mekanistisk kobling til TFE3-translokasjons-RCC er plausibel. Subtypespesifikk evidens er imidlertid begrenset til én liten, pågående fase 2-studie (n=15) uten resultater.
 
-**For å gå videre, er følgende nødvendig:**
-- TFDA/norsk pakkeseddel-data (advarsler, kontraindikasjoner) — foreløpig en **blokkering** datagap (DG001)
-- Detaljert mekanisme-for-virkning-dokumentasjon via DrugBank API (DG002)
-- Modne, subtypestratifiserte resultater fra NCT03595124 som bekrefter effektivitet spesifikt i Xp11.2/TFE3-fusjon-RCC
-- Vurdering av reguleringsveien for inngang til det norske marked, gitt at aksitiinib foreløpig holder null lokale godkjennelser
-
+**For å gå videre trengs følgende:**
+- Resultater fra NCT03595124 og annen subtypespesifikk klinisk evidens
+- Detaljerte data om virkningsmekanisme (MOA)
+- Sikkerhetsinformasjon fra pakningsvedlegget (advarsler og kontraindikasjoner)
+- Avklaring av markedsstatus i Norge, siden begge tillatelsene er opphevet
+- Plan for håndtering av legemiddelinteraksjoner, spesielt med sterke CYP3A4-påvirkere (f.eks. klaritromycin og deksametason)
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Trabectedin
-parent: Høy evidens (L1-L2)
-nav_order: 366
-evidence_level: L2
+parent: Kun modellprediksjon (L5)
+nav_order: 429
+evidence_level: L5
 indication_count: 1
 ---
 
 # Trabectedin
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **1** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,104 +29,110 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Trabectedin: Fra myktvevsarkom/eggstokkreft til brystkreft hos kvinner
+# Trabectedin: Fra sarkom og eggstokkreft til brystkreft hos kvinner
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-> Trabectedin er et marinestammet cytotoksisk middel som for tiden brukes internasjonalt til avansert myktvevsarkom og, i kombinasjon med pegylert liposomalt doksirubicin (PLD), til platinasensitiv tilbakevendende eggstokkreft.
-> TxGNN-modellen forutsier at det også kan være effektivt for **brystkreft hos kvinner**, særlig ved BRCA1/2-mutasjoner eller homolog-rekombinasjondefekte tumorer,
-> med **2 registrerte kliniske studier** og **20 publikasjoner** som for tiden er identifisert, inkludert to tidligfase-brystkreftstudier.
-> Legemidlet er **ikke for tiden markedsført i Norge**, og flere sikkerhetsdatafelter gjenstår uløst.
+Trabectedin er et kreftlegemiddel av marin opprinnelse som opprinnelig brukes mot **sarkom og eggstokkreft**. TxGNN-modellen forutsier at det kan ha effekt mot **brystkreft hos kvinner (female breast carcinoma)**. Dette støttes foreløpig av **1 registrert klinisk studie** (med usikker relevans) og **20 publikasjoner**, blant dem flere fase 2-studier i avansert brystkreft.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Ingen norsk godkjenning på arkiv (legemidlet er ikke markedsført). I henhold til internasjonal litteratur er trabectedin godkjent i EU for annen linjers myktvevsarkom og, kombinert med PLD, for platinasensitiv tilbakevendende eggstokkreft. |
-| Forutsagt ny indikasjon | Brystkreft hos kvinner |
-| TxGNN-prediksjonspoengsum | 99.73% (rang 3480) |
-| Bevisnivå | L2 |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Opphold |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Eggstokkreft og sarkom |
+| Predikert ny indikasjon | Brystkreft hos kvinner (female breast carcinoma) |
+| TxGNN-prediksjonsscore | 99,73 % |
+| Evidensnivå | L2 (jf. merknad nedenfor) |
+| Markedsstatus i Norge | Kun kansellerte godkjenninger |
+| Antall godkjenninger | 2 (begge kansellert) |
+| Anbefalt beslutning | Hold |
+
+*Merknad om evidensnivå:* L2 er satt i de innsamlede dataene. Den eneste registrerte studien (NCT00786838) er en fase 2-studie som undersøker QT-effekter, ikke effekt mot brystkreft. Publiserte fase 2-studier i brystkreft finnes, men det er ikke dokumentert noen fullførte randomiserte fase 3-studier. Evidensnivået bør derfor tolkes forsiktig.
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelig i denne bevisorienterte pakken (flagget som et datakløft med høy alvorlighetsgrad). Basert på publisert farmakologlitteratur er trabectedin en marinestammet DNA-alkylator som binder seg til mindre groover og foretrekker GC-rike sekvenser, og som forstyrrer transkripsjonsutløst nukleotidekskisjonsreparasjon (TC-NER). Dette gir selektiv cytotoksisitet i tumorer med nukleotidekskisjonreparasjon (NER) eller homolog-rekombinasjon (HR)-mangler — særlig *BRCA1/2*-muterte celler — og modulerer separat tumorumgivelsen ved å danne tumortilknyttede makrofager.
+Detaljerte data om virkningsmekanisme (MOA) var ikke tilgjengelige i de innsamlede dataene. Ut fra generell kunnskap og litteraturen som ligger til grunn, er trabectedin en alkylerende substans som binder seg til DNA-ets lille fure. Dette utløser DNA-skade og cytotoksisitet som avhenger av transkripsjonskoblet nukleotidreparasjon. Legemidlet påvirker også svulstens mikromiljø, blant annet ved å redusere svulstassosierte makrofager.
 
-Denne mekanismen strekker seg rimeligvis fra sarkom og eggstokkreft til brystkreft fordi en betydelig andel av brysttumorer, spesielt trippel-negative og arvelige *BRCA1/2*-muterte tilfeller, deler samme HR-defekte (syntetisk-letale) biologi som ligger til grunn for trabectedins virksomhet ved eggstokkreft. Flere identifiserte studier og publikasjoner tester direkte denne hypotesen, inkludert en fase II-studie begrenset til germlinale *BRCA1/2*-muterte metastatisk brystkreft og en olaribmaintenance-studie etter trabectedin+PLD-respons, som styrker den mekanistiske begrunnelsen for TxGNN-prediksjonen snarere enn å etablere den som et nytt, uforklarlig signal.
+Aktiviteten antas å være sterkere i svulster med mangelfull homolog rekombinasjon, for eksempel BRCA-mangelfulle svulster. Det gir en biologisk plausibel begrunnelse for bruk i en undergruppe av brystkreft, som BRCA1/2-assosiert og trippelnegativ sykdom. Eggstokkreft og brystkreft deler dessuten biologiske trekk, særlig knyttet til BRCA og DNA-reparasjon.
 
-Det bør bemerkes at den rapporterte *BRCA*/HR-bane-begrunnelsen ovenfor er hentet fra ekstern litteratur, ikke fra det strukturerte `original_moa`-feltet, som forblir et datakløft i denne bevisorienterte pakken.
+Den høye TxGNN-scoren (0,997) stemmer med denne mekanistiske nærheten til de godkjente indikasjonene. Scoren er likevel en modellprediksjon og ikke klinisk bevis.
 
 ---
 
-## Klinisk prøvebevis
+## Klinisk studieevidens
 
-| Studienummer | Fase | Status | Registrering | Hovedfunn |
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT00786838](https://clinicaltrials.gov/study/NCT00786838) | Fase 2 | Gjennomført | 76 | Enkeltblind, multicenter, placebokontrollert, sekvensielt designet studie som evaluerer trabectedins effekt på QT/QTc-intervall hos pasienter med avanserte solide tumormaligniteter (hjertesikkerhetsstudie, ikke brystkrefteffikasitet). |
-| [NCT03470805](https://clinicaltrials.gov/study/NCT03470805) | Fase 2 | Gjennomført | 9 | Olaribmaintenance-terapi etter respons på trabectedin + pegylert liposomalt doksirubicin ved tilbakevendende eggstokkarsinomer; tester BRCA/HR-deficiency-begrunnelsen relevant for brystkreft, men ekstremt lite utvalg (n=9). |
+| [NCT00786838](https://clinicaltrials.gov/study/NCT00786838) | Fase 2 | Fullført | 76 | Vurderer effekten av en enkeltdose trabectedin på QT-intervallet i EKG hos pasienter med avanserte solide svulster. Ikke en effektstudie i brystkreft, og kan ikke regnes som direkte effektevidens. |
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Journal | Hovedfunn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [25239225](https://pubmed.ncbi.nlm.nih.gov/25239225/) | 2014 | Fase 2 RCT | Clinical Breast Cancer | Multicenter, randomisert fase II-studie av monoterapi-trabectedin ved avansert brystkreft etter antrasykklin/taksane-svikt, som sammenligner to administreringssystemer. |
-| [24692579](https://pubmed.ncbi.nlm.nih.gov/24692579/) | 2014 | Fase 2 | Ann Oncol | First-in-class fase II-studie av trabectedin ved germlinale *BRCA1/2*-muterte metastatisk brystkreft; direkte klinisk støtte for HR-deficiency-mekanistisk sammenheng. |
-| [27266804](https://pubmed.ncbi.nlm.nih.gov/27266804/) | 2016 | Fase 2 | Clinical Breast Cancer | Fase 2-studie av trabectedin ved HR-positiv, HER2-negativ avansert brystkreft stratifisert etter XPG-genekspresjon som prediktivt biomarkør. |
-| [25722380](https://pubmed.ncbi.nlm.nih.gov/25722380/) | 2015 | Fase 3 (utforskende) | Ann Oncol | Utforskende analyse av fase 3 OVA-301-studien som viser at *BRCA1*/XPG-mutasjonsstatus forutsier respons på trabectedin + PLD, og støtter den biomarkør-drevne begrunnelsen. |
-| [39777457](https://pubmed.ncbi.nlm.nih.gov/39777457/) | 2025 | Preklinisk | Cancer Immunol Res | Trabectedin reduserer immunosuppressive myeloidceller og forsterker IL-12-drevet NK-cellecytotoksisitet i trippel-negative brystkreftsmodeller. |
-| [26592307](https://pubmed.ncbi.nlm.nih.gov/26592307/) | 2016 | Oversikt | Expert Opin Investig Drugs | Gjennomgår trabectedins undersøkelsesbruk ved brystkreft, inkludert dets tosidede cytotoksiske og tumorumgivelsesmodul mekanismer. |
-| [27710871](https://pubmed.ncbi.nlm.nih.gov/27710871/) | 2016 | Oversikt | Cancer Treat Rev | Diskuterer trabectedin som et kjemoterapialternativ spesielt for pasienter med BRCA-mangel på tvers av tumortyper. |
-| [23792433](https://pubmed.ncbi.nlm.nih.gov/23792433/) | 2013 | Preklinisk | Toxicology Letters | Trabectedin induserer apoptose via distinkte baner i HER2-/ER+ (MCF-7) og HER2+/ER- (MDA-MB-453) brystkrefscellelines. |
-| [24941346](https://pubmed.ncbi.nlm.nih.gov/24941346/) | 2014 | Preklinisk | Eur Cytokine Netw | Demonstrerer anti-angiogene effekter av trabectedin i humane brystkrefscellelines og endothelceller. |
-| [19114300](https://pubmed.ncbi.nlm.nih.gov/19114300/) | 2009 | Fase 1 | Eur J Cancer | Fase I farmakokinetisk studie av trabectedin pluss doksirubicin ved avansert myktvevsarkom og brystkreft (blandet populasjon, mulighetsdata). |
+| [25239225](https://pubmed.ncbi.nlm.nih.gov/25239225/) | 2014 | Fase 2-studie (randomisert, to doseringsregimer) | Clinical Breast Cancer | Effekt og sikkerhet av trabectedin som monoterapi i avansert brystkreft etter antracyklin og taksan |
+| [24692579](https://pubmed.ncbi.nlm.nih.gov/24692579/) | 2014 | Fase 2-studie | Annals of Oncology | Aktivitet hos kvinner med kimbane-BRCA1/2-mutasjon og forbehandlet metastatisk brystkreft |
+| [27266804](https://pubmed.ncbi.nlm.nih.gov/27266804/) | 2016 | Fase 2-studie | Clinical Breast Cancer | Trabectedin ved hormonreseptorpositiv, HER2-negativ avansert brystkreft, i forhold til XPG-genuttrykk |
+| [19114300](https://pubmed.ncbi.nlm.nih.gov/19114300/) | 2009 | Fase 1-studie | European Journal of Cancer | Trabectedin + doksorubicin ved avansert bløtdelssarkom og brystkreft (hovedsakelig sarkompasienter) |
+| [26592307](https://pubmed.ncbi.nlm.nih.gov/26592307/) | 2016 | Oversikt | Expert Opinion on Investigational Drugs | Gjennomgang av trabectedin ved brystkreft, med vekt på virkningsmekanisme og påvirkning av svulstmikromiljøet |
+| [27710871](https://pubmed.ncbi.nlm.nih.gov/27710871/) | 2016 | Oversikt | Cancer Treatment Reviews | Trabectedin som kjemoterapialternativ ved BRCA-mangel |
+| [39777457](https://pubmed.ncbi.nlm.nih.gov/39777457/) | 2025 | Prekliniske studier | Cancer Immunology Research | Trabectedin forsterker den antitumorale effekten av IL-12 ved trippelnegativ brystkreft |
+| [24941346](https://pubmed.ncbi.nlm.nih.gov/24941346/) | 2014 | Prekliniske studier | European Cytokine Network | Antiangiogene effekter på brystkreftceller |
+| [23792433](https://pubmed.ncbi.nlm.nih.gov/23792433/) | 2013 | Prekliniske studier | Toxicology Letters | Ulik induksjon av apoptose i MCF-7- og MDA-MB-453-brystkreftceller |
+| [18410797](https://pubmed.ncbi.nlm.nih.gov/18410797/) | 2008 | Oversikt | Seminars in Oncology | Nye legemidler ved antracyklin- og taksanrefraktær metastatisk brystkreft |
 
 ---
 
-## Norsk markedsinformasjon
+## Markedsinformasjon for Norge
 
-Trabectedin har for tiden **ingen markedsføringsgodkjenning i Norge** (0 lisenser på arkiv). Ingen doseringsformer eller godkjenningsnumre er tilgjengelige for uttak.
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000773 | Yondelis (Pharma Mar S.A.) | Ikke oppgitt | Eggstokkreft, sarkom (kansellert) |
+| EMEA/H/C/006433 | Trabectedin Accord (Accord Healthcare S.L.U.) | Ikke oppgitt | Sarkom, eggstokkreft (kansellert) |
 
 ---
 
 ## Cytotoksisitet
 
-| Element | Innhold |
-|---------|---------|
-| Cytotoksisitet-klassifisering | Konvensjonell cytotoksisk — marinestammet DNA-minor-groove-alkylator (tetrahydroisokinolin-alkaloid), forstyrrer transkripsjonsutløst DNA-reparasjon |
-| Risiko for benmargssuppresjon | Høy — litteratur (PMID 19496709) rapporterer grad 3–4 nøytropeni hos ~50% og trombocytopeni hos ~20% av pasientene; hepatisk transaminaseelevering er også vanlig |
-| Emetogenisitet-klassifisering | Moderat (basert på generell onkologilitteratur for trabectedin; ikke bekreftet mot norsk/lokalt pakningsvedlegg, som for tiden er et datakløft) |
-| Overvåkingselementer | CBC med differensial, leverfunksjonstester (AST/ALT/bilirubin), nyrufunksjon, kreatinkinase |
-| Håndteringsbeskyttelse | Ja — må følge standardprotokoll for håndtering og avfallshåndtering av cytotoksiske stoffer (IV-infusjon, lukket-systemoverføring der tilgjengelig) |
+| Punkt | Innhold |
+|------|------|
+| Cytotoksisitetsklassifisering | Konvensjonelt cytotoksisk (DNA-alkylerende middel) |
+| Risiko for myelosuppresjon | Høy: nøytropeni av grad 3–4 hos ca. 50 % og trombocytopeni hos ca. 20 % av pasientene (ifølge oversiktsartikkel) |
+| Emetogenisitet | Se preparatomtalen |
+| Overvåkingspunkter | Fullstendig blodstatus med differensialtelling, leverfunksjon (toksisiteten er hovedsakelig hematologisk og hepatisk), nyrefunksjon. QT-intervall kan vurderes. |
+| Håndteringsvern | Må følge gjeldende regler for håndtering av cytotoksiske legemidler |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Formelle sikkerhetsdata (viktige advarsler, kontraindikasjoner, legemiddel-legemiddel-interaksjoner) er ennå ikke tilgjengelig for denne kandidaten — dette er flagget som et **blokkerende** datakløft (DG001: TFDA/lokale etikettvarsler og kontraindikasjoner under behandling). Vennligst se pakningsvedlegget når det er tilgjengelig for definitive sikkerhetsinformasjoner.
+**Legemiddelinteraksjoner:** Interaksjonssøket ga 100 treff. Blant de som er listet, er det én interaksjon med alvorlighetsgrad **Major** og de øvrige er **Moderate**.
+
+- **Alvorlig (Major):** klaritromycin
+- **Moderat (Moderate):** blant annet deksametason, aprepitant, cimetidin, metronidazol, mikonazol, levofloksacin, minocyklin, rosuvastatin, simvastatin, pioglitazon, rosiglitazon, bupropion, naltrekson, akarbose, orlistat, kenodeoksykolsyre, metreleptin, oksandrolon og oksymetolon
+
+Utover dette henvises det til preparatomtalen for informasjon om advarsler og kontraindikasjoner.
 
 ---
 
-## Konklusjon og neste skritt
+## Konklusjon og neste steg
 
-**Beslutning: Opphold**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den mekanistiske begrunnelsen (HR/BRCA-mangel syntetisk lethality) er biologisk forsvarlig og støttet av tidligfase-kliniske data, men beviset for brystkreft spesifikt forblir begrenset til små, enkeltarmede eller biomarkør-stratifiserte fase II-studier (største brystkrefftspesifikk kohort: bevis-for-konsept skala). Kombinert med legemidlets ikke-markedsført status i Norge og et **blokkerende** sikkerhetsdatakløft (ingen TFDA/lokale advarsler eller kontraindikasjoner på arkiv), er denne kandidaten ikke ennå klar for evaluering av indikasjoneutvidelse.
+Det finnes biologisk rimelige argumenter og flere fase 2-studier i avansert brystkreft, særlig ved BRCA-mutasjon, men ingen fullførte fase 3-studier. Den eneste registrerte studien handler om QT-effekt, ikke effekt. Sikkerhetsdata fra preparatomtalen mangler, og begge godkjenningene i Norge er kansellert. Samlet sett er dette på forskningsspørsmålsstadiet.
 
-**For å fortsette er følgende nødvendig:**
-- Løs DG001 (blokkerende): få TFDA/lokalt pakningsvedlegg med advarsler og kontraindikasjoner
-- Løs DG002 (høy): bekreft opprinnelig virkningsmekanisme fra DrugBank API for å validere den mekanistiske begrunnelsen presentert her
-- Større, randomiserte brystkrefftspesifikke prøvedata, ideelt utberedt for BRCA1/2-muterte eller HR-defekte populasjoner
-- Vurdering av gjennomførbarhet for norsk markedsintroduksjon, siden legemidlet for tiden ikke har noen lokal godkjenning
-
+**For å gå videre trengs følgende:**
+- Innhenting og gjennomgang av preparatomtalens advarsler og kontraindikasjoner (kritisk datamangel som blokkerer sikkerhetsscreening)
+- Detaljerte data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Gjennomgang av resultatene fra fase 2-studiene (PMID 25239225, 24692579, 27266804) for effektdata og sikkerhetsprofil
+- Avklaring av hvilke undergrupper (BRCA-mutert, trippelnegativ, XPG-uttrykk) som kan ha nytte
+- Vurdering av tilgjengelighet i Norge, siden begge godkjenningene er kansellert, og av hvilken administrasjonsvei som kreves
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

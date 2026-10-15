@@ -2,15 +2,15 @@
 layout: default
 title: Cytarabine
 parent: Moderat evidens (L3-L4)
-nav_order: 94
-evidence_level: L3
+nav_order: 108
+evidence_level: L4
 indication_count: 9
 ---
 
 # Cytarabine
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **9** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,87 +31,97 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **9** stk.
 
 # Cytarabin: Fra akutt myeloid leukemi til småcellet lungekarsinom
 
-## Sammendrag på en setning
+## Oppsummering i én setning
 
-Cytarabin (Ara-C) er en pyrimidin-nukleosid-antimetabolitt som lenge har vært etablert som et ryggradsmiddel for akutt myeloid leukemi og andre hematologiske malignenser.
-TxGNN-modellen predikerer at det kan være effektivt for **småcellet lungekarsinom (SCLC)**,
-med **3 kliniske forsøk** (ingen tester direkte cytarabin) og **20 publikasjoner**, stort sett fra 1970-1990-tallet, som for øyeblikket støtter denne retningen.
+Cytarabin er et cellegiftmiddel (pyrimidinnukleosidanalog) som opprinnelig brukes mot akutt myeloid leukemi. TxGNN-modellen forutsier at det kan ha effekt mot **småcellet lungekarsinom**, men det finnes **ingen registrerte kliniske studier** og ingen SCLC-spesifikk klinisk litteratur som støtter dette. Forutsigelsen hviler i hovedsak på modellen alene, supplert med indirekte litteratur om ikke-småcellet lungekreft (NSCLC).
 
-## Rask oversikt
+## Oversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Ikke registrert i lokale regulatoriske data (medikamentet er ikke markedsført lokalt); globalt etablert for akutt myeloid leukemi og andre hematologiske malignenser |
-| Forutsagt ny indikasjon | Småcellet lungekarsinom |
-| TxGNN-prediksjonspoeng | 99.78% |
-| Evidensgrad | L3 |
-| Norsk markedsstatus | Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt avgjørelse | Utsett |
+| Opprinnelig indikasjon | Akutt myeloid leukemi |
+| Foreslått ny indikasjon | Småcellet lungekarsinom |
+| TxGNN-score | 99,78 % |
+| Evidensnivå | L4 |
+| Status på det norske markedet | Kun avregistrert |
+| Antall markedsføringstillatelser | 1 (avregistrert) |
+| Anbefalt beslutning | Hold |
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne forutsigelsen rimelig?
 
-For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelig. Basert på kjent informasjon er cytarabin en cellesyklus (S-fase)-spesifikk pyrimidin-nukleosid-analog som innlemmes i DNA og hemmer DNA-polymerase, og dens effektivitet i akutt leukemi har vært påvist i tiår. Mekanistisk har det også blitt utforsket — stort sett i eldre litteratur — for solide tumorer med rask proliferasjon, inkludert lungekreftsykdommer.
+Detaljerte data om virkningsmekanisme (MOA) er for øyeblikket ikke tilgjengelige i datagrunnlaget. Cytarabin er likevel kjent som en pyrimidinnukleosidanalog som hemmer DNA-syntesen i celler i S-fase. Det er en plausibel cytotoksisk begrunnelse for en raskt prolifererende svulst som småcellet lungekarsinom.
 
-Småcellet lungekarsinom er karakterisert ved veldig høy vekstfraksjon, noe som i prinsippet gjør det til et plausibelt mål for et S-fase-spesifikk cytotoksisk middel som cytarabin. Historiske kombinasjonsbehandlinger (f.eks. syklofosfamid/doxorubicin/cytosinarabinosid pluss stråling, og cytarabin pluss cisplatin/vindesin) ble testet i NSCLC og SCLC fra slutten av 1970-tallet gjennom 1990-tallet, og viste målbar men beskjeden aktivitet, ofte begrenset av betydelig hematologisk toksisitet.
+Den opprinnelige indikasjonen, akutt myeloid leukemi, er en hurtigvoksende blodkreftform der cytarabin er et sentralt middel. Litteraturen som er funnet, gjelder imidlertid hovedsakelig NSCLC, der cytarabin ble kombinert med cisplatin i fase II-studier fra 1990. Responsratene var beskjedne (for eksempel 14 % i én studie), og hematologisk toksisitet var betydelig. En gammel publikasjon fra 1987 om høydose-cytarabin ved småcellet lungekreft (PMID 3030547) er funnet, men uten tilgjengelig sammendrag. Standardbehandlingen med platina og etoposid er veletablert, og mekanismen alene gir ikke en sterk begrunnelse for å velge cytarabin.
 
-Imidlertid tester ingen av de kliniske forsøkene som for øyeblikket er koblet til denne prediksjonen direkte cytarabin — de evaluerer primært intrathekal pemetrexed eller ikke-relaterte NSCLC-adjuvante behandlinger. Den støttende mekanistiske begrunnelsen er derfor basert på eldre kohort-/pilotstudier snarere enn moderne, sykdomsspesifikke forsøksdesign, noe som begrenser tilliten til denne prediksjonen.
+## Kliniske studier
 
-## Klinisk forsøksevidens
+Foreløpig er det ingen registrerte kliniske studier knyttet til denne indikasjonen.
 
-| Forsøksnummer | Fase | Status | Antall deltakere | Hovedfunn |
-|---------|------|------|------|---------|
-| [NCT03507244](https://clinicaltrials.gov/study/NCT03507244) | Fase 1/2 | Fullført | 34 | Intrathekal pemetrexed med samtidig radiostråling av involvert område for leptomeningeale metastaser fra solide tumorer; tester ikke cytarabin, kun overlappende sykdom |
-| [NCT03101579](https://clinicaltrials.gov/study/NCT03101579) | Fase 1 | Fullført | 13 | Intrathekal pemetrexed for gjentakende leptomeningeale metastaser fra NSCLC; cytarabin nevnt kun som sammenligningsmedikament, ikke testet |
-| [NCT00863512](https://clinicaltrials.gov/study/NCT00863512) | Fase 3 | Avbrutt | 34 | Adjuvant kjemoterapi (vinoreelbin, cisplatin, docetaxel, gemcitabin, pemetrexed) i tidlig NSCLC; cytarabin ikke del av behandlingsregimen, forsøk avbrutt |
+## Litteraturevidens
 
-## Litteraturbevis
-
-| PMID | År | Type | Journal | Hovedfunn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [2157307](https://pubmed.ncbi.nlm.nih.gov/2157307/) | 1990 | Fase 2-forsøk | Tumori | Cytarabin + cisplatin + vindesin hos 32 pasienter med avansert NSCLC; 18% responsrate |
-| [2156598](https://pubmed.ncbi.nlm.nih.gov/2156598/) | 1990 | Fase 2-forsøk | Cancer | Høydose cytarabin + cisplatin hos 37 kjemoterapinaive NSCLC-pasienter; 14% responsrate, grad III/IV myelosuppresjon hos 46% |
-| [2820740](https://pubmed.ncbi.nlm.nih.gov/2820740/) | 1987 | Pilotstudie | Eur J Cancer Clin Oncol | Cisplatin + cytarabin-kombinasjons pilotstudie hos pasienter med avansert NSCLC |
-| [232239](https://pubmed.ncbi.nlm.nih.gov/232239/) | 1979 | Kohort/kombinert modalitet | Med Pediatr Oncol | 20 SCLC-pasienter behandlet med syklofosfamid/Adriamycin + subkutan cytosinarabinosid pluss stråling |
-| [6095640](https://pubmed.ncbi.nlm.nih.gov/6095640/) | 1984 | Historisk forsøk | Am J Clin Oncol | Kontinuerlig-infusjons-Ara-C alene (ingen respons, alvorlig toksisitet) og Ara-C tilsatt CAV-regime hos SCLC |
-| [2841844](https://pubmed.ncbi.nlm.nih.gov/2841844/) | 1988 | Historisk forsøk | Am J Clin Oncol | Etoposid + infusjons-Ara-C hos tilbakefall/refraktær SCLC (17 pasienter) |
-| [348088](https://pubmed.ncbi.nlm.nih.gov/348088/) | 1978 | Oversikt | Antibiot Chemother | Oversikt over Ara-C-analoger og strategier for å forlenge biologisk aktivitet mot cytadin-deaminase-inaktivering |
-| [9561978](https://pubmed.ncbi.nlm.nih.gov/9561978/) | 1998 | Kasusserier | Arch Neurol | Kombinert modalitetbehandling for karsinomatøs meningitt sekundært til NSCLC |
-| [6264785](https://pubmed.ncbi.nlm.nih.gov/6264785/) | 1981 | Kasusrapport | Am J Med | Meningeale karsinomatose hos SCLC-pasienter som mottok intensiv kjemoterapi |
-| [28223673](https://pubmed.ncbi.nlm.nih.gov/28223673/) | 2017 | Kasusrapport | Gan To Kagaku Ryoho | Multidisiplinær behandling av meningeale karsinomatose hos SCLC |
+| [3030547](https://pubmed.ncbi.nlm.nih.gov/3030547/) | 1987 | Klinisk studie (type ikke avklart) | Cancer Treat Rep | Høydose-cytarabin ved småcellet lungekreft; sammendrag ikke tilgjengelig |
+| [2158614](https://pubmed.ncbi.nlm.nih.gov/2158614/) | 1990 | Randomisert fase II (NSCLC) | Med Pediatr Oncol | Cisplatin-cytarabin sammenlignet med cisplatin-vinblastin hos 151 pasienter med avansert NSCLC |
+| [2156598](https://pubmed.ncbi.nlm.nih.gov/2156598/) | 1990 | Fase II (NSCLC) | Cancer | Høydose-cytarabin + cisplatin hos 37 pasienter; responsrate 14 %, grad IV myelosuppresjon hos 32 % |
+| [2157307](https://pubmed.ncbi.nlm.nih.gov/2157307/) | 1990 | Fase II (NSCLC) | Tumori | Cytarabin, cisplatin og vindesin hos 32 pasienter med avansert NSCLC |
+| [2820740](https://pubmed.ncbi.nlm.nih.gov/2820740/) | 1987 | Pilotstudie (NSCLC) | Eur J Cancer Clin Oncol | Kombinasjon av cisplatin og cytarabin ved avansert NSCLC |
+| [28223673](https://pubmed.ncbi.nlm.nih.gov/28223673/) | 2017 | Kasuistikk | Gan To Kagaku Ryoho | Meningeal karsinomatose ved småcellet lungekarsinom behandlet multidisiplinært |
 
-## Informasjon om norsk marked
+Merk at de fleste av disse studiene gjelder NSCLC og ikke småcellet lungekarsinom, og at de er gamle.
 
-Dette medikamentet har for øyeblikket ingen markedsføringsautoriseringer registrert i de gjennomgåtte regulatoriske dataene (markedsstatus: **Ikke markedsført**, 0 autorisasjoner).
+## Informasjon om det norske markedet
+
+| Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004282 | Vyxeos liposomal (tidligere Vyxeos) | Ikke oppgitt | Akutt myeloid leukemi (status: avregistrert) |
 
 ## Cytotoksisitet
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Cytotoksisitetsklassifisering | Konvensjonell cytotoksisk (pyrimidin-nukleosid-antimetabolitt / S-fase-spesifikk antileukemisk agens) |
-| Myelosuppresjonrisiko | Høy — historiske NSCLC-kombinasjonsdata rapporterer grad IV myelosuppresjon hos 32% og grad III hos 14% av pasienter behandlet med høydose cytarabin + cisplatin |
-| Emetogenitetsklassifisering | Moderat til høy (doseavhengig; kvalme/oppkasting rapportert som viktigste ikke-hematologisk toksisitet i høydose-regimer) |
-| Overvåkingselementer | CBC med differensial, lever- og nyrefunksjon, nevrologisk undersøkelse (høydose-neurotoksisitet), øyeundersøkelse (konjunktivittrisiko med høydose-regimer) |
-| Sikkerhetstiltak ved håndtering | Må følge regulasjoner for håndtering av cytotoksiske legemidler |
+| Klassifisering | Konvensjonelt cytotoksisk middel (antimetabolitt, pyrimidinanalog) |
+| Risiko for myelosuppresjon | Høy (grad IV myelosuppresjon hos 32 % i en av NSCLC-studiene med høydose-kombinasjon) |
+| Emetogenisitet | Se preparatomtalen for klassifisering |
+| Overvåking | Fullt blodbilde med differensialtelling, lever- og nyrefunksjon |
+| Håndtering | Må følge gjeldende regler for håndtering av cytotoksiske legemidler |
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+**Kontraindikasjoner fra kunnskapsgrafen (ikke fra preparatomtale):** Kunnskapsgrafen (PrimeKG) knytter cytarabin til blant annet disse tilstandene:
+- Hematologiske: trombocytopeni, leukopeni, nøytropeni (inkludert medfødte former), agranulocytose, anemi
+- Organrelaterte: nyresykdom, leversykdom, sykdom i galleblæren, pankreatitt, lungeødem
+- Andre: perifer nevropati, diaré, soppinfeksjoner, nekrotiserende enterokolitt
 
-## Konklusjon og neste trinn
+**Legemiddelinteraksjoner:** Totalt 100 interaksjoner er identifisert. Blant de som er klassifisert, er **naltrekson** moderat og **levofloksacin** mindre alvorlig. De øvrige (for eksempel mannitol, pantoprazol, metformin, morfin, prednison) har uavklart alvorlighetsgrad.
 
-**Avgjørelse: Utsett**
+Sikkerhetsinformasjon fra preparatomtalen mangler i datagrunnlaget. Se preparatomtalen for advarsler og kontraindikasjoner.
+
+## Andre predikerte indikasjoner (kort oversikt)
+
+| Sykdom | Score | Evidensnivå | Merknad |
+|------|------|------|------|
+| Primært pulmonalt lymfom | 99,78 % | L4 | Cytarabin brukes i lymfomregimer (CNS-lymfom), men ikke lungespesifikt |
+| Velavgrenset føtalt adenokarsinom i lunge | 99,76 % | L5 | Kun modellprediksjon |
+| Pulmonalt blastom | 99,76 % | L5 | Kun modellprediksjon |
+| Neoplasme i øvre luft- og fordøyelsesvei | 99,49 % | L4 | Én studie med høydose-cytarabin og cisplatin ved hode-halskreft |
+| Ganglionevroblastom | 99,36 % | L5 | Ingen direkte evidens |
+| Retroperitoneal neoplasme | 99,23 % | L4 | Kun kasuistikker, indirekte |
+| Nevroblastom | 99,19 % | L3 | Prekliniske data; tre studier der cytarabin ikke er hovedmiddel |
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Et kritisk informasjonsgap foreligger — lokale advarsler ved forskriving og kontraindikasjoner er utilgjengelig, noe som hindrer inngang til S1-sikkerheitsforvurdering. I tillegg tester ingen av de koblede kliniske forsøkene direkte cytarabin for SCLC, og den støttende bevisen er stort sett historiske (1970-tallet–1990-tallet) med beskjeden effektivitet og betydelig myelosuppresjon; legemidlet er også ikke for øyeblikket markedsført lokalt.
+Det finnes ingen kliniske studier og ingen SCLC-spesifikk klinisk evidens for cytarabin. Den tilgjengelige litteraturen gjelder i hovedsak NSCLC, med lave responsrater og betydelig hematologisk toksisitet. Standardbehandling med platina og etoposid er godt etablert. Cytarabin er dessuten avregistrert i Norge.
 
-**For å fortsette, er følgende nødvendig:**
-- Lokalt produktvedlegg / regulatoriske sikkerhetsdata (advarsler, kontraindikasjoner, DDI) — utgjør for øyeblikket en hindring
-- Detaljerte virkningsmekanismedata (MOA) fra DrugBank
-- Moderne, sykdomsspesifikk klinisk bevis som direkte evaluerer cytarabin i SCLC (nåværende koblede forsøk tester ikke legemidlet)
-- Vurdering av administreringsveikompatibilitet
-- Vurdering av lokalt marked/importveistatus gitt nåværende "ikke markedsført"-tilstand
-
+**For å gå videre kreves følgende:**
+- Gjennomgang av den eldre høydose-cytarabin-studien ved småcellet lungekreft (PMID 3030547) i fulltekst
+- Data om virkningsmekanisme (MOA)
+- Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner)
+- Prekliniske data eller en eksplorativ studie som viser nytte av cytarabin ved SCLC utover dagens standardbehandling
+- Avklaring av tilgjengelighet i Norge, siden eneste registrerte tillatelse er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

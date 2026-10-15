@@ -2,7 +2,7 @@
 layout: default
 title: Pemigatinib
 parent: Kun modellprediksjon (L5)
-nav_order: 274
+nav_order: 320
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,91 +29,104 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Pemigatinib: Fra FGFR-drevet onkologibruk til multippel endokrin neoplasi
+# Pemigatinib: Fra kolangiokarsinom til multippel endokrin neoplasi
 
 ## Oppsummering i én setning
 
-Pemigatinib er referert til i denne bevissamlingen som en FGFR1-3 kinase-hemmer; dens opprinnelig godkjente indikasjon er ikke registrert i det aktuelle datasettet.
-TxGNN-modellen predikerer at det kan være effektivt for **multippel endokrin neoplasi**,
-men denne retningen er for øyeblikket støttet av **0 kliniske forsøk** og **0 publikasjoner**, og modellens egen begrunnelsestekst flagger den mekanistiske linken som svak og sannsynligvis en artefakt i kunnskapsgrafen.
+Pemigatinib er en FGFR-hemmer (FGFR1–3) som opprinnelig brukes til behandling av **kolangiokarsinom** (gallegangskreft). TxGNN-modellen predikerer at legemidlet kan ha effekt ved **multippel endokrin neoplasi**, men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** som støtter denne prediksjonen. Prediksjonen er dermed kun modellbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Originalt indikasjonsområde | Ikke tilgjengelig i gjeldende bevissamling |
-| Predikert nytt indikasjonsområde | Multippel endokrin neoplasi |
-| TxGNN prediksjonspoeng | 99.71% |
-| Bevisnivå | L5 |
-| Status på norsk marked | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Kolangiokarsinom |
+| Predikert ny indikasjon | Multippel endokrin neoplasi |
+| TxGNN-prediksjonsscore | 99,71 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljerte mekanisme-av-handling-data for pemigatinib ikke tilgjengelige i denne bevissamlingen. Basert på informasjon innebygd andre steder i samlingen (begrunnelsestekst for ombruk av andre kandidater), beskrives pemigatinib konsistent som en **FGFR1-3 kinase-hemmer**, brukt i en sammenheng som kan sammenlignes med andre FGFR-hemmere som infigratinib. Dette er konsistent med dens kjente legemiddelklasse, men er ikke uavhengig bekreftet av et strukturert MOA-felt her.
+Det foreligger for øyeblikket ikke detaljerte data om virkningsmekanisme i datagrunnlaget. Basert på kjent informasjon er pemigatinib en hemmer av FGFR1–3, og effekten ved kolangiokarsinom (særlig med FGFR2-fusjoner/-omleiringer) er etablert. Mekanistisk er det imidlertid uklart om dette kan overføres til multippel endokrin neoplasi (MEN).
 
-Forholdet mellom pemigatinibs (uregistrert) originale indikasjon og multippel endokrin neoplasi kan ikke etableres fra dataene som er gitt, siden ingen original indikasjon er oppført og ingen lisenser er på fil. Det som bevissamlingen faktisk inneholder, er modellens egen mekanistiske vurdering, som er ugunstig: MEN-syndrom drives primært av **MEN1 og RET**-mutasjoner, og har ingen etablert forbindelse til **FGFR1-3** signaleringsaksen som pemigatinib retter seg mot.
-
-På grunn av dette misforholdet konkluderer pakkens egen begrunnelse at den høye TxGNN-poengene mest sannsynlig reflekterer en **indirekte kunnskapsograf-assosiasjon** — for eksempel delt nærhet til andre endokrine tumor-noder — heller enn en genuin farmakologisk mekanisme. Dette bør behandles som et lavtillitssignal kun for hypotesegenerering, ikke som en mekanistisk begrunnet ombrukskandidat.
+En mulig kobling er krysstale mellom FGFR-signalering og signalveier som er involvert i MEN, for eksempel RET eller MEN1. Dette er spekulativt og støttes ikke av de innsamlede dataene. Prediksjonens høye score alene er ikke tilstrekkelig til å vurdere legemidlet som aktuelt for denne indikasjonen.
 
 ---
 
-## Klinisk forsøksbevis
+## Evidens fra kliniske studier
 
-For øyeblikket er det ingen relaterte kliniske forsøk registrert.
-
----
-
-## Litteraturbevis
-
-For øyeblikket er det ingen relatert litteratur tilgjengelig.
+Foreløpig ingen relaterte kliniske studier registrert.
 
 ---
 
-## Informasjon om norsk marked
+## Litteraturevidens
 
-Pemigatinib er for øyeblikket **ikke markedsført** i Norge (markedsstatus: Ikke markedsført) og ingen godkjennelsesopplysninger finnes i denne bevissamlingen (totalt lisenser: 0). Ingen produkttabell kan genereres på dette tidspunktet.
+Foreløpig ingen relatert litteratur tilgjengelig.
+
+---
+
+## Markedsinformasjon for Norge
+
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005266 | Pemazyre | Ikke oppgitt | Kolangiokarsinom |
+
+Tillatelsen har status avregistrert, og det finnes ingen gyldige tillatelser.
 
 ---
 
 ## Cytotoksisitet
 
-Pemigatinib er referert til i denne bevissamlingen som en FGFR1-3 kinase-hemmer brukt i onkologikontekster (f.eks. diskusjon av FGFR-drevet resistens i HER2+ brystkreft, og sammenligning med andre FGFR-hemmere som er utforsket i FGFR3-drevet skjelettsykdom). På det grunnlaget behandles det her som en antineoplastisk, målrettet småmolekyl terapi, selv om denne klassifiseringen er sluttet heller enn bekreftet via et strukturert DrugBank-kategorifelt.
-
-| Element | Innhold |
-|---------|---------|
-| Cytotoksisitetsklassifisering | Målrettet terapi (FGFR1-3 kinase-hemmer) |
-| Myelosuppresjonrisiko | Se pakningsvedlegget for advarsler og forholdsregler |
-| Emetogenisitetsklassifisering | Se pakningsvedlegget for advarsler og forholdsregler |
-| Overvåkingspunkter | Se pakningsvedlegget for advarsler og forholdsregler |
-| Håndteringsbeskyttelse | Se pakningsvedlegget for advarsler og forholdsregler |
+| Punkt | Innhold |
+|------|------|
+| Cytotoksisitetsklassifisering | Målrettet terapi (selektiv FGFR-tyrosinkinasehemmer), ikke konvensjonelt cytostatikum |
+| Myelosuppresjonsrisiko | Se preparatomtalen for advarsler og forsiktighetsregler |
+| Emetogenisitetsklassifisering | Se preparatomtalen for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Se preparatomtalen for advarsler og forsiktighetsregler |
+| Håndteringsbeskyttelse | Se preparatomtalen for advarsler og forsiktighetsregler |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegget for sikkerhetsinformasjon.
+- **Legemiddelinteraksjoner**: Det er funnet 50 registrerte interaksjoner. Blant de første 20 i datagrunnlaget er følgende klassifisert som **alvorlige (Major)**:
+  - Aprepitant
+  - Deksametason
+  - Klaritromycin
+  - Kobicistat
+  - Lumakaftor
+  - Kloramfenikol
+  - Erytromycin
+  - Ketokonazol
+  - Flukonazol
+
+  Flere interaksjoner er klassifisert som **moderate**, blant annet cimetidin, metreleptin, klotrimazol, glyserolfenylbutyrat, troglitazon, deferasirox, ivakaftor, zafirlukast, griseofulvin, elagolix og osilodrostat. Mange av de alvorlige interaksjonene gjelder CYP3A4-hemmere, noe som kan øke eksponeringen for pemigatinib.
+
+- **Øvrige sikkerhetshensyn knyttet til indikasjonen**: Det er ikke påvist noen mekanistisk begrunnelse for denne indikasjonen, og sikkerhetsprofilen i en ny pasientgruppe er ikke vurdert.
+
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den topprangerte prediksjonen (multippel endokrin neoplasi) har null støttende kliniske forsøk eller litteratur, og modellens egen mekanistiske begrunnelse uttaler eksplisitt at FGFR1-3-signaleringsaksen ikke har noen etablert forbindelse til MEN-patogenese — dette er et L5-signal basert kun på hypotese, med angitt risiko for å være kunnskapsograf-støy.
+Prediksjonen er kun modellbasert (L5), uten kliniske studier eller litteratur som støtter multippel endokrin neoplasi. Den mekanistiske koblingen er spekulativ, og den eneste norske tillatelsen er avregistrert.
 
-**For å fortsette er følgende nødvendig:**
-- TFDA/regulatorisk merkedata (advarsler, kontraindikasjoner) — flagget som en *Blokkerende* datakløft (DG001)
-- Bekreftet mekanisme-av-handling (MOA) fra DrugBank eller tilsvarende kilde — flagget som *Høy* alvorlighetsgrad datakløft (DG002)
-- Bekreftelse av pemigatinibs faktisk opprinnelig godkjent indikasjon(er), for øyeblikket fraværende fra denne pakken
-- Uavhengig mekanistisk eller preklinisk bevis som knytter FGFR-hemming til MEN før noen ytterligere evalueringsfase vurderes
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsvurdering (blokkerende datamangel)
+- Prekliniske eller mekanistiske studier som undersøker FGFR-hemming ved MEN-assosierte svulster
+- Gjennomgang av øvrige predikerte indikasjoner. Blant disse har HER2-positiv brystkreft den mest plausible biologiske begrunnelsen (FGFR som bypass- og resistensvei), men også her mangler indikasjonsspesifikk klinisk evidens
+- Avklaring av registrerings- og tilgjengelighetsstatus for pemigatinib i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

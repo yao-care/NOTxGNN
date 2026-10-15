@@ -2,7 +2,7 @@
 layout: default
 title: Thyrotropin Alfa
 parent: Kun modellprediksjon (L5)
-nav_order: 354
+nav_order: 416
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,97 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Thyrotropin Alfa: Fra Udokumentert Originalindikasjon til Migrene
+# Thyrotropin alfa: Fra thyreoideaneoplasmer til migrene
 
-## Sammendrag i En Setning
+## Oppsummering i én setning
 
-> Thyrotropin alfas opprinnelige godkjente indikasjon er ikke dokumentert i den nåværende bevissamlingen, og stoffet er ikke markedsført i Taiwan.
-> TxGNN-modellen forutsier en mulig ny indikasjon for **Migrene** med en prediksjonscore på **99.98%**,
-> men denne prediksjonen støttes for tiden av **null kliniske studier** og **null publikasjoner**, og bevissamlingens egen mekanistiske gjennomgang finner ingen biologisk begrunnelse for å knytte eksogen TSH til migrene.
+Thyrotropin alfa (rekombinant humant TSH) er opprinnelig godkjent for bruk ved thyreoideaneoplasmer (skjoldbruskkjertelkreft).
+TxGNN-modellen forutsier at legemidlet kan være effektivt mot **migrene**, men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen.
+Prediksjonen bygger kun på en kunnskapsgraf-modell og er ikke støttet av empiriske data.
 
 ---
 
 ## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Originalindikasjon | Ikke dokumentert i bevissamlingen |
-| Forutsagt Ny Indikasjon | Migrene |
-| TxGNN Prediksjonscore | 99.98% |
-| Bevisnivå | L5 (kun modellprediksjon, ingen støttende studier) |
-| Taiwan Markedsstatus | ✗ Ikke markedsført |
-| Antall Godkjennelser | 0 |
-| Anbefalt Beslutning | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Thyreoideaneoplasmer (skjoldbruskkjertelkreft) |
+| Predikert ny indikasjon | Migrene (migraine disorder) |
+| TxGNN-prediksjonsscore | 99,98 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun trukket tilbake/kansellert |
+| Antall godkjenninger | 1 (kansellert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er Denne Prediksjonen Rimelig?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-For tiden er detaljerte virkningsmekanisme-data for thyrotropin alfa ikke tilgjengelige i denne bevissamlingen. Heller ikke ble originalindikasjonen dokumentert, slik at en direkte farmakologisk forbindelse mellom kjent bruk av dette stoffet og migrene ikke kan etableres ut fra de gitte dataene.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Basert på kjent informasjon er thyrotropin alfa rekombinant humant TSH, som virker på TSH-reseptorer i skjoldbruskkjertelvev. Legemidlet brukes ved skjoldbruskkjertelkreft til å stimulere opptak av radiojod og tyreoglobulinfrigjøring.
 
-Enda viktigere: bevissamlingens egen gjenbruksbegrunnelse for denne topprangerte kandidaten sier eksplisitt at det **ikke finnes eksperimentell eller kjent mekanistisk basis** som forbinder eksogen TSH (thyrotropin alfa) til migrene. Selv om thyroideadykfunksjon av og til er assosiert med hodepine i medisinsk litteratur, finnes det ingen direkte bevisrekke som støtter denne spesifikke stoff-sykdom-paringen. Vurderingen konkluderer med at høy TxGNN-score mest sannsynlig gjenspeiler **topologisk likhet innen kunnskapsgrafen** snarere enn en validert biologisk mekanisme.
+Det er ingen etablert mekanistisk kobling til migrenepatofysiologi (CGRP, kortikal spredningsdepresjon, trigeminovaskulær aktivering). Den høye scoren (0,9998) gjenspeiler trolig nærhet i kunnskapsgrafen via skjoldbruskkjertel-/endokrine og vaskulære baner, og ikke en validert biologisk sammenheng.
 
-Dette mønsteret gjentar seg på tvers av nesten alle topp-10-prediksjoner i denne pakken (migrene med hjernestammaura, Raynauds sykdom, atrophoderma vermiculata, pulmonær hypertensjon, POTS, osv.) — ingen har støttende studier eller litteratur, og flere (pulmonær hypertensjon, POTS) er flagget som å ha en mekanistisk **motsatt** retning, siden thyrotropin alfa stimulerer thyroidehormonproduksjon i stedet for å dempe den. Den ene kandidaten med høyere bevisnivå (hyperthyroidisme, rang 10, L2) viste seg på nærmere inspeksjon å omfatte studier som bruker rhTSH for **diagnostisk forbehandling før radioiodbehandling/ablasjon**, ikke terapeutisk behandling av hyperthyroidisme — og den siterte litteraturen dreier seg om interferon-alfa-indusert thyroiditt, som ikke er relatert til thyrotropin alfa. Kort sagt: ingen kandidat i denne pakken har for tiden et sammenhengende, legemiddel-spesifikt mekanistisk grunnlag.
-
----
-
-## Bevis fra Kliniske Studier
-
-For tiden er det ikke registrert noen relevante kliniske studier.
-
----
-
-## Bevis fra Litteratur
-
-For tiden er det ikke tilgjengelig relevant litteratur.
+Også de øvrige predikerte indikasjonene i topp 10 mangler støtte:
+- **Migrene med hjernestammeaura** og **migrene med eller uten aura, mottakelighet for**: sannsynligvis samme grafeffekt som for migrene. Sistnevnte er en genetisk mottakelighetsnode, ikke en behandlingsbar klinisk tilstand.
+- **Raynauds sykdom** og **pulmonal hypertensjon**: kun spekulative assosiasjoner via skjoldbruskkjertelsykdom, uten belegg for at TSH-stimulering påvirker mekanismene.
+- **Atrophoderma vermiculata** og **ulerythema ophryogenes**: sjeldne hudtilstander uten kjent TSH-relatert mekanisme, trolig grafartefakter.
+- **Kyfoskoliotisk hjertesykdom**: ingen mekanistisk begrunnelse.
+- **Posturalt ortostatisk takykardisyndrom (POTS)**: ingen evidens for effekt. Forbigående hypertyreoide symptomer som takykardi kan i tillegg være et sikkerhetsproblem.
+- **Hypertyreose**: biologisk kontraindisert snarere enn støttet, siden legemidlet øker produksjonen av skjoldbruskkjertelhormon. Dette er trolig falskt positivt og et mulig sikkerhetssignal.
 
 ---
 
-## Taiwan Markedsinformasjon
+## Evidens fra kliniske studier
 
-Thyrotropin alfa er for tiden **ikke markedsført** i Taiwan (0 godkjennelser på register), så ingen produkt/godkjennelsestabell er tilgjengelig.
-
----
-
-## Sikkerhetshensyn
-
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og data om legemiddelinteraksjoner er for tiden ikke tilgjengelige i denne bevissamlingen.)
+Foreløpig er ingen relevante kliniske studier registrert.
 
 ---
 
-## Konklusjon og Neste Steg
+## Litteraturevidens
 
-**Beslutning: Avvent**
+Foreløpig er ingen relevant litteratur tilgjengelig.
+
+---
+
+## Markedsinformasjon for Norge
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000220 | Thyrogen (Sanofi B.V.) | Ikke oppgitt | Thyreoideaneoplasmer (status: kansellert) |
+
+---
+
+## Sikkerhetsvurderinger
+
+**Legemiddelinteraksjoner:** Totalt 45 interaksjoner er registrert (kilde: DDInter). Av de 20 som er oppført i dataene er alle av alvorlighetsgrad **moderat**, og de gjelder i hovedsak antidiabetika:
+- Sulfonylurea: glimepirid, glipizid, glibenklamid (glyburid), klorpropamid, acetoheksamid
+- Metformin og akarbose
+- DPP-4-hemmere: alogliptin, saksagliptin
+- SGLT2-hemmere: kanagliflozin, dapagliflozin, empagliflozin, ertugliflozin
+- GLP-1-agonister: albiglutid, dulaglutid, eksenatid, semaglutid
+- Insuliner: humant insulin, insulin aspart (inkl. aspart protamin)
+
+Dette tyder på at blodsukkerkontrollen bør følges nøye hvis legemidlet brukes sammen med antidiabetika.
+
+**Tilleggsmerknad:** Ut fra den mekanistiske vurderingen kan thyrotropin alfa potensielt forverre hypertyreose og gi forbigående hypertyreoide symptomer (f.eks. takykardi). Dette er en faglig vurdering, ikke data fra preparatomtalen.
+
+Se preparatomtalen for øvrig sikkerhetsinformasjon, inkludert advarsler og kontraindikasjoner.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den toppforutsagte indikasjonen (migrene) har et bevisnivå på L5 — en modell-kun-prediksjon med null kliniske studier, null litteratur, og en eksplisitt anerkjent mangel på mekanistisk støtte. Ingen annen kandidat i denne pakken når et handlingsdyktig bevisnivå heller; den ene kandidaten med L2-bevis (hyperthyroidisme) viste seg å være en mekanistisk feilparing ved nærmere gjennomgang. Kombinert med at stoffet ikke er markedsført i Taiwan og manglende MOA/sikkerhetsdata, finnes det for tiden ingen grunnlag for å fremme noen kandidat utover hypotesestadiet.
+Prediksjonen for migrene støttes kun av en kunnskapsgraf-score (evidensnivå L5), uten kliniske studier, litteratur eller en plausibel mekanisme. I tillegg er det eneste norske markedsføringstillatelsen kansellert.
 
-**For å gå videre er følgende nødvendig:**
-- TFDA-ekvivalent sikkerheetsdata (advarsler, kontraindikasjoner) — for tiden en **blokkerende** mangel som forhindrer inngang i S1 sikkerhetsvurdering (DG001)
-- Bekreftet originalindikasjon og virkningsmekanisme (DrugBank eller produsentmerking) (DG002)
-- Uavhengig mekanistisk eller preklinisk validering for enhver kandidatindikasjon før videre datasamling prioriteres
-- Hvis hyperthyroidisme forfølges videre, omdefiner bevisøk spesifikt for terapeutisk (ikke diagnostisk forbehandling) bruk av rhTSH
-
+**For å gå videre kreves følgende:**
+- Detaljerte data om virkningsmekanisme (MOA)
+- Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsvurdering
+- Prekliniske eller mekanistiske studier som kan belyse en mulig kobling mellom TSH-reseptorstimulering og migrenepatofysiologi
+- En vurdering av administrasjonsvei og formulering (kompatibilitet er ikke vurdert)
+- Avklaring av den kansellerte markedsstatusen i Norge og eventuell tilgjengelighet av produktet
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

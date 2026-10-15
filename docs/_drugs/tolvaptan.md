@@ -2,7 +2,7 @@
 layout: default
 title: Tolvaptan
 parent: Kun modellprediksjon (L5)
-nav_order: 363
+nav_order: 426
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,92 +29,97 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tolvaptan: Fra hyponatremi (SIADH) til autosomal dominant polycystisk nyresykdom (ADPKD)
+# Tolvaptan: Fra syndromet med uhensiktsmessig ADH-sekresjon til polycystisk nyresykdom 3
 
-## Sammendrag i én setning
+## Oppsummering
 
-> Tolvaptan er en vasopressin V2-reseptorantagonist som historisk brukes til behandling av hyponatremi relatert til SIADH, hjertesvikt og sirrhose.
-> TxGNN-modellens toppprediksjon peker mot **polycystisk nyresykdom 3, med eller uten polycystisk leversykdom** — en sjelden monogen variant innenfor det bredere spekteret autosomal dominant polycystisk nyresykdom (ADPKD) —
-> og denne retningen støttes av **to landemerke-gjennomførte fase 3 RCT-er** (TEMPO 3:4, REPRISE) pluss **20 støttepublikasjoner**, inkludert konsensusveiledninger og en Cochrane systematisk oversikt. Bemerkelsesverdig er at tolvaptan allerede har godkjent ADPKD-indikasjon i utlandet (f.eks. Jinarc/Jynarque i EU/USA/Japan), så dette forstås best som at modellen korrekt gjenkjenner en etablert, høy-tillits-indikasjon snarere enn et rent nytt signal.
+Tolvaptan er en selektiv vasopressin V2-reseptorantagonist. Den er opprinnelig godkjent mot **syndromet med uhensiktsmessig ADH-sekresjon (SIADH)** og **autosomal dominant polycystisk nyresykdom (ADPKD)**. TxGNN-modellen predikerer at den kan være effektiv mot **polycystisk nyresykdom 3, med eller uten polycystisk leversykdom**. Evidensgrunnlaget er **2 randomiserte kontrollerte studier (TEMPO 3:4 og REPRISE) og 1 systematisk oversikt blant 20 publikasjoner**, men ingen registrerte kliniske studier i de innsamlede dataene.
 
 ---
 
 ## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Hyponatremi på grunn av SIADH (Samsca) — etablert global etikett; **ikke bekreftet i det norske regulatoriske datapakken**, som for tiden viser 0 autorisasjoner |
-| Forutsagt ny indikasjon | Polycystisk nyresykdom 3, med/uten polycystisk leversykdom (ADPKD/PLD-spektrum) |
-| TxGNN-prediksjonspoengsum | 99.99% (rang 319 totalt) |
-| Bevisnivå | L1 (≥2 gjennomførte fase 3 RCT-er: TEMPO 3:4, REPRISE) |
-| Norgesmarkeds status | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Fortsett med sikkerhetstiltak |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Syndromet med uhensiktsmessig ADH-sekresjon (SIADH); autosomal dominant polycystisk nyresykdom |
+| Predikert ny indikasjon | Polycystisk nyresykdom 3, med eller uten polycystisk leversykdom |
+| TxGNN-prediksjonsscore | 99,99 % |
+| Evidensnivå | L1 (se merknad under) |
+| Markedsstatus i Norge | Kun avregistrerte (kansellerte) godkjenninger |
+| Antall godkjenninger | 3 (alle kansellert) |
+| Anbefalt beslutning | Proceed with Guardrails (fortsett med sikkerhetsrammer) |
+
+*Merknad om evidensnivå:* L1 er tildelt i de kompilerte dataene fordi to store fase 3-studier finnes i litteraturen. Disse ble imidlertid gjennomført hos ADPKD-pasienter (PKD1/PKD2), ikke spesifikt ved GANAB-relatert sykdom (PKD3). Evidensen for selve den predikerte indikasjonen er derfor indirekte.
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-DrugBank-baserte virkningsmekanismedata er for tiden utilgjengelige (datagap DG002). Imidlertid identifiserer litteraturbevisene som er samlet i denne pakken konsistent og uavhengig tolvaptan som en **selektiv vasopressin V2-reseptorantagonist**. Ved å blokkere V2-reseptor-signalering i nyrenes samlerørsceller, reduserer tolvaptan intracellulær cAMP, som er den viktigste driveren for epitelproliferasjon og væskesekresjon i cystelinjene ved polycystisk nyresykdom. Denne mekanistiske forbindelsen — cAMP-hemming som stopper cystogenese — er den farmakologiske begrunnelsen gjentatte ganger sitert på tvers av ADPKD-litteraturen i denne pakken (f.eks. PMID 35328738, 40126492).
+Detaljerte mekanismedata (original virkningsmekanisme) var ikke tilgjengelige i de kompilerte dataene. Tolvaptan er kjent som en selektiv V2-reseptorantagonist. Ved polycystisk nyresykdom driver forhøyet cAMP-signalering i tubulære epitelceller cystevekst og væskesekresjon. Blokkade av V2-reseptoren senker intracellulær cAMP og kan bremse cystevekst og nedgang i nyrefunksjon.
 
-Forholdet mellom tolvaptans opprinnelige bruk (akvadurse ved hyponatremi/væskeovertilstand) og den forutsagte indikasjon er mekanistisk sammenhengende: begge applikasjoner utnytter V2-reseptorblokade, bare i forskjellige målvev (systemisk vannhåndtering vs. nyrecystepitel). Viktig å merke er at dette ikke er spekulativ ekstrapolasjon — tolvaptan **bærer allerede godkjent ADPKD-indikasjon i USA, EU og Japan** (merkenavn Jynarque/Jinarc), bygget på de samme TEMPO 3:4- og REPRISE-forsøkene som denne bevisspakken identifiserer. TxGNN-modellen reproduserer derfor en godt validert, virkelige-verden-indikasjon snarere enn å foreslå noe uprøvd.
-
-Én forbehold: den spesifikke forutsagte sykdomstermen er "Polycystisk nyresykdom **3**" (en sjeldnere PKD3 monogen undertype, ulik den langt mer vanlige PKD1/PKD2-drevne ADPKD). Alle kliniske bevis i denne pakken (TEMPO 3:4, REPRISE, pediatriske forsøk) ble gjennomført i den bredere ADPKD-populasjonen, ikke PKD3 spesifikt. Ontologikartleggingen fanger sannsynligvis den generelle ADPKD/PLD-sykedomsfamilien, men denne distinksjonen bør verifiseres før noen indikasjonsspesifikk regulatorisk påstand blir fremsatt.
+Polycystisk nyresykdom 3 (PKD3, GANAB-relatert) deler denne cystogene mekanismen med ADPKD, som allerede er en godkjent indikasjon. Prediksjonen gjenspeiler dermed i stor grad kjent biologi. Forbehold: fase 3-dataene stammer fra ADPKD, og effekt på leverCyster er ikke etablert. Overvåkning av leverskade er nødvendig.
 
 ---
 
-## Klinisk forsøksbevis
+## Kliniske studier
 
-For tiden ingen relaterte kliniske forsøk registrert i det strukturerte `clinical_trials`-feltet for denne indikasjon. (Merknad: de sentrale forsøkene som etablerte denne indikasjon — TEMPO 3:4 og REPRISE — er fanget som publisert litteratur nedenfor snarere enn som registreringsposter i dette datauttrekket.)
+Det er for tiden ingen relaterte kliniske studier registrert i de kompilerte dataene. Fase 3-studiene TEMPO 3:4 og REPRISE er imidlertid omtalt i litteraturen under (ADPKD-populasjoner).
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|-----------|----------|
-| [23121377](https://pubmed.ncbi.nlm.nih.gov/23121377/) | 2012 | RCT (fase 3, TEMPO 3:4) | NEJM | Tolvaptan bremset veksten i totalt nyrevolum og nedgangen i eGFR i tidlig-stadium ADPKD |
-| [29105594](https://pubmed.ncbi.nlm.nih.gov/29105594/) | 2017 | RCT (fase 3, REPRISE) | NEJM | Bevart nyrefunksjon i senere-stadium ADPKD; oftere elevasjoner i aminotransferase/bilirubin observert |
-| [38091246](https://pubmed.ncbi.nlm.nih.gov/38091246/) | 2024 | RCT (pediatrisk, NCT02964273) | Pediatr Nephrol | Evaluerte tolvaptan sikkerhet/farmakodinamikk hos barn (5–17 år) med ADPKD |
-| [37150675](https://pubmed.ncbi.nlm.nih.gov/37150675/) | 2023 | Systematisk oversikt/Metaanalyse | Nefrologia | Bekreftet samlet effektivitet og sikkerhetsprofil for tolvaptan i ADPKD |
-| [39356039](https://pubmed.ncbi.nlm.nih.gov/39356039/) | 2024 | Systematisk oversikt (Cochrane) | Cochrane Database Syst Rev | Gjennomgikk sykdomsmodifiserende midler, inkludert tolvaptan, for forebygging av ADPKD-progresjon |
-| [35134221](https://pubmed.ncbi.nlm.nih.gov/35134221/) | 2022 | Konsensuserklæring | Nephrol Dial Transplant | ERA Working Group/PKD International konsensus om evidensbasert tolvaptan-initiering i ADPKD |
-| [40126492](https://pubmed.ncbi.nlm.nih.gov/40126492/) | 2025 | Oversikt | JAMA | Omfattende ADPKD-oversikt som dekker patofysiologi og behandling, inkludert tolvaptan |
-| [35487607](https://pubmed.ncbi.nlm.nih.gov/35487607/) | 2022 | Oversikt | Clin Liver Dis | Bekrefter at tolvaptan bremser nedgang i nyrefunksjon og cystevekst i ADPKD/PCLD-overlap |
-| [35728731](https://pubmed.ncbi.nlm.nih.gov/35728731/) | 2022 | Retningslinje (EASL) | J Hepatol | Klinisk retningslinje for cystisk leversykdom, inkludert polycystisk lever-sykdom-komponenten |
-| [35328738](https://pubmed.ncbi.nlm.nih.gov/35328738/) | 2022 | Oversikt | Int J Mol Sci | Gjennomgår ADPKD-cystogenese-patofysiologi og behandlings-framskritt |
+|------|-----|------|------|---------|
+| [23121377](https://pubmed.ncbi.nlm.nih.gov/23121377/) | 2012 | RCT | N Engl J Med | Tolvaptan ved ADPKD (TEMPO 3:4); V2-antagonister hemmer cystevekst og bremser nedgang i nyrefunksjon |
+| [29105594](https://pubmed.ncbi.nlm.nih.gov/29105594/) | 2017 | RCT | N Engl J Med | Tolvaptan ved ADPKD i senere stadium; effekt og sikkerhet vurdert, tidligere sett økning i leverenzymer og bilirubin |
+| [39356039](https://pubmed.ncbi.nlm.nih.gov/39356039/) | 2024 | Systematisk oversikt/metaanalyse | Cochrane Database Syst Rev | Intervensjoner for å forhindre progresjon av ADPKD, inkludert sykdomsmodifiserende legemidler |
+| [40126492](https://pubmed.ncbi.nlm.nih.gov/40126492/) | 2025 | Oversikt | JAMA | ADPKD er den vanligste arvelige nyresykdommen; gjennomgang av diagnostikk og behandling |
+| [41771281](https://pubmed.ncbi.nlm.nih.gov/41771281/) | 2026 | Oversikt | Lancet | Sterkt evidensgrunnlag for tolvaptan som sykdomsmodifiserende behandling hos høyrisikopasienter |
+| [35487607](https://pubmed.ncbi.nlm.nih.gov/35487607/) | 2022 | Oversikt | Clin Liver Dis | Polycystisk nyre-/leversykdom; tolvaptan kan bremse nedgang i nyrefunksjon og cystevekst |
+| [40268755](https://pubmed.ncbi.nlm.nih.gov/40268755/) | 2025 | Oversikt | Renal Failure | Oversikt over nyere genetiske og kliniske framskritt ved ADPKD |
+| [40844441](https://pubmed.ncbi.nlm.nih.gov/40844441/) | 2025 | Oversikt | Am J Kidney Dis | Core Curriculum 2025; risikostratifisering for sykdomsmodifiserende behandling |
+| [40726372](https://pubmed.ncbi.nlm.nih.gov/40726372/) | 2025 | Oversikt | Curr Opin Nephrol Hypertens | Nye terapier utover tolvaptan |
+| [18434616](https://pubmed.ncbi.nlm.nih.gov/18434616/) | 2008 | Ikke klassifisert | Clin J Am Soc Nephrol | Rasjonale for V2-reseptoren som mål ved polycystisk nyresykdom |
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Tolvaptan har for tiden **ingen markedsføringsautorisasjoner på fil i Norge** (0 lisenser; markedsstatus "Ikke markedsført"). Ingen produkt-/doseformsdata er tilgjengelige for oppsummering.
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000980 | Samsca | Ikke oppgitt | Syndromet med uhensiktsmessig ADH-sekresjon (kansellert) |
+| EMEA/H/C/002788 | Jinarc | Ikke oppgitt | Autosomal dominant polycystisk nyresykdom (kansellert) |
+| EMEA/H/C/005961 | Tolvaptan Accord | Ikke oppgitt | Syndromet med uhensiktsmessig ADH-sekresjon (kansellert) |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegget for sikkerhetsinformasjon — ingen strukturerte advarsler, kontraindikasjoner eller DDI-data er for tiden tilgjengelige i denne bevisspakken (flagget som **blokkering** datagap DG001).
+- **Kontraindikasjoner fra kunnskapsgrafen (PrimeKG, ikke preparatomtale):** leversvikt, levercirrhose, rusmiddelmisbruk/-avhengighet, aktiv ulcussykdom i magesekk/tolvfingertarm, demyeliniserende sykdom.
+- **Legemiddelinteraksjoner:** 100 interaksjoner funnet. Eksempler:
+  - **Alvorlig (Major):** klaritromycin.
+  - **Moderat:** aprepitant, deksametason, kaliumsalter (sitrat, bikarbonat, klorid, glukonat), eliglustat, empagliflozin, loperamid, metreleptin, mikonazol, naldemedin, naltrekson, nitisinon, rifaksimin, rolapitant.
+  - **Mindre:** fidaksomicin, nalokseglol, prukaloprid.
+- **Leverhensyn:** studiene viser økt forekomst av forhøyede leverenzymer og bilirubin, så regelmessig leverovervåkning er nødvendig.
 
-Som sagt rapporterer den sentrale REPRISE-forsøket (PMID 29105594) eksplisitt **hyppigere elevasjoner i lever-aminotransferaser og bilirubin** med tolvaptan kontra placebo — dette hepatotoksisitetssignalet er godt dokumentert i tolvaptans godkjente etiketter andre steder (boksadvarsel i USA) og bør behandles som en kjent klasserelevant risiko i påvente av bekreftelse av den lokale etiketten.
+For fullstendig sikkerhetsinformasjon (advarsler og kontraindikasjoner) henvises det til preparatomtalen.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Fortsett med sikkerhetstiltak**
+**Beslutning: Proceed with Guardrails**
 
 **Begrunnelse:**
-Effektivitetsbevis for tolvaptan i ADPKD er ekskepsjonelt sterkt (L1 — to gjennomførte, publiserte fase 3 RCT-er pluss konsensusveiledninger), og indikasjon er allerede godkjent i større markeder. Imidlertid har Norge null eksisterende autorisasjoner og en blokkering datagap på lokale advarsler/kontraindikasjoner, så markedsinngang kan ikke fortsette uten å fullføre sikkerhetsdossieret.
+Tolvaptan har robust fase 3-evidens ved ADPKD, og PKD3 deler den cAMP-drevne cystogene mekanismen. Evidensen er likevel indirekte, siden pasientene i studiene ikke hadde GANAB-relatert sykdom, og leverrisikoen krever tett oppfølging.
 
-**For å fortsette, er følgende nødvendig:**
-- Løse DG001 (blokkering): få den godkjente EU/Norge-ekvivalente SmPC (f.eks. Jinarc) for TFDA-ekvivalente advarsler og kontraindikasjoner
-- Løse DG002 (høy): bekrefte DrugBank MOA-rekord for å formelt støtte den mekanistiske begrunnelsen
-- Verifisere om målontologibegrepet (PKD3-spesifikt) bør forenes med den bredere ADPKD (PKD1/PKD2)-populasjonen som ble studert i TEMPO 3:4/REPRISE
-- Etablere en hepatisk overvåkingsprotokoll (LFT) gitt det dokumenterte hepatotoksisitetssignalet, før norsk MAA-innsending
-
-**Merknad om lavere-rangerte prediksjoner:** Ranger 2–10 (renal-hepatic-pancreatic dysplasia, karyomegalic interstitial nephritis, thoracic malformation, Joubert syndrome, hypertrichosis, periodontal-component syndromes, Dandy-Walker malformation syndrome, osv.) bærer L4–L5-bevis best, med de fleste litteraturtreff vurdert som irrelevante eller utenfor mål (f.eks. periodontitis-litteraturen hentet for rang 9 har ingen mekanistisk forbindelse til tolvaptan). Disse er på vent (Hold) og forfølges ikke videre i denne rapporten.
-
+**For å gå videre trengs følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Preparatomtale med advarsler og kontraindikasjoner fra DMP
+- Klinisk evidens spesifikt for GANAB-relatert PKD3, inkludert effekt på levercyster
+- Plan for leverovervåkning og håndtering av legemiddelinteraksjoner
+- Avklaring av markedssituasjonen i Norge, siden alle tre godkjenninger er kansellert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

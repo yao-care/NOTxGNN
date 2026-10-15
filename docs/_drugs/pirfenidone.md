@@ -2,7 +2,7 @@
 layout: default
 title: Pirfenidone
 parent: Kun modellprediksjon (L5)
-nav_order: 280
+nav_order: 328
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,96 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Pirfenidone: Fra idiopatisk lungefibrose til ekstrakutan mastocytom
+# Pirfenidon: Fra idiopatisk lungefibrose til ekstrakutant mastocytom
 
-## Sammendrag i en setning
+## Oppsummering i én setning
 
-> Pirfenidone er et oralt antifibrotisk middel etablert for behandling av idiopatisk lungefibrose (IPF), som virker gjennom hemming av TGF-β1- og PDGF-mediert fibroblastproliferasjon og kollagensyntese.
-> TxGNN-modellen forutsier at det kan være effektivt for **Ekstrakutan mastocytom**, med en prediksjonspoeng på **99.71%**,
-> men for øyeblikket **ingen kliniske studier** og **ingen publikasjoner** støtter denne spesifikke retningen — prediksjonen er kun modell-avledet.
+Pirfenidon er et antifibrotisk legemiddel som opprinnelig brukes til behandling av idiopatisk lungefibrose.
+TxGNN-modellen predikerer at det kan ha effekt ved **ekstrakutant mastocytom**, men prediksjonen er foreløpig kun beregningsbasert: det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne spesifikke indikasjonen.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Original indikasjon | Idiopatisk lungefibrose (IPF) — ikke registrert i bevismaterialet; utledet fra etablert legemiddelidentitet |
-| Forutsagt ny indikasjon | Ekstrakutan mastocytom |
-| TxGNN-prediksjonspoeng | 99.71% |
-| Bevisnivå | L5 |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
+| Opprinnelig indikasjon | Idiopatisk lungefibrose |
+| Predikert ny indikasjon | Ekstrakutant mastocytom |
+| TxGNN-prediksjonsscore | 99,71 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrerte (utgåtte) godkjenninger |
+| Antall godkjenninger | 3 (alle avregistrert) |
 | Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme for pirfenidone er ikke tilgjengelig i dette bevismaterialet (flagget som datakløft med høy alvorlighetsgrad, DG002). Basert på informasjon som dukket opp andre steder i denne pakken (litteratur sitert under en separat forutsagt indikasjon), er pirfenidone kjent for å hemme TGF-β1, PDGF, EGF og FGF-signalering, og dermed redusere fibroblastproliferasjon og kollagendeposition — mekanismen bak dens godkjente bruk ved IPF.
+Data om virkningsmekanisme (MOA) for pirfenidon var ikke tilgjengelig i dataene som er samlet inn til denne rapporten. Ut fra kjent informasjon er pirfenidon et antifibrotisk og antiinflammatorisk legemiddel som modulerer TGF-β og TNF-α. Effekten er dokumentert ved idiopatisk lungefibrose.
 
-Ekstrakutan mastocytom er en sjelden neoplastisk proliferasjon av mastceller drevet primært av **KIT-mutasjoner**, en vei som mekanistisk ikke er relatert til TGF-β-drevet fibrose. Begrunnelsen for ombruk knyttet til denne prediksjonen noterer eksplisitt at det høye TxGNN-poeng sannsynligvis gjenspeiler et delt "fibrose/stromal ombygging"-grafisk naborskap snarere enn en ekte mekanistisk forbindelse, og sier at det er **ingen direkte forbindelse** mellom anti-TGF-β-aktivitet og KIT-drevet mastcellpatologi.
+Mekanistisk kan dette tenkes å berøre fibrose knyttet til mastceller, men dette er spekulativt. Det foreligger ingen direkte mekanistisk evidens for ekstrakutant mastocytom. Den høye TxGNN-scoren (0,997) er en ren modellprediksjon og bør tolkes med forsiktighet.
 
-Gitt fraværet av noen preklinisk bevis, kliniske studier eller litteraturbevis, bør denne prediksjonen tolkes som et grafsimilaritetssignal snarere enn en mekanistisk begrunnet hypotese.
-
----
-
-## Bevis fra kliniske studier
-
-For øyeblikket er ingen relaterte kliniske studier registrert.
+Andre høyt rangerte prediksjoner (for eksempel dermatofibrosarcoma protuberans, systemisk mastocytose og ulike fibrosarkomer) hviler på tilsvarende svake rasjonaler, og ingen av dem har støtte fra kliniske studier eller litteratur. Den eneste prediksjonen med noe litteratur er **fibroblastisk neoplasme** (rang 9, evidensnivå L4), se nedenfor.
 
 ---
 
-## Litteraturbevis
+## Kliniske studier
 
-For øyeblikket er ingen relatert litteratur tilgjengelig.
-
----
-
-## Norsk markedsinformasjon
-
-Pirfenidone er **ikke for øyeblikket markedsført i Norge** (0 autorisasjoner registrert). Ingen lisens- eller produktinformasjon er tilgjengelig i dette bevismaterialet.
+Foreløpig er det ingen registrerte kliniske studier knyttet til ekstrakutant mastocytom.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+Foreløpig finnes ingen relevant litteratur for ekstrakutant mastocytom.
+
+For sammenligning har den nærmeste prediksjonen med litteratur, fibroblastisk neoplasme (rang 9), følgende publikasjoner:
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [12907346](https://pubmed.ncbi.nlm.nih.gov/12907346/) | 2003 | Klinisk pilotstudie | Am J Gastroenterol | Pilotprosjekt som vurderer pirfenidon mot desmoidtumorer ved familiær adenomatøs polypose |
+| [27835939](https://pubmed.ncbi.nlm.nih.gov/27835939/) | 2016 | In vitro | BMC Musculoskelet Disord | Pirfenidon hemmer TGF-β1-mediert aktivitet i fibroblaster fra Dupuytrens sykdom |
+| [30927912](https://pubmed.ncbi.nlm.nih.gov/30927912/) | 2019 | In vitro | BMC Musculoskelet Disord | Effekt på TGF-β1-stimulerte ikke-SMAD-signalveier i Dupuytren-fibroblaster |
+| [35129055](https://pubmed.ncbi.nlm.nih.gov/35129055/) | 2022 | Prekliniske data/oversikt | Pharm Dev Technol | Pirfenidon som mulig injiserbar antifibrotisk behandling ved Dupuytrens sykdom |
+| [29702057](https://pubmed.ncbi.nlm.nih.gov/29702057/) | 2018 | Kasuistikk | Perm J | Udifferensiert pleomorft sarkom etter bruk av pirfenidon (mulig sikkerhetssignal) |
+| [32572469](https://pubmed.ncbi.nlm.nih.gov/32572469/) | 2020 | Kasuistikk | Rheumatology (Oxford) | Multiple eruptive dermatofibromer forverret under mykofenolat og pirfenidon ved systemisk sklerose |
 
 ---
 
-## Konklusjon og neste trinn
+## Markedsinformasjon for Norge
+
+| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005873 | Pirfenidone axunio (tidligere Pirfenidone AET) | Ikke oppgitt | Idiopatisk lungefibrose |
+| EMEA/H/C/005862 | Pirfenidone Viatris | Ikke oppgitt | Idiopatisk lungefibrose; lungesykdommer; luftveissykdommer |
+| EMEA/H/C/002154 | Esbriet | Ikke oppgitt | Idiopatisk lungefibrose; lungesykdommer; luftveissykdommer |
+
+Alle tre godkjenningene er registrert som avregistrert (cancelled), og det finnes ingen gyldige godkjenninger i dag.
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Legemiddelinteraksjoner**: Totalt 100 interaksjoner er identifisert, og alle viste i utvalget er av moderat alvorlighetsgrad. Eksempler: bupropion, omeprazol, cimetidin, esomeprazol, lansoprazol, naltrekson, mikonazol, disulfiram, ticlopidin, deferasirox, primakin og ivakaftor.
+- **Kasuistikker**: Et tilfelle av udifferensiert pleomorft sarkom etter pirfenidonbruk og et tilfelle av forverrede dermatofibromer er rapportert. Dette er enkeltrapporter, men de bør tas med i en eventuell videre sikkerhetsvurdering ved fibroblastiske svulster.
+
+Se preparatomtalen for øvrig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonspoengene er høye, men det er ikke støttet av noen klinisk studie, virkeligverdens eller litteraturbevis (Bevisnivå L5), og den foreslåtte mekanistiske forbindelsen mellom antifibrotisk TGF-β-hemming og KIT-drevet mastcellpatologi er ikke etablert. TFDA/merkenivå sikkerhetdata (advarsler, kontraindikasjoner) mangler også (Blokkerende datakløft DG001), noe som uavhengig forhindrer enhver sikkerhetsprevurdering.
+Prediksjonen for ekstrakutant mastocytom bygger kun på en modellscore uten kliniske studier eller publikasjoner (evidensnivå L5). Mekanismen er spekulativ, og i tillegg er alle norske/europeiske godkjenninger avregistrert.
 
-**For å fortsette er følgende nødvendig:**
-- TFDA-ekvivalent produktmerking — advarsler og kontraindikasjoner (DG001, Blokkerende)
-- Bekreftet virkningsmekanisme-data for pirfenidone (DG002, Høy)
-- Preklinisk bevis som direkte kobler antifibrotisk aktivitet til mastcelltumorbiologi
-- **Merk:** en separat kandidat i denne pakken, *fibroblastisk neoplasme* (rang 9, Bevisnivå L4/S1), har meningsfullt mer støtte (6 publikasjoner, inkludert en pilotkohort om desmoide tumorer) men har også et rødt flagg — to tilfellerapporter om sarkomprogressjon og dermatofibroma-forverring etter pirfenidone-bruk. Denne kandidaten rettferdiggjør separat kausalitetsvurdering og kan være en mer handlingsbar prioritet enn den nåværende topprangerte prediksjonen.
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Sikkerhetsinformasjon (advarsler og kontraindikasjoner) fra preparatomtalen, som er et blokkerende datagap
+- Prekliniske studier (for eksempel i mastcellemodeller) som kan gi en mekanistisk kobling
+- Avklaring av administrasjonsvei og legemiddelform, samt gjeldende markedsstatus
+- En egen vurdering av fibroblastisk neoplasme (rang 9, L4) som mulig mer forskningsverdig kandidat, med særlig oppmerksomhet på sikkerhetssignalene fra kasuistikkene
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

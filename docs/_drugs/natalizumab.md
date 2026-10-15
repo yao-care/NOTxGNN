@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Natalizumab
-parent: Kun modellprediksjon (L5)
-nav_order: 237
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 278
+evidence_level: L4
 indication_count: 5
 ---
 
 # Natalizumab
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,77 +29,103 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Natalizumab: Fra udokumentert opprinnelig indikasjon til bronkitt
+# Natalizumab: Fra multippel sklerose til psoriasis
 
-## Oppsummering i en setning
+## Oppsummering i én setning
 
-Natalizumab (DrugBank ID DB00108) beskrives i den underliggende gjenbruksrasjonalen som et anti-α4-integrin (VLA-4) monoklonalt antistoff, men dets opprinnelig godkjente indikasjon og formelle virkningsmekanisme-register er ikke dokumentert i det gjeldende bevismateriell. TxGNN-modellens høyest rangerte prediksjon er **Bronkitt**, men denne prediksjonen støttes for tiden av **0 kliniske forsøk** og **0 publikasjoner** — det gjenspeiler bare topologisk lignhet i kunnskapsgrafen, uten mekanistisk eller klinisk støtte.
+Natalizumab er et monoklonalt antistoff som opprinnelig brukes til behandling av multippel sklerose (MS). TxGNN-modellen predikerer at legemidlet kan ha effekt ved **psoriasis** (den tredje høyest rangerte prediksjonen, og den med mest tilgjengelig litteratur). Det finnes **0 kliniske studier** og **17 publikasjoner**, men de er stort sett kasuistikker og oversiktsartikler med motstridende signaler, og mange handler om sikkerhet snarere enn nytte.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|------|---------|
-| Opprinnelig indikasjon | Ikke dokumentert i bevismateriell (se Datamangler) |
-| Prediktert ny indikasjon | Bronkitt |
-| TxGNN-prediksjonsscore | 99.46% |
-| Bevisnivå | L5 |
-| Norges markedsstatus | Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+|------|------|
+| Opprinnelig indikasjon | Multippel sklerose (relapserende-remitterende MS) |
+| Predikert ny indikasjon | Psoriasis (rangert som nr. 3; se merknad nedenfor) |
+| TxGNN-prediksjonsscore | 99,19 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun avregistrerte/trukkede tillatelser |
+| Antall tillatelser | 2 (begge trukket tilbake/kansellert) |
+| Anbefalt beslutning | Hold (avvent) |
+
+**Merknad:** Den høyest rangerte prediksjonen er bronkitt (score 99,46 %, evidensnivå L5, ingen studier eller litteratur). Psoriasis er valgt som hovedfokus her fordi den har mest tilgjengelig litteratur. Øvrige prediksjoner (bronkitt, parapsoriasis, alvorlig ikke-proliferativ diabetisk retinopati og akutt lichenoid pityriasis) har ingen støtte fra kliniske studier og er kort omtalt under konklusjonen.
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte virkningsmekanisme-data for natalizumab ikke tilgjengelige som et strukturert felt i dette bevismateriell. Modellens egen rasjonale karakteriserer imidlertid natalizumab som et anti-α4-integrin (VLA-4) monoklonalt antistoff som blokkerer leukosyttmigrering over VCAM-1-eksprimerende endotel inn i betent vev. Dette er en mekanisme forbundet med autoimmune/nevroinflamatoriske tilstander, ikke med akutt eller kronisk luftveisinfeksjon/betennelse (bronkitt).
+Data om detaljert virkningsmekanisme er ikke tilgjengelig i de sammenstilte dataene. Basert på kjent informasjon blokkerer natalizumab alfa4-integrin (VLA-4), som hemmer leukocyttenes adhesjon og migrasjon over blod-hjerne-barrieren. Effekten ved MS er godt etablert.
 
-Bevismateriell angir eksplisitt at det er **ingen direkte mekanistisk argument** som forbinder VLA-4/VCAM-1-blokering med bronkitt-patofysiologi. Den høye TxGNN-scoren (99.46%) ser ut til å være drevet helt av graf-embedding-nærhet i kunnskapsgrafen, ikke av noen hentet klinisk forsøk eller litteratursignal — det er null støttende oppføringer av noen som helst type for denne indikasjonsparet.
+Psoriasis er en T-cellemediert, kronisk inflammatorisk hudsykdom. Teoretisk kan blokkering av alfa4-integrin redusere T-cellers rekruttering til huden. En liten kasusserie (PMID 33589543) beskriver bedring av samtidig psoriasis hos MS-pasienter behandlet med natalizumab.
 
-Gitt den fullstendige mangelen på støttende bevis og mangelen på en sammenhengende mekanistisk hypotese, bør denne prediksjonen behandles som kun utforskende, ikke som grunnlag for videre klinisk utvikling på dette stadiet.
-
----
-
-## Bevis fra kliniske forsøk
-
-For tiden er det ingen relaterte kliniske forsøk registrert.
+Evidensen er imidlertid motstridende. Flere kasuistikker (PMID 35646438, 28905124, 30323758) beskriver at natalizumab har **utløst eller forverret** psoriasis, inkludert pustulær og artrittisk form. Dette paradoksale signalet svekker prediksjonen betydelig.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske studier
 
-For tiden er det ingen relatert litteratur tilgjengelig.
-
----
-
-## Norges markedsinformasjon
-
-Natalizumab har **0 autorisasjoner** i oversikten og en markedsstatus på "Ikke markedsført" i dette bevismateriell — ingen lisensposter er tilgjengelige for tabellering.
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og data om legemiddelinteraksjon er for tiden ikke tilgjengelige i dette bevismateriell; TFDA/produktetikett-oppslaget er flagget som et **Blokkering**-alvorlighetsgrad-datahull — se Konklusjon.)
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [33589543](https://pubmed.ncbi.nlm.nih.gov/33589543/) | 2021 | Kohort/kasusserie | Neurol Neuroimmunol Neuroinflamm | Bedring av samtidig psoriasis hos 18 MS-pasienter behandlet med natalizumab |
+| [40526577](https://pubmed.ncbi.nlm.nih.gov/40526577/) | 2025 | Oversikt | Dtsch Arztebl Int | Behandlingsvalg ved MS med samtidige kroniske inflammatoriske sykdommer, inkludert psoriasis |
+| [35646438](https://pubmed.ncbi.nlm.nih.gov/35646438/) | 2022 | Kasuistikk | Dermatol Pract Concept | Natalizumabindusert pustulær psoriasis på håndflater og fotsåler |
+| [28905124](https://pubmed.ncbi.nlm.nih.gov/28905124/) | 2018 | Kasuistikk med litteraturgjennomgang | Neurol Sci | Artrittisk psoriasis under natalizumabbehandling |
+| [30323758](https://pubmed.ncbi.nlm.nih.gov/30323758/) | 2018 | Kasuistikk med litteraturgjennomgang | Case Rep Neurol | Kan natalizumab indusere eller forverre psoriasis? Plakkpsoriasis hos en 33 år gammel pasient |
+| [20298966](https://pubmed.ncbi.nlm.nih.gov/20298966/) | 2010 | Oversikt | Lancet Neurol | Progressiv multifokal leukoencefalopati (PML) og JC-virus; sikkerhetskontekst |
+| [24136456](https://pubmed.ncbi.nlm.nih.gov/24136456/) | 2013 | Oversikt | Curr Neurol Neurosci Rep | PML ved MS; sikkerhetskontekst |
+| [25448040](https://pubmed.ncbi.nlm.nih.gov/25448040/) | 2015 | Oversikt | Pharmacol Ther | Leukocyttintegriner som terapeutiske mål ved inflammatoriske sykdommer |
+| [15955735](https://pubmed.ncbi.nlm.nih.gov/15955735/) | 2005 | Oversikt | Curr Opin Pharmacol | Anti-adhesjonsterapier |
+| [25083207](https://pubmed.ncbi.nlm.nih.gov/25083207/) | 2011 | Oversikt | Ther Adv Drug Saf | Immunogenisitet og andre problemer ved bruk av biologiske legemidler |
+
+Merk: Flere av de øvrige publikasjonene i datagrunnlaget gjelder PML knyttet til monoklonale antistoffer og er sikkerhetsrelevante, men ikke evidens for effekt ved psoriasis.
+
+---
+
+## Markedsinformasjon for Norge
+
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005752 | Tyruko (Sandoz GmbH) | Ikke oppgitt | Multippel sklerose, relapserende-remitterende MS |
+| EMEA/H/C/000603 | Tysabri (Biogen Netherlands B.V.) | Ikke oppgitt | Multippel sklerose |
+
+Begge tillatelsene har status «kansellert».
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Kontraindikasjoner (fra kunnskapsgraf):** Kunnskapsgrafen (PrimeKG) registrerer en kontraindikasjon med **progressiv multifokal leukoencefalopati (PML)**. Dette er ikke hentet fra preparatomtalen.
+- **Legemiddelinteraksjoner:** Totalt 100 interaksjoner er identifisert. Blant de viktigste:
+  - **Alvorlige (Major):** kortikosteroider (hydrokortison, triamcinolon, deksametason, betametason, budesonid, prednisolon, prednison), radioaktive/immunmodulerende midler (jobenguan I-131, ibritumomab tiuxetan, tositumomab), levamisol, trimetreksat og merkaptopurin.
+  - **Moderate:** naltrekson.
+  - **Milde (Minor):** sinksalter (sulfat, acetat, glukonat, klorid).
+- **PML-risiko:** Litteraturen i datagrunnlaget dokumenterer gjentatte ganger risikoen for PML ved natalizumab. For en ikke-livstruende tilstand som psoriasis er dette en betydelig barriere.
+- **Paradoksale hudreaksjoner:** Kasuistikker viser at natalizumab kan utløse eller forverre psoriasis.
+
+Informasjon om advarsler og kontraindikasjoner fra preparatomtalen mangler i de sammenstilte dataene. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold (avvent)**
 
-**Rasjonale:**
-Den høyest rangerte prediksjonen (Bronkitt) har bevisnivå L5 — en modellscore med null kliniske forsøk og null litteratursupport, og pakkens egen mekanistiske analyse finner ingen direkte rasjonale som forbinder legemidlets foreslåtte mekanisme til denne sykdommen. Separat er det et **Blokkering**-alvorlighetsgrad-datahull (manglende TFDA-etikett/advarsler) som betyr at kandidaten ikke engang kan passere en innledende sikkerhetskontroll (S1), uavhengig av effektivitetsbevis.
+**Begrunnelse:**
+Prediksjonen for psoriasis støttes bare av kasuistikker og en liten kasusserie med motstridende resultater, og ingen kliniske studier er registrert. Sikkerhetssignalet (PML og paradoksal psoriasis) er betydelig, og begge norske tillatelser er kansellert. De øvrige prediksjonene (bronkitt, parapsoriasis, diabetisk retinopati, akutt lichenoid pityriasis) har enten ingen evidens eller bare bivirkningsrapporter, og er heller ikke grunnlag for å gå videre.
 
-**For å fortsette, er følgende nødvendig:**
-- TFDA/regulatorisk etikett (advarsler, kontraindikasjoner) — påkrevd for å rydde S1-sikkerhetsporten (for tiden blokkert datahull, DG001)
-- Verifisert virkningsmekanisme-register fra DrugBank eller primærlitteratur (for tiden høy-alvorlighetsgrad datahull, DG002)
-- Bekreftet opprinnelig godkjent indikasjon(er) for legemidlet, for å etablere en basislinje for mekanistisk sammenligning
-- Minst preklinisk eller observasjonsbevis som direkte forbinder α4-integrin/VLA-4-blokering til bronkitt-patofysiologi før avansering utover modell-prediksjonsstadium
-
-*Merknad: innenfor denne samme prediksjonsgruppen, er flere andre kandidatindikasjoner for natalizumab (psoriasis, parapsoriasis, acute lichenoid pityriasis) bare støttet av kasusrapporter som beskriver disse tilstandene som **bivirkninger indusert eller forverret av natalizumab-behandling**, ikke som terapeutiske fordeler. Disse bør ikke misforstås som effektivitetssignaler under triering.*
-
+**For å gå videre kreves følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel som må løses før sikkerhetsscreening)
+- Detaljerte data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Større observasjonsstudier eller kontrollerte studier som avklarer om natalizumab hjelper eller forverrer psoriasis
+- Vurdering av nytte-risiko opp mot eksisterende godkjent psoriasisbehandling
+- Avklaring av markedsstatus og tilgjengelighet i Norge, siden begge tillatelser er kansellert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Orlistat
 parent: Kun modellprediksjon (L5)
-nav_order: 256
+nav_order: 300
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,75 +29,86 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Orlistat: Fra fedmestyrring til hypervitaminose
+# Orlistat: Fra fedme til hypervitaminose
 
 ## Oppsummering i én setning
 
-Orlistat er en pankreatisk lipasehemmer som generelt brukes til vektkontroll ved fedme (ikke bekreftet via det nåværende Taiwan/Norge-lovgivinsdatasett, da legemidlet ikke er markedsført i denne bevissamlingen). TxGNN-modellen forutsier at det kan være effektivt for **hypervitaminose**, men denne prediksjonen er for øyeblikket støttet av **0 kliniske forsøk** og **0 publikasjoner** — det er en hypotese basert kun på virkningsmekanisme.
+Orlistat er en hemmer av mage- og bukspyttkjertellipase, opprinnelig brukt til behandling av fedme.
+TxGNN-modellen forutsier at legemidlet kan være effektivt mot **hypervitaminose**,
+men for øyeblikket finnes **0 kliniske studier** og **0 publikasjoner** i de samlede dataene som støtter denne retningen. Prediksjonen er kun modellbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Original indikasjon | Ikke tilgjengelig i lovgivinsdatasett (legemidlet er ikke markedsført); vanligvis kjent som et antifedme-/vektkontrollmiddel |
-| Forutsagt ny indikasjon | Hypervitaminose |
-| TxGNN forutsigelsesscore | 99.42% |
+| Opprinnelig indikasjon | Fedme |
+| Predikert ny indikasjon | Hypervitaminose |
+| TxGNN-prediksjonsscore | 99,42 % |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+| Markedsstatus i Norge | Kun trukket tilbake (ingen gyldige tillatelser) |
+| Antall tillatelser | 2 (begge trukket tilbake) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljert offisiell dokumentasjon av virkningsmekanisme er ikke tilgjengelig i denne bevissamlingen (`original_moa` = datakløft). Imidlertid, basert på legemidlets kjente farmakologi, er orlistat en pankreatisk/gastrisk lipasehemmer som blokkerer hydrolysen av diettrigliserider i tarmlumen, og derved reduserer absorpsjonen av diettfett.
+Data om virkningsmekanisme (MOA) fra kildeposten er ikke tilgjengelige. Resonnementet nedenfor bygger derfor på generell farmakologisk kunnskap, ikke på de innsamlede dataene.
 
-Absorpsjonen av fettløselige vitaminer (A, D, E, K) avhenger av dannelsen av blandede lipidmicellestrukturer i tarmen — samme prosess som orlistat forstyrrer. Dette er hvorfor mangel på fettløselige vitaminer er en godt anerkjent bivirkning av orlistat-terapi i dens opprinnelige fedmeindikasjon. TxGNN-prediksjonen foreslår i hovedsak den omvendte anvendelsen av denne samme mekanismen: bruk av orlistats fettmalabsorpsjonseffekt for å senke overdrevne sirkulerende nivåer av fettløselige vitaminer ved hypervitaminose.
+Orlistat hemmer mage- og bukspyttkjertellipase og reduserer opptaket av fett fra kosten med omtrent 30 %. Fettløselige vitaminer (A, D, E og K) tas opp sammen med fett i kosten. Teoretisk kan orlistat dermed redusere opptaket av disse vitaminene og kunne hjelpe ved overskudd av fettløselige vitaminer.
 
-Dette er en mekanistisk plausibel hypotese, men den har ikke blitt testet i noe registrert klinisk forsøk eller publisert studie. Den høye TxGNN-scoren (99.42%) gjenspeiler sterk strukturell/mekanistisk likhet sluttet av modellen, **ikke** klinisk validering.
-
----
-
-## Bevis fra kliniske forsøk
-
-For øyeblikket ingen relaterte kliniske forsøk registrert
+Koblingen er plausibel, men spekulativ. Den kjente effekten av orlistat er vitaminmangel, som er en merket bivirkning og krever tilskudd. Det finnes ingen dokumentasjon for at orlistat er en trygg eller effektiv behandling av hypervitaminose. Standardbehandlingen (stans av tilskuddet, støttebehandling og kalsium eller andre midler ved vitamin D-toksisitet) er veletablert, så det udekkede behovet for dette legemidlet er lavt. Den høye TxGNN-scoren (0,994) er kun en modellprediksjon.
 
 ---
 
-## Litteraturbevis
+## Klinisk studiedokumentasjon
 
-For øyeblikket ingen relatert litteratur tilgjengelig
+For øyeblikket er det ikke registrert noen relevante kliniske studier.
+
+---
+
+## Litteraturdokumentasjon
+
+For øyeblikket finnes det ingen relevant litteratur.
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Dette legemidlet er ikke for øyeblikket markedsført i dette datasettet (`market_status`: Ikke markedsført), og ingen autorisasjonsregistreringer er tilgjengelige (`total_licenses`: 0).
+Begge tillatelsene er trukket tilbake. Ingen gyldige tillatelser er registrert.
+
+| Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000854 | Alli (tidligere Orlistat GSK) | – | Fedme |
+| EMEA/H/C/000154 | Xenical | – | Fedme |
 
 ---
 
 ## Sikkerhetshensyn
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+- **Kontraindikasjoner fra kunnskapsgrafen (TxGNN/PrimeKG, ikke preparatomtale):** leversvikt, primær hyperoksaluri, anorexia nervosa, bulimia nervosa, vitaminmangeltilstander, kolestase, godartet tilbakevendende intrahepatisk kolestase, familiær intrahepatisk kolestase og legemiddelindusert leverskade.
+- **Legemiddelinteraksjoner:** 100 interaksjoner ble funnet i søket. Av de 20 som er oppført, er de fleste av moderat alvorlighetsgrad. Eksempler:
+  - Moderat: abakavir, lamivudin, emtricitabin, atazanavir (HIV-legemidler); akarbose, albiglutid, alogliptin, kanagliflozin, klorpropamid, metformin (diabetesmidler); amiodaron; asparaginase (E. coli og Erwinia chrysanthemi); kalaspargase pegol; brentuksimab vedotin; klofarabin; kannabidiol.
+  - Mindre: kolekalsiferol, kalsifediol, kalsitriol (vitamin D-former).
+
+Opplysninger om advarsler og kontraindikasjoner fra preparatomtalen mangler. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger utelukkende på mekanistisk resonnement (Evidensnivå L5) uten støtte fra kliniske forsøk eller litteratur, og legemidlet er ikke for øyeblikket markedsført i denne jurisdiksjon. Dette oppfyller ikke bevisgrensen for å gå videre til sikkerhetsgjennomgang eller klinisk evaluering.
+Prediksjonen er kun modellbasert (L5), uten kliniske studier eller litteratur. Orlistats kjente effekt på fettløselige vitaminer er en bivirkning, og standardbehandlingen av hypervitaminose er godt etablert. Legemidlet har dessuten ingen gyldig markedsføringstillatelse i Norge.
 
 **For å gå videre kreves følgende:**
-- Bekreftet offisiell dokumentasjon av virkningsmekanisme (DrugBank API-spørring — for øyeblikket blokkert, DG002)
-- Regulatoriske merkingsvarsler og kontraindikasjoner fra TFDA (Blokkerende kløft, DG001) før noen sikkerhetskontroll på S1-nivå kan finne sted
-- Bekrefting av legemidlets faktiske godkjente opprinnelige indikasjon(er) fra en autoritativ lovgivningskilde
-- Minst preklinisk eller kasusistisk bevis som utforsker orlistats effekt på fettløseligt vitamineklirinering ved hypervitaminose før vurdering av videre evaluering
-
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Prekliniske eller kliniske data som viser at redusert vitaminopptak er terapeutisk nyttig ved hypervitaminose
+- Vurdering av regulatorisk status, siden begge tillatelsene i Norge er trukket tilbake
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

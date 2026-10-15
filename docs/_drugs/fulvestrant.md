@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Fulvestrant
-parent: Kun modellprediksjon (L5)
-nav_order: 156
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 183
+evidence_level: L4
 indication_count: 10
 ---
 
 # Fulvestrant
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,104 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Fulvestrant: Fra Ukjent Original Indikasjon til HIV-Infeksjonssykdom
+# Fulvestrant: Fra brystkreft til HIV-infeksjon
 
-## Sammendrag i én setning
+## Oppsummering
 
-Fulvestrant (DB00947) har ingen bekreftet original indikasjon i denne bevissamlingen — både autorisasjonsposten og virkningsmekanismen er flagget som datakløfter (DG001, DG002).
-TxGNN-modellen forutsier at den kan være effektiv for **HIV infeksjonssykdom**,
-men denne retningen støttes for tiden av **0 kliniske forsøk** og bare **1 tangensielt relatert publikasjon**, med modellens eget scoretrinn som anbefaler **Avvent**.
+Fulvestrant er en østrogenreseptor-antagonist og -nedbryter som opprinnelig brukes til behandling av brystkreft.
+TxGNN-modellen predikerer at legemidlet kan ha effekt mot **HIV-infeksjon**,
+men så langt finnes **ingen kliniske studier** og bare **2 publikasjoner** (hvorav én er en preklinisk mekanistisk studie) som støtter denne retningen.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Original indikasjon | Ikke tilgjengelig — ingen lisensrekorder eller indikasjonsbeskrivelse i denne bevissamlingen (se datakløft DG001) |
-| Forutsagt ny indikasjon | HIV infeksjonssykdom |
-| TxGNN-prediksjonspoengsum | 99.91% (rangering 1374) |
-| Bevisnivå | L5 |
-| Markedsstatus | Ikke markedsført (Ikke markedsført) |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+| Opprinnelig indikasjon | Brystkreft (Breast Neoplasms) |
+| Predikert ny indikasjon | HIV-infeksjon |
+| TxGNN-prediksjonsscore | 99,91 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
+| Antall godkjenninger | 2 (begge kansellert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte virkningsmekanisme-data ikke tilgjengelige for fulvestrant i denne bevissamlingen (datakløft DG002, høy alvorlighetsgrad). Uten MOA-data, og uten noen bekreftet original indikasjon (datakløft DG001, blokkerende alvorlighetsgrad — TFDA-etiketthenting venter fortsatt), er det ikke mulig å konstruere et farmakologisk begrunnet argument for hvorfor fulvestrant ville fungere ved HIV-infeksjon.
+Data om virkningsmekanisme er ikke tilgjengelige i de sammenstilte dataene. Fulvestrant er kjent som en selektiv østrogenreseptor-antagonist og -nedbryter (ERα), og effekten ved hormonreseptorpositiv brystkreft er godt dokumentert.
 
-Modellens eget argument for denne kandidaten er eksplisitt om denne svakheten: den eneste støttende publikasjonen er en multi-kohort tverrfaglig analyse av HTLV-1-assosiert myelopati (HAM) — en distinkt retrovirus-drevet neuroinflammasjonssykdom — ikke en direkte studie av HIV eller av fulvestrants østrogenreseptor (ER) vei i forhold til HIV-replikasjon eller immunmodulering. Ingen mekanistisk bro mellom ER-antagonisme og HIV-patofysiologi er etablert i de tilgjengelige bevisene.
+Østrogenreseptor α finnes i CD4+ T-celler, og en studie fra 2026 (PMID 42430506) undersøkte hvordan ERα-ligander og midler som reverserer HIV-latens påvirker denne reseptoren. Fulvestrant kan derfor i teorien påvirke HIV-latens og immunsignalering via ERα.
 
-Gitt dette, gjenspeiler den høye TxGNN-scoren mest sannsynlig nærhet mellom noder i den underliggende kunnskapsgrafen snarere enn et validert farmakologisk signal. Denne kandidaten bør behandles som kun hypotesegenererende, ikke som bevis for terapeutisk potensial.
-
----
-
-## Klinisk forsøksbelegg
-
-For tiden ingen relaterte kliniske forsøk registrert.
+Koblingen er imidlertid preklinisk og indirekte. Artikkelen om HTLV-1 (PMID 40343334) gjelder et beslektet retrovirus og tester ikke fulvestrant direkte. Prediksjonen bør derfor betraktes som en hypotese, ikke som en etablert terapeutisk mulighet.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske studier
 
-| PMID | År | Type | Tidsskrift | Nøkkelfunn |
+Det er for tiden ingen kliniske studier registrert for HIV-infeksjon.
+
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [40343334](https://pubmed.ncbi.nlm.nih.gov/40343334/) | 2025 | Tverrfaglig analyse (Tier 3) | Research Square | Multi-kohort (epi)genomisk analyse av HTLV-1-assosiert myelopati (HAM), en neuroinflammasjonssykdom relatert til men distinkt fra HIV; studerer ikke direkte fulvestrant eller HIV-infeksjon. Relevans til den forutsagte indikasjon er ubekreftet (markert «venter»). |
+| [42430506](https://pubmed.ncbi.nlm.nih.gov/42430506/) | 2026 | Preklinisk mekanistisk studie | JCI Insight | Undersøker effekten av østrogen, fulvestrant og HIV-latensreverserende midler på ERα i CD4+ T-celler |
+| [40343334](https://pubmed.ncbi.nlm.nih.gov/40343334/) | 2025 | Beregningsmessig tverr-omikanalyse | Research Square | Analyse av sykdomsmekanismer ved HTLV-1-assosiert myelopati; gjelder et beslektet retrovirus og tester ikke fulvestrant direkte |
 
 ---
 
-## Norsk markedsinformasjon
+## Markedsinformasjon for Norge
 
-Ingen autoriserte produkter funnet — `total_licenses = 0` og lisensenlisten er tom i denne bevissamlingen.
-
----
-
-## Sikkerhetshensyn
-
-Se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og legemiddelinteraksjonsdata er alle flagget som datakløfter eller «ikke funnet» i denne bevissamlingen.)
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000540 | Faslodex (AstraZeneca AB) | Ikke oppgitt | Brystkreft (kansellert) |
+| EMEA/H/C/004649 | Fulvestrant Mylan (Mylan Pharmaceuticals Limited) | Ikke oppgitt | Brystkreft (kansellert) |
 
 ---
 
-## Konklusjon og neste trinn
+## Cytotoksisitet
 
-**Beslutning: Avvent**
+Fulvestrant er et legemiddel mot kreft, men er en hormonell behandling (østrogenreseptor-nedbryter) og ikke et konvensjonelt cytotoksisk middel.
+
+| Punkt | Innhold |
+|------|------|
+| Klassifisering | Hormonell/målrettet behandling (ikke konvensjonelt cytotoksisk) |
+| Risiko for myelosuppresjon | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+| Emetogenisitet | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+| Håndtering og vern | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Kontraindikasjoner fra kunnskapsgraf (ikke preparatomtale):** TxGNN-kunnskapsgrafen (PrimeKG) peker på mulige kontraindikasjoner ved leversykdom, gallblæresykdom, trombocytopeni og blodkoagulasjonssykdom. Dette er grafbaserte koblinger og ikke godkjent preparattekst.
+- **Legemiddelinteraksjoner:** Totalt 92 mulige interaksjoner er registrert i DDInter, alle med uklassifisert alvorlighetsgrad. Eksempler: pantoprazol, morfin, metformin, omeprazol, prednison, simvastatin, acetylsalisylsyre, deksametason og warfarin. Spesielt interaksjon med warfarin bør vurderes nøye, gitt de grafbaserte signalene om koagulasjonsforstyrrelser.
+
+Offisielle advarsler og kontraindikasjoner fra preparatomtalen mangler i de sammenstilte dataene. Se pakningsvedlegget for fullstendig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Bevisnivået er L5 (kun modellprediksjon) — det er null kliniske forsøk og en eneste, indirekte relevant publikasjon som ikke studerer HIV eller fulvestrant direkte. Kombinert med to uløste datakløfter (manglende TFDA sikkerhetsetikett — Blokkering; manglende MOA — Høy), kan denne kandidaten ikke avansere til et sikkerhet eller mekanistisk evalueringstrinn.
+Evidensen for HIV-infeksjon er begrenset til én preklinisk mekanistisk studie og én indirekte retrovirusanalyse, uten kliniske studier. Fulvestrant har dessuten ingen gyldig markedsføringstillatelse i Norge i dag (begge godkjenninger er kansellert), og preparatomtalens sikkerhetsdata mangler, noe som hindrer videre sikkerhetsscreening.
 
-**For å fortsette, er følgende nødvendig:**
-- TFDA-etikett / pakningsvedlegg (advarsler, kontraindikasjoner) — påkrevd før noen S1 sikkerhetsgjennomgang (DG001)
-- Bekreftet virkningsmekanisme via DrugBank API-spørring (DG002)
-- Bekreftelse av fulvestrants faktiske original autoriserte indikasjon(er), som for tiden ikke finnes i denne pakken
-- Litteratur eller prekliniske studier som direkte knytter ER-antagonisme (eller fulvestrant spesifikt) til HIV viral replikasjon eller immunregulering
-- Hvis ingen ytterligere direkte bevis dukker opp, bør denne kandidaten forbli nedprioritert i forhold til kandidater med høyere bevis (f.eks. rangering 2, «multipel endokrin neoplasi», som støttes av dusin av fulvestrant-innholdende fase 2/3 brystkreftforsøk, selv om merk at selve sykdomsetiketten krever en relevanskontroll mot disse forsøkene)
+**For å gå videre kreves følgende:**
+- Hente og analysere preparatomtalen (advarsler og kontraindikasjoner), som er en blokkerende datamangel
+- Hente data om virkningsmekanisme fra DrugBank
+- Utvide prekliniske studier (in vitro og dyremodeller) av fulvestrants effekt på HIV-latens i CD4+ T-celler
+- Avklare regulatorisk status og tilgjengelighet i Norge, siden begge godkjenninger er kansellert
+- Vurdere sikkerhet ved langtidsbruk i en ikke-onkologisk populasjon med tanke på hormonell nedregulering
 
+---
+
+**Merknad om andre prediksjoner:** Ingen av de øvrige ni predikerte indikasjonene har kliniske studier eller solid litteratur som støtter dem. For «multiple endokrine neoplasier» gjelder de 13 treffende studiene brystkreft (opprinnelig indikasjon) og skyldes sannsynligvis en term-/ontologikobling, ikke reell evidens. Revmatoid artritt (evidensnivå L4) har kun indirekte og retningsmessig tvetydig evidens, der en dyremodell tyder på at østrogenhemming kan forverre betennelse, og kan eventuelt være et forskningsspørsmål.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

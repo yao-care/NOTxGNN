@@ -2,7 +2,7 @@
 layout: default
 title: Erdafitinib
 parent: Kun modellprediksjon (L5)
-nav_order: 138
+nav_order: 158
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,107 +29,111 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Erdafitinib: Fra FGFR-alterert ondartetsykdom til pulmonær hypertensjon
+# Erdafitinib: Fra urotelial kreft til pulmonal hypertensjon
 
-## Sammendrag på én setning
+## Oppsummering i én setning
 
-Erdafitinib er en pan-FGFR1-4-tyrosinkinasehemmer som brukes innen onkologi; den spesifikke originale indikasjonenn er ikke tilgjengelig i denne evidenspakken, og legemidlet er for tiden **ikke markedsført i Norge**.
-TxGNN-modellen forutsier at det kan være effektivt for **pulmonær hypertensjon**, men dette er for tiden støttet av **0 kliniske forsøk** og **0 publikasjoner** — prediksjonen er kun modellbasert, og selv den mekanistiske begrunnelsen flagrer at effektens retning (beskyttende vs. skadelig) er ubekreftet.
+Erdafitinib er en FGFR-hemmer (tyrosinkinasehemmer) som opprinnelig er godkjent for behandling av urologiske neoplasmer.
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **pulmonal hypertensjon**.
+Prediksjonen støttes foreløpig av **0 kliniske studier** og **0 publikasjoner** som er direkte relevante, så den hviler kun på modellprediksjon.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|-------|---------|
-| Original indikasjon | Ikke dokumentert i evidenspakken (legemidlet er ikke markedsført i Norge; ingen lisensoppføringer tilgjengelig) |
-| Forutsagt ny indikasjon | Pulmonær hypertensjon |
-| TxGNN-prediksjonspoeng | 99.38% (rang 6453) |
-| Bevisnivå | L5 (kun modellpreduksjon, ingen klinisk/litteraturstøtte) |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+|------|------|
+| Opprinnelig indikasjon | Urologiske neoplasmer |
+| Predikert ny indikasjon | Pulmonal hypertensjon |
+| TxGNN-prediksjonsscore | 99,38 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun trukket tilbake (kansellert) |
+| Antall markedsføringstillatelser | 1 |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelig (flagget som et høyalvor datakløft, DG002). Basert på informasjonen i denne evidenspakken er erdafitinib beskrevet som en **pan-FGFR1-4-hemmer**, og dets begrunnelsestekst noterer at FGF/FGFR1-signalisering er kjent for å delta i pulmonær vaskulær remodellering og PAH-patogenese — en rolle tidligere utforsket med andre multi-kinasehemmere som imatinib i PAH-forskning.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Erdafitinib er likevel kjent som en pan-FGFR-hemmer (FGFR1–4). Effekten ved urologiske neoplasmer er knyttet til hemming av FGFR-signalering i tumorceller.
 
-Imidlertid er retningslinjen for dette forholdet eksplisitt usikker: FGFR-signalisering kan enten drive eller beskytte mot vaskulær remodellering avhengig av kontekst, og evidenspakken selv angir at erdafitinib's effekt på denne veien "尚待驗證，亦可能有害" (retning ubekreftet, potensial for skade). Dette betyr at den mekanistiske linken er teoretisk plausibel, men ikke validert, og bør behandles som en forskningshypotese snarere enn en etablert farmakologisk begrunnelse.
+FGF/FGFR-signalering er koblet til remodellering av lungekar samt proliferasjon av glatt muskulatur og endotel ved pulmonal arteriell hypertensjon. Det finnes dermed en biologisk plausibel kobling. Koblingen bygger imidlertid kun på TxGNN-prediksjonen, uten støttende studier eller litteratur i de innsamlede dataene.
 
-Ingen data som forbinder erdafitinib's (ukjent, per denne pakken) originale indikasjon til pulmonær hypertensjon er tilgjengelig, så lignende indikasjonsbegrunnelse kan ikke vurderes på dette tidspunktet.
+Sikkerhetsaspekter som hyperfosfatemi, øyetoksisitet og væskerelaterte effekter må vurderes nøye i en kardiopulmonal pasientgruppe.
 
----
+**Øvrige predikerte indikasjoner (alle L5, Hold):**
 
-## Evidens fra kliniske forsøk
-
-For tiden ingen relaterte kliniske forsøk registrert.
-
----
-
-## Litteraturbevis
-
-For tiden ingen relatert litteratur tilgjengelig.
+| Rang | Sykdom | TxGNN-score | Kommentar |
+|---|---|---|---|
+| 2 | Kyfoskoliotisk hjertesykdom | 99,27 % | Ingen klar mekanistisk kobling; sannsynlig artefakt i kunnskapsgrafen |
+| 3 | Amenoré | 99,26 % | FGFR-hemming vil snarere kunne gi enn behandle reproduktiv dysfunksjon |
+| 4 | Revmatoid artritt | 99,25 % | Plausibel, men ikke validert; kun en generell oversiktsartikkel |
+| 5 | Amyotrofisk lateralsklerose | 99,06 % | Effektretningen er usikker |
+| 6 | Brakydaktyli-syndaktyli-syndrom | 99,03 % | Medfødt tilstand; postnatal kinasehemming vil neppe reversere misdannelser |
 
 ---
 
-## Markedsopplysninger for Norge
+## Klinisk studieevidens
 
-Erdafitinib har for tiden **ingen markedsføringstillatelser i Norge** (0 lisenser, markedsstatus: Ikke markedsført). Ingen data på produktnivå (legemiddelform, godkjent indikasjonnnstekst) er tilgjengelig.
+Foreløpig er det ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+For hovedprediksjonen (pulmonal hypertensjon) finnes ingen relatert litteratur. For rang 4 (revmatoid artritt) er én publikasjon koblet til, men den er ikke sykdomsspesifikk:
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [31862477](https://pubmed.ncbi.nlm.nih.gov/31862477/) | 2020 | Oversiktsartikkel | Pharmacological Research | Oppdatering om egenskaper ved FDA-godkjente småmolekylære proteinkinasehemmere (inkl. erdafitinib godkjent i 2019); ingen spesifikk evidens for erdafitinib ved revmatoid artritt |
+
+---
+
+## Markedsinformasjon for Norge
+
+| Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/006050 | Balversa | – | Urologiske neoplasmer |
+
+Tillatelsen er kansellert, og det finnes ingen gyldige tillatelser for tiden.
 
 ---
 
 ## Cytotoksisitet
 
-Erdafitinib er et antineoplasmamiddel (pan-FGFR1-4-kinasehemmer brukt ved FGFR-alterert ondartetsykdom), så denne delen gjelder.
-
 | Punkt | Innhold |
-|-------|---------|
-| Cytotoksisitetsklassifisering | Målrettet terapi (FGFR1-4-tyrosinkinasehemmer) |
-| Risiko for myelosuppresjon | Se pakningsvedlegget for advarsler og forholdsregler |
-| Emetogenitetsklassifisering | Se pakningsvedlegget for advarsler og forholdsregler |
-| Overvåkingspunkter | Se pakningsvedlegget for advarsler og forholdsregler |
-| Håndteringsbeskyttelse | Se pakningsvedlegget for advarsler og forholdsregler |
+|------|------|
+| Cytotoksisitetsklassifisering | Målrettet behandling (FGFR-tyrosinkinasehemmer) |
+| Myelosuppresjonsrisiko | Se preparatomtalen for advarsler og forsiktighetsregler |
+| Emetogenisitetsklassifisering | Se preparatomtalen for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Fosfatnivå i serum og øyeundersøkelser (basert på kjente sikkerhetshensyn); ytterligere punkter i preparatomtalen |
+| Håndteringsbeskyttelse | Følg lokale retningslinjer for håndtering av antineoplastiske legemidler |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegget for sikkerhetsinformasjon.
+- **Legemiddelinteraksjoner:** Det er registrert 100 interaksjoner i datagrunnlaget. Et utvalg av de viktigste:
+  - **Alvorlig (Major):** kolekalsiferol, deksametason, kalsiumfosfat, kalsifediol, kalsitriol, kalsiumacetat, klaritromycin, magnesiumoksid, magnesiumsulfat, magnesiumklorid
+  - **Moderat:** metformin, loperamid, saksagliptin, eliglustat, empagliflozin, linagliptin, naldemedin, naloksegol, prukaloprid, rifaximin
 
-*(Merk: TFDA/Norge-etikettvarsler og kontraindikasjoner er flagget som et blokkerende datakløft (DG001) — dette må løses før noen Stage 1-sikkerhetsvurdering kan fortsette.)*
-
----
-
-## Andre forutsagte indikasioner (lavere selvtillit, samme modellkjøring)
-
-For kontekst flagret TxGNN også fem ytterligere kandidatindikasioner for erdafitinib, alle på bevisnivå L5 uten støttende kliniske forsøk eller litteratur (bortsett fra én ikke-spesifikk oversikt for revmatoid artritt). Ingen endrer den overordnede anbefalingen:
-
-| Rang | Sykdom | Poeng | Anbefaling | Mekanistisk merknad |
-|------|--------|-------|------------|-------------------|
-| 2 | Kyfoskoliotisk hjertesykdom | 99.27% | Avvent | Ingen direkte mekanistisk forbindelse; sekundær hjertesykdom, ikke FGFR-drevet |
-| 3 | Amenoré | 99.26% | Avvent | Ingen kjent mekanistisk forbindelse |
-| 4 | Revmatoid artritt | 99.25% | Avvent | Kun én ikke-spesifikk 2020 kinasehemmer-oversikt (PMID 31862477); ingen RA-spesifikk data |
-| 5 | Amyotrofisk lateral sklerose | 99.06% | Avvent | Mekanismen kan løpe i motsatt retning (FGF/FGFR-agonisme, ikke inhibisjon, er neuroprotektiv) |
-| 6 | Brachydaktyly-syndaktyly-syndrom | 99.03% | Forskningsspørsmål | Sterkeste mekanistisk plausibilitet (FGFR1-3-gevinst av-funksjon driver disse skjelettsyndromerene), men null klinisk/preklinisk data |
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Prognosen for pulmonær hypertensjon støttes kun av en TxGNN-poengsum med null kliniske forsøk og null litteratur, og den mekanistiske begrunnelsen selv innrømmer at effektens retning er ubekreftet og potensielt skadelig — dette er en ren S0/L5-forskningshypotese, ikke et handlingsbar reposisjonseringssignal.
+Prediksjonen for pulmonal hypertensjon (score 99,38 %) støttes av en biologisk plausibel FGFR-kobling, men har ingen kliniske studier eller litteratur (evidensnivå L5). I tillegg er den norske tillatelsen kansellert, og sikkerhetsdata fra preparatomtalen mangler.
 
-**For å fortsette, er følgende nødvendig:**
-- Løs DG001 (TFDA/Norge-etikettvarsler og kontraindikasjoner) — for tiden blokkering
-- Løs DG002 (bekreftet virkningsmekanisme fra DrugBank)
-- Preklinisk bevis som etablerer om FGFR-inhibisjon hjelper eller forverrer pulmonær vaskulær remodellering
-- Et dedikert litteratur-/klinisk forsøkssøk spesielt for "erdafitinib + pulmonær hypertensjon"
-- Bekrefting av markedsføringstilstatus i Norge (for tiden 0 lisenser på fil)
-
+**For å gå videre kreves følgende:**
+- Hente og analysere preparatomtalens advarsler og kontraindikasjoner (blokkerende datamangel)
+- Innhente detaljerte data om virkningsmekanisme
+- Prekliniske studier av FGFR-hemming i modeller for pulmonal hypertensjon
+- Vurdering av sikkerhetsprofilen (hyperfosfatemi, øyetoksisitet, væskeretensjon) i kardiopulmonale pasienter
+- Avklaring av markedsstatus og tilgjengelighet i Norge gitt at tillatelsen er kansellert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

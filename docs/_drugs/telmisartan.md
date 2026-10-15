@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Telmisartan
-parent: Høy evidens (L1-L2)
-nav_order: 343
-evidence_level: L2
+parent: Kun modellprediksjon (L5)
+nav_order: 404
+evidence_level: L5
 indication_count: 10
 ---
 
 # Telmisartan
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,96 +29,126 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Telmisartan: Fra hypertensjon (ARB-klasse) til okkluksjon av cerebralarteri
+# Telmisartan: Fra hypertensjon til Prinzmetal angina
 
 ## Oppsummering i én setning
 
-Telmisartan er en angiotensin II-reseptorblokkerer (ARB), en legemiddelklasse som er etablert for behandling av hypertensjon og reduksjon av kardiovaskulær risiko. TxGNN-modellen forutsier potensiell nytte for **okkluksjon av cerebralarteri** (iskemisk slag), som er den best støttet kandidaten blant ti TxGNN-prediksjoner for dette legemidlet, støttet av **3 kliniske forsøk** (inkludert ett gjennomført fase 4-forsøk, n=1,228) og **16 prekliniske/mekanistiske publikasjoner**.
+Telmisartan er en angiotensin II-reseptorblokker (ARB) som opprinnelig brukes til behandling av hypertensjon (høyt blodtrykk). TxGNN-modellen forutsier at legemidlet kan være effektivt mot **Prinzmetal angina** (score 99,98 %), men for denne indikasjonen finnes **ingen kliniske studier og ingen publikasjoner** i de samlede dataene. Evidensen er derfor kun modellbasert.
 
-> Merk: Av de 10 TxGNN-forutsagte indikasjoner i denne bevissamlingen har den øverst rangerte treff-en (Prinzmetal-angina, poengsum 99.98%) og flere andre (hirnstammeinfarkt, ABri-amyloidose, Braddock-syndrom osv.) **ingen støttende forsøk eller litteratur** (Bevisnivå L5, anbefaling "Hold"). Denne rapporten fokuserer i stedet på **okkluksjon av cerebralarteri (rangering 4)**, som har det sterkeste faktiske bevisgrunnlaget (L2). En relatert kandidat, intracerebral blødning (rangering 9), har sammenlignbart bevis og refereres nedenfor for kontekst.
+Blant de øvrige prediksjonene har **cerebral arterieokklusjon** (3 kliniske studier, 15 publikasjoner, hovedsakelig prekliniske) og **intracerebral blødning** (3 kliniske studier, 12 publikasjoner, inkludert fase 3-studien TRIDENT) klart mest støtte. Disse er omtalt under som supplement.
 
 ---
 
-## Kort oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|------|
-| Opprinnelig indikasjon | Ikke formelt registrert i denne bevissamlingen — DrugBank-indikasjonssøk venter (se Datagap DG002) |
-| Forutsagt ny indikasjon | Okkluksjon av cerebralarteri |
-| TxGNN-prediksjonspoengsum | 99.95% |
-| Bevisnivå | L2 |
-| Markedsstatus Taiwan | Ikke markedsført (Ikke markedsført) |
-| Antall autorisasjoner | 0 |
-| Anbefalt avgjøring | Hold |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Hypertensjon |
+| Predikert ny indikasjon | Prinzmetal angina |
+| TxGNN-prediksjonsscore | 99,98 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
+| Antall godkjenninger | 12 (alle opphevet; 0 gyldige) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte virkningsmekanisme-data for telmisartan er ennå ikke tilgjengelige i denne bevissamlingen (Datagap DG002, høy alvorlighet — venter på DrugBank API-spørring). Imidlertid beskriver rasjonalet for reposisjonering som følger flere forutsagte indikasjoner konsistent telmisartan som en **AT1 (angiotensin II type 1)-reseptorblokkerer**, med tilleggs **PPAR-γ-agonist-aktivitet** — en dobbelprofilering som noen ganger refereres til i litteraturen som en "metabosartan." Denne klassen er godt etablert for blodtrykkskontroll og reduksjon av kardiovaskulær risiko.
+Data om telmisartans virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene. Telmisartan er imidlertid kjent som en AT1-reseptorblokker, og effekten ved hypertensjon er godt etablert.
 
-Hypertensjon er en viktig oppstrøms risikofaktor for både iskemisk slag (okkluksjon av cerebralarteri) og hemoragisk slag, så et legemiddel som senker blodtrykket og forbedrer endotelfunksjonen har en plausibel vei til nytte ved cerebrovaskulær sykdom. Utover blodtrykkssenkelse rapporteres telmisartans AT1-blokkade og PPAR-γ-aktivering i dyremodeller å redusere oksidativ stress, nevroinflammensjon og infarktvolum — mekanismer som er direkte relevante for iskemisk hjerneskade.
+Den mulige koblingen til Prinzmetal angina går via angiotensin II-mediert vasospasme og endotelial dysfunksjon. Dette er en plausibel hypotese, men den støttes ikke av noe av materialet som er innhentet. Prediksjonen bygger derfor kun på modellens score.
 
-Denne mekanistiske plausibiliteten er støttet av en betydelig mengde rottemodeller for okkluksjon av medial cerebralarteri (MCAO) som viser redusert infarktvolum, demping av oksidativ stress (AGE/4-HNE) og redusert nevroinflammatoriske markører (MCP-1, TNF-α, Iba-1) med telmisartan-behandling. På klinisk side evaluerte et gjennomført fase 4-forsøk (NCT01075698, n=1,228) telmisartans effekt på kardiovaskulære biomarkører og hendelser hos høyrisikopasienter med hypertensjon, og ga noe støtte til menneskelig translasjonell tilbakeføring — selv om det ikke var utformet spesifikt rundt okkluksjon av cerebralarteri som primært endepunkt. Ingen dedikert fase 2/3-randomisert kontrollert studie etablerer for tiden telmisartans effektivitet for behandling eller forebygging av okkluksjon av cerebralarteri spesifikt.
+Til sammenligning har to andre prediksjoner et tydeligere mekanistisk grunnlag:
+- **Cerebral arterieokklusjon:** Telmisartan blokkerer AT1-reseptorer og aktiverer delvis PPARγ. Dyrestudier viser redusert infarktvolum, oksidativt stress og inflammasjon etter eksperimentell okklusjon av arteria cerebri media.
+- **Intracerebral blødning:** Mekanismen er blodtrykkssenkning for å redusere risikoen for ny blødning. Telmisartan-spesifikke effekter er bare støttet av prekliniske data.
 
 ---
 
-## Evidens fra kliniske forsøk
+## Evidens fra kliniske studier
 
-| Forsøksnummer | Fase | Status | Antall deltakere | Viktige funn |
+Currently no related clinical trials registered for Prinzmetal angina (Prinzmetal angina): **ingen relaterte kliniske studier er registrert.**
+
+For de to best dokumenterte alternative indikasjonene:
+
+**Cerebral arterieokklusjon**
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT01075698](https://clinicaltrials.gov/study/NCT01075698) | Fase 4 | Gjennomført | 1,228 | Randomisert, åpen (PROBE) sammenligning av telmisartan (ARB) versus vanlig behandling hos høyrisikopasienter med hypertensjon; vurderte kardiovaskulære biomarkører og langsiktige kardiovaskulære hendelser. |
-| [NCT03785067](https://clinicaltrials.gov/study/NCT03785067) | Fase 3 | Avbrutt | 1 | TRIDENT-kognitiv understudie om intensiv blodtrykkskontroll ("Triple Pill") for å bremse hukommelsesforringelse etter ICH; avbrutt med kun 1 deltaker registrert. |
-| [NCT03783754](https://clinicaltrials.gov/study/NCT03783754) | I/A | Avbrutt | 4 | TRIDENT MR-understudie som evaluerer strukturelle hjerneendringer med intensiv blodtrykkskontroll etter ICH; avbrutt med kun 4 deltakere registrert. |
+| [NCT01075698](https://clinicaltrials.gov/study/NCT01075698) | Fase 4 | Fullført | 1228 | Telmisartan til forebygging av kardiovaskulær sykdom hos høyrisikopasienter med hypertensjon. Resultater er ikke oppgitt i dataene |
+| [NCT03783754](https://clinicaltrials.gov/study/NCT03783754) | Ikke aktuelt | Avsluttet tidlig | 4 | TRIDENT MRI-delstudie. For liten til å gi effektdata |
+| [NCT03785067](https://clinicaltrials.gov/study/NCT03785067) | Fase 3 | Avsluttet tidlig | 1 | TRIDENT kognitiv delstudie. Ingen meningsfulle data |
+
+**Intracerebral blødning**
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
+|---------|------|------|------|---------|
+| [NCT02699645](https://clinicaltrials.gov/study/NCT02699645) | Fase 3 | Fullført | 1671 | TRIDENT: lavdose trippelkombinasjon av blodtrykkssenkende midler (inkluderer telmisartan) som sekundærforebygging etter intracerebral blødning |
+| [NCT03783754](https://clinicaltrials.gov/study/NCT03783754) | Ikke aktuelt | Avsluttet tidlig | 4 | MRI-delstudie, ikke informativ |
+| [NCT03785067](https://clinicaltrials.gov/study/NCT03785067) | Fase 3 | Avsluttet tidlig | 1 | Kognitiv delstudie, ikke informativ |
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
+Currently no related literature available for Prinzmetal angina: **ingen relevante publikasjoner er funnet.**
+
+Utvalg for de to best dokumenterte alternative indikasjonene:
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [21901125](https://pubmed.ncbi.nlm.nih.gov/21901125/) | 2011 | Oversikt | PloS One | Sammenligning av telmisartan versus ramipril (og kombinasjon) for slagforebygging og neuroproteksjon i hypertensive rotte-slagmodeller. |
-| [24780412](https://pubmed.ncbi.nlm.nih.gov/24780412/) | 2014 | Dyreforsøk | J Stroke Cerebrovasc Dis | Telmisartan reduserte progressiv oksidativ stress og α-synuklein-akkumulering etter forbigående MCAO i slag-resistente hypertensive rotter. |
-| [25307428](https://pubmed.ncbi.nlm.nih.gov/25307428/) | 2014 | Dyreforsøk | J Stroke Cerebrovasc Dis | Langsiktig telmisartan bedret metabolsk-syndrom-relaterte molekyler (insulinreseptor, PPAR-γ, AT1R) etter forbigående MCAO. |
-| [19604102](https://pubmed.ncbi.nlm.nih.gov/19604102/) | 2009 | Dyreforsøk | J Neurotrauma | Telmisartan reduserte cerebralt infarktvolum og perinfarkt sitoplasmatisk fosfolipase A2 i eksperimentelt slag. |
-| [28699721](https://pubmed.ncbi.nlm.nih.gov/28699721/) | 2016 | Dyreforsøk | Indian J Exp Biol | Telmisartan + nimodipin-kombinasjon viste neuroprotektive effekter når det ble gitt før og etter iskemi i en eksperimentell cerebral iskemi-modell. |
-| [24650592](https://pubmed.ncbi.nlm.nih.gov/24650592/) | 2014 | Dyreforsøk | Pharmacol Biochem Behav | Ikke-hypotensiv dose av telmisartan + nimodipin produserte synergistisk neuroproteksjon ved å dempe hjernesitokinivåer etter MCAO/reperfusjon. |
-| [32992165](https://pubmed.ncbi.nlm.nih.gov/32992165/) | 2020 | Dyreforsøk | J Stroke Cerebrovasc Dis | PPAR-γ-aktivering ved telmisartan hemmet Egr-1 og reduserte hjerneskade i en eksperimentell iskemisk slagmodell. |
-| [25245484](https://pubmed.ncbi.nlm.nih.gov/25245484/) | 2014 | Dyreforsøk | J Stroke Cerebrovasc Dis | Telmisartan bedret inflammatoriske responser (MCP-1, TNF-α, Iba-1) etter forbigående MCAO i hypertensive rotter. |
-| [24435631](https://pubmed.ncbi.nlm.nih.gov/24435631/) | 2015 | Dyreforsøk | Transl Stroke Res | Langsiktig telmisartan reduserte Alzheimers-type amyloid-genese etter forbigående MCAO i slag-resistente hypertensive rotter. |
-| [41341617](https://pubmed.ncbi.nlm.nih.gov/41341617/) | 2025 | Dyreforsøk/In silico-studie | Toxicology Reports | Telmisartan (med ertugliflozin og omaveloxalon) dempet cerebral iskemi-reperfusjon-neurotoksisitet via Nrf2/HO-1-banemodul. |
-
-*(6 ytterligere lavere-prioritets dyreforsøk med lignende tMCAO/AT1-blokkade-mekanistiske funn er tilgjengelige i kildebevissamlingen men utelatt her for korthet.)*
+| [42019018](https://pubmed.ncbi.nlm.nih.gov/42019018/) | 2026 | RCT (TRIDENT) | N Engl J Med | Lavdose trippelpille mot høyt blodtrykk etter intracerebral blødning. Detaljer er ikke oppgitt i dataene |
+| [34994269](https://pubmed.ncbi.nlm.nih.gov/34994269/) | 2022 | Studiedesign | Int J Stroke | Begrunnelse og design for TRIDENT |
+| [24636673](https://pubmed.ncbi.nlm.nih.gov/24636673/) | 2014 | Post hoc-analyse av RCT | Int J Stroke | Residivrater for iskemisk og hemoragisk hjerneslag i PRoFESS |
+| [19604102](https://pubmed.ncbi.nlm.nih.gov/19604102/) | 2009 | Preklinisk (dyr) | J Neurotrauma | Telmisartan reduserte infarktvolum og cPLA2-nivå ved eksperimentelt hjerneslag |
+| [25245484](https://pubmed.ncbi.nlm.nih.gov/25245484/) | 2014 | Preklinisk (dyr) | J Stroke Cerebrovasc Dis | Redusert inflammasjon hos slagresistente SHR-rotter etter tMCAO |
+| [32992165](https://pubmed.ncbi.nlm.nih.gov/32992165/) | 2020 | Preklinisk (dyr/mekanistisk) | J Stroke Cerebrovasc Dis | PPARγ-aktivering hemmer Egr-1 og beskytter mot hjerneskade |
+| [24650592](https://pubmed.ncbi.nlm.nih.gov/24650592/) | 2014 | Preklinisk (dyr) | Pharmacol Biochem Behav | Synergistisk nevrobeskyttende effekt av telmisartan og nimodipin |
+| [17538008](https://pubmed.ncbi.nlm.nih.gov/17538008/) | 2007 | Preklinisk (dyr) | J Pharmacol Exp Ther | AT1-blokade reduserer apoptose, inflammasjon og oksidativt stress ved intracerebral blødning |
+| [27078703](https://pubmed.ncbi.nlm.nih.gov/27078703/) | 2016 | Preklinisk (dyr) | Neurol Res | Telmisartan reduserer oksidativt stress og vasospasme etter subaraknoidalblødning |
 
 ---
 
-## Markedsinformasjon Taiwan
+## Markedsinformasjon for Norge
 
-Telmisartan har for tiden **ingen legemiddellisensregistreringer** i denne bevissamlingen og er **ikke markedsført på Taiwan** (0 autorisasjoner). Ingen informasjon om produkt/doseringsform er tilgjengelig.
+Alle 12 godkjenninger er opphevet. Ingen er gyldige i dag. Nummerne under er europeiske (EMEA) godkjenningsnumre.
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000210 | Pritor | Ikke oppgitt | Hypertensjon |
+| EMEA/H/C/001168 | Telmisartan Actavis | Ikke oppgitt | Hypertensjon |
+| EMEA/H/C/001196 | Tolura | Ikke oppgitt | Hypertensjon |
+| EMEA/H/C/000209 | Micardis | Ikke oppgitt | Hypertensjon |
+| EMEA/H/C/002511 | Telmisartan Teva Pharma | Ikke oppgitt | Hypertensjon |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og legemiddelinteraksjonsdata er for tiden utilgjengelige — TFDA-etikett-parsing er flagget som et blokkerende datagap; se Konklusjon.)
+Data fra pakningsvedlegg om advarsler og kontraindikasjoner mangler i de innsamlede dataene. Vær oppmerksom på følgende:
+
+- **Mulige kontraindikasjoner fra kunnskapsgrafen (ikke fra preparatomtale):** Lever- og gallesykdom (inkl. leversvikt, kolestase, hepatisk encefalopati), nyresykdom og anuri, forstyrrelser i kalium-, kalsium- og fosformetabolisme, hypotensjon, diabetes og ketoacidose, urinsyregikt, systemisk lupus erythematosus, pankreatitt og renal arteriell obstruksjon.
+- **Legemiddelinteraksjoner:** 100 interaksjoner er registrert. Viktigste er **alvorlige (Major)** interaksjoner med **kaliumsitrat** og **kaliumbikarbonat** (risiko for hyperkalemi). Moderate interaksjoner gjelder blant annet kortikosteroider (hydrokortison, deksametason, betametason, triamsinolon, budesonid), acetylsalisylsyre, morfin, bupropion, SGLT2-hemmere (kanagliflozin, dapagliflozin, empagliflozin), eksenatid, insuliner og enkelte avføringsmidler.
+- **Spesielt for malign renovaskulær hypertensjon:** ARB medfører risiko for nedsatt nyrefunksjon ved bilateral nyrearteriestenose.
+
+Se pakningsvedlegget for fullstendig sikkerhetsinformasjon.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Avgjøring: Hold**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Bevis for okkluksjon av cerebralarteri er mer substansiell enn for noen annen TxGNN-prediksjonen for dette legemidlet (L2, ett gjennomført fase 4-forsøk pluss konsistent preklinisk mekanistisk støtte), men ingen dedikert fase 2/3-randomisert kontrollert studie bekrefter effektivitet for denne spesifikke indikasjonen, og telmisartan er for tiden ikke markedsført på Taiwan — så det finnes ingen eksisterende regulatorisk eller forsyningsvei å bygge på.
+For Prinzmetal angina finnes kun en modellprediksjon (L5) uten kliniske studier eller litteratur. I tillegg er det ingen gyldige godkjenninger i Norge, og sikkerhetsdata fra preparatomtale mangler.
 
-**For å fortsette er følgende nødvendig:**
-- Løs DG001 (Blokkering): innhent og parse TFDA-etikettvarsler/kontraindikasjoner før noen S1-sikkerhetsscreening kan forekomme
-- Løs DG002 (Høy): bekreft original MOA og indikasjon via DrugBank API-spørring
-- Avklare om NCT01075698 fanger okkluksjon av cerebralarteri/slag som et distinkt endepunkt (for tiden kun beskrevet som generelle kardiovaskulære hendelser/biomarkører)
-- Evaluere gjennomførbarheten og regulatorisk vei for å introdusere telmisartan til Taiwan-markedet, siden 0 lisenser for tiden finnes
-- Vurder om en dedikert sekundær slagforebyggings-randomisert kontrollert studie er berettiget gitt styrken på det prekliniske signal
-- Overvåk intracerebral blødning (rangering 9, også L2) som en relatert kandidat som deler den samme RAAS-blokkade-rasjonalet, forankret av det gjennomførte TRIDENT-forsøk (NCT02699645, n=1,671)
-
+**For å gå videre kreves følgende:**
+- Hente og analysere pakningsvedlegg for advarsler og kontraindikasjoner (blokkerende datamangel)
+- Hente data om virkningsmekanisme fra DrugBank
+- Systematisk litteratursøk om ARB/telmisartan ved vasospastisk angina
+- Verifisere utfallsdata fra den fullstendige TRIDENT-publikasjonen (PMID 42019018) før eventuell oppgradering av intracerebral blødning. Telmisartans bidrag kan ikke isoleres fordi intervensjonen er en kombinasjonspille
+- Vurdere cerebral arterieokklusjon som et forskningsspørsmål: sterk preklinisk støtte (L3), men ingen direkte kliniske data
+- Avklare markedsstatus og reell tilgjengelighet i Norge, siden alle godkjenninger er opphevet
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

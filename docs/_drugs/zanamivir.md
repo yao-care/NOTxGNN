@@ -2,7 +2,7 @@
 layout: default
 title: Zanamivir
 parent: Kun modellprediksjon (L5)
-nav_order: 389
+nav_order: 457
 evidence_level: L5
 indication_count: 2
 ---
@@ -31,78 +31,86 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 # Zanamivir: Fra influensa til pyelonefritt
 
-## Ensetningssammendrag
+## Oppsummering i én setning
 
-> Zanamivir er et nevraminidase-hemmer antiviralt middel, opprinnelig utviklet for behandling og profylakse av influensa.
-> TxGNN-modellen forutsier at det kan være effektivt for **pyelonefritt**, men **0 kliniske forsøk** og **0 publikasjoner**
-> støtter denne retningen for tiden — prediksjonen hviler for tiden bare på modellassosiasjon, uten identifisert biologisk begrunnelse.
+Zanamivir er en nevraminidasehemmer som opprinnelig brukes til behandling av influensa (Influenza, Human).
+TxGNN-modellen predikerer at legemidlet kan ha effekt mot **pyelonefritt**, men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen.
+Den høye modellscoren ser ut til å være et beregningsmessig artefakt og ikke et resultat av biologisk evidens.
 
 ---
 
-## Raskt overblikk
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|------|---------|
-| Originalindikasjon | Influensa (basert på kjent antiviralmekanisme; ikke bekreftet av norsk lisensdokumentasjon — stoffet er ikke markedsført, ingen lisensdata tilgjengelig) |
+|------|------|
+| Opprinnelig indikasjon | Influenza (Influenza, Human) |
 | Predikert ny indikasjon | Pyelonefritt |
-| TxGNN-prediksjonspoeng | 99.84% |
-| Bevisnivå | L5 |
-| Norges markedsstatus | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt vedtak | Avvent |
+| TxGNN-prediksjonsscore | 99,84 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert/kansellert |
+| Antall godkjenninger | 1 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er (eller er ikke) denne prediksjonen rimelig?
 
-Detaljerte virkningsmekanisme-data for zanamivir er ikke tilgjengelig i denne evidenspakken (`original_moa: [Data Gap]`). Basert på stoffets kjente farmakologiske klasse, er zanamivir en nevraminidase-hemmer som blokkerer influensa-virusnevraminidase-enzymet, og forhindrer frigjøring av nye viruspartikler fra infiserte celler — en mekanisme spesifikk for influensa A/B-virusreplikasjon.
+Data om virkningsmekanisme er ikke tilgjengelig i datagrunnlaget for denne rapporten. Basert på kjent informasjon er zanamivir en hemmer av det virale enzymet nevraminidase, med aktivitet mot influensa A og B.
 
-Pyelonefritt er overveiende en bakteriell infeksjon av nyreparenkym (oftest forårsaket av *E. coli* og andre Enterobacteriaceae). Det finnes ingen kjent antibakteriell aktivitet, nyremålrettet farmakokinetisk egenskap, eller immunmodulatorisk mekanisme for zanamivir som plausibelt ville forklare effektivitet i denne tilstanden. Bevispaekkets egen omformål-rasjonale sier eksplisitt at denne høye TxGNN-poengsum gjenspeiler en grafneuralnettverk-assosiasjon bare, **uten støttende biologisk plausibilitet, mekanistisk litteratur, eller klinisk bevis**.
+Pyelonefritt er vanligvis en bakteriell nyreinfeksjon, oftest forårsaket av *E. coli*. Det finnes bakterielle nevraminidaser (sialidaser), men zanamivir er ikke kjent for å ha klinisk meningsfull antibakteriell aktivitet, og det foreligger ingen støttende data. Det er dermed ingen etablert mekanistisk kobling mellom den opprinnelige og den predikerte indikasjonen.
 
-En annen kandidatindikasjon i denne evidenspakken — «tyrosinmetabolisme-lidelse» (en genetisk metabolsk sykdom) — viser samme mønster: de tre litteratursitatene som ble hentet, gjelder faktisk oseltamivir-resistensmutsasjoner og nevraminidase-hemmer assayer (hvor «tyrosin» vises som et resttypnavn på H275Y mutasjonsstedet), ikke tyrosinmetabolsk sykdom. Dette er en sterk indikator på en nøkelords-samsvar-artefakt snarere enn et genuint biologisk signal, og styrker at ingen av prediksjonene i denne pakken bør fremmes uten uavhengig mekanistisk eller klinisk validering.
+Den svært høye TxGNN-scoren (0,998) skyldes trolig felles «infeksjons»-assosiasjoner i kunnskapsgrafen og ikke faktisk evidens. Prediksjonen bør derfor betraktes som en hypotese uten støtte.
 
----
-
-## Kliniske forsøksbevis
-
-For tiden er det ingen relaterte kliniske forsøk registrert.
+Merk også at den nest rangerte prediksjonen, **forstyrrelse i tyrosinmetabolismen** (score 99,02 %), heller ikke har noen plausibel mekanistisk kobling. Nevraminidase har ingen kjent rolle i tyrosinkatabolismen. De tre publikasjonene som ble hentet frem, handler om resistens mot nevraminidasehemmere (oseltamivir-resistens, en SPR-analyse og en N294S-mutasjon i nevraminidase) og er urelaterte til tyrosinmetabolisme. Treffet skyldes trolig et nøkkelordartefakt («tyrosin» mot aminosyremutasjoner).
 
 ---
 
-## Litteraturbevis
+## Klinisk studieevidens
 
-For tiden ingen relatert litteratur tilgjengelig.
-
-*(Merk: litteratur ble hentet for den andre, lavere prioritets kandidatindikasjon — «tyrosinmetabolisme-lidelse» — men ved gjennomgang gjelder den oseltamivir/nevraminidase-resistensforskning og er ikke tematisk relevant for tyrosinmetabolisme-lidelser. Det presenteres ikke her som støttende bevis.)*
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ---
 
-## Norges markedsinformasjon
+## Litteraturevidens
 
-Zanamivir er for tiden ikke markedsført i Norge; ingen lisensiopplysninger er tilgjengelige i denne evidenspakken.
-
----
-
-## Sikkerhetshensyn
-
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og data om legemiddelinteraksjoner er ikke for tiden tilgjengelige for dette stoffet.)
+Foreløpig finnes ingen relatert litteratur for pyelonefritt.
 
 ---
 
-## Konklusjon og neste trinn
+## Markedsinformasjon for Norge
 
-**Vedtak: Avvent**
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004102 | Dectova | Ikke oppgitt | Influenza, Human |
+
+Godkjenningen er kansellert, og det finnes ingen gyldige markedsføringstillatelser for zanamivir i dataene.
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Kontraindikasjoner fra kunnskapsgrafen (PrimeKG, ikke preparatomtale):** epilepsi, kronisk obstruktiv lungesykdom (KOLS), tidligdebuterende alvorlig KOLS, bronkiale sykdommer og delirium. Disse er relasjoner fra en kunnskapsgraf og må verifiseres mot preparatomtalen.
+- **Legemiddelinteraksjoner (8 funnet):**
+  - Insulin human (inhalasjon, hurtigvirkende): **moderat**
+  - Klaritromycin, loratadin, montelukast, ketotifen, feksofenadin, ibuprofen og diklofenak: alvorlighetsgrad ukjent
+
+Informasjon om advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelig. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den predikerte indikasjon (pyelonefritt) har et L5-bevisnivå — bare modellprediksjon, med null kliniske forsøk, null støttende litteratur, og ingen identifiserbar mekanistisk vei som forbinder en viral nevraminidase-hemmer til en overveiende bakteriell nyreinfeksjon. En annen kandidatindikasjon i samme pakke viser bevis på et litteraturhentings-misforhold, som ytterligere understreker behovet for forsiktighet før noe ytterligere evaluering.
+Prediksjonen for pyelonefritt har kun modellstøtte (L5), uten kliniske studier, uten litteratur og uten plausibel mekanistisk kobling. I tillegg er den eneste norske/europeiske godkjenningen kansellert.
 
-**For å fortsette er følgende nødvendig:**
-- Bekreftet virkningsmekanisme (MOA)-data fra DrugBank eller primær litteratur
-- TFDA/regulatoriske merknadsadvarsler og kontraindikasjoner (blokkerer for tiden S1-sikkerhetsscreening per DG001)
-- Uavhengig mekanistisk eller preklinisk bevis som knytter nevraminidase-hemming til noen nyre-/urinveispatologi
-- Omvalidering av litteraturhentings-rørledningen for å utelukke nøkelords-samsvar-artefakter (som observert med tyrosinmetabolisme-kandidaten)
-- Hvis slike bevis ikke dukker opp, bør denne kandidaten nedprioriteres i stedet for å fremmes til videre scoringsstadier
-
+**For å gå videre kreves følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel)
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Prekliniske data (in vitro) som viser eventuell antibakteriell aktivitet mot uropatogener som *E. coli*
+- Vurdering av administrasjonsvei og farmakokinetikk (nyre-/urinkonsentrasjoner) for den predikerte indikasjonen
+- Systematisk litteratursøk målrettet mot pyelonefritt
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

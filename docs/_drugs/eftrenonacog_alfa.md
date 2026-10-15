@@ -2,7 +2,7 @@
 layout: default
 title: Eftrenonacog Alfa
 parent: Kun modellprediksjon (L5)
-nav_order: 123
+nav_order: 142
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,63 +29,74 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Eftrenonacog alfa: Fra hemofili B til pseudo-von Willebrand-sykdom
+# Eftrenonacog alfa: Fra hemofili B til pseudo-von Willebrands sykdom
 
-## Sammendrag i en setning
+## Oppsummering i én setning
 
-Eftrenonacog alfa er et rekombinant Factor IX-Fc fusjonprotein som brukes som koagulasjonsfaktor-erstatningsterapi for hemofili B.
-TxGNN-modellen forutsier at det kan være effektivt for **pseudo-von Willebrand-sykdom**,
-men dette signalet støttes foreløpig av **0 kliniske forsøk** og **0 publikasjoner**, og det underliggende mekanistiske resonnementet i seg selv reiser bekymringer om en falsk positiv prediksjon.
+Eftrenonacog alfa er et rekombinant faktor IX-Fc-fusjonsprotein som opprinnelig brukes til behandling av **hemofili B**.
+TxGNN-modellen predikerer at det kan ha effekt ved **pseudo-von Willebrands sykdom** (score 99,48 %),
+men det finnes **ingen kliniske studier og ingen publikasjoner** som støtter denne retningen. Prediksjonen er kun modellbasert.
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Original indikasjon | Hemofili B (basert på kjent legemiddelklasse; formell indiksjonstekst er ikke tilgjengelig i dette datasettet) |
-| Forutsagt ny indikasjon | Pseudo-von Willebrand-sykdom |
-| TxGNN-prediksjonspoeng | 99.48% |
-| Bevisnivå | L5 |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+| Opprinnelig indikasjon | Hemofili B |
+| Predikert ny indikasjon | Pseudo-von Willebrands sykdom (pseudo-von Willebrand disease) |
+| TxGNN-prediksjonsscore | 99,48 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun tilbakekalt/avregistrert (kun kansellerte godkjenninger) |
+| Antall godkjenninger | 1 |
+| Anbefalt beslutning | Hold |
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelig i DrugBank for denne posten. Basert på kjent farmakologi er eftrenonacog alfa et rekombinant Factor IX-Fc fusjonprotein som erstatter mangelfull endogent Factor IX i den indre koaguleringsbanen, og effektiviteten i hemofili B er godt etablert.
+Data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Ut fra kjent informasjon er eftrenonacog alfa et rekombinant faktor IX-Fc-fusjonsprotein (rFIXFc) som erstatter manglende faktor IX i den intrinsiske koagulasjonsveien. Effekten ved hemofili B er etablert.
 
-De tre beste TxGNN-forutsagte indikasjonene for dette legemidlet — pseudo-von Willebrand-sykdom, primær utslipsforstyrrelse av blodplater og Glanzmann-trombasteni — er imidlertid alle **blodplate-nivå-forstyrrelser** (unormal GPIb–vWF affinitet, defekt granulatutslipping og GPIIb/IIIa-reseptormangel, henholdsvis), ikke koagulasjonsfaktormangel. Factor IX-erstatning virker på trombingenerasjon og har ingen kjent mekanisme for å korrigere blodplate-reseptor- eller granulatdefekter.
+Pseudo-von Willebrands sykdom (trombocytt-type VWD) skyldes en «gain-of-function»-defekt i trombocyttenes GPIbα. Denne gir økt affinitet for VWF, klarering av trombocytter og tap av høymolekylære VWF-multimerer. Defekten ligger i samspillet mellom trombocytter og VWF, ikke i mangel på faktor IX. Det finnes derfor ingen klar mekanistisk begrunnelse for faktor IX-erstatning.
 
-Dette avviket antyder at høye TxGNN-poenger sannsynligvis gjenspeiler klyngring av «blødningsforstyrrelse»-noder innen kunnskapsgrafen snarere enn ekte delt farmakologi. Alle tre kandidatene bør behandles som signaler med lav sikkerhet og uklar mekanisme som venter på ytterligere validering, ikke som farmakologisk baserte omdisponeringshypoteser.
+Den høye TxGNN-scoren (0,995) gjenspeiler trolig nærhet i kunnskapsgrafen til blødningssykdommer generelt, og støttes ikke av biologiske eller kliniske data.
 
-## Bevis fra kliniske forsøk
+### Øvrige predikerte indikasjoner
 
-For tiden er ingen relaterte kliniske forsøk registrert
+Også de to neste prediksjonene mangler støtte:
 
-## Bevis fra litteratur
+| Rang | Predikert indikasjon | TxGNN-score | Evidensnivå | Vurdering |
+|------|------|------|------|------|
+| 2 | Primær frigjøringsforstyrrelse i trombocytter | 99,42 % | L5 | Defekten ligger i trombocyttenes granulasekresjon. Faktor IX virker lenger nede i koagulasjonskaskaden og korrigerer ikke dette. Enhver kobling er spekulativ. |
+| 3 | Glanzmanns trombasteni | 99,28 % | L5 | Skyldes mangel på eller dysfunksjon i integrin αIIbβ3. Standardbehandling er trombocyttransfusjon, antifibrinolytika og rekombinant faktor VIIa, og faktor IX adresserer ikke aggregasjonsdefekten. |
 
-For tiden er ingen relatert litteratur tilgjengelig
+## Klinisk studieevidens
 
-## Markedsinformasjon for Norge
+Foreløpig ingen relaterte kliniske studier registrert.
 
-Dette legemidlet er ikke for tiden markedsført i Norge (0 autorisasjoner på posten); ingen lisens- eller produktinformasjon er tilgjengelig.
+## Litteraturevidens
 
-## Sikkerhetshensyn
+Foreløpig ingen relatert litteratur tilgjengelig.
 
-Se pakningsvedlegget for sikkerhetsinformasjon.
+## Informasjon om det norske markedet
 
-## Konklusjon og neste trinn
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004142 | Alprolix (Swedish Orphan Biovitrum AB) | – | Hemofili B (status: kansellert) |
 
-**Beslutning: Avvent**
+## Sikkerhetsvurderinger
+
+Se preparatomtalen (pakningsvedlegget) for sikkerhetsinformasjon. Data om advarsler og kontraindikasjoner er ikke tilgjengelige i de innsamlede dataene, og det er ikke funnet registrerte legemiddelinteraksjoner.
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Dette er en modell-kun prediksjon (L5) uten støttende kliniske forsøk eller litteratur, og den foreslåtte mekanistiske koblingen mellom Factor IX-erstatning og blodplate-funksjonsforstyrrelser er svak — mønsteret er mer i samsvar med kunnskapsgraf-nodeklyngring enn ekte farmakologisk relevans.
+Prediksjonen er rent modellbasert (L5) uten kliniske studier eller litteratur, og den mekanistiske sammenhengen er svak fordi defekten ligger i samspillet mellom trombocytter og VWF, ikke i faktor IX. I tillegg er den eneste godkjenningen i Norge kansellert.
 
-**For å fortsette, kreves følgende:**
-- Bekreftet data om virkningsmekanisme (MOA) fra DrugBank eller primærlitteratur (for tiden kritisk datakløft, DG002)
-- TFDA/produsentmerking med advarsler og kontraindikasjoner, påkrevd før eventuell sikkerhetspre-screening (kritisk datakløft, DG001)
-- Uavhengig mekanistisk eller preklinisk evidens som direkte knytter Factor IX-veiens aktivitet til blodplate-vWF eller blodplate-reseptorforstyrrelser
-- Virkelige tilfellerapporter eller registerdata for Factor IX-produkter som brukes i disse blodplate-forstyrrelsene, hvis noen finnes, for å skille ekte signal fra prediksjonsartefakt
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Sikkerhetsinformasjon (advarsler og kontraindikasjoner) fra preparatomtalen
+- Prekliniske eller mekanistiske data som viser et biologisk grunnlag for faktor IX ved trombocyttrelaterte blødningssykdommer
+- Avklaring av markedsstatus og tilgjengelighet i Norge, siden godkjenningen er kansellert
+- Sammenligning med etablerte alternativer, som rekombinant faktor VIIa ved Glanzmanns trombasteni
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Upadacitinib
 parent: Kun modellprediksjon (L5)
-nav_order: 375
+nav_order: 441
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,63 +29,87 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Upadacitinib: Fra uspesifisert original-indikasjon til colobomatous microphthalmia-rhizomelic dysplasia syndrome
+# Upadacitinib: Fra revmatoid artritt til kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-Upadacitinib er en JAK1-selektiv inhibitor; dens opprinnelige godkjente indikasjon er ikke tilgjengelig i denne bevispakken, og legemidlet er for øyeblikket ikke markedsført i Norge.
-TxGNN-modellen forutsier en mulig sammenheng med **colobomatous microphthalmia-rhizomelic dysplasia syndrome**, et sjeldent medfødt utviklingsforstyrrelsessyndrom,
-men denne prediksjonen støttes av **ingen kliniske studier** og **ingen publisert litteratur** — det er kun et statistisk modelleringsresultat.
+Upadacitinib var opprinnelig godkjent for behandling av revmatoid artritt. TxGNN-modellen predikerer at legemidlet kan ha effekt ved **kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom**, men det finnes **ingen kliniske studier og ingen publikasjoner** som støtter denne prediksjonen. Den er ren modellprediksjon.
 
-## Rask oversikt
+---
 
-| Element | Innhold |
-|---------|---------|
-| Original indikasjon | Ikke tilgjengelig (ingen lisens eller indikasjondata i denne bevispakken) |
-| Forutsagt ny indikasjon | colobomatous microphthalmia-rhizomelic dysplasia syndrome |
-| TxGNN-prediksjonspoeng | 99.61% |
-| Bevisnivå | L5 |
-| Markedsstatus i Norge | Ikke markedsført |
-| Antall godkjenninger | 0 |
+## Hurtigoversikt
+
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Revmatoid artritt |
+| Predikert ny indikasjon | Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom |
+| TxGNN-prediksjonsscore | 99,61 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrerte godkjenninger |
+| Antall godkjenninger | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
-## Hvorfor er denne prediksjonen rimelig?
+---
 
-For øyeblikket er detaljerte virkningsmekanismedata ikke tilgjengelig i denne bevispakken utover betegnelsen av legemiddelklasse. Basert på kjent informasjon er upadacitinib en JAK1-selektiv inhibitor hvis etablerte farmakologi innebærer undertrykking av cytokin-mediert inflammatorisk signalering.
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Den forutsagte indikasjonen, colobomatous microphthalmia-rhizomelic dysplasia syndrome, er et sjeldent medfødt strukturelt/utviklingsmessig syndrom (okular colobom med proksimal ekstremitets-skelettal dysplasi), drevet av medfødte genmutasjoner snarere enn inflammatorisk eller autoimmun patologi. Bevispakkens egen begrunnelse for gjenbruk sier at det er **ingen etablert biologisk sammenheng** mellom JAK1-inhibisjon og denne mekanismen for medfødt misdannelse — prediksjonspoengene reflekterer kun en statistisk assosiasjon fra grafnevralt nettverk, ikke en mekanistisk begrunnet hypotese.
+Data om virkningsmekanisme (MOA) for upadacitinib mangler i de sammenstilte dataene. Upadacitinib er generelt kjent som en JAK1-hemmer, men dette er ikke bekreftet i det foreliggende materialet. Legemidlet er godkjent ved revmatoid artritt, en immunmediert betennelsessykdom der JAK-STAT-signalering spiller en sentral rolle.
 
-En andre, tilsvarende rangert prediksjon (brachydactyly-syndactyly syndrome, poeng 99.58%) viser det samme mønsteret: et medfødt skjelettalt syndrom med ingen kjent sammenheng til JAK1-mediert antiinflammatorisk aktivitet. Begge prediksjoner bør behandles som kun utforskende signaler, ikke som kandidater med plausibel mekanistisk støtte.
+Det predikerte syndromet er en ekstremt sjelden utviklingsforstyrrelse, trolig av genetisk opprinnelse. Det er ingen åpenbar betennelsesdrevet eller JAK-STAT-avhengig sykdomsmekanisme som knytter tilstanden til upadacitinib. Et høyt TxGNN-score (0,996) er ikke i seg selv et bevis. Prediksjonen kan skyldes artefakter i kunnskapsgrafen, for eksempel felles gener eller signalveier, snarere enn reell terapeutisk relevans. En utviklingsforstyrrelse uten betennelse vil neppe svare på immunmodulering.
 
-## Bevis fra kliniske studier
+Den nest rangerte prediksjonen, **brachydaktyli-syndaktyli-syndrom** (score 99,58 %), har samme begrensninger: en medfødt lemmemisdannelse uten påvist JAK-STAT-mediert patologi, uten kliniske studier og uten publikasjoner.
 
-For øyeblikket ingen relaterte kliniske studier registrert.
+---
 
-## Bevis fra litteratur
+## Kliniske studier
 
-For øyeblikket ingen relatert litteratur tilgjengelig.
+Foreløpig er det ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+Foreløpig finnes det ingen relatert litteratur.
+
+---
 
 ## Markedsinformasjon for Norge
 
-Dette legemidlet er for øyeblikket ikke markedsført i Norge (0 godkjenninger på posten); ingen produktlisensdata er tilgjengelig.
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004760 | Rinvoq | Ikke oppgitt | Revmatoid artritt |
 
-## Sikkerhetshensyn
+Merk: Denne godkjenningen har status avregistrert, og det finnes ingen gyldige godkjenninger i Norge i de sammenstilte dataene.
 
-Se pakningsvedlegget for sikkerhetsopplysninger.
+---
 
-## Konklusjon og neste skritt
+## Sikkerhetsvurderinger
+
+**Legemiddelinteraksjoner**: Det er funnet 100 registrerte interaksjoner. Blant de 20 første i datagrunnlaget er de viktigste:
+
+- **Alvorlig (Major)**: Hydrokortison, triamcinolon (inkludert oftalmisk), deksametason, beklometasondipropionat, betametason, budesonid, prednison, prednisolon, klaritromycin, kobicistat, deferipron og jobenguan (I-131)
+- **Moderat**: Aprepitant, cimetidin, mikonazol og deferasiroks
+- **Mindre (Minor)**: Sinksulfat, sinkacetat og sinkglukonat
+
+Kortikosteroidene utgjør den største gruppen av alvorlige interaksjoner.
+
+Annen sikkerhetsinformasjon (advarsler og kontraindikasjoner fra preparatomtale) er ikke tilgjengelig. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Denne prediksjonen er bevisnivå L5 (modelleringsresultat alene, ingen kliniske studier eller litteratur), og bevispakkens egen mekanistiske begrunnelse finner eksplisitt ingen plausibel biologisk forbindelse mellom JAK1-inhibisjon og dette medfødtes utviklingssyndrom. Det er ingen grunnlag for å fremme denne kandidaten på dette tidspunktet.
+Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten kliniske studier, uten litteratur og uten støtte for en biologisk mekanisme. Sykdommen er en sjelden utviklingsforstyrrelse som neppe vil respondere på JAK-hemming. I tillegg er den eneste norske godkjenningen avregistrert.
 
-**For å fortsette trengs følgende:**
-- Bekreftet virkningsmekanisme (MOA)-data for upadacitinib fra DrugBank eller produsentens produktinformasjon
-- TFDA/regulatoriske merkedata om advarsler og kontraindikasjoner (for øyeblikket blokker per `DG001`)
-- En uavhengig biologisk plausibilitetsvurdering, siden den automatiserte begrunnelsen selv argumenterer mot en mekanistisk forbindelse
-- Hvis plausibilitet ikke kan etableres, bør denne kandidaten deprioriteres til fordel for høyere poengede, mekanistisk sammenhengende prediksjoner
-
+**For å gå videre kreves følgende:**
+- Innhenting av preparatomtale (advarsler og kontraindikasjoner) fra DMP, som er en blokkerende datamangel for sikkerhetsscreening
+- Data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Uavhengig biologisk validering av en mulig kobling mellom JAK-STAT-signalering og sykdommens patogenese
+- Gjennomgang av om prediksjonen er en artefakt i kunnskapsgrafen
+- Vurdering av administrasjonsvei og legemiddelform (ikke avklart)
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

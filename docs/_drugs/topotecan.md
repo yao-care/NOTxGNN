@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Topotecan
-parent: Høy evidens (L1-L2)
-nav_order: 364
-evidence_level: L1
+parent: Moderat evidens (L3-L4)
+nav_order: 427
+evidence_level: L3
 indication_count: 10
 ---
 
 # Topotecan
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,105 +29,121 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Topotecan: Fra eggstokkkreften/livmorhalskreften/småcellet lungekreft til brystkreft
+# Topotecan: Fra livmorhalskreft og småcellet lungekreft til brystkreft hos kvinner
 
-## Sammendrag i en setning
+## Oppsummering
 
-> Topotekan er en topoisomerase I-hemmer som for tiden er godkjent for eggstokkkreften, livmorhalskreften og småcellet lungekreft.
-> TxGNN-modellen forutsier at det kan være effektivt for **brystkreft**,
-> med **5 kliniske studier** og **20 publikasjoner** som for tiden støtter denne retningen.
+Topotecan er en topoisomerase I-hemmer som opprinnelig ble brukt mot livmorhalskreft, småcellet lungekreft og (for ett av produktene) eggstokkreft.
+TxGNN-modellen predikerer at legemidlet kan være effektivt mot **brystkreft hos kvinner**,
+men støtten er svak: de tre registrerte kliniske studiene er tidlige eller avsluttet, og litteraturen består i hovedsak av oversiktsartikler og prekliniske studier.
 
 ---
 
-## Hurtig oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Ikke markedsført i Norge; internasjonalt godkjent for eggstokkkreften, livmorhalskreften og småcellet lungekreft (per bevismappe) |
-| Forutsagt ny indikasjon | Brystkreft |
-| TxGNN-prediksjonspoeng | 99.92% |
-| Bevisnivå | L1 |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Fortsett med sikringsmekanismer |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Livmorhalskreft, småcellet lungekreft |
+| Predikert ny indikasjon | Brystkreft hos kvinner (female breast carcinoma) |
+| TxGNN-prediksjonsscore | 99,92 % |
+| Evidensnivå | L3 |
+| Status på det norske markedet | Kun kansellerte markedsføringstillatelser |
+| Antall tillatelser | 3 (alle kansellert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Topotekan er en topoisomerase I-hemmer. Den stabiliserer Top1-DNA-spaltelses komplekset, som produserer enkeltstrengbrudd i DNA som konverteres til dødelige dobbeltstrengbrudd under S-fase replikasjon, noe som driver apoptose i raskt prolifererende celler. Denne cytotoksiske mekanismen gir bred antitumor aktivitet som plausibelt kan brukes på brystkreftceller — spesielt den høyt prolifererende trippelnegativ brystkreft (TNBC)-subtypen, som er støttet av preklinisk arbeid i bevispapmappen (f.eks. TFDP1/topotekan-målstudier).
+Data om virkningsmekanisme (MOA) fra legemiddeldatabasen er ikke tilgjengelig i de innsamlede dataene. Topotecan er imidlertid kjent som en topoisomerase I-hemmer. Den forårsaker DNA-brudd i celler som deler seg raskt, og effekten er dokumentert ved livmorhalskreft og småcellet lungekreft.
 
-Brystkreft er **ikke** blant topotekans nåværende godkjente indikasjoner (godkjente bruksområder er eggstokkkreften, livmorhalskreften og småcellet lungekreft). Den kliniske studie- og litteraturposten som vises her — som spenner fra fase II-studier i 1997 til prekliniske mekanistiske studier i 2025 — indikerer at dette er et **langvarig off-label bruksmønster** snarere enn en genuint ny omallokerings hypotese. En høygradert studie (NCT02282020, fase 3, n=266) ble flagget av bevisprosessen som å ha en forkortet tittel som krever manuell verifisering, da dens sammendrag beskriver en olaparib-vs-kjemoterapistudie i gBRCA-mutert **eggstokk**kreften snarere enn brystkreft spesifikt.
+Prekliniske data tyder på at enkelte brystkreftsubtyper, særlig MYC-drevne og trippelnegative, kan være følsomme for TOP1-hemming gjennom opphopning av R-løkker og replikasjonsstress (PMID 37987734). Samtidig transporteres topotecan av effluks-transportøren BCRP/ABCG2, som er uttrykt i brystkreftceller og kan gi resistens og begrense effekten (PMID 25236865, PMID 10930538).
+
+Klinisk støtte er begrenset. En fase 2-studie av høydose topotecan i kombinasjonsregime ble avsluttet, og en fase 2-studie fra 1997 med kontinuerlig infusjon ved avansert brystkreft og ikke-småcellet lungekreft fant ingen tegn til økt effekt. Prediksjonen bør derfor regnes som et forskningsspørsmål, ikke en etablert behandlingsmulighet.
 
 ---
 
-## Bevis fra kliniske studier
+## Evidens fra kliniske studier
 
-| Studienummer | Fase | Status | Rekruttering | Viktige funn |
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT02282020](https://clinicaltrials.gov/study/NCT02282020) | Fase 3 | Avsluttet | 266 | Olaparib vs. legens valgte kjemoterapibehandling ved platinasensitiv tilbakevendende gBRCA-mutert eggstokkkreften — høyeste klassebevis i pakken, men populasjonen trenger verifisering (tittel forkortet; sannsynligvis eggstokkkreften, ikke brystkreft, kohort) |
-| [NCT00006032](https://clinicaltrials.gov/study/NCT00006032) | Fase 2 | Avsluttet | N/A | TIME-regime (topotekan + ifosfamid/mesna + etoposid) fulgt av autolog stamcelletransplantasjon ved metastatisk brystkreft |
-| [NCT04739800](https://clinicaltrials.gov/study/NCT04739800) | Fase 2 | Aktivt, ikke rekrutterer | 120 | Durvalumab + olaparib + cediranib (topotekan-inneholdende arm) vs. standard kjemoterapibehandling ved platinaresistent tilbakevendende eggstokk-/bukhinne-/eggleder kreften |
-| [NCT02419495](https://clinicaltrials.gov/study/NCT02419495) | Fase 1 | Avsluttet | 221 | Selinexor kombinert med standard kjemoterapibehandling/immunoterapiregiuser ved avanserte malignitetene; sikkerhets fokusert, begrenset direkte relevans |
-| [NCT04279509](https://clinicaltrials.gov/study/NCT04279509) | N/A | Ukjent | 35 | Pasient-avledet organoid høydatagjennomstrømnings legemiddelscreening assay for refraktær solide svulster; preklinisk legemiddel-følsomhetsplattform, ikke en behandlings effektivitetsstudie |
+| [NCT00006032](https://clinicaltrials.gov/study/NCT00006032) | Fase 2 | Avsluttet | Ikke oppgitt | Høydose topotecan, ifosfamid/mesna og etoposid (TIME) etterfulgt av autolog stamcellestøtte ved metastatisk brystkreft. Direkte relevant, men avsluttet, og overførbarheten er begrenset |
+| [NCT02419495](https://clinicaltrials.gov/study/NCT02419495) | Fase 1 | Avsluttet | 221 | Sikkerhetsstudie av selinexor med flere standard kjemoterapi-/immunterapiregimer; topotecan er bare én av flere partnere |
+| [NCT06840886](https://clinicaltrials.gov/study/NCT06840886) | Fase 1 | Rekrutterer | 426 | Førstegangs dose-eskaleringsstudie av PHST001 ved avanserte solide svulster; topotecans rolle er uklar, ingen effektdata ennå |
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [10362325](https://pubmed.ncbi.nlm.nih.gov/10362325/) | 1999 | Fase II-studie | American Journal of Clinical Oncology | CALGB fase II-studie av topotekan ved avansert brystkreft tidligere behandlet med en kjemoterapilinje |
-| [11455218](https://pubmed.ncbi.nlm.nih.gov/11455218/) | 2001 | Pilot/Kohort | Onkologie | Topotekan som primær kjemoterapibehandling for brystkreft hjernemetastaser |
-| [9413954](https://pubmed.ncbi.nlm.nih.gov/9413954/) | 1997 | Kohort/Klinisk studie | British Journal of Cancer | Kontinuerlig infusjons topotekan ved avansert brystkreft og ikke-småcellet lungekreft; ingen bevis for økt effektivitet vs. standard dosering |
-| [21514634](https://pubmed.ncbi.nlm.nih.gov/21514634/) | 2011 | RCT (fase 2) | Gynecologic Oncology | Lapatinib + topotekan overvinner BCRP/P-gp-mediiert resistens ved platinaresistent eggstokk-/bukhinne kreften — mekanistisk relevant for brystkreft resistens protein biologi |
-| [9445630](https://pubmed.ncbi.nlm.nih.gov/9445630/) | 1997 | Oversikt | Gynäkologisch-geburtshilfliche Rundschau | Oversikt over nye cytotoksiske stoffer (inkludert topotekan) ved brystkreft terapi |
-| [40300683](https://pubmed.ncbi.nlm.nih.gov/40300683/) | 2025 | Preklinisk | International Journal of Biological Macromolecules | TFDP1 identifisert som et terapeutisk mål for topotekan ved trippelnegativ brystkreft |
-| [37987734](https://pubmed.ncbi.nlm.nih.gov/37987734/) | 2023 | Preklinisk/Mekanistisk | Cancer Research | Topoisomerase I-hemming fremmer syntetisk dødelighet ved MYC-drevet brystkreft via R-loop akkumulasjon |
-| [26623560](https://pubmed.ncbi.nlm.nih.gov/26623560/) | 2015 | Preklinisk | Oncotarget | Metronomisk topotekan + pazopanib viser potent effektivitet i TNBC prekliniske modeller |
-| [31408695](https://pubmed.ncbi.nlm.nih.gov/31408695/) | 2019 | Preklinisk | Pharmacological Research | Daidzein forbedrer topotekan antikrefts effekt og reverserer BCRP-mediiert legemiddelresistens ved brystkreft |
-| [39657238](https://pubmed.ncbi.nlm.nih.gov/39657238/) | 2024 | Preklinisk | ACS Applied Materials & Interfaces | Biomimetisk topotekan-gen nanopartikler for kombinasjons terapi av metastatisk brystkreft |
+| [9413954](https://pubmed.ncbi.nlm.nih.gov/9413954/) | 1997 | Fase 2-studie | British Journal of Cancer | Kontinuerlig infusjon av topotecan ved avansert brystkreft og ikke-småcellet lungekreft: ingen tegn til økt effekt |
+| [11455218](https://pubmed.ncbi.nlm.nih.gov/11455218/) | 2001 | Pilotstudie | Onkologie | Topotecan som primær kjemoterapi ved hjernemetastaser hos pasienter med brystkreft |
+| [9425961](https://pubmed.ncbi.nlm.nih.gov/9425961/) | 1997 | Oversikt | Seminars in Oncology | Mulig rolle for topotecan ved avansert brystkreft |
+| [37987734](https://pubmed.ncbi.nlm.nih.gov/37987734/) | 2023 | Preklinisk | Cancer Research | TOP1-hemming i MYC-drevet kreft gir opphopning av R-løkker og syntetisk letalitet |
+| [10472342](https://pubmed.ncbi.nlm.nih.gov/10472342/) | 1999 | Preklinisk (xenograft) | Anticancer Research | Sammenligning av doksorubicin, cisplatin, irinotekan og topotecan i xenografter fra kolon-, lunge- og brystkreft |
+| [10930538](https://pubmed.ncbi.nlm.nih.gov/10930538/) | 2000 | Preklinisk | Biochemical Pharmacology | BCRP-uttrykk i topotecanresistente brystkreftceller |
+| [25236865](https://pubmed.ncbi.nlm.nih.gov/25236865/) | 2015 | Oversikt | The AAPS Journal | BCRP/ABCG2 transporterer topotecan og kan begrense effekten |
+| [15836850](https://pubmed.ncbi.nlm.nih.gov/15836850/) | 2005 | Preklinisk | J Surg Res | Effekt av kvercetin på topotecans cytotoksisitet i MCF-7- og MDA-MB-231-celler |
+| [39657238](https://pubmed.ncbi.nlm.nih.gov/39657238/) | 2024 | Preklinisk | ACS Applied Materials & Interfaces | Nanopartikler med topotecan og antisense-oligonukleotid mot metastatisk brystkreft |
+| [9445630](https://pubmed.ncbi.nlm.nih.gov/9445630/) | 1997 | Oversikt | Gynakol Geburtshilfliche Rundsch | Nye legemidler ved brystkreft |
 
 ---
 
-## Markedsinformasjon Norge
+## Informasjon om det norske markedet
 
-Topotekan har for tiden **ingen markedsføringsautorisasjoner i Norge** (0 lisenser registrert; markedsstatus: ikke markedsført).
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/001192 | Topotecan Hospira (kansellert) | Ikke oppgitt | Livmorhalskreft, småcellet lungekreft |
+| EMEA/H/C/000123 | Hycamtin (kansellert) | Ikke oppgitt | Eggstokkreft, livmorhalskreft, småcellet lungekreft |
+| EMEA/H/C/002282 | Potactasol (kansellert) | Ikke oppgitt | Livmorhalskreft, småcellet lungekreft |
 
 ---
 
 ## Cytotoksisitet
 
-| Element | Innhold |
-|---------|---------|
-| Cytotoksisitets klassifikasjon | Konvensjonell cytotoksisk (topoisomerase I-hemmer, camptotecin-derivat) |
-| Myelosuppresjon risiko | Høy — dosisbegrensende nøytropeni og trombocytopeni rapporteres konsekvent som de viktigste toksisitetene på tvers av studier i bevispapmappen (f.eks. cisplatin-refraktær kimcelltumorstudie, PMID 8617580) |
-| Emetogenisitets klassifikasjon | Lav til moderat (typisk for topoisomerase I-hemmer klasse) |
-| Overvåkings elementer | CBC med differensial (nøytrofil/platelet nadir), nyrefunksjon (renalt utskilt), leverfunksjon |
-| Håndteringsbeskyttelse | Må følge regler for håndtering av cytotoksiske legemidler (farlige legemiddel forholdsregler under preparering og administrasjon) |
+| Punkt | Innhold |
+|------|------|
+| Cytotoksisitetsklassifisering | Konvensjonelt cytotoksisk (topoisomerase I-hemmer, kamptotecin-derivat) |
+| Risiko for myelosuppresjon | Høy (benmargssuppresjon er den viktigste dosebegrensende toksisiteten) |
+| Emetogenisitet | Lav til moderat |
+| Overvåkingspunkter | Fullstendig blodstatus med differensialtelling, lever- og nyrefunksjon |
+| Håndteringsbeskyttelse | Må følge gjeldende regler for håndtering av cytotoksiske legemidler |
+
+Kunnskapsgrafen for legemiddel–sykdom nevner trombocytopeni, nøytropeni, agranulocytose, anemi, interstitiell lungesykdom, diaré, nedsatt nyrefunksjon og lungefibrose som tilstander med kontraindikasjonskobling. Se preparatomtalen for detaljerte advarsler.
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegget for sikkerhetsinformasjon.
+- **Kontraindikasjoner fra kunnskapsgrafen (ikke fra preparatomtale):** trombocytopeni, nøytropeni, agranulocytose, anemi (inkludert makrocytær anemi), interstitiell lungesykdom, diarésykdom, nedsatt nyrefunksjon, lungefibrose og postinflammatorisk lungefibrose.
+- **Legemiddelinteraksjoner:** 100 interaksjoner er funnet totalt. Blant de som er vist, er de viktigste:
+  - **Alvorlige (Major):** deferipron, samarium (153Sm) lexidronam
+  - **Moderate:** eliglustat, rolapitant, jobenguan (I-131), palifermin, strontiumklorid Sr-89, ibritumomab tiuxetan
+  - **Milde:** levofloksacin, koffein
+  - Flere andre (blant annet morfin, omeprazol, ondansetron, deksametason) har uklart interaksjonsnivå.
+
+Advarsler og kontraindikasjoner fra preparatomtalen mangler i de innsamlede dataene. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Fortsett med sikringsmekanismer**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Bevisnivået er L1 basert på antall studier, men den høyeste graderte studien (NCT02282020, fase 3) har en uverifisert pasientpopulasjon, og den overordnede kliniske/litteraturposten viser at brystkreft bruk er et langvarig off-label mønster snarere enn en ny, høy-pålitelighets hypotese — noe som garanterer forsiktig progresjon snarere enn en full «Go».
+TxGNN-scoren er svært høy, men den kliniske støtten for brystkreft er svak: én avsluttet fase 2-studie med høydose kombinasjon, en fase 2-studie uten tegn til økt effekt og fase 1-studier der topotecan ikke er hovedmiddel. I tillegg er det mulig BCRP-mediert resistens, og alle norske tillatelser er kansellert.
 
-**For å fortsette, kreves følgende:**
-- TFDA/produktetikett advarsler og kontraindikasjoner (for tiden et blokkerende datagap; sikkerhetsvurdering kan ikke fortsette uten dette)
-- Bekreftet legemiddel mekanisme-av-handling dokumentasjon fra DrugBank (høy-alvorlighetsgrad gap som påvirker mekanistisk-relevans analyse)
-- Manuell verifisering av NCT02282020s faktiske pasientpopulasjon (tittel antyder eggstokkkreften, ikke brystkreft)
-- Klarifikasjon av Norge marked/regulatorisk bane, siden topotekan for tiden ikke er markedsført der
-- Prioritert, sykdomsspesifikk litteraturkurering for å skille brystkreft-relevante poster fra det bredere topotekan litteratursettet
+**For å gå videre kreves følgende:**
+- Sikkerhetsdata fra preparatomtalen (advarsler og kontraindikasjoner), som er en blokkerende datamangel
+- Detaljerte data om virkningsmekanisme fra legemiddeldatabasen
+- Kontrollerte kliniske studier som tester topotecan spesifikt ved brystkreft, gjerne i utvalgte subtyper (MYC-drevet, trippelnegativ)
+- Vurdering av BCRP-uttrykk som mulig prediktiv biomarkør
+- Avklaring av tilgjengelighet i Norge, siden alle tillatelser er kansellert
 
+---
+
+*Merknad om øvrige prediksjoner:* Rangene 2–10 (kjønnscelletumor hos voksne og ulike mønstre av testikulær plommesekksvulst) har enten indirekte evidens (L2, hovedsakelig fra pediatrisk nevroblastom, retinoblastom og gliom) eller ingen studier (L5). De er ikke vurdert i detalj her.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

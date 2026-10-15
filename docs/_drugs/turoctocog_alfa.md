@@ -2,7 +2,7 @@
 layout: default
 title: Turoctocog Alfa
 parent: Kun modellprediksjon (L5)
-nav_order: 373
+nav_order: 438
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,93 +29,92 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Turoctocog alfa: Fra faktor VIII-erstatning til primær utgivelsesforstyrring av blodplater
+# Turoctocog alfa: Fra hemofili A til primær frigjøringsforstyrrelse i blodplater
 
-## Sammenfatting i en setning
+## Oppsummering i én setning
 
-Turoctocog alfa er et rekombinant faktor VIII-produkt (FVIII); ifølge bevisepakkens egne mekanistiske merknader er dens etablerte terapeutiske rolle faktor VIII-erstatning (f.eks. faktor VIII-mangel/hemofili A), selv om denne bevisepakken ikke inneholder bekreftet originalindikasjon eller virkningsmekanismedata. TxGNNs toppprediksjon er **Primær utgivelsesforstyrring av blodplater**, men **0 kliniske forsøk** og **0 publikasjoner** støtter foreløpig denne retningen, og modellens egen begrunnelse angir at den mekanistiske koblingen er svak (en blodplategranuløs utgivelsesdefekt, ikke en koagulasjonsfaktor-veibanedefekt).
+Turoctocog alfa er en rekombinant faktor VIII-erstatning (B-domene-avkortet), opprinnelig brukt til behandling av **hemofili A**.
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **primær frigjøringsforstyrrelse i blodplater**, men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen er kun modellbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Original indikasjon | Ikke spesifisert i bevisepakken (datakløft). Rasjonalitetsmerknader beskriver stoffet som rekombinant FVIII, vanligvis brukt for faktor VIII-mangel (hemofili A) |
-| Predikert ny indikasjon | Primær utgivelsesforstyrring av blodplater |
-| TxGNN-prediksjonsscore | 99.99% |
-| Bevisnivå | L5 |
-| Norsk markedsstatus | Ikke markedsført (Ikke markedsført) |
-| Antall godkjennelser | 0 |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Hemofili A |
+| Predikert ny indikasjon | Primær frigjøringsforstyrrelse i blodplater (primary release disorder of platelets) |
+| TxGNN-prediksjonsscore | 99,99 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun kansellerte godkjenninger (ikke markedsført) |
+| Antall godkjenninger | 1 (kansellert) |
 | Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Foreløpig er det ikke tilgjengelig detaljert virkningsmekanismedata for turoctocog alfa i denne bevisepakken (virkningsmekanisme = datakløft). Basert på de mekanistiske rasjonalitetsmerknader som er knyttet til hver prediksjon, forstås stoffet som et rekombinant faktor VIII-erstatningsprodukt (FVIII), hvis etablert farmakologi opererer i sekundær hemostase-veibanen (trombingenerering).
+Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er turoctocog alfa en rekombinant, B-domene-avkortet faktor VIII som erstatter manglende faktor VIII ved hemofili A, og effekten er dokumentert for denne indikasjonen.
 
-Den topprankede predikerte indikasjonen, primær utgivelsesforstyrring av blodplater, innebærer en defekt i blodplategranuløs utgivelse — en **primær hemostase**-mekanisme som ikke har noe å gjøre med koagulasjonsfaktor-kaskaden som FVIII virker på. Bevisepakkens egen `repurposing_rationale.mechanistic_link`-felt angir dette eksplisitt: *"為血小板顆粒釋放機制缺陷，非凝血因子路徑異常，FVIII 補充無直接治療機轉"* (en blodplategranuløs utgivelsesdefekt, ikke en koagulasjonsfaktor-veibaneanomali; FVIII-supplemenering har ingen direkte terapeutisk mekanisme).
+Primær frigjøringsforstyrrelse i blodplater er en medfødt defekt i selve blodplatefunksjonen (sekresjon), ikke en mangel på faktor VIII. Det foreligger derfor ingen klar mekanistisk begrunnelse. Den svært høye TxGNN-scoren (0,9999) er en ren beregningsmessig prediksjon og er ikke underbygget av studier eller litteratur. Sannsynlig forklaring er felles tilknytning til blødningssykdommer i kunnskapsgrafen, snarere enn en reell terapeutisk sammenheng.
 
-Dette er et viktig forbehold: til tross for en meget høy TxGNN-likhetscore (99.99%), argumenterer den mekanistiske merknad for denne spesifikke prediksjonen **mot** biologisk plausibilitet snarere enn for den. Dette mønsteret gjentas over de fleste av de 10 beste prediksjoner for dette stoffet (se nedenfor) — flere er blodplate-funksjon eller blodplate-antall-forstyrrelser som ikke er relatert til FVIII-veibanen, og en (trombotisk trombocytopeni purpura) er flagget som en potensiell **sikkerhetsbetenkeligiet i motsatt retning** (FVIII/vWF-veibanen er patologisk forhøyet i TTP; ytterligere FVIII-supplemenering kunne teoretisk forverring trombotisk risiko). Bare rangering 5 (ervervet koagulasjonsfaktor-mangel) viser en plausibel mekanistisk overlapping, og selv det er kvalifisert som svakt på grunn av den typiske tilstedeværelsen av FVIII-inhibitorer i denne befolkningen, der omgåelsesmidler snarere enn FVIII-erstatning er standardbehandling.
+### Andre predikerte indikasjoner (alle L5, Hold)
 
----
-
-## Klinisk forsøksbevis
-
-Foreløpig ingen relaterte kliniske forsøk registrert
-
----
-
-## Litteraturbevis
-
-Foreløpig ingen relatert litteratur tilgjengelig
-
----
-
-## Norsk markedsinformasjon
-
-Dette stoffet er foreløpig ikke markedsført i Norge (Ikke markedsført); ingen autorisasjonsjournaler er tilgjengelig i bevisepakken.
+| Rang | Sykdom | TxGNN-score | Vurdering |
+|------|------|------|------|
+| 2 | Pseudo-von Willebrand-sykdom | 99,99 % | Defekten ligger i GPIbα (gain-of-function); FVIII løser ikke dette. Svak, indirekte VWF–FVIII-kobling, spekulativ. |
+| 3 | Glanzmanns trombasteni | 99,99 % | Mangel på integrin αIIbβ3; standardbehandling er blodplatetransfusjon eller rekombinant FVIIa. |
+| 4 | Scotts syndrom | 99,95 % | Svikt i fosfatidylserin-eksponering (TMEM16F/ANO6). Teoretisk kobling via tenase-kompleks, men defekten er i membranoverflaten, ikke FVIII-mengde. |
+| 5 | Ervervet koagulasjonsfaktormangel | 99,95 % | Mekanistisk mest plausibel, men ervervet hemofili skyldes ofte autoantistoffer (inhibitorer) som begrenser nytten. Begrepet er bredt, og produktet er ikke lenger markedsført. |
+| 6 | Blødningsdiatese ved kollagenreseptordefekt | 99,91 % | Defekt i blodplatenes kollagenreseptor, uavhengig av FVIII. |
+| 7 | Blødningsforstyrrelse ved konstitusjonell trombocytopeni | 99,91 % | Defekt i antall/produksjon av blodplater; FVIII hever ikke blodplatetallet. |
+| 8 | «Flood factor deficiency» | 99,61 % | Uklart eller ikke-standard sykdomsnavn; enheten må verifiseres. |
+| 9 | Trombotisk trombocytopenisk purpura (TTP) | 99,54 % | ADAMTS13-mangel; FVIII kan øke trombaserisikoen. Potensiell sikkerhetsbekymring. |
+| 10 | Arvelig trombocytose med transversell lemdefekt | 99,52 % | Ingen kjent FVIII-relatert patofysiologi; prokoagulant middel kan være uønsket. |
 
 ---
 
-## Andre predikerte indikasjoner (ikke prioritert)
+## Klinisk studieevidens
 
-For transparens er de gjenværende 10 beste TxGNN-prediksjoner og deres mekanistiske begrunnelse oppsummert nedenfor. Alle bærer bevisnivå L5 (modellprediksjon bare) uten støttende forsøk eller litteratur, og alle er scoret «Hold».
-
-| Rangering | Predikert indikasjon | Score | Mekanistisk vurdering (per bevisepakken) |
-|-----------|---------------------|-------|------------------------------------------|
-| 2 | Pseudo-von Willebrand-sykdom | 99.99% | Blodplate GPIbα gain-of-function-defekt, ikke FVIII/vWF-mangel — svak kobling |
-| 3 | Glanzmann-trombasteni | 99.99% | Blodplate GPIIb/IIIa-reseptor-defekt, ikke koagulasjonsfaktor-mangel — ikke relatert |
-| 4 | Scott-syndrom | 99.95% | Blodplate-membranscramblase-defekt, ikke FVIII-mangel — ikke relatert |
-| 5 | Ervervet koagulasjonsfaktor-mangel | 99.95% | Plausibel overlapping med ervervet hemofili A, men inhibitorer krever vanligvis omgåelsesmidler snarere enn kun FVIII — moderat men ubekreftet |
-| 6 | Blødningsforstyrring på grunn av kollagenreseptor-defekt | 99.91% | Blodplate GPVI (primær hemostase) defekt, forskjellig fra FVIII-rolle i sekundær hemostase — ikke relatert |
-| 7 | Blødningsforstyrring på grunn av konstitusjonell trombocytopeni | 99.91% | Blodplate-antall/produksjon-defekt; FVIII påvirker ikke blodplate-generering — ikke relatert |
-| 8 | «Flood-faktor-mangel» | 99.61% | Sykdomsetikett uklar/mulig databasenavngvingsgjenstand; intet grunnlag for mekanistisk vurdering |
-| 9 | Trombotisk trombocytopeni purpura | 99.54% | FVIII/vWF-akse allerede patologisk forhøyet i TTP; ytterligere FVIII kunne teoretisk forverring trombotisk risiko — potensielt sikkerhetsbetenkeligiet |
-| 10 | Arvelig trombocytose med tversgående lemdefekt | 99.52% | Sjelden medfødt syndrom knyttet til hematopoetiske/skjelettgener, ikke FVIII-veibane — ikke relatert |
+Det er foreløpig ingen relaterte kliniske studier registrert.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+Det er foreløpig ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Konklusjon og neste trinn
+## Markedsinformasjon for Norge
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/002719 | NovoEight | Ikke oppgitt | Hemofili A (status: kansellert) |
+
+---
+
+## Sikkerhetsvurderinger
+
+Se pakningsvedlegget for sikkerhetsinformasjon. Data om advarsler og kontraindikasjoner fra pakningsvedlegget er ikke innhentet, og ingen legemiddelinteraksjoner ble funnet i dataene som er samlet inn for denne rapporten.
+
+Et sikkerhetsmoment er likevel verdt å merke seg: Ved trombotisk trombocytopenisk purpura (TTP) kan tilførsel av faktor VIII potensielt øke trombose­risikoen i en allerede protrombotisk tilstand.
+
+---
+
+## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Alle 10 topprankede prediksjoner er bevisnivå L5 (modellprediksjon bare), uten støttende kliniske forsøk eller litteratur. Enda viktigere argumenterer bevisepakkens egen mekanistiske begrunnelse mot biologisk plausibilitet for 8 av de 10 kandidater (blodplate-funksjon/antall-forstyrrelser som ikke er relatert til FVIII-koagulasjonveibanen), og flagger en kandidat (TTP) som en potensiell sikkerhetsbetenkeligiet i motsatt terapeutisk retning.
+Alle predikerte indikasjoner har kun modellbasert støtte (L5), uten kliniske studier eller litteratur. Den predikerte hovedindikasjonen er en blodplatedefekt som ikke kan korrigeres med faktor VIII, og produktet er i tillegg ikke lenger markedsført i Norge.
 
-**For å fortsette kreves følgende:**
-- TFDA/regulatorisk merkdata (advarsler, kontraindikasjoner) — foreløpig en blokkerande datakløft (DG001)
-- Bekreftet originalindikasjon og virkningsmekanisme for turoctocog alfa (DG002)
-- Hvis man forfølger rangering 5 (ervervet koagulasjonsfaktor-mangel) som den mest mekanistisk plausible kandidaten, dedikert litteratur/forsøkssøk spesifikk for ervervet hemofili A og inhibitorstatus
-- Uavhengig farmakologisk gjennomgang før noen videre evalueringsstadium, gitt den selvmotsigende naturen til det nåværende prediksjonssettet
-
+**For å gå videre kreves følgende:**
+- Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Verifisering av uklare sykdomsenheter (f.eks. «flood factor deficiency»)
+- Nærmere vurdering av «ervervet koagulasjonsfaktormangel» som den mest plausible kandidaten, inkludert betydningen av inhibitorer
+- Avklaring av forholdet til gjeldende markedsstatus (kansellert godkjenning) og tilgjengelige administrasjonsveier
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

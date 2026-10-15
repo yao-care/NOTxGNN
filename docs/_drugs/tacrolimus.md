@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tacrolimus
-parent: Høy evidens (L1-L2)
-nav_order: 335
-evidence_level: L1
+parent: Kun modellprediksjon (L5)
+nav_order: 395
+evidence_level: L5
 indication_count: 3
 ---
 
 # Tacrolimus
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **3** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,109 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Tacrolimus: Fra atopisk dermatitt (topisk) til seboreisk dermatitt
+# Tacrolimus: Fra transplantasjonsavstøtning og atopisk dermatitt til seboreisk dermatitt
 
 ## Oppsummering i én setning
 
-> Tacrolimus er en kalsineurin-hemmer hvis topiske salveform (Protopic) er en etablert behandling for atopisk dermatitt.
-> TxGNN-modellen predikerer at den også kan være effektiv for **seboreisk dermatitt**,
-> med **2 kliniske studier** (begge direkte på tacrolimus ved seboreisk dermatitt i ansiktet) og **20 publikasjoner** som for tiden støtter denne retningen.
+Tacrolimus er en kalsineurinhemmer som opprinnelig brukes til å forebygge avstøtning etter organtransplantasjon (lever og nyre) og til å behandle atopisk dermatitt.
+TxGNN-modellen predikerer at legemidlet kan være effektivt ved **seboreisk dermatitt**,
+og dette støttes foreløpig av **2 kliniske studier** (inkludert én fullført fase 3-studie) og **flere publikasjoner** om topisk bruk.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Original indikasjon | Ikke registrert som et strukturert felt i denne evidenspakken (ingen norsk pakningsvedlegg tilgjengelig); ifølge evidenspakkens egen begrunnelse for ombruk, er tacrolimus-salve allerede en etablert topisk behandling for atopisk dermatitt |
+| Opprinnelig indikasjon | Avstøtning av transplantat (graft rejection) |
 | Predikert ny indikasjon | Seboreisk dermatitt |
-| TxGNN prediksjons-skår | 99.26% |
-| Bevisnivå | L1 |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Fortsett med forholdsregler |
+| TxGNN-prediksjonsscore | 99,26 % |
+| Evidensnivå | L1 (jf. merknad under) |
+| Markedsstatus i Norge | Kun kansellerte godkjenninger |
+| Antall godkjenninger | 5 (alle kansellert) |
+| Anbefalt beslutning | Proceed with Guardrails (fortsett med forhåndsregler) |
+
+*Merknad om evidensnivå:* Datagrunnlaget angir L1. Strengt tatt er det bare én fullført fase 3-studie (NCT02004860) pluss en fase 4-studie for seboreisk dermatitt, så nivået bør tolkes med forsiktighet.
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Foreløpig er detaljerte data om virkningsmekanisme (`original_moa`) ikke tilgjengelige i denne evidenspakken. Basert på informasjonen som er tilgjengelig, er tacrolimus en **kalsineurin-hemmer** — en topisk immunomodulatorklasse allerede godkjent for inflammatorisk hudsykdom (atopisk dermatitt). Dens mekanisme virker ved å blokkere kalsineurin-mediiert T-celle-aktivering, som nedregulerer den inflammatoriske cytokinkaskaden.
+Detaljerte data om virkningsmekanisme fra legemiddeldatabasen er ikke tilgjengelige. Basert på kjent informasjon hemmer tacrolimus kalsineurin, noe som blokkerer NFAT-avhengig T-celleaktivering og produksjonen av IL-2 og andre proinflammatoriske cytokiner.
 
-Seboreisk dermatitt deler nøkkelpathofysiologiske trekk med atopisk dermatitt: det er en kronisk inflammatorisk hudsykdom med en T-celle-mediiert inflammatorisk komponent, og den involverer også en unormal immunrespons på *Malassezia*-gjær-kolonisering. Siden tacrolimus' anti-inflammatoriske virkning ikke er spesifikk for noen enkelt antigen-utløser, gir dets effektivitet ved atopisk dermatitt en mekanistisk plausibel begrunnelse for utvidelse til seboreisk dermatitt.
+Seboreisk dermatitt er en kronisk, relapserende betennelsestilstand i huden, med en T-cellemediert og cytokindrevet komponent som delvis utløses av gjær av slekten *Malassezia*. Atopisk dermatitt, som tacrolimus allerede er godkjent for, har en tilsvarende betennelsesmekanisme. Koblingen er derfor mekanistisk plausibel.
 
-Dette blir videre forsterket av det faktum at to andre TxGNN-predikerte indikasjoner i denne evidenspakken — **generalisert dermatitt** (rangering 3, også L1 bevis) og **parapsoriasis/pityriasis lichenoides** (rangering 2, L4 bevis) — klynges rundt den samme T-celle-mediierte inflammatoriske mekanismen, noe som antyder at modellen konsekvent fanger opp tacrolimus' kalsineurin-inhibitoriske anti-inflammatoriske virkning på tvers av en familie av relaterte dermatosa i stedet for å flagge et isolert, mekanistisk ikke-relatert signal.
+Topisk bruk gir i tillegg antiinflammatorisk effekt uten hudatrofien som forbindes med langvarig bruk av kortikosteroider, noe som er relevant ved vedlikeholdsbehandling i ansiktet.
 
 ---
 
-## Bevis fra kliniske studier
+## Klinisk studieevidens
 
-| Studie-nummer | Fase | Status | Innrullering | Nøkkelfunn |
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT02004860](https://clinicaltrials.gov/study/NCT02004860) | Fase 3 | Fullført | 120 | Evaluerte tacrolimus-salve (Protopic) som vedlikeholdsbehandling for alvorlig seboreisk dermatitt i ansiktet, med mål om å redusere tilbakefallsfrekvens og forlenge remisjon sammenlignet med topiske kortikosteroider |
-| [NCT01591070](https://clinicaltrials.gov/study/NCT01591070) | Fase 4 | Fullført | 104 | Vurderte proaktiv anvendelse av 0,1% tacrolimus-salve en eller to ganger per uke for å opprettholde remisjon og redusere forverring ved seboreisk dermatitt i ansiktet hos voksne |
+| [NCT02004860](https://clinicaltrials.gov/study/NCT02004860) | Fase 3 | Fullført | 120 | Vedlikeholdsbehandling med tacrolimussalve (Protopic) ved alvorlig seboreisk dermatitt i ansiktet hos voksne, for å redusere residiv. Resultater er ikke oppgitt i datagrunnlaget. |
+| [NCT01591070](https://clinicaltrials.gov/study/NCT01591070) | Fase 4 | Fullført | 104 | Proaktiv bruk av 0,1 % tacrolimussalve én til to ganger i uken for å holde seboreisk dermatitt i ansiktet i remisjon. Resultater er ikke oppgitt. |
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Nøkkelfunn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [26512166](https://pubmed.ncbi.nlm.nih.gov/26512166/) | 2015 | RCT | Annals of Dermatology | Vedlikeholdsbehandling med 0,1% tacrolimus-salve reduserer tilbakefall ved seboreisk dermatitt i ansiktet, og utvider den intermitterende lavdose TCI-strategien som er bevist ved atopisk dermatitt |
-| [33010323](https://pubmed.ncbi.nlm.nih.gov/33010323/) | 2021 | RCT | J Am Acad Dermatol | Multikenter, dobbeltblind RCT som sammenligner tacrolimus 0,1% mot ciclopirox olamine 1% for langsiktig vedlikeholdsbehandling av alvorlig seboreisk dermatitt i ansiktet |
-| [22101215](https://pubmed.ncbi.nlm.nih.gov/22101215/) | 2012 | RCT | J Am Acad Dermatol | Enkeltblind RCT som sammenligner hydrokortison 1% mot tacrolimus 0,1% salve hos voksne med seboreisk dermatitt i ansiktet; støtter tacrolimus' anti-inflammatoriske og fungisidale egenskaper |
-| [24171300](https://pubmed.ncbi.nlm.nih.gov/24171300/) | 2013 | RCT | Annals of Parasitology | Sammenlignet sertakonazol 2% krem mot tacrolimus 0,03% krem effektivitet hos 60 pasienter med seboreisk dermatitt |
-| [37067129](https://pubmed.ncbi.nlm.nih.gov/37067129/) | 2023 | RCT | Indian J Dermatol Venereol Leprol | Sammenlignet oral itrakonazol (2 dager) pluss topisk tacrolimus mot kun topisk tacrolimus for vedlikeholdsbehandling av seboreisk dermatitt i Vietnam |
-| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | Systematisk oversikt | Am J Clin Dermatol | Systematisk oversikt over topiske antifungale, keratolitiske og kortikosteroid/TCI-behandlinger for seboreisk dermatitt i ansiktet |
-| [39219446](https://pubmed.ncbi.nlm.nih.gov/39219446/) | 2024 | Cochrane SR/NMA | Clin Exp Allergy | Nettverksmetaanalyse av topiske anti-inflammatoriske behandlinger (inkludert kalsineurin-hemmere) for eksem og relaterte inflammatoriske dermatosa |
-| [19222250](https://pubmed.ncbi.nlm.nih.gov/19222250/) | 2009 | Oversikt | Am J Clin Dermatol | Gjennomgår patofysiologi, sikkerhet og effektivitet av topiske kalsineurin-hemmere (tacrolimus/pimekrolimus) spesielt ved seboreisk dermatitt |
-| [12833030](https://pubmed.ncbi.nlm.nih.gov/12833030/) | 2003 | Åpen pilot-studie | J Am Acad Dermatol | Pilotstudie av 18 pasienter med seboreisk dermatitt behandlet med 0,1% tacrolimus i 28 dager; 61% oppnådde fullstendig clearance |
-| [19213227](https://pubmed.ncbi.nlm.nih.gov/19213227/) | 2009 | Oversikt | J Drugs Dermatol | Gjennomgår gjeldende status og terapeutiske horisonter for behandling av seboreisk dermatitt i ansiktet |
+| [26512166](https://pubmed.ncbi.nlm.nih.gov/26512166/) | 2015 | Klinisk studie | Annals of Dermatology | Vedlikeholdsbehandling av seboreisk dermatitt i ansiktet med 0,1 % tacrolimussalve |
+| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | Systematisk oversikt | Am J Clin Dermatol | Topisk behandling av seboreisk dermatitt i ansiktet |
+| [19222250](https://pubmed.ncbi.nlm.nih.gov/19222250/) | 2009 | Oversikt | Am J Clin Dermatol | Topiske kalsineurinhemmere er et trygt alternativ ved seboreisk dermatitt, og blokkerer den inflammatoriske kaskaden |
+| [24171300](https://pubmed.ncbi.nlm.nih.gov/24171300/) | 2013 | Klinisk studie | Annals of Parasitology | Sammenligning av sertakonazol 2 % og tacrolimus 0,03 % krem hos 60 pasienter med seboreisk dermatitt |
+| [19213227](https://pubmed.ncbi.nlm.nih.gov/19213227/) | 2009 | Oversikt | J Drugs Dermatol | Status og terapeutiske muligheter ved seboreisk dermatitt i ansiktet |
+| [31476936](https://pubmed.ncbi.nlm.nih.gov/31476936/) | 2019 | Oversikt | J Cutan Med Surg | Off-label bruk av topiske kalsineurinhemmere ved ulike hudsykdommer |
+| [39219446](https://pubmed.ncbi.nlm.nih.gov/39219446/) | 2024 | Systematisk oversikt/nettverksmetaanalyse | Clin Exp Allergy | Topiske antiinflammatoriske midler ved eksem (indirekte relevans) |
+| [15461548](https://pubmed.ncbi.nlm.nih.gov/15461548/) | 2004 | Oversikt | Expert Opin Pharmacother | Tacrolimussalve ved atopisk dermatitt og andre inflammatoriske hudsykdommer |
+| [17685874](https://pubmed.ncbi.nlm.nih.gov/17685874/) | 2007 | Oversikt | Expert Opin Investig Drugs | Nye bruksområder for topisk tacrolimus |
+| [11770914](https://pubmed.ncbi.nlm.nih.gov/11770914/) | 2001 | Oversikt | Semin Cutan Med Surg | Topiske immunmodulatorer ved blant annet psoriasis og seboreisk dermatitt |
 
 ---
 
 ## Markedsinformasjon for Norge
 
-For tiden ingen markedsføringsautorisasjoner registrert for tacrolimus i Norge (`total_licenses = 0`, markedsstatus: Ikke markedsført).
+Alle fem godkjenninger i de samlede dataene er kansellert; ingen er gyldige per i dag.
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000712 | Advagraf | Ikke oppgitt | Avstøtning av transplantat |
+| EMEA/H/C/000374 | Protopic | Ikke oppgitt | Atopisk dermatitt |
+| EMEA/H/C/004435 | Tacforius | Ikke oppgitt | Levertransplantasjon, nyretransplantasjon |
+| EMEA/H/C/002655 | Envarsus | Ikke oppgitt | Avstøtning av transplantat |
+| EMEA/H/C/000954 | Modigraf | Ikke oppgitt | Avstøtning av transplantat |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsmomenter
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Nøkkeladvarsler, kontraindikasjoner og data om legemiddelinteraksjoner ble søkt, men ble ikke funnet i denne evidenspakken — `DG001` flagger dette som en blokkerende mangel som må løses før en fullstendig sikkerhetsevaluering.)
+- **Kontraindikasjoner fra kunnskapsgrafen (ikke preparatomtale):** Kunnskapsgrafen (PrimeKG) knytter tacrolimus til en rekke tilstander, blant annet hypertensjon, langt QT-syndrom og torsades de pointes, leversvikt, nyresykdom, epilepsi, hyperglykemi og diabetes, ketoacidose, alvorlige infeksjoner (herpes simplex, herpes zoster, progressiv multifokal leukoencefalopati, kronisk EBV-infeksjon), kreft og lymfom (inkludert primært CNS-lymfom), posterior leukoencefalopatisyndrom samt aplastisk anemi. Disse bør vurderes som signaler, ikke som bekreftede kontraindikasjoner.
+- **Legemiddelinteraksjoner:** Totalt 100 interaksjoner er registrert. Alvorlige (Major) interaksjoner omfatter blant annet amfotericin B (også lipidkompleks), loperamid, mesalazin, omeprazol og balsalazid. Moderate interaksjoner omfatter blant annet famotidin, rabeprazol, hydrokortison, deksametason, betametason, triamcinolon, budesonid, metformin, pioglitazon, aprepitant og metronidazol.
+- **Topisk bruk, relevante forhåndsregler:** Det må tas hensyn til advarselen om langtidssikkerhet (malignitet og infeksjonsrisiko), begrenset bruk hos små barn og avgrensing til områder med aktiv sykdom. En metaanalyse om kreftrisiko ved topiske kalsineurinhemmere (PMID 36370744) er relevant for videre vurdering.
+
+Advarsler og kontraindikasjoner fra preparatomtalen er ikke innhentet; se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Fortsett med forholdsregler**
+**Beslutning: Proceed with Guardrails (fortsett med forhåndsregler)**
 
 **Begrunnelse:**
-To fullførte fase 3/4-studier tester direkte tacrolimus-salve ved seboreisk dermatitt i ansiktet, støttet av et RCT-rikt litteraturgrunnlag (inkludert en head-to-head RCT mot ciclopirox olamine og mot hydrokortison), noe som rettferdiggjør L1 bevisnivået og forsvarer varsom fremdrift. Men stoffet er for tiden ikke markedsført i Norge under dette datasettet, og kjernesikerhetsdokumentasjon (advarsler/kontraindikasjoner/DDI) mangler.
+Det finnes en fullført fase 3-studie og en fase 4-studie direkte på seboreisk dermatitt, og mekanismen er den samme som ved den etablerte indikasjonen atopisk dermatitt. Evidensen for seboreisk dermatitt er imidlertid begrenset til to studier med moderat størrelse, og alle norske godkjenninger er kansellert.
 
-**For å fortsette er følgende nødvendig:**
-- TFDA/Norge pakningsvedlegg advarsler og kontraindikasjoner (`DG001`, blokkerer)
-- Offisielle DrugBank virkningsmekanisme-data (`DG002`)
-- Verifisering av Norge/globalt markedsføringsstatus-diskrepans (tacrolimus-salve er markedsført internasjonalt som Protopic; bekreft om "Ikke markedsført" reflekterer dette spesifikke produkt/indikasjon eller en datagap)
-- Legemiddelinteraksjonsprofil for topisk tacrolimus i populasjonen med seboreisk dermatitt
+**For å gå videre kreves følgende:**
+- Hente og analysere resultatene fra NCT02004860 og NCT01591070 (effekt og residivrate)
+- Innhente advarsler og kontraindikasjoner fra preparatomtalen (kritisk datahull som blokkerer sikkerhetsscreening)
+- Innhente detaljerte data om virkningsmekanisme
+- Avklare regulatorisk vei, siden ingen tacrolimusprodukter har gyldig godkjenning i Norge
+- Lage en plan for sikkerhetsoppfølging ved langtidsbruk (malignitet, infeksjon, begrensning hos barn)
 
+---
+
+*Merknad om øvrige prediksjoner:* Parapsoriasis (score 99,24 %, kun kasuistikker, evidensnivå L4) er et forskningsspørsmål og ikke modent for beslutning. Generell «dermatitt» (score 99,17 %) domineres av den allerede godkjente indikasjonen atopisk dermatitt og er derfor ikke en reell ny indikasjon.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Daptomycin
-parent: Moderat evidens (L3-L4)
-nav_order: 95
-evidence_level: L4
+parent: Kun modellprediksjon (L5)
+nav_order: 112
+evidence_level: L5
 indication_count: 10
 ---
 
 # Daptomycin
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,109 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Daptomycin: Fra gram-positive bakterieinfeksjoner til osteoartritt (lavt-konfidensignal)
+# Daptomycin: Fra bakterielle hud- og bløtvevsinfeksjoner til revmatoid artritt
 
-## Oppsummering i en setning
+## Oppsummering i én setning
 
-> Daptomycin er et syklisk lipopeptidantibiotikum som brukes til å behandle gram-positive infeksjoner som hudinfeksjoner, bakteriemi og høyresidig endokarditt.
-> TxGNN-modellens toppforutsigelse er **Osteoartritt**, men den støttende litteraturen består utelukkende av studier om *osteoarticulær/proteseledsinfeksjon* behandling — ikke osteoartritt i seg selv —
-> noe som tyder på at dette signalet sannsynligvis er en entitetskonfusjonsartefakt snarere enn genuine bevis for gjenbruk. Et biologisk mer plausibelt (men fortsatt preklinisk) signal finnes ved rangering 2 for **Revmatoid artritt**.
+Daptomycin er et syklisk lipopeptid-antibiotikum som opprinnelig brukes mot infeksjoner med grampositive bakterier, blant annet hud- og bløtvevsinfeksjoner, bakteriemi og endokarditt.
+TxGNN-modellen gir høye prediksjonsskårer for flere leddrelaterte tilstander, og den best underbygde hypotesen er **revmatoid artritt**, men evidensen består kun av **prekliniske dyre- og cellestudier**, uten registrerte kliniske studier.
+Den høyest rangerte prediksjonen, **artrose (osteoarthritis)**, er trolig en kunnskapsgraf-assosiasjon uten reelt repurposing-signal.
 
 ---
 
 ## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Original indikasjon | Ikke formelt registrert (legemiddel ikke markedsført i Norge); ifølge litteratur er daptomycin godkjent for gram-positive infeksjoner inkludert hudinfeksjoner, bakteriemi og høyresidig endokarditt |
-| Forutsagt ny indikasjon | Osteoartritt |
-| TxGNN-forutsigelsesscore | 99,86% (rangering 1948) |
-| Bevisnivå | L4 |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt avgjørelse | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Bløtvevsinfeksjoner; bakterielle hudsykdommer (Cubicin i tillegg: grampositive bakterielle infeksjoner, bakteriemi, bakteriell endokarditt) |
+| Predikert ny indikasjon (rangert først av TxGNN) | Artrose (osteoarthritis) |
+| Mest plausible hypotese | Revmatoid artritt (prekliniske data) |
+| TxGNN-prediksjonsskår | Artrose 99,86 %; revmatoid artritt 99,84 % |
+| Evidensnivå | Artrose: L4; revmatoid artritt: L4 |
+| Markedsstatus i Norge | Kun avregistrerte (cancelled) godkjenninger |
+| Antall godkjenninger | 2 (begge avregistrert) |
+| Anbefalt beslutning | Hold (artrose); revmatoid artritt kan løftes som forskningsspørsmål |
 
 ---
 
-## Hvorfor er denne forutsigelsen rimelig?
+## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte mekanisme-for-virkning-data ikke tilgjengelige (blokkert, venter på DrugBank-spørring — se datakløft DG002). Basert på kjent informasjon er daptomycin et syklisk lipopeptidantibiotikum som depolariserer den bakterielle cellemembranen og produserer en bakterisid virkning som er spesifikk for gram-positive organismer. Denne mekanismen har ingen etablert biologisk sammenheng til cartilagedegradering og lavgradig inflammatoriske prosesser som driver osteoartritt (OA).
+Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er daptomycin et syklisk lipopeptid som virker mot grampositive bakterier, og effekten er godt dokumentert ved hud- og bløtvevsinfeksjoner, bakteriemi og endokarditt.
 
-Kritisk er at ethvert stykke litteratur som støtter den topprangerte «osteoartritt»-forutsigelsen faktisk handler om *osteoarticulær infeksjon* eller *proteseledsinfeksjon (PJI)* — dvs. antibiotikabehandling og mottakelighet hos *S. aureus*/*S. epidermidis* i infiserte ledd — ikke om osteoartritt-patofysiologi eller behandling. Dette tyder sterkt på at kunnskapsgrafen har blandet sammen enhetene «osteoarticulær infeksjon» og «osteoartritt», noe som produserer en høykonfidens men sannsynligvis falsk forutsigelse. Et ekstremtilfelle fra en kasuistikk involverer til og med *Corynebacterium*-septisk artritt hos en pasient som opprinnelig ble utredet for OA, noe som ytterligere illustrerer denne forvirringen.
+**Artrose:** Det finnes ingen holdepunkter for at daptomycin har sykdomsmodifiserende effekt ved ikke-infeksiøs artrose. Litteraturen som ble funnet, handler om daptomycin som antibakterielt middel ved bein- og leddinfeksjoner, inkludert proteseinfeksjoner med stafylokokker og korynebakterier. Dette er den opprinnelige antibakterielle bruken i en ben- og leddsammenheng. Den høye skåren gjenspeiler sannsynligvis en assosiasjon i kunnskapsgrafen til leddrelaterte begreper, ikke et reelt repurposing-signal.
 
-Til sammenligning er topprangering-2-forutsigelsen (**Revmatoid artritt**) støttet av to prekliniske studier fra 2025 som viser at daptomycin undertrykker inflammatoriske cytokiner og NF-κB-signalering i en kollagen-indusert artritt-musemodell, og at strukturelt optimaliserte daptomycin-derivater har forbedret anti-RA-aktivitet in vivo. Dette representerer en genuine, om enn tidlig-fase, mekanistisk hypotese (immunomodulering uavhengig av antibakteriell aktivitet) og er potensielt den mer vitenskapelig interessant signalet i denne bevissamlingen, til tross for sin lavere TxGNN-score.
+**Revmatoid artritt:** En preklinisk studie fra 2025 (PMID 39571268) rapporterer at daptomycin demper kollagen-indusert artritt hos mus ved å hemme inflammatoriske cytokiner og NF-κB-signalveien. En oppfølgende studie (PMID 40923559) med nye daptomycin-avledede lipopeptider støtter en antiinflammatorisk mekanisme. Dette er en plausibel, men ikke validert hypotese. Funnene må replikeres, og det må vurderes om antiinflammatorisk eksponering er oppnåelig ved sikre doser.
 
----
-
-## Klinisk forsøkbevis
-
-For tiden ingen relaterte kliniske forsøk registrert.
+**Øvrige prediksjoner:** Artrose-mottakelighet er et genetisk begrep, ikke en behandlingsbar indikasjon. For urinsyregikt er den eneste publikasjonen en kasuistikk om daptomycin-indusert rabdomyolyse med akutt urinsyregikt, noe som taler mot terapeutisk bruk. De øvrige syv prediksjonene (pseudoakondroplasi, akromesomel dysplasi av Hunter-Thompson-typen, brakyolmi, brakydaktyli-syndaktyli-syndrom, kolobomatøs mikroftalmi-rizomel dysplasi-syndrom og brakyolmi-amelogenesis imperfecta-syndrom) har verken litteratur eller studier og ingen plausibel mekanisme.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske studier
 
-| PMID | År | Type | Journal | Viktige funn |
+Foreløpig er ingen relaterte kliniske studier registrert for noen av de predikerte indikasjonene.
+
+---
+
+## Litteraturevidens
+
+### Revmatoid artritt (mest relevante)
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [23519823](https://pubmed.ncbi.nlm.nih.gov/23519823/) | 2013 | Kohort | Int Orthop | Høydose daptomycin + rifampicin for gram-positive osteoarticulære infeksjoner (ikke OA-behandling) |
-| [22511636](https://pubmed.ncbi.nlm.nih.gov/22511636/) | 2012 | Kohort | J Antimicrob Chemother | Daptomycin for kne-/hofteproteseledsinfeksjoner |
-| [26235888](https://pubmed.ncbi.nlm.nih.gov/26235888/) | 2015 | Kohort | Int J Antimicrob Agents | Høydose daptomycin (>6 mg/kg) for kompliserte bein-/ledsinfeksjoner og implantatinfeksjoner |
-| [17999973](https://pubmed.ncbi.nlm.nih.gov/17999973/) | 2008 | Kohort | J Antimicrob Chemother | Daptomycin vs standardterapi for osteoarticulære infeksjoner med *S. aureus* bakteriemi |
-| [22854340](https://pubmed.ncbi.nlm.nih.gov/22854340/) | 2012 | In vitro | J Antibiot | In vitro-mottakelighet hos *S. aureus*/*S. epidermidis* fra proteseledsinfeksjoner |
-| [21477701](https://pubmed.ncbi.nlm.nih.gov/21477701/) | 2010 | Register/Kohort | Med Clin (Barc) | EU-CORE-register: spansk virkelighetsstudie av daptomycin-bruk på tvers av gram-positive infeksjoner |
-| [32206362](https://pubmed.ncbi.nlm.nih.gov/32206362/) | 2020 | Kasuistikk | Case Rep Orthop | Kronisk *Corynebacterium striatum*-septisk artritt opprinnelig henvist for OA/TKA-utredning |
-| [23312602](https://pubmed.ncbi.nlm.nih.gov/23312602/) | 2013 | Kohort | Int J Antimicrob Agents | Oversikt over leddsprotesepasientenes behandlingspraksis (antibiotikavalg) |
-| [25650692](https://pubmed.ncbi.nlm.nih.gov/25650692/) | 2015 | Kohort | Surg Infect | 10-års mikrobiologisk profil av stafilokokkus i osteoarticulære infeksjoner |
-| [41853106](https://pubmed.ncbi.nlm.nih.gov/41853106/) | 2026 | Kasuistikk | ASM Case Rep | Første rapporterte *Corynebacterium propinquum*-septisk artritt i naturlig ledd |
+| [39571268](https://pubmed.ncbi.nlm.nih.gov/39571268/) | 2025 | Preklinisk (dyremodell) | Int Immunopharmacol | Daptomycin demper kollagen-indusert artritt via hemming av inflammatoriske cytokiner og NF-κB |
+| [40923559](https://pubmed.ncbi.nlm.nih.gov/40923559/) | 2025 | Preklinisk (celle/dyr) | J Med Chem | Nye daptomycin-avledede sykliske lipopeptider hemmer cellulær inflammasjon og kollagen-indusert artritt hos mus |
 
-**Merknad:** Ingen av litteraturen ovenfor tar opp osteoartritt-patofysiologi eller behandlingseffektivitet; alle knytter seg til bakteriell osteoarticulær/proteseledsinfeksjon, noe som forsterker vurderingen om at dette er en entitetskonfusjonsartefakt.
+### Artrose (infeksjonsrelatert litteratur, ikke støtte for artrose som indikasjon)
 
----
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [23519823](https://pubmed.ncbi.nlm.nih.gov/23519823/) | 2013 | Kohort | Int Orthop | Høydose daptomycin med rifampicin ved grampositive ben- og leddinfeksjoner: sikkerhet og effekt |
+| [17999973](https://pubmed.ncbi.nlm.nih.gov/17999973/) | 2008 | Kohort | J Antimicrob Chemother | Daptomycin versus standardbehandling ved ben- og leddinfeksjoner med S. aureus-bakteriemi |
+| [22511636](https://pubmed.ncbi.nlm.nih.gov/22511636/) | 2012 | Kohort | J Antimicrob Chemother | Klinisk erfaring med daptomycin ved protesesinfeksjoner i kne og hofte |
+| [26235888](https://pubmed.ncbi.nlm.nih.gov/26235888/) | 2015 | Kohort | Int J Antimicrob Agents | Høydose daptomycin (>6 mg/kg) ved komplisert ben- og leddinfeksjon |
 
-## Norsk markedsinformasjon
+### Urinsyregikt (bivirkning)
 
-Daptomycin er for tiden **ikke markedsført** i Norge (0 autorisasjoner på fil); ingen produktlisensregistreringer er tilgjengelige.
-
----
-
-## Sikkerhetshensyn
-
-- **Datakløft (blokkerande):** TFDA-ekvivalente pakningsbrosjyreadvarsler og kontraindikasjoner er ennå ikke hentet (Datakløft DG001), så en formell S1-sikkerhetsforkontroll kan ikke gjennomføres.
-- **Litteratursikkerhetssignal:** En kasuistikk ([PMID 36693494](https://pubmed.ncbi.nlm.nih.gov/36693494/)) beskriver daptomycin-indusert rabdomyolyse komplisert med akutt gikt artritt, i samsvar med daptomycins kjente doseavhengig kreatinkinase (CK)-stigning-toksisitet. Dette dukket opp som en rangering-4 TxGNN «gikt»-forutsigelse, men tolkes korrekt som et bivirkningssignal, ikke en terapeutisk indikasjon.
-- **Legemiddelinteraksjonsdata:** Ikke funnet i gjeldende bevissamling (spørringsstatus: not_found).
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [36693494](https://pubmed.ncbi.nlm.nih.gov/36693494/) | 2023 | Kasuistikk (bivirkning) | Am J Med Sci | Daptomycin-indusert rabdomyolyse komplisert av akutt urinsyregikt |
 
 ---
 
-## Konklusjon og neste trinn
+## Markedsinformasjon for Norge
 
-**Avgjørelse: Avvent**
+| Godkjenningsnummer | Produktnavn | Doseform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004310 | Daptomycin Hospira | Ikke oppgitt | Bløtvevsinfeksjoner; bakterielle hudsykdommer (avregistrert) |
+| EMEA/H/C/000637 | Cubicin | Ikke oppgitt | Grampositive bakterielle infeksjoner; bakteriemi; bløtvevsinfeksjoner; bakteriell endokarditt (avregistrert) |
+
+---
+
+## Sikkerhetsvurderinger
+
+Pakningsvedlegg med advarsler og kontraindikasjoner var ikke tilgjengelig i de innsamlede dataene. Se pakningsvedlegget for sikkerhetsinformasjon.
+
+- **Mulige kontraindikasjoner fra kunnskapsgrafen (ikke fra preparatomtale):** myopati, muskelsykdom, skjelettmuskelsykdom, familiær periodisk paralyse, diarésykdom, Clostridium difficile-kolitt, perinatal nekrotiserende enterokolitt, eosinofil pneumoni, pulmonal eosinofili, perifer nevropati og sykdom i det perifere nervesystemet.
+- **Legemiddelinteraksjoner (12 funnet):**
+  - Moderat: pikosulfat, rosuvastatin, simvastatin, jobenguan (I-131), ibuprofen, diklofenak, etinylestradiol, celecoxib, ciklosporin, mykofenolsyre.
+  - Mindre: dikumarol, warfarin.
+- Den publiserte kasuistikken om rabdomyolyse (PMID 36693494) er i tråd med muskelrelaterte signaler, og kombinasjon med statiner bør vurderes nøye.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold** (artrose og øvrige prediksjoner). Revmatoid artritt bør føres opp som et forskningsspørsmål.
 
 **Begrunnelse:**
-Den topprangerte forutsigelsen (osteoartritt) er støttet bare av litteratur om urelated osteoarticulær *infeksjoner*, noe som indikerer en sannsynlig kunnskapsgrafs entitetskonfusjonsartefakt snarere enn genuine gjenbruksbevis. Det ene mekanistisk kredible signalet (revmatoid artritt, rangering 2) er fortsatt på dyremodelstadiet uten kliniske forsøk. Kombinert med fraværet av TFDA-ekvivalente sikkerhetsdata og legemidlets umarkedserte status i Norge, er det utilstrekkelig bevis til å gå videre til formell evaluering.
+- Ingen kliniske studier støtter noen av de predikerte indikasjonene. Den høye artroseskåren skyldes sannsynligvis kunnskapsgrafens assosiasjoner, mens revmatoid artritt kun har prekliniske data fra mus og celler. Daptomycin er dessuten ikke lenger markedsført i Norge.
 
-**For å kunne fortsette, trengs følgende:**
-- TFDA-ekvivalente advarsler/kontraindikasjonsdata (blokkerande — DG001)
-- Bekreftet mekanisme-for-virkning fra DrugBank (DG002)
-- Uavhengig validering (in vivo/in vitro replikering eller tidlig klinisk data) av daptomycin anti-inflammatorisk/NF-κB-signalet ved revmatoid artritt før det blir vurdert som en forskningsprioritet over osteoartritt-signalet
-- Legemiddel-legemiddel-interaksjonsdata
-- Avklaring med TxGNN-kunnskapsgrafsgruppen om mulig enhetoverlapping mellom «osteoarticulær infeksjon» og «osteoartritt»
-
+**For å gå videre trengs følgende:**
+- Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Replikasjon av de prekliniske funnene ved revmatoid artritt i uavhengige modeller
+- Vurdering av om antiinflammatorisk eksponering er oppnåelig ved sikre doser, særlig med tanke på muskeltoksisitet (CK-overvåking) og at legemidlet gis intravenøst
+- Vurdering av regulatorisk og kommersiell situasjon, siden begge godkjenninger er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

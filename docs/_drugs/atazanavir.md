@@ -2,7 +2,7 @@
 layout: default
 title: Atazanavir
 parent: Moderat evidens (L3-L4)
-nav_order: 37
+nav_order: 42
 evidence_level: L4
 indication_count: 6
 ---
@@ -29,80 +29,107 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Atazanavir: Fra HIV-1-infeksjon til Simian Immunodeficiency Virus-infeksjon
+# Atazanavir: Fra HIV-infeksjon til simian immunsviktvirus-infeksjon
 
-## Én-linjers sammendrag
+## Oppsummering
 
-> Atazanavir er en HIV-1-proteasehemmer brukt som del av antiretroviral terapi for HIV-1-infeksjon (utledet fra forsøkssammenheng i denne evidenspakken; ingen formell indikasjonsregistrering foreligger fordi legemidlet ikke er markedsført i Norge).
-> TxGNN-modellens topprangerte prediksjon er **Simian Immunodeficiency Virus (SIV)-infeksjon**, en lentivirusinfeksjon hos makaker,
-> støttet av bare **1 preklinisk publikasjon** og **0 kliniske studier** — bevis som er bare preklinisk/mekanistisk, ikke klinisk handlingsorientert.
-
-> ⚠️ **Viktig forbehold:** Rankinger 2–4 i dette prediksjonssettet (katters AIDS, en sjelden nevrutviklingsforstyrrelse og et foreldet hyperlipidemibegrep) har ingen meningsfull mekanistisk eller bevisforankring og bør ikke forfølges. Ranking 5 ("AIDS related complex") har sterke bevis (2 fullførte fase 3 RCT-er, L1), men dette gjenspeiler legemidlets **allerede etablerte kjerneindikasjonen**, ikke en genuin repurposing-mulighet.
+Atazanavir er en HIV-1-proteasehemmer som opprinnelig brukes til behandling av **HIV-infeksjon**.
+TxGNN-modellen predikerer at legemidlet kan være virksomt mot **simian immunsviktvirus-infeksjon (SIV)**.
+Støtten er svak: **ingen kliniske studier** og **1 publikasjon** (et dyrestudie på makaker) er funnet.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | HIV-1-infeksjon (antiretroviral terapi) — utledet fra klinisk forsøkssammenheng; ikke formelt registrert da det ikke finnes Taiwan/Norge-lisens |
-| Predikert ny indikasjon | Simian Immunodeficiency Virus (SIV)-infeksjon |
-| TxGNN-prediksjonspoengsum | 99.98% |
+| Opprinnelig indikasjon | HIV-infeksjon |
+| Predikert ny indikasjon | Simian immunsviktvirus-infeksjon |
+| TxGNN-prediksjonsscore | 99,98 % |
 | Evidensnivå | L4 |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt avgjørelse | Avvent |
+| Markedsstatus i Norge | Kun opphevede (avregistrerte) godkjenninger |
+| Antall godkjenninger | 3 (alle opphevet) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte DrugBank MOA-data var ikke tilgjengelige i denne evidenspakken (flagget som et datakløft med høy alvorlighetsgrad, DG002). Konteksten innebygd i selve beviset (kliniske forsøkstitler og begrunnelsen for ranking 5) indikerer imidlertid at atazanavir er en **HIV-1-proteasehemmer** som blokkerer spalting av Gag-Pol-polyproteinet, noe som forhindrer viral modning — det farmakologiske grunnlaget for dets etablerte bruk ved HIV-1-infeksjon.
+Data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Atazanavir er kjent som en HIV-1-proteasehemmer, og effekten ved HIV-infeksjon er etablert.
 
-SIV og HIV tilhører begge lentivirusslekten og deler strukturell homologi i sine proteasenzymer. Dette gir et teoretisk grunnlag for proteasehemming på tvers av arter, som er grunnlaget for TxGNNs høye likhetsscore. SIV-infeksjon er imidlertid eksklusivt en **ikke-menneskelig sykdomsmodell** brukt i translasjonsforskning på HIV (f.eks. makakstudier av virale CNS-reservoarer). Det er ikke en menneskelig klinisk indikasjon, så denne prediksjonen har kun forskningsverdi — den kan ikke fremmes som en menneskelig legemiddelrepurposing-kandidat uavhengig av mekanistisk plausibilitet.
+SIV er et lentivirus som er nært beslektet med HIV, så aktivitet mot SIV-proteasen er biologisk plausibel. Den eneste publikasjonen er en studie fra 2010 av SIV-infiserte makaker behandlet med et kombinert antiretroviralt regime (HAART). Den viser at modellen er nyttig som prekliniskt grunnlag for kombinasjonsbehandling, men den viser **ikke atazanavir-spesifikk effekt**.
 
-Derimot er ranking 5 ("AIDS related complex") direkte støttet av to fullførte fase 3 RCT-er (NCT00035932, n=571; NCT01099579, n=82) og gjenspeiler atazanavirs kjernefarmakologi som allerede er godkjent, snarere enn en ny indikasjon. Dette er nyttig kontekst, men utgjør ikke «repurposing» i den betydningen denne rapporten er ment å evaluere.
-
----
-
-## Bevis fra kliniske studier
-
-For øyeblikket ingen relaterte kliniske studier registrert for Simian Immunodeficiency Virus-infeksjon.
+Indikasjonen har derfor kun veterinær eller preklinisk interesse og gir ingen ny human indikasjon utover den godkjente HIV-bruken. Den høye scoren gjenspeiler trolig likhet med HIV i kunnskapsgrafen, ikke uavhengig evidens.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske studier
 
-| PMID | År | Type | Tidsskrift | Nøkkelfunn |
+Foreløpig er ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [20497048](https://pubmed.ncbi.nlm.nih.gov/20497048/) | 2010 | Preklinisk (makakmodell) | The Journal of Infectious Diseases | HAART-behandlede SIV-infiserte makaker viste redusert viral replikering og inflammasjon i CNS, men vedvarende viral DNA i CNS til tross for virusundertrykkelse i plasma — et funn fra dyretranslasjonsforskning, ikke direkte bevis for en menneskelig indikasjon. |
+| [20497048](https://pubmed.ncbi.nlm.nih.gov/20497048/) | 2010 | Dyrestudie (ikke-menneskelig primat) | The Journal of Infectious Diseases | SIV-infiserte makaker behandlet med HAART hadde lavere viral replikasjon og betennelse i sentralnervesystemet, men viralt DNA vedvarte |
 
 ---
 
-## Norsk markedsinformasjon
+## Markedsinformasjon for Norge
 
-Atazanavir er **ikke for øyeblikket markedsført i Norge** (markedsstatus: Ikke markedsført / Ikke markedsført). Det finnes ingen legemiddellisensregistreringer (`total_licenses = 0`), så ingen autorisasjonstabell kan produseres.
+| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000494 | Reyataz | – | HIV-infeksjon |
+| EMEA/H/C/004048 | Atazanavir Viatris (tidligere Atazanavir Mylan) | – | HIV-infeksjon |
+| EMEA/H/C/003904 | Evotaz | – | HIV-infeksjon |
+
+Alle tre godkjenninger er opphevet.
 
 ---
 
-## Sikkerhetsoverveielser
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegg for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og legemiddel-legemiddel-interaksjonsdata var ikke tilgjengelige i denne evidenspakken — flagget som et blokkerende datakløft, DG001, som forhindrer inngang til S1-sikkerhetsvurderingsfasen.)
+**Legemiddelinteraksjoner** (100 registrert; et utvalg av alvorlighetsgrad «Major»):
+- Famotidin, ranitidin, rabeprazol og omeprazol (syrehemmende midler)
+- Loperamid
+- Triamcinolon og budesonid (kortikosteroider)
+
+Flere interaksjoner av moderat alvorlighetsgrad er også registrert, blant annet med acarbose, metformin, pioglitazon, alogliptin, albiglutid, hydrokortison, betametason, aprepitant, aluminiumhydroksid og kalsiumkarbonat.
+
+**Sykdommer med mulig kontraindikasjon** (fra kunnskapsgrafen, ikke fra preparatomtale):
+- Lever: leversvikt, leversykdom, kronisk hepatitt B og C, hepatitt C
+- Galle og bilirubin: gallblæresykdom, hyperbilirubinemi, arvelig hyperbilirubinemi, Gilberts syndrom
+- Stoffskifte: hyperglykemi, diabetes mellitus, diabetisk ketoacidose, laktacidose
+- Nyre: nefrolitiasis, akutt uratnefropati
+- Annet: hemofili, atrioventrikulært blokk
+
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Avgjørelse: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den topprangerte prediksjonen (SIV-infeksjon) retter seg mot en ikke-menneskelig sykdomsmodell og er støttet kun av en enkelt preklinisk publikasjon uten kliniske studier (L4, S0 avgjørelsesstadie) — utilstrekkelig for repurposing-vurdering. Rankinger 2–4 mangler enhver troverdig mekanistisk eller bevisforankring. Ranking 5, selv om sterkt støttet (L1), representerer legemidlets eksisterende kjerneindikasjonen snarere enn en ny mulighet, så det endrer ikke den overordnede anbefalingen for denne repurposing-kandidaten.
+Evidensen er kun dyrebasert (L4) og viser ikke atazanavir-spesifikk effekt. Indikasjonen er av veterinær eller preklinisk interesse, gir ingen ny human bruk, og alle norske godkjenninger er opphevet.
 
-**Følgende er påkrevd for å fortsette:**
-- TFDA-ekvivalent (eller norsk) pakningsvedlegg advarsler/kontraindikasjoner (DG001 — Kritisk; påkrevd før noen S1-sikkerhetsvurdering)
-- Bekreftet handlingsmekanisme-data fra DrugBank (DG002 — Høy prioritet; nødvendig for korrekt vurdering av mekanistisk plausibilitet)
-- Hvis translasjonsforskning skal forfølges, må det etableres en definert vei fra SIV-makakmodellen til en genuin menneskelig indikasjon (f.eks. HIV-assosiert nevrokognitiv lidelse), siden SIV-infeksjon i seg selv ikke er et menneskelig sykdomsmål
+**For å gå videre kreves:**
+- Data om virkningsmekanisme (MOA)
+- Preparatomtale med advarsler og kontraindikasjoner
+- Atazanavir-spesifikke prekliniske data mot SIV-protease
+- En tydelig begrunnelse for hvilken relevans en veterinær eller preklinisk indikasjon har
 
+---
+
+### Andre predikerte indikasjoner (kort oppsummert)
+
+Datagrunnlaget inneholder også andre prediksjoner. Disse er ikke vurdert i dybden:
+- **Medfødt HIV** (score 99,71 %, L3): Mest interessant. Syv publikasjoner (hovedsakelig kohortstudier) om sikkerhet og farmakokinetikk ved graviditet, blant annet at atazanavir er effektivt i svangerskapet uavhengig av tenofovir. Dette er en populasjonsutvidelse av den godkjente indikasjonen, og en formell gjennomgang av sikkerhetssignaler ved graviditet anbefales som neste steg.
+- **AIDS-relatert kompleks** (99,71 %, L4): Historisk beskrivelse av HIV-sykdom, ikke reell repurposing.
+- **Felin ervervet immunsviktsyndrom** (99,98 %, L5), **nevroutviklingsforstyrrelse med ataktisk gange** (99,98 %, L5) og **familiær kombinert hyperlipidemi (utgått term)** (99,82 %, L5): Ingen støtte i data; anbefales ikke videreført.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

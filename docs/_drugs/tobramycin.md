@@ -2,15 +2,15 @@
 layout: default
 title: Tobramycin
 parent: Moderat evidens (L3-L4)
-nav_order: 359
-evidence_level: L3
+nav_order: 422
+evidence_level: L4
 indication_count: 10
 ---
 
 # Tobramycin
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,98 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tobramycin: Fra bakterieinfeksjoner til eksponeringskratitt
+# Tobramycin: Fra luftveisinfeksjoner og cystisk fibrose til eksposjonskeratitt
 
-## En-setnings sammendrag
+## Oppsummering
 
-> Tobramycin er et aminoglykosidantibiotikum som opprinnelig ble brukt til å behandle bakterieinfeksjoner, særlig dem forårsaket av *Pseudomonas aeruginosa* og andre gram-negative organismer.
-> TxGNN-modellen forutsier at det kan være effektivt for **eksponeringskratitt**,
-> med **2 kliniske forsøk** og **7 publikasjoner** som for tiden støtter denne retningen — selv om bevisbasen er tynn og i stor grad indirekte.
+Tobramycin er et aminoglykosid-antibiotikum som opprinnelig brukes mot luftveisinfeksjoner og cystisk fibrose. TxGNN-modellen predikerer at legemidlet kan ha effekt ved **eksposjonskeratitt**, men det finnes **ingen registrerte kliniske studier** og bare **8 publikasjoner** med indirekte relevans (hovedsakelig bakteriell keratitt og aminoglykosidtoksisitet på hornhinnen). Evidensen er derfor svak.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Bakterieinfeksjoner (aminoglykosidantibiotikum; ingen markedsspesifikk godkjent indikasjonsdokumentasjon er tilgjengelig for denne jurisdiksjonen) |
-| Forutsagt ny indikasjon | Eksponeringskratitt |
-| TxGNN prediksjonsscore | 99.93% |
-| Bevisnivå | L3 |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+| Opprinnelig indikasjon | Luftveisinfeksjoner; cystisk fibrose |
+| Predikert ny indikasjon | Eksposjonskeratitt (exposure keratitis) |
+| TxGNN-prediksjonsscore | 99,93 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun tilbakekalte/avsluttede godkjenninger |
+| Antall godkjenninger | 2 (begge avsluttet) |
+| Anbefalt beslutning | Hold (avvent) |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden finnes det ingen detaljert regulatorisk dokumentasjon av virkningsmekanisme tilgjengelig. Basert på kjent farmakologi er tobramycin et aminoglykosidantibiotikum som hemmer syntese av bakteriell 30S ribosomalt protein, noe som produserer bakteriedrepende aktivitet mot *Pseudomonas aeruginosa* og andre gram-negative organismer, samt noen gram-positive arter.
+Data om virkningsmekanisme er ikke tilgjengelig i de sammenstilte dataene. Tobramycin er et bredspektret aminoglykosid som er velkjent for aktivitet mot gramnegative bakterier, særlig *Pseudomonas aeruginosa*. Det brukes inhalert ved cystisk fibrose og lokalt i øyet ved bakteriell keratitt og konjunktivitt.
 
-Eksponeringskratitt oppstår når ufullstendig øyelokkslutning fører til korneal tørring og epitelial nedbrytning, noe som skaper risiko for sekundær bakterieinfeksjon. Siden patogenene som vanligvis koloniserer en eksponert, skadet korneal overflate faller innenfor tobramycins etablerte antibakterielle spektrum, finnes det en plausibel farmakologisk begrunnelse for å bruke det i denne situasjonen.
+Eksposjonskeratitt er en overflatelidelse i hornhinnen, ofte ved ufullstendig øyelukking, som kan bli sekundært infisert. Antibakteriell profylakse eller behandling er derfor biologisk plausibelt.
 
-Imidlertid er denne begrunnelsen begrenset: tobramycin behandler ikke den underliggende årsaken til eksponeringskratitt (tørring og mekanisk epitelial skade fra lagoftalmos). Dets rolle ville være adjuvant — forebyggelse eller behandling av sekundær bakterieinfeksjon — snarere enn å adressere den primære patologien, noe som er et viktig forbehold når man tolker TxGNN-prediksjonen.
-
----
-
-## Klinisk forsøksbevis
-
-| Prøvenummer | Fase | Status | Antall deltakere | Viktigste funn |
-|---------|------|------|------|---------|
-| [NCT06200727](https://clinicaltrials.gov/study/NCT06200727) | N/A | Ukjent | 170 | Studerer trombocyttrik fibrin (PRF) membran på tvers av fire oftalmologiske tilstander (makularhole, pterygium, kornealgesår, post-trabekulektomi); ikke tobramycin-spesifikk, bare indirekte relevant |
-| [NCT05313828](https://clinicaltrials.gov/study/NCT05313828) | N/A | Ukjent | 40 | Sammenligner behandlingsmodaliteter for dendritisk (herpetisk) viral kornealgesår; ikke spesifikk for eksponeringskratitt eller tobramycin |
+Det er likevel viktig å merke seg at den innhentede litteraturen gjelder bakteriell keratitt (kontaktlinser, MRSA, *Bacillus cereus*) og aminoglykosiders toksisitet for hornhinneepitel. Sistnevnte er et sikkerhetsproblem ved et allerede skadet epitel. Ingen av kildene undersøker eksposjonskeratitt direkte.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske studier
 
-| PMID | År | Type | Tidsskrift | Viktigste funn |
+Foreløpig finnes ingen relaterte kliniske studier registrert for denne indikasjonen.
+
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [34987857](https://pubmed.ncbi.nlm.nih.gov/34987857/) | 2021 | Kasuistikk | Oxford Medical Case Reports | Bakteriell kratitt fra multidrugg-resistent *Shewanella algae* hos en pasient som ikke var i stand til å lukke øynene frivillig (lagoftalmos-relatert eksponering) |
-| [2707046](https://pubmed.ncbi.nlm.nih.gov/2707046/) | 1989 | In vitro | Current Eye Research | Sammenligner korneal epitelial cytotoksisitet av tobramycin mot neomycin, gentamicin og amikacin |
-| [17228760](https://pubmed.ncbi.nlm.nih.gov/17228760/) | 2006 | In vitro sammenligning | Nippon Ganka Gakkai Zasshi | Sammenligner MIC og postantibiotisk effekt av antibiotiske øyedråper, inkludert tobramycin, mot infeksiøse kratitt-isolater i Japan |
-| [12861116](https://pubmed.ncbi.nlm.nih.gov/12861116/) | 2003 | Kasuistikk | Eye & Contact Lens | Bilateral MRSA kratitt etter fotorefraksativ keratektomi |
-| [11581057](https://pubmed.ncbi.nlm.nih.gov/11581057/) | 2001 | Kasuistikk | Ophthalmology | *Bacillus cereus* kratitt assosiert med kontaktlinsebruk |
-| [33847093](https://pubmed.ncbi.nlm.nih.gov/33847093/) | 2021 | Kasuistikkserie | Polish Journal of Veterinary Sciences | Seroprevalens og behandlingsresultater av felint okular toksoplasmose; ikke direkte relevant for humant eksponeringskratitt |
-| [14574976](https://pubmed.ncbi.nlm.nih.gov/14574976/) | 2003 | Kasuistikk | Yan Ke Xue Bao | Parasentral korneal dellen som et sjeldent tegn på Graves oftalmopati; ikke relatert til tobramycin-bruk |
-
-Ingen studie evaluerer direkte tobramycin for eksponeringskratitt; litteraturen består av kasuistikker og in vitro følsomhetsdata på relatert infeksiøs kratitt.
-
----
-
-## Norsk markedsinformasjon
-
-Ingen autorisasjonsposter er for tiden tilgjengelig — tobramycin er ikke markedsført i denne jurisdiksjonen (0 lisenser på fil).
+| [42842711](https://pubmed.ncbi.nlm.nih.gov/42842711/) | 2026 | Retrospektiv kohort | Cornea | Kliniske kjennetegn, resistensprofiler og utfall ved MRSA- og MSSA-keratitt |
+| [2707046](https://pubmed.ncbi.nlm.nih.gov/2707046/) | 1989 | In vitro | Current Eye Research | Cytotoksisitet av neomycin, gentamicin, tobramycin og amikacin på kaninens hornhinneepitel |
+| [17228760](https://pubmed.ncbi.nlm.nih.gov/17228760/) | 2006 | In vitro | Nippon Ganka Gakkai Zasshi | MIC og post-antibiotisk effekt av øyedråper på isolater fra infeksiøs keratitt |
+| [11581057](https://pubmed.ncbi.nlm.nih.gov/11581057/) | 2001 | Kasuistikk | Ophthalmology | *Bacillus cereus*-keratitt knyttet til bruk av kontaktlinser |
+| [34987857](https://pubmed.ncbi.nlm.nih.gov/34987857/) | 2021 | Kasuistikk | Oxford Medical Case Reports | Bakteriell keratitt med multiresistent *Shewanella algae* hos pasient som ikke kunne lukke øynene |
+| [12861116](https://pubmed.ncbi.nlm.nih.gov/12861116/) | 2003 | Kasuistikk | Eye & Contact Lens | Bilateral MRSA-keratitt etter fotorefraktiv keratektomi |
+| [14574976](https://pubmed.ncbi.nlm.nih.gov/14574976/) | 2003 | Kasuistikk | Yan Ke Xue Bao | Parasentral hornhinne-dellen som sjeldent tegn ved Graves oftalmopati |
+| [42358321](https://pubmed.ncbi.nlm.nih.gov/42358321/) | 2026 | In vitro (veterinær) | Frontiers in Veterinary Science | Interaksjoner mellom fluorometolon og antibiotika hos hunders okulære bakterier |
 
 ---
 
-## Sikkerhetshensyn
+## Markedsinformasjon for Norge
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005086 | Vantobra (tidligere Tobramycin PARI) | Ikke oppgitt | Luftveisinfeksjoner; cystisk fibrose (avsluttet) |
+| EMEA/H/C/002155 | Tobi Podhaler | Ikke oppgitt | Cystisk fibrose; luftveisinfeksjoner (avsluttet) |
+
+---
+
+## Sikkerhetsmomenter
+
+- **Kontraindikasjoner fra kunnskapsgrafen (PrimeKG, ikke preparatomtale):** nyresykdom, myasthenia gravis og andre sykdommer i nevromuskulær overgang, parkinsonisme/Parkinsons sykdom, glaukom og okulær hypertensjon, diabetes mellitus og diabetisk ketoacidose, hyperkalsemi, nefrokalsinose, forstyrrelser i fosformetabolismen, *Clostridium difficile*-kolitt, nekrotiserende enterokolitt hos nyfødte, vertigo av sentralnervøs opprinnelse, samt flere øyeinfeksjoner (herpes simplex-keratitt, viral og soppinfeksjon i øyet, oftalmisk herpes zoster, okulær tuberkulose, konjunktivitt) og hornhinnepigmentering.
+- **Legemiddelinteraksjoner (100 registrert, utdrag):**
+  - **Alvorlige:** magnesiumsulfat, mannitol.
+  - **Moderate:** amfotericin B (inkl. lipidkompleks), vankomycin, kanamycin, neomycin (oral og lokal), acetylsalisylsyre, mesalazin, sulfasalazin, balsalazid, olsalazin, protonpumpehemmere (omeprazol, pantoprazol, lansoprazol, deksloansoprazol, rabeprazol), pikosulfat og inhalert insulin.
+- **Spesifikk for denne indikasjonen:** aminoglykosider kan skade hornhinneepitel (PMID 2707046), noe som er bekymringsfullt ved eksposjonskeratitt med skadet overflate.
+
+Preparatomtalens advarsler og kontraindikasjoner er ikke tilgjengelige i de sammenstilte dataene og må innhentes.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-De to identifiserte kliniske forsøkene har ukjent status og er ikke spesifikke for tobramycin eller eksponeringskratitt, og støttelitteraturen er begrenset til kasuistikker og in vitro-studier. Kritisk sett anerkjenner den mekanistiske begrunnelsen selv at tobramycin ikke behandler den underliggende årsaken til eksponeringskratitt (lagoftalmos-relatert korneal tørring/skade) — det kan bare adressere sekundær bakterieinfeksjon, noe som gjør dette til en adjuvant snarere enn primær indikasjon.
+Prediksjonen har svært høy modellscore, men ingen direkte kliniske eller litterære data for eksposjonskeratitt. Den tilgjengelige litteraturen er indirekte og peker i tillegg på en mulig toksisitet for hornhinneepitel. Begge norske godkjenninger er avsluttet, og preparatomtalen mangler.
 
-**For å fortsette er følgende nødvendig:**
-- TFDA/regulatoriske pakningsvedlegg data (advarsler, kontraindikasjoner) — for tiden en blokkerende datagap for sikkerhetsvurdering før oppstart (DG001)
-- Verifisert dokumentasjon av virkningsmekanisme fra DrugBank eller tilsvarende kilde (DG002)
-- Prospektive, kontrollerte studier som spesifikt evaluerer topikalt tobramycin for eksponeringskratitt eller forebyggelse/behandling av sekundær infeksjon
-- Avklaring av om det tiltenkte brukstilfelle er profylaktisk (forebyggelse av sekundær infeksjon) kontra terapeutisk (behandling av etablert infeksjon) ved eksponeringskratitt
+**For å gå videre kreves:**
+- Innhenting og gjennomgang av preparatomtale (advarsler og kontraindikasjoner), som er en blokkerende datamangel
+- Data om virkningsmekanisme
+- Prekliniske eller kliniske data på tobramycin ved eksposjonskeratitt, inkludert vurdering av epiteltoksisitet
+- Avklaring av administrasjonsvei (lokal øyeadministrasjon) og tilgjengelige formuleringer i Norge
 
+---
+
+### Andre predikerte indikasjoner (kort oversikt)
+
+Av de øvrige ni prediksjonene har bare **otitis externa** (evidensnivå L4, anbefaling «forskningsspørsmål») noen praktisk støtte: tobramycin virker mot *Pseudomonas aeruginosa* og *Staphylococcus aureus*, og det finnes kasuistikker om malign otitis externa. Litteraturen er likevel hovedsakelig mikrobiologi og resistensovervåking, ofte hos hunder, og ototoksisitet ved perforert trommehinne må vurderes. De øvrige (blant annet Chagas kardiomyopati, infeksjonsrelatert hemolytisk-uremisk syndrom, epidemisk keratokonjunktivitt og postinfeksiøs vaskulitt) mangler enten støtte eller er mekanistisk lite plausible. De to fase 3-studiene under «post-bacterial disorder» (NCT01069705, NCT00982930) gjelder den allerede godkjente indikasjonen cystisk fibrose og er ikke reell repurposing-evidens.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Givosiran
-parent: Høy evidens (L1-L2)
-nav_order: 161
-evidence_level: L2
+parent: Kun modellprediksjon (L5)
+nav_order: 189
+evidence_level: L5
 indication_count: 10
 ---
 
 # Givosiran
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,95 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Givosiran: Fra akutt hepatisk porfyri til porfyri på grunn av ALA-dehydratase-mangel (ADP)
+# Givosiran: Fra hepatiske porfyrier til hepatoportal sklerose
 
-## Sammendrag i en setning
+## Oppsummering i korte trekk
 
-> Givosiran er et siRNA-terapeutikum som brukes ved akutt hepatisk porfyri (AHP), en gruppe arvelige forstyrrelser i hemesyntesen.
-> Blant TxGNN-modellens prediksjoner viser kun **porfyri på grunn av ALA-dehydratase-mangel (ADP)** — en sjelden AHP-undertype — en genuin mekanistisk sammenheng og støttende kliniske/litteraturbevis;
-> de ni andre høyest rangerte prediksjoner (hepatoportal sklerose, portalventrombose, hepatopulmonal syndrom, HBV/HCV-infeksjon, osv.) er flagget i selve evidenspakken som modellArtefakter som deler bare en "lever"-node, med **ingen mekanistisk grunnlag og null støttende studier**.
+Givosiran er et siRNA-legemiddel som opprinnelig brukes mot hepatiske (akutte) porfyrier.
+TxGNN-modellen forutsier at det kan ha effekt mot **hepatoportal sklerose**, med en svært høy modellscore.
+Prediksjonen støttes foreløpig av **0 kliniske studier** og **0 publikasjoner**. Den er kun modellbasert (evidensnivå L5).
 
 ---
 
-## Hurtig oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Akutt hepatisk porfyri (AHP) — utledet fra litteratur; ingen formell regulatorisk indiksjonstekst tilgjengelig |
-| Predikert ny indikasjon | Porfyri på grunn av ALA-dehydratase-mangel (ADP) |
-| TxGNN-prediksjonspoeng | 99.91% |
-| Evidensnivå | L2 |
-| Markedsstatus i Norge | Ikke på markedet |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Fortsett med beskyttelsestiltak |
+| Opprinnelig indikasjon | Hepatiske porfyrier |
+| Predikert ny indikasjon | Hepatoportal sklerose |
+| TxGNN-prediksjonsscore | 99,999 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrerte tillatelser |
+| Antall godkjenninger | 1 (0 gyldige, 1 avregistrert) |
+| Anbefalt beslutning | Hold (avvent) |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-For tiden er detaljerte data om virkningsmekanisme fra en formell kilde ikke tilgjengelige. Basert på litteraturbevisene som ble samlet, er givosiran et siRNA-terapeutikum som demper hepatisk **ALAS1** (5-aminolevulinsyre-syntase 1) mRNA, og reduserer hepatisk overproduksjon av de nevrotoksiske mellomproduktene **ALA** og **PBG**. Denne mekanismen er grunnlaget for godkjenningen ved akutt hepatisk porfyri (AHP), en familie av fire genetiske lidelser — inkludert akutt intermittent porfyri, arvelig koproporfi, variabel porfyri og **porfyri på grunn av ALA-dehydratase-mangel (ADP)** — som deler samme nedstrøms patologi av ALAS1-drevet ALA/PBG-akkumulering.
+Givosiran er et siRNA som rettes mot ALAS1 i leverceller (hepatocytter). Det senker produksjonen av de nevrotoksiske heme-forstadiene ALA og PBG. Det er denne mekanismen som gjør legemidlet nyttig ved akutte hepatiske porfyrier. Detaljerte mekanismedata utover dette er ikke tilgjengelige i datagrunnlaget.
 
-ADP er derfor ikke egentlig en "ny" indikasjon i biologisk forstand, men en ultra-sjelden undertype innenfor AHP-familien som givosarans mekanisme direkte rammer. Dette forklarer hvorfor denne kandidaten — ulikt modellens høyest rangerte resultater — har genuin mekanistisk og klinisk støtte (L2, fase 3 ENVISION-data, en ADP-spesifikk saksrapport).
+Hepatoportal sklerose er en tilstand med ikke-cirrotisk portal hypertensjon. Den kjennetegnes av vaskulære og fibrotiske endringer i leveren. Det er ikke påvist noen plausibel mekanistisk kobling mellom ALAS1-hemming og disse endringene. Den høye scoren skyldes mest sannsynlig at sykdommene ligger nær hverandre i kunnskapsgrafen (felles lever-relaterte naboer). Den bygger ikke på en mekanisme som givosiran faktisk påvirker.
 
-**Viktig forbehold angående rangering:** de ni andre TxGNN-prediksjoner i denne evidenspakken (rangeringer 1–8 og 10, inkludert hepatoportal sklerose, portalventrombose, hepatopulmonal syndrom, HBV/HCV-infeksjon, fenylalaninmetabolismeforstyrrelser, osv.) ble eksplisitt annotert i kildedataene som å ha **ingen mekanistisk sammenheng** og **null klinisk forsøks- eller litteraturbevis** — de ser ut til å score høyt bare fordi de deler en "lever"-node med givosiran i kunnskapsgrafen. Alle ble vurdert L5/S0/Hold. Denne rapporten fokuserer derfor på den ene prediksjonen (ADP, rangering 9) som passerte en minimal plausibilitetskontroll; de høyere rangerte prediksjoner bør ikke forfølges uten uavhengig mekanistisk begrunnelse.
-
----
-
-## Klinisk forsøksbevis
-
-For tiden er det ingen relaterte kliniske forsøk registrert (fase 3-forsøket ENVISION for AHP bredt blir referert bare via post-hoc litteraturanalyse, ikke som en registrert forsøksjournal i denne evidenspakken).
+Prediksjonen bør derfor regnes som en hypotese generert av modellen, uten støtte fra kliniske eller litterære data.
 
 ---
 
-## Litteraturbevis
+## Klinisk evidens
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
-|------|-----|------|------|---------|
-| [36028858](https://pubmed.ncbi.nlm.nih.gov/36028858/) | 2022 | RCT (fase 3, ENVISION) | Orphanet J Rare Dis | Post-hoc-analyse av det placebokontrollerte ENVISION-forsøket som evaluerte sykdomsbyrde hos AHP-pasienter ≥12 år behandlet med givosiran |
-| [40312531](https://pubmed.ncbi.nlm.nih.gov/40312531/) | 2025 | Kohorte/klinisk studie | Scientific Reports | Studie med utvidet tilgang hos 10 japanske AHP-pasienter som mottok månedlig SC givosiran 2,5 mg/kg; effektivitets- og sikkerhetdata |
-| [35067977](https://pubmed.ncbi.nlm.nih.gov/35067977/) | 2022 | Kohorte (virkelig verden) | J Intern Med | RNAi-terapi med givosiran reduserer angrepshyppigheten betydelig ved akutt intermittent porfyri |
-| [37027823](https://pubmed.ncbi.nlm.nih.gov/37027823/) | 2023 | Anmeldelse | Blood | Oversikt over RNA-interferensterapiens virkningsmekanisme (ALAS1-dempning) på tvers av de akutte hepatiske porfirier |
-| [39313028](https://pubmed.ncbi.nlm.nih.gov/39313028/) | 2024 | Anmeldelse | Revista Clinica Espanola | Terapeutisk tilnærming til akutte kriser ved hepatiske porfirier, inkludert ALA-dehydratase-mangel undertype |
-| [35734365](https://pubmed.ncbi.nlm.nih.gov/35734365/) | 2022 | Anmeldelse | Drug Des Devel Ther | Design, utvikling og terapeutisk plassering av givosiran hos voksen AHP |
-| [36883675](https://pubmed.ncbi.nlm.nih.gov/36883675/) | 2023 | PK-PD-modellering | CPT: Pharmacometrics & Systems Pharmacology | PK-PD-modell av reduksjon av urinært ALA etter givosiran-behandling, samlet fase I-III-data |
-| [35991568](https://pubmed.ncbi.nlm.nih.gov/35991568/) | 2022 | Saksrapport (ikke-respons) | Frontiers in Genetics | Rapporterer **manglende respons** på givosiran i et bekreftet ALAD-porfyri (ADP)-tilfelle — et viktig sikkerhets-/effektivitets-advarselssignal |
+Foreløpig ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+Foreløpig ingen relatert litteratur tilgjengelig for hepatoportal sklerose.
+
+**Merk:** Blant de ti øverste prediksjonene er det bare én som har publisert litteratur, nemlig **porfyri som skyldes ALA-dehydratase-mangel (ADP)**. Dette er en ultrasjelden akutt hepatisk porfyri nær givosirans opprinnelige bruksområde. Evidensen er indirekte og blandet:
+- Fase 3-studien ENVISION (hovedsakelig akutt intermittent porfyri) er omtalt i [35067977](https://pubmed.ncbi.nlm.nih.gov/35067977/) og [36028858](https://pubmed.ncbi.nlm.nih.gov/36028858/).
+- Et kasuistisk innslag beskriver manglende respons på givosiran ved ADP: [35991568](https://pubmed.ncbi.nlm.nih.gov/35991568/).
+- En rapport fra 2026 beskriver en pasient som trengte hemming av både hepatisk og erytroid ALA-produksjon: [42443962](https://pubmed.ncbi.nlm.nih.gov/42443962/).
+
+Dette tyder på at ALAS1-hemming i lever alene kan være utilstrekkelig hos enkelte pasienter. Denne indikasjonen er vurdert til L4 og forskningsspørsmål, ikke til selve rapportens hovedindikasjon.
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Givosiran er for tiden **ikke på markedet i Norge** (0 godkjennelser på arkiv). Ingen produkt-, doseringsform- eller godkjent-indikasjondata er tilgjengelig for dette markedet.
+| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004775 | Givlaari | Ikke oppgitt | Hepatiske porfyrier |
+
+Tillatelsen er registrert som avregistrert, og det finnes ingen gyldige tillatelser i dataene.
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og interaksjondata er for tiden ikke tilgjengelige i evidenspakken — dette er flagget som et **blokkerande** datakløft (DG001) som må løses før noen sikkerhetsgjennomgang kan fortsette.)
+- **Legemiddelinteraksjoner:** Totalt 87 interaksjoner er registrert. Blant de 20 som er gjennomgått, er én klassifisert som **alvorlig (Major)**: **eliglustat**. De øvrige er **moderate**, blant annet:
+  - amfotericin B (flere formuleringer)
+  - aminoglykosider (kanamycin, neomycin, streptomycin) og vankomycin
+  - 5-ASA-preparater (mesalazin, balsalazid, olsalazin, sulfasalazin)
+  - alosetron, metoklopramid, naltrekson, eksenatid
+  - fenfluramin, deksfenfluramin og koffein
+
+For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparatomtalen (SPC/pakningsvedlegg).
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Fortsett med beskyttelsestiltak**
+**Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Givosarans kjernesekanisme (hepatisk ALAS1-dempning) er direkte relevant for ADP, og denne sammenhengen er støttet av fase 3 ENVISION sykdomsbyrde-data samt flere anmeldelser av ALAS1/ALA-PBG-banen. Imidlertid er ADP en ultra-sjelden AHP-undertype med praktisk talt ingen ADP-spesifikk forsøksdata, og den ene publiserte ADP-saksrapporten viser **ingen klinisk respons** på givosiran — så den mekanistiske begrunnelsen garanterer ikke effektivitet i denne undergruppen, og beskyttelsestiltak (f.eks. bruk på forsøksbasis med tett overvåking) er berettiget snarere enn en full "Gå".
+Prediksjonen for hepatoportal sklerose er rent modellbasert (L5), uten kliniske studier, uten litteratur og uten plausibel mekanistisk kobling til ALAS1-hemming. I tillegg er legemidlet kun registrert med avregistrert tillatelse i Norge.
 
-Separat mangler de ni andre TxGNN-predikerte indikasjonene i denne evidenspakken mekanistisk og bevisbasert støtte og bør holdes (**Hold**) mens man venter på uavhengig validering — de blir ikke behandlet videre i denne rapporten.
-
-**For å fortsette er følgende nødvendig:**
-- TFDA/regulatorisk-kilde merkedata (viktige advarsler, kontraindikasjoner, DDI) — blokkerer for tiden (DG001)
-- Formell MOA-dokumentasjon fra DrugBank eller tilsvarende primærkilde (DG002)
-- ADP-undergruppespecifikk effektivitets-/sikkerhetdata utover saksrapporten med den eneste ikke-respondenten
-- Status for markedsinngang i Norge og vurdering av regulatorisk godkjenningsvei, siden stoffet ikke er på markedet der for tiden
-- En strukturert sikkerhetsovervåkingsplan dersom off-label eller utvidet tilgang i ADP vurderes
-
+**For å gå videre kreves følgende:**
+- Hente og analysere preparatomtalen for advarsler og kontraindikasjoner. Dette er en blokkerende datamangel for sikkerhetsscreening.
+- Mer detaljerte mekanismedata for givosiran fra DrugBank.
+- Prekliniske eller mekanistiske data som kan koble ALAS1-hemming til portal hypertensjon eller levervaskulær sykdom.
+- Avklare gjeldende markedsstatus og tilgjengelighet i Norge.
+- Vurdere å prioritere ADP-porfyri som et mer forankret forskningsspørsmål, med oppmerksomhet på manglende respons i enkelte tilfeller.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

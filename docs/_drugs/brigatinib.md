@@ -2,7 +2,7 @@
 layout: default
 title: Brigatinib
 parent: Kun modellprediksjon (L5)
-nav_order: 57
+nav_order: 64
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,91 +29,106 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Brigatinib: Fra ALK-positiv NSCLC til gingivale fibromatose
+# Brigatinib: Fra ikke-småcellet lungekreft til gingival fibromatose
 
-## Sammendrag på én setning
+## Oppsummering i en setning
 
-Brigatinib er en andregenrasjons ALK/ROS1-tyrosinkinaseinhibitor hvis etablerte kliniske bruk – dokumentert gjennom denne evidenspakkens egen litteratur – er ALK-positiv ikke-småcellet lungekreft (NSCLC); dette fanges imidlertid ikke opp i det strukturerte `original_indications`-feltet (datagap). TxGNN-modellens **høyest rangerte** prediksjon er **gingivale fibromatose**, men dette spesifikke signalet støttes av **0 kliniske forsøk** og **0 publikasjoner**, og evidenspakkens egen mekanistiske kommentar flagget eksplisitt det som sannsynlig kunnskapsgrafinnebygging-støy snarere enn et genuint biologisk signal.
+Brigatinib er en ALK-hemmer (tyrosinkinasehemmer) som opprinnelig brukes til behandling av ikke-småcellet lungekreft.
+TxGNN-modellen forutsier at legemidlet kan ha effekt mot **gingival fibromatose**, men det finnes **ingen kliniske studier og ingen publikasjoner** som støtter denne prediksjonen. Prediksjonen er kun modellbasert.
 
 ---
 
 ## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Original indikasjon | ALK-positiv NSCLC (sluttet fra litteratur innenfor denne pakken; ikke registrert i strukturert lisensdata — se Datagap) |
-| Predikert ny indikasjon | Gingivale fibromatose |
-| TxGNN prediksjonsscore | 99.89% |
+| Opprinnelig indikasjon | Ikke-småcellet lungekreft (Carcinoma, Non-Small-Cell Lung) |
+| Predikert ny indikasjon | Gingival fibromatose |
+| TxGNN-prediksjonsscore | 99,89 % |
 | Evidensnivå | L5 |
-| Status på Norges marked | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | **Avvente** |
+| Markedsstatus i Norge | Kun avregistrert/kansellert |
+| Antall markedsføringstillatelser | 1 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte virkningsmekanisme-data er ikke tilgjengelige i det strukturerte `original_moa`-feltet (markert som et datagap). Imidlertid identifiserer evidenspakkens egen begrunnelsestekst gjentatte ganger brigatinib som en **andregenrasjons ALK/ROS1-tyrosinkinaseinhibitor**, i samsvar med dens kjente kliniske rolle i ALK-positiv NSCLC.
+Det foreligger for øyeblikket ingen detaljerte data om virkningsmekanisme i de samlede dataene for denne rapporten. Brigatinib er en neste generasjons ALK-hemmer med aktivitet mot flere tyrosinkinaser. Effekten er godt dokumentert ved ALK-positiv ikke-småcellet lungekreft.
 
-For den høyest rangerte prediksjonen, **gingivale fibromatose**, eksisterer ingen mekanistisk sammenheng: denne tilstanden drives av gener som *SOS1* og *REST*, eller av generell fibroblastproliferasjon, og har ingen kjent relasjon til ALK/ROS1-signalering. Det finnes null støttende kliniske forsøk eller publikasjoner. Evidenspakkens egen ombruk-begrunnelse konkluderer eksplisitt at denne høye TxGNN-scoren sannsynligvis er embedding-støy snarere enn et ekte signal — en konklusjon denne rapporten godtar.
+Det er ikke dokumentert noen plausibel mekanistisk sammenheng mellom ALK-/multikinasehemming og gingival fibromatose, som er en bindevevssykdom med gingival overvekst. Den høye modellscoren (0,999) er derfor ikke støttet av biologisk eller klinisk evidens i de tilgjengelige dataene. Prediksjonen bør betraktes som en hypotese.
 
-**Viktig kontekst utover rangering 1:** av de 10 prediksjoner i denne batchen, 7 (rangeringer 1–4, 6, 7, 9) har ingen støttende litteratur og får riktig score L5/Avvente. De resterende 3 (rangeringer 5, 8, 10) når L4/"Forskningsspørsmål," men nærmere lesning viser at alle tre lider av **sykdomsetikett-mismatch** snarere enn direkte støtte for den navngitte indikasjonen:
-- **Rangering 5 ("benign lungetumon")** — den siterte litteraturen (ALTA-1L, NEJM 2018/2021) handler faktisk om ALK+ *ondartet* NSCLC, dvs. brigatinibs kjente godkjente bruk, ikke en ny indikasjon for benigntumon.
-- **Rangering 8 ("lunges germcelletumon")** — litteraturen gjelder brigatinibaktivitet i andre sjeldne ALK-fusjonpositive tumorer (neuroblastom, feokromosytom, LCNEC), ikke germcelletumorer spesifikt; dette er indirekte, pan-tumor basket-evidens bare.
-- **Rangering 10 ("Leukomelanoderma-infantilisme-intellektuell funksjonshemning-hypodontia-hypotrikose syndrom")** — dette er det mest bemerkelsesverdige funnet i datasettet. Den faktiske litteraturen (inkludert et 2024 *NEJM*-studie, PMID 38904277) dokumenterer brigatinibaktivitet i **NF2-relatert schwannomatose**, en urelatert men reell og mekanistisk plausibel kandidatindikasjon som ingenting har å gjøre med syndromet navngitt i denne raden. Dette virker å være et genuint ombruk-signal feilkoblet til feil sykdomsetikett og ville fortjene en dedikert, riktig-merket evaluering.
+### Andre predikerte indikasjoner (kontekst)
 
-Ingen av dette støtter imidlertid rang-1-kandidaten (gingivale fibromatose) som denne rapporten formelt evaluerer.
+De ti øverste prediksjonene mangler alle støtte fra kliniske studier. Noen funn fra litteraturen er likevel verdt å merke seg som separate forskningsspørsmål, uten at de støtter de predikerte sykdommene:
 
----
-
-## Evidens fra kliniske forsøk
-
-For tiden er det ingen relaterte kliniske forsøk registrert.
+- **Lungens benigne neoplasmer (rang 5):** Litteraturtreffene gjelder ALK-positiv ikke-småcellet lungekreft (blant annet fase 3-studien ALTA-1L), altså den allerede godkjente indikasjonen. De støtter ikke benign lungeneoplasi.
+- **Lungens kimcelletumor (rang 8):** Litteraturen omhandler ikke kimcelletumorer, men viser indirekte ALK-relatert aktivitet i andre svulster (nevroblastom, feokromocytom, storcellet nevroendokrint lungekarsinom).
+- **Leukomelanoderma-syndrom (rang 10):** Litteraturen gjelder NF2-relatert schwannomatose, ikke det predikerte syndromet. En NEJM-rapport fra 2024 (PMID 38904277) beskriver brigatinib ved NF2-relatert schwannomatose med progredierende svulster. Dette er et eget forskningsspørsmål.
 
 ---
 
-## Litteraturbevis
+## Kliniske studier
 
-For tiden er ingen relatert litteratur tilgjengelig.
-
----
-
-## Informasjon om Norges marked
-
-Brigatinib er ikke for tiden markedsført i Norge. Ingen autorisasjoner er registrert (`total_licenses: 0`).
+Det er for øyeblikket ingen relaterte kliniske studier registrert for gingival fibromatose.
 
 ---
 
-## Cytotoksisitet (kun for antineoplastiske legemidler)
+## Litteraturevidens
 
-| Element | Innhold |
+Det er for øyeblikket ingen relevant litteratur tilgjengelig for gingival fibromatose.
+
+---
+
+## Markedsinformasjon for Norge
+
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004248 | Alunbrig | Ikke oppgitt | Ikke-småcellet lungekreft (Carcinoma, Non-Small-Cell Lung) |
+
+Den eneste tillatelsen er registrert som kansellert (produsent: Takeda Pharma A/S).
+
+---
+
+## Cytotoksisitet
+
+| Punkt | Innhold |
 |------|------|
-| Cytotoksisitet-klassifisering | Målrettet terapi (ALK/ROS1-tyrosinkinaseinhibitor) |
-| Risiko for myelosuppresjon | Se pakningsvedlegg for advarsler og forholdsregler |
-| Emetogenisitet-klassifisering | Se pakningsvedlegg for advarsler og forholdsregler |
-| Overvåkingspunkter | Se pakningsvedlegg for advarsler og forholdsregler |
-| Håndteringsbeskyttelse | Se pakningsvedlegg for advarsler og forholdsregler |
+| Cytotoksisitetsklassifisering | Målrettet terapi (ALK-/multikinasehemmer) |
+| Myelosuppresjonsrisiko | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+| Emetogenisitetsklassifisering | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+| Monitoreringspunkter | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+| Håndteringsbeskyttelse | Se pakningsvedlegg for advarsler og forsiktighetsregler |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegg for sikkerhetsinformasjon. Merk: TFDA/DMP-etikett-advarsler og kontraindikasjoner er flagget i denne evidenspakken som et **blokkerende** datagap (DG001) — dette legemidlet kan ikke gå videre til en S1 sikkerhetsvurdering før etikett-data er innhentet.
+- **Legemiddelinteraksjoner:** Interaksjonsspørringen er gjennomført og ga 100 registrerte interaksjoner. Blant de første 20 som er vist, er følgende klassifisert som **alvorlige (Major)**:
+  - Aprepitant
+  - Deksametason
+  - Klaritromycin
+
+  Flere interaksjoner er klassifisert som moderate, blant andre acarbose, famotidin, ranitidin, rabeprazol, metformin, pioglitazon, loperamid, morfin, cimetidin, cisaprid, klotrimazol og dapagliflozin.
+- **Annen sikkerhetsinformasjon fra litteraturen:** En kasuistikk (PMID 34987411) beskriver dødelig tumorlysesyndrom indusert av brigatinib hos en pasient med ALK-rearrangert lungeadenokarsinom. Dette er et sikkerhetssignal.
+
+Se pakningsvedlegget for fullstendig informasjon om advarsler og kontraindikasjoner.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvente**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den høyest rangerte prediksjonen (gingivale fibromatose) har ingen klinisk, litteraturbasert, eller mekanistisk støtte og er vurdert i killedataene selv som sannsynlig modellstøy. Kombinert med legemidlets ikke-markedsførte status i Norge og et blokkerende gap i etikett-/sikkerheetsdata, finnes det ikke grunnlag for å fremme denne spesifikke kandidaten.
+Prediksjonen for gingival fibromatose er utelukkende modellbasert (evidensnivå L5), uten kliniske studier, litteratur eller en dokumentert mekanistisk sammenheng. I tillegg er den eneste norske tillatelsen kansellert.
 
-**For å gå videre, kreves følgende:**
-- TFDA/DMP-etikett (advarsler, kontraindikasjoner) — Blokkering-gap (DG001)
-- Bekreftet virkningsmekanisme-data via DrugBank API — Høy prioritet-gap (DG002)
-- Dersom videre arbeid med ombruk av dette legemidlet planlegges, åpne en **separat, riktig-merket evaluering for NF2-relatert schwannomatose**, basert på den ekte fase 2-evidensen (NEJM 2024) som fremkom under rank-10-inngangen — dette er en vesentlig sterkere kandidat enn noen indikasjon som for tiden er rangert i denne batchen
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Advarsler og kontraindikasjoner fra pakningsvedlegget (blokkerende datamangel for sikkerhetsscreening)
+- Prekliniske studier som kan teste en mekanistisk hypotese for gingival fibromatose
+- Avklaring av rutekompatibilitet og administrasjonsvei
+- Vurdering av om andre rangerte kandidater med indirekte støtte (for eksempel NF2-relatert schwannomatose) bør undersøkes som egne forskningsspørsmål
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

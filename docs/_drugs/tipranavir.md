@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tipranavir
-parent: Kun modellprediksjon (L5)
-nav_order: 357
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 420
+evidence_level: L4
 indication_count: 10
 ---
 
 # Tipranavir
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,85 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tipranavir: Fra HIV-1-infeksjon til felint ervervet immunsviktssyndrom
+# Tipranavir: Fra HIV-infeksjon til felint ervervet immunsviktsyndrom
 
-## Sammendraging i en setning
+## Oppsummering i én setning
 
-> Tipranavir (DB00932) er offentlig kjent som en ikke-peptidisk HIV-1-proteasehemmer, selv om evidenspakningen inneholder datahull for både den opprinnelige indikasjonen og virkningsmekanismen.
-> TxGNN-modellens topprangerte prediksjon er **felint ervervet immunsviktssyndrom (FIV)**, en veterinærsykdom — dette er **ikke en levedyktig menneskelig indikasjon** og reflekterer en artsspecifikk artefakt i kunnskapsgrafen snarere enn et genuint ombruksignal.
-> Ingen kliniske forsøk eller litteratur støtter direkte denne toppprediksjonen; de eneste materielt dokumenterte kandidatene (rangert #5–#6) er bare repetitioner av tipranavirens allerede kjente HIV/AIDS-indikasjon, ikke nye indikasjoner.
+Tipranavir er en ikke-peptidisk HIV-1-proteasehemmer som opprinnelig ble brukt til behandling av HIV-infeksjon.
+TxGNN-modellen predikerer at legemidlet kan ha effekt mot **felint ervervet immunsviktsyndrom** (katteens immunsviktsykdom, en veterinær tilstand),
+men i dataene som er samlet inn for denne rapporten finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter prediksjonen.
 
 ---
 
-## Hurtig oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|-------|---------|
-| Opprinnelig indikasjon | Ikke tilgjengelig i datasett (datahull — ingen `approved_indication_text` på fil; tipranavir er offentlig kjent som en HIV-1-proteasehemmer for behandlingserfarne pasienter) |
-| Forutsagt ny indikasjon | Felint ervervet immunsviktssyndrom (veterinærsykdom; ikke aktuelt for mennesker) |
-| TxGNN-prediksjonspoengsum | 99.99% |
-| Bevisnivå | L5 |
-| Status for norsk marked | Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt handling | Avvent |
+|------|------|
+| Opprinnelig indikasjon | HIV-infeksjon |
+| Predikert ny indikasjon | Felint ervervet immunsviktsyndrom |
+| TxGNN-prediksjonsscore | 99,99 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun trukket tilbake (avregistrert) |
+| Antall godkjenninger | 1 (0 gyldige, 1 trukket tilbake) |
+| Anbefalt beslutning | Hold (avvent) |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljert virkningsmekanismedata er ikke tilgjengelig i denne evidenspakningen (markert som blokeringskritisk datahull, DG001/DG002). Basert på offentlig kjent farmakologi som refereres konsistent gjennom evidenspakingens egen begrunnelsestekst, er tipranavir en ikke-peptidisk HIV-1-proteasehemmer som blokkerer spalting av virusets Gag-Pol polyprotein, historisk angitt for behandlingserfarne HIV-1-infiserte voksne.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Basert på kjent informasjon er tipranavir en HIV-1-proteasehemmer. Effekten ved HIV-infeksjon er etablert, og mekanistisk kan den være aktuell for beslektede lentivirus.
 
-Topprangerte prediksjon, felint ervervet immunsviktssyndrom (FIV), scorer ekstremt høyt i TxGNN, men er en **veterinærsykdom som er artsspecifikk**. Likheten som driver denne scoren er en strukturell homologi mellom HIV-1 og lentiviral (FIV) proteasene — en kjent embedding-artefakt der modellen blander kryssarts-proteasehomologi med terapeutisk relevans. Denne veien har ingen menneskelig klinisk utviklingsrute og bør ikke tolkes som en genuint ombruksmulighet. Det samme mønsteret forklarer ranger #2–#4 og #7–#10 (SIV-infeksjon, en sjelden nevroutviklingsforstyrrelse, en foreldet hyperlipidemiediagnose, og flere urelaterte godartede svulster): ingen av disse har en plausibel mekanistisk sammenheng med proteasehemmning, og flere (f.eks. hyperlipidemi) er mekanistisk *motsagt* av tipranavirens kjente lipidrelaterte bivirkningsprofil.
+Felint immunsviktvirus (FIV) er et lentivirus med en protease som er i slekt med HIV-1-proteasen, så en effekt er biologisk plausibel. FIV-proteasen skiller seg likevel fra HIV-proteasen i substratspesifisitet og følsomhet for hemmere, og ingen data om dette er tilgjengelige her. Den høye TxGNN-scoren gjenspeiler trolig likhet i kunnskapsgrafen med HIV-relaterte sykdommer.
 
-De eneste kandidatene med noen vesentlig evidensbase er rangert #5 ("AIDS-relatert kompleks") og #6 ("medfødt menneskelig immunsviktsvirus"), begge scoret L4/S1 ("Forskningsspørsmål"). Imidlertid er disse ikke nye indikasjoner — de er historiske/pediatriske klassifiseringer innenfor HIV/AIDS, sykdomsområdet som tipranavir allerede er kjent for å behandle. Rank #6s støttende forsøk er nesten helt for *andre* antiretrovirale midler (cabotegravir, dolutegravir, rilpivirine) og gir bare klassenivåstøtte, ikke legemiddelspesifikk støtte.
+Det er viktig å merke seg at dette er en veterinær indikasjon uten direkte klinisk relevans for mennesker. Legemidlet er dessuten avregistrert i Norge.
 
----
-
-## Klinisk forsøksbevis
-
-Det er for øyeblikket ingen relaterte kliniske forsøk registrert.
-
-*(Merk: topprangerte prediksjon, FIV, har ingen klinisk forsøksbevis, som forventet for en ikke-menneskelig sykdom. Den mer mekanistisk sammenhengene, men ikke-nye kandidaten "medfødt menneskelig immunsviktsvirus" har 9 tilknyttede forsøk, ingen spesifikk for tipranavir — se begrunnelse ovenfor.)*
+Andre prediksjoner fra modellen er: simian immunsviktvirus-infeksjon (score 99,99 %, hovedsakelig en dyremodell hos ikke-menneskelige primater), AIDS-relatert kompleks og medfødt HIV (begge overlapper med den godkjente HIV-indikasjonen, og er derfor ikke reell repurposing), samt en rekke svulstdiagnoser og en nevroutviklingsforstyrrelse uten sannsynlig mekanistisk forbindelse. For «obsolete familial combined hyperlipidemia» er sammenhengen trolig motsatt: proteasehemmere gir ofte dyslipidemi som bivirkning.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske studier
 
-Det er for øyeblikket ingen relatert litteratur tilgjengelig.
-
----
-
-## Norsk markedsinformasjon
-
-Tipranavir er ikke for øyeblikket markedsført i Norge (`market_status: Not marketed`) og har 0 registrerte godkjennelser. Ingen lisensdata er tilgjengelige for denne evidenspakningen.
+Det er foreløpig ingen registrerte kliniske studier knyttet til denne prediksjonen.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Se pakningsvedlegget for sikkerhetsinformasjon.
+Det foreligger foreløpig ingen relevant litteratur.
 
 ---
 
-## Konklusjon og neste trinn
+## Informasjon om det norske markedet
 
-**Beslutning: Avvent**
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000631 | Aptivus (Boehringer Ingelheim International GmbH) | Ikke oppgitt | HIV-infeksjon (status: trukket tilbake) |
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Kontraindikasjoner fra kunnskapsgrafen (PrimeKG, ikke preparatomtale):** leversvikt, leversykdom, galleblæresykdom, hyperglykemi, diabetes mellitus, diabetisk ketoacidose, kronisk og øvrig hepatitt C, kronisk hepatitt B, hepatitt, blodkoagulasjonsforstyrrelse, hemofili (inkludert symptomatisk hemofili hos kvinnelige bærere), hypertriglyseridemi, hyperbilirubinemi (inkludert arvelig form og Gilberts syndrom), skade, hjernekreft/hjernesvulst og intrakraniell blødning.
+- **Legemiddelinteraksjoner:** 100 interaksjoner er registrert. Blant de første 20 som er vist:
+  - **Alvorlige (Major):** acetylsalisylsyre og eluksadolin.
+  - **Moderate:** blant annet antidiabetika (akarbose, albiglutid, alogliptin, metformin, pioglitazon, kanagliflozin, klorpropamid, dapagliflozin, dulaglutid, empagliflozin, linagliptin), loperamid, deksametason, kolsyre, klaritromycin, magnesiumoksid, eliglustat og metronidazol (topikal).
+
+Se preparatomtalen for fullstendig sikkerhetsinformasjon, inkludert advarsler. Data om advarsler og kontraindikasjoner fra preparatomtalen mangler i datagrunnlaget.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Topprangerte TxGNN-prediksjon (FIV) er en veterinærsykdom uten noen plausibel menneskelig utviklingsbane, og ingen av de øvrige topp-10-prediksjoner utgjør en troverdig, bevisbasert *ny* menneskelig indikasjon — de eneste vitenskapelig konsistente kandidatene (AIDS-relatert kompleks, medfødt HIV) gjentar rett og slett tipranavirens kjente HIV/AIDS-indikasjon i stedet for å avdekke ny terapeutisk potensial. Kombinert med det kritiske fraværet av TFDA/officiell merkedata, kvalifiserer ikke denne kandidaten til å avansere forbi S1-screening.
+Prediksjonen mangler både kliniske studier og litteratur, og den predikerte indikasjonen er veterinær med liten relevans for mennesker. Legemidlet er i tillegg avregistrert i Norge, og kunnskapsgrafen viser omfattende kontraindikasjoner knyttet til lever, blødning og stoffskifte.
 
 **For å gå videre kreves følgende:**
-- Offisiell merke-/monografidata (TFDA eller tilsvarende) for å løse DG001 (advarsler/kontraindikasjoner) og DG002 (MOA)
-- Bekreftet data for opprinnelig indikasjon for å muliggjøre gyldig MOA-til-ny-indikasjon-sammenligning
-- Ny kjøring av TxGNN-filtrering for å ekskludere ikke-menneskelige sykdomsnoder og gjentagelser av legemidlets kjente indikasjon før rangeringen anses som handlingsbar
-- Hvis en genuint ny indikasjon ønskes, evaluer lavere rangerte kandidater med uavhengig mekanistisk plausibilitet utover proteasehomologi-artefakter
-
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Data om virkningsmekanisme
+- Prekliniske data om hemming av FIV-protease, eller en vurdering av om en human indikasjon i det hele tatt er relevant
+- Vurdering av om prediksjonene bør prioriteres, gitt at flere overlapper med den allerede godkjente HIV-indikasjonen
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

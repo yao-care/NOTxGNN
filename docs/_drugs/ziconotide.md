@@ -2,7 +2,7 @@
 layout: default
 title: Ziconotide
 parent: Moderat evidens (L3-L4)
-nav_order: 391
+nav_order: 459
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Ziconotid: Fra alvorlig kronisk smerte til migrenelidelse
+# Ziconotid: Fra smerte til migrene
 
-## Sammendrag på en setning
+## Oppsummering i én setning
 
-> Ziconotid er en N-type kalsiumkanalblokker som administreres via intratekal infusjon, opprinnelig brukt til behandling av alvorlig kronisk smerte hos pasienter som ikke tåler eller ikke responderer på systemisk analgetika. TxGNN-modellen forutsier at det også kan være effektivt for **migrenelidelse**, men denne retningen støttes foreløpig bare av **1 case report** og **ingen kliniske studier**.
+Ziconotid er et legemiddel som gis i ryggmargskanalen (intratekalt), opprinnelig brukt mot alvorlig kronisk smerte.
+TxGNN-modellen forutsier at det kan være effektivt mot **migrene (migraine disorder)**,
+men evidensen er svak: **ingen kliniske studier** og **én kasuistikk** direkte om migrene (i tillegg to publikasjoner for en nært beslektet migrenediagnose).
 
 ---
 
@@ -41,67 +43,79 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Alvorlig kronisk smerte (intratekal terapi) – ikke spesifisert i bevispasen; basert på generell stoffkunnskap kun |
-| Forutsagt ny indikasjon | Migrenelidelse |
-| TxGNN-prediksjonspoeng | 99.92% |
-| Bevisnivå | L4 |
-| Norges markedsstatus | ✗ Ikke på markedet |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+| Opprinnelig indikasjon | Injeksjon i ryggmargskanalen; smerte |
+| Predikert ny indikasjon | Migrene (migraine disorder) |
+| TxGNN-prediksjonsscore | 99,92 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
+| Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige i bevispasen (original_moa: Datakløft). Basert på modellens egen begrunnelse, blokkerer ziconotid selektivt N-type (Cav2.2) spenningsstyrte kalsiumkanaler, som undertrykker frigjøring av nevrotransmittere – inkludert CGRP og glutamat – fra affente terminaler i ryggradsmargens dorsale horn og trigeminus-systemet. Dette er mekanistisk plausibelt for migrenekrankhet, siden CGRP-mediiert trigeminus-signalering er en vel etablert driver av migrenepatolagi.
+Data om virkningsmekanisme var ikke tilgjengelig i de innsamlede dataene for denne rapporten. Basert på kjent informasjon er ziconotid en selektiv blokker av N-type (Cav2.2) spenningsstyrte kalsiumkanaler. Den hemmer frisetting av nociseptive signalstoffer (som substans P, CGRP og glutamat) i ryggmargens bakhorn.
 
-Imidlertid er ziconotids bevist effektivitet i kronisk, alvorlig, behandlingsrefraktær smerte levert utelukkende via implantert intratekal pumpe – en invasiv leveringsrute med et smalt terapeutisk vindu (risiko for neuropsykiatriske og kognitive bivirkninger). Migrenekrankhet blir vanligvis håndtert med oral, subkutan eller nasal terapi; ekstrapolering fra intratekal kronisk-smerte-bruk til migrenekrankhet-behandling representerer et betydelig hopp både i mekanisme-til-klinikk-oversettelse og gjennomførbar administreringsrute.
+Siden CGRP og beslektet signaloverføring spiller en sentral rolle i trigeminovaskulære og sentrale smertebaner ved migrene, finnes en indirekte mekanistisk begrunnelse. Smerte er den opprinnelige indikasjonen, og migrene er en smertetilstand, noe som støtter koblingen.
 
-Det eneste direkte kliniske bevis som er identifisert, er en enkelt case report som beskriver oppløsning av kronisk migrenekrankhet med intratekal ziconotid hos en pasient som allerede bruker en intratekal pumpe til andre indikasjoner – dette er hypotesegenererende, ikke bekreftet, bevis.
-
----
-
-## Bevis fra kliniske studier
-
-For tiden er det ingen relaterte kliniske studier registrert.
+Begrunnelsen er likevel hovedsakelig teoretisk. Støtten begrenser seg til enkeltstående kasuistikker. Intratekal tilførsel, et smalt terapeutisk vindu og nevropsykiatriske bivirkninger gjør bruken lite praktisk for en så utbredt tilstand som migrene.
 
 ---
 
-## Bevis fra litteraturen
+## Klinisk studieevidens
 
-| PMID | År | Type | Journal | Viktige funn |
+Foreløpig er det ingen registrerte kliniske studier knyttet til denne indikasjonen.
+
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [26392785](https://pubmed.ncbi.nlm.nih.gov/26392785/) | 2015 | Case Report | Journal of Pain Research | Enkelt tilfelle av kronisk migrenekrankhet-hodepine-oppløsning etter intratekal ziconotid, hos en pasient med tidligere intratekal pumpe til kronisk smerte |
+| [35505713](https://pubmed.ncbi.nlm.nih.gov/35505713/) | 2022 | Kasuistikk/klinisk rapport | Cureus | Intratekal ziconotid foreslås som mulig behandling av kronisk migrene som er refraktær mot konvensjonell behandling (indeksert under «migraine with or without aura, susceptibility to») |
+| [26392785](https://pubmed.ncbi.nlm.nih.gov/26392785/) | 2015 | Kasuistikk | Journal of Pain Research | Kroniske migrenehodepiner opphørte etter intratekal ziconotid |
+| [41628204](https://pubmed.ncbi.nlm.nih.gov/41628204/) | 2026 | Oversikt | Pain Physician | Narrativ oversikt over valg av nevromodulasjonsutstyr ved kroniske smertetilstander; kun kontekstuell, ikke spesifikk for ziconotid |
 
 ---
 
-## Norges markedsinformasjon
+## Markedsinformasjon for Norge
 
-Ziconotid har for tiden ingen markedsforingsautorisasjon i Norge (markedsstatus: Ikke på markedet / Ikke på markedet). Ingen lisensopplysninger er tilgjengelige i bevispasen.
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000551 | Prialt (Esteve Pharmaceuticals GmbH) | Ikke oppgitt | Injeksjon i ryggmargskanalen; smerte (status: avregistrert) |
 
 ---
 
 ## Sikkerhetsvurderinger
 
-Vennligst se pakkeseddelen for sikkerhetsinformasjon.
+- **Kontraindikasjoner fra kunnskapsgraf (ikke fra preparatomtale):** TxGNN-kunnskapsgrafen (PrimeKG) knytter ziconotid til kontraindikasjoner ved psykotisk lidelse, schizofreniform lidelse, psykisk lidelse, schizoaffektiv lidelse og blodkoagulasjonssykdom.
+- **Legemiddelinteraksjoner:** Totalt 48 interaksjoner er registrert. Alle de viste er av moderat alvorlighetsgrad. Blant de viktigste er:
+  - Opioider: morfin (inkl. liposomal), kodein, hydrokodon, opium, difenoksin, difenoksylat
+  - Cannabinoider: dronabinol, nabilon
+  - Antihistaminer: prometazin, klorfenamin, cetirizin, azelastin (nese), bromfeniramin, karbinoksamin, klemastin
+  - Andre: metoklopramid, dekstrometorfan, sibutramin, etanol
+  
+  Mange av disse er sentralt dempende midler, og samtidig bruk kan forsterke sedasjon og nevrologiske bivirkninger.
+- I tillegg er det kjent at nevropsykiatriske bivirkninger og et smalt terapeutisk vindu begrenser bruken (se begrunnelsen ovenfor).
 
-*(Merk: viktige advarsler, kontraindikasjoner og legemiddelinteraksjonsdata (DDI) er merket som datakløfter i denne bevispasen – se DG001 nedenfor.)*
+Preparatomtalens advarsler og kontraindikasjoner var ikke tilgjengelige i de innsamlede dataene; se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Det eneste støttende bevis for migrenelidelse er en enkelt case report (L4), uten kliniske studier, ingen dedikert MOA-data, og ingen norsk regulatorisk/sikkerhetsinformasjon tilgjengelig. Den foreslåtte intratekal leveringsruten er også dårlig alignet med standard migrenelidelse-behandlingsparadigmer, som svekker gjennomførbarhet ytterligere.
+Evidensen består kun av to kasuistikker og én modellprediksjon, uten kontrollerte data eller kliniske studier. I tillegg er produktet avregistrert i Norge, tilførselen er invasiv (intratekal), og sikkerhetsprofilen (nevropsykiatriske bivirkninger, smalt terapeutisk vindu) er uheldig for en vanlig tilstand som migrene.
 
-**For å gå videre, er det følgende nødvendig:**
-- Løs DG001 (Blokkerer): Offisiell etikett-advarsler/kontraindikasjoner, ideelt hentet fra TFDA eller tilsvarende regulatorisk PDF
-- Løs DG002 (Høy): Bekreftet virkningsmekanisme-data fra DrugBank
-- Ytterligere kliniske bevis utover en enkelt case report (f.eks. case series, observasjonell studie) før avansering forbi S1
-- Vurdering av rutekompatibilitet – intratekal pumpe-implantasjon er ikke standard praksis for migrenekrankhet og ville kreve separat risiko-nytte-begrunnelse
-
+**For å gå videre kreves følgende:**
+- Hentet og analysert preparatomtale (advarsler og kontraindikasjoner) for sikkerhetsscreening
+- Detaljerte data om virkningsmekanisme (f.eks. fra DrugBank)
+- Kontrollerte kliniske studier eller større serier som støtter effekt ved refraktær kronisk migrene
+- Avklaring av regulatorisk status og tilgjengelighet i Norge, siden eneste tillatelse er avregistrert
+- Vurdering av nytte-risiko og tilførselsvei for en snever, behandlingsresistent pasientgruppe
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

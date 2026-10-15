@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Anakinra
-parent: Moderat evidens (L3-L4)
-nav_order: 30
-evidence_level: L3
+parent: Kun modellprediksjon (L5)
+nav_order: 33
+evidence_level: L5
 indication_count: 10
 ---
 
 # Anakinra
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,96 +29,127 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Anakinra: Fra IL-1-drevne inflammatoriske sykdommer til familiemediterran fever
+# Anakinra: Fra revmatoid artritt til ekstrakutan mastocytom
 
 ## Oppsummering i én setning
 
-> Anakinra er en rekombinant IL-1-reseptoragonist; evidenspakken inneholder ingen dokumentert originalindikasjon (Anakinra har **0 markedsautoriseringer i Norge**), men dens IL-1-blokkingsmekanisme er konsistent referert på tvers av litteraturen gjennomgått her. TxGNN screenet **10 kandidatindikasjoner** for dette legemidlet, og blant dem viser **Familiemediterran fever (FMF)** langt den sterkeste støtten fra praksis — anakinra brukes allerede klinisk som andrelinje-terapi for kolkisin-resistente/-intolerant FMF, støttet av **18 publikasjoner** (dog **0 registrerte kliniske forsøk**) i dette datasettet.
+Anakinra er en rekombinant interleukin-1-reseptorantagonist (IL-1Ra) som opprinnelig brukes mot revmatoid artritt (og i lisensteksten også COVID-19). TxGNN-modellen predikerer at legemidlet kan ha effekt ved **ekstrakutan mastocytom** (høyeste modellscore), men for denne indikasjonen finnes **ingen kliniske studier og ingen publikasjoner**. Den best underbygde retningen blant de predikerte indikasjonene er i stedet **autoinflammatoriske sykdommer**, særlig **familiær middelhavsfeber (FMF)** med 19 publikasjoner og **pyogent autoinflammatorisk syndrom (PAPA/PSTPIP1)** med 13 publikasjoner.
 
 ---
 
-## Hurtig oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Originalindikasjon | Ikke på fil — Anakinra har ingen markedsautorisering i Norge (0 lisenser); indikasjonstekst utilgjengelig fra regulatorisk datasett |
-| Forutsagt ny indikasjon | Familiemediterran fever (autosomalt recessiv) |
-| TxGNN-prediksjonspoeng | 99.89% |
-| Evidensnivå | L3 |
-| Status på norsk marked | ✗ Ikke markedsført |
-| Antall autoriseringer | 0 |
-| Anbefalt beslutning | Gå videre med sikringsmekanismer |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Revmatoid artritt; COVID-19-virusinfeksjon |
+| Predikert ny indikasjon | Ekstrakutan mastocytom (rangert som nr. 1 av TxGNN) |
+| TxGNN-prediksjonsscore | 99,93 % |
+| Evidensnivå | L5 (kun modellprediksjon) |
+| Markedsstatus i Norge | Kun avregistrert (kansellert) |
+| Antall godkjenninger | 1 (0 gyldige, 1 kansellert) |
+| Anbefalt beslutning | Hold (utsett) |
+
+**Merk:** Rangeringen etter TxGNN-score sammenfaller ikke med evidensstyrke. Flere lavere rangerte indikasjoner har bedre støtte (se tabellen nedenfor).
+
+### Oversikt over de 10 predikerte indikasjonene
+
+| Rang | Predikert indikasjon | Score | Evidensnivå | Anbefaling |
+|------|------|------|------|------|
+| 1 | Ekstrakutan mastocytom | 99,93 % | L5 | Hold |
+| 2 | Leverinfarkt | 99,89 % | L5 | Hold |
+| 3 | Autosomal recessiv familiær middelhavsfeber | 99,89 % | L4 | Forskningsspørsmål |
+| 4 | Aggressiv systemisk mastocytose | 99,88 % | L5 | Hold |
+| 5 | Hepatisk venookklusiv sykdom | 99,88 % | L5 | Hold |
+| 6 | Peliosis hepatis | 99,85 % | L5 | Hold |
+| 7 | Oligoartikulær juvenil idiopatisk artritt uten ANA | 99,85 % | L4 | Forskningsspørsmål |
+| 8 | Oligoartikulær juvenil idiopatisk artritt med ANA | 99,85 % | L4 | Forskningsspørsmål |
+| 9 | Pyogent autoinflammatorisk syndrom | 99,83 % | L3 | Forskningsspørsmål |
+| 10 | Uklassifisert autoinflammatorisk syndrom | 99,81 % | L3 | Forskningsspørsmål |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er ingen strukturert virkningsmekanisme-registrering tilgjengelig for anakinra i denne evidenspakken (`original_moa` er et dokumentert datagap, DG002). Imidlertid inneholder den mekanistiske rasjonale-teksten som er innebygd på tvers av flere forutsagte indikasjoner i denne samme evidenspakken konsistent og uavhengig identifisering av anakinra som en **rekombinant IL-1-reseptoragonist** som blokkerer IL-1α/β-signalering — dette er korroborerende informasjon hentet direkte fra evidensen, ikke en ekstern antagelse.
+Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig i datagrunnlaget. Basert på kjent informasjon er anakinra en IL-1-reseptorantagonist som blokkerer IL-1α og IL-1β fra å binde seg til IL-1-reseptoren. Effekten ved revmatoid artritt er etablert, og mekanistisk kan den være aktuell ved sykdommer drevet av IL-1-mediert betennelse.
 
-FMF er forårsaket av *MEFV*-genutakelser som produserer et dysfunksjonelt pyrin-protein, noe som fører til uregulert inflammasom-aktivering og overdreven IL-1β-frigjøring. Dette skaper en direkte mekanistisk sammenheng med anakinras IL-1-blokkerering: legemidlet er ikke bare "teoretisk" anvendelig — litteraturen gjennomgått her viser at det **allerede brukes i klinisk praksis** som rednings-/andrelinje-terapi for FMF-pasienter som ikke responderer på eller ikke tåler kolkisin (førstelinje standardbehandling), inkludert tilfeller komplisert av AA-amyloidose og nyreinsufficiens.
+For **ekstrakutan mastocytom** er koblingen kun en plausibel, men ubekreftet hypotese om IL-1-mediert betennelse ved mastcellesykdommer. Det finnes ingen støttende studier eller litteratur. For **leverinfarkt**, **hepatisk venookklusiv sykdom** og **peliosis hepatis** er koblingen uklar eller spekulativ (eventuelt via endotelbetennelse).
 
-Fordi Norge har ingen markedsautorisering for anakinra på fil, er denne "nye indikasjonen" best forstått som en **kjent, internasjonalt støttet off-label/retningslinjebruk** som ennå ikke er reflektert i lokal regulatorisk status — gapet her er regulatorisk/administrativt snarere enn mekanistisk eller klinisk.
+De mest troverdige prediksjonene gjelder autoinflammatoriske sykdommer. Ved FMF fører dysregulering av pyrin-inflammasomet til overskudd av IL-1β, noe som passer godt med anakinras mekanisme. Ved PAPA/PAPASH og andre PSTPIP1-assosierte syndromer er IL-1-overproduksjon et sentralt trekk. De juvenile idiopatiske artrittene er beslektet med den opprinnelige indikasjonen (revmatoid artritt), men den eneste litteraturen er en generell oversikt uten subtypespesifikk evidens.
 
----
-
-## Bevis fra kliniske forsøk
-
-Ingen relaterte kliniske forsøk er for tiden registrert.
+Merk at to artikler under aggressiv systemisk mastocytose gjelder Schnitzlers syndrom, ikke mastocytose, og de støtter derfor ikke denne indikasjonen.
 
 ---
 
-## Bevis fra litteraturen
+## Klinisk studieevidens
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
-|------|-----|------|---------|---------|
-| [21277619](https://pubmed.ncbi.nlm.nih.gov/21277619/) | 2011 | Caseserie/Oversikt | Semin Arthritis Rheum | IL-1-reseptorblokkerering (anakinra) og anti-IL-1 monoklonale antistoffer foreslått som rasjonell behandling gitt pyrins rolle i IL-1-modning/-frigjøring |
-| [23322405](https://pubmed.ncbi.nlm.nih.gov/23322405/) | 2013 | Oversikt/Kohort | Clin Rev Allergy Immunol | Omfattende oversikt over IL-1β biologisk behandling (anakinra/canakinumab) i kolkisin-refraktær FMF |
-| [19033248](https://pubmed.ncbi.nlm.nih.gov/19033248/) | 2009 | Caserapport | Nephrol Dial Transplant | Vellykket anakinra-behandling av FMF før/etter nyretransplantasjon, med bevart transplantat-utfall |
-| [21931121](https://pubmed.ncbi.nlm.nih.gov/21931121/) | 2012 | Caseserie | Nephrol Dial Transplant | Dramatisk klinisk forbedring med IL-1-hemmer-behandling i FMF komplisert av amyloidose og nyreinsufficiens |
-| [23928237](https://pubmed.ncbi.nlm.nih.gov/23928237/) | 2013 | Caserapport | Joint Bone Spine | FMF-assosiert myositt og spondyloartritt vellykket kontrollert med anakinra |
-| [34550430](https://pubmed.ncbi.nlm.nih.gov/34550430/) | 2022 | Caseserie | Rheumatol Int | Canakinumab effektivt i FMF-pasienter resistente/intolerant mot kolkisin og/eller anakinra (erfaring fra praksis) |
-| [28585601](https://pubmed.ncbi.nlm.nih.gov/28585601/) | 2017 | Caseserie | JPMA | Anakinra brukt vellykket hos fire barn med kolkisin-resistente FMF, inkludert søsken-tilfeller |
-| [31205631](https://pubmed.ncbi.nlm.nih.gov/31205631/) | 2019 | Oversikt | Mediterr J Hematol Infect Dis | Oversikt over FMF klinisk påvirkning og behandlingsalgoritmer, med inkorporering av IL-1-blokkerering for kolkisin-resistente tilfeller |
-| [26572612](https://pubmed.ncbi.nlm.nih.gov/26572612/) | 2016 | Oversikt | Curr Med Chem | Oversikt over kolkisin, biologiske midler (inkludert anakinra), og nye terapi-alternativer for FMF |
-| [23867542](https://pubmed.ncbi.nlm.nih.gov/23867542/) | 2014 | Oversikt | Clin Pharmacol Ther | Progresjon fra kolkisin til biologiske (IL-1-antagonist) terapi i FMF-håndtering |
+Det er for tiden ingen relaterte kliniske studier registrert for noen av de predikerte indikasjonene i datagrunnlaget.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Se pakningsinformasjonen for sikkerhetsinformasjon.
+Tabellen gjelder den primært predikerte indikasjonen (ekstrakutan mastocytom): for tiden finnes ingen relatert litteratur.
 
-*(Merk: den underliggende evidenspakken flagger TFDA/pakningsetikett-advarsler og kontraindikasjoner som et **datagap med blokkering-alvorlighetsgrad** (DG001) — dette må løses før noen formell sikkerhetsvurdering kan fortsette; se Konklusjon nedenfor.)*
+For å vise hvor evidensen faktisk finnes, er et utvalg fra den best dokumenterte indikasjonen, **familiær middelhavsfeber (rang 3)**, vist under:
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [21277619](https://pubmed.ncbi.nlm.nih.gov/21277619/) | 2011 | Kasusserie/oversikt | Semin Arthritis Rheum | Behandling av FMF med IL-1-rettede legemidler; IL-1-hemming foreslås som ny tilnærming |
+| [23322405](https://pubmed.ncbi.nlm.nih.gov/23322405/) | 2013 | Oversikt | Clin Rev Allergy Immunol | IL-1β-rettet biologisk behandling av FMF |
+| [26572612](https://pubmed.ncbi.nlm.nih.gov/26572612/) | 2016 | Oversikt | Curr Med Chem | Kolkisin, biologiske midler og andre alternativer ved FMF |
+| [34550430](https://pubmed.ncbi.nlm.nih.gov/34550430/) | 2022 | Kohort | Rheumatol Int | Kanakinumab effektivt ved FMF resistent eller intolerant for kolkisin og/eller anakinra |
+| [21931121](https://pubmed.ncbi.nlm.nih.gov/21931121/) | 2012 | Kasusstudie | Nephrol Dial Transplant | Markant effekt av IL-1-hemmer ved FMF med amyloidose og nyresvikt |
+| [19033248](https://pubmed.ncbi.nlm.nih.gov/19033248/) | 2009 | Kasusrapport | Nephrol Dial Transplant | Vellykket anakinra-behandling av FMF og utfall etter nyretransplantasjon |
+| [20386914](https://pubmed.ncbi.nlm.nih.gov/20386914/) | 2012 | Kasusrapport | Rheumatol Int | Anakinra-effekt hos pasient med kolkisinresistent FMF |
+| [23928237](https://pubmed.ncbi.nlm.nih.gov/23928237/) | 2013 | Kasusrapport | Joint Bone Spine | Myositt hos pasient med FMF og spondyloartritt behandlet med anakinra |
+
+Fra **pyogent autoinflammatorisk syndrom (rang 9)**:
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [38259483](https://pubmed.ncbi.nlm.nih.gov/38259483/) | 2023 | Systematisk oversikt (scoping) | Front Immunol | Effekt og sikkerhet av anakinra og kanakinumab ved PSTPIP1-assosierte sykdommer |
+| [39006661](https://pubmed.ncbi.nlm.nih.gov/39006661/) | 2024 | Kasusrapport | Cureus | Anakinra ved PAPASH-spekteret |
+| [38006373](https://pubmed.ncbi.nlm.nih.gov/38006373/) | 2023 | Kasusrapport/oversikt | Acta Dermatovenerol Croat | Utfordringer med langvarig remisjon ved PAPA-syndrom |
+
+Ingen randomiserte kontrollerte studier er identifisert i datagrunnlaget; evidensen består av oversikter, kasusrapporter og kohortstudier.
 
 ---
 
-## Andre kandidatindikasjoner identifisert av TxGNN (samme legemiddel)
+## Markedsinformasjon for Norge
 
-Anakinras evidenspaske inneholder 10 TxGNN-rangerte kandidater totalt. For transparens, de to andre kandidatene med reell (ikke-L5) evidensstøtte er listet her sammen med toppscorende men ustøttet prediksjon:
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000363 | Kineret | Ikke oppgitt | Revmatoid artritt; COVID-19-virusinfeksjon |
 
-| Rangering | Sykdom | TxGNN-poeng | Evidensnivå | Anbefaling | Merk |
-|---------|---------|-------------|-----------------|------------|------|
-| 1 | Ekstrakutan mastocytom | 99.93% | L5 | Hold | Høyeste rå TxGNN-poeng, men **null klinisk/litteraturbevis**; KIT-drevet patologi har ingen klar mekanistisk forbindelse til IL-1-blokkerering |
-| 3 | Familiemediterran fever | 99.89% | L3 | Gå videre med sikringsmekanismer | **Primær kandidat i denne rapporten** — sterk mekanistisk og praksisstøttet klinisk evidens |
-| 9 | Pyogen autoinflammatorisk syndrom (PAPA/PSTPIP1-spektrum) | 99.83% | L3 | Gå videre med sikringsmekanismer | Andre sterkeste kandidat; PSTPIP1-drevet IL-1β-overproduksjon, direkte anakinra-behandlingsrapporter eksisterer |
-| 4 | Aggressiv systemisk mastocytose | 99.88% | L4 | Hold | Innhentet litteratur beskriver faktisk **Schnitzler-syndrom**, ikke mastocytose — sannsynlig merking-uoverensstemmelse, trenger manuell verifisering |
+Godkjenningen har status **kansellert**; det finnes ingen gyldige godkjenninger i Norge i datagrunnlaget. Innehaver er Swedish Orphan Biovitrum AB (publ).
 
 ---
 
-## Konklusjon og neste trinn
+## Sikkerhetsvurderinger
 
-**Beslutning: Gå videre med sikringsmekanismer**
+**Legemiddelinteraksjoner** (100 interaksjoner funnet; et utvalg vises):
+
+- **Alvorlig (Major):** deferipron
+- **Moderat:** kortikosteroider (hydrokortison, betametason, budesonid, deksametason, prednisolon, prednison, triamcinolon), simvastatin, antikoagulantia (apiksaban, rivaroksaban, dikumarol) og radiofarmaka (ibritumomab tiuxetan, jobenguan (I-131), tositumomab)
+- **Mindre (Minor):** sink (acetat, glukonat, sulfat)
+
+Informasjon om advarsler og kontraindikasjoner er ikke tilgjengelig i datagrunnlaget. Se preparatomtalen for øvrig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold (utsett)** for den primære indikasjonen, ekstrakutan mastocytom.
 
 **Begrunnelse:**
-Familiemediterran fever har det sterkeste evidensgrunnlaget blant alle TxGNN-forutsagte indikasjoner for anakinra — pyrin/IL-1-inflammasom-patofysiologi samsvarer direkte med legemidlets mekanisme, og flere casesserier/oversikter bekrefter real-verdens bruk hos kolkisin-resistente pasienter. Imidlertid er beviser begrenset til L3 (ingen randomiserte kontrollerte forsøk), og anakinra har for tiden **null markedsautoriseringer i Norge**, så dette kan ikke fortsette som ubetinget "Gå videre".
+- Den høyest rangerte prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og legemidlet har i tillegg ingen gyldig markedsføringstillatelse i Norge. Autoinflammatoriske sykdommer (FMF, PAPA-spekteret) fremstår som mer lovende forskningsspørsmål (L3–L4), men støttes foreløpig kun av oversikter, kasusrapporter og observasjonsdata.
 
-**For å fortsette, er følgende nødvendig:**
-- Løs **datagap med blokkering-alvorlighetsgrad** sikkerhet (DG001): få TFDA/offisielle pakningsetikett-advarsler, kontraindikasjoner, og legemiddel-interaksjon-data før noen S1-sikkerhetsvurdering
-- Få strukturert virkningsmekanisme-dokumentasjon fra DrugBank (DG002) for å formelt bekrefte IL-1-reseptoragonist-klassifisering
-- Avklare Norge/EU regulatorisk vei for anakinra, inkludert eventuelle eksisterende off-label bruk presedens for FMF
-- Gitt fraværet av randomiserte kontrollerte forsøk, vurder prospektive eller registrerings-baserte studier for å styrke evidensnivået utover L3
-- Manuelt verifiser TxGNN sykdom-merking-nøyaktighet for lavere-konfidensielle kandidater (f.eks. rangering 4s litteratur-uoverensstemmelse med Schnitzler-syndrom) før ytterligere screening-ressurser allokeres
-
+**For å gå videre kreves følgende:**
+- Hente og analysere preparatomtale (advarsler og kontraindikasjoner), siden sikkerhetsscreening ikke kan gjennomføres uten dette
+- Innhente data om virkningsmekanisme (MOA) fra DrugBank
+- Gå gjennom sammendragene for FMF- og PSTPIP1-litteraturen for å avklare om det finnes kontrollerte data før eventuell oppgradering av evidensnivå
+- Vurdere å prioritere FMF og PAPA/PAPASH fremfor mastocytom som mål for videre arbeid
+- Avklare regulatorisk status i Norge (avregistrert lisens) og administrasjonsvei/formulering for de aktuelle indikasjonene
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

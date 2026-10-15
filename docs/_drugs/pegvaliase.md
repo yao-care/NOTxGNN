@@ -2,7 +2,7 @@
 layout: default
 title: Pegvaliase
 parent: Kun modellprediksjon (L5)
-nav_order: 271
+nav_order: 317
 evidence_level: L5
 indication_count: 3
 ---
@@ -31,78 +31,99 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 # Pegvaliase: Fra fenylketonuri til diabetisk retinopati
 
-## Oppsummering på en setning
+## Oppsummering
 
-Pegvaliase er en PEGylert fenylalanin ammoniakk-lyase (PAL) enzymerstattingsterapi opprinnelig brukt til å kontrollere blodets fenylalaninnivåer ved **fenylketonuri (PKU)**.
-TxGNN-modellen forutsier at det kan være effektivt for **diabetisk retinopati**, men for tiden **ingen kliniske forsøk og ingen litteratur** støtter denne retningen — prediksjonen er kun modellutgang.
+Pegvaliase er et PEGylert enzym (fenylalaninammoniakklyase) som opprinnelig brukes til behandling av fenylketonuri.
+TxGNN-modellen predikerer at legemidlet kan ha effekt på **diabetisk retinopati**, men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen er rent beregningsbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Original indikasjon | Fenylketonuri (PKU) — kontroll av blodets fenylalaninnivåer |
-| Forutsagt ny indikasjon | Diabetisk retinopati |
-| TxGNN prediksjonspoengsum | 99.17% |
-| Bevisgrad | L5 |
-| Markedsstatus Norge | Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Avvent |
-
-**Notat:** To nært beslektede indikasjoner ble også merket med nesten identiske poengsum og samme L5/Avvent-status: *alvorlig nonproliferativ diabetisk retinopati* (99.16%) og *diabetisk katarakt* (99.11%). Ingen har noen støttende forsøk eller litteratur.
+| Opprinnelig indikasjon | Fenylketonuri |
+| Predikert ny indikasjon | Diabetisk retinopati |
+| TxGNN-prediksjonsscore | 99,17 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
+| Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige (MOA: Datahull). Basert på kjent informasjon er pegvaliase en enzymerstattingsterapi som metaboliserer fenylalanin til trans-kanellesyre og ammoniakk, og dens effektivitet ved fenylketonuri er godt etablert.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Pegvaliase er kjent som et PEGylert fenylalaninammoniakklyase-enzym som bryter ned fenylalanin, og effekten ved fenylketonuri er etablert.
 
-Imidlertid har denne mekanismen **ingen kjent biologisk overlapping** med patofysiologien ved diabetisk retinopati, som primært er drevet av VEGF-mediert neovaskularisering, kronisk hyperglykemi, oksidativ stress, polyolstieaktivering og AGE-akkumulering. Det er ingen plausibel farmakologisk vei som forbinder fenylalanin-metabolisme til retinale mikrovaskulære sykdommer.
+Det finnes ingen kjent sammenheng mellom senking av fenylalanin og den vaskulære og nevrodegenerative patologien ved diabetisk retinopati. Den høye TxGNN-scoren (0,992) er en beregningsmessig prediksjon og er ikke støttet av kliniske studier eller litteratur. Likheten mellom opprinnelig og ny indikasjon er ikke vurdert.
 
-Gitt at denne legemiddelnoden også mangler registrert MOA og null DDI-oppføringer i kunnskapsgrafen, produserte den sparsomme tilkoblingen rundt pegvaliase sannsynligvis en spuriøs høy-konfidens prediksjon snarere enn et genuint biologisk signal. Denne vurderingen er konsistent med bevispakkens egen omformålsrasjonale, som eksplisitt merker poengsumet som en sannsynlig falsk positiv drevet av grafsparsitet.
+To andre prediksjoner har tilsvarende svak støtte:
+- **Alvorlig ikke-proliferativ diabetisk retinopati** (score 99,16 %): et mer alvorlig stadium av samme sykdom, og trolig overlappende med hovedprediksjonen snarere enn uavhengig evidens.
+- **Diabetisk katarakt** (score 99,11 %): hovedsakelig drevet av polyolveien og oksidativt stress i linsen ved hyperglykemi, som ikke har noen åpenbar kobling til nedbrytning av fenylalanin.
 
 ---
 
-## Klinisk forsøksevidens
+## Kliniske studier
 
-For tiden ingen beslektede kliniske forsøk registrert.
+Foreløpig er ingen relevante kliniske studier registrert.
 
 ---
 
 ## Litteraturevidens
 
-For tiden ingen beslektet litteratur tilgjengelig.
+Foreløpig er ingen relevant litteratur tilgjengelig.
 
 ---
 
-## Markedsinformasjon for Norge
+## Informasjon om det norske markedet
 
-Pegvaliase er **for tiden ikke markedsført i Norge** og har ingen markedsgodkjenninger registrert (0 lisenser).
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004744 | Palynziq | – | Fenylketonuri |
 
----
-
-## Sikkerhetshensyn
-
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
-
-*(Notat: TFDA-advarsler/kontraindikasjoner er merket i bevispakningen som et blokkerende datahull — DG001 — noe som betyr at denne kandidaten ikke kan gå videre til S1-sikkerhetsgjennomgang inntil etikett-data er innhentet.)*
+Tillatelsen er registrert som avregistrert (BioMarin International Limited).
 
 ---
 
-## Konklusjon og neste trinn
+## Sikkerhetsvurderinger
 
-**Beslutning: Avvent**
+**Legemiddelinteraksjoner** (16 interaksjoner av moderat alvorlighetsgrad):
 
-**Rasjonale:**
-Det er ingen klinisk eller litteraturbevis som støtter denne indikasjonen, den mekanistiske koblingen mellom PAL-enzymerstattning og diabetisk retinopati er biologisk implausibel, og de underliggende MOA/DDI-datahullene antyder at det høye TxGNN-poengsumet kan være et artefakt av grafsparsitet snarere enn et genuint signal. Et blokkerende datahull (manglende TFDA-advarsler/kontraindikasjoner) forhindrer også sikkerhetsgjennomgang på dette stadiet.
+- Antihemofilifaktor (human, rekombinant)
+- Koagulasjonsfaktor IX (human)
+- Certolizumab pegol
+- Pegaptanib (oftalmisk)
+- Pegloticase
+- Liposomalt doksorubicin
+- Medroksyprogesteronacetat
+- Naloxegol
+- Pegademase
+- Pegaspargase
+- Pegfilgrastim
+- Peginesatid
+- Peginterferon alfa-2a
+- Peginterferon alfa-2b
+- Peginterferon beta-1a
+- Pegvisomant
 
-**For å gå videre, kreves følgende:**
-- TFDA-etikett-data (advarsler, kontraindikasjoner) — løser det blokkerende datahullet DG001
-- Bekreftet virkningsmekanisme fra DrugBank eller primærlitteratur — løser høyprioritet-datahullet DG002
-- Preklinisk eller mekanistisk bevis som etablerer en biologisk rasjonale som forbinder PAL/fenylalanin-metabolisme til diabetisk retinalsykdom
-- Minst ett observasjonelt studie eller tilfellerapport før framgang forbi S0
+Se preparatomtalen for øvrig sikkerhetsinformasjon.
 
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Prediksjonen er kun modellbasert (L5), uten kliniske studier eller litteratur, og uten noen kjent mekanistisk kobling mellom fenylalaninnedbrytning og diabetisk retinopati. I tillegg er legemidlet ikke lenger markedsført i Norge.
+
+**For å gå videre kreves følgende:**
+- Informasjon om virkningsmekanisme (MOA) fra DrugBank
+- Preparatomtale med advarsler og kontraindikasjoner fra DMP, slik at sikkerhetsscreening kan gjennomføres
+- Prekliniske eller mekanistiske studier som viser en plausibel kobling til diabetisk retinopati
+- Avklaring av administrasjonsvei og hensiktsmessighet for øyesykdom
+- Avklaring av legemidlets regulatoriske status i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

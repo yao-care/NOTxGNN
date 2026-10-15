@@ -2,7 +2,7 @@
 layout: default
 title: Rasagiline
 parent: Kun modellprediksjon (L5)
-nav_order: 296
+nav_order: 348
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,93 +29,90 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Rasagilin: Fra Parkinsons sykdom (MAO‑B-hemming) til PLA2G6-assosiert nevrodegenerasjon
+# Rasagilin: Fra Parkinsons sykdom til PLA2G6-assosiert nevrodegenerasjon
 
-## Sammenfatning i en setning
+## Oppsummering i én setning
 
-> Rasagilins originalindikasjon er ikke dokumentert i det gjeldende datasettet, selv om det klinisk er kjent som en selektiv, irreversibel MAO‑B-hemmer brukt i Parkinsons sykdom.
-> TxGNN-modellens topprangerete forutsigelse er **PLA2G6-assosiert nevrodegenerasjon**, en sjelden nevrodegenerativ lidelse med en parkinsonisme-fenotype.
-> Dette er en **ren beregningsbasert forutsigelse** — **0 kliniske studier** og **0 publikasjoner** støtter for øyeblikket denne retningen.
+Rasagilin er en MAO-B-hemmer som opprinnelig brukes til behandling av **Parkinsons sykdom**.
+TxGNN-modellen predikerer at legemidlet kan ha effekt på **PLA2G6-assosiert nevrodegenerasjon**, men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** i de innsamlede dataene som støtter denne retningen. Prediksjonen er rent beregningsbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Originalindikasjon | Ikke dokumentert i dette datasettet (datakløft). Klinisk kjent bruk: MAO‑B-hemmerterapi i Parkinsons sykdom |
-| Forutsagt ny indikasjon | PLA2G6-assosiert nevrodegenerasjon |
-| TxGNN prediksjonspoeng | 99.71% |
-| Bevisgrad | L5 |
-| Markedsstatus i Norge | Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvente |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Parkinsons sykdom |
+| Predikert ny indikasjon | PLA2G6-assosiert nevrodegenerasjon |
+| TxGNN-prediksjonsscore | 99,71 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun opphevede (avregistrerte) godkjenninger |
+| Antall godkjenninger | 3 (alle opphevet, ingen gyldige) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljert virkningsmekanismedata er ikke tilgjengelig i dette datasettet (merket som en datakløft med høy alvorlighetsgrad). Basert på generell farmakologisk kunnskap som refereres i bevissamlingen selv, er rasagilin en selektiv, irreversibel MAO‑B-hemmer, en medikamentklasse som er etablert for å redusere dopaminabbygning og gi neuroproteksjon ved Parkinsons sykdom.
+Data om virkningsmekanisme (MOA) er ikke tilgjengelig i det innsamlede materialet. Ut fra allment kjent kunnskap er rasagilin en irreversibel MAO-B-hemmer som reduserer nedbrytningen av dopamin og dermed øker tilgjengeligheten av dopamin. Effekten ved Parkinsons sykdom er godt etablert, og legemidlet kan i tillegg ha nevrobeskyttende egenskaper. Denne mekanismebeskrivelsen er ikke hentet fra de innsamlede dataene.
 
-Den topprangerete kandidaten, PLA2G6-assosiert nevrodegenerasjon (PLAN), har en subtype med oppstart i voksen alder (PARK14) som presenterer seg med dystoni-parkinsonisme og basal ganglia dopaminerg degenerasjon. Dette skaper en plausibel, men rent teoretisk, mekanistisk bro: redusert dopaminkatabolisme via MAO‑B-hemming kunne i prinsippet gi symptomatisk eller neuroprotektiv fordel i denne parkinsonisme-spektrum-fenotypen.
+PLA2G6-assosiert nevrodegenerasjon omfatter blant annet infantil nevroaksonal dystrofi og PLA2G6-relatert dystoni-parkinsonisme. Disse tilstandene har fellestrekk med Parkinsons sykdom, som dopaminerg dysfunksjon, alfa-synuklein-patologi og mitokondriell/oksidativ stress. Symptomlindring ved den parkinsonistiske fenotypen er derfor teoretisk plausibel.
 
-Det er viktig å merke seg at denne mekanistiske koblingen **ikke har dedikert klinisk studie- eller litteraturstøtte** — den er utledet av TxGNN fra nettverksstruktur og generell sykdomsklassesimilaritet, ikke fra noen direkte bevis på effektivitet i PLAN.
-
----
-
-## Bevis fra kliniske studier
-
-For øyeblikket ingen relaterte kliniske studier registrert.
+Koblingen er imidlertid kun teoretisk. Det finnes ingen støtte for at rasagilin påvirker den underliggende defekten i lipidmetabolismen. Den svært høye TxGNN-scoren (0,997) er en beregningsmessig prediksjon og ikke klinisk evidens.
 
 ---
 
-## Litteraturbevis
+## Klinisk studieevidens
 
-For øyeblikket ingen relatert litteratur tilgjengelig.
+Foreløpig er det ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+Foreløpig er det ingen relatert litteratur tilgjengelig.
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Rasagilin er for øyeblikket ikke markedsført i Norge, og ingen markedsføringsauktorisasjonsposter er tilgjengelige i dette datasettet (0 lisenser).
+Alle tre godkjenningene er opphevet. Det finnes ingen gyldige godkjenninger.
+
+| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004064 | Rasagiline Viatris (tidligere Rasagiline Mylan) | – | Parkinsons sykdom |
+| EMEA/H/C/003957 | Rasagiline ratiopharm | – | Parkinsons sykdom |
+| EMEA/H/C/000574 | Azilect | – | Parkinsons sykdom |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Merk: TFDA-merkingdata (advarsler og kontraindikasjoner) er for øyeblikket en **blokkerende datakløft** og har ikke blitt vurdert — ingen formell sikkerhetsgjennomgang (S1) kan fullføres før dette er løst.
+Pakningsvedlegget er ikke tilgjengelig i de innsamlede dataene, så advarsler og kontraindikasjoner fra preparatomtalen kan ikke gjengis. Se pakningsvedlegget for fullstendig sikkerhetsinformasjon.
 
----
-
-## Andre forutsagte indikasjoner (for kontekst)
-
-Bevissamlingen inneholder 5 ytterligere TxGNN-kandidater, alle på bevisgrad L5 uten støttekliniske studier eller litteratur:
-
-| Rangering | Sykdom | TxGNN-poeng | Mekanistisk plausibilitet | Anbefaling |
-|-----------|--------|------------|---------------------------|-----------|
-| 2 | Rasmussens subakutt encefalitt | 99.56% | Ingen (autoimmun/inflammatorisk, ikke relatert til MAO‑B-vei) | Avvente |
-| 3 | Myelitt | 99.32% | Ingen (inflammatorisk/infeksiøs ryggmargssykdom) | Avvente |
-| 4 | Paralysis agitans, juvenil, av Hunt | 99.25% | **Sterk** — historisk term for juvenil parkinsonisme, samme sykdomsspektrum som Rasagilins kjente bruk | Forskningsspørsmål |
-| 5 | Transaldolase-mangel | 99.19% | Ingen (pentosfosfatvei-defekt) | Avvente |
-| 6 | Polimikrogyria, perisylvisk, med cerebellær hypoplasi og artrogryposi | 99.01% | Ingen (strukturell utviklingsmessig hjernefeilbildning) | Avvente |
-
-Rangering 4 ("Hunts juvenile paralysis agitans") er mekanistisk den mest sammenhengne kandidaten, siden den faller innenfor samme parkinsonisme-spektrum som Rasagilins etablerte farmakologi, men den mangler noen subtype-spesifikk studie- eller kasuistisk bevis og forblir kun en forskningshypotese.
+- **Kontraindikasjoner fra kunnskapsgrafen (ikke fra preparatomtale)**: TxGNNs kunnskapsgraf (PrimeKG) knytter rasagilin til følgende tilstander: hypertensjon, multippel systematrofi, posturalt ortostatisk takykardisyndrom, ortostatisk hypotensjon, legemiddelindusert dyskinesi, epilepsi, bipolar lidelse, alvorlig affektiv lidelse, leversykdom, gallblæresykdom, melanom, feokromocytom (binyre), duodenalkreft, tynntarmskreft, hjertekreft, binyrekreft og sympatisk paragangliom.
+- **Legemiddelinteraksjoner**: Søket er gjennomført og fant 100 registrerte interaksjoner. Blant de første 20 som ble hentet, er de viktigste:
+  - **Alvorlig (Major)**: bupropion, morfin
+  - **Moderat**: epinefrin, klorpropamid, cimetidin, dietylpropion, difenoksin, difenoksylat, dronabinol, obetikolsyre, fentermin, glimepirid samt flere insulinpreparater (aspart, degludec, detemir, glargin, glulisin, humant isofan, humant regulært, inhalert hurtigvirkende)
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvente**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Alle seks forutsagte indikasjoner er på bevisgrad L5 (modellforutsigelse kun, ingen klinisk eller litteraturstøtte). I tillegg er TFDA-sikkerhetsmerkingdata en blokkerende kløft som hindrer noen formell sikkerhetsgjennomgang, og medikamentet er ikke markedsført i Norge.
+Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier eller publikasjoner. Mekanismekoblingen er spekulativ, MOA-data mangler, og sikkerhetsdata fra preparatomtalen er ikke tilgjengelig. Alle norske godkjenninger er dessuten opphevet.
 
-**For å fortsette, er følgende nødvendig:**
-- TFDA/regulatorisk merkedata (advarsler, kontraindikasjoner) for å løse den blokkerende sikkerhetsdatakløften (DG001)
-- Bekreftet virkningsmekanismedata fra DrugBank (DG002)
-- Originalindikasjonhistorikk for medikamentet (for øyeblikket mangler i datasettet)
-- Prekliniske eller mekanistiske studier som spesifikt adresserer MAO‑B-hemming i PLAN eller juvenil parkinsonisme-spektrum-lidelser før du går videre utover hypotesestadiet
+**For å gå videre kreves følgende:**
+- Hente og analysere pakningsvedlegg/preparatomtale (advarsler og kontraindikasjoner), som er en blokkerende datamangel
+- Hente data om virkningsmekanisme (MOA) fra DrugBank
+- Systematisk litteratur- og studiesøk spesifikt for PLA2G6-assosiert nevrodegenerasjon
+- Prekliniske data som viser effekt i relevante modeller
+- Vurdering av sikkerhet og dosering i barn og unge
 
+**Tilleggsmerknad om andre prediksjoner:**
+Blant de øvrige predikerte indikasjonene er **juvenil parkinsonisme (Hunt-type)** (score 99,25 %, evidensnivå L4, anbefaling «forskningsspørsmål») den mest troverdige kandidaten. Den ligger nær den godkjente indikasjonen Parkinsons sykdom, men evidensen er indirekte (ekstrapolert) og krever målrettet gjennomgang. De øvrige (Rasmussen-encefalitt, myelitt, transaldolasemangel og polymikrogyri med cerebellær hypoplasi) har svake eller ingen mekanistiske koblinger og anbefales som Hold.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Palonosetron
-parent: Kun modellprediksjon (L5)
-nav_order: 263
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 308
+evidence_level: L4
 indication_count: 5
 ---
 
 # Palonosetron
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,101 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Palonosetron: Fra kjemoterapiindusert kvalme og oppkasting til Migrenelidelse
+# Palonosetron: Fra kjemoterapiindusert oppkast til migrene
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-Palonosetron er en 5-HT3-antagonist som brukes til å forhindre kjemoterapiindusert kvalme og oppkasting (CINV). TxGNN-modellen forutsier at det kan være effektivt for **Migrenelidelse**, men den eneste litteraturen som ble funnet (en enkelt caserapport) beskriver faktisk at palonosetron **induserte** migreneliknende hodepine som en bivirkning — ikke som behandling av det. Ingen kliniske forsøk støtter dette eller noen av de fire andre forutsagte indikasjonene.
-
----
-
-## Hurtig oversikt
-
-| Element | Innhold |
-|---------|---------|
-| Original indikasjon | Forebygging av kjemoterapiindusert kvalme og oppkasting (CINV) — generell farmakologisk kunnskap; ikke bekreftet via norske reguleringsdata (legemidlet er ikke markedsført i Norge) |
-| Forutsagt ny indikasjon | Migrenelidelse |
-| TxGNN prediksjonspoengsum | 99.74% |
-| Bevisnivå | L5 (kun modellprediksjon; eneste litteraturresultat er motstridende) |
-| Status på det norske markedet | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+Palonosetron er en 5-HT3-reseptorantagonist som opprinnelig brukes mot oppkast og kvalme ved kreftbehandling. TxGNN-modellen forutsier at legemidlet kan ha effekt ved **migrene (migraine disorder)**, men støtten er svært svak: **ingen kliniske studier** og bare **1 publikasjon**, et kasuistisk tilfelle som beskriver migrenelignende hodepine *forårsaket* av palonosetron, altså et bivirkningssignal og ikke et tegn på nytte.
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hurtigoversikt
 
-For tiden er detaljert mekanisme-for-handling-data ikke tilgjengelig i denne bevissamlingen (DG002). Basert på generell farmakologisk kunnskap er palonosetron en høyt selektiv 5-HT3-antagonist, og dets effektivitet i forebygging av CINV er veldig vel etablert. Det virker på periferisk og sentralt 5-HT3-reseptorer involvert i brekreflex.
-
-Migrene patofysiologi er imidlertid primært medieres av 5-HT1B/1D og 5-HT1F-reseptorer (målene for triptaner og ditaner), ikke 5-HT3-reseptorer. Det er ingen etablert farmakologisk begrunnelse som kobler 5-HT3-antagonisme til migreneprevensjon eller behandling.
-
-Enda viktigere, den eneste litteraturen som ble hentet fram for denne indikasjonen (PMID 21132477, "Palonosetron-indusert migreneliknende hodepine") dokumenterer det **motsatte** forholdet: en caserapport av palonosetron som **induserte** en migreneliknende hodepine som en uønsket legemiddelreaksjon, ikke å løse den. Dette er et motstridende signal som aktivt argumenterer mot TxGNN-prediksjonen snarere enn å støtte den. Gitt mangelen på mekanistisk plausibilitet og de retningsbestemt motsatte bevisene, bør ikke denne kandidaten komme videre uten uavhengige bekreftelsesdata.
-
----
-
-## Klinisk forsøksbevis
-
-For tiden ingen relaterte kliniske forsøk registrert.
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Oppkast; kreft (kvalme og oppkast knyttet til kreftbehandling) |
+| Foreslått ny indikasjon | Migrene (migraine disorder) |
+| TxGNN-prediksjonsscore | 99,74 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
+| Antall godkjenninger | 3 (alle kansellert, 0 gyldige) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Litteraturbevis
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i dataene som er samlet inn for denne rapporten. Basert på kjent informasjon er palonosetron en 5-HT3-reseptorantagonist. Effekten ved kjemoterapiindusert kvalme og oppkast er etablert, og mekanistisk kan serotonerge signalveier også ha betydning ved migrene, så en biologisk sammenheng er plausibel.
+
+Retningen på effekten er imidlertid uavklart. Den eneste publikasjonen som støtter prediksjonen, er en kasuistikk om migrenelignende hodepine utløst av palonosetron. Det peker i motsatt retning av en terapeutisk bruk. Den høye TxGNN-scoren gjenspeiler trolig nærhet i kunnskapsgrafen (serotonerge og nevronale eksitabilitetsveier) og ikke direkte klinisk evidens.
+
+De øvrige prediksjonene i rangeringen er enda svakere:
+
+| Rangering | Sykdom | Score | Evidensnivå | Kommentar |
+|------|------|------|------|------|
+| 2 | Migrene med hjernestammeaura | 99,67 % | L5 | Kun prediksjon; undergruppe av migrene |
+| 3 | Migrene med eller uten aura, mottakelighet for | 99,44 % | L4 | Genetisk mottakelighetsfenotype, ikke en behandlingsbar tilstand; kun indirekte litteratur |
+| 4 | Atrofoderma vermiculata | 99,13 % | L5 | Ingen plausibel mekanisme; trolig grafartefakt |
+| 5 | Ulerythema ophryogenes | 99,07 % | L5 | Ingen mekanistisk begrunnelse; kun beregningsmessig |
+
+---
+
+## Klinisk studieevidens
+
+Det er for øyeblikket ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [21132477](https://pubmed.ncbi.nlm.nih.gov/21132477/) | 2011 | Caserapport (bivirkning) | Canadian Journal of Anaesthesia | Rapporterer at palonosetron **induserte** migreneliknende hodepine — en uønsket hendelse, ikke bevis for terapeutisk nytte for migrene |
+| [21132477](https://pubmed.ncbi.nlm.nih.gov/21132477/) | 2011 | Kasuistikk | Canadian Journal of Anaesthesia | Beskriver migrenelignende hodepine utløst av palonosetron (bivirkningssignal, ikke effekt) |
+| [42748473](https://pubmed.ncbi.nlm.nih.gov/42748473/) | 2026 | Oversikt | European Heart Journal – Cardiovascular Pharmacotherapy | Gjennomgang av QT-forlengelse ved antiemetika og et risikostratifisert forskrivningsrammeverk; relevant for hjertesikkerhet, ikke for migreneeffekt |
 
 ---
 
 ## Informasjon om det norske markedet
 
-Palonosetron er ikke for tiden markedsført i Norge (0 autorisasjoner). Ingen produkt-/lisensieringsregistre er tilgjengelige.
+Alle tre registrerte godkjenninger er kansellert. Dosering/legemiddelform er ikke oppgitt i dataene.
+
+| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000563 | Aloxi | – | Oppkast; kreft |
+| EMEA/H/C/004129 | Palonosetron Accord | – | Oppkast; kvalme; kreft |
+| EMEA/H/C/003728 | Akynzeo | – | Oppkast; neoplasmer; kvalme; kreft |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se produktresumé for sikkerhetsinformasjon. TFDA/produsentens etikettadvarsler og kontraindikasjoner for palonosetron er ennå ikke tilgjengelig i dette datasettet (DG001 — Blockeringsgap).
+**Legemiddelinteraksjoner**: Interaksjonssøket ga 100 treff. Blant de som er vist, er flere klassifisert som **alvorlige (Major)**:
 
----
+- **Opioider**: fentanyl, alfentanil, tramadol
+- **Serotonerge/andre**: dekstrometorfan, amitriptylin
+- **Triptaner**: almotriptan, sumatriptan (særlig relevant ved migrenebruk)
+- **QT-/rytmerelaterte**: amiodaron, amisulprid, anagrelid
 
-## Andre forutsagte indikasjoner (screenet ut)
+Moderate interaksjoner omfatter blant annet abirateron, dihydrokodein, kodein, famotidin, formoterol, adenosin, salbutamol, alfuzosin, propofol og loperamid.
 
-Fire ytterligere TxGNN-forutsagte indikasjoner ble vurdert og anbefales ikke for videre evaluering på grunn av mangel på støttende bevis:
-
-| Rang | Sykdom | TxGNN-poengsum | Bevis | Vurdering |
-|------|---------|-------------|----------|------------|
-| 2 | Migrene med hjernestammeavura | 99.67% | Ingen | Ingen mekanistisk sammenheng (5-HT3 vs. 5-HT1/2-stier) |
-| 3 | Migreneoverfølsomhet | 99.44% | 20 artikler, alle om epilepsi/migrene genetisk komorbiditiet | Ingen nevner palonosetron; genetisk disposisjon litteratur, ikke legemiddelbevis |
-| 4 | Atrophoderma vermiculata | 99.13% | Ingen | Sjelden keratiniserende hudsykdom; ingen biologisk plausibilitet |
-| 5 | Ulerythema ophryogenesis | 99.07% | Ingen | Samme sykdomsspektrum som #4; ingen biologisk plausibilitet |
+**Annen sikkerhetsinformasjon**: Gjennomgangen fra 2026 peker på at antiemetika kan forlenge QT-intervallet, noe som bør vurderes ved en eventuell ny bruk. Se preparatomtalen for øvrige advarsler og kontraindikasjoner.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Topprangert prediksjon (migrenelidelse) støttes bare av en caserapport som beskriver at legemidlet **forårsaket** migreneliknende hodepine, som motsier snarere enn støtter gjenbruk. Alle andre forutsagte indikasjoner har null klinisk forsøk eller litteraturstøtte, og ingen sammenhengende mekanistisk begrunnelse kobler en 5-HT3-antagonist til disse tilstandene.
+Prediksjonen bygger på en høy modellscore, men den eneste litteraturen er en kasuistikk om et bivirkningssignal (migrenelignende hodepine), som går i motsatt retning av ønsket effekt. Det finnes ingen kliniske studier, og alle norske/europeiske godkjenninger er kansellert.
 
-**For å fortsette er følgende nødvendig:**
-- TFDA/produsent produktresumé-data (advarsler, kontraindikasjoner) — for tiden en Blockeringsgap (DG001)
-- Bekreftet mekanisme for handling fra DrugBank (DG002)
-- Uavhengig litteratur eller preklinisk bevis som viser en *terapeutisk* (ikke uønsket) effekt av palonosetron på migrene før noe videre evalueringsstadium initieres
-
+**For å gå videre trengs følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Advarsler og kontraindikasjoner fra preparatomtalen (blokkerende datamangel for sikkerhetsscreening)
+- Avklaring av effektretning: gir palonosetron migrene eller kan det lindre den? Dette krever prekliniske eller mekanistiske studier
+- Gjennomgang av litteratur om 5-HT3-antagonister generelt ved migrene
+- Vurdering av QT-risiko og interaksjoner med triptaner og andre serotonerge legemidler
+- Avklaring av administrasjonsvei og tilgjengelige formuleringer, siden ingen gyldig godkjenning finnes i dag
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Zanubrutinib
 parent: Moderat evidens (L3-L4)
-nav_order: 390
+nav_order: 458
 evidence_level: L4
 indication_count: 6
 ---
@@ -29,70 +29,71 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Zanubrutinib: fra B-celle lymfoide malignaner til myeloid leukemi
+# Zanubrutinib: Fra Waldenströms makroglobulinemi til myeloid leukemi
 
-## Sammendrag i en setning
+## Oppsummering i én setning
 
-> Zanubrutinib er en selektiv Bruton-tyrosinkinase (BTK)-hemmer som for tiden brukes til B-celle lymfoide malignaner som CLL/SLL og Waldenström makroglobulinemi.
-> TxGNN-modellen foreslår at det kan være effektivt for **myeloid leukemi**,
-> men kun **2 kliniske forsøk** (ingen som tester zanubrutinib selv) og **9 publikasjoner** (ingen spesifikke for myeloid leukemi) er for tiden tilgjengelige, og det mekanistiske grunnlaget er svakt.
+Zanubrutinib er en selektiv BTK-hemmer (Bruton tyrosinkinase) som opprinnelig er godkjent for behandling av **Waldenströms makroglobulinemi**.
+TxGNN-modellen predikerer at legemidlet kan være effektivt ved **myeloid leukemi**, men støtten er svak: det finnes **1 klinisk studie** (kun indirekte relevant) og litteratur som i hovedsak gjelder kronisk lymfatisk leukemi (KLL), ikke myeloid leukemi.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | B-celle lymfoide malignaner (CLL/SLL, Waldenström makroglobulinemi) — ingen formell norsk lisensieringspost tilgjengelig |
-| Foreslått ny indikasjon | Myeloid leukemi |
-| TxGNN prediksjonspoeng | 99,65% |
+| Opprinnelig indikasjon | Waldenströms makroglobulinemi |
+| Predikert ny indikasjon | Myeloid leukemi |
+| TxGNN-prediksjonsscore | 99,65 % |
 | Evidensnivå | L4 |
-| Status på norsk marked | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+| Markedsstatus i Norge | Kun opphevede (kansellerte) autorisasjoner |
+| Antall autorisasjoner | 1 (opphevet) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte mekanismedata ikke tilgjengelige (datakløft DG002). Basert på kjent informasjon i denne bevissamlingen er zanubrutinib en høyt selektiv, neste-generasjons BTK-hemmer som blokkerer B-cellereseptor (BCR)-signalering, og dens kliniske nytte er etablert i B-celle lymfoide malignaner (CLL/SLL, Waldenström makroglobulinemi og andre B-celle lidelser).
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Zanubrutinib er imidlertid kjent som en selektiv nestegenerasjons BTK-hemmer. Dokumentert klinisk nytte gjelder B-cellemalignitet (KLL/SLL og Waldenströms makroglobulinemi).
 
-Myeloid leukemi er imidlertid en myeloid- snarere enn lymfoid-malignitet, og dens patogenese er overveiende drevet av FLT3-, KIT- og BCR-ABL-kinase-signalering — ingen av disse er etablerte mål for BTK-hemming. Det er ingen anerkjent mekanistisk overlapping mellom BTK/BCR-banen og myeloid leukemogenese.
+Disse sykdommene er lymfoide, ikke myeloide. BTK-signalering forekommer i enkelte myeloide celler og AML-blaster, så en biologisk begrunnelse er mulig. Det foreligger likevel ingen direkte kliniske data for zanubrutinib ved myeloid leukemi.
 
-Gitt dette reflekterer TxGNN-prediksjonen sannsynligvis en bred kategori over-generalisering (gruppering av alle «leukemi»-undertyper sammen) snarere enn et biologisk fundert signal. Denne vurderingen forsterkes av at de to identifiserte kliniske forsøkene tester urelaterte forbindelser (PRT2527, en CDK9-hemmer; og CG-806/luxeptinib, en multi-kinase-hemmer) snarere enn zanubrutinib selv, og ingen litteratur tar spesifikt opp zanubrutinib i myeloid leukemi.
+Den høye scoren (0,996) er en ren beregningsmessig prediksjon. Treffet skyldes sannsynligvis at mye av litteraturen omhandler KLL/SLL, slik at begrepet «leukemi» ga overlapp. Prediksjonen bør derfor tolkes med stor forsiktighet.
 
 ---
 
-## Klinisk forsøksbevis
+## Evidens fra kliniske studier
 
-| Forsøksnummer | Fase | Status | Inkludering | Viktigste funn |
+| Studienummer | Fase | Status | Antall deltakere | Hovfunn |
 |---------|------|------|------|---------|
-| [NCT05665530](https://clinicaltrials.gov/study/NCT05665530) | Fase 1 | Fullført | 86 | Studie av PRT2527 (en CDK9-hemmer), evaluert som monoterapi og i kombinasjon med zanubrutinib eller venetoclax, ved tilbakefallende/refraktær hematologisk malignitet. **Relevansnivå C** — den undersøkte forbindelsen er PRT2527, ikke zanubrutinib; kun sykdomsdomenet (hematologisk malignitet) overlapper. Utgjør ikke direkte bevis for zanubrutinib i myeloid leukemi. |
-| [NCT04477291](https://clinicaltrials.gov/study/NCT04477291) | Fase 1a/b | Avsluttet | 45 | Evaluerte CG-806 (luxeptinib, en multi-kinase-hemmer) ved tilbakefallende/refraktær AML eller høyere-risiko MDS. **Relevansnivå C** — annen forbindelse og mekanisme enn zanubrutinib; forsøket ble avsluttet. Kun bakgrunnkontekst. |
+| [NCT05665530](https://clinicaltrials.gov/study/NCT05665530) | Fase 1 | Fullført | 86 | Dosetrappingsstudie av PRT2527 (CDK9-hemmer) alene og i kombinasjon med zanubrutinib eller venetoklaks ved residiverende/refraktære hematologiske maligniteter. Zanubrutinib er kun kombinasjonspartner; studien gir ingen direkte evidens for myeloid leukemi. |
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Viktigste funn |
+| PMID | År | Type | Tidsskrift | Hovfunn |
 |------|-----|------|------|---------|
-| [39647999](https://pubmed.ncbi.nlm.nih.gov/39647999/) | 2025 | RCT | J Clin Oncol | SEQUOIA 5-års oppfølging: zanubrutinib vs bendamustine+rituximab ved behandlingsnaiv CLL/SLL — støtter etablert indikasjon, ikke myeloid leukemi. |
-| [40334067](https://pubmed.ncbi.nlm.nih.gov/40334067/) | 2025 | Kohort | Blood Advances | Zanubrutinib godt tolerert/effektivt i CLL/SLL-pasienter som ikke tolererte ibrutinib/acalabrutinib (BGB-3111-215 studie). |
-| [40829104](https://pubmed.ncbi.nlm.nih.gov/40829104/) | 2026 | Kohort (samlet analyse) | Blood Advances | Samlet analyse (SEQUOIA/ALPINE) av zanubrutinib-effektivitet/sikkerhet i del(17p)/TP53-mutert CLL/SLL. |
-| [36400069](https://pubmed.ncbi.nlm.nih.gov/36400069/) | 2023 | Kohort | Lancet Haematol | Fase 2 enarm studie av zanubrutinib ved BTK-hemmer-intolerant B-celle malignitet. |
-| [34959482](https://pubmed.ncbi.nlm.nih.gov/34959482/) | 2021 | Oversikt | Pharmaceutics | Oversikt over tyrosinkinase-hemmere ved kroniske leukemier (CML, CLL) — generell bakgrunn, ikke zanubrutinib-spesifikke myeloiddata. |
-| [36402930](https://pubmed.ncbi.nlm.nih.gov/36402930/) | 2023 | Oversikt | Leukemia | Oversikt over BTK-hemmere (inkludert zanubrutinib) i behandling av Waldenström makroglobulinemi. |
-| [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/) | 2023 | Oversikt | Clin Lymphoma Myeloma Leuk | Risikooversikt over HBV-reaktivering hos pasienter på BTK-hemmere (ibrutinib, acalabrutinib, zanubrutinib). |
-| [38288815](https://pubmed.ncbi.nlm.nih.gov/38288815/) | 2024 | Oversikt | Anticancer Agents Med Chem | Oversikt over syntetisk kjemi av FDA-godkjente antikankerlegemidler (2018–2021); nevner zanubrutinib kun i en kjemisk-syntese kontekst, ikke klinisk effektivitet. |
-| [36325357](https://pubmed.ncbi.nlm.nih.gov/36325357/) | 2022 | Kasuistikk | Front Immunol | Kasuistikk av samtidig Waldenström makroglobulinemi og B-ALL — kun sykdomsbakgrunn, ingen zanubrutinib-behandlingsdata. |
+| [39647999](https://pubmed.ncbi.nlm.nih.gov/39647999/) | 2025 | RCT (fase 3) | J Clin Oncol | SEQUOIA: zanubrutinib versus bendamustin + rituksimab ved ubehandlet KLL/SLL, 5 års oppfølging |
+| [36400069](https://pubmed.ncbi.nlm.nih.gov/36400069/) | 2023 | Klinisk studie (fase 2) | Lancet Haematol | Zanubrutinib ved B-cellemalignitet hos pasienter som ikke tolererte tidligere BTK-hemmere |
+| [40334067](https://pubmed.ncbi.nlm.nih.gov/40334067/) | 2025 | Klinisk studie (samlet analyse) | Blood Adv | Godt tolerert og effektivt ved KLL/SLL med intoleranse for ibrutinib/akalabrutinib |
+| [40829104](https://pubmed.ncbi.nlm.nih.gov/40829104/) | 2026 | Samlet analyse | Blood Adv | Zanubrutinib ved KLL/SLL med del(17p) og/eller TP53-mutasjon (N = 301) |
+| [36402930](https://pubmed.ncbi.nlm.nih.gov/36402930/) | 2023 | Oversikt | Leukemia | Behandling av Waldenströms makroglobulinemi med BTK-hemmere |
+| [34959482](https://pubmed.ncbi.nlm.nih.gov/34959482/) | 2021 | Oversikt | Pharmaceutics | Tyrosinkinasehemmere ved kroniske leukemier (KML og KLL) |
+| [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/) | 2023 | Kohort/oversikt (sikkerhet) | Clin Lymphoma Myeloma Leuk | Reaktivering av hepatitt B-virus hos pasienter som får BTK-hemmere |
+| [42192981](https://pubmed.ncbi.nlm.nih.gov/42192981/) | 2026 | Oversikt | Cancers | BTK-hemmere ved KLL: hypogammaglobulinemi og infeksjonsrisiko |
+| [36325357](https://pubmed.ncbi.nlm.nih.gov/36325357/) | 2022 | Kasuistikk | Front Immunol | Samtidig Waldenströms makroglobulinemi og B-celle akutt lymfoblastisk leukemi |
+| [38288815](https://pubmed.ncbi.nlm.nih.gov/38288815/) | 2024 | Oversikt (syntesemetodikk) | Anticancer Agents Med Chem | Syntesemetoder for FDA-godkjente kreftlegemidler; ingen klinisk evidens |
 
-**Merknad:** Ingen av de ovennevnte litteraturarbeidene rapporterer zanubrutinib-effektivitets- eller sikkerhetsdata spesifikt i myeloid leukemi; alle direkte relevante studier gjelder dens etablerte B-celle lymfoide malignans-indikasjoner.
+Merk: Ingen av publikasjonene viser effekt av zanubrutinib ved myeloid leukemi. Evidensen gjelder lymfoide maligniteter.
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Zanubrutinib er for tiden **ikke markedsført** i Norge, og ingen autorisasjonsposter er tilgjengelige i denne bevissamlingen.
+| Autorisasjonsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004978 | Brukinsa | Ikke oppgitt | Waldenströms makroglobulinemi (status: opphevet) |
 
 ---
 
@@ -100,35 +101,47 @@ Zanubrutinib er for tiden **ikke markedsført** i Norge, og ingen autorisasjonsp
 
 | Punkt | Innhold |
 |------|------|
-| Cytotoksisitetsklassifisering | Målrettet terapi (selektiv BTK-hemmer) |
-| Myelosuppresjonrisiko | Se pakkeseddelen for advarsler og forholdsregler |
-| Emetogenisitetsklassifisering | Se pakkeseddelen for advarsler og forholdsregler |
-| Overvåkingselementer | Se pakkeseddelen for advarsler og forholdsregler |
-| Håndteringsbeskyttelse | Se pakkeseddelen for advarsler og forholdsregler |
+| Klassifisering | Målrettet behandling (BTK-hemmer), ikke konvensjonelt cytotoksisk |
+| Myelosuppresjonsrisiko | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+| Emetogenisitet | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Blodstatus (CBC), lever- og nyrefunksjon er vanlig praksis; se pakningsvedlegg |
+| Håndteringsbeskyttelse | Se pakningsvedlegg for advarsler og forsiktighetsregler |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakkeseddelen for sikkerhetsinformasjon.
+- **Legemiddelinteraksjoner:** Det er registrert 100 interaksjoner i den innsamlede interaksjonsdatabasen. Blant de oppførte er flere klassifisert som **alvorlige (Major)**:
+  - Aprepitant
+  - Acetylsalisylsyre
+  - Deksametason
+  - Klaritromycin
+  - Kobicistat
+  - Deferasirox
+  - Deferipron
+  - Samarium (153Sm) lexidronam
+  - Ibritumomab tiuxetan
+  - Tositumomab (I-131)
+- Blant moderate interaksjoner finnes blant annet cimetidin, mikonazol og klotrimazol.
+- **Annen sikkerhetslitteratur:** Det er beskrevet risiko for reaktivering av hepatitt B-virus og økt infeksjonsrisiko (inkludert hypogammaglobulinemi) ved bruk av BTK-hemmere.
 
-*(Merknad: TFDA-etikett advarsler/kontraindikasjoner data mangler for tiden — se DG001, klassifisert som blokkerende, som forhindrer inngang i S1 sikkerhet før-vurderingsfasen.)*
+For øvrig sikkerhetsinformasjon, se pakningsvedlegget.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den topp-rangerte kandidat-indikasjonen (myeloid leukemi, L4) mangler noe klinisk forsøks- eller litteraturbevis som direkte tester zanubrutinib i denne sykdommen, og den mekanistiske koblingen er biologisk svak — BTK er ikke en anerkjent driver i myeloid leukemogenese, mens de identifiserte forsøkene/litteraturen kun tester urelaterte forbindelser eller støtter zanubrutinibs allerede etablerte B-celle lymfoide indikasjoner. De fem gjenværende kandidatene (ranger 2–6) er alle L5 (ren modellprediksjon uten noe støttende bevis), og legemidlet er ennå ikke markedsført i Norge.
+Prediksjonen for myeloid leukemi bygger i hovedsak på modellscore. Den eneste studien er en fase 1-studie der zanubrutinib bare er kombinasjonspartner, og litteraturen gjelder lymfoide maligniteter. De øvrige predikerte indikasjonene (bl.a. ganglionevroblastom, Ewing-sarkom og nevroblastom) har ingen eller ingen relevant støtte (evidensnivå L5). Dessuten er den norske autorisasjonen opphevet.
 
-**For å fortsette er følgende nødvendig:**
-- TFDA/regulatoriske etikettdata (advarsler, kontraindikasjoner) — for tiden en blokkerende datakløft (DG001)
-- Bekreftet mekanisme-for-handling dokumentasjon (DG002)
-- Direkte preklinisk eller klinisk bevis som kobler BTK-hemming til myeloid leukemias patofysiologi, hvis denne indikasjonen skal forfølges videre
-- Hvis man forfølger omposisjeringsforskning, prioriter re-poenggiving eller ekskludering av rang 2–6 kandidater gitt totalt fravær av støttende bevis
-
+**For å gå videre kreves følgende:**
+- Prekliniske data og mekanismedata for BTK-avhengighet i myeloid leukemi/AML
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Hentet og analysert pakningsvedlegg (advarsler og kontraindikasjoner), som er en blokkerende mangel for sikkerhetsscreening
+- Avklaring av markedsstatus i Norge, siden eksisterende autorisasjon er opphevet
+- Eventuelt målrettede kliniske studier (fase 1/2) i myeloid leukemi før videre vurdering
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

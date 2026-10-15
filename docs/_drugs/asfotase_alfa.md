@@ -2,7 +2,7 @@
 layout: default
 title: Asfotase Alfa
 parent: Kun modellprediksjon (L5)
-nav_order: 36
+nav_order: 40
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,96 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Asfotase Alfa: Fra hypophosphatasi til mitokondriell oxidativ fosforylerings-lidelse
+# Asfotase alfa: Fra hypofosfatasi til mitokondriell oksidativ fosforyleringssykdom (kjerne-DNA-avvik)
 
-## Oppsummering på en setning
+## Oppsummering i én setning
 
-> Asfotase alfa er en bentarget enzymerstattingsterapi opprinnelig utviklet for hypophosphatasi (HPP).
-> TxGNN-modellen forutsier at det kan være effektivt for **mitokondriell oxidativ fosforylerings-lidelse på grunn av kjerne-DNA-anomalier**,
-> men denne prediksjonen er for tiden støttet av **0 kliniske forsøk** og **0 publikasjoner**, og den medfølgende mekanistiske gjennomgangen fant ingen kjent biologisk sammenheng mellom de to tilstandene.
+Asfotase alfa er en rekombinant enzymerstatningsterapi som opprinnelig brukes til behandling av **hypofosfatasi**.
+TxGNN-modellen forutsier at legemidlet kan ha effekt ved **mitokondriell oksidativ fosforyleringssykdom på grunn av kjerne-DNA-avvik**,
+men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen er kun modellbasert.
 
 ---
 
-## Kort oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Hypophosphatasi (HPP) — enzymerstattingsterapi |
-| Predikert ny indikasjon | Mitokondriell oxidativ fosforylerings-lidelse på grunn av kjerne-DNA-anomalier |
-| TxGNN prediksjonspoeng | 99.95% |
-| Bevisgrad | L5 |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+| Opprinnelig indikasjon | Hypofosfatasi |
+| Predikert ny indikasjon | Mitokondriell oksidativ fosforyleringssykdom på grunn av kjerne-DNA-avvik |
+| TxGNN-prediksjonsscore | 99,95 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
+| Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne prediksjonen (u)rimelig?
 
-Strukturert data om virkningsmekanisme er for tiden ikke tilgjengelig for dette legemidlet. Basert på kjent informasjon, er asfotase alfa en bentarget rekombinant menneskelig vevsnon-spesifikk alkalisk fosfatase (TNSALP), brukt som enzymerstattingsterapi for hypophosphatasi. Dens mekanisme innebærer å gjenopprette bentetthet ved å hydrolyse ekstracelluler uorganisk pyrofosfat, som ellers akkumuleres og hemmer mineraliseringen hos HPP-pasienter.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Basert på kjent informasjon er asfotase alfa et rekombinant fusjonsprotein av vevsuspesifikk alkalisk fosfatase (TNSALP). Det spalter ekstracellulære substrater som uorganisk pyrofosfat, pyridoksal-5'-fosfat og fosfoetanolamin. Virkningen er godt dokumentert ved hypofosfatasi.
 
-Den høyest rangerte predikerte indikasjonen, mitokondriell OXPHOS-lidelse på grunn av kjerne-DNA-anomalier, er patofysiologisk distinkt: den oppstår fra defekter i mitokondriell respirasjonskjede, ikke fra nedsatt benmineralisering. Bevissamlingens egen mekanistiske gjennomgang merker eksplisitt at det er **ingen kjent biologisk skjæring** mellom ALP-mediert benmineralisering og OXPHOS-patologi — prediksjonen synes å bli drevet rent av nettverksinnbedding-likhet i TxGNN, ikke av en testbar biologisk hypotese.
+Mitokondrielle OXPHOS-sykdommer skyldes derimot defekter i den intracellulære energiproduksjonen. Det er usannsynlig at en ekstracellulær enzymerstatning kan korrigere dette. Det finnes ingen etablert mekanistisk kobling mellom TNSALP-veien og mitokondriell oksidativ fosforylering.
 
-Dette mønsteret gjentar seg over de gjenværende ni predikerte indikasjonene (rangering 2–10): de fleste forbindelser tilskrives overfladisk fenotypisk overlapping (f.eks. andre skjelettlidelser som Steel syndrome, Scheie/Hurler syndrome, lysosomale lagringslidelser) eller delt behandlingsmodalitet (enzymerstattingsterapi) snarere enn et delt molekylært mål eller signalvei. Flere kandidater (f.eks. øsofagale varices, eksokrin pankreasinsuffisiens, familiær apolipoprotein C-II-mangel) har ingen diskernibel mekanistisk begrunnelse i det hele tatt. Gitt den fullstendige mangelen på støttende klinisk eller litteraturbevis, garanterer ingen av de 10 beste prediksjoner for tiden videre investering utover utforskende hypotesegenerering.
+Den høye TxGNN-scoren ser ut til å være en grafbasert prediksjon uten biologisk støtte. Den bør derfor tolkes med stor forsiktighet.
+
+### Andre predikerte indikasjoner (alle L5, Hold)
+
+Ingen av de ni andre toppkandidatene har kliniske studier eller litteratur. Vurderingene av mekanismen er oppsummert nedenfor.
+
+| Rang | Sykdom | TxGNN-score | Vurdering |
+|---|---|---|---|
+| 2 | Steel syndrom | 99,91 % | Kun indirekte kobling via skjelettfenotyper; ingen kjent involvering av TNSALP/pyrofosfat-veien |
+| 3 | Eksokrin pankreasinsuffisiens | 99,89 % | Ingen plausibel mekanisme; behandles med oral enzymerstatning |
+| 4 | Scheie syndrom | 99,85 % | Mangel på alfa-L-iduronidase; asfotase alfa virker ikke på dette substratet |
+| 5 | Hurler syndrom | 99,75 % | Annet enzymmål; etablert behandling er laronidase og stamcelletransplantasjon |
+| 6 | Lysosomal lagringssykdom med skjelettinvolvering | 99,73 % | Bred, heterogen kategori; ingen evidens |
+| 7 | Familiær apolipoprotein C-II-mangel | 99,71 % | Ingen rolle i lipidmetabolismen |
+| 8 | Øsofagusvaricer med blødning | 99,68 % | Skyldes portal hypertensjon; sannsynlig artefakt i kunnskapsgrafen |
+| 9 | Øsofagusvaricer uten blødning | 99,68 % | Samme begrunnelse som over |
+| 10 | Cystinose | 99,65 % | Defekt cystintransport; svak overlapp via nyrerelatert beinsykdom |
 
 ---
 
-## Bevis fra kliniske forsøk
+## Evidens fra kliniske studier
 
-For tiden er det ingen registrerte relaterte kliniske forsøk.
+Foreløpig er det ikke registrert noen relaterte kliniske studier.
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-For tiden er det ingen tilgjengelig relatert litteratur.
+Foreløpig er det ingen relevant litteratur tilgjengelig.
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Asfotase alfa innehar for tiden ingen markedsgodkjenning i Norge (0 lisenser på register).
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/003794 | Strensiq | Ikke oppgitt | Hypofosfatasi |
+
+Tillatelsen er registrert som avregistrert (innehaver: Alexion Europe SAS). Det finnes ingen gyldige tillatelser.
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegget for sikkerhetsinformasjon.
+Det foreligger ingen tilgjengelige data om advarsler eller kontraindikasjoner i de innsamlede dataene. Ingen legemiddelinteraksjoner ble funnet. Se preparatomtalen (SPC) for sikkerhetsinformasjon.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den høyest rangerte prediksjonen er støttet bare av en TxGNN-likhetsscore uten noen kliniske forsøk, ingen litteratur, og — ifølge bevissamlingens egen mekanistiske gjennomgang — ingen identifiserbar biologisk sammenheng til legemidlets kjente virkningsmekanisme. Bevisgrad er L5 (kun modellprediksjon), som ikke oppfyller terskelen for videre utviklingsinvestering.
+Prediksjonen er rent modellbasert (L5) uten kliniske studier eller litteratur, og det finnes ingen plausibel biologisk kobling mellom en ekstracellulær TNSALP-erstatning og intracellulære mitokondrielle defekter. I tillegg er produktet kun registrert som avregistrert i Norge.
 
-**For å fortsette, er følgende nødvendig:**
-- Strukturert data om virkningsmekanisme (MOA) fra DrugBank eller primærlitteratur
-- TFDA/regulatoriske etikettadvarsler og kontraindikasjoner (for tiden blokkerer sikkerhet pre-screening, per DG001)
-- Prekliniske eller mekanistiske studier som etablerer en plausibel sammenheng mellom TNSALP-mediert benmineralisering og mitokondriell OXPHOS-patologi, hvis denne indikasjonen skal forfølges videre
-- Fortsatt overvåking for nye kliniske forsøksregistreringer eller publikasjoner på noen av de 10 beste kandidatene før ny evaluering av beslutningsstadiet
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende hull i sikkerhetsscreeningen)
+- Prekliniske data eller mekanistiske studier som kan støtte en kobling til mitokondriell OXPHOS-sykdom
+- Avklaring av tilgjengelighet og markedsstatus i Norge, siden den eneste tillatelsen er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

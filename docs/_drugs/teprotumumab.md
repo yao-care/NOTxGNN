@@ -2,7 +2,7 @@
 layout: default
 title: Teprotumumab
 parent: Kun modellprediksjon (L5)
-nav_order: 350
+nav_order: 411
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,63 +29,90 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Teprotumumab: Fra tyroideaøyesykdom til Monosomi X
+# Teprotumumab: Fra Graves oftalmopati til monosomi X
 
-## Sammendrag i en setning
+## Oppsummering i én setning
 
-Teprotumumab er en IGF-1R-antagonist kjent for behandling av tyroideaøyesykdom (Graves' oftalmopati). TxGNN-modellen forutsier at det kan være effektivt for **Monosomi X** (en Turner-syndrom-karotype), men dette støttes for øyeblikket av **0 kliniske studier** og **0 publikasjoner**, og bevispakningen selv flagrer en potensiell mekanistisk motsetning snarere enn en genuin farmakologisk sammenheng.
+Teprotumumab er et monoklonalt antistoff som hemmer IGF-1R, og som opprinnelig brukes til behandling av Graves oftalmopati (tyreoideaassosiert øyesykdom).
+TxGNN-modellen predikerer at det kan være effektivt ved **monosomi X** (Turners syndrom), men prediksjonen er rent beregningsbasert: det finnes **0 kliniske studier** og **0 publikasjoner** som støtter den.
 
-## Rask oversikt
+---
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Tyroideaøyesykdom (Graves' oftalmopati) — utledet fra legemidlets kjente kliniske bruk; ingen regulatoriske lisensdata fra Norge er tilgjengelige |
-| Forutsagt ny indikasjon | Monosomi X |
-| TxGNN-prediksjonspoeng | 99.79% |
-| Bevisnivå | L5 |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+## Hurtigoversikt
 
-## Hvorfor er denne prediksjonen fornuftig?
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Graves oftalmopati |
+| Predikert ny indikasjon | Monosomi X |
+| TxGNN-prediksjonsscore | 99,79 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun kansellert godkjenning |
+| Antall godkjenninger | 1 |
+| Anbefalt beslutning | Hold |
 
-For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige i kildeposten (`original_moa: [Data Gap]`). Basert på informasjon inkorporert andre steder i denne bevispakningen, er teprotumumab kjent for å virke som en **IGF-1R-antagonist (insulin-lignende vekstfaktor-1-reseptorantagonist)**, brukt klinisk for å redusere orbitalinflammation og fibrose ved tyroideaøyesykdom.
+---
 
-Monosomi X er en karotype assosiert med Turner-syndrom. Veksthem i Turner-syndrom blir konvensjonelt behandlet ved å **fremme** GH/IGF-1-signalering — den motsatte farmakologiske retningen fra teprotumumabs IGF-1R-**blokade**. Bevispakningen's egen begrunnelse noterer eksplisitt denne retningskonflikten og antyder at prediksjonen mer sannsynlig reflekterer en knowledge-graph-nærhet-artefakt (delte "IGF-1R"- eller "X-kromosom-forstyrrelse"-noder) enn en validert mekanistisk sammenheng.
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Gitt denne direkte konflikten mellom legemidlets kjente farmakologi og det biologiske behovet for den forutsagte indikasjonen, og det fullstendige fraværet av klinisk eller preklinisk korroborering, bør denne prediksjonen behandles som eksploratorisk kun, ikke som en troverdig reposisjoreringskandidat på dette stadiet.
+De data som er samlet inn for denne rapporten, inneholder ingen detaljerte opplysninger om virkningsmekanisme. Basert på kjent informasjon er teprotumumab et IGF-1R-hemmende monoklonalt antistoff. Effekten ved Graves oftalmopati er dokumentert, og mekanistisk er den knyttet til blokkering av IGF-1R-signalering i orbitalt vev.
 
-## Klinisk studiebevis
+Den høye scoren (0,998) gir i seg selv ikke biologisk støtte. Turners syndrom er en kromosomavvik-lidelse, og det er ikke funnet noen plausibel mekanistisk kobling til IGF-1R-hemming. Tvert imot kan hemming av IGF-1-aksen virke mot sin hensikt, siden støtte til veksthormon/IGF-1-aksen er en standard del av behandlingen av Turners syndrom. Prediksjonen gjenspeiler sannsynligvis nærhet i kunnskapsgrafen, og ikke biologisk sammenheng.
 
-For øyeblikket ingen relaterte kliniske studier registrert
+De øvrige topp-10-prediksjonene har samme svakhet. De omfatter øsofagusvaricer (med og uten blødning), blandet gonadal dysgenesi, mitokondriell oksidativ fosforyleringsforstyrrelse, Turner-syndrom med strukturelle X-kromosomavvik, mosaikk-monosomi X, kjønnskromosomale utviklingsforstyrrelser, varikøs sykdom og X-kromosomtallsavvik. For ingen av dem finnes kliniske studier eller litteratur. Flere av dem tilhører samme X-kromosomklynge og er trolig innbyrdes redundante i grafen.
 
-## Litteraturbevis
+---
 
-For øyeblikket ingen relatert litteratur tilgjengelig
+## Klinisk studieevidens
 
-## Markedsinformasjon fra Norge
+Foreløpig er det ingen relaterte kliniske studier registrert.
 
-Teprotumumab er for øyeblikket **ikke markedsført** i Norge (0 godkjennelser på register; ingen lisensposter tilgjengelige).
+---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+Foreløpig finnes det ingen relatert litteratur.
 
-## Konklusjon og neste trinn
+---
 
-**Beslutning: Avvent**
+## Markedsinformasjon for Norge
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/006396 | Tepezza | – | Graves oftalmopati |
+
+Godkjenningen er kansellert, og det finnes ingen gyldige godkjenninger i Norge.
+
+---
+
+## Sikkerhetsvurderinger
+
+**Legemiddelinteraksjoner:** Det er funnet 45 registrerte interaksjoner. Alle de 20 som er oppført i datasettet, er klassifisert som moderate, og de gjelder i hovedsak antidiabetika:
+- **Biguanider og tiazolidindioner:** metformin, pioglitazon
+- **Sulfonylurea:** klorpropamid, glimepirid, glipizid, glibenklamid, acetoheksamid
+- **SGLT2-hemmere:** kanagliflozin, dapagliflozin, empagliflozin, ertugliflozin
+- **DPP-4-hemmere:** alogliptin, linagliptin, saksagliptin
+- **GLP-1-agonister:** albiglutid, dulaglutid, semaglutid, eksenatid
+- **Andre:** akarbose, humant insulin
+
+Praktisk betyr dette at blodsukkerkontroll bør følges nøye hos pasienter med diabetes.
+
+For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparatomtalen.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den øverst rangerte forutsagte indikasjonen (Monosomi X, del av Turner-syndrom-spekteret) har null klinisk studie- eller litteraturstøtte, og pakningen's egen mekanistiske analyse antyder at legemidlets IGF-1R-blokkeringshandling kan gå imot behovet for vekstfremmelse i denne tilstanden. Kombinert med legemidlets ikke-markedsførte status i Norge, er det ingen grunnlag for å gå videre enn hypotesegenerering.
+Prediksjonene er rent beregningsbaserte (L5) uten kliniske studier eller litteratur, og ingen plausibel mekanisme støtter IGF-1R-hemming ved monosomi X. I tillegg har legemidlet ingen gyldig godkjenning i Norge, og IGF-1-hemming kan stå i motsetning til etablert behandling av Turners syndrom.
 
-**For å fortsette, trengs følgende:**
-- Bekreftet MOA- og opprinnelige indikasjondata (for øyeblikket `[Data Gap]`) fra DrugBank/produsent-kilder
-- Prekliniske eller mekanistiske studier som klargjør enhver plausibel rolle for IGF-1R-modulering i Turner-syndrom/monosomi X-biologi
-- TFDA-tilsvarende sikkerhetsdata — advarsler, kontraindikasjoner og DDI (for øyeblikket alle `[Data Gap]` eller ikke funnet)
-- Eventuelle nye kliniske kasuistikker eller studier før re-evaluering av denne kandidaten
-
-*Merk: Denne bevispakningen inneholder 9 ytterligere kandidatindikasjoner (rang 2–10, inkludert esophagusvariser, blandet gonadal dysgenesis og relaterte X-kromosom/vaskulære tilstander), alle vurdert som L5/Avvent uten støtte fra forsøk eller litteratur og med tilsvarende svak eller uløst mekanistisk begrunnelse. Ingen av disse anbefales for øyeblikket for progresjon.*
-
+**For å gå videre kreves følgende:**
+- Detaljerte data om virkningsmekanisme (MOA)
+- Preparatomtale med advarsler og kontraindikasjoner, som er nødvendig før sikkerhetsscreening kan gjennomføres
+- Prekliniske eller mekanistiske studier som viser en biologisk kobling mellom IGF-1R-hemming og monosomi X
+- Gjennomgang av litteratur og studieregistre for å bekrefte at det ikke finnes uregistrert evidens
+- Vurdering av om en ny norsk markedsføringstillatelse er aktuell
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

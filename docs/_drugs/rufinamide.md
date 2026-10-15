@@ -2,7 +2,7 @@
 layout: default
 title: Rufinamide
 parent: Kun modellprediksjon (L5)
-nav_order: 317
+nav_order: 371
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,64 +29,95 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Rufinamid: Fra Lennox-Gastaut-syndrom til febril infeksjonsrelatert epilepsi-syndrom
+# Rufinamid: Fra epilepsi til febril infeksjonsrelatert epilepsisyndrom (FIRES)
 
-## Sammendrag på en setning
+## Oppsummering
 
-> Rufinamid er et triazol-derivat antikonvulsivum; innen denne bevissamlingen refereres dets etablerte rolle kun indirekte som basisbehandling for Lennox-Gastaut-syndrom (feltet `original_indications` er tomt).
-> TxGNN-modellen forutsier at det kan være effektivt for **febril infeksjonsrelatert epilepsi-syndrom (FIRES)**,
-> men dette støttes for øyeblikket av **0 kliniske studier** og **0 publikasjoner** — bare prediksjonsscoren.
+Rufinamid er et legemiddel som opprinnelig brukes mot **epilepsi**. Etter det som er kjent fra generell farmakologi, er det godkjent for anfall ved Lennox-Gastaut-syndrom.
+TxGNN-modellen predikerer at det kan være effektivt mot **febril infeksjonsrelatert epilepsisyndrom (FIRES)**.
+Det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** i de innsamlede dataene som støtter denne retningen, så prediksjonen er rent modellbasert.
 
-## Rask oversikt
+---
 
-| Element | Innhold |
-|---------|---------|
-| Originalindikasjon | Ikke bekreftet i bevissamlingen (`original_indications` er tomt); Lennox-Gastaut-syndrom refereres kun innen rang-5-begrunnelsesteksten, venter TFDA-merketbekreftelse (DG001) |
-| Forutsagt ny indikasjon | Febril infeksjonsrelatert epilepsi-syndrom (FIRES) |
-| TxGNN-prediksjonspoengsum | 99,57 % |
-| Bevisnivå | L5 (modellprediksjon kun — ingen kliniske studier eller litteratur identifisert) |
-| Markedsstatus i Norge | Ikke markedsført (Ikke markedsført) |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+## Hurtigoversikt
+
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Epilepsi |
+| Predikert ny indikasjon | Febril infeksjonsrelatert epilepsisyndrom (FIRES) |
+| TxGNN-prediksjonsscore | 99,57 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
+| Anbefalt beslutning | Hold |
+
+---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) for rufinamid er ikke tilgjengelige i denne bevissamlingen — dette er flagget som et datahull med høy alvorlighetsgrad (DG002). Innen pakkets egen tekst siteres rufinamids bruk ved Lennox-Gastaut-syndrom (LGS) — en alvorlig barneepileptisk ensefalopati som ofte involverer epileptiske spasmer og flere krampeanfallstyper — som eksisterende «indikasjonsbasis» (se rang-5-begrunnelse), og legemidlets antatte bredt spektrum natriumkanalmodulasjon brukes ellers i pakken til å argumentere for plausibilitet for relaterte syndromer.
+Data om virkningsmekanisme er ikke tilgjengelige i det innsamlede materialet. Ut fra generell farmakologi antas rufinamid å forlenge den inaktive tilstanden til spenningsstyrte natriumkanaler, noe som kan dempe anfallsaktivitet. Legemidlet har dokumentert effekt ved epilepsi, og mekanistisk kan det tenkes å være relevant for andre epilepsiformer.
 
-For den topprankede kandidaten, febril infeksjonsrelatert epilepsi-syndrom (FIRES), inneholder pakken ennå ikke en spesifikk mekanistisk begrunnelse (`mechanistic_link`/`similarity_to_original` er merket «venter»). FIRES er en sjelden, alvorlig epileptisk ensefalopati utløst av febril sykdom som ofte progrederer til superrefraktær status epilepticus og behandles ofte med midler som er effektive ved andre refraktære epileptiske ensef alopatier. Gitt rufinamids refererte rolle i LGS og natriumkanalmekanismen som er påberopt for tilstøtende kandidater i denne samme pakken, er utvidelse til FIRES mekanistisk plausibel i prinsippet — men for øyeblikket hviler dette utelukkende på TxGNN-scoren, uten noen bekreftelses-studie, ICTRP- eller litteraturbevis.
+FIRES er en behandlingsresistent epileptisk encefalopati som oppstår etter feber, og har en tydelig nevroinflammatorisk komponent. Natriumkanalmodulering kan derfor trolig gi bare symptomatisk anfallsdemping, ikke behandling av selve inflammasjonen. Den høye scoren (0,996) er en ren beregningsmessig prediksjon.
 
-## Bevis fra kliniske studier
+Modellen predikerer også fire andre epilepsisyndromer, alle med evidensnivå L5 og ingen studier eller litteratur:
 
-For øyeblikket er ingen relaterte kliniske studier registrert.
+| Rang | Predikert indikasjon | TxGNN-score | Merknad |
+|------|------|------|------|
+| 2 | Perioral myoklonus med absenser | 99,51 % | Natriumkanalblokkere kan forverre enkelte generaliserte absenser og myoklone anfall |
+| 3 | Fotosensitiv oksipitallappsepilepsi | 99,44 % | Fokal epilepsi, så natriumkanalmodulering er mekanistisk plausibelt |
+| 4 | Atypisk barneepilepsi med sentrotemporale spisser | 99,44 % | Natriumkanalblokkere kan forverre atypiske former |
+| 5 | Kryptogene sent debuterende epileptiske spasmer | 99,44 % | Indirekte støtte via bruk ved Lennox-Gastaut-syndrom |
 
-## Litteraturbevis
+---
 
-For øyeblikket er ingen relatert litteratur tilgjengelig.
+## Klinisk studieevidens
 
-## Markedsinformasjon for Norge
+Foreløpig er det ingen registrerte kliniske studier knyttet til denne indikasjonen.
 
-Rufinamid er for øyeblikket ikke markedsført og har null autorisasjoner på fil (`total_licenses: 0`, `licenses: []`) — ingen markedsføringsautorisasjonstabell kan genereres fra denne bevissamlingen.
+---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Se pakningsvedlegget for sikkerhetsinformasjon.
+Foreløpig er det ingen relevant litteratur tilgjengelig.
 
-> **Datahull-notat:** TFDA/produktmerke-advarsler og kontraindikaser er merket som et **blokkerende** datahull (DG001) — i henhold til bevissamlingen, forhindrer dette spesifikt inngang til S1-sikkerhetsinitialbedømmingsstadiet. Ingen viktige advarsler, kontraindikaser eller DDI-poster er for øyeblikket på fil (`ddi.query_status: not_found`).
+---
 
-## Konklusjon og neste trinn
+## Informasjon om det norske markedet
 
-**Beslutning: Avvent**
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000660 | Inovelon (Eisai GmbH) | Ikke oppgitt | Epilepsi (status: avregistrert) |
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Kontraindikasjoner fra kunnskapsgraf (ikke fra preparatomtale):** TxGNN-kunnskapsgrafen (PrimeKG) knytter rufinamid til følgende sykdommer: leversvikt, leversykdom, sykdom i galleblæren, leukopeni, angstlidelse, nevrotisk lidelse og dystymi. Disse bør verifiseres mot preparatomtalen.
+- **Legemiddelinteraksjoner:** Det er registrert 100 interaksjoner, og de 20 første som er vist har alle alvorlighetsgrad moderat. Eksempler er:
+  - Kortikosteroider: hydrokortison, prednison, triamcinolon, betametason
+  - Vitamin D-forbindelser: kolekalsiferol, kalsifediol, kalsitriol
+  - Opioider og beslektede: morfin, difenoksin, difenoksylat
+  - Cannabinoider: dronabinol, nabilon
+  - Kvalmehemmere: ondansetron, metoklopramid, rolapitant
+  - Andre: pioglitazon, bupropion, eliglustat, naloksegol, nitisinon
+
+Advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelige i dataene. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Topprankede indikasjon (FIRES) har bevisnivå L5 — en TxGNN-poengsum med null støttende studier eller litteratur — og legemidlet er umarkedsført med et blokkerende datahull på sikkerhetsmerkingen (DG001), som i seg selv forhindrer enhver S1-sikkerhetsbedømmelse.
+Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier eller litteratur (evidensnivå L5). I tillegg er den eneste norske tillatelsen avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
 
-**For å fortsette, er følgende nødvendig:**
-- TFDA produktmerke (advarsler/kontraindikaser) — løser DG001, for øyeblikket blokkert
-- Bekreftet virkningsmekanisme via DrugBank API — løser DG002
-- Bekreftelse av rufinamids faktiske originale godkjente indikasjon(er), siden `original_indications` er for øyeblikket tomt
-- Målrettet litteratur-/klinisk-studie-søk spesifikk for FIRES for å gå utover L5
-- Vurdering av regulatorisk vei, gitt null gjeldende markedsautorisasjoner
-
+**For å gå videre kreves følgende:**
+- Hente og analysere advarsler og kontraindikasjoner fra preparatomtalen (blokkerende datamangel)
+- Innhente data om virkningsmekanisme fra DrugBank
+- Litteratursøk og søk etter kliniske studier om rufinamid ved FIRES og de andre predikerte syndromene
+- Avklare rutekompatibilitet og likhet med den opprinnelige indikasjonen
+- Avklare mulig markedsstatus i Norge, siden Inovelon er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

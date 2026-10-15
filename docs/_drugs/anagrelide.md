@@ -2,7 +2,7 @@
 layout: default
 title: Anagrelide
 parent: Moderat evidens (L3-L4)
-nav_order: 29
+nav_order: 32
 evidence_level: L4
 indication_count: 2
 ---
@@ -29,88 +29,96 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Anagrelide: Fra Essensiell Trombocytemi til Reaktiv Trombocytose
+# Anagrelid: Fra essensiell trombocytemi til reaktiv trombocytose
 
-## Oppsummering i én setning
+## Sammendrag i en setning
 
-Anagrelide er en blodplatesenknende agent hvis etablerte indikasjon, som reflektert i støttende litteratur, er behandling av klonal trombocytose i myeloproliferative neoplasmer som essensiell trombocytemi (ET). TxGNN-modellen predikerer at det også kan være effektivt for **Reaktiv Trombocytose**, men denne retningen støttes for tiden kun av **0 kliniske studier** og **10 mekanisme/review-publikasjoner**, hvorav ingen direkte studerer anagrelide i en reaktiv (ikke-klonal) trombocytose-populasjon.
+Anagrelid er et plateletsenkende legemiddel som opprinnelig brukes til behandling av essensiell trombocytemi. TxGNN-modellen forutsier at det kan ha effekt ved **reaktiv trombocytose**, men det finnes **ingen registrerte kliniske studier** og bare **10 publikasjoner** (hovedsakelig oversiktsartikler og kasuistikker, de fleste om essensiell trombocytemi og ikke direkte om reaktiv trombocytose). Evidensen for den nye indikasjonen er derfor svak.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Original indikasjon | Ikke tilgjengelig fra lokale regulatoriske lisenser (legemidlet markedsføres ikke lokalt). Basert på støttende litteratur er anagrelides etablerte bruk reduksjon av blodplatellantall i essensiell trombocytemi (ET) / klonal trombocytose. |
-| Forutsagt ny indikasjon | Reaktiv Trombocytose |
-| TxGNN Prediksjonspoengsum | 99.83% |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Essensiell trombocytemi |
+| Predikert ny indikasjon | Reaktiv trombocytose |
+| TxGNN-prediksjonsscore | 99,83 % |
 | Evidensnivå | L4 |
-| Status i norskmarkedet | Ikke markedsført (Not Marketed) |
-| Antall godkjenninger | 0 |
+| Markedsstatus i Norge | Kun opphevede tillatelser |
+| Antall tillatelser | 2 (begge opphevet) |
 | Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelig fra det strukturerte DrugBank-feltet (flagget som datahull DG002, høy alvorlighetsgrad). Basert på informasjon reflektert i støttende litteratur (særlig PMID 15270658, *"Anagrelide: an update on its mechanisms of action and therapeutic potential"*), forstås anagrelide som en blodplatesenknende agent som hemmer megakaryocytt-modenhet og dermed reduserer blodplateleproduksjon. Dens effektivitet for å redusere forhøyet blodplatellantall i essensiell trombocytemi og relaterte myeloproliferative lidelser er godt etablert i litteraturgrunnlaget.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten. Basert på kjent informasjon senker anagrelid blodplatetall ved å hemme modning og differensiering av megakaryocytter, og dette er grunnlaget for bruken ved essensiell trombocytemi, en primær og klonal trombocytose.
 
-Essensiell trombocytemi og reaktiv trombocytose presenterer seg begge klinisk som forhøyet blodplatellantall, men de skiller seg fundamentalt i etiologi: ET er en klonal stamcellssykdom, mens reaktiv trombocytose typisk er sekundær til infeksjon, inflammasjon, splenektomi eller andre forbigående utløsere, og er generelt selvbegrensende. Flere av de hentede publikasjonene (f.eks. PMID 10494240, 7783354, 17171694) diskuterer eksplisitt differensialdiagnosen mellom disse to enhetene, som er konsistent med at TxGNN-modellen fremhever anagrelide via delt blodplatellantall-fenotype snarere enn delt sykdomsbiologi.
+Reaktiv (sekundær) trombocytose skyldes cytokiner som IL-6 og trombopoietin, som frigjøres ved betennelse, jernmangel, infeksjon, kreft eller etter miltfjerning. Den plateletsenkende effekten kan i prinsippet være relevant. Reaktiv trombocytose er imidlertid vanligvis godartet og selvbegrensende med lav trombose­risiko, slik at cytoreduktiv behandling sjelden er indisert.
 
-Mekanistisk er anagrelides hemming av megakaryocytt-modenhet ikke iboende begrenset til klonal sykdom, som er det plausible grunnlaget for modellens prediksjon. Imidlertid er dette en teoretisk ekstrapolasjon: ingen av de 10 hentede publikasjonene rapporterer anagrelides bruk, effektivitet eller sikkerhetsprofil spesifikt i en reaktiv trombocytose-populasjon, og klinisk praksis anbefaler generelt ikke cytoreduktiv terapi for reaktiv trombocytose, siden tilstanden vanligvis er forbigående og bærer en langt lavere tromboserisiko enn klonal trombocytose. Dette gapet mellom mekanistisk plausibilitet og fraværet av populasjonsspesifikk evidens er den sentrale begrensningen av denne prediksjonen.
+Den høye TxGNN-scoren (0,998) gjenspeiler trolig likheten mellom tilstanden og den godkjente indikasjonen, ikke uavhengig evidens. Siden den innhentede litteraturen hovedsakelig handler om essensiell trombocytemi, er koblingen til reaktiv trombocytose indirekte.
 
----
-
-## Evidens fra kliniske studier
-
-Ingen relaterte kliniske studier er for øyeblikket registrert.
+Prediksjon nr. 2, **invers Klippel-Trenaunay syndrom** (score 99,59 %), har ingen kliniske studier og ingen litteratur (evidensnivå L5). Tilstanden er en vaskulær overvekstlidelse, ofte knyttet til somatiske PIK3CA-mutasjoner, og er ikke primært en blodplatelidelse. Det finnes ingen kjent mekanistisk kobling til anagrelid, og prediksjonen er kun beregningsbasert.
 
 ---
 
-## Litteraturbevis
+## Klinisk studieevidens
 
-| PMID | År | Type | Journal | Viktige funn |
-|------|-----|------|---------|------|
-| [15270658](https://pubmed.ncbi.nlm.nih.gov/15270658/) | 2004 | Review | Expert Review of Anticancer Therapy | Oversikt over anagrelides virkningsmekanisme og terapeutisk potensial i klonal trombocytose; skiller klonal fra reaktiv trombocytose, sistnevnte krever ikke terapi. |
-| [16019501](https://pubmed.ncbi.nlm.nih.gov/16019501/) | 2005 | Review | Leukemia & Lymphoma | Kritisk gjennomgang av anagrelide-terapi i essensiell trombocytemi og relaterte lidelser; reaktiv trombocytose nevnt som generelt uvesentlig og ikke krever cytoreuksjon. |
-| [10494240](https://pubmed.ncbi.nlm.nih.gov/10494240/) | 1999 | Review | The Medical Journal of Australia | Diagnose av essensiell trombocytæmi avhenger av å utelukke andre myeloproliferative lidelser og reaktiv trombocytose; beskriver blodplatellsenknede terapiterskler. |
-| [7783354](https://pubmed.ncbi.nlm.nih.gov/7783354/) | 1995 | Review | Rinsho Ketsueki (Jpn J Clin Hematol) | Diskuterer differensialdiagnose av ET fra reaktiv trombocytose og gjennomgår megakaryocytt-undertrykkende agenter inkludert anagrelide. |
-| [1994734](https://pubmed.ncbi.nlm.nih.gov/1994734/) | 1991 | Review | The American Journal of the Medical Sciences | Gjennomgang av det kliniske spekteret av trombocytose og trombocytemi og cytokinreguleringen av blodplatelproduksjon. |
-| [28380402](https://pubmed.ncbi.nlm.nih.gov/28380402/) | 2017 | Review | Leukemia Research | Sakbasert gjennomgang av trombocytaferese for hypertrombocytose i myeloproliferative neoplasmer; cytoreduktiv legemiddelterapi diskutert som hjørnesteinsterapi. |
-| [17171694](https://pubmed.ncbi.nlm.nih.gov/17171694/) | 2007 | Cohort (Retrospective) | Pediatric Blood & Cancer | Retrospektiv analyse av 12 pediatriske tilfeller som sammenligner essensiell versus reaktiv trombocytemi, som fremhever diagnostiske og kliniske forløpsforskjeller. |
-| [27276864](https://pubmed.ncbi.nlm.nih.gov/27276864/) | 2016 | Case Report | Srpski Arhiv za Celokupno Lekarstvo | Tilfelle av ET med ankylosing spondylitt (en tilstand assosiert med reaktiv trombocytose) behandlet med anagrelide kombinert med DMARD-er og etanercept. |
-| [38455691](https://pubmed.ncbi.nlm.nih.gov/38455691/) | 2024 | Case Report | European Journal of Case Reports in Internal Medicine | Tilfelle av akutt hjerteinfarkt hos ET-pasient behandlet med anagrelide, som illustrerer tromboserisikostyringskontekst for blodplatesenknende terapi. |
-| [29851840](https://pubmed.ncbi.nlm.nih.gov/29851840/) | 2018 | Case Report | Medicine | Kasuistikk om digital replantasjon hos pasient med trombocytose etter splenektomi (et reaktivt trombocytose-scenario), som omhandler tromboserisikostyring. |
+Det er for øyeblikket ingen relaterte kliniske studier registrert.
 
 ---
 
-## Informasjon om norskmarkedet
+## Litteraturevidens
 
-Anagrelide er for øyeblikket **ikke markedsført** i denne jurisdiksjonen (markedsstatus: Not Marketed) og har **0 registrerte godkjenninger**. Ingen produkt-/lisensoversikter er tilgjengelige.
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [15270658](https://pubmed.ncbi.nlm.nih.gov/15270658/) | 2004 | Oversikt | Expert Review of Anticancer Therapy | Oppdatering om anagrelids virkningsmekanismer og terapeutiske potensial ved klonal trombocytose |
+| [16019501](https://pubmed.ncbi.nlm.nih.gov/16019501/) | 2005 | Oversikt | Leukemia & Lymphoma | Kritisk gjennomgang av anagrelid ved essensiell trombocytemi og beslektede tilstander |
+| [10494240](https://pubmed.ncbi.nlm.nih.gov/10494240/) | 1999 | Oversikt | The Medical Journal of Australia | Essensiell trombocytemi: diagnose krever utelukkelse av andre myeloproliferative sykdommer og reaktiv trombocytose; plateletsenkende behandling anbefales ved tall over 1000 x 10⁹/L |
+| [17171694](https://pubmed.ncbi.nlm.nih.gov/17171694/) | 2007 | Retrospektiv kohort | Pediatric Blood & Cancer | Retrospektiv analyse av 12 barn: essensiell versus reaktiv trombocytemi |
+| [28380402](https://pubmed.ncbi.nlm.nih.gov/28380402/) | 2017 | Oversikt | Leukemia Research | Rollen til trombocytaferese ved ekstrem trombocytose ved myeloproliferative neoplasmer |
+| [1994734](https://pubmed.ncbi.nlm.nih.gov/1994734/) | 1991 | Oversikt | The American Journal of the Medical Sciences | Klinisk spekter av trombocytose og trombocytemi |
+| [7783354](https://pubmed.ncbi.nlm.nih.gov/7783354/) | 1995 | Oversikt | Rinsho Ketsueki | Diagnostikk og behandling av essensiell trombocytemi, inkludert anagrelid |
+| [38455691](https://pubmed.ncbi.nlm.nih.gov/38455691/) | 2024 | Kasuistikk | European Journal of Case Reports in Internal Medicine | Akutt hjerteinfarkt hos pasient med essensiell trombocytemi behandlet med anagrelid |
+| [27276864](https://pubmed.ncbi.nlm.nih.gov/27276864/) | 2016 | Kasuistikk | Srpski Arhiv za Celokupno Lekarstvo | Essensiell trombocytemi og ankyloserende spondylitt behandlet med anagrelid, DMARD og etanercept |
+| [29851840](https://pubmed.ncbi.nlm.nih.gov/29851840/) | 2018 | Kasuistikk | Medicine | Vellykket replantasjon av to fingre hos pasient med trombocytose etter splenektomi |
 
 ---
 
-## Sikkerhetshensyn
+## Markedsinformasjon for Norge
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Ingen nøkkeladvarsler, kontraindikasjoner eller legemiddelinteraksjondata er for øyeblikket tilgjengelig i evidenspakken — dette er flagget som et **kritisk** datahull, DG001, som hindrer fullføring av S1-sikkerhetsvurderingsstadiet.)
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000480 | Xagrid | – | Essensiell trombocytemi |
+| EMEA/H/C/004585 | Anagrelide Viatris (tidligere Anagrelide Mylan) | – | Essensiell trombocytemi |
+
+Begge tillatelsene er oppført som opphevet.
 
 ---
 
-## Konklusjon og neste trinn
+## Sikkerhetsvurderinger
+
+- **Kontraindikasjoner fra kunnskapsgrafen (ikke fra preparatomtale):** Kunnskapsgrafen som ligger til grunn for TxGNN knytter anagrelid til følgende tilstander: leversvikt, leversykdom, nyresykdom, sykdom i galleblæren, trombocytopeni, blodkoagulasjonssykdom, hjertesykdom, kardiovaskulær sykdom, anemi (inkludert makrocytær anemi), interstitiell lungesykdom, eosinofil pneumoni, pulmonal eosinofili, høyminuttvolum hjertesvikt og pyoureter.
+- **Legemiddelinteraksjoner:** Totalt 100 interaksjoner er registrert. Interaksjoner av alvorlighetsgrad **Major** omfatter cisaprid, klaritromycin, dolasetron, granisetron og levofloksacin. Flere interaksjoner av moderat alvorlighetsgrad er også registrert, blant annet famotidin, alosetron, aprepitant, acetylsalisylsyre, cimetidin, loperamid og flere laksantia (bisakodyl, laktulose, laktitol, magnesiumcitrat, magnesiumhydroksid, glyserin, ricinusolje).
+
+Preparatomtalens advarsler og kontraindikasjoner er ikke tilgjengelige i datagrunnlaget; se preparatomtalen for fullstendig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen (poengsum 99.83%, TxGNN-rangering 2305) når kun evidensnivå L4 — støttet av mekanisme/review-litteratur og kasuistikker, uten kliniske studier eller populasjonsspesifikke studier i reaktiv trombocytose, og uten direkte evidens på at anagrelide er effektivt eller sikkert i denne spesifikt selvbegrensende, ikke-klonale populasjonen. Nåværende klinisk praksis støtter generelt ikke cytoreduktiv terapi for reaktiv trombocytose, som veier mot å avansere denne kandidaten uten ytterligere utredning. Et kritisk datahull vedrørende offisiell sikkerhetsinformasjon (DG001) hindrer også fullføring av S1-sikkerhetsvurderingsstadiet som kreves for å gå videre.
+Prediksjonen for reaktiv trombocytose bygger i hovedsak på modellens likhetsscore. Det finnes ingen kliniske studier, og litteraturen gjelder i hovedsak essensiell trombocytemi. Reaktiv trombocytose er normalt godartet og krever sjelden cytoreduktiv behandling, og preparatet har ingen gjeldende markedsføringstillatelse i Norge. Prediksjonen for invers Klippel-Trenaunay syndrom mangler helt klinisk og mekanistisk støtte.
 
-**For å fortsette, er følgende nødvendig:**
-- TFDA (eller lokal regulator) pakningsvedlegg-data — advarsler, kontraindikasjoner og legemiddelinteraksjonsprofil (Kritisk, DG001)
-- Bekreftet virkningsmekanisme fra DrugBank API (Høy prioritet, DG002)
-- Litteratur eller translasjonale studier som evaluerer anagrelide spesifikt i reaktiv (ikke-klonal) trombocytose-populasjoner, inkludert risiko-nytte versus avventende observasjon
-- Avklarelse av regulatorisk vei, ettersom legemidlet ikke er for øyeblikket markedsført lokalt (0 godkjenninger)
-
-**Merknad om sekundær prediksjon:** En andre kandidatindikasjon, *invers Klippel-Trenaunay-syndrom* (TxGNN-poengsum 99.59%, rangering 4816), ble også flagget av modellen men har ingen støttende kliniske studier eller litteratur, ingen klar mekanistisk forbindelse til anagrelides blodplatesenknende virkning, og er scoret L5/S0. Den anbefales ikke for videre evaluering på dette tidspunktet.
-
+**For å gå videre kreves følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsscreening
+- Detaljerte data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Klinisk evidens eller en klinisk begrunnelse for at reaktiv trombocytose har et udekket behandlingsbehov som rettferdiggjør plateletsenkende behandling
+- Avklaring av regulatorisk status i Norge, siden begge tillatelser er opphevet
+- Vurdering av kardiovaskulær sikkerhet, gitt kunnskapsgrafens hjerte- og karrelaterte kontraindikasjoner og de store QT-relaterte interaksjonene
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

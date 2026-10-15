@@ -2,7 +2,7 @@
 layout: default
 title: Regadenoson
 parent: Kun modellprediksjon (L5)
-nav_order: 299
+nav_order: 351
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,82 +29,90 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Regadenoson: Fra farmakologisk kardial stressagens til anafilaksi (sannsynlig artefakt)
+# Regadenoson: Fra myokardperfusjonsavbildning til anafylaksi
 
-## Enlinjesammendrag
+## Oppsummering i én setning
 
-Regadenoson er en adenosin A2A-reseptoragonist som brukes internasjonalt som farmakologisk stressagens for kardial perfusjonsavbilding; ingen godkjent indikasjon i Taiwan/Norge eller MOA-registrering er for øyeblikket arkivert.
-TxGNN-modellens beste forutsigelse er **Anafilaksi**, men dette signalet er mest sannsynlig et omvendt-kausalitet-artefakt — anafilaktor/overfølsomhetsreaksjon er en kjent **bivirkning** av regadenoson, ikke et behandlingsmål.
-Bevisstøtten er minimal: **1 klinisk forsøk (vurdert irrelevant, "C")** og **0 støttende publikasjoner**.
+Regadenoson er en selektiv A2A-adenosinreseptoragonist som opprinnelig brukes som diagnostisk middel ved myokardperfusjonsavbildning (MPI).
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **anafylaksi**,
+men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** som støtter denne retningen. Prediksjonen er rent beregningsbasert.
 
 ---
 
 ## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Originalindikasjon | Ikke tilgjengelig i evidenspakken (legemiddel ikke godkjent i Taiwan/Norge; internasjonalt brukt som farmakologisk kardial stresstest-agens) |
-| Forutsagt ny indikasjon | Anafilaksi |
-| TxGNN forutsigelsesscore | 99.85% |
-| Bevisnivå | L5 (kun modellforutsigelse, ingen støttende virkelighetsbeviser) |
-| Markedsstatus Norge | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | **Ventilasjon** |
+| Opprinnelig indikasjon | Myokardperfusjonsavbildning |
+| Predikert ny indikasjon | Anafylaksi |
+| TxGNN-prediksjonsscore | 99,85 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
+| Antall tillatelser | 1 (avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forutsigelsen rimelig?
+## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljert virkningsmekanisme-data ikke tilgjengelig (Datakløft). Basert på tilgjengelig bevis er regadenoson en adenosin A2A-reseptoragonist. I den identifiserte kliniske forsøkskonteksten brukes det som en farmakologisk stressagens for å simulere øvelsesinindusert kardial blodstrømsendringer under MR/perfusjonsavbilding — ikke som en sykdomsmodifiserende terapeutisk.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Regadenoson er kjent som en selektiv A2A-adenosinreseptoragonist, og dataene viser også binding til A1-, A2B- og A3-reseptorer. Effekten er godt dokumentert for koronar vasodilatasjon ved myokardperfusjonsavbildning.
 
-Kritisk er at bevispakningen selv eksplisitt identifiserer at overfølsomhet/anafilaktor-reaksjoner er en **kjent, merket bivirkning** av regadenoson. Dette betyr at TxGNN-forutsigelsen som forbinder regadenoson med "anafilaksi" mest sannsynlig gjenspeiler en *legemiddel-forårsaker-bivirkning*-forhold innebygd i kunnskapsgrafen, snarere enn et *legemiddel-behandler-sykdom*-forhold. Dette er en velkjent sviktmodus for embedding-baserte forutsigelsesmodeller (omvendt kausalitet / polaritets-forvirring) og bør ikke tolkes som et genuint behandlingssignal.
+Den teoretiske koblingen til anafylaksi er at A2A-signalering generelt har antiinflammatoriske effekter og kan dempe aktivering av mastceller og andre immunceller i prekliniske modeller. Samtidig kan adenosinreseptoraktivitet på mastceller (særlig A2B og A3) fremme degranulering, så effektretningen er usikker. Legemidlets vasodilaterende og blodtrykkssenkende virkning kan dessuten forverre hemodynamikken ved anafylaksi.
 
-De gjenstående tre kandidatene (matavhengig øvelsesinindusert anafilaksi, esotropi, pseudoallergi) viser ingen identifiserbar mekanisk sammenheng med A2A-reseptorfarmakologi, og pseudoallergi har samme omvendt-kausalitet-bekymring som beste forutsigelse. Ingen av de fire kandidatene er støttet av kliniske forsøk eller litteratur.
+Prediksjonen hviler dermed kun på en høy TxGNN-score, uten støtte fra studier eller litteratur. De øvrige predikerte indikasjonene har enda svakere grunnlag:
 
----
-
-## Klinisk forsøksbevis
-
-| Forsøksnummer | Fase | Status | Inklusjon | Viktige funn |
-|---------|------|------|------|---------|
-| [NCT06854458](https://clinicaltrials.gov/study/NCT06854458) | N/A | Rekrutterer | 1000 | Flersentersstudie av stresskardialt MR-perfusjonsavbilding; regadenoson brukt som farmakologisk stressagens for vurdering av koronar blodstrøm. Ikke designet for behandling av anafilaksi — eventuelle anafilaksi-hendelser ville være sikkerhetsovervåkings-endepunkter, ikke effektivitets-endepunkter. **Relevansgrad: C (støtter ikke den forutsagte indikasjon).** |
+| Predikert indikasjon | TxGNN-score | Vurdering |
+|------|------|------|
+| Næringsmiddelavhengig anstrengelsesutløst anafylaksi | 99,74 % | Samme resonnement som for anafylaksi; sjelden undertype uten data. Trolig drevet av likhet med overordnet term. |
+| Esotropi | 99,12 % | Ingen plausibel mekanistisk sammenheng; sannsynlig artefakt i kunnskapsgrafen. |
+| Pseudoallergi | 99,12 % | Overlapper med anafylaksi; kun teoretisk mastcellemodulering med blandede adenosineffekter. |
 
 ---
 
-## Litteraturbevis
+## Klinisk studieevidens
 
-For øyeblikket ingen relatert litteratur tilgjengelig.
-
----
-
-## Markedsinformasjon Norge
-
-Regadenoson har for øyeblikket ingen markedsføringsgodkjennelse arkivert (0 lisenser; markedsstatus: Ikke markedsført). Ingen produkttabell kan genereres.
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-- **Viktige advarsler**: Ikke tilgjengelig i strukturert sikkerhetsdata (Datakløft). Merk imidlertid at bevispakningen eksplisitt identifiserer overfølsomhet/anafilaktor-reaksjon som en kjent merket risiko for regadenoson — dette er direkte relevant for tolking av beste-rangerte forutsigelse og bør behandles som et sikkerhetssignal, ikke en behandlingsmulighet.
-- **Legemiddelinteraksjoner**: Søket ga ingen resultater (ikke funnet).
-
-Vennligst se pakningsvedlegget for fullstendig sikkerhetsinformasjon når den blir tilgjengelig (se Datakløft DG001, for øyeblikket merket som blokkering).
+Foreløpig er ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Konklusjon og neste trinn
+## Markedsinformasjon for Norge
 
-**Beslutning: Ventilasjon**
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/001176 | Rapiscan (GE Healthcare AS) | Ikke oppgitt | Myokardperfusjonsavbildning |
+
+Tillatelsen er avregistrert, og det finnes ingen gyldige tillatelser.
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Kontraindikasjoner fra kunnskapsgrafen (ikke fra preparatomtale):** Kunnskapsgrafen (PrimeKG) knytter legemidlet til blant annet hypertensjon, epilepsi, kronisk obstruktiv lungesykdom, astma, aortastenose, hypotensjon, atrioventrikulært blokk, sick sinus-syndrom, transitorisk iskemisk anfall, vertebrobasilær insuffisiens, perikarditt, mitralstenose, koronarsykdom, perikardeffusjon, karotisstenose og karotistrombose. Disse bør verifiseres mot preparatomtalen.
+- **Legemiddelinteraksjoner (moderat alvorlighetsgrad):** Koffein, dipyridamol, dyfyllin, teofyllin, aminofyllin og oksytrifyllin. Metylxantiner er adenosinreseptorantagonister og kan dempe effekten av regadenoson, mens dipyridamol kan forsterke adenosinvirkninger.
+- **Reseptorfarmakologi:** Regadenoson binder A1, A2A, A2B og A3. Ikke-selektiv aktivering kan forklare bivirkninger og gjør effekten på mastceller usikker.
+- **Spesielt for anafylaksi:** Blodtrykksfall og vasodilatasjon kan være uheldig hos pasienter med anafylaktisk sirkulasjonssvikt.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Alle fire forutsagte indikasjonene er Bevisnivå L5 (kun modellforutsigelse), med enten irrelevant (Grad C) eller ingen klinisk forsøksstøtte og null støttende litteratur. Den best-rangerte kandidaten, anafilaksi, er meget sannsynlig et omvendt-kausalitet-artefakt som gjenspeiler en kjent legemiddelreaksjon snarere enn et genuint terapeutisk forhold, og legemiddelet er ikke markedsført i Norge eller Taiwan.
+Prediksjonen er kun beregningsbasert (evidensnivå L5) uten kliniske studier eller litteratur. Mekanismen er tvetydig, siden A2A kan dempe, mens A2B/A3 kan fremme mastcelleaktivering, og de hemodynamiske virkningene kan være skadelige ved anafylaksi. Legemidlet har dessuten ingen gyldig markedsføringstillatelse i Norge.
 
-**For å fortsette, kreves følgende:**
-- Avklare DG001 (Blokkering): innhent offisiell merkeadvarsel/motindikasjoner fra TFDA før noen sikkerhetsvurdering kan igangsettes
-- Avklare DG002 (Høy): bekreft virkningsmekanisme via DrugBank for å riktig vurdere mekanistisk plausibilitet
-- Uavhengig verifisering av TxGNN edge polaritet (behandler vs. forårsaker) for anafilaksi-forutsigelsen før ytterligere investering
-- Hvis forfølgt, søk prospektiv klinisk eller kasuistisk bevis som spesifikt evaluerer et terapeutisk (ikke en bivirkning) forhold mellom regadenoson og noen av de fire kandidat-indikasjonene
-
+**For å gå videre kreves:**
+- Preparatomtale med advarsler og kontraindikasjoner (kritisk mangel som blokkerer sikkerhetsscreening)
+- Detaljerte data om virkningsmekanisme (f.eks. via DrugBank)
+- Prekliniske data på regadenosons effekt på mastceller og i anafylaksemodeller
+- Vurdering av administrasjonsvei og klinisk gjennomførbarhet, siden legemidlet gis intravenøst som diagnostisk middel
+- Avklaring av regulatorisk status, siden den eneste tillatelsen er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

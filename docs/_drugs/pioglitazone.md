@@ -2,7 +2,7 @@
 layout: default
 title: Pioglitazone
 parent: Kun modellprediksjon (L5)
-nav_order: 279
+nav_order: 327
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,96 +29,90 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Pioglitazone: Fra type 2-diabetes mellitus til opsismodysplasi
+# Pioglitazon: Fra diabetes mellitus type 2 til opsismodysplasi
 
-## Sammenfatting på en setning
+## Oppsummering i én setning
 
-Pioglitazone er et insulinfølsomhetsfremmende stoff i tiazolidindion-klassen (TZD) som historisk har blitt brukt ved type 2-diabetes mellitus.
-TxGNN-modellens høyest rangerte prediksjon i denne bevissamlingen er **opsismodysplasi**, en sjelden skjelettdysplasi,
-men denne kandidaten har **0 kliniske forsøk** og **0 støttende publikasjoner**, og modellens egen begrunnelse flagger det som sannsynlig kunnskapsgrafen-støy snarere enn et genuint signal.
+Pioglitazon er en insulinsensitiserende PPAR-gamma-agonist som opprinnelig brukes til behandling av diabetes mellitus type 2.
+TxGNN-modellen predikerer at legemidlet kan være effektivt mot **opsismodysplasi** (en sjelden skjelettdysplasi),
+men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne spesifikke prediksjonen. Prediksjonen er kun modellbasert.
 
 ---
 
 ## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Type 2-diabetes mellitus (basert på kjent farmakologi; ingen norsk lisens/indikasjonsformalisme tilgjengelig i denne bevissamlingen) |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Diabetes mellitus type 2 |
 | Predikert ny indikasjon | Opsismodysplasi |
-| TxGNN-prediksjonscore | 99,59% |
-| Bevisnivå | L5 |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | **Avvent** |
+| TxGNN-prediksjonsscore | 99,59 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun opphevede/utgåtte godkjenninger |
+| Antall godkjenninger | 6 (alle opphevet) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er det ikke tilgjengelig detaljert informasjon om virkningsmekanisme (datakløft DG002, flagget som høy alvorlighetsgrad). Basert på tilgjengelig informasjon er pioglitazone en PPAR-γ-agonist som fungerer som et insulinfølsomhetsfremmende stoff, med etablert effektivitet ved type 2-diabetes gjennom forbedret perifer glukoseopptak og bevaring av bukspyttkjertels betaceller-funksjon.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Pioglitazon er kjent som en PPAR-gamma-agonist og insulinsensitiserer, og effekten ved diabetes mellitus type 2 er godt dokumentert.
 
-Opsismodysplasi er imidlertid en genetisk skjelettdysplasi forårsaket av *INPPL1*-mutasjoner som påvirker signalering i vekstplatene i knoklene. Det eksisterer ingen etablert mekanistisk sammenheng mellom PPAR-γ-agonisme og *INPPL1*-mediiert skjelettutviklingen. Bevissamlingens egen omformål-begrunnelse er eksplisitt på dette punktet: den høye TxGNN-scoren reflekterer sannsynligvis sparsomme forbindelser i kunnskapsgrafen rundt denne sjeldensjukdom-noden snarere enn en virkelig farmakologisk sammenheng, og stoffets faktiske rangering (4832) blant alle kandidatsykdommer ligger langt utenfor ethvert område som normalt ville støtte prioritering.
+Opsismodysplasi er en sjelden skjelettdysplasi forårsaket av mutasjoner i INPPL1 (SHIP2), som påvirker PI3K-/insulinsignalering og utvikling av vekstplaten. En spekulativ kobling via insulin-/PI3K-signalering er tenkelig, men den støttes ikke av noen studie eller litteratur. Den høye scoren (0,996) er utelukkende en modellprediksjon, og prediksjonen kan like gjerne gjenspeile nærhet i kunnskapsgrafen som et reelt terapeutisk grunnlag.
 
-Gitt fraværet av alle kliniske forsøk, observasjons- eller mekanistisk litteratur spesifikk for denne kombinasjonen, bør denne prediksjonen behandles som en artefakt fra hypotesegenerering snarere enn en handlingsorientert omformål-kandidat.
-
----
-
-## Kliniske forsøk
-
-Ingen relaterte kliniske forsøk er registrert for tiden.
+Andre høyt rangerte prediksjoner (alle på evidensnivå L5 og med anbefalingen «Hold») er stiv-person-spekteret (fokalt stivt lem-syndrom og klassisk stiv person-syndrom), tiaminresponsivt dysfunksjonssyndrom, flere lokaliserte lipodystrofier og pankreasagenesi. Av disse er lipodystrofiene biologisk mest plausible på grunn av PPAR-gammas rolle i adipogenese, men også her mangler data.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske studier
 
-Ingen relatert litteratur er tilgjengelig for tiden.
+Foreløpig finnes ingen registrerte kliniske studier knyttet til denne indikasjonen.
+
+---
+
+## Litteraturevidens
+
+Foreløpig finnes ingen relevant litteratur for opsismodysplasi.
+
+*Merknad:* For den niende prediksjonen (pankreasagenesi) ble det hentet sju publikasjoner. De er generelle oversikter om diabetes type 2 og tiazolidindioner og omhandler ikke pankreasagenesi. De er trolig funnet gjennom treff på legemiddelnavn og regnes som indirekte og lite relevante.
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Pioglitazone er ikke for tiden markedsført i Norge i henhold til denne bevissamlingen (`market_status: Ikke markedsført`, `total_licenses: 0`). Ingen autorisasjonsposter er tilgjengelige for gjennomgang.
+Alle seks godkjenningene er oppført som opphevet (ingen gyldige godkjenninger).
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000285 | Actos | – | Diabetes mellitus type 2 |
+| EMEA/H/C/002277 | Pioglitazone Accord | – | Diabetes mellitus type 2 |
+| EMEA/H/C/002324 | Pioglitazone Actavis | – | Diabetes mellitus type 2 |
+| EMEA/H/C/000655 | Competact | – | Diabetes mellitus type 2 |
+| EMEA/H/C/000680 | Tandemact | – | Diabetes mellitus type 2 |
 
 ---
 
-## Andre kandidatindikasjoner som ble vurdert (ikke prioritert)
+## Sikkerhetsvurderinger
 
-Bevissamlingen inkluderte 8 ytterligere lavtrangerte kandidater, alle på samme måte vurdert som L5 / Avvent på grunn av svak eller fraværende mekanistisk og klinisk grunnlag:
+Pakningsvedlegg med advarsler og kontraindikasjoner er ikke tilgjengelig i datagrunnlaget. Les preparatomtalen for fullstendig sikkerhetsinformasjon.
 
-| Rangering | Sykdom | TxGNN-score | Nøkkelspørsmål |
-|-----------|--------|-------------|----------------|
-| 2 | Fokal stiv lemme-syndrom | 99,50% | Autoimmun/GABAerg sykdom; ingen mekanistisk eller empirisk sammenheng til PPAR-γ |
-| 3 | Klassisk stiv person-syndrom | 99,50% | Det samme som ovenfor |
-| 4 | Tiamin-responsiv dysfunksjonssyndrom | 99,48% | Underliggende defekt (SLC19A2) løses ikke av insulinfølsomhetsfremmende behandling |
-| 5 | Legemiddelinducert lokalisert lipodystrofi | 99,30% | Mekanistisk motstridende — TZDer er også kjent for å *forårsake* fettomfordeling |
-| 6 | Sentrifugal lipodystrofi | 99,26% | Pediatrisk, idiopatisk; ingen støttende bevis |
-| 7 | Trykkinducert lokalisert lipoatrofi | 99,24% | Mekanisk/lokal etiologi; svak systemisk PPAR-γ-sammenheng |
-| 8 | Idiopatisk lokalisert lipodystrofi | 99,19% | Etiologi ukjent; ingen rettet bevis |
-| 9 | Bukspyttkjertels agenesе | 99,18% | 9 hentet publikasjoner er alle generelle T2DM/TZD-oversikter — søkeord-mismatch, ikke sykdomsspesifikk bevis |
-
-Ingen av de 9 kandidatene når ut over L5-bevis, og ingen begrunner for tiden eskalering forbi modellprediksjonstrinnet.
+- **Kontraindikasjoner fra kunnskapsgraf (ikke fra preparatomtale):** Kunnskapsgrafen (PrimeKG) knytter pioglitazon til blant annet kongestiv hjertesvikt, nyresykdom, leversykdom, gallblæresykdom, hypofysesvikt (hypopituitarisme og relaterte tilstander, inkl. Sheehan syndrom og Kallmann syndrom), binyrebarksvikt/Addisons sykdom, sykdom i thymus og infeksjonssykdom. Dette er grafbaserte assosiasjoner og må verifiseres mot offisiell preparatomtale.
+- **Legemiddelinteraksjoner:** Totalt 100 interaksjoner er registrert. Eksempler på moderate interaksjoner: abirateron, fenylefrin, acetazolamid, formoterol, pseudoefedrin, epinefrin, hydrokortison, salbutamol, etanol, hydroklortiazid, aloe vera-blad og alpelisib. Eksempler på mindre alvorlige: nifedipin, etinylestradiol og liponsyre.
 
 ---
 
-## Sikkerhetshensyn
+## Konklusjon og neste steg
 
-Se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og legemiddelinteraksjondata er ikke tilgjengelig i denne bevissamlingen — DG001 er flagget som en blokkerende datakløft som forhindrer initial vurdering i sikkerhetsstadiet.)
-
----
-
-## Konklusjon og neste skritt
-
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Alle 9 predikerte indikasjoner er L5 (kun modellprediksjon), uten kliniske forsøk og med enten ingen litteratur eller litteratur som ikke er relevant for den spesifikke sykdommen. Den høyest rangerte kandidaten (opsismodysplasi) har ingen troverdig mekanistisk sammenheng og er eksplisitt flagget av modellens egen begrunnelse som sannsynlig kunnskapsgrafen-støy. Kombinert med en blokkerende sikkerhetsdatakløft (DG001) og fraværende MOA-data (DG002), eksisterer det for tiden intet grunnlag for å fremme noen kandidat forbi S0.
+Prediksjonen er kun modellbasert (L5) uten kliniske studier eller relevant litteratur. Pioglitazon har dessuten ingen gyldige godkjenninger i Norge i dag, og sikkerhetsdata fra preparatomtalen mangler.
 
-**For å kunne fortsette, er følgende nødvendig:**
-- Løse DG001: få TFDA/regulatoriske merkevareadvarsler og kontraindikasjoner for pioglitazone
-- Løse DG002: bekrefte detaljert virkningsmekanisme via DrugBank API-spørring
-- Dersom man forfølger bukspyttkjertels agenesе-kandidaten (rangering 9), manuelt verifisere hvorvidt noen av de 9 hentet publikasjoner virkelig er sykdomsspesifikk snarere enn generelle T2DM/TZD-oversikter
-- Gitt det jevnt svake signalet på tvers av alle 9 kandidater, vurder å kjøre TxGNN på nytt med rangbasert (ikke rå score) terskelbestemmelse før videre bevisinnsamling iverksettes
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Prekliniske eller mekanistiske studier som knytter PPAR-gamma-/insulin-/PI3K-signalering til INPPL1-relatert skjelettdysplasi
+- Systematisk litteratursøk for opsismodysplasi og vurdering av de mer plausible alternativene (lokaliserte lipodystrofier)
+- Avklaring av regulatorisk status i Norge siden alle godkjenninger er opphevet
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

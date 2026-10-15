@@ -2,7 +2,7 @@
 layout: default
 title: Empagliflozin
 parent: Kun modellprediksjon (L5)
-nav_order: 129
+nav_order: 148
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,61 +29,90 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Empagliflozin: Original indikasjondata mangler → Forutsagt ny indikasjon for Focal Stiff Limb Syndrome
+# Empagliflozin: Fra type 2-diabetes til fokalt stiff-limb-syndrom
 
-## En-setnings sammendrag
+## Oppsummering i én setning
 
-Empagliflozin (SGLT2-hemmere) i denne Evidence Pack har både original indikasjon og virkningsmekanisme markert som datakløfter, noe som gjør det umulig å bekreftte dets eksisterende kliniske bruk. TxGNN-modellen forutsier potensielle effekter for **Focal Stiff Limb Syndrome** (delt første plass med Classic Stiff Person Syndrome), men det finnes **for tiden ingen kliniske studier eller litteraturbevis**, og modellens mekanismeanalyse selv har indikert **ingen kjent biologisk assosiasjon** mellom dem.
+Empagliflozin er en SGLT2-hemmer som opprinnelig brukes til behandling av type 2-diabetes, hjertesvikt og kronisk nyresvikt.
+TxGNN-modellen forutsier at legemidlet kan ha effekt ved **fokalt stiff-limb-syndrom** (score 99,06 %), men det finnes for tiden **0 kliniske studier** og **0 publikasjoner** som støtter denne retningen. Prediksjonen er kun modellbasert.
 
-## Rask oversikt
+---
+
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|------|--------|
-| Opprinnelig indikasjon | Datamangel (ikke levert i Evidence Pack, tilsvarende DG001) |
-| Forutsagt ny indikasjon | Focal Stiff Limb Syndrome (Rank 1, delt første plass med Classic Stiff Person Syndrome) |
-| TxGNN forutsagt poengsum | 99.06% |
-| Bevisnivå | L5 (ren modellprediksjon, ingen studier, ingen litteratur) |
-| Status på taiwansk marked | Ikke markedsført |
-| Antall godkjenninger | 0 |
+|------|------|
+| Opprinnelig indikasjon | Diabetes mellitus type 2; hjertesvikt; kronisk nyresvikt |
+| Predikert ny indikasjon | Fokalt stiff-limb-syndrom (focal stiff limb syndrome) |
+| TxGNN-prediksjonsscore | 99,06 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrerte (trukket) tillatelser |
+| Antall tillatelser | 3 (alle avregistrert/trukket) |
 | Anbefalt beslutning | Hold |
+
+---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden finnes det ingen fullstendig data for virkningsmekanisme (MOA) — `original_moa`-feltet i Evidence Pack er i seg selv markert som datakløft (DG002). Basert på mekanismerelatert narrativ levert av TxGNN, er det kjent at empagliflozin er en SGLT2-hemmere, med farmakologisk virkning av å hemme natrium-glukose-cotransporter 2 (SGLT2) i de renale proximale tubuli, noe som reduserer gjenopptak av glukose av nyrene.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Basert på kjent informasjon er empagliflozin en SGLT2-hemmer (natrium-glukose-kotransportør 2) med dokumentert effekt ved type 2-diabetes, hjertesvikt og kronisk nyresvikt.
 
-Fordi `original_indications` og `taiwan_regulatory.licenses` begge er tomme verdier, er det umulig å sammenlikne legemidlets godkjente bruksområder med de tre forutsagte indikasjonene (focal stiff limb syndrome, classic stiff person syndrome, opsismodysplasia).
+Fokalt stiff-limb-syndrom tilhører spekteret av «stiff-person»-lidelser, som er autoimmune eller nevrologiske tilstander. Ut fra dataene som er samlet inn for denne rapporten, finnes det ingen etablert mekanistisk kobling mellom SGLT2-hemming og denne sykdommen. Eventuelle hypoteser, for eksempel immunmetabolske eller antiinflammatoriske effekter, er spekulative.
 
-Enda mer kritisk, mekanismeanalysen som følger med TxGNN selv har klart indikert: disse tre forutsagte indikasjonene har **ingen kjent assosiasjon** på biologisk mekanismenivå med nyre-/metabolsk virkningsveien til SGLT2-hemmere — stiff limb/person syndrom tilhører autoimmun nevrologiske ledningsforstyrrelser (med kjernepathologi av anti-GAD65 antistoff-indusert GABAerg inhibitorisk ledningsdefekt), mens opsismodysplasia er en skjelettdysplasi-sykdom forårsaket av INPPL1-genmutasjoner. Alle tre mangler preklinisk eller klinisk bevis som støtter denne forbindelsen, og representerer rene algoritmiske høytrangerte spådommer uten biologisk plausibilitetsstøtte.
+Den høye modellscoren er en beregnet prediksjon uten klinisk støtte. Samme score (99,06 %) er gitt til klassisk stiff-person-syndrom, og i tillegg er opsismodysplasi (99,03 %) predikert. Heller ikke for disse finnes det kliniske studier eller litteratur:
 
-## Klinisk studie-bevis
+- **Klassisk stiff-person-syndrom:** SGLT2-hemming har ingen kjent direkte kobling til den GABAerge eller anti-GAD-autoimmune patofysiologien.
+- **Opsismodysplasi:** En sjelden genetisk skjelettdysplasi (INPPL1-relatert, påvirker SHIP2 og insulin/PI3K-signalering). En teoretisk kobling via insulinsignalering er tenkelig, men ikke validert.
 
-For tiden finnes det ingen relaterte kliniske studieregistreringer.
+---
 
-## Litteraturbevis
+## Klinisk studieevidens
 
-For tiden finnes det ingen relatert litteraturdata.
+For tiden er det ingen relaterte kliniske studier registrert.
 
-## Taiwansk markedsinformasjon
+---
 
-Empagliflozin er for tiden **ikke markedsført i Taiwan**, antallet godkjenningsregistreringslisenser er 0, og det finnes ingen lisensdetaljdata å vise.
+## Litteraturevidens
 
-## Sikkerhetshensyn
+For tiden er det ingen relatert litteratur tilgjengelig.
 
-Vennligst referer til pakningsvedlegget for fullstendig sikkerhetsinformasjon (nøkkeladvarsler, kontraindikasjoner og legemiddel-legemiddel interaksjonsdata i Evidence Pack er for tiden datakløfter, og DDI-spørringsresultatet er not_found).
+---
 
-## Konklusjon og neste trinn
+## Markedsinformasjon for Norge
+
+Alle tre tillatelser er avregistrert (trukket), og ingen er gyldige i dag.
+
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/002677 | Jardiance | Ikke oppgitt | Diabetes mellitus type 2; hjertesvikt; kronisk nyresvikt |
+| EMEA/H/C/003770 | Synjardy | Ikke oppgitt | Diabetes mellitus type 2 |
+| EMEA/H/C/003833 | Glyxambi | Ikke oppgitt | Diabetes mellitus type 2 |
+
+---
+
+## Sikkerhetsvurderinger
+
+Det foreligger ikke data om advarsler eller kontraindikasjoner fra preparatomtalen. Se preparatomtalen for sikkerhetsinformasjon.
+
+**Legemiddelinteraksjoner:** Interaksjonssøket er gjennomført og fant 100 registrerte interaksjoner (kilde: DDInter). De 20 som er tilgjengelige i dataene, er hovedsakelig av moderat alvorlighetsgrad, og to er svake:
+
+- **Moderat:** fenylefrin, acebutolol, acetazolamid, formoterol, pseudoefedrin, nifedipin, adrenalin, etinylestradiol, hydrokortison, salbutamol, etanol, fosamprenavir, fosinopril, fosfenytoin, fostamatinib, fostemsavir, furosemid, gemifloksacin
+- **Svak:** hydrokortison (topikal), alklometason (topikal)
+
+---
+
+## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Alle tre forutsagte indikasjonene har bevisnivå L5 (ren modellprediksjon), uten noen kliniske studier eller litteraturbevis, og TxGNNs egen mekanismeanalyse har indikert ingen kjent assosiasjon med den originale farmakologiske veien; samtidig har legemiddelnivået fortsatt datakløfter på Blocking-nivå (DMP pakningsvedleggsadvarsler/kontraindikasjoner), og oppfyller ikke ennå minimumsbetingelsene for å gå inn i neste fase av sikkerhetsvurdering (S1).
+Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier, litteratur eller en identifiserbar mekanistisk kobling. I tillegg er alle norske tillatelser avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
 
-**Hvis du vil fortsette, må du fullføre:**
-- TFDA pakningsvedleggsadvarsler og kontraindikasjonsdata (DG001, Blocking, forutsetning for å gå inn i S1 sikkerhetsvurdering)
-- Fullstendig virkningsmekanismedata (MOA) (DG002)
-- For de tre forutsagte indikasjonene, søk etter om prekliniske dyreforsøk eller caserapporter finnes for å støtte mekanismeplausibilitet
-- Hvis du kontinuerlig ikke klarer å etablere biologisk plausibilitet, anbefales det å utsette videre ressursinvestering i dette kandidatlegemiddel-indikasjonsparet
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) for å kunne vurdere en mulig mekanistisk kobling
+- Advarsler og kontraindikasjoner fra preparatomtalen (blokkerende datamangel for sikkerhetsscreening)
+- Prekliniske eller mekanistiske studier som støtter en kobling til stiff-person-spekteret
+- Avklaring av formuleringer og administrasjonsveier (ikke vurdert ennå)
+- Avklaring av markedsstatus i Norge, siden alle tillatelser er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

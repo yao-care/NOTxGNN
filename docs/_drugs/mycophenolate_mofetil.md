@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Mycophenolate Mofetil
-parent: Høy evidens (L1-L2)
-nav_order: 236
-evidence_level: L2
+parent: Kun modellprediksjon (L5)
+nav_order: 277
+evidence_level: L5
 indication_count: 10
 ---
 
 # Mycophenolate Mofetil
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Mykofenolatmofetil: Fra transplantatstoßavvisning profylakse til HIV-infeksjonssykdom
+# Mykofenolatmofetil: Fra transplantatavstøtning til HIV-infeksjon
 
-## Sammendrag i én setning
+## Ettsetningssammendrag
 
-> Mykofenolatmofetil (MMF) er et velrenommert immunsuppressivum som primært brukes til å forebygge avstøting etter transplantasjon av fast organ.
-> TxGNN-modellen spår at det kan være effektivt også for **HIV-infeksjonssykdom**,
-> med **10 kliniske forsøk** og **10 støttepublikasjoner** som for tiden gjennomgås, selv om de fleste forsøk er små, avsluttet, trukket tilbake eller av ukjent status.
+Mykofenolatmofetil er et immundempende legemiddel som opprinnelig brukes for å forebygge **transplantatavstøtning**.
+TxGNN-modellen predikerer at det kan være virksomt mot **HIV-infeksjon**,
+og det finnes i dag **4 kliniske studier** og **20 publikasjoner** i datagrunnlaget, men studiene er små, og ingen viser varig nytte.
 
 ---
 
@@ -43,86 +43,91 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 | Punkt | Innhold |
 |------|------|
-| Original indikasjon | Forebyggelse av organavstøting ved transplantasjon (nyre, hjerte, lever) — ikke fanget opp i bevisspakken; basert på etablert farmakologi for MMF |
-| Forutsagt ny indikasjon | HIV-infeksjonssykdom |
-| TxGNN-prediksjonspoengsum | 99,86% |
-| Bevisstnivå | L2 |
-| Markedsstatus i Norge | ✗ Ikke på markedet |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+| Opprinnelig indikasjon | Transplantatavstøtning |
+| Predikert ny indikasjon | HIV-infeksjon |
+| TxGNN-prediksjonsscore | 99,86 % |
+| Evidensnivå | L2 (datagrunnlaget angir L2, men de HIV-relaterte studiene er små, og den eneste direkte randomiserte studien i litteraturen er en liten RCT fra 2004) |
+| Markedsstatus i Norge | Kun trukne (kansellerte) tillatelser |
+| Antall tillatelser | 4 (alle kansellert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljert data om virkningsmekanisme ikke tilgjengelig i bevisspakken. Basert på etablert farmakologi er mykofenolatmofetil et prodrug av mikofenolesyre (MPA), en selektiv, reversibel hemmer av inosyn monofosfat dehydrogenase (IMPDH) type II. Dette enzymet er påkrevd for *de novo*-syntesen av guaninnukleotider — en vei som aktiverte T- og B-lymfocytter er avhengig av fordi de mangler en effektiv purin-gjenbruksrute. Denne selektive antiproliferative effekten på lymfocytter er grunnen til at MMF brukes til å undertrykke transplantatstoßavvisning.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i det kompilerte datagrunnlaget. Ut fra kjent informasjon hemmer mykofenolsyre (den aktive formen) enzymet inosinmonofosfat-dehydrogenase (IMPDH) og tømmer dermed guanosinnukleotidpoolen. Dette gir mindre proliferasjon av aktiverte T- og B-lymfocytter.
 
-Den hypotetiske koblingen til HIV-infeksjon hviler på et annet aspekt av samme mekanisme: kronisk immun hyperaktivering og klonal ekspansjon av aktiverte CD4+ T-celler (det primære reservoaret for virusreplikasjon) driver sykdomsprogresjon. Ved å redusere guaninnukleotidpoolen i disse aktiverte cellene, kunne MMF teoretisk dempet immun-aktiverings-drevet virusreplikasjon og bremse CD4+ T-celle-uttømming, uavhengig av direkte antiretroviral aktivitet. Flere grupper foreslo også en direkte antiviral mekanisme, ettersom MPA-indusert dGTP-reduksjon kan forbedre aktiviteten til guanosin-analoge revers transkriptase-hemmer som abakavir.
+For HIV gir dette en mulig «virostatisk» begrunnelse: lavere tilgang på byggesteiner for revers transkripsjon, mindre aktivering av T-celler og forsterket effekt av nukleosidanaloger som abakavir og didanosin. Kobling til den opprinnelige indikasjonen er først og fremst immunmodulering, ikke direkte antiviral virkning.
 
-Imidlertid har denne begrunnelsen blitt testet prospektivt i flere små fase 1/2-studier de siste to tiårene, og resultatene er inkonsistente: noen forsøk viser redusert HIV-RNA eller gunstige immunologiske markører når MMF legges til abakavir-baserte regimer, mens de største planlagte bekreftende studiene (f.eks. MAN2, NCT00120419) fortsatt har ukjent/rapportert resultat, og et nøkkeltillegsforsøk (NCT00021489) ble trukket tilbake før innrulling. Bevisene støtter derfor en plausibel mekanisme, men ikke en påvist klinisk nytte.
+Den kliniske støtten er begrenset til små studier hos behandlingsnaive og behandlingserfarne HIV-1-pasienter, uten påvist varig nytte.
 
 ---
 
-## Bevis fra kliniske forsøk
+## Evidens fra kliniske studier
 
-| Forsøksnummer | Fase | Status | Innrulling | Viktige funn |
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT00120419](https://clinicaltrials.gov/study/NCT00120419) | Fase 4 | Ukjent | 90 | MAN2-studie — MMF for kronisk immun hyperaktivering hos ART-naive HIV-1-pasienter; vurderte CD4+-nedgang, HIV-1-RNA og sykdomsprogresjon; resultat ikke rapportert |
-| [NCT00038272](https://clinicaltrials.gov/study/NCT00038272) | Fase 2 | Fullført | 56 | Sammenlignet DAPD alene vs DAPD + MMF hos behandlingserfarne pasienter; MMF var et tillegg, ikke det primære studielegemidlet |
-| [NCT01288131](https://clinicaltrials.gov/study/NCT01288131) | Fase 3 | Avsluttet | 8 | Syklosporin + MMF vs syklofossamid + prednison for anti-r-HuEpo PRCA; ikke en HIV-indikasjon |
-| [NCT06869265](https://clinicaltrials.gov/study/NCT06869265) | Fase 2 | Rekrutterer | 56 | Kondisjoneringsregime for haplo-HSCT ved AML; MMF tilfeldig (GVHD-profylakse), ikke relatert til HIV |
-| [NCT00247494](https://clinicaltrials.gov/study/NCT00247494) | Fase 4 | Ukjent | 90 | MAN2-substudium som evaluerte MMFs effekt på kardiovaskulære surrogatmarkører hos HIV-1-pasienter |
-| [NCT00021489](https://clinicaltrials.gov/study/NCT00021489) | Fase 1/2 | Trukket tilbake | 0 | Planlagt å teste MMF + abakavir-sikkerhet og antiretroviral aktivitet hos behandlingssvikt-pasienter; trukket tilbake før noen data ble samlet |
-| [NCT02793544](https://clinicaltrials.gov/study/NCT02793544) | Fase 2 | Fullført | 80 | MMF brukt for GVHD-profylakse ved HLA-mismatched slektning-donor BMT for hematologiske maligniteter; ikke HIV-relatert |
-| [NCT00112593](https://clinicaltrials.gov/study/NCT00112593) | Ej angitt | Fullført | 5 | Allogen HSCT med post-transplant syklosporin/MMF for blandede kimerismeinduks hos HIV-1-positive pasienter |
-| [NCT01453192](https://clinicaltrials.gov/study/NCT01453192) | Fase 3 | Fullført | 27 | Nyretransplantasjon oppfølging hos HIV-1-pasienter med ESRD; MMF brukt som standard post-transplant immunsuppresjon, ikke testet for antiviral effekt |
-| [NCT00009009](https://clinicaltrials.gov/study/NCT00009009) | Fase 2 | Fullført | 10 | Nyretransplantasjon sikkerhet/effektivitet hos HIV-infiserte ESRD-pasienter; MMF som standard immunsuppressant |
+| [NCT00038272](https://clinicaltrials.gov/study/NCT00038272) | Fase 2 | Fullført | 56 | DAPD alene vs. DAPD + mykofenolatmofetil som tillegg til anti-HIV-behandling; undersøker en annen virkestoffkombinasjon, kun indirekte relevant |
+| [NCT01288131](https://clinicaltrials.gov/study/NCT01288131) | Fase 3 | Avsluttet tidlig | 8 | Ciklosporin og mykofenolat ved anti-EPO-assosiert ren rød celleaplasi; svak kobling til HIV |
+| [NCT00112593](https://clinicaltrials.gov/study/NCT00112593) | Ikke relevant | Fullført | 5 | Stamcelletransplantasjon hos HIV-positive med mykofenolat som del av immundempende regime; ikke bevis for antiviral effekt |
+| [NCT00021489](https://clinicaltrials.gov/study/NCT00021489) | Fase 2 | Trukket tilbake | 0 | Mykofenolatmofetil som tillegg til abakavir; ingen deltakere og dermed ingen data |
 
 ---
 
-## Bevis fra litteraturen
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [15213566](https://pubmed.ncbi.nlm.nih.gov/15213566/) | 2004 | Randomisert pilotstudie | J Acquir Immune Defic Syndr | MMF under strukturert HAART-avbrudd; vurderte immunrespons og plasma/lymfatisk virusbelastning hos 17 kroniske HIV-pasienter |
-| [15353978](https://pubmed.ncbi.nlm.nih.gov/15353978/) | 2004 | Klinisk studie | AIDS | HAART med eller uten MMF hos behandlingsnaive HIV-1-pasienter; undersøkte effekt på plasma HIV-1-RNA-nedgang og latent reservoir |
-| [12352149](https://pubmed.ncbi.nlm.nih.gov/12352149/) | 2002 | Kohort | J Acquir Immune Defic Syndr | Å legge til MMF til abakavir-basert ART var assosiert med intracellulær dGTP-utarming og redusert plasma HIV-1-RNA hos 5 tungt behandlede pasienter |
-| [16379601](https://pubmed.ncbi.nlm.nih.gov/16379601/) | 2005 | Kohort | AIDS Res Hum Retroviruses | Ingen skadelige immunologiske effekter observert med MMF + HAART hos behandlingsnaive akutte/kroniske HIV-1-pasienter |
-| [15871638](https://pubmed.ncbi.nlm.nih.gov/15871638/) | 2005 | Kohort/PK-PD | Clin Pharmacokinet | PK/PD for lavdose MMF kombinert med abakavir, efavirenz og nelfinavir hos HIV-infiserte pasienter |
-| [15355127](https://pubmed.ncbi.nlm.nih.gov/15355127/) | 2004 | Kohort/PK | Clin Pharmacokinet | Effekt av MMF på antiretroviral legemiddelfarmakokinetikk og intracellulære nukleosid trifosfatpoller |
-| [11391161](https://pubmed.ncbi.nlm.nih.gov/11391161/) | 2001 | Pilotstudie | J Acquir Immune Defic Syndr | MMF som en komponent av salvageterapi hos 7 pasienter med multidrug-resistent HIV-1; godt tolerert, ingen signifikant nedgang i virussuppresjon notert |
-| [17885292](https://pubmed.ncbi.nlm.nih.gov/17885292/) | 2007 | Klinisk studie | AIDS | DAPD (amdoksovor) med eller uten MMF evaluert for sikkerhet, tolerabilitet og antiretroviral aktivitet hos legemiddel-resistent HIV |
-| [17017956](https://pubmed.ncbi.nlm.nih.gov/17017956/) | 2006 | Oversikt | Curr Top Med Chem | Oversikt over immunsuppressive legemidler, inkludert MMF, som potensielle tillegg målrettet immun aktivering ved HIV-sykdom |
-| [16515490](https://pubmed.ncbi.nlm.nih.gov/16515490/) | 2006 | Oversikt | Curr Pharm Des | Oversikt over "virostatic" midler, inkludert MMF, som en strategi for å målrette vertsfaktorer som opprettholder HIV-reservoarer |
+| [15353978](https://pubmed.ncbi.nlm.nih.gov/15353978/) | 2004 | RCT | AIDS | HAART med og uten mykofenolatmofetil hos behandlingsnaive HIV-1-pasienter; effekt på nedgang i HIV-1 RNA og det latent infiserte cellereservoaret |
+| [12352149](https://pubmed.ncbi.nlm.nih.gov/12352149/) | 2002 | Klinisk serie (5 pasienter) | J Acquir Immune Defic Syndr | Tillegg av mykofenolatmofetil til abakavirholdig regime ga uttømming av intracellulært dGTP og fall i plasma-HIV-1 RNA |
+| [15871638](https://pubmed.ncbi.nlm.nih.gov/15871638/) | 2005 | Farmakokinetikk/farmakodynamikk | Clin Pharmacokinet | Lavdose mykofenolatmofetil hos HIV-pasienter på abakavir, efavirenz og nelfinavir; overvåking anbefales |
+| [16379601](https://pubmed.ncbi.nlm.nih.gov/16379601/) | 2005 | Klinisk kortrapport | AIDS Res Hum Retroviruses | Ingen skadelige immunologiske effekter av mykofenolatmofetil sammen med HAART |
+| [17017956](https://pubmed.ncbi.nlm.nih.gov/17017956/) | 2006 | Oversikt | Curr Top Med Chem | Immundempende legemidler ved HIV-sykdom |
+| [16515490](https://pubmed.ncbi.nlm.nih.gov/16515490/) | 2006 | Oversikt | Curr Pharm Des | Virostatika som strategi mot HIV-infeksjon |
+| [20840478](https://pubmed.ncbi.nlm.nih.gov/20840478/) | 2010 | Retrospektiv studie | Am J Transplant | Nyretransplantasjon hos 27 HIV-infiserte med regime som inkluderte mykofenolatmofetil |
+| [41118390](https://pubmed.ncbi.nlm.nih.gov/41118390/) | 2025 | Prekliniske/in vitro | J Clin Invest | Selektiv målretting av HIV-infiserte T-cellekloner med antiproliferative legemidler |
 
 ---
 
 ## Markedsinformasjon for Norge
 
-For tiden ikke på markedet i Norge — ingen autorisasjonsregistreringer er tilgjengelige i bevisspakken (`total_licenses: 0`).
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000082 | CellCept | – | Transplantatavstøtning |
+| EMEA/H/C/000884 | Myfenax | – | Transplantatavstøtning |
+| EMEA/H/C/001218 | Myclausen | – | Transplantatavstøtning |
+| EMEA/H/C/000882 | Mycophenolate mofetil Teva | – | Transplantatavstøtning |
+
+Alle fire tillatelsene er kansellert, og ingen er gyldige i dag.
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Data for TFDA-ekvivalent pakningsinformasjon-advarsler, kontraindikasjoner og legemiddelinteraksjoner er for tiden ikke tilgjengelige (flagget som en **Blokkerande** datakløft, DG001 — nedlasting/analyse påkrevd fra regulatorisk pakningsinformasjonkilde). Se pakningsvedlegget for sikkerhetsinformasjon.
+- **Kontraindikasjoner fra kunnskapsgraf (ikke preparatomtale):** TxGNN-kunnskapsgrafen angir blant annet leversykdom, galleblæresykdom, nøytropeni, agranulocytose, aktivt magesår, cytomegalovirusinfeksjon, herpes simplex og herpes zoster, progressiv multifokal leukoencefalopati, kreft (inkludert lymfom og hudkreft) samt ulike former for aplastisk anemi og beslektede benmargssvikt-syndromer (f.eks. Fanconi-anemi og Diamond-Blackfan-anemi).
+- **Legemiddelinteraksjoner:** 92 interaksjoner er registrert. Blant de mest sentrale:
+  - **Alvorlig:** aktivt kull.
+  - **Moderat:** protonpumpehemmere (omeprazol, esomeprazol, lansoprazol, deksla­nsoprazol, rabeprazol), antibiotika (amoksicillin, doksycyklin, tetrasyklin, minocyklin, klaritromycin, vankomycin, paromomycin, kanamycin) og antacida (magnesiumoksid, aluminiumhydroksid, kalsiumkarbonat).
+  - **Mindre:** sinksulfat, sinkacetat og jern.
+- Preparatomtalens advarsler og kontraindikasjoner er ikke tilgjengelige i datagrunnlaget og må innhentes før videre vurdering.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Selv om hypotesen om immun-aktivering som kobler MMF til HIV-sykdomskontroll er mekanistisk plausibel og har blitt testet i flere små studier, er forsøksbevisene inkonsistente (flere studier trukket tilbake, avsluttet eller av ukjent/rapportert resultat), ingen bekreftende fase 2/3-RCT har fastslått klinisk nytte, og MMF er for tiden ikke på markedet i Norge. Kjernesikerhetdata som trengs for en foreløpig sikkerhetsvurdering (S1) mangler også.
+Mekanismen (IMPDH-hemming, guanosinuttømming) er biologisk plausibel, men de kliniske dataene består av små, gamle studier uten påvist varig nytte, og den ene direkte studien med deltakere ble trukket tilbake. I tillegg har legemidlet ingen gyldig markedsføringstillatelse i Norge, og kunnskapsgrafen peker på betydelige kontraindikasjoner, blant annet infeksjoner og benmargssuppresjon, noe som er uheldig for HIV-pasienter.
 
-**For å fortsette, kreves følgende:**
-- TFDA/Norsk pakningsinformasjon-sikkerhetdata — advarsler, kontraindikasjoner, DDI (DG001, for tiden Blokkerande)
-- Formell virkningsmekanisme-dokumentasjon fra DrugBank (DG002)
-- Resultatdata fra MAN2-studien (NCT00120419/NCT00247494), for tiden oppført som ukjent status
-- En dedikert risikokostnadsvurdering for immunsuppresjon i en HIV-positiv populasjon (balansering av antiviral hypotese vs. risiko for ytterligere immun-svekkelse)
-- Vurdering av norsk/EU-regulatorisk vei gitt at legemidlet ikke er for tiden på markedet i denne indikasjonen eller landet
+**For å gå videre kreves følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel)
+- Detaljerte data om virkningsmekanisme fra DrugBank
+- Nyere, større randomiserte studier som viser klinisk nytte (for eksempel på HIV-reservoar eller immunaktivering)
+- Avklaring av regulatorisk status i Norge, siden alle tillatelser er kansellert
+- Vurdering av risiko for opportunistiske infeksjoner og benmargssuppresjon hos HIV-positive
 
+**Andre predikerte indikasjoner (kort):** Multippel sklerose (score 99,5 %, L2) har flest kliniske data blant de øvrige, med små fase 2-studier og Cochrane-oversikter som ikke har vist overlegenhet over etablert behandling. Hemosiderose har kun oversikter og kasuistikker (L4). De øvrige prediksjonene (blant annet Paget sykdom, Heiner syndrom, jernoverskudd og veterinære lentivirusinfeksjoner) mangler kliniske data og er kun modellbaserte (L5).
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

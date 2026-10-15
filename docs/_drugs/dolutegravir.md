@@ -2,15 +2,15 @@
 layout: default
 title: Dolutegravir
 parent: Moderat evidens (L3-L4)
-nav_order: 112
-evidence_level: L3
+nav_order: 130
+evidence_level: L4
 indication_count: 3
 ---
 
 # Dolutegravir
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **3** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,76 +29,106 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Dolutegravir: Fra HIV-1-infeksjon til Simian Immunodeficiency Virus-infeksjon
+# Dolutegravir: Fra HIV-infeksjon til simian immunsviktvirus-infeksjon
 
 ## Oppsummering i én setning
 
-Dolutegravir er en mye brukt HIV-integrase strandoverførings-inhibitor (INSTI), offentlig kjent som en førstlinje-behandling for HIV-1-infeksjon, selv om denne evidenspakken ikke inneholder en formell indikasjon/MOA-oppføring (flagget som datamangel DG001/DG002). TxGNN-modellens høyest rangerte prediksjon er **Simian Immunodeficiency Virus (SIV)-infeksjon** — en ikke-menneskeprimate-forskningssykdom snarere enn en menneskelig klinisk indikasjon — som for tiden støttes av bare **1 løst relatert klinisk studie** og **16 prekliniske/dyreslekts-publikasjoner**. To lavere rangerte prediksjoner (feline immunodeficiency virus-infeksjon og en sjelden nevrodevolutiv forstyrrelse) er markant svakere og blir ikke adressert videre nedenfor bortsett fra forbehold nevnt i rasjonale- og konklusjonsdelene.
+Dolutegravir er en integrasehemmer (INSTI) som opprinnelig brukes til behandling av HIV-infeksjon.
+TxGNN-modellen predikerer at legemidlet kan ha effekt på **simian immunsviktvirus-infeksjon (SIV)**, men dette er en dyremodell og ikke en human klinisk indikasjon.
+Støtten består av **0 kliniske studier** og **13 publikasjoner**, nesten utelukkende prekliniske.
+
+---
 
 ## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | HIV-1-infeksjon (offentlig kjent bruk av dolutegravir; ikke til stede som strukturerte data i denne evidenspakken — se DG002) |
-| Forutsagt ny indikasjon | Simian Immunodeficiency Virus (SIV)-infeksjon — ikke-menneskeprimate-sykdomsmodell |
-| TxGNN-prediksjonspoeng | 99.85% |
-| Evidensgrad | L3 |
-| Markeds-status i Norge | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+| Opprinnelig indikasjon | HIV-infeksjon |
+| Predikert ny indikasjon | Simian immunsviktvirus-infeksjon (SIV) |
+| TxGNN-prediksjonsscore | 99,85 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun opphørte (trukket) godkjenninger |
+| Antall godkjenninger | 4 (alle opphørt) |
+| Anbefalt beslutning | Hold |
+
+---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i denne evidenspakken (flagget som datamangel DG002, høy alvorlighetsgrad). Basert på offentlig kjent farmakologi, er dolutegravir en andregeneras-HIV-integrase strandoverførings-inhibitor (INSTI): den blokkerer strandoverføringstrinn i retroviral integrase, og hindrer at virusDNA blir innsatt i vert-genomet. Dets effektivitet ved HIV-1-infeksjon er vel etablert i klinisk bruk.
+Dolutegravir hemmer HIV-1-integrase og blokkerer dermed strand-transfer-trinnet, som er nødvendig for at viralt DNA skal integreres i vertscellens genom. Detaljerte data om virkningsmekanisme fra legemiddeldatabasen er ikke tilgjengelige i de innsamlede dataene, men denne beskrivelsen er basert på kjent kunnskap om legemiddelklassen.
 
-HIV-1 og simian immunodeficiency virus (SIV) er begge lentiviruser, og deres integrase-enzymer er strukturelt høyt konserverte på tvers av arter. Publiserte intasom-strukturstudier bekrefter at dolutegravir binder seg til og inhiberer SIV-integrase i tillegg til HIV-integrase, og flere rhesus-makak-studier har direkte brukt dolutegravir-inneholdende antiretroviral regimer for å undertrykke SIV-replikering som en forskningsmodell for å studere HIV-patogenese, latens og legemiddelresistens.
+SIV er nært beslektet med HIV, og integrasen er strukturelt lik. Strukturstudier av intasomer fra begge virus viser et bevart bindingssted for hemmere. Makakstudier, blant annet PMID 30381490, viser antiviral aktivitet av dolutegravir mot SIV, og monoterapi selekterer for resistensmutasjoner. Mekanismen er dermed biologisk konsistent.
 
-Imidlertid eksisterer denne mekanistiske koblingen helt innen dyremodellforskningen — SIV-infiserte makaker er en surrogatmodell brukt til å studere HIV, ikke en distinkt menneskesykdom. SIV infiserer ikke mennesker, så denne prediksjonen representerer ikke en ny menneskelig indikasjon i konvensjonell legemiddelombruk-forstand; den gjenspeiler i stedet at TxGNN identifiserer dolutegravirens allerede kjente antivirale aktivitet som blir gjenbrukt innenfor eksisterende makak-sykdomsmodell-litteratur. For kontekst bærer modellens andre og tredje rangerte prediksjoner for dette legemidlet enda svakere translasjonsverdi: feline immunodeficiency virus-infeksjon (L4, ren mekanistisk ekstrapolasjon uten direkte dolutegravir–FIV-data) og en sjelden nevrodevolutiv forstyrrelse (L5, ingen støttende forsøk eller litteratur). Tatt sammen bør dette prediksjonssettet leses som et signal om likhet i embedding-rommet i modellen snarere enn en validert ny menneskelig indikasjon.
+Det er likevel viktig å merke seg at SIV-infeksjon er en dyremodell for HIV. Evidensen er prekliniske og indirekte for human bruk, og den opprinnelige indikasjonen (HIV) dekker allerede den humane kliniske bruken av denne mekanismen. Prediksjonen gir derfor først og fremst verdi som forskningsmodell, ikke som ny behandlingsindikasjon for mennesker.
 
-## Bevis fra kliniske forsøk
+---
 
-| Forsøksnummer | Fase | Status | Innrullering | Viktige funn |
-|---------|------|------|------|---------|
-| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Phase 1/2 | Ukjent | 12 | Evaluerte vedolizumab pluss antiretroviral terapi for HIV virologisk remisjon etter behandlingsavbrudd hos mennesker. Dolutegravir er ikke den primære studie-intervensjon og forsøksstatus er ukjent; klassifisert som lav relevans (C) for SIV-indikasjon. |
+## Klinisk evidens
 
-## Litteraturbevis
+Det er for øyeblikket ingen relaterte kliniske studier registrert.
 
-| PMID | År | Type | Journal | Viktige funn |
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [30381490](https://pubmed.ncbi.nlm.nih.gov/30381490/) | 2019 | In vivo dyreffektivitet/resistensstudie | Journal of Virology | Dolutegravir monoterapi i SIV-infiserte makaker selekterte flere distinkte resistansmutasjonsmønstre med variable virologiske utfall, som direkte karakteriserte DTGs in vivo resistensbarriere. |
-| [26378179](https://pubmed.ncbi.nlm.nih.gov/26378179/) | 2015 | In vivo dyreresistenskarakterisering | Journal of Virology | Karakteriserte INSTI-resistensprofiler ved bruk av SIVmac239 i rhesus makak-PBMCs; resistansmuterasjoner parallelle med dem observert ved HIV. |
-| [32166319](https://pubmed.ncbi.nlm.nih.gov/32166319/) | 2020 | In vivo dyremekanisme/metabolsk toksisitetsstudie | Clinical Infectious Diseases | Dolutegravir og raltegravir viste proadipogene og profibrøse effekter og induserte insulinresistens i humane/simiane adipøse vevmodeller. |
-| [32506843](https://pubmed.ncbi.nlm.nih.gov/32506843/) | 2021 | Strukturbiologi (intasom-struktur) | The FEBS Journal | Gjennomgikk HIV/SIV intasom-krystallstrukturer som forklarer hvordan INSTIer, inkludert dolutegravir, binder seg til integrase og hvordan resistansmuterasjoner driver virusflukt. |
-| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Dyremodell-kohort (CNS-reservoir) | mBio | Fant at lentiviral (HIV/SIV) infeksjon vedvarer i hjernevev til tross for effektiv antiretroviral terapi, som indikerer et CNS-reservoir som ikke adresseres av nåværende regimer. |
-| [41959211](https://pubmed.ncbi.nlm.nih.gov/41959211/) | 2026 | Dyrehistologi-studie (ikke DTG-spesifikk) | bioRxiv (preprint) | Karakteriserte SIV- og ART-indusert forstyrrelse av hjernelipid-fordeling i rhesus makaker; ikke spesifikk for dolutegravir. |
-| [31619550](https://pubmed.ncbi.nlm.nih.gov/31619550/) | 2019 | Mekanisme-studie (Wnt-vei, ikke virologi-spesifikk) | Journal of Virology | Viste at Wnt/β-catenin-vei-modulering påvirker minne-CD4+-T-celledinamikk i ART-undertrykt, SIV-infiserte makaker — relevant til viral reservoir-persistens, ikke til dolutegravir-aktivitet selv. |
-| [39509655](https://pubmed.ncbi.nlm.nih.gov/39509655/) | 2024 | Gjennomgang/epidemiologi (menneskelig HIV, ikke direkte relevant) | AIDS Reviews | Gjennomgikk HIV-1/HIV-2 epidemibyrde i Elfenbenskysten; SIV nevnes kun som evolutionær opprinnelse til HIV, ikke som behandlingsmål. |
-| [28576126](https://pubmed.ncbi.nlm.nih.gov/28576126/) | 2017 | Pasientrapport (fanget sjimpanse SIVcpz) | Retrovirology | Beskrev vellykket antiretroviral behandling av SIVcpz-indusert immunsvikt i en enkelt fanget sjimpanse. |
-| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Komparativ ART-regimen-studie (ikke DTG-spesifikk) | AIDS Research and Human Retroviruses | Sammenlignet koformulerte injiserbare antiretroviral-regimer (ikke inkludert dolutegravir) for viral undertrykkelse i SIV-infiserte rhesus makaker. |
+| [30381490](https://pubmed.ncbi.nlm.nih.gov/30381490/) | 2019 | Preklinisk (makak, in vivo) | Journal of Virology | Dolutegravir-monoterapi hos SIV-infiserte makaker selekterte for flere resistensmønstre med varierende virologisk utfall |
+| [36365101](https://pubmed.ncbi.nlm.nih.gov/36365101/) | 2022 | Preklinisk | Pharmaceutics | Farmakologisk validering av langtidsbehandling med antiretrovirale midler (inkl. dolutegravir) i SIV-infisert ikke-human primatmodell |
+| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Preklinisk | AIDS Res Hum Retroviruses | Sammenligning av injiserbare kombinasjonsregimer mot SIV hos rhesusmakaker |
+| [40093003](https://pubmed.ncbi.nlm.nih.gov/40093003/) | 2025 | Preklinisk (bildediagnostikk) | Frontiers in Immunology | Endringer i ekstracellulært fritt vann og traktskader hos makaker før og etter emtricitabin + tenofovir + dolutegravir |
+| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Preklinisk (makak) | mBio | Lentivirus vedvarer i hjernen til tross for effektiv antiretroviral behandling |
+| [41959211](https://pubmed.ncbi.nlm.nih.gov/41959211/) | 2026 | Preklinisk (makak, preprint) | bioRxiv | SIV og antiretroviral behandling påvirker fordelingen av lipider i makakhjerne |
+| [32166319](https://pubmed.ncbi.nlm.nih.gov/32166319/) | 2020 | Preklinisk | Clin Infect Dis | Dolutegravir og raltegravir gir proadipogene og profibrotiske effekter og insulinresistens i human/simian fettvev |
+| [32506843](https://pubmed.ncbi.nlm.nih.gov/32506843/) | 2021 | Oversikt (strukturbiologi) | FEBS Journal | HIV/SIV-intasomstrukturer belyser binding av integrasehemmere og resistensmekanismer |
+| [26378179](https://pubmed.ncbi.nlm.nih.gov/26378179/) | 2015 | Preklinisk (in vitro) | Journal of Virology | Resistensprofiler for integrasehemmere i SIVmac239 |
+| [28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/) | 2017 | Preklinisk (in vitro) | Antimicrob Agents Chemother | Aktivitet av bictegravir og kabotegravir mot integrasehemmerresistent SIVmac239 og HIV-1 |
+
+---
 
 ## Markedsinformasjon for Norge
 
-Dolutegravir har for tiden **0 markedsgodkjennelser** i Norge og er registrert som **ikke markedsført** i denne evidenspakken. Ingen produkt-nivå-lisens-poster er tilgjengelige for å fylle ut en markedsinformasjontabell.
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/002753 | Tivicay | – | HIV-infeksjon |
+| EMEA/H/C/004427 | Juluca | – | HIV-infeksjon |
+| EMEA/H/C/004909 | Dovato | – | HIV-infeksjon |
+| EMEA/H/C/002754 | Triumeq | – | HIV-infeksjon |
 
-## Sikkerhetshensyn
+Alle fire godkjenningene er registrert som opphørt.
 
-Vennligst se pakningsvedlegget for sikkerhets-informasjon.
+---
+
+## Sikkerhetsvurderinger
+
+**Legemiddelinteraksjoner** (62 registrerte interaksjoner; utvalg av de viktigste):
+
+- **Alvorlige (Major):** Polyvalente kationer som kan redusere opptaket av dolutegravir, blant annet aluminiumhydroksid, kalsiumsalter (acetat, karbonat, citrat, glubionat, glukonat, laktat, fosfat), jern, kaolin, attapulgitt, magaldrat og magnesiumsalter (karbonat, klorid, citrat).
+- **Mindre (Minor):** Aprepitant, cimetidin, klaritromycin, klotrimazol og deksametason.
+
+Øvrig sikkerhetsinformasjon, som advarsler og kontraindikasjoner, finnes i preparatomtalen.
+
+---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
-**Rasjonale:**
-- Den høyest rangerte TxGNN-prediksjonen (SIV-infeksjon) er en ikke-menneskeprimate-sykdomsmodell, ikke en handlbar menneskelig indikasjon; dens L3-evidensgrad er bygget helt fra dyrevirus- og preklinisk litteratur pluss en enkelt løst relatert menneskelig klinisk studie som ikke tester dolutegravir direkte.
-- De to lavere rangerte prediksjoner for dette legemidlet er enda svakere — feline immunodeficiency virus-infeksjon (L4, mekanistisk ekstrapolasjon kun, ingen direkte dolutegravir–FIV-data) og en sjelden nevrodevolutiv forstyrrelse (L5, null støttende forsøk eller litteratur) — som forsterker at dette prediksjonssettet ikke for tiden peker til en levedyktig ny menneskelig indikasjon.
-- Legemiddel-nivå datamangel sammensetter usikkerheten: DG001 (lokale regulatoriske pakningsvedlegg-advarsler/kontraindikasjoner) er et blokeringsmangel som hindrer S1-sikkerhets-evaluering, og DG002 (virkningsmekanisme-dokumentasjon) er et høy-alvorlighetsgrad mangel som påvirker mekanistisk-relevans-analyse.
+**Begrunnelse:**
+Evidensen er utelukkende preklinisk (L4) og gjelder en dyremodell av HIV, ikke en ny human indikasjon. Dolutegravir har allerede HIV-infeksjon som godkjent indikasjon, og alle norske godkjenninger er opphørt.
 
-**For å fortsette, er følgende nødvendig:**
-- Lokale regulatoriske pakningsvedlegg-data (advarsler, kontraindikasjoner) for å rydde blokeringsmangel DG001 før noen S1-sikkerhets-gjennomgang kan begynne
-- Bekreftet DrugBank/MOA-dokumentasjon for å lukke mangel DG002
-- Hvis en menneskelig-relevant indikasjon er målet, direkte effektivitets-/PK-data for dolutegravir i en faktisk menneskelig sykdoms-kontekst — ingen av de tre nåværende prediksjoner (SIV, FIV, den nevrodevolutive forstyrrelsen) er menneskelig-godkjennbare indikasjoner under eksisterende bevis
-- En gjennomgang av den underliggende TxGNN sykdoms-ontologi-kartlegging for dette legemidlet, siden to av de tre høyest rangerte prediksjoner løses til ikke-menneskelige/veterinær-sykdom-konsepter — dette kan indikere et embedding- eller ontologi-matching-problem verdt å undersøke oppstrøms i rørledningen snarere enn et ekte ombruk-signal.
+**For å gå videre kreves følgende:**
+- Avklaring av om målet er forskningsbruk (SIV som modell) eller en reell ny indikasjon, siden prediksjonen i praksis ikke gir ny human behandlingsindikasjon
+- Data om virkningsmekanisme fra legemiddeldatabasen
+- Advarsler og kontraindikasjoner fra preparatomtalen (mangler i dag og blokkerer sikkerhetsscreening)
+- Avklaring av markedsstatus i Norge, siden alle godkjenninger er opphørt
 
+---
+
+## Øvrige predikerte indikasjoner (til orientering)
+
+- **Felint ervervet immunsviktsyndrom (FIV):** TxGNN-score 99,85 %, evidensnivå L4, anbefaling Hold. Kun én veterinærstudie (PMID 37112803) med kombinasjonsbehandling, som ikke viser en dolutegravirspesifikk effekt. FIV-integrase er mer forskjellig fra HIV-1-integrase enn SIV-integrase, og det er ingen human klinisk relevans.
+- **Nevroutviklingsforstyrrelse med ataksisk gange, fraværende tale og redusert kortikal hvit substans:** TxGNN-score 99,80 %, evidensnivå L5, anbefaling Hold. Ingen studier eller litteratur, og ingen kjent mekanistisk kobling. Prediksjonen er sannsynligvis et artefakt i kunnskapsgrafen og bør ikke følges opp uten uavhengig biologisk begrunnelse.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

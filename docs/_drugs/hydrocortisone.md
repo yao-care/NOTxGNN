@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Hydrocortisone
-parent: Høy evidens (L1-L2)
-nav_order: 169
-evidence_level: L1
+parent: Kun modellprediksjon (L5)
+nav_order: 201
+evidence_level: L5
 indication_count: 10
 ---
 
 # Hydrocortisone
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,94 +29,98 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Hydrocortison: Fra kortikosteroidterapi/antiinflammatorisk behandling til alopecia areata
+# Hydrokortison: Fra binyrebarksvikt til alopecia areata
 
-## Sammendrag i en setning
+## Oppsummering i én setning
 
-> Hydrocortison er et glukokortikoid som klassisk brukes for adrenokortikalinsufficiens og som antiinflammatorisk/immunosuppressivt middel (spesifikk tekst for godkjent indikasjon er ikke dokumentert i denne bevissamlingen).
-> TxGNN-modellen forutsier at det kan være effektivt for **alopecia areata**,
-> med **4 kliniske studier** (inkludert 1 avsluttet fase 3-RCT) og **21 publikasjoner** som for tiden støtter denne retningen.
+Hydrokortison er et glukokortikoid som opprinnelig brukes til å behandle binyrebarksvikt og medfødt binyrehyperplasi.
+TxGNN-modellen forutsier at legemidlet kan ha effekt ved **alopecia areata** (flekkvis hårtap).
+Dette støttes av **1 klinisk studie** og **20 publikasjoner**, men hydrokortison var kun lavpotent sammenligningsarm i studien, så støtten for selve effekten er svak.
 
 ---
 
 ## Hurtigoversikt
 
-| Element | Innhold |
-|---|---|
-| Opprinnelig indikasjon | Ikke dokumentert i bevissamlingen (`taiwan_regulatory.licenses` og `drug.original_indications` er begge tomme). Generell farmakologisk klasse: kortikosteroid, brukt for binyreinsufficiens / inflammatorisk-immunologiske tilstander |
-| Forutsagt ny indikasjon | Alopecia areata |
-| TxGNN-prediksjonspoeng | 99.97% |
-| Bevisnivå | L1 |
-| Status på norskmarkedet | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Fortsett under forutsetninger |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Binyrebarksvikt (adrenal insufficiency) |
+| Predikert ny indikasjon | Alopecia areata |
+| TxGNN-prediksjonsscore | 99,97 % |
+| Evidensnivå | L1 (formelt etter klassifiseringen i dataene, men se merknad under) |
+| Markedsstatus i Norge | Kun opphevede (kansellerte) autorisasjoner |
+| Antall autorisasjoner | 3 (alle kansellert) |
+| Anbefalt beslutning | Hold |
+
+*Merknad om evidensnivå:* Den eneste fase 3-studien har hydrokortison som kontrollarm og viser ikke at legemidlet virker. Evidensen er derfor i praksis svakere enn L1 tilsier, og bør tolkes som et forskningsspørsmål.
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelig (`original_moa`: datakløft). Basert på generell farmakologisk kunnskap er hydrocortison en kortikosteroidklasseagent hvis antiinflammatoriske og immunosuppressive aktivitet er velbegrunnet på tvers av dermatologiske og endokrine indikasjoner; spesifikk tekst for TFDA/Norge-godkjent indikasjon er ikke til stede i denne bevissamlingen.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Hydrokortison er et glukokortikoid med lokal antiinflammatorisk og immundempende effekt, og effekten ved binyrebarksvikt som erstatningsbehandling er godt etablert.
 
-Alopecia areata er et T-celle-mediiert autoimmunoverfalls på hårfollikler. Topiske kortikosteroider, inkludert hydrocortison, antas å virke ved å undertrykke lokal cytokinavgivelse og lymfocyttinfiltrasjon, og dermed hjelpe til å gjenopprette hårfollikkelens immunologiske privilegium. Dette er en etablert, mye brukt mekanisme innen dermatologi i stedet for en ny hypotese – den gjenspeiles direkte i den avsluttede fase 3-studien for barn (NCT01453686 / PMID 24226568) som sammenligner hydrocortison 1%-krem med clobetasolpropionat 0,05%-krem, og gjentas av tiår med case-series-litteratur som beskriver intradermal/intrakutan hydrocortison-injeksjon for alopecia areata og alopecia totalis.
+Alopecia areata er en T-celleformidlet autoimmun sykdom der immunangrep rundt hårsekkene gir hårtap. Det er biologisk plausibelt at dempet immunaktivitet rundt hårsekkene kan hjelpe, og topikale og intralesjonale steroider brukes allerede i praksis.
 
-Fordi hydrocortisons antiinflammatoriske mekanisme er generisk for kortikosteroidklassen i stedet for spesifikk for noen enkelt opprinnelig indikasjon, er dens mekanistiske anvendelighet for en inflammatorisk/autoimmuun dermatologisk tilstand som alopecia areata biologisk plausibel selv uten en klart registrert "opprinnelig indikasjon" i denne samlingen.
-
----
-
-## Klinisk studiebevis
-
-| Studinummer | Fase | Status | Deltakere | Hovedfunn |
-|---|---|---|---|---|
-| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Fase 3 | Avsluttet | 41 | RCT som direkte sammenligner clobetasolpropionat 0,05%-krem versus hydrocortison 1%-krem hos barn med alopecia areata – mest relevant studie (Grad A) |
-| [NCT00484679](https://clinicaltrials.gov/study/NCT00484679) | Fase 2 | Avsluttet | 18 | Evaluerte påvirkning på binyrfunksjonen ved intralesjonær triamcinolone (ikke hydrocortison) ved alopecia areata – indirekte relevans |
-| [NCT06551818](https://clinicaltrials.gov/study/NCT06551818) | N/A | Ikke ennå i rekruttering | 72 | Fire-armer dose-respons-studie av hårvekstprodukter versus placebo ved androgenetisk alopecia; kortikosteroidarmens sammensetning er ennå ikke bekreftet |
-| [NCT04343560](https://clinicaltrials.gov/study/NCT04343560) | N/A | Avsluttet | 380 | Studerte steroidmetabolome-effekter på beinstyrke/tetthet hos pasienter med binyreatadenom – ikke direkte relatert til AA-behandlingseffektivitet |
+Det finnes imidlertid en vesentlig begrensning. I den eneste kontrollerte studien var hydrokortison 1 % krem en lavpotent komparator mot det potente steroidet klobetasol. Studien viser at topikal bruk er gjennomførbar og trygg, men ikke at hydrokortison er effektivt. Historiske rapporter om intralesjonal hydrokortison fra 1950–70-tallet er anekdotiske.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske studier
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
+|---------|------|------|------|---------|
+| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Fase 3 | Fullført | 41 | Randomisert studie hos barn med alopecia areata: klobetasolpropionat 0,05 % krem mot hydrokortison 1 % krem. Hydrokortison var lavpotent kontroll; liten studie. |
+
+---
+
+## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
-|---|---|---|---|---|
-| [24226568](https://pubmed.ncbi.nlm.nih.gov/24226568/) | 2014 | RCT | JAMA Dermatology | Publiserte RCT-resultater: hydrocortison 1% versus clobetasolpropionat 0,05% for alopecia areata hos barn |
-| [38501938](https://pubmed.ncbi.nlm.nih.gov/38501938/) | 2024 | Kohorte/Intervensjonell | Clinical and Experimental Dermatology | Retrospektiv analyse av topisk kortikosteroid under okkluksjon for alvorlig alopecia areata (inkludert alopecia totalis/universalis) hos barn |
-| [36718837](https://pubmed.ncbi.nlm.nih.gov/36718837/) | 2023 | Oversikt | Journal of Cosmetic Dermatology | Systematisk oversikt/meta-analyse av AA-behandlingslandskap, inkludert kortikosteroidsammenligninger |
-| [13368875](https://pubmed.ncbi.nlm.nih.gov/13368875/) | 1956 | Case series | Medical Times | Tidlig case series som behandlet alopecia areata, partialis og totalis med kortison, hydrocortison, prednison og prednisolon |
-| [28516731](https://pubmed.ncbi.nlm.nih.gov/28516731/) | 2017 | Oversikt | JEADV | Gjennomgår HPA-akse/kortisol-aktivitet i alopecia areata-patofysiologi |
-| [5989830](https://pubmed.ncbi.nlm.nih.gov/5989830/) | 1966 | Case series | Vestnik Dermatologii i Venerologii | Behandling av alopecia areata og total alopecia med intrakutane hydrocortison-injeksjoner |
-| [13610145](https://pubmed.ncbi.nlm.nih.gov/13610145/) | 1958 | Case report | Der Hautarzt | Hårgjenvekst i alopecia areata/maligna etter intrakutan hydrocortison-injeksjon |
-| [14158891](https://pubmed.ncbi.nlm.nih.gov/14158891/) | 1963 | Case report | Actas Dermo-Sifiliográficas | Behandling av alopecia areata med intradermal hydrocortison-injeksjon |
-| [22381765](https://pubmed.ncbi.nlm.nih.gov/22381765/) | 2012 | Mekanistisk | Journal of Southern Medical University | Serum-kortisol og glukokortikoidreseptor-mRNA-uttrykk ved alvorlig alopecia areata |
-| [15692503](https://pubmed.ncbi.nlm.nih.gov/15692503/) | 2005 | Case report | Journal of the American Academy of Dermatology | Beskriver 4 tilfeller av medfødt alopecia areata, behandlinger inkluderte topiske kortikosteroider |
+|------|-----|------|------|---------|
+| [24226568](https://pubmed.ncbi.nlm.nih.gov/24226568/) | 2014 | RCT | JAMA Dermatology | Klobetasol 0,05 % mot hydrokortison 1 % ved alopecia areata hos barn |
+| [15692503](https://pubmed.ncbi.nlm.nih.gov/15692503/) | 2005 | Kasuistikk | J Am Acad Dermatol | Fire tilfeller av medfødt alopecia areata, behandlet med bl.a. minoksidil og topikale midler |
+| [13368875](https://pubmed.ncbi.nlm.nih.gov/13368875/) | 1956 | Historisk kasuistikkserie | Medical Times | Behandling av alopecia areata med kortison, hydrokortison og analoger |
+| [13610145](https://pubmed.ncbi.nlm.nih.gov/13610145/) | 1958 | Historisk klinisk rapport | Der Hautarzt | Hårvekst etter intrakutan hydrokortisoninjeksjon |
+| [13525930](https://pubmed.ncbi.nlm.nih.gov/13525930/) | 1958 | Historisk oversikt | J Med Soc New Jersey | Alopecia areata og andre vanlige hodebunnsproblemer |
+| [19289325](https://pubmed.ncbi.nlm.nih.gov/19289325/) | 2009 | Kasuistikk | Endocr Pract | Autoimmunt polyglandulært syndrom type 3 med alopecia universalis og isolert ACTH-mangel |
+| [24326563](https://pubmed.ncbi.nlm.nih.gov/24326563/) | 2013 | Prekliniske studie (mus) | J Investig Dermatol Symp Proc | PTH-agonister i musemodell for alopecia areata (ikke hydrokortison) |
+
+Flere av de øvrige treffene (blant annet fra 1955–1973) har ingen tilgjengelig sammendrag og er historiske rapporter om intralesjonal hydrokortison.
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Hydrocortison har for tiden **ingen markedsgodkjennelser på rekord** i dette datasettet (`market_status`: Ikke markedsført / Ikke markedsført; `total_licenses`: 0). Ingen lisenstabell er tilgjengelig for visning.
+| Autorisasjonsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004416 | Alkindi | Ikke oppgitt | Binyrebarksvikt (kansellert) |
+| EMEA/H/C/002185 | Plenadren | Ikke oppgitt | Binyrebarksvikt (kansellert) |
+| EMEA/H/C/005105 | Efmody | Ikke oppgitt | Medfødt binyrehyperplasi (kansellert) |
 
 ---
 
-## Sikkerhetsoverveielser
+## Sikkerhetsvurderinger
 
-Vennligst se produktresumé for sikkerhetsinformasjon. (`key_warnings`, `contraindications` og `ddi` er alle merket som datakløfter i denne bevissamlingen; DG001 merker TFDA-etikettadvarsler/kontraindikasjoner som en **Blokkering** datakløft.)
+- **Kontraindikasjoner fra kunnskapsgraf (ikke preparatomtale):** Kunnskapsgrafen knytter hydrokortison til blant annet hypertensjon, epilepsi, magesår, nyre- og leversykdom, galleblæresykdom, hyperglykemi, meslinger, herpes simplex-keratitt, virusinfeksjoner som kjønnsvorter og vanlige vorter, samt flere former for hypofysesvikt og hypogonadotrop hypogonadisme.
+- **Legemiddelinteraksjoner:** 100 interaksjoner er registrert. Blant de som er hentet ut, finnes én alvorlig (**Major**) interaksjon med adalimumab. Flere er moderate, bl.a. med zidovudin, isotretinoin, acarbose, acebutolol, acetazolamid, ketorolac, nifedipin, ibuprofen, etinylestradiol, aldesleukin, alemtuzumab og visse vaksiner. Salbutamol og formoterol er klassifisert som mindre (**Minor**).
+
+Opplysninger om advarsler og kontraindikasjoner fra preparatomtale er ikke tilgjengelige; se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Fortsett under forutsetninger**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Hovedprediksjonen (alopecia areata) støttes av en avsluttet fase 3-studie for barn (NCT01453686/PMID 24226568) som direkte sammenligner hydrocortison med en aktiv kortikosteroidsammenligner, forsterket av tiår med case-series-litteratur på hydrocortison-injeksjon for alopecia areata – som gir et L1-bevisnivå. Imidlertid blir stoffet ikke markedsført i Norge for tiden, og både virkningsmekanisme-data og TFDA-ekvivalent sikkerhetsmerking (advarsler/kontraindikasjoner) mangler, noe som hindrer en fullstendig S1-sikkerhetsassessment.
+Den eneste kontrollerte studien viser ikke at hydrokortison virker mot alopecia areata, siden det var lavpotent komparator. Øvrige kandidatindikasjoner (alopecia mucinosa, telogen effluvium m.fl.) har ingen eller kun indirekte evidens. I Norge er alle tre autorisasjoner kansellert.
 
-**For å fortsette, kreves følgende:**
-- TFDA/Norge-produktresumé advarsler og kontraindikasjoner (DG001 – Blokkering; kreves før initial sikkerhetscreening)
-- Detaljerte virkningsmekanisme-data fra DrugBank (DG002)
-- Bekreftelse av norskmarked/registreringssti, siden stoffet for tiden har null godkjennelser på rekord
-- En formell stoff-interaksjonsprofil (DDI), siden gjeldende spørring returnerte ingen resultater
-- Klarlegging av det spesifikke opprinnelige godkjente indikasjon(ene), som ikke ble fylt ut i denne bevissamlingen
-
+**For å gå videre trengs følgende:**
+- Randomisert studie der hydrokortison er aktiv behandling, med sammenligning mot placebo
+- Data om virkningsmekanisme (MOA)
+- Sikkerhetsinformasjon fra preparatomtale (advarsler og kontraindikasjoner)
+- Avklaring av administrasjonsvei (topikal eller intralesjonal) og tilgjengelige preparater i Norge
+- Vurdering av behovet for potensielt mer effektive alternativer (potente steroider) som sammenligning
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

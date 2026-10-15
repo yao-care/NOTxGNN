@@ -2,7 +2,7 @@
 layout: default
 title: Andexanet Alfa
 parent: Kun modellprediksjon (L5)
-nav_order: 31
+nav_order: 34
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,67 +29,103 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Andexanet Alfa: Fra Factor Xa-hemmer-reversering til Glanzmanns trombasteni
+# Andexanet alfa: Fra legemiddelrelaterte bivirkninger til Glanzmanns trombasteni
 
-## Oppsummering på én setning
+## Oppsummering i én setning
 
-> Andexanet alfa er et modifisert rekombinant factor Xa-lokkprotein som brukes til å reversere antikoagulasjon forårsaket av factor Xa-hemmere (apixaban/rivaroxaban) ved livsfarlig blødning.
-> TxGNN-modellen predikerer at det kan være effektivt for **Glanzmanns trombasteni**,
-> men **ingen kliniske studier og ingen støttende litteratur** støtter denne retningen for tiden — skåren ser ut til å være drevet av grafinnebygningsnærhet ("blødningssykdom" semantisk gruppering) snarere enn biologisk plausibilitet.
+Andexanet alfa er et motgift-legemiddel som brukes til å reversere effekten av faktor Xa-hemmere (blodfortynnende midler) ved legemiddelrelaterte bivirkninger og blødninger.
+TxGNN-modellen forutsier at det kan ha effekt ved **Glanzmanns trombasteni**, men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne spesifikke indikasjonen.
+Prediksjonen vurderes som en sannsynlig artefakt i kunnskapsgrafen, ikke et biologisk begrunnet signal.
 
-## Hurtig oversikt
+---
 
-| Element | Innhold |
-|---------|---------|
-| Originalindikasjon | Reversering av antikoagulanteffekt av factor Xa-hemmere (apixaban/rivaroxaban) hos pasienter med livsfarlig eller ukontrollert blødning *(utledet fra mekanistisk beskrivelse; ikke ennå lokalt autorisert)* |
+## Hurtigoversikt
+
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Legemiddelrelaterte bivirkninger og uønskede reaksjoner (reversering av faktor Xa-hemmere) |
 | Predikert ny indikasjon | Glanzmanns trombasteni |
-| TxGNN-prediksjonspoeng | 99.77% |
-| Bevisnivå | L5 |
-| Markedsstatus (Taiwan) | ✗ Ikke markedsført (Ikke markedsført) |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | **Avvent** |
+| TxGNN-prediksjonsscore | 99,77 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (ikke markedsført) |
+| Antall godkjenninger | 1 (avregistrert) |
+| Anbefalt beslutning | Hold |
 
-## Hvorfor er denne prediksjonen rimelig?
+---
 
-For tiden er en strukturert virkningsmekanisme (MOA) -post ikke tilgjengelig (flagget som et høyt alvorlighetsgrad datakløft, DG002). Gjenbruksrasjonalet knyttet til hver prediksjon beskriver imidlertid konsekvent andexanet alfa som et **modifisert rekombinant factor Xa-lokkprotein**: det bindes til og nøytraliserer direkte factor Xa-hemmere (apixaban, rivaroxaban) og hemmer også vevfaktorbane-inhibitor (TFPI), og gjenoppretter trombin-generering for å fremme hemostase.
+## Hvorfor er (eller er ikke) denne prediksjonen rimelig?
 
-Glanzmanns trombasteni derimot er forårsaket av en defekt i **GPIIb/IIIa-reseptoren**, som hemmer plateletaggregasjon på reseptornivået — en mekanisme helt ovenfor og urelatert til factor Xa/TFPI-banen som andexanet alfa virker på. Bevispaketets egen mekanistiske vurdering angir eksplisitt at det er **ingen biologisk bane** ved hvilken gjenopprettelse av trombin-generering ville korrigere en defekt i plateletaggregasjonsreseptor, og konkluderer at den høye TxGNN-skåren mest sannsynlig gjenspeiler grafinnebygningsnærhet mellom "blødningssykdommer" som en semantisk klasse, snarere enn et genuint farmakologisk forhold.
+Andexanet alfa er et rekombinant, katalytisk inaktivt faktor Xa-lokkemiddel («decoy»). Det binder og fjerner direkte FXa-hemmere, og også antitrombin III–LMWH-komplekset. Data om detaljert virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene, men den generelle farmakologien er godt kjent.
 
-Dette mønsteret gjentar seg på tvers av de andre topprangerte kandidatene i denne bevispacken (primær plateletutsendelsesforstyrrelse, pseudo-von Willebrands sykdom og hemofili) — hver innebærer platelet-nivå- eller koagulasjonsfaktormangel-mekanismer som er adskilte fra factor Xa/TFPI-aksen som andexanet alfa målretter mot, og ingen har støttende mekanistisk begrunnelse for en terapeutisk (snarere enn tilfeldig/interfererende) rolle.
+Glanzmanns trombasteni er en arvelig defekt i plateleintegrinet αIIbβ3 (GPIIb/IIIa), som hindrer blodplateaggregasjon. Andexanet alfa virker kun på koagulasjonskaskaden og påvirker ikke blodplateaggregasjon eller fibrinogenbinding. Det finnes dermed ingen plausibel mekanistisk sammenheng mellom den opprinnelige og den nye indikasjonen.
 
-## Bevis fra kliniske studier
+Den svært høye scoren (0,998) skyldes trolig nærhet i nettverket av blødnings- og hemostaserelaterte noder i kunnskapsgrafen, ikke biologisk rasjonale. I tillegg har legemidlet en risiko for tromboemboliske hendelser (varsel i boks), noe som er bekymringsfullt ved en blødningslidelse som behandles med prohemostatiske midler.
 
-For tiden er det ingen registrerte relaterte kliniske studier.
+Andre predikerte indikasjoner følger samme mønster:
 
-## Litteraturbevis
+| Predikert indikasjon | TxGNN-score | Evidensnivå | Vurdering |
+|------|------|------|------|
+| Primær frigjøringsforstyrrelse i blodplater | 99,76 % | L5 | Ingen mekanistisk støtte, ingen studier |
+| Pseudo-von Willebrands sykdom | 99,65 % | L5 | Ingen påvirkning av GPIb–VWF-interaksjon, ingen studier |
+| Hemofili | 99,10 % | L4 | Kun indirekte litteratur, ingen studier på effekt |
 
-For tiden er det ingen tilgjengelig relatert litteratur.
+---
 
-*(Merk: for den fjerde rangerte kandidaten, hemofili, eksisterer 11 publikasjoner — men ved gjennomgang handlet disse hovedsakelig om (a) andexanets kjente interferens med factor VIII/IX laboratorieanlyser, og (b) generelle gjennomganger av DOAC-reversalstrategier. Ingen beskriver andexanet alfa som en terapeutisk agent for hemofili selv, så denne litteraturen utgjør ikke støttende bevis for gjenbruk.)*
+## Klinisk studieevidens
 
-## Taiwans markedsinformasjon
+Foreløpig er det ingen relaterte kliniske studier registrert for Glanzmanns trombasteni.
 
-Ingen markedsføringsautorisasjonsposter eksisterer for tiden for andexanet alfa i Taiwan (Ikke markedsført, 0 lisenser).
+---
 
-## Sikkerhetsaspekter
+## Litteraturevidens
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+Det foreligger ingen relevant litteratur for Glanzmanns trombasteni.
 
-> ⚠️ Merk: TFDA-merking / advarsler og kontraindikasjonerdata er merket som en **blokkering** datakløft (DG001) — dette må løses før noen fase 1 (S1) sikkerhetsforhåndsvurdering kan gjennomføres for noen indikasjon som involverer dette legemidlet.
+For den fjerde predikerte indikasjonen, hemofili, ble 9 publikasjoner funnet. De er indirekte og gjelder andexanet alfa ved antikoagulantrelaterte blødninger, ikke effekt ved hemofili:
 
-## Konklusjon og neste skritt
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [38620086](https://pubmed.ncbi.nlm.nih.gov/38620086/) | 2024 | Kohort (ANNEXA-4 delanalyse) | Circulation | Effekt og sikkerhet av andexanet alfa ved akutt gastrointestinal blødning under FXa-hemmere |
+| [33742436](https://pubmed.ncbi.nlm.nih.gov/33742436/) | 2021 | Retningslinje/oversikt | Thromb Haemost | ICSH-anbefalinger for laboratoriemåling av direkte orale antikoagulantia (DOAK) |
+| [31962376](https://pubmed.ncbi.nlm.nih.gov/31962376/) | 2020 | Laboratoriestudie | Haemophilia | Andexanet alfa kan nøytralisere rivaroksabans interferens i FVIII/FIX-analyser (diagnostisk relevans) |
+| [31298165](https://pubmed.ncbi.nlm.nih.gov/31298165/) | 2019 | Oversikt | Curr Pharm Des | Nye hemostatiske midler og antidoter, perioperative hensyn |
+| [30309890](https://pubmed.ncbi.nlm.nih.gov/30309890/) | 2018 | Oversikt | Blood | Reversering av anti-FXa-midler og udekkede behov hos traumepasienter |
+| [26519420](https://pubmed.ncbi.nlm.nih.gov/26519420/) | 2016 | Oversikt | Drug Saf | Reverseringsstrategier for NOAK |
+| [27254626](https://pubmed.ncbi.nlm.nih.gov/27254626/) | 2016 | Oversikt | Dtsch Med Wochenschr | Koagulasjonsforstyrrelser på intensivavdeling |
+| [36819179](https://pubmed.ncbi.nlm.nih.gov/36819179/) | 2023 | Oversikt | EJHaem | Gjennomgang av lokale protokoller for bruk av andexanet alfa i Storbritannia |
+| [42033142](https://pubmed.ncbi.nlm.nih.gov/42033142/) | 2026 | Posisjonserklæring | Br J Haematol | Britisk hematologiforenings posisjon om bruk av andexanet alfa |
 
-**Beslutning: Avvent**
+---
+
+## Informasjon om det norske markedet
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004108 | Ondexxya | Ikke oppgitt | Legemiddelrelaterte bivirkninger og uønskede reaksjoner (status: avregistrert) |
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Tromboemboliske hendelser**: Legemidlet har en risiko for tromboembolisme (varsel i boks). Dette er særlig bekymringsfullt ved blødningslidelser som behandles med prohemostatiske midler.
+
+For øvrig sikkerhetsinformasjon, se preparatomtalen (pakningsvedlegget). Ingen legemiddelinteraksjoner ble funnet i dataene.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den forutsagte indikasjonen (Glanzmanns trombasteni) har ingen kliniske studier, ingen litteraturstøtte, og ingen plausibel mekanistisk bane — bevispaketets egen begrunnelse konkluderer at skåren reflekterer innebygningsartefakt snarere enn farmakologisk relevans. Kombinert med fraværet av TFDA-sikkerhetsmerkingsdata (blokkering datakløft), oppfyller denne kandidaten ikke terskelen for å avansere forbi S0.
+Prediksjonen mangler mekanistisk støtte, kliniske studier og direkte litteratur. Den høye TxGNN-scoren ser ut til å skyldes nærhet i kunnskapsgrafen, ikke biologisk rasjonale. Legemidlet er dessuten avregistrert i Norge og har tromboembolisk risiko.
 
-**For å fortsette, er følgende nødvendig:**
-- Løs DG001: skaff TFDA-ekvivalente merkingsadvarsler og kontraindikasjoner før fase 1 (S1) sikkerhetsforhåndsvurdering kan gjennomføres
-- Løs DG002: skaff en strukturert MOA-post fra DrugBank for å formelt dokumentere factor Xa/TFPI-mekanismen
-- Søk preklinisk eller case-nivå bevis som spesifikt tester andexanet alfa (eller factor Xa/TFPI-rettede agenser) i platelet-reseptordefekt-blødningssykdommer, hvis denne indikasjonen skal forfølges videre
-- Hvis ingen slik mekanistisk eller empirisk bevis kommer fram, bør denne kandidaten nedprioriteres til fordel for høyere-skårende, evidensbaserte prediksjoner fra denne legemiddelens komplette prediksjonslist
-
+**For å gå videre kreves følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner (kritisk datamangel)
+- Detaljerte data om virkningsmekanisme (MOA)
+- Prekliniske data som viser en eventuell effekt på blodplatefunksjon eller hemostase ved de predikerte lidelsene
+- Vurdering av om en nisjesituasjon (hemofilipasienter som også bruker FXa-hemmere) er klinisk relevant
+- Avklaring av regulatorisk status, siden den eneste norske godkjenningen er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

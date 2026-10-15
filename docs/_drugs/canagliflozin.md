@@ -2,7 +2,7 @@
 layout: default
 title: Canagliflozin
 parent: Kun modellprediksjon (L5)
-nav_order: 70
+nav_order: 79
 evidence_level: L5
 indication_count: 0
 ---

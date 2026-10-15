@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tenecteplase
-parent: Moderat evidens (L3-L4)
-nav_order: 347
-evidence_level: L4
+parent: Kun modellprediksjon (L5)
+nav_order: 408
+evidence_level: L5
 indication_count: 10
 ---
 
 # Tenecteplase
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,84 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tenecteplase: Fra [datahull] til posteroinferior myokardinfarkt
+# Tenekteplase: Fra hjerteinfarkt til posteroinferiort hjerteinfarkt
 
-## Sammenfatting i en setning
+## Oppsummering
 
-> Tenecteplase er en genetisk konstruert vevs-plasminogenaktivator (tPA); denne bevissamlingen bekrefter ikke dens opprinnelige godkjente indikasjon (flagget som datahull), selv om det er klinisk velkjent som ett fibrinolytisk agens for akutt myokardinfarkt.
-> TxGNN-modellen predikerer at det kan være relevant for **posteroinferior myokardinfarkt**, en anatomisk STEMI-undertype,
-> men for tiden **ingen kliniske prøver** og **ingen litteratur** støtter spesifikt denne undertypen — beviset er kun mekanistisk inferens.
+Tenekteplase er et fibrinspesifikt trombolytikum (vevsplasminogenaktivator) som opprinnelig brukes til behandling av akutt hjerteinfarkt.
+TxGNN-modellen forutsier at legemidlet kan være effektivt ved **posteroinferiort hjerteinfarkt**, men dette er en anatomisk undertype av den godkjente indikasjonen, ikke en reell ny indikasjon.
+Det er **ingen kliniske studier** og **ingen publikasjoner** som direkte støtter denne spesifikke prediksjonen.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Ikke tilgjengelig i denne bevissamlingen (MOA/indikasjondata flagget som datahull — se DG002) |
-| Forutsagt ny indikasjon | Posteroinferior myokardinfarkt |
-| TxGNN-prediksjonspoeng | 99.87% |
-| Bevisnivå | L4 |
-| Taiwan markedsstatus | Ikke markedsført (Ikke markedsført) |
-| Antall autorisasjoner | 0 |
+| Opprinnelig indikasjon | Hjerteinfarkt (myokardinfarkt) |
+| Predikert ny indikasjon | Posteroinferiort hjerteinfarkt |
+| TxGNN-prediksjonsscore | 99,87 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun tilbakekalt/avregistrert (ingen gyldig markedsføringstillatelse) |
+| Antall tillatelser | 1 |
 | Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte mekanismedata ikke tilgjengelig (flagget som datahull DG002, høy alvorlighetsgrad). Basert på kjent klinisk informasjon er tenecteplase en fibrin-spesifikk, genetisk konstruert variant av vevs-plasminogenaktivator (tPA), som aktiverer plasminogen til plasmin for å bryte ned fibrin i tromber. Dens etablerte rolle i fibrinolytisk terapi for ST-stigning myokardinfarkt (STEMI) er godt dokumentert i generelle termer.
+Data om virkningsmekanisme er ikke tilgjengelig i dataene som er samlet inn for denne rapporten. Basert på kjent informasjon er tenekteplase en fibrinspesifikk vevsplasminogenaktivator. Den omdanner plasminogen til plasmin, som løser opp fibrin i blodproppen som blokkerer en kransarterie. Effekten er godt dokumentert ved akutt hjerteinfarkt med ST-elevasjon.
 
-Posteroinferior myokardinfarkt er ikke en distinkt sykdomsenhet, men snarere en anatomisk/EKG-avledningsbasert undertype av STEMI, definert av plasseringen av den ansvarlige koronare lesjon. Mekanistisk bør den samme fibrinolytiske virkningen som gagner STEMI generelt, i prinsippet, strekke seg til denne undertypen. Imidlertid inneholder denne bevissamlingen **ingen undertype-spesifikke kliniske prøver eller litteratur**, så prediksjonen representerer at TxGNN i hovedsak gjenkjenner på nytt en kjent legemiddelklasse-relasjon med finere anatomisk granularitet, snarere enn å avdekke genuint nye terapeutiske bevis.
+Posteroinferiort hjerteinfarkt er en anatomisk undertype av hjerteinfarkt. Den høye scoren gjenspeiler i hovedsak overlapp med den opprinnelige indikasjonen, og ikke et nytt repurposing-signal. Mekanismen (oppløsning av trombe i den okkluderte kransarterien) er i prinsippet like relevant, men prediksjonen er i praksis en gjentakelse av den godkjente bruken.
 
-Det er verdt å merke seg at andre steder i dette prediksjonssettet eksisterer det et mekanistisk relatert og bedre-bevist signal: **koronar stenose** (rangering 5) som støttes av en avsluttet fase 2 RCT (NCT00604695 / ICE-T-TIMI-49) som evaluerer lavdose intrakoronar tenecteplase under primær PCI. Dette forsterker den generelle biologiske plausibilitet av tenecteplases fibrinolytiske mekanisme i tilstøtende koronare anvendelser, selv om det ikke direkte validerer posteroinferior MI-subtypen spesifikt.
-
----
-
-## Klinisk prøvebevis
-
-For tiden ingen relaterte kliniske prøver registrert.
+Blant de ti øverste prediksjonene er flere uten plausibel mekanisme (for eksempel kromosomdelesjon, beta-talassemi og røde blodcellers enzymmangler). Disse ser ut til å være artefakter fra kunnskapsgrafens nærhetsstruktur.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske studier
 
-For tiden ingen relatert litteratur tilgjengelig.
-
----
-
-## Informasjon om Taiwan-markedet
-
-Tenecteplase har for tiden **0 autorisasjoner** i Taiwan og er **ikke markedsført** (Ikke markedsført). Ingen lisensposter er tilgjengelige i denne bevissamlingen.
+Foreløpig er det ingen relaterte kliniske studier registrert for posteroinferiort hjerteinfarkt.
 
 ---
 
-## Sikkerhetshensyn
+## Evidens fra litteratur
 
-Detaljerte sikkerhetsdata (viktige advarsler, kontraindikasjoner, legemiddel-legemiddel-interaksjoner) kunne ikke hentes for denne evalueringen. Dette er flagget i bevissamlingen som **datahull DG001** (blokkering alvorlighetsgrad): TFDA-pakningsvedlegg advarsler/kontraindikasjoner er ikke tilgjengelige, og deres fravær forhindrer direkte fullføring av S1 sikkerhetspre-screeningsstadiet.
+Foreløpig finnes det ingen relevant litteratur for denne spesifikke prediksjonen.
 
-> Se pakningsvedlegget for sikkerhetsinformasjon når TFDA-etikettdata er innhentet.
+For øvrig predikert indikasjon på rang 5 (koronarstenose) fant man indirekte litteratur, blant annet en randomisert pilotstudie av intrakoronar tenekteplase under primær PCI (PMID 31870492, n = 40). Dette er likevel ikke evidens for hovedprediksjonen.
 
 ---
 
-## Konklusjon og neste trinn
+## Markedsinformasjon for Norge
+
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000306 | Metalyse | Ikke oppgitt | Hjerteinfarkt (status: tilbakekalt/avregistrert) |
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Legemiddelinteraksjoner**: Totalt 100 interaksjoner er registrert i dataene. Blant de som er oppført finnes følgende hovedgrupper:
+  - **Alvorlige (Major)**: antikoagulantia og blodplatehemmere/relaterte midler som apiksaban, betriksaban og abciksimab, samt deferasirox, akalabrutinib, avapritinib, ibritumomab tiuksetan og tositumomab. Felles for mange er økt blødningsrisiko.
+  - **Moderate**: acetylsalisylsyre, NSAID (ibuprofen, ketorolac, celekoksib, topisk diklofenak), aminokapronsyre, omega-3-fettsyrer, samt deksfenfluramin, fenfluramin og sibutramin.
+
+Se preparatomtalen for øvrig sikkerhetsinformasjon, inkludert advarsler og kontraindikasjoner.
+
+---
+
+## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-- Den høyeste rangerte prediksjonen (posteroinferior MI) har ingen undertype-spesifikke kliniske prøve- eller litteraturstøtte — bare ett generelt mekanistisk argument ekstrapolert fra tenecteplases kjente rolle i STEMI. Kombinert med ett datahull for blokkering alvorlighetsgrad (TFDA-etikett ikke tilgjengelig), kan denne kandidaten ennå ikke avansere forbi S1.
-- Merk: innenfor dette samme prediksjonssettet viser **koronar stenose** (supplerende lavdose intrakoronar tenecteplase under PCI) betydelig sterkere bevis (avsluttet fase 2 RCT, L2, S2) og kan uavhengig berettige en "Fortsett med sikkerhetstiltak" evaluering som en separat kandidat.
-- Flere lavere rangerte prediksjoner (f.eks. kromosomale delesjonssyndrom, thalassemi, røde celleenzymopati) viser ingen plausibel mekanistisk forbindelse og ingen støttende bevis — disse blir vurdert som sannsynlige TxGNN embedding-rom falske positiver og bør ikke forfølges.
+Prediksjonen er en undertype av den allerede godkjente indikasjonen og representerer ikke en ny repurposing-mulighet. Det finnes ingen kliniske studier eller litteratur for denne undertypen (evidensnivå L5), og det finnes ingen gyldig markedsføringstillatelse i Norge.
 
-**For å fortsette er følgende nødvendig:**
-- TFDA-godkjent pakningsvedlegg (advarsler, kontraindikasjoner, DDI) for å låse opp S1 sikkerhetskjermig (DG001)
-- Bekreftet mekanisme og opprinnelig godkjent indikasjon(er) fra DrugBank eller tilsvarende kilde (DG002)
-- Undertype-spesifikke kliniske bevis (prøver eller pasientkasusserier) for posteroinferior MI, eller en beslutning om å omklassifisere denne prediksjonen som en kjent-klasse utvidelse i stedet for en ny repurposingkandidat
-- Hvis du forfølger det tilstøtende koronar stenosesignalet, en dedikert evalueringspakke basert på NCT00604695/ICE-T-TIMI-49 data
-
+**For å gå videre trengs følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Avklaring av hvorfor tillatelsen er tilbakekalt/avregistrert, og om en ny tillatelse er aktuell
+- Vurdering av mer reelle kandidatindikasjoner (for eksempel koronarstenose, der det finnes indirekte, småskala evidens for intrakoronar bruk), fortrinnsvis med kontrollerte studier
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

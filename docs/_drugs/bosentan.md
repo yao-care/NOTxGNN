@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Bosentan
-parent: Kun modellprediksjon (L5)
-nav_order: 55
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 62
+evidence_level: L4
 indication_count: 9
 ---
 
 # Bosentan
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,100 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Bosentan: Fra pulmonal arteriell hypertensjon til revmatoid artritt
+# Bosentan: Fra pulmonal hypertensjon og systemisk sklerose til revmatoid artritt
 
-## Sammendrag på én setning
+## Oppsummering i én setning
 
-> Bosentan er en dual endotelin-reseptor (ETA/ETB) antagonist historisk brukt for pulmonal arteriell hypertensjon (PAH), selv om formelle data for opprinnelig indikasjon ikke ble innsamlet i denne bevissamlingen (datakløft).
-> TxGNN-modellen forutsier at det kan være effektivt for **revmatoid artritt**,
-> med **1 klinisk studie** og **15 publikasjoner** som for tiden er knyttet til denne retningen — men beviset er hovedsakelig mekanistisk/preklinisk, og den eneste registrerte studien målretter seg faktisk mot en annen sykdom (gigantcellearteriitt).
+Bosentan er en dobbel endotelinreseptorantagonist (ETA/ETB) som opprinnelig brukes mot **pulmonal arteriell hypertensjon og systemisk sklerose**.
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **revmatoid artritt**, men denne retningen støttes foreløpig kun av **prekliniske dyrestudier** og **ingen registrerte kliniske studier**.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|-------|---------|
-| Opprinnelig indikasjon | Ikke dokumentert i bevissamlingen (0 Taiwan-lisenser på fil). Bosentan er generelt kjent som en endotelin-reseptor-antagonist utviklet for pulmonal arteriell hypertensjon — ikke bekreftet av dataene som er gitt her (se DG001/DG002). |
-| Forutsagt ny indikasjon | Revmatoid artritt |
-| TxGNN-prediksjonspoeng | 99.80% |
-| Evidensnivå | L4 (bare prekliniske/mekanistiske studier) |
-| Taiwans markedsstatus | Ikke markedsført (Ikke markedsført) |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Vente |
+|------|------|
+| Opprinnelig indikasjon | Pulmonal hypertensjon; systemisk sklerose |
+| Predikert ny indikasjon | Revmatoid artritt |
+| TxGNN-prediksjonsscore | 99,80 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun tilbakekalte/avsluttede godkjenninger (ingen gyldige) |
+| Antall godkjenninger | 2 (begge kansellert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljerte data om virkningsmåte ikke tilgjengelige (datakløft DG002). Basert på kjent farmakologi er Bosentan en dual endotelin-reseptor-antagonist (ETA/ETB), og dets effektivitet ved pulmonal arteriell hypertensjon er veletablert gjennom blokade av endotelin-1 (ET-1)-mediiert vasokonstriksjion.
+Data om bosentans detaljerte virkningsmekanisme var ikke tilgjengelig i dataene som er samlet inn for denne rapporten. Basert på kjent informasjon er bosentan en dobbel ETA/ETB-reseptorantagonist, og effekten er etablert ved pulmonal hypertensjon og systemisk sklerose.
 
-Den mekanistiske begrunnelsen for revmatoid artritt (RA) er basert på observasjonen av at ET-1-nivåer er forhøyet i RA-synovialt vev, og dyremodeller (kollagen-indusert artritt, zymosan-indusert artritt) viser at ETA/ETB-blokade reduserer TNF-α, LTB4 og andre inflammatoriske mediatorer. IL-15 og IL-17-drevet nosiception ved artritt-modeller har også vist seg å bli redusert av dual ET-reseptorblokade. Disse funnene antyder en biologisk plausibel anti-inflammatorisk rolle for endotelninblokade ved leddekskalasykdom.
+Endotelin-1 bidrar til synovial inflammasjon, angiogenese og vaskulær dysfunksjon. I prekliniske modeller (kollagen-indusert og zymosan-indusert artritt hos mus) reduserer bosentan leddsmerte (hypernocisepsjon) og inflammatoriske mediatorer som TNF-alfa og LTB4. Dette gir en plausibel mekanistisk kobling til revmatoid artritt.
 
-Imidlertid forblir denne forbindelsen indirekte og ubevist hos mennesker. Den eneste registrerte kliniske studien som er knyttet til denne prediksjonen (NCT06957002) er en fase 2-studie av Bosentan ved **gigantcellearteriitt**, ikke revmatoid artritt — en relatert men distinkt reumatisk tilstand. Ingen RA-spesifikk humanstudier finnes for øyeblikket, så denne prediksjonen bør behandles som en forskningstese heller enn en klinisk validert indikasjon.
-
----
-
-## Bevis fra kliniske studier
-
-| Studienummer | Fase | Status | Inkludering | Hovedfunn |
-|---------|------|------|---------|---------|
-| [NCT06957002](https://clinicaltrials.gov/study/NCT06957002) | Fase 2 | Ennå ikke rekrutterer | 40 | Multisenter-RCT som tester Bosentan + glukokortikosteroider vs. bare glukokortikosteroider for begivenhetsfri overlevelse ved 12 måneder — **merk: inkludert populasjon er gigantcellearteriitt (GCA), ikke RA**; relevans vurdert som "C" (bare mekanistisk proxy) |
+Det er viktig å merke seg at mesteparten av humanlitteraturen gjelder pulmonal arteriell hypertensjon assosiert med bindevevssykdom, ikke leddsykdom ved revmatoid artritt. Det finnes ingen kliniske studier på revmatoid artritt.
 
 ---
 
-## Bevis fra litteraturen
+## Klinisk studieevidens
 
-| PMID | År | Type | Journal | Hovedfunn |
+Det er for øyeblikket ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [22249931](https://pubmed.ncbi.nlm.nih.gov/22249931/) | 2012 | Preklinisk (dyr) | Inflammation Research | Bosentan forbedrer kollagen-indusert artritt hos mus; TNF-α driver induksjon av endotelin-systemgener |
-| [18515326](https://pubmed.ncbi.nlm.nih.gov/18515326/) | 2008 | Preklinisk (dyr) | Journal of Leukocyte Biology | ET-reseptorblokade modulerer nøytrofil-akkumulasjon og ødem ved zymosan-indusert artritt; ET-1 forhøyet i RA-synovium |
-| [19969421](https://pubmed.ncbi.nlm.nih.gov/19969421/) | 2010 | Preklinisk (dyr) | Pain | IL-17-mediiert artikulær hypernosiception ved antigen-indusert artritt; ET-vei involvert i RA-smertesignalering |
-| [16766656](https://pubmed.ncbi.nlm.nih.gov/16766656/) | 2006 | Preklinisk (dyr) | PNAS | IL-15-drevet inflammatorisk hypernosiception (relevant for RA) hemmet av dual ETA/ETB-reseptorblokade |
-| [24268012](https://pubmed.ncbi.nlm.nih.gov/24268012/) | 2014 | Oversikt | Rheumatic Diseases Clinics of North America | Gjennomgår PAH assosiert med bindevevssykdom, inkludert RA, og nåværende ERA-baserte behandlingsalternativ |
-| [16218473](https://pubmed.ncbi.nlm.nih.gov/16218473/) | 2005 | Oversikt | Lupus | Gjennomgår PAH som kompliserer bindevevssykdommer inkludert RA; diskuterer ET-1-patofysiologi |
-| [20054770](https://pubmed.ncbi.nlm.nih.gov/20054770/) | 2009 | Pasientrapport | Kardiologia Polska | Pediatrisk tilfelle av Eisenmengers syndrom + juvenil RA behandlet med Bosentan; klinisk forbedring notert |
-| [19487226](https://pubmed.ncbi.nlm.nih.gov/19487226/) | 2009 | Oversikt | Rheumatology (Oxford) | Gjennomgår vaskulopati og PAH i autoimmusn/reumatisk sykdomskontekst |
+| [22249931](https://pubmed.ncbi.nlm.nih.gov/22249931/) | 2012 | Preklinisk (musemodell) | Inflammation Research | Bosentan bedret kollagen-indusert artritt; TNF-α har rolle i induksjon av endotelinsystemets gener |
+| [18515326](https://pubmed.ncbi.nlm.nih.gov/18515326/) | 2008 | Preklinisk (musemodell) | J Leukoc Biol | Endoteliner modulerer inflammatorisk reaksjon i zymosan-indusert artritt via LTB4, TNF-alfa og CXCL-1 |
+| [16766656](https://pubmed.ncbi.nlm.nih.gov/16766656/) | 2006 | Preklinisk (ikke bosentan-spesifikk) | PNAS | IL-15-indusert hypernocisepsjon ble hemmet av dobbel ETA/ETB-antagonist |
+| [24268012](https://pubmed.ncbi.nlm.nih.gov/24268012/) | 2014 | Oversikt | Rheum Dis Clin North Am | PAH ved bindevevssykdom gir høy morbiditet og dårlig prognose; flere behandlingsalternativer |
+| [16218473](https://pubmed.ncbi.nlm.nih.gov/16218473/) | 2005 | Oversikt | Lupus | PAH som komplikasjon av bindevevssykdom, i mindre grad revmatoid artritt |
+| [19487226](https://pubmed.ncbi.nlm.nih.gov/19487226/) | 2009 | Oversikt | Rheumatology (Oxford) | Vaskulopati og PAH ved SLE og Sjögren |
+| [20054770](https://pubmed.ncbi.nlm.nih.gov/20054770/) | 2009 | Kasuistikk | Kardiologia Polska | Eisenmenger syndrom behandlet med bosentan hos jente som tilfeldig også fikk juvenil revmatoid artritt; ikke en effekt på artritt |
+| [19969421](https://pubmed.ncbi.nlm.nih.gov/19969421/) | 2010 | Preklinisk (ikke bosentan-spesifikk) | Pain | IL-17 medierer leddhypernocisepsjon i antigen-indusert artritt |
+| [19851110](https://pubmed.ncbi.nlm.nih.gov/19851110/) | 2010 | Oversikt | Curr Opin Rheumatol | Revmatiske hudsykdommer og behandling |
+| [21165350](https://pubmed.ncbi.nlm.nih.gov/21165350/) | 2010 | Oversikt | Can Respir J | Behandling av pulmonal hypertensjon ved bindevevssykdom og interstitiell lungesykdom |
 
 ---
 
-## Taiwans markedsinformasjon
+## Markedsinformasjon for Norge
 
-Bosentan har for øyeblikket **0 autorisasjoner på fil** og er ikke markedsført i Taiwan ifølge denne bevissamlingen.
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/002644 | Stayveer | Ikke oppgitt | Pulmonal hypertensjon; systemisk sklerose (kansellert) |
+| EMEA/H/C/000401 | Tracleer | Ikke oppgitt | Systemisk sklerose; pulmonal hypertensjon (kansellert) |
+
+Begge godkjenningene er kansellert, og det finnes ingen gyldige godkjenninger i dataene.
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og data om legemiddelinteraksjoner var ikke tilgjengelige i denne bevissamlingen — flagget som blokkerende datakløft DG001, nødvendig før en S1-sikkerhetsvurdering kan fortsette.)
+- **Kontraindikasjoner/risikotilstander fra kunnskapsgrafen (ikke preparatomtale):** leversvikt, leversykdom, galleblæresykdom, trombocytopeni, kongestiv hjertesvikt, anemi (inkl. makrocytær anemi), hyperbilirubinemi (inkl. arvelig), Gilberts syndrom, legemiddelindusert leverskade, lungeødem og pulmonal venookklusiv sykdom.
+- **Legemiddelinteraksjoner:** 100 interaksjoner funnet i databasen; de 20 første som ble gjennomgått er alle av moderat alvorlighetsgrad. Eksempler: hydrokortison, deksametason, betametason, triamcinolon, pioglitazon, aprepitant, metronidazol, cimetidin, cisaprid, klaritromycin, klotrimazol, samt SGLT2-hemmere (kanagliflozin, dapagliflozin, empagliflozin, ertugliflozin) og sulfonylurea (acetoheksamid, klorpropamid).
+
+Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Vente**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den topprankede prediksjonen (Revmatoid artritt) er støttet kun av prekliniske/mekanistiske bevis (L4) og dyremodeller av artritt; den eneste registrerte studien målretter seg mot en annen sykdom (gigantcellearteriitt, ikke RA). Ingen avsluttet humanstudier med RA eller RCT-bevis finnes for å rettferdiggjøre fremgang for denne indiksjonen på dette tidspunktet.
+Støtten for revmatoid artritt er begrenset til prekliniske dyremodeller, uten kliniske studier. Det finnes heller ingen gyldig norsk markedsføringstillatelse. Høy modellscore alene er ikke tilstrekkelig.
 
-**For å fortsette kreves følgende:**
-- En dedikert RA-spesifikk klinisk studie eller i det minste en fase 2 proof-of-concept-studie
-- TFDA/regulatorisk-kvalitet pakningsvedlegg-data (advarsler, kontraindikasjoner, DDI) — for øyeblikket en blokkerende kløft (DG001)
-- Bekreftet virkningsmåte-dokumentasjon (DG002)
-- Formell Taiwan regulatorisk vei, gitt at legemidlet for øyeblikket er umarkedsført (0 lisenser)
+**For å gå videre kreves:**
+- Kliniske studier (minst fase 2) på revmatoid artritt
+- Detaljerte data om virkningsmekanisme
+- Gjennomgang av preparatomtale for advarsler og kontraindikasjoner, særlig med tanke på leverfunksjon
+- Avklaring av markedsstatus i Norge
 
-**Merknad for anmeldere:** Innen samme bevissamling viser **begrenset systemisk sklerose** (rangering 3, TxGNN-poeng 99.65%) betydelig sterkere bevis — en systematisk oversikt/metaanalyse, en 300-pasient observasjonsstudie og flere mekanistiske artikler om Bosentan som reverserer endotel-til-mesenkymale overganger — når bevisnivå **L2** med en "Gå videre med sikkerhetstiltak"-anbefaling. Denne kandidaten kan rettferdiggjøre prioritering over RA-hypotesen for nærtidig utvikling.
+---
 
+## Andre prediksjoner av interesse
+
+Blant de øvrige prediksjonene er **begrenset systemisk sklerose** (score 99,65 %, evidensnivå L3) best støttet, med systematisk oversikt og meta-analyse (2023) og retningslinjer for digitale sår og Raynauds fenomen. Siden PAH ved systemisk sklerose allerede er en opprinnelig indikasjon, er det bare digitale sår og hud-/Raynaud-manifestasjoner som utgjør et reelt nytt bruksområde. Dette bør vurderes som et forskningsspørsmål. De øvrige prediksjonene (blant annet brachydaktyli-syndaktyli-syndrom, pseudoxanthoma elasticum forme fruste, kyfoskoliotisk hjertesykdom, elastom, urinsyregikt og hypertrikose) har kun modellstøtte eller ingen relevant evidens og anbefales satt på vent.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Chenodeoxycholic Acid
 parent: Kun modellprediksjon (L5)
-nav_order: 86
+nav_order: 96
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,80 +29,77 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Chenodeoxycholic Acid: Manglende originale indikasjondata → Predikert ny indikasjon «Homozygøs familial hyperkolesterolemi» (HoFH)
+# Kenodeoksykolsyre: Fra cerebrotendinøs xantomatose til homozygot familiær hyperkolesterolemi
 
-## En-setnings sammenfatning
+## Oppsummering
 
-> Khenodeoksikholsyre (Chenodeoxycholic Acid, DB06777) mangler for tiden både **originale indikasjon- og virkningsmekanismedata** (Data Gap DG002), og er ikke ennå markedsført i Taiwan (tillatelser: 0).
-> TxGNN-modellen predikerer at den kan være effektiv mot **homozygøs familial hyperkolesterolemi (HoFH)**,
-> men for tiden er det kun **0 kliniske forsøk** og **1 publikasjon** som støtter dette, og publikasjonen omhandler faktisk cerebrotendinøs xantomatose (CTX) i stedet for HoFH, med svært svak bevisgrad.
+Kenodeoksykolsyre (CDCA) er en primær gallesyre som opprinnelig brukes til å behandle cerebrotendinøs xantomatose (CTX) og medfødte stoffskiftefeil.
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **homozygot familiær hyperkolesterolemi**, men det finnes **ingen kliniske studier** og **ingen litteratur som direkte omhandler denne indikasjonen**. Den eneste tilknyttede publikasjonen er en oversikt om CTX, altså den allerede godkjente indikasjonen.
 
----
+## Hurtigoversikt
 
-## Rask oversikt
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Cerebrotendinøs xantomatose; medfødte stoffskiftefeil |
+| Predikert ny indikasjon | Homozygot familiær hyperkolesterolemi |
+| TxGNN-prediksjonsscore | 99,57 % |
+| Evidensnivå | L4 (kun indirekte mekanistisk grunnlag, ingen studier på den nye indikasjonen) |
+| Status på det norske markedet | Kun annullerte godkjenninger |
+| Antall godkjenninger | 1 (annullert) |
+| Anbefalt beslutning | Hold |
 
-| Element | Innhold |
-|---------|---------|
-| Originale indikasjon | Manglende data (`original_indications` er tom, `original_moa` er heller ikke oppgitt, se DG002) |
-| Predikert ny indikasjon | Homozygøs familial hyperkolesterolemi (Homozygous Familial Hypercholesterolemia, HoFH) |
-| TxGNN prediksjonspoengsum | 99.57% (opprinnelig rangering 5013) |
-| Bevisgrad | L5 (kun modellpreduksjon, ingen kliniske forsøk, den eneste publikasjonen behandler ikke relevant emne) |
-| Taiwan-markedsstatus | Ikke markedsført |
-| Antall tillatelser | 0 |
-| Anbefalt beslutning | Avvent |
+## Hvorfor er denne prediksjonen rimelig (eller ikke)?
 
----
+CDCA er en primær gallesyre som undertrykker leverens syntese av kolesterol og gallesyrer via FXR-aktivering og negativ tilbakekobling på CYP7A1 og CYP27A1. Ved CTX, som skyldes mangel på enzymet sterol-27-hydroksylase, reduserer dette opphopningen av kolesterol og kolestanol i vev. Data om detaljert virkningsmekanisme fra legemiddeldatabasen er ikke tilgjengelig i de sammenstilte dataene, så beskrivelsen over bygger på en mekanistisk vurdering.
 
-## Hvorfor virker denne prediksjonen rimelig?
+Koblingen til homozygot familiær hyperkolesterolemi (HoFH) er indirekte. HoFH skyldes dysfunksjon i LDL-reseptoren, og i prinsippet kan modulering av gallesyresyntesen påvirke kolesterolhomeostasen. CDCA er imidlertid historisk rapportert å kunne øke LDL-kolesterol i enkelte situasjoner, så nytte ved HoFH er ikke støttet. Den høye TxGNN-scoren gjenspeiler trolig felles fenotyper for lipidmetabolisme og xantomatose i kunnskapsgrafen, ikke dokumentert klinisk effekt.
 
-For tiden finnes det ingen detaljert informasjon om virkningsmekanisme (MOA) tilgjengelig for verifisering (Data Gap DG002). Basert på etablert farmakologisk kunnskap er chenodeoxycholic acid en naturlig gallesyre som kan aktivere FXR (farnesol X-reseptor) og tilbakemeldingshemme CYP7A1, og dermed redusere hastigheten for konvertering av kolesterol til gallesyrer – teoretisk sett har det indirekte forbindelse til lipidmetabolske veier.
+De fire neste prediksjonene (småkarsykdom i hjernen type 1, familiært hematuri-retinal arteriolær tortuositet-kontrakturer-syndrom, foreldet familiær kombinert hyperlipidemi og foreldet hyperurikemi) har ingen identifisert mekanistisk sammenheng eller klinisk evidens. De ser ut til å være beregningsmessige artefakter og får anbefalingen «Hold».
 
-Rang 1-prediksjonsindikasjon HoFH er forårsaket av funksjonsverlust i LDL-reseptorgenet, noe som fører til at LDL-kolesterol i serum ikke kan fjernes effektivt. CDCA regulert via FXR/CYP7A1-veien påvirker kolesteols «nedstrøms metabolisme», og det finnes ingen kjente mekanismer som kan kompensere for den iboende LDL-reseptorfunksjonsdefekten, slik at mekanismesammenhengen er svak.
+## Evidens fra kliniske studier
 
-Enda viktigere er det at den eneste medfølgende støttepublikasjonen (PMID 25424010) faktisk omhandler **cerebrotendinøs xantomatose (CTX)**, som er en helt annen sykdom med helt annen etiologi enn HoFH. De ble bare merket med samme sykdomsmerknad fordi begge klinisk kan presentere xantomer, som ikke utgjør faktisk bekreftelse. De øvrige fire kandidatindikasjonene (rang 2–5) har enda svakere mekanismesammenhengen: rang 2 og 3 er COL4A1-relaterte vaskulære/okulære medfødte anomalier uten kjent forbindelse til gallesyremetabolisme, rang 2 medfølgende 19 publikasjoner er for det meste individuelle tilfellerapporter av ulike medfødte øyemalformasjoner og helt irrelevante for CDCA-farmakologi, og representerer støy fra nøkkelordfeiltilpasning; rang 4 og 5 sykdommene selv er merket som «foreldet» (obsolete), noe som indikerer datalvalitetsproblemer i ontologien. Samlet sett mangler denne prediksjonsgruppen klinisk tolkbarhet.
+Foreløpig er det ingen relaterte kliniske studier registrert.
 
----
+## Litteraturevidens
 
-## Bevis fra kliniske forsøk
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [25424010](https://pubmed.ncbi.nlm.nih.gov/25424010/) | 2014 | Oversiktsartikkel | Orphanet J Rare Dis | Omfattende gjennomgang av patogenese, klinikk, diagnostikk og behandling av CTX. Gjelder den godkjente indikasjonen, ikke HoFH. |
 
-Det finnes for tiden ingen relevante registrerte kliniske forsøk.
+## Informasjon om det norske markedet
 
----
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004061 | Chenodeoxycholic acid Leadiant (tidligere Chenodeoxycholic acid sigma-tau) | Ikke oppgitt | Cerebrotendinøs xantomatose; medfødte stoffskiftefeil (status: annullert) |
 
-## Litteraturbevis
+## Sikkerhetsvurderinger
 
-| PMID | År | Type | Journal | Viktigste funn |
-|------|-----|------|---------|----------------|
-| [25424010](https://pubmed.ncbi.nlm.nih.gov/25424010/) | 2014 | Oversikt (Tier 3) | Orphanet Journal of Rare Diseases | Denne artikkelen gir en komplett oversikt over etiologi, klinisk presentasjon, diagnose og behandling av cerebrotendinøs xantomatose (CTX), **emnet er ikke HoFH**; det antakes at dette er støy forårsaket av feil sykdomsmerknad-tilpasning, og utgjør ikke direkte bekreftelse for HoFH-indikasjon. |
+Pakningsvedlegg med advarsler og kontraindikasjoner er ikke tilgjengelig i de sammenstilte dataene. Se pakningsvedlegget for fullstendig sikkerhetsinformasjon.
 
----
+- **Mulige kontraindikasjoner (fra kunnskapsgraf, ikke preparatomtale)**: leversykdom, gallblæresykdom, diarésykdom, kolestase, godartet tilbakevendende intrahepatisk kolestase, familiær intrahepatisk kolestase, sklerosende kolangitt, primær biliær kolangitt og Reynolds syndrom.
+- **Legemiddelinteraksjoner**: Totalt 56 interaksjoner er registrert. Blant de 20 som er listet, er alle av moderat alvorlighetsgrad. De viktigste gruppene er:
+  - Østrogener: etinylestradiol, østradiol, konjugerte østrogener
+  - Fibrater og kolesterolsenkende midler: gemfibrozil, fenofibrat, klofibrat, ezetimib
+  - Gallesyrebindere: kolestyramin, kolesevelam, kolestipol
+  - Antacida: aluminiumhydroksid
+  - Asparaginaser og kreftlegemidler: asparaginase (E. coli og Erwinia), kalaspargase pegol, brentuksimab vedotin, klofarabin
+  - Andre: cannabidiol, bedakvilin, anisindion
 
-## Taiwan-markedsinformasjon
+Merk at gallesyrebindere kan binde CDCA og redusere opptaket, og at kombinasjon med lipidsenkende midler krever vurdering i en eventuell HoFH-setting.
 
-For tiden finnes det ingen data om markedsføring i Taiwan for dette legemidlet, og det er ikke godkjent for markedsføring i Taiwan ennå.
+## Konklusjon og neste steg
 
----
-
-## Sikkerhetshensyn
-
-For tiden finnes det ingen taiwanske pakningseddelsadvarsler, kontraindikasjoner eller data om legemiddelinteraksjoner (Data Gap DG001, alvorlighetsgrad: **Blokkering**, denne spalten vil blokkere S1 sikkerhetsinitialvurdering). Etter å ha hentet den offisielle taiwanske TFDA-pakningseddelen og gjennomført analyse, kan fullstendig sikkerhetsassessment oppfylles.
-
----
-
-## Konklusjon og neste trinn
-
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-- Alle 5 prediksjonsindikasjonene har bevisgrad L5 – kun modellprediksjonsscore, ingen kliniske forsøk som støtter dem, og den eneste medfølgende publikasjonen er ikke om relevant emne (eller helt irrelevant), mekanismesammenhengen er svak eller til og med støy fra feil sykdomsmerknad-tilpasning;
-- Legemidlet mangler originale indikasjon- og virkningsmekanismedata (DG002, høy), og taiwanske pakningseddelsadvarsler/kontraindikasjoner mangler (DG001, blokkering), noe som gjør at S1 sikkerhetsinitialvurdering ikke kan gjennomføres.
+Det finnes ingen kliniske studier eller direkte litteratur som støtter bruk ved HoFH, og CDCA kan tvert imot øke LDL-kolesterol. Den høye prediksjonsscoren ser ut til å skyldes assosiasjoner i kunnskapsgrafen. I tillegg er den eneste norske godkjenningen annullert.
 
-**Hvis man ønsker å fortsette, må følgende tilføyes:**
-- Innhente offisiell virkningsmekanisme (MOA) og originale godkjente indikasjondata fra DrugBank eller originalt farmasøytisk firma
-- Innhente offisiell taiwansk TFDA-pakningsetikett PDF og analyser advarsler, kontraindikasjoner og legemiddelinteraksjoner for å løse DG001-blokkeringen
-- Supplere med riktig relevant klinisk forsøk eller litteraturbevis for rang 1-kandidaten (HoFH) – den eneste publikasjonen (CTX) er ikke relevant
-- Gjennomgå ontologidatakvaliteten, eliminer «foreldet» terminologi i rang 3–5-kandidatene og feil sykdomsmerknad-tilpasning som er helt usammenhengende med legemidlets farmakologimekanisme
-
+**For å komme videre trengs følgende:**
+- Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Data om virkningsmekanisme fra legemiddeldatabasen
+- Prekliniske eller kliniske data som viser effekt og sikkerhet på LDL-kolesterol hos HoFH-pasienter
+- Vurdering av udekket behov i forhold til eksisterende HoFH-behandlinger
+- Avklaring av doseringsform og administrasjonsvei
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

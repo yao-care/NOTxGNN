@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Risankizumab
-parent: Kun modellprediksjon (L5)
-nav_order: 307
-evidence_level: L5
+parent: Høy evidens (L1-L2)
+nav_order: 361
+evidence_level: L2
 indication_count: 10
 ---
 
 # Risankizumab
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,92 +31,93 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 # Risankizumab: Fra psoriasis til dermatitt
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-Risankizumab (Skyrizi) er en IL-23p19-hemmer monoklonal antistoff opprinnelig godkjent for psoriasis vulgaris, psoriasisartritt, generalisert pustulør psoriasis og erytrodermatisk psoriasis. TxGNN-modellen forutsier at det kan være effektivt for **dermatitt** (som omfatter atopisk dermatitt), med **7 kliniske studier** og **16 publikasjoner** som for tiden støtter denne retningen, inkludert én fullført fase 2 RCT spesifikt for atopisk dermatitt.
+Risankizumab er et humanisert monoklonalt antistoff mot p19-underenheten av IL-23. Det er opprinnelig godkjent for psoriasis, psoriasisartritt, ulcerøs kolitt og Crohns sykdom.
+TxGNN-modellen predikerer at det kan ha effekt ved **dermatitt**. Evidensen består av **2 kliniske studier** (hvorav 1 fullført fase 2-RCT) og **20 publikasjoner**, men fase 2-studien i atopisk dermatitt viste begrenset effekt.
 
 ---
 
 ## Hurtigoversikt
 
-| Punkt | Detaljer |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Psoriasis vulgaris, psoriasisartritt, generalisert pustulør psoriasis, erytrodermatisk psoriasis (per global godkjenningshistorie dokumentert i litteratur; ingen Norges-lisens funnet) |
-| Forutsagt ny indikasjon | Dermatitt |
-| TxGNN-prediksjonsscore | 99.98% |
-| Bevisnivå | L2 (1 fullført fase 2 RCT — NCT03706040) |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Fortsett med sikkerhetstiltak |
+| Opprinnelig indikasjon | Psoriasis; psoriasisartritt; ulcerøs kolitt; Crohns sykdom |
+| Predikert ny indikasjon | Dermatitt |
+| TxGNN-prediksjonsscore | 99,98 % |
+| Evidensnivå | L2 |
+| Markedsstatus i Norge | Kun annullert godkjenning |
+| Antall godkjenninger | 1 (annullert) |
+| Anbefalt beslutning | Hold (avvent) |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Strukturerte virkningsmekanisme-data for risankizumab er ikke tilgjengelige i det nåværende datasettet (datakløft DG002). Basert på litteraturbeviser samlet inn for denne kandidaten (PMID 31098898, *"Risankizumab: First Global Approval"*), er risankizumab et humanisert IgG-monoklonalt antistoff som selektivt retter seg mot p19-subenheten av interleukin-23 (IL-23), og blokkerer nedstrøms Th17-formidlet inflammatorisk signalering. Det mottok sin første globale godkjenning i Japan i 2019 for psoriasis vulgaris, psoriasisartritt, generalisert pustulør psoriasis og erytrodermatisk psoriasis, og har siden blitt godkjent i USA, Canada og EU.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Basert på kjent informasjon blokkerer risankizumab IL-23 (p19), som driver Th17/Th22-betennelse ved psoriasis, og dette kan også bidra ved enkelte former for dermatitt.
 
-Psoriasis og atopisk/eksematøs dermatitt er begge kroniske immun-formidlet inflammatoriske hudsjukdommer, men de har historisk involvert ulike dominante T-helper-signalveier (psoriasis: Th17/IL-23; atopisk dermatitt: Th2, med Th22 og Th17-bidrag). En fase 2 RCT (PMID 36588137) bemerker eksplisitt at atopisk dermatitt innvolvert Th2-, Th22- og *potensielt* Th17-signalveiene, noe som gir en begrunnelse for testing av IL-23/IL-22-blokering i denne populasjonen — noe som støtter den mekanistiske plausibiliteten til TxGNN-prediksjonen snarere enn å behandle den som en rent tilfeldig assosiasjon.
+Atopisk dermatitt er hovedsakelig Th2-drevet. En fase 2-studie viste ikke klar effekt av IL-23-blokade alene. Rapporter om kombinasjonsbruk med dupilumab ved samtidig atopisk dermatitt og psoriasis tyder på en nisjerolle ved blandet fenotype, snarere enn ved atopisk dermatitt generelt.
 
-Klinisk er denne mekanistiske overlappingen videre gjenspeilt i rapporter fra den virkelige verden om «paradoksal eksem» som oppstår hos psoriaspatienter behandlet med IL-23-hemmer inkludert risankizumab, og omvendt en kasuistikk av risankizumab brukt vellykket hos en pasient med samtidig atopisk dermatitt og psoriasis. Disse toveis kliniske observasjonene, sammen med en dedikert fase 2 RCT for atopisk dermatitt, indikerer at prediksjonen er forankret i genuint (om enn fortsatt under utvikling) patofysiologisk overlap snarere enn modellartifakt.
+Det finnes også rapporter om paradoksal eksem ved IL-23- og IL-17-hemmere (inkludert risankizumab, forekomst anslått til 1–3 % blant psoriasispasienter på biologisk behandling). Dette kompliserer bildet. Prediksjonen er derfor mekanistisk plausibel kun for deler av sykdomsspekteret, og ikke tydelig støttet for dermatitt som helhet.
 
 ---
 
-## Klinisk studie-evidens
+## Evidens fra kliniske studier
 
-| Studie-nummer | Fase | Status | Antall deltakere | Viktige funn |
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT03706040](https://clinicaltrials.gov/study/NCT03706040) | Fase 2 | Fullført | 172 | Randomisert, placebokontrollert studie av risankizumab hos voksne/ungdommer med moderat-alvorlig atopisk dermatitt — det primære direkte beviset for denne indikasjonen |
-| [NCT04908475](https://clinicaltrials.gov/study/NCT04908475) | Fase 4 | Fullført | 352 | Risankizumab vs apremilast ved moderat plakk psoriasis; sammenligning av sikkerhet/effektivitet hos kandidater for systemisk terapi |
-| [NCT05969223](https://clinicaltrials.gov/study/NCT05969223) | Fase 4 | Fullført | 214 | Risankizumab ved moderat-alvorlig genital eller hodebunnpsoriasis |
-| [NCT04818385](https://clinicaltrials.gov/study/NCT04818385) | N/A (Observasjonell) | Fullført | 240 | Taiwan virkelighetskohort som sammenligner varighet av risankizumab-respons (PASI 90) vs andre biologiske midler ved kronisk plakk psoriasis |
-| [NCT07021495](https://clinicaltrials.gov/study/NCT07021495) | N/A (Observasjonell) | Rekrutterer | 840 | Flersenter biomarkør-profilering av seks immun-formidlet inflammatoriske hudsykdommer, inkludert atopisk dermatitt og plakk psoriasis |
-| [NCT07041112](https://clinicaltrials.gov/study/NCT07041112) | N/A (Observasjonell) | Fullført | 1000 | Farmakogenetisk studie av genetiske/kardiometabolske faktorer på 10-års varighet av biologisk terapi ved psoriasis/psoriasisartritt |
-| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Fase 4 | Ikke påbegynt rekruttering | 10 | Testing av mikroapparat for FDA-godkjente legemidler (inkludert for atopisk dermatitt og psoriasis) direkte på huden |
+| [NCT03706040](https://clinicaltrials.gov/study/NCT03706040) | Fase 2 | Fullført | 172 | Randomisert, dobbeltblind, placebokontrollert studie av risankizumab ved moderat til alvorlig atopisk dermatitt hos voksne og ungdom. Direkte RCT-evidens, men effekten var begrenset |
+| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Fase 4 | Ikke rekruttert ennå | 10 | Test av en mikroenhet for å prøve godkjente legemidler direkte i huden ved atopisk dermatitt og psoriasis. Metodestudie med liten verdi som effektevidens |
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [36588137](https://pubmed.ncbi.nlm.nih.gov/36588137/) | 2023 | RCT | Dermatology and Therapy | Fase 2, randomisert, dobbeltblind, placebokontrollert studie av risankizumab ved moderat-alvorlig atopisk dermatitt; begrunnelse basert på IL-23/IL-22-signalveiesinvolvering |
-| [31098898](https://pubmed.ncbi.nlm.nih.gov/31098898/) | 2019 | Oversikt | Drugs | Legemiddelprofil: MOA (anti-IL-23p19), første globale godkjenning i Japan for psoriasisspektrumindikasjoner |
-| [33078990](https://pubmed.ncbi.nlm.nih.gov/33078990/) | 2020 | Oversikt | Expert Opinion on Biological Therapy | Oversikt over nåværende og framvoksende biologiske midler, inkludert risankizumab, for pediatrisk atopisk dermatitt |
-| [39201826](https://pubmed.ncbi.nlm.nih.gov/39201826/) | 2024 | Oversikt | Children (Basel) | Narrativ oversikt over biologiske midler/målrettede terapi for pediatrisk allopecia areata, psoriasis, atopisk dermatitt og hidradenitis suppurativa |
-| [39668419](https://pubmed.ncbi.nlm.nih.gov/39668419/) | 2025 | Kasuistikk | International Journal of Dermatology | Effektivitet og sikkerhet av kombinert dupilumab og risankizumab hos en pasient med samtidig atopisk dermatitt og psoriasis |
-| [33185530](https://pubmed.ncbi.nlm.nih.gov/33185530/) | 2020 | Kasuistikk | European Journal of Dermatology | Eksematøs utslett som oppstår hos psoriaspatienter under risankizumab-behandling |
-| [36939506](https://pubmed.ncbi.nlm.nih.gov/36939506/) | 2023 | Kasuistikk | Italian Journal of Dermatology and Venereology | Tilfelle av eksematøs utslett som oppstår under risankizumab-behandling |
-| [41645692](https://pubmed.ncbi.nlm.nih.gov/41645692/) | 2026 | Kasuistikk | Dermatology Reports | Upadacitinib som behandlingsalternativ for paradoksal eksem indusert av IL-23-hemmer inkludert risankizumab |
-| [37014149](https://pubmed.ncbi.nlm.nih.gov/37014149/) | 2023 | Kasusserie | Journal of Cutaneous Medicine and Surgery | Brodalumab-induserte eksematøse reaksjoner håndtert ved bytte til risankizumab |
-| [38607726](https://pubmed.ncbi.nlm.nih.gov/38607726/) | 2024 | Oversikt | Military Medicine | Revurdering av systemiske immunomodulatorer, inkludert risankizumab, for psoriasis og eksem i militære befolkninger |
+| [36588137](https://pubmed.ncbi.nlm.nih.gov/36588137/) | 2023 | RCT | Dermatol Ther | Fase 2-studie av risankizumab ved moderat til alvorlig atopisk dermatitt (tilsvarer NCT03706040) |
+| [40856907](https://pubmed.ncbi.nlm.nih.gov/40856907/) | 2025 | Systematisk oversikt | Am J Clin Dermatol | Systemisk behandling av erytrodermisk psoriasis |
+| [40794374](https://pubmed.ncbi.nlm.nih.gov/40794374/) | 2025 | Systematisk oversikt | Inflammopharmacology | Terapeutiske og paradoksale effekter av interleukinhemmere ved lichen planus |
+| [41822639](https://pubmed.ncbi.nlm.nih.gov/41822639/) | 2026 | Systematisk oversikt | Cureus | Kardiovaskulære utfall ved biologisk behandling av inflammatoriske hudsykdommer |
+| [39668419](https://pubmed.ncbi.nlm.nih.gov/39668419/) | 2025 | Kohort/serie | Int J Dermatol | Kombinasjon av dupilumab og risankizumab ved samtidig atopisk dermatitt og psoriasis |
+| [39201826](https://pubmed.ncbi.nlm.nih.gov/39201826/) | 2024 | Oversikt | Children (Basel) | Biologiske og småmolekylære legemidler ved pediatrisk alopecia areata, psoriasis, atopisk dermatitt og hidradenitis suppurativa |
+| [31098898](https://pubmed.ncbi.nlm.nih.gov/31098898/) | 2019 | Oversikt | Drugs | Risankizumab: første globale godkjenning |
+| [41645692](https://pubmed.ncbi.nlm.nih.gov/41645692/) | 2026 | Kasuistikk | Dermatol Rep | Upadacitinib ved paradoksal eksem utløst av IL-23-hemmere |
+| [36939506](https://pubmed.ncbi.nlm.nih.gov/36939506/) | 2023 | Kasuistikk | Ital J Dermatol Venereol | Eksematøst utbrudd under behandling med risankizumab |
+| [33185530](https://pubmed.ncbi.nlm.nih.gov/33185530/) | 2020 | Kasuistikk | Eur J Dermatol | Eksematøst utbrudd hos psoriasispasienter under risankizumab |
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Risankizumab har for tiden **ingen markedsføringsautoritasjon registrert i Norge** (`total_licenses: 0`, `market_status: Not marketed / Not Marketed`). Ingen produktlisens, doseringsform eller godkjent indikasjon tekst er tilgjengelig for dette markedet.
+| Godkjenningsnummer | Produktnavn | Doseform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004759 | Skyrizi | Ikke oppgitt | Psoriasis; psoriasisartritt; ulcerøs kolitt; Crohns sykdom (status: annullert) |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Vær vennlig å henvise til pakningsvedlegget for sikkerhetsinformasjon. (Nøkkeladvarsler, kontraindikasjoner og legemiddel-legemiddel-interaksjonsdata er alle merket som datakløfter i det nåværende bevispakket — dette er flagget som **blokkerande** datakløft DG001, avventer TFDA/reguleringsmerkelapp henting.)
+- **Legemiddelinteraksjoner**: Totalt 78 interaksjoner er registrert. Blant de som er hentet ut, er følgende klassifisert som **alvorlige (Major)**: adalimumab, baricitinib, certolizumab pegol og kladribin. Flere er klassifisert som moderate, blant annet takrolimus, ciklosporin, azatioprin, anakinra, kanakinumab, denosumab, roflumilast, alemtuzumab og alefacept. I tillegg er det moderate interaksjoner med enkelte vaksiner (tetanustoksoid, miltbrannvaksine, levende kolera-vaksine). Sinkpreparater gir kun mindre (Minor) interaksjoner.
+- **Andre sikkerhetssignaler fra litteraturen**: Paradoksal eksem er rapportert under IL-23-hemming.
+
+For advarsler og kontraindikasjoner, se preparatomtalen (SPC), da disse dataene ikke er tilgjengelige her.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Fortsett med sikkerhetstiltak**
+**Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-En fullført fase 2 RCT (NCT03706040) evaluerte direkte risankizumab ved moderat-alvorlig atopisk dermatitt, og dette er forsterket av mekanistisk litteratur om IL-22/Th17-signalveien samt flere rapporter fra den virkelige verden som beskriver toveis klinisk overlap mellom IL-23-hemming og eksematøse/dermatitispresentasjoner. Dette støtter genuint biologisk plausibilitet som ikke er tilfeldig (bevisnivå L2), men bekreftende fase 3-data og fullstendig sikkerhetsdokumentasjon mangler fortsatt.
+Den eneste fullførte RCT-en (fase 2, atopisk dermatitt) viste begrenset effekt, og IL-23-blokade er mekanistisk dårlig tilpasset Th2-drevet sykdom. Dermatitt omfatter dessuten mange undertyper, og eksem er samtidig rapportert som en paradoksal bivirkning. Evidensnivået er L2, og risankizumab har ingen gyldig godkjenning i Norge for øyeblikket.
 
-**For å fortsette, er følgende nødvendig:**
-- TFDA/reguleringslegemiddelpakke (advarsler, kontraindikasjoner, DDI) — for tiden blokkerande (DG001)
-- Strukturert MOA-data fra DrugBank for formelt å støtte mekanistisk begrunnelse (DG002)
-- Bekreftende fase 3 RCT-data spesifikk for dermatitt/atopisk dermatitt indikasjon
-- Klargjøring av planer for markedsinngang i Norge, siden legemidlet for tiden har ingen lokal godkjenning
-
+**For å gå videre kreves følgende:**
+- Detaljerte data om virkningsmekanisme (MOA)
+- Advarsler og kontraindikasjoner fra preparatomtalen
+- Avgrensning av en aktuell undergruppe (f.eks. blandet fenotype med samtidig psoriasis) og dedikerte studier der
+- Avklaring av regulatorisk status i Norge (godkjenningen er annullert)
+- Vurdering av risiko for paradoksal eksem og av interaksjoner med andre immunsuppressive legemidler
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

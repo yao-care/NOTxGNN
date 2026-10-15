@@ -2,7 +2,7 @@
 layout: default
 title: Sebelipase Alfa
 parent: Kun modellprediksjon (L5)
-nav_order: 320
+nav_order: 377
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,99 +29,86 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Sebelipase alfa: Fra uten markedsstatus i Norge til Lysosomal Acid Lipase Deficiency (Wolman-sykdom / Cholesteryl Ester Storage Disease)
+# Sebelipase alfa: Fra medfødte feil i lipidmetabolismen til Scheie syndrom
 
-## Sammendrag i en setning
+## Oppsummering
 
-Sebelipase alfa er ikke for tiden på det norske markedet og har ingen lokalt registrert godkjent indikasjon.
-TxGNN-modellen — etter filtrering av flere mekanistisk usannsynlige toppsjanser — konvergerer korrekt på **Lysosomal Acid Lipase Deficiency (LAL-D)**, som spenner over infantil-debut-formen (**Wolman-sykdom**) og senere-debut-formen (**Cholesteryl Ester Storage Disease, CESD**), støttet av **9 kliniske forsøk (inkludert 1 fullført fase 3 RCT)** og **~19 publikasjoner**.
+Sebelipase alfa er et rekombinant humant lysosomalt syrelipaseenzym (LAL) som brukes som enzymerstatningsbehandling ved medfødte feil i lipidmetabolismen, nærmere bestemt LAL-mangel.
+TxGNN-modellen spår at legemidlet kan være effektivt ved **Scheie syndrom** (mild form av MPS I), men **ingen kliniske studier og ingen publikasjoner** støtter denne retningen.
+Dette er en ren modellprediksjon (evidensnivå L5).
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Ingen på fil — ikke markedsført i Norge (dataforskjell). Globalt godkjent som Kanuma® for LAL-D siden 2015 (PMID 26452566). |
-| Forutsagt ny indikasjon | Lysosomal Acid Lipase Deficiency (Wolman-sykdom / Cholesteryl Ester Storage Disease) |
-| TxGNN prediksjonspoengsum | ~99.7% (Wolman-sykdom 99.72% / CESD 99.72%) |
-| Bevisnivå | L2 (1 fullført pivot fase 3 RCT — ARISE, NCT01757184 — pluss flere langsiktige kohort-/forlengelsestudier) |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt avgjørelse | Fortsett med sikkerhetstiltak |
+| Opprinnelig indikasjon | Medfødte feil i lipidmetabolismen |
+| Predikert ny indikasjon | Scheie syndrom |
+| TxGNN-prediksjonsscore | 99,80 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (ingen gyldige godkjenninger) |
+| Antall godkjenninger | 1 (avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-DrugBank-kildendatafeltets virkningsmekanisme i denne evidenspakken er en bekreftet datahull. Imidlertid etablerer litteraturbeviset som er hentet for denne kandidaten mekanismen uavhengig: sebelipase alfa er en **rekombinant humant lysosomal acid lipase (rhLAL)** enzymerstattingsterapi (Shirley, *Drugs* 2015, PMID 26452566). Det leverer direkte enzymet som er fraværende eller mangelfull i LAL-D — en 1:1 enzym-substratkorrigering, ikke en indirekte lighetsteheuristikk.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Ut fra kjent informasjon er sebelipase alfa en enzymerstatning for lysosomal syrelipase, og effekten er godt dokumentert ved LAL-mangel. Mekanistisk er det imidlertid vanskelig å se at den kan brukes ved Scheie syndrom.
 
-Dette er viktig fordi råTxGNN-rangeringen (predicted_indications ranger 1–10) er dominert av andre lysosomale lagringssykdommer som deler fenotypisk innebygd plass, men har **urelated mangelfule enzymer**: Scheie/Hurler-syndrom (α-L-iduronidase), Gaucher-sykdom (glukoserebrosidasee), Tay-Sachs-sykdom (heksosaminidase A). Ingen av disse ville blitt korrigert av rhLAL, og evidenspakkens egen rasjonale merking markerer eksplisitt dem som mekanistisk ustøttet (Hold, L5, ingen kliniske bevis). I kontrast er Wolman-sykdom og CESD rett og slett de to endene av det **samme LAL-D-sykdomsspekteret** som sebelipase alfa opprinnelig ble utviklet for — forsøksprogrammet som er oppført under "cholesteryl ester storage disease" (rang 4) innrullerte faktisk både infantile Wolman-sykdomspasienter og senoppstått CESD-pasienter, noe som forklarer hvorfor Wolman-sykdom-posten (rang 5) viser 0 forsøk i sin egen registrering til tross for å ha en fullført L2/S3 evidensvurdering — en databaseklassifiseringsartefakt snarere enn et datahull.
+Scheie syndrom skyldes mangel på enzymet alfa-L-iduronidase. Sebelipase alfa erstatter et annet enzym, lysosomal syrelipase, som bryter ned kolesterolestere og triglyserider. Substratene er ulike: glykosaminoglykaner ved Scheie syndrom, kolesterolestere og triglyserider ved LAL-mangel. Legemidlet kan derfor ikke erstatte det manglende enzymet.
 
-I praksis er denne "prediksjonen" ikke en nyskapende ombrukshypotese, men en **gjenidentifisering av medikamentets eget etablerte globale indikasjon** i et marked (Norge) der det for tiden ikke har noen autorisasjon. Den kliniske nytten av denne rapporten er derfor mindre om ny farmakologi og mer om å identifisere et markeds-inngangs-/autorisasjonshull.
+Den høye prediksjonsscoren gjenspeiler trolig bare at begge sykdommene er lysosomale lagringssykdommer i kunnskapsgrafen. Den er ikke et uttrykk for en reell biologisk kobling.
 
----
+**Andre prediksjoner blant de ti øverste:** Datagrunnlaget gir langt sterkere støtte for to andre prediksjoner. Begge ligger nær legemidlets opprinnelige bruksområde og er egentlig ikke reell repurposing:
 
-## Klinisk prøvebevis
-
-| Forsøksnummer | Fase | Status | Antall innrullert | Viktige funn |
-|---------|------|------|------|---------|
-| [NCT01757184](https://clinicaltrials.gov/study/NCT01757184) | Fase 3 | Fullført | 66 | Pivot randomisert placebokontrollert forsøk (ARISE) med sebelipase alfa 1 mg/kg IV hver annen uke ved senoppstått LAL-D (CESD) |
-| [NCT02112994](https://clinicaltrials.gov/study/NCT02112994) | Fase 2 | Fullført | 31 | Flersenter åpen sikkerhet/effektivitetsstudie på tvers av bred LAL-D-populasjon |
-| [NCT02193867](https://clinicaltrials.gov/study/NCT02193867) | Fase 2 | Avsluttet | 10 | Ukentlige infusjoner opp til 3 år hos spedbarn med raskt progrederende LAL-D (Wolman-sykdom) |
-| [NCT01371825](https://clinicaltrials.gov/study/NCT01371825) | Fase 2/3 | Fullført | 9 | Dosestegringsstudie hos barn med vekstsvikt på grunn av LAL-D, ukentlig dosering opp til 5 år |
-| [NCT01488097](https://clinicaltrials.gov/study/NCT01488097) | Fase 2 | Fullført | 8 | Fortsettelsesstudie som evaluerer langsiktig sikkerhet/tolerabilitet hos voksne med LAL-D-relatert leversvikt |
-| [NCT01307098](https://clinicaltrials.gov/study/NCT01307098) | Fase 1/2 | Fullført | 9 | Første-hos-mennesker dosestegringsstudie hos voksne med LAL-D-relatert leversvikt |
-| [NCT02376751](https://clinicaltrials.gov/study/NCT02376751) | N/A | Ikke lenger tilgjengelig | N/A | Protokoll for utvidet tilgang for LAL-D-pasienter i påvente av kommersiell tilgjengelighet |
-| [NCT02926872](https://clinicaltrials.gov/study/NCT02926872) | N/A | Avsluttet | 22 | DETECT: screening for LAL-D som underliggende årsak til pediatrisk leverskade |
-| [NCT04532047](https://clinicaltrials.gov/study/NCT04532047) | Fase 1 | Rekrutterer | 10 | PEARL basket-forsøk: in-utero enzymerstattingsgjennomførbarhet på tvers av flere LSDs (ikke LAL-D-spesifikk; lav direkte relevans) |
+| Predikert indikasjon | Evidensnivå | Vurdering |
+|------|------|------|
+| Kolesterolesterlagringssykdom (CESD) | L1 | Randomisert, placebokontrollert fase 3-studie (NCT01757184, n=66) og NEJM-publikasjon (PMID 26352813). Anbefaling: Proceed with Guardrails |
+| Wolmans sykdom (med hypolipoproteinemi og akantocytose) | L3 | Støttes av kohortdata og kasuistikker. Sykdomskoblingen bør verifiseres. Anbefaling: Proceed with Guardrails |
+| Hurler syndrom, Gaucher sykdom, Tay-Sachs sykdom m.fl. | L4–L5 | Ulike enzymdefekter og ingen støtte for effekt. Anbefaling: Hold |
 
 ---
 
-## Litteraturbevis
+## Klinisk studieevidens
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
-|------|-----|------|------|---------|
-| [34774639](https://pubmed.ncbi.nlm.nih.gov/34774639/) | 2022 | RCT (forlengelse) | Journal of Hepatology | Endelige resultater fra fase 3 ARISE-studie; sebelipase alfa effektivitet/sikkerhet hos barn og voksne med LAL-D |
-| [35442238](https://pubmed.ncbi.nlm.nih.gov/35442238/) | 2022 | Kohort | J Pediatr Gastroenterol Nutr | Langsiktige behandlingsresultater fra enkeltarms åpen studie (NCT02112994) |
-| [34906190](https://pubmed.ncbi.nlm.nih.gov/34906190/) | 2021 | Kohort (10-år) | Orphanet J Rare Dis | Nasjonal kohort av ERT ved Wolman-sykdom med opp til 10 års oppfølging |
-| [29628368](https://pubmed.ncbi.nlm.nih.gov/29628368/) | 2018 | Kohort | J Clin Lipidol | Sebelipase alfa forbedrer aterogeniske biomerker (fase 3 ARISE-data) |
-| [38918870](https://pubmed.ncbi.nlm.nih.gov/38918870/) | 2024 | Kasusserie | Orphanet J Rare Dis | To ganger ukentlig dosering redder alvorlig syke spedbarn med Wolman-sykdom |
-| [28179030](https://pubmed.ncbi.nlm.nih.gov/28179030/) | 2017 | Åpen dosestegringsstudie | Orphanet J Rare Dis | Overlevelsesresultater hos spedbarn behandlet med sebelipase alfa |
-| [33407676](https://pubmed.ncbi.nlm.nih.gov/33407676/) | 2021 | Langsiktig oppfølging | Orphanet J Rare Dis | Langsiktig overlevelse med sebelipase alfa ved raskt progrederende LAL-D (endelige resultater, 2 åpne studier) |
-| [40781810](https://pubmed.ncbi.nlm.nih.gov/40781810/) | 2025 | Register | Liver International | Internasjonale registerdata: sebelipase alfa forbedrer aminotransferasenivåer |
-| [39770929](https://pubmed.ncbi.nlm.nih.gov/39770929/) | 2024 | Oversikt | Nutrients | Praktiske anbefalinger for diagnose/behandling av LAL-D, fokus på Wolman-sykdom |
-| [26452566](https://pubmed.ncbi.nlm.nih.gov/26452566/) | 2015 | Oversikt | Drugs | Sebelipase alfa: første globale godkjenning |
+Foreløpig ingen relevante kliniske studier registrert for Scheie syndrom.
 
 ---
 
-## Norsk markedsinformasjon
+## Litteraturevidens
 
-Sebelipase alfa har for tiden ingen markedsføringstillatelse i Norge, og ingen lisensregistreringer er tilgjengelige i evidenspakken (`total_licenses: 0`).
-
----
-
-## Sikkerhetshensyn
-
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
-
-> Merknad: Evidensgrunnlaget indikerer uavhengig at infusjonsrelatert hypersensitivitet er et kjent klinisk problem med sebelipase alfa (f.eks. PMID 38572778 beskriver en 14-trinns desensitiseringsprotokoll for en Wolman-sykdomspassient), men ingen strukturerte advarsler, kontraindikasjoner eller DDI-data er tilstede i DrugBank-kilder sikkerhetsfeltene i denne evidenspakken (DG001, blocking severity).
+Foreløpig ingen relevant litteratur tilgjengelig for Scheie syndrom.
 
 ---
 
-## Konklusjon og neste trinn
+## Informasjon om markedet i Norge
 
-**Avgjørelse: Fortsett med sikkerhetstiltak**
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004004 | Kanuma | Ikke oppgitt | Medfødte feil i lipidmetabolismen (status: avregistrert) |
+
+---
+
+## Sikkerhetsvurderinger
+
+Se preparatomtalen for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Kjernemedikament-sykdom-parringen (sebelipase alfa → LAL-D/Wolman-sykdom/CESD) er mekanistisk direkte og støttet av en fullført pivot fase 3 RCT (ARISE) pluss flere langsiktige kohort- og registerstudier — dette er faktisk medikamentets eget globalt godkjent indikasjon (Kanuma®, godkjent siden 2015), ikke en spekulativ ombrukshypotese. Imidlertid er medikamentet helt uten markedsføring i Norge, og denne spesifikke evidenspakken mangler sikkerhet/merkingdata, så det passende neste trinnet er en forsiktig regulatorisk inngangs-vei snarere enn et ubetinget "Go."
+Prediksjonen for Scheie syndrom mangler både mekanistisk støtte og kliniske data. Sebelipase alfa erstatter ikke det manglende enzymet (alfa-L-iduronidase). Legemidlet har dessuten ingen gyldig godkjenning i Norge.
 
-**For å fortsette, er følgende nødvendig:**
-- TFDA/norsk-tilsvarende merkingdata — viktige advarsler, kontraindikasjoner (DG001, blocking; krever PDF-merkingsforspørsel)
-- Strukturert DrugBank MOA-post (DG002)
-- Formell vurdering av norsk markedsautorisasjon/importlisens, siden medikamentet ikke har noe lokalt regulatorisk fotavtrykk
-- Eksplisitt eksklusjon av de andre TxGNN top-10-kandidatene (Scheie-syndrom, Hurler-syndrom, veksthormoninsensitivitetssyndrom, Gaucher-sykdom, lysosomale lagringssykdommer med skjelettbetegnelse, autosomalt ichthyosis-syndrom, Tay-Sachs-sykdom, godartet binyresvulst) fra videre gjennomgang — alle mangler mekanistisk plausibilitet og støttende bevis per rasjonale merknader i denne pakken
-
+**For å gå videre kreves følgende:**
+- Pakningsvedlegg og preparatomtale med advarsler og kontraindikasjoner må innhentes og vurderes, siden dette er en blokkerende datamangel.
+- Data om virkningsmekanisme (MOA) må suppleres, for eksempel fra DrugBank.
+- Prekliniske data eller en biologisk begrunnelse for effekt ved Scheie syndrom må foreligge før videre vurdering.
+- Ressursene bør heller rettes mot CESD og Wolmans sykdom, som har mye sterkere evidens. Der må gjeldende regulatorisk status og forsyningssituasjon avklares, siden godkjenningen i Norge er avregistrert.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

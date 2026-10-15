@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Aliskiren
-parent: Kun modellprediksjon (L5)
-nav_order: 24
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 26
+evidence_level: L4
 indication_count: 7
 ---
 
 # Aliskiren
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,111 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Aliskiren: Fra hypertensjon til pulmonær hypertensjon på grunn av lungesykdom og/eller hypoksemi
+# Aliskiren: Fra hypertensjon til pulmonal hypertensjon forårsaket av lungesykdom og/eller hypoksi
 
-*Merk: evidenspakken inneholder ingen `original_indications`-tekst og ingen norske lisenspostinger for aliskiren, så "original indikasjon" nedenfor er angitt fra legemidlets kjente farmakologiske klasse (direkte renin-hemmer, indisert for essensiell hypertensjon), ikke fra pakkdata.*
+## Oppsummering i én setning
 
-## En-setnings sammendrag
+Aliskiren er en direkte reninhemmer som opprinnelig er godkjent for behandling av hypertensjon.
+TxGNN-modellen predikerer at legemidlet kan være effektivt ved **pulmonal hypertensjon forårsaket av lungesykdom og/eller hypoksi**.
+Det finnes foreløpig **ingen kliniske studier** og **4 publikasjoner** (kun prekliniske/mekanistiske) som støtter denne retningen, så prediksjonen bygger hovedsakelig på modellen.
 
-Aliskiren er en direkte renin-hemmer opprinnelig utviklet for essensiell hypertensjon. TxGNN-modellen forutsier at det kan være effektivt for **pulmonær hypertensjon på grunn av lungesykdom og/eller hypoksemi**, men denne retningen støttes for øyeblikket kun av modellens score — **0 kliniske forsøk** og ingen av de **20 hentede publikasjonene** studerer faktisk aliskiren, RAAS-hemming eller pulmonær hypertensjon. Dette er et rent algoritmisk signal, ikke et legemiddel-spesifikt funn.
+---
 
-## Raskt overblikk
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Original indikasjon | Essensiell hypertensjon (fra kjent legemiddelklasse; ikke til stede i evidenspakken — ingen `original_indications` eller norsk lisensstekst oppgitt) |
-| Forutsagt ny indikasjon | Pulmonær hypertensjon på grunn av lungesykdom og/eller hypoksemi |
-| TxGNN prognose-score | 99.98% |
-| Evidensnivå | L5 (kun modellprognose) |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt avgjørelse | Avvent |
+| Opprinnelig indikasjon | Hypertensjon |
+| Predikert ny indikasjon | Pulmonal hypertensjon forårsaket av lungesykdom og/eller hypoksi |
+| TxGNN-prediksjonsscore | 99,98 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
+| Antall godkjenninger | 1 (opphevet) |
+| Anbefalt beslutning | Hold |
 
-## Hvorfor er denne prognosen rimelig?
+---
 
-For øyeblikket er detaljerte virkningsmekanisme-data ikke tilgjengelig (merket som alvorlig datakløft, DG002). Basert på kjent farmakologi er aliskiren en direkte renin-hemmer (DRI) som blokkerer det hastighetsbestemmende trinnet i renin-angiotensin-aldosteron-systemet (RAAS), og dens effektivitet ved essensiell hypertensjon er vel etablert.
+## Hvorfor er denne prediksjonen rimelig?
 
-Den teoretiske koblingen til pulmonær hypertensjon er at kronisk hypoksemi kan lokalt aktivere RAAS og fremme pulmonær vaskulær remodellering, som i prinsippet kunne gjøre renin-hemming til et plausibelt intervensjonssted. Dette er en biologisk sammenhengende hypotese, ikke en som er bekreftet.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget for denne rapporten. Aliskiren er imidlertid kjent som en direkte reninhemmer som blokkerer renin-angiotensin-systemet (RAS) i det hastighetsbegrensende trinnet. Effekten ved hypertensjon er dokumentert.
 
-Kritisk sett nevner ingen av de 20 litteraturpostene som ble returnert for denne paringen aliskiren, RAAS-hemmere eller behandling av pulmonær hypertensjon — de er generell hypoksemi-biologi og neurodegenersjon-litteratur (f.eks. høyfjells-fysiologi, kognitiv svikt under hypoksemi, tumor hypoksemi-signalering). Heller ingen kliniske forsøk ble identifisert. TxGNN-scoren gjenspeiler derfor en rent graf-basert assosiasjon, uten legemiddel-spesifikk mekanistisk eller klinisk bekrefting i den nåværende evidenspakken.
+Prekliniske studier knytter kronisk intermitterende hypoksi til aktivering av RAS, med økt sirkulerende angiotensin II, sympatisk overaktivitet og atriell remodellering. En rottestudie antyder at aliskiren kan dempe hypoksiindusert atriell remodellering. Dette gir et plausibelt, men indirekte mekanistisk grunnlag.
 
-## Klinisk forsøk-evidens
+Ingen studier hos pasienter med pulmonal hypertensjon eller i lungekarmodeller fremgår av de innhentede titlene. Resonnementet er derfor spekulativt og bør betraktes som et forskningsspørsmål.
 
-For øyeblikket ingen relaterte kliniske forsøk registrert.
+---
 
-## Litteratur-evidens
+## Evidens fra kliniske studier
 
-Alle 20 hentede publikasjoner handler om hypoksemi-biologi generelt og **adresserer ikke spesifikt aliskiren, RAAS-hemming eller pulmonær hypertensjon**. De er oppført nedenfor for åpenhet, prioritert etter gjennomgangs-type klassifisering (ingen RCT-er ble returnert):
+Foreløpig er det ikke registrert noen relaterte kliniske studier for denne indikasjonen.
 
-| PMID | År | Type | Journal | Hovedfunn |
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | Gjennomgang | Ageing Research Reviews | Hypoksemis doble rolle i neurodegenersjon vs. potensiell neuroproteksjon ved høyfjell/i sykdom; ingen legemiddel-spesifikt innhold |
-| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | Gjennomgang | Metabolic Brain Disease | Mekanismer for kognitiv svikt under akutt vs. kronisk hypoksemi |
-| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | Gjennomgang | Journal of Cellular Biochemistry | Generell hypoksemi-mediiert biologisk kontroll (metabolisme, angiogenese, sykdom) |
-| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | Gjennomgang | Respiratory Care Clinics of North America | Mekanismer for hypoksemi (V/Q misforhold, shunt, hypoventilasjon) — generell respiratorisk fysiologi |
-| [34535359](https://pubmed.ncbi.nlm.nih.gov/34535359/) | 2021 | Gjennomgang | Clinical Oncology | Terapeutisk modifisering av tumor-hypoksemi (radioterap-resistans-sammenheng) |
-| [31961750](https://pubmed.ncbi.nlm.nih.gov/31961750/) | 2020 | Gjennomgang | Annual Review of Immunology | HIF-veiens rolle i medfødt immunitet/inflammasjon |
-| [28219680](https://pubmed.ncbi.nlm.nih.gov/28219680/) | 2017 | Gjennomgang | Experimental Cell Research | Transkripsjons-undertrykkings-mekanismer under hypoksemi (HIF-regulering) |
-| [40347693](https://pubmed.ncbi.nlm.nih.gov/40347693/) | 2025 | Gjennomgang | Redox Biology | Hypoksemis rolle i multippel sklerose-patologi |
-| [27146279](https://pubmed.ncbi.nlm.nih.gov/27146279/) | 2017 | Gjennomgang | Cephalalgia | Hypoksemi-mekanismer i primære hodepine-lidelser |
-| [36100192](https://pubmed.ncbi.nlm.nih.gov/36100192/) | 2022 | Gjennomgang | Journal of Controlled Release | Tumor hypoksemi-assosiert nanomedisinn-strategier |
+| [32982180](https://pubmed.ncbi.nlm.nih.gov/32982180/) | 2020 | Preklinisk (rotte) | Drug Des Devel Ther | Potensiell effekt av aliskiren på atriell remodellering utløst av kronisk intermitterende hypoksi hos rotter |
+| [29645283](https://pubmed.ncbi.nlm.nih.gov/29645283/) | 2018 | Preklinisk (rotte) | J Physiol | Sympatisk aktivering etter intermitterende hypoksi formidles av sirkulerende angiotensin II via karotislegemet og subfornikalorganet |
+| [39133776](https://pubmed.ncbi.nlm.nih.gov/39133776/) | 2024 | Preklinisk (in vitro) | Am J Physiol Regul Integr Comp Physiol | Spontan og fremkalt angiotensin II-aktivitet i lamina terminalis; indirekte relevans |
+| [26502369](https://pubmed.ncbi.nlm.nih.gov/26502369/) | 2016 | Preklinisk/mekanistisk | Transplantation | Kalsineurinhemmere oppregulerer lokal renin i nyrens samlerør; tangential relevans |
 
-*10 av 20 postinger vist (prioritert etter Gjennomgang-klassifisering); de gjenstående 10 er lavere-kategori/ukategorisert ("ventende") postinger om urelatert hypoksemi-tematikk (f.eks. kreft HIF-signalering, cerebral anoksi-caseberetninger) og legger til ingen ytterligere relevans.*
+---
 
-## Markedsinformasjon Norge
+## Markedsinformasjon for Norge
 
-Aliskiren har for øyeblikket **ingen markedsføringstillatelse i Norge** (status: Ikke markedsført; 0 lisenser på fil). Ingen produkt, doseringsform eller godkjent-indikasjon-data er tilgjengelig fra norske regulatoriske poster.
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000780 | Rasilez (status: opphevet) | Ikke oppgitt | Hypertensjon |
 
-## Sikkerhetshensyn
+---
 
-Se pakningsvedlegget for sikkerhetsinformasjon. Merk at evidenspakken flagger TFDA/merkat-ekvivalente advarsler og kontraindikasjoner som en **blokkerings**-datakløft (DG001) — dette forhindrer kandidaten fra å gå inn i S1 sikkerhetsvurderingsstadiet, uavhengig av effektivitets-evidensen diskutert ovenfor.
+## Sikkerhetsvurderinger
 
-## Konklusjon og neste trinn
+**Kontraindikasjoner fra kunnskapsgraf (ikke preparattekst):** TxGNN-kunnskapsgrafen (PrimeKG) knytter aliskiren til blant annet følgende tilstander:
+- Lever: leversvikt, leversykdom, hepatisk koma og encefalopati, nyfødtgulsott
+- Hevelse: angioødem (inkl. arvelig, ervervet og RAAS-blokkerindusert)
+- Stoffskifte: diabetes mellitus, diabetisk ketoacidose, kaliummangel, hyperurikemi, urinsyregikt, hyperkalsemi, nefrokalsinose, forstyrrelser i fosformetabolismen, hyperparatyreoidisme
+- Nyrer: anuri, nedsatt nyrefunksjon, nyrearterieobstruksjon
+- Blod og sirkulasjon: nøytropeni, agranulocytose, hypotensjon
+- Andre: pankreatitt, gallblæresykdom, systemisk lupus erythematosus (inkl. pediatrisk)
 
-**Avgjørelse: Avvent**
+**Legemiddelinteraksjoner:** 100 interaksjoner er registrert, alle av moderat alvorlighetsgrad blant de viste. Eksempler:
+- Kortikosteroider: hydrokortison, deksametason, prednisolon, prednison, betametason, budesonid
+- SGLT2-hemmere: kanagliflozin, dapagliflozin, empagliflozin, ertugliflozin
+- Kaliumpreparater: kaliumklorid, -bikarbonat, -citrat, -glukonat
+- Soppmidler/antibiotika: klaritromycin, mikonazol, klotrimazol
+- Andre: acetylsalisylsyre, aprepitant, eliglustat
+
+**Merknad:** I forbindelse med studiene av aliskiren ved diabetes (ALTITUDE) er det rapportert økt risiko for hypotensjon og iskemisk hjerneslag ved kombinasjon med ACE-hemmer/ARB. Se preparatomtalen for øvrig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-TxGNN-scoren er høy, men støtte-evidensen er L5 (kun modellprognose) — det er ingen kliniske forsøk og ingen litteratur som faktisk studerer aliskiren, RAAS-hemming eller pulmonær hypertensjon. Kombinert med en blokkerings-datakløft på sikkerhet/merkat-data og fravær av markedstilstedeværelse i Norge, er det ingen grunnlag for å fremme denne indikasjon-paringen utover hypotetisk fase.
+Prediksjonen har høy modellscore, men støttes bare av indirekte, prekliniske data. Det finnes ingen kliniske studier eller pasientdata ved pulmonal hypertensjon, og godkjenningen i Norge er opphevet.
 
-**For å gå videre, er følgende nødvendig:**
-- TFDA-ekvivalent pakningsvedlegg-data (advarsler, kontraindikasjoner) for å rydde blokkerings-datakløften (DG001) og tillate inngang til S1 sikkerhetsvurderingsstadiet
-- Detaljert virkningsmekanisme-dokumentasjon (DG002) for å substansiere RAAS–hypoksemi–pulmonær vaskulær remodellering-rasjonalet
-- Aliskiren- eller RAAS-hemmer-spesifikke pre-kliniske eller kliniske studier i pulmonær hypertensjon (ingen eksisterer for øyeblikket i den hentede litteraturen)
-- Til kontekst: evidenspakken lister også 6 andre forutsatt indikasjon for aliskiren med vesentlig ulik evidens-profiler — spesielt "cerebrovaskulær lidelse" (L2, inkluderer ALTITUDE-forsøk post-hoc data), selv om denne evidensen viser en *økt* risiko for slag/hypotensjon med aliskiren + ACEI/ARB kombinasjons-terapi snarere enn fordel, og bør gjennomgås som et sikkerhet-signal, ikke en ombruk-mulighet, før noen videre handling på dette legemidlet
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datagap for sikkerhetsscreening)
+- Prekliniske studier i lungekarmodeller for pulmonal hypertensjon
+- Vurdering av risiko (hypotensjon, hyperkalemi, nyrefunksjon, interaksjon med ACE-hemmere/ARB) hos aktuelle pasientgrupper
 
+---
+
+## Andre predikerte indikasjoner (til orientering)
+
+| Predikert indikasjon | TxGNN-score | Evidensnivå | Anbefaling |
+|------|------|------|------|
+| Pulmonal hypertensjon med uklar multifaktoriell mekanisme | 99,98 % | L5 | Hold |
+| Malign hypertensiv nyresykdom | 99,98 % | L5 | Hold |
+| Malign renovaskulær hypertensjon | 99,98 % | L4 | Forskningsspørsmål |
+| Braddock syndrom | 99,97 % | L5 | Hold |
+| Kronisk pulmonal hjertesykdom | 99,78 % | L4 | Hold |
+| Cerebrovaskulær sykdom | 99,19 % | L3 | Forskningsspørsmål (én avsluttet fase 2/3-studie, [NCT01417104](https://clinicaltrials.gov/study/NCT01417104), n=71, plakkprogresjon ved aterosklerose; flere prekliniske slagstudier) |
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

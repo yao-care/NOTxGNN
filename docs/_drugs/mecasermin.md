@@ -2,7 +2,7 @@
 layout: default
 title: Mecasermin
 parent: Kun modellprediksjon (L5)
-nav_order: 223
+nav_order: 259
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,62 +29,91 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Mecasermin: Fra uspesifisert original indikasjon til Monisomi X
+# Mecasermin: Fra Laron syndrom til monosomi X
 
-## Sammendrag på én setning
+## Sammendrag i én setning
 
-> Den opprinnelige godkjente indikasjonen for Mecasermin er ikke dokumentert i den tilgjengelige regulatoriske datakilde, og virkningsmekanisme-data mangler for øyeblikket.
-> TxGNN-modellens høyest rangerte prediksjon er **Monisomi X**, men dette signalet støttes av **0 kliniske forsøk** og **0 publikasjoner**, og det underliggende rasjonalet er en indirekte analogi i stedet for en validert mekanistisk kobling.
+Mecasermin er rekombinant IGF-1 (insulinlignende vekstfaktor 1), opprinnelig godkjent for behandling av Laron syndrom (vekstveksthormon-insensitivitet).
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **monosomi X** (Turner syndrom), men dette er **kun en modellprediksjon**: de innsamlede dataene inneholder **ingen kliniske studier** og **ingen publikasjoner** som støtter indikasjonen.
 
-## Rask oversikt
+---
 
-| Element | Innhold |
-|---------|---------|
-| Original indikasjon | Ikke dokumentert i gjeldende datakilde |
-| Forutsagt ny indikasjon | Monisomi X |
-| TxGNN prediktjonsscore | 99.59% |
+## Hurtigoversikt
+
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Laron syndrom |
+| Predikert ny indikasjon | Monosomi X |
+| TxGNN-prediksjonsscore | 99,59 % |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvente |
+| Markedsstatus i Norge | Kun kansellerte godkjenninger |
+| Antall godkjenninger | 1 (0 gyldige, 1 kansellert) |
+| Anbefalt beslutning | Hold |
+
+---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljerte virkningsmekanisme-data for Mecasermin ikke tilgjengelige, og ingen original indikasjon er registrert i den gjeldende datakilde. Dette er flagget som et **blokkerende datahull** (manglende TFDA/pakningsvedleggsadvarsler og kontraindikasjoner) og et **kritisk datahull** (manglende virkningsmekanisme), som begge begrenser enhver sikker mekanistisk vurdering.
+Det finnes for tiden ingen detaljerte data om virkningsmekanisme i de innsamlede dataene. Mecasermin er imidlertid rekombinant IGF-1, som virker nedstrøms for veksthormon (GH). Effekten ved Laron syndrom, der kroppen ikke responderer på veksthormon, er etablert.
 
-For den høyest rangerte prediksjonen, Monisomi X (vanligvis assosiert med Turners syndrom), sier modellens eget rasjonale at denne tilstanden ofte ledsages av delvis GH/IGF-1-akseinsufficiens og vekstforsinkelse, så IGF-1-tilskudd kan teoretisk tilby vekstfordel. Imidlertid er dette eksplisitt notert som en **indirekte analogi** — Turners syndrom håndteres konvensjonelt med veksthormon (GH), ikke mecasermin (rekombinant IGF-1), og det er ingen direkte mekanistisk bevisrekke som kobler mecasermin spesifikt til denne tilstanden. Prediksjonen bør behandles som et graf-avledet signal i stedet for en understøttet hypotese.
+Monosomi X (Turner syndrom) kjennetegnes blant annet av kortvoksthet, og standardbehandlingen er veksthormon. En IGF-1-begrunnelse er derfor biologisk plausibel. Pasienter med Turner syndrom har imidlertid vanligvis intakt GH–IGF-1-signalering, så det er uklart om erstatning med IGF-1 gir noen fordel fremfor veksthormon. Den høye scoren (0,996) er ikke støttet av kliniske data.
 
-Bemerkelsesverdig er en lavere-rangert kandidat i denne evidenspakken — **veksthormoninsensitivitetssyndrom med immunologisk dysfunksjon 2, autosomalt dominant** (rang 3, score 99.06%) — som har et betydelig sterkere mekanistisk grunnlag: det faller innenfor familien av GH-insensitivitetssyndrom/Laron-type-syndrom, som er det farmakologiske området mecasermin (rhIGF-1) er designet for å adressere ved å omgå en defekt GH-reseptor-vei. Denne kandidaten har allerede avansert til beslutningsstadium **S1 (Forskningsspørsmål)**, versus S0 (Avvente) for Monisomi X, og kan være verdt nærmere gjennomgang til tross for dens lavere TxGNN-score.
+### Øvrige predikerte indikasjoner (alle L5, Hold)
 
-## Evidens fra kliniske forsøk
+| Rang | Sykdom | Score | Vurdering |
+|------|------|------|------|
+| 2 | Wolmans sykdom med hypolipoproteinemi og akantocytose | 99,09 % | Ingen klar mekanistisk kobling; scoren gjenspeiler trolig nettverksassosiasjoner |
+| 3 | Veksthormoninsensitivitetssyndrom med immundysregulering 2, autosomalt dominant | 99,06 % | Mest biologisk plausibel av de fem; IGF-1 kan adressere vekstsvikt, men ikke den immunologiske komponenten. Best egnet for målrettet litteratur- og kasuistikksøk |
+| 4 | Øsofagusvaricer med blødning | 99,03 % | Ingen etablert kobling; IGF-1s mitogene og væskeretinerende effekter gir ekstra sikkerhetsbekymring ved portal hypertensjon |
+| 5 | Øsofagusvaricer uten blødning | 99,03 % | Identisk score som rang 4, noe som tyder på duplikat i prediksjonsgrafen |
 
-For øyeblikket ingen relaterte kliniske forsøk registrert
+---
 
-## Litteraturbevis
+## Klinisk studiedokumentasjon
 
-For øyeblikket ingen relatert litteratur tilgjengelig
+Det er for tiden ingen relaterte kliniske studier registrert.
 
-## Markedsinformasjon for Norge
+---
 
-Mecasermin har for øyeblikket **ingen markedsføringstillatelser i Norge** (totalt antall lisenser: 0; markedsstatus: Ikke markedsført). Ingen produkt-, doseringsformal- eller godkjent indikasjonsinformasjon er tilgjengelig i den gjeldende datakilde.
+## Litteraturdokumentasjon
+
+Det er for tiden ingen relatert litteratur tilgjengelig.
+
+---
+
+## Informasjon om det norske markedet
+
+| Godkjenningsnummer | Produktnavn | Doseform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000704 | Increlex | – | Laron syndrom (status: kansellert) |
+
+---
 
 ## Sikkerhetshensyn
 
-Vær vennlig og se pakningsvedlegget for sikkerhetsinformasjon. (Pakningsvedleggsadvarsler, kontraindikasjoner og stoff-stoff-interaksjondata er for øyeblikket utilgjengelige og er flagget som et blokkerende datahull som krever henting av TFDA-etikett før noen sikkerhetsstadium-evaluering kan fortsette.)
+**Legemiddelinteraksjoner:** Det er funnet 24 interaksjoner, alle klassifisert som **moderate**. De omfatter hovedsakelig blodsukkersenkende legemidler, der risikoen er additiv hypoglykemi (IGF-1 har insulinlignende effekt):
 
-## Konklusjon og neste trinn
+- **Sulfonylurea:** klorpropamid, acetoheksamid, glimepirid, glipizid, glyburid
+- **Glinider:** nateglinid
+- **Insuliner:** humant insulin (vanlig, isofan, sink, forlenget sink, inhalasjon), insulin aspart (inkl. protamin), degludec, detemir, glargin, glulisin, lispro (inkl. protamin)
 
-**Beslutning: Avvente**
+Pakningsvedlegget bør konsulteres for øvrig sikkerhetsinformasjon, inkludert advarsler og kontraindikasjoner.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den høyest rangerte forutsatte indikasjonen (Monisomi X) har kun evidensnivå L5 (kun modellprediksjon, ingen kliniske forsøk eller litteratur) og er basert på en indirekte mekanistisk analogi i stedet for en validert vei. Kombinert med fraværet av markedsføringstillatelse i Norge og et blokkerende hull i pakningsvedleggssikkerhetsdata, er det for øyeblikket utilstrekkelig grunnlag for å avansere ut over foreløpig forskning.
+Prediksjonen er kun modellbasert (evidensnivå L5) uten kliniske studier eller publikasjoner. Mekanismen ved Turner syndrom er plausibel, men fordelen sammenlignet med standard veksthormonbehandling er uklar. I tillegg er den eneste norske godkjenningen kansellert.
 
-**For å fortsette, er følgende nødvendig:**
-- TFDA/pakningsvedleggsadvarsler og kontraindikasjoner (blokkerende hull, DG001)
-- Bekreftet virkningsmekanisme-dokumentasjon fra DrugBank eller tilsvarende kilde (DG002)
-- Dokumentasjon av Mecasermin's opprinnelige godkjente indikasjon(er)
-- Målrettet litteratur-/klinisk forsøkssøk for den mekanistisk sterkere kandidaten (veksthormoninsensitivitetssyndrom med immunologisk dysfunksjon 2, autosomalt dominant), gitt dens tettere sammenheng med Mecasermin's kjente farmakologi
-
+**For å gå videre kreves følgende:**
+- Systematisk litteratur- og kasuistikksøk, særlig for veksthormoninsensitivitet med immundysregulering (rang 3) og for Turner syndrom
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Pakningsvedlegg med advarsler og kontraindikasjoner for sikkerhetsscreening
+- Avklaring av hvorfor godkjenningen i Norge er kansellert, og av tilgjengelige administrasjonsveier
+- Vurdering av nytte kontra veksthormon ved Turner syndrom, samt overvåkingsplan for hypoglykemi
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

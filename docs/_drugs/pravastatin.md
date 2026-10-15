@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pravastatin
-parent: Kun modellprediksjon (L5)
-nav_order: 288
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 336
+evidence_level: L4
 indication_count: 9
 ---
 
 # Pravastatin
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,98 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Pravastatin: Fra hyperkolesterolemi til homozygot familiær hyperkolesterolemi
+# Pravastatin: Fra dyslipidemi til homozygot familiær hyperkolesterolemi
 
-## Sammendrag på én setning
+## Enkeltsetningsoppsummering
 
-> Pravastatin er en HMG-CoA reduktasehemmer (statin) etablert for behandling av hyperkolesterolemi og reduksjon av kardiovaskulær risiko.
-> TxGNN-modellen forutsier at den kan være effektiv for **Homozygot familiær hyperkolesterolemi (HoFH)**,
-> men den støttende evidensen — **1 klinisk studie** (som ikke tester pravastatin selv) og **13 publikasjoner** (hovedsakelig om andre statiner eller generell FH-kontekst) — er indirekte og etablerer ennå ikke effektiviteten av pravastatin alene i denne populasjonen.
+Pravastatin er en HMG-CoA-reduktasehemmer (statin) som opprinnelig brukes til behandling av dyslipidemi.
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **homozygot familiær hyperkolesterolemi**,
+men de innsamlede dataene inneholder **1 klinisk studie** (med alirokumab, ikke pravastatin) og kun generelle oversiktsartikler, så direkte evidens for pravastatin er svært begrenset.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|------|---------|
-| Original indikasjon | Ikke dokumentert i denne Evidence Pack (`taiwan_regulatory.licenses` er tom); pravastatin er generelt indisert for hyperkolesterolemi/dyslipidemi |
-| Forutsagt ny indikasjon | Homozygot familiær hyperkolesterolemi (HoFH) |
-| TxGNN-prediksjonspoeng | 99.95% |
-| Evidensnivå | L3 (kun indirekte/observasjonsdata; ingen direkte RCT av pravastatin ved HoFH) |
-| Markedsstatus i Norge | Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Dyslipidemi |
+| Predikert ny indikasjon | Homozygot familiær hyperkolesterolemi |
+| TxGNN-prediksjonsscore | 99,95 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun tilbakekalte/avsluttede godkjenninger (ingen gyldig markedsføringstillatelse) |
+| Antall godkjenninger | 1 (0 gyldige, 1 kansellert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Foreløpig mangler detaljerte data om virkningsmåten i denne Evidence Pack (flagget som et datakløft med høy alvorlighetsgrad, DG002). Basert på generell farmakologisk kunnskap er pravastatin en HMG-CoA reduktasehemmer som senker hepatisk kolesterolsyntese og brukes til å håndtere hyperkolesterolemi og redusere kardiovaskulær risiko.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Basert på kjent informasjon hemmer pravastatin HMG-CoA-reduktase og oppregulerer LDL-reseptorer i leveren. Dette er grunnlaget for effekten ved dyslipidemi.
 
-HoFH karakteriseres ved nesten fullstendig mangel på funksjonelle LDL-reseptorer, noe som er mekanistisk den veien statiner først og fremst er avhengige av for å senke LDL-C. Dette reiser et viktig forbehold: som nevnt i rasjonaliteten for ombruk, har statiner **begrenset ensidig effektivitet** ved HoFH og brukes vanligvis bare som bakgrunns-/tilleggsterapi sammen med PCSK9-hemmere, ezetimib eller LDL-aferese — ikke som monoterapi.
+Ved homozygot familiær hyperkolesterolemi er det alvorlig mangel på LDL-reseptorfunksjon (null- eller defekte alleler). Statineffekten er derfor begrenset av gjenværende reseptorfunksjon. Mekanismen er biologisk plausibel, men bare delvis effektiv, og pravastatin er en svak statin for denne pasientgruppen. En av de innsamlede oversiktsartiklene (Prescrire, 2004) uttaler også at statiner ikke er særlig effektive ved homozygot familiær hyperkolesterolemi.
 
-Den eneste kliniske studien som er identifisert (NCT03510715) tester faktisk alirocumab, ikke pravastatin, ved pediatrisk HoFH, og er gradert "C" relevans — nyttig bare som sykdomsbakgrunnskontekst. Litteraturgrunnlaget er tilsvarende indirekte, bestående hovedsakelig av oversikter/retningslinjer om andre statiner (rosuvastatin, atorvastatin), ezetimib og generelle statin-i-FH systematiske oversikter, snarere enn pravastatin-spesifikke HoFH-data. Prediksjonen er derfor mekanistisk plausibel som tilleggsterapi, men ikke godt støttet som et primærterapisignal.
+Øvrige predikerte indikasjoner viser et lignende bilde. For **HIV-infeksjon** (rangert som nr. 2) finnes en rekke studier, men koblingen er indirekte: pravastatin behandler proteasehemmer-assosiert dyslipidemi og kan redusere kardiovaskulær risiko hos personer med HIV, ikke selve virusinfeksjonen. For **heterozygot familiær hyperkolesterolemi** er indikasjonen i praksis den samme som den opprinnelige, så dette er ikke reell repurposing. De øvrige prediksjonene (blant annet en sjelden nevroutviklingsforstyrrelse, simian og felin immunsvikt, CETP-mangel og CYP7A1-mangel) mangler klinisk evidens og er rene nettverksbaserte prediksjoner.
 
 ---
 
-## Klinisk studie-evidens
+## Klinisk studieevidens
 
-| Studienummer | Fase | Status | Inklusjon | Viktige funn |
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Fase 3 | Fullført | 18 | Evaluerte alirocumab (ikke pravastatin) hos barn/ungdom med HoFH på toppen av bakgrunns lipidsenkende terapi; relevant bare som HoFH-populasjon/bakgrunnsbehandlingskontekst, ikke direkte evidens for pravastatin. |
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Fase 3 | Fullført | 18 | Åpen studie av alirokumab (PCSK9-hemmer) hos barn og ungdom (8–17 år) med homozygot familiær hyperkolesterolemi. Pravastatin er ikke studielegemidlet og er i beste fall bakgrunnsbehandling. |
+
+Studien gir ingen direkte evidens for pravastatin.
 
 ---
 
-## Litteratur-evidens
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Systematisk oversikt | Cochrane Database Syst Rev | Statiner (inkludert pravastatin) hos barn med FH; dekker stort sett heterozygot FH, noterer HoFH som den alvorlige enden av spekteret. |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Klinisk retningslinje | Endocr Pract | AACE/ACE dyslipidemi-styringsretningslinje; statiner er posisjonert som grunnleggende terapi på tvers av FH-alvorlighetsgrad. |
-| [28685504](https://pubmed.ncbi.nlm.nih.gov/28685504/) | 2017 | Systematisk oversikt | Cochrane Database Syst Rev | Tidligere versjon av statiner-i-FH-barn Cochrane-oversikten. |
-| [31358055](https://pubmed.ncbi.nlm.nih.gov/31358055/) | 2019 | Preklinisk | Stem Cell Res Ther | iPSC-avledet LDLR-manglende hepatocytt-modell for FH; støtter sykdomsmekanisme, ikke direkte pravastatin-effektivitet. |
-| [15531000](https://pubmed.ncbi.nlm.nih.gov/15531000/) | 2004 | Oversikt | Clin Ther | Rosuvastatin-oversikt som noterer HoFH som en behandlingsindikasjon for statiner som klasse. |
-| [12269853](https://pubmed.ncbi.nlm.nih.gov/12269853/) | 2002 | Oversikt | Drugs | Rosuvastatin-oversikt; rapporterer at rosuvastatin utkonkurrerte pravastatin på lipidprofil i komparative studier. |
-| [9793596](https://pubmed.ncbi.nlm.nih.gov/9793596/) | 1998 | Oversikt | Ann Pharmacother | Atorvastatin-oversikt (sammenlignende statin, ikke pravastatin-spesifikk). |
-| [14727947](https://pubmed.ncbi.nlm.nih.gov/14727947/) | 2003 | Oversikt | Am J Cardiovasc Drugs | Ezetimib-oversikt; relevant som en vanlig kombinasjonspartner med statiner ved alvorlig FH. |
+| [28685504](https://pubmed.ncbi.nlm.nih.gov/28685504/) | 2017 | Oversikt (Cochrane) | Cochrane Database Syst Rev | Statiner hos barn med familiær hyperkolesterolemi; omfatter også homozygote tilfeller |
+| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Oversikt (Cochrane) | Cochrane Database Syst Rev | Oppdatert Cochrane-oversikt om statiner hos barn med familiær hyperkolesterolemi |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Retningslinje | Endocr Pract | AACE/ACE-retningslinjer for behandling av dyslipidemi og forebygging av hjerte- og karsykdom |
+| [15532136](https://pubmed.ncbi.nlm.nih.gov/15532136/) | 2004 | Kommentar/oversikt | Prescrire Int | Statiner er lite effektive ved homozygot familiær hyperkolesterolemi |
+| [12269853](https://pubmed.ncbi.nlm.nih.gov/12269853/) | 2002 | Oversikt | Drugs | Rosuvastatin var overlegent atorvastatin, simvastatin og pravastatin for lipidprofilen |
+| [15531000](https://pubmed.ncbi.nlm.nih.gov/15531000/) | 2004 | Oversikt | Clin Ther | Rosuvastatin ved hyperlipidemi, inkludert homozygot familiær hyperkolesterolemi |
+| [14727947](https://pubmed.ncbi.nlm.nih.gov/14727947/) | 2003 | Oversikt | Am J Cardiovasc Drugs | Ezetimib som kolesterolabsorpsjonshemmer |
+| [31358055](https://pubmed.ncbi.nlm.nih.gov/31358055/) | 2019 | Prekliniske | Stem Cell Res Ther | LDLR-defekte hepatocytter fra iPS-celler som modell for familiær hyperkolesterolemi |
+
+Ingen av publikasjonene er randomiserte studier som direkte viser effekt av pravastatin ved homozygot familiær hyperkolesterolemi.
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Ingen markedsføringstillatelser for pravastatin ble funnet i det norske registeret — konsistent med den rapporterte «Ikke markedsført»-statusen og 0 totale lisenser i denne Evidence Pack.
+| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/001243 | Pravafenix | Ikke oppgitt | Dyslipidemi (status: kansellert) |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og DDI-data er alle merket som kløfter i denne Evidence Pack; DG001 flagger det manglende TFDA-merket som et blokkerende kløft som hindrer en fullstendig S1-sikkerhets-forvurdering.)
+Data fra pakningsvedlegg om advarsler og kontraindikasjoner mangler, og må innhentes før sikkerhetsvurdering kan gjennomføres. Se pakningsvedlegget for sikkerhetsinformasjon.
+
+- **Kontraindikasjoner fra kunnskapsgraf (PrimeKG, ikke preparattekst)**: Grafen knytter pravastatin til blant annet nyresykdom, leversykdom, galleblæresykdom, myopati og andre muskelsykdommer, rabdomyolyse, trombocytopeni, magesår, urinsyregikt, hyperparathyreoidisme, hyperkalsemi, nefrolitiasis, sarkoidose, hypotensjon, hemofili, anemi, diaré og rusmiddelmisbruk/avhengighet. Disse bør tolkes som signaler, ikke som bekreftede kontraindikasjoner.
+- **Legemiddelinteraksjoner**: Totalt 100 interaksjoner er registrert; de første 20 er gjennomgått. Moderate interaksjoner gjelder metronidazol, klaritromycin, eluxadolin, naltrekson, pektin, rosuvastatin, simvastatin og tinidazol. Øvrige (blant annet kalsitriol, akarbose, sukralfat, vankomycin, prednison og nateglinid) har ukjent alvorlighetsgrad.
+- **Interaksjoner med antiretrovirale midler**: Studiene i dataene viser at darunavir/ritonavir øker eksponeringen for pravastatin, noe som er relevant ved eventuell bruk hos personer med HIV.
 
 ---
 
-## Konklusjon og neste skritt
+## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-- Evidensen for pravastatin spesifikt ved HoFH er indirekte (den eneste studien tester et annet legemiddel, alirocumab) og den mekanistiske rasjonaliteten selv peker på begrenset ensidig effektivitet ved HoFH på grunn av nesten fraværende LDL-reseptorfunksjon. Kombinert med et blokkerende datakløft på TFDA-merket sikkerhetsinformasjon (DG001), er kandidaten ikke klar til å gå videre.
+TxGNN-scoren er høy, men evidensen for pravastatin ved homozygot familiær hyperkolesterolemi er svak (L4): den eneste kliniske studien gjelder et annet legemiddel, mekanismen er bare delvis effektiv, og litteraturen anbefaler ikke statiner som hovedbehandling ved denne tilstanden. I tillegg finnes ingen gyldig markedsføringstillatelse i Norge, og sikkerhetsdata fra pakningsvedlegg mangler.
 
-**For å gå videre, kreves følgende:**
-- TFDA-merke PDF (advarsler/kontraindikasjoner) for å fjerne det blokkerende kløftet (DG001) og muliggjøre S1-sikkerhetsvurdering
-- DrugBank MOA-data for å bekrefte mekanistisk rasjonalitet (DG002)
-- Direkte klinisk evidens på pravastatin (alene eller som bakgrunnssterapi) spesifikt hos bekreftet HoFH-pasienter
-- Avklaring av tiltenkt brukstilfelle: tilleggsterapi/bakgrunnssterapi sammen med PCSK9i/ezetimib/aferese, snarere enn monoterapi-posisjonering
-
+**For å gå videre kreves følgende:**
+- Innhente og analysere pakningsvedlegg (advarsler og kontraindikasjoner), som er en blokkerende datamangel
+- Innhente detaljerte data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Søke etter direkte kliniske data for pravastatin ved homozygot familiær hyperkolesterolemi, og vurdere sammenligning med mer potente statiner og PCSK9-hemmere
+- Vurdere HIV-assosiert dyslipidemi og kardiovaskulær risiko som et mer evidensbasert alternativ (Research Question), med tanke på interaksjoner med antiretrovirale midler
+- Avklare regulatorisk status i Norge, siden den eneste godkjenningen er kansellert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

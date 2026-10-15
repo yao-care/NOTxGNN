@@ -2,7 +2,7 @@
 layout: default
 title: Diflunisal
 parent: Kun modellprediksjon (L5)
-nav_order: 109
+nav_order: 127
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,85 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Diflunisal: Fra NSAID-antiinflammatorisk smertestillende middel til ankylosing spondylitt (Ankylosing Spondylitis)
+# Diflunisal: Fra familiær amyloid nevropati til ankyloserende spondylitt
 
-> **Utvalgsforklaring**: De høyeste TxGNN-scoringene i Evidence Pack, kandidatene rangert 1–4 og 6–9 (som acromesomelic dysplasia, brachyolmia osv.), er alle ekstremt sjeldne genetiske bein-/strukturelle sykdommer, og hver enkelt `repurposing_rationale` angir allerede tydelig at mekanismen ikke holder stikk, det finnes ingen klinisk evidens, dette er støy i kunnskapsgrafen (L5/S0/Hold). Denne rapporten fokuserer på den eneste kandidaten med vesentlig litteraturbevis — **ankylosing spondylitt** — som hovedevalueringsobjekt (rangering 10, inflammatory spondylopathy, tilhører samme sykdomsspektrum, beviser overlapper, forklares sammen).
+## Oppsummering i én setning
 
-## Én-setnings sammendrag
+Diflunisal er et ikke-steroid antiinflammatorisk legemiddel (NSAID) som også stabiliserer transthyretin, og som opprinnelig er godkjent for familiær amyloid nevropati.
+TxGNN-modellen forutsier at det kan ha effekt ved flere sykdommer. Den best underbygde kandidaten er **ankyloserende spondylitt**, med **0 kliniske studier** og **7 publikasjoner**, hvorav kun én er en diflunisal-spesifikk klinisk sammenligning (1986).
 
-Diflunisal sin opprinnelig godkjent indikasjon mangler taiwansk regulatorisk dokumentasjon i denne Evidence Pack (ingen tillatelser registrert i `taiwan_regulatory.licenses`). TxGNN-modellen forutsier at det kan være effektivt for **ankylosing spondylitt**, men litteraturgjennomgangen viser at denne sammenhengen **ikke er nytt legemiddelrepurposing**, men heller eksisterende klinisk bruk innenfor NSAID-medikasjonsklassen; for tiden finnes det **0 kliniske forsøk**, **7 relaterte litteraturkilder** (hvorav kun 3 er direkte studier av diflunisal, 1 er RCT) som støtter denne retningen.
+## Hurtigoversikt
 
-## Rask oversikt
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Familiær amyloid nevropati (Amyloid Neuropathies, Familial) |
+| Predikert ny indikasjon | Acromesomelic dysplasia, Hunter-Thompson type (rangert som nr. 1 av modellen; svært svakt underbygd). Den best underbygde kandidaten er ankyloserende spondylitt |
+| TxGNN-prediksjonsscore | 99,99 % (rang 1); ankyloserende spondylitt: 99,98 % |
+| Evidensnivå | L5 for rang 1; L3 for ankyloserende spondylitt |
+| Status i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Antall tillatelser | 1 (avregistrert) |
+| Anbefalt beslutning | Hold (for rang 1). Ankyloserende spondylitt: forskningsspørsmål, ikke klar for videre utvikling |
 
-| Emne | Innhold |
-|------|---------|
-| Original indikasjon | Datakluft (`taiwan_regulatory.licenses` er tom, ingen godkjent indikasjon kan fastslås) |
-| Forutsagt ny indikasjon | Ankylosing Spondylitis (ankylosing spondylitt) |
-| TxGNN forutsigelsesscore | 99.98% (rangering 373) |
-| Evidensnivå | L2 (1 fullført RCT av fase 2/3 nivå, 1986) |
-| Taiwansk markedsstatus | Ikke markedsført |
-| Antall lisenser | 0 |
-| Anbefalt beslutning | **Hold** |
+## Hvorfor er denne prediksjonen rimelig?
 
-## Hvorfor denne forutsigelsen er rimelig
+Data om virkningsmekanisme (MOA) er for øyeblikket ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon er diflunisal et salisylsyrederivat og NSAID som hemmer COX-1 og COX-2, og det virker også som transthyretin-stabilisator. Den siste egenskapen ligger bak den opprinnelige indikasjonen ved familiær amyloid nevropati.
 
-Det finnes for tiden ingen detaljerte mekanisme-data fra DrugBank (`original_moa` er datakluft). Basert på eksisterende litteratur og `repurposing_rationale`-beskrivelser av samme kandidater, tilhører diflunisal NSAID-familien (ikke-steroide antiinflammatoriske legemidler), et salicylsyrederivat, antatt mekanisme konsistent med samme klasse NSAID: hemmer syklooksygenase (COX-1/COX-2), reduserer prostaglandinsyntese, oppnår antiinflammatorisk og smertestillende effekt.
+For toppranket sykdom, acromesomelic dysplasia av Hunter-Thompson-typen, finnes det ingen plausibel mekanistisk kobling. Dette er en genetisk skjelettdysplasi (CDMP1/GDF5-veien), og verken COX-hemming eller transthyretin-stabilisering adresserer sykdomsbiologien. Den høye scoren er en ren grafbasert prediksjon uten kliniske eller litteraturbaserte holdepunkter. Det samme gjelder flere andre rangerte sykdommer (brachyolmia, brachyolmia-amelogenesis imperfecta-syndrom, colobomatøs mikroftalmi-rhizomel dysplasi-syndrom og myosklerose).
 
-Ankylosing spondylitt er en inflammatorisk sykdom som påvirker wirvelsøylen og andre ledd. NSAID er en av **standardbehandlingsmedikamentklassene** for denne tilstanden. Med andre ord er forholdet funnet av TxGNN i hovedsak en gjenbekreftelse av allerede etablert NSAID-farmakologi og eksisterende klinisk bruk, **ikke en oppdagelse av helt nye repurposing-muligheter** — dette punktum er allerede tydelig merket i Evidence Pack `repurposing_rationale` ("tilhører eksisterende klinisk bruk av legemiddel (ikke nytt repurposing)").
+Ankyloserende spondylitt (rang 5) er biologisk plausibel. NSAID er førstelinjebehandling mot symptomer, og diflunisal tilhører en etablert legemiddelklasse. Den eneste diflunisal-spesifikke kliniske evidensen er en dobbeltblind, randomisert 12-ukers studie fra 1986 (38 mannlige pasienter) som sammenlignet diflunisal 500 mg to ganger daglig med fenylbutazon. Begge legemidlene bedret symptomene, og diflunisal hadde innledningsvis mer uttalt og rask smertelindrende effekt. Tilsvarende gjelder «inflammatorisk spondylopati» (rang 10), som overlapper med ankyloserende spondylitt og bygger på samme litteratur, slik at evidensen ikke bør telles to ganger.
 
-Det er verdt å merke seg at den støttende litteraturen kun inneholder 3 artikler (PMID 3524970, 4062389, 3546687) som er direkte studier av diflunisal selv hos AS-pasienter (alle fra 1985–1986 fra samme forskergruppe, prøvestørrelse ca. 33–38 personer), de øvrige 4 litteraturkildene (diclofenac, naproxen, pirprofen review) diskuterer **andre NSAID-legemidler** effektivitet ved AS, som tilhører legemiddelklasse-nivå-bevis, ikke bevis spesielt for diflunisal, tolkning bør skille disse.
+Øvrige oppføringer: «spondyloartropati, mottakelighet for» er et genetisk disposisjonsbegrep og ikke en behandlingsbar tilstand. «Hypermobilitet i halebenet» har kun et symptomatisk smertelindrende rasjonale. «Revmatoid vaskulitt» krever immunsuppresjon, og NSAID-monoterapi er ikke tilstrekkelig.
 
-## Klinisk forsøksbevis
+## Kliniske studier
 
-Det finnes for tiden ingen relaterte kliniske forsøksregistreringer (`clinical_trials` er en tom matrise).
+Foreløpig er det ingen relaterte kliniske studier registrert.
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Journal | Viktig funn |
-|------|-----|------|---------|---------|
-| [3524970](https://pubmed.ncbi.nlm.nih.gov/3524970/) | 1986 | RCT | Clinical Rheumatology | 38 mannlige AS-pasienter, 12 ukers dobbeltblindet randomisert forsøk som sammenlignet diflunisal (500mg bid) med fenylbutazon (200mg bid), begge kunne forbedre alvorlighetsgraden av AS-symptomer, diflunisal viste raskere initial smertelindring og mer fremtredende effekt, med opprettholdelse av virkning over 36 uker i åpen periode |
-| [4062389](https://pubmed.ncbi.nlm.nih.gov/4062389/) | 1985 | Kohorte | Annals of the Rheumatic Diseases | Samme kohorte av 38 AS-pasienter (behandlet med diflunisal eller fenylbutazon) fulgt i 48 uker; serum IgA-konsentrasjon var korrelert med thorakale ekspansjonsgrad og lumbal fleksjon indeks, pasienter med mer alvorlige røntgenforandringer hadde høyere IgA |
-| [3546687](https://pubmed.ncbi.nlm.nih.gov/3546687/) | 1986 | Kohorte | The Journal of Rheumatology | 33 AS-pasienter som blindet randomisert mottok diflunisal eller fenylbutazon behandling i 12 uker (utvidet til 48 uker), vurderte forholdet mellom lungefunksjon (VC), sykdomsaktivitet og NSAID-behandling |
-| [2670397](https://pubmed.ncbi.nlm.nih.gov/2670397/) | 1989 | Gjennomgang | Clinical Pharmacy | Diclofenac (ikke diflunisal) farmakologisk gjennomgang, klassifiserer som samme NSAID-klasse bevis for revmatologiske sykdommer |
-| [6772422](https://pubmed.ncbi.nlm.nih.gov/6772422/) | 1980 | Gjennomgang | Drugs | Diclofenac ved revmatologiske sykdommer (inkludert AS) farmakologi og terapeutisk bruk gjennomgang, ikke direkte bevis for diflunisal |
-| [387372](https://pubmed.ncbi.nlm.nih.gov/387372/) | 1979 | Gjennomgang | Drugs | Naproxen ved revmatologisk behandling gjennomgang, ikke direkte bevis for diflunisal |
-| [3539573](https://pubmed.ncbi.nlm.nih.gov/3539573/) | 1986 | Gjennomgang | Drugs | Pirprofen farmakodynamikk/farmakokinetikk gjennomgang, nevner som mulig alternativ behandling for AS og andre revmatologiske sykdommer, ikke direkte bevis for diflunisal |
+Tabellen gjelder ankyloserende spondylitt (rang 5). Samme litteratursett gjelder for inflammatorisk spondylopati.
 
-## Taiwansk markedsinformasjon
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [3524970](https://pubmed.ncbi.nlm.nih.gov/3524970/) | 1986 | Dobbeltblind, randomisert sammenlignende studie | Clinical Rheumatology | Diflunisal og fenylbutazon bedret symptomene ved ankyloserende spondylitt (38 menn, 12 uker pluss 36 ukers åpen forlengelse). Diflunisal hadde innledningsvis mer uttalt og rask smertelindring |
+| [3546687](https://pubmed.ncbi.nlm.nih.gov/3546687/) | 1986 | Kohort | J Rheumatol | Lungefunksjon hos pasienter med ankyloserende spondylitt behandlet med diflunisal eller fenylbutazon (33 menn); ikke legemiddelspesifikk |
+| [4062389](https://pubmed.ncbi.nlm.nih.gov/4062389/) | 1985 | Prospektiv kohort | Ann Rheum Dis | Serum-IgA korrelerte med sykdomsaktivitet hos 38 menn behandlet med fenylbutazon eller diflunisal; ikke legemiddelspesifikk |
+| [6772422](https://pubmed.ncbi.nlm.nih.gov/6772422/) | 1980 | Oversikt (annet legemiddel: diklofenak) | Drugs | Diklofenak er sammenlignbart med acetylsalisylsyre og indometacin ved revmatiske sykdommer |
+| [387372](https://pubmed.ncbi.nlm.nih.gov/387372/) | 1979 | Oversikt (annet legemiddel: naproksen) | Drugs | Naproksen er like effektivt som acetylsalisylsyre og bedre tolerert ved revmatiske sykdommer |
+| [3539573](https://pubmed.ncbi.nlm.nih.gov/3539573/) | 1986 | Oversikt (annet legemiddel: pirprofen) | Drugs | Pirprofen er et alternativ til andre NSAID ved bl.a. ankyloserende spondylitt |
+| [2670397](https://pubmed.ncbi.nlm.nih.gov/2670397/) | 1989 | Oversikt (annet legemiddel: diklofenak) | Clinical Pharmacy | Gjennomgang av farmakologi, effekt og bivirkninger for diklofenak |
 
-Diflunisal er for tiden **ikke markedsført på Taiwan** (`market_status: Not marketed`), ingen lisensregistreringer finnes (`total_licenses: 0`), og derfor kan merkenavn, doseringsform og godkjent indikasjon ikke oppgis.
+## Markedsinformasjon for Norge
 
-## Sikkerhetshensyn
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/006248 | Attrogy | Ikke oppgitt | Familiær amyloid nevropati (status: avregistrert) |
 
-Nøkkeladvarslene og kontraindikasjoner i Evidence Pack er alle merket som datakluft, medikasjonsinteraksjonsspørring gir ingen resultater (`query_status: not_found`).
+## Sikkerhetsvurderinger
 
-Vennligst se forskriving/pakningsvedlegg for sikkerhetsinformasjon.
+- **Kontraindikasjoner fra kunnskapsgrafen (ikke fra preparatomtale):** hypertensjon/hypertensiv sykdom, nyresykdom, leversykdom, galleblæresykdom, magesårssykdom (inkl. aktivt magesår), blodkoagulasjonssykdom, hjerteinfarkt, koronar trombose, hemoglobinopati, hjerte- og karsykdom, hjertesykdom og pyoureter.
+- **Legemiddelinteraksjoner:** 100 interaksjoner funnet i databasen. De 20 første er alle av moderat alvorlighetsgrad. Blant dem:
+  - Kortikosteroider: hydrokortison, deksametason, betametason, triamcinolon, budesonid
+  - Antidiabetika: metformin, klorpropamid, glimepirid og insuliner (aspart, degludec, detemir, glargin)
+  - Salisylater og aminosalisylater: acetylsalisylsyre, mesalazin, balsalazid
+  - Avføringsmidler/tarmrensing: pikosulfat, polyetylenglykol med elektrolytter, natriumsulfat
+  - Kaliumpreparater: kaliumsitrat, kaliumbikarbonat
 
-> ⚠️ Spesiell merknad: `DG001` (DMP pakningsvedlegg advarsler/kontraindikasjoner) i metadataene er merket som **Blocking**-nivå datakluft, tydelig angir «Cannot proceed to S1 safety screening», dette er hovedgrunnen til at denne saken ikke kan påbegynnes direkte.
+Se preparatomtalen for advarsler og kontraindikasjoner fra produsenten.
 
-## Konklusjon og påfølgende anbefalinger
+## Konklusjon og neste steg
 
-**Beslutning: Hold**
+**Beslutning: Hold** (for den topprangerte prediksjonen og de fleste øvrige). Ankyloserende spondylitt kan behandles som et forskningsspørsmål (evidensnivå L3).
 
-**Grunn:**
-- Selv om ankylosing spondylitt har 1 liten (n=38) RCT fra 1986 som støtter diflunisal effektivitet (L2 evidensnivå), er denne sammenhengen i hovedsak en gjenbekreftelse av allerede kjent NSAID-klassebruk, ikke en virkelig ny repurposing-oppdagelse, tilleggsverdi er begrenset.
-- Mer kritisk er at DMP pakningsvedlegg advarsler/kontraindikasjoner data er **Blocking**-nivå datakluft, i henhold til reglen «Cannot proceed to S1 safety screening», denne datakluft bør utfylles før noen beslutning skal tas.
-- Legemiddel er ikke markedsført på Taiwan (0 lisenser), ingen DDI-spørringsresultater foreligger heller, sikkerhetsinformasjon er alvorlig mangelfull totalt sett.
+**Begrunnelse:**
+- De fleste predikerte sykdommene mangler både kliniske studier og litteratur, og saknar plausibel mekanistisk kobling; scoren er kun en grafbasert prediksjon.
+- For ankyloserende spondylitt finnes bare én gammel, liten diflunisal-studie (1986). Legemidlet har dessuten ingen gyldig markedsføringstillatelse i Norge og konkurrerer med bedre studerte NSAID og biologiske legemidler.
 
-**For å kunne gå videre, må man utfylle:**
-- TFDA forskriving PDF-nedlasting og analyse (DG001, Blocking, kilde: DMP website)
-- DrugBank handlingsmekanisme (MOA) data-spørring (DG002, High, kilde: DrugBank API)
-- Hvis påfølgende evaluering av ankylosing spondylitt retning, må man bekrefte om det allerede er dekket i diflunisal andre lands eksisterende indikasjon, for å avklare om denne saken virkelig utgjør «legemiddelrepurposing» eller heller eksisterende bruk utvidelse
-
+**For å gå videre kreves følgende:**
+- Innhenting og analyse av preparatomtale (advarsler og kontraindikasjoner), da sikkerhetsscreening ikke kan gjennomføres uten dette
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Systematisk gjennomgang av diflunisal ved aksial spondyloartritt, sammenlignet med dagens standardbehandling
+- Vurdering av kardiovaskulær, nyre- og gastrointestinal risiko (jf. kontraindikasjonene over) for aktuell pasientgruppe
+- Avklaring av regulatorisk vei, siden den eneste tillatelsen er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

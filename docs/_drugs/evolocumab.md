@@ -2,7 +2,7 @@
 layout: default
 title: Evolocumab
 parent: Kun modellprediksjon (L5)
-nav_order: 145
+nav_order: 169
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,80 +29,94 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Evolocumab: TxGNN-forutsagt sammenheng med symptomatisk hemofili hos kvinnelige bærere (lavt konfidensnivå)
+# Evolocumab: Fra hyperkolesterolemi til symptomatisk hemofili hos kvinnelige bærere
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-> Denne evidenspakken dokumenterer ikke evolocumabs opprinnelig godkjent indikasjon, og stoffet har for øyeblikket ingen markedslisens i Taiwan.
-> TxGNNs høyest rangerte prediksjon antyder en mulig sammenheng med **symptomatisk hemofili hos kvinnelige bærere** (skår 99,82%),
-> men dette støttes av **null kliniske studier** og **null publikasjoner** — og pakkens egen mekanistiske analyse viser at sammenhengen sannsynligvis er kunnskapsgraf-nærhetsstøy snarere enn en reell farmakologisk forbindelse.
+Evolocumab er et monoklonalt antistoff som hemmer PCSK9, opprinnelig brukt til behandling av dyslipidemi og hyperkolesterolemi.
+TxGNN-modellen forutsier at legemidlet kan være effektivt mot **symptomatisk hemofili hos kvinnelige bærere**,
+men det finnes **0 kliniske studier** og **0 publikasjoner** som støtter denne prediksjonen. Prediksjonen er ren modellbasert og har ingen sannsynlig mekanistisk kobling.
 
 ---
 
 ## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Ikke på fil (ingen Taiwan-lisenspost; `original_indications` tom i denne evidenspakken) |
-| Forutsagt ny indikasjon | Symptomatisk hemofili hos kvinnelige bærere |
-| TxGNN-prediksjons skår | 99,82% (rangering 2444) |
-| Evidensnivå | L5 (modellprediksjon kun, ingen støttende studier/litteratur) |
-| Taiwans markedsstatus | Ikke markedsført (Ikke markedsført) |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Dyslipidemi; hyperkolesterolemi |
+| Predikert ny indikasjon | Symptomatisk hemofili hos kvinnelige bærere |
+| TxGNN-prediksjonsscore | 99,82 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun kansellerte registreringer |
+| Antall godkjenninger | 1 (kansellert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-I følge de mekanistiske notatene innebygd i denne evidenspakken, er evolocumab en **PCSK9-monoklonal antistoff**: det hemmer PCSK9-medieret nedbrytning av LDL-reseptorer, og senker derved blod-LDL-C. Dette plasserer stoffets kjente biologi klart innenfor lipidmetabolisme, ikke koagulasjon.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelig i de innsamlede dataene. Ut fra kjent informasjon er evolocumab et PCSK9-hemmende monoklonalt antistoff. Ved å binde PCSK9 øker det tilgjengeligheten av LDL-reseptorer og senker LDL-kolesterol. Effekten er godt dokumentert ved hyperkolesterolemi, inkludert heterozygot og homozygot familiær form.
 
-Hemofili hos kvinnelige bærere oppstår fra Factor VIII (F8)-genmangel og innebærer den intrinsic koagulasjonskaskaden — en vei som har **ingen dokumentert mekanistisk overlapping** med PCSK9/LDL-reseptor-biologi. Evidenspakkens egen begrunnelse for denne prediksjonen sier eksplisitt at det ikke finnes noen kjent interaksjon eller delt vei mellom de to, og konkluderer at den høye TxGNN-skåren sannsynligvis gjenspeiler **kunnskapsgraf-nærhetsstøy** snarere enn et genuint farmakologisk signal.
+Symptomer hos kvinnelige hemofilibærere skyldes redusert nivå av koagulasjonsfaktor VIII eller IX som følge av X-bundne varianter. Dette er en mekanisme uten kjent forbindelse til PCSK9 eller lipidmetabolisme. Vi har ikke identifisert noen plausibel mekanistisk kobling.
 
-Denne vurderingen forsterkes av mønsteret på tvers av de andre fem rangerte kandidatene i denne pakken (familial ApoC-II-mangel, trombositopenisk purpura, Factor XI-mangel, hemofili A med vaskulær abnormitet, og en ikke-spesifikk ontologi-superklasse «sykdom av katalytisk aktivitet») — alle har samme L5/Avvent-status, ingen studier, ingen litteratur, og begrunnelsestekst som uavhengig argumenterer mot mekanistisk plausibilitet. Dette er ikke typisk for et sterkt omformål-signal.
+Den høye TxGNN-scoren (0,998) er utelukkende en prediksjon fra kunnskapsgrafen og støttes ikke av noen studie eller publikasjon. Den bør derfor tolkes med stor forsiktighet.
+
+### Andre predikerte indikasjoner (til orientering)
+
+| Rang | Predikert indikasjon | TxGNN-score | Vurdering |
+|------|------|------|------|
+| 2 | Familiær apolipoprotein C-II-mangel | 99,50 % | Kun indirekte biologisk plausibilitet. Evolocumab senker hovedsakelig LDL-C og korrigerer ikke defekten i LPL-aktivering. Nytte er lite sannsynlig. |
+| 3 | Trombocytopenisk purpura | 99,42 % | Ingen kjent mekanistisk kobling til PCSK9-hemming. |
+| 4 | Faktor XI-mangel | 99,29 % | Evolocumab påvirker ikke koagulasjonskaskaden. |
+| 5 | Hemofili A med vaskulær abnormitet | 99,22 % | PCSK9-hemming påvirker ikke produksjon eller funksjon av faktor VIII. |
+| 6 | Sykdom med katalytisk aktivitet | 99,08 % | Svært bred ontologikategori, ikke en klinisk indikasjon som kan evalueres. |
+
+Alle har evidensnivå L5 og anbefalingen Hold.
 
 ---
 
 ## Evidens fra kliniske studier
 
-For øyeblikket ingen relaterte kliniske studier registrert.
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ---
 
-## Litteraturbasert evidens
+## Litteraturevidens
 
-For øyeblikket ingen relatert litteratur tilgjengelig.
-
----
-
-## Taiwans markedsinformasjon
-
-Evolocumab har for øyeblikket **ingen markedsføringsgodkjenning i Taiwan** (0 lisenser på fil). Ingen doseringsform eller godkjent indiksjonstekst er tilgjengelig for denne jurisdiksjonen.
+Foreløpig finnes ingen relatert litteratur.
 
 ---
 
-## Sikkerhetsoverveielser
+## Markedsinformasjon for Norge
 
-Vær vennlig å referere til pakningsvedlegget for sikkerhetsinformasjon.
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/003766 | Repatha (Amgen Europe B.V.) | Ikke oppgitt | Dyslipidemi; hyperkolesterolemi |
 
-*(Merk: viktige advarsler, kontraindikasjoner og stoff-interaksjonsdata er alle flagget som datahuller i denne evidenspakken — inkludert TFDA-merketdata, oppført som Blocking gap (DG001). Dette må løses før noen S1-sikkerhetsgjennomgang kan gjennomføres.)*
+Registreringen har status kansellert, og det finnes ingen gyldige godkjenninger.
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Legemiddelinteraksjoner**: Spørringen er gjennomført og ga én farmakologisk oppføring. Den gjelder bindingen til legemidlets målprotein, PCSK9 (proproteinkonvertase subtilisin/kexin type 9), og er ikke en interaksjon med et annet legemiddel. Ingen alvorlighetsgrad er angitt.
+
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-TxGNN-skåren er høy, men det er null kliniske studier, null publikasjoner, og ingen Taiwan-regulatoriske data som støtter denne prediksjonen. Enda viktigere, pakkens egen mekanistiske begrunnelse konkluderer uavhengig at PCSK9/LDL-stien har ingen kjent forbindelse til hemofilis patofysiologi, noe som antyder at skåren reflekterer en grafartifakt snarere enn et biologisk signal.
+Prediksjonen er kun modellbasert (L5), uten kliniske studier eller publikasjoner, og det finnes ingen plausibel mekanistisk kobling mellom PCSK9-hemming og hemofili hos kvinnelige bærere. Produktet har dessuten kun kansellert registrering i Norge.
 
-**For å gå videre, trengs følgende:**
-- TFDA-ekvivalent produktmerking (advarsler/kontraindikasjoner) — for øyeblikket Blocking gap (DG001)
-- Verifiserte virkningsmekanisme-data fra DrugBank eller primærlitteratur (DG002)
-- Bekreftet opprinnelig indikasjon(er) for evolocumab i dette datasettet
-- Et uavhengig litteratur-/klinisk-studie-søk spesifikt for evolocumab i blødningsforstyrrelser, for å bekrefte eller utelukke TxGNN-signalet før videre scoring
-- Vurdering av hvorvidt denne kandidaten (og dens søskenprediksjoner i denne pakken) bør deprioriteres til fordel for TxGNN-kandidater med faktisk studie-/litteraturstøtte
-
+**For å gå videre kreves følgende:**
+- Innhenting og gjennomgang av preparatomtale (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsscreening
+- Detaljerte data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Et biologisk begrunnet hypotesegrunnlag og prekliniske data før eventuell videre vurdering
+- Avklaring av markedsstatus og tilgjengelige administrasjonsveier i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

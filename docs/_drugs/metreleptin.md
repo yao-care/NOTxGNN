@@ -2,7 +2,7 @@
 layout: default
 title: Metreleptin
 parent: Kun modellprediksjon (L5)
-nav_order: 229
+nav_order: 270
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,83 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Metreleptin: Fra leptin-mangel (lipodystrofi) til familial generalisert lentiginose
+# Metreleptin: Fra familiær partiell lipodystrofi til familiær generalisert lentiginose
 
-## Sammenfatting i en setning
+## Oppsummering i én setning
 
-Metreleptin er en rekombinant leptin-analog som brukes til å behandle leptin-mangel ved generalisert lipodystrofi. TxGNN-modellens toppprediksjon er **Familial generalisert lentiginose**, med en **99.71%** prediksjonspoeng, men det finnes for øyeblikket **0 kliniske prøver** og **0 publikasjoner** som støtter denne retningen — evidenspakkens egen mekanistiske analyse finner heller ingen plausibel biologisk forbindelse.
+Metreleptin er en rekombinant leptin-analog som opprinnelig brukes til behandling av familiær partiell lipodystrofi.
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **familiær generalisert lentiginose**, men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** som støtter denne retningen. Prediksjonen bygger kun på modellberegning.
 
 ---
 
-## Kort oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|-------|---------|
-| Opprinnelig indikasjon | Ikke til stede i evidenspakken (datamanko). Metreleptin er generelt kjent som behandling for leptin-mangel forbundet med generalisert lipodystrofi |
-| Predikert ny indikasjon | Familial generalisert lentiginose |
-| TxGNN prediksjonspoeng | 99.71% |
-| Bevisnivå | L5 |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+|------|------|
+| Opprinnelig indikasjon | Familiær partiell lipodystrofi |
+| Predikert ny indikasjon | Familiær generalisert lentiginose |
+| TxGNN-prediksjonsscore | 99,71 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
+| Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-For øyeblikket er detaljert virkningsmåtedata ikke tilgjengelig (datamanko). Basert på begrenset informasjon i evidenspakken, fungerer metreleptin som en leptin-reseptor agonist, som primært regulerer hypotalamisk energimetabolisme og signalering av fettvev.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Metreleptin er imidlertid kjent som en rekombinant leptin-analog som virker på leptinreseptorer og korrigerer leptinmangel ved lipodystrofi.
 
-Familial generalisert lentiginose er en autosomalt dominant pigmentær hudsykdom. Evidenspakkens egen rasjonale-analyse sier at det **ikke er noen kjent mekanistisk forbindelse** mellom leptin-signalveien og patologien til denne sykdommen, og ingen hypotese kunne etableres på grunn av manglende virkningsmåtedata.
+Familiær generalisert lentiginose er en pigmentforstyrrelse uten kjent leptinavhengig signalvei. Det er dermed ingen etablert mekanistisk kobling mellom den opprinnelige indikasjonen (leptinmangel ved lipodystrofi) og den predikerte indikasjonen. Den høye scoren (0,997) er en prediksjon fra en kunnskapsgraf og understøttes ikke av biologiske eller kliniske data.
 
-Det samme mønsteret gjelder over alle topp-10 TxGNN-kandidater for dette legemidlet (se sykdomsliste i kildedataene): sjeldne pigmentære syndromer (gastrokutant syndrom, Moynahan-syndrom, akromelanose, osv.), tumorentiteter drevet av urelaterte veier (rabdomyoid tumor via SMARCB1/INI1-tap, schwannoma via NF2/merlin-tap), og andre sjeldne multisystem-syndromer — hvorav ingen har en etablert eller plausibel forbindelse til leptin-reseptor-signalering per den gitte rasjonalen. Dette tyder på at prediksjonen er drevet primært av nettverksbasert likhet i TxGNN-modellen heller enn en forsvarbelig biologisk mekanisme.
-
----
-
-## Kliniske prøvebevis
-
-For øyeblikket ingen relaterte kliniske prøver registrert.
+Også de øvrige topp-10-prediksjonene (blant andre gastrokutant syndrom, Moynahan syndrom, rabdoid tumor, benign binyrebarksvulst og perifert nerveskjede-schwannom) mangler dokumentert mekanistisk rasjonale og kliniske data. For svulstlidelser som rabdoid tumor og schwannom kan leptins vekstfremmende effekt i enkelte modeller snarere utgjøre et sikkerhetsproblem enn et behandlingsrasjonale.
 
 ---
 
-## Litteraturbevis
+## Klinisk studieevidens
 
-For øyeblikket ingen relatert litteratur tilgjengelig.
-
----
-
-## Markedsinformasjon for Norge
-
-Metreleptin har for øyeblikket **ingen markedsføringsautoriseringer i Norge** (0 lisenser på register); legemidlet er ikke markedsført i dette markedet.
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Se pakningsvedlegget for sikkerhetsinformasjon.
-
-Merk: TFDA/Norge etikett-advarsler og kontraindikasjoner (DG001) er flagget som en **Blokkerende** datamanko i kildeevidsenpakken, noe som betyr at en formell sikkerhetsevaluering (S1) ikke kan fullføres for øyeblikket for denne kandidaten.
+Foreløpig finnes ingen relatert litteratur.
 
 ---
 
-## Konklusjon og neste trinn
+## Informasjon om markedet i Norge
 
-**Beslutning: Avvent**
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004218 | Myalepta | – | Familiær partiell lipodystrofi |
 
-**Rasjonale:**
-Alle topp-10 predikerte indikasjoner for metreleptin ligger på bevisnivå L5 (modellprediksjon kun — ingen kliniske prøver, ingen litteratur), og evidenspakkens egen mekanistiske gjennomgang fant ingen plausibel biologisk rasjonale som knytter leptin-reseptor-signalering til noen av kandidatsykdommene. Kombinert med en Blokkerende-alvorlighetsgrad sikkerhetsdatamanko og null markedstilstedeværelse i Norge, finnes det for øyeblikket ikke grunnlag for å fremme denne kandidaten.
+Tillatelsen har status avregistrert.
 
-**For å gå videre er følgende nødvendig:**
-- TFDA/Norge etikett-advarsler, kontraindikasjoner og DDI-data (DG001, Blokkerende)
-- Bekreftet virkningsmåte fra DrugBank eller primærlitteratur (DG002)
-- Målrettet litteratur-/klinisk prøvesøk spesifikt for topprangerte kandidatsykdommer for å kontrollere for eventuelle bevis som TxGNNs treningsdata kanskje ikke avdekket
-- Uavhengig farmakologisk plausibilitetsvurdering før videre evalueringsressurser tildeles til dette legemiddel-indikasjon-paret
+---
 
+## Sikkerhetsvurderinger
+
+- **Legemiddelinteraksjoner**: Det er funnet 100 registrerte interaksjoner. De fleste av de viste er av moderat alvorlighetsgrad, blant annet med abemasiklib, fentanyl, acalabrutinib, etinylestradiol, alfentanil, alpelisib, noretisteron, desogestrel, avapritinib, bictegravir, brigatinib, buspiron, kabozantinib og klorpropamid. Bortezomib er klassifisert som mindre alvorlig.
+- **Annen merknad**: Legemidlets preparatomtale inneholder en advarsel om lymfom. Dette er særlig relevant for predikerte svulstindikasjoner som rabdoid tumor og schwannom.
+
+Se preparatomtalen for øvrig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Prediksjonen har evidensnivå L5: kun modellprediksjon uten kliniske studier, litteratur eller plausibel mekanistisk kobling. I tillegg er den eneste tillatelsen i Norge avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
+
+**For å gå videre kreves følgende:**
+- Sikkerhetsinformasjon (advarsler og kontraindikasjoner) fra preparatomtalen
+- Detaljerte data om virkningsmekanisme (MOA)
+- Biologisk eller prekliniske data som viser en leptinavhengig mekanisme ved den predikerte sykdommen
+- Gjennomgang av litteratur og studieregistre for å bekrefte at det ikke finnes støttende evidens
+- Avklaring av markedsstatus og tilgjengelighet av legemidlet i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

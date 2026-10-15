@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Selpercatinib
-parent: Moderat evidens (L3-L4)
-nav_order: 322
-evidence_level: L4
+parent: Kun modellprediksjon (L5)
+nav_order: 379
+evidence_level: L5
 indication_count: 3
 ---
 
 # Selpercatinib
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,73 +29,108 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Selpercatinib: Fra RET-fusjonspositiv NSCLC til Pulmonær Hypertensjon
+# Selpercatinib: Fra ikke-småcellet lungekreft og skjoldbruskkjertelkreft til pulmonal hypertensjon
 
-## Enlinjesammenfatting
+## Oppsummering
 
-Selpercatinib er en selektiv RET-tyrosinkinasehemmer som for tiden brukes til RET-fusjon/mutasjons-positiv ikke-småcellet lungekreft og medullært tyroidkarsinom. TxGNN-modellen forutsier en mulig sammenheng til **Pulmonær Hypertensjon**, men de eneste 3 støttepublikasjonene er farmakoovervåkings-/bivirknings- og kasusstudier — noe som betyr at dette signalet kan reflektere en **kardiovaskulær sikkerhetsrisiko ved selpercatinib snarere enn en terapeutisk mulighet**. Det er ingen kliniske studier, offisielle taiwanske MOA-data eller pakningsvedleggadvarsler som er tilgjengelig for å bekreftet noen av retningene.
+Selpercatinib er en selektiv RET-kinasehemmer som opprinnelig brukes til behandling av ikke-småcellet lungekreft og skjoldbruskkjertelkreft.
+TxGNN-modellen forutsier at legemidlet kan ha effekt ved **pulmonal hypertensjon**,
+men dette er rent en modellprediksjon: det finnes **0 kliniske studier** og **ingen publikasjoner** som omhandler pulmonal hypertensjon som behandlingsmål.
 
-## Rask oversikt
+---
 
-| Element | Innhold |
+## Hurtigoversikt
+
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | RET-fusjon/mutasjons-positiv NSCLC, medullært tyroidkarsinom (per kjent godkjent bruk referert i bevis; ingen formell taiwansk lisensspor tilgjengelig) |
-| Forutsagt ny indikasjon | Pulmonær Hypertensjon |
-| TxGNN-forutsigelsesscore | 99.18% |
-| Bevisnivå | L4 |
-| Status på taiwansk marked | Ikke markedsført (Ikke markedsført) |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Avvent |
+| Opprinnelig indikasjon | Ikke-småcellet lungekreft; skjoldbruskkjertelkreft |
+| Predikert ny indikasjon | Pulmonal hypertensjon |
+| TxGNN-prediksjonsscore | 99,18 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun kansellerte godkjenninger |
+| Antall godkjenninger | 1 (kansellert) |
+| Anbefalt beslutning | Hold |
 
-## Hvorfor er denne forutsigelsen rimelig?
+---
 
-For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelig (DrugBank MOA-felt merket som datagap). Basert på kjent informasjon er selpercatinib en høyt selektiv RET-tyrosinkinasehemmer, godkjent for RET-fusjon/mutasjons-positiv NSCLC og medullært tyroidkarsinom. RET-signalering er blitt rapportert i noe litteratur å spille en rolle i pulmonær vaskulær ombygging, men dette er en indirekte, ikke-mainstream mekanistisk hypotese uten etablert teoretisk grunnlag for selpercatinib som en **behandling** for pulmonær hypertensjon.
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Enda viktigere, minst 2 av de 3 hentede publikasjonene er bivirknings-/farmakoovervåkingsdatabaseanalyser som sammenligner selpercatinib- og pralsetinib-sikkerhetsprofiler. Dette reiser muligheten for at pulmonær hypertensjon vises i dataene som en rapportert **bivirkning** av selpercatinib (f.eks. kardiovaskulær toksisitet) snarere enn en sykdom den kunne behandle — som ville være den motsatte tolkningen fra det TxGNN-modellens «forutsagt indikasjon»-rammeverk foreslår. Denne distinksjonen må avklares før ytterligere evaluering.
+Data om virkningsmekanisme er ikke tilgjengelig i de sammenstilte dataene. Basert på kjent informasjon er selpercatinib en selektiv hemmer av RET-kinase, og effekten er påvist ved RET-drevet lunge- og skjoldbruskkjertelkreft.
 
-De to andre forutsagte indikasjonene (migrenelidelse, migrene med hjernestamm-aura) har ingen støttende litteratur eller studier i det hele tatt og anses som sannsynlig embedding-space falske positiver, da RET-signalering ikke har noen etablert forbindelse til trigeminovaskulær/CGRP-veier eller channelopati-relaterte migreneundertyper.
+Det er ikke påvist noen etablert mekanistisk kobling mellom RET-hemming og pulmonal hypertensjon. Enkelte kinasehemmere (f.eks. dasatinib) er assosiert med pulmonal arteriell hypertensjon, men dette er et klassespesifikt sikkerhetssignal og ikke et bevis på terapeutisk nytte.
 
-## Kliniske studier
+De tre publikasjonene som ble funnet, omhandler bivirkninger av selpercatinib, RET-fusjonspositiv lungekreft og medullært skjoldbruskkjertelkarsinom ved MEN 2B. Ingen av dem tar for seg pulmonal hypertensjon. Den høye scoren (0,992) bør derfor tolkes som en grafbasert hypotese.
 
-For tiden er det ingen relaterte kliniske studier registrert
+Øvrige predikerte indikasjoner er migrene (score 99,17 %) og migrene med hjernestammeaura (score 99,05 %). Begge er også kun beregningsbaserte, uten kliniske studier eller litteratur. En spekulativ kobling kan gå via RET-signalering (GDNF/GFRα) i trigeminale sensoriske nevroner og CGRP-relaterte signalveier, men dette er ikke støttet av data.
 
-## Litteraturbevis
+---
 
-| PMID | År | Type | Journal | Viktige funn |
+## Klinisk studiedokumentasjon
+
+Det er for øyeblikket ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturdokumentasjon
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [34178121](https://pubmed.ncbi.nlm.nih.gov/34178121/) | 2021 | Retrospektiv kohort | Ther Adv Med Oncol | Effektivitet i klinisk praksis av selpercatinib i RET-fusjonspositiv NSCLC (SIREN access-program-analyse); ingen utfallsdata for pulmonær hypertensjon |
-| [39372206](https://pubmed.ncbi.nlm.nih.gov/39372206/) | 2024 | Klinisk praksis/Farmakoovervåking | Front Pharmacol | FAERS-basert sammenligning av bivirksningsprofiler mellom pralsetinib og selpercatinib — pulmonær hypertensjon kan vises her som en rapportert bivirkning, ikke som en behandlet tilstand |
-| [41918669](https://pubmed.ncbi.nlm.nih.gov/41918669/) | 2026 | Kasusrapport | Cureus | Tilfelle av RET M918T-mutert MEN2B metastatisk medullært tyroidkarsinom under målrettet terapi; ledelses utfordringer, ingen behandlingsdata for PH |
+| [39372206](https://pubmed.ncbi.nlm.nih.gov/39372206/) | 2024 | Kohort (virkelighetsbasert farmakovigilans) | Frontiers in Pharmacology | Sammenligning av bivirkningsprofiler for pralsetinib og selpercatinib i FDA-databasen over bivirkninger |
+| [34178121](https://pubmed.ncbi.nlm.nih.gov/34178121/) | 2021 | Kohort (retrospektiv) | Therapeutic Advances in Medical Oncology | Selpercatinib ved RET-fusjonspositiv ikke-småcellet lungekreft behandlet gjennom tilgangsprogram (SIREN) |
+| [41918669](https://pubmed.ncbi.nlm.nih.gov/41918669/) | 2026 | Kasuistikk | Cureus | Metastatisk medullært skjoldbruskkjertelkarsinom ved MEN 2B med RET M918T-mutasjon; utfordringer ved langtidsbehandling og målrettet terapi |
+
+Ingen av publikasjonene omhandler pulmonal hypertensjon.
+
+---
+
+## Markedsinformasjon for Norge
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005375 | Retsevmo (Eli Lilly Nederland B.V.) | Ikke oppgitt | Ikke-småcellet lungekreft; skjoldbruskkjertelkreft |
+
+Godkjenningen er kansellert.
+
+---
 
 ## Cytotoksisitet
 
-Selpercatinib er en målrettet kreftterapeutikum (kinasehemmer), anvendelig per DrugBank/kjent legemiddelklasse.
-
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Cytotoksisitetsklassifisering | Målrettet terapi (selektiv RET-tyrosinkinasehemmer) |
-| Myelosuppresjonrisiko | Se pakningsvedlegget for advarsler og forsiktighetsregler |
-| Emetogenisitetsklassifisering | Se pakningsvedlegget for advarsler og forsiktighetsregler |
-| Overvåkingselementer | Se pakningsvedlegget for advarsler og forsiktighetsregler |
-| Håndteringsvern | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Cytotoksisitetsklassifisering | Målrettet terapi (selektiv RET-kinasehemmer) |
+| Myelosuppresjonsrisiko | Se preparatomtalen for advarsler og forsiktighetsregler |
+| Emetogenisitetsklassifisering | Se preparatomtalen for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Se preparatomtalen for advarsler og forsiktighetsregler |
+| Håndteringsbeskyttelse | Se preparatomtalen for advarsler og forsiktighetsregler |
 
-## Sikkerhetshensyn
+---
 
-Se pakningsvedlegget for sikkerhetsoplysninger.
+## Sikkerhetsvurderinger
+
+- **Legemiddelinteraksjoner**: Det er registrert 100 interaksjoner. Blant de som er nevnt i de sammenstilte dataene, er følgende klassifisert som **alvorlige (Major)**:
+  - Syrehemmende midler: famotidin, ranitidin, cimetidin, omeprazol, rabeprazol, deksansoprazol
+  - Aprepitant
+  - Deksametason
+  - Klaritromycin
+  - Magnesiumoksid
+- Eksempler på **moderate** interaksjoner: hydrokortison, triamcinolon, betametason, budesonid, pioglitazon, loperamid, bisakodyl, polyetylenglykol og saksagliptin.
+
+Informasjon om advarsler og kontraindikasjoner er ikke tilgjengelig; se preparatomtalen.
+
+---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Høyest rangerte forutsigelse (pulmonær hypertensjon, L4) støttes bare av bivirknings-/kasuslitteratur som faktisk kan indikere en sikkerhetsrisiko snarere enn terapeutisk potensial, og de resterende to forutsigelsene (migrenelidelse, migrene med hjernestamm-aura) har ingen støttende bevis i det hele tatt (L5). Kombinert med det blokkerende datagapet angående taiwansk pakningsvedleggs advarsler og kontraindikasjoner, er det utilstrekkelig grunnlag for å fremme noen av disse kandidatene.
+Prediksjonen er kun modellbasert (evidensnivå L5), uten kliniske studier eller litteratur for pulmonal hypertensjon. Legemidlet har dessuten en betydelig interaksjonsbyrde og kun kansellert markedsføringstillatelse i Norge, noe som svekker gjennomførbarheten.
 
-**For å fortsette, er følgende nødvendig:**
-- TFDA pakningsvedlegg (advarsler/kontraindikasjoner) — for tiden blokkert (DG001)
-- Bekreftet virkningsmekanisme fra DrugBank — for tiden høyalvorlighets-gap (DG002)
-- Avklaring av hvorvidt pulmonær hypertensjon-signalet i FAERS-basert litteratur representerer en bivirkning vs. en behandlbar indikasjon
-- Preklinisk eller mekanistisk bevis direkte som knytter RET-hemming til pulmonær vaskulær ombygging, hvis denne retningen forfølges videre
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) og en vurdering av om det finnes en plausibel kobling mellom RET-hemming og pulmonal hypertensjon
+- Prekliniske data eller modellstudier som støtter effekt ved pulmonal hypertensjon
+- Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsvurdering, inkludert vurdering av risiko for pulmonale vaskulære effekter
+- Avklaring av markedsstatus og tilgjengelighet i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

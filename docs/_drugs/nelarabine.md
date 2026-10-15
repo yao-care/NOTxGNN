@@ -2,7 +2,7 @@
 layout: default
 title: Nelarabine
 parent: Kun modellprediksjon (L5)
-nav_order: 238
+nav_order: 279
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,87 +29,103 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Nelarabine: Fra T-celle akutt lymfoblastisk leukemi til tilbakevendende-remitterende multippel sklerose
+# Nelarabin: Fra prekursor T-celle lymfoblastisk leukemi/lymfom til relapsing-remitting multippel sklerose
 
-## Sammendrag i én setning
+## Oppsummering
 
-Nelarabine er en purinukleosidanaloga kjemoterapiagent opprinnelig utviklet for tilbakefalt/refraktær T-celle akutt lymfoblastisk leukemi og T-celle lymfoblastisk lymfom. TxGNN-modellen forutsier at det kan være effektivt for **tilbakevendende-remitterende multippel sklerose**, men denne prediksjonen er for tiden støttet av **ingen registrerte kliniske forsøk** og **ingen publisert litteratur** — det hviler kun på modellskåren alene.
-
----
-
-## Rask oversikt
-
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | T-celle akutt lymfoblastisk leukemi (T-ALL) / T-celle lymfoblastisk lymfom (T-LBL) *(generell bakgrunnsinformasjon — ikke tilstede i Norges lisensdatai, da medikamentet ikke er markedsført der)* |
-| Forutsagt ny indikasjon | Tilbakevendende-remitterende multippel sklerose |
-| TxGNN prediksjonspoengsum | 99.43% |
-| Bevisnivå | L5 |
-| Norges markedsstatus | Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+Nelarabin er et legemiddel som opprinnelig ble godkjent for behandling av prekursor T-celle lymfoblastisk leukemi/lymfom.
+TxGNN-modellen predikerer at det kan ha effekt ved **relapsing-remitting multippel sklerose**,
+men for øyeblikket finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen.
+Nelarabin er dessuten kjent for alvorlig nevrotoksisitet, noe som utgjør en betydelig sikkerhetsutfordring ved en demyeliniserende sykdom.
 
 ---
 
-## Hvorfor er denne prediksjonen fornuftig?
+## Hurtigoversikt
 
-For tiden er detaljerte mekanismedata ikke tilgjengelige i bevisematerialet. Basert på generell bakgrunnsinformasjon er nelarabine en prodrug av 9-β-D-arabinofuranosylguanin (ara-G), en purinukleosidanaloga som blir selektivt fosforyert og akkumuleres i T-lymfoblaster, som forårsaker DNA-strandbrudd og celledød. Dets kliniske effektivitet i T-ALL/T-LBL er godt etablert, men denne mekanismen er rettet mot prolifererende maligne T-celler i stedet for de autoimmune/nevroinflammatoriske prosessene som ligger til grunn for multippel sklerose.
-
-Det er ingen direkte mekanistisk eller klinisk begrunnelse i bevisematerialet som knytter nelarabines cytotoksiske, T-celle-depletørende aktivitet til tilbakevendende-remitterende MS. Mens selektiv T-celle cytotoksisitet er et delt tema med noen MS-immunmodulatorer (f.eks. cladribine, en annen purinanaloga godkjent for MS), er nelarabines kjente neurotoksisitetsprofil en betydelig bekymring for bruk i en nevrologisk sykdomspopulasjon. Denne prediksjonen bør behandles som en modellgenerert hypotese som krever betydelig mekanistisk og preklinisk validering før videre vurdering.
-
----
-
-## Klinisk forsøksbevis
-
-For tiden er ingen relaterte kliniske forsøk registrert.
-
----
-
-## Litteraturbevis
-
-For tiden er ingen relatert litteratur tilgjengelig.
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Prekursor T-celle lymfoblastisk leukemi/lymfom |
+| Predikert ny indikasjon | Relapsing-remitting multippel sklerose |
+| TxGNN-prediksjonsscore | 99,43 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun kansellerte godkjenninger |
+| Antall godkjenninger | 1 (kansellert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Norges markedsinformasjon
+## Hvorfor er denne prediksjonen rimelig?
 
-Nelarabine har for tiden ingen markedsføringstillatelse i Norge (0 lisenserregistrert); ingen produkt- eller indikasjondata er tilgjengelige for dette markedet.
+Nelarabin er et prodrug av ara-G, en deoksyguanosin-analog som er særlig toksisk for T-lymfocytter. Virkningen skjer ved opphopning av ara-GTP, som hemmer DNA-syntesen. Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i de innsamlede dataene, noe som begrenser den mekanistiske vurderingen.
+
+En mulig, men ubekreftet, begrunnelse er at utarming av patogene lymfocyttpopulasjoner kan være relevant ved multippel sklerose. Andre purinanaloger, som kladribin, er godkjent for relapsing MS, og det gir en viss mekanistisk analogi.
+
+Det finnes imidlertid en stor motsetning: nelarabin er velkjent for alvorlig nevrotoksisitet, inkludert demyelinisering, perifer nevropati, Guillain-Barré-lignende syndromer, kramper og søvnighet. Dette er svært problematisk ved en demyeliniserende sykdom. Den mekanistiske koblingen er derfor spekulativ og kan ikke regnes som støttet.
+
+---
+
+## Evidens fra kliniske studier
+
+Foreløpig er det ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+Foreløpig er det ingen relatert litteratur tilgjengelig.
+
+---
+
+## Markedsinformasjon for Norge
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000752 | Atriance (Sandoz Pharmaceuticals d.d.) | – | Prekursor T-celle lymfoblastisk leukemi/lymfom |
+
+Godkjenningen er kansellert; det finnes ingen gyldige godkjenninger.
 
 ---
 
 ## Cytotoksisitet
 
-| Element | Innhold |
-|---------|---------|
-| Cytotoksisitetsklassifisering | Konvensjonell cytotoksisk (purinukleosidanaloga / antimetabolitt — prodrug av ara-G) |
-| Myelosuppresjonrisiko | Høy — nøytropeni, trombocytopeni og anemi blir vanligvis rapportert; nelarabine har også en distinkt risiko for alvorlig neurotoksisitet (perifer neuropati, søvnighet, anfall) |
-| Emetogenitetsklassifisering | Lav til moderat |
-| Overvåkingspunkter | CBC med differensial, nevrologisk statusvurdering (på grunn av neurotoksisitetsrisiko), lever- og nyrefunksjon |
-| Håndteringsvern | Må følge regulering for håndtering av cytotoksiske/farlige legemidler (USP <800> eller tilsvarende) |
-
-*Merk: Det ovennevnte er basert på generell farmakologisk kunnskap om nelarabine, da ingen legemiddelspesifikke toksisitetsdata ble gitt i dette bevisematerialet (se Datakløft DG002).*
+| Punkt | Innhold |
+|------|------|
+| Cytotoksisitetsklassifisering | Konvensjonelt cytotoksisk (purinnukleosidanalog, antimetabolitt) |
+| Risiko for myelosuppresjon | Se pakningsvedlegget for advarsler og forsiktighetsregler. Kunnskapsgrafen peker mot nøytropeni, trombocytopeni og anemi som relevante risikoer |
+| Emetogenisitetsklassifisering | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Blodstatus (CBC med differensialtelling), lever- og nyrefunksjon, samt nevrologisk overvåking |
+| Håndteringsbeskyttelse | Må følge gjeldende regler for håndtering av cytotoksiske legemidler |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+**Kontraindikasjoner fra kunnskapsgrafen (TxGNN/PrimeKG).** Disse er hentet fra relasjoner mellom legemiddel og sykdom i kunnskapsgrafen, ikke fra preparatomtalen:
+- Nevrologiske: epilepsi, perifer nevropati, sykdom i det perifere nervesystemet, demyeliniserende sykdom, inflammatorisk demyeliniserende polyradikuloneuropati, lærevansker, intellektuell funksjonsnedsettelse
+- Hematologiske: trombocytopeni, nøytropeni, agranulocytose, anemi, makrocytær anemi
+- Lever og nyre: leversvikt, hyperbilirubinemi, arvelig hyperbilirubinemi, Gilberts syndrom, nedsatt nyrefunksjon
+
+**Legemiddelinteraksjoner.** Totalt 100 interaksjoner er funnet. Blant de 20 som er listet i dataene:
+- **Alvorlige (Major):** bupropion, deferipron, iopamidol, ioheksol, samarium (153Sm) leksidronam
+- **Moderate:** pikosulfat, polyetylenglykol (3350 med elektrolytter), natriumsulfat, metronidazol, rosuvastatin, simvastatin, tinidazol, palifermin, strontiumklorid Sr-89, klorokin, disulfiram, secnidazol, benznidazol, hydroksyklorokin, lindan
+
+Advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelige i de innsamlede dataene. Se pakningsvedlegget for fullstendig sikkerhetsinformasjon.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er støttet kun av en TxGNN modellpoengsum (L5), med null kliniske forsøk eller litteraturbevis, ingen MOA-data, ingen markedstilstedeværelse i Norge, og uløste sikkerhetsdataklofter (inkludert TFDA-ekvivalent merking, en kloft av Blocking-alvorlighetsgrad). Det er for tiden ingen basis for å bevege denne kandidaten fremover.
+Det eneste som støtter prediksjonen er en høy TxGNN-score (evidensnivå L5), uten kliniske studier eller litteratur. I tillegg er nelarabins alvorlige nevrotoksisitet, inkludert demyelinisering, i direkte konflikt med behandling av multippel sklerose. Preparatet har heller ingen gyldig markedsføringstillatelse i Norge.
 
-**For å gå videre, følgende er nødvendig:**
-- Mekanismedata for å vurdere sannsynlighet for en nevroinflammatorisk indikasjon (DG002)
-- Offisielle advarsler/kontraindikasjoner/etikettdata (DG001, Blocking)
-- Eventuell preklinisk eller utforskende klinisk bevis som knytter nelarabine til MS eller relaterte autoimmune nevrologiske tilstander
-- Bekreftelse av opprinnelig indikasjon og regulatorisk status fra en validert kilde
-
+**For å gå videre kreves følgende:**
+- Hente og analysere preparatomtalens advarsler og kontraindikasjoner (blokkerende datamangel)
+- Hente detaljerte data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Prekliniske data eller studier som viser at nevrotoksisiteten kan håndteres ved MS
+- Systematisk litteratursøk og søk etter kliniske studier
+- En grundig nytte-risikovurdering mot godkjente alternativer, som kladribin
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Deferasirox
-parent: Kun modellprediksjon (L5)
-nav_order: 100
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 118
+evidence_level: L4
 indication_count: 5
 ---
 
 # Deferasirox
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,88 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Deferasirox: Fra jernoverbelastningsbehandling til HIV-infeksjon prediksjon
+# Deferasirox: Fra jernoverskudd og beta-talassemi til HIV-infeksjon
 
-## Enlinjesammendrag
+## Oppsummering
 
-Deferasirox er et oralt trivalent jernskjelator. Denne Evidence Pack gir ikke offisielle godkjente indikasjoner, men basert på eksisterende farmakologisk kunnskap brukes det klinisk til behandling av transfusjonsrelatert jernoverbelastning. TxGNN-modellen peker med sin høyest rangerte predikerte indikasjon mot **HIV-infeksjon**, og støttes for tiden bare av **2 publikasjoner** (mekanistisk in vitro-studie og narkotikanyhetsoversikt), **uten noen registrerte kliniske studier**, og bevisstyrken er svak.
+Deferasirox er en jernchelator som opprinnelig brukes til behandling av **jernoverskudd** ved **beta-talassemi**.
+TxGNN-modellen forutsier at legemidlet kan ha effekt mot **HIV-infeksjon**, men det finnes **ingen registrerte kliniske studier** og bare **2 publikasjoner** (en oversikt og en mekanistisk laboratoriestudie). Støtten er dermed svært begrenset.
 
 ---
 
 ## Hurtigoversikt
 
-| Emne | Innhold |
-|------|---------|
-| Originale indikasjoner | Manglende data (`original_indications` ikke oppgitt, Norge Not marketed ingen autorisasjonsdata tilgjengelig) |
-| Forutsagt ny indikasjon | HIV infectious disease |
-| TxGNN forutsigelsesskår | 99.40% |
-| Bevisnivå | L4 (mekanistisk/preklinisk forskningsnivå) |
-| Markedsstatus for Norge | ✗ Not marketed |
-| Antall autorisasjoner | 0 |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Jernoverskudd; beta-talassemi |
+| Predikert ny indikasjon | HIV-infeksjon |
+| TxGNN-prediksjonsscore | 99,40 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun trukne (avregistrerte) godkjenninger |
+| Antall godkjenninger | 3 (alle trukket) |
 | Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor har denne prediksjonen rimelig grunnlag?
+## Hvorfor er denne prediksjonen rimelig?
 
-For tiden foreligger det ingen detaljert informasjon om virkningsmekanisme (MOA) (`original_moa` er merket som Data Gap). Basert på assosiativanalysen i Evidence Pack er Deferasirox et oralt trivalent jernskjelator hvis primære farmakologiske virkning er å redusere intracellulær fri jernkonsentrasjon, og det brukes klinisk oftest ved jernoverbelastningsrelaterte lidelser; denne mekanismen kan ha utvidet anvendelighet innen jernomsettings- og virusinteraksjonsfeltet.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Deferasirox er kjent som en jernchelator, og effekten ved jernoverskudd er etablert. Mekanistisk kan jernets rolle i virusbiologi gjøre en ny anvendelse tenkelig.
 
-Den mekanistiske hypotesen som støtter HIV-indikasjonspredikasjonen kommer fra en in vitro-studie: jernionkonsentrasjonen i endolysosomer påvirker graden av oligomerisering av HIV-1 Tat-protein, og dermed regulerer LTR-transkripsjonsaktivasjon (PMID 34550543). Denne hypotesen antyder at jernskjelering muligens indirekte kan hemme viral transkripsjonsaktivasjon, men dette er **en indirekte hypotese om jernomsettings-virusinteraksjon**, ikke en direkte antivirale mekanisme for legemidlet, og det foreligger ingen kliniske studier som bekrefter effektiviteten av denne veien hos mennesker.
+En studie fra 2021 (PMID 34550543) viser at jern i endolysosomer hemmer Tat-mediert transaktivering av HIV-1 LTR ved å øke Tat-oligomerisering og β-catenin-uttrykk. Koblingen mellom jern og HIV er dermed biologisk plausibel.
 
-Det skal også bemerkes at denne Evidence Pack samtidig viser 4 andre TxGNN-prediksjoner (kronisk HCV, sjelden nevrolig utviklingssykdom, utdatert familial blandet dyslipidemi, dermatofibrosarcoma protuberans), og bevisnivåene er for det meste L5 (ren modellprediksjon, uten litteratur eller klinisk støtte), og anbefalingstilstanden er alle Hold, så denne rapporten fokuserer på HIV-indikasjonssignalet med relativt fullstendigere bevis (rank 1).
-
----
-
-## Bevis fra kliniske studier
-
-For tiden ingen relevante registrerte kliniske studier
+Funnet gjelder imidlertid jernets effekt på Tat-proteinet. Det er uklart om jernchelering ville hjelpe eller hemme HIV-kontrollen, så effektretningen er usikker. Den andre publikasjonen er en generell oversikt over nye legemidler og gir ingen evidens for HIV.
 
 ---
 
-## Litteraturbevis
+## Kliniske studier
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
-|------|-----|------|-----------|---------------|
-| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Preklinisk mekanismestudium | Journal of Neurovirology | Jernionkonsentrasjonen i endolysosomer begrenser oligomerisering av HIV-1 Tat-protein og β-catenin-ekspresjon, og hemmer dermed Tat-formidlet HIV-1 LTR-transaktivasjon (in vitro mekanismestudium) |
-| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Oversikt/Narkotikanyheter | Journal of the American Pharmacists Association | Er en narkotikanyhetesoversikt (dekker ramelteon, tipranavir, nepafenac, deferasirox), gir ikke spesifikke effektivitetsdata for deferasirox relatert til HIV |
+Foreløpig ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Prekliniske/mekanistisk | Journal of neurovirology | Endolysosomalt jern begrenser Tat-mediert HIV-1 LTR-transaktivering via økt Tat-oligomerisering og β-catenin-uttrykk |
+| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Oversikt | J Am Pharm Assoc | Generell omtale av nye legemidler (inkl. deferasirox); ingen HIV-data |
 
 ---
 
 ## Markedsinformasjon for Norge
 
-For tiden er Deferasirox markedsstatus i Norge «Not marketed», uten autorisasjonsdata som kan vises.
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005014 | Deferasirox Mylan | – | Jernoverskudd; beta-talassemi |
+| EMEA/H/C/000670 | Exjade | – | Beta-talassemi; jernoverskudd |
+| EMEA/H/C/005156 | Deferasirox Accord | – | Jernoverskudd; beta-talassemi |
+
+Alle tre godkjenninger er trukket.
 
 ---
 
 ## Sikkerhetsvurderinger
 
-Konsulter pakningsvedlegget for sikkerhetsinformasjon (advarsler, kontraindikasjoner og data om legemiddelinteraksjoner i denne Evidence Pack er alle merket som Data Gap, og DG001 er allerede klassifisert som et Blocking-nivå gap, som venter på offisielle pakningsvedlegg fra DMP-nettstedet).
+Pakningsvedlegget må konsulteres for advarsler og kontraindikasjoner, da disse ikke inngår i de innsamlede dataene.
+
+- **Kontraindikasjoner fra kunnskapsgraf (ikke fra preparatomtale):** TxGNN-grafen (PrimeKG) knytter deferasirox til blant annet leversvikt, leversykdom, skrumplever, nyresykdom og nedsatt nyrefunksjon, trombocytopeni, nøytropeni, agranulocytose, anemi, hyperbilirubinemi (inkl. Gilberts syndrom), aktiv magesår, okulær hypertensjon, multiorgansvikt og kreft.
+- **Legemiddelinteraksjoner:** 100 interaksjoner er identifisert. Eksempler på **alvorlige (Major)**: hydrokortison, deksametason, betametason, triamcinolon, acetylsalisylsyre, mesalazin, balsalazid og ulike amfotericin B-formuleringer. Eksempler på **moderate**: rabeprazol, pioglitazon, alosetron, aprepitant, klaritromycin, saksagliptin, aluminiumhydroksid, cisaprid og deksfenfluramin.
 
 ---
 
-## Konklusjon og videre anbefalinger
+## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Dagens bevis som støtter HIV-indikasjonen består bare av en enkelt in vitro mekanismestudium (L4), mangler all klinisk eller human verifikasjonsdata; samtidig er sikkerhetspakningsvedlegg data (advarsler, kontraindikasjoner) et Blocking-nivå gap (DG001). Før disse dataene fylles, kan ikke S1-sikkerhetsinitiell evaluering utføres, og det er ikke tilstrekkelig til å støtte inngang i neste utviklingsfase.
+Prediksjonen har høy modellscore, men ingen kliniske studier, og den eneste mekanistiske studien gir usikker effektretning (jernchelering kan like gjerne være ugunstig). Deferasirox har i tillegg kun trukne godkjenninger i Norge og en betydelig sikkerhetsprofil.
 
-**Hvis du ønsker å gå videre, må du supplere:**
-- TFDA-pakningsvedlegg advarsler og kontraindikasjonsdata (DG001, Blocking, må laste ned og analysere offisielt pakningsvedlegg PDF)
-- Komplett virkningsmekanismedata (MOA) (DG002, High, kan suppleres gjennom DrugBank API-søk)
-- In vivo-verifikasjonsstudier for hypotesen «jernskjelering-HIV Tat-transkripsjonregulering», eller i det minste etablering av preklinisk/tidlig fase klinisk forsøksplanlegging for denne indikasjonen
-- Formelle søkeresultater for legemiddelinteraksjoner (DDI), for tiden i not_found-status
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA)
+- Pakningsvedlegg med advarsler og kontraindikasjoner fra legemiddelmyndighetene
+- Prekliniske data (celle-/dyremodeller) som avklarer om jernchelering hemmer eller fremmer HIV-replikasjon
+- Vurdering av regulatorisk status, siden alle norske/EU-godkjenninger er trukket
+- Sikkerhetsplan for nyre-, lever- og blodtallsovervåking samt interaksjoner, særlig med kortikosteroider og NSAID
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

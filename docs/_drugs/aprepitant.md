@@ -2,7 +2,7 @@
 layout: default
 title: Aprepitant
 parent: Kun modellprediksjon (L5)
-nav_order: 33
+nav_order: 36
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,65 +29,105 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Aprepitant: Fra kjemoterapiindusert kvalme og oppkast til nefrogen syndrom med upassende antidiurese
+# Aprepitant: Fra oppkast og kvalme til nefrogent syndrom med uhensiktsmessig antidiurese (NSIAD)
 
-## Oppsummering i en setning
+## Oppsummering i én setning
 
-> Aprepitant er en neurokinin-1 (NK1)/substans P-reseptorantagonist, offentlig kjent for bruk i forebygging av kjemoterapiindusert og postoperativ kvalme og oppkast.
-> TxGNN-modellen predikerer at det kan være effektivt for **nefrogen syndrom med upassende antidiurese**,
-> men foreløpig **ingen kliniske studier** og **ingen litteratur** støtter denne spesifikke retningen — modellens egen begrunnelse angir at det ikke er kjent mekanistisk sammenheng mellom NK1-antagonisme og AVP-reseptor-signalering.
+Aprepitant er en NK1-reseptorantagonist, opprinnelig brukt mot oppkast, postoperativ kvalme og oppkast og kreftrelatert kvalme.
+TxGNN-modellen forutsier at legemidlet kan ha effekt ved **nefrogent syndrom med uhensiktsmessig antidiurese (NSIAD)**,
+men det finnes **ingen kliniske studier og ingen relevant litteratur** som støtter denne retningen. Prediksjonen bygger kun på modellscore.
 
-## Rask oversikt
+---
+
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|------|--------|
-| Opprinnelig indikasjon | Ikke inkludert i evidenspakken (aprepitant er en kjent NK1/substans P-reseptorantagonist, vanligvis indisert for CINV/PONV) |
-| Predikert ny indikasjon | Nefrogen syndrom med upassende antidiurese |
-| TxGNN-prediksjonspoengsum | 99.97% |
+|------|------|
+| Opprinnelig indikasjon | Oppkast; postoperativ kvalme og oppkast; kreft (kreftrelatert kvalme) |
+| Predikert ny indikasjon | Nefrogent syndrom med uhensiktsmessig antidiurese (NSIAD) |
+| TxGNN-prediksjonsscore | 99,97 % |
 | Evidensnivå | L5 |
-| Taiwan-markedsstatus | Ikke markedsført (Ikke markedsført) |
-| Antall autorisasjoner | 0 |
-| Anbefalt avgjørelse | Avvent |
+| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Antall tillatelser | 1 |
+| Anbefalt beslutning | Hold |
 
-## Hvorfor er denne prediksjonen rimelig?
+---
 
-For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige i den strukturerte evidenspakken. Basert på modellens egen begrunnelse, er aprepitant kjent for å være en NK1 (neurokinin-1/substans P-reseptor) antagonist. Dens etablerte farmakologi er knyttet til substans P-formidlet kvalme-veier, ikke til arginin vasopressin (AVP) reseptor-signalering, som ligger til grunn for nefrogen syndrom med upassende antidiurese.
+## Hvorfor er denne prediksjonen rimelig (eller ikke)?
 
-Begrunnelsen for ombruk angir eksplisitt at denne indikasjonen ikke har kjent skjæringspunkt med AVP-signaleringsbanen, og at den høye TxGNN-poengsum er rent datadrevet snarere enn mekanisme-støttet. Det er ingen plausibel farmakologisk sammenheng mellom den opprinnelige NK1-antagonist-aktiviteten og patofysiologien til denne predikerte indikasjonen basert på foreløpig tilgjengelig informasjon.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Aprepitant er kjent som en NK1-reseptorantagonist, og effekten ved kvalme og oppkast er godt dokumentert. Om den kan overføres til NSIAD, er likevel høyst usikkert.
 
-Gitt fraværet av enhver mekanistisk hypotese forankret i eksisterende farmakologi, bør denne prediksjonen behandles som et eksplorativt signal kun, ikke som en mekanisme-motivert ombruk-kandidat.
+Prekliniske arbeider antyder at substans P/NK1-signalering kan påvirke regulering av vasopressin og vannbalanse. NSIAD skyldes imidlertid aktiverende mutasjoner i V2-reseptoren (AVPR2), som virker nedstrøms for frisetting av vasopressin. NK1-blokade forventes derfor ikke å påvirke selve grunnfeilen. Koblingen er spekulativ og støttes kun av TxGNN-scoren.
 
-## Kliniske studier
+### Andre predikerte indikasjoner
 
-Det er foreløpig ingen relaterte kliniske studier registrert.
+Datagrunnlaget inneholder ni ytterligere prediksjoner. Alle har evidensnivå L5, ingen kliniske studier og anbefalingen Hold:
 
-## Litteraturbeviser
+| Rang | Sykdom | TxGNN-score | Vurdering |
+|------|------|------|------|
+| 2 | Hypertrikose | 99,91 % | Ingen klar mekanisme; ikke støttet av kliniske data |
+| 3 | Pulmonal hypertensjon | 99,90 % | Mekanistisk hypotese er plausibel, men ikke validert |
+| 4 | Lepra | 99,90 % | Spekulativ kobling; effektiv behandling finnes allerede |
+| 5 | Ambras-type hypertrichosis universalis congenita | 99,87 % | Ingen mekanistisk eller klinisk støtte |
+| 6 | Misdannelsessyndrom med tann- og/eller periodontal komponent | 99,86 % | Ingen plausibel mekanisme |
+| 7 | Kyfoskoliotisk hjertesykdom | 99,86 % | NK1-mekanisme adresserer ikke den strukturelle årsaken |
+| 8 | Syndrom med Dandy-Walker-malformasjon | 99,86 % | Utviklingsmessig misdannelse; ingen støtte |
+| 9 | Subaraknoidalblødning | 99,85 % | Mest biologisk plausible; kandidat for prekliniske oppfølgingsstudier |
+| 10 | Isolert genetisk hårskaftavvik | 99,85 % | Ingen kjent mekanisme |
 
-Det er foreløpig ingen relatert litteratur tilgjengelig.
+Blant alle de predikerte indikasjonene har subaraknoidalblødning den mest biologisk plausible begrunnelsen. Prekliniske studier antyder at substans P/NK1-signalering bidrar til brudd på blod-hjerne-barrieren og hjerneødem etter hjerneskade.
 
-## Norske markedsinformasjon
+---
 
-Ingen taiwanske markedsautorisasjoner ble funnet for dette produktet (markedsstatus: Ikke markedsført / ikke markedsført, 0 lisenser på rekord).
+## Klinisk studieevidens
 
-## Sikkerhetshensyn
+Foreløpig er ingen relaterte kliniske studier registrert for den predikerte indikasjonen.
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+---
 
-*(Merk: TFDA-etikett-advarsler/kontraindikasjoner-data er flagget som en **blokkerende** datakluft (DG001) — denne evalueringen kan ikke gå videre til en fullstendig S1 sikkerhetsvurdering før dette er løst.)*
+## Litteraturevidens
 
-## Konklusjon og neste skritt
+Foreløpig er ingen relatert litteratur tilgjengelig for den predikerte indikasjonen (NSIAD).
 
-**Avgjørelse: Avvent**
+For informasjon: Under rang 3 (pulmonal hypertensjon) ble én publikasjon koblet til prediksjonen, [PMID 28261651](https://pubmed.ncbi.nlm.nih.gov/28261651/) (2016, *Oncology and Therapy*). Dette er en fase I-studie av pazopanib i kombinasjon med cisplatin ved avanserte solide svulster. Den omhandler verken aprepitant eller pulmonal hypertensjon og regnes som en feilaktig kobling uten støttende verdi.
+
+---
+
+## Informasjon om det norske markedet
+
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000527 | Emend | Ikke oppgitt | Oppkast; postoperativ kvalme og oppkast; kreft |
+
+Tillatelsen har status avregistrert. Det finnes ingen gyldige tillatelser for enkeltpreparater eller kombinasjonspreparater.
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Kontraindikasjoner (fra kunnskapsgraf):** Kunnskapsgrafen i TxGNN (PrimeKG) viser en kontraindikasjonskobling til **leversvikt**. Dette er ikke hentet fra preparatomtale.
+- **Legemiddelinteraksjoner:** Totalt 100 interaksjoner er identifisert. Et utvalg:
+  - **Alvorlige (Major):** fentanyl, alfentanil, acalabrutinib
+  - **Moderate:** paklitaksel, abemaciklib, rabeprazol, nifedipin, ibuprofen, levonorgestrel, hydrokortison, albendazol, fluvoksamin, fosamprenavir, fosfenytoin, fostamatinib, gefitinib, lidokain, dihydrokodein
+  - **Mindre (Minor):** dolutegravir
+
+Se preparatomtalen for øvrig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen befinner seg på evidensnivå L5 — en modellpoengsum uten støttende kliniske studier eller litteratur, og modellens egen begrunnelse bekrefter ingen kjent mekanistisk sammenheng med originallegemidlets farmakologi. Kombinert med en blokkerende datakluft i TFDA sikkerhetsetikett-data, er det foreløpig ingen grunnlag for å fremme denne kandidaten utover hypotesegenerering.
+Prediksjonen for NSIAD har kun modellscore som støtte (evidensnivå L5). Det finnes ingen kliniske studier eller litteratur, og mekanismen er lite sannsynlig siden NSIAD skyldes en V2-reseptordefekt nedstrøms for vasopressin. Legemidlet har dessuten ingen gyldig tillatelse i Norge.
 
-**For å gå videre er følgende nødvendig:**
-- TFDA etikett-advarsler/kontraindikasjoner (DG001, blokkering) — påkrevd før enhver S1 sikkerhetsvurdering
-- Bekreftet virkningsmekanisme-data fra DrugBank (DG002)
-- Prekliniske eller mekanistiske studier som etablerer en biologisk sammenheng mellom NK1-antagonisme og AVP-formidlet antidiurese
-- Enhver klinisk caserapport, observasjonsdata, eller studier som spesifikt evaluerer aprepitant i SIADH/nefrogen antidiurese-relaterte tilstander
-
+**For å gå videre kreves følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner (kritisk datamangel som blokkerer sikkerhetsscreening)
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Prekliniske data som støtter NK1-blokade ved NSIAD, eller alternativt prioritering av subaraknoidalblødning for preklinisk oppfølging
+- Avklaring av doseringsformer og administrasjonsveier
+- Avklaring av legemidlets regulatoriske status i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

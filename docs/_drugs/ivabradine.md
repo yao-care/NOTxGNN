@@ -2,7 +2,7 @@
 layout: default
 title: Ivabradine
 parent: Kun modellprediksjon (L5)
-nav_order: 192
+nav_order: 225
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,77 +29,93 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Ivabradine: Fra kronisk hjertesvikt/angina til hypertrikose
+# Ivabradin: Fra angina pectoris og hjertesvikt til hypertrikose
 
-## Sammenfatting på én setning
+## Oppsummering i én setning
 
-Ivabradine er en selektiv HCN (If, «funny current») kanalblokker som bremser sinusknuttefrekvensen, brukt klinisk for kronisk hjertesvikt og stabil angina. TxGNN-modellen forutsier at den kan være effektiv for **Hypertrikose (sykdom)**, men denne prognosen er for tiden støttet av **0 kliniske studier** og **0 publikasjoner**, og bevisstoffpakken selv noterer at det ikke er kjent noen mekanistisk sammenheng mellom HCN-kanalblokkering og regulering av hårvekst.
+Ivabradin er et legemiddel som opprinnelig brukes mot **angina pectoris og hjertesvikt**. TxGNN-modellen forutsier at det kan ha effekt ved **hypertrikose (uvanlig sterk hårvekst)**, men prediksjonen bygger kun på en modellberegning: det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter den i de innsamlede dataene.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Ikke spesifisert i bevisstoffpakke (DrugBank `original_indications` felt tomt) |
-| Forutsagt ny indikasjon | Hypertrikose (sykdom) |
-| TxGNN-prognosescore | 99.79% |
-| Bevisnivå | L5 |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt avgjørelse | Avvent |
+| Opprinnelig indikasjon | Angina pectoris; hjertesvikt |
+| Predikert ny indikasjon | Hypertrikose |
+| TxGNN-prediksjonsscore | 99,79 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun kansellerte godkjenninger |
+| Antall godkjenninger | 5 (alle kansellert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prognosen rimelig?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte felt for opprinnelig indikasjon og formell virkningsmekanisme er ikke utfylt i denne bevisstoffpakken. Imidlertid beskriver pakkens egen begrunnelse for ombruk ivabradine som en selektiv HCN-kanalblokkerer som virker på sinusknutten for å redusere hjertefrekvensen, brukt for kronisk hjertesvikt og stabil angina.
+Detaljerte data om virkningsmekanismen er for øyeblikket ikke tilgjengelige i datagrunnlaget. Ut fra allmenn kunnskap blokkerer ivabradin HCN-kanalen (If, den såkalte «funny current») i sinusknuten og senker dermed hjertefrekvensen. Effekten er symptomatisk og rettet mot hjertet.
 
-Det finnes ingen etablert biologisk vei som forbinder HCN-kanalblokkering i sinusknutten med regulering av hårsekkvekst (f.eks. Wnt/β-catenin-signalering eller androgenreseptor-signalveier som er implisert i hypertrikose). Bevisstoffpakken angir eksplisitt at denne kandidaten oppstår rent fra graf-innebyggingslikhet i TxGNN-modellen, uten direkte eller indirekte klinisk eller mekanistisk støtte.
+Det er ingen dokumentert sammenheng mellom HCN-hemming og regulering av hårvekst. Den høye scoren (0,998) gjenspeiler trolig nærhet i nettverksgrafen, ikke en biologisk begrunnelse. Det samme gjelder de øvrige predikerte tilstandene:
 
-Det samme mønsteret gjelder for alle seks forutsagte indikasjoner i denne pakken — hypertrikose, Ambras-syndrom, periodont-malformasjonssyndrom, Dandy-Walker-malformasjon, abnormitet av hårhaft og nefrogent syndrom for upassende antidiurese. Hver begrunnelsestekst noterer uavhengig mangelen på en plausibel mekanistisk forbindelse til HCN-kanalfarmakologi, og litteraturen om periodontale sykdommer som ble hentet (rangering 3) består av generelle periodontologi-oversikter som aldri nevner ivabradine, noe som indikerer nøkkelordmatchings-støy snarere enn stoffspesifikk bevis.
-
----
-
-## Bevis fra kliniske studier
-
-Ingen relaterte kliniske studier er for tiden registrert.
+- **Ambras-type hypertrichosis universalis congenita** (score 99,72 %): en sjelden medfødt tilstand knyttet til genomiske omleiringer nær TRPS1. Relevansen av HCN-blokkade er ikke etablert.
+- **Misdannelsessyndrom med tann- og/eller periodontal komponent** (99,72 %): en heterogen gruppe utviklingsforstyrrelser. Et pulsreduserende legemiddel er lite sannsynlig å påvirke slik patologi.
+- **Syndrom med Dandy-Walker-malformasjon** (99,70 %): en strukturell utviklingsanomali i bakre skallegrop, uten kjent rolle for HCN-hemming.
+- **Isolert genetisk hårskaftavvik** (99,69 %): HCN-kanaler er omtalt i enkelte rapporter om hårsekkrelaterte celler, men det finnes ingen data på at ivabradin påvirker hårskaftets struktur.
+- **Nefrogent syndrom med uhensiktsmessig antidiurese** (99,08 %): skyldes aktiverende varianter i vasopressin V2-reseptoren (AVPR2), en signalvei ivabradin ikke virker på.
 
 ---
 
-## Litteraturbevis
+## Klinisk evidens
 
-Ingen relevant litteratur er for tiden tilgjengelig.
-
----
-
-## Norsk markedsinformasjon
-
-Ivabradine er ikke markedsført i Norge under denne bevisstoffpakken (`market_status: Not marketed`, 0 totale lisenser). Ingen godkjenningsregistre er tilgjengelige for opplistning.
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Vennligst se pakningsinnskriften for sikkerhetsinformasjon.
+Foreløpig er ingen relatert litteratur tilgjengelig.
 
-*(Merk: den underliggende bevisstoffpakken flagger TFDA-advarsler/kontraindikasjondata som en datalukke med Blokkering-alvorlighetsgrad (DG001), noe som betyr at en formell sikkerhetsgjennomgang (S1) ikke kan utføres for denne kandidaten for øyeblikket.)*
+---
+
+## Markedsinformasjon for Norge
+
+Alle fem godkjenninger er kansellert, og ingen er gyldige i dag.
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004187 | Ivabradine Anpharm | – | Angina pectoris; hjertesvikt |
+| EMEA/H/C/004241 | Ivabradine Accord | – | Angina pectoris; hjertesvikt |
+| EMEA/H/C/000597 | Procoralan | – | Angina pectoris; hjertesvikt |
+| EMEA/H/C/000598 | Corlentor | – | Angina pectoris; hjertesvikt |
+| EMEA/H/C/004117 | Ivabradine Zentiva | – | Angina pectoris; hjertesvikt |
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Legemiddelinteraksjoner**: Det er funnet 100 registrerte interaksjoner. Blant de første 20 som ble gjennomgått, er følgende av **alvorlig (Major)** grad:
+  - Aprepitant, klaritromycin, kobicistat, klotrimazol (kan øke ivabradinnivået via CYP3A4-hemming og/eller forsterke effekten)
+  - Dolasetron, palonosetron, granisetron, ondansetron, cisaprid, levofloksacin, papaverin (kan bidra til QT-forlengelse eller hjerterytmeforstyrrelser)
+
+  Interaksjoner av **moderat** grad omfatter famotidin, ranitidin (også med vismutsitrat), cimetidin, nizatidin, deksametason, metreleptin, mikonazol og troglitazon.
+
+For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner) må preparatomtalen konsulteres.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Avgjørelse: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Alle seks TxGNN-forutsagte indikasjoner for ivabradine er vurdert til L5 (kun modellprognose), med null støttende kliniske studier og ingen stoffspesifikk litteratur. Bevisstoffpakkens egen mekanistiske begrunnelse for den topprankerte prognosen (hypertrikose) angir eksplisitt at det ikke er kjent noen biologisk sammenheng til ivabradines HCN-kanalblokkering. Kombinert med stoffets ikke-markedsførte status i Norge og en datalukke med Blokkering-alvorlighetsgrad i TFDA-sikkerhetsetikettdata, er det intet grunnlag for å fremme denne kandidaten utover oppdagingsfasen.
+Prediksjonen er kun beregnet av modellen (evidensnivå L5). Det finnes verken kliniske studier, publikasjoner eller en dokumentert mekanistisk sammenheng mellom HCN-hemming og hårvekst. I tillegg er alle norske godkjenninger kansellert.
 
-**For å gå videre er det nødvendig med:**
-- TFDA/regulatoriske etikettdata (advarsler, kontraindiksjoner) — for tiden datalukke (DG001)
-- Bekreftet virkningsmekanismedata fra DrugBank (DG002)
-- Eventuelle prekliniske eller mekanistiske studier som direkte forbinder HCN-kanalsmodulering med hårsekkvekst eller de andre forutsagte fenotypene
-- Revurdering dersom fremtidige TxGNN-modelloppdateringer avdekker indikasjoner med høyere tiltro og mekanistisk plausibilitet for dette stoffet
-
+**For å gå videre kreves følgende:**
+- Detaljerte data om virkningsmekanisme (MOA)
+- Preparatomtale med advarsler og kontraindikasjoner, som er en forutsetning for sikkerhetsscreening
+- Prekliniske studier eller mekanistiske data som undersøker HCN-kanalers rolle i hårsekker
+- Avklaring av administrasjonsvei og forhold til opprinnelig indikasjon
+- Vurdering av om markedsføringstillatelse må søkes på nytt, siden ingen er gyldig i dag
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

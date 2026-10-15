@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Interferon Beta-1B
-parent: Moderat evidens (L3-L4)
-nav_order: 189
-evidence_level: L3
+parent: Kun modellprediksjon (L5)
+nav_order: 222
+evidence_level: L5
 indication_count: 2
 ---
 
 # Interferon Beta-1B
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **2** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,84 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Interferon Beta-1b: Fra multippel sklerose (etablert bruk) til hårete celleleukemi
+# Interferon beta-1b: Fra multippel sklerose til hårcelleleukemi
 
-## Sammendrag i én setning
+## Sammendrag
 
-> Interferon beta-1b er et type I interferon hvis etablerte kliniske bruk — basert på den mekanistiske evidensen i denne pakken — er ved multippel sklerose; formelle regulatoriske journaler for originalindikasjon og markedsautilgang er ikke tilgjengelige i dette datasettet.
-> TxGNN-modellen predikerer et repurposing-signal for **hårete celleleukemi**,
-> som for tiden støttes av **0 registrerte kliniske forsøk** og **4 eldre publikasjoner (1987–1990)**, med ingen kjent markedstilstedeværelse i Norge.
+Interferon beta-1b brukes opprinnelig til behandling av multippel sklerose (MS). TxGNN-modellen forutsier at legemidlet kan ha effekt ved **hårcelleleukemi**, men dette er en ren beregningsbasert prediksjon. De innsamlede dataene inneholder **0 kliniske studier** og **0 publikasjoner** for denne kombinasjonen av legemiddel og sykdom.
 
 ---
 
-## Hurtig oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Originalindikasjon | Ikke tilgjengelig i regulatorisk datasett (0 lisenser på fil; se datakløft DG001) |
-| Predikert ny indikasjon | Hårete celleleukemi |
-| TxGNN prediksjonspoeng | 99.16% |
-| Evidensnivå | L3 |
-| Markedsstatus Norge | Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Multippel sklerose |
+| Foreslått ny indikasjon | Hårcelleleukemi |
+| TxGNN-prediksjonsscore | 99,16 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrerte/trukkede godkjenninger |
+| Antall godkjenninger | 1 (0 gyldige, 1 avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte mekanisme-for-handling-data for dette legemidlet er for tiden ikke tilgjengelige (datakløft DG002). Basert på den mekanistiske begrunnelsen som følger med denne evidenspakken, er interferon beta-1b et type I interferon (IFN-β) med antiproliferativ og immunmodulatorisk aktivitet, som signaliserer gjennom IFNAR-reseptorbanen. Det tilhører samme type I interferon-familie som interferon alfa, som allerede er en etablert behandling for hårete celleleukemi.
+Det foreligger ingen detaljerte data om virkningsmekanismen i datagrunnlaget for denne rapporten. Interferon beta-1b er et type I-interferon som er godt kjent som immunmodulerende behandling ved MS, og effekten ved MS er dokumentert.
 
-Begrunnelsen for denne prediksjonen hviler på medikamentklasse-analogi snarere enn overlappende indikasjoner: fordi IFN-α og IFN-β deler samme reseptor og påfølgende antiproliferativ signalering i lymfoid-/myeloid-forløperceller, har IFN-β-1b's aktivitet mot hårete celleleukemi biologisk plausibilitet. Dette understøttes av eldre klinisk litteratur (1987–1990) som direkte tester IFN-β-ser hos pasienter med hårete celleleukemi, noen av dem hadde mislyktes eller gikk forut for standard alfa-interferon-terapi.
+Interferon alfa er den interferonklassen som historisk er brukt ved hårcelleleukemi. Interferon beta-1b virker gjennom den samme type I-interferonreseptoren (IFNAR), så antiproliferative og immunmodulerende effekter er biologisk plausible. Dette er imidlertid en slutning på klassenivå og er ikke støttet av direkte data for beta-1b.
 
-Imidlertid stammer denne litteraturen fra før moderne standard-of-care-virkemidler for hårete celleleukemi (f.eks. purinanaloga som cladribine/pentostatin), og ingen kliniske forsøk har blitt registrert på ClinicalTrials.gov for å bekrefte dette signalet på nytt i en samtidig setting. Prediksjonen bør derfor leses som en plausibel, mekanistisk begrunnet hypotese snarere enn en validert repurposing-vei.
-
----
-
-## Klinisk forsøkseviden
-
-For tiden ingen relaterte kliniske forsøk registrert.
+Det er også viktig å merke seg at dagens standardbehandling ved hårcelleleukemi er purinanaloger (kladribin, pentostatin) og BRAF-hemmere. Det udekkede behovet for et interferonpreparat er derfor lavt.
 
 ---
 
-## Litteratureviden
+## Klinisk studiedokumentasjon
 
-| PMID | År | Type | Tidsskrift | Nøkkelfunn |
-|------|-----|------|------|---------|
-| [2736487](https://pubmed.ncbi.nlm.nih.gov/2736487/) | 1989 | Prospektiv komparativ studie | Cancer | 10 HCL-pasienter behandlet med rekombinant IFN-β-ser (90×10⁶ U SC, 3x/uke); 63% normaliserte periferalt blodtall, 25% delvis hematologisk forbedring, sammenlignet prospektivt med IFN-α-resultater. |
-| [2198792](https://pubmed.ncbi.nlm.nih.gov/2198792/) | 1990 | Kasusserie (post-IFN-β-svikt) | American Journal of Clinical Oncology | 3 HCL-pasienter som ikke responderte på IFN-α eller IFN-β oppnådde fullstendig respons med pentostatin (DCF), som demonstrerer et redningsalternativ etter IFN-β-svikt. |
-| [2082943](https://pubmed.ncbi.nlm.nih.gov/2082943/) | 1990 | Kasusserie/liten studie | American Journal of Hematology | 12 tungt forbehandlede HCL-pasienter (90–100% hårete benmarksceller) behandlet med IV beta-ser IFN 90 MU 3x/uke; beskriver dosering og tolerabilitet. |
-| [3312839](https://pubmed.ncbi.nlm.nih.gov/3312839/) | 1987 | Retrospektiv kohort/erfaring | Leukemia | UCLA-erfaring fra 51 HCL-pasienter på type I IFN-forsøk; hematologisk forbedring hos ~71% av pasienter som startet rekombinant beta-ser-IFN, sammenlignbar med alfa-IFN-responsrater. |
+Foreløpig er ingen relaterte kliniske studier registrert for interferon beta-1b ved hårcelleleukemi.
 
 ---
 
-## Markedsinformasjon Norge
+## Litteraturevidens
 
-Dette produktet har for tiden ingen godkjenningsregistreringer på fil i Norge (0 lisenser; markedsstatus: Ikke markedsført).
-
----
-
-## Sikkerhetshensyn
-
-Vennligst se pakkeseddelen for sikkerhetsinformasjon.
+Foreløpig er ingen relatert litteratur tilgjengelig for interferon beta-1b ved hårcelleleukemi.
 
 ---
 
-## Tilleggssignal (supplerende): Autoimmun sykdom i sentralnervesystemet
+## Markedsinformasjon for Norge
 
-Separat fra den primære repurposing-kandidaten ovenfor, inneholder denne evidenspakken også en andre, meget sterkere-evidens-prediksjon for interferon beta-1b: **autoimmun sykdom i sentralnervesystemet** (TxGNN-poeng 99.02%), støttet av **24 kliniske forsøk** (inkludert flere fullførte fase 3/fase 4-studier som BENEFIT og BENEFIT 11, n=278–2,878) og **18 publikasjoner**, inkludert en Cochrane-nettverksmetaanalyse. Evidensnivå er **L1**, beslutningsstadium **S3**, med anbefaling om **Gå videre med sikringstiltak**.
+| Godkjenningsnummer | Produktnavn | Status | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000081 | Betaferon (Bayer AG) | Avregistrert | Multippel sklerose |
 
-Dette signalet er i samsvar med interferon beta-1b's mekanistiske begrunnelse for modulering av Th1/Th17–Treg-balanse og inhibering av T-cellemigrering over blod-hjerne-barrieren — den etablerte virkemåten ved multippel sklerose — og gjenspeiler sannsynligvis bekreftelsen av en allerede etablert terapeutisk bruk snarere enn en ny repurposing-mulighet. Det noteres her for fullstendighet, men er ikke gjenstand for denne rapportens primære Go/Hold-beslutning, siden det ikke representerer en ny indikasjon.
+Det finnes ingen gyldige godkjenninger. Det betyr at produktet har begrenset tilgjengelighet i dag.
 
 ---
 
-## Konklusjon og neste skritt
+## Sikkerhetsvurderinger
 
-**Beslutning: Avvent**
+**Legemiddelinteraksjoner**: Det er registrert 100 interaksjoner. De viktigste er:
+
+- **Alvorlig (Major)**: Bupropion
+- **Moderat**: Acarbose, pioglitazon, rosiglitazon, klaritromycin, levofloksacin, minocyklin, naltrekson, nikotinamid, orlistat, rosuvastatin, simvastatin, klotrimazol, kenodeoksykolsyre, pikosulfat, polyetylenglykol (3350 med elektrolytter), natriumsulfat, oksandrolon, oksymetolon og stanozolol
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Hårete celleleukemi-signalet hviler helt på små, tiår gamle (1987–1990) kasusserier og kohortlitteratur med ingen registrerte kliniske forsøk og ingen evidens generert mot moderne standard-of-care-sammenligninger. Kombinert med L3-evidensnivået og «Forskningsspørsmål»-stadiet flagget i kildedata, er evidensen utilstrekkelig til å rettferdiggjøre å gå videre på dette tidspunktet.
+Prediksjonen er svært høyt skåret (99,16 %), men bygger utelukkende på modellberegning uten kliniske studier eller litteratur for denne indikasjonen. Dagens standardbehandling er effektiv, og den eneste norske godkjenningen er avregistrert.
+
+For den andre prediksjonen, «autoimmun sykdom i sentralnervesystemet», finnes det omfattende evidens (L1), blant annet en fase 3-forlengelsesstudie (NCT00185211, 468 pasienter). Den er imidlertid i hovedsak en bekreftelse av den eksisterende MS-indikasjonen og ikke reell repurposing.
 
 **For å gå videre kreves følgende:**
-- TFDA/Norge-pakkeseddel-data — advarsler, kontraindikasjoner, DDI (datakløft DG001, som for tiden blokkerer sikkerhetskontroll)
-- Bekreftet mekanisme-for-handling-dokumentasjon (datakløft DG002)
-- Samtidig klinisk forsøksdata for interferon beta-1b ved hårete celleleukemi, ideelt sammenlignet med purinanaloga-terapi
-- Vurdering av administrasjonsrute-kompatibilitet (for tiden «venter» i evidenspakken)
-- Bekrefting av opprinnelig godkjent indikasjon(er) og markedshistorie, som for tiden mangler fra det regulatoriske datasettet
-
+- Pakningsvedlegg med advarsler og kontraindikasjoner, som i dag mangler
+- Detaljerte data om virkningsmekanisme (MOA)
+- Systematisk litteratursøk og prekliniske data for interferon beta-1b ved hårcelleleukemi
+- Vurdering av klinisk nytteverdi sammenlignet med purinanaloger og BRAF-hemmere
+- Avklaring av tilgjengelighet i Norge, siden godkjenningen er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

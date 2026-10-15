@@ -2,7 +2,7 @@
 layout: default
 title: Prasterone
 parent: Kun modellprediksjon (L5)
-nav_order: 286
+nav_order: 334
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,99 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Prasterone: Fra uspesifisert original indikasjon til Heparin Cofactor 2-mangel
+# Prasteron: Fra postmenopause til heparinkofaktor 2-mangel
 
 ## Oppsummering i en setning
 
-> Prasterone (DHEA, DB01708) er en adrenalt steroidhormonforløper; ingen godkjent indikasjondata er tilgjengelige i denne bevissamlingen, og legemidlet markedsføres ikke for tiden i Norge.
-> TxGNN-modellens topprediksjon er **Heparin Cofactor 2-mangel**, men denne kandidaten har **ingen støttende kliniske forsøk eller litteratur**, og den foreslåtte mekanismen strider mot kjent androgenfarmakologi.
+Prasteron (DHEA, handelsnavn Intrarosa) er et steroid-forstadium som opprinnelig ble godkjent for behandling av symptomer knyttet til postmenopause.
+TxGNN-modellen forutsier at det kan ha effekt ved **heparinkofaktor 2-mangel**, men dette er en ren modellbasert prediksjon.
+Det finnes **ingen kliniske studier** og **ingen publikasjoner** i dataene som er samlet inn for denne rapporten.
 
 ---
 
 ## Hurtigoversikt
 
-| Objekt | Innhold |
-|--------|---------|
-| Original indikasjon | Ikke dokumentert i bevissamlingen (ingen lisens-/indikasjonsposter tilgjengelig) |
-| Forutsagt ny indikasjon | Heparin Cofactor 2-mangel |
-| TxGNN-prediksjonspoengsum | 99.99% (rangering 223 av fullstendig sykdomsliste) |
-| Bevisnivå | L5 (modellprediksjon kun, ingen klinisk eller litteraturstøtte) |
-| Norges markedsstatus | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Pausert |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Postmenopause |
+| Predikert ny indikasjon | Heparinkofaktor 2-mangel (heparin cofactor 2 deficiency) |
+| TxGNN-prediksjonsscore | 99,99 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun opphevede godkjenninger |
+| Antall godkjenninger | 1 (0 gyldige, 1 opphevet) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor kan prediksjonen være rimelig?
 
-For tiden er detaljerte virkningsmekanismedata ikke tilgjengelige for prasterone. Basert på kjent farmakologisk klassifisering er prasterone (DHEA) en adrenal steroidhormonforløper som konverteres perifert til androgener og østrogener; dette klassifiseringsnivåfaktet er ikke spesifikt nok til å etablere en mekanistisk sammenheng til heparin cofactor II-mangel.
+Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig. Prasteron er et endogent steroid-forstadium (DHEA) som omdannes til androgener og østrogener i kroppen. Den opprinnelige indikasjonen er postmenopause, og det finnes ingen kjent direkte mekanistisk kobling til heparinkofaktor II (SERPIND1).
 
-Heparin cofactor II-mangel er en arvelig tilstand der det terapeutiske målet er å **gjenopprette antikoagulantaktivitet**. Androgener er imidlertid generelt forbundet med **pro-koagulanteffekter** — økt syntese av koagulasjonsfaktorer og redusert naturlig antikoagulantaktivitet (et mønster som også gjenspeiles i denne samme bevissamlingens andre topprediksjoner, som antithrombin-mangel og protein S-mangel, alle flagget med samme retningspregte bekymring). Dette plasserer den forutsagte indikasjonen i mekanistisk konflikt med legemidlets kjente farmakologi snarere enn som støtte for den.
+Eventuelle mekanismer er spekulative, for eksempel indirekte effekter på koagulasjon eller lipidveier via kjønnshormonsignalering. Den høye TxGNN-scoren gjenspeiler trolig nærhet mellom noder i kunnskapsgrafen, ikke et dokumentert farmakologisk grunnlag.
 
-Gitt fraværet av noen kliniske forsøk, publisert litteratur, eller dokumentert MOA som forbinder prasterone til denne sykdommen, rangeres dette som en ren nettverkstopologi-prediksjon (L5) med et plausibelt biologisk argument *mot* effektivitet snarere enn for den.
+Dataene viser også at en rekke andre tromboserelaterte tilstander scorer svært høyt (se tabellen under). Flere av disse reiser et sikkerhetsmessig spørsmål, siden østrogenlignende effekter generelt kan øke tromberisikoen.
 
----
+### Andre predikerte indikasjoner (alle evidensnivå L5, beslutning Hold)
 
-## Klinisk forsøksbeviser
-
-For tiden ingen beslektede kliniske forsøk registrert.
-
----
-
-## Litteraturbeviser
-
-For tiden ingen beslektet litteratur tilgjengelig.
-
----
-
-## Norges markedsinformasjon
-
-Prasterone har for tiden **ingen markedsføringsgodkjenninger i Norge** (markedsstatus: Ikke markedsført; totale godkjenninger: 0). Ingen lisensdata er tilgjengelig for oppsummering.
+| Rang | Sykdom | TxGNN-score |
+|------|------|------|
+| 2 | Faktor 5-overskudd med spontan trombose | 99,98 % |
+| 3 | Antitrombinmangel type 2 | 99,98 % |
+| 4 | Trombofili | 99,91 % |
+| 5 | Alvorlig ikke-proliferativ diabetisk retinopati | 99,25 % |
+| 6 | Trombofili ved protein S-mangel (autosomal recessiv) | 99,13 % |
+| 7 | Sklerodermi | 99,11 % |
+| 8 | Komplement C4A-mangel | 99,05 % |
+| 9 | Pseudo-von Willebrands sykdom | 99,01 % |
+| 10 | Primær frigjøringsforstyrrelse i blodplater | 99,01 % |
 
 ---
 
-## Sikkerhetshensyn
+## Kliniske studier
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Merk: TFDA/etikett-advarsler og kontraindikasjonsdata er for tiden utilgjengelige — se datahull nedenfor.)
+Det er for tiden ingen relaterte kliniske studier registrert.
 
 ---
 
-## Konklusjon og neste trinn
+## Litteraturevidens
 
-**Beslutning: Pausert**
+Det er for tiden ingen relevant litteratur tilgjengelig.
+
+---
+
+## Markedsinformasjon for Norge
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004138 | Intrarosa | Ikke oppgitt | Postmenopause |
+
+Godkjenningen (innehaver: Endoceutics S.A.) er registrert som opphevet. Det finnes ingen gyldige godkjenninger i Norge.
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Legemiddelinteraksjoner**: Én farmakologisk interaksjon er registrert. Prasteron (DHEA) virker på glysinreseptorer (alle subtyper). Det er ikke oppgitt noe interaksjonsnivå.
+
+For øvrig sikkerhetsinformasjon, se preparatomtalen. Merk at advarsler og kontraindikasjoner fra preparatomtalen ikke er innhentet, noe som er en blokkerende datamangel for videre sikkerhetsscreening.
+
+Fra et teoretisk ståsted kan omdanning til østrogener og androgener påvirke koagulasjonsfaktorer. Dette er særlig relevant for de predikerte trombosetilstandene, der effekten sannsynligvis er ugunstig snarere enn terapeutisk.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Topprangerte prediksjon (heparin cofactor 2-mangel) har null klinisk eller litteraturbevis, og dens foreslåtte farmakologi er i konflikt med androgeners kjente pro-koagulantegenskaper, noe som gjør det biologisk usannsynlig i sin nåværende form. Kombinert med manglende MOA- og sikkerhetsetikett-data, oppfyller denne kandidaten ikke kravet for å gå videre forbi S0.
+Prediksjonen er utelukkende beregningsbasert (evidensnivå L5) uten støtte fra kliniske studier eller litteratur. Flere av de predikerte tilstandene er protrombotiske, og prasterons hormonelle effekter kan i verste fall forverre dem. I tillegg er legemidlet ikke lenger markedsført i Norge.
 
-**For å gå videre er følgende nødvendig:**
-- TFDA/etikett-advarsler og kontraindikasjoner (blokkerende hull — kreves før S1-sikkerhetsvurdering)
-- Bekreftet virkningsmekanismedata fra DrugBank eller primærlitteratur
-- Eksperimentell eller klinisk evidens for DHEA-effekt på heparin cofactor II / antithrombin / protein S-aktivitet, gitt sikkerhetskonsernet som er reist ovenfor
-- Vurder å nedprioritere denne høyest rangerte kandidaten: innenfor samme prediksjonsgruppe har **skleroderm (rangering 7)** sterkere biologisk begrunnelse (L4-bevis, 6 observasjonsstudier som konsekvent viser DHEA-S-mangel korrelert med sykdomsalvorsgrad, beslutningsstadium S1 "Research Question") og kan være en mer produktiv kandidat å forfølge videre.
-
+**For å gå videre kreves følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende mangel)
+- Data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Systematisk litteratursøk for heparinkofaktor 2-mangel og relaterte koagulasjonstilstander
+- Vurdering av tromboserisiko ved omdanning til østrogener og androgener
+- Avklaring av administrasjonsvei og doseringsform for den nye indikasjonen
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

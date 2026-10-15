@@ -2,7 +2,7 @@
 layout: default
 title: Eculizumab
 parent: Kun modellprediksjon (L5)
-nav_order: 119
+nav_order: 138
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,81 +29,85 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Eculizumab: Fra ikke oppgitt originalindikasjon til syklisk hematopoese
+# Eculizumab: Fra paroksysmal nattlig hemoglobinuri til syklisk hematopoese
 
 ## Oppsummering i én setning
 
-> Evidenspakken for eculizumab inneholder ikke originalindikasjon eller virkningsmekanisme (MOA)-data (flagget som et **blokkert datamangel**).
-> TxGNN-modellen forutsier at eculizumab kan være effektivt for **syklisk hematopoese**, men denne forutsielsen støttes av **0 kliniske forsøk** og **0 publikasjoner**, og den medfølgende mekanistiske begrunnelsen sier eksplisitt at det **ikke er noen kjent biologisk forbindelse** mellom eculizumabs komplementinhiberende mekanisme og denne sykdommen.
+Eculizumab er en komplementhemmer (C5-hemmer) som opprinnelig brukes til behandling av paroksysmal nattlig hemoglobinuri (PNH). TxGNN-modellen forutsier at legemidlet kan være effektivt ved **syklisk hematopoese** (syklisk nøytropeni), men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne spesifikke indikasjonen. Prediksjonen er foreløpig kun modellbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Emne | Innhold |
-|------|---------|
-| Originalindikasjon | Ikke oppgitt i evidenspakke (datamangel) |
-| Forutsatt ny indikasjon | Syklisk hematopoese |
-| TxGNN-forutsigelsesscore | 99.97% |
-| Bevisnivå | L5 |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
-
----
-
-## Hvorfor er denne forutsielsen rimelig?
-
-Detaljerte virkningsmekanisme-data for eculizumab er ikke tilgjengelige i denne evidenspakken (merket som et alvorlig datamangel). Basert på legemidlets kjente målklasse er eculizumab et anti-C5 monoklonalt antistoff som blokkerer terminal komplementaktivering (MAC/C5a-dannelse).
-
-Ombruksforklaringen som følger med denne forutsielsen er imidlertid eksplisitt **negativ**: syklisk hematopoese er forårsaket av *ELANE*-genmutatsjoner som påvirker nøytrofilelastase og granulosyttprodukasjonsregulering — en bane som er urelatert til komplementaktivering. Forklaringen sier at det ikke er noen kjent forbindelse mellom eculizumabs mekanisme og denne sykdommens patofysiologi, og karakteriserer forutsielsen som oppstått rent fra likhetsmønstre i nettverket snarere enn fra noen mekanistisk hypotese.
-
-Dette er et viktig forbehold: en høy TxGNN-score alene indikerer ikke biologisk plausibilitet. I dette tilfelle er modellscoren (rangering 597, score 0.9997) ikke bekreftet av mekanisme, kliniske forsøk eller litteratur, som er konsistent med klassifiseringen som **L5 – kun modellforutsigelse**.
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Paroksysmal nattlig hemoglobinuri (PNH) |
+| Predikert ny indikasjon | Syklisk hematopoese |
+| TxGNN-prediksjonsscore | 99,97 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun kansellerte godkjenninger |
+| Antall godkjenninger | 3 (alle kansellert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Bevis fra kliniske forsøk
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Ingen relaterte kliniske forsøk er for øyeblikket registrert.
+Data om virkningsmekanisme (MOA) er ikke tilgjengelig i datagrunnlaget. Basert på kjent informasjon er eculizumab et monoklonalt antistoff som hemmer komplementprotein C5 og dermed blokkerer den terminale komplementveien. Effekten ved PNH er godt dokumentert, ettersom sykdommen skyldes ukontrollert komplementaktivering etter tap av CD55 og CD59.
 
----
+Syklisk nøytropeni skyldes derimot hovedsakelig ELANE-mutasjoner og syklisk svikt i benmargen. Det er ikke påvist noen komplementmediert mekanisme som C5-hemming kan påvirke. Den høye modellscoren gjenspeiler trolig nærhet i kunnskapsgrafen til komplementrelaterte blodsykdommer, ikke sykdomsspesifikk evidens.
 
-## Bevis fra litteratur
-
-Ingen relatert litteratur er for øyeblikket tilgjengelig.
-
-*Merk: Blant de øvrige 9 lavere-rangerte kandidatindikasjonene i denne evidenspakken returnerte to (rangering 4 – medfødt nøytropeni-myelofibrose-nefromegali-syndrom; rangering 10 – primær frigjøringsforstyrrelse av blodplater) litteraturtreff, men disse ble gjennomgått og bedømt som søkestøy — de hentede artiklene diskuterer eculizumabs allerede etablert bruk ved PNH, aHUS og myasteniske syndromer, ikke de forutsatte indikasjonene selv. Ingen utgjør direkte eller indirekte bevis for den topprangerte forutsielsen (syklisk hematopoese).*
+De øvrige topprangerte prediksjonene er også nøytropenirelaterte tilstander (blant annet alvorlig medfødt nøytropeni med ulike genetiske årsaker, idiopatisk nøytropeni hos voksne og primær immunsvikt på grunn av p14-mangel). For ingen av dem er det funnet en plausibel kobling til C5-blokade. Hos nøytropene eller immunsviktige pasienter kan eculizumabs kjente risiko for meningokokkinfeksjon dessuten være særlig bekymringsfull.
 
 ---
 
-## Norsk markedsinformasjon
+## Klinisk studieevidens
 
-Eculizumab er ikke for øyeblikket markedsført og har ingen registrerte autorisasjoner (0 lisenser registrert).
-
----
-
-## Sikkerhetshensyn
-
-Se pakningslisten for sikkerhetsinformasjon.
-
-*Merk: TFDA/etikettadvarsler, kontraindikasjoner og DDI-data kunne ikke hentes og er flagget i kildeevidenspakken som et **blokkert** datamangel — dette hindrer spesifikt kandidaten fra å gå videre til S1-stadiet for foreløpig sikkerhetsvurdering.*
+Det er for øyeblikket ingen relaterte kliniske studier registrert for denne indikasjonen.
 
 ---
 
-## Konklusjon og neste trinn
+## Litteraturevidens
 
-**Beslutning: Avvent**
+Det er for øyeblikket ingen relatert litteratur tilgjengelig for den predikerte indikasjonen «syklisk hematopoese».
+
+Merk at for andre lavt rangerte prediksjoner ble det funnet publikasjoner, men de gjelder hovedsakelig etablerte eller komplementrelaterte eculizumab-tilstander (PNH, atypisk hemolytisk uremisk syndrom, trombotisk mikroangiopati, myasthenia gravis og CD59-mangel). De omtaler ikke de predikerte sykdommene og støtter dermed ikke de nye indikasjonene.
+
+---
+
+## Informasjon om det norske markedet
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/006036 | Epysqli | – | Paroksysmal nattlig hemoglobinuri |
+| EMEA/H/C/000791 | Soliris | – | Paroksysmal nattlig hemoglobinuri |
+| EMEA/H/C/005652 | Bekemv | – | Paroksysmal nattlig hemoglobinuri |
+
+Alle tre godkjenningene har status «kansellert», og det finnes ingen gyldige godkjenninger i datagrunnlaget.
+
+---
+
+## Sikkerhetsvurderinger
+
+**Legemiddelinteraksjoner:** Fire interaksjoner er funnet (alle av graden «Minor», fra DDInter), alle med humant immunglobulin G (intravenøst, subkutant, intramuskulært, og intravenøst/subkutant).
+
+For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparatomtalen (SPC). Generelt bør man være oppmerksom på risikoen for alvorlige meningokokkinfeksjoner ved komplementhemming, noe som er særlig relevant ved nøytropeni.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den topprangerte forutsatte indikasjonen (syklisk hematopoese) har ingen støttende kliniske forsøk eller litteratur, og den gitte mekanistiske forklaringen sier eksplisitt at det ikke er noen biologisk forbindelse mellom eculizumabs komplementinhiberende mekanisme og denne sykdommen — TxGNN-scoren reflekterer kun nettverkslikhet. Kombinert med et blokkert datamangel i TFDA sikkerhet/etikett-data, kan denne kandidaten ikke for øyeblikket gå videre fra S0.
+Prediksjonen er kun modellbasert (evidensnivå L5), uten kliniske studier eller sykdomsspesifikk litteratur, og det finnes ingen plausibel mekanistisk kobling mellom C5-hemming og syklisk nøytropeni. I tillegg er alle norske/europeiske godkjenninger i datagrunnlaget kansellert, og infeksjonsrisikoen ved komplementhemming er en bekymring hos nøytropene pasienter.
 
-**For å gå videre, er følgende nødvendig:**
-- TFDA pakningsliste (advarsler, kontraindikasjoner) — blokkert datamangel, påkrevd for å gå inn i S1-sikkerhetsvurderingen
-- Virkningsmekanisme (MOA)-data via DrugBank API — påkrevd for mekanistisk plausibilitetsvurdering
-- Originalindikasjon/regulatorisk historie for eculizumab, som for øyeblikket mangler fra denne evidenspakken
-- Uavhengig mekanistisk eller preklinisk bevis som spesifikt knytter komplementinhibisjon (C5) til syklisk hematopoese, dersom denne kandidaten skal vurderes på nytt
-- Ny screening av de gjenstående 9 lavere-rangerte kandidatene i denne pakken, som alle også har L5/Avvent-status uten direkte støttende bevis
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Preparatomtale med advarsler og kontraindikasjoner fra DMP (blokkerende datamangel for sikkerhetsscreening)
+- Prekliniske eller mekanistiske studier som viser en komplementrolle ved syklisk nøytropeni
+- Avklaring av gjeldende markedsstatus i Norge, siden alle godkjenninger er registrert som kansellert
+- Vurdering av andre kandidatindikasjoner med sterkere komplementrelatert begrunnelse
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tecovirimat
-parent: Høy evidens (L1-L2)
-nav_order: 341
-evidence_level: L2
+parent: Kun modellprediksjon (L5)
+nav_order: 402
+evidence_level: L5
 indication_count: 10
 ---
 
 # Tecovirimat
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,96 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tecovirimat: Fra kopokkver til vaccinia-relaterte komplikasjoner
+# Tecovirimat: Fra kopper og apekopper til vaccinia (nær på-label bruk)
 
-## Oppsummering i én setning
+## Sammendrag i én setning
 
-Tecovirimat (TPOXX) ble opprinnelig utviklet og godkjent for behandling av kopokkver forårsaket av variola-virus, en Orthopoxvirus. Blant de ti TxGNN-predikerte indikasjonene i denne bevisgjennomgangen, er de fleste (hordeolum, vibrio-infeksjon, Klebsiella-infeksjon, noma, HTLV-1-assosiert dermatitt, Arterivirus-infeksjon, arbovirus-infeksjon, E. coli-infeksjon) flagget av modellens egen begrunnelse som mekanistisk usannsynlige falske positive uten noe støttende bevis. Den eneste kandidaten med reelt støtte er **vaccinia** (rangering 5), støttet av **3 kliniske forsøk** (inkludert et aktivt fase 2-forsøk for legemiddel-vaksin-interaksjon og et gjennomført protokoll for utvidet tilgang) og **18 publikasjoner**, noe som gjør det til den eneste indikasjonen i dette settet som rettferdiggjør videre evaluering.
+Tecovirimat er et antiviralt middel som opprinnelig brukes mot infeksjoner med ortopoxvirus (kopper, apekopper, kukopper og vaccinia).
+TxGNN-modellen rangerer **hordeolum (byller på øyelokket)** øverst, men dette er sannsynligvis en modellartefakt uten støtte i data. Den eneste biologisk plausible prediksjonen er **vaccinia**, som i praksis allerede ligger innenfor den opprinnelige indikasjonen, med **0 kliniske studier** og **19 publikasjoner** (hovedsakelig oversiktsartikler om apekopper) i de samlede dataene.
 
-## Rask oversikt
+---
 
-| Element | Innhold |
+## Hurtigoversikt
+
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Kopokkver (variola-virus) — ikke tilstede i det regulatoriske datasettet (Norge: ikke godkjent), men dokumentert i støttende litteratur (FDA-godkjenning, juli 2018) |
-| Predikert ny indikasjon | Vaccinia (Orthopoxvirus-infeksjon/-komplikasjoner, inkludert bivirkninger etter vaksinasjon) |
-| TxGNN-prediksjonspoengsum | 99.62% |
-| Bevisnivå | L2 |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Fortsett med forbeholdsregler |
+| Opprinnelig indikasjon | Poxviridae-infeksjoner, kukopper, apekopper, vaccinia, kopper |
+| Predikert ny indikasjon (rangert først) | Hordeolum |
+| TxGNN-prediksjonsscore | 99,66 % |
+| Evidensnivå | L5 (kun modellprediksjon) |
+| Markedsstatus i Norge | Kun avregistrert/trukket tilbake |
+| Antall godkjenninger | 1 |
+| Anbefalt beslutning | Hold |
+
+**Merknad om øvrige prediksjoner:** Den eneste prediksjonen med meningsfull støtte er vaccinia (rang 5, evidensnivå L4, anbefaling: forskningsspørsmål). Den er imidlertid i hovedsak en på-label eller nær på-label bruk, ikke ekte repurposing.
+
+---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-`original_moa`-feltet i det regulatoriske datasettet er et datahull, men mekanismen kan rekonstrueres fra støttende litteratur: tecovirimat hemmer Orthopoxvirus VP37-konvoluttviklende protein, som blokkerer dannelsen av ekstracellulær omhyllet virus (EEV) og dermed forhindrer virus fra å spres fra celle til celle og systemisk. Denne mekanismen er iboende for Orthopoxvirus-slekten som helhet, ikke spesifikk for variola.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de samlede dataene. Ut fra kjent informasjon hemmer tecovirimat orthopoxvirusets envelope-protein p37 (VP37), som er nødvendig for dannelse av omhyllede viruspartikler og spredning av viruset mellom celler.
 
-Vaccinia-virus tilhører samme slekt som variola (kopokkver) og deler VP37-avhengig EEV-monteringsvei som tecovirimat målrettes mot. Dette er en nært naboforlengelse snarere enn en mekanistisk fjern gjenbrukskandidat: vaccinia brukes som levende kopokkver-vaksin (f.eks. ACAM2000, JYNNEOS), og tecovirimat er allerede brukt i praksis for å håndtere alvorlig eller progrederende vaccinia-komplikasjoner etter vaksinasjon, sekundær overføring eller yrkesrelatert eksponering — som gjenspeilt i FDA-sanksjonert utvidet tilgangsprotokoll (NCT05380752) og et gjennomført forsøk for legemiddel-vaksin-interaksjon (NCT04957485).
+**Hordeolum (rang 1):** Hordeolum er vanligvis en lokal bakteriell infeksjon (oftest *Staphylococcus aureus*) i en kjertel i øyelokket. Tecovirimat har ingen kjent antibakteriell virkning, og den høye scoren er mest sannsynlig en artefakt fra grafprediksjonen. Det samme gjelder de andre toppredikerte bakterielle tilstandene (vibrio-infeksjon, Klebsiella-infeksjon, noma, *E. coli*-infeksjon), samt HTLV-1-assosiert infektiøs dermatitt, arterivirus- og arbovirusinfeksjoner. Alle disse mangler mekanistisk grunnlag, kliniske studier og relevant litteratur.
 
-**Merk om andre TxGNN-rangerte kandidater:** Rangeringer 1–4 og 7–10 (hordeolum, vibrio-infeksjon, Klebsiella-infeksjon, noma, HTLV-1-assosiert dermatitt, Arterivirus-infeksjon, arbovirus-infeksjon, E. coli-infeksjon) scoret like høyt (~99.6%), men hver bærer en eksplisitt «ingen biologisk plausibilitet»-vurdering og ingen støttende forsøk eller litteratur (L5/Hold) — disse diskuteres ikke videre. Rangering 6, «koininfeksjon», er et bredere, mindre spesifikt signal (L4/S1, Forskningsspørsmål): det underliggende beviset støtter tecovirimat sin rolle spesifikt mot orthopoxvirus-komponenten av mpox/HIV eller mpox/syfilis-koinfeksjoner hos immunocompromiserte værter, ikke en frittstående approvbar indikasjon.
+**Vaccinia (rang 5):** Her er mekanismen sterk, siden vaccinia er et ortopoxvirus og tecovirimat blokkerer VP37-avhengig dannelse av omhyllede virioner. Dette overlapper med den opprinnelige indikasjonen. Litteraturen i datasettet gjelder hovedsakelig apekopper (mpox) og er dermed indirekte evidens for vaccinia.
 
-## Bevis fra kliniske forsøk
+**Koinfeksjon (rang 6):** Begrepet er uspesifikt. Litteraturen omhandler mpox sammen med hiv, VZV, syfilis og andre infeksjoner, der tecovirimat kun virker på ortopoxvirus-komponenten.
 
-| Forsøksnummer | Fase | Status | Rekruttering | Nøkkelfunn |
-|---------|------|------|------|---------|
-| [NCT04957485](https://clinicaltrials.gov/study/NCT04957485) | Fase 2 | Aktiv, ikke rekruttering | 100 | RCT som evaluerer hvorvidt samtidig oral tecovirimat (TPOXX, to ganger daglig × 28 dager) interfererer med JYNNEOS-vaksin-immunogenisitet versus placebo |
-| [NCT05380752](https://clinicaltrials.gov/study/NCT05380752) | N/A (Utvidet tilgang) | Ikke lenger tilgjengelig | N/A | Ga IV tecovirimat til pasienter med bekreftet/mistenkt orthopoxvirus-infeksjon eller alvorlig vaccinia-bivirkning som ikke kunne tåle oral formulering |
-| [NCT05976100](https://clinicaltrials.gov/study/NCT05976100) | Fase 1 | Fullført | 90 | Sikkerhet, tolerabilitet og PK-studie av NIOCH-14, et sammenlignbart anti-orthopoxvirus middel; støttende for legemiddelklassens rationale snarere enn tecovirimat selv |
+---
 
-## Litteraturbevis
+## Klinisk studieevidens
 
-| PMID | År | Type | Tidsskrift | Nøkkelfunn |
+Foreløpig ingen relaterte kliniske studier registrert for noen av de predikerte indikasjonene i de samlede dataene. Kliniske studier på mpox (utenfor dette datasettet) bør verifiseres separat. Én av oversiktsartiklene (PMID 40210872) uttaler at effekten av tecovirimat i nyere kliniske studier er langt fra tilfredsstillende.
+
+---
+
+## Litteraturevidens
+
+Tabellen viser de mest relevante publikasjonene for **vaccinia** (rang 5), prioritert etter studietype.
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [32882158](https://pubmed.ncbi.nlm.nih.gov/32882158/) | 2021 | Oversikt | Expert Rev Anti Infect Ther | Oversikt over tecovirimat sin godkjenning for kopokkver og dens utvidede anti-orthopoxvirus (inkludert vaccinia) bruksomrader |
-| [22904336](https://pubmed.ncbi.nlm.nih.gov/22904336/) | 2012 | Caserapport | J Infect Dis | Progrederende vaccinia hos en immunocompromisert kopokkver-vaksinert person som ble vellykket behandlet med VIG pluss ST-246 (tecovirimat) og CMX001 |
-| [31677948](https://pubmed.ncbi.nlm.nih.gov/31677948/) | 2020 | Preklinisk | Vaccine | Samtidig administrasjon av tecovirimat med ACAM2000-vaksin hos ikkje-humane primater; vurderte effekt på vaksin-immunogenisitet og effektivitet mot dødelig milepokke-utfordring |
-| [36374026](https://pubmed.ncbi.nlm.nih.gov/36374026/) | 2022 | Oversikt | Antimicrob Agents Chemother | Mekanisme og klinisk rolle for tecovirimat mot orthopoxvirus inkludert vaccinia og menneske-milepokke-virus |
-| [36961984](https://pubmed.ncbi.nlm.nih.gov/36961984/) | 2023 | Oversikt | J Med Chem | Oversikt over antivirale midler, inkludert tecovirimat, aktiv mot milepokke-virus og andre orthopoxvirus |
-| [35763248](https://pubmed.ncbi.nlm.nih.gov/35763248/) | 2022 | Oversikt | Drugs | Forebygging og behandlingsstrategier for milepokke, inkludert tecovirimat sin rolle for orthopoxvirus-motforanstaltninger |
-| [36403582](https://pubmed.ncbi.nlm.nih.gov/36403582/) | 2023 | Oversikt | Lancet | Omfattende oversikt over milepokke som Orthopoxvirus-sykdom, kontekstualisering av tecovirimat sin bruk |
-| [39401235](https://pubmed.ncbi.nlm.nih.gov/39401235/) | 2024 | Oversikt | JAMA | Mpox klinisk presentasjon, diagnose og behandlingsstrategier, inkludert antiviral terapi |
-| [36130588](https://pubmed.ncbi.nlm.nih.gov/36130588/) | 2022 | Oversikt | J Pharm Pharm Sci | Milepokke-virologi, patofysiologi og behandlingslandskap |
-| [37131608](https://pubmed.ncbi.nlm.nih.gov/37131608/) | 2023 | Oversikt | bioRxiv | Oversikt over antivirale midler (tecovirimat, brincidofovir) mot milepokke og relaterte orthopoxvirus-infeksjoner |
+| [39401235](https://pubmed.ncbi.nlm.nih.gov/39401235/) | 2024 | Oversikt | JAMA | Klinisk presentasjon, diagnostikk og behandlingsstrategier ved mpox |
+| [36403582](https://pubmed.ncbi.nlm.nih.gov/36403582/) | 2023 | Oversikt | Lancet | Oversikt over apekopper, et ortopoxvirus i samme slekt som variola, vaccinia og kukopper |
+| [38069596](https://pubmed.ncbi.nlm.nih.gov/38069596/) | 2024 | Systematisk oversikt | J Chemother | Systematisk gjennomgang av vaksinasjon og behandling av mpox (69 artikler) |
+| [37131608](https://pubmed.ncbi.nlm.nih.gov/37131608/) | 2023 | Oversikt | bioRxiv | Antivirale midler mot apekopper; tecovirimat og brincidofovir |
+| [36961984](https://pubmed.ncbi.nlm.nih.gov/36961984/) | 2023 | Oversikt | J Med Chem | Oversikt over antivirale midler mot MPXV og andre ortopoxvirus |
+| [35763248](https://pubmed.ncbi.nlm.nih.gov/35763248/) | 2022 | Oversikt | Drugs | Forebygging og behandling av apekopper, inkludert vaksiner og lagrede mottiltak |
+| [38801586](https://pubmed.ncbi.nlm.nih.gov/38801586/) | 2024 | Oversikt | Adv Exp Med Biol | Behandling og vaksinasjon mot kopper og apekopper |
+| [36374026](https://pubmed.ncbi.nlm.nih.gov/36374026/) | 2022 | Oversikt | Antimicrob Agents Chemother | Tecovirimat mot human apekopper; effektdata hovedsakelig fra dyremodeller, ingen alvorlige bivirkninger i sikkerhetsstudier |
+| [32882158](https://pubmed.ncbi.nlm.nih.gov/32882158/) | 2021 | Oversikt | Expert Rev Anti Infect Ther | Tecovirimat ved kopper og utvidet anti-ortopoxvirus-bruk; godkjent av FDA i 2018 |
+| [41790953](https://pubmed.ncbi.nlm.nih.gov/41790953/) | 2026 | Prekliniske | Emerg Microbes Infect | Laktoferrin blokkerer ortopoxvirus-inntrengning; additiv effekt sammen med tecovirimat eller brincidofovir |
 
-## Norsk markedsinformasjon
+---
 
-Tecovirimat er for øyeblikket **ikke markedsført** i Norge (markedsstatus: Ikke markedsført), og ingen markedsføringsautorisasjonsregistre er tilgjengelige i bevisgjennomgangen.
+## Informasjon om det norske markedet
 
-## Sikkerhetsvurderinger
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005248 | Tecovirimat SIGA | Ikke oppgitt | Poxviridae-infeksjoner, kukopper, apekopper, vaccinia, kopper |
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+Denne godkjenningen har status avregistrert/trukket tilbake. Det finnes ingen gyldige godkjenninger i Norge.
 
-## Konklusjon og neste trinn
+---
 
-**Beslutning: Fortsett med forbeholdsregler**
+## Sikkerhetsbetraktninger
+
+Se preparatomtalen for sikkerhetsinformasjon. Data om advarsler og kontraindikasjoner fra preparatomtalen mangler i de samlede dataene, og ingen legemiddelinteraksjoner ble funnet. Én oversiktsartikkel (PMID 36374026) rapporterer at sikkerhetsstudier på mennesker ikke viste alvorlige bivirkninger.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Tecovirimat sin mekanisme (VP37/EEV-hemming) er direkte relevant for vaccinia gitt dens delte Orthopoxvirus-slekt med variola, og denne utvidelsen er allerede støttet av regulatorisk presedens i praksis (FDA utvidet tilgang) og et aktivt fase 2-interaksjonsforsøk — men bevisgrunnlaget er fortsatt begrenset til ett pågående RCT, ett lukket program for utvidet tilgang og ingen fullført effektivitetsforsøk spesifikt for vaccinia.
+Den toppredikerte indikasjonen (hordeolum) og de øvrige bakterielle og ikke-ortopoxvirale prediksjonene mangler både mekanistisk grunnlag og klinisk evidens, og er mest sannsynlig modellartefakter. Vaccinia er biologisk plausibelt, men ligger innenfor den opprinnelige indikasjonen og er derfor ikke reell repurposing. Dessuten har preparatet ingen gyldig markedsføringstillatelse i Norge.
 
-**For å fortsette, er følgende nødvendig:**
-- Offisiell TFDA/EMA-pakningsvedlegg (advarsler, kontraindikasjoner) — for øyeblikket et kritisk datahull (DG001), påkrevd før enhver S1-sikkerhetskontroll
-- Strukturert DrugBank-post for virkningsmekanisme — for øyeblikket et alvorlig datahull (DG002), nødvendig for å formelt dokumentere den mekanistiske begrunnelsen utover litteraturslutninger
-- Resultat fra NCT04957485 (estimert fullføring 2027) for å bekrefte ingen immunologisk interferens med JYNNEOS og for å karakterisere sikkerhet i målpopulasjonen
-- Hvis gjenbruk forfølges, klargjøring av en regulatorisk vei for et for øyeblikket uautorisert produkt i Norge
-- Hvis «koininfeksjon» (rangering 6) undersøkes videre, bør indikasjonen innsnevres til «orthopoxvirus-infeksjon hos immunocompromiserte værter (f.eks. HIV+)» snarere enn den generiske etiketten, for å forbli klinisk og regulatorisk meningsfull
-- Ingen ytterligere handling nødvendig for rangeringer 1–4 og 7–10 (hordeolum, vibrio-infeksjon, Klebsiella-infeksjon, noma, HTLV-1-assosiert dermatitt, Arterivirus-infeksjon, arbovirus-infeksjon, E. coli-infeksjon) — korrekt scoret Hold på grunn av fravær av mekanistisk plausibilitet eller bevis
-
+**For å gå videre kreves følgende:**
+- Hente og analysere sikkerhetsinformasjon (advarsler, kontraindikasjoner) fra preparatomtalen, som er en blokkerende datamangel
+- Supplere data om virkningsmekanisme (MOA) fra DrugBank
+- Verifisere kliniske studier på mpox og andre ortopoxvirus utenfor dette datasettet, inkludert nyere studier med tvilsomme effektresultater
+- Avklare regulatorisk status i Norge, siden den eneste godkjenningen er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

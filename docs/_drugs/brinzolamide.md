@@ -2,7 +2,7 @@
 layout: default
 title: Brinzolamide
 parent: Kun modellprediksjon (L5)
-nav_order: 58
+nav_order: 65
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,75 +29,91 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Brinzolamid: Fra glaukom til primært arvelig glaukom
+# Brinzolamid: Fra åpenvinklet glaukom til primær arvelig glaukom
 
-## Sammendrag i en setning
+## Oppsummering
 
-Brinzolamid er en topikalt anvendt inhibitor av kullsyreanhydrase (CA-II/CA-IV) som senker intraokulært trykk ved glaukom og okulær hypertensjon. TxGNN-modellen forutsier at det også kan være effektivt for **Primært arvelig glaukom**, en genetisk distinkt glaukomsubtype, men denne prediksjonen støttes for tiden av **ingen kliniske studier eller publisert litteratur** — det er et modell-kun signal.
+Brinzolamid er en karbonanhydrase-hemmer som opprinnelig brukes som øyedråper mot **åpenvinklet glaukom** og **okulær hypertensjon**.
+TxGNN-modellen predikerer at legemidlet kan være effektivt ved **primær arvelig glaukom**, med en svært høy score (99,5 %).
+Foreløpig finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen, så prediksjonen er kun modellbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|------|---------|
-| Opprinnelig indikasjon | Ikke tilgjengelig i gjeldende datakilde (DrugBank-felt tomt) |
-| Predikert ny indikasjon | Primært arvelig glaukom |
-| TxGNN-prediksjonspoeng | 99.48% |
-| Bevisnivå | L5 |
-| Taiwan-markedsstatus | ✗ Ikke markedsført (Ikke markedsført) |
-| Antall autorisasjoner | 0 |
-| Anbefalt avgjørelse | Avvente |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Åpenvinklet glaukom, okulær hypertensjon |
+| Predikert ny indikasjon | Primær arvelig glaukom |
+| TxGNN-prediksjonsscore | 99,48 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun opphevede godkjenninger (ingen gyldige) |
+| Antall godkjenninger | 3 (alle opphevet) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljert mekanismedata ikke tilgjengelig i det strukturerte `original_moa`-feltet. Imidlertid, basert på omformålingsbegrunnelsen som følger med denne dokumentpakken, er brinzolamid kjent for å virke som en kullsyreanhydraseinhibitor (CA-II/CA-IV) som virker lokalt på epitelet i flimmerlegemet for å redusere produksjonen av akvøs humor og senke det intraokulære trykket — det etablerte farmakologiske grunnlaget for behandling av primært åpenvinkel-glaukom og okulær hypertensjon.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Brinzolamid er imidlertid kjent som en hemmer av karbonanhydrase II. Den senker det intraokulære trykket ved å redusere produksjonen av kammervann i ciliærlegemet.
 
-Den predikerte nye indikasjonen, primært arvelig glaukom, deler samme nedstrømsfysiologi (forhøyet intraokulært trykk fra ubalanse i akvøs humor-dynamikk) som stoffets etablerte bruk. Dette gjør den mekanistiske forbindelsen plausibel på nivå av intraokulært trykkontroll.
+Primær arvelig glaukom (for eksempel primær medfødt glaukom og juvenil åpenvinklet glaukom) har samme sluttvei som de godkjente indikasjonene: forhøyet intraokulært trykk. Dermed finnes det et mekanistisk grunnlag, og den høye scoren er i tråd med de godkjente indikasjonene.
 
-Imidlertid er primært arvelig glaukom en genetisk definert subtype (f.eks. assosiert med *MYOC* eller *CYP1B1* mutasjoner) med en distinkt etiologi fra sporadisk åpenvinkel-glaukom. Hvorvidt CA-inhibisjon på adekvat måte adresserer den underliggende sykdomprosessen i disse genetiske subtypene — heller enn bare å håndtere et delt nedstrøms-symptom (forhøyet IOP) — har ikke blitt etablert. Dette bør derfor ikke behandles som en rett videreføring av en eksisterende godkjent indikasjon, men som en hypotese som krever dedikert evidens.
-
----
-
-## Klinisk studieevidens
-
-For tiden er det ingen relaterte kliniske studier registrert.
+Det er likevel i stor grad en utvidelse innenfor samme sykdomsfamilie, ikke et reelt repurposing-signal. Arvelige former skyldes ofte utviklingsavvik i kammervinkelen (for eksempel varianter i *CYP1B1*, *MYOC* og *FOXC1*) og behandles ofte kirurgisk. Topiske karbonanhydrase-hemmere brukes da vanligvis bare som tilleggs- eller midlertidig behandling. Hos spedbarn er det dessuten en sikkerhetsbekymring: systemisk opptak av sulfonamidbaserte karbonanhydrase-hemmere kan gi metabolsk acidose.
 
 ---
 
-## Litteraturbevis
+## Kliniske studier
 
-For tiden er det ingen relatert litteratur tilgjengelig.
-
----
-
-## Taiwan-markedsinformasjon
-
-Brinzolamid holder for tiden ingen markedsføringsgodkjenning i denne jurisdiksjonen (0 lisenser på register); ingen produktlisting er tilgjengelig.
+Det er foreløpig ingen relaterte kliniske studier registrert.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Se pakningsvedlegget for sikkerhetsinformasjon. Merk: TFDA-etikettadvarsler/kontraindikasjoner-data har ikke blitt hentet ennå (datahull som blokkerer alvorlighetsgrad — påkrevd før enhver fase 1 sikkerhetsvurdering kan gjennomføres).
+Det er foreløpig ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Konklusjon og neste trinn
+## Markedsinformasjon for Norge
 
-**Avgjørelse: Avvente**
+| Godkjenningsnr. | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000267 | Azopt | – | Åpenvinklet glaukom, okulær hypertensjon |
+| EMEA/H/C/000960 | Azarga | – | Åpenvinklet glaukom, okulær hypertensjon |
+| EMEA/H/C/003698 | Simbrinza | – | Okulær hypertensjon, åpenvinklet glaukom |
+
+Alle tre godkjenningene er opphevet, og det finnes ingen gyldige godkjenninger.
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Legemiddelinteraksjoner**: Det er registrert 32 mulige interaksjoner, men alvorlighetsgraden er ikke klassifisert (ukjent nivå). Eksempler på legemidler som er oppført:
+  - Protonpumpehemmere: pantoprazol, omeprazol, lansoprazol
+  - Kortikosteroider: triamcinolon, prednison, prednisolon, deksametason
+  - Statiner: simvastatin, rosuvastatin
+  - Øvrige: warfarin, klopidogrel, kaliumklorid, pioglitazon, metoklopramid, cetirizin, feksofenadin, salbutamol, ranitidin, famotidin, laktulose
+- **Spesielle forhold**: Hos spedbarn og barn, som er relevante ved arvelig glaukom, kan systemisk opptak av sulfonamidbaserte karbonanhydrase-hemmere gi metabolsk acidose.
+
+Se preparatomtalen for øvrig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-TxGNN-prediksjonspoengsum er høyt, men det er null klinisk studie eller litteraturbeviser, og den predikerte indikasjonen (en genetisk glaukomsubtype) er mekanistisk distinkt nok fra stoffets etablerte bruk til at mekanisme alene er utilstrekkelig støtte. Dette er et L5, modell-kun signal.
+Prediksjonen er mekanistisk plausibel, men støttes bare av modellscoren (evidensnivå L5), uten kliniske studier eller publikasjoner. I tillegg er alle godkjenninger i Norge opphevet, og de viktigste sikkerhetsdataene mangler.
 
-**For å fortsette, er følgende påkrevd:**
-- TFDA-etikettadvarsler/kontraindikasjoner (datahull som blokkerer — påkrevd før enhver sikkerhetsvurdering)
-- Bekreftet opprinnelig indikasjon og MOA fra DrugBank eller etikett-kilde
-- Preklinisk eller genetisk-subtype-spesifikk evidens som kobler CA-inhibisjon til arvelig glaukom-patofysiologi (ikke bare IOP-kontroll)
-- Eventuelle kasuistikker, registre, eller studier spesifikt i arvelig/genetisk glaukom-populasjoner
-
+**For å gå videre kreves følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Detaljerte data om virkningsmekanisme (MOA)
+- Litteratur- og studiegjennomgang for brinzolamid ved arvelig/medfødt glaukom, særlig hos barn
+- Vurdering av pediatrisk sikkerhet (risiko for metabolsk acidose)
+- Avklaring av tilgjengelighet i Norge, siden ingen gyldig godkjenning finnes
+- Vurdering av administrasjonsvei og doseringsform
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

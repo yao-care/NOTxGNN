@@ -2,7 +2,7 @@
 layout: default
 title: Esomeprazole
 parent: Moderat evidens (L3-L4)
-nav_order: 141
+nav_order: 163
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,79 +29,70 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Esomeprazol: Fra syresykedom-relaterte lidelser til duodenomagastrisk refluks
+# Esomeprazol: Fra gastroøsofageal refluks til duodenogastrisk refluks
 
-## Oppsummering i en setning
+## Oppsummering
 
-> Esomeprazol er en protonpumpehemmer (PPH), opprinnelig brukt for syresykedom-relaterte gastrointestinale lidelser som gastroøsofageal reflukssyndrom (GØRS), erosiv esofagitt og peptisk ulcussykdom.
-> TxGNN-modellen forutser at den kan være effektiv for **duodenomagastrisk refluks**,
-> med **0 kliniske studier** og **1 publikasjon** som for tiden støtter denne retningen — evidensgrunnlaget er foreløpig.
+Esomeprazol er en protonpumpehemmer (S-isomeren av omeprazol) som opprinnelig brukes mot gastroøsofageal refluks.
+TxGNN-modellen forutsier at legemidlet kan ha effekt mot **duodenogastrisk refluks** (galle- og tarminnhold som renner tilbake til magesekken).
+Det finnes **ingen kliniske studier** og bare **1 oversiktsartikkel** som indirekte støtter denne retningen, så evidensen er svak.
 
----
+## Hurtigoversikt
 
-## Raskt overblikk
-
-| Emne | Innhold |
-|------|---------|
-| Opprinnelig indikasjon | Syresykedom-relaterte GI-lidelser (GØRS, erosiv esofagitt, peptisk ulcussykdom, H. pylori-utrydding) — forutsatt fra støttende litteratur; ingen norsk produktinformasjon tilgjengelig (legemiddel ikke markedsført) |
-| Predikert ny indikasjon | Duodenomagastrisk refluks |
-| TxGNN prediksjonspoeng | 99.53% |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Gastroøsofageal refluks |
+| Foreslått ny indikasjon | Duodenogastrisk refluks |
+| TxGNN-prediksjonsscore | 99,53 % |
 | Evidensnivå | L4 |
-| Norsk markedsstatus | Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Utsettelse |
+| Markedsstatus i Norge | Kun kansellerte tillatelser (ingen gyldig tillatelse) |
+| Antall tillatelser | 1 (kansellert) |
+| Anbefalt beslutning | Hold |
 
----
+## Hvorfor er denne prediksjonen rimelig?
 
-## Hvorfor er denne predikesjonen rimelig?
+Esomeprazol hemmer H+/K+-ATPase (protonpumpen) i magesekkens parietalceller og dermed syresekresjonen. Detaljerte data om virkningsmekanisme finnes ikke i det innsamlede datagrunnlaget. Beskrivelsen her bygger derfor på kjent klassekunnskap om protonpumpehemmere.
 
-For tiden er detaljert virkningsmekanisme-data ikke tilgjengelig (datakløft). Basert på kjent informasjon er esomeprazol S-isomeren av omeprazol og tilhører protonpumpehemmer-klassen (PPH), som irreversibelt hemmer H⁺/K⁺-ATPasen i mage-parietale celler for å undertrykke syreproduksjon. Dens effektivitet ved syresykedom-relaterte gastrointestinale lidelser er godt etablert.
+Duodenogastrisk refluks skyldes at tolvfingertarminnhold strømmer tilbake til magesekken. Årsaken er vanligvis svekket motilitet eller dysfunksjon i pylorus. Syrehemming kan lindre slimhinneskade og symptomer, men behandler ikke selve årsaken. Koblingen er plausibel, men indirekte.
 
-Duodenomagastrisk refluks (DGR) og legemidlets opprinnelige indikasjoner deler overlappende anatomi og pasientpopulasjoner – begge involverer øvre GI-slimhinneskade, og DGR forekommer hyppig sammen med eller etterpå tilstander som GØRS eller tilstander etter mageoperasjon der PPH allerede brukes. Imidlertid er den mekanistiske forbindelsen indirekte: DGR er primært drevet av refluks av galle og bukspyttenzymer, ikke magensyre selv. Esomeprazol kan bare redusere den sure komponents synergistiske skade på slimhinnen når det blandes med refluksinnhold – det blokker ikke rotårsaken til gallerefluks. Dette gjør begrunnelsen plausibel men delvis, i samsvar med L4 (kun mekanisme) evidensnivået og «Utsettelse»-anbefalingen som for tiden er tildelt.
+Den høye TxGNN-scoren gjenspeiler trolig nærhet i nettverket til syrerelaterte øvre gastrointestinale sykdommer, ikke sykdomsspesifikk evidens. Prediksjonen bør derfor tolkes med forsiktighet.
 
----
+## Klinisk studieevidens
 
-## Bevis fra kliniske forsøk
+Foreløpig ingen relaterte kliniske studier registrert.
 
-For tiden er det ingen relaterte kliniske forsøk registrert.
-
----
-
-## Litteraturbevis
+## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|------|------|------|---------|
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Oversikt | European Journal of Clinical Pharmacology | Generell oversikt over PPH klinisk bruk og farmakokinetikk (peptisk ulcussykdom, H. pylori, gastroøsofageal reflukssyndrom, NSAID-induserte GI-lesioner, Zollinger-Ellison-syndrom); adresserer ikke direkte duodenomagastrisk refluks som behandlingsmål |
+|------|-----|------|------|---------|
+| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Oversiktsartikkel | Eur J Clin Pharmacol | Protonpumpehemmere er førstevalg ved magesår, H. pylori-infeksjon, refluksykdom, NSAID-induserte skader og Zollinger-Ellison. Artikkelen omtaler ikke duodenogastrisk refluks spesifikt. |
 
----
+## Markedsinformasjon for Norge
 
-## Norsk markedsinformasjon
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/002618 (kansellert) | Nexium Control | Ikke oppgitt | Gastroøsofageal refluks |
 
-Esomeprazol er for tiden **ikke markedsført i Norge** (0 godkjenninger på register), så lokal produktinformasjon/etikett er ikke tilgjengelig for denne evalueringen.
+## Sikkerhetsvurderinger
 
----
+- **Kontraindikasjoner fra kunnskapsgrafen** (PrimeKG, ikke preparatomtale): leversvikt, osteoporose, postmenopausal osteoporose, beinbrudd og kronisk atrofisk gastritt.
+- **Legemiddelinteraksjoner:** 100 interaksjoner er registrert. Blant dem er **alvorlige (Major)**: akalabrutinib og atazanavir. Eksempler på **moderate**: hydroklortiazid, amfotericin B, amikacin, amfetamin, fenofibrat, apalutamid, armodafinil, atorvastatin, bendamustin, bosutinib og bumetanid. Eksempler på **milde**: acetylsalisylsyre, aksitinib, bortezomib, brivaracetam og cyanokobalamin.
+- **Langtidsbruk:** Langvarig bruk av protonpumpehemmere er forbundet med risiko som hypomagnesemi, beinbrudd, B12-mangel og *C. difficile*-infeksjon.
 
-## Sikkerhetshensyn
+## Konklusjon og neste steg
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
-
----
-
-## Konklusjon og neste trinn
-
-**Beslutning: Utsettelse**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Bevis for duodenomagastrisk refluks spesifikt er begrenset til en enkel generell PPH-oversiktsartikkel uten støttende kliniske forsøk, og den mekanistiske forbindelsen er indirekte (behandler bare den sure komponenten av en primært galledrevet tilstand). Dette oppfyller ikke terskelen for å fortsette.
+Den foreslåtte indikasjonen støttes bare av en modellprediksjon og en generell oversiktsartikkel, uten kliniske studier. Mekanismen er indirekte, siden syrehemming ikke adresserer årsaken til duodenogastrisk refluks. I tillegg har legemidlet ingen gyldig tillatelse i Norge, og interaksjonsbyrden er høy.
 
-**Merknad:** Denne evidenspakken scorer også esomeprazol mot to relaterte indikasjoner – duodenalokklsjon (L5, ingen støttende data, mekanistisk svak) og duodenalulcus (L1, omfattende forsøks- og litteraturstøtte). Signalet for duodenalulcus er sterkt, men det gjenspeiler en allerede etablert PPH/H. pylori-eliminerings-indikasjon snarere enn en genuint ny omdisponering, så det endrer ikke Utsettelse-beslutningen for duodenomagastrisk refluks-kandidaten som evalueres her.
+**For å gå videre kreves:**
+- Kontrollerte kliniske studier eller observasjonsstudier spesifikt for duodenogastrisk refluks
+- Innhenting og gjennomgang av preparatomtalens advarsler og kontraindikasjoner
+- Detaljerte data om virkningsmekanisme
+- Avklaring av produkttilgjengelighet og merking i Norge
 
-**For å fortsette, er følgende nødvendig:**
-- TFDA/Norsk pakningsvedlegg advarsler og kontraindikasjoner (blokkerer datakløft, DG001)
-- Bekreftet virkningsmekanisme-data fra DrugBank (DG002)
-- Dedikert klinisk bevis (preklinisk eller klinisk) som evaluerer esomeprazol spesifikt for duodenomagastrisk refluks, ideelt sett med gallerefluks-relevante endepunkter
-- Vurdering av administreringsveiens kompatibilitet for den nye indikasjonen
-
+**Merknad:** Datagrunnlaget inneholder også en annen prediksjon, **duodenalsår**, med klart sterkere evidens. Den har over 30 kliniske studier, blant dem flere fullførte fase 3-studier, og 20 publikasjoner, inkludert randomiserte studier. Evidensnivået er L1 og anbefalingen «Proceed with Guardrails». Denne bruken ligger imidlertid nær eksisterende syrerelaterte indikasjoner og er neppe reell ompostering. Den bør vurderes separat.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

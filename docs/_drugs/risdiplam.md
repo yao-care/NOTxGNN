@@ -2,7 +2,7 @@
 layout: default
 title: Risdiplam
 parent: Kun modellprediksjon (L5)
-nav_order: 308
+nav_order: 362
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,58 +29,72 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Risdiplam: Fra spinal muskelatrofi til akne (sykdom)
+# Risdiplam: Fra spinal muskelatrofi til akne
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-Risdiplam er en SMN2 mRNA spleising-modulator opprinnelig utviklet for spinal muskelatrofi (SMA). TxGNN-modellen forutsier at det kan være effektivt for **akne (sykdom)**, men denne prediksjonen er for tiden støttet av **0 kliniske forsøk** og **0 publikasjoner**, uten kjent mekanistisk begrunnelse.
+Risdiplam er et legemiddel som opprinnelig brukes til behandling av spinal muskelatrofi (SMA).
+TxGNN-modellen forutsier at det kan ha effekt mot **akne**, men denne prediksjonen er ren modellberegning:
+det finnes **0 kliniske studier** og **0 publikasjoner** i de innsamlede dataene som støtter retningen.
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Spinal muskelatrofi (SMA) |
-| Forutsagt ny indikasjon | Akne (sykdom) |
-| TxGNN prediksjonspoeng | 99.45% |
-| Bevisnivå | L5 |
-| Norges markedsstatus | Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Venting |
+| Opprinnelig indikasjon | Spinal muskelatrofi |
+| Predikert ny indikasjon | Akne |
+| TxGNN-prediksjonsscore | 99,45 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Antall tillatelser | 1 |
+| Anbefalt beslutning | Hold |
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-For tiden er detaljerte mekanismedata for risdiplam ikke tilgjengelige (datahull). Basert på kjent informasjon er risdiplam en SMN2 mRNA spleising-modulator brukt ved spinal muskelatrofi, som virker for å øke uttrykk av funksjonell SMN-protein i motorneuroner. Dets effektivitet ved SMA er velestablert.
+Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig i datagrunnlaget. Risdiplam er kjent som en SMN2-spleisingsmodulator, godkjent for spinal muskelatrofi. Dette er imidlertid bakgrunnskunnskap og ikke en del av de innsamlede dataene, og bør verifiseres.
 
-Imidlertid har denne mekanismen ingen kjent eller plausibel molekylær forbindelse til akne, som innebærer inflammasjon i hårsekker og talgkirtler, androgenmetabolisme og abnorm keratinisering. TxGNN-poengene gjenspeiler kun likheter i knowledge-graph embedding i stedet for en validert biologisk vei, og fraværet av støttende kliniske forsøk eller litteratur svekker tilliten til denne prediksjonen ytterligere.
+Den eneste støtten for akne er en høy score fra TxGNN-kunnskapsgrafen (0,9945). Dette er en beregnet prediksjon og ikke klinisk eller eksperimentell evidens. Det er ikke dokumentert noen plausibel mekanistisk sammenheng mellom risdiplam og akne (for eksempel talgproduksjon, kolonisering med *C. acnes*, follikulær hyperkeratinisering eller betennelse). En eventuell kobling, for eksempel via modulering av alternativ spleising som påvirker andre gener, er spekulativ.
 
-## Bevis fra kliniske forsøk
+Det bør også bemerkes at prekliniske sikkerhetsstudier av risdiplam har rapportert effekter på hud og epitelvev, og at hudrelaterte bivirkninger er beskrevet. Legemidlet kan derfor være assosiert med hudfunn snarere enn åpenbart terapeutiske effekter. Også dette er bakgrunnskunnskap utenfor datagrunnlaget og må verifiseres.
 
-For tiden ingen relaterte kliniske forsøk registrert
+## Kliniske studier
 
-## Litteraturbevis
+Det er for tiden ingen relaterte kliniske studier registrert.
 
-For tiden ingen relatert litteratur tilgjengelig
+## Litteraturevidens
 
-## Markedsinformasjon for Norge
+Det foreligger for tiden ingen relevant litteratur.
 
-Risdiplam er for tiden ikke markedsført i Norge; ingen godkjenningsregistreringer er tilgjengelige.
+## Informasjon om det norske markedet
 
-## Sikkerhetshensyn
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005145 | Evrysdi | – | Spinal muskelatrofi |
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+Merk: Den eneste registrerte tillatelsen har status avregistrert, og det finnes ingen gyldige tillatelser for tiden.
 
-## Konklusjon og neste skritt
+## Sikkerhetsvurderinger
 
-**Beslutning: Venting**
+**Legemiddelinteraksjoner** (2 registrert, begge med moderat alvorlighetsgrad):
+- Metformin
+- Metformin og metylnaltrekson: se under
+- Metylnaltrekson
+
+Se pakningsvedlegget for øvrig sikkerhetsinformasjon, inkludert advarsler og kontraindikasjoner.
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er basert utelukkende på TxGNN-modellresultat (L5) uten støtte fra kliniske forsøk eller litteratur, og den foreslåtte mekanistiske forbindelsen mellom en SMN2 spleising-modulator og aknes patofysiologi er ikke biologisk plausibel.
+Prediksjonen bygger kun på en modellscore (evidensnivå L5) uten kliniske studier, litteratur eller dokumentert mekanistisk sammenheng. Det finnes dessuten indikasjoner på at legemidlet kan være assosiert med hudfunn. Dessuten er den eneste tillatelsen i Norge avregistrert.
 
-**For å fortsette er følgende nødvendig:**
-- TFDA/regulatoriske merkedata (advarsler, kontraindikasjoner) — blokkerer for tiden (DG001)
-- Bekreftet mekanismedata (MOA) fra DrugBank eller primærlitteratur (DG002)
-- Uavhengig mekanistisk eller preklinisk bevis som knytter SMN2-modulering til dermatologiske/akne-veier før videre evaluering
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Pakningsvedlegg med advarsler og kontraindikasjoner fra DMP (blokkerende for sikkerhetsscreening)
+- Mekanistisk og preklinisk dokumentasjon som kobler risdiplam til akne
+- Verifisering av rapporterte hud- og epitelrelaterte bivirkninger
+- Vurdering av administrasjonsvei og forenlighet med en akneindikasjon
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

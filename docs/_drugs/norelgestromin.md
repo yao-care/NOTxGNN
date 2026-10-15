@@ -2,7 +2,7 @@
 layout: default
 title: Norelgestromin
 parent: Kun modellprediksjon (L5)
-nav_order: 248
+nav_order: 289
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,77 +29,90 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Norelgestromin: Fra prevensjon til amenorré
+# Norelgestromin: Fra prevensjon til amenoré
 
-## Oppsummering i én setning
+## Oppsummering
 
-> Norelgestromin er det aktive metabolitten av norgestimate og benyttes som gestagen-komponent i kombinerte hormonale prevensjonsmidler (f.eks. transdermalt plaster); ingen bekreftet opprinnelig indikasjon eller mekanisme-for-virkemåte-register er tilgjengelig i dette datasettet.
-> TxGNN-modellen predikerer at det kan være effektivt mot **Amenorré**, basert utelukkende på en beregnet prediksjonspoeng, med **ingen støttende kliniske forsøk eller litteratur** som per nå er identifisert.
-> Gitt fravær av data fra virkelig verden og utestående sikkerhetsdatahull, er denne kandidaten på det tidligste og svakeste stadiet av evaluering.
+Norelgestromin er et gestagen som opprinnelig brukes til **prevensjon**. Det gis som transdermal plaster sammen med etinyløstradiol. TxGNN-modellen predikerer at legemidlet kan ha effekt ved **amenoré**. Det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen, så prediksjonen er kun modellbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Ikke tilgjengelig fra regulatoriske data (legemidlet er ikke markedsført i Norge; ingen lisensjournaler). Basert på generell farmakologisk kunnskap, benyttes norelgestromin til prevensjon som del av kombinerte hormonale prevensjonplaster. |
-| Predikert ny indikasjon | Amenorré |
-| TxGNN-prediksjonspoeng | 99.51% (rangering 5435) |
-| Bevisgrad | L5 |
-| Markedsstatus i Norge | ✗ Ikke markedsført (Ikke markedsført) |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Prevensjon |
+| Predikert ny indikasjon | Amenoré |
+| TxGNN-prediksjonsscore | 99,51 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun opphevede (trukkede) godkjenninger |
+| Antall godkjenninger | 1 |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljert data om virkemåte ikke tilgjengelig i dette datasettet (`original_moa`: [Data Gap]), og ingen journalert opprinnelig indikasjon finnes heller. Basert på generell farmakologisk kunnskap, er norelgestromin det aktive metabolitten av norgestimate og tilhører gestagen-klassen, mest kjent som komponent i kombinerte hormonale prevensjonplaster.
+Norelgestromin er den aktive gestagenmetabolitten av norgestimat. Gestagener kan fremkalle bortfallsblødning og regulere livmorslimhinnen. Det finnes derfor en plausibel kobling til sekundær amenoré, for eksempel ved gestagentest eller syklusregulering.
 
-Gestagen-klasselegemidler er farmakologisk kjent for å undertrykke ovulasjon og gjøre endometriet tynnere — mekanismer som, som en klasseffekt, kan føre til amenorré eller menstruasjonssuppresjon. Dette er en godt etablert farmakologisk egenskap hos gestagener generelt, ikke et funn spesifikt for norelgestromin.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Ut fra kjent informasjon er norelgestromin en del av et kombinasjonsprodukt for hormonell prevensjon. Effekten ved prevensjon er dokumentert, og mekanistisk kan den være relevant for forstyrrelser i menstruasjonssyklusen.
 
-Imidlertid, fordi dette datasettet ikke gir noen bekreftet opprinnelig indikasjon og ingen verifisert MOA-kilde, bør den mekanistiske koblingen mellom norelgestromin og amenorré beskrevet ovenfor behandles strengt som en **teoretisk, klasseneivå-inferens**. Den kan ikke benyttes som støttende bevis for fastleggelsen av bevisgrad, som er grunnen til at denne kandidaten forblir på L5 (modellprediktusjon kun).
-
----
-
-## Bevis fra kliniske forsøk
-
-Ingen relaterte kliniske forsøk er per nå registrert
+Det er likevel viktig å tolke prediksjonen med forsiktighet. Hormonelle prevensjonsmidler forårsaker ofte amenoré som en virkning. Koblingen kan derfor gjenspeile en bivirkning eller en tilfeldig sammenheng snarere enn en terapeutisk bruk. Markedsstatusen (kun opphevede godkjenninger) begrenser dessuten praktisk overføring ytterligere.
 
 ---
 
-## Bevis fra litteratur
+## Klinisk studieevidens
 
-Ingen relatert litteratur tilgjengelig per nå
+Foreløpig er det ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+Foreløpig finnes det ingen relatert litteratur.
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Norelgestromin er ikke for tiden markedsført i Norge, og ingen godkjennelser for markedsføring er registrert (`total_licenses`: 0).
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000410 | Evra | – | Prevensjon |
+
+Godkjenningen er opphevet, og det finnes ingen gyldige godkjenninger for virkestoffet i Norge.
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegget for sikkerhetsinformasjon.
+- **Kontraindikasjoner fra kunnskapsgraf (ikke preparatomtale):** TxGNN-kunnskapsgrafen (PrimeKG) knytter legemidlet til følgende sykdommer som kontraindikasjoner. Dette er modellbaserte koblinger og må verifiseres mot preparatomtalen:
+  - Kardiovaskulære og metabolske: hypertensjon, koronarsykdom, hyperlipidemi (inkl. familiær), hypertriglyseridemi, hyperglykemi, diabetes mellitus, diabetisk ketoacidose, tromboflebitt
+  - Lever og galle: leversykdom, gallblæresykdom
+  - Nyre og urinveier: nyresykdom, pyoureter
+  - Nevrologiske og psykiske: epilepsi, migrene (inkl. migrene med eller uten aura), angstlidelse, nevrotisk lidelse, dystymi
+  - Metabolske/arvelige: arvelig porfyri, porfyrisykdommer, porfyri
+  - Autoimmune og luftveier: systemisk lupus erythematosus (inkl. pediatrisk form), astma (inkl. indre og allergisk astma)
+  - Kreft: kvinnelig brystkreft
+  - Øye: funksjonelt synstap
+- **Legemiddelinteraksjoner:** Én interaksjon er registrert, med **sugammadeks** (alvorlighetsgrad: Major).
+
+Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-- Prediksjonen støttes kun av TxGNN-modellpoeng (L5, ingen kliniske forsøk, ingen litteratur), og et **Blokkering**-alvorlighetsgrad datahull (TFDA/pakningsvedlegg-advarsler og kontraindikasjoner, DG001) betyr at denne kandidaten ennå ikke kan passere sikkerhetsforgjenningsscreening-stadiet S1.
+Prediksjonen bygger kun på modellen (evidensnivå L5), uten kliniske studier eller litteratur. Amenoré er dessuten en kjent virkning av hormonell prevensjon, og den eneste godkjenningen i Norge er opphevet.
 
-**For å fortsette er følgende nødvendig:**
-- Bekreftet opprinnelig indikasjon og virkemåte-data for norelgestromin (per nå markert høy-alvorlighetsgrad datahull, DG002)
-- Offisielt pakningsvedlegg / etikett advarsler og kontraindikasjoner (Blokkering datahull, DG001) for å muliggjøre S1 sikkerhetsevaluering
-- Legemiddel-legemiddel interaksjon (DDI) data (per nå ikke funnet)
-- Generering eller identifikasjon av prekliniske/mekanistiske eller kliniske bevis spesifikt for amenorré før framskriding utenfor S0
-
+**For å gå videre kreves følgende:**
+- Gjennomgang av preparatomtalens advarsler og kontraindikasjoner (mangler foreløpig og er et blokkerende datagap)
+- Data om virkningsmekanisme (MOA)
+- Litteratur- og studiesøk for å avklare om koblingen er terapeutisk eller en bivirkning
+- Vurdering av administrasjonsvei og formulering (kompatibilitet er ikke avklart)
+- Vurdering av likhet mellom opprinnelig og ny indikasjon
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

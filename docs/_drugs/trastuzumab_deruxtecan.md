@@ -2,7 +2,7 @@
 layout: default
 title: Trastuzumab Deruxtecan
 parent: Kun modellprediksjon (L5)
-nav_order: 369
+nav_order: 432
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,89 +29,104 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Trastuzumab deruxtecan: Fra HER2-rettet ADC-terapi til medikamentindusert osteoporose
+# Trastuzumab deruksetekan: Fra brystkreft til legemiddelindusert osteoporose
 
-## Sammendrag på en setning
+## Oppsummering i én setning
 
-> Trastuzumab deruxtecan er et HER2-rettet antistoff-legemiddelkonjugat (ADC) som bærer en cytotoksisk topoisomerase I-hemmer som virkestoffladning (DXd); den opprinnelige godkjente indikasjonen er ikke dokumentert i dette bevismaterielet.
-> TxGNN-modellen forutsier en mulig sammenheng med **medikamentindusert osteoporose**,
-> men dette støttes av **0 kliniske forsøk** og **0 publikasjoner** — forutsigelsen hviler utelukkende på modellskåren, uten uavhengig bevis.
+Trastuzumab deruksetekan er et HER2-rettet antistoff-legemiddelkonjugat som opprinnelig brukes til behandling av brystkreft (brystneoplasmer). TxGNN-modellen predikerer at det kan være effektivt ved **legemiddelindusert osteoporose**, men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen er kun modellbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Ikke dokumentert i bevismaterielet (datakløft — MOA- og opprinnelig indikasjonsfelt begge tomme) |
-| Forutsagt ny indikasjon | Medikamentindusert osteoporose |
-| TxGNN-forutsigelse-skår | 99.31% |
-| Bevisnivå | L5 |
-| Status på norsk marked | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | **Avvent** |
-
----
-
-## Hvorfor er denne forutsigelsen rimelig?
-
-Detaljerte data om virkningsmekanisme er ikke tilgjengelig i strukturert form (`original_moa` = datakløft). Imidlertid identifiserer bevismaterielet selv trastuzumab deruxtecan som et HER2-rettet antistoff-legemiddelkonjugat hvis virkestoffladning, DXd, er en topoisomerase I-hemmer — et systemisk cytotoksisk kemoterapi-middel, ikke et benbeskyttende legemiddel.
-
-Klinisk sett er cytotoksisk kemoterapi og HER2-rettede behandlingsregimer brukt sammen med hormonbehandling (f.eks. aromatasinhibisjon, ovarial undertrykking ved HER2+ brystkreft) velkjente **årsaker** til medikamentindusert bentap, ikke behandlinger for det. Den forutsagte koblingen går derfor i motsatt retning fra etablert farmakologi: legemidlet er mekanistisk mer plausibelt som en *risikofaktor* for osteoporose enn som en *behandling* for det.
-
-Gitt dette, bør forutsigelsen behandles som et sannsynlig falskt positivt resultat av den data-drevne TxGNN-modellen snarere enn som en biologisk begrunnet gjenbrukshypotese. Ingen mekanistisk, forsøks- eller litteraturbevis støtter for tiden forfølgelsen av denne indikasjonen.
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Brystneoplasmer (brystkreft) |
+| Predikert ny indikasjon | Legemiddelindusert osteoporose |
+| TxGNN-prediksjonsscore | 99,31 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert/trukket tilbake (Cancelled only) |
+| Antall markedsføringstillatelser | 1 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Bevis fra kliniske forsøk
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Ingen relaterte kliniske forsøk er for tiden registrert
+Data som er samlet inn for denne rapporten inneholder ikke noen detaljert beskrivelse av virkningsmekanismen. Basert på kjent informasjon er trastuzumab deruksetekan et HER2-rettet antistoff-legemiddelkonjugat med en topoisomerase I-hemmer (deruksetekan) som cytotoksisk nyttelast. Effekten ved HER2-positiv brystkreft er etablert.
+
+Det kan ikke påvises noen tydelig biologisk sammenheng mellom HER2-målretting eller topoisomerase I-hemming og forebygging eller behandling av legemiddelindusert osteoporose. TxGNN-scoren (0,993) er en ren prediksjon fra en kunnskapsgraf og støttes ikke av kliniske data eller litteratur.
+
+Tvert imot er cytotoksiske nyttelaster og onkologiske støttebehandlingssituasjoner (for eksempel tap av beintetthet ved samtidig endokrin behandling eller kortikosteroider) mer sannsynlig en risikokontekst enn en terapeutisk mulighet. Likhet med den opprinnelige indikasjonen er ikke vurdert.
 
 ---
 
-## Bevis fra litteratur
+## Kliniske studier
 
-Ingen relatert litteratur er for tiden tilgjengelig
+Det er for tiden ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+Det er for tiden ingen relatert litteratur tilgjengelig.
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Trastuzumab deruxtecan er ikke for tiden markedsført i Norge; ingen godkjennelser er registrert.
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005124 | Enhertu | – | Brystneoplasmer |
+
+Merknad: Denne tillatelsen er registrert som avregistrert/trukket tilbake. Det finnes ingen gyldige tillatelser.
 
 ---
 
 ## Cytotoksisitet
 
-| Element | Innhold |
-|---------|---------|
-| Klassifisering av cytotoksisitet | Målrettet terapi (HER2-rettet ADC) med konvensjonell cytotoksisk virkestoffladning (DXd, topoisomerase I-hemmer) |
-| Risiko for myelosuppresjon | Se pakningsvedlegg for advarsler og forsiktighetsregler |
-| Klassifisering av emetogenitet | Se pakningsvedlegg for advarsler og forsiktighetsregler |
-| Overvåkingspunkter | Se pakningsvedlegg for advarsler og forsiktighetsregler |
-| Sikkerhet ved håndtering | Må følge forskrifter for håndtering av cytotoksiske/ADC-legemidler |
+| Punkt | Innhold |
+|------|------|
+| Cytotoksisitetsklassifisering | Antistoff-legemiddelkonjugat med topoisomerase I-hemmer som cytotoksisk nyttelast |
+| Myelosuppresjonsrisiko | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Emetogenisitetsklassifisering | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Håndteringsbeskyttelse | Følg gjeldende regelverk for håndtering av cytotoksiske legemidler |
 
 ---
 
 ## Sikkerhetshensyn
 
-Se pakningsvedlegg for sikkerhetsinformasjon.
+**Legemiddelinteraksjoner:** Totalt 42 interaksjoner er identifisert. Blant de første 20 som er gjennomgått, er følgende klassifisert som **alvorlige (Major)**:
+
+- Deferiprone
+- Samarium (153Sm) lexidronam
+- Adalimumab
+- Baricitinib
+- Certolizumab pegol
+- Kladribin
+- Leflunomid
+- Natalizumab
+
+Flere er klassifisert som **moderate**, blant annet palifermin, strontiumklorid Sr-89, roflumilast, kloramfenikol (inkl. oftalmisk), alefacept, alemtuzumab, anakinra, azatioprin, kanakinumab, dimetylfumarat og niraparib. Mange av disse er immunsuppressive eller myelosuppressive midler, og kombinasjon bør vurderes nøye.
+
+Øvrige sikkerhetsopplysninger (advarsler og kontraindikasjoner) er ikke tilgjengelige. Se pakningsvedlegget for fullstendig sikkerhetsinformasjon.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den forutsagte indikasjonen støttes ikke av noen kliniske forsøk eller litteraturbevis og er mekanistisk usannsynlig — legemidlets kjente cytotoksiske ADC-profil er mer i samsvar med *å forårske* bentap enn å behandle osteoporose. Kombinert med manglende data for MOA og TFDA-sikkerhetsetikett, finnes det ikke grunnlag for å fremme denne kandidaten.
+Prediksjonen bygger kun på en kunnskapsgrafmodell (evidensnivå L5), uten kliniske studier, litteratur eller plausibel mekanistisk kobling. I tillegg er den eneste tillatelsen i Norge avregistrert, og legemidlet har en cytotoksisk nyttelast, noe som gjør bruk ved osteoporose lite rimelig.
 
-**For å fortsette trengs følgende:**
-- Bekreftet opprinnelig godkjent indikasjon og MOA-data (for tiden manglende fra bevismaterielet)
-- TFDA/produsentens pakningsvedlegg (advarsler, kontraindikasjoner) — for tiden en blokkering av datakløft
-- Uavhengig mekanistisk eller preklinisk bevis som forklarer en plausibel benbeskyttende effekt, hvis den eksisterer, før videre evaluering
-- Gjennomgang på nytt etter at datakløfter DG001/DG002 er avhjulpet
-
+**For å gå videre kreves følgende:**
+- Pakningsvedleggets advarsler og kontraindikasjoner (blokkerende datamangel som må løses før sikkerhetsscreening)
+- Detaljerte data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Prekliniske eller mekanistiske studier som kan støtte en kobling til beinmetabolisme
+- Vurdering av administrasjonsvei og forenlighet med den nye indikasjonen
+- Avklaring av markedsstatus i Norge, siden tillatelsen er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

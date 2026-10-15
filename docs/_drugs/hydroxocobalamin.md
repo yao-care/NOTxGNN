@@ -2,7 +2,7 @@
 layout: default
 title: Hydroxocobalamin
 parent: Kun modellprediksjon (L5)
-nav_order: 170
+nav_order: 202
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,64 +29,87 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Hydroxocobalamin: Fra uspesifisert originalindikasjon til øsofagale variser (uten blødning)
+# Hydroksokobalamin: Fra forgiftning til esofagusvaricer
 
 ## Oppsummering i én setning
 
-Hydroxocobalamins opprinnelig godkjente indikasjon er ikke tilgjengelig i det nåværende datasettet (DrugBank-utdrag viser ingen originale indikasjoner og ingen Taiwan/Norge markedslisens eksisterer).
-TxGNN-modellen forutsier potensiell effektivitet for **øsofagale variser uten blødning** (og, med en praktisk talt identisk poengsum, **øsofagale variser med blødning**),
-men dette støttes for øyeblikket av **0 kliniske forsøk** og **0 publikasjoner** — dette er et rent modellforutsigelses-signal uten direkte kliniske eller prekliniske bevis.
+Hydroksokobalamin ble opprinnelig godkjent for behandling av **forgiftning** (Cyanokit). TxGNN-modellen forutsier at legemidlet kan ha effekt ved **esofagusvaricer uten blødning** og **esofagusvaricer med blødning**. Det finnes foreløpig **ingen kliniske studier og ingen publikasjoner** som støtter denne retningen, så prediksjonen er kun modellbasert.
 
-## Rask oversikt
+---
 
-| Element | Innhold |
-|---------|---------|
-| Originalindikasjon | Ikke tilgjengelig — ingen originale indikasjoner registrert, og medikamentet er ennå ikke godkjent i Norge |
-| Forutsagt ny indikasjon | Øsofagale variser uten blødning (rangering 1); øsofagale variser med blødning (rangering 2, samme poengsum) |
-| TxGNN-forutsikelses-poengsum | 99.23% |
-| Bevisgrad | L5 (modellforutsigelse kun, ingen støttende forsøk eller litteratur) |
-| Norges markedsstatus | Not marketed (Not marketed) |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+## Hurtigoversikt
 
-## Hvorfor er denne forutsielsen rimelig?
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Forgiftning |
+| Predikert ny indikasjon | Esofagusvaricer uten blødning (rangert nr. 2: esofagusvaricer med blødning) |
+| TxGNN-prediksjonsscore | 99,23 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun trukket tilbake/avregistrert (cancelled) |
+| Antall markedsføringstillatelser | 1 (0 gyldige) |
+| Anbefalt beslutning | Hold |
 
-Detaljerte mekanisme-data for hydroxocobalamin er for øyeblikket merket som et datakrav-gap (DG002) og ikke tilgjengelig fra denne bevisspakken. Imidlertid gir modellens egen rasjonaliseringsfeld en mekanistisk hypotese: hydroxocobalamin er kjent for å sekvestre nitrogenmonoksid (NO-sekvestering), som produserer systemisk vasokonstriksjon — en egenskap som allerede utnyttes klinisk for tilstander som vasoplegisk sjokk og refraktær hypotensjon.
+---
 
-Denne samme vasokonstriksjonsmekanismen er det farmakologiske grunnlaget for etablerte øsofagale variser-terapier (f.eks. vasopressin, terlipressin, somatostatin), som reduserer portaltrykk. Dette gir "med blødning"-forutsielsen en plausibel fysiologisk rasjonale. "Uten blødning"-forutsielsen (primær profylakse) utvider denne logikken til langvarig, ikke-akutt bruk, noe som reiser ytterligere bekymringer — kronisk vasokonstriksjonseksponering (hypertensjonrisiko) og hydroxocobalamins kjente interferens med visse kolorimetriske laboratorie-analyser ville trenge separat evaluering.
+## Hvorfor er denne prediksjonen rimelig?
 
-Viktigst er det at denne mekanistiske forbindelsen er eksplisitt flagget i bevisspakken som inferensiell, ikke evidensbasert: det finnes ingen prekliniske eller kliniske studier som direkte tester hydroxocobalamin i noen av øsofagale variser-indikasjonene. Forbindelsen bør behandles som et hypotesegenererende signal kun.
+Data om virkningsmekanisme for hydroksokobalamin er ikke tilgjengelig i de sammenstilte dataene. Det er kjent at hydroksokobalamin er en form for vitamin B12 og binder cyanid, noe som er grunnlaget for bruken ved forgiftning. Legemidlet kan også binde nitrogenoksid (NO).
 
-## Klinisk forsøks-bevis
+Teoretisk kan fjerning av NO øke vaskulær tonus og dermed påvirke portal hypertensjon, som er den underliggende årsaken til esofagusvaricer. Dette er imidlertid **spekulativt** og ikke støttet av noen innhentede data. Det er ikke påvist noen troverdig mekanistisk kobling mellom forgiftningsindikasjonen og esofagusvaricer, og likheten med den opprinnelige indikasjonen er ikke vurdert.
 
-Ingen relaterte kliniske forsøk registrert for øyeblikket.
+Standardbehandling for varicer virker via andre, godt etablerte mekanismer:
+- Ved varicer uten blødning: ikke-selektive betablokkere og endoskopisk båndligering.
+- Ved akutt varicesblødning: vasoaktive legemidler (terlipressin, oktreotid), antibiotika og endoskopisk behandling.
 
-## Litteratur-bevis
+Prediksjonsscoren på 0,992 er en ren grafbasert modellprediksjon og bør ikke tolkes som klinisk evidens.
 
-Ingen relatert litteratur tilgjengelig for øyeblikket.
+---
 
-## Markedsinformasjon for Norge
+## Klinisk evidens
 
-Hydroxocobalamin er for øyeblikket **ikke markedsført i Norge** (markedsstatus: Not marketed) og har **0 godkjennelser** på rekord — ingen lisens eller godkjente-indikasjon data eksisterer for å oppsummere.
+Foreløpig er det ingen relaterte kliniske studier registrert.
 
-## Sikkerhetshensyn
+---
 
-Vennligst referer til pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner, og legemiddel-interaksjons data er alle for øyeblikket utilgjengelig — legemiddel-interaksjons-spørring returnerte ingen resultater, og TFDA-etikettadvarsler/kontraindikasjoner er merket som et **blokkerende** datakrav-gap, DG001.)
+## Litteraturevidens
+
+Foreløpig er det ingen relatert litteratur tilgjengelig.
+
+---
+
+## Informasjon om det norske markedet
+
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000806 | Cyanokit | – | Forgiftning |
+
+Tillatelsen har status «cancelled», og det finnes ingen gyldige tillatelser.
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Kontraindikasjoner fra kunnskapsgrafen (ikke fra preparatomtale):** Kunnskapsgrafen (PrimeKG) knytter hydroksokobalamin til hypertensjon og hypertensive lidelser. Dette er relevant, siden legemidlet kan gi blodtrykksøkning.
+- **Spesielle hensyn ved blødende varicer:** Hydroksokobalamin kan gi rød misfarging av hud og urin. Dette kan forstyrre klinisk vurdering, for eksempel fargebedømmelse ved endoskopi eller av urin, hos en pasient med blødning. Sikkerhetsprofilen i denne situasjonen er ikke evaluert.
+- **Legemiddelinteraksjoner:** Totalt 32 mulige interaksjoner er funnet i interaksjonsdatabasen. Blant de 20 som er listet, er fire klassifisert som **moderate**: arsentrioksid, kloramfenikol, jod-131 (Iodide I-131) og jod-123 (Iodide I-123). De øvrige har ukjent alvorlighetsgrad, blant annet omeprazol, lansoprazol, simvastatin, loperamid, prednisolon, ranitidin, acetylsalisylsyre, budesonid, folsyre, valsartan, ramipril, lorazepam, citalopram, paracetamol, mirtazapin og levotyroksin.
+
+Advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelige. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
+
+---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
-**Rasjonale:**
-- Begge forutsielsene er L5 (modellforutsigelse kun) med null støttende forsøk eller litteratur, og et blokkerende datakrav-gap (manglende TFDA-etikett/advarsler) forhindrer selv en innledende sikkerhetsvurdering (S1).
+**Begrunnelse:**
+Prediksjonen er kun modellbasert (L5), uten kliniske studier, litteratur eller en etablert mekanistisk kobling. Legemidlet har dessuten ingen gyldig markedsføringstillatelse i Norge, og kunnskapsgrafen peker på hypertensjon som en mulig kontraindikasjon, noe som er uheldig ved portal hypertensjon og varicer.
 
-**For å fortsette, er følgende nødvendig:**
-- Løs DG001 (blokkerende): innhent og parse TFDA/produktetiketten for advarsler, kontraindikasjoner, og forholdsregler.
-- Løs DG002: hent bekreftet virkningsmekanisme via DrugBank API.
-- Etabler medikamentets faktiske originalindikasjon(er) og eventuelle eksisterende markedslisenser (ingen identifisert for øyeblikket).
-- Gjennomfør et målrettet litteratur-/klinisk forsøks-søk spesifikt for hydroxocobalamin og portalt hypertensjon/øsofagale variser for å bevege seg utover modell-kun-bevis (L5 → høyere nivå).
-- Hvis bevis dukker opp, evaluer rutekompabilitet (IV-formulering vs. påkrevd rute for øsofagale variser-behandling) og langtids-sikkerhet (hypertensjon, laboratorie-analyseinterferens) før fremgang forbi S0.
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA), for eksempel fra DrugBank.
+- Preparatomtale med advarsler og kontraindikasjoner fra den relevante registeret (dette blokkerer sikkerhetsscreening).
+- Litteratursøk og prekliniske data på NO-binding og effekt på portaltrykk.
+- Vurdering av administrasjonsvei og tilgjengelige formuleringer (ikke vurdert foreløpig).
+- Sikkerhetsvurdering ved blødning, inkludert effekt på blodtrykk og fargeinterferens.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Imiquimod
-parent: Høy evidens (L1-L2)
-nav_order: 179
-evidence_level: L2
+parent: Moderat evidens (L3-L4)
+nav_order: 212
+evidence_level: L4
 indication_count: 10
 ---
 
 # Imiquimod
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,98 +29,123 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Imiquimod: Fra en uspesifisert original indikasjon til premalign neoplasme
+# Imiquimod: Fra aktinisk keratose til premalign neoplasi
 
-## Sammenfattelse på én setning
+## Oppsummering i én setning
 
-> Evidenspakken dokumenterer ikke en godkjent original indikasjon for imiquimod (ingen markedslisenser på fil), men det brukes mye off-label/forsøksmessig som en topisk immunresponssmodulator for premaligne epitellesioner.
-> TxGNN-modellen forutsier at det kan være effektivt for **Premalign neoplasme**,
-> med **20 kliniske studier** og **9 publikasjoner** som for tiden støtter denne retningen.
+Imiquimod er en lokalt påført immunmodulator som opprinnelig brukes mot aktinisk keratose, kjønnsvorter (condylomata acuminata) og basalcellekarsinom. TxGNN-modellen forutsier at legemidlet kan være virksomt mot **premalign neoplasi** (pre-malignant neoplasm). Det finnes **2 kliniske studier** og **9 publikasjoner** på dette området, men studiene er små og svakt dokumenterte.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Original indikasjon | Ikke dokumentert i evidenspakken (ingen godkjent indikasjon tekst på fil; medisin er for tiden ikke markedsført) |
-| Forutsagt ny indikasjon | Premalign neoplasme |
-| TxGNN prediksjonspoeng | 99.92% |
-| Bevisnivå | L2 |
-| Markedsstatus | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Fortsett med sikringsmål |
+| Opprinnelig indikasjon | Aktinisk keratose (keratose) |
+| Predikert ny indikasjon | Premalign neoplasi (pre-malignant neoplasm) |
+| TxGNN-prediksjonsscore | 99,92 % |
+| Evidensnivå | L1 etter dataene som er samlet inn. Se merknaden under: de to fase 3-studiene er i praksis svake. |
+| Status på det norske markedet | Kun avregistrerte (cancelled) godkjenninger |
+| Antall godkjenninger | 2 (begge avregistrert) |
+| Anbefalt beslutning | Proceed with Guardrails |
+
+*Merknad om evidensnivå:* Nivået L1 krever minst to fullførte fase 3 RCT-er. Her er den ene studien fullført, men åpen og ukontrollert (n=20), og den andre ble avsluttet tidlig (n=9). Evidensen bør derfor tolkes som vesentlig svakere enn L1 tilsier.
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte, formelt kilder virkningsmekanismedata (DrugBank) er for tiden en flagget datakløft (DG002). Basert på den mekanistiske begrunnelsen som er fanget sammen med TxGNN-prediksjonen, er imiquimod en **Toll-like reseptor 7 (TLR7) agonist**: topisk påføring aktiverer TLR7-signalering i epitelceller og infiltrerende immunceller, som utløser lokal IFN-α og cytokinfrislettelse. Dette rekrutterer immunceller som kan gjenkjenne og fjerne dysplastiske epitelceller som uttrykker abnorme (inkludert HPV-assosierte) antigener.
+Detaljerte data om virkningsmekanismen var ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten. Ut fra kjent informasjon er imiquimod en agonist av Toll-lignende reseptor 7 (TLR7). Den utløser lokale medfødte og adaptive immunresponser (blant annet interferon-alfa, TNF-alfa og IL-12), som kan fjerne dysplastisk epitel.
 
-Denne mekanismen er ikke en ny hypotese for kategorien "premalign neoplasme" — den er allerede grunnlaget for imiquimods etablert/forsøksmessig bruk i stedssspesifikke premaligne tilstander som actinic keratosis, cervical intraepithelial neoplasia (CIN), vulvar intraepithelial neoplasia (VIN), og lentigo maligna. I realiteten konsoliderer TxGNN-prediksjonen i stor grad bevis som allerede eksisterer på tvers av flere anatomiske steder inn i den bredere kategorien "premalign neoplasme", i stedet for å foreslå en helt ny mekanistisk applikasjon.
+Aktinisk keratose er i seg selv en premalign hudlesjon. Den opprinnelige indikasjonen og den predikerte indikasjonen ligger dermed tett sammen. Oversiktsartikler dekker intraepitelial neoplasi i analkanal, vulva og livmorhals, samt forstadier til ikke-melanom hudkreft.
 
-Hovedforbeeholdet er heterogenitet: flere av de høyest-relevante studiene ble avsluttet tidlig eller hadde veldig små innrulleringer (f.eks. n=9), og en del av det bredere studiesettet bruker imiquimod bare som en vaksinadjuvans i stedet for som direkte terapi for premaligne lesioner — disse adjuvant-kontekst studiene er mekanistisk svakere bevis og ble prioritert ned nedenfor.
+Støtten er likevel begrenset. «Premalign neoplasi» er en bred kategori, og effekten varierer mellom lokalisasjon og lesjonstype. Den sterkeste støtten er den godkjente indikasjonen aktinisk keratose pluss oversiktsartikler (blant annet Cochrane).
 
 ---
 
-## Klinisk studie-evidens
+## Evidens fra kliniske studier
 
-| Studie-nummer | Fase | Status | Innrullering | Viktige funn |
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT02329171](https://clinicaltrials.gov/study/NCT02329171) | Fase 3 | Avsluttet | 9 | RCT av topisk imiquimod versus LLETZ for høygradig CIN, med sikte på å unngå kirurgiske komplikasjoner; avsluttet med veldig begrenset innrullering |
-| [NCT04219358](https://clinicaltrials.gov/study/NCT04219358) | Fase 1 | Avsluttet | 49 | Sammenlignet 5% imiquimod, 0.05% imiquimod, og 0.05% nanoenkapsulert imiquimod gel for actinic cheilitis (premalign lepplesion) |
-| [NCT03233412](https://clinicaltrials.gov/study/NCT03233412) | Fase 2 | Fullført | 90 | RCT som evaluerte topisk imiquimod-effektivitet i høygradig cervical intraepithelial lesioner |
-| [NCT01720407](https://clinicaltrials.gov/study/NCT01720407) | Fase 3 | Fullført | 259 | Neoadjuvant imiquimod før kirurgi for ansikts lentigo maligna; målte å redusere eksisjonsstørrelse og risiko for intralesjonell eksisjon |
-| [NCT00941811](https://clinicaltrials.gov/study/NCT00941811) | Fase 2 | Fullført | 5 | Utforsket immune escape-mekanismer av HPV-assosierte lesioner og imiquimod-effektivitet i VIN 2/3 og anogenitale vorter |
-| [NCT00175643](https://clinicaltrials.gov/study/NCT00175643) | Fase 3 | Fullført | 20 | Åpen studie av imiquimod 5% krem, 3 dager/uke, for actinic keratoses av hodet |
-| [NCT01229319](https://clinicaltrials.gov/study/NCT01229319) | Fase 4 | Ukjent | 20 | Imiquimod 3.75% krem etter kryoterapi for hypertrofiske actinic keratoses på hender/underarmer |
-| [NCT02242929](https://clinicaltrials.gov/study/NCT02242929) | Fase 3 | Ukjent | 145 | Ikke-inferioritets RCT: kirurgisk eksisjon versus kuretasje + imiquimod for nodulær basalcellkarsinom |
-| [NCT04883645](https://clinicaltrials.gov/study/NCT04883645) | Tidlig fase 1 | Fullført | 16 | Neoadjuvant TLR7 agonist (imiquimod) i tidlig-fase oralt plateepitelkarsinom; direkte medisintest, ikke adjuvant bruk |
+| [NCT00175643](https://clinicaltrials.gov/study/NCT00175643) | Fase 3 | Fullført | 20 | Åpen studie av imiquimod 5 % krem, 3 dager i uken i 1–2 sykluser, mot aktinisk keratose i hodet. Vurderte varigheten av effekten. Liten og ukontrollert, og overlapper med den allerede godkjente indikasjonen. |
+| [NCT02329171](https://clinicaltrials.gov/study/NCT02329171) | Fase 3 | Avsluttet tidlig | 9 | Randomisert studie av lokal imiquimod mot høygradig cervikal intraepitelial neoplasi (CIN 2–3) som alternativ til kirurgi (LLETZ). For få deltakere til å si noe om effekt. |
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [23235673](https://pubmed.ncbi.nlm.nih.gov/23235673/) | 2012 | Systematisk oversikt (Cochrane) | Cochrane Database Syst Rev | Gjennomgår intervensjoner, inkludert imiquimod, for anal kanal intraepithelial neoplasi (AIN), en HPV-assosiert premalign tilstand |
-| [21491403](https://pubmed.ncbi.nlm.nih.gov/21491403/) | 2011 | Systematisk oversikt (Cochrane) | Cochrane Database Syst Rev | Gjennomgår medisinske intervensjoner for høygradig vulvær intraepithelial neoplasi (VIN), inkludert imiquimod |
-| [26516853](https://pubmed.ncbi.nlm.nih.gov/26516853/) | 2015 | Oversikt | Int J Mol Sci | Diskuterer kombinert fotodinamisk terapi-tilnærminger for ikke-melanomatøs hudkreft, og setter topisk feltterapi i kontekst |
-| [20505896](https://pubmed.ncbi.nlm.nih.gov/20505896/) | 2010 | Oversikt | Skin Therapy Lett | Gjennomgår nåværende behandling av actinic keratoses, inkludert topiske feltterapi-alternativer |
-| [15584683](https://pubmed.ncbi.nlm.nih.gov/15584683/) | 2004 | Oversikt | Semin Cutan Med Surg | Gjennomgår topiske behandlingsstrategier (inkludert imiquimod) for ikke-melanomatøs hudkreft og forløperlesioner |
-| [29500135](https://pubmed.ncbi.nlm.nih.gov/29500135/) | 2018 | Preklinisk PK/PD (dyrforsøk) | Urol Oncol | Sammenligner TLR7 agonister (relatert klasse) i rottemodell for intravesikal bruk ved premaligne/tidlige blærelesioner |
-| [30284955](https://pubmed.ncbi.nlm.nih.gov/30284955/) | 2019 | Kasuistikk | Int J STD AIDS | Vellykket behandling av høygradig VIN med imiquimod 5% hos immunsupprimert nyretransplantasjonspatient |
-| [18931984](https://pubmed.ncbi.nlm.nih.gov/18931984/) | 2008 | Bildediagnostisk kasuistikk | Hautarzt | OCT-bildediagnostisk kasuistikk som beskriver flere (pre)maligne hudlesioner, inkludert actinic keratoses resistente mot topisk behandling |
-| [15601490](https://pubmed.ncbi.nlm.nih.gov/15601490/) | 2004 | Kasuistikk | Int J STD AIDS | Vellykket eliminering av Bowenoid papulosis (premalign anogenital tilstand) med topisk imiquimod 5% krem |
+| [23235673](https://pubmed.ncbi.nlm.nih.gov/23235673/) | 2012 | Systematisk oversikt (Cochrane) | Cochrane Database Syst Rev | Behandling av analkanal-intraepitelial neoplasi (AIN), en premalign tilstand knyttet til HPV |
+| [21491403](https://pubmed.ncbi.nlm.nih.gov/21491403/) | 2011 | Systematisk oversikt (Cochrane) | Cochrane Database Syst Rev | Medisinske tiltak ved høygradig vulvær intraepitelial neoplasi (VIN) |
+| [26516853](https://pubmed.ncbi.nlm.nih.gov/26516853/) | 2015 | Oversikt | Int J Mol Sci | Kombinasjonsbehandling med fotodynamisk terapi ved ikke-melanom hudkreft |
+| [15584683](https://pubmed.ncbi.nlm.nih.gov/15584683/) | 2004 | Oversikt | Semin Cutan Med Surg | Lokal behandling av ikke-melanom hudkreft og forstadier, blant annet imiquimod |
+| [20505896](https://pubmed.ncbi.nlm.nih.gov/20505896/) | 2010 | Oversikt | Skin Therapy Lett | Aktuell behandling av aktinisk keratose, en premalign lesjon |
+| [30284955](https://pubmed.ncbi.nlm.nih.gov/30284955/) | 2019 | Kasuistikk | Int J STD AIDS | Vellykket behandling av høygradig VIN med imiquimod 5 % hos nyretransplantert pasient |
+| [15601490](https://pubmed.ncbi.nlm.nih.gov/15601490/) | 2004 | Kasuistikk | Int J STD AIDS | Bowenoid papulose på penis behandlet med imiquimod 5 % |
+| [29500135](https://pubmed.ncbi.nlm.nih.gov/29500135/) | 2018 | Prekliniske dyrestudier | Urol Oncol | Farmakokinetikk og farmakodynamikk for TLR7-agonister i rotter, for blærekreft |
 
 ---
 
-## Norsk markedsinformasjon
+## Informasjon om det norske markedet
 
-Ingen markedsførings godkjennelsesregistreringer er tilgjengelige i evidenspakken. Imiquimod har for tiden **0 registrerte lisenser** i denne jurisdiksjonen (markedsstatus: Ikke markedsført).
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/002387 | Zyclara | Ikke oppgitt | Keratose, aktinisk keratose (avregistrert) |
+| EMEA/H/C/000179 | Aldara | Ikke oppgitt | Condylomata acuminata, keratose, aktinisk keratose, basalcellekarsinom (avregistrert) |
+
+Begge godkjenningene er avregistrert, og ingen er gyldige i dag.
 
 ---
 
-## Sikkerhetshensyn
+## Cytotoksisitet
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Formelle advarsler, kontraindikasjoner og legemiddelinteraksjonsdata er ikke ennå tilgjengelige i denne evidenspakken (flagget som en **blokkerende** datakløft — DG001: regulerings etikettadvarsler/kontraindikasjoner ikke ennå hentet fra kildemyndigheten).
+| Punkt | Innhold |
+|------|------|
+| Cytotoksisitetsklassifisering | Immunmodulator (TLR7-agonist), ikke et konvensjonelt cytostatikum |
+| Myelosuppresjonsrisiko | Se pakningsvedlegget |
+| Emetogenisk klassifisering | Se pakningsvedlegget |
+| Overvåkingspunkter | Se pakningsvedlegget |
+| Håndteringsbeskyttelse | Se pakningsvedlegget |
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Kontraindikasjoner fra kunnskapsgrafen (ikke fra preparatomtale):** Kunnskapsgrafen (PrimeKG) knytter imiquimod til følgende tilstander: fotoparoksysmal respons, fotosensitivitetssykdom, autoimmun sykdom, graft-versus-host-sykdom og solbrenthet. Disse er signaler fra modellen, ikke bekreftede kontraindikasjoner.
+- **Legemiddelinteraksjoner:** Det er registrert 59 mulige interaksjoner, men alvorlighetsgraden er ikke klassifisert (Unknown). Eksempler er pantoprazol, morfin, omeprazol, prednison, simvastatin, warfarin, klopidogrel, hydroksyklorokin og ibuprofen.
+- **Sikkerhetssignaler fra litteraturen:** Det er rapportert malign omdanning av oral papillomatose under imiquimod-behandling, lichen planopilaris og erythema multiforme etter lokal bruk, samt en sikkerhetsgjennomgang som stiller spørsmål ved off-label bruk i munnhulen.
+
+For øvrig sikkerhetsinformasjon, se pakningsvedlegget.
+
+---
+
+## Andre predikerte indikasjoner (kort oversikt)
+
+| Predikert indikasjon | Evidensnivå | Anbefaling |
+|------|------|------|
+| Benign neoplasi i kinnslimhinne | L4 | Forskningsspørsmål (kun oversikter, dyremodeller og kasuistikker, ingen kliniske studier, sikkerhetsbekymring) |
+| Odontogen cyste | L4 | Hold (litteraturen gjelder basalcellekarsinom ved Gorlin-syndrom, ikke selve cystene) |
+| Cystisk neoplasi | L4 | Hold (én kasuistikk, indirekte kobling) |
+| Benign neoplasi i tunge | L5 | Hold |
+| Cervikalt nevroblastom, nasofaryngealt teratom, neoplasi i storspyttkjertel, schwannom i foramen jugulare, indre øre-neoplasi | L5 | Hold (kun modellprediksjon eller falskt positive treff) |
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Fortsett med sikringsmål**
+**Beslutning: Proceed with Guardrails**
 
 **Begrunnelse:**
-TxGNN-poengsum er veldig høyt (99.92%) og korroboreres av flere fullførte fase 2/3 studier og Cochrane systematiske oversikter på tvers av relaterte premaligne tilstander (CIN, VIN, AIN, actinic keratosis, lentigo maligna), som støtter bevisnivå L2. Imidlertid er innrulleringsstørrelser i de mest direkte relevante studiene små og flere ble avsluttet tidlig, så sikringsmål er berettiget før vi går videre.
+Imiquimod har en etablert indikasjon ved aktinisk keratose, som er en premalign lesjon, og en plausibel TLR7-basert mekanisme. De to fase 3-studiene på premalign neoplasi er imidlertid svake (n=20 uten kontroll, og n=9 avsluttet tidlig), så evidensen er mer begrenset enn nivå L1 tilsier. Begge norske godkjenninger er avregistrert.
 
-**For å fortsette, er følgende nødvendig:**
-- Hent TFDA/regulerings etikettadvarsler og kontraindikasjoner (DG001, blokkering)
-- Innhent en formell virkningsmekanismesammendrag fra DrugBank (DG002)
-- Bekreft legemiddelinteraksjonsprofilen (for tiden ikke funnet)
-- Avklare nåværende markedsførings-/lisensieringsstatus i denne jurisdiksjonen, siden ingen godkjennelser er på fil
-- Søk studier eller litteratur som spesifikt bruker paraplyuttrykket "premalign neoplasme" i stedet for bare stedssspesifikke tilfeller, for direkte å validere den TxGNN-forutsatte kategorien
-
+**For å gå videre kreves følgende:**
+- Pakningsvedlegg med advarsler og kontraindikasjoner, som ikke var tilgjengelig i datagrunnlaget
+- Detaljerte data om virkningsmekanisme (MOA)
+- Større, tilstrekkelig drevne randomiserte studier for spesifikke premaligne tilstander (for eksempel høygradig CIN, VIN og AIN)
+- Avklaring av regulatorisk status i Norge, siden alle godkjenninger er avregistrert
+- Vurdering av sikkerhet ved bruk på slimhinner, inkludert risiko for malign omdanning og immunrelaterte bivirkninger
+- Gjennomgang av de uklassifiserte legemiddelinteraksjonene
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

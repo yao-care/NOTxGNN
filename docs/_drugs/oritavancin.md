@@ -2,7 +2,7 @@
 layout: default
 title: Oritavancin
 parent: Kun modellprediksjon (L5)
-nav_order: 255
+nav_order: 299
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,67 +29,88 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Oritavancin: Fra gram-positive bakterieinfeksjoner til Bacteroidaceae-infeksjonssykdom
+# Oritavancin: Fra bakterielle hud- og bløtdelsinfeksjoner til Bacteroidaceae-infeksjon
 
-## Sammenfatting på en setning
+## Sammendrag i én setning
 
-> Oritavancin er et lipoglycopeptidantibiotikum hvis kjente aktivitetsspektrum er begrenset til gram-positive bakterier.
-> TxGNN-modellen forutser at det kan være effektivt mot **Bacteroidaceae-infeksjonssykdom**,
-> men denne forutsigelsen har **ingen støttende kliniske studier eller litteratur**, og evidensens egen mekanistiske analyse indikerer at forutsigelsen er **biologisk usannsynlig**.
+Oritavancin er et lipoglykopeptid-antibiotikum som opprinnelig brukes mot bakterielle hud- og bløtdelsinfeksjoner.
+TxGNN-modellen predikerer at det kan være effektivt mot **Bacteroidaceae-infeksjon**, men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** i de innsamlede dataene som støtter denne retningen. Prediksjonen er mekanistisk lite plausibel og bør betraktes som et rent modellresultat.
 
-## Rask oversikt
+---
 
-| Emne | Innhold |
+## Hurtigoversikt
+
+| Punkt | Innhold |
 |------|------|
-| Original indikasjon | Ikke formelt dokumentert i denne evidenspakken (legemiddel ikke markedsført på Taiwan; ingen godkjent indikationstekst tilgjengelig). Kjent legemiddelklasse: lipoglycopeptidantibiotikum aktivt mot gram-positive organismer. |
-| Forutsagt ny indikasjon | Bacteroidaceae-infeksjonssykdom |
-| TxGNN-prediksjonspoeng | 99.48% |
-| Bevisnivå | L5 |
-| Status på Taiwan-marked | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+| Opprinnelig indikasjon | Bløtvevsinfeksjoner; bakterielle hudsykdommer |
+| Predikert ny indikasjon | Bacteroidaceae-infeksjon |
+| TxGNN-prediksjonsscore | 99,48 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun tilbakekalt/avregistrert (ingen gyldig markedsføringstillatelse) |
+| Antall tillatelser | 1 |
+| Anbefalt beslutning | Hold |
 
-## Hvorfor er denne forutsigelsen rimelig?
+---
 
-Detaljerte data om virkningsmekanisme er flagget som et datahull i denne evidenspakken (`original_moa: [Data Gap]`). Imidlertid beskriver gjenutnyttelsesgrunnlaget knyttet til toppforutsigelsen oritavancin som et lipoglycopeptidantibiotikum som binder D-Ala-D-Ala-terminalen til celleveggens forløpere, og hemmer peptidoglykansyntese — en mekanisme som er effektiv **bare mot gram-positive bakterier**.
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Bacteroidaceae er gram-negative anaeober hvis ytre membran strukturelt blokkerer penetrasjon av store glykopeptidmolekyler. Ifølge evidenspakken selv er den mekanistiske lenken mellom oritavancin og den forutsagte indikasjon **i strid med legemidlets kjente antibakteriespektrum**, snarere enn støttende.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Basert på kjent farmakologi er oritavancin et lipoglykopeptid som hemmer celleveggsyntesen hos grampositive bakterier ved å binde D-Ala-D-Ala (og D-Ala-D-Lac) i peptidoglykanforløpere, og i tillegg forstyrrer membranintegriteten.
 
-Det samme mønsteret gjelder for de to andre topp-rangerte forutsigelsene i denne evidenspakken:
-- **Oftalmisk herpes zoster** er en virusinfeksjon; oritavancin har ingen kjent antivirusaktivitet.
-- **Mycoplasma pneumoniae-pneumoni** involverer en celleveggsdefisient organisme, som er iboende motstandsdyktig mot celleveggsyntesehemmere som oritavancin.
+Bacteroidaceae (for eksempel *Bacteroides*-arter) er gramnegative anaerobe bakterier med en ytre membran som glykopeptider vanligvis ikke trenger gjennom. Den høye TxGNN-scoren (0,995) har derfor ikke noen plausibel mekanistisk støtte. Prediksjonen gjenspeiler trolig nærhet til andre antibakterielle midler i kunnskapsgrafen snarere enn reell aktivitet.
 
-Alle tre topp TxGNN-rangerte forutsigelser for dette legemiddelet har høye likhetsskårer, men er flagget av evidensens egen mekanistiske annoteringer som farmakologisk inkonsistent med oritavancins etablerte virkningsmekanisme. Dette tyder sterkt på at disse er modellstøy-forutsigelser snarere enn ekte gjenutnyttelsesskandidater.
+Til sammenligning er også de to neste predikerte indikasjonene mekanistisk problematiske:
+- **Oftalmisk herpes zoster** (score 99,03 %): Forårsakes av et DNA-virus, og oritavancin har ingen kjent antiviral virkning.
+- **Mycoplasma pneumoniae-pneumoni** (score 99,01 %): *Mycoplasma* mangler cellevegg, så celleveggshemmere som oritavancin er iboende uvirksomme.
 
-## Bevis fra kliniske studier
+---
 
-For øyeblikket er det ikke registrert relaterte kliniske studier
+## Evidens fra kliniske studier
 
-## Litteraturbevis
+Foreløpig er ingen relaterte kliniske studier registrert.
 
-For øyeblikket er ingen relevant litteratur tilgjengelig
+---
 
-## Markedsinformasjon for Taiwan
+## Litteraturevidens
 
-Ingen markedsføringsautorisasjoner eksisterer for øyeblikket på Taiwan — oritavancin er ikke markedsført i denne jurisdiksjonen (`market_status: Not marketed`, `total_licenses: 0`).
+Foreløpig er ingen relatert litteratur tilgjengelig.
 
-## Sikkerhetshensyn
+---
 
-Vennligst henvise til pakningsvedlegget for sikkerhetsinformasjon.
+## Informasjon om det norske markedet
 
-## Konklusjon og neste trinn
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/003785 | Tenkasi (tidligere Orbactiv) | Ikke oppgitt | Bløtvevsinfeksjoner; bakterielle hudsykdommer |
 
-**Beslutning: Avvent**
+Tillatelsen har status «kansellert», og det finnes ingen gyldige tillatelser for enkeltstoffpreparater eller kombinasjoner.
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Legemiddelinteraksjoner**: Det er funnet 38 registrerte interaksjoner. Blant de viktigste:
+  - **Alvorlig (Major)**: Heparin
+  - **Moderat**: warfarin, tikagrelor, fostamatinib, kobicistat, etinylestradiol, hydrokodon, abemasiklib, acalabrutinib, alpelisib, brigatinib, kabozantinib, krizotinib, pikosulfat, nitisinon, makimorelin, prazikvantel, elagoliks, osilodrostat
+  - **Mindre (Minor)**: bortezomib
+
+  Interaksjonene med heparin, warfarin og tikagrelor er særlig relevante fordi de gjelder blødnings- og koagulasjonsforhold.
+
+Se preparatomtalen for øvrig sikkerhetsinformasjon, som advarsler og kontraindikasjoner.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-TxGNN-skåren er numerisk høy (99.48%), men bevisnivå er L5 — ingen kliniske studier, ingen litteratur, og ingen data fra virkeligheten støtter denne forutsigelsen. Enda viktigere er det at evidensens egen mekanistiske begrunnelse eksplisitt motsier forutsigelsen: oritavancins gram-positiv-selektive, celleveggsavhengige mekanisme er uforenlig med et gram-negativt anaerobisk mål (Bacteroidaceae), og den samme diskvalifiserende logikken gjelder for de to andre rangerte kandidatene (en virusinfeksjon og en celleveggsdefisient organisme). Dette er et tilfelle der modellskåren ikke bør ha forrang over mekanistisk rimelighet.
+Prediksjonen har kun modellstøtte (L5) uten kliniske studier eller litteratur, og virkningsmekanismen taler imot aktivitet mot gramnegative anaerober som Bacteroidaceae. I tillegg har produktet ingen gyldig markedsføringstillatelse i Norge.
 
-**For å fortsette er følgende nødvendig:**
-- Bekreftet MOA og godkjent indikasjondata fra DrugBank/produsentmerking (for øyeblikket merket som datahull: DG001, DG002)
-- TFDA/regulatorisk pakningsvedlegg med advarsler og kontraindikasjoner
-- Uavhengig gjennomgang av hvorfor TxGNN tildelte høye skårer til mekanistisk motsagte indikasjoner (mulig modellkalibrasjonsproblem for denne legemiddelnoden)
-- Hvis forfølges videre, in vitro-følsomhetsdata mot Bacteroidaceae-arter før noen preklinisk eller klinisk investering
-
+**For å gå videre kreves følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner fra DMP for sikkerhetsscreening
+- Detaljerte data om virkningsmekanisme (MOA)
+- *In vitro*-data på følsomhet hos *Bacteroides*-arter (MIC-verdier) for å vurdere om det finnes noen reell aktivitet
+- Avklaring av markedsstatus og tilgjengelige administrasjonsveier i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

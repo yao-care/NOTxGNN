@@ -2,7 +2,7 @@
 layout: default
 title: Mogamulizumab
 parent: Kun modellprediksjon (L5)
-nav_order: 233
+nav_order: 274
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,78 +29,113 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Mogamulizumab: Fra kutane T-celleslymfomer til urotelialt karsinom i prostata-urinrør
+# Mogamulizumab: Fra Sézarys syndrom og mycosis fungoides til urotelkarsinom i prostatisk uretra
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-> Mogamulizumab er et humanisert anti-CCR4-monoklonalt antistoff historisk knyttet til kutane T-celleslymfomer (CTCL)/Sézarys syndrom (ifølge bevispakets mekanistiske notater; ikke til stede i det strukturerte `original_indications`-feltet).
-> TxGNN-modellen predikerer at det kan være effektivt for **urotelialt karsinom i prostata-urinrør**,
-> men **0 kliniske studier** og **0 publikasjoner** støtter for tiden denne retningen — dette er en ren beregningsbasert prediksjon.
+Mogamulizumab er et anti-CCR4 monoklonalt antistoff som opprinnelig brukes mot **Sézarys syndrom** og **mycosis fungoides** (kutane T-cellelymfomer).
+TxGNN-modellen predikerer at det kan ha effekt mot **urotelkarsinom i prostatisk uretra** (score 99,44 %), men for denne prediksjonen finnes det **ingen kliniske studier og ingen publikasjoner** i de innsamlede dataene. Prediksjonen er ren modellprediksjon.
 
-## Kort oversikt
+---
 
-| Element | Innhold |
-|---------|---------|
-| Original indikasjon | Kutane T-celleslymfomer (CTCL) / Sézarys syndrom — referert kun i bevispakets rasjonale-tekst; ikke fanget i det strukturerte `original_indications`-feltet |
-| Forutsagt ny indikasjon | Urotelialt karsinom i prostata-urinrør |
-| TxGNN prediksjonspoengsum | 99.44% (rang 5955) |
-| Bevisnivå | L5 |
-| Status på norsk marked | Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt avgjørelse | Utsett |
+## Hurtigoversikt
+
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Sézarys syndrom; mycosis fungoides |
+| Predikert ny indikasjon | Urotelkarsinom i prostatisk uretra |
+| TxGNN-prediksjonsscore | 99,44 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert/trukket tilbake (cancelled) |
+| Antall godkjenninger | 1 (ikke gyldig lenger) |
+| Anbefalt beslutning | Hold |
+
+---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Strukturerte virkemåte-data er ikke tilgjengelig for dette legemidlet (`original_moa: [Data Gap]`). Imidlertid beskriver rasjonale-teksten knyttet til hver kandidat konsekvent mogamulizumab som et humanisert anti-CCR4-monoklonalt antistoff som depletterer CCR4-positive tumor-infiltrerende regulatoriske T-celler (Tregs) via antisstoff-avhengig cellulær cytotoksisitet (ADCC), og derved lindrer tumor-formidlet immunsuppresjon.
+Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er mogamulizumab et humanisert monoklonalt antistoff rettet mot kjemokinreseptoren CCR4. Det fjerner CCR4-positive celler, inkludert effektor-regulatoriske T-celler (Treg), gjennom antistoffavhengig cellemediert cytotoksisitet (ADCC). Effekten er dokumentert ved Sézarys syndrom og mycosis fungoides.
 
-De forutsatte nye indikasjonene — urotelialt karsinom i prostata-urinrør, nyrebækken og blæren, pluss flere sjeldne tumorer (HHV8-relaterte tumorer, ektomesenkymom, ondartad granulær celletumor i huden) — er knyttet til den opprinnelige mekanismen bare gjennom en generell biologisk hypotese: mange solide tumorer viser CCR4+ Treg-infiltrasjon, og depletering av disse cellene kunne teoretisk gjenopprette anti-tumor-immunitet. Ingen av de sju kandidatene har spesifikke biomarkør-data, prekliniske modeller eller klinisk erfaring sitert i denne bevispakningen for å bekrefte CCR4/Treg-involvering i disse spesifikke tumortyper.
+Den foreslåtte koblingen til urotelkarsinom er hypotetisk: Treg-depletering i tumormikromiljøet kan teoretisk lette immunsuppresjon. Det finnes ingen direkte evidens for dette i urotelkreft, og CCR4-uttrykk i denne tumortypen er ikke etablert i dataene. Prediksjonen gjenspeiler trolig nærhet i kunnskapsgrafen mellom urotelkarsinom-subtyper, snarere enn en validert CCR4-avhengighet.
 
-Kort sagt, dette er en mekanistisk plausibel men helt uvalidert ekstrapolasjon. TxGNN-poengsumet reflekterer nettverksbasert likhet i kunnskapsgrafen, ikke eksperimentell eller klinisk evidens.
+### Andre predikerte indikasjoner (alle uten kliniske studier eller litteratur)
 
-## Evidens fra kliniske studier
+| Rang | Predikert indikasjon | TxGNN-score | Evidensnivå | Vurdering |
+|------|------|------|------|------|
+| 2 | Sarkomatoid overgangscellekarsinom i nyrebekkenet | 99,42 % | L5 | Hold |
+| 3 | Infiltrerende urotelkarsinom i blæren, sarkomatoid variant | 99,40 % | L5 | Hold |
+| 4 | Papillært urotelkarsinom i nyrebekkenet | 99,37 % | L5 | Hold |
+| 5 | Humant herpesvirus 8-relatert tumor | 99,24 % | L5 | Forskningsspørsmål |
+| 6 | Ektomesenkymom | 99,15 % | L5 | Hold |
+| 7 | Malign kutan granulærcelletumor | 99,15 % | L5 | Hold |
 
-Ingen relaterte kliniske studier er for tiden registrert
+Av disse er HHV-8-relaterte tumorer (f.eks. Kaposis sarkom og primært effusjonslymfom) biologisk mest plausible, siden CCR4-positive Treg-celler kan bidra til immunsuppresjon. Dette er fortsatt hypotetisk og bør formuleres som et forskningsspørsmål. For ektomesenkymom og granulærcelletumor finnes ingen kjent CCR4-relatert mekanisme.
 
-## Litteratureviden
+---
 
-Ingen relatert litteratur er for tiden tilgjengelig
+## Kliniske studier
 
-## Norsk markedsinformasjon
+Foreløpig er det ingen relaterte kliniske studier registrert.
 
-Mogamulizumab har for tiden **ingen markedsautorisasjoner i Norge** (`total_licenses: 0`, `market_status: Not marketed`). Ingen produktoppføringer, doseringsformer eller godkjent indikasjonsstekst er tilgjengelig i bevispakningen.
+---
+
+## Litteraturevidens
+
+Foreløpig er det ingen relevant litteratur tilgjengelig.
+
+---
+
+## Markedsinformasjon for Norge
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004232 | Poteligeo | Ikke oppgitt | Sézarys syndrom; mycosis fungoides |
+
+Godkjenningen har status «cancelled». Det finnes ingen gyldige godkjenninger i dataene.
+
+---
 
 ## Cytotoksisitet
 
-Mogamulizumab er et antineoplastisk biologikum (anti-CCR4-monoklonalt antistoff, immunterapiklasse); seksjonen nedenfor er inkludert tilsvarende.
+| Punkt | Innhold |
+|------|------|
+| Klassifisering | Målrettet terapi (monoklonalt antistoff, anti-CCR4); ikke konvensjonelt cytotoksisk middel |
+| Myelosuppresjonsrisiko | Se preparatomtalen for advarsler og forsiktighetsregler |
+| Emetogenisitet | Se preparatomtalen for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Se preparatomtalen for advarsler og forsiktighetsregler |
+| Håndtering og vern | Se preparatomtalen for advarsler og forsiktighetsregler |
 
-| Element | Innhold |
-|---------|---------|
-| Klassifikasjon av cytotoksisitet | Immunterapi (anti-CCR4-monoklonalt antistoff; Treg-depleterende mekanisme, ikke et konvensjonelt cytotoksisk middel) |
-| Risiko for myelosuppresjon | Ikke karakterisert i denne bevispakningen. Vennligst se pakningsvedleggets advarsler og forholdsregler |
-| Klassifikasjon av emetogenitet | Lav (typisk for antisstoff-basert immunterapi, som generelt har minimal direkte emetogen potensial) |
-| Overvåkingspunkter | CBC, hud-/mukokutan undersøkelse, infusjonsreaksjonsovervåking og overvåking for immunrelaterte bivirkninger (leverfunksjon, skjoldbruskkirtel-funksjon, GI-symptomer) — i samsvar med monoklonalt antistoff-immunterapiklasse |
-| Håndteringsbeskyttelse | Ingen cytotoksisk farliglegemidler-data gitt; bekreft håndteringskrav mot institusjonelle biologikum/monoklonalt antistoff-infusjonsprotokoll |
+---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+Advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelige i de innsamlede dataene. Se preparatomtalen for sikkerhetsinformasjon.
 
-> Merk: Dette er en **blokkering** datakløft (DG001 — TFDA/etikett-advarsler og motindikasjoner utilgjengelig), som i seg selv er tilstrekkelig til å forhindre progresjon forbi initiell sikkerhetspreskåning (S1).
+**Legemiddelinteraksjoner:** Totalt er 83 interaksjoner identifisert (de første 20 er gjennomgått her). Utvalg:
 
-## Konklusjon og neste trinn
+| Nivå | Interagerende legemidler |
+|------|------|
+| Alvorlig (Major) | Deferipron, samarium (153Sm) lexidronam, adalimumab, baricitinib |
+| Moderat | Strontiumklorid Sr-89, roflumilast, kloramfenikol, zidovudin, tetanustoksoid, alefacept, alemtuzumab, anakinra, miltbrannvaksine, azatioprin, kanakinumab |
+| Mindre (Minor) | Sinksulfat, sinkacetat, sinkglukonat, sinkklorid |
 
-**Avgjørelse: Utsett**
+Mange av de alvorlige og moderate interaksjonene gjelder immunsuppressive legemidler og vaksiner, noe som er relevant ved kombinasjonsbehandling.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Alle sju forutsagte indikasjonene ligger på bevisnivå L5 (modellprediksjon kun, ingen studier eller litteratur), legemidlet er ikke markedsført i Norge, og en blokkering datakløft (TFDA/regulatorisk etikett-data: advarsler, motindikasjoner) forhindrer enhver sikkerhetspreskåning. Det er for tiden ingen grunnlag for å avansere forbi hypotesestadiet.
+Alle predikerte indikasjoner bygger kun på modellprediksjon (L5), uten kliniske studier eller litteratur. Det eneste norske markedsføringstillatelsen er avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
 
-**For å fortsette, er følgende nødvendig:**
-- Løs DG001: innhent TFDA/regulatorisk etikett-data (advarsler, motindikasjoner, DDI)
-- Løs DG002: bekreft virkemåte via DrugBank API (utover rasjonale-tekst-beskrivelsen)
-- Bekreft legemidlets faktiske opprinnelig godkjente indikasjon(er) i strukturert form
-- Målrettet litteratur-/forsøkssøk for CCR4-ekspresjon eller Treg-infiltrasjon i urotelialt karsinom og de andre kandidattumortypene
-- Hvis noe signal dukker opp, prioriter preklinisk/biomarkør-studier før du vurderer klinisk evaluering
-
+**For å gå videre kreves:**
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel)
+- Detaljerte data om virkningsmekanisme (MOA) fra DrugBank
+- Prekliniske data, f.eks. CCR4- og Treg-infiltrasjon i prøver fra urotelkarsinom
+- For HHV-8-relaterte tumorer: forskningsspørsmål for å teste CCR4-uttrykk og Treg-involvering før klinisk vurdering
+- Avklaring av markedsstatus og tilgjengelighet i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

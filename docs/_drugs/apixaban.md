@@ -2,7 +2,7 @@
 layout: default
 title: Apixaban
 parent: Moderat evidens (L3-L4)
-nav_order: 32
+nav_order: 35
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,84 +29,96 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Apixaban: Fra tromboembolisk sykdomsforebyggelse til migrene
+# Apixaban: Fra venøs tromboembolisme og leddprotese-kirurgi til migrene
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-Apixaban er en direkte oral Factor Xa-inhibitor antikoagulant; evidenspakken spesifiserer ikke dens godkjente indiksjonstekst, men apixaban er bredt klassifisert som en slag-/VTE-antikoagulant.
-TxGNN-modellen forutsier at det kan være effektivt for **Migrene**, med en prediksjonspoengsum på **99.02%**,
-men for tiden er det bare **1 indirekte relevant klinisk studie** og **4 publikasjoner** (stort sett tilfallsrapporter) som støtter denne retningen, og deler av litteraturen peker faktisk i **motsatt** retning.
+Apixaban er en direkte faktor Xa-hemmer (blodfortynnende middel) som opprinnelig brukes til å forebygge og behandle venøs tromboembolisme, i forbindelse med leddprotesekirurgi og for slagforebygging.
+TxGNN-modellen forutsier at legemidlet kan ha effekt ved **migrene**, men det finnes **ingen studier som direkte tester apixaban mot migrene**. Det foreligger **1 klinisk studie** (kun indirekte relevant) og **3 publikasjoner**, hvorav to kasuistikker som peker i motsatt retning.
 
 ---
 
 ## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Original indikasjon | Ikke spesifisert i evidenspakken (apixaban er klassifisert som en Factor Xa-inhibitor antikoagulant; ingen godkjent indiksjonstekst tilgjengelig) |
-| Forutsagt ny indikasjon | Migrene |
-| TxGNN prediksjonspoengsum | 99.02% |
-| Bevisnivå | L4 |
-| Markedsstatus i Norge | Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Artroplastikk; venøs tromboembolisme |
+| Predikert ny indikasjon | Migrene (migraine disorder) |
+| TxGNN-prediksjonsscore | 99,02 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun avregistrerte godkjenninger (ikke markedsført) |
+| Antall godkjenninger | 2 (begge avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige (datakløft). Basert på kjent informasjon tilhører apixaban klassen av direkte orale antikoagulanter (DOAC), inhiberer selektivt Factor Xa for å blokkere koagulasjonskaskaden; dens effektivitet ved tromboembolisk sykdom er etablert, men den spesifikke godkjente indiksjonsteksten er ikke tilgjengelig i denne evidenspakken.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Apixaban er kjent som en direkte faktor Xa-hemmer, og effekten ved tromboembolisme er etablert.
 
-Repurposing-hypotesen er basert på en assosiasjon mellom migrene (særlig migrene med aura) og patent foramen ovale (PFO)/mikroembolisme, der antikoagulasjon potensielt kan redusere paradoksal embolisme-utløst kortikale spredningsdepresjoner — mekanismen som antas å underligge migrenauran. Dette gir en plausibel mekanistisk forbindelse mellom en antikoagulant og en neurovaskulær lidelse.
+En mulig kobling går via migrene med aura, som er forbundet med høyre-til-venstre-shunt (åpen foramen ovale, PFO) og med protrombotiske tilstander, blant annet antifosfolipid-antistoffer. I slike situasjoner kan tromber eller mikroemboli bidra til aura. En faktor Xa-hemmer kan i teorien redusere slike hendelser.
 
-Imidlertid peker den tilgjengelige tilfallerapport-litteraturen i motsatt retning: pasienter hvis migrene bedret seg på warfarin opplevde *gjentakelse eller forverring* av symptomer etter bytte til apixaban. Dette tyder på at warfarin sin tilsynelatende antimigrenøse effekt kan virke gjennom en mekanisme annen enn Factor Xa-inhibisjon (f.eks. vitamin K–avhengige proteineffekter eller antiinflammatorisk virkning), som apixaban — en selektiv Factor Xa-inhibitor — kanskje ikke replikerer. Med andre ord er TxGNN-modellens høye poengsum for tiden ikke bekreftet av, og er delvis motsiget av, empirisk evidens fra klinisk praksis.
+TxGNN-scoren er svært høy (0,99), men dette er en grafbasert prediksjon og viser ikke i seg selv en mekanisme. De tilgjengelige kasuistikkene peker dessuten i motsatt retning: én beskriver forverret migrene med aura etter oppstart av apixaban, en annen beskriver at aura forsvant på warfarin, men ikke på apixaban. Evidens for en terapeutisk effekt av faktor Xa-hemming på migrene mangler, og signalet er blandet eller negativt.
 
 ---
 
-## Klinisk studieeviddens
+## Klinisk studiedokumentasjon
 
-| Studienummer | Fase | Status | Inkludering | Hovedfunn |
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Fase 3 | Ferdigstilt | 664 | CLOSURE-I-studie som sammenligner PFO-lukking kontra antikoagulant (warfarin)/antiplatelet-terapi for forebygging av ny hjerneslag. Forutgår apixaban og bruker ikke apixaban; migrene var ikke primært endepunkt. Relevans gradert **C (indirekte)** — kun populasjons-/mekanisme-overlap. |
+| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Fase 3 | Fullført | 664 | Lukking av åpen foramen ovale eller antikoagulasjon versus blodplatehemmere for å forebygge nytt hjerneslag. Migrene var verken primær indikasjon eller endepunkt, apixaban ble ikke testet, og antikoagulasjonsarmen brukte vitamin K-antagonister. Gir kun indirekte kontekst. |
+
+Studien kan ikke regnes som direkte fase 3-evidens for migrene.
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Journal | Hovedfunn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [33402037](https://pubmed.ncbi.nlm.nih.gov/33402037/) | 2021 | Retrospektiv kohortstudie (liten, n=75) | Lupus | Antitrombot-terapi forsøkt hos pasienter med refraktær migrene og antifosfolipidantistoffer; viss symptomatisk forbedring rapportert, men ikke apixaban-spesifikk. |
-| [28960288](https://pubmed.ncbi.nlm.nih.gov/28960288/) | 2017 | Tilfellerapport | Headache | Migrene med aura i fullstendig remisjon i 12 år på warfarin; symptomer **returnerte innen 3 uker etter bytte til apixaban** og løste seg igjen ved warfarin-gjenopptakelse — evidens *mot* apixaban-effektivitet. |
-| [37582651](https://pubmed.ncbi.nlm.nih.gov/37582651/) | 2023 | Tilfellerapport | The Neurologist | Migrene **forverret etter oppstart av apixaban**; litteraturgjennomgang av DOAC-effekter på migrenehyppighet/alvorlighetsgrad, noterer at dagens evidens er mangelfull og omstridt. |
-| [29611190](https://pubmed.ncbi.nlm.nih.gov/29611190/) | 2018 | Tilfellerapport | Headache | Vestibulær migrene løst på warfarin og topiramate; apixaban ikke evaluert i denne saken. |
+| [37582651](https://pubmed.ncbi.nlm.nih.gov/37582651/) | 2023 | Kasuistikk med litteraturgjennomgang | The Neurologist | Migrene med aura forverret etter oppstart av apixaban. Litteraturen om direkte orale antikoagulantia ved migrene er sparsom og motstridende. |
+| [28960288](https://pubmed.ncbi.nlm.nih.gov/28960288/) | 2017 | Kasuistikk | Headache | Kvinne på 55 år med migrene med aura i remisjon i 12 år på warfarin. Symptomene kom tilbake innen 3 uker etter bytte til apixaban og forsvant igjen etter at warfarin ble gjenopptatt. |
+| [33402037](https://pubmed.ncbi.nlm.nih.gov/33402037/) | 2021 | Retrospektiv studie (75 pasienter) | Lupus | Undersøker respons på antitrombotisk behandling ved refraktær migrene med antifosfolipid-antistoffer. Studiedesign, hvilke legemidler som ble testet og apixabans rolle kan ikke bekreftes ut fra de tilgjengelige dataene. |
 
 ---
 
-## Markedsinformasjon for Norge
+## Informasjon om det norske markedet
 
-Apixaban har for tiden ingen markedsføringstillatelse registrert i Norge i denne evidenspakken (markedsstatus: Ikke markedsført; 0 godkjennelser).
-
----
-
-## Sikkerhetshensyn
-
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Viktige advarsler, kontraindikasjoner og legemiddelinteraksjonsdata er for tiden ikke tilgjengelige i denne evidenspakken (flagget som blokkering datakløft, DG001 — TFDA/pakningsvedlegg-advarsler under innhenting).
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/002148 | Eliquis (avregistrert) | – | Artroplastikk; venøs tromboembolisme |
+| EMEA/H/C/005358 | Apixaban Accord (avregistrert) | – | Venøs tromboembolisme; slag; artroplastikk |
 
 ---
 
-## Konklusjon og neste skritt
+## Sikkerhetsvurderinger
 
-**Beslutning: Avvent**
+**Legemiddelinteraksjoner:** Interaksjonssøket er gjennomført og ga 100 treff. Eksempler på **alvorlige (Major)** interaksjoner:
+- Acetylsalisylsyre
+- Cobicistat
+- Deferasirox
+- Ibritumomab tiuxetan
+- Tositumomab og tositumomab (I-131)
+
+Eksempler på **moderate** interaksjoner: aprepitant, klaritromycin, klotrimazol, deksametason, feniluramin og deksfenfluramin, eliglustat, mikonazol, rolapitant, sibutramin, troglitazon, jod I-123 og I-131, sugammadeks.
+
+Se preparatomtalen for informasjon om advarsler og kontraindikasjoner.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-TxGNN-poengsummen er høy, men den eneste identifiserte kliniske studie evaluerer ikke apixaban eller migrene direkte, og den sterkeste tilgjengelige litteraturen (tilfallsrapporter) viser faktisk migreneren **forverret** ved bytte fra warfarin til apixaban — i direkte konflikt med modellens prediksjonen. Bevisnivå er L4 (kun mekanisme/tilfelle-nivå), utilstrekkelig for å gå forbi S0.
+Prediksjonen bygger kun på en grafbasert modell (evidensnivå L4). Den eneste kliniske studien tester ikke apixaban eller migrene direkte, og de to kasuistikkene om apixaban tyder på forverring eller manglende effekt. Legemidlet har dessuten ingen gyldig markedsføringstillatelse i Norge i dag.
 
-**For å gå videre er følgende nødvendig:**
-- Komplette MOA-data (DG002) for riktig evaluering av Factor Xa–migrene-mekanistisk forbindelse
-- TFDA/pakningsvedlegg sikkerheetsdata (DG001) — blokkerer for tiden S1 sikkerhetsprevurdering
-- En prospektiv studie eller større kohortstudie som spesifikt evaluerer apixaban (ikke warfarin) hos migreneparsienter
-- Avklaring mellom den mekanistiske hypotesen og den motstridende tilfallerapport-retningen før videre investering
-
+**For å gå videre kreves følgende:**
+- Informasjon om advarsler og kontraindikasjoner fra preparatomtalen (blokkerende datamangel for sikkerhetsscreening)
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Avklaring av design og legemidler i studien om antifosfolipid-antistoffer (PMID 33402037)
+- Pasientgrupper der hypotesen kan testes (migrene med aura og PFO eller antifosfolipid-antistoffer), og en vurdering av blødningsrisiko opp mot mulig nytte
+- Avklaring av regulatorisk status, siden begge godkjenningene er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

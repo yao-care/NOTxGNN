@@ -2,7 +2,7 @@
 layout: default
 title: Eflornithine
 parent: Kun modellprediksjon (L5)
-nav_order: 121
+nav_order: 140
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,61 +29,67 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Eflornithine: Fra afrikanisk trypanosomiasis/hirsutisme til esotropi (prediksjon med lav selvtillit)
+# Eflornitin: Fra hirsutisme til esotropi
 
 ## Oppsummering i én setning
 
-Eflornithine er en irreversibel ornithin dekarboxylase (ODC)-hemmer kjent klinisk for behandling av afrikanisk trypanosomiasis og, topisk, ansiktshirsutisme. TxGNN forutsier en mulig ny indikasjon for **esotropi**, men dette støttes av **0 kliniske forsøk** og **0 publikasjoner**, og modellens egen begrunnelse flagger ingen plausibel farmakologisk sammenheng — dette er et modellbasert signal, ikke evidensbasert.
+Eflornitin er en hemmer av enzymet ornitindekarboksylase, opprinnelig godkjent for behandling av **hirsutisme** (uønsket hårvekst i ansiktet).
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **esotropi**, men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne prediksjonen i de data som er sammenstilt for rapporten.
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Originalindikasjon | Ikke registrert i dette datasettet (ingen taiwansk lisens/formell indikasjonstekst tilgjengelig); kjente kliniske bruksområder per tilgjengelig bevis: afrikanisk trypanosomiasis, topisk behandling av ansiktshirsutisme |
-| Forutsagt ny indikasjon | Esotropi |
-| TxGNN prediksjonspoeng | 99.85% |
-| Bevisnivå | L5 |
-| Taiwansk markedsstatus | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Hirsutisme |
+| Predikert ny indikasjon | Esotropi |
+| TxGNN-prediksjonsscore | 99,85 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun trukket tilbake (ingen gyldige markedsføringstillatelser) |
+| Antall godkjenninger | 1 (trukket tilbake) |
+| Anbefalt beslutning | Hold |
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelig i det formelle `original_moa`-feltet for denne kandidaten (flagget som **blokkering** datakløft, DG001/DG002). Basert på det tilleggsbevis som er vedlagt denne prediksjonen, forstås eflornithine å irreversibelt hemme ornithin dekarboxylase (ODC) og blokkere polyaminsyntese — en mekanisme som ligger til grunn for dens etablerte bruk mot afrikanisk trypanosomiasis (antiparasittisk) og topisk undertrykkelse av økt ansiktshårvekst (antiproliferativ effekt på hårfollikler).
+Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i den sammenstilte posten. Ut fra generell farmakologi er eflornitin en irreversibel hemmer av ornitindekarboksylase (ODC, kodet av *ODC1*), det hastighetsbegrensende enzymet i polyaminsyntesen. Mekanismen forklarer effekten ved hirsutisme, der hemming av polyaminer bremser celledeling i hårfollikler. Legemidlet brukes også ved afrikansk søvnsyke og er nylig godkjent i USA som vedlikeholdsbehandling ved høyrisiko nevroblastom.
 
-Esotropi er en lidelse av ekstrakular muskeltonus/neuromuskulær kontroll, ikke en proliferativ, parasittisk eller polyaminavhengig tilstand. Modellens egen begrunnelse for omdisponering sier eksplisitt at det **ikke finnes noen kjent fysiologisk eller farmakologisk mekanisme** som forbinder ODC-hemmelse/polyaminblokkade til esotropi, og vurderer denne prediksjonen som mest sannsynlig et artefakt («støy») av TxGNN embedding-rom snarere enn et biologisk begrunnet signal.
+Det er vanskelig å se en plausibel mekanistisk sammenheng mellom ODC-hemming og esotropi. Esotropi er en forstyrrelse i øyets innstilling som skyldes nevromuskulære, refraktive eller binokulære faktorer. Den svært høye TxGNN-scoren (0,9985) er en ren modellprediksjon uten støtte i studier eller litteratur, og den kan gjenspeile artefakter i kunnskapsgrafen. Prediksjonen bør derfor tolkes med stor forsiktighet.
 
-En sekundær kandidat, neurotrof keratopati (rangering 2, poengsum 99.38%), ble også evaluert men viser en lignende ustøttet — og potensielt mekanistisk **ugunstig** — sammenheng: ODC-hemmelse ville forventes å *redusere* polyamin-drevet korneal epitelial regenerasjon i stedet for å forbedre den. Ingen av kandidatene har noe bekreftende forsøks- eller litteraturbevis.
+Som sekundær prediksjon fremhever modellen også **nevrotrofisk keratopati** (score 99,38 %). Her finnes en teoretisk kobling via polyaminenes rolle i celleproliferasjon og nerveregenerering, men polyaminmangel vil sannsynligvis svekke fremfor å fremme sårheling i hornhinnen. Effektretningen er uklar og muligens ugunstig, og koblingen er spekulativ.
 
-## Bevis fra kliniske forsøk
+## Klinisk studiedokumentasjon
 
-For øyeblikket ingen relaterte kliniske forsøk registrert.
+Foreløpig er ingen relaterte kliniske studier registrert.
 
-## Litteraturbevis
+## Litteraturdokumentasjon
 
-For øyeblikket ingen relatert litteratur tilgjengelig.
+Foreløpig er ingen relatert litteratur tilgjengelig.
 
-## Taiwansk markedsinformasjon
+## Markedsinformasjon for Norge
 
-Eflornithine er ikke for tiden markedsført i Taiwan; ingen lisensposter er tilgjengelig (`total_licenses = 0`).
+| Godkjenningsnummer | Produktnavn | Doseform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000325 | Vaniqa (Almirall, S.A.) | Ikke oppgitt | Hirsutisme (status: trukket tilbake) |
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og data om legemiddelinteraksjon er ikke tilgjengelig i dette bevismateriell — løsing av dette er et **blokkering** gap, DG001, nødvendig før noen S1 sikkerhetsevaluering kan fortsette.)
+- **Kontraindikasjoner fra kunnskapsgraf (ikke preparatomtale):** Kunnskapsgrafen (PrimeKG) knytter eflornitin til eksantem og dermatitt. Dette er ikke hentet fra preparatomtalen og må verifiseres.
+- **Legemiddelinteraksjoner:** Én farmakologisk registrering, med målproteinet ornitindekarboksylase (ODC1, human). Det er ikke angitt noen interaksjon med andre legemidler eller alvorlighetsgrad.
 
-## Konklusjon og neste trinn
+For fullstendig sikkerhetsinformasjon (advarsler og kontraindikasjoner) må preparatomtalen konsulteres.
 
-**Beslutning: Avvent**
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen hviler utelukkende på en TxGNN-modellpoengsum (L5) uten kliniske forsøk, uten litteratur, og uten plausibel mekanistisk vei identifisert av modellens egen begrunnelse — faktisk peker mekanismen plausibelt i motsatt retning for den sekundære kandidaten. Kombinert med et **blokkering** gap på TFDA/etikett sikkerhetsdataene (DG001) og en manglende formell MOA (DG002), kan denne kandidaten ikke avansere forbi S0.
+Prediksjonene for esotropi og nevrotrofisk keratopati bygger kun på modellscore (evidensnivå L5), uten kliniske studier, litteratur eller en plausibel mekanistisk kobling. Legemidlet har dessuten ingen gyldig markedsføringstillatelse i Norge.
 
-**For å fortsette, er følgende nødvendig:**
-- Bekreftet originalmekanisme (MOA) og godkjent indikasjon(er) fra DrugBank/regulatorisk kilde (løs DG002)
-- TFDA (eller tilsvarende) etikett advarsler/kontraindikasjoner (løs DG001, **blokkering** — nødvendig før noen S1 sikkerhetsevaluering)
-- Uavhengig farmakologisk plausibilitetsevaluering for esotropi gitt fravær av en mekanistisk begrunnelse
-- Løpende litteratur-/forsøksovervåking i tilfelle nye bevis dukker opp, gitt nåværende mangel på noen støttestudie
-
+**For å gå videre kreves følgende:**
+- Hente og analysere preparatomtalens advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Innhente detaljerte MOA-data fra DrugBank
+- Systematisk litteratur- og studiesøk for esotropi og nevrotrofisk keratopati
+- Prekliniske data eller en mekanistisk hypotese som forklarer sammenhengen mellom ODC-hemming og de predikerte tilstandene
+- Vurdering av administrasjonsvei og formulering, siden eksisterende produkt er topisk (krem) og øyeindikasjoner kan kreve en annen formulering
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

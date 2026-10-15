@@ -2,7 +2,7 @@
 layout: default
 title: Nilotinib
 parent: Moderat evidens (L3-L4)
-nav_order: 243
+nav_order: 284
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,79 +29,103 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Nilotinib: Fra kronisk myeloid leukemi til dermatofibrosarkom protuberans
+# Nilotinib: Fra kronisk myelogen leukemi til dermatofibrosarcoma protuberans
 
-## Oppsummering i en setning
+## Sammendrag
 
-Nilotinib er en andregennerasjons tyrosinkinasehemmer opprinnelig utviklet for Philadelphia-kromosom-positiv kronisk myeloid leukemi (Ph+ CML). TxGNN-modellen predikerer at det kan være effektivt for **dermatofibrosarkom protuberans (DFSP)**, men denne retningen støttes for øyeblikket av bare **0 kliniske studier** og **1 publikasjon**, noe som betyr at evidensgrunnlaget er mekanistisk snarere enn klinisk på dette stadiet.
+Nilotinib er en tyrosinkinasehemmer som opprinnelig brukes til behandling av BCR-ABL-positiv kronisk myelogen leukemi.
+TxGNN-modellen predikerer at legemidlet kan være effektivt mot **dermatofibrosarcoma protuberans (DFSP)**.
+Evidensen er foreløpig svak: **ingen registrerte kliniske studier** og **1 publikasjon** (en oversiktsartikkel) i de innsamlede dataene.
 
-## Rask oversikt
+---
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Kronisk myeloid leukemi (Ph+ CML)† |
-| Predikert ny indikasjon | Dermatofibrosarkom protuberans |
-| TxGNN-prediksjonspoeng | 99.31% |
+## Hurtigoversikt
+
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Kronisk myelogen leukemi, BCR-ABL-positiv |
+| Predikert ny indikasjon | Dermatofibrosarcoma protuberans |
+| TxGNN-prediksjonsscore | 99,31 % |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | ✗ Ikke på markedet |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+| Markedsstatus i Norge | Kun avregistrerte (trukket tilbake) markedsføringstillatelser |
+| Antall tillatelser | 2 (begge avregistrert) |
+| Anbefalt beslutning | Hold |
 
-† Ikke tilstede i `original_indications`/`original_moa`-feltene i evidenspakken (flagget som datakløft, DG002). Dette er basert på generelt kjent informasjon om nilotinib snarere enn på det leverte evidensmaterialet.
+---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljerte mekanisme-av-virkning-data ikke tilgjengelig i evidenspakken (datakløft DG002). Basert på generelt kjent informasjon er nilotinib en andregennerasjons BCR-ABL-tyrosinkinasehemmer (TKI) hvis effektivitet ved Ph+-kronisk myeloid leukemi er veletablert; den har også anerkjent off-target-inhibitorisk aktivitet mot PDGFR-α/β og KIT.
+DFSP kjennetegnes av en COL1A1-PDGFB-fusjon som gir vedvarende autokrin aktivering av PDGFRB. Nilotinib hemmer, i tillegg til BCR-ABL, også PDGFR (alfa/beta) og KIT. Dette gir et plausibelt mekanistisk grunnlag for effekt ved DFSP.
 
-Dermatofibrosarkom protuberans (DFSP) er et bløtvevssarkom som karakteristisk drives av en COL1A1-PDGFB-genfusjon, som forårsaker konstitutiv aktivering av PDGFR-β-signalveien. Imatinib, en førstegennerasjons TKI i samme farmakologiske klasse som nilotinib, er allerede en etablert behandling for irresektabelt eller metastatisk DFSP nettopp på grunn av sin anti-PDGFR-aktivitet. Dette skaper en plausibel mekanistisk forbindelse mellom nilotinibs kjente målprofil og DFSP-biologi.
+Dette er samme mekanistiske klasse som imatinib, som er etablert i behandling av DFSP. Den svært høye prediksjonsscoren er i tråd med denne PDGFR-koblingen, men den er en beregningsbasert prediksjon og ikke klinisk evidens.
 
-Det eneste hentede litteraturpunktet (PMID 29408302) gjennomgår den bredere rollen til småmolekyl PDGFR-inhibitorer — som en klasse — ved neoplastisk sykdom, noe som er konsistent med denne begrunnelsen, men gir ikke nilotinib-spesifikk eller DFSP-spesifikk klinisk resultatdata. Prediksjonen bør derfor betraktes som mekanistisk plausibel, men ikke ennå klinisk validert.
+Merk: Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene. Mekanismebeskrivelsen over bygger derfor på generell farmakologisk kunnskap om nilotinib og ikke på de leverte dataene.
 
-## Klinisk prøvebevis
+---
 
-Ingen relaterte kliniske studier er for øyeblikket registrert
+## Klinisk studieevidens
 
-## Litteraturbevis
+Foreløpig ingen relevante kliniske studier registrert.
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
-|------|-----|------|---------|---------|
-| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Oversikt | Pharmacological Research | Gjennomgår rollen til småmolekyl PDGFR-inhibitorer (en klasse som inkluderer nilotinib) i behandling av neoplastiske lidelser; støtter en mekanistisk, men ikke DFSP-spesifikk, begrunnelse for PDGFR-drevne tumorer |
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Oversiktsartikkel | Pharmacological Research | Gjennomgang av rollen til småmolekylære PDGFR-hemmere i behandling av neoplastiske sykdommer; gir bakgrunn for PDGFR som terapeutisk mål |
+
+---
 
 ## Markedsinformasjon for Norge
 
-Nilotinib er for øyeblikket ikke på markedet i Norge — ingen markedsføringssamtykker er registrert i evidenspakken.
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000798 | Tasigna (Novartis Europharm Limited) | Ikke oppgitt | Kronisk myelogen leukemi, BCR-ABL-positiv (avregistrert) |
+| EMEA/H/C/006315 | Nilotinib Accord (Accord Healthcare S.L.U.) | Ikke oppgitt | Kronisk myelogen leukemi, BCR-ABL-positiv (avregistrert) |
+
+---
 
 ## Cytotoksisitet
 
-Nilotinib er et antineoplastisk middel (opprinnelig indikasjon er en hematologisk ondartelse, CML), så denne delen gjelder.
+| Punkt | Innhold |
+|------|------|
+| Klassifisering | Målrettet terapi (tyrosinkinasehemmer) |
+| Risiko for myelosuppresjon | Se preparatomtalen for advarsler og forsiktighetsregler. Kunnskapsgrafen peker på nøytropeni, trombocytopeni og anemi som relevante tilstander |
+| Emetogenisitet | Se preparatomtalen for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Blodstatus (CBC), lever- og nyrefunksjon, elektrolytter (kalium, fosfor, kalsium), blodsukker, EKG/QT-intervall |
+| Håndteringsbeskyttelse | Se preparatomtalen for advarsler og forsiktighetsregler |
 
-| Element | Innhold |
-|---------|---------|
-| Cytotoksisitetsklassifisering | Målrettet terapi (BCR-ABL/PDGFR/KIT-tyrosinkinasehemmer) |
-| Risiko for myelosuppresjon | Se advarsler og forsiktighetsregler i pakningsvedlegget |
-| Emetogenitetsklassifisering | Se advarsler og forsiktighetsregler i pakningsvedlegget |
-| Overvåkingselementer | Se advarsler og forsiktighetsregler i pakningsvedlegget |
-| Håndteringsbeskyttelse | Se advarsler og forsiktighetsregler i pakningsvedlegget |
+---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegget for sikkerhetsinformasjon.
+Data om advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelig. Se preparatomtalen for sikkerhetsinformasjon.
 
-## Konklusjon og neste trinn
+- **Tilstander markert i kunnskapsgrafen (PrimeKG, ikke preparatomtale):** høyt blodtrykk, langt QT-syndrom (inkl. arvelig form) og torsades de pointes, leversykdom, gallblæresykdom, trombocytopeni, nøytropeni, agranulocytose, anemi, hyperglykemi, diabetes og diabetisk ketoacidose, kaliummangel, hyperkalsemi, nefrokalsinose, forstyrrelser i fosformetabolismen, hypofosfatemi, hyperbilirubinemi (inkl. Gilberts syndrom) og pankreatitt.
+- **Legemiddelinteraksjoner:** 100 interaksjoner funnet; de 20 første vises i dataene. Alvorlige (Major) interaksjoner:
+  - Deksametason
+  - Klaritromycin
+  - Pikosulfatsyre
+  - Polyetylenglykol (3350 med elektrolytter)
+  
+  Moderate interaksjoner inkluderer syrehemmere (famotidin, ranitidin, rabeprazol, omeprazol, cimetidin), kortikosteroider (hydrokortison, triamcinolon, betametason, budesonid), pioglitazon, loperamid, bupropion, aprepitant, bisakodyl og saksagliptin.
 
-**Beslutning: Avvent**
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-- TxGNN-poengsum er høyt, men det underliggende evidensgrunnlaget er begrenset til en enkelt mekanisme-klassegjennomgang med ingen DFSP-spesifikk eller nilotinib-spesifikk klinisk data, og null registrerte kliniske studier — noe som plasserer dette på Evidensnivå L4 (kun mekanisme).
-- Kritisk sikkerhetsinformasjon (TFDA/produktetikett-advarsler og kontraindikasjoner) er merket som en **blokkerende** datakløft (DG001), som per definisjon hindrer denne kandidaten fra å gå inn i S1-stadiet for sikkerhetsprelimær evaluering.
+Det mekanistiske grunnlaget (PDGFR-hemming, analogt med imatinib) er plausibelt, men evidensen består kun av modellprediksjon og én oversiktsartikkel uten kliniske studier. I tillegg er alle norske/europeiske tillatelser avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
 
-**For å fortsette, kreves følgende:**
-- TFDA-pakningsvedlegg-data (advarsler, kontraindikasjoner) — for øyeblikket blokkerende, må løses først
-- Bekreftet mekanisme-av-virkning (MOA) detalj fra DrugBank (datakløft DG002)
-- Sykdomsspesifikk bevis for nilotinib ved DFSP, særlig ved imatinib-resistente eller PDGFB-omgjorte tilfeller
-- Stoff-stoff-interaksjon (DDI) profil, for øyeblikket uløst (`not_found`)
-- Bekrefting av norsk markedsførings-/importvei, gitt at stoffet for øyeblikket ikke er på markedet
-
+**For å gå videre kreves:**
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel)
+- Data om virkningsmekanisme fra DrugBank
+- Søk etter kliniske studier og case-/fase 2-data for nilotinib ved DFSP, og sammenligning med imatinib
+- Avklaring av regulatorisk status og tilgjengelighet i Norge, gitt at begge tillatelsene er avregistrert
+- Vurdering av kardiovaskulær sikkerhet (QT-forlengelse) og interaksjonsrisiko før eventuell videre utvikling
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

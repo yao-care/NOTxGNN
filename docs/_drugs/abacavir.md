@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Abacavir
-parent: Kun modellprediksjon (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 11
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Abacavir
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,97 +29,95 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# ABACAVIR: Rapport om vurdering av legemiddelombruk
+# Abacavir: Fra HIV-infeksjon til simian immunsviktvirus-infeksjon
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-Abacavir er en nukleosidanalog revers transkriptasehemmer (NRTI) som er mye brukt i behandlingen av HIV/AIDS.
-TxGNN-modellen har **ikke generert noen predikterte nye indikasjoner** for dette legemidlet på nåværende tidspunkt,
-og det finnes **ingen kliniske studier eller publikasjoner** knyttet til ombrukskandidater i denne evidenspakken.
+Abacavir er en nukleosid revers transkriptase-hemmer (NRTI) som opprinnelig brukes til behandling av HIV-infeksjon.
+TxGNN-modellen forutsier at legemidlet kan ha effekt mot **simian immunsviktvirus-infeksjon (SIV)**,
+men støtten er svak: **0 kliniske studier** og **1 publikasjon** (en in vitro-studie) i de innsamlede dataene.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | HIV-infeksjon (kjent fra stoffklasse; ikke oppført i evidenspakken) |
-| Prediktert ny indikasjon | — |
-| TxGNN Prediksjonspoeng | N/A |
-| Evidensnivå | L5 — Modellprediksjon ikke ennå tilgjengelig |
-| Taiwans markedsstatus | ✗ Ikke markedsført (Ikke markedsført) |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | **Avvent** |
+| Opprinnelig indikasjon | HIV-infeksjon |
+| Predikert ny indikasjon | Simian immunsviktvirus-infeksjon |
+| TxGNN-prediksjonsscore | 99,79 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun avregistrerte (kansellerte) godkjenninger |
+| Antall godkjenninger | 4 (alle kansellert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen fornuftig?
+## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket har TxGNN-modellen ikke produsert noen ombruksprediksjoner for Abacavir. Uten en prediktert indikasjon kan det ikke gjennomføres en vurdering av mekanistisk plausibilitet.
+Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Ut fra kjent informasjon er abacavir en NRTI som omdannes intracellulært til karbovirtrifosfat, som stopper forlengelsen av viral DNA-kjede. Effekten ved HIV-infeksjon er dokumentert.
 
-Basert på generell farmakologisk kunnskap er Abacavir en guanosinukleosidanalog som hemmer HIV revers transkriptase. Det konverteres intracellulært til sin aktive metabolitt karbovir trifosfat, som konkurrerer med deoxyguanosin-5'-trifosfat (dGTP) og inkorporeres inn i viral DNA, noe som forårsaker kjedeslutning. Denne mekanismen er svært spesifikk for retroviral replikasjon, noe som kan begrense bredden av ombrukskandidater.
+SIV er et lentivirus som er nært beslektet med HIV og har en lignende revers transkriptase. Det gjør aktivitet biologisk plausibel. Den høye TxGNN-scoren (0,998) gjenspeiler i hovedsak likheten med den godkjente HIV-indikasjonen.
 
-> **Merk:** Detaljert data om virkningsmekanisme (MOA) var ikke tilgjengelig i evidenspakken (Datagap DG002). Beskrivelsen ovenfor er basert på etablert farmakologisk litteratur. Formelle MOA-data bør hentes fra DrugBank for å støtte fremtidig analyse.
+Det er viktig å merke seg at SIV er et virus i dyremodeller, ikke en klinisk indikasjon hos mennesker. Overføringsverdien er derfor i hovedsak begrenset til forskningsbruk (prekliniske modeller).
 
----
-
-## Klinisk studiebevis
-
-For øyeblikket er det ingen relaterte kliniske studier registrert for noen prediktert ombruksindikasjon.
-
-*(Ingen predikterte indikasjoner ble generert av TxGNN for denne kandidaten.)*
+To andre prediksjoner er også vurdert i dataene, begge med anbefalingen «Hold»:
+- **Felint ervervet immunsviktsyndrom (FIV):** Plausibel mekanisme siden FIV også bruker revers transkriptase. Eneste støtte er en dyrestudie av kombinasjonen zidovudin, lamivudin og abacavir, så abacavirs egen bidrag kan ikke isoleres. Dette er en veterinær indikasjon med begrenset relevans for human legemiddelrepurposing.
+- **Nevroutviklingsforstyrrelse med ataktisk gange, fravær av tale og redusert kortikal hvit substans:** Ingen studier eller litteratur, og ingen tydelig mekanistisk kobling. Prediksjonen er rent beregningsbasert og spekulativ (evidensnivå L5).
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske studier
 
-For øyeblikket er det ingen tilgjengelig litteratur for noen prediktert ombruksindikasjon.
-
-*(Ingen predikterte indikasjoner ble generert av TxGNN for denne kandidaten.)*
+Foreløpig ingen relevante kliniske studier registrert.
 
 ---
 
-## Taiwans markedsinformasjon
+## Litteraturevidens
 
-Abacavir har for øyeblikket **ingen markedsføringstillatelser** (許可證) fra TFDA i Taiwan.
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro-studie | Antiviral Therapy | Undersøkte aktiviteten til 16 godkjente legemidler og ett eksperimentelt legemiddel mot HIV-2, SIV og SHIV. Indirekte, ikke-klinisk evidens. |
+
+Merk: For den andre prediksjonen (FIV) finnes én dyrestudie ([11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/), 2002, Antiviral Research) som undersøker kombinasjonen zidovudin, lamivudin og abacavir mot FIV in vitro.
+
+---
+
+## Markedsinformasjon for Norge
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| — | — | — | Ingen godkjennelser på post |
+| EMEA/H/C/000252 | Ziagen | – | HIV-infeksjon |
+| EMEA/H/C/000581 | Kivexa | – | HIV-infeksjon |
+| EMEA/H/C/000338 | Trizivir | – | HIV-infeksjon |
+| EMEA/H/C/002754 | Triumeq | – | HIV-infeksjon |
+
+Alle fire godkjenninger er kansellert, og ingen gyldige godkjenninger er registrert.
 
 ---
 
 ## Sikkerhetshensyn
 
-> Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
->
-> Viktige sikkerhetsdata — inkludert advarsler, kontraindikasjoner og legemiddel–legemiddel interaksjoner — var ikke tilgjengelig i evidenspakken (Datagap DG001). For klinisk bruk er følgende veletablerte bekymringer for Abacavir:
-> - **HLA-B\*5701 screening** er obligatorisk før oppstart; bærere har høy risiko for en potensielt dødelig overfølsomhetsreaksjon.
-> - **Kardiovaskulær risiko**: Noen epidemiologiske studier har assosiert Abacavir-bruk med økt risiko for hjerteinfarkt, selv om dette fortsatt er omdiskutert.
-> - **Melkesyreacidose / hepatomegali**: En klasseffekt av NRTI-er som nødvendiggjør overvåking.
->
-> Formelle sikkerhetsdata bør hentes fra TFDA-pakningsvedlegget (adressering per DG001).
+- **Mulige kontraindikasjoner (fra TxGNN-kunnskapsgrafen, ikke fra preparatomtale):** leversvikt, leversykdom, fettlever og ikke-alkoholisk steatohepatitt, nyresykdom, pankreatitt, sykdom i galleblæren, myopati og andre muskelsykdommer (inkl. dermatomyositt og myositt), familiær periodisk paralyse, nøytropeni, agranulocytose, anemi (inkl. makrocytær anemi), hypertriglyseridemi, fedme, laktacidose og pyoureter.
+- **Legemiddelinteraksjoner:** 93 interaksjoner registrert. Moderate interaksjoner gjelder blant annet naltrekson og orlistat. Mange andre (f.eks. metformin, morfin, omeprazol, prednison, vankomycin) har ukjent alvorlighetsgrad.
+- **Annet:** Abacavir er kjent for overfølsomhetsreaksjoner hos bærere av HLA-B*57:01, noe som må vurderes ved enhver ny bruk.
+
+Advarsler og kontraindikasjoner fra preparatomtale er ikke tilgjengelige i de innsamlede dataene. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Ingen ombruksindikasjoner har blitt prediktert av TxGNN for Abacavir. I tillegg er legemidlet ikke for øyeblikket markedsført i Taiwan (0 godkjennelser), og kritiske sikkerhetsdata (pakningsvedleggsadvarsler, kontraindikasjoner) forblir som blokkerende datagap. Det er utilstrekkelig grunnlag for å fremme denne kandidaten på nåværende tidspunkt.
+Den eneste støtten for den toppredikerte indikasjonen er en in vitro-studie, og SIV er en dyremodell-virus uten klinisk indikasjon hos mennesker. Samtidig er alle norske godkjenninger kansellert, og sikkerhetsdata fra preparatomtale mangler.
 
-**For å fortsette, er følgende nødvendig:**
-- **TxGNN-prediksjonsresultater** — Kjør på nytt eller verifiser prediksjonsrørledningen for å avgjøre om Abacavir har levedyktige ombrukskandidater
-- **MOA-data** (DG002) — Spør DrugBank API for detaljert virkningsmekanisme for å støtte fremtidig mekanistisk plausibilitetanalyse
-- **TFDA pakningsvedleggsdata** (DG001, Blokkering) — Last ned og analyser pakningsvedlegget PDF fra TFDA-nettstedet for advarsler, kontraindikasjoner og forskrivningsinformasjon
-- **Vurdering av markedstilgjengelighet** — Bekreft om Abacavir-inneholdende produkter (f.eks. Ziagen®, Kivexa®, Triumeq®) er tilgjengelige i Taiwan under andre godkjenningsnavn
-
----
-
-*Rapport generert: 2026-04-03 | Evidenspakkversjon: v4 | Kandidat-ID: TW-DB01048-multi*
-*Denne rapporten er kun til referanse for forskning og utgjør ikke medisinsk rådgivning. Legemiddelombrukskandidater krever klinisk validering før bruk.*
-
+**For å gå videre kreves følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel)
+- Detaljerte data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Avklaring av om forskningsbruk i prekliniske modeller (SIV/FIV) er det reelle målet
+- Evaluering av vurdert kontraindikasjonsprofil, inkludert HLA-B*57:01-testing, før en eventuell human bruk
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

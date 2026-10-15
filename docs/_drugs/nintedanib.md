@@ -2,7 +2,7 @@
 layout: default
 title: Nintedanib
 parent: Moderat evidens (L3-L4)
-nav_order: 244
+nav_order: 285
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,85 +29,107 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Nintedanib: Fra idiopatisk lungefibrose til dermatofibrosarkom protuberans
+# Nintedanib: Fra idiopatisk lungefibrose til dermatofibrosarcoma protuberans
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-> Nintedanib er en trippel angiokinasehemmer (som retter seg mot VEGFR/FGFR/PDGFR) med internasjonal godkjenning for idiopatisk lungefibrose (IPF) og, i kombinasjon med docetaxel, for ikke-småcellet lungekreft.
-> TxGNN-modellen forutsier at det kan være effektivt for **Dermatofibrosarkom protuberans (DFSP)**,
-> men for tiden **0 kliniske studier** og bare **1 ikke-spesifikk oversiktsartikkel** støtter denne retningen — saken hviler på mekanistisk plausibilitet snarere enn direkte klinisk bevis.
-
-*Merk: denne bevissamlingen inneholder ingen norsk lisensdata for nintedanib (markedsstatus: ikke markedsført, 0 godkjenninger), så den opprinnelige indikasjonen ovenfor gjenspeiler legemidlets kjente internasjonale godkjenninger snarere enn en norskspesifikk merking.*
+Nintedanib er en tyrosinkinasehemmer som opprinnelig er godkjent for idiopatisk lungefibrose, interstitielle lungesykdommer og ikke-småcellet lungekreft.
+TxGNN-modellen forutsier at legemidlet kan ha effekt ved **dermatofibrosarcoma protuberans (DFSP)**.
+Støtten er svak: **ingen kliniske studier** og **1 oversiktsartikkel** uten nintedanib-spesifikke kliniske data.
 
 ---
 
-## Hurtig oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|------|---------|
-| Opprinnelig indikasjon | Idiopatisk lungefibrose (IPF); ikke-småcellet lungekreft (i kombinasjon med docetaxel) — generell internasjonal indikasjon; ingen norskspesifikk lisenstekst tilgjengelig |
-| Forutsagt ny indikasjon | Dermatofibrosarkom protuberans |
-| TxGNN-prediksjonspoengsum | 99.15% |
-| Bevisnivå | L4 |
-| Norsk markedsstatus | Ikke markedsført (Ikke markedsført) |
-| Antall godkjenninger | 0 |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Idiopatisk lungefibrose, interstitielle lungesykdommer, systemisk sklerose og lungefibrose |
+| Foreslått ny indikasjon | Dermatofibrosarcoma protuberans |
+| TxGNN-prediksjonsscore | 99,15 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun avregistrerte godkjenninger |
+| Antall godkjenninger | 4 (alle avregistrert) |
 | Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Nintedanib beskrives i bevissamlingens ombruksrasjonale som en **trippel angiokinasehemmer**, med aktivitet mot PDGFRα/β i tillegg til VEGFR og FGFR (selve `original_moa`-feltet på legemiddelnivå er flagget som et datahull — DG002 — men denne mekanistiske detaljen er bevart i rasjonalteksten). Denne PDGFR-hemmende aktiviteten er det farmakologiske grunnlaget for DFSP-prediksjonen.
+Data om virkningsmekanisme (MOA) fra legemiddeldatabasen er ikke tilgjengelig. Basert på kjent informasjon er nintedanib en trippel angiokinasehemmer som blokkerer PDGFR alfa/beta, FGFR 1–3 og VEGFR 1–3. Effekten er dokumentert ved lungefibrose og ikke-småcellet lungekreft.
 
-DFSP er en godt karakterisert bløtvevstumor drevet av **COL1A1-PDGFB fusjonsgenet**, som forårsaker konstant aktivering av PDGFRB-reseptoren — dette er en etablert, læreboksmessig onkogen mekanisme, og det er nettopp hvorfor det nåværende standardbehandlingsmidlet for DFSP (imatinib) virker ved å hemme PDGFR. Fordi nintedanib også hemmer PDGFR-signalering, er det en plausibel teoretisk overlapping mellom dets farmakologi og DFSPs drivervei, som er konsistent med modellens meget høye prediksjonspoengsum (0.9915).
+DFSP drives av COL1A1-PDGFB-fusjonen, som gir konstitutiv aktivering av PDGFRB. Hemming av PDGFR gir derfor en plausibel mekanistisk kobling mellom nintedanibs virkning og denne svulsten.
 
-Imidlertid er dette fortsatt en **mekanisme-nivå-hypotese, ikke en påvist klinisk effekt**. Det finnes ingen nintedanib-spesifikk klinisk studie eller kasusdata for DFSP; den eneste støttende litteraturen er en generell oversikt over PDGFR-hemmer-legemiddelklassens farmakologi, ikke en nintedanib-/DFSP-spesifikk studie.
-
-To ytterligere kandidater ble flagget av modellen med lignende poengsum — **liposarkom** (0.9913, rang 8457) og **myksoid liposarkom i ovariene** (0.9911, rang 8580) — men begge er bevisnivå L5 (bare modellprediksjoner, ingen støttende studier eller litteratur) og har svakere eller ubekreftet mekanistisk rasjonale (liposarkomsubtyper viser bare inkonsistent PDGFR/FGFR-oppregulering; myksoid liposarkom er drevet av FUS-DDIT3/EWSR1-DDIT3, en vei uten etablert kobling til nintedanibs mål). Begge anbefales **Hold** og forfølges ikke videre i denne rapporten.
+Imatinib er imidlertid allerede etablert PDGFR-rettet behandling ved DFSP. Nintedanib må derfor vise en fordel, for eksempel ved imatinibresistent sykdom. Den høye TxGNN-scoren er en ren beregningsmessig prediksjon og er ikke klinisk evidens.
 
 ---
 
-## Klinisk studiebevis
+## Evidens fra kliniske studier
 
-For tiden ingen relaterte kliniske studier registrert.
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Oversikt | Pharmacological Research | Gjennomgår rollen av småmolekyl-PDGFR-hemmere (som en legemiddelklasse) i behandlingen av neoplastiske lidelser; diskuterer PDGF/PDGFR-biologi relevant for tumorer som DFSP, men rapporterer ikke nintedanib-spesifikk eller DFSP-spesifikk klinisk data |
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Oversiktsartikkel | Pharmacological Research | Gjennomgang av småmolekylære PDGFR-hemmere ved neoplastiske sykdommer; rapporterer ikke nintedanib-spesifikke kliniske data |
 
 ---
 
-## Norsk markedsinformasjon
+## Markedsinformasjon for Norge
 
-Nintedanib er for tiden **ikke markedsført i Norge** (0 markedsføringsgodkjenninger på register), så ingen lisens-/produkttabell er tilgjengelig.
-
----
-
-## Sikkerhetshensyn
-
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
-
-*(Ingen strukturerte viktige advarsler, kontraindikasjoner eller legemiddelinteraksjonsdata er for tiden tilgjengelige i denne bevissamlingen — TFDA/norsk pakningsvedleggsdata er flagget som et blokkerende datahull, DG001.)*
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/006179 | Nintedanib Accord | – | Idiopatisk lungefibrose, interstitielle lungesykdommer, systemisk sklerose, lungefibrose (avregistrert) |
+| EMEA/H/C/006486 | Nintedanib Viatris | – | Idiopatisk lungefibrose, interstitielle lungesykdommer, lungefibrose (avregistrert) |
+| EMEA/H/C/002569 | Vargatef | – | Ikke-småcellet lungekreft (avregistrert) |
+| EMEA/H/C/003821 | Ofev | – | Idiopatisk lungefibrose, interstitielle lungesykdommer, lungefibrose, systemisk sklerose (avregistrert) |
 
 ---
 
-## Konklusjon og neste trinn
+## Cytotoksisitet
+
+| Punkt | Innhold |
+|------|------|
+| Cytotoksisitetsklassifisering | Målrettet behandling (tyrosinkinasehemmer) |
+| Myelosuppresjonsrisiko | Se preparatomtalens advarsler og forsiktighetsregler |
+| Emetogenisitetsklassifisering | Se preparatomtalens advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Se preparatomtalens advarsler og forsiktighetsregler |
+| Håndteringsbeskyttelse | Se preparatomtalens advarsler og forsiktighetsregler |
+
+---
+
+## Sikkerhetsvurderinger
+
+**Legemiddelinteraksjoner** (100 registrert; et utvalg vises):
+
+- **Alvorlig (Major)**: deksametason
+- **Moderat**: acetylsalisylsyre, klaritromycin, naltrekson, rolapitant, kobicistat
+- **Moderat, blødningsrisiko/antikoagulasjon og platehemming**: abciksimab, alteplase, antitrombin III, apiksaban, dipyridamol, betriksaban, bivalirudin, kangrelor, kaplacizumab, cilostazol, klopidogrel, dalteparin, defibrotid, desirudin
+
+Mange av de moderate interaksjonene gjelder legemidler som påvirker blødning og koagulasjon. Dette bør vurderes nøye ved samtidig bruk.
+
+For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparatomtalen.
+
+---
+
+## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-- Den mekanistiske rasjonalen (PDGFR-hemming som overlapper med DFSPs COL1A1-PDGFB drivervei) er biologisk plausibel og gjenspeiler den etablerte mekanismen for den nåværende DFSP-standarden (imatinib), som er hvorfor TxGNN tildeler en meget høy poengsum. Imidlertid finnes det null kliniske studier og ingen legemiddelspesifikk litteratur som bekrefter dette i praksis — bevisnivå L4 betyr at dette for tiden er en forskningshypotese, ikke en validert ombrukskandidat.
+Den mekanistiske koblingen via PDGFR-hemming er plausibel, men det finnes ingen kliniske studier og ingen nintedanib-spesifikke publikasjoner for DFSP. I tillegg er imatinib etablert behandling, og alle norske godkjenninger for nintedanib er avregistrert.
 
-**For å gå videre, er følgende nødvendig:**
-- Norsk/TFDA-pakningsvedleggsdata — viktige advarsler og kontraindikasjoner (DG001, Blocking)
-- Bekreftet strukturert dokumentasjon av virkningsmekanisme fra DrugBank (DG002, High)
-- Preklinisk (in vitro/in vivo) eller kasusrapportbevis for nintedanib-aktivitet spesifikt i DFSP
-- Avklaring av norsk regulatorisk/markedsvei, gitt at legemidlet for tiden ikke har noen lokal markedsføringsgodkjenning
+**For å gå videre trengs følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Detaljerte data om virkningsmekanisme (MOA)
+- Prekliniske eller kliniske data for nintedanib ved DFSP, særlig ved imatinibresistent sykdom
+- Avklaring av markedstilgjengelighet i Norge
 
+---
+
+*Merknad om øvrige prediksjoner:* De to neste prediksjonene, **liposarkom** (score 99,13 %) og **ovarielt myksoid liposarkom** (score 99,12 %), har evidensnivå L5 uten kliniske studier eller litteratur. Koblingen er indirekte, siden disse svulstene hovedsakelig drives av MDM2/CDK4-amplifikasjon eller FUS-DDIT3-fusjoner og ikke av PDGFR/FGFR. Anbefalingen for begge er **Hold**.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

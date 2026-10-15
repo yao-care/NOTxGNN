@@ -29,78 +29,95 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Aflibercept: Fra neovaskulær øyesykdom til esotropi
+# Aflibercept: Fra våt aldersrelatert makuladegenerasjon til esotropi
 
-## Sammendrag i en setning
+## Oppsummering
 
-> Aflibercept er et VEGF-A/VEGF-B/PlGF-falleprotein opprinnelig utviklet for neovaskulære øyesykdommer som vått AMD, DME og RVO.
-> TxGNN-modellen forutsier at det kan være effektivt for **esotropi**, men denne prediksjonen støttes for tiden av **0 kliniske forsøk** og **0 publikasjoner**,
-> og den foreslåtte mekanistiske forbindelsen mellom anti-VEGF-aktivitet og esotropi (en ekstrakulær muskulatur-/neuromuskulær forstyrrelse) er ikke godt etablert.
+Aflibercept er et rekombinant fusjonsprotein som binder VEGF-A, VEGF-B og PlGF. Det brukes ved våt aldersrelatert makuladegenerasjon, makulaødem, retinal venetrombose og diabetesrelaterte øyekomplikasjoner. Det er også godkjent ved tykktarmskreft (som Zaltrap).
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **esotropi**, men dette er en ren modellprediksjon: det finnes **0 kliniske studier** og **0 publikasjoner** i dataene som er innhentet til denne rapporten.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Ikke tilgjengelig i regulatoriske lisensdata (legemidlet er ikke markedsført); basert på legemidlets kjente mekanisme beskrives det i denne bevispakken som brukt for neovaskulære øyesykdommer (f.eks. vått AMD, DME, RVO) |
-| Forutsagt ny indikasjon | Esotropi |
-| TxGNN-forutsigelsesscore | 99.38% |
-| Bevisnivå | L5 (kun modellprediksjon, ingen støttende forsøk eller litteratur) |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+| Opprinnelig indikasjon | Våt aldersrelatert makuladegenerasjon, makulaødem, diabeteskomplikasjoner, retinal venetrombose, koroidal nyvaskularisering |
+| Predikert ny indikasjon | Esotropi |
+| TxGNN-prediksjonsscore | 99,38 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun trukne/avsluttede godkjenninger |
+| Antall godkjenninger | 14 (alle trukket/avsluttet) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Det formelle `original_moa`-feltet for dette legemidlet er merket som en datakløft, så det finnes for tiden ingen fullstendig dokumentert virkningsmekanisme. Imidlertid beskriver bevispakkens egen begrunnelse for gjenbruk aflibercept som et VEGF-A/VEGF-B/PlGF-falleprotein som blokkerer angiogen signalering, og bemerker at det brukes for neovaskulære øyesykdommer som vått AMD, diabetisk makulært ødem (DME) og retinal venøs okklusjon (RVO). Alle disse er tilstander som skyldes patologisk blodkarvekst i netthinnen/choroidea.
+Aflibercept fanger VEGF-A, VEGF-B og placental vekstfaktor (PlGF). Det er etablert ved nyvaskulære og ødematøse netthinnesykdommer. Data om opprinnelig virkningsmekanisme (MOA) er ikke tilgjengelig i grunnlaget for rapporten, så mekanistisk resonnement kan ikke styrkes ytterligere.
 
-Esotropi er derimot en form for strabismus forårsaket av ubalanse i ekstrakulær muskeltonus, avvik i akkommodativ konvergens, eller dysfunksjon i hjernenerven (typisk CN VI) — et neuromuskulært/okulomotorisk kontrollproblem, ikke vaskulært eller angiogent. Det finnes ingen etablert farmakologisk vei som forbinder VEGF-falleaktivitet med ekstrakulær muskelbalanse eller nervefunksjon.
+Esotropi er en feilstilling av øynene som skyldes problemer i ytre øyemuskler, nervebaner eller brytnings-/akkommodasjonsforhold. Det finnes ingen støttet biologisk vei fra VEGF-hemming til patofysiologien bak esotropi. Den høye scoren (0,994) kan derfor skyldes at modellen overfører legemidlets generelle tilknytning til øyesykdommer, ikke en spesifikk biologisk sammenheng.
 
-Basert på begrunnelsen gitt i denne bevispakken, ser de to tilstandene ut til bare å dele en bred "oftalmologisk sykdom"-klassifisering i kunnskapsgrafen. Den høye TxGNN-poengsum (99.38%) gjenspeiler mest sannsynlig et topologisk artefakt i kunnskapsgrafen snarere enn et genuint biologisk forhold, og bør behandles som **falskt positivt med høy risiko**. Denne vurderingen er videre begrenset av den uløste blokkerte datakløften på TFDA pakkeseddel advarsler/kontraindikasjoner og en manglende bekreftet MOA, som begge reduserer tilliten til enhver kausal slutning.
-
----
-
-## Bevis fra kliniske forsøk
-
-For tiden er det ingen relaterte kliniske forsøk registrert.
+Esotropi kan oppstå sekundært ved tilstander som behandles med anti-VEGF, for eksempel via synstap eller retinopati hos premature. Dette er en forstyrrende (konfunderende) sammenheng og ikke bevis for behandlingseffekt. Likheten med opprinnelig indikasjon er ikke vurdert.
 
 ---
 
-## Litteraturbevis
+## Klinisk studieevidens
 
-For tiden er det ingen relatert litteratur tilgjengelig.
-
----
-
-## Informasjon om norsk marked
-
-Dette legemidlet er for tiden ikke markedsført i Norge (markedsstatus: Ikke markedsført), og ingen godkjennelsesregistre er tilgjengelige i denne bevispakken.
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Se pakkeseddelen for sikkerhetsinformasjon.
+Foreløpig finnes ingen relatert litteratur.
 
 ---
 
-## Konklusjon og neste trinn
+## Informasjon om det norske markedet
 
-**Beslutning: Avvent**
+Alle de 14 godkjenningene i dataene er markert som trukket/avsluttet, og ingen er gyldige. Nedenfor vises fem av dem. Merk at nummerne er EMA-sentrale godkjenningsnumre.
+
+| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/002392 | Eylea | – | Våt makuladegenerasjon, makulaødem, diabeteskomplikasjoner, retinal venetrombose, koroidal nyvaskularisering |
+| EMEA/H/C/002532 | Zaltrap | – | Kolorektal neoplasi |
+| EMEA/H/C/006339 | Pavblu | – | Våt makuladegenerasjon, makulaødem, retinal venetrombose, koroidal nyvaskularisering, diabeteskomplikasjoner |
+| EMEA/H/C/006150 | Afqlir | – | Våt makuladegenerasjon, makulaødem, diabeteskomplikasjoner, retinal venetrombose |
+| EMEA/H/C/006022 | Yesafili | – | Makulaødem, retinal venetrombose, diabetisk retinopati, degenerativ myopi, diabeteskomplikasjoner |
+
+---
+
+## Sikkerhetsvurderinger
+
+**Legemiddelinteraksjoner:** Det er identifisert 78 interaksjoner. Eksempler på de viktigste (alvorlighetsgrad «Major»):
+- Deferipron
+- Samarium (153Sm) lexidronam
+- Adalimumab
+- Baricitinib
+- Certolizumab pegol
+- Kladribin
+- Klozapin
+
+Flere interaksjoner av moderat alvorlighetsgrad er også registrert, blant annet med azatioprin, anakinra, alemtuzumab, kloramfenikol, zidovudin og enkelte vaksiner.
+
+Øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner) finnes ikke i dataene. Se preparatomtalen (SPC/pakningsvedlegg).
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Til tross for en høy TxGNN-forutsigelsesscore, har denne kandidaten null støttende kliniske forsøk og null støttende litteratur, og den foreslåtte mekanistiske forbindelsen mellom anti-VEGF-aktivitet og esotropi er ikke farmakologisk godt støttet — det gjenspeiler mest sannsynlig et topologisk artefakt i kunnskapsgrafen snarere enn et genuint biologisk forhold. Kombinert med en uløst blokkert datakløft på TFDA pakkeseddel advarsler/kontraindikasjoner og en manglende bekreftet MOA, oppfyller denne kandidaten ikke for tiden terskelen for å avansere forbi innledende screening.
+Prediksjonen bygger kun på en kunnskapsgrafmodell (evidensnivå L5) uten kliniske studier eller publikasjoner, og det finnes ingen plausibel mekanistisk sammenheng mellom VEGF-hemming og esotropi. I tillegg er alle norske godkjenninger trukket/avsluttet, og legemidlet gis intravitrealt, noe som gjør bruk ved esotropi uten støtte.
 
-**For å gå videre er følgende nødvendig:**
-- TFDA pakkeseddel (advarsler, kontraindikasjoner) — for tiden en blokkert datakløft (DG001)
-- Bekreftet virkningsmekanisme fra DrugBank eller en annen autoritativ kilde — for tiden en datakløft med høy alvorlighetsgrad (DG002)
-- En uavhengig vurdering av mekanistisk plausibilitet som spesifikt adresserer VEGF-vei til strabismus-koblingen før videre bevisinnsamling prioriteres
-- Eventuell tilgjengelig preklinisk eller saksnivå bevis som forbinder VEGF-signalering med ekstrakulær muskulatur/neuromuskulær funksjon, hvis det eksisterer
-- Oppdatert bekreftelse av markeds-/regulatorisk status, siden legemidlet for tiden er umarkedsført i denne juridiksjonen
-
+**For å gå videre kreves følgende:**
+- Detaljerte data om virkningsmekanisme (MOA) fra DrugBank
+- Preparatomtale med advarsler og kontraindikasjoner
+- Litteratursøk og prekliniske data som kan belyse en eventuell sammenheng mellom VEGF-hemming og okulær feilstilling
+- Vurdering av administrasjonsvei og legemiddelform (ikke avklart)
+- Avklaring av nåværende markedsstatus i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

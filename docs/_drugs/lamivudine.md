@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lamivudine
-parent: Kun modellprediksjon (L5)
-nav_order: 197
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 230
+evidence_level: L3
 indication_count: 5
 ---
 
 # Lamivudine
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
+Evidensnivå: **L3** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,104 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Lamivudine: Fra antiretroviral terapi til felin ervervet immunsviktsyndrom
+# Lamivudin: Fra HIV-infeksjon og kronisk hepatitt B til felint ervervet immunsviktsyndrom
 
-## Oppsummering i én setning
+## Oppsummering i en setning
 
-> Lamivudine (3TC) er en nukleosidrevers transkriptasehemmer kjent offentlig for behandling av HIV-1 og kronisk hepatitt B, selv om denne bevissamlingen ikke dokumenterer den opprinnelige indikasjonen (merket som datamanko).
-> TxGNN-modellens topprangerte prediksjon er **felin ervervet immunsviktsyndrom** — en sykdom som kun forekommer hos katter, ikke hos mennesker —
-> støttet av **5 kliniske forsøk** (alle faktisk om HIV-1 hos mennesker, ikke felin sykdom) og **5 publikasjoner** (alle in vitro/dyrestudier med katter).
-> Dette er ikke en levedyktig kandidat for legemiddelrepurposing hos mennesker; det gjenspeiler en artsmismatch-artefakt i prediksjons-pipelinen.
+Lamivudin er en nukleosid-revers transkriptasehemmer (NRTI) som opprinnelig brukes til behandling av **HIV-infeksjon** og **kronisk hepatitt B**.
+TxGNN-modellen forutsier at legemidlet kan være effektivt mot **felint ervervet immunsviktsyndrom (FIV hos katt)**, med en score på nesten 100 %.
+Støtten består av **3 publikasjoner** (kohort- og in vitro-studier på katter) og **ingen kliniske studier**. Dette er en veterinær problemstilling, ikke en ny human indikasjon.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Ikke dokumentert i denne bevissamlingen (`original_indications` tom, `original_moa` flagget som datamanko DG002). Lamivudine er allmenn kjent som en NRTI antiretroviral for HIV-1/kronisk hepatitt B, men dette er ikke hentet fra samlingen. |
-| Predikert ny indikasjon | Felin ervervet immunsviktsyndrom (FIV-infeksjon hos katter) |
-| TxGNN-prediksjonspoengsum | 99.93% (rangering 1070) |
-| Bevisnivå | L4 (prekliniske/dyrestudier bare; intet klinisk humanbevis for denne indikasjonen eksisterer eller kan eksistere) |
-| Status på norsk marked | Ikke markedsført (Ikke markedsført) |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | **Avvent** |
+| Opprinnelig indikasjon | HIV-infeksjon |
+| Predikert ny indikasjon | Felint ervervet immunsviktsyndrom (FIV) |
+| TxGNN-prediksjonsscore | 99,93 % |
+| Evidensnivå | L3 |
+| Markedsstatus i Norge | Kun avregistrerte (utgåtte) tillatelser |
+| Antall tillatelser | 10 (alle avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljert handlingsmekanismedata ikke tilgjengelig i denne bevissamlingen (DG002). Basert på offentlig farmakologisk kunnskap hemmer lamivudine retroviral revers transkriptase og brukes hos mennesker mot HIV-1 og hepatitt B-virus.
+Detaljerte data om virkningsmekanismen er for tiden ikke tilgjengelige i de innsamlede dataene. Basert på kjent informasjon er lamivudin en NRTI. Effekten ved HIV og hepatitt B er dokumentert, og mekanismen (kjedeterminering av viral DNA-syntese) kan mekanistisk være relevant for beslektede retrovirus.
 
-Den mekanistiske logikken bak denne prediksjonen er reell: Felin immunsviktsvirus (FIV) er et lentivirus nært beslektet med HIV, og lamivudine (ofte kombinert med zidovudin) har blitt studert eksperimentelt hos katter som et veterinært analogon til human antiretroviral terapi. Dette er en vel etablert bruk av HIV/FIV-dyremodellen i retroviroløgi-forskning.
+FIV er et lentivirus med en revers transkriptase som ligner på den hos HIV-1. Flere HIV-legemidler har vist aktivitet mot FIV, og katt brukes som dyremodell for HIV. Prediksjonen er derfor biologisk plausibel. Publisert arbeid gjelder imidlertid hovedsakelig kombinasjonsregimer (zidovudin + lamivudin, eller zidovudin + lamivudin + abakavir), ikke lamivudin alene.
 
-Men **"felin ervervet immunsviktsyndrom" er en sykdom hos husekatter, ikke hos mennesker**, og kan ikke forfølges som en human indikasjon for legemiddelrepurposing gjennom noen regulatorisk vei. Det høye TxGNN-poengsummet skyldes sannsynligvis at legemidlets genuine antiretroviral mekanisme er riktig koblet til en lentiviral sykdom i kunnskapsgrafen, uten et artfilter. Denne kandidaten bør behandles som en forskningsmessig/veterinær-farmakologisk kuriøsitet snarere enn en human indikasjon for repurposing-evaluering.
-
----
-
-## Klinisk forsøksbevis
-
-⚠ Merk: ingen av forsøkene nedenfor studerer faktisk felin AIDS (umulig i et forsøk hos mennesker). De er lamivudine/HIV-1-forsøk hos mennesker som ble hentet ved legemiddelnavn-søk, ikke sykdomssøk, og utgjør ikke bevis for den predikterte indikasjonen.
-
-| Forsøksnummer | Fase | Status | Deltakelse | Viktige funn |
-|---------|------|------|------|---------|
-| [NCT01499199](https://clinicaltrials.gov/study/NCT01499199) | Fase 3 | Avsluttet | 13 | Dolutegravir + abacavir/lamivudine hos ART-naive HIV-1-voksne; CNS/plasma PK over 96 uker |
-| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Fase 3 | Avsluttet | 844 | Dolutegravir + abacavir/lamivudine mot Atripla hos ART-naive HIV-1-voksne, ikke-inferiøriitet over 96 uker |
-| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Fase 2 | Avsluttet | 208 | Dosisvalg av dolutegravir med abacavir/lamivudine eller tenofovir/emtricitabin hos ART-naive HIV-1-voksne |
-| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Fase 4 | Avsluttet | 145 | Forsterket darunavir + lamivudine mot darunavir + emtricitabin/tenofovir eller lamivudine/tenofovir hos naive HIV-1-pasienter |
-| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Fase 3 | Avsluttet | 828 | Dolutegravir mot raltegravir, begge med dobbel NRTI-rygg (ABC/3TC eller TDF/FTC), hos ART-naive HIV-1-voksne |
+Andre prediksjoner i datagrunnlaget er svakere:
+- **Simian immunsviktvirus (SIV)-infeksjon**: Dyremodell i makaker der M184V-mutasjonen (lamivudinresistens) er karakterisert. Dette støtter den opprinnelige HIV-indikasjonen, men er ikke en ny human indikasjon. Noe av litteraturen er irrelevant (f.eks. HIV-epidemiologi i Elfenbenskysten) eller gjelder andre legemidler.
+- **Kronisk hepatitt C**: Lamivudin hemmer ikke HCV NS5B RNA-polymerase, og litteraturen består av generelle oversikter om viral hepatitt. Dagens standardbehandling (direktevirkende antivirale midler) er svært effektiv, så det er liten begrunnelse for repurposing.
+- **Nevroutviklingsforstyrrelse med ataktisk gange** og **foreldet familiær kombinert hyperlipidemi**: Ingen studier, ingen litteratur og ingen tydelig mekanistisk kobling.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske studier
 
-| PMID | År | Type | Journal | Viktige funn |
+Foreløpig er ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Dyrestudie | Viruses | Evaluerte ZDV, ZDV+IFN-α, ZDV+lamivudine og ZDV+valproinsyre hos naturlig FIV-infiserte katter over 1 år |
-| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Kasuistikk (dyr) | J Feline Med Surg | Langtidsoppfølging med antiretroviral terapi hos FIV-infiserte husekatter |
-| [11943320](https://pubmed.ncbi.nlm.nih.gov/11943320/) | 2002 | In vitro/in vivo | Vet Immunol Immunopathol | AZT/3TC-kombinasjonen viste additiv-til-synergisk anti-FIV-aktivitet i PBMCs |
-| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | In vitro | Antiviral Res | Kombinert zidovudin/lamivudine/abacavir undertrykket FIV-replikasjon in vitro |
-| [11327469](https://pubmed.ncbi.nlm.nih.gov/11327469/) | 2001 | In vitro | Am J Vet Res | Karakteriserte 3TC-resistente FIV-mutanter og replikasjonskinetikk |
+| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Kohort | Viruses | Ulike antiretrovirale protokoller (AZT alene, AZT + interferon, AZT + lamivudin, AZT + valproinsyre) hos naturlig FIV-infiserte katter i sen asymptomatisk fase, fulgt i ett år med vurdering av virusmengde og CD4+/CD8+-forhold |
+| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Kohort | Journal of Feline Medicine and Surgery | Langtidseffekter av antiretroviral behandling (initialt AZT) over 5–6 år hos FIV-infiserte katter |
+| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | Kohort (in vitro) | Antiviral Research | Kombinasjonen zidovudin, lamivudin og abakavir hemmer FIV-replikasjon in vitro; FIV brukes som dyremodell for HIV |
 
 ---
 
-## Norsk markedsinformasjon
+## Markedsinformasjon for Norge
 
-Ikke markedsført — 0 godkjennelser registrert, ingen lisensoppføringer tilgjengelig i bevissamlingen.
+Alle 10 tillatelser i datagrunnlaget er avregistrert. Ingen er gyldige i dag. Tillatelsene er europeiske sentrale godkjenninger (EMEA).
+
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/001111 | Lamivudine Teva Pharma B.V. | – | HIV-infeksjon |
+| EMEA/H/C/001113 | Lamivudine Teva | – | Kronisk hepatitt B |
+| EMEA/H/C/000107 | Epivir | – | HIV-infeksjon |
+| EMEA/H/C/000242 | Zeffix | – | Kronisk hepatitt B |
+| EMEA/H/C/000581 | Kivexa | – | HIV-infeksjon |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegget for sikkerhetsinformasjon. (Alle viktige advarsler, kontraindikasjoner og DDI-felt i denne bevissamlingen er flagget som datamanko; TFDA/etikett-data var ikke hentbar — se DG001, klassifisert som **blokkeringsseveritetsdatamanko**.)
+**Kontraindikasjoner/risikotilstander fra kunnskapsgrafen (ikke fra preparatomtale):**
+Følgende sykdommer er koblet til legemidlet i TxGNN-kunnskapsgrafen (PrimeKG): leversvikt, nyresykdom, pankreatitt, leversykdom, galleblæresykdom, myopati og andre muskelsykdommer (inkl. dermatomyositt og myositt), nøytropeni, agranulocytose, anemi (inkl. makrocytær anemi), hypertriglyseridemi, fedme, fettlever (inkl. NASH) og laktacidose.
+
+**Legemiddelinteraksjoner:** 100 interaksjoner er registrert. De viktigste med moderat alvorlighetsgrad er:
+- Laktitol
+- Mannitol
+- Naltrekson
+- Orlistat
+- Sorbitol
+
+Ytterligere interaksjoner med ukjent alvorlighetsgrad omfatter bl.a. metformin, cimetidin, amfotericin B, vankomycin, morfin og protonpumpehemmere (omeprazol, pantoprazol, lansoprazol).
+
+Se preparatomtalen for fullstendig sikkerhetsinformasjon, siden advarsler og kontraindikasjoner fra norsk preparatomtale ikke er tilgjengelige.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den topprangerte TxGNN-prediksjonen (felin ervervet immunsviktsyndrom) er en veterinær sykdom uten human ekvivalent, så den kan ikke gå videre gjennom en human repurposing-vei uansett prediksjonspoengsum. Klinisk forsøksbevis knyttet til den er uoverensstemmende (human HIV-forsøk, ikke FIV), og litteraturen er begrenset til in vitro/dyrestudier. I tillegg hindrer en blokkeringsseveritetsdatamanko (manglende TFDA-etikett/advarsler) enhver stage 1-sikkerhetsvurdering selv dersom en gyldig human indikasjon ble erstattet.
+Prediksjonen for FIV er mekanistisk plausibel, men støttes kun av kohort- og in vitro-studier som i hovedsak gjelder kombinasjonsbehandling. Indikasjonen er veterinær, ingen kliniske studier er registrert, og alle norske tillatelser er avregistrert. Evidensen gir derfor et forskningsspørsmål, ikke et grunnlag for videre utvikling hos mennesker.
 
-**For å fortsette trengs følgende:**
-- Kjør indikasjonsfiltreringen på nytt for å ekskludere ikke-human/veterinær sykdomsuttrykk fra kandidatlisten
-- Løs DG001 (TFDA-etikett/advarsler) og DG002 (MOA) før evaluering av eventuell gjenværende kandidat
-- Merk: rangeringene 2–5 i denne samme bevissamlingen (SIV-infeksjon, en ultra-sjelden neurouviklingsforstyrrelse, en foreldet lipidstoffskiftesykdom-betegnelse og sannsynlig HBV/HCV-feilmerking) ble allerede uavhengig vurdert som **Avvent** — dette legemiddelet har for tiden ingen handlingsbar repurposing-kandidat i samlingen.
-
+**For å gå videre kreves:**
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Avklaring av om målet er veterinær bruk, siden det ikke er en human indikasjon
+- Studier som isolerer effekten av lamivudin alene, ikke bare i kombinasjon
+- Vurdering av administrasjonsvei og doseringsform (ikke tilgjengelig i dag)
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

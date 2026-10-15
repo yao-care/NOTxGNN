@@ -2,7 +2,7 @@
 layout: default
 title: Albutrepenonacog Alfa
 parent: Kun modellprediksjon (L5)
-nav_order: 21
+nav_order: 22
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,78 +29,91 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Albutrepenonacog alfa: Fra hemofili B (bakgrunnskunnskap, ubekreftet) til pseudo-von Willebrand-sykdom
+# Albutrepenonacog alfa: Fra hemofili B til pseudo-von Willebrand sykdom
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-Albutrepenonacog alfa er et rekombinant koagulasjonsfaktor-preparat; dens opprinnelig godkjente indikasjon er ikke dokumentert i gjeldende kildedata, selv om farmakologisk bakgrunnskunnskap (også referert i modellens egen begrunnelse) antyder at det fungerer som en **rekombinant faktor IX-erstatningsterapi** for faktor IX-mangel (hemofili B). TxGNN-modellen forutsier at det kan være relevant for **pseudo-von Willebrand-sykdom**, men denne prediksjonen støttes for tiden av **0 kliniske forsøk** og **0 publikasjoner**, og modellens egen mekanistiske begrunnelse beskriver de to tilstandene som virkende på ulike fysiologiske nivåer med **ingen etablert mekanistisk sammenheng**.
+Albutrepenonacog alfa er en rekombinant faktor IX fusjonert med albumin (rFIX-FP) med forlenget halveringstid, opprinnelig brukt til behandling av **hemofili B**.
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **pseudo-von Willebrand sykdom**, men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen er kun modellbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|-------|---------|
-| Opprinnelig indikasjon | Ikke dokumentert i kildedata (datakløft); bakgrunnskunnskap antyder faktor IX-erstatningsterapi for hemofili B — ubekreftet |
-| Forutsagt ny indikasjon | Pseudo-von Willebrand-sykdom |
-| TxGNN-prediksjonspoengsum | 99.94% (råranking #878 blant alle kandidatsykdommer) |
-| Bevisnivå | L5 (modellprediksjon kun, ingen klinisk eller litteraturbevis) |
-| Status på norskmarkedet | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Vent |
+|------|------|
+| Opprinnelig indikasjon | Hemofili B |
+| Predikert ny indikasjon | Pseudo-von Willebrand sykdom |
+| TxGNN-prediksjonsscore | 99,94 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun trukket tilbake (ingen gyldig tillatelse) |
+| Antall tillatelser | 1 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelig (flagget som et datakløft med høy alvorlighetsgrad i dette bevismateriell). Basert på begrenset bakgrunnsinformasjon i denne pakken, antas albutrepenonacog alfa å være et rekombinant faktor IX-erstatningsprodukt som virker på **sekundær hemostase (koagulasjonsfaktor)-banen**. Denne forutsetningen er ikke bekreftet av en formell MOA-post og bør behandles som ubekreftet til DrugBank/regulatoriske kildedata kan avstemmes.
+For tiden foreligger det ikke detaljerte data om virkningsmekanismen. Basert på kjent informasjon er albutrepenonacog alfa en rekombinant faktor IX med forlenget halveringstid. Effekten ved hemofili B, der faktor IX mangler, er godt etablert.
 
-Den forutsatte nye indikasjonen, pseudo-von Willebrand-sykdom, er en **primær hemostaseforstyrrelse** forårsaket av en gain-of-function-abnormalitet i trombocyttens GpIb-reseptor, som fører til overdreven affinitet for von Willebrand-faktor. Dette er mekanistisk forskjellig fra en koagulasjonsfaktormangel: den ene er en trombocytt-reseptor/bindingsforstyrrelse, den andre er en koagulasjonsfaktormangel. Bevismateriellset er eksplisitt på dette punktet og angir at de to tilstandene «virker på ulike nivåer» og at det er «ingen kjent mekanistisk sammenheng» mellom dem.
+Pseudo-von Willebrand sykdom er en trombocyttrelatert (blodplate) lidelse forårsaket av en «gain-of-function»-defekt i GP1BA, som øker trombocyttenes binding til von Willebrand-faktor. Defekten ligger i trombocyttreseptoren og ikke i mangel på faktor IX. En plausibel mekanistisk sammenheng er derfor ikke åpenbar. Den høye TxGNN-scoren er trolig et uttrykk for nærhet i et nettverk av blødningsforstyrrelser, ikke for et reelt biologisk grunnlag.
 
-Gitt dette, bør prediksjonen leses som en **statistisk assosiasjon som kom fram fra TxGNN-kunnskapsgrafmodellen**, ikke som en mekanistisk eller klinisk validert hypotese. Det høye råprediksjonspoengsumet (99.94%) gjenspeiler modellens interne rangeringskonfidens, ikke ekstern validering — ingen kliniske forsøk, litteratur eller regulatorisk presedens eksisterer for øyeblikket for å korroborere det.
+### Andre predikerte indikasjoner
 
----
+Alle nedenstående prediksjoner har evidensnivå L5, ingen kliniske studier og ingen litteratur, og anbefalingen er Hold for samtlige.
 
-## Bevis fra kliniske forsøk
-
-For tiden ingen relaterte kliniske forsøk registrert.
-
----
-
-## Litteraturbevis
-
-For tiden ingen relevant litteratur tilgjengelig.
-
----
-
-## Informasjon om norskmarkedet
-
-Albutrepenonacog alfa har for tiden ingen markedsføringstillatelse i Norge (markedsstatus: **ikke markedsført**, 0 lisenser registrert). Ingen produkt-/legemiddelformsinformasjon er tilgjengelig for denne evalueringen.
+| Rang | Sykdom | TxGNN-score | Vurdering av mekanistisk sammenheng |
+|------|------|------|------|
+| 1 | Pseudo-von Willebrand sykdom | 99,94 % | Defekt i trombocyttreseptor, ikke i faktor IX. Svak sammenheng. |
+| 2 | Primær frigjøringsforstyrrelse av blodplater | 99,94 % | Defekt i granulefrigjøring, uavhengig av faktor IX-banen. Spekulativ nytte. |
+| 3 | Glanzmanns trombasteni | 99,92 % | Mangel på integrin αIIbβ3. Etablert behandling virker via andre mekanismer. |
+| 4 | Scott syndrom | 99,63 % | Defekt i TMEM16F/ANO6 og fosfatidylserin-eksponering. Teoretisk, indirekte kobling via tenase-komplekset, men lite sannsynlig at økt faktor IX kompenserer. |
+| 5 | Blødningstendens ved kollagenreseptordefekt | 99,28 % | Defekt trombocyttadhesjon (f.eks. GPVI). Ikke adressert av faktor IX. |
+| 6 | Hemoragisk lidelse ved konstitusjonell trombocytopeni | 99,26 % | Lavt trombocyttall, ikke faktor IX-mangel. Kun felles blødningsfenotype. |
 
 ---
 
-## Sikkerhetshensyn
+## Klinisk studiedokumentasjon
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+Foreløpig er det ikke registrert noen relaterte kliniske studier.
 
-*(Merknad: dette bevismateriell flagger fraværet av TFDA-pakningsvedlegg-advarsler/kontraindikasjoner som et **blokkering**-alvorlighetsgrad datakløft — se konklusjon nedenfor. Ingen legemiddel-legemiddel-interaksjonsregistreringer ble funnet i den spørte kilden.)*
+---
+
+## Litteraturdokumentasjon
+
+Foreløpig er det ingen relatert litteratur tilgjengelig.
+
+---
+
+## Markedsinformasjon for Norge
+
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/003955 | Idelvion | – | Hemofili B |
+
+Tillatelsen er registrert som trukket tilbake (status: cancelled). Det finnes ingen gyldige tillatelser i Norge i de data som er sammenstilt for denne rapporten.
+
+---
+
+## Sikkerhetsvurderinger
+
+Det foreligger ikke data om advarsler eller kontraindikasjoner fra preparatomtalen i de sammenstilte dataene. Det ble heller ikke funnet kontraindikasjoner i kunnskapsgrafen, og ingen legemiddelinteraksjoner ble identifisert. Se preparatomtalen for sikkerhetsinformasjon.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Vent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-- Det er ingen klinisk forsøks- eller litteraturbevis som støtter bruk av albutrepenonacog alfa ved pseudo-von Willebrand-sykdom (eller ved noen av de fem andre lavere rangerte forutsette indikasjoner i denne pakken — primær trombocyttvriværelse, Glanzmanns trombasteni, Scott-syndrom, kollagen-reseptor-blødningsdiates og konstitusjonell trombocytopeni), og modellens egen mekanistiske begrunnelse for hver kandidat beskriver den underliggende patofysiologien som forskjellig fra koagulasjonsfaktor-erstatning.
-- Et datakløft med **blokkering**-alvorlighetsgrad for TFDA/pakningsvedlegg-sikkerhetsinformasjon (advarsler, kontraindikasjoner) eksisterer, som etter dette programmets egne kriterier hindrer inntreden til S1-sikkerhetsvurdering. Et **høy**-alvorlighetsgrad datakløft eksisterer også for bekreftet virkningsmekanisme.
+Alle predikerte indikasjoner er kun modellbaserte (L5) uten kliniske studier eller litteratur. Mekanismen for faktor IX-erstatning passer ikke med de underliggende trombocyttdefektene. I tillegg mangler markedsføringstillatelse i Norge, og sikkerhetsdata fra preparatomtalen er ikke innhentet.
 
-**For å kunne gå videre er følgende nødvendig:**
-- Løse DG001 (Blokkering): skaffe og tolke det offisielle pakningsvedlegget for å etablere viktige advarsler og kontraindikasjoner før noen sikkerhetsvurdering kan begynne.
-- Løse DG002 (Høy): bekrefte virkningsmekanisme via DrugBank eller annen autoritativ kilde, siden den nåværende MOA er antatt heller enn bekreftet.
-- Bekrefte legemidlets opprinnelig godkjente indikasjon(er), som for tiden er fraværende fra regulatoriske kildedata.
-- Hvis denne kandidaten skal fremmes til tross for den svake mekanistiske begrunnelsen, innhent uavhengige prekliniske eller kasuistikk-bevis som kobler faktor IX-veimodulering til trombocytt-formidlet blødningsforstyrrelser som pseudo-von Willebrand-sykdom.
-
+**For å gå videre kreves følgende:**
+- Hente og analysere preparatomtalen (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsscreening
+- Innhente data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Søke systematisk etter litteratur og kliniske studier for de predikerte sykdommene
+- Avklare markedsstatus i Norge, siden den eneste tillatelsen er trukket tilbake
+- Vurdere administrasjonsvei og forskjellen fra opprinnelig indikasjon dersom prediksjonen skal følges opp
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

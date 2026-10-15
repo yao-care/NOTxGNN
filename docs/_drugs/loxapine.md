@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Loxapine
-parent: Kun modellprediksjon (L5)
-nav_order: 217
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 253
+evidence_level: L3
 indication_count: 10
 ---
 
 # Loxapine
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,84 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Loxapin: Fra schizofreni til akutt agitasjon ved bipolar lidelse
+# Loxapin: Fra schizofreni og bipolar lidelse til manisk bipolar affektiv lidelse
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-> Loxapin er et førstegenerasjons (typisk) antipsykotikum av dibenzoxazepinklassen, historisk brukt til behandling av schizofreni via oral administrasjon i flere tiår.
-> TxGNN-modellen forutsier at det kan være effektivt for **manisk bipolar affektiv lidelse** (spesifikt akutt agitasjon forbundet med bipolar mani),
-> med **0 registrerte kliniske forsøk i evidenspakkens forsøksregister** men **20 støttende publikasjoner**, inkludert fullførte fase III-RCT-er og en eksisterende internasjonal regulatorisk presedens (inhalert formulering godkjent i USA/EU).
+Loxapin er et eldre førstegenerasjons antipsykotikum (dibenzoksazepin) som opprinnelig brukes mot schizofreni og bipolar lidelse.
+TxGNN-modellen forutsier at det kan være effektivt ved **manisk bipolar affektiv lidelse**, men dette ligger svært nær legemidlets eksisterende godkjente bruk.
+Det finnes **ingen registrerte kliniske studier** i de innsamlede dataene, og **20 publikasjoner** (hovedsakelig oversiktsartikler om inhalert loxapin ved akutt agitasjon) støtter retningen.
 
----
+## Hurtigoversikt
 
-## Kort oversikt
-
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Original indikasjon | Schizofreni (ifølge litteratur; ikke dokumentert i lokale markedslisenser — legemiddelet er ikke for tiden markedsført i Norge) |
-| Forutsagt ny indikasjon | Manisk bipolar affektiv lidelse (akutt agitasjon) |
-| TxGNN-prediksjonsresultat | 99.99% |
-| Bevisgrad | L1 (≥2 fullførte fase 3-RCT-er identifisert i støttende litteratur) |
-| Markedsstatus Norge | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
-
----
+| Opprinnelig indikasjon | Schizofreni; bipolar lidelse |
+| Predikert ny indikasjon | Manisk bipolar affektiv lidelse |
+| TxGNN-prediksjonsscore | 99,99 % |
+| Evidensnivå | L3 |
+| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Antall tillatelser | 1 (avregistrert) |
+| Anbefalt beslutning | Proceed with Guardrails (Fortsett med sikkerhetsgrenser) |
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige fra DrugBank (datakluft). Basert på informasjon som er innebygd i den støttende litteraturen, er loxapin et førstegenerasjons-antipsykotikum av dibenzoxazepinklassen, opprinnelig brukt til behandling av schizofreni i oral form i over tre tiår. Et reformulert inhalasjonsplver (markedsført andre steder som Adasuve®) med Staccato®-termisk aerosollevering ble senere utviklet, og nådde maksimale plasmakonsentrasjoner innen en median på ~2 minutter — hvilket muliggjør rask debut av antipsykotisk/beroligende effekt.
+Loxapin er et dibenzoksazepin-antipsykotikum med D2- og 5-HT2A-antagonisme. Dette er en virkningsmekanisme som er forenlig med antimane effekter og effekt mot agitasjon. Detaljerte virkningsmekanismedata var ikke tilgjengelige i de innsamlede dataene, så beskrivelsen bygger på kjent farmakologi.
 
-Schizofreni og bipolar mani er begge alvorlige psykiatriske lidelser som deler en overlappende klinisk presentasjon: akutt psykomotorisk agitasjon, overdreven motor-/verbal aktivitet og risiko for eskalering til aggresjon. Fordi loxapins antipsykotiske virkning (dopamin D2 / serotonin 5-HT2A-reseptorantagonisme, typisk for denne stoffklassen) retter seg mot disse transdiagnostiske symptomdomenene snarere enn en sykdomsspesifikk patologi, er effektiviteten ikke nødvendigvis begrenset til schizofreni.
+Den predikerte indikasjonen overlapper med legemidlets godkjente bruk (bipolar lidelse). Dette er derfor nærmere en bekreftelse av eksisterende indikasjon enn reell omposisjonering. Litteraturen gjelder i hovedsak inhalert loxapin (Adasuve) ved akutt agitasjon assosiert med bipolar lidelse og schizofreni. Endepunktet der er agitasjon, ikke hele det maniske syndromet.
 
-Denne mekanistiske plausibilitet reflekteres direkte i litteraturen selv: inhalert loxapin ble studert og godkjent (US FDA/EU) spesifikt for «akutt behandling av agitasjon forbundet med schizofreni **eller** bipolar I-lidelse» som en enkelt kombinert indikasjon, og kliniske retningslinjer for bipolar mani (Pacchiarotti et al. 2020) lister opp antipsykotika som loxapin blant anbefalte farmakologiske alternativer — hvilket støtter TxGNN-forutsagt assosiasjon snarere enn å representere en ny eller spekulativ hypotese.
+Pivotale fase 3-RCT-er av inhalert loxapin finnes i publisert litteratur (omtalt blant annet i oversikter fra Citrome 2012 og Keating 2013), men er ikke blant de innsamlede postene. Evidensen vurderes derfor konservativt.
 
----
+## Klinisk studiedokumentasjon
 
-## Bevis fra kliniske forsøk
+Foreløpig er ingen relaterte kliniske studier registrert.
 
-For øyeblikket er ingen relaterte kliniske forsøk registrert (ingen strukturerte oppføringer til stede i `clinical_trials` eller `ictrp_trials`). Merk: flere litteraturoppføringer nedenfor refererer til fullførte fase III-RCT-er (f.eks. NCT00628589, NCT00721955 per Zeller et al. 2017) som ikke ble fanget som strukturerte forsøksregister-oppføringer i denne evidenspakken.
+## Litteraturevidens
 
----
-
-## Litteraturbevis
-
-| PMID | År | Type | Tidsskrift | Viktigste funn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [29724638](https://pubmed.ncbi.nlm.nih.gov/29724638/) | 2018 | RCT | Eur Neuropsychopharmacol | PLACID-studie: vurdererblind RCT (23 sentre, 4 land) som sammenlikner inhalert loxapin vs. IM-aripiprazol for akutt agitasjon ved schizofreni/bipolar I-lidelse |
-| [29163985](https://pubmed.ncbi.nlm.nih.gov/29163985/) | 2017 | RCT (post-hoc-analyse) | BJPsych Open | Responder-analyse av 2 fullførte fase III-RCT-er (NCT00628589, NCT00721955; 344 schizofreni- + 314 bipolar I-pasienter) med PANSS-EC-skala |
-| [22226343](https://pubmed.ncbi.nlm.nih.gov/22226343/) | 2012 | RCT (sekundær analyse) | Int J Clin Pract | Effektstørrelse-analyse fra 2 fase III-RCT-er av inhalert loxapin ved schizofreni/bipolar-lidelse agitasjon |
-| [27151529](https://pubmed.ncbi.nlm.nih.gov/27151529/) | 2016 | Systematisk oversikt og metaanalyse | Hum Psychopharmacol | Systematisk oversikt over kortsiktige farmakologiske inngrep for agitasjon ved schizofreni/bipolar lidelse |
-| [28376877](https://pubmed.ncbi.nlm.nih.gov/28376877/) | 2017 | RCT-protokoll | BMC Psychiatry | Design av PLACID-RCT som sammenlikner inhalert loxapin vs. IM-aripiprazol ved akutt agitasjon |
-| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Oversikt | Acta Psychiatr Scand | Bevisbaserte behandlingsalternativer og klinisk veiledning for bipolar mani, inkludert antipsykotikumvalg |
-| [30721526](https://pubmed.ncbi.nlm.nih.gov/30721526/) | 2019 | Ekspertgjennomgang | Drugs in R&D | Oversikt over inhalert loxapin for akutt agitasjonshåndtering ved bipolar lidelse og schizofreni |
-| [23740380](https://pubmed.ncbi.nlm.nih.gov/23740380/) | 2013 | Oversikt | CNS Drugs | Oversikt over loxapin-inhalasjonsplver (Adasuve®) farmakokinetikk og fase III-forsøksdata |
-| [28208695](https://pubmed.ncbi.nlm.nih.gov/28208695/) | 2017 | Klinisk oversikt | Int J Mol Sci | Narrativ/klinisk mini-oversikt over inhalert loxapin-effektivitet og tolerabilitet ved akutt agitasjon |
-| [37581475](https://pubmed.ncbi.nlm.nih.gov/37581475/) | 2023 | Oversikt | Expert Opin Pharmacother | Oversikt over farmakoterapialternativer for agitasjon forbundet med bipolar lidelse |
+| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Oversikt | Acta Psychiatr Scand | Evidensbaserte behandlingsvalg ved bipolar mani, inkludert valg av stemningsstabilisator og antipsykotikum |
+| [27151529](https://pubmed.ncbi.nlm.nih.gov/27151529/) | 2016 | Systematisk oversikt/metaanalyse | Hum Psychopharmacol | Farmakologisk behandling av akutt agitasjon ved schizofreni eller bipolar lidelse |
+| [22226343](https://pubmed.ncbi.nlm.nih.gov/22226343/) | 2012 | Oversikt av RCT-er | Int J Clin Pract | Effektstørrelser fra to fase 3 randomiserte studier av inhalert loxapin ved agitasjon |
+| [23740380](https://pubmed.ncbi.nlm.nih.gov/23740380/) | 2013 | Oversikt | CNS Drugs | Adasuve godkjent i USA og EU; maksimal plasmakonsentrasjon etter ca. 2 minutter; to randomiserte, dobbeltblinde, placebokontrollerte studier |
+| [31496709](https://pubmed.ncbi.nlm.nih.gov/31496709/) | 2019 | Oversikt | Neuropsychiatr Dis Treat | Sikkerhet, effekt og pasientaksept for inhalert loxapin ved akutt agitasjon |
+| [30721526](https://pubmed.ncbi.nlm.nih.gov/30721526/) | 2019 | Ekspertoversikt | Drugs R D | Inhalert loxapin ved akutt agitasjon, i lys av ikke-tvangsbaserte retningslinjer |
+| [37581475](https://pubmed.ncbi.nlm.nih.gov/37581475/) | 2023 | Oversikt | Expert Opin Pharmacother | Forbedring av farmakoterapi ved agitasjon ved bipolar lidelse; begrenset antall godkjente midler |
+| [38301034](https://pubmed.ncbi.nlm.nih.gov/38301034/) | 2024 | Oversikt | Prim Care Companion CNS Disord | Alternative tilnærminger til akutt agitasjon ved schizofreni og bipolar lidelse |
+| [35913401](https://pubmed.ncbi.nlm.nih.gov/35913401/) | 2022 | Oversikt | Expert Rev Neurother | Femti års erfaring med loxapin for rask, ikke-tvangsbasert beroligelse |
+| [28208695](https://pubmed.ncbi.nlm.nih.gov/28208695/) | 2017 | Klinisk oversikt | Int J Mol Sci | Effekt og tolerabilitet av inhalert loxapin ved akutt agitasjon |
 
----
+## Informasjon om det norske markedet
 
-## Informasjon om Norges marked
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/002400 | Adasuve | Ikke oppgitt | Schizofreni; bipolar lidelse (status: avregistrert) |
 
-Ikke for tiden markedsført i Norge — ingen autorisasjonsregistreringer tilgjengelige (`total_licenses: 0`).
+## Sikkerhetsvurderinger
 
----
+- **Kontraindikasjoner/risikoer fra kunnskapsgraf (ikke preparatomtale):** Kunnskapsgrafen (PrimeKG) knytter loxapin til følgende tilstander: epilepsi, benign prostatahyperplasi, rusmiddelmisbruk/avhengighet, brystkreft hos kvinner, hjerte- og karsykdom, hjertesykdom, glaukom, malignt nevroleptikasyndrom, Alzheimers sykdom, tardiv dyskinesi, lingual-fasial-bukkal dyskinesi, hyperprolaktinemi (inkludert familiær og ervervet form) og prolaktinproduserende hypofysesvulst.
+- **Legemiddelinteraksjoner:** 100 interaksjoner funnet totalt. Blant de som er vist, er de alvorligste (nivå «Major»):
+  - Bupropion
+  - Morfin
+  - Kaliumcitrat
 
-## Sikkerhetshensyn
+  Mange interaksjoner på moderat nivå gjelder antikolinerge midler (f.eks. atropin, hyoscyamin, glykopyrronium, diciklomin, trospium), samt loperamid, epinefrin, lorcaserin, dronabinol, nabilon og eluxadolin.
 
-Lokale pakningsløfte-data (advarsler, kontraindikasjoner, legemiddelinteraksjoner) er for øyeblikket utilgjengelige — dette har blitt flagget som en **Blokkerende** datakluft (DG001), som betyr at kandidaten ennå ikke kan gå inn i formell sikkerhetsforkontroll (S1-stadium). Vennligst referér til pakningsløftet for sikkerhetsinformasjon når den er innhentet.
+Se preparatomtalen for øvrig sikkerhetsinformasjon.
 
----
+## Konklusjon og neste steg
 
-## Konklusjon og neste trinn
-
-**Beslutning: Avvent**
+**Beslutning: Proceed with Guardrails (Fortsett med sikkerhetsgrenser)**
 
 **Begrunnelse:**
-Litteraturbevis er sterkt (L1: ≥2 fullførte fase III-RCT-er, en dedikert head-to-head-RCT og en systematisk oversikt/metaanalyse), og den forutsagte indikasjonen er bekreftet av en eksisterende internasjonal regulatorisk presedens (inhalert loxapin godkjent i USA/EU for agitasjon ved schizofreni *eller* bipolar I-lidelse). Imidlertid kan kandidaten ikke fortsette forbi innledende sikkerhetskontroll fordi lokale advarsler/kontraindikasjoner-data er fullstendig utilgjengelige (Blokkerende gap DG001), og legemiddelet er ikke for tiden markedsført i Norge.
+Indikasjonen overlapper med legemidlets godkjente bruk, og mekanismen (D2/5-HT2A-antagonisme) er biologisk plausibel. Evidensen består imidlertid av oversiktsartikler uten registrerte kliniske studier i datasettet, endepunktet er i hovedsak agitasjon fremfor full mani, og det finnes ingen gyldig markedsføringstillatelse i Norge.
 
-**For å komme videre, er følgende nødvendig:**
-- Hente offisielle etikett-/pakningsløftedata (advarsler, kontraindikasjoner) — kilde: TFDA-tilsvarende regulatorisk innlevering eller EMA/FDA-etikett
-- Innhent detaljerte MOA/farmakologi-data fra DrugBank (DG002)
-- Bekreft tiltenkt administrasjonsvei (oral vs. inhalert Staccato®-levering) og dens regulatoriske vei i Norge
-- Gjennomfør DDI-screening (for øyeblikket `query_status: not_found`)
-
+**For å gå videre kreves:**
+- Hente og analysere preparatomtalen (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsscreening
+- Innhente detaljerte data om virkningsmekanisme (f.eks. fra DrugBank)
+- Gjennomgå de pivotale fase 3-RCT-ene av inhalert loxapin direkte, og avklare om evidensen gjelder mani eller kun agitasjon
+- Avklare regulatorisk status i Norge, siden eneste tillatelse er avregistrert
+- Lage en sikkerhetsovervåkingsplan med vekt på interaksjoner (bupropion, morfin, antikolinerge midler) og tilstandene som er flagget i kunnskapsgrafen
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

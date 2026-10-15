@@ -2,7 +2,7 @@
 layout: default
 title: Turoctocog Alfa Pegol
 parent: Kun modellprediksjon (L5)
-nav_order: 374
+nav_order: 439
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,95 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Turoctocog alfa pegol: Fra Hemofili A til Ervervet Mangel på Koagulasjonsfaktor
+# Turoctocog alfa pegol: Fra hemofili A til primær frigjøringsforstyrrelse i blodplater
 
-## Oppsummering i én setning
+## Oppsummering
 
-Turoctocog alfa pegol er en PEGylert rekombinant faktor VIII (FVIII) erstatningsterapi, opprinnelig utviklet for FVIII-mangel ved Hemofili A (utledet fra stoffets mekanistiske beskrivelse; formelle data om originalindikasjon er ikke ennå dokumentert i denne bevisepakken). TxGNN-modellens topprangerte prediksjon (trombocyttfrigjøringsforstyrrelse) holder ikke mekanistisk, så rapporten fremhever i stedet **Ervervet Mangel på Koagulasjonsfaktor** som den farmakologisk mest plausible kandidaten blant de 10 prediksjonene. **Ingen kliniske forsøk eller litteratur støtter for øyeblikket noen av de 10 predikterte indikasjonene** — dette er et rent modellprediktert tilfelle (L5) med et uløst MOA-datahull.
+Turoctocog alfa pegol er et PEGylert rekombinant koagulasjonsfaktor VIII-preparat (markedsført som Esperoct), opprinnelig brukt til behandling av **hemofili A**.
+TxGNN-modellen forutsier at legemidlet kan ha effekt ved **primær frigjøringsforstyrrelse i blodplater** (primary release disorder of platelets), men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen.
+Prediksjonen er derfor kun en modellberegning (evidensnivå L5).
 
 ---
 
-## Rask Oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Originalindikasjon | Ikke dokumentert i regulatoriske data (legemiddelet er ikke ennå markedsført i Norge); antatt å være Hemofili A / FVIII-mangel basert på stoffklasse |
-| Prediktert Ny Indikasjon | Ervervet Mangel på Koagulasjonsfaktor (valgt som det mekanistisk sterkeste blant 10 kandidater; TxGNN sin #1-rangerte prediksjon, trombocyttfrigjøringsforstyrrelse, ble vurdert som ikke farmakologisk plausibel — se begrunnelse nedenfor) |
-| TxGNN Prediktert Poengsum | 99.97% (rangert 525 av alle sykdomspredikasjoner) |
-| Bevisnivå | L5 (modellprediksjon kun — ingen kliniske forsøk eller litteratur for noen av de 10 kandidatene) |
-| Norsk Markedsstatus | ✗ Ikke markedsført |
-| Antall Autorisasjoner | 0 |
-| Anbefalt Avgjørelse | Opphold |
+| Opprinnelig indikasjon | Hemofili A |
+| Predikert ny indikasjon | Primær frigjøringsforstyrrelse i blodplater |
+| TxGNN-prediksjonsscore | 99,997 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun opphevede (trukkede) autorisasjoner |
+| Antall autorisasjoner | 1 |
+| Anbefalt beslutning | Hold (avvent) |
 
 ---
 
-## Hvorfor Er Denne Prediktionen Rimelig?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte formelle data om virkningsmekanisme er for øyeblikket et dokumentert hull (DG002, høy alvorlighetsgrad — DrugBank API-oppslag venter). Basert på kontekstinformasjon tilgjengelig i denne bevisepakken, er turoctocog alfa pegol en **PEGylert rekombinant faktor VIII-erstatningsterapi**, brukt til å korrigere FVIII-mangel ved Hemofili A.
+Det foreligger for tiden ikke detaljerte data om virkningsmekanisme for dette legemidlet. Turoctocog alfa pegol er et PEGylert rekombinant faktor VIII-produkt. Det erstatter manglende faktor VIII hos pasienter med hemofili A, og effekten er etablert for denne indikasjonen.
 
-Blant de 10 TxGNN-predikterte indikasjonene, involverer de fleste (trombocyttfrigjøringsforstyrrelse, pseudo-von Willebrand-sykdom, Glanzmanns thrombasteni, Scott-syndrom, kollagenreseptordefekter, konstitusjonell trombocytopeni, FNAIT, og to tvetydige/sannsynlig feilmerkede oppføringer) **trombocyttnivå-dysfunksjon eller urelaterte genetiske syndromer**, ikke koagulasjonsfaktormangel. FVIII-erstatning kan ikke korrigere defekter i trombocyttgranulesekresjonen, reseptoravvik, eller fosfatidylserinscrambling på membranen — disse prediksjonene gjenspeiler trolig TxGNN's kunnskapsgrafs klynging av sykdommer gjennom en delt «blødningstendens»-node heller enn genuine farmakologisk relevans.
+Primær frigjøringsforstyrrelse i blodplater skyldes imidlertid en defekt i blodplatefunksjonen (sekresjon fra granula), ikke mangel på faktor VIII. Det er derfor ingen tydelig mekanistisk begrunnelse for å bruke et faktor VIII-preparat. Den høye scoren (0,99997) er trolig drevet av nærhet i nettverket innenfor gruppen av blødningsforstyrrelser, og er ikke et uttrykk for klinisk støtte.
 
-**Ervervet Mangel på Koagulasjonsfaktor** skiller seg ut som unntak: denne kategorien inkluderer ervervet Hemofili A (f.eks. anti-FVIII autoantistoff-mediert FVIII-mangel), for hvilken standard/langtidsvirkende FVIII-erstatningsprodukter allerede brukes som støtteterapi i gjeldende praksis. Dette er den eneste av de 10 prediksjonene hvor sykdomsmekanismen (FVIII-utilstrekkelighet) direkte samsvarer med stoffets mekanisme (FVIII-erstatning) — og det er hvorfor bevisepakken fremhever det til beslutningstrinn S1 («Forskningsspørsmål») mens de øvrige 9 forblir på S0 (Opphold).
+### Andre predikerte indikasjoner
 
----
+Modellen foreslår også andre tilstander. Ingen av dem har kliniske studier eller litteratur i datagrunnlaget, og alle er vurdert til L5 og Hold:
 
-## Bevis fra Kliniske Forsøk
-
-For øyeblikket ingen relaterte kliniske forsøk registrert.
-
----
-
-## Bevis fra Litteratur
-
-For øyeblikket ingen relatert litteratur tilgjengelig.
-
----
-
-## Informasjon om Norges Marked
-
-Turoctocog alfa pegol er **ikke markedsført i Norge** — ingen produktautorisasjoner er for øyeblikket registrert (0 lisenser på fil), så ingen tabell over doseringsform eller godkjent-indikasjon kan produseres på dette tidspunktet.
+| Rang | Sykdom | Score | Mekanistisk vurdering |
+|------|------|------|------|
+| 2 | Pseudo-von Willebrands sykdom | 99,996 % | Plausibel kun på signalveinivå (VWF bærer og stabiliserer FVIII), men faktor VIII korrigerer ikke reseptordefekten i blodplatene |
+| 3 | Glanzmanns trombasteni | 99,996 % | Defekt i integrin αIIbβ3; faktor VIII adresserer ikke dette. Standardbehandling er blodplatetransfusjon eller rekombinant FVIIa |
+| 4 | Ervervet koagulasjonsfaktormangel | 99,974 % | Mekanistisk mest sammenhengende (f.eks. ervervet hemofili A), men hemmende autoantistoffer gjør ofte erstatning lite effektiv. Kategorien er bred og uensartet |
+| 5 | Scott syndrom | 99,973 % | Defekt fosfatidylserin-eksponering (TMEM16F/ANO6); mer FVIII gjenoppretter ikke overflaten som kreves. Spekulativ kobling |
+| 6 | Blødningstendens ved kollagenreseptordefekt | 99,949 % | Defekt i GPVI eller α2β1, uten sammenheng med FVIII |
+| 7 | Hemoragisk forstyrrelse ved konstitusjonell trombocytopeni | 99,948 % | Blødning skyldes blodplatemangel, ikke FVIII-mangel |
+| 8 | «Flood factor deficiency» | 99,752 % | Sykdomsnavnet virker ikke-standard eller et ontologi-artefakt og bør verifiseres |
+| 9 | Hereditær trombocytose med transversal lemdefekt | 99,694 % | Ikke en FVIII-mangeltilstand; FVIII kan være uønsket pga. tromboserisiko. Trolig grafartefakt |
+| 10 | Føtal og neonatal alloimmun trombocytopeni | 99,693 % | Immunmediert blodplateødeleggelse; behandles med IVIG, kortikosteroider og kompatible blodplater |
 
 ---
 
-## Sikkerhetshensyn
+## Klinisk evidens
 
-Vennligst se pakningslisten for sikkerhetsinformasjon. (Merk: TFDA/etikett-advarsler og kontraindikasjoner er flagget som et **Blokkerende datahull** (DG001) i denne bevisepakken — de må løses før noen sikkerhet-forhåndsvurdering (S1) kan fortsette.)
+Det er for tiden ingen relaterte kliniske studier registrert.
 
 ---
 
-## Konklusjon og Neste Trinn
+## Litteraturevidens
 
-**Avgjørelse: Opphold**
+Det foreligger for tiden ingen relevant litteratur.
+
+---
+
+## Informasjon om det norske markedet
+
+| Autorisasjonsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004883 | Esperoct | Ikke oppgitt | Hemofili A |
+
+Autorisasjonen er opphevet, og det finnes ingen gyldige autorisasjoner (produsent: Novo Nordisk A/S).
+
+---
+
+## Sikkerhetsvurderinger
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Alle 10 TxGNN-predikterte indikasjonene for turoctocog alfa pegol har for øyeblikket null støttende kliniske forsøk eller litteratur (L5, prediksjon kun), legemiddelet er ikke markedsført i Norge, og både de formelle MOA-data og TFDA/etikett-sikkerhetsdataene er dokumenterte hull. Selv den mekanistisk mest plausible kandidaten (ervervet koagulasjonsfaktormangel) har ingen direkte bevis ennå — den kvalifiserer bare for videre undersøkelse (S1), ikke videre fremdrift.
+Prediksjonene bygger kun på modellberegning (L5) uten kliniske studier eller litteratur, og for de fleste tilstandene mangler en plausibel mekanisme fordi sykdommene skyldes blodplatedefekter og ikke FVIII-mangel. I tillegg er produktet ikke lenger gyldig autorisert på markedet.
 
-**For å gå videre er følgende nødvendig:**
-- Løs DG001 (Blokkerende): innhent TFDA/Norge-etikettvarsler og kontraindikasjoner før noen S1-sikkerhetsvurdering
-- Løs DG002 (Høy): bekreft formell MOA via DrugBank API for å validere den mekanistiske begrunnelsen for FVIII-erstatning
-- Søk spesifikt etter litteratur/kasusserier på FVIII-produktbruk i ervervet Hemofili A / ervervet koagulasjonsfaktormangel
-- Revurder de gjenværende 9 prediksjonenes plausibilitet før du allokerer videre ressurser til disse
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Advarsler og kontraindikasjoner fra pakningsvedlegget, som er nødvendig for sikkerhetsscreening
+- Verifisering av sykdomsnavn som «flood factor deficiency» mot en sykdomsdatabase
+- Systematisk litteratur- og studiesøk for den mest sammenhengende kandidaten (ervervet koagulasjonsfaktormangel, f.eks. ervervet hemofili A)
+- Avklaring av markedsstatus og tilgjengelighet i Norge dersom videre utredning er aktuelt
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Darolutamide
 parent: Kun modellprediksjon (L5)
-nav_order: 96
+nav_order: 113
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,63 +29,85 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Darolutamide: Fra uavklart originalindikasjon til homozygot familiær hyperkolesterolemi
+# Darolutamid: Fra kastrasjonsresistent prostatakreft til familiær hypercholesterolemi (homozygot)
 
-## Sammenfattelse i en setning
+## Oppsummering i én setning
 
-> Darolutamides opprinnelige godkjente indikasjon og virkningsmekanisme er begge for øyeblikket udokumentert i denne bevissamlingen (flagget som datahull DG001/DG002).
-> TxGNN-modellen forutsier at det kan være effektivt for **homozygot familiær hyperkolesterolemi**,
-> men denne prediksjonen er for øyeblikket støttet av **0 kliniske forsøk** og **0 publikasjoner** — det er et modell-kun signal på dette stadiet.
+Darolutamid er en androgenreseptorantagonist som opprinnelig brukes til behandling av **kastrasjonsresistent prostatakreft**.
+TxGNN-modellen forutsier at legemidlet kan ha effekt ved **homozygot familiær hypercholesterolemi**, men dette er en ren modellprediksjon: det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter den.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Originalindikasjon | Ikke tilgjengelig — ingen norske lisenser på fil, liste over originalindikasjon tom |
-| Forutsagt ny indikasjon | Homozygot familiær hyperkolesterolemi |
-| TxGNN-prediksjonspoeng | 99.11% |
-| Bevisnivå | L5 (kun modellprediksjon, ingen støttende forsøk eller litteratur) |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | **Hold** |
+| Opprinnelig indikasjon | Kastrasjonsresistent prostatakreft |
+| Predikert ny indikasjon | Homozygot familiær hypercholesterolemi |
+| TxGNN-prediksjonsscore | 99,11 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun tilbakekalte/avregistrerte godkjenninger (ikke markedsført) |
+| Antall godkjenninger | 1 |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er det ikke tilgjengelig detaljerte data om virkningsmekanisme (DG002, høy alvorlighetsgrad), og legemidlets opprinnelige godkjente indikasjon er heller ikke på fil i denne bevissamlingen. Uten disse dataene kan ingen mekanistisk eller sykdomssimilaritet-basert rasjonale etableres mellom darolutamide og homozygot familiær hyperkolesterolemi på dette tidspunktet.
+Darolutamid er en androgenreseptorantagonist. Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten, så mekanismeanalysen er begrenset.
 
-To andre kandidatindikasjonene ble også generert av TxGNN for dette legemidlet — multipel endokrin neoplasi (poeng 99.06%) og HIV-infeksjonssykdom (poeng 99.04%) — men ingen av dem diskuteres videre her siden rapportformatet fokuserer på den høyest rangerte kandidaten. Det er særlig å merke seg at kandidaten for multipel endokrin neoplasi er knyttet til bare ett enkelt avsluttet fase 1 basket-forsøk (n=2) som ikke er spesifikt for denne indikasjon, og HIV-kandidaten har ingen støttende bevis i det hele tatt.
+Homozygot familiær hypercholesterolemi skyldes defekter i LDL-reseptorveien. Det finnes ingen opplagt kobling til androgenreseptorsignalering i de tilgjengelige dataene. Den høye scoren (0,991) er sannsynligvis drevet av mønstre i kunnskapsgrafen og ikke av biologisk eller klinisk dokumentasjon.
 
-Gitt fraværet av MOA, kontekst for originalindikasjon og eventuelle kliniske bevis eller litteratur, bør denne prediksjonen behandles som et tidlig-stadiums signal som krever betydelig oppfølging før noen farmakologisk rasjonale kan hevdes.
-
----
-
-## Klinisk forsøksbevis
-
-For øyeblikket ingen relaterte kliniske forsøk registrert
+Prediksjonen bør derfor regnes som en hypotese uten støtte. Den bør ikke tolkes som et signal om at legemidlet virker ved sykdommen.
 
 ---
 
-## Litteraturbevis
+## Kliniske studier
 
-For øyeblikket ingen relatert litteratur tilgjengelig
+Foreløpig ingen relaterte kliniske studier registrert for denne indikasjonen.
 
 ---
 
-## Norsk markedsinformasjon
+## Litteraturevidens
 
-Darolutamide er for øyeblikket ikke markedsført i Norge (0 godkjenninger på fil), så ingen produkt-/godkjenningstabell er tilgjengelig.
+Foreløpig ingen relatert litteratur tilgjengelig.
+
+---
+
+## Markedsinformasjon for Norge
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004790 | Nubeqa | – | Kastrasjonsresistent prostatakreft |
+
+Denne godkjenningen er registrert som tilbakekalt/avregistrert (status: cancelled), og det finnes ingen gyldige godkjenninger.
+
+---
+
+## Cytotoksisitet
+
+Darolutamid er et legemiddel mot kreft, men det er en hormonell/målrettet behandling (androgenreseptorhemmer) og ikke en konvensjonell cytostatika. Datagrunnlaget inneholder ingen toksisitetsdata.
+
+| Punkt | Innhold |
+|------|------|
+| Klassifisering | Målrettet hormonbehandling (androgenreseptorantagonist), ikke konvensjonelt cytotoksisk |
+| Risiko for myelosuppresjon | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Emetogenisitet | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Håndteringsbeskyttelse | Se pakningsvedlegget for advarsler og forsiktighetsregler |
 
 ---
 
 ## Sikkerhetsvurderinger
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+- **Legemiddelinteraksjoner**: Det er registrert 100 interaksjoner. Blant de første 20 som ble gjennomgått, er følgende klassifisert som **alvorlige (Major)**:
+  - Deksametason
+  - Eluksadolin
+  - Rosuvastatin
 
-*Merk: TFDA/etikett-advarsler og kontraindikasjonsdata mangler for øyeblikket og er flagget som et blokkerende datahull (DG001) — dette hindrer legemidlet fra å komme inn i S1-stadiet for innledende sikkerhetsvurdering.*
+  Flere moderate interaksjoner er også registrert, blant annet med klaritromycin, empagliflozin, glyburid, repaglinid, simvastatin, sulfasalazin, kobicistat, deferasirox og eltrombopag. Interaksjonene med rosuvastatin og simvastatin er særlig relevante hvis legemidlet skulle vurderes ved hyperkolesterolemi, siden pasientene som regel bruker statiner.
+
+For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se pakningsvedlegget.
 
 ---
 
@@ -94,15 +116,25 @@ Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen med høyest rangering (homozygot familiær hyperkolesterolemi) har null støttende kliniske forsøk eller litteratur, og legemidlet har for øyeblikket et blokkerende sikkerhetsdatahull (manglende TFDA-advarsler/kontraindikasjoner) som hindrer sikkerhetsvurdering. Det er utilstrekkelige bevis for å fremme denne kandidaten på dette tidspunktet.
+Prediksjonen bygger kun på modellscore uten kliniske studier, litteratur eller en plausibel mekanistisk kobling. I tillegg er den norske godkjenningen ikke lenger gyldig, og viktig sikkerhetsinformasjon mangler.
 
-**For å gå videre, trengs følgende:**
-- TFDA-etikett (advarsler og kontraindikasjoner) — påkrevd for å fjerne det blokkerende gapet (DG001) før noen S1-sikkerhetsvurdering
-- Virkningsmekanisme-data fra DrugBank (DG002) — nødvendig for å vurdere mekanistisk plausibilitet
-- Bekreftelelse av legemidlets opprinnelige godkjente indikasjon(er)
-- Uavhengig litteratur- eller forsøkssøk spesifikt for homozygot familiær hyperkolesterolemi, siden ingen for øyeblikket finnes i bevissamlingen
-- Ny vurdering av de lavere rangerte kandidatene (multipel endokrin neoplasi, HIV) dersom TxGNN-poengene blir gjennomgått på nytt, ettersom gjeldende støttende bevis er ubetydelig eller fraværende for begge
+**For å gå videre kreves følgende:**
+- Hente og analysere pakningsvedlegget (advarsler og kontraindikasjoner), som i dag er en blokkerende datamangel
+- Innhente detaljerte data om virkningsmekanisme (f.eks. fra DrugBank)
+- Prekliniske data eller en mekanistisk hypotese som knytter androgenreseptorhemming til LDL-metabolisme
+- Gjennomgang av interaksjoner med statiner og andre lipidsenkende midler
+- Avklaring av markedsstatus og regulatorisk situasjon i Norge
 
+---
+
+## Andre predikerte indikasjoner (til orientering)
+
+| Predikert indikasjon | TxGNN-score | Evidensnivå | Anbefaling |
+|------|------|------|------|
+| Multippel endokrin neoplasi | 99,06 % | L4 | Hold |
+| HIV-infeksjon | 99,04 % | L5 | Hold |
+
+For multippel endokrin neoplasi er to studier registrert (NCT07795177 og NCT03878524), men begge gjelder prostatakreft eller presisjonsonkologi, har lav relevans og gir ingen tolkbar evidens for denne indikasjonen. For HIV-infeksjon finnes ingen studier eller litteratur, og de mange registrerte legemiddelinteraksjonene måtte vurderes nøye før videre utforskning.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

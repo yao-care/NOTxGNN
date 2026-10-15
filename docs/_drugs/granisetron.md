@@ -2,7 +2,7 @@
 layout: default
 title: Granisetron
 parent: Kun modellprediksjon (L5)
-nav_order: 167
+nav_order: 197
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,100 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# GRANISETRON: Fra antiemetisk bruk til manisk bipolar affektiv lidelse
+# Granisetron: Fra kvalme og oppkast ved kreftbehandling til manisk bipolar lidelse
 
-## Enlinjesammendrag
+## Oppsummering
 
-Granisetron er en 5-HT3-reseptorantagonist; evidenspakken inneholder ikke strukturerte data på dens opprinnelige godkjente indikasjon, og legemidlet markedsføres ikke for tiden i Norge. TxGNN-modellen predikerer at det kan være effektivt for **manisk bipolar affektiv lidelse**, men denne prediksjonen er støttet av **0 kliniske studier** og **0 publikasjoner** — det er et modelbasert signal uten bekreftende bevis.
+Granisetron er en selektiv 5-HT3-reseptorantagonist, opprinnelig brukt mot oppkast hos kreftpasienter.
+TxGNN-modellen forutsier at legemidlet kan ha effekt ved **manisk bipolar lidelse**, men dette er kun en modellprediksjon.
+Verken kliniske studier eller publikasjoner i de innsamlede dataene støtter retningen foreløpig.
 
 ---
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
-|------|---------|
-| Opprinnelig indikasjon | Ikke dokumentert i evidenspakken (legemiddelklasse notert som 5-HT3-reseptorantagonist; ingen godkjent indikasjon eller lisensdata tilgjengelig) |
-| Predikert ny indikasjon | Manisk bipolar affektiv lidelse |
-| TxGNN-predikskjonsscore | 99.62% |
-| Bevisnivå | L5 |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+|------|------|
+| Opprinnelig indikasjon | Oppkast; kreft |
+| Predikert ny indikasjon | Manisk bipolar lidelse |
+| TxGNN-prediksjonsscore | 99,62 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun trukket tilbake (kansellert) |
+| Antall godkjenninger | 1 |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige. Basert på informasjonen i evidenspakken, beskrives granisetron som en **5-HT3-reseptorantagonist**, en legemiddelklasse hvis etablerte kliniske bruk er antiemetisk terapi (f.eks. kjemoterapiutløst og strålebehandlingsutløst kvalme og oppkast). Ingen strukturert «opprinnelig indikasjon»-felt eller norske markedslisensdata er tilstede for å bekrefte dette formelt.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Granisetron er kjent som en selektiv 5-HT3-reseptorantagonist, og effekten ved kjemoterapiindusert oppkast er etablert.
 
-Begrunnelsen som er gitt for topprediksjonen, angir at 5-HT3-antagonisme teoretisk kunne modulere serotoninerg tone, og serotonin har et indirekte forhold til stemmingsregulering. Imidlertid nevner samme begrunnelse eksplisitt at manisk/bipolar patologi primært drives av **dopaminerge og GABAerge** reguleringsforstyrringer, ikke serotoninerg 5-HT3-signalering — noe som betyr at den mekanistiske forbindelsen her er spekulativ snarere enn etablert.
+Serotonerg og dopaminerg dysregulering antas å spille en rolle ved mani. Hemming av 5-HT3-reseptorer kan derfor tenkes å påvirke disse signalveiene. Koblingen er plausibel, men ubekreftet, og er utledet fra generell farmakologi og ikke fra data om granisetron spesifikt.
 
-Fordi dette er en ren nettverksbasert prediksjon uten støttende studier eller litteratur, er mekanistisk plausibilitet alene utilstrekkelig for å flytte denne kandidaten utover et tidlig screeningstadium.
+Den høye modellscoren (0,996) er ikke i seg selv bevis for klinisk effekt. Den kan også gjenspeile nærhet i kunnskapsgrafen snarere enn biologisk sammenheng.
 
----
+### Andre predikerte indikasjoner (alle L5, Hold)
 
-## Kliniske studiebevis
-
-Ingen relaterte kliniske studier registrert for øyeblikket
-
----
-
-## Litteraturbevis
-
-Det er for øyeblikket ingen tilgjengelig relatert litteratur
-
----
-
-## Markedsinformasjon Norge
-
-Granisetron har for øyeblikket ingen markedsgodkjennelser i Norge (0 lisenser på registre); produktet markedsføres ikke.
+| Rang | Predikert indikasjon | Score | Vurdering av mekanisme |
+|------|------|------|------|
+| 2 | Tourettes syndrom | 99,52 % | Konseptuelt relevant via dopaminerg modulering; ingen data for granisetron |
+| 3 | Akutt smittsom konjunktivitt | 99,49 % | Ingen klar mekanisme; trolig nettverksartefakt |
+| 4 | Angioødem | 99,36 % | Spekulativ kobling via serotonin og vaskulær permeabilitet |
+| 5 | Allergisk urtikaria | 99,32 % | Hypotetisk kobling via kløe og mastcellerespons |
+| 6 | Nefrogent syndrom med uhensiktsmessig antidiurese | 99,32 % | Ingen kjent mekanisme; trolig nettverksartefakt |
+| 7 | Trikotillomani | 99,23 % | Serotonerg modulering relevant for OCD-spekteret; ingen data |
+| 8 | Bronkitt | 99,18 % | Spekulativ; ingen støttende evidens |
+| 9 | Kuldeurtikaria | 99,10 % | Spekulativ; ingen definert mekanisme |
+| 10 | Konjunktivitt | 99,09 % | Ingen etablert mekanisme |
 
 ---
 
-## Sikkerhetshensyn
+## Evidens fra kliniske studier
 
-Se pakningsletten for sikkerhetsinformasjon.
+Det er for øyeblikket ingen relaterte kliniske studier registrert for manisk bipolar lidelse.
 
 ---
 
-## Konklusjon og neste trinn
+## Litteraturevidens
 
-**Beslutning: Avvent**
+Det er for øyeblikket ingen relatert litteratur tilgjengelig.
+
+---
+
+## Markedsinformasjon for Norge
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/002296 | Sancuso | Ikke oppgitt | Oppkast; kreft (status: kansellert) |
+
+Det finnes ingen gyldige markedsføringstillatelser for granisetron i datagrunnlaget.
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Kontraindikasjoner fra kunnskapsgrafen** (kunnskapsgrafrelasjoner, ikke preparatomtale): langt QT-syndrom, familiært langt QT-syndrom, kaliummangel, plutselig hjertestans og hjerteledningsforstyrrelser.
+- **Legemiddelinteraksjoner**: 100 interaksjoner er registrert. Et utvalg av de viktigste:
+  - **Alvorlige (Major)**: fentanyl, dekstrometorfan, tramadol, alfentanil, almotriptan, sumatriptan, amiodaron, amisulprid, amitriptylin og anagrelid. Mange av disse gjelder QT-forlengelse eller serotonergt syndrom.
+  - **Moderate**: abirateron, dihydrokodein, kodein, famotidin, formoterol, adenosin, salbutamol, alfuzosin og propofol.
+
+Viktige advarsler og kontraindikasjoner fra preparatomtalen mangler. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen hviler utelukkende på en TxGNN-nettverksscore (L5) uten kliniske studier, uten litteratur, uten bekreftet MOA, og uten markedstilstedeværelse i Norge for å forankre en mekanistisk eller regulatorisk vurdering. Legemidlets egen reposisjonieringsbegrunnelse erkjenner at den mekanistiske forbindelsen til bipolar mani er svak og indirekte.
+Prediksjonen bygger kun på modellscore uten kliniske studier eller litteratur (evidensnivå L5). Produktet er dessuten trukket tilbake i Norge, og sikkerhetsdata fra preparatomtalen mangler. Kontraindikasjoner knyttet til hjerterytme og mange alvorlige interaksjoner krever nøye vurdering.
 
-**For å fortsette trengs følgende:**
-- TFDA-likeverdige etikettadvarsler/kontraindikasjoner (for øyeblikket en blokkerende datakløft, DG001)
-- Bekreftet virkningsmekanisme fra DrugBank eller primærlitteratur (DG002)
-- Opprinnelig godkjent indikasjon og lisensieringsstatus for å etablere en baseline for sammenligning
-- Som minimum, prekliniske eller observasjonelle bevis som direkte forbinder 5-HT3-antagonisme til stemnings-/manisk symptommodulering før denne kandidaten kan avansere forbi S0
-
-*Merk: Alle 10 predikerte indikasjoner i denne evidenspakken er vurdert til L5/Avvent uten støttende studier eller litteratur — denne kandidatsettet som helhet er på det tidligste mulige screeningstadiet.*
-
+**For å gå videre kreves følgende:**
+- Hente og analysere preparatomtalen (advarsler og kontraindikasjoner), som er et blokkerende datagap
+- Fullstendige data om virkningsmekanisme (MOA)
+- Litteratur- og studiesøk spesifikt for 5-HT3-antagonister ved mani og bipolar lidelse
+- Vurdering av administrasjonsvei og formulering som passer den nye indikasjonen
+- Sikkerhetsplan for QT-forlengelse og serotonerge interaksjoner hos aktuelle pasientgrupper
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Elafibranor
 parent: Kun modellprediksjon (L5)
-nav_order: 124
+nav_order: 143
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,76 +29,86 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Elafibranor: Eksperimentell PPAR-agonist — Forutsagt ny indikasjon: Amenorrhoe
+# Elafibranor: Fra primær biliær cirrhose til amenoré
 
-*Merk: Det finnes ingen opprinnelige indikasjonsdata for dette legemidlet i den nåværende evidenspakken, så tittelen kan ikke følge standard "Fra X til Y"-format.*
+## Oppsummering i én setning
 
-## Oppsummering i en setning
-
-Elafibranor er en PPAR-α/δ dual agonist; det finnes for øyeblikket ingen opprinnelig godkjent indikasjon eller detaljerte virkningsmekanismedata i denne evidenspakken. TxGNN-modellen forutsier at det kan være effektivt for **Amenorrhoe**, men denne prediksjonen er for øyeblikket støttet av **0 kliniske forsøk** og **0 publikasjoner** — det er en ren beregningsbasert (kunnskapsgrafikk)-prediksjon uten klinisk eller mekanistisk bevis som støtter den.
+Elafibranor er et legemiddel som opprinnelig er godkjent for behandling av biliær levercirrhose (primær biliær kolangitt). Den TxGNN-baserte modellen predikerer at det kan være effektivt ved **amenoré**, men dette er kun en modellprediksjon: det finnes **0 kliniske studier** og **0 publikasjoner** i de samlede dataene som støtter retningen.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|------|--------|
-| Opprinnelig indikasjon | Ikke tilgjengelig (ingen data i evidenspakken) |
-| Forutsagt ny indikasjon | Amenorrhoe |
-| TxGNN-prediksjonspoeng | 99.86% |
+|------|------|
+| Opprinnelig indikasjon | Biliær levercirrhose (Liver Cirrhosis, Biliary) |
+| Predikert ny indikasjon | Amenoré |
+| TxGNN-prediksjonsscore | 99,86 % |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Avvent |
+| Markedsstatus i Norge | Kun avregistrert/trukket tilbake |
+| Antall godkjenninger | 1 |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er det ikke tilgjengelig detaljerte virkningsmekanismedata for elafibranor. Basert på den begrensede informasjonen i denne evidenspakken, er elafibranor klassifisert som en PPAR-α/δ dual agonist. Ingen opprinnelige indikasjonsdata, publisert litteratur eller klinisk forsøksbevis er tilgjengelig for å etablere en sammenheng mellom denne mekanismen og amenorrhoe, hypothalamus-hypofyse-ovarie-aksen eller regulering av menstruasjonssyklus.
+Elafibranor er en dobbel PPARα/δ-agonist (PPARA og PPARD er identifisert som målproteiner i de samlede dataene). Detaljerte data om virkningsmekanisme er ikke tilgjengelige i den opprinnelige kilden. I leverceller omdannes legemidlet til den aktive metabolitten GFT-1007. Prekliniske data viser redusert fettopphopning, betennelse og fibrose i lever.
 
-TxGNN-skåren (0.999) reflekterer kun styrken på kunnskapsgrafikk-forbindelser — den koder ikke eller antyder ikke en spesifikk biologisk vei. For øyeblikket finnes det ingen eksperimentell, mekanistisk eller klinisk støtte for denne hypotesen; den er avledet rent fra modellinferens.
+Koblingen til amenoré er spekulativ. PPAR-signalering påvirker lipid- og glukosemetabolisme samt betennelse, noe som i teorien kan påvirke eggstokk- og hypothalamus-hypofyse-gonade-aksen, for eksempel ved PCOS-relaterte menstruasjonsforstyrrelser. Det er imidlertid ikke påvist noen kausal sammenheng. Effekten kan også være indirekte, via metabolske eller leverrelaterte forhold, og amenoré kan være en sekundær manifestasjon av en underliggende sykdom fremfor et direkte behandlingsmål. Hormonelle og menstruasjonsrelaterte effekter av PPAR-agonister er lite kartlagt.
 
----
-
-## Klinisk forsøksbevis
-
-For øyeblikket ingen relaterte kliniske forsøk registrert
+Det opprinnelige bruksområdet (leversykdom) og den nye indikasjonen (en reproduktiv/endokrin tilstand) har liten åpenbar likhet, og likhetsvurderingen er ikke gjennomført.
 
 ---
 
-## Litteraturbevis
+## Klinisk evidens
 
-For øyeblikket ingen relatert litteratur tilgjengelig
-
----
-
-## Informasjon om det norske marked
-
-For øyeblikket er det ikke registrert noen markedsføringstillatelser i Norge (legemidlet er ennå ikke markedsført).
+Foreløpig er det ingen relaterte kliniske studier registrert.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+Foreløpig finnes det ingen relatert litteratur.
+
+---
+
+## Informasjon om det norske markedet
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/006231 | Iqirvo | – | Liver Cirrhosis, Biliary (biliær levercirrhose) |
+
+Merk: Godkjenningen er registrert med status «avregistrert/trukket tilbake», og det finnes ingen gyldige godkjenninger i dataene.
+
+---
+
+## Sikkerhetsvurderinger
+
+Se preparatomtalen (pakningsvedlegget) for sikkerhetsinformasjon.
+
+Når det gjelder legemiddelinteraksjoner, ble det kun funnet farmakologiske målinteraksjoner (ingen klinisk graderte interaksjoner):
+- **PPARα (PPARA):** Elafibranor virker på dette målproteinet.
+- **PPARβ/δ (PPARD):** Elafibranor virker på dette målproteinet.
+
+I tillegg er det kjent fra utviklingshistorien at fase 3-studien ved NASH ikke viste bedre effekt enn placebo, og utviklingen for denne indikasjonen ble avsluttet i 2020. Legemidlet ble deretter godkjent av FDA (juni 2024) og EMA (september 2024) for primær biliær kolangitt.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er utelukkende avhengig av en TxGNN kunnskapsgrafikk-skåre (Evidensnivå L5), uten kliniske forsøk, litteratur eller mekanistiske data som knytter PPAR-α/δ-agonisme til amenorrhoe. Legemidlet er heller ikke markedsført i Norge, så det finnes ingen regulatoriske eller praktiske sikkerhetserfaringer å bygge på.
+Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten støtte fra kliniske studier eller litteratur, og en plausibel mekanistisk sammenheng med amenoré er ikke påvist. I tillegg er den norske godkjenningen registrert som avregistrert.
 
-**For å fortsette, er følgende nødvendig:**
-- TFDA/regulatoriske merkeadvarsler og kontraindikasjoner (blokkerende gap — nødvendig før sikkerheitsforvurderingen, etter DG001)
-- Detaljerte virkningsmekanismedata (MOA) for å vurdere mekanistisk plausibilitet (etter DG002)
-- Bekrefting av elafibranors opprinnelig godkjente indikasjon(er), hvis de finnes i andre jurisdiksjoner
-- Prekliniske eller mekanistiske studier som knytter PPAR-α/δ-stier til reproduktiv endokrinologi eller menstruasjonsregulering
-- Eventuelle observasjons- eller kasuistiske kliniske bevis før denne kandidaten kan avansere forbi S0
-
+**For å gå videre kreves følgende:**
+- Hente og analysere preparatomtalen (advarsler og kontraindikasjoner) for sikkerhetsscreening
+- Fullstendige data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Systematisk litteratur- og studiesøk spesifikt for PPAR-agonister og menstruasjonsforstyrrelser
+- Prekliniske data eller mekanistiske studier som kan underbygge en kausal sammenheng med amenoré
+- Avklaring av gjeldende markedsstatus i Norge
+- Vurdering av administrasjonsvei og likhet med den opprinnelige indikasjonen
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

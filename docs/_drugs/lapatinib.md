@@ -2,7 +2,7 @@
 layout: default
 title: Lapatinib
 parent: Kun modellprediksjon (L5)
-nav_order: 199
+nav_order: 232
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,59 +29,88 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Lapatinib: Fra en uregistrert originalindikasjon til dermatofibrosarcoma protuberans
+# Lapatinib: Fra brystkreft til dermatofibrosarcoma protuberans
 
-## Oppsummering på én setning
+## Oppsummering i én setning
 
-Bevissamlingen for Lapatinib (DrugBank DB01259) inneholder ikke den opprinnelige godkjente indikasjonen eller virkningsmekanisme — begge er registrert som datamangler. TxGNN-modellen forutsier en mulig ny indikasjon for **Dermatofibrosarcoma Protuberans (DFSP)**, men denne prediksjonen er for øyeblikket støttet av **ingen kliniske forsøk og ingen publisert litteratur**, og legemidlet er ikke markedsført i Norge.
+Lapatinib er en tyrosinkinasehemmer som opprinnelig ble godkjent for behandling av brystkreft (brystneoplasmer). TxGNN-modellen forutsier at legemidlet kan ha effekt mot **dermatofibrosarcoma protuberans (DFSP)**, men det finnes foreløpig **ingen registrerte kliniske studier** og **ingen publikasjoner** som støtter denne retningen i de innsamlede dataene. Prediksjonen bygger kun på modellens score.
 
 ---
 
-## Hurtig oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Originalindikasjon | Ikke tilgjengelig — ingen norske lisensoppføringer og `original_indications` er tom i bevissamlingen |
-| Forutsagt ny indikasjon | Dermatofibrosarcoma Protuberans |
-| TxGNN Prediction Score | 99.30% |
-| Evidence Level | L5 |
-| Markedsstatus Norge | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Brystneoplasmer (brystkreft) |
+| Predikert ny indikasjon | Dermatofibrosarcoma protuberans |
+| TxGNN-prediksjonsscore | 99,30 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
+| Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
 | Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen fornuftig?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme for Lapatinib er ikke tilgjengelig i denne bevissamlingen, og ingen originalindikasjon er registrert heller, så en direkte mekanistisk forbindelse mellom den opprinnelige bruken og DFSP kan ikke etableres fra dataene som er gitt.
+Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene. Ut fra allment kjent informasjon er lapatinib en dobbel hemmer av EGFR og HER2 (tyrosinkinasereseptorer), og effekten er dokumentert ved HER2-positiv brystkreft.
 
-Basert på generell kunnskap kodet i modellens begrunnelse, er DFSP primært drevet av en **COL1A1-PDGFB-fusjon** som forårsaker konstant PDGFRB-aktivering, og dens standard målrettet terapi er imatinib (en PDGFR-hemmer). Lapatinibs kjente mål — EGFR og HER2 — overlapper ikke direkte med PDGFRB. Den foreslåtte forbindelsen hviler kun på en teoretisk, ubekreftet mulighet for off-target PDGFR-kryssinhibisjon, uten eksperimentelle eller kliniske data som støtter det.
+Koblingen til DFSP er svak. DFSP drives hovedsakelig av COL1A1-PDGFB-fusjonen, som gir konstitutiv aktivering av PDGFR-beta, og behandles med imatinib, en PDGFR-hemmer. En direkte mekanistisk sammenheng mellom EGFR/HER2-hemming og DFSP er derfor ikke påvist i de foreliggende dataene. Mulige forklaringer, som delte nedstrøms signalveier (PI3K/AKT, MAPK) eller off-target kinaseaktivitet, er spekulative og må verifiseres mot primærkilder.
 
-Gitt de manglende MOA-dataene og fraværet av en validert originalindikasjon, er den mekanistiske plausibiliteten til denne prediksjonen svak og bør behandles som hypotesegenererende kun, ikke som bevis på terapeutisk relevans.
-
----
-
-## Bevis fra kliniske forsøk
-
-For øyeblikket ingen relaterte kliniske forsøk registrert.
+Den høye scoren gjenspeiler trolig nærhet i kunnskapsgrafen (felles kinasemål eller assosiasjoner til beslektede sarkomer/svulster) snarere enn validert biologi.
 
 ---
 
-## Bevis fra litteratur
+## Kliniske studier
 
-For øyeblikket ingen relatert litteratur tilgjengelig.
-
----
-
-## Norsk markedsinformasjon
-
-Lapatinib har for øyeblikket ingen markedsgodkjenning i Norge (0 lisenser på fil; markedsstatus: ikke markedsført).
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+Foreløpig er ingen relatert litteratur tilgjengelig.
+
+---
+
+## Markedsinformasjon for Norge
+
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000795 | Tyverb | – | Brystneoplasmer |
+
+Merk: Tillatelsen er avregistrert. Det finnes ingen gyldig tillatelse i datagrunnlaget.
+
+---
+
+## Cytotoksisitet
+
+| Punkt | Innhold |
+|------|------|
+| Cytotoksisitetsklassifisering | Målrettet terapi (tyrosinkinasehemmer mot EGFR/HER2) |
+| Myelosuppresjonsrisiko | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+| Emetogenisitetsklassifisering | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Se pakningsvedlegg. Kunnskapsgrafen peker på lever, hjerte (QT, hjertesvikt) og lunger (se under) |
+| Håndteringsbeskyttelse | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+
+---
+
+## Sikkerhetsvurderinger
+
+Data fra pakningsvedlegg (advarsler og kontraindikasjoner) mangler. Følgende er hentet fra andre kilder.
+
+**Sykdomsassosiasjoner fra kunnskapsgrafen (TxGNN/PrimeKG, ikke preparatomtale):** Grafen knytter lapatinib til kontraindikasjon ved følgende tilstander:
+- Langt QT-syndrom (inkludert familiær form) og torsades de pointes
+- Leversvikt og legemiddelindusert leverskade
+- Kaliummangel
+- Interstitiell lungesykdom
+- Hjertesvikt
+
+Disse er kun signaler fra en kunnskapsgraf og må bekreftes mot offisiell preparatomtale.
+
+**Legemiddelinteraksjoner:** Totalt 100 interaksjoner er registrert (DDInter). Et utvalg:
+- **Alvorlige (Major):** loperamid, klaritromycin
+- **Moderate:** famotidin, ranitidin, cimetidin, omeprazol, rabeprazol, deksлансоprazol, hydrokortison, deksametason, betametason, triamcinolon, budesonid, pioglitazon, saksagliptin, aprepitant, bisakodyl, pikosulfat og polyetylenglykol
 
 ---
 
@@ -90,14 +119,14 @@ Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-TxGNN-skåren er høy, men det er null klinisk forsøk eller litteraturstøtte, den mekanistiske begrunnelsen som forbinder Lapatinib (EGFR/HER2-hemmer) til DFSP (PDGFRB-drevet) er svak og spekulativ, og kritiske legemiddeldata (MOA, TFDA/etikett advarsler og kontraindikasjoner) mangler — en av disse (etikett advarsler/kontraindikasjoner) er flagget som en **Blokkering**-datamangel som forhindrer selv en innledende S1-sikkerhetsvurdering.
+Prediksjonen støttes kun av en høy TxGNN-score (evidensnivå L5), uten kliniske studier eller publikasjoner. Den kjente mekanismen (EGFR/HER2-hemming) passer dårlig med DFSPs PDGFR-drevne biologi, og standardbehandlingen er imatinib. I tillegg er lapatinibs eneste norske tillatelse avregistrert.
 
-**For å fortsette, kreves følgende:**
-- Originalindikasjon og etikett-data for Lapatinib (for øyeblikket helt fraværende fra bevissamlingen)
-- Virkningsmekanisme-data (DG002) for å kunne vurdere EGFR/HER2–PDGFRB-forbindelsen på riktig måte
-- TFDA/Norge etikett advarsler og kontraindikasjoner (DG001, Blokkering) før noen sikkerhetsvurdering kan begynne
-- Som minimum preklinisk eller bevis på saksnivå som forbinder HER2/EGFR-inhibisjon til DFSP-biologi før avansering utover S0
-
+**For å gå videre kreves følgende:**
+- Gjennomgang av primærlitteratur og prekliniske data om EGFR/HER2-signalering i DFSP
+- Mekanismedata (MOA) fra DrugBank
+- Pakningsvedlegg fra DMP (advarsler og kontraindikasjoner) for sikkerhetsscreening
+- Avklaring av markedsstatus og tilgjengelighet i Norge
+- Vurdering av ruteforenlighet og likhet med opprinnelig indikasjon (fortsatt uavklart)
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

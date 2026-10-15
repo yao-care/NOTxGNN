@@ -2,7 +2,7 @@
 layout: default
 title: Imatinib
 parent: Moderat evidens (L3-L4)
-nav_order: 177
+nav_order: 209
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,95 +29,137 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Imatinib: Fra kronisk myeloid leukemi/GIST til hjertfibrosarkom
+# Imatinib: Fra kronisk myelogen leukemi til hjertefibrosarkom (heart fibrosarcoma)
 
-## Sammendrag i én setning
+## Oppsummering
 
-> Imatinib ble opprinnelig markedsført for kronisk myeloid leukemi og enkelte gastrointestinale stromale tumorer (GIST) som en tyrosinkinasehemmer.
-> TxGNN-modellen forutsier at det kan være effektivt for **hjertfibrosarkom**,
-> men for øyeblikket støttes kun denne spesifikke retningen av **0 kliniske studier** og **1 publikasjon** (en oversikt/kommentar).
+Imatinib er en tyrosinkinasehemmer som opprinnelig brukes mot kronisk myelogen leukemi (BCR-ABL-positiv), akutt lymfatisk leukemi, gastrointestinale stromale svulster (GIST), dermatofibrosarcoma protuberans og beslektede sykdommer.
+TxGNN-modellen predikerer at imatinib kan ha effekt mot **hjertefibrosarkom**, men for denne indikasjonen finnes **ingen kliniske studier** og bare **1 publikasjon** (en oversiktsartikkel), så støtten er svak.
+
+Merk: Blant de ti predikerte indikasjonene i datagrunnlaget har flere sterkere støtte enn rang 1. Disse omtales under «Øvrige predikerte indikasjoner».
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|--------|---------|
-| Opprinnelig indikasjon | Kronisk myeloid leukemi; gastrointestinal stromal tumor (GIST) — basert på litteraturreferanse (PMID 18623899) |
-| Forutsagt ny indikasjon | Hjertfibrosarkom |
-| TxGNN-prediksjonspoengsum | 99.94% |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Akutt lymfatisk leukemi (prekursor-B-celle), dermatofibrosarkom, myelodysplastiske/myeloproliferative sykdommer, kronisk myelogen leukemi (BCR-ABL-positiv), hypereosinofilt syndrom (GIST for Glivec) |
+| Predikert ny indikasjon | Hjertefibrosarkom (heart fibrosarcoma) |
+| TxGNN-prediksjonsscore | 99,94 % |
 | Evidensnivå | L4 |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+| Markedsstatus i Norge | Kun avregistrerte (cancelled) godkjenninger |
+| Antall godkjenninger | 3 (alle avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljerte mekanismedata for virkemåte (`original_moa`) ikke tilgjengelige i den strukturerte legemiddelposten. Basert på begrunnelsen for omformål gitt i denne evidenspakken, hemmer imatinib BCR-ABL, KIT og PDGFR-tyrosinkinaser — den samme mekanismen som ligger til grunn for dens godkjente bruk ved CML og GIST.
+Data om virkningsmekanisme (MOA) er ikke tilgjengelig i datagrunnlaget. Basert på kjent informasjon hemmer imatinib tyrosinkinasene BCR-ABL, KIT og PDGFR. Dens effekt ved flere sykdommer med disse kinasene som drivere er godt dokumentert.
 
-Den foreslåtte koblingen til hjertfibrosarkom er rent mekanistisk slutning: **hvis** en gitt hjertfibrosarkom-tumor bærer en PDGFR-drevet genotype, kunne den teoretisk sett være sensitiv for imatinib. Imidlertid finnes det ingen hjerttumorspesifikke data (prekliniske eller kliniske) som bekrefter dette, og ingen bevis for at hjertfibrosarkomer vanligvis uttrykker PDGFR/KIT-alterasjoner. Dette er eksplisitt flagget i evidenspakken som en inferensiell (ikke bekreftet) mekanistisk kobling, som er grunnen til at evidensnivået er klassifisert som L4 snarere enn høyere.
-
-Til sammenligning har andre fibrosarkom-familjeprediksoner i denne samme evidenspakken (f.eks. dermatofibrosarkom protuberans / «fibroblastisk neoplasi» og «konvensjonell fibrosarkom») mye sterkere mekanistisk og klinisk støtte, siden DFSP er drevet av en COL1A1-PDGFB-fusjon som er et velkjent, direkte imatinib-mål. Hjertfibrosarkom har for øyeblikket ikke dette nivået av molekylær karakterisering i den tilgjengelige evidensen.
+Fibrosarkomlignende svulster, særlig dermatofibrosarcoma protuberans (DFSP) med COL1A1-PDGFB-fusjon, er avhengige av PDGFB/PDGFR-signalering. Det gir en plausibel mekanisme på klassenivå. Det finnes imidlertid ingen hjertespesifikke data, og prediksjonen for hjertefibrosarkom er derfor i hovedsak modellbasert.
 
 ---
 
-## Evidens fra kliniske studier
+## Dokumentasjon fra kliniske studier
 
-For øyeblikket ingen registrerte relevante kliniske studier.
-
----
-
-## Litteraturbevis
-
-| PMID | År | Type | Journal | Viktige funn |
-|------|-----|------|---------|---------|
-| [18623899](https://pubmed.ncbi.nlm.nih.gov/18623899/) | 2008 | Oversikt/Kommentar | Prescrire International | Diskuterer imatinibs utvidende indikasjoner siden opprinnelig godkjenning for CML og GIST; bemerker at nyere indikasjoner, selv om lovende, ikke alltid er støttet av robust komparativ evidens (f.eks. ikke-komparativ studiedata ved Ph+ ALL). Adresserer ikke spesifikt hjertfibrosarkom. |
+Currently no related clinical trials registered for heart fibrosarcoma. Det finnes ingen registrerte kliniske studier knyttet til denne prediksjonen.
 
 ---
 
-## Norsk markedsinformasjon
+## Litteraturdokumentasjon
 
-For øyeblikket ingen markedsføringsgodkjennelsesregistreringer tilgjengelige i Norge (0 lisenser på fil; markedsstatus: Ikke markedsført).
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [18623899](https://pubmed.ncbi.nlm.nih.gov/18623899/) | 2008 | Oversikt | Prescrire international | Gjennomgang av nye imatinib-indikasjoner. Konkluderer med at bevisene for utvidede indikasjoner ikke er robuste. Ph+ ALL: høyere hematologisk respons enn kjemoterapi i en studie med 55 pasienter. |
+
+---
+
+## Øvrige predikerte indikasjoner
+
+| Rang | Sykdom | Score | Evidensnivå | Anbefaling | Kommentar |
+|------|------|------|------|------|------|
+| 2 | Fibroblastisk neoplasme (inkl. DFSP) | 99,94 % | L4 | Proceed with Guardrails | DFSP er allerede en godkjent indikasjon. Støttes av europeisk retningslinje (2024) og flere oversikter. Ingen studier i datagrunnlaget, så reell evidens er trolig sterkere enn L4. |
+| 3 | Konvensjonelt fibrosarkom | 99,93 % | L4 | Forskningsspørsmål | Litteraturen handler mest om DFSP. Konvensjonelt fibrosarkom mangler vanligvis fusjonen, så ekstrapolering er indirekte. |
+| 4 | Nyrefibrosarkom | 99,93 % | L3 | Hold | Kun en basket-studie fase 2 (NCT00154388, n=185) uten nyrespesifikke data. |
+| 5 | Lavgradig fibromyxoid sarkom | 99,93 % | L5 | Hold | Kun prediksjon. Drives av FUS-CREB3L2, ikke PDGFR/KIT. |
+| 6 | Liposarkom | 99,88 % | L2 | Forskningsspørsmål | Tre fase 1/2-studier i bløtdelssarkom, men ingen subtypespesifikke resultater. |
+| 7 | Leverfibrosarkom | 99,86 % | L4 | Hold | Kun indirekte litteratur (GIST, DRESS-tilfelle). |
+| 8 | Autosomal recessiv familiær middelhavsfeber | 99,86 % | L5 | Hold | Kun prediksjon, ingen mekanistisk begrunnelse. |
+| 9 | Ovarielt myxoid liposarkom | 99,85 % | L5 | Hold | Kun prediksjon. Drives av FUS-DDIT3. |
+| 10 | Familiær rhabdoid tumor | 99,83 % | L5 | Hold | Kun prediksjon. SMARCB1-tap, ingen kjent kobling til imatinibs mål. |
+
+### Kliniske studier for relaterte indikasjoner
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
+|---------|------|------|------|---------|
+| [NCT00154388](https://clinicaltrials.gov/study/NCT00154388) | Fase 2 | Fullført | 185 | Utforskende basket-studie av imatinib ved livstruende sjeldne maligne sykdommer med imatinibfølsomme tyrosinkinaser. |
+| [NCT00031915](https://clinicaltrials.gov/study/NCT00031915) | Fase 2 | Fullført | Ikke oppgitt | Imatinib ved metastatisk eller ikke-operabelt bløtdels- og beinsarkom. |
+| [NCT00006357](https://clinicaltrials.gov/study/NCT00006357) | Fase 1/2 | Fullført | 91 | Doseringsstudie og fase 2 av imatinib (STI571) ved avansert bløtdelssarkom. |
+
+### Utvalgt litteratur for relaterte indikasjoner
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [19451433](https://pubmed.ncbi.nlm.nih.gov/19451433/) | 2009 | Fase 2-studie | J Clin Oncol | Multisenterstudie av imatinib i 10 histologiske sarkomsubtyper med bayesiansk hierarkisk modell. |
+| [39904126](https://pubmed.ncbi.nlm.nih.gov/39904126/) | 2025 | Retningslinje | Eur J Cancer | Oppdatert europeisk tverrfaglig retningslinje for diagnostikk og behandling av DFSP. |
+| [42062942](https://pubmed.ncbi.nlm.nih.gov/42062942/) | 2026 | Kohortstudie | BMC Cancer | 153 kinesiske DFSP-pasienter: Mohs-kirurgi med postoperativ imatinib. |
+| [25852058](https://pubmed.ncbi.nlm.nih.gov/25852058/) | 2015 | Prekliniske data | Mol Cancer Ther | CDK4 som mål ved imatinibresistent DFSP. Imatinib gir klinisk nytte hos ca. 50 % med ikke-operabel/metastatisk DFSP. |
+| [36999599](https://pubmed.ncbi.nlm.nih.gov/36999599/) | 2023 | Oversikt | J Surg Oncol | Kirurgi er førstevalg ved DFSP. Imatinib kan brukes ved avansert eller ikke-operabel sykdom. |
+| [30096127](https://pubmed.ncbi.nlm.nih.gov/30096127/) | 2018 | Kasuistikk | Anti-Cancer Drugs | Imatinibindusert DRESS hos pasient med DFSP, håndtert med desensibilisering. |
+
+---
+
+## Informasjon om det norske markedet
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000406 | Glivec (Novartis Europharm) | Ikke oppgitt | Akutt lymfatisk leukemi, GIST, dermatofibrosarkom, myelodysplastiske/myeloproliferative sykdommer, kronisk myelogen leukemi, hypereosinofilt syndrom |
+| EMEA/H/C/002681 | Imatinib Accord (Accord Healthcare) | Ikke oppgitt | Akutt lymfatisk leukemi, dermatofibrosarkom, myelodysplastiske/myeloproliferative sykdommer, kronisk myelogen leukemi, hypereosinofilt syndrom |
+| EMEA/H/C/002585 | Imatinib Teva (Teva B.V.) | Ikke oppgitt | Kronisk myelogen leukemi, akutt lymfatisk leukemi, myelodysplastiske/myeloproliferative sykdommer, hypereosinofilt syndrom, dermatofibrosarkom |
+
+Alle tre godkjenningene har status avregistrert (cancelled). Det finnes ingen gyldige godkjenninger i de data som er sammenstilt for denne rapporten.
 
 ---
 
 ## Cytotoksisitet
 
-| Element | Innhold |
-|--------|---------|
-| Cytotoksisitetsklassifisering | Målrettet terapi (tyrosinkinasehemmer som sikter BCR-ABL/KIT/PDGFR) |
-| Myelosuppresjonrisiko | Se pakningsvedlegget for advarsler og forholdsregler |
-| Emetogenitetsklassifisering | Se pakningsvedlegget for advarsler og forholdsregler |
-| Overvåkingspunkter | Se pakningsvedlegget for advarsler og forholdsregler |
-| Håndteringsbeskyttelse | Se pakningsvedlegget for advarsler og forholdsregler |
+| Punkt | Innhold |
+|------|------|
+| Cytotoksisitetsklassifisering | Målrettet terapi (tyrosinkinasehemmer) |
+| Myelosuppresjonsrisiko | Se pakningsvedlegg for advarsler og forsiktighetsregler. Kontraindikasjonsdata fra kunnskapsgrafen nevner nøytropeni, trombocytopeni, anemi og agranulocytose, som indikerer behov for hematologisk overvåking. |
+| Emetogenisitet | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Blodstatus (CBC), lever- og nyrefunksjon, væskeretensjon/hjertefunksjon |
+| Håndteringsbeskyttelse | Følg lokale retningslinjer for håndtering av cytostatika/antineoplastiske legemidler |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsbetraktninger
 
-Se pakningsvedlegget for sikkerhetsinformasjon.
+Pakningsvedleggets advarsler og kontraindikasjoner mangler i de data som er sammenstilt for denne rapporten. Se pakningsvedlegget for fullstendig sikkerhetsinformasjon.
 
-*(Merknad: TFDA-ekvivalente etikett-advarsler/kontraindikasjoner er flagget som en blokkering-datakløft (DG001) i denne evidenspakken og må løses før noen S1 sikkerhetsvurdering kan fortsette.)*
+**Sykdomstilstander knyttet til kontraindikasjon i kunnskapsgrafen (PrimeKG, ikke preparatomtale):** hypertensjon, leversvikt/leversykdom, nyresykdom, trombocytopeni, nøytropeni, agranulocytose, anemi, hjertesvikt, koronarsykdom, hjerteklaffsykdom, perikardeffusjon, medfødt hjertesykdom, hjerneødem, lungeødem, diabetes mellitus, diabetisk ketoacidose, fedme, hyperbilirubinemi (inkl. Gilberts syndrom), aktivt magesår, galleblæresykdom, hypofosfatemi og pyoureter. Dette er kunnskapsgrafsignaler og må verifiseres mot preparatomtalen.
+
+**Legemiddelinteraksjoner (DDInter, 100 registrert totalt):** Utvalget viser hovedsakelig moderate interaksjoner, blant annet med kortikosteroider (hydrokortison, deksametason, betametason, triamcinolon, budesonid), pioglitazon, glimepiride, saksagliptin, aprepitant, morfin, cimetidin, klaritromycin, lansoprazol/deksansoprazol, naltrekson, naldemedin og metreleptin. **Alvorlige (Major)** interaksjoner er registrert med **eliglustat** og **naloxegol**.
+
+**Annet sikkerhetssignal:** Ett kasus med imatinibindusert DRESS (legemiddelreaksjon med eosinofili og systemiske symptomer) er beskrevet.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold** (for hjertefibrosarkom). For fibroblastisk neoplasme/DFSP er anbefalingen i datagrunnlaget Proceed with Guardrails.
 
 **Begrunnelse:**
-Den mekanistiske koblingen mellom imatinib og hjertfibrosarkom er inferensiell snarere enn bekreftet — det finnes ingen kliniske studier og bare en enkelt publikasjon på revisjonnivå som ikke er spesifikk. Kombinert med manglende reguleringsetikett-/sikkerhetsinformasjon (blokkering-kløft DG001), oppfyller evidensen ikke standarden for å fremme denne kandidaten forbi S1.
+- For hjertefibrosarkom finnes ingen kliniske studier og bare én generell oversiktsartikkel, så støtten er hovedsakelig modellbasert (L4). Den mest troverdige repurposingretningen er DFSP/fibroblastiske neoplasmer, der imatinib allerede har godkjent indikasjon og retningslinjestøtte.
 
-**For å fortsette, er følgende nødvendig:**
-- TFDA-ekvivalent produktetikett (advarsler, kontraindikasjoner) for å rydde blokkering-sikkerhetskløften (DG001)
-- Bekreftet mekanismedata for virkemåte (for øyeblikket merket som Datakløft) (DG002)
-- Molekylær/genomisk karakteriseringsdata som bekrefter PDGFR/KIT/BCR-ABL-alterasjoner spesifikt i hjertfibrosarkom-kohorter
-- Preklinisk (in vitro/in vivo) eller case-nivå klinisk evidens spesifikt for kardial fibrosarkom før man vurderer studiedesign
-
-*For referanse: innenfor denne samme evidenspakken viser «konvensjonell fibrosarkom» (rangering 3, L2, Forskningsspørsmål) og «fibroblastisk neoplasi»/DFSP (rangering 2, L3, Forskningsspørsmål) vesentlig sterkere mekanistisk og forsøksnivå-evidens for imatinib-omformål og kan være mer handlingsbare kandidater for videre evaluering.*
-
+**For å gå videre trengs følgende:**
+- Pakningsvedleggets advarsler og kontraindikasjoner (kritisk datamangel som blokkerer sikkerhetsscreening)
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Avklaring av norsk markedsstatus, siden alle tre godkjenninger er avregistrert
+- Kliniske data eller kasuistikker for hjerte- og fibrosarkomsubtyper, samt subtypespesifikke resultater fra basket- og bløtdelssarkomstudiene
+- Sikkerhetsplan for pasienter med hjerte-, lever- og nyresykdom og for interaksjoner med eliglustat og naloxegol
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

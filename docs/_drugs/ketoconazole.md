@@ -2,7 +2,7 @@
 layout: default
 title: Ketoconazole
 parent: Moderat evidens (L3-L4)
-nav_order: 194
+nav_order: 227
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,91 +29,102 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Ketoconazole: Fra soppinfeksjoner til akne (Disease)
+# Ketokonazol: Fra Cushings syndrom til akne
 
-## Sammendrag i en setning
+## Oppsummering i én setning
 
-> Ketoconazole er et bredt spektrum antifungalt stoff, historisk brukt til å behandle soppinfeksjoner.
-> TxGNN-modellen spår at det kan være effektivt for **Akne (Disease)**,
-> med **1 klinisk studie** og **16 publikasjoner** som for øyeblikket støtter denne retningen — mesteparten av litteraturen er preklinisk/mekanistisk snarere enn klinisk bevis som bekrefter.
+Ketokonazol er et imidazol-soppmiddel som i Europa er godkjent for behandling av Cushings syndrom.
+TxGNN-modellen forutsier at det kan ha effekt mot **akne**,
+men støtten er foreløpig svak: **1 klinisk studie** (aktiv, ikke rekrutterende, lokalbehandling) og noen få **publikasjoner**, hvorav de fleste er oversikts- og kasuistikker eller laboratoriestudier.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Soppinfeksjoner (antifungalt stoff) — detaljert indikasjonstekst ikke tilgjengelig i bevismappe |
-| Predikert ny indikasjon | Akne (Disease) |
-| TxGNN-prediksjonspoeng | 99.80% |
-| Bevisnivå | L4 |
-| Markedsstatus Norge | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Cushings syndrom |
+| Foreslått ny indikasjon | Akne |
+| TxGNN-prediksjonsscore | 99,80 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
+| Antall godkjenninger | 1 (opphevet) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Foreløpig er detaljerte data om virkningsmekanisme ikke tilgjengelige. Basert på kjent informasjon er ketoconazole et imidazol-klasse antifungalt stoff, dets effektivitet mot soppinfeksjoner er bevist, og mekanistisk kan det være anvendelig for akne gjennom to veier foreslått av litteraturen: (1) direkte hemming av *Propionibacterium acnes* lipaseaktivitet, som reduserer nedbrytningsprodukter fra talg som utløser hårsekkelsbetennelse, og (2) antifungal aktivitet mot *Malassezia* (*Pityrosporum*) arter som forårsaker follikulitt og som hyppig blir feildiagnostisert klinisk som akne vulgaris.
+Data om virkningsmekanisme (MOA) for legemidlet er ikke tilgjengelig i de innsamlede dataene. Ut fra kjent farmakologi hemmer ketokonazol soppenzymet CYP51 (ergosterolsyntese), og i høyere doser også humane steroidogene enzymer (CYP17A1, CYP11A1, CYP11B1). Dette senker produksjonen av androgener og kortisol, og forklarer bruken ved Cushings syndrom.
 
-Akne vulgaris og soppfollikulitt har overlappende kliniske presentasjoner og i noen tilfeller overlappende mikrobielle bidragsytere (bakteriell lipaseaktivitet, gjærovervekst), som gir en plausibel mekanistisk bro fra et antifungalt stoff til akne-indikasjon. Imidlertid er denne begrunnelsen for øyeblikket støttet hovedsakelig av in vitro/mekanistiske studier snarere enn dedikerte kliniske studier av ketoconazole hos pasienter med akne, så styrken av denne forbindelsen bør anses som foreløpig.
+Redusert androgensignalering kan i teorien redusere talgproduksjonen ved androgendrevet akne, for eksempel ved hyperandrogene tilstander som PCOS. Ved lokal bruk kan den antisoppvirkningen mot *Malassezia* (*Pityrosporum*) og en mild antiinflammatorisk effekt være nyttig ved akneliknende eller follikulære utbrudd der gjær spiller en rolle. Laboratoriestudier viser også at ketokonazol hemmer vekst og lipaseaktivitet hos *Propionibacterium acnes*.
+
+Koblingene er plausible, men indirekte. Den svært høye TxGNN-scoren er en beregnet prediksjon og ikke klinisk evidens. Det bør også bemerkes at den opprinnelige indikasjonen (systemisk, ved hormonoverskudd) og den foreslåtte (trolig topisk ved akne) skiller seg i administrasjonsvei og doseringsprofil.
 
 ---
 
-## Bevis fra kliniske forsøk
+## Evidens fra kliniske studier
 
-| Forsøksnummer | Fase | Status | Antall deltakere | Nøkkelfunn |
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT07237763](https://clinicaltrials.gov/study/NCT07237763) | NA | Pågår, ikke rekrutterer | 52 | Randomisert kontrollert studie som sammenligner topisk ketoconazole 2% krem mot topisk adapalene 2% krem ved mild komedonal/papulopustulær akne, vurderer om ketoconazole er et alternativ til topisk retinoider med færre bivirkninger og bedre etterlevelse |
+| [NCT07237763](https://clinicaltrials.gov/study/NCT07237763) | Ikke relevant (NA) | Aktiv, ikke rekrutterende | 52 | Randomisert studie som sammenligner topisk ketokonazol 2 % krem med adapalen 2 % krem ved mild komedonal og papulopustuløs akne i 12 uker. Ingen publiserte resultater ennå. |
 
 ---
 
-## Bevis fra litteratur
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Nøkkelfunn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [28111792](https://pubmed.ncbi.nlm.nih.gov/28111792/) | 2017 | In vitro / Mekanistisk | Microbiology and Immunology | Ketoconazole hemmer *P. acnes* lipaseaktivitet, enzymet ansvarlig for talg metabolitter som utløser hudinflammasjon, noe som foreslår en potensiell alternativ aknebehandling |
-| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | In vitro | Biological & Pharmaceutical Bulletin | Azol antifungale midler, inkludert ketoconazole, viser in vitro aktivitet mot *P. acnes* isolert fra pasienter med akne vulgaris |
-| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Caseserie | Clinical and Experimental Dermatology | *Pityrosporum* follikulitt blir hyppig feildiagnostisert som akne vulgaris; beskriver diagnose og terapeutiske forsøk hos 62 pasienter |
-| [8255067](https://pubmed.ncbi.nlm.nih.gov/8255067/) | 1993 | Oversikt | The Keio Journal of Medicine | Gjennomgår *Pityrosporum ovale* som en opportunistisk patogen knyttet til follikulitt og andre hudsykdommer som overlapper med akne-presentasjoner |
-| [8629828](https://pubmed.ncbi.nlm.nih.gov/8629828/) | 1996 | Caseserie | Archives of Dermatology | Neonatale ansiktspapulopustulære utslett («neonatal akne») forbundet med *Malassezia furfur* infeksjon |
-| [23600337](https://pubmed.ncbi.nlm.nih.gov/23600337/) | 2013 | Oversikt | FP Essentials | Gjennomgår vanlige hudutslett hos spedbarn inkludert neonatal akne, noter overlapp med infeksiøse/inflammatoriske follikulære tilstander |
-| [32872149](https://pubmed.ncbi.nlm.nih.gov/32872149/) | 2020 | Oversikt | Pharmaceuticals (Basel) | Gjennomgår adapalene (det aktive sammenligningsstoffet i NCT07237763) som første-linjebehandling for akne, gir kontekst for ketoconazole versus adapalene-forsøket |
-| [12566804](https://pubmed.ncbi.nlm.nih.gov/12566804/) | 2003 | Oversikt | Dermatology (Basel) | Gjennomgår systemiske behandlingsalternativer for moderat til alvorlig akne, fremhever økende antibiotikaresistens og behov for alternative midler |
-| [19445767](https://pubmed.ncbi.nlm.nih.gov/19445767/) | 2009 | Oversikt | BMJ Clinical Evidence | Gjennomgår PCOS, noter akne som en vanlig forbundet dermatologisk manifestasjon av hyperandrogeni |
-| [8090657](https://pubmed.ncbi.nlm.nih.gov/8090657/) | 1993 | Oversikt | Polski Tygodnik Lekarski | Gjennomgår behandling av hyperandrogene manifestasjoner (inkludert akne) i PCOS |
+| [12566804](https://pubmed.ncbi.nlm.nih.gov/12566804/) | 2003 | Oversikt | Dermatology | Oppdatering om systemisk aknebehandling; antibiotika er førstevalg ved papulopustuløs akne. |
+| [28111792](https://pubmed.ncbi.nlm.nih.gov/28111792/) | 2017 | Laboratoriestudie | Microbiology and Immunology | Ketokonazol hemmer lipaseaktivitet og vekst hos *P. acnes*; kan være et alternativ ved antibiotikaresistens. |
+| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | Laboratoriestudie | Biological & Pharmaceutical Bulletin | In vitro-aktivitet av azol-soppmidler mot *P. acnes* isolert fra aknepasienter. |
+| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Klinisk studie | Clinical and Experimental Dermatology | Pityrosporum-follikulitt forveksles ofte med akne; diagnose og behandlingsforsøk hos 62 pasienter. |
+| [8629828](https://pubmed.ncbi.nlm.nih.gov/8629828/) | 1996 | Kasuistikk | Archives of Dermatology | Sammenheng mellom neonatal papulopustuløst utbrudd og *Malassezia furfur*-infeksjon. |
+| [8255067](https://pubmed.ncbi.nlm.nih.gov/8255067/) | 1993 | Oversikt | Keio Journal of Medicine | *Pityrosporum ovale* og hudsykdommer, blant annet follikulitt og seboreisk dermatitt. |
+| [19445767](https://pubmed.ncbi.nlm.nih.gov/19445767/) | 2009 | Oversikt | BMJ Clinical Evidence | PCOS er assosiert med hirsutisme, akne og andre metabolske komplikasjoner (indirekte relevans). |
+
+Merk: Flere av publikasjonene gjelder beslektede tilstander (Pityrosporum-follikulitt, PCOS) eller bare er indirekte relevante. Ingen randomiserte studier av ketokonazol ved akne er publisert i det innsamlede materialet.
 
 ---
 
-## Markedsinformasjon Norge
+## Markedsinformasjon for Norge
 
-Ketoconazole er for øyeblikket ikke markedsført i Norge; ingen godkjenningsinformasjon er tilgjengelig i bevismappe.
-
----
-
-## Sikkerhetshensyn
-
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
-
-*Merknad: Detaljerte TFDA/produsent advarsler, kontraindikasjoner og data om legemiddelinteraksjoner er for øyeblikket utilgjengelige (flagget som blokkering gap DG001), som hindrer en fullstendig S1 sikkerhetsevaluering for denne kandidaten.*
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/003906 | Ketoconazole Esteve (tidligere Ketoconazole HRA) | Ikke oppgitt | Cushings syndrom (status: opphevet) |
 
 ---
 
-## Konklusjon og neste trinn
+## Sikkerhetsvurderinger
 
-**Beslutning: Avvent**
+**Kontraindikasjoner og sykdommer som er knyttet til legemidlet i kunnskapsgrafen (PrimeKG, ikke preparatomtale):**
+langt QT-syndrom (inkl. familiært), torsades de pointes, leversykdom, galleblæresykdom, binyrebarksvikt/Addisons sykdom, hudatrofi, telangiektasi (inkl. hereditær hemoragisk telangiektasi), kapillærsykdom, perifer karsykdom/claudicatio/perifer arteriell sykdom og achlorhydri.
+
+**Legemiddelinteraksjoner (100 registrert; utvalg):**
+- **Alvorlige (Major):** loperamid, triamcinolon, budesonid
+- **Moderate:** famotidin, ranitidin, rabeprazol, omeprazol (syrehemmere – redusert opptak), hydrokortison, deksametason, betametason, aprepitant, pioglitazon, alosetron, atropin, hyoscyamin, metskopolamin, bisakodyl
+- **Mindre (Minor):** amfotericin B (inkl. lipidkompleks)
+
+Interaksjonene gjelder hovedsakelig systemisk bruk. For topisk bruk ved akne vil systemisk eksponering være lav, men dette bør bekreftes.
+
+Det foreligger ikke data fra preparatomtale om advarsler og kontraindikasjoner; se preparatomtalen for fullstendig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Bevis for ketoconazole ved akne består for øyeblikket av ett lite, ikke-fase, ikke-fullført RCT og overveiende preklinisk/mekanistisk litteratur (in vitro enzymhemming, caseserie om soppfollikulitt feildiagnostisert som akne). Ingen fullførte fase 2/3 RCTer eksisterer, og kritiske sikkerhetsdata (TFDA advarsler/kontraindikasjoner) mangler, noe som blokkerer en ordentlig S1 sikkerhetsevaluering. Legemiddelet er heller ikke for øyeblikket markedsført i Norge.
+Evidensen er på nivå L4: én liten, ikke-faset studie uten publiserte resultater, samt laboratoriedata og indirekte litteratur. Den eneste norske/europeiske godkjenningen er opphevet, og sikkerhetsdata fra preparatomtale mangler. Den høye TxGNN-scoren er ikke klinisk evidens.
 
-**For å gå videre, følgende er nødvendig:**
-- Innhent TFDA/produsent pakningsvedlegg advarsler og kontraindikasjoner (løs blokkering gap DG001)
-- Innhent detaljerte data om virkningsmekanisme fra DrugBank (løs gap DG002)
-- Avvent fullføring og resultater av NCT07237763
-- Identifiser eller iverksett dedikerte kontrollerte studier av ketoconazole versus standard aknebehandlinger
-- Bestem regulatorisk vei/gjennomførbarhet for markedsinngang i Norge dersom denne indikasjonen forfølges
-
+**For å gå videre kreves følgende:**
+- Resultater fra NCT07237763 (topisk ketokonazol 2 % mot adapalen 2 %), og bekreftelse av hvilken tilstand som faktisk studeres
+- Nedlasting og gjennomgang av preparatomtale med advarsler og kontraindikasjoner (blokkerende datagap)
+- Detaljerte data om virkningsmekanisme (f.eks. fra DrugBank)
+- Avklaring av administrasjonsvei (topisk vs. systemisk) og tilgjengelige topiske preparater i Norge
+- Vurdering av systemisk sikkerhet (lever, QT-forlengelse, binyrehemming) dersom systemisk bruk ved akne vurderes
+- Randomiserte, kontrollerte studier med akneendepunkter (lesjonstelling, global vurdering)
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

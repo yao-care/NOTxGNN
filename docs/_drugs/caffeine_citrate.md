@@ -2,7 +2,7 @@
 layout: default
 title: Caffeine Citrate
 parent: Kun modellprediksjon (L5)
-nav_order: 69
+nav_order: 78
 evidence_level: L5
 indication_count: 0
 ---

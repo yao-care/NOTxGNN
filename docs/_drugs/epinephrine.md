@@ -2,15 +2,15 @@
 layout: default
 title: Epinephrine
 parent: Høy evidens (L1-L2)
-nav_order: 135
-evidence_level: L2
+nav_order: 155
+evidence_level: L1
 indication_count: 4
 ---
 
 # Epinephrine
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **4** stk.
+Evidensnivå: **L1** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,100 +29,123 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Epinephrin: Fra anafylaksi/hjertestans til obstruktiv lungesykdom
+# Epinefrin: Fra anafylaksi til obstruktiv lungesykdom
 
-## Sammendrag på én setning
+## Oppsummering i en setning
 
-> Epinephrin er en ikke-selektiv adrenerg reseptoragonist som klassisk brukes som nødlegemiddel ved anafylaksi og hjertestans.
-> TxGNN-modellens høyest rangerte forutsigelse identifiserer **obstruktiv lungesykdom** (astma/KOLS/bronkiolitt) som en tilleggindikasjon,
-> støttet av **2 Cochrane-systematiske oversikter**, **1 avsluttet fase 3 RCT (n=373)** og flere bronkiolitt-studier — selv om det bør bemerkes at dette i stor grad bekrefter epinephrins langvarige historiske bruk som bronkodilator (f.eks. reseptfritt Primatene Mist) snarere enn å representere en virkelig ny mekanisme.
+Epinefrin er en adrenerg agonist som opprinnelig brukes til behandling av anafylaksi. TxGNN-modellen forutsier at den kan være effektiv ved **obstruktiv lungesykdom** (hovedsakelig astma), og i dataene som er sammenstilt for denne rapporten finnes det **15 kliniske studier** og **20 publikasjoner** som berører denne retningen. Det sterkeste beviset kommer fra fase 3-studier av inhalert epinefrin ved astma. Støtten for bronkiolitt er derimot ikke konsistent.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Objekt | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Ikke registrert i datasett (epinephrin er klassisk indisert for anafylaksi, hjertestans og akutt alvorlig astma/bronkospasme) |
-| Forutsagt ny indikasjon | Obstruktiv lungesykdom |
-| TxGNN-prediksjonspoeng | 99.71% |
-| Bevisnivå | L2 |
-| Markedsstatus Norge | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Fortsett under vilkår |
+| Opprinnelig indikasjon | Anafylaksi |
+| Predikert ny indikasjon | Obstruktiv lungesykdom |
+| TxGNN-prediksjonsscore | 99,71 % |
+| Evidensnivå | L1 |
+| Status på det norske markedet | Kun annullert (ingen gyldig markedsføringstillatelse) |
+| Antall tillatelser | 1 (annullert) |
+| Anbefalt beslutning | Proceed with Guardrails (gå videre med forbehold) |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige i datasettet. Basert på kjent farmakologi er epinephrin en ikke-selektiv adrenerg reseptoragonist som virker på α1, β1 og β2-reseptorer. Dens effektivitet ved anafylaksi og hjertestansgjenoppliving er godt etablert, og mekanistisk er denne samme reseptorprofilen direkte anvendbar på obstruktiv lungesykdom: β2-reseptoraktivering gir bronkial glatt muskelrelaksasjon (bronkodilatation), mens α1-reseptoraktivering innsnevrer mukøse blodkar og reduserer luftveiødem.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innhentede dataene. Epinefrin er imidlertid en kjent ikke-selektiv adrenerg agonist. Stimulering av beta-2-reseptorer gir avslapning av bronkial glatt muskulatur og dermed bronkodilatasjon, mens alfa-1-stimulering reduserer slimhinneødem.
 
-Epinephrin er faktisk en av de tidligste bronkodilatatorene som noen gang har vært brukt klinisk, historisk tilgjengelig reseptfritt som Primatene Mist for astma. TxGNN-prediksjonen bekrefter derfor i stor grad et allerede validert farmakologisk forhold snarere enn å foreslå en ny mekanisme — evidensgrunnlaget (fase 3 astma-studier, tiår med bronkiolitt-studier) gjenspeiler denne etablerte bruken.
+Den opprinnelige indikasjonen, anafylaksi, innebærer ofte bronkospasme og luftveisødem. De samme reseptoreffektene som reverserer disse symptomene ved anafylaksi, er direkte relevante ved reversibel luftveisobstruksjon som astma. Inhalert epinefrin (E004, Primatene Mist) er utviklet spesifikt for astma.
 
-Det er viktig å påpeke at de to Cochrane-systematiske oversiktene i evidenssettet (2004, 2011) begge åpner med forbehold om at epinephrin/bronkodilatorer brukes ved bronkiolitt «til tross for usikker effektivitet», noe som indikerer at den kliniske nytten — særlig for innlagte pasienter med bronkiolitt — fortsatt er omdiskutert selv om det mekanistiske resonnementet er solid og kortvarig symptomlettelse har blitt observert i flere studier.
+Forbehold: Evidensen støtter først og fremst mild intermitterende astma, ikke kronisk obstruktiv lungesykdom (KOLS). Ved bronkiolitt viser Cochrane-oversikter og nettverksmetaanalyse inkonsistent eller begrenset nytte, så rutinebruk støttes ikke.
 
 ---
 
-## Klinisk forsøksevidence
+## Klinisk studiedokumentasjon
 
-| Forsøksnummer | Fase | Status | Deltakere | Viktige funn |
+Tabellen viser de 10 mest relevante studiene (rangert etter relevans for astma/obstruktiv sykdom).
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT01357642](https://clinicaltrials.gov/study/NCT01357642) | Fase 3 | Avsluttet | 373 | 12-ukers effektivitet/sikkerhet av epinephrin HFA inhalasjonsaerosol versus placebo-HFA og markedsført Primatene Mist CFC-inhaler hos ungdommer/voksne med astma |
-| [NCT01300325](https://clinicaltrials.gov/study/NCT01300325) | Fase 4 | Avsluttet | 136 | Nebulisert hypertont salt + epinephrin hos innlagte spedbarn med RSV-bronkiolitt; klassifisert A relevans |
-| [NCT02586961](https://clinicaltrials.gov/study/NCT02586961) | Fase 2/3 | Avbrutt | 195 | Nebulisert adrenalin + oral betametason versus standardbehandling ved bronkiolitt på pediatrisk legevakt |
-| [NCT04207840](https://clinicaltrials.gov/study/NCT04207840) | Fase 4 | Avsluttet | 28 | Sammenligning av systemisk eksponering: Primatene Mist inhalasjon versus epinephrin IM-injeksjon versus ProAir HFA hos friske voksne |
-| [NCT00114478](https://clinicaltrials.gov/study/NCT00114478) | NA | Ukjent | 600 | RCT av epinephrin versus albuterol ved bronkiolitt (største bronkiolitt-kohort i dette evidenssettet) |
-| [NCT00817466](https://clinicaltrials.gov/study/NCT00817466) | Fase 4 | Ukjent | 500 | Optimal nebulisert inhalasjonsbehandling for spedbarn 0–12 måneder med akutt bronkiolitt (SE-Norge flersenter) |
-| [NCT03614273](https://clinicaltrials.gov/study/NCT03614273) | NA | Avsluttet | 60 | Nebulisert hypertont salt (3%) versus nebulisert adrenalin ved bronkiolitt |
-| [NCT05363670](https://clinicaltrials.gov/study/NCT05363670) | Fase 2 | Avsluttet | 18 | Intranasal epinephrin (ARS-1) versus albuterol ved vedvarende astma, nålefri administreringsrute |
-| [NCT01255709](https://clinicaltrials.gov/study/NCT01255709) | Fase 2 | Avsluttet | 24 | Farmakokinetisk profil av epinephrin HFA-MDI inhalasjonsaerosol hos friske frivillige |
-| [NCT01216553](https://clinicaltrials.gov/study/NCT01216553) | Fase 4 | Ukjent | 135 | Hjemmeoxygenbehandling ± nebulisert 0,1% epinephrin for ambulant håndtering av bronkiolitt |
+| [NCT01357642](https://clinicaltrials.gov/study/NCT01357642) | Fase 3 | Fullført | 373 | 12 ukers effekt og sikkerhet for epinefrin-inhalasjonsaerosol (HFA-MDI) mot placebo og Primatene Mist ved astma |
+| [NCT01476904](https://clinicaltrials.gov/study/NCT01476904) | Fase 3 | Fullført | 208 | 3 måneders sikkerhetsforlengelse (totalt 6 måneder) for inhalert epinefrin ved astma |
+| [NCT01460511](https://clinicaltrials.gov/study/NCT01460511) | Fase 3 | Fullført | 70 | 4 ukers placebokontrollert studie av E004 hos barn (4–11 år) med astma |
+| [NCT01737905](https://clinicaltrials.gov/study/NCT01737905) | Fase 3 | Fullført | 28 | Enkeltdose, dobbeltblind crossover-studie av E004 hos barn med astma |
+| [NCT01705964](https://clinicaltrials.gov/study/NCT01705964) | Fase 4 | Fullført | 49 | Intramuskulært epinefrin som tillegg ved alvorlig astmaforverring hos barn |
+| [NCT04207840](https://clinicaltrials.gov/study/NCT04207840) | Fase 4 | Fullført | 28 | Systemisk eksponering for Primatene Mist mot intramuskulær injeksjon og ProAir hos friske |
+| [NCT01834820](https://clinicaltrials.gov/study/NCT01834820) | Fase 4 | Fullført | 120 | Pilotstudie av epinefrin, deksametason og hypertont saltvann ved bronkiolitt |
+| [NCT00817466](https://clinicaltrials.gov/study/NCT00817466) | Fase 4 | Ukjent | 500 | Optimal inhalasjonsbehandling ved akutt bronkiolitt hos spedbarn (0–12 måneder) |
+| [NCT01255709](https://clinicaltrials.gov/study/NCT01255709) | Fase 2 | Fullført | 24 | Farmakokinetikk for inhalert epinefrin (E004) hos friske frivillige |
+| [NCT01276821](https://clinicaltrials.gov/study/NCT01276821) | Fase 4 | Fullført | 100 | Forstøvet hypertont saltvann ved bronkiolitt (epinefrin er ikke hovedintervensjon) |
+
+Merk: Flere av studiene gjelder bronkiolitt eller farmakokinetikk og viser ikke effekt direkte. De fire fase 3-studiene av inhalert epinefrin ved astma utgjør kjernen i evidensen.
 
 ---
 
-## Litteraturevidence
+## Litteraturdokumentasjon
 
-| PMID | År | Publikasjonstype | Tidsskrift | Viktige funn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [21678340](https://pubmed.ncbi.nlm.nih.gov/21678340/) | 2011 | Cochrane Review (Nivå 1) | Cochrane Database Syst Rev | Systematisk oversikt over epinephrin ved bronkiolitt; bemerker at bronkodilatorer brukes til tross for usikker effektivitet |
-| [14974006](https://pubmed.ncbi.nlm.nih.gov/14974006/) | 2004 | Cochrane Review (Nivå 1) | Cochrane Database Syst Rev | Tidligere Cochrane-oversikt; beskjeden korttidsnytte av bronkodilatorer ved mild/moderat bronkiolitt |
-| [21486501](https://pubmed.ncbi.nlm.nih.gov/21486501/) | 2011 | Oversikt (Nivå 2) | BMJ Clinical Evidence | Oversikt over bronkiolitt epidemiologi og behandling inkludert epinephrin |
-| [19450362](https://pubmed.ncbi.nlm.nih.gov/19450362/) | 2007 | Oversikt (Nivå 2) | BMJ Clinical Evidence | Klinisk evidence-review for bronkiolitt, sesongbasert nedre luftveisinfeksjon hos spedbarn |
-| [30488718](https://pubmed.ncbi.nlm.nih.gov/30488718/) | 2019 | Oversikt (Nivå 2) | Expert Rev Respir Med | Rolle av rakemisk epinephrin, kortikosteroider, hypertont salt, HFOT ved pediatrisk bronkiolitt (2009–2018 litteratur) |
-| [6777857](https://pubmed.ncbi.nlm.nih.gov/6777857/) | 1980 | Kohort (Nivå 2) | Scand J Clin Lab Invest | Forhøyet plasma noradrenalin ved KOLS korrelert med hemodynamikk/blodgasser |
-| [6417212](https://pubmed.ncbi.nlm.nih.gov/6417212/) | 1983 | Oversikt (Nivå 3) | J Allergy Clin Immunol | Patofysiologi for barnedoms astma som obstruktiv luftveissykdom |
-| [6107058](https://pubmed.ncbi.nlm.nih.gov/6107058/) | 1980 | Oversikt (Nivå 3) | Anaesth Intensive Care | Farmakologi av sympatomimetiske aminer inkludert epinephrin |
-| [30856157](https://pubmed.ncbi.nlm.nih.gov/30856157/) | 2019 | Kommentar (Nivå 3) | Medical Letter Drugs Ther | Tilbakevending av reseptfritt Primatene Mist (epinephrin-inhaler) til markedet |
-| [5434663](https://pubmed.ncbi.nlm.nih.gov/5434663/) | 1970 | Oversikt (Nivå 3) | British Medical Journal | Generell oversikt over bronkodilatorklasser |
+| [33893229](https://pubmed.ncbi.nlm.nih.gov/33893229/) | 2021 | Nettverksmetaanalyse | Pediatrics | Sammenlignende effekt av bronkiolittintervensjoner ved akutt behandling |
+| [35093318](https://pubmed.ncbi.nlm.nih.gov/35093318/) | 2022 | RCT | The Journal of Pediatrics | Kortikosteroider og inhalert epinefrin ved bronkiolitt hos barn på intensivavdeling |
+| [21678340](https://pubmed.ncbi.nlm.nih.gov/21678340/) | 2011 | Systematisk oversikt (Cochrane) | Cochrane Database Syst Rev | Epinefrin ved bronkiolitt |
+| [14974006](https://pubmed.ncbi.nlm.nih.gov/14974006/) | 2004 | Systematisk oversikt (Cochrane) | Cochrane Database Syst Rev | Epinefrin ved bronkiolitt (tidligere versjon) |
+| [35953216](https://pubmed.ncbi.nlm.nih.gov/35953216/) | 2022 | Oversikt | Emerg Med Clin North Am | Vurdering og behandling av astma- og KOLS-forverring på akuttmottak |
+| [30488718](https://pubmed.ncbi.nlm.nih.gov/30488718/) | 2019 | Oversikt | Expert Rev Respir Med | Terapeutiske strategier ved bronkiolitt hos barn (rasemisk epinefrin, kortikosteroider m.m.) |
+| [21157348](https://pubmed.ncbi.nlm.nih.gov/21157348/) | 2011 | Oversikt | Curr Opin Pediatr | Oppdatering om behandling av bronkiolitt; ingen behandling har entydig endret sykdomsforløpet |
+| [23393929](https://pubmed.ncbi.nlm.nih.gov/23393929/) | 2012 | Oversikt | Duodecim | Bronkiolitt hos spedbarn; inhalasjon av rasemisk epinefrin ved behov |
+| [30856157](https://pubmed.ncbi.nlm.nih.gov/30856157/) | 2019 | Kommentar | Medical Letter | Primatene Mist er tilbake som reseptfritt legemiddel |
+| [20876171](https://pubmed.ncbi.nlm.nih.gov/20876171/) | 2010 | Kostnadseffektivitet | Pediatrics | Kostnadseffektivitet av epinefrin og deksametason ved bronkiolitt |
 
 ---
 
-## Markedsinformasjon Norge
+## Informasjon om det norske markedet
 
-Epinephrin har for øyeblikket **ingen markedsføringsautoriseringsregistreringer** i datasettet for dette markedet (markedsstatus: Ikke markedsført; totale lisenser: 0). Ingen produkt-/legemiddelformdata er tilgjengelige for å fylle ut en autorisasjonstabell.
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/006139 | Eurneffy | Ikke oppgitt | Anafylaksi |
 
----
-
-## Sikkerhetsoverveielser
-
-Vennligst se pakningsvedlegg for sikkerhetsinformasjon.
+Tillatelsen er annullert, og det finnes ingen gyldige tillatelser for epinefrin i dataene.
 
 ---
 
-## Konklusjon og neste trinn
+## Sikkerhetsvurderinger
 
-**Beslutning: Fortsett under vilkår**
+Informasjon fra preparatomtale (varsler og kontraindikasjoner) er ikke tilgjengelig i dataene. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
+
+**Sykdommer med registrert kontraindikasjon i kunnskapsgrafen (TxGNN/PrimeKG, ikke merketekst):** hypertensjon, hjerte- og karsykdom, hjertesykdom, koronarsykdom, hjerteinfarkt, atrieflimmer, hjerteledningsforstyrrelser, plutselig hjertestans, lever- og nyresvikt, diabetes mellitus og diabetisk ketoacidose, hypertyreose, epilepsi, trangvinklet glaukom, benign prostatahyperplasi, myasthenia gravis, respirasjonssvikt, kaliummangel, gallblæresykdom og hemoglobinopati.
+
+**Legemiddelinteraksjoner:** 100 interaksjoner er registrert. Blant dem som er vist, er de viktigste:
+- **Alvorlige (Major):** amitriptylin, amoksapin
+- **Moderate:** betablokkere (acebutolol, atenolol, betaksolol), beta-2-agonister (formoterol, salbutamol, arformoterol), sentralstimulerende midler (metylfenidat, amfetamin, atomoksetin), antidiabetika (acarbose, acetoheksamid, albiglutid, alogliptin) og antipsykotika (amisulprid, aripiprazol, asenapin)
+
+Kardiovaskulær sikkerhet (takykardi, hypertensjon, arytmi) må overvåkes, særlig hos eldre og pasienter med hjertesykdom.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Proceed with Guardrails (gå videre med forbehold)**
 
 **Begrunnelse:**
-Den mekanistiske forbindelsen mellom epinephrins adrenerg aktivitet og bronkodilatation er godt etablert og støttet av en avsluttet fase 3 RCT og to Cochrane-systematiske oversikter, men oversiktene selv flaggerer usikker/blandet klinisk effektivitet (særlig for innlagte pasienter med bronkiolitt), og et datamangel med blokkerings-alvorlighetsgrad (manglende offisielle pakningsvedleggsadvarsler/kontraindikasjoner) hindrer en fullstendig S1-sikkerhetskontroll.
+- Flere fullførte fase 3-studier av inhalert epinefrin ved astma, inkludert barn, gir evidensnivå L1, og mekanismen er biologisk rimelig. Evidensen er imidlertid begrenset til mild intermitterende astma, støtter ikke KOLS eller rutinebruk ved bronkiolitt, og det foreligger ingen gyldig norsk tillatelse.
 
-**For å fortsette, er følgende nødvendig:**
-- TFDA/regulatoriske pakningsvedleggsdata (advarsler, kontraindikasjoner) — for øyeblikket blokkering (DG001)
-- Formell dokumentasjon av virkningsmekanisme fra DrugBank — for øyeblikket datamangel med høy prioritet (DG002)
-- Løsning av det konfliktfylte effektivitetssignalet ved bronkiolitt (Cochrane-oversikter indikerer usikker nytte versus positive forsøksnivåfunn ved astma)
-- Vurdering av rute/legemiddelformgjennomførbarhet for det norske markedet, gitt at medikamentet for øyeblikket ikke er markedsført der
-- Legemiddelinteraksjons- og kontraindikasjonsdata (DDI-spørring returnerer for øyeblikket ingen resultater)
+**For å gå videre kreves følgende:**
+- Verifisere regulatorisk status for hver formulering i Norge, siden eneste tillatelse er annullert
+- Innhente preparatomtale med advarsler og kontraindikasjoner (kritisk datamangel)
+- Innhente detaljerte data om virkningsmekanisme
+- Plan for kardiovaskulær sikkerhetsovervåking, særlig hos eldre og pasienter med hjertesykdom
+- Avklare tiltenkt populasjon (mild intermitterende astma) og utelukke KOLS og bronkiolitt som mål
 
+---
+
+## Andre predikerte indikasjoner (kort oversikt)
+
+| Predikert indikasjon | Score | Evidensnivå | Anbefaling | Kommentar |
+|------|------|------|------|------|
+| Matavhengig anstrengelsesutløst anafylaksi | 99,57 % | L4 | Forskningsspørsmål | Ingen registrerte studier. Ligger innenfor dagens anafylaksiindikasjon og er ikke ekte repurposing. Litteraturen er oversikter og kasuistikker som anbefaler epinefrin |
+| Rienhoff syndrom | 99,57 % | L5 | Hold | Ingen mekanistisk kobling, studier eller litteratur. Høy score er trolig en modellartefakt |
+| Respiratorisk misdannelse | 99,56 % | L3 | Forskningsspørsmål | Strukturelle misdannelser kan ikke korrigeres av epinefrin. Eneste signal er en fase 1-studie ved forbigående tachypné hos nyfødte. Mesteparten av litteraturen er irrelevant |
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

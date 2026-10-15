@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Trastuzumab
-parent: Moderat evidens (L3-L4)
-nav_order: 368
-evidence_level: L3
+parent: Høy evidens (L1-L2)
+nav_order: 431
+evidence_level: L1
 indication_count: 10
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,104 +29,133 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Trastuzumab: Fra HER2-positiv brystkreft til normalliknende subtype av brystcancer
+# Trastuzumab: Fra brystkreft og magekreft til progesteronreseptor-positiv brystkreft
 
-## Sammendrag på én setning
+## Én-setnings sammendrag
 
-> Trastuzumab er et HER2/ERBB2-rettet monoklonalt antistoff, historisk etablert for brystkreft med HER2-overekspresjon (originalindikasjonens data selv er en dokumentert mangel i denne bevissamlingen — se nedenfor).
-> TxGNN-modellens toppprediksjon er at trastuzumab kan være effektivt for **normalliknende PAM50-subtype av brystcancer**,
-> med **12 kliniske forsøk** og **1 publikasjon** som for tiden er knyttet til denne prediksjonen — selv om bevisene selv flaggerer en mekanistisk motsigelse (se begrunnelse nedenfor).
+Trastuzumab er et monoklonalt antistoff mot HER2, opprinnelig brukt til behandling av **brystkreft og magekreft**.
+TxGNN-modellen predikerer at det kan ha effekt ved **progesteronreseptor-positiv brystkreft**, men dette ligger innenfor den eksisterende brystkreftindikasjonen og er ikke en reell ny bruk.
+Funnet støttes av **12 kliniske studier** og **20 publikasjoner** i de data som er sammenstilt for denne rapporten. Nytten gjelder bare HER2-positiv sykdom.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Originalindikasjon | Ikke tilgjengelig i de strukturerte regulatoriske dataene (datagap). Basert på legemidlets kjente mekanisme og repurposing-begrunnelsen som er innbakt i denne bevissamlingen, er trastuzumabs etablerte bruk brystkreft med HER2-overekspresjon. |
-| Forventet ny indikasjon | Normalliknende subtype av brystcancer |
-| TxGNN-prediksjonspoeng | 99.90% (rangering 1423 av fullstendig kandidatliste) |
-| Evidensnivå | L3 |
-| Markedsstatus i Norge | ✗ Ikke på marked |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Avvent (Forskningsspørsmål-stadium) |
+| Opprinnelig indikasjon | Magekreft og brystkreft |
+| Predikert ny indikasjon | Progesteronreseptor-positiv brystkreft (rangert som nr. 2; den øverste prediksjonen, «normal breast-like subtype of breast carcinoma», har kun L4-evidens og anbefalingen Hold) |
+| TxGNN-prediksjonsscore | 99,90 % |
+| Evidensnivå | L1 |
+| Status på det norske markedet | Kun avregistrerte tillatelser |
+| Antall tillatelser | 11 (alle avregistrert) |
+| Anbefalt beslutning | Proceed with Guardrails (fortsett med sikkerhetstiltak) |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte virkningsmåtisdata på legemiddelnivå er for tiden ikke tilgjengelig (**Datagap DG002**). Basert på de mekanistiske beskrivelsene som er innbakt gjennom denne bevissamlingens repurposing-begrunnelse, er trastuzumab et humanisert monoklonalt antistoff som binder til det ekstracellulære domenet på HER2 (ERBB2), blokkerer dets nedstrøms proliferativ signalering og formidler antistoffavhengig cellulær cytotoksisitet (ADCC). Dets effektivitet i brystkreft med HER2-overekspresjon er grundig dokumentert, og topprediksjonen for ny indikasjon fra TxGNN — «normalliknende» — er i seg selv en molekylær subtype *av brystcancer*, ikke en distinkt sykdomskategori. I den sneve forstand er prediksjonen ikke et stort mekanistisk hopp.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon binder trastuzumab seg til det ekstracellulære domenet til HER2, blokkerer signalering og medierer antistoffavhengig cellulær cytotoksisitet (ADCC).
 
-Imidlertid flaggerer bevissamlingens egen begrunnelse for denne spesifikke prediksjonen en viktig **biologisk motsigelse**: PAM50 «normalliknende»-subtypen er klinisk karakterisert ved lav proliferativ aktivitet og er hyppig HER2-lav eller HER2-negativ — det motsatte av populasjonen der trastuzumab har vist fordel. Ingen av de 12 tilknyttede kliniske forsøkene ble designet for spesifikt å identifisere eller teste denne PAM50-subtypen; de fleste er generelle HER2-positive brystkreftforsøk der trastuzumab fremkommer som bakgrunns- eller komparatortherapeutika. Sitatene for enkeltlitteraturen (PMID 19466513) omhandler basal-liknende, ikke normalliknende, tumormorfolgi, og er en generell oversikt fremfor subtype-spesifikk utfallsdata.
+Svulster som er både PR-positive og HER2-positive har nytte av trastuzumab. Kombinasjon med endokrin behandling adresserer samspillet mellom HER2- og hormonreseptorveiene. Dette ligger innenfor den allerede godkjente brystkreftindikasjonen, så det er ikke en ekte repurposing.
 
-Samlet sett er denne prediksjonen rimelig kun insofar «normalliknende bryst» faller innenfor det brede brystcancer-indikasjonrommet trastuzumab allerede opptar — men modellens konfidenspoeng løser ikke den underliggende mekanistiske uoverensstemmelsen (HER2-rettet terapi påført en typisk HER2-lav/negativ subtype). Dette er grunnen til at bevissamlingen selv stadier denne kandidaten på **S1 / «Forskningsspørsmål»** fremfor et mer avansert beslutningsstadium.
+Nytten er begrenset til HER2-positiv sykdom, og HER2-testing er nødvendig. Prediksjonen bør derfor leses som en bekreftelse av kjent bruk, ikke som en ny terapeutisk mulighet.
 
 ---
 
-## Bevis fra kliniske forsøk
+## Dokumentasjon fra kliniske studier
 
-| Forsøksnummer | Fase | Status | Deltakere | Sentrale funn |
+Utvalg av de mest relevante studiene for progesteronreseptor-positiv brystkreft:
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT03168880](https://clinicaltrials.gov/study/NCT03168880) | Fase 3 | Aktiv, ikke rekrutterer | 720 | Ukentlig paklitaksel ± karboplatin ved stor operabel/lokalt avansert trippelnegativ (basal-liknende) brystkreft; populasjon definert av konvensjonell HER2-status, ikke PAM50 normalliknende stratifisering (Grad B). |
-| [NCT01796197](https://clinicaltrials.gov/study/NCT01796197) | Fase 2 | Avsluttet | 23 | Paklitaksel + trastuzumab + pertuzumab som preoperativ terapi for inflammatorisk HER2+ brystkreft; ingen subtype-spesifikk design (Grad B). |
-| [NCT04329065](https://clinicaltrials.gov/study/NCT04329065) | Fase 2 | Rekrutterer | 25 | WOKVAC-vaksine + neoadjuvant kjemoterapi + HER2-rettet antistoffterapi; trastuzumab er bakgrunnsbehandling, ikke det primært evaluerte legemidlet (Grad C). |
-| [NCT06328387](https://clinicaltrials.gov/study/NCT06328387) | Fase 1/2 | Ukjent | 120 | Hydroksyklorokin + antistoff-medikamentkonjugat vs. ADC alene ved avansert brystkreft; status ukjent, svak bevisverdi (Grad C). |
-| [NCT05900206](https://clinicaltrials.gov/study/NCT05900206) | Fase 2 | Rekrutterer | 370 | Trastuzumab derukstekan (en ADC, ikke nakent trastuzumab) med biologidrevet behandlingsseleksjon for HER2-positiv brystkreft; tester ikke direkte trastuzumab i normalliknende subtype (Grad C). |
-| [NCT04759248](https://clinicaltrials.gov/study/NCT04759248) | Fase 2 | Aktiv, ikke rekrutterer | 55 | ATREZZO-studie: atezolizumab + trastuzumab + vinorelbín ved ER-negativ eller PAM50 ikke-luminal HER2-positiv avansert/metastatisk brystkreft. |
-| [NCT04750122](https://clinicaltrials.gov/study/NCT04750122) | Fase 1/2 | Rekrutterer | 46 | Legemiddelscreening-guidet neoadjuvant terapi ved bruk av pasientutledet tumorliknende cellesamlinger ved HER2-positiv tidlig brystkreft. |
-| [NCT06585969](https://clinicaltrials.gov/study/NCT06585969) | Fase 3 | Trukket tilbake | 0 | Trastuzumab derukstekan vs. CDK4/6-hemmere ved ikke-luminal A, ER-positiv/HER2-lav metastatisk brystkreft; forsøk trukket tilbake før inklusjon. |
-| [NCT01670877](https://clinicaltrials.gov/study/NCT01670877) | Fase 2 | Avsluttet | 56 | Neratinib alene/med fulvestrant ved HER2 ikke-amplifisert men HER2-mutant metastatisk brystkreft. |
-| [NCT06348134](https://clinicaltrials.gov/study/NCT06348134) | Fase 2 | Rekrutterer | 74 | Effektivitet/sikkerhet ved optimal neoadjuvant-til-adjuvant anti-HER2-terapi hos nigerianske kvinner med HER2-positiv brystkreft. |
+| [NCT01275677](https://clinicaltrials.gov/study/NCT01275677) | Fase 3 | Fullført | 3270 | Randomisert adjuvant studie: kjemoterapi alene mot kjemoterapi pluss trastuzumab ved brystkreft. Direkte evidens |
+| [NCT04629846](https://clinicaltrials.gov/study/NCT04629846) | Fase 3 | Fullført | 517 | Pertuzumab-biosimilar (QL1209) mot pertuzumab, begge med trastuzumab og docetaxel, ved HER2-positiv, ER/PR-negativ brystkreft |
+| [NCT01750073](https://clinicaltrials.gov/study/NCT01750073) | Fase 2 | Fullført | 92 | Neoadjuvant kjemoterapi med og uten trastuzumab |
+| [NCT00194779](https://clinicaltrials.gov/study/NCT00194779) | Fase 2 | Fullført | 50 | Neoadjuvant kjemoterapiregime inkludert trastuzumab ved HER2-positiv brystkreft |
+| [NCT02152943](https://clinicaltrials.gov/study/NCT02152943) | Fase 1 | Fullført | 37 | Everolimus, letrozol og trastuzumab ved hormonreseptor- og HER2-positiv avansert brystkreft |
+| [NCT02260531](https://clinicaltrials.gov/study/NCT02260531) | Fase 2 | Fullført | 36 | Kabozantinib alene eller med trastuzumab ved hjernemetastaser |
+| [NCT04334330](https://clinicaltrials.gov/study/NCT04334330) | Fase 2 | Ukjent | 34 | Palbociklib, trastuzumab, pyrotinib og fulvestrant ved hjernemetastaser (ER/PR+, HER2+) |
+| [NCT00134680](https://clinicaltrials.gov/study/NCT00134680) | Fase 2 | Fullført | 33 | Letrozol pluss trastuzumab ved ErbB2-positiv, ER/PR-positiv metastatisk brystkreft |
+| [NCT04886531](https://clinicaltrials.gov/study/NCT04886531) | Fase 2 | Rekrutterer | 30 | Preoperativ neratinib og endokrin behandling med trastuzumab ved ER-positiv, HER2-positiv kreft |
+| [NCT05868226](https://clinicaltrials.gov/study/NCT05868226) | Fase 1/2 | Rekrutterer | 280 | Plattformstudie for prediksjon av behandlingsrespons; indirekte relevans |
+| [NCT00053339](https://clinicaltrials.gov/study/NCT00053339) | Fase 3 | Trukket tilbake | 0 | Trastuzumab med eller uten tamoxifen; ingen data da studien ikke ble gjennomført |
+| [NCT02774681](https://clinicaltrials.gov/study/NCT02774681) | Fase 2 | Avsluttet | 12 | Palbociklib ved HER2-positiv brystkreft med hjernemetastaser; begrensede data |
 
 ---
 
-## Litteraturbevis
+## Litteraturdokumentasjon
 
-| PMID | År | Type | Journal | Sentrale funn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [19466513](https://pubmed.ncbi.nlm.nih.gov/19466513/) | 2009 | Oversikt | Breast Cancer (Tokyo, Japan) | Beskriver morfologiske/cytopatologiske karakteristikker ved basal-liknende brystcancer-subtype innenfor fem-subtype-klassifikasjonen (luminal A, luminal B, normalliknende, HER2-overeksprimering, basal-liknende); omhandler ikke direkte trastuzumab-respons i normalliknende subtype. |
+| [16236738](https://pubmed.ncbi.nlm.nih.gov/16236738/) | 2005 | RCT | N Engl J Med | Adjuvant kjemoterapi med eller uten trastuzumab ved operabel HER2-positiv brystkreft (kun listet under luminal A/B) |
+| [27179402](https://pubmed.ncbi.nlm.nih.gov/27179402/) | 2016 | RCT | Lancet Oncol | NeoSphere: 5-årsanalyse av neoadjuvant pertuzumab og trastuzumab ved HER2-positiv brystkreft |
+| [32353342](https://pubmed.ncbi.nlm.nih.gov/32353342/) | 2020 | RCT | Lancet Oncol | monarcHER: abemaciklib pluss trastuzumab ± fulvestrant ved HR-positiv, HER2-positiv avansert brystkreft |
+| [28945833](https://pubmed.ncbi.nlm.nih.gov/28945833/) | 2017 | RCT | Ann Oncol | WSG-ADAPT: 12 ukers neoadjuvant dobbel blokade med trastuzumab og pertuzumab ± paklitaxel |
+| [15894097](https://pubmed.ncbi.nlm.nih.gov/15894097/) | 2005 | Metaanalyse | Lancet | Effekt av kjemoterapi og hormonbehandling ved tidlig brystkreft på residiv og 15-årsoverlevelse |
+| [31410192](https://pubmed.ncbi.nlm.nih.gov/31410192/) | 2019 | Kohort | Theranostics | Molekylære profiler og trastuzumab-respons ved ER+/PR+/HER2+ (trippelpositiv) brystkreft |
+| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Retningslinje | J Clin Oncol | ASCO-retningslinje for systemisk behandling av avansert HER2-positiv brystkreft |
+| [21151204](https://pubmed.ncbi.nlm.nih.gov/21151204/) | 2011 | Oversikt | Nat Rev Clin Oncol | HER2- og hormonreseptor-positiv brystkreft: blokkering av riktig mål |
+| [26874901](https://pubmed.ncbi.nlm.nih.gov/26874901/) | 2016 | RCT | Lancet Oncol | ExteNET: neratinib etter trastuzumab-basert adjuvant behandling |
+| [17687157](https://pubmed.ncbi.nlm.nih.gov/17687157/) | 2007 | Annet | J Clin Oncol | Trastuzumab-relatert kardiotoksisitet og spørsmålet om reversibilitet |
 
 ---
 
-## Markedsinformasjon i Norge
+## Informasjon om det norske markedet
 
-Trastuzumab er for tiden **ikke på marked** i denne juridiksjonen ifølge de regulatoriske dataene som er gitt (0 godkjenninger, ingen lisenspost tilgjengelig). Ingen produkt-/doseringsform-tabell kan genereres fra denne bevissamlingen.
+Alle tillatelser i datagrunnlaget er registrert som avregistrert (11 totalt). De fem første:
+
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000278 | Herceptin | – | Magekreft, brystkreft |
+| EMEA/H/C/004916 | Ogivri | – | Magekreft, brystkreft |
+| EMEA/H/C/006219 | Dazublys | – | Brystkreft, magekreft |
+| EMEA/H/C/004361 | Kanjinti | – | Magekreft, brystkreft |
+| EMEA/H/C/004323 | Ontruzant | – | Magekreft, brystkreft |
 
 ---
 
 ## Cytotoksisitet
 
-Trastuzumab er klassifisert som antineoplastisk — alle TxGNN-forventet indikasjon i denne pakken er kreftsykdommer/svulster, og legemidlets mekanisme (HER2/ERBB2-rettet cytotoksisk aktivitet via ADCC) faller under onkologisk terapi.
-
 | Punkt | Innhold |
 |------|------|
-| Cytotoksisitetsklassifisering | Rettet terapi (HER2-rettet humanisert monoklonalt antistoff; ikke konvensjonell cytotoksisk kjemoterapi) |
-| Myelosuppresjonrisiko | Se pakningsvedlegget for advarsler og forholdsregler (spesifikke hematologiske toksisitetsdata ikke tilgjengelig i denne bevissamlingen) |
-| Emetogenitetsklassifisering | Se pakningsvedlegget for advarsler og forholdsregler |
-| Overvåkingspunkter | Se pakningsvedlegget for advarsler og forholdsregler |
-| Håndteringsbeskyttelse | Se pakningsvedlegget for advarsler og forholdsregler |
+| Klassifisering | Målrettet behandling (monoklonalt anti-HER2-antistoff), ikke konvensjonelt cytotoksisk |
+| Risiko for myelosuppresjon | Lav som monoterapi; kan øke i kombinasjon med kjemoterapi |
+| Emetogenisitet | Lav |
+| Overvåkingspunkter | Hjertefunksjon (LVEF) før og under behandling, blodstatus ved kombinasjon med kjemoterapi, lever- og nyrefunksjon |
+| Håndtering og beskyttelse | Se preparatomtalen for krav til håndtering |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegget for sikkerhetsinformasjon. (Sentrale advarsler, kontraindikasjoner og legemiddel-legemiddel-interaksjondata er merket som datagap i denne bevissamlingen — **DG001, Blokkering av alvorlighet** — og kunne ikke fylles ut fra TFDA/regulatorisk merketekst-kilde.)
+- **Kardiotoksisitet**: Litteraturen omtaler trastuzumab-relatert kardiotoksisitet (PMID 17687157), og hjerteovervåking er nødvendig.
+- **Legemiddelinteraksjoner**: Totalt 94 interaksjoner er registrert. Viktige eksempler:
+  - **Alvorlige (Major)**: deferipron, samarium (153Sm) lexidronam, adalimumab, baricitinib
+  - **Moderate**: paklitaksel, warfarin, dikumarol, zidovudin, kloramfenikol, roflumilast, alemtuzumab, azatioprin, anakinra, kanakinumab, palifermin, strontiumklorid Sr-89
+- For advarsler og kontraindikasjoner, se preparatomtalen.
 
 ---
 
-## Konklusjon og neste skritt
+## Konklusjon og neste steg
 
-**Beslutning: Avvent (Forskningsspørsmål)**
+**Beslutning: Proceed with Guardrails**
 
 **Begrunnelse:**
-Topprediksjonen (normalliknende PAM50-subtype) støttes bare av L3-bevis — en enkelt oversiktsartikkel og ingen subtype-spesifikke avsluttede forsøk — og bevissamlingens egen mekanistiske begrunnelse identifiserer en biologisk motsigelse, siden denne subtypen typisk er HER2-lav/negativ, noe som undergraver trastuzumabs kjernemekanisme. Denne kandidaten bør ikke avansere forbi forskningsspørsmål-stadiet uten subtype-spesifikk validering. (Merknad: innenfor denne samme bevissamlingen når kandidatene PR-positiv og PR-negativ brystkreft, rangeringer 2–3, et sterkere L2-evidensnivå med avsluttede fase 3-RCT-er og er separat stadiert «Fortsett med guardrails» — disse kan fortjene prioritering over rang-1-kandidaten.)
+Det foreligger fullførte randomiserte fase 3-studier og sentrale RCT-publikasjoner for trastuzumab ved HER2-positiv brystkreft, også ved PR-positiv sykdom. Prediksjonen faller innenfor den eksisterende indikasjonen, så evidensen gjelder kjent bruk og ikke ny repurposing. Alle norske tillatelser er avregistrert.
 
-**For å fortsette, følgende er nødvendig:**
-- TFDA/regulatorisk merketekstsdata — advarsler, kontraindikasjoner, legemiddel-legemiddel-interaksjon (DG001, Blokkering)
-- Bekreftet, kildedokumentert virkningsmåte-dokumentasjon på legemiddelnivå (DG002)
-- HER2-ekspresjonsprevelensdata spesifikt innenfor PAM50 «normalliknende»-subtype-populasjonen
-- Et subtype-spesifikt prospektivt forsøk (eller retrospektiv biomarkør-stratifisert analyse) som tester trastuzumab-respons i HER2-lav/negativ «normalliknende» tumorer før denne kandidaten kan være re-stadiert
+**For å gå videre kreves følgende:**
+- Obligatorisk HER2-testing; kriteriet bør være HER2-status, ikke PR-status
+- Plan for hjerteovervåking (LVEF)
+- Data om virkningsmekanisme fra DrugBank
+- Advarsler og kontraindikasjoner fra preparatomtalen (manglende i datagrunnlaget og blokkerende for sikkerhetsscreening)
+- Avklaring av gjeldende markedsføringsstatus i Norge, siden alle tillatelser står som avregistrert
 
+**Merknad om øvrige prediksjoner:**
+- Den høyest rangerte prediksjonen («normal breast-like subtype») har kun L4-evidens og anbefalingen **Hold**: subtypen er vanligvis HER2-negativ, og den eneste studien gjelder et annet legemiddel (trastuzumab rezetecan) som ikke har startet rekruttering.
+- PR-negativ brystkreft og luminal A/B har L1-evidens og anbefalingen Proceed with Guardrails, men bare ved HER2-positiv sykdom.
+- Prediksjonene for sjeldne svulster (rangert 5–8) har kun modellstøtte (L5) og anbefalingen Hold.
+- Urotelkarsinomene (rangert 9–10) har L5-evidens og er klassifisert som forskningsspørsmål; HER2-immunhistokjemi kreves først.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

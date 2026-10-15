@@ -2,7 +2,7 @@
 layout: default
 title: Cladribine
 parent: Kun modellprediksjon (L5)
-nav_order: 88
+nav_order: 100
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,90 +29,104 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Cladribin: Fra hårcelleleukemi til parameningeal embryonal rabdomyosarkom
+# Kladribin: Fra multippel sklerose og hårcelleleukemi til parameningeal embryonal rabdomyosarkom
 
 ## Oppsummering i en setning
 
-Cladribin er en purinkinukleosidanalolog (deoksyadenosin) opprinnelig etablert for **hårcelleleukemi** og **multippel sklerose**. TxGNN-modellen forutsier at det kan være effektivt for **parameningeal embryonal rabdomyosarkom**, men dette er for tiden støttet av **null kliniske forsøk** og **null publikasjoner** — prediksjonen hviler helt og holdent på modellens grafbaserte poengsum.
+Kladribin er et purinnukleosidanalog som opprinnelig brukes til behandling av **multippel sklerose** og **hårcelleleukemi**.
+TxGNN-modellen forutsier at det kan ha effekt mot **parameningeal embryonal rabdomyosarkom**,
+men det finnes **ingen kliniske studier** og **ingen relevant litteratur** som støtter denne prediksjonen. Den er kun modellbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Hårcelleleukemi; Multippel sklerose (basert på kjent legemiddelklasseprofil — ikke avledet fra Taiwan-lisensdata, da legemidlet ikke er markedsført der) |
-| Forutsagt ny indikasjon | Parameningeal embryonal rabdomyosarkom |
-| TxGNN-prediksjonspoengsum | 99.77% |
-| Bevisnivå | L5 (bare modellprediksjon, ingen støttestudier) |
-| Taiwan markedsstatus | Ikke markedsført (Ikke markedsført) |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Vent |
-
----
-
-## Hvorfor er denne prediksjonen rimelig?
-
-For tiden er en offisiell virkningsmekanisme-registrering fra DrugBank ikke tilgjengelig (datakløft DG002). Basert på legemiddelprofi len innebygd i bevisspakken er cladribin en deoksyadenosinanalolog som, etter intracellulær fosforyling, motstår adenosindeaminase-nedbrytning, inkorporeres i DNA og forårsaker strengbrudd som hemmer DNA-syntese og -reparasjon. Denne brede cytotoksiske mekanismen ligger til grunn for dens godkjente bruk ved hårcelleleukemi og dens immunomodulerende bruk ved multippel sklerose.
-
-Hårcelleleukemi og rabdomyosarkom er begge maligne tumorer av raskt delende celler, så et generisk «cytotoksiske legemidler kan undertrykke prolifererande tumorsoller»-argument er mekanistisk plausibelt. Imidlertid er det **ingen rabdomyosarkom-spesifikk mekanistisk kobling** — ingen forbindelse til veiene som faktisk driver denne pediatriske solide tumoren (f.eks. PAX3/PAX7–FOXO1-fusjon i alveoløre subtyper, RAS-veiendringer i embryonale subtyper). Begrunnelsen er en klassenivåekstrapolering, ikke en målbasert hypotese.
-
-Det er bemerkelsesverdig at denne kandidatens forutsagte-indikasjonsliste (ranger 1–6) består nesten utelukkende av rabdomyosarkom-anatomi/histologi-subtyper med nesten identiske poengsum (99.69%–99.77%), noe som foreslår at TxGNN har identifisert en bred «rabdomyosarkom»-kluster i kunnskapsgrafen snarere enn et subtypespesifikt signal. Den ene litteraturreferansen som ble hentet for rang 7 (leveresarkom) er en kasuistikk om cladribin for smoldrende systemisk mastocytose — ikke relatert til leveresarkom — og er best behandlet som en **falskt-positiv gjenfinning**, ikke støttebevis.
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Multippel sklerose (Mavenclad); hårcelleleukemi (Litak) |
+| Predikert ny indikasjon | Parameningeal embryonal rabdomyosarkom |
+| TxGNN-prediksjonsscore | 99,77 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrerte/trukkede godkjenninger |
+| Antall godkjenninger | 2 (begge trukket tilbake/avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Klinisk forsøksbevis
+## Hvorfor er denne prediksjonen rimelig (eller ikke)?
 
-For tiden er ingen relaterte kliniske forsøk registrert.
+Detaljerte data om virkningsmekanismen er ikke tilgjengelige i de innsamlede dataene. Basert på kjent informasjon er kladribin (2-klordeoksyadenosin) et purinnukleosidanalog som er resistent mot enzymet adenosindeaminase. Det forårsaker DNA-strengbrudd og apoptose i lymfocytter og monocytter. Virkningen avhenger av et høyt forhold mellom deoksycytidinkinase og 5'-nukleotidase, noe som er typisk for lymfoide celler.
 
----
+Denne lymfocyttselektive biologien forklarer effekten ved hårcelleleukemi og multippel sklerose. Det finnes imidlertid ingen holdepunkter for en tilsvarende mekanisme ved rabdomyosarkom, som er en solid svulst av muskelvevstype. Standardbehandling ved rabdomyosarkom bygger på vinkristin, daktinomycin, cyklofosfamid og lignende regimer, og kladribin har ingen etablert rolle her.
 
-## Litteraturbevis
-
-For tiden er ingen relatert litteratur tilgjengelig.
-
-*(Merk: en litteraturregistrering ble hentet annet sted i denne kandidatens bevisspakke — PMID [15241520](https://pubmed.ncbi.nlm.nih.gov/15241520/), en kasuistikk fra 2004 om cladribin for systemisk mastocytose, vedlagt *leveresarkom*-prediksjon, rang 7. Den adresserer ikke rabdomyosarkom og telles ikke som støttebevis for den høyeste rangerte indikasjon.)*
+Den høye scoren skyldes trolig nærhet i kunnskapsgrafen til andre kreftlegemidler, ikke en validert sammenheng. De fem øverste prediksjonene er alle varianter av rabdomyosarkom med nesten identiske scorer (99,74–99,77 %). Dette tyder på ett felles signal fremfor uavhengige bekreftelser.
 
 ---
 
-## Taiwan markedsinformasjon
+## Dokumentasjon fra kliniske studier
 
-Cladribin er for tiden ikke markedsført i Taiwan (0 autorisasjoner); ingen produktlisensregistreringer er tilgjengelige for visning.
+Det er for øyeblikket ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+For hovedprediksjonen (parameningeal embryonal rabdomyosarkom) finnes det for øyeblikket ingen relatert litteratur.
+
+For rangert prediksjon nr. 7 (leversarkom) ble én publikasjon funnet, men den gjelder ikke leversarkom:
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [15241520](https://pubmed.ncbi.nlm.nih.gov/15241520/) | 2004 | Kasuistikk | Der Hautarzt | Vellykket behandling med kladribin ved smoldrende systemisk mastocytose (hematologisk neoplasi). Trolig en tilfeldig treff i søket, ikke direkte evidens. |
+
+---
+
+## Markedsinformasjon for Norge
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004230 | Mavenclad | – | Multippel sklerose (avregistrert) |
+| EMEA/H/C/000504 | Litak | – | Hårcelleleukemi (avregistrert) |
 
 ---
 
 ## Cytotoksisitet
 
-| Element | Innhold |
-|---------|---------|
-| Cytotoksisitetsklassifisering | Konvensjonell cytotoksisk (purinkinukleosid-/antimetabolitanalolog) |
-| Myelosuppresjonrisiko | Høy — purinanalogene, og cladribin særlig, er forbundet med betydelig og ofte langvarig myelosuppresjon (særlig alvorlig lymfopeni); dette gjenspeiler den etablerte klasseprofi len, ettersom kvantitativ TFDA/DrugBank-toksisitetsdata ikke er tilgjengelig i denne bevisspakken (se DG001) |
-| Emetogenisitetsklassifisering | Lav til moderat (i samsvar med purinanalogklassen; spesifikk TFDA-emetogenisitetsdata ikke tilgjengelig — se DG001) |
-| Overvåkingselementer | CBC med differensial (særlig lymfocyttkellinger), infeksjonsovervåking, nyre- og leverfunksjon |
-| Håndteringsbeskyttelse | Ja — forholdsregler for håndtering av cytotoksiske legemidler gjelder |
+| Punkt | Innhold |
+|------|------|
+| Cytotoksisitetsklassifisering | Konvensjonelt cytotoksisk (purinnukleosidanalog) |
+| Risiko for myelosuppresjon | Kunnskapsgrafen knytter kladribin til nøytropeni, agranulocytose, trombocytopeni og anemi, så risikoen må anses som betydelig |
+| Emetogenisitet | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Fullstendig blodstatus med differensialtelling, lever- og nyrefunksjon |
+| Håndteringsbeskyttelse | Følg gjeldende regelverk for håndtering av cytotoksiske legemidler |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Viktige advarsler, kontraindikasjoner og legemiddelinteraksjondata er for tiden ikke tilgjengelige i denne bevisspakken (datakløft DG001, sperret alvorlighetsgrad).
+- **Kontraindikasjoner fra kunnskapsgrafen (ikke fra preparatomtale):** Nyresykdom, pyoureter, trombocytopeni, hyperurikemi, nøytropeni, agranulocytose, sykdom i det perifere nervesystemet, perifer nevropati, anemi og makrocytær anemi.
+- **Legemiddelinteraksjoner:** Totalt 100 interaksjoner ble funnet. Blant de 20 som ble gjennomgått, er de viktigste:
+  - **Alvorlig (Major):** Kortikosteroider (hydrokortison, triamcinolon, deksametason, betametason, budesonid, prednisolon, prednison), deferipron, ibritumomab tiuxetan, jobenguan (I-131), tositumomab (med og uten I-131), samarium (153Sm) lexidronam og strontiumklorid Sr-89.
+  - **Moderat:** Palifermin, dipyridamol, cilostazol og eltrombopag.
+  - **Ukjent nivå:** Acetylsalisylsyre.
+
+Informasjon fra preparatomtale om advarsler og kontraindikasjoner mangler i de innsamlede dataene. Se pakningsvedlegget for fullstendig sikkerhetsinformasjon.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Vent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Toppprediksjonen har null støtte fra kliniske forsøk eller litteratur og ligger på bevisnivå L5 (bare modellpoengsum), uten rabdomyosarkom-spesifikk mekanistisk begrunnelse. TFDA-sikkerhetdata som kreves selv for en foreløpig S1-sikkerhetsgransking, mangler (DG001, sperret), og legemidlet er for tiden ikke markedsført i Taiwan.
+Prediksjonen er kun modellbasert (L5), uten kliniske studier eller relevant litteratur, og det finnes ingen mekanistisk begrunnelse for effekt av en lymfocyttselektiv substans ved rabdomyosarkom. Begge godkjenninger i Norge er avregistrert, og sikkerhetsprofilen (myelosuppresjon) krever grundig vurdering.
 
-**For å gå videre, er det følgende nødvendig:**
-- TFDA-pakningsvedlegg (advarsler/kontraindikasjoner) — nødvendig for å rydde det sperrede gapet DG001 før noen sikkerhetsgransking
-- Bekreftet DrugBank virkningsmekanisme-registrering (DG002)
-- Preklinisk (cellinje-/dyremodell) eller klinisk bevis spesifikk for rabdomyosarkom, som ideelt sett adresserer embryonal-subtypbiologi
-- Ny verifisering av rang 7-litteraturtreffet (PMID 15241520), som ser ut til å være en irrelevant gjenfinning og bør utelukkes eller korrigeres
-- Vurdering av administrasjonsvei- og formuleringskompabilitet (for tiden merket «ventende» for alle rangerte indikasjoner)
-
+**For å gå videre kreves følgende:**
+- Prekliniske studier (cellelinjer og dyremodeller) av kladribin ved rabdomyosarkom, inkludert uttrykk for deoksycytidinkinase og 5'-nukleotidase i tumorvev
+- Detaljerte data om virkningsmekanisme (MOA)
+- Informasjon fra preparatomtale om advarsler og kontraindikasjoner
+- Vurdering av administrasjonsvei og tilgjengelige formuleringer
+- Avklaring av markedsstatus, siden begge godkjenningene er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

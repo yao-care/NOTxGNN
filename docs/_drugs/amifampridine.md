@@ -2,7 +2,7 @@
 layout: default
 title: Amifampridine
 parent: Kun modellprediksjon (L5)
-nav_order: 27
+nav_order: 29
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,78 +29,90 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Amifampridine: Fra Lambert-Eaton myastenisk syndrom til glaukom
+# Amifampridin: Fra Lambert-Eaton myasteniske syndrom til glaukom
 
-## Sammendrag i en setning
+## Oppsummering i én setning
 
-Amifampridine (DrugBank DB11640) er en bredspektret Kv1.x spenningskontrollert kaliumkanal-blokkerer hvis etablerte kliniske bruk — referert i den underliggende mekanistiske begrunnelsen — er Lambert-Eaton myastenisk syndrom (LEMS), hvor det øker acetylkolinfreisetting ved nevromuskulær synapse. TxGNN-modellen forutsier at det kan være effektivt for **Glaukom**, men denne prediksjonen er for tiden støttet av **0 kliniske forsøk** og **0 publikasjoner** — det er et rent beregningssignal (TxGNN-score 99.71%) uten legemiddelspesifikk evidens bak det.
+Amifampridin (3,4-diaminopyridin) brukes opprinnelig til behandling av Lambert-Eaton myasteniske syndrom (LEMS). TxGNN-modellen predikerer at legemidlet kan ha effekt ved **glaukom**, men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen bygger kun på modellen.
 
 ---
 
 ## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Lambert-Eaton myastenisk syndrom (LEMS) — utledet fra den mekanistiske begrunnelsesteksten (kjent nevromuskulær farmakologi); ingen formell norsk lisensrekord bekrefter dette, da legemidlet har 0 registrerte godkjennelser |
-| Forutsagt ny indikasjon | Glaukom |
-| TxGNN prediksjons-score | 99.71% |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Lambert-Eaton myasteniske syndrom |
+| Predikert ny indikasjon | Glaukom |
+| TxGNN-prediksjonsscore | 99,71 % |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+| Markedsstatus i Norge | Kun trukne/avsluttede tillatelser |
+| Antall tillatelser | 2 (begge trukket) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen fornuftig?
+## Hvorfor kan denne prediksjonen være rimelig?
 
-For tiden er en formelt bekreftet mekanisme-for-handling-rekord ikke tilgjengelig (flagget som datahull, DG002). Basert på informasjonen som er fanget opp i den mekanistiske begrunnelsen for omformål, er amifampridine kjent for å fungere som en bredspektret Kv1.x spenningsavhengig kaliumkanal-blokkerer ved nevromuskulær synapse, hvor det øker acetylkolinfreisetting — det farmakologiske grunnlaget for dets bruk ved LEMS.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten. Ut fra generell kunnskap er amifampridin en blokker av spenningsstyrte kaliumkanaler. Ved å forlenge depolariseringen i presynaptiske nerveender øker den kalsiuminnstrømningen og frigjøringen av acetylkolin i den nevromuskulære overgangen. Dette forklarer effekten ved LEMS.
 
-Den foreslåtte koblingen til glaukom hviler på at kalium- og vannkanal-aktivitet i siliarlegemets epitel påvirker produksjon av øyevæske og regulering av intraokulært trykk, og kaliumkanaler har en teoretisk rolle i denne veien. Imidlertid er dette en **familie-nivå**-slutning (legemidler som blokkerer kaliumkanaler generelt) snarere enn en **legemiddelspesifikk**: det finnes for tiden ingen publisert data, dyremodell, eller humant intraokulær trykkstudi som demonstrerer at amifampridine virker på kaliumkanaler i siliarlegemet.
+Det er ikke påvist noen direkte mekanistisk kobling til glaukom (forhøyet intraokulært trykk, degenerasjon av retinale ganglieceller). En spekulativ kobling kan være modulering av kaliumkanaler i nerveceller i netthinnen eller synsnerven, men dette er ikke underbygget av de foreliggende dataene. Den høye scoren er en ren modellprediksjon og støttes ikke av kliniske data eller litteratur.
 
-Evidenspakken selv flagger denne koblingen som lav-tillitsfull, ikke-spesifikk, og muligens et falskt-positivt artefakt av TxGNN-embedningsrommet snarere enn en biologisk grunnlagt hypotese. Den bør behandles som et kun hypotese-genererende signal, ikke som mekanistisk støtte for å fremme kandidaten.
-
----
-
-## Klinisk forsøks-evidens
-
-For tiden ingen relaterte kliniske forsøk registrert.
+Et annet predikert alternativ er **akutt intermitterende porfyri** (score 99,32 %). Koblingen her er svak: amifampridin påvirker ikke den underliggende metabolske defekten (mangel på hydroksymetylbilansyntase). I tillegg senker amifampridin krampeterskelen, og kramper kan forekomme ved akutte porfyriangrep, noe som er et sikkerhetsproblem. Også dette alternativet har evidensnivå L5 og anbefalingen Hold.
 
 ---
 
-## Litteratur-evidens
+## Klinisk studieevidens
 
-For tiden ingen relatert litteratur tilgjengelig.
-
----
-
-## Annen TxGNN-forutsagt indikasjon (lavere prioritet)
-
-En annen kandidatindikasjon ble også flagget av modellen: **Akutt intermittent porfyri** (TxGNN-score 99.32%, rangering 6919; Evidensnivå L5; Anbefaling: Avvent). Ingen kliniske forsøk eller litteratur ble funnet for denne koblingen heller. Begrunnelsen noter eksplisitt at amifampridines mekanisme (kaliumkanal-blokkade / nevromuskulær acetylkolinfreisetting) har ingen kjent krysspunkt med hembiosyntese eller ALA/PBG-metabolisme — den eneste plausible koblingen er en symptom-nivå tilfeldighet (perifer neuropati/svakhet sett i både AIP og nevromuskulære lidelser), som evidenspakken selv karakteriserer som et sannsynlig falskt positivt. Denne kandidaten forfølges ikke videre i denne rapporten.
+Foreløpig er det ikke registrert noen relevante kliniske studier.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Se pakningsvedlegget for sikkerhetsinformasjon.
-
-*(Merknad: et fullstendig pakningsvedlegg med advarsler og kontraindikasjoner fra Norge/TFDA-tilsvarende har ennå ikke blitt innhentet — dette er loggført som et blokkerende datahull (DG001) og forhindrer kandidaten fra å gå inn i S1-sikkerhet-forscreenings-stadiet.)*
+Foreløpig er det ingen relevant litteratur tilgjengelig.
 
 ---
 
-## Konklusjon og neste trinn
+## Markedsinformasjon for Norge
 
-**Beslutning: Avvent**
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/001032 | Firdapse (tidligere Zenas) | – | Lambert-Eaton myasteniske syndrom |
+| EMEA/H/C/005839 | Amifampridine SERB | – | Lambert-Eaton myasteniske syndrom; paraneoplastiske syndromer i nervesystemet; neoplasmer i nervesystemet; paraneoplastiske syndromer; sykdommer i nervesystemet; autoimmune sykdommer i nervesystemet; ... |
+
+Begge tillatelsene har status trukket (cancelled), og det finnes ingen gyldige tillatelser.
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Legemiddelinteraksjoner**: Totalt 68 kjente interaksjoner er registrert. Blant de som er hentet ut, er den eneste med alvorlighetsgrad **Major**:
+  - Bupropion (Major)
+
+  Flere interaksjoner med alvorlighetsgrad Moderate er registrert, blant annet:
+  - Kortikosteroider: hydrokortison, betametason, deksametason, prednisolon, prednison
+  - Sentralstimulerende og appetittdempende midler: dexfenfluramin, dietylpropion, efedrin, fenfluramin, mazindol, fentermin, sibutramin
+  - Opioider: morfin, morfin (liposomal), opium
+  - Andre: dronabinol, levofloksacin, metoklopramid, polyetylenglykol (3350 med elektrolytter)
+- **Krampeterskel**: Amifampridin senker krampeterskelen, noe som er særlig relevant ved akutt intermitterende porfyri.
+
+For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparatomtalen.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Denne kandidaten befinner seg på Evidensnivå L5 — en modell-kun prediksjon med null støttende kliniske forsøk eller litteratur, ingen bekreftet mekanisme-for-handling-rekord, og ingen markedsnærvær i Norge (0 godkjennelser, ikke markedsført). Et blokkerende datahull i pakningsvedlegget (advarsler/kontraindikasjoner) forhindrer også enhver sikkerhet-forscreening. Den mekanistiske koblingen til glaukom er selv beskrevet som en svak, ikke-spesifikk, familie-nivå-slutning som kan være et falskt positivt, så det finnes for tiden ikke grunnlag for å gå videre enn overvåking.
+Prediksjonen for glaukom bygger kun på modellscore (L5), uten kliniske studier, litteratur eller en påvist mekanistisk kobling. I tillegg er alle tillatelser i Norge trukket, og sikkerhetsdata fra preparatomtalen mangler.
 
-**For å gå videre er følgende nødvendig:**
-- Løs DG001 (Blokkering): innhent det offisielle pakningsvedlegget/merkelappen (advarsler, kontraindikasjoner) for å muliggjøre innledende sikkerhet-screening
-- Løs DG002 (Høy): bekreft detaljerte mekanisme-for-handling-data via DrugBank eller primærkilder innen farmakologi
-- Preklinisk eller mekanistisk evidens som knytter amifampridine (eller Kv1.x-blokkade spesifikt) til siliarlegemets ionetransport, øyevæske-dynamikk, eller intraokulært trykk
-- Enhver legemiddelspesifikk klinisk forsøk, kasusrapport, eller farmakoovervåkingssignal for amifampridine ved glaukom
-- Klarlegging av norsk regulatorisk vei, siden legemidlet for tiden ikke er markedsført (0 lisenser) og ville kreve en import/navngitt pasient eller ny-søknadsrute før enhver utforskende bruk
-
+**For å gå videre kreves følgende:**
+- Hente og analysere preparatomtale (advarsler og kontraindikasjoner) for sikkerhetsscreening
+- Fullstendige data om virkningsmekanisme
+- Prekliniske data eller litteratur som kan koble kaliumkanalblokkade til patofysiologien ved glaukom
+- Avklaring av administrasjonsvei og formulering som kreves for øyesykdom
+- Vurdering av markedsstatus og eventuell ny tillatelse i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

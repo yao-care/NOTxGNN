@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sirolimus
-parent: Høy evidens (L1-L2)
-nav_order: 327
-evidence_level: L2
+parent: Moderat evidens (L3-L4)
+nav_order: 386
+evidence_level: L3
 indication_count: 10
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,109 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Sirolimus: Fra nyreavstøtningsprofilakse til liposarc kom
+# Sirolimus: Fra nyretransplantasjon og tuberøs sklerose til liposarkom
+
+> **Merk:** Rapporten følger den første (høyest rangerte) prediksjonen, liposarkom. Blant de ti prediksjonene har **lymfangiomyom (LAM)** klart sterkest evidens (L1). Dette omtales i konklusjonen.
 
 ## Oppsummering i én setning
 
-Sirolimus (rapamycin) er en mTOR-hemmer som opprinnelig ble utviklet for å forhindre organavstøtning etter nyretransplantasjon. TxGNN-modellen forutsier at den kan være effektiv for **liposarc kom**, med **5 kliniske studier** og **12 publikasjoner** som for øyeblikket støtter denne retningen — selv om det meste av det sterkeste studiedata kommer fra sirolimus-analoger (temsirolimus, everolimus, ridaforolimus) snarere enn sirolimus selv.
+Sirolimus er en mTOR-hemmer som opprinnelig brukes til å forebygge transplantatavstøtning etter nyretransplantasjon, og (i formuleringen Hyftor) til angiofibromer ved tuberøs sklerose.
+TxGNN-modellen predikerer at den kan være effektiv mot **liposarkom**, men støtten er foreløpig svak: **1 klinisk studie** (fase 2, enarmet, kombinasjonsbehandling) og **7 publikasjoner**, hvorav flere kun er indirekte relevante.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Profilakse mot nyreavstøtning (immunsuppressivum) — ikke registrert i norsk regulatorisk data, utledet fra legemidlets etablerte kliniske bruk og støttende litteratur i denne evidenspakken |
-| Forutsatt ny indikasjon | Liposarc kom |
-| TxGNN-prediksjonsresultat | 99.89% |
-| Evidensnivå | L2 |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvente |
+| Opprinnelig indikasjon | Transplantatavstøtning / nyretransplantasjon; angiofibrom ved tuberøs sklerose |
+| Predikert ny indikasjon | Liposarkom |
+| TxGNN-prediksjonsscore | 99,89 % |
+| Evidensnivå | L3 |
+| Markedsstatus i Norge | Kun tilbakekalte/avregistrerte autorisasjoner |
+| Antall autorisasjoner | 2 (begge avregistrert) |
+| Anbefalt beslutning | Hold (forskningsspørsmål; se konklusjon) |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljerte mekanismedata ikke tilgjengelig i DrugBank for denne kandidaten. Basert på den støttende litteraturen i denne evidenspakken, er sirolimus en hemmer av mammalian target of rapamycin (mTOR) — den binder FKBP12 og blokkerer mTORC1-signalering, som regulerer cellevekst, proliferasjon og overlevelse. Dets effektivitet i å forhindre nyreavstøtning er godt etablert, og flere av de inkluderte publikasjonene (f.eks. studier på nyretransplantmottakere, PMID 16434506, 26093731) bemerker at sirolimus-basert immunsuppresjon er forbundet med en *redusert* forekomst av ondartetheter sammenlignet med calcineurinhemmere, noe som peker mot antiproliferativ aktivitet utover immunsuppresjon.
+Detaljerte data om virkningsmekanisme var ikke tilgjengelige i datagrunnlaget for denne rapporten. Sirolimus er likevel kjent som en hemmer av mTOR (mammalian target of rapamycin), en kinase som styrer cellevekst og celledeling.
 
-Liposarc kom, særlig den dediferensierte subtypen, har vist seg å ha avvikende aktivering av Akt-mTOR- og MAPK-banene (PMID 26518767), noe som gir en direkte mekanistisk begrunnelse for mTOR-blokkade som antitumørstrategi. Dette er mekanistisk forskjellig fra sirolimus sitt opprinnelige transplantatindikasjon, men konvergerer på samme molekylære bane (mTORC1-hemming), som er den sentrale biologiske koblingen som støtter denne gjenbrukshypotesen.
+Liposarkom viser ofte aktivering av PI3K/AKT/mTOR-signalveien. Hemming av mTOR er derfor en plausibel antiproliferativ strategi. Dette støttes av prekliniske modeller, der mTOR-hemming kan redusere tumorvekst.
 
-Viktigst er at hoveddelen av den kliniske evidensen for liposarc kom kommer fra sirolimus *analoger* (temsirolimus, everolimus, ridaforolimus) snarere enn sirolimus selv. Bare én studie (NCT02821507) tester sirolimus direkte i denne populasjonen, og det var en en-arms fase 2-studie snarere enn en randomisert kontrollert studie. Denne klassennivåekstrapolasjonen styrker den biologiske plausibilitet, men etterlater mangler i legemiddelspesifikk effektivitets- og sikkerhetsevidens.
+Den eneste direkte kliniske evidensen er en enarmet fase 2-studie av sirolimus i kombinasjon med syklofosfamid. Det finnes ingen randomiserte data, og kombinasjonen gjør det vanskelig å tilskrive effekten sirolimus alene. Støttelitteraturen består hovedsakelig av oversikter over målrettet sarkombehandling og studier av kreftrisiko hos transplanterte, som er indirekte.
 
 ---
 
-## Bevis fra kliniske studier
+## Klinisk studiedokumentasjon
 
 | Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Phase 2 | Fullført | 70 | En-arms studie av sirolimus + cyclophosphamid ved metastatisk/uopperable myxoid liposarc kom og kondrosar kom; direkte bruk av sirolimus |
-| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | Phase 1/2 | Fullført | 24 | Torisel (temsirolimus, sirolimus-analog) + liposamal doxorubicin ved avansert myktvev- og beinsarc kom |
-| [NCT01614795](https://clinicaltrials.gov/study/NCT01614795) | Phase 2 | Fullført | 46 | Cixutumumab + temsirolimus ved pediatrisk tilbakevendende/refraktær sarc kom |
-| [NCT00093080](https://clinicaltrials.gov/study/NCT00093080) | Phase 2 | Fullført | 216 | Ridaforolimus (mTOR-hemmeranal og) ved avansert sarc kom; største studie i denne indikasjonen men ikke sirolimus selv |
-| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Phase 2 | Aktiv, ikke rekrutterer | 48 | Ribociclib + everolimus ved avansert dediferensiert liposarc kom og leiomyosarc kom |
+| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Fase 2 | Fullført | 70 | Enarmet, multisenter-studie av sirolimus pluss syklofosfamid ved metastatisk eller ikke-operabelt myksoid liposarkom og kondrosarkom. Ingen kontrollarm; populasjonen er ikke spesifikk for liposarkom. |
 
 ---
 
-## Litteraturbevis
+## Litteraturdokumentasjon
 
-| PMID | År | Type | Journal | Hovedfunn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | RCT (Phase 2) | Clin Cancer Res | Ribociclib + everolimus viste synergistisk vekstinhibisjon i dediferensierte liposarc kom- og leiomyosarc kom-modeller, noe som støtter mTOR-banemålretting |
-| [16434506](https://pubmed.ncbi.nlm.nih.gov/16434506/) | 2006 | Kohortstudie (transplantatpopulasjon) | J Am Soc Nephrol | Sirolimus etter cyclosporin-tilbaketrekking reduserte kreftrisiko hos nyretransplantmottakere, noe som tyder på antitumøraktivitet av sirolimus utover immunsuppresjon |
-| [39796641](https://pubmed.ncbi.nlm.nih.gov/39796641/) | 2024 | Oversikt | Cancers | Oversikt over nye terapeutiske midler ved myktvevssarc kom, inkludert mTOR-banemålrettede midler |
-| [37400145](https://pubmed.ncbi.nlm.nih.gov/37400145/) | 2023 | Preklinisk | Cancer Genomics Proteomics | Kombinasjon av klorokin og rapamycin (sirolimus) hemmet autofagi synergistisk og var effektiv mot veldiferensierte liposarc kom-modeller |
-| [26518767](https://pubmed.ncbi.nlm.nih.gov/26518767/) | 2016 | Mekanismestudie | Tumour Biol | Demonstrerte aktivering av Akt-mTOR- og MAPK-banene i dediferensierte liposarc kom-prøver, noe som gir det mekanistiske grunnlaget for mTOR-hemming |
-| [37222206](https://pubmed.ncbi.nlm.nih.gov/37222206/) | 2023 | Oversikt | Curr Opin Oncol | Sammendrag av nylige kliniske studier på molekylærmålrettede midler, inkludert mTOR-hemmere, ved avansert sarc kom |
-| [26093731](https://pubmed.ncbi.nlm.nih.gov/26093731/) | 2015 | Kohortstudie (transplantatpopulasjon) | Transplant Proc | Evaluerte effekter av immunsuppressive legemidler, inkludert sirolimus, på ondartethetsutvikling hos langtidstransplantpasienter |
-| [36309387](https://pubmed.ncbi.nlm.nih.gov/36309387/) | 2022 | Preklinisk (PDOX-modell) | In Vivo | Klorokin kombinert med rapamycin stoppet tumorvekst i en pasient-utledet ortotopisk xenograft-modell av dediferensiert liposarc kom |
-| [25519700](https://pubmed.ncbi.nlm.nih.gov/25519700/) | 2015 | Preklinisk | Mol Cancer Ther | Beskrev dysregulering av PI3K/Akt/mTOR-banen på tvers av flere sarc kom-subtyper og begrensninger av første-generasjons rapaloge |
-| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Oversikt | Bull Cancer | Diskuterte målrettede behandlingsmetoder, inkludert mTOR-banehemming, for sjeldne bindevevstumorer og sarcomer |
+| [16434506](https://pubmed.ncbi.nlm.nih.gov/16434506/) | 2006 | RCT | J Am Soc Nephrol | Hos nyretransplanterte reduserte sirolimus etter tidlig seponering av ciklosporin risikoen for kreft (indirekte relevans). |
+| [39796641](https://pubmed.ncbi.nlm.nih.gov/39796641/) | 2024 | Oversikt | Cancers | Nye behandlinger ved bløtvevssarkom. |
+| [37222206](https://pubmed.ncbi.nlm.nih.gov/37222206/) | 2023 | Oversikt | Curr Opin Oncol | Nyere kliniske studier av målrettede midler ved avanserte sarkomer. |
+| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Oversikt | Bull Cancer | Målrettet behandling av sjeldne bindevevssvulster og sarkomer. |
+| [26093731](https://pubmed.ncbi.nlm.nih.gov/26093731/) | 2015 | Oversikt | Transplant Proc | Kreftscreening og effekter av immunsuppressiva hos nyretransplanterte. |
+| [42753013](https://pubmed.ncbi.nlm.nih.gov/42753013/) | 2026 | Kohortestudie | Fam Cancer | Klinisk spekter ved PTEN-hamartomsyndrom (indirekte). |
+| [32711543](https://pubmed.ncbi.nlm.nih.gov/32711543/) | 2020 | Kasuistikk | Diagn Pathol | Tre tilfeller av fibro-adipøs vaskulær anomali med vekt på mTOR-signalveien. |
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Sirolimus har for øyeblikket **ingen markedssamtillatelser i Norge** (totalt: 0 autorisasjoner). Ingen produktdata vedrørende doseringsform eller godkjente indikasjoner er tilgjengelig i det norske regulatoriske datasettet.
+| Autorisasjonsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000273 | Rapamune | Ikke oppgitt | Transplantatavstøtning, nyretransplantasjon (avregistrert) |
+| EMEA/H/C/005896 | Hyftor | Ikke oppgitt | Angiofibrom, tuberøs sklerose (avregistrert) |
 
 ---
 
-## Sikkerhetshensyn
+## Cytotoksisitet
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+| Punkt | Innhold |
+|------|------|
+| Cytotoksisitetsklassifisering | Målrettet behandling (mTOR-hemmer), ikke konvensjonelt cytotoksisk. Brukes mot liposarkom i kombinasjon med syklofosfamid i den aktuelle studien. |
+| Risiko for myelosuppresjon | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Emetogenisitet | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Blodbilde, lever- og nyrefunksjon, lipider og blodsukker; dalkonsentrasjon av sirolimus |
+| Håndteringsbeskyttelse | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+
+---
+
+## Sikkerhetsvurderinger
+
+Sikkerhetsdata fra pakningsvedlegget var ikke tilgjengelige i datagrunnlaget. Følgende er hentet fra kunnskapsgrafen og legemiddelinteraksjonsdatabasen.
+
+- **Mulige kontraindikasjoner/risikotilstander (fra kunnskapsgraf, ikke fra preparatomtale):** hypertensjon, nyresykdom, leversykdom, gallblæresykdom, hyperglykemi og diabetes mellitus, diabetisk ketoacidose, hypertriglyseridemi og hyperlipidemi (inkludert familiær), hyperbilirubinemi (inkludert Gilberts syndrom), hjerneslag og cerebrovaskulære sykdommer, infeksjonssykdommer (inkludert pneumocystose og cytomegalovirusinfeksjon), interstitiell lungesykdom, perikardial effusjon, progressiv multifokal leukoencefalopati samt kreftformer (inkludert hjernekreft).
+- **Legemiddelinteraksjoner:** 100 interaksjoner er registrert. Eksempler på **alvorlige (Major)**: amfotericin B (inkludert lipidkompleks), mesalazin, balsalazid og klaritromycin. Eksempler på **moderate**: akarbose, metformin, pioglitazon, alogliptin, albiglutid, kanagliflozin, dapagliflozin, klorpropamid, kortikosteroider (hydrokortison, deksametason, betametason, budesonid, triamcinolon), aprepitant og cimetidin.
+
+Se pakningsvedlegget for fullstendig sikkerhetsinformasjon.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvente**
+**Beslutning: Hold** (for liposarkom; forskningsspørsmål)
 
 **Begrunnelse:**
-Selv om mekanistisk begrunnelse (mTOR-banektivering i liposarc kom) er biologisk plausibel og støttet av bevis på klassenivå (L2), har sirolimus selv bare en fullført en-arms fase 2-studie i denne indikasjonen, det meste av effektivitetsdataene kommer fra analoge forbindelser, og legemidlet er ikke for øyeblikket markedsført i Norge. Kritisk sett er TFDA/norsk pakningsvedleggsdata (advarsler, kontraindikasjoner) helt utilgjengelig, noe som blokkerer selv en foreløpig sikkerhetsvurdering.
+- Evidensen for liposarkom er begrenset til én enarmet fase 2-studie med kombinasjonsbehandling og indirekte litteratur. Det finnes ingen randomiserte data. Markedsstatusen i Norge er «kun avregistrert», og sikkerhetsdata fra pakningsvedlegget mangler.
+- Til sammenligning har **lymfangiomyom (LAM)** (rang 5) evidensnivå L1, støttet av fase 3-studiene MILES (NCT00414648) og MLE (NCT03150914). Dette er den mest modne prediksjonen for sirolimus og kan vurderes som «Proceed with Guardrails», med overvåking av infeksjoner, lipider, pneumonitt, interaksjoner og dalkonsentrasjon. Merk at LAM-effekten er suspensiv, og sykdommen progredierer etter seponering. Lunge-PEComa (rang 9) deler samme mekanisme, men har svakere direkte støtte, og koblingen til LAM bør bekreftes.
 
-**For å fortsette er følgende nødvendig:**
-- TFDA/norsk pakningsvedleggsdata (advarsler, kontraindikasjoner, DDI) for å fullføre en grunnleggende sikkerhetsvurdering
-- DrugBank-bekreftet mekanismedata for sirolimus
-- En sirolimus-spesifikk (ikke analog) randomisert kontrollert studie i liposarc kom for å oppgradere evidensnivå utover en-arms fase 2
-- Vurdering av administrasjonsvei og formuleringskompatibilitet for en onkologisk behandlingsinnstilling
-- Vurdering av beslektede kandidater med høyere tillit i denne samme evidenspakken (f.eks. lung PEComa, rangering 9, "Gå videre med sikkerhetstiltak") som kan berettige parallell evaluering gitt sterkere direkte sirolimus-studiestøtte (MIDAS, RESULT, MILES trials)
-
+**For å gå videre kreves:**
+- Pakningsvedlegg med advarsler og kontraindikasjoner fra legemiddelmyndighetene (blokkerende datamangel)
+- Data om virkningsmekanisme fra DrugBank
+- Randomiserte eller kontrollerte data for sirolimus ved liposarkom, helst med vurdering av enkeltstoffeffekten uten syklofosfamid
+- Avklaring av tilgjengelighet og formulering, siden begge autorisasjoner er avregistrert
+- Sikkerhetsplan for den høye interaksjonsbyrden og for pasienter med risikotilstander (diabetes, hyperlipidemi, lever- og nyresykdom)
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

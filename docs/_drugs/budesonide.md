@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Budesonide
-parent: Moderat evidens (L3-L4)
-nav_order: 62
-evidence_level: L4
+parent: Kun modellprediksjon (L5)
+nav_order: 69
+evidence_level: L5
 indication_count: 10
 ---
 
 # Budesonide
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,92 +29,105 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Budesonide: Fra kortikosteroid anti-inflammatorisk terapi til atopisk eksem
+# Budesonid: Fra kols, astma og spiserørssykdom til atopisk eksem
 
-## Oppsummering i en setning
+## Oppsummering
 
-> Budesonide er et glukokortikoid hvis opprinnelige godkjente indikasjon ikke er dokumentert i denne bevissamlingen (ingen markedsføringstillatelser i Norge er registrert), men det er bredt kjent som et kortikosteroid som brukes for kroniske inflammatoriske tilstander i luftveiene og gastrointestinale slimhinner.
-> TxGNN-modellen forutsier at det kan være effektivt for **Atopisk Eksem (Atopisk Dermatitt)**,
-> med **2 kliniske forsøk** (begge bare tangensielt relatert) og **20 publikasjoner** som for tiden er forbundet med denne retningen, hvorav de fleste omhandler kontaktsensibilisering, pediatrisk sikkerhet eller tidligstadium-formuleringsforskning snarere enn direkte effektivitetsforsøk.
+Budesonid er et kortikosteroid som opprinnelig brukes mot kronisk obstruktiv lungesykdom (kols), astma og spiserørssykdom (eosinofil øsofagitt). TxGNN-modellen forutsier at legemidlet kan ha effekt ved **atopisk eksem**, men for denne indikasjonen finnes **ingen kliniske studier** og bare **én prekliniske formuleringsstudie** med direkte relevans blant **20 identifiserte publikasjoner**. Prediksjonen er derfor kun modellbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Post | Innhold |
-|------|---------|
-| Opprinnelig indikasjon | Ikke tilgjengelig — Budesonide har ingen markedsføringstillatelser i Norge registrert (0 lisenser); ingen godkjent indikasjonistekst i bevissamlingen |
-| Forutsagt ny indikasjon | Atopisk Eksem (Atopisk Dermatitt) |
-| TxGNN-forutsigelsesscore | 99.96% |
-| Bevisnivå | L4 |
-| Markedsstatus i Norge | Ikke markedsført (Ikke markedsført) |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Vente (Forskningsspørsmål-stadium) |
-
----
-
-## Hvorfor er denne forutsigelsen rimelig?
-
-For øyeblikket er detaljerte virkningsmekanisme-data ikke tilgjengelig for budesonide som en separat oppføring i denne bevissamlingen (flagget som et høy-alvorlighetsgrads datakluft). Basert på modellens egen ombruksrasjonale, er budesonide et potent glukokortikoid som hemmer NF-κB-banen og undertrykker frigjøring av pro-inflammatoriske cytokin. Når det påføres lokalt, reduserer det epidermal inflammasjon og barrierefunksjonsfeil — samme klassevirkningsmekanisme som topikaliske kortikosteroider brukes til å behandle atopisk dermatitt.
-
-Imidlertid er budesonide vanligvis ikke en førstelinjeagens for topikalisk atopisk eksem (hydrokortison og mometason er mer vanlig brukt i den rollen), og selve bevissamlingen bemerker at direkte klinisk bevis for budesonide spesifikt i AD-behandling er begrenset. Den understøttende litteraturen dekker stort sett tilgrensende emner — allergi-/kontaktsensibiliseringsmønstre hos AD-pasienter, pediatriske sikkerhetsstudier av topikaliske glukokortikosteroider (vekst- og benneverlingseffekter), og et enkelt preklinisk nanopartikkel-hydrogel-formuleringsforsøk — snarere enn kontrollerte effektivitetsforsøk av budesonide mot AD.
-
-Mekanistisk er forutsigelsen biologisk plausibel som en kortikosteroidklasseffekt (anti-inflammatorisk virkning på epitel-/slimhinnebarrierer), i samsvar med budesonides etablerte bredere bruk på tvers av slimhinne-inflammatoriske sykdommer (f.eks. respiratorisk og GI-trakt, per litteraturen fanget i denne pakken). Men siden budesonides egne godkjente-indikasjonsprofil og MOA-data ikke er dokumentert her, og ingen dedikert RCT av budesonide for AD eksisterer i det gjeldende beviset, forblir dette en forskningshypotese snarere enn et validert ombukssignal.
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Spiserørssykdom (Esophageal Diseases) |
+| Predikert ny indikasjon | Atopisk eksem |
+| TxGNN-prediksjonsscore | 99,96 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun opphevede godkjenninger |
+| Antall godkjenninger | 6 (alle opphevet) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Bevis fra kliniske forsøk
+## Hvorfor er denne prediksjonen rimelig?
 
-| Forsøksnummer | Fase | Status | Innrullering | Viktige funn |
-|---------|------|------|------|---------|
-| [NCT04680117](https://clinicaltrials.gov/study/NCT04680117) | N/A | Ukjent | 150 | Karakteriserer alvorlig pediatrisk astma-endotyper (immune, metabolomiske, mikrobielle trekk); atopi er en sekundær fenotyp-variabel, ikke et behandlingsendepunkt for eksem (relevansgrad C). |
-| [NCT01028560](https://clinicaltrials.gov/study/NCT01028560) | Fase 1/2 | Fullført | 58 | Evaluerer allergiimmunterapi for å forhindre astma-morbiditet hos atopiske, hvinende barn; eksem/mateallergi bemerket som sameksisterende risikofaktorer, ikke et direkte budesonide-AD effektivitetsforsøk (relevansgrad C). |
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Budesonid er et glukokortikoid med bred antiinflammatorisk og immundempende virkning. Effekten er godt dokumentert ved kols, astma og eosinofil øsofagitt, som alle er kroniske, inflammatoriske slimhinnetilstander.
+
+Atopisk eksem er en Th2-drevet inflammatorisk hudsykdom, og topiske kortikosteroider er allerede standardbehandling. Mekanismen er derfor biologisk plausibel. Likevel viser den innhentede litteraturen ingen klinisk effekt av budesonid ved atopisk eksem. Den eneste direkte relevante publikasjonen er en preklinisk studie av budesonid-nanopartikler i hydrogel. Resten omhandler eosinofil øsofagitt, kontaktallergi, kortikosteroid-overfølsomhet og binyresuppresjon. Den høye TxGNN-scoren er en ren prediksjon og understøttes ikke av kliniske data.
+
+Atopisk eksem opptrer også under navnet «dermatitis, atopic» (rangert som nr. 3, score 99,81 %). Dette er samme sykdom med annen merkelapp og har like svak evidens.
 
 ---
 
-## Bevis fra litteratur
+## Dokumentasjon fra kliniske studier
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
+Foreløpig er det ikke registrert noen relaterte kliniske studier for atopisk eksem.
+
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [38275852](https://pubmed.ncbi.nlm.nih.gov/38275852/) | 2024 | Preklinisk formuleringsforsøk | Gels (Basel) | pH-sensitiv budesonide nanopartikkel-hydrogel utviklet for lokal levering hos pediatrisk atopisk dermatitt; omhandler dermalt absorpsjon og bivirkningsbegrensninger. |
-| [21062310](https://pubmed.ncbi.nlm.nih.gov/21062310/) | 2010 | RCT (veterinær) | J Vet Pharmacol Ther | Randomisert, blindet, placebo-kontrollert forsøk av topikalisk 0.025% budesonide kondisjonering hos hund atopisk dermatitt; redusert hudskader/kløe og forbedret livskvalitet. |
-| [35133669](https://pubmed.ncbi.nlm.nih.gov/35133669/) | 2022 | Kohorte | Contact Dermatitis | Sammenligner kontaktsensibiliseringsmønstre mellom AD og ikke-AD pasienter i en asiatisk dermatologi-kohorte. |
-| [19875223](https://pubmed.ncbi.nlm.nih.gov/19875223/) | 2010 | Kohorte | Allergologia et Immunopathologia | Evaluerer budesonide-respons blant atopiske vs. ikke-atopiske spedbarn/førskolebarn med gjentakende hvinning. |
-| [30053491](https://pubmed.ncbi.nlm.nih.gov/30053491/) | 2018 | Kohorte | J Am Acad Dermatol | Undersøker allergisk kontaktdermatitt til topikaliske legemidler og personlige pleieproduker hos voksne med AD. |
-| [9496795](https://pubmed.ncbi.nlm.nih.gov/9496795/) | 1998 | Kohorte/intervensjon | Pediatric Dermatology | Knemometri-studie som evaluerer kortsiktige veksteffekter av topikalisk budesonide hos barn med AD. |
-| [8864369](https://pubmed.ncbi.nlm.nih.gov/8864369/) | 1996 | Kohorte/intervensjon | Dermatology (Basel) | Evaluerer IGF-akse, bein- og kollagenomsetning hos barn med AD behandlet med topikaliske glukokortikosteroider. |
-| [33931866](https://pubmed.ncbi.nlm.nih.gov/33931866/) | 2021 | Kohorte | Contact Dermatitis | SIDAPA baselinje patch-test serie (Italia) rapporterer trender i budesonide-kontaktallergi. |
-| [24603519](https://pubmed.ncbi.nlm.nih.gov/24603519/) | 2014 | Kohorte | Dermatitis | Kontakthypersensitivitet til standard-serie og kortikosteroid-serie haptener hos ungdommer/voksne med AD. |
-| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Oversikt | Neuroimmunomodulation | Gjennomgår binyreundertrykkelsesrisiko fra intranasale kortikosteroider hos pasienter med samtidig allergisk rhinitt/astma/AD. |
+| [38275852](https://pubmed.ncbi.nlm.nih.gov/38275852/) | 2024 | Preklinisk formuleringsstudie | Gels | Budesonid-lastede Eudragit-nanopartikler i hydrogel for lokal behandling av atopisk dermatitt |
+| [35056927](https://pubmed.ncbi.nlm.nih.gov/35056927/) | 2021 | Ex vivo-studie | Pharmaceutics | Cyklodekstrin og poloxamer-hydrogel for å bedre hudretensjon av budesonid |
+| [9496795](https://pubmed.ncbi.nlm.nih.gov/9496795/) | 1998 | Åpen klinisk studie (n=14) | Pediatric Dermatology | Knemometri hos barn med atopisk eksem; vurderte om topisk budesonid påvirker kortsiktig vekst |
+| [16428071](https://pubmed.ncbi.nlm.nih.gov/16428071/) | 2006 | Laboratoriestudie | Int Immunopharmacol | Budesonid, men ikke takrolimus, påvirker immunfunksjonen i humane keratinocytter |
+| [31705907](https://pubmed.ncbi.nlm.nih.gov/31705907/) | 2020 | Oversikt | J Allergy Clin Immunol | Nye behandlinger for eosinofil øsofagitt (indirekte relevans) |
+| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Oversikt | Neuroimmunomodulation | Intranasale kortikosteroider og binyresuppresjon |
+| [14616123](https://pubmed.ncbi.nlm.nih.gov/14616123/) | 2003 | Oversikt | Allergy | Kortikosteroid-allergi hos astmapasienter |
+| [33931866](https://pubmed.ncbi.nlm.nih.gov/33931866/) | 2021 | Epikutantest-studie | Contact Dermatitis | Budesonid som markør for kortikosteroid-overfølsomhet; synkende trend i allergi |
+| [37927648](https://pubmed.ncbi.nlm.nih.gov/37927648/) | 2023 | Kasuistikk | Cureus | Steroidindusert angioødem og urtikaria |
+| [21062310](https://pubmed.ncbi.nlm.nih.gov/21062310/) | 2010 | Randomisert kontrollert studie (hund) | J Vet Pharmacol Ther | Budesonid 0,025 % «leave-on»-balsam reduserte hudlesjoner og kløe hos hunder med atopisk dermatitt (veterinær, ikke overførbar til mennesker) |
 
 ---
 
 ## Markedsinformasjon for Norge
 
-For øyeblikket er ingen markedsføringstillatelser registrert — Budesonide er ikke markedsført i Norge per denne bevissamlingen (0 lisenser på fil).
+Alle seks godkjenninger er opphevet. Ingen gyldige godkjenninger er registrert.
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004655 | Jorveza | – | Spiserørssykdom |
+| EMEA/H/C/003890 | BiResp Spiromax | – | Kols, astma |
+| EMEA/H/C/002348 | DuoResp Spiromax | – | Kols, astma |
+| EMEA/H/C/004882 | GoResp Digihaler | – | Astma, kols |
+| EMEA/H/C/004983 | Trixeo Aerosphere | – | Kols |
+
+(Ytterligere én opphevet godkjenning, Riltrava Aerosphere, EMEA/H/C/005311, gjelder kols.)
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og legemiddelinteraksjonsdata er ikke tilgjengelig i denne bevissamlingen — TFDA/regulatorisk merkedata er flagget som et Blokkerende-alvorlighetsgrad gap, DG001.)
+- **Kontraindikasjoner fra kunnskapsgraf (ikke fra preparatomtale):** Kunnskapsgrafen (PrimeKG) knytter budesonid til blant annet hypertensjon, epilepsi, leversykdom, galleblæresykdom, hyperglykemi, kongestiv hjertesvikt, herpes simplex-keratitt, meslinger og ulike former for hypofysesvikt (inkl. hypopituitarisme, Kallmanns syndrom og Sheehans syndrom).
+- **Legemiddelinteraksjoner:** 100 interaksjoner er registrert. Blant de viktigste:
+  - **Alvorlige:** adalimumab, fosamprenavir.
+  - **Moderate:** zidovudin, isotretinoin, acebutolol, ketorolac, nifedipin, ibuprofen, etinylestradiol, fluvoxamin, aldesleukin, alemtuzumab, fosaprepitant, fosinopril, fostamatinib.
+  - **Mindre alvorlige:** formoterol, salbutamol.
+- **Sikkerhetssignaler i litteraturen:** Kontaktallergi mot kortikosteroider hos pasienter med atopisk eksem, mulig binyresuppresjon, og mulig effekt på vekst hos barn ved topisk bruk.
+
+Se preparatomtalen for fullstendig informasjon om advarsler og kontraindikasjoner.
 
 ---
 
-## Konklusjon og neste skritt
+## Konklusjon og neste steg
 
-**Beslutning: Vente (Forskningsspørsmål-stadium)**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Kortikosteroid anti-inflammatorisk mekanisme er biologisk plausibel for atopisk eksem, men gjeldende bevis for budesonide spesifikt består av kun 2 indirekte relaterte kliniske forsøk (relevansgrad C) og litteratur dominert av kontaktsensibilisering-epidemiologi, pediatriske sikkerhetsstudier og et enkelt preklinisk formuleringsforsøk — ikke kontrollerte effektivitetsforsøk. Dette tilsvarer L4 bevis (mekanisme/preklinisk bare), utilstrekkelig til å gå utover et forskningsspørsmål.
+Evidensnivået er L5. Det finnes ingen kliniske studier for atopisk eksem, og litteraturen består i hovedsak av studier om kontaktallergi, sikkerhet og formulering. Den høye TxGNN-scoren er ikke støttet av kliniske data, og alle norske godkjenninger er opphevet.
 
-**For å fortsette er det følgende nødvendig:**
-- Legemidlets egen MOA-data via DrugBank API (DG002, Høy alvorlighetsgrad)
-- TFDA/regulatorisk pakningsvedlegg — advarsler og kontraindikasjoner (DG001, Blokkerende alvorlighetsgrad; nødvendig før enhver sikkerhetsvurdering på S1-nivå)
-- Et dedikert klinisk forsøk (RCT) som tester topikalisk budesonide-effektivitet mot atopisk dermatitt, siden ingen for øyeblikket eksisterer
-- Rute-/formuleringskompatibilitetsvurdering (topikalisk vs. eksisterende inhalert/oral/rektal budesonide-formuleringer)
-- Merknad: pakken sin nr. 2-rangerte prediksjon, *bronkitt*, bærer sterkere L2 bevis med en "Fortsett med Sikring" anbefaling og kan rettferdiggjøre separat evaluering parallelt
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel)
+- Kontrollerte kliniske studier av topisk budesonid ved atopisk eksem, sammenlignet med etablerte topiske kortikosteroider
+- Vurdering av administrasjonsvei og formulering (dagens godkjente produkter er inhalasjons- og oral-/øsofagusformuleringer)
+- Sikkerhetsvurdering for kontaktallergi og systemisk absorpsjon, spesielt hos barn
 
+**Merknad om andre prediksjoner:** Bronkitt (rangert nr. 2, score 99,81 %) har høyere evidensnivå (L2), med blant annet en randomisert fase 4-studie ved eosinofil bronkitt (NCT02002715, n=106). Den overlapper imidlertid med den opprinnelige kols-indikasjonen og er dermed neppe reell ompostering. Dette kan vurderes som et eget forskningsspørsmål.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

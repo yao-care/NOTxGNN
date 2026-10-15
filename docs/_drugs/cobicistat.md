@@ -2,7 +2,7 @@
 layout: default
 title: Cobicistat
 parent: Kun modellprediksjon (L5)
-nav_order: 91
+nav_order: 103
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,71 +29,100 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Cobicistat: Fra antiretroviral farmakokkinetisk forsterker til Simian Immunodeficiency Virus-infeksjon
+# Kobicistat: Fra hiv-infeksjon til simian immunsviktvirus-infeksjon
 
-## Sammendrag i en setning
+## Oppsummering i én setning
 
-Cobicistat er en CYP3A4-hemmer som brukes klinisk som farmakokkinetisk forsterker i kombinert antiretroviral terapi (f.eks. med elvitegravir, atazanavir, darunavir) snarere enn som direkte antiviralt middel i seg selv. TxGNN-modellen forutsier en mulig sammenheng til **Simian Immunodeficiency Virus-infeksjon**, men denne prediksjonen støttes for øyeblikket av **0 kliniske forsøk** og **0 publikasjoner** — det er et rent modellresultat uten støttende bevis.
-
----
-
-## Hurtig oversikt
-
-| Element | Innhold |
-|---------|---------|
-| Original indikasjon | Farmakokkinetisk forsterker (booster) for antiretroviral terapi — ikke en selvstendig sykdomsindikasjon |
-| Forutsagt ny indikasjon | Simian Immunodeficiency Virus-infeksjon |
-| TxGNN prediksjonspoeng | 99.92% |
-| Bevisnivå | L5 |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvente |
+Kobicistat er en farmakokinetisk forsterker (booster) som opprinnelig brukes i behandling av hiv-infeksjon, og som i seg selv ikke har antiviral effekt. TxGNN-modellen forutsier at legemidlet kan være effektivt mot **simian immunsviktvirus-infeksjon**, men det finnes **ingen kliniske studier** og **ingen publikasjoner** i de sammenstilte dataene som støtter denne prediksjonen.
 
 ---
 
-## Hvorfor er denne prediksjonen fornuftig?
+## Hurtigoversikt
 
-En strukturert, DrugBank-dokumentert oppføring av virkningsmekanisme er for øyeblikket utilgjengelig for cobicistat (flagget som en høyalvorlighetsgrad datakløft, DG002). Basert på den farmakologiske informasjonen innebygd i modellens egen begrunnelse, er cobicistat kjent for å fungere som en CYP3A4-hemmer — den har ingen direkte antivirale aktivitet i seg selv, og dens kliniske rolle er begrenset til å øke plasmakonsentrasjoner av samtidig administrerte antiretroviraler. Den fungerer ikke direkte mot virale replikasjonssystemer.
-
-Simian Immunodeficiency Virus (SIV) er primatanalogen til HIV og brukes vanligvis som en dyremodell for HIV-forskning. TxGNN-modellens høye poengsum for denne assosiasjonen gjenspeiler sannsynligvis nærhet i kunnskapsgrafen mellom cobicistat, HIV-relaterte stoffklasser, og SIV som en HIV-modell sykdomsenhet — snarere enn noe bevis for at cobicistat i seg selv har anti-SIV-aktivitet. I beste fall kunne cobicistat teoretisk tjene som forsterker for andre antivirale stoffer i et SIV-behandlingsregime, analogt til dets humane ARV-bruk; det ville ikke fungere som et frittstående terapeutikum.
-
-To tilleggskandidater ble forutsagt med nesten identiske poengsum: **felint ervervet immunsviktssyndrom (FIV)**, som følger samme booster-kun logikk med økt bekymring om artsspesifikke CYP450-forskjeller mellom katter og mennesker, og en **sjelden neuro-utviklingsmessig lidelse** (ataksisk gang, manglende tale, redusert kortikal hvit substans) som det ikke finnes noen plausibel mekanistisk sammenheng til CYP3A4-hemming for. Denne tredje kandidaten vurderes som en sannsynlig falsk positiv og anbefales ikke for videre etterforskning.
-
----
-
-## Klinisk forsøksbevis
-
-Ingen relaterte kliniske forsøk er for øyeblikket registrert.
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Hiv-infeksjon |
+| Predikert ny indikasjon | Simian immunsviktvirus-infeksjon |
+| TxGNN-prediksjonsscore | 99,92 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
+| Antall godkjenninger | 6 (alle kansellerte) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Litteraturbevis
+## Hvorfor er denne prediksjonen rimelig?
 
-Ingen relatert litteratur er tilgjengelig for øyeblikket.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon er kobicistat en mekanismebasert hemmer av CYP3A og brukes til å øke blodnivået av andre antiretrovirale legemidler. Legemidlet har ingen egen antiviral aktivitet.
+
+Simian immunsviktvirus (SIV) hos ikke-menneskelige primater er en veterinærmedisinsk og prekliniske modell for hiv, som er legemidlets opprinnelige indikasjon. Den høye TxGNN-scoren gjenspeiler trolig nærhet til hiv i kunnskapsgrafen (begge er lentivirus) snarere enn en ny terapeutisk mekanisme.
+
+Enhver bruk ville måtte skje som booster for et antiretroviralt partnerlegemiddel. Dette er en sykdom i en modellorganisme og ikke et reelt repurposing-mål hos mennesker.
+
+### Andre prediksjoner i datagrunnlaget
+
+| Rang | Predikert sykdom | TxGNN-score | Evidensnivå | Vurdering |
+|------|------|------|------|------|
+| 2 | Felint ervervet immunsviktsyndrom (FIV, veterinær) | 99,92 % | L5 | Hold. Samme resonnement som over: ingen direkte antiviral effekt, kun mulig boosterrolle. |
+| 3 | Nevroutviklingsforstyrrelse med ataktisk gange, fravær av tale og redusert kortikal hvit substans | 99,91 % | L5 | Hold. Ingen mekanistisk sammenheng identifisert; scoren kan være et grafartefakt. |
 
 ---
 
-## Sikkerhetshensyn
+## Klinisk studieevidens
 
-Se pakkeutsendingen for sikkerhetsinformasjon.
-
-*(Merk: TFDA-advarsler på merkingen og kontraindikasjoner er flagget som en blokkert datakløft (DG001) — påkrevd før denne kandidaten kan gå videre til en formell sikkerhetsvurdering.)*
+Foreløpig finnes det ingen relaterte kliniske studier registrert.
 
 ---
 
-## Konklusjon og neste trinn
+## Litteraturevidens
 
-**Beslutning: Avvente**
+Foreløpig finnes det ingen relatert litteratur.
+
+---
+
+## Informasjon om det norske markedet
+
+Alle godkjenninger er kansellerte. Oppføringene under er de som er kompilert for denne rapporten.
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/002572 | Tybost | – | Hiv-infeksjon |
+| EMEA/H/C/003904 | Evotaz | – | Hiv-infeksjon |
+| EMEA/H/C/002819 | Rezolsta | – | Hiv-infeksjon |
+| EMEA/H/C/004042 | Genvoya | – | Hiv-infeksjon |
+| EMEA/H/C/002574 | Stribild | – | Hiv-infeksjon |
+
+*Ytterligere én kansellert godkjenning (Symtuza, EMEA/H/C/004391) er ikke vist i tabellen.*
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Legemiddelinteraksjoner**: Det er registrert 100 interaksjoner i datagrunnlaget. Et utvalg av de mest alvorlige (nivå «Major»):
+  - Loperamid
+  - Triamcinolon
+  - Cisaprid
+  - Budesonid
+
+  Mange interaksjoner på nivå «Moderate» gjelder blant annet kortikosteroider (hydrokortison, deksametason, betametason), aprepitant, klotrimazol, klaritromycin, metoklopramid og repaglinid. Interaksjonene skyldes i hovedsak kobicistats hemming av CYP3A.
+
+For øvrig sikkerhetsinformasjon, se preparatomtalen (pakningsvedlegget).
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Alle tre TxGNN-forutsagte indikasjoner for cobicistat mangler enhver klinisk forsøk eller litteraturstøtte, og den underliggende mekanismen (en farmakokkinetisk forsterker uten iboende antivirale eller nevrologiske aktiviteter) rettferdiggjør ikke på plausibel måte frittstående terapeutisk bruk i noen av de forutsagte tilstandene. Cobicistat er heller ikke for øyeblikket markedsført i Norge, og sentrale regulatoriske og sikkerhetsmessige data mangler.
+Prediksjonen er kun modellbasert (L5) uten støtte fra kliniske studier eller litteratur. Kobicistat har ingen egen antiviral effekt, og de predikerte indikasjonene er enten veterinære/modellorganismer eller uten identifisert mekanistisk sammenheng. I tillegg er alle norske godkjenninger kansellert, og legemidlet har et stort interaksjonsbyrde.
 
-**For å gå videre, kreves følgende:**
-- TFDA-ekvivalent merkingsdata — advarsler, kontraindikasjoner (DG001, blokkert)
-- Bekreftet virkningsmekanisme via DrugBank API (DG002)
-- Preklinisk eller in vitro-bevis som etablerer noen direkte eller forsterker-medieret relevans til SIV-infeksjon spesifikt
-- Fullstendig legemiddel-legemiddel interaksjon (DDI) profil før videre evalueringsstadium
-
+**For å gå videre trengs følgende:**
+- Informasjon om advarsler og kontraindikasjoner fra preparatomtalen (blokkerende datagap for sikkerhetsscreening)
+- Detaljerte data om virkningsmekanisme (MOA)
+- Prekliniske eller kliniske data som viser en reell terapeutisk verdi utover boosting av partnerlegemidler
+- Avklaring av om en veterinær- eller modellorganisme-indikasjon er relevant for repurposing-formålet
+- Avklaring av markedsstatus og tilgjengelighet i Norge, siden alle godkjenninger er kansellert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

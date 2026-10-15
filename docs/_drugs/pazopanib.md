@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pazopanib
-parent: Høy evidens (L1-L2)
-nav_order: 267
-evidence_level: L2
+parent: Kun modellprediksjon (L5)
+nav_order: 313
+evidence_level: L5
 indication_count: 10
 ---
 
 # Pazopanib
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,112 +29,172 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Pazopanib: Fra ikke-adipocyttisk mykvevssarkom til liposarkom
+# Pazopanib: Fra nyrecellekarsinom til uklassifisert nyrecellekarsinom
 
-## Sammendrag i én setning
+## Kort oppsummering
 
-> Pazopanib er en multi-target tyrosinkinasehemmer med etablert effektivitet ved klarcellet nyrekrakreft og ikke-adipocyttisk mykvevssarkom.
-> TxGNN-modellen predikerer at det også kan være effektivt for **liposarkom**, en mykvevssarkom-undertype som for tiden er utenfor dets merkelappgodkjent bruk,
-> med **9 kliniske studier** og **20 publikasjoner** som for tiden støtter denne retningen, inkludert to dedikerte fullførte fase 2-studier.
+Pazopanib er en multitarget tyrosinkinasehemmer (VEGFR/PDGFR/c-Kit) som opprinnelig brukes til behandling av nyrecellekarsinom.
+TxGNN-modellen forutsier at legemidlet kan være effektivt ved **uklassifisert nyrecellekarsinom** (høyest rangerte indikasjon med litteraturgrunnlag),
+med **6 publikasjoner** (ingen registrerte kliniske studier) som for tiden støtter denne retningen.
+Den mest modne dokumentasjonen i de dataene som er sammenstilt for denne rapporten gjelder imidlertid **liposarkom** og **dermatofibrosarcoma protuberans (DFSP)**, og disse omtales også nedenfor.
 
 ---
 
 ## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Klarcellet nyrekrakreft; ikke-adipocyttisk mykvevssarkom (utledet fra litteraturkontekst — ingen formell regulatorisk registrering tilgjengelig) |
-| Predikert ny indikasjon | Liposarkom |
-| TxGNN-prediksjonspoengsum | 99.59% |
-| Bevisnivå | L2 |
-| Markedsstatus i Norge | Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Fortsett med sikkerhetstiltak |
+| Opprinnelig indikasjon | Nyrecellekarsinom (Carcinoma, Renal Cell) |
+| Predikert ny indikasjon | Renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions (rangert nr. 1 av modellen; ingen studier eller litteratur) |
+| TxGNN-prediksjonsscore | 99,63 % |
+| Evidensnivå | L5 for rangert nr. 1 (kun modellprediksjon). Uklassifisert nyrecellekarsinom: L3. Liposarkom og DFSP: L2 |
+| Markedsstatus i Norge | Kun opphevet (cancelled only) |
+| Antall godkjenninger | 1 (opphevet) |
+| Anbefalt beslutning | Hold for rangert nr. 1. Proceed with Guardrails for liposarkom og DFSP |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte data om virkningsmekanisme for pazopanib ikke tilgjengelig fra de primære kilder som ble henvist (DrugBank-spørring returnerte et datakluft). Basert på informasjon innebygd i de kliniske studie- og litteraturbevisene, er pazopanib en multi-target tyrosinkinasehemmer (VEGFR, PDGFR-α/β, c-KIT) med anti-angiogene og antitumorigene egenskaper. Dens effektivitet ved klarcellet nyrekrakreft og ikke-adipocyttisk avansert/metastatisk mykvevssarkom er veletablert — den er allerede godkjent for disse brukesakene og sitert gjentatte ganger i litteraturen som «en standard førstehåndsbehandling» i disse sammenhenger.
+Detaljerte mekanismedata (MOA) er for tiden ikke tilgjengelige i datagrunnlaget. Pazopanib er likevel kjent som en multitarget tyrosinkinasehemmer som blokkerer VEGFR, PDGFR og c-Kit. Effekten ved nyrecellekarsinom er etablert, og mekanismen er antiangiogen og antiproliferativ.
 
-Liposarkom er en mykvevssarkom-undertype som historisk ble ekskludert fra pazopanibs godkjente merkelapp (den sentrale PALETTE-studien ekskluderte adipocyttiske sarkomer), men det deler samme mesenkymale opprinnelse og overlappende molekylære drivere som ikke-adipocyttisk STS. PDGFR-α/β-signalering er implicert i liposarkom-proliferasjon, særlig i den dedifferensierte subtypen, og VEGFR-drevet angiogenese støtter tumorvekst på tvers av STS-undertyper generelt. Dette gir en plausibel mekanistisk bro fra den godkjente indikasjonen til den predikerte.
+**Xp11.2-translokasjons-RCC (rangert nr. 1):** Dette er en sjelden RCC-undertype med biologi som delvis overlapper med angiogen signalering ved RCC. Prediksjonen er plausibel, men ingen studier eller litteratur er tilgjengelig, så koblingen bygger kun på modellen.
 
-Som støtte til denne begrunnelsen, to dedikerte fase 2-studier (NCT01506596, NCT01692496) fulgte spesifikt uoprinnelig/metastatisk liposarkom-pasienter for å teste single-agent pazopanib, og deres resultater ble publisert i fagfellevurdert litteratur (PMID 28832986, Cancer 2017). Prekliniske xenograft-data (PMID 25500074) demonstrerer videre pazopanib-mediator tumoregresjon gjennom anti-angiogen handling i dedifferensierte liposarkom-modeller, noe som styrker den biologiske plausibilitet av prediksjonen.
+**Uklassifisert nyrecellekarsinom:** VEGFR/PDGFR-hemming er etablert ved klarcellet RCC og kan sannsynligvis utvides til ikke-klarcellet og uklassifisert RCC. Litteraturen består av en enarmet fase 2-studie og flere retrospektive og virkelighetsnære serier. Uklassifisert RCC er heterogen og analyseres vanligvis sammen med andre ikke-klarcellede undertyper, så evidensen er ikke spesifikk.
+
+**Liposarkom:** Pazopanibs antiangiogene og PDGFR-rettede aktivitet er relevant for bløtvevssarkom. Adipocytiske sarkomer ble imidlertid ekskludert fra PALETTE-studien, og liposarkom var et bemerkelsesverdig unntak. Fase 2-data gir direkte, men beskjedne og ikke-randomiserte holdepunkter. Det dedifferensierte subtypen krever særlig forsiktighet.
+
+**DFSP:** Sykdommen drives av COL1A1-PDGFB-fusjonen, som gir konstitutiv PDGFR-beta-aktivering. Pazopanib hemmer PDGFR, noe som gir et sterkt mekanistisk grunnlag, særlig etter imatinibresistens.
+
+**Øvrige prediksjoner** (rangert nr. 2, 5, 6, 7 og 9: nyrecellekarsinom assosiert med nevroblastom, barnenyrecellekarsinom, ovarielt myksoid liposarkom, hjertefibrosarkom og nyrefibrosarkom) har ingen studier eller litteratur. Flere av dem er svært sjeldne og kan være ontologi-artefakter, og høy score gjenspeiler trolig den overordnede RCC-godkjenningen.
 
 ---
 
-## Bevis fra kliniske studier
+## Evidens fra kliniske studier
 
-| Studienummer | Fase | Status | Deltakere | Viktigste funn |
+Ingen registrerte kliniske studier for uklassifisert nyrecellekarsinom. Nedenfor vises studier for de to predikerte indikasjonene med sterkest evidens.
+
+### Liposarkom
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT01506596](https://clinicaltrials.gov/study/NCT01506596) | Fase 2 | Fullført | 42 | Single-agent pazopanib-effektivitet og sikkerhet ved uoprinnelig eller metastatisk liposarkom |
-| [NCT01532687](https://clinicaltrials.gov/study/NCT01532687) | Fase 2 | Fullført | 54 | Gemcitabin ± pazopanib ved refraktært mykvevssarkom, inkludert en liposarkom-undergruppe |
-| [NCT02180867](https://clinicaltrials.gov/study/NCT02180867) | Fase 2/3 | Aktiv, ikke rekrutterer | 140 | Preoperativ kemostråling ± pazopanib ved ikke-rabdomyosarkom STS (inkluderer liposarkom-subtype) |
-| [NCT06239272](https://clinicaltrials.gov/study/NCT06239272) | Fase 1/2 | Rekrutterer | 139 | Vedlikehold pazopanib med doseseskalert stråling og selinexor ved ikke-rabdomyosarkom STS |
-| [NCT02357810](https://clinicaltrials.gov/study/NCT02357810) | Fase 2 | Fullført | 178 | Pazopanib + oral topotekan ved metastatisk/ikke-resektabelt mykvevs- og beinsarkom |
-| [NCT06263231](https://clinicaltrials.gov/study/NCT06263231) | Fase 3 | Aktiv, ikke rekrutterer | 333 | INT230-6 vs. US standard of care ved liposarkom/UPS/leiomyosarkom (pazopanib er ikke studiemedisinen) |
-| [NCT01692496](https://clinicaltrials.gov/study/NCT01692496) | Fase 2 | Fullført | 52 | Pazopanib-aktivitet/tolerabilitet ved avansert/metastatisk liposarkom tilbakefallende etter standardterapi |
-| [NCT01900743](https://clinicaltrials.gov/study/NCT01900743) | Fase 2 | Fullført | 219 | Regorafenib vs. placebo ved metastatisk STS etter antracyklin-svikt (liposarkom-kohort; pazopanib er ikke studiemedisinen) |
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Fase 2 | Fullført | 131 | SARC024: oral regorafenib på tvers av utvalgte sarkom-undertyper, med henvisning til tidligere pazopanib-aktivitet ved STS |
+| [NCT01506596](https://clinicaltrials.gov/study/NCT01506596) | Fase 2 | Fullført | 42 | Pazopanib som monoterapi ved inoperabelt eller metastatisk liposarkom |
+| [NCT01692496](https://clinicaltrials.gov/study/NCT01692496) | Fase 2 | Fullført | 52 | Aktivitet og tolerabilitet ved avansert/metastatisk liposarkom etter residiv (tittelen er avkortet, populasjon bør verifiseres) |
+| [NCT01532687](https://clinicaltrials.gov/study/NCT01532687) | Fase 2 | Fullført | 54 | Randomisert, dobbeltblind: gemcitabin med eller uten pazopanib ved refraktært bløtvevssarkom |
+| [NCT02357810](https://clinicaltrials.gov/study/NCT02357810) | Fase 2 | Fullført | 178 | Pazopanib pluss oral topotekan ved metastatisk, inoperabelt bløtvevs- og beinsarkom |
+| [NCT02180867](https://clinicaltrials.gov/study/NCT02180867) | Fase 2/3 | Fullført | 140 | Neoadjuvant, randomisert: strålebehandling ± kjemoterapi ± pazopanib ved ikke-rabdomyosarkom bløtvevssarkom |
+| [NCT06239272](https://clinicaltrials.gov/study/NCT06239272) | Fase 1/2 | Rekrutterer | 139 | Risikotilpasset studie med vedlikeholdsbehandling med pazopanib ved ikke-rabdomyosarkom bløtvevssarkom |
+
+### Dermatofibrosarcoma protuberans (DFSP)
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
+|---------|------|------|------|---------|
+| [NCT01059656](https://clinicaltrials.gov/study/NCT01059656) | Fase 2 | Avsluttet tidlig | 23 | Pazopanib ved inoperabelt, lokalavansert DFSP. Direkte relevant, men begrenset av tidlig avslutning |
+| [NCT02601209](https://clinicaltrials.gov/study/NCT02601209) | Fase 1/2 | Avsluttet tidlig | 151 | MLN0128 (sapanisertib) versus pazopanib ved avansert sarkom. Pazopanib er komparator |
+| [NCT02180867](https://clinicaltrials.gov/study/NCT02180867) | Fase 2/3 | Fullført | 140 | Bred bløtvevssarkompopulasjon, DFSP-spesifikke data er usikre |
+| [NCT06239272](https://clinicaltrials.gov/study/NCT06239272) | Fase 1/2 | Rekrutterer | 139 | Bred bløtvevssarkompopulasjon, ingen resultater ennå |
+
+### Fibroblastisk neoplasme
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
+|---------|------|------|------|---------|
+| [NCT02066285](https://clinicaltrials.gov/study/NCT02066285) | Fase 2 | Fullført | 96 | Pazopanib som monoterapi ved inoperabel eller metastatisk solitær fibrøs tumor og ekstraskjelettalt myksoid kondrosarkom |
 
 ---
 
-## Bevis fra litteraturen
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Viktigste funn |
+### Uklassifisert nyrecellekarsinom
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [34050255](https://pubmed.ncbi.nlm.nih.gov/34050255/) | 2021 | RCT | British Journal of Cancer | Pazopanib er aktiv ved refraktært STS og forlengar signifikant progresjonsfri overlevelse; kombinasjon med topotekan er blitt studert |
-| [31010343](https://pubmed.ncbi.nlm.nih.gov/31010343/) | 2019 | Kohort (fase 2 undergruppe) | Expert Opinion on Investigational Drugs | Gjennomgang av pazopanibs anti-angiogene/antitumorigene aktivitet spesifikt ved liposarkom, en undertype som mangler effektive behandlingsalternativ |
-| [33355646](https://pubmed.ncbi.nlm.nih.gov/33355646/) | 2021 | Kohort | JAMA Oncology | PAPAGEMO-studiens sluttresultater: pazopanib ± gemcitabin ved antracyklin/ifosfamid-refraktært STS |
-| [28832986](https://pubmed.ncbi.nlm.nih.gov/28832986/) | 2017 | Fase 2-studie | Cancer | Prospektiv single-arm fase 2-studie som bestemmer behandlingsaktivitet og sikkerhet ved single-agent pazopanib ved uoprinnelig/metastatisk liposarkom |
-| [28844815](https://pubmed.ncbi.nlm.nih.gov/28844815/) | 2017 | Oversikt | The Lancet Oncology | Kommentar på pazopanibs rolle for avansert liposarkom |
-| [35609512](https://pubmed.ncbi.nlm.nih.gov/35609512/) | 2022 | Oversikt | Oncology Research and Treatment | Etablerte og eksperimentelle systemiske behandlingsalternativ på tvers av liposarkom-undertyper |
-| [32026050](https://pubmed.ncbi.nlm.nih.gov/32026050/) | 2020 | Oversikt | Current Treatment Options in Oncology | Systemisk terapialternativ for dedifferensiert liposarkom |
-| [37298520](https://pubmed.ncbi.nlm.nih.gov/37298520/) | 2023 | Oversikt | International Journal of Molecular Sciences | Behandlingslandskap for dedifferensiert liposarkom i immunoterapiens tidsalder |
-| [25500074](https://pubmed.ncbi.nlm.nih.gov/25500074/) | 2014 | Preklinisk | Translational Oncology | Pazopanib undertrykker tumorvekst via anti-angiogenese i dedifferensierte liposarkom xenograft-modeller |
-| [30060824](https://pubmed.ncbi.nlm.nih.gov/30060824/) | 2018 | Pasientkasus | Tissue & Cell | PDGFRA-amplifisert pleomorft liposarkom PDOX-modell regrediert av pazopanib etter doxorubicin-resistens |
+| [28546525](https://pubmed.ncbi.nlm.nih.gov/28546525/) | 2018 | Enarmet fase 2 | Cancer Res Treat | Effekt og sikkerhet av pazopanib ved metastatisk ikke-klarcellet RCC |
+| [28108284](https://pubmed.ncbi.nlm.nih.gov/28108284/) | 2017 | Retrospektiv multisenter | Clin Genitourin Cancer | PANORAMA: førstelinje pazopanib ved ikke-klarcellet RCC i Italia |
+| [27568124](https://pubmed.ncbi.nlm.nih.gov/27568124/) | 2017 | Retrospektiv kohort | Clin Genitourin Cancer | Utfall ved metastatisk ikke-klarcellet RCC behandlet med pazopanib |
+| [31921344](https://pubmed.ncbi.nlm.nih.gov/31921344/) | 2019 | Virkelighetsnær kohort | Ecancermedicalscience | Sunitinib og pazopanib sammenlignet ved ikke-klarcellet og sarkomatoid RCC |
+| [41558869](https://pubmed.ncbi.nlm.nih.gov/41558869/) | 2026 | Retrospektiv kohort | Eur Urol Oncol | Førstelinjebehandlinger ved metastatisk ikke-klarcellet RCC (IMDC) |
+| [30268423](https://pubmed.ncbi.nlm.nih.gov/30268423/) | 2019 | Kohort/serie | Clin Genitourin Cancer | Metastatisk karsinom med ukjent primærsted og RCC-trekk, behandlet med målrettet terapi |
+
+### Liposarkom
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [31010343](https://pubmed.ncbi.nlm.nih.gov/31010343/) | 2019 | Fase 2 | Expert Opin Investig Drugs | Pazopanib ved avansert liposarkom av intermediær/høy grad |
+| [28844815](https://pubmed.ncbi.nlm.nih.gov/28844815/) | 2017 | Kommentar | Lancet Oncol | Pazopanib ved avansert liposarkom |
+| [34050255](https://pubmed.ncbi.nlm.nih.gov/34050255/) | 2021 | Fase 2 | Br J Cancer | Pazopanib med oral topotekan ved bløtvevs- og beinsarkom |
+| [27751846](https://pubmed.ncbi.nlm.nih.gov/27751846/) | 2016 | RCT (fase 2) | Lancet Oncol | REGOSARC: regorafenib (beslektet TKI) ved bløtvevssarkom |
+| [30060824](https://pubmed.ncbi.nlm.nih.gov/30060824/) | 2018 | Prekliniske data | Tissue Cell | Pazopanib ga regresjon i PDGFRA-amplifisert pleomorft liposarkom i musemodell |
+| [32026050](https://pubmed.ncbi.nlm.nih.gov/32026050/) | 2020 | Oversikt | Curr Treat Options Oncol | Systemiske behandlingsalternativer ved dedifferensiert liposarkom |
+| [35609512](https://pubmed.ncbi.nlm.nih.gov/35609512/) | 2022 | Oversikt | Oncol Res Treat | Etablerte og eksperimentelle behandlinger ved avansert liposarkom |
+
+### Dermatofibrosarcoma protuberans (DFSP)
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [32956651](https://pubmed.ncbi.nlm.nih.gov/32956651/) | 2021 | Fase 2 | J Invest Dermatol | Multisenterstudie av pazopanib ved inoperabelt DFSP |
+| [34066400](https://pubmed.ncbi.nlm.nih.gov/34066400/) | 2021 | Retrospektiv | Cancers | Langtidsutfall etter neoadjuvant TKI (imatinib eller pazopanib) ved lokalavansert DFSP |
+| [27988943](https://pubmed.ncbi.nlm.nih.gov/27988943/) | 2017 | Kasuistikk | J Dermatol | Delvis respons på pazopanib ved metastatisk fibrosarkomatøst DFSP |
+| [37592448](https://pubmed.ncbi.nlm.nih.gov/37592448/) | 2023 | Prekliniske data | Cancer Sci | Pazopanib identifisert som mulig hemmer av COL1A1-PDGFB-fusjonen |
+| [37610680](https://pubmed.ncbi.nlm.nih.gov/37610680/) | 2023 | Prekliniske data | Hum Cell | Multiomikk- og ex vivo-modell av imatinibresistent DFSP |
+| [22510939](https://pubmed.ncbi.nlm.nih.gov/22510939/) | 2012 | Oversikt | Curr Opin Oncol | Behandling av DFSP med PDGFR-hemmere |
 
 ---
 
-## Markedsinformasjon i Norge
+## Markedsinformasjon for Norge
 
-Pazopanib er for tiden **ikke markedsført** i Norge; ingen godkjennelse eller lisensregistreringer er tilgjengelig i bevisgjennomgangen (`total_licenses: 0`).
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/001141 | Votrient (Novartis Europharm Limited) | Ikke oppgitt | Nyrecellekarsinom (status: opphevet) |
 
 ---
 
 ## Cytotoksisitet
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Cytotoksisitetsklassifisering | Målrettet terapi — multi-target tyrosinkinasehemmer (VEGFR/PDGFR/c-KIT) med anti-angiogen aktivitet (per litteraturkontekst i bevisgjennomgangen) |
-| Myelosuppresjonrisiko | Ikke tilgjengelig i gjeldende bevisgjennomgang — vennligst se produktinformasjonen for advarsler og forholdsregler |
-| Emetogenisitetsklassifisering | Ikke tilgjengelig i gjeldende bevisgjennomgang — vennligst se produktinformasjonen for advarsler og forholdsregler |
-| Overvåkingselementer | Ikke tilgjengelig i gjeldende bevisgjennomgang — vennligst se produktinformasjonen for advarsler og forholdsregler |
-| Håndteringsbeskyttelse | Ikke tilgjengelig i gjeldende bevisgjennomgang — vennligst se produktinformasjonen for advarsler og forholdsregler |
+| Cytotoksisitetsklassifisering | Målrettet terapi (multitarget tyrosinkinasehemmer), ikke konvensjonelt cytotoksisk |
+| Myelosuppresjonsrisiko | Se pakningsvedlegget for advarsler og forholdsregler |
+| Emetogenisk klassifisering | Se pakningsvedlegget for advarsler og forholdsregler |
+| Overvåkingspunkter | Se pakningsvedlegget. Kunnskapsgrafen peker på leverskade, hypertensjon, QT-forlengelse og proteinuri, som det er naturlig å overvåke |
+| Håndteringsbeskyttelse | Se pakningsvedlegget for advarsler og forholdsregler |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsmomenter
 
-Vennligst se produktinformasjonen for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og legemiddelinteraksjonsdata ble flagget som dataklufter i denne bevisgjennomgangen — TFDA-merkelappanalyse er nødvendig for å lukke denne kluften.)
+**Kontraindikasjoner fra kunnskapsgrafen (PrimeKG, ikke preparattekst):** Sykdommer som kunnskapsgrafen knytter til kontraindikasjon, omfatter blant annet:
+- Hjerte- og kar: hypertensjon, langt QT-syndrom (inkludert familiær form), torsades de pointes, hjerteinfarkt, koronar trombose
+- Lever: leversvikt, legemiddelindusert leverskade, hyperbilirubinemi (inkludert Gilberts syndrom)
+- Skjoldbruskkjertel: hypotyreose, myksødem, medfødt hypotyreose
+- Elektrolytt/metabolsk: kaliummangel, hyperkalsemi, nefrokalsinose, forstyrrelser i fosformetabolismen
+- Øvrige: diarésykdom, aktivt magesår, intrakraniell blødning, pankreatitt, proteinuri, hemoglobinopati
+
+Dette er modellbaserte koblinger og må bekreftes mot godkjent preparatomtale.
+
+**Legemiddelinteraksjoner (100 registrert, de viktigste vist):**
+- **Alvorlige (Major):** famotidin, ranitidin, cimetidin, omeprazol, esomeprazol, rabeprazol, deksansoprazol (syrehemmere), klaritromycin, dolasetron
+- **Moderate:** pioglitazon, loperamid, aprepitant, deksametason, budesonid, bisakodyl, magnesiumoksid, polyetylenglykol, saksagliptin, eliglustat
+
+Syrehemmende midler er særlig relevante, siden de kan påvirke opptaket av pazopanib.
+
+Detaljerte advarsler og kontraindikasjoner fra preparattekst er ikke tilgjengelige. Se pakningsvedlegget for fullstendig sikkerhetsinformasjon.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Fortsett med sikkerhetstiltak**
+**Beslutning: Hold for Xp11.2-translokasjons-RCC og uklassifisert RCC (forskningsspørsmål). Proceed with Guardrails for liposarkom og DFSP.**
 
 **Begrunnelse:**
-To dedikerte fullførte fase 2-studier (NCT01506596, NCT01692496) og deres publiserte resultater (PMID 28832986) støtter direkte single-agent pazopanib-aktivitet ved uoprinnelig/metastatisk liposarkom, styrket av prekliniske mekanistiske data og flere støttende oversikter — møter L2-bevisstandarden, men mangler bekreftet fase 3-data.
+- Den høyest rangerte indikasjonen (Xp11.2-RCC) har kun modellprediksjon (L5) uten studier eller litteratur. Uklassifisert RCC har kun ikke-randomiserte data (L3) som ikke er spesifikke for undertypen.
+- Liposarkom og DFSP har fase 2-data (L2), men studiene er små, enarmede eller avsluttet tidlig, og pazopanib er kun opphevet i Norge (ingen gyldig lisens).
 
-**For å fortsette, er følgende nødvendig:**
-- TFDA/Norsk merkelappdata (advarsler, kontraindikasjoner, DDI) — for tiden en **blokkerande** datakluft for sikkerhetskontroll
-- Formell DrugBank MOA-bekreftelse for å underbygge PDGFR/VEGFR-mekanistisk begrunnelse
-- En bekreftet randomisert studie ved liposarkom (gjeldende bevis er bare single-arm fase 2)
-- Norge/EU markedsgodkjennelsesveiledning, da medisinen ikke er for tiden markedsført i denne jurisdiksjonen
-
-*Merk: Denne TxGNN-screeningen flagget også dermatofibrosarcoma protuberans (rangering 10, bevisnivå L2, «Fortsett med sikkerhetstiltak») som en annen kandidat med sammenlignbar beviskraft (en dedikert fase 2-studie og en multi-senter fase 2-publikasjon), drevet av samme PDGFR-målrettet mekanisme. Dette kan berettige en separat evaluering.*
-
+**For å gå videre kreves følgende:**
+- Preparattekstens advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening). De bør hentes fra DMP.
+- Detaljerte mekanismedata (MOA), for eksempel fra DrugBank
+- Undertypespesifikke resultater for uklassifisert RCC, liposarkom (spesielt dedifferensiert) og DFSP, siden flere studietitler er avkortet og populasjonene ikke er verifisert
+- Avklaring av regulatorisk status i Norge, siden eneste lisens er opphevet
+- Plan for sikkerhetsovervåking (blodtrykk, lever, QT, proteinuri) og vurdering av interaksjoner med syrehemmere
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Certolizumab Pegol
 parent: Moderat evidens (L3-L4)
-nav_order: 83
+nav_order: 93
 evidence_level: L4
 indication_count: 6
 ---
@@ -29,96 +29,106 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Certolizumab Pegol: Fra Revmatoid Artritt til Revmatoid Vaskulitt
+# Certolizumab pegol: Fra revmatoid artritt til revmatoid vaskulitt
 
-## Sammendrag på én setning
+## Oppsummering
 
-> Certolizumab pegol er et PEGylert anti-TNF-α Fab-fragment etablert for revmatoid artritt, aksiell spondyloartritt, psoriasisartritt og Crohns sykdom.
-> TxGNN-modellen forutsier at det kan være effektivt for **Revmatoid Vaskulitt**,
-> men den støttende bevisføringen er tynt og retningsbestemt blandet — **3 kliniske forsøk** (ingen tester denne indikasjonen direkte) og **8 publikasjoner**, hvorav de fleste beskriver anti-TNF-*indusert* vaskulitt snarere enn behandlingseffekt.
+Certolizumab pegol er en PEGylert anti-TNF-Fab'-fragment som opprinnelig er godkjent for behandling av **revmatoid artritt**.
+TxGNN-modellen predikerer at legemidlet kan være effektivt mot **revmatoid vaskulitt** (høyest rangert prediksjon).
+Evidensen for denne spesifikke indikasjonen er svært svak: det finnes **ingen kliniske studier** og **7 publikasjoner**, hvorav kun én kasuistikk beskriver nytte, mens flere kasuistikker beskriver vaskulitt som bivirkning av legemidlet.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Revmatoid artritt (også etablert for aksiell spondyloartritt, psoriasisartritt og Crohns sykdom per litteraturbevis) |
-| Predikert ny indikasjon | Revmatoid Vaskulitt |
-| TxGNN-prediksjonspoengsum | 99.78% |
-| Bevisnivå | L4 |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+| Opprinnelig indikasjon | Revmatoid artritt |
+| Predikert ny indikasjon | Revmatoid vaskulitt |
+| TxGNN-prediksjonsscore | 99,78 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun trukket tilbake (utløpt/kansellert) |
+| Antall godkjenninger | 1 (kansellert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forutsigelsen rimelig?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detaljert data om virkningsmekanisme er for tiden ikke tilgjengelig i dette bevisematerialet. Basert på kjent informasjon hentet fra den støttende litteraturen, er certolizumab pegol et PEGylert, Fc-fritt Fab-fragment av et humanisert monoklonalt antistoff som selektivt nøytraliserer TNF-α; det er en etablert behandling for revmatoid artritt (RA), aksiell spondyloartritt, psoriasisartritt og Crohns sykdom.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget for denne rapporten. Basert på kjent informasjon er certolizumab pegol en TNF-hemmer (PEGylert Fab'-fragment uten Fc-del), og effekten ved revmatoid artritt er godt dokumentert.
 
-Revmatoid vaskulitt er en anerkjent ekstraartikulær komplikasjon av RA, og TNF-α er mekanistisk involvert i den vaskulære inflammasjonen som ses ved denne tilstanden — og gir dermed en plausibel begrunnelse for at TxGNN knytter certolizumab til denne sykdommen gjennom delt patobiologi i signalveiene.
+Revmatoid vaskulitt er en alvorlig ekstraartikulær komplikasjon til revmatoid artritt, og TNF-drevet betennelse kan plausibelt være en felles mekanisme. Dette gir et teoretisk grunnlag for prediksjonen.
 
-Imidlertid forteller litteraturen som ble hentet fram for denne kandidaten en mer komplisert historie: av 8 publikasjoner rapporterer kun **én** (PMID 34786446) certolizumab som en vellykket *behandling* for RA-assosiert vaskulitt (bengesår). De resterende sju er biverkningssaker og kasusserier som beskriver anti-TNF-midler — inkludert certolizumab selv — som *årsak* til vaskulitt (leukocytoklas vaskulitt, hypokomplementemisk uritikaria vaskulitt, medium-karsvaskulitt, raskt progredierende glomerulonefritt). Dette «paradoksale vaskulitt»-fenomenet er en kjent klasseeffekt av TNF-hemmere. Den mekanistiske retningen for denne forutsigelsen er derfor tvetydig snarere enn bekreftende.
-
----
-
-## Klinisk forsøksbevis
-
-| Forsøksnummer | Fase | Status | Antall deltakere | Viktige funn |
-|---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Rekrutterer ikke ennå | 80 | Perioperativ immunsuppressiv behandling hos RA-pasienter som gjennomgår skulderleddsprotese-kirurgi; ikke fokusert på vaskulittbehandling |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | Ikke relevant | Fullført | 184 | Ikke-intervensjonell observasjonsstudie av tocilizumab (ikke certolizumab) ved RA; bare indirekte relevant |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | Ikke relevant | Ukjent | 750,000 | Real-world-studie av risiko for biologisk-indusert immunmediert inflammatorisk sykdom; knyttet til risiko for sykdomsinduksjon, ikke terapeutisk effekt |
-
-Ingen forsøk i dette bevisematerialet tester direkte certolizumab pegol for revmatoid vaskulitt.
+Litteraturen er imidlertid todelt. Én kasuistikk (PMID 34786446) beskriver bedring av leggsår på grunn av revmatoid vaskulitt. Samtidig beskriver flere kasuistikker vaskulitt, leukocytoklastisk vaskulitt, urtikariell vaskulitt og glomerulonefritt som **bivirkninger** av certolizumab og andre anti-TNF-midler. Signalet for skade er dermed minst like sterkt som signalet for nytte. Den svært høye TxGNN-scoren er kun en modellprediksjon og støttes ikke av studier.
 
 ---
 
-## Litteraturbevis
+## Klinisk studieevidens
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
+Foreløpig er ingen relaterte kliniske studier registrert for revmatoid vaskulitt.
+
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [34786446](https://pubmed.ncbi.nlm.nih.gov/34786446/) | 2021 | Kasuistikk | JAAD Case Reports | Certolizumab pegol brukt til å behandle bengesår på grunn av revmatoid vaskulitt (eneste positivt behandlingstilfelle) |
-| [36597972](https://pubmed.ncbi.nlm.nih.gov/36597972/) | 2022 | Retrospektiv kohortstudie | RMD Open | Langtidsbehandling med certolizumab pegol ved uveitt på grunn av immunmediert inflammatorisk sykdom, n=80 (relatert IMID-populasjon, ikke vaskulittspesifikk) |
-| [36418084](https://pubmed.ncbi.nlm.nih.gov/36418084/) | 2022 | Oversiktsartikkel/Sikkerhetsanalyse | RMD Open | Komparativ infeksjonsprofil av immunmodulerende stoffer fra SmPC-data |
-| [31990069](https://pubmed.ncbi.nlm.nih.gov/31990069/) | 2020 | Kasuistikk | J Clin Pharm Ther | Hypokomplementemisk uritikaria vaskulitt oppsto under certolizumab-behandling for RA |
-| [28405087](https://pubmed.ncbi.nlm.nih.gov/28405087/) | 2017 | Kasuistikk | Proc (Baylor Univ Med Cent) | Leukocytoklas vaskulitt som legemiddelreaksjon på certolizumab pegol |
-| [41158918](https://pubmed.ncbi.nlm.nih.gov/41158918/) | 2025 | Kasuistikk | Cureus | Anti-TNF-relatert medium-karsvaskulitt hos seronegativ RA-pasient som skiftet til certolizumab |
-| [32687015](https://pubmed.ncbi.nlm.nih.gov/32687015/) | 2021 | Kasuistikk | Mod Rheumatol Case Rep | Raskt progredierende glomerulonefritt etter introduksjon av certolizumab pegol |
-| [29610119](https://pubmed.ncbi.nlm.nih.gov/29610119/) | 2018 | Kasuserie | Clin Med Res | Enkeltsentererfaringer med kutane bivirkninger forbundet med biologiske legemidler |
-
-**7 av 8 publikasjoner beskriver anti-TNF-indusert vaskulitt som en uønsket bivirkning, ikke som terapeutisk effekt.**
+| [34786446](https://pubmed.ncbi.nlm.nih.gov/34786446/) | 2021 | Kasuistikk | JAAD Case Reports | Certolizumab pegol ved leggsår på grunn av revmatoid vaskulitt |
+| [28405087](https://pubmed.ncbi.nlm.nih.gov/28405087/) | 2017 | Kasuistikk (bivirkning) | Proc (Bayl Univ Med Cent) | Leukocytoklastisk vaskulitt som legemiddelreaksjon på certolizumab pegol |
+| [31990069](https://pubmed.ncbi.nlm.nih.gov/31990069/) | 2020 | Kasuistikk (bivirkning) | J Clin Pharm Ther | Hypokomplementemisk urtikariell vaskulitt under behandling for revmatoid artritt |
+| [32687015](https://pubmed.ncbi.nlm.nih.gov/32687015/) | 2021 | Kasuistikk (bivirkning) | Mod Rheumatol Case Rep | Raskt progredierende glomerulonefritt etter oppstart av certolizumab pegol |
+| [41158918](https://pubmed.ncbi.nlm.nih.gov/41158918/) | 2025 | Kasuistikk (bivirkning) | Cureus | Anti-TNF-relatert vaskulitt i mellomstore kar |
+| [36597972](https://pubmed.ncbi.nlm.nih.gov/36597972/) | 2022 | Kohort/multisenter | RMD Open | Langtidsoppfølging av certolizumab pegol ved uveitt (80 pasienter), indirekte relevans |
+| [36418084](https://pubmed.ncbi.nlm.nih.gov/36418084/) | 2022 | Oversikt | RMD Open | Infeksjonsprofil for immunmodulerende legemidler, ikke indikasjonsspesifikk |
 
 ---
 
-## Norsk markedsinformasjon
+## Markedsinformasjon for Norge
 
-Certolizumab pegol har for tiden **ingen markedsgodkjenning i Norge** (markedsstatus: Ikke markedsført, 0 godkjennelser registrert). Ingen produktlister er tilgjengelige for dette bevisematerialet.
-
----
-
-## Sikkerhetshensyn
-
-Se pakningsvedlegget for sikkerhetsinformasjon. (TFDA-etikettvarsler, kontraindikasjoner og DDI-data er flagget som kritisk datamangel i dette bevisematerialet og har ennå ikke blitt hentet.)
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/001037 | Cimzia | Ikke oppgitt | Revmatoid artritt (status: kansellert) |
 
 ---
 
-## Konklusjon og neste skritt
+## Sikkerhetsvurderinger
 
-**Beslutning: Avvent**
+- **Legemiddelinteraksjoner**: Totalt 100 interaksjoner er registrert. Viktige eksempler:
+  - **Alvorlige (Major)**: kortikosteroider (hydrokortison, triamcinolon, deksametason, betametason, budesonid, prednisolon, prednison), deferipron, ibritumomab tiuxetan, jobenguan (I-131), tositumomab (I-131)
+  - **Moderate**: metronidazol, tinidazol, pegvaliase, rosuvastatin, simvastatin
+  - **Mindre (Minor)**: sinkacetat, sinkglukonat, sinksulfat
+- Det er rapportert vaskulitt og glomerulonefritt som bivirkninger i kasuistikker (se litteraturtabellen), noe som er særlig relevant for denne indikasjonen.
+
+Se preparatomtalen for øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner er ikke tilgjengelige i datagrunnlaget).
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Bevisnivået er L4 uten noe forsøk som direkte tester certolizumab pegol for revmatoid vaskulitt, og litteratursignalet er overordnet det motsatte av det som foreslås — de fleste rapportene beskriver TNF-hemmere, inkludert certolizumab, som *induserende* vaskulitt snarere enn å behandle det. Dette er i samsvar med en kjent paradoksal anti-TNF-klasseeffekt og støtter ikke ombrukshypotesen på dette tidspunktet.
+Evidensen for revmatoid vaskulitt er begrenset til én kasuistikk om nytte, mens flere kasuistikker peker mot vaskulitt som bivirkning. Ingen kliniske studier finnes, og legemidlets norske godkjenning er kansellert. Den høye TxGNN-scoren alene er ikke tilstrekkelig.
 
-**For å fortsette, kreves følgende:**
-- TFDA/produktetikett varsler og kontraindikasjoner (for tiden en kritisk datamangel)
-- Bekreftet dokumentasjon av virkningsmekanisme fra DrugBank
-- En prospektiv eller kontrollert studie som spesifikt evaluerer certolizumab-effektivitet ved revmatoid vaskulitt (ingen eksisterer for tiden)
-- En farmakovigilansgjennomgang for å avklare om det paradoksale vaskulittsignalet representerer en sikkerhetsrisiko snarere enn en terapeutisk mulighet før videre investering
+**For å gå videre kreves følgende:**
+- Systematisk gjennomgang av nytte- og skadesignalene ved vaskulitt under anti-TNF-behandling
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Preparatomtale med advarsler og kontraindikasjoner
+- Avklaring av gjeldende markedsstatus og godkjenning i Norge
 
-**Merknad:** Dette samme bevisematerialet inneholder to høyere-sikkerhetssignaler på L1-nivå for certolizumab pegol — *inflammatorisk spondylopati* og *vertebralsykdom* — som begge reflekterer dets allerede etablerte, retningslinje-støttet bruk i aksiell spondyloartritt/ankiloserende spondylitt. Hvis ikke allerede dokumentert som godkjente indikasjoner, fortjener disse en separat, dedikert evaluering snarere enn å bli behandlet som nye ombruskandidater.
+---
 
+## Andre predikerte indikasjoner (kort oversikt)
+
+Datagrunnlaget inneholder også andre prediksjoner. De er oppsummert her for kontekst:
+
+| Predikert indikasjon | TxGNN-score | Evidensnivå | Anbefaling | Kommentar |
+|------|------|------|------|------|
+| Inflammatorisk spondylopati | 99,73 % | L1 | Proceed with Guardrails | Flere fullførte fase 3-RCT-er (blant annet NCT01087762, NCT02505542, NCT02552212 ved aksial spondyloartritt og NCT01087788 ved psoriasisartritt). Sannsynligvis en allerede etablert bruk, snarere enn ny repurposing. Standard anti-TNF-screening (tuberkulose, hepatitt B, infeksjon, demyeliniserende sykdom, hjertesvikt) og verifisering av gjeldende godkjenning anbefales. |
+| Polyartikulær juvenil revmatoid artritt | 99,69 % | L2 | Research Question | Én fase 3 åpen studie (NCT01550003, n=193) og langtidsresultater (PMID 42439289). Ikke kontrollert, derfor L2. |
+| Vertebral sykdom | 99,26 % | L4 | Hold | Uspesifikk diagnose, indirekte evidens som overlapper med aksial spondyloartritt. |
+| Hypermobilitet i coccyx | 99,75 % | L5 | Hold | Ingen studier og ingen plausibel TNF-mekanisme. |
+| Kummells sykdom | 99,70 % | L5 | Hold | Ingen studier og ingen plausibel TNF-mekanisme. |
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

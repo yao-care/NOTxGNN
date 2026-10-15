@@ -2,7 +2,7 @@
 layout: default
 title: Alglucosidase Alfa
 parent: Kun modellprediksjon (L5)
-nav_order: 22
+nav_order: 24
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,70 +29,101 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Alglucosidase alfa: Fra Pompe-sykdom til voksne polyglukosan-kropp-sykdom
+# Alglukosidase alfa: Fra Glykogenlagringssykdom type II til Voksen polyglukosanlegemesykdom
 
-## Sammendrag i én setning
+## Oppsummering
 
-> Alglucosidase alfa er en rekombinant menneskelig sur α-glukosidase (rhGAA) enzymersatningsbehandling kjent for behandling av Pompe-sykdom (glykogenlageringsykdom type II). TxGNN-modellen forutsier at det kan være effektivt for **voksne polyglukosan-kropp-sykdom**, men denne retningen er for øyeblikket støttet av **0 kliniske forsøk** og **0 publikasjoner**, og bevispaketets egen mekanistiske analyse flaggar forutsigelsen som et sannsynlig ontologi-/innebygd-romlig artefakt snarere enn et ekte farmakologisk signal.
+Alglukosidase alfa er et rekombinant enzym (syre-alfa-glukosidase) som opprinnelig brukes som enzymerstatningsbehandling ved glykogenlagringssykdom type II (Pompes sykdom).
+TxGNN-modellen forutsier at legemidlet kan ha effekt ved **voksen polyglukosanlegemesykdom** (adult polyglucosan body disease), men det finnes for øyeblikket **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen er kun modellbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|------|---------|
-| Opprinnelig indikasjon | Pompe-sykdom (utledet fra mekanistisk begrunnelse — ingen offisiell norsk autorisasjonstekst tilgjengelig; legemidlet markedsføres ikke) |
-| Forutsagt ny indikasjon | Voksne polyglukosan-kropp-sykdom |
-| TxGNN forutsigelsesscore | 99.47% |
-| Bevisnivå | L5 (modellforutsigelse bare, ingen kliniske forsøk eller litteratur) |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+|------|------|
+| Opprinnelig indikasjon | Glykogenlagringssykdom type II |
+| Predikert ny indikasjon | Voksen polyglukosanlegemesykdom |
+| TxGNN-prediksjonsscore | 99,47 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun trukket tilbake (kansellert) |
+| Antall godkjenninger | 1 (kansellert) |
+| Anbefalt beslutning | Hold (avvent) |
 
 ---
 
-## Hvorfor er denne forutsigelsen rimelig?
+## Hvorfor er denne prediksjonen rimelig (eller ikke)?
 
-For tiden er legemidlets offisielle virkningsmekanisme-felt markert som et datahull i denne bevispakningen. Imidlertid, basert på den mekanistiske begrunnelsen som følger med forutsigelsene, forstås alglucosidase alfa å være rekombinant menneskelig sur α-glukosidase (rhGAA), brukt for å erstatte det manglende GAA-enzymet hos Pompe-sykdom-pasienter slik at lysosomale glykogenansamlinger kan brytes ned.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Ut fra kjent informasjon er alglukosidase alfa et rekombinant syre-alfa-glukosidase-enzym som bryter ned lysosomalt glykogen via alfa-1,4- og alfa-1,6-bindinger. Effekten ved Pompes sykdom er dokumentert.
 
-Voksne polyglukosan-kropp-sykdom (APBD) er derimot forårsaket av mangel på glykogenforgreningsenzym (GBE1), som fører til unormale, dårlig forgrenet polyglukosan-legemer som akkumuleres i nevronalt cytoplasma — en ikke-lysosomale, cytoplasmatisk metabolsk prosess atskilt fra den lysosomale GAA-banen som alglucosidase alfa virker på. Selv om begge tilstander faller inn under den brede kategorien av «glykogenlageringsykdom», skiller de årsaksforhold-enzymer, akkumuleringssteder og patologiske mekanismer seg ut, og rhGAA-erstatning kan ikke korrigere en GBE1-funksjonell defekt.
+Voksen polyglukosanlegemesykdom skyldes mangel på glykogenforgreningsenzym (GBE1), som gir opphopning av dårlig forgrenet, uløselig polyglukosan i nervevev. Det finnes dermed en konseptuell kobling gjennom felles glykogenlagringspatologi. Koblingen er imidlertid svak av to grunner:
 
-Bemerkelsesverdig gjentar samme mekanisme-mismatch-mønster seg på tvers av alle 10 av legemidlets beste TxGNN-forutsigelser i dette bevispakket — inkludert to andre GBE1-relaterte GSD IV-subtyper (ranger 2–3) og seks ikke-relaterte medfødt oftalmologisk/kranial-nerve-lidelser (ranger 4, 5, 6, 7, 8, 9, 10: medfødt entropion/ektropion, Horners syndrom, ptose-stemmebåndsparalyse-syndrom, camptodactyly-myopi-fibrose-syndrom, epiblefaron, og ptose-strabismus-ektopiske pupiller-syndrom). Ingen av disse har noen kjent eller hypotetisert biologisk bane som forbinder det til GAA-enzymersatningsbehandling. Dette gjentakende mønsteret tyder sterkt på at de høye TxGNN-score reflekterer sykdoms-ontologi eller innebygd-romlig nærhet (f.eks. delt «glykogenlageringsykdom»-merking, eller generell sjelden-sykdom-clustering) snarere enn ekte farmakologisk plausibilitet, og hele forutsigelsessettet bør behandles som et sannsynlig støycluster snarere enn individuelt lovende ledetråder.
+- Polyglukosan hoper seg hovedsakelig opp i cytosol i nevroner og astrocytter, ikke i lysosomer, som er enzymets målområde.
+- Enzymet krysser ikke blod-hjerne-barrieren effektivt.
 
----
-
-## Bevis fra kliniske forsøk
-
-For tiden ingen relaterte kliniske forsøk registrert
+Den høye TxGNN-scoren er derfor kun en prediksjon uten støtte i kliniske data.
 
 ---
 
-## Litteraturbevis
+## Kliniske studier
 
-For tiden ingen relatert litteratur tilgjengelig
+Foreløpig finnes ingen registrerte kliniske studier for denne indikasjonen.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+Foreløpig er det ingen relevant litteratur tilgjengelig.
+
+---
+
+## Markedsinformasjon for Norge
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000636 | Myozyme | – | Glykogenlagringssykdom type II |
+
+Godkjenningen er kansellert, og det finnes ingen gyldige markedsføringstillatelser i de innsamlede dataene.
+
+---
+
+## Andre predikerte indikasjoner
+
+Modellen ga ytterligere ni prediksjoner. Ingen av dem har kliniske studier eller litteratur, og alle har evidensnivå L5.
+
+| Rangering | Sykdom | Score | Vurdering |
+|------|------|------|------|
+| 2 | Glykogenlagringssykdom pga. GBE1-mangel, fatal perinatal nevromuskulær form | 99,32 % | Svak og indirekte kobling; Hold |
+| 3 | Glykogenlagringssykdom pga. GBE1-mangel, medfødt nevromuskulær form | 99,32 % | Spekulativ nytte; Hold |
+| 4 | Medfødt entropion | 99,22 % | Ingen plausibel mekanisme; trolig artefakt i kunnskapsgrafen |
+| 5 | Medfødt ektropion | 99,17 % | Ingen plausibel mekanisme; Hold |
+| 6 | Medfødt Horners syndrom | 99,17 % | Ingen mekanistisk begrunnelse; Hold |
+| 7 | Ptose–stemmebåndslammelse-syndrom | 99,15 % | Kun overlappende nevromuskulære trekk; Hold |
+| 8 | Kamptodaktyli, myopi og fibrose av mediale rectus-muskel | 99,11 % | Ingen kjent kobling; Hold |
+| 9 | Epiblefaron | 99,11 % | Ingen plausibel mekanisme; Hold |
+| 10 | Ptose–strabisme–ektopiske pupiller-syndrom | 99,10 % | Ingen kobling til glykogenomsetning; Hold |
+
+---
+
+## Sikkerhetsvurderinger
+
+For sikkerhetsinformasjon, se preparatomtalen (pakningsvedlegget). Data om advarsler og kontraindikasjoner var ikke tilgjengelige i de innsamlede dataene, og det ble ikke funnet registrerte legemiddelinteraksjoner.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-- Alle 10 topprankerte forutsagte indikasjoner er bevisnivå L5 (modellforutsigelse bare, null kliniske forsøk, null litteratur), og den mekanistiske begrunnelsen som følger hver forutsigelse flaggar eksplisitt mekanismeavvik eller ikke-relatert patologi — som peker mot et sannsynlig innebygd-romlig artefakt snarere enn et troverdig ombruk-signal for voksne polyglukosan-kropp-sykdom eller noen av de andre 9 forutsagte indikasjonene.
-- Et blokkerende datahull finnes også på TFDA/regulatorisk sikkerhetsetikett (advarsler, kontraindikasjoner), som uavhengig forhindrer denne kandidaten fra å gå videre til en fase 1-sikkerhetsgjennomgang uavhengig av ombrukssignalstyrken.
+Prediksjonen bygger kun på en modell uten kliniske studier eller litteratur (evidensnivå L5). Mekanismen er svak fordi polyglukosan ligger i cytosol og enzymet krysser blod-hjerne-barrieren dårlig. I tillegg er den eneste norske godkjenningen kansellert.
 
 **For å gå videre kreves følgende:**
-- Offisiell virkningsmekanisme (MOA) data bekreftet via DrugBank eller produsentens etikett (for tiden et datahull)
-- TFDA/EMA pakningsvedlegg advarsler og kontraindikasjoner (for tiden et blokkerende datahull)
-- Uavhengig våt-lab eller genetisk/biomarkør-evidens som forbinder GAA-enzymersatning til GBE1-medieret polyglukosan-ansamling, før ytterligere evaluering av denne ombruksretningen er berettiget
-- En gjennomgang av hele 10-forutsigelsesklyngen for å bestemme om et systematisk ontologi-likhet-artefakt som påvirker dette legemidlets TxGNN-utdata bør flagges til modell-/datateamet
-
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Detaljerte data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Prekliniske data som viser at enzymet kan nå cytosolisk polyglukosan i nervevev, inkludert vurdering av hjernepenetrasjon
+- Litteraturgjennomgang og eventuelle kasuistikker ved GBE1-relaterte sykdommer
+- Avklaring av tilgjengelighet og administrasjonsvei i Norge, gitt at produktet er kansellert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

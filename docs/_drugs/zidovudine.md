@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Zidovudine
-parent: Kun modellprediksjon (L5)
-nav_order: 392
-evidence_level: L5
+parent: Høy evidens (L1-L2)
+nav_order: 460
+evidence_level: L1
 indication_count: 6
 ---
 
 # Zidovudine
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
+Evidensnivå: **L1** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,128 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Zidovudin: Fra HIV/AIDS antiretroviral terapi til felid ervervet immunsviktsyndrom
+# Zidovudin: Fra HIV-infeksjon til AIDS-relatert kompleks (ARC)
 
-## Sammenfattelse på en setning
+## Sammendrag i én setning
 
-> Zidovudin (AZT/ZDV) er den opprinnelige nukleosidrevers transkriptasehemmeren (NRTI), globalt etablert som antiretroviral for HIV/AIDS hos mennesker — selv om denne spesifikke bevisspakken inneholder ingen formell registrering av den opprinnelige indikasjonen.
-> TxGNN-modellens topprangerte prediksjon er **felid ervervet immunsviktsyndrom (FIV/FAIDS)**, en veterinærsjukdom (ikke-menneskelig), støttet bare av **20 prekliniske dyremodellpublikasjoner** og **null kliniske forsøk**.
-> Fordi den toppscorende kandidaten ikke er en menneskelig indikasjon, er dette signalet ikke handlingsbar for menneskelig medikament omgjøring i sin nåværende form.
+Zidovudin (AZT) er en nukleosid revers transkriptase-hemmer som opprinnelig brukes til behandling av HIV-infeksjon.
+TxGNN-modellen predikerer at legemidlet kan være effektivt ved **AIDS-relatert kompleks**, med **40 kliniske studier** og **20 publikasjoner** i dataene som er samlet inn for denne rapporten.
+Dette er i realiteten en historisk, innenfor-indikasjon bruk av HIV-behandling, og ikke ekte ny bruk av legemidlet.
 
 ---
 
-## Raskt oversikt
+## Hurtigoversikt
 
-| Emne | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Ikke registrert i kildedata (medikament ikke markedsført lokalt); zidovudin er internasjonalt dokumentert som den første NRTI antiretroviral for HIV/AIDS |
-| Forutsagt ny indikasjon | Felid ervervet immunsviktsyndrom (veterinærindikasjon — ikke aktuelt for menneskelige pasienter) |
-| TxGNN prediksjonspoeng | 99.96% |
-| Bevistnivå | L4 (kun preklinisk/dyremodellitteratur; ikke overførbar til menneskelig indikasjon) |
-| Norsk markedsstatus | Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvente |
+| Opprinnelig indikasjon | HIV-infeksjon |
+| Predikert ny indikasjon | AIDS-relatert kompleks (AIDS related complex) |
+| TxGNN-prediksjonsscore | 99,19 % |
+| Evidensnivå | L1 |
+| Markedsstatus i Norge | Kun trukket tilbake (ingen gyldige markedsføringstillatelser) |
+| Antall tillatelser | 2 (begge trukket tilbake) |
+| Anbefalt beslutning | Proceed with Guardrails (Fortsett med sikkerhetsrammer) |
+
+Merk: Rangering etter TxGNN-score har to dyreindikasjoner øverst (felin immunsviktsykdom og SIV-infeksjon, begge score 99,96 %). Disse har kun dyrestudier (L4, anbefaling «Hold») og er ikke relevante for humant legemiddelomprioriteringsarbeid. Denne rapporten fokuserer på den høyest rangerte indikasjonen med klinisk evidens hos mennesker: AIDS-relatert kompleks.
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljert data om virkningsmekanisme er ikke tilgjengelig i denne bevisspakken (`original_moa`: Datagap). Basert på den omfattende litteraturen returnert over alle rangerte indikasjoner, beskrives zidovudin konsekvent som en tymidin-analog nukleosidrevers transkriptasehemmer (NRTI) — den er fosforylert intracellulært og inkorporert av retroviral revers transkriptase, som avbryter proviral DNA-syntese. Denne mekanismen er artsuavhengig på enzymnivå, noe som forklarer hvorfor medikamentet viser antiretroviral aktivitet ikke bare mot HIV-1 hos mennesker, men også mot relaterte lentiviruser hos andre arter.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i det innsamlede datagrunnlaget. Basert på kjent informasjon er zidovudin en nukleosid revers transkriptase-hemmer (NRTI): det er et prodrug som fosforyleres i lymfocytter og hemmer HIVs reverse transkriptase. Effekten ved HIV-infeksjon er veletablert.
 
-Denne mekanistiske ikke-spesifisiteten er nøyaktig hvorfor de to topprangerte TxGNN-prediksjonen — **felid ervervet immunsviktsyndrom** (rang 1, poeng 0.9996) og **simianimmunsviktvirusinfeksjon** (rang 2, nesten identisk poeng 0.9996) — scorer så høyt: kunnskapsgrafen forbinder zidovudin til disse enhetene gjennom tiår med komparativ virologi-litteratur der katter og makaker ble brukt som *eksperimentelle dyremodeller* for HIV/AIDS-medikamentutvikling, ikke fordi zidovudin er en klinisk indisert terapi for kjæledyr eller primatsjukdom. Med andre ord, modellen plukker opp litteratur co-forekomst fra prekliniske modellsystemer, ikke en genuine ny menneskelig terapeutisk mulighet.
+AIDS-relatert kompleks (ARC) er et symptomatisk, tidlig stadium av HIV-infeksjon. Indikasjonen ligger dermed svært nær zidovudins opprinnelige bruksområde, og prediksjonen er mekanistisk høyst plausibel. De store fase 3-studiene fra 1980- og 1990-tallet testet nettopp zidovudin hos pasienter med ARC og AIDS.
 
-Derimot, ranger 5 og 6 i denne samme bevisspakken — **AIDS-relatert kompleks** og **kongenital menneskelig immunsviktvirus** — er sterkt støttet av dusinvis av fullførte fase 1–3 menneskelige forsøk (inkludert landemerkeforsøket ACTG 076 for prevensjon av perinatal overføring) og er faktisk *allerede etablert* menneskelig bruk av zidovudin snarere enn nye omgjøringskandidater. Ranger 3 og 4 (et sjeldent nevroevolutivt syndrom og "foreldet familiesamset hyperlipidemi") er allerede internt flagget uten mekanistisk forbindelse, og for rang 4 går det mulige forholdet i *motsatt retning* — NRTI-terapi er assosiert med lipodystrofi/dyslipidemi som bivirkningseffekt, ikke terapeutisk fordel. Samlet sett illustrerer denne kandidatbundelen et tilfelle der råt TxGNN-rangering, uten art- og klinisk kontekstfiltrering, presenterer modellartefakter snarere enn levedyktige omgjøringssignaler.
-
----
-
-## Kliniske forsøksbevis
-
-For tiden ingen relaterte kliniske forsøk registrert for felid ervervet immunsviktsyndrom (som forventet — dette er en veterinærindikasjon og ville ikke dukke opp i ClinicalTrials.gov/ICTRP for menneskelige forsøkspersoner).
+Begrepet ARC er i dag foreldet. Moderne praksis bruker kombinasjonsbehandling mot HIV (ART), og zidovudin som monoterapi anbefales ikke lenger. Prediksjonen bekrefter derfor primært en eksisterende indikasjon, ikke en ny.
 
 ---
 
-## Litteraturbevis
+## Kliniske studier
 
-All tilgjengelig litteratur for denne indikasjonen består av prekliniske dyremodellstudier hos hjemmekatter; ingen er menneskelige kliniske forsøk, randomiserte kontrollerte forsøk eller oversikter.
+Dataene inneholder 40 registrerte studier. De mest relevante er listet under.
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
+|---------|------|------|------|---------|
+| [NCT00001011](https://clinicaltrials.gov/study/NCT00001011) | Fase 3 | Fullført | 538 | Sikkerhet og nytte av zidovudin ved tidlig ARC; direkte relevant |
+| [NCT00000736](https://clinicaltrials.gov/study/NCT00000736) | Fase 3 | Fullført | 3200 | Zidovudin hos asymptomatiske HIV-infiserte for å utsette AIDS/ARC; lav vs. høy dose |
+| [NCT00001022](https://clinicaltrials.gov/study/NCT00001022) | Fase 3 | Fullført | 1200 | AZT alene vs. AZT + ddI vs. AZT + ddC for å utsette AIDS-relaterte tilstander |
+| [NCT00002124](https://clinicaltrials.gov/study/NCT00002124) | Fase 3 | Fullført | 1250 | Tre doser delavirdin + zidovudin vs. zidovudin alene |
+| [NCT00002436](https://clinicaltrials.gov/study/NCT00002436) | Fase 3 | Fullført | 325 | Lamivudin (lav/høy dose) eller ddC kombinert med AZT |
+| [NCT00002238](https://clinicaltrials.gov/study/NCT00002238) | Fase 3 | Fullført | Ikke oppgitt | Interferon beta (Betaseron) ved AIDS/avansert ARC med redusert AZT-dose; zidovudin-koblingen er indirekte |
+| [NCT00000803](https://clinicaltrials.gov/study/NCT00000803) | Fase 2 | Fullført | 471 | Delavirdin i kombinasjon med AZT og/eller ddI vs. AZT/ddI |
+| [NCT00000625](https://clinicaltrials.gov/study/NCT00000625) | Fase 2 | Fullført | 2100 | Monoterapi vs. kombinasjon av nukleosidanaloger (AZT, ddI, ddC) |
+| [NCT00002322](https://clinicaltrials.gov/study/NCT00002322) | Fase 2 | Fullført | Ikke oppgitt | To doser atevirdin sammen med AZT |
+| [NCT00000960](https://clinicaltrials.gov/study/NCT00000960) | Fase 3 | Fullført | 1496 | Oralt AZT hos gravide og nyfødte for å redusere overføring fra mor til barn |
+
+Øvrige studier omfatter farmakokinetiske interaksjonsstudier (f.eks. probenecid, kinin, paracetamol, trimetoprim/sulfametoksazol) og tidlige fase 1/2-studier av kombinasjoner.
+
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [2475068](https://pubmed.ncbi.nlm.nih.gov/2475068/) | 1989 | Preklinisk (felid modell) | Antimicrob Agents Chemother | Etablerte FIV som modell for AZT-basert revers transkriptase-rettet kjemoterapi for menneskelig AIDS |
-| [3034403](https://pubmed.ncbi.nlm.nih.gov/3034403/) | 1987 | Preklinisk (felid modell) | Cancer Research | Tidlig evaluering av AZT i FeLV-infiserte katter som terapi-/profylaksemodell for AIDS |
-| [2178336](https://pubmed.ncbi.nlm.nih.gov/2178336/) | 1990 | Preklinisk (felid modell) | Antimicrob Agents Chemother | Interferon-alfa pluss AZT evaluert i presymptomatisk felid leukemivirus-indusert AIDS (FAIDS) |
-| [2163339](https://pubmed.ncbi.nlm.nih.gov/2163339/) | 1990 | Preklinisk (felid modell, toksikologi) | Fundam Appl Toxicol | Dose-rekkevidde toksisitetsstudie av AZT i FeLV-infiserte katter |
-| [8381867](https://pubmed.ncbi.nlm.nih.gov/8381867/) | 1993 | Preklinisk (felid modell) | J Acquir Immune Defic Syndr | Profylaktisk AZT reduserte tidlig viremi og lymfocytreduksjon men forhindret ikke primær FIV-infeksjon |
-| [7688949](https://pubmed.ncbi.nlm.nih.gov/7688949/) | 1993 | Preklinisk (felid modell) | Arch Virol | AZT og ciklosporin reduserte plasma (men ikke PBMC) FIV-titere |
-| [11943320](https://pubmed.ncbi.nlm.nih.gov/11943320/) | 2002 | Preklinisk (felid modell) | Vet Immunol Immunopathol | AZT/3TC-kombinasjon viste additiv til synergistisk anti-FIV-aktivitet in vitro; satte spørsmål ved effektivitet i kronisk infeksjon |
-| [18550661](https://pubmed.ncbi.nlm.nih.gov/18550661/) | 2008 | Preklinisk (felid modell, genetikk) | J Virol | Fylogenetisk analyse av FIV-gener i katter som gjennomgår AZT-behandling kontra behandling-naive katter |
-| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Preklinisk (felid modell) | Viruses | Sammenlignet AZT alene kontra AZT-kombinasjoner (IFN-α, 3TC, valporsyre) i naturlig FIV-infiserte katter over ett år |
-| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Preklinisk (felid modell, langsiktig) | J Feline Med Surg | Langsiktig (5–6 år) oppfølging av AZT-basert antiretroviral terapi i FIV-infiserte katter |
+| [2677429](https://pubmed.ncbi.nlm.nih.gov/2677429/) | 1989 | Klinisk studie | JAMA | Langtidsbehandling med zidovudin hos 229 pasienter med AIDS/ARC; overlevelsesdata over 21 måneder |
+| [1777174](https://pubmed.ncbi.nlm.nih.gov/1777174/) | 1991 | Dobbeltblind kontrollert studie | AIDS | Zidovudin med eller uten aciklovir ved ARC (n=199) |
+| [2661194](https://pubmed.ncbi.nlm.nih.gov/2661194/) | 1989 | Oversikt | Drugs | Færre opportunistiske infeksjoner, bedre overlevelse og livskvalitet; alvorlige hematologiske bivirkninger |
+| [7693435](https://pubmed.ncbi.nlm.nih.gov/7693435/) | 1993 | Oversikt | Drugs | Zidovudin forsinker sykdomsprogresjon til AIDS/ARC og øker overlevelse |
+| [2191113](https://pubmed.ncbi.nlm.nih.gov/2191113/) | 1990 | Placebokontrollert studie | J Acquir Immune Defic Syndr | Livskvalitet; ett dødsfall i zidovudingruppen mot ti i placebogruppen ved ett år |
+| [2201071](https://pubmed.ncbi.nlm.nih.gov/2201071/) | 1990 | Klinisk rapport | Rev Infect Dis | Zidovudinintoleranse; dose- og tidsavhengig anemi og leukopeni |
+| [2159707](https://pubmed.ncbi.nlm.nih.gov/2159707/) | 1990 | Fase I/II | Am J Med | Kombinasjon ddC + zidovudin ved AIDS og avansert ARC |
+| [2159705](https://pubmed.ncbi.nlm.nih.gov/2159705/) | 1990 | Klinisk studie | Am J Med | Alternerende og intermitterende regimer av zidovudin og ddC |
+| [1894937](https://pubmed.ncbi.nlm.nih.gov/1894937/) | 1991 | Klinisk studie | J Infect Dis | Bedre vaksinerespons mot pneumokokker hos AIDS/ARC-pasienter på zidovudin |
+| [2224694](https://pubmed.ncbi.nlm.nih.gov/2224694/) | 1990 | Oversikt | CMAJ | Oppdatering om zidovudinbehandling ved HIV, AIDS og ARC |
 
 ---
 
-## Norsk markedsinformasjon
+## Markedsinformasjon for Norge
 
-Dette medikamentet har for tiden ingen autorisasjoner registrert for dette markedet (`market_status`: Ikke markedsført; `total_licenses`: 0). Ingen produktoppføringer er tilgjengelige å oppsummere.
+Det finnes ingen gyldige markedsføringstillatelser. De to registrerte tillatelsene er trukket tilbake.
+
+| Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000190 | Combivir | Ikke oppgitt | HIV-infeksjon |
+| EMEA/H/C/000338 | Trizivir | Ikke oppgitt | HIV-infeksjon |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsinformasjonen for sikkerhetsinformasjon. Ingen strukturerte advarsler, kontraindikasjoner eller legemiddelinteraksjonsdata er for tiden tilgjengelige i bevisspakken (`key_warnings`, `contraindications` og DDI-spørringer returnerte ingen data). Dette er flagget som et **blokkerende** datagap (DG001) — offisiell merkinginformasjon/monografidata må skaffes før denne kandidaten kan gå videre gjennom innledende sikkerhetskontroll (S1).
+**Kontraindikasjoner og risikotilstander (fra kunnskapsgrafen, ikke preparatomtale):** Kunnskapsgrafen knytter zidovudin til blant annet leversvikt, leversykdom, fettlever, nyresykdom, pankreatitt, gallblæresykdom, myopati og myositt, nøytropeni, agranulocytose, anemi (inkludert makrocytær), laktacidose, hypertriglyseridemi og fedme. Dette er relasjoner fra en modell og ikke fra godkjent preparatomtale.
+
+**Legemiddelinteraksjoner:** Totalt 100 interaksjoner er registrert. Eksempler på moderat alvorlighetsgrad:
+- Amfotericin B (inkludert kolesterylsulfat- og lipidkompleksformuleringer)
+- Kortikosteroider: betametason, budesonid, deksametason, hydrokortison, prednisolon, prednison, triamcinolon
+- Statiner: rosuvastatin, simvastatin
+- Naltrekson, orlistat
+
+Mindre alvorlige: cimetidin, klaritromycin. Ukjent nivå: pantoprazol, morfin, metformin, omeprazol.
+
+**Hematologisk toksisitet:** Litteraturen beskriver dose- og tidsavhengig anemi og leukopeni som hyppigste årsak til intoleranse.
+
+Opplysninger om advarsler og kontraindikasjoner fra preparatomtalen mangler i datagrunnlaget. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvente**
+**Beslutning: Proceed with Guardrails (Fortsett med sikkerhetsrammer)**
 
 **Begrunnelse:**
-Den høyest rangerte TxGNN-prediksjonen (felid ervervet immunsviktsyndrom) er en veterinærindikasjon for ikke-mennesker uten bevis for kliniske forsøk og bare preklinisk dyremodellitteratur — den er ikke handlingsbar som menneskelig medikament omgjøringskandidat. Kombinert med et blokkerende sikkerhetsdatagap (ingen merkinginformasjon/advarselsdata) og medikamentets fravær fra det lokale markedet, er det utilstrekkelig grunnlag for å gå videre.
+- Flere fase 3-studier (blant annet NCT00001011, n=538) støtter zidovudin ved ARC, men dette er en etablert og historisk indikasjon innenfor HIV-behandling, ikke ny bruk. Legemidlet har ingen gyldig markedsføringstillatelse i Norge, og moderne praksis bruker kombinasjonsbehandling.
 
-**For å gå videre, er følgende nødvendig:**
-- Offisiell produktmerkinginformasjon / TFDA-ekvivalent monografidata (advarsler, kontraindikasjoner, DDI-er) for å lukke det blokkerende datagapet (DG001)
-- Bekreftet virkningsmekanisme-dokumentasjon (DG002)
-- Art-/enhetfiltrering på TxGNN-utganger for å utelukke ikke-mennesketige sjukdomsbetegnelser før rangering presenteres for menneskelig omgjøringsvurdering
-- Hvis fortsatt forfølgt, bør revurdering fokuseres på de lavere rangerte men klinisk funderte signalene i denne pakken (AIDS-relatert kompleks, kongenital HIV-infeksjon) — med merknad om at disse gjenspeiler zidovudins *allerede etablert* menneskelig bruk snarere enn ny omgjøringsmulighet, så de ville ikke kvalifisere som nye indikasjoner heller
+**For å gå videre kreves følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner (mangler i datagrunnlaget)
+- Data om virkningsmekanisme (MOA)
+- Bruk kun innenfor kombinasjonsbehandling (ART), ikke som monoterapi
+- Plan for overvåkning av hematologisk toksisitet (anemi, nøytropeni), lever- og nyrefunksjon
+- Gjennomgang av den store interaksjonsbyrden (100 registrerte interaksjoner)
+- Avklaring av regulatorisk status, siden alle norske tillatelser er trukket tilbake
 
+**Øvrige prediksjoner (kort):**
+- Felin immunsviktsykdom og SIV-infeksjon: kun dyrestudier (L4), Hold; ikke relevant for human bruk.
+- Nevroutviklingsforstyrrelse og «obsolete familial combined hyperlipidemia»: kun modellprediksjon (L5), Hold. Ingen plausibel mekanisme, og zidovudin kan gi mitokondriell toksisitet og lipidforstyrrelser.
+- Kongenital HIV: L1, Proceed with Guardrails. Støttet av fase 3-studier (NCT00001104, NCT00102960) og retningslinjer for å redusere overføring fra mor til barn (PMID 7913986). Dette er også en etablert bruk innenfor HIV-indikasjonen.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

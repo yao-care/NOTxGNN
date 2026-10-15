@@ -2,7 +2,7 @@
 layout: default
 title: Tocofersolan
 parent: Kun modellprediksjon (L5)
-nav_order: 361
+nav_order: 424
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,79 +29,78 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Tocofersolan: Fra vitamin E-mangel til amenore
+# Tokofersolan: Fra kolestase og vitamin E-mangel til amenoré
 
-## Sammendrag i en setning
+## Oppsummering i én setning
 
-Tocofersolan (TPGS) er en vannløselig form av vitamin E, historisk brukt til å korrigere vitamin E-mangel hos pasienter med kronisk kolestase. TxGNN-modellen forutsier en mulig sammenheng med **Amenore**, men denne prediksjonen støttes for tiden av **ingen kliniske studier** og **ingen publisert litteratur** — det er bare et modellsignal.
+Tokofersolan er en vannløselig form av vitamin E (alfa-tokoferol med TPGS), opprinnelig brukt mot **kolestase og vitamin E-mangel**.
+TxGNN-modellen forutsier at legemidlet kan ha effekt mot **amenoré**, men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** i de innsamlede dataene som støtter dette. Prediksjonen er kun en modellberegning.
 
 ---
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
-|------|--------|
-| Originalindikasjon | Vitamin E-mangel forbundet med kronisk kolestase (basert på kjent farmakologisk bruk; ikke bekreftet via regulatoriske etikettdata) |
-| Predikert ny indikasjon | Amenore |
-| TxGNN prediksjonspoengsum | 99.31% |
-| Bevisnivå | L5 |
-| Markedsstatus Norge | Ikke på markedet |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Avvente |
+|------|------|
+| Opprinnelig indikasjon | Kolestase; vitamin E-mangel |
+| Predikert ny indikasjon | Amenoré |
+| TxGNN-prediksjonsscore | 99,31 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun trukket tilbake (ingen gyldige markedsføringstillatelser) |
+| Antall tillatelser | 1 (trukket tilbake) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er ikke detaljerte data om virkningsmekanisme tilgjengelig. Basert på kjent informasjon er tocofersolan en polyetylenglykol-sukkinat-ester av vitamin E (TPGS), brukt primært som en mizellær solubilisator for å assistere absorpsjon av fettløselig vitamin E hos pasienter med nedsatt gallestrøm (f.eks. kolestase). Dens etablerte effektivitet er begrenset til å korrigere vitamin E-mangel, ikke til noen direkte hormonell eller reproduktiv vei.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Ut fra kjent informasjon er tokofersolan en vannløselig vitamin E-formulering (alfa-tokoferol med TPGS) som korrigerer vitamin E-mangel ved kolestase, der fettløselige vitaminer absorberes dårlig.
 
-Det finnes ingen kjent virkningsmekanisme som forbinder vitamin E-tilskudd til regulering av hypotalamus-hypofyse-eggstokk-aksen eller menstruasjonssykluskontroll. Det høye TxGNN-poengsumet reflekterer mest sannsynlig et indirekte grafrelasjonsbindinger — for eksempel delte noder relatert til oksidativstress-veier — snarere enn en validert biologisk mekanisme. Uten støttende studie- eller litteraturbevis bør denne forbindelsen behandles som utforsking kun.
+Det er ikke påvist noen direkte mekanistisk sammenheng mellom dette og amenoré. En spekulativ forklaring er at antioksidante eller ernæringsmessige effekter kan påvirke reproduktiv funksjon, eller at korrigering av malabsorpsjonsrelaterte mangler sekundært kan påvirke menstruasjonsregelmessighet. Ingen kliniske data eller litteratur i datagrunnlaget støtter dette. Den høye scoren (0,993) er en ren beregningsmessig prediksjon.
 
----
-
-## Bevis fra kliniske studier
-
-For tiden ingen relaterte kliniske studier registrert.
+Til sammenligning ble også **akne** predikert (score 99,03 %), men uten støttende studier. Teoretisk kan vitamin E sine antioksidante og betennelsesdempende egenskaper være relevante ved betennelsesprega hudsykdommer, men dette er heller ikke underbygd.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske studier
 
-For tiden ingen relatert litteratur tilgjengelig.
+Foreløpig finnes ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+Foreløpig finnes ingen relatert litteratur.
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Tocofersolan er for tiden ikke på markedet i Norge (0 godkjenninger på journalføring). Ingen data om produktlisens er tilgjengelige for vurdering.
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000920 | Vedrop (Recordati Rare Diseases) – trukket tilbake | – | Kolestase; vitamin E-mangel |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
-
----
-
-## Ytterligere predikert indikasjon (sekundær kandidat)
-
-En annen kandidat — **Akne** (TxGNN-poengsum: 99.03%, rangering 9278) — ble også flagget, med samme bevisavtrykk: ingen kliniske studier, ingen litteratur, og ingen direkte farmakologisk begrunnelse utover en teoretisk antioksidant/antiinflammatorisk forbindelse. Denne kandidaten har samme **L5 / Avvente**-status og prioriteres ikke fremfor amenore.
+Se pakningsvedlegget for sikkerhetsinformasjon.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvente**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Begge predikerte indikasjoner baserer seg utelukkende på TxGNN-modellpoengsum uten støttende kliniske studier, litteratur eller virkningsmekanisme. Kombinert med fraværet av MOA-, sikkerhets- og regulatoriske data, finnes det for tiden ingen grunnlag for å fremme noen av kandidatene utenfor utforskende screening.
+Prediksjonen for amenoré hviler utelukkende på en modellscore uten støtte fra kliniske studier eller litteratur (evidensnivå L5). Den eneste tillatelsen i Norge er trukket tilbake, og sikkerhetsdata og virkningsmekanisme mangler.
 
-**For å fortsette er følgende nødvendig:**
-- Bekreftet virkningsmekanisme (MOA) data fra DrugBank eller primærlitteratur
-- TFDA/regulatoriske etikettadvarsler og kontraindikasjoner (for tiden et blokkerende datagap)
-- Preklinisk eller observasjonsbevis som knytter vitamin E/TPGS til reproduktiv endokrin eller dermatologisk vei
-- DDI og sikkerhetsprofildata før noen S1 sikkerhets-pre-vurdering kan begynne
-
+**For å gå videre kreves følgende:**
+- Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel, må på plass før sikkerhetsscreening)
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Litteratursøk og søk etter kliniske studier på vitamin E/tokofersolan ved amenoré
+- Avklaring av administrasjonsvei og formulering, siden tilgjengelige produkter er trukket tilbake
+- Vurdering av markedstilgjengelighet i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

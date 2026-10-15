@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Lispro
 parent: Kun modellprediksjon (L5)
-nav_order: 188
+nav_order: 221
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,79 +29,93 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Insulin lispro: Fra diabetes mellitus til autoimmun ooforitt
+# Insulin lispro: Fra diabetes mellitus til autoimmun oophoritt
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-> Insulin lispro er et hurtigvirkende insulinanalog som opprinnelig ble brukt for å oppnå glykemisk kontroll ved diabetes mellitus.
-> TxGNN-modellen forutsier at det kan være effektivt for **autoimmun ooforitt**,
-> men for tiden **finnes det ingen kliniske studier og ingen publisert litteratur** som støtter denne retningen, og ingen rimelig biologisk mekanisme som forbinder de to er identifisert.
+Insulin lispro er et hurtigvirkende insulinanalog som opprinnelig brukes til behandling av diabetes mellitus. TxGNN-modellen predikerer at det kan ha effekt ved **autoimmun oophoritt**, men det finnes **ingen kliniske studier og ingen publikasjoner** som støtter denne prediksjonen. Prediksjonen er derfor ren modellberegning.
 
 ---
 
-## Hurtig oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Original indikasjon | Diabetes mellitus (glykemisk kontroll) — ikke dokumentert i det nåværende regulatoriske datasett for Taiwan |
-| Forutsagt ny indikasjon | Autoimmun ooforitt |
-| TxGNN-prediksjonspoengsum | 99.78% |
-| Bevisnivå | L5 |
-| Markedsstatus i Norge | Ikke på markedet (Ikke på markedet) |
-| Antall godkjenninger | 0 |
-| Anbefalt vedtak | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Diabetes mellitus |
+| Predikert ny indikasjon | Autoimmun oophoritt |
+| TxGNN-prediksjonsscore | 99,78 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun tilbakekalte/avregistrerte godkjenninger (ikke markedsført) |
+| Antall godkjenninger | 4 (alle avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige. Basert på kjent informasjon er insulin lispro et hurtigvirkende insulinanalog hvis effektivitet for glykemisk kontroll ved diabetes mellitus er godt etablert, og det virker via insulinreseptoren for å fremme glukoseopptak og regulere metabolismen.
+Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er insulin lispro et hurtigvirkende insulinanalog, og effekten ved diabetes mellitus er godt dokumentert gjennom metabolsk blodsukkerregulering.
 
-Imidlertid finnes ingen kjent mekanistisk forbindelse mellom insulinsignalering og autoimmun ooforitt, som er en autoimmun inflammatorisk prosess som påvirker ovarievev. Det finnes ingen etablert vei hvorved insulin (eller lispro spesifikt) ville modulere denne sykdomsprosessen.
+Det finnes imidlertid ingen klar mekanistisk kobling til autoimmun oophoritt. Tilstanden innebærer immunmediert skade på eggstokkene, og insulinets metabolske virkning har ingen kjent sykdomsmodifiserende rolle her. En eventuell sammenheng er indirekte, for eksempel gjennom autoimmune polyglandulære syndromer som også omfatter type 1-diabetes. Den høye scoren bør derfor tolkes som en beregningsmessig prediksjon, ikke som et biologisk signal.
 
-Gitt fraværet av noen støttende kliniske studier eller litteratur, reflekterer denne høye TxGNN-poengsum sannsynligvis støy eller en indirekte komorbiditetsassosisasjon fanget i modellens embedding-rom, snarere enn et genuint, mekanistisk begrunnet behandlingssignal. Denne prediksjonen bør behandles som kun hypotesegenererende, ikke som grunnlag for klinisk handling.
-
----
-
-## Bevis fra kliniske studier
-
-Ingen relaterte kliniske studier er for tiden registrert
+Andre prediksjoner med høy score i analysen er stort sett også av indirekte art:
+- **Pankreasagenesi**: Insulinerstatning er standard behandling for den diabetiske fenotypen, men dette er erstatningsterapi og ikke ekte repurposing. Den ene funnede artikkelen (oversikt over insulinbehandling ved type 2-diabetes, 2002) er kun indirekte relevant.
+- **Thiaminresponsivt syndrom, klassisk stiff person-syndrom og fokalt stiff limb-syndrom**: Koblingen går via samtidig diabetes eller anti-GAD-autoimmunitet, ikke via insulinets effekt på selve sykdommen.
+- **Opsismodysplasi**: INPPL1 (SHIP2) regulerer insulin/PI3K-signalering negativt, noe som gir en mulig koblingsvei, men effektretningen er uklar.
+- **Legemiddelindusert lokalisert lipodystrofi, sentrifugal lipodystrofi og trykkindusert lokalisert lipoatrofi**: Insulininjeksjon kan i seg selv forårsake lokal lipodystrofi. Dette er en bivirkning og ikke en terapeutisk mulighet.
 
 ---
 
-## Bevis fra litteratur
+## Klinisk studiedokumentasjon
 
-Ingen relatert litteratur er for tiden tilgjengelig
-
----
-
-## Markedsinformasjon for Norge
-
-Insulin lispro er for tiden ikke på markedet (Ikke på markedet), og ingen produktgodkjenningsregistre er tilgjengelige i dette datasettet (0 lisenser).
+For tiden er det ingen relaterte kliniske studier registrert.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturdokumentasjon
 
-Se pakningsvedlegget for sikkerhetsinformasjon.
+For den prioriterte prediksjonen (autoimmun oophoritt) foreligger det for tiden ingen relatert litteratur.
+
+---
+
+## Informasjon om det norske markedet
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000088 | Humalog | – | Diabetes mellitus |
+| EMEA/H/C/005037 | Lyumjev (tidligere Liumjev) | – | Diabetes mellitus |
+| EMEA/H/C/000393 | Liprolog | – | Diabetes mellitus |
+| EMEA/H/C/004303 | Insulin lispro Sanofi | – | Diabetes mellitus |
+
+Alle fire godkjenningene er avregistrert, og det finnes ingen gyldige godkjenninger.
+
+---
+
+## Sikkerhetsvurderinger
+
+**Legemiddelinteraksjoner**: Interaksjonssøket er fullført og viser totalt 100 registrerte interaksjoner. Av disse er 20 oppført i de innsamlede dataene, og de fleste er av moderat alvorlighetsgrad. Eksempler:
+- **Moderat**: fenylefrin, acebutolol, acetazolamid, formoterol, pseudoefedrin, doksycyklin, adrenalin, levonorgestrel, hydrokortison, albiglutid, salbutamol, etanol, hydroklortiazid, alogliptin, metformin, østradiol, alpelisib, etinyløstradiol
+- **Mindre alvorlig**: topisk hydrokortison, topisk alklometason
+
+Mange av disse påvirker blodsukkeret og kan forsterke eller svekke insulineffekten. Dette bør vurderes ved samtidig bruk.
+
+**Annen sikkerhetsmerknad**: Insulin kan forårsake lokal lipodystrofi (lipohypertrofi/lipoatrofi) på injeksjonssteder. Dette er relevant for tolkningen av flere av prediksjonene over.
+
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Vedtak: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Denne prediksjonen støttes kun av en rå TxGNN-modellpoengsum (L5), uten kliniske studier, uten litteratur, og uten identifiserbar biologisk mekanisme som forbinder insulin lispro til autoimmun ooforitt. Bevisgrunnlaget er utilstrekkelig til å rettferdiggjøre videre investering på dette tidspunktet.
+Prediksjonen om autoimmun oophoritt bygger kun på modellscore (L5), uten kliniske studier, litteratur eller en klar mekanistisk kobling. Ingen av de øvrige predikerte indikasjonene representerer reell repurposing, da de enten er standard diabetesbehandling eller knyttet til bivirkninger. I tillegg har legemidlet ingen gyldige godkjenninger i Norge.
 
-**For å gå videre er følgende nødvendig:**
-- TFDA-etikettadvarsler/kontraindikasjoner (for tiden en blokkerende datamangel — kreves før noen sikkerhetsvurdering)
-- Virkningsmekanisme (MOA)-data fra DrugBank
-- Prekliniske eller mekanistiske studier som spesifikt forbinder insulinsignalering til autoimmun ooforitt-patofysiologi
-- Dersom ingen slik evidens fremkommer, bør denne kandidaten forbli nedprioritert
-
-**Merknad:** Blant de andre forutsagte indikasjonene i denne evidenspakken har *bukspyttkjertelagenesi* (rangering 7, L3, «Fortsett med forholdsregler») en mekanistisk direkte begrunnelse — insulin er den etablerte standard for omsorg for neonatalt diabetes sekundær til bukspyttkjertelagenesi — og kan være berettiget til en separat, dedikert evalueringsrapport i stedet for å bli behandlet som denne kandidatens primære signal.
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA)
+- Sikkerhetsopplysninger fra preparatomtalen (advarsler og kontraindikasjoner)
+- Prekliniske eller kliniske data som viser en faktisk effekt ved autoimmun oophoritt
+- Avklaring av markedsstatus og tilgjengelige administrasjonsveier i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

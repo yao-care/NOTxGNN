@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Azathioprine
-parent: Høy evidens (L1-L2)
-nav_order: 44
-evidence_level: L1
+parent: Kun modellprediksjon (L5)
+nav_order: 50
+evidence_level: L5
 indication_count: 10
 ---
 
 # Azathioprine
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,102 +29,128 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Azathioprine: Fra immunosuppressiv terapi til vedlikeholdsterapi ved inflammatorisk tarmsykdom
+# Azatioprin: Fra transplantasjonsavstøtning til inflammatorisk tarmsykdom
 
-## Ensetningssammendrag
+## Oppsummering
 
-> Azathioprine er et immunosuppressivum i thiopurinklassen med tiår med etablert bruk ved autoimmune og transplantrelaterte tilstander.
-> Blant kandidatindikasjonene generert av TxGNN-modellen, **inflammatorisk tarmsykdom (Crohns sykdom / ulcerøs kolitt)** er den eneste prediksjonen støttet av substansiell realverdens-evidens,
-> støttet av **flere avsluttede fase 3-RCT-er, Cochrane systematiske oversikter, og dusinvis av kliniske forsøk og publikasjoner**. Legemidlet er for øyeblikket **ikke markedsført i Norge**.
+Azatioprin er et immundempende legemiddel som opprinnelig er godkjent for å forebygge avstøtning av transplantert organ (graft rejection).
+TxGNN-modellen rangerer flere nye indikasjoner høyt. Den best underbygde er **inflammatorisk tarmsykdom (IBD)**, med **22 kliniske studier** og **19 publikasjoner** i datagrunnlaget. Dette er i praksis en etablert bruk, ikke ny repurposing. Flere av de øvrige prediksjonene, for eksempel sjeldne misdannelsessyndromer, har ingen støtte i data utover modellscoren.
 
 ---
 
-## Kort oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Ikke spesifisert i evidenspakken (Databrudd — ingen `original_indications` på fil). Azathioprine er et langvarig etablert thiopurin-immunosuppressivum historisk brukt til profylakse av transplantatavstøtning ved nyretransplantasjon og revmatoid artritt. |
-| Forutsagt ny indikasjon | Inflammatorisk tarmsykdom (Crohns sykdom / ulcerøs kolitt) |
-| TxGNN-prediksjonspoeng | 99.52% (intern sykdomsrangering #5344) |
-| Evidensnivå | L1 |
-| Markedsstatus Norge | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Fortsett med sikringstiltak |
+| Opprinnelig indikasjon | Avstøtning av transplantat (graft rejection) |
+| Predikert ny indikasjon | Colobomatous microphthalmia-rhizomelic dysplasia syndrome (rangert nr. 1 av TxGNN; se merknad nedenfor) |
+| TxGNN-prediksjonsscore | 99,99 % |
+| Evidensnivå | L5 for rangert nr. 1. For IBD og ulcerøs kolitt: L1 |
+| Status på det norske markedet | Kun avregistrert (ingen gyldig markedsføring) |
+| Antall autorisasjoner | 1 (avregistrert) |
+| Anbefalt beslutning | Hold for rangert nr. 1. Proceed with Guardrails for IBD / ulcerøs kolitt |
 
-**Merknad om kandidatvalg:** Evidenspakkens eneste høyest TxGNN-scorede prediksjon (*kolobomat mikroftalmi-rhizomeli dysplasi syndrom*, 99.9999%) og flere andre høyt-rangerte elementer (rangering 2–4, 6, 8, 10) er medfødt/genetisk eller primær immunsvikt-syndrom med **null støttende forsøk eller litteratur**, og i noen tilfeller (f.eks. WHIM-syndrom, kronisk granulomatøs sykdom) ville immunosuppresjon være mekanistisk upassende eller skadelig. Disse ble alle vurdert som **L5 / Hold** av den interne vurderingsmodellen. Denne rapporten fokuserer derfor på **inflammatorisk tarmsykdom**, kandidaten med høyeste evidens som er relevant for retningslinjer (L1 / "Fortsett med sikringstiltak"); *ulcerøs kolitt* (rangering 9, også L1/S3) er en nært beslektet undertype støttet av stort overlappende evidens.
+**Merknad:** Den høyest rangerte prediksjonen (score 99,99 %) er et sjeldent utviklingssyndrom uten studier, litteratur eller plausibel mekanisme. Resten av rapporten fokuserer derfor på **inflammatorisk tarmsykdom** (rang 5) og **ulcerøs kolitt** (rang 9), som er de eneste kandidatene med reell evidens.
+
+### Oversikt over de ti øverste prediksjonene
+
+| Rang | Sykdom | Score | Evidensnivå | Anbefaling |
+|------|------|------|------|------|
+| 1 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99,999 % | L5 | Hold |
+| 2 | Brachydactyly-syndactyly syndrome | 99,999 % | L5 | Hold |
+| 3 | Osteoarthritis susceptibility | 99,70 % | L5 | Hold |
+| 4 | WHIM-syndrom | 99,68 % | L5 | Hold |
+| 5 | Inflammatorisk tarmsykdom | 99,52 % | L1 | Proceed with Guardrails |
+| 6 | Kronisk granulomatøs sykdom, autosomal recessiv 5 | 99,41 % | L5 | Hold |
+| 7 | Osteoartritt | 99,40 % | L4 | Hold |
+| 8 | Granulomatøs sykdom med defekt nøytrofil kjemotaksi | 99,37 % | L5 | Hold |
+| 9 | Ulcerøs kolitt | 99,33 % | L1 | Proceed with Guardrails |
+| 10 | Acromesomelic dysplasia, Hunter-Thompson-type | 99,27 % | L5 | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme for azathioprine er ikke tilgjengelig i denne evidenspakken. Basert på velutstablet farmakologi er azathioprine et prodrug metabolisert til 6-merkaptopurin og aktive 6-thioguan nukleotider, som hemmer purinsyntese og undertrykker proliferasjon av T- og B-lymfosytter. Denne immunomodulatøriske virkningen er direkte relevant for kroniske immunmediering inflammatoriske tarmsykdommer.
+Detaljerte mekanismedata (original MOA) er foreløpig ikke tilgjengelige i datagrunnlaget. Ut fra kjent informasjon omdannes azatioprin til 6-merkaptopurin og tioguaninnukleotider. Disse hemmer purinsyntesen og fremmer apoptose av T-celler (blant annet via Rac1-hemming). Dette er den samme immundempende mekanismen som brukes ved transplantasjon.
 
-Azatioprins bruk ved inflammatorisk tarmsykdom er ikke en ny omdisponerings-hypotese — det er langvarig, retningslinjeendorset klinisk praksis (thiopuriner har blitt brukt i IBD-vedlikeholdsbehandling i over 50 år). TxGNN-modellens prediksjon gjenoppdager i hovedsak et allerede velutstablet legemiddel-sykdom-forhold, som gjenspeiles i dybden av støttende evidens: flere Cochrane systematiske oversikter, store fase 3-RCT-er (inkludert forsøk som etablerer kombinasjonsterapi med anti-TNF-agenser), og en omfattende realverdens-/farmakogenomisk litteraturbase (f.eks. TPMT/NUDT15-styrt dosering for å redusere thiopurin-indusert leukopeni).
+**IBD og ulcerøs kolitt:** Ved IBD driver overaktivering av slimhinneimmunsystemet sykdommen. Azatioprin demper denne aktiveringen og brukes til å vedlikeholde remisjon og i kombinasjon med TNF-hemmere som infliximab. Mekanismen er derfor godt forenlig med den opprinnelige immundempende bruken. Bruken er allerede veletablert i klinisk praksis.
 
-Denne sterke interne konsistensen — en mekanistisk plausibel, klinisk bekreftet indikasjon som mottar en høy TxGNN-poengsum med tett støttende evidens — står i klar kontrast til modellens spuriøse topp-rangerte prediksjoner for sjeldne medfødt syndrom, og støtter behandlingen av IBD som kandidaten til troverdig omdisponering fra denne evidenspakken.
+**Øvrige prediksjoner:** For de sjeldne misdannelsessyndromene (rang 1, 2, 10) og genetiske tilstander (rang 3) finnes ingen plausibel mekanistisk kobling. Ved WHIM-syndrom, kronisk granulomatøs sykdom og defekter i nøytrofilfunksjon kan azatioprins myelosuppresjon og immundempende effekt tvert imot øke risikoen for cytopeni og infeksjon. Osteoartritt (rang 7) har ingen etablert begrunnelse; den hentede litteraturen ser ut til å være funnet via nøkkelordtreff og ikke via relevant evidens.
 
 ---
 
-## Evidens fra kliniske forsøk
+## Kliniske studier (inflammatorisk tarmsykdom)
 
-| Trialnummer | Fase | Status | Inkludering | Viktige funn |
+Utvalg av de mest relevante studiene, prioritert etter direkte bruk av azatioprin:
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT03101800](https://clinicaltrials.gov/study/NCT03101800) | Fase 3 | Ukjent | 84 | Lav-dose azathioprine + allopurinol kontra azathioprine monoterapi i ulcerøs kolitt; adresserer AZA-terapisvikt/bivirkningsrater |
-| [NCT03464136](https://clinicaltrials.gov/study/NCT03464136) | Fase 3b | Fullført | 386 | Ustekinumab kontra adalimumab hos biologiske-naive Crohns sykdom pasienter som mislyktes konvensjonell terapi inkludert azathioprine |
-| [NCT00094458](https://clinicaltrials.gov/study/NCT00094458) | Fase 3 | Fullført | 508 | Infliximab kontra infliximab+azathioprine kontra azathioprine alene i immunomodulatør/biologisk-naive Crohns sykdom (landemerkeksvinn SONIC-type design) |
-| [NCT02177071](https://clinicaltrials.gov/study/NCT02177071) | Fase 4 | Fullført | 211 | Infliximab + antimetabolitt (AZA) kombinasjon kontra antimetabolitt monoterapi for vedlikehold av steroid-fri remisjon i Crohns sykdom |
-| [NCT01015391](https://clinicaltrials.gov/study/NCT01015391) | N/A | Ukjent | 100 | T2 kontra azathioprine for vedlikehold av klinisk/endoskopisk remisjon i Crohns sykdom etter kirurgisk reseksjon |
-| [NCT02929706](https://clinicaltrials.gov/study/NCT02929706) | N/A | Ukjent | 400 | NUDT15 genotype-styrt thiopurin doseoptimerering for å redusere thiopurin-indusert leukopeni i IBD |
-| [NCT05456776](https://clinicaltrials.gov/study/NCT05456776) | N/A | Fullført | 35 | Azathioprine assosiert med nedsatt postoperativ intestinal epitelregenering i Crohns sykdom |
-| [NCT00113503](https://clinicaltrials.gov/study/NCT00113503) | Fase 2 | Avsluttet | 50 | Multi-stedet forsøk som sammenligner vektnivå kontra metabolitt-styrt azathioprine dosering i Crohns sykdom |
-| [NCT07248644](https://clinicaltrials.gov/study/NCT07248644) | Fase 4 | Rekruttering ikke startet ennå | 304 | Bytte til mesalazin monoterapi kontra fortsetting av thiopuriner hos eldre UC-pasienter i vedvarende remisjon |
-| [NCT04196920](https://clinicaltrials.gov/study/NCT04196920) | N/A | Ukjent | 200 | Metotreksat- kontra azathioprine-basert anti-TNF kombinasjonsterapi i kronisk IBD (bygger på SONIC-forsøksfunn) |
+| [NCT00537316](https://clinicaltrials.gov/study/NCT00537316) | Fase 3 | Avsluttet tidlig | 242 | Infliximab alene eller sammen med azatioprin versus azatioprin alene ved moderat til alvorlig ulcerøs kolitt |
+| [NCT02177071](https://clinicaltrials.gov/study/NCT02177071) | Fase 4 | Fullført | 211 | Infliximab-antimetabolitt-kombinasjon versus monoterapi ved Crohns sykdom i remisjon |
+| [NCT03393247](https://clinicaltrials.gov/study/NCT03393247) | Ikke klassifisert | Ukjent | 160 | Azatioprin fra start eller 14 uker etter infliximab ved Crohns sykdom |
+| [NCT07235904](https://clinicaltrials.gov/study/NCT07235904) | Fase 4 | Rekrutterer | 300 | Mirikizumab (top-down) versus standardbehandling med azatioprin ved nydiagnostisert ulcerøs kolitt |
+| [NCT02247258](https://clinicaltrials.gov/study/NCT02247258) | Fase 2 | Avsluttet tidlig | 63 | Systematisk versus endoskopistyrt azatioprin for å forebygge tilbakefall etter kirurgi ved ileal Crohns sykdom |
+| [NCT00976690](https://clinicaltrials.gov/study/NCT00976690) | Fase 3 | Fullført | 83 | Azatioprin versus mesalazin for å forebygge postoperativt tilbakefall ved Crohns sykdom |
+| [NCT01564823](https://clinicaltrials.gov/study/NCT01564823) | Fase 3 | Fullført | 86 | Adalimumab versus azatioprin for å forebygge postoperativt tilbakefall ved Crohns sykdom |
+| [NCT02425852](https://clinicaltrials.gov/study/NCT02425852) | Fase 4 | Fullført | 65 | Tidlig azatioprin pluss infliximab versus kortikosteroider pluss azatioprin ved akutt alvorlig kolitt |
+| [NCT03101800](https://clinicaltrials.gov/study/NCT03101800) | Fase 3 | Ukjent | 84 | Lavdose azatioprin pluss allopurinol versus azatioprin alene ved ulcerøs kolitt |
+| [NCT00521950](https://clinicaltrials.gov/study/NCT00521950) | Ikke klassifisert | Fullført | 853 | TPMT-genotyping før tiopurinbehandling; relevant for sikkerhet og dosering |
+
+Flere av studiene ble avsluttet tidlig med få deltakere, noe som begrenser tolkningen. Ved de øvrige prediksjonene er det registrert ingen kliniske studier.
 
 ---
 
-## Litteraturevidens
+## Litteraturevidens (inflammatorisk tarmsykdom og ulcerøs kolitt)
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [29293971](https://pubmed.ncbi.nlm.nih.gov/29293971/) | 2018 | Oversikt | Journal of Crohn's & Colitis | Omfattende klinisk oversikt over thiopurin-behandling og forskning ved IBD |
-| [16048561](https://pubmed.ncbi.nlm.nih.gov/16048561/) | 2005 | PK/PGx-studie | J Gastroenterol Hepatol | Azathioprine/6-MP farmakogenetikk og metabolitt-overvåking ved IBD |
-| [10499471](https://pubmed.ncbi.nlm.nih.gov/10499471/) | 1999 | Oversikt | Scand J Gastroenterol Suppl | Oppdatering om klinisk effektivitet og sikkerhet av azathioprine ved IBD |
-| [33305616](https://pubmed.ncbi.nlm.nih.gov/33305616/) | 2021 | Oversikt | Pharmacogenomics | Farmakogenetikk for IBD, inkludert thiopurin genetiske prediktorer |
-| [15177535](https://pubmed.ncbi.nlm.nih.gov/15177535/) | 2004 | Oversikt | Gastroenterol Clin North Am | Behandling av IBD med azathioprine og 6-merkaptopurin |
-| [22072847](https://pubmed.ncbi.nlm.nih.gov/22072847/) | 2011 | Oversikt | World J Gastroenterol | Optimalisering av 6-MP/azathioprine terapi ved IBD-forvaltning |
-| [24117596](https://pubmed.ncbi.nlm.nih.gov/24117596/) | 2013 | Systematisk oversikt + meta-analyse | Aliment Pharmacol Ther | Merkaptopurin som sikker strategi hos azathioprin-intolerable IBD-pasienter |
-| [19072367](https://pubmed.ncbi.nlm.nih.gov/19072367/) | 2008 | Oversikt | Expert Rev Gastroenterol Hepatol | Molekylære innsikter i azatioprins mekanisme og kliniske implikasjoner ved IBD |
-| [37586320](https://pubmed.ncbi.nlm.nih.gov/37586320/) | 2023 | Translasjonell studie | Cell Reports Medicine | Tarmbakterier (Blautia wexlerae) assosiert med azathioprin-terapisvikt ved IBD |
-| [39921705](https://pubmed.ncbi.nlm.nih.gov/39921705/) | 2025 | Realverdens retrospektiv studie | Expert Rev Clin Pharmacol | Effektivitet/sikkerhet for thiopuriner hos IBD-pasienter med NUDT15-polymorfisme |
+| [39586616](https://pubmed.ncbi.nlm.nih.gov/39586616/) | 2025 | RCT | Gut | ACTIVE-studien: top-down infliximab pluss azatioprin versus azatioprin alene ved akutt alvorlig ulcerøs kolitt som responderer på intravenøse steroider |
+| [40013523](https://pubmed.ncbi.nlm.nih.gov/40013523/) | 2025 | Systematisk oversikt | Cochrane Database Syst Rev | Oppdatert vurdering av azatioprin og 6-merkaptopurin for vedlikehold av remisjon ved ulcerøs kolitt |
+| [27192092](https://pubmed.ncbi.nlm.nih.gov/27192092/) | 2016 | Systematisk oversikt | Cochrane Database Syst Rev | Tidligere Cochrane-oversikt om samme spørsmål; effekten ble beskrevet som omdiskutert |
+| [19392869](https://pubmed.ncbi.nlm.nih.gov/19392869/) | 2009 | Metaanalyse | Aliment Pharmacol Ther | Effekt av azatioprin og merkaptopurin ved ulcerøs kolitt |
+| [29293971](https://pubmed.ncbi.nlm.nih.gov/29293971/) | 2018 | Oversikt | J Crohns Colitis | Nye funn og perspektiver for tiopuriner ved IBD |
+| [16048561](https://pubmed.ncbi.nlm.nih.gov/16048561/) | 2005 | Oversikt | J Gastroenterol Hepatol | Farmakogenetikk og metabolittmonitorering; alvorlig toksisitet fører til seponering hos 9–25 % |
+| [19072367](https://pubmed.ncbi.nlm.nih.gov/19072367/) | 2008 | Oversikt | Expert Rev Gastroenterol Hepatol | Molekylære mekanismer og kliniske implikasjoner av azatioprin ved IBD |
+| [15177535](https://pubmed.ncbi.nlm.nih.gov/15177535/) | 2004 | Oversikt | Gastroenterol Clin North Am | Kritisk gjennomgang av effekt og toksisitet av azatioprin og 6-merkaptopurin |
+| [37586320](https://pubmed.ncbi.nlm.nih.gov/37586320/) | 2023 | Prekliniske/mekanistisk | Cell Rep Med | Tarmbakterier (Blautia wexlerae) kan gi behandlingssvikt ved å redusere biotilgjengeligheten av 6-merkaptopurin |
+| [32799195](https://pubmed.ncbi.nlm.nih.gov/32799195/) | 2020 | Oversikt | Digestion | Sammenheng mellom IBD og kreft |
 
 ---
 
-## Markedsinformasjon Norge
+## Informasjon om det norske markedet
 
-Azathioprine har for øyeblikket **ingen aktive markedsføringsautorisasjoner i Norge** (0 lisenser på rekord; markedsstatus: Ikke markedsført). Ingen produkt-nivå legemiddelform eller godkjente indikasjon data er tilgjengelig.
+| Autorisasjonsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005055 | Jayempi | Ikke oppgitt | Graft rejection (avregistrert) |
 
----
-
-## Sikkerhetshensyn
-
-Vær vennlig å se pakningsvedlegget for sikkerhetsinformasjon.
+Det finnes ingen gyldige autorisasjoner i datagrunnlaget; den eneste er avregistrert.
 
 ---
 
-## Konklusjon og neste trinn
+## Sikkerhetsvurderinger
 
-**Beslutning: Fortsett med sikringstiltak**
+- **Kontraindikasjoner fra kunnskapsgrafen (ikke preparatomtale):** TxGNN-kunnskapsgrafen kobler azatioprin til følgende tilstander: pankreatitt, trombocytopeni, anemi (inkludert makrocytær anemi), nedsatt nyrefunksjon, infeksjonssykdommer (inkludert soppinfeksjoner og dermatofytose), lymfom (inkludert primært lymfom i sentralnervesystemet, lymfosarkom og hepatosplenisk T-cellelymfom), levervenetrombose og Budd-Chiari syndrom.
+- **Legemiddelinteraksjoner:** 100 interaksjoner er registrert. Moderat alvorlighetsgrad gjelder aminosalisylater: mesalazin, balsalazid, olsalazin og sulfasalazin. Minor gjelder sinksalter (sinkacetat, sinkglukonat, sinksulfat). Flere andre (blant annet acetylsalisylsyre, amfotericin B, metformin, omeprazol og pantoprazol) har ukjent alvorlighetsgrad.
+- **Forholdsregler som fremgår av litteratur og vurdering:** TPMT/NUDT15-genotyping, kontroll av blodtelling og leverfunksjon, metabolittmonitorering samt oppmerksomhet på risiko for malignitet (lymfom, hudkreft) og infeksjoner. Pankreatitt er en kjent tiopurinbivirkning.
+
+Det mangler data fra preparatomtalen om advarsler og kontraindikasjoner. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold for høyest rangerte prediksjon (rang 1–4, 6–8, 10). Proceed with Guardrails for inflammatorisk tarmsykdom og ulcerøs kolitt.**
 
 **Begrunnelse:**
-- Inflammatorisk tarmsykdom er støttet av L1-nivå evidens — flere avsluttede fase 3-RCT-er og Cochrane systematiske oversikter — som gjenspeiler azatioprins status som en etablert, retningslinjeendorset vedlikeholdsbehandling snarere enn en spekulativ omdisponerings-kandidat. Imidlertid er legemidlet **ikke for øyeblikket markedsført i Norge**, og kritiske legemiddel-nivå data mangler.
+- De høyest scorende prediksjonene er sjeldne genetiske eller utviklingsrelaterte tilstander uten studier, litteratur eller plausibel mekanisme, og for enkelte (WHIM, granulomatøs sykdom) er azatioprin potensielt skadelig. Scoren alene er ikke et tilstrekkelig grunnlag.
+- For IBD og ulcerøs kolitt støtter flere randomiserte studier (inkludert fase 3), Cochrane-oversikter og en nylig RCT bruken. Dette er imidlertid allerede etablert klinisk praksis, så rapporten bekrefter validert bruk mer enn ny repurposing.
 
-**For å fortsette, er følgende nødvendig:**
-- Norsk/TFDA-ekvivalent pakningsvedlegg data (advarsler, kontraindikasjoner) — for øyeblikket et kritisk databrudd som forhindrer S1-sikkerhetspre-vurdering (DG001)
-- Bekreftet dokumentasjon om virkningsmekanisme fra DrugBank eller tilsvarende kilde (DG002, høy alvorlighetsgrad)
-- En definert regulatorisk vei-vurdering, siden azathioprine har null eksisterende markedsføringsautorisasjoner i Norge
-- TPMT/NUDT15 genotypering og myelosuppresjon-overvåkingsprotokoll, gitt det gjentakende temaet i litteraturen om thiopurin-indusert leukopeni-risiko
-- Avklaring av den/de opprinnelige godkjente indikasjon(er), som mangler fra den nåværende evidenspakken
-
+**For å gå videre trengs følgende:**
+- Sikkerhetsdata fra preparatomtalen (advarsler og kontraindikasjoner), som i dag mangler og er registrert som blokkerende datahull
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Plan for sikkerhetsmonitorering: TPMT/NUDT15-testing, blodtelling, leverprøver og overvåking av malignitet og infeksjon
+- Avklaring av regulatorisk status i Norge, siden eneste autorisasjon er avregistrert
+- Vurdering av tilgjengelige legemiddelformer og administrasjonsveier (ikke vurdert i datagrunnlaget)
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

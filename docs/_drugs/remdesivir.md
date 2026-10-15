@@ -2,7 +2,7 @@
 layout: default
 title: Remdesivir
 parent: Kun modellprediksjon (L5)
-nav_order: 301
+nav_order: 354
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,91 +29,103 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Remdesivir: fra COVID-19 (SARS-CoV-2-infeksjon) til multipel endokrin neoplasi
+# Remdesivir: Fra COVID-19 til HIV-infeksjon
 
-## Sammenfatting på én setning
+## Oppsummering i én setning
 
-Remdesivir er et nukleotid-analogt antiviralt middel som opprinnelig ble utviklet og klinisk brukt mot RNA-virus, mest omfattende dokumentert i denne evidenspakken gjennom store COVID-19 (SARS-CoV-2) forsøk. TxGNN-modellens høyest rangerte prediksjon er **multipel endokrin neoplasi**, men denne kandidaten støttes av **null kliniske forsøk** og **null publikasjoner**, og modellens nest høyest rangerte kandidat (HIV-infeksjon) viser seg – ved gjennomgang av bevis – å være bygget helt på feilmerkede COVID-19-forsøksdata i stedet for genuint HIV-bevis. Samlet sett støtter ikke dette kandidatsettet en gjenbruksavgjørelse på dette tidspunktet.
+Remdesivir er et antiviralt middel (nukleotidanalog) som opprinnelig brukes til behandling av COVID-19.
+TxGNN-modellen predikerer at det kan ha effekt mot **HIV-infeksjon** (den best dokumenterte av de predikerte indikasjonene), men beviset er svakt: det finnes bare **1 klinisk studie** (en farmakokinetikkstudie, ikke en effektstudie mot HIV) og litteratur som nesten utelukkende handler om COVID-19.
+Den høyest rangerte prediksjonen, multippel endokrin neoplasi, har ingen støtte i studier eller litteratur.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|-------|---------|
-| Original indikasjon | Ikke dokumentert i Taiwan-regulatoriske registreringer (legemiddel ikke markedsført); bevis fra kliniske forsøk i denne pakken identifiserer konsekvent remdesivirs etablerte bruk som behandling av COVID-19 (SARS-CoV-2-infeksjon) |
-| Forutsagt ny indikasjon | Multipel endokrin neoplasi |
-| TxGNN-prediksjonspoeng | 99.50% |
-| Bevisnivå | L5 |
-| Status på Taiwan-marked | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Innestill |
+|------|------|
+| Opprinnelig indikasjon | COVID-19-virusinfeksjon |
+| Predikert ny indikasjon | HIV-infeksjon (rangert som nr. 2; nr. 1 er multippel endokrin neoplasi uten støtte i data) |
+| TxGNN-prediksjonsscore | 99,32 % (HIV-infeksjon); 99,50 % (multippel endokrin neoplasi) |
+| Evidensnivå | L4 (HIV-infeksjon); L5 (multippel endokrin neoplasi) |
+| Markedsstatus i Norge | Kun kansellert |
+| Antall godkjenninger | 1 (kansellert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte, verifiserte data om virkningsmekanisme for remdesivir er ikke tilgjengelig fra DrugBank i denne evidenspakken (flagget som en datakløft med høy alvorlighetsgrad). Basert på gjenbruksrasjonalet som følger med prediksjoner, er remdesivir et nukleotid-analogt middel som hemmer den virale RNA-avhengig RNA-polymerase (RdRp), replikasjonsenzymet som brukes av RNA-virus som SARS-CoV-2 og Ebola-virus.
+Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene. Ut fra kjent informasjon er remdesivir en nukleotidanalog-prodrug som hemmer viral RNA-avhengig RNA-polymerase. Effekten mot COVID-19 er dokumentert i flere fase 3-studier.
 
-Multipel endokrin neoplasi (MEN) er et arvelig tumordsyndrom drevet av germlinale mutasjoner i gener som *RET* og *MEN1*, med en patofysiologi sentrert rundt endokrin cellproliferasjon snarere enn viral replikasjon. Det er ingen kjent mekanistisk vei som forbinder RdRp-hemming til MEN-patogenese, og ingen kliniske forsøk eller litteratur ble hentet for å støtte denne koblingen. Evidenspakkens eget rasjonale karakteriserer eksplisitt denne prediksjonen som sannsynlig **graph-embedding-støy** i TxGNN-kunnskapsgrafen snarere enn et biologisk fundert signal.
+HIV er også et RNA-virus, noe som gir en løs konseptuell begrunnelse. Likevel er HIV-replikasjon avhengig av revers transkriptase og integrasjon i vertens DNA, og remdesivir har ingen etablert anti-HIV-aktivitet. Den høye TxGNN-scoren er derfor først og fremst en grafbasert likhetsprediksjon, ikke en mekanistisk bekreftet kobling.
 
-Et relatert mønster vises i modellens nest høyest rangerte prediksjon, HIV-infeksjon: selv om 23 kliniske forsøk og 20 publikasjoner ble hentet, viser manuell gjennomgang at nesten alle av dem er COVID-19/SARS-CoV-2-studier som ble feilmatches til etiketten "HIV-infeksjonssykdom" i kildedatabasen, ikke genuine remdesivir-for-HIV-bevis. Dette forsterker at dette kandidatsettet, som det for øyeblikket er avledet, ikke representerer et validert gjenbrukssignal.
-
----
-
-## Bevis fra kliniske forsøk
-
-Det er for øyeblikket ingen relaterte kliniske forsøk registrert for den høyest rangerte forutsagte indikasjonen (multipel endokrin neoplasi).
+For de øvrige predikerte indikasjonene (multippel endokrin neoplasi, neuroutviklingsforstyrrelse, homozygot familiær hyperkolesterolemi) er det ikke identifisert noen plausibel mekanistisk kobling. Disse sykdommene skyldes arvelige genetiske defekter som ikke er relatert til remdesivirs antivirale mekanisme. Prediksjonene for felint og simiant immunsviktvirus (dyresykdommer) gjenspeiler trolig likhet med andre lentivirussykdommer i kunnskapsgrafen, uten direkte evidens.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske studier
 
-Det er for øyeblikket ingen relatert litteratur tilgjengelig for den høyest rangerte forutsagte indikasjonen (multipel endokrin neoplasi).
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
+|---------|------|------|------|---------|
+| [NCT04385719](https://clinicaltrials.gov/study/NCT04385719) | Fase 2 | Fullført | 24 | Åpen, randomisert enkeltdose-IV-studie på friske frivillige i Uganda om hvordan faste kombinasjoner (tenofovir/lamivudin eller atazanavir/ritonavir) påvirker remdesivirs farmakokinetikk. Gir ingen effektdata for HIV. |
 
----
-
-## Andre forutsagte indikasjoner som er utelukket (kontekst)
-
-Evidenspakken inkluderte fem ytterligere kandidater utover topprankingen. Alle ble gjennomgått og avvist av de samme årsakene — mekanistisk implausibilitet, fraværende bevis, eller feilmerking av database:
-
-| Rangering | Sykdom | Poeng | Bevis | Nøkkelproblematikk |
-|----------|---------|-------|----------|-------------|
-| 2 | HIV-infeksjonssykdom | 99.32% | 23 forsøk / 20 artikler (alle COVID-19-relaterte) | Feilmerking av database — ingen genuint HIV-bevis; RdRp-hemmer retter seg ikke mot revers transkriptase |
-| 3 | Felint immundefisienssyndrom | 99.07% | Ingen | Sannsynlig forvirring med felint coronavirus (FIP) grafnaboskaper; FIV er et retrovirus, mekanismemismatch |
-| 4 | Simian immunodeficiency virus-infeksjon | 99.07% | Ingen | Retrovirus, samme mekanismemismatch som HIV/FIV |
-| 5 | Nevrutviklingsforstyrrelse (ataktisk gang, fraværende tale, nedsatt hvit substans) | 99.03% | Ingen | Sjelden genetisk forstyrrelse, ingen plausibel biologisk kobling til antiviralt RdRp-hemming |
-| 6 | Homozygot familiær hyperkolesterolemi | 99.03% | Ingen | Lipidmetabolisme-forstyrrelser (LDLR/APOB/PCSK9), ingen plausibel kobling til antiviralt mekanisme |
-
-Alle seks kandidater ble tildelt en **innestillingsanbefaling** av scoringssystemet.
+Merk: Kun studien for HIV-infeksjon er listet. Det finnes ingen registrerte studier for de øvrige predikerte indikasjonene.
 
 ---
 
-## Informasjon om Taiwan-marked
+## Litteraturevidens
 
-Remdesivir er for øyeblikket **ikke markedsført** på Taiwan – ingen legemiddellisenser finnes i registre, så ingen godkjent indikasjonstekst, doseringsform eller godkjenningsnummer er tilgjengelig som referanse.
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [33264556](https://pubmed.ncbi.nlm.nih.gov/33264556/) | 2021 | RCT | N Engl J Med | WHO Solidarity: reetablerte antivirale midler (inkl. remdesivir) ved COVID-19 på innlagte pasienter |
+| [35817072](https://pubmed.ncbi.nlm.nih.gov/35817072/) | 2022 | RCT | Lancet Respir Med | Tiksagevimab-cilgavimab versus placebo hos innlagte COVID-19-pasienter som fikk remdesivir |
+| [38675889](https://pubmed.ncbi.nlm.nih.gov/38675889/) | 2024 | RCT (post hoc) | Viruses | Ingen remdesivirresistens observert i fase 3 SIMPLE-studiene ved COVID-19 |
+| [35229634](https://pubmed.ncbi.nlm.nih.gov/35229634/) | 2022 | In vitro/dyr | mBio | Kobicistat (HIV-booster) virker synergistisk med remdesivir mot SARS-CoV-2 in vitro og hos hamstere |
+| [34696838](https://pubmed.ncbi.nlm.nih.gov/34696838/) | 2021 | Oversikt | The Enzymes | Mekanismer for hemming av viral RNA-replikasjon med nukleotidanaloger; sammenligner SARS-CoV-2 RdRp med HIV revers transkriptase |
+| [34859557](https://pubmed.ncbi.nlm.nih.gov/34859557/) | 2022 | Kohort | HIV Medicine | Høy frekvens av potensielle legemiddelinteraksjoner hos HIV-positive som behandles for COVID-19 |
+| [41136410](https://pubmed.ncbi.nlm.nih.gov/41136410/) | 2025 | Oversikt | Nat Rev Dis Primers | Oversikt over akutt SARS-CoV-2-infeksjon |
+| [33002954](https://pubmed.ncbi.nlm.nih.gov/33002954/) | 2020 | Oversikt | Curr Opin HIV AIDS | Reetablerte legemidler mot COVID-19 |
+| [36347057](https://pubmed.ncbi.nlm.nih.gov/36347057/) | 2022 | Oversikt | Top Antivir Med | CROI 2022: fremskritt i antiviral behandling for HIV, COVID-19 og viral hepatitt |
+| [36097825](https://pubmed.ncbi.nlm.nih.gov/36097825/) | 2023 | Kohort | Clin Infect Dis | Subgenomisk RNA for å følge respons på remdesivir ved COVID-19 |
+
+Litteraturen gir bare indirekte støtte for HIV; ingen publikasjoner viser anti-HIV-effekt av remdesivir.
 
 ---
 
-## Sikkerhetshensyn
+## Informasjon om markedet i Norge
 
-Se pakningsvedlegget for sikkerhetsinformasjon. TFDA-spesifikke advarsler og kontraindikasjoner for remdesivir kunne ikke hentes i denne evidenspakken (flagget som en datakløft med blokkerings-alvorlighetsgrad), og ingen registre over legemiddel-legemiddel-interaksjoner ble funnet.
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005622 | Veklury (Gilead Sciences Ireland UC) | Ikke oppgitt | COVID-19-virusinfeksjon (status: kansellert) |
 
 ---
 
-## Konklusjon og neste trinn
+## Cytotoksisitet
 
-**Beslutning: Innestill**
+Ikke relevant: remdesivir er et antiviralt middel, ikke et antineoplastisk legemiddel.
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Legemiddelinteraksjoner**: Interaksjonsoppslaget er fullført og viste 100 registrerte interaksjoner. Blant de oppførte er alle av moderat alvorlighetsgrad, blant annet med akarbose, doksycyklin, pioglitazon, amfotericin B, bupropion, mesalazin, klaritromycin, minocyklin, tetrasyklin, vankomycin, kanamycin, naltrekson, levofloksacin og neomycin.
+
+For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparatomtalen.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den høyest rangerte forutsagte indikasjonen (multipel endokrin neoplasi) har ingen støtte fra kliniske forsøk, litteratur, eller plausibel mekanistisk rasjonale (Bevisnivå L5). Den neste mest «bevisede» kandidaten (HIV) er en artefakt av databasefeilmerking – de underliggende forsøkene og publikasjonene er nesten helt COVID-19-studier, ikke genuint HIV-bevis. Ingen av de seks kandidatene i denne evidenspakken oppfyller en terskel som er tilstrekkelig for videre klinisk evaluering.
+Prediksjonene er kun støttet av modellscore. Den eneste studien er en farmakokinetikkstudie uten effektdata for HIV, og litteraturen dreier seg om COVID-19. Remdesivir har dessuten kun en kansellert godkjenning i Norge.
 
-**For å gå videre er følgende nødvendig:**
-- TFDA-pakningsvedleggsdata (advarsler, kontraindikasjoner) – for øyeblikket en datakløft med blokkerings-alvorlighetsgrad
-- Verifisert data om virkningsmekanisme fra DrugBank – for øyeblikket en datakløft med høy alvorlighetsgrad
-- Korrigering av feil i kartlegging av sykdomsetiketter i den underliggende forsøks-/litteraturdatabasen (HIV-feilmerkingen bør flagges oppstrøms slik at den ikke gjentas i fremtidig kandidatgenerering)
-- Hvis noen fremtidig TxGNN-kjøring produserer en mekanistisk plausibel RNA-virus-relatert indikasjon for remdesivir, bør den kandidaten re-evalueres på egne vilkår
-
+**For å gå videre kreves følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner (kritisk datamangel som blokkerer sikkerhetsscreening)
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Prekliniske data (in vitro-aktivitet mot HIV) før noen klinisk vurdering
+- Avklaring av doseringsform og administrasjonsvei (remdesivir gis intravenøst)
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

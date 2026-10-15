@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rivastigmine
-parent: Kun modellprediksjon (L5)
-nav_order: 312
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 366
+evidence_level: L4
 indication_count: 1
 ---
 
 # Rivastigmine
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,93 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Rivastigmin: Fra Alzheimers sykdom til glaukom
+# Rivastigmin: Fra demens ved Alzheimers og Parkinsons sykdom til glaukom
 
-## Sammendrag i en setning
+## Oppsummering i én setning
 
-Rivastigmin er en kolinesterasehemmer opprinnelig brukt ved Alzheimers sykdom og parkinsonisme-demens. TxGNN-modellen forutsier at det også kan senke intraokulært trykk og være nyttig ved **glaukom**, men dette støttes for tiden bare av **0 kliniske forsøk** og **3 prekliniske/review-publikasjoner**.
+Rivastigmin er en kolinesterasehemmer som opprinnelig brukes mot demens ved Alzheimers sykdom og Parkinsons sykdom.
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **glaukom**,
+men støtten er foreløpig begrenset til **0 kliniske studier** og **3 publikasjoner** (én dyrestudie på kanin, én patentoversikt og én mekanistisk/beregningsbasert oversikt).
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Original indikasjon | Alzheimers sykdomsdemens (basert på kjent legemiddelklasse; ikke verifisert i gjeldende regulatorisk datapakke) |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Demens, Alzheimers sykdom og Parkinsons sykdom |
 | Predikert ny indikasjon | Glaukom |
-| TxGNN prediksjonspoeng | 99.27% |
-| Bevisnivå | L4 (kun preklinisk/mekanistisk bevis) |
-| Markedsføringsstatus i Norge | ✗ Ikke markedsført |
-| Antall autoriseringer | 0 |
-| Anbefalt avgjørelse | Avvent |
+| TxGNN-prediksjonsscore | 99,27 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun trukkede (kansellerte) tillatelser |
+| Antall tillatelser | 6 (alle kansellert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte data om virkningsmekanismen ikke tilgjengelig i denne bevisgangen. Basert på kjent informasjon er rivastigmin en karbamattype acetylkolinesterase- (og butyrylkolinesterase)-hemmer, opprinnelig utviklet for å øke kolinerg signalering ved Alzheimers sykdom og parkinsonisme-demens.
+Rivastigmin hemmer både acetylkolinesterase og butyrylkolinesterase. Når nedbrytningen av acetylkolin hemmes, øker nivåene av signalstoffet. I øyet kan dette gi sammentrekning av ciliarmuskelen og økt avløp gjennom trabekelverket, noe som kan senke intraokulært trykk (IOP). Dette er samme mekanisme som for kolinerge midler som pilokarpin og fysostigmin.
 
-Kolinerg signalering via muskarinerge (M3) reseptorer i forsegmentet av øyet er kjent for å regulere utstrømming av humor aquosus gjennom trabekulærmaskene, og ikke-selektive AChE-hemmere er etablerte øyetrykkssenkende midler. Dette gir en plausibel mekanistisk forbindelse mellom rivastigmins sentrale kolinerg aktivitet og en potensiell okuløs blodtrykkssenkende effekt.
+En preklinisk studie fra 2000 viste at lokalt applisert rivastigmin senket øyetrykket hos kaniner med normalt trykk. En analyse fra 2024 av kolinerge midler for senking av IOP gir ytterligere mekanistisk bakgrunn. Dette gjør prediksjonen biologisk plausibel.
 
-Denne forbindelsen støttes direkte av en tidlig dyreforsøksstudie som viste at topisk rivastigmin senket intraokulært trykk hos kaniner, sammen med nyere oversikter over kolinerg-aktive stoffer og AChE-hemmerkjemi relevant for glaukom. Imidlertid er all tilgjengelig bevis av preklinisk eller narrativ oversiktsnatur — det finnes ingen kliniske forsøksdata fra mennesker som bekrefter dette repurposingssignalet.
-
----
-
-## Kliniske forsøksdata
-
-For tiden er det ikke registrert relevante kliniske forsøk
+Vær oppmerksom på at dokumentasjonen kun er preklinisk og beregningsbasert. Det foreligger ingen humane data på effekt eller okulær sikkerhet for rivastigmin ved glaukom. Den høye TxGNN-scoren er en modellprediksjon og regnes ikke som klinisk evidens. Data om opprinnelig virkningsmekanisme (MOA) mangler i datagrunnlaget, så mekanismen over er utledet fra kjent farmakologi og ikke fra den innsamlede dokumentasjonen.
 
 ---
 
-## Litteraturbeviser
+## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|---------|---------|
-| [10673128](https://pubmed.ncbi.nlm.nih.gov/10673128/) | 2000 | Dyreforsøksstudie (preklinisk) | J Ocul Pharmacol Ther | Topisk rivastigmin, en selektiv AChE-hemmer, senket intraokulært trykk hos normotensive kaniner over en 8-timers observasjonsperiode |
-| [39130374](https://pubmed.ncbi.nlm.nih.gov/39130374/) | 2024 | Oversikt | Front Mol Biosci | Gjennomgår kolinerg (muskarinerge) regulering av IOP via trabekulærmaskene og begrensninger for gjeldende M3-agonister, som framstiller begrunnelsen for kolinerg-aktive IOP-senkende midler |
-| [27967267](https://pubmed.ncbi.nlm.nih.gov/27967267/) | 2017 | Oversikt (patentlitteratur) | Expert Opin Ther Pat | Gjennomgår AChE-hemmere/-reaktivatorer, og noterer at mild AChE-hemming har terapeutisk relevans ved Alzheimers sykdom, myasthenia gravis og glaukom |
+|------|-----|------|------|---------|
+| [10673128](https://pubmed.ncbi.nlm.nih.gov/10673128/) | 2000 | Preklinisk dyrestudie | J Ocul Pharmacol Ther | Lokalt rivastigmin senket øyetrykket hos kaniner med normalt trykk |
+| [39130374](https://pubmed.ncbi.nlm.nih.gov/39130374/) | 2024 | Mekanistisk oversikt (beregningsbasert) | Front Mol Biosci | Systemgenetikk og molekylær modellering av kolinerge midler for senking av øyetrykk |
+| [27967267](https://pubmed.ncbi.nlm.nih.gov/27967267/) | 2017 | Oversikt (patentlitteratur) | Expert Opin Ther Pat | Oversikt over acetylkolinesterasehemmere og reaktivatorer; mild hemming nevnes som terapeutisk relevant ved bl.a. Alzheimers sykdom og glaukom |
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Rivastigmin har for tiden ingen markedsføringstillatelse i Norge (0 lisenser registrert); ingen produkt-/doseringsformdata er tilgjengelig.
+Alle seks tillatelser er kansellert, og ingen er gyldige i dag.
+
+| Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000169 | Exelon | – | Demens, Alzheimers sykdom, Parkinsons sykdom |
+| EMEA/H/C/000255 | Prometax | – | Alzheimers sykdom, Parkinsons sykdom, demens |
+| EMEA/H/C/001029 | Nimvastid | – | Demens, Alzheimers sykdom, Parkinsons sykdom |
+| EMEA/H/C/001181 | Rivastigmine 1 A Pharma | – | Alzheimers sykdom, demens, Parkinsons sykdom |
+| EMEA/H/C/001182 | Rivastigmine Hexal | – | Demens, Alzheimers sykdom, Parkinsons sykdom |
+
+En sjette tillatelse (EMEA/H/C/001183, Rivastigmine Sandoz) er også kansellert.
 
 ---
 
-## Sikkerhetsoverveielser
+## Sikkerhetsvurderinger
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+**Kontraindikasjoner fra kunnskapsgraf (ikke fra preparatomtale):**
+Kunnskapsgrafen (PrimeKG) knytter rivastigmin til følgende tilstander som kontraindikasjoner: epilepsi, sykdom i basalgangliene, fokal håndsdystoni, blefarospasme, kronisk obstruktiv lungesykdom (KOLS), astma (inkludert intrinsic og allergisk astma), diarésykdom, plutselig hjertestans, hjerteledningssykdom, anoreksia nervosa, aktivt magesår, urinveisobstruksjon, sinusknutesyndrom (inkludert familiær form), parkinsonistiske tilstander, Parkinsons sykdom og atrioventrikulært blokk.
+
+**Legemiddelinteraksjoner:**
+Spørringen ga 100 registrerte interaksjoner. Blant de første 20 er én alvorlig (Major) og resten moderate:
+- **Alvorlig:** bupropion
+- **Moderate (utvalg):** atropin, glykopyrronium, hyoskyamin, diklomin, triklopium (trospium), klidinium og mepenzolat (antikolinerge midler, motsatt farmakologisk effekt); famotidin, ranitidin og cimetidin; loperamid; metronidazol; klaritromycin; levofloksacin; dolasetron og palonosetron; samt avføringsmidler som pikosulfat, polyetylenglykol og natriumsulfat.
+
+Informasjon om advarsler og kontraindikasjoner fra preparatomtale er ikke tilgjengelig. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 ---
 
-## Konklusjon og neste skritt
+## Konklusjon og neste steg
 
-**Avgjørelse: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Glaukkomsignalet hviler på en enkelt 25 år gammel dyreforsøksstudie pluss to narrative oversikter — ingen kliniske forsøk på mennesker, ingen bekreftet virkningsmekanisme-data, og rivastigmin markedsføres ikke for tiden i Norge. Beviset er for foreløpig til å støtte videre utvikling.
+Evidensen er begrenset til én kaninstudie og to oversiktsarbeider, uten kliniske studier eller humane data. Alle norske tillatelser er kansellert, og sikkerhetsdata fra preparatomtale mangler, så prediksjonen kan ikke gå videre til sikkerhetsscreening.
 
-**For å fortsette trengs følgende:**
-- Bekreftet virkningsmekanisme (MOA)-data fra DrugBank eller tilsvarende kilde
-- TFDA/Norge-ekvivalent regulatorisk merking (advarsler, kontraindikasjoner) — for tiden et blokkerende datahull (DG001)
-- Minst ett bevis-av-konsept-studie på mennesker (f.eks. sikkerhetsstudie av okuløs formulering/IOP-senkende forsøk)
-- Formell kompatibilitetsvurdering av okuløs rute/formulering, siden gjeldende godkjente formuleringer er oral/transdermal, ikke okuløs
-
+**For å gå videre kreves følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel)
+- Detaljerte data om virkningsmekanisme (MOA)
+- Humane data på effekt og okulær sikkerhet for rivastigmin ved glaukom, inkludert en vurdering av egnet administrasjonsvei (f.eks. lokal øyeapplikasjon)
+- Vurdering av kontraindikasjoner og interaksjoner (bl.a. bradykardi/hjerteledningsforstyrrelser, astma/KOLS og antikolinerge midler) i en eventuell glaukompopulasjon
+- Avklaring av regulatorisk status, siden ingen tillatelse er gyldig i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

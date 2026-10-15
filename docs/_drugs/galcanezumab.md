@@ -2,7 +2,7 @@
 layout: default
 title: Galcanezumab
 parent: Kun modellprediksjon (L5)
-nav_order: 157
+nav_order: 184
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,79 +29,88 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Galcanezumab: Fra migreneforebygging til heparinkofaktor 2-mangel
+# Galcanezumab: Fra migrene til heparinkofaktor 2-mangel
 
-## Sammendrag på en setning
+## Sammendrag i én setning
 
-Galcanezumab er et anti-CGRP (calcitonin gene-related peptide) monoklonal antistoff, kjent klinisk for migrenforebygging (originale indikasjonsdata er ikke registrert i denne bevissakken).
-TxGNN-modellen forutsier at det kan være effektivt for **heparinkofaktor 2-mangel**,
-men for tiden finnes det **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen — prediksjonen er basert på modellpoengstanden alene.
-
----
-
-## Rask oversikt
-
-| Element | Innhold |
-|------|--------|
-| Original indikasjon | Ikke registrert i denne bevissakken (original_indications er tom); kjent farmakologi indikerer bruk som anti-CGRP-antistoff for migrenforebygging |
-| Forutsagt ny indikasjon | Heparinkofaktor 2-mangel |
-| TxGNN-prediksjonspoengstand | 99.50% |
-| Bevisnivå | L5 |
-| Markedsstatus Norge | Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+Galcanezumab er et monoklonalt antistoff som opprinnelig brukes til å behandle migrene.
+TxGNN-modellen forutsier at det kan være effektivt mot **heparinkofaktor 2-mangel**,
+men de data som er sammenstilt for denne rapporten inneholder **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen.
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hurtigoversikt
 
-For tiden er detaljerte virkningsmekanisme-data ikke tilgjengelige (MOA-feltet er en datamangler). Basert på kjent farmakologi er galcanezumab et anti-CGRP monoklonal antistoff, og dets effektivitet i migrenforebygging er godt etablert gjennom trigeminovaskular smertevei.
-
-Imidlertid er bevissakken sitt eget mekanistiske vurdering eksplisitt at **ingen kjent biologisk forbindelse finnes** mellom CGRP-signalering og heparinkofaktor II (en serinproteasehemmer som hemmer trombin). CGRP virker på neurovaskular smertesignalering og vasodilatasjon, mens heparinkofaktor II-mangel er en blødningsrelatert genetisk tilstand — disse to systemene har ingen etablert farmakologisk sammenfall.
-
-Dette ser ut til å være et tilfelle der TxGNN-modellen tildelte en numerisk høy poengstand uten et underliggende biologisk grunnlag (også reflektert i den lave prediksjonsrangeringen på 5461 av den fulle kandidatlisten). Modellpoengstanden alene er utilstrekkelig grunnlag for å prioritere denne kandidaten; uavhengig mekanistisk eller preklinisk validering ville være nødvendig før denne prediksjonen kan anses som troverdig.
-
-**Merknad:** To andre kandidater ble også forutsagt for dette legemidlet med tilsvarende høye poengstander, men like svak mekanistisk støtte — *antitrombin-mangel type 2* (poengstand 99.41%, rangering 6213) og *faktor 5-overskudd med spontan trombose* (poengstand 99.41%, rangering 6221). Alle tre faller inn i blødnings-/hemostase-sykdomsklyngen, noe som antyder at modellen kanskje plukker opp et falskt mønster snarere enn et ekte CGRP–blødningsforhold.
-
----
-
-## Bevis fra kliniske studier
-
-For tiden ingen relaterte kliniske studier registrert
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Migrene (Migraine Disorders) |
+| Predikert ny indikasjon | Heparinkofaktor 2-mangel |
+| TxGNN-prediksjonsscore | 99,50 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun trukket tilbake (kansellert) |
+| Antall markedsføringstillatelser | 1 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Bevis fra litteratur
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-For tiden ingen relatert litteratur tilgjengelig
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de sammenstilte dataene. Galcanezumab er imidlertid kjent som et monoklonalt antistoff som nøytraliserer liganden CGRP (calcitonin gene-related peptide), og effekten ved migrene er knyttet til blokkering av denne signalveien.
 
----
+Heparinkofaktor 2-mangel skyldes en defekt i et serinproteasehemmende protein (SERPIND1) i koagulasjonssystemet. Det er ikke identifisert noen plausibel biologisk kobling mellom CGRP-blokkade og denne tilstanden. Den høye TxGNN-scoren er en ren kunnskapsgraf-prediksjon uten støtte i mekanistiske, kliniske eller litteraturbaserte data.
 
-## Markedsinformasjon Norge
+**Andre predikerte indikasjoner med tilsvarende svak støtte** (alle L5, anbefaling Hold, ingen studier eller publikasjoner):
 
-Galcanezumab er ikke markedsført i Norge etter denne bevissakken (0 autorisasjoner registrert); ingen lisensdatakort er tilgjengelig for gjennomgang.
-
----
-
-## Sikkerhetshensyn
-
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+| Rangering | Predikert indikasjon | TxGNN-score | Kommentar |
+|------|------|------|------|
+| 2 | Antitrombinmangel type 2 | 99,41 % | Ingen mekanistisk sammenheng mellom CGRP-blokkade og SERPINC1-defekter. Å behandle en trombofil tilstand med et legemiddel uten kjent antikoagulerende effekt vekker sikkerhetsbekymringer. |
+| 3 | Faktor 5-overskudd med spontan trombose | 99,41 % | Ingen kjent kobling. CGRP er en vasodilatator, så vaskulære effekter av CGRP-hemming må vurderes før et slikt forslag kan gå videre. |
 
 ---
 
-## Konklusjon og neste trinn
+## Klinisk studieevidens
 
-**Beslutning: Avvent**
+Det finnes for øyeblikket ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+Det finnes for øyeblikket ingen relatert litteratur tilgjengelig.
+
+---
+
+## Informasjon om det norske markedet
+
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004648 | Emgality | – | Migrene (Migraine Disorders) |
+
+Tillatelsen har status kansellert. Det finnes ingen gyldige tillatelser i dataene.
+
+---
+
+## Sikkerhetsvurderinger
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+Merk likevel følgende fra den mekanistiske vurderingen: de predikerte indikasjonene gjelder trombotiske eller koagulasjonsrelaterte tilstander, og kardiovaskulær og trombotisk risiko ved CGRP-hemming (CGRP er en vasodilatator) er ikke adressert i dataene.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Til tross for en høy TxGNN-prediksjonspoengstand, finnes det ingen klinisk studie eller litteraturbevis, og den mekanistiske begrunnelsen identifiserer eksplisitt ingen kjent biologisk forbindelse mellom CGRP-signalering og heparinkofaktor II-funksjon. Bevisnivået (L5) gjenspeiler modellprediksjon kun, som er utilstrekkelig til å rettferdiggjøre ytterligere utviklingsinnsats på dette stadiet.
+Prediksjonene bygger utelukkende på en kunnskapsgrafscore (evidensnivå L5) uten kliniske studier, litteratur eller plausibel mekanistisk kobling. I tillegg er den eneste markedsføringstillatelsen i Norge kansellert, og relevante sikkerhetsdata mangler.
 
-**For å fortsette trengs følgende:**
-- Bekreftet original indikasjon og MOA-data for galcanezumab (for tiden datamangler)
-- TFDA/regulatoriske etikettadvarsler og kontraindikasjoner (for tiden datamangler, merket med blokkerende alvorlighetsgrad)
-- Uavhengig mekanistisk eller preklinisk bevis som knytter CGRP-veier til blødnings-/hemostase-forstyrrelser
-- Revurdering hvis noen kliniske studier eller kasuistikker dukker opp som forbinder anti-CGRP-terapi til blødningsfaktorforstyrrelser
-
+**For å gå videre kreves følgende:**
+- Pakningsvedlegg med advarsler og kontraindikasjoner (hindrer for øyeblikket sikkerhetsscreening)
+- Detaljerte data om virkningsmekanisme (MOA) fra DrugBank
+- Mekanistisk eller prekliniske data som kan knytte CGRP-blokkade til koagulasjonsveiene
+- Sikkerhetsvurdering av vaskulære og trombotiske effekter ved CGRP-hemming i pasientgrupper med trombofili
+- Avklaring av markedsstatus og tilgjengelige administrasjonsveier
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

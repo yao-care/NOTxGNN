@@ -2,7 +2,7 @@
 layout: default
 title: Lonoctocog Alfa
 parent: Kun modellprediksjon (L5)
-nav_order: 214
+nav_order: 250
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,60 +29,90 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Lonoctocog Alfa: Fra Hemofili A til Pseudo-von Willebrand-sykdom
+# Lonoktokog alfa: Fra hemofili A til pseudo-von Willebrand sykdom
 
-## Oppsummering på én setning
+## Oppsummering i én setning
 
-Lonoctocog alfa er et rekombinant single-chain Factor VIII-produkt som brukes som erstatningsterapi for hemofili A. TxGNN-modellen forutsier at det kan være effektivt for **pseudo-von Willebrand-sykdom**, men denne prediksjonen støttes av **0 kliniske studier** og **0 publikasjoner**, og den medfølgende mekanistiske analysen finner eksplisitt ingen meningsfull farmakologisk sammenheng mellom legemidlet og denne blodplate-reseptor-forstyrrelsen.
+Lonoktokog alfa er en rekombinant, enkeltkjedet faktor VIII med avkortet B-domene, opprinnelig utviklet for behandling av hemofili A.
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **pseudo-von Willebrand sykdom**, men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen er ren modellberegning.
 
-## Hurtig oversikt
+---
+
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|------|---------|
-| Opprinnelig indikasjon | Hemofili A (Factor VIII-erstatningsterapi) — ikke inkludert i bevisematerialet selv; utledet fra legemidlets kjente klassifisering som rekombinant FVIII-produkt (DrugBank DB13998) |
-| Predikert ny indikasjon | Pseudo-von Willebrand-sykdom |
-| TxGNN-prediksjons-score | 99.85% |
-| Bevisnivå | L5 (kun modellprediksjon, ingen støttestudier) |
-| Markedsstatus i Taiwan | Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Avvent |
+|------|------|
+| Opprinnelig indikasjon | Hemofili A |
+| Predikert ny indikasjon | Pseudo-von Willebrand sykdom |
+| TxGNN-prediksjonsscore | 99,85 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun trukket tilbake (kansellert) |
+| Antall godkjenninger | 1 |
+| Anbefalt beslutning | Hold |
+
+Merk: Den eneste registrerte godkjenningen (EMEA/H/C/004075) er en sentral europeisk markedsføringstillatelse, og den er kansellert.
+
+---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelig for lonoctocog alfa i dette bevisematerialet (flagget som et alvorlig datahull). Basert på generell farmakologisk kunnskap fungerer det som en rekombinant Factor VIII-erstatning som gjenoppretter aktiviteten til intrinsic-pathway tenase-kompleksen hos pasienter med FVIII-mangel.
+Data om virkningsmekanisme (MOA) er foreløpig ikke tilgjengelig. Basert på kjent informasjon er lonoktokog alfa et rekombinant faktor VIII-preparat (rVIII-SingleChain) med bevist effekt ved hemofili A, der det erstatter manglende faktor VIII i koagulasjonskaskaden.
 
-Imidlertid argumenterer grunnlaget for gjenbruk oppgitt for den høyest rangerte predikerte indikasjonen direkte mot mekanistisk plausibilitet: pseudo-von Willebrand-sykdom er forårsaket av en gain-of-function-mutasjon i blodplate GPIb-reseptoren, som fører til abnormalt høy affinitet for VWF og akselerert blodplate/VWF-klarering. FVIII-nivåene er vanligvis normale ved denne tilstanden, og standard behandlingstilnærming er antiplatelet-terapi — ikke faktor-erstatning. Bevisematerialet selv sier "無機轉關聯" (ingen mekanistisk sammenheng) for denne kandidaten.
+Pseudo-von Willebrand sykdom (blodplatetype VWD) skyldes funksjonsøkende varianter i GP1BA. Disse øker blodplatenes GPIb-affinitet for von Willebrand-faktor (VWF) og fører til økt opprydding av høymolekylære VWF-multimerer. Faktor VIII-erstatning korrigerer ikke denne reseptordefekten. Plasmanivået av FVIII kan imidlertid bli sekundært redusert på grunn av tap av VWF, så det finnes en teoretisk kobling, men den er indirekte.
 
-De tre andre predikerte indikasjonene i denne pakken viser samme mønster: primær blodplate-frigjøringsstilstand (granulesekresjondefekt), Glanzmanns trombasteni (GPIIb/IIIa-mangel) og Scott-syndrom (ANO6/TMEM16F phospholipid-scramblase-defekt) er alle blodplate-funktionsforstyrrelser der FVIII ikke er den manglende faktoren. Scott-syndrom har nærmest konseptuell nærhet (det påvirker fosfolipid-plattformen der FVIIIa/FIXa-komplekser monteres), men selv der konkluderer begrunnelsen at FVIII-supplementering ikke kan korrigere den underliggende defekten. Kort sagt synes de høye TxGNN-likhetsscore å være drevet av nærhet på graf-nivå i kunnskapsgrafen (alle er arvelige blødningsforstyrrelser) snarere enn av en faktisk handlingsbar mekanisme.
+Den høye TxGNN-scoren er derfor en beregningsmessig prediksjon, uten støtte i kliniske data.
 
-## Bevis fra kliniske studier
+### Øvrige predikerte indikasjoner
 
-Ingen relaterte kliniske studier registrert for øyeblikket
+| Rang | Sykdom | TxGNN-score | Evidensnivå | Vurdering av mekanistisk kobling |
+|------|------|------|------|------|
+| 2 | Primær frigjøringsforstyrrelse av blodplater | 99,84 % | L5 | Defekten ligger i blodplatene. FVIII korrigerer ikke sekresjonsdefekter. Scoren gjenspeiler trolig nærhet i nettverket mellom blødningslidelser. |
+| 3 | Glanzmanns trombasteni | 99,76 % | L5 | Skyldes mangel på eller dysfunksjon av integrin αIIb/β3. Koagulasjonskaskaden er normal. Standardbehandling er blodplatetransfusjon, rekombinant FVIIa og antifibrinolytika. |
+| 4 | Scotts syndrom | 99,44 % | L5 | Defekt eksponering av fosfatidylserin på aktiverte blodplater (TMEM16F/ANO6). Løs konseptuell kobling til tenase-komplekset, men FVIII forventes ikke å korrigere defekten. |
 
-## Bevis fra litteratur
+---
 
-Ingen relevant litteratur tilgjengelig for øyeblikket
+## Klinisk studieevidens
 
-## Taiwan-markedsinformasjon
+Foreløpig er det ingen relaterte kliniske studier registrert.
 
-Ikke markedsført i Taiwan — ingen produktgodkjenninger er registrert (total_licenses = 0).
+---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Vennligst referer til pakningsvedlegget for sikkerhetsinformasjon.
+Foreløpig er det ingen relatert litteratur tilgjengelig.
 
-## Konklusjon og neste trinn
+---
 
-**Beslutning: Avvent**
+## Informasjon om det norske markedet
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004075 | Afstyla (CSL Behring GmbH) | Ikke oppgitt | Hemofili A |
+
+Status: kansellert.
+
+---
+
+## Sikkerhetsvurderinger
+
+Se pakningsvedlegget for sikkerhetsinformasjon. Data om advarsler og kontraindikasjoner er ikke innhentet for denne rapporten, og det er ikke funnet registrerte legemiddelinteraksjoner i de samlede dataene.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Denne kandidaten er på beslutningsstadium S0 med bevisnivå L5 — kun en TxGNN-score, med null kliniske studier, null litteratur, og en mekanistisk begrunnelse som eksplisitt tilbakeviser farmakologisk relevans for den høyest rangerte predikerte indikasjonen (pseudo-von Willebrand-sykdom er en blodplate-reseptor-forstyrrelse, ikke en FVIII-mangel). De tre neste-rangerte prediksjonene (primær blodplate-frigjøringsstilstand, Glanzmanns trombasteni, Scott-syndrom) deler samme diskvalifiserende mønster. Det er ingen grunnlag for å avansere denne kandidaten forbi innledende screening.
+Alle fire prediksjonene er på evidensnivå L5, uten kliniske studier eller publikasjoner. Den mekanistiske koblingen er svak eller indirekte, fordi de predikerte sykdommene primært skyldes blodplate- eller VWF-relaterte defekter som FVIII-erstatning ikke korrigerer. I tillegg er den eneste godkjenningen kansellert.
 
-**For å fortsette, er følgende nødvendig:**
-- Faktiske MOA-data fra DrugBank (DG002) for å ordentlig karakterisere FVIII-farmakologi
-- TFDA-etikettadvarsler/kontraindikasjoner (DG001) — for øyeblikket en blokkering som forhindrer noen S1-sikkerhetsvurdering
-- Enhver faktisk eller mekanistisk bevis som ville forene TxGNN-prediksjonen med den dokumenterte mangelen på farmakologisk overlap, før denne kandidaten kunne vurderes på nytt
-
+**For å gå videre kreves følgende:**
+- Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel, hindrer sikkerhetsscreening)
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Prekliniske eller mekanistiske studier som viser om FVIII-erstatning har noen rolle ved sekundær FVIII-reduksjon ved pseudo-von Willebrand sykdom
+- Avklaring av administrasjonsvei og forholdet til den opprinnelige indikasjonen
+- Litteratursøk og søk i studieregistre med tanke på kasuistikker eller kliniske data
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

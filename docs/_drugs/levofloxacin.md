@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Levofloxacin
-parent: Moderat evidens (L3-L4)
-nav_order: 208
-evidence_level: L4
+parent: Kun modellprediksjon (L5)
+nav_order: 244
+evidence_level: L5
 indication_count: 10
 ---
 
 # Levofloxacin
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,94 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Levofloxacin: Fra bakterieinfeksjoner til punktat epitelial keratokonjunktivitt
+# Levofloxacin: Fra luftveisinfeksjoner og cystisk fibrose til punktformet epitelial keratokonjunktivitt
 
-## Sammenfatting i én setning
+## Oppsummering i én setning
 
-Levofloxacin er et bredt spektrums fluorokinolon-antibiotikum opprinnelig utviklet for bakterieinfeksjoner. TxGNN-modellens høyest rangerte prediksjon antyder mulig effektivitet for **punktat epitelial keratokonjunktivitt**, men denne retningen støttes for tiden kun av **1 publikasjon** og **ingen kliniske forsøk**, og den tilgjengelige litteraturen beskriver parasittær (ikke bakteriell) etiologi — så den mekanistiske relevansen er tvilsom.
+Levofloxacin er et fluorokinolon-antibiotikum som opprinnelig brukes mot luftveisinfeksjoner og cystisk fibrose.
+TxGNN-modellen predikerer at det kan være effektivt mot **punktformet epitelial keratokonjunktivitt**, men for denne indikasjonen finnes **ingen kliniske studier** og bare **1 publikasjon** (en utbruddsrapport som ikke tester levofloxacin). Prediksjonen er i praksis kun modellbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|-------|---------|
-| Originalindikasjon | Bakterieinfeksjoner (fluorokinolon-antibakteriell klasse) — ingen norskspesifikk indikationstekst tilgjengelig |
-| Predikert ny indikasjon | Punktat epitelial keratokonjunktivitt |
-| TxGNN-prediksjons score | 99.92% |
-| Evidensnivå | L4 |
-| Status på norsk marked | ✗ Ikke markedsført |
-| Antall autoriseringer | 0 |
-| Anbefalt beslutning | Avvent |
+|------|------|
+| Opprinnelig indikasjon | Cystisk fibrose; luftveisinfeksjoner |
+| Predikert ny indikasjon | Punktformet epitelial keratokonjunktivitt |
+| TxGNN-prediksjonsscore | 99,92 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun kansellert |
+| Antall godkjenninger | 1 |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte mekanisme-av-handling-data ikke tilgjengelige. Basert på generell farmakologisk kunnskap tilhører levofloxacin fluorokinolon-antibiotikum-klassen, som hemmer bakteriell DNA-gyrase og topoisomerase IV. Dens effektivitet mot et bredt spektrum av Gram-positive og Gram-negative bakterieinfeksjoner — inkludert øyeoverflatinfeksjoner som bakteriell konjunktivitt og keratitt — er godt etablert, som er grunnlaget for at TxGNN-modellen kobler den til keratokonjunktivitt.
+Data om virkningsmekanisme er ikke tilgjengelig i de innhentede dataene. Basert på kjent informasjon er levofloxacin en bakteriedrepende hemmer av DNA-gyrase og topoisomerase IV, med dokumentert effekt ved bakterielle luftveisinfeksjoner.
 
-Imidlertid beskriver den eneste støttende publikasjonen for denne prediksjonen et **utbrudd av mikrosporidium (parasittær) keratokonjunktivitt** knyttet til kontaminering av bassengvann i Taiwan — ikke en bakteriell patogen. Levofloxacin har ingen etablert direkte antiparasittær mekanisme mot mikrosporidium, så dens anvendelighet på denne spesifikke sykdomsentiteten er mekanistisk svak. Prediksjonen reflekterer sannsynligvis at modellen forbinder levofloxacin med «keratokonjunktivitt» som en sykdomskategori bredt (via dens kjente oftalmologiske antibakteriell bruk) heller enn en validert mekanisme mot denne spesielle patogenen.
+For den predikerte indikasjonen er den mekanistiske koblingen svak. Den eneste publikasjonen beskriver et utbrudd av mikrosporidial keratokonjunktivitt knyttet til forurenset svømmebassengvann i Taiwan. Mikrosporidier er eukaryote parasitter nær beslektet med sopp, og fluorokinoloner forventes ikke å virke på dem. Den svært høye modellscoren støttes dermed ikke av noen mekanistisk eller klinisk begrunnelse. En eventuell rolle ville begrense seg til forebygging av sekundær bakteriell infeksjon.
 
----
-
-## Bevis fra kliniske forsøk
-
-For tiden ingen relaterte kliniske forsøk registrert.
+Merk også at andre predikerte indikasjoner i datamaterialet har en tydeligere evidensbase. Det gjelder særlig **monoklonal gammopati** (infeksjonsprofylakse ved myelom, med den randomiserte fase 3-studien TEAMM) og **septisk pest** (dyrestudier som underbygger bruk mot *Yersinia pestis*). Disse vurderes ikke som hovedkandidat her, men kan være mer interessante å følge opp.
 
 ---
 
-## Bevis fra litteratur
+## Evidens fra kliniske studier
 
-| PMID | År | Type | Journal | Viktige funn |
-|------|-----|------|---------|-------|
-| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Utbruddrapport/kasusserie | American Journal of Ophthalmology | Beskriver et utbrudd av mikrosporidium keratokonjunktivitt knyttet til kontaminert bassengvann i Taiwan; evaluerer ikke levofloxacins effektivitet direkte. |
+Foreløpig er det ikke registrert noen relaterte kliniske studier.
 
 ---
 
-## Norsk markedsinformasjon
+## Litteraturevidens
 
-Levofloxacin er ikke for tiden markedsført i Norge (0 aktive autoriseringer); ingen lisens- eller godkjent-indikasjondata er tilgjengelig i denne evidenspakken.
-
----
-
-## Sikkerhetshensyn
-
-Se pakningsvedlegget for sikkerhetsinformasjon.
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Utbruddsrapport | American Journal of Ophthalmology | Utbrudd av mikrosporidial keratokonjunktivitt knyttet til vannforurensning i svømmebassenger i Taiwan; levofloxacin er ikke testet |
 
 ---
 
-## Konklusjon og neste trinn
+## Markedsinformasjon for Norge
 
-**Beslutning: Avvent**
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/002789 | Quinsair | Ikke oppgitt | Cystisk fibrose; luftveisinfeksjoner (status: kansellert) |
+
+---
+
+## Sikkerhetsvurderinger
+
+Pakningsvedlegget er ikke tilgjengelig i de innhentede dataene, så advarsler og kontraindikasjoner må hentes derfra.
+
+**Kontraindikasjoner/risikotilstander fra kunnskapsgrafen (ikke fra preparatomtale):** Følgende tilstander er knyttet til levofloxacin i TxGNN-kunnskapsgrafen:
+- Hjerte og rytme: langt QT-syndrom (inkl. familiært), torsades de pointes, myokardiskemi, koronarsykdom
+- Nervesystem og muskler: epilepsi, perifer nevropati og sykdom i perifere nerver, myasthenia gravis og nevromuskulære sykdommer, rabdomyolyse
+- Sener og ledd: tendinitt, periartritt, eksostose, nodulær fasciitt
+- Lever og galle: leversykdom, medikamentindusert leverskade, galleblæresykdom
+- Blod: trombocytopeni, leukopeni, pancytopeni, anemi (inkl. makrocytær)
+- Stoffskifte: diabetes mellitus, diabetisk ketoacidose, kaliummangel
+- Nyre og mage-tarm: nedsatt nyrefunksjon, *Clostridium difficile*-kolitt, nekrotiserende enterokolitt hos nyfødte
+
+**Legemiddelinteraksjoner:** Totalt 100 interaksjoner er registrert. Blant de som er vist, er de alvorligste (Major):
+- Tramadol
+- Hydrokortison
+
+Flere moderate interaksjoner er også registrert, blant annet med abirateron, akarbose, famotidin, formoterol, ketorolak, adenosin, ibuprofen, etinylestradiol, albiglutid, salbutamol, alfuzosin, alogliptin, metformin, pioglitazon og amifampridin. Mindre interaksjoner omfatter paklitaksel, aldesleukin og altretamin.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den eneste litteraturstøtten beskriver parasittær (mikrosporidium) etiologi heller enn bakteriell, så den mekanistiske begrunnelsen for levofloxacin i denne indikasjonen er svak. Med ingen kliniske forsøk og kun en enkelt ikke-intervensjonell kasusserie, er evidensgrunnlaget (L4) utilstrekkelig til å støtte videre utvikling.
+Prediksjonen mangler både kliniske studier og mekanistisk støtte, og den eneste publikasjonen handler om et utbrudd uten levofloxacin-behandling. Mikrosporidier forventes ikke å respondere på fluorokinoloner. I tillegg er den eneste norske godkjenningen kansellert.
 
-**For å fortsette er følgende nødvendig:**
-- Bekreftet mekanisme-av-handling-data (for tiden et datakluft)
-- In vitro eller prekliniske bevis på levofloxacin-aktivitet mot mikrosporidium spesifikt
-- TFDA/regulatoriske pakningsvedlegg advarsler og kontraindikasjoner (for tiden et blokkerende datakluft per meta.data_gaps)
-- Ytterligere litteratur- eller forsøksdata som direkte evaluerer levofloxacin-behandlingsresultater i keratokonjunktivitt
-
----
-
-**Tilleggsnotat:** Denne evidenspakken inneholder 10 TxGNN-predikerte indikasjoner for levofloxacin. To andre kandidater viser vesentlig sterkere bevis enn den høyest rangerte prediksjonen ovenfor og kan være verdt separat evaluering:
-- **Septikemisk pest** (rangering 9, L3, *Fortsett med sikkerhetstiltak*) — levofloxacin er godkjent av FDA for pest under Animal Rule, støttet av effektivitetsdata fra ikke-menneskelige primater.
-- **Monoklonal gammopati** (rangering 7, L2, *Forskningsspørsmål*) — støttet av TEAMM Fase 3 RCT og flere kohort-studier, selv om disse evaluerer levofloxacin som infeksjonsprofilakse ved multippelt myelom spesifikt, ikke behandling av monoklonal gammopati bredt (inkludert MGUS), så samsvaret i sykdomsomfang trenger avklaring.
-
+**For å gå videre kreves:**
+- Dokumentasjon på in vitro- eller klinisk aktivitet av levofloxacin mot mikrosporidier eller aktuelle sekundære bakterier ved keratokonjunktivitt
+- Data om virkningsmekanisme og pakningsvedlegg (advarsler, kontraindikasjoner)
+- Vurdering av administrasjonsvei (okulær formulering finnes ikke i de innhentede dataene)
+- Eventuelt prioritering av monoklonal gammopati (infeksjonsprofylakse ved myelom) som mer evidensbasert alternativ, med tiltak mot resistens og fluorokinolon-relaterte bivirkninger (senebetennelse, QT-forlengelse, *C. difficile*)
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

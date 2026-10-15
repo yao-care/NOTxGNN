@@ -2,7 +2,7 @@
 layout: default
 title: Levodopa
 parent: Kun modellprediksjon (L5)
-nav_order: 207
+nav_order: 243
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,77 +29,95 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Levodopa: Fra Parkinsons sykdom (ubekreftet) til Rasmussens subakutt encefalitt
+# Levodopa: Fra Parkinsons sykdom til Rasmussens subakutte encefalitt
 
-## Oppsummering i en setning
+## Oppsummering i én setning
 
-Levodopa er en dopaminforløper som konvensjonelt er forbundet med behandling av Parkinsons sykdom, selv om den opprinnelige indikasjonen ikke er dokumentert i denne bevissamlingen.
-TxGNN-modellen forutsier at det kan være effektivt for **Rasmussens subakutt encefalitt**,
-men for øyeblikket **0 kliniske studier** og **0 publikasjoner** støtter denne retningen — poengsummen reflekterer en modell-kun-prediksjon.
+Levodopa er en forløper for dopamin og brukes opprinnelig til behandling av Parkinsons sykdom. TxGNN-modellen forutsier at legemidlet kan ha effekt ved **Rasmussens subakutte encefalitt**, men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** i de samlede dataene som støtter denne retningen. Prediksjonen er kun modellbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Kategori | Verdi |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Ikke spesifisert i bevissamlingen (`original_indications` tom) |
-| Forutsagt ny indikasjon | Rasmussens subakutt encefalitt |
-| TxGNN-prediksjonspoengsum | 99.06% |
-| Bevisnivå | L5 |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
+| Opprinnelig indikasjon | Parkinsons sykdom |
+| Predikert ny indikasjon | Rasmussens subakutte encefalitt |
+| TxGNN-prediksjonsscore | 99,06 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun opphevede/avsluttede godkjenninger |
+| Antall godkjenninger | 4 (alle opphevet) |
 | Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige for denne kandidaten (flagget som et **høyalvorlig datakull**). Basert på generell farmakologisk kunnskap er levodopa en dopaminforløper som konverteres av DOPA-dekarboxylase (DDC) til dopamin, som virker primært på den nigrostriatale dopaminerge banen.
+Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige. Levodopa er kjent som en dopaminforløper, og effekten ved Parkinsons sykdom er godt dokumentert. Hvorvidt den kan overføres til Rasmussens encefalitt, er imidlertid uklart.
 
-Rasmussens subakutt encefalitt er en ensidig, autoimmun/inflammatorisk epileptisk encefalopati drevet av T-celle-mediert nevronal ødeleggelse og kronisk inflammasjon — en mekanisme uten etablert forbindelse til dopaminsyntese eller -overføring.
+Rasmussens encefalitt er en sjelden, kronisk og vanligvis ensidig nevroinflammatorisk sykdom. Den er drevet av T-celle-mediert cytotoksisitet og er forbundet med vanskelig behandlbar fokal epilepsi og progressiv atrofi i en hjernehalvdel. En mulig kobling kan ligge i dopaminerg modulering av nevroinflammasjon eller motoriske symptomer, men dette er spekulativt og ikke støttet av noen studie eller publikasjon i dataene.
 
-TxGNN-poengsummen på 0.99 gjenspeiler sannsynligvis en topologisk assosiasjon innenfor kunnskapsgrafen (muligens gjennom delte epilepsi- eller nevrodegenerative sykdom-noder) snarere enn en farmakologisk tolkbar mekanisme. **Ingen mekanistisk begrunnelse støtter for øyeblikket denne prediksjonen**, og det bør behandles som et hypotesegenererende signal bare, ikke en handlingsdyktig kandidat.
-
----
-
-## Bevis for kliniske studier
-
-For øyeblikket er ingen relaterte kliniske studier registrert.
+Levodopa er ikke kjent for å påvirke den underliggende immunpatologien eller anfallene. Dopaminerge midler kan dessuten i teorien senke anfallsterskelen hos enkelte pasienter. Dette må vurderes før en eventuell videre vurdering. Den høye modellscoren (0,99) viser kun en statistisk assosiasjon i kunnskapsgrafen, ikke dokumentert klinisk nytte.
 
 ---
 
-## Litteraturbevis
+## Klinisk evidens
 
-For øyeblikket er ingen relatert litteratur tilgjengelig.
+Foreløpig er det ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+Foreløpig er det ingen relatert litteratur tilgjengelig.
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Levodopa er for øyeblikket **ikke markedsført** i Norge under denne bevissamlingen, og ingen autorisasjonsregistre er tilgjengelige (`total_licenses = 0`).
+Alle fire godkjenninger er registrert som opphevet. Dosageform er ikke oppgitt i dataene.
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004786 | Inbrija | Ikke oppgitt | Parkinsons sykdom |
+| EMEA/H/C/002441 | Levodopa/Carbidopa/Entacapone Orion | Ikke oppgitt | Parkinsons sykdom |
+| EMEA/H/C/000511 | Stalevo | Ikke oppgitt | Parkinsons sykdom |
+| EMEA/H/C/002785 | Corbilta (tidligere Levodopa/Carbidopa/Entacapone Sandoz) | Ikke oppgitt | Parkinsons sykdom |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Henting av TFDA-etikettadvarsler/kontraindikasjoner er flagget som et **blokkerende** datakull i denne bevissamlingen og må løses før noen sikkerhetsvurdering kan fortsette.)
+Data om advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelige. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
+
+**Kontraindikasjoner fra kunnskapsgrafen (PrimeKG, ikke fra preparattekst):** Følgende sykdommer er knyttet til levodopa som kontraindikasjoner i kunnskapsgrafen:
+- **Nevrologiske/psykiske:** multisystematrofi, legemiddelindusert dyskinesi, epilepsi, angstlidelse, nevrotisk lidelse, dystymi, psykotisk lidelse, schizofreniform lidelse, schizoaffektiv lidelse, psykisk lidelse
+- **Kardiovaskulære:** ortostatisk hypotensjon, posturalt ortostatisk takykardisyndrom (POTS), hjerteinfarkt, koronar trombose, plutselig hjertestans, hjerteledningssykdom
+- **Mage-tarm/lever/galle:** magesår, ulcussykdom, lever- og galleblæresykdom, diaré
+- **Øye:** åpenvinklet og trangvinklet glaukom
+- **Metabolske/andre:** nyresykdom, pyoureter, diabetes mellitus, diabetisk ketoacidose, melanom, hemoglobinopati
+
+Spesielt relevant for den predikerte indikasjonen er **epilepsi**, siden Rasmussens encefalitt kjennetegnes av vanskelig behandlbar fokal epilepsi.
+
+**Legemiddelinteraksjoner:** Totalt 100 interaksjoner er funnet (DDInter). Et utvalg:
+- **Moderat:** epinefrin, efedrin, bupropion, metronidazol, pyridoksin, metoklopramid, jern, samt antikolinergika (atropin, hyoscyamin, metskopolamin, glykopyrronium, klidinium, dicyklomin, mepenzolat)
+- **Mindre:** antacida (aluminiumhydroksid, kalsiumkarbonat, magaldrat, magnesiumkarbonat, -hydroksid og -oksid)
 
 ---
 
-## Konklusjon og neste skritt
+## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Denne kandidaten støttes bare av en L5-modellprediksjon uten kliniske studier, ingen litteratur, og ingen plausibel mekanistisk lenke til den forutsagte indikasjonen. Et blokkerende datakull på regulatorisk sikkerhetsinformasjon forelegger ytterligere enhver sikkerhetsprevurdering.
+Prediksjonen er kun modellbasert (L5) uten støtte fra kliniske studier eller litteratur. Mekanismen er spekulativ, og levodopa har potensielt uheldige egenskaper ved epilepsi, som er en sentral del av sykdomsbildet ved Rasmussens encefalitt. I tillegg er alle godkjenninger i Norge opphevet.
 
-**For å fortsette, trengs følgende:**
-- TFDA/offisielle etikettdata (advarsler, kontraindikasjoner) — for øyeblikket blokkerer S1-sikkerhetsvurdering
-- Bekreftet virkningsmekanisme (MOA) via DrugBank eller primær litteratur
-- Bekreftet opprinnelig indikasjon(er) for denne kandidaten
-- Prekliniske eller case-nivå-bevis som knytter dopaminerge mekanismer til Rasmussens encefalittpatologi, før ytterligere evaluering er berettiget
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner), som i dag er en blokkerende datamangel
+- Litteratursøk og prekliniske data som kan belyse en mulig kobling mellom dopaminerg modulering og nevroinflammasjon ved Rasmussens encefalitt
+- Vurdering av risiko for senket anfallsterskel hos pasienter med epilepsi
+- Avklaring av tilgjengelige produkter og administrasjonsveier, siden ingen godkjenninger er aktive i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

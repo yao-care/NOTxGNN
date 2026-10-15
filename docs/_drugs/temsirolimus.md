@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Temsirolimus
-parent: Moderat evidens (L3-L4)
-nav_order: 346
-evidence_level: L3
+parent: Kun modellprediksjon (L5)
+nav_order: 407
+evidence_level: L5
 indication_count: 3
 ---
 
 # Temsirolimus
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **3** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,82 +29,106 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Temsirolimus: Fra mTOR-rettet onkologiterapi til liposarkom
+# Temsirolimus: Fra nyrecellekarsinom og mantelcellelymfom til liposarkom
 
-## Sammendrag i en setning
+## Oppsummering i én setning
 
-Temsirolimus er en mTOR-hemmer (en profarmak av sirolimus) som brukes i onkologi; dens spesifikke originale godkjent indikasjon er ikke registrert i denne bevissamlingen.
-TxGNN-modellen predikerer at det kan være effektivt for **Liposarkom**,
-med **5 kliniske studier** (2 bruker temsirolimus direkte, Grade A) og **1 publikasjon** som for tiden støtter denne retningen.
+Temsirolimus er en mTOR-hemmer som opprinnelig er godkjent for behandling av nyrecellekarsinom og mantelcellelymfom.
+TxGNN-modellen forutsier at legemidlet kan ha effekt på **liposarkom**,
+og foreløpig finnes det **2 kliniske studier** (begge ikke spesifikke for liposarkom) og **1 publikasjon** (en oversiktsartikkel) som peker i denne retningen.
 
-## Rask oversikt
+---
 
-| Element | Innhold |
-|---------|---------|
-| Originalindikasjon | Ikke tilgjengelig i bevissamlingen (ingen godkjent indiksjonstekst på fil; legemiddel ikke markedsført i Norge) |
+## Hurtigoversikt
+
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Nyrecellekarsinom; mantelcellelymfom |
 | Predikert ny indikasjon | Liposarkom |
-| TxGNN-prediksjonspoeng | 99.54% |
-| Evidensnivå | L3 |
-| Markedsstatus for Norge | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
+| TxGNN-prediksjonsscore | 99,54 % |
+| Evidensnivå | L2 (etter tildelt nivå i de kompilerte dataene; se merknad under kliniske studier) |
+| Status på det norske markedet | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
+
+---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om mekanisme-handling for temsirolimus er ikke tilgjengelig i denne bevissamlingen. Basert på begrunnelsen for legemiddelombruk som er gitt, er temsirolimus en mTOR-hemmer (profarmak av sirolimus) som blokkerer PI3K/AKT/mTOR-signaleringsbanen. Denne banen er et veletablert mål innen onkologi, og bevissamlingen bemerker at den hyppig er deregulert i dedifferensierte og myxoide liposarkomssubtyper (f.eks. gjennom CDK4/MDM2-amplifisering-drevet nedstrøms signalering eller PTEN-tap).
+Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i de kompilerte dataene. Temsirolimus er imidlertid et velkjent rapamycin-analog og en mTOR-hemmer, og effekten er dokumentert ved nyrecellekarsinom og mantelcellelymfom.
 
-Forholdet mellom temsirolimus' originalbruk og liposarkom er mekanistisk snarere enn indikasjonbasert, siden ingen original godkjent indikasjon er registrert her. Imidlertid brukte to av de fem identifiserte kliniske studiene temsirolimus selv (merkenavn Torisel) direkte i sarkompopulasjoner — en i kombinasjon med lipososmal doxorubicin, og en i pediatrisk tilbakevendende/refraktær sarkom med cixutumumab — begge vurdert til Grade A relevans av bevissamlingspipelinen.
+PI3K/AKT/mTOR-signalveien er ofte aktivert i bløtvevssarkomer, inkludert liposarkom. Ved velddifferensierte og dedifferensierte liposarkomer er dessuten MDM2/CDK4-amplifikasjon knyttet til krysskommunikasjon med PI3K/mTOR-signalering. Dette gir et plausibelt biologisk grunnlag for mTOR-hemming.
 
-De resterende tre studiene bruker relaterte mTOR-banehemmere (sirolimus, ridaforolimus, everolimus) snarere enn temsirolimus selv, og gir klasse-nivå snarere enn legemiddel-spesifikk støtte. Historisk sett har enkelt-agent mTOR-hemming vist bare begrenset, ikke-definitiv effektivitet i liposarkomstudier, noe som antyder at kombinasjonregimer (med cytotoksisk kjemoterapi eller IGF-1R-hemmere) er mer sannsynlig å være klinisk meningsfullt enn monoterapi.
+Den høye TxGNN-scoren (0,995) er i samsvar med dette resonnementet, men er utelukkende en beregningsmessig prediksjon og ikke bevis for klinisk effekt.
 
-## Kliniske studiebevis
+Prediksjonene for to ytterligere, svært sjeldne sarkomtyper (ovarielt myksoid liposarkom, score 99,47 %, og vulvasarkom, score 99,09 %) har ingen støtte i studier eller litteratur og er vurdert som «Hold».
 
-| Studinummer | Fase | Status | Rekruttering | Viktige funn |
+---
+
+## Klinisk evidens
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | Fase 1/2 | Fullført | 24 | Torisel (temsirolimus) + lipososmal doxorubicin ved tilbakevendende mykt vev/beinsarkom; dosebestemmelse og effektivitetsvurdering. Direkte legemiddelbevis. |
-| [NCT01614795](https://clinicaltrials.gov/study/NCT01614795) | Fase 2 | Fullført | 46 | Temsirolimus + cixutumumab (IMC-A12) i pediatrisk tilbakevendende/refraktær sarkom. Direkte legemiddelbevis. |
-| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Fase 2 | Fullført | 70 | Sirolimus + cyclophosphamide ved metastatisk/uopererbar myxoid liposarkom og kondrosarkom. Klasse-effekt (sirolimus, ikke temsirolimus). |
-| [NCT00093080](https://clinicaltrials.gov/study/NCT00093080) | Fase 2 | Fullført | 216 | Ridaforolimus (AP23573), en mTOR-hemmer, ved avansert sarkom. Klasse-effektbevis, største kohort. |
-| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Fase 2 | Aktiv, ikke i rekruttering | 48 | Ribociclib + everolimus ved avansert dedifferensiert liposarkom og leiomyosarkom. Klasse-effekt (everolimus, ikke temsirolimus). |
+| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | Fase 1/2 | Fullført | 24 | Temsirolimus + liposomal doksorubicin ved avanserte bløtvevs- og beinsarkomer; undersøker sikker dosering og foreløpig effekt. Ikke spesifikk for liposarkom (relevans B). |
+| [NCT01614795](https://clinicaltrials.gov/study/NCT01614795) | Fase 2 | Fullført | 46 | Cixutumumab (IGF-1R-antistoff) + temsirolimus hos barn med tilbakevendende/refraktære solide svulster og sarkomer. Indirekte relevans for voksne med liposarkom (relevans C). |
 
-## Litteraturbevis
+**Merknad:** Ingen av studiene er liposarkom-spesifikke, og ingen resultater er oppgitt. Evidensnivået L2 bør derfor tolkes med forsiktighet; i praksis er støtten svakere enn nivået tilsier.
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Gjennomgang | Bulletin du cancer | Oversikt over målrettede behandlinger for sjeldne bindevevstumorer og sarkom, som dekker molekylær undertypisering og bane-rettet terapi-tilnærminger. |
+| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Oversiktsartikkel | Bulletin du cancer | Gjennomgang av målrettet behandling av sjeldne bindevevssvulster og sarkomer, basert på molekylære undergrupper av sarkomer. |
 
-## Markedsinformasjon for Norge
+---
 
-Temsirolimus har for tiden ingen markedsføringstillatelse i Norge (0 godkjennelser på fil); ingen produkt- eller dosering-data er tilgjengelig.
+## Informasjon om det norske markedet
+
+| Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000799 | Torisel | Ikke oppgitt | Nyrecellekarsinom; mantelcellelymfom (status: avregistrert) |
+
+---
 
 ## Cytotoksisitet
 
-| Element | Innhold |
-|---------|---------|
-| Cytotoksisitetsklassifisering | Målrettet terapi (mTOR-hemmer) |
-| Myelosuppresjonrisiko | Vennligst se pakningsvedleggets advarsler og forholdsregler |
-| Emetogenitetsklassifisering | Vennligst se pakningsvedleggets advarsler og forholdsregler |
-| Overvåkingspunkter | Vennligst se pakningsvedleggets advarsler og forholdsregler |
-| Håndteringsbeskyttelse | Vennligst se pakningsvedleggets advarsler og forholdsregler |
+| Punkt | Innhold |
+|------|------|
+| Klassifisering | Målrettet behandling (mTOR-hemmer) |
+| Risiko for myelosuppresjon | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+| Emetogenisitet | Se pakningsvedlegg for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Blodstatus (CBC), lever- og nyrefunksjon, blodsukker og lipider (jf. de registrerte kontraindikasjonskoblingene under) |
+| Håndteringsbeskyttelse | Følg gjeldende retningslinjer for håndtering av cytostatika/antineoplastiske legemidler |
 
-## Sikkerhetshensyn
+---
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Merk: TFDA-ekvivalent merknaddata (advarsler/kontraindikasjoner) for dette legemiddelet er for tiden et **blokkerende datakløft**, som hindrer ferdigstillelse av standard S1-sikkerhetsvurdering.
+## Sikkerhetsvurderinger
 
-## Konklusjon og neste trinn
+Offisielle advarsler og kontraindikasjoner fra preparatomtalen mangler i de kompilerte dataene. Følgende er hentet fra kunnskapsgrafen (PrimeKG) og er ikke teksten fra preparatomtalen:
+
+- **Kontraindikasjoner i kunnskapsgrafen**: nyresykdom, leversykdom, galleblæresykdom, hyperglykemi, diabetes mellitus, diabetisk ketoacidose, hyperlipidemi (inkl. familiær), hjerneslag/cerebrovaskulær sykdom, hjerneinfarkt, hyperbilirubinemi (inkl. Gilberts syndrom), interstitiell lungesykdom, samt flere hjernesvulster (blant annet astrocytomer, glioblastom og oligodendrogliale svulster).
+- **Legemiddelinteraksjoner** (100 registrert; utvalg av de viktigste):
+  - **Alvorlige (Major)**: amfotericin B (inkl. lipidkompleks), deksametason, klaritromycin.
+  - **Moderate**: blant annet kortikosteroider (hydrokortison, triamcinolon, betametason, budesonid), antidiabetika (acarbose, metformin, pioglitazon, alogliptin, albiglutid, kanagliflozin, dapagliflozin, klorpropamid), aprepitant, cimetidin, mesalazin og balsalazid.
+
+---
+
+## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Selv om to studier bruker temsirolimus direkte i sarkompopulasjoner (Grade A relevans) og mTOR-banen har en plausibel mekanistisk rolle i liposarkom, er beviset begrenset til Fase 1/2-studier uten bekreftende Fase 3-data, og legemiddelet er ikke markedsført i Norge. Kritisk sett er det manglende TFDA-ekvivalente merknadsdata et blokkerende gap som hindrer en sikkerhetsvurdering (S1), slik at kandidaten ennå ikke kan avansere til Go eller Proceed with Guardrails.
+Det biologiske grunnlaget (mTOR-signalering i sarkomer) er plausibelt og TxGNN-scoren er høy, men det finnes ingen liposarkom-spesifikke studier eller resultater. I tillegg er den eneste norske/europeiske tillatelsen avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
 
-**For å fortsette, trengs følgende:**
-- TFDA (eller ekvivalent) merknadadvarsler/kontraindikasjoner, for å oppheve blokeringen av S1-sikkerhetsvurderingen (DG001)
-- Bekreftet mekanisme-handlings- og DrugBank-kategori/-toksisitetsdata (DG002)
-- Original godkjent indikasjon(er) for temsirolimus, for å ordentlig ramme inn ombruks-begrunnelsen
-- Ytterligere liposarkom-spesifikk studie-data, ideelt kombinasjons-regime Fase 2/3-resultater, gitt monoterapiens historisk begrenset effektivitet i denne tumortypen
-- Administreringsvei-kompatibilitetsvurdering (for tiden under behandling)
-
+**For å gå videre kreves følgende:**
+- Hente og analysere preparatomtalen (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsvurdering.
+- Supplere data om virkningsmekanisme (MOA), for eksempel fra DrugBank.
+- Undersøke om det finnes en liposarkom-undergruppe i resultatene fra NCT00949325.
+- Vurdere den kliniske relevansen av de to studiene og innhente flere publikasjoner som er spesifikke for liposarkom.
+- Avklare markedsstatus og tilgjengelighet i Norge, siden tillatelsen er avregistrert.
+- Vurdere interaksjonsrisiko (spesielt CYP3A4-relaterte, f.eks. klaritromycin og deksametason) og metabolske risikoer i aktuell pasientgruppe.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

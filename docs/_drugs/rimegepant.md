@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rimegepant
-parent: Høy evidens (L1-L2)
-nav_order: 306
-evidence_level: L2
+parent: Moderat evidens (L3-L4)
+nav_order: 360
+evidence_level: L3
 indication_count: 6
 ---
 
 # Rimegepant
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **6** stk.
+Evidensnivå: **L3** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,86 +29,101 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Rimegepant: Fra migrene til migrene med hjernestammearua
+# Rimegepant: Fra migrene til migrene med hjernestammeaura
 
-## Sammenfatting i én setning
+## Oppsummering i en setning
 
-Rimegepant er en CGRP-reseptorgantagonist (calcitonin gene-related peptide) som allerede er etablert for akutt og forebyggende behandling av migrene. TxGNN-modellen predikerer at det kan være effektivt for **migrene med hjernestammearua**, en sjeldnere migrenetype, med **99.94% prediksjonstillit** og **14 støttende publikasjoner**, selv om det for øyeblikket ikke finnes dedikerte kliniske studier for denne spesifikke undertypen.
-
----
-
-## Kort oversikt
-
-| Element | Innhold |
-|---------|---------|
-| Original indikasjon | Akutt behandling av migrene (med/uten aura) og forebyggende behandling av episodisk migrene – avledet fra litteratur; formell norsk merketekst utilgjengelig (legemiddel ikke markedsført) |
-| Predikert ny indikasjon | Migrene med hjernestammearua |
-| TxGNN-prediksjonspoengsum | 99.94% |
-| Bevisgrad | L2 |
-| Norgesmarkedsstatus | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Avvent |
+Rimegepant er en CGRP-reseptorantagonist (gepant) som opprinnelig brukes til behandling av migrene.
+TxGNN-modellen predikerer at legemidlet kan være effektivt ved **migrene med hjernestammeaura**.
+Foreløpig finnes **ingen registrerte kliniske studier** for denne undergruppen, men **16 publikasjoner** om rimegepant ved migrene generelt er identifisert. Ingen av dem evaluerer hjernestammeaura spesifikt.
 
 ---
 
-## Hvorfor er denne prediksjonen fornuftig?
+## Hurtigoversikt
 
-For øyeblikket er detaljert informasjon om virkningsmekanisme ikke tilgjengelig fra DrugBank i denne bevissamlingen. Basert på litteraturbevisene som er samlet inn, er rimegepant kjent som en småmolekylær, høyselektiv CGRP-reseptorgantagonist («gepant»-klasse) som er godkjent for akutt behandling av migrene med eller uten aura og for forebygging av episodisk migrene hos voksne.
-
-Migrene med hjernestammearua er en klinisk undertype av migrene der CGRP-medieret nevrovaskulær patofysiologi antas å spille en tilsvarende sentral rolle som i typisk migrene. Siden CGRP-antagonisme allerede er validert som effektiv på tvers av den bredere migrenepopulasjonen – inkludert migrene med aura – er det biologisk plausibelt å utvide denne mekanismen til hjernestammearua-undertypen.
-
-Imidlertid har denne undertypen historisk blitt ekskludert fra, eller ikke separat analysert i, de fleste sentrale rimegepant-RCT-studier på grunn av sjeldenheten og tilstedeværelsen av symptomer som lokaliseres til hjernestammen (som også er eksklusjonskriterier i noen triptan-studier på grunn av vasokonstriksjonsrisiko – en bekymring som rimegepants ikke-vasokonstriksive mekanisme spesielt kan adressere, ifølge den mekanistiske hypotesen i PMID 41574090). Derfor er gjeldende støttende bevis ekstrapolert fra den generelle migrenepopulasjonen snarere enn undertype-spesifikke studier.
-
----
-
-## Bevis fra kliniske studier
-
-For øyeblikket er det ingen relaterte kliniske studier registrert spesifikt for migrene med hjernestammearua.
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Migrene (Migraine Disorders) |
+| Predikert ny indikasjon | Migrene med hjernestammeaura |
+| TxGNN-prediksjonsscore | 99,94 % |
+| Evidensnivå | L3 |
+| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Antall tillatelser | 1 (avregistrert) |
+| Anbefalt beslutning | Hold (tilbakeholdes) |
 
 ---
 
-## Bevis fra litteraturen
+## Hvorfor er denne prediksjonen rimelig?
+
+Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Rimegepant er likevel kjent som en CGRP-reseptorantagonist (CGRP = calcitonin gene-related peptide), godkjent for akuttbehandling av migrene med eller uten aura og for forebyggende behandling av episodisk migrene hos voksne.
+
+Migrene med hjernestammeaura er en undertype av migrene. Det er derfor plausibelt at den samme CGRP-medierte trigeminovaskulære mekanismen er involvert. Dokumentasjonen er imidlertid ekstrapolert fra moderindikasjonen, ikke undertypespesifikk.
+
+Gepanter virker ikke vasokonstriktivt. Det kan være av særlig interesse for pasientgrupper der triptaner og andre vasokonstriktorer historisk har vært et bekymringspunkt. Dette er imidlertid ikke påvist i de foreliggende dataene.
+
+Det bør nevnes at modellen også ga høye scorer for en rekke tilstander uten noen kjent mekanistisk sammenheng (blant annet atrofodermi, antitrombinmangel og faktor V-overskudd). Disse er vurdert som modellartefakter og er ikke tatt med videre i rapporten.
+
+---
+
+## Kliniske studier
+
+Det er for øyeblikket ingen relaterte kliniske studier registrert for denne indikasjonen.
+
+---
+
+## Litteraturevidens
+
+Utvalg av de mest relevante publikasjonene (prioritert etter studiedesign). Ingen undersøker hjernestammeaura spesifikt.
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|---------|---------|
-| [41066271](https://pubmed.ncbi.nlm.nih.gov/41066271/) | 2025 | RCT | Cephalalgia | Fase 3 åpen studie, enkeltarmstudie hos kinesiske voksne som bekrefter langtidssikkerhet, tolerabilitet og effektivitet av rimegepant 75mg ODT for akutt migrenebehanding |
-| [36808268](https://pubmed.ncbi.nlm.nih.gov/36808268/) | 2023 | RCT (randomisert, placebokontrollert) | Clin Pharmacol Drug Dev | Fase 1 PK/sikkerhetsstudie av enkelt- og multippel dosering på 75mg hos friske kinesiske voksne; bekrefter konsistent PK/sikkerhetsprofil |
-| [41366286](https://pubmed.ncbi.nlm.nih.gov/41366286/) | 2025 | RCT (åpen sikkerhetsstudie) | J Headache Pain | Fase 4, 24-ukers studie av daglig 75mg rimegepant for forebygging av episodisk migrene; etablerer langtidstoleransibilitet |
-| [35790906](https://pubmed.ncbi.nlm.nih.gov/35790906/) | 2022 | Meta-analyse (nettverk) | J Headache Pain | Nettverksmeta-analyse som sammenligner rimegepant, ubrogepant og lasmiditan angående effektivitetsinnsettelse for akutt migrenebehanding |
-| [36739335](https://pubmed.ncbi.nlm.nih.gov/36739335/) | 2023 | Oversikt | CNS Drugs | Omfattende oversikt over rimegepants akutte og forebyggende effektivitet versus placebo i fase III-studier |
-| [32270407](https://pubmed.ncbi.nlm.nih.gov/32270407/) | 2020 | Oversikt (godkjenningssammendrag) | Drugs | Første godkjenningssammendrag; ODT-formulering utviklet for akutt migrenebehanding, senere utvidet til forebygging og undersøkelse av refraktær trigeminal nevralgi |
-| [38307667](https://pubmed.ncbi.nlm.nih.gov/38307667/) | 2024 | Oversikt | Handbook Clin Neurol | Oversikt over utvikling av CGRP-reseptorgantagonist (gepant) klassen og gjeldende godkjente indikasjoner |
-| [33550872](https://pubmed.ncbi.nlm.nih.gov/33550872/) | 2021 | Oversikt | Pain Management | Oversikt over rimegepant innenfor rammeverket av nye behandlinger for akutt migrene |
-| [41652664](https://pubmed.ncbi.nlm.nih.gov/41652664/) | 2026 | Kohort (retrospektiv) | Headache | Retrospektiv analyse av off-label bruk av rimegepant hos ungdommer; støtter tolerabilitet/effektivitetssignal utenfor godkjent voksen populasjon |
-| [41133671](https://pubmed.ncbi.nlm.nih.gov/41133671/) | 2026 | Fase 1 PK-studie | Headache | PK, sikkerhet og tolerabilitet av vektjustert rimegepant ODT-dose hos barn i alderen 6–<12 år |
+|------|-----|------|------|---------|
+| [42143245](https://pubmed.ncbi.nlm.nih.gov/42143245/) | 2026 | Systematisk oversikt/metaanalyse | J Headache Pain | Effekt og tolerabilitet av enkeltdose rimegepant 75 mg vs. placebo ved akutt migrene hos voksne |
+| [35790906](https://pubmed.ncbi.nlm.nih.gov/35790906/) | 2022 | Nettverksmetaanalyse | J Headache Pain | Relativ effekt av lasmiditan vs. rimegepant og ubrogepant ved akutt migrene |
+| [41066271](https://pubmed.ncbi.nlm.nih.gov/41066271/) | 2025 | Fase 3, åpen langtidsstudie | Cephalalgia | Langtidssikkerhet og effekt av rimegepant 75 mg ODT hos kinesiske voksne |
+| [41366286](https://pubmed.ncbi.nlm.nih.gov/41366286/) | 2025 | Fase 4, åpen studie | J Headache Pain | Sikkerhet og tolerabilitet av daglig dosering (75 mg) for forebygging av episodisk migrene over 24 uker |
+| [41133671](https://pubmed.ncbi.nlm.nih.gov/41133671/) | 2026 | Fase 1, åpen | Headache | Farmakokinetikk og sikkerhet hos barn (6 til under 12 år) |
+| [37904724](https://pubmed.ncbi.nlm.nih.gov/37904724/) | 2024 | Fase 1 | Clin Pharmacol Drug Dev | Lignende farmakokinetikk og sikkerhet hos eldre og yngre voksne |
+| [36739335](https://pubmed.ncbi.nlm.nih.gov/36739335/) | 2023 | Oversikt | CNS Drugs | Oversikt over rimegepant ved akutt og forebyggende migrenebehandling |
+| [38307667](https://pubmed.ncbi.nlm.nih.gov/38307667/) | 2024 | Oversikt | Handb Clin Neurol | CGRP-reseptorantagonister (gepanter) |
+| [41574090](https://pubmed.ncbi.nlm.nih.gov/41574090/) | 2026 | Prospektiv MR-angiografistudie | Brain Commun | Rimegepants effekt på hjernearterier og ekstracerebrale arterier under migreneanfall |
+| [41652664](https://pubmed.ncbi.nlm.nih.gov/41652664/) | 2026 | Retrospektiv analyse | Headache | Tolerabilitet og effekt ved off-label bruk hos ungdom |
 
 ---
 
-## Informasjon om Norgesmarkedet
+## Markedsinformasjon for Norge
 
-Rimegepant er **ikke markedsført i Norge på nåværende tidspunkt** (`market_status: Not marketed`, 0 godkjenninger registrert). Ingen produkt- eller merkedata er tilgjengelige fra denne bevissamlingen.
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005725 | Vydura | Ikke oppgitt | Migrene (status: avregistrert) |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningseddelen for sikkerhetsinformasjon. Ingen strukturerte advarsler, kontraindikasjoner eller legemiddelinteraksjondata var tilgjengelig i denne bevissamlingen (innsamling av regulatorisk merkedata er flagget som et **blokkert** datamangel – se Konklusjon nedenfor).
+**Legemiddelinteraksjoner:** Totalt 57 interaksjoner er identifisert. Eksempler på interaksjoner av alvorlig (major) grad:
+- Deksametason
+- Lumacaftor
+- Apalutamid
+
+Eksempler på moderate interaksjoner: aprepitant, klaritromycin, rolapitant, sulfasalazin, kobicistat, flukonazol, ketokonazol, erytromycin, takrolimus og kloramfenikol. Mange av disse er CYP3A4-/transportørrelaterte, og samtidig bruk bør vurderes individuelt.
+
+Se preparatomtalen for øvrig sikkerhetsinformasjon, inkludert advarsler og kontraindikasjoner.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold (tilbakeholdes)**
 
 **Begrunnelse:**
-Rimegepants CGRP-antagonistmekanisme har plausibel utvidelse til migrene med hjernestammearua, og bevis for migrene i generalpopulasjonen er rimelig sterkt (L2), men legemiddelet er ikke ennå markedsført i Norge og har **ingen dedikert klinisk bevis for denne spesifikke undertypen**. Kritisk sett er offisiell sikkerhet/merkedata (advarsler, kontraindikasjoner) helt fraværende, noe som blokkerer progresjon forbi S1-sikkerhetsgjennomgangsstadiet ifølge intern scoring.
+Rimegepant har dokumentert effekt ved migrene generelt, og undertypen hjernestammeaura er biologisk plausibel. Det finnes imidlertid ingen kliniske studier eller litteratur som spesifikt undersøker denne undergruppen. Produktet har dessuten ingen gyldig markedsføringstillatelse i Norge (kun én avregistrert).
 
-**For å avansere kreves følgende:**
-- TFDA/Norge-tilsvarende regulatorisk merkedata (advarsler, kontraindikasjoner) – for øyeblikket et blokkert datamangel (DG001)
-- DrugBank-bekreftet virkningsmekanisme (DG001/DG002 utbedring via DrugBank API-spørring)
-- Undertype-spesifikt klinisk bevis (studie eller undergruppeanalyse) for migrene med hjernestammearua, snarere enn ekstrapolasjon fra generell migrenepopulasjon
-- Bekreftet tidslinje for markedsinngang i Norge/status for regulatorisk innlevering
-
+**For å gå videre kreves følgende:**
+- Hente og analysere preparatomtalens advarsler og kontraindikasjoner (kritisk datamangel for sikkerhetsscreening)
+- Innhente data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Undergruppeanalyser av eksisterende fase 3-studier, eller nye studier, for pasienter med hjernestammeaura
+- Avklare regulatorisk status og tilgjengelighet i Norge (avregistrert tillatelse)
+- Vurdere sikkerhet ved samtidig bruk av legemidler med alvorlige interaksjoner
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

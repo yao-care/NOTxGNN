@@ -2,15 +2,15 @@
 layout: default
 title: Eptinezumab
 parent: Moderat evidens (L3-L4)
-nav_order: 137
-evidence_level: L3
+nav_order: 157
+evidence_level: L4
 indication_count: 1
 ---
 
 # Eptinezumab
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **1** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,92 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Eptinezumab: Fra migreneprevensjon til migreneanfald med hjernestammeauroa
+# Eptinezumab: Fra migrene til migrene med hjernestammeaura
 
-## Sammendrag i en setning
+## Oppsummering i én setning
 
-> Eptinezumab er en anti-CGRP (calcitonin-genrelatert peptid) monoklonal antistoff; internasjonalt er det godkjent nesten utelukkende for migreneprevensjon, selv om denne databasen ikke har noen registrert godkjenning for denne indikasjonen på fil.
-> TxGNN-modellen forutsier at det kan være effektivt for **migreneanfald med hjernestammeauroa**,
-> med **0 registrerte kliniske studier** og **8 publikasjoner** som støtter denne retningen for tiden — bevisnivå **L3**.
+Eptinezumab er et intravenøst monoklonalt antistoff som nøytraliserer CGRP (calcitonin gene-related peptide), opprinnelig brukt til forebygging av migrene.
+TxGNN-modellen forutsier at det også kan være effektivt ved **migrene med hjernestammeaura**.
+Foreløpig finnes **ingen registrerte kliniske studier** og **10 publikasjoner** med kun indirekte støtte for denne retningen.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Original indikasjon | Ikke registrert i databasen (ingen tekst om godkjent indikasjon på fil; internasjonalt er eptinezumabs godkjente bruk migreneprevensjon) |
-| Forutsagt ny indikasjon | Migreneanfald med hjernestammeauroa |
-| TxGNN prediksjonsresultat | 99,94 % |
-| Bevisnivå | L3 |
-| Markedsstatus i Norge | ✗ Ikke på markedet |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Migrene |
+| Predikert ny indikasjon | Migrene med hjernestammeaura |
+| TxGNN-prediksjonsscore | 99,94 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
+| Antall tillatelser | 1 (avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte data om mekanisme for virkning (`original_moa`) merket som datagap, og ingen original indikasjon er registrert i denne databasen. Basert på den mekanistiske begrunnelsen som ble gitt med prediksjonen, er eptinezumab en anti-CGRP monoklonal antistoff som virker ved å nøytralisere sirkulerende CGRP-ligand, og derved blokkere smerteplasser gjennom det trigeminovalkulære systemet — kjernemekanismen som ligger til grunn for nåværende migreneprevensjonsbehandling.
+Eptinezumab binder og nøytraliserer CGRP-liganden. CGRP er en sentral aktør i migrenens patofysiologi, også ved anfall med aura. Data om virkningsmekanisme (MOA) er ikke tilgjengelig i dataene som er samlet inn for denne rapporten, så den mekanistiske koblingen bygger på generell kunnskap om legemiddelklassen og ikke på oppgitte data.
 
-Migreneanfald med hjernestammeauroa er en spesifikk migrenedeltype hvis aurasysmptomer antas å være primært drevet av kortikalt spredningsdepresjoner (CSD), et fenomen hvis forhold til CGRP-banen er mer indirekt enn selve hodepinen. Historisk har vasokonstriktive medikamenter som triptaner reist forsiktighet hos pasienter med hjernestammauroa; CGRP monoklonale antistoffer som eptinezumab viser ikke sammenlignbar vasokonstriktiv aktivitet, noe som er mekanistisk beroligende.
+Migrene med hjernestammeaura er en undertype av migrene med aura. Siden eptinezumab allerede brukes til forebygging av migrene, og CGRP-signalering antas å spille en rolle også ved aura, er det mekanistisk plausibelt at legemidlet kan ha effekt i denne undergruppen.
 
-Når det er sagt, er dagens bevisbase inferensielt snarere enn bekreftet: ingen studie har direkte validert eptinezumab hos pasienter spesifikt diagnostisert med migreneanfald *med hjernestammauroa*. Støttende litteratur består stort sett av post-hoc-analyser av generelle migreneanfald-med-auropopulasjoner, gjennomganger av CGRP-biologi og kasusrapporter — rimelig grunnlag for en forskningshypotese, men ikke tilstrekkelig ennå for et behandlingskrav i denne deltypen.
-
----
-
-## Bevis fra kliniske studier
-
-Ingen relaterte kliniske studier registrert for tiden.
+Det finnes imidlertid en viktig begrensning: en randomisert studie med PACAP38 (PMID 40229719) tyder på at noen migreneanfall utløses via mekanismer som er uavhengige av CGRP. Det kan begrense effekten hos enkelte pasienter. Den høye TxGNN-scoren er kun en beregningsmessig prediksjon og er ikke klinisk evidens. Evidensen som er spesifikk for hjernestammeaura er begrenset til indirekte data.
 
 ---
 
-## Bevis fra litteratur
+## Evidens fra kliniske studier
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
-|------|-----|------|---------|---------|
-| [35302389](https://pubmed.ncbi.nlm.nih.gov/35302389/) | 2022 | Post-hoc analyse av RCT | Cephalalgia | Post-hoc undergruppe-analyse av PROMISE-1/2 som evaluerer effektivitet og sikkerhet for eptinezumab hos migrenepasienter med selvrapportert auroa |
-| [40229719](https://pubmed.ncbi.nlm.nih.gov/40229719/) | 2025 | RCT (PACAP38, ikke-eptinezumab) | J Headache Pain | RCT som viser at PACAP38-induserte migreneanfald oppstår uavhengig av CGRP-signalering — relevant kontekst om CGRP-banetegrenser |
-| [35268319](https://pubmed.ncbi.nlm.nih.gov/35268319/) | 2022 | Kasusrapport/Oversikt | J Clin Med | Kasusrapporter og litteraturgjennomgang om hvorvidt anti-CGRP mAbs (inkl. eptinezumab) er effektive til å forebygge migreneauroa spesifikt |
-| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Oversikt | Handb Exp Pharmacol | Oversikt over CG RPs sentrale rolle i migrenepatalfysikk og det trigeminovalkulære systemet |
-| [32699706](https://pubmed.ncbi.nlm.nih.gov/32699706/) | 2020 | Oversikt | Cureus | Oversikt over CGRP-antagonister i behandling av episodisk og kronisk migreneanfall |
-| [33550872](https://pubmed.ncbi.nlm.nih.gov/33550872/) | 2021 | Oversikt (annen stoffklasse) | Pain Management | Oversikt over nye akutt/preventive migreneterapier, inkl. eptinezumab blant andre |
-| [40341526](https://pubmed.ncbi.nlm.nih.gov/40341526/) | 2025 | Oversikt (genetisk) | Headache | Kasusserier av genetiske migrenelidelser som reagerer på CGRP-antagonist-terapi |
-| [40191903](https://pubmed.ncbi.nlm.nih.gov/40191903/) | 2025 | Kasusrapport | Rev Neurol | Kronisk migreneanfald med uttømmingseffekt vellykket behandlet med eptinezumab etter feil fra to andre CGRP mAbs |
+Foreløpig er ingen relevante kliniske studier registrert.
 
 ---
 
-## Markedsinformasjon for Norge
+## Litteraturevidens
 
-Ingen norske markedsgodkjennelser på registreringen — eptinezumab er for tiden ikke på markedet i denne jurisdiksjonen (0 lisensar).
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [40229719](https://pubmed.ncbi.nlm.nih.gov/40229719/) | 2025 | RCT | J Headache Pain | PACAP38-induserte migreneanfall ser ut til å være uavhengige av CGRP-signalering |
+| [35302389](https://pubmed.ncbi.nlm.nih.gov/35302389/) | 2022 | Post hoc-analyse av RCT-er | Cephalalgia | Effekt og sikkerhet av eptinezumab hos migrenepasienter med selvrapportert aura (PROMISE-1 og PROMISE-2) |
+| [35268319](https://pubmed.ncbi.nlm.nih.gov/35268319/) | 2022 | Kasuistikk/oversikt | J Clin Med | Mulig nytte av anti-CGRP-antistoffer mot migreneaura |
+| [40341526](https://pubmed.ncbi.nlm.nih.gov/40341526/) | 2025 | Kohort/oversikt | Headache | Genetiske migrenetilstander og respons på CGRP-antagonister |
+| [42390441](https://pubmed.ncbi.nlm.nih.gov/42390441/) | 2026 | Kohort | Cephalalgia | Cerebrovaskulær risiko ved CGRP-antistoffer sammenlignet med onabotulinumtoksinA i reelle data |
+| [42090640](https://pubmed.ncbi.nlm.nih.gov/42090640/) | 2026 | Kohort | Neurology | Risiko for glaukom ved bruk av CGRP-hemmere ved migrene |
+| [32699706](https://pubmed.ncbi.nlm.nih.gov/32699706/) | 2020 | Oversikt | Cureus | CGRP-antagonister ved episodisk og kronisk migrene |
+| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Oversikt | Handb Exp Pharmacol | CGRPs rolle i migrene |
+| [33550872](https://pubmed.ncbi.nlm.nih.gov/33550872/) | 2021 | Oversikt | Pain Manag | Nye migrenebehandlinger, inkludert rimegepant og CGRP-antistoffer |
+| [40191903](https://pubmed.ncbi.nlm.nih.gov/40191903/) | 2025 | Kasuistikk | Rev Neurol | «Wearing-off»-effekt behandlet med eptinezumab hos pasient med kronisk migrene som ikke responderte på to subkutane CGRP-antistoffer |
 
 ---
 
-## Sikkerhetshensyn
+## Informasjon om det norske markedet
 
-Se preparatomtalen for sikkerhetsinformasjon.
-
-*(Merknad: viktige advarsler, kontraindikasjoner og legemiddel–legemiddel interaksjonsdata er alle for tiden utilgjengelige i denne databasen — flagget som blokkerende datagap, DG001. Dette må løses før sikkerhetsfaseevaluering.)*
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005287 | Vyepti | Ikke oppgitt | Migrene (status: avregistrert) |
 
 ---
 
-## Konklusjon og neste trinn
+## Sikkerhetsvurderinger
 
-**Beslutning: Avvent**
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+Publikasjoner i datagrunnlaget omtaler også mulige sikkerhetssignaler for CGRP-hemmere som klasse (cerebrovaskulær risiko og glaukom). Disse er undersøkt i observasjonsstudier og bør vurderes nærmere før eventuell bruk i en ny indikasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Det er ingen bevis fra kliniske studier som direkte støtter eptinezumab ved migreneanfald med hjernestammauroa, sikkerhet/etikett-data er for tiden et blokkerende datagap, og legemidlet er ikke på markedet i denne jurisdiksjonen. Den mekanistiske begrunnelsen er plausibel men inferensielt, noe som plasserer denne kandidaten hensiktsmessig på «Forskningsspørsmål»-stadiet snarere enn ett som er klart for regulatorisk eller klinisk handling.
+Prediksjonen er mekanistisk plausibel, men det mangler kliniske studier spesifikke for migrene med hjernestammeaura, og evidensen er kun indirekte (L4). I tillegg er produktet avregistrert i Norge, og pakningsvedleggets sikkerhetsdata mangler.
 
-**For å fortsette er følgende nødvendig:**
-- TFDA/etikett-advarsler og kontraindikasjoner (DG001, Blokkering)
-- Bekreftet mekanisme for virkning og godkjent indikasjon-registrering for dette markedet (DG002, Høy)
-- Prospektive eller undergruppe-spesifikke studiedata hos pasienter med bekreftet migreneanfald-med-hjernestammauroa (ikke bare selvrapportert auroa)
-- Vurdering av regulatorisk innlevering/markedsinngangsstatus gitt nåværende «Ikke på markedet»-status
-
+**For å gå videre kreves følgende:**
+- Innhente og analysere pakningsvedlegget (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsscreening
+- Innhente detaljerte data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Undersøke effekten spesifikt ved hjernestammeaura, for eksempel gjennom undergruppeanalyser eller en liten klinisk studie
+- Avklare hvilken rolle CGRP-uavhengige mekanismer (som PACAP38) spiller for forventet effekt
+- Avklare den regulatoriske statusen i Norge etter avregistreringen
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

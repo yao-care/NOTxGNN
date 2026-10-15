@@ -2,7 +2,7 @@
 layout: default
 title: Raltegravir
 parent: Kun modellprediksjon (L5)
-nav_order: 292
+nav_order: 344
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,68 +29,95 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Raltegravir: Fra HIV-1-infeksjon til Felint ervervet immunosviktsyndom
+# Raltegravir: Fra hiv-infeksjon til simian immunsviktvirusinfeksjon
 
 ## Oppsummering i én setning
 
-> Raltegravir er en HIV-1-integrase-strand-transfer-inhibitor (INSTI), opprinnelig studert og brukt for behandling av HIV-1-infeksjon hos mennesker.
-> TxGNN-modellen forutsier at det kan være effektivt for **Felint ervervet immunosviktsyndom**,
-> men de **2 kliniske studiene** som for tiden er knyttet til denne prediksjonen er fase 3-studier gjennomført hos **mennesker** med HIV-1-infeksjon, ikke hos katter, og **ingen litteratur** spesifikk for felinindikasjonen ble funnet.
+Raltegravir er en integrasehemmer som opprinnelig brukes til behandling av **hiv-infeksjon**.
+TxGNN-modellen forutsier at legemidlet kan ha effekt mot **simian immunsviktvirusinfeksjon (SIV)**.
+Evidensen består av **16 publikasjoner** (10 er vist her), alle prekliniske studier på dyr eller in vitro, og **0 kliniske studier**.
 
-## Rask oversikt
+---
 
-| Tema | Innhold |
+## Hurtigoversikt
+
+| Punkt | Innhold |
 |------|------|
-| Originalindikasjon | HIV-1-infeksjon (utledet fra beskrivelser av koblede studier; ingen formell `original_indications` eller markedsstandard-tekst ble gitt i bevisuttrekket) |
-| Forutsagt ny indikasjon | Felint ervervet immunosviktsyndom |
-| TxGNN-prediksjonspoeng | 99.78% |
-| Bevisnivå | L4 (de koblede studiene er mekanistiske/analoge — human HIV-1-studier — ikke direkte felinindikasjons-studier) |
-| Status på Norges marked | Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+| Opprinnelig indikasjon | HIV-infeksjon |
+| Predikert ny indikasjon | Simian immunsviktvirusinfeksjon |
+| TxGNN-prediksjonsscore | 99,78 % |
+| Evidensnivå | L4 (prekliniske studier og mekanismestudier) |
+| Markedsstatus i Norge | Kun kansellerte autorisasjoner |
+| Antall autorisasjoner | 1 (kansellert) |
+| Anbefalt beslutning | Hold (forskningsspørsmål, ikke klinisk reposisjonering) |
+
+---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelig (merket som alvorlig datakluft). Basert på kliniske studiebevis som er knyttet til denne kandidaten, beskrives raltegravir som en integrase-strand-transfer-inhibitor (INSTI) brukt i kombinasjons antiretroviral-regimer for HIV-1-infiserte pasienter — dette er direkte angitt i studiebeskrivelsene (f.eks. «raltegravir (RAL) 400 mg to ganger daglig» som bakgrunnsbehandling for HIV-1-infiserte voksne).
+Data om virkningsmekanisme (MOA) fra legemiddeldatabasen er ikke tilgjengelig i de innsamlede dataene. Raltegravir er likevel kjent som en integrasehemmer (INSTI) som blokkerer strand transfer-trinnet i retroviral replikasjon. Effekten er dokumentert ved hiv-infeksjon.
 
-Mekanistisk ville begrunnelsen for å utvide raltegravir til Felint ervervet immunosviktsyndom hvile på at både HIV (hos mennesker) og FIV-assosiert felint AIDS er forårsaket av lentivirus som er avhengig av et viralt integrase-enzym for å sette inn proviral-DNA i vertsgenomet. En integrase-inhibitor som er effektiv mot HIV-1-integrase, kunne i prinsippet evalueres mot det tilsvarende felinte lentiviral-integrase.
+SIV er nært beslektet med hiv-1, og integrasen er strukturelt lik. Studier viser at SIVmac239 og SIVmac251 er følsomme for integrasehemmere, og at de samme resistensmutasjonene gir tilsvarende fenotyper i begge virusene. Det gir et mekanistisk grunnlag for prediksjonen.
 
-Imidlertid gjenstår denne begrunnelsen på teoristadiet: de to fase 3-studiene som er vedlagt som «bevis» for denne indikasjonen (NCT01231516, NCT01227824) er faktisk human HIV-1-studier som sammenligner raltegravir med dolutegravir — de involverer ikke katter eller FIV. Ingen felinstudier eller publikasjoner ble identifisert. Prediksjonen bør derfor leses som en tverrartsmekanistisk hypotese snarere enn en som for tiden støttes av direkte eksperimentelle eller kliniske data hos målarten.
+Det er viktig å merke seg at SIV er en infeksjon hos ikke-humane primater. Den praktiske verdien er derfor først og fremst som **translasjonell dyremodell for hiv**, ikke som ny human behandlingsindikasjon. De to andre prediksjonene i dataene (felin ervervet immunsviktsyndrom og en sjelden nevroutviklingsforstyrrelse) er enten veterinære eller uten påvist biologisk begrunnelse, og er sannsynligvis artefakter av nærhet i kunnskapsgrafen.
 
-## Kliniske studiebevis
+---
 
-| Studienummer | Fase | Status | Antall deltakere | Viktige funn |
-|---------|------|------|------|---------|
-| [NCT01231516](https://clinicaltrials.gov/study/NCT01231516) | Fase 3 | Avsluttet | 724 | Human HIV-1-studie: dolutegravir 50 mg QD vs. raltegravir 400 mg BID, begge med etterforsker-valgt bakgrunnsregime, hos integrase-inhibitor-naive, ART-erfarne voksne. Ikke en felinstudie. |
-| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Fase 3 | Avsluttet | 828 | Human HIV-1-studie: dolutegravir 50 mg QD vs. raltegravir 400 mg BID med fast-dose dobbel NRTI-terapi hos ART-naive voksne. Ikke en felinstudie. |
+## Evidens fra kliniske studier
 
-*Merk: Disse studiene etablerer raltegravirs antiviral virksomhet mot HIV-1 hos mennesker, men tester ikke direkte den forutsagte felinindikasjonen.*
+Foreløpig er ingen relaterte kliniske studier registrert.
 
-## Litteraturbevis
+---
 
-For tiden ingen relatert litteratur tilgjengelig.
+## Litteraturevidens
 
-## Status på Norges marked
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [20233398](https://pubmed.ncbi.nlm.nih.gov/20233398/) | 2010 | Preklinisk (in vivo/in vitro) | Retrovirology | SIVmac251 responderer på raltegravir i kombinasjon med to NRTI-er; grunnlag for behandling og dyremodell for simian AIDS |
+| [29643246](https://pubmed.ncbi.nlm.nih.gov/29643246/) | 2018 | Preklinisk (ikke-human primat) | J Virol | Dynamikk av 2-LTR-sirkler hos SIV-infiserte makaker behandlet med integrasehemmer, med og uten CD8+-celler |
+| [24622515](https://pubmed.ncbi.nlm.nih.gov/24622515/) | 2014 | Preklinisk (makak) | Sci Transl Med | Topiske integrasehemmere beskyttet makaker mot vaginal SHIV-infeksjon etter eksponering |
+| [29466356](https://pubmed.ncbi.nlm.nih.gov/29466356/) | 2018 | Preklinisk (makak) | PLoS One | Resistensmutasjoner oppstod hos SIV-infiserte makaker på ikke-suppressiv ART med raltegravir-intensivering |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Preklinisk (makak) | PLoS Pathog | Høyintensiv ART ga langvarig virussuppresjon og begrenset viralt reservoar i simian AIDS-modell |
+| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Preklinisk (makak) | AIDS | Auranofin reduserte viralt reservoar i apemodellen og ga kontroll av virusmengde etter ART-stopp |
+| [26378179](https://pubmed.ncbi.nlm.nih.gov/26378179/) | 2015 | Preklinisk (in vitro) | J Virol | Resistensprofiler for INSTI-er i SIVmac239 |
+| [24920794](https://pubmed.ncbi.nlm.nih.gov/24920794/) | 2014 | Preklinisk (in vitro) | J Virol | Effekt av hiv-1-resistensmutasjoner i integrase innsatt i SIVmac239 på INSTI-følsomhet |
+| [25583721](https://pubmed.ncbi.nlm.nih.gov/25583721/) | 2015 | Preklinisk (resistensmodell) | Antimicrob Agents Chemother | Simian-tropisk hiv som modell for resistens mot integrasehemmere |
+| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Preklinisk | mBio | Lentivirusinfeksjon vedvarer i hjernen til tross for effektiv ART |
 
-Raltegravir er for tiden ikke markedsført i Norge; ingen markedsautorisasjoner er registrert i bevisuttrekket.
+---
 
-## Sikkerhetshensyn
+## Markedsinformasjon for Norge
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+| Autorisasjonsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000860 | Isentress (Merck Sharp & Dohme B.V.) | Ikke oppgitt | HIV-infeksjon (status: kansellert) |
 
-## Konklusjon og neste trinn
+---
 
-**Beslutning: Avvent**
+## Sikkerhetsvurderinger
+
+- **Kontraindikasjoner fra kunnskapsgrafen (ikke fra preparatomtale):** Kunnskapsgrafen knytter raltegravir til muskelrelaterte tilstander, blant annet myopati, muskelsykdom, skjelettmuskelsykdom, familiær periodisk paralyse og rabdomyolyse, samt nodulær fasciitt. Disse bør vurderes nøye ved eventuell videre utredning.
+- **Legemiddelinteraksjoner:** Totalt 36 interaksjoner er funnet, og et utvalg er vist her.
+  - **Alvorlige (Major):** sinksulfat, sinkacetat, aluminiumhydroksid og kalsiumkarbonat. Disse er sannsynligvis knyttet til nedsatt opptak ved chelatdannelse med flerverdige kationer.
+  - **Moderate:** magnesiumoksid, magnesiumsulfat, magnesiumklorid og orlistat.
+  - **Lette (Minor):** blant annet famotidin, ranitidin, cimetidin, nizatidin, omeprazol, esomeprazol, lansoprazol, dexlansoprazol, pantoprazol, rabeprazol, pioglitazon og deksametason.
+- Informasjon om advarsler og kontraindikasjoner fra preparatomtalen mangler. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den forutsagte indikasjonen (Felint ervervet immunosviktsyndom) retter seg mot en ikke-menneskelig art, og de eneste kliniske studiene som for tiden er knyttet til denne kandidaten er human HIV-1-studier snarere enn felinstudier — direkte relevans er ikke ennå etablert. Kombinert med en blokkerende datakluft på regulatorisk sikkerhetsinformasjon og en alvorlig kluft på virkningsmekanisme, er det utilstrekkelig grunnlag for å fremme denne kandidaten på nåværende tidspunkt.
+Evidensen er utelukkende preklinisk (dyre- og in vitro-studier), og det finnes ingen kliniske studier. SIV er en ikke-human infeksjon, så verdien er først og fremst som forskningsmodell for hiv, ikke som ny human indikasjon. I tillegg er den eneste norske autorisasjonen kansellert, og sikkerhetsdata fra preparatomtalen mangler.
 
-**For å fortsette, er følgende nødvendig:**
-- Verifisering av om det finnes prekliniske eller veterinære (FIV) in vitro/in vivo data for raltegravir, atskilt fra human HIV-1 studiebeviset som for tiden er vedlagt
-- Pakningsvedlegg/SPC data for å lukke den blokkerende sikkerhetsdatakluft (viktige advarsler, kontraindikasjoner, DDI)
-- Detaljert virkningsmekanisme dokumentasjon fra DrugBank
-- Avklaring av relevansgradering for de koblede studiene og litteraturen (for tiden merket som «ventende» i bevisuttrekket) for å bekrefte om KG-avledet indikasjons kartlegging er et ekte signal eller en ontologi/tekst-matching artefakt (f.eks. «acquired immunodeficiency syndrome» strengoverlapping mellom human og felint vilkår)
-
+**For å gå videre kreves følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Data om virkningsmekanisme fra legemiddeldatabasen
+- Avklaring av om en veterinær eller translasjonell forskningsanvendelse er relevant, siden SIV og felin immunsvikt ikke er humane indikasjoner
+- Vurdering av muskelrelaterte sikkerhetssignaler fra kunnskapsgrafen
+- Avklaring av gjeldende regulatorisk status i Norge, siden autorisasjonen er kansellert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

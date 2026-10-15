@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Insulin Degludec
-parent: Kun modellprediksjon (L5)
-nav_order: 183
-evidence_level: L5
+parent: Høy evidens (L1-L2)
+nav_order: 216
+evidence_level: L1
 indication_count: 6
 ---
 
 # Insulin Degludec
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
+Evidensnivå: **L1** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,115 +29,114 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Insulin degludec: En selvhenvisende prediksjon (Diabetes mellitus → Type 1 diabetes mellitus)
+# Insulin degludec: Fra diabetes mellitus til diabetes mellitus type 1
 
-## Sammendrag i en setning
+## Oppsummering i én setning
 
-> Insulin degludec er en langtvirkende (ultralangtirkende) basal insulinanalog som brukes til behandling av diabetes mellitus. TxGNN-modellens topprangerte prediksjon (**Type 1 diabetes mellitus**, poengsum 99.44%) er ikke et genuint repurposering-signal — det tilsvarer legemidlets egen kjente kliniske bruk — men bevissamlingen er godt støttet av **58 kliniske forsøk** og **20 publikasjoner**, inkludert flere fullførte fase 3 RCT-er. De resterende fem rangerte kandidatene i denne samlingen er svakere, eksplorerende signaler med lite eller ingen direkte bevis.
+Insulin degludec er en langtidsvirkende basalinsulinanalog som opprinnelig brukes til behandling av diabetes mellitus (inkludert diabetes type 2). TxGNN-modellen forutsier at legemidlet kan være effektivt for **diabetes mellitus type 1**, og dette støttes av **40 kliniske studier** og **19 publikasjoner** i dataene som er samlet inn for denne rapporten. Merk at dette i praksis er en nært beslektet bruk av legemidlets eksisterende indikasjon, ikke en ekte repurposing.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Diabetes mellitus, basal insulinterapi (eksakt regulatorisk indikasjon tekst ikke gitt i bevissamlingen — datakløft) |
-| Predikert ny indikasjon | Type 1 diabetes mellitus *(selvhenvisende — se forbehold nedenfor)* |
-| TxGNN prediksjonspoengsum | 99.44% |
-| Bevisnivå | L1 (≥2 fullførte fase 3 RCT-er) |
-| Taiwans markedsstatus | Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | **Hold** (for repurposering-formål — se begrunnelse) |
+| Opprinnelig indikasjon | Diabetes mellitus |
+| Predikert ny indikasjon | Diabetes mellitus type 1 |
+| TxGNN-prediksjonsscore | 99,44 % |
+| Evidensnivå | L1 |
+| Status i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Antall tillatelser | 3 (alle avregistrert) |
+| Anbefalt beslutning | Proceed with Guardrails (fortsett med sikkerhetstiltak) |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljert virkningsmekanisme-informasjon for insulin degludec ikke tilgjengelig i denne bevissamlingen (datakløft). Basert på etablert farmakologisk kunnskap, er insulin degludec en ultralangtirkende basal insulinanalog som danner løselige multiheksamer etter subkutan injeksjon, som deretter frigjøres langsomt og kontinuerlig til sirkulasjonen — noe som gir den en flat, stabil, ~24+ time virkningsprofil. Den brukes som eksogen erstatningsterapi for pasienter med absolutt eller relativ insulinmangel.
+Data om detaljert virkningsmekanisme er foreløpig ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er insulin degludec en langtidsvirkende basalinsulinanalog som binder seg til insulinreseptoren og senker blodsukkeret. Effekten ved diabetes mellitus er godt dokumentert.
 
-**Viktig forbehold om Rang 1:** Repurposering-begrunnelsen gitt med denne bevissamlingen sier eksplisitt at «type 1 diabetes mellitus» er insulin degludecs **opprinnelige, allerede godkjente indikasjon** — ikke en ny repurposering-kandidat. TxGNN har effektivt gjenoppdaget legemidlets egen kjente bruk. Dette er en kjent begrensning av grafbaserte legemiddel–sykdom lenke-prediksjonsmodeller: høysikre kantlinjer kan reflektere eksisterende kunnskap allerede innebygd i treningsgrafien i stedet for en genuint ny terapeutisk hypotese. Det omfattende kliniske forsøk og litteraturbevis nedenfor skal derfor leses som **bekreftende bevis for etablert effektivitet**, ikke som støtte for en ny indikasjon.
-
-De genuint eksplorerende kandidatene i denne samlingen (rangeringer 2–6, oppsummert videre nedenfor) er mekanistisk mye svakere: de fleste reflekterer **sykdomskomorbidet** (f.eks. delt anti-GAD65 autoimmunitet mellom type 1 diabetes og stiff person syndrome) i stedet for en direkte farmakologisk effekt av insulin på den predikerte sykdommen selv.
+Diabetes type 1 kjennetegnes av absolutt insulinmangel, så basalinsulinerstatning er mekanistisk direkte relevant. Den opprinnelige indikasjonen («diabetes mellitus») omfatter allerede denne pasientgruppen, så prediksjonen fungerer som en validering av modellens høyest rangerte forslag snarere enn en oppdagelse av en ny anvendelse.
 
 ---
 
-## Klinisk forsøksbevis
+## Evidens fra kliniske studier
 
-*(for predicted_indications[0] — «type 1 diabetes mellitus», som er legemidlets kjente/opprinnelige indikasjon)*
+Dataene inneholder 40 registrerte studier. Nedenfor er et utvalg på 10 av de mest relevante, med vekt på fase 3 og studier som direkte involverer insulin degludec.
 
-| Forsøksnummer | Fase | Status | Inkludering | Nøkkelfunn |
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT05463744](https://clinicaltrials.gov/study/NCT05463744) | Fase 3 | Fullført | 692 | Insulin efsitora alfa en gang per uke vs. insulin degludec hos T1D-pasienter på flere daglige injeksjoner |
-| [NCT03214367](https://clinicaltrials.gov/study/NCT03214367) | Fase 3 | Fullført | 1392 | PRONTO-T1D: LY900014 vs. insulin lispro, begge kombinert med glargine eller degludec, hos T1D |
-| [NCT02500706](https://clinicaltrials.gov/study/NCT02500706) | Fase 3 | Fullført | 1108 | Raskere virkende insulin aspart vs. NovoRapid, begge kombinert med degludec, hos voksne med T1D |
-| [NCT01835431](https://clinicaltrials.gov/study/NCT01835431) | Fase 3 | Fullført | 362 | IDegAsp en gang daglig + aspart vs. detemir en/to ganger daglig + aspart hos barn/ungdom med T1D |
-| [NCT04450407](https://clinicaltrials.gov/study/NCT04450407) | Fase 2 | Fullført | 266 | LY3209590 vs. insulin degludec hos T1D-pasienter tidligere på flere daglige injeksjoner |
-| [NCT05767255](https://clinicaltrials.gov/study/NCT05767255) | Fase 3 | Ukjent | 66 | Basal-bolus insulin (inkl. degludec) vs. basal insulin + GLP-1 analog for hypoglykemi-risiko ved sykehusutskrivning |
-| [NCT02536859](https://clinicaltrials.gov/study/NCT02536859) | Fase 1 | Fullført | 60 | PK/PD sammenligning av degludec vs. glargine U300 ved steady state hos T1D |
-| [NCT00841087](https://clinicaltrials.gov/study/NCT00841087) | Fase 2 | Fullført | 65 | Sikkerhet av degludec + NovoRapid vs. detemir + NovoRapid, basal-bolus regimen, hos japanske T1D-pasienter |
-| [NCT03400501](https://clinicaltrials.gov/study/NCT03400501) | Tidlig fase 1 | Fullført | 32 | Skoleveiledning degludec vs. glargine for å redusere ketose-risiko hos ungdom med dårlig kontrollert T1D |
-| [NCT00992537](https://clinicaltrials.gov/study/NCT00992537) | Fase 1 | Fullført | 27 | PK/PD sammenligning av IDegAsp, degludec, og insulin aspart hos T1D |
+| [NCT02034513](https://clinicaltrials.gov/study/NCT02034513) | Fase 3 | Fullført | 501 | SWITCH 1: degludec vs. glargin, begge med aspart som måltidsinsulin, ved diabetes type 1 (dobbeltblind, crossover) |
+| [NCT05463744](https://clinicaltrials.gov/study/NCT05463744) | Fase 3 | Fullført | 692 | Ukentlig basalinsulin efsitora alfa vs. degludec ved type 1-diabetes med flere daglige injeksjoner |
+| [NCT00978627](https://clinicaltrials.gov/study/NCT00978627) | Fase 3 | Fullført | 548 | Degludec/aspart (IDegAsp) vs. detemir + aspart ved diabetes type 1 |
+| [NCT01835431](https://clinicaltrials.gov/study/NCT01835431) | Fase 3 | Fullført | 362 | Degludec/aspart vs. detemir hos barn og ungdom med type 1-diabetes |
+| [NCT02500706](https://clinicaltrials.gov/study/NCT02500706) | Fase 3 | Fullført | 1108 | Raskere aspart vs. NovoRapid, begge i kombinasjon med degludec hos voksne med type 1-diabetes |
+| [NCT02670915](https://clinicaltrials.gov/study/NCT02670915) | Fase 3 | Fullført | 834 | Raskere aspart vs. NovoRapid, begge med degludec hos barn og ungdom |
+| [NCT00612040](https://clinicaltrials.gov/study/NCT00612040) | Fase 2 | Fullført | 178 | To degludec-formuleringer vs. glargin, alle med aspart, ved type 1-diabetes |
+| [NCT04075513](https://clinicaltrials.gov/study/NCT04075513) | Fase 4 | Fullført | 343 | Toujeo (glargin 300 E/ml) vs. Tresiba (degludec) målt med kontinuerlig glukosemåling |
+| [NCT03838783](https://clinicaltrials.gov/study/NCT03838783) | Fase 4 | Ukjent | 30 | Degludec med kontinuerlig subkutan insulininfusjon hos aktive pasienter med type 1-diabetes |
+| [NCT02392117](https://clinicaltrials.gov/study/NCT02392117) | Ikke relevant | Fullført | 1262 | Observasjonsstudie av sikkerhet og effekt i klinisk praksis ved type 1- og type 2-diabetes |
+
+Mange av studiene er tidlige fase 1-studier av farmakodynamikk og farmakokinetikk. Flere av fase 3-studiene bruker degludec som bakgrunns- eller sammenligningsbehandling, ikke som hovedintervensjon.
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Nøkkelfunn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | RCT | Lancet | ONWARDS 6: insulin icodec en gang per uke vs. degludec daglig, basal-bolus regimen, hos T1D |
-| [39270686](https://pubmed.ncbi.nlm.nih.gov/39270686/) | 2024 | RCT | Lancet | QWINT-5: insulin efsitora alfa en gang per uke vs. degludec daglig hos voksne med T1D |
-| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT: degludec vs. detemir (begge + aspart) hos gravide med T1D — non-inferiority studie |
-| [34643020](https://pubmed.ncbi.nlm.nih.gov/34643020/) | 2022 | RCT | Diabetes Obes Metab | HypoDeg: degludec vs. glargine U100 hos T1D-pasienter utsatt for alvorlig nattlig hypoglykemi |
-| [36610544](https://pubmed.ncbi.nlm.nih.gov/36610544/) | 2023 | RCT | Diabetes Res Clin Pract | INEOX: degludec 100 IE/mL vs. glargine 300 IE/mL effektivitet/sikkerhet hos T1D |
-| [34763071](https://pubmed.ncbi.nlm.nih.gov/34763071/) | 2022 | RCT | Endocr Pract | BIGLEAP: degludec vs. aspart via insulinpumpe hos godt kontrollert T1D, crossover design |
-| [36516429](https://pubmed.ncbi.nlm.nih.gov/36516429/) | 2023 | RCT | Diabetes Technol Ther | ULTRAFLEXI-1: glargine U300 vs. degludec U100 rundt spontan trening hos T1D |
-| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | Systematisk gjennomgang / Meta-analyse | Clin Ther | Degludec vs. andre langtvirkende basale insuliner hos T1D/T2D — effektivitet og tolerabilitet |
-| [35476308](https://pubmed.ncbi.nlm.nih.gov/35476308/) | 2022 | Systematisk gjennomgang | Int J Clin Pharm | Degludec U100 vs. glargine U300 hos T1D — sikkerhet, effektivitet, kostnadseffektivitet |
-| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | Systematisk gjennomgang / Nettverks meta-analyse | Value Health | Basale insulinregimer for voksne med T1D — sammenlignende effektivitet og sikkerhet |
+| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | RCT | Lancet | ONWARDS 6: ukentlig insulin icodec vs. daglig degludec i basal-bolus-regime ved type 1-diabetes |
+| [39270686](https://pubmed.ncbi.nlm.nih.gov/39270686/) | 2024 | RCT | Lancet | QWINT-5: ukentlig efsitora vs. daglig degludec ved type 1-diabetes (fase 3, non-inferioritet) |
+| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT: degludec vs. detemir hos gravide kvinner med type 1-diabetes |
+| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | Metaanalyse | Clin Ther | Effekt og tolerabilitet av degludec vs. andre langtidsvirkende basalinsuliner ved type 1- og type 2-diabetes |
+| [33662147](https://pubmed.ncbi.nlm.nih.gov/33662147/) | 2021 | Systematisk oversikt | Cochrane Database Syst Rev | (Ultra-)langtidsvirkende insulinanaloger ved type 1-diabetes |
+| [40627908](https://pubmed.ncbi.nlm.nih.gov/40627908/) | 2025 | Metaanalyse | J Diabetes Complications | Degludec vs. efsitora ved type 1- og type 2-diabetes |
+| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | Nettverksmetaanalyse | Value Health | Sammenligning av basalinsulinregimer hos voksne med type 1-diabetes |
+| [35476308](https://pubmed.ncbi.nlm.nih.gov/35476308/) | 2022 | Systematisk oversikt | Int J Clin Pharm | Degludec U100 vs. glargin U300 ved type 1-diabetes: sikkerhet, effekt og kostnadseffektivitet |
+| [23620200](https://pubmed.ncbi.nlm.nih.gov/23620200/) | 2013 | Oversikt | Drugs | Oversikt over bruk av degludec og degludec/aspart ved diabetes |
+| [35147781](https://pubmed.ncbi.nlm.nih.gov/35147781/) | 2022 | Observasjonsstudie | Acta Diabetol | Graviditetsutfall hos kvinner med type 1-diabetes som bruker degludec |
 
 ---
 
-## Andre predikerte indikasioner (Eksplorerende, lavere bevis)
+## Markedsinformasjon for Norge
 
-Denne bevissamlingen inneholder fem ytterligere TxGNN-rangerte kandidater. Ingen har for tiden støttende kliniske forsøk eller litteratur. Oppsummert for fullstendighet:
+Alle tre tillatelsene er avregistrert, og det finnes ingen gyldige markedsføringstillatelser i Norge i dag.
 
-| Rangering | Sykdom | Poengsum | Bevisnivå | Anbefaling | Merknad |
-|------|---------|-------|----------------|-----------------|------|
-| 2 | Autoimmt oofritt | 99.23% | L5 | Hold | Ingen mekanistisk link identifisert utover mulig sameksistens i autoimmt polyglandulært syndrom; rent modellartefakt |
-| 3 | Opsismodysplasi | 99.12% | L5 | Hold | Sjelden skjelettal dysplasi (INPPL1-mutasjon); ingen kjent vekselvirkning med insulinsignalering |
-| 4 | Tiamin-responsivt dysfunksjonssyndrom (TRMA) | 99.10% | L4 | Forskningsspørsmål | TRMA inkluderer diabetes som del av dens triade; insulin ville bare behandlet den diabetiske komponenten symptomatisk, ikke den underliggende B1-transportørdefekten |
-| 5 | Klassisk stiff person syndrome | 99.08% | L4 | Forskningsspørsmål | Deler anti-GAD65 autoantistoff-patofysiologi med T1D (forekommer sammen hos ~30–40% av SPS-pasienter); insulin behandler bare komorbid diabetes, ikke SPS nevrologiske symptomer |
-| 6 | Fokal stiff limb syndrome | 99.08% | L4 | Forskningsspørsmål | SPS-spektrumvariant; samme anti-GAD65/T1D komorbidet forbehold som Rang 5 |
-
-Ingen av disse bør fremmes uten uavhengig mekanistisk eller klinisk bevis.
+| Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/002498 | Tresiba | Ikke oppgitt | Diabetes mellitus |
+| EMEA/H/C/002499 | Ryzodeg | Ikke oppgitt | Diabetes mellitus |
+| EMEA/H/C/002647 | Xultophy | Ikke oppgitt | Diabetes mellitus type 2 |
 
 ---
 
-## Informasjon om Taiwans marked
+## Sikkerhetsvurderinger
 
-Insulin degludec innehar for tiden **ingen markedsføringstillatelser i Taiwan** (markedsstatus: Ikke markedsført; 0 lisenser på fil).
+- **Legemiddelinteraksjoner**: Interaksjonssøket ble gjennomført og fant 100 registrerte interaksjoner. De fleste i utvalget er av moderat alvorlighetsgrad. Eksempler:
+  - Andre antidiabetika (metformin, pioglitazon, alogliptin, albiglutid): additiv blodsukkersenkende effekt
+  - Betaagonister og sympatomimetika (salbutamol, formoterol, adrenalin, fenylefrin, pseudoefedrin): kan svekke blodsukkerkontrollen
+  - Betablokkere (acebutolol): kan maskere symptomer på hypoglykemi
+  - Hormoner (østradiol, levonorgestrel, noretisteron, hydrokortison): kan påvirke blodsukkeret
+  - Hydroklortiazid, doksycyklin, etanol og alpelisib
+  - Topiske kortikosteroider (hydrokortison, alklometason): mindre alvorlig
+
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ---
 
-## Sikkerhetshensyn
+## Konklusjon og neste steg
 
-Se pakningsvedlegget for sikkerhetsinformasjon. Ingen viktige advarsler, kontraindikasjoner eller legemiddelinteraksjonsvarsler var tilgjengelig i denne bevissamlingen.
-
----
-
-## Konklusjon og neste trinn
-
-**Beslutning: Hold**
+**Beslutning: Proceed with Guardrails (fortsett med sikkerhetstiltak)**
 
 **Begrunnelse:**
-Den topprangerte kandidaten (Type 1 diabetes mellitus) er ikke en ny repurposering-mulighet — det er insulin degludecs eksisterende godkjente indikasjon, så det tilbyr ingen ny forretnings- eller klinisk verdi til tross for sitt sterke L1-bevisgrunnlag. De resterende fem kandidatene har alle svakt bevis (L4–L5), og flere (autoimmt oofritt, opsismodysplasi) mangler noen troverdig mekanistisk begrunnelse. De to mest biologisk plausible eksplorerende lederne — stiff person syndrome og fokal stiff limb syndrome — representerer sykdomskomorbidet via delt anti-GAD65 autoimmunitet, ikke en direkte farmakologisk effekt av insulin på den nevrologiske lidelsen selv, og støtter derfor ikke for tiden et repurposering-krav.
+Flere fullførte fase 3-studier og systematiske oversikter dekker bruk av insulin degludec ved diabetes type 1, og bruken ligger tett opp til den eksisterende indikasjonen. Samtidig er alle norske tillatelser avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
 
-**For å fortsette er følgende nødvendig:**
-- Løs **DG001** (Blokkering): få TFDA-merking/pakningsvedlegg (advarsler, kontraindikasjoner) før noen S1-sikkerhetsevaluering kan begynne
-- Løs **DG002** (Høy): hent formell virkningsmekanisme-data fra DrugBank
-- Hvis stiff person syndrome-hypotesen forfølges, bestill en målrettet litteraturgjennomgang av anti-GAD65 autoimmunitet og insulins potensielle immunomodulatoriske (ikke glykemiske) rolle — gjeldende bevissamling inneholder null støttende sitater
-- Deprioritiser autoimmt oofritt og opsismodysplasi med mindre ny mekanistisk bevis fremkommer
+**For å gå videre kreves følgende:**
+- Innhenting og gjennomgang av preparatomtale med advarsler og kontraindikasjoner (kritisk datamangel)
+- Detaljerte data om virkningsmekanisme
+- Avklaring av regulatorisk status i Norge, siden alle tillatelser er avregistrert
+- Verifisering av studiearmer i fase 3-studiene der degludec trolig kun er bakgrunnsbehandling (f.eks. NCT03740919, NCT03952130)
 
+**Øvrige predikerte indikasjoner:** Fem andre prediksjoner (autoimmun ooforitt, opsismodysplasi, tiaminresponsivt dysfunksjonssyndrom, klassisk stiff person-syndrom og fokalt stiff limb-syndrom) har kun modellstøtte (evidensnivå L5), uten kliniske studier eller litteratur, og anbefales satt på vent (Hold). Signalene skyldes trolig assosiasjoner i kunnskapsgrafen, som autoimmun overlapp med diabetes type 1, snarere enn en terapeutisk effekt av insulin degludec.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

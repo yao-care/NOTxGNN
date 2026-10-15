@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Paliperidone
-parent: Høy evidens (L1-L2)
-nav_order: 261
-evidence_level: L2
+parent: Kun modellprediksjon (L5)
+nav_order: 306
+evidence_level: L5
 indication_count: 10
 ---
 
 # Paliperidone
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,83 +29,109 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Paliperidone: Fra schizofreni til behandlingsresistent schizofreni
+# Paliperidon: Fra schizofreni til behandlingsresistent schizofreni
 
-## Sammendrag på en setning
+## Oppsummering i én setning
 
-Paliperidone er et antipsykotikum (det aktive metabolitten av risperidon, D2/5-HT2A-reseptorantagonist) som allerede brukes til schizofreni-spektrum-lidelser. TxGNN-modellen returnerte ni høyere-scorede prediksjoner (retinal dystrofi, X-koblet/syndromisk myopi, hydranensefall, en glykosyleringsforstyrrelse, CMT type 1G, glysinencefalopati) som bevisberetningen selv flaggerer som mekanistisk implausible med **null støttende studier eller litteratur** — disse behandles som modellstøy, ikke kandidater. Den eneste prediksjonen med reell støtte er en utvidelse til **behandlingsresistent schizofreni**, støttet av **4 kliniske studier** og **2 publikasjoner**.
+Paliperidon er et antipsykotikum som opprinnelig brukes mot schizofreni og psykotiske lidelser. TxGNN-modellen rangerer **retinal dystrofi med eller uten ekstraokulære anomalier** øverst (score 99,92 %), men denne prediksjonen har verken kliniske studier eller litteratur bak seg. Den eneste prediksjonen med noe evidens er **behandlingsresistent schizofreni** (3 kliniske studier og 2 oversiktsartikler), men det ligger tett opptil den opprinnelige indikasjonen og er ikke egentlig drug repurposing.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Ikke dokumentert i Norges licensieringsdata (0 godkjennelser); mekanistisk etablert som schizofreni/schizoaffektiv lidelse i henhold til medikamentets kjente antipsykotikum-klasse |
-| Forutsagt ny indikasjon | Behandlingsresistent schizofreni (valgt fra rangering 10 — se merknad nedenfor om hvorfor rangering 1 ikke ble brukt) |
-| TxGNN-prediksjonspoengsum | 99,80% (poengsum 0,99796, rangering 2663) |
-| Bevisnivå | L2 |
-| Norges markedsstatus | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt avgjørelse | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Schizofreni; psykotiske lidelser |
+| Predikert ny indikasjon (høyest rangert) | Retinal dystrofi med eller uten ekstraokulære anomalier |
+| TxGNN-prediksjonsscore | 99,92 % |
+| Evidensnivå | L5 (kun modellprediksjon) |
+| Markedsstatus i Norge | Kun trukket tilbake (kansellert) |
+| Antall markedsføringstillatelser | 1 (kansellert) |
+| Anbefalt beslutning | Hold |
 
-> **Merknad om rangering:** TxGNNs ni øverste prediksjoner etter poengsum (rangering 1 = retinal dystrofi ved 99,92%, nedover til glysinencefalopati) har **ingen kliniske studier, ingen litteratur, og ingen mekanistisk begrunnelse** — bevisberetningens egne merknader sier eksplisitt at det er "ingen identifiserbar farmakologisk mekanismekobling" for hver. Disse blir avvist som falske grafstøysignaler. Det lavest-scorede prediksjonen i dette settet, **behandlingsresistent schizofreni** (rangering 10, fremdeles >99,7% poengsum), er den eneste med reell studie- og litteraturstøtte og en sammenhengende mekanisme, så det brukes som den fremtredende kandidaten i denne rapporten.
+Merk: Blant de ti predikerte indikasjonene er behandlingsresistent schizofreni (rangert som nr. 10, score 99,80 %) den eneste med klinisk datagrunnlag (evidensnivå L4). Den anbefales som forskningsspørsmål, ikke som reell ny indikasjon.
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Medikamentnivå-virkningsmekanisme-data er formelt flagget som et gap (**DG002, Høy alvorlighetsgrad**) — ingen strukturert MOA-journal kunne hentes fra DrugBank ved denne avslutningen. Imidlertid dokumenterer bevisberetningens egen rasjonale for omformål at paliperidone er det aktive metabolitten av risperidon og fungerer som en **D2/5-HT2A-reseptorantagonist**, som er den kjernefarmakologiske mekanismen bak antipsykotikum-terapi.
+Data om virkningsmekanisme er ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Basert på kjent informasjon er paliperidon (9-hydroksyrisperidon, den aktive metabolitten til risperidon) en D2- og 5-HT2A-antagonist, og effekten ved schizofreni er etablert.
 
-Dette er ikke et klassisk krysssykdom-omformålingstilfelle — paliperidones etablerte terapeutiske klasse målretter allerede schizofreni. Den "nye indikasjonen" her bør bedre forstås som en utvidelse av bruk til en **behandlingsresistent subpopulasjon** av samme sykdom, støttet av virkelighetens naturalistiske og komparativ-effektivitets-forsøksdesign (f.eks. paliperidone palmitat case-serier, aripiprazol-vs-paliperidone multi-omics RCT). Dette er mekanistisk sammenhengende og lavere-risiko enn de ni andre modellprediksjoner, som involverer urelaterte medfødt, oftalmologisk, nevro-utviklings-, og metaboliske lidelser uten plausibel kobling til sentral dopamin/serotonin-reseptor-blokkering.
+**Toppredikasjonen (retinal dystrofi):** Det finnes ingen troverdig mekanistisk sammenheng. Paliperidon har ingen kjent rolle i signalveier ved arvelig netthinnesykdom. Den høye scoren er sannsynligvis en artefakt av nærhet i kunnskapsgrafen.
+
+**Øvrige topprangerte prediksjoner:** Flere av dem gjelder X-bundet og syndromisk nærsynthet, hydranencefali, glykosyleringsdefekter, kortikale misdannelser, Charcot-Marie-Tooth type 1G og atypisk glycinencefalopati. Ingen har studier eller litteratur, og ingen har en plausibel mekanisme:
+- Ved nærsynthet er dopaminagonisme, ikke antagonisme, den teoretiske sammenhengen. Retningen er dermed trolig motsatt.
+- Strukturelle hjernemisdannelser og metabolske defekter kan ikke korrigeres av reseptorantagonisme.
+- Atypisk glycinencefalopati har en løs konseptuell kobling til glycin/NMDA-modulering ved schizofreni, men paliperidon påvirker ikke glycinmetabolismen.
+
+**Behandlingsresistent schizofreni:** Dette er en utvidelse innenfor den eksisterende indikasjonen. Standardbehandlingen er klozapin, og evidensen for paliperidon i denne gruppen er indirekte.
 
 ---
 
-## Bevis fra kliniske forsøk
+## Klinisk studieevidens
 
-| Prøvenummer | Fase | Status | Rekruttering | Viktige funn |
+Studiene gjelder predikasjonen «behandlingsresistent schizofreni». Ingen kliniske studier er registrert for toppredikasjonen.
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT01860781](https://clinicaltrials.gov/study/NCT01860781) | Fase 4 | Gjennomført | 30 | Prospektiv naturalistisk case-serie evaluerer paliperidone palmitat-effektivitet på tvers av tre schizofreni-pasientundergrupper |
-| [NCT07047651](https://clinicaltrials.gov/study/NCT07047651) | Fase 4 | Rekrutterer | 40 | Kombinerer farmakoterapie med gjenopprettings-orienterte programmer (RECOVERYTRSGR/RECOVERYTRSBDGR) for behandlingsresistent schizofreni og bipolar lidelse |
-| [NCT05741502](https://clinicaltrials.gov/study/NCT05741502) | Fase 4 | Avsluttet | 5 | Sammenlignet klozapin vs. ikke-klozapin-antipsykotika på inflammatoriske markører ved behandlingsresistent schizofreni; lav relevans, avsluttet tidlig med minimal rekruttering |
-| [NCT06060886](https://clinicaltrials.gov/study/NCT06060886) | Fase 4 | Ukjent status | 244 | Åpen-label multisenter RCT (SchizOMICS) som sammenligner aripiprazol vs. paliperidone/risperidon ved hjelp av multi-omics data ved første-episode psykose |
+| [NCT07047651](https://clinicaltrials.gov/study/NCT07047651) | Fase 4 | Aktiv, rekrutterer ikke | 84 | Farmakoterapi kombinert med recovery-orienterte programmer ved behandlingsresistent schizofreni og bipolar lidelse. Uklart om paliperidon er en studert arm. |
+| [NCT06060886](https://clinicaltrials.gov/study/NCT06060886) | Fase 4 | Ukjent | 244 | Åpen, randomisert studie som sammenligner aripiprazol og paliperidon/risperidon ved første psykoseepisode (SchizOMICS, multi-omics). Paliperidon trolig komparator, så evidensen er indirekte. |
+| [NCT05741502](https://clinicaltrials.gov/study/NCT05741502) | Fase 4 | Avsluttet i utide | 5 | Eksplorerende studie av immun- og inflammasjonsrespons ved klozapin versus ikke-klozapin antipsykotika. Kun 5 deltakere, så i praksis ingen brukbar effektevidens. |
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [31648341](https://pubmed.ncbi.nlm.nih.gov/31648341/) | 2019 | Gjennomgang | Actas Españolas de Psiquiatría | Gjennomgår bevis for antipsykotikum-farmakoterapie ved schizoaffektiv lidelse, og merker mangelen på lidelsesspecifikk behandlingsveiledning |
-| [23364281](https://pubmed.ncbi.nlm.nih.gov/23364281/) | 2013 | Gjennomgang | Current Opinion in Psychiatry | Bevisbasert farmakologisk tilnærming til tidlig-oppstart schizofreni-spektrum-lidelser, inkludert dosering og bivirkningsovervåking |
+| [31648341](https://pubmed.ncbi.nlm.nih.gov/31648341/) | 2019 | Oversiktsartikkel | Actas Españolas de Psiquiatría | Gjennomgang av psykofarmakologi ved schizoaffektiv lidelse. Behandlingen bygger hovedsakelig på antipsykotika, uten spesifikke retningslinjer. |
+| [23364281](https://pubmed.ncbi.nlm.nih.gov/23364281/) | 2013 | Oversiktsartikkel | Current Opinion in Psychiatry | Effekt og toleranse av psykososiale og psykofarmakologiske intervensjoner ved tidlig debuterende schizofreni hos ungdom. |
+
+Ingen litteratur er funnet for toppredikasjonene.
 
 ---
 
-## Norges markedsinformasjon
+## Informasjon om det norske markedet
 
-Ingen markedsføringstillatelser ble funnet for paliperidone i Norges regulatorisk datasett (`taiwan_regulatory.total_licenses = 0`; markedsstatus: Ikke markedsført / Ikke markedsført).
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000746 | Invega | Ikke oppgitt | Schizofreni; psykotiske lidelser |
 
----
-
-## Sikkerhetshensyn
-
-Vær vennlig å se pakkevedlegget for sikkerhetsinformasjon. En **blokkeringsdatakløft (DG001)** eksisterer: TFDA-ekvivalente etikettadvarsler og kontraindikasjoner for paliperidone kunne ikke hentes ved denne avslutningen, noe som forhindrer denne kandidaten fra å gå inn i S1-sikkerhet-før-vurderingsfasen. Ingen legemiddel-legemiddel-interaksjonsdata ble funnet i gjeldende spørring (`ddi.query_status: not_found`).
+Tillatelsen har status kansellert, og det finnes ingen gyldige tillatelser.
 
 ---
 
-## Konklusjon og neste trinn
+## Sikkerhetsvurderinger
 
-**Avgjørelse: Avvent**
+Pakningsvedlegg med advarsler og kontraindikasjoner mangler i dataene, så det må innhentes før sikkerhetsvurdering.
+
+**Kontraindikasjoner/risikotilstander fra kunnskapsgrafen (ikke fra preparatomtale):** Tilstander knyttet til paliperidon i TxGNN-kunnskapsgrafen inkluderer:
+- Hjerte og kar: langt QT-syndrom (inkludert familiært), torsades de pointes, ortostatisk hypotensjon, POTS, hypotensive tilstander, hjerteinfarkt og koronar trombose
+- Nevrologi: epilepsi, basalgangliesykdom, fokal håndstonia, blefarospasme, multisystematrofi
+- Stoffskifte og endokrinologi: hyperglykemi, diabetes mellitus, diabetisk ketoacidose, hyperlipidemi (inkludert familiær), fedme (inkludert monogen), kaliummangel
+- Blod: nøytropeni, agranulocytose, hemoglobinopati
+- Andre: Crohns sykdom og inflammatorisk tarmsykdom, brystkreft hos kvinner, nedsatt nyrefunksjon
+
+**Legemiddelinteraksjoner:** Totalt 100 interaksjoner er registrert. De 20 første som er vist i dataene, omfatter:
+- **Alvorlige (Major):** bupropion og morfin
+- **Moderate:** antidiabetika (acarbose, alogliptin, metformin, pioglitazon, kanagliflozin, klorpropamid, albiglutid), antikolinerge midler (atropin, hyoscyamin, glykopyrronium), famotidin, epinefrin, hydrokortison, amfotericin B, loperamid, lorkaserin og bisakodyl
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Selv om behandlingsresistent schizofreni-indikasjonen har sammenhengende mekanistisk begrunnelse og moderat klinisk bevis (L2, 4 studier, 2 gjennomganger) som ellers ville støtte en "Fortsett med sikkerhetstiltak"-oppfordring, forhindrer medikamentnivå-sikkerhetsdatakløften (DG001, Blokkering) denne kandidaten fra ennå å kunne gå inn i S1-sikkerhet-før-vurderingen, og medikamentet er ikke for tiden markedsført i Norge (0 godkjennelser). De ni andre TxGNN-flaggede indikasjoner (retinal dystrofi, myopi-undertyper, hydranensefall, glykosyleringsforstyrrelse, CMT type 1G, glysinencefalopati) bør utelukkes fra videre evaluering — de har ingen klinisk, litteratur- eller mekanistisk støtte og ser ut til å være kunnskapsgraf-artefakter.
+- Toppredikasjonene er rene modellprediksjoner (L5) uten kliniske studier, litteratur eller plausibel mekanisme. Behandlingsresistent schizofreni har noe støtte (L4), men er en utvidelse av den eksisterende indikasjonen med kun indirekte fase 4-evidens, og klozapin er standard behandling.
+- Den eneste norske tillatelsen er kansellert, og kritiske sikkerhetsdata mangler.
 
-**For å fortsette er følgende nødvendig:**
-- Hent TFDA-ekvivalente etikettadvarsler/kontraindikasjoner (DG001) for å oppheve S1-sikkerhetskjønn
-- Hent strukturert MOA-data fra DrugBank (DG002) for å formelt støtte den mekanistiske begrunnelsen
-- Bekreft Norges markedsføring/importvei-status, siden medikamentet for tiden har null lokale godkjennelser
-- Hvis DG001/DG002 blir løst gunstig, re-score behandlingsresistent schizofreni for "Fortsett med sikkerhetstiltak" og definer spesifikke overvåkingssikkerhetstiltak (f.eks. metabolisk/EPS-overvåking i henhold til antipsykotikum-klasse-normer)
-
+**For å gå videre kreves følgende:**
+- Hente pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel)
+- Hente data om virkningsmekanisme fra DrugBank
+- For behandlingsresistent schizofreni: avklare om paliperidon er en studert arm i NCT07047651 og NCT06060886, og vurdere direkte komparative studier mot klozapin
+- Avklare hvorfor markedsføringstillatelsen er kansellert og om preparater med paliperidon er tilgjengelige i Norge
+- Vurdere om de høyest rangerte prediksjonene (netthinnesykdom, nærsynthet m.fl.) skal forkastes som grafartefakter, med mindre ny mekanistisk støtte fremkommer
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

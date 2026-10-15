@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Bevacizumab
-parent: Høy evidens (L1-L2)
-nav_order: 50
-evidence_level: L1
+parent: Kun modellprediksjon (L5)
+nav_order: 57
+evidence_level: L5
 indication_count: 10
 ---
 
 # Bevacizumab
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,112 +29,130 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Bevacizumab: Fra anti-VEGF-onkologiterapi til Cystisk neoplasma (Eggstokk-/peritoneal kreft)
+# Bevacizumab: Fra kolorektal kreft m.fl. til cystisk neoplasme
 
-## Sammendrag av ett setning
+## Oppsummering i én setning
 
-Bevacizumab er et anti-VEGF-A monoclonalt antistoff som brukes på tvers av flere solide tumorer i kombinasjon med cytotoksisk kjemoterapi; denne Evidence Pack'en registrerer ikke noen spesifikk opprinnelig indikasjon for Norge. Blant 10 TxGNN-forutsagte nye indikasjoner, **Cystisk neoplasma** — beviset antyder at dette korresponderer mest nøyaktig til **lavgradig serøs eggstokkkreft og primær peritonealkreft** — er den eneste kandidaten som når aksjonabel bevisstyrke, støttet av **8 kliniske studier (inkludert en fase 3 RCT med n=1052)** og **20 publikasjoner**, inkludert en dedikert systematisk gjennomgang.
+Bevacizumab er et monoklonalt antistoff mot VEGF-A som opprinnelig brukes til behandling av flere kreftformer (blant annet tykktarms- og endetarmskreft, brystkreft, eggstokkreft, lungekreft og nyrekreft) og til våt aldersrelatert makuladegenerasjon.
+TxGNN-modellen rangerer **epiglottis-neoplasme** øverst, men det beste evidensgrunnlaget finnes for **cystisk neoplasme** (i praksis hovedsakelig eggstokksvulster), med **5 kliniske studier** og **20 publikasjoner** i datagrunnlaget. Evidensen er i stor grad ekstrapolert fra godkjente indikasjoner og er ikke direkte spesifikk for denne diagnosegruppen.
 
-> Merk: Bevacizumab returnerte 10 TxGNN-forutsagte indikasjoner i denne pakken. De øvrige 9 (epiglottis neoplasma, velvillig tungeneplasma, testikular tumor, osv.) er vurdert som L3–L5 med svak eller fraværende bevis og er ikke fokus for denne rapporten; de er oppsummert kort på slutten.
+*Merk: Den øverste rangerte prediksjonen (epiglottis-neoplasme) har ingen studier eller litteratur. Rapporten fremhever derfor også prediksjonen med sterkest evidens.*
 
 ---
 
-## Hurtig oversikt
+## Hurtigoversikt
 
-| Emne | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Ikke tilgjengelig (`original_indications` tom; ingen norske lisenser på fil) |
-| Forutsagt ny indikasjon | Cystisk neoplasma (rangering 7/10 etter TxGNN-poeng; støttebevis peker til lavgradig serøs eggstokk-/peritonealkreft) |
-| TxGNN-prediksjonspoeng | 99.89% (rangering 1565 totalt) |
-| Bevisnivå | L1 |
-| Markeds status i Norge | Ikke markedsført (Ikke markedsført) |
-| Antall autorisasjoner | 0 |
-| Anbefalt avgjørelse | Gå videre med sikkerhetstiltak |
+| Opprinnelig indikasjon | Kolorektal neoplasme, brystkreft, eggstokkreft, kreft i eggleder, peritoneal kreft, ikke-småcellet lungekreft, nyrecellekarsinom, livmorhalskreft (første lisens). Våt makuladegenerasjon (Lytenava) |
+| Predikert ny indikasjon (rangert først) | Epiglottis-neoplasme (score 99,90 %, evidensnivå L5) |
+| Predikert indikasjon med sterkest evidens | Cystisk neoplasme (score 99,89 %, evidensnivå L2) |
+| Evidensnivå | L5 for rangert nr. 1; L2 for cystisk neoplasme |
+| Status i Norge | Kun avregistrerte (cancelled) |
+| Antall godkjenninger | 10 (alle avregistrert; ingen gyldige) |
+| Anbefalt beslutning | Hold (rangert nr. 1); cystisk neoplasme: forskningsspørsmål, Proceed with Guardrails ved videre utredning |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljert virkemekanisme-data ikke tilgjengelig i denne pakkens `original_moa`-felt. Imidlertid beskriver evidence pack'ens egen repurposing-begrunnelses tekst konsekvent bevacizumab som et **anti-VEGF-A monoclonalt antistoff** som blokkerer tumorangiogenese — dette er bekreftet på tvers av nesten alle 10 forutsagte-indikasjon-oppføringer og er konsistent med dens etablerte farmakologi.
+Bevacizumab nøytraliserer VEGF-A og hemmer dermed tumorangiogenese. Detaljerte mekanismedata (MOA) er ikke tilgjengelige i datagrunnlaget, men virkningsmekanismen er velkjent: svulster som er avhengige av nydannelse av blodkar, kan i prinsippet respondere på VEGF-blokade.
 
-Den opprinnelige indikasjonen kan ikke bekreftes fra dette datasettet (tom `original_indications`, ingen norske lisenser), men de støttende kliniske studie-bevisene for kandidaten "Cystisk neoplasma" er hentet nesten utelukkende fra **eggstokk-, primær peritoneal- og falloppisk rør-kreft**-studier (f.eks. NCT00565851, en fase 3-RCT av carboplatin/paclitaxel ± bevacizumab ved platina-sensitiv residiv eggstokk-, peritoneal- og falloppisk rør-kreft, n=1052). Dette antyder sterkt at TxGNN-etiketten "Cystisk neoplasma" er en unøyaktig ontologi-kartlegging for en cystisk/serøs eggstokk-tumorsubtype snarere enn et helt nytt sykdomsområde.
+For **epiglottis-neoplasme** er mekanismen plausibel fordi hode- og halssvulster ofte er VEGF-avhengige, men det finnes verken studier eller litteratur. Prediksjonen bygger kun på modellen.
 
-Mekanistisk er dette plausibelt: VEGF-drevet angiogenese er godt dokumentert i epitelial eggstokkkreft, og bevacizumab kombinert med platina-basert kjemoterapi er allerede en etablert behandlingsstrategi i praksis for denne tumor-familien (reflektert i systematisk gjennomgang PMID 37754507 om lavgradig serøs eggstokkkreft). Hovedvarslinga er at sykdomsetiketten selv trenger avklarifisering før dette kan behandles som en ren "ny indikasjon" snarere enn en omformulering av etablert bruk.
+For **cystisk neoplasme** er litteraturen konsentrert om cystiske/epiteliale eggstokksvulster, særlig lavgradig serøs eggstokkkreft (LGSOC) og høygradig serøs kreft. Bevacizumab er allerede godkjent for eggstokkkreft, og en VEGF-avhengig gensignatur er beskrevet i mesenkymal eggstokkkreft. En systematisk oversikt tar for seg bevacizumab ved LGSOC. «Cystisk neoplasme» er imidlertid en heterogen kategori, og evidensen er hovedsakelig ekstrapolert fra eggstokkkreft og sjeldne svulster.
 
 ---
 
-## Klinisk studie-bevis
+## Klinisk studieevidens (cystisk neoplasme)
 
-| Studienummer | Fase | Status | Antall deltakere | Viktige funn |
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT00565851](https://clinicaltrials.gov/study/NCT00565851) | Fase 3 | Aktiv, rekrutterer ikke | 1052 | Carboplatin/paclitaxel (eller gemcitabin) ± bevacizumab, fulgt av vedlikehold av bevacizumab og sekundær cytoreduksjon, i platina-sensitiv residiv eggstokk-, primær peritoneal- og falloppisk rør-kreft. Grad A relevans — nøkkel-pivotstudie i stor skala. |
-| [NCT03074513](https://clinicaltrials.gov/study/NCT03074513) | Fase 2 | Aktiv, rekrutterer ikke | 133 | Atezolizumab + bevacizumab i sjeldne solide tumorer, inkludert sjeldne gynekologiske tumorer. Grad A relevans. |
-| [NCT00381797](https://clinicaltrials.gov/study/NCT00381797) | Fase 2 | Fullført | 97 | Bevacizumab + irinotecan i barn med residiv/refraktær gliom, medulloblastom, ependymom. Grad B — relatert biologi, annen populasjon. |
-| [NCT00023959](https://clinicaltrials.gov/study/NCT00023959) | Fase 1 | Fullført | 39 | Generell bevacizumab-sikkerhet i hals- og nakke-kreft med 5-FU/hydroxyurea/RT. Grad C — ikke-spesifikk. |
-| [NCT00101348](https://clinicaltrials.gov/study/NCT00101348) | Fase 1/2 | Fullført | 66 | Erlotinib + cetuximab ± bevacizumab i metastatisk nyre-/tykktarms-/hals- og nakke-/bukspyttkjertel-/NSCLC. Grad C. |
-| [NCT00324987](https://clinicaltrials.gov/study/NCT00324987) | Fase 3 | Avsluttet | 12 | Imatinib ± bevacizumab i metastatisk/uoperabel GIST; avsluttet, lite utvalg. Grad C. |
-| [NCT00492089](https://clinicaltrials.gov/study/NCT00492089) | Fase 2 | Fullført | 11 | Bevacizumab for å kontrollere hjernestrålings-skade. Grad C — unrelatert resultatmål. |
-| [NCT01096381](https://clinicaltrials.gov/study/NCT01096381) | N/A | Avsluttet | 8 | Biomarkører for bevacizumab-indusert hypertensjon; ikke effektivitets-fokusert, avsluttet. Grad C. |
+| [NCT00565851](https://clinicaltrials.gov/study/NCT00565851) | Fase 3 | Aktiv, ikke rekrutterende | 1052 | Karboplatin/paklitaksel (eller gemcitabin) med eller uten bevacizumab ved tilbakevendende platinasensitiv eggstokk-, peritoneal- og eggledercancer. Relevant for eggstokkdelen, men gjelder allerede godkjent indikasjon |
+| [NCT03074513](https://clinicaltrials.gov/study/NCT03074513) | Fase 2 | Aktiv, ikke rekrutterende | 133 | Enarmet studie av atezolizumab + bevacizumab ved sjeldne solide svulster; tegn på aktivitet, men uten randomisert kontroll |
+| [NCT00023959](https://clinicaltrials.gov/study/NCT00023959) | Fase 1 | Fullført | 39 | Sikkerhetsstudie av bevacizumab + fluorouracil/hydroksyurea + strålebehandling ved hode- og halskreft; indirekte |
+| [NCT00101348](https://clinicaltrials.gov/study/NCT00101348) | Fase 1/2 | Fullført | 66 | Erlotinib + cetuximab + bevacizumab ved flere solide svulster; indirekte |
+| [NCT00492089](https://clinicaltrials.gov/study/NCT00492089) | Fase 2 | Fullført | 11 | Bevacizumab mot strålingsskade i hjernen; annen tilstand |
+
+For epiglottis-neoplasme finnes for øyeblikket ingen relevante kliniske studier registrert.
 
 ---
 
-## Litteratur-bevis
+## Litteraturevidens (cystisk neoplasme)
 
-| PMID | År | Type | Journal | Viktige funn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [37754507](https://pubmed.ncbi.nlm.nih.gov/37754507/) | 2023 | Systematisk gjennomgang | Current Oncology | Systematisk gjennomgang av bevacizumab i lavgradig serøs eggstokkkreft; støtter aktivitet i en kjemoterapi-resistent subtype. |
-| [38328890](https://pubmed.ncbi.nlm.nih.gov/38328890/) | 2024 | Kohort | Future Oncology | Retrospektiv kohort (n=51): ORR 54.1%, median PFS ~15 måneder med bevacizumab + kjemoterapi i residiv lavgradig serøs eggstokkkreft. |
-| [24978709](https://pubmed.ncbi.nlm.nih.gov/24978709/) | 2014 | Prospektiv studie | Int J Gynecol Cancer | Bevacizumab viser varig aktivitet i lavgradig serøs eggstokk- og primær peritonealkreft. |
-| [18165643](https://pubmed.ncbi.nlm.nih.gov/18165643/) | 2008 | Fase 2-studie | J Clin Oncol | Bevacizumab + lav-dose metronomisk cyclophosphamid i residiv eggstokkkreft; multisenter konsortium studie. |
-| [18796376](https://pubmed.ncbi.nlm.nih.gov/18796376/) | 2008 | Kohort | Clin Transl Oncol | Oral cyclophosphamid + bevacizumab i tung forbehandlet eggstokkkreft. |
-| [40513287](https://pubmed.ncbi.nlm.nih.gov/40513287/) | 2025 | Tilleggsstudie (Fase 3) | Eur J Cancer | PAOLA-1/ENGOT-ov25 tilleggs-analyse av bevacizumab/olaparib vedlikehold i HRD+ HGSOC. |
-| [32494876](https://pubmed.ncbi.nlm.nih.gov/32494876/) | 2020 | Gjennomgang | Curr Oncol Rep | Første-linje behandling av avansert høygradig serøs eggstokkkreft; diskuterer VEGF-målrettet terapi rolle. |
-| [27498762](https://pubmed.ncbi.nlm.nih.gov/27498762/) | 2016 | Mekanistisk/Biomarkør | Scientific Reports | VEGF-avhengig gen-signatur predikerer prognose i mesenchymal eggstokk-kreft subtype — støtter mekanistisk begrunnelse. |
-| [31989304](https://pubmed.ncbi.nlm.nih.gov/31989304/) | 2020 | Gjennomgang | Curr Oncol Rep | Gjennomgang av behandlings-fremskritt i lavgradig serøs tumorer. |
-| [40644648](https://pubmed.ncbi.nlm.nih.gov/40644648/) | 2025 | Studie (RAMP 201) | J Clin Oncol | Avutometinib ± defactinib i residiv lavgradig serøs eggstokkkreft; kontekstualiserer behandlings-landskapet bevacizumab konkurrerer i. |
+| [37754507](https://pubmed.ncbi.nlm.nih.gov/37754507/) | 2023 | Systematisk oversikt | Current Oncology | Bevacizumab har vist noe aktivitet ved lavgradig serøs eggstokkkreft, som mangler sykdomsspesifikke behandlingsregimer |
+| [38328890](https://pubmed.ncbi.nlm.nih.gov/38328890/) | 2024 | Retrospektiv studie | Future Oncology | 51 pasienter med tilbakevendende LGSOC: objektiv responsrate 54,1 % (komplett 10,4 %, delvis 43,7 %) |
+| [40644648](https://pubmed.ncbi.nlm.nih.gov/40644648/) | 2025 | Klinisk studie | J Clin Oncol | Avutometinib ± defaktinib ved tilbakevendende LGSOC (ikke bevacizumab-spesifikk) |
+| [40700681](https://pubmed.ncbi.nlm.nih.gov/40700681/) | 2025 | Klinisk studie | J Clin Oncol | Alpelisib + olaparib mot kjemoterapi ved platinaresistent høygradig serøs eggstokkkreft |
+| [32494876](https://pubmed.ncbi.nlm.nih.gov/32494876/) | 2020 | Oversikt | Curr Oncol Rep | Førstelinjebehandling av avansert høygradig serøs eggstokkkreft, inkludert VEGF-hemming |
+| [40513287](https://pubmed.ncbi.nlm.nih.gov/40513287/) | 2025 | Tilleggsstudie til RCT | Eur J Cancer | Prediktiv verdi av BRCA1/RAD51C-metylering i PAOLA-1 (bevacizumab/olaparib-vedlikehold) |
+| [27498762](https://pubmed.ncbi.nlm.nih.gov/27498762/) | 2016 | Translasjonell/kohort | Scientific Reports | VEGF-avhengig gensignatur i mesenkymal eggstokkkreft som predikerer prognose |
+| [37657955](https://pubmed.ncbi.nlm.nih.gov/37657955/) | 2023 | Klinisk studie | Clin Colorectal Cancer | Mitomycin-C, metronomisk kapecitabin og bevacizumab ved pseudomyxoma peritonei |
+| [18796376](https://pubmed.ncbi.nlm.nih.gov/18796376/) | 2008 | Erfaringsserie | Clin Transl Oncol | Oral syklofosfamid + bevacizumab ved sterkt forbehandlet eggstokkreft |
+| [23767831](https://pubmed.ncbi.nlm.nih.gov/23767831/) | 2013 | Oversikt | Gynecol Endocrinol | Antiangiogene midler ved avansert endometriekreft; bevacizumab viste lovende aktivitet i fase II |
+
+For de øvrige prediksjonene er litteraturen svært begrenset. For benign neoplasme i tunge og munnbunn finnes kun indirekte og prekliniske arbeider (blant annet PMID 39927612, 18691881, 18577994). Ingen av dem viser effekt ved den aktuelle benigne diagnosen.
 
 ---
 
-## Informasjon om norsk marked
+## Markedsinformasjon for Norge
 
-Bevacizumab er for øyeblikket **ikke markedsført i Norge** under dette datasettet — `taiwan_regulatory.licenses` er tom og `total_licenses = 0`. Ingen autorisasjons-poster, produktnavn, eller godkjent indikasjon-tekst er tilgjengelig for å fylle en lisenserings-tabell.
+Alle 10 godkjenninger er avregistrert (cancelled). Ingen er gyldige i dag.
+
+| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000582 | Avastin | – | Ikke-småcellet lungekreft, brystkreft, eggstokkkreft, kolorektal kreft, nyrecellekarsinom, kreft i eggleder, peritoneal kreft, livmorhalskreft |
+| EMEA/H/C/004728 | Mvasi | – | Nyrecellekarsinom, peritoneal kreft, eggstokkkreft, brystkreft, ikke-småcellet lungekreft, kreft i eggleder |
+| EMEA/H/C/004697 | Zirabev | – | Kolorektal kreft, brystkreft, ikke-småcellet lungekreft, nyrecellekarsinom, livmorhalskreft |
+| EMEA/H/C/005534 | Vegzelma | – | Kolorektal kreft, brystkreft, eggstokkkreft, kreft i eggleder, peritoneal kreft, ikke-småcellet lungekreft, nyrecellekarsinom, livmorhalskreft |
+| EMEA/H/C/005723 | Lytenava | – | Våt makuladegenerasjon |
+
+Ytterligere godkjenninger: Alymsys, Avzivi, Abevmy, Oyavas og Aybintio (alle biotilsvarende, avregistrert).
 
 ---
 
 ## Cytotoksisitet
 
-Bevacizumab er et antineoplastisk middel (anti-VEGF-A monoclonalt antistoff brukt på tvers av flere onkologi kombinasjons-regimer dokumentert gjennom hele evidence pack'en), så denne seksjonen gjelder.
-
-| Emne | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Klassifikasjon | Målrettet terapi (anti-angiogenese monoclonalt antistoff) — ikke et konvensjonelt cytotoksisk middel |
-| Risiko for myelosuppresjon | Lav som monoterapi; myelosuppresjon observert i de støttende studiene tilskrives primært kombinasjons-cytotoksiske partnere (carboplatin, paclitaxel, cyclophosphamid) |
-| Klassifikasjon av emetogenisitet | Lav (monoklonale antistoffer er generelt minimalt emetogene) |
-| Overvåkings-elementer | Blodtrykk, urinprotein, sårheling, tegn på blødning/tromboemboli; fullblodtelling og nyrefunksjon ved co-administrering med cytotoksisk kjemoterapi |
-| Håndteringsvern | Standard biolog infusjons-forholdsregler; regelverk for håndtering av cytotoksisk medisin gjelder for kombinasjons kjemoterapipartnere, ikke for bevacizumab selv |
+| Cytotoksisitetsklassifisering | Målrettet behandling (monoklonalt antistoff mot VEGF-A, antiangiogen); ikke et konvensjonelt cytotoksisk middel |
+| Myelosuppresjonsrisiko | Lav som monoterapi; økt risiko for nøytropeni i kombinasjon med cytotoksisk kjemoterapi |
+| Emetogenisitet | Lav |
+| Overvåkingspunkter | Blodtrykk, urinprotein, blodbilde, tegn på blødning, sårtilheling og tromboemboliske hendelser |
+| Håndteringsbeskyttelse | Se preparatomtalen for krav til tilberedning og håndtering |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Denne Evidence Pack'ens `key_warnings`, `contraindications`, og DDI-felt er alle markert som datamangler (DG001, Blocking severity), så ingen medisinspesifikke advarsler kan rapporteres her.
+**Legemiddelinteraksjoner** (22 interaksjoner funnet, hvorav 20 er listet i datagrunnlaget):
+
+- **Alvorlige (Major):** deferipron, samarium (153Sm) lexidronam, panitumumab, sunitinib, talidomid
+- **Moderate:** blant annet bisfosfonater (alendronsyre, risedronsyre, etidronsyre, ibandronat, pamidronsyre, tiludronsyre), filgrastim, pegfilgrastim, sargramostim, palifermin, strontium-89, radium-223, romosozumab, idelalisib og natriumfosfat (P32)
+
+**Andre sikkerhetssignaler fra litteraturen:** Oral slimhinnetoksisitet (blant annet geografisk tunge) er beskrevet ved bevacizumab (PMID 39927612).
+
+Advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelige i datagrunnlaget. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Avgjørelse: Gå videre med sikkerhetstiltak**
+**Beslutning: Hold (for rangert nr. 1, epiglottis-neoplasme). Cystisk neoplasme: forskningsspørsmål som kan gå videre med forbehold (Proceed with Guardrails).**
 
 **Begrunnelse:**
-Cystisk neoplasma er den eneste av 10 TxGNN-forutsagte indikasjoner som når L1-bevis, forankret av en fase 3-RCT (n=1052) og en dedikert systematisk gjennomgang, konsistent med bevacizumabs etablerte rolle i praksis ved eggstokk-/peritonealkreft. Imidlertid er sykdomsetiketten selv ambigus, stoffet er ikke for øyeblikket markedsført i Norge, og kjerne sikkerhet/virkemekanisme-data mangler (blocking datamangler).
+- Den høyest rangerte prediksjonen har bare modellstøtte (L5), uten studier eller litteratur, og kan ikke anbefales videre nå.
+- For cystisk neoplasme (L2) støtter en fase 3-studie, fase 2-data og en systematisk oversikt bruk ved eggstokksvulster, men dette overlapper i stor grad med allerede godkjent indikasjon, og kategorien er heterogen. Ingen studier viser direkte effekt på «cystisk neoplasme» som egen diagnose. Alle norske godkjenninger er dessuten avregistrert.
 
 **For å gå videre kreves følgende:**
-- Løs sykdomsontologi-kartlegging — bekreft at "Cystisk neoplasma" korresponderer til lavgradig serøs eggstokk-/primær peritonealkreft før denne behandles som en distinkt ny indikasjon
-- Lukk DG001 (pakningsvedleggets advarsler/kontraindikasjoner, Blocking) og DG002 (bekreftet virkemekanisme/DrugBank-kategorier, High) før noen S1 sikkerhet-gjennomgang
-- Vurder en norsk markedsinngangs-/registrerings-vei, siden ingen lokal autorisasjon eksisterer for øyeblikket
-- Innhent DDI-data (for øyeblikket `not_found`)
-- De gjenstående 9 forutsagte indikasjoner (L3–L5, Hold) krever ytterligere studie/litteratur-bevis før re-evaluering og er ikke handlingsbare for øyeblikket
-
+- Preparatomtalens advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Detaljerte mekanismedata (MOA), for eksempel fra DrugBank
+- Presisering av hvilke undertyper av cystisk neoplasme som er aktuelle, og hvordan de skiller seg fra godkjent eggstokkindikasjon
+- Avklaring av markedsstatus i Norge, siden alle godkjenninger er avregistrert
+- Vurdering av administrasjonsvei og likhet med opprinnelige indikasjoner
+- Direkte kliniske data (helst randomiserte studier) for den valgte undergruppen
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

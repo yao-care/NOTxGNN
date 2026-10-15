@@ -2,7 +2,7 @@
 layout: default
 title: Ceritinib
 parent: Kun modellprediksjon (L5)
-nav_order: 81
+nav_order: 91
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,91 +29,101 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Ceritinib: Fra ALK-positiv NSCLC til gingival fibromatose
+# Ceritinib: Fra ikke-småcellet lungekreft til gingival fibromatose
 
-## En-setnings-sammenfatting
+## Oppsummering i én setning
 
-> Ceritinib er en andregrenerasjons ALK/ROS1 tyrosinkinasehemmer opprinnelig utviklet for ALK-positiv ikke-småcellet lungekreft (NSCLC).
-> TxGNN-modellen forutsier at det kan være effektivt for **gingival fibromatose**,
-> men denne kandidaten har for øyeblikket **0 kliniske forsøk** og **0 publikasjoner** som støtter det — det er en uverifisert modellhypotese, og modellens egen begrunnelse flagger den mekanistiske forbindelsen som svak.
+Ceritinib er en ALK-hemmer (tyrosinkinasehemmer) som opprinnelig brukes til behandling av ikke-småcellet lungekreft (NSCLC).
+TxGNN-modellen forutsier at legemidlet kan ha effekt ved **gingival fibromatose**,
+men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne prediksjonen. Den er rent modellbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|------|--------|
-| Opprinnelig indikasjon | ALK-positiv ikke-småcellet lungekreft (NSCLC) — utledet fra litteraturkontekst; ikke registrert som strukturerte data i dette bevisematerialet |
-| Forutsagt ny indikasjon | Gingival fibromatose |
-| TxGNN-prediksjonspoengsum | 99.86% |
-| Bevisnivå | L5 (kun modellprediksjon, ingen støttende studier) |
-| Markedsstatus Norge | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | **Avvent** |
+|------|------|
+| Opprinnelig indikasjon | Ikke-småcellet lungekreft (Carcinoma, Non-Small-Cell Lung) |
+| Predikert ny indikasjon | Gingival fibromatose |
+| TxGNN-prediksjonsscore | 99,86 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (ingen gyldig godkjenning) |
+| Antall godkjenninger | 1 (avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige for ceritinib i dette bevisematerialet (flagget som et høyt-alvor datakløft, DG002). Basert på modellens egen genererte begrunnelse, er ceritinib kjent som en ALK/ROS1 tyrosinkinasehemmer hvis effektivitet i ALK-positiv ikke-småcellet lungekreft er godt etablert.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Ut fra kjent informasjon er ceritinib en hemmer av ALK, IGF-1R og ROS1. Effekten er vist ved ALK-positiv ikke-småcellet lungekreft, blant annet i fase 3-studien ASCEND-4 (PMID 28126333).
 
-Gingival fibromatose er imidlertid en godartad fibrøs overvekstbetingelse drevet av SOS1/REST-mutasjoner eller ciklosporin-assosiert fibroblastproliferasjon. Den har ingen etablert forbindelse til ALK-signalering. Modellens egen begrunnelse slår eksplisitt fast at den høye poengsummen sannsynligvis gjenspeiler semantisk nærhet i innebygningsrommet (delt «tumor/proliferasjons»-språk) snarere enn en genuine delt biologisk mekanisme. Ingen klinisk forsøks- eller litteraturbevis eksisterer for dette spesifikke paret, så denne prediksjonen bør behandles som en uverifisert hypotese snarere enn et handlingsrettet omdisponeringsignal.
+Det er ikke påvist noen mekanistisk sammenheng mellom disse målene og gingival fibromatose, som er en arvelig eller legemiddelindusert fibrotisk overvekst av tannkjøttet. Den høye modellscoren (99,86 %) er derfor ikke støttet av kliniske eller litteraturbaserte data. Prediksjonen bør regnes som uvalidert.
 
-**En merknad om det bredere kandidatsettet:** blant de 10 TxGNN-forutsagte indikasjonene som er gitt for ceritinib, bærer en (rangering 5, «lungegodartet neoplasme») uvanlig sterk bevis — 1 fullført fase 3 RCT (ASCEND-4) og 20 publikasjoner. Ved inspeksjon er imidlertid alle disse bevisene for ALK-omordnet **malignt** NSCLC, som er ceritinibs *allerede-godkjente* indikasjon, ikke en godartet neoplasme. Dette indikerer en sykdomsetikett-kartleggingsfeil i den underliggende kunnskapsgrafen snarere enn et genuine nytt-indikasjons-signal, og bør rapporteres tilbake til pipeline/datateamet som et datakvalitets-problem snarere enn fremmet som en omdisponeringskandidat.
-
----
-
-## Klinisk forsøksbevis
-
-For øyeblikket er det ingen relaterte kliniske forsøk registrert.
+Av de ti predikerte indikasjonene i dataene er det kun to (lungerelaterte svulster) som har litteratur, og denne gjelder i hovedsak ALK-positiv NSCLC, altså den opprinnelige indikasjonen, og ikke de predikerte tilstandene.
 
 ---
 
-## Litteraturbevis
+## Klinisk studieevidens
 
-For øyeblikket er det ingen relatert litteratur tilgjengelig.
+Foreløpig er det ingen relaterte kliniske studier registrert for gingival fibromatose.
 
 ---
 
-## Markedsinformasjon Norge
+## Litteraturevidens
 
-Ceritinib har for øyeblikket ingen markedsføringsautoralisasjon i Norge (`market_status`: Not Marketed, 0 lisenser på fil). Ingen produkt-/doseringsform-data er tilgjengelig for dette bevisematerialet.
+Foreløpig er det ingen relevant litteratur tilgjengelig for gingival fibromatose.
+
+---
+
+## Markedsinformasjon for Norge
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/003819 | Zykadia (Novartis Europharm Limited) | Ikke oppgitt | Ikke-småcellet lungekreft (status: avregistrert) |
 
 ---
 
 ## Cytotoksisitet
 
-Ceritinib er en antineoplastisk agens (ALK/ROS1 tyrosinkinasehemmer brukt i onkologi). DrugBank-nivå-toksisitetsdata ble ikke levert i dette bevisematerialet; oppføringene nedenfor er avledet fra litteratur knyttet til ceritinib andre steder i denne pakken, sitert for transparens.
-
 | Punkt | Innhold |
-|------|--------|
-| Cytotoksisitetsklassifisering | Målrettet terapi (små-molekyl ALK/ROS1 tyrosinkinasehemmer) |
-| Myelosuppresjonrisiko | Lav — sikkerhetslitteratur om ALK-TKIer (PMID [37597303](https://pubmed.ncbi.nlm.nih.gov/37597303/), [34864500](https://pubmed.ncbi.nlm.nih.gov/34864500/)) understreker ikke-hematologiske toksisiteter (GI, hepatisk, kardial) snarere enn myelosuppresjon |
-| Emetogenisitetsklassifisering | Moderat til høy — GI-toksisitet (kvalme, oppkastning, diarré) er en vel-dokumentert, doseavhengig toksisitet av ceritinib (PMID [35344649](https://pubmed.ncbi.nlm.nih.gov/35344649/), ASCEND-8) |
-| Overvåkingselementer | Leverenzymer; ECG/QTc-intervall (PMID [29413968](https://pubmed.ncbi.nlm.nih.gov/29413968/), [26008987](https://pubmed.ncbi.nlm.nih.gov/26008987/)); CBC; GI-symptomer; tromboembolismerisiko (PMID [39349372](https://pubmed.ncbi.nlm.nih.gov/39349372/)) |
-| Sikker håndtering | Oral små-molekyl antineoplastisk agens — håndter i henhold til institusjonelle protokoller for håndtering av farlige/antineoplastiske medikamenter; ingen DrugBank-spesifikke håndteringsdata er tilgjengelig i dette bevisematerialet |
+|------|------|
+| Klassifisering | Målrettet terapi (ALK/ROS1/IGF-1R-tyrosinkinasehemmer) |
+| Risiko for myelosuppresjon | Se pakningsvedlegg for advarsler og forholdsregler |
+| Emetogent potensial | Se pakningsvedlegg for advarsler og forholdsregler |
+| Overvåkingspunkter | Se pakningsvedlegg for advarsler og forholdsregler |
+| Håndteringsvern | Se pakningsvedlegg for advarsler og forholdsregler |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+Data om advarsler og kontraindikasjoner fra pakningsvedlegget er ikke tilgjengelige. Se pakningsvedlegget for sikkerhetsinformasjon.
+
+- **Legemiddelinteraksjoner**: Det er registrert 100 interaksjoner i databasen. Blant de første 20 som ble gjennomgått er to klassifisert som **alvorlige (Major)**:
+  - Triamcinolon
+  - Budesonid
+
+  De øvrige er klassifisert som moderate, blant annet:
+  - Syrehemmere: famotidin, ranitidin, rabeprazol, omeprazol
+  - Kortikosteroider: hydrokortison, deksametason, betametason
+  - Antidiabetika: akarbose, alogliptin, metformin, pioglitazon, kanagliflozin, albiglutid
+  - Andre: loperamid, aprepitant, bisakodyl
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Alle 10 TxGNN-forutsagte indikasjonene for ceritinib i dette bevisematerialet har en «Avvent»-anbefaling. Topprangert-kandidaten (gingival fibromatose) har null støttende klinisk eller litteraturbevis (L5) og en erkjent usannsynlig mekanistisk forbindelse. Kandidaten med det sterkeste beviset i settet (lungegodartet neoplasme, L1) er faktisk en sykdomsetikett-mismatch som peker tilbake til ceritinibs eksisterende godkjente indikasjon (ALK+ NSCLC), ikke en genuine ny indikasjon.
+Prediksjonen er basert utelukkende på modellscore (evidensnivå L5), uten kliniske studier, litteratur eller plausibel mekanistisk kobling til gingival fibromatose. I tillegg har ceritinib ingen gyldig godkjenning i Norge i dag.
 
-**For å fortsette er følgende nødvendig:**
-- TFDA/regulatorisk-klasse pakningsvedlegg advarsler og kontraindikasjoner (for øyeblikket et blokkerende datakløft, DG001)
-- En bekreftet virkningsmekanisme-post fra DrugBank (for øyeblikket et høyt-alvor datakløft, DG002)
-- Rettelse av sykdomsetikett-kartleggingen i TxGNN-pipelinen for «lungegodartet neoplasme» og «lunge-kjønnscelle-tumor»-kandidater, som dokumenterer ceritinibs eksisterende indikasjon snarere enn en ny
-- Hvis gingival fibromatose skal forfølges videre, dediserte prekliniske/mekanistiske studier som etablerer biologisk plausibilitet, siden ingen for øyeblikket eksisterer
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank, og en vurdering av om ALK/IGF-1R/ROS1-hemming har biologisk relevans for fibrotisk overvekst av tannkjøtt
+- Pakningsvedlegg med advarsler og kontraindikasjoner fra regulatoriske kilder (blokkerende datamangel for sikkerhetsscreening)
+- Prekliniske data (f.eks. cellemodeller for fibroblaster) som kan støtte hypotesen
+- Avklaring av regulatorisk status, siden den eneste norske/europeiske godkjenningen er avregistrert
+- Vurdering av alternative prediksjoner: de øvrige topprangerte forslagene (bl.a. lungenære svulster) har også kun evidensnivå L4–L5 og bør vurderes separat
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

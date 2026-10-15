@@ -2,7 +2,7 @@
 layout: default
 title: Baricitinib
 parent: Kun modellprediksjon (L5)
-nav_order: 46
+nav_order: 52
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,63 +29,86 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Baricitinib: Fra uspesifisert original indikasjon til Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
+# Baricitinib: Fra revmatoid artritt til kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom
 
-## Sammendrag med én setning
+## Oppsummering i én setning
 
-Baricitinib sin opprinnelige godkjente indikasjon og virkningsmekanisme er ikke tilgjengelig i den nåværende bevisskripten (begge flagget som datamangler). TxGNN forutsier potensiell effektivitet for **Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome** med en svært høy poengsum (99.94%), men dette støttes av **0 kliniske forsøk** og **0 publikasjoner**, og modellens egen mekanistiske rasjonale flagget resultatet som en sannsynlig falsk positiv.
+Baricitinib er et legemiddel som opprinnelig brukes til behandling av revmatoid artritt.
+TxGNN-modellen forutsier at det kan være effektivt mot **kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom**, men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** som støtter denne retningen. Prediksjonen bygger kun på modellens skår.
 
-## Rask oversikt
+---
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Ikke tilgjengelig (indikasjon/MOA-data på legemiddelnivå ikke gitt; se DG002) |
-| Forutsagt ny indikasjon | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
-| TxGNN prediksjonspoengsum | 99.94% |
-| Bevisnivå | L5 |
-| Norges markedsstatus | Ikke markedsført |
-| Antall autorisasjoner | 0 |
+## Hurtigoversikt
+
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Revmatoid artritt |
+| Predikert ny indikasjon | Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom |
+| TxGNN-prediksjonsskår | 99,94 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun tilbakekalte/avsluttede godkjenninger (kansellert) |
+| Antall godkjenninger | 1 |
 | Anbefalt beslutning | Hold |
 
-## Hvorfor er denne forutsigelsen rimelig?
+---
 
-For tiden er detaljert virkningsmekanisme-data for baricitinib ikke tilgjengelig på legemiddelnivå (datamangler, DG002). Imidlertid identifiserer bevisskriptets egen reposisjoneringsrasjonale baricitinib som en JAK1/2-hemmer som virker på inflammatoriske cytokinsignaliseringveier (f.eks. IL-6, IFN).
+## Hvorfor er denne prediksjonen rimelig (eller ikke)?
 
-Den øverste forutsatte indikasjon — colobomatous microphthalmia-rhizomelic dysplasia syndrome — er et medfødt utviklingssyndrom (okular coloboma/microphthalmia kombinert med proksimal lemforkorting), forårsaket av skjelettale/kranio-ansiktale utviklingsgendefekter snarere enn inflammasjon eller cytokindysregulering. Det er ingen kjent biologisk forbindelse mellom JAK-STAT-signalisering og denne embryonale utviklingsveien. Bevisskriptet selv konkluderer at dette svært sannsynlig er en falsk-positiv assosiasjon som oppstår fra fenotype/gen-nodenærhet i TxGNN-kunnskapsgrafen, snarere enn ekte farmakologisk plausibilitet.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Baricitinib er generelt kjent som en JAK1/JAK2-hemmer, og effekten ved revmatoid artritt skyldes dempet immunsignalering via JAK-STAT-banen.
 
-Den andreplass-rangerte forutsigelsen, brachydactyly-syndactyly syndrom (poengsum 99.94%), viser samme mønster: en strukturell lemuviklingsforstyrrelse (forbundet med HOX/BMP-GDF-veimutasjoner) uten mekanistisk forhold til JAK-hemming. Begge toppforutsetningene blir derfor vurdert som lavkonfidenssignaler fra grafartifakt snarere enn troverdige reposisjonskandidater.
+Den predikerte sykdommen er et ekstremt sjeldent utviklingssyndrom. Det foreligger ingen opplysninger i dataene som tilsier at JAK-STAT-signalering spiller en rolle i sykdommens patogenese. Det kan derfor ikke etableres noen mekanistisk kobling mellom den opprinnelige og den nye indikasjonen.
 
-## Bevis fra kliniske forsøk
+Den svært høye skåren (0,9994) er en ren modellbasert prediksjon uten støtte i kliniske studier eller litteratur. Den bør betraktes som et hypotesegenererende signal, ikke som bevis for effekt.
 
-For tiden er det ingen relaterte kliniske forsøk registrert
+---
 
-## Bevis fra litteratur
+## Klinisk studieevidens
 
-For tiden er det ingen relatert litteratur tilgjengelig
+Det er for øyeblikket ingen relaterte kliniske studier registrert.
 
-## Norges markedsinformasjon
+---
 
-Baricitinib er for tiden **ikke markedsført** i Norge under denne bevisskripten, med **0 autorisasjoner** på arkivet. Ingen lisens-/produktinformasjon er tilgjengelig for tabulering.
+## Litteraturevidens
 
-## Sikkerhetshensyn
+Det er for øyeblikket ingen relatert litteratur tilgjengelig.
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+---
 
-*Merknad: TFDA-etikettvarsler/kontraindikasjoner er flagget som en blokkeringsmangler (DG001) — dette må løses før noen S1 sikkerhetsvurdering kan fortsette.*
+## Informasjon om det norske markedet
 
-## Konklusjon og neste trinn
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004085 | Olumiant | – | Revmatoid artritt |
+
+Merk: Denne godkjenningen har status kansellert, og det finnes ingen gyldige godkjenninger i dataene.
+
+---
+
+## Sikkerhetsvurderinger
+
+**Legemiddelinteraksjoner**: Det er funnet 100 registrerte interaksjoner (20 vist i de innsamlede dataene). Viktigste funn:
+
+- **Alvorlig (Major)**: kortikosteroider (hydrokortison, triamcinolon, betametason, budesonid, deksametason, prednisolon, prednison, oftalmisk triamcinolon), samt deferipron, ibritumomab tiuxetan, jobenguan (I-131) og tositumomab (I-131).
+- **Moderat**: morfin (inkl. liposomal), acetylsalisylsyre, nitisinon og opium.
+- **Mild (Minor)**: sinkacetat, sinkglukonat og sinksulfat.
+
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
+
+---
+
+## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
-**Rasjonale:**
-Begge topprangerte forutsatte indikasjonene er sjeldne medfødte utviklingssyndrom uten mekanistisk forbindelse til baricitinib sin JAK1/2 inflammatoriske veiaktivitet, uten støttende kliniske forsøk eller litteratur (Bevisnivå L5), og bevisskriptets eget rasjonale flagget dem som sannsynlig falske kunnskapsgrafer-positiver. Kombinert med manglende MOA- og TFDA-sikkerhetsetikett-data, er det ikke grunnlag for å fremme denne kandidaten.
+**Begrunnelse:**
+Prediksjonen støttes kun av modellskår (evidensnivå L5), uten kliniske studier, litteratur eller kjent mekanistisk kobling til en utviklingsforstyrrelse. Den norske godkjenningen er i tillegg kansellert, og sikkerhetsdata fra preparatomtalen mangler.
 
-**For å gå videre, kreves følgende:**
-- Bekreftet opprinnelig indikasjon(er) og virkningsmekanisme for baricitinib (løse DG002)
-- TFDA-godkjente etikettvarsler/kontraindikasjoner (løse DG001, Blokering)
-- Uavhengig mekanistisk plausibilitetsvurdering av begge forutsatte indikasjonene før eventuell ytterligere bevisinnsamling blir igangsatt
-- Hvis plausibilitet ikke kan etableres, nedprioriterier denne kandidatparet til fordel for høyere rangerte, mekanistisk sammenhengende TxGNN-prediksjoner
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Advarsler og kontraindikasjoner fra preparatomtalen
+- Biologisk belegg for at JAK-STAT-signalering er involvert i sykdommen
+- Prekliniske studier eller litteraturgjennomgang som kan støtte hypotesen
+- Avklaring av administrasjonsvei og markedstilgjengelighet
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

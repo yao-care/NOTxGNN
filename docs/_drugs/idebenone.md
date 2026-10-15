@@ -2,7 +2,7 @@
 layout: default
 title: Idebenone
 parent: Kun modellprediksjon (L5)
-nav_order: 174
+nav_order: 206
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,81 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Idebenone: Ingen godkjent indikasjon → Predikert ny indikasjon Hepatic Porphyria (hepatisk porfyri)
+# Idebenon: Fra Lebers hereditære optikusatrofi til hepatisk porfyri
 
-## Oppsummering i én setning
+## Oppsummering
 
-Idebenone er foreløpig uten godkjente indikasjoner på markedet, og er heller ikke markedsført i Norge. Offentlige data viser at det er et syntetisk CoQ10-lignende stoff som primært virker på elektrontransportkjeden i mitokondriene og har antioksidativ effekt. TxGNN-modellen predikerer at det kan være effektivt for **hepatisk porfyri (Hepatic Porphyria)**, men det finnes foreløpig **0 kliniske prøver** og **0 litteraturreferanser** som støtter denne retningen. Bevisnivået er det laveste: **L5** (ren modellpreduksjon).
+Idebenon er en syntetisk, kortkjedet benzokinon-analog av koenzym Q10, og er opprinnelig godkjent for behandling av Lebers hereditære optikusatrofi.
+TxGNN-modellen predikerer at legemidlet kan være effektivt ved **hepatisk porfyri**,
+men for øyeblikket finnes **ingen registrerte kliniske studier** og **ingen publikasjoner** i de samlede dataene som støtter denne retningen.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|------|---------|
-| Opprinnelig indikasjon | Ingen godkjent indikasjon registrert (legemiddel Not marketed) |
-| Predikert ny indikasjon | Hepatic porphyria (hepatisk porfyri) |
-| TxGNN-prediksjonspoengsum | 99.92% |
-| Bevisnivå | L5 |
-| Markedsstatus i Norge | Not marketed |
-| Antall lisenser | 0 |
+|------|------|
+| Opprinnelig indikasjon | Lebers hereditære optikusatrofi |
+| Predikert ny indikasjon | Hepatisk porfyri |
+| TxGNN-prediksjonsscore | 99,92 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun opphørte godkjenninger |
+| Antall godkjenninger | 1 |
 | Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor kan denne prediksjonen være rimelig?
 
-Fordi feltet `original_moa` i DrugBank er merket som en datahull, er denne delen basert på mekanismebeskrivelser levert i modellresonnementteksten: Idebenone er et syntetisk CoQ10 (koenzym Q10)-lignende stoff som hovedsakelig virker antioksidativt og støtter mitokondriens elektrontransportkjede – dets særegne egenskap er at det kan omgå Complex I og transportere elektroner direkte til Complex III. Derfor har det et teoretisk grunnlag i sykdommer der mitokondriens funksjon er svekket.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Ut fra kjent informasjon er idebenon en syntetisk analog av koenzym Q10 som fungerer som antioksidant og elektronbærer i mitokondriets respirasjonskjede. Effekten ved Lebers hereditære optikusatrofi, en mitokondriell sykdom, har vært grunnlaget for den opprinnelige godkjenningen.
 
-Imidlertid er patofysiologien ved hepatisk porfyri primært knyttet til enzymatiske defekter i hemebiosynteseveien, som fører til akkumulering av porfyrinprekursorer i lever eller røde blodceller. Det er ingen kjent direkte sammenheng mellom dette og mitokondriens oksidativ fosforylering. Med andre ord er TxGNN-skåren på 99.92% sannsynligvis et uttrykk for indirekte assosiasjoner i kunnskapsgrafen (for eksempel at begge er knyttet til «lever»-noden), snarere enn konkret bevis for farmakologisk mekanisme.
+Et mulig, men spekulativt, ledd er oksidativt stress og mitokondriell dysfunksjon ved forstyrrelser i hembiosyntesen. De innsamlede dataene gir ingen støtte for denne koblingen. Den høye scoren er en ren grafbasert prediksjon, og likheten mellom opprinnelig og ny indikasjon er ikke vurdert.
 
-Dessuten inneholder denne Evidence Pack 10 TxGNN-predikerte indikasjoner. Bortsett fra hepatisk porfyri som denne rapporten fokuserer på, har de øvrige 9 (som idiopathic copper-associated cirrhosis, primitive portal vein thrombosis, immune-mediated necrotizing myopathy, osv.) bevisnivå L5. Kun 2 av dem (immune-mediated necrotizing myopathy, antisynthetase syndrome) er merket som S1 «Research Question» fordi de har høyere mekanismelikhet med idebenones kjente mitokondrielle muskelapplikasjon (som Duchenne muskeldystrofi); resten er S0 «Hold».
-
----
-
-## Bevis fra kliniske prøver
-
-Det finnes ingen relaterte kliniske prøveregistreringer for øyeblikket.
+Det bør også nevnes at de øvrige topp-10-prediksjonene (blant annet idiopatisk kobberassosiert cirrose, hepatopulmonalt syndrom, immunmediert nekrotiserende myopati og antisyntetasesyndrom) heller ikke har støtte i kliniske studier eller litteratur. Flere av dem, som primær portvenetrombose og hepatoportal sklerose, har trolig fått høy score på grunn av nærhet i grafen mellom beslektede leversykdommer, ikke på grunn av biologisk rasjonale.
 
 ---
 
-## Litteraturbevis
+## Klinisk studieevidens
 
-Det finnes ingen relatert litteraturdata for øyeblikket.
-
----
-
-## Markedsinformasjon for Norge
-
-Idebenone er foreløpig **ikke markedsført i Norge**. Det finnes ingen gyldige lisenser (total_licenses = 0), så det er ingen godkjente produktinformasjoner å oppgi.
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Se legemiddelpakningsvedlegget for fullstendig sikkerhetsinformasjon.
-
-> Tilleggsmerknad: Denne Evidence Pack merker TFDA-pakningsvedleggets advarsler/kontraindikasjoner (DG001) som **Blocking**-nivå datahull, noe som betyr at før disse dataene finnes, **kan denne kandidaten ikke gå videre til S1-sikkerhetsvurderingsstadium**. Dette er en nøkkelgrunn til at beslutningen er Hold.
+Foreløpig finnes ingen relatert litteratur.
 
 ---
 
-## Konklusjon og påfølgende anbefalinger
+## Informasjon om det norske markedet
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/003834 | Raxone | – | Lebers hereditære optikusatrofi |
+
+Denne godkjenningen (innehaver: Chiesi Farmaceutici S.p.A) er opphørt, og det finnes ingen gyldige godkjenninger.
+
+---
+
+## Sikkerhetsvurderinger
+
+Se preparatomtalen for sikkerhetsinformasjon. Det er ikke funnet registrerte legemiddelinteraksjoner i de innsamlede dataene, og det foreligger ingen kontraindikasjoner fra kunnskapsgrafen.
+
+---
+
+## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
-**Grunn:**
-- Første rangeerte predikerte indikasjon (hepatisk porfyri) har bevisnivå L5, uten noen klinisk prøve eller litteraturstøtte. Mekanismekoblingen vurderes også som svak (ren grafassociasjonspreduksjon).
-- Sikkerhetsdatahull (DMP-pakningsvedleggets advarsler/kontraindikasjoner) er på Blocking-nivå. I henhold til gjeldende regler kan modellen ikke gå videre til S1-sikkerhetsvurdering.
+**Begrunnelse:**
+Prediksjonen bygger kun på en grafbasert modell (evidensnivå L5), uten kliniske studier eller litteratur. Produktet er i tillegg ikke lenger markedsført i Norge, og viktige sikkerhetsdata mangler.
 
-**For å kunne gå videre, må følgende legges til:**
-- TFDA-pakningsvedleggets advarsler og kontraindikasjoner (DG001, Blocking)
-- DrugBank fullstendig virkningsmekanisme (MOA) data for å styrke mekanisme-assosiasjonsanalysen (DG002, High)
-- Samle inn preklinisk eller pasientdokumentasjon for kandidatindikasjoner med høyere mekanismerimeligket (immune-mediated necrotizing myopathy, antisynthetase syndrome) som utgangspunkt for senere verifisering av forskningshypotese
-
+**For å gå videre kreves følgende:**
+- Hente og analysere preparatomtale (advarsler og kontraindikasjoner) fra legemiddelmyndighetenes database
+- Detaljerte data om virkningsmekanisme (MOA) fra DrugBank
+- Prekliniske eller mekanistiske studier som kan underbygge en kobling mellom idebenon og hepatisk porfyri
+- Systematisk litteratursøk og søk etter kliniske studier for hepatisk porfyri
+- Vurdering av administrasjonsvei og formulering for den nye indikasjonen
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

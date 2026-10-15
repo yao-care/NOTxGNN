@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Decitabine
-parent: Kun modellprediksjon (L5)
-nav_order: 99
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 117
+evidence_level: L4
 indication_count: 1
 ---
 
 # Decitabine
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,105 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Decistabin: Mot en ny predikert indikasjon ved refraktær cytopeni i barndommen
+# Decitabin: Fra myeloid leukemi til refraktær cytopeni hos barn
 
-## Sammenfatning på en setning
+## Oppsummering
 
-> Decistabin (DrugBank DB01262) har for øyeblikket ingen lisensoppføringer eller opprinnelige indikasjondata tilgjengelige i denne evidenspakken, og det er ikke markedsført i Norge.
-> TxGNN-modellen forutsier at det kan være effektivt for **refraktær cytopeni i barndommen**,
-> med **0 registrerte kliniske studier** og **1 støttende publikasjon** som for øyeblikket er tilgjengelige.
+Decitabin er et hypometylerende nukleosidanalog som opprinnelig ble godkjent for behandling av myeloid leukemi.
+TxGNN-modellen predikerer at legemidlet kan være effektivt ved **refraktær cytopeni hos barn** (pediatrisk myelodysplastisk syndrom),
+men foreløpig er det kun **2 publikasjoner** (en kohortstudie og en kasuistikk) og **ingen registrerte kliniske studier** som støtter denne retningen.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Ikke tilgjengelig – ingen lisensoppføringer eller opprinnelige indikasjondata i evidenspakken |
-| Predikert ny indikasjon | Refraktær cytopeni i barndommen |
-| TxGNN-prediksjonspoengsum | 99.03% |
-| Evidensnivå | L3 (enkelt retrospektivt/observasjonsstudie, ingen RCT eller registrert klinisk studie) |
-| Status på det norske markedet | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Holdes på vent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Myeloid leukemi |
+| Predikert ny indikasjon | Refraktær cytopeni hos barn |
+| TxGNN-prediksjonsscore | 99,03 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun opphevede (tilbaketrukne) godkjenninger |
+| Antall godkjenninger | 2 (begge opphevet) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljerte data om virkningsmekanisme for decistabin ikke tilgjengelige i denne evidenspakken. Uten bekreftet opprinnelig indikasjon og MOA-informasjon, kan en mekanistisk begrunnelse som forbinder decistabin med refraktær cytopeni i barndommen ikke underbygges fra den leverte evidensen.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Basert på kjent kunnskap om legemiddelklassen er decitabin en hypometylerende forbindelse som hemmer DNA-metyltransferase. Effekten ved myeloide neoplasier er etablert, og legemidlet brukes også ved myelodysplastiske syndromer hos voksne.
 
-Den eneste støttende publikasjonen beskriver decistabin brukt i kombinasjon med et minimalt myelosuppressivt regime som overgangsbehandling til allogen hematopoetisk stamcelletransplantasjon (allo-HSCT) ved pediatrisk myelodysplastisk syndrom (MDS), hvorav refraktær cytopeni i barndommen er en anerkjent undertype. Dette antyder en plausibel klinisk kontekst for prediksjonen, men den mekanistiske og indikasjonforholdsanalysen kan ikke fullføres før MOA-data (DG002) er løst.
+Refraktær cytopeni hos barn er den vanligste undergruppen av pediatrisk myelodysplastisk syndrom. Delt biologi, med epigenetisk dysregulering og klonal hematopoese, gir en plausibel mekanistisk kobling til den opprinnelige indikasjonen.
 
----
-
-## Bevis fra kliniske studier
-
-For øyeblikket ingen relaterte kliniske studier registrert.
+Den svært høye TxGNN-scoren (0,99) er i tråd med dette, men det er en beregningsbasert prediksjon og ikke klinisk evidens. Koblingen er utledet fra generell kunnskap om legemiddelklassen, ikke fra mekanismedata i datagrunnlaget.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske studier
 
-| PMID | År | Type | Journal | Hovedfunn |
-|------|-----|------|--------|---------|
-| [35624441](https://pubmed.ncbi.nlm.nih.gov/35624441/) | 2022 | Avventende klassifisering | BMC Pediatrics | Erfaring fra ett senter over 10 år med bruk av decistabin kombinert med et minimalt myelosuppressivt regime som overgangsbehandling til allo-HSCT ved pediatrisk MDS |
+Foreløpig er det ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [35624441](https://pubmed.ncbi.nlm.nih.gov/35624441/) | 2022 | Kohortstudie (trolig retrospektiv) | BMC Pediatrics | Erfaring fra ett senter med decitabin kombinert med minimalt myelosuppressivt regime som brobehandling før allogen stamcelletransplantasjon hos barn med MDS |
+| [42125547](https://pubmed.ncbi.nlm.nih.gov/42125547/) | 2026 | Kasuistikk | Experimental and Therapeutic Medicine | Decitabin som monoterapi hos en 8 år gammel pasient med refraktær cytopeni hos barn som ikke var aktuell for stamcelletransplantasjon eller immunsuppresjon |
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Decistabin har ingen lisensoppføringer i Norge (0 autorisasjoner, markedsstatus: Ikke markedsført).
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/002221 | Dacogen (opphevet) | Ikke oppgitt | Myeloid leukemi |
+| EMEA/H/C/005823 | Inaqovi (opphevet) | Ikke oppgitt | Myeloid leukemi |
 
 ---
 
-## Sikkerhetshensyn
+## Cytotoksisitet
 
-Se pakningsvedlegget for sikkerhetsinformasjon.
+| Punkt | Innhold |
+|------|------|
+| Klassifisering | Konvensjonelt cytotoksisk / hypometylerende middel (nukleosidanalog) |
+| Risiko for myelosuppresjon | Høy forventet; kunnskapsgrafen lister trombocytopeni, nøytropeni og agranulocytose som kontraindikasjonsrelaterte tilstander |
+| Emetogenisitet | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Komplett blodstatus (CBC) med differensialtelling, lever- og nyrefunksjon |
+| Håndteringsbeskyttelse | Følg gjeldende regelverk for håndtering av cytotoksiske legemidler |
 
-> Merk: TFDA-etikettadvarsler og kontraindikasjoner (DG001) er for øyeblikket en **blokkerende** datakløft – dette forhindrer en fullstendig S1-sikkerhetsvurdering.
+---
+
+## Sikkerhetsvurderinger
+
+- **Tilstander markert i kunnskapsgrafen (TxGNN/PrimeKG, ikke preparatomtale):** nyresykdom, pyoureter, leversykdom, gallblæresykdom, trombocytopeni, diabetes mellitus, diabetisk ketoacidose, nøytropeni og agranulocytose.
+- **Legemiddelinteraksjoner:** 100 interaksjoner er identifisert totalt. Blant de som er gjennomgått er flere av alvorlighetsgrad **Major**:
+  - Deferipron
+  - Samarium (153Sm) lexidronam
+  - Adalimumab
+  - Baricitinib
+
+  Flere interaksjoner av moderat alvorlighetsgrad er også registrert, blant annet med merkaptopurin, zidovudin, gemcitabin, ganciklovir, azatioprin, alemtuzumab, aldesleukin, kloramfenikol, roflumilast og strontiumklorid Sr-89. Mange av disse er trolig knyttet til additiv myelosuppresjon eller immunsuppresjon.
+
+Ytterligere sikkerhetsinformasjon, inkludert advarsler og kontraindikasjoner, finnes i pakningsvedlegget.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Holdes på vent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-- En blokkerende datakløft (DG001 – TFDA-etikettadvarsler/kontraindikasjoner) forhindrer fullføring av S1-sikkerhetsvurderingen, og bevis for den predikerte indikasjonen er for øyeblikket begrenset til en enkelt retrospektiv/observasjonspublikasjon uten registrerte kliniske studier.
+Prediksjonen er biologisk plausibel, men bygger i hovedsak på modellscore, én retrospektiv kohortstudie og én kasuistikk. Det finnes ingen registrerte kliniske studier. Dessuten er alle norske/europeiske godkjenninger opphevet, og viktige sikkerhetsdata mangler. Foreløpig er dette et forskningsspørsmål (evidensnivå L4).
 
-**For å fortsette er følgende nødvendig:**
-- TFDA-etikett-PDF med advarsler/kontraindikasjoner (DG001, Blokkering)
-- Data for virkningsmekanisme (MOA) via DrugBank API (DG002, Høy)
-- Ytterligere klinisk studie eller høyere-nivå litteraturbevis for å støtte den predikerte indikasjonen utover en enkelt retrospektiv studie fra ett senter
-- Bekreftelse av decistavins opprinnelige godkjente indikasjon(er) for å etablere en mekanistisk begrunnelse
-
+**For å gå videre kreves følgende:**
+- Hente og analysere preparatomtale (advarsler og kontraindikasjoner), som er et blokkerende datagap for sikkerhetsscreening
+- Innhente data om virkningsmekanisme fra DrugBank
+- Avklare hvorfor godkjenningene er opphevet, og om legemidlet er tilgjengelig i Norge på annen måte
+- Gjennomføre systematisk litteratursøk og vurdere relevans for pediatrisk MDS
+- Vurdere en prospektiv studie eller et register for decitabin ved refraktær cytopeni hos barn
+- Utarbeide en sikkerhetsplan for barn, med overvåking av blodstatus og vurdering av interaksjoner
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

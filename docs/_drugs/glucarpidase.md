@@ -2,7 +2,7 @@
 layout: default
 title: Glucarpidase
 parent: Kun modellprediksjon (L5)
-nav_order: 165
+nav_order: 193
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,104 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Glucarpidase: Fra metotreksattoksisitet til diabetisk katarakt
+# Glukarpidase: Fra metotreksat-toksisitet til diabetisk katarakt
 
-## Oppsummering i én setning
+## Oppsummering
 
-> Glucarpidase er en rekombinant bakteriell karboxypeptidase som klinisk brukes til raskt å hydrolyisere overskudd av metotreksat hos pasienter med nedsatt nyreklaring.
-> TxGNN-modellen forutsier potensiell effektivitet for **Diabetisk katarakt**,
-> men for tiden finnes **0 kliniske studier** og **0 publikasjoner** som støtter denne retningen — bevisstyrken er minimal.
+Glukarpidase er et enzym som opprinnelig brukes for å behandle metabolske bivirkninger av legemidler og stoffer, i praksis toksiske metotreksatnivåer. TxGNN-modellen forutsier at det kan ha effekt mot **diabetisk katarakt**, men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Den høye prediksjonsscoren skyldes trolig en artefakt i kunnskapsgrafen, ikke biologisk sannsynlighet.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|-------|---------|
-| Opprinnelig indikasjon | Ingen godkjente indikasjondata tilgjengelig (legemiddel ikke markedsført i denne jurisdiksjonen); kjent klinisk bruk er redning av metotreksattoksisitet ved nedsatt nyrefunksjon |
-| Forutsagt ny indikasjon | Diabetisk katarakt |
-| TxGNN prediksjonspoengsum | 99.85% |
-| Bevisnivå | L5 |
-| Norges markedsstatus | Ikke markedsført (Ikke markedsført) |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+|------|------|
+| Opprinnelig indikasjon | Metabolske bivirkninger av legemidler og stoffer |
+| Predikert ny indikasjon | Diabetisk katarakt |
+| TxGNN-prediksjonsscore | 99,85 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun opphevede godkjenninger |
+| Antall godkjenninger | 1 (opphevet) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er (eller er ikke) denne prediksjonen rimelig?
 
-For tiden er detaljert data om virkningsmekanisme ikke tilgjengelig (merket som et kritisk datakløft). Basert på den begrensede informasjonen i denne bevissamlingen, er glucarpidases kjente kliniske rolle enzymatisk hydrolyse av metotreksat til inaktive metabolitter (DAMPA og glutamat) for å redusere toksisitet hos pasienter med forsinket nyreklaring — en rednings-/motgiftfunksjon, ikke en sykdomsmodifiserende terapi.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Ut fra kjent farmakologi er glukarpidase et rekombinant karboksypeptidase G2-enzym som bryter ned metotreksat utenfor cellene til inaktive metabolitter (DAMPA og glutamat). Det gis intravenøst ved toksiske metotreksatnivåer.
 
-Det finnes ingen kjent biologisk vei som forbinder denne folatanalog-metaboliserende mekanismen til diabetisk katarakt, som er drevet av hyperglykemi-indusert polyolveiens aktivering, osmotisk stress og linsens proteinglykering/oksydasjon. Ingen mekanistisk forbindelse er foreslått i bevissamlingen, og rasjonalet-teksten sier eksplisitt at ingen kjent forbindelse finnes.
+Det er ikke funnet noen troverdig mekanistisk kobling til diabetisk katarakt. Glukarpidase påvirker ikke polyolveien, aldosereduktase eller glykering av linseproteiner. Som et stort protein (ca. 83 kDa dimer) gitt intravenøst er det lite praktisk å nå linsen. Den høye scoren skyldes trolig grafnærhet til den opprinnelige betegnelsen «metabolske bivirkninger», ikke biologisk plausibilitet.
 
-Bemerkelsesverdig er det at alle 10 av dette legemidlets beste forutsagte indikasjoner klynger seg tett rundt kataraktsubtyper (diabetisk, aldersrelatert, nukleær, kortikal, moden, umoden osv.) og diabetisk retinopati, med nesten identiske poengsum (~0.998) til tross for at de ikke har noen delt underliggende patologi med metotreksatmetabolisme. Dette mønsteret — høyt poengsum som klynger seg med null mekanistisk, preklinisk eller klinisk støtte — er karakteristisk for en embedding-nivå artefakt snarere enn et genuint biologisk signal, sannsynligvis fordi glucarpidase er et sparsomt koblet foreldreløst legemiddel i den underliggende kunnskapsgrafen.
+Andre topprangerte prediksjoner (alle med score 99,8 % og evidensnivå L5) gjelder i hovedsak ulike katarakttyper og diabetisk retinopati:
+
+| Rang | Predikert indikasjon | Score |
+|------|------|------|
+| 2 | Diabetisk retinopati | 99,84 % |
+| 3 | Kraniostenose-katarakt | 99,83 % |
+| 4 | Tetanisk katarakt | 99,83 % |
+| 5 | Katarakt ved diabetes mellitus type 2 | 99,83 % |
+| 6 | Umoden katarakt | 99,83 % |
+| 7 | Moden katarakt | 99,83 % |
+| 8 | Nukleær senil katarakt | 99,83 % |
+| 9 | Kortikal katarakt | 99,83 % |
+| 10 | Senil katarakt | 99,82 % |
+
+For ingen av disse er det identifisert en mekanistisk begrunnelse. Mønsteret tyder på at prediksjonene stammer fra delte «katarakt»-noder i kunnskapsgrafen.
 
 ---
 
 ## Klinisk studieevidens
 
-For tiden er det ingen relaterte kliniske studier registrert.
+Det er for øyeblikket ingen relaterte kliniske studier registrert.
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-For tiden er det ingen relatert litteratur tilgjengelig.
-
----
-
-## Norges markedsinformasjon
-
-Dette legemiddelet er ikke markedsført i denne jurisdiksjonen (0 autorisasjoner på rekord), så ingen produktlisenstabel er tilgjengelig.
+Det er for øyeblikket ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Sikkerhetshensyn
+## Markedsinformasjon for Norge
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. (Merk: TFDA/lokale merkeadvarsler og kontraindikasjoner er flagget som et **blokkering** datakløft i denne bevissamlingen — dette må løses før noen sikkerhetsvurdering kan skje.)
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005467 | Voraxaze | – | Metabolske bivirkninger av legemidler og stoffer |
+
+Denne godkjenningen er opphevet, og det finnes ingen gyldige godkjenninger i Norge.
 
 ---
 
-## Konklusjon og neste trinn
+## Sikkerhetsmomenter
 
-**Beslutning: Avvent**
+**Legemiddelinteraksjoner** (8 registrerte, alle av moderat alvorlighetsgrad):
 
-**Rasjonale:**
-Prediksjonen støttes av TxGNN-poengsum alene (L5, ingen klinisk eller litteraturbevis), og alle 10 beste forutsagte indikasjoner for dette legemiddelet klynger seg mistenkelig rundt en enkelt urelated sykdomsfamilie (katarakt/diabetisk øyesykdom) uten noen plausibel mekanistisk forbindelse til glucarpidases kjente enzymatiske funksjon — dette mønsteret tyder på en modellartefakt snarere enn et genuint omdisponerings-signal.
+- Proguanil
+- Trimetoprim
+- Levoleukovorin
+- Pemetreksed
+- Pralatreksat
+- Pyrimetamin
+- Leukovorin
+- Trimetreksat
 
-**For å fortsette, er følgende nødvendig:**
-- Løs blokkerings-datakløftet: TFDA/lokale merkeadvarsler og kontraindikasjoner
-- Hent verifisert virkningsmekanisme (MOA) data fra DrugBank eller primærlitteratur
-- Uavhengig mekanistisk eller preklinisk bevis som knytter karboxypeptidase G2-aktivitet til diabetisk katarakt-patologi før videre investering
-- Gitt klyngemønsteret på tvers av alle 10 prediksjoner, vurder en KG-tilkoblings-gjennomgang for dette foreldreløse legemiddelet snarere enn å forfølge individuelle indikasjoner
+Det er ikke tilgjengelig data om advarsler og kontraindikasjoner. Se preparatomtalen for øvrig sikkerhetsinformasjon.
 
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
+
+**Begrunnelse:**
+Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier, litteratur eller troverdig mekanistisk kobling. Systemisk enzymbehandling gitt intravenøst er dessuten dårlig egnet for å nå linsen eller netthinnen. Legemidlet har i tillegg ingen gyldig godkjenning i Norge.
+
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Advarsler og kontraindikasjoner fra preparatomtalen, som er en forutsetning for sikkerhetsscreening
+- Prekliniske data som viser en biologisk sammenheng med linse- eller netthinnepatologi ved diabetes
+- Vurdering av administrasjonsvei og tilgang til øyevev
+- Avklaring av godkjenningsstatus i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

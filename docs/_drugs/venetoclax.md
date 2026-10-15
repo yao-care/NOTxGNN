@@ -2,7 +2,7 @@
 layout: default
 title: Venetoclax
 parent: Moderat evidens (L3-L4)
-nav_order: 381
+nav_order: 447
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,73 +29,107 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Venetoclax: Fra kronisk lymfatisk leukemi til pregerminal center CLL/SLL
+# Venetoklaks: Fra kronisk lymfatisk B-celleleukemi til pregerminalsenter-KLL/SLL
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-Venetoclax er en selektiv, oralt tilgjengelig BCL-2-hemmer hvis etablerte bruk ved kronisk lymfatisk leukemi (CLL) og akutt myeloid leukemi (AML) er dokumentert i støttende litteratur i denne bevissamlingen. TxGNN-modellen forutsier et signal for **pregerminal center CLL/SLL** — en IGHV-umutert, dårlig prognostisert molekylær undertype av CLL/SLL — men denne spesifikke undergruppen har for øyeblikket **0 dedikerte kliniske forsøk** og bare **1 støttende publikasjon**, noe som merker det som et tidlig, hypotesegenererende signal snarere enn en validert ny indikasjon.
+Venetoklaks er en BCL-2-hemmer som opprinnelig er godkjent for behandling av kronisk lymfatisk B-celleleukemi (KLL).
+TxGNN-modellen predikerer at legemidlet kan være effektivt ved **pregerminalsenter-KLL/småcellet lymfocyttisk lymfom (SLL)**, en molekylær undergruppe (umutert IGHV) av den allerede godkjente indikasjonen.
+Foreløpig finnes **0 kliniske studier** og **1 publikasjon** (en oversiktsartikkel om B-cellereseptor-biologi) som støtter denne spesifikke prediksjonen.
 
-## Kort oversikt
+---
 
-| Emne | Innhold |
-|------|---------|
-| Original indikasjon | Kronisk lymfatisk leukemi (CLL) — iht. innebygd litteraturbevis (f.eks. PMID 28724540, 33230098) |
-| Forutsagt ny indikasjon | Pregerminal center kronisk lymfatisk leukemi/liten lymfatisk lymfom |
-| TxGNN-prediksjonspoeng | 99.55% |
-| Bevisnivå | L4 |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Forskningsspørsmål |
+## Hurtigoversikt
+
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Kronisk lymfatisk B-celleleukemi |
+| Predikert ny indikasjon | Pregerminalsenter-KLL/SLL |
+| TxGNN-prediksjonsscore | 99,55 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun avregistrert (ingen gyldige tillatelser) |
+| Antall tillatelser | 1 (avregistrert) |
+| Anbefalt beslutning | Hold |
+
+---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Venetoclax hemmer selektivt BCL-2, et pro-overlevelsesprotein som er overeksprimert i de fleste B-cellemaligniteter, og gjenoppretter derved den iboende (mitokondrielle) apoptotiske banen og utløser tumorcellekdøden. Denne mekanismen er godt dokumentert i bevissamlingens litteraturbevis (f.eks. PMID 28724540: «en meget potent og selektiv oral BCL-2-antagonist... godkjent ved kronisk lymfatisk leukemi»; PMID 33230098: FDA-godkjent for AML i kombinasjon med hypometylerende midler). En formell, strukturert MOA-dokumentasjon fra DrugBank var ikke hentbar for denne kandidaten (datahull DG002, høy alvorlighetsgrad).
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget for denne rapporten. Basert på kjent informasjon er venetoklaks en selektiv hemmer av det antiapoptotiske proteinet BCL-2, og effekten ved KLL er godt dokumentert. Mekanistisk kan den derfor være aktuell også for undergrupper av KLL.
 
-Den forutsagte «nye» indikasjonen er ikke en særskilt sykdom, men en raffinert molekylær undertype *innenfor* CLL/SLL selv — spesifikt IGHV-umutert (U-CLL), pre-germinal-center-opprinnelsesundergruppe, historisk knyttet til dårligere prognose sammenlignet med mutert (M-CLL, post-germinal-center) undertype fanget separat på rang 2. Siden BCL-2-avhengighet er et patogent kjennetegn ved CLL uavhengig av IGHV-mutasjonsstatus, strekker den mekanistiske begrunnelsen for venetoclax-aktivitet seg plausibelt til denne undergruppen.
+Den predikerte indikasjonen er en molekylær undergruppe av KLL/SLL: umutert IGHV, med opphav i pregerminalsenter-B-celler og dårligere prognose. BCL-2-avhengighet er veletablert ved KLL, så aktivitet i denne undergruppen er mekanistisk plausibel.
 
-Imidlertid karakteriserer den enkle støttende referansen (PMID 35158929, en 2022-oversikt over B-cellereceptorstruktur/funksjon i CLL) bare den biologiske distinksjonen mellom U-CLL og M-CLL — den rapporterer ikke venetoclax-resultater stratifisert etter denne subtypen. Ingen dedikert klinisk forsøk isolerer denne molekylære undergruppen, så prediksjonen bør leses som en biologisk plausibel raffinering av venetoclaxs allerede etablerte CLL-indikasjon, ikke som uavhengig bevis for effektivitet i en ny sykdom.
+Det finnes imidlertid ingen undergruppespesifikk studie. Den eneste publikasjonen handler om struktur og funksjon til tumorens B-cellereseptor, ikke om effekt av venetoklaks. Prediksjonen er derfor i praksis en undergruppe av den eksisterende indikasjonen og ikke et ekte tilfelle av drug repurposing.
 
-## Bevis fra kliniske forsøk
+---
 
-For øyeblikket ingen relaterte kliniske forsøk registrert.
+## Kliniske studier
 
-## Litteraturbevis
+Foreløpig ingen relaterte kliniske studier registrert.
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
-|------|-----|------|-----------|-------------|
-| [35158929](https://pubmed.ncbi.nlm.nih.gov/35158929/) | 2022 | Oversikt | Cancers | Karakteriserer pre-germinal center (U-IGHV, dårlig prognose) mot post-germinal center (M-IGHV, god prognose) CLL-undergrupper og deres B-cellereceptorstruktur/funktjonsforskjeller; rapporterer ikke venetoclax-spesifikke resultater. |
+---
 
-## Norsk markedsinformasjon
+## Litteraturevidens
 
-Ingen markeringsgodkjenningsregistreringer er tilgjengelige for venetoclax i denne bevissamlingen — medikamentet er for øyeblikket ikke markedsført (0 lisenser på fil).
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [35158929](https://pubmed.ncbi.nlm.nih.gov/35158929/) | 2022 | Oversikt/biologisk analyse | Cancers | Gjennomgang av tumorens B-cellereseptor ved KLL. Skiller mellom umutert IGHV (pregerminalsenter, dårlig prognose) og mutert IGHV (postgerminalsenter, god prognose). Ingen data om venetoklaks. |
+
+---
+
+## Markedsinformasjon for Norge
+
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004106 | Venclyxto (AbbVie Deutschland GmbH & Co. KG) | Ikke oppgitt | Kronisk lymfatisk B-celleleukemi (status: avregistrert) |
+
+---
 
 ## Cytotoksisitet
 
-| Emne | Innhold |
-|-----|---------|
-| Cytotoksisitetsklassifisering | Målrettet terapi (selektiv BCL-2-hemmer; ikke et konvensjonelt cytotoksisk kjemoterapeutikum) |
-| Myelosuppresjonsrisiko | Høy — litteratur i denne pakken rapporterer trombocytopeni hos opptil 80% av pasientene i kombinasjonsregimer (PMID 38264906) og identifiserer tumorlysesyndrom og myelosuppresjon som de mest vanlige toksisitetene ved venetoclax-basert terapi (PMID 35659041) |
-| Emetogenisitetsklassifisering | Lav til moderat (i samsvar med den oralt målrettede BCL-2-hemmerklassen; ikke separat kvantifisert i denne bevissamlingen) |
-| Overvakingselementer | Fullblodtelling med differensial (nøytropeni/trombocytopeni), tumorlysesyndrom-laboratorier under dosisøkning (kalium, urinsyre, kalsium, fosfat, kreatinin), leverfunksjon |
-| Håndteringsbeskyttelse | Standard farlig/antineoplastisk medikamenthåndteringstiltak anbefalt for apotek-sammensetning og utdeling, i samsvar med klassifiseringen som et antineoplastisk middel |
+| Punkt | Innhold |
+|------|------|
+| Cytotoksisk klassifisering | Målrettet behandling (selektiv BCL-2-hemmer) |
+| Risiko for myelosuppresjon | Nøytropeni og andre cytopenier er vanlige i litteraturen om venetoklaks ved lymfoide maligniteter. Se pakningsvedlegget for detaljer. |
+| Emetogenitetsklassifisering | Se pakningsvedlegget for advarsler og forholdsregler |
+| Overvåkingspunkter | Fullstendig blodtelling, nyrefunksjon og elektrolytter (tumorlysesyndrom er en hyppig bekymring) |
+| Håndteringsbeskyttelse | Se pakningsvedlegget for advarsler og forholdsregler |
 
-## Sikkerhetshensyn
+---
 
-Se pakningsvedlegget for sikkerhetsinformasjon. Viktige advarsler, kontraindikasjoner og medikamentinteraksjonsdata var ikke hentbare i denne bevissamlingen (TFDA-etiketthenting flagget som blokkeringsdatahull, DG001).
+## Sikkerhetsvurderinger
 
-## Konklusjon og neste skritt
+**Legemiddelinteraksjoner:** Interaksjonsdatabasen viser til sammen 100 registrerte interaksjoner. Blant de oppførte er følgende klassifisert som **alvorlige (Major)**:
 
-**Beslutning: Forskningsspørsmål**
+- Aprepitant
+- Deksametason
+- Klaritromycin
+- Eliglustat
+- Rolapitant
+- Fidaksomicin
+- Kobicistat
+- Deferipron
+- Samarium (153Sm) lexidronam
+
+Flere interaksjoner er klassifisert som moderate, blant annet alvimopan, loperamid, cimetidin, mikonazol, klotrimazol og rifaksimin. Naloksegol er klassifisert som mindre alvorlig. Litteraturen beskriver dessuten at sterke CYP3A-hemmere som posakonazol krever dosejustering av venetoklaks.
+
+For øvrig sikkerhetsinformasjon, se pakningsvedlegget.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-BCL-2-avhengighetsmekanismen som ligger til grunn for venetoclaxs etablerte CLL-aktivitet er biologisk plausibel for denne IGHV-umuterte subtypeen, men fullstendig mangel på dedikerte kliniske forsøk og avhengighet av en enkelt ikke-spesifikk oversiktsartikkel betyr at beviset ennå ikke støtter progresjon utover en forskningshypotese. (For kontekst har andre forutsagte indikasjoner i denne pakken — f.eks. myeloid leukemi, bevisnivå L1 — allerede fase 3-støttet, retningslinjealjustert venetoclax-regimer og kan berettige separat gjennomgang med høyere prioritet.)
+Prediksjonen gjelder en undergruppe av den allerede godkjente KLL-indikasjonen, og det finnes ingen undergruppespesifikke studier. Støtten er i praksis en modellscore og én biologisk oversiktsartikkel. Samtidig er legemidlet kun avregistrert på det norske markedet, noe som begrenser praktisk relevans.
 
-**For å fortsette er følgende nødvendig:**
-- TFDA/regulatoriske etikettdata (advarsler, kontraindikasjoner) — for øyeblikket blokkeringshull
-- Strukturert MOA-dokumentasjon fra DrugBank
-- Et klinisk forsøk eller en retrospektiv kohort som stratifiserer venetoclax-resultater spesifikt etter IGHV-mutasjonsstatus i CLL/SLL
-- Sikkerhetskontrollplan som adresserer myelosuppresjons- og tumorlysesyndromrisiko
-
+**For å gå videre trengs følgende:**
+- Undergruppeanalyser (IGHV-status) fra eksisterende KLL-studier med venetoklaks, for eksempel MURANO
+- Pakningsvedlegg med advarsler og kontraindikasjoner for en fullstendig sikkerhetsvurdering
+- Data om virkningsmekanisme
+- Avklaring av markedsstatus og tilgjengelighet i Norge
+- Vurdering av de andre prediksjonene i datagrunnlaget, som akutt myeloid leukemi (evidensnivå L1) og follikulært lymfom (L2), som har sterkere evidens og er mer reelle repurposing-kandidater
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

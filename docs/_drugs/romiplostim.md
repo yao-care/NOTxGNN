@@ -2,7 +2,7 @@
 layout: default
 title: Romiplostim
 parent: Kun modellprediksjon (L5)
-nav_order: 313
+nav_order: 367
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,88 +29,98 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Romiplostim: Fra immun trombocytopeni (ITP) til primær utskillelsesforstyrrelse av blodplater
+# Romiplostim: Fra idiopatisk trombocytopenisk purpura til primær frigjøringsforstyrrelse av blodplater
 
-## Sammenfattelse i én setning
+## Kort oppsummering
 
-> Romiplostim er en trombopoetin (TPO)-reseptor-agonist hvis etablerte referanseindikasjoin er immun trombocytopeni (ITP) — dette er ikke formelt dokumentert i det nåværende datasettet, men er konsekvent antydet gjennom det vitenskapelige materiales mekanistiske begrunnelse.
-> TxGNN-modellens høyest rangerte prediksjon er **Primær utskillelsesforstyrrelse av blodplater**,
-> for tiden støttet av **1 klinisk forsøk** og **2 publikasjoner**, begge indirekte (overlapp mellom sykdompopulasjoner snarere enn direkte behandlingsvitenskapslig bevis).
-> En separat, bredere kandidat i det samme vitenskapelige materiale — *blødningsforstyrrelse av platelet-type* — har langt sterkere direkte vitenskapslig bevis (7 forsøk inkludert en gjennomført fase 3 RCT), og er flagget separat nedenfor.
+Romiplostim er en trombopoietinreseptor-agonist (TPO-reseptor-agonist) som opprinnelig brukes til behandling av idiopatisk trombocytopenisk purpura (ITP).
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **primær frigjøringsforstyrrelse av blodplater**, men det finnes **0 kliniske studier** og bare **1 publikasjon** (en mekanistisk studie om ITP, ikke direkte om den predikerte sykdommen). Prediksjonen er dermed kun modellbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Emne | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Ikke dokumentert i dette datasettet (`original_indications` tomt, `original_moa` = Datagap). Romiplostims kjente referanseindikasjoin — immun trombocytopeni (ITP) — blir referert til gjennom hele det vitenskapelige materiales mekanistiske begrunnelse, men er ikke formelt kildeangivet her. |
-| Predikert ny indikasjon | Primær utskillelsesforstyrrelse av blodplater |
-| TxGNN-prediksjonspoengsum | 99.9998% |
-| Bevisnivå | L3 (observasjonsstudie + review/kohort-litteratur; ingen direkte romiplostim RCT for denne spesifikke diagnosen) |
-| Markedsstatus i Norge | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Forskningsspørsmål |
+| Opprinnelig indikasjon | Idiopatisk trombocytopenisk purpura (ITP) |
+| Predikert ny indikasjon | Primær frigjøringsforstyrrelse av blodplater |
+| TxGNN-prediksjonsscore | 99,99 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
+| Antall godkjenninger | 1 (opphevet) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljert formell virkningsmekanisme-dokumentasjon er for tiden et datagap (DG002). Det vitenskapelige materiales egen begrunnelse for omformål beskriver konsekvent romiplostim som en **trombopoetin (TPO)-reseptor-agonist** som virker på **MPL-reseptoren** for å fremme megakaryocytt-modning og blodplateutskillelse — dette er det farmakologiske grunnlaget sitert gjennom nesten hver kandidatindikasjoin i dette materiale.
+Romiplostim binder seg til TPO-reseptoren (MPL) og øker produksjonen av blodplater. Data om detaljert virkningsmekanisme er foreløpig ikke tilgjengelig i de innsamlede dataene, men målet (MPL) er bekreftet i farmakologidata.
 
-"Primær utskillelsesforstyrrelse av blodplater" beskriver en defekt i blodplateutskillelse fra megakaryocytter inn i blodsirkulasjonen. Mekanistisk er stimulering av MPL-reseptoren for å drive megakaryocytt-modning og blodplateutskillelse en plausibel tilpasning for denne kategorien. Imidlertid er det vitenskapelige beviset som for tiden er tilgjengelig, hentet fra **immun trombocytopeni (ITP)**-forskning — en *sekundær* (immunmediert) utskillelsesforstyrrelse — snarere enn fra primær/iboende utskillelsesdefekt-populasjoner spesifikt. Det eneste koblede kliniske forsøket (NCT03820960) er en observasjonskohortstudie om tromboserisikofaktorer hos ITP-pasienter og tester ikke romiplostim-behandling; det ble koblet av TxGNN på grunn av overlapp mellom sykdompopulasjoner, ikke direkte intervensjonsvitenskapslig bevis.
-
-Kort sagt, er den mekanistiske logikken solid, men det nåværende vitenskapelige grunnlaget har ikke ennå direkte testet romiplostim hos pasienter med en primær (ikke-immunmediert) blodplateutskillelsesdefekt.
+Den predikerte sykdommen er en funksjonsforstyrrelse av blodplatene, ikke en mangel på antall. Å øke antallet blodplater korrigerer vanligvis ikke funksjonsdefekter, og nydannede blodplater vil bære den samme defekten. Den eneste funnede publikasjonen (PMID 25682608) gjelder autoantistoffers hemming av blodplatedannelse ved ITP, som er den allerede godkjente indikasjonen. Den mekanistiske begrunnelsen er derfor svak, og den svært høye TxGNN-scoren må tolkes som en ren prediksjon.
 
 ---
 
-## Vitenskapslig bevis fra kliniske forsøk
+## Klinisk studiedokumentasjon
 
-| Forsøksnummer | Fase | Status | Deltakere | Viktigste funn |
-|---------|------|------|------|---------|
-| [NCT03820960](https://clinicaltrials.gov/study/NCT03820960) | N/A | Gjennomført | 10,039 | Observasjonskohortstudie om tromboserisikofaktorer hos pasienter med immun trombocytopeni (ITP). Tester ikke romiplostim-behandlingseffekt; koblet til denne indikasjon via overlapp mellom sykdompopulasjoner kun (relevansgrad C). |
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ---
 
-## Litteraturvitenskapslig bevis
+## Litteraturdokumentasjon
 
-| PMID | År | Type | Tidsskrift | Viktigste funn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [23594368](https://pubmed.ncbi.nlm.nih.gov/23594368/) | 2013 | Review | British Journal of Haematology | Gjennomgår megakaryocytopoiese og thrombocytopoiese-mekanismer, og identifiserer trombopoetin (TPO) som den primære vekstfaktoren som driver megakaryocytt-modning og blodplateutskillelse. |
-| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | Kohort | Haematologica | In vitro-studie som viser at antiblodplate-autoantistoffer hos ITP-pasienter hemmer proplatelett-danningen fra megakaryocytter, og hemmer dermed blodplateproduksjon/-utskillelse. |
+| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | Grunnforskning/mekanistisk | Haematologica | Antiblodplate-autoantistoffer ved ITP hemmer proplatelet-dannelse i megakaryocytter og svekker blodplateproduksjon in vitro. Gjelder ITP, ikke frigjøringsforstyrrelser. |
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Ingen markedsautoritetsregistre for Norge (eller Taiwan) er for tiden tilgjengelig for romiplostim i dette datasettet — legemidlet er registrert som ikke markedsført (0 godkjennelser).
+| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000942 | Nplate (Amgen Europe B.V.) | Ikke oppgitt | Idiopatisk trombocytopenisk purpura (status: opphevet) |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+- **Legemiddelinteraksjoner:** Carfilzomib er registrert med interaksjonsnivå **alvorlig (Major)** (kilde: DDInter).
 
-*(Viktige advarsler, kontraindikasjoner og data om legemiddelinteraksjoner er alle for tiden merket som datagap i dette materiale; TFDA-merketikettdatahenting (DG001) er flagget som blokkering for en formell sikkerhetsprevurdering.)*
+For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparatomtalen.
 
 ---
 
-## Konklusjon og neste trinn
+## Andre predikerte indikasjoner (kort oversikt)
 
-**Beslutning: Forskningsspørsmål**
+| Rang | Sykdom | TxGNN-score | Evidensnivå | Vurdering |
+|---|---|---|---|---|
+| 2 | Pseudo-von Willebrands sykdom | 99,99 % | L5 | Hold: nydannede blodplater har samme GPIbα-defekt |
+| 3 | Glanzmanns trombasteni | 99,99 % | L5 | Hold: funksjonsdefekt, normalt antall blodplater |
+| 4 | Føtal og neonatal alloimmun trombocytopeni | 99,99 % | L4 | Forskningsspørsmål: kun indirekte evidens (ITP hos barn, graviditet, kasuistikker) |
+| 5 | Scott syndrom | 99,97 % | L5 | Hold: scramblase-defekt |
+| 6 | Blødningsforstyrrelse ved konstitusjonell trombocytopeni | 99,95 % | L5 | Hold: heterogen gruppe, ingen evidens |
+| 7 | Blødningsdiatese ved kollagenreseptordefekt | 99,95 % | L5 | Hold |
+| 8 | Blodplatetype blødningsforstyrrelse | 99,93 % | L5 | Hold |
+| 9 | Autosomal dominant makrotrombocytopeni | 99,88 % | L5 | Hold: usikker nytte ved defekter nedstrøms for TPO-signalering |
+| 10 | Ehlers-Danlos syndrom, fibronektinemisk type | 99,85 % | L5 | Hold: ingen klar trombopoietisk mekanisme |
+
+Den mest interessante kandidaten blant disse er føtal og neonatal alloimmun trombocytopeni (rang 4), hvor en trombopoietisk mekanisme er plausibel. Evidensen er likevel kun indirekte, og sikkerhet for foster og nyfødt (blant annet placentaovergang) er uavklart.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den mekanistiske koblingen mellom TPO-reseptor-agonisme og blodplateutskillelsesforstyrrelse er biologisk plausibel, men det eneste støttende forsøket er en observasjonskohortstudie som ikke tester romiplostim direkte, og ingen intervensjonsvitenskapslig bevis finnes spesifikt hos pasienter med primær (ikke-immunmediert) blodplateutskillelsesdefekt. Dette oppfyller ikke ennå grensen for "Fortsett med sikkerhetstiltak."
+Den predikerte indikasjonen mangler kliniske studier og direkte litteratur, og mekanismen er svak siden sykdommen gjelder blodplatefunksjon og ikke antall. I tillegg er den eneste norske godkjenningen opphevet.
 
-**For å fortsette, er følgende nødvendig:**
-- TFDA-pakningsvedlegg / merketikettdata (DG001 — for tiden blokkering, nødvendig før noen sikkerhetsprevurdering)
-- Formell virkningsmekanisme-dokumentasjon (DG002)
-- Et forsøk eller kasuistikkserie som tester romiplostim spesifikt hos pasienter med en primær (iboende, ikke-immunmediert) blodplateutskillelsesdefekt, snarere enn ITP-avledet slutning
-- Norge/Taiwan-regulering og markedsautoritetsdata, for tiden helt fraværende
-
-**Merknad om en sterkere alternativ kandidat i det samme prediksjonssettet:**
-Innenfor samme prediksjonssett, *"blødningsforstyrrelse av platelet-type"* (rangering 8, poengsum 99.93%) har vesentlig sterkere direkte vitenskapslig bevis — **L1**, med en gjennomført fase 3 RCT (RECITE, kjemoterapiindusert trombocytopeni hos GI/pankreas/kolorektal kreft, n=165) pluss 6 ytterligere direkte relevante forsøk (blodplate-engraftment etter transplantasjon, MDS, biosimilar langtidssikkerhet) — og er allerede trinnvist "Fortsett med sikkerhetstiltak." Hvis målet er å identifisere det mest handlingsdyktige omformål-signal for romiplostim snarere enn strengt tatt det høyest rangerte TxGNN-poengsum, forsvarer denne kandidaten en separat, dedikert vurdering.
-
+**For å gå videre kreves følgende:**
+- Detaljerte data om virkningsmekanisme (MOA)
+- Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner)
+- Avklaring av hvorfor den norske godkjenningen er opphevet, og av dagens reguleringsstatus
+- Systematisk litteraturgjennomgang for den predikerte sykdommen og eventuelt for føtal og neonatal alloimmun trombocytopeni
+- Vurdering av klinisk betydning av den alvorlige interaksjonen med carfilzomib
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

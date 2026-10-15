@@ -2,7 +2,7 @@
 layout: default
 title: Pretomanid
 parent: Kun modellprediksjon (L5)
-nav_order: 290
+nav_order: 338
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,79 +29,88 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Pretomanid: Fra tuberkulose til kandidiasis
+# Pretomanid: Fra multiresistent tuberkulose til candidiasis
 
-## Oppsummering på én setning
+## Oppsummering i én setning
 
-Pretomanid er en antimykobakteriell nitroimidazooxazin utviklet for medikamentresistent tuberkulose (brukt som del av BPaL/BPaLM-regime sammen med bedaquiline, linezolid og moxifloxacin). Modellens topprediksjon foreslår mulig aktivitet mot **kandidiasis**, men denne kombinasjonen har **null støtting fra kliniske studier eller litteratur** og mangler, etter mekanistisk gjennomgang, biologisk plausibilitet — *Candida*-arter har ikke Ddn/F420-nitroreduktase-systemet som pretomanid krever for aktivering.
+Pretomanid er et antibakterielt legemiddel mot mykobakterier, opprinnelig brukt til behandling av **multiresistent tuberkulose**.
+TxGNN-modellen forutsier at det kan ha effekt mot **candidiasis**, men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen; prediksjonen er kun beregningsbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|-------|---------|
-| Originalindikasjon | Medikamentresistent lungetuberkulose (BPaL/BPaLM-regime) — ikke til stede i norske lisenseringdata; hentet fra litteraturkontekst |
-| Predikert ny indikasjon | Kandidiasis |
-| TxGNN-prediksjonscore | 99.69% |
-| Bevisnivå | L5 (modellprediksjon kun, ingen klinisk eller litteraturbevis) |
-| Markedsstatus i Norge | Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Innstilles |
+|------|------|
+| Opprinnelig indikasjon | Multiresistent tuberkulose |
+| Predikert ny indikasjon | Candidiasis |
+| TxGNN-prediksjonsscore | 99,69 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (tillatelsen er trukket tilbake) |
+| Antall godkjenninger | 1 |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte DrugBank-data om virkningsmekanisme er ikke tilgjengelig for pretomanid i denne bevissamlingen. Imidlertid viser kryssreferansering av den medfølgende litteraturen og mekanistiske annoteringer at pretomanid er en nitroimidazooxazin (PA-824) som krever aktivering av det mykobakteriespesifikke **Ddn/F420 deazaflavin-avhengige nitroreduktase-systemet** for å generere sin bakterisidal effekt. Denne aktiveringsbanen er unik for mykobakteria og er grunnlaget for pretomanids rolle i BPaL-regime for omfattende medikamentresistent og behandlingsintolerant multimedikamentresistent TB.
+For tiden foreligger det ikke detaljerte data om virkningsmekanismen i dataene som er samlet inn for denne rapporten. Basert på kjent informasjon er pretomanid et nitroimidazooksazin-prodrug som aktiveres av nitroreduktasen Ddn i *Mycobacterium tuberculosis*. Det hemmer syntesen av mykolsyre og frigjør nitrogenoksid under anaerobe forhold.
 
-Kandidiasis er forårsaket av *Candida*-arter, som ikke uttrykker Ddn/F420-nitroreduktase-systemet. Nitroimidazol-klasselegemidler er generelt kjent for å mangle antifungal aktivitet gjennom denne mekanismen. Dette betyr at TxGNN-assosiasjonen mest sannsynlig er drevet av innebygd likhet snarere enn noen virkelig farmakologisk eller klinisk signal — i samsvar med det fullstendige fravær av kliniske studier eller publikasjoner som knytter pretomanid til kandidiasis i dette datasettet.
+Sopp som *Candida* mangler både Ddn-veien og mykolsyrer. Det finnes derfor ingen mekanistisk kobling mellom den opprinnelige indikasjonen og candidiasis. Den svært høye TxGNN-scoren (0,997) må tolkes som en ren beregningsmessig prediksjon uten biologisk eller klinisk validering.
 
-For kontekst er en biologisk mer plausibel kandidat i dette datasettet **spedalskhet** (rangering 2, *M. leprae*, samme slekt som *M. tuberculosis*), som i teorien deler den samme nitroreduktase-aktiveringsbanen. Imidlertid motsier det sterkeste direkte beviset som er tilgjengelig (PMID 17005816, "*Mycobacterium leprae is naturally resistant to PA-824*") direkte effektiviteten — dyremodelldata viser ingen bakterisidal aktivitet mot *M. leprae* til tross for den delte slekten. Dette understreker at likhet på slektsnivå ikke garanterer funksjonell ekvivalens, og forsterker forsiktighet rundt topprankingen av kandidiasis.
-
----
-
-## Bevis fra kliniske studier
-
-Ingen relaterte kliniske studier er for tiden registrert.
+For oversiktens skyld: blant de fem predikerte indikasjonene har **lepra** det mest plausible biologiske grunnlaget. *Mycobacterium leprae* er i slekt med *M. tuberculosis*, men det er ikke vist at M. leprae har et Ddn-lignende aktiverende enzym. Alle åtte publikasjoner som ble funnet under lepra-prediksjonen handler om legemiddelresistent tuberkulose og gir kun indirekte kontekst. De øvrige prediksjonene (koronarsykdom, hjerteiskemi og anomal venstre koronararterie fra lungearterien) har ingen rimelig mekanistisk begrunnelse.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske studier
 
-Ingen relatert litteratur er for tiden tilgjengelig.
-
----
-
-## Norsk markedsinformasjon
-
-Pretomanid er for tiden ikke markedsført i Norge (0 godkjennelser på registrer). Ingen produktlisens, dosisform eller godkjent indikasjondata er tilgjengelig.
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ---
 
-## Sikkerhetshensyn
+## Evidens fra litteratur
 
-Strukturert sikkerhetsdata (advarsler, kontraindikasjoner, DDI) er for tiden ikke tilgjengelig for pretomanid i denne bevissamlingen (TFDA-merkedata-innsamling er en blokkerende datagap — DG001).
+Foreløpig er det ingen relevant litteratur for candidiasis.
 
-Ett sikkerhetssignal dukket opp indirekte gjennom den mekanistiske gjennomgangen av andre kandidatindikasjoner i dette datasettet: pretomanid har en kjent **QT-intervallforlengelsesrisiko**, en hjertesikkerhetsspørsmål som bør tas med i vurderingen ved enhver fremtidig klinisk utvikling uavhengig av målindikasjon.
+---
 
-Se pakningsvedlegget for fullstendig sikkerhetsinformasjon når den er tilgjengelig.
+## Markedsinformasjon for Norge
+
+| Godkjenningsnummer | Produktnavn | Doseform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005167 | Dovprela (tidligere Pretomanid FGK) | Ikke oppgitt | Multiresistent tuberkulose |
+
+Merk: Godkjenningen har status «avregistrert», og det finnes ingen gyldige tillatelser for øyeblikket.
+
+---
+
+## Sikkerhetsvurderinger
+
+**Legemiddelinteraksjoner:** Det er registrert 14 interaksjoner i databasen (DDInter).
+
+- **Alvorlige (Major), 7 stk.:** deksametason, lumakaftor, apalutamid, dabrafenib, mitotan, lorlatinib, enzalutamid
+- **Moderate, 7 stk.:** empagliflozin, sitagliptin, somatropin, somatrem, baricitinib, klofarabin, metotreksat
+
+Mange av de alvorlige interaksjonene gjelder legemidler som påvirker metabolismeenzymer, og kombinasjoner bør vurderes nøye.
+
+**Øvrig:** Pretomanid-regimer er forbundet med bekymring for QT-forlengelse ved kombinasjon med bedakilin/moksifloksacin. Dette er relevant dersom bruk ved hjertesykdom skulle vurderes.
+
+Se preparatomtalen for fullstendig sikkerhetsinformasjon om advarsler og kontraindikasjoner.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Innstilles**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Topprankingen (kandidiasis) har ingen klinisk studie- eller litteraturstøtte og mangler mekanistisk plausibilitet, siden *Candida*-arter ikke besitter det mykobakteriespesifikke nitroreduktase-aktiveringssystemet som pretomanid er avhengig av. Neste beste kandidat i dette datasettet (spedalskhet) har en delvis plausibel delt-slektsmekanisme, men er direkte motsagt av eksisterende preklinisk bevis som viser at *M. leprae* er naturlig resistent mot pretomanid (PA-824). Ingen kandidat i denne bevissamlingen oppfyller for tiden en bar for videre utvikling.
+Prediksjonen for candidiasis har kun modellbasert støtte (evidensnivå L5), uten kliniske studier, litteratur eller en plausibel virkningsmekanisme. I tillegg er den norske tillatelsen avregistrert.
 
-**For å fortsette er følgende nødvendig:**
-- TFDA-merke/advarsler og kontraindikasjonsdata (DG001, blokkering — påkrevd før S1-sikkerhetsscreening)
-- DrugBank-hentet detaljert MOA-data (DG002) for å riktig vurdere mekanistisk overlapping for fremtidige kandidater
-- Dersom repurposering fortsatt er av interesse, prioriter kandidatsykdommer med faktisk mykobakteriell eller nitroreduktase-avhengig patogenese i stedet for gjeldende TxGNN-topprankingsresultater
-- Uavhengig in vitro-bekreftelse før vurdering av noen kandidat på denne listen for videre evaluering
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Preparatomtale med advarsler og kontraindikasjoner fra legemiddelmyndighetene (blokkerende datamangel for sikkerhetsscreening)
+- Laboratoriedata (in vitro) som viser eventuell aktivitet mot *Candida*
+- Vurdering av lepra som en mer biologisk plausibel alternativ hypotese, med studier av Ddn-lignende enzymer i *M. leprae* og in vivo-følsomhet
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

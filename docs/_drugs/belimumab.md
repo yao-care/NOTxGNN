@@ -2,7 +2,7 @@
 layout: default
 title: Belimumab
 parent: Kun modellprediksjon (L5)
-nav_order: 47
+nav_order: 54
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,83 +29,96 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Belimumab: Fra systemisk lupus erythematosus til primær frigjøringsforstyrrelse av blodplater
+# Belimumab: Fra systemisk lupus erythematosus til primær frigjøringsforstyrrelse i blodplater
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-> Belimumab er et monoklonalt antistoff som retter seg mot BAFF/BLyS, kjent for å være godkjent for systemisk lupus erythematosus (SLE), selv om detaljerte regulatoriske og virkningsmekanisme-data for denne evidenspakken for øyeblikket ikke er tilgjengelige.
-> TxGNN-modellen forutser at det kan være effektivt for **Primær frigjøringsforstyrrelse av blodplater**,
-> men denne retningen støttes for øyeblikket av **0 relevante kliniske forsøk** og **0 publikasjoner** — det ene koblede forsøket gjelder en urelatert sykdomsenhet.
-
----
-
-## Rask oversikt
-
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Systemisk lupus erythematosus (SLE) — basert på kjent klinisk bruk; ikke bekreftet av regulatoriske data i denne pakken |
-| Forutsagt ny indikasjon | Primær frigjøringsforstyrrelse av blodplater |
-| TxGNN-prediksjonscore | 99.96% |
-| Evidensnivå | L5 (kun modellpreduksjon; ingen støttende klinisk eller litteraturbevis) |
-| Norges markedsstatus | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt vedtak | Hold |
+Belimumab er et monoklonalt antistoff som hemmer det løselige proteinet BLyS (BAFF), og det var opprinnelig godkjent for behandling av **systemisk lupus erythematosus**.
+TxGNN-modellen predikerer at legemidlet kan være effektivt for **primær frigjøringsforstyrrelse i blodplater**, men **ingen kliniske studier** og **ingen publikasjoner** støtter denne prediksjonen i dag. Den er kun en modellprediksjon.
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hurtigoversikt
 
-For øyeblikket er detaljerte virkningsmekanisme-data for belimumab ikke tilgjengelige i denne evidenspakken (merket som en datakløft med høy alvorlighetsgrad). Basert på kjent informasjon er belimumab et monoklonalt antistoff som hemmer BAFF/BLyS, og undertrykker dermed B-cellenes overlevelse og reduserer produksjonen av autoantistoffer — en mekanisme som er konsistent med dens etablerte bruk i autoimmun tilstander som SLE.
-
-Primær frigjøringsforstyrrelse av blodplater er imidlertid en iboende feil i blodplategranulutskilning og er ikke en B-celle- eller autoantistoff-mediiert sykdom. Det er ingen etablert biologisk sti som forbinder BAFF-hemming til korreksjon av blodplates frigjørings-funksjon. Det ene kliniske forsøket som er knyttet til denne prediksjonen (NCT01610492) studerte faktisk idiopatisk membranøs glomerulonefritt — en helt annen sykdomsenhet — og ble flagget som en sykdomsenhet-uoverensstemmelse, ikke ekte støttende bevis.
-
-Gitt mangelen på en plausibel mekanistisk forbindelse og fraværet av noe på-target klinisk eller litteraturbevis, bør denne topprangerte TxGNN-prediksjonen behandles som et signal med lav tillit, kun algoritme, på dette stadiet.
-
----
-
-## Bevis fra kliniske forsøk
-
-| Forsøksnummer | Fase | Status | Innrulling | Viktige funn |
-|---------|------|------|------|---------|
-| [NCT01610492](https://clinicaltrials.gov/study/NCT01610492) | Fase 2 | Avsluttet | 14 | Mekanistisk studie av belimumab i idiopatisk membranøs glomerulonefritt — **sykdomsenhet-uoverensstemmelse**, ikke relatert til primær frigjøringsforstyrrelse av blodplater; utgjør ikke støttende bevis |
-
-Ingen kliniske forsøk som direkte retter seg mot primær frigjøringsforstyrrelse av blodplater ble identifisert.
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Systemisk lupus erythematosus |
+| Predikert ny indikasjon | Primær frigjøringsforstyrrelse i blodplater |
+| TxGNN-prediksjonsscore | 99,96 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (ingen gyldige godkjenninger) |
+| Antall godkjenninger | 1 (avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Litteraturbevis
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-For øyeblikket er ingen relatert litteratur tilgjengelig.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Ut fra kjent informasjon hemmer belimumab BLyS (BAFF), noe som reduserer overlevelsen av B-celler og produksjonen av autoantistoffer. Dette forklarer effekten ved systemisk lupus erythematosus, som er en autoimmun sykdom.
 
----
+Primære frigjøringsforstyrrelser i blodplater er imidlertid vanligvis kvalitative funksjonsdefekter i blodplatene, ofte arvelige, og de drives ikke primært av B-celler eller autoantistoffer. Det er derfor ingen etablert direkte mekanistisk kobling mellom belimumabs virkning og denne tilstanden. Den svært høye TxGNN-scoren (0,9996) er en ren modellprediksjon uten støtte i studier eller litteratur.
 
-## Norges markedsinformasjon
+**Øvrige predikerte indikasjoner** (alle på evidensnivå L5, beslutning Hold):
 
-Belimumab har for øyeblikket ingen markedsføringsautorisasjoner i Norge (markedsstatus: Ikke markedsført; totalt antall autorisasjoner: 0).
-
----
-
-## Sikkerhetshensyn
-
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
-
-*(Merk: TFDA/Norges etikettadvarsler og kontraindikasjoner er merket som en blokkerende datakløft i denne evidenspakken og kunne ikke hentes for denne evalueringen.)*
+| Rangering | Predikert indikasjon | TxGNN-score | Mekanistisk vurdering |
+|------|------|------|------|
+| 2 | Pseudo-von Willebrand sykdom | 99,96 % | Skyldes genetisk gain-of-function i blodplatereseptoren GPIbα, ikke en autoimmun prosess. Ingen plausibel BLyS-mekanisme. |
+| 3 | Glanzmanns trombasteni | 99,88 % | Arvelig mangel eller dysfunksjon av integrin αIIbβ3. Kun en spekulativ, tangentiell kobling via alloantistoffer etter transfusjon. |
+| 4 | Føtal og neonatal alloimmun trombocytopeni (FNAIT) | 99,59 % | Biologisk mest sammenhengende, siden sykdommen skyldes maternelle alloantistoffer. Belimumabs effekt på etablerte plasmaceller er begrenset, og sikkerhetsdata i svangerskap er utilstrekkelige. Standardbehandling er IVIG med eller uten kortikosteroider. |
+| 5 | Alvorlig ikke-proliferativ diabetisk retinopati | 99,05 % | Drives av mikrovaskulær skade og VEGF-signalering. En rolle for BAFF/B-cellebaner er spekulativ. |
+| 6 | Autosomal dominant makrotrombocytopeni | 99,04 % | Arvelige defekter i megakaryopoiese eller cytoskjelett. Ikke autoimmun, og BLyS-hemming forventes ikke å ha nytte. |
 
 ---
 
-## Konklusjon og neste trinn
+## Klinisk studieevidens
 
-**Vedtak: Hold**
+Foreløpig er det ikke registrert noen relaterte kliniske studier.
+
+---
+
+## Litteraturevidens
+
+Foreløpig finnes det ingen relatert litteratur.
+
+---
+
+## Informasjon om det norske markedet
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/002015 | Benlysta | Ikke oppgitt | Systemisk lupus erythematosus |
+
+Merk: Denne godkjenningen har status avregistrert. Det finnes ingen gyldige godkjenninger i Norge i de innsamlede dataene.
+
+---
+
+## Sikkerhetsvurderinger
+
+**Legemiddelinteraksjoner:** Totalt 69 interaksjoner er registrert. Blant dem som er oppført i dataene:
+
+- **Alvorlige (Major):** adalimumab, baricitinib, certolizumab pegol, levende BCG-vaksine (Tice-stammen)
+- **Moderate:** roflumilast, azatioprin, alefacept, alemtuzumab, anakinra, kanakinumab, tetanustoksoid, miltbrannvaksine, adenovirusvaksine (type 4), levende kolera-vaksine, *Candida albicans*, *Bifidobacterium longum infantis*
+- **Mindre (Minor):** sinkacetat, sinkglukonat, sinksulfat, sinkklorid
+
+Hovedmønsteret er additiv immunsuppresjon ved samtidig bruk av andre biologiske og immunmodulerende midler, samt forsiktighet ved levende vaksiner.
+
+Se preparatomtalen for øvrig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den topprangerte forutsatte indikasjonen (primær frigjøringsforstyrrelse av blodplater) mangler en plausibel mekanistisk forbindelse til belimumabs kjente BAFF-hemnings-sti, og har ingen støttende klinisk forsøks- eller litteraturbevis — det eneste koblede forsøket omhandler en urelatert sykdom. Kombinert med en blokkerende datakløft på regulatoriske sikkerhetsopplysninger (DG001), kan denne kandidaten ikke gå videre forbi S0.
+Alle predikerte indikasjoner støttes kun av modellprediksjon (evidensnivå L5), uten kliniske studier eller litteratur. For de to høyest rangerte indikasjonene finnes det ingen plausibel mekanistisk kobling til BLyS-hemming. Belimumab har dessuten ingen gyldig godkjenning i Norge i dag.
 
-**For å gå videre, kreves følgende:**
-- TFDA/Norges pakningsvedleggsdata (advarsler, kontraindikasjoner) — nødvendig før noe S1 sikkerhetskontroll (DG001, blokkering)
-- Bekreftet virkningsmekanisme og godkjent indikasjonsdata fra DrugBank (DG002, høy)
-- Sykdomsenhet-matchende kliniske forsøk eller litteratur som spesifikt studerer belimumab i blodplates frigjørings-/granulutskilnings-forstyrrelse
-- Hvis man forfølger alternative kandidater, rangering 4 (fetal og neonatal alloimun trombocytopeni) viser relativt sterkere mekanistisk plausibilitet (B-celle/alloantistoff-mediiert patologi) og kan forsvare ompriorisering, selv om det også for øyeblikket mangler noe klinisk eller litteraturbevis
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Preparatomtale med advarsler og kontraindikasjoner fra DMP, som er nødvendig for sikkerhetsscreening
+- Prekliniske data eller litteraturgjennomgang, først og fremst for FNAIT som den mest biologisk sammenhengende kandidaten
+- Vurdering av sikkerhet i svangerskap (placentaoverføring av IgG og effekter på føtale B-celler) dersom FNAIT følges opp
+- Avklaring av markedsstatus og tilgjengelige administrasjonsveier i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

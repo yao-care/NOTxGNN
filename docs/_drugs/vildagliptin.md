@@ -2,7 +2,7 @@
 layout: default
 title: Vildagliptin
 parent: Kun modellprediksjon (L5)
-nav_order: 385
+nav_order: 452
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,119 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Vildagliptin: Fra Type 2-diabetes til klassisk stiff person-syndrom
+# Vildagliptin: Fra type 2-diabetes til klassisk stiff person-syndrom
 
-## Sammendrag i én setning
+## Oppsummering
 
-Vildagliptin er en DPP-4-hemmer (dipeptidylpeptidase-IV-hemmer) som opprinnelig ble utviklet for glykemisk kontroll ved type 2-diabetes. TxGNN-modellen forutser at det kan være effektivt for **klassisk stiff person-syndrom**, men denne prognosen er for tiden støttet av **0 kliniske forsøk** og **0 publikasjoner** — det er et rent modellsignal.
-
----
-
-## Rask oversikt
-
-| Element | Innhold |
-|---------|---------|
-| Originalindikasjon | Type 2-diabetes (legemiddelklasse/litteraturbasert; ingen norsk autorisasjon for dette legemidlet) |
-| Foreslått ny indikasjon | Klassisk stiff person-syndrom |
-| TxGNN-prediksjons-score | 99.88% |
-| Bevisnivå | L5 |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+Vildagliptin er en DPP-4-hemmer som opprinnelig brukes til behandling av type 2-diabetes.
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **klassisk stiff person-syndrom**, men det finnes **0 kliniske studier** og **0 publikasjoner** som støtter denne spesifikke prediksjonen.
+Prediksjonen er derfor ren modellberegning uten klinisk støtte.
 
 ---
 
-## Hvorfor er denne prognosen rimelig?
+## Hurtigoversikt
 
-For tiden er detaljerte virkningsmekanisme-data ikke tilgjengelige (DG002, høy alvorlighetsgrad). Basert på litteratur hentet for denne bevissamlingen, er vildagliptin en selektiv DPP-4-hemmer som blokkerer nedbrytningen av incretin-hormonene GLP-1 og GIP, og derved forbedrer glukoseavhengig insulinutskillelse og undertrykker upassende glukagonutskillelse — dens effektivitet ved type 2-diabetes er godt dokumentert.
-
-For den høyest rangerte prognosen, **klassisk stiff person-syndrom**, er det **ingen kjent mekanistisk sammenheng** til DPP-4/incretin-banen. Stiff person-syndrom er en anti-GAD65-autoimmun neurologisk lidelse som påvirker GABAerg inhibitorisk overføring, et biologisk system som er uavhengig av incretin-signalering. Bevissamlingen selv bemerker dette eksplisitt: prognosen hviler utelukkende på TxGNN-innebygningsscore, uten identifiserte støttende forsøk eller publikasjoner.
-
-I kontrast har andre kandidater lenger ned på modellens rangerte liste sterkere biologisk plausibilitet — særlig **type 1-diabetes** (rangering 10), der DPP-4-hemming teoretisk kunne forlenge endogen GLP-1-aktivitet for å støtte gjenværende β-cellfunksjon, og dette er støttet av et faktisk randomisert kontrollert forsøk (se Konklusjon). Denne toppprognosen bør derfor leses som et mekanismeagnostisk modellresultat med lav tillit snarere enn som en biologisk grunnlagt hypotese.
-
----
-
-## Bevis fra kliniske forsøk
-
-For tiden er det ingen registrerte relaterte kliniske forsøk.
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Diabetes mellitus, type 2 |
+| Predikert ny indikasjon | Klassisk stiff person-syndrom |
+| TxGNN-prediksjonsscore | 99,88 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun trukkede tillatelser (ingen gyldige) |
+| Antall tillatelser | 7 (alle trukket tilbake) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Bevis fra litteratur
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-For tiden er det ingen tilgjengelig relatert litteratur.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Vildagliptin hemmer enzymet DPP-4. Dermed øker aktivt GLP-1 og GIP, noe som gir økt glukoseavhengig insulinsekresjon og redusert glukagonsekresjon. Dette er veldokumentert ved type 2-diabetes.
 
----
+Stiff person-syndrom er derimot en autoimmun sykdom i det GABAerge systemet, typisk med anti-GAD65-antistoffer. DPP-4-hemming har ingen etablert rolle i denne sykdommen. Den høye scoren skyldes trolig at kunnskapsgrafen kobler diabetes og GAD-relatert autoimmunitet som nærliggende noder, og ikke at det finnes et selvstendig biologisk signal.
 
-## Informasjon om norsk marked
-
-Vildagliptin har for tiden **ingen markedsføringstillatelse** i Norge (markedsstatus: Ikke markedsført; 0 autorisasjoner registrert). Det finnes ingen data på produktnivå for doseringsform eller godkjent indikasjon på dette markedet.
+Den nest rangerte prediksjonen, fokalt stiff limb-syndrom, har nøyaktig samme score. Det tyder på en grafnabolagseffekt og ikke et uavhengig signal. Heller ikke den har støtte i studier eller litteratur.
 
 ---
 
-## Sikkerhetshensyn
+## Klinisk studieevidens
 
-Vennligst se pakkeseddelen for sikkerhetsinformasjon.
+Foreløpig ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+Foreløpig ingen relatert litteratur tilgjengelig.
+
+---
+
+## Andre predikerte indikasjoner med evidens: type 1-diabetes
+
+Av de ti predikerte indikasjonene er det bare **type 1 diabetes mellitus** (rang 10, score 99,37 %) som har klinisk evidens. Den får evidensnivå **L2** og vurderes som et forskningsspørsmål. Alle de andre, bortsett fra pankreasagenesi (kun generell litteratur, ingen relevant støtte), mangler studier og litteratur helt.
+
+**Utvalgte kliniske studier (type 1-diabetes)**
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
+|---------|------|------|------|---------|
+| [NCT02803892](https://clinicaltrials.gov/study/NCT02803892) | Fase 2 | Fullført | 55 | Rapamycin pluss vildagliptin for å gjenopprette betacellefunksjon ved langvarig type 1-diabetes. Kombinasjonsdesignet gjør at effekten ikke kan tilskrives vildagliptin alene. |
+| [NCT01559025](https://clinicaltrials.gov/study/NCT01559025) | Fase 3 | Ukjent | 44 | Vildagliptin som tillegg til insulin ved nydiagnostisert type 1-diabetes, med fokus på restbetacellefunksjon og betennelsesmarkører. Liten studie med ukjent status, så den kan ikke regnes som bekreftet fase 3-evidens. |
+| [NCT01147276](https://clinicaltrials.gov/study/NCT01147276) | Fase 4 | Fullført | 28 | Effekt på glukagonrespons under hypoglykemi ved type 1-diabetes. |
+| [NCT01452113](https://clinicaltrials.gov/study/NCT01452113) | Fase 2 | Fullført | 21 | DPP-4-hemmerens effekt på glukagonsekresjon ved type 1-diabetes med og uten autonom nevropati. Støtter mekanismen, men ikke kliniske utfall. |
+
+**Utvalgt litteratur (type 1-diabetes)**
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [33124663](https://pubmed.ncbi.nlm.nih.gov/33124663/) | 2021 | RCT | J Clin Endocrinol Metab | Dobbeltblind studie av rapamycin pluss vildagliptin for å gjenopprette betacellefunksjon ved langvarig type 1-diabetes. |
+| [39318059](https://pubmed.ncbi.nlm.nih.gov/39318059/) | 2024 | RCT | Diabetes Obes Metab | Vildagliptin som tilleggsbehandling hos ungdom med type 1-diabetes og NASH: effekt på MMP-14, leverstivhet og subklinisk aterosklerose. |
+| [38057844](https://pubmed.ncbi.nlm.nih.gov/38057844/) | 2023 | Klinisk studie (RCT) | Diabetol Metab Syndr | Tilleggsbehandling med vildagliptin mot blodsukkerutslag etter iftar under ramadan hos personer med type 1-diabetes på lukket sløyfe-system. |
+| [22855332](https://pubmed.ncbi.nlm.nih.gov/22855332/) | 2012 | Klinisk mekanismestudie | J Clin Endocrinol Metab | Vildagliptin reduserer glukagon ved hyperglykemi og opprettholder glukagonrespons ved hypoglykemi ved type 1-diabetes. |
+| [30848158](https://pubmed.ncbi.nlm.nih.gov/30848158/) | 2019 | Oversikt | Expert Opin Investig Drugs | DPP-4-hemmere kan modulere betacellefunksjon og gi beskyttelse mot immunmediert betacelleødeleggelse ved type 1-diabetes. |
+| [23523961](https://pubmed.ncbi.nlm.nih.gov/23523961/) | 2013 | Prekliniske data (rotte) | Arch Med Res | Vildagliptin reduserer oksidativt stress og betacelleødeleggelse hos rotter med type 1-diabetes. |
+
+Klinisk nytte som tilleggsbehandling ved type 1-diabetes er ikke etablert, og de viktigste studiene er små.
+
+---
+
+## Markedsinformasjon for Norge
+
+Alle 7 registrerte tillatelser er sentrale EU-tillatelser (EMEA) som er trukket tilbake. Det finnes ingen gyldige tillatelser. Doseringsform er ikke oppgitt i dataene.
+
+| Tillatelsesnummer | Produktnavn | Innehaver | Godkjent indikasjon | Status |
+|---------|------|------|-----------|------|
+| EMEA/H/C/000771 | Galvus | Novartis Europharm Limited | Diabetes mellitus, type 2 | Trukket tilbake |
+| EMEA/H/C/001048 | Jalra | Novartis Europharm Limited | Diabetes mellitus, type 2 | Trukket tilbake |
+| EMEA/H/C/001051 | Xiliarx | Novartis Europharm Limited | Diabetes mellitus, type 2 | Trukket tilbake |
+| EMEA/H/C/001049 | Zomarist | Novartis Europharm Limited | Diabetes mellitus, type 2 | Trukket tilbake |
+| EMEA/H/C/000807 | Eucreas | Novartis Europharm Limited | Diabetes mellitus, type 2 | Trukket tilbake |
+
+Totalt er det 7 tillatelser. De to siste er Icandra (EMEA/H/C/001050) og Vildagliptin / Metformin hydrochloride Accord (EMEA/H/C/005738).
+
+---
+
+## Sikkerhetsvurderinger
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+Dataene som er samlet inn for denne rapporten inneholder følgende:
+
+- **Farmakologiske mål**: Vildagliptin binder DPP-4 (hovedmålet) samt DPP-8, DPP-9 og TRPV4. Dette er målbindingsdata og ikke kliniske legemiddelinteraksjoner.
+- **Sikkerhetssignal fra litteraturen**: En kasuistikk fra 2026 (PMID [42539684](https://pubmed.ncbi.nlm.nih.gov/42539684/)) beskriver sannsynlig vildagliptinassosiert akutt pankreatitt hos en pasient med velkontrollert type 2-diabetes. Sammenhengen mellom DPP-4-hemmere og pankreatitt er fortsatt omdiskutert.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den høyest rangerte foreslåtte indikasjonen (klassisk stiff person-syndrom) har ingen mekanistisk begrunnelse, ingen bevis fra kliniske forsøk, og ingen støttende litteratur — det er en ren L5-modellprediksjon. Kombinert med mangel på norsk markedsføringstillatelse og manglende sikkerhet-/virkningsmekanisme-data, er det ingen grunnlag for å fremme denne kandidaten.
+Prediksjonen for klassisk stiff person-syndrom bygger kun på modellberegning (evidensnivå L5), uten kliniske studier, litteratur eller plausibel mekanisme. Av alle de predikerte indikasjonene er det kun type 1-diabetes som har rimelig støtte (L2). Der er studiene små, og kombinasjonen med rapamycin gjør at effekten ikke kan tilskrives vildagliptin alene.
 
-**For å gå videre er følgende nødvendig:**
-- Offisiell produktetikett / regulatoriske sikkerhetsdata (advarsler, kontraindikasjoner) — for tiden blokkerer (DG001)
-- Verifisert virkningsmekanisme-data fra DrugBank eller tilsvarende kilde (DG002)
-- Uavhengig mekanistisk eller preklinisk begrunnelse som forbinder DPP-4-hemming til GAD65-mediiert autoimmun neurologisk sykdom før ytterligere evaluering
-- **Alternativ kandidat verdt å følge opp i stedet:** type 1-diabetes (rangering 10) har allerede L2/S2 "Forskningsspørsmål"-status, inkludert et gjennomført dobbeltblindt RCT (rapamycin + vildagliptin, PMID 33124663) med mål om gjenoppretting av β-cellfunksjon — dette er et vesentlig sterkere gjenbrukssignal enn den høyest rangerte prognosen og kan berettige egen evaluering
-
+**For å gå videre trengs følgende:**
+- Detaljerte data om virkningsmekanisme (MOA), blant annet for å vurdere om det finnes en biologisk kobling til GABAerge eller autoimmune veier.
+- Informasjon fra preparatomtale/pakningsvedlegg om advarsler og kontraindikasjoner, som er nødvendig for en sikkerhetsscreening.
+- For en eventuell videre prioritering: vurder type 1-diabetes som en mer realistisk kandidat, og innhent større, kontrollerte studier av vildagliptin alene.
+- Avklaring av markedssituasjonen i Norge, siden alle tillatelser er trukket tilbake.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

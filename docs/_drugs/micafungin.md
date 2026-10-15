@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Micafungin
-parent: Kun modellprediksjon (L5)
-nav_order: 230
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 271
+evidence_level: L3
 indication_count: 1
 ---
 
 # Micafungin
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
+Evidensnivå: **L3** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,93 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Micafungin: Fra invasiv kandidasis til infeksjon i urinveiene (Candida spp.)
+# Mikafungin: Fra candidiasis til urinveisinfeksjon
 
-## Sammendrag av hovedpunkter
+## Oppsummering i én setning
 
-Micafungin er et echinocandin-antisvampmiddel som opprinnelig er beregnet for behandling av invasiv kandidasis og øsofageal kandidasis. TxGNN-modellen forutsier at det kan være effektivt mot **infeksjon i urinveiene (Urinary Tract Infection)** – særlig infeksjon i urinveiene forårsaket av Candida-arter – selv om det foreløpig ikke er støttet av formelle kliniske forsøk, finnes det allerede **14 publikasjoner** (inkludert retrospektive kohortestudier, pasientserier og kasuistikker) som dokumenterer erfaringer fra virkelig klinisk bruk.
+Mikafungin er et ekinokandin-soppmiddel som opprinnelig brukes til behandling av candidiasis.
+TxGNN-modellen predikerer at det kan være effektivt mot **urinveisinfeksjon** (i praksis candiduri og urinveisinfeksjon forårsaket av Candida),
+men det finnes foreløpig **ingen registrerte kliniske studier**. Støtten kommer fra **12 publikasjoner**, hovedsakelig kasuistikker, kasusserier og retrospektive kohortstudier.
 
 ---
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
-|-------|---------|
-| Opprinnelig indikasjon | Invasiv kandidasis (Invasive Candidiasis) / øsofageal kandidasis (generell klassifikasjonskunnskap om legemidler; denne bevissamlingen gir ikke lokalisert godkjenningsinformasjon for indikasjoner) |
-| Foreslått ny indikasjon | Infeksjon i urinveiene (Urinary Tract Infection) (infeksjon i urinveiene relatert til Candida-arter) |
-| TxGNN-prediksjonspoeng | 99.03% |
-| Bevisnivå | L3 (retrospektive kohortestudier + pasientserier, ingen randomiserte kontrollerte forsøk) |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt vedtak | Hold |
+|------|------|
+| Opprinnelig indikasjon | Candidiasis |
+| Predikert ny indikasjon | Urinveisinfeksjon |
+| TxGNN-prediksjonsscore | 99,03 % |
+| Evidensnivå | L3 |
+| Markedsstatus i Norge | Kun avregistrert |
+| Antall godkjenninger | 1 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prognosen rimelig?
+## Hvorfor er denne prediksjonen rimelig?
 
-Det finnes foreløpig ingen detaljert mekanismeinformasjon (MOA). Basert på tilgjengelig informasjon er Micafungin et echinocandin-antisvampmiddel som utøver fungisid/fungistatisk virkning ved å hemme (1,3)-β-D-glucan synthase i svampecellveggen. Dets effektivitet er bekreftet ved invasiv kandidasis.
+Detaljerte data om virkningsmekanisme var ikke tilgjengelige i de innsamlede dataene. Basert på kjent kunnskap om legemiddelklassen hemmer mikafungin, som ekinokandin, enzymet 1,3-beta-D-glukansyntase og forstyrrer dermed syntesen av soppens cellevegg. Legemidlet er allerede godkjent for candidiasis.
 
-Opprinnelig indikasjon (invasiv kandidasis) og foreslått ny indikasjon (infeksjon i urinveiene) har samme etiologiske agens – begge forårsaket av Candida-arter, med bare forskjell i infeksjonssted. Flere publikasjoner viser at selv om Micafungin har høy proteinbinding i blod og tradisjonelt anses å ha lav urinekskresjon, er det i flere pasienttilfeller observert at urinkonsentrasjonen er tilstrekkelig til å eliminere Candida (inkludert resistente stammer som C. krusei, C. glabrata, C. auris) som forårsaker infeksjon i urinveiene, og mekanistisk har dette rimelig utvidelse av anvendelighet.
+Candida-arter er en anerkjent årsak til urinveisinfeksjon (candiduri). Soppmekanismen er derfor direkte relevant. En viktig farmakologisk forbehold er at ekinokandiner historisk har vist lav utskillelse av aktivt legemiddel i urin. Én studie (PMID 27424599) rapporterer imidlertid at urinkonsentrasjonene av mikafungin er tilstrekkelige til å behandle Candida-urinveisinfeksjoner, noe som delvis adresserer denne bekymringen.
 
-Det er verdt å merke seg at mye av beviset er observasjonsdata fra bruk hos høyrisikopopulasjoner (transplantasjonspasienter, barn på intensivavdelinger, premature spedbarn, immunosvekket pasienter), som reflekterer praktisk klinisk bruk når andre effektive alternativer mangler, og ikke fra formelt designede randomiserte kontrollerte forsøk.
-
----
-
-## Kliniske forsøksbeviser
-
-Ingen relevante kliniske forsøk er registrert
+Den høye TxGNN-scoren (0,99) er forenlig med dette, men er kun en modellprediksjon og er ikke vektlagt som klinisk evidens. Koblingen hviler på generell kunnskap om legemiddelklassen, ikke på mekanismedata i det innsamlede materialet.
 
 ---
 
-## Litteraturbeviser
+## Evidens fra kliniske studier
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
-|------|-----|------|----------|---------|
-| [29109159](https://pubmed.ncbi.nlm.nih.gov/29109159/) | 2018 | Retrospektiv kohortestudie | Antimicrobial Agents and Chemotherapy | Multisentertudie som evaluerte behandling av asymptomatisk kandidiuri hos innlagte pasienter, som fremhever bruksmønsteret for antisvampmidler |
-| [27587066](https://pubmed.ncbi.nlm.nih.gov/27587066/) | 2016 | Retrospektiv studie | International Urology and Nephrology | Evaluering av eliminasjonsrate av kandidiuri hos innlagte pasienter behandlet med Micafungin |
-| [35146837](https://pubmed.ncbi.nlm.nih.gov/35146837/) | 2022 | Kohortestudie | Pediatrics International | Analyse av behandlingssuksessrate med Micafungin for Candida-infeksjon i urinveiene hos barn på PICU |
-| [39781278](https://pubmed.ncbi.nlm.nih.gov/39781278/) | 2025 | Observasjonsstudie | Therapeutic Advances in Infectious Disease | Undersøkelse av Candida-artsdistribusjon og antisvampmiddel-følsomhet ved vulvovaginitt og infeksjon i urinveiene i Vietnam |
-| [27424599](https://pubmed.ncbi.nlm.nih.gov/27424599/) | 2016 | Kasuistikkserie | International Journal of Antimicrobial Agents | Kasuistikkserie som dokumenterte at Micafungin-konsentrasjon i urin hos 6 pasienter med infeksjon i urinveiene var tilstrekkelig til å behandle Candida-infeksjon, inkludert fluconazol-resistente stammer |
-| [26937340](https://pubmed.ncbi.nlm.nih.gov/26937340/) | 2016 | Kasuistikkserie | Medical Mycology Case Reports | Kasuistikkserie på 5 pasienter med kandidiuri som mottok intravenøs Micafungin-behandling, med svampeeliminasjon innen 30 dager |
-| [31111613](https://pubmed.ncbi.nlm.nih.gov/31111613/) | 2019 | Kasuistikk | Transplant Infectious Disease | Lever- og nyretransplantasjonspassient som ble vellykket kurert for kronisk symptomatisk C. krusei-infeksjon i urinveiene med høydose Micafungin |
-| [38827222](https://pubmed.ncbi.nlm.nih.gov/38827222/) | 2024 | Kasuistikk | Frontiers in Pediatrics | Kasuistikk av vellykket Micafungin-behandling av C. glabrata-infeksjon i urinveiene hos prematurtvunget spedbarn |
-| [40765059](https://pubmed.ncbi.nlm.nih.gov/40765059/) | 2025 | Kasuistikk | Journal of Pharmaceutical Health Care and Sciences | Kasuistikk av SGLT2-inhibitor-bruker med samtidig C. glabrata pyelonefritt og kandidemi, vellykket behandlet med Micafungin |
-| [33520520](https://pubmed.ncbi.nlm.nih.gov/33520520/) | 2020 | Kasuistikk | Cureus | Kasuistikk av Candida auris-infeksjon i urinveiene hos pasient med flere komorbiditeter på sykehjem |
+Foreløpig er ingen relevante kliniske studier registrert.
 
 ---
 
-## Norsk markedsinformasjon
+## Litteraturevidens
 
-Micafungin har foreløpig ikke oppnådd markedsføringstillatelse i Norge (totalt antall godkjenninger: 0), og ingen lokale produktinformasjoner er tilgjengelige.
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [35146837](https://pubmed.ncbi.nlm.nih.gov/35146837/) | 2022 | Kohort (pediatrisk behandlingsserie) | Pediatr Int | Resultater hos kritisk syke barn som fikk mikafungin mot sykehuservervet Candida-urinveisinfeksjon |
+| [27587066](https://pubmed.ncbi.nlm.nih.gov/27587066/) | 2016 | Retrospektiv kohort | Int Urol Nephrol | Andel pasienter med eliminert candiduri etter mikafungin hos innlagte pasienter |
+| [27424599](https://pubmed.ncbi.nlm.nih.gov/27424599/) | 2016 | Farmakokinetisk studie | Int J Antimicrob Agents | Seks pasienter behandlet vellykket; urinnivåer av mikafungin vurdert som tilstrekkelige |
+| [26937340](https://pubmed.ncbi.nlm.nih.gov/26937340/) | 2016 | Kasusserie | Med Mycol Case Rep | Fem pasienter med candiduri; fungal klaring innen 30 dager etter behandling |
+| [31111613](https://pubmed.ncbi.nlm.nih.gov/31111613/) | 2019 | Kasuistikk og oversikt | Transpl Infect Dis | Vellykket utryddelse av kronisk C. krusei-urinveisinfeksjon med økt mikafungindose hos transplantert pasient |
+| [38827222](https://pubmed.ncbi.nlm.nih.gov/38827222/) | 2024 | Kasuistikk | Front Pediatr | C. glabrata-urinveisinfeksjon hos et premat nyfødt barn behandlet med mikafungin |
+| [38681664](https://pubmed.ncbi.nlm.nih.gov/38681664/) | 2024 | Kasuistikk | Med Mycol Case Rep | Nyresoppball (C. glabrata) behandlet med soppmiddel, endoskopisk fjerning og stent; isolatet var mikafungin-følsomt |
+| [40765059](https://pubmed.ncbi.nlm.nih.gov/40765059/) | 2025 | Kasuistikk | J Pharm Health Care Sci | Pyelonefritt og bakteriemi forårsaket av C. glabrata, vellykket behandlet med mikafungin |
+| [33520520](https://pubmed.ncbi.nlm.nih.gov/33520520/) | 2020 | Kasuistikk | Cureus | C. auris-urinveisinfeksjon hos beboer på sykehjem (bruk av mikafungin er ikke bekreftet) |
+| [29109159](https://pubmed.ncbi.nlm.nih.gov/29109159/) | 2018 | Kohort (flere institusjoner) | Antimicrob Agents Chemother | Overbehandling av asymptomatisk candiduri; kontekst, ikke effektevidens |
 
 ---
 
-## Sikkerhetshensyn
+## Markedsinformasjon for Norge
 
-Vennligst se produktinformasjonen for legemidler for fullstendig sikkerhetsinformasjon.
-
-> Merk: Denne bevissamlingen har flagget "DMP package insert warnings/contraindications" som en datakløft på **Blocking**-nivå. Kritiske advarsler, kontraindikasjoner og legemiddelinteraksjonsdata som er nødvendige for sikkerhetsinitial-evaluering, er foreløpig ikke innhentet.
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000734 | Mycamine (avregistrert) | – | Candidiasis |
 
 ---
 
-## Konklusjon og videre anbefalinger
+## Sikkerhetsvurderinger
 
-**Vedtak: Hold**
+- **Kontraindikasjoner fra kunnskapsgrafen (ikke fra preparatomtale):** nyresykdom og pyoureter (pus i urinlederen). Dette er relevant siden den predikerte indikasjonen gjelder urinveiene.
+- **Legemiddelinteraksjoner (moderat alvorlighetsgrad):** amfotericin B, nitisinon, everolimus, ribociklib og sirolimus.
+
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Det eksisterende beviset består hovedsakelig av kasuistikker og små retrospektive studier, og det mangler randomiserte kontrollerte forsøk. Legemidlet har ikke oppnådd markedsføringstillatelse i Norge. Kritisk er det at pakningsvedlegg-advarsler og kontraindikasjonsdata som er nødvendige for sikkerhetsinitial-evaluering, er Blocking-nivå datakløfter og hindrer fullføring av S1-sikkerhetsevaluering.
+Evidensen består hovedsakelig av kasuistikker, kasusserier og retrospektive kohortstudier, uten registrerte kliniske studier. Lav urinutskillelse av aktivt legemiddel er et reelt farmakologisk forbehold, og preparatet er kun avregistrert i Norge. TxGNN-scoren er kun en prediksjon og er ikke vektlagt som klinisk evidens.
 
-**For å gå videre er det nødvendig å:**
-- Innhent fullstendige pakningsvedlegg-advarsler og kontraindikasjonsdata fra TFDA/originalleverandør (DG001, Blocking)
-- Suppleer detaljerte mekanismeinformasjoner fra DrugBank for å styrke analysen av mekanistisk relevans (DG002, High)
-- Vurder om det finnes noen formelt designede prospektive kliniske forsøk planlagt (for tiden ingen)
-- Bekreft markedsførings- og godkjenningsstatus i Norge eller andre markeder
-
+**For å gå videre kreves følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner (kritisk mangel som blokkerer sikkerhetsscreening)
+- Data om virkningsmekanisme fra DrugBank
+- Sammenligning av urinkonsentrasjoner og klinisk effekt i prospektive studier, helst kontrollerte
+- Vurdering av nyrefunksjon og pyoureter, gitt kontraindikasjonene fra kunnskapsgrafen
+- Avklaring av tilgjengelighet og doseringsformer i Norge, siden den eneste godkjenningen er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

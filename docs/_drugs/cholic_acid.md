@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cholic Acid
-parent: Kun modellprediksjon (L5)
-nav_order: 87
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 98
+evidence_level: L4
 indication_count: 10
 ---
 
 # Cholic Acid
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,95 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Kolesyre: Fra ingen registrert indikasjon til HIV-infeksjonssykdom
+# Kolsyre: Fra fordøyelsessykdommer og medfødte metabolske sykdommer til HIV-infeksjon
 
-## Sammenfatting i én setning
+## Oppsummering
 
-> Kolesyre (DrugBank DB02659) har ingen registrert indikasjon eller data om virkningsmekanisme tilgjengelig i denne bevissamlingen, og det er ikke for tiden markedsført i Norge.
-> TxGNN-modellens topprankede prediksjon er **HIV-infeksjonssykdom** (score 99.79%),
-> men de **9 støttepublikasjoner** er for det meste ikke relatert (spermisid/prevensjonsmiddel, blodproduktsterilisering, biomarkerstudier) eller aktivt **motstridende** mot den forutsagte retningen — én studie viser at kolesyrederivativer *fremmer* HIV-1-replikasjon i stedet for å hemme det.
+Kolsyre (cholic acid) er en gallesyre som brukes til å behandle sjeldne forstyrrelser i gallesyresyntesen. Legemidlet er markedsført i Europa under navnet Orphacol. TxGNN-modellen forutsier at det kan ha effekt mot **HIV-infeksjon**, men det finnes **ingen kliniske studier** og bare **5 publikasjoner**. Disse er hovedsakelig prekliniske eller indirekte, og én av dem peker i motsatt retning.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Emne | Innhold |
-|------|--------|
-| Opprinnelig indikasjon | Ikke tilgjengelig — ingen indikasjon registrert, medikament ikke markedsført |
-| Forutsagt ny indikasjon | HIV-infeksjonssykdom |
-| TxGNN-prediksjonscore | 99.79% |
-| Bevisnivå | L5 |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
-
----
-
-## Hvorfor er denne prediksjonen rimelig?
-
-For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelig, og ingen opprinnelig indikasjon er registrert for kolesyre i dette datasettet. Basert alene på bevissamlingen kan ingen pålitelig farmakologisk begrunnelse som forbinder kolesyre til HIV-behandling etableres.
-
-Uavhengig av topprankede HIV-prediksjon inneholder bevissamlingen materiale (knyttet til en lavere-rangert kandidat, "vitaminmangelsykdom") som indikerer at kolesyre klinisk brukes som gallesyreerstatning (f.eks. Cholbam®) i sjeldne forstyrrelser i gallesyresyntese — dette er medikamentets kjente kliniske bruk, selv om det ikke er "opprinnelig indikasjon" formelt registrert her.
-
-For HIV-prediksjonen spesifikt er den mekanistiske begrunnelsen svak til motstridende. Den støttende litteraturen omhandler i stor grad kolesyres **topikale spermisidale/overflateaktive egenskaper** i vaginale prevensjonssponger (med tilfeldig *in vitro*-anti-HIV-aktivitet i denne lokale sammenhengen) — ikke systemisk antiretroviral aktivitet. Mer kritisk rapporterer én studie (PMID 16610808) at aminofunksjonalisert kolesyrederivativer **forverrer** HIV-1-replikasjon og synkytiadannelse i T-celler — det motsatte av en terapeutisk effekt. Dette er konsistent med pipelineens egen vurdering (Bevisnivå L5, beslutningsstadium S0) om at denne prediksjonen mangler troverdige mekanistiske eller kliniske bevis.
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Fordøyelsessykdommer; medfødte metabolske sykdommer (gallesyresyntesedefekter) |
+| Predikert ny indikasjon | HIV-infeksjon (HIV infectious disease) |
+| TxGNN-prediksjonsscore | 99,79 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun avregistrert/trukket tilbake |
+| Antall godkjenninger | 1 (ingen gyldige) |
+| Anbefalt beslutning | Hold (avvente) |
 
 ---
 
-## Kliniske forsøksresultater
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-For tiden finnes ingen relaterte kliniske forsøk registrert.
+Data om virkningsmekanisme er for tiden ikke tilgjengelig i selve legemiddeldatabasen. Farmakologidata viser likevel at kolsyre er en naturlig gallesyre og binder seg til reseptorene **GPBA (TGR5)** og **farnesoid X-reseptoren (FXR)**. Disse styrer gallesyre-, lipid- og energiomsetning. Ved syntesedefekter erstatter kolsyre den manglende gallesyren og reduserer toksiske mellomprodukter.
 
----
+Koblingen til HIV er svak. Gallesyrer er ikke kjent som antivirale midler i klinisk praksis. Det finnes to indirekte laboratoriefunn:
 
-## Litteraturbevis
+- En studie fra 1993 viste at natriumkolat hadde sæddrepende og antiviral (anti-HIV-1) aktivitet *in vitro*, som del av en vaginal svamp med flere virkestoffer.
+- En studie fra 2006 viste at aminofunksjonaliserte kolsyrederivater **økte** HIV-1-replikasjon og dannelse av syncytier i T-celler. Dette peker i motsatt retning.
 
-| PMID | År | Type | Tidsskrift | Nøkkelfunn |
-|------|-----|------|-------------|---------|
-| [16610808](https://pubmed.ncbi.nlm.nih.gov/16610808/) | 2006 | In vitro (negativ retning) | J Med Chem | Aminofunksjonalisert kolesyrederivativer **fremmet** HIV-1-replikasjon og synkytiadannelse i T-celler — motsier den forutsagte terapeutiske retningen |
-| [7688380](https://pubmed.ncbi.nlm.nih.gov/7688380/) | 1993 | Klinisk (spermisid/prevensjonsmiddel) | Hum Reprod | Kolesyre (natriumkholat), som del av prevensjonsspongen Protectaid, viste doseavhengig *in vitro*-hemming av HIV-1-revers transkriptase — lokal effekt, ikke systemisk antiretroviral bevis |
-| [20030469](https://pubmed.ncbi.nlm.nih.gov/20030469/) | 2010 | Kohortstudie (biomarkør/PK) | Pharmacotherapy | Vurderte plasmakonsentrasjoner av gallesyrer hos HIV-pasienter på proteasehemmertherapier som mulig hepatotoksisitetsmarkør — ikke en behandlingsstudie |
-| [2870224](https://pubmed.ncbi.nlm.nih.gov/2870224/) | 1986 | Ikke klassifisert | Lancet | Natriumkholat + tri(n-butyl)fosfat brukt for å sterilisere hepatitt/HTLV-III-virus i blodprodukter — en ex vivo-dekontamineringsmetode, ikke en klinisk HIV-behandling |
-| [9238301](https://pubmed.ncbi.nlm.nih.gov/9238301/) | 1997 | Ikke klassifisert | Ann NY Acad Sci | Tittel gjelder anti-STI-vaginalsponger; ingen abstrakt tilgjengelig |
-| [7848210](https://pubmed.ncbi.nlm.nih.gov/7848210/) | 1994 | Ikke klassifisert | Aust NZ J Obstet Gynaecol | Generell gjennomgang av fremtidlige prevensjonsmidler i sammenheng med HIV/STI-beskyttelse; ikke spesifikk for kolesyre |
-| [8849197](https://pubmed.ncbi.nlm.nih.gov/8849197/) | 1995 | Ikke klassifisert | Ann Acad Med Singapore | Gjennomgang av barriereprevensjonsmetoder (hovedsakelig kondomer) og STI/HIV-beskyttelse; ikke spesifikk for kolesyre |
-| [32052857](https://pubmed.ncbi.nlm.nih.gov/32052857/) | 2020 | Ikke klassifisert | Hepatology | Gjennomgang av nye NASH-medikamenter hos HIV-pasienter, som diskuterer bekymringer for legemiddel-legemiddel-interaksjon med antiretrovirale midler; ikke relatert til kolesyre-effektivitet |
-| [28745428](https://pubmed.ncbi.nlm.nih.gov/28745428/) | 2017 | Ikke klassifisert | ChemMedChem | Metodologisk artikkel om hvordan detergensen Triton X-100 kan forvrenge resultater fra HIV-1-proteasehemmersøk; ikke relatert til kolesyre |
-
-**Merknad:** Ingen av ovenstående litteraturkilder demonstrerer systemisk antiretroviral effektivitet av kolesyre. Det mest direkte relevante funnet (PMID 16610808) peker i motsatt terapeutisk retning.
+De motstridende signalene og fraværet av kliniske data gjør at den høye modellscoren ikke er underbygd av evidens.
 
 ---
 
-## Norsk markedsinformasjon
+## Klinisk evidens
 
-Kolesyre er for tiden **ikke markedsført** i Norge (markedsstatus: Ikke markedsført), og ingen autorisasjonsregistreringer er tilgjengelige i dette datasettet.
-
----
-
-## Sikkerhetshensyn
-
-Vennligst referer til pakningsvedlegget for sikkerhetsinformasjon. Viktige advarsler, kontraindikasjoner og data om legemiddelinteraksjoner er for tiden ikke tilgjengelig (flagget som datahull DG001 — advarsler/kontraindikasjoner fra TFDA-ekvivalent merkeetikett ennå ikke innhentet).
+Foreløpig er det ikke registrert noen relaterte kliniske studier.
 
 ---
 
-## Konklusjon og neste trinn
+## Litteraturevidens
 
-**Beslutning: Avvent**
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [7688380](https://pubmed.ncbi.nlm.nih.gov/7688380/) | 1993 | Preklinisk/prevensjonsstudie | Human Reproduction | Natriumkolat viste sæddrepende og anti-HIV-1-aktivitet *in vitro*; en vaginal svamp (Protectaid) ble utviklet som prevensjonsmiddel |
+| [16610808](https://pubmed.ncbi.nlm.nih.gov/16610808/) | 2006 | In vitro | Journal of Medicinal Chemistry | Nye kolsyrederivater økte HIV-1-replikasjon og syncytiedannelse i T-celler (motsatt av antiviral effekt) |
+| [20030469](https://pubmed.ncbi.nlm.nih.gov/20030469/) | 2010 | Observasjonsstudie | Pharmacotherapy | Målte gallesyrenivåer i plasma hos HIV-pasienter på proteasehemmere. Ikke en terapeutisk studie |
+| [7848210](https://pubmed.ncbi.nlm.nih.gov/7848210/) | 1994 | Oversikt | Aust NZ J Obstet Gynaecol | Fremtidens prevensjonsmidler og beskyttelse mot hiv og andre seksuelt overførbare sykdommer. Ingen direkte data om kolsyre |
+| [8849197](https://pubmed.ncbi.nlm.nih.gov/8849197/) | 1995 | Oversikt | Ann Acad Med Singapore | Barrieremetoder mot unnfangelse og smitte. Ingen direkte data om kolsyre |
+
+---
+
+## Markedsinformasjon for Norge
+
+| Godkjenningsnummer | Produktnavn | Doseform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/001250 | Orphacol (Theravia) | Ikke oppgitt | Fordøyelsessykdommer; medfødte metabolske sykdommer (status: avregistrert) |
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Kontraindikasjoner fra kunnskapsgrafen** (PrimeKG, ikke preparatomtale): leversykdom, galleblæresykdom, diarésykdom, kolestase, godartet tilbakevendende intrahepatisk kolestase, familiær intrahepatisk kolestase, blindtarmbetennelse, sklerosende kolangitt, primær biliær kolangitt og Reynolds syndrom.
+- **Legemiddelinteraksjoner:** 12 oppføringer ble funnet, hvorav 10 er av moderat alvorlighetsgrad:
+  - Gallesyrebindere: kolestyramin, kolesevelam og kolestipol
+  - Antacida og slimhinnebeskyttende midler: aluminiumhydroksid og sukralfat
+  - Andre: ciklosporin, fenobarbital, ribociklib, sorafenib og tipranavir (en HIV-proteasehemmer, relevant for den predikerte indikasjonen)
+- **Farmakologiske mål:** kolsyre er ligand for reseptorene GPBA og FXR.
+
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Topprankede prediksjon (HIV-infeksjonssykdom) er støttet kun av tangensielle eller motstridende resultater — ingen studie demonstrerer systemisk antiretroviral effektivitet av kolesyre, og én *in vitro*-studie viser motsatt effekt (økt HIV-1-replikasjon). Kombinert med fraværet av data om virkningsmekanisme, data om opprinnelig indikasjon, og norsk markedsregistrering oppfyller denne kandidaten ikke terskelen for å avansere utover S0.
+- Evidensen for HIV er kun preklinisk og indirekte, og ett funn tyder på økt viral replikasjon. Det finnes ingen kliniske studier.
+- Orphacol er i tillegg avregistrert i Norge.
 
-**For å fortsette er følgende nødvendig:**
-- Løse datahull DG001: innhente advarsler og kontraindikasjoner fra TFDA-ekvivalent merkeetikett før noen sikkerhetsvurdering på stadiet S1
-- Løse datahull DG002: bekrefte virkningsmekanisme via DrugBank eller primærlitteratur
-- Identifisere enhver dedikert farmakologisk eller klinisk studie som direkte tester kolesyre (eller et spesifikt derivat) for antiretroviral aktivitet, ideelt løst det motstridende *in vitro*-signalet fra PMID 16610808
-- Klargjøre kolesyres faktiske regulatoriske status og godkjent(e) indikasjon(er) i Norge/sammenlignbare markeder, siden ingen er foreløpig registrert
-- Gitt de svake og delvis negative bevisene anbefales denne kandidaten ikke for videre investering med mindre nye støttende data oppstår
+**For å gå videre kreves:**
+- Eksperimentelle data (celle- og dyremodeller) som viser en reproduserbar antiviral effekt av kolsyre selv, ikke av derivater.
+- Avklaring av motstridende funn om HIV-replikasjon.
+- Detaljert mekanismedata og sikkerhetsdata fra preparatomtalen.
+- En vurdering av interaksjonen med proteasehemmere (blant annet tipranavir).
 
+**Merknad om øvrige prediksjoner:** Blant de ti predikerte indikasjonene har «vitamin deficiency disorder» (evidensnivå L3) mest støtte, i form av kasuistikker og kohortstudier. Her er vitaminmangelen en sekundær følge av gallesyresyntesedefekter, altså den opprinnelige indikasjonen, og ikke en ny indikasjon. Resten av prediksjonene har evidensnivå L4–L5, med anbefalingen Hold.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Glimepiride
 parent: Kun modellprediksjon (L5)
-nav_order: 163
+nav_order: 191
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,83 +29,113 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Glimepirid: Fra type 2-diabetes til Focal Stiff Limb Syndrome (virkningsmåte-assosiasjon usikker)
+# Glimepirid: Fra type 2-diabetes til fokalt stivt lem-syndrom
 
-## Oppsummering i en setning
+## Oppsummering i én setning
 
-Glimepirid er et sulfonylureum-basert oralt antidiabetikum som virker på KATP-kanalen i bukspyttkjertelceller (β-celler) for å fremme insulinutskillelse.
-TxGNN-modellen forutsier at det muligens kan være effektivt for **Focal Stiff Limb Syndrome**,
-men det finnes for tiden **ingen kliniske forsøk eller litteraturstøtte**, og modellens egen mekanismegenerering indikerer allerede at dette sannsynligvis er en falsk positiv lenke i kunnskapsgrafen.
-
----
-
-## Rask oversikt
-
-| Element | Innhold |
-|---------|---------|
-| Original indikasjon | Type 2-diabetes (konkludert fra farmakologisk kunnskap; Evidence Pack gir ingen formell godkjenningsindikasjon, `original_indications` er tom) |
-| Forutsagt ny indikasjon | Focal Stiff Limb Syndrome |
-| TxGNN-prediksjonspoengsum | 99.75% (rangering 3254 / total database) |
-| Bevisnivå | L5 (kun modellprediksjon, ingen faktisk forskning) |
-| Markedsstatus lokalt | ✗ Ikke markedsført |
-| Antall godkjenningssertifikater | 0 |
-| Anbefalt beslutning | **Hold** |
+Glimepirid er et sulfonylurea-legemiddel som opprinnelig brukes til behandling av type 2-diabetes.
+TxGNN-modellen forutsier at det kan være effektivt mot **fokalt stivt lem-syndrom** (og beslektede tilstander som klassisk stiff person-syndrom),
+men **ingen kliniske studier og ingen relevant litteratur** støtter denne retningen i dag. Prediksjonen er rent beregningsbasert.
 
 ---
 
-## Hvorfor er denne prediksjonen mekanistisk tvilsom?
+## Hurtigoversikt
 
-Glimepirids virkningsmåte er å blokkere KATP-kanalen i bukspyttkjertelceller (SUR1/Kir6.2-underenheter), som forårsaker cellular depolarisering og kalsiuminnstrømming, noe som stimulerer insulinutskillelse – en typisk sulfonylureum-virkningsmåte begrenset til øyer-β-celler og glukosekontrollveier.
-
-Focal Stiff Limb Syndrome er en del av Stiff Person Syndrome-spekteret, hvis kjernepathologi er anti-GAD65-antistoff som forårsaker GABA-syntesestyrke i sentralnervesystemet, noe som forårsaker muskelstivhet og kramper – en autoimmunsykdom i nervesystemet uten kjent kryssing med sulfonylureums insulinsekresjonsmekanisme.
-
-I henhold til `repurposing_rationale` som er gitt i Evidence Pack, er denne høye-scoren-prediksjonen **svært sannsynlig å være en kunnskapsgrafs falsk-positiv**: GAD65-proteinet uttrykkes både i sentralnervesystemets GABAerg-neuroner og i bukspyttkjertelceller (β-celler); TxGNN genererte sannsynligvis denne feilaktige høye-score-assosiasjonen via "GAD65/diabetes"-felveien snarere enn å gjenspeile ekte farmakologisk sannsynlighet. Det er ingen støtte for å bygge en biologisk hypotese for denne prediksjonen, og det finnes ingen formell mekanisme-nivå (MOA) data til verifisering – `original_moa` er klassifisert som datakløft, en høy-prioritets informasjonshull for dette tilfellet.
-
-> Tilleggsmerknad: Blant disse ni kandidatindikasjonene er det niende kandidatet «Pancreatic agenesis» (bukspyttkjertel-agenesie) med relativt mer rimelig mekanismeformodling (sulfonylureum er kjent for å kunne brukes i nyfødt diabetes forårsaket av KATP-kanal-gen KCNJ11/ABCC8 mutasjoner), men fordi pasienter med bukspytktkjerttel-utviklingsmangler kan mangle tilstrekkelig funksjonelle β-celler, er rimelighetens sikkerhet fortsatt betydelig usikker, og den eneste tilgjengelige litteraturen (PMID 12720536) har ingen direkte tilknytning til denne indikasjonen. Denne kandidaten er verdt oppmerksomhet men utilstrekkelig til å støtte fremgang til neste fase.
-
----
-
-## Klinisk forsøksbevis
-
-Det er for tiden ingen relaterte kliniske forsøksregistreringer.
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Diabetes mellitus, type 2 |
+| Predikert ny indikasjon | Fokalt stivt lem-syndrom |
+| TxGNN-prediksjonsscore | 99,75 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun trukket tilbake (ingen gyldige markedsføringstillatelser) |
+| Antall tillatelser | 1 (trukket tilbake) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Litteraturbevis
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-For tiden ingen relatert litteratur funnet.
+Data om virkningsmekanisme er ikke tilgjengelige i de sammenstilte dataene. Glimepirid er kjent som et sulfonylurea som virker på KATP-kanaler i betaceller i bukspyttkjertelen og stimulerer insulinfrigjøring. Dette er godt dokumentert ved type 2-diabetes.
 
----
+Stivt lem-syndrom og stiff person-syndrom er nevroimmunologiske sykdommer knyttet til nedsatt GABAerg/glycinerg hemming, ofte med anti-GAD65-antistoffer. Tilstandene forekommer hyppig sammen med diabetes og andre autoimmune sykdommer. Den høye scoren skyldes trolig denne nettverksassosiasjonen i kunnskapsgrafen, og ikke en reell terapeutisk effekt. Glimepirid behandler hyperglykemi, ikke den underliggende nevroimmune sykdommen, og etablerte behandlinger (benzodiazepiner, baklofen, IVIG) har en klar begrunnelse som glimepirid mangler.
 
-## Informasjon om lokalt marked
+Øvrige topp-prediksjoner følger samme mønster:
 
-Legemidlet er for tiden **ikke godkjent for markedsføring på lokalt marked**, uten effektive godkjenningssertifikater (`total_licenses` = 0).
-
----
-
-## Sikkerhetshensyn
-
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
-
-> Merk: I `data_gaps` er "DMP package insert warnings/contraindications" merket som **Blocking**-niveau kløft, noe som direkte påvirker sikkerhetsinitialvurderingen (S1) og må fylles med høy prioritet.
+| Rang | Predikert sykdom | Score | Vurdering |
+|------|------|------|------|
+| 2 | Klassisk stiff person-syndrom | 99,75 % | Indirekte, trolig konfundert assosiasjon via GAD65/diabetes |
+| 3 | Opsismodysplasi | 99,74 % | Spekulativ kobling til insulinsignalering; ingen støtte for effekt på skjelettutvikling |
+| 4 | Tiaminresponsivt dysfunksjonssyndrom | 99,73 % | Diabetes er en del av syndromet; kan i beste fall påvirke bare den glykemiske komponenten |
+| 5–8 | Lokaliserte lipodystrofier (legemiddelindusert, sentrifugal, trykkinduusert, idiopatisk) | 99,56–99,62 % | Ingen plausibel mekanisme; trolig artefakt fra nærhet til diabetes/lipodystrofi i nettverket |
+| 9 | Pankreasagenesi | 99,55 % | Mekanistisk usannsynlig uten funksjonelle betaceller; insulin er standardbehandling |
 
 ---
 
-## Konklusjon og videre trinn
+## Kliniske studier
+
+Foreløpig er ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+For den høyest rangerte indikasjonen (fokalt stivt lem-syndrom) finnes ingen relevant litteratur.
+
+For pankreasagenesi (rang 9) ble én artikkel funnet, men den er ikke relevant evidens:
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [12720536](https://pubmed.ncbi.nlm.nih.gov/12720536/) | 2003 | Annet (diagnostisk bildediagnostikk) | European Journal of Endocrinology | Fallgruver ved endosonografi ved mistenkt insulinom; omhandler ikke behandling med glimepirid |
+
+---
+
+## Informasjon om det norske markedet
+
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000680 | Tandemact | Ikke oppgitt | Diabetes mellitus, type 2 (status: trukket tilbake) |
+
+Det finnes ingen gyldige tillatelser for glimepirid i de sammenstilte dataene.
+
+---
+
+## Sikkerhetsvurderinger
+
+Pakningsvedlegg med advarsler og kontraindikasjoner var ikke tilgjengelig i de sammenstilte dataene. Se pakningsvedlegget for fullstendig sikkerhetsinformasjon.
+
+**Kontraindikasjoner fra kunnskapsgrafen (ikke fra preparatomtale):** Kunnskapsgrafen (PrimeKG) angir kontraindikasjonskanter til blant annet:
+- nyresykdom, leversykdom og galleblæresykdom
+- kongestiv hjertesvikt
+- hypofyse-insuffisiens og beslektede tilstander (f.eks. hypopituitarisme, Sheehans syndrom, isolert veksthormonmangel, hypogonadotrop hypogonadisme, Kallmanns syndrom)
+- osteoporose og postmenopausal osteoporose
+- sykdom i thymus og infeksjonssykdom
+
+Disse er modellavledede signaler og må verifiseres mot offisiell preparatomtale.
+
+**Legemiddelinteraksjoner:** Totalt 100 interaksjoner er funnet. Blant de som er vist, er de fleste av moderat alvorlighetsgrad, for eksempel:
+- Fenylefrin, epinefrin, salbutamol, formoterol, pseudoefedrin (sympatomimetika)
+- Acebutolol (betablokker)
+- Famotidin, ranitidin
+- Ibuprofen, ketorolak
+- Hydrokortison, etinylestradiol, hydroklortiazid, acetazolamid
+- Albiglutid, etanol, nitazoksanid, acitretin
+
+Hydrokortison og alklometason til lokal bruk har mindre alvorlig (minor) interaksjon.
+
+---
+
+## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-- Bevisnivå er L5, kun modellprediksjonspoengsum, uten noen klinisk forsøks- eller litteraturstøtte.
-- Modellens egen mekanismegenerering har allerede gjort klart at dette er en kunnskapsgrafs falsk positiv (indirekte lenke generert via GAD65-noden), mangler biologisk rimelighetsjustifikasjon.
-- Legemidlet er ikke godkjent på lokalt marked, og både virkningsmåte (MOA) og sikkerhetspakningsvedleggsdata er informasjonshull som må fylles, noe som gjør sikkerhetsinitialvurderingen (S1) umulig.
+Alle predikerte indikasjoner har evidensnivå L5: ingen kliniske studier og ingen relevant litteratur. Mekanismen for glimepirid (stimulering av betacellers insulinsekresjon) har ingen etablert kobling til de predikerte nevrologiske, skjelett- eller lipodystrofitilstandene, og scorene gjenspeiler trolig nærhet til diabetes i kunnskapsgrafen. I tillegg er produktet i dag kun registrert med en trukket tilbake tillatelse i Norge.
 
-**Hvis man fortsetter, er følgende nødvendig:**
-- Glimepirids formelle MOA-data (DrugBank API-spørring)
-- TFDA/lokal tilsynsmyndighets pakningsvedleggets advarsler og kontraindikasjonsdata (løse Blocking-kløften DG001)
-- Søk etter all mulig in vitro/dyreforsøks- eller kasuistisk bevis for mekanisme mellom Stiff Person Syndrome-spektret og sulfonylureum-medikamenter
-- Hvis prioritering endres, anbefales det å separat evaluere den niende kandidaten «Pancreatic agenesis» fordi den har relativt klar KATP-kanal-mekanismegrunnlag og er verdt uavhengig inspeksjon for å se om det finnes KCNJ11/ABCC8-relaterte kasusforsøks- eller rapportbevis som kan støtte det
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Prekliniske data eller kasuistikker som kan underbygge en faktisk kobling til den predikerte sykdommen
+- Avklaring av markedsstatus og tilgjengelige administrasjonsveier i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

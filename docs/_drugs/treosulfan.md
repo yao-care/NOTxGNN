@@ -2,7 +2,7 @@
 layout: default
 title: Treosulfan
 parent: Kun modellprediksjon (L5)
-nav_order: 372
+nav_order: 435
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,90 +29,82 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Treosulfan: Fra betingende kjemoterapi for hematopoietisk stamcelletransplantasjon til diabetisk katarakt
+# Treosulfan: Fra hematopoetisk stamcelletransplantasjon til diabetisk katarakt
 
-## Ettsetnings-sammendrag
+## Oppsummering i én setning
 
-Treosulfan er et bifunksjonelt alkylerende stoff brukt primært som før-transplantasjons betingende kjemoterapi for hematopoietisk stamcelletransplantasjon og i noen eggstokkreftregimer. TxGNN-modellen predikerer en mulig sammenheng med **Diabetisk katarakt**, men denne prediksjonen er for tiden støttet av **0 kliniske utprøvinger** og **0 publikasjoner**, og stoffet er ikke ennå markedsført i Norge.
-
----
-
-## Rask oversikt
-
-| Element | Innhold |
-|--------|--------|
-| Opprinnelig indikasjon | Betingende kjemoterapi for hematopoietisk stamcelletransplantasjon; eggstokkreft (basert på kjent farmakologi; ingen norsk godkjent merketekst tilgjengelig) |
-| Forutsagt ny indikasjon | Diabetisk katarakt |
-| TxGNN-forutsigelses score | 99.01% |
-| Bevisnivå | L5 |
-| Markedsstatus Norge | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Avvent |
+Treosulfan er et alkylerende middel som opprinnelig brukes som forbehandling (kondisjonering) før hematopoetisk stamcelletransplantasjon.
+TxGNN-modellen predikerer at det kan ha effekt mot **diabetisk katarakt**, men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** som støtter denne retningen.
+Prediksjonen er ren modellberegning, og det er faktisk holdepunkter som peker mot en mulig skaderisiko for linsen.
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hurtigoversikt
 
-For tiden er detaljert data om virkningsmekanisme ikke tilgjengelig. Basert på kjent farmakologi er Treosulfan et bifunksjonelt alkylerende stoff som induserer DNA-krysslenking, som gir cytotoksiske effekter som brukes til betinging av pasienter før hematopoietisk stamcelletransplantasjon og, i noen regimer, til å behandle eggstokkreft.
-
-Diabetisk katarakt-patologi er styrt av linseproteinglykering, oksidativt stress og aktivering av polyolbanen — mekanismer som ikke er relatert til DNA-krysslenking eller alkyleringsbasert cytotoksisitet. Det er ingen etablert farmakologisk sammenheng som forbinder Treosulfans virkningsmekanisme til forebygging eller behandling av katarakt.
-
-Gitt at den høye TxGNN-scoren (0.99) ikke er bekreftet av noen mekanistisk begrunnelse, kliniske utprøvinger eller litteratur, reflekterer denne prediksjonen mest sannsynlig kunnskapsgraff-mangel eller indirekte/støyende assosiasjoner heller enn genuin biologisk plausibilitet. Fraværet av opprinnelig indikasjon og MOA-data i kildebeslaget begrenser videre tilliten til dette signalet.
-
----
-
-## Bevis fra kliniske utprøvinger
-
-For tiden ingen relaterte kliniske utprøvinger registrert
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Hematopoetisk stamcelletransplantasjon |
+| Predikert ny indikasjon | Diabetisk katarakt |
+| TxGNN-prediksjonsscore | 99,01 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (godkjenning trukket tilbake) |
+| Antall godkjenninger | 1 (0 gyldige, 1 avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Litteraturbevis
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-For tiden ingen relatert litteratur tilgjengelig
+Data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Ut fra generell farmakologisk kunnskap er treosulfan et bifunksjonelt alkylerende middel. Det er et prodrug som omdannes til epoksidmellomprodukter som danner kryssbindinger i DNA, og det brukes i kondisjonering før stamcelletransplantasjon.
+
+Diabetisk katarakt skyldes hovedsakelig aktivering av polyolveien (aldosereduktase og opphopning av sorbitol), oksidativt stress og glykering av proteiner i linsen. Det er ingen åpenbar mekanistisk kobling mellom DNA-alkylering og disse prosessene. Den høye TxGNN-scoren (0,990) er kun en beregnet prediksjon og støttes ikke av noen studie eller litteratur.
+
+Systemiske alkylerende midler og kondisjoneringsregimer er dessuten forbundet med økt risiko for katarakt (for eksempel etter total kroppsbestråling eller busulfanbasert kondisjonering). Dette taler mot nytte og reiser en mulig sikkerhetsbekymring.
+
+---
+
+## Evidens fra kliniske studier
+
+Foreløpig er ingen relevante kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+Foreløpig finnes ingen relevant litteratur.
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Treosulfan er ikke for tiden markedsført i Norge, og ingen produktgodkjenninger er registrert.
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004751 | Trecondi | Ikke oppgitt | Hematopoetisk stamcelletransplantasjon |
+
+Merk: Godkjenningen er avregistrert, og det finnes ingen gyldige godkjenninger.
 
 ---
 
-## Cytotoksisitet
+## Sikkerhetsvurderinger
 
-Treosulfan er et konvensjonelt cytotoksisk kjemoterapistoff (bifunksjonelt alkylerende stoff) og er derfor inkludert her.
+- **Katarakt som mulig bekymring**: Alkylerende midler og kondisjoneringsregimer er assosiert med økt kataraktrisiko, noe som er relevant ved en indikasjon som diabetisk katarakt.
 
-| Element | Innhold |
-|--------|--------|
-| Cytotoksisitetsklassifisering | Konvensjonell cytotoksisk (alkylerende stoff) |
-| Myelosuppresjonrisiko | Høy — alkylerende stoffer, særlig ved HSCT-betingelsesdoser, forventes å forårsake dyp og tilsiktet myeloablasjon; spesifikk kvantitativ toksisitetsdata ikke tilgjengelig |
-| Emetogenisitetsklassifisering | Moderat til høy (typisk for alkylerende stoff betingingregimer); vennligst se pakkevedlegget for bekreftelse |
-| Overvåkingspunkter | Blodcelletelling med differensial, nyrefunksjon, leverfunksjon, elektrolytter |
-| Håndteringsbeskyttelse | Ja — standard cytotoksisk stoff håndteringsforsiktigheter kreves |
-
----
-
-## Sikkerhetshensyn
-
-Vennligst se pakkevedlegget for sikkerhetsinformasjon.
+Ut over dette bes du se preparatomtalen (pakningsvedlegget) for sikkerhetsinformasjon. Data om interaksjoner ble ikke funnet i de innsamlede dataene.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-TxGNN-scoren er høy, men det er ingen klinisk utprøving, litteratur eller mekanistisk bevis som forbinder Treosulfans alkylerende cytotoksiske mekanisme til diabetisk katarakt-patologi. Kombinert med stoffets ikke-markedsfort status i Norge og manglende MOA/sikkerheetsdata, møter denne kandidaten for tiden ikke standarden for å gå videre.
+Prediksjonen bygger kun på modellscore (L5) uten støtte fra kliniske studier, litteratur eller en plausibel mekanisme. Et cytotoksisk alkylerende middel er lite egnet for en kronisk, ikke-malign øyesykdom, og preparatet har dessuten ingen gyldig godkjenning i Norge.
 
-**For å gå videre, er følgende nødvendig:**
-- Bekreftet opprinnelig indikasjon og MOA-data (for tiden [Datakløft])
-- TFDA/Norge regulatorisk merketekst advarsler og kontraindikasjoner
-- Preklinisk eller mekanistisk bevis som forbinder alkylerende stoffer til linse/katarakt-patologi
-- Eventuelle data fra virkelig praksis eller observasjonsstudier som støtter denne assosiasjonen
-- Ny vurdering av TxGNN-score gyldighet gitt tilsynelatende mangel på biologisk plausibilitet
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Prekliniske data (f.eks. linsemodeller) som kan belyse en eventuell mekanistisk kobling
+- Vurdering av kataraktrisiko og av om administrasjonsvei er forenlig med en øyeindikasjon
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

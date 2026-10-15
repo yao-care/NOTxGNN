@@ -2,7 +2,7 @@
 layout: default
 title: Lenalidomide
 parent: Høy evidens (L1-L2)
-nav_order: 204
+nav_order: 239
 evidence_level: L2
 indication_count: 6
 ---
@@ -29,115 +29,128 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Lenalidomid: Fra myelodysplastisk syndrom (del5q) til myeloid leukemi
+# Lenalidomid: Fra myelomatose til myeloid leukemi
 
-## Sammendrag i én setning
+## Oppsummering
 
-> Lenalidomid er et oralt immunmodulerende legemiddel (IMiD) som allerede brukes for transfusjonsavhengig anemi på grunn av lavrisiko myelodysplastisk syndrom (MDS) med 5q-deleksjon, og for multippel myelom i kombinasjon med dexametason.
-> TxGNN-modellen forutsier at det også kan være effektivt for **myeloid leukemi**,
-> med **50+ kliniske studier** og **20 publikasjoner** som for tiden støtter denne retningen, selv om et kritisk sikkerhetsmerkingsgap fortsatt forblir uløst.
+Lenalidomid er et immunmodulerende legemiddel som opprinnelig brukes mot **myelomatose**, mantelcellelymfom og myelodysplastiske syndromer (MDS).
+TxGNN-modellen forutsier at det kan ha effekt ved **myeloid leukemi**, og de sammenstilte dataene viser **43 kliniske studier** og **19 publikasjoner** som peker i denne retningen. Studiene er hovedsakelig små, enarmede fase 1/2-studier.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Transfusjonsavhengig anemi på grunn av lavrisiko MDS med del(5q); multippel myelom (i kombinasjon med dexametason) — per litteraturbevis (PMID 23316859) |
-| Forutsagt ny indikasjon | Myeloid leukemi |
-| TxGNN prognosepoeng | 99.49% |
-| Bevisnivå | L2 |
-| Norskmarkedsstatus | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Myelomatose |
+| Predikert ny indikasjon | Myeloid leukemi |
+| TxGNN-prediksjonsscore | 99,49 % |
+| Evidensnivå | L2 |
+| Markedsstatus i Norge | Kun kansellerte godkjenninger |
+| Antall godkjenninger | 3 (alle kansellert) |
+| Anbefalt beslutning | Hold (forskningsspørsmål; videre utredning kreves) |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Formelle virkningsmekanisme-data for lenalidomid er for tiden et datagap i den regulatoriske utvinningen (DG002). Bevissamlingen's egen litteratur fyller imidlertid dette gapet: lenalidomid binder **cereblon (CRBN)**, en substratreseptor i E3 ubiquitin-ligasekompleksen, og rekrutterer transkripsjonfaktorer **IKZF1/IKZF3** for ubiquitinylering og degradering — mekanismen den bruker for både sin antimyelom- og antileukemisk aktivitet (PMID 39881283). Denne CRBN-avhengige signalveien er den samme mekanismen som allerede er validert i sin godkjente indikasjon del(5q) MDS.
+Lenalidomid er en cereblon-E3-ligase-modulator. Det bryter ned transkripsjonsfaktorene IKZF1 og IKZF3 samt CK1alfa, og har immunmodulerende effekter (aktivering av NK- og T-celler). Nedbrytning av CK1alfa er grunnlaget for aktiviteten ved MDS med del(5q) og gir en plausibel begrunnelse også for akutt myeloid leukemi (AML). Detaljerte data om virkningsmekanisme fra legemiddeldatabasen var ikke tilgjengelige; beskrivelsen over bygger på kunnskapsgrunnlaget i analysen.
 
-Myelodysplastisk syndrom og akutt myeloid leukemi er biologisk kontinuerlige sykdommer: MDS har en iboende risiko for transformasjon til AML, og begge deler samme klonale hematopoietiske stamcelle-opprinnelse (PMID 24656536, PMID 37288607). Denne felles patofysiologien er hvorfor lenalidomid — allerede effektiv i del(5q) MDS og multippel myelom — har blitt omfattende utforsket, stort sett i kombinasjon med hypometylerende midler som azacitidin, på tvers av MDS-til-AML sykdomsspekteret, inkludert recidiverende/refraktær AML, post-transplantat recidiv og vedlikeholdsterapiinnstillinger.
+Myelomatose og myeloide neoplasmer er begge maligne blodsykdommer. Lenalidomid er allerede etablert ved MDS, en nær beslektet myeloid sykdom som kan gå over i AML. Det gir en mekanistisk bro mellom opprinnelig og ny indikasjon. Effekt utover sykdom med del(5q) er imidlertid ikke bekreftet.
 
-Den forutsagte nye indikasjonen representerer derfor en plausibel forlengelse langs samme sykdomskontinuum og mekanistisk akse som legemidlets etablerte bruk, snarere enn et urelatert terapeutisk område.
+Andre predikerte indikasjoner i analysen er uklassifisert MDS (L3), refraktær cytopeni hos barn (L3), aregenerativ anemi (L3), alvorlig medfødt hypokrom anemi med ringsideroblaster (L5) og delvis delesjon av kromosom 5q (L5). Disse har svakere evidens enn myeloid leukemi.
 
 ---
 
-## Bevis fra kliniske studier
+## Evidens fra kliniske studier
 
-| Prøvenummer | Fase | Status | Registrering | Viktige funn |
+Av totalt 43 registrerte studier vises de ti mest relevante (vurdert A/B i dataene, supplert med de største studiene). Ingen randomiserte fase 3-studier med fullført resultat er identifisert for AML.
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT00843882](https://clinicaltrials.gov/study/NCT00843882) | Fase 3 | Aktiv, ikke rekrutterer | 247 | Lenalidomid ± epoetin alfa for større erytroid respons ved lavrisiko/int-1 risiko MDS med symptomatisk anemi |
-| [NCT01522976](https://clinicaltrials.gov/study/NCT01522976) | Fase 2/3 | Aktiv, ikke rekrutterer | 282 | Randomisert: azacitidin + lenalidomid kontra azacitidin alene kontra azacitidin + vorinostat ved høyrisiko MDS/CMML |
-| [NCT01301820](https://clinicaltrials.gov/study/NCT01301820) | Fase 2 | Avsluttet | 120 | Randomisert vedlikeholdsterapi som alternerer lenalidomid/azacitidin-sykluser hos eldre høyrisiko AML i første CR |
-| [NCT02921802](https://clinicaltrials.gov/study/NCT02921802) | N/A (overvåking) | Avsluttet | 4,626 | Stor virkelig-verden all-saks overvåking av lenalidomid 5mg-kapsler, sikkerhet og effektivitet |
-| [NCT00065156](https://clinicaltrials.gov/study/NCT00065156) | Fase 2 | Avsluttet | 148 | Pivotal enkel-arm studie som etablerte effektiviteten av lenalidomid monoterapi ved RBC transfusjonsavhengig del(5q) MDS |
-| [NCT02472691](https://clinicaltrials.gov/study/NCT02472691) | Fase 2 | Avsluttet | 50 | Lenalidomid + azacitidin + donor lymfocyttinfusjon for MDS/CMML/AML recidiv etter allo-SCT |
-| [NCT00352365](https://clinicaltrials.gov/study/NCT00352365) | Fase 2 | Avsluttet | 41 | Lenalidomid monoterapi hos ubehandlede eldre del(5q) AML-pasienter som avslår induksjonskjemoterapi |
-| [NCT02126553](https://clinicaltrials.gov/study/NCT02126553) | Fase 2 | Avsluttet | 29 | Lenalidomid vedlikehold ved høyrisiko AML i remisjon |
-| [NCT01016600](https://clinicaltrials.gov/study/NCT01016600) | Fase 1/2 | Avsluttet | 31 | Azacitidin pluss lenalidomid toksisitet og remisjonshastigheter ved AML |
-| [NCT04068597](https://clinicaltrials.gov/study/NCT04068597) | Fase 1/2 | Rekrutterer | 250 | CCS1477 (inobrodib) monoterapi og kombinasjoner ved AML, høyrisiko MDS og andre hematologiske maligniteter |
+| [NCT00831766](https://clinicaltrials.gov/study/NCT00831766) | Fase 1/2 | Fullført | 51 | Sekvensiell idarubicin + cytarabin etterfulgt av lenalidomid ved MDS (RAEB-2) eller ubehandlet AML; støtter gjennomførbarhet |
+| [NCT00352001](https://clinicaltrials.gov/study/NCT00352001) | Fase 1/2 | Fullført | 37 | Lenalidomid + azacitidin ved avansert MDS; bidraget fra lenalidomid kan ikke isoleres |
+| [NCT02126553](https://clinicaltrials.gov/study/NCT02126553) | Fase 2 | Fullført | 29 | Vedlikeholdsbehandling med lenalidomid ved høyrisiko-AML i remisjon; enarmet |
+| [NCT00360672](https://clinicaltrials.gov/study/NCT00360672) | Fase 2 | Fullført | 27 | Lenalidomid alene ved residivert/refraktær AML eller høyrisiko-MDS med kromosom 5-avvik |
+| [NCT01681537](https://clinicaltrials.gov/study/NCT01681537) | Fase 1 | Fullført | 36 | Lenalidomid + MEC-kjemoterapi; sikkerhet og dosefinning |
+| [NCT01578954](https://clinicaltrials.gov/study/NCT01578954) | Fase 1 | Fullført | 20 | Doseøkning av lenalidomid som re-induksjon/konsolidering og vedlikehold hos pasienter ≥ 60 år |
+| [NCT01358734](https://clinicaltrials.gov/study/NCT01358734) | Fase 2 | Fullført | 88 | Randomisert: lenalidomid, azacitidin + lenalidomid sekvensielt, eller azacitidin alene hos eldre med nydiagnostisert AML |
+| [NCT01522976](https://clinicaltrials.gov/study/NCT01522976) | Fase 2/3 | Aktiv, ikke rekrutterende | 282 | Randomisert: azacitidin ± lenalidomid eller vorinostat ved høyrisiko-MDS og KMML |
+| [NCT00843882](https://clinicaltrials.gov/study/NCT00843882) | Fase 3 | Aktiv, ikke rekrutterende | 247 | Lenalidomid ± epoetin alfa ved lavrisiko-MDS med symptomatisk anemi |
+| [NCT01038635](https://clinicaltrials.gov/study/NCT01038635) | Fase 1/2 | Fullført | 94 | Azacitidin + lenalidomid ved høyrisiko-MDS og AML |
 
 ---
 
-## Bevis fra litteraturen
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
+De fleste publikasjonene er oversiktsartikler. Direkte kontrollerte data for lenalidomid ved AML mangler i de sammenstilte dataene.
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [35277655](https://pubmed.ncbi.nlm.nih.gov/35277655/) | 2022 | RCT | Leukemia | Randomisert fase II: azacitidin ± lenalidomid ved høyrisiko MDS/AML med del(5q) karyotype |
-| [30653424](https://pubmed.ncbi.nlm.nih.gov/30653424/) | 2019 | Klinisk studie | J Clin Oncol | Lenalidomid + azacitidin som ny salvageterapi for AML/MDS recidiv etter allo-SCT |
-| [37259567](https://pubmed.ncbi.nlm.nih.gov/37259567/) | 2023 | Klinisk studie (Azalena-Trial) | Haematologica | Azacitidin + lenalidomid + DLI for MDS/AML/CMML recidiv post-transplantasjon |
-| [40250191](https://pubmed.ncbi.nlm.nih.gov/40250191/) | 2025 | Fase 1-studie | Leukemia Research | Lenalidomid + bortezomib for AML/MDS som recidiverer etter allo-SCT |
-| [34955443](https://pubmed.ncbi.nlm.nih.gov/34955443/) | 2022 | Fase Ib-studie | J Geriatr Oncol | Lenalidomid som post-remisjonsterapi hos eldre voksne med AML; sikkerhet og vurdering av geriatrisk funksjonalitet |
-| [31221030](https://pubmed.ncbi.nlm.nih.gov/31221030/) | 2019 | Systematisk gjennomgang/metaanalyse | Hematology (Amsterdam) | Effektivitet og bivirkninger av azacitidin + lenalidomid på tvers av AML, MDS og CMML |
-| [24656536](https://pubmed.ncbi.nlm.nih.gov/24656536/) | 2014 | Gjennomgang | Lancet | Omfattende gjennomgang av MDS patofysiologi og progresjon til AML |
-| [37874917](https://pubmed.ncbi.nlm.nih.gov/37874917/) | 2023 | Gjennomgang | Blood | Klinisk beslutningsramme for MDS-behandling |
-| [23316859](https://pubmed.ncbi.nlm.nih.gov/23316859/) | 2013 | Gjennomgang | Expert Opin Investig Drugs | Lenalidomids godkjente indikasjoner og begrunnelse for undersøkelse ved høyrisiko MDS/AML |
-| [39881283](https://pubmed.ncbi.nlm.nih.gov/39881283/) | 2025 | Mekanistisk studie | Cell Mol Biol Lett | KDM5C stabiliserer cereblon for å øke AML-cellenes følsomhet overfor lenalidomid |
+| [23316859](https://pubmed.ncbi.nlm.nih.gov/23316859/) | 2013 | Oversikt | Expert Opin Investig Drugs | Lenalidomid som ny behandling ved AML; godkjent ved del(5q)-MDS og myelomatose, studert ved høyrisiko-MDS og AML |
+| [32899586](https://pubmed.ncbi.nlm.nih.gov/32899586/) | 2020 | Oversikt | Cancers | Immunmodulerende legemidler (IMiD) ved AML-behandling |
+| [39881283](https://pubmed.ncbi.nlm.nih.gov/39881283/) | 2025 | Preklinisk | Cell Mol Biol Lett | KDM5C øker AML-cellenes følsomhet for lenalidomid ved å stabilisere cereblon |
+| [37288607](https://pubmed.ncbi.nlm.nih.gov/37288607/) | 2023 | Oversikt | Am J Hematol | Oppdatering om diagnostikk, risikostratifisering og behandling av MDS |
+| [42400116](https://pubmed.ncbi.nlm.nih.gov/42400116/) | 2026 | Oversikt | Am J Hematol | Oppdatering 2026 om MDS |
+| [37874917](https://pubmed.ncbi.nlm.nih.gov/37874917/) | 2023 | Oversikt | Blood | Klinisk beslutningstaking og behandling av MDS |
+| [29795386](https://pubmed.ncbi.nlm.nih.gov/29795386/) | 2018 | Oversikt | Blood Cancer J | Behandlingsalgoritme for MDS |
+| [38066862](https://pubmed.ncbi.nlm.nih.gov/38066862/) | 2023 | Oversikt | Hematology ASH Educ Program | Nyere behandling ved lavrisiko-MDS |
+| [17488990](https://pubmed.ncbi.nlm.nih.gov/17488990/) | 2007 | Oversikt | J Clin Oncol | AML og MDS hos eldre pasienter |
+| [22483153](https://pubmed.ncbi.nlm.nih.gov/22483153/) | 2012 | Oversikt | Curr Cancer Drug Targets | Nye og kommende legemidler ved AML |
 
 ---
 
-## Norskmarkedsinformasjon
+## Markedsinformasjon for Norge
 
-Lenalidomid er for tiden **ikke markedsført i Norge** — ingen lokale autorisasjoner (0 lisenser) er registrert i denne bevissamlingen. Norskmarkedsadgangdata (f.eks. MT-status via EMA-sentralisert prosedyre) må bekreftes separat før en regulatorisk vei kan planlegges.
+Alle tre godkjenningene er kansellert, og ingen er gyldige i dag. Nummerne er europeiske sentrale godkjenninger (EMA).
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004857 | Lenalidomide Accord | – | Myelomatose |
+| EMEA/H/C/000717 | Revlimid | – | Myelomatose, mantelcellelymfom, myelodysplastiske syndromer |
+| EMEA/H/C/005306 | Lenalidomide Mylan | – | Myelomatose |
 
 ---
 
 ## Cytotoksisitet
 
-Lenalidomid er inkludert her fordi dets etablerte indikasjoner (multippel myelom, MDS) er hematologiske maligniteter, selv om det **ikke er et konvensjonelt cytotoksisk kjemoterapi-middel**.
-
-| Element | Innhold |
-|---------|---------|
-| Cytotoksisitetsklassifisering | Målrettet terapi — immunmodulerende legemiddel (IMiD); virker via cereblon (CRBN)-mediert ubiquitinylering/degradering av IKZF1/IKZF3, ikke direkte DNA-skadende cytotoksisitet |
-| Myelosuppresjonsrisiko | Se pakkeseddelen for advarsler og forholdsregler (ingen kvantitative toksisitetsdata tilgjengelig i denne bevissamlingen) |
-| Emetogenisitetsklassifisering | Se pakkeseddelen for advarsler og forholdsregler |
-| Overvåkingselementer | Komplett blodtelling (CBC) med differensial; nyrefunksjon (flere prøvedesign målrettet cytopeni og dose-limitert toksisitetsovervåking) |
-| Håndteringsbeskyttelse | Se pakkeseddelen for advarsler og forholdsregler |
+| Punkt | Innhold |
+|------|------|
+| Klassifisering | Immunmodulerende, målrettet behandling (cereblon-E3-ligase-modulator), ikke konvensjonell cytostatika |
+| Risiko for myelosuppresjon | Høy (grunnet kunnskapsgrunnlaget om legemiddelklassen; kunnskapsgrafen angir trombocytopeni, nøytropeni og agranulocytose som kontraindikasjonsrelaterte tilstander) |
+| Emetogenisitet | Lav |
+| Overvåkingspunkter | Fullstendig blodstatus med differensialtelling, lever- og nyrefunksjon, tegn på tromboemboli |
+| Håndteringsbeskyttelse | Legemidlet er strukturelt beslektet med talidomid (fosterskadelig); følg gjeldende regler for håndtering av cytotoksiske/teratogene legemidler. Se preparatomtalen for detaljer |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakkeseddelen for sikkerhetsinformasjon.
+Preparatomtale med advarsler og kontraindikasjoner var ikke tilgjengelig i de sammenstilte dataene. Se preparatomtalen for sikkerhetsinformasjon.
 
-*(Viktige advarsler, kontraindikasjoner og legemiddel–legemiddel interaksjonsdata var ikke tilgjengelig i denne bevissamlingen — flagget som et blokkering datagap, DG001.)*
+- **Kontraindikasjonsrelaterte tilstander (fra kunnskapsgraf, ikke fra preparatomtale)**: trombocytopeni, nøytropeni, agranulocytose, lungeemboli, nedsatt nyrefunksjon, kreft og embryom.
+- **Legemiddelinteraksjoner**: 100 interaksjoner er registrert. Viktigste (alvorlighetsgrad «Major»):
+  - Rosuvastatin
+  - Simvastatin
+
+  Moderate interaksjoner gjelder blant annet eliglustat og naltrekson. Flere andre (bl.a. metformin, omeprazol, prednison) har ukjent alvorlighetsgrad.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold (forskningsspørsmål)**
 
 **Begrunnelse:**
-Klinisk og mekanistisk bevis for lenalidomids aktivitet på tvers av MDS-til-AML sykdomsspekteret er omfattende (L2 — flere avsluttede studier inkludert minst en randomisert fase 2-studie, pluss en støtte metaanalyse). Imidlertid forhindrer et **blokkering** datagap (DG001 — manglende TFDA/regulatorisk sikkerhetsetikett) eksplisitt inntreding i S1 sikkerhet pre-vurderingsfasen, og legemidlet har for tiden null markedsautorisasjoner i Norge. Bevisstyrke alene kan ikke oppveie denne regulatoriske/sikkerhetsblindheten.
+Det finnes mange fase 1/2-studier ved AML/MDS, men de er små, hovedsakelig enarmede og ofte kombinasjonsstudier der lenalidomids bidrag ikke kan isoleres. Det er ingen bekreftet effekt utenfor del(5q)-sykdom. Alle norske/europeiske godkjenninger er kansellert, og sikkerhetsdata fra preparatomtale mangler (blokkerende datamangel).
 
-**For å gå videre, trengs følgende:**
-- Offisiell produktetikett (advarsler, kontraindikasjoner, DDI) — f.eks. EMA SmPC, siden ingen norsk lisens finnes ennå
-- Formell MOA-dokumentasjon fra DrugBank/regulatorisk kilde (for tiden DG002)
-- Avklaring av «myeloid leukemi» sykdommapping til en spesifikk AML/MDS undertype og stadium relevant for norsk klinisk praksis
-- Vurdering av norskmarkedsinngangssti (f.eks. sentralisert EU-autorisasjonsutvidelse) gitt nåværende ikke-markedsført status
-
+**For å gå videre kreves:**
+- Hente og analysere preparatomtale (advarsler og kontraindikasjoner) fra legemiddelmyndighetene
+- Detaljerte data om virkningsmekanisme fra DrugBank
+- Fullstendig vurdering av de ventende studiene og resultater fra randomiserte studier (f.eks. NCT01522976, NCT01358734)
+- Avklare effekt hos pasienter uten del(5q) og i definerte undergrupper (f.eks. vedlikehold etter remisjon)
+- Plan for sikkerhetsovervåking (myelosuppresjon, tromboembolisk risiko, teratogenisitet)
+- Avklare regulatorisk status og tilgjengelighet i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

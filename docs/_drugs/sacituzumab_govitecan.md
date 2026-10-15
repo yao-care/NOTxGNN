@@ -2,7 +2,7 @@
 layout: default
 title: Sacituzumab Govitecan
 parent: Kun modellprediksjon (L5)
-nav_order: 318
+nav_order: 373
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,88 +29,117 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Sacituzumab Govitecan: Fra antistoff-legemiddelkonjugat-terapi innen onkologi til legemiddelindusert osteoporose
+# Sacituzumab govitecan: Fra brystkreft til legemiddelindusert osteoporose
 
-## En-setnings oppsummering
+## Oppsummering
 
-> Sacituzumab govitecan er et Trop-2–rettet antistoff-legemiddelkonjugat (ADC) som leverer det cytotoksiske virkestoffet SN-38, brukt innen onkologi.
-> TxGNN-modellen forutsier en mulig forbindelse til **legemiddelindusert osteoporose**, men denne forutsigelsen støttes av **0 kliniske forsøk** og **0 publikasjoner**, og legemidlets egen virkemåte (systemisk cytotoksisk kjemoterapi) motvirker en beinheskyttende effekt.
-
----
-
-## Rask oversikt
-
-| Element | Innhold |
-|---------|---------|
-| Original indikasjon | Ikke tilgjengelig — ingen norsk lisens eller godkjent indikajonstekst i arkivet (legemiddel ikke markedsført) |
-| Forutsagt ny indikasjon | Legemiddelindusert osteoporose |
-| TxGNN-forutsigelsesscore | 99.78% |
-| Bevisnivå | L5 |
-| Norges markedsstatus | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Hold |
+Sacituzumab govitecan er et antistoff-legemiddelkonjugat (Trop-2-rettet antistoff koblet til topoisomerase I-hemmeren SN-38), opprinnelig brukt til behandling av brystkreft, inkludert trippelnegativ brystkreft.
+TxGNN-modellen predikerer at det kan være effektivt mot **legemiddelindusert osteoporose**, men det finnes **0 kliniske studier** og **0 publikasjoner** som støtter denne retningen. Prediksjonen er kun modellbasert.
 
 ---
 
-## Hvorfor er denne forutsigelsen rimelig?
+## Hurtigoversikt
 
-Detaljerte formelle data om virkemåte er ikke tilgjengelig for dette legemiddelet (flagget som alvorlig datakløft). Basert på informasjonen som er tilgjengelig i evidensepakken, er sacituzumab govitecan et Trop-2–rettet antistoff konjugert til SN-38, det aktive metabolitten av irinotekan og en topoizomerase I-hemmer — en svært cytotoksisk kjemoterapeutisk mekanisme som brukes til å drepe tumorsceller.
-
-Det er ingen kjent mekanisme der denne virkemåten ville fremme beindannelse eller hemme benresorpsjonen. Evidensepakkens egen analyse angir at TxGNN-scoren sannsynligvis reflekterer en indirekte kunnskapsgraff-assosiasjon (f.eks. kreftbehandling som oppstår samtidig med bentap i litteraturen) snarere enn et genuint årsakssammenhengende eller terapeutisk forhold. Faktisk er systemiske cytotoksiske ADCer mer vanlig assosiert med *forverring* av bentilstanden via behandlingsrelatert toksisitet, ikke forbedring av det.
-
-Bemerkelsesverdig oppstår dette mønsteret på tvers av alle fire TxGNN-rangerte kandidater for dette legemiddelet (legemiddelindusert osteoporose, alvorlig ikke-proliferativ diabetisk retinopati, diabetisk retinopati, diabetisk katarakt) — hver er en høyt scoret forutsigelse med en eksplisitt oppgitt mangel på mekanistisk plausibilitet og, i to tilfeller, en mekanisme som løper direkte motsatt av den foreslåtte indikasjonen (f.eks. kjent okulær toksisitet kontra en foreslått retinopati-indikasjon). Denne konsistente frakobblingen foreslår at de høye TxGNN-scorene for dette legemiddelet reflekterer støy i grafstrukturen snarere enn et genuint repurposing-signal.
-
----
-
-## Bevis fra kliniske forsøk
-
-For tiden ingen relaterte kliniske forsøk registrert.
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Brystkreft; trippelnegativ brystkreft |
+| Predikert ny indikasjon | Legemiddelindusert osteoporose |
+| TxGNN-prediksjonsscore | 99,78 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun kansellert |
+| Antall godkjenninger | 1 |
+| Anbefalt beslutning | Hold (avvent) |
 
 ---
 
-## Litteraturbevis
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-For tiden ingen relatert litteratur tilgjengelig.
+Data om virkningsmekanisme er ikke tilgjengelig i datagrunnlaget for denne rapporten. Det er kjent at sacituzumab govitecan er et Trop-2-rettet antistoff-legemiddelkonjugat med SN-38 som cytotoksisk last, og at effekten ved trippelnegativ brystkreft er etablert.
+
+Datagrunnlaget gir ingen støtte for en mekanistisk kobling til benmetabolisme. Den høye TxGNN-scoren (0,998) er en ren grafbasert prediksjon. Cytotoksiske legemidler er generelt oftere forbundet med benmargstoksisitet enn med beskyttende effekt på skjelettet. Det er heller ingen likhet mellom den opprinnelige indikasjonen (kreft) og den predikerte indikasjonen (osteoporose) som kan forklare prediksjonen.
+
+### Andre predikerte indikasjoner (alle uten støtte)
+
+| Rangering | Predikert indikasjon | TxGNN-score | Evidensnivå | Anbefaling |
+|------|------|------|------|------|
+| 2 | Alvorlig ikke-proliferativ diabetisk retinopati | 99,69 % | L5 | Hold |
+| 3 | Diabetisk retinopati | 99,60 % | L5 | Hold |
+| 4 | Diabetisk katarakt | 99,12 % | L5 | Hold |
+
+Disse prediksjonene mangler både kliniske studier og litteratur. De ser ut til å skyldes nærhet i kunnskapsgrafen snarere enn biologi. Systemisk cytotoksisk behandling er ikke en rimelig kandidat for disse tilstandene uten en tydelig mekanistisk begrunnelse, og tryggere godkjente alternativer finnes (f.eks. anti-VEGF, laser, fenofibrat for retinopati; kirurgi for katarakt).
 
 ---
 
-## Markedsinformasjon for Norge
+## Klinisk studieevidens
 
-Ingen autorisasjonsoppføringer er tilgjengelige — legemiddelet markedsføres ikke for tiden i Norge (0 lisenser i arkivet).
+Foreløpig ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+Foreløpig ingen relatert litteratur tilgjengelig.
+
+---
+
+## Informasjon om det norske markedet
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005182 | Trodelvy | – | Brystkreft; trippelnegativ brystkreft |
+
+Godkjenningen har status kansellert, og det finnes ingen gyldige godkjenninger.
 
 ---
 
 ## Cytotoksisitet
 
-| Element | Innhold |
-|---------|---------|
-| Cytotoksisitetsklassifisering | Målrettet cytotoksisk (ADC) — Trop-2–rettet antistoff konjugert til SN-38, en topoizomerase I-hemmer |
-| Myelosuppresjonrisiko | Høy — evidensepakken bemerker at denne klassen av ADCer er kjent for å forverke myelosuppresjon og systemisk toksisitet |
-| Emetogenisitetsklassifisering | Vennligst se pakningsvedlegget |
-| Overvåkingspunkter | Fullblodtelling med differensial (nøytropeniarisiko), GI/diaré-overvåking, leverfunksjonsprøver |
-| Håndteringsbeskyttelse | Sikkerhetstiltak for håndtering av cytotoksiske legemidler påkrevd (farlig cytotoksisk virkestoff) |
+| Punkt | Innhold |
+|------|------|
+| Cytotoksisitetsklassifisering | Antistoff-legemiddelkonjugat med topoisomerase I-hemmer (SN-38) som cytotoksisk last |
+| Risiko for myelosuppresjon | Høy (nøytropeni er et kjent og betydelig problem) |
+| Emetogenisitet | Se preparatomtalen |
+| Overvåkingspunkter | Fullstendig blodtelling med differensialtelling, lever- og nyrefunksjon; observasjon for diaré og overfølsomhetsreaksjoner |
+| Håndteringsvern | Følg gjeldende regelverk for håndtering av cytotoksiske legemidler |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. TFDA-merkingadvarsler/kontraindikasjoner og formelle DDI-data er for tiden ikke tilgjengelig i arkivet (flagget som blokkerende datakløft).
+**Legemiddelinteraksjoner:** Totalt 40 interaksjoner er identifisert. Eksempler på de viktigste (alvorlighetsgrad «Major»):
+- Deferipron
+- Fostamatinib
+- Adalimumab
+- Apalutamid
+- Certolizumab pegol
+- Kladribin
+- Dakomitinib
+- Irinotekan
+- Leflunomid
+- Natalizumab
+- Nilotinib
+- Ozanimod
+
+Moderate interaksjoner omfatter blant annet alefacept, alemtuzumab, anakinra, kanakinumab, dimetylfumarat, lorlatinib, okrelizumab og omacetaksinmepesuccinat.
+
+Mange av disse er immunsuppressive eller myelosuppressive midler, noe som gir risiko for additiv toksisitet.
+
+For advarsler og kontraindikasjoner, se preparatomtalen.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Hold**
+**Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Det er ingen bevis fra kliniske forsøk eller litteratur (Bevisnivå L5), den foreslåtte virkemåten støtter ikke plausibelt den forutsagte indikasjonen — og i henhold til evidensepakkens egen analyse kan den motvirke det — og legemiddelet markedsføres ikke i Norge. Denne kandidaten bør ikke avansere uten uavhengig mekanistisk eller klinisk begrunnelse.
+Prediksjonen er rent modellbasert (L5) uten kliniske studier eller publikasjoner, og det finnes ingen plausibel mekanistisk kobling til legemiddelindusert osteoporose. Legemidlets toksisitetsprofil er dessuten ugunstig for en kronisk, ikke-onkologisk tilstand, og den norske godkjenningen er kansellert.
 
 **For å gå videre kreves følgende:**
-- TFDA/offisiell produktetikett med advarsler, kontraindikasjoner og forskrivningsinformasjon (Blokkerende kløft — påkrevd før enhver S1 sikkerhetsvurdering)
-- Formell, bekreftet virkemåte-dokumentasjon (Høy-prioritet kløft)
-- Uavhengig mekanistisk eller preklinisk begrunnelse som spesifikt støtter en beinheskyttende effekt, gitt legemidlets kjente cytotoksisk profil
-- Omskanning av de tre andre TxGNN-rangerte kandidatene for dette legemiddelet anbefales ikke med mindre nye støttende bevis oppstår, siden alle viser samme mangel på mekanistisk plausibilitet
-
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Advarsler og kontraindikasjoner fra preparatomtalen (blokkerende datamangel)
+- Prekliniske eller mekanistiske studier som kan underbygge en kobling til benmetabolisme
+- Avklaring av markedsstatus og tilgjengelighet i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

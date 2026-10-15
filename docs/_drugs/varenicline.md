@@ -2,7 +2,7 @@
 layout: default
 title: Varenicline
 parent: Kun modellprediksjon (L5)
-nav_order: 379
+nav_order: 445
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,79 +29,95 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Varenicline: Fra røykeslutt til migrene
+# Vareniklin: Fra tobakksavvenning til migrene
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-Varenicline er en delvis agonist på nikotinerg acetylkolinreseptor (nAChR) som historisk er utviklet og brukt som hjelpemiddel mot røykeslutt. TxGNN-modellen forutsier at det kan være effektivt for **Migrene**, men denne prognosen støttes for tiden bare av en enkel, ikke-relatert kasuistikk — **ingen kliniske studier og ingen litteratur som direkte undersøker varenicline for migrene eksisterer** — og annen evidens i dette datasettet viser at hodepine er en erkjent *bivirkning* av varenicline snarere enn en behandlingseffekt.
+Vareniklin er et legemiddel som opprinnelig brukes til **røykeslutt (tobakksavvenning)**. TxGNN-modellen forutsier at det kan ha effekt ved **migrene (migraine disorder)**, men det finnes foreløpig **ingen kliniske studier** og **ingen litteratur som støtter en terapeutisk effekt** i denne retningen. Prediksjonen er rent beregningsbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Røykeslutt (nikotinavhengighetsbehandling) — utledet fra litteraturbevis; ingen norske regulatoriske lisensdata tilgjengelig |
-| Forutsagt ny indikasjon | Migrene |
-| TxGNN-prognosescore | 99.92% |
+| Opprinnelig indikasjon | Tobakksavvenning |
+| Predikert ny indikasjon | Migrene (migraine disorder) |
+| TxGNN-prediksjonsscore | 99,92 % |
 | Evidensnivå | L5 |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Avvent |
+| Markedsstatus i Norge | Kun tilbakekalt/kansellert markedsføringstillatelse |
+| Antall tillatelser | 1 |
+| Anbefalt beslutning | Hold (avvent) |
 
 ---
 
-## Hvorfor er denne prognosen rimelig?
+## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige (Datahull). Basert på kjent farmakologi er varenicline en delvis agonist ved α4β2 nikotinerge acetylkolinreseptorer og en full agonist ved α7 nAChRs; dets effektivitet ved røykeslutt er godt etablert på tvers av dusinvis av randomiserte kontrollerte studier. Nikotinerge reseptorer er uttrykt i det trigeminovaskulære systemet og sentrale smertemoduleringsveier, noe som er det teoretiske grunnlaget TxGNN ser ut til å bruke for å knytte varenicline til migrene.
+Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Ut fra kjent farmakologi er vareniklin en partiell agonist på nikotinske acetylkolinreseptorer av typen α4β2 og en full agonist på α7-reseptorer. Effekten ved røykeslutt skyldes at det reduserer sug og abstinenssymptomer og samtidig reduserer den belønnende effekten av røyking.
 
-Denne mekanistiske sammenhengen er imidlertid spekulativ, og retningen av effekten er genuint tvetydig. Nikotinerge midler er rapportert å *både* utløse og potensielt modulere hodepine-typesymptomer, og datasettet selv inneholder en kasuistikk eksplisitt titlet "Badekar-relatert hodepine indusert av varenicline" (PMID 23175211, forbundet med den separate "hodepinesykdom"-kandidaten), pluss en scoringsnotat som fastslår at varenicline er en kjent *årsak* til hodepine som en uønsket hendelse snarere enn en behandling for det. Dette underminerer direkte plausibiliteten av migreneprognosen og bør behandles som et sikkerhetssignal snarere enn et effektivitetssignal.
+Nikotinerg kolinerg signalering kan i teorien knyttes til trigeminovaskulære mekanismer og «cortical spreading depression», som begge er sentrale i migrenepatofysiologien. Det finnes imidlertid ingen direkte evidens for at vareniklin har terapeutisk effekt ved migrene. Den høye TxGNN-scoren er en ren beregningsbasert prediksjon.
 
-Ingen kliniske studier eller litteratur i denne evidenspakken evaluerer spesifikt varenicline hos migrenepasenter. Den eneste litteraturposten knyttet til denne indikasjonen (en fatal hjertearkrestkasuistikk) gir ingen mekanistisk eller effektivitetsstøtte i det hele tatt — det er en tilfelsvis uønsket hendelsesrapport, ikke migrene-relatert evidens.
+Det er også verdt å merke seg at hodepine er en kjent og hyppig rapportert bivirkning av vareniklin. Signalet i litteraturen peker dermed mer mot en bivirkning enn mot en behandlingseffekt.
+
+Andre predikerte indikasjoner i datagrunnlaget (alle med evidensnivå L5 og anbefaling Hold) omfatter migrene med hjernestammeaura, kongenital hypotrikose med milia, hypotrikose simplex i hodebunnen, diffus alopecia areata, alopeci, åpenvinklet glaukom, primær hereditær glaukom, hodepineforstyrrelse og pulmonal hypertensjon. For disse finnes det ingen kliniske studier, og mekanistisk støtte er enten spekulativ eller fraværende.
 
 ---
 
 ## Evidens fra kliniske studier
 
-For tiden ingen relaterte kliniske studier registrert.
+Foreløpig er det ingen relaterte kliniske studier registrert.
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
+For migrene (rangert som nr. 1) er det kun én publikasjon, og den dreier seg om en bivirkning, ikke behandling:
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [19585710](https://pubmed.ncbi.nlm.nih.gov/19585710/) | 2009 | Kasuistikk | Therapie | Kasuistikk om hjertearkrest forbundet med varenicline-bruk; ikke knyttet til migreneefficitet, gir ingen støttende bevis for denne indikasjonen |
+| [19585710](https://pubmed.ncbi.nlm.nih.gov/19585710/) | 2009 | Kasuistikk | Therapie | Rapport om hjertestans hos en pasient som brukte vareniklin. Gir ingen støtte for effekt ved migrene. |
+
+Det finnes ingen litteratur som viser at vareniklin behandler migrene. Relatert litteratur for «hodepineforstyrrelse» (rangert som nr. 9) handler hovedsakelig om røykeslutt og sikkerhet, blant annet:
+
+- [27116918](https://pubmed.ncbi.nlm.nih.gov/27116918/) (2016, RCT, sekundæranalyse, Lancet): EAGLES-studien om nevropsykiatrisk sikkerhet og effekt av vareniklin, bupropion og nikotinplaster hos røykere med og uten psykiske lidelser.
+- [23175211](https://pubmed.ncbi.nlm.nih.gov/23175211/) (2012, Arq Neuropsiquiatr): Rapport om badrelatert hodepine utløst av vareniklin, altså hodepine som bivirkning.
+- [41991082](https://pubmed.ncbi.nlm.nih.gov/41991082/) (2026, systematisk oversikt/metaanalyse): Vareniklin ved avvenning fra e-sigaretter.
 
 ---
 
-## Norsk markedsinformasjon
+## Informasjon om det norske markedet
 
-Varenicline er for tiden ikke markedsført i Norge (0 godkjenninger på fil); ingen lisens- eller godkjent indikasjondata er tilgjengelig.
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000699 | Champix (Pfizer Europe MA EEIG) | Ikke oppgitt | Tobakksavvenning |
+
+Tillatelsen har status **kansellert**. Det finnes ingen gyldige tillatelser for enkeltpreparater eller kombinasjonspreparater.
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+- **Kontraindikasjoner fra kunnskapsgrafen (TxGNN/PrimeKG, ikke preparatomtale):** Angstlidelse, nevrotisk lidelse, dystymi, bipolar lidelse, alvorlig affektiv lidelse, rusmiddelmisbruk/avhengighet, akutt koronarsyndrom, perifer karsykdom, claudicatio intermittens, perifer arteriell sykdom og schizofreni. Disse er grafbaserte signaler og må verifiseres mot preparatomtalen.
+- **Legemiddelinteraksjoner:** Totalt 100 interaksjoner ble funnet (kilde: DDInter). Av de 20 som er vist i datagrunnlaget, er cimetidin klassifisert som **mindre alvorlig (Minor)**. De øvrige har ukjent alvorlighetsgrad, blant annet fentermin, pantoprazol, glimepirid, mesalazin, doksysyklin, morfin, metformin, omeprazol, palonosetron, rosiglitazon, lansoprazol, vankomycin, laktulose, nizatidin, triamcinolon, prednison, simvastatin, epinefrin og vitamin A.
+- **Relevante signaler fra litteraturen:** Hodepine og hjertestans er rapportert som bivirkninger i kasuistikker. Hudutslett (diffust eksantem) er også beskrevet.
 
-*(Merk: To blokkerende/høy-alvorlighetsgrad datahull er registrert — TFDA merkattadvarslinger/kontraindikasjoner [DG001, Blokkerer] og virkningsmekanisme-data [DG002, Høy] — begge påkrevd før noen S1 sikkerhetsvurdering kan fortsette.)*
+Utfyllende advarsler og kontraindikasjoner i preparatomtalen må gjennomgås før en eventuell videre vurdering.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Migreneprognosen støttes kun av en TxGNN-score uten korroborerende kliniske studier eller relevant litteratur (Evidensnivå L5), og intern evidens innen dette samme datasettet indikerer at hodepine er en kjent bivirkning av varenicline — direkte i konflikt med en terapeutisk rasjonale. Kombinert med legemidlets ikke-markedsførte status i Norge og manglende sikkerhet-/MOA-data, er det utilstrekkelig grunnlag for å fremme denne kandidaten.
+Prediksjonen for migrene bygger utelukkende på en beregningsbasert modell (evidensnivå L5), uten kliniske studier og uten litteratur som støtter terapeutisk effekt. Hodepine er dessuten en kjent bivirkning av vareniklin, og markedsføringstillatelsen i Norge er kansellert. Kunnskapsgrafen peker i tillegg på flere psykiatriske og kardiovaskulære kontraindikasjoner.
 
-**For å fortsette, er følgende nødvendig:**
-- Løse DG001 (TFDA merkattadvarslinger/kontraindikasjoner) og DG002 (Virkningsmekanisme) blokkerende/høy-alvorlighetsgrad datahull
-- Prekliniske eller mekanistiske studier som spesifikt undersøker nAChR-modulering i trigeminovaskulær migrenepatofysiologi
-- Klargjøring av hodepine-induksjon vs. hodepine-behandling retning av effekten (uønsket hendelse vs. terapeutisk signal) før ytterligere evaluering
-- Minst observasjonelle eller kasuistikkserier-data som direkte involverer varenicline hos migrenepasenter
-
+**For å gå videre kreves følgende:**
+- Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner) må innhentes. Dette er en blokkerende datamangel for sikkerhetsscreening.
+- Data om virkningsmekanisme (MOA) må hentes fra DrugBank.
+- Prekliniske studier som undersøker nikotinerg modulering i migrenemodeller (trigeminovaskulære veier, «cortical spreading depression»).
+- En vurdering av om hodepine som bivirkning er forenlig med en migrenebehandling.
+- En avklaring av regulatorisk status og tilgjengelige administrasjonsveier, siden tillatelsen i Norge er kansellert.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

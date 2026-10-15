@@ -2,7 +2,7 @@
 layout: default
 title: Trametinib
 parent: Kun modellprediksjon (L5)
-nav_order: 367
+nav_order: 430
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,106 +29,132 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Trametinib: Fra malignt melanom til koreideremi
+# Trametinib: Fra melanom til koroideremi (primær prediksjon) – med ikke-kutan melanom som best underbygde nye retning
 
-## Sammendrag i en setning
-
-> Trametinib er en MEK1/2-hemmer utviklet og brukt (i kombinasjon med dabrafenib) for BRAF V600E/K-mutasjonspositiv malignt melanom.
-> TxGNN-modellens topprangerte prediksjon er **koreideremi**, en sjelden arvelig netthinnedegenersjon,
-> men denne prediksjonen er for øyeblikket støttet av **0 kliniske studier** og **0 publikasjoner**, og ingen kjent patofysiologisk sammenheng til legemidlets MAPK/MEK-mekanisme er identifisert.
+Merk: Den høyest rangerte prediksjonen (koroideremi) har ingen støttende evidens og et mekanistisk svakt grunnlag. Rapporten tar derfor for seg den høyest rangerte prediksjonen, men vurderer også den best dokumenterte retningen, **ikke-kutant melanom** (rangert som nr. 2).
 
 ---
 
-## Rask oversikt
+## Oppsummering i én setning
 
-| Element | Innhold |
+Trametinib er en MEK-hemmer som opprinnelig brukes mot melanom.
+TxGNN-modellen predikerer høy score for **koroideremi** (99,31 %), men uten kliniske studier eller publikasjoner. Retningen med mest støtte er **ikke-kutant melanom**, med **10 registrerte kliniske studier** (hovedsakelig tidlig fase eller indirekte relevante) og ingen publikasjoner.
+
+---
+
+## Hurtigoversikt
+
+| Punkt | Innhold |
 |------|------|
-| Originalindikasjon | Malignt melanom, BRAF V600E/K-mutasjonspositiv (utledet fra internasjonale prøveregistreringer; ingen lokalt godkjent indiksjonstekst på fil) |
-| Forutsagt ny indikasjon | Koreideremi |
-| TxGNN prediksjonspoengsum | 99.31% |
-| Bevisnivå | L5 |
-| Status på Taiwan-markedet | Ikke markedsført (Ikke markedsført) |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+| Opprinnelig indikasjon | Melanom |
+| Predikert ny indikasjon | Koroideremi (rangert som nr. 1) |
+| TxGNN-prediksjonsscore | 99,31 % |
+| Evidensnivå | L5 (kun modellprediksjon) |
+| Status i Norge | Kun kansellert |
+| Antall godkjenninger | 1 (kansellert) |
+| Anbefalt beslutning | Hold |
+
+For sammenligning: ikke-kutant melanom (score 99,30 %) har evidensnivå L2 etter datagrunnlaget, med anbefalingen «forskningsspørsmål».
 
 ---
 
-## Hvorfor er denne prediksjonen fornuftig?
+## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljerte virkningsmekanismedata ikke tilgjengelig i bevissamlingen (original_moa flagget som et datahull). Basert på informasjon innebygd i de støttende prøveregistreringene som følger med i denne pakken, beskrives trametinib (GSK1120212) som "en reversibel og svært selektiv allosterisk hemmer av MEK1 og MEK2," utviklet for behandling av malignt melanom, typisk i kombinasjon med BRAF-hemmeren dabrafenib.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten. Trametinib er kjent som en MEK1/MEK2-hemmer (målgener MAP2K1 og MAP2K2) og brukes ved BRAF V600-mutert melanom, ofte sammen med dabrafenib.
 
-Koreideremi er en sjelden X-koblet arvelig netthinnedegenersjon forårsaket av funksjonstap-mutasjoner i *CHM*-genet (som koder for Rab-eskorteprotein-1), som påvirker prenylasjonen av Rab GTPaser som kreves for fotoreseptor- og retinalt pigmentepitel-transport. Det finnes ingen etablert forbindelse mellom denne stien og MAPK/MEK-signaling, og bevissamlingens eget begrunnelse flagget dette eksplisitt: *"與 MAPK/MEK 通路無已知病理生理關聯"* — ingen kjent patofysiologisk sammenheng eksisterer.
+**Koroideremi:** Sykdommen er en X-bundet netthinnedegenerasjon forårsaket av tap av funksjon i CHM-genet (REP1). Den er ikke en MAPK-drevet kreftsykdom, og det finnes ikke noe etablert grunnlag for MEK-hemming. Den høye scoren er sannsynligvis en grafbasert artefakt fra nærheten mellom melanom og øyesykdommer i kunnskapsgrafen, og bør ikke tolkes som biologisk støtte.
 
-Gitt fraværet av alle støttende kliniske prøver eller litteraturbeviser (bevisnivå L5, beslutningsstadium S0), gjenspeiler den høye TxGNN-poengsum for denne kandidaten mest sannsynlig en spuriøs korrelasjon i modellens innebyggingsrom snarere enn et genuint biologisk signal. Dette er en nyttig illustrasjon av en sak hvor råprediksjonsrangering ikke skal tolkes som klinisk prioritet uten uavhengig mekanistisk eller eksperimentell bekreftigelse.
-
----
-
-## Klinisk bevismateriell fra prøver
-
-Ingen relaterte kliniske prøver er for øyeblikket registrert.
+**Ikke-kutant melanom:** Slike melanomer (slimhinne, uvealt, acral-nære) kan ha endringer i MAPK-signalveien (BRAF, NRAS, NF1, KIT). MEK-hemming er derfor mekanistisk plausibelt, særlig i kombinasjon med BRAF- eller RAF-hemmere. Studiene er imidlertid heterogene, og subtypespesifikk effekt kan ikke bekreftes.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske studier
 
-Ingen relatert litteratur er for øyeblikket tilgjengelig.
+**Koroideremi:** Det er for tiden ingen relaterte kliniske studier registrert.
+
+**Ikke-kutant melanom (den best dokumenterte alternative retningen):**
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
+|---------|------|------|------|---------|
+| [NCT02296112](https://clinicaltrials.gov/study/NCT02296112) | Fase 2 | Fullført | 9 | Åpen studie av trametinib ved melanom med BRAF non-V600-mutasjoner; direkte legemiddelevidens, men liten og med begrenset styrke |
+| [NCT04439292](https://clinicaltrials.gov/study/NCT04439292) | Fase 2 | Aktiv, ikke rekrutterende | 44 | NCI-MATCH delprotokoll H: dabrafenib + trametinib ved BRAF V600-muterte svulster (utenom melanom m.fl.); tumoragnostisk, indirekte relevans |
+| [NCT02872259](https://clinicaltrials.gov/study/NCT02872259) | Fase 1/2 | Fullført | 74 | BGB324 i kombinasjon med pembrolizumab eller dabrafenib/trametinib ved avansert melanom; støtter kombinasjonssikkerhet |
+| [NCT02974725](https://clinicaltrials.gov/study/NCT02974725) | Fase 1 | Avsluttet | 241 | LXH254-kombinasjoner (inkl. trametinib) ved NRAS-mutert melanom og NSCLC; begrenset evidens |
+| [NCT05907304](https://clinicaltrials.gov/study/NCT05907304) | Fase 1 | Aktiv, ikke rekrutterende | 86 | Naporafenib + trametinib ved faste svulster med RAS Q61X-mutasjon; resultater foreligger ikke |
+| [NCT02410863](https://clinicaltrials.gov/study/NCT02410863) | Fase 2 | Avsluttet | 10 | Optimalisering av målrettet behandling etter BRAF-hemmer-progresjon |
+| [NCT03944356](https://clinicaltrials.gov/study/NCT03944356) | Ikke relevant | Fullført | 232 | Ikke-intervensjonsstudie av adjuvant dabrafenib + trametinib ved kutant melanom; indirekte relevans |
+| [NCT03340506](https://clinicaltrials.gov/study/NCT03340506) | Fase 4 | Rekrutterer | 100 | Oppfølgingsstudie for langtidssikkerhet; kun sikkerhetsdata |
+| [NCT07440290](https://clinicaltrials.gov/study/NCT07440290) | Fase 2/3 | Rekrutterer | 30 | DETERMINE: dabrafenib + trametinib ved BRAF V600-positive kreftformer hos voksne og barn |
+| [NCT05275374](https://clinicaltrials.gov/study/NCT05275374) | Fase 1/2 | Ikke startet rekruttering | 221 | XP-102 med trametinib ved BRAF V600-muterte solide svulster; ingen data ennå |
+
+NCT02416232 (tilgangsprogram, ikke lenger tilgjengelig) er utelatt fordi det ikke gir effektevidens.
 
 ---
 
-## Informasjon om Taiwan-markedet
+## Evidens fra litteratur
 
-Trametinib er for øyeblikket **ikke markedsført** på Taiwan under denne bevissamlingen (0 godkjennelser på fil). Ingen produktlisensar eller godkjente indikasjonsposter er tilgjengelige for uttak.
+For koroideremi og ikke-kutant melanom foreligger det for tiden ingen relatert litteratur.
+
+For andre predikerte melanomvarianter finnes følgende (kun oversikter og kasuistikker):
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [40853557](https://pubmed.ncbi.nlm.nih.gov/40853557/) | 2025 | Oversikt | JAMA | Generell oversikt over kutant melanom (forekomst og epidemiologi) |
+| [31361915](https://pubmed.ncbi.nlm.nih.gov/31361915/) | 2020 | Kasuistikk/oversikt | Clin Exp Dermatol | To tilfeller av BRAF-mutert konjunktivalt melanom, med litteraturgjennomgang |
+| [31747798](https://pubmed.ncbi.nlm.nih.gov/31747798/) | 2019 | Kasuistikk/oversikt | J Investig Med High Impact Case Rep | Melanom i tåresekken hos 15 japanske pasienter |
+| [41209431](https://pubmed.ncbi.nlm.nih.gov/41209431/) | 2026 | Kasuistikk | Oncol Lett | Kombinert BRAF/MEK-hemming ved hjernemetastaser av melanom under graviditet |
+| [37756677](https://pubmed.ncbi.nlm.nih.gov/37756677/) | 2025 | Kasuistikk | Retinal Cases Brief Rep | Rask tilbakegang av koroidal metastase etter kombinert målrettet behandling |
+| [42583475](https://pubmed.ncbi.nlm.nih.gov/42583475/) | 2026 | Kasuistikk | Ann Med Surg | Tidlig metastatisk BRAF V600E-melanom uten kjent primærtumor |
+| [41310270](https://pubmed.ncbi.nlm.nih.gov/41310270/) | 2025 | Kasuistikk | Childs Nerv Syst | Amelanotisk melanom i sentralnervesystemet hos barn |
 
 ---
 
-## Cellegiftighet
+## Informasjon om det norske markedet
 
-Trametinib er et antineoplastisk middel (MEK1/2-hemmer brukt i BRAF-mutert melanom), så denne delen gjelder.
+| Godkjenningsnummer | Produktnavn | Doseform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/002643 | Mekinist | – | Melanom (status: kansellert) |
 
-| Element | Innhold |
+---
+
+## Cytotoksisitet
+
+| Punkt | Innhold |
 |------|------|
-| Cellegiftklassifisering | Målrettet terapi (MEK1/2-hemmer) |
-| Risiko for beinmargshemming | Vennligst se pakningsvedlegget for advarsler og forholdsregler |
-| Emetogenisitetsklassifisering | Vennligst se pakningsvedlegget for advarsler og forholdsregler |
-| Overvåkingselementer | Vennligst se pakningsvedlegget for advarsler og forholdsregler |
-| Håndteringsbeskyttelse | Vennligst se pakningsvedlegget for advarsler og forholdsregler |
+| Klassifisering | Målrettet behandling (MEK-hemmer) |
+| Myelosuppresjonsrisiko | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Emetogenisitet | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Overvåkingspunkter | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Håndteringsbeskyttelse | Følg gjeldende regler for håndtering av kreftlegemidler |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+Advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelige i datagrunnlaget. Se pakningsvedlegget for sikkerhetsinformasjon.
+
+**Legemiddelinteraksjoner:** Det er funnet 17 oppføringer, hvorav 15 er interaksjoner av moderat alvorlighetsgrad (DDInter):
+- Fostamatinib, elagolix, apalutamid, brigatinib
+- Dabrafenib, enkorafenib, isavukonazonium, lasmiditan
+- Midostaurin, sarecyklin, enzalutamid, erdafitinib
+- Gilteritinib, idelalisib, tukatinib
+
+De to øvrige oppføringene beskriver farmakologiske mål (MEK1/MAP2K1 og MEK2/MAP2K2), ikke interaksjoner.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold** (for koroideremi)
 
 **Begrunnelse:**
-Koreideremiprediksjonen har ingen støttende kliniske prøver eller litteratur (L5/S0), og ingen kjent mekanistisk vei forbinder MEK-hemming til CHM-relatert netthinnedegenersjon. Den høye TxGNN-poengsum behandles best som en kandidat for modellartifaktgjennomgang snarere enn som en repurposingkandidat.
+Prediksjonen for koroideremi bygger kun på modellscore, uten studier, litteratur eller biologisk grunnlag; sykdommen er ikke MAPK-drevet. Ikke-kutant melanom er mekanistisk plausibelt og har tidlig-fase-studier, men uten subtypespesifikke resultater, og bør behandles som et forskningsspørsmål.
 
-**For å gå videre, er følgende nødvendig:**
-- Preklinisk/mekanistisk bevis som forbinder MAPK-MEK-signalering til CHM-defekt netthinnepatologi (hvis det finnes)
-- Uavhengig verifisering av TxGNN-innebyggingspoengsum med modelleringsteamet for å utelukke spuriøs korrelasjon
-- Trametinib virkningsmekanisme (MOA) og TFDA/lokale merkedata for å lukke gjeldende datahull (DG001, DG002)
-
----
-
-## Merknad: Andre forutsagte indikasjoner i denne bevissamlingen
-
-Denne bevissamlingen er en multi-kandidat ("TW-DB08911-multi") utdata, og rangeringer 2–9 viser merkbart bedre støttet (om enn fortsatt tidlig-stadium) signaler — verdt å flagge sammen med hovedprediksjonen ovenfor:
-
-| Rangering | Sykdom | Bevisnivå | Beslutningsstadium | Anbefaling | Sentral støtte |
-|------|---------|----------------|-----------------|-----------------|-----------|
-| 2 | Ikke-kutant melanom | L2 | S2 | Forskningsspørsmål | Fase 3 DREAMseq + flere Fase 2-studier (BRAF-mutert populasjon, ikke subtypspesifikk) |
-| 7 | Acralt lentigøst melanom | L2 | S2 | Forskningsspørsmål | [NCT02083354](https://clinicaltrials.gov/study/NCT02083354) — subtypspesifikk Fase 2 ORR-data, n=77 |
-| 9 | Overflatisk spreiende melanom | L3 | S2 | Forskningsspørsmål | Molekylært matchet Fase 2-studie + saksrapporter (respons på hjerne-/korioidalmetastase) |
-| 3, 4, 6, 8 | Epithelioid, øyelokk, amelanotisk, lentigo maligna melanom | L4 | S1 | Forskningsspørsmål | Kun saksrapporter/gjennomganger, ingen subtypspesifikke studier |
-| 5, 10 | Skrotalt melanom, ballongcellemelanom | L5 | S0 | Avvent | Ingen bevis |
-
-**Viktig forbehold:** alle rangeringer 2–10 er histologisk/anatomisk **undertyper av melanom** — sykdomsrommet trametinib allerede er brukt i (kombinert med dabrafenib) internasjonalt. Disse representerer ikke repurposering til nytt organ på samme måte som koreideremi ville gjøre; de gjenspeiler ekstrapolasjon av undertyper innen samme indikasjon, og deres kliniske verdi avhenger av subtypspesifikk BRAF-mutasjonsprevalens (f.eks. acralt og slimhinne-undertyper har markant lavere BRAF V600-mutasjonsrater enn klassisk kutant melanom).
-
+**For å gå videre kreves følgende:**
+- Detaljerte data om virkningsmekanisme (MOA)
+- Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner)
+- For ikke-kutant melanom: subtypespesifikke resultater fra studier, fortrinnsvis med kartlegging av BRAF/NRAS/NF1/KIT-status
+- Avklaring av markedsstatus i Norge, siden den eneste godkjenningen er kansellert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

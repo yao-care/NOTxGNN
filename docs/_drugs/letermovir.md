@@ -2,7 +2,7 @@
 layout: default
 title: Letermovir
 parent: Kun modellprediksjon (L5)
-nav_order: 205
+nav_order: 241
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,61 +29,92 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Letermovir: Fra cytomegalovirus (CMV)-infeksjon til vulvovaginal candidiasis
+# Letermovir: Fra cytomegalovirusinfeksjon til vulvovaginal candidiasis
 
-## Oppsummering i én setning
+## Oppsummering i en setning
 
-Letermovir er en CMV DNA-terminase-kompleks-inhibitor, kjent for sin antivirusakativitet mot cytomegalovirus-infeksjon. TxGNN-modellen forutsier at det kan være effektivt for **vulvovaginal candidiasis**, men denne prediksjonen støttes for øyeblikket av **0 kliniske forsøk** og **0 publikasjoner**, og den underliggende mekanistiske begrunnelsen argumenterer mot biologisk sannsynlighet.
+Letermovir er et antiviralt middel som opprinnelig brukes mot **cytomegalovirusinfeksjon (CMV)**. TxGNN-modellen forutsier at legemidlet kan ha effekt mot **vulvovaginal candidiasis**, men det finnes foreløpig **ingen kliniske studier og ingen publikasjoner** som støtter denne retningen. Prediksjonen er rent beregningsbasert.
 
-## Hurtig oversikt
+---
+
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|-------|---------|
-| Original indikasjon | Ikke tilgjengelig i bevispakken (ingen lisens-/indikasjonsti på fil — se datagap DG002) |
-| Forutsagt ny indikasjon | Vulvovaginal candidiasis |
-| TxGNN-prediksjonspoeng | 99.88% |
-| Bevisnivå | L5 |
-| Status på Norgesmarkedet | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Vente |
+|------|------|
+| Opprinnelig indikasjon | Cytomegalovirusinfeksjon |
+| Foreslått ny indikasjon | Vulvovaginal candidiasis |
+| TxGNN-prediksjonsscore | 99,88 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun opphevede godkjenninger |
+| Antall godkjenninger | 1 |
+| Anbefalt beslutning | Hold |
 
-## Hvorfor er denne prediksjonen rimelig?
+---
 
-Detaljerte formelle data om mekanisme for stoffets virkning er ikke tilgjengelige i denne bevispakken (datagap DG002, høy alvorlighetsgrad). Imidlertid indikerer bevispakkens egen mekanistiske analyse at letermovir fungerer som en **CMV DNA-terminase-kompleks-inhibitor**, som målretter den virale emballasjekompleksen pUL51/pUL56/pUL89 — en mekanisme som er spesifikk for Herpesviridae-familien og konsistent med dens kjente rolle i CMV-profylakse/behandling.
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Denne mekanismen har ingen kjent sammenheng med stiene relevant for vulvovaginal candidiasis, som er en sopp-infeksjon (Candida) drevet av cellvegg-/cellmembransyntese, ergosterol-stien og CYP51-relaterte mål. Ingen in vitro eller in vivo antifungal aktivitet er blitt rapportert for letermovir i noen tilgjengelig kilde.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Basert på kjent kunnskap hemmer letermovir det virale terminasekomplekset (pUL56/UL89/UL51) hos CMV. Dette er en mekanisme som er spesifikk for viruset.
 
-Gitt denne mangelen på biologisk sannsynlighet, er den meget høye TxGNN-prediksjonspoengscoren (99.88%) mest sannsynlig tilskrivelig indirekte kunnskapsgraff-forbindelser eller relasjonsstøy snarere enn et genuint farmakologisk signal. Denne prediksjonen bør behandles med betydelig forsiktighet og er for øyeblikket ikke bekreftet av noen uavhengig klinisk eller litteraturbevis.
+Det er ingen kjent fungal homolog til dette målet. Aktivitet mot *Candida*-arter er derfor ikke biologisk sannsynlig ut fra dagens kunnskap. Det foreligger heller ingen in vitro-, in vivo- eller kliniske data om antifungal effekt.
 
-## Bevis fra kliniske forsøk
+Den høye TxGNN-scoren (0,9988) bør tolkes med forsiktighet. Den gjenspeiler trolig assosiasjoner i kunnskapsgrafen, for eksempel felles legemiddelklasse (antiinfektiva) eller nettverksnaboer, og ikke en validert mekanisme. Likhet mellom opprinnelig og ny indikasjon er ikke vurdert.
 
-Ingen relaterte kliniske forsøk er for øyeblikket registrert
+---
 
-## Litteraturbevis
+## Klinisk studieevidens
 
-Ingen relatert litteratur er for øyeblikket tilgjengelig
+Foreløpig er det ingen relaterte kliniske studier registrert.
 
-## Norgesmarkedsinformasjon
+---
 
-Letermovir er ikke for øyeblikket markedsført i Norge. Ingen godkjennelser, produktoppføringer eller tekst om godkjente indikasjoner er på fil (`total_licenses: 0`).
+## Litteraturevidens
 
-## Sikkerhetshensyn
+Foreløpig finnes det ingen relatert litteratur.
 
-Vennligst referer til pakningsvedlegget for sikkerhetsinformasjon. (TFDA-tilsvarende etikett-advarsler/kontraindikasjoner flagges som et **blokkerende** datagap — DG001 — og stoffinteraksjondata ble ikke funnet i denne bevispakken.)
+---
 
-## Konklusjon og neste trinn
+## Markedsinformasjon for Norge
 
-**Beslutning: Vente**
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004536 | Prevymis | – | Cytomegalovirusinfeksjon |
+
+Godkjenningen er registrert som opphevet (status: cancelled), og det finnes ingen gyldige godkjenninger i Norge.
+
+---
+
+## Sikkerhetsvurderinger
+
+**Legemiddelinteraksjoner**: Det er funnet 100 registrerte interaksjoner. Blant de viste er følgende klassifisert som **alvorlige (Major)**:
+
+- Eliglustat
+- Naloksegol
+- Cisaprid
+
+Flere interaksjoner med **moderat** alvorlighetsgrad er også registrert, blant annet:
+
+- Kortikosteroider: hydrokortison, deksametason, betametason, triamsinolon, budesonid (inkl. nasal)
+- Protonpumpehemmere: omeprazol, lansoprazol
+- Antidiabetika: pioglitazon, saksagliptin, glimepirid, klorpropamid, acetoheksamid
+- Andre: aprepitant, klaritromycin, naldemedin, nitisinon
+
+For øvrige sikkerhetsopplysninger, som advarsler og kontraindikasjoner, henvises det til preparatomtalen.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Det finnes ingen bevis fra kliniske forsøk eller litteratur som støtter letermovir for vulvovaginal candidiasis, og den mekanistiske begrunnelsen som er gitt argumenterer aktivt mot biologisk sannsynlighet (antiviralt terminase-inhibitor versus antifungal målsti-mekanismer). Kombinert med et blokkerende sikkerhetsdatagap (DG001) og stoffets nåværende umarkedsførte status i Norge, oppfyller denne kandidaten ikke terskelen for å avansere.
+Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier, litteratur eller en plausibel virkningsmekanisme. Letermovirs mål er virusspesifikt, og det er ikke noe kjent tilsvarende mål hos sopp. I tillegg er den eneste godkjenningen i Norge opphevet.
 
 **For å gå videre kreves følgende:**
-- Løse DG001 (TFDA-tilsvarende etikett-advarsler/kontraindikasjoner) — blokkerer for øyeblikket enhver S1-sikkerhetsvurdering
-- Løse DG002 (formell DrugBank-MOA-bekreftigelse) for å validere eller motbevise den mekanistiske begrunnelsen
-- Enhver preklinisk (in vitro antifungal følsomhet) eller kasuistisk bevis for å etablere biologisk sannsynlighet før videre evaluering
-- Ny screening av denne prediksjonen mot TxGNN-modellens tillitskalibrering, gitt det tilsynelatende mekanistiske misforholdet
-
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Advarsler og kontraindikasjoner fra preparatomtalen (blokkerende mangel for sikkerhetsscreening)
+- In vitro-data som viser eventuell aktivitet mot *Candida*-arter
+- Vurdering av administrasjonsveier som er relevante for vulvovaginal candidiasis (f.eks. lokal behandling), siden dette ikke er avklart
+- Gjennomgang av det store antallet legemiddelinteraksjoner dersom prosjektet fortsetter
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

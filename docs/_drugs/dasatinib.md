@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dasatinib
-parent: Moderat evidens (L3-L4)
-nav_order: 98
-evidence_level: L3
+parent: Kun modellprediksjon (L5)
+nav_order: 115
+evidence_level: L5
 indication_count: 10
 ---
 
 # Dasatinib
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,124 +29,115 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Dasatinib: Fra kronisk myeloid leukemi til Ewings sarkom
+# Dasatinib: Fra kronisk myelogen leukemi til Ewing-sarkom
 
-## Enlinjesammendrag
+## Oppsummering i én setning
 
-> Dasatinib er en multimål-tyrosinkinasehemmer (BCR-ABL, SRC-familie, c-KIT, PDGFR-β) med etablert bruk ved kronisk myeloid leukemi (KML) og Ph+ akutt lymfoblastisk leukemi.
-> TxGNN-modellens høyest rangerte *nye* kandidatindikasjon er **Ewings sarkom**,
-> som for tiden støttes av **3 kliniske studier** og **6 relevante publikasjoner**, hovedsakelig preklinisk/mekanistisk art.
+Dasatinib er en tyrosinkinasehemmer som opprinnelig brukes mot Philadelphia-kromosompositiv kronisk myelogen leukemi og akutt lymfoblastisk leukemi.
+TxGNN-modellen predikerer at legemidlet kan ha effekt mot **Ewing-sarkom**, men dette er en tidlig forskningshypotese: de to kliniske studiene er små eller blandede (7 og 366 pasienter), og litteraturen er for det meste prekliniske studier og oversiktsartikler.
+Den nest høyest rangerte prediksjonen, **myeloid leukemi**, har klart sterkere evidens (flere fase 3-studier), men ligger tett opp mot den eksisterende indikasjonen.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Ikke tilgjengelig fra norske regulatoriske data (medikamentet er for tiden ikke markedsført). I følge medikamentets egne litteraturstudier (PMID 18215092), er dasatinibs etablerte indikasjoner **kronisk myeloid leukemi (KML)** og **Ph+ akutt lymfoblastisk leukemi** |
-| Forutsagt ny indikasjon | Ewings sarkom |
-| TxGNN prediksjonspoeng | 99.90% (rangering 1502 i global prediksjonslist) |
-| Bevisgrad | L3 |
-| Status på norsk marked | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | **Avvente** |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Prekursor-B-celle lymfoblastisk leukemi/lymfom; kronisk myelogen leukemi, BCR-ABL-positiv |
+| Predikert ny indikasjon | Ewing-sarkom |
+| TxGNN-prediksjonsscore | 99,90 % |
+| Evidensnivå | L2 (ifølge de innsamlede dataene; se merknad under) |
+| Status på det norske markedet | Kun avregistrerte (cancelled) godkjenninger |
+| Antall godkjenninger | 2 (begge avregistrert) |
+| Anbefalt beslutning | Hold (forskningsspørsmål) |
 
-> **Merknad om kandidatlisten:** Denne bevisamlingen vurderte 10 kandidatindikasjoner for dasatinib. Rangering 2, "myeloid leukemi," er **ikke** en ny bruksindikasjon — det er dasatinibs allerede godkjent standardindikasjon, og det høye TxGNN-poengene der gjenspeiler simpelthen et kjent, sterkt legemiddel-sykdomsforhold. Det genuint nye repurposering-signalet er Ewings sarkom (rangering 1), som denne rapporten fokuserer på. En sammenfatning av alle 10 rangerte indikasjoner finnes lenger ned.
+*Merknad om evidensnivå: L2 forutsetter en fullført randomisert fase 2/3-studie. Den fullførte fase 2-studien (NCT00464620) er enarmet og omfatter blandede sarkomtyper, og en oversiktsartikkel rapporterer at dasatinib som monoterapi ikke virket ved Ewing-sarkom og rabdomyosarkom. Reell evidens for Ewing-sarkom er derfor svakere enn nivået tilsier.*
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Dasatinib er en liten molekyl, oralt biotilgjengelig multikinasinhibitor. Basert på litteraturen i denne bevisamlingen (PMID 18215092), hemmer det BCR-ABL, SRC-familie-kinaser (SFK), c-KIT, ephrin-A-reseptor, og PDGFR-β ved nanomolar konsentrasjoner, og er omtrent 325-fold mer potent enn imatinib mot BCR-ABL. Dette brede kinasinhibisjonsprofil — utover BCR-ABL alene — er farmakologisk grunnlag for å utforske dasatinib utenfor leukemi, i tumorer drevet av SRC, KIT, eller PDGFR-signalering.
+Detaljerte data om virkningsmekanisme var ikke tilgjengelige i datagrunnlaget. Dasatinib er imidlertid kjent som en multikinasehemmer som blokkerer BCR-ABL og SRC-familiekinaser (samt c-KIT og PDGFR). Effekten ved BCR-ABL-drevet leukemi er godt dokumentert.
 
-Ewings sarkom er en slik kandidat. Flere in vitro-studier i denne bevisamlingen (PMID 17363602, 27566104, 31521948, 18202781) viser at Ewings sarkom-celler er sterkt avhengige av SFK-drevet signalering for migrasjon, invasjon, og miljømessig stressadaptasjon, og at dasatinib kan hemme disse prosessene og indusere apoptose i bein-sarkom-cellelinjer som er avhengige av SRC for overlevelse. En gjennomgang som spesifikt dekker FAK-SRC-rettet behandling i Ewings sarkom og relaterte pediatriske sarkomer (PMID 35655525), presenterer dasatinib som en rasjonell SFK-rettet agent for denne tumorgruppen.
+Mekanismen er plausibel for Ewing-sarkom: SRC-signalering driver invadopodiedannelse, migrasjon og invasjon i Ewing-sarkommodeller. Prekliniske studier viser antiproliferativ og antimigratorisk aktivitet av dasatinib i Ewing-sarkom- og neuroblastomcellelinjer, og FAK-Src-komplekset er foreslått som terapeutisk mål.
 
-Imidlertid oversettes den mekanistiske historien ikke ennå rent til klinisk nytte. Den samme gjennomgangen (PMID 35655525) bemerker eksplisitt at dasatinib **"feilet som monoterapi"** i Phase 2 avansert sarkom-studien for Ewings sarkom og rabdomyosarkom-undertyper, og den eneste Ewings-spesifikke kombinasjonsstudien i denne samlingen (NCT00788125) ble avsluttet tidlig med bare 7 pasienter inkludert. Den mekanistiske begrunnelsen er derfor sterkere for **anti-invasiv/anti-metastatisk aktivitet** enn for direkte tumorreduksjonsefficacy, og kombinasjonsstrategier (snarere enn monoterapi) ser ut til å være nødvendige for klinisk oversettelse.
+Den kliniske effekten er derimot ikke bekreftet. En oversiktsartikkel (PMID 35655525) beskriver at dasatinib som monoterapi i en fase 2-studie ikke viste effekt ved Ewing-sarkom og rabdomyosarkom. Kombinasjonsstrategier, som RIST-regimet (rapamycin, irinotekan, dasatinib, temozolomid), er under utforsking.
 
 ---
 
-## Bevis fra kliniske studier
+## Kliniske studier
 
-| Studienummer | Fase | Status | Inkludering | Hovedfunn |
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT00788125](https://clinicaltrials.gov/study/NCT00788125) | Fase 1/2 | Avsluttet | 7 | Pediatrisk studie av dasatinib + ifosfamid/karboplatina/etopid; den eneste Ewings-spesifikke kombinasjonsstudien; avsluttet tidlig, for liten for efficacy-konklusjoner |
-| [NCT00464620](https://clinicaltrials.gov/study/NCT00464620) | Fase 2 | Fullført | 366 | Bred avansert-sarkom-kurvestudie som vurderte responsrate og 6-måneders PFS med dasatinib; Ewings sarkom sannsynligvis en underkohort, men ingen sykdomsstratifiserte resultater rapportert |
-| [NCT06500819](https://clinicaltrials.gov/study/NCT06500819) | Fase 1 | Rekrutering | 41 | B7-H3 CAR-T-cellebehandlingsstudie ved relapsert/refraktær pediatriske solide tumorer (inkludert Ewings sarkom); ikke relatert til dasatinib, inkludert bare på grunn av sykdomsoverlapp |
+| [NCT00788125](https://clinicaltrials.gov/study/NCT00788125) | Fase 1/2 | Avsluttet | 7 | Dasatinib sammen med ifosfamid, karboplatin og etoposid hos barn; avsluttet tidlig med få pasienter, derfor lite informasjon om effekt og sikkerhet |
+| [NCT00464620](https://clinicaltrials.gov/study/NCT00464620) | Fase 2 | Fullført | 366 | Dasatinib som monoterapi ved avanserte sarkomer (responsrate og 6 måneders progresjonsfri overlevelse); blandede subtyper, ikke spesifikk for Ewing-sarkom, og resultater er ikke oppgitt i datagrunnlaget |
 
 ---
 
-## Bevis fra litteratur
+## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [18202781](https://pubmed.ncbi.nlm.nih.gov/18202781/) | 2008 | Preklinisk (in vitro) | Oncology Reports | Dasatinib viser antiproliferativ og antimigratorisk aktivitet i Ewings sarkom og neuroblastom-cellelinjer, i samsvar med c-KIT/PDGFR/SFK-aktivitet |
-| [17363602](https://pubmed.ncbi.nlm.nih.gov/17363602/) | 2007 | Preklinisk (in vitro) | Cancer Research | Dasatinib hemmer migrasjon/invasjon på tvers av ulike sarkom-cellelinjer og induserer apoptose i SRC-avhengige bein-sarkom-celler |
-| [35655525](https://pubmed.ncbi.nlm.nih.gov/35655525/) | 2022 | Gjennomgang/Preklinisk | Sarcoma | Gjennomgår FAK-SRC-rettet behandling i Ewings sarkom, DSRCT, og rabdomyosarkom; bemerker eksplisitt at dasatinib **feilet som monoterapi** i Phase 2 sarkom-studien for disse undertypene |
-| [27566104](https://pubmed.ncbi.nlm.nih.gov/27566104/) | 2016 | Preklinisk (in vitro) | Neoplasia | Mikromiljømessig stress aktiverer SRC-avhengig invadopodia-dannelse og cellemigrasjon i Ewings sarkom, en målbar node for SFK-inhibitorer |
-| [31521948](https://pubmed.ncbi.nlm.nih.gov/31521948/) | 2019 | Preklinisk (in vitro) | Neoplasia | Tenascin C og SRC samarbeider for å drive invadopodia-dannelse og metastase-assosiert invasjon i Ewings sarkom |
-| [26170970](https://pubmed.ncbi.nlm.nih.gov/26170970/) | 2015 | Gjennomgang | Oncology Letters | Gjennomgår SRCs rolle i sarkombioligi (proliferasjon, apoptose, invasjon, metastase) og dets gjennomførbarhet som legemiddelmål |
-
-*Tre tilleggsoppføringer fra litteraturøkingen (PMID 35190971 om kondrosarkom, 29776413 om plerixafor/CXCR4, og 32999666 om et KML-kromosomalt abnormitetskasus) ble ekskludert som ikke direkte relevant for dasatinib i Ewings sarkom — sannsynlig kunnskapsgrafs samvariasjon-støy.*
-
----
-
-## Norsk markedsinformasjon
-
-Dasatinib har for tiden **ingen markedsførings godkjennelser i Norge** (`market_status: Not marketed / Not marketed`, `total_licenses: 0`). Ingen produktnivå-lisenseringsdata er tilgjengelig for denne bevisamlingen.
+| [42804591](https://pubmed.ncbi.nlm.nih.gov/42804591/) | 2026 | Kasuistikkserie | J Pediatr Hematol Oncol | Erfaringer med RIST-basert multimodal behandling (inkl. dasatinib) ved tilbakefall av Ewing-sarkom ved ett senter |
+| [35655525](https://pubmed.ncbi.nlm.nih.gov/35655525/) | 2022 | Oversikt | Sarcoma | Målretting mot FAK-Src ved DSRCT, Ewing-sarkom og rabdomyosarkom; dasatinib som monoterapi hadde ikke effekt i disse subtypene |
+| [26170970](https://pubmed.ncbi.nlm.nih.gov/26170970/) | 2015 | Oversikt | Oncol Lett | Src-signalering i sarkom og Src som mulig legemiddelmål |
+| [18202781](https://pubmed.ncbi.nlm.nih.gov/18202781/) | 2008 | In vitro | Oncol Rep | Antiproliferativ og antimigratorisk aktivitet av dasatinib i neuroblastom- og Ewing-sarkomcellelinjer |
+| [17363602](https://pubmed.ncbi.nlm.nih.gov/17363602/) | 2007 | In vitro | Cancer Res | Dasatinib hemmer migrasjon og invasjon i sarkomcellelinjer og induserer apoptose i bensarkomceller som er avhengige av SRC |
+| [27566104](https://pubmed.ncbi.nlm.nih.gov/27566104/) | 2016 | In vitro | Neoplasia | Mikromiljøstress gir Src-avhengig aktivering av invadopodier og cellemigrasjon i Ewing-sarkom |
+| [31521948](https://pubmed.ncbi.nlm.nih.gov/31521948/) | 2019 | In vitro | Neoplasia | Tenascin C og Src samarbeider om invadopodiedannelse i Ewing-sarkom |
 
 ---
 
-## Andre forutsagte indikasjoner (komplett rangert liste, for kontekst)
+## Informasjon om det norske markedet
 
-| Rangering | Sykdom | TxGNN poeng | Bevisgrad | Anbefaling | Merknad |
-|------|---------|------|------|------|------|
-| 1 | Ewings sarkom | 99.90% | L3 | Forskningsspørsmål | Dekket ovenfor |
-| 2 | Myeloid leukemi | 99.68% | L1 | Fortsett med sikkerhetstiltak | **Allerede en godkjent indikasjon**, ikke en ny repurposering-mål |
-| 3 | Liposarkom | 99.67% | L4 | Forskningsspørsmål | SRC/FAK-veirationale i myksoid liposarkom (FUS-CHOP); ingen sykdomsspesifikk studiedata |
-| 4 | Fibromatose, gingival | 99.65% | L5 | Avvente | Ingen studier/litteratur; ingen kjent mekanistisk kobling til dasatinibs mål |
-| 5 | Dermatofibrosarkomaprotrudens | 99.65% | L4 | Forskningsspørsmål | COL1A1-PDGFB-drevet; kun klassenivå PDGFR-rasjonale, ingen dasatinib-spesifikk data |
-| 6 | Ovarialt myksoid liposarkom | 99.59% | L5 | Avvente | Ingen bevis; sannsynlig sykdomsontologi-merking-støy |
-| 7 | Ganglioneuroblastom | 99.59% | L5 | Avvente | Ingen bevis funnet |
-| 8 | Vertebrale anomalier med endokrine og T-cellulær dysfunksjon | 99.59% | L5 | Avvente | Ingen bevis; sannsynlig kunnskapsgrafs-støy |
-| 9 | Inklusjonsstoffmyopati med Paget-sykdom ± FTD | 99.58% | L5 | Avvente | 20 litteraturresultater er generiske FTD-gjennomganger, ingen nevner dasatinib — sykdomssamvariasjon-støy |
-| 10 | Lungehamartom | 99.56% | L5 | Avvente | Ingen bevis; godartet tumor uten mekanistisk kobling |
+| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/006251 | Dasatinib Accord Healthcare (avregistrert) | Ikke oppgitt | Prekursor-B-celle lymfoblastisk leukemi/lymfom; kronisk myelogen leukemi, BCR-ABL-positiv |
+| EMEA/H/C/000709 | Sprycel (avregistrert) | Ikke oppgitt | Prekursor-B-celle lymfoblastisk leukemi/lymfom; kronisk myelogen leukemi, BCR-ABL-positiv |
 
 ---
 
 ## Cytotoksisitet
 
-Dasatinib er et godkjent antineoplastisk middel (kinasinhibitor-klasse), så denne delen gjelder på medikamentation-nivå.
-
-| Element | Innhold |
-|---------|---------|
-| Cytotoksisitetsklassifisering | Målrettet terapi — liten molekyl multikinasinhibitor (BCR-ABL, SRC-familjekinaser, c-KIT, PDGFR-β, ephrin-A-reseptor) |
-| Risiko for myelosuppresjon | Moderat–høy. Ikke direkte fanget i denne pakkens strukturerte sikkerhetsfelt, men støttet av pakkens litteratur og studier på leukemiindikasjonsnivå, f.eks. en dedikert studie av IL-11 for trombocytopeni assosiert med imatinib/dasatinib/andre TKI-er (NCT00493181), og kasuistikker av dasatinib-assosiert pleuraeffusjon, chylothorax (PMID 36448074), og interstitielt pneumonitt (PMID 36346055) |
-| Emetegenisitetsklassifisering | Lav (typisk for oral TKI-er som klasse; ikke eksplisitt rapportert i denne pakken) |
-| Overvåkingselementer | CBC med differensial, lever- og nyrfunksjon, pleuraeffusjon/lungesymptomer, kardial (QT) overvåkning per klasseffekt |
-| Håndteringsbeskyttelse | Standard oral onkologisk håndteringsforsiktigheter; vennligst bekreft mot offisielle cytotoksiske/farlige legemiddelbehandlingsregler, ettersom denne pakken inneholder ingen fasilitetsspesifikke håndteringsdata |
+| Punkt | Innhold |
+|------|------|
+| Klassifisering | Målrettet behandling (tyrosinkinasehemmer) |
+| Risiko for myelosuppresjon | Kunnskapsgrunnlaget angir nøytropeni, trombocytopeni og anemi som relevante tilstander (se sikkerhetsavsnittet); detaljer må hentes fra preparatomtalen |
+| Emetogenisk klassifisering | Se preparatomtalen |
+| Overvåkingspunkter | Blodstatus med differensialtelling, lever- og nyrefunksjon, elektrolytter og QT-intervall |
+| Håndteringsbeskyttelse | Følg gjeldende regler for håndtering av cytostatika/antineoplastiske legemidler |
 
 ---
 
 ## Sikkerhetshensyn
 
-Se pakningsvedlegget for sikkerhetsinformasjon. (`key_warnings`, `contraindications`, og DDI-spørring ga alle ingen data i denne bevisamlingen — DDI-spørringstatus: `not_found`.)
+Informasjon fra preparatomtale (advarsler og kontraindikasjoner) mangler i datagrunnlaget. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
+
+- **Mulige kontraindikasjoner (fra TxGNNs kunnskapsgraf, ikke fra preparattekst):** langt QT-syndrom (inkl. familiært), torsades de pointes, leversykdom, galleblæresykdom, trombocytopeni, nøytropeni, agranulocytose, anemi, hjertesvikt, hjerteinfarkt, hjernblødning, aktiv magesår, perikardeffusjon.
+- **Legemiddelinteraksjoner:** 100 interaksjoner er identifisert; de viktigste er:
+  - *Alvorlige (Major):* famotidin, ranitidin, cimetidin, omeprazol, rabeprazol (syrehemmere som kan redusere opptak), deksametason, acetylsalisylsyre og klaritromycin.
+  - *Moderate:* hydrokortison, loperamid, aprepitant, bisakodyl, budesonid, magnesiumoksid, aluminiumhydroksid, kalsiumkarbonat, polyetylenglykol, sakssagliptin og lakserolje.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvente**
+**Beslutning: Hold (forskningsspørsmål)**
 
 **Begrunnelse:**
-Ewings sarkom-signalet er mekanistisk plausibelt (SFK-avhengig invasjon/apoptose in vitro), men klinisk ubevist — den eneste sykdomsspesifikke kombinasjonsstudien ble avsluttet på n=7, den større sarkom-kurvstudien rapporterte ingen Ewings-spesifikke resultater, og eksisterende gjennomgangslitteratur angir eksplisitt at dasatinib feilet som monoterapi i denne tumortypen. Kombinert med et **blokkerende** datakløft vedrørende advarsler og kontraindikasjoner i TFDA/norsk pakningsvedlegg (DG001), er denne indikasjonen ikke klar til å gå videre forbi forskningsspørsmål-stadiet.
+Mekanismen (SRC-hemming) er plausibel og støttes av prekliniske data, men de kliniske dataene er begrenset til én liten, terminert studie og én blandet sarkomstudie, og en oversikt rapporterer manglende effekt som monoterapi ved Ewing-sarkom. Legemidlet er dessuten kun avregistrert på det norske markedet, og sikkerhetsdata fra preparatomtale mangler (blokkerende datagap).
 
-**For å fortsette er følgende nødvendig:**
-- Løse DG001 (norsk/TFDA pakningsvedleggsadvarsler og kontraindikasjoner) — blokkering for enhver S1 sikkerhet pre-vurdering
-- Løse DG002 (bekreftet virkningsmekanisme fra DrugBank API) for å styrke dokumentasjonen av den mekanistiske begrunnelsen
-- Nye eller fullførte studier som tester dasatinib **i kombinasjonsregimer** for Ewings sarkom spesifikt, siden monoterapi-aktivitet allerede har vist seg å feile
-- Avklare norsk registrerings-/importvei, ettersom dasatinib for tiden har null markedsførings godkjennelser der
-- Hvis du forfølger rangering 3 (liposarkom) eller rangering 5 (DFSP) parallelt, generer sykdomsspesifikk (ikke kurv-studie) efficacy-data før du går videre forbi L4
+**Dette trengs for å gå videre:**
+- Hente og analysere preparatomtale (advarsler og kontraindikasjoner) for å fullføre sikkerhetsscreening
+- Innhente detaljerte data om virkningsmekanisme (f.eks. fra DrugBank)
+- Finne resultater fra NCT00464620, spesielt for Ewing-sarkom-undergruppen
+- Vurdere kombinasjonsregimer (f.eks. RIST) i kontrollerte studier
+- Avklare markedsstatus i Norge og tilgang til legemidlet
 
+**Andre prediksjoner (kort):**
+- *Myeloid leukemi* (evidensnivå L1, Proceed with Guardrails): støttet av blant annet DASISION (5-årsresultater) og flere fase 3-studier ved KML, men dette er i stor grad en indikasjon innenfor eller tett opp mot eksisterende godkjenning. Resultatene fra fase 3-studien ved CBF-AML (PMID 41490515) var ikke tilgjengelige i datagrunnlaget.
+- *Liposarkom* og *dermatofibrosarcoma protuberans* (L4, Hold): kun prekliniske eller indirekte data.
+- Øvrige prediksjoner (L5, Hold): ingen kliniske studier eller litteratur, kun beregnet prediksjon.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

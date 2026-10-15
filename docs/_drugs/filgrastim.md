@@ -2,7 +2,7 @@
 layout: default
 title: Filgrastim
 parent: Kun modellprediksjon (L5)
-nav_order: 152
+nav_order: 177
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,96 +29,89 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Filgrastim: Fra neutropeni (G-CSF-støtteterapi) til primær sekresjonsforstyrrelse av platelett
+# Filgrastim: Fra nøytropeni og stamcelletransplantasjon til primær frisetningsforstyrrelse i blodplater
 
-## Oppsummering i en setning
+## Oppsummering
 
-> Filgrastim er et rekombinant humant G-CSF som klinisk brukes til å stimulere neutrofil-gjenoppretting og mobilisere hematopoietiske stamceller i støtteterapisammenheng (f.eks. rundt kjemoterapi og stamcelletransplantasjon).
-> TxGNN-modellen forutsier at det kan være effektivt for **Primær sekresjonsforstyrrelse av platelett**,
-> men bevisstøtten er svak — alle **13 kliniske forsøk** som er identifisert bruker Filgrastim bare som støtteagent for stamcelle-mobilisering/neutrofil-gjenoppretting i ikke-relaterte transplantprotokoller, og bare **1 publikasjon** berører emnet løst, uten direkte bevis som evaluerer Filgrastim for denne indikasjonen.
-
-> ⚠️ **Merknad om original indikasjon**: Bevisepakken inneholder ikke en bekreftet regulatorisk godkjent indikasjonstekst for Filgrastim (`original_indications` er tom, `original_moa` er et datahull). Beskrivelsen av «Neutropeni» ovenfor er utledet fra gjentatt kontekst i merknadene om forsøksrelevans (G-CSF brukt for «stamcelle-mobilisering/neutrofil-gjenoppretting») og bør bekreftes mot en autoritativ etikett før bruk i dokument rettet til eksterne.
+Filgrastim (G-CSF) brukes opprinnelig ved nøytropeni, ved stamcelletransplantasjon og i kreftbehandling.
+TxGNN-modellen forutsier at legemidlet kan ha effekt ved **primær frisetningsforstyrrelse i blodplater** (primary release disorder of platelets).
+Prediksjonen bygger kun på modellen: det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter den i de data som er sammenstilt for denne rapporten.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Original indikasjon | Ikke tilgjengelig i bevisepakken (regulatorisk datahull) — G-CSF er kontekstuelt referert som støtte for neutrofil-gjenoppretting/stamcelle-mobilisering |
-| Forutsagt ny indikasjon | Primær sekresjonsforstyrrelse av platelett |
-| TxGNN-prediktjonsscore | 99.99% (rangert 48 blant alle prediksjoner) |
-| Bevisnivå | L5 |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Stamcelletransplantasjon og kreft (hematopoietisk stamcelletransplantasjon; kreft) |
+| Predikert ny indikasjon | Primær frisetningsforstyrrelse i blodplater |
+| TxGNN-prediksjonsscore | 99,998 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrerte godkjenninger |
+| Antall godkjenninger | 7 (alle avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelig (flagget som et **høy-alvorlighet datahull** i bevisepakken). Basert på tilgjengelig kontekstinformasjon, er Filgrastim et rekombinant granulocytt-kolonistimulerende faktor (G-CSF) hvis kjente farmakologi er å stimulere proliferasjon og differensiering av granulocytt-forløperceller og mobilisere hematopoietiske stamceller — en mekanisme som klinisk brukes til å støtte neutrofil-gjenoppretting etter myelosuppressiv terapi og mobilisere stamceller før transplantasjon.
+Data om virkningsmekanisme er ikke tilgjengelige i det sammenstilte datagrunnlaget. Filgrastim er en granulocyttkolonistimulerende faktor (G-CSF) som virker på nøytrofil-linjen. Effekten er etablert ved nøytropeni og som støtte ved stamcelletransplantasjon.
 
-Primær sekresjonsforstyrrelse av platelett er derimot en defekt i plateletgranul-sekresjonsmaskineri (veier som ADP/TXA2-signalering og granul-eksocytose). Bevisepakkens egen mekanistiske analyse uttaler eksplisitt at det er **ingen direkte biologisk sammenheng** mellom G-CSF-signalering og plateletgranul-frigjøringsvei. Den høye TxGNN-scoren reflekterer mest sannsynlig en indirekte assosiasjon som er lært fra kunnskapsgrafen — begge konsepter klynges under brede «hematologisk sykdom/hematopoese»-noder — snarere enn en genuin delt mekanisme.
+En frisetningsforstyrrelse i blodplater er en defekt i blodplatenes sekresjon og funksjon, og er ikke et opplagt mål for G-CSF. Det er ikke påvist noen mekanistisk kobling. Den høye modellscoren (0,99998) er en ren modellprediksjon og bør ikke tolkes som klinisk støtte.
 
-I samsvar med dette er alle 13 kliniske forsøk som er hentet for denne indikasjonen studier av allogeneisk/autolog hematopoietisk stamcelletransplantasjon for ikke-relaterte tilstander (leukemi, lymfom, sarkom, MS, SLE, COVID-19), der Filgrastim/G-CSF vises bare som støtteagent for stamcelle-mobilisering eller post-transplant neutrofil-gjenoppretting — ikke som undersøkelsesbehandling for sekresjonforstyrrelser av platelett. Flere forsøk ble eksplisitt gradering «C» (lav relevans) under vurdering. Denne prediksjonen bør behandles som **hypotesegenerering bare**, ikke som bevis for terapeutisk plausibilitet.
-
----
-
-## Klinisk forsøksbevis
-
-| Forsøksnummer | Fase | Status | Innrullering | Viktige funn |
-|---------|------|------|------|---------|
-| [NCT00281879](https://clinicaltrials.gov/study/NCT00281879) | Fase 2 | Avbrutt | 200 | Ikke-relatert donor HSCT for hematologiske maligniteter; G-CSF brukt for stamcelle-mobilisering/neutrofil-gjenoppretting, ikke for plateletforstyrrelser (gradering lav relevans) |
-| [NCT00043979](https://clinicaltrials.gov/study/NCT00043979) | Fase 2 | Fullført | 60 | Allogeneisk/syngeneisk HSCT for pediatriske sarkomer; G-CSF som støtteagent bare (gradering lav relevans) |
-| [NCT00354172](https://clinicaltrials.gov/study/NCT00354172) | Fase 2 | Avbrutt | 16 | Navlestrengstransplantasjon + NK-celler for myeloid leukemi ikke i remisjon |
-| [NCT00923364](https://clinicaltrials.gov/study/NCT00923364) | Fase 2 | Fullført | 19 | Redusert intensitet HSCT for pasienter med GATA2-mutasjoner |
-| [NCT02646098](https://clinicaltrials.gov/study/NCT02646098) | Fase 2 | Fullført | 64 | CD34+ valgt vs. ikke-valgt autolog HSCT i MCL/DLBCL; G-CSF brukt for stamcelle-innsamling (gradering lav relevans) |
-| [NCT05436418](https://clinicaltrials.gov/study/NCT05436418) | Fase 1/2 | Rekrutterer | 260 | Post-transplant cyclophosphamid + sirolimus/MMF for GVHD-profylakse etter PBSCT |
-| [NCT05170828](https://clinicaltrials.gov/study/NCT05170828) | Fase 1 | Trukket | 0 | Kryokonservert HLA-mismatchet ikke-relatert donor benmargtransplantasjon med PTCy |
-| [NCT00076752](https://clinicaltrials.gov/study/NCT00076752) | Fase 2 | Fullført | 9 | Autolog HSCT for alvorlig systemisk lupus erythematosus |
-| [NCT04540120](https://clinicaltrials.gov/study/NCT04540120) | Fase 2 | Avbrutt | 49 | Dapansutrile (NLRP3-hemmer) for moderat COVID-19/cytokinfrislappelsessyndrom (ikke-relatert til Filgrastim-mekanisme) |
-| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Fase 2 | Rekrutterer | 358 | Post-transplant cyclophosphamid-basert GVHD-profylakse i mismatchet ikke-relatert donor PBSCT |
-
-**Ingen av ovennevnte forsøk evaluerer direkte Filgrastim som behandling for sekresjonforstyrrelser av platelett; alle identifiserte bruker er støtte/stamcelle-mobilisering i ikke-relaterte transplantsammenhenger.**
+Også de øvrige predikerte indikasjonene (blant annet pseudo-von Willebrands sykdom, Glanzmanns trombasteni, Scott syndrom og konstitusjonell trombocytopeni) mangler studier og litteratur, og ingen har en klar mekanistisk kobling til G-CSF.
 
 ---
 
-## Litteraturbevis
+## Klinisk evidens
 
-| PMID | År | Type | Journal | Viktige funn |
-|------|-----|------|------|---------|
-| [29770133](https://pubmed.ncbi.nlm.nih.gov/29770133/) | 2018 | Kohort-studie | Frontiers in Immunology | G-CSF-mobilisering i friske stamcelledonorer mobiliserer preferensielt lymfocytt-undergrupper; adresserer ikke plateletgranul-frigjørelsesnfunksjon |
+For primær frisetningsforstyrrelse i blodplater er det for øyeblikket ingen relaterte kliniske studier registrert.
 
----
-
-## Norsk markedsinformasjon
-
-Filgrastim er for tiden **ikke markedsført i Norge** (0 autorisasjoner på posten). Ingen produktlisens eller godkjent indikasjonstekst er tilgjengelig i bevisepakken.
+Til sammenligning ble det for rang 10 (blodplatetype blødningsforstyrrelse) funnet syv studier. Alle er stamcelletransplantasjonsprotokoller der filgrastim trolig er støttebehandling, og de er vurdert som lite relevante (grad C). Dette er sannsynligvis en artefakt fra sykdomstermkartlegging og reflekterer den opprinnelige indikasjonen, ikke reposisjonering.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Vennligst se pakningsvedlegg for sikkerhetsinformasjon.
+Det foreligger for øyeblikket ingen relatert litteratur.
 
-> **Viktig flagg**: Bevisepakken markerer TFDA/pakningsvedlegg-advarsler og kontraindikasjoner som et **kritisk datahull** — dette må løses (via TFDA-etikett-henting og parsing) før noen sikkerhetsvurdering (S1) kan fortsette. Legemiddelinteraksjons-data ble også spurt med ingen resultater funnet.
+---
+
+## Markedsinformasjon for Norge
+
+Alle syv godkjenninger er avregistrert, og det finnes ingen gyldige godkjenninger.
+
+| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/001142 | Nivestim | – | Stamcelletransplantasjon; kreft |
+| EMEA/H/C/006400 | Zefylti | – | Nøytropeni; stamcelletransplantasjon; kreft |
+| EMEA/H/C/000827 | Tevagrastim | – | Stamcelletransplantasjon; kreft |
+| EMEA/H/C/000917 | Zarzio | – | Stamcelletransplantasjon; kreft |
+| EMEA/H/C/000918 | Filgrastim Hexal | – | Stamcelletransplantasjon; kreft |
+
+---
+
+## Sikkerhetsvurderinger
+
+- **Legemiddelinteraksjoner**: Spørringen ga 100 registrerte interaksjoner. De 20 første er alle av moderat alvorlighetsgrad, blant annet med jobenguan (I-131), fludeoksyglukose (18F), ibritumomab tiuxetan, tositumomab, levamisol, trimetreksat, merkaptopurin, abemasiklib, paklitaksel, acalabrutinib, aldesleukin, alemtuzumab, altretamin, arsentrioksid, asparaginase, avapritinib, azacitidin, belantamab mafodotin og bendamustin.
+
+Se preparatomtalen for øvrig sikkerhetsinformasjon.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-TxGNN-scoren er høy, men bevisepakkens egen mekanistiske og klinisk-forsøksvurdering finner ingen direkte biologisk eller klinisk sammenheng mellom Filgrastims kjente G-CSF-aktivitet og sekresjonforstyrrelser av platelett — alle hentede forsøk bruker Filgrastim bare som støtteagent i ikke-relaterte transplantprotokoller, og bare en løst relatert observasjonsstudie finnes. Kombinert med et kritisk datahull i sikkerhet/etikett-data, oppfyller denne kandidaten ikke terskelen for å gå videre utover signaldeteksjon (S0).
+Prediksjonen er kun modellbasert (L5), uten kliniske studier eller litteratur og uten påvist mekanistisk kobling mellom G-CSF og blodplatefunksjon. I tillegg er alle norske godkjenninger avregistrert.
 
-**For å fortsette, er følgende nødvendig:**
-- Hent og parse den offisielle TFDA-etiketten for advarsler, kontraindikasjoner, og DDI (kritisk datahull, DG001)
-- Innhent bekreftet virkningsmekanisme og godkjent indikasjons-data fra DrugBank (høy-alvorlighet datahull, DG002)
-- Søk preklinisk eller mekanistisk bevis direkte som kobler G-CSF/granulocytt-signalering til plateletgranul-sekresjons-veier, hvis en slik hypotese skal forfølges videre
-- Revurderes de «ventende» relevans-graderte forsøkene for å bekrefte ingen gir direkte bevis før noen re-evaluering
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsvurdering
+- Prekliniske eller mekanistiske studier som kan underbygge en kobling til blodplatefunksjon
+- Gjennomgang av litteratur og kliniske studier for blodplaterelaterte tilstander
+- Avklaring av dagens regulatoriske status i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

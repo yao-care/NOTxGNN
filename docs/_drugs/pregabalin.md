@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pregabalin
-parent: Moderat evidens (L3-L4)
-nav_order: 289
-evidence_level: L4
+parent: Kun modellprediksjon (L5)
+nav_order: 337
+evidence_level: L5
 indication_count: 6
 ---
 
 # Pregabalin
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **6** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,69 +29,117 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Pregabalin: Fra nevropatisk smerte til tendinitt
+# Pregabalin: Fra epilepsi, angst og nevralgi til migrenelidelse
 
-## Oppsummering i én setning
+## Ettsetningssammendrag
 
-Pregabalin er en α2δ (alpha-2-delta) spenningsstyrert kalsiumkanalsligand som historisk har blitt brukt til nevropatisk smerte og som adjuvansbehandling ved partiell epilepsi, med ytterligere off-label-bruk ved generalisert angstlidelse og fibromyalgi.
-TxGNN-modellen predikerer at det kan være effektivt for **tendinitt**, men denne retningen støttes for øyeblikket av **0 kliniske studier** og bare **6 tangentielt relaterte publikasjoner** — hovedsakelig om postoperativ opioidbesparende smertelindring snarere enn tendinitt-behandling i seg selv.
+Pregabalin er et legemiddel som opprinnelig brukes mot epilepsi, angstlidelser og nevropatisk smerte (nevralgi).
+TxGNN-modellen forutsier at det kan ha effekt ved **migrenelidelse** (høyeste score blant forslagene med noe klinisk støtte), men beviset er begrenset: **1 kliniske studie med fase 3-design (trukket tilbake før oppstart)**, **1 fase 4-studie som ikke tester effekt**, og flere publikasjoner, hovedsakelig små pediatriske randomiserte studier.
+Det øverste forslaget på listen, **tendinitt** (score 99,71 %), har ingen direkte klinisk støtte og er derfor ikke brukt som hovedkandidat i denne rapporten.
 
-## Rask oversikt
+---
 
-| Element | Innhold |
+## Hurtigoversikt
+
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Ikke dokumentert i evidence pack (ingen TFDA/DrugBank-lisensfil tilgjengelig); litteratur (PMID 30001248) indikerer etablert bruk til nevropatisk smerte og adjuvansbehandling ved partiell epilepsi |
-| Forutsagt ny indikasjon | Tendinitt |
-| TxGNN-prediksjonscore | 99.71% |
-| Bevisnivå | L4 |
-| Status på taiwansk marked | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+| Opprinnelig indikasjon | Angstlidelser; epilepsi (nevralgi i enkelte godkjenninger) |
+| Predikert ny indikasjon | Migrenelidelse (rangert som nr. 5 av TxGNN; nr. 1 tendinitt har kun L4-nivå og ingen direkte evidens) |
+| TxGNN-prediksjonsscore | 99,47 % (migrenelidelse) |
+| Evidensnivå | L2 (migrene); tendinitt L4 |
+| Status på det norske markedet | Kun annullerte godkjenninger |
+| Antall godkjenninger | 6 (alle annullert) |
+| Anbefalt beslutning | Hold (migrene: forskningsspørsmål, ikke klar for videre utvikling) |
+
+*Merknad:* Evidensnivået L2 for migrene er den automatiske vurderingen i dataene. Det bygger på små pediatriske randomiserte studier, ikke på en fullført fase 2/3-studie, så det bør tolkes forsiktig.
+
+---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljerte virkningsmekanisme-data fra DrugBank ikke tilgjengelig (flagget som et høyt-alvorlighets datamangler). Basert på hva som er dokumentert i støttende litteratur og modellens egen begrunnelse, virker pregabalin som en ligand av α2δ-delenheten av spenningsstyrt kalsiumkanaler, som produserer sentrale antinosiseptiske og antihyperalgesiske effekter. Klinisk har denne mekanismen blitt brukt til å redusere opioidforbruk etter artroskopisk skulderkirurgi (rotatorkuff/sene).
+Detaljerte data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige i de innhentede dataene. Basert på kjent informasjon er pregabalin en ligand til alfa-2-delta-underenheten i spenningsstyrte kalsiumkanaler. Den reduserer frisetting av eksitatoriske nevrotransmittere som glutamat og demper sentral sensitisering. Virkningen er godt dokumentert ved epilepsi og nevropatisk smerte.
 
-Imidlertid er den mekanistiske forbindelsen til tendinitt i seg selv svak. Tendinitt er fundamentalt en inflammatorisk/degenerativ tilstand av senelaget, mens pregabalins virkning er sentrert på sentral smertesensitivisering snarere enn lokal inflammasjon, kollagenreparasjon eller seneheling. Den støttende litteraturen beskriver i stor grad pregabalin som et perioperativt analgetisk adjuvans *etter* senekirurgi (f.eks. rotatorkuff-reparasjon) — ikke som en behandling for tendinitt-patologi eller dets helbredelse. Som evidence pack-ens egen begrunnelse angir, er det «ingen direkte korrespondanse» mellom pregabalins mekanisme og tendinittens inflammatoriske patologi; prediksjonen ser ut til å oppstå fra samtidig forekomst i litteraturen (smertelindring rundt seneprosedyrer) snarere enn en sykdomsmodifiserende begrunnelse.
+Migrene deler flere trekk med disse tilstandene: nevronal hyperekscitabilitet og sentral sensitisering. Prekliniske studier viser at pregabalin hever terskelen for kortikal spredt depolarisering (cortical spreading depression), som antas å ligge bak migreneaura, og at det hemmer P/Q-type kalsiumkanaler. Dette gir en plausibel mekanistisk kobling.
 
-## Klinisk prøvingsbevis
+Det finnes likevel viktige forbehold. Klinisk støtte kommer i hovedsak fra små pediatriske randomiserte studier (mot valproat og propranolol) og en nettverksmetaanalyse, men ikke fra voksenstudier i fase 3. Andre antiepileptika (topiramat, valproat) er bedre etablert i migreneforebygging.
 
-For øyeblikket er det ingen relaterte kliniske studier registrert.
+For tendinitt, den høyest rangerte prediksjonen, er en eventuell nytte trolig begrenset til symptomatisk smertelindring, ikke behandling av selve senebetennelsen eller degenerasjonen. Den høye TxGNN-scoren støttes ikke av direkte klinisk evidens. Prediksjonene for idiopatisk granulomatøs myositt, myositis fibrosa og inklusjonslegememyositt mangler både studier og plausibel mekanisme.
 
-## Litteraturbevis
+---
 
-| PMID | År | Type | Journal | Viktige funn |
+## Klinisk studieevidens
+
+Studier for migrenelidelse:
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
+|---------|------|------|------|---------|
+| [NCT00447369](https://clinicaltrials.gov/study/NCT00447369) | Fase 3 | Trukket tilbake | 70 (planlagt) | Randomisert, blindet crossover-studie av pregabalin mot natriumvalproat i migreneforebygging. Trukket tilbake, ingen data. |
+| [NCT02747940](https://clinicaltrials.gov/study/NCT02747940) | Fase 4 | Fullført | 200 | Studie av hjernesignaturer ved kroniske smertetilstander (kronisk migrene og fibromyalgi). Kartleggingsstudie, tester ikke effekt av pregabalin ved migrene. |
+
+For de andre predikerte indikasjonene (tendinitt, idiopatisk granulomatøs myositt, myositis fibrosa, inklusjonslegememyositt, migrene med hjernestammeaura) er det for tiden ingen relaterte kliniske studier registrert.
+
+---
+
+## Litteraturevidens
+
+Utvalg for migrenelidelse:
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [32839073](https://pubmed.ncbi.nlm.nih.gov/32839073/) | 2021 | RCT | J Orthop Sci | Retrospektiv kohortstudie som evaluerer analgetisk effektivitet og opioidbesparende effekt av pregabalin etter artroskopisk rotatorkuff-(sene)-reparasjonskirurgi |
-| [34052386](https://pubmed.ncbi.nlm.nih.gov/34052386/) | 2022 | RCT | Arthroscopy | Perioperativ oral pregabalin ga smertescore sammenlignbar med interscalene braksialt pleksusblokk etter artroskopisk rotatorkuff-reparasjon |
-| [40818536](https://pubmed.ncbi.nlm.nih.gov/40818536/) | 2025 | Gjennomgang/Lederskrift | Arthroscopy | Lederskrift om diagnose av piriformis-syndrom og kirurgisk frigjøring av piriformis-senen; ikke fokusert på pregabalin-effektivitet |
-| [41017607](https://pubmed.ncbi.nlm.nih.gov/41017607/) | 2025 | Caserapport | Praxis | Tilfelle av fluorkinolon-assosiert funksjonshemming inkludert tendinopatologi etter siprofloksacin; pregabalin er ikke det aktuelle stoffet |
-| [37051935](https://pubmed.ncbi.nlm.nih.gov/37051935/) | 2023 | Caserapport | Pain Practice | Tilfelle av posterior femoralt kutant nerveinnsnevring fra hamstring-tendinitt etter marathonløp |
-| [39703364](https://pubmed.ncbi.nlm.nih.gov/39703364/) | 2024 | Preklinisk | Adv Pharmacol Pharm Sci | Rattestudie av et planteekstrakt (ikke pregabalin) som demper vincristin-indusert perifer neuropati; bare tangentiell relevans |
+| [37637787](https://pubmed.ncbi.nlm.nih.gov/37637787/) | 2023 | RCT | Iran J Child Neurol | Pregabalin sammenlignet med natriumvalproat i migreneforebygging hos barn |
+| [26024701](https://pubmed.ncbi.nlm.nih.gov/26024701/) | 2015 | RCT | Acta Med Iran | Pregabalin sammenlignet med propranolol i migreneforebygging hos barn (99 barn, 3–15 år) |
+| [39388181](https://pubmed.ncbi.nlm.nih.gov/39388181/) | 2024 | Nettverksmetaanalyse | JAMA Netw Open | Forebyggende legemidler ved pediatrisk migrene |
+| [23797675](https://pubmed.ncbi.nlm.nih.gov/23797675/) | 2013 | Systematisk oversikt | Cochrane Database Syst Rev | Gabapentin eller pregabalin for forebygging av episodisk migrene hos voksne |
+| [21479703](https://pubmed.ncbi.nlm.nih.gov/21479703/) | 2011 | Oppfølgingsstudie | J Headache Pain | Effekt og tolerabilitet av pregabalin som forebyggende migrenebehandling over 3 måneder |
+| [25669613](https://pubmed.ncbi.nlm.nih.gov/25669613/) | 2015 | Klinisk studie | Int J Clin Pharmacol Ther | Effekt av pregabalin på sentral sensitisering og allodyni ved migrene |
+| [30880369](https://pubmed.ncbi.nlm.nih.gov/30880369/) | 2019 | Oversikt | Curr Treat Options Neurol | Status for antiepileptika som forebyggende migrenebehandling |
+| [37924146](https://pubmed.ncbi.nlm.nih.gov/37924146/) | 2023 | Preklinisk | Mol Brain | Kronisk pregabalin beskytter mot spredt depolarisering i musemodell for familiær hemiplegisk migrene type 1 |
+| [28223480](https://pubmed.ncbi.nlm.nih.gov/28223480/) | 2017 | Preklinisk | PNAS | Pregabalin hemmer kortikal spredt depolarisering (relevant også for migrene med hjernestammeaura) |
+| [20464594](https://pubmed.ncbi.nlm.nih.gov/20464594/) | 2010 | Oversikt | Neurol Sci | Behandlingsstrategier ved migrene med komorbide stemnings- og angstlidelser |
 
-Merk: ingen av studiene ovenfor evaluerer direkte pregabalin som behandling for tendinitt; relevans er indirekte (perioperativ smertelindring rundt senekirurgi eller ikke-relaterte sene-caserapporter).
+Merknad om tendinitt: de hentede artiklene er i hovedsak case-rapporter eller studier av postoperativ smerte etter skulderkirurgi (f.eks. PMID 34052386), ikke studier av tendinitt. De gir ikke direkte støtte.
 
-## Taiwansk markedsinformasjon
+---
 
-Pregabalin er for øyeblikket **ikke markedsført** i Taiwan ifølge denne evidence pack (0 godkjennelser, ingen lisensoppføringer tilgjengelig).
+## Informasjon om det norske markedet
 
-## Sikkerhetshensyn
+| Godkjenningsnummer | Produktnavn | Doseform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/003880 | Pregabalin Viatris Pharma (tidligere Pregabalin Pfizer) | – | Angstlidelser; epilepsi |
+| EMEA/H/C/000546 | Lyrica | – | Epilepsi; angstlidelser; nevralgi |
+| EMEA/H/C/004024 | Pregabalin Accord | – | Angstlidelser; epilepsi |
+| EMEA/H/C/004010 | Pregabalin Sandoz | – | Angstlidelser; nevralgi; epilepsi |
+| EMEA/H/C/004078 | Pregabalin Viatris (tidligere Pregabalin Mylan) | – | Angstlidelser; epilepsi |
 
-Vennligst se pakningsvedlegget for sikkerhetsopplysninger. (Viktige advarsler, kontraindikasjoner og DDI-data er ennå ikke tilgjengelig i denne evidence pack; TFDA-etikettinnhenting er flagget som et blokkering-datamangler — DG001.)
+Alle seks registrerte godkjenninger har status annullert; ingen er gyldige for tiden. (Én ytterligere annullert godkjenning, Pregabalin Zentiva, er ikke vist i tabellen.)
 
-## Konklusjon og neste trinn
+---
 
-**Beslutning: Avvent**
+## Sikkerhetsvurderinger
+
+- **Kontraindikasjoner fra kunnskapsgrafen (TxGNN/PrimeKG, ikke preparatomtale):** angstlidelse, nevrotisk lidelse, dysthymisk lidelse, trombocytopeni, angioødem (inkludert ervervet, hereditært, ikke-histaminisk og ACE-/RAAS-hemmerutløst), myopati, muskelsykdom, skjelettmuskelsykdom, familiær periodisk paralyse, rabdomyolyse, nodulær fasciitt, nedsatt nyrefunksjon og atrioventrikulært blokk. Disse er grafbaserte signaler og må bekreftes mot preparatomtalen.
+- **Legemiddelinteraksjoner (100 registrert; utvalg):**
+  - **Alvorlig (Major):** morfin, morfin (liposomalt). Risiko for additiv sentralnervøs og respirasjonsdemping.
+  - **Moderat:** pioglitazon, rosiglitazon, troglitazon, difenoksin, difenoksylat, dronabinol, nabilon, metoklopramid, opium, sibutramin.
+  - **Ukjent nivå:** kalsitriol, vitamin A, fentermin, pantoprazol, glimepirid, sukralfat, palonosetron, nystatin.
+
+Informasjon om advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelig i de innhentede dataene. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Ingen kliniske studier tester direkte pregabalin for tendinitt, og den støttende litteraturen omhandler perioperativ opioidbesparende smertelindring etter senekirurgi snarere enn tendinitt-behandling eller helbredelse. Den foreslåtte mekanismen (sentral kalsiumkanal-modulering av smertesensitivisering) løser ikke tydelig den underliggende inflammatoriske/degenerative patologien av tendinitt, så bevisnivået forblir L4 (kun mekanistisk/indirekte).
+Den eneste fase 3-studien i migrene (NCT00447369) ble trukket tilbake og har ingen resultater. Støtten består av små pediatriske studier og prekliniske data, og andre antiepileptika er bedre etablert. Den høyest rangerte prediksjonen (tendinitt) og de øvrige muskelsykdommene mangler direkte evidens eller plausibel mekanisme. I tillegg har legemidlet ingen gyldige godkjenninger i Norge, og sikkerhetsdata fra preparatomtalen mangler.
 
-**For å fortsette, trengs følgende:**
-- TFDA-etikett-data (advarsler/kontraindikasjoner) — for øyeblikket blokkering (DG001)
-- Bekreftet virkningsmekanisme fra DrugBank (DG002)
-- En prospektiv studie designet for å evaluere pregabalins effekt på tendinitt-smerte/heling spesifikt, snarere enn postoperativ smertelindring som surrogatmål
-- Revurdering av TxGNN-prediksjons-begrunnelsen for å utelukke confounding fra samtidig forekomst i perioperativ smertlitteratur
-
+**For å gå videre trengs følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel som hindrer sikkerhetsscreening)
+- Detaljerte data om virkningsmekanisme (MOA) fra DrugBank
+- Randomiserte, kontrollerte studier hos voksne med migrene, helst fase 2/3 med placebo eller etablert forebyggende komparator
+- Klargjøring av regulatorisk status i Norge, siden alle godkjenninger er annullert
+- Sikkerhetsplan som tar hensyn til interaksjon med opioider og kontraindikasjonssignalene fra kunnskapsgrafen (blant annet nedsatt nyrefunksjon, myopati og angioødem)
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

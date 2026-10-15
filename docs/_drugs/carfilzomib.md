@@ -2,7 +2,7 @@
 layout: default
 title: Carfilzomib
 parent: Kun modellprediksjon (L5)
-nav_order: 76
+nav_order: 85
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,108 +29,114 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Carfilzomib: Fra multipelt myelom til melanom
+# Karfilzomib: Fra multippelt myelom til CMM7 (familiært kutant malignt melanom)
 
-## Sammendrag i én setning
+## Sammendrag
 
-Carfilzomib er en irreversibel 26S proteasominhibitor som brukes internasjonalt til behandling av tilbakevendende/refraktært multipelt myelom (ikke for tiden markedsført i Norge iht. denne bevisvurderingen).
-TxGNN-modellen predikerer aktivitet mot **melanom**, støttet av **0 kliniske forsøk** og **5 prekliniske/in silico-publikasjoner** — det finnes ingen kliniske bevis ennå.
-TxGNN gav også fire smalere melanom-subtypetermer høyere score (CMM7, pediatrisk leptomeningeal melanom, epiteloid uveal melanom, vulvært melanom), men disse har **ingen støttende bevis** og er merket «Avvent» — de noteres for transparens men brukes ikke som hovedindikasjon.
+Karfilzomib er en proteasomhemmer som opprinnelig brukes til behandling av **multippelt myelom**.
+TxGNN-modellen forutsier at legemidlet kan ha effekt ved **CMM7** (antatt en subtype av familiært kutant malignt melanom), men dette er kun en prediksjon fra en kunnskapsgraf.
+Det finnes **ingen registrerte kliniske studier** og **ingen publikasjoner** for denne spesifikke indikasjonen. For den bredere diagnosen melanom finnes det kun **4 prekliniske eller beregningsbaserte publikasjoner**.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Multipelt myelom (tilbakevendende/refraktært) — basert på internasjonalt kjent legemiddelklasse; ikke dokumentert i norsk reguleringsdata (legemidlet ikke markedsført) |
-| Predikert ny indikasjon | Melanom |
-| TxGNN-prediksjonspoengsum | 99,03% (rangering 9297) |
-| Bevisnivå | L4 (kun prekliniske/mekanistiske studier) |
-| Status på norskmarkedet | Ikke markedsført |
-| Antall godkjenninger | 0 |
-| Anbefalt beslutning | Avvent |
-
-**Andre TxGNN-rangerte melanom-relaterte termer (ingen støttende bevis, alle Avvent/L5):**
-
-| Sykdom | TxGNN-poengsum | Merknad |
-|--------|---|---------|
-| CMM7 | 99,37% | Sykdomsdefinisjon uklar (mulig melanom molekylær subtype); ingen bevis |
-| Pediatrisk leptomeningeal melanom | 99,30% | Ultrasjelden pediatrisk CNS-subtype; blod-hjerne-barriere-penetrasjon ukjent; ingen bevis |
-| Epiteloid cella uveal melanom | 99,23% | Distinkt GNAQ/GNA11-drevet biologi fra kutant melanom; ingen bevis |
-| Vulvært melanom | 99,19% | Sjelden mukosal subtype med distinkt molekylær profil; ingen bevis |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Multippelt myelom |
+| Predikert ny indikasjon | CMM7 |
+| TxGNN-prediksjonsscore | 99,37 % |
+| Evidensnivå | L5 (kun modellprediksjon). For «melanom» generelt: L4 |
+| Status i Norge | Kun avregistrert |
+| Antall godkjenninger | 1 (avregistrert) |
+| Anbefalt beslutning | Hold (vent) |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljert virkningsmekanisme-data er ikke tilgjengelig i denne bevisvurderingen (DG002). Basert på kjent farmakologi er carfilzomib en irreversibel 26S proteasominhibitor: den blokkerer proteasomal nedbrytning av ubiquitinerte proteiner, som forårsaker akkumulering av feilfoldet proteiner intracellulært, hemming av NF-κB-signalveien, ER-stress og etterfølgende apoptose. Det er etablert (internasjonalt) for multipelt myelom, en hematologisk malignom som er høyt avhengig av proteasomfunksjon for overlevelse.
+Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er karfilzomib en proteasomhemmer. Effekten ved multippelt myelom er godt dokumentert, og mekanistisk kan den tenkes å være relevant for melanom.
 
-Melanom er biologisk distinkt fra multipelt myelom (solid tumor kontra hematologisk), så den mekanistiske forbindelsen er avhengig av en felles sårbarhet for proteasomstress snarere enn vevsspesifikk overlapping. En enkelt in vitro-studie (B16-F1 musemelanomseller) viste apoptoseinisieringsinduksjon med carfilzomib kombinert med bortezomib, dokumentert ved caspase 3/8/9/12-aktivering. Gjenværende litteratur er enten indirekte (kinase-målvalg docking-skjerming, NF-κB/heparanasemekanismesstudier i myelommodeller, PROTAC-degrader-studier) snarere enn melanomspesifikk effektivitetsdata.
+Et mulig resonnement er at proteasomhemming gir proteotoksisk stress og apoptose i kreftceller. Dette er likevel ikke testet for CMM7. Subtypen antas å være en familiær form for kutant malignt melanom, og det finnes ingen direkte evidens.
 
-Overordnet er den biologiske begrunnelsen plausibel men tynn: den hviler på én preklinisk cellinje-studie, uten in vivo-, kliniske eller humane translasjonsdata. De fire høyere rangerte subtypeprediksjoner (CMM7, pediatrisk leptomeningeal, uveal, vulvært melanom) har for tiden ingen litteratur- eller forsøksstøtte i det hele tatt og bør behandles som algoritmiske signaler kun.
+Prediksjonene med nest høyest score gjelder pediatrisk leptomeningealt melanom, epiteloid uveal melanom og vulvamelanom. De er også kun modellprediksjoner uten studier eller litteratur. Uvealt og mukosalt melanom er biologisk forskjellige fra kutant melanom, så funn fra kutane melanomcellelinjer kan ikke overføres direkte. For leptomeningealt melanom er det også uavklart om karfilzomib når sentralnervesystemet.
 
----
-
-## Bevis fra kliniske forsøk
-
-For tiden ingen relaterte kliniske forsøk registrert (på tvers av alle fem predikerte melanom-relaterte indikasjoner).
+For den bredere diagnosen **melanom** (score 99,03 %) finnes det prekliniske data. Her er evidensen indirekte og består av cellestudier og beregningsstudier.
 
 ---
 
-## Litteraturbevis
+## Klinisk studieevidens
+
+Det finnes for tiden ingen relaterte kliniske studier registrert, verken for CMM7 eller for melanom generelt.
+
+---
+
+## Litteraturevidens
+
+Det finnes ingen litteratur for CMM7. Tabellen nedenfor viser litteratur for den bredere diagnosen melanom.
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [33671902](https://pubmed.ncbi.nlm.nih.gov/33671902/) | 2021 | Preklinisk (in vitro) | Biology | Carfilzomib + bortezomib induserte apoptose i B16-F1 melanomseller via caspase 3/8/9/12-aktivering |
-| [36134605](https://pubmed.ncbi.nlm.nih.gov/36134605/) | 2023 | In silico (docking/simulering) | J Biomol Struct Dyn | Molekylær docking/dynamikk-skjerming på tvers av 10 krefttyper (inkl. melanom) mot 18 kinase-mål for legemiddelombruk |
-| [27016342](https://pubmed.ncbi.nlm.nih.gov/27016342/) | 2016 | Preklinisk (mekanisme) | Matrix Biology | Bortezomib/carfilzomib aktiverer NF-κB og oppregulerer heparanase, assosiert med aggressiv tumorfenottype (myelommodell) |
-| [31540997](https://pubmed.ncbi.nlm.nih.gov/31540997/) | 2019 | Preklinisk (genregulering) | Mol Cancer Res | AIRAP/ZFAND2A-gen regulerer melanom-celloverlevelse via E3-ligase cIAP2; proteasom-stressveien relevans |
-| [29581547](https://pubmed.ncbi.nlm.nih.gov/29581547/) | 2018 | Preklinisk (PROTAC/BET-degrader) | Leukemia | BET-nedbrytende PROTAC-er aktive i myelom prekliniske modeller; proteasom-avhengig mekanisme-kontekst |
+| [33671902](https://pubmed.ncbi.nlm.nih.gov/33671902/) | 2021 | In vitro, preklinisk | Biology | Karfilzomib kombinert med bortezomib økte apoptose (aktivering av kaspase 3, 8, 9 og 12) i B16-F1 museceller fra melanom |
+| [36134605](https://pubmed.ncbi.nlm.nih.gov/36134605/) | 2023 | Beregningsbasert (docking/dynamikk) | J Biomol Struct Dyn | Virtuell screening for gjenbruk av legemidler mot kinasemål ved ti krefttyper, inkludert melanom |
+| [31540997](https://pubmed.ncbi.nlm.nih.gov/31540997/) | 2019 | Preklinisk grunnforskning (indirekte) | Mol Cancer Res | ZFAND2A (AIRAP) som regulator av celleoverlevelse i humant melanom, via E3-ligasen cIAP2 |
+| [27016342](https://pubmed.ncbi.nlm.nih.gov/27016342/) | 2016 | Preklinisk grunnforskning (indirekte) | Matrix Biol | Bortezomib og karfilzomib aktiverer NF-κB og øker uttrykk av heparanase, noe som er assosiert med en mer aggressiv tumorfenotype |
 
-Ingen RCT-er, oversiktsartikler eller kasuistikker er tilgjengelige; alt bevis er preklinisk eller in silico.
+Bare den første studien er direkte relevant for karfilzomib ved melanom, og den bruker en museuellelinje. Den siste studien peker på en mulig bekymring: proteasomhemmere kan indusere heparanase.
 
 ---
 
-## Informasjon om norskmarkedet
+## Markedsinformasjon for Norge
 
-Carfilzomib er ikke markedsført i Norge (0 godkjenninger på fil). Ingen lisensdokumentasjon eller godkjent indiksjonstekst er tilgjengelig i denne bevisvurderingen.
+| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/003790 | Kyprolis | Ikke oppgitt | Multippelt myelom |
+
+Godkjenningen er avregistrert, og det finnes ingen gyldige markedsføringstillatelser i Norge.
 
 ---
 
 ## Cytotoksisitet
 
-Carfilzomib er et antineoplastisk middel (proteasominhibitor-klasse), så denne seksjonen gjelder.
-
-| Element | Innhold |
-|---------|---------|
-| Cytotoksisitetsklassifisering | Målrettet terapi (proteasominhibitor) |
-| Risiko for benmargsupptrykking | Vennligst se forsikringsinseratet advarsler og forholdsregler |
-| Emetogenisitetsklassifisering | Vennligst se forsikringsinseratet advarsler og forholdsregler |
-| Overvåkingselementer | Vennligst se forsikringsinseratet advarsler og forholdsregler |
-| Håndteringsbeskyttelse | Standard antineoplastisk legemiddelhåndteringsforsiktigheter gjelder iht. institusjonell protokoll; formell TFDA/etikett-veiledning ikke ennå tilgjengelig (se DG001) |
+| Punkt | Innhold |
+|------|------|
+| Cytotoksisitetsklassifisering | Målrettet terapi (proteasomhemmer), antineoplastisk |
+| Myelosuppresjonsrisiko | Se pakningsvedlegget for advarsler og forholdsregler |
+| Emetogenisitetsklassifisering | Se pakningsvedlegget for advarsler og forholdsregler |
+| Overvåkingspunkter | Se pakningsvedlegget for advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Følg gjeldende regelverk for håndtering av cytotoksiske legemidler |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Vennligst se forsikringsinseratet for sikkerhetsinformasjon. Ingen viktige advarsler, kontraindikasjoner eller DDI-data er for tiden tilgjengelige i denne bevisvurderingen (DG001, blokkerende alvorlighetsgrad).
+Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner) er ikke tilgjengelig i de innsamlede dataene. Se pakningsvedlegget for sikkerhetsinformasjon.
+
+**Legemiddelinteraksjoner:** Interaksjonssøket ble gjennomført og ga 100 registrerte interaksjoner. Blant de 20 som er gjennomgått, er følgende klassifisert som **alvorlige (Major)**:
+
+- Anabole steroider: oksandrolon, oksymetolon, stanozolol
+- Deferipron
+- Samarium (153Sm) lexidronam
+- Blodkoagulasjonsrelaterte midler: rekombinant antihemofilifaktor, aminokapronsyre, humant von Willebrand-faktor, avatrombopag, humant C1-esterasehemmer, rekombinant koagulasjonsfaktor VIIa, koagulasjonsfaktor X, konestat alfa
+
+Interaksjoner klassifisert som **moderate** omfatter metronidazol, naltrekson, rosuvastatin, simvastatin, tinidazol, palifermin og strontiumklorid Sr-89.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold (vent)**
 
 **Begrunnelse:**
-Bevis for melanom er begrenset til én in vitro cellinje-studie uten in vivo-, kliniske eller humane data (L4/S1), og de fire høyere rangerte melanom-subtypesignalene har ingen støttende bevis i det hele tatt. Kombinert med fraværet av norsk markedsgodkjenning og en blokkerende datakløft på TFDA-etikett sikkerhetsinformasjon, kan kandidaten ikke gå videre forbi første screening.
+CMM7-prediksjonen bygger kun på en kunnskapsgraf (L5), uten kliniske studier eller litteratur. For melanom generelt finnes det bare indirekte prekliniske data. Dessuten er det i dag ingen gyldig markedsføringstillatelse i Norge, og sikkerhetsdata fra preparatomtalen mangler.
 
-**For å komme videre er følgende nødvendig:**
-- TFDA-etikett/forsikringsinseratt-data (advarsler, kontraindikasjoner) — nødvendig for å rydde blokkeringskløften før noen S1 sikkerhetsvurdering (DG001)
-- Bekreftet original virkningsmekanisme og indikasjonsdokumentasjon fra DrugBank eller tilsvarende kilde (DG002)
-- In vivo prekliniske eller tidlige kliniske bevis som spesielt støtter melanom før avansering utover S1
-- Klargjøring av sykdomstermdefinisjoner for CMM7 og de andre subtypeprediksjoner, da disse ser ut til å være datakvalitetsartefakter snarere enn handlingskraftige signaler
-
+**For å gå videre trengs følgende:**
+- Sikkerhetsdata fra preparatomtalen (advarsler og kontraindikasjoner), som er en blokkerende datamangel
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Bekreftelse av hva CMM7 er, og av biologisk likhet med multippelt myelom
+- Prekliniske data i relevante melanommodeller (humane cellelinjer, in vivo) med klinisk oppnåelige doser
+- Vurdering av administrasjonsvei og eventuell penetrasjon til sentralnervesystemet, særlig for leptomeningealt melanom
+- Avklaring av regulatorisk status i Norge, siden eneste godkjenning er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

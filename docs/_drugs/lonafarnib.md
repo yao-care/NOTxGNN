@@ -2,7 +2,7 @@
 layout: default
 title: Lonafarnib
 parent: Kun modellprediksjon (L5)
-nav_order: 213
+nav_order: 249
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,75 +29,85 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Lonafarnib: Fra progeria/HDV-infeksjon til lepra
+# Lonafarnib: Fra progeri og laminopatier til lepra
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-> Lonafarnib er en farnesyltransferase-hemmer med etablert klinisk bruk ved Hutchinson-Gilford Progeria-syndrom og hepatitt D-virus (HDV)-infeksjon.
-> TxGNN-modellen predikerer at det kan være effektivt for **lepra**,
-> men foreløpig **ingen kliniske studier** og **ingen publikasjoner** støtter denne retningen — prediksjonen hviler kun på modellscoren.
+Lonafarnib er en farnesyltransferasehemmer som opprinnelig er godkjent for behandling av progeri og laminopatier.
+TxGNN-modellen forutsier at legemidlet kan ha effekt mot **lepra**, men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen bygger kun på modellen.
 
 ---
 
-## Oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Original indikasjon | Ikke registrert i gjeldende datasett (kjent klinisk bruk fra litteratur: Hutchinson-Gilford Progeria-syndrom, HDV-infeksjon) |
-| Forutsagt ny indikasjon | Lepra |
-| TxGNN-prediksjonscore | 99.14% |
-| Bevisnivå | L5 |
-| Markedsstatus i Norge | Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Progeri; laminopatier |
+| Predikert ny indikasjon | Lepra |
+| TxGNN-prediksjonsscore | 99,14 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (ingen gyldig godkjenning) |
+| Antall godkjenninger | 1 (avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanismen er ikke tilgjengelig i denne bevissamlingen (`original_moa: [Data Gap]`). Basert på ekstern kunnskap er lonafarnib en farnesyltransferase-hemmer hvis etablerte kliniske anvendelser er Hutchinson-Gilford Progeria-syndrom (blokkering av farnesylering av defekt lamin A/progerin) og kronisk HDV-infeksjon (blokkering av prenylering av stort HDV-antigen for å forhindre virusassemblering).
+Lonafarnib hemmer farnesyltransferase, et enzym som fester en farnesylgruppe til proteiner. Ved progeri og progeroide laminopatier reduserer dette opphopningen av det giftige, farnesylerte proteinet progerin. Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene, så beskrivelsen over bygger på kjent kunnskap om legemiddelklassen.
 
-Ingen kjent eller plausibel mekanistisk forbindelse knytter farnesyltransferase-hemming til patofysiologien av lepra, som drives av *Mycobacterium leprae*-infeksjon, mykobakteriell cellveggbiosyntese og vert immun/granulomatøs respons. Ingen litteratur ble funnet som beskriver en effekt av prenyleringshemming på mykobakteriell levedyktighet eller vert anti-mykobakteriell immunitet. Prediksjonen bør derfor behandles som en modellgenerert hypotese uten uavhengig mekanistisk eller empirisk grunnlag.
-
----
-
-## Bevis fra kliniske studier
-
-Ingen relaterte kliniske studier er registrert for tiden.
+Det finnes ingen dokumentert mekanistisk kobling mellom farnesyltransferasehemming og infeksjon med *Mycobacterium leprae* eller verts-responsen ved lepra (for eksempel infeksjon av Schwann-celler, immunmodulering i makrofager eller reaksjoner som ENL). Teoretisk kan prenyleringsavhengig signalering (Ras/Rho-GTPaser) påvirke samspillet mellom vert og patogen eller betennelse, men dette er spekulativt og ikke støttet av dataene. Den høye modellscoren (0,991) alene er ikke tilstrekkelig til å vurdere prediksjonen som biologisk plausibel.
 
 ---
 
-## Litteraturbevis
+## Evidens fra kliniske studier
 
-Ingen relatert litteratur er tilgjengelig for tiden.
+Foreløpig er det ikke registrert noen relaterte kliniske studier.
+
+---
+
+## Evidens fra litteraturen
+
+Foreløpig finnes det ingen relatert litteratur.
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Lonafarnib har ikke markedsautorisasjon i Norge for tiden (0 lisenser registrert; markedsstatus: ikke markedsført).
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005271 | Zokinvy | Ikke oppgitt | Progeri; laminopatier |
+
+Godkjenningen (innehaver: TMC Pharma (EU) Limited) har status avregistrert. Det finnes ingen gyldige godkjenninger.
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegget for sikkerhetsinformasjon.
+**Legemiddelinteraksjoner** (100 interaksjoner funnet i interaksjonsdatabasen; et utvalg vises nedenfor):
+
+- **Alvorlig (Major):** loperamid, aprepitant, triamcinolon, deksametason, budesonid, cimetidin, klaritromycin, eliglustat, naloksegol
+- **Moderat (Moderate):** hydrokortison, omeprazol, betametason, klorpropamid, saksagliptin, empagliflozin, oksandrolon, naldemedin
+
+Mange av disse er sannsynligvis knyttet til metabolisme via CYP3A4. Dette er en tolkning og er ikke bekreftet i dataene. Samtidig bruk av kortikosteroider, makrolider og CYP3A-påvirkende legemidler bør vurderes nøye.
+
+Informasjon om advarsler og kontraindikasjoner fra preparatomtalen mangler. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen støttes kun av en TxGNN-modellscore (L5) uten bekræftende kliniske studier, litteratur eller plausibel mekanistisk rasjonale som knytter farnesyltransferase-hemming til lepras patofysiologi. Legemidlet er heller ikke markedsført i Norge for tiden, og viktige sikkerhetsdata (advarsler, kontraindikasjoner, legemiddel-legemiddel-interaksjoner) er utilgjengelige.
+Prediksjonen for lepra bygger utelukkende på modellscore (evidensnivå L5), uten kliniske studier, litteratur eller støttet mekanistisk kobling. I tillegg er den eneste norske/europeiske godkjenningen avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
 
-**For å fortsette er følgende nødvendig:**
-- Bekreftet virkningsmekanisme (MOA) data fra DrugBank eller primærlitteratur
-- TFDA/regulatoriske etikettdata (advarsler, kontraindikasjoner) for å fjerne sikkerhetskontrollporten S1
-- Prekliniske eller mekanistiske studier som evaluerer farnesyltransferase-hemming i *M. leprae*-infeksjon eller vert anti-mykobakteriell immunitet
-- Minst bevis på kasussnivå eller observasjonsstudier før avansering utover S0
-
+**For å gå videre kreves følgende:**
+- Hente og analysere advarsler og kontraindikasjoner fra preparatomtalen (blokkerende datamangel for sikkerhetsscreening)
+- Fullstendige data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Prekliniske eller mekanistiske studier som viser en sammenheng mellom farnesyltransferasehemming og *M. leprae*-infeksjon eller lepra-immunrespons
+- Litteratur- og studiesøk for å bekrefte at det ikke finnes relevant evidens
+- Avklaring av legemidlets reguleringsstatus og tilgjengelighet i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

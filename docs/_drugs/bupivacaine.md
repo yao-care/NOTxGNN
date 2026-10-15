@@ -2,7 +2,7 @@
 layout: default
 title: Bupivacaine
 parent: Kun modellprediksjon (L5)
-nav_order: 63
+nav_order: 70
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,77 +29,96 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Bupivacaine: Fra lokal anestesi til Acrodermatitis Chronica Atrophicans
+# Bupivakain: Fra akutt smerte til akrodermatitis chronica atrophicans
 
 ## Oppsummering i én setning
 
-> Bupivacaine er et velkjent lokalt anestesi-/analgetikum (blokker av spenningskontrollerte natriumkanaler), selv om den norsk godkjente indikajonsteksten ikke er tilgjengelig i denne evidenspakken.
-> TxGNN-modellen predikerer at det kan være effektivt for **Acrodermatitis Chronica Atrophicans**, en senskiftet hudmanifestasjón av Lyme-sykdom,
-> men **ingen kliniske studier** og **ingen publikasjoner** støtter denne retningen for øyeblikket — modellens egen begrunnelse flagger den mekanistiske koblingen som ustøttet.
+Bupivakain er et lokalbedøvende middel av amid-typen, opprinnelig godkjent for behandling av akutt smerte (liposomal formulering, Exparel).
+TxGNN-modellen forutsier at det kan ha effekt ved **akrodermatitis chronica atrophicans**, men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** som støtter denne retningen.
+Prediksjonen er derfor kun modellbasert.
 
 ---
 
-## Kort oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Opprinnelig indikasjon | Ikke dokumentert i registreringsdata (stoffklasse per evidenspakke: lokal anestesi/regional analgesi); ingen norsk godkjent indikajonstekst tilgjengelig |
-| Predikert ny indikasjon | Acrodermatitis Chronica Atrophicans |
-| TxGNN-prediksjonspoeng | 99.23% |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Akutt smerte |
+| Predikert ny indikasjon | Akrodermatitis chronica atrophicans |
+| TxGNN-prediksjonsscore | 99,23 % |
 | Evidensnivå | L5 |
-| Norsk markedsstatus | Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+| Markedsstatus i Norge | Kun trukket tilbake (ingen gyldige markedsføringstillatelser) |
+| Antall tillatelser | 1 (trukket tilbake) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er detaljerte data om virkningsmekanisme ikke tilgjengelige i strukturert form (opprinnelig_virkningsmekanisme er flagget som et datakløft). Basert på begrunnelsesteksten som følger med denne prediksjonen, er bupivacaine en blokker av spenningskontrollerte natriumkanaler hvis kjente farmakologiske effekt er lokal anestesi/analgesi.
+Data om virkningsmekanisme var ikke tilgjengelige i datagrunnlaget for denne rapporten. Bupivakain er allment kjent som et lokalbedøvende middel som blokkerer spenningsstyrte natriumkanaler og dermed hemmer nerveledning. Denne opplysningen kommer fra generell kunnskap og ikke fra de innsamlede dataene.
 
-Acrodermatitis chronica atrophicans er en kronisk, atrofisk hudmanifestasjón av senskiftet Lyme-sykdom (Borrelia-infeksjon), patologisk drevet av kronisk spiroketal infeksjon, immunrespons og abnorm kollagenmetabolisme. Det finnes ingen kjent farmakologisk overlapping mellom natriumkanalblokade (bupivacaines mekanisme) og de infeksiøse/immune/fibrotiske veiene som ligger til grunn for denne tilstanden.
+Akrodermatitis chronica atrophicans er en sen hudmanifestasjon av Borrelia-infeksjon, og behandlingen er antibiotika. Det er ikke påvist noen plausibel mekanistisk kobling mellom natriumkanalblokade og sykdommens forløp. Den høye scoren (0,992) skyldes sannsynligvis nettverksmønstre i kunnskapsgrafen og ikke en kjent farmakologisk sammenheng. En eventuell nytte ville begrenset seg til symptomlindring av nevropatisk smerte, og dette er ikke underbygget av data.
 
-Evidenspakkens egen mekanistiske analyse flagger eksplisitt den predikerte assosiasjonen som farmakologisk implausibel, sannsynligvis en kunnskapsgraf-samtidsforekomst-artefakt (f.eks. samtidsforekomst med andre dermatologiske legemidler) snarere enn en ekte mekanistisk kobling. Ingen direkte farmakologisk rasjonale støtter denne ny-bruk-hypotesen.
-
----
-
-## Klinisk studiebevis
-
-Ingen relaterte kliniske studier registrert for øyeblikket
+For de øvrige predikerte indikasjonene (neonatal dermatomyositt, sekundær interstitiell lungesykdom hos barn assosiert med bindevevssykdom og amyopatisk dermatomyositt) er bildet tilsvarende: alle har evidensnivå L5, ingen studier eller publikasjoner, og ingen støttet mekanistisk kobling. Bupivakains kjente myotoksisitet er en teoretisk bekymring ved myositt-sykdommer, og kardiotoksisitet er en bekymring hos nyfødte.
 
 ---
 
-## Litteraturbevis
+## Klinisk studieevidens
 
-Ingen relatert litteratur tilgjengelig for øyeblikket
-
----
-
-## Norsk markedsinformasjon
-
-Ingen markedsførte godkjennelser i Norge for øyeblikket (markedsstatus: Ikke markedsført; 0 lisenser i arkiv)
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+Foreløpig finnes ingen relatert litteratur.
 
 ---
 
-## Konklusjon og neste skritt
+## Informasjon om det norske markedet
 
-**Beslutning: Avvent**
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004586 | Exparel liposomal | Ikke oppgitt | Akutt smerte |
+
+Tillatelsen er trukket tilbake (status: cancelled), og produsenten er Pacira Ireland Limited.
+
+---
+
+## Sikkerhetsmessige hensyn
+
+**Kontraindikasjoner fra kunnskapsgrafen** (basert på kunnskapsgrafen PrimeKG, ikke på preparatomtale), registrert for blant annet:
+- Hjerte- og karsykdommer: hypertensjon, hypotensjon, atrieflimmer, koronarsykdom, hjerteinfarkt, koronar trombose, plutselig hjertestans, hjerteledningssykdom
+- Lever- og nyresykdommer: leversvikt, leversykdom, nyresykdom, sykdom i galleblæren
+- Lunge- og luftveissykdommer: kols, respirasjonssvikt
+- Endokrine og metabolske sykdommer: diabetes mellitus, diabetisk ketoacidose, hypotyreose (inkl. myxødem og medfødt hypotyreose), kaliummangel
+- Øvrige: epilepsi, inflammatorisk tarmsykdom, godartet prostatahyperplasi, vinkellukket glaukom, hemoglobinopati, rusmiddelmisbruk/avhengighet, pyoureter
+
+Disse kobler er grafbaserte og må verifiseres mot preparatomtale før de brukes klinisk.
+
+**Legemiddelinteraksjoner:** Totalt 56 interaksjoner er registrert. De viktigste med nivå «moderat» er:
+- Aprepitant
+- Morfin (liposomal)
+
+Øvrige registrerte interaksjoner har ukjent alvorlighetsgrad, blant annet pantoprazol, omeprazol, lansoprazol, vankomycin, atropin, triamcinolon, prednison, simvastatin, hydrokortison, kaliumklorid, prednisolon, ranitidin, ondansetron, metronidazol, famotidin, naloksom, metoklopramid og deksametason.
+
+Opplysninger om advarsler og kontraindikasjoner fra preparatomtalen mangler. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Det foreligger ingen klinisk eller litteraturbevis som støtter denne indikasjonen, og evidenspakkens egen mekanistiske analyse karakteriserer den predikerte assosiasjonen som farmakologisk implausibel (sannsynligvis en kunnskapsgraf-samtidsforekomst-artefakt). Legemidlet er dessuten ikke markedsført i Norge for øyeblikket, og sikkerhetsdokumentasjonen er ufullstendig.
+Prediksjonen er kun modellbasert (L5), uten kliniske studier eller publikasjoner, og uten en plausibel mekanistisk kobling mellom natriumkanalblokade og akrodermatitis chronica atrophicans, som behandles med antibiotika. Den eneste norske tillatelsen er trukket tilbake, og sikkerhetsdata fra preparatomtalen mangler.
 
-**Følgende er nødvendig for å fortsette:**
-- TFDA/norske produktadvarsler og kontraindikasjoner (datakløft som må løses — påkrevd før S1-sikkerhetsvurdering)
-- Bekreftet opprinnelig virkningsmekanisme og godkjent indikajonstekst (for øyeblikket et datakløft)
-- Prekliniske eller mekanistiske studier som etablerer en plausibel biologisk kobling til acrodermatitis chronica atrophicans før videre evaluering
-- Ny screening av lavere-rangerte kandidater (neonatal dermatomyositt, sekundær ILD i barndomskonnektivvevssykdom, amyopatisk dermatomyositt) — som alle tilsvarende mangler mekanistisk eller bevisbasert støtte og har samme Avvent-anbefaling
-
+**For å gå videre kreves følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel)
+- Data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Systematisk litteratursøk og søk etter pågående studier for den predikerte indikasjonen
+- Vurdering av administrasjonsvei og formulering som er forenlig med den nye indikasjonen
+- Sikkerhetsvurdering for sårbare grupper (barn og nyfødte, hjerte-, lever- og nyresykdom), spesielt med tanke på kardiotoksisitet og myotoksisitet
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

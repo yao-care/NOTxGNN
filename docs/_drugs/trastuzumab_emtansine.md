@@ -2,7 +2,7 @@
 layout: default
 title: Trastuzumab Emtansine
 parent: Moderat evidens (L3-L4)
-nav_order: 370
+nav_order: 433
 evidence_level: L3
 indication_count: 4
 ---
@@ -29,57 +29,79 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Trastuzumab Emtansine: Fra HER2-positiv brystkreft til Normal bryst-lignende subtype av brystkarsinoma
+# Trastuzumab emtansin: Fra brystkreft til progesteronreseptor-negativ brystkreft
 
-## Sammendrag i en setning
+## Oppsummering i én setning
 
-> Trastuzumab emtansine (T-DM1) er et antistoff-medikament-konjugat (ADC) som kobler trastuzumab til det cytotoksiske maytansinoidet DM1, og ifølge forsøksrapportert kontekst i denne bevissamlingen brukes det allerede som standardbehandling for HER2-positiv brystkreft.
-> TxGNN-modellens høyest rangerte prediksjon for denne medikamenten er **Normal bryst-lignende subtype av brystkarsinoma**,
-> men for tiden bare **1 indirekte relevant klinisk forsøk** og **ingen dedikerte publikasjoner** støtter denne spesifikke retningen.
+Trastuzumab emtansin er et antistoff-legemiddelkonjugat som er rettet mot HER2 og opprinnelig brukes mot brystkreft.
+TxGNN-modellen forutsier at det kan være effektivt mot **progesteronreseptor-negativ brystkreft** (den best underbygde av de fire predikerte indikasjonene), men dette er i hovedsak en presisering av den eksisterende HER2-positive brystkreftindikasjonen og ikke reell ny bruk.
+Støtten består av **1 klinisk studie** (avsluttet i forkant, uten resultater) og **11 publikasjoner** som hovedsakelig er oversiktsartikler, retningslinjer og kasuistikker.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | HER2-positiv brystkreft (ifølge forsøksrapportert kontekst, f.eks. NCT03203616; ikke en formelt godkjent indikasjon i Norge) |
-| Forutsagt ny indikasjon | Normal bryst-lignende subtype av brystkarsinoma |
-| TxGNN prediksjonsresultat | 99.82% |
-| Bevisnivå | L3 |
-| Markedsstatus i Norge | Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
+| Opprinnelig indikasjon | Brystkreft (Breast Neoplasms) |
+| Predikert ny indikasjon | Progesteronreseptor-negativ brystkreft (rangert som nr. 3 av 4 predikerte; se merknad under) |
+| TxGNN-prediksjonsscore | 99,82 % |
+| Evidensnivå | L3 |
+| Markedsstatus i Norge | Kun opphevet/trukket tilbake (ingen gyldig tillatelse) |
+| Antall tillatelser | 1 (0 gyldige, 1 opphevet) |
+| Anbefalt beslutning | Hold |
+
+*Merknad:* Den høyest rangerte prediksjonen i dataene er «normal breast-like subtype of breast carcinoma» (score 99,82 %, evidensnivå L5). Den har verken studier eller litteratur og mangler et klart mekanistisk grunnlag. Rapporten fokuserer derfor på progesteronreseptor-negativ brystkreft, som har mest relevant evidens. De øvrige predikerte indikasjonene omtales kort under.
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelig i regulatorisk register (`original_moa` er flagget som et datahull). Bevissamlingens egen begrunnelse for ombruk beskriver imidlertid T-DM1 som et anti-HER2 antistoff-medikament-konjugat: trastuzumab retter seg mot tumorceller med HER2-overekspresjon og leverer den cytotoksiske payloaden DM1 (et maytansinoid) direkte inn i dem, som kombinerer målrettet levering med cytotoksisk celledødning.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Basert på kjent informasjon er trastuzumab emtansin et HER2-rettet antistoff-legemiddelkonjugat: trastuzumab er koblet til det mikrotubuli-hemmende stoffet DM1. Etter binding til HER2 internaliseres konjugatet, og DM1 frigjøres inne i kreftcellen.
 
-«Normal bryst-lignende» er en av de iboende molekylære subtypene av brystkarsinoma, og dens HER2-ekspresjonsstatus er heterogen — noen tumorer i denne subtypen kan uttrykke HER2, andre ikke. Bevissamlingen selv bemerker at det for tiden ikke finnes direkte bevis for at denne spesifikke subtypen reagerer preferensialt på T-DM1; den mekanistiske forbindelsen er basert på en enkelt delt variabel (HER2-ekspresjon) i stedet for subtypespesifikke data, som er grunnen til at de støttende bevisene er klassifisert L3 (Forskningsspørsmål-stadium) i stedet for sterkere.
+Fordi mekanismen avhenger av HER2-uttrykk og ikke av hormonreseptorstatus, endrer ikke fravær av progesteronreseptor virkningen. HER2-positiv, hormonreseptor-negativ brystkreft er et kjerneområde for HER2-rettet behandling. Prediksjonen er derfor biologisk plausibel, men den er en forfining av en eksisterende indikasjon (HER2-positiv brystkreft) heller enn et reelt nytt bruksområde.
 
-For kontekst, denne samme bevissamlingen frembragte også tre nært beslektede TxGNN-prediksjoner for T-DM1: **progesteronreseptor (PR) positiv brystkreft** og **PR-negativ brystkreft** (begge L2, «Fortsett med sikkerhetstiltak», støttet av flere fase 1–3 forsøk som direkte tester T-DM1 i HER2-positive populasjoner), og **luminal A/B brysttumor** (L4, «Avvent», hvor den mekanistiske forbindelsen er svakere fordi luminale tumorer er overveiende HER2-negative). I forhold til disse, sitter normal bryst-lignende prediksjon i den nedre enden av direkte testbar bevis.
+For de øvrige predikerte indikasjonene er bildet svakere:
+- **Normal breast-like subtype:** Denne subtypen er vanligvis HER2-lav eller HER2-negativ, så det finnes ikke noe tydelig mekanistisk grunnlag. Den høye scoren gjenspeiler trolig den generelle koblingen til brystkreft i kunnskapsgrafen.
+- **Progesteronreseptor-positiv brystkreft:** Ved HR+/HER2+ sykdom virker legemidlet uavhengig av reseptorstatus, men evidensen er indirekte (oversikter, retningslinjer, kasuistikker), evidensnivå L4.
+- **Luminal A eller B:** Luminal B (HER2-positiv) kan respondere, mens luminal A vanligvis er HER2-negativ og neppe vil ha nytte. Flere av de hentede artiklene er irrelevante (f.eks. lymfom, magekreft, lungekreft), evidensnivå L4.
 
 ---
 
-## Bevis fra kliniske forsøk
+## Klinisk studiedokumentasjon
 
-| Forsøksnummer | Fase | Status | Antall deltakere | Viktige funn |
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT06348134](https://clinicaltrials.gov/study/NCT06348134) | Fase 2 | Rekrutterer | 74 | Vurdering av optimal neoadjuvant-til-adjuvant anti-HER2-basert terapi hos nigerianske kvinner med HER2+ brystkreft; ikke spesifikk for normal bryst-lignende subtype og tester ikke T-DM1 som monoterapi — klassifisert som indirekte relevant (Klasse B). |
+| [NCT04675827](https://clinicaltrials.gov/study/NCT04675827) | Fase 2 | Avsluttet i forkant (terminated) | 139 | DECRESCENDO: de-eskalering av adjuvant kjemoterapi ved HER2-positiv, ER-negativ, nodenegativ tidlig brystkreft etter patologisk komplett respons på neoadjuvant behandling og dobbel HER2-blokade. Ingen resultater oppgitt, og rollen til trastuzumab emtansin er uklar. |
 
 ---
 
-## Litteraturbevis
+## Litteraturdokumentasjon
 
-For tiden ingen relatert litteratur tilgjengelig.
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [34215766](https://pubmed.ncbi.nlm.nih.gov/34215766/) | 2021 | Kohortestudie | Scientific Reports | ChangeHER: prognostisk betydning av å få HER2-positivitet ved metastatisk brystkreft behandlet med pertuzumab og/eller T-DM1 |
+| [28259011](https://pubmed.ncbi.nlm.nih.gov/28259011/) | 2017 | Retningslinje | European Journal of Cancer | EGTM-retningslinje: HER2-status er avgjørende for valg av anti-HER2-behandling, inkludert T-DM1 |
+| [39631485](https://pubmed.ncbi.nlm.nih.gov/39631485/) | 2024 | Oversikt | Pharmacological Research | Oversikt over målrettede og cytotoksiske legemidler ved brystkreft, inndelt etter HER2-, HR-, ER- og PR-status |
+| [24892840](https://pubmed.ncbi.nlm.nih.gov/24892840/) | 2013 | Oversikt | Clin Adv Hematol Oncol | Nyere utvikling innen metastatisk brystkreft, inkludert HER2-positive og trippelnegative subtyper |
+| [35140078](https://pubmed.ncbi.nlm.nih.gov/35140078/) | 2022 | Kasuistikk | BMJ Case Reports | Reseptorkonvertering ved brystkreft (opptil 32 % av pasientene) og konsekvenser for behandling |
+| [35251981](https://pubmed.ncbi.nlm.nih.gov/35251981/) | 2022 | Kasuistikk | Frontiers in Oncology | HER2-positiv, ER- og PR-negativ brystkreft med leptomeningeal sykdom behandlet med pyrotinib og vinorelbin |
+| [40642740](https://pubmed.ncbi.nlm.nih.gov/40642740/) | 2025 | Kasuistikk | Journal of Medical Cases | Langvarig respons på trastuzumab deruxtekan ved trippelnegativ metastatisk brystkreft med HER2-mutasjon |
+| [33482449](https://pubmed.ncbi.nlm.nih.gov/33482449/) | 2021 | Kasuistikk | Int J Surg Case Rep | Metastatisk brystkreft hos pasient i hemodialyse |
+| [39827242](https://pubmed.ncbi.nlm.nih.gov/39827242/) | 2025 | Kohortestudie | Scientific Reports | Steroidhormonreseptorer og behandlingsrespons i pasientavledede xenotransplantater fra brystkreft |
+| [37445276](https://pubmed.ncbi.nlm.nih.gov/37445276/) | 2023 | Prekliniske | Journal of Clinical Medicine | Aminosteroid RM-581 hemmer celleproliferasjon i alle brystkreftsubtyper |
+
+Hovedtyngden er indirekte evidens. Ingen av publikasjonene er randomiserte studier som direkte viser effekt av trastuzumab emtansin i denne undergruppen. Ytterligere to treff (PMID 40433060 og 33482449 er av begrenset relevans) bidrar lite.
 
 ---
 
-## Markedsinformasjon Norge
+## Informasjon om det norske markedet
 
-Trastuzumab emtansine er for tiden **ikke markedsført** i Norge, og ingen markedsgodkjennelsesoppføringer er tilgjengelige i denne bevissamlingen (0 lisenser).
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/002389 | Kadcyla | Ikke oppgitt | Brystkreft (Breast Neoplasms) |
+
+Tillatelsen er registrert som opphevet. Det finnes dermed ingen gyldig markedsføringstillatelse i Norge i dataene som er sammenstilt, og dette bør verifiseres før en eventuell anbefaling.
 
 ---
 
@@ -87,34 +109,47 @@ Trastuzumab emtansine er for tiden **ikke markedsført** i Norge, og ingen marke
 
 | Punkt | Innhold |
 |------|------|
-| Klassifisering av cytotoksisitet | Målrettet terapi — Antistoff-medikament-konjugat (ADC): anti-HER2 trastuzumab koblet til den cytotoksiske maytansinoid payloaden DM1 |
-| Risiko for myelosuppresjon | Se pakningsvedlegget advarsler og forholdsregler (ingen medikamentation-spesifikke toksisitetsdata tilgjengelig i denne bevissamlingen) |
-| Klassifisering av emetogenitet | Se pakningsvedlegget advarsler og forholdsregler |
-| Overvåkingselementer | Se pakningsvedlegget advarsler og forholdsregler |
-| Håndteringsbeskyttelse | Inneholder en cytotoksisk (maytansinoid) payload; standard cytotoksisk/farlig stoffhåndteringsforsiktighetsregler antas å gjelde under påventing av bekreftelse fra det offisielle merket |
+| Cytotoksisitetsklassifisering | Målrettet terapi (HER2-rettet antistoff-legemiddelkonjugat med mikrotubuli-hemmende cytotoksisk last, DM1) |
+| Risiko for myelosuppresjon | Se pakningsvedlegget for advarsler og forholdsregler |
+| Emetogenisitetsklassifisering | Se pakningsvedlegget for advarsler og forholdsregler |
+| Overvåkingspunkter | Se pakningsvedlegget for advarsler og forholdsregler (typisk blodstatus samt lever- og nyrefunksjon) |
+| Håndtering og beskyttelse | Følg gjeldende regler for håndtering av cytotoksiske legemidler |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se pakningsvedlegget for sikkerhetsinformasjon.
+Data om advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelige. Se pakningsvedlegget for sikkerhetsinformasjon.
+
+**Legemiddelinteraksjoner:** Interaksjonssøket ga 100 treff. Blant de som er vist, er følgende av alvorlighetsgrad «Major»:
+- Acetylsalisylsyre
+- Deferasiroks
+- Abciksimab
+- Apiksaban
+- Argatroban
+- Betriksaban
+- Bivalirudin
+- Kangrelor
+- Kaplacizumab
+- Cilostazol
+
+Dette er hovedsakelig antikoagulantia og platehemmere (blødningsrisiko). Flere legemidler har interaksjoner av moderat alvorlighetsgrad, blant annet klaritromycin, metronidazol, naltrekson, rosuvastatin, simvastatin, tinidazol og kobicistat.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den mekanistiske forbindelsen for indikasjon «normal bryst-lignende subtype» er basert på en enkelt delt variabel (HER2-ekspresjon) i stedet for subtypespesifikke bevis, og det er støttet av bare en indirekte relevant, fortsatt rekrutterende fase 2 forsøk med ingen dedikerte publikasjoner — utilstrekkelig til å gå videre forbi forskningsspørsmål-stadiet.
+Prediksjonen er biologisk plausibel, men den er en subtypepresisering av den eksisterende HER2-positive brystkreftindikasjonen og ikke reell ny bruk. Den eneste studien er avsluttet i forkant uten resultater, litteraturen er hovedsakelig indirekte, og markedsstatusen i Norge er «kun opphevet». Dessuten mangler sikkerhetsdata fra preparatomtalen, noe som blokkerer videre sikkerhetsvurdering.
 
-**For å gå videre er følgende nødvendig:**
-- Regulatoriske merkedata (TFDA/offisielt pakningsvedlegg advarsler og kontraindikasjoner — for tiden et blokkerende datahull, DG001)
-- Bekreftet virkningsmekanisme dokumentasjon (for tiden et datahull med høy alvorlighetsgrad, DG002)
-- Subtypespesifikke data om HER2-ekspresjonsprevalen innenfor den normale bryst-lignende molekylære subtypen
-- Dedikerte forsøk eller studier som tester T-DM1 spesifikt i normal bryst-lignende brystkarsinoma
-- Vurder prioritering av de relaterte PR-positive og PR-negative HER2+ brystkreft-prediksjoner fra samme TxGNN-kjøring, som allerede har L2 bevis og en «Fortsett med sikkerhetstiltak» anbefaling
-
+**For å gå videre kreves følgende:**
+- Hente og analysere advarsler og kontraindikasjoner fra preparatomtalen (kritisk datamangel)
+- Hente data om virkningsmekanisme fra DrugBank
+- Verifisere markedsstatus og eventuell gjeldende tillatelse i Norge
+- Innhente resultatdata fra NCT04675827 og vurdere rollen til trastuzumab emtansin der
+- Avklare HER2-status som seleksjonskriterium, siden HER2-negative subtyper (normal breast-like, luminal A) neppe vil ha nytte
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

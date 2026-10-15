@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Iloprost
-parent: Kun modellprediksjon (L5)
-nav_order: 176
-evidence_level: L5
+parent: Moderat evidens (L3-L4)
+nav_order: 208
+evidence_level: L3
 indication_count: 9
 ---
 
 # Iloprost
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
+Evidensnivå: **L3** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,105 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Iloprost: Fra Pulmonal Arteriell Hypertensjon til Hypotrichosis Simplex av Hodebunnen
+# Iloprost: Fra pulmonal hypertensjon til pulmonal arteriell hypertensjon assosiert med medfødt hjertesykdom
 
-## Sammendrag på en Setning
+## Oppsummering i én setning
 
-> Iloprost er en syntetisk prostacyclin-analogue (PGI2) med veletablert global bruk i pulmonal arteriell hypertensjon (PAH); det har aldri blitt markedsført i Taiwan.
-> TxGNN-modellens høyest rangerte prediksjon er **Hypotrichosis Simplex av Hodebunnen**, en arvelig follikulær keratiniseringssykdom,
-> men dette signalet støttes av **0 kliniske forsøk** og **0 publikasjoner** — det er et rent modellinnebygd artefakt uten biologisk begrunnelse.
-> Separat flagget denne kjøringen også flere biologisk konsistente PAH-undertype-utvidelser (se «Andre Kandidatindikasjoner» nedenfor) som fortjener uavhengig evaluering.
+Iloprost er en prostacyklinanalog som opprinnelig brukes til behandling av pulmonal hypertensjon. TxGNN-modellen rangerer **pulmonal arteriell hypertensjon assosiert med medfødt hjertesykdom (PAH-CHD)** som det best underbygde av de predikerte nye bruksområdene. For denne indikasjonen finnes det **0 kliniske studier** og **20 publikasjoner** i de innsamlede dataene. De fleste av publikasjonene er små, ukontrollerte eller observasjonelle studier og oversiktsartikler.
 
-## Rask Oversikt
+Merk: De to høyest rangerte prediksjonene i modellen (hypotrichosis simplex i hodebunnen og medfødt hypotrichosis milia) har ingen støtte i studier eller litteratur. PAH-CHD er valgt som hovedindikasjon fordi den har klart mest evidens.
 
-| Element | Innhold |
-|---------|---------|
-| Original Indikasjon | Ikke registrert i Taiwan-bevispaket (medisin ikke markedsført, 0 lisenser); internasjonalt er iloprost indisert for pulmonal arteriell hypertensjon (WHO-gruppe 1) |
-| Forutsagt Ny Indikasjon | Hypotrichosis Simplex av Hodebunnen |
-| TxGNN-prediksjonspoeng | 99.45% |
-| Bevisnivå | L5 |
-| Taiwan-markedsstatus | ✗ Ikke Markedsført (Ikke markedsført) |
-| Antall Autorisasjoner | 0 |
-| Anbefalt Beslutning | Avvent |
+---
+
+## Hurtigoversikt
+
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Pulmonal hypertensjon |
+| Predikert ny indikasjon | Pulmonal arteriell hypertensjon assosiert med medfødt hjertesykdom (rangert som nr. 3 av modellen; nr. 1 er hypotrichosis simplex i hodebunnen, uten evidens) |
+| TxGNN-prediksjonsscore | 99,32 % |
+| Evidensnivå | L3 |
+| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
+| Antall godkjenninger | 1 (opphevet) |
+| Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
+
+---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte data om virkningsmekanisme ikke tilgjengelige (datakløft DG002 — MOA avventer DrugBank-spørring). Basert på kjent farmakologisk informasjon aktiverer iloprost prostacyclin IP-reseptor/cAMP-veien, noe som produserer vasodilatation og hemming av plateletaggregering. Klinisk ligger denne mekanismen til grunn for dets etablerte bruk (utenfor Taiwan) i pulmonal arteriell hypertensjon og, i noen markeder, kritisk lemiskkemi.
+Detaljerte data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige i de innsamlede dataene. Iloprost er likevel kjent som en inhalert prostacyklinanalog som virker via IP-reseptorer. Dette gir utvidelse av lungekar (vasodilatasjon) samt antiproliferative og blodplatehemmende effekter.
 
-Hypotrichosis simplex av hodebunnen er en arvelig sykdom av hårfollikkelkeratinisering, assosiert med gener som *APCDD1*, og dens patologi er ikke relatert til vaskulær tone eller blodplatesfunksjon. Det er ingen kjent vei som forbinder PGI2/IP-reseptor-signalering til denne tilstanden. Dette gjenspeiles direkte i modellens egen begrunnelse, som sier at lenken er basert rent på innebygd likhet med «ingen biologisk støtte».
+PAH assosiert med medfødt hjertesykdom, inkludert Eisenmenger-syndrom, har den samme lungevaskulære patologien som den godkjente indikasjonen. Mekanismen er derfor godt overførbar. Dette er snarere en utvidelse innenfor en allerede godkjent legemiddelklasse og indikasjonsgruppe enn ekte reposisjonering.
 
-Verdt å merke seg, denne samme TxGNN-kjøringen predikerte også flere pulmonal-arteriell-hypertensjon-undertyper for iloprost (assosiert med medfødt hjertesykdom, bindevevssykdom, HIV-infeksjon, kronisk hemolytisk anemi og schistosomiasis) — alle mekanistisk konsistente med iloprosts kjente PGI2-farmakologi og, i noen tilfeller, støttet av fullførte fase 3-forsøksdata. Disse representerer vesentlig sterkere gjenbrukssignaler enn hypotrichosis-prediksjonen med høyest rangering (se «Andre Kandidatindikasjoner» nedenfor).
+Det er viktig å understreke at evidensen hovedsakelig består av små kohortstudier, serier av pasienter og oversikter. Ingen registrerte kliniske studier er inkludert i dataene.
 
-## Bevis fra Kliniske Forsøk
+---
 
-For tiden ingen relaterte kliniske forsøk registrert.
+## Evidens fra kliniske studier
 
-## Litteraturbevis
+Foreløpig er ingen relaterte kliniske studier registrert i de innsamlede dataene.
 
-For tiden ingen relatert litteratur tilgjengelig.
+---
 
-## Taiwan-markedsinformasjon
+## Evidens fra litteraturen
 
-Iloprost er ikke markedsført i Taiwan for tiden. Ingen produktautoriseringer er registrert (0 lisenser).
+Utvalget under viser de mest relevante publikasjonene for PAH-CHD (kohort- og kontrollerte studier prioritert).
 
-## Andre Kandidatindikasjoner (Samme Modellkjøring)
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [31371115](https://pubmed.ncbi.nlm.nih.gov/31371115/) | 2020 | Placebokontrollert, dobbeltblindet kryssstudie (pilot) | Int J Cardiol | Forsøk med nebulisert iloprost hos pasienter med Eisenmenger-syndrom; sikkerhet og effekt er begrenset dokumentert |
+| [28608969](https://pubmed.ncbi.nlm.nih.gov/28608969/) | 2017 | Kohort | Clin Exp Pharmacol Physiol | Effekt av iloprost på biomarkører (NO, ET-1, BNP m.fl.) ved CHD-PAH |
+| [27492657](https://pubmed.ncbi.nlm.nih.gov/27492657/) | 2017 | Kohort | J Cardiol | Langtidsbehandling med iloprost og effekt på høyre ventrikkels funksjon ved Eisenmenger-syndrom |
+| [29426959](https://pubmed.ncbi.nlm.nih.gov/29426959/) | 2018 | Kohort | Pediatr Cardiol | Akutt hemodynamisk effekt og sikkerhet av inhalert iloprost hos barn med PAH og enkle medfødte hjertefeil |
+| [24729548](https://pubmed.ncbi.nlm.nih.gov/24729548/) | 2015 | Kohort (retrospektiv) | Pediatr Pulmonol | Langtidseffekt av inhalert iloprost hos barn med pulmonal hypertensjon |
+| [36010107](https://pubmed.ncbi.nlm.nih.gov/36010107/) | 2022 | Kasusserie | Children (Basel) | Tilleggskombinasjon av sildenafil, bosentan og iloprost hos 5 pasienter med Eisenmenger-syndrom |
+| [30719004](https://pubmed.ncbi.nlm.nih.gov/30719004/) | 2018 | Prospektiv studie | Front Pharmacol | Akutt iloprostinhalasjon bedrer høyre ventrikkels funksjon ved PAH (MR-studie, 69 pasienter) |
+| [19436672](https://pubmed.ncbi.nlm.nih.gov/19436672/) | 2009 | Oversikt | Vasc Health Risk Manag | Oversikt over inhalert iloprost ved PAH hos barn |
+| [22621693](https://pubmed.ncbi.nlm.nih.gov/22621693/) | 2012 | Oversikt | Drugs | Behandling av PAH ved bindevevssykdom, med omtale av PAH assosiert med medfødt hjertesykdom |
+| [34925762](https://pubmed.ncbi.nlm.nih.gov/34925762/) | 2021 | Nasjonal registerstudie | Pulm Circ | Bruk av vasodilaterende behandling ved pulmonal hypertensjon hos barn, ofte utenfor godkjent bruk |
 
-For kontekst scoret det samme bevispaket 8 ytterligere TxGNN-prediksjoner for iloprost. I motsetning til hypotrichosis faller de fleste av disse innenfor iloprosts veletablerte PAH-farmakologi og har vesentlig sterkere bevis:
+---
 
-| Rangering | Sykdom | TxGNN-poeng | Bevisnivå | Anbefaling | Viktig Støtte |
-|-----------|--------|------------|---------|----------|-------------|
-| 6 | PAH forbundet med HIV-infeksjon | 99.21% | L1 | Fortsett med Sikkerhetstiltak | Fullført fase 3 dobbeltblindet, placebokontrollert crossover-RCT (NCT00709956, n=64) |
-| 3 | PAH forbundet med medfødt hjertesykdom | 99.32% | L2 | Fortsett med Sikkerhetstiltak | 1 forsøk (NCT01383083, n=42, status ukjent) + 17 støttende publikasjoner |
-| 5 | PAH forbundet med bindevevssykdom | 99.21% | L2 | Fortsett med Sikkerhetstiltak | Langtids IV iloprost kohortedata (PMID 27651181) + 20 støttende publikasjoner |
-| 7 | PAH forbundet med kronisk hemolytisk anemi | 99.21% | L4 | Forskningsspørsmål | Kun mekanistisk plausibilitet, ingen direkte bevis |
-| 8 | PAH forbundet med schistosomiasis | 99.21% | L4 | Forskningsspørsmål | 1 indirekte pediatrisk kasusserie |
-| 4 | Pulmonal arteriovenøs malformasjon | 99.31% | L4 | Avvent | 1 indirekte HHT-relatert kasurapport |
-| 2 | Medfødt hypotrichosis milia | 99.33% | L5 | Avvent | Ingen bevis, ingen mekanistisk lenke |
-| 9 | Diffus alopecia areata | 99.10% | L5 | Avvent | Ingen bevis, ingen mekanistisk lenke |
+## Markedsinformasjon for Norge
 
-Hvis man forfølger gjenbruk for iloprost, anbefaler vi å omdirigere evalueringen mot **PAH forbundet med HIV-infeksjon** (rangering 6, L1) som den primære kandidaten, med medfødt-hjertesykdom-PAH og bindevevssykdom-PAH (rangering 3 & 5, L2) som sekundære kandidater.
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000474 | Ventavis | Ikke oppgitt | Pulmonal hypertensjon (status: opphevet) |
+
+---
 
 ## Sikkerhetshensyn
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+- **Mulige kontraindikasjoner fra kunnskapsgrafen** (kunnskapsgraf-kanter, ikke preparatomtale): leversvikt, kronisk obstruktiv lungesykdom (KOLS), alvorlig tidligdebuterende KOLS, hypotensjon, lungeødem og bronkialsykdom.
+- **Legemiddelinteraksjoner:** Totalt 100 interaksjoner ble funnet i interaksjonsdatabasen. Av de 20 som er vist, er 15 klassifisert som moderate, blant andre:
+  - Adrenalin, efedrin og acetylsalisylsyre
+  - SGLT2-hemmere (kanagliflozin, dapagliflozin, empagliflozin, ertugliflozin)
+  - Inhalert human insulin, mannitol, glyserin, papaverin
+  - Fenfluramin, deksfenfluramin og sibutramin
+- Fem interaksjoner har ukjent alvorlighetsgrad (kalsitriol, pantoprazol, morfin, metformin, omeprazol).
 
-## Konklusjon og Neste Steg
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
-**Beslutning: Avvent**
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Proceed with Guardrails**
 
 **Begrunnelse:**
-Prediksjonen med høyest rangering, hypotrichosis simplex av hodebunnen, har ingen støttende kliniske forsøk, ingen støttende litteratur og ingen kjent biologisk mekanisme som forbinder iloprosts prostacyclin-vei til denne arvelige follikulære sykdommen — dette er et rent modelllikheitsartefakt, ikke et troverdig gjenbrukssignal.
+PAH-CHD er en undergruppe av den godkjente PAH-indikasjonen, og det finnes flere kohortstudier og en liten placebokontrollert pilotstudie som støtter bruk. Evidensen er likevel overveiende liten og observasjonell, uten registrerte kliniske studier, og iloprost har kun opphevet godkjenning i Norge. Andre predikerte indikasjoner (f.eks. hårsykdommer, pulmonal arteriovenøs malformasjon) har kun modellprediksjon som støtte, og for pulmonal AVM er det en mulig sikkerhetsrisiko.
 
-**For å fortsette, er følgende nødvendig:**
-- TFDA-merking advarsler/kontraindikasjoner data (DG001, blokkerer — kreves før enhver S1-sikkerhetskontroll)
-- Bekreftet virkningsmekanisme fra DrugBank (DG002)
-- Hvis gjenbruksinteresse fortsetter, omdefiner evalueringen til PAH-undertype-kandidatene identifisert ovenfor (særlig HIV-assosiert PAH, L1-bevis), snarere enn hypotrichosis simplex
+**For å gå videre trengs følgende:**
+- Detaljerte data om virkningsmekanisme (MOA)
+- Preparatomtale med advarsler og kontraindikasjoner (mangler i datagrunnlaget)
+- Avklaring av regulatorisk status i Norge, siden den eneste godkjenningen er opphevet
+- Større, kontrollerte studier eller registrerte kliniske studier for PAH-CHD
+- Sikkerhetsplan for pasienter med hypotensjon, leversvikt eller lungesykdom, og for samtidig bruk av interagerende legemidler
 
+**Andre predikerte indikasjoner (kort oversikt):**
+- **PAH assosiert med bindevevssykdom:** L3, Proceed with Guardrails. Støttes av en langtidsstudie av intravenøst iloprost, oversikter og prekliniske data.
+- **PAH assosiert med HIV-infeksjon og schistosomiasis:** L4, forskningsspørsmål. Kun indirekte evidens.
+- **PAH assosiert med kronisk hemolytisk anemi, hypotrichosis simplex, medfødt hypotrichosis milia, diffus alopecia areata og pulmonal arteriovenøs malformasjon:** L5, Hold. Kun modellprediksjon, uten studier eller litteratur.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

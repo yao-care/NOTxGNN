@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Miglustat
-parent: Høy evidens (L1-L2)
-nav_order: 232
-evidence_level: L2
+parent: Kun modellprediksjon (L5)
+nav_order: 273
+evidence_level: L5
 indication_count: 10
 ---
 
 # Miglustat
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,108 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Miglustat: Fra Gaucher-sykdom/Niemann-Pick type C til Tay-Sachs-sykdom (GM2-gangliosidose)
+# Miglustat: Fra Gauchers sykdom til Tay-Sachs sykdom
 
-*Merk: Blant de 10 TxGNN-forutsagte indikasjonene i denne dokumentsamlingen er den høyest scoret kandidaten (autosomalt ichthyosis-syndrom, 99,83%) uten kliniske forsøk eller litteraturstøtte og er klassifisert som «Hold» med en svak mekanistisk sammenheng. Tay-Sachs-sykdom (rangering 7, poengsum 99,75%) er den eneste kandidaten som støttes av faktiske kliniske forsøk og publikasjonsbevis, og er den eneste som er klassifisert som «Fortsett med sikkerhetstiltak». Denne rapporten fokuserer på Tay-Sachs-sykdom som den handlingskraftige kandidaten.*
+## Oppsummering
 
-## Oppsummering på én setning
+Miglustat brukes opprinnelig til behandling av Gauchers sykdom, og i tillegg til Pompes sykdom (glykogenlagringssykdom type II, i kombinasjon med enzymerstatning) og Niemann-Picks sykdom.
+TxGNN-modellen forutsier at legemidlet kan ha effekt på **Tay-Sachs sykdom** (rangert som nr. 7 av de ti øverste prediksjonene, men den eneste med faktisk klinisk dokumentasjon),
+og for øyeblikket finnes det **4 kliniske studier** og **11 publikasjoner** i datagrunnlaget. Effekten på nevrologiske endepunkter er foreløpig uavklart.
 
-Miglustat er en inhibitor av glukosylceramidsyntase (iminsukker) som allerede er godkjent som substratnedreduksjonsterapi for Gaucher-sykdom type 1 og Niemann-Pick-sykdom type C. TxGNN-modellen forutsier at det også kan være effektivt for **Tay-Sachs-sykdom (GM2-gangliosidose)**, med **5 kliniske forsøk** og **20 publikasjoner** identifisert, inkludert ett fullført randomisert kontrollert forsøk og ett systematisk review fra 2023 som spesifikt evaluerer miglustat i denne populasjonen.
+---
 
-## Kort oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Originalindikasjon | Ikke formelt registrert i norske autorisasjonsdata (legemidlet er ikke markedsført); basert på kjent legemiddelprofil er miglustat godkjent for Gaucher-sykdom type 1 og Niemann-Pick-sykdom type C |
-| Forutsagt ny indikasjon | Tay-Sachs-sykdom (GM2-gangliosidose) |
-| TxGNN-prediktsjonspoengsum | 99,75% |
-| Bevisnivå | L2 |
-| Markedsstatus i Norge | Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt vedtak | Fortsett med sikkerhetstiltak |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Gauchers sykdom |
+| Predikert ny indikasjon | Tay-Sachs sykdom (valgt fordi den er den eneste av de ti toppprediksjonene med kliniske data; rang 1 i modellen er «autosomal ichthyosis syndrome with fatal disease course», kun modellprediksjon) |
+| TxGNN-prediksjonsscore | 99,75 % (for Tay-Sachs; 99,83 % for rang 1) |
+| Evidensnivå | L1 (formelt, basert på høyeste studiedesign; se merknad under) |
+| Status på det norske markedet | ✗ Kun kansellerte godkjenninger |
+| Antall godkjenninger | 5 (alle kansellerte) |
+| Anbefalt beslutning | Hold |
+
+**Merknad om evidensnivå:** L1 gjenspeiler her det høyeste studiedesignnivået som finnes, ikke bekreftet effekt. Fase 3-studiene er små PK-/sikkerhets- eller kartleggingsstudier, og to av dem ble avsluttet tidlig.
+
+---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er flagget som et datakløft (DG002) i denne dokumentsamlingen. Basert på informasjonen som er innbakt i omformålsbegrunnelsen, er miglustat en inhibitor av glukosylceramidsyntase, enzymet som katalyserer det første bindende trinnet av glykosfingolipid-biosyntesen. Denne «substratnedreduksjonsterapi» (SRT)-tilnærmingen er allerede klinisk validert for Gaucher-sykdom type 1 og Niemann-Pick-sykdom type C, som begge er glykosfingolipid-lysosomale lagringssykdommer.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Ut fra kjent informasjon hemmer miglustat glukosylceramid-syntase (UGCG), enzymet som starter syntesen av de fleste glykosfingolipider. Dette er prinsippet bak substratreduksjonsterapi.
 
-Tay-Sachs-sykdom er forårsaket av mangel på heksosaminidase A, noe som fører til patologisk akkumulasjon av GM2-gangliosid — som i seg selv er et nedstrømsprodukt av den samme glykosfingolipid-biosyntesebanen som miglustat inhiberer oppstrøms. Dette gjør Tay-Sachs-sykdom til den mest mekanistisk direkte utvidelsen av miglustat's allerede godkjente substratnedreduksjonsindikasjonen blant alle 10 TxGNN-kandidater i denne pakken. Flere relaterte prediksjoner (Krabbe-sykdom, metakromatisk leukodystrofi, prosaposin-mangel) deler den samme glykosfingolipid-banelogikken, men har for øyeblikket ingen støttende kliniske eller litteraturbeviser, mens Tay-Sachs/GM2-gangliosidose har blitt direkte studert hos mennesker.
+Tay-Sachs sykdom (GM2-gangliosidose) skyldes mangel på enzymet HEXA, som fører til opphopning av GM2-gangliosid i nerveceller. Ved Gauchers sykdom er problemet opphopning av glukosylceramid. Begge er lysosomale lagringssykdommer innen samme glykosfingolipid-vei. Ved å redusere syntesen oppstrøms kan mengden substrat som må brytes ned, bli mindre. Miglustat passerer dessuten blod-hjerne-barrieren, noe som er viktig siden Tay-Sachs først og fremst rammer sentralnervesystemet.
 
-Det er verdt å merke seg at miglustat *ikke* har vist et positivt effektivitetssignal i alle GM2-gangliosidose-forsøk — ett fase 3-forsøk (NCT03822013) ble avsluttet hos pasienter med barnealder-debut, og mekanistisk litteratur (f.eks. PMID 16434676) beskriver tilfeller der substratnedreduksjonsterapi ikke kunne stanse nevrologisk forverring hos pasienter med barnealder-debut til tross for tilstrekkelig CNS-legemiddeleksponering. Bevisgrunnlaget er derfor sterkere for sen-debut/juvenile former enn for fenotypen med barnealder-debut.
+Begrunnelsen er altså biologisk sammenhengende. Klinisk nytte er likevel ikke påvist: en case-studie av infantil Tay-Sachs viste at behandlingen ikke stoppet nevrologisk forverring, selv om legemiddelkonsentrasjonen i spinalvæske var betydelig.
 
-## Klinisk forsøksbevis
+Øvrige toppprediksjoner (f.eks. Krabbe, metakromatisk leukodystrofi, prosaposin-mangel) har en mulig, men indirekte mekanistisk begrunnelse og ingen kliniske data. Prediksjoner som kolesterylester-lagringssykdom, Wolmans sykdom, godartet binyresvulst og X-bundet ichthyose har svak eller ingen mekanistisk kobling og er sannsynligvis artefakter fra kunnskapsgrafen.
 
-| Forsøksnummer | Fase | Status | Inkludering | Hovedfunn |
+---
+
+## Klinisk studiedokumentasjon
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT00672022](https://clinicaltrials.gov/study/NCT00672022) | Fase 3 | Fullført | 10 | PK/sikkerhet/tolerabilitet av miglustat ved barnealder-debut GM2-gangliosidose (Tay-Sachs og Sandhoff); miglustat inhiberer GM2-gangliosid-syntesen og kan redusere/utsette symptombegynnelsen |
-| [NCT00418847](https://clinicaltrials.gov/study/NCT00418847) | Fase 2 | Fullført | 5 | Enkelt-/multippel-dose PK og tolerabilitet av miglustat ved juvenile GM2-gangliosidose |
-| [NCT03822013](https://clinicaltrials.gov/study/NCT03822013) | Fase 3 | Avsluttet | 30 | Miglustat's effekt på nevrologiske/systemiske symptomer ved barnealder Sandhoff/Tay-Sachs-sykdom; forsøk avsluttet, årsak ikke spesifisert i tilgjengelige data |
-| [NCT02030015](https://clinicaltrials.gov/study/NCT02030015) | Fase 4 | Avsluttet | 16 | Kombinasjon av miglustat + ketogent diett («Syner-G») antatt å forbedre overlevelse og nevroutviklingsforbedring ved barnealder/juvenile gangliosidoser; avsluttet tidlig |
-| [NCT07399704](https://clinicaltrials.gov/study/NCT07399704) | Fase 2 | Rekrutterer | 21 | Langtidssikkerhet/PK/effektivitet av nyere SRT-middel nizubaglustat ved GM2-gangliosidose/NPC-pasienter, inkludert de som bytter fra tidligere miglustat-terapi |
+| [NCT00672022](https://clinicaltrials.gov/study/NCT00672022) | Fase 3 | Fullført | 10 | Farmakokinetikk, sikkerhet og toleranse av miglustat ved infantil GM2-gangliosidose; liten studie som sier mer om sikkerhet og dosering enn effekt |
+| [NCT02030015](https://clinicaltrials.gov/study/NCT02030015) | Fase 4 | Avsluttet | 16 | Syner-G: miglustat kombinert med ketogen diett ved gangliosidoser; kombinasjonsregime, tidlig avslutning begrenser tolkningen |
+| [NCT00418847](https://clinicaltrials.gov/study/NCT00418847) | Fase 2 | Fullført | 5 | Farmakokinetikk og toleranse ved juvenil GM2-gangliosidose; svært liten studie |
+| [NCT03822013](https://clinicaltrials.gov/study/NCT03822013) | Fase 3 | Avsluttet | 30 | Kartlegging av terapeutiske effekter på nevrologiske og systemiske symptomer ved infantil Sandhoff/Tay-Sachs; avslutning og observasjonsdesign gir lavere evidensvekt |
 
-## Litteraturbevis
+---
 
-| PMID | År | Type | Journal | Hovedfunn |
+## Litteraturevidens
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [19346952](https://pubmed.ncbi.nlm.nih.gov/19346952/) | 2009 | RCT | Genetics in Medicine | 12-månedersrandomisert kontrollert forsøk (med 24-måneders forlengelse) som evaluerer sikkerhet og effektivitet av miglustat hos pasienter med sen-debut Tay-Sachs/GM2-gangliosidose |
-| [37209042](https://pubmed.ncbi.nlm.nih.gov/37209042/) | 2023 | Systematisk review | European Journal of Neurology | Systematisk review av miglustat-effektivitet/sikkerhet ved GM2-gangliosidose; merker tidligere inkonsistente resultater på tvers av studier |
-| [18618288](https://pubmed.ncbi.nlm.nih.gov/18618288/) | 2008 | Kohort (pilotstudie) | J Inherit Metab Dis | Neuroognitivtestingspilotstudie ved sen-debut Tay-Sachs-sykdom, foreslått som et resultatetikett for terapeutiske forsøk |
-| [16434676](https://pubmed.ncbi.nlm.nih.gov/16434676/) | 2006 | Kohort/Kasusserie | Neurology | Substratnedreduksjonsterapi med miglustat hos 2 pasienter med barnealder Tay-Sachs-sykdom; kunne ikke stanse nevrologisk forverring, men oppnådde målbare CSF-legemiddelnivåer og forhindret makrocefali |
-| [33738443](https://pubmed.ncbi.nlm.nih.gov/33738443/) | 2021 | Kohort | Brain Communications | Relatert lysosomalt lagringssykdomsstudie (acetyl-DL-leusin i NPC1-musemodell); kontekstuell evidens for symptomatiske SRT-nærliggende tilnærminger |
-| [32867370](https://pubmed.ncbi.nlm.nih.gov/32867370/) | 2020 | Review | Int J Mol Sci | Oversikt over GM2-gangliosidoser kliniske trekk, patofysiologi og nåværende terapier, inkludert substratnedreduksjon |
-| [30524313](https://pubmed.ncbi.nlm.nih.gov/30524313/) | 2018 | Review | Frontiers in Physiology | Review av nye terapeutiske tilnærminger for Tay-Sachs-sykdom |
-| [12808890](https://pubmed.ncbi.nlm.nih.gov/12808890/) | 2003 | Review/Legemiddelprofil | Curr Opin Investig Drugs | Legemiddelutviklingsprofil som merker miglustat's EU-godkjenning for Gaucher-sykdom og pågående utvikling for Tay-Sachs, Fabry og Niemann-Pick C |
-| [9572057](https://pubmed.ncbi.nlm.nih.gov/9572057/) | 1998 | Review | Molecular Medicine Today | Tidlig review av biologi og potensielle behandlingsstrategier for GM2-gangliosidoser |
-| [28476546](https://pubmed.ncbi.nlm.nih.gov/28476546/) | 2017 | Review | Mol Genet Metab | Naturlig historie/tidslinje for barnealder-gangliosidoser; merker at substratnedreduksjon med miglustat har blitt forsøkt, men begrenset av GI-bivirkninger |
+| [19346952](https://pubmed.ncbi.nlm.nih.gov/19346952/) | 2009 | RCT | Genetics in Medicine | 12 måneders randomisert kontrollert studie med 24 måneders forlenget behandling av miglustat ved senutviklet Tay-Sachs; vurderer sikkerhet og effekt |
+| [37209042](https://pubmed.ncbi.nlm.nih.gov/37209042/) | 2023 | Systematisk oversikt | European Journal of Neurology | Vurderer effekt og sikkerhet av miglustat ved GM2-gangliosidose etter tidligere inkonsistente resultater |
+| [42794762](https://pubmed.ncbi.nlm.nih.gov/42794762/) | 2026 | Oversikt | Int J Mol Sci | Biologisk begrunnelse, klinisk evidens og grenser for reposisjonering av miglustat ved nevronopatiske lysosomale lagringssykdommer |
+| [16434676](https://pubmed.ncbi.nlm.nih.gov/16434676/) | 2006 | Kasuistikk | Neurology | Substratreduksjon hos to pasienter med infantil Tay-Sachs stoppet ikke nevrologisk forverring, men ga betydelig konsentrasjon i spinalvæske og forhindret makrocefali |
+| [30743792](https://pubmed.ncbi.nlm.nih.gov/30743792/) | 2009 | Oversikt | Expert Rev Endocrinol Metab | Substratreduksjonsterapi med miglustat ved glykosfingolipid-lagringssykdommer som rammer hjernen |
+| [16763917](https://pubmed.ncbi.nlm.nih.gov/16763917/) | 2006 | Oversikt | J Inherit Metab Dis | Substratreduksjonsterapi ved glykosfingolipid-lagringssykdommer |
+| [30524313](https://pubmed.ncbi.nlm.nih.gov/30524313/) | 2018 | Oversikt | Frontiers in Physiology | Nye tilnærminger til behandling av Tay-Sachs sykdom |
+| [28476546](https://pubmed.ncbi.nlm.nih.gov/28476546/) | 2017 | Naturhistorie/kohort | Mol Genet Metab | Tidslinje for kliniske endringer ved infantile gangliosidoser; ingen godkjente behandlinger, miglustat begrenset av gastrointestinale bivirkninger |
+| [18618288](https://pubmed.ncbi.nlm.nih.gov/18618288/) | 2008 | Pilotstudie | J Inherit Metab Dis | Nevrokognitiv testing ved senutviklet Tay-Sachs som mulig effektmål |
+| [12808890](https://pubmed.ncbi.nlm.nih.gov/12808890/) | 2003 | Legemiddelprofil | Curr Opin Investig Drugs | Profil av miglustat, utviklet for Gauchers sykdom og under utvikling for Tay-Sachs, Fabry og Niemann-Pick type C |
 
-## Markedsinformasjon for Norge
+---
 
-Miglustat har for øyeblikket ingen godkjenning for markedsføring i Norge (`market_status: Not marketed`, `total_licenses: 0`). Ingen lisensposter er tilgjengelige for sammenfatning.
+## Informasjon om det norske markedet
+
+Alle fem godkjenninger er kansellerte, og det finnes ingen gyldige godkjenninger i dag.
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000435 | Zavesca | – | Gauchers sykdom; Niemann-Picks sykdom |
+| EMEA/H/C/004016 | Yargesa | – | Gauchers sykdom |
+| EMEA/H/C/004904 | Miglustat Dipharma | – | Gauchers sykdom |
+| EMEA/H/C/004366 | Miglustat Gen.Orph | – | Gauchers sykdom |
+| EMEA/H/C/005695 | Opfolda | – | Glykogenlagringssykdom type II |
+
+---
 
 ## Sikkerhetshensyn
 
-Se pakningsvedlegget for sikkerhetsinformasjon. Viktige advarsler, kontraindikasjoner og legemiddelinteraksjondata er ikke tilgjengelig i denne dokumentsamlingen (flagget som datakløft DG001, alvorlighetsgrad: Blokkering — TFDA-etikettvarsler/kontraindikasjoner er ennå ikke hentet).
+- **Kontraindikasjoner fra kunnskapsgrafen** (ikke fra preparatomtale): perifer nervesystemsykdom, perifer nevropati og nedsatt nyrefunksjon.
+- **Legemiddelinteraksjoner:** Imiglucerase (moderat interaksjon, ifølge DDInter). I tillegg er UGCG (glukosylceramid-syntase) identifisert som farmakologisk mål, noe som er selve virkningsmekanismen og ikke en klinisk interaksjon.
 
-## Konklusjon og neste trinn
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
-**Vedtak: Fortsett med sikkerhetstiltak**
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Tay-Sachs-sykdom/GM2-gangliosidose er den eneste av 10 TxGNN-forutsagte indikasjonene som er støttet av et faktisk fullført RCT og ett systematisk review fra 2023, og det har en direkte, allerede validert mekanistisk sammenheng til miglustat's godkjente substratnedreduksjonsterapi-mekanisme. Imidlertid er resultatene blandede — ett fase 3-forsøk og ett fase 4-kombinasjonsforsøk ble begge avsluttet, og effektiviteten virker mer konsistent ved sen-debut enn ved barnealder-debut-sykdom.
+Miglustat har en biologisk sammenhengende begrunnelse for Tay-Sachs og noe klinisk dokumentasjon, men studiene er små, to ble avsluttet tidlig, og nevrologisk effekt er uavklart. I tillegg har legemidlet ingen gyldig godkjenning i Norge, og sikkerhetsdata fra preparatomtalen mangler. Øvrige toppprediksjoner er kun modellbaserte (L5).
 
-**For å fortsette, er følgende nødvendig:**
-- Løse datakløft DG001 (Blokkering): hent TFDA/offisielle etikettvarsler og kontraindikasjoner før noen sikkerhetsevaluering (S1) kan fortsette
-- Løse datakløft DG002 (Høy): bekreft detaljert virkningsmekanisme fra DrugBank for å styrke den mekanistiske begrunnelsen
-- Undersøk avslutningsårsaker for NCT03822013 og NCT02030015, da disse er negative signaler som trenger eksplisitt gjennomgang
-- Definer målpopulasjonen (sen-debut/juvenile vs. barnealder-debut) gitt differensielle effektivitetssignaler i litteraturen
-- Hvis det blir fulgt opp, prioriter sen-debut/juvenile GM2-gangliosidose-populasjonen, i samsvar med de sterkeste eksisterende bevisene (PMID 19346952)
-
+**For å gå videre kreves følgende:**
+- Innhente og analysere preparatomtale (advarsler og kontraindikasjoner), noe som er en blokkerende datamangel for sikkerhetsvurderingen
+- Detaljerte data om virkningsmekanisme (f.eks. fra DrugBank)
+- Kritisk gjennomgang av resultatene fra RCT-en (PMID 19346952) og den systematiske oversikten (PMID 37209042) for å avklare effekt på nevrologiske endepunkter
+- Vurdere regulatorisk vei, siden alle norske/EU-godkjenninger er kansellert
+- Sikkerhetsplan for pasienter med perifer nevropati eller nedsatt nyrefunksjon
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

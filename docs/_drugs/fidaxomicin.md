@@ -2,7 +2,7 @@
 layout: default
 title: Fidaxomicin
 parent: Kun modellprediksjon (L5)
-nav_order: 151
+nav_order: 176
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,65 +29,91 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Fidaxomicin: Fra uspesifisert opprinnelig indikasjon til Staphylococcal Scalded Skin Syndrome
+# Fidaxomicin: Fra Clostridium-infeksjoner til stafylokokk-indusert skåldet hud-syndrom
 
-## Sammendrag i én setning
+## Oppsummering i én setning
 
-> Evidenspakken for Fidaxomicin (DrugBank ID: DB08874) inneholder ikke data om dets opprinnelige godkjente indikasjon eller virkemåte, og legemidlet har for tiden ingen markedsgodkjenning i Norge.
-> TxGNN-modellens topprediksjon er **Staphylococcal Scalded Skin Syndrome (SSSS)**, men dette støttes av **0 kliniske forsøk** og **0 publikasjoner**,
-> og begrunnelsen som følger med prediksjonen selv markerer den mekanistiske sammenhengen som svak, mest sannsynlig en modellartefakt i stedet for et genuint repurposerings-signal.
+Fidaxomicin er et smalspektret makrosyklisk antibiotikum som opprinnelig brukes mot **Clostridium-infeksjoner** (særlig *C. difficile*). TxGNN-modellen forutsier at legemidlet kan ha effekt mot **stafylokokk-indusert skåldet hud-syndrom (staphylococcal scalded skin syndrome)**. Forutsigelsen er imidlertid kun modellbasert: det finnes **ingen kliniske studier** og **ingen litteratur** som støtter denne retningen.
+
+---
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
-|-------|---------|
-| Opprinnelig indikasjon | Ikke tilgjengelig — ingen lisens-/indikasjondata i evidenspakken |
-| Forutsagt ny indikasjon | Staphylococcal Scalded Skin Syndrome |
-| TxGNN-prediksjonsscore | 99.71% |
-| Bevisnivå | L5 |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Vent |
+|------|------|
+| Opprinnelig indikasjon | Clostridium-infeksjoner |
+| Predikert ny indikasjon | Staphylococcal scalded skin syndrome |
+| TxGNN-score | 99,71 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Antall tillatelser | 1 (avregistrert) |
+| Anbefalt beslutning | Hold |
+
+---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket er det ikke tilgjengelig detaljerte data om virkemåte for Fidaxomicin i denne evidenspakken, og ingen opprinnelig indikasjon er registrert heller. Det som kan rekonstrueres fra generell farmakologi (som nevnt i modellens egen begrunnelse) er at fidaxomicin er et snevertsektrum-makrolid med in vitro-aktivitet mot noen gram-positive organismer, inkludert *S. aureus*. Den administreres imidlertid oralt og har ubetydelig systemisk biotilgjengelighet (<0,5%), og virker nesten utelukkende innenfor tarmlumen.
+Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Fidaxomicin er imidlertid kjent som et smalspektret makrosyklisk antibiotikum som hemmer bakterielt RNA-polymerase, og det er hovedsakelig aktivt mot grampositive anaerobe bakterier som *C. difficile*. Legemidlet har også en viss in vitro-aktivitet mot *Staphylococcus aureus*, og det er dette som gir den biologiske koblingen til den predikerte indikasjonen.
 
-Staphylococcal Scalded Skin Syndrome er en toksittformidlet, systemisk hudsykdom som krever et antibiotikum som er i stand til å nå terapeutiske konsentrasjoner systemisk for å fjerne toksinproduserende staphylococcus-fokus. Gitt fidaxomicinets farmakokinetiske profil, kan det ikke oppnå meningsfull systemisk eksponering, så det mekanistiske grunnlaget for denne prediksjonen er svakt.
+Stafylokokk-indusert skåldet hud-syndrom er imidlertid en toksinmediert sykdom (eksfoliative toksiner) som vanligvis behandles med systemiske antistafylokokk-midler. Fidaxomicin absorberes i minimal grad systemisk, og det er derfor lite sannsynlig at det når effektive konsentrasjoner i hud eller blod. Koblingen er dermed biologisk plausibel kun in vitro og er ikke støttet klinisk.
 
-Modellens egen repurposerings-begrunnelse karakteriserer eksplisitt dette som et sannsynlig tilfelle av TxGNN-embedding-overgeneralisering — modellen ser ut til å plukke opp «anti-staphylococcus-aktivitet» som en delt egenskap uten å ta hensyn til administrasjonsmåte og farmakokinetisk uoverensstemmelse. Samme forbehold (ingen systemisk eksponering, ingen topisk/parenteral formulering) gjentar seg på tvers av nesten alle de ni beste forutsagte indikasjonene for dette legemidlet (bullös impetig, impetig, hordeolum, *S. aureus*-pneumoni), og to prediksjoner (inhalativ og toksittformidlet botulisme) er mekanistisk usammenhengende i det hele tatt (nevrotoksin-formidlet sykdom vs. et antibakterielt middel), og en (vulvovaginal kandidose) involverer en sopppatogen som fidaxomicin, et antibakteriell RNA-polymerase-hemmer, ikke har kjent aktivitet mot.
+Øvrige predikerte indikasjoner (alle også L5, Hold) er bulløs impetigo, inhalasjonsbotulisme, impetigo, toksinmediert infeksiøs botulisme, vulvovaginal candidiasis, hordeolum, *Staphylococcus aureus*-pneumoni og punktformet epitelial keratokonjunktivitt. For de fleste av disse gjelder de samme begrensningene: dårlig systemisk absorpsjon, ingen etablert topikal eller oftalmisk formulering, og eksisterende effektive standardbehandlinger. Ved botulisme er behandlingen antitoksin og støttebehandling, og antibiotika nøytraliserer ikke ferdigdannet toksin. Vulvovaginal candidiasis er en soppinfeksjon, og den høye modellscoren skyldes trolig en artefakt i kunnskapsgrafen.
 
-## Bevis fra kliniske forsøk
+---
 
-Foreløpig ingen relaterte kliniske forsøk registrert
+## Klinisk studieevidens
 
-## Litteraturbevis
+Det er for øyeblikket ingen relaterte kliniske studier registrert.
 
-Foreløpig ingen relatert litteratur tilgjengelig
+---
 
-## Norsk markedsinformasjon
+## Litteraturevidens
 
-Fidaxomicin har for øyeblikket **ingen markedsgodkjenning i Norge** (markedsstatus: Ikke markedsført, 0 lisenser registrert). Ingen produkt-, doseringsform- eller godkjent-indikasjondata er tilgjengelig.
+For hovedprediksjonen (skåldet hud-syndrom) finnes det for øyeblikket ingen relatert litteratur.
 
-## Sikkerhetshensyn
+For den åttende prediksjonen (*S. aureus*-pneumoni) er det funnet én publikasjon, men den er en generell litteraturoppdatering og ikke evidens for fidaxomicin i denne indikasjonen:
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+| PMID | År | Type | Tidsskrift | Hovedfunn |
+|------|-----|------|------|---------|
+| [31634096](https://pubmed.ncbi.nlm.nih.gov/31634096/) | 2019 | Oversikt | Journal of Hospital Medicine | Oppsummering av 10 sentrale artikler innen sykehusmedisin; nevner vankomycin eller fidaxomicin som førstevalg ved *C. difficile*-infeksjon, ikke ved pneumoni |
 
-*(Merk: viktige advarsler, kontraindikasjoner og legemiddelinteraksjonsdata er merket som en blokkerende datakløft (DG001) i denne evidenspakken — TFDA/regulatoriske etiketterdata har ikke blitt hentet og analysert ennå.)*
+---
 
-## Konklusjon og neste skritt
+## Informasjon om det norske markedet
 
-**Beslutning: Vent**
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/002087 | Dificlir | Ikke oppgitt | Clostridium-infeksjoner (status: avregistrert) |
+
+---
+
+## Sikkerhetsvurderinger
+
+### Legemiddelinteraksjoner
+
+Interaksjonssøket er gjennomført og fant totalt 79 interaksjoner. Blant de 20 som er oppført i dataene er de viktigste:
+
+- **Alvorlig (Major):** levende kolera-vaksine (*Vibrio cholerae* CVD 103-HgR)
+- **Moderat:** alpelisib, apalutamid, binimetinib, pikosulfat
+- **Mindre (Minor):** blant annet nifedipin, amiodaron, verapamil, diltiazem, ciklosporin, klaritromycin, erytromycin og spironolakton
+
+Se preparatomtalen for sikkerhetsinformasjon om advarsler og kontraindikasjoner.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Topprediksjonen (SSSS) har høy TxGNN-likhetsscore, men er helt uten støtte fra kliniske forsøk eller litteratur (Bevisnivå L5), og modellens egen mekanistiske begrunnelse identifiserer fidaxomicinets ubetydelige systemisk absorpsjon som en grunnleggende barriere for effektivitet i en systemisk, toksittformidlet hudsykdom. Dette mønsteret gjentar seg på tvers av i hovedsak alle topprangerte prediksjoner for dette legemidlet — flere er mekanistisk usannsynlige (soppformidlet eller nevrotoksin-formidlet sykdommer mot et snevertsektrum-antibakteriell middel), og ingen har tilgjengelig administrasjonsmåte (topisk/oftalmisk/parenteral) som samsvarer med den foreslåtte indikasjonen. Kombinert med en blokkerende sikkerhetsdatakløft (DG001), er det ingen grunnlag for å avansere noen av disse kandidatene forbi innledende screening.
+Prediksjonen bygger kun på modellscoren (evidensnivå L5), uten kliniske studier eller støttende litteratur. Fidaxomicin absorberes minimalt systemisk, noe som gjør effektive konsentrasjoner i hud, blod eller lunge usannsynlig, og det finnes godt etablerte alternativer. I tillegg har legemidlet ingen gyldig markedsføringstillatelse i Norge.
 
-**For å fortsette er følgende nødvendig:**
-- Løs DG001: hent og analyser TFDA (eller tilsvarende) etikett-advarsler/kontraindikasjoner før noen S1-sikkerhetssscreening kan forekomme
-- Få bekreftet virkemåte (DG002) og opprinnelig godkjent indikasjon for fidaxomicin for å riktig forankre likhets-til-original-analyse
-- Hvis SSSS- eller impetig-type-indikasjoner skal forfølges videre, etabler først om en topisk/dermatologisk formulering av fidaxomicin er teknisk gjennomførbar, siden den orale formuleringens PK-profil ikke støtter disse brukssakene
-- Uavhengig litteratur-/mekanisme-gjennomgang for å skille genuint repurposerings-signal fra TxGNN-embedding-overgeneralisering før du forplikter videre evalueringsressurser
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende hull for sikkerhetsscreening)
+- Prekliniske data (in vitro-aktivitet mot toksinproduserende *S. aureus*) og farmakokinetiske data for vev
+- Vurdering av mulig topikal formulering og rutekompatibilitet
+- Vurdering av regulatorisk status, siden den eneste tillatelsen er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Ibuprofen
 parent: Kun modellprediksjon (L5)
-nav_order: 171
+nav_order: 203
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,79 +29,93 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Ibuprofen: Fra NSAID-terapi til Acromesomelic Dysplasia, Hunter-Thompson-type
+# Ibuprofen: Fra persistent ductus arteriosus til akromesomelisk dysplasi, Hunter-Thompson-type
 
-## Sammendrag på én setning
+## Oppsummering i én setning
 
-> Ibuprofen er et bredt brukt ikke-steroidalt antiinflammatorisk legemiddel (NSAID), selv om ingen Taiwan-godkjent indikasjonsinformasjon er tilgjengelig i denne bevissamlingen.
-> TxGNN-modellens toppprediksjon er **Acromesomelic Dysplasia, Hunter-Thompson-type**, en sjelden medfødt skjelettlidelse,
-> men denne kandidaten har for øyeblikket **0 kliniske prøvinger** og **0 publikasjoner** som støtter det, og modellens egen begrunnelse flagger det som et sannsynlig embedding-clustering falskt positivt.
+Ibuprofen er en ikke-selektiv COX-hemmer som i Norge/EØS-sammenheng er godkjent for å lukke persistent ductus arteriosus (PDA) hos premature nyfødte.
+TxGNN-modellen forutsier at legemidlet kan være effektivt mot **akromesomelisk dysplasi, Hunter-Thompson-type**, men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne prediksjonen.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
-|------|---------|
-| Opprinnelig indikasjon | Ikke tilgjengelig — ingen `original_indications` eller Taiwan-lisensiata i denne bevissamlingen |
-| Predikert ny indikasjon | Acromesomelic Dysplasia, Hunter-Thompson-type |
-| TxGNN-prediksjonspoengsum | 99.74% |
-| Bevisnivå | L5 |
-| Taiwan-markedsstatus | Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+|------|------|
+| Opprinnelig indikasjon | Persistent ductus arteriosus (Ductus Arteriosus, Patent) |
+| Predikert ny indikasjon | Akromesomelisk dysplasi, Hunter-Thompson-type |
+| TxGNN-prediksjonsscore | 99,74 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrerte (opphevede) godkjenninger |
+| Antall godkjenninger | 2 (begge opphevet) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-For øyeblikket er detaljert virkningsmekanisme-data ikke tilgjengelig (flagget som et alvorlig datgap, DG002). Ibuprofen er generelt kjent som et propionsyre-klasse-NSAID som hemmer COX-1/COX-2 og prostaglandinsyntese, men ingen legemiddel-spesifikk MOA-post ble returnert for denne kandidaten.
+Data om detaljert virkningsmekanisme er foreløpig ikke tilgjengelig i datagrunnlaget. Ibuprofen er kjent som en ikke-selektiv COX-hemmer med antiinflammatorisk og smertestillende effekt. Ved PDA fører COX-hemming til redusert prostaglandinsyntese, som igjen fremmer lukking av ductus.
 
-Det er viktig at denne prediksjonen **ikke** bør behandles som mekanistisk godt støttet. Modellens egen begrunnelse for den høyest rangerte tilstanden slår fast at Acromesomelic Dysplasia, Hunter-Thompson-type er forårsaket av *GDF5*-genmutasjoner — en medfødt strukturell skjelettlidelse med **ingen kjent patogen overlapping** med COX/prostaglandin-hemningsbanen som ligger til grunn for ibuprofen-farmakologien. Bevissamlingen noterer eksplisitt at denne høye poengsum er mistenkt å være et **graph-embedding klusterings falskt positivt** i stedet for et biologisk forankret signal.
+Akromesomelisk dysplasi, Hunter-Thompson-type, er en sjelden genetisk skjelettsykdom forårsaket av funksjonstapsmutasjoner i CDMP1/GDF5, som påvirker beinvekst. Ibuprofen virker ikke på GDF5/BMP-signalveien, og det er ikke identifisert noen troverdig mekanistisk kobling til den opprinnelige indikasjonen. Den høye TxGNN-scoren (0,997) er kun en prediksjon fra kunnskapsgrafen. Ved ytterligere bruk kan ibuprofen i beste fall gi symptomatisk smertelindring, noe som ikke er en sykdomsmodifiserende indikasjon.
 
-Dette mønsteret gjentar seg på alle sju rangerte kandidater i denne pakken: brachyolmia-amelogenesis imperfecta syndrom, myosclerosis, brachyolmia, brachydactyly-syndactyly syndrom, pseudoachondroplasia og colobomatous microphthalmia-rhizomelic dysplasia syndrom er alle sjeldne medfødte eller utviklingsmessige skjelettlidelser eller bindevevslidelser. Bare pseudoachondroplasias begrunnelse noterer en plausibel (men rent symptomatisk, ikke sykdomsmodifiserende) forbindelse — NSAID-bruk for leddsmerter — mens alle andre kandidater eksplisitt beskrives som manglende en kjent inflammatorisk eller mekanistisk banetilknytning til ibuprofen. Ingen av de sju kandidatene har noen støttende klinisk prøving- eller litteraturbevis.
-
----
-
-## Bevis fra kliniske prøvinger
-
-For øyeblikket ingen relaterte kliniske prøvinger registrert.
+Det er også verdt å merke seg at de øvrige topp-prediksjonene (blant annet brachyolmia, pseudoachondroplasi, brachydaktyli-syndaktyli-syndrom og myosklerose) i hovedsak er sjeldne skjelett- eller utviklingsforstyrrelser. Dette tyder på at høye scorer sannsynligvis skyldes nærhet mellom sykdomsbegreper i grafen, snarere enn en reell farmakologisk sammenheng.
 
 ---
 
-## Litteraturbevis
+## Klinisk studieevidens
 
-For øyeblikket ingen relatert litteratur tilgjengelig.
-
----
-
-## Taiwan-markedsinformasjon
-
-Ibuprofen har for øyeblikket **ingen markedsføringsautorisasjon i Taiwan** (0 lisenser på posten; markedsstatus: Ikke markedsført). Ingen produktnavn, doseringsform eller godkjent indikasjonsinformasjon er tilgjengelig for denne bevissamlingen.
+Foreløpig er det ingen relaterte kliniske studier registrert.
 
 ---
 
-## Sikkerhetshensyn
+## Litteraturevidens
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
-
-*(Merknad: TFDA-etikettadvarsler/kontraindikasjoner er registrert som et blokkerings-datgap (DG001) — dette er påkrevd før en S1-sikkerhet forhåndsvurdering kan fortsette.)*
+Foreløpig er det ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Konklusjon og neste skritt
+## Markedsinformasjon for Norge
 
-**Beslutning: Avvent**
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000549 | Pedea (Recordati Rare Diseases) | – | Persistent ductus arteriosus (opphevet) |
+| EMEA/H/C/006129 | Ibuprofen Gen.Orph (Gen.Orph) | – | Persistent ductus arteriosus (opphevet) |
+
+---
+
+## Sikkerhetsvurderinger
+
+**Kontraindikasjoner fra kunnskapsgrafen** (hentet fra TxGNN/PrimeKG-relasjoner mellom legemiddel og sykdom, ikke fra preparatomtale). Blant annet:
+- Hjerte- og karsykdommer: hypertensjon, hypotensjon, hjerteinfarkt, hjerneslag, cerebrovaskulære sykdommer, cerebralt infarkt
+- Lever- og nyresykdommer: leversvikt, leversykdom, nyresykdom, gallblæresykdom
+- Mage-tarm: magesår, inflammatorisk tarmsykdom
+- Blod: trombocytopeni, blodkoagulasjonsforstyrrelser
+- Metabolske og endokrine: diabetes mellitus, diabetisk ketoacidose, hypotyreose (inkl. myksødem og medfødt hypotyreose), kaliummangel
+- Andre: epilepsi, kronisk obstruktiv lungesykdom, systemisk lupus erythematosus, godartet prostatahyperplasi, rusmiddelmisbruk/avhengighet, pyoureter
+
+**Legemiddelinteraksjoner** (100 registrerte interaksjoner; utvalg):
+- **Alvorlig (Major):** acetylsalisylsyre
+- **Moderat:** kortikosteroider (betametason, budesonid, deksametason, hydrokortison), sulfonylurea-preparater (acetoheksamid, klorpropamid, glimepirid, glipizid, glyburid), eksenatid, aprepitant, balsalazid, fenfluramin og deksfenfluramin, kanamycin, levofloksacin
+- **Mindre (Minor):** famotidin, ranitidin, cimetidin
+
+Ved prenatal eksponering for NSAID er det i tillegg kjent risiko for blant annet innsnevring av ductus arteriosus og nyrepåvirkning, noe som er relevant for tilstander med medfødte misdannelser.
+
+Fullstendige advarsler og kontraindikasjoner fra preparatomtalen mangler i datagrunnlaget; se preparatomtalen for sikkerhetsinformasjon.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Alle sju TxGNN-predikerte indikasjoner for ibuprofen er sjeldne medfødte skjelettlidelser/bindevevslidelser med L5-bevis (kun poengsum, ingen kliniske prøvinger eller litteratur), og den høyest rangerte kandidatens egen mekanistiske begrunnelse flagger det som et sannsynlig embedding-clustering falskt positivt med ingen kjent patogen overlapping med NSAID-farmakologi. Kombinert med et blokkerings-datgap på TFDA-etikettdata og et alvorlig-datgap på MOA, kan denne kandidaten ikke avansere forbi S0.
+Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og det finnes ingen troverdig mekanistisk kobling mellom COX-hemming og GDF5-relatert skjelettdysplasi. I tillegg har ibuprofen i dag ingen gyldige godkjenninger i Norge.
 
-**For å fortsette, kreves følgende:**
-- TFDA-etikettadvarsler/kontraindikasjoner (DG001, Blokkering) — påkrevd før en sikkerhet forhåndsvurdering
-- DrugBank MOA-data (DG002, Alvorlig) for å ordentlig vurdere mekanistisk plausibilitet
-- Uavhengig biologisk/genetisk begrunnelse-gjennomgang for å bekrefte eller utelukke det mistenkte embedding-clustering-artefakt før denne prediksjonen behandles som en levedyktig kandidat
-- Hvis videre oppfølging ønskes, kjør TxGNN-rangering på nytt mot ikke-sjelden-sykdom-indikasjonssett for å sjekke om denne kandidatlisten gjenspeiler et systematisk klusteringsproblem spesifikt for ibuprofen-embedningen
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Preparatomtale med advarsler og kontraindikasjoner fra den relevante godkjenningsmyndigheten
+- Prekliniske eller mekanistiske studier som viser en mulig effekt på GDF5/BMP-signalveien eller på sykdomsforløpet
+- Vurdering av om symptomatisk smertelindring er det eneste realistiske bruksområdet, og i så fall om dette er relevant som repurposing-mål
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

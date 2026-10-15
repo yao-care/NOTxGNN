@@ -2,7 +2,7 @@
 layout: default
 title: Aripiprazole
 parent: Høy evidens (L1-L2)
-nav_order: 34
+nav_order: 37
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,99 +29,122 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Aripiprazole: Fra schizofreni og bipolar lidelse til major affektiv lidelse
+# Aripiprazol: Fra schizofreni til alvorlig affektiv lidelse (depresjon)
 
-## Sammenfattning i én setning
+## Sammendrag
 
-> Aripiprazole er et andregenerasjons antipsykotikum som historisk har vært brukt for schizofreni, bipolar I-lidelse (mani) og tilleggsbehandling av major depressiv lidelse (MDD), blant annet godkjente indikasjoner.
-> TxGNN-modellen forutsier at det kan være effektivt for **major affektiv lidelse**,
-> med **50 kliniske forsøk** og **20 publikasjoner** som for tiden støtter denne retningen – inkludert flere avsluttede fase 3 RCT-er og tier 1 systematiske gjennomganger/nettverksmetaanalyser.
+Aripiprazol er et antipsykotikum som opprinnelig brukes til behandling av schizofreni og bipolar lidelse.
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **alvorlig affektiv lidelse** (i praksis depresjon, som tillegg til antidepressiva),
+og dette støttes av **35 kliniske studier** og **19 publikasjoner** i dataene som er samlet inn for denne rapporten.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
+| Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Schizofreni, bipolar I-lidelse (mani), tilleggsbehandling av major depressiv lidelse og irritabilitet assosiert med autisme (per litteraturbevis, PMID 21254788). Norsk etikett er ikke tilgjengelig i denne datapakken (se datakløft DG001). |
-| Forutsagt ny indikasjon | Major affektiv lidelse |
-| TxGNN prediksjonspoengsum | 99.62 % |
-| Bevistnivå | L1 |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall autoriseringer | 0 |
-| Anbefalt beslutning | Fortsett med sikringsmekanismer |
+| Opprinnelig indikasjon | Schizofreni |
+| Predikert ny indikasjon | Alvorlig affektiv lidelse (major affective disorder) |
+| TxGNN-prediksjonsscore | 99,62 % |
+| Evidensnivå | L1 |
+| Status på det norske markedet | Kun kansellerte godkjenninger |
+| Antall godkjenninger | 6 (alle kansellert) |
+| Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data for virkningsmekanisme fra DrugBank var ikke tilgjengelige i denne datapakken (datakløft DG002). Imidlertid, basert på informasjon som er presentert i den støttende litteraturen, er aripiprazole en D2/D3 dopaminreseptor delvis agonist og en 5-HT1A delvis agonist / 5-HT2A antagonist. Denne dopamin-serotoninmodulering er allerede klinisk vist å være effektiv ved bipolar lidelse (mani og vedlikeholdsbehandling) og ved behandlingsresistent major depressiv lidelse, hvor den brukes som tilleggsbehandling til antidepressiva.
+Detaljerte data om virkningsmekanisme foreligger ikke i dataene som er samlet inn for denne rapporten. Basert på kjent farmakologi er aripiprazol en partiell agonist på dopamin D2/D3-reseptorer og serotonin 5-HT1A-reseptorer, med antagonisme på 5-HT2A. Denne profilen gjør at legemidlet kan modulere dopaminerg tonus og forsterke effekten av serotonerge antidepressiva.
 
-Fordi «major affektiv lidelse» som et paraplybegrep overlapper betydelig med aripiprazoles allerede dokumenterte bruk ved bipolar depresjon og MDD-tillegg, representerer denne prediksjonen stort sett en **re-bekreftelse av en etablert farmakologisk rolle** snarere enn en helt ny ombrukshypotese. Denne distinksjonen er viktig for tolkning: styrken i evidensbasisen reflekterer tiår med klinisk bruk i affektive lidelser, ikke et tidlig signal.
+Schizofreni og affektive lidelser har overlappende nevrobiologi, særlig i dopamin- og serotoninsystemene. Aripiprazol er allerede godkjent for bipolar lidelse, og bruk som tilleggsbehandling ved depresjon som ikke responderer tilstrekkelig på antidepressiva er et naturlig neste steg.
 
-Det bør bemerkes at feltet `original_indications` i denne evidenspakken er tomt, så det er ikke mulig å bekrefte fra strukturerte regulatoriske data alene om major affektiv lidelse allerede er en godkjent indikasjon i noen markeder. Dette bør klargjøres før TxGNN-poengsummen skal behandles som et «nytt» ombruksresultat.
+Merk at betegnelsen «alvorlig affektiv lidelse» er bred og overlapper med den opprinnelige bipolare indikasjonen. Det er derfor først og fremst evidensen for tilleggsbehandling ved unipolar depresjon som representerer reell ny bruk.
 
 ---
 
-## Klinisk prøvebevis
+## Klinisk studieevidens
 
-| Forsøksnummer | Fase | Status | Deltakerantall | Viktige funn |
+Tabellen viser et utvalg av de mest relevante studiene (flere finnes i datagrunnlaget).
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT00683852](https://clinicaltrials.gov/study/NCT00683852) | Fase 3 | Avsluttet | 225 | Dobbeltblindet, placebokontrollert studie av tilleggs aripiprazole (redusert dose) lagt til antidepressivbehandling ved MDD; direkte effektivitetsbevis |
-| [NCT00876343](https://clinicaltrials.gov/study/NCT00876343) | Fase 3 | Avsluttet | 586 | Placebokontrollert, parallellgruppstudie av tilleggs aripiprazole co-administrert med SSRI/SNRI ved MDD |
-| [NCT00105196](https://clinicaltrials.gov/study/NCT00105196) | Fase 3 | Avsluttet | 349 | 14-ukers randomisert, dobbeltblindet, placebokontrollert studie av tilleggs aripiprazole mot placebo ved MDD med utilstrekkelig antidepressivrespons |
-| [NCT02046564](https://clinicaltrials.gov/study/NCT02046564) | Fase 3 | Avsluttet | 412 | ASC-01 (aripiprazole/sertralin-kombinasjon) versus sertralin-monoterapi ved MDD-pasienter med ufullstendig respons |
-| [NCT00873795](https://clinicaltrials.gov/study/NCT00873795) | N/A | Avsluttet | 41 | Aripiprazole 2.5 mg + sertralin 50 mg versus sertralin alene ved nydiagnostisert MDD; effektivitets- og toleransammenlikning |
-| [NCT01567527](https://clinicaltrials.gov/study/NCT01567527) | Fase 3 | Avsluttet | 731 | 52-ukers randomisert, dobbeltblindet, placebokontrollert prøve av IM depot aripiprazole som vedlikeholdsbehandling ved bipolar I-lidelse |
-| [NCT03423680](https://clinicaltrials.gov/study/NCT03423680) | Fase 3 | Rekrutterer | 390 | Multisenter, dobbeltblindet, placebokontrollert bekreftelsesstudie av tilleggs aripiprazole for major depressiv episode ved bipolar I/II-lidelse |
-| [NCT02918370](https://clinicaltrials.gov/study/NCT02918370) | Fase 3 | Avsluttet | 75 | Randomisert, dobbeltblindet, placebokontrollert prøve av aripiprazole ved bipolar lidelse med samtidig alkoholbruksforstyrelse |
-| [NCT00110461](https://clinicaltrials.gov/study/NCT00110461) | Fase 3 | Avsluttet | 296 | Sikkerhet og effektivitet av to aripiprazole-doser hos barn/ungdom med bipolar I-lidelse, manisk eller blandet episode |
-| [NCT00953745](https://clinicaltrials.gov/study/NCT00953745) | N/A | Avsluttet | 43 | PET/fMRI-studie som tester dopaminerg mekanisme for tilleggs aripiprazole ved behandlingsresistent depresjon |
+| [NCT00095823](https://clinicaltrials.gov/study/NCT00095823) | Fase 3 | Fullført | 1200 | Dobbeltblind, placebokontrollert studie av aripiprazol som tillegg til antidepressiva ved alvorlig depresjon |
+| [NCT00095758](https://clinicaltrials.gov/study/NCT00095758) | Fase 3 | Fullført | 1151 | 14 uker, dobbeltblind, placebokontrollert, tilleggsbehandling ved depresjon |
+| [NCT01421342](https://clinicaltrials.gov/study/NCT01421342) | Fase 3 | Fullført | 1522 | VAST-D: tillegg av aripiprazol sammenlignet med bytte av behandling hos veteraner |
+| [NCT00876343](https://clinicaltrials.gov/study/NCT00876343) | Fase 3 | Fullført | 586 | Placebokontrollert studie av aripiprazol som tillegg til SSRI/SNRI |
+| [NCT00105196](https://clinicaltrials.gov/study/NCT00105196) | Fase 3 | Fullført | 349 | 14 uker, placebokontrollert, tillegg til antidepressiva ved ufullstendig respons |
+| [NCT00683852](https://clinicaltrials.gov/study/NCT00683852) | Fase 3 | Fullført | 225 | Placebokontrollert studie med redusert dose aripiprazol som tillegg |
+| [NCT00095745](https://clinicaltrials.gov/study/NCT00095745) | Fase 3 | Fullført | 1002 | 52 ukers åpen langtidsstudie av sikkerhet og toleranse |
+| [NCT01111539](https://clinicaltrials.gov/study/NCT01111539) | Fase 3 | Avsluttet tidlig | 211 | Aripiprazol/escitalopram-kombinasjon; avsluttet før planlagt tid |
+| [NCT00080314](https://clinicaltrials.gov/study/NCT00080314) | Fase 3 | Fullført | 400 | Aripiprazol versus placebo ved bipolar depresjon |
+| [NCT00608543](https://clinicaltrials.gov/study/NCT00608543) | Fase 4 | Fullført | 17 | Tillegg til SSRI ved behandlingsresistent depresjon; svært liten studie |
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Journal | Viktige funn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | Systematisk gjennomgang/NMA | Journal of Affective Disorders | Nettverksmetaanalyse som sammenligner forsterkningsmidler (inkludert aripiprazole) for behandlingsresistent depresjon |
-| [38219278](https://pubmed.ncbi.nlm.nih.gov/38219278/) | 2024 | Systematisk gjennomgang/NMA | Neuropsychopharmacology Reports | Nettverksmetaanalyse som sammenligner brexpiprazole mot aripiprazole mot placebo hos japanske pasienter med MDD |
-| [38669232](https://pubmed.ncbi.nlm.nih.gov/38669232/) | 2024 | Systematisk gjennomgang/metaanalyse av RCT-er | PLoS One | Effektivitet og sikkerhet ved aripiprazole eller bupropion-forsterking/bytte ved TRD/MDD |
-| [36961650](https://pubmed.ncbi.nlm.nih.gov/36961650/) | 2023 | RCT | CNS Drugs | Sikkerhet, toleranse og PK av en 2-måneders langvirkende injiserbar aripiprazole-formulering ved schizofreni/bipolar I-lidelse |
-| [34167174](https://pubmed.ncbi.nlm.nih.gov/34167174/) | 2021 | Systematisk gjennomgang/metaanalyse | Primary Care Companion for CNS Disorders | Langtidseffektivitet (≥6 måneder) og toleranse ved tilleggs aripiprazole for MDD |
-| [35510505](https://pubmed.ncbi.nlm.nih.gov/35510505/) | 2023 | Systematisk gjennomgang/metaanalyse | Psychological Medicine | Effektivitet og sikkerhet/toleranse ved antipsykotika (monoterapi og tillegg) hos voksne med MDD |
-| [35861202](https://pubmed.ncbi.nlm.nih.gov/35861202/) | 2023 | Systematisk gjennomgang/metaanalyse | Journal of Psychopharmacology | Forsterking og kombinasjonsbehandlinger for tidligfase behandlingsresistent depresjon |
-| [36239033](https://pubmed.ncbi.nlm.nih.gov/36239033/) | 2023 | RCT | Journal of Psychopharmacology | Randomisert, dobbeltblindet, placebokontrollert prøve av tilleggs aripiprazole for MDD med somatiske symptomer, med EEG-bevis |
-| [37149344](https://pubmed.ncbi.nlm.nih.gov/37149344/) | 2023 | Oversikt | The Psychiatric Clinics of North America | Oversikt over farmakologi for behandlingsresistent depresjon, inkludert atypiske antipsykotika som aripiprazole |
-| [21254788](https://pubmed.ncbi.nlm.nih.gov/21254788/) | 2011 | Oversikt | CNS Drugs | Oversikt over aripiprazoles regulatoriske historie og kliniske prøvedata som tilleggsbehandling for MDD |
+| [42090141](https://pubmed.ncbi.nlm.nih.gov/42090141/) | 2026 | Systematisk oversikt / nettverksmetaanalyse | JAMA Psychiatry | Tilleggsbehandling med antipsykotika ved alvorlig depresjon; fem atypiske antipsykotika er FDA-godkjent |
+| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | Systematisk oversikt / nettverksmetaanalyse | J Affect Disord | Sammenligning av augmenteringsstrategier ved behandlingsresistent depresjon |
+| [35861202](https://pubmed.ncbi.nlm.nih.gov/35861202/) | 2023 | Systematisk oversikt / metaanalyse | J Psychopharmacol | Augmentering og kombinasjonsbehandling ved tidlig behandlingsresistent depresjon |
+| [39739012](https://pubmed.ncbi.nlm.nih.gov/39739012/) | 2025 | Nettverksmetaanalyse av RCT-er | Neuropsychopharmacology | Relativ effekt av antidepressive behandlinger ved behandlingsresistent depresjon |
+| [34238049](https://pubmed.ncbi.nlm.nih.gov/34238049/) | 2021 | Metaanalyse | J Psychopharmacol | Antidepressiva pluss andregenerasjons antipsykotika versus esketamin versus litium |
+| [37149344](https://pubmed.ncbi.nlm.nih.gov/37149344/) | 2023 | Oversiktsartikkel | Psychiatr Clin North Am | Atypiske antipsykotika er de best studerte augmenteringsmidlene ved behandlingsresistent depresjon |
+| [36855876](https://pubmed.ncbi.nlm.nih.gov/36855876/) | 2023 | Oversiktsartikkel | Am J Psychiatry | Antipsykotikas plass i behandlingen av behandlingsresistent depresjon |
+| [42283956](https://pubmed.ncbi.nlm.nih.gov/42283956/) | 2026 | Nettverksmetaanalyse | Adv Ther | Effekt og sikkerhet for godkjente atypiske antipsykotika som tillegg ved depresjon |
+| [25963405](https://pubmed.ncbi.nlm.nih.gov/25963405/) | 2016 | Oversiktsartikkel | Asia Pac Psychiatry | Antipsykotika som antidepressiva; effekt kun ved subantipsykotiske doser |
+| [37815563](https://pubmed.ncbi.nlm.nih.gov/37815563/) | 2023 | Oversiktsartikkel | JAMA | Diagnostikk og behandling av bipolar lidelse |
+
+Merk: En metaanalyse om aripiprazol eller bupropion (PMID 38669232) er trukket tilbake og er derfor utelatt.
 
 ---
 
-## Norsk markedsinformasjon
+## Informasjon om det norske markedet
 
-Aripiprazole er for tiden **ikke markedsført** i Norge ifølge denne datapakken, og ingen markedsføringsautoriseringsregistreringer er tilgjengelige (totalt autoriseringer: 0).
+Alle seks godkjenninger er kansellert, og ingen er for tiden gyldige.
+
+| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/002755 | Abilify Maintena | – | Schizofreni |
+| EMEA/H/C/000471 | Abilify | – | Schizofreni, bipolar lidelse |
+| EMEA/H/C/003803 | Aripiprazole Mylan Pharma | – | Schizofreni, bipolar lidelse |
+| EMEA/H/C/004008 | Aripiprazole Sandoz | – | Schizofreni, bipolar lidelse |
+| EMEA/H/C/004021 | Aripiprazole Accord | – | Schizofreni, bipolar lidelse |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-Se produktinformasjonen for sikkerhetsinformasjon.
+- **Kontraindikasjoner (fra kunnskapsgraf, ikke preparatomtale):** Kunnskapsgrafen angir blant annet nevroleptisk malignt syndrom, nøytropeni, agranulocytose og leukopeni, diabetes, hyperglykemi og diabetisk ketoacidose, epilepsi, ortostatisk hypotensjon, hjerteinfarkt og koronarsykdom, samt hjerneslag/cerebrovaskulær sykdom, hyperlipidemi og fedme. Dette er grafbaserte relasjoner og må verifiseres mot preparatomtalen.
+- **Legemiddelinteraksjoner:** 100 interaksjoner er registrert. Den eneste med alvorlighetsgrad «Major» blant de viste er **bupropion**. De øvrige viste er av moderat alvorlighetsgrad, blant annet antidiabetika (metformin, pioglitazon, akarbose, alogliptin, kanagliflozin), antikolinerge midler (atropin, hyoscyamin), klaritromycin, cimetidin, famotidin, cisaprid og epinefrin.
+- **Annet:** Litteraturen beskriver tilfeller der aripiprazol selv har utløst impulsive/tvangspregede atferder, noe som er relevant ved vurdering av nytte og risiko.
+
+Preparatomtalens advarsler og kontraindikasjoner var ikke tilgjengelige i datagrunnlaget. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 ---
 
-## Konklusjon og neste skritt
+## Andre predikerte indikasjoner (kort oppsummert)
 
-**Beslutning: Fortsett med sikringsmekanismer**
+- **Trikotillomani (rang 7, score 99,26 %):** Evidensnivå L3. To små studier (en åpen studie med 12 deltakere og en planlagt fase 2-studie som ennå ikke rekrutterer), en åpen studie og flere kasuistikker. Aripiprazol er også beskrevet som en mulig utløser av tilstanden, så retningen på nytte og risiko er uklar. Anbefaling: forskningsspørsmål.
+- **Øvrige åtte predikerte tilstander (rang 2–6 og 8–10):** Kun modellprediksjon (L5), ingen studier eller litteratur, og ingen sannsynlig mekanistisk sammenheng. Anbefaling: Hold.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Proceed with Guardrails (fortsett med forbehold)**
 
 **Begrunnelse:**
-Bevisnivået er L1, støttet av flere avsluttede fase 3 RCT-er og tier 1 systematiske gjennomganger/nettverksmetaanalyser som viser tilleggs aripiprazole-effektivitet ved MDD og bipolar depresjon. Imidlertid, fordi medisinens opprinnelige godkjente indikasjoner overlapper betydelig med den forutsagte indikasjonen, bør dette behandles som en forsterking av en etablert klinisk rolle snarere enn et helt nytt ombrukssignal, og norsk-spesifikke regulatoriske og sikkerhetsdata mangler for øyeblikket.
+Flere fullførte, placebokontrollerte fase 3-studier med over 1000 deltakere og flere nettverksmetaanalyser støtter aripiprazol som tilleggsbehandling ved depresjon. Betegnelsen «alvorlig affektiv lidelse» overlapper imidlertid med den eksisterende bipolare indikasjonen, og alle norske godkjenninger er kansellert, så evidensen er sterk, men fremstår som mindre ny enn prediksjonen antyder.
 
-**For å fortsette, kreves følgende:**
-- TFDA/norsk produktinformasjon – advarsler, kontraindikasjoner og DDI-data (datakløft DG001, som for øyeblikket blokkerer S1 sikkerhetsvurdering)
-- Bekreftet virkningsmekanismedata fra DrugBank (datakløft DG002)
-- Klargjøring av om major affektiv lidelse (eller dens komponentdiagnoser) allerede er en godkjent indikasjon i noen referansemarked, for å korrekt klassifisere dette som re-bekreftelse versus helt nytt ombruk
-- Hvis markedsinntring i Norge forfølges, en fullstendig markedsføringsautoriseringsdossier, ettersom det ikke finnes gjeldende lisens
-
+**For å gå videre trengs:**
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel som må løses før sikkerhetsvurdering)
+- Detaljerte data om virkningsmekanisme fra DrugBank
+- Avklaring av regulatorisk status i Norge, siden alle godkjenninger er kansellert
+- Avgrensning av indikasjonen til unipolar depresjon som tilleggsbehandling, atskilt fra bipolar lidelse
+- Plan for sikkerhetsoppfølging (metabolsk profil, nøytrofiler, impulskontroll) og for interaksjoner, særlig med bupropion
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Tezacaftor
 parent: Kun modellprediksjon (L5)
-nav_order: 353
+nav_order: 414
 evidence_level: L5
 indication_count: 3
 ---
@@ -33,67 +33,70 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 ## Oppsummering i én setning
 
-> Tezacaftor er en CFTR-korrigeringsfaktor opprinnelig utviklet for behandling av cystisk fibrose, som retter opp feilfoldet CFTR-protein og fremmer dets transport til cellemembranen.
-> TxGNN-modellen forutsier at den kan være effektiv for **HIV-infeksjon**,
-> men denne prediksjonen støttes for øyeblikket av **0 kliniske forsøk** og **0 publikasjoner**, noe som gjør det til et rent modellforutsigelsessignal.
+Tezacaftor er en CFTR-korrektor som opprinnelig brukes til behandling av cystisk fibrose, i kombinasjon med andre CFTR-modulatorer. TxGNN-modellen predikerer at legemidlet kan ha effekt mot **HIV-infeksjon**, men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen er ren modellbasert (evidensnivå L5).
 
----
+## Hurtigoversikt
 
-## Rask oversikt
-
-| Element | Innhold |
-|---------|---------|
+| Punkt | Innhold |
+|------|------|
 | Opprinnelig indikasjon | Cystisk fibrose |
-| Forutsagt ny indikasjon | HIV-infeksjon |
-| TxGNN-prediksjonspoengsum | 99.24% |
-| Bevisnivå | L5 |
-| Markedsstatus i Norge | Ikke markedsført |
-| Antall godkjennelser | 0 |
-| Anbefalt beslutning | Avvent |
-
----
+| Predikert ny indikasjon | HIV-infeksjon |
+| TxGNN-prediksjonsscore | 99,24 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrerte (kansellerte) preparater |
+| Antall godkjenninger | 3 (alle kansellert) |
+| Anbefalt beslutning | Hold |
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket foreligger det ikke detaljerte virkningsmekanisme-data for tezacaftor (klassifisert som alvorlig datakløft). Basert på tilgjengelig informasjon er tezacaftor en CFTR-korrigeringsfaktor brukt i kombinasjonsregimer for cystisk fibrose, der den retter opp feilfolding av CFTR-protein og gjenoppretter dets transport til cellemembranen.
+Detaljerte data om virkningsmekanismen (MOA) er for tiden ikke tilgjengelige i datagrunnlaget. Tezacaftor er kjent som en CFTR-korrektor som forbedrer foldingen og transporten av CFTR-proteinet til cellemembranen. Det er godkjent som del av kombinasjonsbehandlinger (Symkevi, Kaftrio, Alyftrek) ved cystisk fibrose.
 
-Det finnes ingen kjent mekanistisk sammenheng mellom CFTR-protein folding/transport-stier og HIV-virusreplikasjon eller vert-immunrespons-stier. Begrunnelsen for ombruk påpeker eksplisitt at denne høye TxGNN-poengstummen mest sannsynlig reflekterer likheter i kunnskapsgrafen embedding heller enn en validert biologisk mekanisme.
+Det er ikke påvist noen mekanistisk sammenheng mellom CFTR-korreksjon og HIV-patofysiologi (virusreplikasjon, tap av CD4-T-celler). Den høye scoren (0,992) er en ren beregningsmessig prediksjon, og likheten med den opprinnelige indikasjonen er ikke vurdert. Prediksjonen bør derfor betraktes som en hypotese uten støtte i foreliggende data.
 
-De to andre høyest rangerte prediksjoner (spedalskhet, multipel endokrin neoplasi) viser samme mønster: ingen mekanistisk forbindelse til CFTR-biologi og ingen støtte fra kliniske forsøk eller litteratur. Gitt fraværet av en plausibel biologisk begrunnelse og fullstendig mangel på forsøks-/litteraturstøtte på tvers av alle tre kandidater, bør dette prediksjonssettet behandles som rent utforskende.
+To andre prediksjoner er også generert av modellen, begge med evidensnivå L5 og anbefaling Hold, uten studier eller litteratur:
 
----
+| Rangering | Predikert indikasjon | TxGNN-score | Kommentar |
+|------|------|------|------|
+| 2 | Lepra | 99,14 % | Eventuell kobling via vert-patogen-interaksjon eller membranproteintransport er spekulativ og utestet |
+| 3 | Multippel endokrin neoplasi | 99,06 % | MEN-syndromer skyldes kimbaneмutasjoner (f.eks. MEN1, RET) som er urelatert til CFTR-korreksjon |
 
-## Bevis fra kliniske forsøk
+## Kliniske studier
 
-For øyeblikket ingen relaterte kliniske forsøk registrert.
+Foreløpig er det ingen registrerte kliniske studier knyttet til denne indikasjonen.
 
----
+## Litteraturevidens
 
-## Bevis fra litteratur
+Foreløpig finnes det ingen relatert litteratur.
 
-For øyeblikket ingen relevant litteratur tilgjengelig.
+## Informasjon om markedet i Norge
 
----
+| Godkjenningsnummer | Produktnavn | Doseform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004682 | Symkevi | – | Cystisk fibrose |
+| EMEA/H/C/006382 | Alyftrek | – | Cystisk fibrose |
+| EMEA/H/C/005269 | Kaftrio | – | Cystisk fibrose |
 
-## Sikkerhetshensyn
+Alle tre godkjenningene er registrert som kansellert, og ingen gyldige godkjenninger er registrert i datagrunnlaget.
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
+## Sikkerhetsvurderinger
 
----
+- **Legemiddelinteraksjoner**: Spørringen er gjennomført. Det er kun registrert én farmakologisk oppføring, nemlig målproteinet CFTR (tezacaftor virker på dette). Dette er ikke en klinisk legemiddelinteraksjon, og ingen alvorlighetsgrad er angitt.
 
-## Konklusjon og neste trinn
+Se preparatomtalen (SPC) for øvrig sikkerhetsinformasjon, inkludert advarsler og kontraindikasjoner.
 
-**Beslutning: Avvent**
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Ingen kliniske forsøk eller litteraturbevis eksisterer for HIV-infeksjon (eller de to andre rangerte prediksjoner), og begrunnelsen for ombruk selv identifiserer ingen plausibel mekanistisk forbindelse til CFTR-biologi. Den høye TxGNN-poengstummen alene (L5, rent modellforutsigelse) er utilstrekkelig for å fremme denne kandidaten.
+Prediksjonen om HIV-infeksjon bygger kun på en modellscore, uten kliniske studier, litteratur eller en plausibel mekanistisk kobling. I tillegg er alle norske/europeiske godkjenninger i datagrunnlaget registrert som kansellert.
 
-**For å fortsette trengs følgende:**
-- TFDA/regulatorisk pakningsvedlegg advarsler og kontraindikasjoner (for øyeblikket blokkering datakløft, DG001)
-- Bekreftet opprinnelig virkningsmekanisme-data via DrugBank (for øyeblikket alvorlig datakløft, DG002)
-- Uavhengig litteratur eller preklinkisk bevis som etablerer en biologisk forbindelse mellom CFTR-modulering og HIV-patofysiologi
-- Bekrefting av Taiwan/Norges markeds- og lisensieringsstatus, for øyeblikket oppført som ikke markedsført med null godkjennelser
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank for å kunne analysere mulige mekanistiske koblinger
+- Advarsler og kontraindikasjoner fra preparatomtalen, slik at sikkerhetsscreening kan gjennomføres
+- Prekliniske data (f.eks. in vitro-studier av tezacaftor i HIV-modeller) som kan gi grunnlag for en mekanistisk hypotese
+- Avklaring av den nåværende markedsstatusen for tezacaftor-holdige preparater i Norge
+- Vurdering av administrasjonsvei og forenlighet med den nye indikasjonen
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -2,7 +2,7 @@
 layout: default
 title: Febuxostat
 parent: Moderat evidens (L3-L4)
-nav_order: 147
+nav_order: 171
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,82 +29,101 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Febuxostat: Fra hyperurikemi (gikt) til renal hypourikemi
+# Febuxostat: Fra gikt til renal hypourikemi
 
-## Sammendrag i en setning
+## Oppsummering i én setning
 
-Febuxostat er en ksantinoksidase-hemmer som er best kjent for behandling av kronisk hyperurikemi hos pasienter med gikt.
-TxGNN-modellen predikerer at det kan være relevant også for **renal hypourikemi** (en tilstand med *lav* serumurikat, ofte komplisert av treningsindusert akutt nyresvikt),
-med **1 klinisk forsøk** og **2 publikasjoner** tilgjengelige som støttende bevis — hvorav ingen direkte bekrefter effektivitet i denne nye indikasjonen.
-
----
-
-## Rask oversikt
-
-| Element | Innhold |
-|---------|---------|
-| Originalindikasjon | Ikke tilgjengelig i bevissamlingen (ingen norske lisensregistreringer); febuxostat er offentlig kjent som en ksantinoksidase-hemmer indikert for kronisk hyperurikemi ved gikt |
-| Predikert ny indikasjon | Renal hypourikemi (hypourikemi, renal) |
-| TxGNN prediksjonspoeng | 99.99% |
-| Bevissikkerhetsnivå | L4 |
-| Norsk markedsstatus | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+Febuxostat er en xantinoksidasehemmer som opprinnelig brukes til behandling av gikt og hyperurikemi.
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **renal hypourikemi**, men støtten er svært svak: kun **1 klinisk studie** (med uklar relevans) og **2 publikasjoner** (en oversiktsartikkel og en kasuistikk) peker i denne retningen. Mekanistisk er forslaget dessuten tvilsomt, siden legemidlet senker urinsyre ytterligere hos pasienter som allerede har lav urinsyre.
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hurtigoversikt
 
-For tiden er detaljerte virkningsmekanisme-data ikke tilgjengelige for denne kandidaten. Basert på generelt kjent farmakologi er febuxostat en **ikke-purin-selektiv ksantinoksidase-hemmer**, en stoffklasse hvis effektivitet i å redusere serum-urikatproduksjon er godt etablert i behandlingen av kronisk hyperurikemi og gikt.
-
-Den predikerte nye indikasjonen, renal hypourikemi (RHUC), er mekanistisk distinkt — den er en tilstand med *lav* urikat forårsaket av defekter i urikat-transportøren (URAT1), ikke høyt urikat. Forbindelsen er ikke urikatsenking per se, men snarere antioksidant/nyrebeskyttende effekt av ksantinoksidase-hemming: reduksjon av reaktive oksygenarter som produseres under purin-katabolisme kan bidra til å forhindre **treningsindusert akutt nyresvikt (EIAKI)**, en kjent komplikasjon hos RHUC-pasienter. Dette er en mekanisme-drevet repurposing-hypotese snarere enn en direkte utvidelse av febuxostats godkjente urikatsenking-effekt, og den støttes kun av en enkel publisert kasuistikk på dette tidspunktet.
-
-Fordi både originalindikasjon og virkningsmekanisme-felt er merket som datakløfter i denne bevissamlingen, bør denne begrunnelsen behandles som foreløpig inntil bekreftelse fra primære regulerings-/DrugBank-kilder foreligger.
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Gikt |
+| Predikert ny indikasjon | Renal hypourikemi (hypouricemia, renal) |
+| TxGNN-prediksjonsscore | 99,99 % |
+| Evidensnivå | L4 |
+| Markedsstatus i Norge | Kun tilbakekalte/avsluttede godkjenninger |
+| Antall godkjenninger | 3 (alle kansellert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Klinisk forsøksbevis
+## Hvorfor er denne prediksjonen rimelig (eller ikke)?
 
-| Forsøksnummer | Fase | Status | Rekruttering | Viktige funn |
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i dataene som er samlet inn for denne rapporten. Febuxostat er likevel kjent som en ikke-purin, selektiv hemmer av xantinoksidoreduktase, som senker serumurinsyre. Effekten ved gikt og hyperurikemi er godt etablert.
+
+Renal hypourikemi kjennetegnes av lav serumurinsyre på grunn av defekt reabsorpsjon av urat i nyrene (for eksempel tap av funksjon i URAT1/SLC22A12 eller GLUT9). Å senke urinsyren ytterligere er mekanistisk kontraintuitivt. Den eneste plausible koblingen er et tilfelle i litteraturen der febuxostat ble forsøkt for å forebygge treningsutløst akutt nyreskade (EIAKI) hos en ung pasient med renal hypourikemi. Mulige mekanismer er redusert urat-belastning i urinen og mindre oksidativt stress fra xantinoksidase. Dette er en hypotese, ikke påvist klinisk nytte.
+
+Den svært høye TxGNN-scoren gjenspeiler sannsynligvis nærhet i kunnskapsgrafen (felles noder i urinsyremetabolismen) snarere enn et reelt terapeutisk rasjonale.
+
+**Andre predikerte indikasjoner (kort omtale):**
+- **Partiell HPRT-mangel** (score 99,98 %): Febuxostat reduserer urinsyreproduksjonen og kan være et alternativ til allopurinol, men korrigerer ikke enzymdefekten. Økt xantinbelastning gir risiko for xantinnefropati eller steiner. Støtten består kun av kasuistikker. Evidensnivå L4.
+- **Lesch-Nyhans syndrom** (score 99,68 %): Febuxostat kan kontrollere hyperurikemi og urat-relaterte komplikasjoner, men påvirker ikke de nevrologiske og atferdsmessige symptomene. Støtten er begrenset til små pediatriske serier og en kasuistikk. Evidensnivå L4.
+
+---
+
+## Evidens fra kliniske studier
+
+| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT04398251](https://clinicaltrials.gov/study/NCT04398251) | Fase 4 | Ukjent | 100 | Prospektivt kontrollert forsøk på urinsyrekontroll, gjentakelse av steiner og nyrefunksjon hos pasienter med hyperurikemi-relaterte kalkuler (Shanghai Xu-hui Central Hospital, avdeling for urologi). Merk: dette forsøket gjelder *hyperurikemi*, ikke renal hypourikemi — relevansen for den predikerte indikasjonen er usikker og merket som 'avventer gjennomgang'. |
+| [NCT04398251](https://clinicaltrials.gov/study/NCT04398251) | Fase 4 | Ukjent | 100 | Prospektiv kontrollert studie av hvordan urinsyrekontroll påvirker tilbakefall av steiner og nyrefunksjon hos pasienter med hyperurikemi og nyrestein. Relevansen for renal hypourikemi er lav (vurdert som C), og studien kan ikke regnes som direkte evidens. |
 
 ---
 
-## Litteraturbevis
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Viktige funn |
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [36754409](https://pubmed.ncbi.nlm.nih.gov/36754409/) | 2023 | Kasuistikk | Internal Medicine (Tokyo) | 16 år gammel atlet med familiær renal hypourikemi (URAT1 sammensatt heterozygot mutasjon) og gjentakende treningsindusert AKI; febuxostat foreslått som profylakse via ksantinoksidoreduktase-hemming når væskeerstatning alene mislyktes. |
-| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Narrativ gjennomgang | Clinical Rheumatology | Narrativ oversikt over hypourikemi-etiologi og klinisk ledelse for revmatologer; generell bakgrunninformasjon, ikke febuxostat-spesifikk. |
+| [36754409](https://pubmed.ncbi.nlm.nih.gov/36754409/) | 2023 | Kasuistikk/oversikt | Internal Medicine | 16 år gammel japansk fotballspiller med familiær renal hypourikemi (URAT1-mutasjoner) og tilbakevendende treningsutløst nyreskade; febuxostat vurdert som profylakse når hydrering ikke var nok. |
+| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Oversiktsartikkel | Clinical Rheumatology | Narrativ oppdatering om hypourikemi (serumurat < 2 mg/dL), årsaker og hva revmatologer bør vite. |
 
 ---
 
-## Norsk markedsinformasjon
+## Markedsinformasjon for Norge
 
-Febuxostat innehar for tiden **ingen markedsføringsgodkjenning i Norge** (0 lisenser på registreringen); bevissamlingen oppgir markedsstatus som "ikke markedsført". Ingen godkjennings- eller produktdata er tilgjengelige for denne delen.
+Alle tre godkjenningene er kansellert, og det finnes ingen gyldige markedsføringstillatelser i dataene.
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/000777 | Adenuric | Ikke oppgitt | Gikt |
+| EMEA/H/C/004773 | Febuxostat Krka | Ikke oppgitt | Hyperurikemi, gikt |
+| EMEA/H/C/004374 | Febuxostat Viatris (tidligere Febuxostat Mylan) | Ikke oppgitt | Hyperurikemi, urinsyregikt, gikt |
 
 ---
 
-## Sikkerhetsoverveielser
+## Sikkerhetsvurderinger
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon. Viktige advarsler, motindikasjoner og data om legemiddel-legemiddel-interaksjoner er for tiden ikke tilgjengelige i denne bevissamlingen (flagget som en **blokkerende** datakløft — DG001), så denne kandidaten kan ikke ennå gå videre til sikkerhetspre-vurdering (S1).
+- **Kunnskapsgrafbaserte kontraindikasjoner** (fra TxGNN-kunnskapsgrafen, ikke fra preparatomtale): hjerneslag/cerebrovaskulær sykdom, cerebralt infarkt, hjerteinfarkt, koronar trombose og hemoglobinopati.
+- **Legemiddelinteraksjoner** (22 registrert totalt). Alvorlige (Major):
+  - Merkaptopurin
+  - Azatioprin
+  - Leflunomid
+  - Teriflunomid
+
+  Moderate interaksjoner omfatter blant annet teofyllin, dyfyllin, aminofyllin, oksytrifyllin, metotreksat, tioguanin, klofarabin, epirubicin, trabektedin, brentuksimab vedotin, naltrekson, asparaginase, pegaspargase og interferon beta-1a/-1b/peginterferon beta-1a.
+
+Se preparatomtalen for fullstendig informasjon om advarsler og kontraindikasjoner.
 
 ---
 
-## Konklusjon og neste trinn
+## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Den mekanistiske hypotesen er plausibel, men støttes kun av en enkel kasuistikk og ett klinisk forsøk av usikker relevans (ingen gjennomfør RCT spesifikt for renal hypourikemi). Kombinert med en **blokkerende sikkerhetsdatakløft** (ingen TFDA/norske merkelappadvarsler eller motindikasjoner tilgjengelige) og stoffets ikke-markedsførte status i Norge, støttes bevisene ikke tilstrekkelig for videre gjennomgang.
+Mekanismen er motstridende (ytterligere senking av en allerede lav urinsyre), og evidensen består av én studie med uklar relevans samt en oversikt og en kasuistikk. Den høye TxGNN-scoren er trolig et grafartefakt. Dessuten har febuxostat ingen gyldig godkjenning i Norge i dag.
 
-**For å komme videre er følgende nødvendig:**
-- TFDA/norsk pakningsvedlegg (advarsler, motindikasjoner) for å fjerne den blokkerende sikkerhetskløften (DG001)
-- Bekreftet virkningsmekanisme og originalgodkjent indikasjon fra DrugBank (DG002)
-- Tilleggskasuistikk eller et dedikert klinisk forsøk som evaluerer febuxostat spesifikt for EIAKI-profylakse hos pasienter med renal hypourikemi
-- Ny gjennomgang av NCT04398251-relevans, siden populasjonen (hyperurikemi/urolithiasis) ikke tydelig samsvarer med den predikerte indikasjonen (renal hypourikemi)
-
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Preparatomtale med advarsler og kontraindikasjoner (kritisk datamangel som blokkerer sikkerhetsscreening)
+- Verifisering av NCT04398251 (tilstand, intervensjon og relevans)
+- Kontrollerte data eller større kasuistiske serier som viser nytte og sikkerhet ved renal hypourikemi
+- Vurdering av kardiovaskulær risiko, gitt kontraindikasjonssignalene for hjerte- og hjernekarsykdom
+- Avklaring av regulatorisk status i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

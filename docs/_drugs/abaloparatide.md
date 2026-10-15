@@ -29,95 +29,90 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# ABALOPARATIDE: Evalueringsrapport for legemiddelombruk
+# Abaloparatid: Fra postmenopausal osteoporose til non-syndromisk esofagusmisdannelse
 
-## Oppsummering i en setning
+## Oppsummering i én setning
 
-Abaloparatide (DB05084) er et syntetisk analog av paratyreoidehormon-relatert protein (PTHrP), primært brukt til behandling av osteoporose etter overgangsalderen hos pasienter med høy bruddrisiko. TxGNN-modellen har for øyeblikket **ingen predikerte nye indikasjoner** for dette legemidlet, og bevispaket inneholder betydelige datahull som forhindrer en fullstendig evaluering.
-
----
-
-## Rask oversikt
-
-| Element | Innhold |
-|---------|---------|
-| Legemiddelnavn (INN) | ABALOPARATIDE |
-| DrugBank ID | DB05084 |
-| Originalindikasjon | Ikke registrert i bevispaket (kjent bruk: osteoporose etter overgangsalderen) |
-| Predikert ny indikasjon | — (Ingen TxGNN-prediksjon tilgjengelig) |
-| TxGNN prediksjonscore | — |
-| Bevisnivå | L5 (Ingen prediksjon, ingen støttende studier) |
-| Status på Taiwans marked | ✗ Ikke markedsført (Ikke markedsført) |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | **Venter** |
+Abaloparatid er en analog av parathyroideahormon-relatert protein (PTHrP) som opprinnelig brukes til behandling av postmenopausal osteoporose.
+TxGNN-modellen forutsier at legemidlet kan ha effekt ved **non-syndromisk esofagusmisdannelse**,
+men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** som støtter denne retningen, så prediksjonen bygger kun på modellen.
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hurtigoversikt
 
-For øyeblikket har TxGNN-modellen ikke generert noen ombruksprediksjoner for abaloparatide. Uten en predikert indikasjon kan mekanisme-basert plausibilitetsvurdering ikke utføres.
-
-Basert på offentlig tilgjengelig kunnskap er abaloparatide et syntetisk 34-aminosyre-analog av humant paratyreoidehormon-relatert protein (PTHrP(1-34)). Det aktiverer selektivt PTH1-reseptoren i sin RG-konformasjon, stimulerer osteoblast-mediering av benvekst samtidig som det har en relativt lavere effekt på benresorpsjon sammenlignet med teriparatide. Denne anabolske mekanismen øker benmineraltettheten og reduserer bruddrisikoen.
-
-> ⚠️ Bevispaket angir virkningsmekanismen (MOA) som et datahull. Beskrivelsen ovenfor er basert på etablert farmakologisk litteratur. Formelle MOA-data fra DrugBank bør innhentes for å støtte fremtidlige analyser.
-
----
-
-## Klinisk forsøksbevis
-
-For øyeblikket er ingen TxGNN-predikert indikasjon tilgjengelig; derfor ble det ikke utført noe målrettet søk i kliniske forsøk for ombrukskandidater.
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Postmenopausal osteoporose / osteoporose |
+| Predikert ny indikasjon | Non-syndromisk esofagusmisdannelse |
+| TxGNN-prediksjonsscore | 99,84 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun trukket tilbake (avregistrert) |
+| Antall godkjenninger | 1 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Litteraturbevis
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-For øyeblikket er ingen TxGNN-predikert indikasjon tilgjengelig; derfor ble det ikke utført noe målrettet litteratursøk for ombrukskandidater.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon er abaloparatid en PTHrP-analog som aktiverer PTH1-reseptoren (PTH1R) og stimulerer beindannelse. Effekten ved postmenopausal osteoporose er dokumentert, blant annet i fase 3-studien NCT01343004, der legemidlet reduserte risikoen for nye brudd sammenlignet med placebo.
 
----
+Det er ikke funnet noen plausibel farmakologisk sammenheng mellom PTH1R-agonisme og korrigering av medfødte misdannelser i spiserøret, som er utviklingsmessige defekter. Den høye TxGNN-scoren (0,998) er en ren modellprediksjon uten støtte i studier eller litteratur.
 
-## Taiwans markedsinformasjon
+Modellen peker også på tre andre sykdommer, alle uten evidens (evidensnivå L5, anbefaling Hold):
 
-Abaloparatide er **ikke markedsført på Taiwan**. Ingen TFDA-legemiddellisenser ble funnet.
-
-| Element | Detalj |
-|---------|--------|
-| Antall TFDA-lisenser | 0 |
-| Markedsstatus | Ikke markedsført (Ikke markedsført) |
-| Tilgjengelige dosisformer | Ingen |
+- **Esofagussykdom** (score 99,75 %): PTHrP uttrykkes i esofagusepitel og kan ha en rolle i epitelial differensiering, men dette er spekulativt. Benaktive legemidler (f.eks. orale bisfosfonater) er dessuten oftere forbundet med esofagusirritasjon enn nytte.
+- **Amenoré** (score 99,72 %): Sammenhengen er indirekte. Abaloparatid virker ikke på hypotalamus-hypofyse-ovarie-aksen og kunne i teorien bare påvirke benkomplikasjonen, ikke selve amenoréen. Legemidlet er ikke indisert til premenopausale kvinner.
+- **Esofagussår** (score 99,02 %): Ingen kjent rolle for den benanabole virkningen i slimhinnetilheling.
 
 ---
 
-## Sikkerhetshensyn
+## Klinisk evidens
 
-> Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
->
-> Alle sikkerhetsfelt (viktige advarsler, kontraindikasjoner og legemiddel-legemiddel-interaksjoner) ble returnert som datahull eller ikke funnet i det gjeldende bevispaket. Et TFDA-pakningsvedlegg eller en internasjonal referanse (f.eks. US FDA Tymlos-merking) bør konsulteres før eventuelle klinisk evaluering fortsetter.
+Foreløpig er det ingen registrerte kliniske studier knyttet til denne prediksjonen.
 
-**Kjente datahull:**
-- TFDA-pakningsvedlegg advarsler/kontraindikasjoner (Alvorlighetsgrad: **Blokkering** — forhindrer sikkerhetsvurdering i fase 1)
-- Legemiddel-legemiddel-interaksjonsprofil: søket ga ingen resultater
+---
+
+## Litteraturevidens
+
+Foreløpig finnes ingen relevant litteratur for denne prediksjonen.
+
+---
+
+## Markedsinformasjon for Norge
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005928 | Eladynos | – | Postmenopausal osteoporose / osteoporose |
+
+Merk: Godkjenningen har status avregistrert (cancelled), og det finnes ingen gyldige markedsføringstillatelser.
+
+---
+
+## Sikkerhetsvurderinger
+
+**Legemiddelinteraksjoner** (3 funnet):
+
+- **Kalsitriol (topisk)**: moderat interaksjonsnivå
+- **Kalsipotriol (topisk)**: moderat interaksjonsnivå
+- **PTH1-reseptor**: farmakologisk målprotein (ikke en egentlig interaksjon); ingen interaksjonsnivå angitt
+
+For advarsler og kontraindikasjoner, se preparatomtalen (pakningsvedlegget).
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Venter**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Det er ingen TxGNN-predikerte nye indikasjoner for abaloparatide på dette tidspunktet, og legemidlet er ikke markedsført på Taiwan. Flere kritiske datahull (MOA, sikkerhetsprofil) forhindrer ytterligere meningsfull evaluering. Kandidaten kan ikke fortsette til noen fase av legemiddelombruksvurdering i sin nåværende tilstand.
+Prediksjonen er kun modellbasert (L5) uten kliniske studier, litteratur eller plausibel mekanistisk forklaring. I tillegg er den eneste godkjenningen i Norge avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
 
-**For å fortsette er følgende nødvendig:**
-1. **Ny TxGNN-prediksjonskjøring** — Bekrefter om abaloparatide er inkludert i kunnskapsgrafen; hvis ikke, vurderer om dets legemiddel-sykdomsrelasjoner kan integreres
-2. **Virkningsmekanisme (MOA)** — Innhenter formelle MOA-data fra DrugBank API (datahull DG002, alvorlighetsgrad: Høy)
-3. **Sikkerhetsprofil** — Innhenter TFDA-pakningsvedlegg eller konsulterer internasjonal merking (datahull DG001, alvorlighetsgrad: Blokkering)
-4. **Vurdering av regulatorisk vei** — Siden abaloparatide har null Taiwan-lisenser, ville enhver ombruksarbeid kreve en fullstendig ny legemiddelapplikasjon eller spesiell importveivei i stedet for utvidelse av indikasjoner
-
----
-
-*Rapport generert: 2026-04-03 | Bevispaketversjon: v4 | Kandidat-ID: TW-DB05084-multi*
-
-*⚠️ Denne rapporten er kun til forskningsbruk og utgjør ikke medisinsk råd. Enhver legemiddelombrukskandidat krever klinisk validering før bruk.*
-
+**For å gå videre kreves følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel)
+- Detaljerte data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Prekliniske eller mekanistiske studier som kan underbygge en kobling mellom PTH1R-signalering og esofagusutvikling eller -tilheling
+- Avklaring av markedsstatus og tilgjengelige administrasjonsveier i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

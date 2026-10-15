@@ -2,7 +2,7 @@
 layout: default
 title: Efmoroctocog Alfa
 parent: Kun modellprediksjon (L5)
-nav_order: 122
+nav_order: 141
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,80 +29,93 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Efmoroctocog Alfa: Fra Hemofili A til Pseudo-von Willebrands sykdom
+# Efmoroctocog alfa: Fra hemofili A til pseudo-von Willebrands sykdom
 
-## Sammenfatning i én setning
+## Oppsummering i én setning
 
-> Efmoroctocog alfa er en rekombinant faktor VIII Fc-fusjon-ersatningsterapi, opprinnelig utviklet for faktor VIII-mangel (Hemofili A).
-> TxGNN-modellens høyest rangerte prediksjon er **Pseudo-von Willebrands sykdom**,
-> men denne kandidaten har for øyeblikket **0 kliniske studier** og **0 publikasjoner** som støtter det, og modellens egen mekanistiske annotasjon flagger det biologiske forholdet som svakt.
+Efmoroctocog alfa er et rekombinant FVIII-Fc-fusjonsprotein (Elocta) som opprinnelig ble brukt til behandling av **hemofili A**. TxGNN-modellen forutsier at det kan ha effekt ved **pseudo-von Willebrands sykdom**, men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen bygger kun på modellen (evidensnivå L5).
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|------|--------|
-| Originalindikasjon | Hemofili A (utledet fra FVIII-erstatningsmekanisme; ingen formell godkjent-indiksjonstekst tilgjengelig — produkt ikke markedsført) |
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Hemofili A |
 | Predikert ny indikasjon | Pseudo-von Willebrands sykdom |
-| TxGNN-prediksjonspoeng | 99.997% |
-| Bevisnivå | L5 (modellprediksjon kun, ingen kliniske studier eller litteratur) |
-| Norsk markedsstatus | Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvente |
+| TxGNN-prediksjonsscore | 99,997 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun tilbakekalte/avsluttede autorisasjoner (Cancelled only) |
+| Antall autorisasjoner | 1 |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne prediksjonen rimelig (eller ikke)?
 
-For øyeblikket er detaljerte data om virkningsmåte ikke tilgjengelige (datakløft). Basert på de mekanistiske annoteringene som er inkludert andre steder i denne bevissamlingen, er efmoroctocog alfa en faktor VIII Fc-fusjon-proteinersatningsterapi hvis etablerte effektivitet ligger i å korrigere **faktor VIII-mangel** (Hemofili A) ved direkte å erstatte den manglende koaguleringsfaktoren.
+Detaljerte data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige. Basert på kjent informasjon er efmoroctocog alfa et rekombinant FVIII som er koblet til en Fc-del for lengre halveringstid. Effekten ved hemofili A er godt dokumentert, fordi legemidlet erstatter manglende faktor VIII.
 
-Pseudo-von Willebrands sykdom er imidlertid ikke en faktor VIII-mangel — den er forårsaket av en **gain-of-function-mutasjon i blodplate-GPIb-reseptor**, som binder von Willebrand-faktor med unormalt høy affinitet og fjerner store VWF-multimerer. Bevispapirets egen begrunnelse for drug repurposing av denne kandidaten sier eksplisitt at det mekanistiske forholdet er svakt: *"FVIII 替代療法無法糾正血小板受體缺陷"* (FVIII-erstatning kan ikke korrigere blodplate-reseptordefekten). Med andre ord, sykdommen som driver TxGNNs høyeste poeng er en blodplate-reseptorsykdom, ikke en koagulasjonfaktorsykdom, så det er ingen klar farmakologisk begrunnelse for bruk av efmoroctocog alfa her.
+Pseudo-von Willebrands sykdom er en blodplatesykdom som skyldes en gain-of-function-mutasjon i GP1BA, noe som øker blodplatenes affinitet for VWF. FVIII-erstatning korrigerer ikke denne blodplatedefekten. Koblingen hviler derfor kun på TxGNN-grafprediksjonen og har ingen klar mekanistisk begrunnelse.
 
-Spesielt blant de 10 predikerte indikasjonene, er den med den **sterkeste mekanistiske sammenheng** med medikamentets kjente FVIII-erstatningsmekanisme rangert lavest av TxGNN-poeng: *«hemofili A med vaskulær abnormitet»* (rang 9, poeng 99.78%), som bevispapiret selv beskriver som fortsatt "本質上仍屬 Hemophilia A 範疇" (i hovedsak fortsatt innenfor Hemofili A-spekteret). Dette omvendte forholdet mellom TxGNN-poeng og mekanistisk plausibilitet over topp-10-listen er en viktig merknad: det antyder at modellen kan plukke opp nettverks-/embedding-likheter mellom blødningssykdommer bredt, snarere enn en spesifikk, handlingsdyktig farmakologisk mekanisme for blodplatefunksjons- eller blodplate-reseptorsykdommer. Alle ti kandidater forblir i S0-stadiet med en Avvente-anbefaling og null støttende studier eller litteratur.
+Heller ikke de øvrige topp-10-prediksjonene har klinisk støtte. De fleste gjelder blodplate- eller VWF-relaterte forstyrrelser der FVIII-erstatning ikke gir noen åpenbar farmakologisk effekt:
 
----
-
-## Bevis fra kliniske studier
-
-Ingen relaterte kliniske studier er for øyeblikket registrert
-
----
-
-## Litteraturbevis
-
-Ingen relatert litteratur er for øyeblikket tilgjengelig
-
----
-
-## Norsk markedsinformasjon
-
-Dette medikamentet er ikke for øyeblikket markedsført i Norge; ingen autorisasjonsposter er tilgjengelige (0 lisenser på fil).
+| Rang | Predikert sykdom | TxGNN-score | Vurdering |
+|---|---|---|---|
+| 1 | Pseudo-von Willebrands sykdom | 99,997 % | Ingen klar mekanistisk kobling |
+| 2 | Primær frisettingsforstyrrelse i blodplater | 99,997 % | Sannsynligvis felles «blødningsforstyrrelse»-naboer i grafen |
+| 3 | Glanzmanns trombasteni | 99,995 % | Aggregasjonsdefekt, FVIII løser den ikke |
+| 4 | Scotts syndrom | 99,969 % | Kun indirekte og spekulativ kobling |
+| 5 | Ervervet koagulasjonsfaktormangel | 99,952 % | Biologisk mest plausibel, men hemmende autoantistoffer kan nøytralisere FVIII |
+| 6 | Blødningsdiatese ved kollagenreseptordefekt | 99,921 % | Ingen mekanistisk basis |
+| 7 | Hemorragisk forstyrrelse ved konstitusjonell trombocytopeni | 99,917 % | Ingen klar farmakologisk begrunnelse |
+| 8 | Føtal og neonatal alloimmun trombocytopeni | 99,845 % | Immunmediert, FVIII virker ikke |
+| 9 | Hemofili A med vaskulær abnormitet | 99,779 % | Undergruppe av godkjent bruk, ikke reell repurposing |
+| 10 | Trombotisk trombocytopenisk purpura | 99,724 % | Kan være protrombotisk, sikkerhetsbekymring |
 
 ---
 
-## Sikkerhetshensyn
+## Klinisk studiedokumentasjon
 
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
-
-*(Merknad: Nøkkeladversler, kontraindikasjoner og legemiddelinteraksjonsdata er alle registrert som datakløfter i denne bevissamlingen — inkludert TFDA/etikett-advarseldata, som er flagget som en **blokkerende** datakløft som forhindrer inngang til S1-sikkerhetssikktingsstadiet.)*
+Det er for tiden ingen relaterte kliniske studier registrert.
 
 ---
 
-## Konklusjon og neste trinn
+## Litteraturdokumentasjon
 
-**Beslutning: Avvente**
+Det er for tiden ingen relatert litteratur tilgjengelig.
+
+---
+
+## Informasjon om det norske markedet
+
+| Autorisasjonsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/003964 | Elocta | – | Hemofili A |
+
+Autorisasjonen har status som avsluttet/tilbakekalt, og det finnes ingen gyldige autorisasjoner for øyeblikket.
+
+---
+
+## Sikkerhetsvurderinger
+
+Se pakningsvedlegget for sikkerhetsinformasjon.
+
+Det finnes ingen registrerte legemiddelinteraksjoner i de innsamlede dataene. Det er likevel verdt å merke seg at for trombotisk trombocytopenisk purpura (TTP) kan FVIII-tilførsel teoretisk være protrombotisk.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Toppkandidaten (Pseudo-von Willebrands sykdom) har et L5-bevisnivå — en modellprediksjon uten støttende kliniske studier eller litteratur — og dens egen mekanistiske begrunnelse indikerer en svak biologisk forbindelse til FVIII-ersatningsterapi. Ingen av de 10 predikerte indikasjonene i denne bevissamlingen har noen klinisk eller litteraturstøtte, og en blokkerende datakløft (manglende TFDA-etikett/advarsler) forhindrer for øyeblikket at denne kandidaten fortsetter til sikkerhetssikting (S1) i det hele tatt.
+Prediksjonene støttes kun av TxGNN-modellen (L5), uten kliniske studier eller litteratur, og de fleste mangler en plausibel mekanistisk kobling til FVIII-erstatning. I tillegg har produktet kun avsluttede autorisasjoner i Norge.
 
-**For å fortsette, er følgende nødvendig:**
-- Løs DG001 (Blokkering): hent og tolket TFDA-etikett-advarsler/kontraindikasjoner før noen S1-sikkerhetsevaluering
-- Løs DG002 (Høy): bekreft efmoroctocog alfas formelle virkningsmåte via DrugBank API for å validere det mekanistiske resonnementet ovenfor
-- Hvis du forfølger blodplate-lidelsesindikasioner (ranger 1–8, 10): hent prekliniske eller case-series bevis, siden de angivne mekanismene (blodplate-reseptor/granula/membrandefekter) ikke korrigeres av FVIII-erstatning — nåværende mekanistisk plausibilitet er lav
-- Hvis du forfølger den mekanistisk sterkeste kandidaten (rang 9, hemofili A med vaskulær abnormitet): søk bevis fra kliniske studier eller case-series, siden den for øyeblikket mangler litteratur-/studiestøtte til tross for best mekanistisk samsvar
-- Bekreft originalt godkjent indiksjonstekst og Taiwan/Norsk regulatorisk status når produktet kommer inn på et marked med lisenseringsdata
-
+**For å gå videre kreves følgende:**
+- Detaljerte data om virkningsmekanisme (MOA)
+- Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- Systematisk litteratur- og studiesøk for «ervervet koagulasjonsfaktormangel», som er den biologisk mest plausible kandidaten
+- Avklaring av tilgjengelighet, siden markedsstatus er «Cancelled only»
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

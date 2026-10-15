@@ -2,7 +2,7 @@
 layout: default
 title: Metformin
 parent: Kun modellprediksjon (L5)
-nav_order: 226
+nav_order: 265
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,83 +29,111 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Metformin: Fra Udokumentert Originalindikasjon til Fokalt Stivt Lemmesynrom
+# Metformin: Fra type 2-diabetes til fokalt stivt lem-syndrom
 
-## Sammendrag i Én Setning
+## Oppsummering i én setning
 
-> Originalindikasjon for metformin er ikke dokumentert i den nåværende evidenspakken (datahull flagget som Blocking/høy alvorlighetsgrad).
-> TxGNN-modellen predikerer at det kan være effektivt for **Fokalt Stivt Lemmesynrom**, en sjelden GAD65-antistoff-mediiert autoimmun nevrologisk lidelse,
-> men denne prediksjonen støttes for øyeblikket av **0 kliniske prøver** og **0 publikasjoner** — det er et rent modellstyrt signal (L5), og legemidlets egen repurposing-begrunnelse flagger den mekanistiske forbindelsen som sannsynligvis indirekte snarere enn årsakssammenhengsmessig.
+Metformin er et legemiddel som opprinnelig brukes til behandling av type 2-diabetes. TxGNN-modellen forutsier at det kan ha effekt på **fokalt stivt lem-syndrom** (focal stiff limb syndrome). Det finnes foreløpig **ingen kliniske studier og ingen publikasjoner** som støtter denne retningen, så prediksjonen er rent modellbasert.
 
 ---
 
-## Rask Oversikt
+## Hurtigoversikt
 
-| Element | Innhold |
-|---------|---------|
-| Originalindikasjon | Ikke dokumentert i evidenspakken (datahull) |
-| Predikert Ny Indikasjon | Fokalt Stivt Lemmesynrom |
-| TxGNN Prediksjonspoeng | 99.45% |
-| Bevisnivå | L5 (kun modellprediksjon, ingen klinisk eller litteraturstøtte) |
-| Norges Markedsstatus | Ikke markedsført |
-| Antall Autorisasjoner | 0 |
-| Anbefalt Beslutning | I bero |
-
----
-
-## Hvorfor Er Denne Prediksjonen Fornuftig?
-
-For øyeblikket er detaljerte virkningsmekanisme-data ikke tilgjengelige for metformin i denne evidenspakken (flagget som et høy-alvorlighetsgrad datahull). Metformins kjente farmakologi — AMPK-aktivering, undertrykking av hepatisk glukoneogenese, og forbedret insulinfølsomhet — er veletablert innen metabolisk sykdomsbehandling, men det finnes ingen verifisert MOA-post i dette datasettet til å formelt knytte det til den predikerte indikasjon.
-
-Det er bemerkelsesverdig at evidenspakkens egen mekanistiske begrunnelse for denne prediksjonen er advarende snarere enn støttende: Fokalt Stivt Lemmesynrom er drevet av GAD65-antistoff-mediiert tap av GABAergisk inhibitorisk signalering i ryggmargen/hjernestammen — en vei uten etablert forbindelse til metformins kjente metabolske mekanismer. Den høye TxGNN-poengsummen gjenspeiler sannsynligvis en indirekte kunnskapsgraf-assosiasjon (f.eks. metabolsk komorbiditet eller legemiddel-bivirkning-kanter i grafen) snarere enn et ekte mekanisme-drevet signal.
-
-Gitt det fullstendige fraværet av kliniske prøver, litteratur, eller en plausibel mekanistisk bro, bør denne prediksjonen behandles som en lav-tillit, utforskende hypotese snarere enn en repurposing-kandidat klar for evaluering.
+| Punkt | Innhold |
+|------|------|
+| Opprinnelig indikasjon | Diabetes mellitus, type 2 |
+| Predikert ny indikasjon | Fokalt stivt lem-syndrom |
+| TxGNN-prediksjonsscore | 99,45 % |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Kun avregistrerte (alle godkjenninger er trukket tilbake) |
+| Antall godkjenninger | 19 (0 gyldige, 19 avregistrerte) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Evidens fra Kliniske Prøver
+## Hvorfor er denne prediksjonen rimelig?
 
-For øyeblikket ingen relaterte kliniske prøver registrert
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Metformin er kjent som et legemiddel mot type 2-diabetes, og er i dette datagrunnlaget registrert både som enkeltstoff og som del av kombinasjonspreparater (for eksempel med DPP-4-hemmere og SGLT2-hemmere). Det finnes imidlertid ingen dokumentert mekanisme som knytter metformin til fokalt stivt lem-syndrom.
 
----
-
-## Litteraturbevis
-
-For øyeblikket ingen relatert litteratur tilgjengelig
+Fokalt stivt lem-syndrom er en autoimmun eller nevrologisk stivhetstilstand i det stive menneske-spekteret. Ingen etablert signalvei forbinder metformins kjente effekter (som AMPK-aktivering og hemming av glukoneogenese i lever) med denne sykdommen. Den høye scoren er trolig et resultat av nærhet mellom sykdommer i modellens kunnskapsgraf, ikke av en terapeutisk mekanisme. Samme score (99,45 %) ble gitt for klassisk stiv person-syndrom, noe som tyder på et felles signal i kunnskapsgrafen. Enhver begrunnelse er derfor spekulativ.
 
 ---
 
-## Norges Markedsinformasjon
+## Evidens fra kliniske studier
 
-Metformin har for øyeblikket ingen markedsføringstillatelse registrert i Norge (0 lisenser på fil); ingen produkt-/dosisform-data er tilgjengelig i denne evidenspakken.
-
----
-
-## Sikkerhetshensyn
-
-Vennligst se pakningsvedlegget for sikkerhetsinformasjon.
-
-*(Merk: TFDA-ekvivalente advarsler/kontraindikasjoner og legemiddel-interaksjonsdata er flagget som et Blocking-datahull — dette hindrer noen Fase 1-sikkerhetsevaluering for denne kandidaten.)*
+Foreløpig er det ingen relaterte kliniske studier registrert.
 
 ---
 
-## Konklusjon og Neste Trinn
+## Litteraturevidens
 
-**Beslutning: I bero**
+Foreløpig finnes det ingen relatert litteratur.
+
+---
+
+## Markedsinformasjon for Norge
+
+Alle 19 godkjenninger er avregistrert, og ingen er gyldige i dag. Nedenfor vises fem av dem.
+
+| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005738 | Vildagliptin / Metformin hydrochloride Accord | – | Diabetes mellitus, type 2 |
+| EMEA/H/C/002654 | Vipdomet | – | Diabetes mellitus, type 2 |
+| EMEA/H/C/001049 | Zomarist | – | Diabetes mellitus, type 2 |
+| EMEA/H/C/004162 | Ebymect | – | Diabetes mellitus, type 2 |
+| EMEA/H/C/002672 | Xigduo | – | Diabetes mellitus, type 2 |
+
+---
+
+## Sikkerhetsvurderinger
+
+**Kontraindikasjoner (fra kunnskapsgraf):** Disse er hentet fra relasjoner mellom legemiddel og sykdom i TxGNN-kunnskapsgrafen, ikke fra preparatomtalen. Blant dem er:
+- Lever- og nyresvikt, lever- og nyresykdom
+- Bukspyttkjertelbetennelse (pankreatitt)
+- Gallblæresykdom
+- Hjertesvikt (kongestiv)
+- Binyrebarksvikt
+- Hypofysesvikt og beslektede hypofysehormonmangler (inkl. Sheehans syndrom)
+- Hypogonadotrop hypogonadisme (inkl. Kallmanns syndrom)
+- Sykdom i thymus
+
+**Legemiddelinteraksjoner:** Totalt 100 interaksjoner er registrert. Eksempler på de viktigste:
+- **Alvorlige (Major):** acetazolamid, etanol (alkohol)
+- **Moderate:** blant annet dolutegravir, abemaciklib, fenylefrin, ranitidin, formoterol, pseudoefedrin, ketorolak, nifedipin, adrenalin, ibuprofen, etinyløstradiol, hydrokortison, salbutamol, hydroklortiazid, acetoheksamid
+- **Mindre (Minor):** akarbose, topisk hydrokortison, topisk alklometason
+
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
+
+---
+
+## Andre predikerte indikasjoner (til orientering)
+
+Alle har evidensnivå L5, ingen studier eller litteratur, og anbefalingen Hold:
+
+| Rang | Sykdom | Score |
+|------|------|------|
+| 2 | Klassisk stiv person-syndrom | 99,45 % |
+| 3 | Opsismodysplasi | 99,40 % |
+| 4 | Tiaminresponsivt dysfunksjonssyndrom | 99,40 % |
+| 5 | Legemiddelindusert lokalisert lipodystrofi | 99,06 % |
+
+Blant disse har legemiddelindusert lokalisert lipodystrofi den mest plausible biologiske begrunnelsen (bedret insulinfølsomhet, metformin er studert ved andre lipodystrofier), men uten data for denne konkrete tilstanden. Ved tiaminresponsivt dysfunksjonssyndrom kan metformins samspill med transportproteiner også utgjøre en sikkerhetsbekymring.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen støttes kun av en TxGNN-modellpoeng (L5, ingen kliniske prøver eller litteratur), og den medfølgende mekanistiske begrunnelsen noterer eksplisitt at den biologiske forbindelsen til GABAergisk autoimmun patologi er indirekte og ikke mekanisme-drevet. Kombinert med legemidlets «ikke markedsført»-status i Norge og manglende sikkerhetdata, finnes det for øyeblikket ingen grunnlag for å fremme denne kandidaten utover utforskende overvåking.
+Prediksjonen bygger kun på en modellscore (evidensnivå L5) uten kliniske studier, litteratur eller en støttet mekanistisk kobling. Alle norske godkjenninger er dessuten avregistrert.
 
-**For å gå videre, er følgende nødvendig:**
-- TFDA-ekvivalente pakningsvedleggs-data (advarsler, kontraindikasjoner) — for øyeblikket et Blocking-hull
-- Verifisert metformin-virkningsmekanisme (MOA)-post fra DrugBank eller tilsvarende kilde
-- Bekreftelse av metformins faktiske originalindikasjon(er), for øyeblikket udokumentert i denne evidenspakken
-- Eventuell preklinisk eller kasus-nivå-evidens som kobler AMPK/metabolske veier til GABAergisk/autoimmun nevrologisk sykdom, for å rettferdiggjøre overgang fra L5 til L4
-
----
-
-**Merknad om relaterte kandidater:** Denne evidenspakken (`TW-DB00331-multi`) inneholder 4 ytterligere predikerte indikasjoner for metformin med lignende høye TxGNN-poeng (klassisk stivt person-syndrom, opsismodysplasia, tiamin-responsiv dysfunksjonssyndrom, og legemiddel-indusert lokalisert lipodystrofi) — alle vurdert som L5/I bero uten klinisk eller litteraturstøtte. En kandidat (tiamin-responsiv dysfunksjonssyndrom) har en flagget **sikkerhetsbekymring** snarere enn terapeutisk mulighet, siden metformins kjente mitokondriell Complex I-hemming kan være mekanistisk kontraproduktiv i denne tilstanden. Ingen av disse fem kandidatene oppfyller for øyeblikket terskelen for videre evaluering.
-
+**For å gå videre trengs følgende:**
+- Data om virkningsmekanisme (MOA), for eksempel fra DrugBank
+- Preparatomtale med advarsler og kontraindikasjoner fra legemiddelmyndighetene (blokkerende for sikkerhetsscreening)
+- Litteratursøk og søk etter pågående studier for fokalt stivt lem-syndrom
+- Prekliniske eller mekanistiske data som kan underbygge en kobling til tilstanden
+- Vurdering av administrasjonsvei og legemiddelform
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

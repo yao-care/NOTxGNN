@@ -2,7 +2,7 @@
 layout: default
 title: Pibrentasvir
 parent: Kun modellprediksjon (L5)
-nav_order: 278
+nav_order: 326
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,105 +29,95 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Pibrentasvir: Fra hepatitt C-virusinfeksjon til hepatitt B-virusinfeksjon
+# Pibrentasvir: Fra kronisk hepatitt C til hepatitt B-virusinfeksjon
 
-## Oppsummering i en setning
+## Oppsummering i én setning
 
-> Pibrentasvir er en NS5A-hemmer som markedsføres kun som del av fastdosiskombinasjon glecaprevir/pibrentasvir, brukt til å behandle kronisk hepatitt C-virusinfeksjon (HCV).
-> TxGNN-modellen forutsier at det også kan være effektivt for **hepatitt B-virusinfeksjon**, med et svært høyt likhetsresultat (**99,84%**),
-> men ved nærmere gjennomgang **tester ingen av de 14 støttende kliniske forsøkene eller 20 litteraturreferansene faktisk pibrentasvir mot HBV** – alle er HCV-studier. Denne prediksjonen bør behandles som et sannsynlig kunnskapsgrafartefakt i stedet for et genuint omformål-signal.
+Pibrentasvir er en NS5A-hemmer som brukes mot kronisk hepatitt C, i praksis som del av kombinasjonen glekaprevir/pibrentasvir (Maviret).
+TxGNN-modellen predikerer at legemidlet kan være virksomt mot **hepatitt B-virusinfeksjon**, men dataene som er sammenstilt for denne rapporten viser **ingen kliniske studier** og **ingen litteratur som viser anti-HBV-effekt**. Prediksjonen er foreløpig kun modellbasert.
 
 ---
 
-## Rask oversikt
+## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Kronisk hepatitt C-virusinfeksjon, genotype 1–6 (som komponent av glecaprevir/pibrentasvir-kombinasjon) |
-| Forutsagt ny indikasjon | Hepatitt B-virusinfeksjon |
-| TxGNN prediksjonsresultat | 99,84% |
-| Bevisnivå | L5 (modellpreduksjon kun – ingen studie evaluerer direkte pibrentasvir ved HBV) |
-| Markedsstatus Norge | ✗ Ikke markedsført |
-| Antall autorisasjoner | 0 |
-| Anbefalt beslutning | Avvent |
+| Opprinnelig indikasjon | Kronisk hepatitt C |
+| Predikert ny indikasjon | Hepatitt B-virusinfeksjon |
+| TxGNN-prediksjonsscore | 99,84 % |
+| Evidensnivå | L4 (ifølge dataene; i praksis ingen HBV-spesifikk evidens, nærmere L5) |
+| Status på det norske markedet | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Antall tillatelser | 1 (avregistrert) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-For tiden er detaljerte mekanisme-for-virkning-data for pibrentasvir ikke tilgjengelige fra den strukturerte DrugBank-posten (Datakløft). Basert på kjent informasjon er pibrentasvir NS5A-hemmerkomponenten av fastdosiskombinasjon glecaprevir/pibrentasvir (Maviret/Mavyret), og effektiviteten er etablert spesifikt for kronisk HCV-infeksjon gjennom de store ENDURANCE-, EXPEDITION-, SURVEYOR- og CERTAIN-programmene i fase 2/3.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige for dette legemidlet. Basert på kjent informasjon er pibrentasvir en hemmer av HCV NS5A-proteinet, og effekten er godt dokumentert ved hepatitt C.
 
-Mekanistisk er pibrentasvir svært selektivt for HCV NS5A-proteinet, som er essensielt for samling av HCV-replikasjonskompleks og viruspartikkelpakning. HBV er et hepadnavirus som replikeres via omvendt transkripsjonen av pregenomisk RNA ved hjelp av sitt eget polymerase og koder ikke for en NS5A-homolog – det er ingen kjent molekylært mål delt mellom de to virusene. I samsvar med dette er hver klinisk forsøk og nesten hver publikasjon hentet under denne «forutsagte indikasjonen» faktisk en HCV-forsøk (i noen tilfeller hos pasienter med eller screenet for HBV/HIV-koinfeksjon som sikkerhetshensyn), ikke en forsøk som evaluerer antivirale aktivitet mot HBV selv.
+Hepatitt B og hepatitt C er begge virusinfeksjoner i leveren, og det er sannsynligvis dette fellestrekket i kunnskapsgrafen som gir den høye scoren. Mekanistisk er koblingen svak: HBV har ikke noe NS5A-protein og har en annen replikasjonsstrategi (cccDNA og revers transkriptase). Det finnes derfor ingen etablert direkte mekanistisk forbindelse.
 
-Dette mønsteret er ikke isolert til HBV: samme bevispaket viser like høye TxGNN-resultater for HIV, hepatitt A, hepatitt E, dyreviralt hepatitt, Omsk hemorhagisk feber, Kyasanur-skogssykdom, simian/felin immunsviktsvirusinfeksjon, og til og med en ikke-relatert sjelden nevronevolutiv lidelse – ingen støttet av mekanistisk plausible eller sykdomsspesifikke bevis. Dette tyder på at modellen grupperer pibrentasvir med en bred «viralt hepatitt/koinfeksjon»-nodeomegn i kunnskapsgrafen i stedet for å identifisere et genuint farmakologisk forhold til HBV.
-
----
-
-## Bevis fra kliniske forsøk
-
-Alle forsøkene nedenfor ble hentet som «toppebevis» for HBV-prediksjonen, men iht. bevispapkets egen relevansvurdering (grad C), er hvert enkelt faktisk en HCV-forsøk for glecaprevir/pibrentasvir – ingen rekrutterte eller evaluerte HBV-infiserte pasienter for antivirale effekt.
-
-| Forsøksnummer | Fase | Status | Rekruttering | Hovedresultater |
-|---------|------|------|------|---------|
-| [NCT01995071](https://clinicaltrials.gov/study/NCT01995071) | Fase 2 | Avsluttet | 89 | Dosisprogresjon sikkerhet/antivirale aktivitet av ABT-493+ABT-530 (glecaprevir/pibrentasvir) ved **HCV** genotype 1 – ikke en HBV-forsøk |
-| [NCT02640157](https://clinicaltrials.gov/study/NCT02640157) | Fase 3 | Avsluttet | 506 | ENDURANCE-3: G/P vs sofosbuvir+daklatasvir ved **HCV** genotype 3 – ikke en HBV-forsøk |
-| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Fase 4 | Avsluttet | 87 | Kardiovaskulære utfall etter **HCV**-helbredelse hos HIV-koinfiserte pasienter – ikke en HBV-forsøk |
-| [NCT02707952](https://clinicaltrials.gov/study/NCT02707952) | Fase 3 | Avsluttet | 295 | CERTAIN-1: G/P-effektivitet/sikkerhet hos japanske **HCV**-pasienter – ikke en HBV-forsøk |
-| [NCT03092375](https://clinicaltrials.gov/study/NCT03092375) | Fase 3 | Avsluttet | 177 | G/P ± ribavirin ved NS5A-inhibitor-erfarne **HCV** GT1-pasienter – ikke en HBV-forsøk |
-| [NCT03219216](https://clinicaltrials.gov/study/NCT03219216) | Fase 3 | Avsluttet | 100 | G/P hos behandlingsnyttige brasilianske **HCV** GT1–6-pasienter – ikke en HBV-forsøk |
-| [NCT02441283](https://clinicaltrials.gov/study/NCT02441283) | Fase 2/3 | Avsluttet | 384 | Langsiktig holdbarhet/resistensoppfølging av glecaprevir/pibrentasvir ved **HCV** – ikke en HBV-forsøk |
-| [NCT02446717](https://clinicaltrials.gov/study/NCT02446717) | Fase 2/3 | Avsluttet | 141 | G/P ± ribavirin hos **HCV**-pasienter som mislyktes tidligere DAA-terapi – ikke en HBV-forsøk |
-| [NCT02243280](https://clinicaltrials.gov/study/NCT02243280) | Fase 2 | Avsluttet | 174 | SURVEYOR-I: G/P PK/effektivitet ved **HCV** GT1,4,5,6 – ikke en HBV-forsøk |
-| [NCT02640482](https://clinicaltrials.gov/study/NCT02640482) | Fase 3 | Avsluttet | 304 | ENDURANCE-2: placebokontrollert G/P-forsøk ved **HCV** GT2 – ikke en HBV-forsøk |
-
-**Ingen forsøk i dette bevisettet rekrutterte pasienter med det formål å behandle eller evaluere HBV-infeksjon.**
+Relevansen er i praksis begrenset til håndtering av HBV/HCV-koinfeksjon, der HCV behandles og HBV-reaktivering må overvåkes. Den øvrige litteraturen gjelder utelukkende HCV.
 
 ---
 
-## Litteraturbevis
+## Dokumentasjon fra kliniske studier
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+Foreløpig finnes ingen registrerte kliniske studier for hepatitt B-virusinfeksjon.
+
+*Til orientering: Den nest høyest rangerte prediksjonen (HIV) har flere Phase 3-studier, men de gjelder behandling av HCV hos personer med HIV-koinfeksjon, ikke behandling av HIV. Eksempler: [NCT02738138](https://clinicaltrials.gov/study/NCT02738138) (EXPEDITION-2, fase 3, fullført, n=153) og [NCT03222583](https://clinicaltrials.gov/study/NCT03222583) (fase 3, fullført, n=546).*
+
+---
+
+## Litteraturdokumentasjon
+
+| PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [29485084](https://pubmed.ncbi.nlm.nih.gov/29485084/) | 2018 | Oversikt | Lancet Infect Dis | Diskuterer behov for HBV-vaksinasjon *etter* vellykket HCV-behandling – et koinfeksjons-/prevensjonsmotiv, ikke bevis på pibrentasvir-aktivitet mot HBV |
-| [34092970](https://pubmed.ncbi.nlm.nih.gov/34092970/) | 2021 | Oversikt | World J Gastroenterol | Oversikt over pediatrisk HBV/HCV-behandling; bemerker at nåværende HBV-terapi ikke er kurativ – kun bakgrunnsinformasjon |
-| [41734217](https://pubmed.ncbi.nlm.nih.gov/41734217/) | 2025 | Retrospektiv | Klin Mikrobiol Infekc Lek | Retrospektiv gjennomgang av antiviralbehandlingsfrekvens/effektivitet for kronisk HBV og HCV hos barn – tester ikke pibrentasvir ved HBV |
-| [40414600](https://pubmed.ncbi.nlm.nih.gov/40414600/) | 2025 | Tverrseksjonell | Annals of Hepatology | Sammenlikner HBV vs HCV-medikament**prising** på tvers av land – økonomisk analyse, ingen effektivitetsdata |
-| [31981264](https://pubmed.ncbi.nlm.nih.gov/31981264/) | 2020 | Kohorte | J Viral Hepatitis | Virkelig GLE/PIB-effektivitet/sikkerhet ved **HCV** hos pasienter med alvorlig nyresvikt (Taiwan) – kun HCV |
-| [35431505](https://pubmed.ncbi.nlm.nih.gov/35431505/) | 2022 | Kohorte | World J Gastroenterol | Virkelig DAA-effektivitet ved HIV/**HCV** genotype 6-koinfeksjon – kun HCV |
-| [30982721](https://pubmed.ncbi.nlm.nih.gov/30982721/) | 2019 | Oversikt | Lancet Gastroenterol Hepatol | HCV-behandling hos barn/ungdom innenfor global strategi for viralhepatittelimineringer – HCV-fokusert |
-| [35579223](https://pubmed.ncbi.nlm.nih.gov/35579223/) | 2022 | Oversikt | Eur J Gen Pract | Generell oversikt over kronisk HCV-diagnose og -behandling – kun HCV |
-| [34298832](https://pubmed.ncbi.nlm.nih.gov/34298832/) | 2021 | Oversikt | Cancers | Risiko for hepatocellulært karsinom ved kronisk nyresykdom – ikke spesifikt for pibrentasvir eller HBV |
-| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | Oversikt | Clin Pharmacokinetics | PK/PD-oversikt over HCV DAA-regimer inkludert glecaprevir/pibrentasvir – kun HCV |
+| [31981264](https://pubmed.ncbi.nlm.nih.gov/31981264/) | 2020 | Kohort | J Viral Hepat | Glekaprevir/pibrentasvir ved HCV og alvorlig nyresvikt (CKD 4–5) hos 108 pasienter i Taiwan |
+| [30982721](https://pubmed.ncbi.nlm.nih.gov/30982721/) | 2019 | Oversikt | Lancet Gastroenterol Hepatol | HCV-infeksjon hos barn og ungdom; direktevirkende antivirale midler har endret behandlingen |
+| [31041789](https://pubmed.ncbi.nlm.nih.gov/31041789/) | 2019 | Oversikt | Semin Liver Dis | Ny behandling av HCV-pasienter med DAA-svikt |
+| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | Oversikt | Clin Pharmacokinet | Farmakokinetiske og farmakodynamiske vurderinger ved HCV-behandling |
+| [34092970](https://pubmed.ncbi.nlm.nih.gov/34092970/) | 2021 | Oversikt | World J Gastroenterol | Behandling av virushepatitt B og C hos barn |
+| [42127258](https://pubmed.ncbi.nlm.nih.gov/42127258/) | 2026 | Oversikt | Top Antivir Med | Konferanserapport fra CROI 2026 om virushepatitt; ingen data om pibrentasvir ved HBV |
+| [35579223](https://pubmed.ncbi.nlm.nih.gov/35579223/) | 2022 | Oversikt | Eur J Gen Pract | Diagnostikk og behandling av kronisk HCV |
+| [29369303](https://pubmed.ncbi.nlm.nih.gov/29369303/) | 2018 | Oversikt | AIDS Rev | Rapport fra den internasjonale konferansen om virushepatitt 2017 |
 
-**Ingen publikasjon i denne samlingen rapporterer direkte antivirale effektivitets- eller kliniske utfallsdata for pibrentasvir mot HBV.**
+Ingen av publikasjonene viser at pibrentasvir har effekt mot HBV.
 
 ---
 
-## Markedsinformasjon for Norge
+## Informasjon om det norske markedet
 
-Pibrentasvir har for tiden **ingen markedsføringstillatelse i Norge** (0 lisenser på fil; markedsstatus: Ikke markedsført). Ingen produkt-/autorisasjonsopplysninger er tilgjengelige for oppsummering.
-
----
-
-## Sikkerhetshensyn
-
-Vær vennlig se pakningsvedlegget for sikkerhetsinformasjon. (Viktige advarsler, kontraindikasjoner og interaksjondata for legemidler er ikke ennå tilgjengelige i dette bevisettet – henting av TFDA/produsentens etikett er flagget som en **Blokkering** datakløft.)
+| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/004430 | Maviret | Ikke oppgitt | Kronisk hepatitt C (status: avregistrert) |
 
 ---
 
-## Konklusjon og neste trinn
+## Sikkerhetsvurderinger
 
-**Beslutning: Avvent**
+Se preparatomtalen for sikkerhetsinformasjon. Det er ikke funnet registrerte legemiddelinteraksjoner i dataene som er sammenstilt for denne rapporten.
+
+---
+
+## Konklusjon og neste steg
+
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Til tross for et høyt TxGNN-likhetsresultat, er hver klinisk forsøk og nesten hver publikasjon som støtter denne «HBV»-prediksjonen faktisk bevis for pibrentasvirens etablerte HCV-indikasjon – ingen tester HBV-spesifikk antiviralaktivitet. Pibrentasvirmekanismen (selektiv HCV NS5A-hemming) har ingen kjent motpart-mål i HBV, og det samme urimelige mønsteret (HIV, hepatitt A/E, veterinær lentivirusinfeksjoner, til og med en ikke-relatert nevronevolutiv lidelse) vises på tvers av hele topp-10-prediksjonstabellen for dette stoffet, noe som indikerer et sannsynlig kunnskapsgrafartefakt i stedet for et genuint omformål-signal. Kombinert med at stoffet er umarkedsført i Norge og en Blokkering-mangel på kjerneinformasjon fra sikkerhetsetikett, er det ikke grunnlag for å fremme denne kandidaten på dette tidspunktet.
+Den høye TxGNN-scoren (99,84 %) mangler støtte i kliniske data, litteratur og en plausibel mekanisme. HBV har ingen NS5A-analog, og all tilgjengelig dokumentasjon gjelder HCV. Legemidlet har dessuten ingen gyldig markedsføringstillatelse i Norge.
 
-**For å gå videre er følgende nødvendig:**
-- Genuint in vitro/in vivo-bevis for pibrentasvir antiviralaktivitet mot HBV (eksisterer for tiden ikke)
-- TFDA/produsentens pakningsvedlegg for advarsler og kontraindikasjoner (Blokkering datakløft)
-- Verifisert mekanisme-for-virkning-dokumentasjon fra DrugBank (Høyalvorlighets datakløft)
-- En sanitetskontroll på TxGNN-sykdomsinnstilling-omegnen for dette stoffet, gitt mønsteret av urimelig høy-scorende prediksjoner på tvers av hele kandidatlisten
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
+- In vitro-data som viser eventuell antiviral aktivitet mot HBV
+- Kliniske data for HBV/HCV-koinfeksjon, med overvåking av HBV-reaktivering
+- Avklaring av regulatorisk status i Norge
 
+---
+
+*Merknad om øvrige prediksjoner: HIV (score 99,80 %), hepatitt E, hepatitt A, virushepatitt hos dyr, omsk hemorragisk feber, Kyasanur-skogsykdom, SIV, felint ervervet immunsviktsyndrom og en sjelden nevroutviklingsforstyrrelse har alle evidensnivå L4–L5 og anbefalingen «Hold». Studiene som er knyttet til HIV og hepatitt A gjelder HCV-behandling, ikke de predikerte sykdommene, og utgjør derfor ikke evidens for disse indikasjonene.*
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
