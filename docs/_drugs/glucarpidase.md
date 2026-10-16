@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 193
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Glucarpidase: predikert ny indikasjon Diabetisk katarakt (evidensnivå L5). Opprinnelig indikasjon: Metabolske bivirkninger av legemidler og stoffer"
 ---
 
 # Glucarpidase

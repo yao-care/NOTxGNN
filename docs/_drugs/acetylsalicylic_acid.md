@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 17
 evidence_level: L3
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Acetylsalicylic Acid: predikert ny indikasjon Migrene med hjernestammeaura (evidensnivå L3). Opprinnelig indikasjon: Akutt koronarsyndrom"
 ---
 
 # Acetylsalicylic Acid

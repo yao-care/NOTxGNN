@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Pregabalin: predikert ny indikasjon Migrenelidelse (rangert som nr. 5 av TxGNN (evidensnivå L5). Opprinnelig indikasjon: Angstlidelser"
 ---
 
 # Pregabalin

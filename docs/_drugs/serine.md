@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 381
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Serine: predikert ny indikasjon Familiær visceral myopati (evidensnivå L5). Opprinnelig indikasjon: Lønnesirupsyke (Maple Syrup Urine Disease)"
 ---
 
 # Serine

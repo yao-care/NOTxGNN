@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 156
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Eptifibatide: predikert ny indikasjon Hemoglobinopati (sigdcellesykdom) – rangert som nr. 7 av 10 (evidensnivå L5). Opprinnelig indikasjon: Hjerteinfarkt (Myocardial Infarction)"
 ---
 
 # Eptifibatide

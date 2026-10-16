@@ -5,6 +5,8 @@ parent: Høy evidens (L1-L2)
 nav_order: 155
 evidence_level: L1
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Epinephrine: predikert ny indikasjon Obstruktiv lungesykdom (evidensnivå L1). Opprinnelig indikasjon: Anafylaksi"
 ---
 
 # Epinephrine

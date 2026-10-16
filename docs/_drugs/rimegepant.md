@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 360
 evidence_level: L3
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Rimegepant: predikert ny indikasjon Migrene med hjernestammeaura (evidensnivå L3). Opprinnelig indikasjon: Migrene (Migraine Disorders)"
 ---
 
 # Rimegepant

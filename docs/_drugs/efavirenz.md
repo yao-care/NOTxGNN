@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 139
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Efavirenz: predikert ny indikasjon Simianimmunsviktvirus-infeksjon (SIV) (evidensnivå L4). Opprinnelig indikasjon: HIV-infeksjon"
 ---
 
 # Efavirenz

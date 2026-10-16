@@ -5,6 +5,8 @@ parent: Høy evidens (L1-L2)
 nav_order: 460
 evidence_level: L1
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Zidovudine: predikert ny indikasjon AIDS-relatert kompleks (AIDS related complex) (evidensnivå L1). Opprinnelig indikasjon: HIV-infeksjon"
 ---
 
 # Zidovudine

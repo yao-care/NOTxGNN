@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 235
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Latanoprost: predikert ny indikasjon Primær arvelig glaukom (evidensnivå L4). Opprinnelig indikasjon: Åpenvinklet glaukom (Glaucoma, Open-Angle)"
 ---
 
 # Latanoprost

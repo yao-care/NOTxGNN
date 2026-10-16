@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 95
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Cetuximab: predikert ny indikasjon Prekreftale neoplasmer (pre-malignant neoplasm) (evidensnivå L5). Opprinnelig indikasjon: Hode- og halskreft (Head and Neck Neoplasms)"
 ---
 
 # Cetuximab

@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Nitric Oxide: predikert ny indikasjon Misdannelsessyndrom med odontal og/eller periodontal komponent (evidensnivå L5). Opprinnelig indikasjon: Pulmonal hypertensjon"
 ---
 
 # Nitric Oxide

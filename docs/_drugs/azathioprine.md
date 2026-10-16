@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 50
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Azathioprine: predikert ny indikasjon Colobomatous microphthalmia-rhizomelic dysplasia syndrome (rangert nr… (evidensnivå L5). Opprinnelig indikasjon: Avstøtning av transplantat (graft rejection)"
 ---
 
 # Azathioprine

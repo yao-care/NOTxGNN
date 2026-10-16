@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 208
 evidence_level: L3
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Iloprost: predikert ny indikasjon Pulmonal arteriell hypertensjon assosiert med medfødt hjertesykdom (r… (evidensnivå L3). Opprinnelig indikasjon: Pulmonal hypertensjon"
 ---
 
 # Iloprost

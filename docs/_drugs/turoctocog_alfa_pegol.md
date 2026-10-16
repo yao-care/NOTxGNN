@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 439
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Turoctocog Alfa Pegol: predikert ny indikasjon Primær frigjøringsforstyrrelse i blodplater (evidensnivå L5). Opprinnelig indikasjon: Hemofili A"
 ---
 
 # Turoctocog Alfa Pegol

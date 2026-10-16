@@ -5,6 +5,8 @@ parent: Høy evidens (L1-L2)
 nav_order: 385
 evidence_level: L1
 indication_count: 8
+last_modified_at: 2026-10-15
+description: "Simvastatin: predikert ny indikasjon Familiær hyperkolesterolemi (evidensnivå L1). Opprinnelig indikasjon: Dyslipidemi"
 ---
 
 # Simvastatin

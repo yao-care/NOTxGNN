@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 194
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Glutamic Acid: predikert ny indikasjon Postmenopausal osteoporose (evidensnivå L4). Opprinnelig indikasjon: Ahornsirupsykdom (Maple Syrup Urine Disease)"
 ---
 
 # Glutamic Acid

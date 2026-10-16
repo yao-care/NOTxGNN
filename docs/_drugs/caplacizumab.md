@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 84
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Caplacizumab: predikert ny indikasjon Primær frisetningsforstyrrelse i blodplater (evidensnivå L5). Opprinnelig indikasjon: Trombotisk trombocytopenisk purpura (TTP)"
 ---
 
 # Caplacizumab

@@ -5,6 +5,8 @@ parent: Høy evidens (L1-L2)
 nav_order: 401
 evidence_level: L1
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Tazobactam: predikert ny indikasjon Lungebetennelse (pneumonia) (evidensnivå L1). Opprinnelig indikasjon: Bakterieinfeksjoner"
 ---
 
 # Tazobactam

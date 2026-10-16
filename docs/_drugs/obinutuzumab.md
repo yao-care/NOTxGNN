@@ -5,6 +5,8 @@ parent: Høy evidens (L1-L2)
 nav_order: 291
 evidence_level: L1
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Obinutuzumab: predikert ny indikasjon Follikulært lymfom (evidensnivå L1). Opprinnelig indikasjon: Kronisk lymfatisk B-celleleukemi"
 ---
 
 # Obinutuzumab

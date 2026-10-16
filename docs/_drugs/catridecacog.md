@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 87
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Catridecacog: predikert ny indikasjon Primær frigjøringsforstyrrelse i blodplater (evidensnivå L5). Opprinnelig indikasjon: Arvelige koagulasjonsforstyrrelser (Blood Coagulation Disorders…"
 ---
 
 # Catridecacog

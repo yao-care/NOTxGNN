@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 151
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Enoxaparin: predikert ny indikasjon Trombofili som skyldes protein C-mangel, autosomal recessiv (evidensnivå L5). Opprinnelig indikasjon: Venøs tromboembolisme"
 ---
 
 # Enoxaparin

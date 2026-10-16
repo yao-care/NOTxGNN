@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 21
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Alanine: predikert ny indikasjon Gastroparese (evidensnivå L5). Opprinnelig indikasjon: Lønnesirupsykdom (Maple Syrup Urine Disease)"
 ---
 
 # Alanine

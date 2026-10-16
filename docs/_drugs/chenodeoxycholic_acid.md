@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 96
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Chenodeoxycholic Acid: predikert ny indikasjon Homozygot familiær hyperkolesterolemi (evidensnivå L5). Opprinnelig indikasjon: Cerebrotendinøs xantomatose"
 ---
 
 # Chenodeoxycholic Acid

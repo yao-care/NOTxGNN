@@ -5,6 +5,8 @@ parent: Høy evidens (L1-L2)
 nav_order: 83
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Capecitabine: predikert ny indikasjon Gastrisk tubulært adenokarsinom (valgt blant de ti prediksjonene ford… (evidensnivå L1). Opprinnelig indikasjon: Kolorektale neoplasmer"
 ---
 
 # Capecitabine

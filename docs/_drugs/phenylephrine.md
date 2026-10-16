@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 325
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Phenylephrine: predikert ny indikasjon Sykdom i nesehulen (nasal cavity disease) (evidensnivå L4). Opprinnelig indikasjon: Intraokulær linseimplantasjon"
 ---
 
 # Phenylephrine

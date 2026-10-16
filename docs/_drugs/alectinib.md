@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 23
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Alectinib: predikert ny indikasjon Lung benign neoplasm (godartet lungeneoplasme) (evidensnivå L5). Opprinnelig indikasjon: Carcinoma, Non-Small-Cell Lung (ikke-småcellet lungekreft)"
 ---
 
 # Alectinib

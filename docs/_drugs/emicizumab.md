@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 147
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Emicizumab: predikert ny indikasjon Ervervet koagulasjonsfaktormangel (evidensen gjelder ervervet hemofil… (evidensnivå L5). Opprinnelig indikasjon: Hemofili A"
 ---
 
 # Emicizumab

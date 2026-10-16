@@ -5,6 +5,8 @@ parent: Høy evidens (L1-L2)
 nav_order: 316
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Peginterferon Alfa-2A: predikert ny indikasjon Hepatitt B-virusinfeksjon (evidensnivå L1). Opprinnelig indikasjon: Kronisk hepatitt C, kronisk hepatitt B, polycytemia vera…"
 ---
 
 # Peginterferon Alfa-2A

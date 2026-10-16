@@ -5,6 +5,8 @@ parent: Høy evidens (L1-L2)
 nav_order: 216
 evidence_level: L1
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Insulin Degludec: predikert ny indikasjon Diabetes mellitus type 1 (evidensnivå L1). Opprinnelig indikasjon: Diabetes mellitus"
 ---
 
 # Insulin Degludec

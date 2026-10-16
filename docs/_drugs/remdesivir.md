@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Remdesivir: predikert ny indikasjon HIV-infeksjon (evidensnivå L5). Opprinnelig indikasjon: COVID-19-virusinfeksjon"
 ---
 
 # Remdesivir

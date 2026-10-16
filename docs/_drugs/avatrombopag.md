@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 46
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Avatrombopag: predikert ny indikasjon Makrotrombocytopeni med mitralklaffinsuffisiens (evidensnivå L5). Opprinnelig indikasjon: Trombocytopeni"
 ---
 
 # Avatrombopag

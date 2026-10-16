@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 198
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Grazoprevir: predikert ny indikasjon HIV-infeksjon (HIV infectious disease) (evidensnivå L5). Opprinnelig indikasjon: Kronisk hepatitt C"
 ---
 
 # Grazoprevir

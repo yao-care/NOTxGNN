@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 413
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Teriparatide: predikert ny indikasjon Graviditetsassosiert osteoporose (valgt ut fra evidensstyrke (evidensnivå L3). Opprinnelig indikasjon: Osteoporose"
 ---
 
 # Teriparatide

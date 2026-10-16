@@ -5,6 +5,8 @@ parent: Høy evidens (L1-L2)
 nav_order: 173
 evidence_level: L1
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Fenofibrate: predikert ny indikasjon Hyperlipoproteinemi (rangert som nr. 2 av 7 predikerte indikasjoner (evidensnivå L1). Opprinnelig indikasjon: Dyslipidemi"
 ---
 
 # Fenofibrate

@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 449
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Verteporfin: predikert ny indikasjon Mitokondriell oksidativ fosforyleringssykdom som skyldes kjerne-DNA-a… (evidensnivå L5). Opprinnelig indikasjon: Degenerativ myopi"
 ---
 
 # Verteporfin

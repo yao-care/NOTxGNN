@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 436
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Treprostinil: predikert ny indikasjon Pulmonal arteriell hypertensjon assosiert med medfødt hjertesykdom (evidensnivå L3). Opprinnelig indikasjon: Pulmonal hypertensjon"
 ---
 
 # Treprostinil

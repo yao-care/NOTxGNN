@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 459
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Ziconotide: predikert ny indikasjon Migrene (migraine disorder) (evidensnivå L4). Opprinnelig indikasjon: Injeksjon i ryggmargskanalen"
 ---
 
 # Ziconotide

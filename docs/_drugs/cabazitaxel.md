@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 74
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Cabazitaxel: predikert ny indikasjon Kvinnelig brystkarsinom (evidensnivå L4). Opprinnelig indikasjon: Prostatakreft (Prostatic Neoplasms)"
 ---
 
 # Cabazitaxel

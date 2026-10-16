@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 377
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Sebelipase Alfa: predikert ny indikasjon Scheie syndrom (evidensnivå L5). Opprinnelig indikasjon: Medfødte feil i lipidmetabolismen"
 ---
 
 # Sebelipase Alfa

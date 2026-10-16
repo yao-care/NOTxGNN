@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 340
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Propranolol: predikert ny indikasjon Distal myopati, Tateyama-type (evidensnivå L5). Opprinnelig indikasjon: Hemangiom"
 ---
 
 # Propranolol

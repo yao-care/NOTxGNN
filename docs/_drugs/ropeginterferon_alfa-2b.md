@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Ropeginterferon Alfa-2B: predikert ny indikasjon Laubry-Pezzi syndrom (evidensnivå L5). Opprinnelig indikasjon: Polycytemia vera"
 ---
 
 # Ropeginterferon Alfa-2B

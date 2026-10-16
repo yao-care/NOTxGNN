@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 305
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Palbociclib: predikert ny indikasjon Revmatoid artritt (rangert som nr. 2 av TxGNN (evidensnivå L4). Opprinnelig indikasjon: Brystkreft (Breast Neoplasms)"
 ---
 
 # Palbociclib

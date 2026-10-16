@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 160
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Eribulin: predikert ny indikasjon Fibroblastisk neoplasme (rangert som nr. 8 av 10 etter TxGNN-score… (evidensnivå L5). Opprinnelig indikasjon: Brystkreft og liposarkom"
 ---
 
 # Eribulin

@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 397
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Tagraxofusp: predikert ny indikasjon Esotropi (evidensnivå L5). Opprinnelig indikasjon: Lymfom"
 ---
 
 # Tagraxofusp

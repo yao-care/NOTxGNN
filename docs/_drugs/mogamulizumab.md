@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Mogamulizumab: predikert ny indikasjon Urotelkarsinom i prostatisk uretra (evidensnivå L5). Opprinnelig indikasjon: Sézarys syndrom"
 ---
 
 # Mogamulizumab

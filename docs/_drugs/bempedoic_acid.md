@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 55
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Bempedoic Acid: predikert ny indikasjon Homozygot familiær hyperkolesterolemi (rangert som nr. 6 (evidensnivå L5). Opprinnelig indikasjon: Hyperkolesterolemi"
 ---
 
 # Bempedoic Acid

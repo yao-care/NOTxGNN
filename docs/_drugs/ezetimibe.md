@@ -5,6 +5,8 @@ parent: Høy evidens (L1-L2)
 nav_order: 170
 evidence_level: L1
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Ezetimibe: predikert ny indikasjon Hyperlipoproteinemi (evidensnivå L1). Opprinnelig indikasjon: Hyperkolesterolemi"
 ---
 
 # Ezetimibe

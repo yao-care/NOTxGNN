@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 448
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Vernakalant: predikert ny indikasjon Hjerneslag (stroke disorder) (evidensnivå L4). Opprinnelig indikasjon: Atrieflimmer"
 ---
 
 # Vernakalant

@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 105
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-15
+description: "Corifollitropin Alfa: predikert ny indikasjon Gastroduodenitt (evidensnivå L5). Opprinnelig indikasjon: Assistert reproduksjonsteknikk"
 ---
 
 # Corifollitropin Alfa

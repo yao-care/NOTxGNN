@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Tocilizumab: predikert ny indikasjon Ankyloserende spondylitt (evidensnivå L5). Opprinnelig indikasjon: Revmatoid artritt, juvenil revmatoid artritt…"
 ---
 
 # Tocilizumab

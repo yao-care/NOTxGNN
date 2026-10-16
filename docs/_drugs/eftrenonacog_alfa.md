@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 142
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Eftrenonacog Alfa: predikert ny indikasjon Pseudo-von Willebrands sykdom (pseudo-von Willebrand disease) (evidensnivå L5). Opprinnelig indikasjon: Hemofili B"
 ---
 
 # Eftrenonacog Alfa

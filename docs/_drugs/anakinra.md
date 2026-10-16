@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 33
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Anakinra: predikert ny indikasjon Ekstrakutan mastocytom (rangert som nr. 1 av TxGNN) (evidensnivå L5). Opprinnelig indikasjon: Revmatoid artritt"
 ---
 
 # Anakinra

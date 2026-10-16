@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 106
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Crizotinib: predikert ny indikasjon Fibromatose i gingiva (evidensnivå L5). Opprinnelig indikasjon: Ikke-småcellet lungekreft (Carcinoma, Non-Small-Cell Lung)"
 ---
 
 # Crizotinib

@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 102
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-15
+description: "Clopidogrel: predikert ny indikasjon Migrene (migrene med aura / PFO-assosiert migrene) (evidensnivå L5). Opprinnelig indikasjon: Perifer karsykdom, hjerneslag, hjerteinfarkt…"
 ---
 
 # Clopidogrel

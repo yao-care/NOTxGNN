@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 76
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Cabozantinib: predikert ny indikasjon Liposarkom (evidensnivå L5). Opprinnelig indikasjon: Nyrecellekarsinom og hepatocellulært karsinom"
 ---
 
 # Cabozantinib

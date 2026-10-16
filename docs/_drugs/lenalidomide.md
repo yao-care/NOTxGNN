@@ -5,6 +5,8 @@ parent: Høy evidens (L1-L2)
 nav_order: 239
 evidence_level: L2
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Lenalidomide: predikert ny indikasjon Myeloid leukemi (evidensnivå L2). Opprinnelig indikasjon: Myelomatose"
 ---
 
 # Lenalidomide

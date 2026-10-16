@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 100
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Cladribine: predikert ny indikasjon Parameningeal embryonal rabdomyosarkom (evidensnivå L5). Opprinnelig indikasjon: Multippel sklerose (Mavenclad)"
 ---
 
 # Cladribine

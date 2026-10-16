@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Tenecteplase: predikert ny indikasjon Posteroinferiort hjerteinfarkt (evidensnivå L5). Opprinnelig indikasjon: Hjerteinfarkt (myokardinfarkt)"
 ---
 
 # Tenecteplase

@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 330
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Plerixafor: predikert ny indikasjon Indolent plasmacellemyelom (evidensnivå L5). Opprinnelig indikasjon: Myelomatose, stamcelletransplantasjon (mobilisering) og lymfom"
 ---
 
 # Plerixafor

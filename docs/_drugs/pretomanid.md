@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 338
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Pretomanid: predikert ny indikasjon Candidiasis (evidensnivå L5). Opprinnelig indikasjon: Multiresistent tuberkulose"
 ---
 
 # Pretomanid

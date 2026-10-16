@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 116
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Daunorubicin: predikert ny indikasjon Hodgkins lymfom (evidensnivå L3). Opprinnelig indikasjon: Akutt myeloid leukemi"
 ---
 
 # Daunorubicin

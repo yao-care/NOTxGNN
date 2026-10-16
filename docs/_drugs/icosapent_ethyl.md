@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 205
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Icosapent Ethyl: predikert ny indikasjon Hemoglobinopati (evidensnivå L5). Opprinnelig indikasjon: Dyslipidemi"
 ---
 
 # Icosapent Ethyl

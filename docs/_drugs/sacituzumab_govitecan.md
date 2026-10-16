@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Sacituzumab Govitecan: predikert ny indikasjon Legemiddelindusert osteoporose (evidensnivå L5). Opprinnelig indikasjon: Brystkreft"
 ---
 
 # Sacituzumab Govitecan

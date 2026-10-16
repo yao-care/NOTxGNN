@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 39
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Asenapine: predikert ny indikasjon Retinal dystrofi med eller uten ekstraokulære avvik (evidensnivå L5). Opprinnelig indikasjon: Bipolar lidelse"
 ---
 
 # Asenapine

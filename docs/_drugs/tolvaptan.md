@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 426
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Tolvaptan: predikert ny indikasjon Polycystisk nyresykdom 3, med eller uten polycystisk leversykdom (evidensnivå L5). Opprinnelig indikasjon: Syndromet med uhensiktsmessig ADH-sekresjon (SIADH)"
 ---
 
 # Tolvaptan

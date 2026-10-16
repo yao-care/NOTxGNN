@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 245
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Lidocaine: predikert ny indikasjon Punktat epitelial keratokonjunktivitt (rangert først) (evidensnivå L5). Opprinnelig indikasjon: Fysiologisk seksuell dysfunksjon"
 ---
 
 # Lidocaine

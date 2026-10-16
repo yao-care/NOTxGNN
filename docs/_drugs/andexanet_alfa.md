@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 34
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Andexanet Alfa: predikert ny indikasjon Glanzmanns trombasteni (evidensnivå L5). Opprinnelig indikasjon: Legemiddelrelaterte bivirkninger og uønskede reaksjoner (reversering…"
 ---
 
 # Andexanet Alfa

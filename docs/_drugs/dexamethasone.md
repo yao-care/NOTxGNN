@@ -5,6 +5,8 @@ parent: Høy evidens (L1-L2)
 nav_order: 125
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Dexamethasone: predikert ny indikasjon Alopecia areata (evidensnivå L2). Opprinnelig indikasjon: Makulaødem, uveitt"
 ---
 
 # Dexamethasone

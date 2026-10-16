@@ -5,6 +5,8 @@ parent: Høy evidens (L1-L2)
 nav_order: 215
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Insulin Aspart: predikert ny indikasjon Type 1-diabetes mellitus (evidensnivå L1). Opprinnelig indikasjon: Diabetes mellitus"
 ---
 
 # Insulin Aspart

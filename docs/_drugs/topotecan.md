@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 427
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Topotecan: predikert ny indikasjon Brystkreft hos kvinner (female breast carcinoma) (evidensnivå L3). Opprinnelig indikasjon: Livmorhalskreft, småcellet lungekreft"
 ---
 
 # Topotecan

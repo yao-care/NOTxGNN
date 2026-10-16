@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 206
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Idebenone: predikert ny indikasjon Hepatisk porfyri (evidensnivå L5). Opprinnelig indikasjon: Lebers hereditære optikusatrofi"
 ---
 
 # Idebenone

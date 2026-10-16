@@ -5,6 +5,8 @@ parent: Høy evidens (L1-L2)
 nav_order: 387
 evidence_level: L2
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Sodium Oxybate: predikert ny indikasjon Insomni (evidensnivå L2). Opprinnelig indikasjon: Katapleksi"
 ---
 
 # Sodium Oxybate

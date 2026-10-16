@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 212
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Imiquimod: predikert ny indikasjon Premalign neoplasi (pre-malignant neoplasm) (evidensnivå L4). Opprinnelig indikasjon: Aktinisk keratose (keratose)"
 ---
 
 # Imiquimod

@@ -5,6 +5,8 @@ parent: Høy evidens (L1-L2)
 nav_order: 301
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Oteracil: predikert ny indikasjon Tykktarmskreft (colonic neoplasm) (evidensnivå L1). Opprinnelig indikasjon: Magekreft (Stomach Neoplasms)"
 ---
 
 # Oteracil

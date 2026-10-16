@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 145
 evidence_level: L3
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Eltrombopag: predikert ny indikasjon HIV-infeksjon (HIV infectious disease) (evidensnivå L3). Opprinnelig indikasjon: Idiopatisk trombocytopen purpura"
 ---
 
 # Eltrombopag

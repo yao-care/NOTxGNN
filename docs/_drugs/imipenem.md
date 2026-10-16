@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 211
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Imipenem: predikert ny indikasjon Diffus sklerodermi (evidensnivå L5). Opprinnelig indikasjon: Gramnegative bakterieinfeksjoner"
 ---
 
 # Imipenem

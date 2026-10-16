@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 267
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Methotrexate: predikert ny indikasjon Hodgkins lymfom (rangert som nr. 5 (evidensnivå L3). Opprinnelig indikasjon: Psoriasisartritt, psoriasis, juvenil revmatoid artritt…"
 ---
 
 # Methotrexate

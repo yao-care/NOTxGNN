@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 159
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Erenumab: predikert ny indikasjon Migrene med hjernestammeaura (evidensnivå L5). Opprinnelig indikasjon: Migrene (Migraine Disorders)"
 ---
 
 # Erenumab

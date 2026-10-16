@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 85
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Carfilzomib: predikert ny indikasjon CMM7 (evidensnivå L5). Opprinnelig indikasjon: Multippelt myelom"
 ---
 
 # Carfilzomib

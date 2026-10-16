@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 395
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Tacrolimus: predikert ny indikasjon Seboreisk dermatitt (evidensnivå L5). Opprinnelig indikasjon: Avstøtning av transplantat (graft rejection)"
 ---
 
 # Tacrolimus

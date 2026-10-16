@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 131
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Doravirine: predikert ny indikasjon Felint ervervet immunsviktsyndrom (evidensnivå L5). Opprinnelig indikasjon: Hiv-infeksjon"
 ---
 
 # Doravirine

@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 308
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Palonosetron: predikert ny indikasjon Migrene (migraine disorder) (evidensnivå L4). Opprinnelig indikasjon: Oppkast"
 ---
 
 # Palonosetron

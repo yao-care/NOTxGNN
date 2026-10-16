@@ -5,6 +5,8 @@ parent: Høy evidens (L1-L2)
 nav_order: 323
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Pertuzumab: predikert ny indikasjon Progesteronreseptor-positiv brystkreft (evidensnivå L1). Opprinnelig indikasjon: Brystkreft (Breast Neoplasms)"
 ---
 
 # Pertuzumab

@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 165
 evidence_level: L3
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Etelcalcetide: predikert ny indikasjon Hyperfosfatemi (evidensnivå L3). Opprinnelig indikasjon: Sekundær hyperparatyreoidisme"
 ---
 
 # Etelcalcetide

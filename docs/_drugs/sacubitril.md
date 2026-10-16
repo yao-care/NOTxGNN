@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 374
 evidence_level: L3
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Sacubitril: predikert ny indikasjon Diabetisk nefropati (diabetic nephropathy) (evidensnivå L3). Opprinnelig indikasjon: Hjertesvikt"
 ---
 
 # Sacubitril

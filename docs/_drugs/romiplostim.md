@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 367
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Romiplostim: predikert ny indikasjon Primær frigjøringsforstyrrelse av blodplater (evidensnivå L5). Opprinnelig indikasjon: Idiopatisk trombocytopenisk purpura (ITP)"
 ---
 
 # Romiplostim

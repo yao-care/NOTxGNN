@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 295
 evidence_level: L3
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Olanzapine: predikert ny indikasjon Agorafobi (evidensnivå L3). Opprinnelig indikasjon: Schizofreni"
 ---
 
 # Olanzapine

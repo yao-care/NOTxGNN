@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 56
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Benralizumab: predikert ny indikasjon Dermatitt (rangert som nr. 2 (evidensnivå L5). Opprinnelig indikasjon: Astma"
 ---
 
 # Benralizumab

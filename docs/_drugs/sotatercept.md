@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 391
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Sotatercept: predikert ny indikasjon Akutt lymfatisk leukemi (evidensnivå L5). Opprinnelig indikasjon: Pulmonal hypertensjon"
 ---
 
 # Sotatercept

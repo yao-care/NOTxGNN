@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 162
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Esketamine: predikert ny indikasjon Agorafobi (evidensnivå L5). Opprinnelig indikasjon: Depressiv lidelse"
 ---
 
 # Esketamine

@@ -5,6 +5,8 @@ parent: Høy evidens (L1-L2)
 nav_order: 80
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Canakinumab: predikert ny indikasjon Familiær middelhavsfeber, autosomal dominant (rangert som nr. 6 av 10 (evidensnivå L1). Opprinnelig indikasjon: Kryopyrin-assosierte periodiske syndromer"
 ---
 
 # Canakinumab

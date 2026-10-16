@@ -5,6 +5,8 @@ parent: Høy evidens (L1-L2)
 nav_order: 38
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Arsenic Trioxide: predikert ny indikasjon Myelodysplastisk syndrom (rangert som nr. 6 av 10 predikerte indikasj… (evidensnivå L2). Opprinnelig indikasjon: Akutt promyelocyttleukemi"
 ---
 
 # Arsenic Trioxide

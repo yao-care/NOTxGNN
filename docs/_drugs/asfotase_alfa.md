@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 40
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Asfotase Alfa: predikert ny indikasjon Mitokondriell oksidativ fosforyleringssykdom på grunn av kjerne-DNA-a… (evidensnivå L5). Opprinnelig indikasjon: Hypofosfatasi"
 ---
 
 # Asfotase Alfa

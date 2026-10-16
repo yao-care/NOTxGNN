@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 109
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Dabigatran Etexilate: predikert ny indikasjon Skleroserende kolangitt (evidensnivå L5). Opprinnelig indikasjon: Leddprotesekirurgi (artroplastikk) og venøs tromboembolisme"
 ---
 
 # Dabigatran Etexilate

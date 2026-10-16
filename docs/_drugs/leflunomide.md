@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 238
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Leflunomide: predikert ny indikasjon Brachydaktyli-syndaktyli-syndrom (evidensnivå L5). Opprinnelig indikasjon: Revmatoid artritt"
 ---
 
 # Leflunomide

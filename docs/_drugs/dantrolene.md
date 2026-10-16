@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 111
 evidence_level: L3
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Dantrolene: predikert ny indikasjon Malign hypertermi, mottakelighet for (malignant hyperthermia… (evidensnivå L3). Opprinnelig indikasjon: Malign hypertermi"
 ---
 
 # Dantrolene

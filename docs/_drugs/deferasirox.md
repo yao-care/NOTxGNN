@@ -5,6 +5,8 @@ parent: Moderat evidens (L3-L4)
 nav_order: 118
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Deferasirox: predikert ny indikasjon HIV-infeksjon (evidensnivå L4). Opprinnelig indikasjon: Jernoverskudd"
 ---
 
 # Deferasirox

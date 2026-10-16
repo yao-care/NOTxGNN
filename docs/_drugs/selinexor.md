@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Selinexor: predikert ny indikasjon Legemiddelindusert osteoporose (drug-induced osteoporosis) (evidensnivå L5). Opprinnelig indikasjon: Multippelt myelom"
 ---
 
 # Selinexor

@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Methylphenidate: predikert ny indikasjon Faciodigitogenital syndrom (evidensnivå L5). Opprinnelig indikasjon: Oppmerksomhetssvikt med hyperaktivitet (ADHD)"
 ---
 
 # Methylphenidate

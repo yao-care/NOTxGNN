@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 218
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Insulin Glargine: predikert ny indikasjon Autoimmun ooforitt (evidensnivå L5). Opprinnelig indikasjon: Diabetes mellitus"
 ---
 
 # Insulin Glargine

@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 141
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Efmoroctocog Alfa: predikert ny indikasjon Pseudo-von Willebrands sykdom (evidensnivå L5). Opprinnelig indikasjon: Hemofili A"
 ---
 
 # Efmoroctocog Alfa

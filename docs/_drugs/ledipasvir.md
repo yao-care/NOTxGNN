@@ -5,6 +5,8 @@ parent: Høy evidens (L1-L2)
 nav_order: 236
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Ledipasvir: predikert ny indikasjon Hepatitt B-virusinfeksjon (evidensnivå L2). Opprinnelig indikasjon: Kronisk hepatitt C"
 ---
 
 # Ledipasvir

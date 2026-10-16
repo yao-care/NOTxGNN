@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 129
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Docetaxel: predikert ny indikasjon Kvinnelig brystkarsinom (evidensnivå L5). Opprinnelig indikasjon: Kreft i hode og hals, ikke-småcellet lungekreft, adenokarsinom…"
 ---
 
 # Docetaxel

@@ -5,6 +5,8 @@ parent: Kun modellprediksjon (L5)
 nav_order: 313
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Pazopanib: predikert ny indikasjon Renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene… (evidensnivå L5). Opprinnelig indikasjon: Nyrecellekarsinom (Carcinoma, Renal Cell)"
 ---
 
 # Pazopanib
