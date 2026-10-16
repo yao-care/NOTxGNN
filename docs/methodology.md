@@ -48,20 +48,15 @@ predikerte par, evidensen graderes fra L1 til L5, og til slutt gis en beslutning
 
 ---
 
-## Prediksjon med dobbel motor
+## Slik lages prediksjonene
 
-To metoder kjører parallelt, og en konfidensmerkelapp registrerer om de er enige:
+TxGNNs dyplæringsmodell (DL) gir hvert legemiddel–sykdom-par en score. Deretter fjernes indikasjoner og kontraindikasjoner som allerede er registrert for legemidlet i TxGNNs kunnskapsgraf (KG), slik at legemiddelsidene bare viser nye predikerte indikasjoner med en score på minst 0,99 (opptil 10 per legemiddel).
 
-| Metode | Hastighet | Presisjon | Beskrivelse |
-|--------|-------|-----------|-------------|
-| Kunnskapsgraf (KG) | Rask | Lavere | Slutninger basert på DrugBank-relasjoner og grafstruktur |
-| Dyp læring (DL) | Langsom | Høyere | TxGNN grafnevralt nettverk |
-
-| Konfidens | Kilde | Betydning |
-|------------|--------|---------|
-| very_high | KG + DL | Begge metodene er enige |
-| high | Kun DL | Støtte fra dyp læring med høy skår |
-| medium | Kun KG | Støtte fra kunnskapsgraf |
+| Trinn | Rolle |
+|-------|-------|
+| Dyplæring (DL) | TxGNNs grafbaserte nevrale nettverk gir hvert legemiddel–sykdom-par en score |
+| Kontroll av kjent bruk (KG) | Fjerner indikasjoner og kontraindikasjoner som allerede er registrert i kunnskapsgrafen; de telles ikke som nye prediksjoner |
+| Innsamling av evidens | Søker i ClinicalTrials.gov og PubMed for hver gjenværende prediksjon og gir et evidensnivå (L1–L5) |
 
 ---
 
