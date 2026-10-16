@@ -132,9 +132,9 @@ def build_name_index(drugbank_df: pd.DataFrame) -> Dict[str, str]:
         "ZINC OXIDE": "ZINC OXIDE",
 
         # L-/D-/DL- 前綴處理
-        "L-MENTHOL": "MENTHOL",
-        "DL-MENTHOL": "MENTHOL",
-        "LEVOMENTHOL": "MENTHOL",
+        "L-MENTHOL": "LEVOMENTHOL",
+        "DL-MENTHOL": "RACEMENTHOL",
+        "MENTHOL": "LEVOMENTHOL",
         "L-ADRENALINE": "EPINEPHRINE",
         "L-NORADRENALINE": "NOREPINEPHRINE",
         "L-DOPA": "LEVODOPA",
