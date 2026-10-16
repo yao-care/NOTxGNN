@@ -50,7 +50,7 @@ search:
   button: false
 
 # Footer (YMYL disclaimer)
-footer_content: "Copyright &copy; 2026 藥提醒科技有限公司 (yao.care). This report is for research purposes only and does not constitute medical advice."
+footer_content: "Copyright &copy; 2026 藥提醒科技有限公司 (yao.care). Denne rapporten er kun ment for forskningsformål og utgjør ikke medisinsk rådgivning."
 
 # Color scheme
 color_scheme: light

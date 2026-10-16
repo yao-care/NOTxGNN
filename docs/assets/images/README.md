@@ -1,4 +1,5 @@
 ---
+sitemap: false
 nav_exclude: true
 ---
 

@@ -70,7 +70,7 @@ og sikkerhetsdata fra mennesker finnes allerede, slik at risikoen for å mislykk
 ## Hva er TxGNN?
 
 <p class="key-answer" data-question="Hva er TxGNN?">
-<a href="https://www.nature.com/articles/s41591-023-02233-x">TxGNN</a> er en modell for dyp læring
+<a href="https://www.nature.com/articles/s41591-024-03233-x">TxGNN</a> er en modell for dyp læring
 utviklet av Zitnik Lab ved Harvard Medical School og publisert i <em>Nature Medicine</em>.
 Den predikerer nye sammenhenger mellom legemiddel og sykdom og er den første grunnmodellen for
 legemiddelreposisjonering som er utformet spesielt for klinikere.
@@ -105,7 +105,7 @@ sjeldne sykdommer."
 ## Faglig grunnlag
 
 > Huang, K., et al. (2023). A foundation model for clinician-centered drug repurposing. *Nature Medicine*.
-> [DOI: 10.1038/s41591-023-02233-x](https://doi.org/10.1038/s41591-023-02233-x)
+> [DOI: 10.1038/s41591-024-03233-x](https://doi.org/10.1038/s41591-024-03233-x)
 
 ---
 

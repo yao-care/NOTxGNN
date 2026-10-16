@@ -2,11 +2,11 @@
 layout: default
 title: "Prediksjoner for Legemiddelreposisjonering \u2014 Norge"
 nav_order: 1
-description: "AI-powered drug repurposing predictions for Norway. Evidence-based analysis of approved medicines for potential new therapeutic indications."
+description: "KI-baserte prediksjoner for ny bruk av legemidler i Norge. Evidensbasert analyse av godkjente legemidler for mulige nye bruksområder."
 permalink: /
 ---
 
-# Drug Repurposing Predictions — Norway
+# Prediksjoner for ny bruk av legemidler — Norge
 
 This project uses the TxGNN knowledge graph to predict potential new therapeutic uses for medicines approved in Norway.
 
