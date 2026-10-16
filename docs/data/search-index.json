@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-16",
-  "drug_count": 450,
+  "drug_count": 444,
   "indication_count": 1343,
   "drugs": [
     {
@@ -114,22 +114,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Abemaciclib",
-      "slug": "abemaciclib",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Abiraterone Acetate",
-      "slug": "abiraterone-acetate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Acetylsalicylic Acid",
@@ -2705,22 +2689,6 @@
       ]
     },
     {
-      "name": "Caffeine Citrate",
-      "slug": "caffeine-citrate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Canagliflozin",
-      "slug": "canagliflozin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Canakinumab",
       "slug": "canakinumab",
       "brands": [],
@@ -2778,22 +2746,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Cangrelor",
-      "slug": "cangrelor",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Cannabidiol",
-      "slug": "cannabidiol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Capecitabine",
