@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Cangrelor
 parent: Kun modellprediksjon (L5)

@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Cannabidiol
 parent: Kun modellprediksjon (L5)
