@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-16",
-  "total_count": 450,
+  "total_count": 444,
   "source": "NOTxGNN",
   "drugs": [
     {
@@ -32,26 +32,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/abatacept/"
-    },
-    {
-      "slug": "abemaciclib",
-      "name": "Abemaciclib",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/abemaciclib/"
-    },
-    {
-      "slug": "abiraterone-acetate",
-      "name": "Abiraterone Acetate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/abiraterone-acetate/"
     },
     {
       "slug": "acetylsalicylic-acid",
@@ -664,26 +644,6 @@
       "url": "/drugs/caffeine/"
     },
     {
-      "slug": "caffeine-citrate",
-      "name": "Caffeine Citrate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/caffeine-citrate/"
-    },
-    {
-      "slug": "canagliflozin",
-      "name": "Canagliflozin",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/canagliflozin/"
-    },
-    {
       "slug": "canakinumab",
       "name": "Canakinumab",
       "evidence_level": "L1",
@@ -692,26 +652,6 @@
       "predicted_indication": "Leverinfarkt",
       "txgnn_score": "",
       "url": "/drugs/canakinumab/"
-    },
-    {
-      "slug": "cangrelor",
-      "name": "Cangrelor",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/cangrelor/"
-    },
-    {
-      "slug": "cannabidiol",
-      "name": "Cannabidiol",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/cannabidiol/"
     },
     {
       "slug": "capecitabine",
