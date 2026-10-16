@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Nelarabine: predikert ny indikasjon Relapsing-remitting multippel sklerose (evidensnivå L5). Opprinnelig indikasjon: Prekursor T-celle lymfoblastisk leukemi/lymfom"
+monitor_inn: "NELARABINE"
+predicted_indications: ["relapsing-remitting multiple sclerosis"]
 ---
 
 # Nelarabine

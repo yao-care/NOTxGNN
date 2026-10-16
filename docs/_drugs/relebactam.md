@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Relebactam: predikert ny indikasjon Hyperamylasemi (evidensnivå L5). Opprinnelig indikasjon: Gramnegative bakterieinfeksjoner"
+monitor_inn: "Relebactam"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
 ---
 
 # Relebactam

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Nintedanib: predikert ny indikasjon Dermatofibrosarcoma protuberans (evidensnivå L4). Opprinnelig indikasjon: Idiopatisk lungefibrose, interstitielle lungesykdommer…"
+monitor_inn: "NINTEDANIB"
+predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 ---
 
 # Nintedanib

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Eltrombopag: predikert ny indikasjon HIV-infeksjon (HIV infectious disease) (evidensnivå L3). Opprinnelig indikasjon: Idiopatisk trombocytopen purpura"
+monitor_inn: "ELTROMBOPAG"
+predicted_indications: ["HIV infectious disease"]
 ---
 
 # Eltrombopag

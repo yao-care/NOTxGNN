@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Trametinib: predikert ny indikasjon Koroideremi (rangert som nr. 1) (evidensnivå L5). Opprinnelig indikasjon: Melanom"
+monitor_inn: "TRAMETINIB"
+predicted_indications: ["choroideremia", "non-cutaneous melanoma", "epithelioid cell melanoma", "eyelid melanoma", "scrotum melanoma", "amelanotic skin melanoma", "acral lentiginous melanoma (disease)", "lentigo maligna melanoma", "superficial spreading melanoma", "balloon cell malignant melanoma"]
 ---
 
 # Trametinib

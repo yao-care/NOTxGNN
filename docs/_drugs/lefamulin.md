@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Lefamulin: predikert ny indikasjon Diffus kutan leishmaniasis (evidensnivå L5). Opprinnelig indikasjon: Bakteriell lungebetennelse"
+monitor_inn: "Lefamulin"
+predicted_indications: ["leishmaniasis, diffuse cutaneous", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
 ---
 
 # Lefamulin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Solriamfetol: predikert ny indikasjon Attention deficit-hyperactivity disorder (ADHD) (evidensnivå L5). Opprinnelig indikasjon: Narkolepsi"
+monitor_inn: "Solriamfetol"
+predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "insomnia (disease)", "attention deficit hyperactivity disorder, inattentive type", "chondromyxoid fibroma", "specific developmental disorder", "variably protease-sensitive prionopathy", "multiple system atrophy", "postural orthostatic tachycardia syndrome", "disorder of peroxisomal alpha-, beta- and omega-oxidation"]
 ---
 
 # Solriamfetol

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Norethisterone: predikert ny indikasjon Amenoré (evidensnivå L4). Opprinnelig indikasjon: Leiomyom"
+monitor_inn: "Norethisterone"
+predicted_indications: ["amenorrhea (disease)"]
 ---
 
 # Norethisterone

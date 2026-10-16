@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-15
 description: "Enfortumab Vedotin: predikert ny indikasjon Lepra (evidensnivå L5). Opprinnelig indikasjon: Urotelialt karsinom (overgangscellekarsinom)"
+monitor_inn: "ENFORTUMAB VEDOTIN"
+predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "infectious bovine rhinotracheitis", "malignant catarrh"]
 ---
 
 # Enfortumab Vedotin

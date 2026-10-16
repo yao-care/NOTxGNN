@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Andexanet Alfa: predikert ny indikasjon Glanzmanns trombasteni (evidensnivå L5). Opprinnelig indikasjon: Legemiddelrelaterte bivirkninger og uønskede reaksjoner (reversering…"
+monitor_inn: "ANDEXANET ALFA"
+predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "hemophilia"]
 ---
 
 # Andexanet Alfa

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Fremanezumab: predikert ny indikasjon Migrene med hjernestammeaura (evidensnivå L4). Opprinnelig indikasjon: Migrene (Migraine Disorders)"
+monitor_inn: "FREMANEZUMAB"
+predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata"]
 ---
 
 # Fremanezumab

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Nilotinib: predikert ny indikasjon Dermatofibrosarcoma protuberans (evidensnivå L4). Opprinnelig indikasjon: Kronisk myelogen leukemi, BCR-ABL-positiv"
+monitor_inn: "NILOTINIB"
+predicted_indications: ["dermatofibrosarcoma protuberans"]
 ---
 
 # Nilotinib

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Reslizumab: predikert ny indikasjon Trombocytopeni på grunn av immunmediert destruksjon (evidensnivå L5). Opprinnelig indikasjon: Astma"
+monitor_inn: "RESLIZUMAB"
+predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets"]
 ---
 
 # Reslizumab

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Metformin: predikert ny indikasjon Fokalt stivt lem-syndrom (evidensnivå L5). Opprinnelig indikasjon: Diabetes mellitus, type 2"
+monitor_inn: "METFORMIN"
+predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 ---
 
 # Metformin

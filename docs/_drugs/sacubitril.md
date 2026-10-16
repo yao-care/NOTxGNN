@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Sacubitril: predikert ny indikasjon Diabetisk nefropati (diabetic nephropathy) (evidensnivå L3). Opprinnelig indikasjon: Hjertesvikt"
+monitor_inn: "SACUBITRIL"
+predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 ---
 
 # Sacubitril

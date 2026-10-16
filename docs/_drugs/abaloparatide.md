@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Abaloparatide: predikert ny indikasjon Non-syndromisk esofagusmisdannelse (evidensnivå L5). Opprinnelig indikasjon: Postmenopausal osteoporose / osteoporose"
+monitor_inn: "ABALOPARATIDE"
+predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "amenorrhea (disease)", "esophageal ulcer"]
 ---
 
 # Abaloparatide

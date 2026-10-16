@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Palbociclib: predikert ny indikasjon Revmatoid artritt (rangert som nr. 2 av TxGNN (evidensnivå L4). Opprinnelig indikasjon: Brystkreft (Breast Neoplasms)"
+monitor_inn: "PALBOCICLIB"
+predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 ---
 
 # Palbociclib

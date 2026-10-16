@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Riluzole: predikert ny indikasjon Bilateral parasagittal parieto-oksipital polymikrogyri (evidensnivå L5). Opprinnelig indikasjon: Amyotrofisk lateralsklerose"
+monitor_inn: "RILUZOLE"
+predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "amyotrophic lateral sclerosis, susceptibility to", "autosomal dominant mitochondrial myopathy with exercise intolerance", "amyotrohpic lateral sclerosis type 22"]
 ---
 
 # Riluzole

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Natalizumab: predikert ny indikasjon Psoriasis (rangert som nr. 3 (evidensnivå L4). Opprinnelig indikasjon: Multippel sklerose (relapserende-remitterende MS)"
+monitor_inn: "NATALIZUMAB"
+predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
 ---
 
 # Natalizumab

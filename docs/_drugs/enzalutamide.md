@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Enzalutamide: predikert ny indikasjon Prostatakreft/hjernekreft-mottakelighet (evidensnivå L5). Opprinnelig indikasjon: Prostatakreft (Prostatic Neoplasms)"
+monitor_inn: "ENZALUTAMIDE"
+predicted_indications: ["prostate cancer/brain cancer susceptibility", "prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "male reproductive organ cancer", "benign prostate phyllodes tumor"]
 ---
 
 # Enzalutamide

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Inclisiran: predikert ny indikasjon Kaliummangelsykdom (potassium deficiency disease) (evidensnivå L5). Opprinnelig indikasjon: Hyperkolesterolemi"
+monitor_inn: "INCLISIRAN"
+predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
 ---
 
 # Inclisiran

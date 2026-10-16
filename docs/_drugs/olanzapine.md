@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Olanzapine: predikert ny indikasjon Agorafobi (evidensnivå L3). Opprinnelig indikasjon: Schizofreni"
+monitor_inn: "OLANZAPINE"
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder"]
 ---
 
 # Olanzapine

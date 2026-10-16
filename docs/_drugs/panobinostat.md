@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Panobinostat: predikert ny indikasjon Myeloid leukemi (evidensnivå L2). Opprinnelig indikasjon: Multippelt myelom"
+monitor_inn: "panobinostat"
+predicted_indications: ["myeloid leukemia"]
 ---
 
 # Panobinostat

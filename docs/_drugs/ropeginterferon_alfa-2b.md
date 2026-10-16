@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ropeginterferon Alfa-2B: predikert ny indikasjon Laubry-Pezzi syndrom (evidensnivå L5). Opprinnelig indikasjon: Polycytemia vera"
+monitor_inn: "ROPEGINTERFERON ALFA-2B"
+predicted_indications: ["Laubry-Pezzi syndrome", "interventricular septum aneurysm", "genetic syndromic Pierre Robin syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 7", "disorder of fucoglycosan synthesis", "Jeune syndrome situs inversus", "partial deletion of the long arm of chromosome 22", "orofacial clefting syndrome", "pulmonary valve disease"]
 ---
 
 # Ropeginterferon Alfa-2B

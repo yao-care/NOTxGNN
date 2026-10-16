@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Teprotumumab: predikert ny indikasjon Monosomi X (evidensnivå L5). Opprinnelig indikasjon: Graves oftalmopati"
+monitor_inn: "TEPROTUMUMAB"
+predicted_indications: ["monosomy X", "esophageal varices with bleeding", "esophageal varices without bleeding", "mixed gonadal dysgenesis", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Turner syndrome due to structural X chromosome anomalies", "mosaic monosomy X", "sex chromosome disorder of sex development", "varicose disease", "X chromosome number anomaly"]
 ---
 
 # Teprotumumab

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Oxybutynin: predikert ny indikasjon Restless legs-syndrom (evidensnivå L5). Opprinnelig indikasjon: Urge-inkontinens (Urinary Incontinence, Urge)"
+monitor_inn: "OXYBUTYNIN"
+predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
 ---
 
 # Oxybutynin

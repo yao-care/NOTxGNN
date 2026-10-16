@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Canakinumab: predikert ny indikasjon Familiær middelhavsfeber, autosomal dominant (rangert som nr. 6 av 10 (evidensnivå L1). Opprinnelig indikasjon: Kryopyrin-assosierte periodiske syndromer"
+monitor_inn: "CANAKINUMAB"
+predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "syndrome with combined immunodeficiency", "periodic fever-infantile enterocolitis-autoinflammatory syndrome", "familial Mediterranean fever, autosomal dominant", "extracutaneous mastocytoma", "Blau syndrome", "monosomy X", "liver angiosarcoma"]
 ---
 
 # Canakinumab

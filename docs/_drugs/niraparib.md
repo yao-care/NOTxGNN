@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Niraparib: predikert ny indikasjon Cystisk neoplasme (rangert som nr. 2 (evidensnivå L5). Opprinnelig indikasjon: Kreft i egglederne, bukhinnen og eggstokkene"
+monitor_inn: "NIRAPARIB"
+predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
 ---
 
 # Niraparib

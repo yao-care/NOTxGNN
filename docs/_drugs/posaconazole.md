@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Posaconazole: predikert ny indikasjon Pneumocystose (evidensnivå L4). Opprinnelig indikasjon: Mykoser (soppinfeksjoner)"
+monitor_inn: "POSACONAZOLE"
+predicted_indications: ["pneumocystosis"]
 ---
 
 # Posaconazole

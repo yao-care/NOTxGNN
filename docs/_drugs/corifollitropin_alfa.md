@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Corifollitropin Alfa: predikert ny indikasjon Gastroduodenitt (evidensnivå L5). Opprinnelig indikasjon: Assistert reproduksjonsteknikk"
+monitor_inn: "CORIFOLLITROPIN ALFA"
+predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease", "migraine with or without aura, susceptibility to"]
 ---
 
 # Corifollitropin Alfa

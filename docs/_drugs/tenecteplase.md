@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Tenecteplase: predikert ny indikasjon Posteroinferiort hjerteinfarkt (evidensnivå L5). Opprinnelig indikasjon: Hjerteinfarkt (myokardinfarkt)"
+monitor_inn: "TENECTEPLASE"
+predicted_indications: ["posteroinferior myocardial infarction", "posterolateral myocardial infarction", "septal myocardial infarction", "congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
 ---
 
 # Tenecteplase

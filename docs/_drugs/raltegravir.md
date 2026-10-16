@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Raltegravir: predikert ny indikasjon Simian immunsviktvirusinfeksjon (evidensnivå L5). Opprinnelig indikasjon: HIV-infeksjon"
+monitor_inn: "RALTEGRAVIR"
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Raltegravir

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Pretomanid: predikert ny indikasjon Candidiasis (evidensnivå L5). Opprinnelig indikasjon: Multiresistent tuberkulose"
+monitor_inn: "PRETOMANID"
+predicted_indications: ["candidiasis", "leprosy", "coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery"]
 ---
 
 # Pretomanid

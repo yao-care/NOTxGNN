@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Aspartic Acid: predikert ny indikasjon Renal tubulær acidose (evidensnivå L5). Opprinnelig indikasjon: Ahornsirupsykdom (Maple Syrup Urine Disease)"
+monitor_inn: "aspartic acid"
+predicted_indications: ["renal tubular acidosis"]
 ---
 
 # Aspartic Acid

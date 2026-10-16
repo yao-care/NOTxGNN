@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Icosapent Ethyl: predikert ny indikasjon Hemoglobinopati (evidensnivå L5). Opprinnelig indikasjon: Dyslipidemi"
+monitor_inn: "ICOSAPENT ETHYL"
+predicted_indications: ["hemoglobinopathy"]
 ---
 
 # Icosapent Ethyl

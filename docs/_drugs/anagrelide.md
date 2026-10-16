@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Anagrelide: predikert ny indikasjon Reaktiv trombocytose (evidensnivå L4). Opprinnelig indikasjon: Essensiell trombocytemi"
+monitor_inn: "ANAGRELIDE"
+predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay syndrome"]
 ---
 
 # Anagrelide

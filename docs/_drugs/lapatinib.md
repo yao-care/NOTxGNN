@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Lapatinib: predikert ny indikasjon Dermatofibrosarcoma protuberans (evidensnivå L5). Opprinnelig indikasjon: Brystneoplasmer (brystkreft)"
+monitor_inn: "LAPATINIB"
+predicted_indications: ["dermatofibrosarcoma protuberans"]
 ---
 
 # Lapatinib

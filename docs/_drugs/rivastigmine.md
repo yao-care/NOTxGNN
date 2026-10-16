@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Rivastigmine: predikert ny indikasjon Glaukom (evidensnivå L4). Opprinnelig indikasjon: Demens, Alzheimers sykdom og Parkinsons sykdom"
+monitor_inn: "RIVASTIGMINE"
+predicted_indications: ["glaucoma"]
 ---
 
 # Rivastigmine

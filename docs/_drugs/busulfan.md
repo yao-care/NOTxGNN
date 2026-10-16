@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Busulfan: predikert ny indikasjon Myelodysplastisk syndrom (evidensnivå L2). Opprinnelig indikasjon: Hematopoetisk stamcelletransplantasjon"
+monitor_inn: "BUSULFAN"
+predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "feline acquired immunodeficiency syndrome"]
 ---
 
 # Busulfan

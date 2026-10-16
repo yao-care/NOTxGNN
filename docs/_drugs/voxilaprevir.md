@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Voxilaprevir: predikert ny indikasjon Hepatitt B-virusinfeksjon (evidensnivå L5). Opprinnelig indikasjon: Kronisk hepatitt C"
+monitor_inn: "voxilaprevir"
+predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "chronic hepatitis B virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
 ---
 
 # Voxilaprevir

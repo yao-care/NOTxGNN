@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Toremifene: predikert ny indikasjon HIV-infeksjon (evidensnivå L4). Opprinnelig indikasjon: Brystkreft (Breast Neoplasms)"
+monitor_inn: "TOREMIFENE"
+predicted_indications: ["HIV infectious disease"]
 ---
 
 # Toremifene

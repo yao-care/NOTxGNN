@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Prasterone: predikert ny indikasjon Heparinkofaktor 2-mangel (heparin cofactor 2 deficiency) (evidensnivå L5). Opprinnelig indikasjon: Postmenopause"
+monitor_inn: "PRASTERONE"
+predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "severe nonproliferative diabetic retinopathy", "thrombophilia due to protein S deficiency, autosomal recessive", "scleroderma (disease)", "complement component 4a deficiency", "pseudo-von Willebrand disease", "primary release disorder of platelets"]
 ---
 
 # Prasterone

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Pseudoephedrine: predikert ny indikasjon Sykdom i nesehulen (nasal cavity disease) (evidensnivå L4). Opprinnelig indikasjon: Rhinitis, allergic, seasonal (sesongbetinnet allergisk rhinitt)"
+monitor_inn: "pseudoephedrine"
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria"]
 ---
 
 # Pseudoephedrine

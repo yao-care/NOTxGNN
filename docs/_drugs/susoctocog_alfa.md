@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Susoctocog Alfa: predikert ny indikasjon Hemofili (rang 4 (evidensnivå L3). Opprinnelig indikasjon: Hemofili A"
+monitor_inn: "SUSOCTOCOG ALFA"
+predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "hemophilia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "congenital factor XIII deficiency", "adenosine deaminase deficiency"]
 ---
 
 # Susoctocog Alfa

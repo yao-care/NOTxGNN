@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Midazolam: predikert ny indikasjon Insomni (evidensnivå L3). Opprinnelig indikasjon: Epilepsi"
+monitor_inn: "MIDAZOLAM"
+predicted_indications: ["insomnia (disease)"]
 ---
 
 # Midazolam

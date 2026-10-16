@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Travoprost: predikert ny indikasjon Visceral kalcifylaksi (evidensnivå L5). Opprinnelig indikasjon: Åpenvinklet glaukom og okulær hypertensjon"
+monitor_inn: "TRAVOPROST"
+predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis", "idiopathic spontaneous coronary artery dissection", "hemangioendothelioma"]
 ---
 
 # Travoprost

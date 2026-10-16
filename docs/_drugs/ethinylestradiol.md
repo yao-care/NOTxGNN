@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Ethinylestradiol: predikert ny indikasjon Forhøyet plasmasink (evidensnivå L5). Opprinnelig indikasjon: Prevensjon"
+monitor_inn: "Ethinylestradiol"
+predicted_indications: ["zinc, elevated plasma"]
 ---
 
 # Ethinylestradiol

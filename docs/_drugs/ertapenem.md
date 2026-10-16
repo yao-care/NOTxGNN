@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Ertapenem: predikert ny indikasjon Bakteriell artritt (evidensnivå L4). Opprinnelig indikasjon: Bakterielle infeksjoner"
+monitor_inn: "Ertapenem"
+predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"]
 ---
 
 # Ertapenem

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 9
 last_modified_at: 2026-10-15
 description: "Dantrolene: predikert ny indikasjon Malign hypertermi, mottakelighet for (malignant hyperthermia… (evidensnivå L3). Opprinnelig indikasjon: Malign hypertermi"
+monitor_inn: "dantrolene"
+predicted_indications: ["malignant hyperthermia, susceptibility to", "moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis, susceptibility to", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
 ---
 
 # Dantrolene

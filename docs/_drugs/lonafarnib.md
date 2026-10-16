@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Lonafarnib: predikert ny indikasjon Lepra (evidensnivå L5). Opprinnelig indikasjon: Progeri"
+monitor_inn: "LONAFARNIB"
+predicted_indications: ["leprosy"]
 ---
 
 # Lonafarnib

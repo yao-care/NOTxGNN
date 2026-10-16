@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Cemiplimab: predikert ny indikasjon Adenoskvamøst gallblærekarsinom (evidensnivå L5). Opprinnelig indikasjon: Plateepitelkarsinom"
+monitor_inn: "CEMIPLIMAB"
+predicted_indications: ["gallbladder adenosquamous carcinoma", "glottis squamous cell carcinoma", "rectal cloacogenic carcinoma", "external ear basal cell carcinoma", "adenosquamous prostate carcinoma", "urethral verrucous carcinoma", "lung occult squamous cell carcinoma", "pancreatic adenosquamous carcinoma", "non-keratinizing sinonasal squamous cell carcinoma", "supraglottis squamous cell carcinoma"]
 ---
 
 # Cemiplimab

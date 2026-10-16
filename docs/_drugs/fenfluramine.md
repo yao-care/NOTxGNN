@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Fenfluramine: predikert ny indikasjon Proksimalt 16p11.2-mikrodelesjonssyndrom (evidensnivå L5). Opprinnelig indikasjon: Myoklonisk epilepsi (Epilepsies, Myoclonic)"
+monitor_inn: "Fenfluramine"
+predicted_indications: ["proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "obsolete hypertelorism (disease)", "frontorhiny"]
 ---
 
 # Fenfluramine

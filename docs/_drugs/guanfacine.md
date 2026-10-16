@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Guanfacine: predikert ny indikasjon Tourettes syndrom (evidensnivå L5). Opprinnelig indikasjon: Oppmerksomhetssvikt med hyperaktivitet (ADHD)"
+monitor_inn: "Guanfacine"
+predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
 ---
 
 # Guanfacine

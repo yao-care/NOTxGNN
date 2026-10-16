@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Linaclotide: predikert ny indikasjon Cauda equina-syndrom (evidensnivå L5). Opprinnelig indikasjon: Irritabelt tarmsyndrom"
+monitor_inn: "LINACLOTIDE"
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "insomnia (disease)"]
 ---
 
 # Linaclotide

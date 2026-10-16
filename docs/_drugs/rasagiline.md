@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Rasagiline: predikert ny indikasjon PLA2G6-assosiert nevrodegenerasjon (evidensnivå L5). Opprinnelig indikasjon: Parkinsons sykdom"
+monitor_inn: "RASAGILINE"
+predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
 ---
 
 # Rasagiline

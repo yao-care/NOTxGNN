@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Empagliflozin: predikert ny indikasjon Fokalt stiff-limb-syndrom (focal stiff limb syndrome) (evidensnivå L5). Opprinnelig indikasjon: Diabetes mellitus type 2"
+monitor_inn: "EMPAGLIFLOZIN"
+predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
 ---
 
 # Empagliflozin

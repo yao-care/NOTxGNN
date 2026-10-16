@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Upadacitinib: predikert ny indikasjon Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (evidensnivå L5). Opprinnelig indikasjon: Revmatoid artritt"
+monitor_inn: "UPADACITINIB"
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Upadacitinib

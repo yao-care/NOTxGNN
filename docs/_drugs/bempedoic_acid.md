@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Bempedoic Acid: predikert ny indikasjon Homozygot familiær hyperkolesterolemi (rangert som nr. 6 (evidensnivå L5). Opprinnelig indikasjon: Hyperkolesterolemi"
+monitor_inn: "BEMPEDOIC ACID"
+predicted_indications: ["hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "malignant catarrh", "infectious bovine rhinotracheitis", "cytomegalovirus infection", "homozygous familial hypercholesterolemia", "hyperthyroxinemia", "drug-induced osteoporosis", "multiple endocrine neoplasia", "pregnancy associated osteoporosis"]
 ---
 
 # Bempedoic Acid

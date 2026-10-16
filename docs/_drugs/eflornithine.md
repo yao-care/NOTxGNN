@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Eflornithine: predikert ny indikasjon Esotropi (evidensnivå L5). Opprinnelig indikasjon: Hirsutisme"
+monitor_inn: "EFLORNITHINE"
+predicted_indications: ["esotropia", "neurotrophic keratopathy"]
 ---
 
 # Eflornithine

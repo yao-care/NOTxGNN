@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Pitolisant: predikert ny indikasjon Insomni (evidensnivå L4). Opprinnelig indikasjon: Obstruktiv søvnapné (Ozawade)"
+monitor_inn: "PITOLISANT"
+predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome"]
 ---
 
 # Pitolisant

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Etelcalcetide: predikert ny indikasjon Hyperfosfatemi (evidensnivå L3). Opprinnelig indikasjon: Sekundær hyperparatyreoidisme"
+monitor_inn: "Etelcalcetide"
+predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease"]
 ---
 
 # Etelcalcetide

@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Zidovudine: predikert ny indikasjon AIDS-relatert kompleks (AIDS related complex) (evidensnivå L1). Opprinnelig indikasjon: HIV-infeksjon"
+monitor_inn: "ZIDOVUDINE"
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "AIDS related complex", "congenital human immunodeficiency virus"]
 ---
 
 # Zidovudine

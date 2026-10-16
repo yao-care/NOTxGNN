@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Cholic Acid: predikert ny indikasjon HIV-infeksjon (HIV infectious disease) (evidensnivå L4). Opprinnelig indikasjon: Fordøyelsessykdommer"
+monitor_inn: "CHOLIC ACID"
+predicted_indications: ["HIV infectious disease", "obsolete familial combined hyperlipidemia", "homozygous familial hypercholesterolemia", "biotin metabolic disease", "vitamin deficiency disorder", "hereditary hemochromatosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hemosiderosis", "disorder of phenylalanine metabolism", "bone Paget disease"]
 ---
 
 # Cholic Acid

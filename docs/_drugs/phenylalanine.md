@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Phenylalanine: predikert ny indikasjon Skleroserende kolangitt (evidensnivå L4). Opprinnelig indikasjon: Maple Syrup Urine Disease (lønnesirupsykdom)"
+monitor_inn: "phenylalanine"
+predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
 ---
 
 # Phenylalanine

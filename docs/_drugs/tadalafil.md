@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Tadalafil: predikert ny indikasjon Ambras-type hypertrichosis universalis congenita (evidensnivå L5). Opprinnelig indikasjon: Erektil dysfunksjon (øvrige: pulmonal hypertensjon…"
+monitor_inn: "TADALAFIL"
+predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 ---
 
 # Tadalafil

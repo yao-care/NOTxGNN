@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Vilanterol: predikert ny indikasjon Obstruktiv lungesykdom (evidensnivå L1). Opprinnelig indikasjon: Kronisk obstruktiv lungesykdom (KOLS)"
+monitor_inn: "VILANTEROL"
+predicted_indications: ["obstructive lung disease", "interstitial emphysema", "hyperlucent lung", "compensatory emphysema", "tracheal stenosis", "bronchial neoplasm (disease)", "congenital lobar emphysema", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 ---
 
 # Vilanterol

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Histidine: predikert ny indikasjon Gastroparese (evidensnivå L5). Opprinnelig indikasjon: Lønnesirupsykdom (Maple Syrup Urine Disease)"
+monitor_inn: "histidine"
+predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
 ---
 
 # Histidine

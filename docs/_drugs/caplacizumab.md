@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Caplacizumab: predikert ny indikasjon Primær frisetningsforstyrrelse i blodplater (evidensnivå L5). Opprinnelig indikasjon: Trombotisk trombocytopenisk purpura (TTP)"
+monitor_inn: "CAPLACIZUMAB"
+predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "thrombotic thrombocytopenic purpura", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "hemophilia", "platelet-type bleeding disorder"]
 ---
 
 # Caplacizumab

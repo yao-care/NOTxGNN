@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Tryptophan: predikert ny indikasjon Rastløse bens syndrom (evidensnivå L3). Opprinnelig indikasjon: Lønnesirupsyke (Maple Syrup Urine Disease)"
+monitor_inn: "tryptophan"
+predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
 ---
 
 # Tryptophan

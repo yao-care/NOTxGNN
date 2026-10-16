@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ruxolitinib: predikert ny indikasjon Hemofagocytisk syndrom assosiert med infeksjon (rangert som nr. 9 i m… (evidensnivå L3). Opprinnelig indikasjon: Vitiligo"
+monitor_inn: "Ruxolitinib"
+predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"]
 ---
 
 # Ruxolitinib

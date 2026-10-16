@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Catridecacog: predikert ny indikasjon Primær frigjøringsforstyrrelse i blodplater (evidensnivå L5). Opprinnelig indikasjon: Arvelige koagulasjonsforstyrrelser (Blood Coagulation Disorders…"
+monitor_inn: "CATRIDECACOG"
+predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia"]
 ---
 
 # Catridecacog

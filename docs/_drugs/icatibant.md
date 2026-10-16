@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Icatibant: predikert ny indikasjon C1-hemmermangel (C1 inhibitor deficiency) (evidensnivå L1). Opprinnelig indikasjon: Arvelig angioødem"
+monitor_inn: "ICATIBANT"
+predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
 ---
 
 # Icatibant
