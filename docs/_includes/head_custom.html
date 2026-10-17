@@ -168,9 +168,9 @@ window.TXGNN_ANALYTICS = {
     {
       "@type": "WebSite",
       "@id": "https://notxgnn.yao.care/#website",
-      "name": "NOTxGNN Drug Repurposing Evidence Reports",
+      "name": "Evidensrapporter om ny bruk av legemidler fra NOTxGNN",
       "url": "https://notxgnn.yao.care/",
-      "description": "AI-predicted new indications for medicines approved in Norway, with clinical evidence reports",
+      "description": "KI-predikerte nye indikasjoner for legemidler godkjent i Norge, med kliniske evidensrapporter",
       "isPartOf": {
         "@id": "https://notxgnn.yao.care/#software"
       },
@@ -181,8 +181,8 @@ window.TXGNN_ANALYTICS = {
     {
       "@type": "WebPage",
       "@id": "https://notxgnn.yao.care/#article",
-      "headline": "Drug Repurposing: From Data to Evidence",
-      "description": "AI-predicted new indications for medicines approved in Norway, with clinical trial and literature evidence reports",
+      "headline": "Ny bruk av legemidler: fra data til evidens",
+      "description": "KI-predikerte nye indikasjoner for legemidler godkjent i Norge, med evidensrapporter fra kliniske studier og litteratur",
       "author": {
         "@id": "https://www.yao.care/#organization"
       },
@@ -219,8 +219,8 @@ window.TXGNN_ANALYTICS = {
     {
       "@type": "AboutPage",
       "@id": "{{ page.url | absolute_url }}#webpage",
-      "name": "About NOTxGNN",
-      "description": "About the NOTxGNN drug repurposing evidence reports: project overview, data sources and how to cite",
+      "name": "Om NOTxGNN",
+      "description": "Om NOTxGNNs evidensrapporter om ny bruk av legemidler: prosjektoversikt, datakilder og sitering",
       "url": "{{ page.url | absolute_url }}",
       "datePublished": "2026-02-19",
       "dateModified": "2026-02-19",
@@ -234,26 +234,26 @@ window.TXGNN_ANALYTICS = {
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What is drug repurposing?",
+          "name": "Hva er ny bruk av legemidler?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Drug repurposing is the discovery of new therapeutic uses for existing medicines. Developing a new drug takes 10-15 years and USD 1-2 billion, whereas repurposing takes 3-5 years and USD 100-300 million, and human safety data already exist."
+            "text": "Ny bruk av legemidler er å finne nye terapeutiske bruksområder for eksisterende legemidler. Å utvikle et nytt legemiddel tar 10-15 år og 1-2 milliarder USD, mens ny bruk tar 3-5 år og 100-300 millioner USD, og sikkerhetsdata fra mennesker finnes allerede."
           }
         },
         {
           "@type": "Question",
-          "name": "What is TxGNN?",
+          "name": "Hva er TxGNN?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "TxGNN is a deep learning model developed by a Harvard Medical School team. It integrates a knowledge graph of 17,080 nodes and uses a graph neural network to predict new drug-disease associations."
+            "text": "TxGNN er en dyplæringsmodell utviklet av et team ved Harvard Medical School. Den bruker et grafbasert nevralt nettverk trent på en biomedisinsk kunnskapsgraf med 17 080 sykdommer til å predikere nye sammenhenger mellom legemidler og sykdommer."
           }
         },
         {
           "@type": "Question",
-          "name": "What data sources are used?",
+          "name": "Hvilke datakilder brukes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This platform integrates public data sources including TxGNN (AI predictions), ClinicalTrials.gov (clinical trials), PubMed (literature), DrugBank (drug information), DMP (marketing authorisations in Norway) and DDInter (drug interactions)."
+            "text": "Plattformen samler offentlige datakilder som TxGNN (KI-prediksjoner), ClinicalTrials.gov (kliniske studier), PubMed (litteratur), DrugBank (legemiddelinformasjon), DMP (markedsføringstillatelser i Norge) og DDInter (interaksjoner)."
           }
         }
       ]
@@ -289,32 +289,32 @@ window.TXGNN_ANALYTICS = {
     {
       "@type": "HowTo",
       "@id": "{{ page.url | absolute_url }}#howto",
-      "name": "NOTxGNN Prediction and Validation Methods",
-      "description": "The full workflow from AI prediction to evidence validation",
+      "name": "NOTxGNNs metoder for prediksjon og validering",
+      "description": "Hele prosessen fra KI-prediksjon til validering av evidens",
       "step": [
         {
           "@type": "HowToStep",
           "position": 1,
-          "name": "TxGNN prediction",
-          "text": "Drug-disease relationships are predicted with a knowledge graph and a graph neural network, using a minimum prediction score of 99%."
+          "name": "TxGNN-prediksjon",
+          "text": "TxGNNs grafbaserte nevrale nettverk gir legemiddel–sykdom-par en score. Indikasjoner og kontraindikasjoner som allerede er registrert for legemidlet i kunnskapsgrafen, utelates, og bare prediksjoner med score på minst 0,99 vises."
         },
         {
           "@type": "HowToStep",
           "position": 2,
-          "name": "Evidence collection",
-          "text": "For each predicted pair, evidence is collected automatically from ClinicalTrials.gov, PubMed, DrugBank, DMP and other sources."
+          "name": "Innsamling av evidens",
+          "text": "For hvert predikerte par samles evidens automatisk fra ClinicalTrials.gov, PubMed, DrugBank, DMP og andre kilder."
         },
         {
           "@type": "HowToStep",
           "position": 3,
-          "name": "Evidence grading",
-          "text": "Based on the collected evidence, each prediction is graded L1-L5: L1 is the highest (multiple Phase 3 RCTs) and L5 is model prediction only."
+          "name": "Gradering av evidens",
+          "text": "Ut fra innsamlet evidens graderes hver prediksjon L1-L5: L1 er høyest (flere fase 3-RCT-er), og L5 er bare modellprediksjon."
         },
         {
           "@type": "HowToStep",
           "position": 4,
-          "name": "Decision recommendation",
-          "text": "Based on the evidence level and other factors, a Go, Proceed, Consider, Explore or Hold recommendation is given."
+          "name": "Beslutningsanbefaling",
+          "text": "Ut fra evidensnivå og andre faktorer gis en anbefaling: Go, Proceed, Consider, Explore eller Hold."
         }
       ]
     },
@@ -349,15 +349,15 @@ window.TXGNN_ANALYTICS = {
     {
       "@type": "CollectionPage",
       "@id": "{{ page.url | absolute_url }}#webpage",
-      "name": "Drug Reports - NOTxGNN",
-      "description": "All NOTxGNN drug evidence reports",
+      "name": "Legemiddelrapporter - NOTxGNN",
+      "description": "Alle NOTxGNNs evidensrapporter for legemidler",
       "url": "{{ page.url | absolute_url }}"
     },
     {
       "@type": "ItemList",
       "@id": "{{ page.url | absolute_url }}#itemlist",
-      "name": "NOTxGNN Drug Evidence Reports",
-      "description": "Drug repurposing evidence reports for medicines approved in Norway",
+      "name": "NOTxGNNs evidensrapporter for legemidler",
+      "description": "Evidensrapporter om ny bruk av legemidler godkjent i Norge",
       "numberOfItems": {{ site.drugs.size }},
       "itemListOrder": "https://schema.org/ItemListOrderAscending"
     },
@@ -374,7 +374,7 @@ window.TXGNN_ANALYTICS = {
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Drug Reports",
+          "name": "Legemiddelrapporter",
           "item": "{{ page.url | absolute_url }}"
         }
       ]
@@ -392,7 +392,7 @@ window.TXGNN_ANALYTICS = {
     {
       "@type": "CollectionPage",
       "@id": "{{ page.url | absolute_url }}#webpage",
-      "name": "Health News Monitoring - NOTxGNN",
+      "name": "Overvåking av helsenyheter - NOTxGNN",
       "description": {{ page.description | default: 'Automated monitoring of the latest health news on the drugs and indications covered' | jsonify }},
       "url": "{{ page.url | absolute_url }}",
       "isPartOf": {
@@ -400,7 +400,7 @@ window.TXGNN_ANALYTICS = {
       },
       "about": {
         "@type": "Thing",
-        "name": "Health News"
+        "name": "Helsenyheter"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -420,7 +420,7 @@ window.TXGNN_ANALYTICS = {
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Health News",
+          "name": "Helsenyheter",
           "item": "{{ page.url | absolute_url }}"
         }
       ]
@@ -472,7 +472,7 @@ window.TXGNN_ANALYTICS = {
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Health News",
+          "name": "Helsenyheter",
           "item": "https://notxgnn.yao.care/news/"
         },
         {
