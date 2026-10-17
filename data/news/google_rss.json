@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-17T06:41:48.785436+00:00",
+  "fetched_at": "2026-10-17T11:27:23.444936+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -11,16 +11,6 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
-      "id": "da2ae22bf298",
-      "title": "Helse, Medisiner | Ny slankemedisin får ekspertene til å måpe: – Helt vanvittig - Oppland Arbeiderblad",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOE05WlNFWEd5dUJ3VHEwT3NTdTdjNW43bFlsLUZWRmxaZWNuYVZxOFU1OW9BZGFIR01FUDQyd0ZQSHZrMGVuWU5HR2VjZ09pRjFIYU53TDVzOW9qVERwSlNHNEJGODQ4LVNqNE5MSkdfeDB0X01CUXIyZUQ0XzJEd20wVk5KZC1ZNDJydF9ZTGJvQU0?oc=5",
-      "published": "2026-10-12T10:05:36+00:00",
-      "source": {
-        "name": "Oppland Arbeiderblad",
-        "url": "https://www.oa.no"
       }
     },
     {
@@ -44,16 +34,6 @@
       }
     },
     {
-      "id": "c8157e2a28c1",
-      "title": "17 slagpasienter unnslapp døden takket være rettidig bruk av et «gullstandard»-legemiddel. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbDFrRGJ5ZDgxcGVYZUtTdUpsR0xpRkdTOG05M1VNMk9NUzR0Q2dPTHA5WGpLQ0RrcDFRQzVZdHFmMkd1LUs0Q1ktZ0tiWFNPdmx2UWlfTzFYSmlIQ0M3SThqLUowMDZ2Z1dUOXR3ck5XbmVGSG9tWjN5VFRKd1hNcmYweW5oSmE4cERka25DazZ4Zw?oc=5",
-      "published": "2026-10-17T03:40:31+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "4f989bd3393b",
       "title": "Nedgang i bruk av vanedannande legemiddel hos eldre - Helsedirektoratet",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUTVvZ21Kd3VQOUhyWFhjX1BMcU1fSUtQcGdocGk5X3B6bFNsLU81SzBtRkZMaDVhT0U4aXhIai1sOUpMU2tKQTJCSDB5UUdJbjVaa2hRMXg0RGxXUTdrWGVPcDJveVdiOVlRT3duV2t0NkdZejB0TlBYTjlLT1VZaERqQXBac09tRU5PMnZVVUpRTXdxdWJR?oc=5",
@@ -71,6 +51,16 @@
       "source": {
         "name": "Folkehelseinstituttet - FHI",
         "url": "https://www.fhi.no"
+      }
+    },
+    {
+      "id": "c8157e2a28c1",
+      "title": "17 slagpasienter unnslapp døden takket være rettidig bruk av et «gullstandard»-legemiddel. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbDFrRGJ5ZDgxcGVYZUtTdUpsR0xpRkdTOG05M1VNMk9NUzR0Q2dPTHA5WGpLQ0RrcDFRQzVZdHFmMkd1LUs0Q1ktZ0tiWFNPdmx2UWlfTzFYSmlIQ0M3SThqLUowMDZ2Z1dUOXR3ck5XbmVGSG9tWjN5VFRKd1hNcmYweW5oSmE4cERka25DazZ4Zw?oc=5",
+      "published": "2026-10-17T03:40:31+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -134,6 +124,26 @@
       }
     },
     {
+      "id": "98f7d9540ec7",
+      "title": "Stor og ønsket nedgang i bruk av vanedannende legemidler: – Dette er til brukernes beste - Telen",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVmlURmNfZC1qNHZUM3pCUnc3d05MeF9hb0FnRGYydDBhN2xnTHRkSzVpdUVJV1ZobmRXZW9QMkN0bzNBMi1GZEdMUlVzaTB1dkx3WjV5cGNlWkgxWElSTUVLZUFEdkk1Y1RFazJJamhxcmpKOS1zLVhiaUN4Sm1IN00xQVN1QkMtS1Vfa3FtWGh5Z2xjcTA4UzVBTGppTnJodzFDaGhrMzZFVnhxNXpkc2NTMDk0MHdqWm1Tbg?oc=5",
+      "published": "2026-10-09T13:24:28+00:00",
+      "source": {
+        "name": "Telen",
+        "url": "https://www.telen.no"
+      }
+    },
+    {
+      "id": "049ff33f200b",
+      "title": "Én felles løsning for søknader om kostbare legemidler i sykehusene - Legeforeningen",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVWlWcUNsNTJIVHpVMjVKVG1sQTVpN3cxSGFjMi1pNm5wdE9lQlVkd2tWX0NiN1lEU2VmdVkyUkNwZFFZNGpYZU5QeEpWY2JHOHRTdll0Wjhjdkp5d1lxR1FNbHRGeUVrQThRd3d6emh2UzZxZ1RBWnJpUUhCMnRBdm1HTjRSSW9TWC16MmpHXzlFU1Jrd1EyYnZBaUFGVEVHc0JHTXVUTQ?oc=5",
+      "published": "2026-09-25T07:00:00+00:00",
+      "source": {
+        "name": "Legeforeningen",
+        "url": "https://www.legeforeningen.no"
+      }
+    },
+    {
       "id": "4cb59c666e4f",
       "title": "Norge i Europatoppen med å innføre viktige, nye legemidler - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWGdUS0xWenVsYmh5eG00LWtFX1NIcVYzNy11U0VEdGNidU8ya0lTSDl3amN6eUljeDlXM2xHZkdPTGNnX2Q4cHliS2xpWjdsLTFabXlVc1ZPMmszNDlxa2RjVVpEOEdkak55NmtRbnplbDlNN1RzRUtxLUxSVnRDTE0tSEFJZnJRT0FMcHlCTUNpY3JrZy1oam4yNFRBUkg1ZUstdUVSOTRUc3NVaTBMeDQyMHhSYm0wdmVtTndRRzg0YUprbHBaaFJFT1h6T3ItVm9VdA?oc=5",
@@ -194,36 +204,6 @@
       }
     },
     {
-      "id": "83e9b53f4622",
-      "title": "Long Chau ble den eneste representanten fra legemiddel- og helsevesenets detaljhandel som ble inkludert på Forbes Vietnams liste over «Top 50 ESG 2026». - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPd2VfWWdROFhxa3NXTjd0T2N0NHZXc01VRzVOOS1yTXpwOXJyWHpvNXlOSHhJYU51TFJzQndxWmxOdmczaTZNZTBSQVdDYzVmQlhfZDJ6bFhVdVB2SmxkNkRCWTM1dGZKR2ZCbTF4R2ZIRDk2cEM4TXQwQjlzU05WSG55RTAzNERJTXhNX0N6RlpBa2NEY2FxWnJyUXVBQ2xyX2V4WHk2ZTRJYzV3WnExSVh5YWgwb0w1dWxEWndWbjVGbTRzZVFUdnhUZFZ3dkdDcFl5a1ZyVFY5M0E?oc=5",
-      "published": "2026-10-16T08:07:54+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "98f7d9540ec7",
-      "title": "Stor og ønsket nedgang i bruk av vanedannende legemidler: – Dette er til brukernes beste - Telen",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVmlURmNfZC1qNHZUM3pCUnc3d05MeF9hb0FnRGYydDBhN2xnTHRkSzVpdUVJV1ZobmRXZW9QMkN0bzNBMi1GZEdMUlVzaTB1dkx3WjV5cGNlWkgxWElSTUVLZUFEdkk1Y1RFazJJamhxcmpKOS1zLVhiaUN4Sm1IN00xQVN1QkMtS1Vfa3FtWGh5Z2xjcTA4UzVBTGppTnJodzFDaGhrMzZFVnhxNXpkc2NTMDk0MHdqWm1Tbg?oc=5",
-      "published": "2026-10-09T13:24:28+00:00",
-      "source": {
-        "name": "Telen",
-        "url": "https://www.telen.no"
-      }
-    },
-    {
-      "id": "049ff33f200b",
-      "title": "Én felles løsning for søknader om kostbare legemidler i sykehusene - Legeforeningen",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVWlWcUNsNTJIVHpVMjVKVG1sQTVpN3cxSGFjMi1pNm5wdE9lQlVkd2tWX0NiN1lEU2VmdVkyUkNwZFFZNGpYZU5QeEpWY2JHOHRTdll0Wjhjdkp5d1lxR1FNbHRGeUVrQThRd3d6emh2UzZxZ1RBWnJpUUhCMnRBdm1HTjRSSW9TWC16MmpHXzlFU1Jrd1EyYnZBaUFGVEVHc0JHTXVUTQ?oc=5",
-      "published": "2026-09-25T07:00:00+00:00",
-      "source": {
-        "name": "Legeforeningen",
-        "url": "https://www.legeforeningen.no"
-      }
-    },
-    {
       "id": "094a0379954d",
       "title": "(+) Nesten ingen av legemiddel-meldingene sendt innen fristen: – Vi er selvsagt ikke fornøyde - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPLUdNMl8yV2Itc3pjb0VHWlNObkVkSUt5WGdoc050SkFOd2Q5UE5SYWpZUVBhTzB2SEJNYm5WcUZVNTNnVmZFSHJnTnR1Q25uMzFtaDhMQlFiQ05zbUdmcjdCdkxpYm5aTmQzNl9WNzRxY0JEQkE4QzZBSkU5TnJEbWhxRDNfeXk2dXJoa1ppNzVUX1o4NEZDWDNCNjNPR0tuSlIxUlpJcVFHUGtiYzFmQ3VuUFdySlN1ZjRHUl92YXd0SXlCNEJSWG5sSWJmanlDcWVISENMZFR5WVA3WXc?oc=5",
@@ -254,16 +234,6 @@
       }
     },
     {
-      "id": "b832ca46615b",
-      "title": "Frasene: Snarveien til slankemedisin - Dagbladet",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UVHBfRzhWM3NUQS1RMmpKZGpxODQtcjM1Y2hoaFlTNll6RlVmMEJ4S3ZvMEgxcEJBTF94T3BZYWZ3M0xFeEtvejBWUGQ1N2FPTGVKS09PVkhlNU1fZ1VFeFJBTGxqemdQV3ViTk40MkpnRm40UVhsYVBPbldBdjg?oc=5",
-      "published": "2026-10-10T22:25:23+00:00",
-      "source": {
-        "name": "Dagbladet",
-        "url": "https://www.dagbladet.no"
-      }
-    },
-    {
       "id": "cbc2814dfa04",
       "title": "Helse, Medisin | Medisinmangel vart personleg for Beate: Tok kvinnehelse og beredskap til Arendalsuka - Avisa Nordhordland",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYzVpV0hVVHhTaEdlSTV2eDZ0eE5aV3NFbm1mUUtMelZ4ZFU0NmhpdE1TdUplaDRyU3djTkdtanlPb3Jaa3dxX29VdXk3WVcxXzgxcDJKaDI3ZGh4NDdscmozZmJYUkFUUnVrX2dFVG1vd0Y3NjVhWm0yQndIT3l6bG5tZ0lveS1ndWFmU2tiSDdjejFfbU9YSFJrYjM2dG5lTHM4Y19SbVVLUFlWMVJKd3ZEV1hiR3FVMTgwNThlX2tKVDA?oc=5",
@@ -271,6 +241,26 @@
       "source": {
         "name": "Avisa Nordhordland",
         "url": "https://www.nordhordland.no"
+      }
+    },
+    {
+      "id": "83e9b53f4622",
+      "title": "Long Chau ble den eneste representanten fra legemiddel- og helsevesenets detaljhandel som ble inkludert på Forbes Vietnams liste over «Top 50 ESG 2026». - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPd2VfWWdROFhxa3NXTjd0T2N0NHZXc01VRzVOOS1yTXpwOXJyWHpvNXlOSHhJYU51TFJzQndxWmxOdmczaTZNZTBSQVdDYzVmQlhfZDJ6bFhVdVB2SmxkNkRCWTM1dGZKR2ZCbTF4R2ZIRDk2cEM4TXQwQjlzU05WSG55RTAzNERJTXhNX0N6RlpBa2NEY2FxWnJyUXVBQ2xyX2V4WHk2ZTRJYzV3WnExSVh5YWgwb0w1dWxEWndWbjVGbTRzZVFUdnhUZFZ3dkdDcFl5a1ZyVFY5M0E?oc=5",
+      "published": "2026-10-16T08:07:54+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "b832ca46615b",
+      "title": "Frasene: Snarveien til slankemedisin - Dagbladet",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UVHBfRzhWM3NUQS1RMmpKZGpxODQtcjM1Y2hoaFlTNll6RlVmMEJ4S3ZvMEgxcEJBTF94T3BZYWZ3M0xFeEtvejBWUGQ1N2FPTGVKS09PVkhlNU1fZ1VFeFJBTGxqemdQV3ViTk40MkpnRm40UVhsYVBPbldBdjg?oc=5",
+      "published": "2026-10-10T22:25:23+00:00",
+      "source": {
+        "name": "Dagbladet",
+        "url": "https://www.dagbladet.no"
       }
     },
     {
@@ -324,16 +314,6 @@
       }
     },
     {
-      "id": "779e45cee086",
-      "title": "Leserinnlegg, Vanedannende medisiner | God helse handler om mer enn en resept - Kragerø Blad Vestmar",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02djNpVWI5eWpzUnhzMUM4cDZXT2YzQWV0MVFFNUJPZ3dmTnRmYVpaZm9YSXVXSWVGYlBfQUpldjUxQ20wamdMTjFtUGZkZGRLLU8zYTVISHNJaHZfOVQ1WFpvVDNiNkVmQ0I0QUduSXV2dVNzdEItRw?oc=5",
-      "published": "2026-09-18T07:00:00+00:00",
-      "source": {
-        "name": "Kragerø Blad Vestmar",
-        "url": "https://www.kv.no"
-      }
-    },
-    {
       "id": "ffc64f8bfef0",
       "title": "I disse fylkene bruker de mest legemidler - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYmlkLUY1UFFJVUlzcmtnaV9DblNXaTBIcWYzZzFTVGZRblBhYVAteVF4Q3h5Ym9jMUVzQVlWbk9rcFB5TUhQX2RwWkZ2NVVpTXh5VHZNRlZFbm5uY0JwX1VNWDVweWE1Q2o0SlpSOElWb0RBc0hGRVpGRzIzTEEtRWlJMGxxd3dEWnpVTGhvWVRTWWkybDMwdFJIUXlGV0NkM01vY3l5MzVmNU5OVkxJUWhXVWx3QlNKeGhYUEdfSQ?oc=5",
@@ -341,6 +321,26 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "521efe098c2e",
+      "title": "Ja til verdens dyreste legemiddel: Må vare i 10 år for å lønne seg - HealthTalk",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdUU4Y2lJa2lqSU4wRGhXb3FHUk1Ba3kzZXJ6M0piNzFVRGt0TVgzM2ZXS2ZBSlJKd2ktWUgwRlNWbUlfblphbjJITHdnTnVwLVo1YUpTMjJtbk5kdWo3QlJoT2Y1ZmlaYTgxcW14Q0IzQzJwdHpCeGhFWnA0dWJnM3VRcDZxMkdCNk0tTWx6MUEtemlOdVVJOG9JNmJlYklLSkdXdUU0NUg4LVExb0RqN3dYVkkyNmw5MU9JRnpLTm5MRThLUlBQNFRrUGpSQkRicktzOVBQcXQ?oc=5",
+      "published": "2026-03-18T07:00:00+00:00",
+      "source": {
+        "name": "HealthTalk",
+        "url": "https://www.healthtalk.no"
+      }
+    },
+    {
+      "id": "779e45cee086",
+      "title": "Leserinnlegg, Vanedannende medisiner | God helse handler om mer enn en resept - Kragerø Blad Vestmar",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02djNpVWI5eWpzUnhzMUM4cDZXT2YzQWV0MVFFNUJPZ3dmTnRmYVpaZm9YSXVXSWVGYlBfQUpldjUxQ20wamdMTjFtUGZkZGRLLU8zYTVISHNJaHZfOVQ1WFpvVDNiNkVmQ0I0QUduSXV2dVNzdEItRw?oc=5",
+      "published": "2026-09-18T07:00:00+00:00",
+      "source": {
+        "name": "Kragerø Blad Vestmar",
+        "url": "https://www.kv.no"
       }
     },
     {
@@ -401,16 +401,6 @@
       "source": {
         "name": "TV 2",
         "url": "https://www.tv2.no"
-      }
-    },
-    {
-      "id": "521efe098c2e",
-      "title": "Ja til verdens dyreste legemiddel: Må vare i 10 år for å lønne seg - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdUU4Y2lJa2lqSU4wRGhXb3FHUk1Ba3kzZXJ6M0piNzFVRGt0TVgzM2ZXS2ZBSlJKd2ktWUgwRlNWbUlfblphbjJITHdnTnVwLVo1YUpTMjJtbk5kdWo3QlJoT2Y1ZmlaYTgxcW14Q0IzQzJwdHpCeGhFWnA0dWJnM3VRcDZxMkdCNk0tTWx6MUEtemlOdVVJOG9JNmJlYklLSkdXdUU0NUg4LVExb0RqN3dYVkkyNmw5MU9JRnpLTm5MRThLUlBQNFRrUGpSQkRicktzOVBQcXQ?oc=5",
-      "published": "2026-03-18T07:00:00+00:00",
-      "source": {
-        "name": "HealthTalk",
-        "url": "https://www.healthtalk.no"
       }
     },
     {
@@ -944,16 +934,6 @@
       }
     },
     {
-      "id": "4b273316c354",
-      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - Stortinget",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjQ0cWxEYW91Y2d1SDZRZU9aM1lNaXg1cTROb0hKMk1INUlOZmh2dzB1V3o0dHU4SHNZUGNGMlRTQjJSZEhmdWJXMGlyOGlqbE5Ic0JDUk8xd1Nsam9KVXVZUmhMXzk4M0w1OVpaQmhmNENRXzE1cFlRWWt5bXpJekU1YnVyNzVPQ1FlX3IyMWNKSXJ0Z3p2ZDdpYVZKWVo0SXE3T3duMDBvYlBQOHNjTm95UEJVY0kzRXZudg?oc=5",
-      "published": "2025-10-12T14:11:53+00:00",
-      "source": {
-        "name": "Stortinget",
-        "url": "https://www.stortinget.no"
-      }
-    },
-    {
       "id": "2e5108ce05d3",
       "title": "Politisk opprør mot medisin-treghet – vil legge ned Beslutningsforum - VG",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQakNBTWRIODFobmlMV2l3cG5NNTlza0RIVmhnRnp0V0FGWWZOalRMLXhCRm14dlc1emFPSk9QcE4zVzFkcEUzbTR2MDBORU9WbVRVX3NpYlljcE81c1hxZDhVbXRndzFnb0VaSTdjUzNZSTk5a19ydTlTdkNCemhXbTd2WHhGNERHTVNWUURWeGttUGNiMGhMNmlPYTI2U05xRkthSw?oc=5",
@@ -961,6 +941,16 @@
       "source": {
         "name": "VG",
         "url": "https://www.vg.no"
+      }
+    },
+    {
+      "id": "4b273316c354",
+      "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - Stortinget",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjQ0cWxEYW91Y2d1SDZRZU9aM1lNaXg1cTROb0hKMk1INUlOZmh2dzB1V3o0dHU4SHNZUGNGMlRTQjJSZEhmdWJXMGlyOGlqbE5Ic0JDUk8xd1Nsam9KVXVZUmhMXzk4M0w1OVpaQmhmNENRXzE1cFlRWWt5bXpJekU1YnVyNzVPQ1FlX3IyMWNKSXJ0Z3p2ZDdpYVZKWVo0SXE3T3duMDBvYlBQOHNjTm95UEJVY0kzRXZudg?oc=5",
+      "published": "2025-10-12T14:11:53+00:00",
+      "source": {
+        "name": "Stortinget",
+        "url": "https://www.stortinget.no"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Anbud365",
         "url": "https://www.anbud365.no"
+      }
+    },
+    {
+      "id": "4ef5b9eada0b",
+      "title": "Betring av gjennomgang av legemiddel og status for ernæring på sjukeheim - Helsedirektoratet",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNnlCdWYxRUVRYzBsVTJMSmNRNmo4X2F1MTl4YkJfY0JJVEZHMkpObE1YOXdkanE5RmF3SFRCZEctYm9SSU01Q3FtNXNyQktrX1JaLVZhVUlxU3lNRmUtRFl2N2NqTndUTjJkOHYzamUzZlFnU1hwYXdmYWVkSEJEdXI2N1dHOElzTHFVT09UeDZkX3UyNHJKMVRqQVdLSFZhbmZ3U1dWMWNHMjRkakRxTlNwM2s?oc=5",
+      "published": "2024-06-19T07:00:00+00:00",
+      "source": {
+        "name": "Helsedirektoratet",
+        "url": "https://www.helsedirektoratet.no"
       }
     }
   ]
