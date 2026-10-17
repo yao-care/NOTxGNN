@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Ozanimod: predikert ny indikasjon Progressiv relapderende multippel sklerose (evidensnivå L4). Opprinnelig indikasjon: Relapderende-remitterende multippel sklerose"
-monitor_inn: "Ozanimod"
-predicted_indications: ["progressive relapsing multiple sclerosis"]
 ---
 
 # Ozanimod
