@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Pemetrexed: predikert ny indikasjon Malignt peritonealt mesoteliom (evidensnivå L2). Opprinnelig indikasjon: Ikke-småcellet lungekreft"
 monitor_inn: "PEMETREXED"
-predicted_indications: ["pleural adenomatoid tumor", "pleural biphasic mesothelioma", "pericardium cancer", "well differentiated papillary mesothelioma", "lymphohistiocytoid mesothelioma", "iminoglycinuria"]
+predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 ---
 
 # Pemetrexed

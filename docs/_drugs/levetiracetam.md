@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Levetiracetam: predikert ny indikasjon Status epilepticus (høyest evidensnivå blant de 10 predikerte indikas… (evidensnivå L1). Opprinnelig indikasjon: Epilepsi"
 monitor_inn: "LEVETIRACETAM"
-predicted_indications: ["visual epilepsy", "orgasm-induced seizures", "thinking seizures", "micturation-induced seizures", "audiogenic seizures", "eating seizures", "startle epilepsy", "reading seizures", "status epilepticus", "beta-ketothiolase deficiency"]
+predicted_indications: ["orgasm-induced seizures", "thinking seizures", "micturation-induced seizures", "audiogenic seizures", "eating seizures", "reading seizures", "beta-ketothiolase deficiency"]
 ---
 
 # Levetiracetam

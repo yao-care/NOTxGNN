@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-15
 description: "Formoterol: predikert ny indikasjon Respiratorisk misdannelse (evidensnivå L5). Opprinnelig indikasjon: Kronisk obstruktiv lungesykdom (KOLS)"
 monitor_inn: "formoterol"
-predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome", "obstructive lung disease", "asthma-related traits, susceptibility to"]
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 ---
 
 # Formoterol

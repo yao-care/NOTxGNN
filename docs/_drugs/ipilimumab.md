@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-15
 description: "Ipilimumab: predikert ny indikasjon Choroideremi (evidensnivå L5). Opprinnelig indikasjon: Melanom, nyrecellekarsinom, ikke-småcellet lungekreft…"
 monitor_inn: "IPILIMUMAB"
-predicted_indications: ["choroideremia", "non-cutaneous melanoma"]
+predicted_indications: ["choroideremia"]
 ---
 
 # Ipilimumab
