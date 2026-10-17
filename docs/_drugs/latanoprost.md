@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Latanoprost: predikert ny indikasjon Primær arvelig glaukom (evidensnivå L4). Opprinnelig indikasjon: Åpenvinklet glaukom (Glaucoma, Open-Angle)"
 monitor_inn: "LATANOPROST"
-predicted_indications: ["primary hereditary glaucoma", "visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
+predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
 ---
 
 # Latanoprost
@@ -27,7 +27,7 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

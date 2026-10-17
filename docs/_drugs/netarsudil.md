@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Netarsudil: predikert ny indikasjon Glaukom (rang 2 (evidensnivå L5). Opprinnelig indikasjon: Åpenvinklet glaukom"
-monitor_inn: "NETARSUDIL"
-predicted_indications: ["primary hereditary glaucoma"]
 ---
 
 # Netarsudil
@@ -27,7 +25,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

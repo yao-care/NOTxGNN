@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Vonicog Alfa: predikert ny indikasjon Primær frigjøringsforstyrrelse i blodplater (evidensnivå L5). Opprinnelig indikasjon: von Willebrands sykdom"
 monitor_inn: "VONICOG ALFA"
-predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "hemophilia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
+predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
 ---
 
 # Vonicog Alfa
@@ -27,7 +27,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

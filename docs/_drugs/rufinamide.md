@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-15
 description: "Rufinamide: predikert ny indikasjon Febril infeksjonsrelatert epilepsisyndrom (FIRES) (evidensnivå L5). Opprinnelig indikasjon: Epilepsi"
 monitor_inn: "RUFINAMIDE"
-predicted_indications: ["perioral myoclonia with absences", "cryptogenic late-onset epileptic spasms"]
+predicted_indications: ["perioral myoclonia with absences"]
 ---
 
 # Rufinamide
@@ -27,7 +27,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

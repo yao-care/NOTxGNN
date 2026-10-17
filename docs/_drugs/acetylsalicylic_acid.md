@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-15
 description: "Acetylsalicylic Acid: predikert ny indikasjon Migrene med hjernestammeaura (evidensnivå L3). Opprinnelig indikasjon: Akutt koronarsyndrom"
 monitor_inn: "ACETYLSALICYLIC ACID"
-predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
 ---
 
 # Acetylsalicylic Acid
@@ -27,7 +27,7 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **9** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

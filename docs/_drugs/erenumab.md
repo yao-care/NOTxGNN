@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Erenumab: predikert ny indikasjon Migrene med hjernestammeaura (evidensnivå L5). Opprinnelig indikasjon: Migrene (Migraine Disorders)"
-monitor_inn: "ERENUMAB"
-predicted_indications: ["migraine with brainstem aura"]
 ---
 
 # Erenumab
@@ -27,7 +25,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

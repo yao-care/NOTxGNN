@@ -7,8 +7,6 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Capecitabine: predikert ny indikasjon Gastrisk tubulært adenokarsinom (valgt blant de ti prediksjonene ford… (evidensnivå L1). Opprinnelig indikasjon: Kolorektale neoplasmer"
-monitor_inn: "CAPECITABINE"
-predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach", "gastric tubular adenocarcinoma", "signet ring cell gastric adenocarcinoma", "gastric cardia adenocarcinoma"]
 ---
 
 # Capecitabine
@@ -27,7 +25,7 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

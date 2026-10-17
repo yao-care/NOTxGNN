@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Pertuzumab: predikert ny indikasjon Progesteronreseptor-positiv brystkreft (evidensnivå L1). Opprinnelig indikasjon: Brystkreft (Breast Neoplasms)"
 monitor_inn: "PERTUZUMAB"
-predicted_indications: ["progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "progesterone-receptor negative breast cancer", "breast tumor luminal A or B", "ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
+predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 ---
 
 # Pertuzumab
@@ -27,7 +27,7 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

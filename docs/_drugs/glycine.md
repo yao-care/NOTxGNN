@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Glycine: predikert ny indikasjon Sykdom i nesehulen (nasal cavity disease) (evidensnivå L5). Opprinnelig indikasjon: Lønnesirupsykdom (Maple Syrup Urine Disease)"
+monitor_inn: "glycine"
+predicted_indications: ["acute laryngopharyngitis"]
 ---
 
 # Glycine
@@ -25,7 +27,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

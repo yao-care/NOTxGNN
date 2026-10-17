@@ -25,7 +25,7 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **2** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

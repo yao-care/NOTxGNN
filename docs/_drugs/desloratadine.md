@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-15
 description: "Desloratadine: predikert ny indikasjon Kuldeurticaria (evidensnivå L5). Opprinnelig indikasjon: Allergisk rinitt (helårs og sesongbetinget) og urticaria"
 monitor_inn: "DESLORATADINE"
-predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 ---
 
 # Desloratadine
@@ -27,7 +27,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

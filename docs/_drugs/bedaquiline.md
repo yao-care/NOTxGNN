@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Bedaquiline: predikert ny indikasjon Tuberkulose… (evidensnivå L5). Opprinnelig indikasjon: Multiresistent tuberkulose"
 monitor_inn: "Bedaquiline"
-predicted_indications: ["tuberculosis, bovine", "tuberculosis, avian", "tuberculous ascites", "tuberculoma", "inactive tuberculosis", "vulvovaginal candidiasis", "fascioliasis", "urea cycle disorder", "cutaneous tuberculosis", "esophageal candidiasis"]
+predicted_indications: ["vulvovaginal candidiasis", "fascioliasis", "urea cycle disorder", "esophageal candidiasis"]
 ---
 
 # Bedaquiline
@@ -27,7 +27,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

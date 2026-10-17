@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Azathioprine: predikert ny indikasjon Colobomatous microphthalmia-rhizomelic dysplasia syndrome (rangert nr… (evidensnivå L5). Opprinnelig indikasjon: Avstøtning av transplantat (graft rejection)"
 monitor_inn: "AZATHIOPRINE"
-predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "osteoarthritis susceptibility", "WHIM syndrome", "inflammatory bowel disease", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "ulcerative colitis (disease)", "acromesomelic dysplasia, Hunter-Thompson type"]
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "osteoarthritis susceptibility", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
 ---
 
 # Azathioprine
@@ -27,7 +27,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Lusutrombopag: predikert ny indikasjon Arvelig trombocytopeni med normale blodplater (evidensnivå L5). Opprinnelig indikasjon: Trombocytopeni"
 monitor_inn: "LUSUTROMBOPAG"
-predicted_indications: ["dense granule disease", "platelet storage pool deficiency", "amyotrophic lateral sclerosis", "lower motor neuron syndrome with late-adult onset", "amyotrophic lateral sclerosis, susceptibility to", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia"]
+predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "dense granule disease", "platelet storage pool deficiency", "amyotrophic lateral sclerosis", "lower motor neuron syndrome with late-adult onset", "amyotrophic lateral sclerosis, susceptibility to", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia"]
 ---
 
 # Lusutrombopag
@@ -27,7 +27,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

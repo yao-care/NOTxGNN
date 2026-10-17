@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Obinutuzumab: predikert ny indikasjon Follikulært lymfom (evidensnivå L1). Opprinnelig indikasjon: Kronisk lymfatisk B-celleleukemi"
 monitor_inn: "OBINUTUZUMAB"
-predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma"]
+predicted_indications: ["follicular lymphoma"]
 ---
 
 # Obinutuzumab
@@ -27,7 +27,7 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **3** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

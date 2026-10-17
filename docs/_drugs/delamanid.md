@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-15
 description: "Delamanid: predikert ny indikasjon Inaktiv tuberkulose (evidensnivå L5). Opprinnelig indikasjon: Multiresistent tuberkulose"
 monitor_inn: "DELAMANID"
-predicted_indications: ["tuberculosis, bovine", "inactive tuberculosis", "tuberculosis, avian", "tuberculoma", "tuberculous ascites", "allergic urticaria", "cutaneous tuberculosis"]
+predicted_indications: ["allergic urticaria"]
 ---
 
 # Delamanid
@@ -27,7 +27,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

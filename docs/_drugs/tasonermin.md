@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Tasonermin: predikert ny indikasjon Prostatisk uretral urotelkarsinom (evidensnivå L5). Opprinnelig indikasjon: Sarkom"
 monitor_inn: "TASONERMIN"
-predicted_indications: ["prostatic urethra urothelial carcinoma", "renal pelvis papillary urothelial carcinoma", "HER2 positive breast carcinoma", "uterine ligament adenocarcinoma", "endocervical carcinoma", "uterine ligament serous adenocarcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament clear cell adenocarcinoma"]
+predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "HER2 positive breast carcinoma", "uterine ligament adenocarcinoma", "endocervical carcinoma", "uterine ligament serous adenocarcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament clear cell adenocarcinoma"]
 ---
 
 # Tasonermin
@@ -27,7 +27,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

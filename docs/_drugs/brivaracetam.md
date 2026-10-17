@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Brivaracetam: predikert ny indikasjon Visuell epilepsi (evidensnivå L4). Opprinnelig indikasjon: Epilepsi"
 monitor_inn: "BRIVARACETAM"
-predicted_indications: ["orgasm-induced seizures", "eating seizures", "micturation-induced seizures", "audiogenic seizures", "thinking seizures", "beta-ketothiolase deficiency"]
+predicted_indications: ["beta-ketothiolase deficiency"]
 ---
 
 # Brivaracetam
@@ -27,7 +27,7 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

@@ -7,8 +7,6 @@ evidence_level: L2
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Neratinib: predikert ny indikasjon Progesteronreseptor-positiv brystkreft (evidensnivå L2). Opprinnelig indikasjon: Brystkreft (Breast Neoplasms)"
-monitor_inn: "NERATINIB"
-predicted_indications: ["progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "progesterone-receptor negative breast cancer", "breast tumor luminal A or B"]
 ---
 
 # Neratinib
@@ -27,7 +25,7 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **4** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Methotrexate: predikert ny indikasjon Hodgkins lymfom (rangert som nr. 5 (evidensnivå L3). Opprinnelig indikasjon: Psoriasisartritt, psoriasis, juvenil revmatoid artritt…"
 monitor_inn: "METHOTREXATE"
-predicted_indications: ["pulmonary blastoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+predicted_indications: ["pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 ---
 
 # Methotrexate
@@ -27,7 +27,7 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

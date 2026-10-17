@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Tacrolimus: predikert ny indikasjon Seboreisk dermatitt (evidensnivå L5). Opprinnelig indikasjon: Avstøtning av transplantat (graft rejection)"
 monitor_inn: "TACROLIMUS"
-predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
+predicted_indications: ["parapsoriasis"]
 ---
 
 # Tacrolimus
@@ -27,7 +27,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

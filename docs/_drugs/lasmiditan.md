@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Lasmiditan: predikert ny indikasjon Migrene med hjernestammeaura (evidensnivå L4). Opprinnelig indikasjon: Migrene"
 monitor_inn: "Lasmiditan"
-predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 ---
 
 # Lasmiditan
@@ -27,7 +27,7 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

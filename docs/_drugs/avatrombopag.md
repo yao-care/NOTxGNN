@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Avatrombopag: predikert ny indikasjon Makrotrombocytopeni med mitralklaffinsuffisiens (evidensnivå L5). Opprinnelig indikasjon: Trombocytopeni"
 monitor_inn: "Avatrombopag"
-predicted_indications: ["dense granule disease", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "lower motor neuron syndrome with late-adult onset", "amyotrophic lateral sclerosis, susceptibility to", "Mills syndrome", "monomelic amyotrophy"]
+predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "dense granule disease", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "lower motor neuron syndrome with late-adult onset", "amyotrophic lateral sclerosis, susceptibility to", "Mills syndrome", "monomelic amyotrophy"]
 ---
 
 # Avatrombopag
@@ -27,7 +27,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 

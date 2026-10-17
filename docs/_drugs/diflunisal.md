@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Diflunisal: predikert ny indikasjon Acromesomelic dysplasia… (evidensnivå L5). Opprinnelig indikasjon: Familiær amyloid nevropati (Amyloid Neuropathies, Familial)"
 monitor_inn: "DIFLUNISAL"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "hypermobility of coccyx", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "inflammatory spondylopathy"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "spondyloarthropathy, susceptibility to", "myosclerosis", "brachyolmia", "hypermobility of coccyx", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "inflammatory spondylopathy"]
 ---
 
 # Diflunisal
@@ -27,7 +27,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmasøytens vurderingsrapport
 
