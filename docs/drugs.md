@@ -6,7 +6,7 @@ permalink: /drugs/
 description: "Alle valideringsrapporter for legemidler og statistikk over evidensnivåer i NOTxGNN."
 ---
 {%- comment -%}2026-10-16：列表不含舊 ID 轉址頁與 noindex 頁{%- endcomment -%}
-{% assign listed_drugs = site.drugs | where_exp: "d", "d.layout != 'redirect'" | where_exp: "d", "d.noindex != true" %}
+{% assign listed_drugs = site.drugs | where_exp: "d", "d.layout != 'id_redirect'" | where_exp: "d", "d.noindex != true" %}
 {% assign l1_count = listed_drugs | where: "evidence_level", "L1" | size %}
 {% assign l2_count = listed_drugs | where: "evidence_level", "L2" | size %}
 {% assign l3_count = listed_drugs | where: "evidence_level", "L3" | size %}
