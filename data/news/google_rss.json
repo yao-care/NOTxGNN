@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-17T15:09:47.644298+00:00",
+  "fetched_at": "2026-10-17T18:15:08.843843+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -64,16 +64,6 @@
       }
     },
     {
-      "id": "c8157e2a28c1",
-      "title": "17 slagpasienter unnslapp døden takket være rettidig bruk av et «gullstandard»-legemiddel. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbDFrRGJ5ZDgxcGVYZUtTdUpsR0xpRkdTOG05M1VNMk9NUzR0Q2dPTHA5WGpLQ0RrcDFRQzVZdHFmMkd1LUs0Q1ktZ0tiWFNPdmx2UWlfTzFYSmlIQ0M3SThqLUowMDZ2Z1dUOXR3ck5XbmVGSG9tWjN5VFRKd1hNcmYweW5oSmE4cERka25DazZ4Zw?oc=5",
-      "published": "2026-10-17T03:40:31+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "dae9ef5df2c3",
       "title": "(+) Uenighet i ekspertgruppen om tidlig tilgang til legemidler - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZzdBYzExdEJReXFTNndMc2p6OF9BdnhqM1pZOE5zVmtFalpQcGdOcFYyNVJfZmo0VklwdG1YbDFZejQ5dEIyVWN3eTlkTzlfRVlkSXZlUkxiMVZmUXlpdnJ3QjF5c0hHZlRYMWg0QmVZX051YzRqRHFlRmp1ZzBQWkYwbklNTHFqSVFpMmhUU0ZLZFRlVE1QUjB4ZHhQb09JeVNEa3pqa1M1V2p6X3FDOGZqd25vTWxLWVM5ZWJSTlNUXzV3OFc0Q1Z1aXFTQ1lHWXQwV0JLSUdaUQ?oc=5",
@@ -81,6 +71,16 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
+      "id": "c8157e2a28c1",
+      "title": "17 slagpasienter unnslapp døden takket være rettidig bruk av et «gullstandard»-legemiddel. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbDFrRGJ5ZDgxcGVYZUtTdUpsR0xpRkdTOG05M1VNMk9NUzR0Q2dPTHA5WGpLQ0RrcDFRQzVZdHFmMkd1LUs0Q1ktZ0tiWFNPdmx2UWlfTzFYSmlIQ0M3SThqLUowMDZ2Z1dUOXR3ck5XbmVGSG9tWjN5VFRKd1hNcmYweW5oSmE4cERka25DazZ4Zw?oc=5",
+      "published": "2026-10-17T03:40:31+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -284,16 +284,6 @@
       }
     },
     {
-      "id": "b832ca46615b",
-      "title": "Frasene: Snarveien til slankemedisin - Dagbladet",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UVHBfRzhWM3NUQS1RMmpKZGpxODQtcjM1Y2hoaFlTNll6RlVmMEJ4S3ZvMEgxcEJBTF94T3BZYWZ3M0xFeEtvejBWUGQ1N2FPTGVKS09PVkhlNU1fZ1VFeFJBTGxqemdQV3ViTk40MkpnRm40UVhsYVBPbldBdjg?oc=5",
-      "published": "2026-10-10T22:25:23+00:00",
-      "source": {
-        "name": "Dagbladet",
-        "url": "https://www.dagbladet.no"
-      }
-    },
-    {
       "id": "73451a5edd86",
       "title": "Helse, Ramstad | Medisin til kreftsyke Simon (36) finnes, men staten betaler ikke: Nå må helseministeren svare - Budstikka",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaTJoTDluOS1TclUxRkhQSUN5TEYxWE1lQjhyckVhbHluZXBKU1hJdlR3SVNzd0Y4RUI3UDdTOUhnLWw5SVh4anpZbmh0WktUOUo2LUhfYjNUTndqSGZUTG0yRUQ3UVd3bVZWcTI3RXNPd2ZBVUM2ajlMQm1vWEkyaWZFd25qdmp5dllYcHpSSnczTTVFOW14QXNPemlwQXJjZ3Z4ZmhNM0JPODdqcTBvaVJXOUp3dTN2cnhQUzJhM2kzc0hHUV9seg?oc=5",
@@ -334,6 +324,16 @@
       }
     },
     {
+      "id": "61e6597e4dea",
+      "title": "Ni legemidler skal opp i Beslutningsforum – tre saker gjelder samme kreftbehandling - MEDWATCH.no",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16XzVwVVpJbHlTVUQxN0syVnpwb1VDNWZtSU1adjVXZFdyUlR6aktndkREbXU1dEozVW9sMFVXTUhNbXQwam5aQWZfcm54VXFTMkthZGFhRjh3V3AydTNZc1ByYmVCeW1QRjNBWWd4b21LNVQ0eEE?oc=5",
+      "published": "2026-09-14T07:00:00+00:00",
+      "source": {
+        "name": "MEDWATCH.no",
+        "url": "https://medwatch.no"
+      }
+    },
+    {
       "id": "779e45cee086",
       "title": "Leserinnlegg, Vanedannende medisiner | God helse handler om mer enn en resept - Kragerø Blad Vestmar",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02djNpVWI5eWpzUnhzMUM4cDZXT2YzQWV0MVFFNUJPZ3dmTnRmYVpaZm9YSXVXSWVGYlBfQUpldjUxQ20wamdMTjFtUGZkZGRLLU8zYTVISHNJaHZfOVQ1WFpvVDNiNkVmQ0I0QUduSXV2dVNzdEItRw?oc=5",
@@ -344,13 +344,13 @@
       }
     },
     {
-      "id": "61e6597e4dea",
-      "title": "Ni legemidler skal opp i Beslutningsforum – tre saker gjelder samme kreftbehandling - MEDWATCH.no",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16XzVwVVpJbHlTVUQxN0syVnpwb1VDNWZtSU1adjVXZFdyUlR6aktndkREbXU1dEozVW9sMFVXTUhNbXQwam5aQWZfcm54VXFTMkthZGFhRjh3V3AydTNZc1ByYmVCeW1QRjNBWWd4b21LNVQ0eEE?oc=5",
-      "published": "2026-09-14T07:00:00+00:00",
+      "id": "b832ca46615b",
+      "title": "Frasene: Snarveien til slankemedisin - Dagbladet",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UVHBfRzhWM3NUQS1RMmpKZGpxODQtcjM1Y2hoaFlTNll6RlVmMEJ4S3ZvMEgxcEJBTF94T3BZYWZ3M0xFeEtvejBWUGQ1N2FPTGVKS09PVkhlNU1fZ1VFeFJBTGxqemdQV3ViTk40MkpnRm40UVhsYVBPbldBdjg?oc=5",
+      "published": "2026-10-10T22:25:23+00:00",
       "source": {
-        "name": "MEDWATCH.no",
-        "url": "https://medwatch.no"
+        "name": "Dagbladet",
+        "url": "https://www.dagbladet.no"
       }
     },
     {
