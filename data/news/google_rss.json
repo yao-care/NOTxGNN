@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-18T20:15:10.622072+00:00",
+  "fetched_at": "2026-10-18T22:50:31.168110+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -204,26 +204,6 @@
       }
     },
     {
-      "id": "b1aaad92e4be",
-      "title": "Den eneste representanten fra legemiddel- og helsevesenets detaljhandelssektor som ble inkludert i Forbes Vietnams topp 50 ESG-liste i 2026, og kåret til «Outstanding Asian Enterprise» to år på rad. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQcE5KOEQzbVEyODYxSGh1WFdfQmMxeDd0RDdqbWRIQ01SaHY4Z29sQlVMeVQ5bkNsejZCR2N3TXlkZTBHRUhnbXhmWUVyZU5WRGMwWk83R3ZYYU5US1V1YWFQdzBKRU5uaWlnZU1lTmJJaDBKN0plU2EyM3R1RVZhd1NkRHVJaU1pSGdsOV9EWks2UWhOYTVvOEN6OFUwclVmTmNBTjAxczRjdDJZSUM2Y1ptQWZqMWFRZGoxeW1Tc2owWDlGM01hU0RqMWZkSTVGeng4aVVjRkdraE0zQ0JseHRlOFhIWHVuRFo0Y1pjcDY?oc=5",
-      "published": "2026-10-16T13:38:20+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "c8157e2a28c1",
-      "title": "17 slagpasienter unnslapp døden takket være rettidig bruk av et «gullstandard»-legemiddel. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbDFrRGJ5ZDgxcGVYZUtTdUpsR0xpRkdTOG05M1VNMk9NUzR0Q2dPTHA5WGpLQ0RrcDFRQzVZdHFmMkd1LUs0Q1ktZ0tiWFNPdmx2UWlfTzFYSmlIQ0M3SThqLUowMDZ2Z1dUOXR3ck5XbmVGSG9tWjN5VFRKd1hNcmYweW5oSmE4cERka25DazZ4Zw?oc=5",
-      "published": "2026-10-17T03:40:31+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "cbc2814dfa04",
       "title": "Helse, Medisin | Medisinmangel vart personleg for Beate: Tok kvinnehelse og beredskap til Arendalsuka - Avisa Nordhordland",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYzVpV0hVVHhTaEdlSTV2eDZ0eE5aV3NFbm1mUUtMelZ4ZFU0NmhpdE1TdUplaDRyU3djTkdtanlPb3Jaa3dxX29VdXk3WVcxXzgxcDJKaDI3ZGh4NDdscmozZmJYUkFUUnVrX2dFVG1vd0Y3NjVhWm0yQndIT3l6bG5tZ0lveS1ndWFmU2tiSDdjejFfbU9YSFJrYjM2dG5lTHM4Y19SbVVLUFlWMVJKd3ZEV1hiR3FVMTgwNThlX2tKVDA?oc=5",
@@ -264,6 +244,16 @@
       }
     },
     {
+      "id": "b1aaad92e4be",
+      "title": "Den eneste representanten fra legemiddel- og helsevesenets detaljhandelssektor som ble inkludert i Forbes Vietnams topp 50 ESG-liste i 2026, og kåret til «Outstanding Asian Enterprise» to år på rad. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQcE5KOEQzbVEyODYxSGh1WFdfQmMxeDd0RDdqbWRIQ01SaHY4Z29sQlVMeVQ5bkNsejZCR2N3TXlkZTBHRUhnbXhmWUVyZU5WRGMwWk83R3ZYYU5US1V1YWFQdzBKRU5uaWlnZU1lTmJJaDBKN0plU2EyM3R1RVZhd1NkRHVJaU1pSGdsOV9EWks2UWhOYTVvOEN6OFUwclVmTmNBTjAxczRjdDJZSUM2Y1ptQWZqMWFRZGoxeW1Tc2owWDlGM01hU0RqMWZkSTVGeng4aVVjRkdraE0zQ0JseHRlOFhIWHVuRFo0Y1pjcDY?oc=5",
+      "published": "2026-10-16T13:38:20+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "73451a5edd86",
       "title": "Helse, Ramstad | Medisin til kreftsyke Simon (36) finnes, men staten betaler ikke: Nå må helseministeren svare - Budstikka",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaTJoTDluOS1TclUxRkhQSUN5TEYxWE1lQjhyckVhbHluZXBKU1hJdlR3SVNzd0Y4RUI3UDdTOUhnLWw5SVh4anpZbmh0WktUOUo2LUhfYjNUTndqSGZUTG0yRUQ3UVd3bVZWcTI3RXNPd2ZBVUM2ajlMQm1vWEkyaWZFd25qdmp5dllYcHpSSnczTTVFOW14QXNPemlwQXJjZ3Z4ZmhNM0JPODdqcTBvaVJXOUp3dTN2cnhQUzJhM2kzc0hHUV9seg?oc=5",
@@ -284,16 +274,6 @@
       }
     },
     {
-      "id": "83e9b53f4622",
-      "title": "Long Chau ble den eneste representanten fra legemiddel- og helsevesenets detaljhandel som ble inkludert på Forbes Vietnams liste over «Top 50 ESG 2026». - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPd2VfWWdROFhxa3NXTjd0T2N0NHZXc01VRzVOOS1yTXpwOXJyWHpvNXlOSHhJYU51TFJzQndxWmxOdmczaTZNZTBSQVdDYzVmQlhfZDJ6bFhVdVB2SmxkNkRCWTM1dGZKR2ZCbTF4R2ZIRDk2cEM4TXQwQjlzU05WSG55RTAzNERJTXhNX0N6RlpBa2NEY2FxWnJyUXVBQ2xyX2V4WHk2ZTRJYzV3WnExSVh5YWgwb0w1dWxEWndWbjVGbTRzZVFUdnhUZFZ3dkdDcFl5a1ZyVFY5M0E?oc=5",
-      "published": "2026-10-16T08:07:54+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "ffc64f8bfef0",
       "title": "I disse fylkene bruker de mest legemidler - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYmlkLUY1UFFJVUlzcmtnaV9DblNXaTBIcWYzZzFTVGZRblBhYVAteVF4Q3h5Ym9jMUVzQVlWbk9rcFB5TUhQX2RwWkZ2NVVpTXh5VHZNRlZFbm5uY0JwX1VNWDVweWE1Q2o0SlpSOElWb0RBc0hGRVpGRzIzTEEtRWlJMGxxd3dEWnpVTGhvWVRTWWkybDMwdFJIUXlGV0NkM01vY3l5MzVmNU5OVkxJUWhXVWx3QlNKeGhYUEdfSQ?oc=5",
@@ -311,6 +291,16 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
+      }
+    },
+    {
+      "id": "c8157e2a28c1",
+      "title": "17 slagpasienter unnslapp døden takket være rettidig bruk av et «gullstandard»-legemiddel. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbDFrRGJ5ZDgxcGVYZUtTdUpsR0xpRkdTOG05M1VNMk9NUzR0Q2dPTHA5WGpLQ0RrcDFRQzVZdHFmMkd1LUs0Q1ktZ0tiWFNPdmx2UWlfTzFYSmlIQ0M3SThqLUowMDZ2Z1dUOXR3ck5XbmVGSG9tWjN5VFRKd1hNcmYweW5oSmE4cERka25DazZ4Zw?oc=5",
+      "published": "2026-10-17T03:40:31+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -381,6 +371,16 @@
       "source": {
         "name": "Dagbladet",
         "url": "https://www.dagbladet.no"
+      }
+    },
+    {
+      "id": "83e9b53f4622",
+      "title": "Long Chau ble den eneste representanten fra legemiddel- og helsevesenets detaljhandel som ble inkludert på Forbes Vietnams liste over «Top 50 ESG 2026». - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPd2VfWWdROFhxa3NXTjd0T2N0NHZXc01VRzVOOS1yTXpwOXJyWHpvNXlOSHhJYU51TFJzQndxWmxOdmczaTZNZTBSQVdDYzVmQlhfZDJ6bFhVdVB2SmxkNkRCWTM1dGZKR2ZCbTF4R2ZIRDk2cEM4TXQwQjlzU05WSG55RTAzNERJTXhNX0N6RlpBa2NEY2FxWnJyUXVBQ2xyX2V4WHk2ZTRJYzV3WnExSVh5YWgwb0w1dWxEWndWbjVGbTRzZVFUdnhUZFZ3dkdDcFl5a1ZyVFY5M0E?oc=5",
+      "published": "2026-10-16T08:07:54+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
