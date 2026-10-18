@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-18T08:39:33.268147+00:00",
+  "fetched_at": "2026-10-18T13:02:47.490739+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -264,6 +264,16 @@
       }
     },
     {
+      "id": "e3474601f996",
+      "title": "Ny nedtur for Novo Nordisk: Hjertemedisin feilet - HealthTalk",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSkJWQ2NqUDM4RnBCTnk4N1V0eVkxdG9NUWt5YXZxTl8tQTRHVEF3czhpYXlUSHRON192U0ppc1Buc1BPZVhQUVduNlYzeTV4aERXcElnLVdVM21FWXd6eFdhYzdnaWdlX1U3NHUwVWV3Nm5MSk9mUV9BazZ1Z3hrU2tfSy1WM0JBTUxfb1YzNnlPM3hXWWs0YkoyTG4?oc=5",
+      "published": "2026-08-03T07:00:00+00:00",
+      "source": {
+        "name": "HealthTalk",
+        "url": "https://www.healthtalk.no"
+      }
+    },
+    {
       "id": "f4ca5a3e2030",
       "title": "Norge har Europas høyeste andel legemidler som kun er tilgjengelige privat - HealthTalk",
       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQY3RuMlpCTUprWHplM24xZmQ0d2pRa2dEV2xnNFZjUFd4VHJFWGw3bkM3aGhIODRwdjJMZW40UEpLcjVlUUdhYW53ajFGT2VFR25aUlBwY3dNUUp5QnhsU2FGU0hnMEZQQURoWVJIZHhUNTJNWDQ2ak9pOGQxdUpzUGtkMlVDaVE2cmY5VlpyTXhRc2paUzBWWXdydms0M3lTcEVWSGtwSUM1VW5XUzhtVUlYY1hTUkFDRVBLRmo3bHR1REpSSTNvQ0szTjFzbGxnVkxGYWVPTlE5aERIWjRUMUZfS0Q0OGI0eE1adXJBejB1c3hUelE?oc=5",
@@ -281,16 +291,6 @@
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "73451a5edd86",
-      "title": "Helse, Ramstad | Medisin til kreftsyke Simon (36) finnes, men staten betaler ikke: Nå må helseministeren svare - Budstikka",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaTJoTDluOS1TclUxRkhQSUN5TEYxWE1lQjhyckVhbHluZXBKU1hJdlR3SVNzd0Y4RUI3UDdTOUhnLWw5SVh4anpZbmh0WktUOUo2LUhfYjNUTndqSGZUTG0yRUQ3UVd3bVZWcTI3RXNPd2ZBVUM2ajlMQm1vWEkyaWZFd25qdmp5dllYcHpSSnczTTVFOW14QXNPemlwQXJjZ3Z4ZmhNM0JPODdqcTBvaVJXOUp3dTN2cnhQUzJhM2kzc0hHUV9seg?oc=5",
-      "published": "2026-08-26T07:00:00+00:00",
-      "source": {
-        "name": "Budstikka",
-        "url": "https://www.budstikka.no"
       }
     },
     {
@@ -384,16 +384,6 @@
       }
     },
     {
-      "id": "1c60dcb0592e",
-      "title": "ADHD-medisin i Lyngdal: Lavest andel – sterkest vekst - Lyngdals Avis",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeHNRcUtpcDczRFdsRXVqX0lMVG9nbjhnWW4zS0lrQVNsYkxpX2VoRWc4dy0xbkU2dTkwXzVEb3hxUEEyZFkxdU9rNEpybE52NnZoenlFZjVqYm1jbFM2RU0yanhQX1J5bmhjWXlzSUJmZUNqXzlST2tmdW5QZFR1ZTVWRGRPR2RpOGRLcl85ejdYOGZaSkpn?oc=5",
-      "published": "2026-09-23T07:00:00+00:00",
-      "source": {
-        "name": "Lyngdals Avis",
-        "url": "https://www.lyngdalsavis.no"
-      }
-    },
-    {
       "id": "044c149ba0fa",
       "title": "Helse, Medisiner | Betaler i dyre dommer fra egen lomme – slankemedisin på topp ti - Fredriksstad Blad",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNWpic3ZhWXZfMGhpSVBUNlU3X1p4dE9faGVYemFhZlg1MGVTZ1UtbkRDTVJQSWZEYnBIdU82RllDSGcxWkZsQ1BTUTBSRGFHZHA1TUJUZ3k5N2VpTWwxU3BISldjWnBlWkZxamgzUk9yX0xyV1NzOEUySlFEYWZMaHczcWlxWmxIc0NzbTJNeFl4bmNvSWtLak5jRQ?oc=5",
@@ -401,6 +391,16 @@
       "source": {
         "name": "Fredriksstad Blad",
         "url": "https://www.f-b.no"
+      }
+    },
+    {
+      "id": "1c60dcb0592e",
+      "title": "ADHD-medisin i Lyngdal: Lavest andel – sterkest vekst - Lyngdals Avis",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeHNRcUtpcDczRFdsRXVqX0lMVG9nbjhnWW4zS0lrQVNsYkxpX2VoRWc4dy0xbkU2dTkwXzVEb3hxUEEyZFkxdU9rNEpybE52NnZoenlFZjVqYm1jbFM2RU0yanhQX1J5bmhjWXlzSUJmZUNqXzlST2tmdW5QZFR1ZTVWRGRPR2RpOGRLcl85ejdYOGZaSkpn?oc=5",
+      "published": "2026-09-23T07:00:00+00:00",
+      "source": {
+        "name": "Lyngdals Avis",
+        "url": "https://www.lyngdalsavis.no"
       }
     },
     {
@@ -451,6 +451,16 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
+      }
+    },
+    {
+      "id": "6e5f7df4e2bc",
+      "title": "Stor studie av nye alzheimer-medisiner: Gir ingen meningsfull effekt - Forskning.no",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVjJtLXlCQXFkN253UnZGNlRzM2VBNE9iWXVSS01NOTN3b3JlYjNUYzJsc080clpnOWYzOFNFWVE2ZmE0SlZTVnA0WTlXNDZwa09qZDlmWFNkMktCNVF6R2xNOVBlRlBaNjJJdktpZ1Y0dGR4eGhuZFN2UE5EbjdGeW45Y29sNHJ4dVpLU3JrRkRRNVVoaDEycTlJREswZy1GZnphWEgwWFpFYlZOSDdpWXpTSzItYUZQOHBTd0thZG5qYXlOOG5oUU9CMTFjc042?oc=5",
+      "published": "2026-05-05T07:00:00+00:00",
+      "source": {
+        "name": "Forskning.no",
+        "url": "https://www.forskning.no"
       }
     },
     {
@@ -534,10 +544,10 @@
       }
     },
     {
-      "id": "a6ad94598cf6",
-      "title": "Viktige helseendringer i 2026: Hva betyr det for deg? - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUjB5ZzVjN0lYc19UdUZENVF3ekFnMTJvN0JORWRNSTh2OGhFemR5cmc3TndCNzRfMjdCclg3cnd4endoY3JDUUFUUlZqaE5QbXh3SHo1STNZVldJeUI5NWtIRzRtLUZvWFJxN3RtME1mVm1IU1I0Q3JxLUZIUmlCSno1QlgwRFdHYTg5RnZEa0JwRzZOUWNFbjZhQ3M2czlENmpRMWJBMGpQbWRfMVkw?oc=5",
-      "published": "2026-01-05T08:00:00+00:00",
+      "id": "b9608cb4d0ce",
+      "title": "Reagerer på nytt forslag: – Kan ramme de sykeste pasientene - HealthTalk",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPQ2hRaVlxZm1XelJualh2NHNjVGVsdEdSWW1tRkpRVzd2SWpxVlA2R0NZeHo1S29LQ0xHTGI4WU40R0J2WUFZczJBaHhSbEpKV0xLM0NnbVJSTGZJdlZsMTc3SElSN1hHcUJiQ1FJTEF2MDNiQjZUMEJPZ0dyV09WR3dZQUpjNkV2eXU3S3EwQk1oV21aT1o4dUlxWno2MUdNRUVtUVVnREg5UW83SnlkdDdXQUFHUlgtRjRkMnF4amR0bS1fbWg2YUNlZEcyT0xuSFJHbnl6LUNfRm10M3I3aFhUakVtQVV5TGc?oc=5",
+      "published": "2026-04-24T07:00:00+00:00",
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
@@ -581,16 +591,6 @@
       "source": {
         "name": "ABC Nyheter",
         "url": "https://www.abcnyheter.no"
-      }
-    },
-    {
-      "id": "b9608cb4d0ce",
-      "title": "Reagerer på nytt forslag: – Kan ramme de sykeste pasientene - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPQ2hRaVlxZm1XelJualh2NHNjVGVsdEdSWW1tRkpRVzd2SWpxVlA2R0NZeHo1S29LQ0xHTGI4WU40R0J2WUFZczJBaHhSbEpKV0xLM0NnbVJSTGZJdlZsMTc3SElSN1hHcUJiQ1FJTEF2MDNiQjZUMEJPZ0dyV09WR3dZQUpjNkV2eXU3S3EwQk1oV21aT1o4dUlxWno2MUdNRUVtUVVnREg5UW83SnlkdDdXQUFHUlgtRjRkMnF4amR0bS1fbWg2YUNlZEcyT0xuSFJHbnl6LUNfRm10M3I3aFhUakVtQVV5TGc?oc=5",
-      "published": "2026-04-24T07:00:00+00:00",
-      "source": {
-        "name": "HealthTalk",
-        "url": "https://www.healthtalk.no"
       }
     },
     {
@@ -641,6 +641,16 @@
       "source": {
         "name": "Budstikka",
         "url": "https://www.budstikka.no"
+      }
+    },
+    {
+      "id": "a6ad94598cf6",
+      "title": "Viktige helseendringer i 2026: Hva betyr det for deg? - HealthTalk",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUjB5ZzVjN0lYc19UdUZENVF3ekFnMTJvN0JORWRNSTh2OGhFemR5cmc3TndCNzRfMjdCclg3cnd4endoY3JDUUFUUlZqaE5QbXh3SHo1STNZVldJeUI5NWtIRzRtLUZvWFJxN3RtME1mVm1IU1I0Q3JxLUZIUmlCSno1QlgwRFdHYTg5RnZEa0JwRzZOUWNFbjZhQ3M2czlENmpRMWJBMGpQbWRfMVkw?oc=5",
+      "published": "2026-01-05T08:00:00+00:00",
+      "source": {
+        "name": "HealthTalk",
+        "url": "https://www.healthtalk.no"
       }
     },
     {
@@ -824,16 +834,6 @@
       }
     },
     {
-      "id": "62d5b2e3793a",
-      "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZEd5eTVOaFRZZHd1MVQzQUVGc09ZSlZtdnlXUEhwTkNQRXp0UEhfREhwSzNIRC1RVVVKYldGLWJlQlNtYkM1dkw2RFNvSFJXdzc1WlNhc0Y3c3JPcDFnalBGWVdJcGxtbTNuTUJfeE50NTlNNTdNMlNIY0NBdGk2MjhXMjJRVGxjcFNFbEFFNDRBUUMtaDM4R0NDbEtXdjNsckRjdjBYdGFqOFYyXzRmYmhZSVRHbldmaEUyVk5QcEFCYjMwbTNXMGxfMXJaa25WYXc?oc=5",
-      "published": "2021-05-12T07:00:00+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
       "id": "d12731491989",
       "title": "Mener norske pasienter må vente for lenge på ny medisin: – Forferdet - Nettavisen",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNR3FuNGlNV3lrQmhqWWg0cG9yV1pSclluN2VQZjN1azJuZW1WWGZwdXBBMHpkUDl5Y21XZ2MzaXFjT21TX0Q4amlGTGJIVEdqd0Iyd29mMDl5eC1NTUZibFZ3MVJNTmZUVzgzTXpveDg0d2J3WFRWTGlJSm5hN21CdUV4MWFEb0NjNndudXRCeUlPWHNEMmdoUVRtR1V0YXl1cHlrclRZdVNhUTFFZHFDWlZEUlNqUF9GenV0VTRpVHFFelRKUHRnSkJhRExRU3dxSDlreFJ2RlRRZw?oc=5",
@@ -841,16 +841,6 @@
       "source": {
         "name": "Nettavisen",
         "url": "https://www.nettavisen.no"
-      }
-    },
-    {
-      "id": "b50cdaf363b6",
-      "title": "Bruk samfunnsperspektiv i prioritering av helsetjenester - Altinget.no",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUW5XV0s0Q3M1NHI4ZUJwZ0hlNUppbUgxMWRTMUVOdXRfNC1pYXV0Wk1YS0UwQktlM0w1dWVaZUdXQ1NocnppZnVUS2NFUUJBRXM2SVRTUEVaV0stYkhuWDRfV2FiVFhCNjZVdEQyN0NwZlN4VkxkRGoxbTRBZTA0c09YbTlMNUhkOUZaU3pjZ0hxaG8?oc=5",
-      "published": "2024-12-06T08:00:00+00:00",
-      "source": {
-        "name": "Altinget.no",
-        "url": "https://www.altinget.no"
       }
     },
     {
@@ -911,6 +901,26 @@
       "source": {
         "name": "Regjeringen.no",
         "url": "https://www.regjeringen.no"
+      }
+    },
+    {
+      "id": "b50cdaf363b6",
+      "title": "Bruk samfunnsperspektiv i prioritering av helsetjenester - Altinget.no",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUW5XV0s0Q3M1NHI4ZUJwZ0hlNUppbUgxMWRTMUVOdXRfNC1pYXV0Wk1YS0UwQktlM0w1dWVaZUdXQ1NocnppZnVUS2NFUUJBRXM2SVRTUEVaV0stYkhuWDRfV2FiVFhCNjZVdEQyN0NwZlN4VkxkRGoxbTRBZTA0c09YbTlMNUhkOUZaU3pjZ0hxaG8?oc=5",
+      "published": "2024-12-06T08:00:00+00:00",
+      "source": {
+        "name": "Altinget.no",
+        "url": "https://www.altinget.no"
+      }
+    },
+    {
+      "id": "78163b91b37e",
+      "title": "Skjerper rutiner for å skrive ut vanedannede medisiner - Larvik kommune",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNGQ4WnloR3otM0VTQ2FydUZjSUxMV0pJd3ZFMVJSamo0LWROZkstU2I2OVJMTFdDMDBBRTAzV3c0VHZnem85SGJnZ21fLUVHbWFGb3VGdmF6QzRfTzhWN3NtM1NmSEtOLVVpMlNaNGNrWEhjYlFQX2p2ckNNMnRnNkhBNTVwdGZ5T3FMVW94dXduMDV5NEZoZjNRNmtMV2MwdTMzb1M4WmRNOXl4cF9Ydnd3?oc=5",
+      "published": "2025-06-25T07:00:00+00:00",
+      "source": {
+        "name": "Larvik kommune",
+        "url": "https://www.larvik.kommune.no"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
-      "id": "9d129d3792f9",
-      "title": "Vil bli best på helse- og legemiddel-PR og ansetter Mette Nilstad fra Helse Midt-Norge - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYlB3MXBTS0pIbTk5SHF4R0oyenNOdzB1Y0ZxOENwQkpuWktDT3g5MmtETU13ckkxRWd3RGlaWkR4QTVQb1F0RGFTOHc4QjZMQy1XSFI4S1UxaHZERDQ4SDBYNExMcGJBRkt2eV9JeU0wTG1YYURGWHFzeFJQWnBZX1ZFQ2ltQ05JUlRETVB5Njh0VWNnV2J0VUUzclJyVHprcmVWdHpoNnVxSE00MUdaM3lxWmhXV0J6YTBwSk9uRDRXd2tPQ3RfakJR?oc=5",
-      "published": "2020-08-10T07:00:00+00:00",
-      "source": {
-        "name": "HealthTalk",
-        "url": "https://www.healthtalk.no"
       }
     }
   ]
