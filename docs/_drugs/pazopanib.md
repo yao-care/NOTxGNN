@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Pazopanib: predikert ny indikasjon Renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene… (evidensnivå L5). Opprinnelig indikasjon: Nyrecellekarsinom (Carcinoma, Renal Cell)"
 monitor_inn: "PAZOPANIB"
-predicted_indications: ["ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 ---
 
 # Pazopanib

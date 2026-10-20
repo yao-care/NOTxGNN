@@ -91,7 +91,7 @@ sjeldne sykdommer."
 <tr><th>Type</th><th>Kilde</th><th>Beskrivelse</th></tr>
 </thead>
 <tbody>
-<tr><td>KI-prediksjon</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Harvards prediksjonsmodell basert på kunnskapsgraf</td></tr>
+<tr><td>KI-prediksjon</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Harvards grafnevrale nettverk, trent på en kunnskapsgraf</td></tr>
 <tr><td>Kliniske studier</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>Globalt register over kliniske studier</td></tr>
 <tr><td>Litteratur</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>Database over biomedisinsk litteratur</td></tr>
 <tr><td>Legemiddelinformasjon</td><td><a href="https://go.drugbank.com/">DrugBank</a></td><td>Database over legemidler og målmolekyler</td></tr>

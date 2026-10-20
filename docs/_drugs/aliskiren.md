@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-15
 description: "Aliskiren: predikert ny indikasjon Pulmonal hypertensjon forårsaket av lungesykdom og/eller hypoksi (evidensnivå L4). Opprinnelig indikasjon: Hypertensjon"
 monitor_inn: "ALISKIREN"
-predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "chronic pulmonary heart disease", "cerebrovascular disorder"]
+predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "cerebrovascular disorder"]
 ---
 
 # Aliskiren

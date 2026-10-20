@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-15
 description: "Adalimumab: predikert ny indikasjon Revmatoid vaskulitt (evidensnivå L4). Opprinnelig indikasjon: Hidradenitis suppurativa, psoriasis, uveitt, revmatoid artritt…"
 monitor_inn: "ADALIMUMAB"
-predicted_indications: ["inflammatory spondylopathy", "vertebral disease"]
+predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 ---
 
 # Adalimumab

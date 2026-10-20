@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Laronidase: predikert ny indikasjon Lysosomal lagringssykdom med skjelettaffeksjon (evidensnivå L4). Opprinnelig indikasjon: Mukopolysakkaridose I"
+monitor_inn: "LARONIDASE"
+predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
 ---
 
 # Laronidase
