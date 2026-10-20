@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-10-20T03:55:40.430584+00:00",
+  "fetched_at": "2026-10-20T09:16:20.441118+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "bbce630cb1cf",
-      "title": "Ahus åpner døren for tryggere helseteknologi - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObG5SVEJoX3RlV1poaUlYemYzOXlxN1Z2VlhUMkNvaC1BRlhFY2ZFRDgzX2h2emdTamFnOExySDdpWHVrSVZ1RzJ5XzVYeVFuWHVTUEpWMnN1c0JWVjZ3WDQtRTlhaEs0Y2dsTnFGWW96bUlLM1VOTS10SmNaa3hZeW1HSHU1TjFWRzBxVGIwcXNyUUNuRXMza1p6RmdJbFUyWjY0ZEtvNmk3SlptX1JqRWpIVQ?oc=5",
-      "published": "2026-10-19T06:05:58+00:00",
+      "id": "42ed20c76b24",
+      "title": "Fakta i ADHD-debatten - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOS2picHlZYzMyVWlGSTdWLU9DSTl2N2JHWXlTWUFoT2hRRDZZM24weVRaWmR4V0NVVzhFdUt1T1RpRC14eWVqNzYwYkM2YS1qaTNTaFJacHBfUURIQmkyRmJrT0ZubENNSGZ2WGxuZjVjNUw0aExrN1NYWXRPZzNOdEd1NldPbDdXd0g4cFlDazY?oc=5",
+      "published": "2026-10-20T06:41:17+00:00",
       "source": {
-        "name": "HealthTalk",
-        "url": "https://www.healthtalk.no"
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -21,6 +21,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "fbb63679103a",
+      "title": "Ny legemiddelstrategi: Vil gi tryggere behandling og bedre beredskap - HealthTalk",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMmRkalRyWWg4SmIwcU52THAyWDBKaTZmZXI5TXB3VmVDS1hQbXkwMFhUZmVjQXQzNHBSb1F5VGFEc1pmRFZNRkg1RlFULXFFNzU3c3k1THBLUFFQamVHY0xLdWhnTW8yWG9XbFBjbXVsY19nTlFZb2puYm5wX2d5RmFkYk8wb3NBZ0hmak9GMV9Ya0tfOGJVWHZwWjVJZnRERW92blNTY2FqVkVHTFFTRTJRd29mNTZvV08zUTBMSFZPbUN0U1BoM0xR?oc=5",
+      "published": "2026-10-09T06:46:09+00:00",
+      "source": {
+        "name": "HealthTalk",
+        "url": "https://www.healthtalk.no"
       }
     },
     {
@@ -64,16 +74,6 @@
       }
     },
     {
-      "id": "dae9ef5df2c3",
-      "title": "(+) Uenighet i ekspertgruppen om tidlig tilgang til legemidler - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZzdBYzExdEJReXFTNndMc2p6OF9BdnhqM1pZOE5zVmtFalpQcGdOcFYyNVJfZmo0VklwdG1YbDFZejQ5dEIyVWN3eTlkTzlfRVlkSXZlUkxiMVZmUXlpdnJ3QjF5c0hHZlRYMWg0QmVZX051YzRqRHFlRmp1ZzBQWkYwbklNTHFqSVFpMmhUU0ZLZFRlVE1QUjB4ZHhQb09JeVNEa3pqa1M1V2p6X3FDOGZqd25vTWxLWVM5ZWJSTlNUXzV3OFc0Q1Z1aXFTQ1lHWXQwV0JLSUdaUQ?oc=5",
-      "published": "2026-10-02T07:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
       "id": "6114145eccc5",
       "title": "Slår alarm om medisiner - VG",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5hSU5tVlZVMkZLTjlrZU1fMTJ0SjdMWTBXYThfWmcwVnlZLVlxNmp3YWlUeVhSVnJvdnRhbDZiLWJwdExaR3FHTXY4eWtHUndZUjAxSzNtUVlqYWhZVzduYTlZSzMyLV9fR1AyNmstUEE4b0pMSXVF?oc=5",
@@ -114,10 +114,10 @@
       }
     },
     {
-      "id": "fbb63679103a",
-      "title": "Ny legemiddelstrategi: Vil gi tryggere behandling og bedre beredskap - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMmRkalRyWWg4SmIwcU52THAyWDBKaTZmZXI5TXB3VmVDS1hQbXkwMFhUZmVjQXQzNHBSb1F5VGFEc1pmRFZNRkg1RlFULXFFNzU3c3k1THBLUFFQamVHY0xLdWhnTW8yWG9XbFBjbXVsY19nTlFZb2puYm5wX2d5RmFkYk8wb3NBZ0hmak9GMV9Ya0tfOGJVWHZwWjVJZnRERW92blNTY2FqVkVHTFFTRTJRd29mNTZvV08zUTBMSFZPbUN0U1BoM0xR?oc=5",
-      "published": "2026-10-09T06:46:09+00:00",
+      "id": "bbce630cb1cf",
+      "title": "Ahus åpner døren for tryggere helseteknologi - HealthTalk",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObG5SVEJoX3RlV1poaUlYemYzOXlxN1Z2VlhUMkNvaC1BRlhFY2ZFRDgzX2h2emdTamFnOExySDdpWHVrSVZ1RzJ5XzVYeVFuWHVTUEpWMnN1c0JWVjZ3WDQtRTlhaEs0Y2dsTnFGWW96bUlLM1VOTS10SmNaa3hZeW1HSHU1TjFWRzBxVGIwcXNyUUNuRXMza1p6RmdJbFUyWjY0ZEtvNmk3SlptX1JqRWpIVQ?oc=5",
+      "published": "2026-10-19T06:05:58+00:00",
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
@@ -141,6 +141,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "dae9ef5df2c3",
+      "title": "(+) Uenighet i ekspertgruppen om tidlig tilgang til legemidler - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZzdBYzExdEJReXFTNndMc2p6OF9BdnhqM1pZOE5zVmtFalpQcGdOcFYyNVJfZmo0VklwdG1YbDFZejQ5dEIyVWN3eTlkTzlfRVlkSXZlUkxiMVZmUXlpdnJ3QjF5c0hHZlRYMWg0QmVZX051YzRqRHFlRmp1ZzBQWkYwbklNTHFqSVFpMmhUU0ZLZFRlVE1QUjB4ZHhQb09JeVNEa3pqa1M1V2p6X3FDOGZqd25vTWxLWVM5ZWJSTlNUXzV3OFc0Q1Z1aXFTQ1lHWXQwV0JLSUdaUQ?oc=5",
+      "published": "2026-10-02T07:00:00+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -174,16 +184,6 @@
       }
     },
     {
-      "id": "11db5a9eb287",
-      "title": "(+) 450.000 gamle resepter fjernet fra Pasientens legemiddelliste - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMFNLQndUdkh3T1hnVEJjZ3dObFQxRDBfd3Z1MkE4d190aGxIcDdWbDNsUF8xdXJpcWRURDdTakk1YXBTVjFveHdNZm5FbjEyaTlvM1hXNUZWRmxjU3JYakdZN0JpSlpVN1FpaWVxRFE2S3piNnhaOEppVTcyOXZxZC0yemtsamc5YjlrQ29OQm1wQl9SQWxiMDBmcE5qUHlJcDFnNE5NN2pwOW1CZkNKUHRWMFFhVHFNd1V1WmJDQzlVOWlES24xb0VGTXhLV3pyQXNoaC1B?oc=5",
-      "published": "2026-07-10T07:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
       "id": "0b8d1eb21e76",
       "title": "Ja til to behandlinger mot lymfekreft. - HealthTalk",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdkp2VEFtbmZ4Vm9LZWhVVzF0QWkxNnI2RlViX21FNDFpd3RTeTNHUVk2OXQxN0s1QXBMNWVscTZHaGd5SEg3MlU0TDE1cjJmbWlHTnlsOUFkSTdXRmpoWDFGZXdWTzE5UEEycTRfQ25rSTJEZkNSVV9NT19JQmtzbmR5cXpyc3hNcGVUTEVBRUEyWTJLaUlYMkx4ZTFXQkxBZFZGT0xTN0tOY1lwUW85Y01lTlBob0tuUGc?oc=5",
@@ -191,6 +191,16 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
+      }
+    },
+    {
+      "id": "11db5a9eb287",
+      "title": "(+) 450.000 gamle resepter fjernet fra Pasientens legemiddelliste - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMFNLQndUdkh3T1hnVEJjZ3dObFQxRDBfd3Z1MkE4d190aGxIcDdWbDNsUF8xdXJpcWRURDdTakk1YXBTVjFveHdNZm5FbjEyaTlvM1hXNUZWRmxjU3JYakdZN0JpSlpVN1FpaWVxRFE2S3piNnhaOEppVTcyOXZxZC0yemtsamc5YjlrQ29OQm1wQl9SQWxiMDBmcE5qUHlJcDFnNE5NN2pwOW1CZkNKUHRWMFFhVHFNd1V1WmJDQzlVOWlES24xb0VGTXhLV3pyQXNoaC1B?oc=5",
+      "published": "2026-07-10T07:00:00+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -244,16 +254,6 @@
       }
     },
     {
-      "id": "b1aaad92e4be",
-      "title": "Den eneste representanten fra legemiddel- og helsevesenets detaljhandelssektor som ble inkludert i Forbes Vietnams topp 50 ESG-liste i 2026, og kåret til «Outstanding Asian Enterprise» to år på rad. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQcE5KOEQzbVEyODYxSGh1WFdfQmMxeDd0RDdqbWRIQ01SaHY4Z29sQlVMeVQ5bkNsejZCR2N3TXlkZTBHRUhnbXhmWUVyZU5WRGMwWk83R3ZYYU5US1V1YWFQdzBKRU5uaWlnZU1lTmJJaDBKN0plU2EyM3R1RVZhd1NkRHVJaU1pSGdsOV9EWks2UWhOYTVvOEN6OFUwclVmTmNBTjAxczRjdDJZSUM2Y1ptQWZqMWFRZGoxeW1Tc2owWDlGM01hU0RqMWZkSTVGeng4aVVjRkdraE0zQ0JseHRlOFhIWHVuRFo0Y1pjcDY?oc=5",
-      "published": "2026-10-16T13:38:20+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "ddbc4236c041",
       "title": "Mistenkt for 33 medisintyverier – sykepleier nekter skyld - Sykepleien",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVDlXaGNHYzVKYVNUT1Z0YmFEeThsWW9teWlhX1dUVWcxTDg2bGNOTXJta2JicEpZN01meWd1bGc3WjRxN3pwNE9lTXBZbFg0U0xESWVzc1VsUUdtSGlKR24wVEZOSVNVdWhMMVVUdTF4b3N0ZnBaUWxsTzVoWUw1SWVRYjZDclJs?oc=5",
@@ -274,6 +274,16 @@
       }
     },
     {
+      "id": "b1aaad92e4be",
+      "title": "Den eneste representanten fra legemiddel- og helsevesenets detaljhandelssektor som ble inkludert i Forbes Vietnams topp 50 ESG-liste i 2026, og kåret til «Outstanding Asian Enterprise» to år på rad. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQcE5KOEQzbVEyODYxSGh1WFdfQmMxeDd0RDdqbWRIQ01SaHY4Z29sQlVMeVQ5bkNsejZCR2N3TXlkZTBHRUhnbXhmWUVyZU5WRGMwWk83R3ZYYU5US1V1YWFQdzBKRU5uaWlnZU1lTmJJaDBKN0plU2EyM3R1RVZhd1NkRHVJaU1pSGdsOV9EWks2UWhOYTVvOEN6OFUwclVmTmNBTjAxczRjdDJZSUM2Y1ptQWZqMWFRZGoxeW1Tc2owWDlGM01hU0RqMWZkSTVGeng4aVVjRkdraE0zQ0JseHRlOFhIWHVuRFo0Y1pjcDY?oc=5",
+      "published": "2026-10-16T13:38:20+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "73451a5edd86",
       "title": "Helse, Ramstad | Medisin til kreftsyke Simon (36) finnes, men staten betaler ikke: Nå må helseministeren svare - Budstikka",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaTJoTDluOS1TclUxRkhQSUN5TEYxWE1lQjhyckVhbHluZXBKU1hJdlR3SVNzd0Y4RUI3UDdTOUhnLWw5SVh4anpZbmh0WktUOUo2LUhfYjNUTndqSGZUTG0yRUQ3UVd3bVZWcTI3RXNPd2ZBVUM2ajlMQm1vWEkyaWZFd25qdmp5dllYcHpSSnczTTVFOW14QXNPemlwQXJjZ3Z4ZmhNM0JPODdqcTBvaVJXOUp3dTN2cnhQUzJhM2kzc0hHUV9seg?oc=5",
@@ -281,6 +291,16 @@
       "source": {
         "name": "Budstikka",
         "url": "https://www.budstikka.no"
+      }
+    },
+    {
+      "id": "521efe098c2e",
+      "title": "Ja til verdens dyreste legemiddel: Må vare i 10 år for å lønne seg - HealthTalk",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdUU4Y2lJa2lqSU4wRGhXb3FHUk1Ba3kzZXJ6M0piNzFVRGt0TVgzM2ZXS2ZBSlJKd2ktWUgwRlNWbUlfblphbjJITHdnTnVwLVo1YUpTMjJtbk5kdWo3QlJoT2Y1ZmlaYTgxcW14Q0IzQzJwdHpCeGhFWnA0dWJnM3VRcDZxMkdCNk0tTWx6MUEtemlOdVVJOG9JNmJlYklLSkdXdUU0NUg4LVExb0RqN3dYVkkyNmw5MU9JRnpLTm5MRThLUlBQNFRrUGpSQkRicktzOVBQcXQ?oc=5",
+      "published": "2026-03-18T07:00:00+00:00",
+      "source": {
+        "name": "HealthTalk",
+        "url": "https://www.healthtalk.no"
       }
     },
     {
@@ -304,16 +324,6 @@
       }
     },
     {
-      "id": "521efe098c2e",
-      "title": "Ja til verdens dyreste legemiddel: Må vare i 10 år for å lønne seg - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdUU4Y2lJa2lqSU4wRGhXb3FHUk1Ba3kzZXJ6M0piNzFVRGt0TVgzM2ZXS2ZBSlJKd2ktWUgwRlNWbUlfblphbjJITHdnTnVwLVo1YUpTMjJtbk5kdWo3QlJoT2Y1ZmlaYTgxcW14Q0IzQzJwdHpCeGhFWnA0dWJnM3VRcDZxMkdCNk0tTWx6MUEtemlOdVVJOG9JNmJlYklLSkdXdUU0NUg4LVExb0RqN3dYVkkyNmw5MU9JRnpLTm5MRThLUlBQNFRrUGpSQkRicktzOVBQcXQ?oc=5",
-      "published": "2026-03-18T07:00:00+00:00",
-      "source": {
-        "name": "HealthTalk",
-        "url": "https://www.healthtalk.no"
-      }
-    },
-    {
       "id": "61e6597e4dea",
       "title": "Ni legemidler skal opp i Beslutningsforum – tre saker gjelder samme kreftbehandling - MEDWATCH.no",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16XzVwVVpJbHlTVUQxN0syVnpwb1VDNWZtSU1adjVXZFdyUlR6aktndkREbXU1dEozVW9sMFVXTUhNbXQwam5aQWZfcm54VXFTMkthZGFhRjh3V3AydTNZc1ByYmVCeW1QRjNBWWd4b21LNVQ0eEE?oc=5",
@@ -321,16 +331,6 @@
       "source": {
         "name": "MEDWATCH.no",
         "url": "https://medwatch.no"
-      }
-    },
-    {
-      "id": "044c149ba0fa",
-      "title": "Helse, Medisiner | Betaler i dyre dommer fra egen lomme – slankemedisin på topp ti - Fredriksstad Blad",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNWpic3ZhWXZfMGhpSVBUNlU3X1p4dE9faGVYemFhZlg1MGVTZ1UtbkRDTVJQSWZEYnBIdU82RllDSGcxWkZsQ1BTUTBSRGFHZHA1TUJUZ3k5N2VpTWwxU3BISldjWnBlWkZxamgzUk9yX0xyV1NzOEUySlFEYWZMaHczcWlxWmxIc0NzbTJNeFl4bmNvSWtLak5jRQ?oc=5",
-      "published": "2026-02-08T08:00:00+00:00",
-      "source": {
-        "name": "Fredriksstad Blad",
-        "url": "https://www.f-b.no"
       }
     },
     {
@@ -364,16 +364,6 @@
       }
     },
     {
-      "id": "83e9b53f4622",
-      "title": "Long Chau ble den eneste representanten fra legemiddel- og helsevesenets detaljhandel som ble inkludert på Forbes Vietnams liste over «Top 50 ESG 2026». - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPd2VfWWdROFhxa3NXTjd0T2N0NHZXc01VRzVOOS1yTXpwOXJyWHpvNXlOSHhJYU51TFJzQndxWmxOdmczaTZNZTBSQVdDYzVmQlhfZDJ6bFhVdVB2SmxkNkRCWTM1dGZKR2ZCbTF4R2ZIRDk2cEM4TXQwQjlzU05WSG55RTAzNERJTXhNX0N6RlpBa2NEY2FxWnJyUXVBQ2xyX2V4WHk2ZTRJYzV3WnExSVh5YWgwb0w1dWxEWndWbjVGbTRzZVFUdnhUZFZ3dkdDcFl5a1ZyVFY5M0E?oc=5",
-      "published": "2026-10-16T08:07:54+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "0bc3a5395879",
       "title": "Nytt legemiddel gir enda mer dramatisk vekttap - TV 2",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOEpkQVBIRl9fQ0I0dnJuQVhKUFZPYlBVaTUwQzljeW14dTZqY0ZsSW8xVDVZV1RRZXV1b3UzUlhmdTJDN0haR2hOTHNhNWlkdml5SFBONlZOcVR6bDYzNk9fSUJCRWxvVkk5aWtSeDNDV3dzVEx4WVNZWkNXVkVtN1lJQjlPeThiMmZR?oc=5",
@@ -384,13 +374,23 @@
       }
     },
     {
-      "id": "b832ca46615b",
-      "title": "Frasene: Snarveien til slankemedisin - Dagbladet",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UVHBfRzhWM3NUQS1RMmpKZGpxODQtcjM1Y2hoaFlTNll6RlVmMEJ4S3ZvMEgxcEJBTF94T3BZYWZ3M0xFeEtvejBWUGQ1N2FPTGVKS09PVkhlNU1fZ1VFeFJBTGxqemdQV3ViTk40MkpnRm40UVhsYVBPbldBdjg?oc=5",
-      "published": "2026-10-11T07:00:00+00:00",
+      "id": "83e9b53f4622",
+      "title": "Long Chau ble den eneste representanten fra legemiddel- og helsevesenets detaljhandel som ble inkludert på Forbes Vietnams liste over «Top 50 ESG 2026». - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPd2VfWWdROFhxa3NXTjd0T2N0NHZXc01VRzVOOS1yTXpwOXJyWHpvNXlOSHhJYU51TFJzQndxWmxOdmczaTZNZTBSQVdDYzVmQlhfZDJ6bFhVdVB2SmxkNkRCWTM1dGZKR2ZCbTF4R2ZIRDk2cEM4TXQwQjlzU05WSG55RTAzNERJTXhNX0N6RlpBa2NEY2FxWnJyUXVBQ2xyX2V4WHk2ZTRJYzV3WnExSVh5YWgwb0w1dWxEWndWbjVGbTRzZVFUdnhUZFZ3dkdDcFl5a1ZyVFY5M0E?oc=5",
+      "published": "2026-10-16T08:07:54+00:00",
       "source": {
-        "name": "Dagbladet",
-        "url": "https://www.dagbladet.no"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "044c149ba0fa",
+      "title": "Helse, Medisiner | Betaler i dyre dommer fra egen lomme – slankemedisin på topp ti - Fredriksstad Blad",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNWpic3ZhWXZfMGhpSVBUNlU3X1p4dE9faGVYemFhZlg1MGVTZ1UtbkRDTVJQSWZEYnBIdU82RllDSGcxWkZsQ1BTUTBSRGFHZHA1TUJUZ3k5N2VpTWwxU3BISldjWnBlWkZxamgzUk9yX0xyV1NzOEUySlFEYWZMaHczcWlxWmxIc0NzbTJNeFl4bmNvSWtLak5jRQ?oc=5",
+      "published": "2026-02-08T08:00:00+00:00",
+      "source": {
+        "name": "Fredriksstad Blad",
+        "url": "https://www.f-b.no"
       }
     },
     {
@@ -401,6 +401,16 @@
       "source": {
         "name": "Hamar Arbeiderblad",
         "url": "https://www.h-a.no"
+      }
+    },
+    {
+      "id": "b832ca46615b",
+      "title": "Frasene: Snarveien til slankemedisin - Dagbladet",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UVHBfRzhWM3NUQS1RMmpKZGpxODQtcjM1Y2hoaFlTNll6RlVmMEJ4S3ZvMEgxcEJBTF94T3BZYWZ3M0xFeEtvejBWUGQ1N2FPTGVKS09PVkhlNU1fZ1VFeFJBTGxqemdQV3ViTk40MkpnRm40UVhsYVBPbldBdjg?oc=5",
+      "published": "2026-10-11T07:00:00+00:00",
+      "source": {
+        "name": "Dagbladet",
+        "url": "https://www.dagbladet.no"
       }
     },
     {
@@ -434,16 +444,6 @@
       }
     },
     {
-      "id": "1c60dcb0592e",
-      "title": "ADHD-medisin i Lyngdal: Lavest andel – sterkest vekst - Lyngdals Avis",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeHNRcUtpcDczRFdsRXVqX0lMVG9nbjhnWW4zS0lrQVNsYkxpX2VoRWc4dy0xbkU2dTkwXzVEb3hxUEEyZFkxdU9rNEpybE52NnZoenlFZjVqYm1jbFM2RU0yanhQX1J5bmhjWXlzSUJmZUNqXzlST2tmdW5QZFR1ZTVWRGRPR2RpOGRLcl85ejdYOGZaSkpn?oc=5",
-      "published": "2026-09-23T07:00:00+00:00",
-      "source": {
-        "name": "Lyngdals Avis",
-        "url": "https://www.lyngdalsavis.no"
-      }
-    },
-    {
       "id": "7e45fe664385",
       "title": "(+) Han overtar jobben med å fronte upopulære medisin-avgjørelser - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSFBtbFpOTTRNNEY0VF9LMmZma2JPNnl1emw2X1RVdjR3Y0FPWXBkRGI4clFyNkptQTlVWlBoM09QeWlpVnBVSG9Ea2w1MHZURGRsZnNyM0FleVJyWWctV3VxV25aeXJGdWhMVy1FMFJHU3VwSUlNRUEtem9WWjV1c1g4M1I5YUFyWlVaVmJSWVFDTUc0cWU2TVJqVVZzM25NUWNwUnk3aDdOU0xEdE02c3owd0ZhQ0RFaU9VR2E4UzFMd0dEbmkwanlCSEpldHladmRBYmpLdDZ3OFROY0Fn?oc=5",
@@ -451,6 +451,16 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
+      "id": "1c60dcb0592e",
+      "title": "ADHD-medisin i Lyngdal: Lavest andel – sterkest vekst - Lyngdals Avis",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeHNRcUtpcDczRFdsRXVqX0lMVG9nbjhnWW4zS0lrQVNsYkxpX2VoRWc4dy0xbkU2dTkwXzVEb3hxUEEyZFkxdU9rNEpybE52NnZoenlFZjVqYm1jbFM2RU0yanhQX1J5bmhjWXlzSUJmZUNqXzlST2tmdW5QZFR1ZTVWRGRPR2RpOGRLcl85ejdYOGZaSkpn?oc=5",
+      "published": "2026-09-23T07:00:00+00:00",
+      "source": {
+        "name": "Lyngdals Avis",
+        "url": "https://www.lyngdalsavis.no"
       }
     },
     {
@@ -874,16 +884,6 @@
       }
     },
     {
-      "id": "51336260bbbb",
-      "title": "Norge sender medisiner og medisinsk utstyr til Syria - Regjeringen.no",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcEZpWVJyaHcwdzluelNGS3dieWExYVJSVjRLS2ZsdzczRTBYcHdCeXNERkpHTVVVOXNFWmVBNlhwSkhMcGtvdTJQR25LZ3o3cFpZaU9ZM3VKUWFfWExtRVZvR3pCT2xoQzFXQVNuTV9sc1ZnYURBYjlzUldpMlZQeHZrR2N6ZlJGdmNoVHI3dTdWZ1pQZ3FYNU5VaFhocUdweFNn?oc=5",
-      "published": "2023-02-17T08:00:00+00:00",
-      "source": {
-        "name": "Regjeringen.no",
-        "url": "https://www.regjeringen.no"
-      }
-    },
-    {
       "id": "b50cdaf363b6",
       "title": "Bruk samfunnsperspektiv i prioritering av helsetjenester - Altinget.no",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUW5XV0s0Q3M1NHI4ZUJwZ0hlNUppbUgxMWRTMUVOdXRfNC1pYXV0Wk1YS0UwQktlM0w1dWVaZUdXQ1NocnppZnVUS2NFUUJBRXM2SVRTUEVaV0stYkhuWDRfV2FiVFhCNjZVdEQyN0NwZlN4VkxkRGoxbTRBZTA0c09YbTlMNUhkOUZaU3pjZ0hxaG8?oc=5",
@@ -891,6 +891,16 @@
       "source": {
         "name": "Altinget.no",
         "url": "https://www.altinget.no"
+      }
+    },
+    {
+      "id": "51336260bbbb",
+      "title": "Norge sender medisiner og medisinsk utstyr til Syria - Regjeringen.no",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcEZpWVJyaHcwdzluelNGS3dieWExYVJSVjRLS2ZsdzczRTBYcHdCeXNERkpHTVVVOXNFWmVBNlhwSkhMcGtvdTJQR25LZ3o3cFpZaU9ZM3VKUWFfWExtRVZvR3pCT2xoQzFXQVNuTV9sc1ZnYURBYjlzUldpMlZQeHZrR2N6ZlJGdmNoVHI3dTdWZ1pQZ3FYNU5VaFhocUdweFNn?oc=5",
+      "published": "2023-02-17T08:00:00+00:00",
+      "source": {
+        "name": "Regjeringen.no",
+        "url": "https://www.regjeringen.no"
       }
     },
     {
@@ -924,6 +934,16 @@
       }
     },
     {
+      "id": "c1c47ccc1671",
+      "title": "Legemiddel, Medisin/Helse | Økende legemiddelmangel i Europa i 2019 - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaFFlbHFPclU2MEs1RUVWU2dHREZqNk1OOGxQbGFZOG1BSGFHQUl6V1VqdFFZMWVVY3diOV9PYmpiLTA4Z1JxMTlCMncxU0JWVm9welZ3M3B5S3h5ekRCbUl3ejR6eHJTTUFWR3daSm95bzV5bHNKcS1nVjZncXhIUlBiTWYxMnVsS18xSU1UZDRXME1JcEoxOW13?oc=5",
+      "published": "2020-02-04T08:00:00+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
+      }
+    },
+    {
       "id": "2e5108ce05d3",
       "title": "Politisk opprør mot medisin-treghet – vil legge ned Beslutningsforum - VG",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQakNBTWRIODFobmlMV2l3cG5NNTlza0RIVmhnRnp0V0FGWWZOalRMLXhCRm14dlc1emFPSk9QcE4zVzFkcEUzbTR2MDBORU9WbVRVX3NpYlljcE81c1hxZDhVbXRndzFnb0VaSTdjUzNZSTk5a19ydTlTdkNCemhXbTd2WHhGNERHTVNWUURWeGttUGNiMGhMNmlPYTI2U05xRkthSw?oc=5",
@@ -934,16 +954,6 @@
       }
     },
     {
-      "id": "5a3c6e17b37a",
-      "title": "Innfører legemiddel til Stills sykdom og sJIA - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmx6MTZPbFRCMGU5c0ptUVlwdEM4UHp4Wl9EV2ppb1pQa0VPdV9RVjRWQ015dlNpVHZMblM0Wldndm9WWEFVelNSbFBUa0tDRnhES3JWbng0dXVSem1jZGsyQ0l2eGRiUkF1aTNwbW5HazI1cHZyOVZwUDhUNWc2aElyUW1VdU9RZkpJQUh1TW83YzNTRW5sQVVEaUw3RnJEcUdVOUYtVnN4Rkt5M2NDc3VrNEMtOEhsOUE?oc=5",
-      "published": "2019-02-26T08:00:00+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
       "id": "d58b28348cce",
       "title": "Kvinner får feil behandling - medisinene er tilpasset menn - NHI.no",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaHB0SkxtQ2E2eGduME9iQ3FSVlBtYkVrd0w2YUZGWmhzdkRGeE51aHJVMGg0REJoQUExQkktRkN0UnR5dUNNdGYxV0ZrYlNxSG4zaHoxU0w4d1k1bW1lYkdEaTFKVkxETzRldmhRdWJ3cWVYNWRHY1JaY2JQX2UxNUFabFN4a1JzSTlTQWUxMGlsU1pNY2FtclFPbk56S2RlUmtNSGlLMGJiV1B0ZWNsUS1LUDlUZw?oc=5",
@@ -951,6 +961,16 @@
       "source": {
         "name": "NHI.no",
         "url": "https://nhi.no"
+      }
+    },
+    {
+      "id": "5a3c6e17b37a",
+      "title": "Innfører legemiddel til Stills sykdom og sJIA - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmx6MTZPbFRCMGU5c0ptUVlwdEM4UHp4Wl9EV2ppb1pQa0VPdV9RVjRWQ015dlNpVHZMblM0Wldndm9WWEFVelNSbFBUa0tDRnhES3JWbng0dXVSem1jZGsyQ0l2eGRiUkF1aTNwbW5HazI1cHZyOVZwUDhUNWc2aElyUW1VdU9RZkpJQUh1TW83YzNTRW5sQVVEaUw3RnJEcUdVOUYtVnN4Rkt5M2NDc3VrNEMtOEhsOUE?oc=5",
+      "published": "2019-02-26T08:00:00+00:00",
+      "source": {
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
@@ -981,26 +1001,6 @@
       "source": {
         "name": "Aftenposten",
         "url": "https://www.aftenposten.no"
-      }
-    },
-    {
-      "id": "222941f5d7b1",
-      "title": "Vil ta blåresepten fra Norges mest brukte legemiddel; uklart om unntaksordningen, og etter bare tre uker ble AP kurert for allergien mot private sykehus - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNdnJoRWVhVUFJOUVZeDZ2cURneTFCS3hGeHhfMGZad0lzLThuT251Q3pNUjZ6VjFhYnI0Vy1KUEdVa01zSlg3NmVMSFJtWWZIYWxxcE80bWZMR0JHRENaRm9KN0loYXktMmVUZTAyWHBVZWxqNjNmUDQyRFFVRThwbS1ha1doV2ZYdkRCckxIbVFNTHpFTVBWNEh0VnhMTmVTTURaZXZLQllpRGlYcXZQNS1DZi0ycVFNdWdKWVQ1UzV5RDktRTZ1VVZXWV9DNzBHcU1IaUJHaXlyU2N5RDRTYlFoU2FoN1UtV3UxbXhTTDJZMHoxcTJVSVZ0Qm9GSE5aYTFOVkI4UVVlQjNIMXo2RmI2aGFtRWkwTzVTUDFmYw?oc=5",
-      "published": "2024-05-16T07:00:00+00:00",
-      "source": {
-        "name": "HealthTalk",
-        "url": "https://www.healthtalk.no"
-      }
-    },
-    {
-      "id": "61743f076712",
-      "title": "Nå er apotekene tomme for denne medisinen - Østlendingen",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNU3BhLUZ1MHFqUWJ3WkJ4MGpiY2M3X3UtaVAyOC0ybkUxRERxelpNbTd5dFRJVUFNdEEwYXRpLUVuYVluSzNTNUJnTkxWRFNma2pHSGZCM3I3Znlub1ZuZXBjMURWc0tBV3c2RTlqVkcydExLUk1MVkdsYzdYNngxd1FnSHhMVlo0VUpiag?oc=5",
-      "published": "2023-03-29T07:00:00+00:00",
-      "source": {
-        "name": "Østlendingen",
-        "url": "https://www.ostlendingen.no"
       }
     }
   ]
