@@ -8,7 +8,7 @@ permalink: /
 
 # Prediksjoner for ny bruk av legemidler — Norge
 
-This project uses the TxGNN knowledge graph to predict potential new therapeutic uses for medicines approved in Norway.
+This project uses the TxGNN graph neural network to predict potential new therapeutic uses for medicines approved in Norway.
 
 **Disclaimer**: This content is for research purposes only and does not constitute medical advice. All drug repurposing predictions require clinical validation before application.
 
