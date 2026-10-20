@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-10-20T19:00:05.188804+00:00",
+  "fetched_at": "2026-10-20T22:14:07.612959+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "f89c59966887",
+      "title": "Markedsførte tilbud på reseptbelagt legemiddel - Bergens Tidende",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQY1IzZGVxOE1VZWNLcHVHeVc4cUVhaVFxN1E4OXV6Z05XOG5RWG12TENyekNvYWJZa0lfV0M4dFNNeHZEaGo5RGtSSVNqY0c3Xzc3VmpMUl9PMGRidWc2TDlDLXZwLXI3dllXMHU1aGUyVjhfVmpSVlUyRnRxRTMxZE1BVVJyWlFxTUFLUGlYdFI?oc=5",
+      "published": "2026-10-20T19:01:42+00:00",
+      "source": {
+        "name": "Bergens Tidende",
+        "url": "https://www.bt.no"
+      }
+    },
     {
       "id": "bfc3d0a74ace",
       "title": "Helse, Skole | Høg ADHD-medisinbruk i Dalane: Kommunelegen trur ikkje det blir brukt som lettvint løysing - Dalane Tidende",
@@ -214,16 +224,6 @@
       }
     },
     {
-      "id": "049ff33f200b",
-      "title": "Én felles løsning for søknader om kostbare legemidler i sykehusene - Legeforeningen",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVWlWcUNsNTJIVHpVMjVKVG1sQTVpN3cxSGFjMi1pNm5wdE9lQlVkd2tWX0NiN1lEU2VmdVkyUkNwZFFZNGpYZU5QeEpWY2JHOHRTdll0Wjhjdkp5d1lxR1FNbHRGeUVrQThRd3d6emh2UzZxZ1RBWnJpUUhCMnRBdm1HTjRSSW9TWC16MmpHXzlFU1Jrd1EyYnZBaUFGVEVHc0JHTXVUTQ?oc=5",
-      "published": "2026-09-25T07:00:00+00:00",
-      "source": {
-        "name": "Legeforeningen",
-        "url": "https://www.legeforeningen.no"
-      }
-    },
-    {
       "id": "cbc2814dfa04",
       "title": "Helse, Medisin | Medisinmangel vart personleg for Beate: Tok kvinnehelse og beredskap til Arendalsuka - Avisa Nordhordland",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYzVpV0hVVHhTaEdlSTV2eDZ0eE5aV3NFbm1mUUtMelZ4ZFU0NmhpdE1TdUplaDRyU3djTkdtanlPb3Jaa3dxX29VdXk3WVcxXzgxcDJKaDI3ZGh4NDdscmozZmJYUkFUUnVrX2dFVG1vd0Y3NjVhWm0yQndIT3l6bG5tZ0lveS1ndWFmU2tiSDdjejFfbU9YSFJrYjM2dG5lTHM4Y19SbVVLUFlWMVJKd3ZEV1hiR3FVMTgwNThlX2tKVDA?oc=5",
@@ -231,6 +231,16 @@
       "source": {
         "name": "Avisa Nordhordland",
         "url": "https://www.nordhordland.no"
+      }
+    },
+    {
+      "id": "049ff33f200b",
+      "title": "Én felles løsning for søknader om kostbare legemidler i sykehusene - Legeforeningen",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVWlWcUNsNTJIVHpVMjVKVG1sQTVpN3cxSGFjMi1pNm5wdE9lQlVkd2tWX0NiN1lEU2VmdVkyUkNwZFFZNGpYZU5QeEpWY2JHOHRTdll0Wjhjdkp5d1lxR1FNbHRGeUVrQThRd3d6emh2UzZxZ1RBWnJpUUhCMnRBdm1HTjRSSW9TWC16MmpHXzlFU1Jrd1EyYnZBaUFGVEVHc0JHTXVUTQ?oc=5",
+      "published": "2026-09-25T07:00:00+00:00",
+      "source": {
+        "name": "Legeforeningen",
+        "url": "https://www.legeforeningen.no"
       }
     },
     {
@@ -244,16 +254,6 @@
       }
     },
     {
-      "id": "ddbc4236c041",
-      "title": "Mistenkt for 33 medisintyverier – sykepleier nekter skyld - Sykepleien",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVDlXaGNHYzVKYVNUT1Z0YmFEeThsWW9teWlhX1dUVWcxTDg2bGNOTXJta2JicEpZN01meWd1bGc3WjRxN3pwNE9lTXBZbFg0U0xESWVzc1VsUUdtSGlKR24wVEZOSVNVdWhMMVVUdTF4b3N0ZnBaUWxsTzVoWUw1SWVRYjZDclJs?oc=5",
-      "published": "2026-07-08T07:00:00+00:00",
-      "source": {
-        "name": "Sykepleien",
-        "url": "https://sykepleien.no"
-      }
-    },
-    {
       "id": "19f95588e0d4",
       "title": "Nytt håp for ALS-pasienter: Tidlig tilgang til medisiner - HealthTalk",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVGVhRFNTQUo3aXNydHlaOE9RX0VfM0ZXbGxnbm9HOWdWNGRPWnVacHpXZDFYRVNtb3hZNjBWdXVOQ1FfSzZSbXdIb2thMUEwYXdYdU42ektKSVo0N2h0bFJ4R2dhQ0pzNTAzcUFNMFVncWpaODE3UXNqMW9wV1Z5cHg4UWctV1VVRzRVYTJTTTE0QTRsMGtOM0JSeHVtbkROUmFpendySndzM3FvMmpnN1BNQVdLNGtpUUxmdjI1NnJjVUx2czRMc05R?oc=5",
@@ -261,6 +261,16 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
+      }
+    },
+    {
+      "id": "ddbc4236c041",
+      "title": "Mistenkt for 33 medisintyverier – sykepleier nekter skyld - Sykepleien",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVDlXaGNHYzVKYVNUT1Z0YmFEeThsWW9teWlhX1dUVWcxTDg2bGNOTXJta2JicEpZN01meWd1bGc3WjRxN3pwNE9lTXBZbFg0U0xESWVzc1VsUUdtSGlKR24wVEZOSVNVdWhMMVVUdTF4b3N0ZnBaUWxsTzVoWUw1SWVRYjZDclJs?oc=5",
+      "published": "2026-07-08T07:00:00+00:00",
+      "source": {
+        "name": "Sykepleien",
+        "url": "https://sykepleien.no"
       }
     },
     {
@@ -304,16 +314,6 @@
       }
     },
     {
-      "id": "b1aaad92e4be",
-      "title": "Den eneste representanten fra legemiddel- og helsevesenets detaljhandelssektor som ble inkludert i Forbes Vietnams topp 50 ESG-liste i 2026, og kåret til «Outstanding Asian Enterprise» to år på rad. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQcE5KOEQzbVEyODYxSGh1WFdfQmMxeDd0RDdqbWRIQ01SaHY4Z29sQlVMeVQ5bkNsejZCR2N3TXlkZTBHRUhnbXhmWUVyZU5WRGMwWk83R3ZYYU5US1V1YWFQdzBKRU5uaWlnZU1lTmJJaDBKN0plU2EyM3R1RVZhd1NkRHVJaU1pSGdsOV9EWks2UWhOYTVvOEN6OFUwclVmTmNBTjAxczRjdDJZSUM2Y1ptQWZqMWFRZGoxeW1Tc2owWDlGM01hU0RqMWZkSTVGeng4aVVjRkdraE0zQ0JseHRlOFhIWHVuRFo0Y1pjcDY?oc=5",
-      "published": "2026-10-16T13:38:20+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "61e6597e4dea",
       "title": "Ni legemidler skal opp i Beslutningsforum – tre saker gjelder samme kreftbehandling - MEDWATCH.no",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16XzVwVVpJbHlTVUQxN0syVnpwb1VDNWZtSU1adjVXZFdyUlR6aktndkREbXU1dEozVW9sMFVXTUhNbXQwam5aQWZfcm54VXFTMkthZGFhRjh3V3AydTNZc1ByYmVCeW1QRjNBWWd4b21LNVQ0eEE?oc=5",
@@ -321,6 +321,16 @@
       "source": {
         "name": "MEDWATCH.no",
         "url": "https://medwatch.no"
+      }
+    },
+    {
+      "id": "b1aaad92e4be",
+      "title": "Den eneste representanten fra legemiddel- og helsevesenets detaljhandelssektor som ble inkludert i Forbes Vietnams topp 50 ESG-liste i 2026, og kåret til «Outstanding Asian Enterprise» to år på rad. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQcE5KOEQzbVEyODYxSGh1WFdfQmMxeDd0RDdqbWRIQ01SaHY4Z29sQlVMeVQ5bkNsejZCR2N3TXlkZTBHRUhnbXhmWUVyZU5WRGMwWk83R3ZYYU5US1V1YWFQdzBKRU5uaWlnZU1lTmJJaDBKN0plU2EyM3R1RVZhd1NkRHVJaU1pSGdsOV9EWks2UWhOYTVvOEN6OFUwclVmTmNBTjAxczRjdDJZSUM2Y1ptQWZqMWFRZGoxeW1Tc2owWDlGM01hU0RqMWZkSTVGeng4aVVjRkdraE0zQ0JseHRlOFhIWHVuRFo0Y1pjcDY?oc=5",
+      "published": "2026-10-16T13:38:20+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -414,16 +424,6 @@
       }
     },
     {
-      "id": "83e9b53f4622",
-      "title": "Long Chau ble den eneste representanten fra legemiddel- og helsevesenets detaljhandel som ble inkludert på Forbes Vietnams liste over «Top 50 ESG 2026». - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPd2VfWWdROFhxa3NXTjd0T2N0NHZXc01VRzVOOS1yTXpwOXJyWHpvNXlOSHhJYU51TFJzQndxWmxOdmczaTZNZTBSQVdDYzVmQlhfZDJ6bFhVdVB2SmxkNkRCWTM1dGZKR2ZCbTF4R2ZIRDk2cEM4TXQwQjlzU05WSG55RTAzNERJTXhNX0N6RlpBa2NEY2FxWnJyUXVBQ2xyX2V4WHk2ZTRJYzV3WnExSVh5YWgwb0w1dWxEWndWbjVGbTRzZVFUdnhUZFZ3dkdDcFl5a1ZyVFY5M0E?oc=5",
-      "published": "2026-10-16T08:07:54+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "4358c045f263",
       "title": "Helse, Medisiner | Flere medisiner fases ut: – Haster med å kontakte lege - Hamar Arbeiderblad",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSzFNMk8wd1lBVlhwUi1GSUJZcWM2M0VBNmpwSnVvYzlpdlBFTm94ZWJEUHZYeXhOaXpYdmhLSUVzbE5rZURqMW43bVMtUC1aNldERTBPdGdYVmU5cTRIeVBpbkpuaXZLb2FJUWZ1Ykw1NTlPaXh0OUJKYUcyWG9HMjM3cDlnQlREX2Z2SmRxUQ?oc=5",
@@ -431,6 +431,16 @@
       "source": {
         "name": "Hamar Arbeiderblad",
         "url": "https://www.h-a.no"
+      }
+    },
+    {
+      "id": "83e9b53f4622",
+      "title": "Long Chau ble den eneste representanten fra legemiddel- og helsevesenets detaljhandel som ble inkludert på Forbes Vietnams liste over «Top 50 ESG 2026». - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPd2VfWWdROFhxa3NXTjd0T2N0NHZXc01VRzVOOS1yTXpwOXJyWHpvNXlOSHhJYU51TFJzQndxWmxOdmczaTZNZTBSQVdDYzVmQlhfZDJ6bFhVdVB2SmxkNkRCWTM1dGZKR2ZCbTF4R2ZIRDk2cEM4TXQwQjlzU05WSG55RTAzNERJTXhNX0N6RlpBa2NEY2FxWnJyUXVBQ2xyX2V4WHk2ZTRJYzV3WnExSVh5YWgwb0w1dWxEWndWbjVGbTRzZVFUdnhUZFZ3dkdDcFl5a1ZyVFY5M0E?oc=5",
+      "published": "2026-10-16T08:07:54+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -674,6 +684,16 @@
       }
     },
     {
+      "id": "2be14fb09c85",
+      "title": "Ozempic-grep i Norge: Dobler dosen - Sol",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1iZU1DbVRHeHJVcHN4ZmVoY2xZd21rYktwbVpDR3M2UEtrRDhhQlZXa2tSUGJzbTBDTEhHc0otVUF2TVNPZ2tnRFY0UTJqWG95cjJxcXdpejF3UnZoR2ZRdHR4OGJfYTl4YXVxdW94aERwZXM?oc=5",
+      "published": "2026-09-03T07:00:00+00:00",
+      "source": {
+        "name": "Sol",
+        "url": "https://sol.no"
+      }
+    },
+    {
       "id": "9178f5f72059",
       "title": "ADHD-legemidler i morsmelk - Farmasøytisk institutt - Det matematisk-naturvitenskapelige fakultet",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ3kyZ0UxeXVfaVpJSnpuQmZLWENxY0NtUlA1YTRYMTB2SjlzVnNkNzlwbVRKLVltYUF3VVJOREZ4bUVuM2FqSUZlRkdOWDJKNWRvYVZNX0d0al82NDNJZEYzb3IxbnRSNWF0YXpQRW8zTjY1clBOUE5pY1FXWDJQMFplZWZkbERZUV9jdjRsdTFfejY4dzc0eGJqZ1h5WVJUY191R2dmSQ?oc=5",
@@ -874,16 +894,6 @@
       }
     },
     {
-      "id": "78163b91b37e",
-      "title": "Skjerper rutiner for å skrive ut vanedannede medisiner - Larvik kommune",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNGQ4WnloR3otM0VTQ2FydUZjSUxMV0pJd3ZFMVJSamo0LWROZkstU2I2OVJMTFdDMDBBRTAzV3c0VHZnem85SGJnZ21fLUVHbWFGb3VGdmF6QzRfTzhWN3NtM1NmSEtOLVVpMlNaNGNrWEhjYlFQX2p2ckNNMnRnNkhBNTVwdGZ5T3FMVW94dXduMDV5NEZoZjNRNmtMV2MwdTMzb1M4WmRNOXl4cF9Ydnd3?oc=5",
-      "published": "2025-06-25T07:00:00+00:00",
-      "source": {
-        "name": "Larvik kommune",
-        "url": "https://www.larvik.kommune.no"
-      }
-    },
-    {
       "id": "1f8ee124566a",
       "title": "Ja til nytt legemiddel mot atopisk eksem - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWEdfMmRHSWhnUnRBOU5GeURCbUowQnNYZUpKZkJRRi1aSnp1X1VrX2R2NWJ2dHMzalFXcEhGU1k5aG9DMmEwUWxfY2VMc0FUS09VUGliaHhoYWZuNmNKWGxEeUcxSkdaYXRRaXpzZFlLczlNZFFTaEhManJac2dsS1JRLXNKMXFzLWFKeGtCX21PMzFvRXZwdnNBZXZ3UGk4b05YakU1c3FDd2Z6dDl6bVEycw?oc=5",
@@ -991,16 +1001,6 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
-      }
-    },
-    {
-      "id": "61743f076712",
-      "title": "Nå er apotekene tomme for denne medisinen - Østlendingen",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNU3BhLUZ1MHFqUWJ3WkJ4MGpiY2M3X3UtaVAyOC0ybkUxRERxelpNbTd5dFRJVUFNdEEwYXRpLUVuYVluSzNTNUJnTkxWRFNma2pHSGZCM3I3Znlub1ZuZXBjMURWc0tBV3c2RTlqVkcydExLUk1MVkdsYzdYNngxd1FnSHhMVlo0VUpiag?oc=5",
-      "published": "2023-03-29T07:00:00+00:00",
-      "source": {
-        "name": "Østlendingen",
-        "url": "https://www.ostlendingen.no"
       }
     }
   ]
