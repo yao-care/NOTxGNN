@@ -23,7 +23,7 @@ predikerte par, evidensen graderes fra L1 til L5, og til slutt gis en beslutning
 </p>
 
 <ol class="actionable-steps">
-<li><strong>TxGNN-prediksjon</strong>: relasjoner mellom legemiddel og sykdom predikeres med en kunnskapsgraf kombinert med grafnevrale nettverk.</li>
+<li><strong>TxGNN-prediksjon</strong>: relasjoner mellom legemiddel og sykdom predikeres av TxGNN-modellen (dyp læring: et grafnevralt nettverk trent på en biomedisinsk kunnskapsgraf).</li>
 <li><strong>Evidensinnsamling</strong>: for hvert predikerte par hentes evidens fra ClinicalTrials.gov, PubMed, DrugBank og DMP.</li>
 <li><strong>Evidensgradering</strong>: gradert fra L1 til L5, der L1 er sterkest (flere fase 3-RCT-er) og L5 kun er en modellprediksjon.</li>
 <li><strong>Beslutningsanbefaling</strong>: Go, Proceed, Consider, Explore eller Hold, basert på evidensnivået.</li>
