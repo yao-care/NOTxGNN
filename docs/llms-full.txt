@@ -17,7 +17,7 @@ Evidensnivåene går fra L1 (sterkere klinisk evidens) til L5 (kun modellprediks
 - `/evidence-high/` Høy evidens (L1-L2) — Kandidater for legemiddelreposisjonering på nivå L1-L2 i NOTxGNN, støttet av kliniske studier eller systematiske oversikter.
 - `/evidence-medium/` Moderat evidens (L3-L4) — Kandidater for legemiddelreposisjonering på nivå L3-L4 i NOTxGNN, understøttet av observasjonelle eller prekliniske data.
 - `/evidence-low/` Kun modellprediksjon (L5) — L5-kandidater i NOTxGNN: kun modellprediksjon, uten klinisk evidens eller litteraturevidens så langt.
-- `/methodology/` Metodikk — Slik utarbeider og validerer NOTxGNN sine prediksjoner: prediksjon med TxGNN-kunnskapsgraf, evidensinnsamling, gradering L1-L5 og beslutningsanbefalinger.
+- `/methodology/` Metodikk — Slik utarbeider og validerer NOTxGNN sine prediksjoner: prediksjon med TxGNN-modellen (dyp læring), evidensinnsamling, gradering L1-L5 og beslutningsanbefalinger.
 - `/guide/` Brukerveiledning — Brukerveiledning for NOTxGNN: hvordan du slår opp legemidler, leser evidensnivåer og tolker anbefalinger.
 - `/sources/` Datakilder — Datakildene bak NOTxGNN: registreringsdata fra DMP, TxGNN, ClinicalTrials.gov, PubMed og DrugBank.
 - `/downloads/` Nedlastinger — Åpne data til nedlasting fra NOTxGNN: FHIR-ressurser, prediksjonsresultater og søkeindeks.

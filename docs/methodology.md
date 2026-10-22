@@ -3,7 +3,7 @@ layout: default
 title: Metodikk
 nav_order: 91
 permalink: /methodology/
-description: "Slik utarbeider og validerer NOTxGNN sine prediksjoner: prediksjon med TxGNN-kunnskapsgraf, evidensinnsamling, gradering L1-L5 og beslutningsanbefalinger."
+description: "Slik utarbeider og validerer NOTxGNN sine prediksjoner: prediksjon med TxGNN-modellen (dyp læring), evidensinnsamling, gradering L1-L5 og beslutningsanbefalinger."
 ---
 
 # Metodikk
@@ -17,7 +17,7 @@ Fra KI-prediksjon til evidensgradering — hver kandidat har et sporbart grunnla
 ## Samlet arbeidsflyt
 
 <p class="key-answer" data-question="Hvordan utarbeider NOTxGNN sine prediksjoner?">
-Plattformen bruker en arbeidsflyt i fire trinn: TxGNN-kunnskapsgrafmodellen predikerer potensielle
+Plattformen bruker en arbeidsflyt i fire trinn: TxGNN-modellen (dyp læring) predikerer potensielle
 sammenhenger mellom legemiddel og sykdom, deretter samles det automatisk inn evidens for hvert
 predikerte par, evidensen graderes fra L1 til L5, og til slutt gis en beslutningsanbefaling.
 </p>
