@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-24T05:29:15.921969+00:00",
+  "fetched_at": "2026-10-24T10:29:17.015866+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -204,16 +204,6 @@
       }
     },
     {
-      "id": "0b8d1eb21e76",
-      "title": "Ja til to behandlinger mot lymfekreft. - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdkp2VEFtbmZ4Vm9LZWhVVzF0QWkxNnI2RlViX21FNDFpd3RTeTNHUVk2OXQxN0s1QXBMNWVscTZHaGd5SEg3MlU0TDE1cjJmbWlHTnlsOUFkSTdXRmpoWDFGZXdWTzE5UEEycTRfQ25rSTJEZkNSVV9NT19JQmtzbmR5cXpyc3hNcGVUTEVBRUEyWTJLaUlYMkx4ZTFXQkxBZFZGT0xTN0tOY1lwUW85Y01lTlBob0tuUGc?oc=5",
-      "published": "2026-10-19T08:11:06+00:00",
-      "source": {
-        "name": "HealthTalk",
-        "url": "https://www.healthtalk.no"
-      }
-    },
-    {
       "id": "094a0379954d",
       "title": "(+) Nesten ingen av legemiddel-meldingene sendt innen fristen: – Vi er selvsagt ikke fornøyde - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPLUdNMl8yV2Itc3pjb0VHWlNObkVkSUt5WGdoc050SkFOd2Q5UE5SYWpZUVBhTzB2SEJNYm5WcUZVNTNnVmZFSHJnTnR1Q25uMzFtaDhMQlFiQ05zbUdmcjdCdkxpYm5aTmQzNl9WNzRxY0JEQkE4QzZBSkU5TnJEbWhxRDNfeXk2dXJoa1ppNzVUX1o4NEZDWDNCNjNPR0tuSlIxUlpJcVFHUGtiYzFmQ3VuUFdySlN1ZjRHUl92YXd0SXlCNEJSWG5sSWJmanlDcWVISENMZFR5WVA3WXc?oc=5",
@@ -234,12 +224,12 @@
       }
     },
     {
-      "id": "9d63483d4fb7",
-      "title": "Skriftlig spørsmål fra Anne Grethe Hauan (FrP) til helse- og omsorgsministeren - Stortinget",
+      "id": "8d5cb52d916f",
+      "title": "Skriftlig spørsmål fra Anne Grethe Hauan (FrP) til helse- og omsorgsministeren - Stortinget.no",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQN1ZQaFpQZHJPMFUtU09IZjhWYTMzdUwxeURnM28xVDV3cllRa2NLbE1TQzRLemhORFFwN1NTMXJfQmhuX2xMa2kzb1REUDNUQVBmc1hSTGh0MEV1RUlFMkZ1TjdPRzFwXzRuam9Yc3IxM3pDOEtpcVF2OUdDa2cyUUFKN1V0d2xoUzhNNnJ6QS1EVXc1ejNSV0QwcGtKMEJnTW5ObGNSV1BoOVl1U3NOT1EyNEpmUE1zcnB4UA?oc=5",
       "published": "2026-09-27T19:11:13+00:00",
       "source": {
-        "name": "Stortinget",
+        "name": "Stortinget.no",
         "url": "https://www.stortinget.no"
       }
     },
@@ -354,16 +344,6 @@
       }
     },
     {
-      "id": "049ff33f200b",
-      "title": "Én felles løsning for søknader om kostbare legemidler i sykehusene - Legeforeningen",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVWlWcUNsNTJIVHpVMjVKVG1sQTVpN3cxSGFjMi1pNm5wdE9lQlVkd2tWX0NiN1lEU2VmdVkyUkNwZFFZNGpYZU5QeEpWY2JHOHRTdll0Wjhjdkp5d1lxR1FNbHRGeUVrQThRd3d6emh2UzZxZ1RBWnJpUUhCMnRBdm1HTjRSSW9TWC16MmpHXzlFU1Jrd1EyYnZBaUFGVEVHc0JHTXVUTQ?oc=5",
-      "published": "2026-09-25T07:00:00+00:00",
-      "source": {
-        "name": "Legeforeningen",
-        "url": "https://www.legeforeningen.no"
-      }
-    },
-    {
       "id": "779e45cee086",
       "title": "Leserinnlegg, Vanedannende medisiner | God helse handler om mer enn en resept - Kragerø Blad Vestmar",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02djNpVWI5eWpzUnhzMUM4cDZXT2YzQWV0MVFFNUJPZ3dmTnRmYVpaZm9YSXVXSWVGYlBfQUpldjUxQ20wamdMTjFtUGZkZGRLLU8zYTVISHNJaHZfOVQ1WFpvVDNiNkVmQ0I0QUduSXV2dVNzdEItRw?oc=5",
@@ -374,6 +354,16 @@
       }
     },
     {
+      "id": "049ff33f200b",
+      "title": "Én felles løsning for søknader om kostbare legemidler i sykehusene - Legeforeningen",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVWlWcUNsNTJIVHpVMjVKVG1sQTVpN3cxSGFjMi1pNm5wdE9lQlVkd2tWX0NiN1lEU2VmdVkyUkNwZFFZNGpYZU5QeEpWY2JHOHRTdll0Wjhjdkp5d1lxR1FNbHRGeUVrQThRd3d6emh2UzZxZ1RBWnJpUUhCMnRBdm1HTjRSSW9TWC16MmpHXzlFU1Jrd1EyYnZBaUFGVEVHc0JHTXVUTQ?oc=5",
+      "published": "2026-09-25T07:00:00+00:00",
+      "source": {
+        "name": "Legeforeningen",
+        "url": "https://www.legeforeningen.no"
+      }
+    },
+    {
       "id": "521efe098c2e",
       "title": "Ja til verdens dyreste legemiddel: Må vare i 10 år for å lønne seg - HealthTalk",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdUU4Y2lJa2lqSU4wRGhXb3FHUk1Ba3kzZXJ6M0piNzFVRGt0TVgzM2ZXS2ZBSlJKd2ktWUgwRlNWbUlfblphbjJITHdnTnVwLVo1YUpTMjJtbk5kdWo3QlJoT2Y1ZmlaYTgxcW14Q0IzQzJwdHpCeGhFWnA0dWJnM3VRcDZxMkdCNk0tTWx6MUEtemlOdVVJOG9JNmJlYklLSkdXdUU0NUg4LVExb0RqN3dYVkkyNmw5MU9JRnpLTm5MRThLUlBQNFRrUGpSQkRicktzOVBQcXQ?oc=5",
@@ -381,16 +371,6 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
-      }
-    },
-    {
-      "id": "bb3a4ba33a65",
-      "title": "Barna fikk slankesprøyter i 68 uker – nå er de første resultatene ute - TV 2",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOM3RMd2Z4WGdvdFJaX3loMEhCUzlLLU9fbXFYQW03ZkF3MkhEUUdmcG9BanNpODRJdzFVb05SMHNBbndlVkZ4b0YxUWk1RG00SEo2QjlZWTdyZm9XQzN4U29YMUkxVHZPaS1Ma2F5X0FpdnBkdFhqYk1IRVY3aW5EYm94LU0wQ0xrQWphaENQdFhjWnB3T2tfZHNRNzIwWm84djVuNVIzNA?oc=5",
-      "published": "2026-09-15T07:00:00+00:00",
-      "source": {
-        "name": "TV 2",
-        "url": "https://www.tv2.no"
       }
     },
     {
@@ -651,6 +631,16 @@
       "source": {
         "name": "Sarpsborg Arbeiderblad",
         "url": "https://www.sa.no"
+      }
+    },
+    {
+      "id": "da162b48ac54",
+      "title": "Utslettet kan være et alvorlig varsko - Dagbladet",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE80dFNMTVV3NEpBZ0gzeXNlUGpTTENOckdaX3gySnhqVThuUGQxR2dNUGt4MmYtQ1E2N056bW4zMlFMWTJmdVdCSUJYS185ZjZPMktjbFY2NzJ2NW55UFRfV1BIU2lxMlpwN1NqWS1FMUZXNEhFOGYxY2RuZw?oc=5",
+      "published": "2026-09-15T07:00:00+00:00",
+      "source": {
+        "name": "Dagbladet",
+        "url": "https://www.dagbladet.no"
       }
     },
     {
@@ -984,6 +974,16 @@
       }
     },
     {
+      "id": "0b3bf4934607",
+      "title": "legemiddel, medisin og helse | Jubler for rekordsalg av reseptfri viagra, men sexolog steiler: – En fryktelig dårlig idé - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNS3FsMjRQZGdOV1FHdmpNcXVseUZJMGpucWpDZzg0WGNsNDl5blhiajd4MzVLMWJVelI5X2hWckJZa0JvaU5tRHhRMTlNMnVicEp6bmt2bXhkWFBlbmNzSjNKOGJDcU03MXNBMGk5VmVFVi1JTmVaQjMyczY5X0VtLU42bFpKOHhNQktRbmtGQ3VmazNGRjc2QlNYOUxwd29peFpIeFNtWGxpeHpjMm9kN1NFVUl4Tm5POV9Ja2JtMFRTcS1KVGR5d3ZuQ2FwV0VlQnB5eXRodmJjVmxPVU0xWGFiWkVuRDhadFg3d0hn?oc=5",
+      "published": "2019-12-13T08:00:00+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
+      }
+    },
+    {
       "id": "4ef5b9eada0b",
       "title": "Betring av gjennomgang av legemiddel og status for ernæring på sjukeheim - Helsedirektoratet",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNnlCdWYxRUVRYzBsVTJMSmNRNmo4X2F1MTl4YkJfY0JJVEZHMkpObE1YOXdkanE5RmF3SFRCZEctYm9SSU01Q3FtNXNyQktrX1JaLVZhVUlxU3lNRmUtRFl2N2NqTndUTjJkOHYzamUzZlFnU1hwYXdmYWVkSEJEdXI2N1dHOElzTHFVT09UeDZkX3UyNHJKMVRqQVdLSFZhbmZ3U1dWMWNHMjRkakRxTlNwM2s?oc=5",
@@ -994,13 +994,13 @@
       }
     },
     {
-      "id": "0b3bf4934607",
-      "title": "legemiddel, medisin og helse | Jubler for rekordsalg av reseptfri viagra, men sexolog steiler: – En fryktelig dårlig idé - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNS3FsMjRQZGdOV1FHdmpNcXVseUZJMGpucWpDZzg0WGNsNDl5blhiajd4MzVLMWJVelI5X2hWckJZa0JvaU5tRHhRMTlNMnVicEp6bmt2bXhkWFBlbmNzSjNKOGJDcU03MXNBMGk5VmVFVi1JTmVaQjMyczY5X0VtLU42bFpKOHhNQktRbmtGQ3VmazNGRjc2QlNYOUxwd29peFpIeFNtWGxpeHpjMm9kN1NFVUl4Tm5POV9Ja2JtMFRTcS1KVGR5d3ZuQ2FwV0VlQnB5eXRodmJjVmxPVU0xWGFiWkVuRDhadFg3d0hn?oc=5",
-      "published": "2019-12-13T08:00:00+00:00",
+      "id": "b5954a1d3d64",
+      "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVFhoTmQ2UURJZE5Ubm40NElBeHRWM2RsdEhlVHJPTG9RSGc1c0t4SUpHdk8ydFdDcjYwbkpDanVvRXhVZkZTbEFkanVuM2JRWEtHVm5lLTRUYU5UVlk0bVBlc2Z5T09jdUc3NGlaZ180RzJtYV9mZlV5dGdPT0NnemtyY1c?oc=5",
+      "published": "2015-06-15T16:26:29+00:00",
       "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
+        "name": "Regjeringen.no",
+        "url": "https://www.regjeringen.no"
       }
     }
   ]
