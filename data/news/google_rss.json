@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-23T21:54:12.104563+00:00",
+  "fetched_at": "2026-10-24T00:20:33.804035+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -204,6 +204,16 @@
       }
     },
     {
+      "id": "094a0379954d",
+      "title": "(+) Nesten ingen av legemiddel-meldingene sendt innen fristen: – Vi er selvsagt ikke fornøyde - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPLUdNMl8yV2Itc3pjb0VHWlNObkVkSUt5WGdoc050SkFOd2Q5UE5SYWpZUVBhTzB2SEJNYm5WcUZVNTNnVmZFSHJnTnR1Q25uMzFtaDhMQlFiQ05zbUdmcjdCdkxpYm5aTmQzNl9WNzRxY0JEQkE4QzZBSkU5TnJEbWhxRDNfeXk2dXJoa1ppNzVUX1o4NEZDWDNCNjNPR0tuSlIxUlpJcVFHUGtiYzFmQ3VuUFdySlN1ZjRHUl92YXd0SXlCNEJSWG5sSWJmanlDcWVISENMZFR5WVA3WXc?oc=5",
+      "published": "2026-06-08T07:00:00+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
       "id": "11db5a9eb287",
       "title": "(+) 450.000 gamle resepter fjernet fra Pasientens legemiddelliste - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMFNLQndUdkh3T1hnVEJjZ3dObFQxRDBfd3Z1MkE4d190aGxIcDdWbDNsUF8xdXJpcWRURDdTakk1YXBTVjFveHdNZm5FbjEyaTlvM1hXNUZWRmxjU3JYakdZN0JpSlpVN1FpaWVxRFE2S3piNnhaOEppVTcyOXZxZC0yemtsamc5YjlrQ29OQm1wQl9SQWxiMDBmcE5qUHlJcDFnNE5NN2pwOW1CZkNKUHRWMFFhVHFNd1V1WmJDQzlVOWlES24xb0VGTXhLV3pyQXNoaC1B?oc=5",
@@ -221,16 +231,6 @@
       "source": {
         "name": "Stortinget",
         "url": "https://www.stortinget.no"
-      }
-    },
-    {
-      "id": "094a0379954d",
-      "title": "(+) Nesten ingen av legemiddel-meldingene sendt innen fristen: – Vi er selvsagt ikke fornøyde - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPLUdNMl8yV2Itc3pjb0VHWlNObkVkSUt5WGdoc050SkFOd2Q5UE5SYWpZUVBhTzB2SEJNYm5WcUZVNTNnVmZFSHJnTnR1Q25uMzFtaDhMQlFiQ05zbUdmcjdCdkxpYm5aTmQzNl9WNzRxY0JEQkE4QzZBSkU5TnJEbWhxRDNfeXk2dXJoa1ppNzVUX1o4NEZDWDNCNjNPR0tuSlIxUlpJcVFHUGtiYzFmQ3VuUFdySlN1ZjRHUl92YXd0SXlCNEJSWG5sSWJmanlDcWVISENMZFR5WVA3WXc?oc=5",
-      "published": "2026-06-08T07:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -294,16 +294,6 @@
       }
     },
     {
-      "id": "c065791b7835",
-      "title": "Setter ned ekspertgruppe om tidlig tilgang til legemidler - MEDWATCH.no",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9hSVBzcGRjM3ZPRGFaOWNrbnlfenEtWG51NGxkLVhfemZyekN5SmN1VEtMUFgzRVhTRDJrWkRaNm10bHllVi1BanJISlZKVU1HWDRTNTE1a2hVbTJ1azhUU3RubWE4djlLclNMRkRsX2RDLTQ?oc=5",
-      "published": "2026-05-04T07:00:00+00:00",
-      "source": {
-        "name": "MEDWATCH.no",
-        "url": "https://medwatch.no"
-      }
-    },
-    {
       "id": "0bc3a5395879",
       "title": "Nytt legemiddel gir enda mer dramatisk vekttap - TV 2",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOEpkQVBIRl9fQ0I0dnJuQVhKUFZPYlBVaTUwQzljeW14dTZqY0ZsSW8xVDVZV1RRZXV1b3UzUlhmdTJDN0haR2hOTHNhNWlkdml5SFBONlZOcVR6bDYzNk9fSUJCRWxvVkk5aWtSeDNDV3dzVEx4WVNZWkNXVkVtN1lJQjlPeThiMmZR?oc=5",
@@ -321,6 +311,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "c065791b7835",
+      "title": "Setter ned ekspertgruppe om tidlig tilgang til legemidler - MEDWATCH.no",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9hSVBzcGRjM3ZPRGFaOWNrbnlfenEtWG51NGxkLVhfemZyekN5SmN1VEtMUFgzRVhTRDJrWkRaNm10bHllVi1BanJISlZKVU1HWDRTNTE1a2hVbTJ1azhUU3RubWE4djlLclNMRkRsX2RDLTQ?oc=5",
+      "published": "2026-05-04T07:00:00+00:00",
+      "source": {
+        "name": "MEDWATCH.no",
+        "url": "https://medwatch.no"
       }
     },
     {
@@ -564,6 +564,16 @@
       }
     },
     {
+      "id": "b1eebf21b8c8",
+      "title": "Bør medisiner være gratis for de minste barna? - HealthTalk",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWXhtQ0hxZ2RLQkFiekkwcmp2T1duYzhxTGZJYVY3OXBHQnVNZDF2S1NaZm1RblVQZHF1bFRieEZlVGxTTTg3WXRQNV9FNlU1eTQ3T1VQa0JNN05sZGdkSWlQMWZ1cXRMOXZsUWxaN0ROWU9jd1ZUZFNLbmlxNEpmblFqc0FlX1liMk1DdmVsd1NvcmhrN1lmWXpDQllkUC1ZR244YXpCRVpzckl2Rlk3QnpkLWk2Zi16Q20tUU9yNklCN3Y3dWc?oc=5",
+      "published": "2026-03-02T08:00:00+00:00",
+      "source": {
+        "name": "HealthTalk",
+        "url": "https://www.healthtalk.no"
+      }
+    },
+    {
       "id": "c961e5b9af68",
       "title": "Ingrid (29) fikk feil medisin av vikarlegen: – En alvorlig feil - Bergens Tidende",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPT1VWR0xnV21yX3pRSHVSYlRNX3RoNWJiSlJsaVVnOHBLSDdfWjVHYXdxSEhUbnlOLWdoSjg4N3o2QktqMjJfaHpkcHladm83ckxhTnFhYldkdWFrRS13SWtQTzNiazlZRG1VLU9FWW1KUDctWDZCUGtPS0dabXg2c2thQ0VYdw?oc=5",
@@ -614,16 +624,6 @@
       }
     },
     {
-      "id": "12614fad8305",
-      "title": "Novo Nordisk: Går til søksmål mot «copycat» - Finansavisen",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQX203NVNCazdSY2hvOVAwS2l3dTBhbU5rdDRxSFBnZlZiOFR0ck5WOEdGeGdtdkJJdDY2dFpyZGM0dlcyOG1BU3RCcks5dVhHQzFCU1N0b1lYb3ZYZENaWHNJLVdadUwxVkFVb2FWMGxYZTZHY3hNeTJUZ296NVNaQU5vcUhva2t5UGxzS2hTNXBPaGNndjFNNQ?oc=5",
-      "published": "2026-02-09T08:00:00+00:00",
-      "source": {
-        "name": "Finansavisen",
-        "url": "https://www.finansavisen.no"
-      }
-    },
-    {
       "id": "750f0c972289",
       "title": "Helse, Legemidler | Cristian Brennhovd risikerer legemiddel-bot - Budstikka",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPS0FBZGs3OTlnZmdpei1LemYtMENBcnZTT2RiV0tINHdNcXcyYmJWZFRMdlNMNkl3TkRQSmZPZDJpRkk5VjZoNXB3VDJwQVV1YWJhaTRFR0JzMFRxSkZGaVgtN194Tzc0b2ZOVlR0QXB0SDMxWXhtSE43SFYwaTFUX1ZZamRFS2Vnc1c0?oc=5",
@@ -641,6 +641,16 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
+      }
+    },
+    {
+      "id": "563e4602cd43",
+      "title": "Medisin, Helse | Betaler i dyre dommer fra egen lomme – slankemedisin på topp ti - Sarpsborg Arbeiderblad",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPemlrREhLY0tBT2h1UFpyLXhybTNPUjBrVG5GYUUtbkE5dUQ1VlpDUi1uY2tVTE9tVXhhSFdSekFLbG5vMXhGc2MwdHpSSlZROTBjekt5aXhBZkprUF9ZdVRjeE9KQlMzcjJNSDBJUU5KVUR3azBiLWF6NkxUZENZVUczbXIzNlZVdDVpZ1B6ek5IajVSVGp6TWdR?oc=5",
+      "published": "2026-02-08T08:00:00+00:00",
+      "source": {
+        "name": "Sarpsborg Arbeiderblad",
+        "url": "https://www.sa.no"
       }
     },
     {
@@ -914,16 +924,6 @@
       }
     },
     {
-      "id": "d58b28348cce",
-      "title": "Kvinner får feil behandling - medisinene er tilpasset menn - NHI.no",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaHB0SkxtQ2E2eGduME9iQ3FSVlBtYkVrd0w2YUZGWmhzdkRGeE51aHJVMGg0REJoQUExQkktRkN0UnR5dUNNdGYxV0ZrYlNxSG4zaHoxU0w4d1k1bW1lYkdEaTFKVkxETzRldmhRdWJ3cWVYNWRHY1JaY2JQX2UxNUFabFN4a1JzSTlTQWUxMGlsU1pNY2FtclFPbk56S2RlUmtNSGlLMGJiV1B0ZWNsUS1LUDlUZw?oc=5",
-      "published": "2020-08-30T07:00:00+00:00",
-      "source": {
-        "name": "NHI.no",
-        "url": "https://nhi.no"
-      }
-    },
-    {
       "id": "4b273316c354",
       "title": "Skriftlig spørsmål fra Sylvi Listhaug (FrP) til helse- og omsorgsministeren - Stortinget",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjQ0cWxEYW91Y2d1SDZRZU9aM1lNaXg1cTROb0hKMk1INUlOZmh2dzB1V3o0dHU4SHNZUGNGMlRTQjJSZEhmdWJXMGlyOGlqbE5Ic0JDUk8xd1Nsam9KVXVZUmhMXzk4M0w1OVpaQmhmNENRXzE1cFlRWWt5bXpJekU1YnVyNzVPQ1FlX3IyMWNKSXJ0Z3p2ZDdpYVZKWVo0SXE3T3duMDBvYlBQOHNjTm95UEJVY0kzRXZudg?oc=5",
@@ -931,16 +931,6 @@
       "source": {
         "name": "Stortinget",
         "url": "https://www.stortinget.no"
-      }
-    },
-    {
-      "id": "222941f5d7b1",
-      "title": "Vil ta blåresepten fra Norges mest brukte legemiddel; uklart om unntaksordningen, og etter bare tre uker ble AP kurert for allergien mot private sykehus - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNdnJoRWVhVUFJOUVZeDZ2cURneTFCS3hGeHhfMGZad0lzLThuT251Q3pNUjZ6VjFhYnI0Vy1KUEdVa01zSlg3NmVMSFJtWWZIYWxxcE80bWZMR0JHRENaRm9KN0loYXktMmVUZTAyWHBVZWxqNjNmUDQyRFFVRThwbS1ha1doV2ZYdkRCckxIbVFNTHpFTVBWNEh0VnhMTmVTTURaZXZLQllpRGlYcXZQNS1DZi0ycVFNdWdKWVQ1UzV5RDktRTZ1VVZXWV9DNzBHcU1IaUJHaXlyU2N5RDRTYlFoU2FoN1UtV3UxbXhTTDJZMHoxcTJVSVZ0Qm9GSE5aYTFOVkI4UVVlQjNIMXo2RmI2aGFtRWkwTzVTUDFmYw?oc=5",
-      "published": "2024-05-16T07:00:00+00:00",
-      "source": {
-        "name": "HealthTalk",
-        "url": "https://www.healthtalk.no"
       }
     },
     {
@@ -991,6 +981,16 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
+      }
+    },
+    {
+      "id": "0b3bf4934607",
+      "title": "legemiddel, medisin og helse | Jubler for rekordsalg av reseptfri viagra, men sexolog steiler: – En fryktelig dårlig idé - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNS3FsMjRQZGdOV1FHdmpNcXVseUZJMGpucWpDZzg0WGNsNDl5blhiajd4MzVLMWJVelI5X2hWckJZa0JvaU5tRHhRMTlNMnVicEp6bmt2bXhkWFBlbmNzSjNKOGJDcU03MXNBMGk5VmVFVi1JTmVaQjMyczY5X0VtLU42bFpKOHhNQktRbmtGQ3VmazNGRjc2QlNYOUxwd29peFpIeFNtWGxpeHpjMm9kN1NFVUl4Tm5POV9Ja2JtMFRTcS1KVGR5d3ZuQ2FwV0VlQnB5eXRodmJjVmxPVU0xWGFiWkVuRDhadFg3d0hn?oc=5",
+      "published": "2019-12-13T08:00:00+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     },
     {
