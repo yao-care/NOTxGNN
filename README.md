@@ -19,7 +19,7 @@ Prediksjoner for legemiddelreposisjonering av DMP-godkjente legemidler (Norway) 
 
 | Element | Antall |
 |------|------|
-| **Legemiddelrapporter** | 466 |
+| **Legemiddelrapporter** | 444 |
 | **Totale prediksjoner** | 2,539,217 |
 | **Unike legemidler** | 641 |
 | **Unike indikasjoner** | 17,041 |

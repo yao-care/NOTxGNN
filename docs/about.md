@@ -112,7 +112,7 @@ sjeldne sykdommer."
 
 | Element | Verdi |
 |------|-------|
-| Legemiddelrapporter | {{ site.drugs.size }} |
+| Legemiddelrapporter | {{ site.data.drug_stats.total_drugs }} |
 | Legemiddelmyndighet | DMP |
 | Nettsteder i drift | 30 land / regioner |
 
