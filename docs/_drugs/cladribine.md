@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Kladribin: Fra multippel sklerose og hårcelleleukemi til parameningeal embryonal rabdomyosarkom
+## Kladribin: Fra multippel sklerose og hårcelleleukemi til parameningeal embryonal rabdomyosarkom
+{: .text-alpha }
 
 ## Oppsummering i en setning
 

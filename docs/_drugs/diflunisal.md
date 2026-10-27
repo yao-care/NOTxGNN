@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Diflunisal: Fra familiær amyloid nevropati til ankyloserende spondylitt
+## Diflunisal: Fra familiær amyloid nevropati til ankyloserende spondylitt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

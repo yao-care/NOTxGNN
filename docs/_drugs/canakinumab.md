@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Kanakinumab: Fra periodiske feber- og leddsyndromer til familiær middelhavsfeber
+## Kanakinumab: Fra periodiske feber- og leddsyndromer til familiær middelhavsfeber
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

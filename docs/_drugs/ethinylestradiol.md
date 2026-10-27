@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Etinylestradiol: Fra prevensjon til forhøyet plasmasink
+## Etinylestradiol: Fra prevensjon til forhøyet plasmasink
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

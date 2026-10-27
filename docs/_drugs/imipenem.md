@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Imipenem: Fra gramnegative bakterieinfeksjoner til diffus sklerodermi
+## Imipenem: Fra gramnegative bakterieinfeksjoner til diffus sklerodermi
+{: .text-alpha }
 
 ## Oppsummering
 

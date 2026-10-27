@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Posakonazol: Fra soppinfeksjoner (mykoser) til pneumocystose
+## Posakonazol: Fra soppinfeksjoner (mykoser) til pneumocystose
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

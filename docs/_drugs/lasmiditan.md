@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Lasmiditan: Fra migrene til migrene med hjernestammeaura
+## Lasmiditan: Fra migrene til migrene med hjernestammeaura
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

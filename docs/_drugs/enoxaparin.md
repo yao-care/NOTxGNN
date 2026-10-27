@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Enoxaparin: Fra venøs tromboembolisme til trombofili som skyldes protein C-mangel (autosomal recessiv)
+## Enoxaparin: Fra venøs tromboembolisme til trombofili som skyldes protein C-mangel (autosomal recessiv)
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

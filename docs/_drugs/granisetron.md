@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Granisetron: Fra kvalme og oppkast ved kreftbehandling til manisk bipolar lidelse
+## Granisetron: Fra kvalme og oppkast ved kreftbehandling til manisk bipolar lidelse
+{: .text-alpha }
 
 ## Oppsummering
 

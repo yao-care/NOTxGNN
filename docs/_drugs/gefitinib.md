@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Gefitinib: Fra ikke-småcellet lungekreft til gingival fibromatose
+## Gefitinib: Fra ikke-småcellet lungekreft til gingival fibromatose
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

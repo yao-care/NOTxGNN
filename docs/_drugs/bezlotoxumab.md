@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Bezlotoksumab: Fra pseudomembranøs enterokolitt til akutt kvinnelig bekkenperitonitt
+## Bezlotoksumab: Fra pseudomembranøs enterokolitt til akutt kvinnelig bekkenperitonitt
+{: .text-alpha }
 
 ## Oppsummering i en setning
 

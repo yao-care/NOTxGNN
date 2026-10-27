@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Fostamatinib: Fra trombocytopeni til autosomal trombocytopeni med normale blodplater
+## Fostamatinib: Fra trombocytopeni til autosomal trombocytopeni med normale blodplater
+{: .text-alpha }
 
 ## Oppsummering
 

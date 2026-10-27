@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Paliperidon: Fra schizofreni til behandlingsresistent schizofreni
+## Paliperidon: Fra schizofreni til behandlingsresistent schizofreni
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

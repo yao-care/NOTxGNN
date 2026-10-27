@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Cilastatin: Fra gramnegative bakterieinfeksjoner til Staphylococcus aureus-infeksjon
+## Cilastatin: Fra gramnegative bakterieinfeksjoner til Staphylococcus aureus-infeksjon
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -31,7 +31,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Trastuzumab emtansin: Fra brystkreft til progesteronreseptor-negativ brystkreft
+## Trastuzumab emtansin: Fra brystkreft til progesteronreseptor-negativ brystkreft
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

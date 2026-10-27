@@ -33,7 +33,8 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Merkaptopurin: Fra lymfatisk leukemi til myeloid leukemi
+## Merkaptopurin: Fra lymfatisk leukemi til myeloid leukemi
+{: .text-alpha }
 
 ## Oppsummering
 

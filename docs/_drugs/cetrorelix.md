@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Cetrorelix: Fra ovulasjonsinduksjon til hypertrikose
+## Cetrorelix: Fra ovulasjonsinduksjon til hypertrikose
+{: .text-alpha }
 
 ## Oppsummering
 

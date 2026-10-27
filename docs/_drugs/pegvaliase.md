@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Pegvaliase: Fra fenylketonuri til diabetisk retinopati
+## Pegvaliase: Fra fenylketonuri til diabetisk retinopati
+{: .text-alpha }
 
 ## Oppsummering
 

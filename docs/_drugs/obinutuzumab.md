@@ -31,7 +31,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Obinutuzumab: Fra kronisk lymfatisk leukemi til follikulært lymfom
+## Obinutuzumab: Fra kronisk lymfatisk leukemi til follikulært lymfom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

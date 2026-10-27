@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Nitrogenoksid: Fra pulmonal hypertensjon til misdannelsessyndrom med tann- og/eller periodontal komponent
+## Nitrogenoksid: Fra pulmonal hypertensjon til misdannelsessyndrom med tann- og/eller periodontal komponent
+{: .text-alpha }
 
 ## Sammendrag
 

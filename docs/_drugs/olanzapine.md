@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Olanzapin: Fra schizofreni og bipolar lidelse til agorafobi
+## Olanzapin: Fra schizofreni og bipolar lidelse til agorafobi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

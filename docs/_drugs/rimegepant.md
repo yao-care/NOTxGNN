@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Rimegepant: Fra migrene til migrene med hjernestammeaura
+## Rimegepant: Fra migrene til migrene med hjernestammeaura
+{: .text-alpha }
 
 ## Oppsummering i en setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Gimeracil: Fra magekreft til kolonneoplasme
+## Gimeracil: Fra magekreft til kolonneoplasme
+{: .text-alpha }
 
 ## Sammendrag i én setning
 

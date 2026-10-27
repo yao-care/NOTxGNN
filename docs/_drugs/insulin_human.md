@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Humaninsulin: Fra diabetes mellitus til autoimmun oofoitt
+## Humaninsulin: Fra diabetes mellitus til autoimmun oofoitt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

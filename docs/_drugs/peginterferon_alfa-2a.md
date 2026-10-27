@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Peginterferon alfa-2a: Fra kronisk hepatitt C til hepatitt B-virusinfeksjon
+## Peginterferon alfa-2a: Fra kronisk hepatitt C til hepatitt B-virusinfeksjon
+{: .text-alpha }
 
 ## Oppsummering i en setning
 

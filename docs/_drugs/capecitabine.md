@@ -31,7 +31,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Kapecitabin: Fra kolorektalkreft til gastrisk tubulært adenokarsinom
+## Kapecitabin: Fra kolorektalkreft til gastrisk tubulært adenokarsinom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

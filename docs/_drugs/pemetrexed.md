@@ -33,7 +33,8 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Pemetreksed: Fra ikke-småcellet lungekreft og mesoteliom til malignt peritonealt mesoteliom
+## Pemetreksed: Fra ikke-småcellet lungekreft og mesoteliom til malignt peritonealt mesoteliom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

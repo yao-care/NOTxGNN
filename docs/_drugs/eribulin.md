@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Eribulin: Fra brystkreft og liposarkom til fibroblastisk neoplasme
+## Eribulin: Fra brystkreft og liposarkom til fibroblastisk neoplasme
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

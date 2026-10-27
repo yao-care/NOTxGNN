@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Darolutamid: Fra kastrasjonsresistent prostatakreft til familiær hypercholesterolemi (homozygot)
+## Darolutamid: Fra kastrasjonsresistent prostatakreft til familiær hypercholesterolemi (homozygot)
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tolvaptan: Fra syndromet med uhensiktsmessig ADH-sekresjon til polycystisk nyresykdom 3
+## Tolvaptan: Fra syndromet med uhensiktsmessig ADH-sekresjon til polycystisk nyresykdom 3
+{: .text-alpha }
 
 ## Oppsummering
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Levofloxacin: Fra luftveisinfeksjoner og cystisk fibrose til punktformet epitelial keratokonjunktivitt
+## Levofloxacin: Fra luftveisinfeksjoner og cystisk fibrose til punktformet epitelial keratokonjunktivitt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

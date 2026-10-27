@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Bosentan: Fra pulmonal hypertensjon og systemisk sklerose til revmatoid artritt
+## Bosentan: Fra pulmonal hypertensjon og systemisk sklerose til revmatoid artritt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

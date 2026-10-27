@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Remimazolam: Fra prosedyresedasjon til insomni
+## Remimazolam: Fra prosedyresedasjon til insomni
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

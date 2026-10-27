@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Remdesivir: Fra COVID-19 til HIV-infeksjon
+## Remdesivir: Fra COVID-19 til HIV-infeksjon
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

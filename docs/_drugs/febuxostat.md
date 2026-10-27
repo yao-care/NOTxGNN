@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Febuxostat: Fra gikt til renal hypourikemi
+## Febuxostat: Fra gikt til renal hypourikemi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

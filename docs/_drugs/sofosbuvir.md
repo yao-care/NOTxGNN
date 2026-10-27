@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-# Sofosbuvir: Fra kronisk hepatitt C til hepatitt E-virusinfeksjon
+## Sofosbuvir: Fra kronisk hepatitt C til hepatitt E-virusinfeksjon
+{: .text-alpha }
 
 ## Ett-setnings sammendrag
 

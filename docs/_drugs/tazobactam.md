@@ -31,7 +31,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Tazobactam: Fra bakterieinfeksjoner til lungebetennelse
+## Tazobactam: Fra bakterieinfeksjoner til lungebetennelse
+{: .text-alpha }
 
 ## Oppsummering
 

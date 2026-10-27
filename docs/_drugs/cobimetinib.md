@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Cobimetinib: Fra melanom til amyotrofisk lateral sklerose (ALS)
+## Cobimetinib: Fra melanom til amyotrofisk lateral sklerose (ALS)
+{: .text-alpha }
 
 ## Oppsummering
 

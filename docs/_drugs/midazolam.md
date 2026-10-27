@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Midazolam: Fra epilepsi til insomni
+## Midazolam: Fra epilepsi til insomni
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

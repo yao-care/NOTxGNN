@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Formoterol: Fra kronisk obstruktiv lungesykdom til respiratorisk misdannelse
+## Formoterol: Fra kronisk obstruktiv lungesykdom til respiratorisk misdannelse
+{: .text-alpha }
 
 ## Oppsummering
 

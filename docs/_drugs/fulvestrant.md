@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Fulvestrant: Fra brystkreft til HIV-infeksjon
+## Fulvestrant: Fra brystkreft til HIV-infeksjon
+{: .text-alpha }
 
 ## Oppsummering
 

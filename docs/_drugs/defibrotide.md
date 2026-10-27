@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Defibrotid: Fra hepatisk veno-okklusiv sykdom til pseudo-von Willebrands sykdom
+## Defibrotid: Fra hepatisk veno-okklusiv sykdom til pseudo-von Willebrands sykdom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

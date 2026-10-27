@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Panitumumab: Fra kolorektal kreft til legemiddelindusert osteoporose
+## Panitumumab: Fra kolorektal kreft til legemiddelindusert osteoporose
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

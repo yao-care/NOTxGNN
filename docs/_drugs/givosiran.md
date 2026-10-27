@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Givosiran: Fra hepatiske porfyrier til hepatoportal sklerose
+## Givosiran: Fra hepatiske porfyrier til hepatoportal sklerose
+{: .text-alpha }
 
 ## Oppsummering i korte trekk
 

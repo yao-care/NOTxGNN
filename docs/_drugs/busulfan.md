@@ -33,7 +33,8 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Busulfan: Fra hematopoetisk stamcelletransplantasjon til myelodysplastisk syndrom
+## Busulfan: Fra hematopoetisk stamcelletransplantasjon til myelodysplastisk syndrom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Andexanet alfa: Fra legemiddelrelaterte bivirkninger til Glanzmanns trombasteni
+## Andexanet alfa: Fra legemiddelrelaterte bivirkninger til Glanzmanns trombasteni
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

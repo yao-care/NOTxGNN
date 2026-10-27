@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Catridecacog: Fra arvelige koagulasjonsforstyrrelser til primær frigjøringsforstyrrelse i blodplater
+## Catridecacog: Fra arvelige koagulasjonsforstyrrelser til primær frigjøringsforstyrrelse i blodplater
+{: .text-alpha }
 
 ## Oppsummering
 

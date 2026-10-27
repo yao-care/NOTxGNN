@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Esomeprazol: Fra gastroøsofageal refluks til duodenogastrisk refluks
+## Esomeprazol: Fra gastroøsofageal refluks til duodenogastrisk refluks
+{: .text-alpha }
 
 ## Oppsummering
 

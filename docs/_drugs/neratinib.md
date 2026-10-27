@@ -31,7 +31,8 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Neratinib: Fra brystkreft til progesteronreseptor-positiv brystkreft
+## Neratinib: Fra brystkreft til progesteronreseptor-positiv brystkreft
+{: .text-alpha }
 
 ## Oppsummering
 

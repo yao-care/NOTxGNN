@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Acetylsalisylsyre: Fra akutt koronarsyndrom og hjerteinfarkt til migrene med hjernestammeaura
+## Acetylsalisylsyre: Fra akutt koronarsyndrom og hjerteinfarkt til migrene med hjernestammeaura
+{: .text-alpha }
 
 ## Oppsummering
 

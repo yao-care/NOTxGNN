@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Ipilimumab: Fra melanom til choroideremi
+## Ipilimumab: Fra melanom til choroideremi
+{: .text-alpha }
 
 ## Oppsummering
 

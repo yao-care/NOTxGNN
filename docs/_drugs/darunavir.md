@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Darunavir: Fra hiv-infeksjon til simian immunsviktvirus-infeksjon
+## Darunavir: Fra hiv-infeksjon til simian immunsviktvirus-infeksjon
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Aztreonam: Fra gramnegative infeksjoner til gonokokkuretritt
+## Aztreonam: Fra gramnegative infeksjoner til gonokokkuretritt
+{: .text-alpha }
 
 ## Oppsummering i en setning
 

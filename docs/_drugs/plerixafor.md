@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Plerixafor: Fra myelomatose og stamcellemobilisering til indolent plasmacellemyelom
+## Plerixafor: Fra myelomatose og stamcellemobilisering til indolent plasmacellemyelom
+{: .text-alpha }
 
 ## Oppsummering
 

@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Pantoprazol: Fra gastroøsofageal reflukssykdom til aktivt magesår
+## Pantoprazol: Fra gastroøsofageal reflukssykdom til aktivt magesår
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

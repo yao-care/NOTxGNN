@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Pertuzumab: Fra brystkreft til progesteronreseptor-positiv brystkreft
+## Pertuzumab: Fra brystkreft til progesteronreseptor-positiv brystkreft
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

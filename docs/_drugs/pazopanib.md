@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Pazopanib: Fra nyrecellekarsinom til uklassifisert nyrecellekarsinom
+## Pazopanib: Fra nyrecellekarsinom til uklassifisert nyrecellekarsinom
+{: .text-alpha }
 
 ## Kort oppsummering
 

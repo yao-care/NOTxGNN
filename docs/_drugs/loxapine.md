@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Loxapin: Fra schizofreni og bipolar lidelse til manisk bipolar affektiv lidelse
+## Loxapin: Fra schizofreni og bipolar lidelse til manisk bipolar affektiv lidelse
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

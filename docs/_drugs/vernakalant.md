@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Vernakalant: Fra atrieflimmer til hjerneslag (stroke disorder)
+## Vernakalant: Fra atrieflimmer til hjerneslag (stroke disorder)
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

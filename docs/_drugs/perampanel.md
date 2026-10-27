@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Perampanel: Fra partiell epilepsi til visuell epilepsi
+## Perampanel: Fra partiell epilepsi til visuell epilepsi
+{: .text-alpha }
 
 ## Oppsummering i korte trekk
 

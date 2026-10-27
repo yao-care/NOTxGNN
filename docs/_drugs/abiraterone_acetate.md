@@ -32,7 +32,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **0** stk.
 
 </div>
 
-# Abiraterone acetat: Evaluering avventer — ingen forutsagt indikasjon tilgjengelig
+## Abiraterone acetat: Evaluering avventer — ingen forutsagt indikasjon tilgjengelig
+{: .text-alpha }
 
 ## Sammendrag i én setning
 

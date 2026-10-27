@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Pretomanid: Fra multiresistent tuberkulose til candidiasis
+## Pretomanid: Fra multiresistent tuberkulose til candidiasis
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

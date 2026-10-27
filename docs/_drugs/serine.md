@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Serin: Fra lønnesirupsyke til familiær visceral myopati
+## Serin: Fra lønnesirupsyke til familiær visceral myopati
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

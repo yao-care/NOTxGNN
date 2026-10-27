@@ -32,7 +32,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **0** stk.
 
 </div>
 
-# KAFFEIN SITRAT: Evaluering av legemiddelombruk — TxGNN-forutsigelser ikke tilgjengelige
+## KAFFEIN SITRAT: Evaluering av legemiddelombruk — TxGNN-forutsigelser ikke tilgjengelige
+{: .text-alpha }
 
 ## Sammendrag i én setning
 

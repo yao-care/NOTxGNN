@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-# Clopidogrel: Fra hjerte- og karsykdommer til migrene
+## Clopidogrel: Fra hjerte- og karsykdommer til migrene
+{: .text-alpha }
 
 ## Oppsummering
 

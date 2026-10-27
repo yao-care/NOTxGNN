@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Eculizumab: Fra paroksysmal nattlig hemoglobinuri til syklisk hematopoese
+## Eculizumab: Fra paroksysmal nattlig hemoglobinuri til syklisk hematopoese
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

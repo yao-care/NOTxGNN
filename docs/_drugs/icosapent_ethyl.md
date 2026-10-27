@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Ikosapent etyl: Fra dyslipidemi til hemoglobinopati
+## Ikosapent etyl: Fra dyslipidemi til hemoglobinopati
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

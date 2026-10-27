@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Avibaktam: Fra bakterielle infeksjoner til streptokokkpneumoni
+## Avibaktam: Fra bakterielle infeksjoner til streptokokkpneumoni
+{: .text-alpha }
 
 ## Sammendrag i én setning
 

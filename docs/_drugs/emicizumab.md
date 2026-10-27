@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Emicizumab: Fra hemofili A til ervervet koagulasjonsfaktormangel (ervervet hemofili A)
+## Emicizumab: Fra hemofili A til ervervet koagulasjonsfaktormangel (ervervet hemofili A)
+{: .text-alpha }
 
 **Merk om valg av indikasjon:** TxGNN rangerer *pseudo-von Willebrands sykdom* høyest, men den har verken kliniske studier eller litteratur bak seg. Denne rapporten bygger derfor på **ervervet koagulasjonsfaktormangel**, som er den best dokumenterte av de ti prediksjonene. Dokumentasjonen gjelder spesifikt **ervervet hemofili A**. De andre kandidatene er oppsummert helt til slutt.
 

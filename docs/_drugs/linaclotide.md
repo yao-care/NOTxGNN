@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Linaclotide: Fra irritabelt tarmsyndrom til cauda equina-syndrom
+## Linaclotide: Fra irritabelt tarmsyndrom til cauda equina-syndrom
+{: .text-alpha }
 
 ## Oppsummering
 

@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Teriparatid: Fra osteoporose til graviditetsassosiert osteoporose
+## Teriparatid: Fra osteoporose til graviditetsassosiert osteoporose
+{: .text-alpha }
 
 ## Oppsummering
 

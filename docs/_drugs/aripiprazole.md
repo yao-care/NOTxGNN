@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Aripiprazol: Fra schizofreni til alvorlig affektiv lidelse (depresjon)
+## Aripiprazol: Fra schizofreni til alvorlig affektiv lidelse (depresjon)
+{: .text-alpha }
 
 ## Sammendrag
 

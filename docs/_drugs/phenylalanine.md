@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Fenylalanin: Fra lønnesirupsykdom til skleroserende kolangitt
+## Fenylalanin: Fra lønnesirupsykdom til skleroserende kolangitt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

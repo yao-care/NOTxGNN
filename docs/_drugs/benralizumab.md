@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Benralizumab: Fra astma til dermatitt
+## Benralizumab: Fra astma til dermatitt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -31,7 +31,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Ozanimod: Fra relapderende-remitterende multippel sklerose og ulcerøs kolitt til progressiv relapderende multippel sklerose
+## Ozanimod: Fra relapderende-remitterende multippel sklerose og ulcerøs kolitt til progressiv relapderende multippel sklerose
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

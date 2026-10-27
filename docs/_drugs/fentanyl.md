@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Fentanyl: Fra smerte og kreft til nefrogent syndrom med uhensiktsmessig antidiurese
+## Fentanyl: Fra smerte og kreft til nefrogent syndrom med uhensiktsmessig antidiurese
+{: .text-alpha }
 
 ## Oppsummering
 

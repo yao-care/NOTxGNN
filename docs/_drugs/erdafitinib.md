@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Erdafitinib: Fra urotelial kreft til pulmonal hypertensjon
+## Erdafitinib: Fra urotelial kreft til pulmonal hypertensjon
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

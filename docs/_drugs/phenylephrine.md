@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Fenylefrin: Fra intraokulær linseimplantasjon og postoperativ smerte til sykdom i nesehulen
+## Fenylefrin: Fra intraokulær linseimplantasjon og postoperativ smerte til sykdom i nesehulen
+{: .text-alpha }
 
 ## Oppsummering
 

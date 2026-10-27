@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Nepafenac: Fra postoperativ smerte ved øyekirurgi til øyesykdom
+## Nepafenac: Fra postoperativ smerte ved øyekirurgi til øyesykdom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

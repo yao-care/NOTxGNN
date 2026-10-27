@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Dabigatranetexilat: Fra venøs tromboembolisme til skleroserende kolangitt
+## Dabigatranetexilat: Fra venøs tromboembolisme til skleroserende kolangitt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

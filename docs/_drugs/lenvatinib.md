@@ -33,7 +33,8 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Lenvatinib: Fra skjoldbruskkjertelkreft og nyrecellekarsinom til liposarkom
+## Lenvatinib: Fra skjoldbruskkjertelkreft og nyrecellekarsinom til liposarkom
+{: .text-alpha }
 
 ## Ettsetningssammendrag
 

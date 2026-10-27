@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Cabozantinib: Fra nyrecellekarsinom til liposarkom
+## Cabozantinib: Fra nyrecellekarsinom til liposarkom
+{: .text-alpha }
 
 ## Oppsummering
 

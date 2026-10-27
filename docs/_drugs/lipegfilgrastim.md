@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Lipegfilgrastim: Fra et ikke-angitt opprinnelig bruksområde til primær frigjøringsforstyrrelse i blodplater
+## Lipegfilgrastim: Fra et ikke-angitt opprinnelig bruksområde til primær frigjøringsforstyrrelse i blodplater
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Trastuzumab deruksetekan: Fra brystkreft til legemiddelindusert osteoporose
+## Trastuzumab deruksetekan: Fra brystkreft til legemiddelindusert osteoporose
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

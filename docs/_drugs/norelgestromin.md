@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Norelgestromin: Fra prevensjon til amenoré
+## Norelgestromin: Fra prevensjon til amenoré
+{: .text-alpha }
 
 ## Oppsummering
 

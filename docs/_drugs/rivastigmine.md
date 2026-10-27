@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Rivastigmin: Fra demens ved Alzheimers og Parkinsons sykdom til glaukom
+## Rivastigmin: Fra demens ved Alzheimers og Parkinsons sykdom til glaukom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

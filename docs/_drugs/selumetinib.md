@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Selumetinib: Fra nevrofibromatose type 1 til familiær generalisert lentiginose
+## Selumetinib: Fra nevrofibromatose type 1 til familiær generalisert lentiginose
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

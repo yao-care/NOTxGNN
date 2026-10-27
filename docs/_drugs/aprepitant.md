@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Aprepitant: Fra oppkast og kvalme til nefrogent syndrom med uhensiktsmessig antidiurese (NSIAD)
+## Aprepitant: Fra oppkast og kvalme til nefrogent syndrom med uhensiktsmessig antidiurese (NSIAD)
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

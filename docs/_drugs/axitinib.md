@@ -33,7 +33,8 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Aksitinib: Fra nyrecellekarsinom til nyrecellekarsinom assosiert med Xp11.2-translokasjoner/TFE3-genfusjoner
+## Aksitinib: Fra nyrecellekarsinom til nyrecellekarsinom assosiert med Xp11.2-translokasjoner/TFE3-genfusjoner
+{: .text-alpha }
 
 ## Sammendrag
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Risperidon: Fra schizofreni til Gaze palsy, familiær horisontal, med progressiv skoliose
+## Risperidon: Fra schizofreni til Gaze palsy, familiær horisontal, med progressiv skoliose
+{: .text-alpha }
 
 ## Kort oppsummering
 

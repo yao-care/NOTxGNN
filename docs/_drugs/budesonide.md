@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Budesonid: Fra kols, astma og spiserørssykdom til atopisk eksem
+## Budesonid: Fra kols, astma og spiserørssykdom til atopisk eksem
+{: .text-alpha }
 
 ## Oppsummering
 

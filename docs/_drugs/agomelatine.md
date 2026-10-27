@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Agomelatin: Fra alvorlig depresjon til benign paroksysmal torticollis hos spedbarn
+## Agomelatin: Fra alvorlig depresjon til benign paroksysmal torticollis hos spedbarn
+{: .text-alpha }
 
 Merknad: Rapporten dekker toppkandidaten (rangert som nr. 1) i henhold til malen. Ved slutten er de øvrige kandidatene med mer relevant evidens kort oppsummert, siden toppkandidaten mangler støtte i dataene.
 

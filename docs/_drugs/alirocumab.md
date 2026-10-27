@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Alirocumab: Fra dyslipidemi til xantomatose
+## Alirocumab: Fra dyslipidemi til xantomatose
+{: .text-alpha }
 
 ## Oppsummering i en setning
 

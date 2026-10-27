@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Susoctocog alfa: Fra hemofili A til hemofili (ervervet hemofili A)
+## Susoctocog alfa: Fra hemofili A til hemofili (ervervet hemofili A)
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

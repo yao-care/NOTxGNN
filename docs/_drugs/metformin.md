@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Metformin: Fra type 2-diabetes til fokalt stivt lem-syndrom
+## Metformin: Fra type 2-diabetes til fokalt stivt lem-syndrom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

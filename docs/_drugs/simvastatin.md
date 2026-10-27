@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-# Simvastatin: Fra dyslipidemi til familiær hyperkolesterolemi
+## Simvastatin: Fra dyslipidemi til familiær hyperkolesterolemi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

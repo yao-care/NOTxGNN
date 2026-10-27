@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tyrosin: Fra lønnesirupsykdom til cauda equina-syndrom
+## Tyrosin: Fra lønnesirupsykdom til cauda equina-syndrom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

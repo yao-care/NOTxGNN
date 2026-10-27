@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Kolekalsiferol: Fra postmenopausal osteoporose til familiær isolert hypoparatyreoidisme (nedsatt PTH-sekresjon)
+## Kolekalsiferol: Fra postmenopausal osteoporose til familiær isolert hypoparatyreoidisme (nedsatt PTH-sekresjon)
+{: .text-alpha }
 
 ## Sammendrag
 

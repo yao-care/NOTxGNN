@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Spironolakton: Fra ødem og hjertesvikt til hypotrichosis simplex i hodebunnen
+## Spironolakton: Fra ødem og hjertesvikt til hypotrichosis simplex i hodebunnen
+{: .text-alpha }
 
 ## Oppsummering
 

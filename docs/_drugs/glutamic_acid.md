@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Glutaminsyre: Fra ahornsirupsykdom til postmenopausal osteoporose
+## Glutaminsyre: Fra ahornsirupsykdom til postmenopausal osteoporose
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

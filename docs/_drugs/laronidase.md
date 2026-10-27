@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Laronidase: Fra mukopolysakkaridose I til lysosomal lagringssykdom med skjelettaffeksjon
+## Laronidase: Fra mukopolysakkaridose I til lysosomal lagringssykdom med skjelettaffeksjon
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

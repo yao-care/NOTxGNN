@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Dronedaron: Fra atrieflimmer til hjerneslag
+## Dronedaron: Fra atrieflimmer til hjerneslag
+{: .text-alpha }
 
 ## Oppsummering
 

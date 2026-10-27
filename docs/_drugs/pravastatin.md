@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Pravastatin: Fra dyslipidemi til homozygot familiær hyperkolesterolemi
+## Pravastatin: Fra dyslipidemi til homozygot familiær hyperkolesterolemi
+{: .text-alpha }
 
 ## Enkeltsetningsoppsummering
 

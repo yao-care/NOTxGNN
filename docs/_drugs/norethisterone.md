@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Norethisterone: Fra leiomyom til amenoré
+## Norethisterone: Fra leiomyom til amenoré
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

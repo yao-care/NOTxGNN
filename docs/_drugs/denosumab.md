@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Denosumab: Fra osteoporose og kjempecelletumor i bein til alvorlig ikke-proliferativ diabetisk retinopati
+## Denosumab: Fra osteoporose og kjempecelletumor i bein til alvorlig ikke-proliferativ diabetisk retinopati
+{: .text-alpha }
 
 ## Sammendrag i én setning
 

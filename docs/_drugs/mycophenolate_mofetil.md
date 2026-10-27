@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Mykofenolatmofetil: Fra transplantatavstøtning til HIV-infeksjon
+## Mykofenolatmofetil: Fra transplantatavstøtning til HIV-infeksjon
+{: .text-alpha }
 
 ## Ettsetningssammendrag
 

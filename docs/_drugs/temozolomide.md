@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Temozolomid: Fra gliom til voksent astrocytært svulst
+## Temozolomid: Fra gliom til voksent astrocytært svulst
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

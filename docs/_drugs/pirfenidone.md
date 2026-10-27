@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Pirfenidon: Fra idiopatisk lungefibrose til ekstrakutant mastocytom
+## Pirfenidon: Fra idiopatisk lungefibrose til ekstrakutant mastocytom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

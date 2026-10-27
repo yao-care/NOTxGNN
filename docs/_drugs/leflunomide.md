@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Leflunomid: Fra revmatoid artritt til brachydaktyli-syndaktyli-syndrom
+## Leflunomid: Fra revmatoid artritt til brachydaktyli-syndaktyli-syndrom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

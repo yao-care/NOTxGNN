@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Nintedanib: Fra idiopatisk lungefibrose til dermatofibrosarcoma protuberans
+## Nintedanib: Fra idiopatisk lungefibrose til dermatofibrosarcoma protuberans
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

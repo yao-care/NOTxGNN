@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Ketokonazol: Fra Cushings syndrom til akne
+## Ketokonazol: Fra Cushings syndrom til akne
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

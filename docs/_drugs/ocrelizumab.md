@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Okrelizumab: Fra multippel sklerose til HER2-positiv brystkreft
+## Okrelizumab: Fra multippel sklerose til HER2-positiv brystkreft
+{: .text-alpha }
 
 ## Oppsummering
 

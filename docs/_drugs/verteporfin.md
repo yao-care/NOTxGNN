@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Verteporfin: Fra degenerativ myopi og makuladegenerasjon til mitokondriell oksidativ fosforyleringssykdom som skyldes kjerne-DNA-avvik
+## Verteporfin: Fra degenerativ myopi og makuladegenerasjon til mitokondriell oksidativ fosforyleringssykdom som skyldes kjerne-DNA-avvik
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

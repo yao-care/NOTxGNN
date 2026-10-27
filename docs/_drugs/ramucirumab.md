@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Ramucirumab: Fra magekreft til livmorligamentets adenokarsinom
+## Ramucirumab: Fra magekreft til livmorligamentets adenokarsinom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

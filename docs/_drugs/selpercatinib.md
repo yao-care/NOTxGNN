@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Selpercatinib: Fra ikke-småcellet lungekreft og skjoldbruskkjertelkreft til pulmonal hypertensjon
+## Selpercatinib: Fra ikke-småcellet lungekreft og skjoldbruskkjertelkreft til pulmonal hypertensjon
+{: .text-alpha }
 
 ## Oppsummering
 

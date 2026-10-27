@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Teprotumumab: Fra Graves oftalmopati til monosomi X
+## Teprotumumab: Fra Graves oftalmopati til monosomi X
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

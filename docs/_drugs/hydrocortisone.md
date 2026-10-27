@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Hydrokortison: Fra binyrebarksvikt til alopecia areata
+## Hydrokortison: Fra binyrebarksvikt til alopecia areata
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Raloxifen: Fra postmenopausal osteoporose til duodenalt sår
+## Raloxifen: Fra postmenopausal osteoporose til duodenalt sår
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Crizotinib: Fra ikke-småcellet lungekreft til fibromatose i gingiva
+## Crizotinib: Fra ikke-småcellet lungekreft til fibromatose i gingiva
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

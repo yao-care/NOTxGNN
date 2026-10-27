@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Bupivakain: Fra akutt smerte til akrodermatitis chronica atrophicans
+## Bupivakain: Fra akutt smerte til akrodermatitis chronica atrophicans
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tagraxofusp: Fra lymfom til esotropi
+## Tagraxofusp: Fra lymfom til esotropi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

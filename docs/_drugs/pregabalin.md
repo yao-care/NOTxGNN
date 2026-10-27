@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Pregabalin: Fra epilepsi, angst og nevralgi til migrenelidelse
+## Pregabalin: Fra epilepsi, angst og nevralgi til migrenelidelse
+{: .text-alpha }
 
 ## Ettsetningssammendrag
 

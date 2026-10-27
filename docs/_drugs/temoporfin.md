@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Temoporfin: Fra hode- og halskreft til nasofaryngealt teratom
+## Temoporfin: Fra hode- og halskreft til nasofaryngealt teratom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

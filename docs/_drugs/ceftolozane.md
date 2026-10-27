@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Ceftolozan: Fra bakterielle infeksjoner til gonokokk-uretritt
+## Ceftolozan: Fra bakterielle infeksjoner til gonokokk-uretritt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

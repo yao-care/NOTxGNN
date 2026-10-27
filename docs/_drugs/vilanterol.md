@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Vilanterol: Fra kronisk obstruktiv lungesykdom til obstruktiv lungesykdom
+## Vilanterol: Fra kronisk obstruktiv lungesykdom til obstruktiv lungesykdom
+{: .text-alpha }
 
 ## Oppsummering
 

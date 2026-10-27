@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Lakosamid: Fra epilepsi til migrene
+## Lakosamid: Fra epilepsi til migrene
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

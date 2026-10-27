@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Simoktokog alfa: Fra hemofili A til pseudo-von Willebrand sykdom
+## Simoktokog alfa: Fra hemofili A til pseudo-von Willebrand sykdom
+{: .text-alpha }
 
 ## Sammendrag i én setning
 

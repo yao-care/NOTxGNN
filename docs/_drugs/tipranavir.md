@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tipranavir: Fra HIV-infeksjon til felint ervervet immunsviktsyndrom
+## Tipranavir: Fra HIV-infeksjon til felint ervervet immunsviktsyndrom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

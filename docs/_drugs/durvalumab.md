@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Durvalumab: Fra ikke-småcellet lungekreft til prostatisk uretra urotelialt karsinom
+## Durvalumab: Fra ikke-småcellet lungekreft til prostatisk uretra urotelialt karsinom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

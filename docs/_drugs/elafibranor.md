@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Elafibranor: Fra primær biliær cirrhose til amenoré
+## Elafibranor: Fra primær biliær cirrhose til amenoré
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tocilizumab: Fra revmatoid artritt til ankyloserende spondylitt
+## Tocilizumab: Fra revmatoid artritt til ankyloserende spondylitt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

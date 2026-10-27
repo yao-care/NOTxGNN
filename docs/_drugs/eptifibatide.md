@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Eptifibatid: Fra akutt koronarsyndrom til hemoglobinopati (sigdcellesykdom)
+## Eptifibatid: Fra akutt koronarsyndrom til hemoglobinopati (sigdcellesykdom)
+{: .text-alpha }
 
 ## Oppsummering
 

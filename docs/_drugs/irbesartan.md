@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Irbesartan: Fra hypertensjon til malign renovaskulær hypertensjon
+## Irbesartan: Fra hypertensjon til malign renovaskulær hypertensjon
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

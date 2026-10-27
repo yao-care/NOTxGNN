@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Ranolazin: Fra angina pectoris til nefrogent syndrom med uhensiktsmessig antidiurese (NSIAD)
+## Ranolazin: Fra angina pectoris til nefrogent syndrom med uhensiktsmessig antidiurese (NSIAD)
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

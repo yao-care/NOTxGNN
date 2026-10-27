@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Alanin: Fra lønnesirupsykdom (MSUD) til gastroparese
+## Alanin: Fra lønnesirupsykdom (MSUD) til gastroparese
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

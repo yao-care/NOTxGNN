@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Tildrakizumab: Fra psoriasis til alvorlig ikke-proliferativ diabetisk retinopati
+## Tildrakizumab: Fra psoriasis til alvorlig ikke-proliferativ diabetisk retinopati
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

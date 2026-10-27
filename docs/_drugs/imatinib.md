@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Imatinib: Fra kronisk myelogen leukemi til hjertefibrosarkom (heart fibrosarcoma)
+## Imatinib: Fra kronisk myelogen leukemi til hjertefibrosarkom (heart fibrosarcoma)
+{: .text-alpha }
 
 ## Oppsummering
 

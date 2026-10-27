@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Tezacaftor: Fra cystisk fibrose til HIV-infeksjon
+## Tezacaftor: Fra cystisk fibrose til HIV-infeksjon
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Amikacin: Fra luftveisinfeksjoner til paratyfoidfeber
+## Amikacin: Fra luftveisinfeksjoner til paratyfoidfeber
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

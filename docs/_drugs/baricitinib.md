@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Baricitinib: Fra revmatoid artritt til kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom
+## Baricitinib: Fra revmatoid artritt til kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

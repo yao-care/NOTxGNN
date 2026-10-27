@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Prasugrel: Fra akutt koronarsyndrom til pulmonal hypertensjon
+## Prasugrel: Fra akutt koronarsyndrom til pulmonal hypertensjon
+{: .text-alpha }
 
 ## Oppsummering
 

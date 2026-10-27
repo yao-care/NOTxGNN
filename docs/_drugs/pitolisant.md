@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Pitolisant: Fra narkolepsi og obstruktiv søvnapné til insomni
+## Pitolisant: Fra narkolepsi og obstruktiv søvnapné til insomni
+{: .text-alpha }
 
 ## Oppsummering i en setning
 

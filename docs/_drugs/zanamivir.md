@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Zanamivir: Fra influensa til pyelonefritt
+## Zanamivir: Fra influensa til pyelonefritt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

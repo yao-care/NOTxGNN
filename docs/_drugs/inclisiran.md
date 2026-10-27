@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Inklisiran: Fra hyperkolesterolemi til kaliummangelsykdom
+## Inklisiran: Fra hyperkolesterolemi til kaliummangelsykdom
+{: .text-alpha }
 
 ## Oppsummering i en setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Dalbavancin: Fra bakterielle hud- og bløtvevsinfeksjoner til postinfeksiøs vaskulitt
+## Dalbavancin: Fra bakterielle hud- og bløtvevsinfeksjoner til postinfeksiøs vaskulitt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Metoksypolyetylenglykol-epoetin beta: Fra anemi ved kronisk nyresvikt til primær frigjøringsforstyrrelse i blodplater
+## Metoksypolyetylenglykol-epoetin beta: Fra anemi ved kronisk nyresvikt til primær frigjøringsforstyrrelse i blodplater
+{: .text-alpha }
 
 ## Ettsetningssammendrag
 

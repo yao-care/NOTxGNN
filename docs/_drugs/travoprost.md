@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Travoprost: Fra glaukom til visceral kalcifylaksi
+## Travoprost: Fra glaukom til visceral kalcifylaksi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

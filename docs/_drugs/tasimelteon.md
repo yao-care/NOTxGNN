@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tasimelteon: Fra søvnforstyrrelser i døgnrytmen til bilateral parasagittal parieto-occipital polymikrogyri
+## Tasimelteon: Fra søvnforstyrrelser i døgnrytmen til bilateral parasagittal parieto-occipital polymikrogyri
+{: .text-alpha }
 
 ## Oppsummering
 

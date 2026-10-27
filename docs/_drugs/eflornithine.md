@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Eflornitin: Fra hirsutisme til esotropi
+## Eflornitin: Fra hirsutisme til esotropi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

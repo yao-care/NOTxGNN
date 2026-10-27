@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Catumaxomab: Fra ascites til alvorlig ikke-proliferativ diabetisk retinopati
+## Catumaxomab: Fra ascites til alvorlig ikke-proliferativ diabetisk retinopati
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

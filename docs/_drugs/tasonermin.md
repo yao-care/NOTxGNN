@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tasonermin: Fra sarkom til prostatisk uretral urotelkarsinom
+## Tasonermin: Fra sarkom til prostatisk uretral urotelkarsinom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

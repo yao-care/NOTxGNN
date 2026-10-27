@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Ganirelix: Fra assistert befruktning til hypertrikose
+## Ganirelix: Fra assistert befruktning til hypertrikose
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

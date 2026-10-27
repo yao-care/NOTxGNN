@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Oksybutynin: Fra urge-inkontinens til restless legs-syndrom
+## Oksybutynin: Fra urge-inkontinens til restless legs-syndrom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

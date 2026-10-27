@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Everolimus: Fra tuberøs sklerose og nyrecellekarsinom til liposarkom
+## Everolimus: Fra tuberøs sklerose og nyrecellekarsinom til liposarkom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Avelumab: Fra nevroendokrine svulster til humant herpesvirus 8-relatert tumor
+## Avelumab: Fra nevroendokrine svulster til humant herpesvirus 8-relatert tumor
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

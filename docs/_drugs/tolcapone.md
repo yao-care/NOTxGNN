@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tolkapon: Fra Parkinsons sykdom til Rasmussens subakutte encefalitt
+## Tolkapon: Fra Parkinsons sykdom til Rasmussens subakutte encefalitt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

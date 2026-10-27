@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Rufinamid: Fra epilepsi til febril infeksjonsrelatert epilepsisyndrom (FIRES)
+## Rufinamid: Fra epilepsi til febril infeksjonsrelatert epilepsisyndrom (FIRES)
+{: .text-alpha }
 
 ## Oppsummering
 

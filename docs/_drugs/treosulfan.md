@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Treosulfan: Fra hematopoetisk stamcelletransplantasjon til diabetisk katarakt
+## Treosulfan: Fra hematopoetisk stamcelletransplantasjon til diabetisk katarakt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

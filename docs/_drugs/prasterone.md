@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Prasteron: Fra postmenopause til heparinkofaktor 2-mangel
+## Prasteron: Fra postmenopause til heparinkofaktor 2-mangel
+{: .text-alpha }
 
 ## Oppsummering i en setning
 

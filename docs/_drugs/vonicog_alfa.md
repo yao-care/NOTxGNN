@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Vonicog alfa: Fra von Willebrands sykdom til primær frigjøringsforstyrrelse i blodplater
+## Vonicog alfa: Fra von Willebrands sykdom til primær frigjøringsforstyrrelse i blodplater
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

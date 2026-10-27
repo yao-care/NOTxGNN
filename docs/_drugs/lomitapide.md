@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Lomitapid: Fra hyperkolesterolemi til marcothrombocytopenia med mitralklaffinsuffisiens
+## Lomitapid: Fra hyperkolesterolemi til marcothrombocytopenia med mitralklaffinsuffisiens
+{: .text-alpha }
 
 ## Oppsummering
 

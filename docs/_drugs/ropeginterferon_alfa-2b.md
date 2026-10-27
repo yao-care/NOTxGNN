@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Ropeginterferon alfa-2b: Fra polycytemia vera til Laubry-Pezzi syndrom
+## Ropeginterferon alfa-2b: Fra polycytemia vera til Laubry-Pezzi syndrom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

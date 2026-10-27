@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Fenfluramin: Fra myoklonisk epilepsi til proksimalt 16p11.2-mikrodelesjonssyndrom
+## Fenfluramin: Fra myoklonisk epilepsi til proksimalt 16p11.2-mikrodelesjonssyndrom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Ambrisentan: Fra pulmonal hypertensjon til pulmonal arteriovenøs malformasjon
+## Ambrisentan: Fra pulmonal hypertensjon til pulmonal arteriovenøs malformasjon
+{: .text-alpha }
 
 ## Oppsummering i korte trekk
 

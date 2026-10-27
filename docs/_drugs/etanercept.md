@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Etanercept: Fra revmatoid artritt til revmatoid vaskulitt
+## Etanercept: Fra revmatoid artritt til revmatoid vaskulitt
+{: .text-alpha }
 
 ## Oppsummering i en setning
 

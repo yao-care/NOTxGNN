@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Delamanid: Fra multiresistent tuberkulose til inaktiv tuberkulose
+## Delamanid: Fra multiresistent tuberkulose til inaktiv tuberkulose
+{: .text-alpha }
 
 ## Oppsummering
 

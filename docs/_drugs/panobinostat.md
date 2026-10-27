@@ -33,7 +33,8 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Panobinostat: Fra multippelt myelom til myeloid leukemi
+## Panobinostat: Fra multippelt myelom til myeloid leukemi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Diboterminalfa: Fra tibiafrakturer og ryggfusjon til esotropi
+## Diboterminalfa: Fra tibiafrakturer og ryggfusjon til esotropi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Brolucizumab: Fra våt makuladegenerasjon til mitokondriell oksidativ fosforyleringsforstyrrelse
+## Brolucizumab: Fra våt makuladegenerasjon til mitokondriell oksidativ fosforyleringsforstyrrelse
+{: .text-alpha }
 
 ## Oppsummering
 

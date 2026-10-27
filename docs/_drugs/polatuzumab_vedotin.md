@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Polatuzumab vedotin: Fra B-cellelymfom til HER2-positivt brystkarsinom
+## Polatuzumab vedotin: Fra B-cellelymfom til HER2-positivt brystkarsinom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

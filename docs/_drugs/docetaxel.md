@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Docetaxel: Fra brystkreft, lungekreft og prostatakreft til kvinnelig brystkarsinom (utvidet bruk)
+## Docetaxel: Fra brystkreft, lungekreft og prostatakreft til kvinnelig brystkarsinom (utvidet bruk)
+{: .text-alpha }
 
 ## Oppsummering
 

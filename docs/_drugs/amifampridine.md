@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Amifampridin: Fra Lambert-Eaton myasteniske syndrom til glaukom
+## Amifampridin: Fra Lambert-Eaton myasteniske syndrom til glaukom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

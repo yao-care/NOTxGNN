@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Zidovudin: Fra HIV-infeksjon til AIDS-relatert kompleks (ARC)
+## Zidovudin: Fra HIV-infeksjon til AIDS-relatert kompleks (ARC)
+{: .text-alpha }
 
 ## Sammendrag i én setning
 

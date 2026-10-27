@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Histidin: Fra lønnesirupsykdom (MSUD) til gastroparese
+## Histidin: Fra lønnesirupsykdom (MSUD) til gastroparese
+{: .text-alpha }
 
 ## Ettsetningssammendrag
 

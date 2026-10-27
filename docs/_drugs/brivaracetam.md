@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Brivaracetam: Fra epilepsi til visuell epilepsi
+## Brivaracetam: Fra epilepsi til visuell epilepsi
+{: .text-alpha }
 
 ## Oppsummering
 

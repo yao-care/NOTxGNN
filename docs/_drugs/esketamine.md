@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Esketamin: Fra depressiv lidelse til agorafobi
+## Esketamin: Fra depressiv lidelse til agorafobi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

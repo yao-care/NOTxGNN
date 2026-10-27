@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Vortioksetin: Fra alvorlig depressiv lidelse til nevrotisk lidelse
+## Vortioksetin: Fra alvorlig depressiv lidelse til nevrotisk lidelse
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

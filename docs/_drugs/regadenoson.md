@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Regadenoson: Fra myokardperfusjonsavbildning til anafylaksi
+## Regadenoson: Fra myokardperfusjonsavbildning til anafylaksi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

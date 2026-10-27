@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tenekteplase: Fra hjerteinfarkt til posteroinferiort hjerteinfarkt
+## Tenekteplase: Fra hjerteinfarkt til posteroinferiort hjerteinfarkt
+{: .text-alpha }
 
 ## Oppsummering
 

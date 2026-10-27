@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-# Corifollitropin alfa: Fra assistert reproduksjon til gastroduodenitt
+## Corifollitropin alfa: Fra assistert reproduksjon til gastroduodenitt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

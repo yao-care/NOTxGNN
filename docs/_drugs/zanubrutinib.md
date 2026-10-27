@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Zanubrutinib: Fra Waldenströms makroglobulinemi til myeloid leukemi
+## Zanubrutinib: Fra Waldenströms makroglobulinemi til myeloid leukemi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

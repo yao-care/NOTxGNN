@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Cytarabin: Fra akutt myeloid leukemi til småcellet lungekarsinom
+## Cytarabin: Fra akutt myeloid leukemi til småcellet lungekarsinom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

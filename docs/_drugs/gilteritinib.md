@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Gilteritinib: Fra akutt myeloid leukemi til bulbær polio
+## Gilteritinib: Fra akutt myeloid leukemi til bulbær polio
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

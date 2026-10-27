@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Sirolimus: Fra nyretransplantasjon og tuberøs sklerose til liposarkom
+## Sirolimus: Fra nyretransplantasjon og tuberøs sklerose til liposarkom
+{: .text-alpha }
 
 > **Merk:** Rapporten følger den første (høyest rangerte) prediksjonen, liposarkom. Blant de ti prediksjonene har **lymfangiomyom (LAM)** klart sterkest evidens (L1). Dette omtales i konklusjonen.
 

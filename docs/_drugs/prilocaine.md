@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Prilokain: Fra fysiologisk seksuell dysfunksjon til papillær konjunktivitt
+## Prilokain: Fra fysiologisk seksuell dysfunksjon til papillær konjunktivitt
+{: .text-alpha }
 
 ## Oppsummering
 

@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Nilotinib: Fra kronisk myelogen leukemi til dermatofibrosarcoma protuberans
+## Nilotinib: Fra kronisk myelogen leukemi til dermatofibrosarcoma protuberans
+{: .text-alpha }
 
 ## Sammendrag
 

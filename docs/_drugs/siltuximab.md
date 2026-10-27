@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-# Siltuksimab: Fra Castlemans sykdom til ekstrakutant mastocytom
+## Siltuksimab: Fra Castlemans sykdom til ekstrakutant mastocytom
+{: .text-alpha }
 
 ## Oppsummering i en setning
 

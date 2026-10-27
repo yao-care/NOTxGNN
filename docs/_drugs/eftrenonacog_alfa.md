@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Eftrenonacog alfa: Fra hemofili B til pseudo-von Willebrands sykdom
+## Eftrenonacog alfa: Fra hemofili B til pseudo-von Willebrands sykdom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

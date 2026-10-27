@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Nevirapin: Fra HIV-infeksjon til felint ervervet immunsviktsyndrom
+## Nevirapin: Fra HIV-infeksjon til felint ervervet immunsviktsyndrom
+{: .text-alpha }
 
 ## Oppsummering
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Solriamfetol: Fra narkolepsi og obstruktiv søvnapné til ADHD
+## Solriamfetol: Fra narkolepsi og obstruktiv søvnapné til ADHD
+{: .text-alpha }
 
 ## Oppsummering
 

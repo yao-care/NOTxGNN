@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Reslizumab: Fra astma til immunmediert trombocytopeni
+## Reslizumab: Fra astma til immunmediert trombocytopeni
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

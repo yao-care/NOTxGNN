@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Mecasermin: Fra Laron syndrom til monosomi X
+## Mecasermin: Fra Laron syndrom til monosomi X
+{: .text-alpha }
 
 ## Sammendrag i én setning
 

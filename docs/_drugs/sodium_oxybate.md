@@ -33,7 +33,8 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Natriumoksybat: Fra katapleksi og narkolepsi til insomni
+## Natriumoksybat: Fra katapleksi og narkolepsi til insomni
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

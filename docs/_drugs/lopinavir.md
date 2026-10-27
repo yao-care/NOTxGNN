@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Lopinavir: Fra HIV-infeksjon til simian immunsviktvirus-infeksjon
+## Lopinavir: Fra HIV-infeksjon til simian immunsviktvirus-infeksjon
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

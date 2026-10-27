@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Azatioprin: Fra transplantasjonsavstøtning til inflammatorisk tarmsykdom
+## Azatioprin: Fra transplantasjonsavstøtning til inflammatorisk tarmsykdom
+{: .text-alpha }
 
 ## Oppsummering
 

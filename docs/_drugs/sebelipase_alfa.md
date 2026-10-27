@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Sebelipase alfa: Fra medfødte feil i lipidmetabolismen til Scheie syndrom
+## Sebelipase alfa: Fra medfødte feil i lipidmetabolismen til Scheie syndrom
+{: .text-alpha }
 
 ## Oppsummering
 

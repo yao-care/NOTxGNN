@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Diroksimelfumarat: Fra relapserende-remitterende multippel sklerose til diabetisk katarakt
+## Diroksimelfumarat: Fra relapserende-remitterende multippel sklerose til diabetisk katarakt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

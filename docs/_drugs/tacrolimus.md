@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Tacrolimus: Fra transplantasjonsavstøtning og atopisk dermatitt til seboreisk dermatitt
+## Tacrolimus: Fra transplantasjonsavstøtning og atopisk dermatitt til seboreisk dermatitt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

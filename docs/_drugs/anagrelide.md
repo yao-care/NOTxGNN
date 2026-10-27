@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Anagrelid: Fra essensiell trombocytemi til reaktiv trombocytose
+## Anagrelid: Fra essensiell trombocytemi til reaktiv trombocytose
+{: .text-alpha }
 
 ## Sammendrag i en setning
 

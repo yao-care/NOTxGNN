@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Atazanavir: Fra HIV-infeksjon til simian immunsviktvirus-infeksjon
+## Atazanavir: Fra HIV-infeksjon til simian immunsviktvirus-infeksjon
+{: .text-alpha }
 
 ## Oppsummering
 

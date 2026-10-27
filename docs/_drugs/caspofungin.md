@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Kaspofungin: Fra candidiasis og aspergillose til abnormal gastrinsekresjon
+## Kaspofungin: Fra candidiasis og aspergillose til abnormal gastrinsekresjon
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

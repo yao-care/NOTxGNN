@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Valsartan: Fra hypertensjon og hjertesvikt til malign hypertensiv nyresykdom
+## Valsartan: Fra hypertensjon og hjertesvikt til malign hypertensiv nyresykdom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

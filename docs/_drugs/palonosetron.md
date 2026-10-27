@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Palonosetron: Fra kjemoterapiindusert oppkast til migrene
+## Palonosetron: Fra kjemoterapiindusert oppkast til migrene
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

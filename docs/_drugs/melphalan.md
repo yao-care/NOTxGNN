@@ -33,7 +33,8 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Melfalan: Fra myelomatose til kjønnscelletumor i gonader
+## Melfalan: Fra myelomatose til kjønnscelletumor i gonader
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

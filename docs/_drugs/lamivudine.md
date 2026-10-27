@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Lamivudin: Fra HIV-infeksjon og kronisk hepatitt B til felint ervervet immunsviktsyndrom
+## Lamivudin: Fra HIV-infeksjon og kronisk hepatitt B til felint ervervet immunsviktsyndrom
+{: .text-alpha }
 
 ## Oppsummering i en setning
 

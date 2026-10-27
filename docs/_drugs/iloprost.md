@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Iloprost: Fra pulmonal hypertensjon til pulmonal arteriell hypertensjon assosiert med medfødt hjertesykdom
+## Iloprost: Fra pulmonal hypertensjon til pulmonal arteriell hypertensjon assosiert med medfødt hjertesykdom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Brodalumab: Fra psoriasis til strongyloidiasis
+## Brodalumab: Fra psoriasis til strongyloidiasis
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Paklitaksel: Fra brystkreft, bukspyttkjertelkreft og ikke-småcellet lungekreft til kvinnelig brystkarsinom
+## Paklitaksel: Fra brystkreft, bukspyttkjertelkreft og ikke-småcellet lungekreft til kvinnelig brystkarsinom
+{: .text-alpha }
 
 ## Enkeltsetningssammendrag
 

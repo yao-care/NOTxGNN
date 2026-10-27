@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Glukagon: Fra diabetes mellitus til irritabelt tarmsyndrom
+## Glukagon: Fra diabetes mellitus til irritabelt tarmsyndrom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

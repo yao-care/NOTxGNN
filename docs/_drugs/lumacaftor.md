@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Lumacaftor: Fra cystisk fibrose til lepra
+## Lumacaftor: Fra cystisk fibrose til lepra
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

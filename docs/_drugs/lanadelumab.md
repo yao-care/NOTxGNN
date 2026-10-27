@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Lanadelumab: Fra arvelig angioødem til C1-hemmermangel
+## Lanadelumab: Fra arvelig angioødem til C1-hemmermangel
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

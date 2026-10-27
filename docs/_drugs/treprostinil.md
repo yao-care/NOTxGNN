@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Treprostinil: Fra pulmonal hypertensjon til pulmonal arteriell hypertensjon assosiert med medfødt hjertesykdom
+## Treprostinil: Fra pulmonal hypertensjon til pulmonal arteriell hypertensjon assosiert med medfødt hjertesykdom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

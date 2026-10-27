@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tobramycin: Fra luftveisinfeksjoner og cystisk fibrose til eksposjonskeratitt
+## Tobramycin: Fra luftveisinfeksjoner og cystisk fibrose til eksposjonskeratitt
+{: .text-alpha }
 
 ## Oppsummering
 

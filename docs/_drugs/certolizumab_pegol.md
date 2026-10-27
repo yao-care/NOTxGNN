@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Certolizumab pegol: Fra revmatoid artritt til revmatoid vaskulitt
+## Certolizumab pegol: Fra revmatoid artritt til revmatoid vaskulitt
+{: .text-alpha }
 
 ## Oppsummering
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Atezolizumab: Fra urotelkarsinom til urotelkarsinom i prostatisk uretra
+## Atezolizumab: Fra urotelkarsinom til urotelkarsinom i prostatisk uretra
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

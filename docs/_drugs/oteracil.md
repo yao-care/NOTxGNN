@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Oteracil: Fra magekreft til tykktarmskreft
+## Oteracil: Fra magekreft til tykktarmskreft
+{: .text-alpha }
 
 ## Oppsummering
 

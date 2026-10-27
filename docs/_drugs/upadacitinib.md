@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Upadacitinib: Fra revmatoid artritt til kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom
+## Upadacitinib: Fra revmatoid artritt til kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

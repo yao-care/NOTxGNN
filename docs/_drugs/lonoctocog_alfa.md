@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Lonoktokog alfa: Fra hemofili A til pseudo-von Willebrand sykdom
+## Lonoktokog alfa: Fra hemofili A til pseudo-von Willebrand sykdom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

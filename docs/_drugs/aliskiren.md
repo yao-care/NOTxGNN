@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Aliskiren: Fra hypertensjon til pulmonal hypertensjon forårsaket av lungesykdom og/eller hypoksi
+## Aliskiren: Fra hypertensjon til pulmonal hypertensjon forårsaket av lungesykdom og/eller hypoksi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

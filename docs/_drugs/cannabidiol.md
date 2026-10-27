@@ -32,7 +32,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **0** stk.
 
 </div>
 
-# Cannabidiol: Vurdering av ombruk i påvente — Utilstrekkelige data for å fullføre analysen
+## Cannabidiol: Vurdering av ombruk i påvente — Utilstrekkelige data for å fullføre analysen
+{: .text-alpha }
 
 ## Sammendrag i en setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Romiplostim: Fra idiopatisk trombocytopenisk purpura til primær frigjøringsforstyrrelse av blodplater
+## Romiplostim: Fra idiopatisk trombocytopenisk purpura til primær frigjøringsforstyrrelse av blodplater
+{: .text-alpha }
 
 ## Kort oppsummering
 

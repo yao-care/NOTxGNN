@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Toremifen: Fra brystkreft til HIV-infeksjon
+## Toremifen: Fra brystkreft til HIV-infeksjon
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

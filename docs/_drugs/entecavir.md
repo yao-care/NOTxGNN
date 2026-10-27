@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Entecavir: Fra hepatitt B til kronisk hepatitt C-virusinfeksjon
+## Entecavir: Fra hepatitt B til kronisk hepatitt C-virusinfeksjon
+{: .text-alpha }
 
 ## Oppsummering
 

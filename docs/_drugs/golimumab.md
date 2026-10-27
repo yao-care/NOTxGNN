@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Golimumab: Fra revmatoid artritt til revmatoid vaskulitt
+## Golimumab: Fra revmatoid artritt til revmatoid vaskulitt
+{: .text-alpha }
 
 ## Sammendrag i korte trekk
 

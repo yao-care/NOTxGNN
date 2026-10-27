@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Atosiban: Fra prematur fødselsrier til primær arvelig glaukom
+## Atosiban: Fra prematur fødselsrier til primær arvelig glaukom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

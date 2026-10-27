@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Insulin aspart: Fra diabetes mellitus til type 1-diabetes mellitus
+## Insulin aspart: Fra diabetes mellitus til type 1-diabetes mellitus
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

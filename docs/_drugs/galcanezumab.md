@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Galcanezumab: Fra migrene til heparinkofaktor 2-mangel
+## Galcanezumab: Fra migrene til heparinkofaktor 2-mangel
+{: .text-alpha }
 
 ## Sammendrag i én setning
 

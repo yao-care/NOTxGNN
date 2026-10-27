@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Ferrimaltol: Fra jernmangelanemi til Plummer-Vinson syndrom
+## Ferrimaltol: Fra jernmangelanemi til Plummer-Vinson syndrom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Risdiplam: Fra spinal muskelatrofi til akne
+## Risdiplam: Fra spinal muskelatrofi til akne
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

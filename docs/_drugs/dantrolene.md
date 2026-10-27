@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Dantrolen: Fra malign hypertermi til malign hypertermi (mottakelighet) – og beslektede RYR1-myopatier
+## Dantrolen: Fra malign hypertermi til malign hypertermi (mottakelighet) – og beslektede RYR1-myopatier
+{: .text-alpha }
 
 ## Enkeltsetningssammendrag
 

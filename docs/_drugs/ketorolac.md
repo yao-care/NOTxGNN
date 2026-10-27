@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Ketorolac: Fra postoperativ smerte til hodepinelidelse
+## Ketorolac: Fra postoperativ smerte til hodepinelidelse
+{: .text-alpha }
 
 ## Oppsummering
 

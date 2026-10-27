@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Ziconotid: Fra smerte til migrene
+## Ziconotid: Fra smerte til migrene
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

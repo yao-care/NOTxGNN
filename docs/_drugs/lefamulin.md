@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Lefamulin: Fra bakteriell lungebetennelse til diffus kutan leishmaniasis
+## Lefamulin: Fra bakteriell lungebetennelse til diffus kutan leishmaniasis
+{: .text-alpha }
 
 ## Oppsummering
 

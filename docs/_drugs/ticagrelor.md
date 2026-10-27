@@ -33,7 +33,8 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tikagrelor: Fra akutt koronarsyndrom og perifer karsykdom til intrakraniell arteriosklerose
+## Tikagrelor: Fra akutt koronarsyndrom og perifer karsykdom til intrakraniell arteriosklerose
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

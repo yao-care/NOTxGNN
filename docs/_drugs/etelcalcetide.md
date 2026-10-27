@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Etelcalcetid: Fra sekundær hyperparatyreoidisme til hyperfosfatemi
+## Etelcalcetid: Fra sekundær hyperparatyreoidisme til hyperfosfatemi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

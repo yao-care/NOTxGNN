@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Niraparib: Fra eggstokk-, egglederkreft og bukhinnekreft til cystisk neoplasme
+## Niraparib: Fra eggstokk-, egglederkreft og bukhinnekreft til cystisk neoplasme
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

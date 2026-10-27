@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Rasagilin: Fra Parkinsons sykdom til PLA2G6-assosiert nevrodegenerasjon
+## Rasagilin: Fra Parkinsons sykdom til PLA2G6-assosiert nevrodegenerasjon
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

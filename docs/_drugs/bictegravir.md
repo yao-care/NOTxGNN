@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Bictegravir: Fra hiv-infeksjon til simian immunsviktvirus-infeksjon (SIV)
+## Bictegravir: Fra hiv-infeksjon til simian immunsviktvirus-infeksjon (SIV)
+{: .text-alpha }
 
 ## Oppsummering
 

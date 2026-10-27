@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Rilpivirin: Fra HIV-infeksjon til felint ervervet immunsviktsyndrom
+## Rilpivirin: Fra HIV-infeksjon til felint ervervet immunsviktsyndrom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

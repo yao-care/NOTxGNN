@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Ertapenem: Fra bakterielle infeksjoner til bakteriell artritt
+## Ertapenem: Fra bakterielle infeksjoner til bakteriell artritt
+{: .text-alpha }
 
 ## Oppsummering
 

@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Eltrombopag: Fra idiopatisk trombocytopen purpura og aplastisk anemi til HIV-infeksjon
+## Eltrombopag: Fra idiopatisk trombocytopen purpura og aplastisk anemi til HIV-infeksjon
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

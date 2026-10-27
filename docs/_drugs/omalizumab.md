@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Omalizumab: Fra astma til bronkitt
+## Omalizumab: Fra astma til bronkitt
+{: .text-alpha }
 
 ## Oppsummering
 

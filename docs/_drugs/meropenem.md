@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Meropenem: Fra urinveisinfeksjoner og alvorlige bakterielle infeksjoner til bakteriell artritt
+## Meropenem: Fra urinveisinfeksjoner og alvorlige bakterielle infeksjoner til bakteriell artritt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

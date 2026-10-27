@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Lapatinib: Fra brystkreft til dermatofibrosarcoma protuberans
+## Lapatinib: Fra brystkreft til dermatofibrosarcoma protuberans
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

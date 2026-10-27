@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Metreleptin: Fra familiær partiell lipodystrofi til familiær generalisert lentiginose
+## Metreleptin: Fra familiær partiell lipodystrofi til familiær generalisert lentiginose
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

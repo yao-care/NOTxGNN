@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Lurasidon: Fra schizofreni til manisk bipolar lidelse
+## Lurasidon: Fra schizofreni til manisk bipolar lidelse
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

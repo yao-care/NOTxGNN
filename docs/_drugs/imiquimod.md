@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Imiquimod: Fra aktinisk keratose til premalign neoplasi
+## Imiquimod: Fra aktinisk keratose til premalign neoplasi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Talimogen laherparepvec: Fra melanom til CMM7 (familiært kutant malignt melanom)
+## Talimogen laherparepvec: Fra melanom til CMM7 (familiært kutant malignt melanom)
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Hydroksokobalamin: Fra forgiftning til esofagusvaricer
+## Hydroksokobalamin: Fra forgiftning til esofagusvaricer
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

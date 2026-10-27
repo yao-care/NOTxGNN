@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Topotecan: Fra livmorhalskreft og småcellet lungekreft til brystkreft hos kvinner
+## Topotecan: Fra livmorhalskreft og småcellet lungekreft til brystkreft hos kvinner
+{: .text-alpha }
 
 ## Oppsummering
 

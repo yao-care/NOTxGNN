@@ -33,7 +33,8 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Dupilumab: Fra atopisk dermatitt til bronkitt
+## Dupilumab: Fra atopisk dermatitt til bronkitt
+{: .text-alpha }
 
 ## Oppsummering i en setning
 

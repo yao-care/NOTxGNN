@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Pemigatinib: Fra kolangiokarsinom til multippel endokrin neoplasi
+## Pemigatinib: Fra kolangiokarsinom til multippel endokrin neoplasi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

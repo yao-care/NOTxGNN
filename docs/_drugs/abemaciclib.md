@@ -32,7 +32,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **0** stk.
 
 </div>
 
-# ABEMACICLIB: Rapport om omvurdering av legemiddelbruk
+## ABEMACICLIB: Rapport om omvurdering av legemiddelbruk
+{: .text-alpha }
 
 ## Sammendrag i én setning
 

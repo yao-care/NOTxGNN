@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Enzalutamid: Fra prostatakreft til «prostatakreft/hjernekreft-mottakelighet»
+## Enzalutamid: Fra prostatakreft til «prostatakreft/hjernekreft-mottakelighet»
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

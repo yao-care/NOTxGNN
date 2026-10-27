@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Alpelisib: Fra brystkreft til pulmonal hypertensjon
+## Alpelisib: Fra brystkreft til pulmonal hypertensjon
+{: .text-alpha }
 
 ## Oppsummering
 

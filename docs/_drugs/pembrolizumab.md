@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Pembrolizumab: Fra melanom og andre kreftformer til gingival fibromatose
+## Pembrolizumab: Fra melanom og andre kreftformer til gingival fibromatose
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

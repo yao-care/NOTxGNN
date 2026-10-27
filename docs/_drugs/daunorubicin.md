@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Daunorubicin: Fra akutt myeloid leukemi til Hodgkins lymfom
+## Daunorubicin: Fra akutt myeloid leukemi til Hodgkins lymfom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

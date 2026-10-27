@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Turoctocog alfa pegol: Fra hemofili A til primær frigjøringsforstyrrelse i blodplater
+## Turoctocog alfa pegol: Fra hemofili A til primær frigjøringsforstyrrelse i blodplater
+{: .text-alpha }
 
 ## Oppsummering
 

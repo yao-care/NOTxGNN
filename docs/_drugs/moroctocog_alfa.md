@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-# Moroktokog alfa: Fra hemofili A til primær frigjøringsforstyrrelse i blodplater
+## Moroktokog alfa: Fra hemofili A til primær frigjøringsforstyrrelse i blodplater
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

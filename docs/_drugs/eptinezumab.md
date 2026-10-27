@@ -31,7 +31,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Eptinezumab: Fra migrene til migrene med hjernestammeaura
+## Eptinezumab: Fra migrene til migrene med hjernestammeaura
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

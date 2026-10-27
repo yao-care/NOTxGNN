@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Selinexor: Fra multippelt myelom til legemiddelindusert osteoporose
+## Selinexor: Fra multippelt myelom til legemiddelindusert osteoporose
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Rotigotin: Fra Parkinsons sykdom og rastløse bein-syndrom til attention deficit-hyperactivity disorder (ADHD)
+## Rotigotin: Fra Parkinsons sykdom og rastløse bein-syndrom til attention deficit-hyperactivity disorder (ADHD)
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Metylfenidat: Fra ADHD til familiær-digito-genital syndrom (faciodigitogenital syndrome)
+## Metylfenidat: Fra ADHD til familiær-digito-genital syndrom (faciodigitogenital syndrome)
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

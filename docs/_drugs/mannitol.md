@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Mannitol: Fra cystisk fibrose til nefrogent syndrom med uhensiktsmessig antidiurese
+## Mannitol: Fra cystisk fibrose til nefrogent syndrom med uhensiktsmessig antidiurese
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

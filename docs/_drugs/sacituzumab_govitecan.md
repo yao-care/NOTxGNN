@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Sacituzumab govitecan: Fra brystkreft til legemiddelindusert osteoporose
+## Sacituzumab govitecan: Fra brystkreft til legemiddelindusert osteoporose
+{: .text-alpha }
 
 ## Oppsummering
 

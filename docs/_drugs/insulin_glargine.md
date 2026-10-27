@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Insulin glargin: Fra diabetes mellitus til pankreasagenesi
+## Insulin glargin: Fra diabetes mellitus til pankreasagenesi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

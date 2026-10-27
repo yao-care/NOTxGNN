@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Pentosanpolysulfat: Fra interstitiell cystitt til primær frigjøringsforstyrrelse i blodplater
+## Pentosanpolysulfat: Fra interstitiell cystitt til primær frigjøringsforstyrrelse i blodplater
+{: .text-alpha }
 
 ## Oppsummering
 

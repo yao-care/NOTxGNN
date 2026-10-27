@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Duloksetin: Fra nevralgi og depresjon til benign paroksysmal torticollis hos spedbarn
+## Duloksetin: Fra nevralgi og depresjon til benign paroksysmal torticollis hos spedbarn
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

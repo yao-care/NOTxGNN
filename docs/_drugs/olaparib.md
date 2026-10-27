@@ -31,7 +31,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Olaparib: Fra eggstokkreft, brystkreft, bukspyttkjertelkreft og prostatakreft til kvinnelig brystkarsinom
+## Olaparib: Fra eggstokkreft, brystkreft, bukspyttkjertelkreft og prostatakreft til kvinnelig brystkarsinom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Doravirin: Fra hiv-infeksjon til felint ervervet immunsviktsyndrom
+## Doravirin: Fra hiv-infeksjon til felint ervervet immunsviktsyndrom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

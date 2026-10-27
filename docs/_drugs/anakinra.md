@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Anakinra: Fra revmatoid artritt til ekstrakutan mastocytom
+## Anakinra: Fra revmatoid artritt til ekstrakutan mastocytom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

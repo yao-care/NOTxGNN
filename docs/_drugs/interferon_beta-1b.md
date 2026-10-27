@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Interferon beta-1b: Fra multippel sklerose til hårcelleleukemi
+## Interferon beta-1b: Fra multippel sklerose til hårcelleleukemi
+{: .text-alpha }
 
 ## Sammendrag
 

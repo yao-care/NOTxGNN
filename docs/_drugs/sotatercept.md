@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Sotatercept: Fra pulmonal hypertensjon til akutt lymfatisk leukemi
+## Sotatercept: Fra pulmonal hypertensjon til akutt lymfatisk leukemi
+{: .text-alpha }
 
 ## Oppsummering
 

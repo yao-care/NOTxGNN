@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Mikafungin: Fra candidiasis til urinveisinfeksjon
+## Mikafungin: Fra candidiasis til urinveisinfeksjon
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

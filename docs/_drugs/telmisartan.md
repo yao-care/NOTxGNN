@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Telmisartan: Fra hypertensjon til Prinzmetal angina
+## Telmisartan: Fra hypertensjon til Prinzmetal angina
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

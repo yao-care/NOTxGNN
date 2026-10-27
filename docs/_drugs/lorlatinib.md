@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Lorlatinib: Fra ikke-småcellet lungekreft til fibromatose i tannkjøttet
+## Lorlatinib: Fra ikke-småcellet lungekreft til fibromatose i tannkjøttet
+{: .text-alpha }
 
 ## Oppsummering
 

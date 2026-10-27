@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Propranolol: Fra hemangiom til distal myopati, Tateyama-type
+## Propranolol: Fra hemangiom til distal myopati, Tateyama-type
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

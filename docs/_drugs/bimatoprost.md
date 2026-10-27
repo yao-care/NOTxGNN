@@ -33,7 +33,8 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Bimatoprost: Fra åpenvinklet glaukom til alopesi
+## Bimatoprost: Fra åpenvinklet glaukom til alopesi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Trabectedin: Fra sarkom og eggstokkreft til brystkreft hos kvinner
+## Trabectedin: Fra sarkom og eggstokkreft til brystkreft hos kvinner
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

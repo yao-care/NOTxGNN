@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Lidokain: Fra seksuell dysfunksjon til konjunktival sykdom
+## Lidokain: Fra seksuell dysfunksjon til konjunktival sykdom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

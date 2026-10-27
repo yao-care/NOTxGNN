@@ -32,7 +32,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **0** stk.
 
 </div>
 
-# Canagliflozin: Evaluering av legemiddelombruk — Prediksjonsdata utilgjengelig
+## Canagliflozin: Evaluering av legemiddelombruk — Prediksjonsdata utilgjengelig
+{: .text-alpha }
 
 ## Sammendrag i én setning
 

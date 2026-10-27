@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Asfotase alfa: Fra hypofosfatasi til mitokondriell oksidativ fosforyleringssykdom (kjerne-DNA-avvik)
+## Asfotase alfa: Fra hypofosfatasi til mitokondriell oksidativ fosforyleringssykdom (kjerne-DNA-avvik)
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

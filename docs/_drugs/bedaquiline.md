@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Bedaquilin: Fra multiresistent tuberkulose til inaktiv tuberkulose
+## Bedaquilin: Fra multiresistent tuberkulose til inaktiv tuberkulose
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

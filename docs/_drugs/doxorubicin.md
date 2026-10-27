@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Doksorubicin: Fra brystkreft til Ewing-sarkom
+## Doksorubicin: Fra brystkreft til Ewing-sarkom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

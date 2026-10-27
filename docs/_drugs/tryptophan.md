@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-# Tryptofan: Fra lønnesirupsyke (MSUD) til rastløse bens syndrom
+## Tryptofan: Fra lønnesirupsyke (MSUD) til rastløse bens syndrom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Ustekinumab: Fra psoriasis, psoriasisartritt og Crohns sykdom til dermatitt
+## Ustekinumab: Fra psoriasis, psoriasisartritt og Crohns sykdom til dermatitt
+{: .text-alpha }
 
 ## Oppsummering i en setning
 

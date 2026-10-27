@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Bevacizumab: Fra kolorektal kreft m.fl. til cystisk neoplasme
+## Bevacizumab: Fra kolorektal kreft m.fl. til cystisk neoplasme
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

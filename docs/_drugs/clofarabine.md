@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Klofarabin: Fra akutt lymfoblastisk leukemi til myeloid leukemi
+## Klofarabin: Fra akutt lymfoblastisk leukemi til myeloid leukemi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

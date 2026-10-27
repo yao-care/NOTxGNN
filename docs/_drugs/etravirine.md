@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Etravirin: Fra HIV-infeksjon til simian immunsviktvirusinfeksjon
+## Etravirin: Fra HIV-infeksjon til simian immunsviktvirusinfeksjon
+{: .text-alpha }
 
 ## Sammendrag i én setning
 

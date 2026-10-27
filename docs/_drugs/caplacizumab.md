@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Caplacizumab: Fra trombotisk trombocytopenisk purpura til primær frisetningsforstyrrelse i blodplater
+## Caplacizumab: Fra trombotisk trombocytopenisk purpura til primær frisetningsforstyrrelse i blodplater
+{: .text-alpha }
 
 ## Oppsummering
 

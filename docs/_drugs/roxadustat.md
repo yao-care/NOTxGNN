@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Roxadustat: Fra anemi ved kronisk nyresvikt til tørrøyesyndrom
+## Roxadustat: Fra anemi ved kronisk nyresvikt til tørrøyesyndrom
+{: .text-alpha }
 
 ## Oppsummering
 

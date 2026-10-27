@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Efavirenz: Fra HIV-infeksjon til simianimmunsviktvirus-infeksjon (SIV)
+## Efavirenz: Fra HIV-infeksjon til simianimmunsviktvirus-infeksjon (SIV)
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

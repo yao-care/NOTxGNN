@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Filgrastim: Fra nøytropeni og stamcelletransplantasjon til primær frisetningsforstyrrelse i blodplater
+## Filgrastim: Fra nøytropeni og stamcelletransplantasjon til primær frisetningsforstyrrelse i blodplater
+{: .text-alpha }
 
 ## Oppsummering
 

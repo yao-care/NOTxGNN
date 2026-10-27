@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Tenofovir disoproxil: Fra HIV-infeksjon til simian immunsviktvirus-infeksjon
+## Tenofovir disoproxil: Fra HIV-infeksjon til simian immunsviktvirus-infeksjon
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

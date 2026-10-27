@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Karfilzomib: Fra multippelt myelom til CMM7 (familiært kutant malignt melanom)
+## Karfilzomib: Fra multippelt myelom til CMM7 (familiært kutant malignt melanom)
+{: .text-alpha }
 
 ## Sammendrag
 

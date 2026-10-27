@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Fosaprepitant: Fra kvalme og oppkast ved kreft til nefrogent syndrom med uhensiktsmessig antidiurese
+## Fosaprepitant: Fra kvalme og oppkast ved kreft til nefrogent syndrom med uhensiktsmessig antidiurese
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

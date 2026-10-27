@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Cemiplimab: Fra plateepitelkarsinom til adenoskvamøst gallblærekarsinom
+## Cemiplimab: Fra plateepitelkarsinom til adenoskvamøst gallblærekarsinom
+{: .text-alpha }
 
 ## Oppsummering
 

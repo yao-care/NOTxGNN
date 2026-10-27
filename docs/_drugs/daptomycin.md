@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Daptomycin: Fra bakterielle hud- og bløtvevsinfeksjoner til revmatoid artritt
+## Daptomycin: Fra bakterielle hud- og bløtvevsinfeksjoner til revmatoid artritt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

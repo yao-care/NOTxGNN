@@ -33,7 +33,8 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Deksametason: Fra makulaødem/uveitt og myelomatose til alopecia areata
+## Deksametason: Fra makulaødem/uveitt og myelomatose til alopecia areata
+{: .text-alpha }
 
 ## Oppsummering
 

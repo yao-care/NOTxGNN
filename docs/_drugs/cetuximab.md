@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Cetuximab: Fra hode- og halskreft og tykktarmskreft til prekreftale neoplasmer
+## Cetuximab: Fra hode- og halskreft og tykktarmskreft til prekreftale neoplasmer
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

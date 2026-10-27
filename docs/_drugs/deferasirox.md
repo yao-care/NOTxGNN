@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Deferasirox: Fra jernoverskudd og beta-talassemi til HIV-infeksjon
+## Deferasirox: Fra jernoverskudd og beta-talassemi til HIV-infeksjon
+{: .text-alpha }
 
 ## Oppsummering
 

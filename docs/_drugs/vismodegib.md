@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Vismodegib: Fra basalcellekarsinom til medulloblastom med utbredt nodularitet
+## Vismodegib: Fra basalcellekarsinom til medulloblastom med utbredt nodularitet
+{: .text-alpha }
 
 ## Oppsummering i en setning
 

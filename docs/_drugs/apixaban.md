@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Apixaban: Fra venøs tromboembolisme og leddprotese-kirurgi til migrene
+## Apixaban: Fra venøs tromboembolisme og leddprotese-kirurgi til migrene
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tecovirimat: Fra kopper og apekopper til vaccinia (nær på-label bruk)
+## Tecovirimat: Fra kopper og apekopper til vaccinia (nær på-label bruk)
+{: .text-alpha }
 
 ## Sammendrag i én setning
 

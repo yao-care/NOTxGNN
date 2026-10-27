@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Fenofibrat: Fra dyslipidemi til hyperlipoproteinemi
+## Fenofibrat: Fra dyslipidemi til hyperlipoproteinemi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

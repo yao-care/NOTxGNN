@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Belimumab: Fra systemisk lupus erythematosus til primær frigjøringsforstyrrelse i blodplater
+## Belimumab: Fra systemisk lupus erythematosus til primær frigjøringsforstyrrelse i blodplater
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

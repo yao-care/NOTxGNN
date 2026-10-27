@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tegafur: Fra magekreft til kolonneoplasme
+## Tegafur: Fra magekreft til kolonneoplasme
+{: .text-alpha }
 
 ## Oppsummering
 

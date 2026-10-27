@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Bempedoic acid: Fra hyperkolesterolemi til homozygot familiær hyperkolesterolemi
+## Bempedoic acid: Fra hyperkolesterolemi til homozygot familiær hyperkolesterolemi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

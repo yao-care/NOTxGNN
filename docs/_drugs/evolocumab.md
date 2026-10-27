@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Evolocumab: Fra hyperkolesterolemi til symptomatisk hemofili hos kvinnelige bærere
+## Evolocumab: Fra hyperkolesterolemi til symptomatisk hemofili hos kvinnelige bærere
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

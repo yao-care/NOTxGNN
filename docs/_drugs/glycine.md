@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Glycin: Fra Lønnesirupsykdom (MSUD) til sykdom i nesehulen
+## Glycin: Fra Lønnesirupsykdom (MSUD) til sykdom i nesehulen
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Turoctocog alfa: Fra hemofili A til primær frigjøringsforstyrrelse i blodplater
+## Turoctocog alfa: Fra hemofili A til primær frigjøringsforstyrrelse i blodplater
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

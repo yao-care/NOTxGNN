@@ -31,7 +31,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Netarsudil: Fra åpenvinklet glaukom til glaukom (primær arvelig glaukom som alternativ prediksjon)
+## Netarsudil: Fra åpenvinklet glaukom til glaukom (primær arvelig glaukom som alternativ prediksjon)
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

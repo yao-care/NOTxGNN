@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Aflibercept: Fra våt aldersrelatert makuladegenerasjon til esotropi
+## Aflibercept: Fra våt aldersrelatert makuladegenerasjon til esotropi
+{: .text-alpha }
 
 ## Oppsummering
 

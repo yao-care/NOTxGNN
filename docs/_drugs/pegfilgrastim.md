@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Pegfilgrastim: Fra nøytropeni hos kreftpasienter til alvorlig ikke-proliferativ diabetisk retinopati
+## Pegfilgrastim: Fra nøytropeni hos kreftpasienter til alvorlig ikke-proliferativ diabetisk retinopati
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

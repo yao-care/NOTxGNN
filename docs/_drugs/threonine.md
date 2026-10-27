@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Treonin: Fra lønnesirupsykdom (MSUD) til gastroparese
+## Treonin: Fra lønnesirupsykdom (MSUD) til gastroparese
+{: .text-alpha }
 
 ## Ettsetningssammendrag
 

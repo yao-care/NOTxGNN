@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Levetiracetam: Fra epilepsi til status epilepticus
+## Levetiracetam: Fra epilepsi til status epilepticus
+{: .text-alpha }
 
 ## Oppsummering
 

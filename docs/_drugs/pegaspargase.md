@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Pegaspargase: Fra prekursor-lymfoblastisk leukemi/lymfom til prekursor-lymfoblastisk lymfom/leukemi (samme sykdom, annen ontologiterm)
+## Pegaspargase: Fra prekursor-lymfoblastisk leukemi/lymfom til prekursor-lymfoblastisk lymfom/leukemi (samme sykdom, annen ontologiterm)
+{: .text-alpha }
 
 ## Enkel oppsummering
 

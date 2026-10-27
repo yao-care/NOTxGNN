@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Prukaloprid: Fra forstoppelse til hypoalfalipoproteinemi
+## Prukaloprid: Fra forstoppelse til hypoalfalipoproteinemi
+{: .text-alpha }
 
 ## Enkeltsetningssammendrag
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Ibuprofen: Fra persistent ductus arteriosus til akromesomelisk dysplasi, Hunter-Thompson-type
+## Ibuprofen: Fra persistent ductus arteriosus til akromesomelisk dysplasi, Hunter-Thompson-type
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -31,7 +31,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Teriflunomid: Fra relapsende-remitterende multippel sklerose til relapsende-remitterende multippel sklerose
+## Teriflunomid: Fra relapsende-remitterende multippel sklerose til relapsende-remitterende multippel sklerose
+{: .text-alpha }
 
 > Merk: Dette er en eksisterende, godkjent indikasjon og ikke en reell ny anvendelse. Rapporten bekrefter dermed i hovedsak at modellens prediksjon stemmer med kjent bruk.
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Asparaginsyre: Fra ahornsirupsykdom til renal tubulær acidose
+## Asparaginsyre: Fra ahornsirupsykdom til renal tubulær acidose
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -31,7 +31,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Erenumab: Fra migrene til migrene med hjernestammeaura
+## Erenumab: Fra migrene til migrene med hjernestammeaura
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

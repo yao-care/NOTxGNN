@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Ranibizumab: Fra våt aldersrelatert makuladegenerasjon til alvorlig ikke-proliferativ diabetisk retinopati
+## Ranibizumab: Fra våt aldersrelatert makuladegenerasjon til alvorlig ikke-proliferativ diabetisk retinopati
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

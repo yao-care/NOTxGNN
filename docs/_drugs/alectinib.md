@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Alectinib: Fra ikke-småcellet lungekreft til godartet lungeneoplasme (prediksjon uten reell støtte)
+## Alectinib: Fra ikke-småcellet lungekreft til godartet lungeneoplasme (prediksjon uten reell støtte)
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

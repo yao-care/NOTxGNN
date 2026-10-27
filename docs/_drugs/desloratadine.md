@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Desloratadin: Fra allergisk rinitt og urticaria til kuldeurticaria
+## Desloratadin: Fra allergisk rinitt og urticaria til kuldeurticaria
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

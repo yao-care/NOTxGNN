@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Entakapon: Fra Parkinsons sykdom til PLA2G6-assosiert nevrodegenerasjon
+## Entakapon: Fra Parkinsons sykdom til PLA2G6-assosiert nevrodegenerasjon
+{: .text-alpha }
 
 ## Sammendrag
 

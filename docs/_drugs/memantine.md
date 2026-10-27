@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Memantin: Fra Alzheimers sykdom til migrene
+## Memantin: Fra Alzheimers sykdom til migrene
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

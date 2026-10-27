@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Orlistat: Fra fedme til hypervitaminose
+## Orlistat: Fra fedme til hypervitaminose
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Ponatinib: Fra leukemi til gingival fibromatose
+## Ponatinib: Fra leukemi til gingival fibromatose
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

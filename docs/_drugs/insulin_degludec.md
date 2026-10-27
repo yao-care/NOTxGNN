@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Insulin degludec: Fra diabetes mellitus til diabetes mellitus type 1
+## Insulin degludec: Fra diabetes mellitus til diabetes mellitus type 1
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

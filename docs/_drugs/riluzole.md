@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Riluzol: Fra amyotrofisk lateralsklerose til bilateral parasagittal parieto-oksipital polymikrogyri
+## Riluzol: Fra amyotrofisk lateralsklerose til bilateral parasagittal parieto-oksipital polymikrogyri
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Rasburikase: Fra hyperurikemi til renal hypourikemi
+## Rasburikase: Fra hyperurikemi til renal hypourikemi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Kabotegravir: Fra HIV-infeksjon til revmatoid artritt
+## Kabotegravir: Fra HIV-infeksjon til revmatoid artritt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

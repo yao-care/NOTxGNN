@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Indakaterol: Fra kronisk obstruktiv lungesykdom til nefrogent syndrom med uhensiktsmessig antidiurese
+## Indakaterol: Fra kronisk obstruktiv lungesykdom til nefrogent syndrom med uhensiktsmessig antidiurese
+{: .text-alpha }
 
 ## Oppsummering
 

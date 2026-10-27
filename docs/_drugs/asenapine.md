@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Asenapin: Fra bipolar lidelse til retinal dystrofi (modellprediksjon)
+## Asenapin: Fra bipolar lidelse til retinal dystrofi (modellprediksjon)
+{: .text-alpha }
 
 ## Énlinjes sammendrag
 

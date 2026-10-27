@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Natalizumab: Fra multippel sklerose til psoriasis
+## Natalizumab: Fra multippel sklerose til psoriasis
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

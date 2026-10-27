@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-# Kenodeoksykolsyre: Fra cerebrotendinøs xantomatose til homozygot familiær hyperkolesterolemi
+## Kenodeoksykolsyre: Fra cerebrotendinøs xantomatose til homozygot familiær hyperkolesterolemi
+{: .text-alpha }
 
 ## Oppsummering
 

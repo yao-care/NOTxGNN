@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Avapritinib: Fra gastrointestinale stromale svulster til aksial spondylometafysær dysplasi
+## Avapritinib: Fra gastrointestinale stromale svulster til aksial spondylometafysær dysplasi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

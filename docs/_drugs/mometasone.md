@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Mometason: Fra astma til primært kutant T-cellelymfom
+## Mometason: Fra astma til primært kutant T-cellelymfom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

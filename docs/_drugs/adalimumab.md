@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Adalimumab: Fra revmatoid artritt og beslektede betennelsessykdommer til revmatoid vaskulitt
+## Adalimumab: Fra revmatoid artritt og beslektede betennelsessykdommer til revmatoid vaskulitt
+{: .text-alpha }
 
 ## Sammendrag
 

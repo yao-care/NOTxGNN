@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Tipiracil: Fra tykk- og endetarmskreft til villøst adenom i cecum
+## Tipiracil: Fra tykk- og endetarmskreft til villøst adenom i cecum
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

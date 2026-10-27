@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Empagliflozin: Fra type 2-diabetes til fokalt stiff-limb-syndrom
+## Empagliflozin: Fra type 2-diabetes til fokalt stiff-limb-syndrom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

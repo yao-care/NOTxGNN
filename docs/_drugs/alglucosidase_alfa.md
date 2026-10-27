@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Alglukosidase alfa: Fra Glykogenlagringssykdom type II til Voksen polyglukosanlegemesykdom
+## Alglukosidase alfa: Fra Glykogenlagringssykdom type II til Voksen polyglukosanlegemesykdom
+{: .text-alpha }
 
 ## Oppsummering
 

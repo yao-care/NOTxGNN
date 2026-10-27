@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Metotreksat: Fra revmatoid artritt og psoriasis til Hodgkins lymfom
+## Metotreksat: Fra revmatoid artritt og psoriasis til Hodgkins lymfom
+{: .text-alpha }
 
 ## Enkeltsetningssammendrag
 

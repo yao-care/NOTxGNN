@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Tenofovir alafenamid: Fra hepatitt B og HIV til felint ervervet immunsviktsyndrom
+## Tenofovir alafenamid: Fra hepatitt B og HIV til felint ervervet immunsviktsyndrom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

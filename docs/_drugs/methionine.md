@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Metionin: Fra lønnesirupsykdom (MSUD) til akne
+## Metionin: Fra lønnesirupsykdom (MSUD) til akne
+{: .text-alpha }
 
 ## Enkeltsetningssammendrag
 

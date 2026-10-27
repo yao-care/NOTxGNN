@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Miglustat: Fra Gauchers sykdom til Tay-Sachs sykdom
+## Miglustat: Fra Gauchers sykdom til Tay-Sachs sykdom
+{: .text-alpha }
 
 ## Oppsummering
 

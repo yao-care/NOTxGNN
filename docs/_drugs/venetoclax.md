@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Venetoklaks: Fra kronisk lymfatisk B-celleleukemi til pregerminalsenter-KLL/SLL
+## Venetoklaks: Fra kronisk lymfatisk B-celleleukemi til pregerminalsenter-KLL/SLL
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

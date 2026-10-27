@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Letermovir: Fra cytomegalovirusinfeksjon til vulvovaginal candidiasis
+## Letermovir: Fra cytomegalovirusinfeksjon til vulvovaginal candidiasis
+{: .text-alpha }
 
 ## Oppsummering i en setning
 

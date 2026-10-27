@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Trametinib: Fra melanom til koroideremi (primær prediksjon) – med ikke-kutan melanom som best underbygde nye retning
+## Trametinib: Fra melanom til koroideremi (primær prediksjon) – med ikke-kutan melanom som best underbygde nye retning
+{: .text-alpha }
 
 Merk: Den høyest rangerte prediksjonen (koroideremi) har ingen støttende evidens og et mekanistisk svakt grunnlag. Rapporten tar derfor for seg den høyest rangerte prediksjonen, men vurderer også den best dokumenterte retningen, **ikke-kutant melanom** (rangert som nr. 2).
 

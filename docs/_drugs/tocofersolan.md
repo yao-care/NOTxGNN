@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Tokofersolan: Fra kolestase og vitamin E-mangel til amenoré
+## Tokofersolan: Fra kolestase og vitamin E-mangel til amenoré
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

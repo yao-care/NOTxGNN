@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Paratyreoideahormon: Fra hypoparatyreoidisme til migrene
+## Paratyreoideahormon: Fra hypoparatyreoidisme til migrene
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Glimepirid: Fra type 2-diabetes til fokalt stivt lem-syndrom
+## Glimepirid: Fra type 2-diabetes til fokalt stivt lem-syndrom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

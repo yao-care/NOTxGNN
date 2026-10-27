@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Salmeterol: Fra astma til bronkitt (kronisk bronkitt/KOLS)
+## Salmeterol: Fra astma til bronkitt (kronisk bronkitt/KOLS)
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

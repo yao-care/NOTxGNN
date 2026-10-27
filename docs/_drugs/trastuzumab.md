@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Trastuzumab: Fra brystkreft og magekreft til progesteronreseptor-positiv brystkreft
+## Trastuzumab: Fra brystkreft og magekreft til progesteronreseptor-positiv brystkreft
+{: .text-alpha }
 
 ## Én-setnings sammendrag
 

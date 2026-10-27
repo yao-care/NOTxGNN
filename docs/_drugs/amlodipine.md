@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Amlodipin: Fra hypertensjon til hjernestamme­infarkt
+## Amlodipin: Fra hypertensjon til hjernestamme­infarkt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

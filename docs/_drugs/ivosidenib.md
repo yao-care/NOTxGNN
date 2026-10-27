@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Ivosidenib: Fra akutt myeloid leukemi og kolangiokarsinom til bulbær polio
+## Ivosidenib: Fra akutt myeloid leukemi og kolangiokarsinom til bulbær polio
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Bexaroten: Fra kutant T-cellelymfom til primært kutant B-cellelymfom
+## Bexaroten: Fra kutant T-cellelymfom til primært kutant B-cellelymfom
+{: .text-alpha }
 
 ## Sammendrag
 

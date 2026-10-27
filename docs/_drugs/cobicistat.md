@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Kobicistat: Fra hiv-infeksjon til simian immunsviktvirus-infeksjon
+## Kobicistat: Fra hiv-infeksjon til simian immunsviktvirus-infeksjon
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

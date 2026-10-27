@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Bupropion: Fra fedme til oppmerksomhetssvikt-hyperaktivitetsforstyrrelse (ADHD)
+## Bupropion: Fra fedme til oppmerksomhetssvikt-hyperaktivitetsforstyrrelse (ADHD)
+{: .text-alpha }
 
 ## Én-setnings sammendrag
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Maraviroc: Fra HIV-infeksjon til multippel endokrin neoplasi
+## Maraviroc: Fra HIV-infeksjon til multippel endokrin neoplasi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

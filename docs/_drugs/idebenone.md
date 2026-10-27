@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Idebenon: Fra Lebers hereditære optikusatrofi til hepatisk porfyri
+## Idebenon: Fra Lebers hereditære optikusatrofi til hepatisk porfyri
+{: .text-alpha }
 
 ## Oppsummering
 

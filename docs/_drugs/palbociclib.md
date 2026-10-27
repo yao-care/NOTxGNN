@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Palbociclib: Fra brystkreft til revmatoid artritt
+## Palbociclib: Fra brystkreft til revmatoid artritt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

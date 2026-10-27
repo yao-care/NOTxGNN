@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Guanfacin: Fra ADHD til Tourettes syndrom
+## Guanfacin: Fra ADHD til Tourettes syndrom
+{: .text-alpha }
 
 ## Oppsummering
 

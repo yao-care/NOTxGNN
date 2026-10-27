@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Buprenorfin: Fra opioidrelaterte lidelser til akutt intermitterende porfyri
+## Buprenorfin: Fra opioidrelaterte lidelser til akutt intermitterende porfyri
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

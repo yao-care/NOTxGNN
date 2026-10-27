@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Mogamulizumab: Fra Sézarys syndrom og mycosis fungoides til urotelkarsinom i prostatisk uretra
+## Mogamulizumab: Fra Sézarys syndrom og mycosis fungoides til urotelkarsinom i prostatisk uretra
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Voksilaprevir: Fra kronisk hepatitt C til hepatitt B-virusinfeksjon
+## Voksilaprevir: Fra kronisk hepatitt C til hepatitt B-virusinfeksjon
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

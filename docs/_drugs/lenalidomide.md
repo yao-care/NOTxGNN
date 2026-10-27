@@ -33,7 +33,8 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Lenalidomid: Fra myelomatose til myeloid leukemi
+## Lenalidomid: Fra myelomatose til myeloid leukemi
+{: .text-alpha }
 
 ## Oppsummering
 

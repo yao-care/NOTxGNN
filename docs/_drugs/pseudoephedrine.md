@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Pseudoefedrin: Fra sesongbetinnet allergisk rhinitt til sykdom i nesehulen
+## Pseudoefedrin: Fra sesongbetinnet allergisk rhinitt til sykdom i nesehulen
+{: .text-alpha }
 
 ## Sammendrag i én setning
 

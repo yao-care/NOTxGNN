@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Insulin glulisine: Fra diabetes mellitus til diabetes mellitus type 1
+## Insulin glulisine: Fra diabetes mellitus til diabetes mellitus type 1
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

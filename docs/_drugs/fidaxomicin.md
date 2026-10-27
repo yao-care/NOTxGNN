@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Fidaxomicin: Fra Clostridium-infeksjoner til stafylokokk-indusert skåldet hud-syndrom
+## Fidaxomicin: Fra Clostridium-infeksjoner til stafylokokk-indusert skåldet hud-syndrom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

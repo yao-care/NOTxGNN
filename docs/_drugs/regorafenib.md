@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-# Regorafenib: Fra tykk- og endetarmskreft til liposarkom
+## Regorafenib: Fra tykk- og endetarmskreft til liposarkom
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

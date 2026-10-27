@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-# Epinefrin: Fra anafylaksi til obstruktiv lungesykdom
+## Epinefrin: Fra anafylaksi til obstruktiv lungesykdom
+{: .text-alpha }
 
 ## Oppsummering i en setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Oritavancin: Fra bakterielle hud- og bløtdelsinfeksjoner til Bacteroidaceae-infeksjon
+## Oritavancin: Fra bakterielle hud- og bløtdelsinfeksjoner til Bacteroidaceae-infeksjon
+{: .text-alpha }
 
 ## Sammendrag i én setning
 

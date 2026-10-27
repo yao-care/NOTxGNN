@@ -33,7 +33,8 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Ruxolitinib: Fra vitiligo og myeloproliferative sykdommer til hemofagocytisk syndrom assosiert med infeksjon
+## Ruxolitinib: Fra vitiligo og myeloproliferative sykdommer til hemofagocytisk syndrom assosiert med infeksjon
+{: .text-alpha }
 
 ## Enkel oppsummering
 

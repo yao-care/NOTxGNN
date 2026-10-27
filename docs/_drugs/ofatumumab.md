@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-# Ofatumumab: Fra relapserende-remitterende multippel sklerose til kronisk lymfatisk leukemi/småcellet lymfocytært lymfom (pregerminal senter-subtype)
+## Ofatumumab: Fra relapserende-remitterende multippel sklerose til kronisk lymfatisk leukemi/småcellet lymfocytært lymfom (pregerminal senter-subtype)
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

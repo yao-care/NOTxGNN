@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Relebactam: Fra gramnegative bakterieinfeksjoner til hyperamylasemi
+## Relebactam: Fra gramnegative bakterieinfeksjoner til hyperamylasemi
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

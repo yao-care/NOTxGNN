@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Abatacept: Fra psoriasisartritt, juvenil revmatoid artritt og revmatoid artritt til revmatoid vaskulitt
+## Abatacept: Fra psoriasisartritt, juvenil revmatoid artritt og revmatoid artritt til revmatoid vaskulitt
+{: .text-alpha }
 
 ## Oppsummering
 

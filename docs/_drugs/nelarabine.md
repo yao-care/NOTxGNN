@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Nelarabin: Fra prekursor T-celle lymfoblastisk leukemi/lymfom til relapsing-remitting multippel sklerose
+## Nelarabin: Fra prekursor T-celle lymfoblastisk leukemi/lymfom til relapsing-remitting multippel sklerose
+{: .text-alpha }
 
 ## Oppsummering
 

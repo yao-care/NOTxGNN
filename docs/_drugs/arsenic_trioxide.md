@@ -33,7 +33,8 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Arsenictrioksid: Fra akutt promyelocyttleukemi til myelodysplastisk syndrom
+## Arsenictrioksid: Fra akutt promyelocyttleukemi til myelodysplastisk syndrom
+{: .text-alpha }
 
 ## Oppsummering
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-# Lonafarnib: Fra progeri og laminopatier til lepra
+## Lonafarnib: Fra progeri og laminopatier til lepra
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

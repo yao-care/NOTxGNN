@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Cyclosporine: Fra tørre øyne og hornhinnesykdom til kronisk granulomatøs sykdom
+## Cyclosporine: Fra tørre øyne og hornhinnesykdom til kronisk granulomatøs sykdom
+{: .text-alpha }
 
 ## Oppsummering i en setning
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-# Flutikasonfuroat: Fra allergisk rhinitt, KOLS og astma til atopisk eksem
+## Flutikasonfuroat: Fra allergisk rhinitt, KOLS og astma til atopisk eksem
+{: .text-alpha }
 
 ## Oppsummering
 

@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Ivabradin: Fra angina pectoris og hjertesvikt til hypertrikose
+## Ivabradin: Fra angina pectoris og hjertesvikt til hypertrikose
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

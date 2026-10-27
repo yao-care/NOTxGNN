@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Kolsyre: Fra fordøyelsessykdommer og medfødte metabolske sykdommer til HIV-infeksjon
+## Kolsyre: Fra fordøyelsessykdommer og medfødte metabolske sykdommer til HIV-infeksjon
+{: .text-alpha }
 
 ## Oppsummering
 

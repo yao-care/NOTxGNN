@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-# Silodosin: Fra godartet prostataforstørrelse til Ambras-type hypertrichosis universalis congenita
+## Silodosin: Fra godartet prostataforstørrelse til Ambras-type hypertrichosis universalis congenita
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

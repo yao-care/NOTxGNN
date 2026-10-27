@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Avatrombopag: Fra trombocytopeni til makrotrombocytopeni med mitralklaffinsuffisiens
+## Avatrombopag: Fra trombocytopeni til makrotrombocytopeni med mitralklaffinsuffisiens
+{: .text-alpha }
 
 ## Oppsummering
 

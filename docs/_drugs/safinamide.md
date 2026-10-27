@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-# Safinamid: Fra Parkinsons sykdom til Rasmussens subakutte encefalitt
+## Safinamid: Fra Parkinsons sykdom til Rasmussens subakutte encefalitt
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

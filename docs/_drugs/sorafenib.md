@@ -33,7 +33,8 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Sorafenib: Fra hepatocellulært karsinom og nyrecellekarsinom til liposarkom
+## Sorafenib: Fra hepatocellulært karsinom og nyrecellekarsinom til liposarkom
+{: .text-alpha }
 
 ## Oppsummering
 

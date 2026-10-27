@@ -33,7 +33,8 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-# Icatibant: Fra arvelig angioødem til C1-hemmermangel
+## Icatibant: Fra arvelig angioødem til C1-hemmermangel
+{: .text-alpha }
 
 ## Oppsummering
 

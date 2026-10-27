@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-# Deferipron: Fra jernoverskudd ved beta-talassemi til hepatisk porfyri
+## Deferipron: Fra jernoverskudd ved beta-talassemi til hepatisk porfyri
+{: .text-alpha }
 
 ## Oppsummering i en setning
 

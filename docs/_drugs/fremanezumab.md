@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-# Fremanezumab: Fra migrene til migrene med hjernestammeaura
+## Fremanezumab: Fra migrene til migrene med hjernestammeaura
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

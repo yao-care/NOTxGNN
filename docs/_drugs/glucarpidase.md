@@ -33,7 +33,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Glukarpidase: Fra metotreksat-toksisitet til diabetisk katarakt
+## Glukarpidase: Fra metotreksat-toksisitet til diabetisk katarakt
+{: .text-alpha }
 
 ## Oppsummering
 

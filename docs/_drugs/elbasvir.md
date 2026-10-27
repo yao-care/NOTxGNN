@@ -33,7 +33,8 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-# Elbasvir: Fra kronisk hepatitt C til hepatitt B-virusinfeksjon
+## Elbasvir: Fra kronisk hepatitt C til hepatitt B-virusinfeksjon
+{: .text-alpha }
 
 ## Oppsummering i én setning
 

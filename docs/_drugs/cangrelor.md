@@ -32,7 +32,8 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **0** stk.
 
 </div>
 
-# Cangrelor: Ingen eksisterende prognose for ny bruk
+## Cangrelor: Ingen eksisterende prognose for ny bruk
+{: .text-alpha }
 
 ## Sammendrag i én setning
 
