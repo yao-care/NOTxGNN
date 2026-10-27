@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-27T07:26:46.219685+00:00",
+  "fetched_at": "2026-10-27T14:06:00.879395+00:00",
   "source": "Google News Health RSS",
-  "count": 27,
+  "count": 28,
   "articles": [
     {
       "id": "d579e1790a59",
@@ -34,16 +34,6 @@
       }
     },
     {
-      "id": "8da92a7625d3",
-      "title": "Ny strategi skal gi bedre og tryggere bruk av legemidler | Helse Midt-Norge RHF - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUmhUOC1HclNsYmQwVzNxaWkyQWJfWkNJdkFiMnlCM3pFWlk2THVIQ0VNVGY3MU9JYVRUdDdBVUdrSWgwaHg0dHRiaXI0eFd3ZldKb0p4Qno0ZGhMS2Yzd3J1d3RsalNQTmxvNkR2a3RSMVBSMEdRcUZVTC1vT2wxaTlEV2NLN3ZrekFnc09xN0pYbkwxNmhoSEFPejlMNm9JS29yc3lHNXo0YUpPVHo3OFJwbHVWQ2tpbnhCX1hNUlpmZFpxbWpIQnVYSDlGNG52MVpZ?oc=5",
-      "published": "2026-10-01T07:00:00+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
       "id": "c39dd6ee39f8",
       "title": "Digital portal for meir rettferdig tilgang til legemiddel - Helse Bergen",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSVJnZkNVNlpEYmhaXzdUcTFiSi1LcGktbnJWcU9CSVFac3UyOXRmeXdsMHlMVUhTMU42Wlg5Qy11NDRiWmU5aldDaDJ1RF9xdGMzenhNSF9QaGo1MjJRU3RMR0FNRHBXOEtDdm9RaTdYNzItTW92amZMUVpuZUY4bEpLMTMyY1lsYUZxTmt1VHpiQ1JrSjg2R1ljTmZnNkVqYzF4ZGN2N3VXWkRReGV6M21lNW15Q3RmRDI1S0RlOTcxRG1XU3VIYw?oc=5",
@@ -61,6 +51,16 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
+      "id": "8da92a7625d3",
+      "title": "Ny strategi skal gi bedre og tryggere bruk av legemidler | Helse Midt-Norge RHF - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUmhUOC1HclNsYmQwVzNxaWkyQWJfWkNJdkFiMnlCM3pFWlk2THVIQ0VNVGY3MU9JYVRUdDdBVUdrSWgwaHg0dHRiaXI0eFd3ZldKb0p4Qno0ZGhMS2Yzd3J1d3RsalNQTmxvNkR2a3RSMVBSMEdRcUZVTC1vT2wxaTlEV2NLN3ZrekFnc09xN0pYbkwxNmhoSEFPejlMNm9JS29yc3lHNXo0YUpPVHo3OFJwbHVWQ2tpbnhCX1hNUlpmZFpxbWpIQnVYSDlGNG52MVpZ?oc=5",
+      "published": "2026-10-01T07:00:00+00:00",
+      "source": {
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
@@ -84,16 +84,6 @@
       }
     },
     {
-      "id": "055bde4d929d",
-      "title": "Flere eldre kan hente medisin på apotek - Bergen kommune",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUUt4cU1YcTRnVzJsQUNJQ1BMRTJEWGl5bmdEVlYwZXpmb1pEaVA0d20yczVIR2ZyRE83MloyWDVrbGJhd0lXTU0yMmZUYjdrLW9aUW9vV2xLTXBUaXlRcFN3cXNjY0cyU1FLbldLX3FPTWJJdmVIX2FrSmE2NGp1OGphenNmVTl5UXF0WEhObC1tWElMVkF6S3BPQ1gzcml6MDBPTkcwcFRDUQ?oc=5",
-      "published": "2026-01-15T08:00:00+00:00",
-      "source": {
-        "name": "Bergen kommune",
-        "url": "https://www.bergen.kommune.no"
-      }
-    },
-    {
       "id": "d9b0563a36b3",
       "title": "Personer som bruker vektreduserende legemidler har ofte flere sykdommer - Folkehelseinstituttet - FHI",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVFcxRlBpdV9fOW80NHpiSm9qVUNQYkQxY0JLTnlNRHVMM1ozOFoxVVhsTy0waG1adkg5eHhPa2xEaHJuVk42YXJvM3k5LXIwM2ZrZHVlQjdTUG9qcVR1SVhEaWJKZ1ZEaHhDWnpFNWM1ZG9wQVRzcHQ0bjUtU0xMaW04N2cyZjktZmczODEyODh3SjlEUHV4TnJJRQ?oc=5",
@@ -101,6 +91,16 @@
       "source": {
         "name": "Folkehelseinstituttet - FHI",
         "url": "https://www.fhi.no"
+      }
+    },
+    {
+      "id": "055bde4d929d",
+      "title": "Flere eldre kan hente medisin på apotek - Bergen kommune",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUUt4cU1YcTRnVzJsQUNJQ1BMRTJEWGl5bmdEVlYwZXpmb1pEaVA0d20yczVIR2ZyRE83MloyWDVrbGJhd0lXTU0yMmZUYjdrLW9aUW9vV2xLTXBUaXlRcFN3cXNjY0cyU1FLbldLX3FPTWJJdmVIX2FrSmE2NGp1OGphenNmVTl5UXF0WEhObC1tWElMVkF6S3BPQ1gzcml6MDBPTkcwcFRDUQ?oc=5",
+      "published": "2026-01-15T08:00:00+00:00",
+      "source": {
+        "name": "Bergen kommune",
+        "url": "https://www.bergen.kommune.no"
       }
     },
     {
@@ -114,6 +114,16 @@
       }
     },
     {
+      "id": "42ed20c76b24",
+      "title": "Fakta i ADHD-debatten - Dagens Medisin",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOS2picHlZYzMyVWlGSTdWLU9DSTl2N2JHWXlTWUFoT2hRRDZZM24weVRaWmR4V0NVVzhFdUt1T1RpRC14eWVqNzYwYkM2YS1qaTNTaFJacHBfUURIQmkyRmJrT0ZubENNSGZ2WGxuZjVjNUw0aExrN1NYWXRPZzNOdEd1NldPbDdXd0g4cFlDazY?oc=5",
+      "published": "2026-10-20T06:41:17+00:00",
+      "source": {
+        "name": "Dagens Medisin",
+        "url": "https://www.dagensmedisin.no"
+      }
+    },
+    {
       "id": "3c7d33d8f638",
       "title": "Sosiale forskjeller i fedme og bruk av vektreduserende legemidler - Folkehelseinstituttet - FHI",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNkU2bktLeTBNMVRfYllDMHlhQzBJZXAxS0loS2hIenVrZmUxbkJ4NzdkY2h6cTRCT2tCZ1hDY1J1dkNEN1hlbWQzaGQzQ2JVNWc4NHprWUpUaFVvdnNlazhXeDNkazZsVE9sOTJKUFlPVS01MUgxbVZodTRQN2VEWTl2VC1kZlRKMWlhY2c3bw?oc=5",
@@ -124,13 +134,13 @@
       }
     },
     {
-      "id": "42ed20c76b24",
-      "title": "Fakta i ADHD-debatten - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOS2picHlZYzMyVWlGSTdWLU9DSTl2N2JHWXlTWUFoT2hRRDZZM24weVRaWmR4V0NVVzhFdUt1T1RpRC14eWVqNzYwYkM2YS1qaTNTaFJacHBfUURIQmkyRmJrT0ZubENNSGZ2WGxuZjVjNUw0aExrN1NYWXRPZzNOdEd1NldPbDdXd0g4cFlDazY?oc=5",
-      "published": "2026-10-20T06:41:17+00:00",
+      "id": "553d75dc06b1",
+      "title": "Doble oreksinreseptorantagonister mot insomni - NHI.no",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdi1vQTVkeXl4WVl2cGRtd2VyWWJpeGN1WTYycU1RUkwydmJBcURleFh6Ri12TnZaRVNaZEdiUm9mbGJDYkxZYndLN3dtNnl3N2RtNXRvaE9XT1BUYTN2RUk2dXBzUWJnRnVCT09IU2VnbWV6SEVhTmFVRVE1MFU1Qy13cDEzQUNJTndTMVY2WGRXM2N0SzdXd1l5OA?oc=5",
+      "published": "2026-10-19T07:00:00+00:00",
       "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
+        "name": "NHI.no",
+        "url": "https://nhi.no"
       }
     },
     {
@@ -151,16 +161,6 @@
       "source": {
         "name": "Nordnorsk debatt",
         "url": "https://www.nordnorskdebatt.no"
-      }
-    },
-    {
-      "id": "6ac22dd28a4b",
-      "title": "Reagerer på anbefaling om bruk av legemidler - Rådet for psykisk helse",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WRk95djlWSWNKNjk2aDZjNWl0U3JoSHNneHppQ1B1bnJyUlZ6WXVVQ2JkZldvSm1GOGs3RE9VU0dVc1g1X3pqZUFOdzlpUWVFZ2tGWmZJT3RJbE92SWxWQVFTNFpJTnQ5cjBlVHA2Zm9qYzA?oc=5",
-      "published": "2025-02-12T08:00:00+00:00",
-      "source": {
-        "name": "Rådet for psykisk helse",
-        "url": "https://psykiskhelse.no"
       }
     },
     {
@@ -194,13 +194,23 @@
       }
     },
     {
-      "id": "5a3c6e17b37a",
-      "title": "Innfører legemiddel til Stills sykdom og sJIA - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmx6MTZPbFRCMGU5c0ptUVlwdEM4UHp4Wl9EV2ppb1pQa0VPdV9RVjRWQ015dlNpVHZMblM0Wldndm9WWEFVelNSbFBUa0tDRnhES3JWbng0dXVSem1jZGsyQ0l2eGRiUkF1aTNwbW5HazI1cHZyOVZwUDhUNWc2aElyUW1VdU9RZkpJQUh1TW83YzNTRW5sQVVEaUw3RnJEcUdVOUYtVnN4Rkt5M2NDc3VrNEMtOEhsOUE?oc=5",
-      "published": "2019-02-26T08:00:00+00:00",
+      "id": "27e9de5baeff",
+      "title": "Markant økning i bruken av vektreduserende legemidler - Folkehelseinstituttet - FHI",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcEMzRUpNbzF2b3h3UUZrbW02VmQ1QTkxbFJmRk52NlpCN1lGQkZELURxQlpNNXcyaWxiMUN4Rm5KQW5SUkdxcWNtUWZIcGlnWmN6ZUxxT21nc29uTnZMWk9OWFcyX0ZNNU9sQ2FMUUVBZzlkSkY3M0t5c29Hdk9nMmtSUG1YN2hUbGJPdzhKTQ?oc=5",
+      "published": "2025-03-31T07:00:00+00:00",
       "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
+        "name": "Folkehelseinstituttet - FHI",
+        "url": "https://www.fhi.no"
+      }
+    },
+    {
+      "id": "6ac22dd28a4b",
+      "title": "Reagerer på anbefaling om bruk av legemidler - Rådet for psykisk helse",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WRk95djlWSWNKNjk2aDZjNWl0U3JoSHNneHppQ1B1bnJyUlZ6WXVVQ2JkZldvSm1GOGs3RE9VU0dVc1g1X3pqZUFOdzlpUWVFZ2tGWmZJT3RJbE92SWxWQVFTNFpJTnQ5cjBlVHA2Zm9qYzA?oc=5",
+      "published": "2025-02-12T08:00:00+00:00",
+      "source": {
+        "name": "Rådet for psykisk helse",
+        "url": "https://psykiskhelse.no"
       }
     },
     {
@@ -214,13 +224,13 @@
       }
     },
     {
-      "id": "54cc19ae26e5",
-      "title": "Helse, Legemiddel | Apotekene er tomme for denne medisinen: – Det er vanskelig å få tak i den - Avisa Valdres",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdjEyS2NMd1FmdHBOQUxLZjNJNEd3cTJQX05PeEFrd2ZNSmtCUERHQmFhcDdfRzBCc0hCWFljVC02dXBOb2lzczBYUXJrcUt4aFFTQTNaWjQ5QXoyak9CY1VUMTY5LXBtVWRVZ2Z1MGl3LUtid0VnSUhyb0RGUXQ2cGhlTW1rdy1kb1BjVVlvOHZ4TUdoZkdyenRpRmU1eGMyaHQyaXdkR2FpeVpzQlJJbm1XMA?oc=5",
-      "published": "2022-07-18T07:00:00+00:00",
+      "id": "5a3c6e17b37a",
+      "title": "Innfører legemiddel til Stills sykdom og sJIA - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmx6MTZPbFRCMGU5c0ptUVlwdEM4UHp4Wl9EV2ppb1pQa0VPdV9RVjRWQ015dlNpVHZMblM0Wldndm9WWEFVelNSbFBUa0tDRnhES3JWbng0dXVSem1jZGsyQ0l2eGRiUkF1aTNwbW5HazI1cHZyOVZwUDhUNWc2aElyUW1VdU9RZkpJQUh1TW83YzNTRW5sQVVEaUw3RnJEcUdVOUYtVnN4Rkt5M2NDc3VrNEMtOEhsOUE?oc=5",
+      "published": "2019-02-26T08:00:00+00:00",
       "source": {
-        "name": "Avisa Valdres",
-        "url": "https://www.avisa-valdres.no"
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
@@ -244,13 +254,13 @@
       }
     },
     {
-      "id": "cb4e71eee0cf",
-      "title": "Medisiner ved røykeslutt, vareniklin - NHI.no",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRFF1QVRBUFd1Z3pmUE54S2lLNmc2SHp5LWVTYUY4cUxIUG1MRl9DRmF2d256bGo0Y3Y3ZjQ2SjdtdlBsVzBDUnZqZExua24weDlRN1dWb1o3UnZkY2x4SnBWVGtSRFFYVTNPTEFYRGRteVYzVHpKd0RiYmhnN3MzbA?oc=5",
-      "published": "2023-11-13T15:25:27+00:00",
+      "id": "54cc19ae26e5",
+      "title": "Helse, Legemiddel | Apotekene er tomme for denne medisinen: – Det er vanskelig å få tak i den - Avisa Valdres",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdjEyS2NMd1FmdHBOQUxLZjNJNEd3cTJQX05PeEFrd2ZNSmtCUERHQmFhcDdfRzBCc0hCWFljVC02dXBOb2lzczBYUXJrcUt4aFFTQTNaWjQ5QXoyak9CY1VUMTY5LXBtVWRVZ2Z1MGl3LUtid0VnSUhyb0RGUXQ2cGhlTW1rdy1kb1BjVVlvOHZ4TUdoZkdyenRpRmU1eGMyaHQyaXdkR2FpeVpzQlJJbm1XMA?oc=5",
+      "published": "2022-07-18T07:00:00+00:00",
       "source": {
-        "name": "NHI.no",
-        "url": "https://nhi.no"
+        "name": "Avisa Valdres",
+        "url": "https://www.avisa-valdres.no"
       }
     },
     {
