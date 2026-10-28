@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-10-28T04:36:24.830994+00:00",
+  "fetched_at": "2026-10-28T11:03:29.133913+00:00",
   "source": "Google News Health RSS",
   "count": 27,
   "articles": [
-    {
-      "id": "9a80cc71bb39",
-      "title": "Ungdom tar smertestillende mot mer enn fysisk smerte - Sykepleien",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQX2U3Q0pBQU1LeDhQaXNtRnFUWHc0TTZCTUExNTJfaE96VnhMVUtzTnhFWWdJNk5NMWprV2JZRmJHU2ZaaFY5RGVmQi04a3RfcWJXVy1sZVRaRExwQUxaZEVXc2VnbV9JM2VzZUkxV1pNVWxoVUtiMzZGSWJsamZZUUZaWG9aMzk1RDB5Zk5ZcHBIX2tMdUE?oc=5",
-      "published": "2026-10-26T11:58:08+00:00",
-      "source": {
-        "name": "Sykepleien",
-        "url": "https://sykepleien.no"
-      }
-    },
     {
       "id": "d579e1790a59",
       "title": "Helse og omsorg | Barn i Strand får ADHD-medisin nesten dobbelt så ofte som i Stavanger - Strandbuen",
@@ -84,16 +74,6 @@
       }
     },
     {
-      "id": "055bde4d929d",
-      "title": "Flere eldre kan hente medisin på apotek - Bergen kommune",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUUt4cU1YcTRnVzJsQUNJQ1BMRTJEWGl5bmdEVlYwZXpmb1pEaVA0d20yczVIR2ZyRE83MloyWDVrbGJhd0lXTU0yMmZUYjdrLW9aUW9vV2xLTXBUaXlRcFN3cXNjY0cyU1FLbldLX3FPTWJJdmVIX2FrSmE2NGp1OGphenNmVTl5UXF0WEhObC1tWElMVkF6S3BPQ1gzcml6MDBPTkcwcFRDUQ?oc=5",
-      "published": "2026-01-15T08:00:00+00:00",
-      "source": {
-        "name": "Bergen kommune",
-        "url": "https://www.bergen.kommune.no"
-      }
-    },
-    {
       "id": "d9b0563a36b3",
       "title": "Personer som bruker vektreduserende legemidler har ofte flere sykdommer - Folkehelseinstituttet - FHI",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVFcxRlBpdV9fOW80NHpiSm9qVUNQYkQxY0JLTnlNRHVMM1ozOFoxVVhsTy0waG1adkg5eHhPa2xEaHJuVk42YXJvM3k5LXIwM2ZrZHVlQjdTUG9qcVR1SVhEaWJKZ1ZEaHhDWnpFNWM1ZG9wQVRzcHQ0bjUtU0xMaW04N2cyZjktZmczODEyODh3SjlEUHV4TnJJRQ?oc=5",
@@ -101,6 +81,16 @@
       "source": {
         "name": "Folkehelseinstituttet - FHI",
         "url": "https://www.fhi.no"
+      }
+    },
+    {
+      "id": "055bde4d929d",
+      "title": "Flere eldre kan hente medisin på apotek - Bergen kommune",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUUt4cU1YcTRnVzJsQUNJQ1BMRTJEWGl5bmdEVlYwZXpmb1pEaVA0d20yczVIR2ZyRE83MloyWDVrbGJhd0lXTU0yMmZUYjdrLW9aUW9vV2xLTXBUaXlRcFN3cXNjY0cyU1FLbldLX3FPTWJJdmVIX2FrSmE2NGp1OGphenNmVTl5UXF0WEhObC1tWElMVkF6S3BPQ1gzcml6MDBPTkcwcFRDUQ?oc=5",
+      "published": "2026-01-15T08:00:00+00:00",
+      "source": {
+        "name": "Bergen kommune",
+        "url": "https://www.bergen.kommune.no"
       }
     },
     {
@@ -114,6 +104,26 @@
       }
     },
     {
+      "id": "1561a2fe4fdb",
+      "title": "Christian fikk ADHD-diagnose på dagen. Så ble dosen skyhøy. - NRK",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzNk1DMU4wZWZJRXp3WFI4Tk84YWcyZmt6a2lkMVRwT0FNUE9uREhnSU5tX1Z1NUFnNDB4VzZxWlBrRmcwdVpwdVZxOXNLOFF5c3VTTS1xbnRGTWZlWkRlcHZkYmpHU3FpVmFvaW9Mbnk5SWNCYkM1Ujl3?oc=5",
+      "published": "2026-09-24T07:00:00+00:00",
+      "source": {
+        "name": "NRK",
+        "url": "https://www.nrk.no"
+      }
+    },
+    {
+      "id": "bf1cf0facb12",
+      "title": "(+) Blodtrykksmedisin: Denne feilen blir vanligere med alderen - VG",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcHlUeTBjUjV2b2x6RW1GTVdtODQ0eWUxaEt5ZG9pWXRSTkdOX3A3SlFVS19hcFAxSkhVZUJaZnpXZXVsZ2tBdkVBSE9ycGlsSmhNa0ZfeTdKZGl0OHowQ3U1V3FpVmlYSmFlYUl3NnRzanYzdUFuUWhfdEFZVGlsSjFoTzZuNVdUWTJlMVVYbXJRTTVKUHBHTUl3?oc=5",
+      "published": "2026-09-17T07:00:00+00:00",
+      "source": {
+        "name": "VG",
+        "url": "https://www.vg.no"
+      }
+    },
+    {
       "id": "3c7d33d8f638",
       "title": "Sosiale forskjeller i fedme og bruk av vektreduserende legemidler - Folkehelseinstituttet - FHI",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNkU2bktLeTBNMVRfYllDMHlhQzBJZXAxS0loS2hIenVrZmUxbkJ4NzdkY2h6cTRCT2tCZ1hDY1J1dkNEN1hlbWQzaGQzQ2JVNWc4NHprWUpUaFVvdnNlazhXeDNkazZsVE9sOTJKUFlPVS01MUgxbVZodTRQN2VEWTl2VC1kZlRKMWlhY2c3bw?oc=5",
@@ -124,26 +134,6 @@
       }
     },
     {
-      "id": "553d75dc06b1",
-      "title": "Doble oreksinreseptorantagonister mot insomni - NHI.no",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdi1vQTVkeXl4WVl2cGRtd2VyWWJpeGN1WTYycU1RUkwydmJBcURleFh6Ri12TnZaRVNaZEdiUm9mbGJDYkxZYndLN3dtNnl3N2RtNXRvaE9XT1BUYTN2RUk2dXBzUWJnRnVCT09IU2VnbWV6SEVhTmFVRVE1MFU1Qy13cDEzQUNJTndTMVY2WGRXM2N0SzdXd1l5OA?oc=5",
-      "published": "2026-10-19T07:00:00+00:00",
-      "source": {
-        "name": "NHI.no",
-        "url": "https://nhi.no"
-      }
-    },
-    {
-      "id": "43c045e7d1e1",
-      "title": "Anbefalte prioriteringer innen digital legemiddelhåndtering - KS",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUlhzTldIRTFEV0dESVNlaS1YNDJVWHFNa25BUnlHTHFMMnZkcThZcGVMYXpNVFBhM3JGbnZUUnBRN3BYUmtnZVFPbi1vaFhvc2xsQ2w3eDFOTlVWaHJ5SkU4TjNFNnA3NjRId3cyaUFrQWtVRldGZ19FakNzSUpmb3p4NU9hUUVOV01iRmhzajk5SG1YUUdFbkVTcUh4OGpudWlqYzRtRkY0SkpiSmU4Y0hR?oc=5",
-      "published": "2026-04-20T16:58:15+00:00",
-      "source": {
-        "name": "KS",
-        "url": "https://www.ks.no"
-      }
-    },
-    {
       "id": "e9850f696bdd",
       "title": "Helse, Legemiddel | Den sovjetiske propagandaplakaten - og det nordnorske helsevesenet - Nordnorsk debatt",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWTNobTZwbG9hMDhEMERNazBxRTVpRU1aRjBkd09oci1OTlcxMG5vNU9WYzJMVHZ1MWdLMERyb3VmUkdKZWR6U1daQXBHQXlxYzcyY2RkYjZ6WEZuOTFBWnBiQmNTZV9Hd3lTNHBtWnI4STQyRUE0NVNmNzVvbVlGUXJnRUdPZlFkYVNlQnZ5ZmJMTWZHNmdLN2JJMExWdzhYZDhHelB4ZGJKUkt3M0hz?oc=5",
@@ -151,6 +141,16 @@
       "source": {
         "name": "Nordnorsk debatt",
         "url": "https://www.nordnorskdebatt.no"
+      }
+    },
+    {
+      "id": "855a4cfebc24",
+      "title": "Kan gi trøbbel i varmen: – Flere eller nye bivirkninger - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTkVZdUxrdG85R240cG5DT3Y5TXpWUjktR1JnWDFmaUE0c2hVbUJLaEY1c1FaaGs0akhGb0ZxaGdmSkRaejUxVTdxYU1HcGxlMllVeEhzT21fTzB1bWoxenI4SXY1NEIybWg1azAxeVV1SEZ4TWk3T3ZuRGtmZHJIUjdyZXEzM1l6YThGWElGdDlYMnJON3ZNOGhwczRuV1dsZnNCTVpaWXJVZmxXRV9ZajI5X0dJY2ZVcXJ3?oc=5",
+      "published": "2024-07-23T07:00:00+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     },
     {
@@ -214,6 +214,16 @@
       }
     },
     {
+      "id": "2738e199bcff",
+      "title": "Medisin/Helse, Legemiddel | Moderna satser på kombivaksine mot korona og influensa - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUEoxOFE4ZkhIUmdmd01NVFJQUzBTdlpEc1lkcGZWdEU0YW9qSlZtWnJ3SUxKVUg0UUY0V1ZqRVlHZ1luZDBKcG9TTldKR29VbjhlbkVxNms2ZkktRTBNVU9hRmg0eGg0WmRVenlFbzZ4NFBKU0FwVkZLSFg1d2FJODJGZHhYUTJTc0RhMVlLQ0p0czI0c1B3cjZLNWlaV1c4M3U4Q0dpbWxjem5a?oc=5",
+      "published": "2022-01-17T08:00:00+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
+      }
+    },
+    {
       "id": "54cc19ae26e5",
       "title": "Helse, Legemiddel | Apotekene er tomme for denne medisinen: – Det er vanskelig å få tak i den - Avisa Valdres",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdjEyS2NMd1FmdHBOQUxLZjNJNEd3cTJQX05PeEFrd2ZNSmtCUERHQmFhcDdfRzBCc0hCWFljVC02dXBOb2lzczBYUXJrcUt4aFFTQTNaWjQ5QXoyak9CY1VUMTY5LXBtVWRVZ2Z1MGl3LUtid0VnSUhyb0RGUXQ2cGhlTW1rdy1kb1BjVVlvOHZ4TUdoZkdyenRpRmU1eGMyaHQyaXdkR2FpeVpzQlJJbm1XMA?oc=5",
@@ -234,23 +244,13 @@
       }
     },
     {
-      "id": "2738e199bcff",
-      "title": "Medisin/Helse, Legemiddel | Moderna satser på kombivaksine mot korona og influensa - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUEoxOFE4ZkhIUmdmd01NVFJQUzBTdlpEc1lkcGZWdEU0YW9qSlZtWnJ3SUxKVUg0UUY0V1ZqRVlHZ1luZDBKcG9TTldKR29VbjhlbkVxNms2ZkktRTBNVU9hRmg0eGg0WmRVenlFbzZ4NFBKU0FwVkZLSFg1d2FJODJGZHhYUTJTc0RhMVlLQ0p0czI0c1B3cjZLNWlaV1c4M3U4Q0dpbWxjem5a?oc=5",
-      "published": "2022-01-17T08:00:00+00:00",
+      "id": "5c23afc12c9b",
+      "title": "Gordon lanserer hjemlevering med sykkel i Oslo - Mynewsdesk",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNb2tKMFhxTVBOM19VLXN2R0NpNjFJVE9fY0NER0gzRlpDTDgzR29IWHJKSjAyeVdHTXRuQmZiYjA2cklDc1VHRFRKYmw3SkZQTXJhX3lDSnNBZ0s3Wk9EdVRnS2pNTWt6ZFpmU0ZSOXRZTUZWUEhMSW9USmh5aGV1MllTMzNwZjMzb09yN3R2ZjFicEdYbWR5dTlncFlpSVd5MXVKVU0yS0g3UXlIeFhxN0o3WjM4ckNUS1Q4elhPMHo2Ymw5V2dUcENNRGQyZHBjcHZTTGJUbnJTakZ4N2R0NkdHS1FoNGJvWkhCWU5ZT1prMlJrb2lSWVVvbTl5T1NmVEJ5VGNOSF9uSU0?oc=5",
+      "published": "2026-10-28T07:00:00+00:00",
       "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
-      }
-    },
-    {
-      "id": "855a4cfebc24",
-      "title": "Kan gi trøbbel i varmen: – Flere eller nye bivirkninger - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTkVZdUxrdG85R240cG5DT3Y5TXpWUjktR1JnWDFmaUE0c2hVbUJLaEY1c1FaaGs0akhGb0ZxaGdmSkRaejUxVTdxYU1HcGxlMllVeEhzT21fTzB1bWoxenI4SXY1NEIybWg1azAxeVV1SEZ4TWk3T3ZuRGtmZHJIUjdyZXEzM1l6YThGWElGdDlYMnJON3ZNOGhwczRuV1dsZnNCTVpaWXJVZmxXRV9ZajI5X0dJY2ZVcXJ3?oc=5",
-      "published": "2024-07-23T07:00:00+00:00",
-      "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
+        "name": "Mynewsdesk",
+        "url": "https://www.mynewsdesk.com"
       }
     },
     {
