@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 27
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Alpelisib: predikert ny indikasjon Pulmonal hypertensjon (evidensnivå L5). Opprinnelig indikasjon: Brystkreft (Breast Neoplasms)"
 monitor_inn: "ALPELISIB"
 predicted_indications: ["pulmonary hypertension"]

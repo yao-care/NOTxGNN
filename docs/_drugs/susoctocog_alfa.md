@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "SUSOCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "congenital factor XIII deficiency", "adenosine deaminase deficiency"]
 description: "Susoctocog Alfa: predikert ny indikasjon Primary release disorder of platelets (evidensnivå L5). Opprinnelig indikasjon: Hemophilia A"

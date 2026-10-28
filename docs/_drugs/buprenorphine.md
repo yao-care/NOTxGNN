@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 71
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Buprenorphine: predikert ny indikasjon Akutt intermitterende porfyri (evidensnivå L5). Opprinnelig indikasjon: Opioidrelaterte lidelser"
 monitor_inn: "BUPRENORPHINE"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "extrapyramidal and movement disease", "benign shuddering attacks"]

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 402
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Tecovirimat: predikert ny indikasjon Hordeolum (evidensnivå L5). Opprinnelig indikasjon: Poxviridae-infeksjoner, kukopper, apekopper, vaccinia, kopper"
 monitor_inn: "TECOVIRIMAT"
 predicted_indications: ["hordeolum", "vibrio infectious disease", "Klebsiella infectious disease", "noma", "coinfection", "infective dermatitis associated with HTLV-1", "Arterivirus infectious disease", "arbovirus infection", "escherichia coli infection"]

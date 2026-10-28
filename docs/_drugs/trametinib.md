@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 430
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Trametinib: predikert ny indikasjon Koroideremi (rangert som nr. 1) (evidensnivå L5). Opprinnelig indikasjon: Melanom"
 monitor_inn: "TRAMETINIB"
 predicted_indications: ["choroideremia"]

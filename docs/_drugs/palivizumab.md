@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 307
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Palivizumab: predikert ny indikasjon Godartet svulst i tungen (evidensnivå L5). Opprinnelig indikasjon: Infeksjoner med respiratorisk syncytialvirus"
 monitor_inn: "PALIVIZUMAB"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]

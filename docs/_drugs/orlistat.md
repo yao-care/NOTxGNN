@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 300
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Orlistat: predikert ny indikasjon Hypervitaminose (evidensnivå L5). Opprinnelig indikasjon: Fedme"
 monitor_inn: "ORLISTAT"
 predicted_indications: ["hypervitaminosis"]

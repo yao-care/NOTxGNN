@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 363
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Risperidone: predikert ny indikasjon Familiær horisontal blikkparese med progressiv skoliose (evidensnivå L5). Opprinnelig indikasjon: Schizofreni"
 monitor_inn: "RISPERIDONE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]

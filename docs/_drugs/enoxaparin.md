@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Enoxaparin: predikert ny indikasjon Trombofili på grunn av protein C-mangel, autosomal recessiv (thrombophilia due to protein C deficiency… (evidensnivå L5). Opprinnelig indikasjon: Venous Thromboemb…"
 ---
 

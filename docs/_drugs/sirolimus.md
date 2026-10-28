@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 386
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Sirolimus: predikert ny indikasjon Liposarkom (evidensnivå L3). Opprinnelig indikasjon: Transplantatavstøtning / nyretransplantasjon"
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lung PEComa", "vulva sarcoma"]

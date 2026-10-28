@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "LUSUTROMBOPAG"
 predicted_indications: ["hereditary thrombocytopenia with normal platelets", "marcothrombocytopenia with mitral valve insufficiency", "transient neonatal thrombocytopenia", "dense granule disease", "platelet storage pool deficiency", "amyotrophic lateral sclerosis", "lower motor neuron syndrome with late-adult onset", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Lusutrombopag: predikert ny indikasjon arvelig trombocytopeni med normale blodplater (hereditary thrombocytopenia with normal platelets) (evidensnivå L5). Opprinnelig indikasjon: Thrombocytopenia"
 ---
 

@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 201
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Hydrocortisone: predikert ny indikasjon Alopecia areata (evidensnivå L5). Opprinnelig indikasjon: Binyrebarksvikt (adrenal insufficiency)"
 monitor_inn: "HYDROCORTISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Ethinylestradiol: predikert ny indikasjon Forhøyet sinkkonsentrasjon i plasma (zinc, elevated plasma) (evidensnivå L5). Opprinnelig indikasjon: Contraception"
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 176
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Fidaxomicin: predikert ny indikasjon Staphylococcal scalded skin syndrome (evidensnivå L5). Opprinnelig indikasjon: Clostridium-infeksjoner"
 monitor_inn: "FIDAXOMICIN"
 predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetigo", "inhalational botulism", "impetigo", "toxin-mediated infectious botulism", "vulvovaginal candidiasis", "hordeolum", "staphylococcus aureus pneumonia", "punctate epithelial keratoconjunctivitis"]

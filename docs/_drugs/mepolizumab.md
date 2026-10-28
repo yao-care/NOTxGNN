@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 262
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Mepolizumab: predikert ny indikasjon Thrombocytopenia due to immune destruction (immunmediert trombocytope… (evidensnivå L4). Opprinnelig indikasjon: Astma"
 monitor_inn: "MEPOLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]

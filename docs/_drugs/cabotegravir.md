@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 75
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Cabotegravir: predikert ny indikasjon Revmatoid artritt (evidensnivå L5). Opprinnelig indikasjon: HIV-infeksjon"
 monitor_inn: "CABOTEGRAVIR"
 predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy"]

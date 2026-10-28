@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 320
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Pemigatinib: predikert ny indikasjon Multippel endokrin neoplasi (evidensnivå L5). Opprinnelig indikasjon: Kolangiokarsinom"
 monitor_inn: "PEMIGATINIB"
 predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "infectious bovine rhinotracheitis", "malignant catarrh", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "axial spondylometaphyseal dysplasia"]

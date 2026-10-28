@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "FERRIC MALTOL"
 predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "IRIDA syndrome"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Ferric Maltol: predikert ny indikasjon Plummer-Vinsons syndrom (Plummer-Vinson syndrome) (evidensnivå L5). Opprinnelig indikasjon: Anemia, Iron-Deficiency"
 ---
 

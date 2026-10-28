@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 67
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Brodalumab: predikert ny indikasjon Strongyloidiasis (evidensnivå L5). Opprinnelig indikasjon: Psoriasis"
 monitor_inn: "BRODALUMAB"
 predicted_indications: ["strongyloidiasis", "eye disease", "vitamin deficiency disorder", "von Hippel anomaly", "optic perineuritis", "chronic relapsing inflammatory optic neuropathy", "isolated optic neuritis", "recurrent idiopathic neuroretinitis", "nodular episcleritis", "episcleritis periodica fugax"]

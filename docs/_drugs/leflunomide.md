@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "LEFLUNOMIDE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Leflunomide: predikert ny indikasjon Brakydaktyli-syndaktyli-syndrom (brachydactyly-syndactyly syndrome) (evidensnivå L5). Opprinnelig indikasjon: Arthritis, Rheumatoid"
 ---
 

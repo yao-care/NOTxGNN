@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 403
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Tegafur: predikert ny indikasjon Kolonneoplasme (colonic neoplasm) (evidensnivå L1). Opprinnelig indikasjon: Magekreft (Stomach Neoplasms)"
 monitor_inn: "TEGAFUR"
 predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "rectosigmoid junction neoplasm", "colonic lymphangioma", "cavernous hemangioma of colon"]

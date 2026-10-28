@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 44
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Atosiban: predikert ny indikasjon Primær arvelig glaukom (evidensnivå L5). Opprinnelig indikasjon: Prematur fødselsrier (Obstetric Labor, Premature)"
 monitor_inn: "ATOSIBAN"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "alopecia", "hypotrichosis simplex of the scalp", "vascular disease", "diffuse alopecia areata", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "visceral calciphylaxis"]

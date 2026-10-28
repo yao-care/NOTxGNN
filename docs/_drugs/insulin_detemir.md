@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "INSULIN DETEMIR"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Insulin Detemir: predikert ny indikasjon Autoimmun ooforitt (autoimmune oophoritis) (evidensnivå L5). Opprinnelig indikasjon: Diabetes Mellitus"
 ---
 

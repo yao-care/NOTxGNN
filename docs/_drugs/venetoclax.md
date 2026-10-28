@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 447
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
 description: "Venetoclax: predikert ny indikasjon Hodgkins lymphoma (evidensnivå L5). Opprinnelig indikasjon: Leukemia, Lymphocytic, Chronic, B-Cell"

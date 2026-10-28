@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 443
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan: predikert ny indikasjon Malign hypertensiv nyresykdom (malignant hypertensive renal disease) (evidensnivå L4). Opprinnelig indikasjon: Hypertension"

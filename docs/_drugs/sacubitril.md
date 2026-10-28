@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 374
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "SACUBITRIL"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 description: "Sacubitril: predikert ny indikasjon Brain small vessel disease 1 with or without ocular anomalies (evidensnivå L3). Opprinnelig indikasjon: Heart Failure"

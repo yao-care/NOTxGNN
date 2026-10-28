@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "INTERFERON BETA-1B"
 predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Interferon Beta-1B: predikert ny indikasjon Hårcelleleukemi (hairy cell leukemia) (evidensnivå L5). Opprinnelig indikasjon: Multiple Sclerosis"
 ---
 

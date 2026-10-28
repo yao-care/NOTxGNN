@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 29
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Amifampridine: predikert ny indikasjon Glaukom (evidensnivå L5). Opprinnelig indikasjon: Lambert-Eaton myasteniske syndrom"
 monitor_inn: "AMIFAMPRIDINE"
 predicted_indications: ["glaucoma", "acute intermittent porphyria"]

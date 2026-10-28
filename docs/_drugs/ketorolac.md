@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 228
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Ketorolac: predikert ny indikasjon Hodepinelidelse (headache disorder) (evidensnivå L5). Opprinnelig indikasjon: Intraokulær linseimplantasjon"
 monitor_inn: "KETOROLAC"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]

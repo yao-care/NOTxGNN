@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 128
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Diroximel Fumarate: predikert ny indikasjon Diabetisk katarakt (evidensnivå L5). Opprinnelig indikasjon: Multippel sklerose, relapserende-remitterende"
 monitor_inn: "DIROXIMEL FUMARATE"
 predicted_indications: ["diabetic cataract", "diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "tetanic cataract", "immature cataract", "cortical cataract", "nuclear senile cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "mature cataract"]

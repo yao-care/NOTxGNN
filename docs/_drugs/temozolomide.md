@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Temozolomide: predikert ny indikasjon Cauda equina-neoplasme (evidensnivå L5). Opprinnelig indikasjon: Gliom"
 ---
 

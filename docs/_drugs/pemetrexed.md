@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 319
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: predikert ny indikasjon Pleural adenomatoid tumor (evidensnivå L2). Opprinnelig indikasjon: Carcinoma, Non-Small-Cell Lung"

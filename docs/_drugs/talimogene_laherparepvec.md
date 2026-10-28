@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Talimogene Laherparepvec: predikert ny indikasjon CMM7 (evidensnivå L5). Opprinnelig indikasjon: Melanom"
 monitor_inn: "TALIMOGENE LAHERPAREPVEC"
 predicted_indications: ["CMM7", "glottis squamous cell carcinoma", "lung occult squamous cell carcinoma", "rectal cloacogenic carcinoma", "gallbladder adenosquamous carcinoma"]

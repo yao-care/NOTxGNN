@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "BENRALIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Benralizumab: predikert ny indikasjon Trombocytopeni som skyldes immunologisk destruksjon (thrombocytopenia due to immune destruction) (evidensnivå L5). Opprinnelig indikasjon: Asthma"
 ---
 

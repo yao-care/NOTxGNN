@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 74
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Cabazitaxel: predikert ny indikasjon Kvinnelig brystkarsinom (evidensnivå L4). Opprinnelig indikasjon: Prostatakreft (Prostatic Neoplasms)"
 monitor_inn: "CABAZITAXEL"
 predicted_indications: ["female breast carcinoma", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin d disease syndrome", "HIV infectious disease", "hyperthyroidism", "neuroblastoma", "rheumatoid arthritis"]

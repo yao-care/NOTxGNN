@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 415
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Threonine: predikert ny indikasjon Gastroparese (evidensnivå L5). Opprinnelig indikasjon: Maple Syrup Urine Disease (lønnesirupsykdom)"
 monitor_inn: "threonine"
 predicted_indications: ["gastroparesis (disease)"]

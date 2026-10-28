@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 279
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "NELARABINE"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
 description: "Nelarabine: predikert ny indikasjon Relapsing-remitting multippel sklerose (relapsing-remitting multiple sclerosis) (evidensnivå L5). Opprinnelig indikasjon: Precursor T-Cell Lymphoblastic Leukemia-L…"

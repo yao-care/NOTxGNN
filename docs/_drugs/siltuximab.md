@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Siltuximab: predikert ny indikasjon Ekstrakutant mastocytom (evidensnivå L5). Opprinnelig indikasjon: Gigantisk lymfeknutehyperplasi (Castlemans sykdom)"
 monitor_inn: "SILTUXIMAB"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]

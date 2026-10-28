@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 419
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Tipiracil: predikert ny indikasjon cecum villous adenoma (evidensnivå L5). Opprinnelig indikasjon: Kolorektal kreft (Colorectal Neoplasms)"
 monitor_inn: "Tipiracil"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "rectosigmoid junction neoplasm", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 155
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Epinephrine: predikert ny indikasjon Obstruktiv lungesykdom (evidensnivå L1). Opprinnelig indikasjon: Anafylaksi"
 monitor_inn: "EPINEPHRINE"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]

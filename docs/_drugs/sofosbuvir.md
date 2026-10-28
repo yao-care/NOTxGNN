@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 388
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
 description: "Sofosbuvir: predikert ny indikasjon Hepatitt B-virusinfeksjon (hepatitis B virus infection) (evidensnivå L3). Opprinnelig indikasjon: Hepatitis C, Chronic"

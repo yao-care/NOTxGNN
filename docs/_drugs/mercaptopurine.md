@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 263
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Mercaptopurine: predikert ny indikasjon Myeloid leukemi (evidensnivå L2). Opprinnelig indikasjon: Lymfatisk leukemi"
 monitor_inn: "mercaptopurine"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]

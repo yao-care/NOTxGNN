@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "METHOTREXATE"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Methotrexate: predikert ny indikasjon Lungeblastom (pulmonary blastoma) (evidensnivå L5). Opprinnelig indikasjon: Arthritis, Psoriatic"
 ---
 

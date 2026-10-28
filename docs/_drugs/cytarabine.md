@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CYTARABINE"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Cytarabine: predikert ny indikasjon Småcellet lungekarsinom (small cell lung carcinoma) (evidensnivå L5). Opprinnelig indikasjon: Leukemia, Myeloid, Acute"
 ---
 

@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 240
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Lenvatinib: predikert ny indikasjon Liposarkom (evidensnivå L2). Opprinnelig indikasjon: Skjoldbruskkjertelkreft (Thyroid Neoplasms)"
 monitor_inn: "lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]

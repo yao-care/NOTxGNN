@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 259
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Mecasermin: predikert ny indikasjon Monosomi X (evidensnivå L5). Opprinnelig indikasjon: Laron syndrom"
 monitor_inn: "MECASERMIN"
 predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "esophageal varices with bleeding", "esophageal varices without bleeding"]

@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 227
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Ketoconazole: predikert ny indikasjon Akne (evidensnivå L4). Opprinnelig indikasjon: Cushings syndrom"
 monitor_inn: "KETOCONAZOLE"
 predicted_indications: ["acne (disease)"]

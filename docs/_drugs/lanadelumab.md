@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 231
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Lanadelumab: predikert ny indikasjon C1-hemmermangel (evidensnivå L1). Opprinnelig indikasjon: Arvelig angioødem"
 monitor_inn: "LANADELUMAB"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]

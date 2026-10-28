@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 322
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "PERAMPANEL"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Perampanel: predikert ny indikasjon Beta-ketothiolase deficiency (evidensnivå L5). Opprinnelig indikasjon: Epilepsies, Partial"

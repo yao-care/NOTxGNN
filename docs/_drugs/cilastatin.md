@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 99
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Cilastatin: predikert ny indikasjon Staphylococcus aureus-infeksjon (evidensnivå L3). Opprinnelig indikasjon: Gramnegative bakterieinfeksjoner"
 monitor_inn: "Cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]

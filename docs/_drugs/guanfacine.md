@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Guanfacine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Guanfacine: predikert ny indikasjon Aarskog-Scott-syndrom (faciodigitogenital syndrome) (evidensnivå L5). Opprinnelig indikasjon: Attention Deficit Disorder with Hyperactivity"
 ---
 

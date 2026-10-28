@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 210
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Imiglucerase: predikert ny indikasjon Hurler syndrome (evidensnivå L4). Opprinnelig indikasjon: Gauchers sykdom"
 monitor_inn: "IMIGLUCERASE"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]

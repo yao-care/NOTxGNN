@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 323
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab: predikert ny indikasjon Ectomesenchymoma (evidensnivå L5). Opprinnelig indikasjon: Breast Neoplasms"

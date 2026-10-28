@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 62
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Bosentan: predikert ny indikasjon Revmatoid artritt (evidensnivå L4). Opprinnelig indikasjon: Pulmonal hypertensjon"
 monitor_inn: "BOSENTAN"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]

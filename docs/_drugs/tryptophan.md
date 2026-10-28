@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 437
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Tryptophan: predikert ny indikasjon Restless legs-syndrom (evidensnivå L3). Opprinnelig indikasjon: Lønnesirupsyke (Maple Syrup Urine Disease)"
 monitor_inn: "tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]

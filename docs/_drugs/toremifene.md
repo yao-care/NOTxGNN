@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 428
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Toremifene: predikert ny indikasjon HIV-infeksjon (evidensnivå L4). Opprinnelig indikasjon: Brystkreft (Breast Neoplasms)"
 monitor_inn: "TOREMIFENE"
 predicted_indications: ["HIV infectious disease"]

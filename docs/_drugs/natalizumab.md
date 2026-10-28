@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 278
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
 description: "Natalizumab: predikert ny indikasjon Bronchitis (evidensnivå L5). Opprinnelig indikasjon: Multiple Sclerosis, Relapsing-Remitting"

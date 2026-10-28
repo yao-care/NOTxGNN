@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 328
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Pirfenidone: predikert ny indikasjon Ekstrakutant mastocytom (evidensnivå L5). Opprinnelig indikasjon: Idiopatisk lungefibrose"
 monitor_inn: "PIRFENIDONE"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]

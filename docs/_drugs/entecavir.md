@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 153
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Entecavir: predikert ny indikasjon Kronisk hepatitt C-virusinfeksjon (evidensnivå L3). Opprinnelig indikasjon: Hepatitt B (kronisk hepatitt B)"
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]

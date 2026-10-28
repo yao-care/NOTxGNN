@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 169
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Evolocumab: predikert ny indikasjon Symptomatisk hemofili hos kvinnelige bærere (evidensnivå L5). Opprinnelig indikasjon: Dyslipidemi"
 monitor_inn: "EVOLOCUMAB"
 predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]

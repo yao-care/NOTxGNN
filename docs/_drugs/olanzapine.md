@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 295
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: predikert ny indikasjon Benign paroxysmal torticollis of infancy (evidensnivå L5). Opprinnelig indikasjon: Schizophrenia"

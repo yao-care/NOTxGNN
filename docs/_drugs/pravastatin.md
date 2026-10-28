@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 336
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "PRAVASTATIN"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: predikert ny indikasjon HIV infectious disease (evidensnivå L4). Opprinnelig indikasjon: Dyslipidemias"

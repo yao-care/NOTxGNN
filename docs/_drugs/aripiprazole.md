@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ARIPIPRAZOLE"
 predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Aripiprazole: predikert ny indikasjon Alvorlig affektiv lidelse (major affective disorder) (evidensnivå L5). Opprinnelig indikasjon: Schizophrenia"
 ---
 

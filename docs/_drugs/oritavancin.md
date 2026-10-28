@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 299
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Oritavancin: predikert ny indikasjon Bacteroidaceae-infeksjon (evidensnivå L5). Opprinnelig indikasjon: Bløtvevsinfeksjoner"
 monitor_inn: "ORITAVANCIN"
 predicted_indications: ["Bacteroidaceae infectious disease", "ophthalmic herpes zoster", "Mycoplasma pneumoniae pneumonia"]

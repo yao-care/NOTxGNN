@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 298
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Omalizumab: predikert ny indikasjon Bronkitt (evidensnivå L3). Opprinnelig indikasjon: Astma, urticaria, rhinitt"
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]

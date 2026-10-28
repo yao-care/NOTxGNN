@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "DEFERIPRONE"
 predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Deferiprone: predikert ny indikasjon Leverporfyri (hepatic porphyria) (evidensnivå L5). Opprinnelig indikasjon: beta-Thalassemia"
 ---
 

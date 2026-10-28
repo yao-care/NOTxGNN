@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 207
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Idelalisib: predikert ny indikasjon Mantelcellelymfom (evidensnivå L5). Opprinnelig indikasjon: Non-Hodgkin-lymfom"
 monitor_inn: "IDELALISIB"
 predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "small intestinal Burkitt lymphoma", "colon adenocarcinoma"]

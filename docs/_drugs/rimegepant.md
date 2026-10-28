@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 360
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "RIMEGEPANT"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Rimegepant: predikert ny indikasjon Atrophoderma vermiculata (evidensnivå L5). Opprinnelig indikasjon: Migraine Disorders"

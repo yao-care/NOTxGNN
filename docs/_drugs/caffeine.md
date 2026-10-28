@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 77
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Caffeine: predikert ny indikasjon Nesehulesykdom (nasal cavity disease) (evidensnivå L5). Opprinnelig indikasjon: Apné"
 monitor_inn: "Caffeine"
 predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]

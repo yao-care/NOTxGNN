@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 250
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Lonoctocog Alfa: predikert ny indikasjon Pseudo-von Willebrand sykdom (evidensnivå L5). Opprinnelig indikasjon: Hemofili A"
 monitor_inn: "LONOCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome"]

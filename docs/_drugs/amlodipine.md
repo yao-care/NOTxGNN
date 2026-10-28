@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 31
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Amlodipine: predikert ny indikasjon Hjernestamme­infarkt (brain stem infarction) (evidensnivå L5). Opprinnelig indikasjon: Hypertensjon"
 monitor_inn: "AMLODIPINE"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]

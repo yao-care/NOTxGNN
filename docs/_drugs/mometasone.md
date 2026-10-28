@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 275
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Mometasone: predikert ny indikasjon Primært kutant T-cellelymfom (evidensnivå L4). Opprinnelig indikasjon: Astma"
 monitor_inn: "MOMETASONE"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]

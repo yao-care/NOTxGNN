@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 410
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "TENOFOVIR DISOPROXIL"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Tenofovir Disoproxil: predikert ny indikasjon Simian immunsviktvirus-infeksjon (simian immunodeficiency virus infection) (evidensnivå L4). Opprinnelig indikasjon: HIV Infections"

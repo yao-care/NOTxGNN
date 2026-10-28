@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 254
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Lumacaftor: predikert ny indikasjon Lepra (evidensnivå L5). Opprinnelig indikasjon: Cystisk fibrose"
 monitor_inn: "LUMACAFTOR"
 predicted_indications: ["leprosy"]

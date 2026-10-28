@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 306
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Paliperidone: predikert ny indikasjon Retinal dystrofi med eller uten ekstraokulære anomalier (evidensnivå L5). Opprinnelig indikasjon: Schizofreni"
 monitor_inn: "PALIPERIDONE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]

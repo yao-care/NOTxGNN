@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 446
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "VELPATASVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Velpatasvir: predikert ny indikasjon Hepatitt B-virusinfeksjon (hepatitis B virus infection) (evidensnivå L3). Opprinnelig indikasjon: Hepatitis C, Chronic"

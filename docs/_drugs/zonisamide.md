@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Zonisamide: predikert ny indikasjon Tourettes syndrom (evidensnivå L5). Opprinnelig indikasjon: Partiell epilepsi (fokale anfall)"
 monitor_inn: "ZONISAMIDE"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "methemoglobinemia, alpha type", "methemoglobinemia", "Prinzmetal angina", "methemoglobin reductase deficiency", "manic bipolar affective disorder", "fibromyalgia", "conjunctivitis"]

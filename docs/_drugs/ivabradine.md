@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "IVABRADINE"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Ivabradine: predikert ny indikasjon Hypertrikose (hypertrichosis (disease)) (evidensnivå L5). Opprinnelig indikasjon: Angina Pectoris"
 ---
 

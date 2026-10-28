@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 448
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Vernakalant: predikert ny indikasjon Hjerneslag (stroke disorder) (evidensnivå L4). Opprinnelig indikasjon: Atrieflimmer"
 monitor_inn: "Vernakalant"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]

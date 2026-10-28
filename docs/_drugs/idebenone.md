@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "IDEBENONE"
 predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatoportal sclerosis", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "immune-mediated necrotizing myopathy", "osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome", "antisynthetase syndrome", "focal myositis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Idebenone: predikert ny indikasjon Hepatisk porfyri (hepatic porphyria) (evidensnivå L5). Opprinnelig indikasjon: Optic Atrophy, Hereditary, Leber"
 ---
 

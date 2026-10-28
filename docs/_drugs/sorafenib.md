@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 390
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Sorafenib: predikert ny indikasjon Liposarkom (evidensnivå L2). Opprinnelig indikasjon: Hepatocellulært karsinom"
 monitor_inn: "SORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 399
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Tasimelteon: predikert ny indikasjon Bilateral parasagittal parieto-occipital polymikrogyri (evidensnivå L5). Opprinnelig indikasjon: Søvnforstyrrelser, døgnrytme"
 monitor_inn: "TASIMELTEON"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "insomnia (disease)", "amyotrophic lateral sclerosis", "endogenous depression", "axial spondylometaphyseal dysplasia", "monomelic amyotrophy", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "amyotrohpic lateral sclerosis type 22"]

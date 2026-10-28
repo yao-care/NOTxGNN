@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 371
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "RUFINAMIDE"
 predicted_indications: ["perioral myoclonia with absences"]
 description: "Rufinamide: predikert ny indikasjon Perioral myoclonia with absences (evidensnivå L5). Opprinnelig indikasjon: Epilepsy"

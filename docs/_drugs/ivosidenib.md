@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 226
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Ivosidenib: predikert ny indikasjon Bulbær polio (evidensnivå L5). Opprinnelig indikasjon: Akutt myeloid leukemi"
 monitor_inn: "IVOSIDENIB"
 predicted_indications: ["bulbar polio"]

@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 264
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Meropenem: predikert ny indikasjon Bakteriell artritt (evidensnivå L5). Opprinnelig indikasjon: Urinveisinfeksjoner, bakteriemi, bakterielle infeksjoner…"
 monitor_inn: "Meropenem"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "Lyme disease", "Peptostreptococcus infectious disease", "Ureaplasma urethritis", "gonococcal urethritis"]
