@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Epinephrine
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 155
-evidence_level: L1
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-15
 description: "Epinephrine: predikert ny indikasjon Obstruktiv lungesykdom (evidensnivå L1). Opprinnelig indikasjon: Anafylaksi"
 monitor_inn: "EPINEPHRINE"
-predicted_indications: ["obstructive lung disease", "food-dependent exercise-induced anaphylaxis", "Rienhoff syndrome", "respiratory malformation"]
+predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 ---
 
 # Epinephrine
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **4** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,10 @@ Epinefrin er en adrenerg agonist som opprinnelig brukes til behandling av anafyl
 |------|------|
 | Opprinnelig indikasjon | Anafylaksi |
 | Predikert ny indikasjon | Obstruktiv lungesykdom |
-| TxGNN-prediksjonsscore | 99,71 % |
-| Evidensnivå | L1 |
-| Status på det norske markedet | Kun annullert (ingen gyldig markedsføringstillatelse) |
+| TxGNN-prediksjonsscore | 0,9971 |
+| Evidensnivå | L5 |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (annullert) |
 | Anbefalt beslutning | Proceed with Guardrails (gå videre med forbehold) |
 
@@ -110,7 +111,7 @@ Merk: Flere av studiene gjelder bronkiolitt eller farmakokinetikk og viser ikke 
 |---------|------|------|-----------|
 | EMEA/H/C/006139 | Eurneffy | Ikke oppgitt | Anafylaksi |
 
-Tillatelsen er annullert, og det finnes ingen gyldige tillatelser for epinefrin i dataene.
+Legemidlet er markedsført, og den ene tillatelsen (1 av 1) for epinefrin er gyldig.
 
 ---
 
@@ -133,7 +134,7 @@ Kardiovaskulær sikkerhet (takykardi, hypertensjon, arytmi) må overvåkes, sær
 **Beslutning: Proceed with Guardrails (gå videre med forbehold)**
 
 **Begrunnelse:**
-- Flere fullførte fase 3-studier av inhalert epinefrin ved astma, inkludert barn, gir evidensnivå L1, og mekanismen er biologisk rimelig. Evidensen er imidlertid begrenset til mild intermitterende astma, støtter ikke KOLS eller rutinebruk ved bronkiolitt, og det foreligger ingen gyldig norsk tillatelse.
+- Flere fullførte fase 3-studier av inhalert epinefrin ved astma, inkludert barn, gir evidensnivå L1, og mekanismen er biologisk rimelig. Evidensen er imidlertid begrenset til mild intermitterende astma, støtter ikke KOLS eller rutinebruk ved bronkiolitt, og legemidlet er markedsført med 1 gyldig norsk tillatelse av 1.
 
 **For å gå videre kreves følgende:**
 - Verifisere regulatorisk status for hver formulering i Norge, siden eneste tillatelse er annullert
@@ -148,9 +149,9 @@ Kardiovaskulær sikkerhet (takykardi, hypertensjon, arytmi) må overvåkes, sær
 
 | Predikert indikasjon | Score | Evidensnivå | Anbefaling | Kommentar |
 |------|------|------|------|------|
-| Matavhengig anstrengelsesutløst anafylaksi | 99,57 % | L4 | Forskningsspørsmål | Ingen registrerte studier. Ligger innenfor dagens anafylaksiindikasjon og er ikke ekte repurposing. Litteraturen er oversikter og kasuistikker som anbefaler epinefrin |
-| Rienhoff syndrom | 99,57 % | L5 | Hold | Ingen mekanistisk kobling, studier eller litteratur. Høy score er trolig en modellartefakt |
-| Respiratorisk misdannelse | 99,56 % | L3 | Forskningsspørsmål | Strukturelle misdannelser kan ikke korrigeres av epinefrin. Eneste signal er en fase 1-studie ved forbigående tachypné hos nyfødte. Mesteparten av litteraturen er irrelevant |
+| Matavhengig anstrengelsesutløst anafylaksi | 0,9957 | L5 | Forskningsspørsmål | Ingen registrerte studier. Ligger innenfor dagens anafylaksiindikasjon og er ikke ekte repurposing. Litteraturen er oversikter og kasuistikker som anbefaler epinefrin |
+| Rienhoff syndrom | 0,9957 | L5 | Hold | Ingen mekanistisk kobling, studier eller litteratur. Høy score er trolig en modellartefakt |
+| Respiratorisk misdannelse | 0,9956 | L3 | Forskningsspørsmål | Strukturelle misdannelser kan ikke korrigeres av epinefrin. Eneste signal er en fase 1-studie ved forbigående tachypné hos nyfødte. Mesteparten av litteraturen er irrelevant |
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

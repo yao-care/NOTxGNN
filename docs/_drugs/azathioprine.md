@@ -4,17 +4,17 @@ title: Azathioprine
 parent: Kun modellprediksjon (L5)
 nav_order: 50
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-15
 description: "Azathioprine: predikert ny indikasjon Colobomatous microphthalmia-rhizomelic dysplasia syndrome (rangert nr… (evidensnivå L5). Opprinnelig indikasjon: Avstøtning av transplantat (graft rejection)"
 monitor_inn: "AZATHIOPRINE"
-predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "osteoarthritis susceptibility", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
 ---
 
 # Azathioprine
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Azatioprin: Fra transplantasjonsavstøtning til inflammatorisk tarmsykdom
+## Azatioprin: Fra transplantasjonsavstøtning til Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom
 {: .text-alpha }
 
 ## Oppsummering
@@ -49,28 +49,26 @@ TxGNN-modellen rangerer flere nye indikasjoner høyt. Den best underbygde er **i
 |------|------|
 | Opprinnelig indikasjon | Avstøtning av transplantat (graft rejection) |
 | Predikert ny indikasjon | Colobomatous microphthalmia-rhizomelic dysplasia syndrome (rangert nr. 1 av TxGNN; se merknad nedenfor) |
-| TxGNN-prediksjonsscore | 99,99 % |
+| TxGNN-prediksjonsscore | 1,0000 |
 | Evidensnivå | L5 for rangert nr. 1. For IBD og ulcerøs kolitt: L1 |
-| Status på det norske markedet | Kun avregistrert (ingen gyldig markedsføring) |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall autorisasjoner | 1 (avregistrert) |
 | Anbefalt beslutning | Hold for rangert nr. 1. Proceed with Guardrails for IBD / ulcerøs kolitt |
 
-**Merknad:** Den høyest rangerte prediksjonen (score 99,99 %) er et sjeldent utviklingssyndrom uten studier, litteratur eller plausibel mekanisme. Resten av rapporten fokuserer derfor på **inflammatorisk tarmsykdom** (rang 5) og **ulcerøs kolitt** (rang 9), som er de eneste kandidatene med reell evidens.
+**Merknad:** Den høyest rangerte prediksjonen (score 1,0000) er et sjeldent utviklingssyndrom uten studier, litteratur eller plausibel mekanisme.
 
 ### Oversikt over de ti øverste prediksjonene
 
 | Rang | Sykdom | Score | Evidensnivå | Anbefaling |
 |------|------|------|------|------|
-| 1 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99,999 % | L5 | Hold |
-| 2 | Brachydactyly-syndactyly syndrome | 99,999 % | L5 | Hold |
-| 3 | Osteoarthritis susceptibility | 99,70 % | L5 | Hold |
-| 4 | WHIM-syndrom | 99,68 % | L5 | Hold |
-| 5 | Inflammatorisk tarmsykdom | 99,52 % | L1 | Proceed with Guardrails |
-| 6 | Kronisk granulomatøs sykdom, autosomal recessiv 5 | 99,41 % | L5 | Hold |
-| 7 | Osteoartritt | 99,40 % | L4 | Hold |
-| 8 | Granulomatøs sykdom med defekt nøytrofil kjemotaksi | 99,37 % | L5 | Hold |
-| 9 | Ulcerøs kolitt | 99,33 % | L1 | Proceed with Guardrails |
-| 10 | Acromesomelic dysplasia, Hunter-Thompson-type | 99,27 % | L5 | Hold |
+| 1 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 1,0000 | L5 | Hold |
+| 2 | Brachydactyly-syndactyly syndrome | 1,0000 | L5 | Hold |
+| 4 | WHIM-syndrom | 0,9968 | L5 | Hold |
+| 6 | Kronisk granulomatøs sykdom, autosomal recessiv 5 | 0,9941 | L5 | Hold |
+| 7 | Osteoartritt | 0,9940 | L5 | Hold |
+| 8 | Granulomatøs sykdom med defekt nøytrofil kjemotaksi | 0,9937 | L5 | Hold |
+| 10 | Acromesomelic dysplasia, Hunter-Thompson-type | 0,9927 | L5 | Hold |
 
 ---
 
@@ -126,9 +124,9 @@ Flere av studiene ble avsluttet tidlig med få deltakere, noe som begrenser tolk
 
 | Autorisasjonsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/005055 | Jayempi | Ikke oppgitt | Graft rejection (avregistrert) |
+| EMEA/H/C/005055 | Jayempi | Ikke oppgitt | Graft rejection (godkjent) |
 
-Det finnes ingen gyldige autorisasjoner i datagrunnlaget; den eneste er avregistrert.
+Legemidlet er markedsført; 1 av 1 autorisasjon er gyldig.
 
 ---
 

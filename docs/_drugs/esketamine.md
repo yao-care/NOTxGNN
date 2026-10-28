@@ -50,10 +50,10 @@ det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** i da
 |------|------|
 | Opprinnelig indikasjon | Depressiv lidelse |
 | Predikert ny indikasjon | Agorafobi |
-| TxGNN-prediksjonsscore | 99,57 % |
+| TxGNN-prediksjonsscore | 0,9957 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (godkjenningen er trukket tilbake) |
-| Antall godkjenninger | 1 (avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Esketami
 
 Et mulig, men uverifisert resonnement er at esketamin øker glutamaterg signalering og synaptisk plastisitet. Dette kan påvirke nevrale kretser for angst og frykthåndtering som antas å spille en rolle ved agorafobi. Angst er dessuten ofte komorbid med depresjon. Koblingen er spekulativ, og det foreligger ingen støttende klinisk evidens eller litteratur i de innsamlede dataene.
 
-Selv om modellscoren er svært høy (0,996), er den kun en beregningsmessig prediksjon og må ikke tolkes som dokumentasjon på effekt.
+Selv om modellscoren er svært høy (0,9957), er den kun en beregningsmessig prediksjon og må ikke tolkes som dokumentasjon på effekt.
 
 ---
 
@@ -84,7 +84,7 @@ Foreløpig ingen relatert litteratur tilgjengelig.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004535 | Spravato | Ikke oppgitt | Depressiv lidelse (status: avregistrert) |
+| EMEA/H/C/004535 | Spravato | Ikke oppgitt | Depressiv lidelse (status: godkjent) |
 
 ---
 
@@ -117,7 +117,7 @@ Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier
 
 ## Merknad om rangering nr. 2: godartet paroksysmal torticollis hos spedbarn
 
-TxGNN gir også en høy score (99,49 %) for **godartet paroksysmal torticollis hos spedbarn**, men det foreligger ingen kliniske studier eller litteratur (evidensnivå L5, anbefaling: Hold). Tilstanden er en sjelden episodisk lidelse hos barn, knyttet til migrenespekteret og kanalopatier. Koblingen til NMDA-antagonisme er rent beregningsmessig og spekulativ. Esketamins sikkerhetsprofil (dissosiasjon, blodtrykksøkning, misbrukspotensial) og at det er godkjent kun for voksne, gjør bruk hos spedbarn til en stor bekymring. Ingenting i dataene støtter at dette bør forfølges.
+TxGNN gir også en høy score (0,9949) for **godartet paroksysmal torticollis hos spedbarn**, men det foreligger ingen kliniske studier eller litteratur (evidensnivå L5, anbefaling: Hold). Tilstanden er en sjelden episodisk lidelse hos barn, knyttet til migrenespekteret og kanalopatier. Koblingen til NMDA-antagonisme er rent beregningsmessig og spekulativ. Esketamins sikkerhetsprofil (dissosiasjon, blodtrykksøkning, misbrukspotensial) og at det er godkjent kun for voksne, gjør bruk hos spedbarn til en stor bekymring. Ingenting i dataene støtter at dette bør forfølges.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

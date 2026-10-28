@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt mot **hypotrichosis 
 |------|------|
 | Opprinnelig indikasjon | Ødem; hjertesvikt; levercirrhose; ascites; nefrotisk syndrom; hyperaldosteronisme; essensiell hypertensjon |
 | Predikert ny indikasjon | Hypotrichosis simplex i hodebunnen |
-| TxGNN-prediksjonsscore | 99,26 % |
+| TxGNN-prediksjonsscore | 0,9926 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (kansellert) |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -63,9 +63,9 @@ Data om virkningsmekanisme (MOA) er for øyeblikket ikke tilgjengelig i de innsa
 
 Denne antiandrogene effekten er plausibel ved hårtap der androgensignalering bidrar til miniaturisering av hårsekkene, og spironolakton brukes utenfor godkjent indikasjon (off-label) ved kvinnelig hårtap av mønstertype. Hypotrichosis simplex i hodebunnen er imidlertid en sjelden arvelig hårtapslidelse, som vanligvis skyldes varianter i gener som CDSN, APCDD1 eller RPL21, og den er ikke primært androgendrevet.
 
-Den høye TxGNN-scoren (0,993) er dermed kun en beregnet prediksjon. Det er ikke etablert noen direkte mekanistisk kobling til den underliggende genetiske patologien, og manglende MOA-data begrenser den mekanistiske vurderingen ytterligere.
+Den høye TxGNN-scoren (0,9926) er dermed kun en beregnet prediksjon. Det er ikke etablert noen direkte mekanistisk kobling til den underliggende genetiske patologien, og manglende MOA-data begrenser den mekanistiske vurderingen ytterligere.
 
-Den rangerte neste prediksjonen, **medfødt hypotrichosis med milia** (score 99,04 %), har enda svakere støtte: den bygger på en generell, indirekte antiandrogen begrunnelse og trolig på nettverkslikhet med andre hypotrichosis-fenotyper, uten validert mekanisme. Heller ikke her er det funnet kliniske studier eller litteratur.
+Den rangerte neste prediksjonen, **medfødt hypotrichosis med milia** (score 0,9904), har enda svakere støtte: den bygger på en generell, indirekte antiandrogen begrunnelse og trolig på nettverkslikhet med andre hypotrichosis-fenotyper, uten validert mekanisme. Heller ikke her er det funnet kliniske studier eller litteratur.
 
 ---
 
@@ -87,7 +87,7 @@ For øyeblikket finnes det ingen relatert litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/005535 | Qaialdo | – | Ødem; hjertesvikt; levercirrhose; ascites; nefrotisk syndrom; hyperaldosteronisme; essensiell hypertensjon |
 
-Godkjenningen er kansellert, og det finnes ingen gyldige markedsføringstillatelser for enkeltstoffprodukter eller kombinasjonsprodukter.
+Legemidlet er markedsført, og 1 av 1 markedsføringstillatelser er gyldig.
 
 ---
 

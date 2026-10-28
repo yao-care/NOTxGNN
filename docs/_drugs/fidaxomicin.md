@@ -48,9 +48,10 @@ Fidaxomicin er et smalspektret makrosyklisk antibiotikum som opprinnelig brukes 
 |------|------|
 | Opprinnelig indikasjon | Clostridium-infeksjoner |
 | Predikert ny indikasjon | Staphylococcal scalded skin syndrome |
-| TxGNN-score | 99,71 % |
+| TxGNN-score | 0,9971 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -62,7 +63,7 @@ Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Fidaxom
 
 Stafylokokk-indusert skåldet hud-syndrom er imidlertid en toksinmediert sykdom (eksfoliative toksiner) som vanligvis behandles med systemiske antistafylokokk-midler. Fidaxomicin absorberes i minimal grad systemisk, og det er derfor lite sannsynlig at det når effektive konsentrasjoner i hud eller blod. Koblingen er dermed biologisk plausibel kun in vitro og er ikke støttet klinisk.
 
-Øvrige predikerte indikasjoner (alle også L5, Hold) er bulløs impetigo, inhalasjonsbotulisme, impetigo, toksinmediert infeksiøs botulisme, vulvovaginal candidiasis, hordeolum, *Staphylococcus aureus*-pneumoni og punktformet epitelial keratokonjunktivitt. For de fleste av disse gjelder de samme begrensningene: dårlig systemisk absorpsjon, ingen etablert topikal eller oftalmisk formulering, og eksisterende effektive standardbehandlinger. Ved botulisme er behandlingen antitoksin og støttebehandling, og antibiotika nøytraliserer ikke ferdigdannet toksin. Vulvovaginal candidiasis er en soppinfeksjon, og den høye modellscoren skyldes trolig en artefakt i kunnskapsgrafen.
+Øvrige predikerte indikasjoner (alle også L5, Hold) er bulløs impetigo, inhalasjonsbotulisme, impetigo, toksinmediert infeksiøs botulisme, vulvovaginal candidiasis, hordeolum, *Staphylococcus aureus*-pneumoni og punktformet epitelial keratokonjunktivitt. For de fleste av disse gjelder de samme begrensningene: dårlig systemisk absorpsjon, ingen etablert topikal eller oftalmisk formulering, og eksisterende effektive standardbehandlinger. Ved botulisme er behandlingen antitoksin og støttebehandling, og antibiotika nøytraliserer ikke ferdigdannet toksin. Vulvovaginal candidiasis er en soppinfeksjon, og den høye modellscoren kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 ---
 
@@ -88,7 +89,7 @@ For den åttende prediksjonen (*S. aureus*-pneumoni) er det funnet én publikasj
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/002087 | Dificlir | Ikke oppgitt | Clostridium-infeksjoner (status: avregistrert) |
+| EMEA/H/C/002087 | Dificlir | Ikke oppgitt | Clostridium-infeksjoner (status: godkjent) |
 
 ---
 
@@ -111,7 +112,7 @@ Se preparatomtalen for sikkerhetsinformasjon om advarsler og kontraindikasjoner.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på modellscoren (evidensnivå L5), uten kliniske studier eller støttende litteratur. Fidaxomicin absorberes minimalt systemisk, noe som gjør effektive konsentrasjoner i hud, blod eller lunge usannsynlig, og det finnes godt etablerte alternativer. I tillegg har legemidlet ingen gyldig markedsføringstillatelse i Norge.
+Prediksjonen bygger kun på modellscoren fra TxGNN-modellen (dyp læring) (evidensnivå L5), uten kliniske studier eller støttende litteratur. Fidaxomicin absorberes minimalt systemisk, noe som gjør effektive konsentrasjoner i hud, blod eller lunge usannsynlig, og det finnes godt etablerte alternativer. Legemidlet er markedsført i Norge, med 1 gyldig markedsføringstillatelse av 1.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank

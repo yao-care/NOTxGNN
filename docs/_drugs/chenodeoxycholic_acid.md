@@ -47,17 +47,17 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **homozygot familiær 
 |------|------|
 | Opprinnelig indikasjon | Cerebrotendinøs xantomatose; medfødte stoffskiftefeil |
 | Predikert ny indikasjon | Homozygot familiær hyperkolesterolemi |
-| TxGNN-prediksjonsscore | 99,57 % |
-| Evidensnivå | L4 (kun indirekte mekanistisk grunnlag, ingen studier på den nye indikasjonen) |
-| Status på det norske markedet | Kun annullerte godkjenninger |
-| Antall godkjenninger | 1 (annullert) |
+| TxGNN-prediksjonsscore | 0,9957 |
+| Evidensnivå | L5 (kun indirekte mekanistisk grunnlag, ingen studier på den nye indikasjonen) |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ## Hvorfor er denne prediksjonen rimelig (eller ikke)?
 
 CDCA er en primær gallesyre som undertrykker leverens syntese av kolesterol og gallesyrer via FXR-aktivering og negativ tilbakekobling på CYP7A1 og CYP27A1. Ved CTX, som skyldes mangel på enzymet sterol-27-hydroksylase, reduserer dette opphopningen av kolesterol og kolestanol i vev. Data om detaljert virkningsmekanisme fra legemiddeldatabasen er ikke tilgjengelig i de sammenstilte dataene, så beskrivelsen over bygger på en mekanistisk vurdering.
 
-Koblingen til homozygot familiær hyperkolesterolemi (HoFH) er indirekte. HoFH skyldes dysfunksjon i LDL-reseptoren, og i prinsippet kan modulering av gallesyresyntesen påvirke kolesterolhomeostasen. CDCA er imidlertid historisk rapportert å kunne øke LDL-kolesterol i enkelte situasjoner, så nytte ved HoFH er ikke støttet. Den høye TxGNN-scoren gjenspeiler trolig felles fenotyper for lipidmetabolisme og xantomatose i kunnskapsgrafen, ikke dokumentert klinisk effekt.
+Koblingen til homozygot familiær hyperkolesterolemi (HoFH) er indirekte. HoFH skyldes dysfunksjon i LDL-reseptoren, og i prinsippet kan modulering av gallesyresyntesen påvirke kolesterolhomeostasen. CDCA er imidlertid historisk rapportert å kunne øke LDL-kolesterol i enkelte situasjoner, så nytte ved HoFH er ikke støttet. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens eller dokumentert klinisk effekt.
 
 De fire neste prediksjonene (småkarsykdom i hjernen type 1, familiært hematuri-retinal arteriolær tortuositet-kontrakturer-syndrom, foreldet familiær kombinert hyperlipidemi og foreldet hyperurikemi) har ingen identifisert mekanistisk sammenheng eller klinisk evidens. De ser ut til å være beregningsmessige artefakter og får anbefalingen «Hold».
 
@@ -75,7 +75,7 @@ Foreløpig er det ingen relaterte kliniske studier registrert.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004061 | Chenodeoxycholic acid Leadiant (tidligere Chenodeoxycholic acid sigma-tau) | Ikke oppgitt | Cerebrotendinøs xantomatose; medfødte stoffskiftefeil (status: annullert) |
+| EMEA/H/C/004061 | Chenodeoxycholic acid Leadiant (tidligere Chenodeoxycholic acid sigma-tau) | Ikke oppgitt | Cerebrotendinøs xantomatose; medfødte stoffskiftefeil (status: godkjent) |
 
 ## Sikkerhetsvurderinger
 
@@ -97,7 +97,7 @@ Merk at gallesyrebindere kan binde CDCA og redusere opptaket, og at kombinasjon 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Det finnes ingen kliniske studier eller direkte litteratur som støtter bruk ved HoFH, og CDCA kan tvert imot øke LDL-kolesterol. Den høye prediksjonsscoren ser ut til å skyldes assosiasjoner i kunnskapsgrafen. I tillegg er den eneste norske godkjenningen annullert.
+Det finnes ingen kliniske studier eller direkte litteratur som støtter bruk ved HoFH, og CDCA kan tvert imot øke LDL-kolesterol. Den høye prediksjonsscoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. I tillegg er legemidlet markedsført i Norge, og den eneste godkjenningen (1 av 1) er gyldig.
 
 **For å komme videre trengs følgende:**
 - Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)

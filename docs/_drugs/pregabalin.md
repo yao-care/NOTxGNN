@@ -6,9 +6,9 @@ nav_order: 337
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
-description: "Pregabalin: predikert ny indikasjon Migrenelidelse (rangert som nr. 5 av TxGNN (evidensnivå L5). Opprinnelig indikasjon: Angstlidelser"
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
+description: "Pregabalin: predikert ny indikasjon Tendinitis (evidensnivå L5). Opprinnelig indikasjon: Anxiety Disorders"
 ---
 
 # Pregabalin
@@ -33,14 +33,14 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-## Pregabalin: Fra epilepsi, angst og nevralgi til migrenelidelse
+## Pregabalin: Tendinitis
 {: .text-alpha }
 
 ## Ettsetningssammendrag
 
 Pregabalin er et legemiddel som opprinnelig brukes mot epilepsi, angstlidelser og nevropatisk smerte (nevralgi).
 TxGNN-modellen forutsier at det kan ha effekt ved **migrenelidelse** (høyeste score blant forslagene med noe klinisk støtte), men beviset er begrenset: **1 kliniske studie med fase 3-design (trukket tilbake før oppstart)**, **1 fase 4-studie som ikke tester effekt**, og flere publikasjoner, hovedsakelig små pediatriske randomiserte studier.
-Det øverste forslaget på listen, **tendinitt** (score 99,71 %), har ingen direkte klinisk støtte og er derfor ikke brukt som hovedkandidat i denne rapporten.
+Det øverste forslaget på listen, **tendinitt** (score 0,9971), har ingen direkte klinisk støtte og er derfor ikke brukt som hovedkandidat i denne rapporten.
 
 ---
 
@@ -48,12 +48,12 @@ Det øverste forslaget på listen, **tendinitt** (score 99,71 %), har ingen dire
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Angstlidelser; epilepsi (nevralgi i enkelte godkjenninger) |
-| Predikert ny indikasjon | Migrenelidelse (rangert som nr. 5 av TxGNN; nr. 1 tendinitt har kun L4-nivå og ingen direkte evidens) |
-| TxGNN-prediksjonsscore | 99,47 % (migrenelidelse) |
-| Evidensnivå | L2 (migrene); tendinitt L4 |
-| Status på det norske markedet | Kun annullerte godkjenninger |
-| Antall godkjenninger | 6 (alle annullert) |
+| Opprinnelig indikasjon | Anxiety Disorders;Epilepsy; Epilepsy;Anxiety Disorders;Neuralgia; Anxiety Disorders;Neuralgia;Epilepsy |
+| Predikert ny indikasjon | Tendinitis |
+| TxGNN-prediksjonsscore | 0.9971 |
+| Evidensnivå | L5 (migrene); tendinitt L4 |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 6 av 6) |
+| Antall godkjenninger | 6 (gyldige: 6) |
 | Anbefalt beslutning | Hold (migrene: forskningsspørsmål, ikke klar for videre utvikling) |
 
 *Merknad:* Evidensnivået L2 for migrene er den automatiske vurderingen i dataene. Det bygger på små pediatriske randomiserte studier, ikke på en fullført fase 2/3-studie, så det bør tolkes forsiktig.
@@ -116,7 +116,7 @@ Merknad om tendinitt: de hentede artiklene er i hovedsak case-rapporter eller st
 | EMEA/H/C/004010 | Pregabalin Sandoz | – | Angstlidelser; nevralgi; epilepsi |
 | EMEA/H/C/004078 | Pregabalin Viatris (tidligere Pregabalin Mylan) | – | Angstlidelser; epilepsi |
 
-Alle seks registrerte godkjenninger har status annullert; ingen er gyldige for tiden. (Én ytterligere annullert godkjenning, Pregabalin Zentiva, er ikke vist i tabellen.)
+(Én ytterligere annullert godkjenning, Pregabalin Zentiva, er ikke vist i tabellen.)
 
 ---
 
@@ -137,7 +137,7 @@ Informasjon om advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgj
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den eneste fase 3-studien i migrene (NCT00447369) ble trukket tilbake og har ingen resultater. Støtten består av små pediatriske studier og prekliniske data, og andre antiepileptika er bedre etablert. Den høyest rangerte prediksjonen (tendinitt) og de øvrige muskelsykdommene mangler direkte evidens eller plausibel mekanisme. I tillegg har legemidlet ingen gyldige godkjenninger i Norge, og sikkerhetsdata fra preparatomtalen mangler.
+Den eneste fase 3-studien i migrene (NCT00447369) ble trukket tilbake og har ingen resultater. Støtten består av små pediatriske studier og prekliniske data, og andre antiepileptika er bedre etablert. Den høyest rangerte prediksjonen (tendinitt) og de øvrige muskelsykdommene mangler direkte evidens eller plausibel mekanisme.
 
 **For å gå videre trengs følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel som hindrer sikkerhetsscreening)

@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Iloprost
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 208
-evidence_level: L3
-indication_count: 9
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Iloprost: predikert ny indikasjon Pulmonal arteriell hypertensjon assosiert med medfødt hjertesykdom (r… (evidensnivå L3). Opprinnelig indikasjon: Pulmonal hypertensjon"
+description: "Iloprost: predikert ny indikasjon Hypotrichosis simplex i hodebunnen (evidensnivå L3). Opprinnelig indikasjon: Pulmonal hypertensjon"
 monitor_inn: "ILOPROST"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "diffuse alopecia areata"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 # Iloprost
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **9** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-## Iloprost: Fra pulmonal hypertensjon til pulmonal arteriell hypertensjon assosiert med medfødt hjertesykdom
+## Iloprost: Fra pulmonal hypertensjon til Hypotrichosis simplex i hodebunnen
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -50,10 +50,10 @@ Merk: De to høyest rangerte prediksjonene i modellen (hypotrichosis simplex i h
 |------|------|
 | Opprinnelig indikasjon | Pulmonal hypertensjon |
 | Predikert ny indikasjon | Pulmonal arteriell hypertensjon assosiert med medfødt hjertesykdom (rangert som nr. 3 av modellen; nr. 1 er hypotrichosis simplex i hodebunnen, uten evidens) |
-| TxGNN-prediksjonsscore | 99,32 % |
-| Evidensnivå | L3 |
-| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
-| Antall godkjenninger | 1 (opphevet) |
+| TxGNN-prediksjonsscore | 0,9945 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
 
 ---

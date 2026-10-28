@@ -50,10 +50,10 @@ men **ingen kliniske studier** og **ingen publikasjoner** støtter denne retning
 |------|------|
 | Opprinnelig indikasjon | Smerte; kreft |
 | Predikert ny indikasjon | Nefrogent syndrom med uhensiktsmessig antidiurese |
-| TxGNN-prediksjonsscore | 99,46 % |
+| TxGNN-prediksjonsscore | 0.9946 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte (opphevede) godkjenninger |
-| Antall godkjenninger | 3 (alle avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
 | Anbefalt beslutning | Hold |
 
 Merk: Godkjenningene i dataene er europeiske sentrale godkjenninger (EMEA/H/C-nummer), og det er ikke dokumentert noen gyldig nasjonal godkjenning.
@@ -66,11 +66,11 @@ Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Fentanyl
 
 NSIAD skyldes gain-of-function-mutasjoner i vasopressin V2-reseptoren (AVPR2), som gir vannretensjon uavhengig av vasopressin. Fentanyl har ingen kjent direkte virkning på V2-reseptoren eller nyrenes vannhåndtering. Opioider kan dessuten påvirke vasopressinfrisetting sentralt og gi SIADH-lignende effekter, noe som ville forverret snarere enn behandlet antidiurese.
 
-Den høye TxGNN-scoren er en ren kunnskapsgraf-prediksjon uten identifisert biologisk begrunnelse. Vurderingen er at det ikke finnes en klar mekanistisk kobling mellom fentanyls opprinnelige bruk og den predikerte indikasjonen.
+Den høye TxGNN-scoren kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Vurderingen er at det ikke finnes en klar mekanistisk kobling mellom fentanyls opprinnelige bruk og den predikerte indikasjonen.
 
 ### Alternativ prediksjon: Tourettes syndrom (rang 2)
 
-Modellen predikerer også **Tourettes syndrom** (score 99,05 %). Koblingen er svak og spekulativ: Det endogene opioidsystemet samspiller med dopaminerge baner i striatum, og noen få små studier har undersøkt andre opioidmodulatorer (f.eks. naltrekson, buprenorfin) mot tics. Dette er ikke evidens for fentanyl, som har høy misbruks- og avhengighetsrisiko, risiko for respirasjonsdepresjon og dårlig sikkerhetsprofil for en kronisk, ofte pediatrisk, nevroutviklingsrelatert tilstand. Heller ikke her er det identifisert kliniske studier eller litteratur.
+Modellen predikerer også **Tourettes syndrom** (score 0,9905). Koblingen er svak og spekulativ: Det endogene opioidsystemet samspiller med dopaminerge baner i striatum, og noen få små studier har undersøkt andre opioidmodulatorer (f.eks. naltrekson, buprenorfin) mot tics. Dette er ikke evidens for fentanyl, som har høy misbruks- og avhengighetsrisiko, risiko for respirasjonsdepresjon og dårlig sikkerhetsprofil for en kronisk, ofte pediatrisk, nevroutviklingsrelatert tilstand. Heller ikke her er det identifisert kliniske studier eller litteratur.
 
 ---
 
@@ -90,9 +90,9 @@ Foreløpig er ingen relatert litteratur tilgjengelig.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000833 | Effentora | Ikke oppgitt | Smerte; kreft (avregistrert) |
-| EMEA/H/C/001164 | PecFent | Ikke oppgitt | Smerte; kreft (avregistrert) |
-| EMEA/H/C/000959 | Instanyl | Ikke oppgitt | Smerte; kreft (avregistrert) |
+| EMEA/H/C/000833 | Effentora | Ikke oppgitt | Smerte; kreft (godkjent) |
+| EMEA/H/C/001164 | PecFent | Ikke oppgitt | Smerte; kreft (godkjent) |
+| EMEA/H/C/000959 | Instanyl | Ikke oppgitt | Smerte; kreft (godkjent) |
 
 ---
 

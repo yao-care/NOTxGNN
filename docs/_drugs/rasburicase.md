@@ -48,9 +48,10 @@ Rasburikase er et rekombinant urat-oksidaseenzym som opprinnelig ble brukt mot *
 |------|------|
 | Opprinnelig indikasjon | Hyperurikemi |
 | Predikert ny indikasjon | Renal hypourikemi |
-| TxGNN-prediksjonsscore | 99,99 % |
+| TxGNN-prediksjonsscore | 0,9999 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 |
 | Anbefalt beslutning | Hold |
 
@@ -60,9 +61,9 @@ Rasburikase er et rekombinant urat-oksidaseenzym som opprinnelig ble brukt mot *
 
 Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon er rasburikase et urat-oksidaseenzym som omdanner urinsyre til allantoin og dermed senker serumnivået av urinsyre. Effekten ved hyperurikemi, særlig i forbindelse med tumorlysesyndrom, er godt etablert.
 
-Renal hypourikemi er imidlertid allerede en tilstand med lav serumurinsyre, forårsaket av defekt renal reabsorpsjon av urat (for eksempel varianter i SLC22A12/URAT1 eller SLC2A9). Ytterligere nedbryting av urinsyre gir ingen terapeutisk begrunnelse og kan være skadelig. Den høye TxGNN-scoren skyldes trolig assosiasjoner i kunnskapsgrafen via urinsyrestoffskiftet, ikke en reell behandlingseffekt.
+Renal hypourikemi er imidlertid allerede en tilstand med lav serumurinsyre, forårsaket av defekt renal reabsorpsjon av urat (for eksempel varianter i SLC22A12/URAT1 eller SLC2A9). Ytterligere nedbryting av urinsyre gir ingen terapeutisk begrunnelse og kan være skadelig. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens, og ikke en reell behandlingseffekt.
 
-Også de øvrige ni predikerte indikasjonene (blant annet delvis HGPRT-mangel, hepatisk porfyri, hepatoportal sklerose, portvenetrombose, hepatopulmonalt syndrom, renal tubulær acidose og forstyrrelser i fenylalaninstoffskiftet) mangler både klinisk evidens og biologisk plausibilitet. Flere av dem har identiske scorer, noe som tyder på et felles artefakt i grafen. Alle er vurdert til evidensnivå L5 og «Hold».
+Også de øvrige ni predikerte indikasjonene (blant annet delvis HGPRT-mangel, hepatisk porfyri, hepatoportal sklerose, portvenetrombose, hepatopulmonalt syndrom, renal tubulær acidose og forstyrrelser i fenylalaninstoffskiftet) mangler både klinisk evidens og biologisk plausibilitet. Flere av dem har identiske scorer. Scorene kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Alle er vurdert til evidensnivå L5 og «Hold».
 
 ---
 
@@ -84,7 +85,7 @@ Det er foreløpig ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/000331 | Fasturtec | – | Hyperurikemi |
 
-Tillatelsen har status avregistrert. Det finnes ingen gyldige tillatelser i dag.
+Tillatelsen har status gyldig. Legemidlet er markedsført, med 1 gyldig tillatelse av 1.
 
 ---
 

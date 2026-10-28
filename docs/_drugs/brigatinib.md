@@ -4,7 +4,7 @@ title: Brigatinib
 parent: Kun modellprediksjon (L5)
 nav_order: 64
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Brigatinib: predikert ny indikasjon Gingival fibromatose (evidensnivå L5). Opprinnelig indikasjon: Ikke-småcellet lungekreft (Carcinoma, Non-Small-Cell Lung)"
 monitor_inn: "BRIGATINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Brigatinib
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt mot **gingival fibromatose*
 |------|------|
 | Opprinnelig indikasjon | Ikke-småcellet lungekreft (Carcinoma, Non-Small-Cell Lung) |
 | Predikert ny indikasjon | Gingival fibromatose |
-| TxGNN-prediksjonsscore | 99,89 % |
+| TxGNN-prediksjonsscore | 0,9989 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert/kansellert |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall markedsføringstillatelser | 1 |
 | Anbefalt beslutning | Hold |
 
@@ -61,7 +62,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt mot **gingival fibromatose*
 
 Det foreligger for øyeblikket ingen detaljerte data om virkningsmekanisme i de samlede dataene for denne rapporten. Brigatinib er en neste generasjons ALK-hemmer med aktivitet mot flere tyrosinkinaser. Effekten er godt dokumentert ved ALK-positiv ikke-småcellet lungekreft.
 
-Det er ikke dokumentert noen plausibel mekanistisk sammenheng mellom ALK-/multikinasehemming og gingival fibromatose, som er en bindevevssykdom med gingival overvekst. Den høye modellscoren (0,999) er derfor ikke støttet av biologisk eller klinisk evidens i de tilgjengelige dataene. Prediksjonen bør betraktes som en hypotese.
+Det er ikke dokumentert noen plausibel mekanistisk sammenheng mellom ALK-/multikinasehemming og gingival fibromatose, som er en bindevevssykdom med gingival overvekst. Den høye modellscoren (0,9989) er derfor ikke støttet av biologisk eller klinisk evidens i de tilgjengelige dataene. Prediksjonen bør betraktes som en hypotese.
 
 ### Andre predikerte indikasjoner (kontekst)
 

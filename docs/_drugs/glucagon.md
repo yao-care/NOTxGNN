@@ -50,10 +50,10 @@ Støtten er svak og indirekte: de **2 kliniske studiene** og størstedelen av de
 |------|------|
 | Opprinnelig indikasjon | Diabetes mellitus |
 | Predikert ny indikasjon | Irritabelt tarmsyndrom |
-| TxGNN-prediksjonsscore | 99,24 % |
+| TxGNN-prediksjonsscore | 0,9924 |
 | Evidensnivå | L3 |
-| Status i Norge | Kun avregistrerte (kansellerte) godkjenninger |
-| Antall godkjenninger | 2 (begge kansellert) |
+| Status i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Data om virkningsmekanisme (MOA) for glukagon var ikke tilgjengelige i datagrunn
 
 Det meste av den tilgjengelige evidensen gjelder GLP-1 og GLP-1-reseptoragonister (nativt GLP-1 og analogen ROSE-010). Disse stammer fra samme proglukagon-biologi og hemmer gastrointestinal motilitet via GLP-1-reseptoren. Glukagon virker derimot gjennom en annen reseptor (GCGR). Ekstrapolering fra GLP-1-data må derfor gjøres med stor forsiktighet.
 
-TxGNN-scoren (0,99) er en modellprediksjon og erstatter ikke klinisk evidens.
+TxGNN-scoren (0,9924) er en modellprediksjon og erstatter ikke klinisk evidens.
 
 ---
 

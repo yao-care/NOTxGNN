@@ -4,7 +4,7 @@ title: Zonisamide
 parent: Kun modellprediksjon (L5)
 nav_order: 461
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Zonisamide: predikert ny indikasjon Tourettes syndrom (evidensnivå L5). Opprinnelig indikasjon: Partiell epilepsi (fokale anfall)"
 monitor_inn: "ZONISAMIDE"
@@ -14,7 +14,7 @@ predicted_indications: ["Tourette syndrome", "trichotillomania", "methemoglobine
 # Zonisamide
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at det kan ha effekt ved **Tourettes syndrom**, men pre
 |------|------|
 | Opprinnelig indikasjon | Partiell epilepsi (fokale anfall) |
 | Predikert ny indikasjon | Tourettes syndrom |
-| TxGNN-prediksjonsscore | 99,85 % |
+| TxGNN-prediksjonsscore | 0.9985 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 2 (begge kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -63,7 +63,7 @@ Det finnes ingen detaljerte data om virkningsmekanismen i datagrunnlaget som er 
 
 Det er også et sikkerhetsmessig forbehold. En pragmatisk oversiktsartikkel (PMID 36005856, 2022) rapporterer at antiepileptika kan indusere tics og tvangslidelse. Dette kan tale mot bruk ved tic-lidelser og må vurderes nøye før eventuell videre utredning.
 
-Høy modellscore alene er ikke bevis for klinisk effekt. Scoren kan gjenspeile nærhet i kunnskapsgrafen snarere enn en reell farmakologisk effekt.
+Høy modellscore alene er ikke bevis for klinisk effekt. Scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 ---
 
@@ -81,7 +81,7 @@ Det foreligger for øyeblikket ingen relatert litteratur.
 
 ## Markedsinformasjon for Norge
 
-Begge godkjenningene er sentrale europeiske (EMA) godkjenninger, og begge er kansellert. Ingen gyldige godkjenninger er registrert.
+Begge godkjenningene er sentrale europeiske (EMA) godkjenninger. Legemidlet er markedsført, og 2 av 2 godkjenninger er gyldige.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -112,7 +112,7 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er kun modellbasert (evidensnivå L5), uten kliniske studier eller litteratur for Tourettes syndrom. Zonisamid har i tillegg en mulig sikkerhetsrisiko for tics, og legemidlet har ingen gyldig godkjenning i Norge.
+Prediksjonen er kun modellbasert (evidensnivå L5), uten kliniske studier eller litteratur for Tourettes syndrom. Zonisamid har i tillegg en mulig sikkerhetsrisiko for tics, og legemidlet er markedsført i Norge med 2 gyldige godkjenninger av 2.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA), for eksempel fra DrugBank.

@@ -39,7 +39,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 ## Sammendrag
 
 Karfilzomib er en proteasomhemmer som opprinnelig brukes til behandling av **multippelt myelom**.
-TxGNN-modellen forutsier at legemidlet kan ha effekt ved **CMM7** (antatt en subtype av familiært kutant malignt melanom), men dette er kun en prediksjon fra en kunnskapsgraf.
+TxGNN-modellen (deep learning) forutsier at legemidlet kan ha effekt ved **CMM7** (antatt en subtype av familiært kutant malignt melanom), men dette er kun en prediksjon fra modellen og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 Det finnes **ingen registrerte kliniske studier** og **ingen publikasjoner** for denne spesifikke indikasjonen. For den bredere diagnosen melanom finnes det kun **4 prekliniske eller beregningsbaserte publikasjoner**.
 
 ---
@@ -50,10 +50,10 @@ Det finnes **ingen registrerte kliniske studier** og **ingen publikasjoner** for
 |------|------|
 | Opprinnelig indikasjon | Multippelt myelom |
 | Predikert ny indikasjon | CMM7 |
-| TxGNN-prediksjonsscore | 99,37 % |
+| TxGNN-prediksjonsscore | 0.9937 |
 | Evidensnivå | L5 (kun modellprediksjon). For «melanom» generelt: L4 |
-| Status i Norge | Kun avregistrert |
-| Antall godkjenninger | 1 (avregistrert) |
+| Status i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold (vent) |
 
 ---
@@ -66,7 +66,7 @@ Et mulig resonnement er at proteasomhemming gir proteotoksisk stress og apoptose
 
 Prediksjonene med nest høyest score gjelder pediatrisk leptomeningealt melanom, epiteloid uveal melanom og vulvamelanom. De er også kun modellprediksjoner uten studier eller litteratur. Uvealt og mukosalt melanom er biologisk forskjellige fra kutant melanom, så funn fra kutane melanomcellelinjer kan ikke overføres direkte. For leptomeningealt melanom er det også uavklart om karfilzomib når sentralnervesystemet.
 
-For den bredere diagnosen **melanom** (score 99,03 %) finnes det prekliniske data. Her er evidensen indirekte og består av cellestudier og beregningsstudier.
+For den bredere diagnosen **melanom** (score 0,9903) finnes det prekliniske data. Her er evidensen indirekte og består av cellestudier og beregningsstudier.
 
 ---
 
@@ -97,7 +97,7 @@ Bare den første studien er direkte relevant for karfilzomib ved melanom, og den
 |---------|------|------|-----------|
 | EMEA/H/C/003790 | Kyprolis | Ikke oppgitt | Multippelt myelom |
 
-Godkjenningen er avregistrert, og det finnes ingen gyldige markedsføringstillatelser i Norge.
+Legemidlet er markedsført i Norge, og 1 av 1 markedsføringstillatelse er gyldig.
 
 ---
 
@@ -133,7 +133,7 @@ Interaksjoner klassifisert som **moderate** omfatter metronidazol, naltrekson, r
 **Beslutning: Hold (vent)**
 
 **Begrunnelse:**
-CMM7-prediksjonen bygger kun på en kunnskapsgraf (L5), uten kliniske studier eller litteratur. For melanom generelt finnes det bare indirekte prekliniske data. Dessuten er det i dag ingen gyldig markedsføringstillatelse i Norge, og sikkerhetsdata fra preparatomtalen mangler.
+CMM7-prediksjonen bygger kun på TxGNN-modellen (deep learning) (L5), uten kliniske studier eller litteratur, og scoren kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. For melanom generelt finnes det bare indirekte prekliniske data. Legemidlet er markedsført i Norge med 1 gyldig markedsføringstillatelse, men sikkerhetsdata fra preparatomtalen mangler.
 
 **For å gå videre trengs følgende:**
 - Sikkerhetsdata fra preparatomtalen (advarsler og kontraindikasjoner), som er en blokkerende datamangel

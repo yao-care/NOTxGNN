@@ -48,9 +48,10 @@ Selumetinib (handelsnavn Koselugo) er en MEK-hemmer som opprinnelig brukes mot *
 |------|------|
 | Opprinnelig indikasjon | Nevrofibromatose type 1 |
 | Predikert ny indikasjon | Familiær generalisert lentiginose |
-| TxGNN-prediksjonsscore | 99,96 % |
+| TxGNN-prediksjonsscore | 0,9996 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellert (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (kansellert) |
 | Anbefalt beslutning | Hold |
 

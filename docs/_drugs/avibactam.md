@@ -4,17 +4,17 @@ title: Avibactam
 parent: Kun modellprediksjon (L5)
 nav_order: 48
 evidence_level: L5
-indication_count: 6
-last_modified_at: 2026-10-15
-description: "Avibactam: predikert ny indikasjon Streptokokkpneumoni (evidensnivå L5). Opprinnelig indikasjon: Bakteriell pneumoni, bløtdelsinfeksjoner…"
+indication_count: 4
 monitor_inn: "AVIBACTAM"
-predicted_indications: ["influenza, severe, susceptibility to", "ureter tuberculosis", "urinary schistosomiasis", "hyperamylasemia", "polyclonal hyperviscosity syndrome"]
+predicted_indications: ["ureter tuberculosis", "urinary schistosomiasis", "hyperamylasemia", "polyclonal hyperviscosity syndrome"]
+last_modified_at: 2026-10-27
+description: "Avibactam: predikert ny indikasjon Ureter-tuberkulose (ureter tuberculosis) (evidensnivå L5). Opprinnelig indikasjon: Pneumonia, Bacterial"
 ---
 
 # Avibactam
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,77 +33,64 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-## Avibaktam: Fra bakterielle infeksjoner til streptokokkpneumoni
+## Avibaktam: beta-laktamasehemmer → ureter-tuberkulose (ureter tuberculosis)
 {: .text-alpha }
 
-## Sammendrag i én setning
+## Oppsummering
 
-Avibaktam er en beta-laktamasehemmer uten egen antibakteriell effekt, brukt i kombinasjon med ceftazidim (Zavicefta) og aztreonam (Emblaveo) mot gramnegative bakterielle infeksjoner, urinveisinfeksjoner, pneumoni og bløtdelsinfeksjoner.
-TxGNN-modellen forutsier at legemidlet kan være effektivt mot **streptokokkpneumoni**, men i de data som er sammenstilt for denne rapporten finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter prediksjonen.
-
----
+Avibaktam er en beta-laktamasehemmer som brukes sammen med et beta-laktam-antibiotikum ved bakterielle infeksjoner. Modellen TxGNN predikerer at legemidlet kan ha effekt ved **ureter-tuberkulose (ureter tuberculosis)**, med en prediksjonsscore på 0,9911. Det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** i de sammenstilte dataene som støtter denne retningen.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Bakteriell pneumoni, bløtdelsinfeksjoner, urinveisinfeksjoner og gramnegative bakterielle infeksjoner |
-| Predikert ny indikasjon | Streptokokkpneumoni |
-| TxGNN-prediksjonsscore | 99,70 % |
+| Opprinnelig indikasjon | Pneumonia, Bacterial;Soft Tissue Infections;Pneumonia;Urinary Tract Infections;Gram-Negative Bacterial Infections; Gram-Negative Bacterial Infections;Urinary Tract Infections;Healthcare-Associated Pneumonia;Soft Tissue Infections |
+| Predikert ny indikasjon | Ureter-tuberkulose (ureter tuberculosis) |
+| TxGNN-prediksjonsscore | 0,9911 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 2 (begge kansellert) |
-| Anbefalt beslutning | Hold |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
+| Anbefalt beslutning | Avvent (Hold) |
 
----
+## Hvorfor er denne prediksjonen rimelig?
 
-## Hvorfor er denne prediksjonen rimelig (eller ikke)?
+Avibaktam er en beta-laktamasehemmer uten egen antibakteriell aktivitet. Den beskytter partnerantibiotika, for eksempel ceftazidim, mot nedbryting av beta-laktamaser i klasse A, C og enkelte i klasse D. Detaljerte mekanismedata (MOA) fra legemiddeldatabasen er ikke tilgjengelige i de sammenstilte dataene.
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i det sammenstilte datagrunnlaget. Ut fra kjent informasjon er avibaktam en ikke-beta-laktam beta-laktamasehemmer som hemmer klasse A-, klasse C- og enkelte klasse D-enzymer. Den har ingen egen antibakteriell aktivitet og brukes i kombinasjon med et beta-laktamantibiotikum.
+*Mycobacterium tuberculosis* produserer en kromosomal klasse A beta-laktamase (BlaC), som avibaktam kan hemme in vitro. Det finnes derfor noe prekliniske interesse for kombinasjoner av beta-laktam og hemmer ved tuberkulose. Urinveiene er også et plausibelt virkested, siden avibaktam skilles ut via nyrene.
 
-De godkjente indikasjonene omfatter allerede pneumoni (sykehuservervet og ventilatorassosiert), så streptokokkpneumoni ligger biologisk nær den opprinnelige bruken. Den mekanistiske merverdien er likevel svak: *Streptococcus pneumoniae* er vanligvis ikke avhengig av de beta-laktamasene avibaktam hemmer, og resistens skyldes hovedsakelig endrede penicillinbindende proteiner. Den høye TxGNN-scoren gjenspeiler sannsynligvis nærhet i nettverket til eksisterende pneumoniindikasjoner, ikke en egen terapeutisk begrunnelse.
+Prediksjonen er imidlertid kun beregnet av en modell. Ingen studier eller litteratur underbygger den, og standard antituberkuløs behandling er fortsatt førstevalg. Det finnes ingen studie som direkte undersøker ureter-tuberkulose, og evidensnivået er derfor L5.
 
-### Andre predikerte indikasjoner (for sammenligning)
+## Klinisk studieevidens
 
-| Predikert indikasjon | TxGNN-score | Vurdering |
-|------|------|------|
-| Influensa, alvorlig, mottakelighet | 99,28 % | Ingen plausibel mekanisme. Genetisk mottakelighetsfenotype, trolig en grafartefakt. |
-| Tuberkulose i urinleder | 99,11 % | Svak og spekulativ. Avibaktam hemmer *M. tuberculosis* sin BlaC in vitro, men kun prekliniske data, og det trengs en partner-beta-laktam. |
-| Urinær schistosomiasis | 99,06 % | Ingen troverdig mekanisme. Parasitt uten beta-laktamaseavhengig biologi, praziquantel er standardbehandling. |
-| Hyperamylasemi | 99,01 % | Ingen terapeutisk begrunnelse. Laboratoriefunn, trolig grafartefakt. |
-| Polyklonalt hyperviskositetssyndrom | 99,01 % | Ingen plausibel mekanisme. Identisk score med hyperamylasemi tyder på en lite informativ prediksjon. |
+Det er foreløpig ingen relaterte kliniske studier registrert.
 
----
+## Litteraturevidens
 
-## Norsk markedsinformasjon
+Det er foreløpig ingen relatert litteratur tilgjengelig.
+
+## Markedsinformasjon for Norge
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004027 | Zavicefta | Ikke oppgitt | Bakteriell pneumoni, bløtdelsinfeksjoner, pneumoni, urinveisinfeksjoner, gramnegative bakterielle infeksjoner (status: kansellert) |
-| EMEA/H/C/006113 | Emblaveo | Ikke oppgitt | Gramnegative bakterielle infeksjoner, urinveisinfeksjoner, helsetjenesteassosiert pneumoni, bløtdelsinfeksjoner (status: kansellert) |
-
----
+| EMEA/H/C/004027 | Zavicefta | – | Bakteriell lungebetennelse, bløtdelsinfeksjoner, lungebetennelse, urinveisinfeksjoner, gramnegative bakterieinfeksjoner |
+| EMEA/H/C/006113 | Emblaveo | – | Gramnegative bakterieinfeksjoner, urinveisinfeksjoner, helsetjenesteassosiert lungebetennelse, bløtdelsinfeksjoner |
 
 ## Sikkerhetsvurderinger
 
-Se pakningsvedlegget (preparatomtalen) for sikkerhetsinformasjon. Det er ikke funnet registrerte legemiddelinteraksjoner i de sammenstilte dataene, og kunnskapsgrafen oppgir ingen kontraindikasjoner.
-
----
+Se pakningsvedlegget for sikkerhetsinformasjon.
 
 ## Konklusjon og neste steg
 
-**Beslutning: Hold**
+**Beslutning: Avvent (Hold)**
 
 **Begrunnelse:**
-Prediksjonen er kun modellbasert (L5), uten kliniske studier eller litteratur. Den mekanistiske merverdien for streptokokkpneumoni er svak, og begge godkjenningene i Norge er kansellert.
+Prediksjonen bygger kun på en beregningsmodell. Det finnes ingen kliniske studier eller litteratur som direkte undersøker ureter-tuberkulose, og avibaktam har ingen egen antibakteriell aktivitet. Standard antituberkuløs behandling er etablert.
 
 **For å gå videre kreves følgende:**
-- Hente og analysere pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datagap for sikkerhetsscreening)
-- Fullstendige data om virkningsmekanisme fra DrugBank
-- Litteratur- og studiesøk spesifikt for avibaktam-kombinasjoner ved streptokokkpneumoni
-- Vurdering av klinisk nytte sammenlignet med eksisterende standardbehandling for *S. pneumoniae*, som ikke primært er avhengig av beta-laktamaser
-- Avklaring av tilgjengelighet i Norge, siden alle godkjenninger er kansellert
-- Av de øvrige prediksjonene er tuberkulose det eneste sporet med et prekliniske, biologisk rimelig grunnlag (BlaC-hemming), og kan vurderes separat i prekliniske studier
+- Prekliniske data på avibaktam i kombinasjon med et beta-laktam mot *M. tuberculosis* (BlaC-hemming)
+- Detaljerte mekanismedata (MOA)
+- Sikkerhetsdata fra pakningsvedlegg, inkludert advarsler og kontraindikasjoner
+- Vurdering av klinisk relevans og behandlingsrasjonale i forhold til gjeldende tuberkulosebehandling
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

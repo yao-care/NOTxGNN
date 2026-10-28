@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ruxolitinib
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 372
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Ruxolitinib: predikert ny indikasjon Hemofagocytisk syndrom assosiert med infeksjon (rangert som nr. 9 i m… (evidensnivå L3). Opprinnelig indikasjon: Vitiligo"
 monitor_inn: "Ruxolitinib"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"]
+description: "Ruxolitinib: predikert ny indikasjon Uterine corpus perivascular epithelioid cell tumor (evidensnivå L5). Opprinnelig indikasjon: Vitiligo"
 ---
 
 # Ruxolitinib
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Ruxolitinib: Fra vitiligo og myeloproliferative sykdommer til hemofagocytisk syndrom assosiert med infeksjon
+## Ruxolitinib: Uterine corpus perivascular epithelioid cell tumor
 {: .text-alpha }
 
 ## Enkel oppsummering
@@ -50,12 +50,12 @@ Merknad: Rapporten fokuserer på den høyest rangerte indikasjonen med klinisk s
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Vitiligo; myeloproliferative sykdommer, polycytemia vera, graft-versus-host-sykdom |
-| Predikert ny indikasjon | Hemofagocytisk syndrom assosiert med infeksjon (rangert som nr. 9 i modellen) |
-| TxGNN-prediksjonsscore | 99,32 % |
-| Evidensnivå | L3 |
-| Status i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 2 (begge kansellert, 0 gyldige) |
+| Opprinnelig indikasjon | Vitiligo; Myeloproliferative Disorders;Polycythemia Vera;Graft vs Host Disease |
+| Predikert ny indikasjon | Uterine corpus perivascular epithelioid cell tumor |
+| TxGNN-prediksjonsscore | 0.9973 |
+| Evidensnivå | L5 |
+| Status i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
 
 ---
@@ -108,7 +108,6 @@ Det ble funnet 20 publikasjoner totalt. Studietypene er delvis utledet fra title
 | EMEA/H/C/005843 | Opzelura | Ikke oppgitt | Vitiligo (kansellert) |
 | EMEA/H/C/002464 | Jakavi | Ikke oppgitt | Myeloproliferative sykdommer, polycytemia vera, graft-versus-host-sykdom (kansellert) |
 
-Begge godkjenningene er kansellert, så det finnes for tiden ingen gyldig godkjenning i de innsamlede dataene.
 
 ---
 
@@ -124,15 +123,15 @@ For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparato
 
 | Rangering | Sykdom | Score | Evidensnivå | Anbefaling |
 |------|------|------|------|------|
-| 1 | Livmor-PEComa (perivaskulær epiteloidcelletumor) | 99,73 % | L5 | Hold |
-| 2 | Benign PEComa | 99,73 % | L5 | Hold |
-| 3 | Lymfangiomyom | 99,72 % | L5 | Hold |
-| 4 | Lymfangioleiomyomatose | 99,64 % | L5 | Hold |
-| 5 | Liposarkom | 99,52 % | L5 | Forskningsspørsmål |
-| 6 | Familiær rhabdoid tumor | 99,49 % | L5 | Hold |
-| 7 | Lunge-PEComa | 99,44 % | L5 | Hold |
-| 8 | Ovarielt myxoid liposarkom | 99,39 % | L5 | Hold |
-| 10 | Ervervet HLH assosiert med malign sykdom | 99,32 % | L4 | Forskningsspørsmål |
+| 1 | Livmor-PEComa (perivaskulær epiteloidcelletumor) | 0,9973 | L5 | Hold |
+| 2 | Benign PEComa | 0,9973 | L5 | Hold |
+| 3 | Lymfangiomyom | 0,9972 | L5 | Hold |
+| 4 | Lymfangioleiomyomatose | 0,9964 | L5 | Hold |
+| 5 | Liposarkom | 0,9952 | L5 | Forskningsspørsmål |
+| 6 | Familiær rhabdoid tumor | 0,9949 | L5 | Hold |
+| 7 | Lunge-PEComa | 0,9944 | L5 | Hold |
+| 8 | Ovarielt myxoid liposarkom | 0,9939 | L5 | Hold |
+| 10 | Ervervet HLH assosiert med malign sykdom | 0,9932 | L4 | Forskningsspørsmål |
 
 PEComa-gruppen er hovedsakelig drevet av mTOR-aktivering, og det finnes ingen støtte for en JAK-STAT-kobling i dataene. For liposarkom finnes to prekliniske studier (2019, 2022) som kobler myxoid liposarkom til JAK-STAT-signalering, men uten kliniske data. For HLH assosiert med malign sykdom er evidensen indirekte og hentet fra generelle HLH-data.
 

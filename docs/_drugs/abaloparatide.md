@@ -50,10 +50,10 @@ men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** som stø
 |------|------|
 | Opprinnelig indikasjon | Postmenopausal osteoporose / osteoporose |
 | Predikert ny indikasjon | Non-syndromisk esofagusmisdannelse |
-| TxGNN-prediksjonsscore | 99,84 % |
+| TxGNN-prediksjonsscore | 0,9984 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (avregistrert) |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -62,13 +62,13 @@ men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** som stø
 
 Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon er abaloparatid en PTHrP-analog som aktiverer PTH1-reseptoren (PTH1R) og stimulerer beindannelse. Effekten ved postmenopausal osteoporose er dokumentert, blant annet i fase 3-studien NCT01343004, der legemidlet reduserte risikoen for nye brudd sammenlignet med placebo.
 
-Det er ikke funnet noen plausibel farmakologisk sammenheng mellom PTH1R-agonisme og korrigering av medfødte misdannelser i spiserøret, som er utviklingsmessige defekter. Den høye TxGNN-scoren (0,998) er en ren modellprediksjon uten støtte i studier eller litteratur.
+Det er ikke funnet noen plausibel farmakologisk sammenheng mellom PTH1R-agonisme og korrigering av medfødte misdannelser i spiserøret, som er utviklingsmessige defekter. Den høye TxGNN-scoren (0,9984) er en ren modellprediksjon uten støtte i studier eller litteratur.
 
 Modellen peker også på tre andre sykdommer, alle uten evidens (evidensnivå L5, anbefaling Hold):
 
-- **Esofagussykdom** (score 99,75 %): PTHrP uttrykkes i esofagusepitel og kan ha en rolle i epitelial differensiering, men dette er spekulativt. Benaktive legemidler (f.eks. orale bisfosfonater) er dessuten oftere forbundet med esofagusirritasjon enn nytte.
-- **Amenoré** (score 99,72 %): Sammenhengen er indirekte. Abaloparatid virker ikke på hypotalamus-hypofyse-ovarie-aksen og kunne i teorien bare påvirke benkomplikasjonen, ikke selve amenoréen. Legemidlet er ikke indisert til premenopausale kvinner.
-- **Esofagussår** (score 99,02 %): Ingen kjent rolle for den benanabole virkningen i slimhinnetilheling.
+- **Esofagussykdom** (score 0,9975): PTHrP uttrykkes i esofagusepitel og kan ha en rolle i epitelial differensiering, men dette er spekulativt. Benaktive legemidler (f.eks. orale bisfosfonater) er dessuten oftere forbundet med esofagusirritasjon enn nytte.
+- **Amenoré** (score 0,9972): Sammenhengen er indirekte. Abaloparatid virker ikke på hypotalamus-hypofyse-ovarie-aksen og kunne i teorien bare påvirke benkomplikasjonen, ikke selve amenoréen. Legemidlet er ikke indisert til premenopausale kvinner.
+- **Esofagussår** (score 0,9902): Ingen kjent rolle for den benanabole virkningen i slimhinnetilheling.
 
 ---
 
@@ -90,7 +90,7 @@ Foreløpig finnes ingen relevant litteratur for denne prediksjonen.
 |---------|------|------|-----------|
 | EMEA/H/C/005928 | Eladynos | – | Postmenopausal osteoporose / osteoporose |
 
-Merk: Godkjenningen har status avregistrert (cancelled), og det finnes ingen gyldige markedsføringstillatelser.
+Merk: Legemidlet er markedsført, og 1 av 1 markedsføringstillatelse er gyldig.
 
 ---
 

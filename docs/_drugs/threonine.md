@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at den kan ha effekt ved **gastroparese**, men for øy
 |------|------|
 | Opprinnelig indikasjon | Maple Syrup Urine Disease (lønnesirupsykdom) |
 | Predikert ny indikasjon | Gastroparese |
-| TxGNN-prediksjonsskår | 99,32 % |
+| TxGNN-prediksjonsskår | 0,9932 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 1 (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen predikerer at den kan ha effekt ved **gastroparese**, men for øy
 
 Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Treonin er en essensiell aminosyre og forløper for blant annet glycin og slimstoffer (mucin). Effekten ved lønnesirupsykdom er dokumentert for den opprinnelige indikasjonen, men en mekanistisk kobling til gastroparese kan ikke etableres ut fra de tilgjengelige dataene.
 
-Den eneste støtten er den høye TxGNN-skåren (0,993), som er en beregningsbasert prediksjon fra en kunnskapsgraf. Gastroparese skyldes typisk tap av interstitielle Cajal-celler, dysfunksjon i enteriske nerver eller svekket vagusfunksjon. Ingen av disse mekanismene kan knyttes til treonin ut fra dataene. Enhver kobling til mage-tarm-motilitet eller slimhinnefunksjon ville være spekulativ. Den opprinnelige indikasjonen (lønnesirupsykdom, en metabolsk sykdom) har heller ingen åpenbar sammenheng med mage-tarm-motilitet.
+Den eneste støtten er den høye TxGNN-skåren (0,9932). Skåren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Gastroparese skyldes typisk tap av interstitielle Cajal-celler, dysfunksjon i enteriske nerver eller svekket vagusfunksjon. Ingen av disse mekanismene kan knyttes til treonin ut fra dataene. Enhver kobling til mage-tarm-motilitet eller slimhinnefunksjon ville være spekulativ. Den opprinnelige indikasjonen (lønnesirupsykdom, en metabolsk sykdom) har heller ingen åpenbar sammenheng med mage-tarm-motilitet.
 
 ---
 

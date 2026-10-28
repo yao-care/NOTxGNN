@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ezetimibe
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 170
-evidence_level: L1
-indication_count: 4
-last_modified_at: 2026-10-15
-description: "Ezetimibe: predikert ny indikasjon Hyperlipoproteinemi (evidensnivå L1). Opprinnelig indikasjon: Hyperkolesterolemi"
+evidence_level: L5
+indication_count: 1
 monitor_inn: "EZETIMIBE"
-predicted_indications: ["hyperlipoproteinemia", "cholesterol-ester transfer protein deficiency"]
+predicted_indications: ["cholesterol-ester transfer protein deficiency"]
+last_modified_at: 2026-10-23
+description: "Ezetimibe: predikert ny indikasjon kolesterolester-transferproteinmangel (cholesterol-ester transfer protein deficiency) (evidensnivå L5)"
 ---
 
 # Ezetimibe
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **4** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,123 +33,77 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-## Ezetimib: Fra hyperkolesterolemi til hyperlipoproteinemi
+## Ezetimib: kolesterolester-transferproteinmangel (cholesterol-ester transfer protein deficiency)
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
-Ezetimib er et kolesterolsenkende legemiddel som opprinnelig brukes mot hyperkolesterolemi og dyslipidemi.
-TxGNN-modellen forutsier at det kan være effektivt ved **hyperlipoproteinemi**, med **ca. 40 kliniske studier** og **ca. 20 publikasjoner** i dataene som er samlet inn for denne rapporten.
-Merk at den predikerte indikasjonen i stor grad overlapper med den eksisterende godkjente bruken, så dette er ikke en reell ny anvendelse (repurposing).
-
----
+Ezetimib er et kolesterolsenkende legemiddel som opprinnelig brukes ved hyperkolesterolemi og dyslipidemi. TxGNN-modellen forutsier at det kan være nyttig ved **kolesterolester-transferproteinmangel (CETP-mangel)**, men det finnes **ingen kliniske studier** og **ingen publikasjoner som direkte studerer denne sykdommen**. Prediksjonen bygger derfor kun på modellen.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Hyperkolesterolemi; dyslipidemi |
-| Predikert ny indikasjon | Hyperlipoproteinemi |
-| TxGNN-prediksjonsscore | 99,63 % |
-| Evidensnivå | L1 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
-| Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
-| Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
-
----
+| Opprinnelig indikasjon | Hyperkolesterolemi og dyslipidemi |
+| Predikert ny indikasjon | Kolesterolester-transferproteinmangel |
+| TxGNN-prediksjonsscore | 0,9909 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
+| Anbefalt beslutning | Hold |
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i de innsamlede dataene. Basert på kjent informasjon hemmer ezetimib NPC1L1-mediert opptak av kolesterol i tarmen og senker dermed LDL-kolesterol. Dette retter seg direkte mot den lipidforstyrrelsen som kjennetegner hyperlipoproteinemi.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget for denne rapporten. Ezetimib er kjent for å hemme NPC1L1-mediert opptak av kolesterol i tarmen og dermed senke LDL-kolesterol. Denne mekanismen er ikke bekreftet av de innsamlede dataene.
 
-Den predikerte indikasjonen er i praksis den samme som legemidlets opprinnelige godkjente bruk (hyperkolesterolemi/dyslipidemi). Den høye scoren (0,996) er derfor i tråd med eksisterende klinisk bruk, og ikke et funn av en ny indikasjon.
+CETP-mangel er en genetisk tilstand som gir forhøyet HDL-kolesterol og redusert LDL-kolesterol gjennom svekket overføring av kolesterolestere. De to tilstandene ligger langs samme akse i lipidmetabolismen, men koblingen er indirekte. CETP-mangel er stort sett godartet og er ikke en anerkjent sykdom som krever behandling. Den høye scoren (0,9909) kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
-Modellen foreslo også tre andre sykdommer. Disse er omtalt kort nedenfor:
+## Klinisk studiedokumentasjon
 
-- **Familiær hyperkolesterolemi (score 99,38 %, L1):** Ezetimib gir additiv LDL-senkning oppå statiner, og flere fase 3-studier har testet det direkte ved heterozygot og homozygot FH. Også dette er etablert bruk. Effekten ved homozygot FH forventes å være mer beskjeden fordi LDL-reseptorfunksjonen er begrenset.
-- **Hyperkolesterolemi ved kolesterol-7α-hydroksylase-mangel (score 99,25 %, L4, Hold):** Mekanismen er plausibel, men den eneste publikasjonen er prekliniske musedata om NPC1L1 og gallesyrer. Det finnes ingen kliniske studier, og tilstanden er svært sjelden.
-- **Kolesterolester-transferprotein (CETP)-mangel (score 99,09 %, L5, Hold):** Tilstanden gir forhøyet HDL-kolesterol og krever vanligvis ikke LDL-senkende behandling. Koblingen er kun en prediksjon fra kunnskapsgrafen, og den høye scoren gjenspeiler trolig delte nettverkskoblinger i lipidmetabolismen.
-
----
-
-## Evidens fra kliniske studier
-
-De mest relevante studiene for hyperlipoproteinemi:
-
-| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
-|---------|------|------|------|---------|
-| [NCT00753883](https://clinicaltrials.gov/study/NCT00753883) | Fase 4 | Fullført | 40 | Åpen randomisert sammenligning av ezetimib som tillegg til statin mot statin alene ved hyperkolesterolemi |
-| [NCT01984424](https://clinicaltrials.gov/study/NCT01984424) | Fase 3 | Fullført | 511 | Evolokumab mot ezetimib ved statinintoleranse (muskelrelaterte bivirkninger); ezetimib er komparator |
-| [NCT03847506](https://clinicaltrials.gov/study/NCT03847506) | Fase 4 | Fullført | 127 | Ezetimib/rosuvastatin kombinert med kandesartan/amlodipin ved hypertensjon og hyperlipidemi |
-| [NCT00092833](https://clinicaltrials.gov/study/NCT00092833) | Fase 3 | Avsluttet | 49 | Åpen behandlingsbruksstudie av ezetimib 10 mg/dag ved homozygot FH eller sitosterolemi |
-| [NCT00705211](https://clinicaltrials.gov/study/NCT00705211) | Ikke relevant (observasjonsstudie) | Fullført | 1794 | 52 ukers japansk legemiddelovervåking av Zetia (ikke randomisert) |
-| [NCT00271817](https://clinicaltrials.gov/study/NCT00271817) | Fase 3 | Fullført | 1220 | Ezetimib/simvastatin sammen med niacin ved hyperlipidemi type IIa/IIb |
-| [NCT00092573](https://clinicaltrials.gov/study/NCT00092573) | Fase 3 | Fullført | 576 | Fenofibrat og ezetimib samtidig ved blandet hyperlipidemi |
-| [NCT00093899](https://clinicaltrials.gov/study/NCT00093899) | Fase 3 | Fullført | 611 | Ezetimib/simvastatin og fenofibrat ved blandet hyperlipidemi |
-| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) | Fase 3 | Fullført | 720 | ENHANCE: ezetimib + simvastatin mot simvastatin alene ved heterozygot FH, mål på aterosklerose i halsarterien |
-| [NCT00704535](https://clinicaltrials.gov/study/NCT00704535) | Ikke relevant (observasjonsstudie) | Fullført | 4105 | Overvåking av sikkerhet og effekt av ezetimib hos filippinske pasienter |
-
-For familiær hyperkolesterolemi finnes i tillegg fase 3-studiene [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) (n=50, HoFH, fullført), [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) (n=44, langtidssikkerhet) og [NCT00867165](https://clinicaltrials.gov/study/NCT00867165) (n=138, placebokontrollert hos barn 6–10 år).
-
----
+Foreløpig er det ingen relaterte kliniske studier registrert.
 
 ## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [41206969](https://pubmed.ncbi.nlm.nih.gov/41206969/) | 2026 | RCT | JAMA | Oral PCSK9-hemmer (enlicitid) ved heterozygot FH; ezetimib er bakgrunnsbehandling |
-| [25282519](https://pubmed.ncbi.nlm.nih.gov/25282519/) | 2015 | RCT | Lancet | Evolokumab (RUTHERFORD-2) ved heterozygot FH som ikke når målverdier på statin ± ezetimib |
-| [37850379](https://pubmed.ncbi.nlm.nih.gov/37850379/) | 2024 | RCT | Circulation | Inklisiran ved homozygot FH (ORION-5) |
-| [35101175](https://pubmed.ncbi.nlm.nih.gov/35101175/) | 2022 | Kohort | Lancet | Global erfaring med homozygot FH |
-| [40682836](https://pubmed.ncbi.nlm.nih.gov/40682836/) | 2025 | Oversikt | Molecular Medicine Reports | Fremskritt innen legemidler mot hyperlipidemi |
-| [33766264](https://pubmed.ncbi.nlm.nih.gov/33766264/) | 2021 | Oversikt | J Am Coll Cardiol | Nye og kommende LDL-senkende behandlinger oppå statiner, ezetimib og PCSK9-hemmere |
-| [30702994](https://pubmed.ncbi.nlm.nih.gov/30702994/) | 2019 | Oversikt | Circulation Research | Kolesterolsenkende legemidler |
-| [25939291](https://pubmed.ncbi.nlm.nih.gov/25939291/) | 2015 | Oversikt | Cardiology Clinics | Familiær hyperkolesterolemi; ezetimib nevnt blant LDL-senkende behandlinger |
-| [29219151](https://pubmed.ncbi.nlm.nih.gov/29219151/) | 2017 | Oversikt | Nature Reviews Disease Primers | Familiær hyperkolesterolemi: genetikk, diagnostikk og behandling |
-| [23956253](https://pubmed.ncbi.nlm.nih.gov/23956253/) | 2013 | Konsensusuttalelse | European Heart Journal | FH er underdiagnostisert og underbehandlet; veiledning til klinikere |
+| [40911366](https://pubmed.ncbi.nlm.nih.gov/40911366/) | 2025 | Oversiktsartikkel | European Heart Journal | Gjennomgang av mål for lipidsenkende behandling, fra molekylære mekanismer til klinisk bruk. Omhandler ikke CETP-mangel spesifikt. |
+| [31779098](https://pubmed.ncbi.nlm.nih.gov/31779098/) | 2019 | Dyrestudie | International Journal of Molecular Sciences | Hamstermodell med Ldlr-mangel for å evaluere PCSK9-antistoff ved hyperlipidemi og aterosklerose. Ikke studert med ezetimib ved CETP-mangel. |
 
-Mesteparten av litteraturen er oversikter og studier av andre legemidler (PCSK9-hemmere) der ezetimib er bakgrunnsbehandling. Det finnes få publikasjoner som direkte tester ezetimib alene.
-
----
+Ingen av publikasjonene studerer ezetimib ved CETP-mangel direkte.
 
 ## Informasjon om det norske markedet
 
-| Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004959 | Nustendi | Ikke oppgitt | Hyperkolesterolemi; dyslipidemi |
+| EMEA/H/C/004959 | Nustendi | – | Hyperkolesterolemi, dyslipidemi |
 
-Tillatelsen er **avregistrert**. Det finnes ingen gyldige tillatelser i de innsamlede dataene, så tilgjengeligheten i Norge må verifiseres.
-
----
+Merk: Nustendi er godkjent som sentral europeisk godkjenning, og denne oppføringen er den eneste i datagrunnlaget.
 
 ## Sikkerhetsvurderinger
 
-- **Mulige kontraindikasjoner/risikotilstander (fra kunnskapsgrafen, ikke fra preparatomtale):** pankreatitt, leversykdom, galleblæresykdom, myopati, muskelsykdom, skjelettmuskelsykdom, familiær periodisk paralyse, rusmiddelmisbruk/avhengighet, rabdomyolyse og nodulær fasciitt.
-- **Legemiddelinteraksjoner:** 100 interaksjoner er registrert. Av de som er klassifisert, er følgende av moderat alvorlighetsgrad:
-  - Kenodeoksykolsyre
-  - Eluksadolin
+- **Kontraindikasjoner registrert i kunnskapsgrafen (ikke fra preparatomtale):** pankreatitt, leversykdom, galleblæresykdom, myopati, muskelsykdom, skjelettmuskelsykdom, familiær periodisk paralyse, rusmiddelmisbruk/avhengighet, rabdomyolyse og nodulær fasciitt.
+- **Legemiddelinteraksjoner:** 100 interaksjoner er registrert totalt. De som er klassifisert som moderate:
+  - Chenodeoksykolsyre
+  - Eluxadolin
   - Rosuvastatin
   - Simvastatin
 
-  Flere andre (f.eks. kalsitriol, pantoprazol, glimepirid, metformin, omeprazol, vankomycin) har ukjent alvorlighetsgrad.
+  Flere andre (bl.a. kalsitriol, pantoprazol, glimepirid, metformin, omeprazol og morfin) har ukjent alvorlighetsgrad.
 
-Informasjon om advarsler og kontraindikasjoner fra preparatomtalen mangler. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
-
----
+Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 ## Konklusjon og neste steg
 
-**Beslutning: Proceed with Guardrails (fortsett med forbehold)** for hyperlipoproteinemi og familiær hyperkolesterolemi. **Hold** for kolesterol-7α-hydroksylase-mangel og CETP-mangel.
+**Beslutning: Hold**
 
 **Begrunnelse:**
-- Evidensen er sterk (L1) fordi flere fullførte fase 3-studier støtter ezetimib ved hyperlipidemi og FH. Men dette er etablert bruk og ikke ny repurposing. De to sjeldne tilstandene mangler klinisk evidens og er kun modellprediksjoner.
+Prediksjonen bygger kun på TxGNN-modellen (dyp læring) (evidensnivå L5). Det finnes ingen kliniske studier eller litteratur som direkte studerer ezetimib ved CETP-mangel, og tilstanden er i hovedsak godartet og trenger vanligvis ikke behandling. Den høye scoren kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
-**For å gå videre kreves:**
-- Verifisere tilgjengelighet og markedsføringstillatelse i Norge, siden den eneste registrerte tillatelsen er avregistrert
-- Hente advarsler og kontraindikasjoner fra preparatomtalen (kritisk datamangel)
-- Hente detaljerte data om virkningsmekanisme fra DrugBank
-- Plan for overvåking av lever- og muskelsikkerhet og av interaksjoner med statiner og fibrater
-- Dersom de sjeldne indikasjonene skal følges opp, kreves klinisk eller translasjonell evidens først
+**For å gå videre kreves følgende:**
+- Preparatomtale med advarsler og kontraindikasjoner (mangler i dag og er et blokkerende datagap)
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Klinisk og biologisk begrunnelse for at CETP-mangel er en tilstand som bør behandles
+- Direkte studier eller mekanistiske data som knytter ezetimib til denne tilstanden
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **primær frigjørings
 |------|------|
 | Opprinnelig indikasjon | Hemofili A |
 | Predikert ny indikasjon | Primær frigjøringsforstyrrelse i blodplater (primary release disorder of platelets) |
-| TxGNN-prediksjonsscore | 99,99 % |
+| TxGNN-prediksjonsscore | 0,9999 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger (ikke markedsført) |
-| Antall godkjenninger | 1 (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -61,21 +61,21 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **primær frigjørings
 
 Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er turoctocog alfa en rekombinant, B-domene-avkortet faktor VIII som erstatter manglende faktor VIII ved hemofili A, og effekten er dokumentert for denne indikasjonen.
 
-Primær frigjøringsforstyrrelse i blodplater er en medfødt defekt i selve blodplatefunksjonen (sekresjon), ikke en mangel på faktor VIII. Det foreligger derfor ingen klar mekanistisk begrunnelse. Den svært høye TxGNN-scoren (0,9999) er en ren beregningsmessig prediksjon og er ikke underbygget av studier eller litteratur. Sannsynlig forklaring er felles tilknytning til blødningssykdommer i kunnskapsgrafen, snarere enn en reell terapeutisk sammenheng.
+Primær frigjøringsforstyrrelse i blodplater er en medfødt defekt i selve blodplatefunksjonen (sekresjon), ikke en mangel på faktor VIII. Det foreligger derfor ingen klar mekanistisk begrunnelse. Den svært høye TxGNN-scoren (0,9999) er en ren beregningsmessig prediksjon fra TxGNN-modellen (dyp læring) og er ikke underbygget av studier eller litteratur. Scoren kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 ### Andre predikerte indikasjoner (alle L5, Hold)
 
 | Rang | Sykdom | TxGNN-score | Vurdering |
 |------|------|------|------|
-| 2 | Pseudo-von Willebrand-sykdom | 99,99 % | Defekten ligger i GPIbα (gain-of-function); FVIII løser ikke dette. Svak, indirekte VWF–FVIII-kobling, spekulativ. |
-| 3 | Glanzmanns trombasteni | 99,99 % | Mangel på integrin αIIbβ3; standardbehandling er blodplatetransfusjon eller rekombinant FVIIa. |
-| 4 | Scotts syndrom | 99,95 % | Svikt i fosfatidylserin-eksponering (TMEM16F/ANO6). Teoretisk kobling via tenase-kompleks, men defekten er i membranoverflaten, ikke FVIII-mengde. |
-| 5 | Ervervet koagulasjonsfaktormangel | 99,95 % | Mekanistisk mest plausibel, men ervervet hemofili skyldes ofte autoantistoffer (inhibitorer) som begrenser nytten. Begrepet er bredt, og produktet er ikke lenger markedsført. |
-| 6 | Blødningsdiatese ved kollagenreseptordefekt | 99,91 % | Defekt i blodplatenes kollagenreseptor, uavhengig av FVIII. |
-| 7 | Blødningsforstyrrelse ved konstitusjonell trombocytopeni | 99,91 % | Defekt i antall/produksjon av blodplater; FVIII hever ikke blodplatetallet. |
-| 8 | «Flood factor deficiency» | 99,61 % | Uklart eller ikke-standard sykdomsnavn; enheten må verifiseres. |
-| 9 | Trombotisk trombocytopenisk purpura (TTP) | 99,54 % | ADAMTS13-mangel; FVIII kan øke trombaserisikoen. Potensiell sikkerhetsbekymring. |
-| 10 | Arvelig trombocytose med transversell lemdefekt | 99,52 % | Ingen kjent FVIII-relatert patofysiologi; prokoagulant middel kan være uønsket. |
+| 2 | Pseudo-von Willebrand-sykdom | 0,9999 | Defekten ligger i GPIbα (gain-of-function); FVIII løser ikke dette. Svak, indirekte VWF–FVIII-kobling, spekulativ. |
+| 3 | Glanzmanns trombasteni | 0,9999 | Mangel på integrin αIIbβ3; standardbehandling er blodplatetransfusjon eller rekombinant FVIIa. |
+| 4 | Scotts syndrom | 0,9995 | Svikt i fosfatidylserin-eksponering (TMEM16F/ANO6). Teoretisk kobling via tenase-kompleks, men defekten er i membranoverflaten, ikke FVIII-mengde. |
+| 5 | Ervervet koagulasjonsfaktormangel | 0,9995 | Mekanistisk mest plausibel, men ervervet hemofili skyldes ofte autoantistoffer (inhibitorer) som begrenser nytten. Begrepet er bredt, og produktet er ikke lenger markedsført. |
+| 6 | Blødningsdiatese ved kollagenreseptordefekt | 0,9991 | Defekt i blodplatenes kollagenreseptor, uavhengig av FVIII. |
+| 7 | Blødningsforstyrrelse ved konstitusjonell trombocytopeni | 0,9991 | Defekt i antall/produksjon av blodplater; FVIII hever ikke blodplatetallet. |
+| 8 | «Flood factor deficiency» | 0,9961 | Uklart eller ikke-standard sykdomsnavn; enheten må verifiseres. |
+| 9 | Trombotisk trombocytopenisk purpura (TTP) | 0,9954 | ADAMTS13-mangel; FVIII kan øke trombaserisikoen. Potensiell sikkerhetsbekymring. |
+| 10 | Arvelig trombocytose med transversell lemdefekt | 0,9952 | Ingen kjent FVIII-relatert patofysiologi; prokoagulant middel kan være uønsket. |
 
 ---
 

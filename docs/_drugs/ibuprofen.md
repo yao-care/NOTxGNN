@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan være effektivt mot **akromesomelisk 
 |------|------|
 | Opprinnelig indikasjon | Persistent ductus arteriosus (Ductus Arteriosus, Patent) |
 | Predikert ny indikasjon | Akromesomelisk dysplasi, Hunter-Thompson-type |
-| TxGNN-prediksjonsscore | 99,74 % |
+| TxGNN-prediksjonsscore | 0,9974 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte (opphevede) godkjenninger |
-| Antall godkjenninger | 2 (begge opphevet) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -61,9 +61,9 @@ TxGNN-modellen forutsier at legemidlet kan være effektivt mot **akromesomelisk 
 
 Data om detaljert virkningsmekanisme er foreløpig ikke tilgjengelig i datagrunnlaget. Ibuprofen er kjent som en ikke-selektiv COX-hemmer med antiinflammatorisk og smertestillende effekt. Ved PDA fører COX-hemming til redusert prostaglandinsyntese, som igjen fremmer lukking av ductus.
 
-Akromesomelisk dysplasi, Hunter-Thompson-type, er en sjelden genetisk skjelettsykdom forårsaket av funksjonstapsmutasjoner i CDMP1/GDF5, som påvirker beinvekst. Ibuprofen virker ikke på GDF5/BMP-signalveien, og det er ikke identifisert noen troverdig mekanistisk kobling til den opprinnelige indikasjonen. Den høye TxGNN-scoren (0,997) er kun en prediksjon fra kunnskapsgrafen. Ved ytterligere bruk kan ibuprofen i beste fall gi symptomatisk smertelindring, noe som ikke er en sykdomsmodifiserende indikasjon.
+Akromesomelisk dysplasi, Hunter-Thompson-type, er en sjelden genetisk skjelettsykdom forårsaket av funksjonstapsmutasjoner i CDMP1/GDF5, som påvirker beinvekst. Ibuprofen virker ikke på GDF5/BMP-signalveien, og det er ikke identifisert noen troverdig mekanistisk kobling til den opprinnelige indikasjonen. Den høye TxGNN-scoren (0,9974) er kun en prediksjon fra TxGNN-modellen (dyp læring). Ved ytterligere bruk kan ibuprofen i beste fall gi symptomatisk smertelindring, noe som ikke er en sykdomsmodifiserende indikasjon.
 
-Det er også verdt å merke seg at de øvrige topp-prediksjonene (blant annet brachyolmia, pseudoachondroplasi, brachydaktyli-syndaktyli-syndrom og myosklerose) i hovedsak er sjeldne skjelett- eller utviklingsforstyrrelser. Dette tyder på at høye scorer sannsynligvis skyldes nærhet mellom sykdomsbegreper i grafen, snarere enn en reell farmakologisk sammenheng.
+Det er også verdt å merke seg at de øvrige topp-prediksjonene (blant annet brachyolmia, pseudoachondroplasi, brachydaktyli-syndaktyli-syndrom og myosklerose) i hovedsak er sjeldne skjelett- eller utviklingsforstyrrelser. Scorene kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 ---
 
@@ -114,7 +114,7 @@ Fullstendige advarsler og kontraindikasjoner fra preparatomtalen mangler i datag
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og det finnes ingen troverdig mekanistisk kobling mellom COX-hemming og GDF5-relatert skjelettdysplasi. I tillegg har ibuprofen i dag ingen gyldige godkjenninger i Norge.
+Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og det finnes ingen troverdig mekanistisk kobling mellom COX-hemming og GDF5-relatert skjelettdysplasi. Ibuprofen er i dag markedsført i Norge, med 2 gyldige godkjenninger av 2.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

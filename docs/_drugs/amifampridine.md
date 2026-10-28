@@ -48,9 +48,10 @@ Amifampridin (3,4-diaminopyridin) brukes opprinnelig til behandling av Lambert-E
 |------|------|
 | Opprinnelig indikasjon | Lambert-Eaton myasteniske syndrom |
 | Predikert ny indikasjon | Glaukom |
-| TxGNN-prediksjonsscore | 99,71 % |
+| TxGNN-prediksjonsscore | 0,9971 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukne/avsluttede tillatelser |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Antall tillatelser | 2 (begge trukket) |
 | Anbefalt beslutning | Hold |
 
@@ -62,7 +63,7 @@ Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som
 
 Det er ikke påvist noen direkte mekanistisk kobling til glaukom (forhøyet intraokulært trykk, degenerasjon av retinale ganglieceller). En spekulativ kobling kan være modulering av kaliumkanaler i nerveceller i netthinnen eller synsnerven, men dette er ikke underbygget av de foreliggende dataene. Den høye scoren er en ren modellprediksjon og støttes ikke av kliniske data eller litteratur.
 
-Et annet predikert alternativ er **akutt intermitterende porfyri** (score 99,32 %). Koblingen her er svak: amifampridin påvirker ikke den underliggende metabolske defekten (mangel på hydroksymetylbilansyntase). I tillegg senker amifampridin krampeterskelen, og kramper kan forekomme ved akutte porfyriangrep, noe som er et sikkerhetsproblem. Også dette alternativet har evidensnivå L5 og anbefalingen Hold.
+Et annet predikert alternativ er **akutt intermitterende porfyri** (score 0,9932). Koblingen her er svak: amifampridin påvirker ikke den underliggende metabolske defekten (mangel på hydroksymetylbilansyntase). I tillegg senker amifampridin krampeterskelen, og kramper kan forekomme ved akutte porfyriangrep, noe som er et sikkerhetsproblem. Også dette alternativet har evidensnivå L5 og anbefalingen Hold.
 
 ---
 
@@ -85,7 +86,7 @@ Foreløpig er det ingen relevant litteratur tilgjengelig.
 | EMEA/H/C/001032 | Firdapse (tidligere Zenas) | – | Lambert-Eaton myasteniske syndrom |
 | EMEA/H/C/005839 | Amifampridine SERB | – | Lambert-Eaton myasteniske syndrom; paraneoplastiske syndromer i nervesystemet; neoplasmer i nervesystemet; paraneoplastiske syndromer; sykdommer i nervesystemet; autoimmune sykdommer i nervesystemet; ... |
 
-Begge tillatelsene har status trukket (cancelled), og det finnes ingen gyldige tillatelser.
+Begge tillatelsene er gyldige (2 av 2), og legemidlet er markedsført i Norge.
 
 ---
 
@@ -110,7 +111,7 @@ For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparato
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for glaukom bygger kun på modellscore (L5), uten kliniske studier, litteratur eller en påvist mekanistisk kobling. I tillegg er alle tillatelser i Norge trukket, og sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen for glaukom bygger kun på modellscore (L5), uten kliniske studier, litteratur eller en påvist mekanistisk kobling. I tillegg mangler sikkerhetsdata fra preparatomtalen.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtale (advarsler og kontraindikasjoner) for sikkerhetsscreening

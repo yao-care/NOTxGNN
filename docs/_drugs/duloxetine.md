@@ -49,9 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **benign paroksysmal to
 |------|------|
 | Opprinnelig indikasjon | Nevralgi, diabetisk nevropati, alvorlig depressiv lidelse, angstlidelser |
 | Predikert ny indikasjon | Benign paroksysmal torticollis hos spedbarn |
-| TxGNN-prediksjonsscore | 99,85 % |
+| TxGNN-prediksjonsscore | 0,9985 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellerte tillatelser (ingen gyldige) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 5 av 5) |
+| Antall godkjenninger | 5 (gyldige: 5) |
 | Antall tillatelser | 5 (alle kansellert) |
 | Anbefalt beslutning | Hold |
 
@@ -61,7 +62,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **benign paroksysmal to
 
 Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Duloksetin er kjent som en SNRI, og effekten er godt dokumentert ved depresjon, angst og nevropatisk smerte. Mekanistisk er det imidlertid vanskelig å se en klar kobling til den nye indikasjonen.
 
-Benign paroksysmal torticollis hos spedbarn regnes som en migrenerelatert tilstand i barnealder. En eventuell kobling til duloksetins hemming av serotonin- og noradrenalin-reopptak er spekulativ. Den høye scoren (0,998) er et utslag av grafbasert prediksjon og ikke av biologisk eller klinisk dokumentasjon.
+Benign paroksysmal torticollis hos spedbarn regnes som en migrenerelatert tilstand i barnealder. En eventuell kobling til duloksetins hemming av serotonin- og noradrenalin-reopptak er spekulativ. Den høye scoren (0,9985) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk eller klinisk dokumentasjon.
 
 Duloksetin er dessuten ikke godkjent for bruk hos små barn, og sikkerhet i denne aldersgruppen er en tydelig bekymring.
 
@@ -81,7 +82,7 @@ Det finnes foreløpig ingen relatert litteratur.
 
 ## Informasjon om det norske markedet
 
-Alle fem tillatelsene er sentrale EU-tillatelser (EMEA/H/C) som nå er kansellert. Duloksetin har derfor ingen gyldig markedsføringstillatelse i den kompilerte oversikten.
+Alle fem tillatelsene er sentrale EU-tillatelser (EMEA/H/C) og er gyldige. Duloksetin er markedsført, med 5 gyldige tillatelser av 5 i den kompilerte oversikten.
 
 | Tillatelsesnummer | Produktnavn | Godkjent indikasjon |
 |---------|------|-----------|
@@ -116,7 +117,7 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon, inkludert advarsler og kont
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en grafbasert modell uten kliniske studier eller litteratur, og en mekanistisk kobling er spekulativ. Pasientgruppen (spedbarn) gir i tillegg sikkerhetsmessige betenkeligheter, og duloksetin har ingen gyldig markedsføringstillatelse i oversikten.
+Prediksjonen bygger kun på TxGNN-modellen (deep learning), uten kliniske studier eller litteratur, og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. En mekanistisk kobling er spekulativ. Pasientgruppen (spedbarn) gir i tillegg sikkerhetsmessige betenkeligheter. Duloksetin er markedsført, med 5 gyldige tillatelser av 5.
 
 **For å gå videre kreves følgende:**
 - Detaljerte data om virkningsmekanisme

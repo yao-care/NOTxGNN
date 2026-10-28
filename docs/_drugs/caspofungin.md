@@ -48,10 +48,10 @@ Kaspofungin er et soppdrepende legemiddel (echinocandin) som opprinnelig brukes 
 |------|------|
 | Opprinnelig indikasjon | Candidiasis og aspergillose |
 | Predikert ny indikasjon | Abnormal gastrinsekresjon (gastrin secretion abnormality) |
-| TxGNN-prediksjonsscore | 99,44 % |
+| TxGNN-prediksjonsscore | 0,9944 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte (kansellerte) godkjenninger |
-| Antall godkjenninger | 1 (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Detaljerte data om virkningsmekanisme er ikke tilgjengelige i det innsamlede dat
 
 Pattedyrceller har ingen cellevegg av beta-glukan. Det er heller ingen kjent mekanisme som knytter denne virkningen til regulering av gastrin, funksjonen til G-celler eller utskillelse av magesyre. Det er derfor ikke etablert noen mekanistisk sammenheng mellom den opprinnelige indikasjonen (soppinfeksjoner) og den predikerte indikasjonen (forstyrrelse av gastrinsekresjon).
 
-Den høye scoren (0,994) er en ren prediksjon fra kunnskapsgrafen. Den kan skyldes nærhet i nettverket eller delte assosiasjoner med andre legemidler eller gener, og har ingen støtte i kliniske eller farmakologiske data. Siden data om opprinnelig virkningsmekanisme mangler, kunne prediksjonen heller ikke kontrolleres mot en dokumentert målprofil. Likhet med den opprinnelige indikasjonen og forenlighet med administrasjonsvei er ikke vurdert.
+Den høye scoren (0,9944) er en ren prediksjon fra TxGNN-modellen (dyp læring). Den kan skyldes nærhet i nettverket eller delte assosiasjoner med andre legemidler eller gener, og har ingen støtte i kliniske eller farmakologiske data. Siden data om opprinnelig virkningsmekanisme mangler, kunne prediksjonen heller ikke kontrolleres mot en dokumentert målprofil. Likhet med den opprinnelige indikasjonen og forenlighet med administrasjonsvei er ikke vurdert.
 
 ---
 
@@ -84,7 +84,7 @@ Foreløpig finnes det ingen relatert litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/000379 | Cancidas (tidligere Caspofungin MSD), Merck Sharp & Dohme B.V. | – | Candidiasis; aspergillose |
 
-Denne godkjenningen er kansellert, og det finnes ingen gyldige godkjenninger for enkeltprodukter eller kombinasjonsprodukter.
+Legemidlet er markedsført, og 1 av 1 godkjenning er gyldig.
 
 ---
 

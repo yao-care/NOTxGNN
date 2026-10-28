@@ -4,17 +4,17 @@ title: Tolvaptan
 parent: Kun modellprediksjon (L5)
 nav_order: 426
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Tolvaptan: predikert ny indikasjon Polycystisk nyresykdom 3, med eller uten polycystisk leversykdom (evidensnivå L5). Opprinnelig indikasjon: Syndromet med uhensiktsmessig ADH-sekresjon (SIADH)"
 monitor_inn: "TOLVAPTAN"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
+description: "Tolvaptan: predikert ny indikasjon Renal-hepatic-pancreatic dysplasia (evidensnivå L5). Opprinnelig indikasjon: Inappropriate ADH Syndrome"
 ---
 
 # Tolvaptan
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Tolvaptan: Fra syndromet med uhensiktsmessig ADH-sekresjon til polycystisk nyresykdom 3
+## Tolvaptan: Renal-hepatic-pancreatic dysplasia
 {: .text-alpha }
 
 ## Oppsummering
@@ -46,12 +46,12 @@ Tolvaptan er en selektiv vasopressin V2-reseptorantagonist. Den er opprinnelig g
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Syndromet med uhensiktsmessig ADH-sekresjon (SIADH); autosomal dominant polycystisk nyresykdom |
-| Predikert ny indikasjon | Polycystisk nyresykdom 3, med eller uten polycystisk leversykdom |
-| TxGNN-prediksjonsscore | 99,99 % |
-| Evidensnivå | L1 (se merknad under) |
-| Markedsstatus i Norge | Kun avregistrerte (kansellerte) godkjenninger |
-| Antall godkjenninger | 3 (alle kansellert) |
+| Opprinnelig indikasjon | Inappropriate ADH Syndrome; Polycystic Kidney, Autosomal Dominant |
+| Predikert ny indikasjon | Renal-hepatic-pancreatic dysplasia |
+| TxGNN-prediksjonsscore | 0.9998 |
+| Evidensnivå | L5 (se merknad under) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med sikkerhetsrammer) |
 
 *Merknad om evidensnivå:* L1 er tildelt i de kompilerte dataene fordi to store fase 3-studier finnes i litteraturen. Disse ble imidlertid gjennomført hos ADPKD-pasienter (PKD1/PKD2), ikke spesifikt ved GANAB-relatert sykdom (PKD3). Evidensen for selve den predikerte indikasjonen er derfor indirekte.

@@ -50,9 +50,10 @@ men de data som er sammenstilt for denne rapporten inneholder **ingen kliniske s
 |------|------|
 | Opprinnelig indikasjon | Migrene (Migraine Disorders) |
 | Predikert ny indikasjon | Heparinkofaktor 2-mangel |
-| TxGNN-prediksjonsscore | 99,50 % |
+| TxGNN-prediksjonsscore | 0,9950 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall markedsføringstillatelser | 1 |
 | Anbefalt beslutning | Hold |
 
@@ -62,14 +63,14 @@ men de data som er sammenstilt for denne rapporten inneholder **ingen kliniske s
 
 Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de sammenstilte dataene. Galcanezumab er imidlertid kjent som et monoklonalt antistoff som nøytraliserer liganden CGRP (calcitonin gene-related peptide), og effekten ved migrene er knyttet til blokkering av denne signalveien.
 
-Heparinkofaktor 2-mangel skyldes en defekt i et serinproteasehemmende protein (SERPIND1) i koagulasjonssystemet. Det er ikke identifisert noen plausibel biologisk kobling mellom CGRP-blokkade og denne tilstanden. Den høye TxGNN-scoren er en ren kunnskapsgraf-prediksjon uten støtte i mekanistiske, kliniske eller litteraturbaserte data.
+Heparinkofaktor 2-mangel skyldes en defekt i et serinproteasehemmende protein (SERPIND1) i koagulasjonssystemet. Det er ikke identifisert noen plausibel biologisk kobling mellom CGRP-blokkade og denne tilstanden. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Den har ingen støtte i mekanistiske, kliniske eller litteraturbaserte data.
 
 **Andre predikerte indikasjoner med tilsvarende svak støtte** (alle L5, anbefaling Hold, ingen studier eller publikasjoner):
 
 | Rangering | Predikert indikasjon | TxGNN-score | Kommentar |
 |------|------|------|------|
-| 2 | Antitrombinmangel type 2 | 99,41 % | Ingen mekanistisk sammenheng mellom CGRP-blokkade og SERPINC1-defekter. Å behandle en trombofil tilstand med et legemiddel uten kjent antikoagulerende effekt vekker sikkerhetsbekymringer. |
-| 3 | Faktor 5-overskudd med spontan trombose | 99,41 % | Ingen kjent kobling. CGRP er en vasodilatator, så vaskulære effekter av CGRP-hemming må vurderes før et slikt forslag kan gå videre. |
+| 2 | Antitrombinmangel type 2 | 0,9941 | Ingen mekanistisk sammenheng mellom CGRP-blokkade og SERPINC1-defekter. Å behandle en trombofil tilstand med et legemiddel uten kjent antikoagulerende effekt vekker sikkerhetsbekymringer. |
+| 3 | Faktor 5-overskudd med spontan trombose | 0,9941 | Ingen kjent kobling. CGRP er en vasodilatator, så vaskulære effekter av CGRP-hemming må vurderes før et slikt forslag kan gå videre. |
 
 ---
 
@@ -91,7 +92,7 @@ Det finnes for øyeblikket ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/004648 | Emgality | – | Migrene (Migraine Disorders) |
 
-Tillatelsen har status kansellert. Det finnes ingen gyldige tillatelser i dataene.
+Tillatelsen er gyldig. Legemidlet er markedsført i Norge, og 1 av 1 tillatelse er gyldig.
 
 ---
 
@@ -108,7 +109,7 @@ Merk likevel følgende fra den mekanistiske vurderingen: de predikerte indikasjo
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonene bygger utelukkende på en kunnskapsgrafscore (evidensnivå L5) uten kliniske studier, litteratur eller plausibel mekanistisk kobling. I tillegg er den eneste markedsføringstillatelsen i Norge kansellert, og relevante sikkerhetsdata mangler.
+Prediksjonene bygger utelukkende på en score fra TxGNN-modellen (deep learning) (evidensnivå L5), som kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens, uten kliniske studier, litteratur eller plausibel mekanistisk kobling. Legemidlet er markedsført i Norge med 1 gyldig tillatelse av 1, men relevante sikkerhetsdata mangler.
 
 **For å gå videre kreves følgende:**
 - Pakningsvedlegg med advarsler og kontraindikasjoner (hindrer for øyeblikket sikkerhetsscreening)

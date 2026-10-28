@@ -4,7 +4,7 @@ title: Simoctocog Alfa
 parent: Kun modellprediksjon (L5)
 nav_order: 384
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Simoctocog Alfa: predikert ny indikasjon Pseudo-von Willebrand sykdom (evidensnivå L5). Opprinnelig indikasjon: Hemofili A"
 monitor_inn: "SIMOCTOCOG ALFA"
@@ -14,7 +14,7 @@ predicted_indications: ["pseudo-von Willebrand disease", "primary release disord
 # Simoctocog Alfa
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **pseudo-von Willebran
 |------|------|
 | Opprinnelig indikasjon | Hemofili A |
 | Predikert ny indikasjon | Pseudo-von Willebrand sykdom |
-| TxGNN-prediksjonsscore | 99,997 % |
+| TxGNN-prediksjonsscore | 1,0000 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte (trukket fra markedet) |
-| Antall godkjenninger | 2 (begge avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -67,15 +67,14 @@ Det samme mønsteret gjelder for de øvrige predikerte indikasjonene (rangert 2�
 
 | Rang | Predikert sykdom | Score | Vurdering |
 |---|---|---|---|
-| 2 | Primær frigjøringsdefekt av blodplater | 99,997 % | Defekt i blodplatesekresjon; FVIII korrigerer ikke dette |
-| 3 | Glanzmanns trombasteni | 99,995 % | Defekt i integrin αIIbβ3; standardbehandling er blodplatetransfusjon eller rFVIIa |
-| 4 | Scotts syndrom | 99,969 % | Svak teoretisk kobling via tenase-komplekset, men ingen evidens |
-| 5 | Ervervet koagulasjonsfaktormangel | 99,952 % | Mekanistisk mest plausibel, men heterogen kategori; ervervet hemofili behandles vanligvis med bypass-midler |
-| 6 | Blødningstendens ved kollagenreseptordefekt | 99,921 % | FVIII adresserer ikke reseptordefekten |
-| 7 | Blødningslidelse ved konstitusjonell trombocytopeni | 99,917 % | Lavt blodplatetall/-funksjon, ikke FVIII-mangel |
-| 8 | Føtal og neonatal alloimmun trombocytopeni | 99,845 % | Alloimmun blodplateødeleggelse; FVIII har ingen rolle |
-| 9 | Hemofili A med vaskulær abnormitet | 99,779 % | Dekkes i praksis av den godkjente hemofili A-indikasjonen; ikke en reell ny indikasjon |
-| 10 | Trombotisk trombocytopenisk purpura (TTP) | 99,724 % | Potensiell sikkerhetsrisiko: økt FVIII kan øke trombosefaren |
+| 2 | Primær frigjøringsdefekt av blodplater | 1,0000 | Defekt i blodplatesekresjon; FVIII korrigerer ikke dette |
+| 3 | Glanzmanns trombasteni | 1,0000 | Defekt i integrin αIIbβ3; standardbehandling er blodplatetransfusjon eller rFVIIa |
+| 4 | Scotts syndrom | 0,9997 | Svak teoretisk kobling via tenase-komplekset, men ingen evidens |
+| 5 | Ervervet koagulasjonsfaktormangel | 0,9995 | Mekanistisk mest plausibel, men heterogen kategori; ervervet hemofili behandles vanligvis med bypass-midler |
+| 6 | Blødningstendens ved kollagenreseptordefekt | 0,9992 | FVIII adresserer ikke reseptordefekten |
+| 7 | Blødningslidelse ved konstitusjonell trombocytopeni | 0,9992 | Lavt blodplatetall/-funksjon, ikke FVIII-mangel |
+| 8 | Føtal og neonatal alloimmun trombocytopeni | 0,9984 | Alloimmun blodplateødeleggelse; FVIII har ingen rolle |
+| 10 | Trombotisk trombocytopenisk purpura (TTP) | 0,9972 | Potensiell sikkerhetsrisiko: økt FVIII kan øke trombosefaren |
 
 ---
 
@@ -95,10 +94,10 @@ Foreløpig finnes det ingen relevant litteratur.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/002813 | Nuwiq | Ikke oppgitt | Hemofili A (avregistrert) |
-| EMEA/H/C/004459 | Vihuma | Ikke oppgitt | Hemofili A (avregistrert) |
+| EMEA/H/C/002813 | Nuwiq | Ikke oppgitt | Hemofili A (godkjent) |
+| EMEA/H/C/004459 | Vihuma | Ikke oppgitt | Hemofili A (godkjent) |
 
-Begge godkjenningene er avregistrert, og det finnes ingen gyldige markedsføringstillatelser.
+Legemidlet er markedsført, og begge markedsføringstillatelsene (2 av 2) er gyldige.
 
 ---
 

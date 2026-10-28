@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at det kan ha effekt mot **diffus kutan leishmaniasis**
 |------|------|
 | Opprinnelig indikasjon | Bakteriell lungebetennelse; samfunnservervede infeksjoner |
 | Predikert ny indikasjon | Diffus kutan leishmaniasis |
-| TxGNN-prediksjonsscore | 99,24 % |
+| TxGNN-prediksjonsscore | 0,9924 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert/trukket tilbake |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -63,14 +63,14 @@ Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de inns
 
 Leishmania er en eukaryot protozo, og den bakterielle ribosommekanismen har ingen etablert kobling til parasitten. En mulig effekt på parasittens mitokondrielle ribosomer er spekulativ og støttes ikke av data. Standardbehandlingene for sykdommen (f.eks. antimonpreparater, amfotericin B og miltefosin) virker via andre mekanismer.
 
-Den høye TxGNN-scoren (0,992) er derfor å regne som en ren modellprediksjon uten biologisk eller klinisk støtte. Den kan gjenspeile artefakter i kunnskapsgrafen.
+Den høye TxGNN-scoren (0,9924) er derfor å regne som en ren modellprediksjon uten biologisk eller klinisk støtte. Scoren kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 ### Andre predikerte indikasjoner
 
 | Rang | Sykdom | TxGNN-score | Evidensnivå | Vurdering |
 |------|------|------|------|------|
-| 2 | Polyklonalt hyperviskositetssyndrom | 99,10 % | L5 | Ingen plausibel mekanistisk kobling; sannsynlig grafartefakt |
-| 3 | Hyperamylasemi | 99,10 % | L5 | Laboratoriefunn, ikke en sykdom et antibiotikum forventes å behandle; relevans gjelder snarere overvåking av bivirkninger |
+| 2 | Polyklonalt hyperviskositetssyndrom | 0,9910 | L5 | Ingen plausibel mekanistisk kobling; sannsynlig grafartefakt |
+| 3 | Hyperamylasemi | 0,9910 | L5 | Laboratoriefunn, ikke en sykdom et antibiotikum forventes å behandle; relevans gjelder snarere overvåking av bivirkninger |
 
 Ingen av disse har kliniske studier eller litteratur.
 
@@ -94,7 +94,7 @@ Foreløpig finnes det ingen relevant litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/005048 | Xenleta | Ikke oppgitt | Bakteriell lungebetennelse; samfunnservervede infeksjoner |
 
-Denne godkjenningen har status avregistrert/trukket tilbake. Det finnes ingen gyldige godkjenninger for tiden.
+Denne godkjenningen har status gyldig. Legemidlet er markedsført, og 1 av 1 godkjenning er gyldig.
 
 ---
 
@@ -123,7 +123,7 @@ Prediksjonen bygger kun på en modellscore (L5) uten kliniske studier, litteratu
 - Prekliniske data (in vitro-aktivitet mot Leishmania og dyremodeller)
 - Preparatomtale med advarsler og kontraindikasjoner for å gjennomføre sikkerhetsscreening
 - Avklaring av markedsstatus og tilgjengelige administrasjonsveier
-- Vurdering av om prediksjonen er en artefakt i kunnskapsgrafen
+- Vurdering av om prediksjonen bare gjenspeiler likheter TxGNN-modellen har lært mellom beslektede sykdommer, ikke biologisk evidens
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

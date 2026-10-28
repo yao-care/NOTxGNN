@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rivastigmine
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 366
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Rivastigmine: predikert ny indikasjon Glaukom (evidensnivå L4). Opprinnelig indikasjon: Demens, Alzheimers sykdom og Parkinsons sykdom"
 monitor_inn: "RIVASTIGMINE"
 predicted_indications: ["glaucoma"]
+description: "Rivastigmine: predikert ny indikasjon Glaukom (glaucoma) (evidensnivå L5). Opprinnelig indikasjon: Dementia"
 ---
 
 # Rivastigmine
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-## Rivastigmin: Fra demens ved Alzheimers og Parkinsons sykdom til glaukom
+## Rivastigmine: Glaukom (glaucoma)
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -48,11 +48,12 @@ men støtten er foreløpig begrenset til **0 kliniske studier** og **3 publikasj
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Demens, Alzheimers sykdom og Parkinsons sykdom |
-| Predikert ny indikasjon | Glaukom |
-| TxGNN-prediksjonsscore | 99,27 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun trukkede (kansellerte) tillatelser |
+| Opprinnelig indikasjon | Dementia;Alzheimer Disease;Parkinson Disease; Alzheimer Disease;Dementia;Parkinson Disease; Alzheimer Disease;Parkinson Disease;Dementia |
+| Predikert ny indikasjon | Glaukom (glaucoma) |
+| TxGNN-prediksjonsscore | 0.9927 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 6 av 6) |
+| Antall godkjenninger | 6 (gyldige: 6) |
 | Antall tillatelser | 6 (alle kansellert) |
 | Anbefalt beslutning | Hold |
 
@@ -80,7 +81,6 @@ Vær oppmerksom på at dokumentasjonen kun er preklinisk og beregningsbasert. De
 
 ## Markedsinformasjon for Norge
 
-Alle seks tillatelser er kansellert, og ingen er gyldige i dag.
 
 | Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -120,7 +120,6 @@ Evidensen er begrenset til én kaninstudie og to oversiktsarbeider, uten klinisk
 - Detaljerte data om virkningsmekanisme (MOA)
 - Humane data på effekt og okulær sikkerhet for rivastigmin ved glaukom, inkludert en vurdering av egnet administrasjonsvei (f.eks. lokal øyeapplikasjon)
 - Vurdering av kontraindikasjoner og interaksjoner (bl.a. bradykardi/hjerteledningsforstyrrelser, astma/KOLS og antikolinerge midler) i en eventuell glaukompopulasjon
-- Avklaring av regulatorisk status, siden ingen tillatelse er gyldig i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

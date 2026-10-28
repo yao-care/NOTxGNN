@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt mot **hypertrikose**
 |------|------|
 | Opprinnelig indikasjon | Ovulasjon; ovulasjonsinduksjon |
 | Predikert ny indikasjon | Hypertrikose |
-| TxGNN-prediksjonsscore | 99,98 % |
+| TxGNN-prediksjonsscore | 0,9998 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (avregistrert) |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -61,21 +61,21 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt mot **hypertrikose**
 
 Cetrorelix blokkerer GnRH-reseptoren (GNRHR) i hypofysen og demper dermed utskillelsen av LH og FSH. Det reduserer i sin tur produksjonen av kjønnshormoner, inkludert androgener fra gonadene. Detaljerte data om virkningsmekanisme fra legemiddeldatabasen var ikke tilgjengelige i datamaterialet som er samlet inn til denne rapporten, så beskrivelsen bygger på kjent farmakologi.
 
-Teoretisk kan lavere androgenpådriv hjelpe ved androgenavhengig hirsutisme. Hypertrikose er imidlertid vanligvis androgenuavhengig, så den mekanistiske koblingen er svak. Den høye TxGNN-scoren er et resultat av beregninger i en kunnskapsgraf, ikke av farmakologiske eller kliniske funn.
+Teoretisk kan lavere androgenpådriv hjelpe ved androgenavhengig hirsutisme. Hypertrikose er imidlertid vanligvis androgenuavhengig, så den mekanistiske koblingen er svak. Den høye TxGNN-scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens eller farmakologiske eller kliniske funn.
 
 ### Andre predikerte indikasjoner (alle uten kliniske studier eller litteratur)
 
 | Rangering | Sykdom | Score | Biologisk plausibilitet |
 |------|------|------|------|
-| 2 | Ambras-type hypertrichosis universalis congenita | 99,97 % | Ingen klar mekanisme (genomisk omlegging som påvirker TRPS1) |
-| 3 | Misdannelsessyndrom med tann-/periodontal komponent | 99,97 % | Ingen plausibel kobling |
-| 4 | Syndrom med Dandy-Walker-malformasjon | 99,96 % | Ingen mekanisme for strukturell hjernemisdannelse |
-| 5 | Isolert genetisk hårskaftavvik | 99,96 % | Ingen etablert effekt |
-| 6 | Persisterende føtal sirkulasjon | 99,67 % | Ingen relevans; sikkerhetsbekymringer hos nyfødte |
-| 7 | Familiær isolert trikomegali | 99,63 % | Spekulativ kobling |
-| 8 | Familiær mannsbegrenset tidlig pubertet | 99,55 % | Begrenset; reseptormutasjonen virker nedstrøms for GnRH (forskningsspørsmål) |
-| 9 | Aromataseoverskuddssyndrom | 99,53 % | Svak; aromatasehemmere er logisk behandling |
-| 10 | Sentral tidlig pubertet | 99,29 % | Mest biologisk plausibel (forskningsspørsmål) |
+| 2 | Ambras-type hypertrichosis universalis congenita | 0,9997 | Ingen klar mekanisme (genomisk omlegging som påvirker TRPS1) |
+| 3 | Misdannelsessyndrom med tann-/periodontal komponent | 0,9997 | Ingen plausibel kobling |
+| 4 | Syndrom med Dandy-Walker-malformasjon | 0,9996 | Ingen mekanisme for strukturell hjernemisdannelse |
+| 5 | Isolert genetisk hårskaftavvik | 0,9996 | Ingen etablert effekt |
+| 6 | Persisterende føtal sirkulasjon | 0,9967 | Ingen relevans; sikkerhetsbekymringer hos nyfødte |
+| 7 | Familiær isolert trikomegali | 0,9963 | Spekulativ kobling |
+| 8 | Familiær mannsbegrenset tidlig pubertet | 0,9955 | Begrenset; reseptormutasjonen virker nedstrøms for GnRH (forskningsspørsmål) |
+| 9 | Aromataseoverskuddssyndrom | 0,9953 | Svak; aromatasehemmere er logisk behandling |
+| 10 | Sentral tidlig pubertet | 0,9929 | Mest biologisk plausibel (forskningsspørsmål) |
 
 Av disse er **sentral tidlig pubertet** den mest biologisk sammenhengende kandidaten, siden sykdommen skyldes tidlig aktivering av hypothalamus–hypofyse–gonade-aksen. GnRH-agonister er standardbehandling, og en antagonist som cetrorelix kan i teorien gi rask LH/FSH-suppresjon. Cetrorelix har imidlertid kort virketid, og det finnes ingen pediatriske data i materialet.
 
@@ -99,7 +99,7 @@ Foreløpig er det ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/000233 | Cetrotide (Merck Europe B.V.) | – | Ovulasjon; ovulasjonsinduksjon |
 
-Denne godkjenningen har status som trukket tilbake, og det finnes ingen gyldige markedsføringstillatelser.
+Dette legemidlet er markedsført, og 1 av 1 markedsføringstillatelse er gyldig.
 
 ---
 

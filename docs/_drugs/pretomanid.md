@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at det kan ha effekt mot **candidiasis**, men det finne
 |------|------|
 | Opprinnelig indikasjon | Multiresistent tuberkulose |
 | Predikert ny indikasjon | Candidiasis |
-| TxGNN-prediksjonsscore | 99,69 % |
+| TxGNN-prediksjonsscore | 0,9969 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (tillatelsen er trukket tilbake) |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen forutsier at det kan ha effekt mot **candidiasis**, men det finne
 
 For tiden foreligger det ikke detaljerte data om virkningsmekanismen i dataene som er samlet inn for denne rapporten. Basert på kjent informasjon er pretomanid et nitroimidazooksazin-prodrug som aktiveres av nitroreduktasen Ddn i *Mycobacterium tuberculosis*. Det hemmer syntesen av mykolsyre og frigjør nitrogenoksid under anaerobe forhold.
 
-Sopp som *Candida* mangler både Ddn-veien og mykolsyrer. Det finnes derfor ingen mekanistisk kobling mellom den opprinnelige indikasjonen og candidiasis. Den svært høye TxGNN-scoren (0,997) må tolkes som en ren beregningsmessig prediksjon uten biologisk eller klinisk validering.
+Sopp som *Candida* mangler både Ddn-veien og mykolsyrer. Det finnes derfor ingen mekanistisk kobling mellom den opprinnelige indikasjonen og candidiasis. Den svært høye TxGNN-scoren (0,9969) må tolkes som en ren beregningsmessig prediksjon uten biologisk eller klinisk validering.
 
 For oversiktens skyld: blant de fem predikerte indikasjonene har **lepra** det mest plausible biologiske grunnlaget. *Mycobacterium leprae* er i slekt med *M. tuberculosis*, men det er ikke vist at M. leprae har et Ddn-lignende aktiverende enzym. Alle åtte publikasjoner som ble funnet under lepra-prediksjonen handler om legemiddelresistent tuberkulose og gir kun indirekte kontekst. De øvrige prediksjonene (koronarsykdom, hjerteiskemi og anomal venstre koronararterie fra lungearterien) har ingen rimelig mekanistisk begrunnelse.
 
@@ -85,7 +85,7 @@ Foreløpig er det ingen relevant litteratur for candidiasis.
 |---------|------|------|-----------|
 | EMEA/H/C/005167 | Dovprela (tidligere Pretomanid FGK) | Ikke oppgitt | Multiresistent tuberkulose |
 
-Merk: Godkjenningen har status «avregistrert», og det finnes ingen gyldige tillatelser for øyeblikket.
+Merk: Legemidlet er markedsført, og 1 av 1 tillatelser er gyldig.
 
 ---
 

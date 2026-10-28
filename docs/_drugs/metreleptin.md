@@ -49,9 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **familiær generalise
 |------|------|
 | Opprinnelig indikasjon | Familiær partiell lipodystrofi |
 | Predikert ny indikasjon | Familiær generalisert lentiginose |
-| TxGNN-prediksjonsscore | 99,71 % |
+| TxGNN-prediksjonsscore | 0,9971 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -61,7 +62,7 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **familiær generalise
 
 Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Metreleptin er imidlertid kjent som en rekombinant leptin-analog som virker på leptinreseptorer og korrigerer leptinmangel ved lipodystrofi.
 
-Familiær generalisert lentiginose er en pigmentforstyrrelse uten kjent leptinavhengig signalvei. Det er dermed ingen etablert mekanistisk kobling mellom den opprinnelige indikasjonen (leptinmangel ved lipodystrofi) og den predikerte indikasjonen. Den høye scoren (0,997) er en prediksjon fra en kunnskapsgraf og understøttes ikke av biologiske eller kliniske data.
+Familiær generalisert lentiginose er en pigmentforstyrrelse uten kjent leptinavhengig signalvei. Det er dermed ingen etablert mekanistisk kobling mellom den opprinnelige indikasjonen (leptinmangel ved lipodystrofi) og den predikerte indikasjonen. Den høye scoren (0,9971) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Den understøttes ikke av biologiske eller kliniske data.
 
 Også de øvrige topp-10-prediksjonene (blant andre gastrokutant syndrom, Moynahan syndrom, rabdoid tumor, benign binyrebarksvulst og perifert nerveskjede-schwannom) mangler dokumentert mekanistisk rasjonale og kliniske data. For svulstlidelser som rabdoid tumor og schwannom kan leptins vekstfremmende effekt i enkelte modeller snarere utgjøre et sikkerhetsproblem enn et behandlingsrasjonale.
 

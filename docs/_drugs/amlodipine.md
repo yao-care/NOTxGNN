@@ -4,7 +4,7 @@ title: Amlodipine
 parent: Kun modellprediksjon (L5)
 nav_order: 31
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Amlodipine: predikert ny indikasjon Hjernestamme­infarkt (brain stem infarction) (evidensnivå L5). Opprinnelig indikasjon: Hypertensjon"
 monitor_inn: "AMLODIPINE"
@@ -14,7 +14,7 @@ predicted_indications: ["brain stem infarction", "pulmonary hypertension with un
 # Amlodipine
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ For denne indikasjonen er det foreløpig **0 kliniske studier** og **0 publikasj
 |------|------|
 | Opprinnelig indikasjon | Hypertensjon |
 | Predikert ny indikasjon | Hjernestamme­infarkt (brain stem infarction) |
-| TxGNN-prediksjonsscore | 99,94 % |
+| TxGNN-prediksjonsscore | 0,9994 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte/tilbakekalte godkjenninger |
-| Antall godkjenninger | 8 (alle avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 8 av 8) |
+| Antall godkjenninger | 8 (gyldige: 8) |
 | Anbefalt beslutning | Hold (avvent) |
 
 ---
@@ -84,11 +84,11 @@ Alle åtte godkjenningene er avregistrert. De fem første er vist nedenfor. Dose
 
 | Godkjenningsnummer | Produktnavn | Status | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000716 | Exforge | Avregistrert | Hypertensjon |
-| EMEA/H/C/000776 | Dafiro | Avregistrert | Hypertensjon |
-| EMEA/H/C/000774 | Copalia | Avregistrert | Hypertensjon |
-| EMEA/H/C/001224 | Twynsta | Avregistrert | Hypertensjon |
-| EMEA/H/C/004037 | Amlodipine / Valsartan Mylan | Avregistrert | Hypertensjon |
+| EMEA/H/C/000716 | Exforge | Godkjent | Hypertensjon |
+| EMEA/H/C/000776 | Dafiro | Godkjent | Hypertensjon |
+| EMEA/H/C/000774 | Copalia | Godkjent | Hypertensjon |
+| EMEA/H/C/001224 | Twynsta | Godkjent | Hypertensjon |
+| EMEA/H/C/004037 | Amlodipine / Valsartan Mylan | Godkjent | Hypertensjon |
 
 ---
 
@@ -125,7 +125,7 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonsscoren er svært høy (99,94 %), men det finnes verken kliniske studier eller litteratur for hjernestamme­infarkt. Evidensen er derfor på nivå L5 (kun modellprediksjon).
+Prediksjonsscoren er svært høy (0,9994), men det finnes verken kliniske studier eller litteratur for hjernestamme­infarkt. Evidensen er derfor på nivå L5 (kun modellprediksjon).
 
 **For å gå videre trengs følgende:**
 - Data om virkningsmekanisme (MOA)

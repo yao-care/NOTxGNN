@@ -4,7 +4,7 @@ title: Sebelipase Alfa
 parent: Kun modellprediksjon (L5)
 nav_order: 377
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Sebelipase Alfa: predikert ny indikasjon Scheie syndrom (evidensnivå L5). Opprinnelig indikasjon: Medfødte feil i lipidmetabolismen"
 monitor_inn: "SEBELIPASE ALFA"
@@ -14,7 +14,7 @@ predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone in
 # Sebelipase Alfa
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Dette er en ren modellprediksjon (evidensnivå L5).
 |------|------|
 | Opprinnelig indikasjon | Medfødte feil i lipidmetabolismen |
 | Predikert ny indikasjon | Scheie syndrom |
-| TxGNN-prediksjonsscore | 99,80 % |
+| TxGNN-prediksjonsscore | 0,9980 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldige godkjenninger) |
-| Antall godkjenninger | 1 (avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagru
 
 Scheie syndrom skyldes mangel på enzymet alfa-L-iduronidase. Sebelipase alfa erstatter et annet enzym, lysosomal syrelipase, som bryter ned kolesterolestere og triglyserider. Substratene er ulike: glykosaminoglykaner ved Scheie syndrom, kolesterolestere og triglyserider ved LAL-mangel. Legemidlet kan derfor ikke erstatte det manglende enzymet.
 
-Den høye prediksjonsscoren gjenspeiler trolig bare at begge sykdommene er lysosomale lagringssykdommer i kunnskapsgrafen. Den er ikke et uttrykk for en reell biologisk kobling.
+Den høye prediksjonsscoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 **Andre prediksjoner blant de ti øverste:** Datagrunnlaget gir langt sterkere støtte for to andre prediksjoner. Begge ligger nær legemidlets opprinnelige bruksområde og er egentlig ikke reell repurposing:
 
@@ -92,7 +92,7 @@ Foreløpig ingen relevant litteratur tilgjengelig for Scheie syndrom.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004004 | Kanuma | Ikke oppgitt | Medfødte feil i lipidmetabolismen (status: avregistrert) |
+| EMEA/H/C/004004 | Kanuma | Ikke oppgitt | Medfødte feil i lipidmetabolismen (status: godkjent) |
 
 ---
 
@@ -107,7 +107,7 @@ Se preparatomtalen for sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for Scheie syndrom mangler både mekanistisk støtte og kliniske data. Sebelipase alfa erstatter ikke det manglende enzymet (alfa-L-iduronidase). Legemidlet har dessuten ingen gyldig godkjenning i Norge.
+Prediksjonen for Scheie syndrom mangler både mekanistisk støtte og kliniske data. Sebelipase alfa erstatter ikke det manglende enzymet (alfa-L-iduronidase). Legemidlet er markedsført i Norge, og den ene markedsføringstillatelsen er gyldig.
 
 **For å gå videre kreves følgende:**
 - Pakningsvedlegg og preparatomtale med advarsler og kontraindikasjoner må innhentes og vurderes, siden dette er en blokkerende datamangel.

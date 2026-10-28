@@ -48,10 +48,10 @@ Tobramycin er et aminoglykosid-antibiotikum som opprinnelig brukes mot luftveisi
 |------|------|
 | Opprinnelig indikasjon | Luftveisinfeksjoner; cystisk fibrose |
 | Predikert ny indikasjon | Eksposjonskeratitt (exposure keratitis) |
-| TxGNN-prediksjonsscore | 99,93 % |
+| TxGNN-prediksjonsscore | 0,9993 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun tilbakekalte/avsluttede godkjenninger |
-| Antall godkjenninger | 2 (begge avsluttet) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold (avvent) |
 
 ---

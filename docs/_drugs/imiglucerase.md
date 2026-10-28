@@ -6,7 +6,7 @@ nav_order: 210
 evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-15
-description: "Imiglucerase: predikert ny indikasjon Hurlers syndrom (evidensnivå L4). Opprinnelig indikasjon: Gauchers sykdom"
+description: "Imiglucerase: predikert ny indikasjon Hurler syndrome (evidensnivå L4). Opprinnelig indikasjon: Gauchers sykdom"
 monitor_inn: "IMIGLUCERASE"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-## Imiglucerase: Fra Gauchers sykdom til Hurlers syndrom
+## Imiglucerase: Fra Gauchers sykdom til Hurler syndrome
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -50,10 +50,10 @@ Koblingen er på klassenivå (enzymerstatning ved lysosomale lagringssykdommer) 
 |------|------|
 | Opprinnelig indikasjon | Gauchers sykdom |
 | Foreslått ny indikasjon | Hurlers syndrom |
-| TxGNN-prediksjonsscore | 99,52 % |
+| TxGNN-prediksjonsscore | 0,9952 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun tilbakekalte/avsluttede godkjenninger (ikke markedsført) |
-| Antall godkjenninger | 1 (0 gyldige, 1 tilbakekalt) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -70,10 +70,10 @@ Substratene er imidlertid forskjellige. Imiglucerase har ingen aktivitet mot idu
 
 | Rang | Sykdom | Score | Evidensnivå | Vurdering |
 |------|------|------|------|------|
-| 2 | Scheies syndrom | 99,29 % | L4 | Svak form av MPS I. Samme begrensning som Hurlers syndrom. Støttes kun av en generell oversiktsartikkel. |
-| 3 | Godartet svulst i binyre | 99,28 % | L5 | Ingen identifiserbar mekanistisk kobling. Sannsynligvis en artefakt i kunnskapsgrafen. |
-| 4 | Autosomal ichthyosis-syndrom med dødelig forløp | 99,24 % | L5 | Mulig indirekte kobling via ceramidmetabolisme i huden, men spekulativ. |
-| 5 | Kolesterylester-lagringssykdom | 99,12 % | L5 | Skyldes mangel på lysosomal sur lipase. Imiglucerase virker ikke på kolesterylestere. Godkjent behandling er sebelipase alfa. |
+| 2 | Scheies syndrom | 0,9929 | L5 | Svak form av MPS I. Samme begrensning som Hurlers syndrom. Støttes kun av en generell oversiktsartikkel. |
+| 3 | Godartet svulst i binyre | 0,9928 | L5 | Ingen identifiserbar mekanistisk kobling. Scoren kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. |
+| 4 | Autosomal ichthyosis-syndrom med dødelig forløp | 0,9924 | L5 | Mulig indirekte kobling via ceramidmetabolisme i huden, men spekulativ. |
+| 5 | Kolesterylester-lagringssykdom | 0,9912 | L5 | Skyldes mangel på lysosomal sur lipase. Imiglucerase virker ikke på kolesterylestere. Godkjent behandling er sebelipase alfa. |
 
 ---
 

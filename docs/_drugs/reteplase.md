@@ -4,17 +4,17 @@ title: Reteplase
 parent: Kun modellprediksjon (L5)
 nav_order: 357
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Reteplase: predikert ny indikasjon Posteroinferiørt myokardinfarkt (evidensnivå L5). Opprinnelig indikasjon: Myokardinfarkt"
 monitor_inn: "RETEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "heparin cofactor 2 deficiency", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "antithrombin deficiency type 2", "hemolytic anemia due to glucophosphate isomerase deficiency"]
+description: "Reteplase: predikert ny indikasjon Congenital coronary artery anomaly (evidensnivå L5). Opprinnelig indikasjon: Myocardial Infarction"
 ---
 
 # Reteplase
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Reteplase: Fra myokardinfarkt til posteroinferiørt myokardinfarkt
+## Reteplase: Congenital coronary artery anomaly
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -45,24 +45,23 @@ TxGNN-modellen predikerer at det kan være effektivt ved **posteroinferiørt myo
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Myokardinfarkt |
-| Predikert ny indikasjon | Posteroinferiørt myokardinfarkt |
-| TxGNN-prediksjonsscore | 99,90 % |
+| Opprinnelig indikasjon | Myocardial Infarction |
+| Predikert ny indikasjon | Congenital coronary artery anomaly |
+| TxGNN-prediksjonsscore | 0.9980 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (kansellert) |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ## Hvorfor er denne prediksjonen rimelig?
 
 Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon er reteplase en rekombinant vevsplasminogenaktivator som omdanner plasminogen til plasmin og dermed løser opp blodpropper i kransarteriene. Effekten ved akutt myokardinfarkt er etablert, og mekanismen kan i prinsippet også gjelde for anatomiske undertyper av infarkt.
 
-Posteroinferiørt myokardinfarkt er en anatomisk undertype av den godkjente indikasjonen. Dette er derfor ikke en reell ompakking av legemidlet (repurposing), men faller inn under den opprinnelige indikasjonen. Den høye TxGNN-scoren (0,999) gjenspeiler mest sannsynlig nærheten til myokardinfarkt i kunnskapsgrafen, snarere enn ny evidens.
+Posteroinferiørt myokardinfarkt er en anatomisk undertype av den godkjente indikasjonen. Dette er derfor ikke en reell ompakking av legemidlet (repurposing), men faller inn under den opprinnelige indikasjonen.
 
 For andre høyt rangerte prediksjoner er bildet svakere:
 - **Posterolateralt og septalt myokardinfarkt:** Også undertyper av myokardinfarkt. Kun enkeltstående kasuistikker er koblet til disse, og de viser ikke effekt av reteplase for den aktuelle undertypen.
 - **Koronarstenose (rang 5):** Eneste prediksjon med noe relevant litteratur (evidensnivå L4), men studiene er sekundæranalyser eller studier av «facilitert PCI» hos infarktpasienter, og evidensen er indirekte.
-- **Prediksjoner uten mekanistisk kobling (rang 6–10 og kongenitale tilstander):** Arvelig trombofili, kromosomdelesjon, beta-talassemi og enzymmangel i røde blodceller mangler plausibel kobling til reteplase og er trolig artefakter fra kunnskapsgrafen.
 
 ## Klinisk studieevidens
 
@@ -86,7 +85,6 @@ For posteroinferiørt myokardinfarkt finnes foreløpig ingen relatert litteratur
 |---------|------|------|-----------|
 | EMEA/H/C/000105 | Rapilysin | Ikke oppgitt | Myokardinfarkt |
 
-Godkjenningen er kansellert, og det finnes ingen gyldige godkjenninger i Norge.
 
 ## Sikkerhetsvurderinger
 

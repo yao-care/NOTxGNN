@@ -50,9 +50,10 @@ Prediksjonen er derfor kun modellbasert.
 |------|------|
 | Opprinnelig indikasjon | Akutt smerte |
 | Predikert ny indikasjon | Akrodermatitis chronica atrophicans |
-| TxGNN-prediksjonsscore | 99,23 % |
+| TxGNN-prediksjonsscore | 0.9923 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (ingen gyldige markedsføringstillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (trukket tilbake) |
 | Anbefalt beslutning | Hold |
 
@@ -62,7 +63,7 @@ Prediksjonen er derfor kun modellbasert.
 
 Data om virkningsmekanisme var ikke tilgjengelige i datagrunnlaget for denne rapporten. Bupivakain er allment kjent som et lokalbedøvende middel som blokkerer spenningsstyrte natriumkanaler og dermed hemmer nerveledning. Denne opplysningen kommer fra generell kunnskap og ikke fra de innsamlede dataene.
 
-Akrodermatitis chronica atrophicans er en sen hudmanifestasjon av Borrelia-infeksjon, og behandlingen er antibiotika. Det er ikke påvist noen plausibel mekanistisk kobling mellom natriumkanalblokade og sykdommens forløp. Den høye scoren (0,992) skyldes sannsynligvis nettverksmønstre i kunnskapsgrafen og ikke en kjent farmakologisk sammenheng. En eventuell nytte ville begrenset seg til symptomlindring av nevropatisk smerte, og dette er ikke underbygget av data.
+Akrodermatitis chronica atrophicans er en sen hudmanifestasjon av Borrelia-infeksjon, og behandlingen er antibiotika. Det er ikke påvist noen plausibel mekanistisk kobling mellom natriumkanalblokade og sykdommens forløp. Den høye scoren (0.9923) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. En eventuell nytte ville begrenset seg til symptomlindring av nevropatisk smerte, og dette er ikke underbygget av data.
 
 For de øvrige predikerte indikasjonene (neonatal dermatomyositt, sekundær interstitiell lungesykdom hos barn assosiert med bindevevssykdom og amyopatisk dermatomyositt) er bildet tilsvarende: alle har evidensnivå L5, ingen studier eller publikasjoner, og ingen støttet mekanistisk kobling. Bupivakains kjente myotoksisitet er en teoretisk bekymring ved myositt-sykdommer, og kardiotoksisitet er en bekymring hos nyfødte.
 

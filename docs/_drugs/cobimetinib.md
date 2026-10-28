@@ -4,17 +4,17 @@ title: Cobimetinib
 parent: Kun modellprediksjon (L5)
 nav_order: 104
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Cobimetinib: predikert ny indikasjon Amyotrofisk lateral sklerose (evidensnivå L5). Opprinnelig indikasjon: Melanom"
 monitor_inn: "cobimetinib"
-predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "Mills syndrome", "amyotrophic lateral sclerosis, susceptibility to", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "amyotrohpic lateral sclerosis type 22", "monomelic amyotrophy"]
+predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "Mills syndrome", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "amyotrohpic lateral sclerosis type 22", "monomelic amyotrophy"]
 ---
 
 # Cobimetinib
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,10 @@ men for øyeblikket finnes **ingen kliniske studier** og **ingen publikasjoner**
 |------|------|
 | Opprinnelig indikasjon | Melanom |
 | Predikert ny indikasjon | Amyotrofisk lateral sklerose |
-| TxGNN-prediksjonsscore | 99,73 % |
+| TxGNN-prediksjonsscore | 0,9973 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellert |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall autorisasjoner | 1 |
 | Anbefalt beslutning | Hold |
 
@@ -62,7 +63,7 @@ men for øyeblikket finnes **ingen kliniske studier** og **ingen publikasjoner**
 
 Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Basert på generell kunnskap om legemiddelklassen er cobimetinib en hemmer av MEK1/2 i MAPK/ERK-signalveien. Effekten ved melanom er påvist, og mekanistisk kan hemming av denne signalveien tenkes å være relevant for ALS.
 
-Aktivering av MAPK/ERK-signalveien og nevroinflammasjon har vært koblet til ALS-biologi, så en hypotetisk sammenheng finnes. Datagrunnlaget inneholder imidlertid verken studier eller litteratur som underbygger den. Den høye scoren (0,997) er en ren modellprediksjon.
+Aktivering av MAPK/ERK-signalveien og nevroinflammasjon har vært koblet til ALS-biologi, så en hypotetisk sammenheng finnes. Datagrunnlaget inneholder imidlertid verken studier eller litteratur som underbygger den. Den høye scoren (0,9973) er en ren modellprediksjon.
 
 Systemisk MEK-hemming har også tolerabilitetsutfordringer, blant annet utslett, retinopati og rabdomyolyse/CK-økning. Dette må vurderes nøye i en pasientgruppe med motornevronsykdom.
 
@@ -72,15 +73,15 @@ Ingen av de ti predikerte indikasjonene har kliniske studier eller litteratur. D
 
 | Rang | Sykdom | Score | Kommentar |
 |---|---|---|---|
-| 2 | Bilateral parasagittal parieto-occipital polymikrogyri | 99,66 % | Utviklingsmessig kortikal misdannelse; ingen klar mekanistisk sammenheng |
-| 3 | Aksial spondylometafysær dysplasi | 99,61 % | Sjelden skjelettdysplasi; ingen mekanistisk sammenheng |
-| 4 | Mills syndrom | 99,59 % | Indirekte sammenheng via motornevrondegenerasjon |
-| 5 | ALS, mottakelighet for | 99,57 % | Overlapper med hoved-ALS-prediksjonen; ikke uavhengig evidens |
-| 6 | Nedre motornevronsyndrom med sen voksendebut | 99,57 % | Indirekte og hypotetisk |
-| 7 | Trikomegali-retinal pigmentdegenerasjon-dvergvekst-syndrom | 99,56 % | Ingen støtte; MEK-hemmere kan gi retinal toksisitet |
-| 8 | Letal artrogrypose-fremre hornscelle-syndrom | 99,55 % | Letal medfødt tilstand; svært svakt grunnlag |
-| 9 | ALS type 22 | 99,54 % | Genetisk ALS-subtype; overlapper med generell ALS |
-| 10 | Monomelisk amyotrofi | 99,51 % | Godartet, selvbegrensende; ugunstig nytte-risiko |
+| 2 | Bilateral parasagittal parieto-occipital polymikrogyri | 0,9966 | Utviklingsmessig kortikal misdannelse; ingen klar mekanistisk sammenheng |
+| 3 | Aksial spondylometafysær dysplasi | 0,9961 | Sjelden skjelettdysplasi; ingen mekanistisk sammenheng |
+| 4 | Mills syndrom | 0,9959 | Indirekte sammenheng via motornevrondegenerasjon |
+| 5 | ALS, mottakelighet for | 0,9957 | Overlapper med hoved-ALS-prediksjonen; ikke uavhengig evidens |
+| 6 | Nedre motornevronsyndrom med sen voksendebut | 0,9957 | Indirekte og hypotetisk |
+| 7 | Trikomegali-retinal pigmentdegenerasjon-dvergvekst-syndrom | 0,9956 | Ingen støtte; MEK-hemmere kan gi retinal toksisitet |
+| 8 | Letal artrogrypose-fremre hornscelle-syndrom | 0,9955 | Letal medfødt tilstand; svært svakt grunnlag |
+| 9 | ALS type 22 | 0,9954 | Genetisk ALS-subtype; overlapper med generell ALS |
+| 10 | Monomelisk amyotrofi | 0,9951 | Godartet, selvbegrensende; ugunstig nytte-risiko |
 
 ---
 
@@ -102,7 +103,7 @@ Det foreligger for øyeblikket ingen relatert litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/003960 | Cotellic | – | Melanom |
 
-Autorisasjonen har status som kansellert, og det finnes ingen gyldige autorisasjoner.
+Legemidlet er markedsført, og 1 av 1 autorisasjon er gyldig.
 
 ---
 

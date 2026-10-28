@@ -4,17 +4,17 @@ title: Inclisiran
 parent: Kun modellprediksjon (L5)
 nav_order: 213
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Inclisiran: predikert ny indikasjon Kaliummangelsykdom (potassium deficiency disease) (evidensnivå L5). Opprinnelig indikasjon: Hyperkolesterolemi"
 monitor_inn: "INCLISIRAN"
-predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
+predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
 ---
 
 # Inclisiran
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,10 @@ men for denne indikasjonen finnes det **ingen kliniske studier** og **ingen publ
 |------|------|
 | Opprinnelig indikasjon | Hyperkolesterolemi; dyslipidemi |
 | Predikert ny indikasjon | Kaliummangelsykdom (potassium deficiency disease) |
-| TxGNN-prediksjonsscore | 99,93 % |
+| TxGNN-prediksjonsscore | 0,9993 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldig tillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
 | Anbefalt beslutning | Hold |
 

@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **Rasmussens subakutte 
 |------|------|
 | Opprinnelig indikasjon | Parkinsons sykdom |
 | Predikert ny indikasjon | Rasmussens subakutte encefalitt |
-| TxGNN-prediksjonsscore | 99,93 % |
+| TxGNN-prediksjonsscore | 0,9993 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte (tilbakekalte/opphørte) godkjenninger |
-| Antall godkjenninger | 1 (0 gyldige, 1 avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -61,18 +61,18 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **Rasmussens subakutte 
 
 Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Tolkapon er kjent som en hemmer av enzymet katekol-O-metyltransferase (COMT), som bryter ned blant annet levodopa og katekolaminer. Ved Parkinsons sykdom forlenger dette effekten av levodopa.
 
-Rasmussens encefalitt er en immunmediert, kronisk betennelsessykdom i hjernen, vanligvis i én hjernehalvdel. Det er ikke påvist noen mekanistisk sammenheng mellom COMT-hemming og denne tilstanden. Den høye scoren er trolig et resultat av grafstruktur i kunnskapsgrafen, ikke av kjent biologi.
+Rasmussens encefalitt er en immunmediert, kronisk betennelsessykdom i hjernen, vanligvis i én hjernehalvdel. Det er ikke påvist noen mekanistisk sammenheng mellom COMT-hemming og denne tilstanden. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 For oversiktens skyld vurderte modellen også andre kandidater. Disse er heller ikke støttet av kliniske data:
 
 | Rangering | Predikert indikasjon | Score | Kommentar |
 |------|------|------|------|
-| 2 | Myelitt | 99,90 % | Ingen plausibel mekanisme |
-| 3 | PLA2G6-assosiert nevrodegenerasjon | 99,88 % | Parkinsonlignende trekk kan forklare nærheten, men gir ikke effekt på den underliggende lipidmetabolismefeilen |
-| 4 | Transaldolasemangel | 99,85 % | Sannsynligvis drevet av grafstruktur |
-| 5 | Fruktose-1,6-bisfosfatasemangel | 99,78 % | Ingen kobling til COMT |
-| 6 | Lewy body-demens | 99,64 % | Biologisk plausibel (dopaminerg dysfunksjon og alfa-synuklein), men uten klinisk evidens |
-| 10 | Juvenil paralysis agitans (Hunt) | 99,52 % | I praksis den eksisterende indikasjonen under et annet navn |
+| 2 | Myelitt | 0,9990 | Ingen plausibel mekanisme |
+| 3 | PLA2G6-assosiert nevrodegenerasjon | 0,9988 | Parkinsonlignende trekk kan forklare nærheten, men gir ikke effekt på den underliggende lipidmetabolismefeilen |
+| 4 | Transaldolasemangel | 0,9985 | Sannsynligvis drevet av grafstruktur |
+| 5 | Fruktose-1,6-bisfosfatasemangel | 0,9978 | Ingen kobling til COMT |
+| 6 | Lewy body-demens | 0,9964 | Biologisk plausibel (dopaminerg dysfunksjon og alfa-synuklein), men uten klinisk evidens |
+| 10 | Juvenil paralysis agitans (Hunt) | 0,9952 | I praksis den eksisterende indikasjonen under et annet navn |
 
 ---
 

@@ -4,17 +4,17 @@ title: Riluzole
 parent: Kun modellprediksjon (L5)
 nav_order: 359
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Riluzole: predikert ny indikasjon Bilateral parasagittal parieto-oksipital polymikrogyri (evidensnivå L5). Opprinnelig indikasjon: Amyotrofisk lateralsklerose"
 monitor_inn: "RILUZOLE"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance", "amyotrohpic lateral sclerosis type 22"]
+description: "Riluzole: predikert ny indikasjon Bilateral parasagittal parieto-occipital polymicrogyria (evidensnivå L5). Opprinnelig indikasjon: Amyotrophic Lateral Sclerosis"
 ---
 
 # Riluzole
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Riluzol: Fra amyotrofisk lateralsklerose til bilateral parasagittal parieto-oksipital polymikrogyri
+## Riluzole: Bilateral parasagittal parieto-occipital polymicrogyria
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -47,11 +47,12 @@ TxGNN-modellen forutsier at det kan ha effekt ved **bilateral parasagittal parie
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Amyotrofisk lateralsklerose |
-| Predikert ny indikasjon | Bilateral parasagittal parieto-oksipital polymikrogyri |
-| TxGNN-prediksjonsscore | 99,99 % |
+| Opprinnelig indikasjon | Amyotrophic Lateral Sclerosis |
+| Predikert ny indikasjon | Bilateral parasagittal parieto-occipital polymicrogyria |
+| TxGNN-prediksjonsscore | 0.9999 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Antall tillatelser | 2 (begge avregistrert) |
 | Anbefalt beslutning | Hold (avvent) |
 
@@ -86,7 +87,6 @@ Foreløpig finnes det ingen relatert litteratur for den predikerte indikasjonen.
 | EMEA/H/C/000109 | Rilutek | – | Amyotrofisk lateralsklerose |
 | EMEA/H/C/002622 | Riluzole Zentiva | – | Amyotrofisk lateralsklerose |
 
-Begge tillatelsene er avregistrert, så det finnes for tiden ingen gyldige markedsføringstillatelser.
 
 ---
 
@@ -105,7 +105,7 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Prediksjonen har høy modellscore, men ingen kliniske studier eller litteratur, og mekanismen er spekulativ for en utviklingsmessig kortikal misdannelse. Legemidlet har dessuten ingen gyldig markedsføringstillatelse i Norge for øyeblikket.
+Prediksjonen har høy modellscore, men ingen kliniske studier eller litteratur, og mekanismen er spekulativ for en utviklingsmessig kortikal misdannelse.
 
 **For å gå videre kreves:**
 - Data om virkningsmekanismen (MOA) for riluzol

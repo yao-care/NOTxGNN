@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Deferiprone
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 119
-evidence_level: L4
-indication_count: 9
-last_modified_at: 2026-10-15
-description: "Deferiprone: predikert ny indikasjon Hepatisk porfyri (evidensnivå L4). Opprinnelig indikasjon: beta-talassemi"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "DEFERIPRONE"
 predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
+last_modified_at: 2026-10-27
+description: "Deferiprone: predikert ny indikasjon Leverporfyri (hepatic porphyria) (evidensnivå L5). Opprinnelig indikasjon: beta-Thalassemia"
 ---
 
 # Deferiprone
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **9** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,93 +33,75 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-## Deferipron: Fra jernoverskudd ved beta-talassemi til hepatisk porfyri
+## Deferipron: jernkelator → leverporfyri (hepatic porphyria)
 {: .text-alpha }
 
-## Oppsummering i en setning
+## Sammendrag i én setning
 
-Deferipron er en oral jernchelator som opprinnelig brukes til behandling av jernoverskudd ved beta-talassemi.
-TxGNN-modellen predikerer at legemidlet kan ha effekt ved **hepatisk porfyri**,
-men støtten er foreløpig begrenset til **2 publikasjoner** (prekliniske data og en rapport på tilfellenivå) og **ingen registrerte kliniske studier**.
-
----
+Deferipron er en oral jernkelator. Modellen TxGNN predikerer at legemidlet kan ha effekt ved **leverporfyri (hepatic porphyria)**. Støtten er begrenset: **ingen registrerte kliniske studier** og **2 publikasjoner** (én prekliniske musestudie og én rapport på tilfellenivå, den siste om en erytropoietisk porfyri).
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | beta-talassemi; jernoverskudd |
-| Predikert ny indikasjon | Hepatisk porfyri |
-| TxGNN-prediksjonsscore | 99,20 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun opphørte tillatelser (ikke markedsført) |
-| Antall tillatelser | 2 (begge opphørt) |
+| Opprinnelig indikasjon | beta-Thalassemia;Iron Overload; Iron Overload;beta-Thalassemia |
+| Predikert ny indikasjon | Leverporfyri (hepatic porphyria) |
+| TxGNN-prediksjonsscore | 0,9920 |
+| Evidensnivå | L5 |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
 
----
+## Hvorfor er denne prediksjonen rimelig?
 
-## Hvorfor er prediksjonen rimelig?
+Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i de innsamlede dataene. Deferipron er likevel kjent som en oral jernkelator som binder fritt jern og reduserer tilgjengelig jern i vev.
 
-Data om detaljert virkningsmekanisme er foreløpig ikke tilgjengelig i datagrunnlaget. Deferipron er en jernchelator med kjent effekt ved transfusjonsrelatert jernoverskudd ved beta-talassemi, og mekanistisk kan den være aktuell ved sykdommer der jern driver sykdomsprosessen.
+Ved porphyria cutanea tarda driver forhøyet jern i leveren opphopningen av uroporfyrin, og aderlatning virker trolig ved å redusere leverjern. Ved kongenital erytropoietisk porfyri kan jern modifisere sykdomsalvorlighet. Den mekanistiske tanken er derfor at jernkelering kan redusere porfyrinopphopning og dempe forstyrrelser i hemsyntesen.
 
-Jern er en sentral drivkraft for uroporfyri ved porfyria cutanea tarda og en modifiserende faktor for sykdomsalvorlighet ved kongenital erytropoetisk porfyri. Ved å redusere tilgjengelig jern kan deferipron potensielt redusere opphopning av porfyriner og dempe forstyrrelser i hembiosyntesen.
+Det må understrekes at støtten er indirekte. Musestudien gjelder en modell av porphyria cutanea tarda, og rapporten fra 2020 gjelder en erytropoietisk, ikke hepatisk, porfyri. Ingen studier har undersøkt deferipron direkte hos pasienter med leverporfyri.
 
-Støtten er imidlertid indirekte: en musemodell av uroporfyri (2007) og en rapport fra 2020 om bedring av hemolytisk anemi og lysfølsomhet ved kongenital erytropoetisk porfyri. Den siste gjelder en erytropoetisk og ikke en hepatisk porfyri, og kan derfor ikke direkte overføres.
+## Kliniske studier
 
----
-
-## Evidens fra kliniske studier
-
-Foreløpig finnes ingen relaterte kliniske studier registrert.
-
----
+Foreløpig ingen relaterte kliniske studier registrert.
 
 ## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Preklinisk/tilfellenivå | Blood | Jernchelering bedret hemolytisk anemi og hudens lysfølsomhet ved kongenital erytropoetisk porfyri |
-| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Preklinisk (musemodell) | Hepatology | Sammenlignet deferipron og jernfattig diett på uroporfyri i en musemodell av porfyria cutanea tarda |
+| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Prekliniske/tilfellenivå | Blood | Jernkelering reddet hemolytisk anemi og hudfotosensitivitet ved kongenital erytropoietisk porfyri |
+| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Preklinisk (musemodell) | Hepatology | Deferipron eller jernfattig diett og effekt på uroporfyri i musemodell av porphyria cutanea tarda |
 
----
+## Informasjon om det norske markedet
 
-## Markedsinformasjon for Norge
-
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000236 | Ferriprox (Chiesi Farmaceutici S.p.A.) | – | beta-talassemi; jernoverskudd (opphørt) |
-| EMEA/H/C/004710 | Deferiprone Lipomed (Lipomed GmbH) | – | jernoverskudd; beta-talassemi (opphørt) |
-
----
+| EMEA/H/C/000236 | Ferriprox | Ikke oppgitt | beta-Thalassemia; Iron Overload |
+| EMEA/H/C/004710 | Deferiprone Lipomed | Ikke oppgitt | Iron Overload; beta-Thalassemia |
 
 ## Sikkerhetsvurderinger
 
-**Legemiddelinteraksjoner** (100 interaksjoner funnet i databasen; alle viste nivå er moderate):
-- **Kalsiumholdige preparater**: f.eks. kalsiumfosfat, kalsiumacetat, kalsiumkarbonat, kalsiumcitrat, kalsiumglukonat
-- **Magnesiumholdige preparater**: f.eks. magnesiumoksid, magnesiumhydroksid, magnesiumsulfat, magnesiumcitrat
-- **Aluminiumholdige og andre antacida/adsorbenter**: aluminiumhydroksid, magaldrat, kaolin, attapulgitt
-- **Sukralfat**
-- **Jern**
+**Legemiddelinteraksjoner** (100 interaksjoner registrert; alle viste er av moderat alvorlighetsgrad). Hovedgrupper:
+- **Kalsiumsalter:** kalsiumfosfat, -acetat, -karbonat, -citrat, -glukonat, -laktat m.fl.
+- **Magnesiumsalter:** magnesiumoksid, -karbonat, -klorid, -citrat, -hydroksid, -sulfat m.fl.
+- **Aluminiumholdige og andre antacida/adsorbenter:** aluminiumhydroksid, magaldrat, kaolin, attapulgitt
+- **Andre:** jern, sukralfat
 
-Disse er i hovedsak mineral- og antacidapreparater som kan binde seg til chelatoren. Praktisk håndtering, for eksempel tidsavstand mellom inntak, bør avklares i preparatomtalen.
+Disse er i hovedsak mineral- og antacidpreparater som kan binde seg til kelatoren.
 
-For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparatomtalen.
-
----
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for hepatisk porfyri har høy modellscore, men støttes bare av prekliniske data og en rapport på tilfellenivå fra en annen porfyritype (L4). Det finnes ingen registrerte kliniske studier, og begge tillatelsene i Norge er opphørt.
+Prediksjonen har høy modellscore, men ingen kliniske studier og ingen studier som direkte undersøker leverporfyri. Den støttende litteraturen er preklinisk eller gjelder en annen porfyritype, så evidensnivået er L5.
 
 **For å gå videre kreves følgende:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Sikkerhetsinformasjon (advarsler og kontraindikasjoner) fra preparatomtalen, som er et blokkerende datahull for sikkerhetsscreening
-- Kliniske data eller en pilotstudie ved porfyria cutanea tarda eller andre hepatiske porfyrier
-- Avklaring av regulatorisk status, siden ingen gyldige tillatelser finnes i Norge
-- Vurdering av de øvrige prediksjonene: pyruvatkinasemangel (jernoverskudd som sekundær komplikasjon) er biologisk plausibel, men bør vurderes som jernoverskuddsindikasjon. Prediksjonen for beta-talassemi med andre manifestasjoner overlapper i stor grad med eksisterende indikasjon. De øvrige leverrelaterte prediksjonene (for eksempel hepatoportal sklerose og hepatopulmonalt syndrom) mangler både mekanistisk begrunnelse og evidens.
+- Direkte data fra pasienter med leverporfyri (for eksempel porphyria cutanea tarda), minst en godt utformet pilotstudie
+- Detaljerte data om virkningsmekanisme (MOA)
+- Advarsler og kontraindikasjoner fra preparatomtalen
+- Sikkerhetsplan for blant annet nøytropeni/agranulocytose og overvåking av jernstatus
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

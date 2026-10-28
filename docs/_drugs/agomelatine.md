@@ -4,17 +4,17 @@ title: Agomelatine
 parent: Kun modellprediksjon (L5)
 nav_order: 20
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-15
 description: "Agomelatine: predikert ny indikasjon Benign paroksysmal torticollis hos spedbarn (evidensnivå L5). Opprinnelig indikasjon: Alvorlig depressiv lidelse (Depressive Disorder, Major)"
 monitor_inn: "AGOMELATINE"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "melancholia", "Ohdo syndrome and variants", "dysthymic disorder", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
 ---
 
 # Agomelatine
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,10 @@ Agomelatin er et antidepressivum som opprinnelig ble godkjent for behandling av 
 |------|------|
 | Opprinnelig indikasjon | Alvorlig depressiv lidelse (Depressive Disorder, Major) |
 | Predikert ny indikasjon | Benign paroksysmal torticollis hos spedbarn |
-| TxGNN-prediksjonsscore | 99,96 % |
+| TxGNN-prediksjonsscore | 0,9996 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall markedsføringstillatelser | 1 |
 | Anbefalt beslutning | Hold (avvent) |
 
@@ -74,7 +75,7 @@ Foreløpig er ingen relatert litteratur tilgjengelig for denne indikasjonen.
 |---------|------|------|-----------|
 | EMEA/H/C/000915 | Valdoxan (Les Laboratoires Servier) | Ikke oppgitt | Alvorlig depressiv lidelse |
 
-Tillatelsen har status kansellert, og det finnes ingen gyldige tillatelser.
+Legemidlet er markedsført, og 1 av 1 tillatelse er gyldig.
 
 ## Sikkerhetsvurderinger
 
@@ -101,11 +102,8 @@ Dersom målet er å finne en mer realistisk retning, er følgende kandidater mer
 
 | Kandidat | TxGNN-score | Evidens og vurdering |
 |------|------|------|
-| Melankoli | 99,88 % | Alvorlig depresjonsundertype. Støttes av nettverksmetaanalyse av 21 antidepressiva (PMID 29477251), men ikke spesifikt for denne undertypen. Overlapper i stor grad med den opprinnelige indikasjonen. |
-| Nevrotisk depresjon | 99,88 % | Eldre betegnelse for mildere depressive lidelser. Kun indirekte evidens fra generelle antidepressivaoversikter. |
-| Dystymi | 99,86 % | Metaanalyse av placebokontrollerte RCT-er for antidepressiva ved dystymi (PMID 21527126), men på klassenivå og ikke agomelatin-spesifikk. |
-| Nevrotisk lidelse | 99,90 % | Kun en generell oversiktsartikkel fra 2024 (PMID 39072578). Indirekte evidens. |
-| Agorafobi | 99,95 % | Kun modellprediksjon (L5). Mulig indirekte rasjonale via angstdempende egenskaper, men uten støtte i dataene. |
+| Nevrotisk lidelse | 0,9990 | Kun en generell oversiktsartikkel fra 2024 (PMID 39072578). Indirekte evidens. |
+| Agorafobi | 0,9995 | Kun modellprediksjon (L5). Mulig indirekte rasjonale via angstdempende egenskaper, men uten støtte i dataene. |
 
 De øvrige kandidatene (Ohdo-syndrom og varianter, ligneøs konjunktivitt, Ohdo-type blefarofimose med intellektuell funksjonshemming, Keppen-Lubinsky syndrom) er rene modellprediksjoner uten evidens eller plausibel mekanisme, og anbefales avventet (Hold).
 ## Ansvarsfraskrivelse

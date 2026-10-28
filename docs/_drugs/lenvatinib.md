@@ -4,7 +4,7 @@ title: Lenvatinib
 parent: Høy evidens (L1-L2)
 nav_order: 240
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Lenvatinib: predikert ny indikasjon Liposarkom (evidensnivå L2). Opprinnelig indikasjon: Skjoldbruskkjertelkreft (Thyroid Neoplasms)"
 monitor_inn: "lenvatinib"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipom
 # Lenvatinib
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L2** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Foreløpig støttes dette av **1 fullført enarmet fase Ib/II-studie** og **4 pu
 |------|------|
 | Opprinnelig indikasjon | Skjoldbruskkjertelkreft (Thyroid Neoplasms) |
 | Foreslått ny indikasjon | Liposarkom |
-| TxGNN-prediksjonsscore | 99,51 % |
+| TxGNN-prediksjonsscore | 0,9951 |
 | Evidensnivå | L2 |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 2 (begge kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
 
 Merknad: Evidensnivået L2 er oppgitt i det samlede datagrunnlaget for liposarkom, men støttes kun av en enarmet studie. Jeg anbefaler derfor forsiktighet (Hold) fremfor videre utvikling nå.
@@ -137,7 +137,7 @@ Det eneste kliniske signalet for liposarkom er en enarmet fase Ib/II-studie med 
 
 ## Andre prediksjoner (kort oversikt)
 
-- **Nyrecellekarsinom (rangert som «renal carcinoma», score 99,37 %)**: Evidensnivå L1 med fase 3-studien CLEAR (PMID 33616314). Dette er imidlertid en allerede godkjent opprinnelig indikasjon og dermed ikke reell omdisponering.
+- **Nyrecellekarsinom**: Evidensnivå L1 med fase 3-studien CLEAR (PMID 33616314). Dette er imidlertid en allerede godkjent opprinnelig indikasjon og dermed ikke reell omdisponering.
 - **Ikke-klassifisert nyrecellekarsinom og TFE3-translokasjonsassosiert nyrecellekarsinom**: Kun enarmede studier eller planlagte studier (L2 og L4).
 - **Øvrige prediksjoner** (nyrecellekarsinom assosiert med nevroblastom, ovarielt myksoid liposarkom, nyrecellekarsinom hos barn, angiolipom, familiær spontan pneumotoraks, endokrin-cerebro-osteodysplasi-syndrom): Ingen studier eller litteratur (L5). Sannsynligvis resultat av nettverksnærhet i modellen. Anbefalt beslutning: Hold.
 ## Ansvarsfraskrivelse

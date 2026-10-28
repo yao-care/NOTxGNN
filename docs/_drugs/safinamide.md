@@ -50,10 +50,10 @@ men **ingen kliniske studier** og **ingen publikasjoner** støtter foreløpig de
 |------|------|
 | Opprinnelig indikasjon | Parkinsons sykdom |
 | Predikert ny indikasjon | Rasmussens subakutte encefalitt |
-| TxGNN-prediksjonsscore | 99,63 % |
+| TxGNN-prediksjonsscore | 0,9963 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellert |
-| Antall godkjenninger | 1 (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -68,8 +68,8 @@ Disse egenskapene kan i teorien dempe nevronal overeksitabilitet og eksitotoksis
 
 | Rangering | Sykdom | TxGNN-score | Vurdering |
 |------|------|------|------|
-| 2 | Myelitt | 99,46 % | Rent spekulativ. Nevrobeskyttende effekt er ikke påvist ved inflammatoriske eller demyeliniserende ryggmargstilstander. |
-| 3 | PLA2G6-assosiert nevrodegenerasjon | 99,22 % | Biologisk mest sammenhengende. Sykdommen har parkinsonisme og alfa-synuklein-patologi, som gir et symptomatisk argument for en MAO-B-hemmer. Den underliggende defekten påvirkes trolig ikke. |
+| 2 | Myelitt | 0,9946 | Rent spekulativ. Nevrobeskyttende effekt er ikke påvist ved inflammatoriske eller demyeliniserende ryggmargstilstander. |
+| 3 | PLA2G6-assosiert nevrodegenerasjon | 0,9922 | Biologisk mest sammenhengende. Sykdommen har parkinsonisme og alfa-synuklein-patologi, som gir et symptomatisk argument for en MAO-B-hemmer. Den underliggende defekten påvirkes trolig ikke. |
 
 ---
 
@@ -91,7 +91,7 @@ Det foreligger foreløpig ingen relatert litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/002396 | Xadago | Ikke oppgitt | Parkinsons sykdom |
 
-Denne godkjenningen (Zambon SpA) har status **kansellert**. Det finnes ingen gyldige godkjenninger i Norge.
+Denne godkjenningen (Zambon SpA) er **gyldig**. Legemidlet er markedsført i Norge, med 1 gyldig godkjenning av 1.
 
 ---
 

@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-## Darolutamid: Fra kastrasjonsresistent prostatakreft til familiær hypercholesterolemi (homozygot)
+## Darolutamid: Fra kastrasjonsresistent prostatakreft til homozygot familiær hyperkolesterolemi
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **homozygot familiær h
 |------|------|
 | Opprinnelig indikasjon | Kastrasjonsresistent prostatakreft |
 | Predikert ny indikasjon | Homozygot familiær hypercholesterolemi |
-| TxGNN-prediksjonsscore | 99,11 % |
+| TxGNN-prediksjonsscore | 0,9911 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun tilbakekalte/avregistrerte godkjenninger (ikke markedsført) |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **homozygot familiær h
 
 Darolutamid er en androgenreseptorantagonist. Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten, så mekanismeanalysen er begrenset.
 
-Homozygot familiær hypercholesterolemi skyldes defekter i LDL-reseptorveien. Det finnes ingen opplagt kobling til androgenreseptorsignalering i de tilgjengelige dataene. Den høye scoren (0,991) er sannsynligvis drevet av mønstre i kunnskapsgrafen og ikke av biologisk eller klinisk dokumentasjon.
+Homozygot familiær hyperkolesterolemi skyldes defekter i LDL-reseptorveien. Det finnes ingen opplagt kobling til androgenreseptorsignalering i de tilgjengelige dataene. Den høye scoren (0,9911) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk eller klinisk dokumentasjon.
 
 Prediksjonen bør derfor regnes som en hypotese uten støtte. Den bør ikke tolkes som et signal om at legemidlet virker ved sykdommen.
 
@@ -85,7 +85,7 @@ Foreløpig ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/004790 | Nubeqa | – | Kastrasjonsresistent prostatakreft |
 
-Denne godkjenningen er registrert som tilbakekalt/avregistrert (status: cancelled), og det finnes ingen gyldige godkjenninger.
+Denne godkjenningen er gyldig (1 av 1 gyldige godkjenninger), og legemidlet er markedsført.
 
 ---
 
@@ -136,8 +136,8 @@ Prediksjonen bygger kun på modellscore uten kliniske studier, litteratur eller 
 
 | Predikert indikasjon | TxGNN-score | Evidensnivå | Anbefaling |
 |------|------|------|------|
-| Multippel endokrin neoplasi | 99,06 % | L4 | Hold |
-| HIV-infeksjon | 99,04 % | L5 | Hold |
+| Multippel endokrin neoplasi | 0,9906 | L5 | Hold |
+| HIV-infeksjon | 0,9904 | L5 | Hold |
 
 For multippel endokrin neoplasi er to studier registrert (NCT07795177 og NCT03878524), men begge gjelder prostatakreft eller presisjonsonkologi, har lav relevans og gir ingen tolkbar evidens for denne indikasjonen. For HIV-infeksjon finnes ingen studier eller litteratur, og de mange registrerte legemiddelinteraksjonene måtte vurderes nøye før videre utforskning.
 ## Ansvarsfraskrivelse

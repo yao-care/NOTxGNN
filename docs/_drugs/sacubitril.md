@@ -6,9 +6,9 @@ nav_order: 374
 evidence_level: L3
 indication_count: 5
 last_modified_at: 2026-10-15
-description: "Sacubitril: predikert ny indikasjon Diabetisk nefropati (diabetic nephropathy) (evidensnivå L3). Opprinnelig indikasjon: Hjertesvikt"
 monitor_inn: "SACUBITRIL"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
+description: "Sacubitril: predikert ny indikasjon Brain small vessel disease 1 with or without ocular anomalies (evidensnivå L3). Opprinnelig indikasjon: Heart Failure"
 ---
 
 # Sacubitril
@@ -33,7 +33,7 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-## Sacubitril: Fra hjertesvikt til diabetisk nefropati
+## Sacubitril: Brain small vessel disease 1 with or without ocular anomalies
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -47,15 +47,16 @@ TxGNN-modellen forutsier at den kan ha effekt ved **diabetisk nefropati**, og fo
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Hjertesvikt |
-| Foreslått ny indikasjon | Diabetisk nefropati (diabetic nephropathy) |
-| TxGNN-prediksjonsscore | 99,50 % |
+| Opprinnelig indikasjon | Heart Failure |
+| Foreslått ny indikasjon | Brain small vessel disease 1 with or without ocular anomalies |
+| TxGNN-prediksjonsscore | 0.9958 |
 | Evidensnivå | L3 |
-| Markedsstatus i Norge | Kun opphevede (avregistrerte) tillatelser |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Antall tillatelser | 2 (begge opphevet) |
 | Anbefalt beslutning | Proceed with Guardrails |
 
-*Merknad: Den høyest rangerte prediksjonen i TxGNN (rangert som nr. 1) er «brain small vessel disease 1 with or without ocular anomalies» (score 99,58 %). Den har imidlertid ingen støttende evidens (L5). Diabetisk nefropati (nr. 3) er derfor valgt som hovedfokus, siden det er den eneste prediksjonen med klinisk og preklinisk grunnlag.*
+*Merknad: Den høyest rangerte prediksjonen i TxGNN (rangert som nr. 1) er «brain small vessel disease 1 with or without ocular anomalies» (score 0,9958). Den har imidlertid ingen støttende evidens (L5). Diabetisk nefropati (nr. 3) er derfor valgt som hovedfokus, siden det er den eneste prediksjonen med klinisk og preklinisk grunnlag.*
 
 ---
 

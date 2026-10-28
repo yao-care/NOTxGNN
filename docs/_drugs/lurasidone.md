@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lurasidone
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 255
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Lurasidone: predikert ny indikasjon Manisk bipolar lidelse (evidensnivå L3). Opprinnelig indikasjon: Schizofreni"
+evidence_level: L5
+indication_count: 9
 monitor_inn: "LURASIDONE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
+last_modified_at: 2026-10-27
+description: "Lurasidone: predikert ny indikasjon Retinal dystrofi med eller uten ekstraokulære anomalier (retinal dystrophy with or without extraocular anomalies) (evidensnivå L5). Opprinnelig indikasjon: Schizop…"
 ---
 
 # Lurasidone
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,83 +33,67 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Lurasidon: Fra schizofreni til manisk bipolar lidelse
+## Lurasidon: dopamin-/serotoninreseptormodulator → Retinal dystrofi med eller uten ekstraokulære anomalier (retinal dystrophy with or without extraocular anomalies)
 {: .text-alpha }
 
-## Oppsummering i én setning
+## Oppsummering
 
-Lurasidon er et atypisk antipsykotikum som opprinnelig er godkjent for behandling av schizofreni.
-TxGNN-modellen predikerer at legemidlet kan ha effekt ved **manisk bipolar lidelse**.
-Støtten er foreløpig begrenset: **1 kliniske studie** (trukket tilbake, ingen deltakere) og **20 publikasjoner**, hvorav de fleste gjelder bipolar lidelse generelt eller bipolar depresjon, ikke akutt mani.
+Lurasidon er et legemiddel som i Norge er registrert i lokale lisensdata, og som virker på dopamin- og serotoninreseptorer.
+TxGNN-modellen predikerer at det kan være aktuelt ved **retinal dystrofi med eller uten ekstraokulære anomalier (retinal dystrophy with or without extraocular anomalies)**,
+men de innsamlede dataene viser **0 kliniske studier** og **0 publikasjoner** som støtter denne retningen.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Schizofreni |
-| Predikert ny indikasjon | Manisk bipolar lidelse |
-| TxGNN-prediksjonsscore | 99,98 % |
-| Evidensnivå | L3 |
-| Status i Norge | Kun opphevede godkjenninger |
-| Antall godkjenninger | 1 (opphevet) |
-| Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
+| Opprinnelig indikasjon | Schizophrenia |
+| Predikert ny indikasjon | Retinal dystrofi med eller uten ekstraokulære anomalier (retinal dystrophy with or without extraocular anomalies) |
+| TxGNN-prediksjonsscore | 0,9995 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
+| Anbefalt beslutning | Hold |
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige i datagrunnlaget. Basert på kjent farmakologi er lurasidon et atypisk antipsykotikum med D2- og 5-HT2A-antagonisme, 5-HT1A partiell agonisme og 5-HT7-antagonisme. Effekten ved schizofreni er etablert, og mekanismen kan være relevant for bipolar lidelse.
+Data om detaljert virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Lurasidon er en antipsykotisk forbindelse med virkning på dopamin- og serotoninreseptorer.
 
-D2-antagonisme er den felles mekanismen bak den antimane effekten til antipsykotika, så koblingen til mani er biologisk plausibel. Det er imidlertid viktig å merke seg at den sterkeste publiserte evidensen for lurasidon ved bipolar lidelse gjelder **bipolar depresjon** (systematisk oversikt og dose-respons-metaanalyse, PMID 39557452), ikke akutt mani. Evidensen for den maniske fasen er indirekte og bygger på klassedata og retningslinjer. Siden MOA-data mangler i datagrunnlaget, hviler denne koblingen på generell farmakologi.
+Vi finner ingen identifiserbar mekanistisk kobling mellom lurasidons reseptorfarmakologi og patofysiologien ved arvelig retinal dystrofi. Den høye prediksjonsscoren er utelukkende en beregningsmessig prediksjon, og det finnes ingen kliniske eller litteraturmessige holdepunkter som underbygger den. Likhet med den opprinnelige indikasjonen er ikke vurdert.
 
-## Evidens fra kliniske studier
+## Klinisk studiedokumentasjon
 
-| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
-|---------|------|------|------|---------|
-| [NCT01932541](https://clinicaltrials.gov/study/NCT01932541) | Fase 4 | Trukket tilbake | 0 | Åpen 8-ukers studie av lurasidon (Latuda) mot mani hos barn og ungdom 6–17 år med bipolar I, II og spektrumlidelser. Ingen data, og studien kan ikke støtte indikasjonen; viser bare tidligere utviklingsinteresse. |
+Foreløpig ingen relaterte kliniske studier registrert.
 
-## Litteraturevidens
+## Litteraturdokumentasjon
 
-| PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|------|---------|
-| [39557452](https://pubmed.ncbi.nlm.nih.gov/39557452/) | 2024 | Systematisk oversikt / metaanalyse | BMJ Mental Health | Dose-respons for effekt, akseptabilitet og metabolske/endokrine profiler for lurasidon ved bipolar depresjon |
-| [37595997](https://pubmed.ncbi.nlm.nih.gov/37595997/) | 2023 | Nettverksmetaanalyse | Lancet Psychiatry | Sammenlignende effekt og tolerabilitet av legemidler ved akutt bipolar depresjon |
-| [38487836](https://pubmed.ncbi.nlm.nih.gov/38487836/) | 2024 | Nettverksmetaanalyse | European Psychiatry | 16 RCT-er (7234 pasienter) med bl.a. lurasidon ved bipolar depresjon |
-| [33177610](https://pubmed.ncbi.nlm.nih.gov/33177610/) | 2021 | Systematisk oversikt / nettverksmetaanalyse | Molecular Psychiatry | Stemningsstabilisatorer og/eller antipsykotika i vedlikeholdsfasen ved bipolar lidelse |
-| [29536616](https://pubmed.ncbi.nlm.nih.gov/29536616/) | 2018 | Retningslinje | Bipolar Disorders | CANMAT/ISBD 2018-retningslinjer for behandling av bipolar lidelse |
-| [34599629](https://pubmed.ncbi.nlm.nih.gov/34599629/) | 2021 | Retningslinje | Bipolar Disorders | CANMAT/ISBD-anbefalinger for bipolar lidelse med blandede episoder |
-| [37815563](https://pubmed.ncbi.nlm.nih.gov/37815563/) | 2023 | Oversikt | JAMA | Diagnostikk og behandling av bipolar lidelse |
-| [36472471](https://pubmed.ncbi.nlm.nih.gov/36472471/) | 2022 | Oversikt | J Child Adolesc Psychopharmacol | Behandlingsalgoritmer for manisk/blandet og depressiv episode ved pediatrisk bipolar lidelse |
-| [31298818](https://pubmed.ncbi.nlm.nih.gov/31298818/) | 2019 | Kasuistikk | Prim Care Companion CNS Disord | Lurasidon-indusert mani, et sikkerhetssignal som er relevant å vurdere |
-| [24170243](https://pubmed.ncbi.nlm.nih.gov/24170243/) | 2014 | Kommentar | Am J Psychiatry | Lurasidon og bipolar lidelse |
+Foreløpig ingen relatert litteratur tilgjengelig.
 
 ## Informasjon om det norske markedet
 
-| Godkjenningsnummer | Produktnavn | Doseform | Godkjent indikasjon |
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
 | EMEA/H/C/002713 | Latuda | Ikke oppgitt | Schizofreni |
 
-Godkjenningen er opphevet, og det finnes ingen gyldige godkjenninger for lurasidon i datagrunnlaget.
+## Sikkerhetsvurderinger
 
-## Sikkerhetsmomenter
+**Legemiddelinteraksjoner** (100 registrerte interaksjoner; utvalg):
+- **Alvorlige (Major):** bupropion, aprepitant, morfin, klaritromycin
+- **Moderate:** blant annet acarbose, epinefrin, albiglutid, alogliptin, metformin, pioglitazon, hyoscyamin, atropin, deksametason, cimetidin og kanagliflozin
 
-- **Kontraindikasjoner/risikotilstander fra kunnskapsgrafen (PrimeKG, ikke preparatomtale):** blant annet ortostatisk hypotensjon, leversvikt/leversykdom, epilepsi, hyperglykemi, diabetes og diabetisk ketoacidose, nøytropeni, agranulocytose og leukopeni, hyperlipidemi, hjerneslag og andre cerebrovaskulære sykdommer, forbigående iskemisk anfall, nedsatt nyrefunksjon, malignt nevroleptikasyndrom, tardiv dyskinesi og hyperprolaktinemi.
-- **Legemiddelinteraksjoner:** 100 interaksjoner funnet. Blant de som er vist, er følgende klassifisert som **alvorlige (Major)**: bupropion, aprepitant, morfin og klaritromycin. Flere er klassifisert som moderate, blant annet antidiabetika (acarbose, metformin, pioglitazon, alogliptin, albiglutid, kanagliflozin, klorpropamid), epinefrin, antikolinergika (atropin, hyoscyamin, glykopyrronium), deksametason, lorkaserin og cimetidin.
-- For advarsler og kontraindikasjoner fra preparatomtalen, se godkjent preparatomtale.
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ## Konklusjon og neste steg
 
-**Beslutning: Proceed with Guardrails (fortsett med forbehold)**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Mekanismen er biologisk plausibel og det finnes betydelig litteratur om lurasidon ved bipolar lidelse, men denne gjelder hovedsakelig bipolar depresjon. Den eneste studien på mani er trukket tilbake uten deltakere, og legemidlet har ingen gyldig norsk godkjenning.
+Prediksjonen bygger kun på en modellberegning uten støttende kliniske studier eller publikasjoner, og det finnes ingen plausibel mekanistisk kobling mellom lurasidon og retinal dystrofi. Evidensnivået er L5.
 
-**For å gå videre trengs følgende:**
-- Direkte evidens for lurasidon ved akutt mani (RCT-er eller systematiske oversikter spesifikt for den maniske fasen)
-- Preparatomtale med advarsler og kontraindikasjoner (kritisk datagap)
-- Detaljerte data om virkningsmekanisme
-- Avklaring av regulatorisk status i Norge, ettersom eneste godkjenning er opphevet
-- Overvåkingsplan for metabolsk risiko, og vurdering av risiko for lurasidon-indusert mani
-
-*Merknad: De øvrige ni predikerte indikasjonene (bl.a. retinal dystrofi, hydranencefali, myopi og Charcot-Marie-Tooth type 1G) har ingen kliniske studier eller litteratur og ingen identifiserbar mekanistisk kobling. De er vurdert som evidensnivå L5 med anbefaling Hold.*
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) og en grundig mekanistisk begrunnelse for netthinnesykdom
+- Prekliniske studier i relevante modeller for retinal dystrofi
+- Innhenting og gjennomgang av preparatomtale (advarsler og kontraindikasjoner) for sikkerhetsvurdering
+- Vurdering av administrasjonsvei og formulering som egner seg for okulær bruk
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

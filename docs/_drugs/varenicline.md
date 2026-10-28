@@ -48,9 +48,10 @@ Vareniklin er et legemiddel som opprinnelig brukes til **røykeslutt (tobakksavv
 |------|------|
 | Opprinnelig indikasjon | Tobakksavvenning |
 | Predikert ny indikasjon | Migrene (migraine disorder) |
-| TxGNN-prediksjonsscore | 99,92 % |
+| TxGNN-prediksjonsscore | 0,9992 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun tilbakekalt/kansellert markedsføringstillatelse |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 |
 | Anbefalt beslutning | Hold (avvent) |
 
@@ -96,7 +97,7 @@ Det finnes ingen litteratur som viser at vareniklin behandler migrene. Relatert 
 |---------|------|------|-----------|
 | EMEA/H/C/000699 | Champix (Pfizer Europe MA EEIG) | Ikke oppgitt | Tobakksavvenning |
 
-Tillatelsen har status **kansellert**. Det finnes ingen gyldige tillatelser for enkeltpreparater eller kombinasjonspreparater.
+Tillatelsen har status **gyldig**. Det finnes 1 gyldig tillatelse av 1, og legemidlet er markedsført.
 
 ---
 

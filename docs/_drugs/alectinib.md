@@ -4,9 +4,9 @@ title: Alectinib
 parent: Kun modellprediksjon (L5)
 nav_order: 23
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Alectinib: predikert ny indikasjon Lung benign neoplasm (godartet lungeneoplasme) (evidensnivå L5). Opprinnelig indikasjon: Carcinoma, Non-Small-Cell Lung (ikke-småcellet lungekreft)"
+description: "Alectinib: predikert ny indikasjon Gingival fibromatose (evidensnivå L5). Opprinnelig indikasjon: Carcinoma, Non-Small-Cell Lung (ikke-småcellet lungekreft)"
 monitor_inn: "Alectinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "lung germ cell tumor", "pulmonary sulcus neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Alectinib
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Alectinib: Fra ikke-småcellet lungekreft til godartet lungeneoplasme (prediksjon uten reell støtte)
+## Alectinib: Fra ikke-småcellet lungekreft til gingival fibromatose (prediksjon uten reell støtte)
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -51,9 +51,10 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt mot **lung benign ne
 |------|------|
 | Opprinnelig indikasjon | Carcinoma, Non-Small-Cell Lung (ikke-småcellet lungekreft) |
 | Predikert ny indikasjon | Lung benign neoplasm (godartet lungeneoplasme); høyest rangert er gingival fibromatose |
-| TxGNN-prediksjonsscore | 99,95 % (godartet lungeneoplasme); 99,97 % (gingival fibromatose) |
-| Evidensnivå | L1 formelt, men gjelder malign NSCLC og overføres ikke; reelt L5 for den predikerte indikasjonen |
-| Status i Norge/EØS | Kun kansellert |
+| TxGNN-prediksjonsscore | 0,9995 (godartet lungeneoplasme); 0,9997 (gingival fibromatose) |
+| Evidensnivå | L5 formelt, men gjelder malign NSCLC og overføres ikke; reelt L5 for den predikerte indikasjonen |
+| Status i Norge/EØS | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall autorisasjoner | 1 (kansellert) |
 | Anbefalt beslutning | Hold (vent) |
 
@@ -63,7 +64,7 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt mot **lung benign ne
 
 Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Ut fra kjent informasjon er alectinib en selektiv, ATP-konkurrerende hemmer av ALK (anaplastisk lymfomkinase), og farmakologidata viser også binding mot MET. Legemidlet har dokumentert effekt ved ALK-positiv NSCLC, inkludert CNS-aktivitet og effekt mot crizotinib-resistente celler.
 
-Prediksjonen om godartet lungeneoplasme er sannsynligvis en **ontologi-artefakt** i kunnskapsgrafen: sykdomsnavnet ligger nær lungeneoplasmer, som er den godkjente indikasjonen. Godartede lungesvulster har ingen kjent ALK-drevet biologi, og det finnes ingen plausibel begrunnelse for en kinasehemmer. Det samme gjelder de øvrige topprangerte prediksjonene (gingival fibromatose, lungefibrom, hamartom, junksjonell epidermolysis bullosa m.fl.): ingen identifisert mekanistisk kobling.
+Prediksjonen om godartet lungeneoplasme kommer fra TxGNN-modellen (deep learning), og scoren kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Sykdomsnavnet ligger nær lungeneoplasmer, som er den godkjente indikasjonen. Godartede lungesvulster har ingen kjent ALK-drevet biologi, og det finnes ingen plausibel begrunnelse for en kinasehemmer. Det samme gjelder de øvrige topprangerte prediksjonene (gingival fibromatose, lungefibrom, hamartom, junksjonell epidermolysis bullosa m.fl.): ingen identifisert mekanistisk kobling.
 
 Den mest nærliggende, men fortsatt svake, indirekte evidensen gjelder lungegermcelletumor (rang 6): kasuistikker viser at ALK-omorganiserte nevroendokrine svulster har respondert på ALK-hemmere, men ingen gjelder kimcelletumorer.
 

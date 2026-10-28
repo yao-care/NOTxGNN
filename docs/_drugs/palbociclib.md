@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Palbociclib
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 305
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-15
-description: "Palbociclib: predikert ny indikasjon Revmatoid artritt (rangert som nr. 2 av TxGNN (evidensnivå L4). Opprinnelig indikasjon: Brystkreft (Breast Neoplasms)"
+last_modified_at: 2026-10-28
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
+description: "Palbociclib: predikert ny indikasjon Hyperthyroidism (evidensnivå L5). Opprinnelig indikasjon: Breast Neoplasms"
 ---
 
 # Palbociclib
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **4** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-## Palbociclib: Fra brystkreft til revmatoid artritt
+## Palbociclib: Hyperthyroidism
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -47,15 +47,16 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt mot **revmatoid artr
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Brystkreft (Breast Neoplasms) |
-| Predikert ny indikasjon | Revmatoid artritt (rangert som nr. 2 av TxGNN; se merknad nedenfor) |
-| TxGNN-prediksjonsscore | 99,36 % (revmatoid artritt) |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldig tillatelse) |
+| Opprinnelig indikasjon | Breast Neoplasms |
+| Predikert ny indikasjon | Hyperthyroidism |
+| TxGNN-prediksjonsscore | 0.9944 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold (formuler forskningsspørsmål før videre klinisk utvikling) |
 
-**Merknad om valg av indikasjon:** Den høyest rangerte prediksjonen er hypertyreose (score 99,44 %), men den har verken kliniske studier, litteratur eller et støttet mekanistisk bindeledd (evidensnivå L5). Revmatoid artritt er derfor valgt som hovedfokus, siden den har mest relevant biologisk og klinisk støtte. De øvrige prediksjonene omtales kort nedenfor.
+**Merknad om valg av indikasjon:** Den høyest rangerte prediksjonen er hypertyreose (score 0,9944), men den har verken kliniske studier, litteratur eller et støttet mekanistisk bindeledd (evidensnivå L5). Revmatoid artritt er derfor valgt som hovedfokus, siden den har mest relevant biologisk og klinisk støtte. De øvrige prediksjonene omtales kort nedenfor.
 
 ---
 
@@ -68,8 +69,8 @@ Ved revmatoid artritt driver unormal celleproliferasjon i synovialfibroblaster o
 Evidensen er likevel begrenset til én kasuistikk, prekliniske data og observasjonsdata. Den bør derfor ses som grunnlag for et forskningsspørsmål, for eksempel selektiv CDK6-hemming eller en pilotstudie, og ikke som dokumentasjon på effekt.
 
 **Øvrige prediksjoner:**
-- **Hypertyreose** (99,44 %) og **tyroideahormonresistens ved THRB-mutasjon** (99,30 %): Ingen studier, ingen litteratur og ingen kjent mekanistisk kobling mellom CDK4/6-hemming og disse tilstandene. Kun beregningsbaserte prediksjoner (L5, Hold).
-- **Trombotisk sykdom** (99,32 %): Litteraturen beskriver tromboembolisme som en *bivirkning* av CDK4/6-hemmere, ikke som en behandlingseffekt. Effektretningen er sannsynligvis motsatt, og repurposing støttes ikke (L4, Hold).
+- **Hypertyreose** (0.9944) og **tyroideahormonresistens ved THRB-mutasjon** (0.9930): Ingen studier, ingen litteratur og ingen kjent mekanistisk kobling mellom CDK4/6-hemming og disse tilstandene. Kun beregningsbaserte prediksjoner (L5, Hold).
+- **Trombotisk sykdom** (0.9932): Litteraturen beskriver tromboembolisme som en *bivirkning* av CDK4/6-hemmere, ikke som en behandlingseffekt. Effektretningen er sannsynligvis motsatt, og repurposing støttes ikke (L4, Hold).
 
 ---
 
@@ -105,7 +106,7 @@ Trombotisk sykdom (sikkerhetssignal, ikke behandlingseffekt):
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/003853 | Ibrance (Pfizer Europe MA EEIG) | Ikke oppgitt | Breast Neoplasms (status: avregistrert) |
+| EMEA/H/C/003853 | Ibrance (Pfizer Europe MA EEIG) | Ikke oppgitt | Breast Neoplasms (status: godkjent) |
 
 ---
 
@@ -136,7 +137,7 @@ Ytterligere sikkerhetsinformasjon om advarsler og kontraindikasjoner må hentes 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Revmatoid artritt har en plausibel biologisk begrunnelse, men evidensen er begrenset til én kasuistikk, prekliniske data og observasjonsdata (L4), uten registrerte kliniske studier. Legemidlet har dessuten ingen gyldig tillatelse i Norge, og viktige sikkerhetsdata mangler.
+Revmatoid artritt har en plausibel biologisk begrunnelse, men evidensen er begrenset til én kasuistikk, prekliniske data og observasjonsdata (L4), uten registrerte kliniske studier.
 
 **For å gå videre kreves følgende:**
 - Innhenting av preparatomtale med advarsler og kontraindikasjoner (kritisk datamangel som i dag hindrer sikkerhetsscreening)

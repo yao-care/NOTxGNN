@@ -48,10 +48,10 @@ Vandetanib er en multikinasehemmer som opprinnelig brukes mot kreft i skjoldbrus
 |------|------|
 | Opprinnelig indikasjon | Skjoldbruskkjertelkreft (Thyroid Neoplasms) |
 | Predikert ny indikasjon | Nyrecellekarsinom (renal cell carcinoma) |
-| TxGNN-prediksjonsscore | 99,92 % |
+| TxGNN-prediksjonsscore | 0,9992 |
 | Evidensnivå | L2 |
-| Markedsstatus i Norge | Kun opphevede godkjenninger |
-| Antall godkjenninger | 1 (opphevet) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---

@@ -4,17 +4,17 @@ title: Clopidogrel
 parent: Kun modellprediksjon (L5)
 nav_order: 102
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Clopidogrel: predikert ny indikasjon Migrene (migrene med aura / PFO-assosiert migrene) (evidensnivå L5). Opprinnelig indikasjon: Perifer karsykdom, hjerneslag, hjerteinfarkt…"
+description: "Clopidogrel: predikert ny indikasjon Migrene med hjernestammeaura (evidensnivå L5). Opprinnelig indikasjon: Perifer karsykdom, hjerneslag, hjerteinfarkt…"
 monitor_inn: "CLOPIDOGREL"
-predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis", "osteoarthritis susceptibility"]
+predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]
 ---
 
 # Clopidogrel
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-## Clopidogrel: Fra hjerte- og karsykdommer til migrene
+## Clopidogrel: Fra hjerte- og karsykdommer til migrene med hjernestammeaura
 {: .text-alpha }
 
 ## Oppsummering
@@ -52,9 +52,10 @@ Det er ingen Fase 3-studie som tester clopidogrel direkte som migreneprofylakse.
 |------|------|
 | Opprinnelig indikasjon | Perifer karsykdom, hjerneslag, hjerteinfarkt, akutt koronarsyndrom (enkelte preparater også atrieflimmer) |
 | Predikert ny indikasjon | Migrene (migrene med aura / PFO-assosiert migrene); modellens topprangerte forslag er migrene med hjernestammeaura |
-| TxGNN-prediksjonsscore | 99,44 % (migrene med hjernestammeaura); 99,44 % (migrene) |
-| Evidensnivå | L2 for migrene; L3 for migrene med hjernestammeaura |
-| Status i Norge | Kun avregistrerte/trukne tillatelser (ingen gyldige) |
+| TxGNN-prediksjonsscore | 0,9944 (migrene med hjernestammeaura); 0,9944 (migrene) |
+| Evidensnivå | L5 for migrene; L3 for migrene med hjernestammeaura |
+| Status i Norge | Markedsført (gyldige tillatelser: 16 av 16) |
+| Antall godkjenninger | 16 (gyldige: 16) |
 | Antall tillatelser | 16 (alle avregistrert) |
 | Anbefalt beslutning | Proceed with Guardrails (for migrene med PFO, som forskningsspørsmål); Hold for øvrige forslag |
 
@@ -110,7 +111,7 @@ For de øvrige forslagene er litteraturen i hovedsak ikke klinisk evidens for ny
 
 ## Markedsinformasjon for Norge
 
-Alle 16 tillatelser er avregistrert, og ingen er gyldige. Eksempler (opptil 5):
+Markedsført: 16 av 16 tillatelser er gyldige. Eksempler (opptil 5):
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -148,7 +149,7 @@ Blødningsrisiko er en sentral bekymring, spesielt ved kombinasjon med acetylsal
 - En dedikert randomisert Fase 3-studie av clopidogrel som migreneprofylakse i en tydelig definert populasjon (PFO/høyre-til-venstre-shunt)
 - Data om virkningsmekanisme og fullstendig sikkerhetsinformasjon fra preparatomtale (advarsler og kontraindikasjoner)
 - Blødningsrisikovurdering og plan for håndtering av interaksjoner (særlig protonpumpehemmere og acetylsalisylsyre)
-- Avklaring av regulatorisk vei i Norge, siden alle tillatelser for clopidogrel er avregistrert
+- Avklaring av regulatorisk vei i Norge for clopidogrel, som er markedsført med 16 gyldige tillatelser
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

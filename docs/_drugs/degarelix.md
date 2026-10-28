@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **hypertrikose**, men d
 |------|------|
 | Opprinnelig indikasjon | Prostatakreft (Prostatic Neoplasms) |
 | Predikert ny indikasjon | Hypertrikose (hypertrichosis) |
-| TxGNN-prediksjonsscore | 99,99 % |
+| TxGNN-prediksjonsscore | 0,9999 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukkede (kansellerte) godkjenninger |
-| Antall godkjenninger | 2 (begge kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -67,15 +67,15 @@ Sammenhengen mellom den opprinnelige og den nye indikasjonen er svak. Hypertriko
 
 | Rang | Predikert indikasjon | Score | Vurdering |
 |------|------|------|------|
-| 2 | Ambras-type hypertrichosis universalis congenita | 99,98 % | Ingen plausibel mekanisme (TRPS1-regulering, ikke GnRH-aksen); trolig artefakt i kunnskapsgrafen |
-| 3 | Syndrom med Dandy-Walker-malformasjon | 99,98 % | Medfødt strukturell defekt; ingen mekanistisk relevans |
-| 4 | Misdannelsessyndrom med tann-/periodontal komponent | 99,98 % | Ingen kjent mekanisme; sannsynligvis nettverksnærhet |
-| 5 | Isolert genetisk hårskaftavvik | 99,98 % | Strukturelle genvarianter; androgensuppresjon forventes ikke å hjelpe |
-| 6 | Allergisk urtikaria | 99,97 % | Degarelix kan utløse histaminfrigjøring, så snarere et sikkerhetssignal |
-| 7 | Kuldeurtikaria | 99,86 % | Samme bekymring som ved allergisk urtikaria |
-| 8 | Familiær mannlig-begrenset tidlig pubertet | 99,84 % | Aktiverende LHCGR-mutasjoner; GnRH-antagonist virker oppstrøms, effekt usannsynlig |
-| 9 | Sentral tidlig pubertet 1 | 99,67 % | Biologisk sammenhengende (GnRH-aksesuppresjon), men uvalidert og uten pediatriske sikkerhetsdata |
-| 10 | Familiær isolert trikomegali | 99,65 % | Ingen kjent kobling til GnRH-androgenaksen |
+| 2 | Ambras-type hypertrichosis universalis congenita | 0,9998 | Ingen plausibel mekanisme (TRPS1-regulering, ikke GnRH-aksen); scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens |
+| 3 | Syndrom med Dandy-Walker-malformasjon | 0,9998 | Medfødt strukturell defekt; ingen mekanistisk relevans |
+| 4 | Misdannelsessyndrom med tann-/periodontal komponent | 0,9998 | Ingen kjent mekanisme; sannsynligvis nettverksnærhet |
+| 5 | Isolert genetisk hårskaftavvik | 0,9998 | Strukturelle genvarianter; androgensuppresjon forventes ikke å hjelpe |
+| 6 | Allergisk urtikaria | 0,9997 | Degarelix kan utløse histaminfrigjøring, så snarere et sikkerhetssignal |
+| 7 | Kuldeurtikaria | 0,9986 | Samme bekymring som ved allergisk urtikaria |
+| 8 | Familiær mannlig-begrenset tidlig pubertet | 0,9984 | Aktiverende LHCGR-mutasjoner; GnRH-antagonist virker oppstrøms, effekt usannsynlig |
+| 9 | Sentral tidlig pubertet 1 | 0,9967 | Biologisk sammenhengende (GnRH-aksesuppresjon), men uvalidert og uten pediatriske sikkerhetsdata |
+| 10 | Familiær isolert trikomegali | 0,9965 | Ingen kjent kobling til GnRH-androgenaksen |
 
 Den mest mekanistisk sammenhengende hypotesen er sentral tidlig pubertet. Den bør betraktes som et forskningsspørsmål, ikke en etablert indikasjon.
 
@@ -100,7 +100,7 @@ Det foreligger foreløpig ingen relatert litteratur.
 | EMEA/H/C/006048 | Degarelix Accord | – | Prostatakreft (kansellert) |
 | EMEA/H/C/000986 | Firmagon | – | Prostatakreft (kansellert) |
 
-Begge godkjenningene er kansellert, og det finnes ingen gyldige godkjenninger i dag.
+Legemidlet er markedsført, og begge godkjenningene (2 av 2) er gyldige i dag.
 
 ---
 

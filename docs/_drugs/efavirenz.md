@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Efavirenz
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 139
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
-description: "Efavirenz: predikert ny indikasjon Simianimmunsviktvirus-infeksjon (SIV) (evidensnivå L4). Opprinnelig indikasjon: HIV-infeksjon"
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-27
+description: "Efavirenz: predikert ny indikasjon Simian immunsviktvirus-infeksjon (simian immunodeficiency virus infection) (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
 # Efavirenz
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,104 +33,82 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-## Efavirenz: Fra HIV-infeksjon til simianimmunsviktvirus-infeksjon (SIV)
+## Efavirenz: ikke-nukleosid revers transkriptase-hemmer → Simian immunsviktvirus-infeksjon (simian immunodeficiency virus infection)
 {: .text-alpha }
 
-## Oppsummering i én setning
+## Oppsummering
 
-Efavirenz er en ikke-nukleosid revers transkriptase-hemmer (NNRTI) som opprinnelig brukes til behandling av HIV-infeksjon.
-TxGNN-modellen forutsier at legemidlet kan være effektivt mot **simianimmunsviktvirus-infeksjon (SIV)**,
-men dette støttes bare av **0 kliniske studier** og **14 publikasjoner**, nesten alle prekliniske studier i makakmodeller. Dette er ikke en reell ny human indikasjon.
-
----
+Efavirenz er en ikke-nukleosid revers transkriptase-hemmer (NNRTI) som virker på revers transkriptase hos HIV-1.
+TxGNN-modellen predikerer at legemidlet kan ha effekt mot **simian immunsviktvirus-infeksjon (simian immunodeficiency virus infection)**.
+Det finnes **ingen kliniske studier** og **14 publikasjoner**, nesten utelukkende prekliniske studier på makaker med kimært RT-SHIV-virus, som er knyttet til denne retningen.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | HIV-infeksjon |
-| Predikert ny indikasjon | Simianimmunsviktvirus-infeksjon (SIV) |
-| TxGNN-prediksjonsscore | 99,80 % |
-| Evidensnivå | L4 |
-| Status på det norske markedet | Kun avregistrert (ingen gyldige preparater) |
-| Antall godkjenninger | 5 (alle avregistrert) |
+| Opprinnelig indikasjon | HIV Infections |
+| Predikert ny indikasjon | Simian immunsviktvirus-infeksjon (simian immunodeficiency virus infection) |
+| TxGNN-prediksjonsscore | 0,9980 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 5 av 5) |
+| Antall godkjenninger | 5 (gyldige: 5) |
 | Anbefalt beslutning | Hold |
-
----
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Efavirenz hemmer revers transkriptase hos HIV-1. Villtype SIV er imidlertid naturlig resistent mot NNRTI-er, så effekt ses bare i den kimære viruskonstruksjonen RT-SHIV, som bærer HIV-1 sin revers transkriptase. Evidensen kommer dermed fra en preklinisk makakmodell for HIV-1-rettet behandling, ikke fra en ny indikasjon i egentlig forstand.
+Efavirenz hemmer revers transkriptase hos HIV-1. Villtype SIV er naturlig resistent mot NNRTI-er, så effekt sees bare i det kimære viruset RT-SHIV, som bærer HIV-1 sin revers transkriptase. Detaljerte mekanismedata (MOA) fra legemiddeldatabasen er ikke tilgjengelige i de innsamlede dataene.
 
-SIV-infeksjon er en ikke-human sykdom og har ingen klinisk anvendelse hos mennesker utover den opprinnelige HIV-indikasjonen. Verdien av prediksjonen ligger først og fremst i at RT-SHIV-modellen kan brukes til å studere behandlingsstrategier, resistens og virusreservoarer.
+Studiene som er funnet, bruker RT-SHIV-infiserte makaker som modell for HIV-1-behandling. De undersøker altså ikke SIV-infeksjon som en egen sykdom, men er en dyremodell for den eksisterende HIV-indikasjonen. SIV-infeksjon hos dyr har ingen egen klinisk anvendelse for mennesker. Prediksjonen er derfor mekanistisk forståelig, men ikke en reell ny humanindikasjon.
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Beskrivelsen over bygger på kjent farmakologi og på de prekliniske studiene.
+Ingen av de siterte studiene undersøker SIV-infeksjon direkte med villtype-virus som behandlingsmål for efavirenz. Evidensnivået settes derfor til L5, selv om modellstudiene gir indirekte støtte.
 
-Andre prediksjoner i datagrunnlaget:
-- **Felint ervervet immunsviktsyndrom (FIV):** Kun én biokjemisk/strukturell in vitro-studie fra 2023 (PMID 38031646) sammenligner NNRTI-er mot FIV-RT. Dette er indirekte evidens på enzymnivå, uten data fra infiserte dyr, og indikasjonen er veterinærmedisinsk. Evidensnivå L4, anbefaling Hold.
-- **Nevroutviklingsforstyrrelse med ataktisk gange, fraværende tale og redusert kortikal hvit substans:** Kun en beregningsmessig prediksjon (score ca. 99,77 %), uten studier eller kjent mekanisme. Efavirenz er kjent for nevropsykiatriske bivirkninger, noe som tilsier forsiktighet. Evidensnivå L5, anbefaling Hold.
+## Kliniske studier
 
----
-
-## Evidens fra kliniske studier
-
-Foreløpig er det ikke registrert noen relaterte kliniske studier.
-
----
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [15328115](https://pubmed.ncbi.nlm.nih.gov/15328115/) | 2004 | Preklinisk | Antimicrob Agents Chemother | Efavirenz-behandling i rhesusmakaker infisert med RT-SHIV (SIV med HIV-1 RT) |
-| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Preklinisk | J Virol | Efavirenz, lamivudin og tenofovir (HAART) reduserte virusmengden i plasma hos RT-SHIV-infiserte makaker |
-| [24777106](https://pubmed.ncbi.nlm.nih.gov/24777106/) | 2014 | Preklinisk | Antimicrob Agents Chemother | Utvidet firedrogs- og femdrogs-HAART forbedret viral nedbrytningskinetikk i RT-SHIV-makaker |
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro | Antivir Ther | Følsomhet hos HIV-2, SIV og SHIV for anti-HIV-1-midler, med betydning for behandling og posteksponeringsprofylakse |
-| [20032180](https://pubmed.ncbi.nlm.nih.gov/20032180/) | 2010 | Preklinisk | J Virol | Analyse av virusreservoarer under HAART i en ikke-human primatmodell |
-| [22933296](https://pubmed.ncbi.nlm.nih.gov/22933296/) | 2012 | Preklinisk | J Virol | Ultrasensitiv PCR avdekket sjeldne forhåndseksisterende resistente varianter i RT-SHIV-makaker |
-| [21084490](https://pubmed.ncbi.nlm.nih.gov/21084490/) | 2011 | Preklinisk | J Virol | Genetisk diversitet hos RT-SHIV vedvarer i makaker til tross for antiretroviral behandling |
-| [26559632](https://pubmed.ncbi.nlm.nih.gov/26559632/) | 2015 | Preklinisk | Retrovirology | Like virus­populasjoner i plasma og vev tyder på manglende viral replikasjon i vev under behandling |
-| [19889213](https://pubmed.ncbi.nlm.nih.gov/19889213/) | 2009 | Preklinisk | Retrovirology | Dynamikk i RT-SHIV-subpopulasjoner under kortvarig efavirenz-monoterapi og kombinasjonsbehandling |
-| [35856680](https://pubmed.ncbi.nlm.nih.gov/35856680/) | 2022 | Preklinisk | Antimicrob Agents Chemother | Bildeanalyse av antiretrovirale midler, viralt RNA og fibrose i milt hos ikke-menneskelige primater |
+| [15328115](https://pubmed.ncbi.nlm.nih.gov/15328115/) | 2004 | Preklinisk | Antimicrob Agents Chemother | Efavirenz-behandling av rhesusmakaker infisert med RT-SHIV |
+| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Preklinisk | J Virol | Efavirenz + lamivudin + tenofovir reduserte virusmengden i RT-SHIV-infiserte makaker |
+| [24777106](https://pubmed.ncbi.nlm.nih.gov/24777106/) | 2014 | Preklinisk | Antimicrob Agents Chemother | Utvidet firedobbel/femdobbel behandling bedret viral nedgangskinetikk i RT-SHIV-modell |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro | Antivir Ther | Følsomhet hos HIV-2, SIV og SHIV for anti-HIV-1-midler |
+| [22933296](https://pubmed.ncbi.nlm.nih.gov/22933296/) | 2012 | Preklinisk | J Virol | Sjeldne resistente varianter og stor replikerende viruspopulasjon i RT-SHIV-makaker |
+| [21084490](https://pubmed.ncbi.nlm.nih.gov/21084490/) | 2011 | Preklinisk | J Virol | Genetisk mangfold av RT-SHIV vedvarer under antiretroviral behandling |
+| [19889213](https://pubmed.ncbi.nlm.nih.gov/19889213/) | 2009 | Preklinisk | Retrovirology | Dynamikk i virussubpopulasjoner under efavirenz og kombinasjonsbehandling |
+| [35856680](https://pubmed.ncbi.nlm.nih.gov/35856680/) | 2022 | Preklinisk | Antimicrob Agents Chemother | Bildeanalyse av antiretrovirale midler og viralt RNA i milt hos makaker |
+| [26559632](https://pubmed.ncbi.nlm.nih.gov/26559632/) | 2015 | Preklinisk | Retrovirology | Like virale populasjoner i plasma og vev tyder på lite viral replikasjon i vev under behandling |
+| [15564466](https://pubmed.ncbi.nlm.nih.gov/15564466/) | 2004 | In vitro | J Virol | Karakterisering av SIV-HIV-kimære til studier av NNRTI-resistens hos grisehalemakaker |
 
----
-
-## Informasjon om det norske markedet
+## Markedsinformasjon for Norge
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/002352 | Efavirenz Teva | Ikke oppgitt | HIV-infeksjon (avregistrert) |
-| EMEA/H/C/000250 | Stocrin | Ikke oppgitt | HIV-infeksjon (avregistrert) |
-| EMEA/H/C/004250 | Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva | Ikke oppgitt | HIV-infeksjon (avregistrert) |
-| EMEA/H/C/004240 | Efavirenz/Emtricitabine/Tenofovir disoproxil Mylan | Ikke oppgitt | HIV-infeksjon (avregistrert) |
-| EMEA/H/C/004274 | Efavirenz/Emtricitabine/Tenofovir disoproxil Krka | Ikke oppgitt | HIV-infeksjon (avregistrert) |
-
----
+| EMEA/H/C/002352 | Efavirenz Teva | – | HIV-infeksjoner |
+| EMEA/H/C/000250 | Stocrin | – | HIV-infeksjoner |
+| EMEA/H/C/004250 | Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva | – | HIV-infeksjoner |
+| EMEA/H/C/004240 | Efavirenz/Emtricitabine/Tenofovir disoproxil Mylan | – | HIV-infeksjoner |
+| EMEA/H/C/004274 | Efavirenz/Emtricitabine/Tenofovir disoproxil Krka | – | HIV-infeksjoner |
 
 ## Sikkerhetsvurderinger
 
-**Kontraindikasjoner fra kunnskapsgrafen (TxGNN/PrimeKG, ikke preparatomtale):** Grafen knytter efavirenz til blant annet leversvikt, leversykdom, fettlever og ikke-alkoholisk steatohepatitt, kronisk hepatitt B og C, nyresykdom, Fanconi-syndrom, laktacidose, epilepsi, angstlidelse, nevrotisk lidelse, dystymi, vrangforestillingslidelse, paranoid schizofreni, hypertriglyseridemi, fedme, hypofosfatemi, osteomalaci og rakitt, galleblæresykdom samt pyoureter. Dette er grafbaserte koblinger og må verifiseres mot preparatomtalen.
+- **Legemiddelinteraksjoner**: 100 interaksjoner er registrert. Blant dem som er hentet ut, er dolasetron klassifisert som **alvorlig (Major)**. Flere er moderate, blant annet acarbose, famotidin, rabeprazol, hydrokortison, pioglitazon, loperamid, bupropion, aprepitant, triamcinolon, deksametason, betametason, klaritromycin og minocyklin.
 
-**Legemiddelinteraksjoner:** Totalt 100 interaksjoner er registrert. Blant de viktigste:
-- **Alvorlig:** dolasetron
-- **Moderate:** akarbose, famotidin, rabeprazol, hydrokortison, deksametason, betametason, triamcinolon, pioglitazon, loperamid, bupropion, aprepitant, klaritromycin, saksagliptin, dronabinol, minocyklin, bisakodyl, kenodeoksykolsyre, pikosulfat og polyetylenglykol
-
-Preparatomtalens advarsler og kontraindikasjoner var ikke tilgjengelige i datagrunnlaget og må gjennomgås før en eventuell sikkerhetsvurdering.
-
----
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Evidensen for SIV er begrenset til prekliniske makakstudier med en kimær virus­modell (RT-SHIV), uten kliniske studier og uten relevans for en ny human indikasjon. Alle tre prediksjonene har evidensnivå L4–L5, og ingen av dem gir grunnlag for å gå videre. Efavirenz har dessuten ingen gyldige preparater på det norske markedet.
+Evidensen består av prekliniske makakstudier med et kimært virus og ingen kliniske studier. SIV-infeksjon er en dyresykdom uten egen klinisk anvendelse hos mennesker. Prediksjonen gir derfor ikke grunnlag for å gå videre som ny humanindikasjon.
 
-**For å gå videre kreves følgende:**
-- Hente preparatomtalens advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
-- Hente data om virkningsmekanisme fra DrugBank
-- Avklare om det finnes noen reell human eller veterinærmedisinsk anvendelse utover den eksisterende HIV-indikasjonen
-- Utrede nevropsykiatrisk sikkerhet før noen vurdering av nevrologiske indikasjoner
+**For å gå videre kreves:**
+- Hentet og gjennomgått preparatomtale med advarsler og kontraindikasjoner
+- Data om virkningsmekanisme (MOA) fra legemiddeldatabasen
+- Klar definisjon av om målet er en veterinær eller en translasjonell modellanvendelse
+- Direkte studier av villtype-SIV hvis indikasjonen skal forfølges videre
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

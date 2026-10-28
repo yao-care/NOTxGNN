@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Hydrocortisone
-parent: Kun modellprediksjon (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 201
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Hydrocortisone: predikert ny indikasjon Alopecia areata (evidensnivå L5). Opprinnelig indikasjon: Binyrebarksvikt (adrenal insufficiency)"
 monitor_inn: "HYDROCORTISONE"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 # Hydrocortisone
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L1** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,10 @@ Dette støttes av **1 klinisk studie** og **20 publikasjoner**, men hydrokortiso
 |------|------|
 | Opprinnelig indikasjon | Binyrebarksvikt (adrenal insufficiency) |
 | Predikert ny indikasjon | Alopecia areata |
-| TxGNN-prediksjonsscore | 99,97 % |
+| TxGNN-prediksjonsscore | 0,9997 |
 | Evidensnivå | L1 (formelt etter klassifiseringen i dataene, men se merknad under) |
-| Markedsstatus i Norge | Kun opphevede (kansellerte) autorisasjoner |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
 | Antall autorisasjoner | 3 (alle kansellert) |
 | Anbefalt beslutning | Hold |
 

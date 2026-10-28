@@ -50,10 +50,10 @@ men det finnes **ingen registrerte kliniske studier** og bare **indirekte litter
 |------|------|
 | Opprinnelig indikasjon | Leiomyom |
 | Predikert ny indikasjon | Amenoré |
-| TxGNN-prediksjonsscore | 99,6 % |
+| TxGNN-prediksjonsscore | 0,9960 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun tilbakekalt/avregistrert (cancelled) |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -101,7 +101,7 @@ Merk: Ingen av publikasjonene tester norethisterone som behandling av amenoré. 
 |---------|------|------|-----------|
 | EMEA/H/C/005267 | Ryeqo | Ikke oppgitt | Leiomyom |
 
-Godkjenningen har status «cancelled», og det finnes ingen gyldige godkjenninger for enkeltstoff eller kombinasjoner.
+Legemidlet er markedsført, og 1 av 1 godkjenninger er gyldig.
 
 ---
 

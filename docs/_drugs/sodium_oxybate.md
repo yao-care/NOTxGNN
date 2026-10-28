@@ -48,10 +48,10 @@ Natriumoksybat (GHB) brukes opprinnelig mot **katapleksi og narkolepsi**. TxGNN-
 |------|------|
 | Opprinnelig indikasjon | Katapleksi; narkolepsi |
 | Predikert ny indikasjon | Insomni |
-| TxGNN-prediksjonsscore | 99,997 % |
+| TxGNN-prediksjonsscore | 1,0000 |
 | Evidensnivå | L2 |
-| Markedsstatus i Norge | Kun avregistrerte (kansellerte) godkjenninger |
-| Antall godkjenninger | 1 (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---

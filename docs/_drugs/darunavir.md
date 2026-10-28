@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Darunavir
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 114
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-15
-description: "Darunavir: predikert ny indikasjon Simian immunsviktvirus-infeksjon (evidensnivå L4). Opprinnelig indikasjon: Hiv-infeksjon"
 monitor_inn: "DARUNAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+last_modified_at: 2026-10-27
+description: "Darunavir: predikert ny indikasjon Infeksjon med simian immunsviktvirus (simian immunodeficiency virus infection) (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
 # Darunavir
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **4** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,98 +33,70 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-## Darunavir: Fra hiv-infeksjon til simian immunsviktvirus-infeksjon
+## Darunavir: HIV-proteasehemmer → Infeksjon med simian immunsviktvirus (simian immunodeficiency virus infection)
 {: .text-alpha }
 
-## Oppsummering i én setning
+## Oppsummering
 
-Darunavir er en hiv-proteasehemmer som opprinnelig brukes til behandling av **hiv-infeksjon**.
-TxGNN-modellen forutsier at legemidlet kan være virksomt mot **simian immunsviktvirus-infeksjon (SIV)**.
-Støtten består av **4 publikasjoner** fra dyrestudier (makaker) og **ingen kliniske studier**. Det er i praksis en utvidelse av den opprinnelige hiv-indikasjonen til en dyremodell, ikke en reell ny sykdom hos mennesker.
-
----
+Darunavir er en proteasehemmer som brukes mot HIV-infeksjon. TxGNN-modellen forutsier at legemidlet kan ha effekt mot **infeksjon med simian immunsviktvirus (simian immunodeficiency virus infection)**. Støtten består av **0 kliniske studier** og **4 publikasjoner**, alle prekliniske dyrestudier på makaker der darunavirs egen bidrag ikke kan isoleres.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Hiv-infeksjon |
-| Predikert ny indikasjon | Simian immunsviktvirus-infeksjon |
-| TxGNN-prediksjonsscore | 99,97 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun trukket tilbake (alle autorisasjoner kansellert) |
-| Antall autorisasjoner | 5 |
+| Opprinnelig indikasjon | HIV Infections |
+| Forutsagt ny indikasjon | Infeksjon med simian immunsviktvirus (simian immunodeficiency virus infection) |
+| TxGNN-prediksjonsscore | 0,9997 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 5 av 5) |
+| Antall godkjenninger | 5 (gyldige: 5) |
 | Anbefalt beslutning | Hold |
-
----
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Darunavir er likevel kjent som en hemmer av hiv-1-proteasen, og effekten ved hiv-infeksjon er etablert.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Darunavir tilhører klassen HIV-1-proteasehemmere. SIV er et lentivirus som er nært beslektet med HIV, så aktivitet mot SIV-protease er mekanistisk plausibelt.
 
-SIV er et lentivirus som er nært beslektet med hiv, så aktivitet mot SIV-protease er mekanistisk plausibel. Den høye scoren gjenspeiler trolig likhet i kunnskapsgrafen mellom hiv-relaterte noder, ikke selvstendig klinisk evidens.
+Dette er i praksis en utvidelse av HIV-bruken til en dyremodell hos ikke-menneskelige primater, ikke en reell repurposing mot en ny sykdom. Den høye prediksjonsscoren sier noe om modellens likhetsvurdering, ikke om klinisk dokumentasjon.
 
-Den tilgjengelige litteraturen består av studier på makaker der kombinasjonsregimer av antiretroviral behandling (ART) ble testet, delvis sammen med tilleggsstoffer (auranofin, en histondeacetylasehemmer). Darunavirs bidrag kan ikke isoleres ut fra titlene. Det intensiverte ART-regimet i PMID 22737073 kan inneholde en proteasehemmer, men dette må verifiseres i fulltekst.
+## Kliniske studier
 
-Øvrige predikerte indikasjoner er svakere. Felin ervervet immunsviktsyndrom (FIV) har ingen studier, og FIV-protease skiller seg strukturelt fra hiv-1-protease. For en sjelden nevroutviklingsforstyrrelse finnes ingen identifiserbar mekanistisk kobling, og scoren er trolig en artefakt i kunnskapsgrafen. «Obsolete familial combined hyperlipidemia» er et utgått sykdomsbegrep, og proteasehemmere gir tvert imot dyslipidemi som bivirkning.
-
----
-
-## Evidens fra kliniske studier
-
-Foreløpig er ingen relevante kliniske studier registrert.
-
----
+Foreløpig er det ingen relaterte kliniske studier registrert.
 
 ## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Prekliniske dyrestudie | PloS one | SIV-infiserte kinesiske rhesusaper behandlet med suppressiv kombinasjons-ART og histondeacetylasehemmeren SAHA i 3 uker, som modell for virale reservoarer |
-| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Prekliniske dyrestudie | AIDS research and human retroviruses | Sammenligning av to koformulerte injiserbare ART-regimer hos SIV-infiserte rhesusaper |
-| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Prekliniske dyrestudie | AIDS | Gullforbindelsen auranofin som tillegg til ART begrenset det virale reservoaret i apemodell |
-| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Prekliniske dyrestudie | PLoS pathogens | Høyintensivt multilegemiddel-ART ga langvarig virussuppresjon og begrenset viralt reservoar i SIV-modell |
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Preklinisk dyrestudie | PloS one | SIV-infiserte kinesiske rhesusmakaker behandlet med intensiv kombinasjons-ART og HDAC-hemmeren SAHA i 3 uker |
+| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Preklinisk dyrestudie | AIDS research and human retroviruses | Sammenligning av to koformulerte injiserbare ART-regimer hos SIVmac239-infiserte rhesusmakaker |
+| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Preklinisk dyrestudie | AIDS | Gullforbindelsen auranofin som tillegg til ART reduserte det virale reservoaret i apemodell |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Preklinisk dyrestudie | PLoS pathogens | Høyintensiv ART-kombinasjon ga langvarig viral suppresjon og begrenset reservoar i SIV-modell |
 
----
+Ingen av studiene isolerer darunavirs bidrag, og om darunavir inngår i regimene må kontrolleres mot fulltekstene.
 
-## Markedsinformasjon for Norge
+## Informasjon om markedet i Norge
 
-| Autorisasjonsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004273 | Darunavir Krka | Ikke oppgitt | Hiv-infeksjon |
-| EMEA/H/C/004068 | Darunavir Viatris (tidligere Darunavir Mylan) | Ikke oppgitt | Hiv-infeksjon |
-| EMEA/H/C/000707 | Prezista | Ikke oppgitt | Hiv-infeksjon |
-| EMEA/H/C/002819 | Rezolsta | Ikke oppgitt | Hiv-infeksjon |
-| EMEA/H/C/004391 | Symtuza | Ikke oppgitt | Hiv-infeksjon |
-
-Alle fem autorisasjonene er kansellert.
-
----
+Markedsstatus er registrert som markedsført i de lokale dataene. Lisensoversikten genereres av programmet.
 
 ## Sikkerhetsvurderinger
 
-- **Kontraindikasjoner fra kunnskapsgrafen** (ikke fra preparatomtale): leversvikt, leversykdom, cirrose, kronisk hepatitt B- og C-infeksjon, gallblæresykdom, hyperglykemi, diabetes mellitus, diabetisk ketoacidose, hypertriglyseridemi og hemofili.
-- **Legemiddelinteraksjoner**: 100 interaksjoner er identifisert. Blant de viste er én alvorlig (**Major**): cisaprid. Mange er av moderat grad, blant annet:
-  - Antidiabetika: acarbose, metformin, pioglitazon, alogliptin, albiglutid, kanagliflozin, dapagliflozin, saksagliptin, klorpropamid, acetoheksamid
-  - Kortikosteroider: hydrokortison, triamcinolon, deksametason, betametason, budesonid
-  - Andre: aprepitant, klaritromycin
+**Legemiddelinteraksjoner** (100 registrerte; utvalg):
+- **Alvorlig:** cisaprid
+- **Moderat:** acarbose, metformin, pioglitazon, alogliptin, kanagliflozin, dapagliflozin, hydrokortison, deksametason, betametason, budesonid, triamcinolon, aprepitant, klaritromycin
 
-Se preparatomtalen for fullstendig sikkerhetsinformasjon.
-
----
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Evidensen er kun prekliniske dyrestudier (L4) der darunavirs enkeltbidrag ikke kan skilles ut, og ingen kliniske studier finnes. Prediksjonen er dessuten i praksis en dyremodell-utvidelse av den eksisterende hiv-indikasjonen, uten reell ny humanmedisinsk nytte. Alle norske autorisasjoner er kansellert.
+Det finnes ingen kliniske studier, og de fire publikasjonene er prekliniske makakstudier med kombinasjonsregimer der darunavirs egen effekt ikke kan skilles ut. Ingen studie omhandler darunavir alene mot SIV, og prediksjonen er derfor på modellnivå (L5).
 
-**For å gå videre kreves følgende:**
-- Informasjon om virkningsmekanisme (MOA)
-- Preparatomtalens advarsler og kontraindikasjoner (mangler i dataene og blokkerer sikkerhetsscreening)
-- Fulltekstgjennomgang av makakkstudiene for å avklare om darunavir inngikk i regimene og hva det bidro med
-- Avklaring av om det finnes et reelt humanmedisinsk behov som rettferdiggjør videre arbeid
+**For å gå videre kreves:**
+- Verifisering av om darunavir inngår i regimene i de aktuelle makakstudiene
+- Data om virkningsmekanisme (MOA)
+- Preparatomtalens advarsler og kontraindikasjoner
+- En vurdering av om SIV-modeller er relevante for et reelt behov hos mennesker
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

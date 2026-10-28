@@ -48,10 +48,10 @@ Norelgestromin er et gestagen som opprinnelig brukes til **prevensjon**. Det gis
 |------|------|
 | Opprinnelig indikasjon | Prevensjon |
 | Predikert ny indikasjon | Amenoré |
-| TxGNN-prediksjonsscore | 99,51 % |
+| TxGNN-prediksjonsscore | 0,9951 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun opphevede (trukkede) godkjenninger |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -84,7 +84,7 @@ Foreløpig finnes det ingen relatert litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/000410 | Evra | – | Prevensjon |
 
-Godkjenningen er opphevet, og det finnes ingen gyldige godkjenninger for virkestoffet i Norge.
+Legemidlet er markedsført i Norge, og 1 av 1 godkjenninger er gyldig.
 
 ---
 

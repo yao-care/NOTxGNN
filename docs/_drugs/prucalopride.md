@@ -49,9 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan være effektivt mot **hypoalfalipopro
 |------|------|
 | Opprinnelig indikasjon | Forstoppelse |
 | Predikert ny indikasjon | Hypoalfalipoproteinemi |
-| TxGNN-prediksjonsscore | 99,82 % |
+| TxGNN-prediksjonsscore | 0,9982 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (ingen gyldige markedsføringstillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (0 gyldige, 1 trukket tilbake) |
 | Anbefalt beslutning | Hold |
 
@@ -91,7 +92,7 @@ Ingen av publikasjonene viser effekt av prukaloprid.
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/001012 | Resolor (status: trukket tilbake) | Ikke oppgitt | Forstoppelse |
+| EMEA/H/C/001012 | Resolor (status: godkjent) | Ikke oppgitt | Forstoppelse |
 
 ---
 
@@ -109,7 +110,7 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for hypoalfalipoproteinemi bygger kun på modellscore (evidensnivå L5), uten kliniske studier, litteratur eller troverdig mekanistisk kobling. Legemidlet har dessuten ingen gyldig markedsføringstillatelse i Norge.
+Prediksjonen for hypoalfalipoproteinemi bygger kun på modellscore (evidensnivå L5), uten kliniske studier, litteratur eller troverdig mekanistisk kobling. Legemidlet er markedsført i Norge, og 1 av 1 markedsføringstillatelse er gyldig.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtale (advarsler og kontraindikasjoner), som i dag mangler

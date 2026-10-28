@@ -48,10 +48,10 @@ Budesonid er et kortikosteroid som opprinnelig brukes mot kronisk obstruktiv lun
 |------|------|
 | Opprinnelig indikasjon | Spiserørssykdom (Esophageal Diseases) |
 | Predikert ny indikasjon | Atopisk eksem |
-| TxGNN-prediksjonsscore | 99,96 % |
+| TxGNN-prediksjonsscore | 0,9996 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun opphevede godkjenninger |
-| Antall godkjenninger | 6 (alle opphevet) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 6 av 6) |
+| Antall godkjenninger | 6 (gyldige: 6) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de inns
 
 Atopisk eksem er en Th2-drevet inflammatorisk hudsykdom, og topiske kortikosteroider er allerede standardbehandling. Mekanismen er derfor biologisk plausibel. Likevel viser den innhentede litteraturen ingen klinisk effekt av budesonid ved atopisk eksem. Den eneste direkte relevante publikasjonen er en preklinisk studie av budesonid-nanopartikler i hydrogel. Resten omhandler eosinofil øsofagitt, kontaktallergi, kortikosteroid-overfølsomhet og binyresuppresjon. Den høye TxGNN-scoren er en ren prediksjon og understøttes ikke av kliniske data.
 
-Atopisk eksem opptrer også under navnet «dermatitis, atopic» (rangert som nr. 3, score 99,81 %). Dette er samme sykdom med annen merkelapp og har like svak evidens.
+Atopisk eksem opptrer også under navnet «dermatitis, atopic» (rangert som nr. 3, score 0,9981). Dette er samme sykdom med annen merkelapp og har like svak evidens.
 
 ---
 
@@ -91,7 +91,7 @@ Foreløpig er det ikke registrert noen relaterte kliniske studier for atopisk ek
 
 ## Markedsinformasjon for Norge
 
-Alle seks godkjenninger er opphevet. Ingen gyldige godkjenninger er registrert.
+Alle seks godkjenninger er gyldige.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -132,7 +132,7 @@ Evidensnivået er L5. Det finnes ingen kliniske studier for atopisk eksem, og li
 - Vurdering av administrasjonsvei og formulering (dagens godkjente produkter er inhalasjons- og oral-/øsofagusformuleringer)
 - Sikkerhetsvurdering for kontaktallergi og systemisk absorpsjon, spesielt hos barn
 
-**Merknad om andre prediksjoner:** Bronkitt (rangert nr. 2, score 99,81 %) har høyere evidensnivå (L2), med blant annet en randomisert fase 4-studie ved eosinofil bronkitt (NCT02002715, n=106). Den overlapper imidlertid med den opprinnelige kols-indikasjonen og er dermed neppe reell ompostering. Dette kan vurderes som et eget forskningsspørsmål.
+**Merknad om andre prediksjoner:** Bronkitt (rangert nr. 2, score 0,9981) har høyere evidensnivå (L2), med blant annet en randomisert fase 4-studie ved eosinofil bronkitt (NCT02002715, n=106). Den overlapper imidlertid med den opprinnelige kols-indikasjonen og er dermed neppe reell ompostering. Dette kan vurderes som et eget forskningsspørsmål.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

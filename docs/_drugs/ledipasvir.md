@@ -49,9 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **hepatitt B-virusinfe
 |------|------|
 | Opprinnelig indikasjon | Kronisk hepatitt C |
 | Predikert ny indikasjon | Hepatitt B-virusinfeksjon |
-| TxGNN-prediksjonsscore | 99,91 % |
+| TxGNN-prediksjonsscore | 0,9991 |
 | Evidensnivå | L2 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -61,7 +62,7 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **hepatitt B-virusinfe
 
 Data om virkningsmekanisme (MOA) er ikke tilgjengelig i dataene som er samlet inn for denne rapporten. Ledipasvir er kjent som en hemmer av HCV-proteinet NS5A, og er i Harvoni kombinert med sofosbuvir, en nukleotidanalog som hemmer NS5B-polymerasen. Effekten ved kronisk hepatitt C er godt dokumentert.
 
-Mekanistisk er koblingen til HBV svak. HBV har ingen kjent NS5A-homolog, så en direkte anti-HBV-effekt av ledipasvir er uklar. Sofosbuvirs bidrag er også usikkert og trolig beskjedent. Den høye TxGNN-scoren gjenspeiler sannsynligvis at HBV ligger nær HCV i kunnskapsgrafen (felles nabolag av virale leversykdommer), ikke en validert mekanisme.
+Mekanistisk er koblingen til HBV svak. HBV har ingen kjent NS5A-homolog, så en direkte anti-HBV-effekt av ledipasvir er uklar. Sofosbuvirs bidrag er også usikkert og trolig beskjedent. Den høye scoren kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 Det kliniske signalet kommer fra pasienter med HCV/HBV-koinfeksjon, der HCV-suppresjon er dokumentert. Retrospektive data tydet på en moderat reduksjon i HBsAg, noe som ga utgangspunkt for en fase 2-studie hos pasienter med ren HBV-infeksjon. Samtidig er HBV-reaktivering en anerkjent risiko etter DAA-indusert HCV-klaring.
 
@@ -100,7 +101,7 @@ Det kliniske signalet kommer fra pasienter med HCV/HBV-koinfeksjon, der HCV-supp
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/003850 | Harvoni | Ikke oppgitt | Kronisk hepatitt C (status: avregistrert) |
+| EMEA/H/C/003850 | Harvoni | Ikke oppgitt | Kronisk hepatitt C (status: godkjent) |
 
 ---
 
@@ -121,7 +122,7 @@ Det kliniske signalet kommer fra pasienter med HCV/HBV-koinfeksjon, der HCV-supp
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den eneste direkte studien ved HBV-infeksjon er liten (n=21), åpen og uten kontrollarm, og det finnes ingen plausibel mekanisme for anti-HBV-effekt. Den øvrige evidensen gjelder HCV/HBV-koinfeksjon, der HBV-reaktivering er en kjent risiko. I tillegg har legemidlet ingen gyldig markedsføringstillatelse i Norge.
+Den eneste direkte studien ved HBV-infeksjon er liten (n=21), åpen og uten kontrollarm, og det finnes ingen plausibel mekanisme for anti-HBV-effekt. Den øvrige evidensen gjelder HCV/HBV-koinfeksjon, der HBV-reaktivering er en kjent risiko. Legemidlet er markedsført i Norge, med 1 gyldig markedsføringstillatelse av 1.
 
 **For å gå videre kreves følgende:**
 - Resultater og effektstørrelser fra NCT03312023 (fall i HBsAg og HBV-DNA), helst bekreftet i en kontrollert og større studie

@@ -4,17 +4,17 @@ title: Vildagliptin
 parent: Kun modellprediksjon (L5)
 nav_order: 452
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Vildagliptin: predikert ny indikasjon Klassisk stiff person-syndrom (evidensnivå L5). Opprinnelig indikasjon: Diabetes mellitus, type 2"
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
+description: "Vildagliptin: predikert ny indikasjon Classic stiff person syndrome (evidensnivå L5). Opprinnelig indikasjon: Diabetes Mellitus, Type 2"
 ---
 
 # Vildagliptin
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Vildagliptin: Fra type 2-diabetes til klassisk stiff person-syndrom
+## Vildagliptin: Classic stiff person syndrome
 {: .text-alpha }
 
 ## Oppsummering
@@ -48,11 +48,12 @@ Prediksjonen er derfor ren modellberegning uten klinisk støtte.
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Diabetes mellitus, type 2 |
-| Predikert ny indikasjon | Klassisk stiff person-syndrom |
-| TxGNN-prediksjonsscore | 99,88 % |
+| Opprinnelig indikasjon | Diabetes Mellitus, Type 2 |
+| Predikert ny indikasjon | Classic stiff person syndrome |
+| TxGNN-prediksjonsscore | 0.9988 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukkede tillatelser (ingen gyldige) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 7 av 7) |
+| Antall godkjenninger | 7 (gyldige: 7) |
 | Antall tillatelser | 7 (alle trukket tilbake) |
 | Anbefalt beslutning | Hold |
 
@@ -62,7 +63,7 @@ Prediksjonen er derfor ren modellberegning uten klinisk støtte.
 
 Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Vildagliptin hemmer enzymet DPP-4. Dermed øker aktivt GLP-1 og GIP, noe som gir økt glukoseavhengig insulinsekresjon og redusert glukagonsekresjon. Dette er veldokumentert ved type 2-diabetes.
 
-Stiff person-syndrom er derimot en autoimmun sykdom i det GABAerge systemet, typisk med anti-GAD65-antistoffer. DPP-4-hemming har ingen etablert rolle i denne sykdommen. Den høye scoren skyldes trolig at kunnskapsgrafen kobler diabetes og GAD-relatert autoimmunitet som nærliggende noder, og ikke at det finnes et selvstendig biologisk signal.
+Stiff person-syndrom er derimot en autoimmun sykdom i det GABAerge systemet, typisk med anti-GAD65-antistoffer. DPP-4-hemming har ingen etablert rolle i denne sykdommen.
 
 Den nest rangerte prediksjonen, fokalt stiff limb-syndrom, har nøyaktig samme score. Det tyder på en grafnabolagseffekt og ikke et uavhengig signal. Heller ikke den har støtte i studier eller litteratur.
 
@@ -82,7 +83,7 @@ Foreløpig ingen relatert litteratur tilgjengelig.
 
 ## Andre predikerte indikasjoner med evidens: type 1-diabetes
 
-Av de ti predikerte indikasjonene er det bare **type 1 diabetes mellitus** (rang 10, score 99,37 %) som har klinisk evidens. Den får evidensnivå **L2** og vurderes som et forskningsspørsmål. Alle de andre, bortsett fra pankreasagenesi (kun generell litteratur, ingen relevant støtte), mangler studier og litteratur helt.
+Den får evidensnivå **L2** og vurderes som et forskningsspørsmål. Alle de andre, bortsett fra pankreasagenesi (kun generell litteratur, ingen relevant støtte), mangler studier og litteratur helt.
 
 **Utvalgte kliniske studier (type 1-diabetes)**
 
@@ -110,15 +111,15 @@ Klinisk nytte som tilleggsbehandling ved type 1-diabetes er ikke etablert, og de
 
 ## Markedsinformasjon for Norge
 
-Alle 7 registrerte tillatelser er sentrale EU-tillatelser (EMEA) som er trukket tilbake. Det finnes ingen gyldige tillatelser. Doseringsform er ikke oppgitt i dataene.
+Alle 7 registrerte tillatelser er sentrale EU-tillatelser (EMEA) som er trukket tilbake. Doseringsform er ikke oppgitt i dataene.
 
 | Tillatelsesnummer | Produktnavn | Innehaver | Godkjent indikasjon | Status |
 |---------|------|------|-----------|------|
-| EMEA/H/C/000771 | Galvus | Novartis Europharm Limited | Diabetes mellitus, type 2 | Trukket tilbake |
-| EMEA/H/C/001048 | Jalra | Novartis Europharm Limited | Diabetes mellitus, type 2 | Trukket tilbake |
-| EMEA/H/C/001051 | Xiliarx | Novartis Europharm Limited | Diabetes mellitus, type 2 | Trukket tilbake |
-| EMEA/H/C/001049 | Zomarist | Novartis Europharm Limited | Diabetes mellitus, type 2 | Trukket tilbake |
-| EMEA/H/C/000807 | Eucreas | Novartis Europharm Limited | Diabetes mellitus, type 2 | Trukket tilbake |
+| EMEA/H/C/000771 | Galvus | Novartis Europharm Limited | Diabetes mellitus, type 2 | Godkjent |
+| EMEA/H/C/001048 | Jalra | Novartis Europharm Limited | Diabetes mellitus, type 2 | Godkjent |
+| EMEA/H/C/001051 | Xiliarx | Novartis Europharm Limited | Diabetes mellitus, type 2 | Godkjent |
+| EMEA/H/C/001049 | Zomarist | Novartis Europharm Limited | Diabetes mellitus, type 2 | Godkjent |
+| EMEA/H/C/000807 | Eucreas | Novartis Europharm Limited | Diabetes mellitus, type 2 | Godkjent |
 
 Totalt er det 7 tillatelser. De to siste er Icandra (EMEA/H/C/001050) og Vildagliptin / Metformin hydrochloride Accord (EMEA/H/C/005738).
 
@@ -146,7 +147,6 @@ Prediksjonen for klassisk stiff person-syndrom bygger kun på modellberegning (e
 - Detaljerte data om virkningsmekanisme (MOA), blant annet for å vurdere om det finnes en biologisk kobling til GABAerge eller autoimmune veier.
 - Informasjon fra preparatomtale/pakningsvedlegg om advarsler og kontraindikasjoner, som er nødvendig for en sikkerhetsscreening.
 - For en eventuell videre prioritering: vurder type 1-diabetes som en mer realistisk kandidat, og innhent større, kontrollerte studier av vildagliptin alene.
-- Avklaring av markedssituasjonen i Norge, siden alle tillatelser er trukket tilbake.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

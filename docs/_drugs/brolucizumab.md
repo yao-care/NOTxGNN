@@ -6,7 +6,7 @@ nav_order: 68
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Brolucizumab: predikert ny indikasjon Mitokondriell oksidativ fosforyleringsforstyrrelse som skyldes kjerne… (evidensnivå L5). Opprinnelig indikasjon: Våt makuladegenerasjon"
+description: "Brolucizumab: predikert ny indikasjon Mitokondriell oksidativ fosforyleringssykdom på grunn av kjerne-DNA-avvik (evidensnivå L5). Opprinnelig indikasjon: Våt makuladegenerasjon"
 monitor_inn: "BROLUCIZUMAB"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "esophageal varices without bleeding", "esophageal varices with bleeding", "exocrine pancreatic insufficiency"]
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-## Brolucizumab: Fra våt makuladegenerasjon til mitokondriell oksidativ fosforyleringsforstyrrelse
+## Brolucizumab: Fra våt makuladegenerasjon til Mitokondriell oksidativ fosforyleringssykdom på grunn av kjerne-DNA-avvik
 {: .text-alpha }
 
 ## Oppsummering
@@ -50,9 +50,10 @@ Det finnes **ingen kliniske studier** og **ingen publikasjoner** i de innsamlede
 |------|------|
 | Opprinnelig indikasjon | Våt makuladegenerasjon |
 | Predikert ny indikasjon | Mitokondriell oksidativ fosforyleringsforstyrrelse som skyldes kjerne-DNA-avvik |
-| TxGNN-prediksjonsscore | 99,67 % |
+| TxGNN-prediksjonsscore | 0,9967 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 |
 | Anbefalt beslutning | Hold |
 
@@ -62,7 +63,7 @@ Det finnes **ingen kliniske studier** og **ingen publikasjoner** i de innsamlede
 
 Data om legemidlets detaljerte virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er brolucizumab et anti-VEGF-A-antistoffragment som er gitt intravitrealt, og effekten ved våt makuladegenerasjon bygger på hemming av VEGF-drevet karnydannelse og lekkasje.
 
-Det ble ikke identifisert noen tydelig mekanistisk sammenheng mellom VEGF-A-hemming og oksidative fosforyleringsforstyrrelser som skyldes kjerne-DNA-avvik. Den høye scoren (0,997) er utelukkende grafbasert og er ikke underbygget av kliniske studier eller litteratur. Likhet med den opprinnelige indikasjonen er ikke vurdert.
+Det ble ikke identifisert noen tydelig mekanistisk sammenheng mellom VEGF-A-hemming og oksidative fosforyleringsforstyrrelser som skyldes kjerne-DNA-avvik. Den høye scoren (0,9967) er utelukkende grafbasert og er ikke underbygget av kliniske studier eller litteratur. Likhet med den opprinnelige indikasjonen er ikke vurdert.
 
 Prediksjonen bør derfor betraktes som en hypotese som krever grunnleggende mekanistisk arbeid før videre vurdering.
 
@@ -70,9 +71,9 @@ Prediksjonen bør derfor betraktes som en hypotese som krever grunnleggende meka
 
 | Rang | Predikert indikasjon | TxGNN-score | Evidensnivå | Kommentar |
 |------|------|------|------|------|
-| 2 | Øsofagusvaricer uten blødning | 99,12 % | L5 | Spekulativ VEGF-/angiogenese-begrunnelse; systemisk VEGF-hemming gir blødnings-, tromboemboli- og hypertensjonsrisiko. Intravitreal administrasjon gir ingen plausibel systemisk rute. |
-| 3 | Øsofagusvaricer med blødning | 99,12 % | L5 | Samme begrunnelse; større sikkerhetsbekymring ved aktiv blødning, da hemostase og tilheling kan svekkes. |
-| 4 | Eksokrin pankreasinsuffisiens | 99,07 % | L5 | Ingen identifisert mekanistisk kobling til VEGF-A-hemming. |
+| 2 | Øsofagusvaricer uten blødning | 0,9912 | L5 | Spekulativ VEGF-/angiogenese-begrunnelse; systemisk VEGF-hemming gir blødnings-, tromboemboli- og hypertensjonsrisiko. Intravitreal administrasjon gir ingen plausibel systemisk rute. |
+| 3 | Øsofagusvaricer med blødning | 0,9912 | L5 | Samme begrunnelse; større sikkerhetsbekymring ved aktiv blødning, da hemostase og tilheling kan svekkes. |
+| 4 | Eksokrin pankreasinsuffisiens | 0,9907 | L5 | Ingen identifisert mekanistisk kobling til VEGF-A-hemming. |
 
 Alle fire prediksjonene har anbefalingen «Hold».
 
@@ -96,7 +97,7 @@ Foreløpig finnes det ingen relatert litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/004913 | Beovu | Ikke oppgitt | Våt makuladegenerasjon |
 
-Tillatelsen er registrert som avregistrert (cancelled), og det finnes ingen gyldige tillatelser.
+Legemidlet er markedsført, og tillatelsen er gyldig (1 av 1 gyldige tillatelser).
 
 ---
 

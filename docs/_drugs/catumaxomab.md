@@ -50,10 +50,10 @@ Det finnes **0 kliniske studier** og **0 publikasjoner** som støtter denne retn
 |------|------|
 | Opprinnelig indikasjon | Ascites |
 | Predikert ny indikasjon | Alvorlig ikke-proliferativ diabetisk retinopati |
-| TxGNN-prediksjonsscore | 99,64 % |
+| TxGNN-prediksjonsscore | 0,9964 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte/trukkede godkjenninger |
-| Antall godkjenninger | 1 (ingen gyldige) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -62,11 +62,11 @@ Det finnes **0 kliniske studier** og **0 publikasjoner** som støtter denne retn
 
 Catumaxomab er et trifunksjonelt bispesifikt antistoff rettet mot EpCAM og CD3. Det rekrutterer T-celler og tilleggsimmunceller (via Fc-regionen) til EpCAM-uttrykkende celler. Data om virkningsmekanisme (MOA) var ikke tilgjengelige i datagrunnlaget, så vurderingen bygger på generell kunnskap om legemidlet. Farmakologidata peker på CD3E som primært molekylært mål.
 
-Diabetisk retinopati drives hovedsakelig av hyperglykemi-indusert mikrovaskulær skade, VEGF-mediert økt karpermeabilitet og inflammasjon, ikke av EpCAM-positive tumorceller. Det er derfor ikke identifisert noen plausibel mekanistisk kobling mellom T-celle-omdirigering mot EpCAM og sykdomsbildet ved diabetisk retinopati. Den høye TxGNN-scoren gjenspeiler trolig nærhet i kunnskapsgrafen, ikke biologisk plausibilitet.
+Diabetisk retinopati drives hovedsakelig av hyperglykemi-indusert mikrovaskulær skade, VEGF-mediert økt karpermeabilitet og inflammasjon, ikke av EpCAM-positive tumorceller. Det er derfor ikke identifisert noen plausibel mekanistisk kobling mellom T-celle-omdirigering mot EpCAM og sykdomsbildet ved diabetisk retinopati. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 I tillegg kan immuncelleaktivering og cytokinfrisetting inne i øyet innebære sikkerhetsrisiko for netthinnen.
 
-For fullstendighetens skyld: de to andre predikerte indikasjonene, **medikamentindusert osteoporose** (score 99,58 %) og **diabetisk retinopati** (score 99,47 %), har heller ingen kliniske studier eller litteratur, og mangler også mekanistisk begrunnelse. Ved osteoporose kan T-celle-aktivering med cytokinfrisetting i verste fall fremme benresorpsjon.
+For fullstendighetens skyld: de to andre predikerte indikasjonene, **medikamentindusert osteoporose** (score 0,9958) og **diabetisk retinopati** (score 0,9947), har heller ingen kliniske studier eller litteratur, og mangler også mekanistisk begrunnelse. Ved osteoporose kan T-celle-aktivering med cytokinfrisetting i verste fall fremme benresorpsjon.
 
 ---
 
@@ -88,7 +88,7 @@ Foreløpig er ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/005697 | Korjuny | Ikke oppgitt | Ascites |
 
-Godkjenningen er registrert som avregistrert (cancelled), produsent: Atnahs Pharma Netherlands B.V. Det finnes ingen gyldige godkjenninger i datagrunnlaget. Merk at farmakologikilden opplyser at EMA trakk den tidligere godkjenningen (Removab) i 2017 av kommersielle årsaker, og at full godkjenning for malign ascites ble gitt på nytt tidlig i 2025.
+Godkjenningen er registrert som gyldig (1 av 1 gyldige godkjenninger), produsent: Atnahs Pharma Netherlands B.V. Merk at farmakologikilden opplyser at EMA trakk den tidligere godkjenningen (Removab) i 2017 av kommersielle årsaker, og at full godkjenning for malign ascites ble gitt på nytt tidlig i 2025.
 
 ---
 
@@ -118,7 +118,7 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier, litteratur eller plausibel mekanistisk kobling. Legemidlet har i tillegg ingen gyldig markedsføringstillatelse i Norge, og sikkerhetsdata fra preparatomtale mangler.
+Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier, litteratur eller plausibel mekanistisk kobling. Legemidlet er markedsført i Norge med 1 gyldig markedsføringstillatelse (av 1), men sikkerhetsdata fra preparatomtale mangler.
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)

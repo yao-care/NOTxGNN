@@ -4,7 +4,7 @@ title: Propranolol
 parent: Kun modellprediksjon (L5)
 nav_order: 340
 evidence_level: L5
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-15
 description: "Propranolol: predikert ny indikasjon Distal myopati, Tateyama-type (evidensnivå L5). Opprinnelig indikasjon: Hemangiom"
 monitor_inn: "Propranolol"
@@ -14,7 +14,7 @@ predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy w
 # Propranolol
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Propranolol er en ikke-selektiv betablokker som i Norge er godkjent for behandli
 |------|------|
 | Opprinnelig indikasjon | Hemangiom |
 | Predikert ny indikasjon | Distal myopati, Tateyama-type |
-| TxGNN-prediksjonsscore | 99,40 % |
+| TxGNN-prediksjonsscore | 0,9940 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellert |
-| Antall godkjenninger | 1 (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold (avvent) |
 
 ---
@@ -68,12 +68,11 @@ Datagrunnlaget omfatter også andre prediksjoner. Alle har lav evidens:
 
 | Rang | Predikert indikasjon | Score | Evidensnivå | Vurdering |
 |---|---|---|---|---|
-| 1 | Distal myopati, Tateyama-type | 99,40 % | L5 | Hold |
-| 2 | Medfødt myopati med overskudd av tynne filamenter | 99,30 % | L5 | Hold, ingen plausibel mekanisme |
-| 3 | Hypertrofisk kardiomyopati ved intensiv idrettstrening | 99,17 % | L5 | Hold, fysiologisk tilpasning behandles vanligvis ikke med legemidler |
-| 4 | Kondrom | 99,14 % | L5 | Hold, svak kobling |
-| 5 | Cirrotisk kardiomyopati | 99,12 % | L4 | Forskningsspørsmål |
-| 6 | Kardiomyopati | 99,12 % | L4 | Forskningsspørsmål, gjelder hovedsakelig hypertrofisk kardiomyopati |
+| 1 | Distal myopati, Tateyama-type | 0,9940 | L5 | Hold |
+| 2 | Medfødt myopati med overskudd av tynne filamenter | 0,9930 | L5 | Hold, ingen plausibel mekanisme |
+| 4 | Kondrom | 0,9914 | L5 | Hold, svak kobling |
+| 5 | Cirrotisk kardiomyopati | 0,9912 | L5 | Forskningsspørsmål |
+| 6 | Kardiomyopati | 0,9912 | L5 | Forskningsspørsmål, gjelder hovedsakelig hypertrofisk kardiomyopati |
 
 Rang 5 og 6 har indirekte litteratur og er i praksis de mest underbygde kandidatene.
 
@@ -120,7 +119,7 @@ Flere andre treff for kardiomyopati er generelle legemiddelmonografier eller ure
 |---------|------|------|-----------|
 | EMEA/H/C/002621 | Hemangiol | Ikke oppgitt | Hemangiom |
 
-Godkjenningen er kansellert (status: kansellert), og det finnes ingen gyldige godkjenninger for tiden.
+Legemidlet er markedsført, og 1 av 1 godkjenning er gyldig.
 
 ---
 

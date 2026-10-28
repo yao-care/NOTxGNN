@@ -46,24 +46,24 @@ Tezacaftor er en CFTR-korrektor som opprinnelig brukes til behandling av cystisk
 |------|------|
 | Opprinnelig indikasjon | Cystisk fibrose |
 | Predikert ny indikasjon | HIV-infeksjon |
-| TxGNN-prediksjonsscore | 99,24 % |
+| TxGNN-prediksjonsscore | 0,9924 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte (kansellerte) preparater |
-| Antall godkjenninger | 3 (alle kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
 | Anbefalt beslutning | Hold |
 
 ## Hvorfor er denne prediksjonen rimelig?
 
 Detaljerte data om virkningsmekanismen (MOA) er for tiden ikke tilgjengelige i datagrunnlaget. Tezacaftor er kjent som en CFTR-korrektor som forbedrer foldingen og transporten av CFTR-proteinet til cellemembranen. Det er godkjent som del av kombinasjonsbehandlinger (Symkevi, Kaftrio, Alyftrek) ved cystisk fibrose.
 
-Det er ikke påvist noen mekanistisk sammenheng mellom CFTR-korreksjon og HIV-patofysiologi (virusreplikasjon, tap av CD4-T-celler). Den høye scoren (0,992) er en ren beregningsmessig prediksjon, og likheten med den opprinnelige indikasjonen er ikke vurdert. Prediksjonen bør derfor betraktes som en hypotese uten støtte i foreliggende data.
+Det er ikke påvist noen mekanistisk sammenheng mellom CFTR-korreksjon og HIV-patofysiologi (virusreplikasjon, tap av CD4-T-celler). Den høye scoren (0,9924) er en ren beregningsmessig prediksjon, og likheten med den opprinnelige indikasjonen er ikke vurdert. Prediksjonen bør derfor betraktes som en hypotese uten støtte i foreliggende data.
 
 To andre prediksjoner er også generert av modellen, begge med evidensnivå L5 og anbefaling Hold, uten studier eller litteratur:
 
 | Rangering | Predikert indikasjon | TxGNN-score | Kommentar |
 |------|------|------|------|
-| 2 | Lepra | 99,14 % | Eventuell kobling via vert-patogen-interaksjon eller membranproteintransport er spekulativ og utestet |
-| 3 | Multippel endokrin neoplasi | 99,06 % | MEN-syndromer skyldes kimbaneмutasjoner (f.eks. MEN1, RET) som er urelatert til CFTR-korreksjon |
+| 2 | Lepra | 0,9914 | Eventuell kobling via vert-patogen-interaksjon eller membranproteintransport er spekulativ og utestet |
+| 3 | Multippel endokrin neoplasi | 0,9906 | MEN-syndromer skyldes kimbaneмutasjoner (f.eks. MEN1, RET) som er urelatert til CFTR-korreksjon |
 
 ## Kliniske studier
 
@@ -81,7 +81,7 @@ Foreløpig finnes det ingen relatert litteratur.
 | EMEA/H/C/006382 | Alyftrek | – | Cystisk fibrose |
 | EMEA/H/C/005269 | Kaftrio | – | Cystisk fibrose |
 
-Alle tre godkjenningene er registrert som kansellert, og ingen gyldige godkjenninger er registrert i datagrunnlaget.
+Alle tre godkjenningene er registrert som gyldige i datagrunnlaget, og legemidlet er markedsført.
 
 ## Sikkerhetsvurderinger
 

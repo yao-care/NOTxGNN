@@ -6,7 +6,7 @@ nav_order: 333
 evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Posaconazole: predikert ny indikasjon Pneumocystose (evidensnivå L4). Opprinnelig indikasjon: Mykoser (soppinfeksjoner)"
+description: "Posaconazole: predikert ny indikasjon pneumocystosis (evidensnivå L4)."
 monitor_inn: "POSACONAZOLE"
 predicted_indications: ["pneumocystosis"]
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-## Posakonazol: Fra soppinfeksjoner (mykoser) til pneumocystose
+## Posakonazol: pneumocystosis
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -50,10 +50,10 @@ men det finnes foreløpig **ingen kliniske studier som direkte tester posakonazo
 |------|------|
 | Opprinnelig indikasjon | Mykoser (soppinfeksjoner) |
 | Foreslått ny indikasjon | Pneumocystose |
-| TxGNN-prediksjonsscore | 99,77 % |
+| TxGNN-prediksjonsscore | 0,9977 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun avregistrerte (kansellerte) godkjenninger |
-| Antall godkjenninger | 3 (alle kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ men det finnes foreløpig **ingen kliniske studier som direkte tester posakonazo
 
 Posakonazol er et triazol-soppmiddel som hemmer soppenzymet lanosterol 14-alfa-demetylase (CYP51) og dermed blokkerer syntesen av ergosterol. Opplysninger om virkningsmekanisme fra legemiddeldatabasen mangler i datagrunnlaget, så denne beskrivelsen bygger på allment kjent farmakologi.
 
-Pneumocystis jirovecii mangler imidlertid i hovedsak ergosterol i cellemembranen og bruker kolesterolliknende steroler. Den azolbaserte mekanismen har derfor lite biologisk grunnlag mot denne organismen. Den høye TxGNN-scoren (0,998) gjenspeiler trolig at posakonazol har brede soppindikasjoner (mykoser, aspergillose, candidiasis) i kunnskapsgrafen, snarere enn en spesifikk effekt mot Pneumocystis.
+Pneumocystis jirovecii mangler imidlertid i hovedsak ergosterol i cellemembranen og bruker kolesterolliknende steroler. Den azolbaserte mekanismen har derfor lite biologisk grunnlag mot denne organismen. Den høye TxGNN-scoren (0,9977) kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens for en spesifikk effekt mot Pneumocystis.
 
 Prediksjonen bør derfor leses som en modellassosiasjon og ikke som en mekanistisk begrunnet hypotese.
 
@@ -100,7 +100,7 @@ Ingen av publikasjonene er randomiserte studier som viser effekt av posakonazol 
 | EMEA/H/C/000610 | Noxafil | Ikke oppgitt | Candidiasis, mykoser, koksidioidomykose, aspergillose (kansellert) |
 | EMEA/H/C/005028 | Posaconazole AHCL | Ikke oppgitt | Mykoser (kansellert) |
 
-Alle tre godkjenningene er kansellert, og det finnes ingen gyldige godkjenninger i dataene.
+Alle tre godkjenningene er gyldige.
 
 ---
 
@@ -125,7 +125,7 @@ Flere har moderat alvorlighetsgrad, blant annet:
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen mangler både direkte klinisk evidens og et plausibelt mekanistisk grunnlag, siden Pneumocystis mangler ergosterol som er målet for azoler. Dessuten har posakonazol ingen gyldig godkjenning i Norge for øyeblikket.
+Prediksjonen mangler både direkte klinisk evidens og et plausibelt mekanistisk grunnlag, siden Pneumocystis mangler ergosterol som er målet for azoler. Posakonazol er for øyeblikket markedsført i Norge, med tre gyldige godkjenninger av tre.
 
 **For å gå videre trengs følgende:**
 - Direkte kliniske eller prekliniske data på posakonazol mot Pneumocystis jirovecii

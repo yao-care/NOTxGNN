@@ -50,10 +50,10 @@ men det finnes foreløpig **ingen registrerte kliniske studier**. Støtten komme
 |------|------|
 | Opprinnelig indikasjon | Candidiasis |
 | Predikert ny indikasjon | Urinveisinfeksjon |
-| TxGNN-prediksjonsscore | 99,03 % |
+| TxGNN-prediksjonsscore | 0.9903 |
 | Evidensnivå | L3 |
-| Markedsstatus i Norge | Kun avregistrert |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detaljerte data om virkningsmekanisme var ikke tilgjengelige i de innsamlede dat
 
 Candida-arter er en anerkjent årsak til urinveisinfeksjon (candiduri). Soppmekanismen er derfor direkte relevant. En viktig farmakologisk forbehold er at ekinokandiner historisk har vist lav utskillelse av aktivt legemiddel i urin. Én studie (PMID 27424599) rapporterer imidlertid at urinkonsentrasjonene av mikafungin er tilstrekkelige til å behandle Candida-urinveisinfeksjoner, noe som delvis adresserer denne bekymringen.
 
-Den høye TxGNN-scoren (0,99) er forenlig med dette, men er kun en modellprediksjon og er ikke vektlagt som klinisk evidens. Koblingen hviler på generell kunnskap om legemiddelklassen, ikke på mekanismedata i det innsamlede materialet.
+Den høye TxGNN-scoren (0,9903) er forenlig med dette, men er kun en modellprediksjon og er ikke vektlagt som klinisk evidens. Koblingen hviler på generell kunnskap om legemiddelklassen, ikke på mekanismedata i det innsamlede materialet.
 
 ---
 
@@ -95,7 +95,7 @@ Foreløpig er ingen relevante kliniske studier registrert.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000734 | Mycamine (avregistrert) | – | Candidiasis |
+| EMEA/H/C/000734 | Mycamine (godkjent) | – | Candidiasis |
 
 ---
 

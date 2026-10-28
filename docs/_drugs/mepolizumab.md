@@ -50,9 +50,10 @@ men foreløpig støttes dette kun av **én kasuistikk** og **ingen kliniske stud
 |------|------|
 | Opprinnelig indikasjon | Astma |
 | Foreslått ny indikasjon | Thrombocytopenia due to immune destruction (immunmediert trombocytopeni) |
-| TxGNN-prediksjonsscore | 99,66 % |
+| TxGNN-prediksjonsscore | 0,9966 |
 | Evidensnivå | L4 |
-| Status på det norske markedet | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -64,16 +65,16 @@ Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de sammenstilte da
 
 Den eneste støtten for den nye indikasjonen er en kasuistikk (PMID 28648630) om et steroidresistent hypereosinofilt immunsyndrom som gikk i regress med mepolizumab, samtidig med bedring av en blandet trombotisk mikroangiopati. Immunmedierte cytopenier kan ha vært en del av det kliniske bildet, men det er ikke vist at effekten skyldes en direkte virkning på patofysiologien ved immun trombocytopeni (autoantistoffmediert plateødeleggelse). Koblingen er derfor indirekte og forstyrret av samtidig behandling.
 
-Den svært høye TxGNN-scoren (0,997) er kun en beregningsmessig prediksjon og erstatter ikke klinisk evidens.
+Den svært høye TxGNN-scoren (0,9966) er kun en beregningsmessig prediksjon og erstatter ikke klinisk evidens.
 
 ### Øvrige predikerte indikasjoner (alle uten kliniske studier)
 
 | Rang | Sykdom | TxGNN-score | Evidensnivå | Kommentar |
 |------|------|------|------|------|
-| 2 | Primary release disorder of platelets | 99,61 % | L4 | Kun en oversiktsartikkel om hypereosinofilt syndrom; ingen plausibel direkte mekanisme |
-| 3 | Pseudo-von Willebrand disease | 99,44 % | L5 | Skyldes GP1BA-varianter; IL-5-banen er ikke involvert |
-| 4 | Autoimmune thrombocytopenic | 99,33 % | L5 | Ingen studier eller publikasjoner; rent spekulativ immunmodulerende effekt |
-| 5 | Glanzmann thrombasthenia | 99,28 % | L5 | Arvelig defekt i integrin αIIbβ3; ingen troverdig mekanistisk kobling |
+| 2 | Primary release disorder of platelets | 0,9961 | L5 | Kun en oversiktsartikkel om hypereosinofilt syndrom; ingen plausibel direkte mekanisme |
+| 3 | Pseudo-von Willebrand disease | 0,9944 | L5 | Skyldes GP1BA-varianter; IL-5-banen er ikke involvert |
+| 4 | Autoimmune thrombocytopenic | 0,9933 | L5 | Ingen studier eller publikasjoner; rent spekulativ immunmodulerende effekt |
+| 5 | Glanzmann thrombasthenia | 0,9928 | L5 | Arvelig defekt i integrin αIIbβ3; ingen troverdig mekanistisk kobling |
 
 ---
 
@@ -99,7 +100,7 @@ For den andre predikerte indikasjonen (primary release disorder of platelets) fi
 |---------|------|------|-----------|
 | EMEA/H/C/003860 | Nucala | Ikke oppgitt | Astma |
 
-Tillatelsen er registrert som avregistrert (cancelled), og det finnes ingen gyldige tillatelser.
+Legemidlet er markedsført i Norge, og 1 av 1 tillatelser er gyldig.
 
 ---
 
@@ -114,7 +115,7 @@ Se preparatomtalen (pakningsvedlegget) for sikkerhetsinformasjon. Det ble ikke f
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Evidensen for den nye indikasjonen er svak: én kasuistikk med forstyrrende samtidig behandling, ingen kliniske studier og ingen direkte mekanistisk kobling til immun trombocytopeni. Den høye TxGNN-scoren er ikke tilstrekkelig alene, og produktet har ingen gyldig norsk tillatelse.
+Evidensen for den nye indikasjonen er svak: én kasuistikk med forstyrrende samtidig behandling, ingen kliniske studier og ingen direkte mekanistisk kobling til immun trombocytopeni. Den høye TxGNN-scoren er ikke tilstrekkelig alene, og produktet har én gyldig norsk tillatelse.
 
 **For å gå videre trengs følgende:**
 - Detaljerte data om virkningsmekanisme (MOA), f.eks. fra DrugBank

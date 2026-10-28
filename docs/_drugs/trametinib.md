@@ -4,7 +4,7 @@ title: Trametinib
 parent: Kun modellprediksjon (L5)
 nav_order: 430
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
 description: "Trametinib: predikert ny indikasjon Koroideremi (rangert som nr. 1) (evidensnivå L5). Opprinnelig indikasjon: Melanom"
 monitor_inn: "TRAMETINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["choroideremia"]
 # Trametinib
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Trametinib: Fra melanom til koroideremi (primær prediksjon) – med ikke-kutan melanom som best underbygde nye retning
+## Trametinib: Fra melanom til Choroideremi
 {: .text-alpha }
 
 Merk: Den høyest rangerte prediksjonen (koroideremi) har ingen støttende evidens og et mekanistisk svakt grunnlag. Rapporten tar derfor for seg den høyest rangerte prediksjonen, men vurderer også den best dokumenterte retningen, **ikke-kutant melanom** (rangert som nr. 2).
@@ -43,7 +43,7 @@ Merk: Den høyest rangerte prediksjonen (koroideremi) har ingen støttende evide
 ## Oppsummering i én setning
 
 Trametinib er en MEK-hemmer som opprinnelig brukes mot melanom.
-TxGNN-modellen predikerer høy score for **koroideremi** (99,31 %), men uten kliniske studier eller publikasjoner. Retningen med mest støtte er **ikke-kutant melanom**, med **10 registrerte kliniske studier** (hovedsakelig tidlig fase eller indirekte relevante) og ingen publikasjoner.
+TxGNN-modellen predikerer høy score for **koroideremi** (0,9931), men uten kliniske studier eller publikasjoner. Retningen med mest støtte er **ikke-kutant melanom**, med **10 registrerte kliniske studier** (hovedsakelig tidlig fase eller indirekte relevante) og ingen publikasjoner.
 
 ---
 
@@ -53,13 +53,12 @@ TxGNN-modellen predikerer høy score for **koroideremi** (99,31 %), men uten kli
 |------|------|
 | Opprinnelig indikasjon | Melanom |
 | Predikert ny indikasjon | Koroideremi (rangert som nr. 1) |
-| TxGNN-prediksjonsscore | 99,31 % |
+| TxGNN-prediksjonsscore | 0,9931 |
 | Evidensnivå | L5 (kun modellprediksjon) |
-| Status i Norge | Kun kansellert |
-| Antall godkjenninger | 1 (kansellert) |
+| Status i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
-For sammenligning: ikke-kutant melanom (score 99,30 %) har evidensnivå L2 etter datagrunnlaget, med anbefalingen «forskningsspørsmål».
 
 ---
 
@@ -67,7 +66,7 @@ For sammenligning: ikke-kutant melanom (score 99,30 %) har evidensnivå L2 etter
 
 Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten. Trametinib er kjent som en MEK1/MEK2-hemmer (målgener MAP2K1 og MAP2K2) og brukes ved BRAF V600-mutert melanom, ofte sammen med dabrafenib.
 
-**Koroideremi:** Sykdommen er en X-bundet netthinnedegenerasjon forårsaket av tap av funksjon i CHM-genet (REP1). Den er ikke en MAPK-drevet kreftsykdom, og det finnes ikke noe etablert grunnlag for MEK-hemming. Den høye scoren er sannsynligvis en grafbasert artefakt fra nærheten mellom melanom og øyesykdommer i kunnskapsgrafen, og bør ikke tolkes som biologisk støtte.
+**Koroideremi:** Sykdommen er en X-bundet netthinnedegenerasjon forårsaket av tap av funksjon i CHM-genet (REP1). Den er ikke en MAPK-drevet kreftsykdom, og det finnes ikke noe etablert grunnlag for MEK-hemming. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan reflektere likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 **Ikke-kutant melanom:** Slike melanomer (slimhinne, uvealt, acral-nære) kan ha endringer i MAPK-signalveien (BRAF, NRAS, NF1, KIT). MEK-hemming er derfor mekanistisk plausibelt, særlig i kombinasjon med BRAF- eller RAF-hemmere. Studiene er imidlertid heterogene, og subtypespesifikk effekt kan ikke bekreftes.
 

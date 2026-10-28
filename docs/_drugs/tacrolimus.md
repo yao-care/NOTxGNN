@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tacrolimus
-parent: Kun modellprediksjon (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 395
-evidence_level: L5
-indication_count: 3
+evidence_level: L1
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Tacrolimus: predikert ny indikasjon Seboreisk dermatitt (evidensnivå L5). Opprinnelig indikasjon: Avstøtning av transplantat (graft rejection)"
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
+description: "Tacrolimus: predikert ny indikasjon Seboreisk dermatitt (seborrheic dermatitis) (evidensnivå L1). Opprinnelig indikasjon: Graft Rejection"
 ---
 
 # Tacrolimus
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
+Evidensnivå: **L1** | Predikerte indikasjoner: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-## Tacrolimus: Fra transplantasjonsavstøtning og atopisk dermatitt til seboreisk dermatitt
+## Tacrolimus: Seboreisk dermatitt (seborrheic dermatitis)
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -48,12 +48,12 @@ og dette støttes foreløpig av **2 kliniske studier** (inkludert én fullført 
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Avstøtning av transplantat (graft rejection) |
-| Predikert ny indikasjon | Seboreisk dermatitt |
-| TxGNN-prediksjonsscore | 99,26 % |
+| Opprinnelig indikasjon | Graft Rejection; Dermatitis, Atopic; Liver Transplantation;Kidney Transplantation |
+| Predikert ny indikasjon | Seboreisk dermatitt (seborrheic dermatitis) |
+| TxGNN-prediksjonsscore | 0.9926 |
 | Evidensnivå | L1 (jf. merknad under) |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 5 (alle kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 5 av 5) |
+| Antall godkjenninger | 5 (gyldige: 5) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forhåndsregler) |
 
 *Merknad om evidensnivå:* Datagrunnlaget angir L1. Strengt tatt er det bare én fullført fase 3-studie (NCT02004860) pluss en fase 4-studie for seboreisk dermatitt, så nivået bør tolkes med forsiktighet.
@@ -98,7 +98,6 @@ Topisk bruk gir i tillegg antiinflammatorisk effekt uten hudatrofien som forbind
 
 ## Markedsinformasjon for Norge
 
-Alle fem godkjenninger i de samlede dataene er kansellert; ingen er gyldige per i dag.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -131,12 +130,11 @@ Det finnes en fullført fase 3-studie og en fase 4-studie direkte på seboreisk 
 - Hente og analysere resultatene fra NCT02004860 og NCT01591070 (effekt og residivrate)
 - Innhente advarsler og kontraindikasjoner fra preparatomtalen (kritisk datahull som blokkerer sikkerhetsscreening)
 - Innhente detaljerte data om virkningsmekanisme
-- Avklare regulatorisk vei, siden ingen tacrolimusprodukter har gyldig godkjenning i Norge
 - Lage en plan for sikkerhetsoppfølging ved langtidsbruk (malignitet, infeksjon, begrensning hos barn)
 
 ---
 
-*Merknad om øvrige prediksjoner:* Parapsoriasis (score 99,24 %, kun kasuistikker, evidensnivå L4) er et forskningsspørsmål og ikke modent for beslutning. Generell «dermatitt» (score 99,17 %) domineres av den allerede godkjente indikasjonen atopisk dermatitt og er derfor ikke en reell ny indikasjon.
+*Merknad om øvrige prediksjoner:* Parapsoriasis (score 0,9924, kun kasuistikker, evidensnivå L4) er et forskningsspørsmål og ikke modent for beslutning. Generell «dermatitt» er ikke en prediksjon på denne siden, siden den domineres av den allerede godkjente indikasjonen atopisk dermatitt og derfor ikke er en reell ny indikasjon.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

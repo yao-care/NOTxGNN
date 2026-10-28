@@ -50,10 +50,10 @@ men dette er rent en modellprediksjon: det finnes **0 kliniske studier** og **in
 |------|------|
 | Opprinnelig indikasjon | Ikke-småcellet lungekreft; skjoldbruskkjertelkreft |
 | Predikert ny indikasjon | Pulmonal hypertensjon |
-| TxGNN-prediksjonsscore | 99,18 % |
+| TxGNN-prediksjonsscore | 0,9918 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 1 (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -64,9 +64,9 @@ Data om virkningsmekanisme er ikke tilgjengelig i de sammenstilte dataene. Baser
 
 Det er ikke påvist noen etablert mekanistisk kobling mellom RET-hemming og pulmonal hypertensjon. Enkelte kinasehemmere (f.eks. dasatinib) er assosiert med pulmonal arteriell hypertensjon, men dette er et klassespesifikt sikkerhetssignal og ikke et bevis på terapeutisk nytte.
 
-De tre publikasjonene som ble funnet, omhandler bivirkninger av selpercatinib, RET-fusjonspositiv lungekreft og medullært skjoldbruskkjertelkarsinom ved MEN 2B. Ingen av dem tar for seg pulmonal hypertensjon. Den høye scoren (0,992) bør derfor tolkes som en grafbasert hypotese.
+De tre publikasjonene som ble funnet, omhandler bivirkninger av selpercatinib, RET-fusjonspositiv lungekreft og medullært skjoldbruskkjertelkarsinom ved MEN 2B. Ingen av dem tar for seg pulmonal hypertensjon. Den høye scoren (0,9918) kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
-Øvrige predikerte indikasjoner er migrene (score 99,17 %) og migrene med hjernestammeaura (score 99,05 %). Begge er også kun beregningsbaserte, uten kliniske studier eller litteratur. En spekulativ kobling kan gå via RET-signalering (GDNF/GFRα) i trigeminale sensoriske nevroner og CGRP-relaterte signalveier, men dette er ikke støttet av data.
+Øvrige predikerte indikasjoner er migrene (score 0,9917) og migrene med hjernestammeaura (score 0,9905). Begge er også kun beregningsbaserte, uten kliniske studier eller litteratur. En spekulativ kobling kan gå via RET-signalering (GDNF/GFRα) i trigeminale sensoriske nevroner og CGRP-relaterte signalveier, men dette er ikke støttet av data.
 
 ---
 

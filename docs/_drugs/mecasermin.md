@@ -4,7 +4,7 @@ title: Mecasermin
 parent: Kun modellprediksjon (L5)
 nav_order: 259
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-15
 description: "Mecasermin: predikert ny indikasjon Monosomi X (evidensnivå L5). Opprinnelig indikasjon: Laron syndrom"
 monitor_inn: "MECASERMIN"
@@ -14,7 +14,7 @@ predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia a
 # Mecasermin
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **monosomi X** (Turner
 |------|------|
 | Opprinnelig indikasjon | Laron syndrom |
 | Predikert ny indikasjon | Monosomi X |
-| TxGNN-prediksjonsscore | 99,59 % |
+| TxGNN-prediksjonsscore | 0,9959 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 1 (0 gyldige, 1 kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -61,16 +61,15 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **monosomi X** (Turner
 
 Det finnes for tiden ingen detaljerte data om virkningsmekanisme i de innsamlede dataene. Mecasermin er imidlertid rekombinant IGF-1, som virker nedstrøms for veksthormon (GH). Effekten ved Laron syndrom, der kroppen ikke responderer på veksthormon, er etablert.
 
-Monosomi X (Turner syndrom) kjennetegnes blant annet av kortvoksthet, og standardbehandlingen er veksthormon. En IGF-1-begrunnelse er derfor biologisk plausibel. Pasienter med Turner syndrom har imidlertid vanligvis intakt GH–IGF-1-signalering, så det er uklart om erstatning med IGF-1 gir noen fordel fremfor veksthormon. Den høye scoren (0,996) er ikke støttet av kliniske data.
+Monosomi X (Turner syndrom) kjennetegnes blant annet av kortvoksthet, og standardbehandlingen er veksthormon. En IGF-1-begrunnelse er derfor biologisk plausibel. Pasienter med Turner syndrom har imidlertid vanligvis intakt GH–IGF-1-signalering, så det er uklart om erstatning med IGF-1 gir noen fordel fremfor veksthormon. Den høye scoren (0,9959) er ikke støttet av kliniske data.
 
 ### Øvrige predikerte indikasjoner (alle L5, Hold)
 
 | Rang | Sykdom | Score | Vurdering |
 |------|------|------|------|
-| 2 | Wolmans sykdom med hypolipoproteinemi og akantocytose | 99,09 % | Ingen klar mekanistisk kobling; scoren gjenspeiler trolig nettverksassosiasjoner |
-| 3 | Veksthormoninsensitivitetssyndrom med immundysregulering 2, autosomalt dominant | 99,06 % | Mest biologisk plausibel av de fem; IGF-1 kan adressere vekstsvikt, men ikke den immunologiske komponenten. Best egnet for målrettet litteratur- og kasuistikksøk |
-| 4 | Øsofagusvaricer med blødning | 99,03 % | Ingen etablert kobling; IGF-1s mitogene og væskeretinerende effekter gir ekstra sikkerhetsbekymring ved portal hypertensjon |
-| 5 | Øsofagusvaricer uten blødning | 99,03 % | Identisk score som rang 4, noe som tyder på duplikat i prediksjonsgrafen |
+| 2 | Wolmans sykdom med hypolipoproteinemi og akantocytose | 0,9909 | Ingen klar mekanistisk kobling; scoren gjenspeiler trolig nettverksassosiasjoner |
+| 4 | Øsofagusvaricer med blødning | 0,9903 | Ingen etablert kobling; IGF-1s mitogene og væskeretinerende effekter gir ekstra sikkerhetsbekymring ved portal hypertensjon |
+| 5 | Øsofagusvaricer uten blødning | 0,9903 | Identisk score som rang 4, noe som tyder på duplikat i prediksjonsgrafen |
 
 ---
 

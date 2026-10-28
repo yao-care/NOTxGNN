@@ -50,10 +50,10 @@ Evidensen består av **1 klinisk studie** (avsluttet i förtid, uten bekreftet H
 |------|------|
 | Opprinnelig indikasjon | Idiopatisk trombocytopen purpura; aplastisk anemi |
 | Predikert ny indikasjon | HIV-infeksjon (HIV infectious disease) |
-| TxGNN-prediksjonsscore | 99,26 % |
+| TxGNN-prediksjonsscore | 0,9926 |
 | Evidensnivå | L3 |
-| Markedsstatus i Norge | Kun tilbakekalte/avregistrerte godkjenninger (ingen gyldige) |
-| Antall godkjenninger | 1 (0 gyldige, 1 kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Evidensen består av **1 klinisk studie** (avsluttet i förtid, uten bekreftet H
 
 Data om virkningsmekanisme (MOA) var ikke tilgjengelig i datamaterialet som er samlet inn for denne rapporten. Basert på kjent farmakologi er eltrombopag en trombopoietinreseptoragonist (TPO-R) som stimulerer megakaryocyttenes proliferasjon og differensiering, og dermed øker antall blodplater og andre blodceller.
 
-Koblingen til HIV er indirekte. Legemidlet kan behandle HIV-assosiert trombocytopeni (inkludert refraktær HIV-relatert immuntrombocytopeni) og HIV-assosiert aplastisk anemi ved å øke celletallene, ikke ved å virke på viruset. Den høye TxGNN-scoren (0,99) er en beregnet prediksjon og gjenspeiler sannsynligvis den kjente sammenhengen med HIV-relaterte cytopenier snarere enn antiviral effekt.
+Koblingen til HIV er indirekte. Legemidlet kan behandle HIV-assosiert trombocytopeni (inkludert refraktær HIV-relatert immuntrombocytopeni) og HIV-assosiert aplastisk anemi ved å øke celletallene, ikke ved å virke på viruset. Den høye TxGNN-scoren (0,9926) er en beregnet prediksjon og gjenspeiler sannsynligvis den kjente sammenhengen med HIV-relaterte cytopenier snarere enn antiviral effekt.
 
 En screening fra 2020 av FDA-godkjente stoffer antydet en mulig effekt på HIV-1 proviral transkripsjon, men dette er prekliniske data som kun er hypotesegenererende. Et kasus (PMID 25333665) beskriver dessuten en mulig immunmodulerende effekt, med færre proinflammatoriske Th1- og Th17-celler og høyere andel regulatoriske T-celler.
 
@@ -120,7 +120,7 @@ En screening fra 2020 av FDA-godkjente stoffer antydet en mulig effekt på HIV-1
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Evidensen for HIV består i hovedsak av kasuistikker, oversikter og en preklinisk screening, og den eneste kliniske studien er avsluttet og har ikke bekreftet HIV-populasjon. Den reelle nytten ser ut til å ligge i behandling av HIV-assosierte cytopenier, ikke i antiviral effekt. I tillegg finnes det ingen gyldig norsk godkjenning, og sikkerhetsdata fra preparatomtalen mangler.
+Evidensen for HIV består i hovedsak av kasuistikker, oversikter og en preklinisk screening, og den eneste kliniske studien er avsluttet og har ikke bekreftet HIV-populasjon. Den reelle nytten ser ut til å ligge i behandling av HIV-assosierte cytopenier, ikke i antiviral effekt. I tillegg er legemidlet markedsført i Norge med 1 gyldig godkjenning av 1, men sikkerhetsdata fra preparatomtalen mangler.
 
 **For å gå videre kreves følgende:**
 - Verifisere populasjon og årsak til avslutning for NCT00678587

@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at det kan være effektivt ved **monosomi X** (Turners
 |------|------|
 | Opprinnelig indikasjon | Graves oftalmopati |
 | Predikert ny indikasjon | Monosomi X |
-| TxGNN-prediksjonsscore | 99,79 % |
+| TxGNN-prediksjonsscore | 0,9979 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellert godkjenning |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -61,9 +61,9 @@ TxGNN-modellen predikerer at det kan være effektivt ved **monosomi X** (Turners
 
 De data som er samlet inn for denne rapporten, inneholder ingen detaljerte opplysninger om virkningsmekanisme. Basert på kjent informasjon er teprotumumab et IGF-1R-hemmende monoklonalt antistoff. Effekten ved Graves oftalmopati er dokumentert, og mekanistisk er den knyttet til blokkering av IGF-1R-signalering i orbitalt vev.
 
-Den høye scoren (0,998) gir i seg selv ikke biologisk støtte. Turners syndrom er en kromosomavvik-lidelse, og det er ikke funnet noen plausibel mekanistisk kobling til IGF-1R-hemming. Tvert imot kan hemming av IGF-1-aksen virke mot sin hensikt, siden støtte til veksthormon/IGF-1-aksen er en standard del av behandlingen av Turners syndrom. Prediksjonen gjenspeiler sannsynligvis nærhet i kunnskapsgrafen, og ikke biologisk sammenheng.
+Den høye scoren (0,9979) gir i seg selv ikke biologisk støtte. Turners syndrom er en kromosomavvik-lidelse, og det er ikke funnet noen plausibel mekanistisk kobling til IGF-1R-hemming. Tvert imot kan hemming av IGF-1-aksen virke mot sin hensikt, siden støtte til veksthormon/IGF-1-aksen er en standard del av behandlingen av Turners syndrom. Scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
-De øvrige topp-10-prediksjonene har samme svakhet. De omfatter øsofagusvaricer (med og uten blødning), blandet gonadal dysgenesi, mitokondriell oksidativ fosforyleringsforstyrrelse, Turner-syndrom med strukturelle X-kromosomavvik, mosaikk-monosomi X, kjønnskromosomale utviklingsforstyrrelser, varikøs sykdom og X-kromosomtallsavvik. For ingen av dem finnes kliniske studier eller litteratur. Flere av dem tilhører samme X-kromosomklynge og er trolig innbyrdes redundante i grafen.
+De øvrige topp-10-prediksjonene har samme svakhet. De omfatter øsofagusvaricer (med og uten blødning), blandet gonadal dysgenesi, mitokondriell oksidativ fosforyleringsforstyrrelse, Turner-syndrom med strukturelle X-kromosomavvik, mosaikk-monosomi X, kjønnskromosomale utviklingsforstyrrelser, varikøs sykdom og X-kromosomtallsavvik. For ingen av dem finnes kliniske studier eller litteratur. Flere av dem tilhører samme X-kromosomklynge og er trolig innbyrdes redundante.
 
 ---
 
@@ -85,7 +85,7 @@ Foreløpig finnes det ingen relatert litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/006396 | Tepezza | – | Graves oftalmopati |
 
-Godkjenningen er kansellert, og det finnes ingen gyldige godkjenninger i Norge.
+Legemidlet er markedsført i Norge, med 1 gyldig godkjenning av 1.
 
 ---
 
@@ -110,7 +110,7 @@ For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparato
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonene er rent beregningsbaserte (L5) uten kliniske studier eller litteratur, og ingen plausibel mekanisme støtter IGF-1R-hemming ved monosomi X. I tillegg har legemidlet ingen gyldig godkjenning i Norge, og IGF-1-hemming kan stå i motsetning til etablert behandling av Turners syndrom.
+Prediksjonene er rent beregningsbaserte (L5) uten kliniske studier eller litteratur, og ingen plausibel mekanisme støtter IGF-1R-hemming ved monosomi X. Legemidlet er markedsført i Norge (1 gyldig godkjenning av 1), og IGF-1-hemming kan stå i motsetning til etablert behandling av Turners syndrom.
 
 **For å gå videre kreves følgende:**
 - Detaljerte data om virkningsmekanisme (MOA)

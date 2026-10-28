@@ -6,9 +6,9 @@ nav_order: 410
 evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Tenofovir Disoproxil: predikert ny indikasjon Simian immunsviktvirus-infeksjon (evidensnivå L4). Opprinnelig indikasjon: HIV-infeksjon"
 monitor_inn: "TENOFOVIR DISOPROXIL"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+description: "Tenofovir Disoproxil: predikert ny indikasjon Simian immunsviktvirus-infeksjon (simian immunodeficiency virus infection) (evidensnivå L4). Opprinnelig indikasjon: HIV Infections"
 ---
 
 # Tenofovir Disoproxil
@@ -33,7 +33,7 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-## Tenofovir disoproxil: Fra HIV-infeksjon til simian immunsviktvirus-infeksjon
+## Tenofovir Disoproxil: Simian immunsviktvirus-infeksjon (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -48,12 +48,12 @@ Støtten består av **0 kliniske studier** og **20 publikasjoner**, hovedsakelig
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | HIV-infeksjon; kronisk hepatitt B (Viread) |
-| Predikert ny indikasjon | Simian immunsviktvirus-infeksjon |
-| TxGNN-prediksjonsscore | 99,95 % |
+| Opprinnelig indikasjon | HIV Infections; Hepatitis B, Chronic;HIV Infections |
+| Predikert ny indikasjon | Simian immunsviktvirus-infeksjon (simian immunodeficiency virus infection) |
+| TxGNN-prediksjonsscore | 0.9995 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun avregistrerte (utgåtte) godkjenninger |
-| Antall godkjenninger | 14 (alle avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 14 av 14) |
+| Antall godkjenninger | 14 (gyldige: 14) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -68,7 +68,7 @@ SIV-infeksjon er imidlertid en dyresykdom og en forskningsmodell, ikke en human 
 
 De øvrige prediksjonene er svakere:
 - **Felint ervervet immunsviktsyndrom (FIV):** Kun én veterinær, preklinisk publikasjon. Mekanisk plausibelt, men uten human relevans (Hold).
-- **Nevroutviklingsforstyrrelse med ataktisk gange, fraværende tale og redusert kortikal hvit substans:** Ingen identifiserbar mekanistisk kobling og ingen studier. Trolig en artefakt i kunnskapsgrafen (Hold).
+- **Nevroutviklingsforstyrrelse med ataktisk gange, fraværende tale og redusert kortikal hvit substans:** Ingen identifiserbar mekanistisk kobling og ingen studier.
 - **Foreldet familiær kombinert hyperlipidemi:** Sykdomstermen er markert som foreldet i ontologien, og tenofovir har ingen kjent lipidsenkende mekanisme (Hold).
 
 ---
@@ -100,7 +100,7 @@ Utvalg av de mest relevante publikasjonene (dyrestudier og oversikter; ingen RCT
 
 ## Informasjon om det norske markedet
 
-Alle 14 godkjenninger er avregistrert. Utvalg på 5:
+Utvalg på 5:
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -129,13 +129,12 @@ Kunnskapsgrafen (PrimeKG) har imidlertid kontraindikasjonskoblinger til blant an
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den predikerte indikasjonen (SIV) er en dyremodell uten klinisk studie og uten selvstendig human terapeutisk verdi. Evidensen (L4) er rent preklinisk og støtter primært den allerede godkjente HIV-indikasjonen. I tillegg er alle norske godkjenninger avregistrert, og sikkerhetsdata fra pakningsvedlegget mangler.
+Den predikerte indikasjonen (SIV) er en dyremodell uten klinisk studie og uten selvstendig human terapeutisk verdi. Evidensen (L4) er rent preklinisk og støtter primært den allerede godkjente HIV-indikasjonen.
 
 **For å gå videre kreves:**
 - Hente og analysere pakningsvedlegg (advarsler og kontraindikasjoner) fra legemiddelmyndighetene, som er en blokkerende datamangel for sikkerhetsscreening
 - Fremskaffe data om virkningsmekanisme fra DrugBank
 - Avklare om et reelt humant repurposing-mål finnes, siden de øvrige prediksjonene (FIV, nevroutviklingsforstyrrelse, foreldet hyperlipidemi) mangler biologisk begrunnelse
-- Avklare markedsstatus i Norge, siden alle godkjenninger er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

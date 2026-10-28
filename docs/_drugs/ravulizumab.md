@@ -6,7 +6,7 @@ nav_order: 350
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Ravulizumab: predikert ny indikasjon Autosomal recessiv alvorlig medfødt nøytropeni på grunn av G6PC3-mang… (evidensnivå L5). Opprinnelig indikasjon: Paroksysmal nattlig hemoglobinuri"
+description: "Ravulizumab: predikert ny indikasjon autosomal recessiv alvorlig medfødt nøytropeni på grunn av G6PC3-mangel (evidensnivå L5). Opprinnelig indikasjon: Paroksysmal nattlig hemoglobinuri"
 monitor_inn: "RAVULIZUMAB"
 predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "primary hyperoxaluria", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "pseudo-von Willebrand disease", "X-linked severe congenital neutropenia", "primary release disorder of platelets", "megaloblastic anemia (disease)"]
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Ravulizumab: Fra paroksysmal nattlig hemoglobinuri til autosomal recessiv alvorlig medfødt nøytropeni (G6PC3-mangel)
+## Ravulizumab: Fra paroksysmal nattlig hemoglobinuri til autosomal recessiv alvorlig medfødt nøytropeni på grunn av G6PC3-mangel
 {: .text-alpha }
 
 ## Oppsummering
@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **autosomal recessiv al
 |------|------|
 | Opprinnelig indikasjon | Paroksysmal nattlig hemoglobinuri |
 | Predikert ny indikasjon | Autosomal recessiv alvorlig medfødt nøytropeni på grunn av G6PC3-mangel |
-| TxGNN-prediksjonsscore | 99,96 % |
+| TxGNN-prediksjonsscore | 0,9996 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 1 (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -67,15 +67,15 @@ Det samme gjelder de øvrige ni predikerte indikasjonene (rangert 2–10), som a
 
 | Rang | Predikert indikasjon | Score | Vurdering av mekanistisk kobling |
 |------|------|------|------|
-| 2 | Syklisk hematopoese | 99,94 % | Skyldes hovedsakelig ELANE-mutasjoner; ingen kjent rolle for terminal komplement |
-| 3 | Primær hyperoksaluri | 99,90 % | Hepatisk enzymdefekt; komplementlink kun spekulativ |
-| 4 | Alvorlig medfødt nøytropeni | 99,87 % | Defekter i myeloid differensiering; ingen plausibel C5-rolle |
-| 5 | Alvorlig medfødt nøytropeni (CXCR2-mangel) | 99,86 % | Kjemokinreseptordefekt uten tydelig komplementkobling |
-| 6 | Primær immunsvikt (p14-mangel) | 99,83 % | Ingen C5-kobling; økt infeksjonsrisiko hos immunsvekkede |
-| 7 | Pseudo-von Willebrands sykdom | 99,82 % | Trombocyttdefekt (GP1BA); ingen komplementavhengighet |
-| 8 | X-bundet alvorlig medfødt nøytropeni | 99,82 % | WAS-mutasjon; ingen støttet C5-rasjonale |
-| 9 | Primær frigjøringsforstyrrelse i blodplater | 99,81 % | Intrinsisk trombocyttdefekt; ingen dokumentert komplementmekanisme |
-| 10 | Megaloblastær anemi | 99,80 % | Vitaminmangel; svak og spekulativ assosiasjon |
+| 2 | Syklisk hematopoese | 0,9994 | Skyldes hovedsakelig ELANE-mutasjoner; ingen kjent rolle for terminal komplement |
+| 3 | Primær hyperoksaluri | 0,9990 | Hepatisk enzymdefekt; komplementlink kun spekulativ |
+| 4 | Alvorlig medfødt nøytropeni | 0,9987 | Defekter i myeloid differensiering; ingen plausibel C5-rolle |
+| 5 | Alvorlig medfødt nøytropeni (CXCR2-mangel) | 0,9986 | Kjemokinreseptordefekt uten tydelig komplementkobling |
+| 6 | Primær immunsvikt (p14-mangel) | 0,9983 | Ingen C5-kobling; økt infeksjonsrisiko hos immunsvekkede |
+| 7 | Pseudo-von Willebrands sykdom | 0,9982 | Trombocyttdefekt (GP1BA); ingen komplementavhengighet |
+| 8 | X-bundet alvorlig medfødt nøytropeni | 0,9982 | WAS-mutasjon; ingen støttet C5-rasjonale |
+| 9 | Primær frigjøringsforstyrrelse i blodplater | 0,9981 | Intrinsisk trombocyttdefekt; ingen dokumentert komplementmekanisme |
+| 10 | Megaloblastær anemi | 0,9980 | Vitaminmangel; svak og spekulativ assosiasjon |
 
 ---
 

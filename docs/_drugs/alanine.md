@@ -48,9 +48,10 @@ Alanin er en aminosyre som i produktet Maapliv er godkjent for behandling av lø
 |------|------|
 | Opprinnelig indikasjon | Lønnesirupsykdom (Maple Syrup Urine Disease) |
 | Foreslått ny indikasjon | Gastroparese |
-| TxGNN-prediksjonsscore | 99,37 % |
+| TxGNN-prediksjonsscore | 0,9937 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -60,7 +61,7 @@ Alanin er en aminosyre som i produktet Maapliv er godkjent for behandling av lø
 
 Det foreligger for øyeblikket ingen detaljerte data om virkningsmekanisme for alanin. Alanin er en naturlig forekommende aminosyre, og den er godkjent for lønnesirupsykdom, en stoffskjellsykdom. Det er ikke påvist noen troverdig mekanistisk kobling mellom alanin og gastroparese.
 
-Den høye prediksjonsscoren (0,994) er et rent beregningsmessig resultat fra en kunnskapsgraf. De tre hentede publikasjonene omhandler mage-tarm- og leverlidelser ved nyresvikt i sluttstadiet, diabetisk hepatosklerose og glykogenhepatopati ved type 1-diabetes. Ingen av dem undersøker alanin som behandling av gastroparese. Sammenhengen skyldes trolig den felles diabetiske konteksten, siden gastroparese er en vanlig diabeteskomplikasjon, og ikke en faktisk samhandling mellom legemiddel og sykdom.
+Den høye prediksjonsscoren (0,9937) er et rent beregningsmessig resultat fra TxGNN-modellen (deep learning), og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. De tre hentede publikasjonene omhandler mage-tarm- og leverlidelser ved nyresvikt i sluttstadiet, diabetisk hepatosklerose og glykogenhepatopati ved type 1-diabetes. Ingen av dem undersøker alanin som behandling av gastroparese. Sammenhengen skyldes trolig den felles diabetiske konteksten, siden gastroparese er en vanlig diabeteskomplikasjon, og ikke en faktisk samhandling mellom legemiddel og sykdom.
 
 Likheten mellom den opprinnelige og den nye indikasjonen er ikke vurdert.
 
@@ -86,7 +87,7 @@ Det er for øyeblikket ingen relaterte kliniske studier registrert.
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/005557 | Maapliv | Ikke oppgitt | Maple Syrup Urine Disease (status: avregistrert) |
+| EMEA/H/C/005557 | Maapliv | Ikke oppgitt | Maple Syrup Urine Disease (status: godkjent) |
 
 ---
 

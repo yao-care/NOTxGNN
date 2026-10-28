@@ -5,10 +5,10 @@ parent: Kun modellprediksjon (L5)
 nav_order: 147
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Emicizumab: predikert ny indikasjon Ervervet koagulasjonsfaktormangel (evidensen gjelder ervervet hemofil… (evidensnivå L5). Opprinnelig indikasjon: Hemofili A"
 monitor_inn: "EMICIZUMAB"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "thrombotic thrombocytopenic purpura", "fetal and neonatal alloimmune thrombocytopenia", "flood factor deficiency"]
+last_modified_at: 2026-10-27
+description: "Emicizumab: predikert ny indikasjon pseudo-von Willebrands sykdom (pseudo-von Willebrand disease) (evidensnivå L5). Opprinnelig indikasjon: Hemophilia A"
 ---
 
 # Emicizumab
@@ -33,118 +33,71 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Emicizumab: Fra hemofili A til ervervet koagulasjonsfaktormangel (ervervet hemofili A)
+## Emicizumab: bispesifikt antistoff som etterligner faktor VIIIa → pseudo-von Willebrands sykdom (pseudo-von Willebrand disease)
 {: .text-alpha }
 
-**Merk om valg av indikasjon:** TxGNN rangerer *pseudo-von Willebrands sykdom* høyest, men den har verken kliniske studier eller litteratur bak seg. Denne rapporten bygger derfor på **ervervet koagulasjonsfaktormangel**, som er den best dokumenterte av de ti prediksjonene. Dokumentasjonen gjelder spesifikt **ervervet hemofili A**. De andre kandidatene er oppsummert helt til slutt.
+## Oppsummering i én setning
 
----
-
-## Oppsummering
-
-Emicizumab er et bispesifikt antistoff som opprinnelig brukes til å forebygge blødninger ved hemofili A.
-TxGNN-modellen forutsier at det kan være effektivt ved **ervervet koagulasjonsfaktormangel**, i praksis **ervervet hemofili A**.
-De data som er samlet for denne rapporten, omfatter **20 publikasjoner**, deriblant flere prospektive fase 2- og fase 3-studier. Det er **ingen registrerte kliniske studier** i datagrunnlaget.
-
----
+Emicizumab er et bispesifikt antistoff som etterligner funksjonen til aktivert faktor VIII.
+TxGNN-modellen predikerer at legemidlet kan være virksomt ved **pseudo-von Willebrands sykdom (pseudo-von Willebrand disease)**,
+men det finnes **ingen kliniske studier og ingen publikasjoner** som direkte støtter denne prediksjonen. Prediksjonen er kun modellbasert.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Hemofili A |
-| Predikert ny indikasjon | Ervervet koagulasjonsfaktormangel (evidensen gjelder ervervet hemofili A) |
-| TxGNN-prediksjonsscore | 99,90 % |
-| Evidensnivå | L2 (prospektive, men enarmede studier. Dette er ikke randomiserte fase 3-studier, så L1 oppnås ikke) |
-| Markedsstatus i Norge | Kun avregistrert/trukket tilbake |
-| Antall markedsføringstillatelser | 1 |
-| Anbefalt beslutning | Proceed with Guardrails (fortsett med sikkerhetsbarrierer) |
+| Opprinnelig indikasjon | Hemophilia A |
+| Predikert ny indikasjon | pseudo-von Willebrands sykdom (pseudo-von Willebrand disease) |
+| TxGNN-prediksjonsscore | 0,9999 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
+| Anbefalt beslutning | Hold |
 
----
+## Hvorfor er denne prediksjonen rimelig (eller ikke)?
 
-## Hvorfor er denne prediksjonen rimelig?
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Ut fra kjent informasjon er emicizumab et bispesifikt antistoff som binder aktivert faktor IX og faktor X og dermed erstatter kofaktorfunksjonen til faktor VIIIa. Bindingen skjer til de koagulasjonsfaktorene som er målproteiner for legemidlet (F9 og F10).
 
-Emicizumab er et bispesifikt antistoff som binder aktivert faktor IX (FIXa) og faktor X (FX). Dermed etterligner det funksjonen til aktivert faktor VIII (FVIIIa) i den indre tenasekomplekset. Detaljerte mekanismedata fra DrugBank mangler, men denne virkningsmåten er godt kjent.
+Pseudo-von Willebrands sykdom er en blodplateforstyrrelse forårsaket av en «gain-of-function»-endring i GP1BA, som gir økt binding av von Willebrand-faktor. Dette er en defekt i blodplater og VWF, ikke en mangel på faktor VIII-kofaktor. Det finnes derfor ingen tydelig mekanistisk begrunnelse for at emicizumab skal virke her, og den høye scoren må ses som en ren modellprediksjon.
 
-Ved ervervet hemofili A danner pasienten autoantistoffer som nøytraliserer kroppens egen faktor VIII. Emicizumab er strukturelt uten slektskap til FVIII og nøytraliseres ikke av anti-FVIII-antistoffer. Det kan derfor gjenopprette hemostasen på samme måte som ved medfødt hemofili A med inhibitorer.
+## Klinisk studiedokumentasjon
 
-Sykdommene deler dermed den samme underliggende mangelen på FVIII-funksjon. Prediksjonen støttes av prospektive studier, men evidensen gjelder ervervet hemofili A og ikke den bredere kategorien ervervede faktormangler.
+For tiden er ingen relaterte kliniske studier registrert.
 
----
+## Litteraturdokumentasjon
 
-## Klinisk studieevidens
+For tiden er ingen relatert litteratur tilgjengelig for pseudo-von Willebrands sykdom.
 
-Det er for øyeblikket ingen relaterte kliniske studier registrert i datagrunnlaget. Litteraturen nedenfor omtaler imidlertid blant annet en japansk fase 3-studie (AGEHA) og en tysk fase 2-studie (GTH-AHA-EMI). Status for disse bør verifiseres i studieregistre.
+## Markedsinformasjon for Norge
 
----
-
-## Litteraturevidens
-
-| PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|------|---------|
-| [36696195](https://pubmed.ncbi.nlm.nih.gov/36696195/) | 2023 | Prospektiv multisenter åpen fase 3 | J Thromb Haemost | Første prospektive studie av emicizumab-profylakse ved ervervet hemofili A |
-| [37858328](https://pubmed.ncbi.nlm.nih.gov/37858328/) | 2023 | Åpen enarmet fase 2 (GTH-AHA-EMI) | Lancet Haematol | Emicizumab skulle beskytte mot blødning og muliggjøre utsatt immunsuppresjon de første 12 ukene |
-| [39134043](https://pubmed.ncbi.nlm.nih.gov/39134043/) | 2025 | Prospektiv studie, sluttanalyse (AGEHA) | Thromb Haemost | Sluttanalyse med og uten immunsuppresjon, inkludert pasienter som ikke kan få immunsuppresjon, og langtidsprofylakse |
-| [38049124](https://pubmed.ncbi.nlm.nih.gov/38049124/) | 2024 | Konsensusanbefalinger | Hamostaseologie | GTH-AHA-gruppens anbefalinger for bruk av emicizumab. Studien viste at emicizumab forebygger blødninger og kan utsette immunsuppresjon |
-| [40795229](https://pubmed.ncbi.nlm.nih.gov/40795229/) | 2025 | Kohort | Blood Adv | Toårsoppfølging av GTH-AHA-EMI-pasienter. Rapporterer vedvarende overlevelsesfordel ved emicizumab og utsatt immunsuppresjon |
-| [38936699](https://pubmed.ncbi.nlm.nih.gov/38936699/) | 2024 | Kohort/komparativ | J Thromb Haemost | Sammenligner emicizumab med immunsuppressiv behandling |
-| [39361769](https://pubmed.ncbi.nlm.nih.gov/39361769/) | 2024 | Retrospektiv multisenterkohort (USA) | Blood Adv | 62 pasienter behandlet utenfor godkjent indikasjon ved 12 sentre. Reell bruk av emicizumab og immunsuppresjon |
-| [37276345](https://pubmed.ncbi.nlm.nih.gov/37276345/) | 2023 | Kasusserie | Haemophilia | Erfaringer med emicizumab ved ervervet hemofili A. Ingen randomiserte studier tilgjengelig |
-| [39536818](https://pubmed.ncbi.nlm.nih.gov/39536818/) | 2025 | Oversikt | J Thromb Haemost | Behandlingsstrategi ved ervervet hemofili A i emicizumab-æraen |
-| [40683780](https://pubmed.ncbi.nlm.nih.gov/40683780/) | 2025 | Oversikt | Blood Rev | Aktuelle trender i behandlingen av ervervet hemofili A |
-
----
-
-## Informasjon om markedet i Norge
-
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004406 | Hemlibra (Roche Registration Limited) | Ikke oppgitt | Hemofili A (status: avregistrert) |
+| EMEA/H/C/004406 | Hemlibra | Ikke oppgitt | Se lokale lisensdata |
 
----
+Markedsstatus i de lokale dataene er «Markedsført». Lisensposten er registrert som én enkelt-ingrediens-godkjenning.
 
 ## Sikkerhetsvurderinger
 
-**Legemiddelinteraksjoner** (5 registrerte, hvorav 3 med gradering):
-- **Antiinhibitor-koagulasjonskompleks (aPCC):** alvorlig (Major). Samtidig bruk er forbundet med risiko for trombotisk mikroangiopati og trombose.
-- **Rekombinant faktor VIIa:** moderat.
-- **Rekombinant humant antihemofilifaktor (FVIII):** moderat.
-- I tillegg er koagulasjonsfaktor IX og X registrert som farmakologiske mål for emicizumab.
+- **Legemiddelinteraksjoner:**
+  - **Anti-inhibitor koagulasjonskompleks (aPCC): alvorlig (Major).** Samtidig bruk er forbundet med risiko for trombotisk mikroangiopati og trombose.
+  - Antihemofil faktor (rekombinant, human): moderat.
+  - Koagulasjonsfaktor VIIa (rekombinant, human): moderat.
+- **Farmakologisk binding:** Emicizumab binder koagulasjonsfaktor IX og koagulasjonsfaktor X (ikke en klassifisert interaksjon).
 
-Preparatomtalen bør kontrolleres for øvrig sikkerhetsinformasjon.
-
----
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ## Konklusjon og neste steg
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Flere prospektive studier (fase 2 og fase 3) og konsensusanbefalinger støtter bruk ved ervervet hemofili A. Studiene er enarmede og ikke randomiserte, og preparatet er i dag kun avregistrert i Norge, så evidensen er L2 og ikke L1.
+Prediksjonen for pseudo-von Willebrands sykdom bygger kun på modellscore, uten kliniske studier eller litteratur. Sykdomsmekanismen (blodplate-/VWF-defekt) har ingen klar kobling til emicizumabs virkning, og koagulasjonsfremmende behandling kan i teorien øke trombose­risiko.
 
-**For å gå videre kreves:**
-- Verifisere status for fase 3-studiene (AGEHA og tilsvarende) i studieregistre.
-- Hente preparatomtale med advarsler og kontraindikasjoner.
-- Avklare regulatorisk vei, siden preparatet kun er avregistrert i Norge.
-- Avgrense indikasjonen til ervervet hemofili A.
-- Utarbeide retningslinjer for forsiktig bruk sammen med omgåelsesmidler (spesielt aPCC) på grunn av risikoen for trombotisk mikroangiopati og trombose.
-- Ta stilling til behovet for å eliminere autoantistoffene.
-
----
-
-## Øvrige TxGNN-kandidater (alle Hold, med unntak av én)
-
-| Predikert indikasjon | Score | Evidensnivå | Vurdering |
-|------|------|------|------|
-| Pseudo-von Willebrands sykdom | 99,99 % | L5 | Trombocyttdefekt, ikke FVIII-mangel. Ingen klar mekanisme |
-| Primær frisettingsforstyrrelse i blodplater | 99,99 % | L5 | Spekulativ, ingen studier |
-| Glanzmanns trombasteni | 99,98 % | L4 | Plausibel men ubekreftet mekanisme. Den eneste publikasjonen gjelder rFVIIa, ikke emicizumab. Forskningsspørsmål |
-| Scotts syndrom | 99,92 % | L5 | Emicizumab trenger fosfolipidoverflater, så effekten er trolig begrenset |
-| Blødningstendens ved kollagenreseptordefekt | 99,86 % | L5 | Utenfor virkningsmekanismen |
-| Blødningslidelse ved konstitusjonell trombocytopeni | 99,85 % | L5 | Emicizumab korrigerer ikke lavt blodplatetall |
-| Trombotisk trombocytopenisk purpura | 99,61 % | L5 | Mekanistisk uforenlig. Sannsynlig falsk positiv, trombosefare |
-| Føtal og neonatal alloimmun trombocytopeni | 99,52 % | L5 | Adresserer ikke alloimmun trombocyttdestruksjon. Neonatal sikkerhet er ikke fastslått |
-| «Flood factor deficiency» | 99,40 % | L5 | Uklart sykdomsnavn, trolig en kartleggingsfeil. Kan ikke vurderes |
+**For å gå videre kreves følgende:**
+- Prekliniske eller mekanistiske data som viser at emicizumab kan påvirke hemostasen ved GP1BA-relatert sykdom
+- Detaljerte data om virkningsmekanisme
+- Gjennomgang av preparatomtalen for advarsler og kontraindikasjoner
+- En vurdering av trombose­risiko ved bruk i en populasjon med blodplatedefekt
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

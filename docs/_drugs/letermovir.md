@@ -48,10 +48,10 @@ Letermovir er et antiviralt middel som opprinnelig brukes mot **cytomegalovirusi
 |------|------|
 | Opprinnelig indikasjon | Cytomegalovirusinfeksjon |
 | Foreslått ny indikasjon | Vulvovaginal candidiasis |
-| TxGNN-prediksjonsscore | 99,88 % |
+| TxGNN-prediksjonsscore | 0,9988 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun opphevede godkjenninger |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Detaljerte data om virkningsmekanisme er ikke tilgjengelige i dataene som er sam
 
 Det er ingen kjent fungal homolog til dette målet. Aktivitet mot *Candida*-arter er derfor ikke biologisk sannsynlig ut fra dagens kunnskap. Det foreligger heller ingen in vitro-, in vivo- eller kliniske data om antifungal effekt.
 
-Den høye TxGNN-scoren (0,9988) bør tolkes med forsiktighet. Den gjenspeiler trolig assosiasjoner i kunnskapsgrafen, for eksempel felles legemiddelklasse (antiinfektiva) eller nettverksnaboer, og ikke en validert mekanisme. Likhet mellom opprinnelig og ny indikasjon er ikke vurdert.
+Den høye TxGNN-scoren (0,9988) bør tolkes med forsiktighet. Scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Likhet mellom opprinnelig og ny indikasjon er ikke vurdert.
 
 ---
 
@@ -84,7 +84,7 @@ Foreløpig finnes det ingen relatert litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/004536 | Prevymis | – | Cytomegalovirusinfeksjon |
 
-Godkjenningen er registrert som opphevet (status: cancelled), og det finnes ingen gyldige godkjenninger i Norge.
+Legemidlet er markedsført i Norge, og 1 av 1 godkjenning er gyldig.
 
 ---
 

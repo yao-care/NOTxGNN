@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sofosbuvir
-parent: Kun modellprediksjon (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 388
-evidence_level: L5
+evidence_level: L3
 indication_count: 8
 last_modified_at: 2026-10-15
-description: "Sofosbuvir: predikert ny indikasjon Hepatitt B-virusinfeksjon (score 99,77 %) (evidensnivå L5). Opprinnelig indikasjon: Kronisk hepatitt C"
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
+description: "Sofosbuvir: predikert ny indikasjon Hepatitt B-virusinfeksjon (hepatitis B virus infection) (evidensnivå L3). Opprinnelig indikasjon: Hepatitis C, Chronic"
 ---
 
 # Sofosbuvir
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
+Evidensnivå: **L3** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-## Sofosbuvir: Fra kronisk hepatitt C til hepatitt E-virusinfeksjon
+## Sofosbuvir: Hepatitt B-virusinfeksjon (hepatitis B virus infection)
 {: .text-alpha }
 
 ## Ett-setnings sammendrag
 
 Sofosbuvir er en nukleotidanalog hemmer av HCV NS5B-polymerasen og ble opprinnelig godkjent for behandling av kronisk hepatitt C.
-TxGNN-modellen rangerer flere nye indikasjoner høyt. Den første er **hepatitt B-virusinfeksjon** (score 99,77 %), men den best underbygde kandidaten er **hepatitt E-virusinfeksjon** (score 99,49 %), med **2 kliniske studier** og **20 publikasjoner** i datagrunnlaget.
+TxGNN-modellen rangerer flere nye indikasjoner høyt. Den første er **hepatitt B-virusinfeksjon** (score 0,9977), men den best underbygde kandidaten er **hepatitt E-virusinfeksjon** (score 0,9949), med **2 kliniske studier** og **20 publikasjoner** i datagrunnlaget.
 Rapporten vurderer derfor hepatitt E som hovedkandidat, fordi hepatitt B mangler en direkte mekanistisk begrunnelse.
 
 ---
@@ -48,12 +48,12 @@ Rapporten vurderer derfor hepatitt E som hovedkandidat, fordi hepatitt B mangler
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Kronisk hepatitt C |
-| Foreslått ny indikasjon (høyest rangert av TxGNN) | Hepatitt B-virusinfeksjon (score 99,77 %) |
-| Foreslått ny indikasjon (best underbygd, vurdert i rapporten) | Hepatitt E-virusinfeksjon (score 99,49 %) |
+| Opprinnelig indikasjon | Hepatitis C, Chronic |
+| Foreslått ny indikasjon (høyest rangert av TxGNN) | Hepatitt B-virusinfeksjon (hepatitis B virus infection) |
+| Foreslått ny indikasjon (best underbygd, vurdert i rapporten) | Hepatitt B-virusinfeksjon (hepatitis B virus infection) |
 | Evidensnivå | L3 for hepatitt E (L2 er oppgitt for hepatitt B, men studiene gjelder HCV/HBV-koinfeksjon og viser ikke effekt mot HBV) |
-| Status på det norske markedet | Kun avregistrerte godkjenninger (ingen gyldige) |
-| Antall godkjenninger | 4 (alle avregistrert) |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 4 av 4) |
+| Antall godkjenninger | 4 (gyldige: 4) |
 | Anbefalt beslutning | Hold (forskningsspørsmål for hepatitt E) |
 
 ---
@@ -108,7 +108,6 @@ For hepatitt B er de nærmeste studiene [NCT03312023](https://clinicaltrials.gov
 | EMEA/H/C/004210 | Epclusa | – | Kronisk hepatitt C |
 | EMEA/H/C/004350 | Vosevi | – | Kronisk hepatitt C |
 
-Alle fire godkjenningene er avregistrert, og ingen er gyldige per i dag.
 
 ---
 
@@ -138,7 +137,7 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **For å gå videre trengs følgende:**
 - Data om virkningsmekanisme fra legemiddeldatabasen og sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner mangler i datagrunnlaget)
 - Kontrollerte studier av sofosbuvir ved kronisk hepatitt E, gjerne i kombinasjon med ribavirin og med oppfølging av resistens
-- Avklaring av markedsstatus i Norge, siden alle godkjenninger er avregistrert
+- Avklaring av markedsstatus i Norge, der legemidlet er markedsført og 4 av 4 godkjenninger er gyldige
 - Vurdering av HBV-reaktiveringsrisiko og interaksjonsprofil før eventuell videre utvikling
 ## Ansvarsfraskrivelse
 

@@ -50,10 +50,10 @@ men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** 
 |------|------|
 | Opprinnelig indikasjon | Diabetes mellitus |
 | Predikert ny indikasjon | Autoimmun oofoitt |
-| TxGNN-prediksjonsscore | 99,84 % |
+| TxGNN-prediksjonsscore | 0,9984 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte (trukket tilbake) |
-| Antall godkjenninger | 5 (alle avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 5 av 5) |
+| Antall godkjenninger | 5 (gyldige: 5) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -72,16 +72,16 @@ De ti øverste prediksjonene mangler alle kliniske studier og litteratur. Flere 
 
 | Rangering | Predikert indikasjon | Score | Vurdering |
 |------|------|------|------|
-| 1 | Autoimmun oofoitt | 99,84 % | Ingen etablert rolle for insulin |
-| 2 | Klassisk stiff person-syndrom | 99,81 % | Forvekslet: anti-GAD65-autoimmunitet og samtidig type 1-diabetes; insulin behandler diabetesen, ikke den nevrologiske sykdommen |
-| 3 | Fokalt stiff limb-syndrom | 99,81 % | Samme forvekslede sammenheng som over |
-| 4 | Tiaminresponsivt dysfunksjonssyndrom | 99,80 % | Diabetes er en del av fenotypen; tiamin er sykdomsspesifikk behandling |
-| 5 | Opsismodysplasi | 99,79 % | Spekulativ kobling via INPPL1 (SHIP2) i insulin/PI3K-signalveien; effektretning uklar |
-| 6 | Legemiddelindusert lokalisert lipodystrofi | 99,72 % | Kjent bivirkning av injisert insulin; bør behandles som sikkerhetssignal |
-| 7 | Sentrifugal lipodystrofi | 99,70 % | Fenotypeoverlapp; ingen holdepunkter for nytte |
-| 8 | Trykkindusert lokalisert lipoatrofi | 99,70 % | Fenotypeoverlapp med lipoatrofi på injeksjonssteder |
-| 9 | Pankreasagenesi | 99,70 % | Insulinerstatning er rasjonell, men er symptomatisk diabetesbehandling innenfor den opprinnelige indikasjonen, ikke ekte repurposing |
-| 10 | Idiopatisk lokalisert lipodystrofi | 99,68 % | Fenotypelikhet; ingen støttende mekanisme |
+| 1 | Autoimmun oofoitt | 0,9984 | Ingen etablert rolle for insulin |
+| 2 | Klassisk stiff person-syndrom | 0,9981 | Forvekslet: anti-GAD65-autoimmunitet og samtidig type 1-diabetes; insulin behandler diabetesen, ikke den nevrologiske sykdommen |
+| 3 | Fokalt stiff limb-syndrom | 0,9981 | Samme forvekslede sammenheng som over |
+| 4 | Tiaminresponsivt dysfunksjonssyndrom | 0,9980 | Diabetes er en del av fenotypen; tiamin er sykdomsspesifikk behandling |
+| 5 | Opsismodysplasi | 0,9979 | Spekulativ kobling via INPPL1 (SHIP2) i insulin/PI3K-signalveien; effektretning uklar |
+| 6 | Legemiddelindusert lokalisert lipodystrofi | 0,9972 | Kjent bivirkning av injisert insulin; bør behandles som sikkerhetssignal |
+| 7 | Sentrifugal lipodystrofi | 0,9970 | Fenotypeoverlapp; ingen holdepunkter for nytte |
+| 8 | Trykkindusert lokalisert lipoatrofi | 0,9970 | Fenotypeoverlapp med lipoatrofi på injeksjonssteder |
+| 9 | Pankreasagenesi | 0,9970 | Insulinerstatning er rasjonell, men er symptomatisk diabetesbehandling innenfor den opprinnelige indikasjonen, ikke ekte repurposing |
+| 10 | Idiopatisk lokalisert lipodystrofi | 0,9968 | Fenotypelikhet; ingen støttende mekanisme |
 
 ---
 
@@ -99,7 +99,7 @@ Foreløpig finnes det ingen relatert litteratur.
 
 ## Informasjon om det norske markedet
 
-Alle fem godkjenninger er registrert som avregistrert (cancelled), og ingen er gyldige i dag.
+Legemidlet er markedsført i Norge, og alle fem godkjenninger er gyldige.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -137,7 +137,7 @@ Prediksjonen for autoimmun oofoitt er kun beregningsbasert (L5) uten kliniske st
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
 - Data om virkningsmekanisme (MOA), for eksempel fra DrugBank
 - Prekliniske eller kliniske data som viser nytte ved autoimmun oofoitt
-- Avklaring av administrasjonsvei og formuleringer, siden doseringsform mangler og alle norske godkjenninger er avregistrert
+- Avklaring av administrasjonsvei og formuleringer, siden doseringsform mangler
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

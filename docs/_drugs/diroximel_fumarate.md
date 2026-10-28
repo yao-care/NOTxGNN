@@ -49,9 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **diabetisk katarakt**,
 |------|------|
 | Opprinnelig indikasjon | Multippel sklerose, relapserende-remitterende |
 | Predikert ny indikasjon | Diabetisk katarakt |
-| TxGNN-prediksjonsscore | 99,999 % |
+| TxGNN-prediksjonsscore | 1,0000 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -63,7 +64,7 @@ Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig i de innsamlede 
 
 Oksidativt stress og skade via polyolveien bidrar til linseopasitet ved diabetes, så en kobling er tenkelig. Det er imidlertid en betydelig begrensning at systemisk oral dosering kanskje ikke gir relevante konsentrasjoner i linsen. Høy score for flere katarakttyper (blant annet tetanisk, kortikal, moden og kraniostenose-katarakt) skyldes sannsynligvis felles nettverksegenskaper i modellen, ikke en spesifikk mekanisme.
 
-Andre predikerte indikasjoner med tilsvarende score er diabetisk retinopati (score 99,999 %), alvorlig ikke-proliferativ diabetisk retinopati, umoden katarakt, kortikal katarakt, nukleær senil katarakt, katarakt assosiert med type 2-diabetes og moden katarakt. Alle har evidensnivå L5 og anbefalingen Hold. For retinopati er det høy terskel, siden anti-VEGF og laser er etablert behandling, og dataene viser ingen fordel i forhold til disse.
+Andre predikerte indikasjoner med tilsvarende score er diabetisk retinopati (score 1,0000), alvorlig ikke-proliferativ diabetisk retinopati, umoden katarakt, kortikal katarakt, nukleær senil katarakt, katarakt assosiert med type 2-diabetes og moden katarakt. Alle har evidensnivå L5 og anbefalingen Hold. For retinopati er det høy terskel, siden anti-VEGF og laser er etablert behandling, og dataene viser ingen fordel i forhold til disse.
 
 ---
 
@@ -111,7 +112,7 @@ Det er ikke registrert kontraindikasjoner fra kunnskapsgrafen. Immunmodulerende 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten kliniske studier eller litteratur. Mekanismekoblingen er hypotetisk, og legemidlet har ingen gyldig markedsføringstillatelse i Norge.
+Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten kliniske studier eller litteratur. Mekanismekoblingen er hypotetisk, og legemidlet er markedsført i Norge med 1 gyldig markedsføringstillatelse av 1.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

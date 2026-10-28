@@ -49,9 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt mot **hepatitt B-virusinfe
 |------|------|
 | Opprinnelig indikasjon | Kronisk hepatitt C |
 | Predikert ny indikasjon | Hepatitt B-virusinfeksjon |
-| TxGNN-prediksjonsscore | 99,84 % |
+| TxGNN-prediksjonsscore | 0,9984 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert/trukket tilbake (ingen gyldige tillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -61,7 +62,7 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt mot **hepatitt B-virusinfe
 
 Detaljerte data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige fra de innhentede kildene. Voksilaprevir er kjent som en hemmer av HCV NS3/4A-serinprotease, og effekten ved kronisk hepatitt C er godt dokumentert gjennom kombinasjonsregimet med sofosbuvir og velpatasvir.
 
-Hepatitt B-viruset mangler imidlertid NS3/4A-proteasehomolog. Det replikerer via revers transkriptase/polymerase og har en annen replikasjonssyklus. Den høye TxGNN-scoren er derfor trolig et utslag av nærhet i kunnskapsgrafen mellom virale leversykdommer, ikke av en mekanistisk begrunnelse. Det finnes heller ingen kliniske studier eller litteratur som underbygger prediksjonen.
+Hepatitt B-viruset mangler imidlertid NS3/4A-proteasehomolog. Det replikerer via revers transkriptase/polymerase og har en annen replikasjonssyklus. Den høye TxGNN-scoren kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Det finnes heller ingen kliniske studier eller litteratur som underbygger prediksjonen.
 
 Merk også at HBV-reaktivering under DAA-behandling av hepatitt C er et sikkerhetsproblem, ikke en terapeutisk effekt.
 
@@ -87,7 +88,7 @@ Det finnes for tiden ingen relevant litteratur for hepatitt B-virusinfeksjon.
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004350 | Vosevi | Ikke oppgitt | Kronisk hepatitt C (status: avregistrert) |
+| EMEA/H/C/004350 | Vosevi | Ikke oppgitt | Kronisk hepatitt C (status: godkjent) |
 
 ---
 
@@ -106,7 +107,7 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon, inkludert advarsler og kont
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på modellscore (evidensnivå L5). HBV mangler det proteasemålet voksilaprevir virker på, og det finnes verken kliniske studier eller litteratur. Legemidlet har dessuten ingen gyldig markedsføringstillatelse i Norge.
+Prediksjonen bygger kun på modellscore (evidensnivå L5). HBV mangler det proteasemålet voksilaprevir virker på, og det finnes verken kliniske studier eller litteratur. Legemidlet er dessuten markedsført i Norge, med 1 gyldig markedsføringstillatelse av 1.
 
 **For å gå videre kreves følgende:**
 - Prekliniske data (in vitro-aktivitet mot HBV) som kan gi en mekanistisk begrunnelse

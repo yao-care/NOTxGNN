@@ -50,9 +50,10 @@ Prediksjonen støttes foreløpig av **0 kliniske studier** og **0 publikasjoner*
 |------|------|
 | Opprinnelig indikasjon | Urologiske neoplasmer |
 | Predikert ny indikasjon | Pulmonal hypertensjon |
-| TxGNN-prediksjonsscore | 99,38 % |
+| TxGNN-prediksjonsscore | 0,9938 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall markedsføringstillatelser | 1 |
 | Anbefalt beslutning | Hold |
 
@@ -70,11 +71,11 @@ Sikkerhetsaspekter som hyperfosfatemi, øyetoksisitet og væskerelaterte effekte
 
 | Rang | Sykdom | TxGNN-score | Kommentar |
 |---|---|---|---|
-| 2 | Kyfoskoliotisk hjertesykdom | 99,27 % | Ingen klar mekanistisk kobling; sannsynlig artefakt i kunnskapsgrafen |
-| 3 | Amenoré | 99,26 % | FGFR-hemming vil snarere kunne gi enn behandle reproduktiv dysfunksjon |
-| 4 | Revmatoid artritt | 99,25 % | Plausibel, men ikke validert; kun en generell oversiktsartikkel |
-| 5 | Amyotrofisk lateralsklerose | 99,06 % | Effektretningen er usikker |
-| 6 | Brakydaktyli-syndaktyli-syndrom | 99,03 % | Medfødt tilstand; postnatal kinasehemming vil neppe reversere misdannelser |
+| 2 | Kyfoskoliotisk hjertesykdom | 0,9927 | Ingen klar mekanistisk kobling; scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens |
+| 3 | Amenoré | 0,9926 | FGFR-hemming vil snarere kunne gi enn behandle reproduktiv dysfunksjon |
+| 4 | Revmatoid artritt | 0,9925 | Plausibel, men ikke validert; kun en generell oversiktsartikkel |
+| 5 | Amyotrofisk lateralsklerose | 0,9906 | Effektretningen er usikker |
+| 6 | Brakydaktyli-syndaktyli-syndrom | 0,9903 | Medfødt tilstand; postnatal kinasehemming vil neppe reversere misdannelser |
 
 ---
 
@@ -100,7 +101,7 @@ For hovedprediksjonen (pulmonal hypertensjon) finnes ingen relatert litteratur. 
 |---------|------|------|-----------|
 | EMEA/H/C/006050 | Balversa | – | Urologiske neoplasmer |
 
-Tillatelsen er kansellert, og det finnes ingen gyldige tillatelser for tiden.
+Legemidlet er markedsført, og 1 av 1 tillatelse er gyldig.
 
 ---
 
@@ -131,7 +132,7 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for pulmonal hypertensjon (score 99,38 %) støttes av en biologisk plausibel FGFR-kobling, men har ingen kliniske studier eller litteratur (evidensnivå L5). I tillegg er den norske tillatelsen kansellert, og sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen for pulmonal hypertensjon (score 0,9938) støttes av en biologisk plausibel FGFR-kobling, men har ingen kliniske studier eller litteratur (evidensnivå L5). I tillegg er den norske tillatelsen kansellert, og sikkerhetsdata fra preparatomtalen mangler.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtalens advarsler og kontraindikasjoner (blokkerende datamangel)

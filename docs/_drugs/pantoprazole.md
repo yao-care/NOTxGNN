@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pantoprazole
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 311
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Pantoprazole: predikert ny indikasjon Aktiv magesårsykdom (active peptic ulcer disease) (evidensnivå L1). Opprinnelig indikasjon: Gastroøsofageal reflukssykdom"
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
+description: "Pantoprazole: predikert ny indikasjon Duodenal obstruction (evidensnivå L5). Opprinnelig indikasjon: Gastroesophageal Reflux"
 ---
 
 # Pantoprazole
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **6** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-## Pantoprazol: Fra gastroøsofageal reflukssykdom til aktivt magesår
+## Pantoprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -46,12 +46,12 @@ Pantoprazol er en protonpumpehemmer som opprinnelig brukes mot **gastroøsofagea
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Gastroøsofageal reflukssykdom |
-| Predikert ny indikasjon | Aktiv magesårsykdom (active peptic ulcer disease) |
-| TxGNN-prediksjonsscore | 99,69 % |
-| Evidensnivå | L1 |
-| Status på det norske markedet | Kun avregistrerte godkjenninger (ingen gyldige) |
-| Antall godkjenninger | 3 (alle avregistrert) |
+| Opprinnelig indikasjon | Gastroesophageal Reflux |
+| Predikert ny indikasjon | Duodenal obstruction |
+| TxGNN-prediksjonsscore | 0.9921 |
+| Evidensnivå | L5 |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
 
 ---
@@ -99,7 +99,6 @@ Merk: Tittelen er avkortet, så nøyaktig komparator og populasjon bør verifise
 | EMEA/H/C/001097 | Controloc Control | Ikke oppgitt | Gastroøsofageal reflukssykdom |
 | EMEA/H/C/001098 | Somac Control | Ikke oppgitt | Gastroøsofageal reflukssykdom |
 
-Alle tre godkjenningene er avregistrert, og det finnes ingen gyldige godkjenninger i datamaterialet.
 
 ---
 
@@ -119,7 +118,6 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 **Begrunnelse:**
 - Det finnes en fullført fase 3-RCT (NCT02084420) og flere sammenlignende studier mot ranitidin og famotidin for sårtilheling. Indikasjonen er imidlertid i praksis en etablert syrerelatert bruk, ikke ny omposisjonering.
-- Det er ingen gyldig norsk markedsgodkjenning i dag.
 
 **Andre predikerte indikasjoner (for oversikt):**
 - Duodenalsår (L1, Proceed with Guardrails): flere studier, bl.a. NCT00843063 (famotidin vs pantoprazol, n=161) og NCT00374101 (n=450), samt RCT-er mot ranitidin.

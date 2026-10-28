@@ -50,10 +50,10 @@ Støtten er svak: **ingen kliniske studier** og **1 oversiktsartikkel** uten nin
 |------|------|
 | Opprinnelig indikasjon | Idiopatisk lungefibrose, interstitielle lungesykdommer, systemisk sklerose og lungefibrose |
 | Foreslått ny indikasjon | Dermatofibrosarcoma protuberans |
-| TxGNN-prediksjonsscore | 99,15 % |
+| TxGNN-prediksjonsscore | 0,9915 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun avregistrerte godkjenninger |
-| Antall godkjenninger | 4 (alle avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 4 av 4) |
+| Antall godkjenninger | 4 (gyldige: 4) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -86,10 +86,10 @@ Foreløpig er ingen relaterte kliniske studier registrert.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/006179 | Nintedanib Accord | – | Idiopatisk lungefibrose, interstitielle lungesykdommer, systemisk sklerose, lungefibrose (avregistrert) |
-| EMEA/H/C/006486 | Nintedanib Viatris | – | Idiopatisk lungefibrose, interstitielle lungesykdommer, lungefibrose (avregistrert) |
-| EMEA/H/C/002569 | Vargatef | – | Ikke-småcellet lungekreft (avregistrert) |
-| EMEA/H/C/003821 | Ofev | – | Idiopatisk lungefibrose, interstitielle lungesykdommer, lungefibrose, systemisk sklerose (avregistrert) |
+| EMEA/H/C/006179 | Nintedanib Accord | – | Idiopatisk lungefibrose, interstitielle lungesykdommer, systemisk sklerose, lungefibrose (godkjent) |
+| EMEA/H/C/006486 | Nintedanib Viatris | – | Idiopatisk lungefibrose, interstitielle lungesykdommer, lungefibrose (godkjent) |
+| EMEA/H/C/002569 | Vargatef | – | Ikke-småcellet lungekreft (godkjent) |
+| EMEA/H/C/003821 | Ofev | – | Idiopatisk lungefibrose, interstitielle lungesykdommer, lungefibrose, systemisk sklerose (godkjent) |
 
 ---
 
@@ -124,7 +124,7 @@ For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparato
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den mekanistiske koblingen via PDGFR-hemming er plausibel, men det finnes ingen kliniske studier og ingen nintedanib-spesifikke publikasjoner for DFSP. I tillegg er imatinib etablert behandling, og alle norske godkjenninger for nintedanib er avregistrert.
+Den mekanistiske koblingen via PDGFR-hemming er plausibel, men det finnes ingen kliniske studier og ingen nintedanib-spesifikke publikasjoner for DFSP. I tillegg er imatinib etablert behandling, og nintedanib er markedsført i Norge med 4 gyldige markedsføringstillatelser av 4.
 
 **For å gå videre trengs følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
@@ -134,7 +134,7 @@ Den mekanistiske koblingen via PDGFR-hemming er plausibel, men det finnes ingen 
 
 ---
 
-*Merknad om øvrige prediksjoner:* De to neste prediksjonene, **liposarkom** (score 99,13 %) og **ovarielt myksoid liposarkom** (score 99,12 %), har evidensnivå L5 uten kliniske studier eller litteratur. Koblingen er indirekte, siden disse svulstene hovedsakelig drives av MDM2/CDK4-amplifikasjon eller FUS-DDIT3-fusjoner og ikke av PDGFR/FGFR. Anbefalingen for begge er **Hold**.
+*Merknad om øvrige prediksjoner:* De to neste prediksjonene, **liposarkom** (score 0,9913) og **ovarielt myksoid liposarkom** (score 0,9912), har evidensnivå L5 uten kliniske studier eller litteratur. Koblingen er indirekte, siden disse svulstene hovedsakelig drives av MDM2/CDK4-amplifikasjon eller FUS-DDIT3-fusjoner og ikke av PDGFR/FGFR. Anbefalingen for begge er **Hold**.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

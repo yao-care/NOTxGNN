@@ -50,10 +50,10 @@ Prediksjonen er ren modellberegning, og det er faktisk holdepunkter som peker mo
 |------|------|
 | Opprinnelig indikasjon | Hematopoetisk stamcelletransplantasjon |
 | Predikert ny indikasjon | Diabetisk katarakt |
-| TxGNN-prediksjonsscore | 99,01 % |
+| TxGNN-prediksjonsscore | 0,9901 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (godkjenning trukket tilbake) |
-| Antall godkjenninger | 1 (0 gyldige, 1 avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Prediksjonen er ren modellberegning, og det er faktisk holdepunkter som peker mo
 
 Data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Ut fra generell farmakologisk kunnskap er treosulfan et bifunksjonelt alkylerende middel. Det er et prodrug som omdannes til epoksidmellomprodukter som danner kryssbindinger i DNA, og det brukes i kondisjonering før stamcelletransplantasjon.
 
-Diabetisk katarakt skyldes hovedsakelig aktivering av polyolveien (aldosereduktase og opphopning av sorbitol), oksidativt stress og glykering av proteiner i linsen. Det er ingen åpenbar mekanistisk kobling mellom DNA-alkylering og disse prosessene. Den høye TxGNN-scoren (0,990) er kun en beregnet prediksjon og støttes ikke av noen studie eller litteratur.
+Diabetisk katarakt skyldes hovedsakelig aktivering av polyolveien (aldosereduktase og opphopning av sorbitol), oksidativt stress og glykering av proteiner i linsen. Det er ingen åpenbar mekanistisk kobling mellom DNA-alkylering og disse prosessene. Den høye TxGNN-scoren (0,9901) er kun en beregnet prediksjon og støttes ikke av noen studie eller litteratur.
 
 Systemiske alkylerende midler og kondisjoneringsregimer er dessuten forbundet med økt risiko for katarakt (for eksempel etter total kroppsbestråling eller busulfanbasert kondisjonering). Dette taler mot nytte og reiser en mulig sikkerhetsbekymring.
 
@@ -86,7 +86,7 @@ Foreløpig finnes ingen relevant litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/004751 | Trecondi | Ikke oppgitt | Hematopoetisk stamcelletransplantasjon |
 
-Merk: Godkjenningen er avregistrert, og det finnes ingen gyldige godkjenninger.
+Merk: Legemidlet er markedsført, og 1 av 1 godkjenning er gyldig.
 
 ---
 
@@ -103,7 +103,7 @@ Ut over dette bes du se preparatomtalen (pakningsvedlegget) for sikkerhetsinform
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på modellscore (L5) uten støtte fra kliniske studier, litteratur eller en plausibel mekanisme. Et cytotoksisk alkylerende middel er lite egnet for en kronisk, ikke-malign øyesykdom, og preparatet har dessuten ingen gyldig godkjenning i Norge.
+Prediksjonen bygger kun på modellscore (L5) uten støtte fra kliniske studier, litteratur eller en plausibel mekanisme. Et cytotoksisk alkylerende middel er lite egnet for en kronisk, ikke-malign øyesykdom. Preparatet er markedsført i Norge, og 1 av 1 godkjenning er gyldig.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

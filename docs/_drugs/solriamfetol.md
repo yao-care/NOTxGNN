@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Solriamfetol
-parent: Kun modellprediksjon (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 389
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Solriamfetol: predikert ny indikasjon Attention deficit-hyperactivity disorder (ADHD) (evidensnivå L5). Opprinnelig indikasjon: Narkolepsi"
@@ -14,7 +14,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigito
 # Solriamfetol
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Foreløpig støttes dette av **5 kliniske studier** (blant annet en fullført fa
 |------|------|
 | Opprinnelig indikasjon | Narkolepsi; obstruktiv søvnapné |
 | Predikert ny indikasjon | Attention deficit-hyperactivity disorder (ADHD) |
-| TxGNN-prediksjonsscore | 99,99 % |
+| TxGNN-prediksjonsscore | 0,9999 |
 | Evidensnivå | L1 (se merknad under) |
-| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
-| Antall godkjenninger | 1 (opphevet) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsette med forbehold) |
 
 *Merknad om evidensnivå:* Datagrunnlaget klassifiserer ADHD som L1. Kun én fullført fase 3-studie (NCT05972044) er imidlertid registrert for voksne, og resultatene er ikke tilgjengelige i de innsamlede dataene. Nivået bør derfor verifiseres mot studieregisteret eller publikasjoner.
@@ -117,7 +117,7 @@ Se preparatomtalen for fullstendig informasjon om advarsler og kontraindikasjone
 **Beslutning: Proceed with Guardrails (fortsette med forbehold)**
 
 **Begrunnelse:**
-Mekanismen er biologisk sammenhengende med ADHD, og det finnes en fullført fase 3-studie og en fullført fase 2/3-studie hos voksne, samt flere pågående fase 3-studier hos barn og ungdom. Resultatene fra de store studiene er imidlertid ikke bekreftet i datagrunnlaget, og produktet har ingen gyldig godkjenning i Norge.
+Mekanismen er biologisk sammenhengende med ADHD, og det finnes en fullført fase 3-studie og en fullført fase 2/3-studie hos voksne, samt flere pågående fase 3-studier hos barn og ungdom. Resultatene fra de store studiene er imidlertid ikke bekreftet i datagrunnlaget, og produktet er markedsført i Norge med 1 gyldig godkjenning av 1.
 
 **For å gå videre kreves følgende:**
 - Verifisere resultater fra NCT05972044 (FOCUS) i studieregisteret eller publikasjoner

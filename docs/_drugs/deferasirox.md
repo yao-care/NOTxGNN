@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt mot **HIV-infeksjon**, men 
 |------|------|
 | Opprinnelig indikasjon | Jernoverskudd; beta-talassemi |
 | Predikert ny indikasjon | HIV-infeksjon |
-| TxGNN-prediksjonsscore | 99,40 % |
+| TxGNN-prediksjonsscore | 0.9940 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun trukne (avregistrerte) godkjenninger |
-| Antall godkjenninger | 3 (alle trukket) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -90,7 +90,7 @@ Foreløpig ingen relaterte kliniske studier registrert.
 | EMEA/H/C/000670 | Exjade | – | Beta-talassemi; jernoverskudd |
 | EMEA/H/C/005156 | Deferasirox Accord | – | Jernoverskudd; beta-talassemi |
 
-Alle tre godkjenninger er trukket.
+Tre av tre godkjenninger er gyldige, og legemidlet er markedsført i Norge.
 
 ---
 
@@ -114,7 +114,7 @@ Prediksjonen har høy modellscore, men ingen kliniske studier, og den eneste mek
 - Data om virkningsmekanisme (MOA)
 - Pakningsvedlegg med advarsler og kontraindikasjoner fra legemiddelmyndighetene
 - Prekliniske data (celle-/dyremodeller) som avklarer om jernchelering hemmer eller fremmer HIV-replikasjon
-- Vurdering av regulatorisk status, siden alle norske/EU-godkjenninger er trukket
+- Vurdering av regulatorisk status, siden legemidlet er markedsført med 3 gyldige godkjenninger av 3
 - Sikkerhetsplan for nyre-, lever- og blodtallsovervåking samt interaksjoner, særlig med kortikosteroider og NSAID
 ## Ansvarsfraskrivelse
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Acetylsalicylic Acid
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 17
-evidence_level: L3
-indication_count: 9
-last_modified_at: 2026-10-15
-description: "Acetylsalicylic Acid: predikert ny indikasjon Migrene med hjernestammeaura (evidensnivå L3). Opprinnelig indikasjon: Akutt koronarsyndrom"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "ACETYLSALICYLIC ACID"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombotic disease", "thrombophilia"]
+last_modified_at: 2026-10-27
+description: "Acetylsalicylic Acid: predikert ny indikasjon atrofoderma vermiculata (atrophoderma vermiculata) (evidensnivå L5). Opprinnelig indikasjon: Acute Coronary Syndrome"
 ---
 
 # Acetylsalicylic Acid
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **9** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,107 +33,70 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-## Acetylsalisylsyre: Fra akutt koronarsyndrom og hjerteinfarkt til migrene med hjernestammeaura
+## Acetylsalisylsyre: blodplatehemmer (COX-hemmer) → atrofoderma vermiculata (atrophoderma vermiculata)
 {: .text-alpha }
 
 ## Oppsummering
 
-Acetylsalisylsyre (aspirin) er en blodplatehemmer som i Norge er godkjent som del av kombinasjonspreparater mot akutt koronarsyndrom og hjerteinfarkt.
-TxGNN-modellen forutsier at legemidlet kan ha effekt ved **migrene med hjernestammeaura**, men det finnes **ingen registrerte kliniske studier** og **20 publikasjoner** i datagrunnlaget. Ingen av dem gjelder denne undertypen spesifikt, så støtten er svak.
-
----
+Acetylsalisylsyre (aspirin) er en blodplatehemmer og COX-hemmer. Den TxGNN-modellen spår at legemidlet kan ha effekt ved **atrofoderma vermiculata (atrophoderma vermiculata)**, men det finnes **ingen kliniske studier og ingen publikasjoner** som støtter denne retningen. Prediksjonen er ren modellberegning.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Akutt koronarsyndrom; hjerteinfarkt |
-| Predikert ny indikasjon | Migrene med hjernestammeaura |
-| TxGNN-prediksjonsscore | 99,94 % |
-| Evidensnivå | L3 |
-| Markedsstatus i Norge | Kun avregistrerte (opphørte) tillatelser |
-| Antall tillatelser | 3 (alle avregistrert) |
-| Anbefalt beslutning | Hold |
+| Opprinnelig indikasjon | Acute Coronary Syndrome;Myocardial Infarction |
+| Foreslått ny indikasjon | atrofoderma vermiculata (atrophoderma vermiculata) |
+| TxGNN-prediksjonsscore | 0,9959 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
+| Anbefalt beslutning | Avvent (Hold) |
 
----
+## Hvorfor kan denne prediksjonen være rimelig?
 
-## Hvorfor er denne prediksjonen rimelig?
+Data om virkningsmekanisme er ikke tilgjengelig i de sammenstilte dataene. Aspirin hemmer irreversibelt COX-1 i blodplater, noe som reduserer tromboksan A2 og blodplateaggregasjon. Dette er grunnlaget for bruken i hjerte- og karsykdom.
 
-Data om virkningsmekanisme (MOA) var ikke tilgjengelig i datagrunnlaget. Ut fra kjent informasjon hemmer aspirin COX-1 og dermed blodplateaggregasjon, og kan påvirke prostaglandinmediert smertesignalering i trigeminus- og hjernestammebaner.
+Atrofoderma vermiculata er en sjelden follikulær atrofisk hudtilstand. Det er ikke identifisert noen plausibel mekanistisk kobling mellom aspirins COX-hemming eller antiplatevirkning og denne tilstanden. Den høye scoren bør derfor tolkes som en beregnet prediksjon uten biologisk eller klinisk underbygging.
 
-Blodplateaktivering og mikroemboli (for eksempel via åpen foramen ovale) er foreslått som mekanismer ved migrene med aura. En retrospektiv studie rapporterer nytte av lavdose aspirin som forebygging av migrene med aura, og en studie fra 1992 viser at aspirin aktiverer antinociceptiv hjernestammerefleksaktivitet hos hodepinepasienter.
+## Klinisk studiedokumentasjon
 
-Det ble imidlertid ikke funnet evidens spesifikt for hjernestammeaura-undertypen, og det finnes lite støtte for antitrombotika som migreneforebygging generelt. Prediksjonen bør derfor sees som et forskningsspørsmål, ikke en etablert indikasjon.
+For tiden er ingen relevante kliniske studier registrert.
 
----
+## Litteraturdokumentasjon
 
-## Klinisk studieevidens
+For tiden er ingen relevant litteratur tilgjengelig.
 
-Foreløpig ingen relaterte kliniske studier registrert.
+## Informasjon om det norske markedet
 
----
-
-## Litteraturevidens
-
-Et utvalg av de mest relevante publikasjonene (systematisk oversikt og kohortstudie prioritert):
-
-| PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|------|---------|
-| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Systematisk oversikt | Headache | Undersøker om antitrombotika har en rolle i migreneforebygging |
-| [25729594](https://pubmed.ncbi.nlm.nih.gov/25729594/) | 2014 | Retrospektiv kohort | Current Health Sciences Journal | Lavdose aspirin vurdert som forebygging av migrene med aura hos 203 pasienter (95 behandlet med aspirin) |
-| [10448545](https://pubmed.ncbi.nlm.nih.gov/10448545/) | 1999 | Randomisert, dobbeltblindet | Cephalalgia | Intravenøst acetylsalisylsyrelysinat sammenlignet med subkutan sumatriptan og placebo ved akutt migrene (278 pasienter) |
-| [9606899](https://pubmed.ncbi.nlm.nih.gov/9606899/) | 1998 | Klinisk studie | Zh Nevrol Psikhiatr Im S S Korsakova | Forebyggende aspirin (1000, 500 og 100 mg) hos 105 pasienter med migrene uten aura |
-| [1589237](https://pubmed.ncbi.nlm.nih.gov/1589237/) | 1992 | Mekanistisk/klinisk fysiologi | Pain | Aspirin aktiverer antinociceptiv hjernestammerefleks hos migrene-, spenningshodepine- og friske personer |
-| [15265054](https://pubmed.ncbi.nlm.nih.gov/15265054/) | 2004 | Mekanistisk studie | Cephalalgia | Sammenligner antinociseptive mekanismer for i.v. aspirin og zolmitriptan under og utenfor migreneanfall |
-| [19708964](https://pubmed.ncbi.nlm.nih.gov/19708964/) | 2009 | Retningslinje | Eur J Neurol | Revidert EFNS-retningslinje for legemiddelbehandling av migrene |
-| [16796580](https://pubmed.ncbi.nlm.nih.gov/16796580/) | 2006 | Retningslinje | Eur J Neurol | EFNS-retningslinje for legemiddelbehandling av migrene |
-| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | RCT (lukking av PFO, ikke aspirin) | Eur Heart J | Perkutan lukking av åpen foramen ovale ved migrene med aura (PRIMA) |
-| [7907982](https://pubmed.ncbi.nlm.nih.gov/7907982/) | 1994 | Dyrestudie | Eur Neurol | Antimigrenemidler endret ikke utbredelsen av kortikal spredt depresjon hos katt |
-
----
-
-## Markedsinformasjon for Norge
-
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/001143 | DuoPlavin | Ikke oppgitt | Akutt koronarsyndrom; hjerteinfarkt |
-| EMEA/H/C/001144 | Clopidogrel/Acetylsalicylic acid Zentiva (tidligere DuoCover) | Ikke oppgitt | Akutt koronarsyndrom; hjerteinfarkt |
-| EMEA/H/C/004996 | Clopidogrel / Acetylsalicylic acid Viatris (tidligere Clopidogrel / Acetylsalicylic acid Mylan) | Ikke oppgitt | Akutt koronarsyndrom; hjerteinfarkt |
+| EMEA/H/C/001143 | DuoPlavin | – | Ikke gjengitt her |
+| EMEA/H/C/001144 | Clopidogrel/Acetylsalicylic acid Zentiva (tidligere DuoCover) | – | Ikke gjengitt her |
+| EMEA/H/C/004996 | Clopidogrel / Acetylsalicylic acid Viatris (tidligere Clopidogrel / Acetylsalicylic acid Mylan) | – | Ikke gjengitt her |
 
-Alle tre tillatelsene er avregistrert.
-
----
+Merk: Alle tre produktene er kombinasjonspreparater med klopidogrel, og de beskriver ikke hvordan enkeltstoffet acetylsalisylsyre er godkjent.
 
 ## Sikkerhetsvurderinger
 
-Det foreligger ingen advarsler eller kontraindikasjoner i datagrunnlaget; se preparatomtalen (SPC) for sikkerhetsinformasjon.
+**Legemiddelinteraksjoner** (utdrag fra 100 registrerte interaksjoner; kun et utvalg vises):
+- **Alvorlig (Major):** acalabrutinib, acetazolamid, ketorolac, trastuzumab emtansin, ibuprofen, fondaparinux
+- **Moderat:** abciximab, nifedipin, hydrokortison, etanol, alendronsyre, fluvoksamin, fosinopril, gemifloksacin
+- **Mindre (Minor):** acebutolol, koffein, rabeprazol, fosfenytoin, furosemid
 
-**Legemiddelinteraksjoner** (100 registrert, utvalg fra de 20 første):
-- **Alvorlige (Major):** akalabrutinib, acetazolamid, ketorolak, trastuzumab emtansin, ibuprofen, fondaparinuks
-- **Moderate:** abciksimab, nifedipin, hydrokortison, etanol, alendronsyre, fluvoksamin, fosinopril, gemifloksacin
-- **Milde (Minor):** acebutolol, koffein, rabeprazol, fosfenytoin, furosemid
-
-Interaksjoner med andre blødningsfremmende legemidler (antikoagulantia, andre NSAIDs) er særlig viktige.
-
----
+Generelt gir aspirin økt blødningsrisiko, særlig sammen med antikoagulantia og andre NSAID. For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ## Konklusjon og neste steg
 
-**Beslutning: Hold**
+**Beslutning: Avvent (Hold)**
 
 **Begrunnelse:**
-Evidensen for migrene med hjernestammeaura består av én retrospektiv studie av migrene med aura generelt, noen mekanistiske studier og en systematisk oversikt med begrenset støtte. Ingen kliniske studier er registrert, og ingen evidens gjelder undertypen spesifikt. I tillegg er alle norske tillatelser avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
+- Prediksjonen bygger kun på modellberegning. Det finnes ingen studier, ingen litteratur og ingen plausibel mekanistisk kobling til atrofoderma vermiculata.
 
-**For å gå videre trengs følgende:**
-- Hente advarsler og kontraindikasjoner fra preparatomtalen (blokkerende datamangel)
-- Hente data om virkningsmekanisme (MOA) fra DrugBank
-- Prospektive, kontrollerte studier av aspirin ved migrene med aura, helst med hjernestammeaura-undertypen
-- Vurdere nytte-risiko for blødning ved langvarig forebyggende bruk
-- Avklare tilgjengelige doseringsformer og markedsstatus i Norge
-
----
-
-*Merknad: Øvrige TxGNN-prediksjoner (blant annet trombotisk sykdom, evidensnivå L2, og trombofili, L3) ligger utenfor denne rapportens hovedfokus. Evidensen for trombotisk sykdom ligner mer på en etablert bruk enn ekte repurposing.*
+**For å gå videre kreves:**
+- En biologisk begrunnelse for hvorfor COX-hemming eller blodplatehemming skulle påvirke tilstanden
+- Prekliniske eller kliniske data (f.eks. kasuistikker eller tidlige studier) som direkte omhandler sykdommen
+- Data om virkningsmekanisme og preparatomtalens advarsler og kontraindikasjoner
+- En vurdering av nytte mot blødningsrisiko for en sjelden, ikke-livstruende hudtilstand
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

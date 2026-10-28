@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rimegepant
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 360
-evidence_level: L3
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Rimegepant: predikert ny indikasjon Migrene med hjernestammeaura (evidensnivå L3). Opprinnelig indikasjon: Migrene (Migraine Disorders)"
 monitor_inn: "RIMEGEPANT"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+description: "Rimegepant: predikert ny indikasjon Atrophoderma vermiculata (evidensnivå L5). Opprinnelig indikasjon: Migraine Disorders"
 ---
 
 # Rimegepant
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **6** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-## Rimegepant: Fra migrene til migrene med hjernestammeaura
+## Rimegepant: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Oppsummering i en setning
@@ -48,11 +48,12 @@ Foreløpig finnes **ingen registrerte kliniske studier** for denne undergruppen,
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Migrene (Migraine Disorders) |
-| Predikert ny indikasjon | Migrene med hjernestammeaura |
-| TxGNN-prediksjonsscore | 99,94 % |
-| Evidensnivå | L3 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Opprinnelig indikasjon | Migraine Disorders |
+| Predikert ny indikasjon | Atrophoderma vermiculata |
+| TxGNN-prediksjonsscore | 0.9976 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold (tilbakeholdes) |
 
@@ -99,7 +100,7 @@ Utvalg av de mest relevante publikasjonene (prioritert etter studiedesign). Inge
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/005725 | Vydura | Ikke oppgitt | Migrene (status: avregistrert) |
+| EMEA/H/C/005725 | Vydura | Ikke oppgitt | Migrene (status: godkjent) |
 
 ---
 
@@ -121,7 +122,7 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon, inkludert advarsler og kont
 **Beslutning: Hold (tilbakeholdes)**
 
 **Begrunnelse:**
-Rimegepant har dokumentert effekt ved migrene generelt, og undertypen hjernestammeaura er biologisk plausibel. Det finnes imidlertid ingen kliniske studier eller litteratur som spesifikt undersøker denne undergruppen. Produktet har dessuten ingen gyldig markedsføringstillatelse i Norge (kun én avregistrert).
+Rimegepant har dokumentert effekt ved migrene generelt, og undertypen hjernestammeaura er biologisk plausibel. Det finnes imidlertid ingen kliniske studier eller litteratur som spesifikt undersøker denne undergruppen.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtalens advarsler og kontraindikasjoner (kritisk datamangel for sikkerhetsscreening)

@@ -48,10 +48,10 @@ Insulin lispro er et hurtigvirkende insulinanalog som opprinnelig brukes til beh
 |------|------|
 | Opprinnelig indikasjon | Diabetes mellitus |
 | Predikert ny indikasjon | Autoimmun oophoritt |
-| TxGNN-prediksjonsscore | 99,78 % |
+| TxGNN-prediksjonsscore | 0,9978 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun tilbakekalte/avregistrerte godkjenninger (ikke markedsført) |
-| Antall godkjenninger | 4 (alle avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 4 av 4) |
+| Antall godkjenninger | 4 (gyldige: 4) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -91,7 +91,7 @@ For den prioriterte prediksjonen (autoimmun oophoritt) foreligger det for tiden 
 | EMEA/H/C/000393 | Liprolog | – | Diabetes mellitus |
 | EMEA/H/C/004303 | Insulin lispro Sanofi | – | Diabetes mellitus |
 
-Alle fire godkjenningene er avregistrert, og det finnes ingen gyldige godkjenninger.
+Alle fire godkjenningene er gyldige, og legemidlet er markedsført.
 
 ---
 
@@ -114,7 +114,7 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen om autoimmun oophoritt bygger kun på modellscore (L5), uten kliniske studier, litteratur eller en klar mekanistisk kobling. Ingen av de øvrige predikerte indikasjonene representerer reell repurposing, da de enten er standard diabetesbehandling eller knyttet til bivirkninger. I tillegg har legemidlet ingen gyldige godkjenninger i Norge.
+Prediksjonen om autoimmun oophoritt bygger kun på modellscore (L5), uten kliniske studier, litteratur eller en klar mekanistisk kobling. Ingen av de øvrige predikerte indikasjonene representerer reell repurposing, da de enten er standard diabetesbehandling eller knyttet til bivirkninger. I tillegg er legemidlet markedsført i Norge med fire gyldige godkjenninger.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA)

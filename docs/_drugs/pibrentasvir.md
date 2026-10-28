@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Pibrentasvir
-parent: Kun modellprediksjon (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 326
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Pibrentasvir: predikert ny indikasjon Hepatitt B-virusinfeksjon (evidensnivå L5). Opprinnelig indikasjon: Kronisk hepatitt C"
@@ -14,7 +14,7 @@ predicted_indications: ["hepatitis B virus infection", "HIV infectious disease",
 # Pibrentasvir
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan være virksomt mot **hepatitt B-viru
 |------|------|
 | Opprinnelig indikasjon | Kronisk hepatitt C |
 | Predikert ny indikasjon | Hepatitt B-virusinfeksjon |
-| TxGNN-prediksjonsscore | 99,84 % |
+| TxGNN-prediksjonsscore | 0,9984 |
 | Evidensnivå | L4 (ifølge dataene; i praksis ingen HBV-spesifikk evidens, nærmere L5) |
-| Status på det norske markedet | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -61,7 +62,7 @@ TxGNN-modellen predikerer at legemidlet kan være virksomt mot **hepatitt B-viru
 
 Detaljerte data om virkningsmekanisme er ikke tilgjengelige for dette legemidlet. Basert på kjent informasjon er pibrentasvir en hemmer av HCV NS5A-proteinet, og effekten er godt dokumentert ved hepatitt C.
 
-Hepatitt B og hepatitt C er begge virusinfeksjoner i leveren, og det er sannsynligvis dette fellestrekket i kunnskapsgrafen som gir den høye scoren. Mekanistisk er koblingen svak: HBV har ikke noe NS5A-protein og har en annen replikasjonsstrategi (cccDNA og revers transkriptase). Det finnes derfor ingen etablert direkte mekanistisk forbindelse.
+Hepatitt B og hepatitt C er begge virusinfeksjoner i leveren. Scoren kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Mekanistisk er koblingen svak: HBV har ikke noe NS5A-protein og har en annen replikasjonsstrategi (cccDNA og revers transkriptase). Det finnes derfor ingen etablert direkte mekanistisk forbindelse.
 
 Relevansen er i praksis begrenset til håndtering av HBV/HCV-koinfeksjon, der HCV behandles og HBV-reaktivering må overvåkes. Den øvrige litteraturen gjelder utelukkende HCV.
 
@@ -96,7 +97,7 @@ Ingen av publikasjonene viser at pibrentasvir har effekt mot HBV.
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004430 | Maviret | Ikke oppgitt | Kronisk hepatitt C (status: avregistrert) |
+| EMEA/H/C/004430 | Maviret | Ikke oppgitt | Kronisk hepatitt C (status: godkjent) |
 
 ---
 
@@ -111,7 +112,7 @@ Se preparatomtalen for sikkerhetsinformasjon. Det er ikke funnet registrerte leg
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den høye TxGNN-scoren (99,84 %) mangler støtte i kliniske data, litteratur og en plausibel mekanisme. HBV har ingen NS5A-analog, og all tilgjengelig dokumentasjon gjelder HCV. Legemidlet har dessuten ingen gyldig markedsføringstillatelse i Norge.
+Den høye TxGNN-scoren (0,9984) mangler støtte i kliniske data, litteratur og en plausibel mekanisme. HBV har ingen NS5A-analog, og all tilgjengelig dokumentasjon gjelder HCV. Legemidlet er markedsført i Norge, med 1 gyldig markedsføringstillatelse av 1.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
@@ -122,7 +123,7 @@ Den høye TxGNN-scoren (99,84 %) mangler støtte i kliniske data, litteratur og 
 
 ---
 
-*Merknad om øvrige prediksjoner: HIV (score 99,80 %), hepatitt E, hepatitt A, virushepatitt hos dyr, omsk hemorragisk feber, Kyasanur-skogsykdom, SIV, felint ervervet immunsviktsyndrom og en sjelden nevroutviklingsforstyrrelse har alle evidensnivå L4–L5 og anbefalingen «Hold». Studiene som er knyttet til HIV og hepatitt A gjelder HCV-behandling, ikke de predikerte sykdommene, og utgjør derfor ikke evidens for disse indikasjonene.*
+*Merknad om øvrige prediksjoner: HIV (score 0,9980), hepatitt E, hepatitt A, virushepatitt hos dyr, omsk hemorragisk feber, Kyasanur-skogsykdom, SIV, felint ervervet immunsviktsyndrom og en sjelden nevroutviklingsforstyrrelse har alle evidensnivå L4–L5 og anbefalingen «Hold». Studiene som er knyttet til HIV og hepatitt A gjelder HCV-behandling, ikke de predikerte sykdommene, og utgjør derfor ikke evidens for disse indikasjonene.*
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

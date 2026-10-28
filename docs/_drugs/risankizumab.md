@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at det kan ha effekt ved **dermatitt**. Evidensen best
 |------|------|
 | Opprinnelig indikasjon | Psoriasis; psoriasisartritt; ulcerøs kolitt; Crohns sykdom |
 | Predikert ny indikasjon | Dermatitt |
-| TxGNN-prediksjonsscore | 99,98 % |
+| TxGNN-prediksjonsscore | 0,9998 |
 | Evidensnivå | L2 |
-| Markedsstatus i Norge | Kun annullert godkjenning |
-| Antall godkjenninger | 1 (annullert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold (avvent) |
 
 ---
@@ -97,7 +97,7 @@ Det finnes også rapporter om paradoksal eksem ved IL-23- og IL-17-hemmere (inkl
 
 | Godkjenningsnummer | Produktnavn | Doseform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004759 | Skyrizi | Ikke oppgitt | Psoriasis; psoriasisartritt; ulcerøs kolitt; Crohns sykdom (status: annullert) |
+| EMEA/H/C/004759 | Skyrizi | Ikke oppgitt | Psoriasis; psoriasisartritt; ulcerøs kolitt; Crohns sykdom (status: godkjent) |
 
 ---
 
@@ -115,7 +115,7 @@ For advarsler og kontraindikasjoner, se preparatomtalen (SPC), da disse dataene 
 **Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Den eneste fullførte RCT-en (fase 2, atopisk dermatitt) viste begrenset effekt, og IL-23-blokade er mekanistisk dårlig tilpasset Th2-drevet sykdom. Dermatitt omfatter dessuten mange undertyper, og eksem er samtidig rapportert som en paradoksal bivirkning. Evidensnivået er L2, og risankizumab har ingen gyldig godkjenning i Norge for øyeblikket.
+Den eneste fullførte RCT-en (fase 2, atopisk dermatitt) viste begrenset effekt, og IL-23-blokade er mekanistisk dårlig tilpasset Th2-drevet sykdom. Dermatitt omfatter dessuten mange undertyper, og eksem er samtidig rapportert som en paradoksal bivirkning. Evidensnivået er L2, og risankizumab er markedsført i Norge med 1 gyldig godkjenning (av 1).
 
 **For å gå videre kreves følgende:**
 - Detaljerte data om virkningsmekanisme (MOA)

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Teriparatide
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 413
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Teriparatide: predikert ny indikasjon Graviditetsassosiert osteoporose (valgt ut fra evidensstyrke (evidensnivå L3). Opprinnelig indikasjon: Osteoporose"
 monitor_inn: "TERIPARATIDE"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
+description: "Teriparatide: predikert ny indikasjon Duodenal ulcer (disease) (evidensnivå L5). Opprinnelig indikasjon: Osteoporosis"
 ---
 
 # Teriparatide
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Teriparatid: Fra osteoporose til graviditetsassosiert osteoporose
+## Teriparatide: Duodenal ulcer (disease)
 {: .text-alpha }
 
 ## Oppsummering
@@ -48,12 +48,12 @@ Her finnes **ingen registrerte kliniske studier**, men **20 publikasjoner** (hov
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Osteoporose |
-| Predikert ny indikasjon | Graviditetsassosiert osteoporose (valgt ut fra evidensstyrke; den høyest rangerte prediksjonen, duodenalsår, har ingen evidens) |
-| TxGNN-prediksjonsscore | 99,55 % (graviditetsassosiert osteoporose); 99,86 % for høyest rangerte prediksjon (duodenalsår) |
-| Evidensnivå | L3 |
-| Markedsstatus i Norge | Kun avregistrerte godkjenninger |
-| Antall godkjenninger | 7 (alle avregistrert) |
+| Opprinnelig indikasjon | Osteoporosis; Osteoporosis;Osteoporosis, Postmenopausal |
+| Predikert ny indikasjon | Duodenal ulcer (disease) |
+| TxGNN-prediksjonsscore | 0.9986 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 7 av 7) |
+| Antall godkjenninger | 7 (gyldige: 7) |
 | Anbefalt beslutning | Hold (forskningsspørsmål; videre vurdering forutsetter ytterligere data) |
 
 ---
@@ -99,7 +99,6 @@ Merk: Studiedesign er delvis utledet fra titler og sammendrag og bør verifisere
 
 ## Markedsinformasjon for Norge
 
-Alle syv godkjenninger er avregistrert (ingen gyldige).
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -131,14 +130,13 @@ Legemiddelomtale med advarsler og kontraindikasjoner var ikke tilgjengelig i dat
 **Beslutning: Hold** (forskningsspørsmål for graviditetsassosiert osteoporose)
 
 **Begrunnelse:**
-Evidensen for graviditetsassosiert osteoporose er på nivå L3 (observasjons- og retrospektive studier, oversikter), uten RCT og uten registrerte kliniske studier. Alle godkjenninger i Norge er avregistrert, og sikkerhetsdata fra preparatomtalen mangler. De øvrige prediksjonene har kun beregningsmessig støtte (L5).
+Evidensen for graviditetsassosiert osteoporose er på nivå L3 (observasjons- og retrospektive studier, oversikter), uten RCT og uten registrerte kliniske studier. De øvrige prediksjonene har kun beregningsmessig støtte (L5).
 
 **For å gå videre kreves:**
 - Innhenting og gjennomgang av preparatomtale (advarsler og kontraindikasjoner), som i dag blokkerer sikkerhetsscreening
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Verifisering av studiedesign mot fulltekst for de viktigste PLO-publikasjonene
 - Kontrollerte eller prospektive studier ved PLO, spesielt om tidspunkt for oppstart av behandling
-- Avklaring av tilgjengelighet i Norge, siden alle godkjenninger er avregistrert
 - Spesiell sikkerhetsvurdering ved bruk under graviditet og amming
 ## Ansvarsfraskrivelse
 

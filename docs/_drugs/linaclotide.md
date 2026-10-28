@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at det kan ha effekt ved **cauda equina-syndrom**, men
 |------|------|
 | Opprinnelig indikasjon | Irritabelt tarmsyndrom |
 | Predikert ny indikasjon | Cauda equina-syndrom |
-| TxGNN-prediksjonsscore | 99,96 % |
+| TxGNN-prediksjonsscore | 0,9996 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (trukket tilbake) |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -67,8 +67,8 @@ For fullstendighet predikerer modellen også andre indikasjoner, alle med eviden
 
 | Rang | Predikert indikasjon | TxGNN-score | Merknad |
 |------|------|------|------|
-| 2 | Nevrogen blære (term merket som foreldet i ontologien) | 99,89 % | Begrepet bør kartlegges på nytt før videre vurdering. Tarmrestriktiv virkning gjør effekt på blærefunksjon lite sannsynlig. |
-| 3 | Søvnløshet | 99,51 % | Systemisk eksponering er minimal, så en direkte effekt på sentralnervesystemet er lite plausibel. En eventuell bedring ville være indirekte via lindring av tarmsymptomer. |
+| 2 | Nevrogen blære (term merket som foreldet i ontologien) | 0,9989 | Begrepet bør kartlegges på nytt før videre vurdering. Tarmrestriktiv virkning gjør effekt på blærefunksjon lite sannsynlig. |
+| 3 | Søvnløshet | 0,9951 | Systemisk eksponering er minimal, så en direkte effekt på sentralnervesystemet er lite plausibel. En eventuell bedring ville være indirekte via lindring av tarmsymptomer. |
 
 ---
 
@@ -90,7 +90,7 @@ Foreløpig er ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/002490 | Constella | – | Irritabelt tarmsyndrom |
 
-Denne godkjenningen (innehaver: AbbVie Deutschland GmbH & Co. KG) er avregistrert. Det finnes ingen gyldige godkjenninger.
+Legemidlet er markedsført, med 1 gyldig godkjenning av 1.
 
 ---
 

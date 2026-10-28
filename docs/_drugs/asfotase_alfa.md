@@ -6,7 +6,7 @@ nav_order: 40
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Asfotase Alfa: predikert ny indikasjon Mitokondriell oksidativ fosforyleringssykdom på grunn av kjerne-DNA-a… (evidensnivå L5). Opprinnelig indikasjon: Hypofosfatasi"
+description: "Asfotase Alfa: predikert ny indikasjon Mitokondriell oksidativ fosforyleringssykdom på grunn av kjerne-DNA-avvik (evidensnivå L5). Opprinnelig indikasjon: Hypofosfatasi"
 monitor_inn: "ASFOTASE ALFA"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Steel syndrome", "exocrine pancreatic insufficiency", "Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "familial apolipoprotein C-II deficiency", "esophageal varices with bleeding", "esophageal varices without bleeding", "cystinosis"]
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Asfotase alfa: Fra hypofosfatasi til mitokondriell oksidativ fosforyleringssykdom (kjerne-DNA-avvik)
+## Asfotase alfa: Fra hypofosfatasi til mitokondriell oksidativ fosforyleringssykdom på grunn av kjerne-DNA-avvik
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -50,9 +50,10 @@ men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** 
 |------|------|
 | Opprinnelig indikasjon | Hypofosfatasi |
 | Predikert ny indikasjon | Mitokondriell oksidativ fosforyleringssykdom på grunn av kjerne-DNA-avvik |
-| TxGNN-prediksjonsscore | 99,95 % |
+| TxGNN-prediksjonsscore | 0.9995 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -72,15 +73,15 @@ Ingen av de ni andre toppkandidatene har kliniske studier eller litteratur. Vurd
 
 | Rang | Sykdom | TxGNN-score | Vurdering |
 |---|---|---|---|
-| 2 | Steel syndrom | 99,91 % | Kun indirekte kobling via skjelettfenotyper; ingen kjent involvering av TNSALP/pyrofosfat-veien |
-| 3 | Eksokrin pankreasinsuffisiens | 99,89 % | Ingen plausibel mekanisme; behandles med oral enzymerstatning |
-| 4 | Scheie syndrom | 99,85 % | Mangel på alfa-L-iduronidase; asfotase alfa virker ikke på dette substratet |
-| 5 | Hurler syndrom | 99,75 % | Annet enzymmål; etablert behandling er laronidase og stamcelletransplantasjon |
-| 6 | Lysosomal lagringssykdom med skjelettinvolvering | 99,73 % | Bred, heterogen kategori; ingen evidens |
-| 7 | Familiær apolipoprotein C-II-mangel | 99,71 % | Ingen rolle i lipidmetabolismen |
-| 8 | Øsofagusvaricer med blødning | 99,68 % | Skyldes portal hypertensjon; sannsynlig artefakt i kunnskapsgrafen |
-| 9 | Øsofagusvaricer uten blødning | 99,68 % | Samme begrunnelse som over |
-| 10 | Cystinose | 99,65 % | Defekt cystintransport; svak overlapp via nyrerelatert beinsykdom |
+| 2 | Steel syndrom | 0,9991 | Kun indirekte kobling via skjelettfenotyper; ingen kjent involvering av TNSALP/pyrofosfat-veien |
+| 3 | Eksokrin pankreasinsuffisiens | 0,9989 | Ingen plausibel mekanisme; behandles med oral enzymerstatning |
+| 4 | Scheie syndrom | 0,9985 | Mangel på alfa-L-iduronidase; asfotase alfa virker ikke på dette substratet |
+| 5 | Hurler syndrom | 0,9975 | Annet enzymmål; etablert behandling er laronidase og stamcelletransplantasjon |
+| 6 | Lysosomal lagringssykdom med skjelettinvolvering | 0,9973 | Bred, heterogen kategori; ingen evidens |
+| 7 | Familiær apolipoprotein C-II-mangel | 0,9971 | Ingen rolle i lipidmetabolismen |
+| 8 | Øsofagusvaricer med blødning | 0,9968 | Skyldes portal hypertensjon; scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens |
+| 9 | Øsofagusvaricer uten blødning | 0,9968 | Samme begrunnelse som over |
+| 10 | Cystinose | 0,9965 | Defekt cystintransport; svak overlapp via nyrerelatert beinsykdom |
 
 ---
 
@@ -102,7 +103,7 @@ Foreløpig er det ingen relevant litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/003794 | Strensiq | Ikke oppgitt | Hypofosfatasi |
 
-Tillatelsen er registrert som avregistrert (innehaver: Alexion Europe SAS). Det finnes ingen gyldige tillatelser.
+Tillatelsen er registrert som avregistrert (innehaver: Alexion Europe SAS). Det finnes 1 gyldig tillatelse av 1.
 
 ---
 

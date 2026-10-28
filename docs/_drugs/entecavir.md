@@ -4,7 +4,7 @@ title: Entecavir
 parent: Moderat evidens (L3-L4)
 nav_order: 153
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Entecavir: predikert ny indikasjon Kronisk hepatitt C-virusinfeksjon (evidensnivå L3). Opprinnelig indikasjon: Hepatitt B (kronisk hepatitt B)"
 monitor_inn: "ENTECAVIR"
@@ -14,7 +14,7 @@ predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious d
 # Entecavir
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L3** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,10 @@ Dette støttes foreløpig bare indirekte av **2 kliniske studier** og **20 publi
 |------|------|
 | Opprinnelig indikasjon | Hepatitt B (kronisk hepatitt B) |
 | Predikert ny indikasjon | Kronisk hepatitt C-virusinfeksjon |
-| TxGNN-prediksjonsscore | 99,98 % |
+| TxGNN-prediksjonsscore | 0,9998 |
 | Evidensnivå | L3 |
-| Markedsstatus i Norge | Kun annullerte tillatelser |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
 | Antall tillatelser | 3 (alle annullert) |
 | Anbefalt beslutning | Hold (avvent) |
 
@@ -58,7 +59,7 @@ Dette støttes foreløpig bare indirekte av **2 kliniske studier** og **20 publi
 
 Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i datamaterialet som er sammenstilt for denne rapporten. Etter kjent farmakologi er entecavir et guanosin-nukleosidanalog. Det fosforyleres til sin aktive trifosfatform og hemmer HBV-polymerasen (priming, revers transkripsjon og DNA-syntese).
 
-HCV er et RNA-virus som replikerer via NS5B RNA-avhengig RNA-polymerase. Det finnes derfor ingen sannsynlig direkte antiviral mekanisme mellom entecavir og HCV. Den høye TxGNN-scoren gjenspeiler trolig at hepatittvirusene ligger nær hverandre i kunnskapsgrafen, ikke reell HCV-aktivitet.
+HCV er et RNA-virus som replikerer via NS5B RNA-avhengig RNA-polymerase. Det finnes derfor ingen sannsynlig direkte antiviral mekanisme mellom entecavir og HCV. Den høye TxGNN-scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens for reell HCV-aktivitet.
 
 Studiene som er knyttet til prediksjonen gjelder pasienter med HCV/HBV-samtidig infeksjon. Der virker entecavir på HBV-komponenten, for å forebygge HBV-reaktivering under behandling med direktevirkende antivirale midler (DAA) mot HCV. Det er altså en nyttig støttebehandling ved samtidig infeksjon, men ikke en behandling av hepatitt C.
 

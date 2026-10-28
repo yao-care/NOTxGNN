@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **revmatoid artritt**,
 |------|------|
 | Opprinnelig indikasjon | Leddproteseoperasjon (artroplastikk) og venøs tromboembolisme |
 | Predikert ny indikasjon | Revmatoid artritt |
-| TxGNN-prediksjonsscore | 99,57 % |
+| TxGNN-prediksjonsscore | 0,9957 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
-| Antall godkjenninger | 4 (alle kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 4 av 4) |
+| Antall godkjenninger | 4 (gyldige: 4) |
 | Anbefalt beslutning | Hold |
 
 ---

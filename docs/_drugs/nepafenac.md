@@ -50,9 +50,10 @@ Foreløpig støttes denne retningen av **40 kliniske studier** og **20 publikasj
 |------|------|
 | Opprinnelig indikasjon | Postoperativ smerte; oftalmologiske kirurgiske inngrep |
 | Predikert ny indikasjon | Øyesykdom (eye disease) |
-| TxGNN-prediksjonsscore | 99,85 % |
+| TxGNN-prediksjonsscore | 0,9985 |
 | Evidensnivå | L1 |
-| Markedsstatus i Norge | Kun trukket tilbake (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (trukket tilbake) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
 
@@ -70,15 +71,15 @@ Det er viktig å merke seg at «øyesykdom» er en bred kategori. Den sterkeste 
 
 | Predikert indikasjon | Score | Evidensnivå | Vurdering |
 |------|------|------|------|
-| Optikuspapillitt | 99,84 % | L4 | Hold. Kun dyremodell (kanin) for netthinneødem; ingen direkte evidens ved optisk nevritt |
-| Vitreøs løsning | 99,81 % | L4 | Forskningsspørsmål. Indirekte evidens fra studie ved retinal løsning |
-| Hypotrikose simplex i hodebunnen | 99,84 % | L5 | Hold. Ingen identifiserbar mekanistisk kobling |
-| Seboreisk keratose | 99,83 % | L5 | Hold. Ingen støtte i studier eller litteratur |
-| Von Hippel-anomali | 99,82 % | L5 | Hold. Kun beregningsmessig prediksjon |
-| Medfødt hypotrikose med milia | 99,82 % | L5 | Hold. Ingen plausibel kobling |
-| McPherson-Robertson-Cammarano-syndrom | 99,82 % | L5 | Hold. Kun prediksjon |
-| Lagoftalmus | 99,81 % | L5 | Hold. Risiko for hornhinnesmelting ved NSAID |
-| Vulvar invertert follikulær keratose | 99,81 % | L5 | Hold. Ingen evidens |
+| Optikuspapillitt | 0,9984 | L5 | Hold. Kun dyremodell (kanin) for netthinneødem; ingen direkte evidens ved optisk nevritt |
+| Vitreøs løsning | 0,9981 | L5 | Forskningsspørsmål. Indirekte evidens fra studie ved retinal løsning |
+| Hypotrikose simplex i hodebunnen | 0,9984 | L5 | Hold. Ingen identifiserbar mekanistisk kobling |
+| Seboreisk keratose | 0,9983 | L5 | Hold. Ingen støtte i studier eller litteratur |
+| Von Hippel-anomali | 0,9982 | L5 | Hold. Kun beregningsmessig prediksjon |
+| Medfødt hypotrikose med milia | 0,9982 | L5 | Hold. Ingen plausibel kobling |
+| McPherson-Robertson-Cammarano-syndrom | 0,9982 | L5 | Hold. Kun prediksjon |
+| Lagoftalmus | 0,9981 | L5 | Hold. Risiko for hornhinnesmelting ved NSAID |
+| Vulvar invertert follikulær keratose | 0,9981 | L5 | Hold. Ingen evidens |
 
 ---
 
@@ -122,7 +123,7 @@ Under vises et utvalg av de mest relevante studiene for hovedprediksjonen (øyes
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000818 | Nevanac | Ikke oppgitt | Postoperativ smerte; oftalmologiske kirurgiske inngrep (status: trukket tilbake) |
+| EMEA/H/C/000818 | Nevanac | Ikke oppgitt | Postoperativ smerte; oftalmologiske kirurgiske inngrep (status: godkjent) |
 
 ---
 

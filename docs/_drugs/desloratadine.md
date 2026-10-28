@@ -4,17 +4,17 @@ title: Desloratadine
 parent: Kun modellprediksjon (L5)
 nav_order: 124
 evidence_level: L5
-indication_count: 6
-last_modified_at: 2026-10-15
-description: "Desloratadine: predikert ny indikasjon Kuldeurticaria (evidensnivå L5). Opprinnelig indikasjon: Allergisk rinitt (helårs og sesongbetinget) og urticaria"
+indication_count: 4
 monitor_inn: "DESLORATADINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
+predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
+last_modified_at: 2026-10-27
+description: "Desloratadine: predikert ny indikasjon Nesehulesykdom (nasal cavity disease) (evidensnivå L5). Opprinnelig indikasjon: Rhinitis, Allergic, Perennial"
 ---
 
 # Desloratadine
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,112 +33,73 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-## Desloratadin: Fra allergisk rinitt og urticaria til kuldeurticaria
+## Desloratadin: H1-antihistamin → nesehulesykdom (nasal cavity disease)
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
-Desloratadin er et antihistamin (H1-blokker) som opprinnelig er godkjent for behandling av allergisk rinitt (sesongbetinget og helårs) og urticaria.
-TxGNN-modellen predikerer at legemidlet også kan være effektivt mot **kuldeurticaria**, og dette støttes foreløpig av **2 kliniske studier** og **6 publikasjoner**, hvorav 3 er randomiserte kontrollerte studier.
-
----
+Desloratadin er et antihistamin som blokkerer H1-reseptorer. TxGNN-modellen predikerer at det kan ha effekt ved **nesehulesykdom (nasal cavity disease)**. Det finnes **ingen kliniske studier** og **2 publikasjoner** (begge dyrestudier, ingen direkte på desloratadin ved denne sykdommen) i dataene som er satt sammen for denne rapporten.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Allergisk rinitt (helårs og sesongbetinget) og urticaria |
-| Predikert ny indikasjon | Kuldeurticaria |
-| TxGNN-prediksjonsscore | 99,94 % |
-| Evidensnivå | L1 (se merknad under) |
-| Markedsstatus i Norge | Kun opphevede/trukne tillatelser |
-| Antall tillatelser | 8 (alle opphevet) |
-| Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
-
-*Merknad om evidensnivå:* Den automatiske vurderingen gir L1. Studiene som er funnet er imidlertid små fase 4-studier (30 og 33 pasienter), ikke fase 3-studier. Evidensen er derfor i praksis noe svakere enn et streng L1-nivå, men støttes av flere randomiserte, kontrollerte publikasjoner.
-
----
+| Opprinnelig indikasjon | Rhinitis, Allergic, Perennial;Rhinitis, Allergic, Seasonal;Urticaria; Rhinitis, Allergic, Perennial;Urticaria;Rhinitis, Allergic, Seasonal; Rhinitis, Allergic, Perennial;Rhinitis, Allergic, Seasonal; Rhinitis, Allergic, Seasonal |
+| Predikert ny indikasjon | Nesehulesykdom (nasal cavity disease) |
+| TxGNN-prediksjonsscore | 0,9987 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 8 av 8) |
+| Antall godkjenninger | 8 (gyldige: 8) |
+| Anbefalt beslutning | Hold |
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget for denne rapporten. Basert på kjent informasjon er desloratadin en selektiv perifer H1-reseptor invers agonist.
+Detaljerte data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige. Desloratadin er kjent som en selektiv H1-histaminreseptorantagonist. Histamin er en sentral mediator ved allergiske reaksjoner i nesen, og mekanistisk kan H1-blokkade derfor være relevant for sykdommer i nesehulen.
 
-Kuldeurticaria er en mastcelle-mediert fysisk urticaria der histaminfrigjøring gir kvadler og rødme. H1-blokade rammer dermed sykdommens patofysiologi direkte. Økt dosering (opptil fire ganger standarddose) er en retningslinjeanbefalt strategi ved urticaria som ikke responderer på standarddose.
+«Nesehulesykdom» er en bred og uspesifikk kategori. Den høye scoren gjenspeiler trolig i stor grad overlapp med allerede kjent bruk ved allergisk rhinitt, og ikke nødvendigvis en ny anvendelse. Prediksjonen bør derfor tolkes med forsiktighet.
 
-Legemidlet er allerede godkjent for urticaria, så dette er en utvidelse til en fysisk urticaria-undertype og ikke en helt ny mekanisme.
+De to hentede publikasjonene er dyrestudier som bruker andre midler (hesperidin/tymol, loratadin pluss montelukast). De gir bare indirekte støtte, og ingen av dem studerer desloratadin ved nesehulesykdom som sådan. Evidensnivået settes derfor til L5.
 
----
+## Klinisk studiedokumentasjon
 
-## Evidens fra kliniske studier
-
-| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
-|---------|------|------|------|---------|
-| [NCT01444196](https://clinicaltrials.gov/study/NCT01444196) | Fase 4 | Fullført | 30 | Dobbeltblind dose-eskaleringsstudie (5, 10 og 20 mg) for å finne dosen som hemmer symptomer ved ervervet kuldeurticaria |
-| [NCT00600847](https://clinicaltrials.gov/study/NCT00600847) | Fase 4 | Fullført | 33 | Randomisert, dobbeltblind, placebokontrollert crossover-studie av 5 mg vs. 20 mg desloratadin på eksperimentelt fremkalte urticarialesjoner |
-
----
+For øyeblikket er det ikke registrert relevante kliniske studier.
 
 ## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [19201016](https://pubmed.ncbi.nlm.nih.gov/19201016/) | 2009 | RCT | J Allergy Clin Immunol | Høydose desloratadin ga mindre kvadelvolum og bedre kuldeprovokasjonsterskel enn standarddose ved ervervet kuldeurticaria (randomisert, placebokontrollert crossover) |
-| [22242678](https://pubmed.ncbi.nlm.nih.gov/22242678/) | 2012 | RCT | Br J Dermatol | Dose-eskalering av H1-antihistamin og måling av kritisk temperaturterskel ved kuldeurticaria |
-| [14754651](https://pubmed.ncbi.nlm.nih.gov/14754651/) | 2004 | RCT | J Dermatol Treat | 5 mg desloratadin i 4 dager hemmet kuldeurticaria hos 12 pasienter, testet med isbiter |
-| [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Oversikt | Drugs | Oversikt over årsaker, behandling og fremtidige alternativer ved kronisk urticaria |
-| [19032340](https://pubmed.ncbi.nlm.nih.gov/19032340/) | 2008 | Oversikt | Allergy | Ebastin ved allergisk rinitt og kronisk idiopatisk urticaria (annet legemiddel, indirekte relevans) |
-| [38025339](https://pubmed.ncbi.nlm.nih.gov/38025339/) | 2023 | Kasuistikk | Qatar Med J | Kuldeindusert urticaria etter anafylaksi ved maurbitt |
+| [30488351](https://pubmed.ncbi.nlm.nih.gov/30488351/) | 2019 | Dyrestudie | Eur Arch Otorhinolaryngol | Effekt av hesperidin og tymol i en rottemodell for ovalbumin-indusert allergisk rhinitt |
+| [19769798](https://pubmed.ncbi.nlm.nih.gov/19769798/) | 2009 | Dyrestudie | Am J Rhinol Allergy | Loratadin og montelukast i kombinasjon ga nedsatt tetthet i en kattemodell for nesetetthet; desloratadin ble også undersøkt sammen med pseudoefedrin |
 
----
+## Informasjon om det norske markedet
 
-## Markedsinformasjon for Norge
-
-Alle åtte tillatelser er registrert som opphevet. Per i dag finnes ingen gyldige tillatelser.
-
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+| Lisensnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/002310 | Dasselta | – | Allergisk rinitt (helårs og sesongbetinget), urticaria |
-| EMEA/H/C/000314 | Neoclarityn | – | Allergisk rinitt (helårs og sesongbetinget), urticaria |
-| EMEA/H/C/002435 | Desloratadine Actavis | – | Allergisk rinitt (helårs og sesongbetinget), urticaria |
-| EMEA/H/C/002404 | Desloratadine ratiopharm | – | Allergisk rinitt (helårs og sesongbetinget), urticaria |
-| EMEA/H/C/002419 | Desloratadine Teva | – | Allergisk rinitt (helårs og sesongbetinget) |
-
----
+| EMEA/H/C/002310 | Dasselta | – | Se lisensdata |
+| EMEA/H/C/000314 | Neoclarityn | – | Se lisensdata |
+| EMEA/H/C/002435 | Desloratadine Actavis | – | Se lisensdata |
+| EMEA/H/C/002404 | Desloratadine ratiopharm | – | Se lisensdata |
+| EMEA/H/C/002419 | Desloratadine Teva | – | Se lisensdata |
 
 ## Sikkerhetsvurderinger
 
-- **Mulige kontraindikasjoner (fra kunnskapsgraf, ikke preparatomtale):** Kunnskapsgrafen knytter desloratadin til følgende tilstander: hypertensjon, nyresykdom, leversykdom, galleblæresykdom, diabetes mellitus, diabetisk ketoacidose, benign prostatahyperplasi, koronarsykdom, aterosklerose, trangvinklet glaukom, hyperthyreose (Graves sykdom, tyreotoksikose) og pyoureter. Dette er ikke bekreftet av preparatomtalen og bør verifiseres.
-- **Legemiddelinteraksjoner:** Totalt 100 mulige interaksjoner er registrert, men alvorlighetsgrad er ukjent for dem alle. Eksempler: kalsitriol, fentermin, pantoprazol, doksycyklin, klotrimazol, morfin, metformin, omeprazol, rosiglitazon, lansoprazol, cimetidin, vankomycin, simvastatin, epinefrin, hydrokortison og kaliumklorid.
+**Legemiddelinteraksjoner:** Interaksjonsoppslaget ga 100 treff, men alvorlighetsgrad er ikke klassifisert (ukjent nivå). Eksempler på legemidler i listen: kalsitriol, fentermin, pantoprazol, doksycyklin, klotrimazol, morfin, metformin, omeprazol, rosiglitazon og lansoprazol.
 
-Se preparatomtalen for fullstendig sikkerhetsinformasjon.
-
----
-
-## Andre predikerte indikasjoner (kort)
-
-| Predikert indikasjon | Score | Evidensnivå | Beslutning |
-|------|------|------|------|
-| Sykdom i nesehulen | 99,87 % | L4 | Hold. Overlapper trolig med eksisterende indikasjon; kun dyrestudier. |
-| Akutt laryngofaryngitt | 99,85 % | L5 | Hold. Ingen mekanistisk begrunnelse eller evidens. |
-| Refraktær atopisk dermatitt | 99,75 % | L5 | Hold. Biologisk plausibelt, men begrenset nytte av H1-blokkere. |
-| Atopisk IgE-respons | 99,64 % | L5 | Hold. Et fenotypetrekk, ikke en behandlingsbar sykdom. |
-| Rosacea-konjunktivitt | 99,40 % | L5 | Hold. Begrenset mekanistisk relevans. |
-
----
+Se pakningsvedlegget for fullstendig sikkerhetsinformasjon, inkludert advarsler og kontraindikasjoner.
 
 ## Konklusjon og neste steg
 
-**Beslutning: Proceed with Guardrails (fortsett med forbehold)**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Kuldeurticaria har en klar mekanistisk begrunnelse, to fullførte randomiserte fase 4-studier og flere RCT-er som viser effekt av desloratadin, særlig ved økt dose. Studiene er imidlertid små, og legemidlet har ingen gyldig tillatelse i Norge i dag.
+Prediksjonen er bred og uspesifikk og overlapper trolig med kjent bruk ved allergisk rhinitt. Det finnes ingen kliniske studier, og den eneste litteraturen er dyrestudier som ikke direkte undersøker desloratadin ved denne sykdommen. Evidensnivået er derfor L5.
 
 **For å gå videre kreves følgende:**
-- Gjennomgang av preparatomtale (advarsler og kontraindikasjoner), som mangler i datagrunnlaget
-- Detaljerte data om virkningsmekanisme
-- Avklaring av regulatorisk status, siden alle norske tillatelser er opphevet
-- Sikkerhetsvurdering av høydosebruk (opptil fire ganger standarddose), særlig hos pasienter med tilstandene nevnt over
-- Større studier eller en systematisk oversikt for å bekrefte effekt og optimal dosering
+- Presisering av hvilken konkret nesehulesykdom (utover allergisk rhinitt) som er målet
+- Kliniske studier eller humane data som direkte undersøker desloratadin for denne tilstanden
+- Data om virkningsmekanisme (MOA)
+- Gjennomgang av pakningsvedlegg for advarsler og kontraindikasjoner
+- Klassifisering av alvorlighetsgrad for de rapporterte legemiddelinteraksjonene
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

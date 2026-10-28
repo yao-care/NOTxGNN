@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Natalizumab
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 278
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
-description: "Natalizumab: predikert ny indikasjon Psoriasis (rangert som nr. 3 (evidensnivå L4). Opprinnelig indikasjon: Multippel sklerose (relapserende-remitterende MS)"
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
+description: "Natalizumab: predikert ny indikasjon Bronchitis (evidensnivå L5). Opprinnelig indikasjon: Multiple Sclerosis, Relapsing-Remitting"
 ---
 
 # Natalizumab
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **5** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-## Natalizumab: Fra multippel sklerose til psoriasis
+## Natalizumab: Bronchitis
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -46,15 +46,16 @@ Natalizumab er et monoklonalt antistoff som opprinnelig brukes til behandling av
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Multippel sklerose (relapserende-remitterende MS) |
-| Predikert ny indikasjon | Psoriasis (rangert som nr. 3; se merknad nedenfor) |
-| TxGNN-prediksjonsscore | 99,19 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun avregistrerte/trukkede tillatelser |
+| Opprinnelig indikasjon | Multiple Sclerosis, Relapsing-Remitting;Multiple Sclerosis; Multiple Sclerosis |
+| Predikert ny indikasjon | Bronchitis |
+| TxGNN-prediksjonsscore | 0.9946 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Antall tillatelser | 2 (begge trukket tilbake/kansellert) |
 | Anbefalt beslutning | Hold (avvent) |
 
-**Merknad:** Den høyest rangerte prediksjonen er bronkitt (score 99,46 %, evidensnivå L5, ingen studier eller litteratur). Psoriasis er valgt som hovedfokus her fordi den har mest tilgjengelig litteratur. Øvrige prediksjoner (bronkitt, parapsoriasis, alvorlig ikke-proliferativ diabetisk retinopati og akutt lichenoid pityriasis) har ingen støtte fra kliniske studier og er kort omtalt under konklusjonen.
+**Merknad:** Den høyest rangerte prediksjonen er bronkitt (score 0,9946, evidensnivå L5, ingen studier eller litteratur). Psoriasis er valgt som hovedfokus her fordi den har mest tilgjengelig litteratur. Øvrige prediksjoner (bronkitt, parapsoriasis, alvorlig ikke-proliferativ diabetisk retinopati og akutt lichenoid pityriasis) har ingen støtte fra kliniske studier og er kort omtalt under konklusjonen.
 
 ---
 

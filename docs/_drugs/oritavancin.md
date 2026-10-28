@@ -49,9 +49,10 @@ TxGNN-modellen predikerer at det kan være effektivt mot **Bacteroidaceae-infeks
 |------|------|
 | Opprinnelig indikasjon | Bløtvevsinfeksjoner; bakterielle hudsykdommer |
 | Predikert ny indikasjon | Bacteroidaceae-infeksjon |
-| TxGNN-prediksjonsscore | 99,48 % |
+| TxGNN-prediksjonsscore | 0,9948 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun tilbakekalt/avregistrert (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 |
 | Anbefalt beslutning | Hold |
 
@@ -61,11 +62,11 @@ TxGNN-modellen predikerer at det kan være effektivt mot **Bacteroidaceae-infeks
 
 Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Basert på kjent farmakologi er oritavancin et lipoglykopeptid som hemmer celleveggsyntesen hos grampositive bakterier ved å binde D-Ala-D-Ala (og D-Ala-D-Lac) i peptidoglykanforløpere, og i tillegg forstyrrer membranintegriteten.
 
-Bacteroidaceae (for eksempel *Bacteroides*-arter) er gramnegative anaerobe bakterier med en ytre membran som glykopeptider vanligvis ikke trenger gjennom. Den høye TxGNN-scoren (0,995) har derfor ikke noen plausibel mekanistisk støtte. Prediksjonen gjenspeiler trolig nærhet til andre antibakterielle midler i kunnskapsgrafen snarere enn reell aktivitet.
+Bacteroidaceae (for eksempel *Bacteroides*-arter) er gramnegative anaerobe bakterier med en ytre membran som glykopeptider vanligvis ikke trenger gjennom. Den høye TxGNN-scoren (0,9948) har derfor ikke noen plausibel mekanistisk støtte. Scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 Til sammenligning er også de to neste predikerte indikasjonene mekanistisk problematiske:
-- **Oftalmisk herpes zoster** (score 99,03 %): Forårsakes av et DNA-virus, og oritavancin har ingen kjent antiviral virkning.
-- **Mycoplasma pneumoniae-pneumoni** (score 99,01 %): *Mycoplasma* mangler cellevegg, så celleveggshemmere som oritavancin er iboende uvirksomme.
+- **Oftalmisk herpes zoster** (score 0,9903): Forårsakes av et DNA-virus, og oritavancin har ingen kjent antiviral virkning.
+- **Mycoplasma pneumoniae-pneumoni** (score 0,9901): *Mycoplasma* mangler cellevegg, så celleveggshemmere som oritavancin er iboende uvirksomme.
 
 ---
 
@@ -87,7 +88,7 @@ Foreløpig er ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/003785 | Tenkasi (tidligere Orbactiv) | Ikke oppgitt | Bløtvevsinfeksjoner; bakterielle hudsykdommer |
 
-Tillatelsen har status «kansellert», og det finnes ingen gyldige tillatelser for enkeltstoffpreparater eller kombinasjoner.
+Legemidlet er markedsført i Norge, og 1 av 1 markedsføringstillatelser er gyldig.
 
 ---
 
@@ -109,7 +110,7 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon, som advarsler og kontraindi
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen har kun modellstøtte (L5) uten kliniske studier eller litteratur, og virkningsmekanismen taler imot aktivitet mot gramnegative anaerober som Bacteroidaceae. I tillegg har produktet ingen gyldig markedsføringstillatelse i Norge.
+Prediksjonen har kun modellstøtte (L5) uten kliniske studier eller litteratur, og virkningsmekanismen taler imot aktivitet mot gramnegative anaerober som Bacteroidaceae. Produktet er markedsført i Norge med 1 gyldig markedsføringstillatelse av 1.
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner fra DMP for sikkerhetsscreening

@@ -4,7 +4,7 @@ title: Lorlatinib
 parent: Kun modellprediksjon (L5)
 nav_order: 252
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Lorlatinib: predikert ny indikasjon Gingival fibromatose (evidensnivå L5). Opprinnelig indikasjon: Ikke-småcellet lungekreft (NSCLC)"
 monitor_inn: "LORLATINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Lorlatinib
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Lorlatinib: Fra ikke-småcellet lungekreft til fibromatose i tannkjøttet
+## Lorlatinib: Fra ikke-småcellet lungekreft til gingival fibromatose
 {: .text-alpha }
 
 ## Oppsummering
 
 Lorlatinib er en tredje generasjons ALK/ROS1-tyrosinkinasehemmer, opprinnelig brukt til behandling av **ikke-småcellet lungekreft (NSCLC)**.
-TxGNN-modellen forutsier at legemidlet kan ha effekt på **gingival fibromatose** (tannkjøttfibromatose) med en score på 99,81 %.
+TxGNN-modellen forutsier at legemidlet kan ha effekt på **gingival fibromatose** (tannkjøttfibromatose) med en score på 0,9981.
 Det finnes imidlertid **ingen kliniske studier og ingen publikasjoner** som støtter denne spesifikke prediksjonen. Den er ren modellprediksjon.
 
 ---
@@ -50,9 +50,10 @@ Det finnes imidlertid **ingen kliniske studier og ingen publikasjoner** som stø
 |------|------|
 | Opprinnelig indikasjon | Ikke-småcellet lungekreft (NSCLC) |
 | Predikert ny indikasjon | Gingival fibromatose |
-| TxGNN-prediksjonsscore | 99,81 % |
+| TxGNN-prediksjonsscore | 0.9981 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert/trukket tilbake (ingen gyldige markedsføringstillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -86,7 +87,7 @@ Foreløpig finnes det ingen relatert litteratur for gingival fibromatose.
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004646 | Lorviqua | Ikke oppgitt | Ikke-småcellet lungekreft (status: avregistrert) |
+| EMEA/H/C/004646 | Lorviqua | Ikke oppgitt | Ikke-småcellet lungekreft (status: godkjent) |
 
 ---
 
@@ -120,7 +121,7 @@ For advarsler og kontraindikasjoner, se pakningsvedlegget.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for gingival fibromatose er basert utelukkende på en grafmodell (evidensnivå L5), uten kliniske studier, litteratur eller plausibel mekanistisk kobling til ALK/ROS1-hemming. I tillegg har lorlatinib ingen gyldig markedsføringstillatelse i Norge.
+Prediksjonen for gingival fibromatose kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Det foreligger ingen kliniske studier, litteratur eller plausibel mekanistisk kobling til ALK/ROS1-hemming (evidensnivå L5). Lorlatinib er markedsført i Norge med 1 gyldig markedsføringstillatelse av 1.
 
 **For å gå videre kreves følgende:**
 - Innhenting og gjennomgang av pakningsvedlegg (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsscreening

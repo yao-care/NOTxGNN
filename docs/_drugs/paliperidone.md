@@ -4,7 +4,7 @@ title: Paliperidone
 parent: Kun modellprediksjon (L5)
 nav_order: 306
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Paliperidone: predikert ny indikasjon Retinal dystrofi med eller uten ekstraokulære anomalier (evidensnivå L5). Opprinnelig indikasjon: Schizofreni"
 monitor_inn: "PALIPERIDONE"
@@ -14,7 +14,7 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 # Paliperidone
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Paliperidon: Fra schizofreni til behandlingsresistent schizofreni
+## Paliperidon: Fra schizofreni til retinal dystrofi med eller uten ekstraokulære avvik
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
-Paliperidon er et antipsykotikum som opprinnelig brukes mot schizofreni og psykotiske lidelser. TxGNN-modellen rangerer **retinal dystrofi med eller uten ekstraokulære anomalier** øverst (score 99,92 %), men denne prediksjonen har verken kliniske studier eller litteratur bak seg. Den eneste prediksjonen med noe evidens er **behandlingsresistent schizofreni** (3 kliniske studier og 2 oversiktsartikler), men det ligger tett opptil den opprinnelige indikasjonen og er ikke egentlig drug repurposing.
+Paliperidon er et antipsykotikum som opprinnelig brukes mot schizofreni og psykotiske lidelser. TxGNN-modellen rangerer **retinal dystrofi med eller uten ekstraokulære anomalier** øverst (score 0,9992), men denne prediksjonen har verken kliniske studier eller litteratur bak seg. Den eneste prediksjonen med noe evidens er **behandlingsresistent schizofreni** (3 kliniske studier og 2 oversiktsartikler), men det ligger tett opptil den opprinnelige indikasjonen og er ikke egentlig drug repurposing.
 
 ---
 
@@ -48,13 +48,13 @@ Paliperidon er et antipsykotikum som opprinnelig brukes mot schizofreni og psyko
 |------|------|
 | Opprinnelig indikasjon | Schizofreni; psykotiske lidelser |
 | Predikert ny indikasjon (høyest rangert) | Retinal dystrofi med eller uten ekstraokulære anomalier |
-| TxGNN-prediksjonsscore | 99,92 % |
+| TxGNN-prediksjonsscore | 0.9992 |
 | Evidensnivå | L5 (kun modellprediksjon) |
-| Markedsstatus i Norge | Kun trukket tilbake (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall markedsføringstillatelser | 1 (kansellert) |
 | Anbefalt beslutning | Hold |
 
-Merk: Blant de ti predikerte indikasjonene er behandlingsresistent schizofreni (rangert som nr. 10, score 99,80 %) den eneste med klinisk datagrunnlag (evidensnivå L4). Den anbefales som forskningsspørsmål, ikke som reell ny indikasjon.
 
 ---
 
@@ -62,7 +62,7 @@ Merk: Blant de ti predikerte indikasjonene er behandlingsresistent schizofreni (
 
 Data om virkningsmekanisme er ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Basert på kjent informasjon er paliperidon (9-hydroksyrisperidon, den aktive metabolitten til risperidon) en D2- og 5-HT2A-antagonist, og effekten ved schizofreni er etablert.
 
-**Toppredikasjonen (retinal dystrofi):** Det finnes ingen troverdig mekanistisk sammenheng. Paliperidon har ingen kjent rolle i signalveier ved arvelig netthinnesykdom. Den høye scoren er sannsynligvis en artefakt av nærhet i kunnskapsgrafen.
+**Toppredikasjonen (retinal dystrofi):** Det finnes ingen troverdig mekanistisk sammenheng. Paliperidon har ingen kjent rolle i signalveier ved arvelig netthinnesykdom. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 **Øvrige topprangerte prediksjoner:** Flere av dem gjelder X-bundet og syndromisk nærsynthet, hydranencefali, glykosyleringsdefekter, kortikale misdannelser, Charcot-Marie-Tooth type 1G og atypisk glycinencefalopati. Ingen har studier eller litteratur, og ingen har en plausibel mekanisme:
 - Ved nærsynthet er dopaminagonisme, ikke antagonisme, den teoretiske sammenhengen. Retningen er dermed trolig motsatt.
@@ -102,7 +102,7 @@ Ingen litteratur er funnet for toppredikasjonene.
 |---------|------|------|-----------|
 | EMEA/H/C/000746 | Invega | Ikke oppgitt | Schizofreni; psykotiske lidelser |
 
-Tillatelsen har status kansellert, og det finnes ingen gyldige tillatelser.
+Legemidlet er markedsført, og 1 av 1 tillatelser er gyldig.
 
 ---
 

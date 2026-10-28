@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Susoctocog Alfa
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 394
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Susoctocog Alfa: predikert ny indikasjon Hemofili (rang 4 (evidensnivå L3). Opprinnelig indikasjon: Hemofili A"
 monitor_inn: "SUSOCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "congenital factor XIII deficiency", "adenosine deaminase deficiency"]
+description: "Susoctocog Alfa: predikert ny indikasjon Primary release disorder of platelets (evidensnivå L5). Opprinnelig indikasjon: Hemophilia A"
 ---
 
 # Susoctocog Alfa
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Susoctocog alfa: Fra hemofili A til hemofili (ervervet hemofili A)
+## Susoctocog Alfa: Primary release disorder of platelets
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -46,11 +46,12 @@ Susoctocog alfa er en rekombinant faktor VIII-erstatning med svinesekvens og ute
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Hemofili A |
-| Predikert ny indikasjon | Hemofili (rang 4; rang 1 i modellen er «primær blodplate-frigjøringsforstyrrelse», uten evidens) |
-| TxGNN-prediksjonsscore | 99,74 % (for hemofili) |
-| Evidensnivå | L3 |
-| Status på det norske markedet | Kun avregistrert |
+| Opprinnelig indikasjon | Hemophilia A |
+| Predikert ny indikasjon | Primary release disorder of platelets |
+| TxGNN-prediksjonsscore | 0.9994 |
+| Evidensnivå | L5 |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall markedsføringstillatelser | 1 |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
 
@@ -60,9 +61,8 @@ Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Su
 
 Prediksjonen «hemofili» ligger svært nær den opprinnelige indikasjonen. Legemidlet er godkjent for behandling av blødningsepisoder ved ervervet hemofili A, en tilstand der autoantistoffer hemmer FVIII. Dette er i praksis den opprinnelige indikasjonen og dens ervervede variant, ikke en reell reposisjonering. Den høye scoren er dermed godt forenlig med kjent biologi.
 
-Prediksjonen «ervervet koagulasjonsfaktormangel» (rang 5, score 99,64 %) overlapper i stor grad med dette og er heller ikke en distinkt ny bruk.
 
-Øvrige prediksjoner (Glanzmanns trombasteni, pseudo-von Willebrands sykdom, Scotts syndrom, kollagenreseptordefekt, konstitusjonell trombocytopeni, faktor XIII-mangel og adenosindeaminasemangel) har ingen plausibel mekanistisk kobling til FVIII-erstatning. Disse defektene ligger i blodplatefunksjon, fibrinstabilisering eller purinmetabolisme. Scorene (ca. 99,0–99,9 %) er sannsynligvis modellartefakter uten støtte i studier eller litteratur.
+Øvrige prediksjoner (Glanzmanns trombasteni, pseudo-von Willebrands sykdom, Scotts syndrom, kollagenreseptordefekt, konstitusjonell trombocytopeni, faktor XIII-mangel og adenosindeaminasemangel) har ingen plausibel mekanistisk kobling til FVIII-erstatning. Disse defektene ligger i blodplatefunksjon, fibrinstabilisering eller purinmetabolisme.
 
 ## Evidens fra kliniske studier
 
@@ -91,7 +91,7 @@ I tillegg inngår flere kasuistikker (f.eks. PMID 41436689, 34011555, 36648881),
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/002792 | Obizur | Ikke oppgitt | Hemofili A (status: avregistrert) |
+| EMEA/H/C/002792 | Obizur | Ikke oppgitt | Hemofili A (status: godkjent) |
 
 ## Cytotoksisitet
 

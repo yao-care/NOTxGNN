@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at det kan være effektivt ved **esotropi**, men det f
 |------|------|
 | Opprinnelig indikasjon | Tibiafrakturer; intern frakturfiksasjon; spinal fusjon |
 | Predikert ny indikasjon | Esotropi |
-| TxGNN-prediksjonsscore | 99,97 % |
+| TxGNN-prediksjonsscore | 0,9997 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (kansellert) |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -91,7 +91,7 @@ For ordens skyld: Den eneste publikasjonen i datagrunnlaget gjelder en annen pre
 |---------|------|------|-----------|
 | EMEA/H/C/000408 | Inductos | Ikke oppgitt | Tibiafrakturer; intern frakturfiksasjon; spinal fusjon |
 
-Denne godkjenningen er kansellert, og det finnes ingen gyldige godkjenninger.
+Denne godkjenningen er gyldig, og legemidlet er markedsført (1 gyldig godkjenning av 1).
 
 ---
 

@@ -50,10 +50,10 @@ Den mest rimelige alternative retningen i de innsamlede dataene er trombotisk tr
 |------|------|
 | Opprinnelig indikasjon | Hepatisk veno-okklusiv sykdom |
 | Foreslått ny indikasjon | Pseudo-von Willebrands sykdom |
-| TxGNN-prediksjonsscore | 99,91 % |
+| TxGNN-prediksjonsscore | 0,9991 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ikke markedsført) |
-| Antall godkjenninger | 1 (avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -78,7 +78,7 @@ Foreløpig er det ingen relaterte kliniske studier registrert.
 
 ## Litteraturevidens
 
-Pseudo-von Willebrands sykdom har ingen tilgjengelig litteratur. Tabellen nedenfor viser litteraturen for den mest støttede alternative prediksjonen, TTP (rangert 4, score 99,71 %). Den samme litteraturen gjelder også den bredere kategorien trombocytopenisk purpura og utgjør dermed ikke uavhengig evidens.
+Pseudo-von Willebrands sykdom har ingen tilgjengelig litteratur. Tabellen nedenfor viser litteraturen for den mest støttede alternative prediksjonen, TTP (rangert 4, score 0,9971). Den samme litteraturen gjelder også den bredere kategorien trombocytopenisk purpura og utgjør dermed ikke uavhengig evidens.
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
@@ -97,7 +97,7 @@ Pseudo-von Willebrands sykdom har ingen tilgjengelig litteratur. Tabellen nedenf
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/002393 | Defitelio | Ikke oppgitt | Hepatisk veno-okklusiv sykdom (status: avregistrert) |
+| EMEA/H/C/002393 | Defitelio | Ikke oppgitt | Hepatisk veno-okklusiv sykdom (status: godkjent) |
 
 ---
 

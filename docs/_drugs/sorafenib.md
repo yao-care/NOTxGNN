@@ -4,7 +4,7 @@ title: Sorafenib
 parent: Høy evidens (L1-L2)
 nav_order: 390
 evidence_level: L2
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-15
 description: "Sorafenib: predikert ny indikasjon Liposarkom (evidensnivå L2). Opprinnelig indikasjon: Hepatocellulært karsinom"
 monitor_inn: "SORAFENIB"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female bre
 # Sorafenib
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L2** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,10 @@ med **1 klinisk studie** (fase 2, ikke spesifikk for liposarkom) og **8 publikas
 |------|------|
 | Opprinnelig indikasjon | Hepatocellulært karsinom; nyrecellekarsinom |
 | Predikert ny indikasjon | Liposarkom |
-| TxGNN-prediksjonsscore | 99,82 % |
+| TxGNN-prediksjonsscore | 0,9982 |
 | Evidensnivå | L2 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -94,7 +95,7 @@ Den kliniske aktiviteten ser imidlertid ut til å være avhengig av histologi og
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000690 | Nexavar (Bayer AG) | Ikke oppgitt | Hepatocellulært karsinom; nyrecellekarsinom (status: avregistrert) |
+| EMEA/H/C/000690 | Nexavar (Bayer AG) | Ikke oppgitt | Hepatocellulært karsinom; nyrecellekarsinom (status: godkjent) |
 
 ---
 
@@ -124,7 +125,7 @@ Detaljert informasjon om advarsler og kontraindikasjoner fra preparatomtalen man
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den eneste kliniske studien (fase 2, n=51) omfatter flere sarkomsubtyper og gir ikke liposarkom-spesifikke resultater, og den kliniske aktiviteten i liposarkom ser ut til å være begrenset. Sorafenib har dessuten ingen gyldig markedsføringstillatelse i Norge, og viktige sikkerhetsdata fra preparatomtalen mangler.
+Den eneste kliniske studien (fase 2, n=51) omfatter flere sarkomsubtyper og gir ikke liposarkom-spesifikke resultater, og den kliniske aktiviteten i liposarkom ser ut til å være begrenset. Sorafenib er markedsført i Norge med 1 gyldig markedsføringstillatelse av 1, men viktige sikkerhetsdata fra preparatomtalen mangler.
 
 **For å gå videre trengs følgende:**
 - Liposarkom-spesifikke data (undergruppeanalyse fra SWOG S0505/NCT00217620)
@@ -139,15 +140,11 @@ Den eneste kliniske studien (fase 2, n=51) omfatter flere sarkomsubtyper og gir 
 
 | Rang | Sykdom | Score | Evidensnivå | Anbefaling |
 |------|------|------|------|------|
-| 2 | Ovarielt myksoid liposarkom | 99,76 % | L5 | Hold |
-| 3 | Nyrecellekarsinom assosiert med nevroblastom | 99,65 % | L5 | Hold |
-| 4 | Uklassifisert nyrecellekarsinom | 99,65 % | L4 | Forskningsspørsmål |
-| 5 | Nyrecellekarsinom med Xp11.2-translokasjon/TFE3 | 99,65 % | L5 | Hold |
-| 6 | Nyrecellekarsinom hos barn | 99,57 % | L5 | Hold |
-| 7 | Brystkreft hos kvinner | 99,53 % | L1 | Forskningsspørsmål |
-| 8 | Nyrebekkenkarsinom | 99,40 % | L2 | Forskningsspørsmål |
-| 9 | Vulvasarkom | 99,37 % | L5 | Hold |
-| 10 | Dermatofibrosarcoma protuberans | 99,35 % | L4 | Forskningsspørsmål |
+| 2 | Ovarielt myksoid liposarkom | 0,9976 | L5 | Hold |
+| 7 | Brystkreft hos kvinner | 0,9953 | L5 | Forskningsspørsmål |
+| 8 | Nyrebekkenkarsinom | 0,9940 | L2 | Forskningsspørsmål |
+| 9 | Vulvasarkom | 0,9937 | L5 | Hold |
+| 10 | Dermatofibrosarcoma protuberans | 0,9935 | L4 | Forskningsspørsmål |
 
 Brystkreft har den sterkeste kliniske evidensen blant alternativene, blant annet den randomiserte fase 3-studien RESILIENCE ([PMID 28830796](https://pubmed.ncbi.nlm.nih.gov/28830796/)), men den har ikke ført til en positiv anbefaling. Dermatofibrosarcoma protuberans har en klar mekanistisk begrunnelse (PDGFR-beta-aktivering), men bare én kasuistikk støtter bruken.
 ## Ansvarsfraskrivelse

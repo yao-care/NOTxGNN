@@ -5,10 +5,10 @@ parent: Kun modellprediksjon (L5)
 nav_order: 222
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-15
-description: "Interferon Beta-1B: predikert ny indikasjon Hårcelleleukemi (evidensnivå L5). Opprinnelig indikasjon: Multippel sklerose"
 monitor_inn: "INTERFERON BETA-1B"
 predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
+last_modified_at: 2026-10-27
+description: "Interferon Beta-1B: predikert ny indikasjon Hårcelleleukemi (hairy cell leukemia) (evidensnivå L5). Opprinnelig indikasjon: Multiple Sclerosis"
 ---
 
 # Interferon Beta-1B
@@ -33,12 +33,14 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-## Interferon beta-1b: Fra multippel sklerose til hårcelleleukemi
+## Interferon beta-1b: type I-interferon (immunmodulerende) → hårcelleleukemi (hairy cell leukemia)
 {: .text-alpha }
 
-## Sammendrag
+## Ett-setningssammendrag
 
-Interferon beta-1b brukes opprinnelig til behandling av multippel sklerose (MS). TxGNN-modellen forutsier at legemidlet kan ha effekt ved **hårcelleleukemi**, men dette er en ren beregningsbasert prediksjon. De innsamlede dataene inneholder **0 kliniske studier** og **0 publikasjoner** for denne kombinasjonen av legemiddel og sykdom.
+Interferon beta-1b er et type I-interferon som er utviklet som immunmodulerende behandling.
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **hårcelleleukemi (hairy cell leukemia)**,
+men for denne sykdommen er det **ingen kliniske studier og ingen publikasjoner** i dataene som er samlet inn til denne rapporten. Prediksjonen er derfor ren modellberegning.
 
 ---
 
@@ -46,54 +48,49 @@ Interferon beta-1b brukes opprinnelig til behandling av multippel sklerose (MS).
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Multippel sklerose |
-| Foreslått ny indikasjon | Hårcelleleukemi |
-| TxGNN-prediksjonsscore | 99,16 % |
+| Opprinnelig indikasjon | Multiple Sclerosis |
+| Predikert ny indikasjon | Hårcelleleukemi (hairy cell leukemia) |
+| TxGNN-prediksjonsscore | 0,9916 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte/trukkede godkjenninger |
-| Antall godkjenninger | 1 (0 gyldige, 1 avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Det foreligger ingen detaljerte data om virkningsmekanismen i datagrunnlaget for denne rapporten. Interferon beta-1b er et type I-interferon som er godt kjent som immunmodulerende behandling ved MS, og effekten ved MS er dokumentert.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Interferon beta-1b tilhører klassen type I-interferoner og virker via type I-interferonreseptoren (IFNAR). Interferon alfa, som virker via samme reseptor, har historisk vært brukt ved hårcelleleukemi, og antiproliferative og immunmodulerende effekter er derfor mekanistisk plausible også for beta-1b.
 
-Interferon alfa er den interferonklassen som historisk er brukt ved hårcelleleukemi. Interferon beta-1b virker gjennom den samme type I-interferonreseptoren (IFNAR), så antiproliferative og immunmodulerende effekter er biologisk plausible. Dette er imidlertid en slutning på klassenivå og er ikke støttet av direkte data for beta-1b.
-
-Det er også viktig å merke seg at dagens standardbehandling ved hårcelleleukemi er purinanaloger (kladribin, pentostatin) og BRAF-hemmere. Det udekkede behovet for et interferonpreparat er derfor lavt.
+Dette er en slutning på klassenivå og er ikke støttet av direkte data for interferon beta-1b. Dagens standardbehandling er purinanaloger (kladribin, pentostatin) og BRAF-hemmere, så det udekkede behovet for et interferon er trolig lavt.
 
 ---
 
-## Klinisk studiedokumentasjon
+## Klinisk studieevidens
 
-Foreløpig er ingen relaterte kliniske studier registrert for interferon beta-1b ved hårcelleleukemi.
+Foreløpig er ingen relaterte kliniske studier registrert for hårcelleleukemi.
 
 ---
 
 ## Litteraturevidens
 
-Foreløpig er ingen relatert litteratur tilgjengelig for interferon beta-1b ved hårcelleleukemi.
+Foreløpig er ingen relaterte publikasjoner tilgjengelige for hårcelleleukemi.
 
 ---
 
-## Markedsinformasjon for Norge
+## Informasjon om markedet i Norge
 
-| Godkjenningsnummer | Produktnavn | Status | Godkjent indikasjon |
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000081 | Betaferon (Bayer AG) | Avregistrert | Multippel sklerose |
-
-Det finnes ingen gyldige godkjenninger. Det betyr at produktet har begrenset tilgjengelighet i dag.
+| EMEA/H/C/000081 | Betaferon | Ikke oppgitt | Multippel sklerose |
 
 ---
 
-## Sikkerhetsvurderinger
+## Sikkerhetshensyn
 
-**Legemiddelinteraksjoner**: Det er registrert 100 interaksjoner. De viktigste er:
+- **Legemiddelinteraksjoner:** Det er registrert 100 interaksjoner i interaksjonsdatabasen. Blant de som er hentet ut, er den eneste med alvorlighetsgrad «alvorlig» **bupropion**. Resten er av moderat grad, blant annet akarbose, pioglitazon, rosiglitazon, klaritromycin, levofloksacin, minocyklin, naltrekson, orlistat, rosuvastatin, simvastatin, stanozolol, oksandrolon og oksymetolon.
 
-- **Alvorlig (Major)**: Bupropion
-- **Moderat**: Acarbose, pioglitazon, rosiglitazon, klaritromycin, levofloksacin, minocyklin, naltrekson, nikotinamid, orlistat, rosuvastatin, simvastatin, klotrimazol, kenodeoksykolsyre, pikosulfat, polyetylenglykol (3350 med elektrolytter), natriumsulfat, oksandrolon, oksymetolon og stanozolol
+Se preparatomtalen for øvrig sikkerhetsinformasjon.
 
 ---
 
@@ -102,16 +99,13 @@ Det finnes ingen gyldige godkjenninger. Det betyr at produktet har begrenset til
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er svært høyt skåret (99,16 %), men bygger utelukkende på modellberegning uten kliniske studier eller litteratur for denne indikasjonen. Dagens standardbehandling er effektiv, og den eneste norske godkjenningen er avregistrert.
-
-For den andre prediksjonen, «autoimmun sykdom i sentralnervesystemet», finnes det omfattende evidens (L1), blant annet en fase 3-forlengelsesstudie (NCT00185211, 468 pasienter). Den er imidlertid i hovedsak en bekreftelse av den eksisterende MS-indikasjonen og ikke reell repurposing.
+Prediksjonen for hårcelleleukemi bygger kun på en høy modellscore (0,9916), uten kliniske studier eller litteratur som direkte undersøker sykdommen. Evidensnivået er derfor L5, og etablerte behandlingsalternativer gjør behovet for et interferon lavt.
 
 **For å gå videre kreves følgende:**
-- Pakningsvedlegg med advarsler og kontraindikasjoner, som i dag mangler
-- Detaljerte data om virkningsmekanisme (MOA)
-- Systematisk litteratursøk og prekliniske data for interferon beta-1b ved hårcelleleukemi
-- Vurdering av klinisk nytteverdi sammenlignet med purinanaloger og BRAF-hemmere
-- Avklaring av tilgjengelighet i Norge, siden godkjenningen er avregistrert
+- Systematisk litteratur- og studiesøk spesifikt for interferon beta og hårcelleleukemi
+- Prekliniske data som viser effekt på hårcelleleukemiceller
+- Data om virkningsmekanisme (MOA) og preparatomtalens advarsler og kontraindikasjoner
+- Vurdering av nytte opp mot gjeldende standardbehandling (purinanaloger og BRAF-hemmere)
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

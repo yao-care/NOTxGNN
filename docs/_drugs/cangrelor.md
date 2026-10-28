@@ -8,6 +8,7 @@ nav_order: 81
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Cangrelor
@@ -49,7 +50,8 @@ Cangrelor er en intravenøs, direkte virkende P2Y12 plateletaggregasjonshemmer b
 | Forutsatt ny indikasjon | Ingen prognose tilgjengelig |
 | TxGNN-prediksjonspoeng | N/A |
 | Evidensnivå | L5 — kun modellprediksjon; ingen støttende prognoser generert |
-| Status på det norske marked | Ikke markedsført |
+| Status på det norske marked | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall markedsføringstillatelser | 0 |
 | Anbefalt beslutning | Avvent |
 

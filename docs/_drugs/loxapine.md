@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Loxapine
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 253
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Loxapine: predikert ny indikasjon Manisk bipolar affektiv lidelse (evidensnivå L3). Opprinnelig indikasjon: Schizofreni"
+evidence_level: L5
+indication_count: 9
 monitor_inn: "LOXAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "atypical glycine encephalopathy"]
+last_modified_at: 2026-10-27
+description: "Loxapine: predikert ny indikasjon Retinal dystrofi med eller uten ekstraokulære anomalier (retinal dystrophy with or without extraocular anomalies) (evidensnivå L5). Opprinnelig indikasjon: Schizophr…"
 ---
 
 # Loxapine
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,85 +33,65 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Loxapin: Fra schizofreni og bipolar lidelse til manisk bipolar affektiv lidelse
+## Loxapin: dopamin-/serotoninreseptorantagonist → retinal dystrofi med eller uten ekstraokulære anomalier (retinal dystrophy with or without extraocular anomalies)
 {: .text-alpha }
 
-## Oppsummering i én setning
+## Oppsummering
 
-Loxapin er et eldre førstegenerasjons antipsykotikum (dibenzoksazepin) som opprinnelig brukes mot schizofreni og bipolar lidelse.
-TxGNN-modellen forutsier at det kan være effektivt ved **manisk bipolar affektiv lidelse**, men dette ligger svært nær legemidlets eksisterende godkjente bruk.
-Det finnes **ingen registrerte kliniske studier** i de innsamlede dataene, og **20 publikasjoner** (hovedsakelig oversiktsartikler om inhalert loxapin ved akutt agitasjon) støtter retningen.
+Loxapin er et antipsykotikum som virker som reseptorantagonist, og som er registrert i lokale lisensdata. Modellen TxGNN predikerer at legemidlet kan være aktuelt ved **retinal dystrofi med eller uten ekstraokulære anomalier (retinal dystrophy with or without extraocular anomalies)**. Det finnes **ingen kliniske studier** og **ingen publikasjoner** i de samlede dataene som støtter denne prediksjonen, så den er kun modellbasert.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Schizofreni; bipolar lidelse |
-| Predikert ny indikasjon | Manisk bipolar affektiv lidelse |
-| TxGNN-prediksjonsscore | 99,99 % |
-| Evidensnivå | L3 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
-| Antall tillatelser | 1 (avregistrert) |
-| Anbefalt beslutning | Proceed with Guardrails (Fortsett med sikkerhetsgrenser) |
+| Opprinnelig indikasjon | Schizophrenia;Bipolar Disorder |
+| Predikert ny indikasjon | Retinal dystrofi med eller uten ekstraokulære anomalier (retinal dystrophy with or without extraocular anomalies) |
+| TxGNN-prediksjonsscore | 0,9995 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
+| Anbefalt beslutning | Avvent (Hold) |
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Loxapin er et dibenzoksazepin-antipsykotikum med D2- og 5-HT2A-antagonisme. Dette er en virkningsmekanisme som er forenlig med antimane effekter og effekt mot agitasjon. Detaljerte virkningsmekanismedata var ikke tilgjengelige i de innsamlede dataene, så beskrivelsen bygger på kjent farmakologi.
+Data om virkningsmekanisme er ikke tilgjengelige i det som er samlet for denne rapporten. Loxapin tilhører gruppen antipsykotika med antagonistisk effekt på dopamin- og serotoninreseptorer.
 
-Den predikerte indikasjonen overlapper med legemidlets godkjente bruk (bipolar lidelse). Dette er derfor nærmere en bekreftelse av eksisterende indikasjon enn reell omposisjonering. Litteraturen gjelder i hovedsak inhalert loxapin (Adasuve) ved akutt agitasjon assosiert med bipolar lidelse og schizofreni. Endepunktet der er agitasjon, ikke hele det maniske syndromet.
+Det er ingen identifiserbar mekanistisk sammenheng mellom loxapins reseptorfarmakologi og arvelig netthinnedegenerasjon. Den høye scoren (0,9995) er en beregningsmessig prediksjon uten støtte i studier eller litteratur. Prediksjonen bør derfor tolkes med stor forsiktighet, og vi finner ikke et biologisk grunnlag for den.
 
-Pivotale fase 3-RCT-er av inhalert loxapin finnes i publisert litteratur (omtalt blant annet i oversikter fra Citrome 2012 og Keating 2013), men er ikke blant de innsamlede postene. Evidensen vurderes derfor konservativt.
-
-## Klinisk studiedokumentasjon
+## Kliniske studier
 
 Foreløpig er ingen relaterte kliniske studier registrert.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|------|---------|
-| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Oversikt | Acta Psychiatr Scand | Evidensbaserte behandlingsvalg ved bipolar mani, inkludert valg av stemningsstabilisator og antipsykotikum |
-| [27151529](https://pubmed.ncbi.nlm.nih.gov/27151529/) | 2016 | Systematisk oversikt/metaanalyse | Hum Psychopharmacol | Farmakologisk behandling av akutt agitasjon ved schizofreni eller bipolar lidelse |
-| [22226343](https://pubmed.ncbi.nlm.nih.gov/22226343/) | 2012 | Oversikt av RCT-er | Int J Clin Pract | Effektstørrelser fra to fase 3 randomiserte studier av inhalert loxapin ved agitasjon |
-| [23740380](https://pubmed.ncbi.nlm.nih.gov/23740380/) | 2013 | Oversikt | CNS Drugs | Adasuve godkjent i USA og EU; maksimal plasmakonsentrasjon etter ca. 2 minutter; to randomiserte, dobbeltblinde, placebokontrollerte studier |
-| [31496709](https://pubmed.ncbi.nlm.nih.gov/31496709/) | 2019 | Oversikt | Neuropsychiatr Dis Treat | Sikkerhet, effekt og pasientaksept for inhalert loxapin ved akutt agitasjon |
-| [30721526](https://pubmed.ncbi.nlm.nih.gov/30721526/) | 2019 | Ekspertoversikt | Drugs R D | Inhalert loxapin ved akutt agitasjon, i lys av ikke-tvangsbaserte retningslinjer |
-| [37581475](https://pubmed.ncbi.nlm.nih.gov/37581475/) | 2023 | Oversikt | Expert Opin Pharmacother | Forbedring av farmakoterapi ved agitasjon ved bipolar lidelse; begrenset antall godkjente midler |
-| [38301034](https://pubmed.ncbi.nlm.nih.gov/38301034/) | 2024 | Oversikt | Prim Care Companion CNS Disord | Alternative tilnærminger til akutt agitasjon ved schizofreni og bipolar lidelse |
-| [35913401](https://pubmed.ncbi.nlm.nih.gov/35913401/) | 2022 | Oversikt | Expert Rev Neurother | Femti års erfaring med loxapin for rask, ikke-tvangsbasert beroligelse |
-| [28208695](https://pubmed.ncbi.nlm.nih.gov/28208695/) | 2017 | Klinisk oversikt | Int J Mol Sci | Effekt og tolerabilitet av inhalert loxapin ved akutt agitasjon |
+Foreløpig er ingen relatert litteratur tilgjengelig.
 
-## Informasjon om det norske markedet
+## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/002400 | Adasuve | Ikke oppgitt | Schizofreni; bipolar lidelse (status: avregistrert) |
+| EMEA/H/C/002400 | Adasuve | Ikke oppgitt | Schizofreni; bipolar lidelse |
 
 ## Sikkerhetsvurderinger
 
-- **Kontraindikasjoner/risikoer fra kunnskapsgraf (ikke preparatomtale):** Kunnskapsgrafen (PrimeKG) knytter loxapin til følgende tilstander: epilepsi, benign prostatahyperplasi, rusmiddelmisbruk/avhengighet, brystkreft hos kvinner, hjerte- og karsykdom, hjertesykdom, glaukom, malignt nevroleptikasyndrom, Alzheimers sykdom, tardiv dyskinesi, lingual-fasial-bukkal dyskinesi, hyperprolaktinemi (inkludert familiær og ervervet form) og prolaktinproduserende hypofysesvulst.
-- **Legemiddelinteraksjoner:** 100 interaksjoner funnet totalt. Blant de som er vist, er de alvorligste (nivå «Major»):
-  - Bupropion
-  - Morfin
-  - Kaliumcitrat
+**Legemiddelinteraksjoner** (100 interaksjoner registrert; utvalg av de mest alvorlige):
+- **Alvorlige (Major):** bupropion, morfin, kaliumcitrat
+- **Moderate:** blant annet epinefrin, hyoscyamin, loperamid, atropin, lorcaserin, glykopyrronium, diklomin, dronabinol, eluxadolin, trospium og nabilon
 
-  Mange interaksjoner på moderat nivå gjelder antikolinerge midler (f.eks. atropin, hyoscyamin, glykopyrronium, diciklomin, trospium), samt loperamid, epinefrin, lorcaserin, dronabinol, nabilon og eluxadolin.
-
-Se preparatomtalen for øvrig sikkerhetsinformasjon.
+Ytterligere informasjon om advarsler og kontraindikasjoner finnes i preparatomtalen.
 
 ## Konklusjon og neste steg
 
-**Beslutning: Proceed with Guardrails (Fortsett med sikkerhetsgrenser)**
+**Beslutning: Avvent (Hold)**
 
 **Begrunnelse:**
-Indikasjonen overlapper med legemidlets godkjente bruk, og mekanismen (D2/5-HT2A-antagonisme) er biologisk plausibel. Evidensen består imidlertid av oversiktsartikler uten registrerte kliniske studier i datasettet, endepunktet er i hovedsak agitasjon fremfor full mani, og det finnes ingen gyldig markedsføringstillatelse i Norge.
+Prediksjonen bygger kun på modellscore, uten kliniske studier, litteratur eller plausibel mekanisme. Evidensnivået er L5.
 
 **For å gå videre kreves:**
-- Hente og analysere preparatomtalen (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsscreening
-- Innhente detaljerte data om virkningsmekanisme (f.eks. fra DrugBank)
-- Gjennomgå de pivotale fase 3-RCT-ene av inhalert loxapin direkte, og avklare om evidensen gjelder mani eller kun agitasjon
-- Avklare regulatorisk status i Norge, siden eneste tillatelse er avregistrert
-- Lage en sikkerhetsovervåkingsplan med vekt på interaksjoner (bupropion, morfin, antikolinerge midler) og tilstandene som er flagget i kunnskapsgrafen
+- Dokumentert biologisk eller mekanistisk hypotese for loxapin ved arvelig netthinnedegenerasjon
+- Prekliniske data eller studier som direkte undersøker denne sykdommen
+- Gjennomgang av preparatomtalens advarsler og kontraindikasjoner
+- Data om virkningsmekanisme (MOA)
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

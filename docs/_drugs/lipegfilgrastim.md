@@ -49,9 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **primær frigjøringsf
 |------|------|
 | Opprinnelig indikasjon | Ikke tilgjengelig i dataene |
 | Predikert ny indikasjon | Primær frigjøringsforstyrrelse i blodplater |
-| TxGNN-prediksjonsscore | 99,93 % |
+| TxGNN-prediksjonsscore | 0,9993 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -61,16 +62,16 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **primær frigjøringsf
 
 Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Lipegfilgrastim er en pegylert G-CSF-analog som virker på nøytrofil-linjen via G-CSF-reseptoren.
 
-Primær frigjøringsforstyrrelse i blodplater er en kvalitativ funksjonsdefekt i blodplatene. Det er ikke påvist noen etablert mekanistisk sammenheng mellom G-CSF-signalering og denne tilstanden. Den høye TxGNN-scoren (0,999) er en prediksjon fra kunnskapsgrafen, uten støtte fra studier eller litteratur. Prediksjonen bør derfor tolkes med stor forsiktighet.
+Primær frigjøringsforstyrrelse i blodplater er en kvalitativ funksjonsdefekt i blodplatene. Det er ikke påvist noen etablert mekanistisk sammenheng mellom G-CSF-signalering og denne tilstanden. Den høye TxGNN-scoren (0,9993) er en prediksjon fra TxGNN-modellen (dyp læring), uten støtte fra studier eller litteratur. Prediksjonen bør derfor tolkes med stor forsiktighet.
 
 ### Andre predikerte indikasjoner (alle L5, Hold)
 
 | Rang | Predikert indikasjon | TxGNN-score | Vurdering |
 |------|------|------|------|
-| 2 | Alvorlig ikke-proliferativ diabetisk retinopati | 99,91 % | Ingen etablert kobling. Mulig spekulativ sammenheng via stamcellebiologi (endotelprogenitorceller), men G-CSF-indusert inflammasjon eller nydannelse av kar kan potensielt være skadelig i netthinnen. |
-| 3 | Pseudo-von Willebrands sykdom | 99,91 % | Skyldes en «gain-of-function»-defekt i platereseptoren GPIbα. Ingen plausibel mekanisme fra G-CSF-reseptoragonisme. Høy score gjenspeiler trolig nærhet i nettverket mellom blødnings- og blodplatesykdommer. |
-| 4 | Glanzmanns trombasteni | 99,91 % | Skyldes mangel på eller dysfunksjon av integrin αIIbβ3. Lipegfilgrastim har ingen kjent effekt på dette integrinet eller på blodplateaggregasjon. Relevans kan høyst være indirekte (støttebehandling ved stamcelletransplantasjon). |
-| 5 | Diabetisk retinopati | 99,75 % | Samme resonnement som for alvorlig ikke-proliferativ diabetisk retinopati. Kun spekulativ kobling og mulige sikkerhetsproblemer i netthinnen. |
+| 2 | Alvorlig ikke-proliferativ diabetisk retinopati | 0,9991 | Ingen etablert kobling. Mulig spekulativ sammenheng via stamcellebiologi (endotelprogenitorceller), men G-CSF-indusert inflammasjon eller nydannelse av kar kan potensielt være skadelig i netthinnen. |
+| 3 | Pseudo-von Willebrands sykdom | 0,9991 | Skyldes en «gain-of-function»-defekt i platereseptoren GPIbα. Ingen plausibel mekanisme fra G-CSF-reseptoragonisme. Høy score gjenspeiler trolig nærhet i nettverket mellom blødnings- og blodplatesykdommer. |
+| 4 | Glanzmanns trombasteni | 0,9991 | Skyldes mangel på eller dysfunksjon av integrin αIIbβ3. Lipegfilgrastim har ingen kjent effekt på dette integrinet eller på blodplateaggregasjon. Relevans kan høyst være indirekte (støttebehandling ved stamcelletransplantasjon). |
+| 5 | Diabetisk retinopati | 0,9975 | Samme resonnement som for alvorlig ikke-proliferativ diabetisk retinopati. Kun spekulativ kobling og mulige sikkerhetsproblemer i netthinnen. |
 
 ---
 
@@ -90,7 +91,7 @@ Foreløpig finnes det ingen relatert litteratur.
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/002556 | Lonquex (Teva B.V.) | Ikke angitt | Ikke angitt (status: avregistrert) |
+| EMEA/H/C/002556 | Lonquex (Teva B.V.) | Ikke angitt | Ikke angitt (status: godkjent) |
 
 ---
 

@@ -50,10 +50,10 @@ men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** 
 |------|------|
 | Opprinnelig indikasjon | Trombocytopeni |
 | Predikert ny indikasjon | Autosomal trombocytopeni med normale blodplater |
-| TxGNN-prediksjonsscore | 99,45 % |
+| TxGNN-prediksjonsscore | 0.9945 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 1 (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -62,11 +62,11 @@ men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** 
 
 Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Fostamatinib er kjent som en hemmer av milttyrosinkinase (SYK). Den aktive metabolitten R406 reduserer nedbrytningen av blodplater som skjer via Fc-reseptorer i makrofager. Dette er grunnlaget for bruk ved immun trombocytopeni (ITP).
 
-Den predikerte sykdommen er en arvelig (autosomal) tilstand, som vanligvis henger sammen med genetiske feil i produksjon eller funksjon av blodplater, og ikke med immunmediert nedbrytning. SYK-hemming forventes derfor ikke å ramme den underliggende patologien. Den høye scoren gjenspeiler trolig nærhet til den opprinnelige trombocytopeni-indikasjonen i modellens kunnskapsgraf.
+Den predikerte sykdommen er en arvelig (autosomal) tilstand, som vanligvis henger sammen med genetiske feil i produksjon eller funksjon av blodplater, og ikke med immunmediert nedbrytning. SYK-hemming forventes derfor ikke å ramme den underliggende patologien. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom relaterte sykdommer, ikke biologisk evidens.
 
 Samlet sett er den mekanistiske koblingen spekulativ og ikke støttet av dataene.
 
-Den nest rangerte prediksjonen, **ikke-syndromisk øsofagusmisdannelse** (score 99,05 %), har ingen plausibel mekanistisk kobling. Slike medfødte strukturelle utviklingsfeil lar seg neppe korrigere med SYK-hemming. Heller ikke her finnes studier eller litteratur.
+Den nest rangerte prediksjonen, **ikke-syndromisk øsofagusmisdannelse** (score 0,9905), har ingen plausibel mekanistisk kobling. Slike medfødte strukturelle utviklingsfeil lar seg neppe korrigere med SYK-hemming. Heller ikke her finnes studier eller litteratur.
 
 ---
 
@@ -88,7 +88,7 @@ Det finnes foreløpig ingen relatert litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/005012 | Tavlesse | – | Trombocytopeni |
 
-Merk: Denne godkjenningen er kansellert, og det finnes ingen gyldige godkjenninger i Norge.
+Merk: Det finnes 1 gyldig godkjenning av 1 i Norge, og legemidlet er markedsført.
 
 ---
 

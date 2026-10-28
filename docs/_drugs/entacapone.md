@@ -51,10 +51,10 @@ Prediksjonen er derfor kun modellbasert.
 |------|------|
 | Opprinnelig indikasjon | Parkinsons sykdom |
 | Predikert ny indikasjon | PLA2G6-assosiert nevrodegenerasjon |
-| TxGNN-prediksjonsscore | 99,76 % |
+| TxGNN-prediksjonsscore | 0,9976 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun annullerte godkjenninger (ingen gyldige) |
-| Antall godkjenninger | 7 (alle annullert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 7 av 7) |
+| Antall godkjenninger | 7 (gyldige: 7) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -73,15 +73,15 @@ Data er også samlet for ni andre predikerte indikasjoner. Alle har evidensnivå
 
 | Rangering | Predikert indikasjon | Score | Evidensnivå | Vurdering |
 |------|------|------|------|------|
-| 2 | Rasmussens subakutte encefalitt | 99,73 % | L5 | Ingen plausibel mekanistisk kobling |
-| 3 | Myelitt | 99,63 % | L5 | Ingen mekanistisk begrunnelse |
-| 4 | Juvenil paralysis agitans (Hunt) | 99,60 % | L5 | Plausibel, men i hovedsak en gjentakelse av opprinnelig indikasjon; ingen data for barn/unge |
-| 5 | Transaldolase-mangel | 99,43 % | L5 | Ingen kobling; leversikkerhet tilsier forsiktighet |
-| 6 | Letal infantil mitokondriell myopati | 99,28 % | L5 | Spekulativ, kan være skadelig |
-| 7 | Lewy body-demens | 99,25 % | L4 | Plausibel mekanisme, kun indirekte prekliniske data |
-| 8 | Fruktose-1,6-bisfosfatase-mangel | 99,22 % | L5 | Ingen kobling |
-| 9 | Polymikrogyri med cerebellær hypoplasi og artrogrypose | 99,06 % | L5 | Ingen plausibel rolle |
-| 10 | Progressiv supranukleær parese–kortikobasalt syndrom | 99,04 % | L4 | Svak begrunnelse; dårlig levodopa-respons begrenser nytte |
+| 2 | Rasmussens subakutte encefalitt | 0,9973 | L5 | Ingen plausibel mekanistisk kobling |
+| 3 | Myelitt | 0,9963 | L5 | Ingen mekanistisk begrunnelse |
+| 4 | Juvenil paralysis agitans (Hunt) | 0,9960 | L5 | Plausibel, men i hovedsak en gjentakelse av opprinnelig indikasjon; ingen data for barn/unge |
+| 5 | Transaldolase-mangel | 0,9943 | L5 | Ingen kobling; leversikkerhet tilsier forsiktighet |
+| 6 | Letal infantil mitokondriell myopati | 0,9928 | L5 | Spekulativ, kan være skadelig |
+| 7 | Lewy body-demens | 0,9925 | L5 | Plausibel mekanisme, kun indirekte prekliniske data |
+| 8 | Fruktose-1,6-bisfosfatase-mangel | 0,9922 | L5 | Ingen kobling |
+| 9 | Polymikrogyri med cerebellær hypoplasi og artrogrypose | 0,9906 | L5 | Ingen plausibel rolle |
+| 10 | Progressiv supranukleær parese–kortikobasalt syndrom | 0,9904 | L5 | Svak begrunnelse; dårlig levodopa-respons begrenser nytte |
 
 ---
 
@@ -139,7 +139,7 @@ Se preparatomtalen for fullstendig informasjon om advarsler og kontraindikasjone
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den fremste prediksjonen er basert utelukkende på en modellscore uten støtte fra kliniske studier eller litteratur (evidensnivå L5). I tillegg har entakapon ingen gyldige godkjenninger i Norge i dag. Ingen av de ti predikerte indikasjonene har klinisk evidens for entakapon; Lewy body-demens og PSP–kortikobasalt syndrom (L4) er best egnet som forskningsspørsmål.
+Den fremste prediksjonen er basert utelukkende på en modellscore uten støtte fra kliniske studier eller litteratur (evidensnivå L5). I tillegg er entakapon markedsført i Norge, med 7 gyldige godkjenninger av 7. Ingen av de ti predikerte indikasjonene har klinisk evidens for entakapon; Lewy body-demens og PSP–kortikobasalt syndrom (L4) er best egnet som forskningsspørsmål.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

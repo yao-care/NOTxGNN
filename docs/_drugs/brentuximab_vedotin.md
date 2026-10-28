@@ -48,9 +48,10 @@ Brentuksimab vedotin er et antistoff-legemiddelkonjugat rettet mot CD30, opprinn
 |------|------|
 | Opprinnelig indikasjon | Non-Hodgkin-lymfom og Hodgkin-lymfom |
 | Predikert ny indikasjon | Follikulært lymfom |
-| TxGNN-prediksjonsscore | 99,89 % |
+| TxGNN-prediksjonsscore | 0,9989 |
 | Evidensnivå | L3 |
-| Status i Norge | Kun tilbakekalt/avregistrert (ingen gyldig markedsføringstillatelse) |
+| Status i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
 | Anbefalt beslutning | Hold (forskningsspørsmål) |
 
@@ -101,7 +102,7 @@ Det finnes ingen randomiserte studier eller kohortstudier som direkte viser effe
 |---------|------|------|-----------|
 | EMEA/H/C/002455 | Adcetris (Takeda Pharma A/S) | Ikke oppgitt | Non-Hodgkin-lymfom, Hodgkin-lymfom |
 
-Tillatelsen har status avregistrert/tilbakekalt, og det finnes ingen gyldige tillatelser.
+Legemidlet er markedsført i Norge, og 1 av 1 tillatelse er gyldig.
 
 ---
 
@@ -132,7 +133,7 @@ For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparato
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Evidensen for follikulært lymfom er svak: den eneste direkte relevante studien (NCT04587687) rekrutterer fortsatt og har ingen resultater, tre studier er trukket tilbake uten pasienter, og follikulært lymfom er vanligvis CD30-negativt. Det norske markedet har ingen gyldig tillatelse. Prediksjonen bør betraktes som et forskningsspørsmål.
+Evidensen for follikulært lymfom er svak: den eneste direkte relevante studien (NCT04587687) rekrutterer fortsatt og har ingen resultater, tre studier er trukket tilbake uten pasienter, og follikulært lymfom er vanligvis CD30-negativt. Legemidlet er markedsført i Norge, og 1 av 1 tillatelse er gyldig. Prediksjonen bør betraktes som et forskningsspørsmål.
 
 **For å gå videre trengs følgende:**
 - Resultater fra NCT04587687 (brentuksimab vedotin + bendamustin ved residivert/refraktært follikulært lymfom)

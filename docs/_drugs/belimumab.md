@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt for **primær frigj�
 |------|------|
 | Opprinnelig indikasjon | Systemisk lupus erythematosus |
 | Predikert ny indikasjon | Primær frigjøringsforstyrrelse i blodplater |
-| TxGNN-prediksjonsscore | 99,96 % |
+| TxGNN-prediksjonsscore | 0,9996 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldige godkjenninger) |
-| Antall godkjenninger | 1 (avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -67,11 +67,11 @@ Primære frigjøringsforstyrrelser i blodplater er imidlertid vanligvis kvalitat
 
 | Rangering | Predikert indikasjon | TxGNN-score | Mekanistisk vurdering |
 |------|------|------|------|
-| 2 | Pseudo-von Willebrand sykdom | 99,96 % | Skyldes genetisk gain-of-function i blodplatereseptoren GPIbα, ikke en autoimmun prosess. Ingen plausibel BLyS-mekanisme. |
-| 3 | Glanzmanns trombasteni | 99,88 % | Arvelig mangel eller dysfunksjon av integrin αIIbβ3. Kun en spekulativ, tangentiell kobling via alloantistoffer etter transfusjon. |
-| 4 | Føtal og neonatal alloimmun trombocytopeni (FNAIT) | 99,59 % | Biologisk mest sammenhengende, siden sykdommen skyldes maternelle alloantistoffer. Belimumabs effekt på etablerte plasmaceller er begrenset, og sikkerhetsdata i svangerskap er utilstrekkelige. Standardbehandling er IVIG med eller uten kortikosteroider. |
-| 5 | Alvorlig ikke-proliferativ diabetisk retinopati | 99,05 % | Drives av mikrovaskulær skade og VEGF-signalering. En rolle for BAFF/B-cellebaner er spekulativ. |
-| 6 | Autosomal dominant makrotrombocytopeni | 99,04 % | Arvelige defekter i megakaryopoiese eller cytoskjelett. Ikke autoimmun, og BLyS-hemming forventes ikke å ha nytte. |
+| 2 | Pseudo-von Willebrand sykdom | 0,9996 | Skyldes genetisk gain-of-function i blodplatereseptoren GPIbα, ikke en autoimmun prosess. Ingen plausibel BLyS-mekanisme. |
+| 3 | Glanzmanns trombasteni | 0,9988 | Arvelig mangel eller dysfunksjon av integrin αIIbβ3. Kun en spekulativ, tangentiell kobling via alloantistoffer etter transfusjon. |
+| 4 | Føtal og neonatal alloimmun trombocytopeni (FNAIT) | 0,9959 | Biologisk mest sammenhengende, siden sykdommen skyldes maternelle alloantistoffer. Belimumabs effekt på etablerte plasmaceller er begrenset, og sikkerhetsdata i svangerskap er utilstrekkelige. Standardbehandling er IVIG med eller uten kortikosteroider. |
+| 5 | Alvorlig ikke-proliferativ diabetisk retinopati | 0,9905 | Drives av mikrovaskulær skade og VEGF-signalering. En rolle for BAFF/B-cellebaner er spekulativ. |
+| 6 | Autosomal dominant makrotrombocytopeni | 0,9904 | Arvelige defekter i megakaryopoiese eller cytoskjelett. Ikke autoimmun, og BLyS-hemming forventes ikke å ha nytte. |
 
 ---
 
@@ -93,7 +93,7 @@ Foreløpig finnes det ingen relatert litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/002015 | Benlysta | Ikke oppgitt | Systemisk lupus erythematosus |
 
-Merk: Denne godkjenningen har status avregistrert. Det finnes ingen gyldige godkjenninger i Norge i de innsamlede dataene.
+Merk: Legemidlet er markedsført i Norge, og 1 av 1 godkjenninger er gyldig i de innsamlede dataene.
 
 ---
 
@@ -116,7 +116,7 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Alle predikerte indikasjoner støttes kun av modellprediksjon (evidensnivå L5), uten kliniske studier eller litteratur. For de to høyest rangerte indikasjonene finnes det ingen plausibel mekanistisk kobling til BLyS-hemming. Belimumab har dessuten ingen gyldig godkjenning i Norge i dag.
+Alle predikerte indikasjoner støttes kun av modellprediksjon (evidensnivå L5), uten kliniske studier eller litteratur. For de to høyest rangerte indikasjonene finnes det ingen plausibel mekanistisk kobling til BLyS-hemming. Belimumab er dessuten markedsført i Norge, med 1 gyldig godkjenning av 1.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

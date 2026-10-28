@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mycophenolate Mofetil
-parent: Kun modellprediksjon (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 277
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Mycophenolate Mofetil: predikert ny indikasjon HIV-infeksjon (evidensnivå L5). Opprinnelig indikasjon: Transplantatavstøtning"
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
+last_modified_at: 2026-10-27
+description: "Mycophenolate Mofetil: predikert ny indikasjon HIV-infeksjon (HIV infectious disease) (evidensnivå L2). Opprinnelig indikasjon: Graft Rejection"
 ---
 
 # Mycophenolate Mofetil
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,106 +33,85 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Mykofenolatmofetil: Fra transplantatavstøtning til HIV-infeksjon
+## Mykofenolatmofetil: IMPDH-hemmer og immundempende middel → HIV-infeksjon (HIV infectious disease)
 {: .text-alpha }
 
-## Ettsetningssammendrag
+## Oppsummering i én setning
 
-Mykofenolatmofetil er et immundempende legemiddel som opprinnelig brukes for å forebygge **transplantatavstøtning**.
-TxGNN-modellen predikerer at det kan være virksomt mot **HIV-infeksjon**,
-og det finnes i dag **4 kliniske studier** og **20 publikasjoner** i datagrunnlaget, men studiene er små, og ingen viser varig nytte.
-
----
+Mykofenolatmofetil er et immundempende legemiddel som hemmer enzymet IMPDH og brukes i forbindelse med transplantasjon.
+TxGNN-modellen forutsier at det kan ha effekt ved **HIV-infeksjon (HIV infectious disease)**.
+Dette støttes foreløpig av **4 registrerte kliniske studier** (ingen med brukbare resultater for HIV-effekt) og **20 publikasjoner**, inkludert én randomisert kontrollert studie.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Transplantatavstøtning |
-| Predikert ny indikasjon | HIV-infeksjon |
-| TxGNN-prediksjonsscore | 99,86 % |
-| Evidensnivå | L2 (datagrunnlaget angir L2, men de HIV-relaterte studiene er små, og den eneste direkte randomiserte studien i litteraturen er en liten RCT fra 2004) |
-| Markedsstatus i Norge | Kun trukne (kansellerte) tillatelser |
-| Antall tillatelser | 4 (alle kansellert) |
+| Opprinnelig indikasjon | Graft Rejection |
+| Predikert ny indikasjon | HIV-infeksjon (HIV infectious disease) |
+| TxGNN-prediksjonsscore | 0,9986 |
+| Evidensnivå | L2 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 4 av 4) |
+| Antall godkjenninger | 4 (gyldige: 4) |
 | Anbefalt beslutning | Hold |
-
----
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i det kompilerte datagrunnlaget. Ut fra kjent informasjon hemmer mykofenolsyre (den aktive formen) enzymet inosinmonofosfat-dehydrogenase (IMPDH) og tømmer dermed guanosinnukleotidpoolen. Dette gir mindre proliferasjon av aktiverte T- og B-lymfocytter.
+Detaljerte mekanismedata (MOA) er ikke tilgjengelige i de innsamlede dataene. Ut fra kjent farmakologi hemmer mykofenolsyre enzymet inosinmonofosfat-dehydrogenase (IMPDH). Dette tømmer guanosinnukleotidpoolen, reduserer lymfocyttproliferasjon og begrenser substratet for revers transkripsjon av virus.
 
-For HIV gir dette en mulig «virostatisk» begrunnelse: lavere tilgang på byggesteiner for revers transkripsjon, mindre aktivering av T-celler og forsterket effekt av nukleosidanaloger som abakavir og didanosin. Kobling til den opprinnelige indikasjonen er først og fremst immunmodulering, ikke direkte antiviral virkning.
+Mykofenolat kan også forsterke den antivirale effekten av nukleosidanaloger som abakavir og didanosin, trolig via nedgang i intracellulært dGTP. Dette gir en plausibel «virostatisk» begrunnelse. Klinisk dokumentasjon er imidlertid begrenset til små studier, uten påvist varig nytte.
 
-Den kliniske støtten er begrenset til små studier hos behandlingsnaive og behandlingserfarne HIV-1-pasienter, uten påvist varig nytte.
+**Merknad om evidensnivå:** Ingen av de registrerte studiene har vist effekt av mykofenolat ved HIV. Den randomiserte studien (PMID 15353978) undersøkte virkning på HIV-1 RNA og latent reservoar, men gir ikke bevis for klinisk nytte. Datagrunnlaget er derfor tynt, og det rapporterte nivået L2 bør tolkes forsiktig.
 
----
-
-## Evidens fra kliniske studier
+## Klinisk studieevidens
 
 | Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT00038272](https://clinicaltrials.gov/study/NCT00038272) | Fase 2 | Fullført | 56 | DAPD alene vs. DAPD + mykofenolatmofetil som tillegg til anti-HIV-behandling; undersøker en annen virkestoffkombinasjon, kun indirekte relevant |
-| [NCT01288131](https://clinicaltrials.gov/study/NCT01288131) | Fase 3 | Avsluttet tidlig | 8 | Ciklosporin og mykofenolat ved anti-EPO-assosiert ren rød celleaplasi; svak kobling til HIV |
-| [NCT00112593](https://clinicaltrials.gov/study/NCT00112593) | Ikke relevant | Fullført | 5 | Stamcelletransplantasjon hos HIV-positive med mykofenolat som del av immundempende regime; ikke bevis for antiviral effekt |
-| [NCT00021489](https://clinicaltrials.gov/study/NCT00021489) | Fase 2 | Trukket tilbake | 0 | Mykofenolatmofetil som tillegg til abakavir; ingen deltakere og dermed ingen data |
-
----
+| [NCT00038272](https://clinicaltrials.gov/study/NCT00038272) | Fase 2 | Fullført | 56 | DAPD alene mot DAPD + mykofenolat som tillegg til anti-HIV-behandling; sikkerhet og effekt vurdert |
+| [NCT00021489](https://clinicaltrials.gov/study/NCT00021489) | Fase 2 | Trukket tilbake | 0 | Mykofenolat som tillegg til abakavir ved behandlingssvikt; ingen deltakere, ingen data |
+| [NCT00112593](https://clinicaltrials.gov/study/NCT00112593) | Ikke relevant | Fullført | 5 | Stamcelletransplantasjon hos HIV-positive med mykofenolat som del av immundempingen; ikke bevis for antiviral effekt |
+| [NCT01288131](https://clinicaltrials.gov/study/NCT01288131) | Fase 3 | Avsluttet | 8 | Ciklosporin og mykofenolat ved anti-EPO-assosiert erytroid aplasi; svak kobling til HIV |
 
 ## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [15353978](https://pubmed.ncbi.nlm.nih.gov/15353978/) | 2004 | RCT | AIDS | HAART med og uten mykofenolatmofetil hos behandlingsnaive HIV-1-pasienter; effekt på nedgang i HIV-1 RNA og det latent infiserte cellereservoaret |
-| [12352149](https://pubmed.ncbi.nlm.nih.gov/12352149/) | 2002 | Klinisk serie (5 pasienter) | J Acquir Immune Defic Syndr | Tillegg av mykofenolatmofetil til abakavirholdig regime ga uttømming av intracellulært dGTP og fall i plasma-HIV-1 RNA |
-| [15871638](https://pubmed.ncbi.nlm.nih.gov/15871638/) | 2005 | Farmakokinetikk/farmakodynamikk | Clin Pharmacokinet | Lavdose mykofenolatmofetil hos HIV-pasienter på abakavir, efavirenz og nelfinavir; overvåking anbefales |
-| [16379601](https://pubmed.ncbi.nlm.nih.gov/16379601/) | 2005 | Klinisk kortrapport | AIDS Res Hum Retroviruses | Ingen skadelige immunologiske effekter av mykofenolatmofetil sammen med HAART |
+| [15353978](https://pubmed.ncbi.nlm.nih.gov/15353978/) | 2004 | RCT | AIDS | HAART med eller uten mykofenolat hos behandlingsnaive; effekt på HIV-1 RNA og latent reservoar |
+| [12352149](https://pubmed.ncbi.nlm.nih.gov/12352149/) | 2002 | Klinisk studie (5 pasienter) | J Acquir Immune Defic Syndr | Tillegg av mykofenolat til abakavirbasert behandling ga lavere intracellulært dGTP og nedgang i plasma-HIV-1 RNA |
+| [15871638](https://pubmed.ncbi.nlm.nih.gov/15871638/) | 2005 | Farmakokinetikk/farmakodynamikk | Clin Pharmacokinet | Lavdose mykofenolat hos HIV-pasienter på abakavir, efavirenz og nelfinavir |
+| [16379601](https://pubmed.ncbi.nlm.nih.gov/16379601/) | 2005 | Klinisk studie | AIDS Res Hum Retroviruses | Ingen skadelige immunologiske effekter av mykofenolat sammen med HAART hos behandlingsnaive |
 | [17017956](https://pubmed.ncbi.nlm.nih.gov/17017956/) | 2006 | Oversikt | Curr Top Med Chem | Immundempende legemidler ved HIV-sykdom |
 | [16515490](https://pubmed.ncbi.nlm.nih.gov/16515490/) | 2006 | Oversikt | Curr Pharm Des | Virostatika som strategi mot HIV-infeksjon |
-| [20840478](https://pubmed.ncbi.nlm.nih.gov/20840478/) | 2010 | Retrospektiv studie | Am J Transplant | Nyretransplantasjon hos 27 HIV-infiserte med regime som inkluderte mykofenolatmofetil |
-| [41118390](https://pubmed.ncbi.nlm.nih.gov/41118390/) | 2025 | Prekliniske/in vitro | J Clin Invest | Selektiv målretting av HIV-infiserte T-cellekloner med antiproliferative legemidler |
-
----
+| [20840478](https://pubmed.ncbi.nlm.nih.gov/20840478/) | 2010 | Retrospektiv studie | Am J Transplant | Nyretransplantasjon hos HIV-infiserte i Paris; mykofenolat i langtidsbehandlingen |
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+| Autorisasjonsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000082 | CellCept | – | Transplantatavstøtning |
-| EMEA/H/C/000884 | Myfenax | – | Transplantatavstøtning |
-| EMEA/H/C/001218 | Myclausen | – | Transplantatavstøtning |
-| EMEA/H/C/000882 | Mycophenolate mofetil Teva | – | Transplantatavstøtning |
-
-Alle fire tillatelsene er kansellert, og ingen er gyldige i dag.
-
----
+| EMEA/H/C/000884 | Myfenax | – | Ikke registrert i lokale data |
+| EMEA/H/C/001218 | Myclausen | – | Ikke registrert i lokale data |
+| EMEA/H/C/000082 | CellCept | – | Ikke registrert i lokale data |
+| EMEA/H/C/000882 | Mycophenolate mofetil Teva | – | Ikke registrert i lokale data |
 
 ## Sikkerhetsvurderinger
 
-- **Kontraindikasjoner fra kunnskapsgraf (ikke preparatomtale):** TxGNN-kunnskapsgrafen angir blant annet leversykdom, galleblæresykdom, nøytropeni, agranulocytose, aktivt magesår, cytomegalovirusinfeksjon, herpes simplex og herpes zoster, progressiv multifokal leukoencefalopati, kreft (inkludert lymfom og hudkreft) samt ulike former for aplastisk anemi og beslektede benmargssvikt-syndromer (f.eks. Fanconi-anemi og Diamond-Blackfan-anemi).
-- **Legemiddelinteraksjoner:** 92 interaksjoner er registrert. Blant de mest sentrale:
-  - **Alvorlig:** aktivt kull.
-  - **Moderat:** protonpumpehemmere (omeprazol, esomeprazol, lansoprazol, deksla­nsoprazol, rabeprazol), antibiotika (amoksicillin, doksycyklin, tetrasyklin, minocyklin, klaritromycin, vankomycin, paromomycin, kanamycin) og antacida (magnesiumoksid, aluminiumhydroksid, kalsiumkarbonat).
-  - **Mindre:** sinksulfat, sinkacetat og jern.
-- Preparatomtalens advarsler og kontraindikasjoner er ikke tilgjengelige i datagrunnlaget og må innhentes før videre vurdering.
+**Legemiddelinteraksjoner:** Totalt 92 interaksjoner er registrert. Blant dem som er hentet frem:
+- **Alvorlig:** aktivt kull
+- **Moderat:** protonpumpehemmere (omeprazol, esomeprazol, lansoprazol, rabeprazol, deksansoprazol), antibiotika (amoksicillin, doksycyklin, tetracyklin, minocyklin, klaritromycin, vankomycin, kanamycin, paromomycin) og antacida (magnesiumoksid, aluminiumhydroksid, kalsiumkarbonat)
+- **Mindre:** sink (sulfat, acetat) og jern
 
----
+Se preparatomtalen for øvrig sikkerhetsinformasjon, inkludert advarsler og kontraindikasjoner.
 
 ## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Mekanismen (IMPDH-hemming, guanosinuttømming) er biologisk plausibel, men de kliniske dataene består av små, gamle studier uten påvist varig nytte, og den ene direkte studien med deltakere ble trukket tilbake. I tillegg har legemidlet ingen gyldig markedsføringstillatelse i Norge, og kunnskapsgrafen peker på betydelige kontraindikasjoner, blant annet infeksjoner og benmargssuppresjon, noe som er uheldig for HIV-pasienter.
+Mykofenolat har en plausibel mekanistisk begrunnelse ved HIV, men de registrerte studiene er små, trukket tilbake, avsluttet eller indirekte, og ingen har vist varig klinisk nytte. Det mangler også tilgjengelig sikkerhetsinformasjon fra preparatomtale, og immundempende behandling hos HIV-pasienter krever nøye vurdering.
 
 **For å gå videre kreves følgende:**
-- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel)
-- Detaljerte data om virkningsmekanisme fra DrugBank
-- Nyere, større randomiserte studier som viser klinisk nytte (for eksempel på HIV-reservoar eller immunaktivering)
-- Avklaring av regulatorisk status i Norge, siden alle tillatelser er kansellert
-- Vurdering av risiko for opportunistiske infeksjoner og benmargssuppresjon hos HIV-positive
-
-**Andre predikerte indikasjoner (kort):** Multippel sklerose (score 99,5 %, L2) har flest kliniske data blant de øvrige, med små fase 2-studier og Cochrane-oversikter som ikke har vist overlegenhet over etablert behandling. Hemosiderose har kun oversikter og kasuistikker (L4). De øvrige prediksjonene (blant annet Paget sykdom, Heiner syndrom, jernoverskudd og veterinære lentivirusinfeksjoner) mangler kliniske data og er kun modellbaserte (L5).
+- Randomiserte studier som direkte tester mykofenolat ved HIV med kliniske endepunkter
+- Data om virkningsmekanisme (MOA) og preparatomtale (advarsler og kontraindikasjoner)
+- Plan for sikkerhetsovervåking, særlig infeksjonsrisiko og interaksjoner med antiretroviral behandling
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

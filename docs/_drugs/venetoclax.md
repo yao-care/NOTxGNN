@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Venetoclax
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 447
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Venetoclax: predikert ny indikasjon Pregerminalsenter-KLL/SLL (evidensnivå L4). Opprinnelig indikasjon: Kronisk lymfatisk B-celleleukemi"
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
+description: "Venetoclax: predikert ny indikasjon Hodgkins lymphoma (evidensnivå L5). Opprinnelig indikasjon: Leukemia, Lymphocytic, Chronic, B-Cell"
 ---
 
 # Venetoclax
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Venetoklaks: Fra kronisk lymfatisk B-celleleukemi til pregerminalsenter-KLL/SLL
+## Venetoclax: Hodgkins lymphoma
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -48,11 +48,12 @@ Foreløpig finnes **0 kliniske studier** og **1 publikasjon** (en oversiktsartik
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Kronisk lymfatisk B-celleleukemi |
-| Predikert ny indikasjon | Pregerminalsenter-KLL/SLL |
-| TxGNN-prediksjonsscore | 99,55 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldige tillatelser) |
+| Opprinnelig indikasjon | Leukemia, Lymphocytic, Chronic, B-Cell |
+| Predikert ny indikasjon | Hodgkins lymphoma |
+| TxGNN-prediksjonsscore | 0.9951 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -84,9 +85,6 @@ Foreløpig ingen relaterte kliniske studier registrert.
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004106 | Venclyxto (AbbVie Deutschland GmbH & Co. KG) | Ikke oppgitt | Kronisk lymfatisk B-celleleukemi (status: avregistrert) |
 
 ---
 

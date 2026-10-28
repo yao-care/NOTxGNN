@@ -50,10 +50,10 @@ det finnes for øyeblikket **ingen kliniske studier** og **ingen publikasjoner**
 |------|------|
 | Opprinnelig indikasjon | Sarkom |
 | Predikert ny indikasjon | Prostatisk uretral urotelkarsinom |
-| TxGNN-prediksjonsscore | 99,81 % |
+| TxGNN-prediksjonsscore | 0,9981 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ikke markedsført) |
-| Antall godkjenninger | 1 (0 gyldige, 1 avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -62,12 +62,12 @@ det finnes for øyeblikket **ingen kliniske studier** og **ingen publikasjoner**
 
 Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Tasonermin er kjent som rekombinant humant TNF-alfa, brukt sammen med isolert lemperfusjon ved bløtdelssarkom. Virkningen i denne bruken antas å skyldes vaskulær skade i svulsten, men dette er ikke dokumentert i dataene som er samlet for denne rapporten.
 
-Det er ikke mulig å etablere en mekanistisk kobling mellom sarkom og urotelkarsinom i prostatisk uretra ut fra de foreliggende dataene. Den høye scoren (0,998) er en prediksjon fra kunnskapsgrafen alene. Systemisk TNF-alfa-toksisitet begrenser dessuten bruk utenfor regional administrering, og isolert lemperfusjon lar seg ikke overføre til svulster i urinveiene.
+Det er ikke mulig å etablere en mekanistisk kobling mellom sarkom og urotelkarsinom i prostatisk uretra ut fra de foreliggende dataene. Den høye scoren (0,998) er en prediksjon fra TxGNN-modellen (dyp læring) alene. Systemisk TNF-alfa-toksisitet begrenser dessuten bruk utenfor regional administrering, og isolert lemperfusjon lar seg ikke overføre til svulster i urinveiene.
 
 Flere av de øvrige topp-10-prediksjonene har et visst, men løst, slektskap med den opprinnelige indikasjonen:
 - **Sarkomatoid nyrebekken-overgangscellekarsinom** og **infiltrerende blæreurotelkarsinom, sarkomatoid variant**: den sarkomatoide histologien har mesenkymale trekk som ligner sarkom, noe som kan forklare modellens prediksjon. Direkte evidens mangler.
 - **HER2-positivt brystkarsinom**: TNF-alfa-signalering er kontekstavhengig og kan fremme svulstvekst, så rasjonalet er usikkert. Eksisterende HER2-målrettet behandling er svært effektiv.
-- **Gynekologiske karsinomer** (livmorligament, livmorhals): scorene gjenspeiler trolig likhet med nærliggende noder i grafen.
+- **Gynekologiske karsinomer** (livmorligament, livmorhals): scorene kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 ---
 
@@ -116,7 +116,7 @@ Se pakningsvedlegget for sikkerhetsinformasjon. Det er ikke funnet registrerte l
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en kunnskapsgraf-score (evidensnivå L5), uten kliniske studier, litteratur eller en identifiserbar mekanistisk kobling. Legemidlet er dessuten avregistrert i Norge, og systemisk toksisitet begrenser anvendelsen. Det samme gjelder alle de ti predikerte indikasjonene.
+Prediksjonen bygger kun på en score fra TxGNN-modellen (dyp læring) (evidensnivå L5), uten kliniske studier, litteratur eller en identifiserbar mekanistisk kobling. Scoren kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Legemidlet er markedsført i Norge (1 av 1 lisens er gyldig), men systemisk toksisitet begrenser anvendelsen. Det samme gjelder alle de ti predikerte indikasjonene.
 
 **For å gå videre kreves følgende:**
 - Innhenting og analyse av pakningsvedlegget med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)

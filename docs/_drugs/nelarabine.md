@@ -6,9 +6,9 @@ nav_order: 279
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Nelarabine: predikert ny indikasjon Relapsing-remitting multippel sklerose (evidensnivå L5). Opprinnelig indikasjon: Prekursor T-celle lymfoblastisk leukemi/lymfom"
 monitor_inn: "NELARABINE"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
+description: "Nelarabine: predikert ny indikasjon Relapsing-remitting multippel sklerose (relapsing-remitting multiple sclerosis) (evidensnivå L5). Opprinnelig indikasjon: Precursor T-Cell Lymphoblastic Leukemia-L…"
 ---
 
 # Nelarabine
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-## Nelarabin: Fra prekursor T-celle lymfoblastisk leukemi/lymfom til relapsing-remitting multippel sklerose
+## Nelarabine: Relapsing-remitting multippel sklerose (relapsing-remitting multiple sclerosis)
 {: .text-alpha }
 
 ## Oppsummering
@@ -49,12 +49,12 @@ Nelarabin er dessuten kjent for alvorlig nevrotoksisitet, noe som utgjør en bet
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Prekursor T-celle lymfoblastisk leukemi/lymfom |
-| Predikert ny indikasjon | Relapsing-remitting multippel sklerose |
-| TxGNN-prediksjonsscore | 99,43 % |
+| Opprinnelig indikasjon | Precursor T-Cell Lymphoblastic Leukemia-Lymphoma |
+| Predikert ny indikasjon | Relapsing-remitting multippel sklerose (relapsing-remitting multiple sclerosis) |
+| TxGNN-prediksjonsscore | 0.9943 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 1 (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -87,7 +87,7 @@ Foreløpig er det ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/000752 | Atriance (Sandoz Pharmaceuticals d.d.) | – | Prekursor T-celle lymfoblastisk leukemi/lymfom |
 
-Godkjenningen er kansellert; det finnes ingen gyldige godkjenninger.
+Legemidlet er markedsført i Norge, og 1 av 1 markedsføringstillatelse er gyldig.
 
 ---
 
@@ -96,7 +96,6 @@ Godkjenningen er kansellert; det finnes ingen gyldige godkjenninger.
 | Punkt | Innhold |
 |------|------|
 | Cytotoksisitetsklassifisering | Konvensjonelt cytotoksisk (purinnukleosidanalog, antimetabolitt) |
-| Risiko for myelosuppresjon | Se pakningsvedlegget for advarsler og forsiktighetsregler. Kunnskapsgrafen peker mot nøytropeni, trombocytopeni og anemi som relevante risikoer |
 | Emetogenisitetsklassifisering | Se pakningsvedlegget for advarsler og forsiktighetsregler |
 | Overvåkingspunkter | Blodstatus (CBC med differensialtelling), lever- og nyrefunksjon, samt nevrologisk overvåking |
 | Håndteringsbeskyttelse | Må følge gjeldende regler for håndtering av cytotoksiske legemidler |
@@ -123,7 +122,7 @@ Advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelige i de i
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Det eneste som støtter prediksjonen er en høy TxGNN-score (evidensnivå L5), uten kliniske studier eller litteratur. I tillegg er nelarabins alvorlige nevrotoksisitet, inkludert demyelinisering, i direkte konflikt med behandling av multippel sklerose. Preparatet har heller ingen gyldig markedsføringstillatelse i Norge.
+Det eneste som støtter prediksjonen er en høy TxGNN-score (evidensnivå L5), uten kliniske studier eller litteratur. I tillegg er nelarabins alvorlige nevrotoksisitet, inkludert demyelinisering, i direkte konflikt med behandling av multippel sklerose. Preparatet er markedsført i Norge, med 1 gyldig markedsføringstillatelse av 1.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtalens advarsler og kontraindikasjoner (blokkerende datamangel)

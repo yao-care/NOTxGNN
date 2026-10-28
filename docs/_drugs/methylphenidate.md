@@ -49,9 +49,10 @@ TxGNN-modellen predikerer at det kan ha effekt ved **faciodigitogenital syndrom*
 |------|------|
 | Opprinnelig indikasjon | Oppmerksomhetssvikt med hyperaktivitet (ADHD) |
 | Predikert ny indikasjon | Faciodigitogenital syndrom |
-| TxGNN-prediksjonsscore | 99,998 % |
+| TxGNN-prediksjonsscore | 1,0000 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert/trukket tilbake (ingen gyldige tillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
 | Anbefalt beslutning | Hold (avvent) |
 
@@ -83,7 +84,7 @@ Foreløpig er ingen relatert litteratur tilgjengelig for denne indikasjonen.
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/005975 | Tuzulby | Ikke oppgitt | Oppmerksomhetssvikt med hyperaktivitet (ADHD) (status: avregistrert) |
+| EMEA/H/C/005975 | Tuzulby | Ikke oppgitt | Oppmerksomhetssvikt med hyperaktivitet (ADHD) (status: godkjent) |
 
 ---
 
@@ -108,7 +109,7 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 **Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en beregningsmodell uten kliniske studier eller litteratur, og det finnes ingen støttet mekanistisk kobling. Legemidlet har dessuten ingen gyldig tillatelse i Norge.
+Prediksjonen bygger kun på en beregningsmodell uten kliniske studier eller litteratur, og det finnes ingen støttet mekanistisk kobling. Legemidlet er dessuten markedsført i Norge, med 1 gyldig tillatelse av 1.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
@@ -122,9 +123,9 @@ Prediksjonen bygger kun på en beregningsmodell uten kliniske studier eller litt
 
 | Sykdom | TxGNN-score | Evidensnivå | Anbefaling |
 |------|------|------|------|
-| Kondromyksoid fibrom | 99,991 % | L5 | Hold – sannsynligvis falsk positiv, ingen plausibel mekanisme |
-| Spesifikk utviklingsforstyrrelse | 99,988 % | L4 | Forskningsspørsmål – i stor grad en gjentakelse av eksisterende ADHD-indikasjon, indirekte evidens |
-| Dysthymi (dystymisk lidelse) | 99,109 % | L4 | Forskningsspørsmål – kun indirekte evidens fra ADHD med subsyndromal depresjon |
+| Kondromyksoid fibrom | 0,9999 | L5 | Hold – sannsynligvis falsk positiv, ingen plausibel mekanisme |
+| Spesifikk utviklingsforstyrrelse | 0,9999 | L5 | Forskningsspørsmål – i stor grad en gjentakelse av eksisterende ADHD-indikasjon, indirekte evidens |
+| Dysthymi (dystymisk lidelse) | 0,9911 | L5 | Forskningsspørsmål – kun indirekte evidens fra ADHD med subsyndromal depresjon |
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

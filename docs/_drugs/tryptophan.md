@@ -6,7 +6,7 @@ nav_order: 437
 evidence_level: L3
 indication_count: 8
 last_modified_at: 2026-10-15
-description: "Tryptophan: predikert ny indikasjon Rastløse bens syndrom (evidensnivå L3). Opprinnelig indikasjon: Lønnesirupsyke (Maple Syrup Urine Disease)"
+description: "Tryptophan: predikert ny indikasjon Restless legs-syndrom (evidensnivå L3). Opprinnelig indikasjon: Lønnesirupsyke (Maple Syrup Urine Disease)"
 monitor_inn: "tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-## Tryptofan: Fra lønnesirupsyke (MSUD) til rastløse bens syndrom
+## Tryptofan: Fra lønnesirupsyke (MSUD) til Restless legs-syndrom
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -48,10 +48,10 @@ Tryptofan er en essensiell aminosyre og forstadium til serotonin og melatonin. P
 |------|------|
 | Opprinnelig indikasjon | Lønnesirupsyke (Maple Syrup Urine Disease) |
 | Foreslått ny indikasjon | Rastløse bens syndrom |
-| TxGNN-prediksjonsscore | 99,72 % |
+| TxGNN-prediksjonsscore | 0,9972 |
 | Evidensnivå | L3 |
-| Markedsstatus i Norge | Kun tilbakekalte/avregistrerte godkjenninger (ingen gyldig markedsføringstillatelse) |
-| Antall godkjenninger | 1 (0 gyldige, 1 avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -112,14 +112,14 @@ Opplysninger om advarsler og kontraindikasjoner fra preparatomtalen mangler. Se 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonsscoren er høy, men evidensen for RLS består kun av to små, gamle kliniske studier og indirekte litteratur, uten registrerte kliniske studier. I tillegg er det ingen gyldig markedsføringstillatelse i Norge, og sikkerhetshistorikken (eosinofili-myalgi-syndrom) og de mange alvorlige interaksjonene krever forsiktighet.
+Prediksjonsscoren er høy, men evidensen for RLS består kun av to små, gamle kliniske studier og indirekte litteratur, uten registrerte kliniske studier. Legemidlet er markedsført i Norge (1 gyldig markedsføringstillatelse av 1), men sikkerhetshistorikken (eosinofili-myalgi-syndrom) og de mange alvorlige interaksjonene krever forsiktighet.
 
 **For å gå videre kreves følgende:**
 - Sikkerhetsdata fra preparatomtalen (advarsler og kontraindikasjoner), som for øyeblikket blokkerer sikkerhetsscreeningen
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Moderne, kontrollerte kliniske studier av tryptofan ved RLS
 - Vurdering av farmasøytisk kvalitet og renhet for å utelukke risiko for eosinofili-myalgi-syndrom
-- Vurdering av serotonerg interaksjonsrisiko og av kontraindiserte tilstander fra kunnskapsgrafen
+- Vurdering av serotonerg interaksjonsrisiko og av kontraindiserte tilstander
 
 ---
 

@@ -48,10 +48,10 @@ Elafibranor er et legemiddel som opprinnelig er godkjent for behandling av bili�
 |------|------|
 | Opprinnelig indikasjon | Biliær levercirrhose (Liver Cirrhosis, Biliary) |
 | Predikert ny indikasjon | Amenoré |
-| TxGNN-prediksjonsscore | 99,86 % |
+| TxGNN-prediksjonsscore | 0,9986 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert/trukket tilbake |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -84,7 +84,7 @@ Foreløpig finnes det ingen relatert litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/006231 | Iqirvo | – | Liver Cirrhosis, Biliary (biliær levercirrhose) |
 
-Merk: Godkjenningen er registrert med status «avregistrert/trukket tilbake», og det finnes ingen gyldige godkjenninger i dataene.
+Merk: Legemidlet er markedsført, og 1 av 1 godkjenning er gyldig i dataene.
 
 ---
 

@@ -4,7 +4,7 @@ title: Serine
 parent: Kun modellprediksjon (L5)
 nav_order: 381
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Serine: predikert ny indikasjon Familiær visceral myopati (evidensnivå L5). Opprinnelig indikasjon: Lønnesirupsyke (Maple Syrup Urine Disease)"
 monitor_inn: "serine"
@@ -14,7 +14,7 @@ predicted_indications: ["familial visceral myopathy", "intestinal obstruction", 
 # Serine
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Serin er en aminosyre som i EU er godkjent under handelsnavnet Maapliv, opprinne
 |------|------|
 | Opprinnelig indikasjon | Lønnesirupsyke (Maple Syrup Urine Disease) |
 | Predikert ny indikasjon | Familiær visceral myopati |
-| TxGNN-prediksjonsscore | 99,99 % |
+| TxGNN-prediksjonsscore | 0,9999 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun tilbakekalt/avregistrert (ingen gyldige godkjenninger) |
-| Antall godkjenninger | 1 (0 gyldige, 1 avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold (avvent) |
 
 ---
@@ -60,7 +60,7 @@ Serin er en aminosyre som i EU er godkjent under handelsnavnet Maapliv, opprinne
 
 Data om virkningsmekanisme (MOA) for serin er for øyeblikket ikke tilgjengelig. Serin er en naturlig forekommende aminosyre, og det finnes ingen dokumentasjon i datagrunnlaget for at serintilskudd påvirker sykdomsmekanismen ved familiær visceral myopati.
 
-Familiær visceral myopati er en sjelden arvelig sykdom i tarmens glatte muskulatur (for eksempel ACTG2-relatert). Det er ikke påvist noen mekanistisk kobling mellom serin og denne patologien. Den høye TxGNN-scoren (0,9999) er en ren grafbasert prediksjon, og tilsvarende score for flere beslektede tarmmotilitetssykdommer tyder på at signalet delvis er delt gjennom kunnskapsgrafen, ikke spesifikt for serin.
+Familiær visceral myopati er en sjelden arvelig sykdom i tarmens glatte muskulatur (for eksempel ACTG2-relatert). Det er ikke påvist noen mekanistisk kobling mellom serin og denne patologien. Den høye TxGNN-scoren (0,9999) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Tilsvarende score for flere beslektede tarmmotilitetssykdommer tyder på at signalet delvis er delt mellom disse sykdommene, ikke spesifikt for serin.
 
 Det er også verdt å merke seg at litteratursøk for andre predikerte indikasjoner (tarmobstruksjon og vinkelblokkglaukom) i hovedsak ga treff på nøkkelord som «serinprotease» og «serin/treoninkinase» (for eksempel STK11 ved Peutz-Jeghers syndrom og PRSS56 ved glaukom). Dette er gen- og proteinnavn og sier ingenting om serin som legemiddel.
 
@@ -86,7 +86,7 @@ For nærliggende predikerte indikasjoner (tarmobstruksjon, vinkelblokkglaukom) b
 |---------|------|------|-----------|
 | EMEA/H/C/005557 | Maapliv | Ikke oppgitt | Lønnesirupsyke (Maple Syrup Urine Disease) |
 
-Godkjenningen er registrert som avregistrert/tilbakekalt. Det finnes ingen gyldige godkjenninger for serin i Norge.
+Det finnes 1 gyldig godkjenning av 1 for serin i Norge, og legemidlet er markedsført.
 
 ---
 
@@ -111,7 +111,7 @@ For øvrig henvises det til preparatomtalen for sikkerhetsinformasjon.
 **Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Prediksjonen er utelukkende modellbasert (evidensnivå L5) uten kliniske studier, uten relevant litteratur og uten kjent mekanistisk kobling. I tillegg er det ingen gyldig markedsføringstillatelse i Norge, og viktige sikkerhetsdata mangler.
+Prediksjonen er utelukkende modellbasert (evidensnivå L5) uten kliniske studier, uten relevant litteratur og uten kjent mekanistisk kobling. I tillegg mangler viktige sikkerhetsdata, selv om legemidlet er markedsført i Norge (1 gyldig godkjenning av 1).
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

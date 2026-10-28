@@ -4,17 +4,17 @@ title: Parathyroid Hormone
 parent: Moderat evidens (L3-L4)
 nav_order: 312
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Parathyroid Hormone: predikert ny indikasjon Migrene (migraine disorder) (evidensnivå L4). Opprinnelig indikasjon: Hypoparatyreoidisme"
 monitor_inn: "PARATHYROID HORMONE"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "amenorrhea (disease)", "Raynaud disease", "non-syndromic esophageal malformation", "migraine with or without aura, susceptibility to", "esophageal disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "erectile dysfunction (disease)"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "amenorrhea (disease)", "Raynaud disease", "non-syndromic esophageal malformation", "esophageal disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "erectile dysfunction (disease)"]
 ---
 
 # Parathyroid Hormone
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,10 @@ Støtten er svak: det finnes **ingen kliniske studier** og **5 publikasjoner**, 
 |------|------|
 | Opprinnelig indikasjon | Hypoparatyreoidisme |
 | Predikert ny indikasjon | Migrene (migraine disorder) |
-| TxGNN-prediksjonsscore | 99,98 % |
+| TxGNN-prediksjonsscore | 0,9998 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun avregistrerte (opphørte) tillatelser |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -90,7 +91,7 @@ Det er for tiden ingen relaterte kliniske studier registrert.
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/003861 | Natpar | Ikke oppgitt | Hypoparatyreoidisme (avregistrert) |
+| EMEA/H/C/003861 | Natpar | Ikke oppgitt | Hypoparatyreoidisme (godkjent) |
 
 ---
 

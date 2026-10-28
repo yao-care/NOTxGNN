@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Buprenorphine
-parent: Kun modellprediksjon (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 71
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Buprenorphine: predikert ny indikasjon Akutt intermitterende porfyri (evidensnivå L5). Opprinnelig indikasjon: Opioidrelaterte lidelser"
@@ -14,7 +14,7 @@ predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal d
 # Buprenorphine
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **akutt intermitterend
 |------|------|
 | Opprinnelig indikasjon | Opioidrelaterte lidelser |
 | Predikert ny indikasjon | Akutt intermitterende porfyri |
-| TxGNN-prediksjonsscore | 99,41 % |
+| TxGNN-prediksjonsscore | 0,9941 |
 | Evidensnivå | L4 (data om faktisk effekt mangler; kun en kasuistikk, i praksis nær L5) |
-| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
-| Antall godkjenninger | 4 (alle kansellerte) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 4 av 4) |
+| Antall godkjenninger | 4 (gyldige: 4) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -63,7 +63,7 @@ Data om virkningsmekanisme er for tiden ikke tilgjengelig i de innsamlede dataen
 
 Det finnes ingen tydelig mekanistisk kobling mellom opioidavhengighet og akutt intermitterende porfyri. Den eneste publikasjonen er en japansk kasuistikk om anestesihåndtering hos en pasient med porfyri. Den gjelder legemiddelhåndtering og sikkerhet rundt operasjon, ikke buprenorfins effekt på selve sykdommen.
 
-Den svært høye TxGNN-scoren (0,994) støttes ikke av kliniske eller mekanistiske data. Ved porfyri må dessuten legemiddelsikkerhet (risiko for å utløse porfyriangrep) vurderes nøye før enhver bruk.
+Den svært høye TxGNN-scoren (0,9941) støttes ikke av kliniske eller mekanistiske data. Ved porfyri må dessuten legemiddelsikkerhet (risiko for å utløse porfyriangrep) vurderes nøye før enhver bruk.
 
 ---
 
@@ -108,7 +108,7 @@ Pakningsvedlegget (varsler og kontraindikasjoner) er ikke tilgjengelig i de inns
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger på modellscore alene. Det finnes ingen kliniske studier, den eneste publikasjonen er en kasuistikk om anestesi uten effektdata, og det er ingen tydelig mekanistisk kobling. Legemidlet har dessuten ingen gyldig godkjenning i Norge, og porfyri er en tilstand der legemiddelsikkerhet er særlig kritisk.
+Prediksjonen bygger på modellscore alene. Det finnes ingen kliniske studier, den eneste publikasjonen er en kasuistikk om anestesi uten effektdata, og det er ingen tydelig mekanistisk kobling. Legemidlet er dessuten markedsført i Norge med 4 gyldige markedsføringstillatelser av 4, og porfyri er en tilstand der legemiddelsikkerhet er særlig kritisk.
 
 **For å gå videre kreves følgende:**
 - Pakningsvedlegg (varsler og kontraindikasjoner) fra DMP, som for øyeblikket mangler og blokkerer sikkerhetsscreeningen
@@ -125,11 +125,11 @@ De øvrige predikerte indikasjonene har også anbefalingen **Hold**:
 
 | Predikert indikasjon | TxGNN-score | Evidensnivå | Kommentar |
 |------|------|------|------|
-| Lingual-fasial-bukkal dyskinesi | 99,32 % | L4 | Ingen kliniske studier. Litteraturen er indirekte (opioider ved agitasjon og smerte ved demens, dyrestudier) og evaluerer ikke dyskinesi. |
-| Kronisk tics-lidelse | 99,13 % | L5 | Kun modellprediksjon, ingen studier eller litteratur. |
-| Kontinuerlige pigger og bølger under søvn | 99,05 % | L5 | Kun modellprediksjon. Opioider kan i noen situasjoner senke krampeterskelen, noe som gir en sikkerhetsbekymring. |
-| Ekstrapyramidal sykdom og bevegelsesforstyrrelse | 99,03 % | L5 | Kun modellprediksjon, bred kategori uten direkte evidens. |
-| Godartede skjelveanfall (benign shuddering attacks) | 99,03 % | L5 | Kun modellprediksjon. Tilstanden er godartet og selvbegrensende, så risiko–nytte for en opioid er ugunstig. |
+| Lingual-fasial-bukkal dyskinesi | 0,9932 | L5 | Ingen kliniske studier. Litteraturen er indirekte (opioider ved agitasjon og smerte ved demens, dyrestudier) og evaluerer ikke dyskinesi. |
+| Kronisk tics-lidelse | 0,9913 | L5 | Kun modellprediksjon, ingen studier eller litteratur. |
+| Kontinuerlige pigger og bølger under søvn | 0,9905 | L5 | Kun modellprediksjon. Opioider kan i noen situasjoner senke krampeterskelen, noe som gir en sikkerhetsbekymring. |
+| Ekstrapyramidal sykdom og bevegelsesforstyrrelse | 0,9903 | L5 | Kun modellprediksjon, bred kategori uten direkte evidens. |
+| Godartede skjelveanfall (benign shuddering attacks) | 0,9903 | L5 | Kun modellprediksjon. Tilstanden er godartet og selvbegrensende, så risiko–nytte for en opioid er ugunstig. |
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

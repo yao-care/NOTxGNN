@@ -48,9 +48,10 @@ Anagrelid er et plateletsenkende legemiddel som opprinnelig brukes til behandlin
 |------|------|
 | Opprinnelig indikasjon | Essensiell trombocytemi |
 | Predikert ny indikasjon | Reaktiv trombocytose |
-| TxGNN-prediksjonsscore | 99,83 % |
+| TxGNN-prediksjonsscore | 0,9983 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun opphevede tillatelser |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Antall tillatelser | 2 (begge opphevet) |
 | Anbefalt beslutning | Hold |
 
@@ -62,9 +63,9 @@ Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som
 
 Reaktiv (sekundær) trombocytose skyldes cytokiner som IL-6 og trombopoietin, som frigjøres ved betennelse, jernmangel, infeksjon, kreft eller etter miltfjerning. Den plateletsenkende effekten kan i prinsippet være relevant. Reaktiv trombocytose er imidlertid vanligvis godartet og selvbegrensende med lav trombose­risiko, slik at cytoreduktiv behandling sjelden er indisert.
 
-Den høye TxGNN-scoren (0,998) gjenspeiler trolig likheten mellom tilstanden og den godkjente indikasjonen, ikke uavhengig evidens. Siden den innhentede litteraturen hovedsakelig handler om essensiell trombocytemi, er koblingen til reaktiv trombocytose indirekte.
+Den høye TxGNN-scoren (0,9983) gjenspeiler trolig likheten mellom tilstanden og den godkjente indikasjonen, ikke uavhengig evidens. Siden den innhentede litteraturen hovedsakelig handler om essensiell trombocytemi, er koblingen til reaktiv trombocytose indirekte.
 
-Prediksjon nr. 2, **invers Klippel-Trenaunay syndrom** (score 99,59 %), har ingen kliniske studier og ingen litteratur (evidensnivå L5). Tilstanden er en vaskulær overvekstlidelse, ofte knyttet til somatiske PIK3CA-mutasjoner, og er ikke primært en blodplatelidelse. Det finnes ingen kjent mekanistisk kobling til anagrelid, og prediksjonen er kun beregningsbasert.
+Prediksjon nr. 2, **invers Klippel-Trenaunay syndrom** (score 0,9959), har ingen kliniske studier og ingen litteratur (evidensnivå L5). Tilstanden er en vaskulær overvekstlidelse, ofte knyttet til somatiske PIK3CA-mutasjoner, og er ikke primært en blodplatelidelse. Det finnes ingen kjent mekanistisk kobling til anagrelid, og prediksjonen er kun beregningsbasert.
 
 ---
 

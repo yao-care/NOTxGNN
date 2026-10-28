@@ -48,10 +48,10 @@ Pentosanpolysulfat er et sulfatert polysakkarid som opprinnelig ble godkjent for
 |------|------|
 | Opprinnelig indikasjon | Interstitiell cystitt |
 | Predikert ny indikasjon | Primær frigjøringsforstyrrelse i blodplater |
-| TxGNN-prediksjonsscore | 99,71 % |
+| TxGNN-prediksjonsscore | 0,9971 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun tilbakekalte/avregistrerte godkjenninger (ingen gyldig godkjenning) |
-| Antall godkjenninger | 1 (avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -60,14 +60,14 @@ Pentosanpolysulfat er et sulfatert polysakkarid som opprinnelig ble godkjent for
 
 Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Basert på kjent informasjon er pentosanpolysulfat et sulfatert polysakkarid med svak heparinlignende antikoagulerende og antitrombotisk aktivitet. Effekten ved interstitiell cystitt er knyttet til en annen virkning (beskyttelse av blæreslimhinnen), og denne har ingen åpenbar sammenheng med blodplatefunksjon.
 
-En frigjøringsforstyrrelse i blodplater er en blødningsforstyrrelse. Et middel med antikoagulerende egenskaper ville teoretisk forventes å forverre blødningstendensen, ikke behandle den. Den høye TxGNN-scoren (0,997) er en beregnet prediksjon uten klinisk støtte, og effektretningen er trolig motsatt av terapeutisk nytte.
+En frigjøringsforstyrrelse i blodplater er en blødningsforstyrrelse. Et middel med antikoagulerende egenskaper ville teoretisk forventes å forverre blødningstendensen, ikke behandle den. Den høye TxGNN-scoren (0,9971) er en beregnet prediksjon uten klinisk støtte, og effektretningen er trolig motsatt av terapeutisk nytte.
 
 To andre prediksjoner med lignende mønster er også identifisert:
 
 | Rang | Predikert sykdom | TxGNN-score | Vurdering |
 |------|------|------|------|
-| 2 | Glanzmanns trombasteni | 99,65 % | Skyldes mangel på eller dysfunksjon av integrin αIIbβ3 (GPIIb/IIIa). Pentosanpolysulfat har ingen kjent mekanisme som gjenoppretter reseptoren, og den antikoagulerende effekten kan forverre blødning. Sikkerhetsbekymring snarere enn terapeutisk rasjonale. |
-| 3 | Pseudo-von Willebrands sykdom | 99,62 % | Skyldes økt GPIbα-binding til von Willebrand-faktor. Teoretisk kan et polyanionisk stoff interagere med von Willebrand-faktor eller blodplateproteiner, men det finnes ingen evidens for korrigerende effekt, og blødningsrisikoen er økt. |
+| 2 | Glanzmanns trombasteni | 0,9965 | Skyldes mangel på eller dysfunksjon av integrin αIIbβ3 (GPIIb/IIIa). Pentosanpolysulfat har ingen kjent mekanisme som gjenoppretter reseptoren, og den antikoagulerende effekten kan forverre blødning. Sikkerhetsbekymring snarere enn terapeutisk rasjonale. |
+| 3 | Pseudo-von Willebrands sykdom | 0,9962 | Skyldes økt GPIbα-binding til von Willebrand-faktor. Teoretisk kan et polyanionisk stoff interagere med von Willebrand-faktor eller blodplateproteiner, men det finnes ingen evidens for korrigerende effekt, og blødningsrisikoen er økt. |
 
 Alle tre har evidensnivå L5 og anbefalingen Hold.
 
@@ -91,7 +91,7 @@ Foreløpig ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/004246 | Elmiron | – | Interstitiell cystitt |
 
-Godkjenningen har status avregistrert/tilbakekalt, og det finnes ingen gyldige godkjenninger i Norge.
+Legemidlet er markedsført i Norge, og 1 av 1 godkjenning er gyldig.
 
 ---
 

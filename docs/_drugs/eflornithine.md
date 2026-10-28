@@ -47,19 +47,19 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **esotropi**, men det 
 |------|------|
 | Opprinnelig indikasjon | Hirsutisme |
 | Predikert ny indikasjon | Esotropi |
-| TxGNN-prediksjonsscore | 99,85 % |
+| TxGNN-prediksjonsscore | 0,9985 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (ingen gyldige markedsføringstillatelser) |
-| Antall godkjenninger | 1 (trukket tilbake) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ## Hvorfor er denne prediksjonen rimelig?
 
 Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i den sammenstilte posten. Ut fra generell farmakologi er eflornitin en irreversibel hemmer av ornitindekarboksylase (ODC, kodet av *ODC1*), det hastighetsbegrensende enzymet i polyaminsyntesen. Mekanismen forklarer effekten ved hirsutisme, der hemming av polyaminer bremser celledeling i hårfollikler. Legemidlet brukes også ved afrikansk søvnsyke og er nylig godkjent i USA som vedlikeholdsbehandling ved høyrisiko nevroblastom.
 
-Det er vanskelig å se en plausibel mekanistisk sammenheng mellom ODC-hemming og esotropi. Esotropi er en forstyrrelse i øyets innstilling som skyldes nevromuskulære, refraktive eller binokulære faktorer. Den svært høye TxGNN-scoren (0,9985) er en ren modellprediksjon uten støtte i studier eller litteratur, og den kan gjenspeile artefakter i kunnskapsgrafen. Prediksjonen bør derfor tolkes med stor forsiktighet.
+Det er vanskelig å se en plausibel mekanistisk sammenheng mellom ODC-hemming og esotropi. Esotropi er en forstyrrelse i øyets innstilling som skyldes nevromuskulære, refraktive eller binokulære faktorer. Den svært høye TxGNN-scoren (0,9985) kommer fra TxGNN-modellen (dyp læring) og er en ren modellprediksjon uten støtte i studier eller litteratur. Scoren kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Prediksjonen bør derfor tolkes med stor forsiktighet.
 
-Som sekundær prediksjon fremhever modellen også **nevrotrofisk keratopati** (score 99,38 %). Her finnes en teoretisk kobling via polyaminenes rolle i celleproliferasjon og nerveregenerering, men polyaminmangel vil sannsynligvis svekke fremfor å fremme sårheling i hornhinnen. Effektretningen er uklar og muligens ugunstig, og koblingen er spekulativ.
+Som sekundær prediksjon fremhever modellen også **nevrotrofisk keratopati** (score 0,9938). Her finnes en teoretisk kobling via polyaminenes rolle i celleproliferasjon og nerveregenerering, men polyaminmangel vil sannsynligvis svekke fremfor å fremme sårheling i hornhinnen. Effektretningen er uklar og muligens ugunstig, og koblingen er spekulativ.
 
 ## Klinisk studiedokumentasjon
 
@@ -73,7 +73,7 @@ Foreløpig er ingen relatert litteratur tilgjengelig.
 
 | Godkjenningsnummer | Produktnavn | Doseform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000325 | Vaniqa (Almirall, S.A.) | Ikke oppgitt | Hirsutisme (status: trukket tilbake) |
+| EMEA/H/C/000325 | Vaniqa (Almirall, S.A.) | Ikke oppgitt | Hirsutisme (status: godkjent) |
 
 ## Sikkerhetsvurderinger
 
@@ -87,7 +87,7 @@ For fullstendig sikkerhetsinformasjon (advarsler og kontraindikasjoner) må prep
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonene for esotropi og nevrotrofisk keratopati bygger kun på modellscore (evidensnivå L5), uten kliniske studier, litteratur eller en plausibel mekanistisk kobling. Legemidlet har dessuten ingen gyldig markedsføringstillatelse i Norge.
+Prediksjonene for esotropi og nevrotrofisk keratopati bygger kun på modellscore (evidensnivå L5), uten kliniske studier, litteratur eller en plausibel mekanistisk kobling. Legemidlet er markedsført i Norge, med 1 gyldig markedsføringstillatelse av 1.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtalens advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)

@@ -48,10 +48,10 @@ Oktreotid er en somatostatinanalog som opprinnelig brukes til behandling av akro
 |------|------|
 | Opprinnelig indikasjon | Akromegali |
 | Predikert ny indikasjon | Vulvær inversert follikulær keratose |
-| TxGNN-prediksjonsscore | 99,58 % |
+| TxGNN-prediksjonsscore | 0,9958 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun tilbaketrukne (kansellerte) godkjenninger |
-| Antall godkjenninger | 1 (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -62,9 +62,9 @@ Oktreotid er en somatostatinanalog (peptid) som virker på somatostatinreseptore
 
 Det er ikke påvist noen etablert mekanistisk sammenheng mellom akromegali og vulvær inversert follikulær keratose. En teoretisk kobling forutsetter at somatostatinreseptorer uttrykkes i follikulære keratinocyttlesjoner, eller at IGF-1/vekstfaktorsignalering spiller en rolle i lesjonenes proliferasjon. Ingen av delene er støttet av de tilgjengelige dataene.
 
-Den høye TxGNN-scoren (0,996) er kun en beregningsmessig prediksjon uten støtte fra kliniske data eller litteratur. Den bør ses som et hypotesegenererende signal, ikke som en etablert kandidat for reposisjonering.
+Den høye TxGNN-scoren (0,9958) er kun en beregningsmessig prediksjon uten støtte fra kliniske data eller litteratur. Den bør ses som et hypotesegenererende signal, ikke som en etablert kandidat for reposisjonering.
 
-Modellen predikerer også **seboreisk keratose** (score 99,55 %, evidensnivå L5, anbefaling Hold). Heller ikke her finnes det studier eller litteratur. En hypotetisk forklaring er modulering av IGF-1/vekstfaktorsignalering i godartede epidermale proliferasjoner, men ingen data kobler oktreotid til denne tilstanden.
+Modellen predikerer også **seboreisk keratose** (score 0,9955, evidensnivå L5, anbefaling Hold). Heller ikke her finnes det studier eller litteratur. En hypotetisk forklaring er modulering av IGF-1/vekstfaktorsignalering i godartede epidermale proliferasjoner, men ingen data kobler oktreotid til denne tilstanden.
 
 ---
 
@@ -86,7 +86,7 @@ Det er for øyeblikket ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/006322 (kansellert) | Oczyesa (Camurus AB) | Ikke oppgitt | Akromegali |
 
-Det finnes ingen gyldige godkjenninger for oktreotid i de sammenstilte dataene.
+Oktreotid er markedsført, og det finnes 1 gyldig godkjenning av 1 i de sammenstilte dataene.
 
 ---
 

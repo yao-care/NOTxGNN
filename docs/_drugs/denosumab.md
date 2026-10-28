@@ -50,9 +50,10 @@ men det finnes **ingen kliniske studier** og **ingen litteratur som direkte unde
 |------|------|
 | Opprinnelig indikasjon | Tap av benmasse, postmenopausal osteoporose, osteoporose |
 | Predikert ny indikasjon | Alvorlig ikke-proliferativ diabetisk retinopati |
-| TxGNN-prediksjonsscore | 99,63 % |
+| TxGNN-prediksjonsscore | 0,9963 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun opphevede tillatelser |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: minst 20) |
+| Antall godkjenninger | minst 20 |
 | Antall tillatelser | 20 (alle opphevet) |
 | Anbefalt beslutning | Hold |
 
@@ -64,7 +65,7 @@ Data om virkningsmekanisme er ikke tilgjengelig i det kompilerte datagrunnlaget.
 
 RANKL/RANK-signalering har blitt foreslått å spille en rolle i betennelse og karbiologi, noe som i teorien kan knyttes til mikrovaskulær sykdom i netthinnen. Dette er spekulativt og ikke validert for retinopati. Likhet mellom opprinnelig og ny indikasjon er ikke vurdert, og mekanismen kunne ikke krysskontrolleres mot kuraterte legemiddeldata.
 
-Det finnes også en nærliggende prediksjon for **diabetisk retinopati** generelt (score 99,23 %). Heller ikke denne har kliniske studier, og de to funnede publikasjonene gir bare indirekte kontekst (se under).
+Det finnes også en nærliggende prediksjon for **diabetisk retinopati** generelt (score 0,9923). Heller ikke denne har kliniske studier, og de to funnede publikasjonene gir bare indirekte kontekst (se under).
 
 ---
 
@@ -87,7 +88,7 @@ For alvorlig ikke-proliferativ diabetisk retinopati finnes ingen relevant litter
 
 ## Markedsinformasjon for Norge
 
-Alle 20 tillatelser er opphevet. Det er ingen gyldige tillatelser for tiden. Et utvalg:
+20 gyldige tillatelser er markedsført. Et utvalg:
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|

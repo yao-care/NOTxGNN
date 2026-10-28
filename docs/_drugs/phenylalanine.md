@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at det kan ha effekt ved **skleroserende kolangitt**, m
 |------|------|
 | Opprinnelig indikasjon | Maple Syrup Urine Disease (lønnesirupsykdom) |
 | Predikert ny indikasjon | Skleroserende kolangitt |
-| TxGNN-prediksjonsscore | 99,43 % |
+| TxGNN-prediksjonsscore | 0,9943 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun tilbakekalte/avsluttede godkjenninger |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---

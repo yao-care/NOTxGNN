@@ -48,10 +48,10 @@ Eculizumab er en komplementhemmer (C5-hemmer) som opprinnelig brukes til behandl
 |------|------|
 | Opprinnelig indikasjon | Paroksysmal nattlig hemoglobinuri (PNH) |
 | Predikert ny indikasjon | Syklisk hematopoese |
-| TxGNN-prediksjonsscore | 99,97 % |
+| TxGNN-prediksjonsscore | 0,9997 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 3 (alle kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -60,7 +60,7 @@ Eculizumab er en komplementhemmer (C5-hemmer) som opprinnelig brukes til behandl
 
 Data om virkningsmekanisme (MOA) er ikke tilgjengelig i datagrunnlaget. Basert på kjent informasjon er eculizumab et monoklonalt antistoff som hemmer komplementprotein C5 og dermed blokkerer den terminale komplementveien. Effekten ved PNH er godt dokumentert, ettersom sykdommen skyldes ukontrollert komplementaktivering etter tap av CD55 og CD59.
 
-Syklisk nøytropeni skyldes derimot hovedsakelig ELANE-mutasjoner og syklisk svikt i benmargen. Det er ikke påvist noen komplementmediert mekanisme som C5-hemming kan påvirke. Den høye modellscoren gjenspeiler trolig nærhet i kunnskapsgrafen til komplementrelaterte blodsykdommer, ikke sykdomsspesifikk evidens.
+Syklisk nøytropeni skyldes derimot hovedsakelig ELANE-mutasjoner og syklisk svikt i benmargen. Det er ikke påvist noen komplementmediert mekanisme som C5-hemming kan påvirke. Den høye modellscoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 De øvrige topprangerte prediksjonene er også nøytropenirelaterte tilstander (blant annet alvorlig medfødt nøytropeni med ulike genetiske årsaker, idiopatisk nøytropeni hos voksne og primær immunsvikt på grunn av p14-mangel). For ingen av dem er det funnet en plausibel kobling til C5-blokade. Hos nøytropene eller immunsviktige pasienter kan eculizumabs kjente risiko for meningokokkinfeksjon dessuten være særlig bekymringsfull.
 
@@ -88,7 +88,7 @@ Merk at for andre lavt rangerte prediksjoner ble det funnet publikasjoner, men d
 | EMEA/H/C/000791 | Soliris | – | Paroksysmal nattlig hemoglobinuri |
 | EMEA/H/C/005652 | Bekemv | – | Paroksysmal nattlig hemoglobinuri |
 
-Alle tre godkjenningene har status «kansellert», og det finnes ingen gyldige godkjenninger i datagrunnlaget.
+Legemidlet er markedsført, og alle tre godkjenningene (3 av 3) er gyldige i datagrunnlaget.
 
 ---
 

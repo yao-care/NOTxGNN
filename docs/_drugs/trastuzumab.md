@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Trastuzumab
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 431
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Trastuzumab: predikert ny indikasjon Progesteronreseptor-positiv brystkreft (rangert som nr. 2 (evidensnivå L1). Opprinnelig indikasjon: Magekreft og brystkreft"
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
+description: "Trastuzumab: predikert ny indikasjon Malignant cutaneous granular cell skin tumor (evidensnivå L5). Opprinnelig indikasjon: Stomach Neoplasms"
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Trastuzumab: Fra brystkreft og magekreft til progesteronreseptor-positiv brystkreft
+## Trastuzumab: Malignant cutaneous granular cell skin tumor
 {: .text-alpha }
 
 ## Én-setnings sammendrag
@@ -48,11 +48,12 @@ Funnet støttes av **12 kliniske studier** og **20 publikasjoner** i de data som
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Magekreft og brystkreft |
-| Predikert ny indikasjon | Progesteronreseptor-positiv brystkreft (rangert som nr. 2; den øverste prediksjonen, «normal breast-like subtype of breast carcinoma», har kun L4-evidens og anbefalingen Hold) |
-| TxGNN-prediksjonsscore | 99,90 % |
-| Evidensnivå | L1 |
-| Status på det norske markedet | Kun avregistrerte tillatelser |
+| Opprinnelig indikasjon | Stomach Neoplasms;Breast Neoplasms; Breast Neoplasms;Stomach Neoplasms; Breast Neoplasms |
+| Predikert ny indikasjon | Malignant cutaneous granular cell skin tumor |
+| TxGNN-prediksjonsscore | 0.9948 |
+| Evidensnivå | L5 |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 11 av 11) |
+| Antall godkjenninger | 11 (gyldige: 11) |
 | Antall tillatelser | 11 (alle avregistrert) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med sikkerhetstiltak) |
 
@@ -147,14 +148,13 @@ Alle tillatelser i datagrunnlaget er registrert som avregistrert (11 totalt). De
 **Beslutning: Proceed with Guardrails**
 
 **Begrunnelse:**
-Det foreligger fullførte randomiserte fase 3-studier og sentrale RCT-publikasjoner for trastuzumab ved HER2-positiv brystkreft, også ved PR-positiv sykdom. Prediksjonen faller innenfor den eksisterende indikasjonen, så evidensen gjelder kjent bruk og ikke ny repurposing. Alle norske tillatelser er avregistrert.
+Det foreligger fullførte randomiserte fase 3-studier og sentrale RCT-publikasjoner for trastuzumab ved HER2-positiv brystkreft, også ved PR-positiv sykdom. Prediksjonen faller innenfor den eksisterende indikasjonen, så evidensen gjelder kjent bruk og ikke ny repurposing.
 
 **For å gå videre kreves følgende:**
 - Obligatorisk HER2-testing; kriteriet bør være HER2-status, ikke PR-status
 - Plan for hjerteovervåking (LVEF)
 - Data om virkningsmekanisme fra DrugBank
 - Advarsler og kontraindikasjoner fra preparatomtalen (manglende i datagrunnlaget og blokkerende for sikkerhetsscreening)
-- Avklaring av gjeldende markedsføringsstatus i Norge, siden alle tillatelser står som avregistrert
 
 **Merknad om øvrige prediksjoner:**
 - Den høyest rangerte prediksjonen («normal breast-like subtype») har kun L4-evidens og anbefalingen **Hold**: subtypen er vanligvis HER2-negativ, og den eneste studien gjelder et annet legemiddel (trastuzumab rezetecan) som ikke har startet rekruttering.

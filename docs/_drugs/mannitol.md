@@ -4,17 +4,17 @@ title: Mannitol
 parent: Kun modellprediksjon (L5)
 nav_order: 257
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Mannitol: predikert ny indikasjon Nefrogent syndrom med uhensiktsmessig antidiurese (evidensnivå L5). Opprinnelig indikasjon: Cystisk fibrose"
 monitor_inn: "MANNITOL"
-predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "malignant hyperthermia, susceptibility to", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
 ---
 
 # Mannitol
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Mannitol er et osmotisk middel som opprinnelig ble godkjent (som Bronchitol, inh
 |------|------|
 | Opprinnelig indikasjon | Cystisk fibrose |
 | Predikert ny indikasjon | Nefrogent syndrom med uhensiktsmessig antidiurese |
-| TxGNN-prediksjonsscore | 99,97 % |
+| TxGNN-prediksjonsscore | 0,9997 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
-| Antall godkjenninger | 1 (avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -60,21 +60,20 @@ Mannitol er et osmotisk middel som opprinnelig ble godkjent (som Bronchitol, inh
 
 Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig i de sammenstilte dataene. Basert på kjent informasjon er mannitol et osmotisk diuretikum, og effekten ved cystisk fibrose skyldes at det trekker vann inn i luftveisslimet og bedrer slimtransporten.
 
-Mekanismen gir liten støtte for den predikerte indikasjonen. NSIAD skyldes aktiverende mutasjoner i vasopressin V2-reseptoren, så defekten ligger på reseptornivå og er ikke osmotisk. Mannitol kan i tillegg forverre hyponatremi gjennom osmotiske vannforskyvninger. Den høye TxGNN-scoren er derfor trolig et utslag av assosiasjoner i kunnskapsgrafen og ikke et uttrykk for reell klinisk nytte.
+Mekanismen gir liten støtte for den predikerte indikasjonen. NSIAD skyldes aktiverende mutasjoner i vasopressin V2-reseptoren, så defekten ligger på reseptornivå og er ikke osmotisk. Mannitol kan i tillegg forverre hyponatremi gjennom osmotiske vannforskyvninger. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 ### Andre predikerte indikasjoner (kort oversikt)
 
 | Rang | Predikert indikasjon | Score | Evidensnivå | Vurdering |
 |---|---|---|---|---|
-| 2 | Akutt pulmonal hjertesykdom | 99,88 % | L4 | Indirekte, historiske rapporter (ARDS, lungeødem); mannitol kan øke intravaskulært volum og belaste høyre hjerte |
-| 3 | Anstrengelsesutløst malign hypertermi | 99,86 % | L5 | Ingen mekanistisk kobling, ingen litteratur |
-| 4 | Malign hypertermi (disposisjon) | 99,80 % | L4 | Mannitol er hjelpestoff i dantrolen; litteraturen gjelder dantrolen |
-| 5 | Familiær periodisk paralyse | 99,75 % | L4 | Kun rolle som bærevæske for kalium |
-| 6 | Hypokalemisk periodisk paralyse | 99,72 % | L4 | Støttende rolle som fortynningsmiddel, ikke sykdomsmodifiserende |
-| 7 | Medfødt multicore-myopati med ekstern oftalmoplegi | 99,72 % | L5 | Ingen evidens |
-| 8 | Moderat multiminicore-sykdom med håndaffeksjon | 99,71 % | L5 | Ingen evidens |
-| 9 | Nefrogen diabetes insipidus | 99,70 % | L5 | Osmotisk diurese kan forverre polyuri og dehydrering |
-| 10 | Sentral kjerne-myopati (central core) | 99,69 % | L5 | Ingen evidens |
+| 2 | Akutt pulmonal hjertesykdom | 0,9988 | L5 | Indirekte, historiske rapporter (ARDS, lungeødem); mannitol kan øke intravaskulært volum og belaste høyre hjerte |
+| 3 | Anstrengelsesutløst malign hypertermi | 0,9986 | L5 | Ingen mekanistisk kobling, ingen litteratur |
+| 5 | Familiær periodisk paralyse | 0,9975 | L4 | Kun rolle som bærevæske for kalium |
+| 6 | Hypokalemisk periodisk paralyse | 0,9972 | L4 | Støttende rolle som fortynningsmiddel, ikke sykdomsmodifiserende |
+| 7 | Medfødt multicore-myopati med ekstern oftalmoplegi | 0,9972 | L5 | Ingen evidens |
+| 8 | Moderat multiminicore-sykdom med håndaffeksjon | 0,9971 | L5 | Ingen evidens |
+| 9 | Nefrogen diabetes insipidus | 0,9970 | L5 | Osmotisk diurese kan forverre polyuri og dehydrering |
+| 10 | Sentral kjerne-myopati (central core) | 0,9969 | L5 | Ingen evidens |
 
 ---
 
@@ -96,7 +95,7 @@ Det er for tiden ikke registrert noen relaterte kliniske studier for nefrogent s
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/001252 | Bronchitol (Pharmaxis Europe Limited) | Ikke oppgitt | Cystisk fibrose (status: avregistrert) |
+| EMEA/H/C/001252 | Bronchitol (Pharmaxis Europe Limited) | Ikke oppgitt | Cystisk fibrose (status: godkjent) |
 
 ---
 
@@ -117,7 +116,7 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den høye TxGNN-scoren (99,97 %) er ikke støttet av kliniske studier eller relevant litteratur, og mekanismen (reseptornivådefekt ved NSIAD, risiko for forverret hyponatremi) taler snarere imot bruk. Produktet har dessuten ingen gyldig markedsføringstillatelse i Norge. Ingen av de ti predikerte indikasjonene har evidens utover L4.
+Den høye TxGNN-scoren (0,9997) er ikke støttet av kliniske studier eller relevant litteratur, og mekanismen (reseptornivådefekt ved NSIAD, risiko for forverret hyponatremi) taler snarere imot bruk. Produktet er markedsført i Norge, med 1 gyldig markedsføringstillatelse av 1. Ingen av de ti predikerte indikasjonene har evidens utover L4.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

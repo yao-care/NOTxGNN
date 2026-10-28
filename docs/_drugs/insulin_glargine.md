@@ -33,13 +33,13 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Insulin glargin: Fra diabetes mellitus til pankreasagenesi
+## Insulin glargin: Fra diabetes mellitus til Autoimmun oofoitt
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
 Insulin glargin er et langtidsvirkende insulinanalog som opprinnelig brukes til behandling av **diabetes mellitus** (inkludert type 2-diabetes).
-TxGNN-modellen rangerer **autoimmun ooforitt** øverst (score 99,88 %), men den mest troverdige kandidaten er **pankreasagenesi**, som er en forlengelse av den opprinnelige indikasjonen.
+TxGNN-modellen rangerer **autoimmun ooforitt** øverst (score 0,9988), men den mest troverdige kandidaten er **pankreasagenesi**, som er en forlengelse av den opprinnelige indikasjonen.
 Ingen av de 10 prediksjonene har kliniske studier, og for pankreasagenesi finnes bare **4 indirekte publikasjoner**.
 
 ---
@@ -50,13 +50,14 @@ Ingen av de 10 prediksjonene har kliniske studier, og for pankreasagenesi finnes
 |------|------|
 | Opprinnelig indikasjon | Diabetes mellitus |
 | Predikert ny indikasjon (høyest rangert) | Autoimmun ooforitt |
-| TxGNN-prediksjonsscore | 99,88 % |
+| TxGNN-prediksjonsscore | 0,9988 |
 | Evidensnivå | L5 (kun modellprediksjon) |
-| Markedsstatus i Norge | Kun trukkede/avregistrerte tillatelser |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 5 av 5) |
+| Antall godkjenninger | 5 (gyldige: 5) |
 | Antall tillatelser | 5 (alle avregistrert) |
 | Anbefalt beslutning | Hold (avvent) |
 
-Merk: Blant alle prediksjonene er pankreasagenesi (score 99,43 %, evidensnivå L4) den eneste med litteratur og vurderes som «forskningsspørsmål».
+Merk: Blant alle prediksjonene er pankreasagenesi (score 0,9943, evidensnivå L4) den eneste med litteratur og vurderes som «forskningsspørsmål».
 
 ---
 
@@ -99,7 +100,7 @@ Ingen av publikasjonene er en kontrollert studie av insulin glargin ved pankreas
 
 ## Markedsinformasjon for Norge
 
-Alle fem tillatelser er avregistrert (status: «Cancelled»). Ingen gyldige tillatelser er registrert.
+Alle fem tillatelser er gyldige (5 av 5), og legemidlet er markedsført i Norge.
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -130,7 +131,7 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen (pakningsvedlegget).
 **Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-- Alle prediksjonene er på evidensnivå L5, bortsett fra pankreasagenesi (L4), og ingen har kliniske studier. Høye modellscorer ser i hovedsak ut til å gjenspeile samforekomst med diabetes eller autoimmunitet, eller et bivirkningsforhold (lipodystrofi), ikke en terapeutisk effekt. Alle norske tillatelser er avregistrert.
+- Alle prediksjonene er på evidensnivå L5, bortsett fra pankreasagenesi (L4), og ingen har kliniske studier. Høye modellscorer ser i hovedsak ut til å gjenspeile samforekomst med diabetes eller autoimmunitet, eller et bivirkningsforhold (lipodystrofi), ikke en terapeutisk effekt. Alle fem norske tillatelser er gyldige.
 - Pankreasagenesi bør følges opp som et forskningsspørsmål, siden insulinerstatning er fysiologisk hensiktsmessig. Det er i praksis en forlengelse av den eksisterende diabetesindikasjonen, ikke ekte reposisjonering.
 
 **For å komme videre trengs:**

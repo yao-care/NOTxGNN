@@ -49,9 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **primær frigjørings
 |------|------|
 | Opprinnelig indikasjon | Hemofili A |
 | Predikert ny indikasjon | Primær frigjøringsforstyrrelse i blodplater |
-| TxGNN-prediksjonsscore | 99,97 % |
+| TxGNN-prediksjonsscore | 0.9997 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -61,19 +62,19 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **primær frigjørings
 
 Det foreligger for øyeblikket ingen detaljerte data om virkningsmekanisme. Basert på kjent informasjon er moroktokog alfa et rekombinant faktor VIII-erstatningspreparat. Effekten ved hemofili A er godt kjent, men mekanistisk er det lite som tyder på at det virker ved den predikerte indikasjonen.
 
-Primære frigjøringsforstyrrelser i blodplater skyldes iboende defekter i blodplatenes granula- og sekresjonsfunksjon, ikke mangel på faktor VIII. Tilførsel av faktor VIII vil derfor ikke korrigere den underliggende defekten. Den høye scoren (0,9997) skyldes sannsynligvis nærhet i kunnskapsgrafen innenfor gruppen av blødnings- og koagulasjonsforstyrrelser, snarere enn en spesifikk mekanisme.
+Primære frigjøringsforstyrrelser i blodplater skyldes iboende defekter i blodplatenes granula- og sekresjonsfunksjon, ikke mangel på faktor VIII. Tilførsel av faktor VIII vil derfor ikke korrigere den underliggende defekten. Den høye scoren (0.9997) kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 ### Andre predikerte indikasjoner (alle evidensnivå L5, anbefaling Hold)
 
 | Rang | Sykdom | Score | Mekanistisk vurdering |
 |---|------|------|------|
-| 2 | Pseudo-von Willebrands sykdom | 99,97 % | Løs kobling via VWF–FVIII-aksen, men primærdefekten sitter i blodplatene (GPIbα) |
-| 3 | Glanzmanns trombasteni | 99,96 % | Defekt i integrin αIIbβ3; FVIII adresserer ikke aggregasjonsdefekten |
-| 4 | Ervervet koagulasjonsfaktormangel | 99,88 % | Mekanistisk mest plausibel, men gruppen er heterogen (f.eks. ervervet hemofili A med hemmere der FVIII er lite egnet) |
-| 5 | Scotts syndrom | 99,86 % | Defekt i fosfatidylserin-eksponering (TMEM16F), ikke FVIII-mengde |
-| 6 | Blødningsdiatese ved kollagenreseptordefekt | 99,73 % | Defekte kollagenreseptorer (GPVI/α2β1); ingen støtte |
-| 7 | Hemoragisk lidelse ved konstitusjonell trombocytopeni | 99,72 % | Blødning skyldes blodplatemangel, ikke FVIII-mangel |
-| 8 | «Flood factor deficiency» | 99,11 % | Uklart sykdomsnavn, trolig navneartefakt; må avklares |
+| 2 | Pseudo-von Willebrands sykdom | 0,9997 | Løs kobling via VWF–FVIII-aksen, men primærdefekten sitter i blodplatene (GPIbα) |
+| 3 | Glanzmanns trombasteni | 0,9996 | Defekt i integrin αIIbβ3; FVIII adresserer ikke aggregasjonsdefekten |
+| 4 | Ervervet koagulasjonsfaktormangel | 0,9988 | Mekanistisk mest plausibel, men gruppen er heterogen (f.eks. ervervet hemofili A med hemmere der FVIII er lite egnet) |
+| 5 | Scotts syndrom | 0,9986 | Defekt i fosfatidylserin-eksponering (TMEM16F), ikke FVIII-mengde |
+| 6 | Blødningsdiatese ved kollagenreseptordefekt | 0,9973 | Defekte kollagenreseptorer (GPVI/α2β1); ingen støtte |
+| 7 | Hemoragisk lidelse ved konstitusjonell trombocytopeni | 0,9972 | Blødning skyldes blodplatemangel, ikke FVIII-mangel |
+| 8 | «Flood factor deficiency» | 0,9911 | Uklart sykdomsnavn, trolig navneartefakt; må avklares |
 
 ---
 
@@ -93,7 +94,7 @@ Foreløpig er det ingen relatert litteratur tilgjengelig.
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000232 | ReFacto AF (Pfizer Europe MA EEIG) | Ikke oppgitt | Hemofili A (status: avregistrert) |
+| EMEA/H/C/000232 | ReFacto AF (Pfizer Europe MA EEIG) | Ikke oppgitt | Hemofili A (status: godkjent) |
 
 ---
 

@@ -50,9 +50,10 @@ Prediksjonen er kun modellbasert (evidensnivå L5).
 |------|------|
 | Opprinnelig indikasjon | Urge-inkontinens (Urinary Incontinence, Urge) |
 | Predikert ny indikasjon | Restless legs-syndrom |
-| TxGNN-prediksjonsscore | 99,74 % |
+| TxGNN-prediksjonsscore | 0,9974 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (ingen gyldig tillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (trukket tilbake) |
 | Anbefalt beslutning | Hold |
 
@@ -64,14 +65,14 @@ Data om detaljert virkningsmekanisme er foreløpig ikke tilgjengelig i de innsam
 
 Restless legs-syndrom (RLS) er hovedsakelig knyttet til jernmangel i hjernen og dysfunksjon i dopaminsystemet. Antikolinerg aktivitet er ikke en etablert behandlingsvei, og antikolinergika kan tvert imot forverre RLS-symptomer eller søvnkvalitet. Det finnes derfor ingen mekanistisk kobling mellom oksybutynin og RLS som støttes av dataene.
 
-Den høye TxGNN-scoren (0,997) er en ren modellprediksjon og bør tolkes med forsiktighet.
+Den høye TxGNN-scoren (0,9974) er en ren modellprediksjon og bør tolkes med forsiktighet.
 
 **Andre predikerte indikasjoner i dataene:**
 
 | Rang | Sykdom | TxGNN-score | Evidensnivå | Vurdering |
 |------|------|------|------|------|
-| 2 | Gastroduodenitt | 99,62 % | L5 | Antispasmodisk lindring er mulig, men adresserer ikke underliggende årsaker (H. pylori, NSAID, syre). Ingen studier eller litteratur. |
-| 3 | Magesår (peptisk ulkussykdom) | 99,31 % | L4 | Antikolinergika har historisk vært brukt, men er i stor grad erstattet av protonpumpehemmere, H2-blokkere og H. pylori-eradikering. |
+| 2 | Gastroduodenitt | 0,9962 | L5 | Antispasmodisk lindring er mulig, men adresserer ikke underliggende årsaker (H. pylori, NSAID, syre). Ingen studier eller litteratur. |
+| 3 | Magesår (peptisk ulkussykdom) | 0,9931 | L5 | Antikolinergika har historisk vært brukt, men er i stor grad erstattet av protonpumpehemmere, H2-blokkere og H. pylori-eradikering. |
 
 ---
 
@@ -99,7 +100,7 @@ Følgende litteratur er knyttet til rang 3 (magesår), og er gjengitt for fullst
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000532 | Kentera (tidligere Oxybutynin Nicobrand) | Ikke oppgitt | Urge-inkontinens (status: trukket tilbake) |
+| EMEA/H/C/000532 | Kentera (tidligere Oxybutynin Nicobrand) | Ikke oppgitt | Urge-inkontinens (status: godkjent) |
 
 ---
 

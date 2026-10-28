@@ -49,9 +49,10 @@ TxGNN-modellen predikerer at det kan være virksomt ved **cauda equina-syndrom**
 |------|------|
 | Opprinnelig indikasjon | Lønnesirupsykdom (Maple Syrup Urine Disease) |
 | Predikert ny indikasjon | Cauda equina-syndrom |
-| TxGNN-prediksjonsscore | 99,77 % |
+| TxGNN-prediksjonsscore | 0,9977 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -61,7 +62,7 @@ TxGNN-modellen predikerer at det kan være virksomt ved **cauda equina-syndrom**
 
 Data om virkningsmekanisme (MOA) er ikke tilgjengelig i dataene som er samlet inn for denne rapporten. Tyrosin er en aminosyre og forløper for katekolaminer (dopamin, noradrenalin, adrenalin) og skjoldbruskkjertelhormoner.
 
-Det er ikke funnet noen plausibel mekanistisk kobling mellom tyrosin og cauda equina-syndrom, som skyldes kompresjon eller strukturell skade på nerverøttene. Den høye scoren (0,998) er en ren beregningsmessig prediksjon, og likhet med den opprinnelige indikasjonen (lønnesirupsykdom) er ikke vurdert.
+Det er ikke funnet noen plausibel mekanistisk kobling mellom tyrosin og cauda equina-syndrom, som skyldes kompresjon eller strukturell skade på nerverøttene. Den høye scoren (0,9977) er en ren beregningsmessig prediksjon, og likhet med den opprinnelige indikasjonen (lønnesirupsykdom) er ikke vurdert.
 
 Også de øvrige topp-10-prediksjonene mangler overbevisende støtte:
 
@@ -125,7 +126,7 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for cauda equina-syndrom bygger kun på en beregningsmodell (evidensnivå L5), uten kliniske studier, uten litteratur og uten plausibel mekanistisk kobling. Produktet har dessuten ingen gyldig tillatelse i Norge. De øvrige prediksjonene har enten ingen støtte eller gir sikkerhetsbekymringer (tyrosin som skjoldbruskkjertelhormon-forløper).
+Prediksjonen for cauda equina-syndrom bygger kun på en beregningsmodell (evidensnivå L5), uten kliniske studier, uten litteratur og uten plausibel mekanistisk kobling. Produktet er markedsført i Norge med 1 gyldig tillatelse av 1. De øvrige prediksjonene har enten ingen støtte eller gir sikkerhetsbekymringer (tyrosin som skjoldbruskkjertelhormon-forløper).
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

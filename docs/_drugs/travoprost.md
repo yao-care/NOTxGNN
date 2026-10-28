@@ -6,7 +6,7 @@ nav_order: 434
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Travoprost: predikert ny indikasjon Visceral kalcifylaksi (evidensnivå L5). Opprinnelig indikasjon: Åpenvinklet glaukom og okulær hypertensjon"
+description: "Travoprost: predikert ny indikasjon visceral kalsifylaksi (evidensnivå L5). Opprinnelig indikasjon: Åpenvinklet glaukom og okulær hypertensjon"
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis", "idiopathic spontaneous coronary artery dissection", "hemangioendothelioma"]
 ---
@@ -33,12 +33,12 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Travoprost: Fra glaukom til visceral kalcifylaksi
+## Travoprost: Fra glaukom til visceral kalsifylaksi
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
-Travoprost er en prostaglandin F2-alfa-analog som opprinnelig brukes som øyedråper mot åpenvinklet glaukom og okulær hypertensjon. TxGNN-modellen forutsier at legemidlet kan ha effekt mot **visceral kalcifylaksi**, men dette er kun en prediksjon fra en kunnskapsgraf. Det finnes **ingen kliniske studier og ingen publikasjoner** som støtter denne retningen.
+Travoprost er en prostaglandin F2-alfa-analog som opprinnelig brukes som øyedråper mot åpenvinklet glaukom og okulær hypertensjon. TxGNN-modellen (deep learning) forutsier at legemidlet kan ha effekt mot **visceral kalcifylaksi**, men dette er kun en prediksjon fra modellen. Det finnes **ingen kliniske studier og ingen publikasjoner** som støtter denne retningen.
 
 ---
 
@@ -48,10 +48,10 @@ Travoprost er en prostaglandin F2-alfa-analog som opprinnelig brukes som øyedr�
 |------|------|
 | Opprinnelig indikasjon | Åpenvinklet glaukom og okulær hypertensjon |
 | Foreslått ny indikasjon | Visceral kalcifylaksi |
-| TxGNN-prediksjonsscore | 100,00 % (0,99999845) |
+| TxGNN-prediksjonsscore | 1.0000 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte godkjenninger |
-| Antall godkjenninger | 3 (alle avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
 | Anbefalt beslutning | Hold (avvent) |
 
 ---
@@ -62,7 +62,7 @@ Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede data
 
 Det er vanskelig å finne en rimelig mekanistisk kobling til visceral kalcifylaksi. Sykdommen kjennetegnes av karforkalkning og trombose, og det er ikke påvist noen sammenheng mellom FP-reseptoragonisme og disse prosessene. Dessuten gir lokal dosering i øyet minimal systemisk eksponering, noe som gjør en systemisk effekt på visceral sykdom lite sannsynlig.
 
-Prediksjonen bør derfor betraktes som en hypotese fra en kunnskapsgraf, uten støtte i biologisk eller klinisk evidens. Det samme gjelder de øvrige toppredikerte indikasjonene (trange passasjer i thoraxapertur, blåtåsyndrom, spontan koronararteriedisseksjon m.fl.), som heller ikke har studier eller publikasjoner.
+Prediksjonen bør derfor betraktes som en hypotese fra TxGNN-modellen (deep learning), og scoren kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Det samme gjelder de øvrige toppredikerte indikasjonene (trange passasjer i thoraxapertur, blåtåsyndrom, spontan koronararteriedisseksjon m.fl.), som heller ikke har studier eller publikasjoner.
 
 ---
 
@@ -92,7 +92,7 @@ For visceral kalcifylaksi finnes for øyeblikket ingen relatert litteratur.
 | EMEA/H/C/002738 | Izba | Ikke oppgitt | Okulær hypertensjon, åpenvinklet glaukom |
 | EMEA/H/C/000665 | DuoTrav | Ikke oppgitt | Åpenvinklet glaukom, okulær hypertensjon |
 
-Alle tre godkjenningene (innehaver: Novartis Europharm Limited) er avregistrert, og det finnes ingen gyldige godkjenninger.
+Alle tre godkjenningene (innehaver: Novartis Europharm Limited) er gyldige, og legemidlet er markedsført i Norge (3 gyldige godkjenninger av 3).
 
 ---
 
@@ -111,7 +111,7 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 **Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en kunnskapsgraf (evidensnivå L5). Det finnes ingen studier eller publikasjoner, ingen plausibel mekanisme, og topikal øyedosering gir minimal systemisk eksponering. I tillegg er alle norske godkjenninger avregistrert.
+Prediksjonen kommer kun fra TxGNN-modellen (deep learning) (evidensnivå L5), og scoren kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Det finnes ingen studier eller publikasjoner, ingen plausibel mekanisme, og topikal øyedosering gir minimal systemisk eksponering. Legemidlet er markedsført i Norge med 3 gyldige godkjenninger av 3.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) og en vurdering av om FP-reseptoragonisme kan ha relevans for kalcifylaksens patofysiologi

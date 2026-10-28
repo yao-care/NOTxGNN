@@ -4,17 +4,17 @@ title: Tenecteplase
 parent: Kun modellprediksjon (L5)
 nav_order: 408
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Tenecteplase: predikert ny indikasjon Posteroinferiort hjerteinfarkt (evidensnivå L5). Opprinnelig indikasjon: Hjerteinfarkt (myokardinfarkt)"
 monitor_inn: "TENECTEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
+description: "Tenecteplase: predikert ny indikasjon Congenital coronary artery anomaly (evidensnivå L5). Opprinnelig indikasjon: Myocardial Infarction"
 ---
 
 # Tenecteplase
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Tenekteplase: Fra hjerteinfarkt til posteroinferiort hjerteinfarkt
+## Tenecteplase: Congenital coronary artery anomaly
 {: .text-alpha }
 
 ## Oppsummering
@@ -48,11 +48,12 @@ Det er **ingen kliniske studier** og **ingen publikasjoner** som direkte støtte
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Hjerteinfarkt (myokardinfarkt) |
-| Predikert ny indikasjon | Posteroinferiort hjerteinfarkt |
-| TxGNN-prediksjonsscore | 99,87 % |
+| Opprinnelig indikasjon | Myocardial Infarction |
+| Predikert ny indikasjon | Congenital coronary artery anomaly |
+| TxGNN-prediksjonsscore | 0.9961 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun tilbakekalt/avregistrert (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 |
 | Anbefalt beslutning | Hold |
 
@@ -64,7 +65,7 @@ Data om virkningsmekanisme er ikke tilgjengelig i dataene som er samlet inn for 
 
 Posteroinferiort hjerteinfarkt er en anatomisk undertype av hjerteinfarkt. Den høye scoren gjenspeiler i hovedsak overlapp med den opprinnelige indikasjonen, og ikke et nytt repurposing-signal. Mekanismen (oppløsning av trombe i den okkluderte kransarterien) er i prinsippet like relevant, men prediksjonen er i praksis en gjentakelse av den godkjente bruken.
 
-Blant de ti øverste prediksjonene er flere uten plausibel mekanisme (for eksempel kromosomdelesjon, beta-talassemi og røde blodcellers enzymmangler). Disse ser ut til å være artefakter fra kunnskapsgrafens nærhetsstruktur.
+Blant de ti øverste prediksjonene er flere uten plausibel mekanisme (for eksempel kromosomdelesjon, beta-talassemi og røde blodcellers enzymmangler).
 
 ---
 
@@ -86,7 +87,7 @@ For øvrig predikert indikasjon på rang 5 (koronarstenose) fant man indirekte l
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000306 | Metalyse | Ikke oppgitt | Hjerteinfarkt (status: tilbakekalt/avregistrert) |
+| EMEA/H/C/000306 | Metalyse | Ikke oppgitt | Hjerteinfarkt (status: godkjent/godkjent) |
 
 ---
 
@@ -105,7 +106,7 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon, inkludert advarsler og kont
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er en undertype av den allerede godkjente indikasjonen og representerer ikke en ny repurposing-mulighet. Det finnes ingen kliniske studier eller litteratur for denne undertypen (evidensnivå L5), og det finnes ingen gyldig markedsføringstillatelse i Norge.
+Prediksjonen er en undertype av den allerede godkjente indikasjonen og representerer ikke en ny repurposing-mulighet.
 
 **For å gå videre trengs følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)

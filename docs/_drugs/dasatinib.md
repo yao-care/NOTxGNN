@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dasatinib
-parent: Kun modellprediksjon (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 115
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Dasatinib: predikert ny indikasjon Ewing-sarkom (evidensnivå L5). Opprinnelig indikasjon: Prekursor-B-celle lymfoblastisk leukemi/lymfom"
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
+description: "Dasatinib: predikert ny indikasjon Ewing-sarkom (Ewing sarcoma) (evidensnivå L2). Opprinnelig indikasjon: Precursor Cell Lymphoblastic Leukemia-Lymphoma"
 ---
 
 # Dasatinib
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L2** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Dasatinib: Fra kronisk myelogen leukemi til Ewing-sarkom
+## Dasatinib: Ewing-sarkom (Ewing sarcoma)
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
 Dasatinib er en tyrosinkinasehemmer som opprinnelig brukes mot Philadelphia-kromosompositiv kronisk myelogen leukemi og akutt lymfoblastisk leukemi.
 TxGNN-modellen predikerer at legemidlet kan ha effekt mot **Ewing-sarkom**, men dette er en tidlig forskningshypotese: de to kliniske studiene er små eller blandede (7 og 366 pasienter), og litteraturen er for det meste prekliniske studier og oversiktsartikler.
-Den nest høyest rangerte prediksjonen, **myeloid leukemi**, har klart sterkere evidens (flere fase 3-studier), men ligger tett opp mot den eksisterende indikasjonen.
 
 ---
 
@@ -48,12 +47,12 @@ Den nest høyest rangerte prediksjonen, **myeloid leukemi**, har klart sterkere 
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Prekursor-B-celle lymfoblastisk leukemi/lymfom; kronisk myelogen leukemi, BCR-ABL-positiv |
-| Predikert ny indikasjon | Ewing-sarkom |
-| TxGNN-prediksjonsscore | 99,90 % |
+| Opprinnelig indikasjon | Precursor Cell Lymphoblastic Leukemia-Lymphoma;Leukemia, Myelogenous, Chronic, BCR-ABL Positive |
+| Predikert ny indikasjon | Ewing-sarkom (Ewing sarcoma) |
+| TxGNN-prediksjonsscore | 0.9990 |
 | Evidensnivå | L2 (ifølge de innsamlede dataene; se merknad under) |
-| Status på det norske markedet | Kun avregistrerte (cancelled) godkjenninger |
-| Antall godkjenninger | 2 (begge avregistrert) |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold (forskningsspørsmål) |
 
 *Merknad om evidensnivå: L2 forutsetter en fullført randomisert fase 2/3-studie. Den fullførte fase 2-studien (NCT00464620) er enarmet og omfatter blandede sarkomtyper, og en oversiktsartikkel rapporterer at dasatinib som monoterapi ikke virket ved Ewing-sarkom og rabdomyosarkom. Reell evidens for Ewing-sarkom er derfor svakere enn nivået tilsier.*
@@ -97,8 +96,8 @@ Den kliniske effekten er derimot ikke bekreftet. En oversiktsartikkel (PMID 3565
 
 | Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/006251 | Dasatinib Accord Healthcare (avregistrert) | Ikke oppgitt | Prekursor-B-celle lymfoblastisk leukemi/lymfom; kronisk myelogen leukemi, BCR-ABL-positiv |
-| EMEA/H/C/000709 | Sprycel (avregistrert) | Ikke oppgitt | Prekursor-B-celle lymfoblastisk leukemi/lymfom; kronisk myelogen leukemi, BCR-ABL-positiv |
+| EMEA/H/C/006251 | Dasatinib Accord Healthcare (godkjent) | Ikke oppgitt | Prekursor-B-celle lymfoblastisk leukemi/lymfom; kronisk myelogen leukemi, BCR-ABL-positiv |
+| EMEA/H/C/000709 | Sprycel (godkjent) | Ikke oppgitt | Prekursor-B-celle lymfoblastisk leukemi/lymfom; kronisk myelogen leukemi, BCR-ABL-positiv |
 
 ---
 

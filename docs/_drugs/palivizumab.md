@@ -50,10 +50,10 @@ men det finnes **0 kliniske studier** og **0 publikasjoner** som støtter denne 
 |------|------|
 | Opprinnelig indikasjon | Infeksjoner med respiratorisk syncytialvirus |
 | Foreslått ny indikasjon | Godartet svulst i tungen |
-| TxGNN-prediksjonsscore | 99,94 % |
+| TxGNN-prediksjonsscore | 0,9994 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun tilbakekalte/avregistrerte godkjenninger |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Det foreligger for øyeblikket ingen detaljerte data om virkningsmekanisme i de 
 
 Det er ikke identifisert noen mekanistisk kobling til godartede svulster i tungen. Slike svulster er ikke knyttet til RSV, og det er ingen kjent antigenisk målstruktur som palivizumab kan angripe. Den høye modellscoren (0,9994) er en beregnet prediksjon uten støtte i biologisk eller klinisk evidens.
 
-Det samme gjelder de øvrige topp-10-prediksjonene, som alle er svulster eller cyster i ulike organer (epiglottis, hypofarynks, munngulv, testikkel, jugularforamen m.fl.), blant annet cervikalt nevroblastom, der antistoffterapi normalt retter seg mot GD2 og ikke virale fusjonsproteiner. Ingen av dem har kliniske studier eller litteratur. Høye scorer for en rekke ulike svulsttyper tyder snarere på et mønster i kunnskapsgrafen enn på reell biologisk sammenheng.
+Det samme gjelder de øvrige topp-10-prediksjonene, som alle er svulster eller cyster i ulike organer (epiglottis, hypofarynks, munngulv, testikkel, jugularforamen m.fl.), blant annet cervikalt nevroblastom, der antistoffterapi normalt retter seg mot GD2 og ikke virale fusjonsproteiner. Ingen av dem har kliniske studier eller litteratur. Scorene kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 ---
 
@@ -84,7 +84,7 @@ Det er for øyeblikket ingen relatert litteratur tilgjengelig.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000257 | Synagis (AstraZeneca AB) – status: avregistrert | Ikke oppgitt | Infeksjoner med respiratorisk syncytialvirus |
+| EMEA/H/C/000257 | Synagis (AstraZeneca AB) – status: godkjent | Ikke oppgitt | Infeksjoner med respiratorisk syncytialvirus |
 
 ---
 

@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Gimeracil
-parent: Kun modellprediksjon (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 188
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 7
 last_modified_at: 2026-10-15
 description: "Gimeracil: predikert ny indikasjon Kolonneoplasme (colonic neoplasm) (evidensnivå L5). Opprinnelig indikasjon: Magekreft (Stomach Neoplasms)"
 monitor_inn: "GIMERACIL"
@@ -14,7 +14,7 @@ predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "lipoma of 
 # Gimeracil
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L1** | Predikerte indikasjoner: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ og denne retningen støttes foreløpig av **6 kliniske studier** og **12 publika
 |------|------|
 | Opprinnelig indikasjon | Magekreft (Stomach Neoplasms) |
 | Predikert ny indikasjon | Kolonneoplasme (colonic neoplasm) |
-| TxGNN prediksjonsscore | 99,88 % |
+| TxGNN prediksjonsscore | 0,9988 |
 | Evidensnivå | L1 (basert på de innsamlede dataene; se merknad under) |
-| Markedsstatus i Norge | Kun opphevede godkjenninger |
-| Antall godkjenninger | 1 (opphevet) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med sikkerhetstiltak) |
 
 *Merknad om evidensnivå:* L1 forutsetter minst to fullførte fase 3-RCT-er. Dataene inneholder kun én fullført fase 3-studie (NCT00660894), mens den andre fase 3-studien (NCT03448549) har ukjent status. Nivået L1 er derfor optimistisk, og L2 er et mer forsiktig anslag.

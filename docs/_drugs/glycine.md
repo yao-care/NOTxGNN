@@ -4,17 +4,17 @@ title: Glycine
 parent: Kun modellprediksjon (L5)
 nav_order: 195
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-15
 description: "Glycine: predikert ny indikasjon Sykdom i nesehulen (nasal cavity disease) (evidensnivå L5). Opprinnelig indikasjon: Lønnesirupsykdom (Maple Syrup Urine Disease)"
 monitor_inn: "glycine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
 ---
 
 # Glycine
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,10 @@ Glycin (Maapliv) var opprinnelig godkjent i Europa for behandling av lønnesirup
 |------|------|
 | Opprinnelig indikasjon | Lønnesirupsykdom (Maple Syrup Urine Disease) |
 | Forutsagt ny indikasjon | Sykdom i nesehulen (nasal cavity disease) |
-| TxGNN-prediksjonsscore | 99,85 % |
+| TxGNN-prediksjonsscore | 0.9985 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte (trukkede) tillatelser |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall markedsføringstillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -60,9 +61,8 @@ Glycin (Maapliv) var opprinnelig godkjent i Europa for behandling av lønnesirup
 
 For tiden foreligger det ikke detaljerte data om virkningsmekanismen. Glycin er en enkel aminosyre, og den opprinnelige indikasjonen (MSUD) er en metabolsk sykdom. Ut fra de tilgjengelige dataene kan det ikke påvises noen troverdig mekanistisk kobling mellom glycin og sykdom i nesehulen.
 
-TxGNN-scoren er svært høy (99,85 %), men det er en ren beregningsmessig prediksjon. Den ene studien som er koblet til prediksjonen er en bildediagnostikkstudie (PET) av en radiofarmasøytisk markør, og de to publikasjonene gjelder veterinærhistokjemi og slimhinneadjuvanser. Ingen av dem undersøker glycin som behandling for en nasal tilstand.
+TxGNN-scoren er svært høy (0,9985), men det er en ren beregningsmessig prediksjon. Den ene studien som er koblet til prediksjonen er en bildediagnostikkstudie (PET) av en radiofarmasøytisk markør, og de to publikasjonene gjelder veterinærhistokjemi og slimhinneadjuvanser. Ingen av dem undersøker glycin som behandling for en nasal tilstand.
 
-Den nest rangerte prediksjonen, **akutt laryngofaryngitt** (score 99,84 %), har heller ingen kliniske studier eller litteratur. Eventuelle antiinflammatoriske eller cytobeskyttende effekter av glycin vil her være spekulative.
 
 ---
 
@@ -89,9 +89,9 @@ Studien vurderes som lite relevant (grad C).
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/005557 | Maapliv | Ikke oppgitt | Maple Syrup Urine Disease (avregistrert) |
+| EMEA/H/C/005557 | Maapliv | Ikke oppgitt | Maple Syrup Urine Disease (godkjent) |
 
-Produsent: Recordati Rare Diseases. Det finnes ingen gyldige tillatelser for tiden.
+Produsent: Recordati Rare Diseases. Det finnes 1 gyldig tillatelse av 1, og legemidlet er markedsført.
 
 ---
 

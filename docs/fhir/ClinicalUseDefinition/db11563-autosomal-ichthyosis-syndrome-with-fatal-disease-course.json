@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db11563-autosomal-ichthyosis-syndrome-with-fatal-disease-course",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db11563"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "autosomal ichthyosis syndrome with fatal disease course"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9964
+    }
+  ]
+}

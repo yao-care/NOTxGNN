@@ -4,17 +4,17 @@ title: Lomitapide
 parent: Kun modellprediksjon (L5)
 nav_order: 248
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Lomitapide: predikert ny indikasjon Marcothrombocytopenia med mitralklaffinsuffisiens (evidensnivå L5). Opprinnelig indikasjon: Hyperkolesterolemi"
+indication_count: 9
 monitor_inn: "LOMITAPIDE"
-predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "hyperlipoproteinemia", "platelet storage pool deficiency"]
+predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "platelet storage pool deficiency"]
+last_modified_at: 2026-10-27
+description: "Lomitapide: predikert ny indikasjon Makrotrombocytopeni med mitralklaffinsuffisiens (marcothrombocytopenia with mitral valve insufficiency) (evidensnivå L5). Opprinnelig indikasjon: Hypercholesterole…"
 ---
 
 # Lomitapide
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,99 +33,78 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Lomitapid: Fra hyperkolesterolemi til marcothrombocytopenia med mitralklaffinsuffisiens
+## Lomitapid: MTP-hemmer → Makrotrombocytopeni med mitralklaffinsuffisiens (marcothrombocytopenia with mitral valve insufficiency)
 {: .text-alpha }
 
-## Oppsummering
+## Oppsummering i én setning
 
-Lomitapid er en oral hemmer av mikrosomalt triglyseridoverføringsprotein (MTP), opprinnelig brukt til behandling av **hyperkolesterolemi**. TxGNN-modellen forutsier at legemidlet kan ha effekt ved **marcothrombocytopenia med mitralklaffinsuffisiens**, med en svært høy modellscore. Det finnes imidlertid **ingen kliniske studier og ingen publikasjoner** som støtter denne prediksjonen, og den er kun beregningsbasert.
-
----
+Lomitapid er en hemmer av mikrosomalt triglyseridoverføringsprotein (MTP) som brukes til å senke kolesterol.
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **makrotrombocytopeni med mitralklaffinsuffisiens (marcothrombocytopenia with mitral valve insufficiency)**,
+men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne prediksjonen.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Hyperkolesterolemi |
-| Predikert ny indikasjon | Marcothrombocytopenia med mitralklaffinsuffisiens |
-| TxGNN-prediksjonsscore | 99,92 % |
-| Evidensnivå | L5 (kun modellprediksjon) |
-| Markedsstatus i Norge | Kun kansellert godkjenning |
-| Antall godkjenninger | 1 |
+| Opprinnelig indikasjon | Hypercholesterolemia |
+| Predikert ny indikasjon | Makrotrombocytopeni med mitralklaffinsuffisiens (marcothrombocytopenia with mitral valve insufficiency) |
+| TxGNN-prediksjonsscore | 0,9992 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
----
+## Hvorfor er denne prediksjonen rimelig?
 
-## Hvorfor er denne prediksjonen (ikke) rimelig?
+Detaljerte data om virkningsmekanismen er foreløpig ikke tilgjengelige i de innsamlede dataene. Lomitapid er kjent som en hemmer av MTP, et protein som deltar i samling og utskillelse av lipoproteiner som inneholder apoB.
 
-Lomitapid hemmer MTP og blokkerer dermed sammensetningen og utskillelsen av apoB-holdige lipoproteiner (VLDL i lever og kylomikroner i tarm). Dette senker LDL-kolesterol og er godt dokumentert ved hyperkolesterolemi, særlig homozygot familiær hyperkolesterolemi (HoFH). Detaljerte mekanismedata (MOA) var ikke tilgjengelige i de innsamlede dataene utover denne kjente hovedvirkningen.
+Det er ikke identifisert noen mekanistisk kobling mellom MTP-hemming og denne sjeldne arvelige tilstanden som rammer blodplater og hjerteklaffer. Den høye scoren (0,9992) er en ren grafbasert modellprediksjon. Den kan gjenspeile at flere blodplatesykdommer ligger nær hverandre i modellens nettverk, snarere enn et biologisk eller terapeutisk grunnlag. Likhet med den opprinnelige indikasjonen er ikke vurdert.
 
-Det er ingen kjent sammenheng mellom MTP-hemming og denne sjeldne arvelige tilstanden, som involverer blodplater og hjerteklaffer. Den høye scoren skyldes trolig at sykdommen ligger nær andre blodplatesykdommer i kunnskapsgrafen, ikke biologisk eller terapeutisk begrunnelse. Alle ti predikerte indikasjoner i datagrunnlaget er blodplate- eller koagulasjonssykdommer, med ett unntak: hyperlipoproteinemi (rangert som nr. 9).
+## Klinisk evidens
 
-Hyperlipoproteinemi har støtte fra flere fullførte fase 3-studier, men ligger i praksis innenfor den opprinnelige indikasjonen. Den er derfor en bekreftelse på at modellen fungerer, ikke en ny reposisjonering.
-
----
-
-## Evidens fra kliniske studier
-
-Foreløpig er ingen relaterte kliniske studier registrert for den predikerte indikasjonen.
-
----
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ## Litteraturevidens
 
-Foreløpig finnes ingen relatert litteratur for den predikerte indikasjonen.
-
----
+Foreløpig finnes ingen relatert litteratur.
 
 ## Markedsinformasjon for Norge
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/002578 | Lojuxta | – | Hyperkolesterolemi |
-
-Godkjenningen er registrert som **kansellert**, og det finnes ingen gyldige godkjenninger i dag.
-
----
+| EMEA/H/C/002578 | Lojuxta | – | Hypercholesterolemia |
 
 ## Sikkerhetsvurderinger
 
-Pakningsvedlegget med advarsler og kontraindikasjoner var ikke tilgjengelig i de innsamlede dataene. Det må innhentes og gjennomgås før en eventuell videre vurdering.
+**Legemiddelinteraksjoner:** Interaksjonsoppslaget ga 100 treff. Blant dem er flere klassifisert som alvorlige (Major), blant annet:
+- Acarbose
+- Doksycyklin
+- Pioglitazon
+- Bupropion
+- Aprepitant
+- Tetracyklin
+- Klaritromycin
+- Minocyklin
+- Naltrekson
+- Oksandrolon og oksymetolon
+- Chenodeoksykolsyre
 
-Utover dette er følgende kjent om legemiddelklassen og fra datagrunnlaget:
+Moderate interaksjoner omfatter blant annet ranitidin, loperamid, budesonid, cimetidin, saksagliptin, eliglustat og linagliptin.
 
-- **Leverpåvirkning:** Lomitapid er forbundet med risiko for hepatotoksisitet (leversteatose og forhøyede transaminaser) og har en boksadvarsel. Det er også gastrointestinale bivirkninger.
-- **Legemiddelinteraksjoner:** Det er registrert 100 interaksjoner. Blant de 20 som ble gjennomgått, er følgende klassifisert som **alvorlige (Major)**:
-  - acarbose
-  - doxycyklin
-  - tetrasyklin
-  - minocyklin
-  - pioglitazon
-  - bupropion
-  - aprepitant
-  - klaritromycin
-  - kenodeoksykolsyre
-  - naltrekson
-  - oksandrolon
-  - oksymetolon
-- **Moderate interaksjoner** omfatter blant annet ranitidin, cimetidin, loperamid, budesonid (inkludert nasal), saksagliptin, linagliptin og eliglustat.
-- CYP3A4-hemmere er en kjent og viktig interaksjonsgruppe for lomitapid.
-
----
+For øvrig sikkerhetsinformasjon, herunder advarsler og kontraindikasjoner, henvises det til preparatomtalen.
 
 ## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på grafbasert modellscore (evidensnivå L5), uten kliniske studier, litteratur eller plausibel mekanisme. Legemidlet har dessuten betydelig leverrisiko, og den norske godkjenningen er kansellert.
+Prediksjonen bygger kun på modellscore uten kliniske studier, litteratur eller kjent mekanistisk kobling (evidensnivå L5). Det er heller ikke vist noen biologisk sammenheng mellom MTP-hemming og tilstanden.
 
-**For å gå videre kreves:**
-- Dokumentasjon av en biologisk mekanisme som kobler MTP-hemming til blodplate- eller klaffesykdommen
-- Prekliniske data eller litteratur som støtter prediksjonen
-- Pakningsvedlegg med advarsler og kontraindikasjoner (innhentes fra DMP)
-- Avklaring av tilgjengelighet og regulatorisk status i Norge, siden godkjenningen er kansellert
-- En vurdering av nytte–risiko for leversikkerhet i en populasjon som ikke har hyperkolesterolemi
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA) og en plausibel mekanistisk hypotese
+- Innhenting og gjennomgang av preparatomtalens advarsler og kontraindikasjoner
+- Prekliniske eller litteraturbaserte holdepunkter som direkte omhandler sykdommen
+- Vurdering av nytte–risiko, særlig med tanke på leverstoffskifte og interaksjonsprofil
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

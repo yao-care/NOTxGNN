@@ -48,10 +48,10 @@ Okrelizumab er et anti-CD20-monoklonalt antistoff som opprinnelig brukes til beh
 |------|------|
 | Opprinnelig indikasjon | Multippel sklerose |
 | Predikert ny indikasjon | HER2-positiv brystkreft |
-| TxGNN-prediksjonsscore | 99,89 % |
+| TxGNN-prediksjonsscore | 0,9989 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert/trukket tilbake |
-| Antall godkjenninger | 1 (avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -60,7 +60,7 @@ Okrelizumab er et anti-CD20-monoklonalt antistoff som opprinnelig brukes til beh
 
 Okrelizumab er et humanisert anti-CD20-antistoff som selektivt tømmer CD20-uttrykkende B-celler. Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten. Basert på kjent informasjon er legemidlet godkjent for MS, der B-celledepletering har vist klar effekt.
 
-Det er ikke påvist noen direkte mekanistisk sammenheng mellom CD20-rettet B-celledepletering og HER2-drevet brystkreft. Tumorinfiltrerende B-celler diskuteres i brystkreftimmunologi, men depletering av CD20-positive celler kan være nøytralt eller til og med skadelig. Dette er spekulativt. Den svært høye TxGNN-scoren (0,999) er en ren modellprediksjon og bør ikke tolkes som klinisk evidens.
+Det er ikke påvist noen direkte mekanistisk sammenheng mellom CD20-rettet B-celledepletering og HER2-drevet brystkreft. Tumorinfiltrerende B-celler diskuteres i brystkreftimmunologi, men depletering av CD20-positive celler kan være nøytralt eller til og med skadelig. Dette er spekulativt. Den svært høye TxGNN-scoren (0,9989) er en ren modellprediksjon og bør ikke tolkes som klinisk evidens.
 
 Merk at de øvrige toppredikasjonene (normal brystlignende subtype, progesteronreseptor-positiv, luminal A/B og progesteronreseptor-negativ brystkreft) alle er brystkrefttyper med tilsvarende score og tilsvarende mangel på evidens. Det tyder på at modellen peker på brystkreft generelt, ikke på en spesifikk subtype.
 
@@ -94,7 +94,7 @@ Disse publikasjonene gir ingen evidens for brystkreft. De er kun bakgrunn om leg
 |---------|------|------|-----------|
 | EMEA/H/C/004043 | Ocrevus | Ikke oppgitt | Multippel sklerose |
 
-Godkjenningen har status avregistrert/trukket tilbake. Det finnes ingen gyldige godkjenninger i dataene.
+Legemidlet er markedsført i Norge, og 1 av 1 godkjenning er gyldig.
 
 ---
 
@@ -116,7 +116,7 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier eller litteratur (evidensnivå L5), og det finnes ingen påvist mekanistisk sammenheng mellom CD20-depletering og brystkreft. Legemidlet har dessuten ingen gyldig markedsføringstillatelse i Norge i dataene.
+Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier eller litteratur (evidensnivå L5), og det finnes ingen påvist mekanistisk sammenheng mellom CD20-depletering og brystkreft. Legemidlet er markedsført i Norge, og 1 av 1 godkjenning er gyldig.
 
 **For å gå videre kreves følgende:**
 - Detaljerte data om virkningsmekanisme (MOA)

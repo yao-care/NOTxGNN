@@ -4,17 +4,17 @@ title: Tasimelteon
 parent: Kun modellprediksjon (L5)
 nav_order: 399
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Tasimelteon: predikert ny indikasjon Bilateral parasagittal parieto-occipital polymikrogyri (evidensnivå L5). Opprinnelig indikasjon: Søvnforstyrrelser, døgnrytme"
 monitor_inn: "TASIMELTEON"
-predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "insomnia (disease)", "amyotrophic lateral sclerosis", "endogenous depression", "axial spondylometaphyseal dysplasia", "monomelic amyotrophy", "amyotrophic lateral sclerosis, susceptibility to", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "amyotrohpic lateral sclerosis type 22"]
+predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "insomnia (disease)", "amyotrophic lateral sclerosis", "endogenous depression", "axial spondylometaphyseal dysplasia", "monomelic amyotrophy", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "amyotrohpic lateral sclerosis type 22"]
 ---
 
 # Tasimelteon
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 ## Oppsummering
 
 Tasimelteon er et legemiddel som opprinnelig brukes mot forstyrrelser i døgnrytmen (søvn-våkenrytme).
-TxGNN-modellen forutsier at det kan ha effekt ved **bilateral parasagittal parieto-occipital polymikrogyri**, en medfødt misdannelse i hjernebarken. Prediksjonen har **ingen kliniske studier og ingen publikasjoner** som støtter den, og den er sannsynligvis et artefakt i kunnskapsgrafen.
+TxGNN-modellen (deep learning) forutsier at det kan ha effekt ved **bilateral parasagittal parieto-occipital polymikrogyri**, en medfødt misdannelse i hjernebarken. Prediksjonen har **ingen kliniske studier og ingen publikasjoner** som støtter den. Scoren kommer fra TxGNN-modellen og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 ---
 
@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at det kan ha effekt ved **bilateral parasagittal parie
 |------|------|
 | Opprinnelig indikasjon | Søvnforstyrrelser, døgnrytme |
 | Predikert ny indikasjon | Bilateral parasagittal parieto-occipital polymikrogyri |
-| TxGNN-score | 99,48 % |
+| TxGNN-score | 0,9948 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte (opphørte) godkjenninger |
-| Antall godkjenninger | 1 (0 gyldige, 1 opphørt) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen forutsier at det kan ha effekt ved **bilateral parasagittal parie
 
 Tasimelteon er en agonist på melatoninreseptorene MT1 og MT2. Den virker i den suprachiasmatiske kjernen, hjernens døgnrytmeklokke, og bidrar til å synkronisere døgnrytmen og fremme innsovning. Detaljerte mekanismedata er ikke tilgjengelige i datagrunnlaget, så beskrivelsen bygger på kjent farmakologi.
 
-Polymikrogyri er en strukturell utviklingsforstyrrelse i hjernebarken (knyttet til GPR56/ADGRG1-spekteret). Vi kjenner ingen signalvei som kobler melatoninreseptorer til nevronal migrasjon i hjernebarken. Det finnes derfor ingen identifiserbar mekanistisk kobling mellom den opprinnelige indikasjonen og den predikerte. Den høye scoren skyldes mest sannsynlig et artefakt i kunnskapsgrafen.
+Polymikrogyri er en strukturell utviklingsforstyrrelse i hjernebarken (knyttet til GPR56/ADGRG1-spekteret). Vi kjenner ingen signalvei som kobler melatoninreseptorer til nevronal migrasjon i hjernebarken. Det finnes derfor ingen identifiserbar mekanistisk kobling mellom den opprinnelige indikasjonen og den predikerte. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 **Merknad om andre prediksjoner:** Blant de ti predikerte indikasjonene er den best underbygde **insomni** (rang 2, evidensnivå L1). Den ligger nær den opprinnelige indikasjonen og har et sterkt mekanistisk grunnlag. Den eneste fase 3-studien, [NCT06953869](https://clinicaltrials.gov/study/NCT06953869), er en placebokontrollert, dobbeltblind studie med 420 barn med insomni. Den rekrutterer fortsatt (forventet ferdig i 2028-01), og det foreligger ingen resultater. Depresjon (rang 4, L4) har kun indirekte støtte fra oversiktsartikler. De øvrige prediksjonene (blant annet ALS-relaterte tilstander) er ren modellprediksjon uten data.
 

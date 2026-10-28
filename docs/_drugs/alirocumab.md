@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Alirocumab
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 25
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Alirocumab: predikert ny indikasjon Xantomatose (rangert som nr. 3 (evidensnivå L4). Opprinnelig indikasjon: Dyslipidemi"
 monitor_inn: "ALIROCUMAB"
 predicted_indications: ["ichthyosis, X-linked, without steroid sulfatase deficiency", "disorder of other vitamins and cofactors metabolism and transport", "xanthomatosis (disease)", "46,XY disorder of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect", "cholesterol catabolic process disease", "46,XY disorder of sex development due to a cholesterol synthesis defect", "dappled diaphyseal dysplasia", "neutral lipid storage disease", "3-hydroxyacyl-CoA dehydrogenase deficiency", "spastic paraplegia-optic atrophy-neuropathy and spastic paraplegia-optic atrophy-neuropathy-related disorder"]
+last_modified_at: 2026-10-27
+description: "Alirocumab: predikert ny indikasjon Ichtyose, X-bundet, uten steroidsulfatasemangel (ichthyosis, X-linked, without steroid sulfatase deficiency) (evidensnivå L5). Opprinnelig indikasjon: Dyslipidemia"
 ---
 
 # Alirocumab
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,88 +33,63 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Alirocumab: Fra dyslipidemi til xantomatose
+## Alirocumab: PCSK9-hemmer (monoklonalt antistoff) → Ichtyose, X-bundet, uten steroidsulfatasemangel (ichthyosis, X-linked, without steroid sulfatase deficiency)
 {: .text-alpha }
 
-## Oppsummering i en setning
+## Oppsummering i én setning
 
-Alirocumab er et monoklonalt antistoff mot PCSK9 som opprinnelig brukes til behandling av dyslipidemi.
-TxGNN-modellen predikerer at det kan være virksomt mot **xantomatose** (rangert som nr. 3 i prediksjonslisten), men det finnes **ingen kliniske studier** og bare **2 publikasjoner** (begge kasuistikker) som berører temaet.
-Prediksjonen er dermed i hovedsak modellbasert og må regnes som et forskningsspørsmål.
-
----
+Alirocumab er et monoklonalt antistoff som hemmer PCSK9 og brukes til å senke LDL-kolesterol. TxGNN-modellen forutsier at legemidlet kan være aktuelt for **ichtyose, X-bundet, uten steroidsulfatasemangel (ichthyosis, X-linked, without steroid sulfatase deficiency)**. Det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne prediksjonen i de innsamlede dataene.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Dyslipidemi |
-| Predikert ny indikasjon | Xantomatose (rangert som nr. 3; se merknad under) |
-| TxGNN-prediksjonsscore | 99,37 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun tilbakekalte/avregistrerte (cancelled only) |
-| Antall godkjenninger | 1 (avregistrert) |
+| Opprinnelig indikasjon | Dyslipidemias |
+| Predikert ny indikasjon | Ichtyose, X-bundet, uten steroidsulfatasemangel (ichthyosis, X-linked, without steroid sulfatase deficiency) |
+| TxGNN-prediksjonsscore | 0,9943 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
-**Merknad om valg av indikasjon:** Den høyest rangerte prediksjonen (X-bundet iktyose uten steroidsulfatasemangel, score 99,43 %) har ingen mekanistisk kobling og ingen evidens (L5). Denne rapporten fokuserer derfor på xantomatose, som er den første prediksjonen med biologisk rimelig sammenheng og tilgjengelig litteratur. Prediksjonen «kolesterolkatabolsk prosess-sykdom» (rang 5, score 99,36 %) har mer litteratur, men denne gjenspeiler i hovedsak den allerede godkjente dyslipidemiindikasjonen.
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
----
+Alirocumab binder PCSK9 og hindrer at proteinet bryter ned LDL-reseptorer. Dermed øker antallet LDL-reseptorer på leverceller, og LDL-kolesterol i blodet synker. Detaljerte mekanismedata (MOA) fra legemiddeldatabasen er ikke tilgjengelige, men denne virkemåten er godt kjent.
 
-## Hvorfor er denne prediksjonen rimelig?
+Det er ingen tydelig mekanistisk kobling til den predikerte sykdommen. X-bundet ichtyose er knyttet til forstyrret metabolisme av kolesterolsulfat i huden, og dette er ikke en prosess som styres av PCSK9 eller LDL-reseptoren. Den høye scoren er kun en beregningsmessig prediksjon uten støtte i studier eller litteratur.
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon er alirocumab et antistoff som binder PCSK9 (proprotein konvertase subtilisin/keksin type 9). Dette øker tilgjengeligheten av LDL-reseptorer og senker LDL-kolesterol. Effekten ved dyslipidemi er godt dokumentert.
+## Klinisk studiedokumentasjon
 
-Xantomer oppstår ved alvorlig hyperkolesterolemi, der lipider avleires i vev. Å senke LDL-kolesterol via PCSK9-hemming er derfor mekanistisk plausibelt, særlig ved familiær hyperkolesterolemi.
+Foreløpig er ingen relaterte kliniske studier registrert.
 
-Det er imidlertid viktige forbehold. De to funnede artiklene viser ikke at alirocumab behandler xantomatose som sykdom. De beskriver alvorlig dyslipidemi og sitosterolemi med senexantomer. Ved sitosterolemi skyldes sykdommen en defekt i steroltransportøren (ABCG5/G8), ikke nedbrytning av LDL-reseptoren, så effekten er usikker.
+## Litteraturdokumentasjon
 
----
+Foreløpig finnes ingen relatert litteratur.
 
-## Evidens fra kliniske studier
-
-Foreløpig er det ingen relaterte kliniske studier registrert.
-
----
-
-## Litteraturevidens
-
-| PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|------|---------|
-| [32713907](https://pubmed.ncbi.nlm.nih.gov/32713907/) | 2020 | Kasuistikk | Internal Medicine | Sitosterolemi med alvorlig hyperkolesterolemi og senexantomer pga. sammensatt heterozygote ABCG5-mutasjoner, behandlet med ezetimib og alirocumab |
-| [31538826](https://pubmed.ncbi.nlm.nih.gov/31538826/) | 2019 | Kasuistikk | J Investig Med High Impact Case Rep | Alvorlig kombinert dyslipidemi med kompleks genetisk bakgrunn (familiær dysbetalipoproteinemi) med xantomer |
-
-For den nærliggende prediksjonen «kolesterolkatabolsk prosess-sykdom» finnes det i tillegg en rekke oversikter og sikkerhetsanalyser, blant annet en samlet sikkerhetsanalyse fra ODYSSEY OUTCOMES med 47 296 pasientår ([38658193](https://pubmed.ncbi.nlm.nih.gov/38658193/)). Disse støtter hovedsakelig den eksisterende dyslipidemiindikasjonen og ikke en ny indikasjon.
-
----
-
-## Markedsinformasjon for Norge
+## Informasjon om det norske markedet
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/003882 | Praluent | Ikke oppgitt | Dyslipidemi (status: avregistrert) |
-
----
+| EMEA/H/C/003882 | Praluent | Ikke angitt | Se godkjenningsdata |
 
 ## Sikkerhetsvurderinger
 
-**Legemiddelinteraksjoner:** Datagrunnlaget inneholder én farmakologisk oppføring, som beskriver bindingen til målproteinet PCSK9. Det er ikke registrert noen interaksjoner med andre legemidler.
+- **Legemiddelinteraksjoner:** Den eneste registrerte oppføringen gjelder målproteinet PCSK9 (farmakologisk målrelasjon), ikke en klinisk interaksjon med andre legemidler.
 
-For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparatomtalen.
-
----
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Evidensen for xantomatose er på nivå L4: bare to kasuistikker og ingen kliniske studier. Prediksjonen er mekanistisk plausibel, men ikke vist, og Praluent er i tillegg kun registrert som avregistrert i datagrunnlaget.
+Prediksjonen bygger kun på modellen. Det finnes ingen studier eller publikasjoner for denne sykdommen, og ingen plausibel mekanistisk kobling mellom PCSK9-hemming og X-bundet ichtyose. Evidensnivået er L5.
 
-**For å gå videre trengs følgende:**
-- Detaljerte data om virkningsmekanisme (MOA)
-- Preparatomtale med advarsler og kontraindikasjoner (mangler i dag og blokkerer videre sikkerhetsvurdering)
-- Systematisk litteratursøk og vurdering av om alirocumab gir effekt på xantomer hos pasienter med familiær hyperkolesterolemi
-- Avklaring av markedsstatus og tilgjengelighet i Norge, ettersom den eneste godkjenningen er avregistrert
+**For å gå videre kreves:**
+- Mekanistisk begrunnelse for hvordan PCSK9-hemming kan påvirke kolesterolsulfatmetabolismen i huden
+- Prekliniske data (celle- eller dyremodeller) for den aktuelle sykdommen
+- Gjennomgang av preparatomtalens advarsler og kontraindikasjoner
+- Detaljerte mekanismedata (MOA)
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

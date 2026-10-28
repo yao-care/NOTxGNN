@@ -5,10 +5,10 @@ parent: Kun modellprediksjon (L5)
 nav_order: 51
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Aztreonam: predikert ny indikasjon Hyperamylasemi (TxGNN-rangering 1) (evidensnivå L5). Opprinnelig indikasjon: Gramnegative bakterieinfeksjoner"
 monitor_inn: "AZTREONAM"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "premalignant hematological system disease", "epiglottitis", "monoclonal gammopathy", "xanthogranulomatous pyelonephritis"]
+last_modified_at: 2026-10-27
+description: "Aztreonam: predikert ny indikasjon Hyperamylasemi (hyperamylasemia) (evidensnivå L5). Opprinnelig indikasjon: Gram-Negative Bacterial Infections"
 ---
 
 # Aztreonam
@@ -33,106 +33,72 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Aztreonam: Fra gramnegative infeksjoner til gonokokkuretritt
+## Aztreonam: monobaktam-antibiotikum → hyperamylasemi (hyperamylasemia)
 {: .text-alpha }
 
-## Oppsummering i en setning
+## Oppsummering i én setning
 
-Aztreonam er et monobaktam-antibiotikum som opprinnelig brukes mot gramnegative bakterieinfeksjoner, urinveisinfeksjoner, helsetjenesteassosiert lungebetennelse og bløtdelsinfeksjoner.
-TxGNN-modellen forutsier at det kan være effektivt mot **gonokokkuretritt** (den høyest rangerte indikasjonen med litteraturstøtte), med **0 kliniske studier** og **6 publikasjoner** i de samlede dataene.
-Merk at modellens høyest rangerte prediksjon (hyperamylasemi) mangler både mekanistisk grunnlag og evidens, og at flere av de 10 øverste prediksjonene sannsynligvis er artefakter fra kunnskapsgrafen.
-
----
+Aztreonam er et monobaktam-antibiotikum som hemmer bakteriell celleveggsyntese hos gramnegative bakterier. TxGNN-modellen predikerer at legemidlet kan være aktuelt ved **hyperamylasemi (hyperamylasemia)**, men dette er en laboratoriefunn-diagnose uten støtte i de innsamlede dataene: det finnes **ingen kliniske studier** og **ingen publikasjoner** som omhandler denne tilstanden direkte.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Gramnegative bakterieinfeksjoner; urinveisinfeksjoner; helsetjenesteassosiert lungebetennelse; bløtdelsinfeksjoner |
-| Predikert ny indikasjon (høyest rangert) | Hyperamylasemi (TxGNN-rangering 1) |
-| Klinisk mest relevante prediksjon | Gonokokkuretritt (rangering 4) |
-| TxGNN-prediksjonsscore | 99,73 % (hyperamylasemi); 99,59 % (gonokokkuretritt) |
-| Evidensnivå | L5 (hyperamylasemi); L3 (gonokokkuretritt) |
-| Markedsstatus i Norge | Kun avregistrert |
-| Antall markedsføringstillatelser | 1 (avregistrert) |
-| Anbefalt beslutning | Hold (samlet); gonokokkuretritt kan vurderes som forskningsspørsmål |
+| Opprinnelig indikasjon | Gram-Negative Bacterial Infections;Urinary Tract Infections;Healthcare-Associated Pneumonia;Soft Tissue Infections |
+| Predikert ny indikasjon | Hyperamylasemi (hyperamylasemia) |
+| TxGNN-skåre | 0,9973 |
+| Evidensnivå | L5 |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
+| Anbefalt beslutning | Hold |
 
----
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-## Hvorfor er denne prediksjonen rimelig?
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Aztreonam er likevel kjent som et monobaktam som hemmer penicillinbindende protein 3 (PBP3) hos gramnegative aerobe bakterier.
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de samlede dataene. Basert på kjent informasjon er aztreonam et monobaktam-antibiotikum som hemmer bakteriell celleveggsyntese via penicillinbindende protein 3 (PBP3) hos gramnegative aerobe bakterier, og effekten er etablert ved gramnegative infeksjoner.
+Hyperamylasemi er et laboratoriefunn (forhøyet amylase i blod), ikke en infeksjonssykdom. Det finnes ingen plausibel mekanistisk kobling mellom en antibakteriell virkning og senking av serumamylase. Den høye skåren (0,9973) ser ut til å være et artefakt fra modellens grafbaserte læring og bør ikke tolkes som klinisk støtte. Det finnes heller ingen forskjell i skåre som skiller denne prediksjonen fra den neste på listen (polyklonalt hyperviskositetssyndrom, samme skåre), noe som styrker inntrykket av at skåren i seg selv er lite informativ her.
 
-**Høyest rangerte prediksjoner:** Hyperamylasemi, polyklonalt hyperviskositetssyndrom, medfødt analbuminemi, blodgruppeinkompatibilitet og premaligne hematologiske sykdommer har ingen plausibel mekanistisk kobling til et antibakterielt middel. Dette er laboratoriefunn eller ikke-infeksiøse tilstander, og de høye scorene ser ut til å være grafbaserte artefakter. For blodgruppeinkompatibilitet gjelder den eneste funnede artikkelen resistensgener hos *Klebsiella pneumoniae* og er et rent nøkkelordtreff.
+## Evidens fra kliniske studier
 
-**Ureaplasma-uretritt:** Prediksjonen er mekanistisk motsagt. Ureaplasma mangler cellevegg, og betalaktamer som aztreonam er derfor iboende uvirksomme.
-
-**Plausible prediksjoner:**
-- **Gonokokkuretritt:** Aztreonam har aktivitet mot *Neisseria gonorrhoeae*, og flere kliniske studier fra 1983–1986 samt en åpen enarmet studie fra 2020 (2 g) rapporterer effekt av enkeltdose, også mot penicillinresistente stammer. Evidensen er imidlertid ikke-randomisert og i hovedsak historisk, resistensutvikling er beskrevet, og gjeldende retningslinjer bygger på andre midler. Dette er mer en utvidelse av den eksisterende gramnegative indikasjonen enn ekte repurposing.
-- **Epiglottitt:** Ofte forårsaket av *Haemophilus influenzae* type b (gramnegativ). Støtten er indirekte, og tredjegenerasjons cefalosporiner er foretrukket.
-- **Xantogranulomatøs pyelonefritt:** Teoretisk antibakteriell aktivitet, men definitiv behandling er vanligvis kirurgisk, og direkte evidens mangler.
-- **Monoklonal gammopati:** Aztreonam behandler ikke selve sykdommen. Litteraturen gjelder infeksjoner hos pasienter med hematologiske sykdommer.
-
----
-
-## Klinisk studieevidens
-
-Foreløpig er det ingen relaterte kliniske studier registrert.
-
----
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ## Litteraturevidens
 
-Tabellen gjelder gonokokkuretritt (rangering 4), som har mest relevant litteratur.
+Foreløpig er ingen relatert litteratur tilgjengelig.
 
-| PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|------|---------|
-| [33077658](https://pubmed.ncbi.nlm.nih.gov/33077658/) | 2020 | Åpen enarmet klinisk studie | Antimicrob Agents Chemother | Enkeltdose aztreonam 2 g intramuskulært hos menn med gonoré, undersøkt som mulig nytt regime på grunn av trusselen fra ceftriaxonresistent *N. gonorrhoeae* |
-| [3095216](https://pubmed.ncbi.nlm.nih.gov/3095216/) | 1986 | Klinisk studie | Genitourin Med | Enkeltdose 1 g i.m. kurerte infeksjonen hos 61 menn og 26 kvinner på alle steder unntatt svelget hos én pasient; godt tolerert |
-| [3157346](https://pubmed.ncbi.nlm.nih.gov/3157346/) | 1985 | Klinisk effektstudie | Antimicrob Agents Chemother | Aztreonam 1 g i.m. sammenlignet med spektinomycin 2 g ved ukomplisert gonoré; ingen behandlingssvikt i noen av armene |
-| [3937450](https://pubmed.ncbi.nlm.nih.gov/3937450/) | 1985 | Epidemiologisk og terapeutisk studie | Hinyokika Kiyo | Enkeltdosebehandling av gonoréinfeksjoner med aztreonam, kombinert med epidemiologisk kartlegging |
-| [6225808](https://pubmed.ncbi.nlm.nih.gov/6225808/) | 1983 | In vitro/klinisk effektstudie | J Infect Dis | Aztreonam mot penicillinresistente gonokokker (PPNG) |
-| [11406757](https://pubmed.ncbi.nlm.nih.gov/11406757/) | 2001 | Resistens/mikrobiologi | J Infect Chemother | Beskriver fremvekst av cefem- og aztreonam-høyresistent *N. gonorrhoeae* uten betalaktamaseproduksjon |
-| [3766490](https://pubmed.ncbi.nlm.nih.gov/3766490/) | 1986 | Åpen studie/serie (epiglottitt) | Am J Dis Child | 59 barn med alvorlige gramnegative infeksjoner, inkludert én med epiglottitt; indirekte støtte |
-| [4079014](https://pubmed.ncbi.nlm.nih.gov/4079014/) | 1985 | Klinisk studie (monoklonal gammopati) | Jpn J Antibiot | Behandling av alvorlige infeksjoner ved hematologiske sykdommer; samlet effektrate 51,1 % (indirekte) |
+## Informasjon om det norske markedet
 
----
-
-## Markedsinformasjon for Norge
-
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/006113 | Emblaveo | Ikke oppgitt | Gramnegative bakterieinfeksjoner; urinveisinfeksjoner; helsetjenesteassosiert lungebetennelse; bløtdelsinfeksjoner (status: avregistrert) |
+| EMEA/H/C/006113 | Emblaveo | Ikke oppgitt | Ikke oppgitt i de lokale dataene |
 
----
+Merk: Denne godkjenningen gjelder et produkt som oppføres som enkeltstoff i de lokale dataene, og lisensposten er markert som kansellert, mens samlet markedsstatus i dataene er «Markedsført». Statusen bør verifiseres mot oppdatert kilde før en eventuell beslutning.
 
 ## Sikkerhetsvurderinger
 
-**Kontraindikasjoner fra kunnskapsgrafen** (kunnskapsgrafen PrimeKG, ikke preparatomtale): nyresykdom, pyoureter, leversykdom, gallblæresykdom, *Clostridium difficile*-kolitt, perinatal nekrotiserende enterokolitt og bronkial sykdom.
-
-**Legemiddelinteraksjoner:** 27 interaksjoner er identifisert totalt. Av de 20 som er oppført i dataene, er følgende klassifisert som **moderate**:
-- Pikosulfat
+**Legemiddelinteraksjoner:** Det er registrert 27 mulige interaksjoner. Av de som er klassifisert med alvorlighetsgrad, er følgende **moderate**:
+- Pikosulfat (picosulfuric acid)
 - Dikumarol
 - Warfarin
 
-De øvrige er klassifisert som «ukjent» og omfatter blant annet pantoprazol, omeprazol, lansoprazol, morfin, vankomycin, hydrokortison, ondansetron, metronidazol, deksametason, amfotericin B, acetylsalisylsyre, heparin, salbutamol, flukonazol, takrolimus, amikacin og aciklovir.
+Øvrige registrerte interaksjoner har ukjent alvorlighetsgrad, blant annet vankomycin, amikacin, amfotericin B, takrolimus, heparin, acetylsalisylsyre, metronidazol og flukonazol. Kombinasjon med antikoagulantia (warfarin, dikumarol, heparin) krever særlig oppmerksomhet.
+
+**Sykdomstilstander registrert som kontraindikasjoner i datagrunnlaget:** nyresykdom, leversykdom, galleblæresykdom, Clostridium difficile-kolitt, perinatal nekrotiserende enterokolitt, bronkial sykdom og pyoureter. Dette er ikke hentet fra preparatomtale og må bekreftes mot denne.
 
 For øvrig sikkerhetsinformasjon, se preparatomtalen.
-
----
 
 ## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-De høyest rangerte prediksjonene (hyperamylasemi, hyperviskositetssyndrom, analbuminemi) er rene modellprediksjoner uten mekanistisk eller klinisk støtte, og Ureaplasma-uretritt er mekanistisk motsagt. Gonokokkuretritt (L3) er biologisk plausibel og kan følges opp som et forskningsspørsmål, men evidensen er ikke-randomisert og historisk, resistens er beskrevet, og eneste norske tillatelse er avregistrert.
+Hyperamylasemi er et laboratoriefunn uten plausibel mekanistisk kobling til et antibakterielt middel, og det finnes verken kliniske studier eller publikasjoner som støtter prediksjonen. Evidensnivået er L5 (kun modellprediksjon).
 
 **For å gå videre kreves følgende:**
-- Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner mangler og er en blokkerende datamangel)
-- Detaljerte data om virkningsmekanisme
-- For gonokokkuretritt: vurdering mot gjeldende behandlingsretningslinjer og lokale resistensdata, samt randomiserte sammenlignende studier
-- Avklaring av regulatorisk status og tilgjengelige administrasjonsveier, siden tillatelsen er avregistrert
+- Direkte kliniske eller prekliniske data som kobler aztreonam til hyperamylasemi (ingen finnes i dag)
+- En klar klinisk hypotese som skiller en eventuell effekt fra et rent artefakt i modellen
+- Preparatomtale med advarsler og kontraindikasjoner for en fullstendig sikkerhetsvurdering
+- Verifisering av gjeldende markedsstatus og lisensstatus i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

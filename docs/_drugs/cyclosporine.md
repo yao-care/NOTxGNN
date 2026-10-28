@@ -33,7 +33,7 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-## Cyclosporine: Fra tørre øyne og hornhinnesykdom til kronisk granulomatøs sykdom
+## Cyclosporine: Fra tørre øyne og hornhinnesykdom til kronisk granulomatøs sykdom, autosomalt recessiv
 {: .text-alpha }
 
 ## Oppsummering i en setning
@@ -50,10 +50,10 @@ Støtten er svak: **ingen kliniske studier** og **1 publikasjon** (en studie av 
 |------|------|
 | Opprinnelig indikasjon | Hornhinnesykdommer (Corneal Diseases) |
 | Predikert ny indikasjon | Kronisk granulomatøs sykdom, autosomalt recessiv |
-| TxGNN-prediksjonsscore | 99,68 % |
+| TxGNN-prediksjonsscore | 0,9968 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun avregistrerte godkjenninger (Cancelled only) |
-| Antall godkjenninger | 3 (alle avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -84,7 +84,7 @@ Foreløpig er ingen relaterte kliniske studier registrert.
 
 ## Markedsinformasjon for Norge
 
-Alle tre godkjenninger er avregistrert.
+Tre av tre godkjenninger er gyldige, og legemidlet er markedsført i Norge.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -110,7 +110,7 @@ Følgende kommer fra kunnskapsgrafen (ikke fra preparatomtalen) og må tolkes me
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger nesten bare på modellscoren. Den eneste litteraturen er en transplantasjonsstudie der cyclosporins bidrag ikke kan isoleres, og det finnes ingen kliniske studier. I tillegg er alle norske godkjenninger avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen bygger nesten bare på modellscoren. Den eneste litteraturen er en transplantasjonsstudie der cyclosporins bidrag ikke kan isoleres, og det finnes ingen kliniske studier. I tillegg mangler sikkerhetsdata fra preparatomtalen.
 
 **For å komme videre trengs følgende:**
 - Hente og analysere preparatomtalen (advarsler og kontraindikasjoner), som er en blokkerende datamangel
@@ -127,12 +127,12 @@ Alle har anbefalingen Hold. Evidensen er svak.
 
 | Rang | Sykdom | Score | Evidensnivå | Kommentar |
 |---|---|---|---|---|
-| 2 | Hjerneaneurisme | 99,50 % | L3 | To små kliniske rapporter fra 1990-tallet om vasospasme etter subaraknoidalblødning. En studie fra 2017 tyder på at T-cellefunksjon ikke er nødvendig for aneurismedannelse. |
-| 3 | Kolobomatøs mikroftalmi-rhizomel dysplasi-syndrom | 99,39 % | L5 | Ingen evidens utover modellen. |
-| 4 | Kongenital iktyosiform erytroderma | 99,38 % | L5 | Ingen spesifikk evidens. Antiinflammatorisk rasjonale er tenkelig. |
-| 5 | Føtal erytroblastose | 99,37 % | L5 | Kun en in vitro-studie om bilirubintransport. |
-| 6 | Brakydaktyli-syndaktyli-syndrom | 99,31 % | L5 | Ingen evidens utover modellen. |
-| 7 | Prolaps av tårekjertelen | 99,08 % | L5 | Ingen evidens. Tilstanden er mekanisk/strukturell. |
+| 2 | Hjerneaneurisme | 0,9950 | L5 | To små kliniske rapporter fra 1990-tallet om vasospasme etter subaraknoidalblødning. En studie fra 2017 tyder på at T-cellefunksjon ikke er nødvendig for aneurismedannelse. |
+| 3 | Kolobomatøs mikroftalmi-rhizomel dysplasi-syndrom | 0,9939 | L5 | Ingen evidens utover modellen. |
+| 4 | Kongenital iktyosiform erytroderma | 0,9938 | L5 | Ingen spesifikk evidens. Antiinflammatorisk rasjonale er tenkelig. |
+| 5 | Føtal erytroblastose | 0,9937 | L5 | Kun en in vitro-studie om bilirubintransport. |
+| 6 | Brakydaktyli-syndaktyli-syndrom | 0,9931 | L5 | Ingen evidens utover modellen. |
+| 7 | Prolaps av tårekjertelen | 0,9908 | L5 | Ingen evidens. Tilstanden er mekanisk/strukturell. |
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

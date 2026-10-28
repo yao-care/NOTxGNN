@@ -5,10 +5,10 @@ parent: Kun modellprediksjon (L5)
 nav_order: 185
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Ganirelix: predikert ny indikasjon Hypertrikose (evidensnivå L5). Opprinnelig indikasjon: Assistert befruktning, ovulasjonsinduksjon, kvinnelig infertilitet"
 monitor_inn: "GANIRELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial male-limited precocious puberty", "persistent fetal circulation syndrome", "aromatase excess syndrome", "centra precocious puberty 1", "familial isolated trichomegaly"]
+last_modified_at: 2026-10-27
+description: "Ganirelix: predikert ny indikasjon Hypertrikose (hypertrichosis (disease)) (evidensnivå L5). Opprinnelig indikasjon: Reproductive Techniques, Assisted"
 ---
 
 # Ganirelix
@@ -33,106 +33,73 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Ganirelix: Fra assistert befruktning til hypertrikose
+## Ganirelix: GnRH-reseptorantagonist → Hypertrikose (hypertrichosis (disease))
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
-Ganirelix er en GnRH-reseptorantagonist som opprinnelig brukes for å hindre for tidlig eggløsning hos kvinner som gjennomgår eggstokkstimulering ved assistert befruktning. TxGNN-modellen forutsier at legemidlet kan ha effekt ved **hypertrikose**, men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** som støtter denne prediksjonen. Den høye skåren er derfor kun en beregningsmessig prediksjon.
-
----
+Ganirelix er en GnRH-reseptorantagonist som brukes i assistert befruktning. Den prediktive modellen TxGNN antyder at legemidlet kan ha effekt ved **hypertrikose (hypertrichosis (disease))**, men det finnes **ingen kliniske studier og ingen publikasjoner** i de samlede dataene som støtter denne retningen.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Assistert befruktning, ovulasjonsinduksjon, kvinnelig infertilitet |
-| Predikert ny indikasjon | Hypertrikose |
-| TxGNN-prediksjonsskår | 99,98 % |
+| Opprinnelig indikasjon | Reproductive Techniques, Assisted;Ovulation Induction;Infertility, Female |
+| Predikert ny indikasjon | Hypertrikose (hypertrichosis (disease)) |
+| TxGNN-prediksjonsscore | 0,9998 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte (trukket tilbake) preparater |
-| Antall godkjenninger | 2 (begge avregistrert) |
-| Anbefalt beslutning | Hold (avvent) |
-
----
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
+| Anbefalt beslutning | Hold |
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget for denne rapporten. Det som er kjent, er at ganirelix er en GnRH-reseptorantagonist (målgen *GNRHR*). Den hemmer frigjøring av LH og FSH og dermed også gonadal produksjon av kjønnshormoner, inkludert androgener.
+Ganirelix blokkerer GnRH-reseptoren i hypofysen og demper dermed utskillelsen av LH og FSH. Det reduserer også kjønnshormonproduksjonen, inkludert androgener fra gonadene. Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de samlede dataene, men målet (GnRH-reseptoren, genet GNRHR) er kjent.
 
-Teoretisk kan redusert androgensignalering påvirke androgenavhengig hårvekst (hirsutisme). Hypertrikose er derimot som regel androgenuavhengig, så koblingen er svak. Prediksjonen bør derfor sees som en hypotese fra nettverksanalyse, ikke som et klinisk begrunnet signal.
-
-**Andre predikerte indikasjoner** (alle på evidensnivå L5, uten studier eller litteratur):
-
-| Rangering | Sykdom | Skår | Vurdering |
-|------|------|------|------|
-| 2 | Ambras-type hypertrichosis universalis congenita | 99,98 % | Genetisk, ikke hormondrevet. Ingen plausibel mekanisme. Hold |
-| 3 | Misdannelsessyndrom med tann-/periodontal komponent | 99,97 % | Ingen plausibel mekanisme. Hold |
-| 4 | Syndrom med Dandy-Walker-malformasjon | 99,97 % | Ingen kjent mekanistisk relevans. Hold |
-| 5 | Isolert genetisk hårskaftavvik | 99,97 % | Strukturelt genetisk defekt. Hold |
-| 6 | Familiær mannsbegrenset tidlig pubertet | 99,85 % | Mekanisk misforhold (aktiverende LHCGR-mutasjon). Forskningsspørsmål |
-| 7 | Persisterende føtal sirkulasjon | 99,80 % | Ingen mekanisme, sikkerhet hos nyfødte ukjent. Hold |
-| 8 | Aromataseoverskuddssyndrom | 99,80 % | Delvis konseptuelt plausibel, aromatasehemmere er mer direkte. Forskningsspørsmål |
-| 9 | Sentral tidlig pubertet 1 | 99,75 % | Sterkest biologisk begrunnelse i settet. Forskningsspørsmål |
-| 10 | Familiær isolert trikomegali | 99,75 % | Ingen hormonell driver. Hold |
-
-Sentral tidlig pubertet er mekanistisk mest sammenhengende, siden hemming av GnRH-aksen er det etablerte behandlingsprinsippet. Praktisk gjennomførbarhet er likevel begrenset: ganirelix er kortvirkende, gis som injeksjon og er ikke markedsført i Norge, og depot-GnRH-agonister dekker allerede dette behovet.
-
----
+I teorien kan lavere androgensignalering påvirke androgenavhengig hårvekst (hirsutisme). Hypertrikose er imidlertid vanligvis androgenuavhengig, så den mekanistiske koblingen er svak. Den høye scoren er en ren beregningsmessig prediksjon uten støtte fra studier eller litteratur. Prediksjonen bør derfor sees på som en hypotese, ikke som et funn.
 
 ## Evidens fra kliniske studier
 
-Det er for tiden ingen relaterte kliniske studier registrert.
-
----
+Foreløpig er det ingen relaterte kliniske studier registrert.
 
 ## Litteraturevidens
 
-Det er for tiden ingen relatert litteratur tilgjengelig.
-
----
+Foreløpig finnes det ingen relatert litteratur.
 
 ## Markedsinformasjon for Norge
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000274 | Orgalutran (Organon N.V.) | Ikke oppgitt | Assistert befruktning, ovulasjonsinduksjon, kvinnelig infertilitet |
-| EMEA/H/C/005641 | Ganirelix Gedeon Richter (Gedeon Richter Plc.) | Ikke oppgitt | Assistert befruktning, ovulasjonsinduksjon, kvinnelig infertilitet |
-
-Begge godkjenningene har status avregistrert, og det finnes ingen gyldige godkjenninger i dag.
-
----
+| EMEA/H/C/000274 | Orgalutran | Ikke oppgitt | Se lokale lisensposter |
+| EMEA/H/C/005641 | Ganirelix Gedeon Richter | Ikke oppgitt | Se lokale lisensposter |
 
 ## Sikkerhetsvurderinger
 
-**Legemiddelinteraksjoner** (7 registrert, alle av moderat alvorlighetsgrad der nivå er oppgitt):
+**Legemiddelinteraksjoner** (7 registrerte, hovedsakelig av moderat alvorlighetsgrad):
 
-- Gonadorelin
-- Humant koriongonadotropin (hCG)
-- Menotropiner
-- Triptorelin
-- Follitropin
-- Urofollitropin
+- Gonadorelin (moderat)
+- Choriongonadotropin, humant (moderat)
+- Menotropin (moderat)
+- Triptorelin (moderat)
+- Follitropin (moderat)
+- Urofollitropin (moderat)
 
-Disse er hovedsakelig andre midler som påvirker den hypotalamus-hypofyse-gonadale aksen, og samtidig bruk kan gi additive eller motvirkende hormonelle effekter. I tillegg er GnRH₁-reseptoren (målproteinet) oppført som farmakologisk interaksjonspartner.
+I tillegg er GnRH₁-reseptoren registrert som farmakologisk mål for ganirelix.
 
 For øvrig sikkerhetsinformasjon, se preparatomtalen (pakningsvedlegget).
 
----
-
 ## Konklusjon og neste steg
 
-**Beslutning: Hold (avvent)**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for hypertrikose bygger utelukkende på en modellskår, uten kliniske studier eller litteratur, og den mekanistiske koblingen er svak siden tilstanden vanligvis er androgenuavhengig. I tillegg er ganirelix ikke lenger markedsført i Norge.
+Prediksjonen bygger kun på en modellscore, uten kliniske studier eller litteratur, og den mekanistiske koblingen er svak fordi hypertrikose vanligvis ikke er hormondrevet. Det finnes ingen direkte studier av sykdommen, så evidensnivået er L5.
 
 **For å gå videre kreves følgende:**
-- Preparatomtale med advarsler og kontraindikasjoner (kritisk datamangel som hindrer sikkerhetsscreening)
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Systematisk litteratursøk og søk etter pågående studier for hypertrikose og de andre predikerte indikasjonene
-- Dersom man vil forfølge en hypotese, bør sentral tidlig pubertet prioriteres som forskningsspørsmål, med vurdering av injeksjonsform, kort virketid og eksisterende alternativer
-- Avklaring av administrasjonsvei og tilgjengelighet i Norge
+- Data om virkningsmekanisme (MOA) for å vurdere den mekanistiske koblingen
+- Preparatomtale med advarsler og kontraindikasjoner
+- Prekliniske eller kliniske data som direkte undersøker ganirelix ved hypertrikose
+- Vurdering av administrasjonsvei og dosering, siden ganirelix er et kortvirkende injeksjonspreparat
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

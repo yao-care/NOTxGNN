@@ -50,10 +50,10 @@ Det finnes **ingen kliniske studier** og **ingen publikasjoner** i dataene som e
 |------|------|
 | Opprinnelig indikasjon | Postmenopause |
 | Predikert ny indikasjon | Heparinkofaktor 2-mangel (heparin cofactor 2 deficiency) |
-| TxGNN-prediksjonsscore | 99,99 % |
+| TxGNN-prediksjonsscore | 0,9999 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun opphevede godkjenninger |
-| Antall godkjenninger | 1 (0 gyldige, 1 opphevet) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Det finnes **ingen kliniske studier** og **ingen publikasjoner** i dataene som e
 
 Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig. Prasteron er et endogent steroid-forstadium (DHEA) som omdannes til androgener og østrogener i kroppen. Den opprinnelige indikasjonen er postmenopause, og det finnes ingen kjent direkte mekanistisk kobling til heparinkofaktor II (SERPIND1).
 
-Eventuelle mekanismer er spekulative, for eksempel indirekte effekter på koagulasjon eller lipidveier via kjønnshormonsignalering. Den høye TxGNN-scoren gjenspeiler trolig nærhet mellom noder i kunnskapsgrafen, ikke et dokumentert farmakologisk grunnlag.
+Eventuelle mekanismer er spekulative, for eksempel indirekte effekter på koagulasjon eller lipidveier via kjønnshormonsignalering. Den høye TxGNN-scoren kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 Dataene viser også at en rekke andre tromboserelaterte tilstander scorer svært høyt (se tabellen under). Flere av disse reiser et sikkerhetsmessig spørsmål, siden østrogenlignende effekter generelt kan øke tromberisikoen.
 
@@ -70,15 +70,15 @@ Dataene viser også at en rekke andre tromboserelaterte tilstander scorer svært
 
 | Rang | Sykdom | TxGNN-score |
 |------|------|------|
-| 2 | Faktor 5-overskudd med spontan trombose | 99,98 % |
-| 3 | Antitrombinmangel type 2 | 99,98 % |
-| 4 | Trombofili | 99,91 % |
-| 5 | Alvorlig ikke-proliferativ diabetisk retinopati | 99,25 % |
-| 6 | Trombofili ved protein S-mangel (autosomal recessiv) | 99,13 % |
-| 7 | Sklerodermi | 99,11 % |
-| 8 | Komplement C4A-mangel | 99,05 % |
-| 9 | Pseudo-von Willebrands sykdom | 99,01 % |
-| 10 | Primær frigjøringsforstyrrelse i blodplater | 99,01 % |
+| 2 | Faktor 5-overskudd med spontan trombose | 0,9998 |
+| 3 | Antitrombinmangel type 2 | 0,9998 |
+| 4 | Trombofili | 0,9991 |
+| 5 | Alvorlig ikke-proliferativ diabetisk retinopati | 0,9925 |
+| 6 | Trombofili ved protein S-mangel (autosomal recessiv) | 0,9913 |
+| 7 | Sklerodermi | 0,9911 |
+| 8 | Komplement C4A-mangel | 0,9905 |
+| 9 | Pseudo-von Willebrands sykdom | 0,9901 |
+| 10 | Primær frigjøringsforstyrrelse i blodplater | 0,9901 |
 
 ---
 
@@ -100,7 +100,7 @@ Det er for tiden ingen relevant litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/004138 | Intrarosa | Ikke oppgitt | Postmenopause |
 
-Godkjenningen (innehaver: Endoceutics S.A.) er registrert som opphevet. Det finnes ingen gyldige godkjenninger i Norge.
+Godkjenningen (innehaver: Endoceutics S.A.) er gyldig. Legemidlet er markedsført i Norge, med 1 gyldig godkjenning av 1.
 
 ---
 

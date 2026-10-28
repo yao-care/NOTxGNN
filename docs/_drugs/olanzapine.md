@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Olanzapine
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 295
-evidence_level: L3
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Olanzapine: predikert ny indikasjon Agorafobi (evidensnivå L3). Opprinnelig indikasjon: Schizofreni"
 monitor_inn: "OLANZAPINE"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
+description: "Olanzapine: predikert ny indikasjon Benign paroxysmal torticollis of infancy (evidensnivå L5). Opprinnelig indikasjon: Schizophrenia"
 ---
 
 # Olanzapine
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **3** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-## Olanzapin: Fra schizofreni og bipolar lidelse til agorafobi
+## Olanzapine: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
 Olanzapin er et antipsykotikum som opprinnelig brukes mot schizofreni og bipolar lidelse. TxGNN-modellen predikerer at legemidlet kan ha effekt ved **agorafobi** (rangert som nr. 2 blant de predikerte indikasjonene; den høyest rangerte, godartet paroksysmal torticollis hos spedbarn, har ingen støtte i data og vurderes som lite plausibel). For agorafobi finnes det **0 kliniske studier** og **6 publikasjoner** i dataene som er satt sammen for denne rapporten, hovedsakelig små åpne studier, kasuistikker og oversiktsartikler.
 
-> **Merknad om valg av indikasjon:** Den predikerte indikasjon med høyest TxGNN-score (godartet paroksysmal torticollis hos spedbarn, 99,54 %) mangler all støtte i studier og litteratur, og bruk av et antipsykotikum hos spedbarn gir store sikkerhetsbekymringer. Rapporten fokuserer derfor på agorafobi, som har mest støtte i litteraturen. Torticollis og dysthymi omtales kort under «Andre predikerte indikasjoner».
+> **Merknad om valg av indikasjon:** Den predikerte indikasjon med høyest TxGNN-score (godartet paroksysmal torticollis hos spedbarn, 0,9954) mangler all støtte i studier og litteratur, og bruk av et antipsykotikum hos spedbarn gir store sikkerhetsbekymringer. Rapporten fokuserer derfor på agorafobi, som har mest støtte i litteraturen. Torticollis og dysthymi omtales kort under «Andre predikerte indikasjoner».
 
 ---
 
@@ -48,11 +48,12 @@ Olanzapin er et antipsykotikum som opprinnelig brukes mot schizofreni og bipolar
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Schizofreni; bipolar lidelse |
-| Predikert ny indikasjon | Agorafobi |
-| TxGNN-prediksjonsscore | 99,47 % |
-| Evidensnivå | L3 |
-| Status i Norge | Kun avregistrerte (ingen gyldige markedsføringstillatelser) |
+| Opprinnelig indikasjon | Schizophrenia;Bipolar Disorder |
+| Predikert ny indikasjon | Benign paroxysmal torticollis of infancy |
+| TxGNN-prediksjonsscore | 0.9954 |
+| Evidensnivå | L5 |
+| Status i Norge | Markedsført (gyldige tillatelser: 9 av 9) |
+| Antall godkjenninger | 9 (gyldige: 9) |
 | Antall tillatelser | 9 (alle avregistrert) |
 | Anbefalt beslutning | Hold (forskningsspørsmål; krever kontrollerte studier og supplerende sikkerhetsdata) |
 
@@ -89,7 +90,6 @@ Currently no related clinical trials registered (ingen registrerte kliniske stud
 
 ## Markedsinformasjon for Norge
 
-Alle tillatelsene i dataene er registrert som avregistrert (ingen gyldige).
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -115,8 +115,7 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon, da advarsler og kontra
 
 | Sykdom | TxGNN-score | Evidensnivå | Vurdering |
 |------|------|------|------|
-| Godartet paroksysmal torticollis hos spedbarn | 99,54 % | L5 | Kun modellprediksjon, ingen studier eller litteratur. Ingen etablert mekanistisk begrunnelse, og antipsykotika til spedbarn gir store sikkerhetsbekymringer. Hold. |
-| Dysthymi | 99,28 % | L4 | Kun indirekte evidens (systematisk oversikt over andregenerasjons antipsykotika ved MDD og dysthymi, studie ved borderline personlighetsforstyrrelse med dysthymi). Ingen dysthymi-spesifikk randomisert studie. Metabolsk risiko er en vesentlig bekymring ved langtidsbruk. Forskningsspørsmål. |
+| Godartet paroksysmal torticollis hos spedbarn | 0,9954 | L5 | Kun modellprediksjon, ingen studier eller litteratur. Ingen etablert mekanistisk begrunnelse, og antipsykotika til spedbarn gir store sikkerhetsbekymringer. Hold. |
 
 ---
 
@@ -125,13 +124,12 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon, da advarsler og kontra
 **Beslutning: Hold (forskningsspørsmål)**
 
 **Begrunnelse:**
-Støtten for agorafobi/panikklidelse er begrenset til én liten åpen studie, kasuistikker og oversikter som plasserer antipsykotisk tilleggsbehandling som et lavevidensalternativ. Det finnes ingen kliniske studier, og olanzapin har i tillegg ingen gyldig markedsføringstillatelse i Norge i dataene, og en betydelig metabolsk og sedativ risikoprofil.
+Støtten for agorafobi/panikklidelse er begrenset til én liten åpen studie, kasuistikker og oversikter som plasserer antipsykotisk tilleggsbehandling som et lavevidensalternativ.
 
 **For å gå videre kreves følgende:**
 - Randomiserte, kontrollerte studier av olanzapin ved panikklidelse/agorafobi
 - Data om virkningsmekanisme (MOA)
 - Advarsler og kontraindikasjoner fra preparatomtalen (blokkerende datamangel for sikkerhetsscreening)
-- Avklaring av regulatorisk status i Norge, siden alle tillatelser er avregistrert
 - Plan for overvåking av metabolsk risiko, sedasjon og legemiddelinteraksjoner (spesielt bupropion og morfin)
 ## Ansvarsfraskrivelse
 

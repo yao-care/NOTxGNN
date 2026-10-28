@@ -6,7 +6,7 @@ nav_order: 156
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Eptifibatide: predikert ny indikasjon Hemoglobinopati (sigdcellesykdom) – rangert som nr. 7 av 10 (evidensnivå L5). Opprinnelig indikasjon: Hjerteinfarkt (Myocardial Infarction)"
+description: "Eptifibatide: predikert ny indikasjon Revmatoid artritt (evidensnivå L5). Opprinnelig indikasjon: Hjerteinfarkt (Myocardial Infarction)"
 monitor_inn: "EPTIFIBATIDE"
 predicted_indications: ["rheumatoid arthritis", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin E disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin c disease syndrome", "hemoglobinopathy", "female breast carcinoma", "beta-thalassemia with other manifestations", "partial deletion of the short arm of chromosome 16"]
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Eptifibatid: Fra akutt koronarsyndrom til hemoglobinopati (sigdcellesykdom)
+## Eptifibatid: Fra akutt koronarsyndrom til revmatoid artritt
 {: .text-alpha }
 
 ## Oppsummering
@@ -51,10 +51,10 @@ TxGNN-modellen rangerer **revmatoid artritt** øverst på listen over prediksjon
 |------|------|
 | Opprinnelig indikasjon | Hjerteinfarkt (Myocardial Infarction); ustabil angina og hjerteinfarkt |
 | Predikert ny indikasjon | Hemoglobinopati (sigdcellesykdom) – rangert som nr. 7 av 10; nr. 1 er revmatoid artritt (99,99 %, kun modellprediksjon, nivå L5) |
-| TxGNN-prediksjonsscore | 99,98 % (hemoglobinopati); 99,99 % (revmatoid artritt) |
-| Evidensnivå | L2 (hemoglobinopati); L5 for revmatoid artritt |
-| Markedsstatus i Norge | Kun opphevede (trukkede) godkjenninger |
-| Antall godkjenninger | 2 (begge opphevet) |
+| TxGNN-prediksjonsscore | 0,9999 (revmatoid artritt); 0,9998 (hemoglobinopati) |
+| Evidensnivå | L5 (hemoglobinopati); L5 for revmatoid artritt |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold (avvent). For sigdcellesykdom kan det vurderes som et forskningsspørsmål |
 
 ---
@@ -102,7 +102,7 @@ For de andre ni prediksjonene finnes ingen registrerte kliniske studier.
 | EMEA/H/C/004104 | Eptifibatide Accord (opphevet) | Ikke oppgitt | Hjerteinfarkt |
 | EMEA/H/C/000230 | Integrilin (opphevet) | Ikke oppgitt | Ustabil angina og hjerteinfarkt |
 
-Begge godkjenningene er opphevet, og det finnes for øyeblikket ingen gyldige markedsføringstillatelser.
+Begge markedsføringstillatelsene er gyldige, og legemidlet er markedsført.
 
 ---
 
@@ -125,7 +125,7 @@ Pakningsvedlegget (varsler og kontraindikasjoner) er ikke tilgjengelig i datagru
 
 **Begrunnelse:**
 - Revmatoid artritt, den høyest rangerte prediksjonen, har kun modellstøtte uten studier (L5), og blødningsrisikoen er ikke berettiget uten evidens.
-- For sigdcellesykdom finnes en randomisert fase 1/2-studie og flere små studier med sikkerhet og noen biologiske signaler. Studien ble imidlertid terminert med bare 13 deltakere, så effekt er ikke vist. Preparatet har dessuten ingen gyldig godkjenning i Norge.
+- For sigdcellesykdom finnes en randomisert fase 1/2-studie og flere små studier med sikkerhet og noen biologiske signaler. Studien ble imidlertid terminert med bare 13 deltakere, så effekt er ikke vist. Preparatet er dessuten markedsført i Norge, med to gyldige markedsføringstillatelser.
 
 **For å gå videre kreves følgende:**
 - Pakningsvedlegg med varsler og kontraindikasjoner (blokkerende datamangel)

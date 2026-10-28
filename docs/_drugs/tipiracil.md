@@ -6,7 +6,7 @@ nav_order: 419
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Tipiracil: predikert ny indikasjon Villøst adenom i cecum (evidensnivå L5). Opprinnelig indikasjon: Kolorektal kreft (Colorectal Neoplasms)"
+description: "Tipiracil: predikert ny indikasjon cecum villous adenoma (evidensnivå L5). Opprinnelig indikasjon: Kolorektal kreft (Colorectal Neoplasms)"
 monitor_inn: "Tipiracil"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "rectosigmoid junction neoplasm", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Tipiracil: Fra tykk- og endetarmskreft til villøst adenom i cecum
+## Tipiracil: Fra tykk- og endetarmskreft til cecum villous adenoma
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -50,9 +50,10 @@ men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtte
 |------|------|
 | Opprinnelig indikasjon | Kolorektal kreft (Colorectal Neoplasms) |
 | Foreslått ny indikasjon | Villøst adenom i cecum |
-| TxGNN-prediksjonsscore | 99,99 % |
+| TxGNN-prediksjonsscore | 0.9999 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert/trukket tilbake (ingen gyldige markedsføringstillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -62,7 +63,7 @@ men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtte
 
 Data om virkningsmekanisme er foreløpig ikke tilgjengelig fra de innsamlede dataene. Basert på kjent informasjon er tipiracil en tymidinfosforylasehemmer som brukes sammen med trifluridin. Tipiracil hindrer nedbrytning av trifluridin og øker dermed eksponeringen for det cytotoksiske stoffet. Effekten av kombinasjonen ved kolorektal kreft er etablert.
 
-Villøst adenom er en premalign lesjon i samme organ. Den høye modellscoren gjenspeiler trolig nærhet til kolorektale neoplasmer i kunnskapsgrafen, ikke et påvist behandlingsgrunnlag. Cytotoksisk behandling passer dårlig for en godartet lesjon som vanligvis fjernes endoskopisk. Det finnes ingen studier eller litteratur som knytter legemidlet til denne tilstanden.
+Villøst adenom er en premalign lesjon i samme organ. Den høye modellscoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens eller et påvist behandlingsgrunnlag. Cytotoksisk behandling passer dårlig for en godartet lesjon som vanligvis fjernes endoskopisk. Det finnes ingen studier eller litteratur som knytter legemidlet til denne tilstanden.
 
 For fullstendighetens skyld: de ni neste prediksjonene (blant annet lipom i kolon, nevroendokrin tumor G1 i cecum, kolorektal GIST og rektosigmoid neoplasme) har likeledes evidensnivå L4–L5 og anbefalingen Hold. Rektosigmoid neoplasme er mekanistisk mest plausibel dersom svulsten er malign, men også her mangler spesifikke data.
 
@@ -84,7 +85,7 @@ Det er foreløpig ingen litteratur som direkte omhandler tipiracil ved villøst 
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/003897 | Lonsurf | Ikke oppgitt | Kolorektal kreft (status: avregistrert) |
+| EMEA/H/C/003897 | Lonsurf | Ikke oppgitt | Kolorektal kreft (status: godkjent) |
 
 ---
 

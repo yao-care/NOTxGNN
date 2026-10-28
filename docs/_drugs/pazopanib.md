@@ -4,17 +4,17 @@ title: Pazopanib
 parent: Kun modellprediksjon (L5)
 nav_order: 313
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Pazopanib: predikert ny indikasjon Renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene… (evidensnivå L5). Opprinnelig indikasjon: Nyrecellekarsinom (Carcinoma, Renal Cell)"
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
+description: "Pazopanib: predikert ny indikasjon Liposarcoma (evidensnivå L5). Opprinnelig indikasjon: Carcinoma, Renal Cell"
 ---
 
 # Pazopanib
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Pazopanib: Fra nyrecellekarsinom til uklassifisert nyrecellekarsinom
+## Pazopanib: Liposarcoma
 {: .text-alpha }
 
 ## Kort oppsummering
@@ -49,12 +49,12 @@ Den mest modne dokumentasjonen i de dataene som er sammenstilt for denne rapport
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Nyrecellekarsinom (Carcinoma, Renal Cell) |
-| Predikert ny indikasjon | Renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions (rangert nr. 1 av modellen; ingen studier eller litteratur) |
-| TxGNN-prediksjonsscore | 99,63 % |
+| Opprinnelig indikasjon | Carcinoma, Renal Cell |
+| Predikert ny indikasjon | Liposarcoma |
+| TxGNN-prediksjonsscore | 0.9959 |
 | Evidensnivå | L5 for rangert nr. 1 (kun modellprediksjon). Uklassifisert nyrecellekarsinom: L3. Liposarkom og DFSP: L2 |
-| Markedsstatus i Norge | Kun opphevet (cancelled only) |
-| Antall godkjenninger | 1 (opphevet) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold for rangert nr. 1. Proceed with Guardrails for liposarkom og DFSP |
 
 ---
@@ -160,7 +160,6 @@ Ingen registrerte kliniske studier for uklassifisert nyrecellekarsinom. Nedenfor
 | Cytotoksisitetsklassifisering | Målrettet terapi (multitarget tyrosinkinasehemmer), ikke konvensjonelt cytotoksisk |
 | Myelosuppresjonsrisiko | Se pakningsvedlegget for advarsler og forholdsregler |
 | Emetogenisk klassifisering | Se pakningsvedlegget for advarsler og forholdsregler |
-| Overvåkingspunkter | Se pakningsvedlegget. Kunnskapsgrafen peker på leverskade, hypertensjon, QT-forlengelse og proteinuri, som det er naturlig å overvåke |
 | Håndteringsbeskyttelse | Se pakningsvedlegget for advarsler og forholdsregler |
 
 ---
@@ -192,7 +191,6 @@ Detaljerte advarsler og kontraindikasjoner fra preparattekst er ikke tilgjengeli
 
 **Begrunnelse:**
 - Den høyest rangerte indikasjonen (Xp11.2-RCC) har kun modellprediksjon (L5) uten studier eller litteratur. Uklassifisert RCC har kun ikke-randomiserte data (L3) som ikke er spesifikke for undertypen.
-- Liposarkom og DFSP har fase 2-data (L2), men studiene er små, enarmede eller avsluttet tidlig, og pazopanib er kun opphevet i Norge (ingen gyldig lisens).
 
 **For å gå videre kreves følgende:**
 - Preparattekstens advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening). De bør hentes fra DMP.

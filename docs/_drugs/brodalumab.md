@@ -50,10 +50,10 @@ Prediksjonen er kun modellbasert, og biologisk begrunnelse taler snarere mot den
 |------|------|
 | Opprinnelig indikasjon | Psoriasis |
 | Predikert ny indikasjon | Strongyloidiasis |
-| TxGNN-prediksjonsscore | 99,84 % |
+| TxGNN-prediksjonsscore | 0,9984 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert/trukket tilbake |
-| Antall godkjenninger | 1 (avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Prediksjonen er kun modellbasert, og biologisk begrunnelse taler snarere mot den
 
 Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon blokkerer brodalumab IL-17RA og dermed signalering via IL-17A, IL-17F og IL-25. Effekten ved psoriasis er godt etablert.
 
-For strongyloidiasis, en parasittinfeksjon forårsaket av rundorm (helminter), er den biologiske begrunnelsen svak. IL-17 bidrar til vertens forsvar ved slimhinne- og barrieroverflater, og IL-25 fremmer type 2-immunitet mot helminter. Blokkering av denne signalveien kan derfor plausibelt svekke, ikke styrke, immunforsvaret mot parasitten. Den høye TxGNN-scoren støttes dermed ikke av biologisk resonnement og er trolig et uttrykk for nærhet i kunnskapsgrafen.
+For strongyloidiasis, en parasittinfeksjon forårsaket av rundorm (helminter), er den biologiske begrunnelsen svak. IL-17 bidrar til vertens forsvar ved slimhinne- og barrieroverflater, og IL-25 fremmer type 2-immunitet mot helminter. Blokkering av denne signalveien kan derfor plausibelt svekke, ikke styrke, immunforsvaret mot parasitten. Den høye TxGNN-scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 Det er også verdt å merke seg at de neste ni predikerte indikasjonene (blant annet øyesykdom, optikusnevritt og episkleritt) heller ikke har direkte klinisk støtte, og at flere av dem er rent modellbaserte.
 
@@ -86,7 +86,7 @@ Det er for øyeblikket ingen relevant litteratur tilgjengelig for denne indikasj
 |---------|------|------|-----------|
 | EMEA/H/C/003959 | Kyntheum | Ikke oppgitt | Psoriasis |
 
-Godkjenningen er avregistrert, og ingen gyldige markedsføringstillatelser er registrert.
+Legemidlet er markedsført, og 1 av 1 markedsføringstillatelse er gyldig.
 
 ---
 

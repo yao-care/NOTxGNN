@@ -50,10 +50,10 @@ Den høye modellscoren ser ut til å være et beregningsmessig artefakt og ikke 
 |------|------|
 | Opprinnelig indikasjon | Influenza (Influenza, Human) |
 | Predikert ny indikasjon | Pyelonefritt |
-| TxGNN-prediksjonsscore | 99,84 % |
+| TxGNN-prediksjonsscore | 0,9984 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert/kansellert |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -64,9 +64,9 @@ Data om virkningsmekanisme er ikke tilgjengelig i datagrunnlaget for denne rappo
 
 Pyelonefritt er vanligvis en bakteriell nyreinfeksjon, oftest forårsaket av *E. coli*. Det finnes bakterielle nevraminidaser (sialidaser), men zanamivir er ikke kjent for å ha klinisk meningsfull antibakteriell aktivitet, og det foreligger ingen støttende data. Det er dermed ingen etablert mekanistisk kobling mellom den opprinnelige og den predikerte indikasjonen.
 
-Den svært høye TxGNN-scoren (0,998) skyldes trolig felles «infeksjons»-assosiasjoner i kunnskapsgrafen og ikke faktisk evidens. Prediksjonen bør derfor betraktes som en hypotese uten støtte.
+Den svært høye TxGNN-scoren (0,9984) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Prediksjonen bør derfor betraktes som en hypotese uten støtte.
 
-Merk også at den nest rangerte prediksjonen, **forstyrrelse i tyrosinmetabolismen** (score 99,02 %), heller ikke har noen plausibel mekanistisk kobling. Nevraminidase har ingen kjent rolle i tyrosinkatabolismen. De tre publikasjonene som ble hentet frem, handler om resistens mot nevraminidasehemmere (oseltamivir-resistens, en SPR-analyse og en N294S-mutasjon i nevraminidase) og er urelaterte til tyrosinmetabolisme. Treffet skyldes trolig et nøkkelordartefakt («tyrosin» mot aminosyremutasjoner).
+Merk også at den nest rangerte prediksjonen, **forstyrrelse i tyrosinmetabolismen** (score 0,9902), heller ikke har noen plausibel mekanistisk kobling. Nevraminidase har ingen kjent rolle i tyrosinkatabolismen. De tre publikasjonene som ble hentet frem, handler om resistens mot nevraminidasehemmere (oseltamivir-resistens, en SPR-analyse og en N294S-mutasjon i nevraminidase) og er urelaterte til tyrosinmetabolisme. Treffet skyldes trolig et nøkkelordartefakt («tyrosin» mot aminosyremutasjoner).
 
 ---
 
@@ -88,7 +88,7 @@ Foreløpig finnes ingen relatert litteratur for pyelonefritt.
 |---------|------|------|-----------|
 | EMEA/H/C/004102 | Dectova | Ikke oppgitt | Influenza, Human |
 
-Godkjenningen er kansellert, og det finnes ingen gyldige markedsføringstillatelser for zanamivir i dataene.
+Legemidlet er markedsført, og det finnes 1 gyldig markedsføringstillatelse av 1 for zanamivir i dataene.
 
 ---
 

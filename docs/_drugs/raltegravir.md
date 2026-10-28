@@ -6,9 +6,9 @@ nav_order: 344
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Raltegravir: predikert ny indikasjon Simian immunsviktvirusinfeksjon (evidensnivå L5). Opprinnelig indikasjon: HIV-infeksjon"
 monitor_inn: "RALTEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Raltegravir: predikert ny indikasjon Feline acquired immunodeficiency syndrome (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
 # Raltegravir
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-## Raltegravir: Fra hiv-infeksjon til simian immunsviktvirusinfeksjon
+## Raltegravir: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -48,11 +48,12 @@ Evidensen består av **16 publikasjoner** (10 er vist her), alle prekliniske stu
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | HIV-infeksjon |
-| Predikert ny indikasjon | Simian immunsviktvirusinfeksjon |
-| TxGNN-prediksjonsscore | 99,78 % |
-| Evidensnivå | L4 (prekliniske studier og mekanismestudier) |
-| Markedsstatus i Norge | Kun kansellerte autorisasjoner |
+| Opprinnelig indikasjon | HIV Infections |
+| Predikert ny indikasjon | Feline acquired immunodeficiency syndrome |
+| TxGNN-prediksjonsscore | 0.9978 |
+| Evidensnivå | L5 (prekliniske studier og mekanismestudier) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall autorisasjoner | 1 (kansellert) |
 | Anbefalt beslutning | Hold (forskningsspørsmål, ikke klinisk reposisjonering) |
 
@@ -64,7 +65,7 @@ Data om virkningsmekanisme (MOA) fra legemiddeldatabasen er ikke tilgjengelig i 
 
 SIV er nært beslektet med hiv-1, og integrasen er strukturelt lik. Studier viser at SIVmac239 og SIVmac251 er følsomme for integrasehemmere, og at de samme resistensmutasjonene gir tilsvarende fenotyper i begge virusene. Det gir et mekanistisk grunnlag for prediksjonen.
 
-Det er viktig å merke seg at SIV er en infeksjon hos ikke-humane primater. Den praktiske verdien er derfor først og fremst som **translasjonell dyremodell for hiv**, ikke som ny human behandlingsindikasjon. De to andre prediksjonene i dataene (felin ervervet immunsviktsyndrom og en sjelden nevroutviklingsforstyrrelse) er enten veterinære eller uten påvist biologisk begrunnelse, og er sannsynligvis artefakter av nærhet i kunnskapsgrafen.
+Det er viktig å merke seg at SIV er en infeksjon hos ikke-humane primater. Den praktiske verdien er derfor først og fremst som **translasjonell dyremodell for hiv**, ikke som ny human behandlingsindikasjon.
 
 ---
 

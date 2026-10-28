@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **renal hypourikemi**,
 |------|------|
 | Opprinnelig indikasjon | Gikt |
 | Predikert ny indikasjon | Renal hypourikemi (hypouricemia, renal) |
-| TxGNN-prediksjonsscore | 99,99 % |
+| TxGNN-prediksjonsscore | 0,9999 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun tilbakekalte/avsluttede godkjenninger |
-| Antall godkjenninger | 3 (alle kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -63,11 +63,11 @@ Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i dataene
 
 Renal hypourikemi kjennetegnes av lav serumurinsyre på grunn av defekt reabsorpsjon av urat i nyrene (for eksempel tap av funksjon i URAT1/SLC22A12 eller GLUT9). Å senke urinsyren ytterligere er mekanistisk kontraintuitivt. Den eneste plausible koblingen er et tilfelle i litteraturen der febuxostat ble forsøkt for å forebygge treningsutløst akutt nyreskade (EIAKI) hos en ung pasient med renal hypourikemi. Mulige mekanismer er redusert urat-belastning i urinen og mindre oksidativt stress fra xantinoksidase. Dette er en hypotese, ikke påvist klinisk nytte.
 
-Den svært høye TxGNN-scoren gjenspeiler sannsynligvis nærhet i kunnskapsgrafen (felles noder i urinsyremetabolismen) snarere enn et reelt terapeutisk rasjonale.
+Den svært høye TxGNN-scoren kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens, snarere enn et reelt terapeutisk rasjonale.
 
 **Andre predikerte indikasjoner (kort omtale):**
-- **Partiell HPRT-mangel** (score 99,98 %): Febuxostat reduserer urinsyreproduksjonen og kan være et alternativ til allopurinol, men korrigerer ikke enzymdefekten. Økt xantinbelastning gir risiko for xantinnefropati eller steiner. Støtten består kun av kasuistikker. Evidensnivå L4.
-- **Lesch-Nyhans syndrom** (score 99,68 %): Febuxostat kan kontrollere hyperurikemi og urat-relaterte komplikasjoner, men påvirker ikke de nevrologiske og atferdsmessige symptomene. Støtten er begrenset til små pediatriske serier og en kasuistikk. Evidensnivå L4.
+- **Partiell HPRT-mangel** (score 0,9998): Febuxostat reduserer urinsyreproduksjonen og kan være et alternativ til allopurinol, men korrigerer ikke enzymdefekten. Økt xantinbelastning gir risiko for xantinnefropati eller steiner. Støtten består kun av kasuistikker. Evidensnivå L4.
+- **Lesch-Nyhans syndrom** (score 0,9968): Febuxostat kan kontrollere hyperurikemi og urat-relaterte komplikasjoner, men påvirker ikke de nevrologiske og atferdsmessige symptomene. Støtten er begrenset til små pediatriske serier og en kasuistikk. Evidensnivå L4.
 
 ---
 
@@ -90,7 +90,7 @@ Den svært høye TxGNN-scoren gjenspeiler sannsynligvis nærhet i kunnskapsgrafe
 
 ## Markedsinformasjon for Norge
 
-Alle tre godkjenningene er kansellert, og det finnes ingen gyldige markedsføringstillatelser i dataene.
+Alle tre markedsføringstillatelsene er gyldige, og legemidlet er markedsført.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -120,7 +120,7 @@ Se preparatomtalen for fullstendig informasjon om advarsler og kontraindikasjone
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Mekanismen er motstridende (ytterligere senking av en allerede lav urinsyre), og evidensen består av én studie med uklar relevans samt en oversikt og en kasuistikk. Den høye TxGNN-scoren er trolig et grafartefakt. Dessuten har febuxostat ingen gyldig godkjenning i Norge i dag.
+Mekanismen er motstridende (ytterligere senking av en allerede lav urinsyre), og evidensen består av én studie med uklar relevans samt en oversikt og en kasuistikk. Den høye TxGNN-scoren kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Febuxostat er markedsført i Norge med 3 gyldige markedsføringstillatelser av 3.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

@@ -4,17 +4,17 @@ title: Prasugrel
 parent: Kun modellprediksjon (L5)
 nav_order: 335
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Prasugrel: predikert ny indikasjon Pulmonal hypertensjon (evidensnivå L5). Opprinnelig indikasjon: Akutt koronarsyndrom, ustabil angina, hjerteinfarkt"
 monitor_inn: "PRASUGREL"
-predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "migraine with or without aura, susceptibility to", "brachydactyly-syndactyly syndrome", "leprosy"]
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
 ---
 
 # Prasugrel
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,10 @@ Det mest underbygde alternativet blant de predikerte indikasjonene er **migrene 
 |------|------|
 | Opprinnelig indikasjon | Akutt koronarsyndrom, ustabil angina, hjerteinfarkt |
 | Predikert ny indikasjon | Pulmonal hypertensjon |
-| TxGNN-prediksjonsscore | 99,88 % |
+| TxGNN-prediksjonsscore | 0,9988 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (trukket tilbake) |
 | Anbefalt beslutning | Hold (vent) |
 
@@ -72,10 +73,9 @@ De to publikasjonene knyttet til denne prediksjonen (en kohortstudie om klopidog
 
 | Predikert indikasjon | Score | Evidensnivå | Kommentar |
 |------|------|------|------|
-| Migrene | 99,88 % | L3 | Indirekte støtte fra PFO-relatert litteratur; hypotesegenererende |
-| Migrene med hjernestammeaura | 99,83 % | L4 | Kun indirekte evidens |
-| Migrene med eller uten aura (mottakelighet) | 99,67 % | L4 | Indirekte klinisk støtte og en preklinisk musestudie (epilepsimodell) |
-| Kyfoskoliotisk hjertesykdom, revmatoid artritt, homozygot familiær hyperkolesterolemi, hypoalfalipoproteinemi, brakydaktyli-syndaktyli-syndrom, lepra | 99,46–99,81 % | L5 | Ingen klinisk eller litteraturbasert evidens |
+| Migrene | 0,9988 | L5 | Indirekte støtte fra PFO-relatert litteratur; hypotesegenererende |
+| Migrene med hjernestammeaura | 0,9983 | L5 | Kun indirekte evidens |
+| Kyfoskoliotisk hjertesykdom, revmatoid artritt, homozygot familiær hyperkolesterolemi, hypoalfalipoproteinemi, brakydaktyli-syndaktyli-syndrom, lepra | 99,46–0,9981 | L5 | Ingen klinisk eller litteraturbasert evidens |
 
 ---
 
@@ -115,7 +115,7 @@ For pulmonal hypertensjon er ingen direkte relevant litteratur funnet. De to pub
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000984 | Efient (Substipharm) | Ikke oppgitt | Akutt koronarsyndrom, ustabil angina, hjerteinfarkt (status: trukket tilbake) |
+| EMEA/H/C/000984 | Efient (Substipharm) | Ikke oppgitt | Akutt koronarsyndrom, ustabil angina, hjerteinfarkt (status: godkjent) |
 
 ---
 
@@ -140,7 +140,7 @@ Prasugrel har en blødningsrisiko som er særlig relevant ved samtidig bruk av a
 **Beslutning: Hold**
 
 **Begrunnelse:**
-For pulmonal hypertensjon er prediksjonen utelukkende modellbasert (L5), uten kliniske studier eller direkte litteratur. I tillegg har prasugrel ingen gyldig tillatelse i Norge, og viktige sikkerhetsdata mangler. Migrene (PFO-assosiert) er den mest lovende sekundære retningen (L3), men evidensen er hypotesegenererende og de registrerte studiene tester ikke prasugrel.
+For pulmonal hypertensjon er prediksjonen utelukkende modellbasert (L5), uten kliniske studier eller direkte litteratur. I tillegg er prasugrel markedsført i Norge (1 gyldig tillatelse av 1), men viktige sikkerhetsdata mangler. Migrene (PFO-assosiert) er den mest lovende sekundære retningen (L3), men evidensen er hypotesegenererende og de registrerte studiene tester ikke prasugrel.
 
 **For å gå videre kreves følgende:**
 - Innhenting og gjennomgang av pakningsvedlegg (advarsler og kontraindikasjoner), som er en blokkerende datamangel

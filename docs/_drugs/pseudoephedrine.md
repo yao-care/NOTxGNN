@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pseudoephedrine
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 342
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-15
 description: "Pseudoephedrine: predikert ny indikasjon Sykdom i nesehulen (nasal cavity disease) (evidensnivå L4). Opprinnelig indikasjon: Rhinitis, allergic, seasonal (sesongbetinnet allergisk rhinitt)"
 monitor_inn: "pseudoephedrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "allergic urticaria"]
 ---
 
 # Pseudoephedrine
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Støtten er imidlertid svak: **ingen registrerte kliniske studier** og **7 publi
 |------|------|
 | Opprinnelig indikasjon | Rhinitis, allergic, seasonal (sesongbetinnet allergisk rhinitt) |
 | Predikert ny indikasjon | Sykdom i nesehulen (nasal cavity disease) |
-| TxGNN-prediksjonsscore | 99,75 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun tilbakekalte/avsluttede godkjenninger (ingen gyldig markedsføringstillatelse) |
-| Antall godkjenninger | 1 |
+| TxGNN-prediksjonsscore | 0,9975 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -62,9 +62,9 @@ Støtten er imidlertid svak: **ingen registrerte kliniske studier** og **7 publi
 
 Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Basert på kjent farmakologi er pseudoefedrin et sympatomimetikum som virker på alfa-adrenerge reseptorer, delvis direkte og delvis indirekte via frigjøring av noradrenalin. Dette gir vasokonstriksjon i nesens slimhinne og dermed avsvelling.
 
-Sesongbetinnet allergisk rhinitt og sykdommer i nesehulen har felles hovedsymptom: tett nese. Mekanismen er derfor direkte relevant, for eksempel ved ikke-allergisk rhinitt. Den svært høye TxGNN-scoren (0,997) henger sannsynligvis sammen med at den predikerte indikasjonen ligger tett opptil den eksisterende bruken. Den representerer dermed i hovedsak et nærliggende bruksområde og ikke et reelt nytt repurposing-signal.
+Sesongbetinnet allergisk rhinitt og sykdommer i nesehulen har felles hovedsymptom: tett nese. Mekanismen er derfor direkte relevant, for eksempel ved ikke-allergisk rhinitt. Den svært høye TxGNN-scoren (0,9975) henger sannsynligvis sammen med at den predikerte indikasjonen ligger tett opptil den eksisterende bruken. Den representerer dermed i hovedsak et nærliggende bruksområde og ikke et reelt nytt repurposing-signal.
 
-To andre prediksjoner er vurdert, men har svakere støtte. **Akutt laryngofaryngitt** (score 99,73 %) har ingen kliniske studier eller litteratur, kun modellprediksjon (L5), og pseudoefedrin har ingen kjent effekt på inflammasjon eller infeksjon i strupe og svelg. **Allergisk urticaria** (score 99,14 %) har ingen direkte evidens (L5). Pseudoefedrin er ikke en H1-antihistamin, og litteraturen gjelder antihistaminer som i praksis er funnet via kombinasjonsprodukter ved allergisk rhinitt. Begge er anbefalt som «Hold».
+To andre prediksjoner er vurdert, men har svakere støtte. **Allergisk urticaria** (score 0,9914) har ingen direkte evidens (L5). Pseudoefedrin er ikke en H1-antihistamin, og litteraturen gjelder antihistaminer som i praksis er funnet via kombinasjonsprodukter ved allergisk rhinitt. Den er anbefalt som «Hold».
 
 ---
 

@@ -50,10 +50,10 @@ Evidensen er derfor svak (nivå L4), og anbefalingen er **Hold**.
 |------|------|
 | Opprinnelig indikasjon | Kronisk hepatitt C |
 | Predikert ny indikasjon | Hepatitt B-virusinfeksjon |
-| TxGNN-prediksjonsscore | 99,71 % |
+| TxGNN-prediksjonsscore | 0,9971 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun trukket tilbake (avregistrert) |
-| Antall godkjenninger | 1 (0 gyldige, 1 kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---

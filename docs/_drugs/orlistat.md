@@ -50,9 +50,10 @@ men for øyeblikket finnes **0 kliniske studier** og **0 publikasjoner** i de sa
 |------|------|
 | Opprinnelig indikasjon | Fedme |
 | Predikert ny indikasjon | Hypervitaminose |
-| TxGNN-prediksjonsscore | 99,42 % |
+| TxGNN-prediksjonsscore | 0,9942 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (ingen gyldige tillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Antall tillatelser | 2 (begge trukket tilbake) |
 | Anbefalt beslutning | Hold |
 
@@ -64,7 +65,7 @@ Data om virkningsmekanisme (MOA) fra kildeposten er ikke tilgjengelige. Resonnem
 
 Orlistat hemmer mage- og bukspyttkjertellipase og reduserer opptaket av fett fra kosten med omtrent 30 %. Fettløselige vitaminer (A, D, E og K) tas opp sammen med fett i kosten. Teoretisk kan orlistat dermed redusere opptaket av disse vitaminene og kunne hjelpe ved overskudd av fettløselige vitaminer.
 
-Koblingen er plausibel, men spekulativ. Den kjente effekten av orlistat er vitaminmangel, som er en merket bivirkning og krever tilskudd. Det finnes ingen dokumentasjon for at orlistat er en trygg eller effektiv behandling av hypervitaminose. Standardbehandlingen (stans av tilskuddet, støttebehandling og kalsium eller andre midler ved vitamin D-toksisitet) er veletablert, så det udekkede behovet for dette legemidlet er lavt. Den høye TxGNN-scoren (0,994) er kun en modellprediksjon.
+Koblingen er plausibel, men spekulativ. Den kjente effekten av orlistat er vitaminmangel, som er en merket bivirkning og krever tilskudd. Det finnes ingen dokumentasjon for at orlistat er en trygg eller effektiv behandling av hypervitaminose. Standardbehandlingen (stans av tilskuddet, støttebehandling og kalsium eller andre midler ved vitamin D-toksisitet) er veletablert, så det udekkede behovet for dette legemidlet er lavt. Den høye TxGNN-scoren (0,9942) er kun en modellprediksjon.
 
 ---
 
@@ -82,7 +83,7 @@ For øyeblikket finnes det ingen relevant litteratur.
 
 ## Markedsinformasjon for Norge
 
-Begge tillatelsene er trukket tilbake. Ingen gyldige tillatelser er registrert.
+Begge tillatelsene er gyldige. Legemidlet er markedsført, med 2 gyldige tillatelser av 2.
 
 | Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -107,7 +108,7 @@ Opplysninger om advarsler og kontraindikasjoner fra preparatomtalen mangler. Se 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er kun modellbasert (L5), uten kliniske studier eller litteratur. Orlistats kjente effekt på fettløselige vitaminer er en bivirkning, og standardbehandlingen av hypervitaminose er godt etablert. Legemidlet har dessuten ingen gyldig markedsføringstillatelse i Norge.
+Prediksjonen er kun modellbasert (L5), uten kliniske studier eller litteratur. Orlistats kjente effekt på fettløselige vitaminer er en bivirkning, og standardbehandlingen av hypervitaminose er godt etablert. Legemidlet er dessuten markedsført i Norge, med 2 gyldige markedsføringstillatelser av 2.
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)

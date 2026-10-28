@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Decitabine
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 117
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Decitabine: predikert ny indikasjon Refraktær cytopeni hos barn (evidensnivå L4). Opprinnelig indikasjon: Myeloid leukemi"
@@ -14,7 +14,7 @@ predicted_indications: ["refractory cytopenia of childhood"]
 # Decitabine
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ men foreløpig er det kun **2 publikasjoner** (en kohortstudie og en kasuistikk)
 |------|------|
 | Opprinnelig indikasjon | Myeloid leukemi |
 | Predikert ny indikasjon | Refraktær cytopeni hos barn |
-| TxGNN-prediksjonsscore | 99,03 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun opphevede (tilbaketrukne) godkjenninger |
-| Antall godkjenninger | 2 (begge opphevet) |
+| TxGNN-prediksjonsscore | 0,9903 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagru
 
 Refraktær cytopeni hos barn er den vanligste undergruppen av pediatrisk myelodysplastisk syndrom. Delt biologi, med epigenetisk dysregulering og klonal hematopoese, gir en plausibel mekanistisk kobling til den opprinnelige indikasjonen.
 
-Den svært høye TxGNN-scoren (0,99) er i tråd med dette, men det er en beregningsbasert prediksjon og ikke klinisk evidens. Koblingen er utledet fra generell kunnskap om legemiddelklassen, ikke fra mekanismedata i datagrunnlaget.
+Den svært høye TxGNN-scoren (0,9903) er i tråd med dette, men det er en beregningsbasert prediksjon og ikke klinisk evidens. Koblingen er utledet fra generell kunnskap om legemiddelklassen, ikke fra mekanismedata i datagrunnlaget.
 
 ---
 

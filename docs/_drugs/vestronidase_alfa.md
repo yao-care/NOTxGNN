@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **Scheie syndrom** (hø
 |------|------|
 | Opprinnelig indikasjon | Mukopolysakkaridose VII |
 | Predikert ny indikasjon | Scheie syndrom |
-| TxGNN-prediksjonsscore | 99,90 % |
+| TxGNN-prediksjonsscore | 0.9990 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte/trukkede godkjenninger |
-| Antall godkjenninger | 1 (avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -61,13 +61,13 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **Scheie syndrom** (hø
 
 Detaljerte data om virkningsmekanisme er ikke tilgjengelige i dataene som er satt sammen for denne rapporten. Basert på kjent informasjon er vestronidase alfa en rekombinant beta-glukuronidase (GUSB) som bryter ned glykosaminoglykaner (GAG): dermatansulfat, heparansulfat og kondroitinsulfat. Effekten ved MPS VII er dokumentert.
 
-Scheie syndrom (mild form av MPS I) skyldes mangel på enzymet IDUA, noe som gir opphopning av dermatan- og heparansulfat. Vestronidase alfa virker på de samme GAG-substratene, men i et nedstrøms trinn, og erstatter ikke det manglende IDUA-enzymet. Det direkte enzymatiske grunnlaget er derfor svakt. Den høye TxGNN-scoren gjenspeiler trolig likhet i GAG-lagringsveier i kunnskapsgrafen.
+Scheie syndrom (mild form av MPS I) skyldes mangel på enzymet IDUA, noe som gir opphopning av dermatan- og heparansulfat. Vestronidase alfa virker på de samme GAG-substratene, men i et nedstrøms trinn, og erstatter ikke det manglende IDUA-enzymet. Det direkte enzymatiske grunnlaget er derfor svakt. Den høye TxGNN-scoren (0.9990) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 Flere av de andre prediksjonene er enda svakere:
 - **Lysosomal lagringssykdom med skjelettaffeksjon**: bred, uspesifikk kategori. Nytten vil avhenge av den konkrete enzymmangelen.
 - **Hurler syndrom (MPS IH)**: samme IDUA-problematikk som ved Scheie syndrom, og kun indirekte klinisk signal.
 - **Sanfilippo syndrom (MPS III)**: dominert av CNS-sykdom. Vestronidase alfa er et stort intravenøst protein som passerer blod-hjerne-barrieren dårlig.
-- **Øye- og nevromuskulære syndromer** (kamptodaktyli/myopi/fibrose av mediale rectus, ptose-stemmebåndsparalyse, ptose-strabisme-ektopiske pupiller, ptose-begrenset øyebevegelse-manglende tåreflekk, medfødt Horner syndrom): ingen identifiserbar mekanistisk kobling. Prediksjonene er trolig artefakter fra grafen.
+- **Øye- og nevromuskulære syndromer** (kamptodaktyli/myopi/fibrose av mediale rectus, ptose-stemmebåndsparalyse, ptose-strabisme-ektopiske pupiller, ptose-begrenset øyebevegelse-manglende tåreflekk, medfødt Horner syndrom): ingen identifiserbar mekanistisk kobling. Scorene fra TxGNN-modellen (deep learning) kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 ---
 
@@ -101,7 +101,7 @@ Tre publikasjoner er knyttet til Sanfilippo syndrom i dataene, men de omhandler 
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004438 | Mepsevii | Ikke oppgitt | Mukopolysakkaridose VII (status: avregistrert) |
+| EMEA/H/C/004438 | Mepsevii | Ikke oppgitt | Mukopolysakkaridose VII (status: godkjent) |
 
 ---
 

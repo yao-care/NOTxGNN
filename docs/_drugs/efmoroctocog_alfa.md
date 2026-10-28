@@ -4,7 +4,7 @@ title: Efmoroctocog Alfa
 parent: Kun modellprediksjon (L5)
 nav_order: 141
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Efmoroctocog Alfa: predikert ny indikasjon Pseudo-von Willebrands sykdom (evidensnivå L5). Opprinnelig indikasjon: Hemofili A"
 monitor_inn: "EFMOROCTOCOG ALFA"
@@ -14,7 +14,7 @@ predicted_indications: ["pseudo-von Willebrand disease", "primary release disord
 # Efmoroctocog Alfa
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,10 @@ Efmoroctocog alfa er et rekombinant FVIII-Fc-fusjonsprotein (Elocta) som opprinn
 |------|------|
 | Opprinnelig indikasjon | Hemofili A |
 | Predikert ny indikasjon | Pseudo-von Willebrands sykdom |
-| TxGNN-prediksjonsscore | 99,997 % |
+| TxGNN-prediksjonsscore | 1,0000 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun tilbakekalte/avsluttede autorisasjoner (Cancelled only) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall autorisasjoner | 1 |
 | Anbefalt beslutning | Hold |
 
@@ -66,16 +67,15 @@ Heller ikke de øvrige topp-10-prediksjonene har klinisk støtte. De fleste gjel
 
 | Rang | Predikert sykdom | TxGNN-score | Vurdering |
 |---|---|---|---|
-| 1 | Pseudo-von Willebrands sykdom | 99,997 % | Ingen klar mekanistisk kobling |
-| 2 | Primær frisettingsforstyrrelse i blodplater | 99,997 % | Sannsynligvis felles «blødningsforstyrrelse»-naboer i grafen |
-| 3 | Glanzmanns trombasteni | 99,995 % | Aggregasjonsdefekt, FVIII løser den ikke |
-| 4 | Scotts syndrom | 99,969 % | Kun indirekte og spekulativ kobling |
-| 5 | Ervervet koagulasjonsfaktormangel | 99,952 % | Biologisk mest plausibel, men hemmende autoantistoffer kan nøytralisere FVIII |
-| 6 | Blødningsdiatese ved kollagenreseptordefekt | 99,921 % | Ingen mekanistisk basis |
-| 7 | Hemorragisk forstyrrelse ved konstitusjonell trombocytopeni | 99,917 % | Ingen klar farmakologisk begrunnelse |
-| 8 | Føtal og neonatal alloimmun trombocytopeni | 99,845 % | Immunmediert, FVIII virker ikke |
-| 9 | Hemofili A med vaskulær abnormitet | 99,779 % | Undergruppe av godkjent bruk, ikke reell repurposing |
-| 10 | Trombotisk trombocytopenisk purpura | 99,724 % | Kan være protrombotisk, sikkerhetsbekymring |
+| 1 | Pseudo-von Willebrands sykdom | 1,0000 | Ingen klar mekanistisk kobling |
+| 2 | Primær frisettingsforstyrrelse i blodplater | 1,0000 | Scoren kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens |
+| 3 | Glanzmanns trombasteni | 1,0000 | Aggregasjonsdefekt, FVIII løser den ikke |
+| 4 | Scotts syndrom | 0,9997 | Kun indirekte og spekulativ kobling |
+| 5 | Ervervet koagulasjonsfaktormangel | 0,9995 | Biologisk mest plausibel, men hemmende autoantistoffer kan nøytralisere FVIII |
+| 6 | Blødningsdiatese ved kollagenreseptordefekt | 0,9992 | Ingen mekanistisk basis |
+| 7 | Hemorragisk forstyrrelse ved konstitusjonell trombocytopeni | 0,9992 | Ingen klar farmakologisk begrunnelse |
+| 8 | Føtal og neonatal alloimmun trombocytopeni | 0,9984 | Immunmediert, FVIII virker ikke |
+| 10 | Trombotisk trombocytopenisk purpura | 0,9972 | Kan være protrombotisk, sikkerhetsbekymring |
 
 ---
 
@@ -97,7 +97,7 @@ Det er for tiden ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/003964 | Elocta | – | Hemofili A |
 
-Autorisasjonen har status som avsluttet/tilbakekalt, og det finnes ingen gyldige autorisasjoner for øyeblikket.
+Den ene autorisasjonen (1 av 1) er gyldig, og legemidlet er markedsført.
 
 ---
 

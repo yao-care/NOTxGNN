@@ -50,10 +50,10 @@ men støtten er foreløpig svak: **1 klinisk studie** (aktiv, ikke rekrutterende
 |------|------|
 | Opprinnelig indikasjon | Cushings syndrom |
 | Foreslått ny indikasjon | Akne |
-| TxGNN-prediksjonsscore | 99,80 % |
+| TxGNN-prediksjonsscore | 0,9980 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
-| Antall godkjenninger | 1 (opphevet) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---

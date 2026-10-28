@@ -4,17 +4,17 @@ title: Sunitinib
 parent: Høy evidens (L1-L2)
 nav_order: 393
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Sunitinib: predikert ny indikasjon Liposarkom (evidensnivå L2). Opprinnelig indikasjon: Gastrointestinale stromale svulster"
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
+description: "Sunitinib: predikert ny indikasjon Liposarkom (liposarcoma) (evidensnivå L2). Opprinnelig indikasjon: Gastrointestinal Stromal Tumors"
 ---
 
 # Sunitinib
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L2** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Sunitinib: Fra gastrointestinale stromale svulster og nyrecellekarsinom til liposarkom
+## Sunitinib: Liposarkom (liposarcoma)
 {: .text-alpha }
 
 ## Enkel oppsummering
@@ -46,12 +46,12 @@ Sunitinib er en oral tyrosinkinasehemmer som opprinnelig brukes mot gastrointest
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Gastrointestinale stromale svulster; nyrecellekarsinom; nevroendokrine svulster |
-| Predikert ny indikasjon | Liposarkom |
-| TxGNN-prediksjonsscore | 99,87 % |
+| Opprinnelig indikasjon | Gastrointestinal Stromal Tumors;Carcinoma, Renal Cell;Neuroendocrine Tumors |
+| Predikert ny indikasjon | Liposarkom (liposarcoma) |
+| TxGNN-prediksjonsscore | 0.9987 |
 | Evidensnivå | L2 |
-| Markedsstatus i Norge | Kun tilbakekalte/avsluttede godkjenninger (ingen gyldige) |
-| Antall godkjenninger | 2 (begge kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold (forskningsspørsmål; se begrunnelse nedenfor) |
 
 ---
@@ -104,9 +104,7 @@ Begge godkjenningene har status «kansellert».
 | Punkt | Innhold |
 |------|------|
 | Cytotoksisitetsklassifisering | Målrettet terapi (multi-tyrosinkinasehemmer), ikke konvensjonelt cytostatikum |
-| Myelosuppresjonsrisiko | Se pakningsvedlegget for advarsler og forsiktighetsregler. Trombocytopeni finnes blant sykdommer knyttet til legemidlet i kunnskapsgrafen |
 | Emetogenisitetsklassifisering | Se pakningsvedlegget for advarsler og forsiktighetsregler |
-| Overvåkingspunkter | Blodstatus, lever- og nyrefunksjon, skjoldbruskkjertelfunksjon, blodtrykk og hjertefunksjon (basert på sykdomsassosiasjoner i kunnskapsgrafen) |
 | Håndteringsvern | Følg lokale retningslinjer for håndtering av antineoplastiske legemidler |
 
 ---
@@ -137,7 +135,7 @@ Kombinasjon med QT-forlengende legemidler (f.eks. dolasetron) krever særlig opp
 
 **Begrunnelse:**
 - Evidensen for liposarkom er begrenset til to små fase 2-studier i blandede sarkompopulasjoner, to oversikter, en kasuistikk og en fase 2-publikasjon. Observert nytte er hovedsakelig sykdomsstabilisering, og liposarkomandelen er trolig liten. Evidensnivået er L2, men studiene er ikke spesifikke for liposarkom.
-- Det foreligger ingen gyldig norsk markedsføringstillatelse (begge er kansellert), og pakningsvedleggets sikkerhetsdata mangler. Dette hindrer videre sikkerhetsvurdering.
+- Legemidlet er markedsført i Norge, og begge de to markedsføringstillatelsene (2 av 2) er gyldige. Pakningsvedleggets sikkerhetsdata mangler. Dette hindrer videre sikkerhetsvurdering.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere pakningsvedlegg/preparatomtale (advarsler og kontraindikasjoner), noe som er en blokkerende datamangel

@@ -6,9 +6,9 @@ nav_order: 442
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Ustekinumab: predikert ny indikasjon Dermatitt (evidensnivå L2). Opprinnelig indikasjon: Psoriasis, psoriasisartritt, Crohns sykdom (og ulcerøs kolitt)"
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
+description: "Ustekinumab: predikert ny indikasjon Dermatitt (dermatitis) (evidensnivå L2). Opprinnelig indikasjon: Psoriasis"
 ---
 
 # Ustekinumab
@@ -33,7 +33,7 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Ustekinumab: Fra psoriasis, psoriasisartritt og Crohns sykdom til dermatitt
+## Ustekinumab: Dermatitt (dermatitis)
 {: .text-alpha }
 
 ## Oppsummering i en setning
@@ -48,12 +48,12 @@ Den mest direkte evidensen er to fase 2-studier i atopisk dermatitt, og disse vi
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Psoriasis, psoriasisartritt, Crohns sykdom (og ulcerøs kolitt) |
-| Predikert ny indikasjon | Dermatitt |
-| TxGNN-prediksjonsscore | 99,99 % |
+| Opprinnelig indikasjon | Psoriasis;Arthritis, Psoriatic;Crohn Disease; Crohn Disease;Psoriasis;Arthritis, Psoriatic; Crohn Disease;Colitis, Ulcerative; Crohn Disease;Psoriasis;Arthritis, Psoriatic;Colitis, Ulcerative; Crohn Disease;Colitis, Ulcerative;Arthritis, Psoriatic; Crohn Disease; Psoriasis;Arthritis, Psoriatic;Crohn |
+| Predikert ny indikasjon | Dermatitt (dermatitis) |
+| TxGNN-prediksjonsscore | 0.9999 |
 | Evidensnivå | L2 |
-| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
-| Antall godkjenninger | 13 (alle kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 13 av 13) |
+| Antall godkjenninger | 13 (gyldige: 13) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -102,7 +102,7 @@ Seks studier er registrert. Bare tre har direkte relevans for ustekinumab ved de
 
 ## Informasjon om det norske markedet
 
-Alle 13 godkjenninger er registrert som kansellert, og ingen er gyldige per i dag. Nummerne er EMA-sentrale godkjenninger. De fem første i dataene:
+Nummerne er EMA-sentrale godkjenninger. De fem første i dataene:
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|

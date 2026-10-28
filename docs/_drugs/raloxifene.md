@@ -48,9 +48,10 @@ Raloxifen er en selektiv østrogenreseptormodulator (SERM) som opprinnelig bruke
 |------|------|
 | Opprinnelig indikasjon | Postmenopausal osteoporose |
 | Predikert ny indikasjon | Duodenalt sår |
-| TxGNN-prediksjonsscore | 99,72 % |
+| TxGNN-prediksjonsscore | 0,9972 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
 | Antall tillatelser | 3 (alle avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -66,9 +67,9 @@ Det er ikke påvist noen mekanistisk sammenheng mellom den opprinnelige indikasj
 
 | Rang | Predikert indikasjon | TxGNN-score | Evidensnivå | Vurdering |
 |------|------|------|------|------|
-| 2 | Hypoalfalipoproteinemi | 99,65 % | L5 | Biologisk mest plausibel (raloxifen senker totalt og LDL-kolesterol), men effekten på HDL er vanligvis beskjeden eller nøytral. Krever uavhengig verifisering. |
-| 3 | Duodenal obstruksjon | 99,64 % | L5 | Ingen plausibel mekanistisk sammenheng; tilstanden er vanligvis strukturell/mekanisk. |
-| 4 | Duodenogastrisk refluks | 99,59 % | L5 | Ingen støttet mekanistisk sammenheng; kun beregningsbasert. |
+| 2 | Hypoalfalipoproteinemi | 0,9965 | L5 | Biologisk mest plausibel (raloxifen senker totalt og LDL-kolesterol), men effekten på HDL er vanligvis beskjeden eller nøytral. Krever uavhengig verifisering. |
+| 3 | Duodenal obstruksjon | 0,9964 | L5 | Ingen plausibel mekanistisk sammenheng; tilstanden er vanligvis strukturell/mekanisk. |
+| 4 | Duodenogastrisk refluks | 0,9959 | L5 | Ingen støttet mekanistisk sammenheng; kun beregningsbasert. |
 
 ---
 
@@ -88,9 +89,9 @@ Foreløpig finnes ingen relatert litteratur.
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000184 | Evista (Substipharm) | – | Postmenopausal osteoporose (avregistrert) |
-| EMEA/H/C/000185 | Optruma (Eli Lilly Nederland B.V.) | – | Postmenopausal osteoporose (avregistrert) |
-| EMEA/H/C/001075 | Raloxifene Teva (Teva B.V.) | – | Postmenopausal osteoporose (avregistrert) |
+| EMEA/H/C/000184 | Evista (Substipharm) | – | Postmenopausal osteoporose (godkjent) |
+| EMEA/H/C/000185 | Optruma (Eli Lilly Nederland B.V.) | – | Postmenopausal osteoporose (godkjent) |
+| EMEA/H/C/001075 | Raloxifene Teva (Teva B.V.) | – | Postmenopausal osteoporose (godkjent) |
 
 ---
 
@@ -108,14 +109,14 @@ Advarsler og kontraindikasjoner fra preparatomtalen mangler. Se preparatomtalen 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er kun beregningsbasert (L5), uten kliniske studier eller publikasjoner. Ingen mekanistisk sammenheng er støttet av dataene, og alle norske tillatelser er avregistrert. Kunnskapsgrafen peker i tillegg på en rekke kardiovaskulære og tromboemboliske kontraindikasjoner.
+Prediksjonen er kun beregningsbasert (L5), uten kliniske studier eller publikasjoner. Ingen mekanistisk sammenheng er støttet av dataene, og legemidlet er markedsført i Norge med 3 gyldige tillatelser av 3. Kunnskapsgrafen peker i tillegg på en rekke kardiovaskulære og tromboemboliske kontraindikasjoner.
 
 **For å gå videre kreves følgende:**
 - Innhenting og gjennomgang av preparatomtale (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsscreening
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Litteratur- og studiesøk spesifikt for raloxifen ved duodenalt sår og de øvrige predikerte indikasjonene
 - Prekliniske data eller mekanistiske studier som kan støtte en hypotese
-- Avklaring av regulatorisk status, siden alle tillatelser i Norge er avregistrert
+- Avklaring av regulatorisk status, siden legemidlet er markedsført i Norge med 3 gyldige tillatelser av 3
 - Vurdering av hypoalfalipoproteinemi som mest plausible alternative kandidat, før ressurser brukes på de gastrointestinale indikasjonene
 ## Ansvarsfraskrivelse
 

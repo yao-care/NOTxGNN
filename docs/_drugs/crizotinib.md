@@ -4,7 +4,7 @@ title: Crizotinib
 parent: Kun modellprediksjon (L5)
 nav_order: 106
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Crizotinib: predikert ny indikasjon Fibromatose i gingiva (evidensnivå L5). Opprinnelig indikasjon: Ikke-småcellet lungekreft (Carcinoma, Non-Small-Cell Lung)"
 monitor_inn: "CRIZOTINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Crizotinib
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 ## Oppsummering i én setning
 
 Crizotinib er en hemmer av tyrosinkinasene ALK, ROS1 og MET, og er opprinnelig brukt mot ikke-småcellet lungekreft.
-TxGNN-modellen forutsier at legemidlet kan ha effekt ved **fibromatose i gingiva** (score 99,81 %), men for denne indikasjonen finnes det **ingen kliniske studier og ingen publikasjoner**. Forutsigelsen er kun grafbasert.
+TxGNN-modellen forutsier at legemidlet kan ha effekt ved **fibromatose i gingiva** (score 0,9981), men for denne indikasjonen finnes det **ingen kliniske studier og ingen publikasjoner**. Forutsigelsen er kun grafbasert.
 
 ---
 
@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **fibromatose i gingiva
 |------|------|
 | Opprinnelig indikasjon | Ikke-småcellet lungekreft (Carcinoma, Non-Small-Cell Lung) |
 | Predikert ny indikasjon | Fibromatose i gingiva |
-| TxGNN-prediksjonsscore | 99,81 % |
+| TxGNN-prediksjonsscore | 0,9981 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellert |
-| Antall godkjenninger | 1 (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---

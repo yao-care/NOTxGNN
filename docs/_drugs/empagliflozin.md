@@ -39,7 +39,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 ## Oppsummering i én setning
 
 Empagliflozin er en SGLT2-hemmer som opprinnelig brukes til behandling av type 2-diabetes, hjertesvikt og kronisk nyresvikt.
-TxGNN-modellen forutsier at legemidlet kan ha effekt ved **fokalt stiff-limb-syndrom** (score 99,06 %), men det finnes for tiden **0 kliniske studier** og **0 publikasjoner** som støtter denne retningen. Prediksjonen er kun modellbasert.
+TxGNN-modellen forutsier at legemidlet kan ha effekt ved **fokalt stiff-limb-syndrom** (score 0,9906), men det finnes for tiden **0 kliniske studier** og **0 publikasjoner** som støtter denne retningen. Prediksjonen er kun modellbasert.
 
 ---
 
@@ -49,9 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **fokalt stiff-limb-syn
 |------|------|
 | Opprinnelig indikasjon | Diabetes mellitus type 2; hjertesvikt; kronisk nyresvikt |
 | Predikert ny indikasjon | Fokalt stiff-limb-syndrom (focal stiff limb syndrome) |
-| TxGNN-prediksjonsscore | 99,06 % |
+| TxGNN-prediksjonsscore | 0,9906 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte (trukket) tillatelser |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
 | Antall tillatelser | 3 (alle avregistrert/trukket) |
 | Anbefalt beslutning | Hold |
 
@@ -63,7 +64,7 @@ Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Basert p
 
 Fokalt stiff-limb-syndrom tilhører spekteret av «stiff-person»-lidelser, som er autoimmune eller nevrologiske tilstander. Ut fra dataene som er samlet inn for denne rapporten, finnes det ingen etablert mekanistisk kobling mellom SGLT2-hemming og denne sykdommen. Eventuelle hypoteser, for eksempel immunmetabolske eller antiinflammatoriske effekter, er spekulative.
 
-Den høye modellscoren er en beregnet prediksjon uten klinisk støtte. Samme score (99,06 %) er gitt til klassisk stiff-person-syndrom, og i tillegg er opsismodysplasi (99,03 %) predikert. Heller ikke for disse finnes det kliniske studier eller litteratur:
+Den høye modellscoren er en beregnet prediksjon uten klinisk støtte. Samme score (0,9906) er gitt til klassisk stiff-person-syndrom, og i tillegg er opsismodysplasi (0,9903) predikert. Heller ikke for disse finnes det kliniske studier eller litteratur:
 
 - **Klassisk stiff-person-syndrom:** SGLT2-hemming har ingen kjent direkte kobling til den GABAerge eller anti-GAD-autoimmune patofysiologien.
 - **Opsismodysplasi:** En sjelden genetisk skjelettdysplasi (INPPL1-relatert, påvirker SHIP2 og insulin/PI3K-signalering). En teoretisk kobling via insulinsignalering er tenkelig, men ikke validert.
@@ -84,7 +85,7 @@ For tiden er det ingen relatert litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-Alle tre tillatelser er avregistrert (trukket), og ingen er gyldige i dag.
+Alle tre tillatelser er gyldige i dag, og legemidlet er markedsført i Norge.
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -110,14 +111,13 @@ Det foreligger ikke data om advarsler eller kontraindikasjoner fra preparatomtal
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier, litteratur eller en identifiserbar mekanistisk kobling. I tillegg er alle norske tillatelser avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier, litteratur eller en identifiserbar mekanistisk kobling. I tillegg mangler sikkerhetsdata fra preparatomtalen.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) for å kunne vurdere en mulig mekanistisk kobling
 - Advarsler og kontraindikasjoner fra preparatomtalen (blokkerende datamangel for sikkerhetsscreening)
 - Prekliniske eller mekanistiske studier som støtter en kobling til stiff-person-spekteret
 - Avklaring av formuleringer og administrasjonsveier (ikke vurdert ennå)
-- Avklaring av markedsstatus i Norge, siden alle tillatelser er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

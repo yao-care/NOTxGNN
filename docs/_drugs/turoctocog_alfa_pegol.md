@@ -50,9 +50,10 @@ Prediksjonen er derfor kun en modellberegning (evidensnivå L5).
 |------|------|
 | Opprinnelig indikasjon | Hemofili A |
 | Predikert ny indikasjon | Primær frigjøringsforstyrrelse i blodplater |
-| TxGNN-prediksjonsscore | 99,997 % |
+| TxGNN-prediksjonsscore | 1,0000 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun opphevede (trukkede) autorisasjoner |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall autorisasjoner | 1 |
 | Anbefalt beslutning | Hold (avvent) |
 
@@ -70,15 +71,15 @@ Modellen foreslår også andre tilstander. Ingen av dem har kliniske studier ell
 
 | Rang | Sykdom | Score | Mekanistisk vurdering |
 |------|------|------|------|
-| 2 | Pseudo-von Willebrands sykdom | 99,996 % | Plausibel kun på signalveinivå (VWF bærer og stabiliserer FVIII), men faktor VIII korrigerer ikke reseptordefekten i blodplatene |
-| 3 | Glanzmanns trombasteni | 99,996 % | Defekt i integrin αIIbβ3; faktor VIII adresserer ikke dette. Standardbehandling er blodplatetransfusjon eller rekombinant FVIIa |
-| 4 | Ervervet koagulasjonsfaktormangel | 99,974 % | Mekanistisk mest sammenhengende (f.eks. ervervet hemofili A), men hemmende autoantistoffer gjør ofte erstatning lite effektiv. Kategorien er bred og uensartet |
-| 5 | Scott syndrom | 99,973 % | Defekt fosfatidylserin-eksponering (TMEM16F/ANO6); mer FVIII gjenoppretter ikke overflaten som kreves. Spekulativ kobling |
-| 6 | Blødningstendens ved kollagenreseptordefekt | 99,949 % | Defekt i GPVI eller α2β1, uten sammenheng med FVIII |
-| 7 | Hemoragisk forstyrrelse ved konstitusjonell trombocytopeni | 99,948 % | Blødning skyldes blodplatemangel, ikke FVIII-mangel |
-| 8 | «Flood factor deficiency» | 99,752 % | Sykdomsnavnet virker ikke-standard eller et ontologi-artefakt og bør verifiseres |
-| 9 | Hereditær trombocytose med transversal lemdefekt | 99,694 % | Ikke en FVIII-mangeltilstand; FVIII kan være uønsket pga. tromboserisiko. Trolig grafartefakt |
-| 10 | Føtal og neonatal alloimmun trombocytopeni | 99,693 % | Immunmediert blodplateødeleggelse; behandles med IVIG, kortikosteroider og kompatible blodplater |
+| 2 | Pseudo-von Willebrands sykdom | 1,0000 | Plausibel kun på signalveinivå (VWF bærer og stabiliserer FVIII), men faktor VIII korrigerer ikke reseptordefekten i blodplatene |
+| 3 | Glanzmanns trombasteni | 1,0000 | Defekt i integrin αIIbβ3; faktor VIII adresserer ikke dette. Standardbehandling er blodplatetransfusjon eller rekombinant FVIIa |
+| 4 | Ervervet koagulasjonsfaktormangel | 0,9997 | Mekanistisk mest sammenhengende (f.eks. ervervet hemofili A), men hemmende autoantistoffer gjør ofte erstatning lite effektiv. Kategorien er bred og uensartet |
+| 5 | Scott syndrom | 0,9997 | Defekt fosfatidylserin-eksponering (TMEM16F/ANO6); mer FVIII gjenoppretter ikke overflaten som kreves. Spekulativ kobling |
+| 6 | Blødningstendens ved kollagenreseptordefekt | 0,9995 | Defekt i GPVI eller α2β1, uten sammenheng med FVIII |
+| 7 | Hemoragisk forstyrrelse ved konstitusjonell trombocytopeni | 0,9995 | Blødning skyldes blodplatemangel, ikke FVIII-mangel |
+| 8 | «Flood factor deficiency» | 0,9975 | Sykdomsnavnet virker ikke-standard eller et ontologi-artefakt og bør verifiseres |
+| 9 | Hereditær trombocytose med transversal lemdefekt | 0,9969 | Ikke en FVIII-mangeltilstand; FVIII kan være uønsket pga. tromboserisiko. Trolig grafartefakt |
+| 10 | Føtal og neonatal alloimmun trombocytopeni | 0,9969 | Immunmediert blodplateødeleggelse; behandles med IVIG, kortikosteroider og kompatible blodplater |
 
 ---
 
@@ -100,7 +101,7 @@ Det foreligger for tiden ingen relevant litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/004883 | Esperoct | Ikke oppgitt | Hemofili A |
 
-Autorisasjonen er opphevet, og det finnes ingen gyldige autorisasjoner (produsent: Novo Nordisk A/S).
+Legemidlet er markedsført, og 1 av 1 autorisasjoner er gyldig (produsent: Novo Nordisk A/S).
 
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Pitolisant
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 329
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Pitolisant: predikert ny indikasjon Insomni (evidensnivå L4). Opprinnelig indikasjon: Obstruktiv søvnapné (Ozawade)"
@@ -14,7 +14,7 @@ predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity d
 # Pitolisant
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,10 @@ Det finnes **ingen registrerte kliniske studier** og **ingen publikasjoner som d
 |------|------|
 | Opprinnelig indikasjon | Obstruktiv søvnapné (Ozawade); narkolepsi (Wakix) |
 | Predikert ny indikasjon | Insomni |
-| TxGNN-prediksjonsscore | 99,71 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldige tillatelser) |
+| TxGNN-prediksjonsscore | 0.9971 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Antall tillatelser | 2 (begge avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -64,7 +65,7 @@ Pitolisant blokkerer histamin H3-autoreseptorer og øker dermed frigjøringen av
 
 Narkolepsi og obstruktiv søvnapné behandles med pitolisant for å redusere søvnighet. Insomni er det motsatte problemet: pasientene har for lite søvn og for høy våkenhet. Økt histaminerg aktivitet kan i teorien forverre insomni.
 
-Den høye TxGNN-scoren skyldes trolig felles søvn-våkenhetsbiologi i kunnskapsgrafen og ikke en reell terapeutisk begrunnelse. Det er derfor mer rimelig å forvente et sikkerhetssignal (forverret søvn) enn effekt.
+Den høye TxGNN-scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Det er derfor mer rimelig å forvente et sikkerhetssignal (forverret søvn) enn effekt.
 
 ---
 
@@ -136,8 +137,8 @@ Prediksjonen for insomni mangler både kliniske studier og direkte litteratur, o
 
 | Rangering | Sykdom | TxGNN-score | Evidensnivå | Anbefaling | Kommentar |
 |------|------|------|------|------|------|
-| 2 | Aktivitets- og oppmerksomhetsforstyrrelse (ADHD) | 99,36 % | L4 | Forskningsspørsmål | H3-antagonisme øker frigjøring av acetylkolin, noradrenalin og dopamin i prefrontal cortex, noe som gir et plausibelt grunnlag for effekt på oppmerksomhet. Litteraturen består kun av oversikter, og tidligere kliniske H3-studier ved ADHD har vært skuffende. Ingen registrerte kliniske studier. |
-| 3 | Faciodigitogenitalt syndrom (Aarskog-Scott) | 99,29 % | L5 | Hold | Ingen identifiserbar mekanistisk kobling, ingen publikasjoner og ingen kliniske studier. Prediksjonen er kun modellbasert. |
+| 2 | Aktivitets- og oppmerksomhetsforstyrrelse (ADHD) | 0,9936 | L5 | Forskningsspørsmål | H3-antagonisme øker frigjøring av acetylkolin, noradrenalin og dopamin i prefrontal cortex, noe som gir et plausibelt grunnlag for effekt på oppmerksomhet. Litteraturen består kun av oversikter, og tidligere kliniske H3-studier ved ADHD har vært skuffende. Ingen registrerte kliniske studier. |
+| 3 | Faciodigitogenitalt syndrom (Aarskog-Scott) | 0,9929 | L5 | Hold | Ingen identifiserbar mekanistisk kobling, ingen publikasjoner og ingen kliniske studier. Prediksjonen er kun modellbasert. |
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

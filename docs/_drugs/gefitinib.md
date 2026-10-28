@@ -4,7 +4,7 @@ title: Gefitinib
 parent: Kun modellprediksjon (L5)
 nav_order: 186
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Gefitinib: predikert ny indikasjon Gingival fibromatose (evidensnivå L5). Opprinnelig indikasjon: Ikke-småcellet lungekreft (Carcinoma, Non-Small-Cell Lung)"
 monitor_inn: "GEFITINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion 
 # Gefitinib
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **gingival fibromatose*
 |------|------|
 | Opprinnelig indikasjon | Ikke-småcellet lungekreft (Carcinoma, Non-Small-Cell Lung) |
 | Predikert ny indikasjon | Gingival fibromatose |
-| TxGNN-prediksjonsscore | 99,89 % |
+| TxGNN-prediksjonsscore | 0.9989 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (kansellert) |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **gingival fibromatose*
 
 Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Gefitinib er kjent som en hemmer av EGFR-tyrosinkinase, og effekten ved EGFR-mutert ikke-småcellet lungekreft er godt dokumentert. Mekanistisk kunne en antiproliferativ effekt på fibroblaster tenkes, men dette er rent spekulativt.
 
-Den høye TxGNN-scoren (0,999) er ikke støttet av noen kliniske studier eller litteratur for gingival fibromatose. Det finnes ingen direkte, datastøttet kobling mellom den opprinnelige indikasjonen (kreft) og den nye (en fibrøs overvekst i tannkjøttet). Prediksjonen bør derfor sees på som en hypotese og ikke som en terapeutisk begrunnelse.
+Den høye TxGNN-scoren (0.9989) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Den er ikke støttet av noen kliniske studier eller litteratur for gingival fibromatose. Det finnes ingen direkte, datastøttet kobling mellom den opprinnelige indikasjonen (kreft) og den nye (en fibrøs overvekst i tannkjøttet). Prediksjonen bør derfor sees på som en hypotese og ikke som en terapeutisk begrunnelse.
 
 ---
 
@@ -83,7 +83,7 @@ Foreløpig finnes ingen relatert litteratur for denne indikasjonen.
 |---------|------|------|-----------|
 | EMEA/H/C/001016 | Iressa (AstraZeneca AB) | Ikke oppgitt | Ikke-småcellet lungekreft (status: kansellert) |
 
-Den eneste registrerte godkjenningen er kansellert, så det finnes ingen gyldig godkjenning i datagrunnlaget.
+Legemidlet er markedsført i Norge, og 1 av 1 registrerte godkjenninger er gyldig.
 
 ---
 

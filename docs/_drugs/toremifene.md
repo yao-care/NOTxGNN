@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Toremifene
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 428
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Toremifene: predikert ny indikasjon HIV-infeksjon (evidensnivå L4). Opprinnelig indikasjon: Brystkreft (Breast Neoplasms)"
@@ -14,7 +14,7 @@ predicted_indications: ["HIV infectious disease"]
 # Toremifene
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at den kan ha effekt mot **HIV-infeksjon**, men dette e
 |------|------|
 | Opprinnelig indikasjon | Brystkreft (Breast Neoplasms) |
 | Predikert ny indikasjon | HIV-infeksjon |
-| TxGNN-prediksjonsscore | 99,41 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun opphevede godkjenninger |
-| Antall godkjenninger | 1 (opphevet) |
+| TxGNN-prediksjonsscore | 0,9941 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen forutsier at den kan ha effekt mot **HIV-infeksjon**, men dette e
 
 Data om toremifens detaljerte virkningsmekanisme er foreløpig ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er toremifen en selektiv østrogenreseptormodulator (SERM) i samme klasse som tamoxifen. Effekten er dokumentert ved brystkreft, men mekanismen gir ingen opplagt forbindelse til HIV.
 
-TxGNN-scoren er svært høy (0,994), men den er utelukkende en modellprediksjon. Den eneste støttende publikasjonen (PMID 24520056, 2014) viser at østrogenreseptorantagonister, inkludert toremifen og tamoxifen, har aktivitet mot *Cryptococcus*. De binder seg til EF-hand kalsiumbindende proteiner som kalmodulin, og virker synergistisk med flukonazol. Kryptokokkose er en vanlig opportunistisk soppinfeksjon ved avansert HIV (kryptokokkmeningitt), men det er ikke det samme som HIV-infeksjon.
+TxGNN-scoren er svært høy (0,9941), men den er utelukkende en modellprediksjon. Den eneste støttende publikasjonen (PMID 24520056, 2014) viser at østrogenreseptorantagonister, inkludert toremifen og tamoxifen, har aktivitet mot *Cryptococcus*. De binder seg til EF-hand kalsiumbindende proteiner som kalmodulin, og virker synergistisk med flukonazol. Kryptokokkose er en vanlig opportunistisk soppinfeksjon ved avansert HIV (kryptokokkmeningitt), men det er ikke det samme som HIV-infeksjon.
 
 Koblingen til HIV er dermed indirekte. Funnene kan på sikt støtte tilleggsbehandling av HIV-assosiert kryptokokkose, men det finnes ingen dokumentasjon for antiviral aktivitet mot HIV eller klinisk nytte ved HIV-sykdom.
 

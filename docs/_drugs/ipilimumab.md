@@ -4,7 +4,7 @@ title: Ipilimumab
 parent: Kun modellprediksjon (L5)
 nav_order: 223
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-15
 description: "Ipilimumab: predikert ny indikasjon Choroideremi (evidensnivå L5). Opprinnelig indikasjon: Melanom, nyrecellekarsinom, ikke-småcellet lungekreft…"
 monitor_inn: "IPILIMUMAB"
@@ -14,7 +14,7 @@ predicted_indications: ["choroideremia"]
 # Ipilimumab
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,10 @@ Ipilimumab er et antistoff mot CTLA-4 som brukes i kreftbehandling, blant annet 
 |------|------|
 | Opprinnelig indikasjon | Melanom, nyrecellekarsinom, ikke-småcellet lungekreft, malignt mesoteliom, kolorektal kreft |
 | Predikert ny indikasjon | Choroideremi |
-| TxGNN-prediksjonsscore | 99,06 % |
+| TxGNN-prediksjonsscore | 0,9906 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte (trukket) tillatelser |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
 | Anbefalt beslutning | Hold (avvent) |
 
@@ -60,7 +61,7 @@ Ipilimumab er et antistoff mot CTLA-4 som brukes i kreftbehandling, blant annet 
 
 Ipilimumab er et antistoff som blokkerer CTLA-4. Dermed fjernes bremsen på T-cellene, og kroppens immunforsvar kan angripe kreftceller kraftigere. Mekanismen er godt etablert ved melanom.
 
-Choroideremi er en X-bundet arvelig netthinnedegenerasjon som skyldes tap av funksjon i genet *CHM* (REP1). Sykdommen drives verken av immunsystemet eller av tumorbiologi. Vi ser derfor ingen plausibel mekanistisk forbindelse mellom ipilimumabs virkning og sykdomsårsaken. Den høye TxGNN-scoren (0,99) ser ut til å være en artefakt i modellen uten biologisk støtte.
+Choroideremi er en X-bundet arvelig netthinnedegenerasjon som skyldes tap av funksjon i genet *CHM* (REP1). Sykdommen drives verken av immunsystemet eller av tumorbiologi. Vi ser derfor ingen plausibel mekanistisk forbindelse mellom ipilimumabs virkning og sykdomsårsaken. Den høye TxGNN-scoren (0,9906) ser ut til å være en artefakt i modellen uten biologisk støtte.
 
 Ipilimumab kan dessuten gi immunrelaterte bivirkninger, blant annet uveitt (øyebetennelse). Hos pasienter med en netthinne som allerede degenererer, kan dette forverre tilstanden.
 

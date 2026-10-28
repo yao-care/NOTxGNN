@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Ticagrelor
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 417
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Ticagrelor: predikert ny indikasjon Intrakraniell arteriosklerose (evidensnivå L2). Opprinnelig indikasjon: Perifere karsykdommer"
 monitor_inn: "TICAGRELOR"
@@ -14,7 +14,7 @@ predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arterioscle
 # Ticagrelor
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ og de samlede dataene viser **2 kliniske studier** og **2 publikasjoner** for de
 |------|------|
 | Opprinnelig indikasjon | Perifere karsykdommer; akutt koronarsyndrom |
 | Predikert ny indikasjon | Intrakraniell arteriosklerose |
-| TxGNN-prediksjonsscore | 99,97 % |
-| Evidensnivå | L2 |
-| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
-| Antall godkjenninger | 1 (0 gyldige, 1 kansellert) |
+| TxGNN-prediksjonsscore | 0,9997 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold (se begrunnelse under) |
 
 > Merk: Den datadrevne vurderingen klassifiserer indikasjonen som «forskningsspørsmål» (L2, trinn S2). Fordi sikkerhetsdata fra preparatomtalen mangler og den eneste Phase 3-studien ikke har resultater, anbefales avvent.
@@ -115,10 +115,10 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 | Sykdom | TxGNN-score | Evidensnivå | Vurdering |
 |------|------|------|------|
-| Iskemisk sykdom | 99,64 % | L1 | Proceed with Guardrails. Mange store RCT-er (blant annet THEMIS, TWILIGHT, PEGASUS, CHANCE-2), men i stor grad overlapp med eksisterende ACS-indikasjon, så mer en utvidelse enn ekte repurposing. |
-| Vaskulær ektasi | 99,47 % | L4 | Hold. Kun indirekte støtte. |
-| Venøs tromboembolisme | 99,27 % | L4 | Hold. Antikoagulantia er standard, ingen tikagrelorspesifikke studier. |
-| Mønckebergs arteriosklerose, priapisme, May-Thurner-syndrom, livedo reticularis, mesenterial vaskulær okklusjon, angiodysplasi | 99,28–99,94 % | L5 | Hold. Svak mekanistisk begrunnelse og ingen eller svært begrenset evidens. Ved angiodysplasi kan tikagrelor forverre blødning. |
+| Iskemisk sykdom | 0,9964 | L1 | Proceed with Guardrails. Mange store RCT-er (blant annet THEMIS, TWILIGHT, PEGASUS, CHANCE-2), men i stor grad overlapp med eksisterende ACS-indikasjon, så mer en utvidelse enn ekte repurposing. |
+| Vaskulær ektasi | 0,9947 | L5 | Hold. Kun indirekte støtte. |
+| Venøs tromboembolisme | 0,9927 | L4 | Hold. Antikoagulantia er standard, ingen tikagrelorspesifikke studier. |
+| Mønckebergs arteriosklerose, priapisme, May-Thurner-syndrom, livedo reticularis, mesenterial vaskulær okklusjon, angiodysplasi | 99,28–0,9994 | L5 | Hold. Svak mekanistisk begrunnelse og ingen eller svært begrenset evidens. Ved angiodysplasi kan tikagrelor forverre blødning. |
 
 ---
 

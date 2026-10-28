@@ -48,17 +48,17 @@ Asparaginsyre (markedsført som Maapliv) var opprinnelig godkjent til behandling
 |------|------|
 | Opprinnelig indikasjon | Ahornsirupsykdom (Maple Syrup Urine Disease) |
 | Predikert ny indikasjon | Renal tubulær acidose |
-| TxGNN-prediksjonsscore | 99,47 % |
+| TxGNN-prediksjonsscore | 0,9947 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
-| Antall godkjenninger | 1 (0 gyldige, 1 kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Den høye TxGNN-scoren (0,995) er det eneste som støtter prediksjonen. Det finnes ingen kliniske studier og ingen direkte mekanistisk dokumentasjon.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Den høye TxGNN-scoren (0,9947) er det eneste som støtter prediksjonen. Det finnes ingen kliniske studier og ingen direkte mekanistisk dokumentasjon.
 
 En spekulativ forbindelse er at asparaginsyre er en aminosyre som inngår i nitrogen- og ammoniakkmetabolismen (ureasyklus, aspartat/glutamat-veier), noe som i teorien kan henge sammen med renal ammoniakkdannelse. De hentede publikasjonene støtter ikke dette som en terapeutisk begrunnelse. De omhandler genetikk og patofysiologi ved renal tubulær acidose, ikke behandling med asparaginsyre.
 

@@ -6,7 +6,7 @@ nav_order: 33
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Anakinra: predikert ny indikasjon Ekstrakutan mastocytom (rangert som nr. 1 av TxGNN) (evidensnivå L5). Opprinnelig indikasjon: Revmatoid artritt"
+description: "Anakinra: predikert ny indikasjon Ekstrakutant mastocytom (rangert som nr. 1 av TxGNN) (evidensnivå L5). Opprinnelig indikasjon: Revmatoid artritt"
 monitor_inn: "ANAKINRA"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Anakinra: Fra revmatoid artritt til ekstrakutan mastocytom
+## Anakinra: Fra revmatoid artritt til Ekstrakutant mastocytom
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -48,10 +48,10 @@ Anakinra er en rekombinant interleukin-1-reseptorantagonist (IL-1Ra) som opprinn
 |------|------|
 | Opprinnelig indikasjon | Revmatoid artritt; COVID-19-virusinfeksjon |
 | Predikert ny indikasjon | Ekstrakutan mastocytom (rangert som nr. 1 av TxGNN) |
-| TxGNN-prediksjonsscore | 99,93 % |
+| TxGNN-prediksjonsscore | 0,9993 |
 | Evidensnivå | L5 (kun modellprediksjon) |
-| Markedsstatus i Norge | Kun avregistrert (kansellert) |
-| Antall godkjenninger | 1 (0 gyldige, 1 kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold (utsett) |
 
 **Merk:** Rangeringen etter TxGNN-score sammenfaller ikke med evidensstyrke. Flere lavere rangerte indikasjoner har bedre støtte (se tabellen nedenfor).
@@ -60,16 +60,16 @@ Anakinra er en rekombinant interleukin-1-reseptorantagonist (IL-1Ra) som opprinn
 
 | Rang | Predikert indikasjon | Score | Evidensnivå | Anbefaling |
 |------|------|------|------|------|
-| 1 | Ekstrakutan mastocytom | 99,93 % | L5 | Hold |
-| 2 | Leverinfarkt | 99,89 % | L5 | Hold |
-| 3 | Autosomal recessiv familiær middelhavsfeber | 99,89 % | L4 | Forskningsspørsmål |
-| 4 | Aggressiv systemisk mastocytose | 99,88 % | L5 | Hold |
-| 5 | Hepatisk venookklusiv sykdom | 99,88 % | L5 | Hold |
-| 6 | Peliosis hepatis | 99,85 % | L5 | Hold |
-| 7 | Oligoartikulær juvenil idiopatisk artritt uten ANA | 99,85 % | L4 | Forskningsspørsmål |
-| 8 | Oligoartikulær juvenil idiopatisk artritt med ANA | 99,85 % | L4 | Forskningsspørsmål |
-| 9 | Pyogent autoinflammatorisk syndrom | 99,83 % | L3 | Forskningsspørsmål |
-| 10 | Uklassifisert autoinflammatorisk syndrom | 99,81 % | L3 | Forskningsspørsmål |
+| 1 | Ekstrakutan mastocytom | 0,9993 | L5 | Hold |
+| 2 | Leverinfarkt | 0,9989 | L5 | Hold |
+| 3 | Autosomal recessiv familiær middelhavsfeber | 0,9989 | L5 | Forskningsspørsmål |
+| 4 | Aggressiv systemisk mastocytose | 0,9988 | L5 | Hold |
+| 5 | Hepatisk venookklusiv sykdom | 0,9988 | L5 | Hold |
+| 6 | Peliosis hepatis | 0,9985 | L5 | Hold |
+| 7 | Oligoartikulær juvenil idiopatisk artritt uten ANA | 0,9985 | L5 | Forskningsspørsmål |
+| 8 | Oligoartikulær juvenil idiopatisk artritt med ANA | 0,9985 | L5 | Forskningsspørsmål |
+| 9 | Pyogent autoinflammatorisk syndrom | 0,9983 | L3 | Forskningsspørsmål |
+| 10 | Uklassifisert autoinflammatorisk syndrom | 0,9981 | L3 | Forskningsspørsmål |
 
 ---
 
@@ -126,7 +126,7 @@ Ingen randomiserte kontrollerte studier er identifisert i datagrunnlaget; eviden
 |---------|------|------|-----------|
 | EMEA/H/C/000363 | Kineret | Ikke oppgitt | Revmatoid artritt; COVID-19-virusinfeksjon |
 
-Godkjenningen har status **kansellert**; det finnes ingen gyldige godkjenninger i Norge i datagrunnlaget. Innehaver er Swedish Orphan Biovitrum AB (publ).
+Legemidlet er markedsført i Norge, og 1 av 1 godkjenning er **gyldig**. Innehaver er Swedish Orphan Biovitrum AB (publ).
 
 ---
 
@@ -147,7 +147,7 @@ Informasjon om advarsler og kontraindikasjoner er ikke tilgjengelig i datagrunnl
 **Beslutning: Hold (utsett)** for den primære indikasjonen, ekstrakutan mastocytom.
 
 **Begrunnelse:**
-- Den høyest rangerte prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og legemidlet har i tillegg ingen gyldig markedsføringstillatelse i Norge. Autoinflammatoriske sykdommer (FMF, PAPA-spekteret) fremstår som mer lovende forskningsspørsmål (L3–L4), men støttes foreløpig kun av oversikter, kasusrapporter og observasjonsdata.
+- Den høyest rangerte prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, selv om legemidlet er markedsført i Norge med 1 gyldig markedsføringstillatelse av 1. Autoinflammatoriske sykdommer (FMF, PAPA-spekteret) fremstår som mer lovende forskningsspørsmål (L3–L4), men støttes foreløpig kun av oversikter, kasusrapporter og observasjonsdata.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtale (advarsler og kontraindikasjoner), siden sikkerhetsscreening ikke kan gjennomføres uten dette

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Velpatasvir
-parent: Kun modellprediksjon (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 446
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Velpatasvir: predikert ny indikasjon Hepatitt B-virusinfeksjon (evidensnivå L5). Opprinnelig indikasjon: Kronisk hepatitt C"
 monitor_inn: "VELPATASVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Velpatasvir: predikert ny indikasjon Hepatitt B-virusinfeksjon (hepatitis B virus infection) (evidensnivå L3). Opprinnelig indikasjon: Hepatitis C, Chronic"
 ---
 
 # Velpatasvir
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Velpatasvir: Fra kronisk hepatitt C til hepatitt B-virusinfeksjon
+## Velpatasvir: Hepatitt B-virusinfeksjon (hepatitis B virus infection)
 {: .text-alpha }
 
 ## Oppsummering i en setning
@@ -46,11 +46,12 @@ Velpatasvir er en hemmer av NS5A-proteinet i hepatitt C-viruset (HCV) og brukes 
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Kronisk hepatitt C |
-| Predikert ny indikasjon | Hepatitt B-virusinfeksjon |
-| TxGNN-prediksjonsscore | 99,87 % |
+| Opprinnelig indikasjon | Hepatitis C, Chronic |
+| Predikert ny indikasjon | Hepatitt B-virusinfeksjon (hepatitis B virus infection) |
+| TxGNN-prediksjonsscore | 0.9987 |
 | Evidensnivå | L3 (kun observasjonsstudier og oversiktsarbeider; ingen studie viser anti-HBV-effekt) |
-| Status på det norske markedet | Kun opphevede (kansellerte) autorisasjoner |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Antall autorisasjoner | 2 (begge kansellert) |
 | Anbefalt beslutning | Hold |
 
@@ -62,7 +63,7 @@ Data om virkningsmekanisme (MOA) er ikke tilgjengelige i de innsamlede dataene. 
 
 HBV er et DNA-virus med en annen replikasjonsmaskineri og har ingen kjent NS5A-motpart. Velpatasvir har derfor ingen etablert direkte aktivitet mot HBV. Det kliniske signalet er indirekte: HBV kan reaktiveres under behandling med direktevirkende antivirale midler (DAA) hos pasienter med HCV/HBV-saminfeksjon. I studien NCT04997564 gis SOF/VEL sammen med forebyggende tenofovir alafenamid (TAF), og det er TAF som gir anti-HBV-effekten, mens velpatasvir behandler HCV.
 
-Den høye TxGNN-scoren gjenspeiler trolig nærhet mellom hepatittvirus i kunnskapsgrafen, ikke reell anti-HBV-effekt. Prediksjonen bør derfor leses som et forskningsspørsmål, ikke som en behandlingshypotese med mekanistisk støtte.
+Den høye TxGNN-scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens for reell anti-HBV-effekt. Prediksjonen bør derfor leses som et forskningsspørsmål, ikke som en behandlingshypotese med mekanistisk støtte.
 
 ---
 
@@ -101,7 +102,6 @@ Ingen av publikasjonene dokumenterer at velpatasvir har direkte effekt mot HBV.
 | EMEA/H/C/004210 | Epclusa | Ikke oppgitt | Kronisk hepatitt C (kansellert) |
 | EMEA/H/C/004350 | Vosevi | Ikke oppgitt | Kronisk hepatitt C (kansellert) |
 
-Begge autorisasjonene er kansellert, og ingen er for tiden gyldige.
 
 ---
 

@@ -49,9 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **postmenopausal osteop
 |------|------|
 | Opprinnelig indikasjon | Ahornsirupsykdom (Maple Syrup Urine Disease) |
 | Predikert ny indikasjon | Postmenopausal osteoporose |
-| TxGNN-prediksjonsscore | 99,34 % |
+| TxGNN-prediksjonsscore | 0,9934 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -91,7 +92,7 @@ Merk: Bortsett fra de to første er publikasjonene kun indirekte eller utenfor m
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/005557 | Maapliv | Ikke oppgitt | Ahornsirupsykdom (Maple Syrup Urine Disease) (status: avregistrert) |
+| EMEA/H/C/005557 | Maapliv | Ikke oppgitt | Ahornsirupsykdom (Maple Syrup Urine Disease) (status: godkjent) |
 
 ---
 
@@ -110,7 +111,7 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Det finnes ingen kliniske studier og ingen direkte kliniske data for glutaminsyre ved postmenopausal osteoporose. Støtten består av en musestudie og indirekte litteratur, og produktet har ingen gyldig markedsføringstillatelse i Norge. Kunnskapsgrafen viser dessuten flere potensielle kontraindikasjoner som er relevante for en eldre postmenopausal populasjon (nyre- og hjertesykdom, hyperkalsemi).
+Det finnes ingen kliniske studier og ingen direkte kliniske data for glutaminsyre ved postmenopausal osteoporose. Støtten består av en musestudie og indirekte litteratur, og produktet er markedsført i Norge med én gyldig markedsføringstillatelse (av totalt én). Kunnskapsgrafen viser dessuten flere potensielle kontraindikasjoner som er relevante for en eldre postmenopausal populasjon (nyre- og hjertesykdom, hyperkalsemi).
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank

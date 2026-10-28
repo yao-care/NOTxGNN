@@ -50,10 +50,10 @@ og det er så langt funnet **2 kliniske studier** (kun indirekte relevante) og *
 |------|------|
 | Opprinnelig indikasjon | Epilepsi |
 | Foreslått ny indikasjon | Insomni |
-| TxGNN-prediksjonsscore | 99,74 % |
+| TxGNN-prediksjonsscore | 0,9974 |
 | Evidensnivå | L3 |
-| Markedsstatus i Norge | Kun tilbakekalte/avsluttede godkjenninger |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---

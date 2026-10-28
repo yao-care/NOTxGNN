@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Everolimus
-parent: Kun modellprediksjon (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 168
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Everolimus: predikert ny indikasjon Liposarkom (rangert som nr. 1 av TxGNN) (evidensnivå L5). Opprinnelig indikasjon: Tuberøs sklerose (Votubia)"
 monitor_inn: "EVEROLIMUS"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofib
 # Everolimus
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L2** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Everolimus er en mTOR-hemmer som opprinnelig brukes ved tuberøs sklerose og ved
 |------|------|
 | Opprinnelig indikasjon | Tuberøs sklerose (Votubia); nyrecellekarsinom, brystkreft og pankreasneoplasmer (Afinitor) |
 | Predikert ny indikasjon | Liposarkom (rangert som nr. 1 av TxGNN) |
-| TxGNN-prediksjonsscore | 99,88 % |
+| TxGNN-prediksjonsscore | 0,9988 |
 | Evidensnivå | L2 (kun én Phase 2-studie, ikke fullført, kombinasjonsdesign) |
-| Status på det norske markedet | Kun avregistrerte godkjenninger (ingen gyldige) |
-| Antall godkjenninger | 2 (begge avregistrert) |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold (for liposarkom); Proceed with Guardrails for uklassifisert nyrecellekarsinom |
 
 ---
@@ -114,8 +114,8 @@ For uklassifisert nyrecellekarsinom er sammenhengen tettere: everolimus er aller
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/002311 | Votubia | – | Tuberøs sklerose (avregistrert) |
-| EMEA/H/C/001038 | Afinitor | – | Nyrecellekarsinom, brystkreft, pankreasneoplasmer (avregistrert) |
+| EMEA/H/C/002311 | Votubia | – | Tuberøs sklerose (godkjent) |
+| EMEA/H/C/001038 | Afinitor | – | Nyrecellekarsinom, brystkreft, pankreasneoplasmer (godkjent) |
 
 ---
 
@@ -151,7 +151,7 @@ Data fra pakningsvedlegget (advarsler og kontraindikasjoner) mangler i de innsam
 **Begrunnelse:**
 - For liposarkom finnes bare én pågående Phase 2-studie med kombinasjonsdesign (ribociklib + everolimus), og everolimus' individuelle bidrag kan ikke vurderes. Evidensnivået L2 hviler på en studie som ikke er avsluttet.
 - Blant de øvrige prediksjonene har uklassifisert nyrecellekarsinom den sterkeste støtten (flere Phase 2-studier, inkludert randomiserte), og kan vurderes som *Proceed with Guardrails*. Everolimus var imidlertid ikke bedre enn sunitinib i ASPEN. Rabdomyosarkom har kun Phase 1 og Phase 1/2-data, og de øvrige subtypene har bare modellprediksjon (L5, Hold).
-- Alle norske godkjenninger er avregistrert, så det finnes ingen aktivt markedsført everolimus-indikasjon i Norge i datasettet.
+- Everolimus er markedsført i Norge, og 2 av 2 godkjenninger er gyldige.
 
 **For å gå videre kreves følgende:**
 - Resultater fra NCT03114527 og publisert effektdata for dedifferensiert liposarkom

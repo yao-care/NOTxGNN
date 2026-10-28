@@ -4,7 +4,7 @@ title: Ivosidenib
 parent: Kun modellprediksjon (L5)
 nav_order: 226
 evidence_level: L5
-indication_count: 3
+indication_count: 1
 last_modified_at: 2026-10-15
 description: "Ivosidenib: predikert ny indikasjon Bulbær polio (evidensnivå L5). Opprinnelig indikasjon: Akutt myeloid leukemi"
 monitor_inn: "IVOSIDENIB"
@@ -14,7 +14,7 @@ predicted_indications: ["bulbar polio"]
 # Ivosidenib
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,10 @@ To av de tre toppforutsigelsene (AML/MDS relatert til alkyleringsmidler og strå
 |------|------|
 | Opprinnelig indikasjon | Akutt myeloid leukemi; kolangiokarsinom |
 | Predikert ny indikasjon | Bulbær polio |
-| TxGNN-prediksjonsscore | 99,31 % |
+| TxGNN-prediksjonsscore | 0,9931 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellert (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (kansellert) |
 | Anbefalt beslutning | Hold |
 
@@ -62,9 +63,9 @@ To av de tre toppforutsigelsene (AML/MDS relatert til alkyleringsmidler og strå
 
 Ivosidenib hemmer mutert IDH1-enzym og senker nivået av onkometabolitten 2-hydroksyglutarat i IDH1-muterte svulster. Data om legemidlets detaljerte virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten, så vurderingen bygger på allment kjent farmakologi.
 
-For den toppredikerte indikasjonen, **bulbær polio**, er det ikke identifisert noen plausibel mekanistisk kobling. Bulbær polio er en virusinfeksjon i motoriske nevroner forårsaket av poliovirus, og ingen IDH1-avhengig mekanisme er kjent. Den svært høye scoren (0,993) ser ut til å være en artefakt fra kunnskapsgrafen, uten støtte fra studier eller litteratur.
+For den toppredikerte indikasjonen, **bulbær polio**, er det ikke identifisert noen plausibel mekanistisk kobling. Bulbær polio er en virusinfeksjon i motoriske nevroner forårsaket av poliovirus, og ingen IDH1-avhengig mekanisme er kjent. Den svært høye scoren (0,9931) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens, og den har ingen støtte fra studier eller litteratur.
 
-De to neste prediksjonene, **AML/MDS relatert til alkyleringsmidler** og **AML/MDS relatert til stråling**, er biologisk plausible, men indirekte. Behandlingsrelatert AML/MDS kan ha IDH1-mutasjoner, og en eventuell effekt vil avhenge av mutasjonsstatus, ikke av årsaken til sykdommen. Begge har identisk score (0,9926), noe som tyder på at de er søskennoder i sykdomsontologien og scores samlet. De utgjør en undergruppe av en allerede godkjent bruk, og er derfor ikke ekte repurposing-kandidater.
+De to neste prediksjonene, **AML/MDS relatert til alkyleringsmidler** og **AML/MDS relatert til stråling**, er biologisk plausible, men indirekte. Behandlingsrelatert AML/MDS kan ha IDH1-mutasjoner, og en eventuell effekt vil avhenge av mutasjonsstatus, ikke av årsaken til sykdommen. Begge har identisk score (0,9931), noe som tyder på at de er søskennoder i sykdomsontologien og scores samlet. De utgjør en undergruppe av en allerede godkjent bruk, og er derfor ikke ekte repurposing-kandidater.
 
 ---
 
@@ -86,7 +87,7 @@ Foreløpig er det ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/005936 | Tibsovo | Ikke oppgitt | Akutt myeloid leukemi; kolangiokarsinom |
 
-Tillatelsen er kansellert, og det finnes ingen gyldige tillatelser i Norge. Innehaver: Les Laboratoires Servier.
+Legemidlet er markedsført i Norge, og 1 av 1 tillatelser er gyldig. Innehaver: Les Laboratoires Servier.
 
 ---
 
@@ -118,7 +119,7 @@ Advarsler og kontraindikasjoner fra pakningsvedlegget er ikke tilgjengelige. Se 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Toppprediksjonen (bulbær polio) mangler både mekanistisk støtte og enhver klinisk evidens, og er mest sannsynlig en artefakt i kunnskapsgrafen. De to AML/MDS-prediksjonene er undergrupper av en allerede godkjent indikasjon, og har ingen egne data. I tillegg er den norske tillatelsen kansellert.
+Toppprediksjonen (bulbær polio) mangler både mekanistisk støtte og enhver klinisk evidens. Scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Legemidlet er markedsført i Norge, og den ene tillatelsen (1 av 1) er gyldig.
 
 **For å gå videre trengs følgende:**
 - Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)

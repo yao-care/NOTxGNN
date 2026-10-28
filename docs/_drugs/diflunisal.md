@@ -4,17 +4,17 @@ title: Diflunisal
 parent: Kun modellprediksjon (L5)
 nav_order: 127
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Diflunisal: predikert ny indikasjon Acromesomelic dysplasia… (evidensnivå L5). Opprinnelig indikasjon: Familiær amyloid nevropati (Amyloid Neuropathies, Familial)"
+description: "Diflunisal: predikert ny indikasjon Akromesomelisk dysplasi, Hunter-Thompson-type (evidensnivå L5). Opprinnelig indikasjon: Familiær amyloid nevropati (Amyloid Neuropathies, Familial)"
 monitor_inn: "DIFLUNISAL"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "spondyloarthropathy, susceptibility to", "myosclerosis", "ankylosing spondylitis", "brachyolmia", "hypermobility of coccyx", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "inflammatory spondylopathy"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "ankylosing spondylitis", "brachyolmia", "hypermobility of coccyx", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "inflammatory spondylopathy"]
 ---
 
 # Diflunisal
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Diflunisal: Fra familiær amyloid nevropati til ankyloserende spondylitt
+## Diflunisal: Fra familiær amyloid nevropati til Akromesomelisk dysplasi, Hunter-Thompson-type
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -47,9 +47,10 @@ TxGNN-modellen forutsier at det kan ha effekt ved flere sykdommer. Den best unde
 |------|------|
 | Opprinnelig indikasjon | Familiær amyloid nevropati (Amyloid Neuropathies, Familial) |
 | Predikert ny indikasjon | Acromesomelic dysplasia, Hunter-Thompson type (rangert som nr. 1 av modellen; svært svakt underbygd). Den best underbygde kandidaten er ankyloserende spondylitt |
-| TxGNN-prediksjonsscore | 99,99 % (rang 1); ankyloserende spondylitt: 99,98 % |
+| TxGNN-prediksjonsscore | 0,9999 (rang 1); ankyloserende spondylitt: 0,9998 |
 | Evidensnivå | L5 for rang 1; L3 for ankyloserende spondylitt |
-| Status i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Status i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold (for rang 1). Ankyloserende spondylitt: forskningsspørsmål, ikke klar for videre utvikling |
 
@@ -85,7 +86,7 @@ Tabellen gjelder ankyloserende spondylitt (rang 5). Samme litteratursett gjelder
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/006248 | Attrogy | Ikke oppgitt | Familiær amyloid nevropati (status: avregistrert) |
+| EMEA/H/C/006248 | Attrogy | Ikke oppgitt | Familiær amyloid nevropati (status: godkjent) |
 
 ## Sikkerhetsvurderinger
 
@@ -105,7 +106,7 @@ Se preparatomtalen for advarsler og kontraindikasjoner fra produsenten.
 
 **Begrunnelse:**
 - De fleste predikerte sykdommene mangler både kliniske studier og litteratur, og saknar plausibel mekanistisk kobling; scoren er kun en grafbasert prediksjon.
-- For ankyloserende spondylitt finnes bare én gammel, liten diflunisal-studie (1986). Legemidlet har dessuten ingen gyldig markedsføringstillatelse i Norge og konkurrerer med bedre studerte NSAID og biologiske legemidler.
+- For ankyloserende spondylitt finnes bare én gammel, liten diflunisal-studie (1986). Legemidlet er markedsført i Norge med én gyldig markedsføringstillatelse (1 av 1), og konkurrerer med bedre studerte NSAID og biologiske legemidler.
 
 **For å gå videre kreves følgende:**
 - Innhenting og analyse av preparatomtale (advarsler og kontraindikasjoner), da sikkerhetsscreening ikke kan gjennomføres uten dette

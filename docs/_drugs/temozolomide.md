@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Temozolomide
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 406
-evidence_level: L1
-indication_count: 2
-last_modified_at: 2026-10-15
-description: "Temozolomide: predikert ny indikasjon Voksen astrocytær svulst (adult astrocytic tumour) (evidensnivå L1). Opprinnelig indikasjon: Gliom"
+evidence_level: L5
+indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
-predicted_indications: ["adult astrocytic tumour", "cauda equina neoplasm"]
+predicted_indications: ["cauda equina neoplasm"]
+last_modified_at: 2026-10-23
+description: "Temozolomide: predikert ny indikasjon Cauda equina-neoplasme (evidensnivå L5). Opprinnelig indikasjon: Gliom"
 ---
 
 # Temozolomide
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **2** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-## Temozolomid: Fra gliom til voksent astrocytært svulst
+## Temozolomid: Fra gliom til cauda equina-neoplasme
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
-Temozolomid er et oralt alkylerende cytostatikum som opprinnelig er godkjent for behandling av gliom.
-TxGNN-modellen forutsier at det kan være effektivt ved **voksen astrocytær svulst** (score 99,36 %). Dette er i praksis bruk innenfor eller nær den eksisterende indikasjonen.
-Forutsigelsen støttes av **2 kliniske studier** og **20 publikasjoner** i de samlede dataene, inkludert en fullført fase 3-studie med 500 pasienter.
+Temozolomid er et oralt alkylerende legemiddel som er godkjent i Norge for behandling av gliom. TxGNN-modellen predikerer at det kan ha effekt ved **cauda equina-neoplasme**. Per nå finnes **ingen registrerte kliniske studier** og kun **3 publikasjoner** (alle kasuistikker), hvorav bare én gjelder en svulst i dette området.
 
 ---
 
@@ -49,31 +47,26 @@ Forutsigelsen støttes av **2 kliniske studier** og **20 publikasjoner** i de sa
 | Punkt | Innhold |
 |------|------|
 | Opprinnelig indikasjon | Gliom |
-| Predikert ny indikasjon | Voksen astrocytær svulst (adult astrocytic tumour) |
-| TxGNN-prediksjonsscore | 99,36 % |
-| Evidensnivå | L1 |
-| Markedsstatus i Norge | Kun trukkede (kansellerte) godkjenninger |
-| Antall godkjenninger | 5 (alle kansellert) |
-| Anbefalt beslutning | Proceed with Guardrails (Fortsett med forbehold) |
+| Predikert ny indikasjon | Cauda equina-neoplasme |
+| TxGNN-prediksjonsscore | 0,9930 |
+| Evidensnivå | L5 |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 5 av 5) |
+| Antall godkjenninger | 5 (gyldige: 5) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Temozolomid er et oralt alkylerende middel som metylerer DNA (O6-guanin, N7-guanin og N3-adenin). Den cytotoksiske effekten avhenger av MGMT-promotormetylering: lav MGMT-reparasjonskapasitet gir bedre følsomhet. Dette er direkte relevant for astrocytære svulster, inkludert glioblastom og anaplastisk astrocytom. Detaljerte mekanismedata (MOA) fra legemiddeldatabasen var ikke tilgjengelige, så beskrivelsen bygger på kjent farmakologi.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Ut fra generell kunnskap er temozolomid et alkylerende middel som metylerer DNA (særlig O6-guanin) og gir cytotoksiske skader i delende svulstceller. Effekten reduseres når MGMT-enzymet uttrykkes.
 
-Den opprinnelige indikasjonen, gliom, omfatter astrocytære svulster. Dette er derfor mer en indikasjon innenfor eller nær godkjent bruk enn ekte repurposing. Den høye TxGNN-scoren er i samsvar med den eksisterende kliniske evidensen.
-
-Som sekundær prediksjon er **cauda equina-neoplasme** (hovedsakelig myksopapillært ependymom) foreslått. Evidensen er her svak: ett enkelt kasuistisk tilfelle av et residivert spinalt myksopapillært ependymom. Mekanismen er ekstrapolert fra gliombiologi og ikke etablert for denne svulsttypen (evidensnivå L4, kun et forskningsspørsmål).
+Svulster i cauda equina er som regel spinale myxopapillære ependymomer, som stammer fra gliaceller i sentralnervesystemet. Det gir et biologisk plausibelt grunnlag, siden temozolomid er etablert ved gliom. Det mangler imidlertid data om MGMT-status eller kjemosensitivitet i disse svulstene. Den høye TxGNN-scoren er en beregningsbasert prediksjon og ikke klinisk evidens.
 
 ---
 
 ## Evidens fra kliniske studier
 
-| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
-|---------|------|------|------|---------|
-| [NCT00052455](https://clinicaltrials.gov/study/NCT00052455) | Fase 3 | Fullført | 500 | Randomisert studie som sammenligner temozolomid med PCV (prokarbazin, lomustin, vinkristin) ved residiverende WHO grad III og IV astrocytære svulster |
-| [NCT00960492](https://clinicaltrials.gov/study/NCT00960492) | Fase 1 | Fullført | 26 | Dosefinnende sikkerhets- og farmakokinetikkstudie av XL184 (kabozantinib) sammen med temozolomid og strålebehandling ved glioblastom. Gir kun tidlige data for kombinasjonen |
+Foreløpig er det ingen registrerte kliniske studier knyttet til denne indikasjonen.
 
 ---
 
@@ -81,30 +74,23 @@ Som sekundær prediksjon er **cauda equina-neoplasme** (hovedsakelig myksopapill
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [15758009](https://pubmed.ncbi.nlm.nih.gov/15758009/) | 2005 | RCT | N Engl J Med | Strålebehandling pluss samtidig og adjuvant temozolomid mot strålebehandling alene ved glioblastom |
-| [19269895](https://pubmed.ncbi.nlm.nih.gov/19269895/) | 2009 | RCT (langtidsoppfølging) | Lancet Oncol | 5-årsanalyse av EORTC-NCIC-studien; vedvarende overlevelsesgevinst med temozolomid |
-| [22578793](https://pubmed.ncbi.nlm.nih.gov/22578793/) | 2012 | RCT | Lancet Oncol | NOA-08: temozolomid alene mot strålebehandling alene hos eldre med malignt astrocytom |
-| [26670971](https://pubmed.ncbi.nlm.nih.gov/26670971/) | 2015 | RCT (interimanalyse) | JAMA | Tumor-treating fields pluss temozolomid mot temozolomid alene ved glioblastom |
-| [29260225](https://pubmed.ncbi.nlm.nih.gov/29260225/) | 2017 | RCT | JAMA | Effekt av tumor-treating fields pluss vedlikeholdstemozolomid på overlevelse ved glioblastom |
-| [24552317](https://pubmed.ncbi.nlm.nih.gov/24552317/) | 2014 | RCT | N Engl J Med | Bevacizumab tillagt standardbehandling med temozolomid ved nydiagnostisert glioblastom |
-| [30782343](https://pubmed.ncbi.nlm.nih.gov/30782343/) | 2019 | RCT | Lancet | CeTeG/NOA-09: lomustin-temozolomid mot standard temozolomid ved glioblastom med metylert MGMT-promotor |
-| [39480453](https://pubmed.ncbi.nlm.nih.gov/39480453/) | 2024 | RCT | JAMA Oncol | Veliparib tillagt temozolomid ved MGMT-metylert glioblastom |
-| [34898238](https://pubmed.ncbi.nlm.nih.gov/34898238/) | 2022 | Retningslinje | J Clin Oncol | ASCO-SNO-retningslinje for behandling av diffuse astrocytære og oligodendrogliale svulster hos voksne |
-| [27668386](https://pubmed.ncbi.nlm.nih.gov/27668386/) | 2016 | Oversiktsartikkel | Clin J Oncol Nurs | Oversikt over glioblastom og behandling |
+| [29270703](https://pubmed.ncbi.nlm.nih.gov/29270703/) | 2018 | Kasuistikk | European Spine Journal | Temozolomid viste tydelig effekt ved residivert spinal myxopapillært ependymom med spredning i spinalvæsken |
+| [42760727](https://pubmed.ncbi.nlm.nih.gov/42760727/) | 2026 | Kasuistikk | Medicine | Nasalt NUT-karsinom med gjentatte responser under multimodal behandling med strålebehandling; ikke direkte relevant for cauda equina |
+| [18706663](https://pubmed.ncbi.nlm.nih.gov/18706663/) | 2009 | Kasuistikk | Neuro-Chirurgie | Atypisk kryptokokkinfeksjon hos en pasient behandlet for pontint gliom; ikke relevant for effekt ved cauda equina-neoplasme |
+
+Den eneste publikasjonen som er relevant, er en enkelt kasuistikk om spinalt myxopapillært ependymom. Den gjelder en svulst av samme type som ofte oppstår i cauda equina, men studerer ikke cauda equina-neoplasme som sådan.
 
 ---
 
-## Markedsinformasjon for Norge
-
-Alle fem godkjenninger er kansellert, og det finnes ingen gyldige godkjenninger i dataene. Doseringsform er ikke oppgitt.
+## Informasjon om det norske markedet
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/001125 | Temozolomide Accord | Ikke oppgitt | Gliom |
-| EMEA/H/C/001124 | Temomedac | Ikke oppgitt | Gliom |
-| EMEA/H/C/001126 | Temozolomide Teva | Ikke oppgitt | Gliom |
-| EMEA/H/C/000229 | Temodal | Ikke oppgitt | Gliom |
-| EMEA/H/C/002198 | Temozolomide Sun | Ikke oppgitt | Gliom |
+| EMEA/H/C/001125 | Temozolomide Accord | – | Gliom |
+| EMEA/H/C/001124 | Temomedac | – | Gliom |
+| EMEA/H/C/001126 | Temozolomide Teva | – | Gliom |
+| EMEA/H/C/000229 | Temodal | – | Gliom |
+| EMEA/H/C/002198 | Temozolomide Sun | – | Gliom |
 
 ---
 
@@ -112,40 +98,35 @@ Alle fem godkjenninger er kansellert, og det finnes ingen gyldige godkjenninger 
 
 | Punkt | Innhold |
 |------|------|
-| Cytotoksisitetsklassifisering | Konvensjonelt cytotoksisk (alkylerende middel, imidazotetrazin-klassen) |
-| Risiko for myelosuppresjon | Middels til høy. Kunnskapsgrafen kobler legemidlet til trombocytopeni, nøytropeni, pancytopeni og aplastisk anemi som kontraindikasjonsrelaterte tilstander |
-| Emetogenisitetsklassifisering | Lav til middels (typisk for oral temozolomid) |
-| Overvåkingspunkter | Fullstendig blodstatus med differensialtelling, lever- og nyrefunksjon |
-| Håndteringsbeskyttelse | Må følge regelverk for håndtering av cytotoksiske legemidler |
-
-Vennligst se preparatomtalen for detaljerte advarsler og forholdsregler.
+| Klassifisering av cytotoksisitet | Konvensjonelt cytotoksisk middel (alkylerende middel) |
+| Risiko for myelosuppresjon | Relevant. Kunnskapsgrafen registrerer kontraindikasjonsrelasjoner til blant annet trombocytopeni, nøytropeni, pancytopeni og aplastisk anemi |
+| Emetogenisitet | Se preparatomtalen for advarsler og forsiktighetsregler |
+| Overvåkingsparametere | Blodstatus (CBC med differensialtelling), lever- og nyrefunksjon |
+| Håndteringsbeskyttelse | Følg gjeldende regler for håndtering av cytotoksiske legemidler |
 
 ---
 
 ## Sikkerhetsvurderinger
 
-- **Kontraindikasjoner fra kunnskapsgrafen (TxGNN/PrimeKG, ikke preparatomtale):** leversvikt, trombocytopeni, nøytropeni, agranulocytose, anemi, makrocytær anemi, pneumocystose, pancytopeni, lymfopeni, myelodysplastisk syndrom, idiopatisk aplastisk anemi og aplastisk anemi. Dette er hovedsakelig tilstander knyttet til benmargssuppresjon og infeksjonsrisiko.
-- **Legemiddelinteraksjoner:** 100 interaksjoner er registrert. Blant de viktigste er naltrekson (moderat) og levofloksacin (mindre). Øvrige interaksjoner i utvalget har ukjent alvorlighetsgrad, blant annet kalsitriol, pantoprazol, doksycyklin, klotrimazol, morfin, metformin, omeprazol, lansoprazol, atropin, prednison, amfotericin B, hydrokortison, mannitol, dolasetron, kaliumklorid, loperamid, sukralfat og rosiglitazon.
+- **Kontraindikasjoner registrert i kunnskapsgrafen (ikke fra preparatomtale):** leversvikt, trombocytopeni, nøytropeni, agranulocytose, anemi, makrocytær anemi, pneumocystose, pancytopeni, lymfopeni, myelodysplastisk syndrom, idiopatisk aplastisk anemi og aplastisk anemi.
+- **Legemiddelinteraksjoner:** 100 interaksjoner er registrert i dataene. Blant de som er klassifisert, er **moderat**: naltrekson, og **mindre**: levofloksacin. Øvrige (for eksempel kalsitriol, pantoprazol, doksycyklin, morfin, metformin, omeprazol, prednison og hydrokortison) har ukjent alvorlighetsgrad.
 
-Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner) mangler i de innsamlede dataene. Vennligst se preparatomtalen.
+For fullstendig sikkerhetsinformasjon, se preparatomtalen.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Proceed with Guardrails (Fortsett med forbehold)**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-- For voksen astrocytær svulst finnes en fullført fase 3-studie (n=500) og flere RCT-er, blant dem EORTC-NCIC-studien, som støtter temozolomid som standardbehandling (evidensnivå L1). Indikasjonen ligger tett opp mot den eksisterende gliomindikasjonen.
-- Alle norske/europeiske godkjenninger er kansellert, og sikkerhetsdata fra preparatomtalen mangler. Forbehold er derfor nødvendige.
-- Cauda equina-neoplasme har kun evidensnivå L4 (ett kasuistisk tilfelle) og bør kun behandles som et forskningsspørsmål.
+Evidensen er på nivå L5: ingen kliniske studier og kun én kasuistikk som berører en beslektet svulsttype, ikke cauda equina-neoplasme direkte. Den høye TxGNN-scoren er ren modellprediksjon. Mekanismen er biologisk plausibel, men ikke underbygd av data.
 
 **For å gå videre kreves følgende:**
-- Hente og analysere advarsler og kontraindikasjoner fra preparatomtalen (blokkerende datagap for sikkerhetsscreening).
-- Skaffe detaljerte mekanismedata (MOA) fra legemiddeldatabasen.
-- Avklare hvorfor godkjenningene er kansellert, og om det finnes tilgjengelige preparater eller vei til ny godkjenning i Norge.
-- Utarbeide en plan for overvåking av blodstatus og infeksjonsrisiko (inkludert pneumocystis) for utsatte pasienter.
-- Innhente ytterligere evidens før cauda equina-neoplasme vurderes videre.
+- Data om virkningsmekanisme (MOA) og MGMT-status i myxopapillære ependymomer
+- Systematisk litteraturgjennomgang og eventuelle retrospektive serier eller kliniske studier på spinale ependymomer/cauda equina-svulster
+- Gjennomgang av preparatomtalen for advarsler og kontraindikasjoner
+- Sikkerhetsplan med overvåking av blodstatus og leverfunksjon
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

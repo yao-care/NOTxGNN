@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **primær frigjørings
 |------|------|
 | Opprinnelig indikasjon | Idiopatisk trombocytopenisk purpura (ITP) |
 | Predikert ny indikasjon | Primær frigjøringsforstyrrelse av blodplater |
-| TxGNN-prediksjonsscore | 99,99 % |
+| TxGNN-prediksjonsscore | 0,9999 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
-| Antall godkjenninger | 1 (opphevet) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -99,15 +99,15 @@ For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparato
 
 | Rang | Sykdom | TxGNN-score | Evidensnivå | Vurdering |
 |---|---|---|---|---|
-| 2 | Pseudo-von Willebrands sykdom | 99,99 % | L5 | Hold: nydannede blodplater har samme GPIbα-defekt |
-| 3 | Glanzmanns trombasteni | 99,99 % | L5 | Hold: funksjonsdefekt, normalt antall blodplater |
-| 4 | Føtal og neonatal alloimmun trombocytopeni | 99,99 % | L4 | Forskningsspørsmål: kun indirekte evidens (ITP hos barn, graviditet, kasuistikker) |
-| 5 | Scott syndrom | 99,97 % | L5 | Hold: scramblase-defekt |
-| 6 | Blødningsforstyrrelse ved konstitusjonell trombocytopeni | 99,95 % | L5 | Hold: heterogen gruppe, ingen evidens |
-| 7 | Blødningsdiatese ved kollagenreseptordefekt | 99,95 % | L5 | Hold |
-| 8 | Blodplatetype blødningsforstyrrelse | 99,93 % | L5 | Hold |
-| 9 | Autosomal dominant makrotrombocytopeni | 99,88 % | L5 | Hold: usikker nytte ved defekter nedstrøms for TPO-signalering |
-| 10 | Ehlers-Danlos syndrom, fibronektinemisk type | 99,85 % | L5 | Hold: ingen klar trombopoietisk mekanisme |
+| 2 | Pseudo-von Willebrands sykdom | 0,9999 | L5 | Hold: nydannede blodplater har samme GPIbα-defekt |
+| 3 | Glanzmanns trombasteni | 0,9999 | L5 | Hold: funksjonsdefekt, normalt antall blodplater |
+| 4 | Føtal og neonatal alloimmun trombocytopeni | 0,9999 | L5 | Forskningsspørsmål: kun indirekte evidens (ITP hos barn, graviditet, kasuistikker) |
+| 5 | Scott syndrom | 0,9997 | L5 | Hold: scramblase-defekt |
+| 6 | Blødningsforstyrrelse ved konstitusjonell trombocytopeni | 0,9995 | L5 | Hold: heterogen gruppe, ingen evidens |
+| 7 | Blødningsdiatese ved kollagenreseptordefekt | 0,9995 | L5 | Hold |
+| 8 | Blodplatetype blødningsforstyrrelse | 0,9993 | L5 | Hold |
+| 9 | Autosomal dominant makrotrombocytopeni | 0,9988 | L5 | Hold: usikker nytte ved defekter nedstrøms for TPO-signalering |
+| 10 | Ehlers-Danlos syndrom, fibronektinemisk type | 0,9985 | L5 | Hold: ingen klar trombopoietisk mekanisme |
 
 Den mest interessante kandidaten blant disse er føtal og neonatal alloimmun trombocytopeni (rang 4), hvor en trombopoietisk mekanisme er plausibel. Evidensen er likevel kun indirekte, og sikkerhet for foster og nyfødt (blant annet placentaovergang) er uavklart.
 

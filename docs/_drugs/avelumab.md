@@ -4,17 +4,17 @@ title: Avelumab
 parent: Kun modellprediksjon (L5)
 nav_order: 47
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Avelumab: predikert ny indikasjon Humant herpesvirus 8-relatert tumor (evidensnivå L5). Opprinnelig indikasjon: Nevroendokrine svulster"
+indication_count: 9
 monitor_inn: "AVELUMAB"
-predicted_indications: ["human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "adenosine deaminase deficiency", "reticular dysgenesis", "Immunoerythromyeloid hypoplasia", "non-severe combined immunodeficiency", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
+predicted_indications: ["human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "adenosine deaminase deficiency", "reticular dysgenesis", "Immunoerythromyeloid hypoplasia", "non-severe combined immunodeficiency", "kidney pelvis sarcomatoid transitional cell carcinoma"]
+last_modified_at: 2026-10-27
+description: "Avelumab: predikert ny indikasjon Humant herpesvirus 8-relatert svulst (human herpesvirus 8-related tumor) (evidensnivå L5). Opprinnelig indikasjon: Neuroendocrine Tumors"
 ---
 
 # Avelumab
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,117 +33,66 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Avelumab: Fra nevroendokrine svulster til humant herpesvirus 8-relatert tumor
+## Avelumab: PD-L1-hemmer (immunsjekkpunkthemmer) → humant herpesvirus 8-relatert svulst (human herpesvirus 8-related tumor)
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
-Avelumab er et anti-PD-L1-antistoff, og den registrerte opprinnelige indikasjonen i de innsamlede dataene er nevroendokrine svulster.
-TxGNN-modellen forutsier at legemidlet kan være effektivt mot **humant herpesvirus 8-relatert tumor**.
-Det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** i dataene som støtter denne prediksjonen, så den bygger kun på modellen.
-
----
+Avelumab er et monoklonalt antistoff mot PD-L1. Modellen TxGNN predikerer at legemidlet kan være aktuelt for **humant herpesvirus 8-relatert svulst (human herpesvirus 8-related tumor)**. Per i dag finnes **ingen kliniske studier og ingen publikasjoner** i de samlede dataene som støtter denne prediksjonen direkte.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Nevroendokrine svulster |
-| Predikert ny indikasjon | Humant herpesvirus 8-relatert tumor |
-| TxGNN-prediksjonsscore | 99,97 % |
+| Opprinnelig indikasjon | Neuroendocrine Tumors |
+| Predikert ny indikasjon | Humant herpesvirus 8-relatert svulst (human herpesvirus 8-related tumor) |
+| TxGNN-prediksjonsscore | 0,9997 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun tilbakekalt/avregistrert (cancelled) |
-| Antall markedsføringstillatelser | 1 |
-| Anbefalt beslutning | Hold |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
+| Anbefalt beslutning | Hold (avvent) |
 
----
+## Hvorfor er prediksjonen rimelig?
 
-## Hvorfor er denne prediksjonen rimelig?
+Avelumab er et anti-PD-L1-antistoff som blokkerer samspillet mellom PD-L1 og PD-1 og dermed kan gjenopprette T-cellenes immunrespons mot svulstceller. Detaljerte data om virkningsmekanisme (MOA) fra legemiddeldatabasen er ikke tilgjengelige i de samlede dataene.
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Avelumab er imidlertid kjent som et anti-PD-L1-antistoff (immunsjekkpunkthemmer).
+HHV-8-relaterte svulster, for eksempel Kaposis sarkom, kjennetegnes av immununnvikelse og uttrykk av PD-L1. Blokkade av immunsjekkpunkter er derfor biologisk plausibelt. Dette er imidlertid en mekanistisk hypotese, ikke et klinisk bevist funn. Scoren er en ren modellprediksjon uten støtte fra studier.
 
-HHV-8-relaterte svulster, for eksempel Kaposi sarkom, viser immununndragelse og PD-L1-uttrykk. Sjekkpunkthemming er derfor biologisk plausibelt. Koblingen til den opprinnelige indikasjonen (nevroendokrine svulster) er imidlertid ikke vurdert (likhet: ikke avklart).
+## Klinisk studiedokumentasjon
 
-Det er viktig å understreke at dataene ikke inneholder verken studier eller litteratur for denne indikasjonen. Scoren er en ren modellprediksjon.
+Foreløpig er det ingen relaterte kliniske studier registrert.
 
----
+## Litteraturdokumentasjon
 
-## Evidens fra kliniske studier
+Foreløpig finnes ingen relatert litteratur.
 
-Foreløpig er ingen relaterte kliniske studier registrert.
+## Informasjon om det norske markedet
 
----
-
-## Litteraturevidens
-
-Foreløpig er ingen relatert litteratur tilgjengelig.
-
----
-
-## Markedsinformasjon for Norge
-
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004338 | Bavencio | – | Nevroendokrine svulster |
-
-Tillatelsen har status «cancelled», og det finnes ingen gyldige tillatelser for tiden.
-
----
-
-## Cytotoksisitet
-
-| Punkt | Innhold |
-|------|------|
-| Klassifisering | Immunterapi (anti-PD-L1 monoklonalt antistoff), ikke konvensjonelt cytotoksisk |
-| Risiko for myelosuppresjon | Se pakningsvedlegget for advarsler og forholdsregler |
-| Emetogenisitet | Se pakningsvedlegget for advarsler og forholdsregler |
-| Overvåkingspunkter | Se pakningsvedlegget for advarsler og forholdsregler |
-| Håndteringsvern | Se pakningsvedlegget for advarsler og forholdsregler |
-
----
+| EMEA/H/C/004338 | Bavencio | Ikke oppgitt | Se lokale lisensdata |
 
 ## Sikkerhetsvurderinger
 
-- **Legemiddelinteraksjoner**: Tre interaksjoner av alvorlighetsgrad «Major» er identifisert (kilde: DDInter):
-  - Lenalidomid
-  - Pomalidomid
-  - Talidomid
+**Legemiddelinteraksjoner** (alle klassifisert som «Major»):
+- Lenalidomid
+- Pomalidomid
+- Talidomid
 
-Se pakningsvedlegget for øvrig sikkerhetsinformasjon, inkludert advarsler og kontraindikasjoner.
-
----
-
-## Andre predikerte indikasjoner (til orientering)
-
-| Rang | Predikert indikasjon | TxGNN-score | Evidensnivå | Anbefaling |
-|---|---|---|---|---|
-| 2 | Nevroendokrin tumor i mellomøret | 99,97 % | L5 | Hold |
-| 3 | Malignt kutant granulærcelletumor i huden | 99,97 % | L5 | Hold |
-| 4 | Ektomesenkymom | 99,97 % | L5 | Hold |
-| 5 | Adenosindeaminase-mangel | 99,95 % | L5 | Hold |
-| 6 | Retikulær dysgenese | 99,94 % | L5 | Hold |
-| 7 | Immunoerytromyeloid hypoplasi | 99,94 % | L5 | Hold |
-| 8 | Ikke-alvorlig kombinert immunsvikt | 99,92 % | L5 | Hold |
-| 9 | Urotelialt karsinom i prostatisk uretra | 99,92 % | L5 | Forskningsspørsmål |
-| 10 | Sarkomatoid overgangscellekarsinom i nyrebekkenet | 99,91 % | L5 | Forskningsspørsmål |
-
-Prediksjonene for primære immunsviktlidelser (rang 5–8) mangler en plausibel mekanisme og er sannsynligvis artefakter fra kunnskapsgrafen. De to urotelkarsinomene (rang 9–10) skiller seg ut: avelumab er etablert som vedlikeholdsbehandling ved avansert urotelialt karsinom etter platinabasert kjemoterapi (fase 3-studien JAVELIN Bladder 100). Disse er mest interessante for videre vurdering, men uten indikasjonsspesifikke data i grunnlaget er de likevel gradert som L5.
-
----
+For øvrig sikkerhetsinformasjon, se preparatomtalen (SPC/pakningsvedlegg).
 
 ## Konklusjon og neste steg
 
-**Beslutning: Hold**
+**Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Prediksjonen for HHV-8-relatert tumor er biologisk plausibel, men støttes ikke av kliniske studier eller litteratur (L5). Den norske tillatelsen er i tillegg kansellert, og sentrale sikkerhetsdata mangler.
+Prediksjonen bygger kun på en modellscore (evidensnivå L5) uten kliniske studier eller publikasjoner for denne sykdommen. Den biologiske begrunnelsen via PD-L1 er plausibel, men ubekreftet.
 
 **For å gå videre kreves følgende:**
-- Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel)
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Systematisk litteratur- og studiesøk for HHV-8-relaterte svulster, særlig Kaposi sarkom
-- Vurdering av de urotelkarsinom-relaterte prediksjonene (rang 9–10) opp mot eksisterende fase 3-evidens og godkjent indikasjon
-- Avklaring av administrasjonsvei og tilgjengelighet i Norge, gitt at tillatelsen er kansellert
+- Systematisk litteratursøk og søk i studieregistre etter avelumab ved HHV-8-relaterte svulster (f.eks. Kaposis sarkom)
+- Data om virkningsmekanisme (MOA) og PD-L1-uttrykk i aktuelle svulster
+- Gjennomgang av preparatomtalens advarsler og kontraindikasjoner
+- Vurdering av sikkerhet hos pasienter med HIV-assosiert immunsvikt, som er relevant for denne svulsttypen
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

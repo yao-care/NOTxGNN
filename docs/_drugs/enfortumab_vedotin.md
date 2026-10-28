@@ -50,10 +50,10 @@ Prediksjonen er derfor kun modellbasert og har ingen støtte i faktiske studier.
 |------|------|
 | Opprinnelig indikasjon | Urotelialt karsinom (overgangscellekarsinom); urologiske svulster |
 | Predikert ny indikasjon | Lepra |
-| TxGNN-prediksjonsscore | 99,53 % |
+| TxGNN-prediksjonsscore | 0,9953 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert/kansellert |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -68,14 +68,14 @@ Det er ikke etablert noen mekanistisk kobling mellom dette legemidlet og lepra, 
 
 | Rang | Sykdom | Score | Vurdering |
 |---|---|---|---|
-| 2 | Multippel endokrin neoplasi | 99,43 % | Ingen holdepunkter for Nectin-4-uttrykk eller respons på MMAE-ADC |
-| 3 | Cytomegalovirusinfeksjon | 99,36 % | Kun en kasuistikk om bivirkning; ingen terapeutisk effekt vist |
-| 4 | Candidiasis | 99,30 % | Kun en farmakovigilansanalyse (FAERS); gjelder risikosignal, ikke nytte |
-| 5 | Hjerneinfarkt | 99,23 % | Ingen plausibel mekanisme |
-| 6 | HIV-infeksjon | 99,19 % | Ingen antiviral aktivitet; dårlig egnet for en cytotoksisk substans |
-| 7 | Homozygot familiær hyperkolesterolemi | 99,18 % | Ingen sammenheng med virkningsmekanismen |
-| 8 | Smittsom bovin rhinotracheitt | 99,13 % | Veterinær sykdom, trolig grafartefakt |
-| 9 | Malign katarr (malignant catarrhal fever) | 99,13 % | Veterinær sykdom, trolig grafartefakt |
+| 2 | Multippel endokrin neoplasi | 0,9943 | Ingen holdepunkter for Nectin-4-uttrykk eller respons på MMAE-ADC |
+| 3 | Cytomegalovirusinfeksjon | 0,9936 | Kun en kasuistikk om bivirkning; ingen terapeutisk effekt vist |
+| 4 | Candidiasis | 0,9930 | Kun en farmakovigilansanalyse (FAERS); gjelder risikosignal, ikke nytte |
+| 5 | Hjerneinfarkt | 0,9923 | Ingen plausibel mekanisme |
+| 6 | HIV-infeksjon | 0,9919 | Ingen antiviral aktivitet; dårlig egnet for en cytotoksisk substans |
+| 7 | Homozygot familiær hyperkolesterolemi | 0,9918 | Ingen sammenheng med virkningsmekanismen |
+| 8 | Smittsom bovin rhinotracheitt | 0,9913 | Veterinær sykdom, trolig grafartefakt |
+| 9 | Malign katarr (malignant catarrhal fever) | 0,9913 | Veterinær sykdom, trolig grafartefakt |
 
 ---
 

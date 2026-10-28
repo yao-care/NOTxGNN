@@ -50,9 +50,10 @@ og dette støttes foreløpig av **6 kliniske studier** og **10 publikasjoner**. 
 |------|------|
 | Opprinnelig indikasjon | Magekreft (Stomach Neoplasms) |
 | Predikert ny indikasjon | Tykktarmskreft (colonic neoplasm) |
-| TxGNN-prediksjonsscore | 99,99 % |
+| TxGNN-prediksjonsscore | 0,9999 |
 | Evidensnivå | L1 |
-| Markedsstatus i Norge | Kun avregistrert |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall markedsføringstillatelser | 1 |
 | Anbefalt beslutning | Proceed with Guardrails |
 
@@ -102,7 +103,7 @@ Ingen randomiserte studier er blant de koblede publikasjonene; de fleste er kasu
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/001242 | Teysuno | Ikke oppgitt | Magekreft (Stomach Neoplasms) – avregistrert |
+| EMEA/H/C/001242 | Teysuno | Ikke oppgitt | Magekreft (Stomach Neoplasms) – godkjent |
 
 ---
 

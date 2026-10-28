@@ -49,9 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **pulmonal hypertensjon
 |------|------|
 | Opprinnelig indikasjon | Brystkreft (Breast Neoplasms) |
 | Predikert ny indikasjon | Pulmonal hypertensjon |
-| TxGNN-prediksjonsscore | 99,03 % |
+| TxGNN-prediksjonsscore | 0,9903 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun opphevede (trukket) autorisasjoner |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall autorisasjoner | 1 (0 gyldige, 1 opphevet) |
 | Anbefalt beslutning | Hold |
 

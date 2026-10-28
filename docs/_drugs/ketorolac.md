@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ketorolac
-parent: Kun modellprediksjon (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 228
-evidence_level: L5
+evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Ketorolac: predikert ny indikasjon Hodepinelidelse (headache disorder) (evidensnivå L5). Opprinnelig indikasjon: Intraokulær linseimplantasjon"
@@ -14,7 +14,7 @@ predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigemin
 # Ketorolac
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
+Evidensnivå: **L1** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ og dette støttes av **17 kliniske studier** og **18 publikasjoner** i de sammen
 |------|------|
 | Opprinnelig indikasjon | Intraokulær linseimplantasjon; postoperativ smerte |
 | Predikert ny indikasjon | Hodepinelidelse (headache disorder) |
-| TxGNN-prediksjonsscore | 99,43 % |
+| TxGNN-prediksjonsscore | 0,9943 |
 | Evidensnivå | L1 (se merknad under) |
-| Markedsstatus i Norge | Kun trukket tilbake (kansellert) |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med sikkerhetsrammer) |
 
 *Merknad om evidensnivå:* L1 hviler hovedsakelig på en systematisk oversikt/metaanalyse (PMID 35138658) og retningslinjer. Flere av studiene er fase 4 eller små. Den eneste fase 3-studien merket som relevant (NCT05102591) er en nevromodulasjonsstudie som ikke tester ketorolac. Nivået bør bekreftes mot primære RCT-data.
@@ -128,8 +128,8 @@ Preparatomtalen er ikke tilgjengelig i de sammenstilte dataene. Se den for fulls
 
 | Indikasjon | TxGNN-score | Evidensnivå | Anbefaling | Kommentar |
 |------|------|------|------|------|
-| Rosacea-konjunktivitt | 99,40 % | L5 | Hold | Ingen studier eller litteratur. Kun modellprediksjon. Risiko for hornhinnekomplikasjoner ved langvarig okulær NSAID-bruk. |
-| Trigeminal autonom hodepine | 99,39 % | L4 | Hold | Kun indirekte evidens: én tilbaketrukket fase 1-studie (0 deltakere), en oversikt fra 1994 og en kasuistikk om litiumtoksisitet. Etablerte akuttbehandlinger er bedre dokumentert. |
+| Rosacea-konjunktivitt | 0,9940 | L5 | Hold | Ingen studier eller litteratur. Kun modellprediksjon. Risiko for hornhinnekomplikasjoner ved langvarig okulær NSAID-bruk. |
+| Trigeminal autonom hodepine | 0,9939 | L4 | Hold | Kun indirekte evidens: én tilbaketrukket fase 1-studie (0 deltakere), en oversikt fra 1994 og en kasuistikk om litiumtoksisitet. Etablerte akuttbehandlinger er bedre dokumentert. |
 
 ---
 

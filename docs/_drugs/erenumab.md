@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Erenumab
-parent: Kun modellprediksjon (L5)
+parent: Kun kjente bruksområder (ingen nye prediksjoner)
 nav_order: 159
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-15
-description: "Erenumab: predikert ny indikasjon Migrene med hjernestammeaura (evidensnivå L5). Opprinnelig indikasjon: Migrene (Migraine Disorders)"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Erenumab: kjente bruksområder og markedsstatus i Norge; for øyeblikket ingen ny kandidatindikasjon"
+predicted_indications: []
 ---
 
 # Erenumab
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
+Evidensnivå: **N/A** | Predikerte indikasjoner: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,72 +32,45 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-## Erenumab: Fra migrene til migrene med hjernestammeaura
+<!-- known-uses-page -->
+<!-- description: Erenumab: kjente bruksområder og markedsstatus i Norge; for øyeblikket ingen ny kandidatindikasjon -->
+## Erenumab: Kjente bruksområder og markedsstatus i Norge
 {: .text-alpha }
 
-## Oppsummering i én setning
+## Sammendrag
+Alle kandidatene som TxGNN-modellen har gitt for Erenumab, er allerede kjente bruksområder. Det finnes derfor for øyeblikket ingen ny predikert indikasjon for dette legemidlet. Tabellene nedenfor viser hvilke kjente bruksområder modellen har pekt ut, og hvordan de er knyttet til godkjente indikasjoner.
 
-Erenumab er et monoklonalt antistoff mot CGRP-reseptoren, opprinnelig godkjent for forebygging av migrene.
-TxGNN-modellen predikerer at det kan være virksomt ved **migrene med hjernestammeaura**, men dataene som er samlet inn for denne rapporten inneholder **ingen kliniske studier** og **ingen publikasjoner som er spesifikke for denne undertypen**. De 20 publikasjonene gjelder hovedsakelig migrene generelt, med eller uten aura.
-
----
-
-## Hurtigoversikt
-
+## Rask oversikt
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Migrene (Migraine Disorders) |
-| Predikert ny indikasjon | Migrene med hjernestammeaura |
-| TxGNN-prediksjonsscore | 99,89 % |
-| Evidensnivå | L4 (indirekte mekanistisk og klinisk fysiologisk støtte; ingen studier for den aktuelle undertypen) |
-| Markedsstatus i Norge | Kun tilbakekalt/avregistrert (Cancelled only) |
-| Antall markedsføringstillatelser | 1 (avregistrert) |
-| Anbefalt beslutning | Hold |
+| Nye predikerte indikasjoner | Ingen (alle sporbare modellkandidater er kjente bruksområder) |
+| Kjente bruksområder blant modellkandidatene | 1 |
+| Evidensnivå | Ikke aktuelt |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 
----
+## Kjente bruksområder blant modellens kandidater
 
-## Hvorfor er denne prediksjonen rimelig?
+### Godkjent (støttet av tillatelse eller preparatomtale)
+| Indikasjon | Kilde |
+|------|------|
+| Ingen | Ingen |
 
-Data om virkningsmekanisme (MOA) var ikke tilgjengelige i den innsamlede dokumentasjonen. Ut fra kjent informasjon er erenumab et antistoff som blokkerer CGRP-reseptoren. In vitro-data viser at det opphever CGRP-indusert cAMP-produksjon (IC50 2,3 nM) og er ca. 5000 ganger mer selektivt for CGRP-reseptoren enn for andre humane reseptorer i kalsitoninfamilien.
+### Relatert til en godkjent indikasjon (samme sykdomskategori)
+| Indikasjon | Godkjent kategori |
+|------|------|
+| Migrene med hjernestammeaura (migraine with brainstem aura) | migraine |
 
-CGRP-signalering er sentral i migrenens patofysiologi. Migrene med hjernestammeaura er en undertype av migrene med aura, så det finnes en mekanistisk begrunnelse for CGRP-blokkade. Sekundæranalyser av randomiserte studier (Ashina m.fl., 2022) tyder på at erenumab er trygt og effektivt hos pasienter med migrene med aura. Det er imidlertid ikke vist spesifikt for hjernestammeaura.
-
-Den høye TxGNN-scoren er en beregningsmessig prediksjon som i stor grad gjenspeiler legemidlets eksisterende migreneindikasjon, ikke uavhengig evidens. Dette bør tas med i vurderingen.
-
----
-
-## Evidens fra kliniske studier
-
-For tiden er det ingen relaterte kliniske studier registrert for denne predikerte indikasjonen.
-
----
-
-## Litteraturevidens
-
-Tabellen viser et utvalg av de mest relevante publikasjonene. Ingen av dem omhandler spesifikt migrene med hjernestammeaura.
-
-| PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|------|---------|
-| [30360965](https://pubmed.ncbi.nlm.nih.gov/30360965/) | 2018 | RCT (fase 3b) | Lancet | Effekt og tolerabilitet av erenumab ved episodisk migrene etter 2–4 mislykkede forebyggende behandlinger |
-| [34928306](https://pubmed.ncbi.nlm.nih.gov/34928306/) | 2022 | RCT (sekundæranalyse) | JAMA Neurology | Sikkerhet og effekt av erenumab ved migrene med og uten aura |
-| [36942409](https://pubmed.ncbi.nlm.nih.gov/36942409/) | 2023 | Samlet post hoc-analyse | Headache | Kardiovaskulær sikkerhet av erenumab hos pasienter med og uten aura |
-| [37012858](https://pubmed.ncbi.nlm.nih.gov/37012858/) | 2023 | Systematisk oversikt | Int Immunopharmacol | Effekt av erenumab som forebyggende behandling ved episodisk og kronisk migrene |
-| [41888647](https://pubmed.ncbi.nlm.nih.gov/41888647/) | 2026 | Klinisk studie (REFORM) | J Headache Pain | Effekt av erenumab på hyppigheten av migreneaura |
-| [32867533](https://pubmed.ncbi.nlm.nih.gov/32867533/) | 2021 | Mekanistisk/klinisk fysiologi | Cephalalgia | Erenumab endrer ikke cerebral hemodynamikk eller endotelfunksjon ved migrene uten aura |
-| [42390441](https://pubmed.ncbi.nlm.nih.gov/42390441/) | 2026 | Farmakoepidemiologisk studie | Cephalalgia | Cerebrovaskulær risiko ved CGRP-antistoffer sammenlignet med onabotulinumtoksinA |
-| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Oversiktsartikkel | Handb Exp Pharmacol | CGRPs rolle i migrene |
-| [35230406](https://pubmed.ncbi.nlm.nih.gov/35230406/) | 2022 | Nyhet/kommentar | JAMA | Oppsummering av aura-subgruppeanalysen: erenumab trygt og effektivt ved migrene med aura |
-| [35538414](https://pubmed.ncbi.nlm.nih.gov/35538414/) | 2022 | Retrospektiv virkelighetsstudie | J Headache Pain | Sikkerhet og tolerabilitet over 12 måneder |
-
----
+### Relasjoner registrert i kunnskapsgrafen (ingen godkjenning funnet)
+| Indikasjon |
+|------|
+| Ingen |
 
 ## Informasjon om det norske markedet
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/004447 | Aimovig | Ikke oppgitt | Migrene (Migraine Disorders) – status: avregistrert |
-
----
+| Tillatelse | Produkt | Legemiddelform | Status |
+|------|------|------|------|
+| EMEA/H/C/004447 | erenumab |  | Gyldig |
 
 ## Sikkerhetsvurderinger
 
@@ -107,19 +81,6 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ---
 
-## Konklusjon og neste steg
-
-**Beslutning: Hold**
-
-**Begrunnelse:**
-Prediksjonen er mekanistisk plausibel, men det finnes ingen kliniske studier og ingen data spesifikke for hjernestammeaura. Den høye modellscoren er hovedsakelig drevet av den eksisterende migreneindikasjonen. I tillegg er den eneste markedsføringstillatelsen i Norge avregistrert.
-
-**For å gå videre trengs følgende:**
-- Data eller studier som er spesifikke for migrene med hjernestammeaura (inkludert vaskulær sikkerhet i denne undertypen)
-- Detaljerte data om virkningsmekanisme (MOA)
-- Sikkerhetsdata fra preparatomtalen (advarsler og kontraindikasjoner)
-- Avklaring av markedsstatus og eventuell ny tillatelse i Norge
-- Analyse av likhet mellom opprinnelig og ny indikasjon samt administrasjonsvei
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

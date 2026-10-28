@@ -4,7 +4,7 @@ title: Cilastatin
 parent: Moderat evidens (L3-L4)
 nav_order: 99
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Cilastatin: predikert ny indikasjon Staphylococcus aureus-infeksjon (evidensnivå L3). Opprinnelig indikasjon: Gramnegative bakterieinfeksjoner"
 monitor_inn: "Cilastatin"
@@ -14,7 +14,7 @@ predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusit
 # Cilastatin
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L3** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at det kan være virksomt mot **Staphylococcus aureus-
 |------|------|
 | Opprinnelig indikasjon | Gramnegative bakterieinfeksjoner |
 | Predikert ny indikasjon | Staphylococcus aureus-infeksjon |
-| TxGNN-prediksjonsscore | 99,94 % |
+| TxGNN-prediksjonsscore | 0,9994 |
 | Evidensnivå | L3 |
-| Markedsstatus i Norge | Kun opphevede godkjenninger |
-| Antall godkjenninger | 1 (opphevet) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---

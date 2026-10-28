@@ -4,17 +4,17 @@ title: Givosiran
 parent: Kun modellprediksjon (L5)
 nav_order: 189
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Givosiran: predikert ny indikasjon Hepatoportal sklerose (evidensnivå L5). Opprinnelig indikasjon: Hepatiske porfyrier"
+indication_count: 9
 monitor_inn: "GIVOSIRAN"
 predicted_indications: ["hepatoportal sclerosis", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "chronic hepatitis C virus infection", "glycogen storage disease due to hepatic glycogen synthase deficiency", "chronic hepatitis B virus infection", "disorder of phenylalanine metabolism"]
+last_modified_at: 2026-10-27
+description: "Givosiran: predikert ny indikasjon Hepatoportal sklerose (hepatoportal sclerosis) (evidensnivå L5). Opprinnelig indikasjon: Porphyrias, Hepatic"
 ---
 
 # Givosiran
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,96 +33,68 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Givosiran: Fra hepatiske porfyrier til hepatoportal sklerose
+## Givosiran: siRNA mot ALAS1 → Hepatoportal sklerose (hepatoportal sclerosis)
 {: .text-alpha }
 
-## Oppsummering i korte trekk
+## Kort oppsummering
 
-Givosiran er et siRNA-legemiddel som opprinnelig brukes mot hepatiske (akutte) porfyrier.
-TxGNN-modellen forutsier at det kan ha effekt mot **hepatoportal sklerose**, med en svært høy modellscore.
-Prediksjonen støttes foreløpig av **0 kliniske studier** og **0 publikasjoner**. Den er kun modellbasert (evidensnivå L5).
-
----
+Givosiran er en siRNA-behandling rettet mot enzymet ALAS1 i leverceller. Modellen TxGNN forutsier at legemidlet kan ha effekt ved **hepatoportal sklerose (hepatoportal sclerosis)**, men dette er kun en modellbasert prediksjon. Dataene som er sammenstilt for denne rapporten inneholder **ingen kliniske studier** og **ingen publikasjoner** som direkte omhandler denne sykdommen.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Hepatiske porfyrier |
-| Predikert ny indikasjon | Hepatoportal sklerose |
-| TxGNN-prediksjonsscore | 99,999 % |
+| Opprinnelig indikasjon | Porphyrias, Hepatic |
+| Predikert ny indikasjon | Hepatoportal sklerose (hepatoportal sclerosis) |
+| TxGNN-prediksjonsscore | 1,0000 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte tillatelser |
-| Antall godkjenninger | 1 (0 gyldige, 1 avregistrert) |
-| Anbefalt beslutning | Hold (avvent) |
-
----
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
+| Anbefalt beslutning | Hold |
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Givosiran er et siRNA som rettes mot ALAS1 i leverceller (hepatocytter). Det senker produksjonen av de nevrotoksiske heme-forstadiene ALA og PBG. Det er denne mekanismen som gjør legemidlet nyttig ved akutte hepatiske porfyrier. Detaljerte mekanismedata utover dette er ikke tilgjengelige i datagrunnlaget.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de sammenstilte dataene. Givosiran er kjent som en siRNA rettet mot ALAS1 i hepatocytter, og dermed reduseres produksjonen av hemforløpere.
 
-Hepatoportal sklerose er en tilstand med ikke-cirrotisk portal hypertensjon. Den kjennetegnes av vaskulære og fibrotiske endringer i leveren. Det er ikke påvist noen plausibel mekanistisk kobling mellom ALAS1-hemming og disse endringene. Den høye scoren skyldes mest sannsynlig at sykdommene ligger nær hverandre i kunnskapsgrafen (felles lever-relaterte naboer). Den bygger ikke på en mekanisme som givosiran faktisk påvirker.
+Hepatoportal sklerose er en tilstand med ikke-cirrhotisk portal hypertensjon, kjennetegnet av vaskulære og fibrotiske forandringer i portalområdet. Det er ikke etablert noen plausibel mekanistisk kobling mellom ALAS1-hemming og disse patologiske prosessene. Den høye scoren gjenspeiler trolig likheter i modellens nettverksstruktur for leversykdommer, snarere enn en mekanisme som givosiran faktisk påvirker.
 
-Prediksjonen bør derfor regnes som en hypotese generert av modellen, uten støtte fra kliniske eller litterære data.
+Prediksjonen bør derfor betraktes som en hypotese uten støtte i kliniske data eller litteratur.
 
----
-
-## Klinisk evidens
+## Klinisk studiedokumentasjon
 
 Foreløpig ingen relaterte kliniske studier registrert.
 
----
+## Litteraturdokumentasjon
 
-## Litteraturevidens
+Foreløpig ingen relatert litteratur tilgjengelig.
 
-Foreløpig ingen relatert litteratur tilgjengelig for hepatoportal sklerose.
-
-**Merk:** Blant de ti øverste prediksjonene er det bare én som har publisert litteratur, nemlig **porfyri som skyldes ALA-dehydratase-mangel (ADP)**. Dette er en ultrasjelden akutt hepatisk porfyri nær givosirans opprinnelige bruksområde. Evidensen er indirekte og blandet:
-- Fase 3-studien ENVISION (hovedsakelig akutt intermittent porfyri) er omtalt i [35067977](https://pubmed.ncbi.nlm.nih.gov/35067977/) og [36028858](https://pubmed.ncbi.nlm.nih.gov/36028858/).
-- Et kasuistisk innslag beskriver manglende respons på givosiran ved ADP: [35991568](https://pubmed.ncbi.nlm.nih.gov/35991568/).
-- En rapport fra 2026 beskriver en pasient som trengte hemming av både hepatisk og erytroid ALA-produksjon: [42443962](https://pubmed.ncbi.nlm.nih.gov/42443962/).
-
-Dette tyder på at ALAS1-hemming i lever alene kan være utilstrekkelig hos enkelte pasienter. Denne indikasjonen er vurdert til L4 og forskningsspørsmål, ikke til selve rapportens hovedindikasjon.
-
----
-
-## Markedsinformasjon for Norge
+## Informasjon om det norske markedet
 
 | Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004775 | Givlaari | Ikke oppgitt | Hepatiske porfyrier |
-
-Tillatelsen er registrert som avregistrert, og det finnes ingen gyldige tillatelser i dataene.
-
----
+| EMEA/H/C/004775 | Givlaari | – | Se lokale lisensdata |
 
 ## Sikkerhetsvurderinger
 
-- **Legemiddelinteraksjoner:** Totalt 87 interaksjoner er registrert. Blant de 20 som er gjennomgått, er én klassifisert som **alvorlig (Major)**: **eliglustat**. De øvrige er **moderate**, blant annet:
-  - amfotericin B (flere formuleringer)
-  - aminoglykosider (kanamycin, neomycin, streptomycin) og vankomycin
-  - 5-ASA-preparater (mesalazin, balsalazid, olsalazin, sulfasalazin)
-  - alosetron, metoklopramid, naltrekson, eksenatid
-  - fenfluramin, deksfenfluramin og koffein
+**Legemiddelinteraksjoner:** Det er registrert 87 interaksjoner. Blant de oppførte er det én med alvorlighetsgrad «Major»:
+- **Eliglustat** (Major)
 
-For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparatomtalen (SPC/pakningsvedlegg).
+Øvrige oppførte interaksjoner er av moderat alvorlighetsgrad, blant annet alosetron, amfotericin B (flere formuleringer), mesalazin, balsalazid, vankomycin, kanamycin, neomycin, streptomycin, naltrekson, metoklopramid, olsalazin, sulfasalazin, eksenatid, fenfluramin, deksfenfluramin og koffein.
 
----
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ## Konklusjon og neste steg
 
-**Beslutning: Hold (avvent)**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for hepatoportal sklerose er rent modellbasert (L5), uten kliniske studier, uten litteratur og uten plausibel mekanistisk kobling til ALAS1-hemming. I tillegg er legemidlet kun registrert med avregistrert tillatelse i Norge.
+Prediksjonen bygger kun på en modellscore uten kliniske studier, publikasjoner eller en plausibel mekanistisk kobling. Evidensnivået er L5.
 
 **For å gå videre kreves følgende:**
-- Hente og analysere preparatomtalen for advarsler og kontraindikasjoner. Dette er en blokkerende datamangel for sikkerhetsscreening.
-- Mer detaljerte mekanismedata for givosiran fra DrugBank.
-- Prekliniske eller mekanistiske data som kan koble ALAS1-hemming til portal hypertensjon eller levervaskulær sykdom.
-- Avklare gjeldende markedsstatus og tilgjengelighet i Norge.
-- Vurdere å prioritere ADP-porfyri som et mer forankret forskningsspørsmål, med oppmerksomhet på manglende respons i enkelte tilfeller.
+- Data om virkningsmekanisme (MOA) og en vurdering av om ALAS1-hemming kan ha relevans for portal hypertensjon
+- Prekliniske data eller litteraturgjennomgang som direkte omhandler hepatoportal sklerose
+- Innhenting og analyse av advarsler og kontraindikasjoner fra preparatomtalen
+- Vurdering av klinisk relevans av interaksjonen med eliglustat og andre registrerte interaksjoner
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

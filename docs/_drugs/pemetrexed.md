@@ -4,17 +4,17 @@ title: Pemetrexed
 parent: Høy evidens (L1-L2)
 nav_order: 319
 evidence_level: L2
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Pemetrexed: predikert ny indikasjon Malignt peritonealt mesoteliom (evidensnivå L2). Opprinnelig indikasjon: Ikke-småcellet lungekreft"
 monitor_inn: "PEMETREXED"
-predicted_indications: ["pleural adenomatoid tumor", "pleural biphasic mesothelioma", "pericardium cancer", "well differentiated papillary mesothelioma", "lymphohistiocytoid mesothelioma", "iminoglycinuria"]
+predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
+description: "Pemetrexed: predikert ny indikasjon Pleural adenomatoid tumor (evidensnivå L2). Opprinnelig indikasjon: Carcinoma, Non-Small-Cell Lung"
 ---
 
 # Pemetrexed
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L2** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Pemetreksed: Fra ikke-småcellet lungekreft og mesoteliom til malignt peritonealt mesoteliom
+## Pemetrexed: Pleural adenomatoid tumor
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -44,12 +44,12 @@ Pemetreksed er et antifolat-cellegift som opprinnelig brukes mot **ikke-småcell
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Ikke-småcellet lungekreft; mesoteliom |
-| Foreslått ny indikasjon | Malignt peritonealt mesoteliom |
-| TxGNN-prediksjonsscore | 99,99 % |
+| Opprinnelig indikasjon | Carcinoma, Non-Small-Cell Lung;Mesothelioma; Mesothelioma;Carcinoma, Non-Small-Cell Lung |
+| Foreslått ny indikasjon | Pleural adenomatoid tumor |
+| TxGNN-prediksjonsscore | 0.9999 |
 | Evidensnivå | L2 |
-| Markedsstatus i Norge | Kun trukne/avsluttede godkjenninger |
-| Antall godkjenninger | 4 (alle trukket) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 4 av 4) |
+| Antall godkjenninger | 4 (gyldige: 4) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
 
 **Merk om øvrige prediksjoner:** Flere av de ti predikerte indikasjonene er i realiteten bekreftelser av eksisterende bruk, ikke ny bruk:
@@ -101,14 +101,13 @@ Bukhinnemesoteliom har samme histologi og kjemosensitivitet som mesoteliom i bry
 | EMEA/H/C/003895 | Pemetrexed Fresenius Kabi | Ikke oppgitt | Ikke-småcellet lungekreft; mesoteliom |
 | EMEA/H/C/003970 | Pemetrexed Pfizer (tidligere Pemetrexed Hospira) | Ikke oppgitt | Ikke-småcellet lungekreft; mesoteliom |
 
-Alle fire godkjenninger har status «trukket/avsluttet». Det er ingen gyldige godkjenninger i de sammenstilte data.
+Alle fire godkjenninger er gyldige, og legemidlet er markedsført i Norge.
 
 ## Cytotoksisitet
 
 | Punkt | Innhold |
 |------|------|
 | Klassifisering | Konvensjonelt cytotoksisk middel (antifolat) |
-| Risiko for myelosuppresjon | Høy. Sykdomskoblinger i kunnskapsgrafen omfatter nøytropeni, trombocytopeni, agranulocytose og anemi |
 | Emetogenisitet | Lav til moderat (generell klasseinformasjon) |
 | Monitorering | Fullt blodbilde med differensialtelling, lever- og nyrefunksjon |
 | Håndtering | Følg gjeldende regler for håndtering av cytotoksiske legemidler |
@@ -143,7 +142,7 @@ Mekanismen er biologisk plausibel, og pemetreksed pluss platina brukes allerede 
 - Gjennomgang av preparatomtale (advarsler og kontraindikasjoner), som ikke var tilgjengelig i de sammenstilte data og er en blokkerende datamangel for sikkerhetsscreening.
 - Detaljerte mekanismedata (MOA) fra DrugBank.
 - Resultater fra pågående randomiserte fase 2-studier (NCT05001880, NCT06057935).
-- Klargjøring av regulatorisk status i Norge, siden alle godkjenninger er trukket.
+- Klargjøring av regulatorisk status i Norge; legemidlet er markedsført med 4 gyldige godkjenninger av 4.
 - Plan for sikkerhetsovervåking: blodbilde, nyrefunksjon og vurdering av interaksjoner (spesielt med nyretoksiske og NSAID-lignende legemidler), samt folat- og B12-tilskudd i tråd med standard praksis.
 ## Ansvarsfraskrivelse
 

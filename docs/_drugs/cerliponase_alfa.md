@@ -4,17 +4,17 @@ title: Cerliponase Alfa
 parent: Kun modellprediksjon (L5)
 nav_order: 92
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Cerliponase Alfa: predikert ny indikasjon Scheie syndrom (evidensnivå L5). Opprinnelig indikasjon: Nevronale ceroid-lipofuscinoser"
 monitor_inn: "CERLIPONASE ALFA"
-predicted_indications: ["Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "cholesteryl ester storage disease", "Gaucher disease", "familial encephalopathy with neuroserpin inclusion bodies", "Wolman disease with hypolipoproteinemia and acanthocytosis", "myoclonic epilepsy, juvenile, susceptibility to", "proximal myopathy with extrapyramidal signs", "autosomal ichthyosis syndrome with fatal disease course"]
+predicted_indications: ["Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "cholesteryl ester storage disease", "Gaucher disease", "familial encephalopathy with neuroserpin inclusion bodies", "Wolman disease with hypolipoproteinemia and acanthocytosis", "proximal myopathy with extrapyramidal signs", "autosomal ichthyosis syndrome with fatal disease course"]
 ---
 
 # Cerliponase Alfa
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,10 @@ Prediksjonen bygger kun på modellen (evidensnivå L5), og mekanismen taler snar
 |------|------|
 | Opprinnelig indikasjon | Nevronale ceroid-lipofuscinoser |
 | Predikert ny indikasjon | Scheie syndrom |
-| TxGNN-prediksjonsscore | 99,98 % |
+| TxGNN-prediksjonsscore | 0,9998 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall markedsføringstillatelser | 1 (0 gyldige, 1 kansellert) |
 | Anbefalt beslutning | Hold |
 

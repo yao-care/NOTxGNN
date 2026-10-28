@@ -4,17 +4,17 @@ title: Cemiplimab
 parent: Kun modellprediksjon (L5)
 nav_order: 90
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Cemiplimab: predikert ny indikasjon Adenoskvamøst gallblærekarsinom (evidensnivå L5). Opprinnelig indikasjon: Plateepitelkarsinom"
+indication_count: 6
 monitor_inn: "CEMIPLIMAB"
 predicted_indications: ["gallbladder adenosquamous carcinoma", "rectal cloacogenic carcinoma", "external ear basal cell carcinoma", "adenosquamous prostate carcinoma", "urethral verrucous carcinoma", "pancreatic adenosquamous carcinoma"]
+last_modified_at: 2026-10-27
+description: "Cemiplimab: predikert ny indikasjon galleblæreadenoskvamøst karsinom (gallbladder adenosquamous carcinoma) (evidensnivå L5). Opprinnelig indikasjon: Carcinoma, Squamous Cell"
 ---
 
 # Cemiplimab
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,100 +33,73 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Cemiplimab: Fra plateepitelkarsinom til adenoskvamøst gallblærekarsinom
+## Cemiplimab: PD-1-hemmer → galleblæreadenoskvamøst karsinom (gallbladder adenosquamous carcinoma)
 {: .text-alpha }
 
-## Oppsummering
+## Oppsummering i én setning
 
-Cemiplimab er et PD-1-blokkerende antistoff som opprinnelig er godkjent for behandling av plateepitelkarsinom (kutant plateepitelkarsinom).
-TxGNN-modellen forutsier at det kan ha effekt mot **adenoskvamøst gallblærekarsinom**,
-men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** som støtter denne spesifikke indikasjonen. Støtten består kun av modellprediksjonen.
-
----
+Cemiplimab er et antistoff som blokkerer PD-1 (programmert celledød-protein 1) og brukes mot kreft. TxGNN-modellen forutsier at legemidlet kan være aktuelt for **galleblæreadenoskvamøst karsinom (gallbladder adenosquamous carcinoma)**. Forutsigelsen bygger kun på modellen: de data som er samlet inn til denne rapporten inneholder **ingen kliniske studier** og **ingen publikasjoner** for denne sykdommen.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Plateepitelkarsinom |
-| Predikert ny indikasjon | Adenoskvamøst gallblærekarsinom |
-| TxGNN-prediksjonsscore | 99,99 % |
+| Opprinnelig indikasjon | Carcinoma, Squamous Cell |
+| Forutsagt ny indikasjon | galleblæreadenoskvamøst karsinom (gallbladder adenosquamous carcinoma) |
+| TxGNN-prediksjonsscore | 0,9999 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellert |
-| Antall godkjenninger | 1 (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
-
----
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Basert på kjent informasjon er cemiplimab et monoklonalt antistoff som binder humant PD-1 (kodet av *PDCD1*) og blokkerer samspillet mellom PD-1 og PD-L1 (IC50 under 1 nM i ELISA). Effekten ved plateepitelkarsinom i huden er vist i kliniske studier: omtrent halvparten av pasientene med avansert sykdom responderte, og 82 % av responderne med metastatisk sykdom hadde varig respons.
+Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i de innsamlede dataene. Ut fra farmakologiske opplysninger er cemiplimab et antistoff mot PD-1 (PDCD1). Det blokkerer samspillet mellom PD-1 og PD-L1 (IC50 under 1 nM i ELISA) og slik kan immunforsvaret gjenopprette angrepet på kreftceller.
 
-Den predikerte indikasjonen har en plateepitelkomponent, noe som gir en mulig histologisk likhet med den opprinnelige indikasjonen. Det er dermed tenkelig at PD-1-blokade kan være relevant. Dette er imidlertid en ekstrapolering. Modellscoren er den eneste støtten, og det finnes ingen kliniske data for gallblæresetting.
+Svulsten er en sjelden blandingshistologi med en plateepitelkomponent. Cemiplimab er etablert ved plateepitelkarsinom i huden, og en ekstrapolering til plateepitelkomponenten er biologisk tenkelig. Dette er likevel en hypotese basert på modellprediksjon, ikke på kliniske data. Svulstens sjeldenhet og blandede histologi gjør at overføringen er usikker.
 
-For øvrig viser dataene at de ni andre høyest rangerte prediksjonene også er plateepitelrelaterte eller adenoskvamøse svulster (for eksempel plateepitelkarsinom i glottis og supraglottis, adenoskvamøst karsinom i bukspyttkjertel og prostata, samt basalcellekarsinom i ytre øre). Det er bare for basalcellekarsinom i ytre øre at det finnes en publikasjon (se nedenfor).
+## Kliniske studier
 
----
+For tiden er det ingen relaterte kliniske studier registrert.
 
-## Klinisk studieevidens
+## Litteraturbevis
 
-Foreløpig er det ikke registrert noen relaterte kliniske studier.
+For tiden finnes det ingen relatert litteratur.
 
----
-
-## Litteraturevidens
-
-Foreløpig finnes det ingen relatert litteratur for adenoskvamøst gallblærekarsinom.
-
-*Merknad om øvrige prediksjoner:* For rangering 4, basalcellekarsinom i ytre øre, er det identifisert én publikasjon:
-
-| PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|------|---------|
-| [34157152](https://pubmed.ncbi.nlm.nih.gov/34157152/) | 2021 | Kasuistikk (utledet fra tittel) | Clinical and Experimental Dermatology | Vedvarende respons etter seponering av cemiplimab hos én pasient med lokalavansert basalcellekarsinom. Sammendrag mangler. |
-
----
-
-## Informasjon om det norske markedet
+## Markedsinformasjon for Norge
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004844 | Libtayo | Ikke oppgitt | Plateepitelkarsinom (status: kansellert) |
-
----
+| EMEA/H/C/004844 | Libtayo | Ikke oppgitt | Ikke oppgitt |
 
 ## Cytotoksisitet
 
 | Punkt | Innhold |
 |------|------|
-| Cytotoksisitetsklassifisering | Immunterapi (PD-1-hemmer, monoklonalt antistoff) |
-| Myelosuppresjonsrisiko | Se pakningsvedlegget for advarsler og forsiktighetsregler |
-| Emetogenisitetsklassifisering | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Klassifisering | Immunterapi (PD-1-hemmer), ikke konvensjonelt cytostatikum |
+| Risiko for myelosuppresjon | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Emetogent potensial | Se pakningsvedlegget for advarsler og forsiktighetsregler |
 | Overvåkingspunkter | Se pakningsvedlegget for advarsler og forsiktighetsregler |
-| Håndteringsbeskyttelse | Se pakningsvedlegget for advarsler og forsiktighetsregler |
-
----
+| Håndteringsvern | Se pakningsvedlegget for advarsler og forsiktighetsregler |
 
 ## Sikkerhetsvurderinger
 
-- **Legemiddelinteraksjoner:** Det er registrert ni interaksjoner av moderat alvorlighetsgrad, alle med kortikosteroider: hydrokortison, triamcinolon, deksametason, betametason, budesonid, prednisolon, prednison, metylprednisolon og deflazakort.
+- **Legemiddelinteraksjoner:** Ni interaksjoner med moderat alvorlighetsgrad er registrert, alle med kortikosteroider: hydrokortison, triamcinolon, deksametason, betametason, budesonid, prednisolon, prednison, metylprednisolon og deflazakort. Kortikosteroider kan dempe den immunmedierte effekten av PD-1-blokade, så samtidig bruk bør vurderes nøye.
 
 For øvrig sikkerhetsinformasjon, se pakningsvedlegget.
-
----
 
 ## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for adenoskvamøst gallblærekarsinom hviler kun på en modellscore (L5), uten kliniske studier eller litteratur. I tillegg er den norske markedsgodkjenningen kansellert, og sikkerhetsdata fra pakningsvedlegget mangler.
+Prediksjonen har en svært høy score (0,9999), men er ikke støttet av noen kliniske studier eller publikasjoner for galleblæreadenoskvamøst karsinom. Evidensnivået er derfor L5, og det foreligger kun en modellbasert hypotese.
 
 **For å gå videre kreves følgende:**
-- Sikkerhetsinformasjon (advarsler og kontraindikasjoner) fra godkjent pakningsvedlegg
-- Detaljerte data om virkningsmekanisme
-- Prekliniske eller kliniske data for adenoskvamøse karsinomer i gallveiene
-- Avklaring av markedsstatus i Norge, siden godkjenningen er kansellert
-- Vurdering av om andre prediksjoner (for eksempel basalcellekarsinom, rangering 4, evidensnivå L4) bør følges opp som forskningsspørsmål
+- Systematisk litteratursøk og søk i studieregistre etter cemiplimab ved adenoskvamøse karsinomer i galleblære og galleveier
+- Data om virkningsmekanisme (MOA) og vurdering av PD-L1-uttrykk og mutasjonsbyrde i denne svulsttypen
+- Gjennomgang av pakningsvedlegget for advarsler og kontraindikasjoner
+- Eventuelt innsamling av kasuistikker eller en liten eksplorativ studie før videre beslutning
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

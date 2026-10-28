@@ -4,7 +4,7 @@ title: Tecovirimat
 parent: Kun modellprediksjon (L5)
 nav_order: 402
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Tecovirimat: predikert ny indikasjon Hordeolum (evidensnivå L5). Opprinnelig indikasjon: Poxviridae-infeksjoner, kukopper, apekopper, vaccinia, kopper"
 monitor_inn: "TECOVIRIMAT"
@@ -14,7 +14,7 @@ predicted_indications: ["hordeolum", "vibrio infectious disease", "Klebsiella in
 # Tecovirimat
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Tecovirimat: Fra kopper og apekopper til vaccinia (nær på-label bruk)
+## Tecovirimat: Fra kopper og apekopper til hordeolum
 {: .text-alpha }
 
 ## Sammendrag i én setning
@@ -49,13 +49,12 @@ TxGNN-modellen rangerer **hordeolum (byller på øyelokket)** øverst, men dette
 |------|------|
 | Opprinnelig indikasjon | Poxviridae-infeksjoner, kukopper, apekopper, vaccinia, kopper |
 | Predikert ny indikasjon (rangert først) | Hordeolum |
-| TxGNN-prediksjonsscore | 99,66 % |
+| TxGNN-prediksjonsscore | 0,9966 |
 | Evidensnivå | L5 (kun modellprediksjon) |
-| Markedsstatus i Norge | Kun avregistrert/trukket tilbake |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
-**Merknad om øvrige prediksjoner:** Den eneste prediksjonen med meningsfull støtte er vaccinia (rang 5, evidensnivå L4, anbefaling: forskningsspørsmål). Den er imidlertid i hovedsak en på-label eller nær på-label bruk, ikke ekte repurposing.
 
 ---
 
@@ -65,7 +64,6 @@ Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de samlede dataene
 
 **Hordeolum (rang 1):** Hordeolum er vanligvis en lokal bakteriell infeksjon (oftest *Staphylococcus aureus*) i en kjertel i øyelokket. Tecovirimat har ingen kjent antibakteriell virkning, og den høye scoren er mest sannsynlig en artefakt fra grafprediksjonen. Det samme gjelder de andre toppredikerte bakterielle tilstandene (vibrio-infeksjon, Klebsiella-infeksjon, noma, *E. coli*-infeksjon), samt HTLV-1-assosiert infektiøs dermatitt, arterivirus- og arbovirusinfeksjoner. Alle disse mangler mekanistisk grunnlag, kliniske studier og relevant litteratur.
 
-**Vaccinia (rang 5):** Her er mekanismen sterk, siden vaccinia er et ortopoxvirus og tecovirimat blokkerer VP37-avhengig dannelse av omhyllede virioner. Dette overlapper med den opprinnelige indikasjonen. Litteraturen i datasettet gjelder hovedsakelig apekopper (mpox) og er dermed indirekte evidens for vaccinia.
 
 **Koinfeksjon (rang 6):** Begrepet er uspesifikt. Litteraturen omhandler mpox sammen med hiv, VZV, syfilis og andre infeksjoner, der tecovirimat kun virker på ortopoxvirus-komponenten.
 
@@ -79,7 +77,6 @@ Foreløpig ingen relaterte kliniske studier registrert for noen av de predikerte
 
 ## Litteraturevidens
 
-Tabellen viser de mest relevante publikasjonene for **vaccinia** (rang 5), prioritert etter studietype.
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
@@ -102,7 +99,7 @@ Tabellen viser de mest relevante publikasjonene for **vaccinia** (rang 5), prior
 |---------|------|------|-----------|
 | EMEA/H/C/005248 | Tecovirimat SIGA | Ikke oppgitt | Poxviridae-infeksjoner, kukopper, apekopper, vaccinia, kopper |
 
-Denne godkjenningen har status avregistrert/trukket tilbake. Det finnes ingen gyldige godkjenninger i Norge.
+Denne godkjenningen er gyldig. Det finnes 1 gyldig godkjenning av 1 i Norge.
 
 ---
 
@@ -117,7 +114,7 @@ Se preparatomtalen for sikkerhetsinformasjon. Data om advarsler og kontraindikas
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den toppredikerte indikasjonen (hordeolum) og de øvrige bakterielle og ikke-ortopoxvirale prediksjonene mangler både mekanistisk grunnlag og klinisk evidens, og er mest sannsynlig modellartefakter. Vaccinia er biologisk plausibelt, men ligger innenfor den opprinnelige indikasjonen og er derfor ikke reell repurposing. Dessuten har preparatet ingen gyldig markedsføringstillatelse i Norge.
+Den toppredikerte indikasjonen (hordeolum) og de øvrige bakterielle og ikke-ortopoxvirale prediksjonene mangler både mekanistisk grunnlag og klinisk evidens, og er mest sannsynlig modellartefakter. Preparatet er markedsført i Norge, med 1 gyldig markedsføringstillatelse av 1.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere sikkerhetsinformasjon (advarsler, kontraindikasjoner) fra preparatomtalen, som er en blokkerende datamangel

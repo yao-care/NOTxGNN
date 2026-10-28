@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Laronidase
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 233
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Laronidase: predikert ny indikasjon Lysosomal lagringssykdom med skjelettaffeksjon (evidensnivå L4). Opprinnelig indikasjon: Mukopolysakkaridose I"
@@ -14,7 +14,7 @@ predicted_indications: ["lysosomal storage disease with skeletal involvement", "
 # Laronidase
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **2** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **2** stk.
 
 ## Oppsummering i én setning
 
-Laronidase er en rekombinant alfa-L-iduronidase (enzymerstatningsterapi) som opprinnelig brukes til behandling av **mukopolysakkaridose I (MPS I)**. TxGNN-modellen predikerer at legemidlet kan være virksomt ved **lysosomal lagringssykdom med skjelettaffeksjon** (score 99,3 %). Det foreligger **ingen registrerte kliniske studier** og **4 publikasjoner** for denne indikasjonen, og indikasjonen overlapper i stor grad med den allerede godkjente. En andre prediksjon, **Sanfilippo syndrom**, er omtalt til slutt og har svakt mekanistisk grunnlag.
+Laronidase er en rekombinant alfa-L-iduronidase (enzymerstatningsterapi) som opprinnelig brukes til behandling av **mukopolysakkaridose I (MPS I)**. TxGNN-modellen predikerer at legemidlet kan være virksomt ved **lysosomal lagringssykdom med skjelettaffeksjon** (score 0,9931). Det foreligger **ingen registrerte kliniske studier** og **4 publikasjoner** for denne indikasjonen, og indikasjonen overlapper i stor grad med den allerede godkjente. En andre prediksjon, **Sanfilippo syndrom**, er omtalt til slutt og har svakt mekanistisk grunnlag.
 
 ---
 
@@ -48,10 +48,10 @@ Laronidase er en rekombinant alfa-L-iduronidase (enzymerstatningsterapi) som opp
 |------|------|
 | Opprinnelig indikasjon | Mukopolysakkaridose I |
 | Predikert ny indikasjon | Lysosomal lagringssykdom med skjelettaffeksjon |
-| TxGNN-prediksjonsscore | 99,31 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
-| Antall godkjenninger | 1 (0 gyldige, 1 kansellert) |
+| TxGNN-prediksjonsscore | 0,9931 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -116,7 +116,7 @@ Den predikerte indikasjonen overlapper i stor grad med den allerede godkjente MP
 
 ## Tilleggsvurdering: Sanfilippo syndrom (rang 2)
 
-TxGNN-score 99,22 %, evidensnivå L4, anbefaling **Hold**. Ingen kliniske studier er registrert.
+TxGNN-score 0,9922, evidensnivå L4, anbefaling **Hold**. Ingen kliniske studier er registrert.
 
 Sanfilippo syndrom (MPS III) skyldes mangel på andre enzymer i nedbrytningen av heparansulfat (SGSH, NAGLU, HGSNAT, GNS), ikke alfa-L-iduronidase. Laronidase kan derfor ikke erstatte det manglende enzymet. Kjernepatologien er nevrologisk, og intravenøs laronidase passerer ikke blod-hjerne-barrieren i meningsfull grad. Den høye scoren gjenspeiler trolig nærhet i nettverket innen MPS-familien snarere enn en reell terapeutisk sammenheng.
 

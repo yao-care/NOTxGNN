@@ -5,10 +5,10 @@ parent: Kun modellprediksjon (L5)
 nav_order: 89
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Ceftolozane: predikert ny indikasjon Gonokokk-uretritt (evidensnivå L5). Opprinnelig indikasjon: Bakterielle infeksjoner"
 monitor_inn: "Ceftolozane"
 predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "urogenital tuberculosis", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease"]
+last_modified_at: 2026-10-27
+description: "Ceftolozane: predikert ny indikasjon Gonokokk-uretritt (gonococcal urethritis) (evidensnivå L5). Opprinnelig indikasjon: Bacterial Infections"
 ---
 
 # Ceftolozane
@@ -33,92 +33,68 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Ceftolozan: Fra bakterielle infeksjoner til gonokokk-uretritt
+## Ceftolozane: cefalosporin mot gramnegative bakterier → Gonokokk-uretritt (gonococcal urethritis)
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
-Ceftolozan er et cefalosporin-antibiotikum som opprinnelig er brukt mot bakterielle infeksjoner (i Europa markedsført som Zerbaxa).
-TxGNN-modellen forutsier at det kan ha effekt mot **gonokokk-uretritt**, med en prediksjonsscore på **99,89 %**.
-Det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** som direkte støtter denne retningen, så prediksjonen er kun modellbasert.
-
----
+Ceftolozane er et cefalosporin-antibiotikum med virkning mot gramnegative bakterier, inkludert *Pseudomonas*.
+TxGNN-modellen forutsier at det kan ha effekt mot **gonokokk-uretritt (gonococcal urethritis)**,
+men det finnes **ingen kliniske studier** og **ingen publikasjoner** som direkte støtter denne retningen.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Bakterielle infeksjoner |
-| Predikert ny indikasjon | Gonokokk-uretritt |
-| TxGNN-prediksjonsscore | 99,89 % |
+| Opprinnelig indikasjon | Bacterial Infections |
+| Predikert ny indikasjon | Gonokokk-uretritt (gonococcal urethritis) |
+| TxGNN-prediksjonsscore | 0,9989 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 1 (kansellert) |
-| Anbefalt beslutning | Hold (avvent) |
-
----
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
+| Anbefalt beslutning | Hold |
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Ut fra kjent informasjon er ceftolozan et cefalosporin med aktivitet mot Pseudomonas og andre gramnegative bakterier. Som andre betalaktamer hemmer det sannsynligvis bakteriens celleveggsyntese via penicillinbindende proteiner. Effekten ved bakterielle infeksjoner er dokumentert, og på klassenivå finnes det derfor en antibakteriell begrunnelse for bruk ved gonokokk-uretritt, som også er en bakteriell infeksjon.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Ceftolozane er et cefalosporin, og slike legemidler hemmer vanligvis oppbyggingen av bakteriens cellevegg. Ceftolozane har særlig aktivitet mot gramnegative bakterier, og gonokokk-uretritt er en bakteriell infeksjon. Dermed finnes en generell antibakteriell begrunnelse på klassenivå.
 
-Begrunnelsen er imidlertid svak. Ceftolozan er ikke et etablert middel mot *Neisseria gonorrhoeae*, der andre cefalosporiner (for eksempel ceftriaxon) er standardbehandling. Den høye scoren (0,999) er en ren modellprediksjon. Samme score er gitt til flere andre diagnoser, blant annet ureaplasma-uretritt, der betalaktamer er mekanistisk lite sannsynlige fordi *Ureaplasma* mangler cellevegg. Det tyder på at prediksjonene i stor grad gjenspeiler en generell assosiasjon til «bakteriell infeksjon».
+Begrunnelsen er likevel svak. Ceftolozane er ikke et etablert middel mot *Neisseria gonorrhoeae*, og andre cefalosporiner, for eksempel ceftriaxon, er standardvalget. Den svært høye scoren (0,9989) er en ren modellprediksjon og er ikke bekreftet av noen studier.
 
-Blant de ti øverste prediksjonene er den mest troverdige koblingen faktisk **xantogranulomatøs pyelonefritt**, siden ceftolozan/tazobaktam er godkjent mot kompliserte urinveisinfeksjoner, inkludert pyelonefritt. Tilstanden behandles som regel kirurgisk (nefrektomi), så antibiotika er bare et supplement. Flere av de øvrige prediksjonene (for eksempel polyklonalt hyperviskositetssyndrom, hyperamylasemi, medfødt analbuminemi og blodgruppeinkompatibilitet) er ikke infeksjonssykdommer og mangler troverdig mekanistisk sammenheng.
+## Kliniske studier
 
----
+Foreløpig er ingen relaterte kliniske studier registrert.
 
-## Evidens fra kliniske studier
+## Litteraturevidens
 
-Foreløpig er det ingen relaterte kliniske studier registrert for gonokokk-uretritt.
+Foreløpig finnes ingen relatert litteratur.
 
----
-
-## Evidens fra litteratur
-
-Foreløpig er det ingen relatert litteratur for gonokokk-uretritt.
-
-For den nest mest relevante prediksjonen, xantogranulomatøs pyelonefritt, ble én artikkel funnet:
-
-| PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|------|---------|
-| [26658652](https://pubmed.ncbi.nlm.nih.gov/26658652/) | 2016 | Oversiktsartikkel | Current Opinion in Infectious Diseases | Generell oversikt over febrile urinveisinfeksjoner, pyelonefritt og urosepsis. Omtaler verken ceftolozan eller xantogranulomatøs pyelonefritt spesifikt. |
-
----
-
-## Markedsinformasjon for Norge
+## Informasjon om det norske markedet
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/003772 | Zerbaxa (Merck Sharp & Dohme B.V.) | Ikke oppgitt | Bakterielle infeksjoner (status: kansellert) |
-
----
+| EMEA/H/C/003772 | Zerbaxa | Ikke oppgitt | Ikke registrert i lokale data |
 
 ## Sikkerhetsvurderinger
 
-**Legemiddelinteraksjoner:** Det er funnet 11 interaksjoner av moderat alvorlighetsgrad:
+**Legemiddelinteraksjoner** (11 registrerte interaksjoner, alle med moderat alvorlighetsgrad):
+- Aminoglykosider: kanamycin, neomycin, streptomycin, amikacin (inkludert liposomal form) og gentamicin
+- Blodfortynnende midler: dikumarol og warfarin
+- Andre: kloramfenikol, etinyløstradiol og mykofenolsyre
 
-- **Aminoglykosider:** kanamycin, neomycin, streptomycin, amikacin (inkludert liposomal formulering) og gentamicin
-- **Antikoagulantia:** warfarin og dikumarol
-- **Andre:** kloramfenikol, etinylestradiol og mykofenolsyre
-
-Informasjon om advarsler og kontraindikasjoner foreligger ikke i de innsamlede dataene. Se preparatomtalen (SPC) for fullstendig sikkerhetsinformasjon.
-
----
+For øvrig sikkerhetsinformasjon, se preparatomtalen (pakningsvedlegget).
 
 ## Konklusjon og neste steg
 
-**Beslutning: Hold (avvent)**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for gonokokk-uretritt bygger kun på en modellscore uten kliniske studier eller litteratur. Ceftolozan er ikke et etablert middel mot *N. gonorrhoeae*, der effektive standardbehandlinger allerede finnes. Den eneste norske/europeiske godkjenningen er kansellert, og sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen bygger kun på modellscore uten kliniske studier eller litteratur som direkte undersøker gonokokk-uretritt, og evidensnivået er derfor L5. Ceftolozane er heller ikke et etablert middel mot *N. gonorrhoeae*, der andre cefalosporiner er standard.
 
-**For å gå videre kreves følgende:**
-- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datagap)
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- In vitro-data på følsomhet hos *N. gonorrhoeae* (MIC-verdier) og sammenligning med ceftriaxon
-- Dersom en alternativ indikasjon skal vurderes, bør xantogranulomatøs pyelonefritt prioriteres som forskningsspørsmål (evidensnivå L4), basert på den godkjente indikasjonen for kompliserte urinveisinfeksjoner
-- Avklaring av administrasjonsvei og tilgjengelige formuleringer, siden markedsstatus i Norge er kansellert
+**For å gå videre kreves:**
+- Data om virkningsmekanisme (MOA)
+- *In vitro*-følsomhetsdata for ceftolozane mot *N. gonorrhoeae*
+- Preparatomtale med advarsler og kontraindikasjoner
+- Prekliniske eller kliniske studier som direkte undersøker gonokokk-uretritt
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

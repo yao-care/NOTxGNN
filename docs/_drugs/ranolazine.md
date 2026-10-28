@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at det kan være effektivt mot **nefrogent syndrom med 
 |------|------|
 | Opprinnelig indikasjon | Angina pectoris |
 | Foreslått ny indikasjon | Nefrogent syndrom med uhensiktsmessig antidiurese (NSIAD) |
-| TxGNN-prediksjonsscore | 99,65 % |
+| TxGNN-prediksjonsscore | 0,9965 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellert |
-| Antall godkjenninger | 1 (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -63,7 +63,7 @@ Data om virkningsmekanismen er ikke tilgjengelige i dataene som er samlet inn fo
 
 NSIAD er en ultrasjelden sykdom forårsaket av aktiverende mutasjoner i vasopressin V2-reseptoren (AVPR2), eller i noen tilfeller GNAS-relatert signalering. Dette gir konstant antidiurese uavhengig av vasopressin, med hyponatremi som hovedutfordring.
 
-Det er ikke åpenbart noen sammenheng mellom hemming av sen natriumstrøm og V2-reseptorsignalering. Den høye scoren (0,996) må derfor ses på som en ren beregningsmessig prediksjon, som like gjerne kan skyldes artefakter i kunnskapsgrafen som biologisk sannsynlighet. Det kreves sterk mekanistisk begrunnelse før en slik kandidat kan vurderes videre.
+Det er ikke åpenbart noen sammenheng mellom hemming av sen natriumstrøm og V2-reseptorsignalering. Den høye scoren (0,9965) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Det kreves sterk mekanistisk begrunnelse før en slik kandidat kan vurderes videre.
 
 ---
 
@@ -85,7 +85,7 @@ Det er for tiden ingen relevant litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/000805 | Ranexa (tidligere Latixa) | Ikke oppgitt | Angina pectoris |
 
-Godkjenningen er kansellert, og det finnes ingen gyldige markedsføringstillatelser i dataene.
+Legemidlet er markedsført i Norge, med 1 gyldig markedsføringstillatelse av 1.
 
 ---
 

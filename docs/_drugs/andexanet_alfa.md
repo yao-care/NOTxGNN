@@ -40,7 +40,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 Andexanet alfa er et motgift-legemiddel som brukes til å reversere effekten av faktor Xa-hemmere (blodfortynnende midler) ved legemiddelrelaterte bivirkninger og blødninger.
 TxGNN-modellen forutsier at det kan ha effekt ved **Glanzmanns trombasteni**, men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne spesifikke indikasjonen.
-Prediksjonen vurderes som en sannsynlig artefakt i kunnskapsgrafen, ikke et biologisk begrunnet signal.
+Prediksjonen kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 ---
 
@@ -50,10 +50,10 @@ Prediksjonen vurderes som en sannsynlig artefakt i kunnskapsgrafen, ikke et biol
 |------|------|
 | Opprinnelig indikasjon | Legemiddelrelaterte bivirkninger og uønskede reaksjoner (reversering av faktor Xa-hemmere) |
 | Predikert ny indikasjon | Glanzmanns trombasteni |
-| TxGNN-prediksjonsscore | 99,77 % |
+| TxGNN-prediksjonsscore | 0,9977 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ikke markedsført) |
-| Antall godkjenninger | 1 (avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -64,15 +64,15 @@ Andexanet alfa er et rekombinant, katalytisk inaktivt faktor Xa-lokkemiddel («d
 
 Glanzmanns trombasteni er en arvelig defekt i plateleintegrinet αIIbβ3 (GPIIb/IIIa), som hindrer blodplateaggregasjon. Andexanet alfa virker kun på koagulasjonskaskaden og påvirker ikke blodplateaggregasjon eller fibrinogenbinding. Det finnes dermed ingen plausibel mekanistisk sammenheng mellom den opprinnelige og den nye indikasjonen.
 
-Den svært høye scoren (0,998) skyldes trolig nærhet i nettverket av blødnings- og hemostaserelaterte noder i kunnskapsgrafen, ikke biologisk rasjonale. I tillegg har legemidlet en risiko for tromboemboliske hendelser (varsel i boks), noe som er bekymringsfullt ved en blødningslidelse som behandles med prohemostatiske midler.
+Den svært høye scoren (0,9977) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede blødnings- og hemostaserelaterte sykdommer, ikke biologisk rasjonale. I tillegg har legemidlet en risiko for tromboemboliske hendelser (varsel i boks), noe som er bekymringsfullt ved en blødningslidelse som behandles med prohemostatiske midler.
 
 Andre predikerte indikasjoner følger samme mønster:
 
 | Predikert indikasjon | TxGNN-score | Evidensnivå | Vurdering |
 |------|------|------|------|
-| Primær frigjøringsforstyrrelse i blodplater | 99,76 % | L5 | Ingen mekanistisk støtte, ingen studier |
-| Pseudo-von Willebrands sykdom | 99,65 % | L5 | Ingen påvirkning av GPIb–VWF-interaksjon, ingen studier |
-| Hemofili | 99,10 % | L4 | Kun indirekte litteratur, ingen studier på effekt |
+| Primær frigjøringsforstyrrelse i blodplater | 0,9976 | L5 | Ingen mekanistisk støtte, ingen studier |
+| Pseudo-von Willebrands sykdom | 0,9965 | L5 | Ingen påvirkning av GPIb–VWF-interaksjon, ingen studier |
+| Hemofili | 0,9910 | L5 | Kun indirekte litteratur, ingen studier på effekt |
 
 ---
 
@@ -106,7 +106,7 @@ For den fjerde predikerte indikasjonen, hemofili, ble 9 publikasjoner funnet. De
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004108 | Ondexxya | Ikke oppgitt | Legemiddelrelaterte bivirkninger og uønskede reaksjoner (status: avregistrert) |
+| EMEA/H/C/004108 | Ondexxya | Ikke oppgitt | Legemiddelrelaterte bivirkninger og uønskede reaksjoner (status: godkjent) |
 
 ---
 
@@ -123,7 +123,7 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen (pakningsvedlegget). Ingen 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen mangler mekanistisk støtte, kliniske studier og direkte litteratur. Den høye TxGNN-scoren ser ut til å skyldes nærhet i kunnskapsgrafen, ikke biologisk rasjonale. Legemidlet er dessuten avregistrert i Norge og har tromboembolisk risiko.
+Prediksjonen mangler mekanistisk støtte, kliniske studier og direkte litteratur. Den høye TxGNN-scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk rasjonale. Legemidlet er dessuten markedsført i Norge (1 gyldig markedsføringstillatelse av 1) og har tromboembolisk risiko.
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (kritisk datamangel)

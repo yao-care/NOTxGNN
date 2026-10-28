@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Esomeprazole
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 163
-evidence_level: L4
-indication_count: 3
-last_modified_at: 2026-10-15
-description: "Esomeprazole: predikert ny indikasjon Duodenogastrisk refluks (evidensnivå L4). Opprinnelig indikasjon: Gastroøsofageal refluks"
+evidence_level: L5
+indication_count: 1
 monitor_inn: "ESOMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
+last_modified_at: 2026-10-27
+description: "Esomeprazole: predikert ny indikasjon Duodenalobstruksjon (duodenal obstruction) (evidensnivå L5). Opprinnelig indikasjon: Gastroesophageal Reflux"
 ---
 
 # Esomeprazole
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,71 +33,67 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-## Esomeprazol: Fra gastroøsofageal refluks til duodenogastrisk refluks
+## Esomeprazol: protonpumpehemmer → Duodenalobstruksjon (duodenal obstruction)
 {: .text-alpha }
 
-## Oppsummering
+## Oppsummering i én setning
 
-Esomeprazol er en protonpumpehemmer (S-isomeren av omeprazol) som opprinnelig brukes mot gastroøsofageal refluks.
-TxGNN-modellen forutsier at legemidlet kan ha effekt mot **duodenogastrisk refluks** (galle- og tarminnhold som renner tilbake til magesekken).
-Det finnes **ingen kliniske studier** og bare **1 oversiktsartikkel** som indirekte støtter denne retningen, så evidensen er svak.
+Esomeprazol er en protonpumpehemmer som reduserer syreproduksjonen i magesekken. TxGNN-modellen forutsier at legemidlet kan ha effekt ved **duodenalobstruksjon (duodenal obstruction)**. Det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen, så prediksjonen bygger kun på modellberegning.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Gastroøsofageal refluks |
-| Foreslått ny indikasjon | Duodenogastrisk refluks |
-| TxGNN-prediksjonsscore | 99,53 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun kansellerte tillatelser (ingen gyldig tillatelse) |
-| Antall tillatelser | 1 (kansellert) |
+| Opprinnelig indikasjon | Gastroesophageal Reflux |
+| Predikert ny indikasjon | Duodenalobstruksjon (duodenal obstruction) |
+| TxGNN-prediksjonsscore | 0,9945 |
+| Evidensnivå | L5 |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Esomeprazol hemmer H+/K+-ATPase (protonpumpen) i magesekkens parietalceller og dermed syresekresjonen. Detaljerte data om virkningsmekanisme finnes ikke i det innsamlede datagrunnlaget. Beskrivelsen her bygger derfor på kjent klassekunnskap om protonpumpehemmere.
+Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene for denne rapporten. Esomeprazol tilhører klassen protonpumpehemmere, som hemmer syreutskillelsen i magesekkens parietalceller.
 
-Duodenogastrisk refluks skyldes at tolvfingertarminnhold strømmer tilbake til magesekken. Årsaken er vanligvis svekket motilitet eller dysfunksjon i pylorus. Syrehemming kan lindre slimhinneskade og symptomer, men behandler ikke selve årsaken. Koblingen er plausibel, men indirekte.
-
-Den høye TxGNN-scoren gjenspeiler trolig nærhet i nettverket til syrerelaterte øvre gastrointestinale sykdommer, ikke sykdomsspesifikk evidens. Prediksjonen bør derfor tolkes med forsiktighet.
+Duodenalobstruksjon er en mekanisk eller strukturell tilstand (for eksempel atresi, stenose, ytre kompresjon eller svulst). Syrehemming kan i beste fall være støttebehandling mot sekundær slimhinneskade, og det finnes ingen klar mekanistisk begrunnelse for at legemidlet virker på selve obstruksjonen. Den høye scoren (0,9945) er en ren beregningsmessig prediksjon og er ikke underbygget av klinisk evidens. Likheten med den opprinnelige bruken er ikke vurdert.
 
 ## Klinisk studieevidens
 
-Foreløpig ingen relaterte kliniske studier registrert.
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|------|---------|
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Oversiktsartikkel | Eur J Clin Pharmacol | Protonpumpehemmere er førstevalg ved magesår, H. pylori-infeksjon, refluksykdom, NSAID-induserte skader og Zollinger-Ellison. Artikkelen omtaler ikke duodenogastrisk refluks spesifikt. |
+Foreløpig finnes ingen relatert litteratur.
 
-## Markedsinformasjon for Norge
+## Informasjon om det norske markedet
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/002618 (kansellert) | Nexium Control | Ikke oppgitt | Gastroøsofageal refluks |
+| EMEA/H/C/002618 | Nexium Control | Ikke oppgitt | Gastroesophageal Reflux |
 
 ## Sikkerhetsvurderinger
 
-- **Kontraindikasjoner fra kunnskapsgrafen** (PrimeKG, ikke preparatomtale): leversvikt, osteoporose, postmenopausal osteoporose, beinbrudd og kronisk atrofisk gastritt.
-- **Legemiddelinteraksjoner:** 100 interaksjoner er registrert. Blant dem er **alvorlige (Major)**: akalabrutinib og atazanavir. Eksempler på **moderate**: hydroklortiazid, amfotericin B, amikacin, amfetamin, fenofibrat, apalutamid, armodafinil, atorvastatin, bendamustin, bosutinib og bumetanid. Eksempler på **milde**: acetylsalisylsyre, aksitinib, bortezomib, brivaracetam og cyanokobalamin.
-- **Langtidsbruk:** Langvarig bruk av protonpumpehemmere er forbundet med risiko som hypomagnesemi, beinbrudd, B12-mangel og *C. difficile*-infeksjon.
+**Legemiddelinteraksjoner** (100 interaksjoner funnet; et utvalg vises):
+
+- **Alvorlige (Major):** akalabrutinib, atazanavir
+- **Moderate:** blant annet hydroklortiazid, amfotericin B, amikacin, amfetamin, fenofibrat, apalutamid, armodafinil, atorvastatin, bendamustin, bosutinib, bumetanid
+- **Milde (Minor):** blant annet acetylsalisylsyre, aksitinib, bortezomib, brivaracetam, cyanokobalamin
+
+For øvrig sikkerhetsinformasjon, se pakningsvedlegget.
 
 ## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den foreslåtte indikasjonen støttes bare av en modellprediksjon og en generell oversiktsartikkel, uten kliniske studier. Mekanismen er indirekte, siden syrehemming ikke adresserer årsaken til duodenogastrisk refluks. I tillegg har legemidlet ingen gyldig tillatelse i Norge, og interaksjonsbyrden er høy.
+Prediksjonen mangler både kliniske studier og publikasjoner, og det finnes ingen plausibel mekanistisk forbindelse mellom syrehemming og en mekanisk obstruksjon i tolvfingertarmen. Evidensnivået er L5.
 
-**For å gå videre kreves:**
-- Kontrollerte kliniske studier eller observasjonsstudier spesifikt for duodenogastrisk refluks
-- Innhenting og gjennomgang av preparatomtalens advarsler og kontraindikasjoner
-- Detaljerte data om virkningsmekanisme
-- Avklaring av produkttilgjengelighet og merking i Norge
-
-**Merknad:** Datagrunnlaget inneholder også en annen prediksjon, **duodenalsår**, med klart sterkere evidens. Den har over 30 kliniske studier, blant dem flere fullførte fase 3-studier, og 20 publikasjoner, inkludert randomiserte studier. Evidensnivået er L1 og anbefalingen «Proceed with Guardrails». Denne bruken ligger imidlertid nær eksisterende syrerelaterte indikasjoner og er neppe reell ompostering. Den bør vurderes separat.
+**For å gå videre kreves følgende:**
+- Gjennomgang av kliniske data eller litteratur som direkte undersøker esomeprazol ved duodenalobstruksjon
+- Data om virkningsmekanisme (MOA)
+- Advarsler og kontraindikasjoner fra godkjent preparatomtale
+- Vurdering av administrasjonsvei og aktuell pasientgruppe
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -50,10 +50,10 @@ Den høye prediksjonsscoren er mest sannsynlig en grafbasert artefakt og ikke et
 |------|------|
 | Opprinnelig indikasjon | Polycytemia vera |
 | Predikert ny indikasjon | Laubry-Pezzi syndrom |
-| TxGNN-prediksjonsscore | 99,93 % |
+| TxGNN-prediksjonsscore | 0,9993 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
-| Antall godkjenninger | 1 (avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige i de innsamlede
 
 Laubry-Pezzi syndrom (ventrikkelseptumdefekt med aortainsuffisiens) er en strukturell medfødt hjertemisdannelse. Det er ingen plausibel mekanisme der et interferon rettet mot myeloproliferasjon kan korrigere en slik strukturell defekt. Det finnes ingen identifisert sammenheng mellom den opprinnelige og den nye indikasjonen.
 
-Den høye scoren skyldes trolig delte naboer i kunnskapsgrafen blant beslektede medfødte lidelser, ikke biologi. De ni øvrige topprangerte prediksjonene (blant annet septumaneurisme, Pierre Robin-syndrom, kromosomdelesjoner, leppe-/ganespalte og pulmonalklaffsykdom) har samme mønster: utviklingsmessige eller genetiske tilstander uten mekanistisk kobling og uten støttende evidens.
+Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede medfødte lidelser, ikke biologisk evidens. De ni øvrige topprangerte prediksjonene (blant annet septumaneurisme, Pierre Robin-syndrom, kromosomdelesjoner, leppe-/ganespalte og pulmonalklaffsykdom) har samme mønster: utviklingsmessige eller genetiske tilstander uten mekanistisk kobling og uten støttende evidens.
 
 ---
 
@@ -92,7 +92,7 @@ Det finnes ingen litteratur som direkte omhandler Laubry-Pezzi syndrom. Under en
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004128 | Besremi | Ikke oppgitt | Polycytemia vera (status: avregistrert) |
+| EMEA/H/C/004128 | Besremi | Ikke oppgitt | Polycytemia vera (status: godkjent) |
 
 ---
 

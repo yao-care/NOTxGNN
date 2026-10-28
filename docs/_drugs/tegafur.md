@@ -50,10 +50,10 @@ og denne retningen støttes foreløpig av **16 kliniske studier** og **20 publik
 |------|------|
 | Opprinnelig indikasjon | Magekreft (Stomach Neoplasms) |
 | Predikert ny indikasjon | Kolonneoplasme (colonic neoplasm) |
-| TxGNN-prediksjonsscore | 99,90 % |
+| TxGNN-prediksjonsscore | 0,9990 |
 | Evidensnivå | L1 |
-| Markedsstatus i Norge | Kun trukket tilbake (avregistrert) |
-| Antall godkjenninger | 1 (0 gyldige, 1 trukket tilbake) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Proceed with Guardrails (Fortsett med forbehold) |
 
 ---
@@ -112,7 +112,7 @@ Merk: PMID 33950962 er klassifisert som RCT i de samlede dataene, men beskrives 
 |---------|------|------|-----------|
 | EMEA/H/C/001242 | Teysuno | Ikke oppgitt | Magekreft (Stomach Neoplasms) |
 
-Denne godkjenningen har status «trukket tilbake», og det finnes for øyeblikket ingen gyldige godkjenninger i Norge.
+Denne godkjenningen er gyldig, og legemidlet er markedsført i Norge (1 av 1 godkjenninger er gyldig).
 
 ---
 

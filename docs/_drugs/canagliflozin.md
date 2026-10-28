@@ -8,6 +8,7 @@ nav_order: 79
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Canagliflozin
@@ -49,7 +50,8 @@ Canagliflozin (DrugBank DB08907) er et legemiddel som evalueres for ombrukspoten
 | Forutsagt ny indikasjon | Ingen TxGNN-prediksjonsresultater tilgjengelige |
 | TxGNN-prediksjonspoeng | — |
 | Bevisnivå | L5 (modellprediksjon ikke ennå tilgjengelig) |
-| Status i norsk marked | Ikke markedsført |
+| Status i norsk marked | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Antall autoriseringer | 0 |
 | Anbefalt beslutning | **Behold** |
 

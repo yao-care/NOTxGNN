@@ -48,10 +48,10 @@ Kolsyre (cholic acid) er en gallesyre som brukes til å behandle sjeldne forstyr
 |------|------|
 | Opprinnelig indikasjon | Fordøyelsessykdommer; medfødte metabolske sykdommer (gallesyresyntesedefekter) |
 | Predikert ny indikasjon | HIV-infeksjon (HIV infectious disease) |
-| TxGNN-prediksjonsscore | 99,79 % |
+| TxGNN-prediksjonsscore | 0,9979 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun avregistrert/trukket tilbake |
-| Antall godkjenninger | 1 (ingen gyldige) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold (avvente) |
 
 ---
@@ -91,7 +91,7 @@ Foreløpig er det ikke registrert noen relaterte kliniske studier.
 
 | Godkjenningsnummer | Produktnavn | Doseform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/001250 | Orphacol (Theravia) | Ikke oppgitt | Fordøyelsessykdommer; medfødte metabolske sykdommer (status: avregistrert) |
+| EMEA/H/C/001250 | Orphacol (Theravia) | Ikke oppgitt | Fordøyelsessykdommer; medfødte metabolske sykdommer (status: godkjent) |
 
 ---
 

@@ -4,17 +4,17 @@ title: Telmisartan
 parent: Kun modellprediksjon (L5)
 nav_order: 404
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Telmisartan: predikert ny indikasjon Prinzmetal angina (evidensnivå L5). Opprinnelig indikasjon: Hypertensjon"
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
+description: "Telmisartan: predikert ny indikasjon Prinzmetal angina (evidensnivå L5). Opprinnelig indikasjon: Hypertension"
 ---
 
 # Telmisartan
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Telmisartan: Fra hypertensjon til Prinzmetal angina
+## Telmisartan: Prinzmetal angina
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
-Telmisartan er en angiotensin II-reseptorblokker (ARB) som opprinnelig brukes til behandling av hypertensjon (høyt blodtrykk). TxGNN-modellen forutsier at legemidlet kan være effektivt mot **Prinzmetal angina** (score 99,98 %), men for denne indikasjonen finnes **ingen kliniske studier og ingen publikasjoner** i de samlede dataene. Evidensen er derfor kun modellbasert.
+Telmisartan er en angiotensin II-reseptorblokker (ARB) som opprinnelig brukes til behandling av hypertensjon (høyt blodtrykk). TxGNN-modellen forutsier at legemidlet kan være effektivt mot **Prinzmetal angina** (score 0,9998), men for denne indikasjonen finnes **ingen kliniske studier og ingen publikasjoner** i de samlede dataene. Evidensen er derfor kun modellbasert.
 
 Blant de øvrige prediksjonene har **cerebral arterieokklusjon** (3 kliniske studier, 15 publikasjoner, hovedsakelig prekliniske) og **intracerebral blødning** (3 kliniske studier, 12 publikasjoner, inkludert fase 3-studien TRIDENT) klart mest støtte. Disse er omtalt under som supplement.
 
@@ -48,12 +48,12 @@ Blant de øvrige prediksjonene har **cerebral arterieokklusjon** (3 kliniske stu
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Hypertensjon |
+| Opprinnelig indikasjon | Hypertension; Essential Hypertension |
 | Predikert ny indikasjon | Prinzmetal angina |
-| TxGNN-prediksjonsscore | 99,98 % |
+| TxGNN-prediksjonsscore | 0.9998 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
-| Antall godkjenninger | 12 (alle opphevet; 0 gyldige) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 12 av 12) |
+| Antall godkjenninger | 12 (gyldige: 12) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -116,7 +116,7 @@ Utvalg for de to best dokumenterte alternative indikasjonene:
 
 ## Markedsinformasjon for Norge
 
-Alle 12 godkjenninger er opphevet. Ingen er gyldige i dag. Nummerne under er europeiske (EMEA) godkjenningsnumre.
+Alle 12 godkjenninger er opphevet. Nummerne under er europeiske (EMEA) godkjenningsnumre.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -145,7 +145,7 @@ Se pakningsvedlegget for fullstendig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-For Prinzmetal angina finnes kun en modellprediksjon (L5) uten kliniske studier eller litteratur. I tillegg er det ingen gyldige godkjenninger i Norge, og sikkerhetsdata fra preparatomtale mangler.
+For Prinzmetal angina finnes kun en modellprediksjon (L5) uten kliniske studier eller litteratur. Legemidlet er markedsført i Norge med 12 gyldige godkjenninger av 12, men sikkerhetsdata fra preparatomtale mangler.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere pakningsvedlegg for advarsler og kontraindikasjoner (blokkerende datamangel)

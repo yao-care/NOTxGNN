@@ -4,7 +4,7 @@ title: Fluticasone Furoate
 parent: Kun modellprediksjon (L5)
 nav_order: 178
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-15
 description: "Fluticasone Furoate: predikert ny indikasjon Atopisk eksem (evidensnivå L5). Opprinnelig indikasjon: Sesongbetinget og helårs allergisk rhinitt"
 monitor_inn: "FLUTICASONE FUROATE"
@@ -14,7 +14,7 @@ predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacryl
 # Fluticasone Furoate
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 ## Oppsummering
 
 Flutikasonfuroat er et inhalert og intranasalt glukokortikoid, opprinnelig brukt mot sesongbetinget og helårs allergisk rhinitt, kronisk obstruktiv lungesykdom (KOLS) og astma.
-TxGNN-modellen forutsier at det kan ha effekt ved **atopisk eksem** (score 99,98 %), men det finnes **ingen registrerte kliniske studier** og **ingen litteratur med direkte effektdata** som støtter denne retningen.
+TxGNN-modellen forutsier at det kan ha effekt ved **atopisk eksem** (score 0,9998), men det finnes **ingen registrerte kliniske studier** og **ingen litteratur med direkte effektdata** som støtter denne retningen.
 
 ---
 
@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at det kan ha effekt ved **atopisk eksem** (score 99,98
 |------|------|
 | Opprinnelig indikasjon | Sesongbetinget og helårs allergisk rhinitt (første godkjente indikasjon i dataene); også KOLS og astma |
 | Predikert ny indikasjon | Atopisk eksem |
-| TxGNN-prediksjonsscore | 99,98 % |
+| TxGNN-prediksjonsscore | 0,9998 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 5 (alle kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 5 av 5) |
+| Antall godkjenninger | 5 (gyldige: 5) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -119,12 +119,11 @@ Litteraturen peker også på risiko for binyrebarksuppresjon (HPA-aksen) ved kor
 
 | Predikert indikasjon | TxGNN-score | Evidensnivå | Vurdering |
 |------|------|------|------|
-| Bronkitt | 99,89 % | L4 | Forskningsspørsmål. Litteraturen gjelder KOLS, astma og kronisk hoste (inkl. RCT [21977941](https://pubmed.ncbi.nlm.nih.gov/21977941/) og [38729884](https://pubmed.ncbi.nlm.nih.gov/38729884/)), altså allerede godkjente eller nærliggende indikasjoner; indirekte evidens |
-| 2-hydroksyetylmetakrylat-sensibilisering | 99,87 % | L5 | Hold; kun modellprediksjon |
-| Kontaktdermatitt | 99,46 % | L5 | Hold; standardbehandling med kortikosteroider er plausibel, men ingen data for flutikasonfuroat |
-| Astmarelaterte trekk (genetisk mottakelighet) | 99,37 % | L5 | Hold; fenotype, ikke en behandlingsbar indikasjon, og reflekterer i hovedsak eksisterende astmaindikasjon |
-| Yrkesbetinget dermatitt | 99,33 % | L5 | Hold; kun modellprediksjon |
-| Fototoksisk dermatitt | 99,12 % | L5 | Hold; kun modellprediksjon |
+| Bronkitt | 0,9989 | L5 | Forskningsspørsmål. Litteraturen gjelder KOLS, astma og kronisk hoste (inkl. RCT [21977941](https://pubmed.ncbi.nlm.nih.gov/21977941/) og [38729884](https://pubmed.ncbi.nlm.nih.gov/38729884/)), altså allerede godkjente eller nærliggende indikasjoner; indirekte evidens |
+| 2-hydroksyetylmetakrylat-sensibilisering | 0,9987 | L5 | Hold; kun modellprediksjon |
+| Kontaktdermatitt | 0,9946 | L5 | Hold; standardbehandling med kortikosteroider er plausibel, men ingen data for flutikasonfuroat |
+| Yrkesbetinget dermatitt | 0,9933 | L5 | Hold; kun modellprediksjon |
+| Fototoksisk dermatitt | 0,9912 | L5 | Hold; kun modellprediksjon |
 
 ---
 

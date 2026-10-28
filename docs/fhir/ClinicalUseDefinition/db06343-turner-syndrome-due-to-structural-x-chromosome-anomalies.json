@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db06343-turner-syndrome-due-to-structural-x-chromosome-anomalies",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db06343"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "Turner syndrome due to structural X chromosome anomalies"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9937
+    }
+  ]
+}

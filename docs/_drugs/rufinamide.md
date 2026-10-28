@@ -4,17 +4,17 @@ title: Rufinamide
 parent: Kun modellprediksjon (L5)
 nav_order: 371
 evidence_level: L5
-indication_count: 5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Rufinamide: predikert ny indikasjon Febril infeksjonsrelatert epilepsisyndrom (FIRES) (evidensnivå L5). Opprinnelig indikasjon: Epilepsi"
 monitor_inn: "RUFINAMIDE"
 predicted_indications: ["perioral myoclonia with absences"]
+description: "Rufinamide: predikert ny indikasjon Perioral myoclonia with absences (evidensnivå L5). Opprinnelig indikasjon: Epilepsy"
 ---
 
 # Rufinamide
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-## Rufinamid: Fra epilepsi til febril infeksjonsrelatert epilepsisyndrom (FIRES)
+## Rufinamide: Perioral myoclonia with absences
 {: .text-alpha }
 
 ## Oppsummering
@@ -48,11 +48,12 @@ Det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** i de
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Epilepsi |
-| Predikert ny indikasjon | Febril infeksjonsrelatert epilepsisyndrom (FIRES) |
-| TxGNN-prediksjonsscore | 99,57 % |
+| Opprinnelig indikasjon | Epilepsy |
+| Predikert ny indikasjon | Perioral myoclonia with absences |
+| TxGNN-prediksjonsscore | 0.9951 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -62,16 +63,13 @@ Det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** i de
 
 Data om virkningsmekanisme er ikke tilgjengelige i det innsamlede materialet. Ut fra generell farmakologi antas rufinamid å forlenge den inaktive tilstanden til spenningsstyrte natriumkanaler, noe som kan dempe anfallsaktivitet. Legemidlet har dokumentert effekt ved epilepsi, og mekanistisk kan det tenkes å være relevant for andre epilepsiformer.
 
-FIRES er en behandlingsresistent epileptisk encefalopati som oppstår etter feber, og har en tydelig nevroinflammatorisk komponent. Natriumkanalmodulering kan derfor trolig gi bare symptomatisk anfallsdemping, ikke behandling av selve inflammasjonen. Den høye scoren (0,996) er en ren beregningsmessig prediksjon.
+FIRES er en behandlingsresistent epileptisk encefalopati som oppstår etter feber, og har en tydelig nevroinflammatorisk komponent. Natriumkanalmodulering kan derfor trolig gi bare symptomatisk anfallsdemping, ikke behandling av selve inflammasjonen.
 
 Modellen predikerer også fire andre epilepsisyndromer, alle med evidensnivå L5 og ingen studier eller litteratur:
 
 | Rang | Predikert indikasjon | TxGNN-score | Merknad |
 |------|------|------|------|
-| 2 | Perioral myoklonus med absenser | 99,51 % | Natriumkanalblokkere kan forverre enkelte generaliserte absenser og myoklone anfall |
-| 3 | Fotosensitiv oksipitallappsepilepsi | 99,44 % | Fokal epilepsi, så natriumkanalmodulering er mekanistisk plausibelt |
-| 4 | Atypisk barneepilepsi med sentrotemporale spisser | 99,44 % | Natriumkanalblokkere kan forverre atypiske former |
-| 5 | Kryptogene sent debuterende epileptiske spasmer | 99,44 % | Indirekte støtte via bruk ved Lennox-Gastaut-syndrom |
+| 2 | Perioral myoklonus med absenser | 0,9951 | Natriumkanalblokkere kan forverre enkelte generaliserte absenser og myoklone anfall |
 
 ---
 
@@ -91,7 +89,7 @@ Foreløpig er det ingen relevant litteratur tilgjengelig.
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000660 | Inovelon (Eisai GmbH) | Ikke oppgitt | Epilepsi (status: avregistrert) |
+| EMEA/H/C/000660 | Inovelon (Eisai GmbH) | Ikke oppgitt | Epilepsi (status: godkjent) |
 
 ---
 

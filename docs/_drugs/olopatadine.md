@@ -50,10 +50,10 @@ men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** 
 |------|------|
 | Opprinnelig indikasjon | Allergisk konjunktivitt |
 | Predikert ny indikasjon | Rosacea-konjunktivitt |
-| TxGNN-prediksjonsscore | 99,41 % |
+| TxGNN-prediksjonsscore | 0,9941 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (tilbakekalt/kansellert) |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -86,7 +86,7 @@ Foreløpig er det ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/000407 | Opatanol | – | Allergisk konjunktivitt |
 
-Merk: Denne godkjenningen (Novartis Europharm Limited) har status kansellert. Det finnes ingen gyldige godkjenninger.
+Merk: Denne godkjenningen (Novartis Europharm Limited) er gyldig. Det finnes 1 gyldig godkjenning av 1, og legemidlet er markedsført.
 
 ---
 

@@ -4,7 +4,7 @@ title: Bosentan
 parent: Moderat evidens (L3-L4)
 nav_order: 62
 evidence_level: L4
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Bosentan: predikert ny indikasjon Revmatoid artritt (evidensnivå L4). Opprinnelig indikasjon: Pulmonal hypertensjon"
 monitor_inn: "BOSENTAN"
@@ -14,7 +14,7 @@ predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndro
 # Bosentan
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **9** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **revmatoid artritt**,
 |------|------|
 | Opprinnelig indikasjon | Pulmonal hypertensjon; systemisk sklerose |
 | Predikert ny indikasjon | Revmatoid artritt |
-| TxGNN-prediksjonsscore | 99,80 % |
+| TxGNN-prediksjonsscore | 0,9980 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun tilbakekalte/avsluttede godkjenninger (ingen gyldige) |
-| Antall godkjenninger | 2 (begge kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -97,7 +97,7 @@ Det er for øyeblikket ingen relaterte kliniske studier registrert.
 | EMEA/H/C/002644 | Stayveer | Ikke oppgitt | Pulmonal hypertensjon; systemisk sklerose (kansellert) |
 | EMEA/H/C/000401 | Tracleer | Ikke oppgitt | Systemisk sklerose; pulmonal hypertensjon (kansellert) |
 
-Begge godkjenningene er kansellert, og det finnes ingen gyldige godkjenninger i dataene.
+Begge godkjenningene er gyldige i dataene, og legemidlet er markedsført.
 
 ---
 
@@ -115,7 +115,7 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Støtten for revmatoid artritt er begrenset til prekliniske dyremodeller, uten kliniske studier. Det finnes heller ingen gyldig norsk markedsføringstillatelse. Høy modellscore alene er ikke tilstrekkelig.
+Støtten for revmatoid artritt er begrenset til prekliniske dyremodeller, uten kliniske studier. Legemidlet er imidlertid markedsført i Norge med 2 gyldige markedsføringstillatelser (2 av 2). Høy modellscore alene er ikke tilstrekkelig.
 
 **For å gå videre kreves:**
 - Kliniske studier (minst fase 2) på revmatoid artritt
@@ -127,7 +127,7 @@ Støtten for revmatoid artritt er begrenset til prekliniske dyremodeller, uten k
 
 ## Andre prediksjoner av interesse
 
-Blant de øvrige prediksjonene er **begrenset systemisk sklerose** (score 99,65 %, evidensnivå L3) best støttet, med systematisk oversikt og meta-analyse (2023) og retningslinjer for digitale sår og Raynauds fenomen. Siden PAH ved systemisk sklerose allerede er en opprinnelig indikasjon, er det bare digitale sår og hud-/Raynaud-manifestasjoner som utgjør et reelt nytt bruksområde. Dette bør vurderes som et forskningsspørsmål. De øvrige prediksjonene (blant annet brachydaktyli-syndaktyli-syndrom, pseudoxanthoma elasticum forme fruste, kyfoskoliotisk hjertesykdom, elastom, urinsyregikt og hypertrikose) har kun modellstøtte eller ingen relevant evidens og anbefales satt på vent.
+Prediksjonene (blant annet brachydaktyli-syndaktyli-syndrom, pseudoxanthoma elasticum forme fruste, kyfoskoliotisk hjertesykdom, elastom, urinsyregikt og hypertrikose) har kun modellstøtte eller ingen relevant evidens og anbefales satt på vent.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

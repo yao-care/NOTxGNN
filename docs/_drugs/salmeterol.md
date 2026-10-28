@@ -4,7 +4,7 @@ title: Salmeterol
 parent: Høy evidens (L1-L2)
 nav_order: 376
 evidence_level: L1
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Salmeterol: predikert ny indikasjon Bronkitt (evidensnivå L1). Opprinnelig indikasjon: Astma"
 monitor_inn: "salmeterol"
@@ -14,7 +14,7 @@ predicted_indications: ["bronchitis", "respiratory malformation", "obstructive l
 # Salmeterol
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **7** stk.
+Evidensnivå: **L1** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Salmeterol er en langtidsvirkende beta2-agonist som opprinnelig er godkjent for 
 |------|------|
 | Opprinnelig indikasjon | Astma |
 | Predikert ny indikasjon | Bronkitt |
-| TxGNN-prediksjonsscore | 99,92 % |
+| TxGNN-prediksjonsscore | 0,9992 |
 | Evidensnivå | L1 |
-| Status på det norske markedet | Kun avregistrert (cancelled only) |
-| Antall godkjenninger | 1 |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med sikkerhetsrammer) |
 
 ---
@@ -103,7 +103,7 @@ Flere fase 3-studier ved KOLS og kronisk bronkitt inkluderer salmeterol som beha
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004881 | Seffalair Spiromax | Ikke angitt | Astma (status: avregistrert) |
+| EMEA/H/C/004881 | Seffalair Spiromax | Ikke angitt | Astma (status: godkjent) |
 
 ---
 
@@ -138,7 +138,7 @@ Flere fase 3-studier og store sammenlignende studier (blant annet FLAME) etabler
 |------|------|------|
 | Obstruktiv lungesykdom | L1 | Proceed with Guardrails |
 | Astma (opprinnelig indikasjon) | L1 | Proceed with Guardrails |
-| Atopisk eksem | L4 | Hold |
+| Atopisk eksem | L5 | Hold |
 | Respiratorisk misdannelse | L4 | Hold |
 | Rienhoff syndrom | L5 | Hold |
 | Astmarelaterte trekk, mottakelighet | L5 | Hold |

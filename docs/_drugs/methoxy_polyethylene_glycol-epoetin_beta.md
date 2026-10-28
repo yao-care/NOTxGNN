@@ -39,7 +39,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 ## Ettsetningssammendrag
 
 Metoksypolyetylenglykol-epoetin beta (Mircera) er et pegylert erytropoiesestimulerende legemiddel som opprinnelig brukes mot anemi ved kronisk nyresvikt.
-TxGNN-modellen predikerer at det kan være effektivt mot **primær frigjøringsforstyrrelse i blodplater** (score 99,36 %), men det finnes **ingen kliniske studier** og **ingen publikasjoner** i de innsamlede dataene som støtter denne retningen. Prediksjonen er rent beregningsbasert.
+TxGNN-modellen predikerer at det kan være effektivt mot **primær frigjøringsforstyrrelse i blodplater** (score 0,9936), men det finnes **ingen kliniske studier** og **ingen publikasjoner** i de innsamlede dataene som støtter denne retningen. Prediksjonen er rent beregningsbasert.
 
 ---
 
@@ -49,9 +49,10 @@ TxGNN-modellen predikerer at det kan være effektivt mot **primær frigjøringsf
 |------|------|
 | Opprinnelig indikasjon | Anemi; kronisk nyresvikt |
 | Predikert ny indikasjon | Primær frigjøringsforstyrrelse i blodplater |
-| TxGNN-prediksjonsscore | 99,36 % |
+| TxGNN-prediksjonsscore | 0,9936 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellert |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall autorisasjoner | 1 |
 | Anbefalt beslutning | Hold |
 
@@ -61,18 +62,18 @@ TxGNN-modellen predikerer at det kan være effektivt mot **primær frigjøringsf
 
 Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Basert på kjent informasjon er metoksypolyetylenglykol-epoetin beta en pegylert agonist for erytropoietinreseptoren (EPO-reseptoren). Effekten er dokumentert ved anemi hos pasienter med kronisk nyresvikt.
 
-Det er ingen etablert mekanisme som kobler EPO-reseptoragonisme til korrigering av defekter i blodplatenes sekresjon/frigjøring. Den høye scoren er kun en prediksjon fra kunnskapsgrafen. Et eventuelt samband vil være spekulativt, for eksempel indirekte effekter via hematokrit og blodets reologi på samspillet mellom blodplater og karvegg. Erytropoiesestimulerende midler er dessuten forbundet med økt risiko for trombose, noe som ikke understøtter bruk ved en blødningstype blodplatefunksjonsforstyrrelse.
+Det er ingen etablert mekanisme som kobler EPO-reseptoragonisme til korrigering av defekter i blodplatenes sekresjon/frigjøring. Den høye scoren er kun en prediksjon fra TxGNN-modellen (dyp læring). Et eventuelt samband vil være spekulativt, for eksempel indirekte effekter via hematokrit og blodets reologi på samspillet mellom blodplater og karvegg. Erytropoiesestimulerende midler er dessuten forbundet med økt risiko for trombose, noe som ikke understøtter bruk ved en blødningstype blodplatefunksjonsforstyrrelse.
 
 ### Andre predikerte indikasjoner (alle evidensnivå L5, beslutning Hold)
 
 | Rang | Sykdom | TxGNN-score | Vurdering av mekanistisk sammenheng |
 |------|------|------|------|
-| 2 | Glanzmanns trombasteni | 99,30 % | Skyldes defekt i integrin αIIbβ3 (GPIIb/IIIa); EPO-reseptoragonisme adresserer ikke dette. Etablert behandling (blodplatetransfusjon, rekombinant faktor VIIa) er upåvirket av legemidlets mekanisme. |
-| 3 | Pseudo-von Willebrands sykdom | 99,25 % | Skyldes «gain-of-function»-mutasjon i GPIbα; ingen plausibel kobling til EPO-signalering. Trombotisk risiko ved ESA er en tilleggsbekymring. |
-| 4 | Alvorlig ikke-proliferativ diabetisk retinopati | 99,15 % | Eneste med en løst plausibel biologisk kobling (EPO har nevrobeskyttende og angiogene egenskaper), men EPO er også implisert som pro-angiogen faktor ved proliferativ retinopati, og effektretningen er usikker eller potensielt skadelig. |
-| 5 | Heparin-kofaktor 2-mangel | 99,10 % | Trombofil tilstand; ESA øker trombotisk risiko. Ingen mekanistisk støtte. |
-| 6 | Antitrombinmangel type 2 | 99,07 % | Kvalitativ defekt i koagulasjonshemmer; legemidlet påvirker ikke antitrombinfunksjon, og tromboembolisk risiko er et sikkerhetsproblem. |
-| 7 | Faktor 5-overskudd med spontan trombose | 99,04 % | Hyperkoagulabel tilstand; ESA kan forverre trombosetendens. |
+| 2 | Glanzmanns trombasteni | 0,9930 | Skyldes defekt i integrin αIIbβ3 (GPIIb/IIIa); EPO-reseptoragonisme adresserer ikke dette. Etablert behandling (blodplatetransfusjon, rekombinant faktor VIIa) er upåvirket av legemidlets mekanisme. |
+| 3 | Pseudo-von Willebrands sykdom | 0,9925 | Skyldes «gain-of-function»-mutasjon i GPIbα; ingen plausibel kobling til EPO-signalering. Trombotisk risiko ved ESA er en tilleggsbekymring. |
+| 4 | Alvorlig ikke-proliferativ diabetisk retinopati | 0,9915 | Eneste med en løst plausibel biologisk kobling (EPO har nevrobeskyttende og angiogene egenskaper), men EPO er også implisert som pro-angiogen faktor ved proliferativ retinopati, og effektretningen er usikker eller potensielt skadelig. |
+| 5 | Heparin-kofaktor 2-mangel | 0,9910 | Trombofil tilstand; ESA øker trombotisk risiko. Ingen mekanistisk støtte. |
+| 6 | Antitrombinmangel type 2 | 0,9907 | Kvalitativ defekt i koagulasjonshemmer; legemidlet påvirker ikke antitrombinfunksjon, og tromboembolisk risiko er et sikkerhetsproblem. |
+| 7 | Faktor 5-overskudd med spontan trombose | 0,9904 | Hyperkoagulabel tilstand; ESA kan forverre trombosetendens. |
 
 ---
 
@@ -94,7 +95,7 @@ Foreløpig finnes ingen relatert litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/000739 | Mircera | Ikke oppgitt | Anemi; kronisk nyresvikt |
 
-Autorisasjonen har status **kansellert**. Det finnes ingen gyldige markedsføringstillatelser for dette legemidlet i Norge.
+Autorisasjonen har status **gyldig**. Legemidlet er markedsført i Norge, og 1 av 1 markedsføringstillatelser er gyldig.
 
 ---
 

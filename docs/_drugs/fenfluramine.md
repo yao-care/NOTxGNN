@@ -48,10 +48,10 @@ Fenfluramin ble opprinnelig godkjent for behandling av myoklonisk epilepsi (mark
 |------|------|
 | Opprinnelig indikasjon | Myoklonisk epilepsi (Epilepsies, Myoclonic) |
 | Predikert ny indikasjon | Proksimalt 16p11.2-mikrodelesjonssyndrom |
-| TxGNN-prediksjonsscore | 99,93 % |
+| TxGNN-prediksjonsscore | 0,9993 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 1 (0 gyldige, 1 kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige i de samlede da
 
 Koblingen er likevel utledet kun fra TxGNN-prediksjonen og legemidlets kjente bruk ved epilepsi. Ingen studier som tester fenfluramin ved dette syndromet er identifisert, og manglende MOA-data begrenser mulighetene til å verifisere mekanismen.
 
-Øvrige prediksjoner fra modellen (hypervitaminose, «obsolete hypertelorism» og frontorhiny) har høye scorer (99,92 %, 99,86 % og 99,78 %), men mangler troverdig farmakologisk begrunnelse. De er sannsynligvis artefakter fra kunnskapsgrafen og vurderes ikke videre.
+Øvrige prediksjoner fra modellen (hypervitaminose, «obsolete hypertelorism» og frontorhiny) har høye scorer (0,9992, 0,9986 og 0,9978), men mangler troverdig farmakologisk begrunnelse. Scorene kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. De vurderes ikke videre.
 
 ---
 
@@ -102,7 +102,7 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier eller litteratur (evidensnivå L5). Legemidlet har dessuten ingen gyldig markedsføringstillatelse i Norge, og viktige sikkerhetsdata mangler.
+Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier eller litteratur (evidensnivå L5). Legemidlet er markedsført i Norge med én gyldig markedsføringstillatelse (1 av 1), men viktige sikkerhetsdata mangler.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtalens advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)

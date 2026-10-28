@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Imatinib
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 209
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Imatinib: predikert ny indikasjon Hjertefibrosarkom (heart fibrosarcoma) (evidensnivå L4). Opprinnelig indikasjon: Akutt lymfatisk leukemi (prekursor-B-celle), dermatofibrosarkom…"
@@ -14,7 +14,7 @@ predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventi
 # Imatinib
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -51,10 +51,10 @@ Merk: Blant de ti predikerte indikasjonene i datagrunnlaget har flere sterkere s
 |------|------|
 | Opprinnelig indikasjon | Akutt lymfatisk leukemi (prekursor-B-celle), dermatofibrosarkom, myelodysplastiske/myeloproliferative sykdommer, kronisk myelogen leukemi (BCR-ABL-positiv), hypereosinofilt syndrom (GIST for Glivec) |
 | Predikert ny indikasjon | Hjertefibrosarkom (heart fibrosarcoma) |
-| TxGNN-prediksjonsscore | 99,94 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun avregistrerte (cancelled) godkjenninger |
-| Antall godkjenninger | 3 (alle avregistrert) |
+| TxGNN-prediksjonsscore | 0.9994 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -85,15 +85,15 @@ Currently no related clinical trials registered for heart fibrosarcoma. Det finn
 
 | Rang | Sykdom | Score | Evidensnivå | Anbefaling | Kommentar |
 |------|------|------|------|------|------|
-| 2 | Fibroblastisk neoplasme (inkl. DFSP) | 99,94 % | L4 | Proceed with Guardrails | DFSP er allerede en godkjent indikasjon. Støttes av europeisk retningslinje (2024) og flere oversikter. Ingen studier i datagrunnlaget, så reell evidens er trolig sterkere enn L4. |
-| 3 | Konvensjonelt fibrosarkom | 99,93 % | L4 | Forskningsspørsmål | Litteraturen handler mest om DFSP. Konvensjonelt fibrosarkom mangler vanligvis fusjonen, så ekstrapolering er indirekte. |
-| 4 | Nyrefibrosarkom | 99,93 % | L3 | Hold | Kun en basket-studie fase 2 (NCT00154388, n=185) uten nyrespesifikke data. |
-| 5 | Lavgradig fibromyxoid sarkom | 99,93 % | L5 | Hold | Kun prediksjon. Drives av FUS-CREB3L2, ikke PDGFR/KIT. |
-| 6 | Liposarkom | 99,88 % | L2 | Forskningsspørsmål | Tre fase 1/2-studier i bløtdelssarkom, men ingen subtypespesifikke resultater. |
-| 7 | Leverfibrosarkom | 99,86 % | L4 | Hold | Kun indirekte litteratur (GIST, DRESS-tilfelle). |
-| 8 | Autosomal recessiv familiær middelhavsfeber | 99,86 % | L5 | Hold | Kun prediksjon, ingen mekanistisk begrunnelse. |
-| 9 | Ovarielt myxoid liposarkom | 99,85 % | L5 | Hold | Kun prediksjon. Drives av FUS-DDIT3. |
-| 10 | Familiær rhabdoid tumor | 99,83 % | L5 | Hold | Kun prediksjon. SMARCB1-tap, ingen kjent kobling til imatinibs mål. |
+| 2 | Fibroblastisk neoplasme (inkl. DFSP) | 0,9994 | L5 | Proceed with Guardrails | DFSP er allerede en godkjent indikasjon. Støttes av europeisk retningslinje (2024) og flere oversikter. Ingen studier i datagrunnlaget, så reell evidens er trolig sterkere enn L4. |
+| 3 | Konvensjonelt fibrosarkom | 0,9993 | L5 | Forskningsspørsmål | Litteraturen handler mest om DFSP. Konvensjonelt fibrosarkom mangler vanligvis fusjonen, så ekstrapolering er indirekte. |
+| 4 | Nyrefibrosarkom | 0,9993 | L5 | Hold | Kun en basket-studie fase 2 (NCT00154388, n=185) uten nyrespesifikke data. |
+| 5 | Lavgradig fibromyxoid sarkom | 0,9993 | L5 | Hold | Kun prediksjon. Drives av FUS-CREB3L2, ikke PDGFR/KIT. |
+| 6 | Liposarkom | 0,9988 | L2 | Forskningsspørsmål | Tre fase 1/2-studier i bløtdelssarkom, men ingen subtypespesifikke resultater. |
+| 7 | Leverfibrosarkom | 0,9986 | L5 | Hold | Kun indirekte litteratur (GIST, DRESS-tilfelle). |
+| 8 | Autosomal recessiv familiær middelhavsfeber | 0,9986 | L5 | Hold | Kun prediksjon, ingen mekanistisk begrunnelse. |
+| 9 | Ovarielt myxoid liposarkom | 0,9985 | L5 | Hold | Kun prediksjon. Drives av FUS-DDIT3. |
+| 10 | Familiær rhabdoid tumor | 0,9983 | L5 | Hold | Kun prediksjon. SMARCB1-tap, ingen kjent kobling til imatinibs mål. |
 
 ### Kliniske studier for relaterte indikasjoner
 
@@ -124,7 +124,7 @@ Currently no related clinical trials registered for heart fibrosarcoma. Det finn
 | EMEA/H/C/002681 | Imatinib Accord (Accord Healthcare) | Ikke oppgitt | Akutt lymfatisk leukemi, dermatofibrosarkom, myelodysplastiske/myeloproliferative sykdommer, kronisk myelogen leukemi, hypereosinofilt syndrom |
 | EMEA/H/C/002585 | Imatinib Teva (Teva B.V.) | Ikke oppgitt | Kronisk myelogen leukemi, akutt lymfatisk leukemi, myelodysplastiske/myeloproliferative sykdommer, hypereosinofilt syndrom, dermatofibrosarkom |
 
-Alle tre godkjenningene har status avregistrert (cancelled). Det finnes ingen gyldige godkjenninger i de data som er sammenstilt for denne rapporten.
+Legemidlet er markedsført i Norge, og 3 av 3 godkjenninger (markedsføringstillatelser) er gyldige.
 
 ---
 
@@ -162,7 +162,7 @@ Pakningsvedleggets advarsler og kontraindikasjoner mangler i de data som er samm
 **For å gå videre trengs følgende:**
 - Pakningsvedleggets advarsler og kontraindikasjoner (kritisk datamangel som blokkerer sikkerhetsscreening)
 - Data om virkningsmekanisme (MOA) fra DrugBank
-- Avklaring av norsk markedsstatus, siden alle tre godkjenninger er avregistrert
+- Avklaring av norsk markedsstatus: legemidlet er markedsført, og alle 3 godkjenninger er gyldige
 - Kliniske data eller kasuistikker for hjerte- og fibrosarkomsubtyper, samt subtypespesifikke resultater fra basket- og bløtdelssarkomstudiene
 - Sikkerhetsplan for pasienter med hjerte-, lever- og nyresykdom og for interaksjoner med eliglustat og naloxegol
 ## Ansvarsfraskrivelse

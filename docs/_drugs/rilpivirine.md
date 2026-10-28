@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rilpivirine
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 358
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Rilpivirine: predikert ny indikasjon Felint ervervet immunsviktsyndrom (FIV hos katt) (evidensnivå L4). Opprinnelig indikasjon: HIV-infeksjon"
 monitor_inn: "RILPIVIRINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Rilpivirine: predikert ny indikasjon Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome) (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
 # Rilpivirine
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **5** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-## Rilpivirin: Fra HIV-infeksjon til felint ervervet immunsviktsyndrom
+## Rilpivirine: Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
 Rilpivirin er en ikke-nukleosid revers transkriptasehemmer (NNRTI) som opprinnelig brukes til behandling av HIV-infeksjon.
 TxGNN-modellen predikerer at legemidlet kan være effektivt mot **felint ervervet immunsviktsyndrom** (katte-immunsviktvirus), men dette støttes foreløpig kun av **0 kliniske studier** og **1 publikasjon** (en prekliniske biokjemisk og strukturell studie).
-Den høye prediksjonsscoren er trolig drevet av koblinger i kunnskapsgrafen og er ikke uavhengig evidens. Indikasjonen er dessuten veterinær og har liten relevans for humant bruk.
+Indikasjonen er dessuten veterinær og har liten relevans for humant bruk.
 
 ---
 
@@ -48,12 +48,12 @@ Den høye prediksjonsscoren er trolig drevet av koblinger i kunnskapsgrafen og e
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | HIV-infeksjon |
-| Predikert ny indikasjon | Felint ervervet immunsviktsyndrom (FIV hos katt) |
-| TxGNN-prediksjonsscore | 99,97 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 6 (alle kansellert) |
+| Opprinnelig indikasjon | HIV Infections |
+| Predikert ny indikasjon | Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome) |
+| TxGNN-prediksjonsscore | 0.9997 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 6 av 6) |
+| Antall godkjenninger | 6 (gyldige: 6) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -86,7 +86,6 @@ For toppindikasjonen (felint ervervet immunsviktsyndrom) er det for øyeblikket 
 
 ## Markedsinformasjon for Norge
 
-Alle seks godkjenninger er kansellert, og ingen er gyldige per i dag.
 
 | Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -117,7 +116,7 @@ Ytterligere advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjeng
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Evidensen er kun preklinisk (L4), og indikasjonen er veterinær med begrenset biologisk plausibilitet. Den høye TxGNN-scoren er sannsynligvis et artefakt fra kunnskapsgrafen. Det finnes heller ingen gyldige norske markedsføringstillatelser for rilpivirin per i dag.
+Evidensen er kun preklinisk (L4), og indikasjonen er veterinær med begrenset biologisk plausibilitet.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA), for eksempel fra DrugBank

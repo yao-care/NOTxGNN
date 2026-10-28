@@ -50,9 +50,10 @@ Prediksjonen bygger i hovedsak på modellen alene (evidensnivå L5).
 |------|------|
 | Opprinnelig indikasjon | Lønnesirupsykdom (Maple Syrup Urine Disease) |
 | Predikert ny indikasjon | Gastroparese |
-| TxGNN-prediksjonsscore | 99,55 % |
+| TxGNN-prediksjonsscore | 0,9955 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun opphevede (trukkede) autorisasjoner |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall autorisasjoner | 1 (opphevet) |
 | Anbefalt beslutning | Hold |
 
@@ -118,7 +119,7 @@ Prediksjonsscoren er høy, men det finnes ingen kliniske studier, og den eneste 
 
 ## Tilleggsobservasjon: sklerosende kolangitt (rangering 2)
 
-Den nest høyest rangerte prediksjonen, **sklerosende kolangitt** (score 99,27 %, evidensnivå L4), har indirekte prekliniske data. Mastcelleavledet histamin fremmer gallegangsproliferasjon og fibrose via H1/H2-reseptorer (PMID 27351144, 35799467). Mus uten histidindekarboksylase (HDC) får mindre gallegangsskade og fibrose (PMID 32054995), og blokkering av H1/H2-reseptorer gir tilsvarende effekt (PMID 29601088).
+Den nest høyest rangerte prediksjonen, **sklerosende kolangitt** (score 0,9927, evidensnivå L4), har indirekte prekliniske data. Mastcelleavledet histamin fremmer gallegangsproliferasjon og fibrose via H1/H2-reseptorer (PMID 27351144, 35799467). Mus uten histidindekarboksylase (HDC) får mindre gallegangsskade og fibrose (PMID 32054995), og blokkering av H1/H2-reseptorer gir tilsvarende effekt (PMID 29601088).
 
 Siden histidin er substrat for histaminsyntesen, kan tilskudd tenkes å forverre i stedet for å hjelpe. Retningen på effekten er derfor ugunstig eller usikker. Det finnes ingen kliniske studier, og anbefalingen er å behandle dette som et **forskningsspørsmål**.
 ## Ansvarsfraskrivelse

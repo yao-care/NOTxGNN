@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Rotigotine
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 369
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Rotigotine: predikert ny indikasjon Attention deficit-hyperactivity disorder (ADHD) (evidensnivå L4). Opprinnelig indikasjon: Rastløse bein-syndrom"
@@ -14,7 +14,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "schizophren
 # Rotigotine
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan være virksomt mot **ADHD**, men det
 |------|------|
 | Opprinnelig indikasjon | Rastløse bein-syndrom; Parkinsons sykdom |
 | Predikert ny indikasjon | Attention deficit-hyperactivity disorder (ADHD) |
-| TxGNN prediksjonsscore | 99,997 % |
-| Evidensnivå | L4 |
-| Status på det norske markedet | Kun avregistrert (ingen gyldige tillatelser) |
+| TxGNN prediksjonsscore | 1,0000 |
+| Evidensnivå | L5 |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -85,7 +86,7 @@ Foreløpig er ingen relaterte kliniske studier registrert.
 
 | Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000626 | Neupro | Ikke oppgitt | Rastløse bein-syndrom; Parkinsons sykdom (status: avregistrert) |
+| EMEA/H/C/000626 | Neupro | Ikke oppgitt | Rastløse bein-syndrom; Parkinsons sykdom (status: godkjent) |
 
 ---
 
@@ -103,8 +104,8 @@ Se preparatomtalen for fullstendig informasjon om advarsler og kontraindikasjone
 
 | Rangering | Sykdom | Score | Evidensnivå | Kommentar |
 |------|------|------|------|------|
-| 2 | Schizofreni | 99,996 % | L4 | Indirekte støtte fra metaanalyse av prodopaminerge legemidler mot negative symptomer (PMID 31688399); rotigotin er ikke spesifikt evaluert, og det er teoretisk risiko for forverring av positive symptomer |
-| 3–10 | Sjeldne genetiske/utviklingsmessige tilstander (bl.a. polymikrogyri, faciodigitogenitalt syndrom, medfødt glykosyleringsforstyrrelse, retinal dystrofi, X-bundet myopi, atypisk glycinencefalopati, CMT type 1G) | 99,992–99,995 % | L5 | Ingen identifiserbar mekanistisk kobling eller støttende evidens; kun modellprediksjon |
+| 2 | Schizofreni | 1,0000 | L5 | Indirekte støtte fra metaanalyse av prodopaminerge legemidler mot negative symptomer (PMID 31688399); rotigotin er ikke spesifikt evaluert, og det er teoretisk risiko for forverring av positive symptomer |
+| 3–10 | Sjeldne genetiske/utviklingsmessige tilstander (bl.a. polymikrogyri, faciodigitogenitalt syndrom, medfødt glykosyleringsforstyrrelse, retinal dystrofi, X-bundet myopi, atypisk glycinencefalopati, CMT type 1G) | 99,992–1,0000 | L5 | Ingen identifiserbar mekanistisk kobling eller støttende evidens; kun modellprediksjon |
 
 ---
 
@@ -113,7 +114,7 @@ Se preparatomtalen for fullstendig informasjon om advarsler og kontraindikasjone
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for ADHD bygger på en biologisk plausibel dopamin- og noradrenalinkobling, men evidensen er kun indirekte (L4), uten kliniske studier. Rotigotin har dessuten ingen gyldig markedsføringstillatelse i Norge, og viktige sikkerhets- og mekanismedata mangler.
+Prediksjonen for ADHD bygger på en biologisk plausibel dopamin- og noradrenalinkobling, men evidensen er kun indirekte (L4), uten kliniske studier. Rotigotin er markedsført i Norge med 1 gyldig markedsføringstillatelse av 1, men viktige sikkerhets- og mekanismedata mangler.
 
 **For å gå videre kreves følgende:**
 - Gjennomgang av preparatomtalen (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsvurderingen

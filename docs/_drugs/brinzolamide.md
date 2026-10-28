@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Brinzolamide
-parent: Kun modellprediksjon (L5)
+parent: Kun kjente bruksområder (ingen nye prediksjoner)
 nav_order: 65
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-15
-description: "Brinzolamide: predikert ny indikasjon Primær arvelig glaukom (evidensnivå L5). Opprinnelig indikasjon: Åpenvinklet glaukom, okulær hypertensjon"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Brinzolamide: kjente bruksområder og markedsstatus i Norge; for øyeblikket ingen ny kandidatindikasjon"
+predicted_indications: []
 ---
 
 # Brinzolamide
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
+Evidensnivå: **N/A** | Predikerte indikasjoner: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,64 +32,47 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-## Brinzolamid: Fra åpenvinklet glaukom til primær arvelig glaukom
+<!-- known-uses-page -->
+<!-- description: Brinzolamide: kjente bruksområder og markedsstatus i Norge; for øyeblikket ingen ny kandidatindikasjon -->
+## Brinzolamide: Kjente bruksområder og markedsstatus i Norge
 {: .text-alpha }
 
-## Oppsummering
-
-Brinzolamid er en karbonanhydrase-hemmer som opprinnelig brukes som øyedråper mot **åpenvinklet glaukom** og **okulær hypertensjon**.
-TxGNN-modellen predikerer at legemidlet kan være effektivt ved **primær arvelig glaukom**, med en svært høy score (99,5 %).
-Foreløpig finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen, så prediksjonen er kun modellbasert.
-
----
+## Sammendrag
+Alle kandidatene som TxGNN-modellen (skåre ≥ 0,99) har gitt for Brinzolamide, er allerede kjente bruksområder. Det finnes derfor for øyeblikket ingen ny predikert indikasjon for dette legemidlet. Den ene kjente bruken er knyttet til en lisens i et annet land.
 
 ## Hurtigoversikt
-
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Åpenvinklet glaukom, okulær hypertensjon |
-| Predikert ny indikasjon | Primær arvelig glaukom |
-| TxGNN-prediksjonsscore | 99,48 % |
-| Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun opphevede godkjenninger (ingen gyldige) |
-| Antall godkjenninger | 3 (alle opphevet) |
-| Anbefalt beslutning | Hold |
+| Nye predikerte indikasjoner | Ingen (alle sporbare modellkandidater er kjente bruksområder) |
+| Kjente bruksområder blant modellkandidatene | 1 |
+| Evidensnivå | Ikke aktuelt |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
 
----
+## Kjente bruksområder blant modellens kandidater
 
-## Hvorfor er denne prediksjonen rimelig?
+### Godkjent (støttet av lisens eller preparatomtale)
+| Indikasjon | Kilde |
+|------|------|
+| primær arvelig glaukom (primary hereditary glaucoma) | lisens i et annet land; godkjent indikasjon: glaucoma |
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Brinzolamid er imidlertid kjent som en hemmer av karbonanhydrase II. Den senker det intraokulære trykket ved å redusere produksjonen av kammervann i ciliærlegemet.
+### Relatert til en godkjent indikasjon (samme sykdomskategori)
+| Indikasjon | Godkjent kategori |
+|------|------|
+| Ingen | – |
 
-Primær arvelig glaukom (for eksempel primær medfødt glaukom og juvenil åpenvinklet glaukom) har samme sluttvei som de godkjente indikasjonene: forhøyet intraokulært trykk. Dermed finnes det et mekanistisk grunnlag, og den høye scoren er i tråd med de godkjente indikasjonene.
-
-Det er likevel i stor grad en utvidelse innenfor samme sykdomsfamilie, ikke et reelt repurposing-signal. Arvelige former skyldes ofte utviklingsavvik i kammervinkelen (for eksempel varianter i *CYP1B1*, *MYOC* og *FOXC1*) og behandles ofte kirurgisk. Topiske karbonanhydrase-hemmere brukes da vanligvis bare som tilleggs- eller midlertidig behandling. Hos spedbarn er det dessuten en sikkerhetsbekymring: systemisk opptak av sulfonamidbaserte karbonanhydrase-hemmere kan gi metabolsk acidose.
-
----
-
-## Kliniske studier
-
-Det er foreløpig ingen relaterte kliniske studier registrert.
-
----
-
-## Litteraturevidens
-
-Det er foreløpig ingen relatert litteratur tilgjengelig.
-
----
+### Relasjoner registrert i kunnskapsgrafen (ingen godkjenning funnet)
+| Indikasjon |
+|------|
+| Ingen |
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnr. | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000267 | Azopt | – | Åpenvinklet glaukom, okulær hypertensjon |
-| EMEA/H/C/000960 | Azarga | – | Åpenvinklet glaukom, okulær hypertensjon |
-| EMEA/H/C/003698 | Simbrinza | – | Okulær hypertensjon, åpenvinklet glaukom |
-
-Alle tre godkjenningene er opphevet, og det finnes ingen gyldige godkjenninger.
-
----
+| Tillatelse | Produkt | Legemiddelform | Status |
+|------|------|------|------|
+| EMEA/H/C/000267 | brinzolamide |  | Gyldig |
+| EMEA/H/C/000960 | brinzolamide;timolol maleate |  | Gyldig |
+| EMEA/H/C/003698 | brinzolamide;brimonidine tartrate |  | Gyldig |
 
 ## Sikkerhetsvurderinger
 
@@ -103,20 +87,6 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon.
 
 ---
 
-## Konklusjon og neste steg
-
-**Beslutning: Hold**
-
-**Begrunnelse:**
-Prediksjonen er mekanistisk plausibel, men støttes bare av modellscoren (evidensnivå L5), uten kliniske studier eller publikasjoner. I tillegg er alle godkjenninger i Norge opphevet, og de viktigste sikkerhetsdataene mangler.
-
-**For å gå videre kreves følgende:**
-- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
-- Detaljerte data om virkningsmekanisme (MOA)
-- Litteratur- og studiegjennomgang for brinzolamid ved arvelig/medfødt glaukom, særlig hos barn
-- Vurdering av pediatrisk sikkerhet (risiko for metabolsk acidose)
-- Avklaring av tilgjengelighet i Norge, siden ingen gyldig godkjenning finnes
-- Vurdering av administrasjonsvei og doseringsform
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -50,10 +50,10 @@ Foreløpig støttes denne retningen av **5 kliniske studier** og **20 publikasjo
 |------|------|
 | Opprinnelig indikasjon | Arvelig angioødem |
 | Predikert ny indikasjon | C1-hemmermangel |
-| TxGNN-prediksjonsscore | 99,996 % |
+| TxGNN-prediksjonsscore | 1,0000 |
 | Evidensnivå | L1 |
-| Markedsstatus i Norge | Kun avregistrert (cancelled) |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
 
 ---
@@ -103,7 +103,7 @@ Blant de øvrige predikerte indikasjonene (rangert 2–10, bl.a. pankreatitt, Gl
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004806 | Takhzyro | Ikke angitt | Arvelig angioødem (status: avregistrert) |
+| EMEA/H/C/004806 | Takhzyro | Ikke angitt | Arvelig angioødem (status: godkjent) |
 
 Merk: Den eneste registrerte godkjenningen er oppført som avregistrert. Dette bør verifiseres før noen anbefaling følges opp.
 

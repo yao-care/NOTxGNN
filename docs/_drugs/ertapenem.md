@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ertapenem
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 161
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Ertapenem: predikert ny indikasjon Bakteriell artritt (evidensnivå L4). Opprinnelig indikasjon: Bakterielle infeksjoner"
@@ -14,7 +14,7 @@ predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"
 # Ertapenem
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **2** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Støtten er foreløpig svak: **ingen registrerte kliniske studier** og **kun kas
 |------|------|
 | Opprinnelig indikasjon | Bakterielle infeksjoner |
 | Predikert ny indikasjon | Bakteriell artritt |
-| TxGNN-prediksjonsscore | 99,7 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun opphevede (trukne) godkjenninger |
-| Antall godkjenninger | 2 (0 gyldige, 2 opphevet) |
+| TxGNN-prediksjonsscore | 0,9972 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagru
 
 Bakteriell artritt og bein- og leddinfeksjoner skyldes ofte gramnegative bakterier, anaerobe bakterier og enkelte grampositive bakterier som ertapenem dekker. Prediksjonen er derfor en utvidelse av den eksisterende antibakterielle indikasjonen, ikke en ny mekanisme.
 
-Den høye TxGNN-scoren (0,997) gjenspeiler i stor grad denne kjente klasseeffekten og er ikke et uavhengig bevis for effekt ved leddinfeksjoner. Litteraturen består av kasuistikker og små observasjonsserier uten kontrollerte sammenligninger.
+Den høye TxGNN-scoren (0,9972) gjenspeiler i stor grad denne kjente klasseeffekten og er ikke et uavhengig bevis for effekt ved leddinfeksjoner. Litteraturen består av kasuistikker og små observasjonsserier uten kontrollerte sammenligninger.
 
 ---
 
@@ -92,7 +92,7 @@ Foreløpig ingen relaterte kliniske studier registrert for bakteriell artritt.
 
 ## Markedsinformasjon for Norge
 
-Begge godkjenningene er opphevet, og det finnes ingen gyldige godkjenninger i dag.
+Begge godkjenningene er gyldige i dag, og legemidlet er markedsført.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -127,7 +127,7 @@ Evidensen for bakteriell artritt er på L4-nivå: ingen kliniske studier og kun 
 - Avklaring av regulatorisk status i Norge, siden begge godkjenningene er opphevet.
 
 **Merknad om en annen kandidat:**
-Den nest høyest rangerte prediksjonen, ***Staphylococcus aureus*-infeksjon**, har sterkere støtte (evidensnivå L2, TxGNN-score 99,3 %). Den gjelder ertapenem som tillegg til cefazolin ved vedvarende MSSA-bakteriemi. Evidensen er to registrerte pågående studier, flere kasuistikkserier og en sammenlignende studie ([PMID 38946294](https://pubmed.ncbi.nlm.nih.gov/38946294/)). Studiene er [NCT04886284](https://clinicaltrials.gov/study/NCT04886284) (fase 2, n=60, rekrutterer) og [NCT07148960](https://clinicaltrials.gov/study/NCT07148960) (fase 4, n=300, åpen for invitasjon). Ingen av dem har publiserte resultater ennå, og kandidaten bør følges videre som et eget forskningsspørsmål.
+Den nest høyest rangerte prediksjonen, ***Staphylococcus aureus*-infeksjon**, har sterkere støtte (evidensnivå L2, TxGNN-score 0,9928). Den gjelder ertapenem som tillegg til cefazolin ved vedvarende MSSA-bakteriemi. Evidensen er to registrerte pågående studier, flere kasuistikkserier og en sammenlignende studie ([PMID 38946294](https://pubmed.ncbi.nlm.nih.gov/38946294/)). Studiene er [NCT04886284](https://clinicaltrials.gov/study/NCT04886284) (fase 2, n=60, rekrutterer) og [NCT07148960](https://clinicaltrials.gov/study/NCT07148960) (fase 4, n=300, åpen for invitasjon). Ingen av dem har publiserte resultater ennå, og kandidaten bør følges videre som et eget forskningsspørsmål.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

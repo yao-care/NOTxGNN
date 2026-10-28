@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Memantine
-parent: Kun modellprediksjon (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 261
-evidence_level: L5
+evidence_level: L1
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Memantine: predikert ny indikasjon Migrene (migraine disorder) (evidensnivå L5). Opprinnelig indikasjon: Alzheimers sykdom"
+description: "Memantine: predikert ny indikasjon Pulmonal hypertensjon (pulmonary hypertension) (evidensnivå L5). Opprinnelig indikasjon: Alzheimers sykdom"
 monitor_inn: "MEMANTINE"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphosco
 # Memantine
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
+Evidensnivå: **L1** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-## Memantin: Fra Alzheimers sykdom til migrene
+## Memantin: Fra Alzheimers sykdom til pulmonal hypertensjon
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -50,15 +50,15 @@ og det finnes foreløpig **1 klinisk fase 3-studie** og **18 publikasjoner** som
 |------|------|
 | Opprinnelig indikasjon | Alzheimers sykdom |
 | Forutsagt ny indikasjon | Migrene (migraine disorder) |
-| TxGNN-prediksjonsscore | 99,52 % |
+| TxGNN-prediksjonsscore | 0,9954 |
 | Evidensnivå | L1 (se merknad under) |
-| Status i Norge | Kun avregistrerte godkjenninger |
-| Antall godkjenninger | 8 (alle avregistrert) |
+| Status i Norge | Markedsført (gyldige tillatelser: 8 av 8) |
+| Antall godkjenninger | 8 (gyldige: 8) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
 
 *Merknad om evidensnivå:* Det tildelte nivået L1 er satt i datagrunnlaget. Etter de definerte reglene (L1 krever minst to fullførte fase 3-studier) er det kun én liten fase 3-studie, så evidensen ligger i praksis nærmere L2. Nivået bør vurderes på nytt.
 
-*Merknad om rangering:* Den høyest rangerte prediksjonen fra TxGNN er pulmonal hypertensjon (score 99,54 %, evidensnivå L5, anbefaling Hold). Denne rapporten fokuserer på migrene, som har mest støtte i data.
+*Merknad om rangering:* Den høyest rangerte prediksjonen fra TxGNN er pulmonal hypertensjon (score 0,9954, evidensnivå L5, anbefaling Hold). Denne rapporten fokuserer på migrene, som har mest støtte i data.
 
 ---
 
@@ -99,7 +99,7 @@ Alzheimers sykdom og migrene er ulike sykdommer, men har felles patofysiologi kn
 
 ## Markedsinformasjon for Norge
 
-Alle åtte godkjenninger er avregistrert, og ingen er gyldige i dag.
+Alle åtte godkjenninger er gyldige, og legemidlet er markedsført i Norge.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -130,14 +130,14 @@ Preparatomtalens advarsler og kontraindikasjoner er ikke tilgjengelige i dataene
 **Beslutning: Proceed with Guardrails (fortsett med forbehold)**
 
 **Begrunnelse:**
-Memantin har en plausibel mekanistisk kobling til migrene via NMDA-/glutamatsignalering, og det finnes en fullført fase 3-studie, flere systematiske oversikter og en metaanalyse. Studien er imidlertid liten (n=33), og litteraturen karakteriserer evidensen som begrenset, så anbefalingen bør ikke gå lenger enn forsiktig videre utredning. Tilstedeværelsen i Norge er også svak, siden alle godkjenninger er avregistrert.
+Memantin har en plausibel mekanistisk kobling til migrene via NMDA-/glutamatsignalering, og det finnes en fullført fase 3-studie, flere systematiske oversikter og en metaanalyse. Studien er imidlertid liten (n=33), og litteraturen karakteriserer evidensen som begrenset, så anbefalingen bør ikke gå lenger enn forsiktig videre utredning. Legemidlet er markedsført i Norge, med 8 gyldige godkjenninger av 8.
 
 **For å gå videre trengs følgende:**
 - Gjennomgang av resultater og skjevhetsrisiko i NCT04698525 og metaanalysen (PMID 33961371)
 - Større, placebokontrollerte fase 3-studier med migrene som primærindikasjon
 - Preparatomtalens advarsler og kontraindikasjoner (dataunderlaget er ufullstendig på dette punktet)
 - Detaljerte data om virkningsmekanisme
-- Avklaring av regulatorisk vei i Norge, siden alle godkjenninger er avregistrert
+- Avklaring av regulatorisk vei i Norge, der alle åtte godkjenninger er gyldige
 - Ny vurdering av evidensnivået (L1 vs. L2)
 ## Ansvarsfraskrivelse
 

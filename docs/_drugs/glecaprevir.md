@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Glecaprevir
-parent: Kun modellprediksjon (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 190
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Glecaprevir: predikert ny indikasjon HIV-infeksjon (evidensnivå L5). Opprinnelig indikasjon: Kronisk hepatitt C"
@@ -14,7 +14,7 @@ predicted_indications: ["HIV infectious disease", "hepatitis B virus infection",
 # Glecaprevir
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,10 @@ Det er **7 kliniske studier** og **20 publikasjoner** knyttet til prediksjonen, 
 |------|------|
 | Opprinnelig indikasjon | Kronisk hepatitt C |
 | Predikert ny indikasjon | HIV-infeksjon |
-| TxGNN-prediksjonsscore | 99,87 % |
+| TxGNN-prediksjonsscore | 0,9987 |
 | Evidensnivå | L3 (ingen direkte evidens for HIV; dataene gjelder hepatitt C-behandling ved HIV/HCV-koinfeksjon) |
-| Markedsstatus i Norge | Kun kansellert |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall autorisasjoner | 1 (kansellert) |
 | Anbefalt beslutning | Hold |
 
@@ -62,7 +63,7 @@ Det er **7 kliniske studier** og **20 publikasjoner** knyttet til prediksjonen, 
 
 Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Glecaprevir er likevel kjent som en hemmer av NS3/4A-protease hos hepatitt C-viruset (HCV), og legemidlet har dokumentert effekt ved kronisk hepatitt C.
 
-Den høye TxGNN-scoren gjenspeiler trolig nærhet i kunnskapsgrafen mellom virusinfeksjoner og delte antivirale legemiddelklasser. HIV-protease og HCV NS3/4A-protease er strukturelt forskjellige, og det finnes ingen mekanistisk støtte for anti-HIV-effekt.
+Den høye TxGNN-scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. HIV-protease og HCV NS3/4A-protease er strukturelt forskjellige, og det finnes ingen mekanistisk støtte for anti-HIV-effekt.
 
 Studiene som er funnet, undersøker glecaprevir/pibrentasvir mot hepatitt C hos pasienter med HIV-koinfeksjon. De er best tolket som et signal om effekt og sikkerhet ved HCV i denne pasientgruppen, ikke som evidens for behandling av HIV.
 
@@ -109,7 +110,7 @@ Ingen av publikasjonene dokumenterer effekt mot selve HIV-infeksjonen.
 |---------|------|------|-----------|
 | EMEA/H/C/004430 | Maviret | Ikke oppgitt | Kronisk hepatitt C |
 
-Autorisasjonen er kansellert, og det finnes ingen gyldige autorisasjoner.
+Legemidlet er markedsført, og 1 av 1 autorisasjon er gyldig.
 
 ---
 

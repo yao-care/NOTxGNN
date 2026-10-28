@@ -49,9 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **pseudo-von Willebran
 |------|------|
 | Opprinnelig indikasjon | Hemofili B |
 | Predikert ny indikasjon | Pseudo-von Willebrand sykdom |
-| TxGNN-prediksjonsscore | 99,94 % |
+| TxGNN-prediksjonsscore | 0,9994 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (ingen gyldig tillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 |
 | Anbefalt beslutning | Hold |
 
@@ -69,12 +70,12 @@ Alle nedenstående prediksjoner har evidensnivå L5, ingen kliniske studier og i
 
 | Rang | Sykdom | TxGNN-score | Vurdering av mekanistisk sammenheng |
 |------|------|------|------|
-| 1 | Pseudo-von Willebrand sykdom | 99,94 % | Defekt i trombocyttreseptor, ikke i faktor IX. Svak sammenheng. |
-| 2 | Primær frigjøringsforstyrrelse av blodplater | 99,94 % | Defekt i granulefrigjøring, uavhengig av faktor IX-banen. Spekulativ nytte. |
-| 3 | Glanzmanns trombasteni | 99,92 % | Mangel på integrin αIIbβ3. Etablert behandling virker via andre mekanismer. |
-| 4 | Scott syndrom | 99,63 % | Defekt i TMEM16F/ANO6 og fosfatidylserin-eksponering. Teoretisk, indirekte kobling via tenase-komplekset, men lite sannsynlig at økt faktor IX kompenserer. |
-| 5 | Blødningstendens ved kollagenreseptordefekt | 99,28 % | Defekt trombocyttadhesjon (f.eks. GPVI). Ikke adressert av faktor IX. |
-| 6 | Hemoragisk lidelse ved konstitusjonell trombocytopeni | 99,26 % | Lavt trombocyttall, ikke faktor IX-mangel. Kun felles blødningsfenotype. |
+| 1 | Pseudo-von Willebrand sykdom | 0,9994 | Defekt i trombocyttreseptor, ikke i faktor IX. Svak sammenheng. |
+| 2 | Primær frigjøringsforstyrrelse av blodplater | 0,9994 | Defekt i granulefrigjøring, uavhengig av faktor IX-banen. Spekulativ nytte. |
+| 3 | Glanzmanns trombasteni | 0,9992 | Mangel på integrin αIIbβ3. Etablert behandling virker via andre mekanismer. |
+| 4 | Scott syndrom | 0,9963 | Defekt i TMEM16F/ANO6 og fosfatidylserin-eksponering. Teoretisk, indirekte kobling via tenase-komplekset, men lite sannsynlig at økt faktor IX kompenserer. |
+| 5 | Blødningstendens ved kollagenreseptordefekt | 0,9928 | Defekt trombocyttadhesjon (f.eks. GPVI). Ikke adressert av faktor IX. |
+| 6 | Hemoragisk lidelse ved konstitusjonell trombocytopeni | 0,9926 | Lavt trombocyttall, ikke faktor IX-mangel. Kun felles blødningsfenotype. |
 
 ---
 
@@ -96,7 +97,7 @@ Foreløpig er det ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/003955 | Idelvion | – | Hemofili B |
 
-Tillatelsen er registrert som trukket tilbake (status: cancelled). Det finnes ingen gyldige tillatelser i Norge i de data som er sammenstilt for denne rapporten.
+Legemidlet er markedsført i Norge. Det finnes 1 gyldig tillatelse av 1 i de data som er sammenstilt for denne rapporten.
 
 ---
 

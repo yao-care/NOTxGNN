@@ -50,9 +50,10 @@ og foreløpig finnes det **2 kliniske studier** (begge ikke spesifikke for lipos
 |------|------|
 | Opprinnelig indikasjon | Nyrecellekarsinom; mantelcellelymfom |
 | Predikert ny indikasjon | Liposarkom |
-| TxGNN-prediksjonsscore | 99,54 % |
-| Evidensnivå | L2 (etter tildelt nivå i de kompilerte dataene; se merknad under kliniske studier) |
-| Status på det norske markedet | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| TxGNN-prediksjonsscore | 0,9954 |
+| Evidensnivå | L5 (etter tildelt nivå i de kompilerte dataene; se merknad under kliniske studier) |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -64,9 +65,9 @@ Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i de kompilert
 
 PI3K/AKT/mTOR-signalveien er ofte aktivert i bløtvevssarkomer, inkludert liposarkom. Ved velddifferensierte og dedifferensierte liposarkomer er dessuten MDM2/CDK4-amplifikasjon knyttet til krysskommunikasjon med PI3K/mTOR-signalering. Dette gir et plausibelt biologisk grunnlag for mTOR-hemming.
 
-Den høye TxGNN-scoren (0,995) er i samsvar med dette resonnementet, men er utelukkende en beregningsmessig prediksjon og ikke bevis for klinisk effekt.
+Den høye TxGNN-scoren (0,9954) er i samsvar med dette resonnementet, men er utelukkende en beregningsmessig prediksjon og ikke bevis for klinisk effekt.
 
-Prediksjonene for to ytterligere, svært sjeldne sarkomtyper (ovarielt myksoid liposarkom, score 99,47 %, og vulvasarkom, score 99,09 %) har ingen støtte i studier eller litteratur og er vurdert som «Hold».
+Prediksjonene for to ytterligere, svært sjeldne sarkomtyper (ovarielt myksoid liposarkom, score 0,9947, og vulvasarkom, score 0,9909) har ingen støtte i studier eller litteratur og er vurdert som «Hold».
 
 ---
 
@@ -93,7 +94,7 @@ Prediksjonene for to ytterligere, svært sjeldne sarkomtyper (ovarielt myksoid l
 
 | Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000799 | Torisel | Ikke oppgitt | Nyrecellekarsinom; mantelcellelymfom (status: avregistrert) |
+| EMEA/H/C/000799 | Torisel | Ikke oppgitt | Nyrecellekarsinom; mantelcellelymfom (status: godkjent) |
 
 ---
 

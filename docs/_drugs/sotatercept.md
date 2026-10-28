@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt ved **akutt lymfatis
 |------|------|
 | Opprinnelig indikasjon | Pulmonal hypertensjon |
 | Predikert ny indikasjon | Akutt lymfatisk leukemi |
-| TxGNN-prediksjonsscore | 99,78 % |
+| TxGNN-prediksjonsscore | 0,9978 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellerte registreringer |
-| Antall godkjenninger | 1 (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt ved **akutt lymfatis
 
 Detaljerte data om virkningsmekanisme (MOA) er for øyeblikket ikke tilgjengelige fra de innhentede kildene. Ut fra generell kunnskap om legemiddelklassen fungerer sotatercept som en ligandfelle for aktivin og vekstdifferensieringsfaktorer (GDF-er). Dermed gjenoppretter det balansen mellom proliferative og antiproliferative signaler i BMPR-II/aktivin-banen, noe som er grunnlaget for effekten ved pulmonal hypertensjon.
 
-Koblingen til akutt lymfatisk leukemi er foreløpig bare spekulativ. Signalveiene i aktivin/TGF-beta-familien bidrar til reguleringen av bloddannelsen, men det foreligger verken direkte mekanistiske data eller kliniske data som viser en sammenheng. Den høye TxGNN-scoren (0,998) er utelukkende en beregningsbasert prediksjon og bør ikke tolkes som klinisk støtte.
+Koblingen til akutt lymfatisk leukemi er foreløpig bare spekulativ. Signalveiene i aktivin/TGF-beta-familien bidrar til reguleringen av bloddannelsen, men det foreligger verken direkte mekanistiske data eller kliniske data som viser en sammenheng. Den høye TxGNN-scoren (0,9978) er utelukkende en beregningsbasert prediksjon og bør ikke tolkes som klinisk støtte.
 
 ### Andre predikerte indikasjoner (alle L5, Hold)
 
@@ -69,15 +69,15 @@ Modellen predikerer også følgende indikasjoner, alle uten kliniske studier ell
 
 | Rangering | Predikert indikasjon | Score | Kort vurdering |
 |------|------|------|------|
-| 2 | Alvorlig ikke-proliferativ diabetisk retinopati | 99,77 % | Aktivin/TGF-beta kan påvirke retinal kar-remodellering. Sotatercept har blødnings- og telangiektasi-signaler som er bekymringsfulle i øyet. |
-| 3 | Diabetisk retinopati | 99,72 % | Samme begrunnelse som over. |
-| 4 | Legemiddelindusert osteoporose | 99,65 % | Aktivin A hemmer beindannelse, og hemmere i samme klasse har vist benoppbyggende effekt i dyremodeller. Biologisk plausibelt, men ikke verifisert. |
-| 5 | Diabetisk katarakt | 99,49 % | Svak, indirekte kobling via TGF-beta i linseepitel. |
-| 6 | HER2-positivt brystkarsinom | 99,43 % | Effekten av aktivin/TGF-beta er kontekstavhengig og kan være både gunstig og skadelig. |
-| 7 | Overgangsepitelkarsinom | 99,39 % | Spekulativ kobling via tumormikromiljø og epitelial-mesenkymal transisjon (EMT). |
-| 8 | Urotelialt karsinom i prostatisk uretra | 99,36 % | Samme rasjonale. Scoren gjenspeiler trolig likhet med andre uroteliale oppføringer. |
-| 9 | Sarkomatoid overgangsepitelkarsinom i nyrebekkenet | 99,36 % | Sjelden subtype med EMT-rasjonale. Evidensgenerering vil være vanskelig. |
-| 10 | Infiltrerende sarkomatoid variant av urotelialt blærekarsinom | 99,34 % | Scoren skyldes trolig klynging blant beslektede uroteliale termer. |
+| 2 | Alvorlig ikke-proliferativ diabetisk retinopati | 0,9977 | Aktivin/TGF-beta kan påvirke retinal kar-remodellering. Sotatercept har blødnings- og telangiektasi-signaler som er bekymringsfulle i øyet. |
+| 3 | Diabetisk retinopati | 0,9972 | Samme begrunnelse som over. |
+| 4 | Legemiddelindusert osteoporose | 0,9965 | Aktivin A hemmer beindannelse, og hemmere i samme klasse har vist benoppbyggende effekt i dyremodeller. Biologisk plausibelt, men ikke verifisert. |
+| 5 | Diabetisk katarakt | 0,9949 | Svak, indirekte kobling via TGF-beta i linseepitel. |
+| 6 | HER2-positivt brystkarsinom | 0,9943 | Effekten av aktivin/TGF-beta er kontekstavhengig og kan være både gunstig og skadelig. |
+| 7 | Overgangsepitelkarsinom | 0,9939 | Spekulativ kobling via tumormikromiljø og epitelial-mesenkymal transisjon (EMT). |
+| 8 | Urotelialt karsinom i prostatisk uretra | 0,9936 | Samme rasjonale. Scoren gjenspeiler trolig likhet med andre uroteliale oppføringer. |
+| 9 | Sarkomatoid overgangsepitelkarsinom i nyrebekkenet | 0,9936 | Sjelden subtype med EMT-rasjonale. Evidensgenerering vil være vanskelig. |
+| 10 | Infiltrerende sarkomatoid variant av urotelialt blærekarsinom | 0,9934 | Scoren skyldes trolig klynging blant beslektede uroteliale termer. |
 
 ---
 

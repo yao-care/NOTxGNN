@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt mot **lepra**, men det finn
 |------|------|
 | Opprinnelig indikasjon | Progeri; laminopatier |
 | Predikert ny indikasjon | Lepra |
-| TxGNN-prediksjonsscore | 99,14 % |
+| TxGNN-prediksjonsscore | 0,9914 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldig godkjenning) |
-| Antall godkjenninger | 1 (avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt mot **lepra**, men det finn
 
 Lonafarnib hemmer farnesyltransferase, et enzym som fester en farnesylgruppe til proteiner. Ved progeri og progeroide laminopatier reduserer dette opphopningen av det giftige, farnesylerte proteinet progerin. Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene, så beskrivelsen over bygger på kjent kunnskap om legemiddelklassen.
 
-Det finnes ingen dokumentert mekanistisk kobling mellom farnesyltransferasehemming og infeksjon med *Mycobacterium leprae* eller verts-responsen ved lepra (for eksempel infeksjon av Schwann-celler, immunmodulering i makrofager eller reaksjoner som ENL). Teoretisk kan prenyleringsavhengig signalering (Ras/Rho-GTPaser) påvirke samspillet mellom vert og patogen eller betennelse, men dette er spekulativt og ikke støttet av dataene. Den høye modellscoren (0,991) alene er ikke tilstrekkelig til å vurdere prediksjonen som biologisk plausibel.
+Det finnes ingen dokumentert mekanistisk kobling mellom farnesyltransferasehemming og infeksjon med *Mycobacterium leprae* eller verts-responsen ved lepra (for eksempel infeksjon av Schwann-celler, immunmodulering i makrofager eller reaksjoner som ENL). Teoretisk kan prenyleringsavhengig signalering (Ras/Rho-GTPaser) påvirke samspillet mellom vert og patogen eller betennelse, men dette er spekulativt og ikke støttet av dataene. Den høye modellscoren (0,9914) alene er ikke tilstrekkelig til å vurdere prediksjonen som biologisk plausibel.
 
 ---
 
@@ -83,7 +83,7 @@ Foreløpig finnes det ingen relatert litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/005271 | Zokinvy | Ikke oppgitt | Progeri; laminopatier |
 
-Godkjenningen (innehaver: TMC Pharma (EU) Limited) har status avregistrert. Det finnes ingen gyldige godkjenninger.
+Godkjenningen (innehaver: TMC Pharma (EU) Limited) er gyldig. Legemidlet er markedsført, med 1 gyldig godkjenning av 1.
 
 ---
 

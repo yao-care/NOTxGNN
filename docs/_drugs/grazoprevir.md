@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Grazoprevir
-parent: Kun modellprediksjon (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 198
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Grazoprevir: predikert ny indikasjon HIV-infeksjon (HIV infectious disease) (evidensnivå L5). Opprinnelig indikasjon: Kronisk hepatitt C"
@@ -14,7 +14,7 @@ predicted_indications: ["HIV infectious disease", "hepatitis B virus infection",
 # Grazoprevir
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 ## Oppsummering i én setning
 
-Grazoprevir er en HCV NS3/4A-proteasehemmer som opprinnelig brukes mot kronisk hepatitt C, og som i Zepatier er kombinert med elbasvir. TxGNN-modellen predikerer at legemidlet kan være effektivt mot **HIV-infeksjon**, men prediksjonen skyldes sannsynligvis nærhet i kunnskapsgrafen og ikke en reell anti-HIV-effekt. Det finnes **10 kliniske studier** og **20 publikasjoner** knyttet til denne indikasjonen, men alle studiene har HCV-kur som endepunkt, ikke behandling av HIV.
+Grazoprevir er en HCV NS3/4A-proteasehemmer som opprinnelig brukes mot kronisk hepatitt C, og som i Zepatier er kombinert med elbasvir. TxGNN-modellen (deep learning) predikerer at legemidlet kan være effektivt mot **HIV-infeksjon**. Scoren kommer fra modellen og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Det finnes **10 kliniske studier** og **20 publikasjoner** knyttet til denne indikasjonen, men alle studiene har HCV-kur som endepunkt, ikke behandling av HIV.
 
 ---
 
@@ -48,10 +48,10 @@ Grazoprevir er en HCV NS3/4A-proteasehemmer som opprinnelig brukes mot kronisk h
 |------|------|
 | Opprinnelig indikasjon | Kronisk hepatitt C |
 | Predikert ny indikasjon | HIV-infeksjon (HIV infectious disease) |
-| TxGNN-prediksjonsscore | 99,73 % |
+| TxGNN-prediksjonsscore | 0,9973 |
 | Evidensnivå | L3 (kun observasjons-/oversiktsnivå for HIV-populasjonen; ingen studier av anti-HIV-effekt) |
-| Status i Norge | Kun avregistrert (cancelled only) |
-| Antall godkjenninger | 1 (avregistrert) |
+| Status i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -60,7 +60,7 @@ Grazoprevir er en HCV NS3/4A-proteasehemmer som opprinnelig brukes mot kronisk h
 
 Detaljerte data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige i datagrunnlaget. Grazoprevir er kjent som en NS3/4A-serinproteasehemmer mot hepatitt C-viruset (HCV), og brukes i fastdosekombinasjon med NS5A-hemmeren elbasvir (Zepatier). Effekten ved kronisk hepatitt C er godt dokumentert.
 
-HIV bruker en aspartylprotease, ikke en serinprotease av NS3/4A-typen. Det finnes derfor ingen kjent direkte mekanistisk kobling mellom grazoprevir og HIV. Prediksjonen gjenspeiler trolig at HCV og HIV ligger nær hverandre i kunnskapsgrafen (antivirale midler og proteasehemmere), ikke en faktisk anti-HIV-aktivitet.
+HIV bruker en aspartylprotease, ikke en serinprotease av NS3/4A-typen. Det finnes derfor ingen kjent direkte mekanistisk kobling mellom grazoprevir og HIV. Scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer (HCV og HIV, antivirale midler og proteasehemmere), ikke biologisk evidens eller faktisk anti-HIV-aktivitet.
 
 De kliniske dataene viser at grazoprevir/elbasvir er effektivt og trygt mot HCV hos pasienter med HIV/HCV-samsmitte. Det støtter bruk ved samsmitte, men er ikke belegg for ombruk mot HIV i seg selv.
 
@@ -106,7 +106,7 @@ Ingen av studiene har HIV-effekt som endepunkt.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004126 | Zepatier | Ikke oppgitt | Kronisk hepatitt C (status: avregistrert) |
+| EMEA/H/C/004126 | Zepatier | Ikke oppgitt | Kronisk hepatitt C (status: godkjent) |
 
 ---
 
@@ -124,7 +124,7 @@ Se pakningsvedlegget for øvrig sikkerhetsinformasjon (advarsler og kontraindika
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Grazoprevir hemmer HCV NS3/4A-protease og har ingen kjent aktivitet mot HIV. Alle tilknyttede studier måler HCV-kur, ikke HIV-effekt, og prediksjonen skyldes mest sannsynlig nærhet i kunnskapsgrafen. I tillegg er eneste norske godkjenning avregistrert.
+Grazoprevir hemmer HCV NS3/4A-protease og har ingen kjent aktivitet mot HIV. Alle tilknyttede studier måler HCV-kur, ikke HIV-effekt. Scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Legemidlet er markedsført, og den ene norske godkjenningen er gyldig.
 
 **For å gå videre kreves:**
 - Detaljerte data om virkningsmekanisme (MOA)

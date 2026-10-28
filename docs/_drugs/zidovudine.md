@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Zidovudine
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 460
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Zidovudine: predikert ny indikasjon AIDS-relatert kompleks (AIDS related complex) (evidensnivå L1). Opprinnelig indikasjon: HIV-infeksjon"
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+description: "Zidovudine: predikert ny indikasjon Feline acquired immunodeficiency syndrome (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
 # Zidovudine
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **6** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-## Zidovudin: Fra HIV-infeksjon til AIDS-relatert kompleks (ARC)
+## Zidovudine: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## Sammendrag i én setning
@@ -48,15 +48,16 @@ Dette er i realiteten en historisk, innenfor-indikasjon bruk av HIV-behandling, 
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | HIV-infeksjon |
-| Predikert ny indikasjon | AIDS-relatert kompleks (AIDS related complex) |
-| TxGNN-prediksjonsscore | 99,19 % |
-| Evidensnivå | L1 |
-| Markedsstatus i Norge | Kun trukket tilbake (ingen gyldige markedsføringstillatelser) |
+| Opprinnelig indikasjon | HIV Infections |
+| Predikert ny indikasjon | Feline acquired immunodeficiency syndrome |
+| TxGNN-prediksjonsscore | 0.9996 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Antall tillatelser | 2 (begge trukket tilbake) |
 | Anbefalt beslutning | Proceed with Guardrails (Fortsett med sikkerhetsrammer) |
 
-Merk: Rangering etter TxGNN-score har to dyreindikasjoner øverst (felin immunsviktsykdom og SIV-infeksjon, begge score 99,96 %). Disse har kun dyrestudier (L4, anbefaling «Hold») og er ikke relevante for humant legemiddelomprioriteringsarbeid. Denne rapporten fokuserer på den høyest rangerte indikasjonen med klinisk evidens hos mennesker: AIDS-relatert kompleks.
+Merk: Rangering etter TxGNN-score har to dyreindikasjoner øverst (felin immunsviktsykdom og SIV-infeksjon, begge score 0,9996). Disse har kun dyrestudier (L4, anbefaling «Hold») og er ikke relevante for humant legemiddelomprioriteringsarbeid.
 
 ---
 
@@ -110,7 +111,7 @@ Dataene inneholder 40 registrerte studier. De mest relevante er listet under.
 
 ## Markedsinformasjon for Norge
 
-Det finnes ingen gyldige markedsføringstillatelser. De to registrerte tillatelsene er trukket tilbake.
+De to registrerte tillatelsene er trukket tilbake.
 
 | Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -142,7 +143,7 @@ Opplysninger om advarsler og kontraindikasjoner fra preparatomtalen mangler i da
 **Beslutning: Proceed with Guardrails (Fortsett med sikkerhetsrammer)**
 
 **Begrunnelse:**
-- Flere fase 3-studier (blant annet NCT00001011, n=538) støtter zidovudin ved ARC, men dette er en etablert og historisk indikasjon innenfor HIV-behandling, ikke ny bruk. Legemidlet har ingen gyldig markedsføringstillatelse i Norge, og moderne praksis bruker kombinasjonsbehandling.
+- Flere fase 3-studier (blant annet NCT00001011, n=538) støtter zidovudin ved ARC, men dette er en etablert og historisk indikasjon innenfor HIV-behandling, ikke ny bruk.
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (mangler i datagrunnlaget)
@@ -150,7 +151,6 @@ Opplysninger om advarsler og kontraindikasjoner fra preparatomtalen mangler i da
 - Bruk kun innenfor kombinasjonsbehandling (ART), ikke som monoterapi
 - Plan for overvåkning av hematologisk toksisitet (anemi, nøytropeni), lever- og nyrefunksjon
 - Gjennomgang av den store interaksjonsbyrden (100 registrerte interaksjoner)
-- Avklaring av regulatorisk status, siden alle norske tillatelser er trukket tilbake
 
 **Øvrige prediksjoner (kort):**
 - Felin immunsviktsykdom og SIV-infeksjon: kun dyrestudier (L4), Hold; ikke relevant for human bruk.

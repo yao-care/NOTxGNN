@@ -50,10 +50,10 @@ men så langt finnes **ingen kliniske studier** og bare **2 publikasjoner** (hvo
 |------|------|
 | Opprinnelig indikasjon | Brystkreft (Breast Neoplasms) |
 | Predikert ny indikasjon | HIV-infeksjon |
-| TxGNN-prediksjonsscore | 99,91 % |
+| TxGNN-prediksjonsscore | 0,9991 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
-| Antall godkjenninger | 2 (begge kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -120,7 +120,7 @@ Offisielle advarsler og kontraindikasjoner fra preparatomtalen mangler i de samm
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Evidensen for HIV-infeksjon er begrenset til én preklinisk mekanistisk studie og én indirekte retrovirusanalyse, uten kliniske studier. Fulvestrant har dessuten ingen gyldig markedsføringstillatelse i Norge i dag (begge godkjenninger er kansellert), og preparatomtalens sikkerhetsdata mangler, noe som hindrer videre sikkerhetsscreening.
+Evidensen for HIV-infeksjon er begrenset til én preklinisk mekanistisk studie og én indirekte retrovirusanalyse, uten kliniske studier. Fulvestrant er dessuten markedsført i Norge med 2 gyldige markedsføringstillatelser av 2, og preparatomtalens sikkerhetsdata mangler, noe som hindrer videre sikkerhetsscreening.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtalen (advarsler og kontraindikasjoner), som er en blokkerende datamangel

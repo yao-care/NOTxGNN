@@ -39,7 +39,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 ## Oppsummering i én setning
 
 Eftrenonacog alfa er et rekombinant faktor IX-Fc-fusjonsprotein som opprinnelig brukes til behandling av **hemofili B**.
-TxGNN-modellen predikerer at det kan ha effekt ved **pseudo-von Willebrands sykdom** (score 99,48 %),
+TxGNN-modellen predikerer at det kan ha effekt ved **pseudo-von Willebrands sykdom** (score 0,9948),
 men det finnes **ingen kliniske studier og ingen publikasjoner** som støtter denne retningen. Prediksjonen er kun modellbasert.
 
 ## Hurtigoversikt
@@ -48,10 +48,10 @@ men det finnes **ingen kliniske studier og ingen publikasjoner** som støtter de
 |------|------|
 | Opprinnelig indikasjon | Hemofili B |
 | Predikert ny indikasjon | Pseudo-von Willebrands sykdom (pseudo-von Willebrand disease) |
-| TxGNN-prediksjonsscore | 99,48 % |
+| TxGNN-prediksjonsscore | 0,9948 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun tilbakekalt/avregistrert (kun kansellerte godkjenninger) |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
@@ -60,7 +60,7 @@ Data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede data
 
 Pseudo-von Willebrands sykdom (trombocytt-type VWD) skyldes en «gain-of-function»-defekt i trombocyttenes GPIbα. Denne gir økt affinitet for VWF, klarering av trombocytter og tap av høymolekylære VWF-multimerer. Defekten ligger i samspillet mellom trombocytter og VWF, ikke i mangel på faktor IX. Det finnes derfor ingen klar mekanistisk begrunnelse for faktor IX-erstatning.
 
-Den høye TxGNN-scoren (0,995) gjenspeiler trolig nærhet i kunnskapsgrafen til blødningssykdommer generelt, og støttes ikke av biologiske eller kliniske data.
+Den høye TxGNN-scoren (0,9948) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 ### Øvrige predikerte indikasjoner
 
@@ -68,8 +68,8 @@ Også de to neste prediksjonene mangler støtte:
 
 | Rang | Predikert indikasjon | TxGNN-score | Evidensnivå | Vurdering |
 |------|------|------|------|------|
-| 2 | Primær frigjøringsforstyrrelse i trombocytter | 99,42 % | L5 | Defekten ligger i trombocyttenes granulasekresjon. Faktor IX virker lenger nede i koagulasjonskaskaden og korrigerer ikke dette. Enhver kobling er spekulativ. |
-| 3 | Glanzmanns trombasteni | 99,28 % | L5 | Skyldes mangel på eller dysfunksjon i integrin αIIbβ3. Standardbehandling er trombocyttransfusjon, antifibrinolytika og rekombinant faktor VIIa, og faktor IX adresserer ikke aggregasjonsdefekten. |
+| 2 | Primær frigjøringsforstyrrelse i trombocytter | 0,9942 | L5 | Defekten ligger i trombocyttenes granulasekresjon. Faktor IX virker lenger nede i koagulasjonskaskaden og korrigerer ikke dette. Enhver kobling er spekulativ. |
+| 3 | Glanzmanns trombasteni | 0,9928 | L5 | Skyldes mangel på eller dysfunksjon i integrin αIIbβ3. Standardbehandling er trombocyttransfusjon, antifibrinolytika og rekombinant faktor VIIa, og faktor IX adresserer ikke aggregasjonsdefekten. |
 
 ## Klinisk studieevidens
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lamivudine
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 230
-evidence_level: L3
+evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-15
-description: "Lamivudine: predikert ny indikasjon Felint ervervet immunsviktsyndrom (FIV) (evidensnivå L3). Opprinnelig indikasjon: HIV-infeksjon"
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
+last_modified_at: 2026-10-27
+description: "Lamivudine: predikert ny indikasjon Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome) (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
 # Lamivudine
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **5** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-## Lamivudin: Fra HIV-infeksjon og kronisk hepatitt B til felint ervervet immunsviktsyndrom
+## Lamivudin: nukleosid revers transkriptase-hemmer → Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
-## Oppsummering i en setning
+## Oppsummering i én setning
 
-Lamivudin er en nukleosid-revers transkriptasehemmer (NRTI) som opprinnelig brukes til behandling av **HIV-infeksjon** og **kronisk hepatitt B**.
-TxGNN-modellen forutsier at legemidlet kan være effektivt mot **felint ervervet immunsviktsyndrom (FIV hos katt)**, med en score på nesten 100 %.
-Støtten består av **3 publikasjoner** (kohort- og in vitro-studier på katter) og **ingen kliniske studier**. Dette er en veterinær problemstilling, ikke en ny human indikasjon.
+Lamivudin er en nukleosid revers transkriptase-hemmer (NRTI) som er brukt mot virusinfeksjoner.
+TxGNN-modellen predikerer at legemidlet kan ha effekt ved **felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome)**, en veterinærmedisinsk tilstand hos katt.
+Dette støttes av **0 kliniske studier** og **3 publikasjoner** (kohortstudier på katter med FIV), og dette er dermed et forskningsspørsmål snarere enn en ny human indikasjon.
 
 ---
 
@@ -48,32 +48,29 @@ Støtten består av **3 publikasjoner** (kohort- og in vitro-studier på katter)
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | HIV-infeksjon |
-| Predikert ny indikasjon | Felint ervervet immunsviktsyndrom (FIV) |
-| TxGNN-prediksjonsscore | 99,93 % |
-| Evidensnivå | L3 |
-| Markedsstatus i Norge | Kun avregistrerte (utgåtte) tillatelser |
-| Antall tillatelser | 10 (alle avregistrert) |
+| Opprinnelig indikasjon | HIV Infections; Hepatitis B, Chronic |
+| Predikert ny indikasjon | Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome) |
+| TxGNN-prediksjonsscore | 0,9993 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 10 av 10) |
+| Antall godkjenninger | 10 (gyldige: 10) |
 | Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanismen er for tiden ikke tilgjengelige i de innsamlede dataene. Basert på kjent informasjon er lamivudin en NRTI. Effekten ved HIV og hepatitt B er dokumentert, og mekanismen (kjedeterminering av viral DNA-syntese) kan mekanistisk være relevant for beslektede retrovirus.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Lamivudin er en NRTI som hemmer virusets DNA-syntese ved kjedeterminering. Felint immunsviktvirus (FIV) er et lentivirus hvis revers transkriptase ligner på den til HIV-1, og en felles mekanisme er derfor plausibel.
 
-FIV er et lentivirus med en revers transkriptase som ligner på den hos HIV-1. Flere HIV-legemidler har vist aktivitet mot FIV, og katt brukes som dyremodell for HIV. Prediksjonen er derfor biologisk plausibel. Publisert arbeid gjelder imidlertid hovedsakelig kombinasjonsregimer (zidovudin + lamivudin, eller zidovudin + lamivudin + abakavir), ikke lamivudin alene.
+Publiserte arbeider omfatter kombinasjonsregimer med antiretrovirale midler hos naturlig infiserte katter. I den ene studien ble zidovudin + lamivudin sammenlignet med andre protokoller. Studiene gjelder imidlertid kombinasjoner (zidovudin, lamivudin, abakavir), ikke lamivudin alene, og effekten av lamivudin som enkeltstoff kan ikke utledes.
 
-Andre prediksjoner i datagrunnlaget er svakere:
-- **Simian immunsviktvirus (SIV)-infeksjon**: Dyremodell i makaker der M184V-mutasjonen (lamivudinresistens) er karakterisert. Dette støtter den opprinnelige HIV-indikasjonen, men er ikke en ny human indikasjon. Noe av litteraturen er irrelevant (f.eks. HIV-epidemiologi i Elfenbenskysten) eller gjelder andre legemidler.
-- **Kronisk hepatitt C**: Lamivudin hemmer ikke HCV NS5B RNA-polymerase, og litteraturen består av generelle oversikter om viral hepatitt. Dagens standardbehandling (direktevirkende antivirale midler) er svært effektiv, så det er liten begrunnelse for repurposing.
-- **Nevroutviklingsforstyrrelse med ataktisk gange** og **foreldet familiær kombinert hyperlipidemi**: Ingen studier, ingen litteratur og ingen tydelig mekanistisk kobling.
+Merk at dette er en veterinærindikasjon. Den er ikke en ny indikasjon for mennesker.
 
 ---
 
 ## Evidens fra kliniske studier
 
-Foreløpig er ingen relaterte kliniske studier registrert.
+Foreløpig ingen relaterte kliniske studier registrert.
 
 ---
 
@@ -81,41 +78,32 @@ Foreløpig er ingen relaterte kliniske studier registrert.
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Kohort | Viruses | Ulike antiretrovirale protokoller (AZT alene, AZT + interferon, AZT + lamivudin, AZT + valproinsyre) hos naturlig FIV-infiserte katter i sen asymptomatisk fase, fulgt i ett år med vurdering av virusmengde og CD4+/CD8+-forhold |
-| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Kohort | Journal of Feline Medicine and Surgery | Langtidseffekter av antiretroviral behandling (initialt AZT) over 5–6 år hos FIV-infiserte katter |
-| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | Kohort (in vitro) | Antiviral Research | Kombinasjonen zidovudin, lamivudin og abakavir hemmer FIV-replikasjon in vitro; FIV brukes som dyremodell for HIV |
+| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Kohort | Viruses | Sammenligning av antiretrovirale protokoller (zidovudin alene, + interferon-α, + lamivudin, + valproat) hos naturlig FIV-infiserte katter i sen asymptomatisk fase, med oppfølging i ett år (viral last, CD4+/CD8+-forhold) |
+| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Kohort | Journal of Feline Medicine and Surgery | Oppfølging av langtidsbehandling med antiretroviral terapi (startet med zidovudin) hos FIV-infiserte katter over 5–6 år |
+| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | Kohort | Antiviral Research | Kombinert effekt av zidovudin, lamivudin og abakavir på hemming av FIV-replikasjon in vitro |
 
 ---
 
-## Markedsinformasjon for Norge
+## Informasjon om markedet i Norge
 
-Alle 10 tillatelser i datagrunnlaget er avregistrert. Ingen er gyldige i dag. Tillatelsene er europeiske sentrale godkjenninger (EMEA).
-
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/001111 | Lamivudine Teva Pharma B.V. | – | HIV-infeksjon |
-| EMEA/H/C/001113 | Lamivudine Teva | – | Kronisk hepatitt B |
-| EMEA/H/C/000107 | Epivir | – | HIV-infeksjon |
-| EMEA/H/C/000242 | Zeffix | – | Kronisk hepatitt B |
-| EMEA/H/C/000581 | Kivexa | – | HIV-infeksjon |
+| EMEA/H/C/001111 | Lamivudine Teva Pharma B.V. | – | – |
+| EMEA/H/C/001113 | Lamivudine Teva | – | – |
+| EMEA/H/C/000107 | Epivir | – | – |
+| EMEA/H/C/000242 | Zeffix | – | – |
+| EMEA/H/C/000581 | Kivexa | – | – |
+
+Tabellen viser de fem første av i alt ti registrerte godkjenninger.
 
 ---
 
 ## Sikkerhetsvurderinger
 
-**Kontraindikasjoner/risikotilstander fra kunnskapsgrafen (ikke fra preparatomtale):**
-Følgende sykdommer er koblet til legemidlet i TxGNN-kunnskapsgrafen (PrimeKG): leversvikt, nyresykdom, pankreatitt, leversykdom, galleblæresykdom, myopati og andre muskelsykdommer (inkl. dermatomyositt og myositt), nøytropeni, agranulocytose, anemi (inkl. makrocytær anemi), hypertriglyseridemi, fedme, fettlever (inkl. NASH) og laktacidose.
+- **Kontraindikasjoner/risikoforhold registrert i modelldata (ikke fra preparatomtale):** leversvikt, nyresykdom, pankreatitt, leversykdom, galleblæresykdom, myopati og muskelsykdom, nøytropeni, agranulocytose, anemi, fettlever, laktacidose, dermatomyositt og myositt.
+- **Legemiddelinteraksjoner:** 100 interaksjoner er registrert. Moderate interaksjoner gjelder blant annet laktitol, mannitol, naltrekson, orlistat og sorbitol. Flere andre har uklart alvorlighetsnivå (blant annet metformin, cimetidin, omeprazol og vankomycin).
 
-**Legemiddelinteraksjoner:** 100 interaksjoner er registrert. De viktigste med moderat alvorlighetsgrad er:
-- Laktitol
-- Mannitol
-- Naltrekson
-- Orlistat
-- Sorbitol
-
-Ytterligere interaksjoner med ukjent alvorlighetsgrad omfatter bl.a. metformin, cimetidin, amfotericin B, vankomycin, morfin og protonpumpehemmere (omeprazol, pantoprazol, lansoprazol).
-
-Se preparatomtalen for fullstendig sikkerhetsinformasjon, siden advarsler og kontraindikasjoner fra norsk preparatomtale ikke er tilgjengelige.
+Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 ---
 
@@ -124,14 +112,13 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon, siden advarsler og kon
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for FIV er mekanistisk plausibel, men støttes kun av kohort- og in vitro-studier som i hovedsak gjelder kombinasjonsbehandling. Indikasjonen er veterinær, ingen kliniske studier er registrert, og alle norske tillatelser er avregistrert. Evidensen gir derfor et forskningsspørsmål, ikke et grunnlag for videre utvikling hos mennesker.
+Ingen kliniske studier er registrert, og de tre publikasjonene er kohortstudier hos katter med kombinasjonsregimer, ikke lamivudin alene. Ingen studie gjelder en human indikasjon. Evidensnivået settes derfor til L5, og prediksjonen er et forskningsspørsmål.
 
-**For å gå videre kreves:**
-- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Avklaring av om målet er veterinær bruk, siden det ikke er en human indikasjon
-- Studier som isolerer effekten av lamivudin alene, ikke bare i kombinasjon
-- Vurdering av administrasjonsvei og doseringsform (ikke tilgjengelig i dag)
+**For å gå videre kreves følgende:**
+- Data om virkningsmekanisme (MOA)
+- Sikkerhetsdata fra preparatomtale (advarsler og kontraindikasjoner)
+- Kontrollerte veterinærstudier som isolerer effekten av lamivudin som enkeltstoff
+- Avklaring av om veterinærindikasjonen faller innenfor omfanget av humanlegemiddelvurderingen
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

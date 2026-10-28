@@ -50,10 +50,10 @@ men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** som stø
 |------|------|
 | Opprinnelig indikasjon | Akutt myeloid leukemi |
 | Predikert ny indikasjon | Bulbær polio |
-| TxGNN-prediksjonsscore | 99,10 % |
+| TxGNN-prediksjonsscore | 0,9910 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellert godkjenning |
-| Antall godkjenninger | 1 (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---

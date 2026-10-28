@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tipranavir
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 420
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Tipranavir: predikert ny indikasjon Felint ervervet immunsviktsyndrom (evidensnivå L4). Opprinnelig indikasjon: HIV-infeksjon"
 monitor_inn: "TIPRANAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
+description: "Tipranavir: predikert ny indikasjon Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome) (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
 # Tipranavir
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Tipranavir: Fra HIV-infeksjon til felint ervervet immunsviktsyndrom
+## Tipranavir: Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -48,12 +48,12 @@ men i dataene som er samlet inn for denne rapporten finnes **ingen kliniske stud
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | HIV-infeksjon |
-| Predikert ny indikasjon | Felint ervervet immunsviktsyndrom |
-| TxGNN-prediksjonsscore | 99,99 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun trukket tilbake (avregistrert) |
-| Antall godkjenninger | 1 (0 gyldige, 1 trukket tilbake) |
+| Opprinnelig indikasjon | HIV Infections |
+| Predikert ny indikasjon | Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome) |
+| TxGNN-prediksjonsscore | 0.9999 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold (avvent) |
 
 ---
@@ -62,11 +62,11 @@ men i dataene som er samlet inn for denne rapporten finnes **ingen kliniske stud
 
 Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Basert på kjent informasjon er tipranavir en HIV-1-proteasehemmer. Effekten ved HIV-infeksjon er etablert, og mekanistisk kan den være aktuell for beslektede lentivirus.
 
-Felint immunsviktvirus (FIV) er et lentivirus med en protease som er i slekt med HIV-1-proteasen, så en effekt er biologisk plausibel. FIV-proteasen skiller seg likevel fra HIV-proteasen i substratspesifisitet og følsomhet for hemmere, og ingen data om dette er tilgjengelige her. Den høye TxGNN-scoren gjenspeiler trolig likhet i kunnskapsgrafen med HIV-relaterte sykdommer.
+Felint immunsviktvirus (FIV) er et lentivirus med en protease som er i slekt med HIV-1-proteasen, så en effekt er biologisk plausibel. FIV-proteasen skiller seg likevel fra HIV-proteasen i substratspesifisitet og følsomhet for hemmere, og ingen data om dette er tilgjengelige her.
 
 Det er viktig å merke seg at dette er en veterinær indikasjon uten direkte klinisk relevans for mennesker. Legemidlet er dessuten avregistrert i Norge.
 
-Andre prediksjoner fra modellen er: simian immunsviktvirus-infeksjon (score 99,99 %, hovedsakelig en dyremodell hos ikke-menneskelige primater), AIDS-relatert kompleks og medfødt HIV (begge overlapper med den godkjente HIV-indikasjonen, og er derfor ikke reell repurposing), samt en rekke svulstdiagnoser og en nevroutviklingsforstyrrelse uten sannsynlig mekanistisk forbindelse. For «obsolete familial combined hyperlipidemia» er sammenhengen trolig motsatt: proteasehemmere gir ofte dyslipidemi som bivirkning.
+Andre prediksjoner fra modellen er: simian immunsviktvirus-infeksjon (score 0,9999, hovedsakelig en dyremodell hos ikke-menneskelige primater), AIDS-relatert kompleks og medfødt HIV (begge overlapper med den godkjente HIV-indikasjonen, og er derfor ikke reell repurposing), samt en rekke svulstdiagnoser og en nevroutviklingsforstyrrelse uten sannsynlig mekanistisk forbindelse. For «obsolete familial combined hyperlipidemia» er sammenhengen trolig motsatt: proteasehemmere gir ofte dyslipidemi som bivirkning.
 
 ---
 
@@ -86,7 +86,7 @@ Det foreligger foreløpig ingen relevant litteratur.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000631 | Aptivus (Boehringer Ingelheim International GmbH) | Ikke oppgitt | HIV-infeksjon (status: trukket tilbake) |
+| EMEA/H/C/000631 | Aptivus (Boehringer Ingelheim International GmbH) | Ikke oppgitt | HIV-infeksjon (status: godkjent) |
 
 ---
 

@@ -4,7 +4,7 @@ title: Pembrolizumab
 parent: Kun modellprediksjon (L5)
 nav_order: 318
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Pembrolizumab: predikert ny indikasjon Gingival fibromatose (evidensnivå L5). Opprinnelig indikasjon: Melanom"
 monitor_inn: "PEMBROLIZUMAB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with 
 # Pembrolizumab
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,10 @@ Prediksjonen er derfor kun modellbasert og har svært svakt evidensgrunnlag.
 |------|------|
 | Opprinnelig indikasjon | Melanom; Hodgkin-lymfom; nyrecellekarsinom; ikke-småcellet lungekreft; urotelkarsinom; plateepitelkarsinom i hode og hals; urologiske neoplasmer; endometrieneoplasmer |
 | Foreslått ny indikasjon | Gingival fibromatose |
-| TxGNN-prediksjonsscore | 99,40 % |
+| TxGNN-prediksjonsscore | 0.9940 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellert (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (kansellert) |
 | Anbefalt beslutning | Hold |
 
@@ -62,7 +63,7 @@ Prediksjonen er derfor kun modellbasert og har svært svakt evidensgrunnlag.
 
 Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Pembrolizumab er kjent som et monoklonalt antistoff mot PD-1-reseptoren (PDCD1/CD279). Ved å blokkere PD-1 løsnes bremsen på T-cellene, slik at immunsystemet lettere angriper kreftceller.
 
-Gingival fibromatose er en godartet, fibrotisk tilstand i tannkjøttet, ofte genetisk eller legemiddelutløst. Den har ingen opplagt kobling til PD-1-banen, og immunaktivering ventes ikke å være gunstig. Den høye prediksjonsscoren ser dermed ut til å skyldes struktur i kunnskapsgrafen, ikke en reell terapeutisk begrunnelse.
+Gingival fibromatose er en godartet, fibrotisk tilstand i tannkjøttet, ofte genetisk eller legemiddelutløst. Den har ingen opplagt kobling til PD-1-banen, og immunaktivering ventes ikke å være gunstig. Den høye prediksjonsscoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 Lignende vurderinger gjelder for de andre topprangerte prediksjonene (blant annet inklusjonslegememyopati med Paget sykdom, godartede lungesvulster, ovarioleukodystrofi): ingen plausibel PD-1-mekanisme, og for enkelte kan immunaktivering være skadelig (for eksempel kan sjekkpunkthemmere gi immunrelatert myositt). Den eneste prediksjonen med reell klinisk nærhet er hilært lungekarsinom, som i praksis er en indikasjon innenfor ikke-småcellet lungekreft der pembrolizumab allerede er godkjent, og dermed en utvidelse av eksisterende bruk snarere enn ekte repurposing.
 
@@ -86,7 +87,7 @@ Det er for tiden ingen relevant litteratur tilgjengelig for gingival fibromatose
 |---------|------|------|-----------|
 | EMEA/H/C/003820 | Keytruda | Ikke oppgitt | Melanom; Hodgkin-lymfom; nyrecellekarsinom; ikke-småcellet lungekreft; urotelkarsinom; plateepitelkarsinom i hode og hals... (status: kansellert) |
 
-Merk: Den eneste tillatelsen i datagrunnlaget er kansellert, så det er ingen gyldig tillatelse som per nå dekker markedsføring i Norge ifølge disse dataene.
+Merk: Legemidlet er markedsført i Norge, og 1 av 1 tillatelser i datagrunnlaget er gyldig.
 
 ---
 

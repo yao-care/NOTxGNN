@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pertuzumab
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 323
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Pertuzumab: predikert ny indikasjon Progesteronreseptor-positiv brystkreft (evidensnivå L1). Opprinnelig indikasjon: Brystkreft (Breast Neoplasms)"
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
+description: "Pertuzumab: predikert ny indikasjon Ectomesenchymoma (evidensnivå L5). Opprinnelig indikasjon: Breast Neoplasms"
 ---
 
 # Pertuzumab
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Pertuzumab: Fra brystkreft til progesteronreseptor-positiv brystkreft
+## Pertuzumab: Ectomesenchymoma
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -49,12 +49,12 @@ Dette er i realiteten en undergruppe av den opprinnelige indikasjonen, ikke en r
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Brystkreft (Breast Neoplasms) |
-| Predikert ny indikasjon | Progesteronreseptor-positiv brystkreft |
-| TxGNN-prediksjonsscore | 99,93 % |
-| Evidensnivå | L1 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldige godkjenninger) |
-| Antall godkjenninger | 2 (begge avregistrert) |
+| Opprinnelig indikasjon | Breast Neoplasms |
+| Predikert ny indikasjon | Ectomesenchymoma |
+| TxGNN-prediksjonsscore | 0.9971 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
 
 ---
@@ -98,8 +98,8 @@ Studiene WSG-ADAPT og WSG TP-II støtter bruk av pertuzumab + trastuzumab, med e
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/002547 | Perjeta (avregistrert) | Ikke oppgitt | Brystkreft (Breast Neoplasms) |
-| EMEA/H/C/005386 | Phesgo (avregistrert) | Ikke oppgitt | Brystkreft (Breast Neoplasms) |
+| EMEA/H/C/002547 | Perjeta (godkjent) | Ikke oppgitt | Brystkreft (Breast Neoplasms) |
+| EMEA/H/C/005386 | Phesgo (godkjent) | Ikke oppgitt | Brystkreft (Breast Neoplasms) |
 
 Begge godkjenningene er registrert som avregistrert. Dette bør kontrolleres mot gjeldende regional merking for referanseproduktet og biosimilarer.
 

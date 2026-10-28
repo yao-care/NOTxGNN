@@ -4,17 +4,17 @@ title: Phenylephrine
 parent: Moderat evidens (L3-L4)
 nav_order: 325
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-15
 description: "Phenylephrine: predikert ny indikasjon Sykdom i nesehulen (nasal cavity disease) (evidensnivå L4). Opprinnelig indikasjon: Intraokulær linseimplantasjon"
 monitor_inn: "PHENYLEPHRINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 ---
 
 # Phenylephrine
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,10 @@ TxGNN-modellen forutsier at det kan være effektivt ved **sykdom i nesehulen** (
 |------|------|
 | Opprinnelig indikasjon | Intraokulær linseimplantasjon; postoperativ smerte |
 | Predikert ny indikasjon | Sykdom i nesehulen (nasal cavity disease) |
-| TxGNN-prediksjonsscore | 99,97 % |
+| TxGNN-prediksjonsscore | 0,9997 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun opphevet (ingen gyldige markedsføringstillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (opphevet) |
 | Anbefalt beslutning | Hold |
 
@@ -66,8 +67,8 @@ Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige i det innsamled
 Den opprinnelige indikasjonen (øyekirurgi, hovedsakelig pupilleutvidelse og smertekontroll) ligger langt fra nesesykdom, og likheten mellom indikasjonene er ikke vurdert. Den mekanistiske koblingen er derfor plausibel, men ikke bekreftet av direkte data.
 
 Det finnes også to andre prediksjoner på lavere evidensnivå:
-- **Akutt laryngofaryngitt** (score 99,97 %, L5): kun modellprediksjon, uten studier eller litteratur. Mekanismen er spekulativ, og beslutningen er Hold.
-- **Trigeminal autonom hodepine** (score 99,30 %, L4): litteraturen er hovedsakelig pupillometriske studier fra 1980–90-tallet, der fenylefrin brukes som diagnostisk probe for sympatisk funksjon, ikke som behandling. Beslutningen er Hold.
+- **Akutt laryngofaryngitt** (score 0,9997, L5): kun modellprediksjon, uten studier eller litteratur. Mekanismen er spekulativ, og beslutningen er Hold.
+- **Trigeminal autonom hodepine** (score 0,9930, L4): litteraturen er hovedsakelig pupillometriske studier fra 1980–90-tallet, der fenylefrin brukes som diagnostisk probe for sympatisk funksjon, ikke som behandling. Beslutningen er Hold.
 
 ---
 
@@ -118,7 +119,7 @@ Preparatomtalens advarsler og kontraindikasjoner er ikke tilgjengelige. Se prepa
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den farmakologiske mekanismen er plausibel for nesehulen, men det finnes ingen registrerte kliniske studier og kun indirekte litteratur. Omidria har dessuten ingen gyldig tillatelse i Norge, og viktige sikkerhetsdata mangler.
+Den farmakologiske mekanismen er plausibel for nesehulen, men det finnes ingen registrerte kliniske studier og kun indirekte litteratur. Omidria er markedsført i Norge med 1 gyldig tillatelse av 1, men viktige sikkerhetsdata mangler.
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datagap for sikkerhetsscreening)

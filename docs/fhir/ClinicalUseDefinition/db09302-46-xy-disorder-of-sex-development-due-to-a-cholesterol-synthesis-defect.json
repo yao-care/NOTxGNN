@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db09302-46-xy-disorder-of-sex-development-due-to-a-cholesterol-synthesis-defect",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db09302"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "46,XY disorder of sex development due to a cholesterol synthesis defect"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9935
+    }
+  ]
+}

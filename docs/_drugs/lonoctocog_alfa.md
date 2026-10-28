@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **pseudo-von Willebran
 |------|------|
 | Opprinnelig indikasjon | Hemofili A |
 | Predikert ny indikasjon | Pseudo-von Willebrand sykdom |
-| TxGNN-prediksjonsscore | 99,85 % |
+| TxGNN-prediksjonsscore | 0,9985 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (kansellert) |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 Merk: Den eneste registrerte godkjenningen (EMEA/H/C/004075) er en sentral europeisk markedsføringstillatelse, og den er kansellert.
@@ -71,9 +71,9 @@ Den høye TxGNN-scoren er derfor en beregningsmessig prediksjon, uten støtte i 
 
 | Rang | Sykdom | TxGNN-score | Evidensnivå | Vurdering av mekanistisk kobling |
 |------|------|------|------|------|
-| 2 | Primær frigjøringsforstyrrelse av blodplater | 99,84 % | L5 | Defekten ligger i blodplatene. FVIII korrigerer ikke sekresjonsdefekter. Scoren gjenspeiler trolig nærhet i nettverket mellom blødningslidelser. |
-| 3 | Glanzmanns trombasteni | 99,76 % | L5 | Skyldes mangel på eller dysfunksjon av integrin αIIb/β3. Koagulasjonskaskaden er normal. Standardbehandling er blodplatetransfusjon, rekombinant FVIIa og antifibrinolytika. |
-| 4 | Scotts syndrom | 99,44 % | L5 | Defekt eksponering av fosfatidylserin på aktiverte blodplater (TMEM16F/ANO6). Løs konseptuell kobling til tenase-komplekset, men FVIII forventes ikke å korrigere defekten. |
+| 2 | Primær frigjøringsforstyrrelse av blodplater | 0,9984 | L5 | Defekten ligger i blodplatene. FVIII korrigerer ikke sekresjonsdefekter. Scoren gjenspeiler trolig nærhet i nettverket mellom blødningslidelser. |
+| 3 | Glanzmanns trombasteni | 0,9976 | L5 | Skyldes mangel på eller dysfunksjon av integrin αIIb/β3. Koagulasjonskaskaden er normal. Standardbehandling er blodplatetransfusjon, rekombinant FVIIa og antifibrinolytika. |
+| 4 | Scotts syndrom | 0,9944 | L5 | Defekt eksponering av fosfatidylserin på aktiverte blodplater (TMEM16F/ANO6). Løs konseptuell kobling til tenase-komplekset, men FVIII forventes ikke å korrigere defekten. |
 
 ---
 

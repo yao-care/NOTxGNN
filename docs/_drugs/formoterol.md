@@ -4,17 +4,17 @@ title: Formoterol
 parent: Kun modellprediksjon (L5)
 nav_order: 179
 evidence_level: L5
-indication_count: 6
-last_modified_at: 2026-10-15
-description: "Formoterol: predikert ny indikasjon Respiratorisk misdannelse (evidensnivå L5). Opprinnelig indikasjon: Kronisk obstruktiv lungesykdom (KOLS)"
+indication_count: 3
 monitor_inn: "formoterol"
 predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome"]
+last_modified_at: 2026-10-27
+description: "Formoterol: predikert ny indikasjon Luftveismisdannelse (respiratory malformation) (evidensnivå L5). Opprinnelig indikasjon: Pulmonary Disease, Chronic Obstructive"
 ---
 
 # Formoterol
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-## Formoterol: Fra kronisk obstruktiv lungesykdom til respiratorisk misdannelse
+## Formoterol: langtidsvirkende beta2-agonist → Luftveismisdannelse (respiratory malformation)
 {: .text-alpha }
 
-## Oppsummering
+## Oppsummering i én setning
 
-Formoterol er en langtidsvirkende beta2-agonist (LABA) som brukes mot kronisk obstruktiv lungesykdom (KOLS) og astma, ofte i kombinasjon med andre inhalasjonsmidler. TxGNN-modellen forutsier at legemidlet kan ha effekt ved **respiratorisk misdannelse**. Det finnes **ingen registrerte kliniske studier** og **ingen litteratur som direkte støtter** denne retningen. Prediksjonen er derfor kun modellbasert.
+Formoterol er en langtidsvirkende beta2-agonist som utvider luftveiene. Modellen TxGNN spår at legemidlet kan ha effekt ved **luftveismisdannelse (respiratory malformation)**, men for denne sykdommen er det **ingen kliniske studier** og **ingen publikasjoner som direkte omhandler tilstanden**, så støtten er svært svak.
 
 ---
 
@@ -46,68 +46,68 @@ Formoterol er en langtidsvirkende beta2-agonist (LABA) som brukes mot kronisk ob
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Kronisk obstruktiv lungesykdom (KOLS) |
-| Foreslått ny indikasjon | Respiratorisk misdannelse |
-| TxGNN-score | 99,92 % |
+| Opprinnelig indikasjon | Pulmonary Disease, Chronic Obstructive; Pulmonary Disease, Chronic Obstructive;Asthma; Asthma;Pulmonary Disease, Chronic Obstructive |
+| Foreslått ny indikasjon | Luftveismisdannelse (respiratory malformation) |
+| TxGNN-prediksjonsscore | 0,9992 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukne tillatelser |
-| Antall tillatelser | 10 (alle trukket) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 10 av 10) |
+| Antall godkjenninger | 10 (gyldige: 10) |
 | Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er (eller er ikke) denne prediksjonen rimelig?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten. Formoterol er kjent som en langtidsvirkende beta2-agonist som gir bronkodilatasjon ved å slappe av glatt muskulatur i luftveiene. Effekten ved KOLS og astma er godt dokumentert.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Formoterol tilhører klassen langtidsvirkende beta2-adrenerge agonister, som slapper av glatt muskulatur i luftveiene og bedrer luftstrømmen.
 
-Det finnes ingen troverdig mekanistisk sammenheng mellom bronkodilatasjon og respiratorisk misdannelse. Slike tilstander er strukturelle, medfødte utviklingsfeil, og et legemiddel som utvider luftveiene kan ikke korrigere dem. Den høye TxGNN-scoren skyldes trolig at sykdommen ligger nær obstruktive luftveissykdommer som astma og KOLS i kunnskapsgrafen, og ikke et reelt terapeutisk forhold. Prediksjonen bør derfor tolkes med stor forsiktighet.
-
----
-
-## Evidens fra kliniske studier
-
-Foreløpig er ingen relaterte kliniske studier registrert.
+Det er imidlertid ingen troverdig mekanistisk kobling til strukturelle, medfødte misdannelser i luftveiene. Bronkodilatasjon kan ikke korrigere utviklingsmessige anatomiske avvik. Den høye scoren gjenspeiler trolig nærhet i grafmodellen til obstruktive luftveissykdommer som astma og KOLS, snarere enn et reelt terapeutisk forhold. Prediksjonen bør derfor tolkes med stor forsiktighet.
 
 ---
 
-## Evidens fra litteratur
+## Kliniske studier
 
-Alle treffene er knyttet til denne prediksjonen kun via grafnærhet. Ingen av dem viser effekt av formoterol ved respiratorisk misdannelse.
+Det er for øyeblikket ingen registrerte kliniske studier knyttet til luftveismisdannelse.
+
+---
+
+## Litteraturevidens
+
+De identifiserte publikasjonene omhandler i hovedsak KOLS, astma og andre tilstander, ikke luftveismisdannelse som sådan. Kun de mest relevante er oppsummert.
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [35115339](https://pubmed.ncbi.nlm.nih.gov/35115339/) | 2022 | RCT | Eur Respir J | Randomisert crossover-studie som sammenligner budesonid/formoterol og salbutamol ved stabil astma (bronkodilatasjon, systemiske effekter og bivirkninger) |
-| [22541245](https://pubmed.ncbi.nlm.nih.gov/22541245/) | 2012 | RCT | J Allergy Clin Immunol | Langtidssikkerhet og astmakontroll med budesonid/formoterol hos afroamerikanske astmapasienter |
-| [40840693](https://pubmed.ncbi.nlm.nih.gov/40840693/) | 2026 | Metaanalyse | J Am Pharm Assoc | Systematisk oversikt over sikkerhet og effekt av budesonid/glykopyrrolat/formoterol versus glykopyrrolat/formoterol ved KOLS |
-| [14738234](https://pubmed.ncbi.nlm.nih.gov/14738234/) | 2004 | RCT | Eur Respir J | Formoterol beskytter mot effekter av plateaktiverende faktor (PAF) hos astmapasienter |
-| [20528601](https://pubmed.ncbi.nlm.nih.gov/20528601/) | 2010 | Oversikt | J Asthma | Gjennomgang av budesonid/formoterol (Symbicort) ved vedvarende astma |
-| [24842803](https://pubmed.ncbi.nlm.nih.gov/24842803/) | 2014 | Oversikt | Prog Neuropsychopharmacol Biol Psychiatry | Nevrotransmitterbaserte strategier mot kognitiv svikt ved Downs syndrom (lite relevant) |
-| [35034195](https://pubmed.ncbi.nlm.nih.gov/35034195/) | 2022 | Kohortestudie | Eur J Appl Physiol | Kompensatoriske responser på økt mekanisk belastning ved KOLS under søvn |
-| [37691104](https://pubmed.ncbi.nlm.nih.gov/37691104/) | 2023 | Kasuistikk | J Med Case Rep | Sykdom i små luftveier ved post-akutt covid-19-syndrom |
-| [41686546](https://pubmed.ncbi.nlm.nih.gov/41686546/) | 2026 | Kasuistikk | Medicine | Allergisk bronkopulmonal mykose forårsaket av *Schizophyllum commune* hos en lungekreftpasient |
+| [40840693](https://pubmed.ncbi.nlm.nih.gov/40840693/) | 2026 | RCT (metaanalyse) | J Am Pharm Assoc | Sikkerhet og effekt av budesonid/glykopyrrolat/formoterol versus glykopyrrolat/formoterol ved KOLS |
+| [35115339](https://pubmed.ncbi.nlm.nih.gov/35115339/) | 2022 | RCT | Eur Respir J | Budesonid/formoterol sammenlignet med salbutamol ved stabil astma |
+| [22541245](https://pubmed.ncbi.nlm.nih.gov/22541245/) | 2012 | RCT | J Allergy Clin Immunol | Langtidssikkerhet av budesonid/formoterol hos afroamerikanske astmapasienter |
+| [20528601](https://pubmed.ncbi.nlm.nih.gov/20528601/) | 2010 | Oversikt | J Asthma | Gjennomgang av budesonid/formoterol ved vedvarende astma |
+| [35034195](https://pubmed.ncbi.nlm.nih.gov/35034195/) | 2022 | Kohort | Eur J Appl Physiol | Kompensatoriske responser på økt mekanisk belastning ved KOLS under søvn |
+| [14738234](https://pubmed.ncbi.nlm.nih.gov/14738234/) | 2004 | RCT | Eur Respir J | Formoterol beskytter mot PAF-induserte effekter ved astma |
+
+Ingen av disse studerer luftveismisdannelse direkte.
 
 ---
 
 ## Markedsinformasjon for Norge
 
-Alle 10 tillatelser er trukket, og ingen er gyldige per i dag. De fem første er listet nedenfor.
-
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/003745 | Duaklir Genuair | – | KOLS |
-| EMEA/H/C/003890 | BiResp Spiromax | – | KOLS, astma |
-| EMEA/H/C/003969 | Brimica Genuair | – | KOLS |
-| EMEA/H/C/004245 | Bevespi Aerosphere | – | KOLS |
-| EMEA/H/C/002348 | DuoResp Spiromax | – | KOLS, astma |
+| EMEA/H/C/003745 | Duaklir Genuair | – | Kronisk obstruktiv lungesykdom |
+| EMEA/H/C/003890 | BiResp Spiromax | – | Kronisk obstruktiv lungesykdom, astma |
+| EMEA/H/C/003969 | Brimica Genuair | – | Kronisk obstruktiv lungesykdom |
+| EMEA/H/C/004245 | Bevespi Aerosphere | – | Kronisk obstruktiv lungesykdom |
+| EMEA/H/C/002348 | DuoResp Spiromax | – | Kronisk obstruktiv lungesykdom, astma |
+
+Merk: Listen er et utvalg av de registrerte godkjenningene, og flere av dem gjelder kombinasjonsprodukter.
 
 ---
 
 ## Sikkerhetsvurderinger
 
-Informasjon fra preparatomtale om advarsler og kontraindikasjoner er ikke tilgjengelig. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
+**Legemiddelinteraksjoner:** Det er registrert 463 mulige interaksjoner. Blant de som er nevnt er:
+- Moderate: akarbose, famotidin, klaritromycin, cisaprid, dolasetron, efedrin, samt flere diabetesmidler (f.eks. dapagliflozin, empagliflozin, canagliflozin, alogliptin)
+- Mindre: beklometason, betametason, budesonid, deksametason
 
-- **Kontraindikasjoner fra kunnskapsgrafen (ikke fra preparatomtale):** Kunnskapsgrafen (PrimeKG) knytter formoterol til blant annet hypertensjon, langt QT-syndrom (inkludert familiær form), epilepsi, leversykdom og gallesykdom. Den knytter også legemidlet til en rekke tilstander med hypofysesvikt og hypogonadotrop hypogonadisme, for eksempel Kallmanns syndrom og Sheehans syndrom. Dette er grafbaserte koblinger og må verifiseres mot offisiell produktinformasjon.
-- **Legemiddelinteraksjoner:** Totalt 463 interaksjoner er registrert. Eksempler på moderate interaksjoner er acarbose, famotidin, klaritromycin, cisaprid, dolasetron, efedrin, isometepten, dietylpropion, flere GLP-1-agonister (albiglutid, dulaglutid), SGLT2-hemmere (kanagliflozin, dapagliflozin, empagliflozin) og alogliptin. Eksempler på mindre interaksjoner er kortikosteroider som beklometason, betametason, budesonid og deksametason.
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ---
 
@@ -116,14 +116,13 @@ Informasjon fra preparatomtale om advarsler og kontraindikasjoner er ikke tilgje
 **Beslutning: Hold**
 
 **Begrunnelse:**
-- Prediksjonen mangler både kliniske studier og relevant litteratur. Det finnes ingen plausibel mekanistisk forklaring på at en bronkodilaterende beta2-agonist skal påvirke strukturelle, medfødte misdannelser. Evidensnivået er L5, og alle norske tillatelser er trukket.
-- Andre prediksjoner for formoterol (bronkitt, obstruktiv lungesykdom og astma) består i hovedsak av indikasjoner som allerede er godkjent. Disse har sterkere evidens, men er ikke egentlig ny bruk.
+Det finnes ingen kliniske studier og ingen publikasjoner som direkte studerer luftveismisdannelse, og det mangler en troverdig mekanistisk kobling. Den høye TxGNN-scoren alene er ikke tilstrekkelig grunnlag for å gå videre.
 
 **For å gå videre kreves følgende:**
-- Detaljerte data om virkningsmekanisme (MOA) fra DrugBank.
-- Preparatomtale med advarsler og kontraindikasjoner fra DMP, som er nødvendig for sikkerhetsvurdering.
-- Et biologisk eller klinisk argument for at formoterol kan ha nytte ved respiratorisk misdannelse, eller en omprioritering mot kandidatene med dokumentert evidens.
-- Avklaring av produkttilgjengelighet i Norge, siden alle tillatelser er trukket.
+- Dokumentasjon av en biologisk eller klinisk begrunnelse for at en beta2-agonist kan påvirke tilstanden
+- Data om virkningsmekanisme
+- Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsvurdering
+- Eventuelt prekliniske eller eksplorative kliniske data som direkte omhandler sykdommen
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

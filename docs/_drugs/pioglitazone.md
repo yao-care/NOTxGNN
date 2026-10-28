@@ -50,10 +50,10 @@ men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtte
 |------|------|
 | Opprinnelig indikasjon | Diabetes mellitus type 2 |
 | Predikert ny indikasjon | Opsismodysplasi |
-| TxGNN-prediksjonsscore | 99,59 % |
+| TxGNN-prediksjonsscore | 0,9959 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun opphevede/utgåtte godkjenninger |
-| Antall godkjenninger | 6 (alle opphevet) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 6 av 6) |
+| Antall godkjenninger | 6 (gyldige: 6) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtte
 
 Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Pioglitazon er kjent som en PPAR-gamma-agonist og insulinsensitiserer, og effekten ved diabetes mellitus type 2 er godt dokumentert.
 
-Opsismodysplasi er en sjelden skjelettdysplasi forårsaket av mutasjoner i INPPL1 (SHIP2), som påvirker PI3K-/insulinsignalering og utvikling av vekstplaten. En spekulativ kobling via insulin-/PI3K-signalering er tenkelig, men den støttes ikke av noen studie eller litteratur. Den høye scoren (0,996) er utelukkende en modellprediksjon, og prediksjonen kan like gjerne gjenspeile nærhet i kunnskapsgrafen som et reelt terapeutisk grunnlag.
+Opsismodysplasi er en sjelden skjelettdysplasi forårsaket av mutasjoner i INPPL1 (SHIP2), som påvirker PI3K-/insulinsignalering og utvikling av vekstplaten. En spekulativ kobling via insulin-/PI3K-signalering er tenkelig, men den støttes ikke av noen studie eller litteratur. Den høye scoren (0,9959) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 Andre høyt rangerte prediksjoner (alle på evidensnivå L5 og med anbefalingen «Hold») er stiv-person-spekteret (fokalt stivt lem-syndrom og klassisk stiv person-syndrom), tiaminresponsivt dysfunksjonssyndrom, flere lokaliserte lipodystrofier og pankreasagenesi. Av disse er lipodystrofiene biologisk mest plausible på grunn av PPAR-gammas rolle i adipogenese, men også her mangler data.
 
@@ -84,7 +84,7 @@ Foreløpig finnes ingen relevant litteratur for opsismodysplasi.
 
 ## Markedsinformasjon for Norge
 
-Alle seks godkjenningene er oppført som opphevet (ingen gyldige godkjenninger).
+Alle seks godkjenningene er gyldige (6 av 6 gyldige godkjenninger), og legemidlet er markedsført.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -110,7 +110,7 @@ Pakningsvedlegg med advarsler og kontraindikasjoner er ikke tilgjengelig i datag
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er kun modellbasert (L5) uten kliniske studier eller relevant litteratur. Pioglitazon har dessuten ingen gyldige godkjenninger i Norge i dag, og sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen er kun modellbasert (L5) uten kliniske studier eller relevant litteratur. Pioglitazon er dessuten markedsført i Norge med 6 gyldige godkjenninger av 6, og sikkerhetsdata fra preparatomtalen mangler.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

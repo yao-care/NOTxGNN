@@ -50,9 +50,10 @@ men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** som stø
 |------|------|
 | Opprinnelig indikasjon | Myokardperfusjonsavbildning |
 | Predikert ny indikasjon | Anafylaksi |
-| TxGNN-prediksjonsscore | 99,85 % |
+| TxGNN-prediksjonsscore | 0,9985 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -68,9 +69,9 @@ Prediksjonen hviler dermed kun på en høy TxGNN-score, uten støtte fra studier
 
 | Predikert indikasjon | TxGNN-score | Vurdering |
 |------|------|------|
-| Næringsmiddelavhengig anstrengelsesutløst anafylaksi | 99,74 % | Samme resonnement som for anafylaksi; sjelden undertype uten data. Trolig drevet av likhet med overordnet term. |
-| Esotropi | 99,12 % | Ingen plausibel mekanistisk sammenheng; sannsynlig artefakt i kunnskapsgrafen. |
-| Pseudoallergi | 99,12 % | Overlapper med anafylaksi; kun teoretisk mastcellemodulering med blandede adenosineffekter. |
+| Næringsmiddelavhengig anstrengelsesutløst anafylaksi | 0,9974 | Samme resonnement som for anafylaksi; sjelden undertype uten data. Trolig drevet av likhet med overordnet term. |
+| Esotropi | 0,9912 | Ingen plausibel mekanistisk sammenheng; scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. |
+| Pseudoallergi | 0,9912 | Overlapper med anafylaksi; kun teoretisk mastcellemodulering med blandede adenosineffekter. |
 
 ---
 
@@ -92,7 +93,7 @@ Foreløpig er ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/001176 | Rapiscan (GE Healthcare AS) | Ikke oppgitt | Myokardperfusjonsavbildning |
 
-Tillatelsen er avregistrert, og det finnes ingen gyldige tillatelser.
+Legemidlet er markedsført i Norge, og 1 av 1 markedsføringstillatelse er gyldig.
 
 ---
 
@@ -110,7 +111,7 @@ Tillatelsen er avregistrert, og det finnes ingen gyldige tillatelser.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er kun beregningsbasert (evidensnivå L5) uten kliniske studier eller litteratur. Mekanismen er tvetydig, siden A2A kan dempe, mens A2B/A3 kan fremme mastcelleaktivering, og de hemodynamiske virkningene kan være skadelige ved anafylaksi. Legemidlet har dessuten ingen gyldig markedsføringstillatelse i Norge.
+Prediksjonen er kun beregningsbasert (evidensnivå L5) uten kliniske studier eller litteratur. Mekanismen er tvetydig, siden A2A kan dempe, mens A2B/A3 kan fremme mastcelleaktivering, og de hemodynamiske virkningene kan være skadelige ved anafylaksi. Legemidlet er dessuten markedsført i Norge, med 1 gyldig markedsføringstillatelse av 1.
 
 **For å gå videre kreves:**
 - Preparatomtale med advarsler og kontraindikasjoner (kritisk mangel som blokkerer sikkerhetsscreening)

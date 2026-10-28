@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Regorafenib
-parent: Kun modellprediksjon (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 352
-evidence_level: L5
+evidence_level: L1
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Regorafenib: predikert ny indikasjon Liposarkom (evidensnivå L5). Opprinnelig indikasjon: Kolorektal kreft (Colorectal Neoplasms)"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell
 # Regorafenib
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
+Evidensnivå: **L1** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,10 @@ men evidensen er blandet: det finnes **1 fullført fase 2-studie** og **9 publik
 |------|------|
 | Opprinnelig indikasjon | Kolorektal kreft (Colorectal Neoplasms) |
 | Predikert ny indikasjon | Liposarkom |
-| TxGNN-prediksjonsscore | 99,76 % |
+| TxGNN-prediksjonsscore | 0,9976 |
 | Evidensnivå | L1 (etter datagrunnlagets klassifisering; se merknad under) |
-| Status i Norge | Kun tilbakekalt/avregistrert (Cancelled only) |
+| Status i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall markedsføringstillatelser | 1 (0 gyldige, 1 kansellert) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
 
@@ -100,7 +101,7 @@ Det er imidlertid en viktig begrensning: i både REGOSARC og liposarkomkohorten 
 |---------|------|------|-----------|
 | EMEA/H/C/002573 | Stivarga (Bayer Pharma AG) | Ikke oppgitt | Kolorektal kreft (status: kansellert) |
 
-Det finnes ingen gyldig markedsføringstillatelse for regorafenib i dataene som er innhentet for Norge.
+Legemidlet er markedsført i Norge, med 1 gyldig markedsføringstillatelse av 1.
 
 ---
 
@@ -149,7 +150,7 @@ Det finnes randomiserte fase 2-data for regorafenib ved bløtdelssarkom, men den
 
 ### Merknad om andre prediksjoner
 
-Blant de øvrige predikerte indikasjonene har **klarcellet nyrecellekarsinom** størst støtte (evidensnivå L2, TxGNN-score 99,47 %). Her finnes en fase 2-studie hos tidligere ubehandlede pasienter med metastatisk sykdom (Lancet Oncology 2012), en fase 1/2-studie av regorafenib med avelumab (NCT03475953, ukjent status, 747 deltakere) og en prekliniske reposisjoneringsstudie som peker mot DDR2-assosiert følsomhet. Etablerte legemidler som sunitinib, axitinib og kabozantinib setter imidlertid en høy standard. Anbefalingen er et forskningsspørsmål. De øvrige prediksjonene (ovarielt myksoid liposarkom, andre nyrecellekarsinom-undertyper, barnenyrekreft og vulvasarkom) har kun modellstøtte uten studier eller litteratur (L5) og anbefales satt på vent (Hold).
+Blant de øvrige predikerte indikasjonene har **klarcellet nyrecellekarsinom** størst støtte (evidensnivå L2, TxGNN-score 0,9947). Her finnes en fase 2-studie hos tidligere ubehandlede pasienter med metastatisk sykdom (Lancet Oncology 2012), en fase 1/2-studie av regorafenib med avelumab (NCT03475953, ukjent status, 747 deltakere) og en prekliniske reposisjoneringsstudie som peker mot DDR2-assosiert følsomhet. Etablerte legemidler som sunitinib, axitinib og kabozantinib setter imidlertid en høy standard. Anbefalingen er et forskningsspørsmål. De øvrige prediksjonene (ovarielt myksoid liposarkom, andre nyrecellekarsinom-undertyper, barnenyrekreft og vulvasarkom) har kun modellstøtte uten studier eller litteratur (L5) og anbefales satt på vent (Hold).
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

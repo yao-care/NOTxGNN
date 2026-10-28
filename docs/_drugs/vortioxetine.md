@@ -4,17 +4,17 @@ title: Vortioxetine
 parent: Kun modellprediksjon (L5)
 nav_order: 455
 evidence_level: L5
-indication_count: 5
+indication_count: 2
 last_modified_at: 2026-10-15
 description: "Vortioxetine: predikert ny indikasjon Nevrotisk lidelse (neurotic disorder) (evidensnivå L5). Opprinnelig indikasjon: Alvorlig depressiv lidelse (Depressive Disorder, Major)"
 monitor_inn: "VORTIOXETINE"
-predicted_indications: ["neurotic disorder", "melancholia", "benign paroxysmal torticollis of infancy", "dysthymic disorder"]
+predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 ---
 
 # Vortioxetine
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,10 @@ Den høye prediksjonsscoren gjenspeiler trolig nærheten til MDD i ontologien, i
 |------|------|
 | Opprinnelig indikasjon | Alvorlig depressiv lidelse (Depressive Disorder, Major) |
 | Predikert ny indikasjon | Nevrotisk lidelse (neurotic disorder) |
-| TxGNN-prediksjonsscore | 99,24 % |
+| TxGNN-prediksjonsscore | 0,9924 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun tilbakekalt/avregistrert (Cancelled only) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall markedsføringstillatelser | 1 (0 gyldige, 1 avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -70,10 +71,7 @@ Av den grunn kan ikke det mekanistiske grunnlaget bekreftes ut fra dataene som f
 
 | Predikert indikasjon | Score | Evidensnivå | Kommentar |
 |------|------|------|------|
-| Nevrotisk depresjon | 99,09 % | L4 | Praktisk talt den opprinnelige indikasjonen under en eldre betegnelse; ingen studier knyttet til begrepet |
-| Melankoli | 99,09 % | L1 | 4 fase 3-RCT-er og 1 fase 2/3-studie i MDD; evidensen er direkte for MDD, men indirekte for melankolisk subtype |
-| Benign paroksysmal torticollis hos spedbarn | 99,07 % | L5 | Ingen mekanistisk begrunnelse; trolig grafartefakt |
-| Dystymi | 99,02 % | L4 | Kun én åpen MDD-forlengelsesstudie, indirekte kobling |
+| Benign paroksysmal torticollis hos spedbarn | 0,9907 | L5 | Ingen mekanistisk begrunnelse; trolig grafartefakt |
 
 ---
 
@@ -95,7 +93,7 @@ Ingen kliniske studier er registrert for nevrotisk lidelse. Det finnes for tiden
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/002717 | Brintellix | Ikke oppgitt | Alvorlig depressiv lidelse (status: avregistrert) |
+| EMEA/H/C/002717 | Brintellix | Ikke oppgitt | Alvorlig depressiv lidelse (status: godkjent) |
 
 ---
 

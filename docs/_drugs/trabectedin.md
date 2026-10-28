@@ -48,10 +48,10 @@ Trabectedin er et kreftlegemiddel av marin opprinnelse som opprinnelig brukes mo
 |------|------|
 | Opprinnelig indikasjon | Eggstokkreft og sarkom |
 | Predikert ny indikasjon | Brystkreft hos kvinner (female breast carcinoma) |
-| TxGNN-prediksjonsscore | 99,73 % |
-| Evidensnivå | L2 (jf. merknad nedenfor) |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 2 (begge kansellert) |
+| TxGNN-prediksjonsscore | 0,9973 |
+| Evidensnivå | L5 (jf. merknad nedenfor) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
 
 *Merknad om evidensnivå:* L2 er satt i de innsamlede dataene. Den eneste registrerte studien (NCT00786838) er en fase 2-studie som undersøker QT-effekter, ikke effekt mot brystkreft. Publiserte fase 2-studier i brystkreft finnes, men det er ikke dokumentert noen fullførte randomiserte fase 3-studier. Evidensnivået bør derfor tolkes forsiktig.
@@ -64,7 +64,7 @@ Detaljerte data om virkningsmekanisme (MOA) var ikke tilgjengelige i de innsamle
 
 Aktiviteten antas å være sterkere i svulster med mangelfull homolog rekombinasjon, for eksempel BRCA-mangelfulle svulster. Det gir en biologisk plausibel begrunnelse for bruk i en undergruppe av brystkreft, som BRCA1/2-assosiert og trippelnegativ sykdom. Eggstokkreft og brystkreft deler dessuten biologiske trekk, særlig knyttet til BRCA og DNA-reparasjon.
 
-Den høye TxGNN-scoren (0,997) stemmer med denne mekanistiske nærheten til de godkjente indikasjonene. Scoren er likevel en modellprediksjon og ikke klinisk bevis.
+Den høye TxGNN-scoren (0,9973) stemmer med denne mekanistiske nærheten til de godkjente indikasjonene. Scoren er likevel en modellprediksjon og ikke klinisk bevis.
 
 ---
 

@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **migrene**, men det fi
 |------|------|
 | Opprinnelig indikasjon | Artroplastikk; venøs tromboembolisme |
 | Predikert ny indikasjon | Migrene (migraine disorder) |
-| TxGNN-prediksjonsscore | 99,02 % |
+| TxGNN-prediksjonsscore | 0,9902 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun avregistrerte godkjenninger (ikke markedsført) |
-| Antall godkjenninger | 2 (begge avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -63,7 +63,7 @@ Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Ap
 
 En mulig kobling går via migrene med aura, som er forbundet med høyre-til-venstre-shunt (åpen foramen ovale, PFO) og med protrombotiske tilstander, blant annet antifosfolipid-antistoffer. I slike situasjoner kan tromber eller mikroemboli bidra til aura. En faktor Xa-hemmer kan i teorien redusere slike hendelser.
 
-TxGNN-scoren er svært høy (0,99), men dette er en grafbasert prediksjon og viser ikke i seg selv en mekanisme. De tilgjengelige kasuistikkene peker dessuten i motsatt retning: én beskriver forverret migrene med aura etter oppstart av apixaban, en annen beskriver at aura forsvant på warfarin, men ikke på apixaban. Evidens for en terapeutisk effekt av faktor Xa-hemming på migrene mangler, og signalet er blandet eller negativt.
+TxGNN-scoren er svært høy (0,9902), men dette er en grafbasert prediksjon og viser ikke i seg selv en mekanisme. De tilgjengelige kasuistikkene peker dessuten i motsatt retning: én beskriver forverret migrene med aura etter oppstart av apixaban, en annen beskriver at aura forsvant på warfarin, men ikke på apixaban. Evidens for en terapeutisk effekt av faktor Xa-hemming på migrene mangler, og signalet er blandet eller negativt.
 
 ---
 
@@ -91,8 +91,8 @@ Studien kan ikke regnes som direkte fase 3-evidens for migrene.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/002148 | Eliquis (avregistrert) | – | Artroplastikk; venøs tromboembolisme |
-| EMEA/H/C/005358 | Apixaban Accord (avregistrert) | – | Venøs tromboembolisme; slag; artroplastikk |
+| EMEA/H/C/002148 | Eliquis (godkjent) | – | Artroplastikk; venøs tromboembolisme |
+| EMEA/H/C/005358 | Apixaban Accord (godkjent) | – | Venøs tromboembolisme; slag; artroplastikk |
 
 ---
 
@@ -116,7 +116,7 @@ Se preparatomtalen for informasjon om advarsler og kontraindikasjoner.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en grafbasert modell (evidensnivå L4). Den eneste kliniske studien tester ikke apixaban eller migrene direkte, og de to kasuistikkene om apixaban tyder på forverring eller manglende effekt. Legemidlet har dessuten ingen gyldig markedsføringstillatelse i Norge i dag.
+Prediksjonen bygger kun på TxGNN-modellen (dyp læring) (evidensnivå L4), og scoren kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Den eneste kliniske studien tester ikke apixaban eller migrene direkte, og de to kasuistikkene om apixaban tyder på forverring eller manglende effekt. Legemidlet er dessuten markedsført i Norge, med 2 gyldige markedsføringstillatelser av 2.
 
 **For å gå videre kreves følgende:**
 - Informasjon om advarsler og kontraindikasjoner fra preparatomtalen (blokkerende datamangel for sikkerhetsscreening)

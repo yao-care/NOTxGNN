@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Bupropion
-parent: Kun modellprediksjon (L5)
+parent: Høy evidens (L1-L2)
 nav_order: 72
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Bupropion: predikert ny indikasjon Oppmerksomhetssvikt-hyperaktivitetsforstyrrelse (ADHD) (evidensnivå L5). Opprinnelig indikasjon: Fedme og overvekt"
@@ -14,7 +14,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "attention d
 # Bupropion
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ og retningen støttes for øyeblikket av **6 kliniske studier** og **20 publikas
 |------|------|
 | Opprinnelig indikasjon | Fedme og overvekt |
 | Predikert ny indikasjon | Oppmerksomhetssvikt-hyperaktivitetsforstyrrelse (ADHD) |
-| TxGNN-prediksjonsscore | 99,99 % |
+| TxGNN-prediksjonsscore | 0,9999 |
 | Evidensnivå | L1 (basert på de sammenstilte dataene; se merknad under kliniske studier) |
-| Markedsstatus i Norge | Kun avregistrert |
-| Antall godkjenninger | 1 (avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Proceed with Guardrails (gå videre med sikkerhetsrammer) |
 
 ---
@@ -104,7 +104,7 @@ Prediksjonen er dermed mekanistisk plausibel. Samtidig er bupropion ikke første
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/003687 | Mysimba | Ikke angitt | Fedme og overvekt (status: avregistrert) |
+| EMEA/H/C/003687 | Mysimba | Ikke angitt | Fedme og overvekt (status: godkjent) |
 
 ---
 
@@ -144,7 +144,7 @@ Flere fullførte kliniske studier (blant dem en placebokontrollert fase 3-studie
 ## Øvrige prediksjoner (kort)
 
 De øvrige prediksjonene har svakere støtte:
-- **ADHD, uoppmerksom type** (score 99,99 %): Evidensnivå L3, kun overordnede ADHD-data og én post hoc-analyse. Vurderes som et forskningsspørsmål.
+- **ADHD, uoppmerksom type** (score 0,9999): Evidensnivå L3, kun overordnede ADHD-data og én post hoc-analyse. Vurderes som et forskningsspørsmål.
 - **Faciodigitogenitalt syndrom, spesifikk utviklingsforstyrrelse, kondromyksoid fibrom, 16p11.2-mikrodelesjon, hypervitaminose, godartet paroksysmal torticollis hos spedbarn, trigeminusnevrom og «obsolete hypertelorism»:** Kun modellprediksjoner uten kliniske studier og med lite eller ingen relevant litteratur, uten påvisbar mekanistisk kobling. Anbefaling: **Hold**.
 ## Ansvarsfraskrivelse
 

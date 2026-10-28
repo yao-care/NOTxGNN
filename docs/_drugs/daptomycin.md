@@ -4,17 +4,17 @@ title: Daptomycin
 parent: Kun modellprediksjon (L5)
 nav_order: 112
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Daptomycin: predikert ny indikasjon Artrose (osteoarthritis) (evidensnivå L5). Opprinnelig indikasjon: Bløtvevsinfeksjoner"
+indication_count: 9
 monitor_inn: "DAPTOMYCIN"
-predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "osteoarthritis susceptibility", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
+predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
+last_modified_at: 2026-10-27
+description: "Daptomycin: predikert ny indikasjon Slitasjegikt (osteoarthritis) (evidensnivå L5). Opprinnelig indikasjon: Soft Tissue Infections"
 ---
 
 # Daptomycin
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,110 +33,83 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Daptomycin: Fra bakterielle hud- og bløtvevsinfeksjoner til revmatoid artritt
+## Daptomycin: syklisk lipopeptid-antibiotikum → Slitasjegikt (osteoarthritis)
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
-Daptomycin er et syklisk lipopeptid-antibiotikum som opprinnelig brukes mot infeksjoner med grampositive bakterier, blant annet hud- og bløtvevsinfeksjoner, bakteriemi og endokarditt.
-TxGNN-modellen gir høye prediksjonsskårer for flere leddrelaterte tilstander, og den best underbygde hypotesen er **revmatoid artritt**, men evidensen består kun av **prekliniske dyre- og cellestudier**, uten registrerte kliniske studier.
-Den høyest rangerte prediksjonen, **artrose (osteoarthritis)**, er trolig en kunnskapsgraf-assosiasjon uten reelt repurposing-signal.
-
----
+Daptomycin er et syklisk lipopeptid-antibiotikum mot grampositive bakterier. TxGNN-modellen forutsier at det kan ha effekt ved **slitasjegikt (osteoarthritis)**, men de 10 publikasjonene som er funnet handler nesten utelukkende om daptomycin som behandling av bakterielle ben- og leddinfeksjoner, ikke om slitasjegikt som sykdom. Det finnes **ingen kliniske studier** registrert for denne indikasjonen.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Bløtvevsinfeksjoner; bakterielle hudsykdommer (Cubicin i tillegg: grampositive bakterielle infeksjoner, bakteriemi, bakteriell endokarditt) |
-| Predikert ny indikasjon (rangert først av TxGNN) | Artrose (osteoarthritis) |
-| Mest plausible hypotese | Revmatoid artritt (prekliniske data) |
-| TxGNN-prediksjonsskår | Artrose 99,86 %; revmatoid artritt 99,84 % |
-| Evidensnivå | Artrose: L4; revmatoid artritt: L4 |
-| Markedsstatus i Norge | Kun avregistrerte (cancelled) godkjenninger |
-| Antall godkjenninger | 2 (begge avregistrert) |
-| Anbefalt beslutning | Hold (artrose); revmatoid artritt kan løftes som forskningsspørsmål |
+| Opprinnelig indikasjon | Soft Tissue Infections;Skin Diseases, Bacterial; Gram-Positive Bacterial Infections;Bacteremia;Soft Tissue Infections;Endocarditis, Bacterial |
+| Predikert ny indikasjon | Slitasjegikt (osteoarthritis) |
+| TxGNN-prediksjonsscore | 0,9986 |
+| Evidensnivå | L5 |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
+| Anbefalt beslutning | Hold |
 
----
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-## Hvorfor er denne prediksjonen rimelig?
+Data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten. Daptomycin er kjent som et syklisk lipopeptid med baktericid effekt mot grampositive bakterier, og effekten på bakterielle infeksjoner er godt etablert.
 
-Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er daptomycin et syklisk lipopeptid som virker mot grampositive bakterier, og effekten er godt dokumentert ved hud- og bløtvevsinfeksjoner, bakteriemi og endokarditt.
+Det finnes ingen holdepunkter for at daptomycin har en sykdomsmodifiserende effekt ved ikke-infeksiøs slitasjegikt. Litteraturen som er funnet, gjelder daptomycin som antibakteriell behandling ved osteoartikulære infeksjoner og protese-leddinfeksjoner (Staphylococcus, Corynebacterium). Det er den opprinnelige anti-grampositive bruken i en ben- og leddsetting, ikke en ny terapeutisk bruk. Den høye prediksjonsscoren gjenspeiler trolig en statistisk assosiasjon med leddrelaterte begreper, ikke et reelt reposisjoneringssignal.
 
-**Artrose:** Det finnes ingen holdepunkter for at daptomycin har sykdomsmodifiserende effekt ved ikke-infeksiøs artrose. Litteraturen som ble funnet, handler om daptomycin som antibakterielt middel ved bein- og leddinfeksjoner, inkludert proteseinfeksjoner med stafylokokker og korynebakterier. Dette er den opprinnelige antibakterielle bruken i en ben- og leddsammenheng. Den høye skåren gjenspeiler sannsynligvis en assosiasjon i kunnskapsgrafen til leddrelaterte begreper, ikke et reelt repurposing-signal.
+Fordi ingen av de siterte studiene undersøker slitasjegikt som sykdom, er evidensnivået satt til L5, selv om enkelte kohortestudier ligger tematisk nær.
 
-**Revmatoid artritt:** En preklinisk studie fra 2025 (PMID 39571268) rapporterer at daptomycin demper kollagen-indusert artritt hos mus ved å hemme inflammatoriske cytokiner og NF-κB-signalveien. En oppfølgende studie (PMID 40923559) med nye daptomycin-avledede lipopeptider støtter en antiinflammatorisk mekanisme. Dette er en plausibel, men ikke validert hypotese. Funnene må replikeres, og det må vurderes om antiinflammatorisk eksponering er oppnåelig ved sikre doser.
+## Kliniske studier
 
-**Øvrige prediksjoner:** Artrose-mottakelighet er et genetisk begrep, ikke en behandlingsbar indikasjon. For urinsyregikt er den eneste publikasjonen en kasuistikk om daptomycin-indusert rabdomyolyse med akutt urinsyregikt, noe som taler mot terapeutisk bruk. De øvrige syv prediksjonene (pseudoakondroplasi, akromesomel dysplasi av Hunter-Thompson-typen, brakyolmi, brakydaktyli-syndaktyli-syndrom, kolobomatøs mikroftalmi-rizomel dysplasi-syndrom og brakyolmi-amelogenesis imperfecta-syndrom) har verken litteratur eller studier og ingen plausibel mekanisme.
-
----
-
-## Evidens fra kliniske studier
-
-Foreløpig er ingen relaterte kliniske studier registrert for noen av de predikerte indikasjonene.
-
----
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ## Litteraturevidens
 
-### Revmatoid artritt (mest relevante)
+Tabellen viser de mest relevante publikasjonene. Ingen av dem undersøker daptomycin som behandling av slitasjegikt.
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [39571268](https://pubmed.ncbi.nlm.nih.gov/39571268/) | 2025 | Preklinisk (dyremodell) | Int Immunopharmacol | Daptomycin demper kollagen-indusert artritt via hemming av inflammatoriske cytokiner og NF-κB |
-| [40923559](https://pubmed.ncbi.nlm.nih.gov/40923559/) | 2025 | Preklinisk (celle/dyr) | J Med Chem | Nye daptomycin-avledede sykliske lipopeptider hemmer cellulær inflammasjon og kollagen-indusert artritt hos mus |
-
-### Artrose (infeksjonsrelatert litteratur, ikke støtte for artrose som indikasjon)
-
-| PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|------|---------|
-| [23519823](https://pubmed.ncbi.nlm.nih.gov/23519823/) | 2013 | Kohort | Int Orthop | Høydose daptomycin med rifampicin ved grampositive ben- og leddinfeksjoner: sikkerhet og effekt |
-| [17999973](https://pubmed.ncbi.nlm.nih.gov/17999973/) | 2008 | Kohort | J Antimicrob Chemother | Daptomycin versus standardbehandling ved ben- og leddinfeksjoner med S. aureus-bakteriemi |
-| [22511636](https://pubmed.ncbi.nlm.nih.gov/22511636/) | 2012 | Kohort | J Antimicrob Chemother | Klinisk erfaring med daptomycin ved protesesinfeksjoner i kne og hofte |
-| [26235888](https://pubmed.ncbi.nlm.nih.gov/26235888/) | 2015 | Kohort | Int J Antimicrob Agents | Høydose daptomycin (>6 mg/kg) ved komplisert ben- og leddinfeksjon |
-
-### Urinsyregikt (bivirkning)
-
-| PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|------|---------|
-| [36693494](https://pubmed.ncbi.nlm.nih.gov/36693494/) | 2023 | Kasuistikk (bivirkning) | Am J Med Sci | Daptomycin-indusert rabdomyolyse komplisert av akutt urinsyregikt |
-
----
+| [23519823](https://pubmed.ncbi.nlm.nih.gov/23519823/) | 2013 | Kohort | International Orthopaedics | Sikkerhet og effekt av høydose daptomycin sammen med rifampicin ved grampositive ben- og leddinfeksjoner |
+| [17999973](https://pubmed.ncbi.nlm.nih.gov/17999973/) | 2008 | Kohort | J Antimicrob Chemother | Utfall med daptomycin versus standardbehandling ved osteoartikulære infeksjoner assosiert med S. aureus-bakteriemi |
+| [22511636](https://pubmed.ncbi.nlm.nih.gov/22511636/) | 2012 | Kohort | J Antimicrob Chemother | Klinisk erfaring med daptomycin ved protese-leddinfeksjoner i kne og hofte |
+| [26235888](https://pubmed.ncbi.nlm.nih.gov/26235888/) | 2015 | Kohort | Int J Antimicrob Agents | Effekt og sikkerhet av høydose daptomycin (>6 mg/kg) ved kompliserte ben- og leddinfeksjoner |
+| [23312602](https://pubmed.ncbi.nlm.nih.gov/23312602/) | 2013 | Spørreundersøkelse | Int J Antimicrob Agents | Gjeldende praksis for behandling av protese-leddinfeksjoner blant infeksjonsleger |
+| [21477701](https://pubmed.ncbi.nlm.nih.gov/21477701/) | 2010 | Kohort (register) | Medicina Clínica | Erfaringer med daptomycin i Spania, fra EU-CORE-databasen |
+| [22854340](https://pubmed.ncbi.nlm.nih.gov/22854340/) | 2012 | In vitro | J Antibiotics | Følsomhet hos S. aureus og S. epidermidis fra protese-leddinfeksjoner |
+| [25650692](https://pubmed.ncbi.nlm.nih.gov/25650692/) | 2015 | Kohort | Surgical Infections | Mikrobiologisk profil hos stafylokokker ved osteoartikulære infeksjoner over ti år |
+| [32206362](https://pubmed.ncbi.nlm.nih.gov/32206362/) | 2020 | Kasuistikk | Case Reports in Orthopedics | Kronisk septisk artritt med Corynebacterium striatum hos pasient med diagnostisert slitasjegikt |
+| [41853106](https://pubmed.ncbi.nlm.nih.gov/41853106/) | 2026 | Kasuistikk | ASM Case Reports | Septisk artritt med Corynebacterium propinquum i et nativt ledd |
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseform | Godkjent indikasjon |
+| Autorisasjonsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004310 | Daptomycin Hospira | Ikke oppgitt | Bløtvevsinfeksjoner; bakterielle hudsykdommer (avregistrert) |
-| EMEA/H/C/000637 | Cubicin | Ikke oppgitt | Grampositive bakterielle infeksjoner; bakteriemi; bløtvevsinfeksjoner; bakteriell endokarditt (avregistrert) |
-
----
+| EMEA/H/C/004310 | Daptomycin Hospira | Ikke angitt | Se produktinformasjon |
+| EMEA/H/C/000637 | Cubicin | Ikke angitt | Se produktinformasjon |
 
 ## Sikkerhetsvurderinger
 
-Pakningsvedlegg med advarsler og kontraindikasjoner var ikke tilgjengelig i de innsamlede dataene. Se pakningsvedlegget for sikkerhetsinformasjon.
+**Legemiddelinteraksjoner** (12 registrerte, hovedsakelig moderate):
+- Moderate: pikosulfat, rosuvastatin, simvastatin, iobenguan (I-131), ibuprofen, diklofenak, etinylestradiol, celecoxib, ciklosporin, mykofenolsyre
+- Milde: dikumarol, warfarin
 
-- **Mulige kontraindikasjoner fra kunnskapsgrafen (ikke fra preparatomtale):** myopati, muskelsykdom, skjelettmuskelsykdom, familiær periodisk paralyse, diarésykdom, Clostridium difficile-kolitt, perinatal nekrotiserende enterokolitt, eosinofil pneumoni, pulmonal eosinofili, perifer nevropati og sykdom i det perifere nervesystemet.
-- **Legemiddelinteraksjoner (12 funnet):**
-  - Moderat: pikosulfat, rosuvastatin, simvastatin, jobenguan (I-131), ibuprofen, diklofenak, etinylestradiol, celecoxib, ciklosporin, mykofenolsyre.
-  - Mindre: dikumarol, warfarin.
-- Den publiserte kasuistikken om rabdomyolyse (PMID 36693494) er i tråd med muskelrelaterte signaler, og kombinasjon med statiner bør vurderes nøye.
+Statiner er klinisk relevante fordi daptomycin kan gi muskelskade (myopati/rabdomyolyse). Et kasuistisk tilfelle i litteraturen beskriver daptomycin-indusert rabdomyolyse.
 
----
+For fullstendig sikkerhetsinformasjon, se preparatomtalen.
 
 ## Konklusjon og neste steg
 
-**Beslutning: Hold** (artrose og øvrige prediksjoner). Revmatoid artritt bør føres opp som et forskningsspørsmål.
+**Beslutning: Hold**
 
 **Begrunnelse:**
-- Ingen kliniske studier støtter noen av de predikerte indikasjonene. Den høye artroseskåren skyldes sannsynligvis kunnskapsgrafens assosiasjoner, mens revmatoid artritt kun har prekliniske data fra mus og celler. Daptomycin er dessuten ikke lenger markedsført i Norge.
+Ingen studier undersøker daptomycin ved slitasjegikt som sykdom, og den tilgjengelige litteraturen gjelder kun bakterielle infeksjoner i ben og ledd. Den høye scoren (0,9986) er ikke støttet av noe mekanistisk eller klinisk signal.
 
-**For å gå videre trengs følgende:**
-- Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
-- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Replikasjon av de prekliniske funnene ved revmatoid artritt i uavhengige modeller
-- Vurdering av om antiinflammatorisk eksponering er oppnåelig ved sikre doser, særlig med tanke på muskeltoksisitet (CK-overvåking) og at legemidlet gis intravenøst
-- Vurdering av regulatorisk og kommersiell situasjon, siden begge godkjenninger er avregistrert
+**For å gå videre kreves:**
+- Data om virkningsmekanisme, og en hypotese for hvordan daptomycin kunne påvirke slitasjegikt
+- Prekliniske studier i modeller for slitasjegikt
+- Gjennomgang av preparatomtalens advarsler og kontraindikasjoner
+- Vurdering av om antiinflammatorisk eksponering er mulig ved sikre doser, gitt risiko for muskelskade
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan være virksomt mot **ekstrakutant mas
 |------|------|
 | Opprinnelig indikasjon | Gigantisk lymfeknutehyperplasi (Castlemans sykdom) |
 | Predikert ny indikasjon | Ekstrakutant mastocytom |
-| TxGNN-prediksjonsscore | 99,64 % |
+| TxGNN-prediksjonsscore | 0,9964 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun tilbakekalt/avregistrert godkjenning (ingen gyldig markedsføringstillatelse) |
-| Antall godkjenninger | 1 (0 gyldige, 1 avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold (avvent) |
 
 ---
@@ -85,7 +85,7 @@ Det finnes foreløpig ingen relatert litteratur for denne indikasjonen.
 |---------|------|------|-----------|
 | EMEA/H/C/003708 | Sylvant | – | Gigantisk lymfeknutehyperplasi |
 
-Godkjenningen har status avregistrert. Det finnes ingen gyldige godkjenninger i dag.
+Godkjenningen er gyldig. Legemidlet er markedsført i Norge, med 1 gyldig godkjenning av 1.
 
 ---
 
@@ -108,7 +108,7 @@ Informasjon om advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgj
 **Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Prediksjonen for ekstrakutant mastocytom støttes bare av TxGNN-modellen (evidensnivå L5), uten kliniske studier eller publikasjoner. I tillegg har legemidlet ingen gyldig markedsføringstillatelse i Norge, og viktige sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen for ekstrakutant mastocytom støttes bare av TxGNN-modellen (evidensnivå L5), uten kliniske studier eller publikasjoner. Legemidlet er markedsført i Norge med 1 gyldig markedsføringstillatelse av 1, men viktige sikkerhetsdata fra preparatomtalen mangler.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtalen (advarsler og kontraindikasjoner), slik at sikkerhetsvurderingen kan gjennomføres

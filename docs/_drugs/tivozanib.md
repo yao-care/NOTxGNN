@@ -50,10 +50,10 @@ men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** i de inn
 |------|------|
 | Opprinnelig indikasjon | Nyrecellekarsinom (Carcinoma, Renal Cell) |
 | Predikert ny indikasjon | Endocervikalt karsinom |
-| TxGNN-prediksjonsscore | 99,81 % |
+| TxGNN-prediksjonsscore | 0,9981 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 1 (0 gyldige, 1 kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---

@@ -39,7 +39,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 ## Oppsummering i én setning
 
 Mogamulizumab er et anti-CCR4 monoklonalt antistoff som opprinnelig brukes mot **Sézarys syndrom** og **mycosis fungoides** (kutane T-cellelymfomer).
-TxGNN-modellen predikerer at det kan ha effekt mot **urotelkarsinom i prostatisk uretra** (score 99,44 %), men for denne prediksjonen finnes det **ingen kliniske studier og ingen publikasjoner** i de innsamlede dataene. Prediksjonen er ren modellprediksjon.
+TxGNN-modellen predikerer at det kan ha effekt mot **urotelkarsinom i prostatisk uretra** (score 0,9944), men for denne prediksjonen finnes det **ingen kliniske studier og ingen publikasjoner** i de innsamlede dataene. Prediksjonen er ren modellprediksjon.
 
 ---
 
@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at det kan ha effekt mot **urotelkarsinom i prostatisk
 |------|------|
 | Opprinnelig indikasjon | Sézarys syndrom; mycosis fungoides |
 | Predikert ny indikasjon | Urotelkarsinom i prostatisk uretra |
-| TxGNN-prediksjonsscore | 99,44 % |
+| TxGNN-prediksjonsscore | 0,9944 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert/trukket tilbake (cancelled) |
-| Antall godkjenninger | 1 (ikke gyldig lenger) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -61,18 +61,18 @@ TxGNN-modellen predikerer at det kan ha effekt mot **urotelkarsinom i prostatisk
 
 Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er mogamulizumab et humanisert monoklonalt antistoff rettet mot kjemokinreseptoren CCR4. Det fjerner CCR4-positive celler, inkludert effektor-regulatoriske T-celler (Treg), gjennom antistoffavhengig cellemediert cytotoksisitet (ADCC). Effekten er dokumentert ved Sézarys syndrom og mycosis fungoides.
 
-Den foreslåtte koblingen til urotelkarsinom er hypotetisk: Treg-depletering i tumormikromiljøet kan teoretisk lette immunsuppresjon. Det finnes ingen direkte evidens for dette i urotelkreft, og CCR4-uttrykk i denne tumortypen er ikke etablert i dataene. Prediksjonen gjenspeiler trolig nærhet i kunnskapsgrafen mellom urotelkarsinom-subtyper, snarere enn en validert CCR4-avhengighet.
+Den foreslåtte koblingen til urotelkarsinom er hypotetisk: Treg-depletering i tumormikromiljøet kan teoretisk lette immunsuppresjon. Det finnes ingen direkte evidens for dette i urotelkreft, og CCR4-uttrykk i denne tumortypen er ikke etablert i dataene. Scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens, og den er ikke en validert CCR4-avhengighet.
 
 ### Andre predikerte indikasjoner (alle uten kliniske studier eller litteratur)
 
 | Rang | Predikert indikasjon | TxGNN-score | Evidensnivå | Vurdering |
 |------|------|------|------|------|
-| 2 | Sarkomatoid overgangscellekarsinom i nyrebekkenet | 99,42 % | L5 | Hold |
-| 3 | Infiltrerende urotelkarsinom i blæren, sarkomatoid variant | 99,40 % | L5 | Hold |
-| 4 | Papillært urotelkarsinom i nyrebekkenet | 99,37 % | L5 | Hold |
-| 5 | Humant herpesvirus 8-relatert tumor | 99,24 % | L5 | Forskningsspørsmål |
-| 6 | Ektomesenkymom | 99,15 % | L5 | Hold |
-| 7 | Malign kutan granulærcelletumor | 99,15 % | L5 | Hold |
+| 2 | Sarkomatoid overgangscellekarsinom i nyrebekkenet | 0,9942 | L5 | Hold |
+| 3 | Infiltrerende urotelkarsinom i blæren, sarkomatoid variant | 0,9940 | L5 | Hold |
+| 4 | Papillært urotelkarsinom i nyrebekkenet | 0,9937 | L5 | Hold |
+| 5 | Humant herpesvirus 8-relatert tumor | 0,9924 | L5 | Forskningsspørsmål |
+| 6 | Ektomesenkymom | 0,9915 | L5 | Hold |
+| 7 | Malign kutan granulærcelletumor | 0,9915 | L5 | Hold |
 
 Av disse er HHV-8-relaterte tumorer (f.eks. Kaposis sarkom og primært effusjonslymfom) biologisk mest plausible, siden CCR4-positive Treg-celler kan bidra til immunsuppresjon. Dette er fortsatt hypotetisk og bør formuleres som et forskningsspørsmål. For ektomesenkymom og granulærcelletumor finnes ingen kjent CCR4-relatert mekanisme.
 
@@ -96,7 +96,7 @@ Foreløpig er det ingen relevant litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/004232 | Poteligeo | Ikke oppgitt | Sézarys syndrom; mycosis fungoides |
 
-Godkjenningen har status «cancelled». Det finnes ingen gyldige godkjenninger i dataene.
+Legemidlet er markedsført, og 1 av 1 godkjenning er gyldig.
 
 ---
 

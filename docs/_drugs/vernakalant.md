@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vernakalant
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 448
-evidence_level: L4
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Vernakalant: predikert ny indikasjon Hjerneslag (stroke disorder) (evidensnivå L4). Opprinnelig indikasjon: Atrieflimmer"
 monitor_inn: "Vernakalant"
-predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "obsolete susceptibility to ischemic stroke", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
+predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
 ---
 
 # Vernakalant
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **6** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at det kan ha effekt ved **hjerneslag (stroke disorder)
 |------|------|
 | Opprinnelig indikasjon | Atrieflimmer |
 | Predikert ny indikasjon | Hjerneslag (stroke disorder) |
-| TxGNN-prediksjonsscore | 99,83 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 1 (kansellert) |
+| TxGNN-prediksjonsscore | 0,9983 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -63,7 +63,7 @@ Detaljerte data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige i de
 
 Koblingen til hjerneslag er indirekte. Atrieflimmer er en viktig risikofaktor for kardioemboliske slag, så gjenoppretting av sinusrytme kan teoretisk redusere emboliskrisikoen. Samtidig medfører selve kardioversjonen en tromboembolisk risiko, og ingen av publikasjonene i datagrunnlaget viser at vernakalant reduserer forekomsten av hjerneslag.
 
-Den svært høye TxGNN-scoren gjenspeiler sannsynligvis sammenhengen mellom atrieflimmer og hjerneslag i kunnskapsgrafen, snarere enn en direkte terapeutisk effekt.
+Den svært høye TxGNN-scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, som atrieflimmer og hjerneslag, ikke biologisk evidens eller en direkte terapeutisk effekt.
 
 ---
 
@@ -89,7 +89,7 @@ Merk: Ingen av publikasjonene viser at vernakalant reduserer hjerneslag direkte.
 |---------|------|------|-----------|
 | EMEA/H/C/001215 | Brinavess | Ikke oppgitt | Atrieflimmer |
 
-Godkjenningen er kansellert, og det finnes ingen gyldige markedsføringstillatelser.
+Legemidlet er markedsført, og den ene markedsføringstillatelsen (1 av 1) er gyldig.
 
 ---
 
@@ -105,11 +105,10 @@ Det finnes ingen registrerte legemiddelinteraksjoner i de innsamlede dataene. De
 
 | Rangering | Sykdom | Score | Evidensnivå | Vurdering |
 |------|------|------|------|------|
-| 2 | Sick sinus syndrome 2, autosomalt dominant | 99,55 % | L5 | Mekanistisk tvilsom. Natriumkanalblokade kan forverre sinusknutedysfunksjon, bradykardi eller ledningsforstyrrelser, så dette kan være et sikkerhetsproblem snarere enn en fordel. |
-| 3 | Foreldet term: mottakelighet for iskemisk hjerneslag | 99,43 % | L5 | Overlapper med hjerneslag. Eventuell kobling går kun via kardioembolisk risiko ved atrieflimmer. |
-| 4 | Sarkoglykanopati | 99,32 % | L5 | Ingen mekanistisk kobling identifisert, trolig nettverksartefakt. |
-| 5 | Wildervanck syndrom | 99,29 % | L5 | Strukturell utviklingsforstyrrelse, uten plausibel relevans. |
-| 6 | ABri-amyloidose | 99,26 % | L5 | Ingen kjent anti-amyloid-mekanisme. |
+| 2 | Sick sinus syndrome 2, autosomalt dominant | 0,9955 | L5 | Mekanistisk tvilsom. Natriumkanalblokade kan forverre sinusknutedysfunksjon, bradykardi eller ledningsforstyrrelser, så dette kan være et sikkerhetsproblem snarere enn en fordel. |
+| 4 | Sarkoglykanopati | 0,9932 | L5 | Ingen mekanistisk kobling identifisert, trolig nettverksartefakt. |
+| 5 | Wildervanck syndrom | 0,9929 | L5 | Strukturell utviklingsforstyrrelse, uten plausibel relevans. |
+| 6 | ABri-amyloidose | 0,9926 | L5 | Ingen kjent anti-amyloid-mekanisme. |
 
 Ingen av disse har kliniske studier eller litteratur.
 
@@ -120,7 +119,7 @@ Ingen av disse har kliniske studier eller litteratur.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for hjerneslag bygger i hovedsak på den kjente sammenhengen mellom atrieflimmer og slag i kunnskapsgrafen. Det finnes ingen kliniske studier og ingen data som viser at vernakalant reduserer slagrisiko, og selve kardioversjonen medfører tromboembolisk risiko. I tillegg er den eneste norske/europeiske godkjenningen kansellert.
+Prediksjonen for hjerneslag kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Det finnes ingen kliniske studier og ingen data som viser at vernakalant reduserer slagrisiko, og selve kardioversjonen medfører tromboembolisk risiko.
 
 **For å gå videre kreves følgende:**
 - Sikkerhetsinformasjon fra pakningsvedlegget (advarsler og kontraindikasjoner), som er et blokkerende datagap

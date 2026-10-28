@@ -6,9 +6,9 @@ nav_order: 409
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Tenofovir Alafenamide: predikert ny indikasjon Felint ervervet immunsviktsyndrom (FIV) (evidensnivå L5). Opprinnelig indikasjon: Hepatitt B"
 monitor_inn: "TENOFOVIR ALAFENAMIDE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Tenofovir Alafenamide: predikert ny indikasjon Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome) (evidensnivå L5). Opprinnelig indikasjon: Hepatitis B"
 ---
 
 # Tenofovir Alafenamide
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-## Tenofovir alafenamid: Fra hepatitt B og HIV til felint ervervet immunsviktsyndrom
+## Tenofovir Alafenamide: Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -48,11 +48,12 @@ For den nærliggende indikasjonen **infeksjon med simian immunsviktvirus (SIV)**
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Hepatitt B; HIV-infeksjon |
-| Predikert ny indikasjon | Felint ervervet immunsviktsyndrom (FIV) |
-| TxGNN-prediksjonsscore | 99,89 % |
+| Opprinnelig indikasjon | Hepatitis B; HIV Infections |
+| Predikert ny indikasjon | Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome) |
+| TxGNN-prediksjonsscore | 0.9989 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte (opphørte) tillatelser |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 8 av 8) |
+| Antall godkjenninger | 8 (gyldige: 8) |
 | Antall tillatelser | 8 (alle avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -66,7 +67,7 @@ Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Ut fra k
 
 Felint immunsviktvirus (FIV) er et lentivirus som, i likhet med HIV-1, formerer seg via revers transkriptase. Det gjør aktivitet plausibel ut fra legemiddelklassens mekanisme. Den høye TxGNN-scoren gjenspeiler sannsynligvis likheten med den godkjente HIV-indikasjonen. Det finnes imidlertid ingen FIV-spesifikke data i datagrunnlaget, så vurderingen bygger på generell kunnskap om legemiddelklassen.
 
-Til sammenligning har den tredje prediksjonen (en sjelden genetisk nevroutviklingsforstyrrelse med ataksi, manglende tale og redusert hvit substans i hjernebarken) ingen synlig mekanistisk kobling til et antiviralt legemiddel. Den er sannsynligvis et artefakt i kunnskapsgrafen, og videre undersøkelse anbefales ikke uten en uavhengig biologisk begrunnelse.
+Til sammenligning har den tredje prediksjonen (en sjelden genetisk nevroutviklingsforstyrrelse med ataksi, manglende tale og redusert hvit substans i hjernebarken) ingen synlig mekanistisk kobling til et antiviralt legemiddel.
 
 ---
 
@@ -95,7 +96,6 @@ For FIV finnes det ingen relevant litteratur. Tabellen nedenfor gjelder den nær
 
 ## Markedsinformasjon for Norge
 
-Alle åtte tillatelser i datagrunnlaget er avregistrert, og det finnes ingen gyldige tillatelser.
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -122,7 +122,7 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen (pakningsvedlegget).
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for FIV bygger bare på modellscore og klassemekanisme, uten kliniske studier eller litteratur (L5). Evidensen for SIV-infeksjon er preklinisk og støtter i hovedsak den eksisterende HIV-indikasjonen, ikke en ny bruk. I tillegg er alle norske tillatelser avregistrert.
+Prediksjonen for FIV bygger bare på modellscore og klassemekanisme, uten kliniske studier eller litteratur (L5). Evidensen for SIV-infeksjon er preklinisk og støtter i hovedsak den eksisterende HIV-indikasjonen, ikke en ny bruk.
 
 **For å gå videre trengs følgende:**
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank

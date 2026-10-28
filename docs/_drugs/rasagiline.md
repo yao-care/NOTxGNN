@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt på **PLA2G6-assosiert nev
 |------|------|
 | Opprinnelig indikasjon | Parkinsons sykdom |
 | Predikert ny indikasjon | PLA2G6-assosiert nevrodegenerasjon |
-| TxGNN-prediksjonsscore | 99,71 % |
+| TxGNN-prediksjonsscore | 0,9971 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun opphevede (avregistrerte) godkjenninger |
-| Antall godkjenninger | 3 (alle opphevet, ingen gyldige) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -63,7 +63,7 @@ Data om virkningsmekanisme (MOA) er ikke tilgjengelig i det innsamlede materiale
 
 PLA2G6-assosiert nevrodegenerasjon omfatter blant annet infantil nevroaksonal dystrofi og PLA2G6-relatert dystoni-parkinsonisme. Disse tilstandene har fellestrekk med Parkinsons sykdom, som dopaminerg dysfunksjon, alfa-synuklein-patologi og mitokondriell/oksidativ stress. Symptomlindring ved den parkinsonistiske fenotypen er derfor teoretisk plausibel.
 
-Koblingen er imidlertid kun teoretisk. Det finnes ingen støtte for at rasagilin påvirker den underliggende defekten i lipidmetabolismen. Den svært høye TxGNN-scoren (0,997) er en beregningsmessig prediksjon og ikke klinisk evidens.
+Koblingen er imidlertid kun teoretisk. Det finnes ingen støtte for at rasagilin påvirker den underliggende defekten i lipidmetabolismen. Den svært høye TxGNN-scoren (0,9971) er en beregningsmessig prediksjon og ikke klinisk evidens.
 
 ---
 
@@ -81,7 +81,7 @@ Foreløpig er det ingen relatert litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-Alle tre godkjenningene er opphevet. Det finnes ingen gyldige godkjenninger.
+Alle tre godkjenningene er gyldige, og legemidlet er markedsført.
 
 | Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -117,7 +117,7 @@ Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier
 - Vurdering av sikkerhet og dosering i barn og unge
 
 **Tilleggsmerknad om andre prediksjoner:**
-Blant de øvrige predikerte indikasjonene er **juvenil parkinsonisme (Hunt-type)** (score 99,25 %, evidensnivå L4, anbefaling «forskningsspørsmål») den mest troverdige kandidaten. Den ligger nær den godkjente indikasjonen Parkinsons sykdom, men evidensen er indirekte (ekstrapolert) og krever målrettet gjennomgang. De øvrige (Rasmussen-encefalitt, myelitt, transaldolasemangel og polymikrogyri med cerebellær hypoplasi) har svake eller ingen mekanistiske koblinger og anbefales som Hold.
+Blant de øvrige predikerte indikasjonene er **juvenil parkinsonisme (Hunt-type)** (score 0,9925, evidensnivå L4, anbefaling «forskningsspørsmål») den mest troverdige kandidaten. Den ligger nær den godkjente indikasjonen Parkinsons sykdom, men evidensen er indirekte (ekstrapolert) og krever målrettet gjennomgang. De øvrige (Rasmussen-encefalitt, myelitt, transaldolasemangel og polymikrogyri med cerebellær hypoplasi) har svake eller ingen mekanistiske koblinger og anbefales som Hold.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

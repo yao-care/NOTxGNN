@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nilotinib
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 284
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Nilotinib: predikert ny indikasjon Dermatofibrosarcoma protuberans (evidensnivå L4). Opprinnelig indikasjon: Kronisk myelogen leukemi, BCR-ABL-positiv"
 monitor_inn: "NILOTINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
+description: "Nilotinib: predikert ny indikasjon Dermatofibrosarcoma protuberans (evidensnivå L5). Opprinnelig indikasjon: Leukemia, Myelogenous, Chronic, BCR-ABL Positive"
 ---
 
 # Nilotinib
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
 
 </div>
 
-## Nilotinib: Fra kronisk myelogen leukemi til dermatofibrosarcoma protuberans
+## Nilotinib: Dermatofibrosarcoma protuberans
 {: .text-alpha }
 
 ## Sammendrag
@@ -48,11 +48,12 @@ Evidensen er foreløpig svak: **ingen registrerte kliniske studier** og **1 publ
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Kronisk myelogen leukemi, BCR-ABL-positiv |
+| Opprinnelig indikasjon | Leukemia, Myelogenous, Chronic, BCR-ABL Positive |
 | Predikert ny indikasjon | Dermatofibrosarcoma protuberans |
-| TxGNN-prediksjonsscore | 99,31 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun avregistrerte (trukket tilbake) markedsføringstillatelser |
+| TxGNN-prediksjonsscore | 0.9931 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Antall tillatelser | 2 (begge avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -86,8 +87,8 @@ Foreløpig ingen relevante kliniske studier registrert.
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000798 | Tasigna (Novartis Europharm Limited) | Ikke oppgitt | Kronisk myelogen leukemi, BCR-ABL-positiv (avregistrert) |
-| EMEA/H/C/006315 | Nilotinib Accord (Accord Healthcare S.L.U.) | Ikke oppgitt | Kronisk myelogen leukemi, BCR-ABL-positiv (avregistrert) |
+| EMEA/H/C/000798 | Tasigna (Novartis Europharm Limited) | Ikke oppgitt | Kronisk myelogen leukemi, BCR-ABL-positiv (godkjent) |
+| EMEA/H/C/006315 | Nilotinib Accord (Accord Healthcare S.L.U.) | Ikke oppgitt | Kronisk myelogen leukemi, BCR-ABL-positiv (godkjent) |
 
 ---
 
@@ -96,7 +97,6 @@ Foreløpig ingen relevante kliniske studier registrert.
 | Punkt | Innhold |
 |------|------|
 | Klassifisering | Målrettet terapi (tyrosinkinasehemmer) |
-| Risiko for myelosuppresjon | Se preparatomtalen for advarsler og forsiktighetsregler. Kunnskapsgrafen peker på nøytropeni, trombocytopeni og anemi som relevante tilstander |
 | Emetogenisitet | Se preparatomtalen for advarsler og forsiktighetsregler |
 | Overvåkingspunkter | Blodstatus (CBC), lever- og nyrefunksjon, elektrolytter (kalium, fosfor, kalsium), blodsukker, EKG/QT-intervall |
 | Håndteringsbeskyttelse | Se preparatomtalen for advarsler og forsiktighetsregler |
@@ -123,7 +123,7 @@ Data om advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelig
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Det mekanistiske grunnlaget (PDGFR-hemming, analogt med imatinib) er plausibelt, men evidensen består kun av modellprediksjon og én oversiktsartikkel uten kliniske studier. I tillegg er alle norske/europeiske tillatelser avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
+Det mekanistiske grunnlaget (PDGFR-hemming, analogt med imatinib) er plausibelt, men evidensen består kun av modellprediksjon og én oversiktsartikkel uten kliniske studier. I tillegg er legemidlet markedsført i Norge med 2 gyldige tillatelser av 2, og sikkerhetsdata fra preparatomtalen mangler.
 
 **For å gå videre kreves:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel)

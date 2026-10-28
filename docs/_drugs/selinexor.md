@@ -50,10 +50,10 @@ men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** i de inn
 |------|------|
 | Opprinnelig indikasjon | Multippelt myelom |
 | Predikert ny indikasjon | Legemiddelindusert osteoporose (drug-induced osteoporosis) |
-| TxGNN-prediksjonsscore | 99,22 % |
+| TxGNN-prediksjonsscore | 0,9922 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte (trukket) godkjenninger |
-| Antall godkjenninger | 1 (0 gyldige, 1 avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene. U
 
 Et mulig, men ubekreftet, mekanistisk bindeledd til benvev er at XPO1-hemming kan påvirke signalveier som regulerer benombygging, for eksempel osteoklast- og osteoblastregulering, NF-kB og Wnt. Dette er spekulativt. Multippelt myelom gir betydelig benpåvirkning, så eventuelle benrelaterte effekter sett hos myelompasienter vil være forstyrret av selve sykdommen og av samtidig behandling.
 
-Den høye scoren (0,992) kan gjenspeile nærhet i nettverket til benrelaterte gener fremfor reell terapeutisk nytte. Effektretningen (beskyttende eller skadelig) er ikke fastslått.
+Den høye scoren (0,9922) kan gjenspeile nærhet i nettverket til benrelaterte gener fremfor reell terapeutisk nytte. Effektretningen (beskyttende eller skadelig) er ikke fastslått.
 
 ---
 
@@ -86,7 +86,7 @@ Det er foreløpig ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/005127 | Nexpovio | – | Multippelt myelom |
 
-Merk: Denne godkjenningen er avregistrert (status: cancelled). Det finnes ingen gyldige godkjenninger.
+Merk: Denne godkjenningen er gyldig. Det finnes 1 gyldig godkjenning av 1.
 
 ---
 
@@ -124,7 +124,7 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon (advarsler og kontraindikasj
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den eneste støtten for prediksjonen er en høy TxGNN-score uten klinisk validering, og det finnes verken kliniske studier eller litteratur. Medikamentet har dessuten ingen gyldig markedsføringstillatelse i Norge, og kritiske sikkerhetsdata mangler.
+Den eneste støtten for prediksjonen er en høy TxGNN-score uten klinisk validering, og det finnes verken kliniske studier eller litteratur. Medikamentet er markedsført i Norge med 1 gyldig markedsføringstillatelse av 1, men kritiske sikkerhetsdata mangler.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtalen (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsscreening

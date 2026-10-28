@@ -4,7 +4,7 @@ title: Talimogene Laherparepvec
 parent: Kun modellprediksjon (L5)
 nav_order: 398
 evidence_level: L5
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Talimogene Laherparepvec: predikert ny indikasjon CMM7 (evidensnivå L5). Opprinnelig indikasjon: Melanom"
 monitor_inn: "TALIMOGENE LAHERPAREPVEC"
@@ -14,7 +14,7 @@ predicted_indications: ["CMM7", "glottis squamous cell carcinoma", "lung occult 
 # Talimogene Laherparepvec
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt mot **CMM7**, en subtype av
 |------|------|
 | Opprinnelig indikasjon | Melanom |
 | Predikert ny indikasjon | CMM7 |
-| TxGNN-prediksjonsscore | 99,20 % |
+| TxGNN-prediksjonsscore | 0,9920 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 1 (0 gyldige, 1 kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -69,12 +69,10 @@ Den høye TxGNN-scoren (0,992) skyldes sannsynligvis likheten med den godkjente 
 
 | Rang | Sykdom | Score | Kommentar |
 |------|------|------|------|
-| 2 | Pediatrisk leptomeningealt melanom | 99,15 % | Diffus CNS-sykdom; store utfordringer med administrasjon, nevrovirulens og sikkerhet for et levende, replikerende HSV-1-virus, spesielt hos barn |
-| 3 | Epiteloidcellet uveamelanom | 99,13 % | Annen biologi enn kutant melanom; regional levering mot levermetastaser er konseptuelt mulig, men uten støtte i data |
-| 4 | Plateepitelkarsinom i glottis | 99,07 % | Direkte injeksjon er mulig, men larynx er et funksjonelt sensitivt område der inflammasjon eller ødem kan true luftveien |
-| 5 | Okkult plateepitelkarsinom i lunge | 99,05 % | Ingen synlig lesjon å injisere i, så administrasjonsveien er dårlig gjennomførbar |
-| 6 | Kloakogent karsinom i rektum | 99,01 % | Kan være lokalt tilgjengelig, men uten mekanistiske eller kliniske data |
-| 7 | Adenoskvamøst karsinom i galleblæren | 99,01 % | Dyptliggende svulst; bildestyrt eller endoskopisk levering er konseptuelt mulig |
+| 4 | Plateepitelkarsinom i glottis | 0,9907 | Direkte injeksjon er mulig, men larynx er et funksjonelt sensitivt område der inflammasjon eller ødem kan true luftveien |
+| 5 | Okkult plateepitelkarsinom i lunge | 0,9905 | Ingen synlig lesjon å injisere i, så administrasjonsveien er dårlig gjennomførbar |
+| 6 | Kloakogent karsinom i rektum | 0,9901 | Kan være lokalt tilgjengelig, men uten mekanistiske eller kliniske data |
+| 7 | Adenoskvamøst karsinom i galleblæren | 0,9901 | Dyptliggende svulst; bildestyrt eller endoskopisk levering er konseptuelt mulig |
 
 ---
 
@@ -96,7 +94,7 @@ Foreløpig er det ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/002771 | Imlygic | – | Melanom |
 
-Godkjenningen (innehaver: Amgen Europe B.V.) er kansellert, og det finnes ingen gyldige godkjenninger.
+Godkjenningen (innehaver: Amgen Europe B.V.) er gyldig, og legemidlet er markedsført.
 
 ---
 

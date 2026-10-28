@@ -4,17 +4,17 @@ title: Ranibizumab
 parent: Kun modellprediksjon (L5)
 nav_order: 346
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Ranibizumab: predikert ny indikasjon Alvorlig ikke-proliferativ diabetisk retinopati (evidensnivå L5). Opprinnelig indikasjon: Våt makuladegenerasjon, makulaødem, koroidal neovaskularisering…"
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "craniostenosis cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
+description: "Ranibizumab: predikert ny indikasjon Immature cataract (evidensnivå L5). Opprinnelig indikasjon: Wet Macular Degeneration"
 ---
 
 # Ranibizumab
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Ranibizumab: Fra våt aldersrelatert makuladegenerasjon til alvorlig ikke-proliferativ diabetisk retinopati
+## Ranibizumab: Immature cataract
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -48,12 +48,12 @@ Dette støttes av **19 publikasjoner** (blant annet RCT-baserte analyser fra RID
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Våt makuladegenerasjon, makulaødem, koroidal neovaskularisering, diabeteskomplikasjoner |
-| Predikert ny indikasjon | Alvorlig ikke-proliferativ diabetisk retinopati |
-| TxGNN-prediksjonsscore | 99,99 % |
-| Evidensnivå | L1 (bør verifiseres mot fullstendige publikasjoner, se under) |
-| Markedsstatus i Norge | Kun opphørte godkjenninger |
-| Antall godkjenninger | 7 (alle opphørt) |
+| Opprinnelig indikasjon | Wet Macular Degeneration;Macular Edema;Choroidal Neovascularization;Diabetes Complications; Wet Macular Degeneration;Macular Edema;Diabetic Retinopathy;Diabetes Complications; Wet Macular Degeneration;Macular Edema;Diabetic Retinopathy;Diabetes Complications;Retinal Vein Occlusion;Choroidal Neovascu |
+| Predikert ny indikasjon | Immature cataract |
+| TxGNN-prediksjonsscore | 0.9999 |
+| Evidensnivå | L5 (bør verifiseres mot fullstendige publikasjoner, se under) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 7 av 7) |
+| Antall godkjenninger | 7 (gyldige: 7) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med sikkerhetstiltak) |
 
 ---
@@ -136,15 +136,15 @@ Alle øvrige prediksjoner har svak eller indirekte evidens og får beslutningen 
 
 | Predikert indikasjon | Score | Evidensnivå | Vurdering |
 |------|------|------|------|
-| Umoden katarakt | 99,99 % | L5 | Kun modellprediksjon, ingen studier eller litteratur |
-| Moden katarakt | 99,99 % | L4 | Litteraturen gjelder kombinert kataraktkirurgi og injeksjon, ikke effekt på katarakt |
-| Type 2-diabetesassosiert katarakt | 99,99 % | L4 | Litteraturen gjelder diabetisk makulaødem, ikke katarakt |
-| Tetanisk katarakt | 99,99 % | L5 | Kun modellprediksjon, årsaken (hypokalsemi) påvirkes ikke av VEGF-hemming |
-| Kraniostenose-katarakt | 99,99 % | L5 | Kun modellprediksjon |
-| Nukleær senil katarakt | 99,99 % | L5 | Kun modellprediksjon |
-| Kortikal katarakt | 99,99 % | L4 | Indirekte litteratur, inkludert en case-rapport om bivirkning (kapselblokk-syndrom) |
-| Senil katarakt | 99,99 % | L4 | Biomarkørstudier av netthinnesykdom, ikke effekt på katarakt |
-| Hemoragisk sykdom hos nyfødte | 99,87 % | L4 | Skyldes vitamin K-mangel; de to studiene gjelder andre sykdommer (HHT-studien trukket tilbake, 0 inkluderte) |
+| Umoden katarakt | 0,9999 | L5 | Kun modellprediksjon, ingen studier eller litteratur |
+| Moden katarakt | 0,9999 | L5 | Litteraturen gjelder kombinert kataraktkirurgi og injeksjon, ikke effekt på katarakt |
+| Type 2-diabetesassosiert katarakt | 0,9999 | L5 | Litteraturen gjelder diabetisk makulaødem, ikke katarakt |
+| Tetanisk katarakt | 0,9999 | L5 | Kun modellprediksjon, årsaken (hypokalsemi) påvirkes ikke av VEGF-hemming |
+| Kraniostenose-katarakt | 0,9999 | L5 | Kun modellprediksjon |
+| Nukleær senil katarakt | 0,9999 | L5 | Kun modellprediksjon |
+| Kortikal katarakt | 0,9999 | L5 | Indirekte litteratur, inkludert en case-rapport om bivirkning (kapselblokk-syndrom) |
+| Senil katarakt | 0,9999 | L5 | Biomarkørstudier av netthinnesykdom, ikke effekt på katarakt |
+| Hemoragisk sykdom hos nyfødte | 0,9987 | L5 | Skyldes vitamin K-mangel; de to studiene gjelder andre sykdommer (HHT-studien trukket tilbake, 0 inkluderte) |
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -49,9 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt mot **multippel endokrin ne
 |------|------|
 | Opprinnelig indikasjon | HIV-infeksjon |
 | Predikert ny indikasjon | Multippel endokrin neoplasi |
-| TxGNN-prediksjonsscore | 99,82 % |
+| TxGNN-prediksjonsscore | 0,9982 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun opphevede/trukne autorisasjoner |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall autorisasjoner | 1 (opphevet) |
 | Anbefalt beslutning | Hold |
 
@@ -61,7 +62,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt mot **multippel endokrin ne
 
 For tiden foreligger det ikke detaljerte data om virkningsmekanisme i det innsamlede datagrunnlaget. Maraviroc er kjent som en CCR5-antagonist (kjemokinreseptor), og effekten ved HIV-infeksjon er etablert, ved at den blokkerer virusets inngang i celler via CCR5.
 
-For multippel endokrin neoplasi (MEN) finnes det ingen kjent kobling mellom CCR5-signalering og sykdomsmekanismen. MEN drives typisk av endringer i MEN1, RET eller CDKN1B. Den høye scoren (0,998) er en ren beregningsmessig prediksjon og bør ikke tolkes som tegn på klinisk effekt.
+For multippel endokrin neoplasi (MEN) finnes det ingen kjent kobling mellom CCR5-signalering og sykdomsmekanismen. MEN drives typisk av endringer i MEN1, RET eller CDKN1B. Den høye scoren (0,9982) er en ren beregningsmessig prediksjon og bør ikke tolkes som tegn på klinisk effekt.
 
 Blant de andre predikerte indikasjonene finnes mer plausible biologiske hypoteser:
 - **HER2-positiv brystkreft** (rang 10): En prekliniske studie (PMID 32404410) viser at autokrin CCL5, en ligand for CCR5, medierer trastuzumabresistens via ERK-aktivering. CCR5-blokade er en mekanistisk sammenhengende hypotese, men dette er et forskningsspørsmål og ikke testet med maraviroc.
@@ -121,7 +122,7 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for multippel endokrin neoplasi bygger kun på en beregnet modellscore uten støtte fra kliniske studier, litteratur eller kjent mekanistisk kobling. Legemidlet har dessuten ingen gyldig autorisasjon i Norge i dag.
+Prediksjonen for multippel endokrin neoplasi bygger kun på en beregnet modellscore uten støtte fra kliniske studier, litteratur eller kjent mekanistisk kobling. Legemidlet er markedsført i Norge, med 1 gyldig autorisasjon av 1.
 
 **For å gå videre kreves følgende:**
 - Detaljerte data om virkningsmekanisme

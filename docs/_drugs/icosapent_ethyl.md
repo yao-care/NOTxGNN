@@ -50,10 +50,10 @@ men for øyeblikket finnes **ingen kliniske studier** og **ingen publikasjoner**
 |------|------|
 | Opprinnelig indikasjon | Dyslipidemi |
 | Predikert ny indikasjon | Hemoglobinopati |
-| TxGNN-prediksjonsscore | 99,09 % |
+| TxGNN-prediksjonsscore | 0,9909 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte/trukkede godkjenninger |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Data om virkningsmekanisme (MOA) er for øyeblikket ikke tilgjengelig i de innsa
 
 En mulig hypotese, som **ikke** støttes av de innsamlede dataene, er at EPA kan dempe betennelse, oksidativt stress og avvik i røde blodcellers membran. Dette er relevant ved hemoglobinopatier som sigdcellesykdom. Hypotesen må testes i egne studier.
 
-Den høye prediksjonsscoren (0,991) bør tolkes som et modellsignal, ikke som klinisk bevis. Markedsstatusen «kun avregistrert» kan også begrense det praktiske utviklingspotensialet for dette produktet.
+Den høye prediksjonsscoren (0,9909) bør tolkes som et modellsignal fra TxGNN-modellen (deep learning), ikke som klinisk bevis. Legemidlet er markedsført i dette markedet, med 1 gyldig lisens av 1.
 
 ---
 
@@ -84,7 +84,7 @@ Det finnes for øyeblikket ingen relatert litteratur.
 
 | Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/005398 | Vazkepa | – | Dyslipidemi (status: avregistrert) |
+| EMEA/H/C/005398 | Vazkepa | – | Dyslipidemi (status: godkjent) |
 
 Innehaver: Recordati Industria Chimica e Farmaceutica S.p.A.
 

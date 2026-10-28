@@ -4,17 +4,17 @@ title: Ziconotide
 parent: Moderat evidens (L3-L4)
 nav_order: 459
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Ziconotide: predikert ny indikasjon Migrene (migraine disorder) (evidensnivå L4). Opprinnelig indikasjon: Injeksjon i ryggmargskanalen"
 monitor_inn: "ZICONOTIDE"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "obesity disorder", "transient ischemic attack (disease)", "open-angle glaucoma", "obsolete neurogenic bladder (disease)", "migraine with or without aura, susceptibility to", "primary hereditary glaucoma", "preeclampsia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "obesity disorder", "transient ischemic attack (disease)", "open-angle glaucoma", "obsolete neurogenic bladder (disease)", "primary hereditary glaucoma", "preeclampsia"]
 ---
 
 # Ziconotide
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,10 @@ men evidensen er svak: **ingen kliniske studier** og **én kasuistikk** direkte 
 |------|------|
 | Opprinnelig indikasjon | Injeksjon i ryggmargskanalen; smerte |
 | Predikert ny indikasjon | Migrene (migraine disorder) |
-| TxGNN-prediksjonsscore | 99,92 % |
+| TxGNN-prediksjonsscore | 0,9992 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -88,7 +89,7 @@ Foreløpig er det ingen registrerte kliniske studier knyttet til denne indikasjo
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000551 | Prialt (Esteve Pharmaceuticals GmbH) | Ikke oppgitt | Injeksjon i ryggmargskanalen; smerte (status: avregistrert) |
+| EMEA/H/C/000551 | Prialt (Esteve Pharmaceuticals GmbH) | Ikke oppgitt | Injeksjon i ryggmargskanalen; smerte (status: godkjent) |
 
 ---
 

@@ -4,17 +4,17 @@ title: Risperidone
 parent: Kun modellprediksjon (L5)
 nav_order: 363
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Risperidone: predikert ny indikasjon Familiær horisontal blikkparese med progressiv skoliose (evidensnivå L5). Opprinnelig indikasjon: Schizofreni"
 monitor_inn: "RISPERIDONE"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-## Risperidon: Fra schizofreni til Gaze palsy, familiær horisontal, med progressiv skoliose
+## Risperidon: Fra schizofreni til Familiær horisontal blikkparese med progressiv skoliose
 {: .text-alpha }
 
 ## Kort oppsummering
@@ -48,9 +48,10 @@ Risperidon er et antipsykotikum som opprinnelig brukes til behandling av schizof
 |------|------|
 | Opprinnelig indikasjon | Schizofreni |
 | Predikert ny indikasjon | Familiær horisontal blikkparese med progressiv skoliose |
-| TxGNN-prediksjonsscore | 99,76 % |
+| TxGNN-prediksjonsscore | 0,9976 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte (trukket tilbake) tillatelser |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall markedsføringstillatelser | 1 |
 | Anbefalt beslutning | Hold (avvent) |
 
@@ -82,7 +83,7 @@ Foreløpig finnes ingen relatert litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/005406 | Okedi | Ikke oppgitt | Schizofreni |
 
-Tillatelsen er registrert som avregistrert (status: «cancelled»), og det finnes ingen gyldige tillatelser. Innehaver er Laboratorios Farmacéuticos Rovi, S.A.
+Legemidlet er markedsført, og 1 av 1 tillatelser er gyldig. Innehaver er Laboratorios Farmacéuticos Rovi, S.A.
 
 ---
 
@@ -111,11 +112,10 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 | Indikasjon | Score | Evidens | Beslutning |
 |------|------|------|------|
-| Asperger syndrom, mottakelighet | 99,74 % | L5 | Hold |
-| Amelocerebrohypohidrotisk syndrom | 99,69 % | L5 | Hold |
-| Phelan-McDermid syndrom | 99,59 % | L4 | Forskningsspørsmål |
-| Trikotillomani | 99,51 % | L4 | Forskningsspørsmål |
-| **Alvorlig affektiv lidelse** | 99,11 % | **L1** | **Proceed with Guardrails** |
+| Amelocerebrohypohidrotisk syndrom | 0,9969 | L5 | Hold |
+| Phelan-McDermid syndrom | 0,9959 | L4 | Forskningsspørsmål |
+| Trikotillomani | 0,9951 | L4 | Forskningsspørsmål |
+| **Alvorlig affektiv lidelse** | 0,9911 | **L1** | **Proceed with Guardrails** |
 
 **Kort om de tre første:**
 - **Asperger-susceptibilitet og amelocerebrohypohidrotisk syndrom:** ingen studier eller litteratur. Risperidon er godkjent for irritabilitet ved autismespekterforstyrrelse, men det gjelder det kliniske syndromet og ikke denne genetiske oppføringen. Det andre er et ultrasjeldent genetisk syndrom (ROGDI-relatert) uten kjent mekanistisk rolle for risperidon.

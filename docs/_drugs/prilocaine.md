@@ -46,10 +46,10 @@ Prilokain er et amid-lokalbedøvelsesmiddel. Det er registrert for fysiologisk s
 |------|------|
 | Opprinnelig indikasjon | Fysiologisk seksuell dysfunksjon |
 | Predikert ny indikasjon | Papillær konjunktivitt |
-| TxGNN-prediksjonsscore | 99,78 % |
+| TxGNN-prediksjonsscore | 0,9978 |
 | Evidensnivå | L5 (kun modellprediksjon) |
-| Markedsstatus i Norge | Kun trukket tilbake (avregistrert) |
-| Antall godkjenninger | 1 (0 gyldige, 1 kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ## Hvorfor er denne prediksjonen rimelig?

@@ -5,10 +5,10 @@ parent: Kun modellprediksjon (L5)
 nav_order: 238
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-15
-description: "Leflunomide: predikert ny indikasjon Brachydaktyli-syndaktyli-syndrom (evidensnivå L5). Opprinnelig indikasjon: Revmatoid artritt"
 monitor_inn: "LEFLUNOMIDE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+last_modified_at: 2026-10-27
+description: "Leflunomide: predikert ny indikasjon Brakydaktyli-syndaktyli-syndrom (brachydactyly-syndactyly syndrome) (evidensnivå L5). Opprinnelig indikasjon: Arthritis, Rheumatoid"
 ---
 
 # Leflunomide
@@ -33,13 +33,12 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-## Leflunomid: Fra revmatoid artritt til brachydaktyli-syndaktyli-syndrom
+## Leflunomide: DHODH-hemmer (pyrimidinsyntesehemmer) → brakydaktyli-syndaktyli-syndrom (brachydactyly-syndactyly syndrome)
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
-Leflunomid er et immunmodulerende legemiddel som opprinnelig brukes til behandling av revmatoid artritt og psoriasisartritt.
-TxGNN-modellen predikerer at det kan være effektivt mot **brachydaktyli-syndaktyli-syndrom**, men det finnes **ingen kliniske studier og ingen publikasjoner** som støtter denne prediksjonen. Prediksjonen bygger kun på modellen.
+Leflunomid er en immunmodulerende legemiddelsubstans som hemmer pyrimidinsyntesen. TxGNN-modellen forutsier at den kan være aktuell for **brakydaktyli-syndaktyli-syndrom (brachydactyly-syndactyly syndrome)**, men det finnes **ingen kliniske studier og ingen publikasjoner** i de samlede dataene som støtter denne retningen.
 
 ---
 
@@ -47,70 +46,54 @@ TxGNN-modellen predikerer at det kan være effektivt mot **brachydaktyli-syndakt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Revmatoid artritt; psoriasisartritt |
-| Predikert ny indikasjon | Brachydaktyli-syndaktyli-syndrom |
-| TxGNN-prediksjonsscore | 99,93 % |
+| Opprinnelig indikasjon | Arthritis, Rheumatoid;Arthritis, Psoriatic; Arthritis, Rheumatoid |
+| Predikert ny indikasjon | Brakydaktyli-syndaktyli-syndrom (brachydactyly-syndactyly syndrome) |
+| TxGNN-prediksjonsscore | 0,9993 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun tilbakekalte/avsluttede godkjenninger (ingen gyldige) |
-| Antall godkjenninger | 4 (alle avsluttet) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 4 av 4) |
+| Antall godkjenninger | 4 (gyldige: 4) |
 | Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Ut fra generell farmakologisk kunnskap hemmer leflunomid, via den aktive metabolitten teriflunomid, enzymet dihydroorotatdehydrogenase (DHODH) og dermed pyrimidinsyntesen. Dette demper raskt delende celler, som aktiverte lymfocytter, og forklarer effekten ved revmatoid artritt.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de samlede dataene. Basert på allmenn farmakologisk kunnskap hemmer leflunomid, via den aktive metabolitten teriflunomid, enzymet dihydroorotatdehydrogenase (DHODH) og dermed pyrimidinsyntesen. Dette kan i teorien påvirke raskt prolifererende celler, særlig aktiverte lymfocytter.
 
-Brachydaktyli-syndaktyli-syndrom er en medfødt utviklingsforstyrrelse i lemmene. Det finnes ingen etablert farmakologisk angrepsflate for en immunmodulator ved slike tilstander. Koblingen er spekulativ og gjenspeiler trolig nærhet i kunnskapsgrafen, ikke en terapeutisk mekanisme.
-
-Det er også grunn til forsiktighet: Leflunomid er teratogent (graviditetskategori X), og tap av DHODH-funksjon gir lemmemisdannelser (Miller-syndrom). Den biologiske sammenhengen peker dermed mot skade snarere enn nytte.
-
-Den nest høyest rangerte prediksjonen, **kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom** (score 99,93 %, L5), er også en sjelden medfødt misdannelsestilstand uten kjent rolle for immunmodulering. Den har samme svake og spekulative grunnlag.
+Koblingen til brakydaktyli-syndaktyli-syndrom er spekulativ. Tilstanden er en medfødt utviklingsforstyrrelse i lemmene, og det finnes ingen kjent farmakologisk angrepsflate for en immunmodulator. Tvert imot er leflunomid teratogent, og DHODH-hemming er knyttet til lemmemisdannelser (for eksempel oppstår Miller-syndrom ved tap av DHODH-funksjon). En biologisk kobling peker dermed snarere mot skade enn mot terapeutisk nytte. Den høye modellscoren gjenspeiler trolig nærhet i modellens datagrunnlag, ikke en reell behandlingsmekanisme.
 
 ---
 
-## Evidens fra kliniske studier
+## Klinisk studiedokumentasjon
 
-Det er for øyeblikket ingen registrerte kliniske studier knyttet til denne prediksjonen.
-
----
-
-## Litteraturevidens
-
-Det er for øyeblikket ingen relevant litteratur tilgjengelig.
+Det er for tiden ingen relaterte kliniske studier registrert.
 
 ---
 
-## Informasjon om det norske markedet
+## Litteraturdokumentasjon
 
-Dataene viser fire godkjenninger, alle med status avsluttet. Ingen er gyldige. Nummerne er EMA-sentrale godkjenningsnumre.
+Det er for tiden ingen relevant litteratur tilgjengelig.
+
+---
+
+## Markedsinformasjon for Norge
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/001129 | Leflunomide Zentiva (tidligere Leflunomide Winthrop) | – | Revmatoid artritt; psoriasisartritt |
-| EMEA/H/C/001227 | Leflunomide medac | – | Revmatoid artritt |
-| EMEA/H/C/000235 | Arava | – | Revmatoid artritt; psoriasisartritt |
-| EMEA/H/C/002035 | Leflunomide ratiopharm | – | Revmatoid artritt |
+| EMEA/H/C/001129 | Leflunomide Zentiva (previously Leflunomide Winthrop) | – | Ikke angitt her |
+| EMEA/H/C/001227 | Leflunomide medac | – | Ikke angitt her |
+| EMEA/H/C/000235 | Arava | – | Ikke angitt her |
+| EMEA/H/C/002035 | Leflunomide ratiopharm | – | Ikke angitt her |
 
 ---
 
 ## Sikkerhetsvurderinger
 
-Opplysninger fra preparatomtalen er ikke tilgjengelige i de innsamlede dataene. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
+- **Legemiddelinteraksjoner:** 100 interaksjoner er registrert. Blant de viktigste (alvorlighetsgrad «alvorlig») er acarbose, hydrokortison, pioglitazon, bupropion, triamcinolon, acetylsalisylsyre, deksametason, betametason, budesonid, klaritromycin, minocyklin og naltrekson. Flere kortikosteroider er blant disse.
+- **Tilstander som er registrert som kontraindikasjoner i modelldataene:** leversvikt og leversykdom, nyresykdom, trombocytopeni, nøytropeni, agranulocytose, pancytopeni, anemi, kronisk hepatitt B- og C-infeksjon, perifer nevropati, interstitiell lungesykdom, pneumocystose og aspergillose. Dette er ikke hentet fra preparatomtalen.
+- **Teratogenisitet:** Basert på allmenn farmakologisk kunnskap er leflunomid teratogent, noe som er særlig relevant for en medfødt utviklingsforstyrrelse.
 
-**Kontraindikasjoner fra kunnskapsgrafen (ikke fra preparatomtale):** Kunnskapsgrafen (PrimeKG) knytter leflunomid til følgende tilstander:
-- Lever: leversvikt, leversykdom, gallblæresykdom, kronisk hepatitt B og C, hepatitt C-infeksjon
-- Blod: trombocytopeni, nøytropeni (inkludert medfødte former), agranulocytose, anemi, pancytopeni
-- Nyre og lunge: nyresykdom, interstitiell lungesykdom
-- Nervesystem: perifer nervesykdom og perifer nevropati
-- Infeksjoner: pneumocystose, aspergillose
-
-**Legemiddelinteraksjoner:** Totalt 100 interaksjoner er registrert. Blant de første 20 vist i dataene er de viktigste av alvorlighetsgrad «Major»:
-- Kortikosteroider: hydrokortison, deksametason, betametason, triamcinolon, budesonid
-- Antidiabetika: akarbose, pioglitazon
-- Andre: bupropion, acetylsalisylsyre, klaritromycin, minocyklin, kenodeoksykolsyre, naltrekson, oksandrolon og oksymetolon
-
-Moderate interaksjoner omfatter metronidazol, klorpropamid og acetoheksamid. Sinksulfat og sinkacetat er av alvorlighetsgrad «Minor».
+Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 ---
 
@@ -119,13 +102,13 @@ Moderate interaksjoner omfatter metronidazol, klorpropamid og acetoheksamid. Sin
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er kun modellbasert (L5), uten kliniske studier eller litteratur. Den biologiske sammenhengen er spekulativ, og leflunomids teratogenitet og DHODH-relaterte lemmemisdannelser tyder på risiko snarere enn nytte. I tillegg har legemidlet ingen gyldige godkjenninger i Norge.
+Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier eller litteratur (evidensnivå L5). Den kjente teratogene effekten og koblingen mellom DHODH-hemming og lemmemisdannelser taler mot terapeutisk nytte.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
-- Advarsler og kontraindikasjoner fra preparatomtalen
-- Prekliniske data eller mekanistiske studier som viser en plausibel terapeutisk kobling til lemmeutviklingsforstyrrelser
-- Avklaring av regulatorisk status, siden alle godkjenninger er avsluttet
+- Preparatomtale med advarsler og kontraindikasjoner
+- Prekliniske eller kliniske data som direkte undersøker brakydaktyli-syndaktyli-syndrom
+- En grundig vurdering av teratogenrisiko før eventuelle videre analyser
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Emtricitabine
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 149
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
-description: "Emtricitabine: predikert ny indikasjon Felint ervervet immunsviktsyndrom (FIV) (evidensnivå L4). Opprinnelig indikasjon: HIV-infeksjon"
 monitor_inn: "EMTRICITABINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-27
+description: "Emtricitabine: predikert ny indikasjon Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome) (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
 # Emtricitabine
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,94 +33,77 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-## Emtricitabin: Fra HIV-infeksjon til felint ervervet immunsviktsyndrom
+## Emtricitabin: nukleosid revers transkriptasehemmer → felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
-## Oppsummering i én setning
+## Sammendrag
 
-Emtricitabin er en nukleosid revers transkriptase-hemmer som opprinnelig brukes til behandling av HIV-infeksjon.
-TxGNN-modellen predikerer at legemidlet kan være effektivt mot **felint ervervet immunsviktsyndrom (FIV)**,
-men støtten er svak: **ingen kliniske studier** og **1 publikasjon** (veterinær/prekliniske data) er funnet for denne indikasjonen.
-
----
+Emtricitabin er en nukleosid revers transkriptasehemmer som brukes mot hiv-infeksjon.
+TxGNN-modellen predikerer at den kan være virksom ved **felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome)**,
+men dette støttes foreløpig kun av **1 publikasjon** (veterinær/prekliniske data) og **ingen kliniske studier**.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | HIV-infeksjon |
-| Predikert ny indikasjon | Felint ervervet immunsviktsyndrom (FIV) |
-| TxGNN-prediksjonsscore | 99,92 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun opphevede/kansellerte godkjenninger |
-| Antall godkjenninger | 18 (alle kansellert) |
-| Anbefalt beslutning | Hold |
-
----
+| Opprinnelig indikasjon | HIV Infections |
+| Predikert ny indikasjon | Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome) |
+| TxGNN-prediksjonsscore | 0,9992 |
+| Evidensnivå | L5 |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 18 av 18) |
+| Antall godkjenninger | 18 (gyldige: 18) |
+| Anbefalt beslutning | Avvent |
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon er emtricitabin en nukleosid revers transkriptase-hemmer (NRTI) som stopper forlengelsen av viralt DNA. Effekten ved HIV-infeksjon er veldokumentert, og mekanistisk kan den være anvendelig for beslektede virus.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som er sammenstilt for denne rapporten. Emtricitabin tilhører klassen nukleosid revers transkriptasehemmere, som stopper forlengelsen av viralt DNA. Felint immunsviktvirus (FIV) er et lentivirus med en revers transkriptase som likner på hiv sin, så en biologisk sammenheng er plausibel.
 
-FIV er et lentivirus som gir progressiv immunsvikt hos katter, tilsvarende HIV hos mennesker. Det har en revers transkriptase som ligner på HIV-ens, og det gir en plausibel mekanistisk kobling. Den høye TxGNN-scoren (0,999) gjenspeiler trolig likheten med den opprinnelige HIV-indikasjonen, og ikke uavhengig klinisk validering.
+Den eneste tilgjengelige publikasjonen (2023) undersøker kombinasjonsbehandling med antiretrovirale midler (dolutegravir, tenofovir og emtricitabin) hos FIV-infiserte katter. Studien er indirekte, veterinær og preklinisk, og tittelen alene lar ikke studiedesignet vurderes. Den høye scoren (0,9992) gjenspeiler trolig likheten med hiv-indikasjonen, ikke uavhengig klinisk validering.
 
-Det er verdt å merke seg at dette er en veterinær indikasjon. Den er ikke en ny behandlingsmulighet for mennesker, og den støttes bare indirekte av prekliniske data.
+Evidensnivået settes til L5: den eneste publikasjonen undersøker en kombinasjon hos katter, og det finnes ingen kliniske studier som direkte validerer emtricitabin for denne sykdommen. Dette er dessuten en veterinærtilstand, ikke en sykdom hos mennesker.
 
-Modellen predikerte også **simian immunsviktvirus-infeksjon (SIV)** (rang 2, samme score) og en sjelden nevroutviklingsforstyrrelse (rang 3). For SIV finnes omfattende dyremodellstudier i makaker (blant annet beskyttelse mot SHIV-smitte med emtricitabin kombinert med tenofovir), men SIV er ikke en klinisk sykdom hos mennesker. For den nevroutviklingsforstyrrelsen er det ingen kjent mekanistisk kobling, og ingen studier.
+## Kliniske studier
 
----
-
-## Klinisk studiedokumentasjon
-
-Det finnes for tiden ingen relaterte kliniske studier registrert.
-
----
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Veterinær/preklinisk studie | Viruses | Kombinasjons-antiretroviral behandling (dolutegravir, tenofovir, emtricitabin) undersøkt med hensyn til farmakokinetikk og kliniske utfall hos FIV-infiserte katter. Studiedesignet kan ikke verifiseres fullt ut. |
-
----
+| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Veterinær/preklinisk studie | Viruses | Farmakokinetikk og kliniske utfall av kombinasjonsbehandling (dolutegravir, tenofovir, emtricitabin) hos FIV-infiserte katter |
 
 ## Informasjon om det norske markedet
 
-Alle 18 registrerte godkjenninger er kansellert, og ingen er gyldige i dag. Et utvalg:
+Status: markedsført.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000533 | Emtriva | Ikke oppgitt | HIV-infeksjon |
-| EMEA/H/C/000594 | Truvada | Ikke oppgitt | HIV-infeksjon |
-| EMEA/H/C/004094 | Descovy | Ikke oppgitt | HIV-infeksjon |
-| EMEA/H/C/004449 | Biktarvy | Ikke oppgitt | HIV-infeksjon |
-| EMEA/H/C/004042 | Genvoya | Ikke oppgitt | HIV-infeksjon |
+| EMEA/H/C/000533 | Emtriva | Ikke oppgitt | Hiv-infeksjon |
+| EMEA/H/C/004094 | Descovy | Ikke oppgitt | Hiv-infeksjon |
+| EMEA/H/C/006469 | Emtricitabine / Tenofovir alafenamide Viatris | Ikke oppgitt | Hiv-infeksjon |
+| EMEA/H/C/004215 | Emtricitabine/Tenofovir disoproxil Krka | Ikke oppgitt | Hiv-infeksjon |
+| EMEA/H/C/004137 | Emtricitabine/Tenofovir disoproxil Zentiva | Ikke oppgitt | Hiv-infeksjon |
 
----
+## Sikkerhetshensyn
 
-## Sikkerhetsvurderinger
+- **Legemiddelinteraksjoner** (20 registrerte, utvalg):
+  - Alvorlig: leflunomid, teriflunomid
+  - Moderat: orlistat, naltrekson, kobicistat, metotreksat, kladribin, klofarabin, epirubicin, idelalisib, med flere
 
-- **Legemiddelinteraksjoner** (20 registrert; hovedpunkter):
-  - **Alvorlig (Major):** leflunomid og teriflunomid
-  - **Moderat:** blant annet orlistat, naltrekson, kobicistat, metotreksat, kladribin, klofarabin, epirubicin, idelalisib, tioguanin, trabektedin, brentuksimab vedotin, kabozantinib, asparaginase, pegaspargase og interferon beta-1a/-1b og peginterferon beta-1a
-  - **Mindre (Minor):** eribulin
-- **Tilstander markert i kunnskapsgrafen (TxGNN/PrimeKG, ikke preparatomtale):** lever- og nyresykdom/leversvikt, kronisk hepatitt B og C, laktacidose, Fanconi-syndrom, langt QT-syndrom/torsades de pointes, fettlever/NASH, hypofosfatemi/osteomalasi/rakitt, hypertriglyseridemi, fedme, epilepsi, angst- og psykiske lidelser. Dette er signaler fra modellen og må verifiseres mot preparatomtalen.
-
----
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ## Konklusjon og neste steg
 
-**Beslutning: Hold**
+**Beslutning: Avvent**
 
 **Begrunnelse:**
-Evidensen er på nivå L4: én indirekte veterinær/preklinisk publikasjon og ingen kliniske studier. Den høye modellscoren er ikke uavhengig validering. Indikasjonen er veterinær, og i Norge er alle godkjenninger for emtricitabin kansellert. Mangler i sikkerhetsdata (preparatomtale) hindrer også videre sikkerhetsscreening.
+Støtten er begrenset til én indirekte veterinærstudie av en kombinasjonsbehandling, uten kliniske studier. Den høye modellscoren erstatter ikke direkte evidens, og tilstanden er en dyresykdom.
 
 **For å gå videre kreves følgende:**
-- Preparatomtale med advarsler og kontraindikasjoner (kritisk mangel)
-- Detaljerte data om virkningsmekanisme (MOA), for eksempel fra DrugBank
-- Kontrollerte veterinære studier av emtricitabin ved FIV, med tydelig studiedesign
-- Avklaring av regulatorisk vei og relevans, siden indikasjonen er veterinær og ikke en humanmedisinsk repurposing
-- Vurdering av om SIV-/makakkdata er relevante for humane formål, for eksempel profylakse (PrEP), som allerede dekkes av eksisterende HIV-indikasjoner
+- Kontrollerte veterinære studier som isolerer effekten av emtricitabin
+- Data om virkningsmekanisme
+- Avklaring av om en veterinær indikasjon er relevant for dette programmet
+- Gjennomgang av preparatomtalen for advarsler og kontraindikasjoner
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

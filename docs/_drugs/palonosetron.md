@@ -4,17 +4,17 @@ title: Palonosetron
 parent: Moderat evidens (L3-L4)
 nav_order: 308
 evidence_level: L4
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-15
 description: "Palonosetron: predikert ny indikasjon Migrene (migraine disorder) (evidensnivå L4). Opprinnelig indikasjon: Oppkast"
 monitor_inn: "PALONOSETRON"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
 ---
 
 # Palonosetron
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **5** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Palonosetron er en 5-HT3-reseptorantagonist som opprinnelig brukes mot oppkast o
 |------|------|
 | Opprinnelig indikasjon | Oppkast; kreft (kvalme og oppkast knyttet til kreftbehandling) |
 | Foreslått ny indikasjon | Migrene (migraine disorder) |
-| TxGNN-prediksjonsscore | 99,74 % |
+| TxGNN-prediksjonsscore | 0,9974 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
-| Antall godkjenninger | 3 (alle kansellert, 0 gyldige) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -60,16 +60,15 @@ Palonosetron er en 5-HT3-reseptorantagonist som opprinnelig brukes mot oppkast o
 
 Detaljerte data om virkningsmekanisme er ikke tilgjengelige i dataene som er samlet inn for denne rapporten. Basert på kjent informasjon er palonosetron en 5-HT3-reseptorantagonist. Effekten ved kjemoterapiindusert kvalme og oppkast er etablert, og mekanistisk kan serotonerge signalveier også ha betydning ved migrene, så en biologisk sammenheng er plausibel.
 
-Retningen på effekten er imidlertid uavklart. Den eneste publikasjonen som støtter prediksjonen, er en kasuistikk om migrenelignende hodepine utløst av palonosetron. Det peker i motsatt retning av en terapeutisk bruk. Den høye TxGNN-scoren gjenspeiler trolig nærhet i kunnskapsgrafen (serotonerge og nevronale eksitabilitetsveier) og ikke direkte klinisk evidens.
+Retningen på effekten er imidlertid uavklart. Den eneste publikasjonen som støtter prediksjonen, er en kasuistikk om migrenelignende hodepine utløst av palonosetron. Det peker i motsatt retning av en terapeutisk bruk. Den høye scoren kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 De øvrige prediksjonene i rangeringen er enda svakere:
 
 | Rangering | Sykdom | Score | Evidensnivå | Kommentar |
 |------|------|------|------|------|
-| 2 | Migrene med hjernestammeaura | 99,67 % | L5 | Kun prediksjon; undergruppe av migrene |
-| 3 | Migrene med eller uten aura, mottakelighet for | 99,44 % | L4 | Genetisk mottakelighetsfenotype, ikke en behandlingsbar tilstand; kun indirekte litteratur |
-| 4 | Atrofoderma vermiculata | 99,13 % | L5 | Ingen plausibel mekanisme; trolig grafartefakt |
-| 5 | Ulerythema ophryogenes | 99,07 % | L5 | Ingen mekanistisk begrunnelse; kun beregningsmessig |
+| 2 | Migrene med hjernestammeaura | 0,9967 | L5 | Kun prediksjon; undergruppe av migrene |
+| 4 | Atrofoderma vermiculata | 0,9913 | L5 | Ingen plausibel mekanisme; trolig grafartefakt |
+| 5 | Ulerythema ophryogenes | 0,9907 | L5 | Ingen mekanistisk begrunnelse; kun beregningsmessig |
 
 ---
 
@@ -128,7 +127,7 @@ Prediksjonen bygger på en høy modellscore, men den eneste litteraturen er en k
 - Avklaring av effektretning: gir palonosetron migrene eller kan det lindre den? Dette krever prekliniske eller mekanistiske studier
 - Gjennomgang av litteratur om 5-HT3-antagonister generelt ved migrene
 - Vurdering av QT-risiko og interaksjoner med triptaner og andre serotonerge legemidler
-- Avklaring av administrasjonsvei og tilgjengelige formuleringer, siden ingen gyldig godkjenning finnes i dag
+- Avklaring av administrasjonsvei og tilgjengelige formuleringer, siden legemidlet er markedsført med 3 gyldige markedsføringstillatelser av 3
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

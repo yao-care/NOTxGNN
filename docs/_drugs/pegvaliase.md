@@ -49,9 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt på **diabetisk retinopati
 |------|------|
 | Opprinnelig indikasjon | Fenylketonuri |
 | Predikert ny indikasjon | Diabetisk retinopati |
-| TxGNN-prediksjonsscore | 99,17 % |
+| TxGNN-prediksjonsscore | 0,9917 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -61,11 +62,11 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt på **diabetisk retinopati
 
 Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Pegvaliase er kjent som et PEGylert fenylalaninammoniakklyase-enzym som bryter ned fenylalanin, og effekten ved fenylketonuri er etablert.
 
-Det finnes ingen kjent sammenheng mellom senking av fenylalanin og den vaskulære og nevrodegenerative patologien ved diabetisk retinopati. Den høye TxGNN-scoren (0,992) er en beregningsmessig prediksjon og er ikke støttet av kliniske studier eller litteratur. Likheten mellom opprinnelig og ny indikasjon er ikke vurdert.
+Det finnes ingen kjent sammenheng mellom senking av fenylalanin og den vaskulære og nevrodegenerative patologien ved diabetisk retinopati. Den høye TxGNN-scoren (0,9917) er en beregningsmessig prediksjon og er ikke støttet av kliniske studier eller litteratur. Likheten mellom opprinnelig og ny indikasjon er ikke vurdert.
 
 To andre prediksjoner har tilsvarende svak støtte:
-- **Alvorlig ikke-proliferativ diabetisk retinopati** (score 99,16 %): et mer alvorlig stadium av samme sykdom, og trolig overlappende med hovedprediksjonen snarere enn uavhengig evidens.
-- **Diabetisk katarakt** (score 99,11 %): hovedsakelig drevet av polyolveien og oksidativt stress i linsen ved hyperglykemi, som ikke har noen åpenbar kobling til nedbrytning av fenylalanin.
+- **Alvorlig ikke-proliferativ diabetisk retinopati** (score 0,9916): et mer alvorlig stadium av samme sykdom, og trolig overlappende med hovedprediksjonen snarere enn uavhengig evidens.
+- **Diabetisk katarakt** (score 0,9911): hovedsakelig drevet av polyolveien og oksidativt stress i linsen ved hyperglykemi, som ikke har noen åpenbar kobling til nedbrytning av fenylalanin.
 
 ---
 

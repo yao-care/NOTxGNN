@@ -50,10 +50,10 @@ men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** som stø
 |------|------|
 | Opprinnelig indikasjon | Psoriasis |
 | Predikert ny indikasjon | Alvorlig ikke-proliferativ diabetisk retinopati |
-| TxGNN-prediksjonsscore | 99,63 % |
+| TxGNN-prediksjonsscore | 0,9963 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellert |
-| Antall godkjenninger | 1 (0 gyldige, 1 kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -62,15 +62,15 @@ men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** som stø
 
 Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Tildrakizumab er et anti-IL-23 p19-antistoff, og effekten ved psoriasis er etablert. Mekanistisk kan IL-23/IL-17-aksen tenkes å bidra til lavgradig kronisk betennelse og mikrovaskulær skade i netthinnen ved diabetes. Denne koblingen er hypotetisk og ikke påvist.
 
-Scoren på 99,63 % er en ren beregningsmessig prediksjon. Intravitreal anti-VEGF og kortikosteroidbehandling er fortsatt etablert standard, og systemisk IL-23-blokade har ingen dokumentert rolle her.
+Scoren på 0,9963 er en ren beregningsmessig prediksjon. Intravitreal anti-VEGF og kortikosteroidbehandling er fortsatt etablert standard, og systemisk IL-23-blokade har ingen dokumentert rolle her.
 
 **Andre predikerte indikasjoner (alle evidensnivå L5, anbefaling Hold):**
 
 | Rang | Sykdom | TxGNN-score | Kommentar |
 |------|------|------|------|
-| 2 | Diabetisk retinopati | 99,53 % | Samme spekulative begrunnelse som over |
-| 3 | Diabetisk katarakt | 99,21 % | Ingen sannsynlig mekanistisk kobling; høy score gjenspeiler trolig nærhet i nettverket via diabetesrelaterte noder |
-| 4 | Legemiddelindusert osteoporose | 99,20 % | IL-23/IL-17 påvirker beinomsetning via RANKL og osteoklastdannelse. Mest plausible mekanisme av de fire, men indirekte og prekliniske resonnementer |
+| 2 | Diabetisk retinopati | 0,9953 | Samme spekulative begrunnelse som over |
+| 3 | Diabetisk katarakt | 0,9921 | Ingen sannsynlig mekanistisk kobling; høy score gjenspeiler trolig nærhet i nettverket via diabetesrelaterte noder |
+| 4 | Legemiddelindusert osteoporose | 0,9920 | IL-23/IL-17 påvirker beinomsetning via RANKL og osteoklastdannelse. Mest plausible mekanisme av de fire, men indirekte og prekliniske resonnementer |
 
 ---
 

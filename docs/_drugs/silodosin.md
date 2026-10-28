@@ -6,9 +6,9 @@ nav_order: 382
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
-description: "Silodosin: predikert ny indikasjon Ambras-type hypertrichosis universalis congenita (evidensnivå L5). Opprinnelig indikasjon: Godartet prostataforstørrelse (benign prostatahyperplasi)"
 monitor_inn: "SILODOSIN"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
+description: "Silodosin: predikert ny indikasjon Ambras type hypertrichosis universalis congenita (evidensnivå L5). Opprinnelig indikasjon: Prostatic Hyperplasia"
 ---
 
 # Silodosin
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-## Silodosin: Fra godartet prostataforstørrelse til Ambras-type hypertrichosis universalis congenita
+## Silodosin: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -47,11 +47,12 @@ TxGNN-modellen forutsier at legemidlet kan være effektivt mot **Ambras-type hyp
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Godartet prostataforstørrelse (benign prostatahyperplasi) |
-| Predikert ny indikasjon | Ambras-type hypertrichosis universalis congenita |
-| TxGNN-prediksjonsscore | 99,99 % |
+| Opprinnelig indikasjon | Prostatic Hyperplasia |
+| Predikert ny indikasjon | Ambras type hypertrichosis universalis congenita |
+| TxGNN-prediksjonsscore | 0.9999 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukne/avsluttede tillatelser |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
 | Antall tillatelser | 3 (alle trukket tilbake) |
 | Anbefalt beslutning | Hold (avvent) |
 
@@ -61,7 +62,7 @@ TxGNN-modellen forutsier at legemidlet kan være effektivt mot **Ambras-type hyp
 
 Detaljerte data om virkningsmekanismen er ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon er silodosin en selektiv alfa-1A-adrenerg reseptorantagonist. Effekten ved godartet prostataforstørrelse er godt etablert, og skyldes avslapning av glatt muskulatur i prostata og blærehals.
 
-Ambras-syndrom er en sjelden medfødt tilstand knyttet til genomiske omleiringer som påvirker reguleringen av *TRPS1*. Det er ingen kjent signalvei som knytter alfa-1A-blokade til denne mekanismen. Den svært høye modellscoren (0,9999) gjenspeiler trolig nærhet i kunnskapsgrafen, ikke biologisk begrunnelse.
+Ambras-syndrom er en sjelden medfødt tilstand knyttet til genomiske omleiringer som påvirker reguleringen av *TRPS1*. Det er ingen kjent signalvei som knytter alfa-1A-blokade til denne mekanismen.
 
 De andre topprangerte prediksjonene følger samme mønster: hypertrichosis (generelt), misdannelsessyndromer med tann-/periodontal komponent, syndrom med Dandy-Walker-misdannelse, isolert genetisk hårskaftavvik og familiær isolert trikomegali. For ingen av dem er det påvist en mekanistisk kobling til alfa-1A-antagonisme. Ved hypertrichosis er også effektretningen usikker, siden hårvekst kan være en bivirkning av enkelte legemidler.
 
@@ -87,7 +88,7 @@ Det finnes for øyeblikket ingen relatert litteratur.
 | EMEA/H/C/001209 | Silodyx | – | Godartet prostataforstørrelse |
 | EMEA/H/C/001092 | Urorec | – | Godartet prostataforstørrelse |
 
-Alle tre tillatelsene (innehaver: Recordati Ireland Ltd) har status trukket tilbake. Det finnes ingen gyldige tillatelser.
+Alle tre tillatelsene (innehaver: Recordati Ireland Ltd) har status trukket tilbake.
 
 ---
 
@@ -109,7 +110,7 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon om advarsler og kontrai
 **Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en grafbasert modellscore (evidensnivå L5), uten kliniske studier, publikasjoner eller en plausibel mekanistisk kobling mellom alfa-1A-blokade og Ambras-syndrom. I tillegg har legemidlet ingen gyldig tillatelse i Norge.
+Prediksjonen bygger kun på en grafbasert modellscore (evidensnivå L5), uten kliniske studier, publikasjoner eller en plausibel mekanistisk kobling mellom alfa-1A-blokade og Ambras-syndrom.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel)

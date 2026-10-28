@@ -4,7 +4,7 @@ title: Alglucosidase Alfa
 parent: Kun modellprediksjon (L5)
 nav_order: 24
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Alglucosidase Alfa: predikert ny indikasjon Voksen polyglukosanlegemesykdom (evidensnivå L5). Opprinnelig indikasjon: Glykogenlagringssykdom type II"
 monitor_inn: "ALGLUCOSIDASE ALFA"
@@ -14,7 +14,7 @@ predicted_indications: ["adult polyglucosan body disease", "congenital entropion
 # Alglucosidase Alfa
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt ved **voksen polyglukosanle
 |------|------|
 | Opprinnelig indikasjon | Glykogenlagringssykdom type II |
 | Predikert ny indikasjon | Voksen polyglukosanlegemesykdom |
-| TxGNN-prediksjonsscore | 99,47 % |
+| TxGNN-prediksjonsscore | 0,9947 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (kansellert) |
-| Antall godkjenninger | 1 (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold (avvent) |
 
 ---
@@ -88,7 +88,7 @@ Foreløpig er det ingen relevant litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/000636 | Myozyme | – | Glykogenlagringssykdom type II |
 
-Godkjenningen er kansellert, og det finnes ingen gyldige markedsføringstillatelser i de innsamlede dataene.
+Legemidlet er markedsført, og 1 av 1 markedsføringstillatelse er gyldig.
 
 ---
 
@@ -98,15 +98,13 @@ Modellen ga ytterligere ni prediksjoner. Ingen av dem har kliniske studier eller
 
 | Rangering | Sykdom | Score | Vurdering |
 |------|------|------|------|
-| 2 | Glykogenlagringssykdom pga. GBE1-mangel, fatal perinatal nevromuskulær form | 99,32 % | Svak og indirekte kobling; Hold |
-| 3 | Glykogenlagringssykdom pga. GBE1-mangel, medfødt nevromuskulær form | 99,32 % | Spekulativ nytte; Hold |
-| 4 | Medfødt entropion | 99,22 % | Ingen plausibel mekanisme; trolig artefakt i kunnskapsgrafen |
-| 5 | Medfødt ektropion | 99,17 % | Ingen plausibel mekanisme; Hold |
-| 6 | Medfødt Horners syndrom | 99,17 % | Ingen mekanistisk begrunnelse; Hold |
-| 7 | Ptose–stemmebåndslammelse-syndrom | 99,15 % | Kun overlappende nevromuskulære trekk; Hold |
-| 8 | Kamptodaktyli, myopi og fibrose av mediale rectus-muskel | 99,11 % | Ingen kjent kobling; Hold |
-| 9 | Epiblefaron | 99,11 % | Ingen plausibel mekanisme; Hold |
-| 10 | Ptose–strabisme–ektopiske pupiller-syndrom | 99,10 % | Ingen kobling til glykogenomsetning; Hold |
+| 4 | Medfødt entropion | 0,9922 | Scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens |
+| 5 | Medfødt ektropion | 0,9917 | Ingen plausibel mekanisme; Hold |
+| 6 | Medfødt Horners syndrom | 0,9917 | Ingen mekanistisk begrunnelse; Hold |
+| 7 | Ptose–stemmebåndslammelse-syndrom | 0,9915 | Kun overlappende nevromuskulære trekk; Hold |
+| 8 | Kamptodaktyli, myopi og fibrose av mediale rectus-muskel | 0,9911 | Ingen kjent kobling; Hold |
+| 9 | Epiblefaron | 0,9911 | Ingen plausibel mekanisme; Hold |
+| 10 | Ptose–strabisme–ektopiske pupiller-syndrom | 0,9910 | Ingen kobling til glykogenomsetning; Hold |
 
 ---
 

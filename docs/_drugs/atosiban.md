@@ -50,10 +50,10 @@ men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** 
 |------|------|
 | Opprinnelig indikasjon | Prematur fødselsrier (Obstetric Labor, Premature) |
 | Predikert ny indikasjon | Primær arvelig glaukom |
-| TxGNN-prediksjonsscore | 99,92 % |
+| TxGNN-prediksjonsscore | 0,9992 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte godkjenninger (ingen gyldige) |
-| Antall godkjenninger | 2 (begge avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold (avvent) |
 
 ---
@@ -62,7 +62,7 @@ men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** 
 
 For tiden foreligger det ikke detaljerte data om virkningsmekanismen i de innsamlede dataene. Ut fra kjent informasjon er atosiban en antagonist på oksytocinreseptoren (OXTR) og vasopressinreseptorene V1A, V1B og V2. Effekten ved prematur fødselsrier er etablert, og den skyldes hemming av oksytocinmediert sammentrekning av livmoren.
 
-Koblingen til glaukom er derimot spekulativ. En eventuell sammenheng måtte gå via oksytocin-/vasopressinsignalering i øyevev, for eksempel væskedynamikk i kammervann eller funksjonen til trabekelverket. Dette støttes ikke av de foreliggende dataene. Den høye scoren er mest sannsynlig et uttrykk for nettverkslikhet i kunnskapsgrafen, ikke en validert mekanisme.
+Koblingen til glaukom er derimot spekulativ. En eventuell sammenheng måtte gå via oksytocin-/vasopressinsignalering i øyevev, for eksempel væskedynamikk i kammervann eller funksjonen til trabekelverket. Dette støttes ikke av de foreliggende dataene. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 Det samme gjelder de øvrige toppredikerte indikasjonene (blant annet åpenvinklet glaukom, alopeci og flere sjeldne tilstander): ingen av dem har kliniske studier eller litteratur.
 
@@ -107,7 +107,7 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Prediksjonen om primær arvelig glaukom er kun modellbasert (L5), uten kliniske studier eller litteratur, og uten et støttet mekanistisk grunnlag. Atosiban har dessuten ingen gyldig godkjenning i Norge.
+Prediksjonen om primær arvelig glaukom er kun modellbasert (L5), uten kliniske studier eller litteratur, og uten et støttet mekanistisk grunnlag. Atosiban er dessuten markedsført i Norge, med 2 gyldige godkjenninger av 2.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) og en undersøkelse av om oksytocin-/vasopressinreseptorer har en rolle i øyets trykkregulering

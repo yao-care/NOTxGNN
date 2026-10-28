@@ -4,17 +4,17 @@ title: Pravastatin
 parent: Moderat evidens (L3-L4)
 nav_order: 336
 evidence_level: L4
-indication_count: 9
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Pravastatin: predikert ny indikasjon Homozygot familiær hyperkolesterolemi (evidensnivå L4). Opprinnelig indikasjon: Dyslipidemi"
 monitor_inn: "PRAVASTATIN"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
+description: "Pravastatin: predikert ny indikasjon HIV infectious disease (evidensnivå L4). Opprinnelig indikasjon: Dyslipidemias"
 ---
 
 # Pravastatin
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **9** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-## Pravastatin: Fra dyslipidemi til homozygot familiær hyperkolesterolemi
+## Pravastatin: HIV infectious disease
 {: .text-alpha }
 
 ## Enkeltsetningsoppsummering
@@ -48,12 +48,12 @@ men de innsamlede dataene inneholder **1 klinisk studie** (med alirokumab, ikke 
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Dyslipidemi |
-| Predikert ny indikasjon | Homozygot familiær hyperkolesterolemi |
-| TxGNN-prediksjonsscore | 99,95 % |
+| Opprinnelig indikasjon | Dyslipidemias |
+| Predikert ny indikasjon | HIV infectious disease |
+| TxGNN-prediksjonsscore | 0.9974 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun tilbakekalte/avsluttede godkjenninger (ingen gyldig markedsføringstillatelse) |
-| Antall godkjenninger | 1 (0 gyldige, 1 kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -118,7 +118,6 @@ Data fra pakningsvedlegg om advarsler og kontraindikasjoner mangler, og må innh
 **Beslutning: Hold**
 
 **Begrunnelse:**
-TxGNN-scoren er høy, men evidensen for pravastatin ved homozygot familiær hyperkolesterolemi er svak (L4): den eneste kliniske studien gjelder et annet legemiddel, mekanismen er bare delvis effektiv, og litteraturen anbefaler ikke statiner som hovedbehandling ved denne tilstanden. I tillegg finnes ingen gyldig markedsføringstillatelse i Norge, og sikkerhetsdata fra pakningsvedlegg mangler.
 
 **For å gå videre kreves følgende:**
 - Innhente og analysere pakningsvedlegg (advarsler og kontraindikasjoner), som er en blokkerende datamangel

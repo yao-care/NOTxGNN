@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Latanoprost
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 235
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Latanoprost: predikert ny indikasjon Primær arvelig glaukom (evidensnivå L4). Opprinnelig indikasjon: Åpenvinklet glaukom (Glaucoma, Open-Angle)"
+evidence_level: L5
+indication_count: 9
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
+last_modified_at: 2026-10-27
+description: "Latanoprost: predikert ny indikasjon Visceral kalsifylaksi (visceral calciphylaxis) (evidensnivå L5). Opprinnelig indikasjon: Glaucoma, Open-Angle"
 ---
 
 # Latanoprost
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,99 +33,66 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Latanoprost: Fra åpenvinklet glaukom til primær arvelig glaukom
+## Latanoprost: prostaglandin F2α-analog → visceral kalsifylaksi (visceral calciphylaxis)
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
-Latanoprost er et prostaglandin F2-alfa-analog som opprinnelig brukes til behandling av åpenvinklet glaukom og okulær hypertensjon.
-TxGNN-modellen forutsier at legemidlet kan være effektivt ved **primær arvelig glaukom**, men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** som direkte støtter denne prediksjonen.
-
----
+Latanoprost er en prostaglandin-analog til øyedråper. Modellen TxGNN predikerer at legemidlet kan ha effekt ved **visceral kalsifylaksi (visceral calciphylaxis)**. Det finnes **ingen kliniske studier** og **ingen publikasjoner** i de samlede dataene som støtter denne prediksjonen.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Åpenvinklet glaukom (Glaucoma, Open-Angle) |
-| Predikert ny indikasjon | Primær arvelig glaukom |
-| TxGNN-prediksjonsscore | 99,88 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun kansellerte tillatelser |
-| Antall tillatelser | 2 (begge kansellert) |
-| Anbefalt beslutning | Hold (avvent) |
+| Opprinnelig indikasjon | Glaucoma, Open-Angle; Glaucoma, Open-Angle;Ocular Hypertension |
+| Predikert ny indikasjon | Visceral kalsifylaksi (visceral calciphylaxis) |
+| TxGNN-prediksjonsscore | 0,9983 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
+| Anbefalt beslutning | Hold |
 
----
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-## Hvorfor er denne prediksjonen rimelig?
+Data om virkningsmekanisme (MOA) for latanoprost er ikke tilgjengelig i de samlede dataene. Latanoprost tilhører klassen prostaglandin F2α-analoger og brukes lokalt i øyet.
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Ut fra kjent farmakologi er latanoprost et prostaglandin F2-alfa-analog som senker det intraokulære trykket ved å øke den uveosklerale avstrømningen av kammervann. Dette er i tråd med behandling av glaukom, og legemidlet er allerede godkjent for åpenvinklet glaukom.
+Kalsifylaksi innebærer karforkalkning og mikrovaskulær trombose. Prostaglandin-analoger har vasodilaterende effekter, men latanoprost gis som øyedråper og gir minimal systemisk eksponering. Det er derfor ikke identifisert noen klar mekanistisk sammenheng mellom legemidlet og sykdommen. Likheten med den opprinnelige indikasjonen er ikke vurdert (venter). Prediksjonen er ikke støttet av kliniske data og bør betraktes som en modellgenerert hypotese.
 
-Primær arvelig glaukom (for eksempel medfødte eller juvenile former) ligger nær den godkjente indikasjonen. Den høye TxGNN-scoren gjenspeiler derfor hovedsakelig nærheten til eksisterende godkjenning, ikke egen evidens for denne undergruppen. Evidensen er indirekte.
+## Klinisk evidens
 
-Det er viktig å merke seg at pediatrisk og medfødt glaukom ofte responderer dårlig på medikamentell behandling og vanligvis krever kirurgi. Den kliniske nytten av latanoprost er dermed usikker.
-
----
-
-## Klinisk studieevidens
-
-Foreløpig er det ingen relaterte kliniske studier registrert for denne indikasjonen.
-
----
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ## Litteraturevidens
 
-Foreløpig er det ingen relatert litteratur tilgjengelig for denne indikasjonen.
+Foreløpig finnes ingen relatert litteratur.
 
----
+## Informasjon om det norske markedet
 
-## Markedsinformasjon for Norge
-
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon | Status |
-|---------|------|------|-----------|------|
-| EMEA/H/C/005933 | Catiolanze | – | Åpenvinklet glaukom | Kansellert |
-| EMEA/H/C/005107 | Roclanda | – | Åpenvinklet glaukom, okulær hypertensjon | Kansellert |
-
----
+| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
+|---------|------|------|-----------|
+| EMEA/H/C/005933 | Catiolanze | Ikke oppgitt | Glaukom, åpenvinklet |
+| EMEA/H/C/005107 | Roclanda | Ikke oppgitt | Glaukom, åpenvinklet; okulær hypertensjon |
 
 ## Sikkerhetsvurderinger
 
-- **Kontraindikasjoner fra kunnskapsgraf (ikke preparatomtale):** Kunnskapsgrafen (PrimeKG) knytter legemidlet til følgende tilstander, som bør vurderes med forsiktighet: uveitt, irissykdom, sykdom i ciliarlegemet, panuveitt, makulært retinaødem, cystoid makulaødem, iritt, konjunktivitt og akutt smittsom konjunktivitt.
-- **Legemiddelinteraksjoner:** Interaksjonsspørringen ga 100 treff, men alvorlighetsgraden er angitt som «ukjent» for alle. Eksempler på legemidler som er oppført: kalsitriol, glimepirid, doksycyklin, klotrimazol, lansoprazol, cimetidin, atropin, pantoprazol, mesalazin, akarbose, morfin, metformin, omeprazol, sukralfat, rosiglitazon, vankomycin, laktulose, triamcinolon, prednison og simvastatin. Den kliniske relevansen er ikke avklart.
+**Registrerte relasjoner (kontraindikasjoner) for sykdommer:** Følgende tilstander er registrert som kontraindikasjoner i de samlede dataene, men dette er ikke tekst fra preparatomtale: uveitt, irissykdom, sykdom i ciliærlegemet, panuveitt, makulært retinalt ødem, cystoid makulaødem, iritt og konjunktivitt (inkludert akutt smittsom konjunktivitt).
 
-Se preparatomtalen for fullstendig sikkerhetsinformasjon om advarsler og kontraindikasjoner.
+**Legemiddelinteraksjoner:** Interaksjonssøket ble fullført med 100 registrerte interaksjoner, alle uten angitt alvorlighetsgrad. Eksempler er kalsitriol, glimepirid, doksycyklin, klotrimazol, lansoprazol, cimetidin, atropin, pantoprazol, metformin, morfin, prednison og simvastatin.
 
----
-
-## Andre predikerte indikasjoner (kort oversikt)
-
-| Rangering | Sykdom | Score | Evidensnivå | Vurdering |
-|------|------|------|------|------|
-| 2 | Visceral kalcifylaksi | 99,83 % | L5 | Hold – ingen klar mekanistisk kobling |
-| 3 | Hypotrichosis simplex i hodebunnen | 99,81 % | L4 | Forskningsspørsmål – plausibel via prostaglandineffekt på hårvekst, men usikker ved genetisk follikkeldefekt |
-| 4–6 | Arteriell, venøs og nevrogen thoracic outlet-syndrom | 99,72–99,78 % | L5 | Hold – sannsynlig artefakt i kunnskapsgrafen |
-| 7 | Medfødt hypotrichosis med milia | 99,71 % | L5 | Hold – svak teoretisk begrunnelse |
-| 8 | Angiodysplasi i magesekken | 99,70 % | L5 | Hold – vasodilatasjon kan teoretisk forverre blødning |
-| 9 | Blue toe-syndrom | 99,69 % | L5 | Hold – svak ekstrapolering fra systemiske prostaglandiner |
-| 10 | Lymfangiektasi | 99,67 % | L5 | Hold – spekulativ |
-
-Blant disse er hypotrichosis simplex i hodebunnen den mest interessante som forskningsspørsmål, siden øyevippe-hypertrikose er en kjent bivirkning av latanoprost, og beslektede analoger er godkjent for hypotrichose i øyevipper.
-
----
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ## Konklusjon og neste steg
 
-**Beslutning: Hold (avvent)**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for primær arvelig glaukom bygger på nærhet til den eksisterende indikasjonen, uten egne kliniske studier eller litteratur. Medfødt glaukom behandles dessuten som regel kirurgisk. Alle tillatelser i Norge er kansellert, og viktige sikkerhetsdata mangler.
+Prediksjonen har svært høy modellscore, men ingen kliniske studier, ingen litteratur og ingen identifisert mekanistisk sammenheng. Systemisk eksponering etter lokal øyebehandling er minimal, noe som svekker plausibiliteten ytterligere.
 
 **For å gå videre kreves følgende:**
-- Hente og analysere preparatomtale (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsscreening
-- Innhente data om virkningsmekanisme fra DrugBank
-- Gjennomføre litteratursøk og søk etter kliniske studier spesifikt for arvelig/medfødt glaukom, særlig pediatriske data
-- Avklare doseringsform, administrasjonsvei og hvorfor tillatelsene ble kansellert
-- Vurdere hypotrichosis simplex i hodebunnen som separat forskningsspørsmål
+- Data om virkningsmekanisme (MOA)
+- Preparatomtale med advarsler og kontraindikasjoner
+- Prekliniske eller kliniske data som direkte undersøker visceral kalsifylaksi
+- Vurdering av administrasjonsvei og systemisk eksponering som kreves for den nye indikasjonen
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -49,10 +49,10 @@ TxGNN-modellen forutsier at det kan være effektivt mot **kolobomatøs mikroftal
 |------|------|
 | Opprinnelig indikasjon | Revmatoid artritt |
 | Predikert ny indikasjon | Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom |
-| TxGNN-prediksjonsskår | 99,94 % |
+| TxGNN-prediksjonsskår | 0,9994 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun tilbakekalte/avsluttede godkjenninger (kansellert) |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -85,7 +85,7 @@ Det er for øyeblikket ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/004085 | Olumiant | – | Revmatoid artritt |
 
-Merk: Denne godkjenningen har status kansellert, og det finnes ingen gyldige godkjenninger i dataene.
+Merk: Denne godkjenningen har status gyldig, og legemidlet er markedsført. 1 av 1 godkjenninger er gyldig i dataene.
 
 ---
 

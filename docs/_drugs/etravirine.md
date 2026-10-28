@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Etravirine
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 167
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Etravirine: predikert ny indikasjon Simian immunsviktvirusinfeksjon (evidensnivå L4). Opprinnelig indikasjon: HIV-infeksjon"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "ETRAVIRINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "obsolete familial combined hyperlipidemia"]
+last_modified_at: 2026-10-27
+description: "Etravirine: predikert ny indikasjon Simian immunsviktvirusinfeksjon (simian immunodeficiency virus infection) (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
 # Etravirine
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,91 +33,73 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Etravirin: Fra HIV-infeksjon til simian immunsviktvirusinfeksjon
+## Etravirin: ikke-nukleosid revers transkriptasehemmer (NNRTI) → simian immunsviktvirusinfeksjon (simian immunodeficiency virus infection)
 {: .text-alpha }
 
-## Sammendrag i én setning
+## Oppsummering
 
-Etravirin er en ikke-nukleosid revers transkriptasehemmer (NNRTI) som opprinnelig brukes til behandling av HIV-infeksjon.
-TxGNN-modellen predikerer at legemidlet kan ha effekt mot **simian immunsviktvirusinfeksjon (SIV)**,
-men det finnes **ingen kliniske studier** og bare **1 publikasjon** (en prekliniske studie av HIV-legemiddelkombinasjoner i nanopartikler) som indirekte støtter denne retningen.
-
----
+Etravirin er en ikke-nukleosid revers transkriptasehemmer (NNRTI) som brukes mot HIV-infeksjon. TxGNN-modellen forutsier at legemidlet kan ha effekt mot **simian immunsviktvirusinfeksjon (simian immunodeficiency virus infection)**. Det er **ingen kliniske studier** og bare **én publikasjon** (en preklinisk in vitro-studie av HIV) i de data som er sammenstilt for denne rapporten, så støtten er svært svak.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | HIV-infeksjon |
-| Predikert ny indikasjon | Simian immunsviktvirusinfeksjon |
-| TxGNN-prediksjonsscore | 99,98 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun trukket tilbake (ingen gyldige markedsføringstillatelser) |
-| Antall tillatelser | 1 (trukket tilbake) |
+| Opprinnelig indikasjon | HIV Infections |
+| Foreslått ny indikasjon | Simian immunsviktvirusinfeksjon (simian immunodeficiency virus infection) |
+| TxGNN-prediksjonsscore | 0,9998 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
-
----
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de sammenstilte dataene. Etravirin tilhører imidlertid NNRTI-klassen, som hemmer HIV-1 revers transkriptase, og effekten ved HIV-infeksjon er etablert.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de sammenstilte dataene. Etravirin er kjent som en NNRTI som hemmer revers transkriptase hos HIV-1. SIV er en nær lentiviral slektning av HIV, og et felles revers transkriptase-mål er derfor konseptuelt mulig.
 
-SIV er en nær lentiviral slektning av HIV, og det er derfor konseptuelt naturlig at en revers transkriptasehemmer kan være aktuell. Det mekanistiske grunnlaget er likevel svakt: SIV er, i likhet med HIV-2, naturlig resistent mot de fleste NNRTI-er. Den høye prediksjonsscoren gjenspeiler trolig likhet i kunnskapsgrafen mer enn dokumentert aktivitet.
+Den mekanistiske koblingen er likevel svak. SIV er, i likhet med HIV-2, i hovedsak naturlig resistent mot de fleste NNRTI-er. Den høye prediksjonsscoren gjenspeiler trolig likhet med HIV i modellens data, ikke dokumentert aktivitet mot SIV. Indikasjonen gjelder dessuten en dyremodell/veterinærmedisinsk sammenheng med liten klinisk relevans for mennesker.
 
-I tillegg er SIV først og fremst en dyremodell-indikasjon med liten klinisk relevans for mennesker. Prediksjonen bør derfor betraktes som et forskningsspørsmål, ikke et reelt kandidatområde for humant bruk.
-
-Andre høyt rangerte prediksjoner er enten svakt begrunnet (f.eks. felin immunsviktsyndrom, med manglende dokumentasjon på NNRTI-aktivitet mot FIV) eller sannsynlige artefakter i kunnskapsgrafen (f.eks. godartede svulster i prostata og reproduksjonsorganer, Brenner-tumor). «Medfødt HIV» og «AIDS-relatert kompleks» ligger nær den opprinnelige indikasjonen og er i praksis en populasjonsutvidelse, ikke ekte repurposing.
-
----
-
-## Evidens fra kliniske studier
+## Kliniske studier
 
 Foreløpig er ingen relaterte kliniske studier registrert.
-
----
 
 ## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [26529558](https://pubmed.ncbi.nlm.nih.gov/26529558/) | 2015 | Preklinisk (in vitro) | Molecular Pharmaceutics | Kombinasjoner av antiretrovirale legemidler i nanopartikler hemmet synergistisk HIV-overføring, både cellefri og celle-til-celle. Indirekte evidens, ikke SIV-spesifikk |
+| [26529558](https://pubmed.ncbi.nlm.nih.gov/26529558/) | 2015 | Preklinisk (in vitro) | Molecular Pharmaceutics | Nanopartikkelbaserte kombinasjoner av antiretrovirale legemidler ga synergistisk hemming av HIV-overføring. Studien omhandler HIV, ikke SIV, og er derfor kun indirekte evidens. |
 
----
+Ingen publikasjon i dataene studerer SIV-infeksjon direkte.
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000900 | Intelence | Ikke oppgitt | HIV-infeksjon (status: trukket tilbake) |
-
----
+| EMEA/H/C/000900 | Intelence | Ikke angitt | HIV-infeksjoner |
 
 ## Sikkerhetsvurderinger
 
-- **Kontraindikasjoner fra kunnskapsgrafen** (PrimeKG, ikke preparatomtale): kronisk hepatitt C-virusinfeksjon, hepatitt C-virusinfeksjon, kronisk hepatitt B-virusinfeksjon, sykdom i det perifere nervesystemet og perifer nevropati.
-- **Legemiddelinteraksjoner**: 100 interaksjoner er registrert. De fleste som er listet er av moderat alvorlighetsgrad, blant annet:
-  - Protonpumpehemmere og H2-blokkere: omeprazol, rabeprazol, cimetidin (ranitidin: mindre alvorlig)
-  - Kortikosteroider: hydrokortison, deksametason, betametason, triamcinolon
-  - Antidiabetika: pioglitazon, glimepirid, klorpropamid, saksagliptin, linagliptin
-  - Andre: klaritromycin, metronidazol, aprepitant, dronabinol, eliglustat, naloksegol, naldemedin
+**Legemiddelinteraksjoner:** Interaksjonsdata er hentet (100 registrerte interaksjoner). Blant de oppførte er de fleste av moderat alvorlighetsgrad, blant annet:
+- Protonpumpehemmere og H2-blokkere: omeprazol, rabeprazol, cimetidin (moderat), ranitidin (mindre)
+- Kortikosteroider: hydrokortison, deksametason, betametason, triamcinolon
+- Antidiabetika: pioglitazon, glimepirid, klorpropamid, saksagliptin, linagliptin
+- Andre: klaritromycin, metronidazol, aprepitant, dronabinol, eliglustat, naloksegol, naldemedin
 
-For øvrig sikkerhetsinformasjon, se preparatomtalen.
+Merk: Ettersom listen er avgrenset, bør fullstendig interaksjonsinformasjon sjekkes i preparatomtalen.
 
----
+Preparatomtalen bør konsulteres for advarsler og kontraindikasjoner.
 
 ## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er støttet kun av en indirekte preklinisk studie, mekanismen er svak fordi SIV er naturlig resistent mot de fleste NNRTI-er, og indikasjonen har liten klinisk relevans for mennesker. Legemidlet har dessuten ingen gyldig markedsføringstillatelse i Norge.
+Prediksjonen bygger kun på modellscore uten kliniske studier og uten litteratur som direkte undersøker SIV-infeksjon. Den mekanistiske koblingen er svak på grunn av SIVs iboende NNRTI-resistens, og indikasjonen har liten relevans for mennesker.
 
-**For å gå videre kreves følgende:**
-- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Advarsler og kontraindikasjoner fra preparatomtalen
-- Direkte in vitro-data på etravirins aktivitet mot SIV
-- Avklaring av om en dyremodell-indikasjon har noen translasjonell verdi
-- Avklaring av markedsstatus siden tillatelsen er trukket tilbake
+**For å gå videre kreves:**
+- In vitro-data på etravirins aktivitet mot SIV-stammer, inkludert resistensprofil
+- Data om virkningsmekanisme (MOA)
+- Informasjon fra preparatomtalen om advarsler og kontraindikasjoner
+- En klar begrunnelse for relevans i dyremodell eller veterinærbruk før videre prioritering
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

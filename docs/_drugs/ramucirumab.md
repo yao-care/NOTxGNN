@@ -5,10 +5,10 @@ parent: Kun modellprediksjon (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Ramucirumab: predikert ny indikasjon Adenokarsinom i livmorligamentet (uterine ligament adenocarcinoma) (evidensnivå L5). Opprinnelig indikasjon: Magekreft (Stomach Neoplasms)"
+last_modified_at: 2026-10-28
 monitor_inn: "RAMUCIRUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "cervical adenosquamous carcinoma, glassy cell variant", "uterine ligament endometrioid adenocarcinoma", "uterine ligament clear cell adenocarcinoma", "uterine ligament mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
+description: "Ramucirumab: predikert ny indikasjon Adenokarsinom i livmorligamentet (uterine ligament adenocarcinoma) (evidensnivå L5). Opprinnelig indikasjon: Stomach Neoplasms"
 ---
 
 # Ramucirumab
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Ramucirumab: Fra magekreft til livmorligamentets adenokarsinom
+## Ramucirumab: Adenokarsinom i livmorligamentet (uterine ligament adenocarcinoma)
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -46,12 +46,12 @@ men for øyeblikket finnes **ingen registrerte kliniske studier og ingen publika
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Magekreft (Stomach Neoplasms) |
+| Opprinnelig indikasjon | Stomach Neoplasms |
 | Predikert ny indikasjon | Adenokarsinom i livmorligamentet (uterine ligament adenocarcinoma) |
-| TxGNN-prediksjonsscore | 99,95 % |
+| TxGNN-prediksjonsscore | 0.9995 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun tilbakekalte/avsluttede godkjenninger |
-| Antall godkjenninger | 1 (0 gyldige, 1 kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ## Hvorfor er denne prediksjonen rimelig?
@@ -60,7 +60,7 @@ Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de inns
 
 Kreftformene har til felles at de er adenokarsinomer der tumorvekst kan avhenge av nydannelse av blodkar. Dette gir en biologisk plausibel, men uverifisert kobling. Høy TxGNN-score kan delvis gjenspeile nærhet i sykdomsontologien til andre karsinomer i livmorhals og kjønnsorganer, snarere enn sykdomsspesifikk evidens.
 
-Andre høyt rangerte prediksjoner er blant annet endocervikalt karsinom (99,95 %), adenoid cystisk karsinom i livmorhalsen (99,95 %) og flere histologiske varianter av livmorhals- og livmorligamentkreft. For endocervikalt karsinom er VEGF-rettet behandling (bevacizumab) kjent å ha aktivitet ved livmorhalskreft, noe som styrker den biologiske plausibiliteten. Noen mucinøse og «signet ring»-varianter har en løs histologisk likhet med mage-adenokarsinom. Heller ikke for disse finnes studier eller litteratur i dataene.
+Andre høyt rangerte prediksjoner er blant annet endocervikalt karsinom (0.9995), adenoid cystisk karsinom i livmorhalsen (0.9995) og flere histologiske varianter av livmorhals- og livmorligamentkreft. For endocervikalt karsinom er VEGF-rettet behandling (bevacizumab) kjent å ha aktivitet ved livmorhalskreft, noe som styrker den biologiske plausibiliteten. Noen mucinøse og «signet ring»-varianter har en løs histologisk likhet med mage-adenokarsinom. Heller ikke for disse finnes studier eller litteratur i dataene.
 
 ## Klinisk studieevidens
 

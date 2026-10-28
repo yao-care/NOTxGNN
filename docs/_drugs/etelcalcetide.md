@@ -50,9 +50,10 @@ men foreløpig finnes det **ingen registrerte kliniske studier** og **6 publikas
 |------|------|
 | Opprinnelig indikasjon | Sekundær hyperparatyreoidisme |
 | Predikert ny indikasjon | Hyperfosfatemi |
-| TxGNN-prediksjonsscore | 99,42 % |
+| TxGNN-prediksjonsscore | 0,9942 |
 | Evidensnivå | L3 |
-| Markedsstatus i Norge | Kun kansellert (ikke markedsført) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall autorisasjoner | 1 (kansellert) |
 | Anbefalt beslutning | Hold |
 

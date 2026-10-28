@@ -50,10 +50,10 @@ men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtte
 |------|------|
 | Opprinnelig indikasjon | Tyrosinemi |
 | Predikert ny indikasjon | Renal tubulær acidose |
-| TxGNN-prediksjonsscore | 99,96 % |
+| TxGNN-prediksjonsscore | 0,9996 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
-| Antall godkjenninger | 2 (begge kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som
 
 Dette er imidlertid en sekundær effekt innenfor den opprinnelige indikasjonen, og ikke uavhengig evidens for primær renal tubulær acidose. Den høye TxGNN-scoren er en ren modellprediksjon, og det foreligger ingen støttende litteratur eller studier.
 
-For andre predikerte indikasjoner finnes noe indirekte støtte. **Galaktosemi** (score 99,95 %, evidensnivå L4) er omtalt sammen med tyrosinemi i oversiktsartikler om arvelige stoffskiftesykdommer med leverpåvirkning. Dette gjenspeiler overlappende kliniske bilder, ikke et felles molekylært mål, og nitisinon har ingen kjent virkning på galaktosestoffskiftet. **Glykogenlagringssykdom** (L4) har kun én generell oversiktsartikkel som støtte.
+For andre predikerte indikasjoner finnes noe indirekte støtte. **Galaktosemi** (score 0,9995, evidensnivå L4) er omtalt sammen med tyrosinemi i oversiktsartikler om arvelige stoffskiftesykdommer med leverpåvirkning. Dette gjenspeiler overlappende kliniske bilder, ikke et felles molekylært mål, og nitisinon har ingen kjent virkning på galaktosestoffskiftet. **Glykogenlagringssykdom** (L4) har kun én generell oversiktsartikkel som støtte.
 
 ---
 

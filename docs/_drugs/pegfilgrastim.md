@@ -50,13 +50,13 @@ men det finnes **ingen kliniske studier** og **ingen publikasjoner** i dataene s
 |------|------|
 | Opprinnelig indikasjon | Nøytropeni; kreft (kjemoterapiindusert febril nøytropeni) |
 | Predikert ny indikasjon | Alvorlig ikke-proliferativ diabetisk retinopati |
-| TxGNN-prediksjonsscore | 99,89 % |
+| TxGNN-prediksjonsscore | 0,9989 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 11 (alle kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 11 av 11) |
+| Antall godkjenninger | 11 (gyldige: 11) |
 | Anbefalt beslutning | Hold |
 
-Merk: Godkjenningene i dataene er europeiske sentrale godkjenninger (EMEA/H/C), og alle har status kansellert. Ingen gyldige godkjenninger er registrert.
+Merk: Godkjenningene i dataene er europeiske sentrale godkjenninger (EMEA/H/C), og legemidlet er markedsført. Alle 11 godkjenninger er gyldige.
 
 ---
 
@@ -66,7 +66,7 @@ Data om virkningsmekanisme (MOA) for pegfilgrastim er ikke tilgjengelig i dataen
 
 En mulig, men spekulativ, kobling til diabetisk retinopati er at G-CSF mobiliserer benmargsavledede progenitorceller, som kan påvirke reparasjon av retinale kar. Retningen på effekten er imidlertid usikker: G-CSF kan også fremme betennelse og nydannelse av kar (neovaskularisering), noe som kan være skadelig, særlig ved proliferativ sykdom. Koblingen støttes ikke av noen studie eller publikasjon i dataene.
 
-Den nest høyest rangerte prediksjonen, **diabetisk retinopati** (score 99,73 %), er en overordnet kategori til den første. De to prediksjonene er derfor ikke uavhengig evidens.
+Den nest høyest rangerte prediksjonen, **diabetisk retinopati** (score 0,9973), er en overordnet kategori til den første. De to prediksjonene er derfor ikke uavhengig evidens.
 
 ---
 

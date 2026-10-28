@@ -50,9 +50,10 @@ men det finnes foreløpig **ingen registrerte kliniske studier** og **ingen publ
 |------|------|
 | Opprinnelig indikasjon | Anemi; kronisk nyresvikt |
 | Predikert ny indikasjon | Tørrøyesyndrom (dry eye syndrome) |
-| TxGNN-prediksjonsscore | 99,51 % |
+| TxGNN-prediksjonsscore | 0,9951 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket/avregistrert (cancelled) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall autorisasjoner | 1 |
 | Anbefalt beslutning | Hold |
 
@@ -70,9 +71,9 @@ Modellen predikerte også tre andre indikasjoner, alle med evidensnivå L5 og an
 
 | Predikert indikasjon | TxGNN-score | Kommentar |
 |------|------|------|
-| Pagets sykdom i skjelettet | 99,12 % | HIF-signalering påvirker beinomsetning, men effekten er blandet (både anabol og pro-osteoklastisk). Ingen studier. |
-| Dentinogenesis imperfecta | 99,06 % | Genetisk sykdom (vanligvis DSPP-mutasjoner). Ingen tydelig mekanistisk vei. Prediksjonen kan gjenspeile nettverksnærhet. |
-| Plateepitelkarsinom | 99,02 % | HIF-aktivering knyttes til tumorprogresjon, angiogenese og behandlingsresistens. Retningen på prediksjonen er tvilsom, og legemidlet kan være skadelig. |
+| Pagets sykdom i skjelettet | 0,9912 | HIF-signalering påvirker beinomsetning, men effekten er blandet (både anabol og pro-osteoklastisk). Ingen studier. |
+| Dentinogenesis imperfecta | 0,9906 | Genetisk sykdom (vanligvis DSPP-mutasjoner). Ingen tydelig mekanistisk vei. Prediksjonen kan gjenspeile nettverksnærhet. |
+| Plateepitelkarsinom | 0,9902 | HIF-aktivering knyttes til tumorprogresjon, angiogenese og behandlingsresistens. Retningen på prediksjonen er tvilsom, og legemidlet kan være skadelig. |
 
 ---
 
@@ -94,7 +95,7 @@ Det finnes for tiden ingen relevant litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/004871 | Evrenzo | Ikke oppgitt | Anemi; kronisk nyresvikt |
 
-Autorisasjonen (innehaver: Astellas Pharma Europe B.V.) har status **trukket/avregistrert**. Det finnes ingen gyldige autorisasjoner for øyeblikket.
+Autorisasjonen (innehaver: Astellas Pharma Europe B.V.) har status **gyldig**. Preparatet er markedsført, og 1 av 1 autorisasjoner er gyldig.
 
 ---
 
@@ -112,7 +113,7 @@ Se preparatomtalen (SPC) for fullstendig sikkerhetsinformasjon om advarsler og k
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for tørrøyesyndrom bygger utelukkende på modellscore (evidensnivå L5), uten kliniske studier eller publikasjoner. Mekanismedata mangler, og preparatet har ingen gyldig markedsføringstillatelse i Norge. Sikkerhetsdata fra preparatomtalen mangler også, noe som hindrer videre sikkerhetsscreening.
+Prediksjonen for tørrøyesyndrom bygger utelukkende på modellscore (evidensnivå L5), uten kliniske studier eller publikasjoner. Mekanismedata mangler, og preparatet er markedsført i Norge med 1 gyldig markedsføringstillatelse. Sikkerhetsdata fra preparatomtalen mangler også, noe som hindrer videre sikkerhetsscreening.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtalen (advarsler og kontraindikasjoner) fra regulatoriske kilder

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Bictegravir
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 60
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
-description: "Bictegravir: predikert ny indikasjon Simian immunsviktvirus-infeksjon (SIV) (evidensnivå L4). Opprinnelig indikasjon: Hiv-infeksjon"
 monitor_inn: "BICTEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-27
+description: "Bictegravir: predikert ny indikasjon Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome) (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
 # Bictegravir
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-## Bictegravir: Fra hiv-infeksjon til simian immunsviktvirus-infeksjon (SIV)
+## Bictegravir: integrasehemmer → felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
-## Oppsummering
+## Oppsummering i én setning
 
-Bictegravir er en integrasehemmer (INSTI) som opprinnelig brukes til behandling av hiv-infeksjon, blant annet i kombinasjonspreparatet Biktarvy.
-TxGNN-modellen forutsier at legemidlet kan ha effekt mot **simian immunsviktvirus-infeksjon (SIV)**.
-Støtten er svak: det finnes **0 kliniske studier** og **3 publikasjoner** (in vitro, strukturbiologi og dyremodell). SIV er en infeksjon hos ikke-menneskelige primater, så funnene er først og fremst relevante som prekliniske modeller for hiv.
+Bictegravir er en integrasehemmer (INSTI) som brukes mot hiv-infeksjon.
+Den TxGNN-modellen forutsier at den kan ha effekt mot **felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome)**, en sykdom hos katt.
+For denne forutsigelsen finnes det **ingen kliniske studier og ingen publikasjoner** i dataene som er samlet inn til denne rapporten.
 
 ---
 
@@ -48,60 +48,56 @@ Støtten er svak: det finnes **0 kliniske studier** og **3 publikasjoner** (in v
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Hiv-infeksjon |
-| Predikert ny indikasjon | Simian immunsviktvirus-infeksjon (SIV) |
-| TxGNN-prediksjonsscore | 99,82 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse i dataene) |
-| Antall tillatelser | 1 (avregistrert) |
-| Anbefalt beslutning | Hold (forskningsspørsmål; ikke klinisk utviklingskandidat) |
+| Opprinnelig indikasjon | HIV Infections |
+| Foreslått ny indikasjon | Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome) |
+| TxGNN-prediksjonsscore | 0,9982 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor er denne forutsigelsen rimelig?
 
-Det foreligger for tiden ingen detaljerte data om virkningsmekanisme i datagrunnlaget. Basert på kjent informasjon er bictegravir en integrase-strengoverføringshemmer (INSTI). Effekten er dokumentert ved hiv-infeksjon, og mekanistisk kan den være aktuell også for SIV.
+Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Bictegravir tilhører klassen integrase-strand-transferhemmere (INSTI), og denne klassen hemmer det virale integraseenzymet som er nødvendig for at viralt DNA settes inn i vertscellens genom.
 
-SIV er nært beslektet med hiv, og begge virusene har et integraseenzym som er målet for INSTI-legemidler. En in vitro-studie viser antiviral aktivitet av bictegravir og kabotegravir mot SIVmac239, også integrasehemmer-resistente varianter. Strukturstudier av hiv/SIV-intasomer forklarer hvordan hemmerne binder og hvordan viruset unnslipper dem.
+Felint immunsviktvirus (FIV) er et lentivirus med et integraseenzym som er beslektet med det hos hiv-1. Det gjør det biologisk plausibelt at en INSTI kan virke antiviralt. Dette er likevel ikke verifisert: følsomheten til FIV-integrase for bictegravir er ikke undersøkt i de foreliggende dataene.
 
-Beviset er likevel indirekte og prekliniske. SIV er ikke en menneskelig sykdom, så en eventuell verdi ligger i å bruke SIV-modeller til å teste hiv-strategier, ikke i en ny human indikasjon.
-
-**Andre prediksjoner i datagrunnlaget (for kontekst):**
-- *Felint ervervet immunsviktsyndrom (FIV):* score 99,82 %, evidensnivå L5, ingen studier eller litteratur. Integrasen hos FIV er beslektet med den hos hiv-1, men følsomhet for bictegravir er ikke verifisert. Indikasjonen er veterinær.
-- *Nevroutviklingsforstyrrelse med ataktisk gange, fravær av tale og redusert kortikal hvit substans:* score 99,76 %, evidensnivå L5. Ingen plausibel mekanistisk sammenheng er identifisert, og scoren er kun en beregnet prediksjon.
+Den høye scoren (0,9982) er en beregningsmessig prediksjon og er ikke bevis for effekt. Indikasjonen er dessuten veterinær og ligger utenfor klinisk legemiddelutvikling for mennesker.
 
 ---
 
-## Klinisk evidens
+## Kliniske studier
 
-Foreløpig finnes det ingen relaterte kliniske studier registrert.
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|------|---------|
-| [28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/) | 2017 | In vitro / preklinisk | Antimicrobial Agents and Chemotherapy | Antiviral aktivitet av bictegravir og kabotegravir mot integrasehemmer-resistent SIVmac239 og hiv-1 |
-| [32506843](https://pubmed.ncbi.nlm.nih.gov/32506843/) | 2021 | Oversikt (strukturbiologi) | The FEBS Journal | Hiv/SIV-intasomstrukturer belyser hvordan integrasehemmere binder og hvordan viruset unnslipper |
-| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Preklinisk dyremodell | Frontiers in Immunology | Humanisert musemodell for testing av antivirale strategier mot både SIV og hiv |
+Foreløpig er ingen relatert litteratur tilgjengelig for denne forutsigelsen.
 
 ---
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004449 | Biktarvy (avregistrert) | Ikke oppgitt | Hiv-infeksjon |
+| EMEA/H/C/004449 | Biktarvy | Ikke oppgitt | Ikke registrert i lokale data |
+
+Merk: Biktarvy er et kombinasjonsprodukt, og denne tillatelsen beskriver ikke godkjenningen av enkeltstoffet bictegravir.
 
 ---
 
 ## Sikkerhetsvurderinger
 
-**Legemiddelinteraksjoner:** Det er registrert 81 interaksjoner. Blant de første 20 som ble gjennomgått, er de viktigste:
+**Legemiddelinteraksjoner** (81 interaksjoner registrert; de første 20 er vist i dataene):
 
-- **Alvorlig (Major):** Polyvalente kationer og antacida som kan redusere opptaket av bictegravir. Dette gjelder aluminiumhydroksid, attapulgitt, kalsiumsalter (acetat, karbonat, citrat, glubionat, glukonat, laktat, fosfat), jern, kaolin, magaldrat og magnesiumsalter (karbonat, klorid, citrat).
-- **Moderat:** Aprepitant, klaritromycin, deksametason, eliglustat og glyserolfenylbutyrat.
+- **Alvorlige (Major):** aluminiumhydroksid, attapulgitt, kalsiumacetat, kalsiumkarbonat, kalsiumsitrat, kalsiumglubionat, kalsiumglukonat, kalsiumlaktat, kalsiumfosfat, jern, kaolin, magaldrat, magnesiumkarbonat, magnesiumklorid, magnesiumsitrat.
+- **Moderate:** aprepitant, klaritromycin, deksametason, eliglustat, glyserolfenylbutyrat.
+
+Hovedmønsteret er at preparater med flerverdige kationer (aluminium, kalsium, magnesium, jern) kan redusere opptaket av integrasehemmere, og inntakstidspunkt må derfor vurderes.
 
 For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
@@ -112,13 +108,12 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Evidensen er kun prekliniske (L4) og indirekte. SIV er en dyreinfeksjon, så prediksjonen representerer et forskningsspørsmål snarere enn en human repurposing-mulighet. Bictegravir har dessuten ingen gyldig tillatelse i Norge i de foreliggende dataene.
+Forutsigelsen bygger bare på en modellscore, uten kliniske studier eller publikasjoner som studerer sykdommen direkte (evidensnivå L5). Indikasjonen er i tillegg veterinær, og følsomheten til FIV-integrase for bictegravir er ikke vist.
 
-**For å gå videre kreves følgende:**
-- Data om virkningsmekanisme (MOA)
-- Sikkerhetsopplysninger fra preparatomtalen (advarsler og kontraindikasjoner)
-- Avklaring av markedsstatus i Norge
-- Eventuell direkte prekliniske studier av bictegravir i SIV-modeller, dersom målet er å bruke dem som hiv-modell
+**For å gå videre trengs følgende:**
+- In vitro-data på bictegravirs aktivitet mot FIV-integrase
+- Veterinærfaglig vurdering av relevans, sikkerhet og doseringsform for katt
+- Data om virkningsmekanisme (MOA) og informasjon fra preparatomtalen om advarsler og kontraindikasjoner
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

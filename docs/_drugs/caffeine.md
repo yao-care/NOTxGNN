@@ -4,17 +4,17 @@ title: Caffeine
 parent: Kun modellprediksjon (L5)
 nav_order: 77
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Caffeine: predikert ny indikasjon Nesehulesykdom (nasal cavity disease) (evidensnivå L5). Opprinnelig indikasjon: Apné"
 monitor_inn: "Caffeine"
-predicted_indications: ["nasal cavity disease", "thrombotic disease", "acute laryngopharyngitis", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
+predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
 ---
 
 # Caffeine
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 ## Enkel oppsummering
 
-Koffein er godkjent for behandling av apné (pustestopp) hos premature spedbarn. TxGNN-modellen forutsier at det kan ha effekt ved **nesehulesykdom** (nasal cavity disease), med en prediksjonsscore på 99,91 %. Evidensen er svært svak: det finnes **ingen kliniske studier** og bare **3 publikasjoner**, hvorav ingen viser behandlingseffekt på nesehulesykdom.
+Koffein er godkjent for behandling av apné (pustestopp) hos premature spedbarn. TxGNN-modellen forutsier at det kan ha effekt ved **nesehulesykdom** (nasal cavity disease), med en prediksjonsscore på 0,9991. Evidensen er svært svak: det finnes **ingen kliniske studier** og bare **3 publikasjoner**, hvorav ingen viser behandlingseffekt på nesehulesykdom.
 
 ---
 
@@ -48,10 +48,10 @@ Koffein er godkjent for behandling av apné (pustestopp) hos premature spedbarn.
 |------|------|
 | Opprinnelig indikasjon | Apné |
 | Predikert ny indikasjon | Nesehulesykdom (nasal cavity disease) |
-| TxGNN-prediksjonsscore | 99,91 % |
+| TxGNN-prediksjonsscore | 0,9991 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukne godkjenninger (ingen gyldige) |
-| Antall godkjenninger | 2 (begge trukket tilbake) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
 
 Merk: Godkjenningsnumrene i dataene er EMA-numre (EMEA/H/C/...), ikke nasjonale norske numre.
@@ -86,8 +86,8 @@ Det er for tiden ingen relaterte kliniske studier registrert.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/001014 | Peyona (tidligere Nymusa) | Ikke oppgitt | Apné (trukket) |
-| EMEA/H/C/005435 | Gencebok | Ikke oppgitt | Apné (trukket) |
+| EMEA/H/C/001014 | Peyona (tidligere Nymusa) | Ikke oppgitt | Apné (godkjent) |
+| EMEA/H/C/005435 | Gencebok | Ikke oppgitt | Apné (godkjent) |
 
 ---
 
@@ -113,7 +113,7 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon, siden omtalen med adva
 **Beslutning: Hold**
 
 **Begrunnelse:**
-- Prediksjonen for nesehulesykdom bygger kun på modellscore (L5). Det finnes ingen kliniske studier, og litteraturen viser ingen terapeutisk effekt. Koffein har heller ingen gyldig markedsføringstillatelse i Norge.
+- Prediksjonen for nesehulesykdom bygger kun på modellscore (L5). Det finnes ingen kliniske studier, og litteraturen viser ingen terapeutisk effekt. Koffein er markedsført i Norge, med 2 gyldige markedsføringstillatelser av 2.
 
 **For å gå videre kreves:**
 - Hent og gjennomgå preparatomtale (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsscreening

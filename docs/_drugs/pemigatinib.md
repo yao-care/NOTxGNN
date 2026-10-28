@@ -4,17 +4,17 @@ title: Pemigatinib
 parent: Kun modellprediksjon (L5)
 nav_order: 320
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Pemigatinib: predikert ny indikasjon Multippel endokrin neoplasi (evidensnivå L5). Opprinnelig indikasjon: Kolangiokarsinom"
 monitor_inn: "PEMIGATINIB"
-predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "infectious bovine rhinotracheitis", "malignant catarrh", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "amyotrophic lateral sclerosis, susceptibility to", "axial spondylometaphyseal dysplasia"]
+predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "infectious bovine rhinotracheitis", "malignant catarrh", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "axial spondylometaphyseal dysplasia"]
 ---
 
 # Pemigatinib
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,10 @@ Pemigatinib er en FGFR-hemmer (FGFR1–3) som opprinnelig brukes til behandling 
 |------|------|
 | Opprinnelig indikasjon | Kolangiokarsinom |
 | Predikert ny indikasjon | Multippel endokrin neoplasi |
-| TxGNN-prediksjonsscore | 99,71 % |
+| TxGNN-prediksjonsscore | 0,9971 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -82,7 +83,7 @@ Foreløpig ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/005266 | Pemazyre | Ikke oppgitt | Kolangiokarsinom |
 
-Tillatelsen har status avregistrert, og det finnes ingen gyldige tillatelser.
+Legemidlet er markedsført, og 1 av 1 tillatelser er gyldig.
 
 ---
 

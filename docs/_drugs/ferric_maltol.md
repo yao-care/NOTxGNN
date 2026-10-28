@@ -5,10 +5,10 @@ parent: Kun modellprediksjon (L5)
 nav_order: 175
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
-description: "Ferric Maltol: predikert ny indikasjon Plummer-Vinson syndrom (evidensnivå L5). Opprinnelig indikasjon: Jernmangelanemi"
 monitor_inn: "FERRIC MALTOL"
 predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "IRIDA syndrome"]
+last_modified_at: 2026-10-27
+description: "Ferric Maltol: predikert ny indikasjon Plummer-Vinsons syndrom (Plummer-Vinson syndrome) (evidensnivå L5). Opprinnelig indikasjon: Anemia, Iron-Deficiency"
 ---
 
 # Ferric Maltol
@@ -33,12 +33,14 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-## Ferrimaltol: Fra jernmangelanemi til Plummer-Vinson syndrom
+## Ferric maltol: oral jernpreparat → Plummer-Vinsons syndrom (Plummer-Vinson syndrome)
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
-Ferrimaltol (ferric maltol) er et oralt jernpreparat som opprinnelig brukes til å behandle jernmangelanemi. TxGNN-modellen forutsier at legemidlet kan være nyttig ved **Plummer-Vinson syndrom**, men det finnes foreløpig **ingen registrerte kliniske studier og ingen publikasjoner** som støtter denne retningen. Prediksjonen er derfor kun modellbasert.
+Ferric maltol er et oralt jernerstatningspreparat som brukes til å behandle jernmangel.
+TxGNN-modellen forutsier at legemidlet kan være aktuelt for **Plummer-Vinsons syndrom (Plummer-Vinson syndrome)**,
+men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** i de sammenstilte dataene som støtter denne retningen.
 
 ---
 
@@ -46,60 +48,53 @@ Ferrimaltol (ferric maltol) er et oralt jernpreparat som opprinnelig brukes til 
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Jernmangelanemi |
-| Predikert ny indikasjon | Plummer-Vinson syndrom |
-| TxGNN-prediksjonsscore | 99,98 % |
+| Opprinnelig indikasjon | Anemia, Iron-Deficiency |
+| Foreslått ny indikasjon | Plummer-Vinsons syndrom (Plummer-Vinson syndrome) |
+| TxGNN-prediksjonsscore | 0,9998 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellert |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig for dette legemidlet. Ferrimaltol er et oralt jernerstatningspreparat, og effekten ved jernmangelanemi er kjent. Mekanistisk kan det derfor være aktuelt ved tilstander der jernmangel er en sentral del av sykdomsbildet.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Ferric maltol er et oralt jernpreparat som tilfører jern og dermed korrigerer jernmangel.
 
-Plummer-Vinson syndrom (også kalt Paterson-Brown-Kelly syndrom) kjennetegnes av jernmangelanemi, svelgevansker som skyldes membraner (webs) i spiserøret, og betent tunge (glossitt). Ferrimaltol kan korrigere den underliggende jernmangelen, og det er koblingen mellom prediksjonen og legemidlet.
+Plummer-Vinsons syndrom (også kalt Paterson-Brown-Kelly-syndrom) kjennetegnes av jernmangelanemi, svelgvansker (dysfagi) på grunn av øsofagale membraner og betent tunge (glossitt). Det finnes dermed en plausibel kobling: behandling av den underliggende jernmangelen kan bedre tilstanden.
 
-Den svært høye scoren (99,98 %) gjenspeiler trolig nærhet i kunnskapsgrafen til den opprinnelige indikasjonen (jernmangelanemi), og ikke uavhengig klinisk evidens. Det er også usikkert om spiserørsmembranene går tilbake av jern alene, og svelgevansker kan gjøre inntak av orale kapsler vanskelig.
-
-Andre prediksjoner i datamaterialet:
-
-| Predikert indikasjon | Score | Vurdering |
-|------|------|------|
-| Vitamin B12- og folatuavhengig konstitusjonell megaloblastær anemi | 99,98 % | Ingen klar mekanistisk begrunnelse. Tilstanden skyldes forstyrret DNA-syntese, ikke jernmangel. Hold. |
-| IRIDA-syndrom (jernrefraktær jernmangelanemi) | 99,33 % | Skyldes TMPRSS6-mutasjoner med høyt hepcidin og dårlig jernopptak. Oral jernbehandling er mekanistisk lite sannsynlig å virke; parenteralt jern er vanlig tilnærming. Hold. |
+Den svært høye scoren (0,9998) gjenspeiler trolig nærhet til jernmangelanemi i modellens datastruktur, og ikke uavhengig klinisk evidens. Øsofagale membraner forsvinner ikke nødvendigvis med jern alene, og svelgvansker kan gjøre inntak av kapsler vanskelig.
 
 ---
 
-## Klinisk studieevidens
+## Evidens fra kliniske studier
 
-Foreløpig ingen relaterte kliniske studier registrert.
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ---
 
 ## Litteraturevidens
 
-Foreløpig ingen relatert litteratur tilgjengelig.
+Foreløpig er ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Informasjon om det norske markedet
+## Markedsinformasjon for Norge
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/002733 | Feraccru | – | Jernmangelanemi |
-
-Godkjenningen (produsent: Norgine B.V.) har status kansellert, og det finnes ingen gyldige godkjenninger i Norge.
+| EMEA/H/C/002733 | Feraccru | Ikke oppgitt | Ikke registrert i de lokale dataene |
 
 ---
 
 ## Sikkerhetsvurderinger
 
-- **Kontraindikasjoner fra kunnskapsgraf (ikke fra preparatomtale):** Kunnskapsgrafen (PrimeKG) knytter legemidlet til kontraindikasjon ved arvelig hemokromatose, hemosiderose, sykdommer i jernmetabolismen og Wilsons sykdom. Dette er grafbaserte koblinger og må verifiseres mot preparatomtalen.
+Følgende er hentet fra de sammenstilte dataene og er ikke basert på preparatomtale:
 
-For øvrig sikkerhetsinformasjon, se preparatomtalen. Det ble ikke funnet registrerte legemiddelinteraksjoner i dataene som er samlet inn til denne rapporten.
+- **Tilstander registrert som kontraindikasjoner i modellens data:** arvelig hemokromatose, hemosiderose, sykdom i jernmetabolismen og Wilsons sykdom. Disse bør verifiseres mot preparatomtalen.
+
+Ingen legemiddelinteraksjoner ble funnet i de sammenstilte dataene. For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ---
 
@@ -108,14 +103,13 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen. Det ble ikke funnet regist
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for Plummer-Vinson syndrom er biologisk plausibel fordi jernmangel er et kjernetrekk, men den støttes kun av modellscore (L5) uten kliniske studier eller litteratur. Legemidlet har dessuten ingen gyldig norsk markedsføringstillatelse. De to andre prediksjonene har svak eller manglende mekanistisk støtte.
+Prediksjonen bygger kun på modellscore uten støtte fra kliniske studier eller publikasjoner (evidensnivå L5). Mekanismen er plausibel via korreksjon av jernmangel, men øsofagale membraner og kapselinntak ved dysfagi er uavklarte problemstillinger.
 
-**For å gå videre kreves følgende:**
-- Innhente og analysere preparatomtalen (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsscreening
-- Innhente data om virkningsmekanisme (MOA)
-- Litteratursøk og søk etter kliniske studier på jernbehandling ved Plummer-Vinson syndrom
-- Vurdere om svelgevansker og spiserørsmembraner begrenser bruk av orale kapsler
-- Avklare regulatorisk status, siden den eneste godkjenningen er kansellert
+**For å gå videre trengs følgende:**
+- Systematisk litteratursøk om jernbehandling ved Plummer-Vinsons syndrom
+- Data om virkningsmekanisme (MOA)
+- Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsvurdering
+- Vurdering av egnet administrasjonsvei hos pasienter med dysfagi
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -4,7 +4,7 @@ title: Mercaptopurine
 parent: Høy evidens (L1-L2)
 nav_order: 263
 evidence_level: L2
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Mercaptopurine: predikert ny indikasjon Myeloid leukemi (evidensnivå L2). Opprinnelig indikasjon: Lymfatisk leukemi"
 monitor_inn: "mercaptopurine"
@@ -14,7 +14,7 @@ predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocy
 # Mercaptopurine
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L2** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Dette støttes foreløpig av **15 kliniske studier** og **20 publikasjoner**. Ne
 |------|------|
 | Opprinnelig indikasjon | Lymfatisk leukemi |
 | Predikert ny indikasjon | Myeloid leukemi |
-| TxGNN-prediksjonsscore | 99,94 % |
+| TxGNN-prediksjonsscore | 0.9994 |
 | Evidensnivå | L2 |
-| Markedsstatus i Norge | Kun annullert godkjenning |
-| Antall godkjenninger | 1 (annullert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -106,7 +106,7 @@ Ingen av studiene tester merkaptopurin alene mot en kontroll ved myeloid leukemi
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/002022 | Xaluprine (tidligere Mercaptopurine Nova Laboratories) | – | Lymfatisk leukemi (godkjenningen er annullert) |
+| EMEA/H/C/002022 | Xaluprine (tidligere Mercaptopurine Nova Laboratories) | – | Lymfatisk leukemi (godkjenningen er godkjent) |
 
 ---
 

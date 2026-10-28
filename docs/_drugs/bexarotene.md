@@ -5,10 +5,10 @@ parent: Kun modellprediksjon (L5)
 nav_order: 58
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
-description: "Bexarotene: predikert ny indikasjon Primært kutant B-cellelymfom (evidensnivå L5). Opprinnelig indikasjon: Kutant T-cellelymfom"
 monitor_inn: "BEXAROTENE"
 predicted_indications: ["primary cutaneous B-cell lymphoma", "Sezary syndrome", "lymphosarcoma"]
+last_modified_at: 2026-10-27
+description: "Bexarotene: predikert ny indikasjon Primært kutant B-cellelymfom (primary cutaneous B-cell lymphoma) (evidensnivå L5). Opprinnelig indikasjon: Lymphoma, T-Cell, Cutaneous"
 ---
 
 # Bexarotene
@@ -33,107 +33,86 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-## Bexaroten: Fra kutant T-cellelymfom til primært kutant B-cellelymfom
+## Bexarotene: retinoid X-reseptoragonist → primært kutant B-cellelymfom (primary cutaneous B-cell lymphoma)
 {: .text-alpha }
 
-## Sammendrag
+## Oppsummering i en setning
 
-Bexaroten er et legemiddel som opprinnelig brukes mot kutant T-cellelymfom (CTCL). TxGNN-modellen forutsier at det kan ha effekt ved **primært kutant B-cellelymfom**, men foreløpig finnes det **ingen kliniske studier** og bare **10 publikasjoner** (oversikter og kasuistikker) som berører temaet. Disse viser ikke at bexaroten virker mot B-cellelymfom. Prediksjonen er derfor kun modellbasert.
-
----
+Bexarotene er en selektiv retinoid X-reseptor (RXR)-agonist. TxGNN-modellen predikerer at legemidlet kan ha effekt ved **primært kutant B-cellelymfom (primary cutaneous B-cell lymphoma)**. Det finnes **ingen registrerte kliniske studier** og **10 publikasjoner** (hovedsakelig oversiktsartikler og kasuistikker om kutane lymfomer generelt), så dokumentasjonen for akkurat denne sykdommen er svært begrenset.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Kutant T-cellelymfom |
-| Predikert ny indikasjon | Primært kutant B-cellelymfom |
-| TxGNN-prediksjonsscore | 99,44 % |
-| Evidensnivå | L5 (kun modellprediksjon) |
-| Markedsstatus i Norge | Kun avregistrerte/trukkede tillatelser |
-| Antall tillatelser | 1 (0 gyldige) |
+| Opprinnelig indikasjon | Lymphoma, T-Cell, Cutaneous |
+| Predikert ny indikasjon | Primært kutant B-cellelymfom (primary cutaneous B-cell lymphoma) |
+| TxGNN-prediksjonsscore | 0,9944 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
----
+## Hvorfor er denne prediksjonen rimelig?
 
-## Hvorfor er denne prediksjonen (ikke) rimelig?
+Bexarotene aktiverer retinoid X-reseptorer (RXR), som fungerer som ligandaktiverte transkripsjonsfaktorer og styrer cellevekst, differensiering og apoptose. Detaljerte mekanismedata (original_moa) er ikke tilgjengelige i de innsamlede dataene, så beskrivelsen bygger på kjent legemiddelklasse.
 
-Bexaroten er en agonist på retinoid X-reseptoren (RXR). Den utløser apoptose og differensiering i maligne T-lymfocytter. Det er grunnlaget for godkjenningen ved kutant T-cellelymfom.
+Mekanismen er best dokumentert i maligne T-celler. For B-cellelymfom er den biologiske begrunnelsen svak: de innsamlede dataene beskriver ingen RXR-avhengig mekanisme i primært kutant B-cellelymfom. Den svært høye scoren (0,9944) gjenspeiler trolig nærhet til kutant T-cellelymfom i modellens nettverk snarere enn B-cellespesifikk biologi.
 
-Det mekanistiske grunnlaget for B-cellelymfom er svakt. Dataene som er samlet inn for denne rapporten beskriver ingen RXR-avhengig mekanisme ved primært kutant B-cellelymfom. Den svært høye scoren (0,994) gjenspeiler trolig at sykdommene ligger nær hverandre i modellens kunnskapsgraf, ikke at bexaroten har B-celle-spesifikk biologi.
+Ingen av de siterte studiene undersøker bexarotene direkte ved kutant B-cellelymfom. Evidensnivået settes derfor til L5.
 
-Både T- og B-cellelymfomer i huden er sjeldne non-Hodgkin-lymfomer, og de omtales ofte sammen i oversiktsartikler. Det er likevel ikke vist at samme legemiddelmekanisme gjelder for begge. Detaljerte mekanismedata (MOA) fra DrugBank mangler foreløpig.
+## Klinisk studiedokumentasjon
 
----
+Foreløpig er ingen relaterte kliniske studier registrert for denne indikasjonen.
 
-## Klinisk studieevidens
-
-Foreløpig er det ikke registrert noen relevante kliniske studier for primært kutant B-cellelymfom.
-
----
-
-## Litteraturevidens
+## Litteraturdokumentasjon
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [31932947](https://pubmed.ncbi.nlm.nih.gov/31932947/) | 2020 | Oversikt | Der Pathologe | Kutane lymfomer. Bexaroten nevnes som systemisk behandling i sene stadier og ved Sézary-syndrom (T-celle) |
-| [31511903](https://pubmed.ncbi.nlm.nih.gov/31511903/) | 2019 | Oversikt | Der Hautarzt | Tilsvarende oversikt over klinikk, diagnostikk og behandling av kutane lymfomer |
-| [20806174](https://pubmed.ncbi.nlm.nih.gov/20806174/) | 2010 | Oversikt | Therapeutische Umschau | Klassifisering av kutane T- og B-cellelymfomer etter WHO/EORTC |
-| [14616487](https://pubmed.ncbi.nlm.nih.gov/14616487/) | 2003 | Oversikt | Australas J Dermatol | Behandling av primære kutane lymfomer. Retinoider er blant de klassiske alternativene |
+| [20806174](https://pubmed.ncbi.nlm.nih.gov/20806174/) | 2010 | Oversikt | Therapeutische Umschau | Oversikt over kutane T- og B-cellelymfomer og WHO/EORTC-klassifikasjonen |
+| [14616487](https://pubmed.ncbi.nlm.nih.gov/14616487/) | 2003 | Oversikt | Australas J Dermatol | Behandling av primære kutane lymfomer, inkludert retinoider blant klassiske strategier |
+| [31932947](https://pubmed.ncbi.nlm.nih.gov/31932947/) | 2020 | Oversikt | Der Pathologe | Kutane lymfomer; bexarotene nevnt som systemisk alternativ i senere stadier av T-cellelymfom |
+| [31511903](https://pubmed.ncbi.nlm.nih.gov/31511903/) | 2019 | Oversikt | Der Hautarzt | Klinikk, diagnostikk og behandling av kutane lymfomer; bexarotene nevnt for T-cellelymfom |
 | [19786826](https://pubmed.ncbi.nlm.nih.gov/19786826/) | 2009 | Oversikt | Skin Pharmacol Physiol | Nye og eksperimentelle hudrettede behandlinger ved kutane lymfomer |
-| [29881891](https://pubmed.ncbi.nlm.nih.gov/29881891/) | 2018 | Kasuistikkserie | Der Hautarzt | Serie med 163 pasienter med primært kutant lymfom fra daglig klinisk praksis |
-| [23941646](https://pubmed.ncbi.nlm.nih.gov/23941646/) | 2013 | Kasuistikk | J Cutan Pathol | Diagnostiske fallgruver ved kutant follikulært T-hjelpercellelymfom (feildiagnostisert som B-cellelymfom) |
-| [22508770](https://pubmed.ncbi.nlm.nih.gov/22508770/) | 2012 | Kasuistikkserie | Arch Dermatol | Fem tilfeller av kutant follikulært T-hjelpercellelymfom |
-| [15861527](https://pubmed.ncbi.nlm.nih.gov/15861527/) | 2005 | Kasuistikk | Croat Med J | EBV-assosiert kutant B-cellelymfom hos pasient med mycosis fungoides, behandlet med topisk acyklovir |
-| [15636695](https://pubmed.ncbi.nlm.nih.gov/15636695/) | 2004 | Kasuistikk | Clin Lymphoma | Lymfomatoid papulose fra barndommen med anaplastisk storcellet lymfom i tynntarm |
-
-Ingen av publikasjonene dokumenterer effekt av bexaroten ved B-cellelymfom.
-
----
+| [29881891](https://pubmed.ncbi.nlm.nih.gov/29881891/) | 2018 | Kasusserie | Der Hautarzt | Serie på 163 pasienter med primært kutant lymfom |
+| [15861527](https://pubmed.ncbi.nlm.nih.gov/15861527/) | 2005 | Kasuistikk | Croat Med J | EBV-assosiert kutant B-cellelymfom behandlet med topikal aciklovir hos pasient med mycosis fungoides |
+| [23941646](https://pubmed.ncbi.nlm.nih.gov/23941646/) | 2013 | Kasuistikk/oversikt | J Cutan Pathol | Diagnostiske fallgruver ved kutant follikulært T-hjelpercellelymfom (T-cellesubtype) |
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000326 | Targretin (H.A.C. Pharma) | Ikke oppgitt | Kutant T-cellelymfom (status: avregistrert/trukket) |
-
----
+| EMEA/H/C/000326 | Targretin | Ikke oppgitt | Se lisensdata |
 
 ## Cytotoksisitet
 
 | Punkt | Innhold |
 |------|------|
-| Cytotoksisitetsklassifisering | Målrettet behandling (rexinoid, RXR-agonist), ikke konvensjonelt cytostatikum |
-| Risiko for myelosuppresjon | Lav til moderat. Leukopeni er nevnt som risiko i kunnskapsgrafen |
-| Emetogenisitet | Lav |
-| Overvåkingspunkter | Blodstatus, lipider (triglyserider), skjoldbruskkjertelfunksjon, lever- og nyrefunksjon |
-| Håndteringsvern | Se preparatomtalen. Legemidlet har kjent teratogen risiko, og graviditetsforebyggende tiltak er nødvendig |
-
----
+| Cytotoksisk klassifisering | Målrettet behandling (rexinoid, RXR-agonist) |
+| Risiko for myelosuppresjon | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Emetogenisitetsklasse | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Overvåkingsparametere | Blodlipider (triglyserider), skjoldbruskkjertelfunksjon (fritt T4/TSH), lever- og nyrefunksjon, blodstatus |
+| Håndteringsbeskyttelse | Følg gjeldende retningslinjer for håndtering av cytostatika og teratogene stoffer |
 
 ## Sikkerhetsvurderinger
 
-- **Kontraindikasjoner/risikotilstander (fra kunnskapsgraf, ikke preparatomtale):** leversvikt, leversykdom, pankreatitt, sykdom i galleblæren og gallevegene, obstruktiv gulsott, hypotyreose (inkl. myksødem og medfødt hypotyreose), diabetes mellitus, diabetisk ketoacidose, rusmiddelmisbruk/avhengighet og leukopeni.
-- **Legemiddelinteraksjoner:** 100 kjente interaksjoner er registrert. Viktigste:
-  - **Alvorlige (Major):** albiglutid, alogliptin, dulaglutid, eluksadolin og eksenatid (diabetes- og GLP-1-relaterte legemidler, samt eluksadolin).
-  - **Moderate:** kortikosteroider (hydrokortison, triamcinolon, deksametason, betametason), sulfonylurea-preparater (acetoheksamid, klorpropamid, glimepirid, glipizid, glyburid), cisaprid, eliglustat og granisetron.
-- Informasjon om advarsler fra preparatomtalen er ikke tilgjengelig. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
+- **Legemiddelinteraksjoner:** Interaksjonsdatabasen viser 100 kjente interaksjoner. Blant de oppførte er flere av alvorlighetsgrad «Major»: albiglutid, alogliptin, dulaglutid, eluxadolin og eksenatid. Moderate interaksjoner omfatter blant annet hydrokortison, deksametason, betametason, triamcinolon, glimepirid, glipizid, glibenklamid og cisaprid.
+- **Sykdommer som er knyttet til kontraindikasjoner i modellens data (ikke fra preparatomtale):** leversvikt og leversykdom, pankreatitt, gallveissykdom og obstruktiv gulsott, hypotyreose (inkludert myxødem og medfødt hypotyreose), diabetes mellitus og diabetisk ketoacidose, leukopeni og rusmiddelmisbruk/avhengighet.
 
----
+Se pakningsvedlegget for fullstendig sikkerhetsinformasjon.
 
 ## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for primært kutant B-cellelymfom hviler kun på modellscoren (L5). Det finnes ingen kliniske studier, litteraturen består av oversikter og kasuistikker, og det mekanistiske grunnlaget er svakt. Produktet har i tillegg bare en avregistrert tillatelse i Norge.
+Ingen kliniske studier eller publikasjoner undersøker bexarotene direkte ved primært kutant B-cellelymfom. Den høye modellscoren er mest sannsynlig drevet av likheten til kutant T-cellelymfom, og mekanismen er svakt underbygd for B-celler.
 
-**For å gå videre trengs:**
-- Prekliniske data eller mekanismedata som viser RXR-avhengig biologi i kutane B-celler
-- Mekanismedata (MOA) fra DrugBank
-- Advarsler og kontraindikasjoner fra preparatomtalen
-- Avklaring av dagens tilgjengelighet av bexaroten i Norge
-- Vurdering av andre prediksjoner for samme legemiddel: **Sézary-syndrom** (L1, i praksis innenfor eller nær eksisterende indikasjon, med en terminert fase 3-studie og flere fase 2-studier) og **lymfosarkom** (L1, men evidensen gjelder nesten bare kutant T-cellelymfom). Disse har betydelig sterkere støtte enn B-cellelymfom.
+**For å gå videre trengs følgende:**
+- Prekliniske data eller mekanismestudier som viser RXR-avhengig biologi i kutane B-cellelymfomer
+- Kliniske data (kasusserier eller pilotstudier) spesifikt for B-cellesubtyper
+- Detaljerte mekanismedata (MOA) og fullstendig sikkerhetsinformasjon fra preparatomtalen
+- Bekreftelse av aktuell tilgjengelighet og lisensstatus for Targretin i Norge
+- Plan for overvåking av lipider og skjoldbruskkjertel samt tiltak mot graviditet (teratogenitet)
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

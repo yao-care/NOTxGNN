@@ -48,10 +48,10 @@ Upadacitinib var opprinnelig godkjent for behandling av revmatoid artritt. TxGNN
 |------|------|
 | Opprinnelig indikasjon | Revmatoid artritt |
 | Predikert ny indikasjon | Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom |
-| TxGNN-prediksjonsscore | 99,61 % |
+| TxGNN-prediksjonsscore | 0,9961 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte godkjenninger |
-| Antall godkjenninger | 1 (avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -60,9 +60,9 @@ Upadacitinib var opprinnelig godkjent for behandling av revmatoid artritt. TxGNN
 
 Data om virkningsmekanisme (MOA) for upadacitinib mangler i de sammenstilte dataene. Upadacitinib er generelt kjent som en JAK1-hemmer, men dette er ikke bekreftet i det foreliggende materialet. Legemidlet er godkjent ved revmatoid artritt, en immunmediert betennelsessykdom der JAK-STAT-signalering spiller en sentral rolle.
 
-Det predikerte syndromet er en ekstremt sjelden utviklingsforstyrrelse, trolig av genetisk opprinnelse. Det er ingen åpenbar betennelsesdrevet eller JAK-STAT-avhengig sykdomsmekanisme som knytter tilstanden til upadacitinib. Et høyt TxGNN-score (0,996) er ikke i seg selv et bevis. Prediksjonen kan skyldes artefakter i kunnskapsgrafen, for eksempel felles gener eller signalveier, snarere enn reell terapeutisk relevans. En utviklingsforstyrrelse uten betennelse vil neppe svare på immunmodulering.
+Det predikerte syndromet er en ekstremt sjelden utviklingsforstyrrelse, trolig av genetisk opprinnelse. Det er ingen åpenbar betennelsesdrevet eller JAK-STAT-avhengig sykdomsmekanisme som knytter tilstanden til upadacitinib. Et høyt TxGNN-score (0,9961) er ikke i seg selv et bevis. Scoren kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. En utviklingsforstyrrelse uten betennelse vil neppe svare på immunmodulering.
 
-Den nest rangerte prediksjonen, **brachydaktyli-syndaktyli-syndrom** (score 99,58 %), har samme begrensninger: en medfødt lemmemisdannelse uten påvist JAK-STAT-mediert patologi, uten kliniske studier og uten publikasjoner.
+Den nest rangerte prediksjonen, **brachydaktyli-syndaktyli-syndrom** (score 0,9958), har samme begrensninger: en medfødt lemmemisdannelse uten påvist JAK-STAT-mediert patologi, uten kliniske studier og uten publikasjoner.
 
 ---
 
@@ -84,7 +84,7 @@ Foreløpig finnes det ingen relatert litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/004760 | Rinvoq | Ikke oppgitt | Revmatoid artritt |
 
-Merk: Denne godkjenningen har status avregistrert, og det finnes ingen gyldige godkjenninger i Norge i de sammenstilte dataene.
+Merk: Legemidlet er markedsført i Norge, med 1 gyldig godkjenning av 1 i de sammenstilte dataene.
 
 ---
 
@@ -113,7 +113,7 @@ Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten kliniske stud
 - Innhenting av preparatomtale (advarsler og kontraindikasjoner) fra DMP, som er en blokkerende datamangel for sikkerhetsscreening
 - Data om virkningsmekanisme (MOA), for eksempel fra DrugBank
 - Uavhengig biologisk validering av en mulig kobling mellom JAK-STAT-signalering og sykdommens patogenese
-- Gjennomgang av om prediksjonen er en artefakt i kunnskapsgrafen
+- Gjennomgang av om prediksjonen fra TxGNN-modellen (dyp læring) bare gjenspeiler likheter modellen har lært mellom beslektede sykdommer
 - Vurdering av administrasjonsvei og legemiddelform (ikke avklart)
 ## Ansvarsfraskrivelse
 

@@ -50,10 +50,10 @@ men dette støttes foreløpig kun av **2 fase 2-studier** (begge med indirekte r
 |------|------|
 | Opprinnelig indikasjon | Akutt myeloid leukemi |
 | Predikert ny indikasjon | Hodgkins lymfom |
-| TxGNN-prediksjonsscore | 99,81 % |
+| TxGNN-prediksjonsscore | 0.9981 |
 | Evidensnivå | L3 |
-| Markedsstatus i Norge | Kun trukket tilbake (avregistrert) |
-| Antall godkjenninger | 1 (trukket tilbake) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -100,7 +100,7 @@ Ingen av publikasjonene omhandler daunorubicin spesifikt ved Hodgkins lymfom.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004282 | Vyxeos liposomal (tidligere Vyxeos) | Ikke oppgitt | Akutt myeloid leukemi (status: trukket tilbake) |
+| EMEA/H/C/004282 | Vyxeos liposomal (tidligere Vyxeos) | Ikke oppgitt | Akutt myeloid leukemi (status: godkjent) |
 
 ---
 

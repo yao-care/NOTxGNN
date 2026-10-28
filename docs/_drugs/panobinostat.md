@@ -50,9 +50,10 @@ og i dag finnes det **16 kliniske studier** og **20 publikasjoner** i datagrunnl
 |------|------|
 | Opprinnelig indikasjon | Multippelt myelom |
 | Predikert ny indikasjon | Myeloid leukemi |
-| TxGNN-prediksjonsscore | 99,70 % |
+| TxGNN-prediksjonsscore | 0,9970 |
 | Evidensnivå | L2 |
-| Markedsstatus i Norge | Kun avregistrert (ikke markedsført) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall markedsføringstillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -110,7 +111,7 @@ Ytterligere studier i datagrunnlaget omfatter bl.a. pediatrisk fase 1 (NCT013213
 
 | Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/003725 | Farydak (status: avregistrert) | Ikke oppgitt | Multippelt myelom |
+| EMEA/H/C/003725 | Farydak (status: godkjent) | Ikke oppgitt | Multippelt myelom |
 
 ---
 

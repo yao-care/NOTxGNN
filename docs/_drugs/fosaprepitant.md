@@ -48,9 +48,10 @@ Fosaprepitant er en forløper (prodrug) til aprepitant og var opprinnelig godkje
 |------|------|
 | Opprinnelig indikasjon | Oppkast; kreft (kvalme og oppkast ved kreftbehandling) |
 | Predikert ny indikasjon | Nefrogent syndrom med uhensiktsmessig antidiurese |
-| TxGNN-prediksjonsscore | 99,92 % |
+| TxGNN-prediksjonsscore | 0,9992 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun tilbakekalt/avregistrert (ingen gyldige markedsføringstillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (0 gyldige, 1 kansellert) |
 | Anbefalt beslutning | Hold |
 
@@ -62,7 +63,7 @@ Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i det inn
 
 NSIAD skyldes derimot aktiverende (gain-of-function) mutasjoner i vasopressin V2-reseptoren (AVPR2). Dette er en annen reseptorvei enn NK1-antagonisme, og det er ikke påvist noen mekanistisk kobling mellom de to. Den høye scoren er en grafbasert prediksjon uten støtte i kliniske data eller litteratur, og må tolkes med stor forsiktighet.
 
-Blant de ti høyest rangerte prediksjonene (blant annet pneumocystose, lepra, kryptokokkmeningitt, malaria, ekinokokkose og hyperargininemi) mangler de fleste både mekanistisk begrunnelse og studier. Det eneste unntaket er **retinitt** (rangert som nr. 7, score 99,68 %), der det finnes én prekliniske studie som gir en plausibel, men indirekte mekanisme (se under).
+Blant de ti høyest rangerte prediksjonene (blant annet pneumocystose, lepra, kryptokokkmeningitt, malaria, ekinokokkose og hyperargininemi) mangler de fleste både mekanistisk begrunnelse og studier. Det eneste unntaket er **retinitt** (rangert som nr. 7, score 0,9968), der det finnes én prekliniske studie som gir en plausibel, men indirekte mekanisme (se under).
 
 ---
 
@@ -92,7 +93,7 @@ Dette er indirekte, prekliniske data om øyeinflammasjon/-skade, ikke kliniske d
 |---------|------|------|-----------|
 | EMEA/H/C/000743 | Ivemend | Ikke oppgitt | Oppkast; kreft (status: kansellert) |
 
-Produsent: Merck Sharp & Dohme B.V. Det finnes ingen gyldige tillatelser for tiden.
+Produsent: Merck Sharp & Dohme B.V. Legemidlet er markedsført i Norge, og 1 av 1 markedsføringstillatelser er gyldig.
 
 ---
 
@@ -118,7 +119,7 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for NSIAD har evidensnivå L5: den bygger kun på modellscore, uten kliniske studier, litteratur eller en plausibel mekanisme. I tillegg har legemidlet ingen gyldig markedsføringstillatelse i Norge.
+Prediksjonen for nefrogent syndrom med uhensiktsmessig antidiurese har evidensnivå L5: den bygger kun på modellscore, uten kliniske studier, litteratur eller en plausibel mekanisme. Legemidlet er markedsført i Norge, og 1 av 1 markedsføringstillatelser er gyldig.
 
 **For å gå videre kreves følgende:**
 - Hentet og analysert preparatomtale (advarsler og kontraindikasjoner) fra legemiddelmyndighetene

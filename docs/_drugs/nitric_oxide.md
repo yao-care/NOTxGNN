@@ -4,7 +4,7 @@ title: Nitric Oxide
 parent: Kun modellprediksjon (L5)
 nav_order: 288
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Nitric Oxide: predikert ny indikasjon Misdannelsessyndrom med odontal og/eller periodontal komponent (evidensnivå L5). Opprinnelig indikasjon: Pulmonal hypertensjon"
 monitor_inn: "NITRIC OXIDE"
@@ -14,7 +14,7 @@ predicted_indications: ["malformation syndrome with odontal and/or periodontal c
 # Nitric Oxide
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Nitrogenoksid: Fra pulmonal hypertensjon til misdannelsessyndrom med tann- og/eller periodontal komponent
+## Nitrogenoksid: Fra pulmonal hypertensjon til Misdannelsessyndrom med odontal og/eller periodontal komponent
 {: .text-alpha }
 
 ## Sammendrag
 
 Nitrogenoksid (inhalert, handelsnavn INOmax) er opprinnelig godkjent for behandling av **pulmonal hypertensjon og respirasjonssvikt**.
 TxGNN-modellen predikerer at det kan være effektivt ved **misdannelsessyndrom med odontal og/eller periodontal komponent**.
-Prediksjonen støttes likevel **ikke av noen kliniske studier** og **ikke av noen relevant litteratur** i de data som er samlet inn for denne rapporten. Den høye modellscoren skyldes trolig en artefakt i kunnskapsgrafen.
+Prediksjonen støttes likevel **ikke av noen kliniske studier** og **ikke av noen relevant litteratur** i de data som er samlet inn for denne rapporten. Scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 ---
 
@@ -50,9 +50,10 @@ Prediksjonen støttes likevel **ikke av noen kliniske studier** og **ikke av noe
 |------|------|
 | Opprinnelig indikasjon | Pulmonal hypertensjon; respirasjonssvikt |
 | Predikert ny indikasjon | Misdannelsessyndrom med odontal og/eller periodontal komponent |
-| TxGNN-prediksjonsscore | 99,57 % |
+| TxGNN-prediksjonsscore | 0,9957 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte/trukkede tillatelser |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -62,7 +63,7 @@ Prediksjonen støttes likevel **ikke av noen kliniske studier** og **ikke av noe
 
 Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Nitrogenoksid er kjent som en selektiv pulmonal vasodilator når det gis inhalert. Effekten er godt dokumentert ved pulmonal hypertensjon og respirasjonssvikt, men mekanismen kan ikke knyttes til den predikerte indikasjonen.
 
-Analysen av sammenhengen mellom opprinnelig og ny indikasjon gir ingen plausibel kobling. Litteraturen som ble funnet handler om periodontitt, tannkjøttbetennelse og plantebaserte antiinflammatoriske stoffer i celle- og dyremodeller. Én studie omhandler hvordan den orale mikrobiotaen håndterer nitritt. Ingen av disse viser at inhalert nitrogenoksid har en terapeutisk rolle ved et strukturelt misdannelsessyndrom. Den høye scoren skyldes mest sannsynlig koblinger i kunnskapsgrafen, ikke biologisk eller klinisk støtte.
+Analysen av sammenhengen mellom opprinnelig og ny indikasjon gir ingen plausibel kobling. Litteraturen som ble funnet handler om periodontitt, tannkjøttbetennelse og plantebaserte antiinflammatoriske stoffer i celle- og dyremodeller. Én studie omhandler hvordan den orale mikrobiotaen håndterer nitritt. Ingen av disse viser at inhalert nitrogenoksid har en terapeutisk rolle ved et strukturelt misdannelsessyndrom. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk eller klinisk evidens.
 
 ---
 
@@ -95,7 +96,7 @@ Ingen av publikasjonene undersøker nitrogenoksid som legemiddel ved den predike
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000337 | INOmax (Linde Healthcare AB), status: avregistrert | Ikke oppgitt | Pulmonal hypertensjon; respirasjonssvikt |
+| EMEA/H/C/000337 | INOmax (Linde Healthcare AB), status: godkjent | Ikke oppgitt | Pulmonal hypertensjon; respirasjonssvikt |
 
 ---
 
@@ -116,7 +117,7 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen mangler både kliniske studier og relevant litteratur (evidensnivå L5). En plausibel mekanisme er ikke identifisert, og inhalert nitrogenoksid har ingen kjent rolle ved et misdannelsessyndrom. Den høye modellscoren bør tolkes som en grafbasert artefakt. I tillegg har produktet ingen gyldig tillatelse i Norge.
+Prediksjonen mangler både kliniske studier og relevant litteratur (evidensnivå L5). En plausibel mekanisme er ikke identifisert, og inhalert nitrogenoksid har ingen kjent rolle ved et misdannelsessyndrom. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Produktet er markedsført i Norge, med 1 gyldig tillatelse av 1.
 
 **Andre prediksjoner for samme legemiddel:**
 De data som er samlet inn for rapporten inneholder bedre støttede prediksjoner, men disse ligger tett opp mot den opprinnelige indikasjonen:

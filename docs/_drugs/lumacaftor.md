@@ -48,10 +48,10 @@ Lumacaftor er en CFTR-korrektor som opprinnelig brukes til behandling av cystisk
 |------|------|
 | Opprinnelig indikasjon | Cystisk fibrose |
 | Predikert ny indikasjon | Lepra |
-| TxGNN-prediksjonsscore | 99,44 % |
+| TxGNN-prediksjonsscore | 0,9944 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ikke markedsført) |
-| Antall godkjenninger | 1 (avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -60,7 +60,7 @@ Lumacaftor er en CFTR-korrektor som opprinnelig brukes til behandling av cystisk
 
 Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelig i de innsamlede dataene. Basert på kjent informasjon er lumacaftor en CFTR-korrektor som bedrer foldingen og transporten av F508del-CFTR-proteinet til cellemembranen. Effekten er dokumentert ved cystisk fibrose.
 
-Det finnes ingen etablert mekanistisk kobling mellom CFTR-korreksjon og lepra. Lepra skyldes infeksjon med *Mycobacterium leprae*, og har ingen kjent CFTR-avhengig patofysiologi. Den høye scoren (0,994) er en prediksjon fra kunnskapsgrafen og kan skyldes nettverksnærhet via felles biologiske traséer, for eksempel proteinfolding i verten, kloridtransport eller betennelsesrelaterte og mykobakterie-relaterte koblinger til cystisk fibrose. Dette er spekulativt og ikke støttet av direkte data.
+Det finnes ingen etablert mekanistisk kobling mellom CFTR-korreksjon og lepra. Lepra skyldes infeksjon med *Mycobacterium leprae*, og har ingen kjent CFTR-avhengig patofysiologi. Den høye scoren (0,9944) er en prediksjon fra TxGNN-modellen (dyp læring) og kan skyldes nettverksnærhet via felles biologiske traséer, for eksempel proteinfolding i verten, kloridtransport eller betennelsesrelaterte og mykobakterie-relaterte koblinger til cystisk fibrose. Dette er spekulativt og ikke støttet av direkte data.
 
 ---
 
@@ -82,7 +82,7 @@ Foreløpig finnes det ingen relatert litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/003954 | Orkambi | Ikke oppgitt | Cystisk fibrose |
 
-Merk: Godkjenningen har status avregistrert, og det finnes ingen gyldige godkjenninger i dag.
+Merk: Legemidlet er markedsført, og 1 av 1 godkjenning er gyldig.
 
 ---
 

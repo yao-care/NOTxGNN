@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db00993-granulomatous-disease-chronic-autosomal-recessive-5",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db00993"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "granulomatous disease, chronic, autosomal recessive, 5"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9941
+    }
+  ]
+}

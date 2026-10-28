@@ -50,10 +50,10 @@ Prediksjonen bygger kun på modellen og har ingen dokumentert støtte.
 |------|------|
 | Opprinnelig indikasjon | Lymfom |
 | Foreslått ny indikasjon | Esotropi |
-| TxGNN-prediksjonsscore | 99,73 % |
+| TxGNN-prediksjonsscore | 0,9973 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellert godkjenning |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold (avvent) |
 
 ---
@@ -62,7 +62,7 @@ Prediksjonen bygger kun på modellen og har ingen dokumentert støtte.
 
 Data om virkningsmekanisme var ikke tilgjengelig i de innsamlede dataene. Ut fra allmenn kunnskap er tagraxofusp rettet mot CD123 (IL-3-reseptorens alfa-kjede) og dreper celler som uttrykker denne reseptoren. Legemidlet er i praksis knyttet til hematologiske maligniteter.
 
-Esotropi er en øyemotorisk tilstand (skjeling innover) uten kjent CD123-drevet patologi. Det finnes derfor ingen plausibel mekanistisk kobling mellom den opprinnelige indikasjonen og den foreslåtte nye indikasjonen. Den høye TxGNN-scoren skyldes mest sannsynlig nærhet i kunnskapsgrafen og ikke et biologisk begrunnet forhold.
+Esotropi er en øyemotorisk tilstand (skjeling innover) uten kjent CD123-drevet patologi. Det finnes derfor ingen plausibel mekanistisk kobling mellom den opprinnelige indikasjonen og den foreslåtte nye indikasjonen. Den høye scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 Også de øvrige ni predikerte indikasjonene (blant annet premaligne neoplasmer, indre øre-neoplasmer, godartet tungesvulst, kystiske neoplasmer og thyreoglossal gangcyste) mangler dokumentert CD123-rasjonale og har kun evidensnivå L5. De fleste av dem er godartede tilstander som vanligvis behandles kirurgisk eller lokalt, og en systemisk cytotoksisk behandling med betydelig toksisitet vil gi en ugunstig nytte-risiko-balanse.
 
@@ -86,7 +86,7 @@ Det er for øyeblikket ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/005031 | Elzonris | Ikke oppgitt | Lymfom |
 
-Denne godkjenningen er registrert som kansellert, og det finnes ingen gyldige godkjenninger.
+Denne godkjenningen er gyldig, og legemidlet er markedsført (1 av 1 godkjenninger er gyldige).
 
 ---
 

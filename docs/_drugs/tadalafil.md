@@ -6,9 +6,9 @@ nav_order: 396
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
-description: "Tadalafil: predikert ny indikasjon Ambras-type hypertrichosis universalis congenita (evidensnivå L5). Opprinnelig indikasjon: Erektil dysfunksjon (øvrige: pulmonal hypertensjon…"
 monitor_inn: "TADALAFIL"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
+description: "Tadalafil: predikert ny indikasjon Ambras type hypertrichosis universalis congenita (evidensnivå L5). Opprinnelig indikasjon: Erectile Dysfunction"
 ---
 
 # Tadalafil
@@ -33,13 +33,13 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-## Tadalafil: Fra erektil dysfunksjon og pulmonal hypertensjon til hypertrichosis universalis congenita av Ambras-typen
+## Tadalafil: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
 Tadalafil er en PDE5-hemmer som opprinnelig brukes mot **erektil dysfunksjon** og **pulmonal arteriell hypertensjon**.
-TxGNN-modellen forutsier at legemidlet kan være effektivt mot **Ambras-type hypertrichosis universalis congenita** (score 99,98 %), men det finnes **ingen kliniske studier og ingen publikasjoner** som støtter denne prediksjonen. Den er kun modellbasert.
+TxGNN-modellen forutsier at legemidlet kan være effektivt mot **Ambras-type hypertrichosis universalis congenita** (score 0,9998), men det finnes **ingen kliniske studier og ingen publikasjoner** som støtter denne prediksjonen. Den er kun modellbasert.
 
 ---
 
@@ -47,12 +47,12 @@ TxGNN-modellen forutsier at legemidlet kan være effektivt mot **Ambras-type hyp
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Erektil dysfunksjon (øvrige: pulmonal hypertensjon, pulmonal arteriell hypertensjon) |
-| Predikert ny indikasjon | Ambras-type hypertrichosis universalis congenita |
-| TxGNN-prediksjonsscore | 99,98 % |
+| Opprinnelig indikasjon | Erectile Dysfunction; Hypertension, Pulmonary; Pulmonary Arterial Hypertension |
+| Predikert ny indikasjon | Ambras type hypertrichosis universalis congenita |
+| TxGNN-prediksjonsscore | 0.9998 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun opphevede (avregistrerte) godkjenninger |
-| Antall godkjenninger | 6 (alle opphevet) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 6 av 6) |
+| Antall godkjenninger | 6 (gyldige: 6) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -63,19 +63,19 @@ Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Ta
 
 Ambras syndrom er en sjelden genetisk lidelse med økt hårvekst, knyttet til kromosomale omleiringer som påvirker reguleringen av TRPS1. Det er ikke påvist noen mekanistisk sammenheng med PDE5-hemming. En kobling via hårsekkenes blodforsyning eller cGMP-signalering er spekulativ.
 
-Den høye scoren skyldes trolig nærhet i kunnskapsgrafen. Minoxidil, et vasodilaterende middel som gir hypertrichosis, virker via åpning av kaliumkanaler, altså en annen mekanisme. Hypertrichosis er dessuten vanligvis en bivirkning man vil unngå, ikke et behandlingsmål.
+Minoxidil, et vasodilaterende middel som gir hypertrichosis, virker via åpning av kaliumkanaler, altså en annen mekanisme. Hypertrichosis er dessuten vanligvis en bivirkning man vil unngå, ikke et behandlingsmål.
 
 ### Andre predikerte indikasjoner i datasettet
 
 | Rang | Predikert indikasjon | TxGNN-score | Evidensnivå | Vurdering |
 |------|------|------|------|------|
-| 2 | Hypertrichosis | 99,98 % | L5 | Kun prediksjon, ingen klinisk evidens |
-| 3 | Misdannelsessyndrom med tann-/periodontal komponent | 99,97 % | L5 | Ingen plausibel mekanisme |
-| 4 | Syndrom med Dandy-Walker-malformasjon | 99,97 % | L5 | Ingen plausibel mekanisme |
-| 5 | Isolert genetisk hårskaftavvik | 99,96 % | L5 | Ingen plausibel mekanisme |
-| 6 | Familiær isolert trikomegali | 99,65 % | L5 | Spekulativ, ikke noe terapeutisk behov |
-| 7 | Kyfoskoliotisk hjertesykdom | 99,43 % | L5 | Mest biologisk plausibel: teoretisk rasjonale via pulmonal vasodilatasjon og redusert etterbelastning på høyre ventrikkel (WHO gruppe 3, ikke gruppe 1) |
-| 8 | Migrene med hjernestammeaura | 99,08 % | L4 | Kun en kasuistikk som tyder på utløsning av aura, altså et sikkerhetssignal |
+| 2 | Hypertrichosis | 0,9998 | L5 | Kun prediksjon, ingen klinisk evidens |
+| 3 | Misdannelsessyndrom med tann-/periodontal komponent | 0,9997 | L5 | Ingen plausibel mekanisme |
+| 4 | Syndrom med Dandy-Walker-malformasjon | 0,9997 | L5 | Ingen plausibel mekanisme |
+| 5 | Isolert genetisk hårskaftavvik | 0,9996 | L5 | Ingen plausibel mekanisme |
+| 6 | Familiær isolert trikomegali | 0,9965 | L5 | Spekulativ, ikke noe terapeutisk behov |
+| 7 | Kyfoskoliotisk hjertesykdom | 0,9943 | L5 | Mest biologisk plausibel: teoretisk rasjonale via pulmonal vasodilatasjon og redusert etterbelastning på høyre ventrikkel (WHO gruppe 3, ikke gruppe 1) |
+| 8 | Migrene med hjernestammeaura | 0,9908 | L5 | Kun en kasuistikk som tyder på utløsning av aura, altså et sikkerhetssignal |
 
 ---
 

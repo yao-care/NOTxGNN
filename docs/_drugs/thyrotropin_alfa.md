@@ -4,17 +4,17 @@ title: Thyrotropin Alfa
 parent: Kun modellprediksjon (L5)
 nav_order: 416
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Thyrotropin Alfa: predikert ny indikasjon Migrene (migraine disorder) (evidensnivå L5). Opprinnelig indikasjon: Thyreoideaneoplasmer (skjoldbruskkjertelkreft)"
 monitor_inn: "THYROTROPIN ALFA"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]
 ---
 
 # Thyrotropin Alfa
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 Thyrotropin alfa (rekombinant humant TSH) er opprinnelig godkjent for bruk ved thyreoideaneoplasmer (skjoldbruskkjertelkreft).
 TxGNN-modellen forutsier at legemidlet kan være effektivt mot **migrene**, men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen.
-Prediksjonen bygger kun på en kunnskapsgraf-modell og er ikke støttet av empiriske data.
+Prediksjonen bygger kun på TxGNN-modellen (dyp læring) og er ikke støttet av empiriske data.
 
 ---
 
@@ -50,10 +50,10 @@ Prediksjonen bygger kun på en kunnskapsgraf-modell og er ikke støttet av empir
 |------|------|
 | Opprinnelig indikasjon | Thyreoideaneoplasmer (skjoldbruskkjertelkreft) |
 | Predikert ny indikasjon | Migrene (migraine disorder) |
-| TxGNN-prediksjonsscore | 99,98 % |
+| TxGNN-prediksjonsscore | 0,9998 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake/kansellert |
-| Antall godkjenninger | 1 (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Prediksjonen bygger kun på en kunnskapsgraf-modell og er ikke støttet av empir
 
 Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Basert på kjent informasjon er thyrotropin alfa rekombinant humant TSH, som virker på TSH-reseptorer i skjoldbruskkjertelvev. Legemidlet brukes ved skjoldbruskkjertelkreft til å stimulere opptak av radiojod og tyreoglobulinfrigjøring.
 
-Det er ingen etablert mekanistisk kobling til migrenepatofysiologi (CGRP, kortikal spredningsdepresjon, trigeminovaskulær aktivering). Den høye scoren (0,9998) gjenspeiler trolig nærhet i kunnskapsgrafen via skjoldbruskkjertel-/endokrine og vaskulære baner, og ikke en validert biologisk sammenheng.
+Det er ingen etablert mekanistisk kobling til migrenepatofysiologi (CGRP, kortikal spredningsdepresjon, trigeminovaskulær aktivering). Den høye scoren (0,9998) kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 Også de øvrige predikerte indikasjonene i topp 10 mangler støtte:
 - **Migrene med hjernestammeaura** og **migrene med eller uten aura, mottakelighet for**: sannsynligvis samme grafeffekt som for migrene. Sistnevnte er en genetisk mottakelighetsnode, ikke en behandlingsbar klinisk tilstand.
@@ -117,7 +117,7 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon, inkludert advarsler og kont
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for migrene støttes kun av en kunnskapsgraf-score (evidensnivå L5), uten kliniske studier, litteratur eller en plausibel mekanisme. I tillegg er det eneste norske markedsføringstillatelsen kansellert.
+Prediksjonen for migrene støttes kun av en score fra TxGNN-modellen (dyp læring) (evidensnivå L5), uten kliniske studier, litteratur eller en plausibel mekanisme. Legemidlet er markedsført i Norge, med 1 gyldig markedsføringstillatelse av 1.
 
 **For å gå videre kreves følgende:**
 - Detaljerte data om virkningsmekanisme (MOA)

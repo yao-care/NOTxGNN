@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pegaspargase
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 314
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Pegaspargase: predikert ny indikasjon Prekursor-lymfoblastisk lymfom/leukemi (tilsvarer godkjent indikasjon) (evidensnivå L1). Opprinnelig indikasjon: Prekursor-lymfoblastisk leukemi/lymfom"
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
+description: "Pegaspargase: predikert ny indikasjon Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (evidensnivå L5). Opprinnelig indikasjon: Precursor Cell Lymphoblastic Leukemia-Lympho…"
 ---
 
 # Pegaspargase
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Pegaspargase: Fra prekursor-lymfoblastisk leukemi/lymfom til prekursor-lymfoblastisk lymfom/leukemi (samme sykdom, annen ontologiterm)
+## Pegaspargase: Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma
 {: .text-alpha }
 
 ## Enkel oppsummering
@@ -46,12 +46,12 @@ Pegaspargase er en pegylert form av enzymet L-asparaginase og brukes mot **preku
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Prekursor-lymfoblastisk leukemi/lymfom |
-| Predikert ny indikasjon | Prekursor-lymfoblastisk lymfom/leukemi (tilsvarer godkjent indikasjon) |
-| TxGNN-prediksjonsscore | 99,96 % |
-| Evidensnivå | L1 |
-| Status på det norske markedet | Kun avregistrert |
-| Antall godkjenninger | 1 (avregistrert) |
+| Opprinnelig indikasjon | Precursor Cell Lymphoblastic Leukemia-Lymphoma |
+| Predikert ny indikasjon | Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma |
+| TxGNN-prediksjonsscore | 0.9995 |
+| Evidensnivå | L5 |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Gå videre med sikkerhetstiltak (Proceed with Guardrails) |
 
 ---
@@ -104,7 +104,7 @@ Under er et utvalg av de mest relevante av de 31 studiene. De fleste tester regi
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/003789 | Oncaspar | Ikke oppgitt | Prekursor-lymfoblastisk leukemi/lymfom (status: avregistrert) |
+| EMEA/H/C/003789 | Oncaspar | Ikke oppgitt | Prekursor-lymfoblastisk leukemi/lymfom (status: godkjent) |
 
 Merk: Markedsstatusen "kun avregistrert" bør kontrolleres med tanke på tilgjengelighet i regionen.
 
@@ -163,13 +163,11 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
 | Predikert indikasjon | Score | Evidensnivå | Anbefaling | Kommentar |
 |------|------|------|------|------|
-| Akutt lymfoblastisk leukemi | 99,89 % | L1 | Gå videre med sikkerhetstiltak | Samme sykdom som godkjent indikasjon; bør slås sammen med hovedposten |
-| Lymfoid neoplasme | 99,71 % | L1 | Gå videre med sikkerhetstiltak | Bred kategori, i hovedsak ALL/LBL; svakere evidens for andre lymfoide neoplasmer, krever subtypevurdering |
-| Hodgkin-lymfom | 99,71 % | L3 | Forskningsspørsmål | Koblede studier gjelder ALL; litteraturen gjelder i hovedsak ekstranodalt NK/T-cellelymfom, ikke Hodgkin. NK/T-cellelymfom kan vurderes som egen indikasjon |
-| Blastfase kronisk myelogen leukemi, BCR-ABL1-positiv | 99,61 % | L2 | Forskningsspørsmål | Kun indirekte evidens via en ALL-studie |
-| Kronisk lymfatisk leukemi/småcellet lymfocytært lymfom (inkl. to molekylære subtyper) | 99,68 % / 99,95 % | L5 | Vent (Hold) | Kun modellprediksjon, ingen studier eller litteratur |
-| Follikulært lymfom | 99,90 % | L5 | Vent (Hold) | Kun modellprediksjon, ingen begrunnelse via asparaginavhengighet |
-| Metylkobalamin-mangel type cblE | 99,74 % | L5 | Vent (Hold) | Sannsynlig modellartefakt uten plausibel mekanisme; bør ikke forfølges |
+| Lymfoid neoplasme | 0,9971 | L1 | Gå videre med sikkerhetstiltak | Bred kategori, i hovedsak ALL/LBL; svakere evidens for andre lymfoide neoplasmer, krever subtypevurdering |
+| Hodgkin-lymfom | 0,9971 | L3 | Forskningsspørsmål | Koblede studier gjelder ALL; litteraturen gjelder i hovedsak ekstranodalt NK/T-cellelymfom, ikke Hodgkin. NK/T-cellelymfom kan vurderes som egen indikasjon |
+| Blastfase kronisk myelogen leukemi, BCR-ABL1-positiv | 0,9961 | L5 | Forskningsspørsmål | Kun indirekte evidens via en ALL-studie |
+| Follikulært lymfom | 0,9990 | L5 | Vent (Hold) | Kun modellprediksjon, ingen begrunnelse via asparaginavhengighet |
+| Metylkobalamin-mangel type cblE | 0,9974 | L5 | Vent (Hold) | Sannsynlig modellartefakt uten plausibel mekanisme; bør ikke forfølges |
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

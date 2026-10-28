@@ -50,10 +50,10 @@ Foreløpig finnes det **ingen kliniske studier og ingen publikasjoner** i de sam
 |------|------|
 | Opprinnelig indikasjon | Prosedyresedasjon (conscious sedation) |
 | Predikert ny indikasjon | Insomni |
-| TxGNN-prediksjonsscore | 99,91 % |
+| TxGNN-prediksjonsscore | 0,9991 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 1 (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold (avvent) |
 
 ---
@@ -64,9 +64,9 @@ Remimazolam er et benzodiazepin med ultrakort virketid. Det virker som positiv a
 
 Siden virkningen er den samme som hos etablerte benzodiazepiner mot søvnløshet, er en sedativ-hypnotisk effekt biologisk plausibel. Både sedasjon og insomnibehandling handler om å øke hemmende GABA-aktivitet i sentralnervesystemet.
 
-Det er likevel viktige begrensninger. Den svært korte halveringstiden (rask nedbrytning via esteraser) og at legemidlet kun gis intravenøst i prosedyremessige settinger, gjør det dårlig egnet til å opprettholde søvn. Den høye scoren (0,999) gjenspeiler trolig likhet med andre GABA-A-modulatorer på klassenivå, ikke legemiddelspesifikk evidens.
+Det er likevel viktige begrensninger. Den svært korte halveringstiden (rask nedbrytning via esteraser) og at legemidlet kun gis intravenøst i prosedyremessige settinger, gjør det dårlig egnet til å opprettholde søvn. Den høye scoren (0,9991) gjenspeiler trolig likhet med andre GABA-A-modulatorer på klassenivå, ikke legemiddelspesifikk evidens.
 
-**Sekundær prediksjon: delirium ved alkoholabstinens (score 99,30 %).** Benzodiazepiner er standardbehandling ved alkoholabstinens fordi GABA-A-potensiering motvirker tapet av hemmende tonus. Rask innsettende og avtagende effekt kan gi presis titrering på intensivavdeling, men den korte virketiden kan gi rebound-symptomer uten kontinuerlig infusjon. Dosering ved benzodiazepinresistent delirium tremens er uavklart. Også her er det kun et beregnet signal, ikke klinisk evidens.
+**Sekundær prediksjon: delirium ved alkoholabstinens (score 0,9930).** Benzodiazepiner er standardbehandling ved alkoholabstinens fordi GABA-A-potensiering motvirker tapet av hemmende tonus. Rask innsettende og avtagende effekt kan gi presis titrering på intensivavdeling, men den korte virketiden kan gi rebound-symptomer uten kontinuerlig infusjon. Dosering ved benzodiazepinresistent delirium tremens er uavklart. Også her er det kun et beregnet signal, ikke klinisk evidens.
 
 ---
 
@@ -88,7 +88,7 @@ Foreløpig er det ingen relevant litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/005246 | Byfavo | Ikke oppgitt | Conscious sedation (status: kansellert) |
 
-Det finnes ingen gyldige godkjenninger i Norge for øyeblikket.
+Legemidlet er markedsført i Norge, med 1 gyldig godkjenning av 1.
 
 ---
 
@@ -108,7 +108,7 @@ Pakningsvedlegg med advarsler og kontraindikasjoner er ikke tilgjengelig i de sa
 **Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Prediksjonene bygger kun på modellscore og klassebasert mekanismelikhet (evidensnivå L5), uten kliniske studier eller litteratur. I tillegg er legemidlets formulering (kun intravenøs) og ultrakorte virketid dårlig tilpasset kronisk søvnbehandling, og Norge har ingen gyldig godkjenning.
+Prediksjonene bygger kun på modellscore og klassebasert mekanismelikhet (evidensnivå L5), uten kliniske studier eller litteratur. I tillegg er legemidlets formulering (kun intravenøs) og ultrakorte virketid dårlig tilpasset kronisk søvnbehandling.
 
 **For å gå videre kreves følgende:**
 - Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel som må løses før sikkerhetsvurdering)

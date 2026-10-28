@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Treprostinil
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 436
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Treprostinil: predikert ny indikasjon Pulmonal arteriell hypertensjon assosiert med medfødt hjertesykdom (evidensnivå L3). Opprinnelig indikasjon: Pulmonal hypertensjon"
+evidence_level: L5
+indication_count: 5
+last_modified_at: 2026-10-28
 monitor_inn: "Treprostinil"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita"]
+description: "Treprostinil: predikert ny indikasjon Pulmonary arteriovenous malformation (disease) (evidensnivå L5). Opprinnelig indikasjon: Hypertension, Pulmonary"
 ---
 
 # Treprostinil
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Treprostinil: Fra pulmonal hypertensjon til pulmonal arteriell hypertensjon assosiert med medfødt hjertesykdom
+## Treprostinil: Pulmonary arteriovenous malformation (disease)
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -48,12 +48,12 @@ Dette støttes foreløpig av **19 publikasjoner** (hovedsakelig små kohortstudi
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Pulmonal hypertensjon |
-| Predikert ny indikasjon | Pulmonal arteriell hypertensjon assosiert med medfødt hjertesykdom |
-| TxGNN-prediksjonsscore | 99,60 % |
-| Evidensnivå | L3 |
-| Status på det norske markedet | Kun avregistrert (kansellert) |
-| Antall godkjenninger | 1 (0 gyldige, 1 kansellert) |
+| Opprinnelig indikasjon | Hypertension, Pulmonary |
+| Predikert ny indikasjon | Pulmonary arteriovenous malformation (disease) |
+| TxGNN-prediksjonsscore | 0.9970 |
+| Evidensnivå | L5 |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forholdsregler) |
 
 > Merk: Rangering 1 i prediksjonslisten (pulmonal arteriovenøs malformasjon) har kun modellstøtte (L5, Hold). Rapporten fokuserer på PAH-CHD, som har sterkest evidens og tydeligst mekanistisk sammenheng.
@@ -128,9 +128,6 @@ PAH-CHD er en undergruppe av den godkjente indikasjonen (PAH), og mekanismen pas
 ---
 
 **Andre prediksjoner (kort oversikt):**
-- **PAH assosiert med bindevevssykdom** (score 99,55 %, L3, Proceed with Guardrails): støttet av treprostinilstudier, blant annet en dobbeltblind placebokontrollert studie (PMID 11897647) og en studie hos pasienter med bindevevssykdom (PMID 15302727), samt en systematisk oversikt fra 2024 (PMID 38378970).
-- **PAH assosiert med HIV** (99,55 %, L4): kun generelle oversikter, ingen HIV-spesifikke data.
-- **PAH assosiert med schistosomiasis og kronisk hemolytisk anemi** (99,55 %, L5, Hold): ingen evidens i datagrunnlaget.
 - **Pulmonal arteriovenøs malformasjon, hypotrikose, medfødt hypotrikose milia, misdannelsessyndrom med tann-/periodontal komponent og Ambras hypertrikose** (L5, Hold): ingen støtte eller plausibel mekanisme; trolig grafartefakter.
 ## Ansvarsfraskrivelse
 

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Mometasone
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 275
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Mometasone: predikert ny indikasjon Primært kutant T-cellelymfom (evidensnivå L4). Opprinnelig indikasjon: Astma"
@@ -14,7 +14,7 @@ predicted_indications: ["primary cutaneous T-cell lymphoma"]
 # Mometasone
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **1** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ men det finnes foreløpig **ingen registrerte kliniske studier** og bare **2 kas
 |------|------|
 | Opprinnelig indikasjon | Astma |
 | Predikert ny indikasjon | Primært kutant T-cellelymfom |
-| TxGNN-prediksjonsscore | 99,36 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun tilbaketrukne/opphevede godkjenninger |
-| Antall godkjenninger | 1 (opphevet) |
+| TxGNN-prediksjonsscore | 0,9936 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datamat
 
 Astma og kutant T-cellelymfom er ulike sykdommer, men begge involverer T-celle-drevne inflammatoriske prosesser. Topikale kortikosteroider er en etablert hudrettet behandling ved tidlig mycosis fungoides, den vanligste formen for kutant T-cellelymfom. Det finnes dermed en plausibel mekanistisk kobling.
 
-Den høye prediksjonsscoren (0,994) er imidlertid ren modellprediksjon og er ikke støttet av studiedata i det kompilerte materialet. Det er også uklart om dagens godkjente formulering (inhalasjon) er egnet for hudbehandling, siden ruteforenlighet ikke er vurdert.
+Den høye prediksjonsscoren (0,9936) er imidlertid ren modellprediksjon og er ikke støttet av studiedata i det kompilerte materialet. Det er også uklart om dagens godkjente formulering (inhalasjon) er egnet for hudbehandling, siden ruteforenlighet ikke er vurdert.
 
 ---
 
@@ -91,7 +91,7 @@ Merk: Ingen av publikasjonene viser at mometason er effektivt mot kutant T-celle
 |---------|------|------|-----------|
 | EMEA/H/C/005061 | Enerzair Breezhaler | Ikke oppgitt | Astma |
 
-Godkjenningen er opphevet, og det finnes ingen gyldige godkjenninger for mometason i datamaterialet.
+Legemidlet er markedsført, og 1 av 1 godkjenning er gyldig for mometason i datamaterialet.
 
 ---
 

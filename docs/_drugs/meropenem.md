@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Meropenem
-parent: Kun modellprediksjon (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 264
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Meropenem: predikert ny indikasjon Bakteriell artritt (evidensnivå L5). Opprinnelig indikasjon: Urinveisinfeksjoner, bakteriemi, bakterielle infeksjoner…"
 monitor_inn: "Meropenem"
@@ -14,7 +14,7 @@ predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus a
 # Meropenem
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,10 @@ Blant de ti predikerte indikasjonene har **urinveisinfeksjon** klart sterkest ev
 |------|------|
 | Opprinnelig indikasjon | Urinveisinfeksjoner, bakteriemi, bakterielle infeksjoner, luftveisinfeksjoner, lungebetennelse, ventilatorassosiert lungebetennelse |
 | Predikert ny indikasjon (rangert først) | Bakteriell artritt |
-| TxGNN-prediksjonsscore | 99,92 % |
+| TxGNN-prediksjonsscore | 0,9992 |
 | Evidensnivå | L4 (bakteriell artritt). Merk: urinveisinfeksjon har L1, men er en eksisterende indikasjon |
-| Status på det norske markedet | Kun kansellert |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall autorisasjoner | 1 (kansellert) |
 | Anbefalt beslutning | Hold (vent) |
 
@@ -74,7 +75,6 @@ Blant de øvrige prediksjonene er mekanismen plausibel for epiglottitt, *Staphyl
 
 Currently no related clinical trials registered. (Ingen relaterte kliniske studier er registrert.)
 
-### Urinveisinfeksjon (sterkest evidens blant prediksjonene, men eksisterende indikasjon)
 
 | Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
@@ -137,7 +137,7 @@ For peptostreptokokkinfeksjon, *Ureaplasma*-uretritt og gonokokkuretritt ble ing
 |---------|------|------|-----------|
 | EMEA/H/C/004669 | Vaborem | Ikke oppgitt | Urinveisinfeksjoner, bakteriemi, bakterielle infeksjoner, luftveisinfeksjoner, lungebetennelse, ventilatorassosiert lungebetennelse |
 
-Autorisasjonen er kansellert, og det finnes ingen gyldige autorisasjoner for meropenem i de innsamlede dataene.
+Legemidlet er markedsført, og det finnes 1 gyldig autorisasjon av 1 for meropenem i de innsamlede dataene.
 
 ---
 

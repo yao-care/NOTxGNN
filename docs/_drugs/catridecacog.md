@@ -49,9 +49,10 @@ TxGNN-modellen predikerer at det kan ha effekt ved **primær frigjøringsforstyr
 |------|------|
 | Opprinnelig indikasjon | Arvelige koagulasjonsforstyrrelser (Blood Coagulation Disorders, Inherited) |
 | Predikert ny indikasjon | Primær frigjøringsforstyrrelse i blodplater |
-| TxGNN-prediksjonsscore | 99,29 % |
+| TxGNN-prediksjonsscore | 0,9929 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -64,8 +65,8 @@ Detaljerte data om virkningsmekanisme er ikke tilgjengelige i dataene som er sam
 Primære frigjøringsforstyrrelser i blodplater skyldes imidlertid oppstrøms avvik i granula eller signalveier, som FXIII ikke korrigerer. Koblingen mellom original og ny indikasjon er derfor spekulativ og hviler utelukkende på modellens prediksjonsscore.
 
 Tilsvarende vurderinger gjelder for de to andre predikerte indikasjonene:
-- **Pseudo-von Willebrands sykdom (score 99,29 %)**: Skyldes en gain-of-function-defekt i blodplatenes GPIbα med økt VWF-binding og tap av høymolekylære multimerer. FXIII-erstatning adresserer ikke denne primære defekten, og en eventuell effekt ville begrenses til uspesifikk styrking av fibrinproppen.
-- **Glanzmanns trombastheni (score 99,15 %)**: Skyldes mangel på eller dysfunksjon av integrin αIIbβ3 (GPIIb/IIIa), som hindrer blodplateaggregasjon. FXIII-erstatning vil neppe rette opp hovedproblemet. Standardbehandling er blodplatetransfusjon og rekombinant FVIIa.
+- **Pseudo-von Willebrands sykdom (score 0,9929)**: Skyldes en gain-of-function-defekt i blodplatenes GPIbα med økt VWF-binding og tap av høymolekylære multimerer. FXIII-erstatning adresserer ikke denne primære defekten, og en eventuell effekt ville begrenses til uspesifikk styrking av fibrinproppen.
+- **Glanzmanns trombastheni (score 0,9915)**: Skyldes mangel på eller dysfunksjon av integrin αIIbβ3 (GPIIb/IIIa), som hindrer blodplateaggregasjon. FXIII-erstatning vil neppe rette opp hovedproblemet. Standardbehandling er blodplatetransfusjon og rekombinant FVIIa.
 
 ---
 
@@ -87,7 +88,7 @@ Foreløpig finnes det ingen relevant litteratur i de sammenstilte dataene.
 |---------|------|------|-----------|
 | EMEA/H/C/002284 | NovoThirteen | Ikke oppgitt | Arvelige koagulasjonsforstyrrelser (Blood Coagulation Disorders, Inherited) |
 
-Tillatelsen (Novo Nordisk A/S) er avregistrert, og det finnes ingen gyldige tillatelser. Dette begrenser den praktiske tilgjengeligheten betydelig.
+Legemidlet er markedsført, og den ene tillatelsen (Novo Nordisk A/S) er gyldig (1 gyldig tillatelse av 1).
 
 ---
 

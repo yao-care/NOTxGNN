@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at det kan være effektivt mot **legemiddelindusert os
 |------|------|
 | Opprinnelig indikasjon | Brystkreft; trippelnegativ brystkreft |
 | Predikert ny indikasjon | Legemiddelindusert osteoporose |
-| TxGNN-prediksjonsscore | 99,78 % |
+| TxGNN-prediksjonsscore | 0,9978 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellert |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold (avvent) |
 
 ---
@@ -61,17 +61,17 @@ TxGNN-modellen predikerer at det kan være effektivt mot **legemiddelindusert os
 
 Data om virkningsmekanisme er ikke tilgjengelig i datagrunnlaget for denne rapporten. Det er kjent at sacituzumab govitecan er et Trop-2-rettet antistoff-legemiddelkonjugat med SN-38 som cytotoksisk last, og at effekten ved trippelnegativ brystkreft er etablert.
 
-Datagrunnlaget gir ingen støtte for en mekanistisk kobling til benmetabolisme. Den høye TxGNN-scoren (0,998) er en ren grafbasert prediksjon. Cytotoksiske legemidler er generelt oftere forbundet med benmargstoksisitet enn med beskyttende effekt på skjelettet. Det er heller ingen likhet mellom den opprinnelige indikasjonen (kreft) og den predikerte indikasjonen (osteoporose) som kan forklare prediksjonen.
+Datagrunnlaget gir ingen støtte for en mekanistisk kobling til benmetabolisme. Den høye TxGNN-scoren (0,9978) er en ren grafbasert prediksjon. Cytotoksiske legemidler er generelt oftere forbundet med benmargstoksisitet enn med beskyttende effekt på skjelettet. Det er heller ingen likhet mellom den opprinnelige indikasjonen (kreft) og den predikerte indikasjonen (osteoporose) som kan forklare prediksjonen.
 
 ### Andre predikerte indikasjoner (alle uten støtte)
 
 | Rangering | Predikert indikasjon | TxGNN-score | Evidensnivå | Anbefaling |
 |------|------|------|------|------|
-| 2 | Alvorlig ikke-proliferativ diabetisk retinopati | 99,69 % | L5 | Hold |
-| 3 | Diabetisk retinopati | 99,60 % | L5 | Hold |
-| 4 | Diabetisk katarakt | 99,12 % | L5 | Hold |
+| 2 | Alvorlig ikke-proliferativ diabetisk retinopati | 0,9969 | L5 | Hold |
+| 3 | Diabetisk retinopati | 0,9960 | L5 | Hold |
+| 4 | Diabetisk katarakt | 0,9912 | L5 | Hold |
 
-Disse prediksjonene mangler både kliniske studier og litteratur. De ser ut til å skyldes nærhet i kunnskapsgrafen snarere enn biologi. Systemisk cytotoksisk behandling er ikke en rimelig kandidat for disse tilstandene uten en tydelig mekanistisk begrunnelse, og tryggere godkjente alternativer finnes (f.eks. anti-VEGF, laser, fenofibrat for retinopati; kirurgi for katarakt).
+Disse prediksjonene mangler både kliniske studier og litteratur. Scorene kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Systemisk cytotoksisk behandling er ikke en rimelig kandidat for disse tilstandene uten en tydelig mekanistisk begrunnelse, og tryggere godkjente alternativer finnes (f.eks. anti-VEGF, laser, fenofibrat for retinopati; kirurgi for katarakt).
 
 ---
 
@@ -93,7 +93,7 @@ Foreløpig ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/005182 | Trodelvy | – | Brystkreft; trippelnegativ brystkreft |
 
-Godkjenningen har status kansellert, og det finnes ingen gyldige godkjenninger.
+Legemidlet er markedsført, og 1 av 1 godkjenning er gyldig.
 
 ---
 

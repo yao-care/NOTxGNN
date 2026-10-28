@@ -48,9 +48,10 @@ det finnes **0 kliniske studier** og **0 publikasjoner** i de innsamlede dataene
 |------|------|
 | Opprinnelig indikasjon | Spinal muskelatrofi |
 | Predikert ny indikasjon | Akne |
-| TxGNN-prediksjonsscore | 99,45 % |
+| TxGNN-prediksjonsscore | 0,9945 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 |
 | Anbefalt beslutning | Hold |
 
@@ -58,7 +59,7 @@ det finnes **0 kliniske studier** og **0 publikasjoner** i de innsamlede dataene
 
 Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelig i datagrunnlaget. Risdiplam er kjent som en SMN2-spleisingsmodulator, godkjent for spinal muskelatrofi. Dette er imidlertid bakgrunnskunnskap og ikke en del av de innsamlede dataene, og bør verifiseres.
 
-Den eneste støtten for akne er en høy score fra TxGNN-kunnskapsgrafen (0,9945). Dette er en beregnet prediksjon og ikke klinisk eller eksperimentell evidens. Det er ikke dokumentert noen plausibel mekanistisk sammenheng mellom risdiplam og akne (for eksempel talgproduksjon, kolonisering med *C. acnes*, follikulær hyperkeratinisering eller betennelse). En eventuell kobling, for eksempel via modulering av alternativ spleising som påvirker andre gener, er spekulativ.
+Den eneste støtten for akne er en høy score fra TxGNN-modellen (deep learning) (0,9945). Scoren kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, og er ikke biologisk evidens. Dette er en beregnet prediksjon og ikke klinisk eller eksperimentell evidens. Det er ikke dokumentert noen plausibel mekanistisk sammenheng mellom risdiplam og akne (for eksempel talgproduksjon, kolonisering med *C. acnes*, follikulær hyperkeratinisering eller betennelse). En eventuell kobling, for eksempel via modulering av alternativ spleising som påvirker andre gener, er spekulativ.
 
 Det bør også bemerkes at prekliniske sikkerhetsstudier av risdiplam har rapportert effekter på hud og epitelvev, og at hudrelaterte bivirkninger er beskrevet. Legemidlet kan derfor være assosiert med hudfunn snarere enn åpenbart terapeutiske effekter. Også dette er bakgrunnskunnskap utenfor datagrunnlaget og må verifiseres.
 
@@ -76,7 +77,7 @@ Det foreligger for tiden ingen relevant litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/005145 | Evrysdi | – | Spinal muskelatrofi |
 
-Merk: Den eneste registrerte tillatelsen har status avregistrert, og det finnes ingen gyldige tillatelser for tiden.
+Merk: Legemidlet er markedsført, og den eneste registrerte tillatelsen (1 av 1) er gyldig.
 
 ## Sikkerhetsvurderinger
 

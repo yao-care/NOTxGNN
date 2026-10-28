@@ -6,7 +6,7 @@ nav_order: 356
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Reslizumab: predikert ny indikasjon Trombocytopeni på grunn av immunmediert destruksjon (evidensnivå L5). Opprinnelig indikasjon: Astma"
+description: "Reslizumab: predikert ny indikasjon immunmediert trombocytopeni (evidensnivå L5). Opprinnelig indikasjon: Astma"
 monitor_inn: "RESLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets"]
 ---
@@ -50,10 +50,10 @@ men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** som stø
 |------|------|
 | Opprinnelig indikasjon | Astma |
 | Foreslått ny indikasjon | Trombocytopeni på grunn av immunmediert destruksjon |
-| TxGNN-prediksjonsscore | 99,53 % |
+| TxGNN-prediksjonsscore | 0,9953 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert/trukket tilbake (ingen gyldige godkjenninger) |
-| Antall godkjenninger | 1 (avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** som stø
 
 Reslizumab er et anti-IL-5-antistoff som reduserer eosinofilenes overlevelse og aktivering. Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget, så den mekanistiske sammenhengen kan ikke etterprøves.
 
-Det er ikke etablert noen kjent kobling mellom IL-5-blokade og immunmediert trombocytopeni. Et spekulativt resonnement er at enkelte autoimmune cytopenier kan ha en immunregulatorisk komponent med Th2-/eosinofilaktivitet, men dette er ikke støttet av kliniske data eller litteratur. Den høye TxGNN-scoren (0,995) er kun en beregningsbasert prediksjon.
+Det er ikke etablert noen kjent kobling mellom IL-5-blokade og immunmediert trombocytopeni. Et spekulativt resonnement er at enkelte autoimmune cytopenier kan ha en immunregulatorisk komponent med Th2-/eosinofilaktivitet, men dette er ikke støttet av kliniske data eller litteratur. Den høye TxGNN-scoren (0,9953) er kun en beregningsbasert prediksjon.
 
 ---
 
@@ -84,7 +84,7 @@ Foreløpig er det ingen relatert litteratur tilgjengelig for denne indikasjonen.
 |---------|------|------|-----------|
 | EMEA/H/C/003912 | Cinqaero | – | Astma |
 
-Merk: Denne godkjenningen er avregistrert, og det finnes ingen gyldige markedsføringstillatelser.
+Merk: Legemidlet er markedsført, og 1 av 1 markedsføringstillatelser er gyldig.
 
 ---
 
@@ -111,7 +111,7 @@ Prediksjonen bygger kun på en beregningsmodell uten støtte fra kliniske studie
 
 ## Tilleggsprediksjon: Primær frigjøringsforstyrrelse av blodplater
 
-TxGNN rangerer også **primær frigjøringsforstyrrelse av blodplater** (score 99,25 %, evidensnivå L5, beslutning **Hold**). Den eneste tilgjengelige referansen er en oversiktsartikkel om hypereosinofilt syndrom, inkludert mepolizumab:
+TxGNN rangerer også **primær frigjøringsforstyrrelse av blodplater** (score 0,9925, evidensnivå L5, beslutning **Hold**). Den eneste tilgjengelige referansen er en oversiktsartikkel om hypereosinofilt syndrom, inkludert mepolizumab:
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|

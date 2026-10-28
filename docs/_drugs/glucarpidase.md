@@ -38,7 +38,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 ## Oppsummering
 
-Glukarpidase er et enzym som opprinnelig brukes for å behandle metabolske bivirkninger av legemidler og stoffer, i praksis toksiske metotreksatnivåer. TxGNN-modellen forutsier at det kan ha effekt mot **diabetisk katarakt**, men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Den høye prediksjonsscoren skyldes trolig en artefakt i kunnskapsgrafen, ikke biologisk sannsynlighet.
+Glukarpidase er et enzym som opprinnelig brukes for å behandle metabolske bivirkninger av legemidler og stoffer, i praksis toksiske metotreksatnivåer. TxGNN-modellen (deep learning) forutsier at det kan ha effekt mot **diabetisk katarakt**, men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Den høye prediksjonsscoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 ---
 
@@ -48,10 +48,10 @@ Glukarpidase er et enzym som opprinnelig brukes for å behandle metabolske bivir
 |------|------|
 | Opprinnelig indikasjon | Metabolske bivirkninger av legemidler og stoffer |
 | Predikert ny indikasjon | Diabetisk katarakt |
-| TxGNN-prediksjonsscore | 99,85 % |
+| TxGNN-prediksjonsscore | 0,9985 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun opphevede godkjenninger |
-| Antall godkjenninger | 1 (opphevet) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -62,21 +62,21 @@ Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Ut
 
 Det er ikke funnet noen troverdig mekanistisk kobling til diabetisk katarakt. Glukarpidase påvirker ikke polyolveien, aldosereduktase eller glykering av linseproteiner. Som et stort protein (ca. 83 kDa dimer) gitt intravenøst er det lite praktisk å nå linsen. Den høye scoren skyldes trolig grafnærhet til den opprinnelige betegnelsen «metabolske bivirkninger», ikke biologisk plausibilitet.
 
-Andre topprangerte prediksjoner (alle med score 99,8 % og evidensnivå L5) gjelder i hovedsak ulike katarakttyper og diabetisk retinopati:
+Andre topprangerte prediksjoner (alle med score fra 0,9982 til 0,9984 og evidensnivå L5) gjelder i hovedsak ulike katarakttyper og diabetisk retinopati:
 
 | Rang | Predikert indikasjon | Score |
 |------|------|------|
-| 2 | Diabetisk retinopati | 99,84 % |
-| 3 | Kraniostenose-katarakt | 99,83 % |
-| 4 | Tetanisk katarakt | 99,83 % |
-| 5 | Katarakt ved diabetes mellitus type 2 | 99,83 % |
-| 6 | Umoden katarakt | 99,83 % |
-| 7 | Moden katarakt | 99,83 % |
-| 8 | Nukleær senil katarakt | 99,83 % |
-| 9 | Kortikal katarakt | 99,83 % |
-| 10 | Senil katarakt | 99,82 % |
+| 2 | Diabetisk retinopati | 0,9984 |
+| 3 | Kraniostenose-katarakt | 0,9983 |
+| 4 | Tetanisk katarakt | 0,9983 |
+| 5 | Katarakt ved diabetes mellitus type 2 | 0,9983 |
+| 6 | Umoden katarakt | 0,9983 |
+| 7 | Moden katarakt | 0,9983 |
+| 8 | Nukleær senil katarakt | 0,9983 |
+| 9 | Kortikal katarakt | 0,9983 |
+| 10 | Senil katarakt | 0,9982 |
 
-For ingen av disse er det identifisert en mekanistisk begrunnelse. Mønsteret tyder på at prediksjonene stammer fra delte «katarakt»-noder i kunnskapsgrafen.
+For ingen av disse er det identifisert en mekanistisk begrunnelse. Scorene kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 ---
 
@@ -98,7 +98,7 @@ Det er for øyeblikket ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/005467 | Voraxaze | – | Metabolske bivirkninger av legemidler og stoffer |
 
-Denne godkjenningen er opphevet, og det finnes ingen gyldige godkjenninger i Norge.
+Denne godkjenningen er gyldig, og legemidlet er markedsført i Norge (1 gyldig godkjenning av 1).
 
 ---
 
@@ -124,7 +124,7 @@ Det er ikke tilgjengelig data om advarsler og kontraindikasjoner. Se preparatomt
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier, litteratur eller troverdig mekanistisk kobling. Systemisk enzymbehandling gitt intravenøst er dessuten dårlig egnet for å nå linsen eller netthinnen. Legemidlet har i tillegg ingen gyldig godkjenning i Norge.
+Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier, litteratur eller troverdig mekanistisk kobling. Systemisk enzymbehandling gitt intravenøst er dessuten dårlig egnet for å nå linsen eller netthinnen. Legemidlet er markedsført i Norge (1 gyldig godkjenning av 1).
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

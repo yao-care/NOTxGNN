@@ -4,17 +4,17 @@ title: Valsartan
 parent: Moderat evidens (L3-L4)
 nav_order: 443
 evidence_level: L4
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Valsartan: predikert ny indikasjon Malign hypertensiv nyresykdom (evidensnivå L4). Opprinnelig indikasjon: Hypertensjon"
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
+description: "Valsartan: predikert ny indikasjon Malign hypertensiv nyresykdom (malignant hypertensive renal disease) (evidensnivå L4). Opprinnelig indikasjon: Hypertension"
 ---
 
 # Valsartan
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **7** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-## Valsartan: Fra hypertensjon og hjertesvikt til malign hypertensiv nyresykdom
+## Valsartan: Malign hypertensiv nyresykdom (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -48,12 +48,12 @@ Det finnes foreløpig **ingen kliniske studier** og bare **1 indirekte publikasj
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Hypertensjon |
-| Predikert ny indikasjon | Malign hypertensiv nyresykdom |
-| TxGNN-prediksjonsscore | 99,97 % |
+| Opprinnelig indikasjon | Hypertension; Heart Failure |
+| Predikert ny indikasjon | Malign hypertensiv nyresykdom (malignant hypertensive renal disease) |
+| TxGNN-prediksjonsscore | 0.9997 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun opphevede (avregistrerte) godkjenninger |
-| Antall godkjenninger | 9 (alle opphevet) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 9 av 9) |
+| Antall godkjenninger | 9 (gyldige: 9) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -70,12 +70,12 @@ Det er viktig å merke seg at dette er en sterk datamaskinbasert prediksjon, men
 
 | Predikert indikasjon | Score | Evidensnivå | Kommentar |
 |------|------|------|------|
-| Malign renovaskulær hypertensjon | 99,97 % | L4 | Prekliniske dyredata for ARB-klassen (PMID 11560862); ingen humane studier. ARB medfører risiko ved bilateral nyrearteriestenose. |
-| Pulmonal hypertensjon med uklar multifaktoriell mekanisme | 99,97 % | L5 | Kun modellprediksjon |
-| Pulmonal hypertensjon ved lungesykdom/hypoksi | 99,97 % | L4 | Indirekte, prekliniske data, ofte for sakubitril/valsartan |
-| Braddock syndrom | 99,96 % | L5 | Kun modellprediksjon |
-| Kronisk pulmonal hjertesykdom | 99,58 % | L4 | Forskningsspørsmål; ingen direkte test av valsartan |
-| Prinzmetal angina | 99,45 % | L5 | Spekulativ rolle for RAS-blokade |
+| Malign renovaskulær hypertensjon | 0,9997 | L4 | Prekliniske dyredata for ARB-klassen (PMID 11560862); ingen humane studier. ARB medfører risiko ved bilateral nyrearteriestenose. |
+| Pulmonal hypertensjon med uklar multifaktoriell mekanisme | 0,9997 | L5 | Kun modellprediksjon |
+| Pulmonal hypertensjon ved lungesykdom/hypoksi | 0,9997 | L4 | Indirekte, prekliniske data, ofte for sakubitril/valsartan |
+| Braddock syndrom | 0,9996 | L5 | Kun modellprediksjon |
+| Kronisk pulmonal hjertesykdom | 0,9958 | L4 | Forskningsspørsmål; ingen direkte test av valsartan |
+| Prinzmetal angina | 0,9945 | L5 | Spekulativ rolle for RAS-blokade |
 
 ---
 
@@ -97,7 +97,7 @@ Til sammenligning gjelder en sekundær indikasjon, malign renovaskulær hyperten
 
 ## Markedsinformasjon for Norge
 
-Alle 9 godkjenninger er opphevet. Ingen er gyldige i dag. Dosering/legemiddelform er ikke oppgitt i dataene.
+Alle 9 godkjenninger er opphevet. Dosering/legemiddelform er ikke oppgitt i dataene.
 
 | Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|

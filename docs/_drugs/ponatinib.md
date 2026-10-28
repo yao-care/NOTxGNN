@@ -39,7 +39,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 ## Oppsummering i én setning
 
 Ponatinib er en multi-målrettet tyrosinkinasehemmer som opprinnelig brukes til behandling av myeloid og lymfatisk leukemi.
-TxGNN-modellen predikerer at den kan ha effekt mot **gingival fibromatose** (score 99,04 %), men dette støttes av **0 kliniske studier** og **0 publikasjoner**.
+TxGNN-modellen predikerer at den kan ha effekt mot **gingival fibromatose** (score 0,9904), men dette støttes av **0 kliniske studier** og **0 publikasjoner**.
 For den nest rangerte prediksjonen, **liposarkom**, finnes **0 kliniske studier** og **1 prekliniske publikasjon** (indirekte).
 
 ---
@@ -50,9 +50,10 @@ For den nest rangerte prediksjonen, **liposarkom**, finnes **0 kliniske studier*
 |------|------|
 | Opprinnelig indikasjon | Myeloid leukemi; lymfatisk leukemi |
 | Predikert ny indikasjon | Gingival fibromatose |
-| TxGNN-prediksjonsscore | 99,04 % |
+| TxGNN-prediksjonsscore | 0,9904 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -64,7 +65,7 @@ Data om detaljert virkningsmekanisme er for øyeblikket ikke tilgjengelige i de 
 
 Signalveier drevet av kinaser (f.eks. PDGFR, FGFR og TGF-beta) kan tenkes å spille en rolle ved fibroproliferativ overvekst. Koblingen til gingival fibromatose er likevel spekulativ og understøttes ikke av sykdomsspesifikke data. Gingival fibromatose er en sjelden og for det meste godartet tilstand. Ponatinibs kjente kardiovaskulære og tromboemboliske toksisitet gjør et gunstig nytte-risiko-forhold lite sannsynlig.
 
-**Alternativ kandidat: liposarkom (rang 2, score 99,00 %).** En prekliminær studie (2017) kartla kinaser i liposarkom ved hjelp av RNAi og legemiddelscreening og identifiserte målbare kinasemål. Dette er forenlig med en begrunnelse for multi-kinasehemmere som ponatinib (FGFR, PDGFR m.fl.). Sammendraget bekrefter ikke at ponatinib selv ble testet eller var aktivt, så evidensen er indirekte (evidensnivå L4).
+**Alternativ kandidat: liposarkom (rang 2, score 0,9900).** En prekliminær studie (2017) kartla kinaser i liposarkom ved hjelp av RNAi og legemiddelscreening og identifiserte målbare kinasemål. Dette er forenlig med en begrunnelse for multi-kinasehemmere som ponatinib (FGFR, PDGFR m.fl.). Sammendraget bekrefter ikke at ponatinib selv ble testet eller var aktivt, så evidensen er indirekte (evidensnivå L4).
 
 ---
 
@@ -88,7 +89,7 @@ For gingival fibromatose finnes foreløpig ingen relatert litteratur. For liposa
 
 | Tillatelsesnummer | Produktnavn | Doseform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/002695 | Iclusig (status: avregistrert) | Ikke oppgitt | Myeloid leukemi; lymfatisk leukemi |
+| EMEA/H/C/002695 | Iclusig (status: godkjent) | Ikke oppgitt | Myeloid leukemi; lymfatisk leukemi |
 
 ---
 

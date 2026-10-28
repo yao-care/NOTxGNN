@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ambrisentan
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 28
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Ambrisentan: predikert ny indikasjon Pulmonal arteriovenøs malformasjon (evidensnivå L4). Opprinnelig indikasjon: Pulmonal hypertensjon"
+evidence_level: L5
+indication_count: 5
 monitor_inn: "AMBRISENTAN"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
+last_modified_at: 2026-10-27
+description: "Ambrisentan: predikert ny indikasjon pulmonal arteriovenøs malformasjon (pulmonary arteriovenous malformation (disease)) (evidensnivå L5). Opprinnelig indikasjon: Hypertension, Pulmonary"
 ---
 
 # Ambrisentan
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,76 +33,85 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Ambrisentan: Fra pulmonal hypertensjon til pulmonal arteriovenøs malformasjon
+## Ambrisentan: endotelin-reseptorantagonist → pulmonal arteriovenøs malformasjon (pulmonary arteriovenous malformation (disease))
 {: .text-alpha }
 
-## Oppsummering i korte trekk
+## Oppsummering
 
-Ambrisentan er en endotelinreseptorantagonist som opprinnelig brukes til å behandle pulmonal hypertensjon.
-TxGNN-modellen forutsier at legemidlet kan ha effekt ved **pulmonal arteriovenøs malformasjon (AVM)**.
-Støtten er svært begrenset: **0 kliniske studier** og **1 publikasjon** (en kasuistikk der AVM ikke er behandlingsmålet).
+Ambrisentan er en endotelin-reseptorantagonist. Til nå er den brukt mot pulmonal hypertensjon. TxGNN-modellen forutsier at legemidlet kan ha effekt ved **pulmonal arteriovenøs malformasjon (pulmonary arteriovenous malformation (disease))**. Støtten er svært svak: det finnes **ingen kliniske studier** og bare **én publikasjon**, en kasuistikk der pulmonal arteriell hypertensjon forekom som tilleggssykdom hos en pasient med arvelig hemoragisk telangiektasi.
+
+---
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Pulmonal hypertensjon |
-| Foreslått ny indikasjon | Pulmonal arteriovenøs malformasjon |
-| TxGNN-prediksjonsscore | 99,41 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun avregistrerte (kansellerte) tillatelser |
-| Antall tillatelser | 2 (begge kansellert) |
-| Anbefalt beslutning | Hold (avvent) |
+| Opprinnelig indikasjon | Hypertension, Pulmonary |
+| Foreslått ny indikasjon | pulmonal arteriovenøs malformasjon (pulmonary arteriovenous malformation (disease)) |
+| TxGNN-prediksjonsscore | 0,9941 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
+| Anbefalt beslutning | Hold |
 
-## Hvorfor er denne prediksjonen (ikke) rimelig?
+---
 
-Data om virkningsmekanisme er ikke tilgjengelig i grunnlaget for rapporten. Ut fra kjent informasjon er ambrisentan en selektiv endotelin-A-antagonist. Den reduserer vasokonstriksjon og vaskulær remodellering i lungekretsløpet, og effekten ved pulmonal hypertensjon er godt dokumentert.
+## Hvorfor kan denne prediksjonen være rimelig?
 
-Pulmonale AVM-er sees typisk ved hereditær hemoragisk telangiektasi (HHT). Den eneste litteraturen i datagrunnlaget er en kasuistikk om pulmonal arteriell hypertensjon (PAH) hos en HHT-pasient. Den gjelder PAH som tilleggssykdom, ikke behandling av selve AVM-en. Endotelinreseptorblokade er ikke en etablert mekanisme ved AVM, og vasodilatasjon kan i teorien forverre shunting.
+Data om virkningsmekanisme er ikke tilgjengelig i det innsamlede datagrunnlaget. Ambrisentan tilhører klassen endotelin-reseptorantagonister (selektiv for endotelin-A), som gir karutvidelse og reduserer trykket i lungekretsløpet.
 
-Den høye TxGNN-scoren skyldes trolig koblingen til PAH, ikke en reell terapeutisk sammenheng med AVM. Prediksjonen bør derfor tolkes med stor forsiktighet.
+Pulmonale arteriovenøse malformasjoner ses typisk ved arvelig hemoragisk telangiektasi (HHT). Den eneste litteraturen beskriver pulmonal arteriell hypertensjon som tilleggssykdom hos en HHT-pasient, ikke behandling av selve malformasjonen. Endotelin-reseptorantagonisme er ikke en etablert mekanisme ved arteriovenøse malformasjoner, og karutvidelse kan i teorien forverre shunting. Den høye scoren skyldes trolig assosiasjonen til pulmonal arteriell hypertensjon.
+
+---
 
 ## Kliniske studier
 
-Foreløpig ingen relaterte kliniske studier registrert.
+Foreløpig er ingen relevante kliniske studier registrert.
+
+---
 
 ## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [33969094](https://pubmed.ncbi.nlm.nih.gov/33969094/) | 2021 | Kasuistikk | World Journal of Clinical Cases | Beskrivelse av en HHT-pasient med PAH, inkludert behandling og genanalyse av familiemedlemmer. Gjelder ikke behandling av AVM. |
+| [33969094](https://pubmed.ncbi.nlm.nih.gov/33969094/) | 2021 | Kasuistikk | World Journal of Clinical Cases | Pasient med HHT og pulmonal arteriell hypertensjon; behandling og familiens genanalyse gjennomgås for å øke bevisstheten om denne kombinasjonen. Ingen behandling av selve malformasjonen er vist. |
+
+---
 
 ## Markedsinformasjon for Norge
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+| Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004985 | Ambrisentan Viatris (tidligere Ambrisentan Mylan) | Ikke oppgitt | Pulmonal hypertensjon (kansellert) |
-| EMEA/H/C/000839 | Volibris | Ikke oppgitt | Pulmonal hypertensjon (kansellert) |
+| EMEA/H/C/004985 | Ambrisentan Viatris (tidligere Ambrisentan Mylan) | Ikke oppgitt | Pulmonal hypertensjon |
+| EMEA/H/C/000839 | Volibris | Ikke oppgitt | Pulmonal hypertensjon |
+
+---
 
 ## Sikkerhetsvurderinger
 
-- **Sykdommer med kontraindikasjon i kunnskapsgrafen** (fra TxGNN-kunnskapsgrafen PrimeKG, ikke fra preparatomtale): kongestiv hjertesvikt, anemi, makrocytær anemi og pulmonal venookklusiv sykdom.
-- **Legemiddelinteraksjoner** (100 registrert totalt, utvalg):
-  - Moderat: kanagliflozin, dapagliflozin, empagliflozin, ertugliflozin, eliglustat, naltrekson.
-  - Mindre: klaritromycin, mikonazol, omeprazol.
-- **Fosterskade:** Ambrisentan er kjent som teratogent, noe som er særlig uheldig ved utviklingsrelaterte tilstander. Dette må vurderes nøye ved enhver ny bruk.
+- **Legemiddelinteraksjoner** (utvalg fra de innsamlede dataene, 100 registrerte interaksjoner i alt):
+  - Moderat: kanagliflozin, dapagliflozin, empagliflozin, ertugliflozin, eliglustat, naltrekson
+  - Mindre: klaritromycin, mikonazol, omeprazol
+  - Ukjent nivå: bl.a. kalsitriol, pantoprazol, doksysyklin, morfin, metformin, simvastatin, prednison
+- Ambrisentan er teratogent, noe som må vurderes ved enhver ny bruk.
+- Enkelte relasjoner i datagrunnlaget (ikke fra preparatomtale) knytter legemidlet til kongestiv hjertesvikt, anemi og pulmonal venookklusiv sykdom. Dette bør vurderes ved videre arbeid.
 
-For øvrig sikkerhetsinformasjon, se preparatomtalen.
+Se preparatomtalen for fullstendig sikkerhetsinformasjon.
+
+---
 
 ## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den eneste støtten er en kasuistikk som ikke gjelder behandling av AVM, og ingen kliniske studier finnes. Mekanismen er ikke etablert, og vasodilatasjon kan i teorien forverre shunting. I tillegg er alle norske tillatelser kansellert.
+Ingen kliniske studier eller publikasjoner studerer direkte behandling av pulmonal arteriovenøs malformasjon med ambrisentan. Den eneste kilden er en kasuistikk om en tilleggssykdom. Mekanismen er uetablert, og karutvidelse kan i teorien forverre shunting. Evidensnivået er L5.
 
-**For å gå videre trengs følgende:**
-- Prekliniske eller mekanistiske data som støtter endotelin-A-blokade ved AVM
-- Detaljerte data om virkningsmekanisme
-- Vurdering av risiko for forverret shunting og av teratogenisitet
-- Sikkerhetsopplysninger fra preparatomtalen
-
-**Merk:** Blant de andre prediksjonene for ambrisentan har **PAH assosiert med bindevevssykdom** klart sterkere støtte (evidensnivå L2, anbefaling «Proceed with Guardrails»). Støtten omfatter en fullført fase 2-studie (NCT02290613), en fullført fase 4-studie av ambrisentan pluss tadalafil ved systemisk sklerose (NCT01042158), delanalyser av AMBITION-studien og metaanalyser. Dette ligger imidlertid innenfor den eksisterende PAH-indikasjonen (gruppe 1) og er derfor en utvidelse til en undergruppe, ikke en reell ny indikasjon. Det anbefales å prioritere denne indikasjonen i det videre arbeidet.
+**For å gå videre trengs:**
+- Prekliniske eller mekanistiske data som viser at endotelin-A-blokade er relevant ved arteriovenøse malformasjoner
+- Kliniske data eller systematisk litteraturgjennomgang hos pasienter med HHT og pulmonale arteriovenøse malformasjoner
+- Preparatomtalens advarsler og kontraindikasjoner samt en vurdering av teratogenisk risiko
+- Data om virkningsmekanisme
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

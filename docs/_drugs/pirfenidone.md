@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at det kan ha effekt ved **ekstrakutant mastocytom**, 
 |------|------|
 | Opprinnelig indikasjon | Idiopatisk lungefibrose |
 | Predikert ny indikasjon | Ekstrakutant mastocytom |
-| TxGNN-prediksjonsscore | 99,71 % |
+| TxGNN-prediksjonsscore | 0,9971 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte (utgåtte) godkjenninger |
-| Antall godkjenninger | 3 (alle avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen predikerer at det kan ha effekt ved **ekstrakutant mastocytom**, 
 
 Data om virkningsmekanisme (MOA) for pirfenidon var ikke tilgjengelig i dataene som er samlet inn til denne rapporten. Ut fra kjent informasjon er pirfenidon et antifibrotisk og antiinflammatorisk legemiddel som modulerer TGF-β og TNF-α. Effekten er dokumentert ved idiopatisk lungefibrose.
 
-Mekanistisk kan dette tenkes å berøre fibrose knyttet til mastceller, men dette er spekulativt. Det foreligger ingen direkte mekanistisk evidens for ekstrakutant mastocytom. Den høye TxGNN-scoren (0,997) er en ren modellprediksjon og bør tolkes med forsiktighet.
+Mekanistisk kan dette tenkes å berøre fibrose knyttet til mastceller, men dette er spekulativt. Det foreligger ingen direkte mekanistisk evidens for ekstrakutant mastocytom. Den høye TxGNN-scoren (0,9971) er en ren modellprediksjon og bør tolkes med forsiktighet.
 
 Andre høyt rangerte prediksjoner (for eksempel dermatofibrosarcoma protuberans, systemisk mastocytose og ulike fibrosarkomer) hviler på tilsvarende svake rasjonaler, og ingen av dem har støtte fra kliniske studier eller litteratur. Den eneste prediksjonen med noe litteratur er **fibroblastisk neoplasme** (rang 9, evidensnivå L4), se nedenfor.
 
@@ -98,7 +98,7 @@ For sammenligning har den nærmeste prediksjonen med litteratur, fibroblastisk n
 | EMEA/H/C/005862 | Pirfenidone Viatris | Ikke oppgitt | Idiopatisk lungefibrose; lungesykdommer; luftveissykdommer |
 | EMEA/H/C/002154 | Esbriet | Ikke oppgitt | Idiopatisk lungefibrose; lungesykdommer; luftveissykdommer |
 
-Alle tre godkjenningene er registrert som avregistrert (cancelled), og det finnes ingen gyldige godkjenninger i dag.
+Alle tre godkjenningene er gyldige i dag, og legemidlet er markedsført.
 
 ---
 
@@ -116,7 +116,7 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for ekstrakutant mastocytom bygger kun på en modellscore uten kliniske studier eller publikasjoner (evidensnivå L5). Mekanismen er spekulativ, og i tillegg er alle norske/europeiske godkjenninger avregistrert.
+Prediksjonen for ekstrakutant mastocytom bygger kun på en modellscore uten kliniske studier eller publikasjoner (evidensnivå L5). Mekanismen er spekulativ.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

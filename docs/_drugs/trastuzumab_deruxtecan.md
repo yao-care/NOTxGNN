@@ -48,9 +48,10 @@ Trastuzumab deruksetekan er et HER2-rettet antistoff-legemiddelkonjugat som oppr
 |------|------|
 | Opprinnelig indikasjon | Brystneoplasmer (brystkreft) |
 | Predikert ny indikasjon | Legemiddelindusert osteoporose |
-| TxGNN-prediksjonsscore | 99,31 % |
+| TxGNN-prediksjonsscore | 0,9931 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert/trukket tilbake (Cancelled only) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall markedsføringstillatelser | 1 |
 | Anbefalt beslutning | Hold |
 
@@ -60,7 +61,7 @@ Trastuzumab deruksetekan er et HER2-rettet antistoff-legemiddelkonjugat som oppr
 
 Data som er samlet inn for denne rapporten inneholder ikke noen detaljert beskrivelse av virkningsmekanismen. Basert på kjent informasjon er trastuzumab deruksetekan et HER2-rettet antistoff-legemiddelkonjugat med en topoisomerase I-hemmer (deruksetekan) som cytotoksisk nyttelast. Effekten ved HER2-positiv brystkreft er etablert.
 
-Det kan ikke påvises noen tydelig biologisk sammenheng mellom HER2-målretting eller topoisomerase I-hemming og forebygging eller behandling av legemiddelindusert osteoporose. TxGNN-scoren (0,993) er en ren prediksjon fra en kunnskapsgraf og støttes ikke av kliniske data eller litteratur.
+Det kan ikke påvises noen tydelig biologisk sammenheng mellom HER2-målretting eller topoisomerase I-hemming og forebygging eller behandling av legemiddelindusert osteoporose. TxGNN-scoren (0,9931) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens, og den støttes ikke av kliniske data eller litteratur.
 
 Tvert imot er cytotoksiske nyttelaster og onkologiske støttebehandlingssituasjoner (for eksempel tap av beintetthet ved samtidig endokrin behandling eller kortikosteroider) mer sannsynlig en risikokontekst enn en terapeutisk mulighet. Likhet med den opprinnelige indikasjonen er ikke vurdert.
 
@@ -84,7 +85,7 @@ Det er for tiden ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/005124 | Enhertu | – | Brystneoplasmer |
 
-Merknad: Denne tillatelsen er registrert som avregistrert/trukket tilbake. Det finnes ingen gyldige tillatelser.
+Merknad: Denne tillatelsen er registrert som gyldig. Legemidlet er markedsført, med 1 gyldig tillatelse av 1.
 
 ---
 
@@ -124,7 +125,7 @@ Flere er klassifisert som **moderate**, blant annet palifermin, strontiumklorid 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en kunnskapsgrafmodell (evidensnivå L5), uten kliniske studier, litteratur eller plausibel mekanistisk kobling. I tillegg er den eneste tillatelsen i Norge avregistrert, og legemidlet har en cytotoksisk nyttelast, noe som gjør bruk ved osteoporose lite rimelig.
+Prediksjonen bygger kun på TxGNN-modellen (deep learning) (evidensnivå L5), uten kliniske studier, litteratur eller plausibel mekanistisk kobling. I tillegg er legemidlet markedsført i Norge med 1 gyldig tillatelse av 1, og det har en cytotoksisk nyttelast, noe som gjør bruk ved osteoporose lite rimelig.
 
 **For å gå videre kreves følgende:**
 - Pakningsvedleggets advarsler og kontraindikasjoner (blokkerende datamangel som må løses før sikkerhetsscreening)

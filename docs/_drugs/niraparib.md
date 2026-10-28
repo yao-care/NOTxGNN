@@ -6,9 +6,9 @@ nav_order: 286
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Niraparib: predikert ny indikasjon Cystisk neoplasme (rangert som nr. 2 (evidensnivå L5). Opprinnelig indikasjon: Kreft i egglederne, bukhinnen og eggstokkene"
 monitor_inn: "NIRAPARIB"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
+description: "Niraparib: predikert ny indikasjon Epiglottis neoplasm (evidensnivå L5). Opprinnelig indikasjon: Fallopian Tube Neoplasms"
 ---
 
 # Niraparib
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Niraparib: Fra eggstokk-, egglederkreft og bukhinnekreft til cystisk neoplasme
+## Niraparib: Epiglottis neoplasm
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -44,11 +44,12 @@ Niraparib er en PARP-hemmer som opprinnelig brukes mot kreft i eggstokk, egglede
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Kreft i egglederne, bukhinnen og eggstokkene |
-| Predikert ny indikasjon | Cystisk neoplasme (rangert som nr. 2; nr. 1 er epiglottis-neoplasme uten evidens) |
-| TxGNN-prediksjonsscore | 99,99 % |
-| Evidensnivå | L2 (for cystisk neoplasme); L5 for øvrige prediksjoner |
-| Status på det norske markedet | Kun kansellerte markedsføringstillatelser |
+| Opprinnelig indikasjon | Fallopian Tube Neoplasms;Peritoneal Neoplasms;Ovarian Neoplasms; Prostatic Neoplasms, Castration-Resistant |
+| Predikert ny indikasjon | Epiglottis neoplasm |
+| TxGNN-prediksjonsscore | 0.9999 |
+| Evidensnivå | L5 (for cystisk neoplasme); L5 for øvrige prediksjoner |
+| Status på det norske markedet | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Antall tillatelser | 2 (begge kansellert) |
 | Anbefalt beslutning | Hold (utsett); kan vurderes som forskningsspørsmål |
 

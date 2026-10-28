@@ -49,9 +49,10 @@ TxGNN-modellen forutsier at det kan være effektivt mot **legemiddelindusert ost
 |------|------|
 | Opprinnelig indikasjon | Kolorektal kreft (Colorectal Neoplasms) |
 | Foreslått ny indikasjon | Legemiddelindusert osteoporose |
-| TxGNN-prediksjonsscore | 99,13 % |
+| TxGNN-prediksjonsscore | 0.9913 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (ingen gyldige markedsføringstillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 |
 | Anbefalt beslutning | Hold |
 
@@ -63,11 +64,11 @@ Data om virkningsmekanisme er ikke tilgjengelig i dataene som er sammenstilt for
 
 EGFR-signalering kan ha en rolle i osteoblastdifferensiering og benombygging, men effektretningen er uklar. EGFR-hemming kan tvert imot svekke beindannelse i stedet for å beskytte mot tap av benmasse. Anti-EGFR-behandling er også forbundet med hypomagnesemi og hypokalsemi, som kan påvirke benhelsen negativt. Den mekanistiske koblingen er derfor spekulativ og muligens motstridende.
 
-Den høye TxGNN-scoren (0,991) er kun en beregnet prediksjon og er ikke bekreftet av kliniske eller litteraturbaserte data.
+Den høye TxGNN-scoren (0.9913) er kun en beregnet prediksjon fra TxGNN-modellen (deep learning) og er ikke bekreftet av kliniske eller litteraturbaserte data.
 
 ### Alternativ prediksjon (rangert nr. 2)
 
-Modellen foreslår også **alvorlig ikke-proliferativ diabetisk retinopati** (score 99,05 %, evidensnivå L5, beslutning: Hold). EGFR-signalering kan bidra til karskade i netthinnen, betennelse og patologisk angiogenese. Panitumumab er imidlertid et stort IgG2-antistoff gitt systemisk med begrenset penetrasjon til øyet, og anti-EGFR-midler gir øyetoksisitet (f.eks. keratitt, overflateproblemer på øyet, trikomegali). Det foreligger ingen intravitreale eller prekliniske data. At produktet kun har trukket tilbake tillatelse, kan også svekke gjennomførbarheten.
+Modellen foreslår også **alvorlig ikke-proliferativ diabetisk retinopati** (score 0,9905, evidensnivå L5, beslutning: Hold). EGFR-signalering kan bidra til karskade i netthinnen, betennelse og patologisk angiogenese. Panitumumab er imidlertid et stort IgG2-antistoff gitt systemisk med begrenset penetrasjon til øyet, og anti-EGFR-midler gir øyetoksisitet (f.eks. keratitt, overflateproblemer på øyet, trikomegali). Det foreligger ingen intravitreale eller prekliniske data. At produktet kun har trukket tilbake tillatelse, kan også svekke gjennomførbarheten.
 
 ---
 

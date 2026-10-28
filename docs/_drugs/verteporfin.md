@@ -6,7 +6,7 @@ nav_order: 449
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Verteporfin: predikert ny indikasjon Mitokondriell oksidativ fosforyleringssykdom som skyldes kjerne-DNA-a… (evidensnivå L5). Opprinnelig indikasjon: Degenerativ myopi"
+description: "Verteporfin: predikert ny indikasjon Mitokondriell oksidativ fosforyleringssykdom på grunn av kjerne-DNA-avvik (evidensnivå L5). Opprinnelig indikasjon: Degenerativ myopi"
 monitor_inn: "VERTEPORFIN"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
 ---
@@ -48,10 +48,10 @@ Verteporfin er et lysaktivert legemiddel (fotosensibilisator) som opprinnelig br
 |------|------|
 | Opprinnelig indikasjon | Degenerativ myopi; makuladegenerasjon |
 | Predikert ny indikasjon | Mitokondriell oksidativ fosforyleringssykdom som skyldes kjerne-DNA-avvik |
-| TxGNN-prediksjonsscore | 99,49 % |
+| TxGNN-prediksjonsscore | 0,9949 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun opphørte/trukne godkjenninger |
-| Antall godkjenninger | 1 (opphørt) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -84,7 +84,7 @@ Det er for øyeblikket ingen relevant litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/000305 | Visudyne | Ikke oppgitt | Degenerativ myopi; makuladegenerasjon |
 
-Godkjenningen (innehaver: CHEPLAPHARM Arzneimittel GmbH) er registrert som opphørt. Det finnes ingen gyldige godkjenninger i dataene.
+Legemidlet er markedsført. Det finnes 1 gyldig godkjenning av 1 (innehaver: CHEPLAPHARM Arzneimittel GmbH).
 
 ---
 

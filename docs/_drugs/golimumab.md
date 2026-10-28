@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Golimumab
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 196
-evidence_level: L4
-indication_count: 5
-last_modified_at: 2026-10-15
-description: "Golimumab: predikert ny indikasjon Revmatoid vaskulitt (evidensnivå L4). Opprinnelig indikasjon: Revmatoid artritt, juvenil artritt, psoriasisartritt…"
+evidence_level: L5
+indication_count: 2
 monitor_inn: "GOLIMUMAB"
-predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
+last_modified_at: 2026-10-27
+description: "Golimumab: predikert ny indikasjon Hypermobilitet i halebenet (hypermobility of coccyx) (evidensnivå L5). Opprinnelig indikasjon: Arthritis, Rheumatoid"
 ---
 
 # Golimumab
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **5** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-## Golimumab: Fra revmatoid artritt til revmatoid vaskulitt
+## Golimumab: TNF-hemmer → Hypermobilitet i halebenet (hypermobility of coccyx)
 {: .text-alpha }
 
-## Sammendrag i korte trekk
+## Oppsummering i én setning
 
-Golimumab er et humant monoklonalt antistoff mot TNF-alfa. Det er godkjent for blant annet revmatoid artritt, psoriasisartritt og ulcerøs kolitt. TxGNN-modellen forutsier at legemidlet kan være virksomt mot **revmatoid vaskulitt**, men støtten er svak: **1 klinisk studie** (ikke relevant for spørsmålet) og **6 publikasjoner** som bare gir indirekte belegg. Den høye modellscoren er en prediksjon og ikke klinisk evidens.
+Golimumab er et biologisk legemiddel som hemmer TNF (tumornekrosefaktor). Modellen TxGNN forutsier at det kan ha effekt ved **hypermobilitet i halebenet (hypermobility of coccyx)**, men i dataene som er samlet inn for denne rapporten finnes det **ingen kliniske studier og ingen publikasjoner** som støtter denne retningen.
 
 ---
 
@@ -46,91 +46,72 @@ Golimumab er et humant monoklonalt antistoff mot TNF-alfa. Det er godkjent for b
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Revmatoid artritt, juvenil artritt, psoriasisartritt, aksial spondyloartritt, ikke-radiografisk aksial spondyloartritt, ulcerøs kolitt |
-| Foreslått ny indikasjon | Revmatoid vaskulitt |
-| TxGNN-prediksjonsscore | 99,73 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun kansellerte tillatelser |
-| Antall tillatelser | 3 (alle kansellert) |
-| Anbefalt beslutning | Hold (avvent) |
+| Opprinnelig indikasjon | Arthritis, Rheumatoid;Arthritis, Juvenile;Arthritis, Psoriatic;Axial Spondyloarthritis;Non-Radiographic Axial Spondyloarthritis;Colitis, Ulcerative; Arthritis, Psoriatic;Spondylitis, Ankylosing;Colitis, Ulcerative;Arthritis, Rheumatoid; Arthritis, Rheumatoid;Arthritis, Juvenile;Arthritis, Psoriatic; |
+| Predikert ny indikasjon | Hypermobilitet i halebenet (hypermobility of coccyx) |
+| TxGNN-prediksjonsscore | 0,9967 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
+| Antall godkjenninger | 3 (gyldige: 3) |
+| Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Golimumab nøytraliserer både løselig og membranbundet TNF-alfa. TNF-alfa er et sentralt cytokin ved revmatoid artritt og ved betennelse i blodkar. Detaljerte data om virkningsmekanisme finnes ikke i datagrunnlaget som er samlet for denne rapporten. Beskrivelsen bygger derfor på generell kunnskap om legemiddelklassen.
+Data om virkningsmekanisme er ikke tilgjengelige i de sammenstilte dataene. Golimumab er et monoklonalt antistoff som er kjent for å hemme TNF, og tilhører klassen TNF-hemmere som brukes ved immunmedierte inflammatoriske sykdommer.
 
-Revmatoid vaskulitt er en ekstraartikulær komplikasjon til revmatoid artritt. En TNF-drevet mekanisme er derfor biologisk plausibel, og det forklarer sannsynligvis den høye modellscoren. Scoren gjenspeiler nærhet til godkjente indikasjoner i kunnskapsgrafen og ikke direkte klinisk dokumentasjon.
+Hypermobilitet i halebenet er derimot vanligvis en mekanisk eller traumatisk tilstand, ikke en TNF-drevet inflammatorisk sykdom. Koblingen til golimumab er dermed ikke støttet av mekanistiske eller kliniske data. Den høye scoren (0,9967) er en ren modellprediksjon, trolig drevet av nærhet til noder knyttet til spondyloartropati-lignende tilstander.
 
-Litteraturen er indirekte: kasuistikker og oversiktsartikler om beslektede tilstander (Behçet-uveitt, Takayasu-arteritt, revmatoid artritt generelt). Et av tilfellene er et forsiktighetssignal, siden vaskulitt (Takayasu-arteritt) oppsto under anti-TNF-behandling.
-
----
-
-## Kliniske studier
-
-| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
-|---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Rekrutterer | 80 | Håndtering av immundempende legemidler hos revmatologiske pasienter før skulderprotese (varighet av seponering og risiko for oppbluss, sårkomplikasjoner og infeksjon). Evaluerer ikke golimumab mot vaskulitt og er ikke relevant for effekt ved revmatoid vaskulitt. |
+Prediksjonen må derfor betraktes som en hypotese som ikke er underbygget.
 
 ---
 
-## Litteraturbelegg
+## Klinisk studieevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|------|---------|
-| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | Nettverksmetaanalyse (36 RCT-er) | Int J Mol Sci | Originale og biotilsvarende TNF-hemmere, inkludert golimumab, reduserer leddskade ved revmatoid artritt i lignende grad. Gjelder ikke vaskulitt. |
-| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Oversikt | BMC Med | Oppdatering om biologisk behandling av autoimmune sykdommer, med fordeler og ulemper som kostnad, intravenøs administrering og bivirkninger. |
-| [27591827](https://pubmed.ncbi.nlm.nih.gov/27591827/) | 2017 | Oversikt | Semin Arthritis Rheum | Forekomst og årsaker til nyresvikt i sluttstadiet ved revmatoid artritt og behandling i den situasjonen. |
-| [29075910](https://pubmed.ncbi.nlm.nih.gov/29075910/) | 2018 | Kasuistikk | Rheumatol Int | Pyoderma gangrenosum og septisk artritt med alvorlig sepsis hos en pasient med revmatoid artritt behandlet med golimumab. Peker på infeksjonsrisiko. |
-| [23252659](https://pubmed.ncbi.nlm.nih.gov/23252659/) | 2013 | Kasuistikk | Ocul Immunol Inflamm | Behçet-assosiert uveitt behandlet med golimumab med god effekt. Beslektet inflammatorisk tilstand, ikke revmatoid vaskulitt. |
-| [22999907](https://pubmed.ncbi.nlm.nih.gov/22999907/) | 2013 | Kasuistikk | Joint Bone Spine | To tilfeller av Takayasu-arteritt som oppsto under anti-TNF-behandling. Forsiktighetssignal: vaskulitt kan opptre under TNF-hemming. |
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ---
 
-## Markedsinformasjon for Norge
+## Litteraturevidens
 
-| Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
+Foreløpig finnes ingen relatert litteratur.
+
+---
+
+## Informasjon om det norske markedet
+
+| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/006621 | Gotenfia | Ikke oppgitt | Revmatoid artritt, juvenil artritt, psoriasisartritt, aksial spondyloartritt, ikke-radiografisk aksial spondyloartritt, ulcerøs kolitt |
-| EMEA/H/C/000992 | Simponi | Ikke oppgitt | Psoriasisartritt, ankyloserende spondylitt, ulcerøs kolitt, revmatoid artritt |
-| EMEA/H/C/006560 | Gobivaz | Ikke oppgitt | Revmatoid artritt, juvenil artritt, psoriasisartritt, aksial spondyloartritt, ulcerøs kolitt, ikke-radiografisk aksial spondyloartritt |
-
-Alle tre tillatelsene har status kansellert.
+| EMEA/H/C/006621 | Gotenfia | – | Ikke angitt i lokale data |
+| EMEA/H/C/000992 | Simponi | – | Ikke angitt i lokale data |
+| EMEA/H/C/006560 | Gobivaz | – | Ikke angitt i lokale data |
 
 ---
 
-## Sikkerhetshensyn
+## Sikkerhetsvurderinger
 
-**Legemiddelinteraksjoner** (100 interaksjoner registrert; de viktigste av de som er tilgjengelige nedenfor):
+**Legemiddelinteraksjoner** (100 registrerte; de viktigste er nevnt):
 
-- **Alvorlig (Major):**
-  - Kortikosteroider: hydrokortison, prednison, prednisolon, deksametason, betametason, triamcinolon (også oftalmisk) og budesonid
-  - Deferipron
-  - Radiofarmaka og radioimmunoterapi: jobenguan (I-131), ibritumomab tiuxetan, tositumomab og tositumomab (I-131)
-- **Moderat:** metronidazol, tinidazol, rosuvastatin og simvastatin
-- **Mild:** sinksulfat, sinkacetat og sinkglukonat
+- **Alvorlige (Major):** hydrokortison, triamcinolon, deksametason, betametason, budesonid, prednison, prednisolon, deferipron, jobenguan (I-131), ibritumomab tiuxetan, tositumomab
+- **Moderate:** metronidazol, rosuvastatin, simvastatin, tinidazol
+- **Mindre (Minor):** sinksulfat, sinkacetat, sinkglukonat
 
-Dessuten er det i litteraturen beskrevet et tilfelle av Takayasu-arteritt som oppsto under anti-TNF-behandling (se over), og alvorlig infeksjon hos en pasient på golimumab. Dette tilsier forsiktighet ved bruk mot vaskulitt.
-
-Opplysninger om advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelige i datagrunnlaget. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Hold (avvent)**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-- Det finnes ingen direkte klinisk evidens for golimumab ved revmatoid vaskulitt. Den eneste registrerte studien er irrelevant, og litteraturen består av kasuistikker og oversikter. Ett av tilfellene tyder på at vaskulitt også kan oppstå under anti-TNF-behandling.
-- Alle tre norske tillatelser er kansellert, så tilgjengeligheten må avklares.
+Prediksjonen bygger kun på en modellscore, uten kliniske studier eller publikasjoner, og det er ingen plausibel TNF-mediert mekanisme for en i hovedsak mekanisk tilstand. Evidensnivået er L5.
 
-**For å gå videre kreves:**
-- Kontrollerte eller godt dokumenterte observasjonsstudier av TNF-hemmere (inkludert golimumab) ved revmatoid vaskulitt
-- Preparatomtale med advarsler og kontraindikasjoner, samt detaljerte data om virkningsmekanisme
-- Avklaring av markedsstatus og tilgjengelighet i Norge
-- En vurdering av risikoen for paradoksal vaskulitt under anti-TNF-behandling
-
-I samme datagrunnlag har prediksjonene for inflammatorisk spondylopati og polyartikulær juvenil revmatoid artritt langt sterkere evidens (L1). De ligger imidlertid tett på de allerede godkjente indikasjonene.
+**For å gå videre trengs følgende:**
+- Data om virkningsmekanisme (MOA)
+- Preparatomtale med advarsler og kontraindikasjoner
+- Mekanistisk begrunnelse og prekliniske eller kliniske data som direkte omhandler hypermobilitet i halebenet
+- Vurdering av administrasjonsvei og aktuell pasientgruppe
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

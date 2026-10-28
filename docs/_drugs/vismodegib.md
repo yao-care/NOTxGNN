@@ -4,17 +4,17 @@ title: Vismodegib
 parent: Kun modellprediksjon (L5)
 nav_order: 453
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Vismodegib: predikert ny indikasjon Medulloblastom med utbredt nodularitet (evidensnivå L5). Opprinnelig indikasjon: Basalcellekarsinom"
 monitor_inn: "VISMODEGIB"
-predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "prostate cancer/brain cancer susceptibility", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
+predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
 ---
 
 # Vismodegib
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Vismodegib er en Hedgehog-hemmer som opprinnelig brukes mot basalcellekarsinom. 
 |------|------|
 | Opprinnelig indikasjon | Basalcellekarsinom |
 | Predikert ny indikasjon | Medulloblastom med utbredt nodularitet |
-| TxGNN-prediksjonsscore | 99,93 % |
+| TxGNN-prediksjonsscore | 0,9993 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte/tilbakekalte godkjenninger |
-| Antall godkjenninger | 1 (0 gyldige, 1 avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -126,7 +126,7 @@ Til sammenligning har andre prediksjoner for vismodegib bedre støtte i datagrun
 - Systematisk gjennomgang av litteratur og pågående studier om SHH-medulloblastom, inkludert undertypen med utbredt nodularitet
 - Molekylær karakterisering av tumorene (SMO-, PTCH1- og SUFU-status) for å identifisere hvilke pasienter som kan respondere
 - Plan for sikkerhetsovervåking hos barn, særlig vekstsoner og vekst
-- Avklaring av tilgjengelighet i Norge, siden alle godkjenninger er avregistrert
+- Avklaring av tilgjengelighet i Norge, siden legemidlet er markedsført og 1 av 1 godkjenning er gyldig
 - Fullstendig gjennomgang av pakningsvedlegget (advarsler, kontraindikasjoner) og detaljerte mekanismedata
 ## Ansvarsfraskrivelse
 

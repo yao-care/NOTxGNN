@@ -50,9 +50,10 @@ men det finnes **ingen registrerte kliniske studier** og **ingen publikasjoner**
 |------|------|
 | Opprinnelig indikasjon | Hode- og halskreft; plateepitelkarsinom |
 | Predikert ny indikasjon | Nasofaryngealt teratom |
-| TxGNN-prediksjonsscore | 99,78 % |
+| TxGNN-prediksjonsscore | 0,9978 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun tilbakekalt/avregistrert (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -62,7 +63,7 @@ men det finnes **ingen registrerte kliniske studier** og **ingen publikasjoner**
 
 Data om virkningsmekanisme (MOA) er ikke tilgjengelig for denne rapporten. Temoporfin er et fotosensibiliserende middel brukt i fotodynamisk terapi mot plateepitelkarsinom i hode og hals. Det antas at stoffet hoper seg opp i uregelmessig vev og, når det aktiveres av lys, gir celleskade i proliferende vev.
 
-Koblingen til nasofaryngealt teratom er kun en prediksjon fra kunnskapsgrafen (høy TxGNN-score). Teratomer er biologisk forskjellige fra plateepitelkarsinom, og det finnes verken kliniske studier eller litteratur som støtter bruken. Prediksjonen er derfor svakt underbygd.
+Koblingen til nasofaryngealt teratom er kun en prediksjon fra TxGNN-modellen (dyp læring) (høy TxGNN-score). Teratomer er biologisk forskjellige fra plateepitelkarsinom, og det finnes verken kliniske studier eller litteratur som støtter bruken. Prediksjonen er derfor svakt underbygd.
 
 ### Øvrige prediksjoner (rangert)
 
@@ -70,16 +71,16 @@ Oversikten viser de ti høyest rangerte prediksjonene og en vurdering av hver.
 
 | Rang | Predikert indikasjon | Score | Evidensnivå | Vurdering |
 |---|---|---|---|---|
-| 1 | Nasofaryngealt teratom | 99,78 % | L5 | Kun kunnskapsgraf; ulik biologi enn plateepitelkarsinom |
-| 2 | Odontogen cyste | 99,77 % | L5 | Basert på felles anatomisk område; ingen data for godartede cystiske lesjoner |
-| 3 | Premalign neoplasi | 99,77 % | L5 | Mekanistisk mest plausibel (f.eks. oral dysplasi), men trenger egen litteratursøk |
-| 4 | Neoplasi i epiglottis | 99,76 % | L5 | Oftest plateepitelkarsinom, nær opprinnelig indikasjon; ingen spesifikke studier |
-| 5 | Svulst i testikkel og parateste | 99,76 % | L5 | Ingen tydelig mekanistisk kobling; lyslevering er upraktisk |
-| 6 | Cystisk neoplasi | 99,76 % | L4 | Kun indirekte evidens (én publikasjon) |
-| 7 | Godartet neoplasi i munngulv | 99,76 % | L5 | Tilgjengelig for lys, men ingen evidens for godartede svulster |
-| 8 | Godartet neoplasi i tunge | 99,76 % | L4 | Kun indirekte evidens (én publikasjon) |
-| 9 | Godartet neoplasi i hypofarynx | 99,76 % | L5 | Kun anatomisk assosiasjon i kunnskapsgrafen |
-| 10 | Cervikalt nevroblastom | 99,76 % | L5 | Annen biologi (nevralkamcelle-avledet); ingen støtte |
+| 1 | Nasofaryngealt teratom | 0,9978 | L5 | Kun TxGNN-modellen (deep learning); scoren kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens; ulik biologi enn plateepitelkarsinom |
+| 2 | Odontogen cyste | 0,9977 | L5 | Basert på felles anatomisk område; ingen data for godartede cystiske lesjoner |
+| 3 | Premalign neoplasi | 0,9977 | L5 | Mekanistisk mest plausibel (f.eks. oral dysplasi), men trenger egen litteratursøk |
+| 4 | Neoplasi i epiglottis | 0,9976 | L5 | Oftest plateepitelkarsinom, nær opprinnelig indikasjon; ingen spesifikke studier |
+| 5 | Svulst i testikkel og parateste | 0,9976 | L5 | Ingen tydelig mekanistisk kobling; lyslevering er upraktisk |
+| 6 | Cystisk neoplasi | 0,9976 | L5 | Kun indirekte evidens (én publikasjon) |
+| 7 | Godartet neoplasi i munngulv | 0,9976 | L5 | Tilgjengelig for lys, men ingen evidens for godartede svulster |
+| 8 | Godartet neoplasi i tunge | 0,9976 | L5 | Kun indirekte evidens (én publikasjon) |
+| 9 | Godartet neoplasi i hypofarynx | 0,9976 | L5 | Scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens |
+| 10 | Cervikalt nevroblastom | 0,9976 | L5 | Annen biologi (nevralkamcelle-avledet); ingen støtte |
 
 ---
 
@@ -108,7 +109,7 @@ Begge publikasjonene er indirekte evidens og støtter ikke de predikerte godarte
 |---------|------|------|-----------|
 | EMEA/H/C/000318 | Foscan | Ikke oppgitt | Hode- og halskreft; plateepitelkarsinom |
 
-Tillatelsen er avregistrert, og det finnes ingen gyldige tillatelser i Norge.
+Legemidlet er markedsført i Norge, med 1 gyldig tillatelse av 1.
 
 ---
 

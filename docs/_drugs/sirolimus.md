@@ -4,7 +4,7 @@ title: Sirolimus
 parent: Moderat evidens (L3-L4)
 nav_order: 386
 evidence_level: L3
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-15
 description: "Sirolimus: predikert ny indikasjon Liposarkom (evidensnivå L3). Opprinnelig indikasjon: Transplantatavstøtning / nyretransplantasjon"
 monitor_inn: "SIROLIMUS"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine co
 # Sirolimus
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L3** | Predikerte indikasjoner: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -51,9 +51,10 @@ TxGNN-modellen predikerer at den kan være effektiv mot **liposarkom**, men stø
 |------|------|
 | Opprinnelig indikasjon | Transplantatavstøtning / nyretransplantasjon; angiofibrom ved tuberøs sklerose |
 | Predikert ny indikasjon | Liposarkom |
-| TxGNN-prediksjonsscore | 99,89 % |
+| TxGNN-prediksjonsscore | 0,9989 |
 | Evidensnivå | L3 |
-| Markedsstatus i Norge | Kun tilbakekalte/avregistrerte autorisasjoner |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Antall autorisasjoner | 2 (begge avregistrert) |
 | Anbefalt beslutning | Hold (forskningsspørsmål; se konklusjon) |
 
@@ -95,8 +96,8 @@ Den eneste direkte kliniske evidensen er en enarmet fase 2-studie av sirolimus i
 
 | Autorisasjonsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000273 | Rapamune | Ikke oppgitt | Transplantatavstøtning, nyretransplantasjon (avregistrert) |
-| EMEA/H/C/005896 | Hyftor | Ikke oppgitt | Angiofibrom, tuberøs sklerose (avregistrert) |
+| EMEA/H/C/000273 | Rapamune | Ikke oppgitt | Transplantatavstøtning, nyretransplantasjon (godkjent) |
+| EMEA/H/C/005896 | Hyftor | Ikke oppgitt | Angiofibrom, tuberøs sklerose (godkjent) |
 
 ---
 

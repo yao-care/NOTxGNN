@@ -48,9 +48,10 @@ Omalizumab er et humanisert monoklonalt anti-IgE-antistoff. Det er opprinnelig g
 |------|------|
 | Opprinnelig indikasjon | Astma, urticaria, rhinitt |
 | Predikert ny indikasjon | Bronkitt |
-| TxGNN-prediksjonsscore | 99,999 % |
+| TxGNN-prediksjonsscore | 1,0000 |
 | Evidensnivå | L3 |
-| Markedsstatus i Norge | Kun trukne/annullerte tillatelser |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Antall tillatelser | 2 (begge annullert) |
 | Anbefalt beslutning | Hold |
 
@@ -89,7 +90,7 @@ Koblingen til bronkitt er **indirekte**. Støtten kommer hovedsakelig fra astma 
 
 ## Markedsinformasjon for Norge
 
-Begge tillatelsene i datagrunnlaget er annullert. Ingen gyldige tillatelser er registrert.
+Legemidlet er markedsført. 2 av 2 tillatelser er gyldige.
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|

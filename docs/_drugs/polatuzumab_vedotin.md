@@ -50,9 +50,10 @@ men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** 
 |------|------|
 | Opprinnelig indikasjon | B-cellelymfom |
 | Predikert ny indikasjon | HER2-positivt brystkarsinom |
-| TxGNN-prediksjonsscore | 99,34 % |
+| TxGNN-prediksjonsscore | 0,9934 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (tilbakekalt/ikke lenger gyldig) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall markedsføringstillatelser | 1 |
 | Anbefalt beslutning | Hold |
 
@@ -84,7 +85,7 @@ Det er foreløpig ingen relatert litteratur tilgjengelig.
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004870 | Polivy | Ikke oppgitt | B-cellelymfom (status: avregistrert) |
+| EMEA/H/C/004870 | Polivy | Ikke oppgitt | B-cellelymfom (status: godkjent) |
 
 ---
 

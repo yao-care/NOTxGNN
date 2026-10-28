@@ -48,10 +48,10 @@ Levodopa er en forløper for dopamin og brukes opprinnelig til behandling av Par
 |------|------|
 | Opprinnelig indikasjon | Parkinsons sykdom |
 | Predikert ny indikasjon | Rasmussens subakutte encefalitt |
-| TxGNN-prediksjonsscore | 99,06 % |
+| TxGNN-prediksjonsscore | 0,9906 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun opphevede/avsluttede godkjenninger |
-| Antall godkjenninger | 4 (alle opphevet) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 4 av 4) |
+| Antall godkjenninger | 4 (gyldige: 4) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Data om virkningsmekanisme (MOA) er for tiden ikke tilgjengelige. Levodopa er kj
 
 Rasmussens encefalitt er en sjelden, kronisk og vanligvis ensidig nevroinflammatorisk sykdom. Den er drevet av T-celle-mediert cytotoksisitet og er forbundet med vanskelig behandlbar fokal epilepsi og progressiv atrofi i en hjernehalvdel. En mulig kobling kan ligge i dopaminerg modulering av nevroinflammasjon eller motoriske symptomer, men dette er spekulativt og ikke støttet av noen studie eller publikasjon i dataene.
 
-Levodopa er ikke kjent for å påvirke den underliggende immunpatologien eller anfallene. Dopaminerge midler kan dessuten i teorien senke anfallsterskelen hos enkelte pasienter. Dette må vurderes før en eventuell videre vurdering. Den høye modellscoren (0,99) viser kun en statistisk assosiasjon i kunnskapsgrafen, ikke dokumentert klinisk nytte.
+Levodopa er ikke kjent for å påvirke den underliggende immunpatologien eller anfallene. Dopaminerge midler kan dessuten i teorien senke anfallsterskelen hos enkelte pasienter. Dette må vurderes før en eventuell videre vurdering. Den høye modellscoren (0,9906) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens, og er ikke dokumentert klinisk nytte.
 
 ---
 

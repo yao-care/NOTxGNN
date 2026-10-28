@@ -50,9 +50,10 @@ men det finnes **ingen kliniske studier og ingen relevant litteratur** som støt
 |------|------|
 | Opprinnelig indikasjon | Oppkast; postoperativ kvalme og oppkast; kreft (kreftrelatert kvalme) |
 | Predikert ny indikasjon | Nefrogent syndrom med uhensiktsmessig antidiurese (NSIAD) |
-| TxGNN-prediksjonsscore | 99,97 % |
+| TxGNN-prediksjonsscore | 0,9997 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 |
 | Anbefalt beslutning | Hold |
 
@@ -70,15 +71,15 @@ Datagrunnlaget inneholder ni ytterligere prediksjoner. Alle har evidensnivå L5,
 
 | Rang | Sykdom | TxGNN-score | Vurdering |
 |------|------|------|------|
-| 2 | Hypertrikose | 99,91 % | Ingen klar mekanisme; ikke støttet av kliniske data |
-| 3 | Pulmonal hypertensjon | 99,90 % | Mekanistisk hypotese er plausibel, men ikke validert |
-| 4 | Lepra | 99,90 % | Spekulativ kobling; effektiv behandling finnes allerede |
-| 5 | Ambras-type hypertrichosis universalis congenita | 99,87 % | Ingen mekanistisk eller klinisk støtte |
-| 6 | Misdannelsessyndrom med tann- og/eller periodontal komponent | 99,86 % | Ingen plausibel mekanisme |
-| 7 | Kyfoskoliotisk hjertesykdom | 99,86 % | NK1-mekanisme adresserer ikke den strukturelle årsaken |
-| 8 | Syndrom med Dandy-Walker-malformasjon | 99,86 % | Utviklingsmessig misdannelse; ingen støtte |
-| 9 | Subaraknoidalblødning | 99,85 % | Mest biologisk plausible; kandidat for prekliniske oppfølgingsstudier |
-| 10 | Isolert genetisk hårskaftavvik | 99,85 % | Ingen kjent mekanisme |
+| 2 | Hypertrikose | 0,9991 | Ingen klar mekanisme; ikke støttet av kliniske data |
+| 3 | Pulmonal hypertensjon | 0,9990 | Mekanistisk hypotese er plausibel, men ikke validert |
+| 4 | Lepra | 0,9990 | Spekulativ kobling; effektiv behandling finnes allerede |
+| 5 | Ambras-type hypertrichosis universalis congenita | 0,9987 | Ingen mekanistisk eller klinisk støtte |
+| 6 | Misdannelsessyndrom med tann- og/eller periodontal komponent | 0,9986 | Ingen plausibel mekanisme |
+| 7 | Kyfoskoliotisk hjertesykdom | 0,9986 | NK1-mekanisme adresserer ikke den strukturelle årsaken |
+| 8 | Syndrom med Dandy-Walker-malformasjon | 0,9986 | Utviklingsmessig misdannelse; ingen støtte |
+| 9 | Subaraknoidalblødning | 0,9985 | Mest biologisk plausible; kandidat for prekliniske oppfølgingsstudier |
+| 10 | Isolert genetisk hårskaftavvik | 0,9985 | Ingen kjent mekanisme |
 
 Blant alle de predikerte indikasjonene har subaraknoidalblødning den mest biologisk plausible begrunnelsen. Prekliniske studier antyder at substans P/NK1-signalering bidrar til brudd på blod-hjerne-barrieren og hjerneødem etter hjerneskade.
 
@@ -104,7 +105,7 @@ For informasjon: Under rang 3 (pulmonal hypertensjon) ble én publikasjon koblet
 |---------|------|------|-----------|
 | EMEA/H/C/000527 | Emend | Ikke oppgitt | Oppkast; postoperativ kvalme og oppkast; kreft |
 
-Tillatelsen har status avregistrert. Det finnes ingen gyldige tillatelser for enkeltpreparater eller kombinasjonspreparater.
+Tillatelsen er gyldig. Legemidlet er markedsført i Norge, med 1 gyldig tillatelse av 1.
 
 ---
 
@@ -125,7 +126,7 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for NSIAD har kun modellscore som støtte (evidensnivå L5). Det finnes ingen kliniske studier eller litteratur, og mekanismen er lite sannsynlig siden NSIAD skyldes en V2-reseptordefekt nedstrøms for vasopressin. Legemidlet har dessuten ingen gyldig tillatelse i Norge.
+Prediksjonen for NSIAD har kun modellscore som støtte (evidensnivå L5). Det finnes ingen kliniske studier eller litteratur, og mekanismen er lite sannsynlig siden NSIAD skyldes en V2-reseptordefekt nedstrøms for vasopressin. Legemidlet er markedsført i Norge, med 1 gyldig tillatelse av 1.
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (kritisk datamangel som blokkerer sikkerhetsscreening)

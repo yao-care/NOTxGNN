@@ -4,17 +4,17 @@ title: Plerixafor
 parent: Kun modellprediksjon (L5)
 nav_order: 330
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Plerixafor: predikert ny indikasjon Indolent plasmacellemyelom (evidensnivå L5). Opprinnelig indikasjon: Myelomatose, stamcelletransplantasjon (mobilisering) og lymfom"
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
+description: "Plerixafor: predikert ny indikasjon CMM7 (evidensnivå L5). Opprinnelig indikasjon: Multiple Myeloma"
 ---
 
 # Plerixafor
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-## Plerixafor: Fra myelomatose og stamcellemobilisering til indolent plasmacellemyelom
+## Plerixafor: CMM7
 {: .text-alpha }
 
 ## Oppsummering
 
 Plerixafor brukes som stamcellemobiliserende middel hos pasienter med myelomatose og lymfom som skal gjennomgå autolog stamcelletransplantasjon.
-TxGNN-modellen predikerer at legemidlet kan være nyttig ved **indolent plasmacellemyelom** (score 99,97 %).
 For denne diagnosen foreligger det **0 kliniske studier** og **0 publikasjoner** i de innsamlede dataene, så prediksjonen er kun modellbasert.
 
 ---
@@ -48,12 +47,12 @@ For denne diagnosen foreligger det **0 kliniske studier** og **0 publikasjoner**
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Myelomatose, stamcelletransplantasjon (mobilisering) og lymfom |
-| Predikert ny indikasjon | Indolent plasmacellemyelom |
-| TxGNN-prediksjonsscore | 99,97 % |
+| Opprinnelig indikasjon | Multiple Myeloma;Hematopoietic Stem Cell Transplantation;Lymphoma; Multiple Myeloma;Hematopoietic Stem Cell Transplantation |
+| Predikert ny indikasjon | CMM7 |
+| TxGNN-prediksjonsscore | 0.9934 |
 | Evidensnivå | L5 (kun modellprediksjon) |
-| Markedsstatus i Norge | Kun kansellerte godkjenninger |
-| Antall godkjenninger | 2 (begge kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold (avvent) |
 
 ---
@@ -62,7 +61,7 @@ For denne diagnosen foreligger det **0 kliniske studier** og **0 publikasjoner**
 
 Plerixafor er en CXCR4-antagonist. Den blokkerer samspillet mellom CXCR4 og CXCL12, som holder blodstamceller, og trolig også myelomceller, forankret i beinmargsnisjen. Detaljerte mekanismedata fra legemiddeldatabasen mangler, men CXCR4 er bekreftet som legemidlets primære mål, i tillegg til ACKR3.
 
-Den høye scoren gjenspeiler sannsynligvis at indolent plasmacellemyelom ligger tett opp mot den godkjente myelomindikasjonen i kunnskapsgrafen. Mekanismen kan i teorien forstyrre myelomcellenes tilknytning til beinmargen. Bruken ved myelom i dag er imidlertid mobilisering av stamceller til høydosebehandling, ikke en sykdomsmodifiserende behandling. Det finnes ingen studier som viser effekt på selve sykdommen i den indolente undergruppen.
+Mekanismen kan i teorien forstyrre myelomcellenes tilknytning til beinmargen. Bruken ved myelom i dag er imidlertid mobilisering av stamceller til høydosebehandling, ikke en sykdomsmodifiserende behandling. Det finnes ingen studier som viser effekt på selve sykdommen i den indolente undergruppen.
 
 ---
 
@@ -80,7 +79,7 @@ Foreløpig er ingen relatert litteratur tilgjengelig for indolent plasmacellemye
 
 ## Alternativ prediksjon med evidens: myeloid leukemi
 
-Blant de øvrige prediksjonene er **myeloid leukemi** (rang 7, score 99,02 %) den eneste med et betydelig studiegrunnlag. Her brukes plerixafor for å løsne leukemiceller fra beinmargsnisjen og dermed gjøre dem mer følsomme for cellegift (kjemosensibilisering). Det er funnet 25 kliniske studier og 20 publikasjoner. Datagrunnlaget består hovedsakelig av tidligfase- og enkeltarmstudier, og ingen fase 3-RCT viser overlevelsesgevinst.
+Blant de øvrige prediksjonene er **myeloid leukemi** (rang 7, score 0,9902) den eneste med et betydelig studiegrunnlag. Her brukes plerixafor for å løsne leukemiceller fra beinmargsnisjen og dermed gjøre dem mer følsomme for cellegift (kjemosensibilisering). Det er funnet 25 kliniske studier og 20 publikasjoner. Datagrunnlaget består hovedsakelig av tidligfase- og enkeltarmstudier, og ingen fase 3-RCT viser overlevelsesgevinst.
 
 | Studie | Fase | Status | Antall | Hovedfunn |
 |---------|------|------|------|---------|
@@ -108,7 +107,6 @@ Blant de øvrige prediksjonene er **myeloid leukemi** (rang 7, score 99,02 %) de
 | EMEA/H/C/001030 | Mozobil (Sanofi B.V.) | Kansellert | Myelomatose, stamcelletransplantasjon, lymfom |
 | EMEA/H/C/005943 | Plerixafor Accord (Accord Healthcare S.L.U.) | Kansellert | Myelomatose, stamcelletransplantasjon |
 
-Begge godkjenningene er kansellert, og det finnes ingen gyldige godkjenninger i dataene.
 
 ---
 

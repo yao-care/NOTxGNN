@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Paclitaxel
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 304
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Paclitaxel: predikert ny indikasjon Kvinnelig brystkarsinom (female breast carcinoma) (evidensnivå L2). Opprinnelig indikasjon: Brystkreft, bukspyttkjertelkreft, ikke-småcellet lungekreft"
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Paclitaxel: predikert ny indikasjon Parameningeal embryonal rhabdomyosarcoma (evidensnivå L5). Opprinnelig indikasjon: Breast Neoplasms"
 ---
 
 # Paclitaxel
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Paklitaksel: Fra brystkreft, bukspyttkjertelkreft og ikke-småcellet lungekreft til kvinnelig brystkarsinom
+## Paclitaxel: Parameningeal embryonal rhabdomyosarcoma
 {: .text-alpha }
 
 ## Enkeltsetningssammendrag
 
 Paklitaksel er et cellegiftmiddel (taksan) som opprinnelig brukes mot brystkreft, bukspyttkjertelkreft og ikke-småcellet lungekreft.
-TxGNN-modellen predikerer at det kan være effektivt ved **kvinnelig brystkarsinom** (score 99,99 %). Dette er imidlertid en indikasjon som allerede er godkjent, og ikke reell ompropulsering.
+Dette er imidlertid en indikasjon som allerede er godkjent, og ikke reell ompropulsering.
 Foreløpig støttes retningen av **45 kliniske studier** og **20 publikasjoner** i de innsamlede dataene, men studielisten for denne indikasjonen inneholder bare fase 1- og fase 2-studier som hovedtyngde.
 
 ---
@@ -48,11 +48,12 @@ Foreløpig støttes retningen av **45 kliniske studier** og **20 publikasjoner**
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Brystkreft, bukspyttkjertelkreft, ikke-småcellet lungekreft |
-| Predikert ny indikasjon | Kvinnelig brystkarsinom (female breast carcinoma) |
-| TxGNN-prediksjonsscore | 99,995 % |
-| Evidensnivå | L2 |
-| Markedsstatus i Norge | Kun kansellerte tillatelser |
+| Opprinnelig indikasjon | Breast Neoplasms;Pancreatic Neoplasms;Carcinoma, Non-Small-Cell Lung; Breast Neoplasms |
+| Predikert ny indikasjon | Parameningeal embryonal rhabdomyosarcoma |
+| TxGNN-prediksjonsscore | 0.9973 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 4 av 4) |
+| Antall godkjenninger | 4 (gyldige: 4) |
 | Antall tillatelser | 4 (alle kansellert) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med sikkerhetstiltak) |
 
@@ -108,7 +109,6 @@ Flere av publikasjonene er eldre oversikter eller prekliniske studier. Det er in
 
 ## Markedsinformasjon for Norge
 
-Alle fire tillatelser er kansellert, og det finnes ingen gyldige markedsføringstillatelser.
 
 | Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|

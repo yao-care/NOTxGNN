@@ -48,10 +48,10 @@ Kabotegravir er en integrasehemmer som opprinnelig brukes til behandling og fore
 |------|------|
 | Opprinnelig indikasjon | HIV-infeksjon |
 | Predikert ny indikasjon | Revmatoid artritt |
-| TxGNN-prediksjonsscore | 99,45 % |
+| TxGNN-prediksjonsscore | 0,9945 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrerte godkjenninger (ingen gyldige) |
-| Antall godkjenninger | 2 (begge avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -60,16 +60,16 @@ Kabotegravir er en integrasehemmer som opprinnelig brukes til behandling og fore
 
 Data om virkningsmekanisme er ikke tilgjengelig i dataene som er samlet inn for denne rapporten. Kabotegravir er kjent som en HIV-integrase-strengoverføringshemmer (INSTI), og effekten ved HIV er godt etablert.
 
-Revmatoid artritt er en autoimmun sykdom drevet av cytokiner og betennelse i synovialvev. Det finnes ingen kjent mekanisme som kobler hemming av HIV-integrase til disse prosessene. Den høye TxGNN-scoren (0,9945) er en beregningsmessig prediksjon og kan skyldes mønstre i kunnskapsgrafen i stedet for biologisk sammenheng. Likheten mellom opprinnelig og ny indikasjon er ikke vurdert.
+Revmatoid artritt er en autoimmun sykdom drevet av cytokiner og betennelse i synovialvev. Det finnes ingen kjent mekanisme som kobler hemming av HIV-integrase til disse prosessene. Den høye TxGNN-scoren (0,9945) kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Likheten mellom opprinnelig og ny indikasjon er ikke vurdert.
 
 Andre prediksjoner fra modellen er like uten støtte i evidens:
 
 | Rang | Predikert indikasjon | Score | Evidensnivå |
 |------|------|------|------|
-| 2 | Sklerote­rende kolangitt | 99,22 % | L5 |
-| 3 | Bronkitt | 99,19 % | L5 |
-| 4 | Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom | 99,16 % | L5 |
-| 5 | Alvorlig ikke-proliferativ diabetisk retinopati | 99,03 % | L5 |
+| 2 | Sklerote­rende kolangitt | 0,9922 | L5 |
+| 3 | Bronkitt | 0,9919 | L5 |
+| 4 | Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom | 0,9916 | L5 |
+| 5 | Alvorlig ikke-proliferativ diabetisk retinopati | 0,9903 | L5 |
 
 For disse er det heller ikke funnet kliniske studier eller litteratur. For skleroserende kolangitt må leversikkerhet og risiko for kolestase vurderes nøye før eventuell videre behandling. Den sjeldne utviklingsforstyrrelsen er sannsynligvis et artefakt av sparsomme nettverksdata.
 
@@ -91,10 +91,10 @@ Foreløpig finnes det ingen relatert litteratur.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/005756 | Apretude (avregistrert) | – | HIV-infeksjon |
-| EMEA/H/C/004976 | Vocabria (avregistrert) | – | HIV-infeksjon |
+| EMEA/H/C/005756 | Apretude (godkjent) | – | HIV-infeksjon |
+| EMEA/H/C/004976 | Vocabria (godkjent) | – | HIV-infeksjon |
 
-Begge godkjenningene er avregistrert, og det finnes ingen gyldige godkjenninger i dataene.
+Begge godkjenningene er gyldige, og legemidlet er markedsført i Norge.
 
 ---
 
@@ -119,7 +119,7 @@ Se preparatomtalen for sikkerhetsinformasjon om advarsler og kontraindikasjoner,
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for revmatoid artritt bygger utelukkende på en modellscore uten kliniske studier, litteratur eller kjent mekanistisk sammenheng (evidensnivå L5). I tillegg har legemidlet ingen gyldig markedsføringstillatelse i Norge i dag.
+Prediksjonen for revmatoid artritt bygger utelukkende på en modellscore uten kliniske studier, litteratur eller kjent mekanistisk sammenheng (evidensnivå L5). Legemidlet er markedsført i Norge, med 2 gyldige markedsføringstillatelser av 2.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) for å kunne vurdere en mulig mekanistisk kobling til autoimmun betennelse

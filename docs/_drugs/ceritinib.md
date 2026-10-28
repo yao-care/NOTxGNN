@@ -4,7 +4,7 @@ title: Ceritinib
 parent: Kun modellprediksjon (L5)
 nav_order: 91
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Ceritinib: predikert ny indikasjon Gingival fibromatose (evidensnivå L5). Opprinnelig indikasjon: Ikke-småcellet lungekreft (Carcinoma, Non-Small-Cell Lung)"
 monitor_inn: "CERITINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Ceritinib
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtte
 |------|------|
 | Opprinnelig indikasjon | Ikke-småcellet lungekreft (Carcinoma, Non-Small-Cell Lung) |
 | Predikert ny indikasjon | Gingival fibromatose |
-| TxGNN-prediksjonsscore | 99,86 % |
+| TxGNN-prediksjonsscore | 0,9986 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldig godkjenning) |
-| Antall godkjenninger | 1 (avregistrert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtte
 
 Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i dataene som er sammenstilt for denne rapporten. Ut fra kjent informasjon er ceritinib en hemmer av ALK, IGF-1R og ROS1. Effekten er vist ved ALK-positiv ikke-småcellet lungekreft, blant annet i fase 3-studien ASCEND-4 (PMID 28126333).
 
-Det er ikke påvist noen mekanistisk sammenheng mellom disse målene og gingival fibromatose, som er en arvelig eller legemiddelindusert fibrotisk overvekst av tannkjøttet. Den høye modellscoren (99,86 %) er derfor ikke støttet av kliniske eller litteraturbaserte data. Prediksjonen bør regnes som uvalidert.
+Det er ikke påvist noen mekanistisk sammenheng mellom disse målene og gingival fibromatose, som er en arvelig eller legemiddelindusert fibrotisk overvekst av tannkjøttet. Den høye modellscoren (0,9986) er derfor ikke støttet av kliniske eller litteraturbaserte data. Prediksjonen bør regnes som uvalidert.
 
 Av de ti predikerte indikasjonene i dataene er det kun to (lungerelaterte svulster) som har litteratur, og denne gjelder i hovedsak ALK-positiv NSCLC, altså den opprinnelige indikasjonen, og ikke de predikerte tilstandene.
 
@@ -84,7 +84,7 @@ Foreløpig er det ingen relevant litteratur tilgjengelig for gingival fibromatos
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/003819 | Zykadia (Novartis Europharm Limited) | Ikke oppgitt | Ikke-småcellet lungekreft (status: avregistrert) |
+| EMEA/H/C/003819 | Zykadia (Novartis Europharm Limited) | Ikke oppgitt | Ikke-småcellet lungekreft (status: godkjent) |
 
 ---
 
@@ -121,7 +121,7 @@ Data om advarsler og kontraindikasjoner fra pakningsvedlegget er ikke tilgjengel
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er basert utelukkende på modellscore (evidensnivå L5), uten kliniske studier, litteratur eller plausibel mekanistisk kobling til gingival fibromatose. I tillegg har ceritinib ingen gyldig godkjenning i Norge i dag.
+Prediksjonen er basert utelukkende på modellscore (evidensnivå L5), uten kliniske studier, litteratur eller plausibel mekanistisk kobling til gingival fibromatose. I tillegg er ceritinib markedsført i Norge, med 1 gyldig godkjenning av 1.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank, og en vurdering av om ALK/IGF-1R/ROS1-hemming har biologisk relevans for fibrotisk overvekst av tannkjøtt

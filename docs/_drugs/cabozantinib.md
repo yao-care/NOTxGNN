@@ -4,7 +4,7 @@ title: Cabozantinib
 parent: Kun modellprediksjon (L5)
 nav_order: 76
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Cabozantinib: predikert ny indikasjon Liposarkom (evidensnivå L5). Opprinnelig indikasjon: Nyrecellekarsinom og hepatocellulært karsinom"
 monitor_inn: "CABOZANTINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophi
 # Cabozantinib
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Støtten er foreløpig begrenset: **1 klinisk studie** (fase 2, pågår) og **1 
 |------|------|
 | Opprinnelig indikasjon | Nyrecellekarsinom og hepatocellulært karsinom |
 | Predikert ny indikasjon | Liposarkom |
-| TxGNN-prediksjonsscore | 99,83 % |
-| Evidensnivå | L3 (kun tidligfase-data for bløtvevssarkom; ingen liposarkomspesifikke resultater) |
-| Markedsstatus i Norge | Kun avregistrerte (opphevede) godkjenninger |
-| Antall godkjenninger | 2 (begge avregistrert) |
+| TxGNN-prediksjonsscore | 0,9983 |
+| Evidensnivå | L5 (kun tidligfase-data for bløtvevssarkom; ingen liposarkomspesifikke resultater) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -90,8 +90,8 @@ Studien er relevant for sarkomgruppen, men ikke spesifikk for liposarkom. Fordi 
 
 | Godkjenningsnummer | Produktnavn | Status | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/004163 | Cabometyx | Avregistrert | Nyrecellekarsinom, hepatocellulært karsinom |
-| EMEA/H/C/002640 | Cometriq | Avregistrert | Skjoldbruskkjertelkreft |
+| EMEA/H/C/004163 | Cabometyx | Godkjent | Nyrecellekarsinom, hepatocellulært karsinom |
+| EMEA/H/C/002640 | Cometriq | Godkjent | Skjoldbruskkjertelkreft |
 
 Begge godkjenningene er registrert som avregistrert. Tilgjengelighet og regulatorisk status må derfor verifiseres før en eventuell videre satsing.
 
@@ -131,7 +131,7 @@ For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se pakningsv
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den høye TxGNN-scoren støttes bare av én pågående fase 2-studie og én fase 1-studie. Begge gjelder bløtvevssarkom generelt og kombinasjonsbehandling, ikke liposarkom spesifikt. I tillegg er alle norske godkjenninger avregistrert.
+Den høye TxGNN-scoren (0,9983) kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. Den støttes bare av én pågående fase 2-studie og én fase 1-studie. Begge gjelder bløtvevssarkom generelt og kombinasjonsbehandling, ikke liposarkom spesifikt. Legemidlet er markedsført i Norge, og 2 av 2 godkjenninger er gyldige.
 
 **For å gå videre trengs følgende:**
 - Resultater fra NCT05836571, med subgruppeanalyse for liposarkom

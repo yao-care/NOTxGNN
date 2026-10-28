@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt ved **C1-hemmermange
 |------|------|
 | Opprinnelig indikasjon | Arvelig angioødem |
 | Predikert ny indikasjon | C1-hemmermangel (C1 inhibitor deficiency) |
-| TxGNN-prediksjonsscore | 99,99 % |
+| TxGNN-prediksjonsscore | 0,9999 |
 | Evidensnivå | L1 |
-| Markedsstatus i Norge | Kun opphevede godkjenninger (ingen gyldige) |
-| Antall godkjenninger | 2 (begge opphevet) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Proceed with Guardrails (Fortsett med forbehold) |
 
 ---
@@ -110,7 +110,7 @@ Merk: Studiene gjelder hovedsakelig arvelig angioødem. Ingen av dem er en kontr
 | EMEA/H/C/000899 | Firazyr (Takeda Pharmaceuticals International AG) | Ikke oppgitt | Arvelig angioødem (opphevet) |
 | EMEA/H/C/005083 | Icatibant Accord (Accord Healthcare S.L.U.) | Ikke oppgitt | Arvelig angioødem (opphevet) |
 
-Begge godkjenningene er registrert som opphevet, og det finnes ingen gyldige godkjenninger i dataene.
+Begge godkjenningene (2 av 2) er gyldige, og legemidlet er markedsført.
 
 ---
 

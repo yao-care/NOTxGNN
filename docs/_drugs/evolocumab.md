@@ -50,10 +50,10 @@ men det finnes **0 kliniske studier** og **0 publikasjoner** som støtter denne 
 |------|------|
 | Opprinnelig indikasjon | Dyslipidemi; hyperkolesterolemi |
 | Predikert ny indikasjon | Symptomatisk hemofili hos kvinnelige bærere |
-| TxGNN-prediksjonsscore | 99,82 % |
+| TxGNN-prediksjonsscore | 0.9982 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellerte registreringer |
-| Antall godkjenninger | 1 (kansellert) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -64,17 +64,17 @@ Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelig i de innsa
 
 Symptomer hos kvinnelige hemofilibærere skyldes redusert nivå av koagulasjonsfaktor VIII eller IX som følge av X-bundne varianter. Dette er en mekanisme uten kjent forbindelse til PCSK9 eller lipidmetabolisme. Vi har ikke identifisert noen plausibel mekanistisk kobling.
 
-Den høye TxGNN-scoren (0,998) er utelukkende en prediksjon fra kunnskapsgrafen og støttes ikke av noen studie eller publikasjon. Den bør derfor tolkes med stor forsiktighet.
+Den høye TxGNN-scoren (0,9982) er utelukkende en prediksjon fra TxGNN-modellen (dyp læring) og støttes ikke av noen studie eller publikasjon. Den bør derfor tolkes med stor forsiktighet.
 
 ### Andre predikerte indikasjoner (til orientering)
 
 | Rang | Predikert indikasjon | TxGNN-score | Vurdering |
 |------|------|------|------|
-| 2 | Familiær apolipoprotein C-II-mangel | 99,50 % | Kun indirekte biologisk plausibilitet. Evolocumab senker hovedsakelig LDL-C og korrigerer ikke defekten i LPL-aktivering. Nytte er lite sannsynlig. |
-| 3 | Trombocytopenisk purpura | 99,42 % | Ingen kjent mekanistisk kobling til PCSK9-hemming. |
-| 4 | Faktor XI-mangel | 99,29 % | Evolocumab påvirker ikke koagulasjonskaskaden. |
-| 5 | Hemofili A med vaskulær abnormitet | 99,22 % | PCSK9-hemming påvirker ikke produksjon eller funksjon av faktor VIII. |
-| 6 | Sykdom med katalytisk aktivitet | 99,08 % | Svært bred ontologikategori, ikke en klinisk indikasjon som kan evalueres. |
+| 2 | Familiær apolipoprotein C-II-mangel | 0,9950 | Kun indirekte biologisk plausibilitet. Evolocumab senker hovedsakelig LDL-C og korrigerer ikke defekten i LPL-aktivering. Nytte er lite sannsynlig. |
+| 3 | Trombocytopenisk purpura | 0,9942 | Ingen kjent mekanistisk kobling til PCSK9-hemming. |
+| 4 | Faktor XI-mangel | 0,9929 | Evolocumab påvirker ikke koagulasjonskaskaden. |
+| 5 | Hemofili A med vaskulær abnormitet | 0,9922 | PCSK9-hemming påvirker ikke produksjon eller funksjon av faktor VIII. |
+| 6 | Sykdom med katalytisk aktivitet | 0,9908 | Svært bred ontologikategori, ikke en klinisk indikasjon som kan evalueres. |
 
 Alle har evidensnivå L5 og anbefalingen Hold.
 
@@ -98,7 +98,7 @@ Foreløpig finnes ingen relatert litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/003766 | Repatha (Amgen Europe B.V.) | Ikke oppgitt | Dyslipidemi; hyperkolesterolemi |
 
-Registreringen har status kansellert, og det finnes ingen gyldige godkjenninger.
+Det finnes 1 gyldig godkjenning av 1, og legemidlet er markedsført i Norge.
 
 ---
 

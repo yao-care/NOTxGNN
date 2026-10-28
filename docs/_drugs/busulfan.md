@@ -48,9 +48,10 @@ Busulfan er et alkylerende cellegiftmiddel som opprinnelig brukes som kondisjone
 |------|------|
 | Opprinnelig indikasjon | Hematopoetisk stamcelletransplantasjon |
 | Predikert ny indikasjon | Myelodysplastisk syndrom |
-| TxGNN-prediksjonsscore | 99,62 % |
+| TxGNN-prediksjonsscore | 0,9962 |
 | Evidensnivå | L2 |
-| Markedsstatus i Norge | Kun trukket tilbake (ingen gyldige markedsføringstillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (trukket tilbake) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
 
@@ -106,7 +107,7 @@ Et utvalg av de mest relevante studiene for MDS (opptil 10):
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/002806 | Busulfan Fresenius Kabi | Ikke oppgitt | Hematopoetisk stamcelletransplantasjon (status: trukket tilbake) |
+| EMEA/H/C/002806 | Busulfan Fresenius Kabi | Ikke oppgitt | Hematopoetisk stamcelletransplantasjon (status: godkjent) |
 
 ---
 
@@ -158,7 +159,7 @@ Detaljerte data fra preparatomtalen (advarsler og kontraindikasjoner) er ikke ti
 
 **Begrunnelse:**
 - Flere fase 2-studier, to fullførte fase 3-studier (NCT00005866, NCT00822393) og randomiserte publikasjoner viser at busulfan er en etablert kondisjoneringskomponent ved MDS-transplantasjon. Dette er likevel bruk som del av transplantasjon, og ikke selvstendig MDS-behandling.
-- Det finnes ingen gyldig norsk markedsføringstillatelse (kun én trukket tilbake), og sikkerhetsdata fra preparatomtalen mangler.
+- Det finnes én gyldig norsk markedsføringstillatelse (1 av 1), legemidlet er markedsført, og sikkerhetsdata fra preparatomtalen mangler.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtalen (advarsler og kontraindikasjoner), da dette er en blokkerende datamangel for sikkerhetsscreening

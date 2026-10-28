@@ -17,11 +17,11 @@
   "extension": [
     {
       "url": "https://notxgnn.yao.care/fhir/StructureDefinition/evidence-level",
-      "valueCode": "L5"
+      "valueCode": "L3"
     },
     {
       "url": "https://notxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
-      "valueDecimal": 0.5
+      "valueDecimal": 0.9944
     }
   ]
 }

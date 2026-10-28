@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Asenapin: Fra bipolar lidelse til retinal dystrofi (modellprediksjon)
+## Asenapin: Fra bipolar lidelse til Retinal dystrofi med eller uten ekstraokulære avvik (modellprediksjon)
 {: .text-alpha }
 
 ## Énlinjes sammendrag
@@ -50,9 +50,10 @@ Blant de ti høyest rangerte prediksjonene har kun «major affective disorder» 
 |------|------|
 | Opprinnelig indikasjon | Bipolar lidelse |
 | Predikert ny indikasjon | Retinal dystrofi med eller uten ekstraokulære avvik |
-| TxGNN-prediksjonsscore | 99,77 % |
+| TxGNN-prediksjonsscore | 0,9977 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (ingen gyldig markedsføringstillatelse) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (trukket tilbake) |
 | Anbefalt beslutning | Hold |
 
@@ -62,7 +63,7 @@ Blant de ti høyest rangerte prediksjonene har kun «major affective disorder» 
 
 Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten. Ut fra farmakologiske data virker asenapin på flere reseptorer: serotonin 5-HT1A, 5-HT1B, 5-HT1D, 5-HT1E og 5-HT2A, dopamin D2 og histamin H1. Dette er en typisk profil for et atypisk antipsykotikum, med sterkere affinitet for 5-HT2A enn for D2.
 
-Det er ikke påvist noen mekanistisk sammenheng mellom denne reseptorprofilen og arvelig retinal dystrofi. Den høye modellscoren (99,77 %) er en beregnet prediksjon uten støtte i studier eller publikasjoner. Forholdet mellom den opprinnelige og den nye indikasjonen er ikke vurdert (ikke fastslått), og ruteforenlighet er heller ikke vurdert.
+Det er ikke påvist noen mekanistisk sammenheng mellom denne reseptorprofilen og arvelig retinal dystrofi. Den høye modellscoren (0,9977) er en beregnet prediksjon uten støtte i studier eller publikasjoner. Forholdet mellom den opprinnelige og den nye indikasjonen er ikke vurdert (ikke fastslått), og ruteforenlighet er heller ikke vurdert.
 
 Det samme mønsteret gjelder de øvrige høyt rangerte prediksjonene (blant annet glykosyleringsdefekt, hydranencefali, ulike former for myopi, Charcot-Marie-Tooth type 1G, polymikrogyri og atypisk glycinencefalopati): ingen av dem har kliniske data eller en plausibel farmakologisk begrunnelse. Dopaminerg signalering er generelt omtalt i myopiforskning, men dette er kun en spekulativ kobling.
 
@@ -101,7 +102,7 @@ Til sammenligning finnes det litteratur for den tiende prediksjonen, «major aff
 |---------|------|------|-----------|
 | EMEA/H/C/001177 | Sycrest | (ikke oppgitt) | Bipolar lidelse |
 
-Denne tillatelsen er trukket tilbake. Det finnes dermed ingen gyldig markedsføringstillatelse for asenapin i datagrunnlaget.
+Denne tillatelsen er gyldig. Det finnes dermed én gyldig markedsføringstillatelse av totalt én for asenapin i datagrunnlaget, og legemidlet er markedsført.
 
 ---
 

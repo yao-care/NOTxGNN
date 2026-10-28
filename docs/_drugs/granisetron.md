@@ -50,10 +50,10 @@ Verken kliniske studier eller publikasjoner i de innsamlede dataene støtter ret
 |------|------|
 | Opprinnelig indikasjon | Oppkast; kreft |
 | Predikert ny indikasjon | Manisk bipolar lidelse |
-| TxGNN-prediksjonsscore | 99,62 % |
+| TxGNN-prediksjonsscore | 0,9962 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (kansellert) |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -64,21 +64,21 @@ Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Gr
 
 Serotonerg og dopaminerg dysregulering antas å spille en rolle ved mani. Hemming av 5-HT3-reseptorer kan derfor tenkes å påvirke disse signalveiene. Koblingen er plausibel, men ubekreftet, og er utledet fra generell farmakologi og ikke fra data om granisetron spesifikt.
 
-Den høye modellscoren (0,996) er ikke i seg selv bevis for klinisk effekt. Den kan også gjenspeile nærhet i kunnskapsgrafen snarere enn biologisk sammenheng.
+Den høye modellscoren (0,9962) er ikke i seg selv bevis for klinisk effekt. Scoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
 
 ### Andre predikerte indikasjoner (alle L5, Hold)
 
 | Rang | Predikert indikasjon | Score | Vurdering av mekanisme |
 |------|------|------|------|
-| 2 | Tourettes syndrom | 99,52 % | Konseptuelt relevant via dopaminerg modulering; ingen data for granisetron |
-| 3 | Akutt smittsom konjunktivitt | 99,49 % | Ingen klar mekanisme; trolig nettverksartefakt |
-| 4 | Angioødem | 99,36 % | Spekulativ kobling via serotonin og vaskulær permeabilitet |
-| 5 | Allergisk urtikaria | 99,32 % | Hypotetisk kobling via kløe og mastcellerespons |
-| 6 | Nefrogent syndrom med uhensiktsmessig antidiurese | 99,32 % | Ingen kjent mekanisme; trolig nettverksartefakt |
-| 7 | Trikotillomani | 99,23 % | Serotonerg modulering relevant for OCD-spekteret; ingen data |
-| 8 | Bronkitt | 99,18 % | Spekulativ; ingen støttende evidens |
-| 9 | Kuldeurtikaria | 99,10 % | Spekulativ; ingen definert mekanisme |
-| 10 | Konjunktivitt | 99,09 % | Ingen etablert mekanisme |
+| 2 | Tourettes syndrom | 0,9952 | Konseptuelt relevant via dopaminerg modulering; ingen data for granisetron |
+| 3 | Akutt smittsom konjunktivitt | 0,9949 | Ingen klar mekanisme; trolig nettverksartefakt |
+| 4 | Angioødem | 0,9936 | Spekulativ kobling via serotonin og vaskulær permeabilitet |
+| 5 | Allergisk urtikaria | 0,9932 | Hypotetisk kobling via kløe og mastcellerespons |
+| 6 | Nefrogent syndrom med uhensiktsmessig antidiurese | 0,9932 | Ingen kjent mekanisme; trolig nettverksartefakt |
+| 7 | Trikotillomani | 0,9923 | Serotonerg modulering relevant for OCD-spekteret; ingen data |
+| 8 | Bronkitt | 0,9918 | Spekulativ; ingen støttende evidens |
+| 9 | Kuldeurtikaria | 0,9910 | Spekulativ; ingen definert mekanisme |
+| 10 | Konjunktivitt | 0,9909 | Ingen etablert mekanisme |
 
 ---
 
@@ -100,7 +100,7 @@ Det er for øyeblikket ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/002296 | Sancuso | Ikke oppgitt | Oppkast; kreft (status: kansellert) |
 
-Det finnes ingen gyldige markedsføringstillatelser for granisetron i datagrunnlaget.
+Granisetron er markedsført, med 1 gyldig markedsføringstillatelse av 1 i datagrunnlaget.
 
 ---
 

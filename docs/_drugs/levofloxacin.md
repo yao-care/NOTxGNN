@@ -49,10 +49,10 @@ TxGNN-modellen predikerer at det kan være effektivt mot **punktformet epitelial
 |------|------|
 | Opprinnelig indikasjon | Cystisk fibrose; luftveisinfeksjoner |
 | Predikert ny indikasjon | Punktformet epitelial keratokonjunktivitt |
-| TxGNN-prediksjonsscore | 99,92 % |
+| TxGNN-prediksjonsscore | 0,9992 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun kansellert |
-| Antall godkjenninger | 1 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---

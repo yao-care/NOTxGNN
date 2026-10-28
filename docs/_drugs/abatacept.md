@@ -3,18 +3,18 @@ layout: default
 title: Abatacept
 parent: Moderat evidens (L3-L4)
 nav_order: 13
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Abatacept: predikert ny indikasjon Revmatoid vaskulitt (evidensnivå L4). Opprinnelig indikasjon: Psoriasisartritt, juvenil revmatoid artritt, revmatoid artritt"
+evidence_level: L3
+indication_count: 7
 monitor_inn: "ABATACEPT"
-predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "spondyloarthropathy, susceptibility to", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+last_modified_at: 2026-10-27
+description: "Abatacept: predikert ny indikasjon Ankyloserende spondylitt (ankylosing spondylitis) (evidensnivå L3). Opprinnelig indikasjon: Arthritis, Psoriatic"
 ---
 
 # Abatacept
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L3** | Predikerte indikasjoner: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Abatacept: Fra psoriasisartritt, juvenil revmatoid artritt og revmatoid artritt til revmatoid vaskulitt
+## Abatacept: T-celle-kostimuleringshemmer → Ankyloserende spondylitt (ankylosing spondylitis)
 {: .text-alpha }
 
 ## Oppsummering
 
-Abatacept er et CTLA4-Ig-fusjonsprotein som opprinnelig brukes til behandling av revmatoid artritt, juvenil revmatoid artritt og psoriasisartritt.
-TxGNN-modellen predikerer at legemidlet kan ha effekt ved **revmatoid vaskulitt**, men støtten er svak: kun **1 klinisk studie** (uten relevans for abatacept-effekt) og **flere kasuistikker** med motstridende retning.
-Blant de ti predikerte indikasjonene har bare to (inflammatorisk spondylopati og polyartikulær juvenil revmatoid artritt) sterk studiestøtte, men begge overlapper i hovedsak med allerede godkjente indikasjoner.
+Abatacept er et biologisk legemiddel som hemmer kostimulering av T-celler. TxGNN-modellen forutsier at det kan ha effekt ved **ankyloserende spondylitt (ankylosing spondylitis)**.
+
+Dataene som er samlet inn til denne rapporten inneholder **én liten åpen pilotstudie** (fase 2, 30 pasienter) og **én publisert åpen pilotstudie** som direkte omhandler sykdommen. Flere oversiktsartikler konkluderer dessuten med at abatacept ikke har påvist effekt ved aksial sykdom.
 
 ---
 
@@ -48,69 +48,70 @@ Blant de ti predikerte indikasjonene har bare to (inflammatorisk spondylopati og
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Psoriasisartritt, juvenil revmatoid artritt, revmatoid artritt |
-| Predikert ny indikasjon | Revmatoid vaskulitt |
-| TxGNN-prediksjonsscore | 99,91 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun avregistrert (kansellert) |
-| Antall godkjenninger | 1 (kansellert) |
+| Opprinnelig indikasjon | Arthritis, Psoriatic;Arthritis, Juvenile Rheumatoid;Arthritis, Rheumatoid |
+| Foreslått ny indikasjon | Ankyloserende spondylitt (ankylosing spondylitis) |
+| TxGNN-prediksjonsscore | 0,9991 |
+| Evidensnivå | L3 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Abatacept er imidlertid kjent som et CTLA4-Ig-fusjonsprotein som blokkerer CD28-mediert T-celle-kostimulering. Effekten ved revmatoid artritt er dokumentert, og mekanistisk kan den være relevant for revmatoid vaskulitt.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Abatacept er likevel kjent som en blokkering av T-celle-kostimulering via CD28/CTLA-4-banen. Mekanismen er biologisk plausibel ved immunmedierte leddsykdommer, og spondyloartritt tilhører denne gruppen.
 
-Revmatoid vaskulitt er en komplikasjon av revmatoid artritt, en godkjent indikasjon. Immunmediert betennelse i karveggen kan i prinsippet påvirkes av T-celle-modulering.
+Den høye prediksjonsscoren peker på likhet mellom ankyloserende spondylitt og sykdommer legemidlet allerede brukes mot. Klinisk støtte er imidlertid svak. Oversiktsartikler (blant annet Sieper 2016) fremhever at TNF-hemmere og IL-17-hemmere er effektive ved aksial spondyloartritt. Biologiske midler rettet mot T-celler, inkludert abatacept, er derimot ikke vist å være effektive.
 
-Retningen på effekten er likevel uklar. Litteraturen inneholder både en kasuistikk der abatacept var et vellykket behandlingsalternativ, og en kasuistikk der revmatoid vaskulitt oppsto nytt under abatacept-behandling og bedret seg etter rituksimab. Prediksjonen bør derfor regnes som hypotese, ikke som bekreftet effekt.
+Evidensnivået er satt til L3, ikke høyere. Det finnes ingen randomisert kontrollert studie ved denne sykdommen. Tilgjengelig støtte består av åpne, ukontrollerte pilotstudier og oversiktsartikler.
 
 ---
 
-## Evidens fra kliniske studier
+## Kliniske studier
 
-| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
+| Studienummer | Fase | Status | Antall deltakere | Hovedpunkter |
 |---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Rekrutterer | 80 | Håndtering av immunsuppressiva rundt skulderprotesekirurgi hos revmatologipasienter. Evaluerer ikke abatacept ved revmatoid vaskulitt. |
+| [NCT00558506](https://clinicaltrials.gov/study/NCT00558506) | Fase 2 | Ukjent | 30 | Åpen pilotstudie av intravenøs abatacept ved ankyloserende spondylitt, opptil 30 uker. Ukontrollert, ingen resultater i dataene. |
+| [NCT01965132](https://clinicaltrials.gov/study/NCT01965132) | Ikke relevant | Rekrutterer | 10 000 | Nasjonalt koreansk register for biologiske legemidler. Observasjonelt, med sikkerhetsfokus og uten effektsammenligning. |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Rekrutterer | 80 | Håndtering av immunsuppressiva før skulderproteseoperasjon. Ikke en effektstudie av abatacept. |
 
 ---
 
-## Litteraturevidens
+## Litteratur
 
-| PMID | År | Type | Tidsskrift | Hovedfunn |
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
 |------|-----|------|------|---------|
-| [29930884](https://pubmed.ncbi.nlm.nih.gov/29930884/) | 2018 | Kasuistikk | Cureus | Abatacept som behandlingsalternativ ved revmatoid vaskulitt hos pasient med revmatoid artritt og vanlig variabel immunsvikt |
-| [22124545](https://pubmed.ncbi.nlm.nih.gov/22124545/) | 2012 | Kasuistikk | Modern Rheumatology | Rask effekt av abatacept hos pasient som ikke responderte på metotreksat, TNF-hemmere og IL-6-hemmer |
-| [27052429](https://pubmed.ncbi.nlm.nih.gov/27052429/) | 2016 | Kasuistikk | Joint Bone Spine | Nyoppstått revmatoid vaskulitt under abatacept, med bedring etter rituksimab |
-| [30119075](https://pubmed.ncbi.nlm.nih.gov/30119075/) | 2018 | Kasuistikk/oversikt | Ophthalmic Plastic and Reconstructive Surgery | Orbital vaskulitt hos revmatoid artritt-pasient under abatacept |
-| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Kasuistikk | Internal Medicine | ANCA-assosiert nefritt under abatacept og adalimumab, bedret med tocilizumab |
-| [24493331](https://pubmed.ncbi.nlm.nih.gov/24493331/) | 2015 | Kasuistikkbasert oversikt | Clinical Rheumatology | Abatacept som vellykket behandling ved myositt (nærliggende immunmediert tilstand) |
-| [34068884](https://pubmed.ncbi.nlm.nih.gov/34068884/) | 2021 | Oversikt | Journal of Clinical Medicine | Behandlingsperspektiver ved episklerit og sklerit assosiert med revmatoid artritt |
-| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Oversikt | BMC Medicine | Oppdatering om biologisk behandling ved autoimmune sykdommer |
+| [21415053](https://pubmed.ncbi.nlm.nih.gov/21415053/) | 2011 | Åpen pilotstudie | Annals of the Rheumatic Diseases | 24 ukers åpen studie av kortsiktig effekt og sikkerhet av abatacept ved aktiv ankyloserende spondylitt. |
+| [27856659](https://pubmed.ncbi.nlm.nih.gov/27856659/) | 2016 | Oversikt | Rheumatology (Oxford) | Konvensjonelle DMARD og biologiske midler mot IL-1, IL-6 og T-celler (abatacept) beskrives som ikke effektive ved aksial spondyloartritt. TNF-hemmere er svært effektive. |
+| [31171316](https://pubmed.ncbi.nlm.nih.gov/31171316/) | 2018 | Oversikt | Best Pract Res Clin Rheumatol | Behandlingen av spondyloartritt har vært begrenset til TNF-hemmere i nesten 15 år. Secukinumab (IL-17A-hemmer) er et nytt alternativ. |
+| [25488787](https://pubmed.ncbi.nlm.nih.gov/25488787/) | 2014 | Oversikt | Best Pract Res Clin Rheumatol | Behandling av spondyloartritt utover TNF-alfa-blokade. |
+| [29278210](https://pubmed.ncbi.nlm.nih.gov/29278210/) | 2017 | Oversikt | Current Pharmaceutical Biotechnology | Biologiske legemidler ved inflammatorisk artritt, inkludert ankyloserende spondylitt og ikke-radiografisk aksial spondyloartritt. |
+| [21624184](https://pubmed.ncbi.nlm.nih.gov/21624184/) | 2011 | Oversikt | Arthritis Research & Therapy | Nye målrettede behandlinger ved revmatoid artritt, ankyloserende spondylitt og psoriasisartritt. |
+| [18251219](https://pubmed.ncbi.nlm.nih.gov/18251219/) | 2008 | Oversikt | Revue Médicale Suisse | Omtaler abatacept som ny behandling med nytt virkningsprinsipp. Anti-TNF er førstevalg ved ankyloserende spondylitt. |
+| [20959960](https://pubmed.ncbi.nlm.nih.gov/20959960/) | 2011 | Oversikt | Osteoporosis International | Systemiske benvirkninger av biologiske legemidler ved revmatoid artritt og ankyloserende spondylitt. |
+| [31852268](https://pubmed.ncbi.nlm.nih.gov/31852268/) | 2020 | Oversikt/metaanalyse | Expert Review of Clinical Immunology | Infeksjonsrisiko ved biologiske og ikke-biologiske legemidler ved inflammatorisk artritt. |
+| [39963138](https://pubmed.ncbi.nlm.nih.gov/39963138/) | 2025 | Retningslinje/oversikt | Frontiers in Immunology | Håndtering av tuberkuloserisiko og screening hos pasienter med kronisk autoimmun artritt på biologiske og målrettede immunsuppressiva. |
 
 ---
 
 ## Markedsinformasjon for Norge
 
-| Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
-|---------|------|------|-----------|
-| EMEA/H/C/000701 | Orencia | Ikke oppgitt | Psoriasisartritt, juvenil revmatoid artritt, revmatoid artritt (status: kansellert) |
+Ifølge de innsamlede dataene er legemidlet **markedsført** i Norge, og minst én autorisasjon er gyldig.
 
 ---
 
 ## Sikkerhetsvurderinger
 
-- **Legemiddelinteraksjoner:** Det er registrert 73 interaksjoner. Blant dem som er vist i datagrunnlaget, er de viktigste:
-  - **Alvorlige (Major):** adalimumab, baricitinib, certolizumab pegol og levende BCG-vaksine
-  - **Moderate:** blant annet roflumilast, alemtuzumab, anakinra, azatioprin, kanakinumab, alefacept, samt flere levende vaksiner
-  - **Lite alvorlige (Minor):** sinksalter (acetat, glukonat, sulfat, klorid)
+Pakningsvedlegg med advarsler og kontraindikasjoner er ikke tilgjengelig i de innsamlede dataene. Se produktinformasjonen for fullstendig sikkerhetsinformasjon.
 
-  Kombinasjon med andre biologiske legemidler og levende vaksiner krever særlig forsiktighet.
+**Legemiddelinteraksjoner:** Det er registrert 73 interaksjoner. Blant dem som er hentet ut, er de viktigste:
 
-- **Fra litteraturen:** Oversiktsartikler tar opp infeksjonsrisiko (blant annet tuberkulose og herpes zoster) og en metaanalyse om malignitetsrisiko ved abatacept. Disse bør vurderes ved eventuell bruk.
+- **Alvorlig (Major):** adalimumab, baricitinib, certolizumab pegol, levende BCG-vaksine (Bacillus Calmette-Guérin)
+- **Moderat:** roflumilast, alemtuzumab, anakinra, azatioprin, kanakinumab, alefacept, flere vaksiner (blant annet miltbrannvaksine og levende kolera-vaksine)
+- **Mindre (Minor):** sinksalter (acetat, glukonat, sulfat, klorid)
 
-Ellers henvises det til preparatomtalen for fullstendig sikkerhetsinformasjon.
+Samtidig bruk med andre biologiske immunsuppressiva og levende vaksiner krever særlig forsiktighet.
 
 ---
 
@@ -119,18 +120,14 @@ Ellers henvises det til preparatomtalen for fullstendig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-For revmatoid vaskulitt finnes bare kasuistikker med motstridende retning, og ingen kontrollerte studier. Evidensnivået er L4. Produktet er dessuten kun registrert med en kansellert godkjenning i Norge.
+Mekanismen er plausibel, men den eneste direkte kliniske støtten er to små, åpne og ukontrollerte pilotstudier uten tilgjengelige resultater. Flere oversiktsartikler beskriver abatacept som ineffektivt ved aksial spondyloartritt, sammenlignet med TNF- og IL-17-hemmere.
 
-**For å gå videre kreves:**
-- Kontrollerte eller prospektive studier av abatacept ved revmatoid vaskulitt
-- Avklaring av den motstridende signalretningen (effekt kontra nyoppstått vaskulitt under behandling)
-- Data om virkningsmekanisme og tilgang til preparatomtale (advarsler og kontraindikasjoner)
-- Avklaring av markedsstatus i Norge, siden den eneste godkjenningen er kansellert
-
-**Øvrige predikerte indikasjoner (kort):**
-- **Inflammatorisk spondylopati** (evidensnivå L1, «Proceed with Guardrails») og **polyartikulær juvenil revmatoid artritt** (L1, «Proceed with Guardrails») er hovedsakelig bekreftelse av allerede godkjente indikasjoner (psoriasisartritt og juvenil revmatoid artritt), ikke ekte repurposing. For spondylopati bør bruk begrenses til perifere/psoriatiske fenotyper.
-- **Ankyloserende spondylitt** (L2): Kun en liten, ukontrollert fase 2-pilotstudie (NCT00558506, n=30), og oversiktsartikler beskriver abatacept som lite effektivt ved aksial sykdom.
-- **Øvrige** (coccyx-hypermobilitet, Kümmells sykdom, vertebral sykdom, spondyloartropati-mottakelighet, brachydaktyli-syndaktyli-syndrom, kolobomatøs mikroftalmi-rhizomel dysplasi-syndrom): Ingen plausibel mekanistisk kobling eller evidens. Trolig grafbaserte artefakter. Anbefaling: Hold.
+**For å gå videre kreves følgende:**
+- Publiserte resultater fra NCT00558506 og detaljert gjennomgang av den publiserte pilotstudien (PMID 21415053)
+- En randomisert, placebokontrollert studie ved aksial sykdom, hvis det finnes nytt grunnlag for det
+- Vurdering av abatacepts plass i forhold til etablerte TNF- og IL-17-hemmere
+- Pakningsvedlegg med advarsler og kontraindikasjoner til sikkerhetsvurdering
+- Mekanismedata (MOA) som kan underbygge koblingen til aksial sykdom
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

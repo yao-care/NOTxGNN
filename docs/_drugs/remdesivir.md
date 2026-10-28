@@ -6,7 +6,7 @@ nav_order: 354
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
-description: "Remdesivir: predikert ny indikasjon HIV-infeksjon (evidensnivå L5). Opprinnelig indikasjon: COVID-19-virusinfeksjon"
+description: "Remdesivir: predikert ny indikasjon Multippel endokrin neoplasi (evidensnivå L5). Opprinnelig indikasjon: COVID-19-virusinfeksjon"
 monitor_inn: "REMDESIVIR"
 predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "homozygous familial hypercholesterolemia"]
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-## Remdesivir: Fra COVID-19 til HIV-infeksjon
+## Remdesivir: Fra COVID-19 til Multippel endokrin neoplasi
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -50,10 +50,10 @@ Den høyest rangerte prediksjonen, multippel endokrin neoplasi, har ingen støtt
 |------|------|
 | Opprinnelig indikasjon | COVID-19-virusinfeksjon |
 | Predikert ny indikasjon | HIV-infeksjon (rangert som nr. 2; nr. 1 er multippel endokrin neoplasi uten støtte i data) |
-| TxGNN-prediksjonsscore | 99,32 % (HIV-infeksjon); 99,50 % (multippel endokrin neoplasi) |
-| Evidensnivå | L4 (HIV-infeksjon); L5 (multippel endokrin neoplasi) |
-| Markedsstatus i Norge | Kun kansellert |
-| Antall godkjenninger | 1 (kansellert) |
+| TxGNN-prediksjonsscore | 0,9950 |
+| Evidensnivå | L5 (HIV-infeksjon); L5 (multippel endokrin neoplasi) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Data om virkningsmekanisme (MOA) er ikke tilgjengelig i de innsamlede dataene. U
 
 HIV er også et RNA-virus, noe som gir en løs konseptuell begrunnelse. Likevel er HIV-replikasjon avhengig av revers transkriptase og integrasjon i vertens DNA, og remdesivir har ingen etablert anti-HIV-aktivitet. Den høye TxGNN-scoren er derfor først og fremst en grafbasert likhetsprediksjon, ikke en mekanistisk bekreftet kobling.
 
-For de øvrige predikerte indikasjonene (multippel endokrin neoplasi, neuroutviklingsforstyrrelse, homozygot familiær hyperkolesterolemi) er det ikke identifisert noen plausibel mekanistisk kobling. Disse sykdommene skyldes arvelige genetiske defekter som ikke er relatert til remdesivirs antivirale mekanisme. Prediksjonene for felint og simiant immunsviktvirus (dyresykdommer) gjenspeiler trolig likhet med andre lentivirussykdommer i kunnskapsgrafen, uten direkte evidens.
+For de øvrige predikerte indikasjonene (multippel endokrin neoplasi, neuroutviklingsforstyrrelse, homozygot familiær hyperkolesterolemi) er det ikke identifisert noen plausibel mekanistisk kobling. Disse sykdommene skyldes arvelige genetiske defekter som ikke er relatert til remdesivirs antivirale mekanisme. Prediksjonene for felint og simiant immunsviktvirus (dyresykdommer) kommer fra TxGNN-modellen (deep learning) og gjenspeiler trolig likheter modellen har lært mellom beslektede sykdommer, som andre lentivirussykdommer, ikke biologisk evidens.
 
 ---
 

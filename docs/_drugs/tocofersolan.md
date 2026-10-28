@@ -49,9 +49,10 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt mot **amenoré**, men det f
 |------|------|
 | Opprinnelig indikasjon | Kolestase; vitamin E-mangel |
 | Predikert ny indikasjon | Amenoré |
-| TxGNN-prediksjonsscore | 99,31 % |
+| TxGNN-prediksjonsscore | 0,9931 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Kun trukket tilbake (ingen gyldige markedsføringstillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (trukket tilbake) |
 | Anbefalt beslutning | Hold |
 
@@ -61,9 +62,9 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt mot **amenoré**, men det f
 
 Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Ut fra kjent informasjon er tokofersolan en vannløselig vitamin E-formulering (alfa-tokoferol med TPGS) som korrigerer vitamin E-mangel ved kolestase, der fettløselige vitaminer absorberes dårlig.
 
-Det er ikke påvist noen direkte mekanistisk sammenheng mellom dette og amenoré. En spekulativ forklaring er at antioksidante eller ernæringsmessige effekter kan påvirke reproduktiv funksjon, eller at korrigering av malabsorpsjonsrelaterte mangler sekundært kan påvirke menstruasjonsregelmessighet. Ingen kliniske data eller litteratur i datagrunnlaget støtter dette. Den høye scoren (0,993) er en ren beregningsmessig prediksjon.
+Det er ikke påvist noen direkte mekanistisk sammenheng mellom dette og amenoré. En spekulativ forklaring er at antioksidante eller ernæringsmessige effekter kan påvirke reproduktiv funksjon, eller at korrigering av malabsorpsjonsrelaterte mangler sekundært kan påvirke menstruasjonsregelmessighet. Ingen kliniske data eller litteratur i datagrunnlaget støtter dette. Den høye scoren (0,9931) er en ren beregningsmessig prediksjon.
 
-Til sammenligning ble også **akne** predikert (score 99,03 %), men uten støttende studier. Teoretisk kan vitamin E sine antioksidante og betennelsesdempende egenskaper være relevante ved betennelsesprega hudsykdommer, men dette er heller ikke underbygd.
+Til sammenligning ble også **akne** predikert (score 0,9903), men uten støttende studier. Teoretisk kan vitamin E sine antioksidante og betennelsesdempende egenskaper være relevante ved betennelsesprega hudsykdommer, men dette er heller ikke underbygd.
 
 ---
 
@@ -83,7 +84,7 @@ Foreløpig finnes ingen relatert litteratur.
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000920 | Vedrop (Recordati Rare Diseases) – trukket tilbake | – | Kolestase; vitamin E-mangel |
+| EMEA/H/C/000920 | Vedrop (Recordati Rare Diseases) – godkjent | – | Kolestase; vitamin E-mangel |
 
 ---
 

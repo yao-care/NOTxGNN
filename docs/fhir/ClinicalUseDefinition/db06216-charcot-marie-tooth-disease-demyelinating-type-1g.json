@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db06216-charcot-marie-tooth-disease-demyelinating-type-1g",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db06216"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "Charcot-Marie-Tooth disease, demyelinating, type 1G"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://notxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9968
+    }
+  ]
+}

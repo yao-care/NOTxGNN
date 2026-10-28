@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ritonavir
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 364
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Ritonavir: predikert ny indikasjon Simian immunsviktvirus-infeksjon (evidensnivå L4). Opprinnelig indikasjon: HIV-infeksjon"
 monitor_inn: "RITONAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Ritonavir: predikert ny indikasjon Feline acquired immunodeficiency syndrome (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
 # Ritonavir
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-## Ritonavir: Fra HIV-infeksjon til simian immunsviktvirus-infeksjon
+## Ritonavir: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -48,15 +48,15 @@ Støtten er begrenset til **11 publikasjoner** (hovedsakelig dyre- og in vitro-s
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | HIV-infeksjon |
-| Predikert ny indikasjon | Simian immunsviktvirus-infeksjon |
-| TxGNN-prediksjonsscore | 99,92 % |
-| Evidensnivå | L4 |
-| Markedsstatus i Norge | Kun opphevede (kansellerte) godkjenninger |
-| Antall godkjenninger | 5 (alle kansellert) |
+| Opprinnelig indikasjon | HIV Infections; COVID-19 virus infection |
+| Predikert ny indikasjon | Feline acquired immunodeficiency syndrome |
+| TxGNN-prediksjonsscore | 0.9992 |
+| Evidensnivå | L5 |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 5 av 5) |
+| Antall godkjenninger | 5 (gyldige: 5) |
 | Anbefalt beslutning | Hold |
 
-Merk: Godkjenningsnumrene i dataene er EMA-numre (EMEA/H/C/...), og alle fem er kansellert. Det finnes ingen gyldige godkjenninger i de samlede dataene.
+Merk: Godkjenningsnumrene i dataene er EMA-numre (EMEA/H/C/...), og alle fem er kansellert.
 
 ---
 

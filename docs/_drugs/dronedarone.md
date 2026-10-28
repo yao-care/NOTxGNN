@@ -4,17 +4,17 @@ title: Dronedarone
 parent: Moderat evidens (L3-L4)
 nav_order: 133
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Dronedarone: predikert ny indikasjon Hjerneslag (stroke disorder) (evidensnivå L3). Opprinnelig indikasjon: Atrieflimmer"
 monitor_inn: "DRONEDARONE"
-predicted_indications: ["stroke disorder", "obsolete susceptibility to ischemic stroke", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
+predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
 ---
 
 # Dronedarone
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L3** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,10 @@ men det finnes **ingen registrerte kliniske studier** og **20 publikasjoner** so
 |------|------|
 | Opprinnelig indikasjon | Atrieflimmer |
 | Predikert ny indikasjon | Hjerneslag (stroke disorder) |
-| TxGNN-prediksjonsscore | 99,97 % |
+| TxGNN-prediksjonsscore | 0,9997 |
 | Evidensnivå | L3 |
-| Markedsstatus i Norge | Kun avregistrert (ingen gyldige markedsføringstillatelser) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
@@ -85,7 +86,7 @@ Det finnes for øyeblikket ingen relaterte kliniske studier registrert.
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/001043 | Multaq (avregistrert) | Ikke oppgitt | Atrieflimmer |
+| EMEA/H/C/001043 | Multaq (godkjent) | Ikke oppgitt | Atrieflimmer |
 
 ## Sikkerhetsvurderinger
 
