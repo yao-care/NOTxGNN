@@ -14,6 +14,30 @@ This project uses the TxGNN graph neural network to predict potential new therap
 
 ---
 
+<!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
+## Norge: hva dette nettstedet dekker
+
+Dette nettstedet publiserer rapporter om **{{ site.data.drug_stats.total_drugs }}** legemidler fra registreringsdataene til [DMP](https://www.dmp.no/) (Norge).
+
+Rapporter etter evidensnivå: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+
+### Legemidler med høyest evidensnivå på dette nettstedet
+
+| Legemiddel | Evidensnivå |
+|---|---|
+| [Bupropion](/drugs/bupropion/) | L1 |
+| [Lanadelumab](/drugs/lanadelumab/) | L1 |
+| [Nepafenac](/drugs/nepafenac/) | L1 |
+| [Oteracil](/drugs/oteracil/) | L1 |
+| [Solriamfetol](/drugs/solriamfetol/) | L1 |
+| [Tegafur](/drugs/tegafur/) | L1 |
+| [Hydrocortisone](/drugs/hydrocortisone/) | L1 |
+| [Peginterferon Alfa-2A](/drugs/peginterferon-alfa-2a/) | L1 |
+| [Clofarabine](/drugs/clofarabine/) | L1 |
+| [Doxorubicin](/drugs/doxorubicin/) | L1 |
+
+<!-- local-home:end -->
+
 ## Om utvikleren
 
 Denne plattformen er utviklet og drives av **藥提醒科技有限公司** (yao.care, organisasjonsnummer
