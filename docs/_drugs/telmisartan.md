@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 404
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
 description: "Telmisartan: predikert ny indikasjon Prinzmetal angina (evidensnivå L5). Opprinnelig indikasjon: Hypertension"
@@ -52,8 +52,8 @@ Blant de øvrige prediksjonene har **cerebral arterieokklusjon** (3 kliniske stu
 | Predikert ny indikasjon | Prinzmetal angina |
 | TxGNN-prediksjonsscore | 0.9998 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 12 av 12) |
-| Antall godkjenninger | 12 (gyldige: 12) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 8 av 12) |
+| Antall godkjenninger | 12 (gyldige: 8) |
 | Anbefalt beslutning | Hold |
 
 ---

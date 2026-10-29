@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 442
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
 description: "Ustekinumab: predikert ny indikasjon Dermatitt (dermatitis) (evidensnivå L2). Opprinnelig indikasjon: Psoriasis"
@@ -52,8 +52,8 @@ Den mest direkte evidensen er to fase 2-studier i atopisk dermatitt, og disse vi
 | Predikert ny indikasjon | Dermatitt (dermatitis) |
 | TxGNN-prediksjonsscore | 0.9999 |
 | Evidensnivå | L2 |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 13 av 13) |
-| Antall godkjenninger | 13 (gyldige: 13) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 12 av 13) |
+| Antall godkjenninger | 13 (gyldige: 12) |
 | Anbefalt beslutning | Hold |
 
 ---

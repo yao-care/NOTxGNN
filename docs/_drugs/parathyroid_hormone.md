@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 312
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Parathyroid Hormone: predikert ny indikasjon Migrene (migraine disorder) (evidensnivå L4). Opprinnelig indikasjon: Hypoparatyreoidisme"
 monitor_inn: "PARATHYROID HORMONE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "amenorrhea (disease)", "Raynaud disease", "non-syndromic esophageal malformation", "esophageal disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "erectile dysfunction (disease)"]
@@ -52,8 +52,8 @@ Støtten er svak: det finnes **ingen kliniske studier** og **5 publikasjoner**, 
 | Predikert ny indikasjon | Migrene (migraine disorder) |
 | TxGNN-prediksjonsscore | 0,9998 |
 | Evidensnivå | L4 |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
-| Antall godkjenninger | 1 (gyldige: 1) |
+| Markedsstatus i Norge | Ikke markedsført (avregistrerte godkjenninger: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 0) |
 | Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
 | Anbefalt beslutning | Hold |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Insulin Aspart: predikert ny indikasjon Autoimmun ooforitt (autoimmune oophoritis) (evidensnivå L5). Opprinnelig indikasjon: Diabetes Mellitus"
 ---
 
@@ -52,8 +52,8 @@ Prediksjonen har foreløpig **ingen støtte** fra kliniske studier eller publika
 | Predikert ny indikasjon | Autoimmun ooforitt (autoimmune oophoritis) |
 | TxGNN-prediksjonsscore | 0,9992 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 7 av 7) |
-| Antall godkjenninger | 7 (gyldige: 7) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 6 av 7) |
+| Antall godkjenninger | 7 (gyldige: 6) |
 | Anbefalt beslutning | Hold |
 
 ---

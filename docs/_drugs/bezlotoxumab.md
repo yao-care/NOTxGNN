@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BEZLOTOXUMAB"
 predicted_indications: ["acute female pelvic peritonitis", "embryonic cyst of fallopian tube", "tubal pregnancy", "salpingitis isthmica nodosa", "disease of uterine broad ligament", "lumbar spinal stenosis", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "pelvic varices"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Bezlotoxumab: predikert ny indikasjon Akutt kvinnelig bekkenperitonitt (acute female pelvic peritonitis) (evidensnivå L5). Opprinnelig indikasjon: Enterocolitis, Pseudomembranous"
 ---
 
@@ -48,8 +48,8 @@ Bezlotoksumab er et monoklonalt antistoff som nøytraliserer toksin B fra *Clost
 | Foreslått ny indikasjon | Akutt kvinnelig bekkenperitonitt (acute female pelvic peritonitis) |
 | TxGNN-prediksjonsscore | 0,9989 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
-| Antall godkjenninger | 1 (gyldige: 1) |
+| Markedsstatus i Norge | Ikke markedsført (avregistrerte godkjenninger: 1 av 1) |
+| Antall godkjenninger | 1 (gyldige: 0) |
 | Anbefalt beslutning | Hold |
 
 ## Hvorfor er denne prediksjonen (ikke) rimelig?

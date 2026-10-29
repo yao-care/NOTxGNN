@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Efavirenz: predikert ny indikasjon Simian immunsviktvirus-infeksjon (simian immunodeficiency virus infection) (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
@@ -50,8 +50,8 @@ Det finnes **ingen kliniske studier** og **14 publikasjoner**, nesten utelukkend
 | Predikert ny indikasjon | Simian immunsviktvirus-infeksjon (simian immunodeficiency virus infection) |
 | TxGNN-prediksjonsscore | 0,9980 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 5 av 5) |
-| Antall godkjenninger | 5 (gyldige: 5) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 4 av 5) |
+| Antall godkjenninger | 5 (gyldige: 4) |
 | Anbefalt beslutning | Hold |
 
 ## Hvorfor er denne prediksjonen rimelig?

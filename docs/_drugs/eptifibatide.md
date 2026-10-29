@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 156
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 monitor_inn: "EPTIFIBATIDE"
 predicted_indications: ["rheumatoid arthritis", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin E disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin c disease syndrome", "hemoglobinopathy", "female breast carcinoma", "beta-thalassemia with other manifestations", "partial deletion of the short arm of chromosome 16"]
 description: "Eptifibatide: predikert ny indikasjon Rheumatoid arthritis (evidensnivå L5). Opprinnelig indikasjon: Myocardial Infarction"
@@ -53,8 +53,8 @@ TxGNN-modellen rangerer **revmatoid artritt** øverst på listen over prediksjon
 | Predikert ny indikasjon | Rheumatoid arthritis |
 | TxGNN-prediksjonsscore | 0.9999 |
 | Evidensnivå | L5 (hemoglobinopati); L5 for revmatoid artritt |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
-| Antall godkjenninger | 2 (gyldige: 2) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 2) |
+| Antall godkjenninger | 2 (gyldige: 1) |
 | Anbefalt beslutning | Hold (avvent). For sigdcellesykdom kan det vurderes som et forskningsspørsmål |
 
 ---

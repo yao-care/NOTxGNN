@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 319
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: predikert ny indikasjon Pleural adenomatoid tumor (evidensnivå L2). Opprinnelig indikasjon: Carcinoma, Non-Small-Cell Lung"
@@ -48,8 +48,8 @@ Pemetreksed er et antifolat-cellegift som opprinnelig brukes mot **ikke-småcell
 | Foreslått ny indikasjon | Pleural adenomatoid tumor |
 | TxGNN-prediksjonsscore | 0.9999 |
 | Evidensnivå | L2 |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 4 av 4) |
-| Antall godkjenninger | 4 (gyldige: 4) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 4) |
+| Antall godkjenninger | 4 (gyldige: 3) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
 
 **Merk om øvrige prediksjoner:** Flere av de ti predikerte indikasjonene er i realiteten bekreftelser av eksisterende bruk, ikke ny bruk:

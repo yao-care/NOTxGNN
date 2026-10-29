@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 343
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Raloxifene: predikert ny indikasjon Duodenalt sår (evidensnivå L5). Opprinnelig indikasjon: Postmenopausal osteoporose"
 monitor_inn: "Raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
@@ -50,8 +50,8 @@ Raloxifen er en selektiv østrogenreseptormodulator (SERM) som opprinnelig bruke
 | Predikert ny indikasjon | Duodenalt sår |
 | TxGNN-prediksjonsscore | 0,9972 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
-| Antall godkjenninger | 3 (gyldige: 3) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 3) |
+| Antall godkjenninger | 3 (gyldige: 2) |
 | Antall tillatelser | 3 (alle avregistrert) |
 | Anbefalt beslutning | Hold |
 
