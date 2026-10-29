@@ -6,9 +6,9 @@ nav_order: 156
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-29
-description: "Eptifibatide: predikert ny indikasjon Revmatoid artritt (evidensnivå L5). Opprinnelig indikasjon: Hjerteinfarkt (Myocardial Infarction)"
 monitor_inn: "EPTIFIBATIDE"
 predicted_indications: ["rheumatoid arthritis", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin E disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin c disease syndrome", "hemoglobinopathy", "female breast carcinoma", "beta-thalassemia with other manifestations", "partial deletion of the short arm of chromosome 16"]
+description: "Eptifibatide: predikert ny indikasjon Rheumatoid arthritis (evidensnivå L5). Opprinnelig indikasjon: Myocardial Infarction"
 ---
 
 # Eptifibatide
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Eptifibatid: Fra akutt koronarsyndrom til revmatoid artritt
+## Eptifibatide: Rheumatoid arthritis
 {: .text-alpha }
 
 ## Oppsummering
@@ -50,8 +50,8 @@ TxGNN-modellen rangerer **revmatoid artritt** øverst på listen over prediksjon
 | Punkt | Innhold |
 |------|------|
 | Opprinnelig indikasjon | Myocardial Infarction; Angina, Unstable;Myocardial Infarction |
-| Predikert ny indikasjon | Hemoglobinopati (sigdcellesykdom) – rangert som nr. 7 av 10; nr. 1 er revmatoid artritt (99,99 %, kun modellprediksjon, nivå L5) |
-| TxGNN-prediksjonsscore | 0,9999 (revmatoid artritt); 0,9998 (hemoglobinopati) |
+| Predikert ny indikasjon | Rheumatoid arthritis |
+| TxGNN-prediksjonsscore | 0.9999 |
 | Evidensnivå | L5 (hemoglobinopati); L5 for revmatoid artritt |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
