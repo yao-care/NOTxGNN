@@ -147,7 +147,9 @@ def main(argv):
     n_rec, n_bundle, changes = 0, 0, []
     for f in bundles:
         b = json.loads(f.read_text(encoding="utf-8"))
-        ch = False
+        ch = bool(getattr(ad, "preprocess", None) and ad.preprocess(b))  # 站專屬的前處理（例：EMA 獸用許可移出）
+        if ch:
+            changes.append(f"{f.parent.name} preprocess 前處理")
         for r in (b.get("tfda") or {}).get("records", []):
             nv = idx.get(ad.record_id(r))
             if nv is not None:
@@ -158,7 +160,7 @@ def main(argv):
             n_bundle += 1
             if not dry:
                 f.write_text(json.dumps(b, ensure_ascii=False, indent=2), encoding="utf-8")
-    n_id = len({c.split(" ")[1] for c in changes})  # 同一張許可證在證據包裡可能重複多筆（例如 CO 每個包裝一筆）
+    n_id = len({c.split(" ")[1] for c in changes if " preprocess " not in c})  # 同一張許可證在證據包裡可能重複多筆（例如 CO 每個包裝一筆）
     S["steps"].append(f"許可證狀態有變 {n_rec} 筆（{n_id} 張不重複許可證）、{n_bundle} 個藥")
     S["license_changes"] = changes[:1000]
     if len(ids) and n_id / len(ids) > 0.2:
@@ -174,6 +176,7 @@ def main(argv):
     run([PY, ".claude/dump_license_facts_20261021.py", site])
     rows = lts.sync_market_rows(site)
     tch, unsynced = lts.apply(site, labels)
+    tch += lts.drop_excluded_rows(site)
     fields = [(pg, lab, a_, b_) for pg, ch in rows.items() for lab, a_, b_ in ch] + tch
     S["fields"] = [f"{pg}｜{lab}｜{a_} → {b_}" for pg, lab, a_, b_ in fields]
     S["steps"].append(f"概覽表狀態／張數列改 {sum(len(v) for v in rows.values())} 格（{len(rows)} 頁）；許可證表狀態格改 {len(tch)} 格"

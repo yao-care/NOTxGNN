@@ -13,6 +13,8 @@ import openpyxl
 import requests
 
 RAW_FILE = "raw/ema_medicine_status.json"
+# 獸用集中許可（EMEA/V/C）移出人用藥的許可證計算（pm 2026-10-30；狀態列寫法 pm 選 b，見 check_drug_page.NO_CENTRAL）。
+EXCLUDE_VET = True
 URL = "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx"
 
 
@@ -65,4 +67,20 @@ def update(rec, new):
     if rec.get("status") == new:
         return False
     rec["status"] = new
+    return True
+
+
+def preprocess(bundle):
+    """把獸用集中許可移到 tfda.veterinary_records（保留原紀錄、不刪），total_matches 同步扣除；有移動回 True"""
+    if not EXCLUDE_VET:
+        return False
+    tf = bundle.get("tfda") or {}
+    recs = tf.get("records") or []
+    vet = [r for r in recs if str(r.get("license_id") or "").startswith("EMEA/V/")]
+    if not vet:
+        return False
+    tf["records"] = [r for r in recs if r not in vet]
+    tf["veterinary_records"] = (tf.get("veterinary_records") or []) + [dict(r, note="veterinary; excluded from human licence counts") for r in vet]
+    if isinstance(tf.get("total_matches"), int):
+        tf["total_matches"] = max(0, tf["total_matches"] - len(vet))
     return True

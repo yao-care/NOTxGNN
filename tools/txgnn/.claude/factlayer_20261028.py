@@ -245,7 +245,7 @@ def status_value(site, fc):
     if ms == "Cancelled only":
         return ck.CANCELLED.get(lang, ck.CANCELLED["en"]).format(n=n)
     if ms == "Not marketed":
-        return ck.NOT_REG.get(lang, ck.NOT_REG["en"])
+        return ck.not_reg_text(site, lang)
     return None
 
 

@@ -296,6 +296,20 @@ CANCELLED = {"en": "Not marketed (licences cancelled: {n} of {n})",
 "ar": "غير مسوق (أُلغيت جميع التراخيص، وعددها {n})",
 "sv": "Inte marknadsförd (avregistrerade godkännanden: {n} av {n})",
 "th": "ไม่มีจำหน่าย (ทะเบียนที่ถูกยกเลิก {n} จาก {n} รายการ)"}
+# 2026-10-30（pm 選 b）：DE、FI、NO 的許可證來源只有 EMA 集中許可，沒有國家級許可（BfArM、Fimea、DMP）。
+# 這三站「查無許可紀錄」時不能寫「未上市」（沒有資料可以證明），狀態列只陳述資料範圍。
+NO_CENTRAL = {
+    "DETxGNN": "Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten",
+    "FITxGNN": "Keskitettyä EU-myyntilupaa (EMA) ei ole kirjattu – kansallisia myyntilupia (Fimea) ei ole tässä käytetyissä tiedoissa",
+    "NOTxGNN": "Ingen sentral EU-godkjenning (EMA) registrert – nasjonale markedsføringstillatelser (DMP) finnes ikke i dataene som er brukt her",
+}
+
+
+def not_reg_text(site, lang):
+    """查無許可紀錄時的狀態列：EMA 代理站用資料範圍句，其他站用 NOT_REG"""
+    return NO_CENTRAL.get(site) or NOT_REG.get(lang, NOT_REG["en"])
+
+
 NOT_REG = {"en": "Not marketed (no licence on record)",
 "en-us": "Not marketed (no license on record)",
 "es": "No comercializado (sin registro)",
@@ -870,6 +884,10 @@ def check_page(site, f, cls, want_noindex):
                 want_s = NOT_MKT.get(lang, NOT_MKT["en"]).format(n=n)
                 if st[1] != want_s:
                     E("M1", f"狀態列「{st[1][:40]}」≠「{want_s}」")
+            elif ms == "Not marketed" and site in NO_CENTRAL:
+                want_s = NO_CENTRAL[site]
+                if st[1] != want_s:
+                    E("M1", f"狀態列「{st[1][:40]}」≠ 資料範圍句（{site} 只有 EMA 集中許可）")
             nm_prefix = re.split(r"[（(]", NOT_MKT.get(lang, NOT_MKT["en"]))[0].strip()
             if ms != "Marketed" and (marketed_word(lang) in st[1] or "✓" in st[1]) and not mv2.NEG.search(st[1]) and nm_prefix not in st[1]:
                 E("M2", f"事實 {ms}，狀態列寫成上市中：{st[1][:40]}")
