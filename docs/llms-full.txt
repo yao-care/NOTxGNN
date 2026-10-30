@@ -25,9 +25,9 @@ Evidensnivåene går fra L1 (sterkere klinisk evidens) til L5 (kun modellprediks
 
 ## Eksempler på legemiddelrapporter
 
-- Aripiprazole (L1): https://notxgnn.yao.care/drugs/aripiprazole/
-- Canakinumab (L1): https://notxgnn.yao.care/drugs/canakinumab/
-- Capecitabine (L1): https://notxgnn.yao.care/drugs/capecitabine/
+- Aripiprazole (L5): https://notxgnn.yao.care/drugs/aripiprazole/
+- Canakinumab (L5): https://notxgnn.yao.care/drugs/canakinumab/
+- Capecitabine (L5): https://notxgnn.yao.care/drugs/capecitabine/
 
 ## Sitering og begrensninger
 
