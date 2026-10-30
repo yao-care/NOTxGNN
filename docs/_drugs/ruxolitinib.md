@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 372
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Ruxolitinib"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"]
 description: "Ruxolitinib: predikert ny indikasjon Uterine corpus perivascular epithelioid cell tumor (evidensnivå L5). Opprinnelig indikasjon: Vitiligo"
@@ -54,7 +54,7 @@ Merknad: Rapporten fokuserer på den høyest rangerte indikasjonen med klinisk s
 | Predikert ny indikasjon | Uterine corpus perivascular epithelioid cell tumor |
 | TxGNN-prediksjonsscore | 0.9973 |
 | Evidensnivå | L5 |
-| Status i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
 

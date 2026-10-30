@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 description: "Pregabalin: predikert ny indikasjon Tendinitis (evidensnivå L5). Opprinnelig indikasjon: Anxiety Disorders"
@@ -52,7 +52,7 @@ Det øverste forslaget på listen, **tendinitt** (score 0,9971), har ingen direk
 | Predikert ny indikasjon | Tendinitis |
 | TxGNN-prediksjonsscore | 0.9971 |
 | Evidensnivå | L5 (migrene); tendinitt L4 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 6 av 6) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 6 av 6) |
 | Antall godkjenninger | 6 (gyldige: 6) |
 | Anbefalt beslutning | Hold (migrene: forskningsspørsmål, ikke klar for videre utvikling) |
 

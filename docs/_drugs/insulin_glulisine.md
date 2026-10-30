@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "INSULIN GLULISINE"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Insulin Glulisine: predikert ny indikasjon Tiamin-responsivt dysfunksjonssyndrom (thiamine-responsive dysfunction syndrome) (evidensnivå L5). Opprinnelig indikasjon: Diabetes Mellitus"
 ---
 
@@ -48,7 +48,7 @@ Insulin glulisine er en hurtigvirkende insulinanalog som brukes ved diabetes mel
 | Forutsagt ny indikasjon | Tiamin-responsivt dysfunksjonssyndrom (thiamine-responsive dysfunction syndrome) |
 | TxGNN-prediksjonsscore | 0,9947 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 

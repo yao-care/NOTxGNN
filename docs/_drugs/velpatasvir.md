@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 446
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "VELPATASVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Velpatasvir: predikert ny indikasjon Hepatitt B-virusinfeksjon (hepatitis B virus infection) (evidensnivå L3). Opprinnelig indikasjon: Hepatitis C, Chronic"
@@ -50,7 +50,7 @@ Velpatasvir er en hemmer av NS5A-proteinet i hepatitt C-viruset (HCV) og brukes 
 | Predikert ny indikasjon | Hepatitt B-virusinfeksjon (hepatitis B virus infection) |
 | TxGNN-prediksjonsscore | 0.9987 |
 | Evidensnivå | L3 (kun observasjonsstudier og oversiktsarbeider; ingen studie viser anti-HBV-effekt) |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 2 av 2) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
 | Antall autorisasjoner | 2 (begge kansellert) |
 | Anbefalt beslutning | Hold |

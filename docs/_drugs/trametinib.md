@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 430
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Trametinib: predikert ny indikasjon Koroideremi (rangert som nr. 1) (evidensnivå L5). Opprinnelig indikasjon: Melanom"
 monitor_inn: "TRAMETINIB"
 predicted_indications: ["choroideremia"]
@@ -55,7 +55,7 @@ TxGNN-modellen predikerer høy score for **koroideremi** (0,9931), men uten klin
 | Predikert ny indikasjon | Koroideremi (rangert som nr. 1) |
 | TxGNN-prediksjonsscore | 0,9931 |
 | Evidensnivå | L5 (kun modellprediksjon) |
-| Status i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 

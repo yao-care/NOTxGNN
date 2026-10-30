@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "MIGLUSTAT"
 predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "Krabbe disease", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "encephalopathy due to prosaposin deficiency", "Tay-Sachs disease", "benign neoplasm of adrenal gland", "recessive X-linked ichthyosis", "fatty acid hydroxylase-associated neurodegeneration"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Miglustat: predikert ny indikasjon Autosomalt ikthyosesyndrom med dødelig sykdomsforløp (autosomal ichthyosis syndrome with fatal disease course) (evidensnivå L5). Opprinnelig indikasjon: Gaucher Dis…"
 ---
 
@@ -50,7 +50,7 @@ Prediksjonen er foreløpig **uten støtte fra kliniske studier eller publikasjon
 | Predikert ny indikasjon | Autosomalt ikthyosesyndrom med dødelig sykdomsforløp (autosomal ichthyosis syndrome with fatal disease course) |
 | TxGNN-prediksjonsscore | 0,9983 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 5 av 5) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 5 av 5) |
 | Antall godkjenninger | 5 (gyldige: 5) |
 | Anbefalt beslutning | Avvent |
 

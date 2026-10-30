@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 description: "Pegaspargase: predikert ny indikasjon Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (evidensnivå L5). Opprinnelig indikasjon: Precursor Cell Lymphoblastic Leukemia-Lympho…"
@@ -50,7 +50,7 @@ Pegaspargase er en pegylert form av enzymet L-asparaginase og brukes mot **preku
 | Predikert ny indikasjon | Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma |
 | TxGNN-prediksjonsscore | 0.9995 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Gå videre med sikkerhetstiltak (Proceed with Guardrails) |
 

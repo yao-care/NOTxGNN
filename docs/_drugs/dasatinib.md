@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 115
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
 description: "Dasatinib: predikert ny indikasjon Ewing-sarkom (Ewing sarcoma) (evidensnivå L2). Opprinnelig indikasjon: Precursor Cell Lymphoblastic Leukemia-Lymphoma"
@@ -51,7 +51,7 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt mot **Ewing-sarkom**, men 
 | Predikert ny indikasjon | Ewing-sarkom (Ewing sarcoma) |
 | TxGNN-prediksjonsscore | 0.9990 |
 | Evidensnivå | L2 (ifølge de innsamlede dataene; se merknad under) |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 2 av 2) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold (forskningsspørsmål) |
 

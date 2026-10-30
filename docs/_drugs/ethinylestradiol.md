@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ethinylestradiol: predikert ny indikasjon Forhøyet sinkkonsentrasjon i plasma (zinc, elevated plasma) (evidensnivå L5). Opprinnelig indikasjon: Contraception"
 ---
 
@@ -50,7 +50,7 @@ Etinylestradiol er et syntetisk østrogen som virker på østrogenreseptorer. Tx
 | Predikert ny indikasjon | Forhøyet sinkkonsentrasjon i plasma (zinc, elevated plasma) |
 | TxGNN-prediksjonsscore | 0,9963 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "METFORMIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Metformin: predikert ny indikasjon Fokal stiv-lem-syndrom (focal stiff limb syndrome) (evidensnivå L5). Opprinnelig indikasjon: Diabetes Mellitus, Type 2"
 ---
 
@@ -48,7 +48,7 @@ Metformin er et legemiddel som brukes mot diabetes mellitus type 2. TxGNN-modell
 | Predikert ny indikasjon | Fokal stiv-lem-syndrom (focal stiff limb syndrome) |
 | TxGNN-prediksjonsscore | 0,9945 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 19 av 19) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 19 av 19) |
 | Antall godkjenninger | 19 (gyldige: 19) |
 | Anbefalt beslutning | Hold |
 

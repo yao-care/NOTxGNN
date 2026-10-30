@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 423
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tocilizumab: predikert ny indikasjon Ankyloserende spondylitt (evidensnivå L5). Opprinnelig indikasjon: Revmatoid artritt, juvenil revmatoid artritt…"
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
@@ -52,7 +52,7 @@ Dette støttes av **2 avsluttede fase 3-studier (begge terminert før ferdigstil
 | Predikert ny indikasjon | Ankyloserende spondylitt |
 | TxGNN-prediksjonsscore | 0,9999 |
 | Evidensnivå | L1 etter reglene (to fase 3 RCT-er), men begge er terminert, så reell styrke er lavere |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 4 av 4) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 4 av 4) |
 | Antall godkjenninger | 4 (gyldige: 4) |
 | Anbefalt beslutning | Avvent (Hold) |
 

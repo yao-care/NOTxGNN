@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 96
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Chenodeoxycholic Acid: predikert ny indikasjon Homozygot familiær hyperkolesterolemi (evidensnivå L5). Opprinnelig indikasjon: Cerebrotendinøs xantomatose"
 monitor_inn: "CHENODEOXYCHOLIC ACID"
 predicted_indications: ["homozygous familial hypercholesterolemia", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "obsolete familial combined hyperlipidemia", "obsolete hyperuricemia (disease)"]
@@ -49,7 +49,7 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **homozygot familiær 
 | Predikert ny indikasjon | Homozygot familiær hyperkolesterolemi |
 | TxGNN-prediksjonsscore | 0,9957 |
 | Evidensnivå | L5 (kun indirekte mekanistisk grunnlag, ingen studier på den nye indikasjonen) |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 

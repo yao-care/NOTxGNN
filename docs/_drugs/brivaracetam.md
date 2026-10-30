@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "BRIVARACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Brivaracetam: predikert ny indikasjon beta-ketothiolase-mangel (beta-ketothiolase deficiency) (evidensnivå L5). Opprinnelig indikasjon: Epilepsy"
 ---
 
@@ -52,7 +52,7 @@ men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtte
 | Foreslått ny indikasjon | beta-ketothiolase-mangel (beta-ketothiolase deficiency) |
 | TxGNN-prediksjonsscore | 0,9914 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 

@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 352
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Regorafenib: predikert ny indikasjon Liposarkom (evidensnivå L5). Opprinnelig indikasjon: Kolorektal kreft (Colorectal Neoplasms)"
 monitor_inn: "REGORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "renal cell carcinoma associated with neuroblastoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "unclassified renal cell carcinoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
@@ -52,7 +52,7 @@ men evidensen er blandet: det finnes **1 fullført fase 2-studie** og **9 publik
 | Predikert ny indikasjon | Liposarkom |
 | TxGNN-prediksjonsscore | 0,9976 |
 | Evidensnivå | L1 (etter datagrunnlagets klassifisering; se merknad under) |
-| Status i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Antall markedsføringstillatelser | 1 (0 gyldige, 1 kansellert) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |

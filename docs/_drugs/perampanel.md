@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 322
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "PERAMPANEL"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Perampanel: predikert ny indikasjon Beta-ketothiolase deficiency (evidensnivå L5). Opprinnelig indikasjon: Epilepsies, Partial"
@@ -50,7 +50,7 @@ Perampanel (handelsnavn Fycompa) er et antiepileptikum som opprinnelig brukes mo
 | Predikert ny indikasjon | Beta-ketothiolase deficiency |
 | TxGNN-prediksjonsscore | 0.9979 |
 | Evidensnivå | L5 (kun mekanistisk begrunnelse, ingen studier spesifikke for indikasjonen) |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 

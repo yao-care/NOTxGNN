@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 198
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Grazoprevir: predikert ny indikasjon HIV-infeksjon (HIV infectious disease) (evidensnivå L5). Opprinnelig indikasjon: Kronisk hepatitt C"
 monitor_inn: "GRAZOPREVIR"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -50,7 +50,7 @@ Grazoprevir er en HCV NS3/4A-proteasehemmer som opprinnelig brukes mot kronisk h
 | Predikert ny indikasjon | HIV-infeksjon (HIV infectious disease) |
 | TxGNN-prediksjonsscore | 0,9973 |
 | Evidensnivå | L3 (kun observasjons-/oversiktsnivå for HIV-populasjonen; ingen studier av anti-HIV-effekt) |
-| Status i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 

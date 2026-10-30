@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Enoxaparin: predikert ny indikasjon Trombofili på grunn av protein C-mangel, autosomal recessiv (thrombophilia due to protein C deficiency… (evidensnivå L5). Opprinnelig indikasjon: Venous Thromboemb…"
 ---
 
@@ -48,7 +48,7 @@ Enoxaparin er et lavmolekylært heparin som brukes til å forebygge og behandle 
 | Predikert ny indikasjon | Trombofili på grunn av protein C-mangel, autosomal recessiv (thrombophilia due to protein C deficiency, autosomal recessive) |
 | TxGNN-prediksjonsscore | 0,9958 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 

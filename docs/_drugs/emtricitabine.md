@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EMTRICITABINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Emtricitabine: predikert ny indikasjon Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome) (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
@@ -50,7 +50,7 @@ men dette støttes foreløpig kun av **1 publikasjon** (veterinær/prekliniske d
 | Predikert ny indikasjon | Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome) |
 | TxGNN-prediksjonsscore | 0,9992 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 18 av 18) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 18 av 18) |
 | Antall godkjenninger | 18 (gyldige: 18) |
 | Anbefalt beslutning | Avvent |
 

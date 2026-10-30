@@ -5,7 +5,7 @@ layout: default
 title: Cangrelor
 parent: Kun kjente bruksområder (ingen nye prediksjoner)
 nav_order: 81
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -42,7 +42,7 @@ Evidensnivå: **N/A** | Predikerte indikasjoner: **0** stk.
 |-------|---------|
 | Opprinnelig indikasjon | Acute Coronary Syndrome;Vascular Surgical Procedures |
 | TxGNN-prediksjonspoeng | N/A |
-| Status på det norske marked | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Antall markedsføringstillatelser | 0 |
 

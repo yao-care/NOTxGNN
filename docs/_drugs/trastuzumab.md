@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: predikert ny indikasjon Malignant cutaneous granular cell skin tumor (evidensnivå L5). Opprinnelig indikasjon: Stomach Neoplasms"
@@ -52,7 +52,7 @@ Funnet støttes av **12 kliniske studier** og **20 publikasjoner** i de data som
 | Predikert ny indikasjon | Malignant cutaneous granular cell skin tumor |
 | TxGNN-prediksjonsscore | 0.9948 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 11 av 11) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 11 av 11) |
 | Antall godkjenninger | 11 (gyldige: 11) |
 | Antall tillatelser | 11 (alle avregistrert) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med sikkerhetstiltak) |

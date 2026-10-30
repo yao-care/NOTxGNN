@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 23
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Alectinib: predikert ny indikasjon Gingival fibromatose (evidensnivå L5). Opprinnelig indikasjon: Carcinoma, Non-Small-Cell Lung (ikke-småcellet lungekreft)"
 monitor_inn: "Alectinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "lung germ cell tumor", "pulmonary sulcus neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa"]
@@ -53,7 +53,7 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt mot **lung benign ne
 | Predikert ny indikasjon | Lung benign neoplasm (godartet lungeneoplasme); høyest rangert er gingival fibromatose |
 | TxGNN-prediksjonsscore | 0,9995 (godartet lungeneoplasme); 0,9997 (gingival fibromatose) |
 | Evidensnivå | L5 formelt, men gjelder malign NSCLC og overføres ikke; reelt L5 for den predikerte indikasjonen |
-| Status i Norge/EØS | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Antall autorisasjoner | 1 (kansellert) |
 | Anbefalt beslutning | Hold (vent) |

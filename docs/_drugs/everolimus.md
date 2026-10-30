@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 168
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Everolimus: predikert ny indikasjon Liposarkom (rangert som nr. 1 av TxGNN) (evidensnivå L5). Opprinnelig indikasjon: Tuberøs sklerose (Votubia)"
 monitor_inn: "EVEROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
@@ -50,7 +50,7 @@ Everolimus er en mTOR-hemmer som opprinnelig brukes ved tuberøs sklerose og ved
 | Predikert ny indikasjon | Liposarkom (rangert som nr. 1 av TxGNN) |
 | TxGNN-prediksjonsscore | 0,9988 |
 | Evidensnivå | L2 (kun én Phase 2-studie, ikke fullført, kombinasjonsdesign) |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 2 av 2) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold (for liposarkom); Proceed with Guardrails for uklassifisert nyrecellekarsinom |
 

@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 261
 evidence_level: L1
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Memantine: predikert ny indikasjon Pulmonal hypertensjon (pulmonary hypertension) (evidensnivå L5). Opprinnelig indikasjon: Alzheimers sykdom"
 monitor_inn: "MEMANTINE"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
@@ -52,7 +52,7 @@ og det finnes foreløpig **1 klinisk fase 3-studie** og **18 publikasjoner** som
 | Forutsagt ny indikasjon | Migrene (migraine disorder) |
 | TxGNN-prediksjonsscore | 0,9954 |
 | Evidensnivå | L1 (se merknad under) |
-| Status i Norge | Markedsført (gyldige tillatelser: 8 av 8) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 8 av 8) |
 | Antall godkjenninger | 8 (gyldige: 8) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
 

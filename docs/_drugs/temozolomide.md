@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Temozolomide: predikert ny indikasjon Cauda equina-neoplasme (evidensnivå L5). Opprinnelig indikasjon: Gliom"
 ---
 
@@ -50,7 +50,7 @@ Temozolomid er et oralt alkylerende legemiddel som er godkjent i Norge for behan
 | Predikert ny indikasjon | Cauda equina-neoplasme |
 | TxGNN-prediksjonsscore | 0,9930 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 5 av 5) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 5 av 5) |
 | Antall godkjenninger | 5 (gyldige: 5) |
 | Anbefalt beslutning | Hold |
 

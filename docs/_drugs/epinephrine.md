@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 155
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Epinephrine: predikert ny indikasjon Obstruktiv lungesykdom (evidensnivå L1). Opprinnelig indikasjon: Anafylaksi"
 monitor_inn: "EPINEPHRINE"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
@@ -50,7 +50,7 @@ Epinefrin er en adrenerg agonist som opprinnelig brukes til behandling av anafyl
 | Predikert ny indikasjon | Obstruktiv lungesykdom |
 | TxGNN-prediksjonsscore | 0,9971 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (annullert) |
 | Anbefalt beslutning | Proceed with Guardrails (gå videre med forbehold) |

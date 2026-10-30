@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 369
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Rotigotine: predikert ny indikasjon Attention deficit-hyperactivity disorder (ADHD) (evidensnivå L4). Opprinnelig indikasjon: Rastløse bein-syndrom"
 monitor_inn: "ROTIGOTINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
@@ -51,7 +51,7 @@ TxGNN-modellen predikerer at legemidlet kan være virksomt mot **ADHD**, men det
 | Predikert ny indikasjon | Attention deficit-hyperactivity disorder (ADHD) |
 | TxGNN prediksjonsscore | 1,0000 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |

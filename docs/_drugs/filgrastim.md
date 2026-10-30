@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Filgrastim: predikert ny indikasjon Primær frigjøringsforstyrrelse i blodplater (primary release disorder of platelets) (evidensnivå L5). Opprinnelig indikasjon: Hematopoietic Stem Cell Transplantati…"
 ---
 
@@ -52,7 +52,7 @@ men det finnes **ingen kliniske studier og ingen publikasjoner** som støtter de
 | Predikert ny indikasjon | Primær frigjøringsforstyrrelse i blodplater (primary release disorder of platelets) |
 | TxGNN-prediksjonsscore | 1,0000 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 7 av 7) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 7 av 7) |
 | Antall godkjenninger | 7 (gyldige: 7) |
 | Anbefalt beslutning | Hold |
 

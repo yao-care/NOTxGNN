@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 311
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: predikert ny indikasjon Duodenal obstruction (evidensnivå L5). Opprinnelig indikasjon: Gastroesophageal Reflux"
@@ -50,7 +50,7 @@ Pantoprazol er en protonpumpehemmer som opprinnelig brukes mot **gastroøsofagea
 | Predikert ny indikasjon | Duodenal obstruction |
 | TxGNN-prediksjonsscore | 0.9921 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 3 av 3) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
 | Antall godkjenninger | 3 (gyldige: 3) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
 

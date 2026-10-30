@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CAPECITABINE"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Capecitabine: predikert ny indikasjon Gastrisk adenokarsinom og proksimal polypose i magesekken (gastric adenocarcinoma and proximal polyposis of the stomach) (evidensnivå L5). Opprinnelig indikasjon…"
 ---
 
@@ -48,7 +48,7 @@ Kapecitabin er et oralt prodrug av 5-fluorouracil, brukt som kreftbehandling. Tx
 | Predikert ny indikasjon | Gastrisk adenokarsinom og proksimal polypose i magesekken (gastric adenocarcinoma and proximal polyposis of the stomach) |
 | TxGNN-prediksjonsscore | 0,9994 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 5 av 5) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 5 av 5) |
 | Antall godkjenninger | 5 (gyldige: 5) |
 | Anbefalt beslutning | Hold |
 

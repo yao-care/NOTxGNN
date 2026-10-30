@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 295
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: predikert ny indikasjon Benign paroxysmal torticollis of infancy (evidensnivå L5). Opprinnelig indikasjon: Schizophrenia"
@@ -52,7 +52,7 @@ Olanzapin er et antipsykotikum som opprinnelig brukes mot schizofreni og bipolar
 | Predikert ny indikasjon | Benign paroxysmal torticollis of infancy |
 | TxGNN-prediksjonsscore | 0.9954 |
 | Evidensnivå | L5 |
-| Status i Norge | Markedsført (gyldige tillatelser: 9 av 9) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 9 av 9) |
 | Antall godkjenninger | 9 (gyldige: 9) |
 | Antall tillatelser | 9 (alle avregistrert) |
 | Anbefalt beslutning | Hold (forskningsspørsmål; krever kontrollerte studier og supplerende sikkerhetsdata) |

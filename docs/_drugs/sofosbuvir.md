@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 388
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
 description: "Sofosbuvir: predikert ny indikasjon Hepatitt B-virusinfeksjon (hepatitis B virus infection) (evidensnivå L3). Opprinnelig indikasjon: Hepatitis C, Chronic"
@@ -52,7 +52,7 @@ Rapporten vurderer derfor hepatitt E som hovedkandidat, fordi hepatitt B mangler
 | Foreslått ny indikasjon (høyest rangert av TxGNN) | Hepatitt B-virusinfeksjon (hepatitis B virus infection) |
 | Foreslått ny indikasjon (best underbygd, vurdert i rapporten) | Hepatitt B-virusinfeksjon (hepatitis B virus infection) |
 | Evidensnivå | L3 for hepatitt E (L2 er oppgitt for hepatitt B, men studiene gjelder HCV/HBV-koinfeksjon og viser ikke effekt mot HBV) |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 4 av 4) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 4 av 4) |
 | Antall godkjenninger | 4 (gyldige: 4) |
 | Anbefalt beslutning | Hold (forskningsspørsmål for hepatitt E) |
 

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 102
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Clopidogrel: predikert ny indikasjon Migrene med hjernestammeaura (evidensnivå L5). Opprinnelig indikasjon: Perifer karsykdom, hjerneslag, hjerteinfarkt…"
 monitor_inn: "CLOPIDOGREL"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]
@@ -54,7 +54,7 @@ Det er ingen Fase 3-studie som tester clopidogrel direkte som migreneprofylakse.
 | Predikert ny indikasjon | Migrene (migrene med aura / PFO-assosiert migrene); modellens topprangerte forslag er migrene med hjernestammeaura |
 | TxGNN-prediksjonsscore | 0,9944 (migrene med hjernestammeaura); 0,9944 (migrene) |
 | Evidensnivå | L5 for migrene; L3 for migrene med hjernestammeaura |
-| Status i Norge | Markedsført (gyldige tillatelser: 16 av 16) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 16 av 16) |
 | Antall godkjenninger | 16 (gyldige: 16) |
 | Antall tillatelser | 16 (alle avregistrert) |
 | Anbefalt beslutning | Proceed with Guardrails (for migrene med PFO, som forskningsspørsmål); Hold for øvrige forslag |

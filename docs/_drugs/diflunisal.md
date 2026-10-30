@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 127
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Diflunisal: predikert ny indikasjon Akromesomelisk dysplasi, Hunter-Thompson-type (evidensnivå L5). Opprinnelig indikasjon: Familiær amyloid nevropati (Amyloid Neuropathies, Familial)"
 monitor_inn: "DIFLUNISAL"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "ankylosing spondylitis", "brachyolmia", "hypermobility of coccyx", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "inflammatory spondylopathy"]
@@ -49,7 +49,7 @@ TxGNN-modellen forutsier at det kan ha effekt ved flere sykdommer. Den best unde
 | Predikert ny indikasjon | Acromesomelic dysplasia, Hunter-Thompson type (rangert som nr. 1 av modellen; svært svakt underbygd). Den best underbygde kandidaten er ankyloserende spondylitt |
 | TxGNN-prediksjonsscore | 0,9999 (rang 1); ankyloserende spondylitt: 0,9998 |
 | Evidensnivå | L5 for rang 1; L3 for ankyloserende spondylitt |
-| Status i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold (for rang 1). Ankyloserende spondylitt: forskningsspørsmål, ikke klar for videre utvikling |

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BEVACIZUMAB"
 predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Bevacizumab: predikert ny indikasjon Epiglottisneoplasme (epiglottis neoplasm) (evidensnivå L5). Opprinnelig indikasjon: Colorectal Neoplasms"
 ---
 
@@ -48,7 +48,7 @@ Bevacizumab er et monoklonalt antistoff som nøytraliserer VEGF-A og hemmer tumo
 | Foreslått ny indikasjon | Epiglottisneoplasme (epiglottis neoplasm) |
 | TxGNN-prediksjonsskår | 0,9990 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 10 av 10) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 10 av 10) |
 | Antall godkjenninger | 10 (gyldige: 10) |
 | Anbefalt beslutning | Avvent (Hold) |
 

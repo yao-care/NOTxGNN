@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "DURVALUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Durvalumab: predikert ny indikasjon Adenokarsinom i livmorligamentet (evidensnivå L5). Opprinnelig indikasjon: Ikke-småcellet lungekreft"
 ---
 
@@ -52,7 +52,7 @@ men foreløpig finnes bare **1 klinisk studie** (fase 1, 20 pasienter) og **2 pu
 | Forutsagt ny indikasjon | Livmorbåndets adenokarsinom (rang 1); endocervikalt karsinom (rang 2, med data) |
 | TxGNN-prediksjonsscore | 0,9992 (rang 1); 0,9991 (rang 2) |
 | Evidensnivå | L5 (rang 1); L5 for endocervikalt karsinom (se vurdering under) |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold (vent) |
 

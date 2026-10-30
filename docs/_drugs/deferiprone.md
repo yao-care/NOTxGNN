@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "DEFERIPRONE"
 predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Deferiprone: predikert ny indikasjon Leverporfyri (hepatic porphyria) (evidensnivå L5). Opprinnelig indikasjon: beta-Thalassemia"
 ---
 
@@ -48,7 +48,7 @@ Deferipron er en oral jernkelator. Modellen TxGNN predikerer at legemidlet kan h
 | Predikert ny indikasjon | Leverporfyri (hepatic porphyria) |
 | TxGNN-prediksjonsscore | 0,9920 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 2 av 2) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
 

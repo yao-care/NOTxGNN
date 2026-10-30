@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 85
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Carfilzomib: predikert ny indikasjon CMM7 (evidensnivå L5). Opprinnelig indikasjon: Multippelt myelom"
 monitor_inn: "CARFILZOMIB"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
@@ -52,7 +52,7 @@ Det finnes **ingen registrerte kliniske studier** og **ingen publikasjoner** for
 | Predikert ny indikasjon | CMM7 |
 | TxGNN-prediksjonsscore | 0.9937 |
 | Evidensnivå | L5 (kun modellprediksjon). For «melanom» generelt: L4 |
-| Status i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold (vent) |
 

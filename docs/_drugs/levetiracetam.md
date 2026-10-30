@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Levetiracetam: predikert ny indikasjon beta-ketotiolase-mangel (beta-ketothiolase deficiency) (evidensnivå L5). Opprinnelig indikasjon: Epilepsy"
 ---
 
@@ -50,7 +50,7 @@ men det finnes for øyeblikket **0 kliniske studier** og **0 publikasjoner** som
 | Predikert ny indikasjon | beta-ketotiolase-mangel (beta-ketothiolase deficiency) |
 | TxGNN-prediksjonsscore | 0,9990 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 9 av 9) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 9 av 9) |
 | Antall godkjenninger | 9 (gyldige: 9) |
 | Anbefalt beslutning | Hold |
 

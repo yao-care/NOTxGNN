@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "DAPTOMYCIN"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Daptomycin: predikert ny indikasjon Slitasjegikt (osteoarthritis) (evidensnivå L5). Opprinnelig indikasjon: Soft Tissue Infections"
 ---
 
@@ -48,7 +48,7 @@ Daptomycin er et syklisk lipopeptid-antibiotikum mot grampositive bakterier. TxG
 | Predikert ny indikasjon | Slitasjegikt (osteoarthritis) |
 | TxGNN-prediksjonsscore | 0,9986 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 2 av 2) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
 

@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 192
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Glucagon: predikert ny indikasjon Irritabelt tarmsyndrom (evidensnivå L3). Opprinnelig indikasjon: Diabetes mellitus"
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]
@@ -52,7 +52,7 @@ Støtten er svak og indirekte: de **2 kliniske studiene** og størstedelen av de
 | Predikert ny indikasjon | Irritabelt tarmsyndrom |
 | TxGNN-prediksjonsscore | 0,9924 |
 | Evidensnivå | L3 |
-| Status i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Lacosamide: predikert ny indikasjon Manisk bipolar lidelse (manic bipolar affective disorder) (evidensnivå L5). Opprinnelig indikasjon: Epilepsy"
 ---
 
@@ -50,7 +50,7 @@ Lacosamid er et antiepileptikum som virker på spenningsstyrte natriumkanaler. T
 | Predikert ny indikasjon | Manisk bipolar lidelse (manic bipolar affective disorder) |
 | TxGNN-prediksjonsscore | 0,9996 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 4 av 4) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 4 av 4) |
 | Antall godkjenninger | 4 (gyldige: 4) |
 | Anbefalt beslutning | Hold |
 

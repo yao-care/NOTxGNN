@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 207
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Idelalisib: predikert ny indikasjon Mantelcellelymfom (evidensnivå L5). Opprinnelig indikasjon: Non-Hodgkin-lymfom"
 monitor_inn: "IDELALISIB"
 predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "small intestinal Burkitt lymphoma", "colon adenocarcinoma"]
@@ -52,7 +52,7 @@ og dataene som er sammenstilt for denne rapporten viser **5 kliniske studier** o
 | Predikert ny indikasjon | Mantelcellelymfom |
 | TxGNN-prediksjonsscore | 0,9984 |
 | Evidensnivå | L2 (ifølge de sammenstilte dataene) – i praksis svakere, se nedenfor |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Antall markedsføringstillatelser | 1 |
 | Anbefalt beslutning | Hold |

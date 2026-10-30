@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "CETUXIMAB"
 predicted_indications: ["bronchial adenomas/carcinoids childhood", "non-seminomatous lesion", "ductal or ductular proliferation", "chondroid hamartoma", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "cystic neoplasm", "epiglottis neoplasm", "pre-malignant neoplasm"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cetuximab: predikert ny indikasjon Bronkiale adenomer/karsinoider hos barn (bronchial adenomas/carcinoids childhood) (evidensnivå L5). Opprinnelig indikasjon: Head and Neck Neoplasms"
 ---
 
@@ -52,7 +52,7 @@ men for denne diagnosen er det **ingen kliniske studier** og **ingen publikasjon
 | Predikert ny indikasjon | Bronkiale adenomer/karsinoider hos barn (bronchial adenomas/carcinoids childhood) |
 | TxGNN-prediksjonsscore | 0,9995 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 

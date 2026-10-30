@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 376
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Salmeterol: predikert ny indikasjon Bronkitt (evidensnivå L1). Opprinnelig indikasjon: Astma"
 monitor_inn: "salmeterol"
 predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
@@ -50,7 +50,7 @@ Salmeterol er en langtidsvirkende beta2-agonist som opprinnelig er godkjent for 
 | Predikert ny indikasjon | Bronkitt |
 | TxGNN-prediksjonsscore | 0,9992 |
 | Evidensnivå | L1 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med sikkerhetsrammer) |
 

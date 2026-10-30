@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Topotecan: predikert ny indikasjon Brystkreft hos kvinner (female breast carcinoma) (evidensnivå L3). Opprinnelig indikasjon: Livmorhalskreft, småcellet lungekreft"
 monitor_inn: "TOPOTECAN"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
@@ -52,7 +52,7 @@ men støtten er svak: de tre registrerte kliniske studiene er tidlige eller avsl
 | Predikert ny indikasjon | Brystkreft hos kvinner (female breast carcinoma) |
 | TxGNN-prediksjonsscore | 0,9992 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 3 av 3) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
 | Antall godkjenninger | 3 (gyldige: 3) |
 | Antall tillatelser | 3 (alle kansellert) |
 | Anbefalt beslutning | Hold |

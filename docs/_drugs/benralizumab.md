@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "BENRALIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Benralizumab: predikert ny indikasjon Trombocytopeni som skyldes immunologisk destruksjon (thrombocytopenia due to immune destruction) (evidensnivå L5). Opprinnelig indikasjon: Asthma"
 ---
 
@@ -49,7 +49,7 @@ TxGNN-modellen predikerer at det kan ha effekt ved **trombocytopeni som skyldes 
 | Predikert ny indikasjon | Trombocytopeni som skyldes immunologisk destruksjon (thrombocytopenia due to immune destruction) |
 | TxGNN-prediksjonsscore | 0,9934 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 

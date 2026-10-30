@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 50
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Azathioprine: predikert ny indikasjon Colobomatous microphthalmia-rhizomelic dysplasia syndrome (rangert nr… (evidensnivå L5). Opprinnelig indikasjon: Avstøtning av transplantat (graft rejection)"
 monitor_inn: "AZATHIOPRINE"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
@@ -51,7 +51,7 @@ TxGNN-modellen rangerer flere nye indikasjoner høyt. Den best underbygde er **i
 | Predikert ny indikasjon | Colobomatous microphthalmia-rhizomelic dysplasia syndrome (rangert nr. 1 av TxGNN; se merknad nedenfor) |
 | TxGNN-prediksjonsscore | 1,0000 |
 | Evidensnivå | L5 for rangert nr. 1. For IBD og ulcerøs kolitt: L1 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Antall autorisasjoner | 1 (avregistrert) |
 | Anbefalt beslutning | Hold for rangert nr. 1. Proceed with Guardrails for IBD / ulcerøs kolitt |

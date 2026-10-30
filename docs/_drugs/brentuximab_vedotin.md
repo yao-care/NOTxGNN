@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 63
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Brentuximab Vedotin: predikert ny indikasjon Follikulært lymfom (evidensnivå L3). Opprinnelig indikasjon: Non-Hodgkin-lymfom og Hodgkin-lymfom"
 monitor_inn: "BRENTUXIMAB VEDOTIN"
 predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "Richter syndrome", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
@@ -50,7 +50,7 @@ Brentuksimab vedotin er et antistoff-legemiddelkonjugat rettet mot CD30, opprinn
 | Predikert ny indikasjon | Follikulært lymfom |
 | TxGNN-prediksjonsscore | 0,9989 |
 | Evidensnivå | L3 |
-| Status i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Antall tillatelser | 1 (0 gyldige, 1 avregistrert) |
 | Anbefalt beslutning | Hold (forskningsspørsmål) |

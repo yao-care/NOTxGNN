@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "BEMPEDOIC ACID"
 predicted_indications: ["hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "malignant catarrh", "infectious bovine rhinotracheitis", "cytomegalovirus infection", "hyperthyroxinemia", "drug-induced osteoporosis", "multiple endocrine neoplasia", "pregnancy associated osteoporosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Bempedoic Acid: predikert ny indikasjon Hypertyreose (hyperthyroidism) (evidensnivå L5). Opprinnelig indikasjon: Hypercholesterolemia"
 ---
 
@@ -50,7 +50,7 @@ men det finnes **ingen kliniske studier** og **ingen publikasjoner** i de samled
 | Predikert ny indikasjon | Hypertyreose (hyperthyroidism) |
 | TxGNN-prediksjonsscore | 0,9961 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 2 av 2) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
 

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Treprostinil"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita"]
 description: "Treprostinil: predikert ny indikasjon Pulmonary arteriovenous malformation (disease) (evidensnivå L5). Opprinnelig indikasjon: Hypertension, Pulmonary"
@@ -52,7 +52,7 @@ Dette støttes foreløpig av **19 publikasjoner** (hovedsakelig små kohortstudi
 | Predikert ny indikasjon | Pulmonary arteriovenous malformation (disease) |
 | TxGNN-prediksjonsscore | 0.9970 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forholdsregler) |
 

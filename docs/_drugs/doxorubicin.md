@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 8
 monitor_inn: "Doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Doxorubicin: predikert ny indikasjon Ewing-sarkom (Ewing sarcoma) (evidensnivå L1). Opprinnelig indikasjon: Breast Neoplasms"
 ---
 
@@ -48,7 +48,7 @@ Doksorubicin er et antracyklin-cytostatikum som hemmer topoisomerase II og binde
 | Predikert ny indikasjon | Ewing-sarkom (Ewing sarcoma) |
 | TxGNN-prediksjonsscore | 0,9990 |
 | Evidensnivå | L1 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 2 av 2) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Gå videre med forbehold (Proceed with Guardrails) |
 

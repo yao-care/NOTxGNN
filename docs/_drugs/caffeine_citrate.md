@@ -7,7 +7,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 78
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 predicted_indications: []
 ---
 
@@ -52,7 +52,7 @@ Foreløpig kan **ingen klinisk utprøving eller litteraturfunn** knyttes til ett
 | Predikert ny indikasjon | Ingen TxGNN-forutsigelse tilgjengelig |
 | TxGNN-forutsigelsesscore | N/A |
 | Bevisnivå | L5 — ingen forutsigelser generert |
-| Markedsstatus Norge | Markedsført (gyldige tillatelser: 2 av 2) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Avvent |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Ceftolozane"
 predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "urogenital tuberculosis", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ceftolozane: predikert ny indikasjon Gonokokk-uretritt (gonococcal urethritis) (evidensnivå L5). Opprinnelig indikasjon: Bacterial Infections"
 ---
 
@@ -50,7 +50,7 @@ men det finnes **ingen kliniske studier** og **ingen publikasjoner** som direkte
 | Predikert ny indikasjon | Gonokokk-uretritt (gonococcal urethritis) |
 | TxGNN-prediksjonsscore | 0,9989 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 

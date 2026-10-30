@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "NIRAPARIB"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
 description: "Niraparib: predikert ny indikasjon Epiglottis neoplasm (evidensnivå L5). Opprinnelig indikasjon: Fallopian Tube Neoplasms"
@@ -48,7 +48,7 @@ Niraparib er en PARP-hemmer som opprinnelig brukes mot kreft i eggstokk, egglede
 | Predikert ny indikasjon | Epiglottis neoplasm |
 | TxGNN-prediksjonsscore | 0.9999 |
 | Evidensnivå | L5 (for cystisk neoplasme); L5 for øvrige prediksjoner |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 2 av 2) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
 | Antall tillatelser | 2 (begge kansellert) |
 | Anbefalt beslutning | Hold (utsett); kan vurderes som forskningsspørsmål |

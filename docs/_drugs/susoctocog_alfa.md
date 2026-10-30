@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "SUSOCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "congenital factor XIII deficiency", "adenosine deaminase deficiency"]
 description: "Susoctocog Alfa: predikert ny indikasjon Primary release disorder of platelets (evidensnivå L5). Opprinnelig indikasjon: Hemophilia A"
@@ -50,7 +50,7 @@ Susoctocog alfa er en rekombinant faktor VIII-erstatning med svinesekvens og ute
 | Predikert ny indikasjon | Primary release disorder of platelets |
 | TxGNN-prediksjonsscore | 0.9994 |
 | Evidensnivå | L5 |
-| Status på det norske markedet | Markedsført (gyldige tillatelser: 1 av 1) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Antall markedsføringstillatelser | 1 |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
