@@ -14,6 +14,9 @@ on:
       max_pages:
         description: '補跑積欠變動時放寬停損頁數（留空＝預設 min(200, 5%)）'
         default: ''
+      max_change:
+        description: '第一次換官方來源時放寬狀態變動比例（例 0.5；留空＝預設 0.2）'
+        default: ''
 
 permissions:
   contents: write
@@ -49,6 +52,7 @@ jobs:
         id: refresh
         env:
           LICENSE_REFRESH_MAX_PAGES: ${{ inputs.max_pages }}
+          LICENSE_REFRESH_MAX_CHANGE: ${{ inputs.max_change }}
         run: |
           WS=$(bash scripts/txgnn_ws.sh)
           SITE=$(cat tools/txgnn/SITE)
@@ -59,7 +63,7 @@ jobs:
           set -e
           echo "code=$code" >> "$GITHUB_OUTPUT"
           cat .license_refresh/summary.md >> "$GITHUB_STEP_SUMMARY"
-          python3 -c "import json;s=json.load(open('.license_refresh/summary.json'));print('records=%d' % len(s.get('license_changes',[])));print('held=%d' % len(s.get('held',[])));print('unsynced=%d' % len(s.get('unsynced',[])))" >> "$GITHUB_OUTPUT"
+          python3 -c "import json;s=json.load(open('.license_refresh/summary.json'));print('records=%d' % len(s.get('license_changes',[])));print('held=%d' % len(s.get('held',[])));print('unsynced=%d' % len(s.get('unsynced',[])));print('missing=%d' % (1 if s.get('missing_alert') else 0))" >> "$GITHUB_OUTPUT"
 
       - name: Commit and push pages
         if: steps.refresh.outputs.code == '0' && inputs.dry_run != 'true'
@@ -99,7 +103,7 @@ jobs:
           include-hidden-files: true
 
       - name: Open issue on stop
-        if: (steps.refresh.outputs.code != '0' || steps.refresh.outputs.held != '0' || steps.refresh.outputs.unsynced != '0') && inputs.dry_run != 'true'
+        if: (steps.refresh.outputs.code != '0' || steps.refresh.outputs.held != '0' || steps.refresh.outputs.unsynced != '0' || steps.refresh.outputs.missing != '0') && inputs.dry_run != 'true'
         run: |
           title="許可證排程更新需要人看（exit ${{ steps.refresh.outputs.code }}，擋下 ${{ steps.refresh.outputs.held }} 頁，未同步 ${{ steps.refresh.outputs.unsynced }} 格）"
           n=$(gh issue list --label license-refresh --state open --json number -q 'length')

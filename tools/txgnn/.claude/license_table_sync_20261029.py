@@ -77,16 +77,31 @@ def learn(site):
     return {"labels": labels, "preferred": best}
 
 
+REG_KEYS = ("tfda", "thaifda", "pmda", "npra", "mhra", "tga", "fda")  # 與 reviewer drug_evidence_pack 的順序相同
+
+
+def reg_block(bundle):
+    """證據包裡放本地許可證的區塊（各站欄位名不同：Dk/Nl/Th 用 thaifda、Jp 用 pmda、My 用 npra…）"""
+    for k in REG_KEYS:
+        v = bundle.get(k)
+        if isinstance(v, dict) and v.get("records"):
+            return v
+    for k in REG_KEYS:
+        if isinstance(bundle.get(k), dict):
+            return bundle[k]
+    return {}
+
+
 def official_text(site):
     """{許可證號: 主管機關原文狀態}：取自證據包 tfda.records 的 status／registration_status（下載轉換器寫入的官方字樣）"""
     out = {}
     for f in (BASE / site / "data/bundles").glob("*/drug_bundle.json"):
         try:
-            recs = (json.loads(f.read_text(encoding="utf-8")).get("tfda") or {}).get("records", [])
+            recs = reg_block(json.loads(f.read_text(encoding="utf-8"))).get("records", [])
         except Exception:
             continue
         for r in recs:
-            k = str(r.get("license_id") or r.get("registration_number") or "").strip()
+            k = str(r.get("license_id") or r.get("registration_number") or r.get("reg_no") or "").strip()
             s = str(r.get("status") or r.get("registration_status") or "").strip()
             if k and s:
                 out[norm(k)] = s
@@ -187,7 +202,7 @@ def drop_excluded_rows(site, dry=False):
     回傳 [(頁, 欄位, 前值, 後值)]"""
     out = []
     for f in sorted((BASE / site / "data/bundles").glob("*/drug_bundle.json")):
-        vet = {norm(str(r.get("license_id") or "")) for r in ((json.loads(f.read_text(encoding="utf-8")).get("tfda") or {}).get("veterinary_records") or [])}
+        vet = {norm(str(r.get("license_id") or "")) for r in (reg_block(json.loads(f.read_text(encoding="utf-8"))).get("veterinary_records") or [])}
         if not vet:
             continue
         for stem in (f.parent.name, f.parent.name.replace("_", "-")):

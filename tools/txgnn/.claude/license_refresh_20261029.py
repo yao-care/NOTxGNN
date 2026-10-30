@@ -92,6 +92,8 @@ def main(argv):
         S["exit"], S["result"] = code, msg
         (out / "summary.json").write_text(json.dumps(S, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         md = [f"## {site} 許可證更新 {S['date']}：{msg}", ""] + [f"- {x}" for x in S["steps"]]
+        if S.get("missing_alert"):
+            md += ["", f"### 新資料查不到的許可證（超過 2%，前 300 張）", ""] + [f"- `{x}`" for x in S["not_in_source"]]
         if S.get("held"):
             md += ["", f"### 擋下、等人看的頁（{len(S['held'])}）", ""] + [f"- `{x}`" for x in S["held"]]
         if S.get("checker_bad"):
@@ -125,12 +127,20 @@ def main(argv):
     bundles = sorted((BASE / site / "data/bundles").glob("*/drug_bundle.json"))
     if not bundles:
         finish(2, "找不到 data/bundles（先跑 scripts/restore_data.sh）")
-    ids = {ad.record_id(r) for f in bundles for r in (json.loads(f.read_text(encoding="utf-8")).get("tfda") or {}).get("records", [])}
+    lts = _load("lts", BASE / ".claude/license_table_sync_20261029.py")
+    ids = {ad.record_id(r) for f in bundles for r in lts.reg_block(json.loads(f.read_text(encoding="utf-8"))).get("records", [])}
     ids.discard(None); ids.discard("")
     cover = sum(1 for i in ids if i in idx) / max(1, len(ids))
     S["steps"].append(f"下載 {len(new)} 筆（上次 {len(old) if old is not None else '無'} 筆）；證據包裡 {len(ids)} 張許可證，新資料涵蓋 {cover:.1%}")
-    if cover < 0.95:
-        problems.append(f"新資料只涵蓋證據包許可證的 {cover:.1%}（門檻 95%），疑似格式或來源改變")
+    cmin = getattr(ad, "COVER_MIN", 0.95)
+    S["not_in_source"] = sorted(i for i in ids if i not in idx)[:300]  # 新資料查不到的許可證：保留原狀態，只列出來
+    if S["not_in_source"]:
+        n_miss = sum(1 for i in ids if i not in idx)
+        S["steps"].append(f"新資料查不到 {n_miss} 張許可證（保留原狀態，不推定為撤銷）")
+        S["missing_alert"] = n_miss / max(1, len(ids)) > (1 - cmin) + 0.02 if cmin < 0.95 else n_miss / max(1, len(ids)) > 0.02  # 超過基準 2% 開 issue（pm 2026-10-30）
+    # cmin：站專屬涵蓋門檻（例：Za 匯出檔不含舊制藥品，見轉換器說明）
+    if cover < cmin:
+        problems.append(f"新資料只涵蓋證據包許可證的 {cover:.1%}（門檻 {cmin:.0%}），疑似格式或來源改變")
     if problems:
         finish(2, "資料檢查沒過：" + "；".join(problems))
 
@@ -150,7 +160,7 @@ def main(argv):
         ch = bool(getattr(ad, "preprocess", None) and ad.preprocess(b))  # 站專屬的前處理（例：EMA 獸用許可移出）
         if ch:
             changes.append(f"{f.parent.name} preprocess 前處理")
-        for r in (b.get("tfda") or {}).get("records", []):
+        for r in lts.reg_block(b).get("records", []):
             nv = idx.get(ad.record_id(r))
             if nv is not None:
                 before = r.get("status")
@@ -163,8 +173,9 @@ def main(argv):
     n_id = len({c.split(" ")[1] for c in changes if " preprocess " not in c})  # 同一張許可證在證據包裡可能重複多筆（例如 CO 每個包裝一筆）
     S["steps"].append(f"許可證狀態有變 {n_rec} 筆（{n_id} 張不重複許可證）、{n_bundle} 個藥")
     S["license_changes"] = changes[:1000]
-    if len(ids) and n_id / len(ids) > 0.2:
-        finish(2, f"狀態變動 {n_id}/{len(ids)} 張許可證超過 20%，疑似來源格式改變，不寫回")
+    rmax = float(os.environ.get("LICENSE_REFRESH_MAX_CHANGE") or 0.2)  # 只給手動補跑（第一次換官方來源）用，排程不設
+    if len(ids) and n_id / len(ids) > rmax:
+        finish(2, f"狀態變動 {n_id}/{len(ids)} 張許可證超過 {rmax:.0%}，疑似來源格式改變，不寫回")
     if dry:
         finish(0, f"試跑：{n_rec} 筆狀態會變，未寫回")
     raw_path.parent.mkdir(parents=True, exist_ok=True)
