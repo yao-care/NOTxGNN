@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 214
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Indacaterol: predikert ny indikasjon Nefrogent syndrom med uhensiktsmessig antidiurese (evidensnivå L5). Opprinnelig indikasjon: Kronisk obstruktiv lungesykdom (KOLS)"
 monitor_inn: "INDACATEROL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
@@ -52,8 +52,8 @@ Det finnes foreløpig **ingen kliniske studier og ingen publikasjoner** som stø
 | Predikert ny indikasjon | Nefrogent syndrom med uhensiktsmessig antidiurese |
 | TxGNN-prediksjonsscore | 0,9954 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 10 av 10) |
-| Antall godkjenninger | 10 (gyldige: 10) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 8 av 10) |
+| Antall godkjenninger | 10 (gyldige: 8) |
 | Anbefalt beslutning | Hold (avvent) |
 
 ---
