@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "DUVELISIB"
 predicted_indications: ["Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Duvelisib: predikert ny indikasjon Hodgkins lymfom (Hodgkins lymphoma) (evidensnivå L5). Opprinnelig indikasjon: Leukemia, Lymphocytic, Chronic, B-Cell"
 ---
 
@@ -48,7 +48,7 @@ Duvelisib er en oral hemmer av PI3K-delta og PI3K-gamma som brukes mot visse B-c
 | Predikert ny indikasjon | Hodgkins lymfom (Hodgkins lymphoma) |
 | TxGNN-prediksjonsscore | 0,9994 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Ikke markedsført (avregistrerte godkjenninger: 1 av 1) |
+| Markedsstatus i Norge | Sentral EU-godkjenning (EMA) avregistrert (1 av 1) – nasjonale markedsføringstillatelser (DMP) finnes ikke i dataene som er brukt her |
 | Antall godkjenninger | 1 (gyldige: 0) |
 | Anbefalt beslutning | Hold |
 

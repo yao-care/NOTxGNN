@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 357
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "RETEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "heparin cofactor 2 deficiency", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "antithrombin deficiency type 2", "hemolytic anemia due to glucophosphate isomerase deficiency"]
 description: "Reteplase: predikert ny indikasjon Congenital coronary artery anomaly (evidensnivå L5). Opprinnelig indikasjon: Myocardial Infarction"
@@ -49,8 +49,8 @@ TxGNN-modellen predikerer at det kan være effektivt ved **posteroinferiørt myo
 | Predikert ny indikasjon | Congenital coronary artery anomaly |
 | TxGNN-prediksjonsscore | 0.9980 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
-| Antall godkjenninger | 1 (gyldige: 1) |
+| Markedsstatus i Norge | Sentral EU-godkjenning (EMA) avregistrert (1 av 1) – nasjonale markedsføringstillatelser (DMP) finnes ikke i dataene som er brukt her |
+| Antall godkjenninger | 1 (gyldige: 0) |
 | Anbefalt beslutning | Hold |
 
 ## Hvorfor er denne prediksjonen rimelig?
@@ -105,7 +105,7 @@ For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparato
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den predikerte indikasjonen er en undertype av den allerede godkjente indikasjonen, og det finnes verken kliniske studier eller direkte litteratur. Den høye scoren er trolig et resultat av ontologinærhet. Produktet er dessuten ikke lenger markedsført i Norge.
+Den predikerte indikasjonen er en undertype av den allerede godkjente indikasjonen, og det finnes verken kliniske studier eller direkte litteratur. Den høye scoren er trolig et resultat av ontologinærhet. Den sentrale EU-godkjenningen (EMA) er dessuten avregistrert; nasjonale markedsføringstillatelser (DMP) finnes ikke i dataene som er brukt her.
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
