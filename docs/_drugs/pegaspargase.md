@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 description: "Pegaspargase: predikert ny indikasjon Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (evidensnivå L5). Opprinnelig indikasjon: Precursor Cell Lymphoblastic Leukemia-Lympho…"
@@ -106,7 +106,6 @@ Under er et utvalg av de mest relevante av de 31 studiene. De fleste tester regi
 |---------|------|------|-----------|
 | EMEA/H/C/003789 | Oncaspar | Ikke oppgitt | Prekursor-lymfoblastisk leukemi/lymfom (status: godkjent) |
 
-Merk: Markedsstatusen "kun avregistrert" bør kontrolleres med tanke på tilgjengelighet i regionen.
 
 ---
 

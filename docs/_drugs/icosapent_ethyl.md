@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 205
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Icosapent Ethyl: predikert ny indikasjon Hemoglobinopati (evidensnivå L5). Opprinnelig indikasjon: Dyslipidemi"
 monitor_inn: "ICOSAPENT ETHYL"
 predicted_indications: ["hemoglobinopathy"]
@@ -107,7 +107,6 @@ Prediksjonen er kun modellbasert (evidensnivå L5) uten støtte fra kliniske stu
 - Hente virkningsmekanisme (MOA) fra DrugBank
 - Laste ned og analysere pakningsvedlegget for advarsler og kontraindikasjoner (blokkerende for sikkerhetsscreening)
 - Gjennomføre litteratur- og studiesøk for EPA/omega-3 ved hemoglobinopatier, spesielt sigdcellesykdom
-- Avklare om det finnes et tilgjengelig produkt og en egnet administrasjonsvei, siden markedsstatusen er «kun avregistrert»
 - Vurdere prekliniske eller eksplorative studier for å teste hypotesen
 ## Ansvarsfraskrivelse
 

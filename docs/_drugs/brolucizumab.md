@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 68
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Brolucizumab: predikert ny indikasjon Mitokondriell oksidativ fosforyleringssykdom på grunn av kjerne-DNA-avvik (evidensnivå L5). Opprinnelig indikasjon: Våt makuladegenerasjon"
 monitor_inn: "BROLUCIZUMAB"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "esophageal varices without bleeding", "esophageal varices with bleeding", "exocrine pancreatic insufficiency"]
@@ -114,7 +114,7 @@ Ytterligere sikkerhetsinformasjon (advarsler, kontraindikasjoner og legemiddelin
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er basert utelukkende på en grafmodell (L5) uten støtte fra kliniske studier eller litteratur, og det er ikke identifisert noen plausibel mekanistisk sammenheng. I tillegg er produktet i Norge kun registrert som avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen er basert utelukkende på en grafmodell (L5) uten støtte fra kliniske studier eller litteratur, og det er ikke identifisert noen plausibel mekanistisk sammenheng.
 
 **For å gå videre kreves følgende:**
 - Innhenting og gjennomgang av preparatomtalen (advarsler og kontraindikasjoner), som er en blokkerende datamangel

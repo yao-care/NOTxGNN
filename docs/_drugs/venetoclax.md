@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 447
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
 description: "Venetoclax: predikert ny indikasjon Hodgkins lymphoma (evidensnivå L5). Opprinnelig indikasjon: Leukemia, Lymphocytic, Chronic, B-Cell"
@@ -125,7 +125,7 @@ For øvrig sikkerhetsinformasjon, se pakningsvedlegget.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen gjelder en undergruppe av den allerede godkjente KLL-indikasjonen, og det finnes ingen undergruppespesifikke studier. Støtten er i praksis en modellscore og én biologisk oversiktsartikkel. Samtidig er legemidlet kun avregistrert på det norske markedet, noe som begrenser praktisk relevans.
+Prediksjonen gjelder en undergruppe av den allerede godkjente KLL-indikasjonen, og det finnes ingen undergruppespesifikke studier. Støtten er i praksis en modellscore og én biologisk oversiktsartikkel.
 
 **For å gå videre trengs følgende:**
 - Undergruppeanalyser (IGHV-status) fra eksisterende KLL-studier med venetoklaks, for eksempel MURANO

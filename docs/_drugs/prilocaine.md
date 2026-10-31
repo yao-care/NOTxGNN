@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 339
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Prilocaine: predikert ny indikasjon Papillær konjunktivitt (evidensnivå L5). Opprinnelig indikasjon: Fysiologisk seksuell dysfunksjon"
 monitor_inn: "PRILOCAINE"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
@@ -96,7 +96,7 @@ Mange av de alvorlige interaksjonene gjelder legemidler som kan fremkalle methem
 **Beslutning: Hold**
 
 **Begrunnelse:**
-- Prediksjonen for papillær konjunktivitt hviler kun på modellscore (L5), uten kliniske studier eller litteratur. Produktet er dessuten kun avregistrert i markedet, og sikkerhetsdata fra preparatomtalen mangler.
+- Prediksjonen for papillær konjunktivitt hviler kun på modellscore (L5), uten kliniske studier eller litteratur.
 
 **Andre prediksjoner med mer evidens:**
 - **Nevralgi** (rang 5, evidensnivå L3) er den best støttede av de ti predikerte indikasjonene.

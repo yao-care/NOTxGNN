@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Vismodegib: predikert ny indikasjon Medulloblastom med utbredt nodularitet (evidensnivå L5). Opprinnelig indikasjon: Basalcellekarsinom"
 monitor_inn: "VISMODEGIB"
 predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
@@ -116,7 +116,7 @@ Foreløpig ingen relatert litteratur tilgjengelig.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen har høy modellscore og en plausibel mekanisme via Hedgehog-signalveien, men evidensnivået er L5 uten kliniske studier eller litteratur for denne diagnosen. I tillegg avhenger responsen av mutasjonsnivå i signalveien, bruk hos barn gir sikkerhetsbekymringer, og legemidlet har kun avregistrerte godkjenninger i Norge.
+Prediksjonen har høy modellscore og en plausibel mekanisme via Hedgehog-signalveien, men evidensnivået er L5 uten kliniske studier eller litteratur for denne diagnosen.
 
 Til sammenligning har andre prediksjoner for vismodegib bedre støtte i datagrunnlaget:
 - **Hudkreft** (evidensnivå L2): flere fase 2-studier og retningslinjer, men indikasjonen overlapper i stor grad med den opprinnelige.

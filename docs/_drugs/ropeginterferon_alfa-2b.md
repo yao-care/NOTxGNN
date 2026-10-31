@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Ropeginterferon Alfa-2B: predikert ny indikasjon Laubry-Pezzi syndrom (evidensnivå L5). Opprinnelig indikasjon: Polycytemia vera"
 monitor_inn: "ROPEGINTERFERON ALFA-2B"
 predicted_indications: ["Laubry-Pezzi syndrome", "interventricular septum aneurysm", "genetic syndromic Pierre Robin syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 7", "disorder of fucoglycosan synthesis", "Jeune syndrome situs inversus", "partial deletion of the long arm of chromosome 22", "orofacial clefting syndrome", "pulmonary valve disease"]
@@ -119,7 +119,7 @@ Se preparatomtalen for sikkerhetsinformasjon. Det ble ikke funnet noen registrer
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og det finnes ingen plausibel mekanistisk kobling mellom et interferon mot myeloproliferative neoplasmer og en strukturell medfødt hjertemisdannelse. Preparatet er i tillegg kun avregistrert i Norge.
+Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og det finnes ingen plausibel mekanistisk kobling mellom et interferon mot myeloproliferative neoplasmer og en strukturell medfødt hjertemisdannelse.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

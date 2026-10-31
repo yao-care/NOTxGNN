@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 386
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Sirolimus: predikert ny indikasjon Liposarkom (evidensnivå L3). Opprinnelig indikasjon: Transplantatavstøtning / nyretransplantasjon"
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lung PEComa", "vulva sarcoma"]
@@ -129,7 +129,7 @@ Se pakningsvedlegget for fullstendig sikkerhetsinformasjon.
 **Beslutning: Hold** (for liposarkom; forskningsspørsmål)
 
 **Begrunnelse:**
-- Evidensen for liposarkom er begrenset til én enarmet fase 2-studie med kombinasjonsbehandling og indirekte litteratur. Det finnes ingen randomiserte data. Markedsstatusen i Norge er «kun avregistrert», og sikkerhetsdata fra pakningsvedlegget mangler.
+- Evidensen for liposarkom er begrenset til én enarmet fase 2-studie med kombinasjonsbehandling og indirekte litteratur. Det finnes ingen randomiserte data.
 - Til sammenligning har **lymfangiomyom (LAM)** (rang 5) evidensnivå L1, støttet av fase 3-studiene MILES (NCT00414648) og MLE (NCT03150914). Dette er den mest modne prediksjonen for sirolimus og kan vurderes som «Proceed with Guardrails», med overvåking av infeksjoner, lipider, pneumonitt, interaksjoner og dalkonsentrasjon. Merk at LAM-effekten er suspensiv, og sykdommen progredierer etter seponering. Lunge-PEComa (rang 9) deler samme mekanisme, men har svakere direkte støtte, og koblingen til LAM bør bekreftes.
 
 **For å gå videre kreves:**

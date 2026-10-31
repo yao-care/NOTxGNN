@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "SUSOCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "congenital factor XIII deficiency", "adenosine deaminase deficiency"]
 description: "Susoctocog Alfa: predikert ny indikasjon Primary release disorder of platelets (evidensnivå L5). Opprinnelig indikasjon: Hemophilia A"
@@ -106,7 +106,7 @@ Ingen sikkerhetsdata (advarsler, kontraindikasjoner eller legemiddelinteraksjone
 **Beslutning: Proceed with Guardrails (fortsett med forbehold) for «hemofili» og «ervervet koagulasjonsfaktormangel». Hold for alle øvrige prediksjoner.**
 
 **Begrunnelse:**
-- Evidensen for hemofili/ervervet hemofili A (L3) består av observasjonsstudier, kohorter, kasuistikker, PK-studier og oversikter, samt en fase II/III-studie omtalt i litteraturen. Dette er i hovedsak den opprinnelige indikasjonen og ikke en ny bruk. Produktet står oppført som kun avregistrert i Norge.
+- Evidensen for hemofili/ervervet hemofili A (L3) består av observasjonsstudier, kohorter, kasuistikker, PK-studier og oversikter, samt en fase II/III-studie omtalt i litteraturen. Dette er i hovedsak den opprinnelige indikasjonen og ikke en ny bruk.
 - De åtte andre prediksjonene (L5) mangler både studier, litteratur og plausibel mekanisme, og bør ikke forfølges.
 
 **For å gå videre kreves følgende:**

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 40
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Asfotase Alfa: predikert ny indikasjon Mitokondriell oksidativ fosforyleringssykdom på grunn av kjerne-DNA-avvik (evidensnivå L5). Opprinnelig indikasjon: Hypofosfatasi"
 monitor_inn: "ASFOTASE ALFA"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Steel syndrome", "exocrine pancreatic insufficiency", "Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "familial apolipoprotein C-II deficiency", "esophageal varices with bleeding", "esophageal varices without bleeding", "cystinosis"]
@@ -118,7 +118,7 @@ Det foreligger ingen tilgjengelige data om advarsler eller kontraindikasjoner i 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er rent modellbasert (L5) uten kliniske studier eller litteratur, og det finnes ingen plausibel biologisk kobling mellom en ekstracellulær TNSALP-erstatning og intracellulære mitokondrielle defekter. I tillegg er produktet kun registrert som avregistrert i Norge.
+Prediksjonen er rent modellbasert (L5) uten kliniske studier eller litteratur, og det finnes ingen plausibel biologisk kobling mellom en ekstracellulær TNSALP-erstatning og intracellulære mitokondrielle defekter.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

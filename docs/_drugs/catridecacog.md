@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 87
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Catridecacog: predikert ny indikasjon Primær frigjøringsforstyrrelse i blodplater (evidensnivå L5). Opprinnelig indikasjon: Arvelige koagulasjonsforstyrrelser (Blood Coagulation Disorders…"
 monitor_inn: "CATRIDECACOG"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia"]
@@ -103,7 +103,7 @@ Se preparatomtalen for sikkerhetsinformasjon. Data om advarsler og kontraindikas
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonene hviler kun på en modellscore (evidensnivå L5), uten kliniske studier eller publikasjoner. Den mekanistiske koblingen er svak, siden FXIII ikke korrigerer de primære blodplatedefektene. Produktet er dessuten kun avregistrert i Norge.
+Prediksjonene hviler kun på en modellscore (evidensnivå L5), uten kliniske studier eller publikasjoner. Den mekanistiske koblingen er svak, siden FXIII ikke korrigerer de primære blodplatedefektene.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

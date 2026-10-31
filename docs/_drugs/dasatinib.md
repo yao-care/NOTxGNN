@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 115
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
 description: "Dasatinib: predikert ny indikasjon Ewing-sarkom (Ewing sarcoma) (evidensnivå L2). Opprinnelig indikasjon: Precursor Cell Lymphoblastic Leukemia-Lymphoma"
@@ -129,7 +129,7 @@ Informasjon fra preparatomtale (advarsler og kontraindikasjoner) mangler i datag
 **Beslutning: Hold (forskningsspørsmål)**
 
 **Begrunnelse:**
-Mekanismen (SRC-hemming) er plausibel og støttes av prekliniske data, men de kliniske dataene er begrenset til én liten, terminert studie og én blandet sarkomstudie, og en oversikt rapporterer manglende effekt som monoterapi ved Ewing-sarkom. Legemidlet er dessuten kun avregistrert på det norske markedet, og sikkerhetsdata fra preparatomtale mangler (blokkerende datagap).
+Mekanismen (SRC-hemming) er plausibel og støttes av prekliniske data, men de kliniske dataene er begrenset til én liten, terminert studie og én blandet sarkomstudie, og en oversikt rapporterer manglende effekt som monoterapi ved Ewing-sarkom.
 
 **Dette trengs for å gå videre:**
 - Hente og analysere preparatomtale (advarsler og kontraindikasjoner) for å fullføre sikkerhetsscreening

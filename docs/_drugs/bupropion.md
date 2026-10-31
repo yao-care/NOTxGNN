@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 72
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Bupropion: predikert ny indikasjon Oppmerksomhetssvikt-hyperaktivitetsforstyrrelse (ADHD) (evidensnivå L5). Opprinnelig indikasjon: Fedme og overvekt"
 monitor_inn: "Bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
@@ -130,7 +130,7 @@ Pakningsvedlegget er ikke tilgjengelig i de sammenstilte dataene, og sikkerhetsi
 **Beslutning: Proceed with Guardrails (gå videre med sikkerhetsrammer)**
 
 **Begrunnelse:**
-Flere fullførte kliniske studier (blant dem en placebokontrollert fase 3-studie), en Cochrane-oversikt og flere nettverksmetaanalyser støtter bupropion ved ADHD, og mekanismen (NET/DAT-hemming) er plausibel. Likevel er markedsstatus «kun avregistrert», og sikkerhetsprofilen (krampefare, hypertensjon, rusmiddelbruk, spiseforstyrrelser) krever tydelige rammer.
+Flere fullførte kliniske studier (blant dem en placebokontrollert fase 3-studie), en Cochrane-oversikt og flere nettverksmetaanalyser støtter bupropion ved ADHD, og mekanismen (NET/DAT-hemming) er plausibel.
 
 **For å gå videre kreves følgende:**
 - Innhente og analysere preparatomtale/pakningsvedlegg (advarsler og kontraindikasjoner) for å kunne gjennomføre sikkerhetsscreeningen

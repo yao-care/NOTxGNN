@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 174
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Fentanyl: predikert ny indikasjon Nefrogent syndrom med uhensiktsmessig antidiurese (evidensnivå L5). Opprinnelig indikasjon: Smerte"
 monitor_inn: "FENTANYL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -115,7 +115,7 @@ Det er ikke innhentet informasjon om advarsler og kontraindikasjoner fra prepara
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten kliniske studier, litteratur eller plausibel mekanistisk kobling. Fentanyl har dessuten betydelige sikkerhetsrisikoer, mange interaksjoner, og kun avregistrerte godkjenninger i Norge.
+Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten kliniske studier, litteratur eller plausibel mekanistisk kobling.
 
 **For å gå videre kreves følgende:**
 - Innhente preparatomtale med advarsler og kontraindikasjoner (blokkerende datagap for sikkerhetsscreening)

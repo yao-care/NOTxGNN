@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Vortioxetine: predikert ny indikasjon Nevrotisk lidelse (neurotic disorder) (evidensnivå L5). Opprinnelig indikasjon: Alvorlig depressiv lidelse (Depressive Disorder, Major)"
 monitor_inn: "VORTIOXETINE"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
@@ -113,7 +113,7 @@ Informasjon om advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgj
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Det finnes ingen kliniske studier og kun én litteraturreferanse uten direkte kobling til vortioksetin for nevrotisk lidelse. Den høye TxGNN-scoren skyldes trolig ontologisk nærhet til MDD. I tillegg er produktet kun registrert som avregistrert i Norge.
+Det finnes ingen kliniske studier og kun én litteraturreferanse uten direkte kobling til vortioksetin for nevrotisk lidelse. Den høye TxGNN-scoren skyldes trolig ontologisk nærhet til MDD.
 
 **For å gå videre kreves følgende:**
 - Innhenting av preparatomtale med advarsler og kontraindikasjoner (kritisk datamangel som blokkerer sikkerhetsscreening)

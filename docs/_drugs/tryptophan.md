@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 437
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Tryptophan: predikert ny indikasjon Restless legs-syndrom (evidensnivå L3). Opprinnelig indikasjon: Lønnesirupsyke (Maple Syrup Urine Disease)"
 monitor_inn: "tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
@@ -98,7 +98,6 @@ Denne godkjenningen er avregistrert (status: cancelled).
 ## Sikkerhetsvurderinger
 
 - **Kontraindikasjoner fra kunnskapsgrafen (ikke fra preparatomtale):** TxGNN-kunnskapsgrafen (PrimeKG) knytter tryptofan til følgende tilstander: autoimmun sykdom, angstlidelse, nevrotisk lidelse, dystymi, systemisk lupus erythematosus (inkludert pediatrisk form), schizofreni, fenylketonuri, forstyrrelser i fenylalaninstoffskiftet, eosinofili-myalgi-syndrom og tryptofanassosiert myalgi-eosinofili-syndrom.
-- **Sikkerhetshistorikk:** Utbruddet av eosinofili-myalgi-syndrom i 1989, knyttet til forurenset L-tryptofan, er relevant for all videre utvikling og er en del av bakgrunnen for at markedsstatusen er «kun avregistrert».
 - **Legemiddelinteraksjoner:** 17 interaksjoner er identifisert.
   - **Alvorlige (Major):** lorkaserin, dolasetron, palonosetron, ondansetron, fenfluramin, granisetron, sibutramin, metylenblått, doksepin (inkl. topisk) og prokarbazin. Mange av disse har serotonerg virkning, så risiko for serotonergt syndrom bør vurderes.
   - **Moderate:** morfin, kodein, hydrokodon, cyproheptadin, ozanimod og ifosfamid.

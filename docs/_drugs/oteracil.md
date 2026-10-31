@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 301
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Oteracil: predikert ny indikasjon Tykktarmskreft (colonic neoplasm) (evidensnivå L1). Opprinnelig indikasjon: Magekreft (Stomach Neoplasms)"
 monitor_inn: "OTERACIL"
 predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
@@ -132,7 +132,7 @@ Rapporterte bivirkninger av S-1 i litteraturen inkluderer hypertriglyseridemi, e
 **Beslutning: Proceed with Guardrails**
 
 **Begrunnelse:**
-Flere fase 2/3-studier, inkludert en fullført fase 3-studie (n=1535), støtter S-1-kombinasjonen ved kolorektal kreft. Oteracil har imidlertid ingen selvstendig antitumoreffekt, og effekten kan ikke tilskrives oteracil alene. Preparatet er i tillegg kun registrert som avregistrert i Norge.
+Flere fase 2/3-studier, inkludert en fullført fase 3-studie (n=1535), støtter S-1-kombinasjonen ved kolorektal kreft. Oteracil har imidlertid ingen selvstendig antitumoreffekt, og effekten kan ikke tilskrives oteracil alene.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

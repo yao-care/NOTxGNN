@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 376
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Salmeterol: predikert ny indikasjon Bronkitt (evidensnivå L1). Opprinnelig indikasjon: Astma"
 monitor_inn: "salmeterol"
 predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
@@ -122,7 +122,7 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 **Beslutning: Proceed with Guardrails**
 
 **Begrunnelse:**
-Flere fase 3-studier og store sammenlignende studier (blant annet FLAME) etablerer salmeterol som aktiv behandling og standardkomparator ved KOLS/kronisk bronkitt, så evidensnivået er L1. Siden bruken i stor grad overlapper med eksisterende praksis, og fordi preparatet i dag kun har en avregistrert godkjenning i Norge, bør bruken skje med sikkerhetsrammer.
+Flere fase 3-studier og store sammenlignende studier (blant annet FLAME) etablerer salmeterol som aktiv behandling og standardkomparator ved KOLS/kronisk bronkitt, så evidensnivået er L1.
 
 **For å gå videre trengs følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
