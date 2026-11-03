@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "LANADELUMAB"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
-description: "Lanadelumab: predikert ny indikasjon Serpinopathy with toxic serpin polymerization (evidensnivå L5). Opprinnelig indikasjon: Angioedemas, Hereditary"
+description: "Lanadelumab: predikert ny indikasjon Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization) (evidensnivå L5). Opprinnelig indikasjon: Angioedemas, Hereditary"
 ---
 
 # Lanadelumab
@@ -33,104 +33,65 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-## Lanadelumab: Serpinopathy with toxic serpin polymerization
+## Lanadelumab: Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization)
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
-Lanadelumab er et monoklonalt antistoff som opprinnelig brukes til forebygging av anfall ved arvelig angioødem.
-TxGNN-modellen predikerer at legemidlet kan være effektivt ved **C1-hemmermangel**, som i praksis er den samme sykdomsgruppen (arvelig angioødem type I/II) og dermed ikke en reell ny indikasjon.
-Foreløpig støttes denne retningen av **5 kliniske studier** og **20 publikasjoner**, inkludert en randomisert, placebokontrollert studie.
-
----
+Lanadelumab er et monoklonalt antistoff som hemmer plasma-kallikrein. TxGNN-modellen forutsier at det kan ha effekt ved **serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization)**, men det finnes **ingen kliniske studier og ingen publikasjoner** som støtter denne retningen i dataene som er sammenstilt for denne rapporten. Prediksjonen er derfor kun modellbasert.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
 | Opprinnelig indikasjon | Angioedemas, Hereditary |
-| Predikert ny indikasjon | Serpinopathy with toxic serpin polymerization |
+| Predikert ny indikasjon | Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization) |
 | TxGNN-prediksjonsscore | 0.9999 |
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
-| Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
-
----
+| Anbefalt beslutning | Hold |
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Ut fra kjent informasjon er lanadelumab et fullt humant monoklonalt antistoff som hemmer plasmakallikrein (målgen KLKB1). Ved C1-hemmermangel går kontrollen over plasmakallikrein tapt, noe som gir overdreven produksjon av bradykinin. Bradykinin er et kar-utvidende stoff som antas å forårsake hevelsesanfallene.
+Detaljerte data om virkningsmekanismen er ikke tilgjengelige i de sammenstilte dataene. Basert på kjent informasjon binder lanadelumab seg til plasma-kallikrein (KLKB1) og hemmer dermed kallikrein-bradykinin-aksen. Det er et antistoff som er godkjent som forebyggende behandling mot anfall av arvelig angioødem hos pasienter fra 12 år.
 
-Den predikerte indikasjonen (C1-hemmermangel) overlapper i praksis fullstendig med den opprinnelige indikasjonen (arvelig angioødem type I/II). Dette er derfor ikke ekte reposisjonering, men en bekreftelse av at modellen gjenkjenner den kjente sammenhengen. Hemming av kallikrein reduserer bradykiningenerering direkte og dermed anfallshyppigheten.
+Koblingen til den predikerte sykdommen er svak. Serpinfamilien omfatter proteaseinhibitorer som er relevante for kallikrein-systemet, men toksisk serpinpolymerisering er en egen mekanisme (gain-of-function) som ikke åpenbart påvirkes av kallikreinhemming. Den høye scoren gjenspeiler trolig nærhet i nettverket til beslektede serpinrelaterte tilstander, ikke en dokumentert terapeutisk sammenheng. Enhver kobling må derfor regnes som spekulativ.
 
-Det finnes også en litteraturrapport om effekt ved ervervet angioødem med C1-hemmermangel (PMID 33556593), men denne er ikke oppsummert nærmere her.
+## Kliniske studier
 
-Blant de øvrige predikerte indikasjonene (rangert 2–10, bl.a. pankreatitt, Glanzmanns trombasteni, pseudo-von Willebrands sykdom og immunmediert nekrotiserende myopati) finnes ingen kliniske studier eller litteratur. Mekanistisk sammenheng er svak eller spekulativ, og flere av dem (blødningsforstyrrelser) kan gi sikkerhetsbekymringer. De vurderes som **Hold** med evidensnivå L5.
-
----
-
-## Klinisk studieevidens
-
-| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
-|---------|------|------|------|---------|
-| [NCT05460325](https://clinicaltrials.gov/study/NCT05460325) | Fase 3 | Fullført | 20 | Åpen studie på sikkerhet, farmakokinetikk og effekt hos kinesiske pasienter med arvelig angioødem (26 ukers behandling) |
-| [NCT04070326](https://clinicaltrials.gov/study/NCT04070326) | Fase 3 | Fullført | 21 | SPRING-studien: sikkerhet, farmakokinetikk og effekt hos barn 2 til <12 år |
-| [NCT04180163](https://clinicaltrials.gov/study/NCT04180163) | Fase 3 | Fullført | 12 | Åpen studie på effekt og sikkerhet hos japanske pasienter med type I/II |
-| [NCT05397431](https://clinicaltrials.gov/study/NCT05397431) | Ikke angitt | Aktiv, rekrutterer ikke | 155 | Japansk bruksundersøkelse etter markedsføring av langtidsbruk (bivirkninger og symptomforbedring) |
-| [NCT04583007](https://clinicaltrials.gov/study/NCT04583007) | Ikke angitt | Ikke lenger tilgjengelig | Ikke angitt | Utvidet tilgangsprogram (medfølelsesgrunnlag) for barn 2 til <12 år og for ikke-histaminerg angioødem med normal C1-hemmer. Gir kun tilgangskontekst, ikke effektevidens |
-
----
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|------|---------|
-| [30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/) | 2018 | RCT | JAMA | Randomisert klinisk studie: lanadelumab sammenlignet med placebo for forebygging av anfall ved arvelig angioødem |
-| [40434599](https://pubmed.ncbi.nlm.nih.gov/40434599/) | 2025 | Metaanalyse | Drugs in R&D | Nettverksmetaanalyse av legemidler til langtidsprofylakse (bl.a. garadacimab, lanadelumab, subkutan C1-hemmer, berotralstat) |
-| [34287942](https://pubmed.ncbi.nlm.nih.gov/34287942/) | 2022 | Kohort | Allergy | HELP OLE: langtidseffekt og sikkerhet hos pasienter ≥12 år |
-| [40504359](https://pubmed.ncbi.nlm.nih.gov/40504359/) | 2025 | Observasjonsstudie (fase 4) | Advances in Therapy | EMPOWER: reell effekt og sikkerhet opptil 36 måneder |
-| [40769455](https://pubmed.ncbi.nlm.nih.gov/40769455/) | 2025 | Reell evidens | Ann Allergy Asthma Immunol | Sykdomskontroll og livskvalitet på tvers av sykdomsaktivitetsgrupper |
-| [39836016](https://pubmed.ncbi.nlm.nih.gov/39836016/) | 2025 | Indirekte sammenligning | J Comp Eff Res | Indirekte sammenligning av lanadelumab og C1-esterasehemmer hos barn |
-| [40637159](https://pubmed.ncbi.nlm.nih.gov/40637159/) | 2025 | Indirekte sammenligning (MAIC) | J Comp Eff Res | Garadacimab mot lanadelumab (to doseregimer) til langtidsprofylakse |
-| [31560114](https://pubmed.ncbi.nlm.nih.gov/31560114/) | 2019 | Oversikt | Drugs | Lanadelumab: første globale godkjenning fulgt av gjennomgang ved arvelig angioødem |
-| [30539362](https://pubmed.ncbi.nlm.nih.gov/30539362/) | 2019 | Oversikt | BioDrugs | Prekliniske studier og fase I-studier av lanadelumab ved C1-hemmermangel |
-| [33556593](https://pubmed.ncbi.nlm.nih.gov/33556593/) | 2021 | Rapport | J Allergy Clin Immunol Pract | Effekt av lanadelumab ved ervervet angioødem med C1-hemmermangel |
+Foreløpig finnes ingen relatert litteratur.
 
----
-
-## Markedsinformasjon for Norge
+## Informasjon om det norske markedet
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
 | EMEA/H/C/004806 | Takhzyro | Ikke angitt | Arvelig angioødem (status: godkjent) |
 
-Merk: Den eneste registrerte godkjenningen er oppført som avregistrert. Dette bør verifiseres før noen anbefaling følges opp.
-
----
-
 ## Sikkerhetsvurderinger
 
-- **Legemiddelinteraksjoner**: Én farmakologisk interaksjon er registrert, med målproteinet kallikrein B1 (KLKB1). Dette er legemidlets terapeutiske mål og ikke en klassisk legemiddel-legemiddel-interaksjon.
-- **Blødningsrelaterte forhold**: Lanadelumab kan påvirke koagulasjonsanalyser (forlenget aPTT). Bruk ved blødningsforstyrrelser (f.eks. Glanzmanns trombasteni, pseudo-von Willebrands sykdom, Scott syndrom) krever derfor særlig vurdering.
+- **Legemiddelinteraksjoner:** Én farmakologisk relasjon er registrert, med målproteinet kallikrein B1 (KLKB1), som er lanadelumabs terapeutiske mål. Det er ikke angitt noe alvorlighetsnivå.
+- **Koagulasjonsanalyser:** Lanadelumab kan påvirke koagulasjonsrelaterte analyser (forlenget aPTT). Dette bør vurderes dersom bruk i tilstander med blødningstendens overveies.
 
 For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
----
-
 ## Konklusjon og neste steg
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Evidensen for lanadelumab ved arvelig angioødem (C1-hemmermangel) er sterk, med en placebokontrollert RCT (JAMA 2018), flere fullførte fase 3-studier og langtidsdata. Siden dette er den opprinnelige indikasjonen og ikke en ny, og siden den norske godkjenningen er oppført som avregistrert, må status avklares før videre arbeid. De øvrige predikerte indikasjonene (rangert 2–10) bør settes på vent (Hold).
+Prediksjonen bygger kun på en modellscore (0,9999) uten kliniske studier eller publikasjoner som direkte omhandler sykdommen. Den mekanistiske koblingen er spekulativ, og evidensnivået er L5.
 
 **For å gå videre kreves følgende:**
-- Verifisere markedsstatus i Norge (avregistrering av Takhzyro) og eventuell ny søknad
-- Hente preparatomtale for advarsler og kontraindikasjoner (mangler i dataene)
-- Supplere data om virkningsmekanisme fra DrugBank
-- Avklare om det finnes en reell ny indikasjon utover arvelig angioødem (f.eks. ervervet angioødem med C1-hemmermangel) som kan evalueres separat
-- Sikkerhetsplan for pasienter med blødningsrisiko og koagulasjonsanalyser
+- Detaljerte data om virkningsmekanismen (MOA) og en begrunnet hypotese for hvordan kallikreinhemming kan påvirke toksisk serpinpolymerisering
+- Prekliniske data i relevante modeller som kan understøtte hypotesen
+- Informasjon fra preparatomtalen om advarsler og kontraindikasjoner
+- Vurdering av om det finnes en definert pasientpopulasjon og målbare endepunkter for denne sjeldne tilstanden
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

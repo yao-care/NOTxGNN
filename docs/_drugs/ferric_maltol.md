@@ -36,80 +36,63 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 ## Ferric Maltol: Vitamin B12- and folate-independent constitutional megaloblastic anemia
 {: .text-alpha }
 
-## Oppsummering i én setning
+## Oppsummering
 
-Ferric maltol er et oralt jernerstatningspreparat som brukes til å behandle jernmangel.
-TxGNN-modellen forutsier at legemidlet kan være aktuelt for **Plummer-Vinsons syndrom (Plummer-Vinson syndrome)**,
-men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** i de sammenstilte dataene som støtter denne retningen.
-
----
+Ferric maltol er et oralt jernpreparat som brukes til å behandle jernmangel. TxGNN-modellen predikerer at legemidlet kan ha effekt ved **vitamin B12- og folatuavhengig konstitusjonell megaloblastær anemi (vitamin B12- and folate-independent constitutional megaloblastic anemia)**. Det finnes **ingen kliniske studier og ingen publikasjoner** som støtter denne retningen i dataene som er sammenstilt for denne rapporten.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
 | Opprinnelig indikasjon | Anemia, Iron-Deficiency |
-| Foreslått ny indikasjon | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
-| TxGNN-prediksjonsscore | 0.9998 |
+| Predikert ny indikasjon | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
+| TxGNN prediksjonsscore | 0.9998 |
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
----
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-## Hvorfor er denne prediksjonen rimelig?
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Ferric maltol er et jernkompleks som gir jern til kroppen via tarmen, og effekten er knyttet til jernmangel.
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Ferric maltol er et oralt jernpreparat som tilfører jern og dermed korrigerer jernmangel.
+Megaloblastær anemi skyldes vanligvis forstyrret DNA-syntese, typisk via B12- eller folatveier eller andre metabolske defekter, og ikke jernmangel. Når tilstanden er uavhengig av B12 og folat, er det ikke påvist noen klar mekanistisk kobling til jerntilskudd. Jerntilførsel ventes ikke å rette opp en slik defekt med mindre det samtidig foreligger jernmangel.
 
-Plummer-Vinsons syndrom (også kalt Paterson-Brown-Kelly-syndrom) kjennetegnes av jernmangelanemi, svelgvansker (dysfagi) på grunn av øsofagale membraner og betent tunge (glossitt). Det finnes dermed en plausibel kobling: behandling av den underliggende jernmangelen kan bedre tilstanden.
+Den høye scoren (0,9998) skyldes trolig assosiasjoner i modellen til andre anemirelaterte tilstander og er ikke underbygget av kliniske data.
 
-Den svært høye scoren (0,9998) gjenspeiler trolig nærhet til jernmangelanemi i modellens datastruktur, og ikke uavhengig klinisk evidens. Øsofagale membraner forsvinner ikke nødvendigvis med jern alene, og svelgvansker kan gjøre inntak av kapsler vanskelig.
+## Kliniske studier
 
----
+Foreløpig er det ingen relaterte kliniske studier registrert.
 
-## Evidens fra kliniske studier
+## Litteratur
 
-Foreløpig er ingen relaterte kliniske studier registrert.
+Foreløpig finnes det ingen relatert litteratur.
 
----
-
-## Litteraturevidens
-
-Foreløpig er ingen relatert litteratur tilgjengelig.
-
----
-
-## Markedsinformasjon for Norge
+## Informasjon om det norske markedet
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
 | EMEA/H/C/002733 | Feraccru | Ikke oppgitt | Ikke registrert i de lokale dataene |
 
----
-
 ## Sikkerhetsvurderinger
 
-Følgende er hentet fra de sammenstilte dataene og er ikke basert på preparatomtale:
+- **Tilstander registrert som kontraindikasjoner i modellens data (ikke fra preparatomtale):** hereditær hemokromatose, hemosiderose, sykdom i jernmetabolismen og Wilsons sykdom.
 
-- **Tilstander registrert som kontraindikasjoner i modellens data:** arvelig hemokromatose, hemosiderose, sykdom i jernmetabolismen og Wilsons sykdom. Disse bør verifiseres mot preparatomtalen.
-
-Ingen legemiddelinteraksjoner ble funnet i de sammenstilte dataene. For øvrig sikkerhetsinformasjon, se preparatomtalen.
-
----
+For øvrig sikkerhetsinformasjon, se preparatomtalen (pakningsvedlegget).
 
 ## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på modellscore uten støtte fra kliniske studier eller publikasjoner (evidensnivå L5). Mekanismen er plausibel via korreksjon av jernmangel, men øsofagale membraner og kapselinntak ved dysfagi er uavklarte problemstillinger.
+Prediksjonen mangler både klinisk og litteraturbasert støtte, og det finnes ingen plausibel mekanisme som knytter jerntilskudd til en B12- og folatuavhengig megaloblastær defekt. Evidensnivået er L5.
 
-**For å gå videre trengs følgende:**
-- Systematisk litteratursøk om jernbehandling ved Plummer-Vinsons syndrom
+**For å gå videre kreves:**
+- Dokumentasjon av en mekanistisk sammenheng mellom jernmetabolisme og denne typen megaloblastær anemi
+- Relevante kliniske studier eller case-rapporter som direkte undersøker sykdommen
+- Gjennomgang av preparatomtalen for advarsler og kontraindikasjoner
 - Data om virkningsmekanisme (MOA)
-- Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsvurdering
-- Vurdering av egnet administrasjonsvei hos pasienter med dysfagi
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

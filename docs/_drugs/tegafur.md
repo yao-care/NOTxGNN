@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-03
 monitor_inn: "TEGAFUR"
 predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "colonic lymphangioma", "cavernous hemangioma of colon"]
-description: "Tegafur: predikert ny indikasjon Cecum villous adenoma (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene"
+description: "Tegafur: predikert ny indikasjon Villøst adenom i blindtarmen (cecum villous adenoma) (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene"
 ---
 
 # Tegafur
@@ -33,14 +33,12 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-## Tegafur: Cecum villous adenoma
+## Tegafur: Villøst adenom i blindtarmen (cecum villous adenoma)
 {: .text-alpha }
 
 ## Oppsummering
 
-Tegafur er en oral forløper (prodrug) av 5-fluorouracil (5-FU) og ble opprinnelig godkjent for behandling av magekreft.
-TxGNN-modellen forutsier at legemidlet kan være effektivt mot **kolonneoplasme (colonic neoplasm)**,
-og denne retningen støttes foreløpig av **16 kliniske studier** og **20 publikasjoner** i de samlede dataene, inkludert flere fullførte fase 3-studier.
+Tegafur er en oral fluorpyrimidin-prodrug som omdannes til 5-fluorouracil og brukes som kreftlegemiddel. TxGNN-modellen predikerer at tegafur kan ha effekt ved **villøst adenom i blindtarmen (cecum villous adenoma)**, med en prediksjonsscore på 0,9986. Det finnes **ingen kliniske studier og ingen publikasjoner** som direkte undersøker denne sykdommen, så prediksjonen bygger kun på modellen.
 
 ---
 
@@ -49,70 +47,40 @@ og denne retningen støttes foreløpig av **16 kliniske studier** og **20 publik
 | Punkt | Innhold |
 |------|------|
 | Opprinnelig indikasjon | Ikke registrert i de lokale dataene |
-| Predikert ny indikasjon | Cecum villous adenoma |
+| Predikert ny indikasjon | Villøst adenom i blindtarmen (cecum villous adenoma) |
 | TxGNN-prediksjonsscore | 0.9986 |
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
-| Anbefalt beslutning | Proceed with Guardrails (Fortsett med forbehold) |
+| Anbefalt beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor kan prediksjonen være rimelig?
 
-Detaljerte mekanismedata (MOA) fra legemiddeldatabasen er ikke tilgjengelige. Ut fra kjent farmakologi er tegafur en oral forløper av 5-FU som hovedsakelig omdannes av CYP2A6 i leveren. Det kombineres vanligvis med uracil (UFT), som hemmer DPD-mediert nedbrytning av 5-FU, eller med gimeracil og oteracil (S-1). 5-FU hemmer tymidylatsyntase og bygges inn i RNA og DNA. Dette er en veletablert virkningsmekanisme mot kolorektalt adenokarsinom.
+Data om virkningsmekanisme (MOA) er foreløpig ikke tilgjengelig i de innsamlede dataene. Tegafur er en prodrug av 5-fluorouracil. Etter omdanning i kroppen hemmer virkestoffet DNA-syntese i celler som deler seg raskt, og dette er grunnlaget for effekten i kreftbehandling.
 
-Magekreft og tykktarmskreft er begge kreftformer i mage-tarmkanalen, og de deler den samme fluoropyrimidin-mekanismen.
+Villøst adenom er en godartet, prekankrøs svulst i tykktarmen. Den kan i prinsippet dele celleveksttrekk med kreftformer som behandles med fluorpyrimidiner. Den vanlige behandlingen er imidlertid endoskopisk eller kirurgisk fjerning, og cytostatika er normalt ikke aktuelt for godartede lesjoner. Den høye scoren er derfor et modellsignal uten støtte i kliniske eller mekanistiske data. En biologisk begrunnelse for å bruke et cellegiftmiddel mot denne tilstanden er svak.
 
 ---
 
 ## Klinisk studieevidens
 
-Tabellen viser et utvalg av de mest relevante studiene (maks. 10).
-
-| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
-|---------|------|------|------|---------|
-| [NCT00378716](https://clinicaltrials.gov/study/NCT00378716) | Fase 3 | Fullført | 1608 | Oral UFT + leukovorin vs. 5-FU/LV ved resektert tykktarmskreft stadium II/III |
-| [NCT00392899](https://clinicaltrials.gov/study/NCT00392899) | Fase 3 | Fullført | 2025 | Adjuvant UFT vs. observasjon ved kurativt operert tykktarmskreft stadium II |
-| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Fase 3 | Fullført | 1535 | UFT + leukovorin vs. S-1 som adjuvant behandling ved tykktarmskreft stadium III |
-| [NCT00152230](https://clinicaltrials.gov/study/NCT00152230) | Fase 3 | Fullført | 900 | Postoperativ adjuvant UFT vs. kun kirurgi ved Dukes C kolorektal kreft |
-| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Fase 3 | Ukjent | 1191 | SOX (S-1 + oksaliplatin) vs. XELOX som adjuvant behandling ved kolorektal kreft stadium III |
-| [NCT00385970](https://clinicaltrials.gov/study/NCT00385970) | Fase 3 | Ukjent | 380 | UFT + PSK vs. UFT + LV ved kolorektal kreft stadium IIB/III |
-| [NCT00209742](https://clinicaltrials.gov/study/NCT00209742) | Fase 3 | Ukjent | 340 | Postoperative UFT+LV-regimer, med og uten PSK, ved kolorektal kreft stadium III |
-| [NCT00905047](https://clinicaltrials.gov/study/NCT00905047) | Fase 3 | Fullført | 89 | Pasientpreferanse og sikkerhet: kapecitabin vs. UFT med folinsyre ved avansert/metastatisk kolorektal kreft |
-| [NCT01225744](https://clinicaltrials.gov/study/NCT01225744) | Fase 2 | Fullført | 47 | UFT sammen med cetuximab, irinotekan og oksaliplatin som førstelinjebehandling ved metastatisk kolorektal kreft |
-| [NCT00974389](https://clinicaltrials.gov/study/NCT00974389) | Fase 2 | Ukjent | 40 | S-1 + bevacizumab ved ikke-opererbar eller residiverende kolorektal kreft |
-
-Datasettet inneholder ytterligere seks studier som ikke er vist her, blant annet fase 1/2-studier, en vedlikeholdsstudie med tegafur-uracil (NCT02887365, NCT02836977) og en planlagt fase 2-studie med fruquintinib + S-1 (NCT06255379).
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|------|---------|
-| [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | RCT | Clin Colorectal Cancer | ACTS-CC 02: SOX vs. UFT/LV som adjuvant behandling ved høyrisiko tykktarmskreft stadium III (fase 3) |
-| [33714860](https://pubmed.ncbi.nlm.nih.gov/33714860/) | 2021 | RCT | ESMO Open | Oppdatert 5-årsoverlevelse fra ACTS-CC 02; SOX var ikke overlegen UFT/LV for sykdomsfri overlevelse |
-| [27056996](https://pubmed.ncbi.nlm.nih.gov/27056996/) | 2016 | RCT | Ann Oncol | ACTS-RC: S-1 vs. UFT som adjuvant behandling ved endetarmskreft stadium II/III |
-| [33950962](https://pubmed.ncbi.nlm.nih.gov/33950962/) | 2021 | Kohortestudie og metaanalyse | Medicine | UFT vs. 5-FU som adjuvant behandling ved tykktarmskreft stadium II/III (taiwansk registerdata) |
-| [36676634](https://pubmed.ncbi.nlm.nih.gov/36676634/) | 2022 | Kohortestudie | Medicina (Kaunas) | Nytte av UFT som adjuvant behandling ved stadium IIA tykktarmskreft |
-| [10089948](https://pubmed.ncbi.nlm.nih.gov/10089948/) | 1999 | Metaanalyse | Jpn J Clin Oncol | Metaanalyse av individdata for orale fluoropyrimidiner som adjuvant behandling ved kolorektal kreft |
-| [17952521](https://pubmed.ncbi.nlm.nih.gov/17952521/) | 2007 | Oversikt | Surg Today | UFT som postoperativ adjuvant behandling: klinisk evidens, virkningsmekanisme og fremtidige retninger |
-| [16111469](https://pubmed.ncbi.nlm.nih.gov/16111469/) | 2005 | Oversikt | Expert Rev Anticancer Ther | Stadiespesifikke kjemoterapialternativer ved tykktarmskreft |
-| [25209093](https://pubmed.ncbi.nlm.nih.gov/25209093/) | 2014 | Retningslinje/konsensus | Clin Colorectal Cancer | Asiatisk konsensus for behandling av metastatisk kolorektal kreft |
-| [11320674](https://pubmed.ncbi.nlm.nih.gov/11320674/) | 2001 | Kasuistikk (bivirkning) | Cancer Chemother Pharmacol | UFT-indusert hemolytisk anemi hos pasient med metastatisk tykktarmskreft |
-
-Merk: PMID 33950962 er klassifisert som RCT i de samlede dataene, men beskrives i selve sammendraget som en registerbasert kohortestudie med metaanalyse.
+Foreløpig er ingen relatert litteratur tilgjengelig.
 
 ---
 
-## Informasjon om det norske markedet
+## Informasjon om markedet i Norge
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
 | EMEA/H/C/001242 | Teysuno | Ikke oppgitt | Magekreft (Stomach Neoplasms) |
-
-Denne godkjenningen er gyldig, og legemidlet er markedsført i Norge (1 av 1 godkjenninger er gyldig).
 
 ---
 
@@ -120,35 +88,33 @@ Denne godkjenningen er gyldig, og legemidlet er markedsført i Norge (1 av 1 god
 
 | Punkt | Innhold |
 |------|------|
-| Cytotoksisitetsklassifisering | Konvensjonelt cytotoksisk (fluoropyrimidin, 5-FU-forløper) |
-| Risiko for myelosuppresjon | Vennligst se advarsler og forsiktighetsregler i preparatomtalen |
-| Emetogenisitetsklassifisering | Vennligst se advarsler og forsiktighetsregler i preparatomtalen |
-| Overvåkingspunkter | Blodstatus (CBC med differensialtelling), lever- og nyrefunksjon |
-| Håndtering og beskyttelse | Må følge gjeldende regler for håndtering av cytotoksiske legemidler |
+| Cytotoksisk klassifisering | Konvensjonell cytotoksisk (fluorpyrimidin) |
+| Risiko for myelosuppresjon | Moderat (generell klasseegenskap for fluorpyrimidiner; se preparatomtalen) |
+| Emetogent potensial | Lavt til moderat (generell klasseegenskap; se preparatomtalen) |
+| Overvåkingsparametere | Fullstendig blodtelling med differensialtelling, lever- og nyrefunksjon, elektrolytter |
+| Håndteringsbeskyttelse | Følg gjeldende regler for håndtering av cytotoksiske legemidler |
 
 ---
 
-## Sikkerhetsmomenter
+## Sikkerhetsvurderinger
 
-Vennligst se preparatomtalen for sikkerhetsinformasjon.
-
-Følgende er kun supplerende opplysninger fra litteraturen: kasuistikker beskriver hemolytisk anemi (UFT) og hypertriglyseridemi (S-1) under behandling. Det er ikke funnet registrerte legemiddelinteraksjoner i de samlede dataene.
+Se pakningsvedlegget for sikkerhetsinformasjon. Det er ikke funnet registrerte legemiddelinteraksjoner i de innsamlede dataene.
 
 ---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Proceed with Guardrails (Fortsett med forbehold)**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Flere fullførte fase 3-studier (blant annet NCT00378716, NCT00392899, NCT00152230 og NCT00660894) støtter tegafurbaserte regimer ved tykktarmskreft, og mekanismen er godt dokumentert. Samtidig er den eneste norske godkjenningen trukket tilbake, og sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen bygger bare på en høy modellscore, uten kliniske studier eller litteratur som direkte omhandler villøst adenom i blindtarmen. Tilstanden er godartet og behandles vanligvis med endoskopi eller kirurgi, så nytten av cytostatika er usannsynlig.
 
 **For å gå videre kreves følgende:**
-- Innhenting og gjennomgang av preparatomtalen (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsscreening
-- Detaljerte mekanismedata (MOA) fra legemiddeldatabasen
-- Avklaring av regulatorisk vei i Norge, siden eksisterende godkjenning er trukket tilbake
-- Overvåkingsplan for blodstatus, lever- og nyrefunksjon, samt vurdering av DPD-mangel før behandlingsstart
-- Merk at de øvrige predikerte indikasjonene (for eksempel godartede svulster som cecum villøst adenom, lipom og hemangiom i kolon) har kun modellbasert støtte uten klinisk grunnlag, og anbefales satt på vent (Hold)
+- Direkte data (kliniske studier eller publikasjoner) som undersøker tegafur ved denne tilstanden
+- Data om virkningsmekanisme (MOA)
+- Advarsler og kontraindikasjoner fra preparatomtalen for en sikkerhetsvurdering
+- En vurdering av nytte og risiko sammenlignet med standardbehandling for godartede lesjoner
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

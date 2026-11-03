@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "OTERACIL"
 predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
-description: "Oteracil: predikert ny indikasjon Cecum villous adenoma (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene"
+description: "Oteracil: predikert ny indikasjon Cøkal villøst adenom (cecum villous adenoma) (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene"
 ---
 
 # Oteracil
@@ -33,113 +33,61 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-## Oteracil: Cecum villous adenoma
+## Oteracil: Cøkal villøst adenom (cecum villous adenoma)
 {: .text-alpha }
 
-## Oppsummering
+## Kort oppsummering
 
-Oteracil er en komponent i kombinasjonspreparatet S-1 (tegafur, gimeracil og oteracil), opprinnelig brukt til behandling av magekreft.
-TxGNN-modellen predikerer at det kan være virksomt ved **tykktarmskreft (colonic neoplasm)**,
-og dette støttes foreløpig av **6 kliniske studier** og **10 publikasjoner**. Evidensen gjelder imidlertid S-1-kombinasjonen som helhet, ikke oteracil alene.
-
----
+Oteracil er en komponent i S-1-kombinasjonen og brukes som beskyttende tilleggsstoff i kreftbehandling. Den prediktive TxGNN-modellen antyder at stoffet kan ha effekt ved **cøkal villøst adenom (cecum villous adenoma)**. Det finnes **ingen kliniske studier** og **ingen publikasjoner** som direkte omhandler denne sykdommen, så prediksjonen støttes bare av modellen.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
 | Opprinnelig indikasjon | Ikke registrert i de lokale dataene |
-| Predikert ny indikasjon | Cecum villous adenoma |
+| Predikert ny indikasjon | Cøkal villøst adenom (cecum villous adenoma) |
 | TxGNN-prediksjonsscore | 0.9998 |
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
-| Antall markedsføringstillatelser | 1 |
-| Anbefalt beslutning | Proceed with Guardrails |
+| Anbefalt beslutning | Hold |
 
----
+## Hvorfor kan denne prediksjonen være rimelig?
 
-## Hvorfor er denne prediksjonen rimelig?
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Oteracil er en del av en kombinasjon (S-1) der den beskyttende komponenten hemmer enzymet OPRT i mage-tarmkanalen og dermed reduserer tarmtoksisiteten til fluoropyrimidinet i kombinasjonen. Oteracil har selv ingen egen antitumoreffekt.
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Basert på kjent informasjon er oteracil den gastrointestinale beskyttende komponenten i S-1-kombinasjonen (tegafur/gimeracil/oteracil). Det hemmer enzymet OPRT i tarmslimhinnen og reduserer dermed lokal aktivering av 5-FU og gastrointestinal toksisitet. Oteracil har ingen selvstendig antitumoreffekt.
-
-Magekreft og tykktarmskreft er begge gastrointestinale adenokarsinomer med liknende biologi. Den høye TxGNN-scoren gjenspeiler trolig oteracils tilknytning til fluoropyrimidinbehandlede kreftformer i mage-tarmkanalen.
-
-Fase 3-evidens for tykktarmskreft (f.eks. adjuvant S-1 mot UFT/LV) støtter S-1-kombinasjonen som helhet, ikke oteracil alene. Enhver påstand om oteracil som enkeltstoff er ikke underbygd.
-
----
+Cøkal villøst adenom er en godartet, premalign tarmlesjon. Koblingen til oteracil bygger bare på modellens prediksjon, trolig via fellestrekk i anatomi og sykdomsnettverk. En godartet lesjon er dessuten en dårlig match for en cytotoksisk kombinasjon, der den beskyttende komponenten ikke har antitumoraktivitet. Mekanistisk støtte er derfor svak.
 
 ## Klinisk studieevidens
 
-| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
-|---------|------|------|------|---------|
-| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Fase 3 | Fullført | 1535 | Adjuvant S-1 (TS-1) mot UFT/leukovorin ved stadium III tykktarmskreft. Mest direkte evidens, men tester S-1-kombinasjonen |
-| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Fase 3 | Ukjent | 1191 | SOX (oksaliplatin + S-1) mot XELOX som adjuvant behandling ved stadium III kolorektal kreft |
-| [NCT00974389](https://clinicaltrials.gov/study/NCT00974389) | Fase 2 | Ukjent | 40 | S-1 + bevacizumab ved inoperabel eller tilbakevendende kolorektal kreft |
-| [NCT02618356](https://clinicaltrials.gov/study/NCT02618356) | Fase 2 | Ukjent | 82 | Raltitreksed + S-1 ved metastatisk kolorektal kreft; primært endepunkt er median progresjonsfri overlevelse |
-| [NCT06255379](https://clinicaltrials.gov/study/NCT06255379) | Fase 2 | Ikke rekruttert ennå | 52 | Fruquintinib + tegafur/gimeracil/oteracil som tredjelinjebehandling ved avansert metastatisk kolorektal kreft |
-| [NCT02216149](https://clinicaltrials.gov/study/NCT02216149) | Fase 2 | Avsluttet | 20 | Effekt av S-1 og kapecitabin med oksaliplatin på blodstrøm i koronararterier; sikkerhetsfysiologi, ikke effektstudie |
-
----
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|------|---------|
-| [21084813](https://pubmed.ncbi.nlm.nih.gov/21084813/) | 2010 | Retrospektiv kohort | Gan to Kagaku Ryoho | Risikofaktorer for alvorlig hematologisk toksisitet (grad 3–4, 16,1 %) hos 87 pasienter med S-1 + irinotekan |
-| [20811661](https://pubmed.ncbi.nlm.nih.gov/20811661/) | 2010 | Preklinisk (xenograft) | Oncology Reports | Irinotekan overvinner 5-FU-resistens i xenografter av tykktarmskreft ved kombinasjon med S-1 |
-| [32936722](https://pubmed.ncbi.nlm.nih.gov/32936722/) | 2021 | Kasuistikk/oversikt | J Oncol Pharm Pract | Hypertriglyseridemi indusert av S-1 |
-| [28414195](https://pubmed.ncbi.nlm.nih.gov/28414195/) | 2017 | Kasuistikk | Eur J Dermatol | TS-1-indusert erytrodermi med omfattende slimhinnepåvirkning og hånd-fot-syndrom |
-| [18630468](https://pubmed.ncbi.nlm.nih.gov/18630468/) | 2008 | Kasuistikk | Anticancer Research | Komplett respons med S-1 og CPT-11 ved levermetastaser fra tykktarmskreft |
-| [29394831](https://pubmed.ncbi.nlm.nih.gov/29394831/) | 2017 | Kasuistikk | Gan to Kagaku Ryoho | Totrinns hepatektomi etter SOX + panitumumab ved inoperable levermetastaser |
-| [35444144](https://pubmed.ncbi.nlm.nih.gov/35444144/) | 2022 | Kasuistikk | Gan to Kagaku Ryoho | Reseksjon av peritoneale residiv etter kolorektal kreft |
-| [41253353](https://pubmed.ncbi.nlm.nih.gov/41253353/) | 2025 | Kasuistikk (indirekte) | Gan to Kagaku Ryoho | Urinretensjon som følge av oksaliplatinindusert nevropati |
+Foreløpig er ingen relatert litteratur tilgjengelig.
 
-Ingen randomiserte studier er blant de koblede publikasjonene; de fleste er kasuistikker og gir kun indirekte støtte.
-
----
-
-## Markedsinformasjon for Norge
+## Informasjon om det norske markedet
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
 | EMEA/H/C/001242 | Teysuno | Ikke oppgitt | Magekreft (Stomach Neoplasms) – godkjent |
 
----
-
-## Cytotoksisitet
-
-| Punkt | Innhold |
-|------|------|
-| Cytotoksisitetsklassifisering | Konvensjonell cytotoksisk (fluoropyrimidinkombinasjon; oteracil er selv en beskyttende modulator) |
-| Risiko for myelosuppresjon | Middels (grad 3–4 hematologisk toksisitet 16,1 % i en kohort med S-1 + irinotekan) |
-| Emetogenisitet | Lav til middels |
-| Overvåkingspunkter | Fullt blodbilde med differensialtelling, lever- og nyrefunksjon, elektrolytter |
-| Håndteringsbeskyttelse | Følg gjeldende regler for håndtering av cytotoksiske legemidler |
-
----
-
 ## Sikkerhetsvurderinger
 
-Det foreligger ingen tilgjengelige data om advarsler, kontraindikasjoner eller legemiddelinteraksjoner. Se preparatomtalen for sikkerhetsinformasjon.
-
-Rapporterte bivirkninger av S-1 i litteraturen inkluderer hypertriglyseridemi, erytrodermi og hånd-fot-syndrom.
-
----
+Se pakningsvedlegget for sikkerhetsinformasjon.
 
 ## Konklusjon og neste steg
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Flere fase 2/3-studier, inkludert en fullført fase 3-studie (n=1535), støtter S-1-kombinasjonen ved kolorektal kreft. Oteracil har imidlertid ingen selvstendig antitumoreffekt, og effekten kan ikke tilskrives oteracil alene.
+Prediksjonen er kun modellbasert uten kliniske studier eller publikasjoner for denne sykdommen. Det mangler også en plausibel mekanistisk begrunnelse for en godartet lesjon.
 
 **For å gå videre kreves følgende:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
-- Avklaring av at en eventuell indikasjon gjelder S-1-kombinasjonen, ikke oteracil som enkeltstoff
-- Gjennomgang av studieresultater fra NCT00660894 og NCT03448549
-- Vurdering av markedsstatus, siden den eneste tillatelsen er avregistrert
+- Data om virkningsmekanisme (MOA) for oteracil
+- Sikkerhetsinformasjon fra pakningsvedlegget (advarsler og kontraindikasjoner)
+- Prekliniske eller kliniske data som direkte studerer oteracil ved cøkal villøst adenom
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

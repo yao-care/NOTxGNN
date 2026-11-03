@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dexamethasone
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 125
-evidence_level: L2
+evidence_level: L5
 indication_count: 9
 monitor_inn: "DEXAMETHASONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
 last_modified_at: 2026-11-03
-description: "Dexamethasone: predikert ny indikasjon Alopecia mucinosa (evidensnivå L2). Opprinnelig indikasjon: Macular Edema"
+description: "Dexamethasone: predikert ny indikasjon Alopecia mucinosa (evidensnivå L5). Opprinnelig indikasjon: Macular Edema"
 ---
 
 # Dexamethasone
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **9** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,86 +38,66 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **9** stk.
 
 ## Oppsummering i én setning
 
-Deksametason er et kraftig glukokortikoid som dempet immunforsvaret og betennelse. Modellen TxGNN forutsier at legemidlet kan være effektivt ved **alopecia areata (alopecia areata)**, og i dataene som er sammenstilt for denne rapporten finnes det **0 kliniske studier** og **20 publikasjoner** (hvorav flere direkte om deksametason ved sykdommen, blant dem én randomisert kontrollert studie).
-
----
+Deksametason er et syntetisk glukokortikoid med kraftig betennelsesdempende og immundempende effekt. TxGNN-modellen predikerer at det kan ha effekt ved **alopecia mucinosa (alopecia mucinosa)**, med en prediksjonsscore på **0,9999**. I dataene som er sammenstilt for denne rapporten finnes **ingen kliniske studier og ingen publikasjoner** som direkte omhandler denne sykdommen.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
 | Opprinnelig indikasjon | Macular Edema;Uveitis; Multiple Myeloma |
-| Foreslått ny indikasjon | Alopecia mucinosa |
+| Predikert ny indikasjon | Alopecia mucinosa |
 | TxGNN-prediksjonsscore | 0.9999 |
-| Evidensnivå | L2 |
+| Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
-| Anbefalt beslutning | Gå videre med sikkerhetstiltak |
+| Anbefalt beslutning | Hold |
 
----
+## Hvorfor kan denne prediksjonen være rimelig?
 
-## Hvorfor er denne prediksjonen rimelig?
+Det foreligger ingen detaljerte data om virkningsmekanismen i de innsamlede dataene. Deksametason tilhører glukokortikoidene, og slike legemidler demper betennelse og immunrespons bredt. En mulig kobling er at deksametason kan undertrykke den lymfocyttinfiltrasjonen rundt hårsekkene som kjennetegner alopecia mucinosa.
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de sammenstilte dataene. Deksametason er imidlertid et potent glukokortikoid som undertrykker den autoimmune, T-celleformidlede angrepet på hårsekken, der hårsekkens immunprivilegium bryter sammen.
+Denne koblingen er foreløpig spekulativ. Den støttes ikke av kliniske data i dette materialet. Den høye prediksjonsscoren alene er ikke tilstrekkelig til å vurdere effekt hos pasienter.
 
-Alopecia areata er en autoimmun, ikke-arrdannende hårtapssykdom. Oral «mini-pulsbehandling» (for eksempel 5 mg to dager på rad hver uke) er en kjent systemisk regime ved moderat til alvorlig sykdom. Dette gir en klar mekanistisk kobling mellom legemidlets immundempende effekt og sykdomsmekanismen.
-
-Sammenlignende analyser mot JAK-hemmere og kontaktimmunterapi (PMID 39042154) plasserer deksametason som et rimeligere alternativ når JAK-hemmere ikke er tilgjengelige.
-
----
-
-## Evidens fra kliniske studier
+## Kliniske studier
 
 Foreløpig er ingen relaterte kliniske studier registrert.
 
----
-
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|------|---------|
-| [36086930](https://pubmed.ncbi.nlm.nih.gov/36086930/) | 2022 | RCT | Dermatologic Therapy | Åpen randomisert studie hos 30 barn med alvorlig alopecia areata: lavdose oral deksametason mini-puls sammenlignet med DPCP-kontaktsensibilisering |
-| [39042154](https://pubmed.ncbi.nlm.nih.gov/39042154/) | 2024 | Systematisk oversikt / nettverksmetaanalyse | Archives of Dermatological Research | Sammenligning av systemiske steroider, orale JAK-hemmere og kontaktimmunterapi ved alvorlig alopecia areata |
-| [35330017](https://pubmed.ncbi.nlm.nih.gov/35330017/) | 2022 | Prospektiv kohort | Journal of Clinical Medicine | Effekt og sikkerhet av oral deksametason mini-puls i praksis, samt faktorer knyttet til respons |
-| [36070222](https://pubmed.ncbi.nlm.nih.gov/36070222/) | 2022 | Klinisk flersenterstudie | Dermatologic Therapy | Oral mini-puls deksametason ved moderat til alvorlig alopecia areata |
-| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Oversikt | Pediatric Dermatology | Dosering og administrasjon av pulsbehandling med kortikosteroider hos barn |
-| [41872082](https://pubmed.ncbi.nlm.nih.gov/41872082/) | 2026 | Retrospektiv klinisk studie | European Journal of Dermatology | Trinnvis topikal steroid og deksametason-puls som redningsbehandling sammen med baricitinib hos 19 pasienter |
-| [31579982](https://pubmed.ncbi.nlm.nih.gov/31579982/) | 2019 | Prospektiv studie | Dermatologic Therapy | Intravenøs deksametason-puls (1 dag mot 3 dager) kombinert med topikal klobetasol hos 73 barn |
-| [26179196](https://pubmed.ncbi.nlm.nih.gov/26179196/) | 2015 | Langtidsoppfølging | Dermatologic Therapy | Kombinert oral puls og topikal kortikosteroidbehandling hos 65 barn og ungdommer |
-| [10535249](https://pubmed.ncbi.nlm.nih.gov/10535249/) | 1999 | Ukontrollert klinisk studie | The Journal of Dermatology | 5 mg oral deksametason-puls to ganger ukentlig hos 30 pasienter med utbredt sykdom |
-| [41243342](https://pubmed.ncbi.nlm.nih.gov/41243342/) | 2025 | Kasuistikk | J Dermatol Treat | Varig remisjon av alvorlig sykdom med oral mini-puls deksametason når JAK-hemmere ikke er aktuelt |
+Foreløpig er ingen relatert litteratur tilgjengelig.
 
----
+## Markedsinformasjon for Norge
 
-## Informasjon om det norske markedet
+Deksametason er markedsført i Norge, og begge registrerte godkjenninger er gyldige.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
 | EMEA/H/C/001140 | Ozurdex | – | Makulaødem; uveitt |
 | EMEA/H/C/004071 | Neofordex | – | Multippelt myelom |
 
----
-
 ## Sikkerhetsvurderinger
 
-- **Legemiddelinteraksjoner:** Totalt 100 interaksjoner er registrert. Blant de viktigste er alvorlige interaksjoner (Major) med fentanyl og adalimumab. Flere moderate interaksjoner er registrert, blant annet med paklitaksel, zidovudin, isotretinoin, nifedipin, ibuprofen, ketorolac, acetazolamid og kodein.
-- **Forhold som krever forsiktighet ved sykdom:** Dataene viser registrerte kontraindikasjonsrelasjoner for blant annet hypertensjon, epilepsi, hyperglykemi, hjertesvikt, herpes simplex-keratitt, meslinger og hypofysesvikt.
-- **Tiltak ved langvarig bruk:** Tilbakefall etter seponering og kumulative steroidbivirkninger krever dosegrenser og overvåking av blodsukker, blodtrykk, benhelse og vekst hos barn.
+Ingen advarsler eller kontraindikasjoner fra preparatomtalen er tilgjengelige i dataene. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
----
+**Legemiddelinteraksjoner:** Det er registrert 100 interaksjoner. Noen eksempler:
+
+- **Alvorlige (Major):** fentanyl og adalimumab.
+- **Moderate:** blant annet zidovudin, paklitaksel, isotretinoin, abemaciklib, acalabrutinib, acarbose, acebutolol, acetazolamid, ketorolak, nifedipin og ibuprofen.
+- **Lette (Minor):** blant annet dolutegravir, lidokain og formoterol.
 
 ## Konklusjon og neste steg
 
-**Beslutning: Gå videre med sikkerhetstiltak**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Det finnes en randomisert kontrollert studie, flere prospektive og observasjonelle studier samt en nettverksmetaanalyse som direkte omhandler deksametason ved alopecia areata. Ingen kliniske studier er imidlertid registrert, og sikkerhetsdata fra preparatomtalen mangler, så evidensnivået settes til L2 med forbehold.
+Prediksjonsscoren er svært høy, men ingen kliniske studier eller publikasjoner undersøker deksametason ved alopecia mucinosa. Evidensnivået er derfor L5, og den mekanistiske koblingen er foreløpig kun en hypotese.
 
 **For å gå videre kreves følgende:**
-- Informasjon om virkningsmekanisme (MOA) fra DrugBank
-- Advarsler og kontraindikasjoner fra preparatomtalen
-- Større randomiserte studier som sammenligner deksametason mini-puls med JAK-hemmere
-- Plan for sikkerhetsovervåking og dosegrenser, særlig for barn
+- Direkte kliniske data eller publikasjoner om deksametason ved alopecia mucinosa, for eksempel kasuistikker eller småskala studier.
+- Data om virkningsmekanisme for å kunne analysere den mekanistiske koblingen.
+- Advarsler og kontraindikasjoner fra preparatomtalen for å kunne gjennomføre sikkerhetsscreening.
+- Avklaring av administrasjonsvei og legemiddelform som passer for en hudrelatert indikasjon, siden de godkjente produktene har andre bruksområder.
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

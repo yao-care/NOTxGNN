@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-03
 monitor_inn: "ICATIBANT"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
-description: "Icatibant: predikert ny indikasjon Serpinopathy with toxic serpin polymerization (evidensnivå L5). Opprinnelig indikasjon: Angioedemas, Hereditary"
+description: "Icatibant: predikert ny indikasjon Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization) (evidensnivå L5). Opprinnelig indikasjon: Angioedemas, Hereditary"
 ---
 
 # Icatibant
@@ -33,109 +33,83 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-## Icatibant: Serpinopathy with toxic serpin polymerization
+## Icatibant: Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization)
 {: .text-alpha }
 
 ## Oppsummering
 
-Icatibant er en selektiv bradykinin B2-reseptorantagonist som opprinnelig brukes til behandling av akutte anfall av **arvelig angioødem**.
-TxGNN-modellen predikerer at legemidlet kan være effektivt ved **C1-hemmermangel (C1 inhibitor deficiency)**. Dette ligger svært nær den opprinnelige indikasjonen, og prediksjonen støttes av **11 kliniske studier** og **20 publikasjoner** i de samlede dataene.
-
----
+Icatibant er et peptidbasert legemiddel som blokkerer bradykininreseptorer, først og fremst B2-reseptoren.
+TxGNN-modellen predikerer at det kan ha effekt ved **serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization)**.
+Det finnes **ingen kliniske studier** og **ingen publikasjoner** i de innsamlede dataene som støtter denne retningen. Prediksjonen er derfor kun modellbasert.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
 | Opprinnelig indikasjon | Angioedemas, Hereditary |
-| Predikert ny indikasjon | Serpinopathy with toxic serpin polymerization |
+| Predikert ny indikasjon | Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization) |
 | TxGNN-prediksjonsscore | 0.9999 |
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
-| Anbefalt beslutning | Proceed with Guardrails (Fortsett med forbehold) |
+| Anbefalt beslutning | Hold |
 
----
+## Hvorfor er denne prediksjonen (ikke) rimelig?
 
-## Hvorfor er denne prediksjonen rimelig?
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige fra legemiddeldatabasen. Farmakologidataene som er samlet inn for rapporten viser likevel at icatibant er en peptidantagonist som virker på bradykininreseptorene B1 (BDKRB1) og B2 (BDKRB2). Legemidlet hemmer dermed bradykininsignalering nedstrøms.
 
-Detaljerte data om virkningsmekanisme var ikke tilgjengelige i de samlede dataene. Likevel er det kjent at icatibant er en selektiv antagonist av bradykinin B2-reseptoren. Ved C1-hemmermangel, enten arvelig eller ervervet, blir kallikreinaktiviteten uregulert og det dannes for mye bradykinin. Bradykinin gir utvidede kar og økt karpermeabilitet, som driver angioødemanfallene. Icatibant blokkerer denne effekten.
+Den høye modellscoren skyldes trolig nettverksnærhet til serpin-relaterte gener i modellens biologiske nettverk. Sykdommen er definert av at feilfoldede serpiner polymeriserer og blir toksiske. Icatibant påvirker verken serpinfolding eller polymerisering, siden det virker på reseptornivå og ikke på selve proteinet.
 
-Ervervet C1-hemmermangel har samme mekanisme, men her er direkte studiedata begrenset til oversiktsartikler og case-nær litteratur, blant annet en observasjonsstudie med åtte pasienter.
+Det er derfor ikke påvist noen mekanistisk sammenheng. Prediksjonen bør regnes som et beregningsmessig artefakt inntil motsatt er vist.
 
-Modellen rangerte også seks andre sykdommer (blant annet serpinopati, pseudo-von Willebrands sykdom, Glanzmanns trombastenii og antisyntetasesyndrom). For alle disse mangler både kliniske studier og litteratur (evidensnivå L5), og det finnes ingen påvist mekanistisk sammenheng. Disse vurderes som **Hold**, og prediksjonene regnes mest sannsynlig som modellartefakter.
+## Evidens fra kliniske studier
 
----
-
-## Klinisk studieevidens
-
-| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
-|---------|------|------|------|---------|
-| [NCT00097695](https://clinicaltrials.gov/study/NCT00097695) | Fase 3 | Fullført | 84 | Randomisert, dobbeltblind, placebokontrollert studie av subkutan icatibant ved akutte anfall av arvelig angioødem |
-| [NCT00500656](https://clinicaltrials.gov/study/NCT00500656) | Fase 3 | Fullført | 85 | Randomisert, dobbeltblind studie av icatibant mot oral tranexamsyre; primærmål var tid til symptomlindring |
-| [NCT00912093](https://clinicaltrials.gov/study/NCT00912093) | Fase 3 | Fullført | 98 | Randomisert, dobbeltblind, placebokontrollert multisenterstudie av effekt og sikkerhet ved akutte anfall |
-| [NCT00997204](https://clinicaltrials.gov/study/NCT00997204) | Fase 3 | Fullført | 151 | Åpen studie av egenadministrert icatibant: sikkerhet, lokal toleranse og effekt ved gjentatt behandling |
-| [NCT01386658](https://clinicaltrials.gov/study/NCT01386658) | Fase 3 | Fullført | 32 | Åpen studie hos barn og ungdom: farmakokinetikk, toleranse og sikkerhet |
-| [NCT03888755](https://clinicaltrials.gov/study/NCT03888755) | Fase 3 | Fullført | 8 | Åpen studie hos japanske pasienter med akutte anfall; effekt, farmakokinetikk og sikkerhet |
-| [NCT01457430](https://clinicaltrials.gov/study/NCT01457430) | Fase 4 | Fullført | 19 | Åpen studie av egenadministrert icatibant mot behandling ved helseinstitusjon |
-| [NCT04057131](https://clinicaltrials.gov/study/NCT04057131) | Ikke relevant | Fullført | 179 | Japansk legemiddelbruksundersøkelse etter markedsføring: sikkerhet og effekt i klinisk praksis |
-| [NCT04654351](https://clinicaltrials.gov/study/NCT04654351) | Fase 3 | Fullført | 2 | Åpen studie hos japanske barn og ungdom; svært liten studie |
-| [NCT07290855](https://clinicaltrials.gov/study/NCT07290855) | Fase 4 | Fullført | 5 | Studie av icatibant ved bradykinin-indusert angioødem (Taiwan); svært liten studie |
-
-Merk: Studiene gjelder hovedsakelig arvelig angioødem. Ingen av dem er en kontrollert studie spesifikt ved ervervet C1-hemmermangel.
-
----
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|------|---------|
-| [22686628](https://pubmed.ncbi.nlm.nih.gov/22686628/) | 2012 | Observasjonsstudie | Allergy | Åtte pasienter med ervervet C1-hemmermangel behandlet med icatibant 30 mg ved 48 anfall |
-| [29757016](https://pubmed.ncbi.nlm.nih.gov/29757016/) | 2018 | Oversikt (kohort) | Expert Rev Clin Immunol | Sikkerhet og effekt av icatibant hos barn over 2 år og ungdom med C1-hemmermangel |
-| [23420425](https://pubmed.ncbi.nlm.nih.gov/23420425/) | 2013 | Systematisk oversikt | Pneumonol Alergol Pol | Sammenligning av conestat alfa, C1-hemmer og icatibant ved akutte anfall hos voksne |
-| [20030426](https://pubmed.ncbi.nlm.nih.gov/20030426/) | 2010 | Oversikt | Drugs | Gjennomgang av FAST-1-studien; primærmålet nådde ikke statistisk signifikans, men flere andre effektmål viste effekt |
-| [37716525](https://pubmed.ncbi.nlm.nih.gov/37716525/) | 2023 | Retrospektiv studie | J Allergy Clin Immunol Pract | Ervervet C1-hemmermangel: diagnose, forløp og behandling; ingen godkjent behandling |
-| [33602658](https://pubmed.ncbi.nlm.nih.gov/33602658/) | 2021 | Oversikt | J Investig Allergol Clin Immunol | Nåværende og kommende behandling av arvelig angioødem |
-| [28687105](https://pubmed.ncbi.nlm.nih.gov/28687105/) | 2017 | Oversikt | Immunol Allergy Clin North Am | Ervervet C1-hemmermangel, ofte knyttet til autoimmunitet og B-celle-lidelser |
-| [24925394](https://pubmed.ncbi.nlm.nih.gov/24925394/) | 2014 | Oversikt | Chem Immunol Allergy | Bradykininmedierte sykdommer, inkludert angioødem ved C1-hemmermangel og ACE-hemmere |
-| [32753245](https://pubmed.ncbi.nlm.nih.gov/32753245/) | 2020 | Anbefalinger | Rev Med Interne | CREAK-anbefalinger for diagnose og behandling av ervervet angioødem |
-| [20667117](https://pubmed.ncbi.nlm.nih.gov/20667117/) | 2010 | Oversikt | Allergy Asthma Clin Immunol | Ervervet angioødem med bradykininmediert mekanisme |
-
----
+Foreløpig finnes ingen relatert litteratur.
 
 ## Markedsinformasjon for Norge
+
+Begge godkjenningene i dataene er gyldige.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
 | EMEA/H/C/000899 | Firazyr (Takeda Pharmaceuticals International AG) | Ikke oppgitt | Arvelig angioødem (opphevet) |
 | EMEA/H/C/005083 | Icatibant Accord (Accord Healthcare S.L.U.) | Ikke oppgitt | Arvelig angioødem (opphevet) |
 
-Begge godkjenningene (2 av 2) er gyldige, og legemidlet er markedsført.
-
----
-
 ## Sikkerhetsvurderinger
 
-**Legemiddelinteraksjoner:** Det er registrert 12 interaksjonsposter. Ti av dem er av moderat alvorlighetsgrad og gjelder **ACE-hemmere**: benazepril, captopril, enalapril, perindopril, trandolapril, moexipril, lisinopril, quinapril, ramipril og fosinopril. De to øvrige postene beskriver farmakologiske mål (bradykinin B1- og B2-reseptor), ikke interaksjoner mellom legemidler.
+**Legemiddelinteraksjoner**: 12 interaksjonsposter er registrert. Ti av dem er av moderat alvorlighetsgrad og gjelder ACE-hemmere:
+- benazepril
+- captopril
+- enalapril
+- perindopril
+- trandolapril
+- moexipril
+- lisinopril
+- quinapril
+- ramipril
+- fosinopril
 
-For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparatomtalen.
+De to øvrige postene gjelder farmakologiske målproteiner (B1- og B2-reseptoren), ikke interaksjoner med andre legemidler.
 
----
+Ut over dette henvises det til preparatomtalen for informasjon om advarsler og kontraindikasjoner.
 
 ## Konklusjon og neste steg
 
-**Beslutning: Proceed with Guardrails (Fortsett med forbehold)**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-- For C1-hemmermangel i arvelig form er evidensen sterk, med flere fullførte fase 3-studier, inkludert randomiserte kontrollerte studier. Dette er i realiteten den godkjente indikasjonen. For ervervet form er evidensen begrenset til observasjonsdata og oversikter.
-- De øvrige seks predikerte sykdommene har ingen støtte og bør holdes (Hold).
+Prediksjonen bygger kun på modellscore (0,9999) uten kliniske studier, litteratur eller en plausibel mekanisme. Icatibant virker på bradykininreseptorer, mens sykdommen skyldes feilfoldede og polymeriserende serpiner. Evidensnivået er L5.
 
-**For å gå videre trengs følgende:**
-- Gyldig markedsføringstillatelse eller avklaring av hvorfor begge godkjenningene i Norge er opphevet
-- Preparatomtale med advarsler og kontraindikasjoner (mangler i dataene)
-- Detaljerte data om virkningsmekanisme (MOA)
-- Kontrollerte data for ervervet C1-hemmermangel
-- Plan for håndtering av interaksjon med ACE-hemmere
+**For å gå videre kreves:**
+- En plausibel mekanistisk hypotese som kobler bradykinin-B2-blokade til serpinpolymerisering, bekreftet i prekliniske modeller
+- Publiserte studier eller registrerte kliniske studier som direkte omhandler denne sykdommen
+- Sikkerhetsdata fra preparatomtalen (advarsler og kontraindikasjoner), som mangler i datagrunnlaget
+- Data om virkningsmekanisme (MOA) fra legemiddeldatabasen
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

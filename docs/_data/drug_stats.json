@@ -3,10 +3,10 @@
   "total_drugs": 444,
   "level_counts": {
     "L1": 12,
-    "L2": 21,
-    "L3": 19,
+    "L2": 20,
+    "L3": 18,
     "L4": 27,
-    "L5": 353
+    "L5": 355
   },
   "all_drugs": [
     {
@@ -654,7 +654,7 @@
     {
       "name": "Dexamethasone",
       "slug": "dexamethasone",
-      "level": "L2",
+      "level": "L5",
       "indication_count": 9
     },
     {
@@ -1692,7 +1692,7 @@
     {
       "name": "Omalizumab",
       "slug": "omalizumab",
-      "level": "L3",
+      "level": "L5",
       "indication_count": 9
     },
     {

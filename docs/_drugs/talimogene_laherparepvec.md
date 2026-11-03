@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-03
 monitor_inn: "TALIMOGENE LAHERPAREPVEC"
 predicted_indications: ["glottis squamous cell carcinoma", "lung occult squamous cell carcinoma", "rectal cloacogenic carcinoma", "gallbladder adenosquamous carcinoma"]
-description: "Talimogene Laherparepvec: predikert ny indikasjon Glottis squamous cell carcinoma (evidensnivå L5). Opprinnelig indikasjon: Melanoma"
+description: "Talimogene Laherparepvec: predikert ny indikasjon Plateepitelkarsinom i glottis (glottis squamous cell carcinoma) (evidensnivå L5). Opprinnelig indikasjon: Melanoma"
 ---
 
 # Talimogene Laherparepvec
@@ -33,13 +33,12 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-## Talimogene Laherparepvec: Glottis squamous cell carcinoma
+## Talimogene Laherparepvec: Plateepitelkarsinom i glottis (glottis squamous cell carcinoma)
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
-Talimogen laherparepvec (T-VEC, handelsnavn Imlygic) er en onkolytisk herpes simplex-virus-1-terapi som opprinnelig ble godkjent for behandling av melanom.
-TxGNN-modellen forutsier at legemidlet kan ha effekt mot **CMM7**, en subtype av familiært kutant malignt melanom, men det finnes foreløpig **0 kliniske studier** og **0 publikasjoner** i de sammenstilte dataene som støtter denne retningen.
+Talimogene laherparepvec er et onkolytisk virusbasert legemiddel som er markedsført for melanom. TxGNN-modellen forutsier at det kan ha effekt ved **plateepitelkarsinom i glottis (glottis squamous cell carcinoma)**, men for denne indikasjonen finnes det foreløpig **0 kliniske studier** og **0 publikasjoner** som støtter prediksjonen. Den bygger utelukkende på modellprediksjon.
 
 ---
 
@@ -48,7 +47,7 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt mot **CMM7**, en subtype av
 | Punkt | Innhold |
 |------|------|
 | Opprinnelig indikasjon | Melanoma |
-| Predikert ny indikasjon | Glottis squamous cell carcinoma |
+| Predikert ny indikasjon | Plateepitelkarsinom i glottis (glottis squamous cell carcinoma) |
 | TxGNN-prediksjonsscore | 0.9907 |
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
@@ -59,32 +58,23 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt mot **CMM7**, en subtype av
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Det foreligger ingen detaljerte data om virkningsmekanisme i datagrunnlaget. Basert på kjent informasjon er T-VEC et onkolytisk HSV-1-virus som uttrykker GM-CSF og injiseres direkte i tilgjengelige melanomlesjoner. Effekten antas å komme fra lokal onkolyse kombinert med systemisk antitumoral immunaktivering.
+Detaljerte data om virkningsmekanismen er foreløpig ikke tilgjengelige i de innsamlede dataene. Talimogene laherparepvec er et onkolytisk virus som injiseres direkte i tumorlesjoner. Mekanistisk kan en slik tilnærming tenkes å være anvendelig ved andre svulster som er tilgjengelige for injeksjon.
 
-CMM7 ser ut til å være en subtype av familiært kutant malignt melanom, og er biologisk nær den godkjente indikasjonen (melanom). Mekanistisk kan derfor lesjonsrettet onkolyse og immunstimulering være relevant også her.
+Plateepitelkarsinom i hode- og halsregionen er et plausibelt mål for onkolytiske virus, fordi lesjonene kan injiseres direkte, og onkolytisk herpes simplex-virus er utforsket ved hode- og halskreft mer generelt. Likevel inneholder de innsamlede dataene ingen studier eller litteratur om sykdom i glottis.
 
-Ingen studier eller publikasjoner er spesifikke for denne subtypen, så subtypespesifikke data trengs før noen anbefaling kan gis.
-
-### Andre predikerte indikasjoner (alle kun modellbasert, evidensnivå L5)
-
-| Rang | Sykdom | Score | Kommentar |
-|------|------|------|------|
-| 4 | Plateepitelkarsinom i glottis | 0,9907 | Direkte injeksjon er mulig, men larynx er et funksjonelt sensitivt område der inflammasjon eller ødem kan true luftveien |
-| 5 | Okkult plateepitelkarsinom i lunge | 0,9905 | Ingen synlig lesjon å injisere i, så administrasjonsveien er dårlig gjennomførbar |
-| 6 | Kloakogent karsinom i rektum | 0,9901 | Kan være lokalt tilgjengelig, men uten mekanistiske eller kliniske data |
-| 7 | Adenoskvamøst karsinom i galleblæren | 0,9901 | Dyptliggende svulst; bildestyrt eller endoskopisk levering er konseptuelt mulig |
+Strupen er et funksjonelt sensitivt område. Betennelse eller ødem etter injeksjon kan true luftveien, og dette må vurderes nøye før en eventuell videre utredning. Støtten for prediksjonen er foreløpig kun modellbasert.
 
 ---
 
-## Klinisk studieevidens
+## Evidens fra kliniske studier
 
-Foreløpig er det ingen relaterte kliniske studier registrert.
+Det er foreløpig ikke registrert noen relevante kliniske studier.
 
 ---
 
 ## Litteraturevidens
 
-Foreløpig er det ingen relatert litteratur tilgjengelig.
+Det finnes foreløpig ingen relevant litteratur.
 
 ---
 
@@ -94,29 +84,21 @@ Foreløpig er det ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/002771 | Imlygic | – | Melanom |
 
-Godkjenningen (innehaver: Amgen Europe B.V.) er gyldig, og legemidlet er markedsført.
-
----
-
-## Cytotoksisitet
-
-| Punkt | Innhold |
-|------|------|
-| Cytotoksisitetsklassifisering | Immunterapi / onkolytisk virusterapi (ikke konvensjonelt cytotoksisk) |
-| Risiko for myelosuppresjon | Se pakningsvedlegg for advarsler og forholdsregler |
-| Klassifisering av emetogenisitet | Se pakningsvedlegg for advarsler og forholdsregler |
-| Overvåkingspunkter | Se pakningsvedlegg for advarsler og forholdsregler |
-| Håndteringsbeskyttelse | Levende, replikerende HSV-1-vektor; følg gjeldende regelverk for håndtering av genmodifiserte organismer og smitteverntiltak |
-
 ---
 
 ## Sikkerhetsvurderinger
 
-- **Legemiddelinteraksjoner:** Det er funnet 100 registrerte interaksjoner i interaksjonsdatabasen (DDInter). Blant de viktigste:
-  - **Alvorlig (Major):** kortikosteroider (hydrokortison, triamcinolon, deksametason, betametason, budesonid, prednison, prednisolon), deksrazoksan, jobenguan (I-131), ibritumomab tiuxetan, tositumomab (også I-131), levamisol, trimetreksat, merkaptopurin og dupilumab.
-  - **Moderat:** aciklovir (også topikal) og penciklovir (topikal). Antivirale midler kan i prinsippet redusere effekten av et replikerende herpesvirus.
+**Legemiddelinteraksjoner:** Interaksjonsoppslaget ga 100 treff. Blant de som er vist, er flere klassifisert som **alvorlige (Major)**:
 
-For øvrig sikkerhetsinformasjon, se pakningsvedlegget.
+- Kortikosteroider: hydrokortison, triamcinolon (også oftalmisk), deksametason, betametason, budesonid, prednison og prednisolon
+- Deksrazoksan
+- Radiofarmaka og radioimmunterapi: jobenguan (I-131), ibritumomab tiuxetan, tositumomab (også I-131-merket)
+- Levamisol, trimetreksat og merkaptopurin
+- Dupilumab
+
+Følgende er klassifisert som **moderate**: aciklovir (også topisk) og penciklovir (topisk). Disse er relevante fordi legemidlet er et herpes simplex-basert virus.
+
+Pakningsvedlegget bør konsulteres for øvrig sikkerhetsinformasjon.
 
 ---
 
@@ -125,14 +107,15 @@ For øvrig sikkerhetsinformasjon, se pakningsvedlegget.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er rent beregningsbasert (evidensnivå L5) uten kliniske studier eller publikasjoner. Den eneste norske godkjenningen er kansellert, og sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen for plateepitelkarsinom i glottis støttes ikke av noen kliniske studier eller publikasjoner, og evidensnivået er L5 (kun modellprediksjon). Risikoen for luftveispåvirkning etter injeksjon i strupen gjør at saken krever særlig forsiktighet.
 
 **For å gå videre kreves følgende:**
-- Hente og analysere preparatomtale/pakningsvedlegg (advarsler og kontraindikasjoner) for sikkerhetsscreening
-- Detaljerte data om virkningsmekanisme (MOA)
-- Subtypespesifikke studier eller litteratur for CMM7
-- Avklaring av administrasjonsvei og gjennomførbarhet for den aktuelle indikasjonen
-- Vurdering av hvorfor godkjenningen ble kansellert og om markedsadgang kan gjenopprettes
+- Systematisk litteratursøk og søk i studieregistre etter onkolytisk virusbehandling ved hode- og halskreft, spesielt laryngeal sykdom
+- Data om virkningsmekanisme (MOA)
+- Informasjon fra preparatomtalen om advarsler og kontraindikasjoner
+- Vurdering av administrasjonsvei og luftveissikkerhet ved injeksjon i strupen
+- Plan for sikkerhetsmonitorering, inkludert vurdering av legemiddelinteraksjoner med kortikosteroider og antivirale midler
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
