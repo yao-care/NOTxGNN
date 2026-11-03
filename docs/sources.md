@@ -3,7 +3,7 @@ layout: default
 title: Datakilder
 nav_order: 93
 permalink: /sources/
-description: "Datakildene bak NOTxGNN: registreringsdata fra DMP, TxGNN, ClinicalTrials.gov, PubMed og DrugBank."
+description: "Datakildene bak NOTxGNN: EMAs Medicines report (sentralt godkjente legemidler i EU), TxGNN, ClinicalTrials.gov, PubMed og DrugBank."
 ---
 
 # Datakilder
@@ -21,7 +21,7 @@ Hver konklusjon kan spores tilbake til en offentlig datakilde — ingenting er e
 <tr><th>Type</th><th>Kilde</th><th>Brukes til</th></tr>
 </thead>
 <tbody>
-<tr><td>Registreringsdata</td><td><a href="https://www.dmp.no/">DMP</a></td><td>Liste over godkjente legemidler og virkestoffer i Norge</td></tr>
+<tr><td>Registreringsdata</td><td><a href="https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx">EMA Medicines report</a> (Det europeiske legemiddelkontoret, EMA)</td><td>Legemidler med sentral markedsføringstillatelse i EU (gyldig i alle EU/EØS-land, også Norge): virkestoffer og status for markedsføringstillatelsen</td></tr>
 <tr><td>Prediksjonsmodell</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Prediksjon av sammenhenger mellom legemiddel og sykdom</td></tr>
 <tr><td>Kliniske studier</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>Evidensgradering (NCT)</td></tr>
 <tr><td>Litteratur</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>Evidensgradering (PMID)</td></tr>
@@ -29,6 +29,9 @@ Hver konklusjon kan spores tilbake til en offentlig datakilde — ingenting er e
 <tr><td>Interaksjoner</td><td><a href="https://ddinter2.scbdd.com/">DDInter</a></td><td>Data om interaksjoner mellom legemidler</td></tr>
 </tbody>
 </table>
+
+Nettstedet bruker ikke DMPs nasjonale legemiddeldata (FEST), så legemidler som bare har nasjonal
+markedsføringstillatelse, er ikke med.
 
 ---
 
@@ -39,7 +42,7 @@ Hver kilde har sin egen lisens — kontroller den før du siterer:
 - **TxGNN**: akademisk bruk; siter Huang et al. (2024)
 - **ClinicalTrials.gov / PubMed**: offentlige data fra US NIH
 - **DrugBank**: ikke-kommersiell bruk underlagt lisensvilkårene
-- **DMP**: underlagt vilkårene for åpne data hos legemiddelmyndigheten i Norge
+- **EMA Medicines report**: offentlig fil fra Det europeiske legemiddelkontoret som kan lastes ned uten registrering; følg EMAs bruksvilkår
 
 ---
 
@@ -47,7 +50,7 @@ Hver kilde har sin egen lisens — kontroller den før du siterer:
 
 | Data | Frekvens |
 |------|-----------|
-| Registreringsdata | Etter hvert som legemiddelmyndigheten publiserer |
+| Status for markedsføringstillatelse | Oppdateres automatisk hver uke (mandager) fra EMAs fil |
 | Evidens fra studier / litteratur | Samles inn på nytt med jevne mellomrom |
 | Interaksjonsdata | Gjennomgås kvartalsvis |
 
@@ -62,18 +65,8 @@ Hver kilde har sin egen lisens — kontroller den før du siterer:
 
 ## Om utvikleren
 
-Denne plattformen er utviklet og drives av **藥提醒科技有限公司** (yao.care, organisasjonsnummer
-83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-NOTxGNN er Norge-nettstedet i selskapets produktlinje «TxGNN Drug Repurposing».
-Det samme systemet er satt i drift i 30 land og regioner, hvert med navnet `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN og så videre) på `{cc}txgnn.yao.care`.
-Produktoversikt: <https://www.yao.care/medical/txgnn/>.
-
-Selve TxGNN-modellen ble utviklet av Zitnik Lab ved Harvard Medical School og publisert
-i *Nature Medicine*. Denne plattformen er produksjonssystemet som 藥提醒科技有限公司 har bygget oppå
-den modellen, og omfatter integrasjon av nasjonale legemiddelregistreringsdata, prediksjon med dyp læring der bruk som allerede er registrert i kunnskapsgrafen, er utelatt, evidensgradering fra PubMed / ClinicalTrials samt integrasjon mot
-elektronisk pasientjournal via SMART on FHIR.
+Denne plattformen er utviklet og drives av **藥提醒科技有限公司** (yao.care). Opplysninger om selskapet,
+bakgrunnen for TxGNN-modellen og alle nettstedene i produktlinjen finner du på siden <a href="{{ '/about/' | relative_url }}">Om</a>.
 
 ---
 
