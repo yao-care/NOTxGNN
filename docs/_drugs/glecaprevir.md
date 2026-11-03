@@ -36,81 +36,96 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 ## Glecaprevir: HIV-infeksjon (HIV infectious disease)
 {: .text-alpha }
 
-## Oppsummering i en setning
+## Oppsummering i én setning
 
-Glecaprevir er en proteasehemmer rettet mot hepatitt C-viruset (NS3/4A-protease), og er markedsført i kombinasjon med pibrentasvir. TxGNN-modellen predikerer at legemidlet kan være aktuelt ved **HIV-infeksjon (HIV infectious disease)**. Dataene som er samlet inn for rapporten omfatter **7 kliniske studier** og **21 publikasjoner**, men ingen av dem undersøker HIV-infeksjon som behandlingsmål; de gjelder hepatitt C hos personer med HIV/HCV-koinfeksjon. Evidensnivået er derfor **L5**.
+Glecaprevir er en hemmer av HCV NS3/4A-protease som brukes i kombinasjon med pibrentasvir. TxGNN-modellen forutsier at legemidlet kan ha effekt mot **HIV-infeksjon (HIV infectious disease)**. Evidensen er imidlertid svak: de 6 kliniske studiene og litteraturen som er funnet gjelder hepatitt C hos personer med HIV/HCV-koinfeksjon, ikke behandling av HIV-infeksjon selv, og evidensnivået er derfor **L5**.
+
+---
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
 | Opprinnelig indikasjon | Ikke registrert i de lokale dataene |
-| Predikert ny indikasjon | HIV-infeksjon (HIV infectious disease) |
+| Foreslått ny indikasjon | HIV-infeksjon (HIV infectious disease) |
 | TxGNN-prediksjonsscore | 0.9987 |
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
-## Hvorfor er denne prediksjonen (ikke) rimelig?
+---
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Glecaprevir hemmer NS3/4A-proteasen i hepatitt C-viruset, og det finnes ingen etablert direkte anti-HIV-aktivitet. HIV-protease og HCV NS3/4A-protease er strukturelt forskjellige, så det finnes ikke noe mekanistisk grunnlag for effekt mot HIV.
+## Hvorfor er denne prediksjonen rimelig?
 
-Den høye prediksjonsscoren gjenspeiler trolig nærhet mellom virusinfeksjoner og felles antivirale legemiddelklasser i modellens nettverk, ikke dokumentert effekt. De kliniske dataene viser at glecaprevir/pibrentasvir behandler hepatitt C også hos pasienter med HIV-koinfeksjon. Det er et signal om sikkerhet og effekt for HCV i en koinfisert populasjon, ikke for behandling av HIV selv.
+Det foreligger ingen detaljerte data om virkningsmekanisme for glecaprevir i de data som er sammenstilt for denne rapporten. Glecaprevir er kjent som en NS3/4A-proteasehemmer rettet mot hepatitt C-virus (HCV), og brukes sammen med pibrentasvir, en NS5A-hemmer.
 
-## Klinisk evidens
+Det er ingen etablert direkte anti-HIV-aktivitet. HIV-protease og HCV NS3/4A-protease er strukturelt ulike, og det finnes derfor ikke noe mekanistisk grunnlag for effekt mot HIV. Den høye scoren gjenspeiler trolig nærhet mellom virusinfeksjoner og delte antivirale legemiddelklasser i modellens nettverk, snarere enn en reell farmakologisk sammenheng.
 
-Ingen av studiene har HIV-infeksjon som endepunkt. De undersøker HCV-behandling, delvis hos pasienter med HIV-koinfeksjon.
+Studiene som er funnet, belyser effekt og sikkerhet av glecaprevir/pibrentasvir mot hepatitt C hos pasienter som også har HIV. Dette er et nyttig signal for bruk ved koinfeksjon, men ikke evidens for behandling av HIV.
+
+---
+
+## Evidens fra kliniske studier
+
+Ingen av studiene undersøker HIV-infeksjon som behandlingsmål. De omfatter HCV-behandling i populasjoner med eller uten HIV-koinfeksjon.
 
 | Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT02738138](https://clinicaltrials.gov/study/NCT02738138) | Fase 3 | Fullført | 153 | EXPEDITION-2: effekt og sikkerhet av glecaprevir/pibrentasvir ved kronisk HCV med HIV-1-koinfeksjon |
-| [NCT03222583](https://clinicaltrials.gov/study/NCT03222583) | Fase 3 | Fullført | 546 | Placebokontrollert studie hos asiatiske voksne med HCV, med eller uten HIV-koinfeksjon, uten cirrhose |
-| [NCT03235349](https://clinicaltrials.gov/study/NCT03235349) | Fase 3 | Fullført | 160 | HCV med kompensert cirrhose, med eller uten HIV-koinfeksjon |
-| [NCT02634008](https://clinicaltrials.gov/study/NCT02634008) | Fase 3 | Fullført | 83 | Pilotstudie ved nylig ervervet HCV med eller uten HIV-koinfeksjon; annen hovedregime (paritaprevir/ritonavir m.fl.) |
-| [NCT04042740](https://clinicaltrials.gov/study/NCT04042740) | Fase 2 | Fullført | 45 | PURGE-C: 4 ukers behandling av akutt HCV, med eller uten HIV-1-koinfeksjon |
-| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Fase 4 | Fullført | 87 | Kardiovaskulær risiko etter HCV-eradikasjon hos pasienter med HIV og HCV |
+| [NCT02738138](https://clinicaltrials.gov/study/NCT02738138) | Fase 3 | Fullført | 153 | Effekt og sikkerhet av glecaprevir/pibrentasvir ved kronisk HCV og HIV-1-koinfeksjon (EXPEDITION-2) |
+| [NCT03222583](https://clinicaltrials.gov/study/NCT03222583) | Fase 3 | Fullført | 546 | Randomisert, placebokontrollert studie hos asiatiske voksne med HCV, med eller uten HIV-koinfeksjon |
+| [NCT03235349](https://clinicaltrials.gov/study/NCT03235349) | Fase 3 | Fullført | 160 | Åpen studie ved HCV med kompensert cirrhose, med eller uten HIV-koinfeksjon |
+| [NCT02634008](https://clinicaltrials.gov/study/NCT02634008) | Fase 3 | Fullført | 83 | Pilotstudie ved nylig ervervet HCV, med eller uten HIV; regimene omfatter også andre legemidler |
+| [NCT04042740](https://clinicaltrials.gov/study/NCT04042740) | Fase 2 | Fullført | 45 | 4 ukers glecaprevir/pibrentasvir ved akutt HCV, med eller uten HIV-1 |
+| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Fase 4 | Fullført | 87 | Kardiovaskulær risiko etter HCV-eradikasjon hos personer med HIV og HCV |
 | [NCT07040319](https://clinicaltrials.gov/study/NCT07040319) | Fase 1/2 | Rekrutterer | 30 | Farmakokinetikk og sikkerhet ved oppstart i svangerskap hos kvinner med HCV, med eller uten HIV |
+
+---
 
 ## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [37671831](https://pubmed.ncbi.nlm.nih.gov/37671831/) | 2023 | Kohort | J Antimicrob Chemother | Respons på glecaprevir/pibrentasvir hos HIV/HCV-koinfiserte i klinisk praksis |
-| [39697370](https://pubmed.ncbi.nlm.nih.gov/39697370/) | 2024 | Observasjonsstudie | Clin Exp Hepatol | Effekt og sikkerhet av glecaprevir/pibrentasvir hos HIV/HCV-koinfiserte på bictegravir/emtricitabin/tenofoviralafenamid |
-| [31504702](https://pubmed.ncbi.nlm.nih.gov/31504702/) | 2020 | Interaksjonsstudie | J Infect Dis | Legemiddelinteraksjoner mellom glecaprevir/pibrentasvir og hivantiretrovirale midler |
-| [31284039](https://pubmed.ncbi.nlm.nih.gov/31284039/) | 2019 | Systematisk oversikt og metaanalyse | Int J Antimicrob Agents | Samlet SVR12 på 97,8 % ved kronisk HCV (13 studier, 3082 pasienter) |
-| [41297677](https://pubmed.ncbi.nlm.nih.gov/41297677/) | 2026 | Enarmet fase 3b-studie | J Hepatol | 8 ukers glecaprevir/pibrentasvir ved akutt hepatitt C |
+| [37671831](https://pubmed.ncbi.nlm.nih.gov/37671831/) | 2023 | Kohortestudie | J Antimicrob Chemother | Respons på glecaprevir/pibrentasvir hos HIV/HCV-koinfiserte i klinisk praksis |
+| [39697370](https://pubmed.ncbi.nlm.nih.gov/39697370/) | 2024 | Observasjonsstudie | Clin Exp Hepatol | Effekt og sikkerhet hos HIV/HCV-koinfiserte behandlet med bictegravir/emtricitabin/tenofoviralafenamid |
+| [31504702](https://pubmed.ncbi.nlm.nih.gov/31504702/) | 2020 | Legemiddelinteraksjonsstudie | J Infect Dis | Interaksjoner mellom glecaprevir/pibrentasvir og antiretrovirale legemidler mot HIV |
+| [31284039](https://pubmed.ncbi.nlm.nih.gov/31284039/) | 2019 | Systematisk oversikt og metaanalyse | Int J Antimicrob Agents | Samlet SVR12 på 97,8 % ved kronisk HCV (genotype 1–6) |
 | [30499343](https://pubmed.ncbi.nlm.nih.gov/30499343/) | 2019 | Oversikt | Future Microbiol | Glecaprevir/pibrentasvir ved kronisk HCV-infeksjon |
 | [29595065](https://pubmed.ncbi.nlm.nih.gov/29595065/) | 2018 | Oversikt | Expert Opin Pharmacother | Proteasehemmere ved HCV; omtaler HIV/HCV-koinfeksjon |
 
-## Markedsinformasjon i Norge
+---
+
+## Markedsinformasjon for Norge
 
 | Autorisasjonsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
 | EMEA/H/C/004430 | Maviret | Ikke oppgitt | Kronisk hepatitt C |
 
+---
+
 ## Sikkerhetsvurderinger
 
-**Legemiddelinteraksjoner:** Det er registrert 57 mulige interaksjoner. Blant de viktigste:
-- **Alvorlige (Major):** rosuvastatin, simvastatin, edoksaban
-- **Moderate:** deksametason, esomeprazol, omeprazol, apiksaban, betriksaban, kobicistat, deferasirox, metreleptin, naldemedin, troglitazon, lusutrombopag, revefenacin, griseofulvin
-- **Milde (Minor):** fidaksomicin, naloksegol, prukaloprid, indakaterol
+**Legemiddelinteraksjoner:** Totalt 57 interaksjoner er registrert. Blant de viktigste:
+- **Alvorlig (Major):** rosuvastatin, simvastatin, edoksaban
+- **Moderat:** blant annet deksametason, esomeprazol, omeprazol, apiksaban, betriksaban, kobicistat, deferasirox, metreleptin, naldemedin, troglitazon, lusutrombopag, revefenacin og griseofulvin
+- **Mindre (Minor):** blant annet fidaksomicin, naloksegol, prukaloprid og indakaterol
 
-For øvrig sikkerhetsinformasjon, se preparatomtalen.
+Se preparatomtalen for øvrig sikkerhetsinformasjon.
+
+---
 
 ## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er i praksis kun modellbasert (L5). Studiene gjelder hepatitt C hos personer med HIV-koinfeksjon, ikke behandling av HIV-infeksjon, og det finnes verken mekanistisk grunnlag eller direkte data for anti-HIV-effekt.
+Prediksjonen er ikke støttet av studier som direkte undersøker HIV-infeksjon, og evidensnivået er L5. Studiene gjelder behandling av hepatitt C ved HIV-koinfeksjon, og det finnes ingen mekanistisk begrunnelse for anti-HIV-effekt, siden HIV-protease og HCV NS3/4A-protease er strukturelt ulike.
 
 **For å gå videre kreves følgende:**
-- Prekliniske data (f.eks. cellekultur) som viser eventuell aktivitet mot HIV
-- Data om virkningsmekanisme
-- Gjennomgang av preparatomtalen for advarsler og kontraindikasjoner
-- Vurdering av interaksjoner med antiretrovirale midler dersom bruk i HIV-populasjoner utredes videre
+- Data om virkningsmekanisme (MOA)
+- Prekliniske data (in vitro) som viser eventuell anti-HIV-aktivitet
+- Gjennomgang av preparatomtalens advarsler og kontraindikasjoner
+- Vurdering av legemiddelinteraksjoner med antiretrovirale midler dersom videre utredning skjer
 
 ## Ansvarsfraskrivelse
 

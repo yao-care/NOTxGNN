@@ -36,11 +36,9 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 ## Sacubitril: Brain small vessel disease 1 with or without ocular anomalies
 {: .text-alpha }
 
-## Oppsummering
+## Kort oppsummering
 
-Sacubitril er en nepriløsyninhibitor (ARNI-komponent) som er markedsført i Norge i kombinasjon med valsartan.
-TxGNN-modellen predikerer at legemidlet kan være aktuelt for **cerebral småkarsykdom type 1 med eller uten øyeanomalier (brain small vessel disease 1 with or without ocular anomalies)**.
-Evidensen er svært begrenset: Det finnes **ingen kliniske studier** og **ingen publikasjoner** som direkte undersøker sykdommen, så evidensnivået er **L5**.
+Sacubitril er en nepriylsinhemmer som brukes sammen med valsartan. TxGNN-modellen forutsier at legemidlet kan ha effekt ved **hjernens småkarsykdom type 1 med eller uten øyeanomalier (brain small vessel disease 1 with or without ocular anomalies)**. Det finnes **ingen kliniske studier** og **ingen publikasjoner** som direkte undersøker sacubitril ved denne sykdommen, så prediksjonen bygger kun på modellen.
 
 ## Hurtigoversikt
 
@@ -52,25 +50,21 @@ Evidensen er svært begrenset: Det finnes **ingen kliniske studier** og **ingen 
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
-| Anbefalt beslutning | Avvent |
+| Anbefalt beslutning | Hold |
 
-## Hvorfor kan denne prediksjonen virke rimelig?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Sacubitril er kjent som en forløper til en nepriløsyninhibitor, og kombinasjonen med valsartan (angiotensinreseptorblokker) gir en dobbel effekt på natriuretiske peptider og renin-angiotensin-systemet.
+Data om virkningsmekanisme er ikke tilgjengelig i de sammenstilte dataene. Sacubitril er en prodrug som gir nepriylsinhemming, noe som øker nivået av natriuretiske peptider. Det gis i kombinasjon med valsartan, en angiotensinreseptorblokker.
 
-Sykdommen er en sjelden, monogen lidelse knyttet til COL4A1, med defekter i basalmembran og karveggens integritet. Ut fra de tilgjengelige dataene er det ikke noe tydelig biologisk grunnlag for at nepriløsyninhibisjon eller angiotensinreseptorblokade kan påvirke denne patologien. Den høye prediksjonsscoren er et modellresultat og er ikke støttet av biologiske eller kliniske data i materialet. Prediksjonen bør derfor sees som en hypotese som må underbygges av uavhengig mekanistisk arbeid.
+Sykdommen er en monogen, COL4A1-relatert tilstand med defekter i basalmembran og karintegritet. Ut fra de tilgjengelige dataene finnes det ingen påvist biologisk mekanisme som kobler nepriylsinhemming eller angiotensinreseptorblokkade til denne patologien. Den høye modellscoren er derfor ikke støttet av noe mekanistisk grunnlag i de sammenstilte dataene.
 
-## Klinisk evidens
+## Klinisk studiedokumentasjon
 
-For øyeblikket er det ingen registrerte kliniske studier som er relatert til denne sykdommen.
+Foreløpig er det ingen relaterte kliniske studier registrert.
 
-## Litteraturevidens
+## Litteraturdokumentasjon
 
-Det finnes ingen publikasjoner som direkte undersøker sacubitril ved denne sykdommen. Den eneste publikasjonen som ble funnet, gjelder en annen tilstand og gir ikke evidens for den predikerte indikasjonen:
-
-| PMID | År | Type | Tidsskrift | Hovedfunn |
-|------|-----|------|------|---------|
-| [37169551](https://pubmed.ncbi.nlm.nih.gov/37169551/) | 2023 | Kohortestudie | Heart | Toleranse og effekt av sacubitril/valsartan ved svikt i systemisk høyre ventrikkel. Gjelder en annen sykdom og er ikke relevant evidens. |
+Den eneste litteraturen som ble funnet i forbindelse med denne prediksjonen, omhandler sacubitril/valsartan ved svikt i systemisk høyre ventrikkel, som er en annen sykdom. Den gir ingen evidens for effekt ved hjernens småkarsykdom type 1, og er derfor ikke listet som støtte.
 
 ## Informasjon om det norske markedet
 
@@ -79,26 +73,29 @@ Det finnes ingen publikasjoner som direkte undersøker sacubitril ved denne sykd
 | EMEA/H/C/004343 | Neparvis | – | Hjertesvikt (opphevet) |
 | EMEA/H/C/004062 | Entresto | – | Hjertesvikt (opphevet) |
 
-Begge autorisasjonene er gyldige.
-
 ## Sikkerhetsvurderinger
 
-- **Legemiddelinteraksjoner:** Det er registrert 6 interaksjoner med moderat alvorlighetsgrad: nitisinon, rosuvastatin, simvastatin, kobicistat, revefenacin og alpelisib.
+**Legemiddelinteraksjoner** (6 registrerte, alle av moderat alvorlighetsgrad):
+- Nitisinon
+- Rosuvastatin
+- Simvastatin
+- Kobicistat
+- Revefenacin
+- Alpelisib
 
-For øvrig sikkerhetsinformasjon, herunder advarsler og kontraindikasjoner, vises det til preparatomtalen.
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Ingen studier tester sacubitril ved cerebral småkarsykdom type 1, og det finnes ingen støttet biologisk forklaring på hvorfor legemidlet skulle virke. Prediksjonen hviler kun på modellscoren (0,9958), og evidensnivået er L5.
+Prediksjonen er kun modellbasert (evidensnivå L5). Ingen studie har undersøkt sacubitril ved hjernens småkarsykdom type 1, og det er ikke påvist noen plausibel mekanisme for sykdommen.
 
-**For å gå videre kreves følgende:**
-- Detaljerte data om virkningsmekanisme (MOA) for sacubitril
-- En biologisk begrunnelse for sammenhengen mellom nepriløsyninhibisjon eller angiotensinreseptorblokade og COL4A1-relatert patologi
-- Prekliniske studier i relevante modeller for sykdommen
-- Gjennomgang av preparatomtalen for advarsler og kontraindikasjoner, spesielt for en sårbar pasientgruppe med risiko for hypotensjon og hyperkalemi
+**For å gå videre trengs følgende:**
+- Data om virkningsmekanisme (MOA) og en eventuell biologisk kobling til COL4A1-relatert karpatologi
+- Prekliniske studier som direkte undersøker sykdommen
+- Gjennomgang av preparatomtale for advarsler og kontraindikasjoner, særlig med tanke på hypotensjon og hyperkalemi
 
 ## Ansvarsfraskrivelse
 
