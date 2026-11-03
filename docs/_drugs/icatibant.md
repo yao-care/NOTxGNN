@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Icatibant
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 204
-evidence_level: L1
-indication_count: 7
-last_modified_at: 2026-10-28
-description: "Icatibant: predikert ny indikasjon C1-hemmermangel (C1 inhibitor deficiency) (evidensnivå L1). Opprinnelig indikasjon: Arvelig angioødem"
+evidence_level: L5
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "ICATIBANT"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
+description: "Icatibant: predikert ny indikasjon Serpinopathy with toxic serpin polymerization (evidensnivå L5). Opprinnelig indikasjon: Angioedemas, Hereditary"
 ---
 
 # Icatibant
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **7** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-## Icatibant: Fra arvelig angioødem til C1-hemmermangel
+## Icatibant: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## Oppsummering
@@ -47,10 +47,10 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt ved **C1-hemmermange
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Arvelig angioødem |
-| Predikert ny indikasjon | C1-hemmermangel (C1 inhibitor deficiency) |
-| TxGNN-prediksjonsscore | 0,9999 |
-| Evidensnivå | L1 |
+| Opprinnelig indikasjon | Angioedemas, Hereditary |
+| Predikert ny indikasjon | Serpinopathy with toxic serpin polymerization |
+| TxGNN-prediksjonsscore | 0.9999 |
+| Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Proceed with Guardrails (Fortsett med forbehold) |
@@ -61,7 +61,7 @@ TxGNN-modellen predikerer at legemidlet kan være effektivt ved **C1-hemmermange
 
 Detaljerte data om virkningsmekanisme var ikke tilgjengelige i de samlede dataene. Likevel er det kjent at icatibant er en selektiv antagonist av bradykinin B2-reseptoren. Ved C1-hemmermangel, enten arvelig eller ervervet, blir kallikreinaktiviteten uregulert og det dannes for mye bradykinin. Bradykinin gir utvidede kar og økt karpermeabilitet, som driver angioødemanfallene. Icatibant blokkerer denne effekten.
 
-Prediksjonen er i praksis **innenfor godkjent bruk** og ikke en egentlig ompakking: arvelig angioødem skyldes som regel C1-hemmermangel. Ervervet C1-hemmermangel har samme mekanisme, men her er direkte studiedata begrenset til oversiktsartikler og case-nær litteratur, blant annet en observasjonsstudie med åtte pasienter.
+Ervervet C1-hemmermangel har samme mekanisme, men her er direkte studiedata begrenset til oversiktsartikler og case-nær litteratur, blant annet en observasjonsstudie med åtte pasienter.
 
 Modellen rangerte også seks andre sykdommer (blant annet serpinopati, pseudo-von Willebrands sykdom, Glanzmanns trombastenii og antisyntetasesyndrom). For alle disse mangler både kliniske studier og litteratur (evidensnivå L5), og det finnes ingen påvist mekanistisk sammenheng. Disse vurderes som **Hold**, og prediksjonene regnes mest sannsynlig som modellartefakter.
 

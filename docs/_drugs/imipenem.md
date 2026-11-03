@@ -4,17 +4,17 @@ title: Imipenem
 parent: Kun modellprediksjon (L5)
 nav_order: 211
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 monitor_inn: "Imipenem"
-predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "staphylococcus aureus infection", "eosinophilia-myalgia syndrome"]
-last_modified_at: 2026-10-28
+predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"]
+last_modified_at: 2026-11-03
 description: "Imipenem: predikert ny indikasjon Diffus sklerodermi (diffuse scleroderma) (evidensnivå L5). Opprinnelig indikasjon: Gram-Negative Bacterial Infections"
 ---
 
 # Imipenem
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---

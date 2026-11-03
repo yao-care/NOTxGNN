@@ -4,17 +4,17 @@ title: Laronidase
 parent: Kun modellprediksjon (L5)
 nav_order: 233
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-28
-description: "Laronidase: predikert ny indikasjon Lysosomal lagringssykdom med skjelettaffeksjon (evidensnivå L4). Opprinnelig indikasjon: Mukopolysakkaridose I"
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "LARONIDASE"
-predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
+predicted_indications: ["Sanfilippo syndrome"]
+description: "Laronidase: predikert ny indikasjon Sanfilippo syndrome (evidensnivå L5). Opprinnelig indikasjon: Mucopolysaccharidosis I"
 ---
 
 # Laronidase
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-## Laronidase: Fra mukopolysakkaridose I til lysosomal lagringssykdom med skjelettaffeksjon
+## Laronidase: Sanfilippo syndrome
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
-Laronidase er en rekombinant alfa-L-iduronidase (enzymerstatningsterapi) som opprinnelig brukes til behandling av **mukopolysakkaridose I (MPS I)**. TxGNN-modellen predikerer at legemidlet kan være virksomt ved **lysosomal lagringssykdom med skjelettaffeksjon** (score 0,9931). Det foreligger **ingen registrerte kliniske studier** og **4 publikasjoner** for denne indikasjonen, og indikasjonen overlapper i stor grad med den allerede godkjente. En andre prediksjon, **Sanfilippo syndrom**, er omtalt til slutt og har svakt mekanistisk grunnlag.
+Laronidase er en rekombinant alfa-L-iduronidase (enzymerstatningsterapi) som opprinnelig brukes til behandling av **mukopolysakkaridose I (MPS I)**. Det foreligger **ingen registrerte kliniske studier** og **4 publikasjoner** for denne indikasjonen, og indikasjonen overlapper i stor grad med den allerede godkjente. En andre prediksjon, **Sanfilippo syndrom**, er omtalt til slutt og har svakt mekanistisk grunnlag.
 
 ---
 
@@ -46,9 +46,9 @@ Laronidase er en rekombinant alfa-L-iduronidase (enzymerstatningsterapi) som opp
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Mukopolysakkaridose I |
-| Predikert ny indikasjon | Lysosomal lagringssykdom med skjelettaffeksjon |
-| TxGNN-prediksjonsscore | 0,9931 |
+| Opprinnelig indikasjon | Mucopolysaccharidosis I |
+| Predikert ny indikasjon | Sanfilippo syndrome |
+| TxGNN-prediksjonsscore | 0.9922 |
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |

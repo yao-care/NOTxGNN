@@ -4,17 +4,17 @@ title: Aripiprazole
 parent: Kun modellprediksjon (L5)
 nav_order: 37
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 monitor_inn: "ARIPIPRAZOLE"
-predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-10-30
-description: "Aripiprazole: predikert ny indikasjon Alvorlig affektiv lidelse (major affective disorder) (evidensnivå L5). Opprinnelig indikasjon: Schizophrenia"
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+last_modified_at: 2026-11-03
+description: "Aripiprazole: predikert ny indikasjon Gaze palsy, familial horizontal, with progressive scoliosis (evidensnivå L5). Opprinnelig indikasjon: Schizophrenia"
 ---
 
 # Aripiprazole
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-## Aripiprazol: dopamin D2/D3-partiell agonist og serotonin 5-HT1A-partiell agonist → Alvorlig affektiv lidelse (major affective disorder)
+## Aripiprazole: Gaze palsy, familial horizontal, with progressive scoliosis
 {: .text-alpha }
 
 ## Oppsummering
@@ -45,8 +45,8 @@ Aripiprazol er en dopamin D2/D3- og serotonin 5-HT1A-partiell agonist med 5-HT2A
 | Punkt | Innhold |
 |------|------|
 | Opprinnelig indikasjon | Schizophrenia; Schizophrenia;Bipolar Disorder |
-| Predikert ny indikasjon | Alvorlig affektiv lidelse (major affective disorder) |
-| TxGNN-prediksjonsscore | 0,9962 |
+| Predikert ny indikasjon | Gaze palsy, familial horizontal, with progressive scoliosis |
+| TxGNN-prediksjonsscore | 0.9960 |
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 6 av 6) |
 | Antall godkjenninger | 6 (gyldige: 6) |

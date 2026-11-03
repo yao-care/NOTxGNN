@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Salmeterol
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 376
-evidence_level: L1
-indication_count: 5
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-11-03
-description: "Salmeterol: predikert ny indikasjon Bronkitt (evidensnivå L1). Opprinnelig indikasjon: Astma"
 monitor_inn: "salmeterol"
-predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
+description: "Salmeterol: predikert ny indikasjon Respiratory malformation (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene"
 ---
 
 # Salmeterol
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **5** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-## Salmeterol: Fra astma til bronkitt (kronisk bronkitt/KOLS)
+## Salmeterol: Respiratory malformation
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -46,10 +46,10 @@ Salmeterol er en langtidsvirkende beta2-agonist som opprinnelig er godkjent for 
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Astma |
-| Predikert ny indikasjon | Bronkitt |
-| TxGNN-prediksjonsscore | 0,9992 |
-| Evidensnivå | L1 |
+| Opprinnelig indikasjon | Ikke registrert i de lokale dataene |
+| Predikert ny indikasjon | Respiratory malformation |
+| TxGNN-prediksjonsscore | 0.9991 |
+| Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med sikkerhetsrammer) |

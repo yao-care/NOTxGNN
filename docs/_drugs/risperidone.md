@@ -4,17 +4,17 @@ title: Risperidone
 parent: Kun modellprediksjon (L5)
 nav_order: 363
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-28
-description: "Risperidone: predikert ny indikasjon Familiær horisontal blikkparese med progressiv skoliose (evidensnivå L5). Opprinnelig indikasjon: Schizofreni"
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "RISPERIDONE"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
+description: "Risperidone: predikert ny indikasjon Familiær horisontal blikkparese med progressiv skoliose (gaze palsy, familial horizontal, with progressive scoliosis) (evidensnivå L5)."
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-## Risperidon: Fra schizofreni til Familiær horisontal blikkparese med progressiv skoliose
+## Risperidone: Familiær horisontal blikkparese med progressiv skoliose (gaze palsy, familial horizontal, with progressive scoliosis)
 {: .text-alpha }
 
 ## Kort oppsummering
@@ -46,9 +46,9 @@ Risperidon er et antipsykotikum som opprinnelig brukes til behandling av schizof
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Schizofreni |
-| Predikert ny indikasjon | Familiær horisontal blikkparese med progressiv skoliose |
-| TxGNN-prediksjonsscore | 0,9976 |
+| Opprinnelig indikasjon | Schizophrenia |
+| Predikert ny indikasjon | Familiær horisontal blikkparese med progressiv skoliose (gaze palsy, familial horizontal, with progressive scoliosis) |
+| TxGNN-prediksjonsscore | 0.9976 |
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
@@ -115,7 +115,6 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 | Amelocerebrohypohidrotisk syndrom | 0,9969 | L5 | Hold |
 | Phelan-McDermid syndrom | 0,9959 | L4 | Forskningsspørsmål |
 | Trikotillomani | 0,9951 | L4 | Forskningsspørsmål |
-| **Alvorlig affektiv lidelse** | 0,9911 | **L1** | **Proceed with Guardrails** |
 
 **Kort om de tre første:**
 - **Asperger-susceptibilitet og amelocerebrohypohidrotisk syndrom:** ingen studier eller litteratur. Risperidon er godkjent for irritabilitet ved autismespekterforstyrrelse, men det gjelder det kliniske syndromet og ikke denne genetiske oppføringen. Det andre er et ultrasjeldent genetisk syndrom (ROGDI-relatert) uten kjent mekanistisk rolle for risperidon.
@@ -158,7 +157,6 @@ Risperidons 5-HT2A- og D2-antagonisme støtter bruk som tillegg til antidepressi
 
 **Begrunnelse:**
 - Det finnes ingen kliniske studier, ingen litteratur og ingen plausibel mekanistisk sammenheng. Prediksjonen er kun beregningsbasert (L5).
-- Blant de øvrige kandidatene er alvorlig affektiv lidelse (L1) den eneste som kan gå videre, med beslutningen **Proceed with Guardrails**.
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner, som mangler i de sammenstilte dataene

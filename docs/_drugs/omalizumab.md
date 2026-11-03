@@ -4,17 +4,17 @@ title: Omalizumab
 parent: Moderat evidens (L3-L4)
 nav_order: 298
 evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Omalizumab: predikert ny indikasjon Bronkitt (evidensnivå L3). Opprinnelig indikasjon: Astma, urticaria, rhinitt"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "OMALIZUMAB"
-predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+description: "Omalizumab: predikert ny indikasjon Bronkitt (bronchitis) (evidensnivå L3). Opprinnelig indikasjon: Asthma"
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L3** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Omalizumab: Fra astma til bronkitt
+## Omalizumab: Bronkitt (bronchitis)
 {: .text-alpha }
 
 ## Oppsummering
@@ -46,9 +46,9 @@ Omalizumab er et humanisert monoklonalt anti-IgE-antistoff. Det er opprinnelig g
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Astma, urticaria, rhinitt |
-| Predikert ny indikasjon | Bronkitt |
-| TxGNN-prediksjonsscore | 1,0000 |
+| Opprinnelig indikasjon | Asthma;Urticaria;Rhinitis; Asthma;Urticaria |
+| Predikert ny indikasjon | Bronkitt (bronchitis) |
+| TxGNN-prediksjonsscore | 1.0000 |
 | Evidensnivå | L3 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |

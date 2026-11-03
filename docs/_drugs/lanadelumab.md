@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lanadelumab
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 231
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Lanadelumab: predikert ny indikasjon C1-hemmermangel (evidensnivå L1). Opprinnelig indikasjon: Arvelig angioødem"
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "LANADELUMAB"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
+description: "Lanadelumab: predikert ny indikasjon Serpinopathy with toxic serpin polymerization (evidensnivå L5). Opprinnelig indikasjon: Angioedemas, Hereditary"
 ---
 
 # Lanadelumab
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Lanadelumab: Fra arvelig angioødem til C1-hemmermangel
+## Lanadelumab: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -48,10 +48,10 @@ Foreløpig støttes denne retningen av **5 kliniske studier** og **20 publikasjo
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Arvelig angioødem |
-| Predikert ny indikasjon | C1-hemmermangel |
-| TxGNN-prediksjonsscore | 1,0000 |
-| Evidensnivå | L1 |
+| Opprinnelig indikasjon | Angioedemas, Hereditary |
+| Predikert ny indikasjon | Serpinopathy with toxic serpin polymerization |
+| TxGNN-prediksjonsscore | 0.9999 |
+| Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |

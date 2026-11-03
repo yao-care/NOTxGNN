@@ -4,17 +4,17 @@ title: Anakinra
 parent: Kun modellprediksjon (L5)
 nav_order: 33
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 9
+last_modified_at: 2026-11-03
 description: "Anakinra: predikert ny indikasjon Ekstrakutant mastocytom (rangert som nr. 1 av TxGNN) (evidensnivå L5). Opprinnelig indikasjon: Revmatoid artritt"
 monitor_inn: "ANAKINRA"
-predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
+predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
 ---
 
 # Anakinra
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -62,7 +62,6 @@ Anakinra er en rekombinant interleukin-1-reseptorantagonist (IL-1Ra) som opprinn
 |------|------|------|------|------|
 | 1 | Ekstrakutan mastocytom | 0,9993 | L5 | Hold |
 | 2 | Leverinfarkt | 0,9989 | L5 | Hold |
-| 3 | Autosomal recessiv familiær middelhavsfeber | 0,9989 | L5 | Forskningsspørsmål |
 | 4 | Aggressiv systemisk mastocytose | 0,9988 | L5 | Hold |
 | 5 | Hepatisk venookklusiv sykdom | 0,9988 | L5 | Hold |
 | 6 | Peliosis hepatis | 0,9985 | L5 | Hold |

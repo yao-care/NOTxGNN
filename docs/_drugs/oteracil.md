@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Oteracil
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 301
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-31
-description: "Oteracil: predikert ny indikasjon Tykktarmskreft (colonic neoplasm) (evidensnivå L1). Opprinnelig indikasjon: Magekreft (Stomach Neoplasms)"
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "OTERACIL"
-predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
+predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
+description: "Oteracil: predikert ny indikasjon Cecum villous adenoma (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene"
 ---
 
 # Oteracil
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Oteracil: Fra magekreft til tykktarmskreft
+## Oteracil: Cecum villous adenoma
 {: .text-alpha }
 
 ## Oppsummering
@@ -48,10 +48,10 @@ og dette støttes foreløpig av **6 kliniske studier** og **10 publikasjoner**. 
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Magekreft (Stomach Neoplasms) |
-| Predikert ny indikasjon | Tykktarmskreft (colonic neoplasm) |
-| TxGNN-prediksjonsscore | 0,9999 |
-| Evidensnivå | L1 |
+| Opprinnelig indikasjon | Ikke registrert i de lokale dataene |
+| Predikert ny indikasjon | Cecum villous adenoma |
+| TxGNN-prediksjonsscore | 0.9998 |
+| Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Antall markedsføringstillatelser | 1 |

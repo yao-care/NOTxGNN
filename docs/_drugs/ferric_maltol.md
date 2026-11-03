@@ -4,17 +4,17 @@ title: Ferric Maltol
 parent: Kun modellprediksjon (L5)
 nav_order: 175
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 monitor_inn: "FERRIC MALTOL"
-predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "IRIDA syndrome"]
-last_modified_at: 2026-10-28
-description: "Ferric Maltol: predikert ny indikasjon Plummer-Vinsons syndrom (Plummer-Vinson syndrome) (evidensnivå L5). Opprinnelig indikasjon: Anemia, Iron-Deficiency"
+predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "IRIDA syndrome"]
+last_modified_at: 2026-11-03
+description: "Ferric Maltol: predikert ny indikasjon Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidensnivå L5). Opprinnelig indikasjon: Anemia, Iron-Deficiency"
 ---
 
 # Ferric Maltol
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **3** stk.
 
 </div>
 
-## Ferric maltol: oral jernpreparat → Plummer-Vinsons syndrom (Plummer-Vinson syndrome)
+## Ferric Maltol: Vitamin B12- and folate-independent constitutional megaloblastic anemia
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -49,8 +49,8 @@ men det finnes foreløpig **ingen kliniske studier** og **ingen publikasjoner** 
 | Punkt | Innhold |
 |------|------|
 | Opprinnelig indikasjon | Anemia, Iron-Deficiency |
-| Foreslått ny indikasjon | Plummer-Vinsons syndrom (Plummer-Vinson syndrome) |
-| TxGNN-prediksjonsscore | 0,9998 |
+| Foreslått ny indikasjon | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
+| TxGNN-prediksjonsscore | 0.9998 |
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |

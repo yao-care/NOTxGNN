@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Gimeracil
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 188
-evidence_level: L1
-indication_count: 7
-last_modified_at: 2026-10-28
-description: "Gimeracil: predikert ny indikasjon Kolonneoplasme (colonic neoplasm) (evidensnivå L5). Opprinnelig indikasjon: Magekreft (Stomach Neoplasms)"
+evidence_level: L5
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "GIMERACIL"
-predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
+predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
+description: "Gimeracil: predikert ny indikasjon Cecum villous adenoma (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene"
 ---
 
 # Gimeracil
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **7** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **7** stk.
 
 </div>
 
-## Gimeracil: Fra magekreft til kolonneoplasme
+## Gimeracil: Cecum villous adenoma
 {: .text-alpha }
 
 ## Sammendrag i én setning
@@ -48,10 +48,10 @@ og denne retningen støttes foreløpig av **6 kliniske studier** og **12 publika
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Magekreft (Stomach Neoplasms) |
-| Predikert ny indikasjon | Kolonneoplasme (colonic neoplasm) |
-| TxGNN prediksjonsscore | 0,9988 |
-| Evidensnivå | L1 (basert på de innsamlede dataene; se merknad under) |
+| Opprinnelig indikasjon | Ikke registrert i de lokale dataene |
+| Predikert ny indikasjon | Cecum villous adenoma |
+| TxGNN prediksjonsscore | 0.9982 |
+| Evidensnivå | L5 (basert på de innsamlede dataene; se merknad under) |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Proceed with Guardrails (fortsett med sikkerhetstiltak) |
@@ -87,7 +87,6 @@ Det er viktig å merke seg at gimeracil ikke har egen antitumoreffekt. Alle klin
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [21084813](https://pubmed.ncbi.nlm.nih.gov/21084813/) | 2010 | Risikofaktoranalyse (87 pasienter) | Gan to Kagaku Ryoho | Risikofaktorer for alvorlig hematologisk toksisitet (grad 3–4, 16,1 %) ved S-1 + irinotekan ved avansert eller residiverende tykktarmskreft |
 | [20841935](https://pubmed.ncbi.nlm.nih.gov/20841935/) | 2010 | Farmakokinetisk studie (mus) | Gan to Kagaku Ryoho | Nytte av S-1 ved peritoneale metastaser fra tykktarmskreft i musemodell |
 | [20811661](https://pubmed.ncbi.nlm.nih.gov/20811661/) | 2010 | Prekliniske studier (xenograft) | Oncology Reports | Irinotekan overvinner 5-FU-resistens i tykktarmskreft-xenografter; kombinasjon med S-1 økte antitumoreffekten |
 | [32936722](https://pubmed.ncbi.nlm.nih.gov/32936722/) | 2021 | Kasuistikk og oversikt | J Oncol Pharm Pract | S-1 beskrives som et av de mest effektive midlene ved kolorektal kreft; hypertriglyseridemi observert etter S-1 |

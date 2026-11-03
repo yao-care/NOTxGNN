@@ -4,17 +4,17 @@ title: Talimogene Laherparepvec
 parent: Kun modellprediksjon (L5)
 nav_order: 398
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-28
-description: "Talimogene Laherparepvec: predikert ny indikasjon CMM7 (evidensnivå L5). Opprinnelig indikasjon: Melanom"
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "TALIMOGENE LAHERPAREPVEC"
-predicted_indications: ["CMM7", "glottis squamous cell carcinoma", "lung occult squamous cell carcinoma", "rectal cloacogenic carcinoma", "gallbladder adenosquamous carcinoma"]
+predicted_indications: ["glottis squamous cell carcinoma", "lung occult squamous cell carcinoma", "rectal cloacogenic carcinoma", "gallbladder adenosquamous carcinoma"]
+description: "Talimogene Laherparepvec: predikert ny indikasjon Glottis squamous cell carcinoma (evidensnivå L5). Opprinnelig indikasjon: Melanoma"
 ---
 
 # Talimogene Laherparepvec
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-## Talimogen laherparepvec: Fra melanom til CMM7 (familiært kutant malignt melanom)
+## Talimogene Laherparepvec: Glottis squamous cell carcinoma
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -47,9 +47,9 @@ TxGNN-modellen forutsier at legemidlet kan ha effekt mot **CMM7**, en subtype av
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Melanom |
-| Predikert ny indikasjon | CMM7 |
-| TxGNN-prediksjonsscore | 0,9920 |
+| Opprinnelig indikasjon | Melanoma |
+| Predikert ny indikasjon | Glottis squamous cell carcinoma |
+| TxGNN-prediksjonsscore | 0.9907 |
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
@@ -63,7 +63,7 @@ Det foreligger ingen detaljerte data om virkningsmekanisme i datagrunnlaget. Bas
 
 CMM7 ser ut til å være en subtype av familiært kutant malignt melanom, og er biologisk nær den godkjente indikasjonen (melanom). Mekanistisk kan derfor lesjonsrettet onkolyse og immunstimulering være relevant også her.
 
-Den høye TxGNN-scoren (0,992) skyldes sannsynligvis likheten med den godkjente melanomindikasjonen, ikke uavhengig evidens. Ingen studier eller publikasjoner er spesifikke for denne subtypen, så subtypespesifikke data trengs før noen anbefaling kan gis.
+Ingen studier eller publikasjoner er spesifikke for denne subtypen, så subtypespesifikke data trengs før noen anbefaling kan gis.
 
 ### Andre predikerte indikasjoner (alle kun modellbasert, evidensnivå L5)
 

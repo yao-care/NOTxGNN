@@ -1,12 +1,12 @@
 {
-  "generated": "2026-10-28",
+  "generated": "2026-11-03",
   "total_drugs": 444,
   "level_counts": {
-    "L1": 18,
+    "L1": 12,
     "L2": 21,
     "L3": 19,
-    "L4": 28,
-    "L5": 347
+    "L4": 27,
+    "L5": 353
   },
   "all_drugs": [
     {
@@ -127,7 +127,7 @@
       "name": "Anakinra",
       "slug": "anakinra",
       "level": "L5",
-      "indication_count": 10
+      "indication_count": 9
     },
     {
       "name": "Andexanet Alfa",
@@ -151,7 +151,7 @@
       "name": "Aripiprazole",
       "slug": "aripiprazole",
       "level": "L5",
-      "indication_count": 9
+      "indication_count": 8
     },
     {
       "name": "Arsenic Trioxide",
@@ -163,7 +163,7 @@
       "name": "Asenapine",
       "slug": "asenapine",
       "level": "L5",
-      "indication_count": 10
+      "indication_count": 9
     },
     {
       "name": "Asfotase Alfa",
@@ -655,7 +655,7 @@
       "name": "Dexamethasone",
       "slug": "dexamethasone",
       "level": "L2",
-      "indication_count": 10
+      "indication_count": 9
     },
     {
       "name": "Dibotermin Alfa",
@@ -871,7 +871,7 @@
       "name": "Ertapenem",
       "slug": "ertapenem",
       "level": "L5",
-      "indication_count": 2
+      "indication_count": 1
     },
     {
       "name": "Esketamine",
@@ -955,7 +955,7 @@
       "name": "Ferric Maltol",
       "slug": "ferric_maltol",
       "level": "L5",
-      "indication_count": 3
+      "indication_count": 2
     },
     {
       "name": "Fidaxomicin",
@@ -979,7 +979,7 @@
       "name": "Formoterol",
       "slug": "formoterol",
       "level": "L5",
-      "indication_count": 3
+      "indication_count": 2
     },
     {
       "name": "Fosaprepitant",
@@ -1032,8 +1032,8 @@
     {
       "name": "Gimeracil",
       "slug": "gimeracil",
-      "level": "L1",
-      "indication_count": 7
+      "level": "L5",
+      "indication_count": 6
     },
     {
       "name": "Givosiran",
@@ -1128,8 +1128,8 @@
     {
       "name": "Icatibant",
       "slug": "icatibant",
-      "level": "L1",
-      "indication_count": 7
+      "level": "L5",
+      "indication_count": 6
     },
     {
       "name": "Icosapent Ethyl",
@@ -1171,7 +1171,7 @@
       "name": "Imipenem",
       "slug": "imipenem",
       "level": "L5",
-      "indication_count": 10
+      "indication_count": 9
     },
     {
       "name": "Imiquimod",
@@ -1290,8 +1290,8 @@
     {
       "name": "Lanadelumab",
       "slug": "lanadelumab",
-      "level": "L1",
-      "indication_count": 10
+      "level": "L5",
+      "indication_count": 9
     },
     {
       "name": "Lapatinib",
@@ -1303,7 +1303,7 @@
       "name": "Laronidase",
       "slug": "laronidase",
       "level": "L5",
-      "indication_count": 2
+      "indication_count": 1
     },
     {
       "name": "Lasmiditan",
@@ -1644,8 +1644,8 @@
     {
       "name": "Norethisterone",
       "slug": "norethisterone",
-      "level": "L4",
-      "indication_count": 1
+      "level": "N/A",
+      "indication_count": 0
     },
     {
       "name": "Obinutuzumab",
@@ -1693,7 +1693,7 @@
       "name": "Omalizumab",
       "slug": "omalizumab",
       "level": "L3",
-      "indication_count": 10
+      "indication_count": 9
     },
     {
       "name": "Oritavancin",
@@ -1710,8 +1710,8 @@
     {
       "name": "Oteracil",
       "slug": "oteracil",
-      "level": "L1",
-      "indication_count": 10
+      "level": "L5",
+      "indication_count": 9
     },
     {
       "name": "Oxybutynin",
@@ -2083,7 +2083,7 @@
       "name": "Risperidone",
       "slug": "risperidone",
       "level": "L5",
-      "indication_count": 5
+      "indication_count": 4
     },
     {
       "name": "Ritonavir",
@@ -2160,8 +2160,8 @@
     {
       "name": "Salmeterol",
       "slug": "salmeterol",
-      "level": "L1",
-      "indication_count": 5
+      "level": "L5",
+      "indication_count": 3
     },
     {
       "name": "Sebelipase Alfa",
@@ -2293,7 +2293,7 @@
       "name": "Talimogene Laherparepvec",
       "slug": "talimogene_laherparepvec",
       "level": "L5",
-      "indication_count": 5
+      "indication_count": 4
     },
     {
       "name": "Tasimelteon",
@@ -2322,8 +2322,8 @@
     {
       "name": "Tegafur",
       "slug": "tegafur",
-      "level": "L1",
-      "indication_count": 10
+      "level": "L5",
+      "indication_count": 8
     },
     {
       "name": "Telmisartan",
@@ -2605,7 +2605,7 @@
       "name": "Vestronidase Alfa",
       "slug": "vestronidase_alfa",
       "level": "L5",
-      "indication_count": 9
+      "indication_count": 8
     },
     {
       "name": "Vilanterol",

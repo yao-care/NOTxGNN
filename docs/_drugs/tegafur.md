@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tegafur
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 403
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Tegafur: predikert ny indikasjon Kolonneoplasme (colonic neoplasm) (evidensnivå L1). Opprinnelig indikasjon: Magekreft (Stomach Neoplasms)"
+evidence_level: L5
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "TEGAFUR"
-predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "rectosigmoid junction neoplasm", "colonic lymphangioma", "cavernous hemangioma of colon"]
+predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "colonic lymphangioma", "cavernous hemangioma of colon"]
+description: "Tegafur: predikert ny indikasjon Cecum villous adenoma (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene"
 ---
 
 # Tegafur
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Tegafur: Fra magekreft til kolonneoplasme
+## Tegafur: Cecum villous adenoma
 {: .text-alpha }
 
 ## Oppsummering
@@ -48,10 +48,10 @@ og denne retningen støttes foreløpig av **16 kliniske studier** og **20 publik
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Magekreft (Stomach Neoplasms) |
-| Predikert ny indikasjon | Kolonneoplasme (colonic neoplasm) |
-| TxGNN-prediksjonsscore | 0,9990 |
-| Evidensnivå | L1 |
+| Opprinnelig indikasjon | Ikke registrert i de lokale dataene |
+| Predikert ny indikasjon | Cecum villous adenoma |
+| TxGNN-prediksjonsscore | 0.9986 |
+| Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Proceed with Guardrails (Fortsett med forbehold) |
@@ -62,7 +62,7 @@ og denne retningen støttes foreløpig av **16 kliniske studier** og **20 publik
 
 Detaljerte mekanismedata (MOA) fra legemiddeldatabasen er ikke tilgjengelige. Ut fra kjent farmakologi er tegafur en oral forløper av 5-FU som hovedsakelig omdannes av CYP2A6 i leveren. Det kombineres vanligvis med uracil (UFT), som hemmer DPD-mediert nedbrytning av 5-FU, eller med gimeracil og oteracil (S-1). 5-FU hemmer tymidylatsyntase og bygges inn i RNA og DNA. Dette er en veletablert virkningsmekanisme mot kolorektalt adenokarsinom.
 
-Magekreft og tykktarmskreft er begge kreftformer i mage-tarmkanalen, og de deler den samme fluoropyrimidin-mekanismen. Tegafurbaserte regimer (UFT/LV og S-1) er allerede godt studert som adjuvant behandling ved tykktarmskreft, særlig i Japan og Øst-Asia, noe som støtter modellens prediksjon.
+Magekreft og tykktarmskreft er begge kreftformer i mage-tarmkanalen, og de deler den samme fluoropyrimidin-mekanismen.
 
 ---
 

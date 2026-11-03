@@ -4,17 +4,17 @@ title: Asenapine
 parent: Kun modellprediksjon (L5)
 nav_order: 39
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Asenapine: predikert ny indikasjon Retinal dystrofi med eller uten ekstraokulære avvik (evidensnivå L5). Opprinnelig indikasjon: Bipolar lidelse"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Asenapine"
-predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "syndromic myopia", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy", "major affective disorder"]
+predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "syndromic myopia", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
+description: "Asenapine: predikert ny indikasjon Retinal dystrofi med eller uten ekstraokulære avvik (retinal dystrophy with or without extraocular anomalies) (evidensnivå L5)."
 ---
 
 # Asenapine
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Asenapin: Fra bipolar lidelse til Retinal dystrofi med eller uten ekstraokulære avvik (modellprediksjon)
+## Asenapine: Retinal dystrofi med eller uten ekstraokulære avvik (retinal dystrophy with or without extraocular anomalies)
 {: .text-alpha }
 
 ## Énlinjes sammendrag
 
 Asenapin er et antipsykotikum som opprinnelig er godkjent for behandling av bipolar lidelse.
 TxGNN-modellen predikerer at legemidlet kan ha effekt ved **retinal dystrofi med eller uten ekstraokulære avvik**, men dette er en ren modellprediksjon: det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter den.
-Blant de ti høyest rangerte prediksjonene har kun «major affective disorder» litteraturstøtte (20 publikasjoner), og denne støtten gjelder den eksisterende indikasjonen, ikke en ny bruk.
 
 ---
 
@@ -48,9 +47,9 @@ Blant de ti høyest rangerte prediksjonene har kun «major affective disorder» 
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Bipolar lidelse |
-| Predikert ny indikasjon | Retinal dystrofi med eller uten ekstraokulære avvik |
-| TxGNN-prediksjonsscore | 0,9977 |
+| Opprinnelig indikasjon | Bipolar Disorder |
+| Predikert ny indikasjon | Retinal dystrofi med eller uten ekstraokulære avvik (retinal dystrophy with or without extraocular anomalies) |
+| TxGNN-prediksjonsscore | 0.9977 |
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
@@ -67,7 +66,7 @@ Det er ikke påvist noen mekanistisk sammenheng mellom denne reseptorprofilen og
 
 Det samme mønsteret gjelder de øvrige høyt rangerte prediksjonene (blant annet glykosyleringsdefekt, hydranencefali, ulike former for myopi, Charcot-Marie-Tooth type 1G, polymikrogyri og atypisk glycinencefalopati): ingen av dem har kliniske data eller en plausibel farmakologisk begrunnelse. Dopaminerg signalering er generelt omtalt i myopiforskning, men dette er kun en spekulativ kobling.
 
-Unntaket er «major affective disorder» (rangert som nr. 10). Den overlapper direkte med asenapins eksisterende indikasjon (manisk eller blandet episode ved bipolar I-lidelse), og er derfor ikke et reelt repurposing-funn.
+Den overlapper direkte med asenapins eksisterende indikasjon (manisk eller blandet episode ved bipolar I-lidelse), og er derfor ikke et reelt repurposing-funn.
 
 ---
 
@@ -81,7 +80,7 @@ For toppprediksjonen (retinal dystrofi) er det foreløpig ingen relaterte klinis
 
 For toppprediksjonen (retinal dystrofi) finnes det foreløpig ingen relatert litteratur.
 
-Til sammenligning finnes det litteratur for den tiende prediksjonen, «major affective disorder». Utvalget under gjelder i hovedsak den eksisterende indikasjonen:
+Utvalget under gjelder i hovedsak den eksisterende indikasjonen:
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|

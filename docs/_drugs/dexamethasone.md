@@ -4,17 +4,17 @@ title: Dexamethasone
 parent: Høy evidens (L1-L2)
 nav_order: 125
 evidence_level: L2
-indication_count: 10
+indication_count: 9
 monitor_inn: "DEXAMETHASONE"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
-last_modified_at: 2026-10-30
-description: "Dexamethasone: predikert ny indikasjon Alopecia areata (evidensnivå L2). Opprinnelig indikasjon: Macular Edema"
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
+last_modified_at: 2026-11-03
+description: "Dexamethasone: predikert ny indikasjon Alopecia mucinosa (evidensnivå L2). Opprinnelig indikasjon: Macular Edema"
 ---
 
 # Dexamethasone
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L2** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Deksametason: Glukokortikoid → alopecia areata (alopecia areata)
+## Dexamethasone: Alopecia mucinosa
 {: .text-alpha }
 
 ## Oppsummering i én setning
@@ -47,8 +47,8 @@ Deksametason er et kraftig glukokortikoid som dempet immunforsvaret og betennels
 | Punkt | Innhold |
 |------|------|
 | Opprinnelig indikasjon | Macular Edema;Uveitis; Multiple Myeloma |
-| Foreslått ny indikasjon | Alopecia areata (alopecia areata) |
-| TxGNN-prediksjonsscore | 0,9999 |
+| Foreslått ny indikasjon | Alopecia mucinosa |
+| TxGNN-prediksjonsscore | 0.9999 |
 | Evidensnivå | L2 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |

@@ -4,17 +4,17 @@ title: Ertapenem
 parent: Kun modellprediksjon (L5)
 nav_order: 161
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-28
-description: "Ertapenem: predikert ny indikasjon Bakteriell artritt (evidensnivå L4). Opprinnelig indikasjon: Bakterielle infeksjoner"
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "Ertapenem"
-predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"]
+predicted_indications: ["bacterial arthritis"]
+description: "Ertapenem: predikert ny indikasjon Bakteriell artritt (bacterial arthritis) (evidensnivå L5). Opprinnelig indikasjon: Bacterial Infections"
 ---
 
 # Ertapenem
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **2** stk.
 
 </div>
 
-## Ertapenem: Fra bakterielle infeksjoner til bakteriell artritt
+## Ertapenem: Bakteriell artritt (bacterial arthritis)
 {: .text-alpha }
 
 ## Oppsummering
@@ -48,9 +48,9 @@ Støtten er foreløpig svak: **ingen registrerte kliniske studier** og **kun kas
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Bakterielle infeksjoner |
-| Predikert ny indikasjon | Bakteriell artritt |
-| TxGNN-prediksjonsscore | 0,9972 |
+| Opprinnelig indikasjon | Bacterial Infections; Community-Acquired Infections;Streptococcal Infections;Staphylococcal Infections;Gram-Negative Bacterial Infections;Surgical Wound Infection;Pneumonia, Bacterial |
+| Predikert ny indikasjon | Bakteriell artritt (bacterial arthritis) |
+| TxGNN-prediksjonsscore | 0.9972 |
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
@@ -127,7 +127,7 @@ Evidensen for bakteriell artritt er på L4-nivå: ingen kliniske studier og kun 
 - Avklaring av regulatorisk status i Norge, siden begge godkjenningene er opphevet.
 
 **Merknad om en annen kandidat:**
-Den nest høyest rangerte prediksjonen, ***Staphylococcus aureus*-infeksjon**, har sterkere støtte (evidensnivå L2, TxGNN-score 0,9928). Den gjelder ertapenem som tillegg til cefazolin ved vedvarende MSSA-bakteriemi. Evidensen er to registrerte pågående studier, flere kasuistikkserier og en sammenlignende studie ([PMID 38946294](https://pubmed.ncbi.nlm.nih.gov/38946294/)). Studiene er [NCT04886284](https://clinicaltrials.gov/study/NCT04886284) (fase 2, n=60, rekrutterer) og [NCT07148960](https://clinicaltrials.gov/study/NCT07148960) (fase 4, n=300, åpen for invitasjon). Ingen av dem har publiserte resultater ennå, og kandidaten bør følges videre som et eget forskningsspørsmål.
+Den gjelder ertapenem som tillegg til cefazolin ved vedvarende MSSA-bakteriemi. Evidensen er to registrerte pågående studier, flere kasuistikkserier og en sammenlignende studie ([PMID 38946294](https://pubmed.ncbi.nlm.nih.gov/38946294/)). Studiene er [NCT04886284](https://clinicaltrials.gov/study/NCT04886284) (fase 2, n=60, rekrutterer) og [NCT07148960](https://clinicaltrials.gov/study/NCT07148960) (fase 4, n=300, åpen for invitasjon). Ingen av dem har publiserte resultater ennå, og kandidaten bør følges videre som et eget forskningsspørsmål.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
