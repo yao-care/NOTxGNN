@@ -6,7 +6,7 @@ NOTxGNN er en forskningsplattform for gjenbruk av legemidler (drug repurposing) 
 
 ## Metode og evidens
 
-Bygger på TxGNN-metoden fra Zitnik Lab (Harvard) og utforsker mulige sammenhenger mellom eksisterende legemidler og nye indikasjoner. Modellprediksjoner kombineres med ClinicalTrials.gov, PubMed, DrugBank, data fra DMP og DDInter i sporbare rapporter.
+Bygger på TxGNN-metoden fra Zitnik Lab (Harvard) og utforsker mulige sammenhenger mellom eksisterende legemidler og nye indikasjoner. Modellprediksjoner kombineres med ClinicalTrials.gov, PubMed, DrugBank, data fra EMAs Medicines report og DDInter i sporbare rapporter.
 
 Evidensnivåene går fra L1 (sterkere klinisk evidens) til L5 (kun modellprediksjon); en modellscore betyr ikke klinisk effekt. Enhver kandidat krever fortsatt kliniske studier, myndighetsvurdering og vurdering av kvalifisert helsepersonell.
 
