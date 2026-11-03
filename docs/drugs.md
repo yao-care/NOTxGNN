@@ -32,7 +32,7 @@ description: "Alle valideringsrapporter for legemidler og statistikk over eviden
 ---
 
 <!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
-Listen bygger på registreringsdataene til [DMP](https://www.dmp.no/) (Norge).
+Listen bygger på sentrale markedsføringstillatelser i EU fra [EMA Medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) (gjelder også i Norge).
 
 <!-- local-home:end -->
 

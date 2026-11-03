@@ -6,7 +6,7 @@
 [![Website](https://img.shields.io/badge/Website-notxgnn.yao.care-blue)](https://notxgnn.yao.care)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Prediksjoner for legemiddelreposisjonering av DMP-godkjente legemidler (Norway) ved bruk av TxGNN-modellen.
+Prediksjoner for legemiddelreposisjonering av legemidler med sentral markedsføringstillatelse i EU (EMA) (Norway) ved bruk av TxGNN-modellen.
 
 ## Ansvarsfraskrivelse
 
@@ -73,7 +73,7 @@ uv run python scripts/run_kg_prediction.py
 
 | Metrikk | Verdi |
 |------|------|
-| DMP Totalt antall legemidler | 1,850 |
+| EMA (sentrale markedsføringstillatelser) Totalt antall legemidler | 1,850 |
 | Kartlagt til DrugBank | 1,334 (72.1%) |
 | Repositioneringskandidater | 2,395 |
 
@@ -131,7 +131,7 @@ TxGNN-scoren representerer modellens tillit til et legemiddel-sykdomspar, med et
 flowchart TD
     A["TxGNN-prediksjonsresultater"] --> B
     subgraph B["Step 1: DrugBundle Collector"]
-        B1["Legemiddelnivaa: DMP, DDI, DrugBank"]
+        B1["Legemiddelnivaa: EMA, DDI, DrugBank"]
         B2["Indikasjonsnivaa: ClinicalTrials, PubMed, ICTRP"]
     end
     B --> |"drug_bundle.json"| C
@@ -154,7 +154,7 @@ flowchart TD
 
 | Fil | Nedlasting |
 |------|------|
-| DMP Data | [EMA Medicines Data (proxy for Norwegian-authorized medicines)](https://www.ema.europa.eu/en/medicines/download-medicine-data) |
+| EMA Data | [EMA Medicines Report (sentrale markedsføringstillatelser i EU)](https://www.ema.europa.eu/en/medicines/download-medicine-data) |
 | node.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144482) |
 | kg.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144484) |
 | edges.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144483) |
@@ -216,7 +216,7 @@ PYTHONPATH=src python -m notxgnn.predict.txgnn_model
 
 | Kategori | Data | Kilde | Merknad |
 |------|------|------|------|
-| **Legemiddeldata** | DMP | [EMA Medicines Data (proxy for Norwegian-authorized medicines)](https://www.ema.europa.eu/en/medicines/download-medicine-data) | Norway |
+| **Legemiddeldata** | EMA | [EMA Medicines Report (sentrale markedsføringstillatelser i EU)](https://www.ema.europa.eu/en/medicines/download-medicine-data) | Norway |
 | **Kunnskapsgraf** | TxGNN KG | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM) | 17,080 diseases, 7,957 drugs |
 | **Legemiddeldatabase** | DrugBank | [DrugBank](https://go.drugbank.com/) | Kartlegging av legemiddelingredienser |
 | **Legemiddelinteraksjoner** | DDInter 2.0 | [DDInter](https://ddinter2.scbdd.com/) | DDI-par |
@@ -302,7 +302,7 @@ NOTxGNN/
 
 ```mermaid
 flowchart TD
-    FDA["DMP Data"] --> proc["process_fda_data.py"]
+    FDA["EMA Data"] --> proc["process_fda_data.py"]
     TxGNN["TxGNN Data"] --> prep["prepare_external_data.py"]
 
     proc --> json["no_fda_drugs.json"]
