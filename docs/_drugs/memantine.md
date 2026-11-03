@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Memantine
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 261
-evidence_level: L1
+evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
-description: "Memantine: predikert ny indikasjon Pulmonal hypertensjon (pulmonary hypertension) (evidensnivå L5). Opprinnelig indikasjon: Alzheimers sykdom"
+last_modified_at: 2026-11-03
 monitor_inn: "MEMANTINE"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
+description: "Memantine: predikert ny indikasjon Pulmonal hypertensjon (pulmonary hypertension) (evidensnivå L5). Opprinnelig indikasjon: Alzheimer Disease"
 ---
 
 # Memantine
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **4** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,73 +33,43 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **4** stk.
 
 </div>
 
-## Memantin: Fra Alzheimers sykdom til pulmonal hypertensjon
+## Memantine: Pulmonal hypertensjon (pulmonary hypertension)
 {: .text-alpha }
 
-## Oppsummering i én setning
+## Sammendrag i én setning
 
-Memantin er et legemiddel som opprinnelig brukes til behandling av Alzheimers sykdom.
-TxGNN-modellen forutsier at det kan være effektivt mot **migrene** (rangert som nr. 2 blant de forutsagte indikasjonene, men den med klart sterkest evidens),
-og det finnes foreløpig **1 klinisk fase 3-studie** og **18 publikasjoner** som støtter denne retningen. Evidensen er likevel begrenset av at studien er liten (n=33), og oversiktsartiklene beskriver memantin mot migrene som «stort løfte, men lite evidens».
-
----
+Memantin er en NMDA-reseptorantagonist som er markedsført i Norge. TxGNN-modellen predikerer at legemidlet kan være aktuelt ved **pulmonal hypertensjon (pulmonary hypertension)**. Dette er en ren modellprediksjon (evidensnivå **L5**): det finnes **ingen kliniske studier** og ingen publikasjoner som direkte undersøker memantin ved denne sykdommen.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Alzheimers sykdom |
-| Forutsagt ny indikasjon | Migrene (migraine disorder) |
-| TxGNN-prediksjonsscore | 0,9954 |
-| Evidensnivå | L1 (se merknad under) |
+| Opprinnelig indikasjon | Alzheimer Disease |
+| Predikert ny indikasjon | Pulmonal hypertensjon (pulmonary hypertension) |
+| TxGNN-prediksjonsscore | 0.9954 |
+| Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 8 av 8) |
 | Antall godkjenninger | 8 (gyldige: 8) |
-| Anbefalt beslutning | Proceed with Guardrails (fortsett med forbehold) |
-
-*Merknad om evidensnivå:* Det tildelte nivået L1 er satt i datagrunnlaget. Etter de definerte reglene (L1 krever minst to fullførte fase 3-studier) er det kun én liten fase 3-studie, så evidensen ligger i praksis nærmere L2. Nivået bør vurderes på nytt.
-
-*Merknad om rangering:* Den høyest rangerte prediksjonen fra TxGNN er pulmonal hypertensjon (score 0,9954, evidensnivå L5, anbefaling Hold). Denne rapporten fokuserer på migrene, som har mest støtte i data.
-
----
+| Anbefalt beslutning | Hold |
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget som er samlet for denne rapporten. Memantin er imidlertid kjent som en ikke-kompetitiv NMDA-reseptorantagonist, og dens effekt ved Alzheimers sykdom er knyttet til dempning av glutamatmediert eksitotoksisitet.
+Data om detaljert virkningsmekanisme er foreløpig ikke tilgjengelige i de sammenstilte dataene. Memantin er kjent som en ikke-kompetitiv NMDA-reseptorantagonist, og det er mekanistisk tenkelig at glutamat/NMDA-reseptoraksen kan ha betydning i lungekarbiologi. En studie fra 2021 om NMDA-reseptoraktivering og insulinfølsomhet/lipidmetabolisme (PMID 33500723) nevner at denne aksen er foreslått å bidra til pulmonal arteriell hypertensjon. Dette er imidlertid kun prekliniske og mekanistiske data, og koblingen er hypotetisk.
 
-Glutamat og NMDA-reseptorsignalering antas å bidra til kortikal spredende depresjon, sentral sensitisering og aktivering av det trigeminovaskulære systemet ved migrene. Oversiktsartikler viser at glutamatnivåene er forhøyet hos migrenepasienter, særlig under anfall, og at gener involvert i glutamatsignalering er knyttet til sykdommen. Siden memantin direkte treffer denne signalveien, er det mekanistisk plausibelt at det kan ha forebyggende effekt.
+Den høye scoren (0,9954) er en beregnet modellprediksjon og er ikke støttet av kliniske data i det som er sammenstilt for denne rapporten.
 
-Alzheimers sykdom og migrene er ulike sykdommer, men har felles patofysiologi knyttet til NMDA-reseptoroveraktivitet. En publikasjon peker også på sammenheng mellom primære hodepiner og kognitiv svikt. Samtidig er det viktig å understreke at den kliniske evidensen foreløpig er begrenset.
+## Klinisk studiedokumentasjon
 
----
-
-## Klinisk evidens
-
-| Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
-|---------|------|------|------|---------|
-| [NCT04698525](https://clinicaltrials.gov/study/NCT04698525) | Fase 3 | Fullført | 33 | Memantin sammenlignet med natriumvalproat som forebyggende behandling av episodisk migrene. Liten studie; resultater og skjevhetsrisiko må verifiseres. |
-
----
+Foreløpig er ingen relaterte kliniske studier registrert.
 
 ## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [33961371](https://pubmed.ncbi.nlm.nih.gov/33961371/) | 2021 | Metaanalyse av RCT-er | Clin Neuropharmacol | Vurderer effekten av memantin mot placebo ved migrene; effekten omtales som omstridt. |
-| [34352118](https://pubmed.ncbi.nlm.nih.gov/34352118/) | 2021 | Systematisk oversikt | Headache | Vurderer effekt og sikkerhet av memantin som forebyggende behandling av episodisk migrene. |
-| [25159002](https://pubmed.ncbi.nlm.nih.gov/25159002/) | 2014 | Systematisk oversikt | Ann Pharmacother | Gjennomgang av data på memantin for forebygging av primære hodepinelidelser. |
-| [40978493](https://pubmed.ncbi.nlm.nih.gov/40978493/) | 2025 | Nettverksmetaanalyse | Front Pharmacol | Sammenligner orale forebyggende legemidler mot migrene hos voksne. |
-| [26638119](https://pubmed.ncbi.nlm.nih.gov/26638119/) | 2016 | RCT (migrene uten aura, indirekte) | Headache | Randomisert, dobbeltblind, placebokontrollert studie av memantin som forebyggende behandling. |
-| [17901918](https://pubmed.ncbi.nlm.nih.gov/17901918/) | 2007 | Retrospektiv studie | J Headache Pain | Retrospektiv gjennomgang av 60 pasienter som fikk memantin som forebyggende behandling. |
-| [36869904](https://pubmed.ncbi.nlm.nih.gov/36869904/) | 2023 | Oversikt | Naunyn-Schmiedebergs Arch Pharmacol | Presenterer memantin og ketamin som mulige anti-migrenemidler. |
-| [34510445](https://pubmed.ncbi.nlm.nih.gov/34510445/) | 2021 | Kommentar/oversikt | Headache | «Memantine for migraine – big promise but little evidence». |
-| [29508147](https://pubmed.ncbi.nlm.nih.gov/29508147/) | 2018 | Oversikt | Neurotherapeutics | Glutamat og dets reseptorer som terapeutiske mål ved migrene. |
-| [39467289](https://pubmed.ncbi.nlm.nih.gov/39467289/) | 2024 | Klinisk retningslinje | Ann Intern Med | Retningslinje fra VA/DoD 2023 for behandling og forebygging av migrene og spenningshodepine. |
-
----
+| [33500723](https://pubmed.ncbi.nlm.nih.gov/33500723/) | 2021 | Preklinisk/mekanistisk | Theranostics | NMDA-reseptoraktivering påvirker insulinfølsomhet og lipidmetabolisme; glutamat/NMDA-aksen er foreslått å ha rolle ved bl.a. pulmonal arteriell hypertensjon. Ikke en studie av memantin ved sykdommen. |
+| [41739394](https://pubmed.ncbi.nlm.nih.gov/41739394/) | 2026 | Fase 1 farmakokinetikk/sikkerhet | Clinical Drug Investigation | MN-08, et nitratderivat av memantin under utvikling mot pulmonal arteriell hypertensjon, undersøkt hos friske kinesiske frivillige. Gir ikke effektdata hos pasienter. |
 
 ## Markedsinformasjon for Norge
-
-Alle åtte godkjenninger er gyldige, og legemidlet er markedsført i Norge.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -109,36 +79,39 @@ Alle åtte godkjenninger er gyldige, og legemidlet er markedsført i Norge.
 | EMEA/H/C/002671 | Memantine ratiopharm | – | Alzheimers sykdom |
 | EMEA/H/C/002658 | Marixino (tidligere Maruxa) | – | Alzheimers sykdom |
 
-(Ytterligere tre avregistrerte godkjenninger: Nemdatine, Memantine Mylan og Memantine Accord.)
+Alle 8 registrerte tillatelser er gyldige. Listen viser de fem første.
 
----
+## Sikkerhetsvurderinger
 
-## Sikkerhetshensyn
+Sikkerhetsinformasjon om advarsler og kontraindikasjoner finnes i preparatomtalen.
 
-- **Mulige kontraindikasjoner fra kunnskapsgrafen (ikke fra preparatomtale):** leversykdom, galleblæresykdom og nedsatt nyrefunksjon.
-- **Legemiddelinteraksjoner:** Totalt 100 interaksjoner er registrert. Blant de første 20 som er gjennomgått:
-  - *Moderat:* antikolinergika, bl.a. hyoscyamin, atropin, glykopyrronium, klidinium, dicyklomin, metskopolamin, propantelin, skopolamin, trospium og mepenzolat.
-  - *Mindre:* ranitidin, metformin, cimetidin og kaliumcitrat.
-  - *Ukjent nivå:* glimepirid, doksycyklin, lansoprazol, loperamid, famotidin og acetylsalisylsyre.
+**Legemiddelinteraksjoner:** Det er registrert 100 mulige interaksjoner. Blant dem som er oppført, er følgende av moderat alvorlighetsgrad, hovedsakelig antikolinerge legemidler:
+- Hyoscyamin
+- Atropin
+- Glykopyrronium
+- Klidinium
+- Disyklomin
+- Metskopolamin
+- Propantelin
+- Skopolamin
+- Trospium
+- Mepenzolat
 
-Preparatomtalens advarsler og kontraindikasjoner er ikke tilgjengelige i dataene. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
-
----
+Flere andre (f.eks. ranitidin, metformin, cimetidin, kaliumsitrat) er klassifisert som mindre alvorlige.
 
 ## Konklusjon og neste steg
 
-**Beslutning: Proceed with Guardrails (fortsett med forbehold)**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Memantin har en plausibel mekanistisk kobling til migrene via NMDA-/glutamatsignalering, og det finnes en fullført fase 3-studie, flere systematiske oversikter og en metaanalyse. Studien er imidlertid liten (n=33), og litteraturen karakteriserer evidensen som begrenset, så anbefalingen bør ikke gå lenger enn forsiktig videre utredning. Legemidlet er markedsført i Norge, med 8 gyldige godkjenninger av 8.
+Prediksjonen bygger kun på en beregnet modellscore. Ingen studie har undersøkt memantin ved pulmonal hypertensjon, og det eneste koblede materialet er en fase 1-studie hos friske frivillige av et avledet nitratpreparat (MN-08). Evidensnivået er derfor L5.
 
-**For å gå videre trengs følgende:**
-- Gjennomgang av resultater og skjevhetsrisiko i NCT04698525 og metaanalysen (PMID 33961371)
-- Større, placebokontrollerte fase 3-studier med migrene som primærindikasjon
-- Preparatomtalens advarsler og kontraindikasjoner (dataunderlaget er ufullstendig på dette punktet)
-- Detaljerte data om virkningsmekanisme
-- Avklaring av regulatorisk vei i Norge, der alle åtte godkjenninger er gyldige
-- Ny vurdering av evidensnivået (L1 vs. L2)
+**For å gå videre kreves følgende:**
+- Prekliniske data som direkte tester memantin i modeller for pulmonal hypertensjon
+- Data om virkningsmekanisme (MOA) som underbygger koblingen til lungekarsykdom
+- Vurdering av sikkerhet og preparatomtale for aktuelle pasientgrupper
+- Eventuelt en liten pilotstudie dersom prekliniske data er lovende
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
