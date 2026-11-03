@@ -4,17 +4,17 @@ title: Tipiracil
 parent: Kun modellprediksjon (L5)
 nav_order: 419
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Tipiracil: predikert ny indikasjon cecum villous adenoma (evidensnivå L5). Opprinnelig indikasjon: Kolorektal kreft (Colorectal Neoplasms)"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Tipiracil"
-predicted_indications: ["cecum villous adenoma", "lipoma of colon", "rectosigmoid junction neoplasm", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
+predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
+description: "Tipiracil: predikert ny indikasjon Cecum villøst adenom (cecum villous adenoma) (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene"
 ---
 
 # Tipiracil
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Tipiracil: Fra tykk- og endetarmskreft til cecum villous adenoma
+## Tipiracil: Cecum villøst adenom (cecum villous adenoma)
 {: .text-alpha }
 
-## Oppsummering i én setning
+## Kort oppsummering
 
-Tipiracil er en komponent i kombinasjonspreparatet trifluridin/tipiracil (Lonsurf), opprinnelig brukt til behandling av kolorektal kreft.
-TxGNN-modellen forutsier at legemidlet kan ha effekt på **villøst adenom i cecum** (cecum villous adenoma),
-men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen bygger kun på modellscore (evidensnivå L5).
+Tipiracil er en tymidinfosforylasehemmer som brukes i kombinasjon med trifluridin ved kolorektal kreft. TxGNN-modellen forutsier at tipiracil kan ha effekt ved **cecum villøst adenom (cecum villous adenoma)**. Det finnes **ingen kliniske studier** og **ingen publikasjoner** som direkte støtter denne prediksjonen, så den hviler kun på modellens beregning.
 
 ---
 
@@ -48,40 +46,37 @@ men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtte
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Kolorektal kreft (Colorectal Neoplasms) |
-| Foreslått ny indikasjon | Villøst adenom i cecum |
+| Opprinnelig indikasjon | Ikke registrert i de lokale dataene |
+| Predikert ny indikasjon | Cecum villøst adenom (cecum villous adenoma) |
 | TxGNN-prediksjonsscore | 0.9999 |
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
-| Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er foreløpig ikke tilgjengelig fra de innsamlede dataene. Basert på kjent informasjon er tipiracil en tymidinfosforylasehemmer som brukes sammen med trifluridin. Tipiracil hindrer nedbrytning av trifluridin og øker dermed eksponeringen for det cytotoksiske stoffet. Effekten av kombinasjonen ved kolorektal kreft er etablert.
+Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i de innsamlede dataene. Tipiracil hemmer tymidinfosforylase og brukes sammen med trifluridin, en cytotoksisk nukleosidanalog. Tipiracil hindrer at trifluridin raskt brytes ned, slik at eksponeringen øker.
 
-Villøst adenom er en premalign lesjon i samme organ. Den høye modellscoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens eller et påvist behandlingsgrunnlag. Cytotoksisk behandling passer dårlig for en godartet lesjon som vanligvis fjernes endoskopisk. Det finnes ingen studier eller litteratur som knytter legemidlet til denne tilstanden.
-
-For fullstendighetens skyld: de ni neste prediksjonene (blant annet lipom i kolon, nevroendokrin tumor G1 i cecum, kolorektal GIST og rektosigmoid neoplasme) har likeledes evidensnivå L4–L5 og anbefalingen Hold. Rektosigmoid neoplasme er mekanistisk mest plausibel dersom svulsten er malign, men også her mangler spesifikke data.
+Villøst adenom er en premalign forandring i tykktarmen, og er dermed biologisk nær kolorektal kreft. Det kan forklare at modellen gir høy score. Selve scoren er likevel kun en beregnet prediksjon. Cytotoksisk behandling passer dårlig for en godartet forandring som vanligvis fjernes endoskopisk, og ingen studier knytter legemidlet til denne tilstanden.
 
 ---
 
-## Klinisk evidens
+## Klinisk studieevidens
 
-Det er foreløpig ingen registrerte kliniske studier for denne indikasjonen.
+Det er for øyeblikket ingen relaterte kliniske studier registrert.
 
 ---
 
 ## Litteraturevidens
 
-Det er foreløpig ingen litteratur som direkte omhandler tipiracil ved villøst adenom i cecum.
+Det er for øyeblikket ingen relatert litteratur tilgjengelig for denne prediksjonen.
 
 ---
 
-## Markedsinformasjon for Norge
+## Informasjon om det norske markedet
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -89,26 +84,11 @@ Det er foreløpig ingen litteratur som direkte omhandler tipiracil ved villøst 
 
 ---
 
-## Cytotoksisitet
-
-Tipiracil er i seg selv en tymidinfosforylasehemmer, men brukes utelukkende i kombinasjon med det cytotoksiske stoffet trifluridin (antineoplastisk, fluoropyrimidin-lignende nukleosidanalog) ved kreft.
-
-| Punkt | Innhold |
-|------|------|
-| Cytotoksisitetsklassifisering | Konvensjonell cytotoksisk kombinasjon (trifluridin/tipiracil, nukleosidanalog) |
-| Risiko for myelosuppresjon | Se pakningsvedlegget for advarsler og forsiktighetsregler. Litteraturen beskriver leukopeni og nøytropeni som bivirkninger |
-| Emetogenisitetsklassifisering | Se pakningsvedlegget for advarsler og forsiktighetsregler |
-| Overvåkingspunkter | Blodstatus (CBC med differensialtelling), lever- og nyrefunksjon |
-| Håndteringsbeskyttelse | Følg gjeldende regler for håndtering av cytotoksiske legemidler |
-
----
-
 ## Sikkerhetsvurderinger
 
-- **Legemiddelinteraksjoner**: Den eneste registrerte interaksjonen er farmakologisk, med et koronavirusprotein (CoV Non-structural protein 15, SARS-CoV-2). Dette er en målbinding i en databasekilde og ikke en klinisk legemiddelinteraksjon.
-- **Bivirkninger fra litteraturen**: En kasuistikk beskriver leukocytoklastisk vaskulitt med sen debuterende Henoch-Schönlein purpura etter behandling med trifluridin/tipiracil. Generelt nevnes leukopeni, nøytropeni, tretthet, diaré og oppkast.
+Se pakningsvedlegget for sikkerhetsinformasjon.
 
-For øvrig sikkerhetsinformasjon, se pakningsvedlegget.
+Én interaksjonsoppføring er registrert i de innsamlede dataene. Den gjelder en farmakologisk binding til et koronavirusprotein (CoV Non-structural protein 15), og har ingen kjent klinisk betydning for denne vurderingen.
 
 ---
 
@@ -117,14 +97,14 @@ For øvrig sikkerhetsinformasjon, se pakningsvedlegget.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen om villøst adenom i cecum bygger kun på en modellscore (L5), uten kliniske studier eller relevant litteratur. Cytotoksisk behandling er lite egnet for en godartet, premalign lesjon som vanligvis behandles med endoskopisk reseksjon. I tillegg er den eneste norske tillatelsen avregistrert.
+Prediksjonen har svært høy modellscore, men ingen kliniske studier eller litteratur som direkte omhandler cecum villøst adenom. Evidensnivået er L5. Cytotoksisk behandling er lite sannsynlig å passe for en godartet forandring som vanligvis fjernes endoskopisk.
 
 **For å komme videre trengs følgende:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Pakningsvedlegg med advarsler og kontraindikasjoner (mangler, og blokkerer sikkerhetsvurdering)
-- Prekliniske eller mekanistiske studier som støtter effekt ved adenom/premaligne lesjoner
-- Vurdering av risiko–nytte sammenlignet med endoskopisk reseksjon
-- Avklaring av markedsstatus i Norge, siden eneste tillatelse er avregistrert
+- Data om virkningsmekanisme (MOA) for tipiracil
+- Informasjon fra preparatomtale om advarsler og kontraindikasjoner
+- Prekliniske eller kliniske data som direkte omhandler villøst adenom i cecum
+- Vurdering av nytte og risiko opp mot standard endoskopisk behandling
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

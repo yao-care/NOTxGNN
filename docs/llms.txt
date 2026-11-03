@@ -14,6 +14,7 @@
 - Prediksjoner for Legemiddelreposisjonering \u2014 Norge: https://notxgnn.yao.care/
 - Alle legemidler: https://notxgnn.yao.care/drugs/
 - Høy evidens (L1-L2): https://notxgnn.yao.care/evidence-high/
+- Legemidler med studieevidens for en ny indikasjon: https://notxgnn.yao.care/clinical-trial-evidence/
 - Moderat evidens (L3-L4): https://notxgnn.yao.care/evidence-medium/
 - Kun modellprediksjon (L5): https://notxgnn.yao.care/evidence-low/
 - Metodikk: https://notxgnn.yao.care/methodology/

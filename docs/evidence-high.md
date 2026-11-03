@@ -12,6 +12,8 @@ description: "Kandidater for legemiddelreposisjonering på nivå L1-L2 i NOTxGNN
 Kandidater som kan prioriteres for klinisk evaluering
 </p>
 
+Hvilke av disse legemidlene har studieevidens for den predikerte nye indikasjonen, og hvor mange registrerte studier siteres? Se [Legemidler i Norge med evidens fra kliniske studier for en ny indikasjon]({{ '/clinical-trial-evidence/' | relative_url }}).
+
 ---
 
 ## Kriterier
