@@ -5,7 +5,7 @@ parent: Kun kjente bruksområder (ingen nye prediksjoner)
 nav_order: 303
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Ozanimod: kjente bruksområder og markedsstatus i Norge; foreløpig ingen ny kandidatindikasjon"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensnivå: **N/A** | Predikerte indikasjoner: **0** stk.
 Alle kandidatene som TxGNN-modellen foreslår for Ozanimod, er allerede kjente bruksområder. Det finnes derfor foreløpig ingen ny predikert indikasjon for dette legemidlet. Siden vi bare viser kandidater som kan spores til en kilde, er det ikke noe nytt å vurdere her.
 
 ## Hurtigoversikt
+
 | Punkt | Innhold |
 |------|------|
 | Nye predikerte indikasjoner | Ingen (alle sporbare modellkandidater er kjente bruksområder) |
@@ -52,16 +53,19 @@ Alle kandidatene som TxGNN-modellen foreslår for Ozanimod, er allerede kjente b
 ## Kjente bruksområder blant modellens kandidater
 
 ### Godkjent (støttet av tillatelse eller preparatomtale)
+
 | Indikasjon | Kilde |
 |------|------|
 | Ingen | – |
 
 ### Knyttet til en godkjent indikasjon (samme sykdomskategori)
+
 | Indikasjon | Godkjent kategori |
 |------|------|
 | Ingen | – |
 
 ### Relasjoner registrert i kunnskapsgrafen (ingen godkjenning funnet)
+
 | Indikasjon |
 |------|
 | progressiv residiverende multippel sklerose (progressive relapsing multiple sclerosis) |

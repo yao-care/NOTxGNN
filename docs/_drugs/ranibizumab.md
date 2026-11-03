@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "craniostenosis cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
 description: "Ranibizumab: predikert ny indikasjon Immature cataract (evidensnivå L5). Opprinnelig indikasjon: Wet Macular Degeneration"
@@ -145,6 +145,7 @@ Alle øvrige prediksjoner har svak eller indirekte evidens og får beslutningen 
 | Kortikal katarakt | 0,9999 | L5 | Indirekte litteratur, inkludert en case-rapport om bivirkning (kapselblokk-syndrom) |
 | Senil katarakt | 0,9999 | L5 | Biomarkørstudier av netthinnesykdom, ikke effekt på katarakt |
 | Hemoragisk sykdom hos nyfødte | 0,9987 | L5 | Skyldes vitamin K-mangel; de to studiene gjelder andre sykdommer (HHT-studien trukket tilbake, 0 inkluderte) |
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

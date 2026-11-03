@@ -5,7 +5,7 @@ parent: Kun kjente bruksområder (ingen nye prediksjoner)
 nav_order: 65
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Brinzolamide: kjente bruksområder og markedsstatus i Norge; for øyeblikket ingen ny kandidatindikasjon"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensnivå: **N/A** | Predikerte indikasjoner: **0** stk.
 Alle kandidatene som TxGNN-modellen (skåre ≥ 0,99) har gitt for Brinzolamide, er allerede kjente bruksområder. Det finnes derfor for øyeblikket ingen ny predikert indikasjon for dette legemidlet. Den ene kjente bruken er knyttet til en lisens i et annet land.
 
 ## Hurtigoversikt
+
 | Punkt | Innhold |
 |------|------|
 | Nye predikerte indikasjoner | Ingen (alle sporbare modellkandidater er kjente bruksområder) |
@@ -52,16 +53,19 @@ Alle kandidatene som TxGNN-modellen (skåre ≥ 0,99) har gitt for Brinzolamide,
 ## Kjente bruksområder blant modellens kandidater
 
 ### Godkjent (støttet av lisens eller preparatomtale)
+
 | Indikasjon | Kilde |
 |------|------|
 | primær arvelig glaukom (primary hereditary glaucoma) | lisens i et annet land; godkjent indikasjon: glaucoma |
 
 ### Relatert til en godkjent indikasjon (samme sykdomskategori)
+
 | Indikasjon | Godkjent kategori |
 |------|------|
 | Ingen | – |
 
 ### Relasjoner registrert i kunnskapsgrafen (ingen godkjenning funnet)
+
 | Indikasjon |
 |------|
 | Ingen |

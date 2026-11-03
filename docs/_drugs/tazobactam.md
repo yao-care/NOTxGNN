@@ -5,7 +5,7 @@ parent: Kun kjente bruksområder (ingen nye prediksjoner)
 nav_order: 401
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Tazobactam: kjente bruksområder og markedsstatus i Norge; for øyeblikket ingen ny kandidatindikasjon"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensnivå: **N/A** | Predikerte indikasjoner: **0** stk.
 Alle kandidatene som TxGNN-modellen har foreslått for Tazobactam, er allerede kjente bruksområder. Det finnes derfor for øyeblikket ingen ny predikert indikasjon for dette legemidlet. Sidene under viser hvilke kjente bruksområder modellen har gjenfunnet, og hva de bygger på.
 
 ## Hurtigoversikt
+
 | Punkt | Innhold |
 |------|------|
 | Nye predikerte indikasjoner | Ingen (alle sporbare modellkandidater er kjente bruksområder) |
@@ -52,16 +53,19 @@ Alle kandidatene som TxGNN-modellen har foreslått for Tazobactam, er allerede k
 ## Kjente bruksområder blant modellens kandidater
 
 ### Godkjent (støttet av en tillatelse eller preparatomtale)
+
 | Indikasjon | Kilde |
 |------|------|
 | Lungebetennelse (pneumonia) | Godkjenning i et annet land; godkjent indikasjon: hospital-acquired pneumonia (hap), including ventilator associated pneumonia (vap). consideration should be given to official guidance on the appropriate use of antibacterial agents |
 
 ### Relatert til en godkjent indikasjon (samme sykdomskategori)
+
 | Indikasjon | Godkjent kategori |
 |------|------|
 | Urinveisinfeksjon (urinary tract infection (disease)) | urinary tract infection |
 
 ### Relasjoner registrert i kunnskapsgrafen (ingen godkjenning funnet)
+
 | Indikasjon |
 |------|
 | Ingen |

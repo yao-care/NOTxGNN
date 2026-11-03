@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 description: "Pegaspargase: predikert ny indikasjon Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (evidensnivå L5). Opprinnelig indikasjon: Precursor Cell Lymphoblastic Leukemia-Lympho…"
@@ -167,6 +167,7 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 | Blastfase kronisk myelogen leukemi, BCR-ABL1-positiv | 0,9961 | L5 | Forskningsspørsmål | Kun indirekte evidens via en ALL-studie |
 | Follikulært lymfom | 0,9990 | L5 | Vent (Hold) | Kun modellprediksjon, ingen begrunnelse via asparaginavhengighet |
 | Metylkobalamin-mangel type cblE | 0,9974 | L5 | Vent (Hold) | Sannsynlig modellartefakt uten plausibel mekanisme; bør ikke forfølges |
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

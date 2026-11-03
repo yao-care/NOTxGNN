@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 71
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Buprenorphine: predikert ny indikasjon Akutt intermitterende porfyri (evidensnivå L5). Opprinnelig indikasjon: Opioidrelaterte lidelser"
 monitor_inn: "BUPRENORPHINE"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "extrapyramidal and movement disease", "benign shuddering attacks"]
@@ -130,6 +130,7 @@ De øvrige predikerte indikasjonene har også anbefalingen **Hold**:
 | Kontinuerlige pigger og bølger under søvn | 0,9905 | L5 | Kun modellprediksjon. Opioider kan i noen situasjoner senke krampeterskelen, noe som gir en sikkerhetsbekymring. |
 | Ekstrapyramidal sykdom og bevegelsesforstyrrelse | 0,9903 | L5 | Kun modellprediksjon, bred kategori uten direkte evidens. |
 | Godartede skjelveanfall (benign shuddering attacks) | 0,9903 | L5 | Kun modellprediksjon. Tilstanden er godartet og selvbegrensende, så risiko–nytte for en opioid er ugunstig. |
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

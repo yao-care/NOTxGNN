@@ -5,7 +5,7 @@ parent: Kun kjente bruksområder (ingen nye prediksjoner)
 nav_order: 157
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Eptinezumab: kjente bruksområder og markedsstatus i Norge; foreløpig ingen ny kandidatindikasjon"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensnivå: **N/A** | Predikerte indikasjoner: **0** stk.
 Alle kandidatene som TxGNN-modellen ga for Eptinezumab (score ≥ 0,99), er allerede kjente bruksområder. Det finnes derfor foreløpig ingen ny predikert indikasjon for dette legemidlet. Kandidaten som kunne spores til en kilde, tilhører samme sykdomskategori som en godkjent indikasjon.
 
 ## Hurtigoversikt
+
 | Punkt | Innhold |
 |------|------|
 | Nye predikerte indikasjoner | Ingen (alle sporbare modellkandidater er kjente bruksområder) |
@@ -52,16 +53,19 @@ Alle kandidatene som TxGNN-modellen ga for Eptinezumab (score ≥ 0,99), er alle
 ## Kjente bruksområder blant modellens kandidater
 
 ### Godkjent (støttet av tillatelse eller preparatomtale)
+
 | Indikasjon | Kilde |
 |------|------|
 | Ingen | Ingen |
 
 ### Knyttet til en godkjent indikasjon (samme sykdomskategori)
+
 | Indikasjon | Godkjent kategori |
 |------|------|
 | Migrene med hjernestammeaura (migraine with brainstem aura) | migraine |
 
 ### Relasjoner registrert i kunnskapsgrafen (ingen godkjenning funnet)
+
 | Indikasjon |
 |------|
 | Ingen |

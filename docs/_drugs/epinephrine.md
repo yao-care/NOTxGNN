@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 155
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Epinephrine: predikert ny indikasjon Obstruktiv lungesykdom (evidensnivå L1). Opprinnelig indikasjon: Anafylaksi"
 monitor_inn: "EPINEPHRINE"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
@@ -152,6 +152,7 @@ Kardiovaskulær sikkerhet (takykardi, hypertensjon, arytmi) må overvåkes, sær
 | Matavhengig anstrengelsesutløst anafylaksi | 0,9957 | L5 | Forskningsspørsmål | Ingen registrerte studier. Ligger innenfor dagens anafylaksiindikasjon og er ikke ekte repurposing. Litteraturen er oversikter og kasuistikker som anbefaler epinefrin |
 | Rienhoff syndrom | 0,9957 | L5 | Hold | Ingen mekanistisk kobling, studier eller litteratur. Høy score er trolig en modellartefakt |
 | Respiratorisk misdannelse | 0,9956 | L3 | Forskningsspørsmål | Strukturelle misdannelser kan ikke korrigeres av epinefrin. Eneste signal er en fase 1-studie ved forbigående tachypné hos nyfødte. Mesteparten av litteraturen er irrelevant |
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

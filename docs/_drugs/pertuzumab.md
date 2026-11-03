@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 323
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab: predikert ny indikasjon Ectomesenchymoma (evidensnivå L5). Opprinnelig indikasjon: Breast Neoplasms"
@@ -152,6 +152,7 @@ Pertuzumab har etablert effekt ved HER2-positiv brystkreft, og PR+-sykdom er en 
 | 3 | Progesteronreseptor-negativ brystkreft | L1 | Proceed with Guardrails |
 | 4 | Luminal A- eller B-brysttumor | L2 | Forskningsspørsmål (gjelder kun HER2+ luminal B) |
 | 2, 5–10 | Normal-like brystkreftsubtype, ektomesenkymom, malign kutan granulær celletumor, HHV-8-relatert svulst, nevroendokrin svulst i mellomøret, urotelkarsinom i prostatisk uretra, sarkomatoid overgangscellekarsinom i nyrebekken | L5 | Hold (kun modellprediksjon, ingen studier eller litteratur) |
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

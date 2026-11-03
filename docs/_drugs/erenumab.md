@@ -5,7 +5,7 @@ parent: Kun kjente bruksområder (ingen nye prediksjoner)
 nav_order: 159
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Erenumab: kjente bruksområder og markedsstatus i Norge; for øyeblikket ingen ny kandidatindikasjon"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensnivå: **N/A** | Predikerte indikasjoner: **0** stk.
 Alle kandidatene som TxGNN-modellen har gitt for Erenumab, er allerede kjente bruksområder. Det finnes derfor for øyeblikket ingen ny predikert indikasjon for dette legemidlet. Tabellene nedenfor viser hvilke kjente bruksområder modellen har pekt ut, og hvordan de er knyttet til godkjente indikasjoner.
 
 ## Rask oversikt
+
 | Punkt | Innhold |
 |------|------|
 | Nye predikerte indikasjoner | Ingen (alle sporbare modellkandidater er kjente bruksområder) |
@@ -52,16 +53,19 @@ Alle kandidatene som TxGNN-modellen har gitt for Erenumab, er allerede kjente br
 ## Kjente bruksområder blant modellens kandidater
 
 ### Godkjent (støttet av tillatelse eller preparatomtale)
+
 | Indikasjon | Kilde |
 |------|------|
 | Ingen | Ingen |
 
 ### Relatert til en godkjent indikasjon (samme sykdomskategori)
+
 | Indikasjon | Godkjent kategori |
 |------|------|
 | Migrene med hjernestammeaura (migraine with brainstem aura) | migraine |
 
 ### Relasjoner registrert i kunnskapsgrafen (ingen godkjenning funnet)
+
 | Indikasjon |
 |------|
 | Ingen |

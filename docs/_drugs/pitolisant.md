@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 329
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Pitolisant: predikert ny indikasjon Insomni (evidensnivå L4). Opprinnelig indikasjon: Obstruktiv søvnapné (Ozawade)"
 monitor_inn: "PITOLISANT"
 predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome"]
@@ -139,6 +139,7 @@ Prediksjonen for insomni mangler både kliniske studier og direkte litteratur, o
 |------|------|------|------|------|------|
 | 2 | Aktivitets- og oppmerksomhetsforstyrrelse (ADHD) | 0,9936 | L5 | Forskningsspørsmål | H3-antagonisme øker frigjøring av acetylkolin, noradrenalin og dopamin i prefrontal cortex, noe som gir et plausibelt grunnlag for effekt på oppmerksomhet. Litteraturen består kun av oversikter, og tidligere kliniske H3-studier ved ADHD har vært skuffende. Ingen registrerte kliniske studier. |
 | 3 | Faciodigitogenitalt syndrom (Aarskog-Scott) | 0,9929 | L5 | Hold | Ingen identifiserbar mekanistisk kobling, ingen publikasjoner og ingen kliniske studier. Prediksjonen er kun modellbasert. |
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

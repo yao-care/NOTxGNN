@@ -5,7 +5,7 @@ parent: Kun kjente bruksområder (ingen nye prediksjoner)
 nav_order: 296
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Olaparib: known uses and market status in Norway; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensnivå: **N/A** | Predikerte indikasjoner: **0** stk.
 Alle kandidatene fra modellen for Olaparib er allerede kjente bruksområder. Det finnes derfor for øyeblikket ingen ny predikert indikasjon. Den ene kjente bruken er knyttet til samme sykdomskategori som en godkjent indikasjon.
 
 ## Hurtigoversikt
+
 | Punkt | Innhold |
 |------|------|
 | Nye predikerte indikasjoner | Ingen (alle sporbare modellkandidater er kjente bruksområder) |
@@ -52,16 +53,19 @@ Alle kandidatene fra modellen for Olaparib er allerede kjente bruksområder. Det
 ## Kjente bruksområder blant modellens kandidater
 
 ### Godkjent (støttet av tillatelse eller preparatomtale)
+
 | Indikasjon | Kilde |
 |------|------|
 | Ingen | Ingen |
 
 ### Relatert til en godkjent indikasjon (samme sykdomskategori)
+
 | Indikasjon | Godkjent kategori |
 |------|------|
 | Brystkreft hos kvinner (female breast carcinoma) | breast cancer |
 
 ### Relasjoner registrert i kunnskapsgrafen (ingen godkjenning funnet)
+
 | Indikasjon |
 |------|
 | Ingen |

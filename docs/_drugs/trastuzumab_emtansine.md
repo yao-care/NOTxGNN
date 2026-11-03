@@ -5,7 +5,7 @@ parent: Kun kjente bruksområder (ingen nye prediksjoner)
 nav_order: 433
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Trastuzumab Emtansine: kjente bruksområder og markedsstatus i Norge; for tiden ingen ny kandidatindikasjon"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensnivå: **N/A** | Predikerte indikasjoner: **0** stk.
 Alle kandidatene som TxGNN-modellen har foreslått for Trastuzumab Emtansine, er allerede kjente bruksområder. Det finnes derfor for tiden ingen ny predikert indikasjon for dette legemidlet. Kandidatene i listen under tilhører samme sykdomskategori som en godkjent indikasjon, og de er ikke i seg selv godkjente indikasjoner.
 
 ## Hurtigoversikt
+
 | Punkt | Innhold |
 |------|------|
 | Nye predikerte indikasjoner | Ingen (alle sporbare modellkandidater er kjente bruksområder) |
@@ -52,11 +53,13 @@ Alle kandidatene som TxGNN-modellen har foreslått for Trastuzumab Emtansine, er
 ## Kjente bruksområder blant modellens kandidater
 
 ### Godkjent (støttet av markedsføringstillatelse eller preparatomtale)
+
 | Indikasjon | Kilde |
 |------|------|
 | Ingen | Ingen |
 
 ### Relatert til en godkjent indikasjon (samme sykdomskategori)
+
 | Indikasjon | Godkjent kategori |
 |------|------|
 | normal brystlignende subtype av brystkarsinom (normal breast-like subtype of breast carcinoma) | brystkreft (breast cancer) |
@@ -65,6 +68,7 @@ Alle kandidatene som TxGNN-modellen har foreslått for Trastuzumab Emtansine, er
 | luminal A- eller B-brysttumor (breast tumor luminal A or B) | brystkreft (breast cancer) |
 
 ### Relasjoner registrert i kunnskapsgrafen (ingen godkjenning funnet)
+
 | Indikasjon |
 |------|
 | Ingen |

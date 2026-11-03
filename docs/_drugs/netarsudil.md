@@ -5,7 +5,7 @@ parent: Kun kjente bruksområder (ingen nye prediksjoner)
 nav_order: 282
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Netarsudil: kjente bruksområder og markedsstatus i Norge; for tiden ingen ny kandidatindikasjon"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensnivå: **N/A** | Predikerte indikasjoner: **0** stk.
 Alle kandidatene som TxGNN-modellen (score ≥ 0,99) har produsert for Netarsudil, og som kan spores til en kilde, er allerede kjente bruksområder. Det finnes derfor for øyeblikket ingen ny predikert indikasjon for dette legemidlet. Oversikten under viser hvilke kjente bruksområder modellen har gjenfunnet.
 
 ## Hurtigoversikt
+
 | Punkt | Innhold |
 |------|------|
 | Nye predikerte indikasjoner | Ingen (alle sporbare modellkandidater er kjente bruksområder) |
@@ -52,16 +53,19 @@ Alle kandidatene som TxGNN-modellen (score ≥ 0,99) har produsert for Netarsudi
 ## Kjente bruksområder blant modellens kandidater
 
 ### Godkjent (støttet av tillatelse eller preparatomtale)
+
 | Indikasjon | Kilde |
 |------|------|
 | Glaukom (glaucoma) | Tillatelse i Norge; godkjent indikasjon: open-angle glaucoma |
 
 ### Relatert til en godkjent indikasjon (samme sykdomskategori)
+
 | Indikasjon | Godkjent kategori |
 |------|------|
 | Primær arvelig glaukom (primary hereditary glaucoma) | glaucoma |
 
 ### Relasjoner registrert i kunnskapsgrafen (ingen godkjenning funnet)
+
 | Indikasjon |
 |------|
 | Ingen |

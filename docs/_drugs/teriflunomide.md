@@ -5,7 +5,7 @@ parent: Kun kjente bruksområder (ingen nye prediksjoner)
 nav_order: 412
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Teriflunomide: kjente bruksområder og markedsstatus i Norge; for øyeblikket ingen ny kandidatindikasjon"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensnivå: **N/A** | Predikerte indikasjoner: **0** stk.
 Alle kandidatene som TxGNN-modellen (score ≥ 0,99) har generert for Teriflunomide, er allerede kjente bruksområder. Det finnes derfor for øyeblikket ingen ny predikert indikasjon for dette legemidlet. Siden nedenfor viser hvilke kjente bruksområder som ble funnet blant modellens kandidater, og hvilken markedsstatus legemidlet har i Norge.
 
 ## Hurtigoversikt
+
 | Punkt | Innhold |
 |------|------|
 | Nye predikerte indikasjoner | Ingen (alle kandidater som kan spores til en kilde, er kjente bruksområder) |
@@ -52,16 +53,19 @@ Alle kandidatene som TxGNN-modellen (score ≥ 0,99) har generert for Teriflunom
 ## Kjente bruksområder blant modellens kandidater
 
 ### Godkjent (støttet av lisens eller preparatomtale)
+
 | Indikasjon | Kilde |
 |------|------|
 | Relapsende-remitterende multippel sklerose (relapsing-remitting multiple sclerosis) | Lisens i Norge; godkjent indikasjon: multiple sclerosis |
 
 ### Knyttet til en godkjent indikasjon (samme sykdomskategori)
+
 | Indikasjon | Godkjent kategori |
 |------|------|
 | Ingen | – |
 
 ### Relasjoner registrert i kunnskapsgrafen (ingen godkjenning funnet)
+
 | Indikasjon |
 |------|
 | Ingen |

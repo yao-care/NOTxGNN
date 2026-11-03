@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Methylphenidate: predikert ny indikasjon Faciodigitogenital syndrom (evidensnivå L5). Opprinnelig indikasjon: Oppmerksomhetssvikt med hyperaktivitet (ADHD)"
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
@@ -126,6 +126,7 @@ Prediksjonen bygger kun på en beregningsmodell uten kliniske studier eller litt
 | Kondromyksoid fibrom | 0,9999 | L5 | Hold – sannsynligvis falsk positiv, ingen plausibel mekanisme |
 | Spesifikk utviklingsforstyrrelse | 0,9999 | L5 | Forskningsspørsmål – i stor grad en gjentakelse av eksisterende ADHD-indikasjon, indirekte evidens |
 | Dysthymi (dystymisk lidelse) | 0,9911 | L5 | Forskningsspørsmål – kun indirekte evidens fra ADHD med subsyndromal depresjon |
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

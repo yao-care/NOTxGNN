@@ -5,7 +5,7 @@ parent: Kun kjente bruksområder (ingen nye prediksjoner)
 nav_order: 281
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Neratinib: kjente bruksområder og markedsstatus i Norge; for øyeblikket ingen ny kandidatindikasjon"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensnivå: **N/A** | Predikerte indikasjoner: **0** stk.
 TxGNN-modellens kandidater for Neratinib (score ≥ 0,99) er alle kjente bruksområder. Det finnes derfor for øyeblikket ingen ny predikert indikasjon for dette legemidlet. De fire kandidatene som kan spores til en kilde, tilhører samme sykdomskategori som en godkjent indikasjon (brystkreft).
 
 ## Hurtigoversikt
+
 | Punkt | Innhold |
 |------|------|
 | Nye predikerte indikasjoner | Ingen (alle sporbare modellkandidater er kjente bruksområder) |
@@ -52,11 +53,13 @@ TxGNN-modellens kandidater for Neratinib (score ≥ 0,99) er alle kjente bruksom
 ## Kjente bruksområder blant modellens kandidater
 
 ### Godkjent (støttet av en tillatelse eller preparatomtale)
+
 | Indikasjon | Kilde |
 |------|------|
 | Ingen | – |
 
 ### Relatert til en godkjent indikasjon (samme sykdomskategori)
+
 | Indikasjon | Godkjent kategori |
 |------|------|
 | progesteronreseptorpositiv brystkreft (progesterone-receptor positive breast cancer) | brystkreft (breast cancer) |
@@ -65,6 +68,7 @@ TxGNN-modellens kandidater for Neratinib (score ≥ 0,99) er alle kjente bruksom
 | brysttumor luminal A eller B (breast tumor luminal A or B) | brystkreft (breast cancer) |
 
 ### Relasjoner registrert i kunnskapsgrafen (ingen godkjenning funnet)
+
 | Indikasjon |
 |------|
 | Ingen |

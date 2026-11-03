@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 107
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Cyclosporine: predikert ny indikasjon Kronisk granulomatøs sykdom, autosomalt recessiv (evidensnivå L4). Opprinnelig indikasjon: Hornhinnesykdommer (Corneal Diseases)"
 monitor_inn: "Cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
@@ -133,6 +133,7 @@ Alle har anbefalingen Hold. Evidensen er svak.
 | 5 | Føtal erytroblastose | 0,9937 | L5 | Kun en in vitro-studie om bilirubintransport. |
 | 6 | Brakydaktyli-syndaktyli-syndrom | 0,9931 | L5 | Ingen evidens utover modellen. |
 | 7 | Prolaps av tårekjertelen | 0,9908 | L5 | Ingen evidens. Tilstanden er mekanisk/strukturell. |
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
