@@ -3,7 +3,7 @@ layout: default
 title: Om
 nav_order: 90
 permalink: /about/
-description: "NOTxGNN er en plattform for prediksjon av legemiddelreposisjonering utviklet av 藥提醒科技有限公司 (yao.care), bygget på TxGNN-modellen fra Harvard og med dekning av legemidler godkjent av DMP i Norge."
+description: "NOTxGNN er en plattform for prediksjon av legemiddelreposisjonering utviklet av 藥提醒科技有限公司 (yao.care), bygget på TxGNN-modellen fra Harvard og med dekning av legemidler med sentral markedsføringstillatelse i EU (EMA), som også gjelder i Norge."
 ---
 
 # Om
@@ -19,7 +19,7 @@ Raskere evidensvalidering av legemiddelreposisjonering med KI — fra prediksjon
 <p class="key-answer" data-question="Hva er NOTxGNN?">
 <strong>NOTxGNN</strong> er en forskningsstøtteplattform for legemiddelreposisjonering, bygget på
 TxGNN-modellen som ble publisert i <em>Nature Medicine</em> av Zitnik Lab ved Harvard University.
-Den predikerer utvidelse av indikasjoner for legemidler godkjent av DMP i Norge. I tillegg til
+Den predikerer utvidelse av indikasjoner for legemidler med sentral markedsføringstillatelse i EU (EMA), som også gjelder i Norge. I tillegg til
 KI-baserte prediksjonsskår integrerer plattformen klinisk evidens fra ClinicalTrials.gov og PubMed,
 slik at forskere raskt kan vurdere hvor troverdig hver enkelt prediksjon er.
 </p>
@@ -38,7 +38,7 @@ Produktoversikt: <https://www.yao.care/medical/txgnn/>.
 
 Selve TxGNN-modellen ble utviklet av Zitnik Lab ved Harvard Medical School og publisert
 i *Nature Medicine*. Denne plattformen er produksjonssystemet som 藥提醒科技有限公司 har bygget oppå
-den modellen, og omfatter integrasjon av nasjonale legemiddelregistreringsdata, prediksjon med dyp læring der bruk som allerede er registrert i kunnskapsgrafen, er utelatt, evidensgradering fra PubMed / ClinicalTrials samt integrasjon mot
+den modellen, og omfatter integrasjon av EMAs data om markedsføringstillatelser, prediksjon med dyp læring der bruk som allerede er registrert i kunnskapsgrafen, er utelatt, evidensgradering fra PubMed / ClinicalTrials samt integrasjon mot
 elektronisk pasientjournal via SMART on FHIR.
 
 ---
@@ -103,7 +103,7 @@ er samlet på siden <a href="{{ '/sources/' | relative_url }}">Datakilder</a>.
 | Element | Verdi |
 |------|-------|
 | Legemiddelrapporter | {{ site.data.drug_stats.total_drugs }} |
-| Legemiddelmyndighet | DMP |
+| Registreringsdata | EMA (sentrale markedsføringstillatelser i EU) |
 | Nettsteder i drift | 30 land / regioner |
 
 ---

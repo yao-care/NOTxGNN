@@ -24,7 +24,7 @@ predikerte par, evidensen graderes fra L1 til L5, og til slutt gis en beslutning
 
 <ol class="actionable-steps">
 <li><strong>TxGNN-prediksjon</strong>: relasjoner mellom legemiddel og sykdom predikeres av TxGNN-modellen (dyp læring: et grafnevralt nettverk trent på en biomedisinsk kunnskapsgraf).</li>
-<li><strong>Evidensinnsamling</strong>: for hvert predikerte par hentes evidens fra ClinicalTrials.gov, PubMed, DrugBank og DMP.</li>
+<li><strong>Evidensinnsamling</strong>: for hvert predikerte par hentes evidens fra ClinicalTrials.gov, PubMed, DrugBank og EMAs Medicines report.</li>
 <li><strong>Evidensgradering</strong>: gradert fra L1 til L5, der L1 er sterkest (flere fase 3-RCT-er) og L5 kun er en modellprediksjon.</li>
 <li><strong>Beslutningsanbefaling</strong>: Go, Proceed, Consider, Explore eller Hold, basert på evidensnivået.</li>
 </ol>
@@ -62,7 +62,7 @@ TxGNNs dyplæringsmodell (DL) gir hvert legemiddel–sykdom-par en score. Derett
 
 ## Integrasjon av regulatoriske data
 
-Data om legemiddelgodkjenning i Norge kommer fra DMP. Navn på virkestoffer kobles mot
+Data om legemiddelgodkjenning kommer fra EMAs Medicines report (sentralt godkjente legemidler i EU, gyldig også i Norge). Navn på virkestoffer kobles mot
 DrugBank-vokabularet; virkestoffer som ikke lar seg koble — plantebaserte ekstrakter, vaksiner,
 hjelpestoffer og annet som ikke er katalogisert av DrugBank — utelates fra prediksjonen.
 
