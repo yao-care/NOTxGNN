@@ -4,17 +4,17 @@ title: Cemiplimab
 parent: Kun modellprediksjon (L5)
 nav_order: 90
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 monitor_inn: "CEMIPLIMAB"
-predicted_indications: ["gallbladder adenosquamous carcinoma", "rectal cloacogenic carcinoma", "external ear basal cell carcinoma", "adenosquamous prostate carcinoma", "urethral verrucous carcinoma", "pancreatic adenosquamous carcinoma"]
-last_modified_at: 2026-10-28
-description: "Cemiplimab: predikert ny indikasjon galleblæreadenoskvamøst karsinom (gallbladder adenosquamous carcinoma) (evidensnivå L5). Opprinnelig indikasjon: Carcinoma, Squamous Cell"
+predicted_indications: ["gallbladder adenosquamous carcinoma", "rectal cloacogenic carcinoma", "adenosquamous prostate carcinoma", "urethral verrucous carcinoma", "pancreatic adenosquamous carcinoma"]
+last_modified_at: 2026-11-03
+description: "Cemiplimab: predikert ny indikasjon Galleblæreadenoskvamøst karsinom (gallbladder adenosquamous carcinoma) (evidensnivå L5). Opprinnelig indikasjon: Carcinoma, Squamous Cell"
 ---
 
 # Cemiplimab
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,20 +33,20 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-## Cemiplimab: PD-1-hemmer → galleblæreadenoskvamøst karsinom (gallbladder adenosquamous carcinoma)
+## Cemiplimab: Galleblæreadenoskvamøst karsinom (gallbladder adenosquamous carcinoma)
 {: .text-alpha }
 
-## Oppsummering i én setning
+## Oppsummering
 
-Cemiplimab er et antistoff som blokkerer PD-1 (programmert celledød-protein 1) og brukes mot kreft. TxGNN-modellen forutsier at legemidlet kan være aktuelt for **galleblæreadenoskvamøst karsinom (gallbladder adenosquamous carcinoma)**. Forutsigelsen bygger kun på modellen: de data som er samlet inn til denne rapporten inneholder **ingen kliniske studier** og **ingen publikasjoner** for denne sykdommen.
+Cemiplimab er et antistoff som blokkerer PD-1, og det er markedsført i Norge under navnet Libtayo. TxGNN-modellen forutsier at legemidlet kan ha effekt ved **galleblæreadenoskvamøst karsinom (gallbladder adenosquamous carcinoma)**. Dette er en ren modellprediksjon: det er **ingen kliniske studier** og **ingen publikasjoner** i dataene som er samlet inn for denne rapporten.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
 | Opprinnelig indikasjon | Carcinoma, Squamous Cell |
-| Forutsagt ny indikasjon | galleblæreadenoskvamøst karsinom (gallbladder adenosquamous carcinoma) |
-| TxGNN-prediksjonsscore | 0,9999 |
+| Predikert ny indikasjon | Galleblæreadenoskvamøst karsinom (gallbladder adenosquamous carcinoma) |
+| TxGNN-prediksjonsscore | 0.9999 |
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
@@ -54,17 +54,17 @@ Cemiplimab er et antistoff som blokkerer PD-1 (programmert celledød-protein 1) 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i de innsamlede dataene. Ut fra farmakologiske opplysninger er cemiplimab et antistoff mot PD-1 (PDCD1). Det blokkerer samspillet mellom PD-1 og PD-L1 (IC50 under 1 nM i ELISA) og slik kan immunforsvaret gjenopprette angrepet på kreftceller.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i dataene som er samlet inn for denne rapporten. Det som er kjent, er at cemiplimab er et monoklonalt antistoff som binder det humane PD-1-reseptorproteinet (PDCD1, CD279) og blokkerer samspillet mellom PD-1 og PD-L1, med en IC50 under 1 nM i en ELISA-analyse. Dermed kan T-cellenes immunrespons mot svulsten gjenopprettes.
 
-Svulsten er en sjelden blandingshistologi med en plateepitelkomponent. Cemiplimab er etablert ved plateepitelkarsinom i huden, og en ekstrapolering til plateepitelkomponenten er biologisk tenkelig. Dette er likevel en hypotese basert på modellprediksjon, ikke på kliniske data. Svulstens sjeldenhet og blandede histologi gjør at overføringen er usikker.
+Galleblæreadenoskvamøst karsinom er en sjelden blandet histologi med en plateepitelkomponent. Et tenkelig resonnement er at PD-1-blokade kan overføres til plateepitelkomponenten, siden legemidlet allerede har dokumentert effekt ved plateepitelkarsinom i huden. Dette er imidlertid kun en ekstrapolering. Prediksjonen bygger på modellscoren alene, og det finnes ingen kliniske data som bekrefter at mekanismen virker i denne svulsttypen.
 
 ## Kliniske studier
 
-For tiden er det ingen relaterte kliniske studier registrert.
+Foreløpig er ingen relaterte kliniske studier registrert.
 
-## Litteraturbevis
+## Litteraturevidens
 
-For tiden finnes det ingen relatert litteratur.
+Foreløpig er ingen relatert litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
@@ -76,30 +76,44 @@ For tiden finnes det ingen relatert litteratur.
 
 | Punkt | Innhold |
 |------|------|
-| Klassifisering | Immunterapi (PD-1-hemmer), ikke konvensjonelt cytostatikum |
-| Risiko for myelosuppresjon | Se pakningsvedlegget for advarsler og forsiktighetsregler |
-| Emetogent potensial | Se pakningsvedlegget for advarsler og forsiktighetsregler |
-| Overvåkingspunkter | Se pakningsvedlegget for advarsler og forsiktighetsregler |
-| Håndteringsvern | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Klassifisering | Immunterapi (PD-1-immunsjekkpunkthemmer), ikke et konvensjonelt cytotoksisk middel |
+| Risiko for myelosuppresjon | Ikke dokumentert i dataene; se preparatomtalen |
+| Emetogent potensial | Ikke dokumentert i dataene; se preparatomtalen |
+| Overvåkingsparametere | Se preparatomtalens advarsler og forsiktighetsregler |
+| Håndtering og beskyttelse | Se preparatomtalens advarsler og forsiktighetsregler |
 
 ## Sikkerhetsvurderinger
 
-- **Legemiddelinteraksjoner:** Ni interaksjoner med moderat alvorlighetsgrad er registrert, alle med kortikosteroider: hydrokortison, triamcinolon, deksametason, betametason, budesonid, prednisolon, prednison, metylprednisolon og deflazakort. Kortikosteroider kan dempe den immunmedierte effekten av PD-1-blokade, så samtidig bruk bør vurderes nøye.
+**Legemiddelinteraksjoner:** Det er registrert 10 interaksjoner i dataene. Ni av dem er av moderat alvorlighetsgrad og gjelder kortikosteroider:
 
-For øvrig sikkerhetsinformasjon, se pakningsvedlegget.
+- hydrokortison
+- triamcinolon
+- deksametason
+- betametason
+- budesonid
+- prednisolon
+- prednison
+- metylprednisolon
+- deflazakort
+
+Den tiende oppføringen er legemidlets farmakologiske mål, PD-1 (CD279), og er ikke en interaksjon i klinisk forstand.
+
+Se preparatomtalen for øvrig sikkerhetsinformasjon.
 
 ## Konklusjon og neste steg
 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen har en svært høy score (0,9999), men er ikke støttet av noen kliniske studier eller publikasjoner for galleblæreadenoskvamøst karsinom. Evidensnivået er derfor L5, og det foreligger kun en modellbasert hypotese.
+Prediksjonen støttes bare av modellscoren (evidensnivå L5). Det finnes ingen kliniske studier eller publikasjoner som direkte omhandler galleblæreadenoskvamøst karsinom, og dataene om virkningsmekanisme og sikkerhet er ufullstendige.
 
 **For å gå videre kreves følgende:**
-- Systematisk litteratursøk og søk i studieregistre etter cemiplimab ved adenoskvamøse karsinomer i galleblære og galleveier
-- Data om virkningsmekanisme (MOA) og vurdering av PD-L1-uttrykk og mutasjonsbyrde i denne svulsttypen
-- Gjennomgang av pakningsvedlegget for advarsler og kontraindikasjoner
-- Eventuelt innsamling av kasuistikker eller en liten eksplorativ studie før videre beslutning
+- Systematisk litteratursøk og søk i studieregistre etter data om PD-1-hemmere ved adenoskvamøse karsinomer i galleveiene
+- Fullstendige data om virkningsmekanisme
+- Gjennomgang av preparatomtalen for advarsler og kontraindikasjoner
+- Vurdering av PD-L1-uttrykk og andre biomarkører i denne svulsttypen
+- Plan for en eventuell liten eksplorativ studie, dersom tidlige data støtter videre arbeid
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -4,17 +4,17 @@ title: Acetylsalicylic Acid
 parent: Kun modellprediksjon (L5)
 nav_order: 17
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 monitor_inn: "ACETYLSALICYLIC ACID"
-predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombotic disease", "thrombophilia"]
-last_modified_at: 2026-10-28
-description: "Acetylsalicylic Acid: predikert ny indikasjon atrofoderma vermiculata (atrophoderma vermiculata) (evidensnivå L5). Opprinnelig indikasjon: Acute Coronary Syndrome"
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
+last_modified_at: 2026-11-03
+description: "Acetylsalicylic Acid: predikert ny indikasjon Atrofoderma vermiculata (atrophoderma vermiculata) (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene"
 ---
 
 # Acetylsalicylic Acid
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,40 +33,42 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 
 </div>
 
-## Acetylsalisylsyre: blodplatehemmer (COX-hemmer) → atrofoderma vermiculata (atrophoderma vermiculata)
+## Acetylsalicylic Acid: Atrofoderma vermiculata (atrophoderma vermiculata)
 {: .text-alpha }
 
-## Oppsummering
+## Oppsummering i en setning
 
-Acetylsalisylsyre (aspirin) er en blodplatehemmer og COX-hemmer. Den TxGNN-modellen spår at legemidlet kan ha effekt ved **atrofoderma vermiculata (atrophoderma vermiculata)**, men det finnes **ingen kliniske studier og ingen publikasjoner** som støtter denne retningen. Prediksjonen er ren modellberegning.
+Acetylsalisylsyre (aspirin) er en etablert blodplatehemmende og betennelsesdempende virkestoff. Prediksjonsmodellen TxGNN antyder at stoffet kan ha effekt ved **atrofoderma vermiculata (atrophoderma vermiculata)**, en sjelden atrofisk hudlidelse knyttet til hårfollikler. Det finnes **ingen kliniske studier og ingen publikasjoner** som støtter denne retningen, så prediksjonen er foreløpig kun beregningsbasert.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Acute Coronary Syndrome;Myocardial Infarction |
-| Foreslått ny indikasjon | atrofoderma vermiculata (atrophoderma vermiculata) |
-| TxGNN-prediksjonsscore | 0,9959 |
+| Opprinnelig indikasjon | Ikke registrert i de lokale dataene |
+| Predikert ny indikasjon | Atrofoderma vermiculata (atrophoderma vermiculata) |
+| TxGNN-prediksjonsscore | 0.9959 |
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 3) |
 | Antall godkjenninger | 3 (gyldige: 3) |
-| Anbefalt beslutning | Avvent (Hold) |
+| Anbefalt beslutning | Hold |
 
-## Hvorfor kan denne prediksjonen være rimelig?
+## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de sammenstilte dataene. Aspirin hemmer irreversibelt COX-1 i blodplater, noe som reduserer tromboksan A2 og blodplateaggregasjon. Dette er grunnlaget for bruken i hjerte- og karsykdom.
+Data om virkningsmekanisme for dette stoffet er ikke tilgjengelige i de innsamlede dataene. Generelt er acetylsalisylsyre kjent som en irreversibel hemmer av syklooksygenase (COX). Det gir redusert blodplateaggregasjon og dempet prostaglandinmediert betennelse.
 
-Atrofoderma vermiculata er en sjelden follikulær atrofisk hudtilstand. Det er ikke identifisert noen plausibel mekanistisk kobling mellom aspirins COX-hemming eller antiplatevirkning og denne tilstanden. Den høye scoren bør derfor tolkes som en beregnet prediksjon uten biologisk eller klinisk underbygging.
+Den høye modellscoren er en ren beregningsmessig prediksjon. Vi har ikke funnet noen plausibel mekanistisk kobling mellom COX-hemming eller antiplatelet-effekt og atrofoderma vermiculata. Tilstanden er en follikulær atrofi som tilhører gruppen keratosis pilaris-lignende atrofiske hudlidelser. Det finnes heller ingen kliniske eller litterære data som styrker koblingen. Prediksjonen bør derfor sees som en hypotese som ikke er underbygget.
 
-## Klinisk studiedokumentasjon
+## Kliniske studier
 
-For tiden er ingen relevante kliniske studier registrert.
+Foreløpig er ingen relaterte kliniske studier registrert.
 
-## Litteraturdokumentasjon
+## Litteraturevidens
 
-For tiden er ingen relevant litteratur tilgjengelig.
+Foreløpig finnes ingen relatert litteratur.
 
 ## Informasjon om det norske markedet
+
+Lokale data viser 3 gyldige godkjenninger. Alle er kombinasjonsprodukter med klopidogrel. De sier derfor ikke noe om status for acetylsalisylsyre som enkeltstoff.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -74,29 +76,32 @@ For tiden er ingen relevant litteratur tilgjengelig.
 | EMEA/H/C/001144 | Clopidogrel/Acetylsalicylic acid Zentiva (tidligere DuoCover) | – | Ikke gjengitt her |
 | EMEA/H/C/004996 | Clopidogrel / Acetylsalicylic acid Viatris (tidligere Clopidogrel / Acetylsalicylic acid Mylan) | – | Ikke gjengitt her |
 
-Merk: Alle tre produktene er kombinasjonspreparater med klopidogrel, og de beskriver ikke hvordan enkeltstoffet acetylsalisylsyre er godkjent.
-
 ## Sikkerhetsvurderinger
 
-**Legemiddelinteraksjoner** (utdrag fra 100 registrerte interaksjoner; kun et utvalg vises):
-- **Alvorlig (Major):** acalabrutinib, acetazolamid, ketorolac, trastuzumab emtansin, ibuprofen, fondaparinux
-- **Moderat:** abciximab, nifedipin, hydrokortison, etanol, alendronsyre, fluvoksamin, fosinopril, gemifloksacin
-- **Mindre (Minor):** acebutolol, koffein, rabeprazol, fosfenytoin, furosemid
+Det foreligger ikke noen brukbare data om advarsler eller kontraindikasjoner i de innsamlede dataene. Se preparatomtalen for sikkerhetsinformasjon.
 
-Generelt gir aspirin økt blødningsrisiko, særlig sammen med antikoagulantia og andre NSAID. For øvrig sikkerhetsinformasjon, se preparatomtalen.
+**Legemiddelinteraksjoner:** Totalt 100 interaksjoner er registrert. Blant dem som er klassifisert som alvorlige (Major) er:
+- Acalabrutinib
+- Acetazolamid
+- Ketorolak
+- Trastuzumab emtansin
+- Ibuprofen
+- Fondaparinuks
+
+Blant moderate interaksjoner er abciximab, nifedipin, hydrokortison, etanol, alendronsyre, fluvoksamin og fosinopril. De fleste av disse gjelder økt blødningsrisiko eller additive bivirkninger.
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent (Hold)**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-- Prediksjonen bygger kun på modellberegning. Det finnes ingen studier, ingen litteratur og ingen plausibel mekanistisk kobling til atrofoderma vermiculata.
+Prediksjonen bygger kun på en modellscore (0,9959), uten kliniske studier, uten litteratur og uten påvist mekanistisk sammenheng. Evidensnivået er L5.
 
-**For å gå videre kreves:**
-- En biologisk begrunnelse for hvorfor COX-hemming eller blodplatehemming skulle påvirke tilstanden
-- Prekliniske eller kliniske data (f.eks. kasuistikker eller tidlige studier) som direkte omhandler sykdommen
-- Data om virkningsmekanisme og preparatomtalens advarsler og kontraindikasjoner
-- En vurdering av nytte mot blødningsrisiko for en sjelden, ikke-livstruende hudtilstand
+**For å komme videre kreves følgende:**
+- En biologisk begrunnet hypotese som knytter COX-hemming eller blodplatefunksjon til patogenesen ved denne tilstanden
+- En systematisk litteratursøk, inkludert kasuistikker, for å avklare om det finnes noe klinisk signal
+- Fullstendige data om virkningsmekanisme og preparatomtale (advarsler og kontraindikasjoner) før en eventuell videre vurdering
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -4,17 +4,17 @@ title: Levofloxacin
 parent: Kun modellprediksjon (L5)
 nav_order: 244
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Levofloxacin: predikert ny indikasjon Punktformet epitelial keratokonjunktivitt (evidensnivå L5). Opprinnelig indikasjon: Cystisk fibrose"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "LEVOFLOXACIN"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
+description: "Levofloxacin: predikert ny indikasjon Punktformet epitelial keratokonjunktivitt (punctate epithelial keratoconjunctivitis) (evidensnivå L5). Opprinnelig indikasjon: Cystic Fibrosis"
 ---
 
 # Levofloxacin
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Levofloxacin: Fra luftveisinfeksjoner og cystisk fibrose til punktformet epitelial keratokonjunktivitt
+## Levofloxacin: Punktformet epitelial keratokonjunktivitt (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
-## Oppsummering i én setning
+## Oppsummering
 
-Levofloxacin er et fluorokinolon-antibiotikum som opprinnelig brukes mot luftveisinfeksjoner og cystisk fibrose.
-TxGNN-modellen predikerer at det kan være effektivt mot **punktformet epitelial keratokonjunktivitt**, men for denne indikasjonen finnes **ingen kliniske studier** og bare **1 publikasjon** (en utbruddsrapport som ikke tester levofloxacin). Prediksjonen er i praksis kun modellbasert.
+Levofloksacin er et antibakterielt legemiddel i fluorokinolongruppen. TxGNN-modellen forutsier at det kan ha effekt ved **punktformet epitelial keratokonjunktivitt (punctate epithelial keratoconjunctivitis)**, med en prediksjonsscore på 0,9992. Dataene som er samlet inn for denne rapporten inneholder **ingen kliniske studier** og **én publikasjon**. Publikasjonen beskriver et utbrudd av mikrosporidiell keratokonjunktivitt og undersøker ikke levofloksacin. Evidensen for denne retningen er derfor svært svak.
 
 ---
 
@@ -47,9 +46,9 @@ TxGNN-modellen predikerer at det kan være effektivt mot **punktformet epitelial
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Cystisk fibrose; luftveisinfeksjoner |
-| Predikert ny indikasjon | Punktformet epitelial keratokonjunktivitt |
-| TxGNN-prediksjonsscore | 0,9992 |
+| Opprinnelig indikasjon | Cystic Fibrosis;Respiratory Tract Infections |
+| Predikert ny indikasjon | Punktformet epitelial keratokonjunktivitt (punctate epithelial keratoconjunctivitis) |
+| TxGNN-prediksjonsscore | 0.9992 |
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
@@ -57,19 +56,17 @@ TxGNN-modellen predikerer at det kan være effektivt mot **punktformet epitelial
 
 ---
 
-## Hvorfor er denne prediksjonen rimelig?
+## Hvorfor kan denne prediksjonen være rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de innhentede dataene. Basert på kjent informasjon er levofloxacin en bakteriedrepende hemmer av DNA-gyrase og topoisomerase IV, med dokumentert effekt ved bakterielle luftveisinfeksjoner.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige for dette legemidlet. Levofloksacin tilhører fluorokinolonene, som hemmer bakterielle DNA-enzymer og har bredt antibakterielt spektrum. Det finnes ingen data i materialet som knytter denne mekanismen til punktformet epitelial keratokonjunktivitt.
 
-For den predikerte indikasjonen er den mekanistiske koblingen svak. Den eneste publikasjonen beskriver et utbrudd av mikrosporidial keratokonjunktivitt knyttet til forurenset svømmebassengvann i Taiwan. Mikrosporidier er eukaryote parasitter nær beslektet med sopp, og fluorokinoloner forventes ikke å virke på dem. Den svært høye modellscoren støttes dermed ikke av noen mekanistisk eller klinisk begrunnelse. En eventuell rolle ville begrense seg til forebygging av sekundær bakteriell infeksjon.
-
-Merk også at andre predikerte indikasjoner i datamaterialet har en tydeligere evidensbase. Det gjelder særlig **monoklonal gammopati** (infeksjonsprofylakse ved myelom, med den randomiserte fase 3-studien TEAMM) og **septisk pest** (dyrestudier som underbygger bruk mot *Yersinia pestis*). Disse vurderes ikke som hovedkandidat her, men kan være mer interessante å følge opp.
+Den eneste publikasjonen som er funnet, omhandler mikrosporidiell keratokonjunktivitt etter forurenset vann i svømmebassenger. Mikrosporidier er eukaryote parasitter i slekt med sopp, og fluorokinoloner forventes ikke å være aktive mot dem. Den høye prediksjonsscoren støttes dermed ikke av noen påvist mekanistisk eller klinisk begrunnelse. En eventuell rolle ville i beste fall være å forebygge sekundær bakteriell infeksjon, og det er ikke dokumentert her.
 
 ---
 
 ## Evidens fra kliniske studier
 
-Foreløpig er det ikke registrert noen relaterte kliniske studier.
+Det er for tiden ingen relaterte kliniske studier registrert.
 
 ---
 
@@ -77,11 +74,11 @@ Foreløpig er det ikke registrert noen relaterte kliniske studier.
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Utbruddsrapport | American Journal of Ophthalmology | Utbrudd av mikrosporidial keratokonjunktivitt knyttet til vannforurensning i svømmebassenger i Taiwan; levofloxacin er ikke testet |
+| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Utbruddsrapport | American Journal of Ophthalmology | Utbrudd av mikrosporidiell keratokonjunktivitt knyttet til vannforurensning i svømmebassenger i Taiwan. Studien undersøker ikke levofloksacin. |
 
 ---
 
-## Markedsinformasjon for Norge
+## Informasjon om det norske markedet
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -91,22 +88,13 @@ Foreløpig er det ikke registrert noen relaterte kliniske studier.
 
 ## Sikkerhetsvurderinger
 
-Pakningsvedlegget er ikke tilgjengelig i de innhentede dataene, så advarsler og kontraindikasjoner må hentes derfra.
+Data om advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelige. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
-**Kontraindikasjoner/risikotilstander fra kunnskapsgrafen (ikke fra preparatomtale):** Følgende tilstander er knyttet til levofloxacin i TxGNN-kunnskapsgrafen:
-- Hjerte og rytme: langt QT-syndrom (inkl. familiært), torsades de pointes, myokardiskemi, koronarsykdom
-- Nervesystem og muskler: epilepsi, perifer nevropati og sykdom i perifere nerver, myasthenia gravis og nevromuskulære sykdommer, rabdomyolyse
-- Sener og ledd: tendinitt, periartritt, eksostose, nodulær fasciitt
-- Lever og galle: leversykdom, medikamentindusert leverskade, galleblæresykdom
-- Blod: trombocytopeni, leukopeni, pancytopeni, anemi (inkl. makrocytær)
-- Stoffskifte: diabetes mellitus, diabetisk ketoacidose, kaliummangel
-- Nyre og mage-tarm: nedsatt nyrefunksjon, *Clostridium difficile*-kolitt, nekrotiserende enterokolitt hos nyfødte
-
-**Legemiddelinteraksjoner:** Totalt 100 interaksjoner er registrert. Blant de som er vist, er de alvorligste (Major):
+**Legemiddelinteraksjoner:** Interaksjonsoppslaget ga 100 registrerte interaksjoner. De alvorligste (nivå «Alvorlig») er:
 - Tramadol
 - Hydrokortison
 
-Flere moderate interaksjoner er også registrert, blant annet med abirateron, akarbose, famotidin, formoterol, ketorolak, adenosin, ibuprofen, etinylestradiol, albiglutid, salbutamol, alfuzosin, alogliptin, metformin, pioglitazon og amifampridin. Mindre interaksjoner omfatter paklitaksel, aldesleukin og altretamin.
+Mange andre interaksjoner er klassifisert som moderate, blant annet med metformin, pioglitazon, ibuprofen, ketorolak, famotidin, salbutamol, formoterol, etinylestradiol og abirateron.
 
 ---
 
@@ -115,13 +103,15 @@ Flere moderate interaksjoner er også registrert, blant annet med abirateron, ak
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen mangler både kliniske studier og mekanistisk støtte, og den eneste publikasjonen handler om et utbrudd uten levofloxacin-behandling. Mikrosporidier forventes ikke å respondere på fluorokinoloner. I tillegg er den eneste norske godkjenningen kansellert.
+Det finnes ingen kliniske studier og ingen publikasjon som undersøker levofloksacin ved denne tilstanden. Den eneste publikasjonen gjelder et utbrudd av en mikrosporidiell infeksjon, der fluorokinoloner ikke forventes å virke. Prediksjonen bygger kun på modellscoren, og evidensnivået er L5.
 
-**For å gå videre kreves:**
-- Dokumentasjon på in vitro- eller klinisk aktivitet av levofloxacin mot mikrosporidier eller aktuelle sekundære bakterier ved keratokonjunktivitt
-- Data om virkningsmekanisme og pakningsvedlegg (advarsler, kontraindikasjoner)
-- Vurdering av administrasjonsvei (okulær formulering finnes ikke i de innhentede dataene)
-- Eventuelt prioritering av monoklonal gammopati (infeksjonsprofylakse ved myelom) som mer evidensbasert alternativ, med tiltak mot resistens og fluorokinolon-relaterte bivirkninger (senebetennelse, QT-forlengelse, *C. difficile*)
+**For å gå videre kreves følgende:**
+- Systematisk litteratursøk etter studier av fluorokinoloner (inkludert øyedråper) ved punktformet epitelial keratokonjunktivitt
+- Klargjøring av årsaken til tilstanden (for eksempel viral, mikrosporidiell eller bakteriell) og om antibakteriell behandling har noen plausibel rolle
+- Data om virkningsmekanisme
+- Preparatomtale med advarsler og kontraindikasjoner for en fullstendig sikkerhetsvurdering
+- Vurdering av administrasjonsvei, siden den godkjente formen ikke er laget for øyebehandling
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

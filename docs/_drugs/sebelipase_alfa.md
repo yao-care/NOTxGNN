@@ -4,17 +4,17 @@ title: Sebelipase Alfa
 parent: Kun modellprediksjon (L5)
 nav_order: 377
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-28
-description: "Sebelipase Alfa: predikert ny indikasjon Scheie syndrom (evidensnivå L5). Opprinnelig indikasjon: Medfødte feil i lipidmetabolismen"
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "SEBELIPASE ALFA"
-predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "cholesteryl ester storage disease", "Gaucher disease", "lysosomal storage disease with skeletal involvement", "autosomal ichthyosis syndrome with fatal disease course", "Tay-Sachs disease", "benign neoplasm of adrenal gland"]
+predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "Gaucher disease", "lysosomal storage disease with skeletal involvement", "autosomal ichthyosis syndrome with fatal disease course", "Tay-Sachs disease", "benign neoplasm of adrenal gland"]
+description: "Sebelipase Alfa: predikert ny indikasjon Scheie syndrom (Scheie syndrome) (evidensnivå L5). Opprinnelig indikasjon: Lipid Metabolism, Inborn Errors"
 ---
 
 # Sebelipase Alfa
 {: .fs-9 }
 
-Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-## Sebelipase alfa: Fra medfødte feil i lipidmetabolismen til Scheie syndrom
+## Sebelipase Alfa: Scheie syndrom (Scheie syndrome)
 {: .text-alpha }
 
-## Oppsummering
+## Oppsummering i én setning
 
-Sebelipase alfa er et rekombinant humant lysosomalt syrelipaseenzym (LAL) som brukes som enzymerstatningsbehandling ved medfødte feil i lipidmetabolismen, nærmere bestemt LAL-mangel.
-TxGNN-modellen spår at legemidlet kan være effektivt ved **Scheie syndrom** (mild form av MPS I), men **ingen kliniske studier og ingen publikasjoner** støtter denne retningen.
-Dette er en ren modellprediksjon (evidensnivå L5).
+Sebelipase alfa er en rekombinant enzymerstatningsterapi (lysosomal sur lipase) som brukes ved arvelige forstyrrelser i lipidstoffskiftet. TxGNN-modellen predikerer at legemidlet kan ha effekt ved **Scheie syndrom (Scheie syndrome)**, men det finnes **ingen kliniske studier** og **ingen publikasjoner** som støtter denne retningen. Prediksjonen er kun beregningsbasert.
 
 ---
 
@@ -48,9 +46,9 @@ Dette er en ren modellprediksjon (evidensnivå L5).
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Medfødte feil i lipidmetabolismen |
-| Predikert ny indikasjon | Scheie syndrom |
-| TxGNN-prediksjonsscore | 0,9980 |
+| Opprinnelig indikasjon | Lipid Metabolism, Inborn Errors |
+| Predikert ny indikasjon | Scheie syndrom (Scheie syndrome) |
+| TxGNN-prediksjonsscore | 0.9980 |
 | Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
@@ -58,37 +56,29 @@ Dette er en ren modellprediksjon (evidensnivå L5).
 
 ---
 
-## Hvorfor er denne prediksjonen (ikke) rimelig?
+## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i datagrunnlaget. Ut fra kjent informasjon er sebelipase alfa en enzymerstatning for lysosomal syrelipase, og effekten er godt dokumentert ved LAL-mangel. Mekanistisk er det imidlertid vanskelig å se at den kan brukes ved Scheie syndrom.
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige for sebelipase alfa. Basert på kjent informasjon er legemidlet en enzymerstatning for lysosomal sur lipase, som bryter ned kolesterolestere og triglyserider i lysosomene.
 
-Scheie syndrom skyldes mangel på enzymet alfa-L-iduronidase. Sebelipase alfa erstatter et annet enzym, lysosomal syrelipase, som bryter ned kolesterolestere og triglyserider. Substratene er ulike: glykosaminoglykaner ved Scheie syndrom, kolesterolestere og triglyserider ved LAL-mangel. Legemidlet kan derfor ikke erstatte det manglende enzymet.
+Scheie syndrom er en mild form av mukopolysakkaridose type I (MPS I) og skyldes mangel på enzymet alfa-L-iduronidase. Dette er et annet enzym med andre substrater (glykosaminoglykaner) enn det sebelipase alfa erstatter. Det finnes derfor ingen direkte mekanistisk begrunnelse for prediksjonen.
 
-Den høye prediksjonsscoren kommer fra TxGNN-modellen (deep learning) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens.
-
-**Andre prediksjoner blant de ti øverste:** Datagrunnlaget gir langt sterkere støtte for to andre prediksjoner. Begge ligger nær legemidlets opprinnelige bruksområde og er egentlig ikke reell repurposing:
-
-| Predikert indikasjon | Evidensnivå | Vurdering |
-|------|------|------|
-| Kolesterolesterlagringssykdom (CESD) | L1 | Randomisert, placebokontrollert fase 3-studie (NCT01757184, n=66) og NEJM-publikasjon (PMID 26352813). Anbefaling: Proceed with Guardrails |
-| Wolmans sykdom (med hypolipoproteinemi og akantocytose) | L3 | Støttes av kohortdata og kasuistikker. Sykdomskoblingen bør verifiseres. Anbefaling: Proceed with Guardrails |
-| Hurler syndrom, Gaucher sykdom, Tay-Sachs sykdom m.fl. | L4–L5 | Ulike enzymdefekter og ingen støtte for effekt. Anbefaling: Hold |
+Den høye scoren gjenspeiler trolig bare at begge sykdommene tilhører gruppen lysosomale lagringssykdommer og ligger nær hverandre i modellens nettverk. Prediksjonen bør tolkes med stor forsiktighet.
 
 ---
 
-## Klinisk studieevidens
+## Evidens fra kliniske studier
 
-Foreløpig ingen relevante kliniske studier registrert for Scheie syndrom.
+For Scheie syndrom er det for øyeblikket ingen relaterte kliniske studier registrert.
 
 ---
 
 ## Litteraturevidens
 
-Foreløpig ingen relevant litteratur tilgjengelig for Scheie syndrom.
+For Scheie syndrom er det for øyeblikket ingen relevant litteratur tilgjengelig.
 
 ---
 
-## Informasjon om markedet i Norge
+## Markedsinformasjon for Norge
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -98,7 +88,7 @@ Foreløpig ingen relevant litteratur tilgjengelig for Scheie syndrom.
 
 ## Sikkerhetsvurderinger
 
-Se preparatomtalen for sikkerhetsinformasjon.
+Se pakningsvedlegget for sikkerhetsinformasjon.
 
 ---
 
@@ -107,13 +97,14 @@ Se preparatomtalen for sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for Scheie syndrom mangler både mekanistisk støtte og kliniske data. Sebelipase alfa erstatter ikke det manglende enzymet (alfa-L-iduronidase). Legemidlet er markedsført i Norge, og den ene markedsføringstillatelsen er gyldig.
+Prediksjonen for Scheie syndrom støttes verken av kliniske studier eller publikasjoner, og det finnes ingen mekanistisk kobling mellom lysosomal sur lipase og alfa-L-iduronidase. Evidensnivået er L5 (kun modellprediksjon).
 
 **For å gå videre kreves følgende:**
-- Pakningsvedlegg og preparatomtale med advarsler og kontraindikasjoner må innhentes og vurderes, siden dette er en blokkerende datamangel.
-- Data om virkningsmekanisme (MOA) må suppleres, for eksempel fra DrugBank.
-- Prekliniske data eller en biologisk begrunnelse for effekt ved Scheie syndrom må foreligge før videre vurdering.
-- Ressursene bør heller rettes mot CESD og Wolmans sykdom, som har mye sterkere evidens. Der må gjeldende regulatorisk status og forsyningssituasjon avklares, siden godkjenningen i Norge er avregistrert.
+- Data om virkningsmekanisme (MOA) for sebelipase alfa
+- Prekliniske data som viser en plausibel effekt ved mangel på alfa-L-iduronidase
+- Gjennomgang av pakningsvedlegg med advarsler og kontraindikasjoner
+- Vurdering av alternative, allerede godkjente enzymerstatningsbehandlinger for MPS I
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
