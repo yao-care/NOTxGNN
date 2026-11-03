@@ -15,6 +15,7 @@ Evidensnivåene går fra L1 (sterkere klinisk evidens) til L5 (kun modellprediks
 - `/` Prediksjoner for Legemiddelreposisjonering — Norge — KI-baserte prediksjoner for ny bruk av legemidler i Norge. Evidensbasert analyse av godkjente legemidler for mulige nye bruksområder.
 - `/drugs/` Alle legemidler — Alle valideringsrapporter for legemidler og statistikk over evidensnivåer i NOTxGNN.
 - `/evidence-high/` Høy evidens (L1-L2) — Kandidater for legemiddelreposisjonering på nivå L1-L2 i NOTxGNN, støttet av kliniske studier eller systematiske oversikter.
+- `/clinical-trial-evidence/` Legemidler med studieevidens for en ny indikasjon — Sentralt godkjente EU-legemidler (EMA) der den nye indikasjonen TxGNN har predikert, har evidens fra kliniske studier (L1-L2): indikasjon, nivå, studier.
 - `/evidence-medium/` Moderat evidens (L3-L4) — Kandidater for legemiddelreposisjonering på nivå L3-L4 i NOTxGNN, understøttet av observasjonelle eller prekliniske data.
 - `/evidence-low/` Kun modellprediksjon (L5) — L5-kandidater i NOTxGNN: kun modellprediksjon, uten klinisk evidens eller litteraturevidens så langt.
 - `/methodology/` Metodikk — Slik utarbeider og validerer NOTxGNN sine prediksjoner: prediksjon med TxGNN-modellen (dyp læring), evidensinnsamling, gradering L1-L5 og beslutningsanbefalinger.

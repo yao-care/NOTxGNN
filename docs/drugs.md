@@ -36,6 +36,8 @@ Listen bygger på sentrale markedsføringstillatelser i EU fra [EMA Medicines re
 
 <!-- local-home:end -->
 
+Utvalg: [Legemidler i Norge med evidens fra kliniske studier for en ny indikasjon]({{ '/clinical-trial-evidence/' | relative_url }}) (L1–L2, med predikert indikasjon og antall siterte registrerte studier).
+
 ## Fordeling etter evidensnivå
 
 | Evidensnivå | Legemidler | Beskrivelse |
