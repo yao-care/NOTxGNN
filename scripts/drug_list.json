@@ -1,6 +1,6 @@
 {
   "total": 432,
-  "generated_at": "2026-11-03T18:51:48.906388",
+  "generated_at": "2026-11-04T04:04:37.232370",
   "drugs": [
     {
       "name": "Abacavir",
@@ -2903,7 +2903,7 @@
     {
       "name": "Glecaprevir",
       "file": "glecaprevir.md",
-      "evidence_level": "L3",
+      "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": "",
       "inn": "GLECAPREVIR",
@@ -4082,7 +4082,7 @@
     {
       "name": "Melphalan",
       "file": "melphalan.md",
-      "evidence_level": "L2",
+      "evidence_level": "L5",
       "indication_count": 6,
       "predicted_indication": "",
       "inn": "Melphalan",
@@ -4099,7 +4099,7 @@
     {
       "name": "Memantine",
       "file": "memantine.md",
-      "evidence_level": "L1",
+      "evidence_level": "L5",
       "indication_count": 4,
       "predicted_indication": "",
       "inn": "MEMANTINE",
@@ -5854,7 +5854,7 @@
     {
       "name": "Sacubitril",
       "file": "sacubitril.md",
-      "evidence_level": "L3",
+      "evidence_level": "L5",
       "indication_count": 5,
       "predicted_indication": "",
       "inn": "SACUBITRIL",
