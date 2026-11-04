@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sirolimus
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 386
-evidence_level: L3
+evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
-description: "Sirolimus: predikert ny indikasjon Liposarkom (liposarcoma) (evidensnivå L3). Opprinnelig indikasjon: Graft Rejection"
+description: "Sirolimus: predikert ny indikasjon Liposarkom (liposarcoma) (evidensnivå L5). Opprinnelig indikasjon: Graft Rejection"
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **6** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -36,9 +36,9 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **6** stk.
 ## Sirolimus: Liposarkom (liposarcoma)
 {: .text-alpha }
 
-## Oppsummering i én setning
+## Oppsummering
 
-Sirolimus er en legemiddelsubstans som er markedsført i Norge med lokale godkjenninger. TxGNN-modellen forutsier at den kan ha effekt ved **liposarkom (liposarcoma)**. Så langt støttes retningen av **1 klinisk studie** (en fase 2-studie uten kontrollarm, med kombinasjonsbehandling) og **flere oversiktsartikler om sarkom**. Det finnes ingen randomiserte data for denne indikasjonen.
+Sirolimus er en mTOR-hemmer med immundempende og vekstdempende egenskaper. TxGNN-modellen forutsier at legemidlet kan ha effekt ved **liposarkom (liposarcoma)**. Det finnes **1 registrert klinisk fase 2-studie** (uten publiserte resultater) og **5 indirekte publikasjoner**. Ingen publisert studie har testet sirolimus direkte ved liposarkom, så evidensnivået er **L5**.
 
 ---
 
@@ -49,7 +49,7 @@ Sirolimus er en legemiddelsubstans som er markedsført i Norge med lokale godkje
 | Opprinnelig indikasjon | Graft Rejection;Kidney Transplantation; Angiofibroma;Tuberous Sclerosis |
 | Predikert ny indikasjon | Liposarkom (liposarcoma) |
 | TxGNN-prediksjonsscore | 0.9989 |
-| Evidensnivå | L3 |
+| Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
 | Anbefalt beslutning | Hold |
@@ -58,62 +58,54 @@ Sirolimus er en legemiddelsubstans som er markedsført i Norge med lokale godkje
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de data som er sammenstilt for denne rapporten. Sirolimus er likevel kjent som en hemmer av mTOR-kinasen. Liposarkom viser ofte aktivering av PI3K/AKT/mTOR-signalveien, og mTOR-hemming er derfor en plausibel antiproliferativ strategi. Prekliniske modeller antyder at mTOR-hemming kan bremse tumorvekst i sarkomer.
+Detaljerte mekanismedata (MOA) var ikke tilgjengelige i datamaterialet som er samlet inn for denne rapporten. Sirolimus er likevel kjent som en hemmer av mTOR-kinasen (mammalian target of rapamycin), som styrer cellevekst, celledeling og overlevelse.
 
-Den eneste direkte kliniske støtten er en fullført, enarmet fase 2-studie av sirolimus i kombinasjon med cyklofosfamid. Studien omfattet myksoid liposarkom og kondrosarkom. Litteraturen består hovedsakelig av oversikter over målrettet behandling av sarkom og studier av kreftrisiko hos transplanterte pasienter. Disse er indirekte evidens.
+Liposarkom viser ofte aktivering av PI3K/AKT/mTOR-signalveien. Hemming av mTOR er derfor en biologisk plausibel antiproliferativ strategi. Dyremodeller antyder at mTOR-hemming kan redusere tumorvekst, men dette er ikke bekreftet i kontrollerte kliniske studier ved liposarkom.
+
+Den høye prediksjonsscoren er et beregnet resultat fra modellen. Den er ikke bevis for klinisk effekt.
 
 ---
 
-## Klinisk studieevidens
+## Klinisk studiedokumentasjon
 
 | Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Fase 2 | Fullført | 70 | Enarmet, multisenter-studie av sirolimus + cyklofosfamid ved metastatisk eller ikke-operabelt myksoid liposarkom og kondrosarkom. Det er ikke oppgitt resultater i de sammenstilte dataene. |
+| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Fase 2 | Fullført | 70 | Enarmet, flersenterstudie av sirolimus kombinert med syklofosfamid ved metastatisk eller ikke-opererbart myksoid liposarkom og kondrosarkom. Resultater er ikke publisert eller postert. |
 
-Studien gir et direkte klinisk signal. Den har imidlertid ingen kontrollarm, og kombinasjonspartneren gjør det vanskelig å tilskrive effekt til sirolimus alene.
+Studien har ingen kontrollarm, og kombinasjonspartneren gjør det vanskelig å tilskrive en effekt til sirolimus alene. Fordi resultatene ikke er publisert, regnes den ikke som evidens i nivåvurderingen.
 
 ---
 
-## Litteraturevidens
+## Litteraturdokumentasjon
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [16434506](https://pubmed.ncbi.nlm.nih.gov/16434506/) | 2006 | RCT | J Am Soc Nephrol | Hos nyretransplanterte ga sirolimus etter tidlig seponering av ciklosporin lavere risiko for kreft. Indirekte støtte for en antitumoreffekt. |
-| [39796641](https://pubmed.ncbi.nlm.nih.gov/39796641/) | 2024 | Oversikt | Cancers | Gjennomgang av nye behandlinger ved bløtvevssarkom. |
-| [37222206](https://pubmed.ncbi.nlm.nih.gov/37222206/) | 2023 | Oversikt | Curr Opin Oncol | Begrunnelse og resultater fra kliniske studier av målrettede legemidler ved avanserte sarkomer. |
+| [16434506](https://pubmed.ncbi.nlm.nih.gov/16434506/) | 2006 | RCT | J Am Soc Nephrol | Sirolimus etter tidlig seponering av ciklosporin ga lavere kreftrisiko hos nyretransplanterte. Studien gjelder ikke liposarkom. |
+| [39796641](https://pubmed.ncbi.nlm.nih.gov/39796641/) | 2024 | Oversikt | Cancers | Gjennomgang av nye behandlinger ved bløtdelssarkom. |
+| [37222206](https://pubmed.ncbi.nlm.nih.gov/37222206/) | 2023 | Oversikt | Curr Opin Oncol | Gjennomgang av målrettede legemidler ved avanserte sarkomer. |
 | [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Oversikt | Bull Cancer | Målrettet behandling av sjeldne bindevevssvulster og sarkomer. |
-| [26093731](https://pubmed.ncbi.nlm.nih.gov/26093731/) | 2015 | Oversikt | Transplant Proc | Kreftscreening hos nyretransplanterte på langvarig immunsuppresjon. |
+| [26093731](https://pubmed.ncbi.nlm.nih.gov/26093731/) | 2015 | Oversikt | Transplant Proc | Kreftscreening hos nyretransplanterte under langvarig immundempende behandling. |
 
-Ingen av publikasjonene undersøker sirolimus ved liposarkom direkte.
+All litteratur er indirekte. Den omhandler sarkomer generelt eller kreftrisiko hos transplanterte, ikke sirolimus som behandling av liposarkom.
 
 ---
 
-## Informasjon om det norske markedet
+## Markedsinformasjon for Norge
 
 | Autorisasjonsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
 | EMEA/H/C/000273 | Rapamune | Ikke oppgitt | Transplantatavstøtning, nyretransplantasjon (godkjent) |
 | EMEA/H/C/005896 | Hyftor | Ikke oppgitt | Angiofibrom, tuberøs sklerose (godkjent) |
 
-Begge godkjenningene gjelder enkeltstoffpreparater og er gyldige.
-
 ---
 
 ## Sikkerhetsvurderinger
 
-**Legemiddelinteraksjoner:** De sammenstilte dataene viser 100 registrerte interaksjoner. Blant de første som er oppført, er følgende klassifisert som **alvorlige (Major)**:
-- Amfotericin B (inkludert lipidkompleks)
-- Mesalazin
-- Balsalazid
-- Klaritromycin
+**Legemiddelinteraksjoner:** Totalt 100 interaksjoner er registrert. De viktigste er:
+- **Alvorlige (Major):** amfotericin B (også lipidkompleks), mesalazin, balsalazid og klaritromycin.
+- **Moderate:** blant annet metformin, pioglitazon, akarbose, alogliptin, kortikosteroider (hydrokortison, deksametason, betametason, budesonid, triamcinolon), aprepitant, cimetidin, kanagliflozin og dapagliflozin.
 
-Flere er klassifisert som **moderate**, blant andre:
-- antidiabetika (metformin, pioglitazon, alogliptin, kanagliflozin, dapagliflozin, akarbose, albiglutid, klorpropamid)
-- kortikosteroider (hydrokortison, deksametason, betametason, budesonid, triamcinolon)
-- aprepitant
-- cimetidin
-
-Se preparatomtalen for øvrige advarsler og kontraindikasjoner.
+For øvrig sikkerhetsinformasjon, inkludert advarsler og kontraindikasjoner, vises det til preparatomtalen.
 
 ---
 
@@ -122,15 +114,14 @@ Se preparatomtalen for øvrige advarsler og kontraindikasjoner.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-- Det finnes bare én enarmet fase 2-studie med kombinasjonsbehandling, og den gir ikke grunnlag for å tilskrive effekt til sirolimus alene.
-- Det mangler randomiserte data, og litteraturen er hovedsakelig indirekte.
-- TxGNN-scoren er høy, men er en beregningsmessig prediksjon.
+- Prediksjonen er bare modellbasert (L5). Den eneste relevante studien er en enarmet fase 2-studie med kombinasjonsbehandling uten publiserte resultater, og ingen publisert studie har testet sirolimus direkte ved liposarkom.
 
-**For å gå videre kreves følgende:**
-- Resultater og publikasjon fra NCT02821507, med subgruppeanalyse for liposarkom
-- Randomiserte eller kontrollerte data for sirolimus ved liposarkom
-- Data om virkningsmekanisme og biomarkører (for eksempel aktivering av PI3K/AKT/mTOR) i aktuelle liposarkomsubtyper
-- Gjennomgang av preparatomtalens advarsler og kontraindikasjoner, med en plan for sikkerhetsovervåking og interaksjoner
+**For å gå videre kreves:**
+- Publiserte eller postede resultater fra NCT02821507, med vurdering av sirolimus' bidrag i kombinasjonen.
+- Data fra kontrollerte studier som direkte undersøker sirolimus ved liposarkom.
+- Detaljerte mekanismedata (MOA).
+- Gjennomgang av preparatomtalen for advarsler og kontraindikasjoner.
+- En sikkerhetsplan for infeksjoner, lipidforstyrrelser og legemiddelinteraksjoner.
 
 ## Ansvarsfraskrivelse
 

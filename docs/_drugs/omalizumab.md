@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Omalizumab
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 298
-evidence_level: L2
+evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-11-04
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
-description: "Omalizumab: predikert ny indikasjon Bronkitt (bronchitis) (evidensnivå L2). Opprinnelig indikasjon: Asthma"
+description: "Omalizumab: predikert ny indikasjon Bronkitt (bronchitis) (evidensnivå L5). Opprinnelig indikasjon: Asthma"
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **9** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -36,9 +36,9 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **9** stk.
 ## Omalizumab: Bronkitt (bronchitis)
 {: .text-alpha }
 
-## Oppsummering i én setning
+## Sammendrag
 
-Omalizumab er et humanisert monoklonalt antistoff som binder fritt IgE. Modellen TxGNN predikerer at det kan være effektivt ved **bronkitt (bronchitis)**. Dette støttes av **2 kliniske studier** (hvorav én fullført randomisert fase 2/3-studie ved vedvarende eosinofil bronkitt) og **7 publikasjoner** i datagrunnlaget, men beviset er indirekte og kommer hovedsakelig fra astma.
+Omalizumab er et humanisert monoklonalt antistoff som binder immunglobulin E (IgE). TxGNN-modellen predikerer at det kan ha effekt ved **bronkitt (bronchitis)**. Dataene som er samlet for denne rapporten inneholder imidlertid **ingen publisert studie som viser effekt av omalizumab ved bronkitt**. Det finnes 2 registrerte kliniske studier med begrenset relevans og 5 publikasjoner som berører temaet indirekte.
 
 ## Hurtigoversikt
 
@@ -47,66 +47,64 @@ Omalizumab er et humanisert monoklonalt antistoff som binder fritt IgE. Modellen
 | Opprinnelig indikasjon | Asthma;Urticaria;Rhinitis; Asthma;Urticaria |
 | Predikert ny indikasjon | Bronkitt (bronchitis) |
 | TxGNN-prediksjonsscore | 1.0000 |
-| Evidensnivå | L2 |
+| Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
 | Antall godkjenninger | 2 (gyldige: 2) |
-| Anbefalt beslutning | Proceed with Guardrails |
+| Anbefalt beslutning | Hold |
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Omalizumab binder fritt IgE og reduserer dermed IgE-bindingen til FcεRI på mastceller og basofile celler. Det gir lavere allergisk luftveisinflammasjon. Detaljerte mekanismedata (MOA) er ikke tilgjengelige i datagrunnlaget som er samlet inn for denne rapporten, men virkningen på IgE er velkjent.
+Omalizumab binder fritt IgE og hemmer dermed IgE-bindingen til høyaffinitetsreseptoren FcεRI på mastceller og basofile granulocytter. Dette reduserer allergisk luftveisbetennelse. Detaljerte data om virkningsmekanisme fra legemiddeldatabasen mangler, men farmakologidata bekrefter at målet er IgE (IGHE-genet).
 
-Koblingen til bronkitt er i hovedsak indirekte. Kronisk bronkitt og eosinofil bronkitt kan forekomme sammen med astma og med overlappssyndromet astma-KOLS, der omalizumab har vært studert. Den fullførte randomiserte, dobbeltblinde, placebokontrollerte studien NCT02049294 undersøkte om omalizumab kan redusere prednisondosen hos pasienter med vedvarende eosinofil bronkitt, noe som gir et direkte, men svært lite, evidensgrunnlag.
+Koblingen til bronkitt er **indirekte**. Den hviler hovedsakelig på at kroniske bronkittrekk kan forekomme sammen med allergisk luftveissykdom, og at IgE-drevet inflammasjon kan bidra der. Ingen av de funnede studiene undersøker bronkitt som selvstendig tilstand. Den høye modellscoren bør derfor tolkes som en hypotese og ikke som klinisk støtte.
 
-Det foreligger ikke dokumentasjon for bronkitt som selvstendig indikasjon, for eksempel akutt infeksiøs bronkitt. Prediksjonen bør derfor leses som et forskningsspørsmål.
-
-## Kliniske studier
+## Klinisk evidens
 
 | Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Fase 2/3 | Fullført | 11 | Randomisert, dobbeltblind, placebokontrollert studie av om omalizumab kan redusere prednisondosen ved astma og eosinofil bronkitt. Svært lite utvalg. |
-| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | Fase 2 | Fullført | 382 | Doseleterende studie av QGE031 som tilleggsbehandling ved kronisk spontan urticaria. Ikke rettet mot bronkitt, så relevansen er lav. |
+| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Fase 2/3 | Fullført | 11 | Randomisert, dobbeltblindet, placebokontrollert studie av om omalizumab kan redusere prednisondosen hos pasienter med vedvarende eosinofil bronkitt og astma. Svært lite utvalg, og det finnes ingen publiserte resultater som støtter effekt. |
+| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | Fase 2 | Fullført | 382 | Doseringsstudie av QGE031 (omalizumab) ved kronisk spontan urticaria. Gjelder ikke bronkitt og gir ingen direkte støtte. |
 
-## Litteratur
+## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Oversikt | Clinical Reviews in Allergy & Immunology | Omalizumab reduserer fritt IgE og luftveisinflammasjon og er effektivt ved moderat til alvorlig vedvarende astma. |
-| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | Kohortestudie | Postepy Dermatologii i Alergologii | Biologisk behandling kan være nyttig hos middelaldrende og eldre med alvorlig allergisk astma og KOLS-overlapp. |
-| [21121874](https://pubmed.ncbi.nlm.nih.gov/21121874/) | 2011 | Sikkerhetsanalyse | Current Medical Research and Opinion | Samlet sikkerhetsanalyse av omalizumab hos barn med allergisk astma. |
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Oversikt | Expert Opinion on Pharmacotherapy | Behandlingsutfordringer ved astma hos røykere, inkludert kronisk bronkitt og astma-KOLS-overlapp. |
-| [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | Oversikt | Masui | Preoperativ håndtering av pasienter med astma eller kronisk bronkitt; omalizumab nevnes ved alvorlig allergisk astma. |
-| [17663923](https://pubmed.ncbi.nlm.nih.gov/17663923/) | 2007 | Oversikt | Allergologia et Immunopathologia | Oversikt over monoklonale antistoffer i pediatri, inkludert allergiske sykdommer. |
-| [31478531](https://pubmed.ncbi.nlm.nih.gov/31478531/) | 2019 | Kasuistikk | Journal of Investigational Allergology & Clinical Immunology | Sjelden plastisk bronkitt etter bronkial termoplastikk. |
+| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Oversiktsartikkel | Clin Rev Allergy Immunol | Omalizumab reduserer fritt IgE og luftveisinflammasjon. Behandler godkjenning og erfaringer etter markedsføring. Omtaler ikke bronkitt spesifikt. |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Oversiktsartikkel | Expert Opin Pharmacother | Drøfter behandling hos røykere med astma og kronisk bronkitt. Disse pasientene er ofte ekskludert fra kliniske studier, og behandlingsvalget er usikkert. |
+| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | Kohortestudie | Postepy Dermatol Alergol | Omalizumab hos middelaldrende og eldre pasienter med alvorlig allergisk astma og overlappende kronisk luftveissykdom. Gjelder ikke bronkitt som egen tilstand. |
+| [31478531](https://pubmed.ncbi.nlm.nih.gov/31478531/) | 2019 | Kasuistikk | J Investig Allergol Clin Immunol | Sjelden plastisk bronkitt etter bronkial termoplastikk. Gir ingen effektdata for omalizumab. |
+| [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | Oversiktsartikkel | Masui | Preoperativ håndtering av pasienter med bronkial astma eller kronisk bronkitt. Nevner omalizumab kun som behandlingsalternativ ved astma. |
 
-## Informasjon om det norske markedet
+## Markedsinformasjon for Norge
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
 | EMEA/H/C/000606 | Xolair (Novartis Europharm Limited) | Ikke oppgitt | Astma, urticaria, rhinitt |
 | EMEA/H/C/005958 | Omlyclo (Celltrion Healthcare Hungary Kft.) | Ikke oppgitt | Astma, urticaria |
 
+Begge godkjenningene er gyldige.
+
 ## Sikkerhetsvurderinger
 
-Data om advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelige i datagrunnlaget. Se preparatomtalen for sikkerhetsinformasjon.
+Opplysninger fra preparatomtale om advarsler og kontraindikasjoner er ikke tilgjengelige i dataene. Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 
-**Legemiddelinteraksjoner** (8 registrert):
-- **Moderat:** omacetaksin mepesuccinat.
+**Legemiddelinteraksjoner** (8 registrerte):
+- **Moderat:** omacetaksin mepesuksinat.
 - **Mindre:** sinksulfat, sinkacetat, sinkglukonat, sinkklorid, echinacea og vitamin E.
-- Omalizumab virker ved å binde seg til immunglobulin E (IGHE).
+- Omalizumab virker via IgE (immunglobulin tung konstant epsilon), som er målet i farmakologidataene.
 
 ## Konklusjon og neste steg
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-Evidensnivået er L2 på grunn av én fullført randomisert, dobbeltblind, placebokontrollert fase 2/3-studie ved vedvarende eosinofil bronkitt (NCT02049294). Studien har kun 11 deltakere, og for bronkitt som selvstendig tilstand finnes det ingen direkte evidens. Videre arbeid bør derfor være avgrenset til en tydelig definert undergruppe, som eosinofil bronkitt eller bronkitt ved allergisk astma.
+Evidensnivået er L5. Ingen publisert studie viser at omalizumab har effekt ved bronkitt. Den eneste relevante studien (NCT02049294) er svært liten og gjelder pasienter med astma og eosinofil bronkitt. Prediksjonen bygger derfor kun på modellscoren og et indirekte mekanistisk resonnement.
 
-**For å gå videre trengs følgende:**
-- Større kontrollerte studier i en tydelig definert bronkittpopulasjon (for eksempel eosinofil bronkitt)
-- Detaljerte mekanismedata (MOA)
-- Sikkerhetsdata fra preparatomtalen (advarsler og kontraindikasjoner)
-- Vurdering av nytte og risiko mot etablerte behandlinger
+**For å gå videre kreves:**
+- Resultatene fra NCT02049294 bør publiseres eller innhentes og vurderes.
+- Det trengs en klart definert bronkittpopulasjon, for eksempel eosinofil bronkitt med høyt IgE, og en eksplisitt hypotese for effekt.
+- Det bør utføres en systematisk litteraturgjennomgang og eventuelt en liten randomisert pilotstudie med klinisk relevante endepunkter.
+- Detaljerte data om virkningsmekanisme og advarsler og kontraindikasjoner fra preparatomtalen bør innhentes.
 
 ## Ansvarsfraskrivelse
 
