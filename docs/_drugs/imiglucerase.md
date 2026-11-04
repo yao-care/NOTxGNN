@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Imiglucerase
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 210
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
-description: "Imiglucerase: predikert ny indikasjon Hurler syndrome (evidensnivå L4). Opprinnelig indikasjon: Gauchers sykdom"
+last_modified_at: 2026-11-04
 monitor_inn: "IMIGLUCERASE"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
+description: "Imiglucerase: predikert ny indikasjon Hurlers syndrom (Hurler syndrome) (evidensnivå L5). Opprinnelig indikasjon: Gaucher Disease"
 ---
 
 # Imiglucerase
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **5** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-## Imiglucerase: Fra Gauchers sykdom til Hurler syndrome
+## Imiglucerase: Hurlers syndrom (Hurler syndrome)
 {: .text-alpha }
 
 ## Oppsummering i én setning
 
-Imiglucerase er et rekombinant enzym (beta-glukocerebrosidase) som opprinnelig brukes til enzymerstatningsbehandling ved **Gauchers sykdom**.
-TxGNN-modellen forutsier at legemidlet kan være nyttig ved **Hurlers syndrom**, men det finnes **ingen kliniske studier** og bare **én generell oversiktsartikkel** som støtter denne retningen.
-Koblingen er på klassenivå (enzymerstatning ved lysosomale lagringssykdommer) og ikke en direkte mekanistisk kobling.
+Imiglucerase er en rekombinant form av enzymet beta-glukocerebrosidase og brukes som enzymerstatningsterapi. TxGNN-modellen predikerer at legemidlet kan ha effekt ved **Hurlers syndrom (Hurler syndrome)**, men det finnes **ingen kliniske studier** og bare **én generell oversiktsartikkel** om enzymerstatningsterapi, så evidensnivået er **L5**.
 
 ---
 
@@ -48,10 +46,10 @@ Koblingen er på klassenivå (enzymerstatning ved lysosomale lagringssykdommer) 
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Gauchers sykdom |
-| Foreslått ny indikasjon | Hurlers syndrom |
-| TxGNN-prediksjonsscore | 0,9952 |
-| Evidensnivå | L4 |
+| Opprinnelig indikasjon | Gaucher Disease |
+| Predikert ny indikasjon | Hurlers syndrom (Hurler syndrome) |
+| TxGNN-prediksjonsscore | 0.9952 |
+| Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
@@ -60,26 +58,15 @@ Koblingen er på klassenivå (enzymerstatning ved lysosomale lagringssykdommer) 
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Imiglucerase er likevel kjent som et rekombinant beta-glukocerebrosidase som bryter ned glukocerebrosid, og effekten ved Gauchers sykdom er etablert.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Imiglucerase er likevel et rekombinant beta-glukocerebrosidase som spalter glukocerebrosid. Hurlers syndrom (MPS I) skyldes mangel på enzymet alfa-L-iduronidase, noe som gir opphopning av glykosaminoglykaner (dermatan- og heparansulfat).
 
-Hurlers syndrom (MPS I) skyldes mangel på enzymet alfa-L-iduronidase, som fører til opphopning av glykosaminoglykaner (dermatan- og heparansulfat). Begge sykdommene er lysosomale lagringssykdommer som behandles med enzymerstatning. Dette forklarer den høye TxGNN-scoren.
-
-Substratene er imidlertid forskjellige. Imiglucerase har ingen aktivitet mot iduronidase-substrater og kan ikke erstatte det manglende enzymet. Koblingen er derfor et felles behandlingskonsept, ikke en direkte biokjemisk forklaring. Godkjent behandling ved MPS I er laronidase.
-
-**Andre rangerte prediksjoner (kort):**
-
-| Rang | Sykdom | Score | Evidensnivå | Vurdering |
-|------|------|------|------|------|
-| 2 | Scheies syndrom | 0,9929 | L5 | Svak form av MPS I. Samme begrensning som Hurlers syndrom. Støttes kun av en generell oversiktsartikkel. |
-| 3 | Godartet svulst i binyre | 0,9928 | L5 | Ingen identifiserbar mekanistisk kobling. Scoren kommer fra TxGNN-modellen (dyp læring) og kan gjenspeile likheter modellen har lært mellom beslektede sykdommer, ikke biologisk evidens. |
-| 4 | Autosomal ichthyosis-syndrom med dødelig forløp | 0,9924 | L5 | Mulig indirekte kobling via ceramidmetabolisme i huden, men spekulativ. |
-| 5 | Kolesterylester-lagringssykdom | 0,9912 | L5 | Skyldes mangel på lysosomal sur lipase. Imiglucerase virker ikke på kolesterylestere. Godkjent behandling er sebelipase alfa. |
+Begge sykdommene er lysosomale lagringssykdommer som behandles med enzymerstatning, og dette forklarer trolig den høye prediksjonsscoren. Enzymenes substrater er imidlertid ulike, og imiglucerase har ingen kjent aktivitet mot iduronidase-substrater. Koblingen er derfor på klassenivå (felles prinsipp om enzymerstatning), ikke en direkte mekanistisk sammenheng. Godkjent behandling for MPS I er laronidase.
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske studier
 
-Det er for øyeblikket ikke registrert noen relaterte kliniske studier.
+Foreløpig er det ingen registrerte kliniske studier knyttet til denne indikasjonen.
 
 ---
 
@@ -87,7 +74,7 @@ Det er for øyeblikket ikke registrert noen relaterte kliniske studier.
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [21211680](https://pubmed.ncbi.nlm.nih.gov/21211680/) | 2010 | Oversiktsartikkel | La Revue de médecine interne | Generell gjennomgang av enzymerstatningsbehandling ved lysosomale lagringssykdommer. Beskriver utviklingen fra alglukerase til imiglukerase (Cerezyme) ved Gauchers sykdom. Ikke legemiddelspesifikk evidens for Hurlers syndrom. |
+| [21211680](https://pubmed.ncbi.nlm.nih.gov/21211680/) | 2010 | Oversiktsartikkel | La Revue de médecine interne | Generell gjennomgang av enzymerstatningsterapi ved lysosomale lagringssykdommer. Omtaler utviklingen fra alglukerase til imiglukerase, men tester ikke imiglukerase ved Hurlers syndrom. |
 
 ---
 
@@ -101,7 +88,7 @@ Det er for øyeblikket ikke registrert noen relaterte kliniske studier.
 
 ## Sikkerhetsvurderinger
 
-- **Legemiddelinteraksjoner**: Miglustat (moderat interaksjonsnivå, kilde: DDInter).
+- **Legemiddelinteraksjoner**: Én interaksjon er registrert, med miglustat (moderat alvorlighetsgrad).
 
 Se preparatomtalen for øvrig sikkerhetsinformasjon.
 
@@ -112,13 +99,14 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den høye TxGNN-scoren bygger på et felles klassekonsept (enzymerstatning), ikke på en direkte mekanistisk sammenheng. Imiglucerase kan ikke erstatte alfa-L-iduronidase, det finnes ingen kliniske studier, og et godkjent alternativ (laronidase) eksisterer. Godkjenningen i Norge er dessuten tilbakekalt.
+Prediksjonen bygger kun på modellscore og et klassenivå-argument om enzymerstatning. Ingen studier har testet imiglucerase ved Hurlers syndrom, og enzymet virker ikke på substratene som hoper seg opp ved sykdommen. Evidensnivået er L5.
 
-**For å gå videre kreves følgende:**
-- Data om virkningsmekanisme (MOA) og in vitro-data som viser eventuell aktivitet mot relevante substrater
-- Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsscreening
-- Prekliniske studier som kan belyse en eventuell biologisk begrunnelse
-- Avklaring av markedsstatus og tilgjengelige administrasjonsveier i Norge
+**For å gå videre trengs følgende:**
+- Prekliniske data som viser om imiglucerase har noen aktivitet mot relevante substrater ved MPS I
+- Dokumentasjon av virkningsmekanisme
+- Gjennomgang av preparatomtalen for advarsler og kontraindikasjoner
+- Sammenligning med etablert behandling (laronidase) før en eventuell klinisk studie vurderes
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

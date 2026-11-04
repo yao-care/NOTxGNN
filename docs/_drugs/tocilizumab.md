@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tocilizumab
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 423
-evidence_level: L1
+evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
-description: "Tocilizumab: predikert ny indikasjon Ankyloserende spondylitt (evidensnivå L5). Opprinnelig indikasjon: Revmatoid artritt, juvenil revmatoid artritt…"
+last_modified_at: 2026-11-04
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
+description: "Tocilizumab: predikert ny indikasjon Ankyloserende spondylitt (ankylosing spondylitis) (evidensnivå L5). Opprinnelig indikasjon: Arthritis, Rheumatoid"
 ---
 
 # Tocilizumab
 {: .fs-9 }
 
-Evidensnivå: **L1** | Predikerte indikasjoner: **5** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,70 +33,58 @@ Evidensnivå: **L1** | Predikerte indikasjoner: **5** stk.
 
 </div>
 
-## Tocilizumab: Fra revmatoid artritt til ankyloserende spondylitt
+## Tocilizumab: Ankyloserende spondylitt (ankylosing spondylitis)
 {: .text-alpha }
 
-## Oppsummering i én setning
+## Oppsummering
 
-Tocilizumab er en IL-6-reseptorhemmer som opprinnelig brukes mot revmatoid artritt, juvenil revmatoid artritt, cytokinfrigjøringssyndrom, kjempecellearteritt og COVID-19.
-TxGNN-modellen predikerer at legemidlet kan være effektivt ved **ankyloserende spondylitt**.
-Dette støttes av **2 avsluttede fase 3-studier (begge terminert før ferdigstillelse)** og flere oversiktsartikler. Det er ikke påvist overbevisende effekt, og anbefalingen er **Avvent (Hold)**.
-
----
+Tocilizumab er et humanisert monoklonalt antistoff som blokkerer interleukin-6-reseptoren, og det er i bruk ved flere inflammatoriske tilstander. TxGNN-modellen forutsier at legemidlet kan ha effekt ved **ankyloserende spondylitt (ankylosing spondylitis)**. De to direkte studiene på sykdommen er imidlertid fase 3-studier som ble avsluttet tidlig, og en analyse av dem (PMID 23765873) viser ingen nytte. Evidensnivået er derfor **L5**.
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Revmatoid artritt, juvenil revmatoid artritt, cytokinfrigjøringssyndrom, kjempecellearteritt, COVID-19 |
-| Predikert ny indikasjon | Ankyloserende spondylitt |
-| TxGNN-prediksjonsscore | 0,9999 |
-| Evidensnivå | L1 etter reglene (to fase 3 RCT-er), men begge er terminert, så reell styrke er lavere |
+| Opprinnelig indikasjon | Arthritis, Rheumatoid;Arthritis, Juvenile Rheumatoid;Cytokine Release Syndrome;Giant Cell Arteritis;COVID-19 virus infection; Arthritis, Rheumatoid;COVID-19 virus infection;Arthritis, Juvenile Rheumatoid; Arthritis, Rheumatoid;Arthritis, Juvenile Rheumatoid;Cytokine Release Syndrome;COVID-19 virus i |
+| Predikert ny indikasjon | Ankyloserende spondylitt (ankylosing spondylitis) |
+| TxGNN-prediksjonsscore | 0.9999 |
+| Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 4 av 4) |
 | Antall godkjenninger | 4 (gyldige: 4) |
-| Anbefalt beslutning | Avvent (Hold) |
+| Anbefalt beslutning | Hold |
 
----
+## Hvorfor kan denne prediksjonen virke rimelig?
 
-## Hvorfor er denne prediksjonen rimelig?
+Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige i de innsamlede dataene. Tocilizumab er et antistoff mot IL-6-reseptoren, og legemidlet har dokumentert effekt ved flere inflammatoriske tilstander. Mekanistisk kan det derfor være aktuelt også ved ankyloserende spondylitt.
 
-Data om detaljert virkningsmekanisme er foreløpig ikke tilgjengelig i de sammenstilte dataene. Tocilizumab er imidlertid kjent som et humanisert monoklonalt antistoff mot IL-6-reseptoren, og effekten er vist ved revmatoid artritt og juvenil idiopatisk artritt.
+IL-6-signalering antas å bidra til betennelse og benombygging ved spondyloartritt. Det gir et plausibelt biologisk grunnlag for å blokkere IL-6-reseptoren. Plausibilitet er likevel ikke det samme som dokumentert effekt. Oversiktsartiklene i materialet plasserer IL-6-hemming utenfor etablert behandling av ankyloserende spondylitt, der TNF-hemmere og IL-17-hemmere er standard.
 
-IL-6 er involvert i betennelse og beinremodellering ved spondyloartritt. Blokkering av IL-6-reseptoren er derfor mekanistisk plausibelt også ved ankyloserende spondylitt.
-
-Det er likevel viktige forbehold. De to fase 3-studiene ble terminert, og litteraturen består hovedsakelig av kasuistikker (f.eks. AA-amyloidose ved ankyloserende spondylitt), oversikter og retningslinjer. Disse plasserer IL-6-hemming utenfor etablert behandling av sykdommen, der TNF- og IL-17-hemmere er standard. Årsakene til termineringen bør klarlegges før man tolker resultatene.
-
----
+Den høye modellscoren er en prediksjon og ikke et bevis. Kliniske data peker snarere i motsatt retning, som beskrevet nedenfor.
 
 ## Kliniske studier
 
 | Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT01209689](https://clinicaltrials.gov/study/NCT01209689) | Fase 3 | Terminert | 113 | Placebokontrollert, dobbeltblindet studie av tocilizumab (8 eller 4 mg/kg i.v.) ved ankyloserende spondylitt med utilstrekkelig respons på TNF-hemmere |
-| [NCT01209702](https://clinicaltrials.gov/study/NCT01209702) | Fase 2/3 | Terminert | 306 | Placebokontrollert studie hos pasienter som ikke har respondert på NSAID og ikke har brukt TNF-hemmer tidligere |
-| [NCT01965132](https://clinicaltrials.gov/study/NCT01965132) | Ikke relevant | Rekrutterer | 10 000 | Koreansk register over biologiske legemidler; kun sikkerhetsdata, ikke spesifikt for tocilizumab |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Rekrutterer | 80 | Håndtering av immunsuppressiva før skulderproteseoperasjon; ikke en effektstudie |
-
----
+| [NCT01209689](https://clinicaltrials.gov/study/NCT01209689) | Fase 3 | Avsluttet tidlig | 113 | Randomisert, dobbeltblind, placebokontrollert studie av tocilizumab 8 mg/kg eller 4 mg/kg mot placebo hos pasienter med utilstrekkelig respons på TNF-hemmere (24 uker) |
+| [NCT01209702](https://clinicaltrials.gov/study/NCT01209702) | Fase 2/3 | Avsluttet tidlig | 306 | Randomisert, dobbeltblind, placebokontrollert studie hos pasienter som ikke har respondert på NSAID og ikke har brukt TNF-hemmere tidligere |
+| [NCT01965132](https://clinicaltrials.gov/study/NCT01965132) | Ikke relevant (register) | Rekrutterer | 10 000 | Nasjonalt observasjonsregister for sikkerhet ved biologiske legemidler. Ikke en effektstudie av tocilizumab |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Rekrutterer | 80 | Håndtering av immundempende legemidler rundt skulderkirurgi. Ikke en effektstudie |
 
 ## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [23765873](https://pubmed.ncbi.nlm.nih.gov/23765873/) | 2014 | RCT-analyse (BUILDER-1 og -2) | Ann Rheum Dis | Vurdering av kortsiktig symptomatisk effekt av tocilizumab ved ankyloserende spondylitt |
+| [23765873](https://pubmed.ncbi.nlm.nih.gov/23765873/) | 2014 | Analyse av randomiserte studier | Annals of the Rheumatic Diseases | Vurdering av kortsiktig symptomeffekt i BUILDER-1 og BUILDER-2. Studiene viste ingen nytte av tocilizumab ved ankyloserende spondylitt |
 | [26986130](https://pubmed.ncbi.nlm.nih.gov/26986130/) | 2016 | Systematisk oversikt og nettverksmetaanalyse | Medicine | Sammenligning av biologiske behandlinger ved ankyloserende spondylitt |
-| [36260501](https://pubmed.ncbi.nlm.nih.gov/36260501/) | 2022 | Systematisk oversikt | RMD Open | Grunnlag for konsensus om effekt og sikkerhet ved IL-6-hemming |
-| [22450391](https://pubmed.ncbi.nlm.nih.gov/22450391/) | 2012 | Oversikt | Curr Opin Rheumatol | Alternativer ved ankyloserende spondylitt som ikke responderer på TNF-hemmere |
-| [22452603](https://pubmed.ncbi.nlm.nih.gov/22452603/) | 2012 | Oversikt | Inflamm Allergy Drug Targets | Kort oversikt over IL-6-hemming ved ankyloserende spondylitt |
-| [25488787](https://pubmed.ncbi.nlm.nih.gov/25488787/) | 2014 | Oversikt | Best Pract Res Clin Rheumatol | Behandling av spondyloartritt utover TNF-hemming |
-| [33981717](https://pubmed.ncbi.nlm.nih.gov/33981717/) | 2021 | Kasuistikk | Front Med | Vellykket behandling av AA-amyloidose ved ankyloserende spondylitt med tocilizumab (to tilfeller) |
-| [29290076](https://pubmed.ncbi.nlm.nih.gov/29290076/) | 2018 | Metaanalyse | Clin Rheumatol | Risiko for alvorlige infeksjoner ved biologisk behandling |
-| [31852268](https://pubmed.ncbi.nlm.nih.gov/31852268/) | 2020 | Systematisk oversikt | Expert Rev Clin Immunol | Infeksjonsrisiko ved biologiske og ikke-biologiske legemidler |
-| [20959960](https://pubmed.ncbi.nlm.nih.gov/20959960/) | 2011 | Oversikt | Osteoporos Int | Effekter av biologiske legemidler på skjelettet |
+| [22450391](https://pubmed.ncbi.nlm.nih.gov/22450391/) | 2012 | Oversikt | Current Opinion in Rheumatology | Alternativer for pasienter som ikke responderer på TNF-hemming |
+| [22452603](https://pubmed.ncbi.nlm.nih.gov/22452603/) | 2012 | Kort oversikt | Inflammation & Allergy Drug Targets | Gjennomgang av IL-6-hemming ved ankyloserende spondylitt |
+| [25488787](https://pubmed.ncbi.nlm.nih.gov/25488787/) | 2014 | Oversikt | Best Practice & Research Clinical Rheumatology | Behandling av spondyloartritt utover TNF-hemming |
+| [36260501](https://pubmed.ncbi.nlm.nih.gov/36260501/) | 2022 | Systematisk litteraturgjennomgang | RMD Open | Underlag for konsensusuttalelse om effekt og sikkerhet ved IL-6-hemming |
+| [28413099](https://pubmed.ncbi.nlm.nih.gov/28413099/) | 2017 | Oversikt | Seminars in Arthritis and Rheumatism | Valg av andrelinjes biologisk behandling |
+| [20959960](https://pubmed.ncbi.nlm.nih.gov/20959960/) | 2011 | Oversikt | Osteoporosis International | Effekter av biologiske legemidler på skjelettet |
+| [31852268](https://pubmed.ncbi.nlm.nih.gov/31852268/) | 2020 | Systematisk oversikt | Expert Review of Clinical Immunology | Infeksjonsrisiko ved biologiske og ikke-biologiske legemidler |
+| [33981717](https://pubmed.ncbi.nlm.nih.gov/33981717/) | 2021 | Kasuistikk | Frontiers in Medicine | To tilfeller av AA-amyloidose ved ankyloserende spondylitt behandlet med tocilizumab |
 
----
-
-## Informasjon om det norske markedet
+## Markedsinformasjon i Norge
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -105,44 +93,31 @@ Det er likevel viktige forbehold. De to fase 3-studiene ble terminert, og litter
 | EMEA/H/C/006196 | Avtozma | Ikke oppgitt | Revmatoid artritt, juvenil revmatoid artritt, cytokinfrigjøringssyndrom, COVID-19 |
 | EMEA/H/C/005781 | Tyenne | Ikke oppgitt | Revmatoid artritt, cytokinfrigjøringssyndrom, juvenil revmatoid artritt, COVID-19, kjempecellearteritt |
 
-Alle fire godkjenningene er registrert som opphevet.
-
----
-
 ## Sikkerhetsvurderinger
 
-- **Legemiddelinteraksjoner:** Det er registrert 100 interaksjoner. Blant de første 20 som er vist, er én **alvorlig** (deferipron). De fleste er **moderate**, blant annet:
-  - blodfortynnende midler: apiksaban, warfarin, rivaroksaban, dikumarol
-  - statiner: rosuvastatin, simvastatin
-  - nitroimidazoler: metronidazol, tinidazol, sekinidazol, benznidazol
-  - klorokin og hydroksyklorokin
-  - disulfiram, naltrekson, lidokain
+Tilgjengelige data om legemiddelinteraksjoner viser 100 registrerte interaksjoner. Blant dem som er hentet ut, er følgende de viktigste:
 
-  Sinkpreparater (sulfat, acetat, glukonat, klorid) har kun **mindre** interaksjoner.
-- **Infeksjonsrisiko:** Litteraturen peker på økt infeksjonsrisiko ved biologisk behandling, blant annet tuberkulose og herpes zoster.
-- **Kasuistikker om bivirkninger:** Det finnes rapporter om vaskulittlignende reaksjoner og alvorlig leverskade under tocilizumabbehandling.
+- **Alvorlig (Major):** deferipron.
+- **Moderat:** warfarin, apixaban, rivaroksaban og dikumarol (antikoagulantia), simvastatin og rosuvastatin, klorokin og hydroksyklorokin, metronidazol, tinidazol, sekindazol og benznidazol, naltrekson, disulfiram og lidokain.
+- **Mindre (Minor):** sinksalter (sulfat, acetat, glukonat og klorid).
 
-For øvrig sikkerhetsinformasjon, se preparatomtalen.
-
----
+For advarsler og kontraindikasjoner, se preparatomtalen.
 
 ## Konklusjon og neste steg
 
-**Beslutning: Avvent (Hold)**
+**Beslutning: Hold**
 
 **Begrunnelse:**
-- IL-6-hemming er mekanistisk plausibelt ved ankyloserende spondylitt, men begge fase 3-studiene ble terminert, og retningslinjer og oversikter plasserer ikke IL-6-hemming blant etablerte behandlinger. Dessuten har ingen av tocilizumab-godkjenningene i Norge status som gyldig.
+- Prediksjonen bygger i hovedsak på modellscoren. De to fase 3-studiene på ankyloserende spondylitt ble avsluttet tidlig, og analysen av dem viser ingen nytte. Det foreligger ingen studie som støtter effekt, og evidensnivået er derfor L5.
+- Å blokkere IL-6-reseptoren er biologisk plausibelt, men er ikke etablert behandling for denne tilstanden.
 
 **For å gå videre kreves følgende:**
-- Avklare hvorfor NCT01209689 og NCT01209702 ble terminert, og hente ut tilgjengelige effekt- og sikkerhetsresultater.
-- Hente preparatomtale med advarsler og kontraindikasjoner, og dokumentere virkningsmekanisme.
-- Avklare markedsstatus og godkjenningssituasjon i Norge.
-- Vurdere nytte opp mot etablerte alternativer (TNF- og IL-17-hemmere).
+- Avklare hvorfor BUILDER-studiene ble avsluttet, og gå gjennom de fullstendige resultatene.
+- Vurdere om det finnes en undergruppe av pasienter (for eksempel TNF-hemmer-refraktære) der et nytt signal kan begrunnes.
+- Hente inn detaljerte data om virkningsmekanisme.
+- Hente inn sikkerhetsinformasjon (advarsler og kontraindikasjoner) fra preparatomtalen.
+- Sammenligne med etablert behandling (TNF-hemmere og IL-17-hemmere) før eventuell videre prioritering.
 
-**Andre predikerte indikasjoner (kort):**
-- *Polyartikulær juvenil revmatoid artritt* (Proceed with Guardrails): Dette er allerede en godkjent bruk, støttet av en fullført fase 3-studie ([NCT00988221](https://clinicaltrials.gov/study/NCT00988221), n=188), og er derfor en bekreftelse og ikke en ny reposisjonering.
-- *Revmatoid vaskulitt*: Kun kasuistikker, og det finnes også rapporter om tocilizumab-indusert vaskulitt (forskningsspørsmål).
-- Øvrige prediksjoner (f.eks. hypermobilitet i coccyx, Kümmells sykdom) mangler studier og litteratur.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

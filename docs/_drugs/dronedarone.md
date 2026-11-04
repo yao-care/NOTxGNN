@@ -3,18 +3,18 @@ layout: default
 title: Dronedarone
 parent: Moderat evidens (L3-L4)
 nav_order: 133
-evidence_level: L3
+evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
-description: "Dronedarone: predikert ny indikasjon Hjerneslag (stroke disorder) (evidensnivå L3). Opprinnelig indikasjon: Atrieflimmer"
+last_modified_at: 2026-11-04
 monitor_inn: "DRONEDARONE"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
+description: "Dronedarone: predikert ny indikasjon Hjerneslag (stroke disorder) (evidensnivå L4). Opprinnelig indikasjon: Atrial Fibrillation"
 ---
 
 # Dronedarone
 {: .fs-9 }
 
-Evidensnivå: **L3** | Predikerte indikasjoner: **9** stk.
+Evidensnivå: **L4** | Predikerte indikasjoner: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,82 +33,95 @@ Evidensnivå: **L3** | Predikerte indikasjoner: **9** stk.
 
 </div>
 
-## Dronedaron: Fra atrieflimmer til hjerneslag
+## Dronedarone: Hjerneslag (stroke disorder)
 {: .text-alpha }
 
 ## Oppsummering
 
-Dronedaron er et antiarytmisk legemiddel som opprinnelig brukes til behandling av atrieflimmer.
-TxGNN-modellen forutsier at det kan ha effekt ved **hjerneslag (stroke disorder)**,
-men det finnes **ingen registrerte kliniske studier** og **20 publikasjoner** som hovedsakelig handler om atrieflimmer og slagforebygging i den populasjonen, ikke om dronedaron som slagbehandling i seg selv.
+Dronedaron er et antiarytmikum som blokkerer flere ionekanaler i hjertet. TxGNN-modellen predikerer at det kan ha effekt ved **hjerneslag (stroke disorder)**. Det finnes **ingen registrerte kliniske studier** og **20 publikasjoner** i datagrunnlaget. Ingen av dem tester dronedaron mot hjerneslag som egen indikasjon. Evidensnivået er **L4**.
+
+---
 
 ## Hurtigoversikt
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Atrieflimmer |
+| Opprinnelig indikasjon | Atrial Fibrillation |
 | Predikert ny indikasjon | Hjerneslag (stroke disorder) |
-| TxGNN-prediksjonsscore | 0,9997 |
-| Evidensnivå | L3 |
+| TxGNN-prediksjonsscore | 0.9997 |
+| Evidensnivå | L4 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
-| Antall tillatelser | 1 (avregistrert) |
-| Anbefalt beslutning | Hold |
+| Anbefalt beslutning | Avvent |
+
+---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Ut fra kjent informasjon er dronedaron en antiarytmika med flere ionekanalblokkerende egenskaper (flere kanaler, i likhet med amiodaron, men uten jod). Effekten ved atrieflimmer er dokumentert.
+Detaljerte data om virkningsmekanisme (MOA) er ikke tilgjengelige i datagrunnlaget. Dronedaron er likevel kjent som et antiarytmikum med flere ionekanaleffekter. Hjerneslag er en velkjent komplikasjon av den hjerterytmelidelsen legemidlet brukes mot, fordi blodpropper fra hjertet kan føre til slag. Bedre rytmekontroll kan derfor tenkes å redusere slagrisikoen indirekte. Den høye modellscoren gjenspeiler trolig denne sammenhengen mellom rytmelidelse og slag, ikke en påvist direkte nevrobeskyttende effekt.
 
-Atrieflimmer er en viktig årsak til kardioemboliske hjerneslag. Rytmekontroll kan derfor indirekte redusere slagrisikoen. Post hoc-analyser av ATHENA-studien antyder færre slag ved paroksysmalt eller vedvarende atrieflimmer. En eksperimentell studie beskriver dessuten mulige beskyttende effekter ved iskemi/reperfusjonsskade i hjerte og hjerne, samt antikoagulerende og blodplatehemmende effekter uavhengig av den antiarytmiske virkningen.
+Ett prekliniske studie (PMID 28992468) tyder på at dronedaron kan ha antikoagulerende og blodplatehemmende effekter uavhengig av den antiarytmiske virkningen. Det kan være en mulig direkte mekanisme, men det er ikke bekreftet hos pasienter.
 
-Den høye TxGNN-scoren gjenspeiler trolig sammenhengen mellom atrieflimmer og hjerneslag, ikke en dokumentert direkte nevrobeskyttende effekt. Ingen studie har testet dronedaron med hjerneslag som primær indikasjon. PALLAS-studien viste dessuten økt forekomst av slag og kardiovaskulære hendelser ved permanent atrieflimmer.
+Det finnes viktige motargumenter. Dronedaron økte risikoen for slag og kardiovaskulære hendelser hos pasienter med permanent form av rytmelidelsen (PALLAS-studien). Bruken er også begrenset ved dekompensert hjertesvikt. Mange pasienter med høy slagrisiko faller dermed utenfor aktuell bruk.
 
-## Kliniske studier
+Evidensnivået settes til L4. Slag forekommer bare som utfallsmål i studier av rytmelidelsen (blant annet PMID 28496906 og 40387892), og det finnes kun en prekliniske mekanismestudie (PMID 28992468). Ingen studie tester dronedaron direkte mot hjerneslag.
 
-Det finnes for øyeblikket ingen relaterte kliniske studier registrert.
+---
+
+## Evidens fra kliniske studier
+
+Det er for tiden ingen relaterte kliniske studier registrert.
+
+---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfunn |
+| PMID | År | Type | Tidsskrift | Hovfunn |
 |------|-----|------|------|---------|
-| [22082198](https://pubmed.ncbi.nlm.nih.gov/22082198/) | 2011 | RCT (PALLAS) | N Engl J Med | Dronedaron ved høyrisiko permanent atrieflimmer; studien testet om store vaskulære hendelser kunne reduseres, men viste økt risiko for slag og kardiovaskulære hendelser |
-| [22149318](https://pubmed.ncbi.nlm.nih.gov/22149318/) | 2011 | Metaanalyse (post hoc, ATHENA) | Am J Cardiovasc Drugs | Antyder redusert slagrisiko ved paroksysmalt eller vedvarende atrieflimmer |
-| [20396635](https://pubmed.ncbi.nlm.nih.gov/20396635/) | 2010 | Oversikt | Clin Interv Aging | Gjennomgang av dronedarons effekt på slagreduksjon ved atrieflimmer/flutter |
-| [28992468](https://pubmed.ncbi.nlm.nih.gov/28992468/) | 2017 | Eksperimentell studie | Atherosclerosis | Dronedaron har antikoagulerende og blodplatehemmende effekter uavhengig av antiarytmisk virkning |
-| [37485722](https://pubmed.ncbi.nlm.nih.gov/37485722/) | 2023 | Kohortestudie | Circ Arrhythm Electrophysiol | Sammenligning av dronedaron og sotalol hos veteraner med atrieflimmer |
-| [40387892](https://pubmed.ncbi.nlm.nih.gov/40387892/) | 2025 | Kohortestudie | Clin Res Cardiol | Sikkerhet og effekt av amiodaron og dronedaron ved tidlig rytmekontroll i EAST-AFNET 4 |
-| [35293087](https://pubmed.ncbi.nlm.nih.gov/35293087/) | 2022 | Post hoc-analyse (ATHENA) | Eur J Heart Fail | Dronedaron ved atrieflimmer med hjertesvikt og bevart eller mildt redusert ejeksjonsfraksjon |
-| [41152878](https://pubmed.ncbi.nlm.nih.gov/41152878/) | 2025 | Kohortestudie | BMC Med | Samtidig bruk av DOAK og interagerende antiarytmika og risiko for slag og blødning |
-| [22366819](https://pubmed.ncbi.nlm.nih.gov/22366819/) | 2012 | Prekliniske data | Cardiovasc Drugs Ther | Pleiotrope effekter på iskemi/reperfusjonsskade i hjerte og hjerne |
-| [22433576](https://pubmed.ncbi.nlm.nih.gov/22433576/) | 2012 | Retningslinje | Can J Cardiol | Oppdaterte anbefalinger for slagforebygging og rate-/rytmekontroll ved atrieflimmer |
+| [22082198](https://pubmed.ncbi.nlm.nih.gov/22082198/) | 2011 | RCT (PALLAS) | N Engl J Med | Dronedaron hos høyrisikopasienter med permanent rytmelidelse; hovedmålet var store vaskulære hendelser |
+| [28992468](https://pubmed.ncbi.nlm.nih.gov/28992468/) | 2017 | Prekliniske/mekanistisk | Atherosclerosis | Antikoagulerende og blodplatehemmende effekter uavhengig av den antiarytmiske virkningen |
+| [28496906](https://pubmed.ncbi.nlm.nih.gov/28496906/) | 2013 | Retrospektiv kohort | J Atr Fibrillation | Risiko for kardiovaskulære hendelser, slag, hjertesvikt, lungesykdom og leverskade sammenlignet med amiodaron og andre antiarytmika |
+| [40387892](https://pubmed.ncbi.nlm.nih.gov/40387892/) | 2025 | Kohort | Clin Res Cardiol | Langtidssikkerhet og effekt av dronedaron og amiodaron ved tidlig rytmekontroll i EAST-AFNET 4 |
+| [37485722](https://pubmed.ncbi.nlm.nih.gov/37485722/) | 2023 | Kohort | Circ Arrhythm Electrophysiol | Dronedaron sammenlignet med sotalol hos veteraner som ikke tidligere hadde brukt antiarytmika |
+| [38782070](https://pubmed.ncbi.nlm.nih.gov/38782070/) | 2024 | Observasjonsstudie | Int J Cardiol | Kardiovaskulære utfall ved bruk av antiarytmika hos pasienter med samtidig koronarsykdom |
+| [35293087](https://pubmed.ncbi.nlm.nih.gov/35293087/) | 2022 | Post hoc-analyse av RCT (ATHENA) | Eur J Heart Fail | Dronedaron hos pasienter med samtidig hjertesvikt med bevart eller mildt redusert ejeksjonsfraksjon |
+| [20730068](https://pubmed.ncbi.nlm.nih.gov/20730068/) | 2010 | Oversikt | Vasc Health Risk Manag | Godkjenning og effekt; en post hoc-analyse av ATHENA antydet redusert slagrisiko |
+| [22433576](https://pubmed.ncbi.nlm.nih.gov/22433576/) | 2012 | Retningslinje | Can J Cardiol | Anbefalinger om slagforebygging og rate-/rytmekontroll |
+| [22166900](https://pubmed.ncbi.nlm.nih.gov/22166900/) | 2012 | Oversikt | Lancet | Moderne behandling av rytmelidelsen med vekt på slagrisikovurdering og antikoagulasjon |
 
-## Informasjon om det norske markedet
+---
+
+## Markedsinformasjon for Norge
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
 | EMEA/H/C/001043 | Multaq (godkjent) | Ikke oppgitt | Atrieflimmer |
 
+---
+
 ## Sikkerhetsvurderinger
 
-Pakningsvedlegget er ikke tilgjengelig i dataene, så følgende bygger på kunnskapsgrafen og interaksjonsdatabasen, ikke på preparatomtalen.
+- **Legemiddelinteraksjoner:** Datagrunnlaget inneholder 100 registrerte interaksjoner. Blant dem med alvorlighetsgrad «alvorlig» er hydrokortison, amfotericin B (inkludert lipidkompleks-, kolesterylsulfat- og liposomale formuleringer), loperamid, klaritromycin, pikosulfat, polyetylenglykol med elektrolytter og dolasetron. Flere har «moderat» alvorlighetsgrad, blant annet famotidin, cimetidin, aprepitant, deksametason, budesonid, saksagliptin og bisakodyl.
+- **Øvrige forhold:** Dronedaron økte risikoen for slag og kardiovaskulære hendelser ved permanent form av rytmelidelsen (PALLAS), og bruken er begrenset ved dekompensert hjertesvikt. Samtidig bruk med direkte orale antikoagulantia er studert på grunn av mulige farmakokinetiske interaksjoner (PMID 41152878).
 
-- **Kontraindikasjoner (fra kunnskapsgraf, ikke preparattekst)**: langt QT-syndrom (inkl. familiært), torsades de pointes, leversvikt, kaliummangel, atrioventrikulært blokk, sick sinus-syndrom (inkl. familiært).
-- **Kjente forbehold fra litteraturen**: Dronedaron er kontraindisert ved permanent atrieflimmer og dekompensert hjertesvikt (PALLAS, ANDROMEDA), noe som begrenser bruken i mange populasjoner med slagrisiko.
-- **Legemiddelinteraksjoner**: 100 interaksjoner funnet. Eksempler på alvorlige (Major): hydrokortison, amfotericin B (inkl. lipidkompleks, kolesterylsulfat og liposomal), loperamid, klaritromycin, pikosulfat, polyetylenglykol (3350 med elektrolytter) og dolasetron. Eksempler på moderate: famotidin, alvimopan, aprepitant, deksametason, bisakodyl, budesonid, cimetidin, saksagliptin og lakserolje. Det foreligger også data som peker mot interaksjon med DOAK.
+For fullstendig sikkerhetsinformasjon, se preparatomtalen.
+
+---
 
 ## Konklusjon og neste steg
 
-**Beslutning: Hold**
+**Beslutning: Avvent**
 
 **Begrunnelse:**
-Evidensen for hjerneslag er indirekte (post hoc-analyser og oversikter knyttet til atrieflimmerpopulasjonen), og ingen kliniske studier tester dronedaron for hjerneslag. Samtidig er produktet avregistrert i Norge, og PALLAS viste økt slagrisiko ved permanent atrieflimmer. Dette er derfor et forskningsspørsmål, ikke en ny indikasjon.
+Prediksjonen er først og fremst støttet av sammenhengen mellom hjerterytmelidelse og slag. Ingen studie har testet dronedaron mot hjerneslag som egen indikasjon, og kun en prekliniske studie antyder en mulig direkte mekanisme. Samtidig finnes det sikkerhetssignaler (økt slag- og hendelsesrisiko i PALLAS), så evidensen holder ikke for å gå videre nå.
 
-**For å gå videre kreves følgende:**
-- Pakningsvedlegg med varsler og kontraindikasjoner (kritisk mangel som blokkerer sikkerhetsscreening)
-- Data om virkningsmekanisme (f.eks. fra DrugBank)
-- Prospektiv studie som tester slagforebygging ved paroksysmalt/vedvarende atrieflimmer, med klar avgrensning mot permanent atrieflimmer og dekompensert hjertesvikt
-- Avklaring av regulatorisk status og tilgjengelighet i Norge
-- Vurdering av interaksjon med DOAK og andre antikoagulantia
+**For å gå videre trengs:**
+- Studier som direkte undersøker slagforebygging eller slagutfall som primært endepunkt, helst randomiserte
+- Data om virkningsmekanisme (MOA) som kan underbygge en eventuell direkte effekt på blodpropp- og iskemimekanismer
+- Fullstendig gjennomgang av preparatomtalen for advarsler og kontraindikasjoner
+- En vurdering av hvilke pasientgrupper som i praksis kan være aktuelle, gitt begrensningene ved permanent rytmelidelse og dekompensert hjertesvikt
+- En plan for oppfølging av interaksjoner, særlig med antikoagulantia
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Elbasvir
-parent: Moderat evidens (L3-L4)
+parent: Kun modellprediksjon (L5)
 nav_order: 144
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
-description: "Elbasvir: predikert ny indikasjon Hepatitt B-virusinfeksjon (evidensnivå L4). Opprinnelig indikasjon: Kronisk hepatitt C"
+last_modified_at: 2026-11-04
 monitor_inn: "ELBASVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Elbasvir: predikert ny indikasjon Hepatitt B-virusinfeksjon (hepatitis B virus infection) (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene"
 ---
 
 # Elbasvir
 {: .fs-9 }
 
-Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidensnivå: **L4** | Predikerte indikasjoner: **10** stk.
 
 </div>
 
-## Elbasvir: Fra kronisk hepatitt C til hepatitt B-virusinfeksjon
+## Elbasvir: Hepatitt B-virusinfeksjon (hepatitis B virus infection)
 {: .text-alpha }
 
-## Oppsummering i én setning
+## Oppsummering
 
-Elbasvir er en NS5A-hemmer som opprinnelig brukes mot kronisk hepatitt C, i kombinasjon med grazoprevir.
-TxGNN-modellen forutsier at legemidlet kan ha effekt mot **hepatitt B-virusinfeksjon**, men de innsamlede studiene gjelder hepatitt C og gir **ingen direkte støtte** for hepatitt B.
-Evidensen er derfor svak (nivå L4), og anbefalingen er **Hold**.
+Elbasvir er en hemmer av HCV-proteinet NS5A og brukes i kombinasjon med grazoprevir mot kronisk hepatitt C.
+TxGNN-modellen predikerer at legemidlet kan ha effekt mot **hepatitt B-virusinfeksjon (hepatitis B virus infection)**.
+Ingen studier har undersøkt elbasvir ved hepatitt B, så dette er en ren modellprediksjon (evidensnivå **L5**).
 
 ---
 
@@ -48,10 +48,10 @@ Evidensen er derfor svak (nivå L4), og anbefalingen er **Hold**.
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Kronisk hepatitt C |
-| Predikert ny indikasjon | Hepatitt B-virusinfeksjon |
-| TxGNN-prediksjonsscore | 0,9971 |
-| Evidensnivå | L4 |
+| Opprinnelig indikasjon | Ikke registrert i de lokale dataene |
+| Predikert ny indikasjon | Hepatitt B-virusinfeksjon (hepatitis B virus infection) |
+| TxGNN-prediksjonsscore | 0.9971 |
+| Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
@@ -60,45 +60,38 @@ Evidensen er derfor svak (nivå L4), og anbefalingen er **Hold**.
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Data om virkningsmekanisme er ikke tilgjengelig i de innsamlede dataene. Elbasvir er kjent som en hemmer av HCV-proteinet NS5A og brukes i fastdosekombinasjon med proteasehemmeren grazoprevir (Zepatier). Effekten ved hepatitt C er godt dokumentert.
+Data om virkningsmekanisme er ikke tilgjengelige i de sammenstilte dataene. Elbasvir er kjent som en NS5A-hemmer mot hepatitt C-viruset (HCV). Hepatitt B-viruset (HBV) har ingen kjent NS5A-homolog, og det finnes dermed ikke noe tydelig felles målprotein.
 
-Hepatitt B-viruset har imidlertid ingen kjent NS5A-homolog, så det finnes ikke noe tydelig felles legemiddelmål. Den høye TxGNN-scoren gjenspeiler trolig nærhet i nettverket mellom hepatittvirus, ikke en påvist antiviral effekt mot HBV. Prediksjonen bør derfor leses som en hypotese, ikke som et funn.
-
-Blant de øvrige prediksjonene er det ett mekanismespesifikt signal: en in vitro-studie fra 2026 (PMID 42347219) som rapporterer at elbasvir hemmer internalisering av hepatitt E-virus, og sammen med ribavirin gir vedvarende virussuppresjon. Dette er kun prekliniske data, og studiedesignet er utledet fra tittelen.
+Den høye scoren gjenspeiler trolig nærhet mellom virussykdommer i nettverket modellen bygger på, ikke en påvist antiviral effekt mot HBV. Den mekanistiske sammenhengen er derfor svak og bør betraktes som en hypotese.
 
 ---
 
-## Klinisk studieevidens
+## Evidens fra kliniske studier
 
-Studiene som er knyttet til hepatitt B-prediksjonen, er begge hepatitt C-studier. Ingen av dem har HBV som endepunkt.
+Ingen registrerte kliniske studier tester elbasvir ved hepatitt B. De to studiene som er knyttet til prediksjonen, gjelder andre tilstander:
 
 | Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT02940496](https://clinicaltrials.gov/study/NCT02940496) | Fase 2 | Fullført | 15 | Pembrolizumab som andrelinjebehandling ved hepatocellulært karsinom, HCV-positive og -negative. Elbasvir er tilfeldig. Ingen HBV-data. |
-| [NCT02115321](https://clinicaltrials.gov/study/NCT02115321) | Fase 2/3 | Fullført | 40 | Grazoprevir + elbasvir ved HCV med avansert cirrhose (Child-Pugh B). Gjelder den opprinnelige indikasjonen, ikke HBV. |
+| [NCT02940496](https://clinicaltrials.gov/study/NCT02940496) | Fase 2 | Fullført | 15 | Pembrolizumab som andrelinjebehandling ved hepatocellulært karsinom, hos HCV-positive og HCV-negative pasienter. Elbasvir er ikke studert; ingen HBV-data. |
+| [NCT02115321](https://clinicaltrials.gov/study/NCT02115321) | Fase 2/3 | Fullført | 40 | Grazoprevir + elbasvir ved kronisk hepatitt C med avansert cirrhose (Child-Pugh B). Gjelder hepatitt C, ikke hepatitt B. |
 
 ---
 
 ## Litteraturevidens
 
-Av 18 publikasjoner knyttet til hepatitt B er nesten alle oversikter eller artikler om hepatitt C. Nedenfor vises de mest relevante.
+Litteraturen er nesten utelukkende knyttet til hepatitt C. Ingen publikasjon viser effekt av elbasvir mot hepatitt B.
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [25529080](https://pubmed.ncbi.nlm.nih.gov/25529080/) | 2015 | Oversikt | Liver International | Mot utryddelse av HCV og kurativ behandling av HBV (generell oversikt, ingen elbasvir-data) |
-| [26904396](https://pubmed.ncbi.nlm.nih.gov/26904396/) | 2016 | Oversikt | Acta Pharm Sin B | Oversikt over direktevirkende antivirale midler mot HCV |
-| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | Oversikt | Clin Pharmacokinet | Farmakokinetiske og farmakodynamiske vurderinger ved HCV-behandling |
-| [34902265](https://pubmed.ncbi.nlm.nih.gov/34902265/) | 2022 | Kohort (fase 4) | Antimicrob Agents Chemother | Grazoprevir/elbasvir hos lever- og nyretransplanterte med HCV genotype 1b |
-| [32039536](https://pubmed.ncbi.nlm.nih.gov/32039536/) | 2020 | Kohort | J Viral Hepat | Reell erfaring i Taiwan, med fokus på lever- og nyrebivirkninger |
-| [29077864](https://pubmed.ncbi.nlm.nih.gov/29077864/) | 2018 | RCT | Clin Infect Dis | Gjenbehandling med sofosbuvir + grazoprevir/elbasvir + ribavirin etter tidligere svikt (HCV) |
-| [32306039](https://pubmed.ncbi.nlm.nih.gov/32306039/) | 2020 | Kohort | J Antimicrob Chemother | Grazoprevir/elbasvir ved nylig ervervet HCV hos MSM |
-| [41734217](https://pubmed.ncbi.nlm.nih.gov/41734217/) | 2025 | Retrospektiv | Klin Mikrobiol Infekc Lek | Antiviral behandling av kronisk hepatitt B og C hos barn i Ostrava |
-| [40414600](https://pubmed.ncbi.nlm.nih.gov/40414600/) | 2025 | Tverrsnitt | Ann Hepatol | Global prissammenligning av hepatitt B- og C-legemidler |
-| [32925725](https://pubmed.ncbi.nlm.nih.gov/32925725/) | 2020 | Kohort | Medicine | Forekomst av unormal leverfunksjon under DAA-behandling ved HCV |
+| [34902265](https://pubmed.ncbi.nlm.nih.gov/34902265/) | 2022 | Kohort (fase 4) | Antimicrob Agents Chemother | Grazoprevir/elbasvir hos lever- og nyretransplanterte med HCV genotype 1b. |
+| [32039536](https://pubmed.ncbi.nlm.nih.gov/32039536/) | 2020 | Registerstudie | J Viral Hepat | Reelle data fra Taiwan om effekt og lever-/nyresikkerhet ved HCV. |
+| [26904396](https://pubmed.ncbi.nlm.nih.gov/26904396/) | 2016 | Oversikt | Acta Pharm Sin B | Oversikt over direktevirkende antivirale midler mot HCV. |
+| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | Oversikt | Clin Pharmacokinet | Farmakokinetikk og farmakodynamikk ved HCV-behandling. |
+| [25529080](https://pubmed.ncbi.nlm.nih.gov/25529080/) | 2015 | Oversikt | Liver Int | Utryddelse av HCV og kurativ behandling av HBV; ingen data om elbasvir ved HBV. |
 
 ---
 
-## Informasjon om det norske markedet
+## Markedsinformasjon for Norge
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -106,11 +99,14 @@ Av 18 publikasjoner knyttet til hepatitt B er nesten alle oversikter eller artik
 
 ---
 
-## Sikkerhetsmomenter
+## Sikkerhetsvurderinger
 
-**Legemiddelinteraksjoner:** Det er registrert 15 interaksjoner (DDInter). Én er klassifisert som alvorlig (**Major**): **ozanimod**. De øvrige 14 er moderate: metreleptin, betriksaban, dikumarol, lusutrombopag, warfarin, griseofulvin, elagolix, somatrem, somatotropin, alpelisib, aminoglutetimid, binimetinib, ivosidenib og talazoparib.
+**Legemiddelinteraksjoner:** Det er registrert 15 interaksjoner, hvorav én er alvorlig (Major) og 14 er moderate.
 
-Se preparatomtalen for øvrig sikkerhetsinformasjon, inkludert advarsler og kontraindikasjoner.
+- **Alvorlig:** ozanimod
+- **Moderate (utvalg):** warfarin, dikumarol, betriksaban, alpelisib, binimetinib, ivosidenib, talazoparib, elagolix, griseofulvin, aminoglutetimid, metreleptin, lusutrombopag, somatropin, somatrem
+
+For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 ---
 
@@ -119,13 +115,14 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon, inkludert advarsler og kont
 **Beslutning: Hold**
 
 **Begrunnelse:**
-- Prediksjonen mot hepatitt B støttes ikke av direkte data. Alle tilknyttede studier og artikler gjelder HCV, og det finnes ikke noe kjent felles legemiddelmål. Produktet er dessuten trukket tilbake fra det norske markedet.
+Prediksjonen er basert utelukkende på modellen (evidensnivå L5). Ingen studie har undersøkt elbasvir ved hepatitt B, HBV mangler et NS5A-lignende mål, og tilgjengelige studier gjelder hepatitt C.
 
 **For å gå videre kreves følgende:**
-- Data om virkningsmekanisme (MOA) for elbasvir
-- Preparatomtale med advarsler og kontraindikasjoner
-- Prekliniske data (in vitro) som viser antiviral aktivitet mot HBV
-- Vurdering av om den mer konkrete hepatitt E-hypotesen (PMID 42347219) bør følges opp som et eget forskningsspørsmål. Den har kun in vitro-støtte, og andre prediksjoner (hepatitt A, HIV, flavivirus og andre) har ingen reell støtte.
+- Laboratorie- (in vitro) studier som viser antiviral aktivitet mot HBV
+- Data om virkningsmekanisme fra DrugBank
+- Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner)
+- Vurdering av interaksjonsrisiko ved eventuell bruk hos HBV-pasienter
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

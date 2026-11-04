@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sorafenib
-parent: Høy evidens (L1-L2)
+parent: Kun modellprediksjon (L5)
 nav_order: 390
-evidence_level: L2
+evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
-description: "Sorafenib: predikert ny indikasjon Liposarkom (evidensnivå L2). Opprinnelig indikasjon: Hepatocellulært karsinom"
+last_modified_at: 2026-11-04
 monitor_inn: "SORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
+description: "Sorafenib: predikert ny indikasjon Liposarkom (liposarcoma) (evidensnivå L5). Opprinnelig indikasjon: Carcinoma, Hepatocellular"
 ---
 
 # Sorafenib
 {: .fs-9 }
 
-Evidensnivå: **L2** | Predikerte indikasjoner: **6** stk.
+Evidensnivå: **L5** | Predikerte indikasjoner: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidensnivå: **L2** | Predikerte indikasjoner: **6** stk.
 
 </div>
 
-## Sorafenib: Fra hepatocellulært karsinom og nyrecellekarsinom til liposarkom
+## Sorafenib: Liposarkom (liposarcoma)
 {: .text-alpha }
 
-## Oppsummering
+## Oppsummering i én setning
 
-Sorafenib er en multikinasehemmer som opprinnelig er godkjent for behandling av hepatocellulært karsinom og nyrecellekarsinom.
-TxGNN-modellen predikerer at legemidlet kan ha effekt på **liposarkom**,
-med **1 klinisk studie** (fase 2, ikke spesifikk for liposarkom) og **8 publikasjoner** i dataene som er samlet inn for denne rapporten. Evidensen for akkurat liposarkom er begrenset.
+Sorafenib er en multikinasehemmer som brukes mot kreft. TxGNN-modellen forutsier at legemidlet kan ha effekt ved **liposarkom (liposarcoma)**. De innsamlede dataene inneholder **1 klinisk studie** på bløtvevssarkom generelt og **8 publikasjoner**, men ingen studie som direkte tester sorafenib ved liposarkom. Evidensnivået er derfor **L5**.
 
 ---
 
@@ -48,32 +46,29 @@ med **1 klinisk studie** (fase 2, ikke spesifikk for liposarkom) og **8 publikas
 
 | Punkt | Innhold |
 |------|------|
-| Opprinnelig indikasjon | Hepatocellulært karsinom; nyrecellekarsinom |
-| Predikert ny indikasjon | Liposarkom |
-| TxGNN-prediksjonsscore | 0,9982 |
-| Evidensnivå | L2 |
+| Opprinnelig indikasjon | Carcinoma, Hepatocellular;Carcinoma, Renal Cell |
+| Foreslått ny indikasjon | Liposarkom (liposarcoma) |
+| TxGNN-prediksjonsscore | 0.9982 |
+| Evidensnivå | L5 |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
-| Antall tillatelser | 1 (avregistrert) |
 | Anbefalt beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
 
-Sorafenib hemmer flere kinaser, blant annet RAF/MEK/ERK-signalveien, VEGFR, PDGFR og KIT. Data om virkningsmekanisme fra legemiddeldatabasen mangler for denne rapporten, men mekanismen er beskrevet i den mekanistiske vurderingen av prediksjonen. Angiogenese, PDGFR-signalering og MAPK-aktivitet er plausible drivere i bløtdelssarkomer.
+Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de innsamlede dataene. Sorafenib er likevel kjent som en multikinasehemmer som blokkerer RAF/MEK/ERK-signalveien samt VEGFR, PDGFR og KIT. Disse signalveiene (angiogenese, PDGFR-signalering og MAPK-aktivitet) antas å kunne drive vekst i bløtvevssarkomer.
 
-Prekliniske data støtter biologisk plausibilitet. Sorafenib hemmet vekst og MAPK-signalering i celler fra maligne perifere nerveskjedesvulster, og det finnes xenograft-modeller av dedifferensiert liposarkom der PI3K-veien er relevant. Både hepatocellulært karsinom, nyrecellekarsinom og sarkomer er svulster som er avhengige av angiogenese og kinasesignalering.
-
-Den kliniske aktiviteten ser imidlertid ut til å være avhengig av histologi og er begrenset i liposarkom spesifikt. Prediksjonen bør derfor betraktes som en forskningshypotese.
+Prekliniske data gir en viss biologisk plausibilitet: sorafenib hemmet vekst og MAPK-signalering i celler fra ondartet perifer nerveskjedesvulst, og modeller av dedifferensiert liposarkom viser PTEN-nedregulering og respons på hemming av PI3K-signalveien. Disse studiene gjelder imidlertid ikke sorafenib ved liposarkom i mennesker. Klinisk aktivitet av sorafenib ved sarkom ser ut til å variere med histologisk type, og den er begrenset for liposarkom spesielt.
 
 ---
 
-## Evidens fra kliniske studier
+## Klinisk evidens
 
 | Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
-| [NCT00217620](https://clinicaltrials.gov/study/NCT00217620) | Fase 2 | Fullført | 51 | Sorafenib ved avanserte bløtdelssarkomer. Flere sarkomsubtyper inkludert, liposarkom sannsynligvis en liten undergruppe. Resultatene er ikke liposarkom-spesifikke. |
+| [NCT00217620](https://clinicaltrials.gov/study/NCT00217620) | Fase 2 | Fullført | 51 | Sorafenib ved avansert bløtvevssarkom. Flere sarkomtyper inngikk, inkludert liposarkom, men resultatene er ikke spesifikke for liposarkom. |
 
 ---
 
@@ -81,17 +76,17 @@ Den kliniske aktiviteten ser imidlertid ut til å være avhengig av histologi og
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
-| [21751200](https://pubmed.ncbi.nlm.nih.gov/21751200/) | 2012 | Fase 2-studie (enarmet, flere histologier) | Cancer | SWOG S0505: sorafenib ved avanserte bløtdelssarkomer |
-| [24554062](https://pubmed.ncbi.nlm.nih.gov/24554062/) | 2014 | Fase 1-studie | Ann Surg Oncol | Neoadjuvant strålebehandling pluss sorafenib ved lokalavansert ekstremitetssarkom |
-| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Oversikt | Ann Oncol | Histologistyrt behandling av bløtdelssarkomer |
-| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Oversikt | Magy Onkol | Medikamentell behandling av bløtdelssarkomer etter histologisk subtype |
-| [18413802](https://pubmed.ncbi.nlm.nih.gov/18413802/) | 2008 | Preklinisk | Mol Cancer Ther | Sorafenib hemmer vekst og MAPK-signalering i MPNST-celler og dedifferensierte liposarkomcellelinjer |
-| [23416162](https://pubmed.ncbi.nlm.nih.gov/23416162/) | 2013 | Preklinisk | Am J Pathol | Xenograft-modeller av dedifferensiert liposarkom, PTEN-nedregulering og respons på PI3K-hemming |
+| [21751200](https://pubmed.ncbi.nlm.nih.gov/21751200/) | 2012 | Fase 2-studie (enarmet, flere sarkomtyper) | Cancer | SWOG S0505: sorafenib ved avansert bløtvevssarkom |
+| [24554062](https://pubmed.ncbi.nlm.nih.gov/24554062/) | 2014 | Fase 1-studie | Ann Surg Oncol | Neoadjuvant strålebehandling pluss sorafenib ved lokalavansert bløtvevssarkom i ekstremitetene |
+| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Oversikt | Ann Oncol | Histologistyrt behandling av bløtvevssarkom |
+| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Oversikt | Magyar onkologia | Medikamentell behandling av bløtvevssarkom etter histologisk type |
+| [18413802](https://pubmed.ncbi.nlm.nih.gov/18413802/) | 2008 | Preklinisk | Mol Cancer Ther | Sorafenib hemmer vekst og MAPK-signalering i celler fra nerveskjedesvulst og dedifferensiert liposarkom |
+| [23416162](https://pubmed.ncbi.nlm.nih.gov/23416162/) | 2013 | Preklinisk | Am J Pathol | Xenograftmodeller av dedifferensiert liposarkom; PTEN-nedregulering og respons på PI3K-hemming |
 | [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Oversikt (PDOX-modeller) | Front Oncol | Sarkommodeller og kombinasjonsbehandling med palbociklib |
 
 ---
 
-## Informasjon om det norske markedet
+## Informasjon om markedet i Norge
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -104,19 +99,20 @@ Den kliniske aktiviteten ser imidlertid ut til å være avhengig av histologi og
 | Punkt | Innhold |
 |------|------|
 | Cytotoksisitetsklassifisering | Målrettet behandling (multikinasehemmer) |
-| Risiko for myelosuppresjon | Se pakningsvedlegget for advarsler og forsiktighetsregler |
-| Emetogenisitet | Se pakningsvedlegget for advarsler og forsiktighetsregler |
+| Myelosuppresjonsrisiko | Se preparatomtalen for advarsler og forsiktighetsregler |
+| Emetogenisitetsklassifisering | Se preparatomtalen for advarsler og forsiktighetsregler |
 | Overvåkingspunkter | Blodstatus, lever- og nyrefunksjon, blodtrykk |
-| Håndtering og beskyttelse | Følg lokale retningslinjer for håndtering av antineoplastiske legemidler |
+| Håndteringsbeskyttelse | Følg gjeldende retningslinjer for håndtering av kreftlegemidler |
 
 ---
 
 ## Sikkerhetsvurderinger
 
-- **Kontraindikasjoner fra kunnskapsgrafen (ikke fra preparatomtale):** Kunnskapsgrafen PrimeKG angir mulige kontraindikasjoner knyttet til hypertensjon, leversvikt, trombocytopeni, nøytropeni, agranulocytose, blodkoagulasjonssykdom, akutt koronarsyndrom, koronarsykdom, hjerteinfarkt, myokardiskemi, anemi, hypofosfatemi og pankreatitt. Dette er modellbaserte signaler og må verifiseres mot preparatomtalen.
-- **Legemiddelinteraksjoner:** 100 interaksjoner er registrert. Blant eksemplene er **dolasetron** (alvorlig), samt moderate interaksjoner med blant annet klaritromycin, levofloksacin, deksametason, palonosetron, naltrekson og loperamid. Flere avføringsmidler (bisakodyl, laktulose, laktitol) har også moderate interaksjoner.
+**Legemiddelinteraksjoner** (100 registrerte i de innsamlede dataene; et utvalg vises):
+- **Alvorlig:** dolasetron
+- **Moderat:** famotidin, loperamid, deksametason, bisakodyl, klaritromycin, levofloksacin, palonosetron, naltrekson, laktulose, metronidazol (mindre)
 
-Detaljert informasjon om advarsler og kontraindikasjoner fra preparatomtalen mangler, og det bør hentes inn før videre vurdering.
+Ytterligere sikkerhetsinformasjon, inkludert kontraindikasjoner og advarsler, finnes i preparatomtalen.
 
 ---
 
@@ -125,28 +121,14 @@ Detaljert informasjon om advarsler og kontraindikasjoner fra preparatomtalen man
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den eneste kliniske studien (fase 2, n=51) omfatter flere sarkomsubtyper og gir ikke liposarkom-spesifikke resultater, og den kliniske aktiviteten i liposarkom ser ut til å være begrenset. Sorafenib er markedsført i Norge med 1 gyldig markedsføringstillatelse av 1, men viktige sikkerhetsdata fra preparatomtalen mangler.
+Ingen studie har testet sorafenib spesifikt ved liposarkom. Den eneste kliniske studien omfatter bløtvevssarkom generelt, og de prekliniske dataene gjelder andre svulsttyper eller modeller. Prediksjonen bygger derfor kun på modellen og biologisk plausibilitet (evidensnivå L5).
 
-**For å gå videre trengs følgende:**
-- Liposarkom-spesifikke data (undergruppeanalyse fra SWOG S0505/NCT00217620)
-- Preparatomtale med advarsler og kontraindikasjoner
-- Detaljerte data om virkningsmekanisme fra legemiddeldatabasen
-- Avklaring av tilgjengelighet i Norge (avregistrert preparat)
-- Vurdering av fordeler og risiko opp mot etablert behandling (f.eks. trabektedin og doksorubicin)
+**For å gå videre kreves følgende:**
+- Data fra liposarkom-undergruppen i fase 2-studiene på bløtvevssarkom
+- Dokumentasjon av virkningsmekanismen
+- Sikkerhetsdata fra preparatomtalen
+- Dedikert studie av sorafenib ved liposarkom før en videre vurdering
 
----
-
-## Andre predikerte indikasjoner (kort oversikt)
-
-| Rang | Sykdom | Score | Evidensnivå | Anbefaling |
-|------|------|------|------|------|
-| 2 | Ovarielt myksoid liposarkom | 0,9976 | L5 | Hold |
-| 7 | Brystkreft hos kvinner | 0,9953 | L5 | Forskningsspørsmål |
-| 8 | Nyrebekkenkarsinom | 0,9940 | L2 | Forskningsspørsmål |
-| 9 | Vulvasarkom | 0,9937 | L5 | Hold |
-| 10 | Dermatofibrosarcoma protuberans | 0,9935 | L4 | Forskningsspørsmål |
-
-Brystkreft har den sterkeste kliniske evidensen blant alternativene, blant annet den randomiserte fase 3-studien RESILIENCE ([PMID 28830796](https://pubmed.ncbi.nlm.nih.gov/28830796/)), men den har ikke ført til en positiv anbefaling. Dermatofibrosarcoma protuberans har en klar mekanistisk begrunnelse (PDGFR-beta-aktivering), men bare én kasuistikk støtter bruken.
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
