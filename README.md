@@ -24,17 +24,18 @@ Prediksjoner for legemiddelreposisjonering av legemidler med sentral markedsfør
 | **Unike legemidler** | 641 |
 | **Unike indikasjoner** | 17,041 |
 | **DDI-data** | 160,235 |
-| **FHIR-ressurser** | 466 MK / 2,395 CUD |
+| **FHIR-ressurser** | 557 MK / 3,048 CUD |
 
 ### Fordeling av evidensnivaaer
 
 | Evidensnivaa | Antall rapporter | Beskrivelse |
 |---------|-------|------|
-| **L1** | 0 | Flere Fase 3 RCT-er |
-| **L2** | 0 | Enkelt RCT eller flere Fase 2 |
-| **L3** | 0 | Observasjonelle studier |
-| **L4** | 0 | Prekliniske / mekanistiske studier |
-| **L5** | 466 | Kun beregningsbasert prediksjon |
+| **L1** | 7 | Flere Fase 3 RCT-er |
+| **L2** | 19 | Enkelt RCT eller flere Fase 2 |
+| **L3** | 14 | Observasjonelle studier |
+| **L4** | 24 | Prekliniske / mekanistiske studier |
+| **L5** | 368 | Kun beregningsbasert prediksjon |
+| **N/A** | 12 | Kun kjente bruksområder (ingen nye prediksjoner) |
 
 ### Etter kilde
 
@@ -70,8 +71,8 @@ uv run python scripts/run_kg_prediction.py
 
 | Metrikk | Verdi |
 |------|------|
-| EMA (sentrale markedsføringstillatelser) Totalt antall legemidler | 1,850 |
-| Kartlagt til DrugBank | 1,334 (72.1%) |
+| EMA (sentrale markedsføringstillatelser) Totalt antall legemidler | 1,862 |
+| Kartlagt til DrugBank | 1,397 (75.0%) |
 | Repositioneringskandidater | 2,395 |
 
 ### Dyp laering-metode
@@ -83,7 +84,7 @@ PYTHONPATH=src python -m notxgnn.predict.txgnn_model
 
 | Metrikk | Verdi |
 |------|------|
-| Totale DL-prediksjoner | 1,472,850 |
+| Totale DL-prediksjoner | 1,536,027 |
 | Unike legemidler | 641 |
 | Unike indikasjoner | 17,041 |
 
