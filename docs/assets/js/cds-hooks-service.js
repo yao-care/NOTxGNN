@@ -28,7 +28,7 @@
       {
         hook: 'order-sign',
         title: 'NOTxGNN Drug Interaction Check',
-        description: 'Checks prescriptions for potential drug interactions using DDInter 2.0',
+        description: 'Checks prescriptions against 15 built-in curated drug-interaction rules (DDInter consulted as a reference); not a full database lookup',
         id: 'notxgnn-ddi-check',
         prefetch: {
           patient: 'Patient/{{context.patientId}}',

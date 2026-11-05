@@ -24,9 +24,6 @@ Prediksjoner for legemiddelreposisjonering av legemidler med sentral markedsfør
 | **Unike legemidler** | 641 |
 | **Unike indikasjoner** | 17,041 |
 | **DDI-data** | 160,235 |
-| **DFI-data** | 857 |
-| **DHI-data** | 35 |
-| **DDSI-data** | 8,359 |
 | **FHIR-ressurser** | 466 MK / 2,395 CUD |
 
 ### Fordeling av evidensnivaaer
@@ -220,7 +217,7 @@ PYTHONPATH=src python -m notxgnn.predict.txgnn_model
 | **Kunnskapsgraf** | TxGNN KG | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM) | 17,080 diseases, 7,957 drugs |
 | **Legemiddeldatabase** | DrugBank | [DrugBank](https://go.drugbank.com/) | Kartlegging av legemiddelingredienser |
 | **Legemiddelinteraksjoner** | DDInter | [DDInter](https://ddinter2.scbdd.com/) | DDI-par |
-| **Legemiddelinteraksjoner** | Guide to PHARMACOLOGY | [IUPHAR/BPS](https://www.guidetopharmacology.org/) | Godkjente legemiddelinteraksjoner |
+| **Legemiddelinteraksjoner** | Guide to PHARMACOLOGY | [IUPHAR/BPS](https://www.guidetopharmacology.org/) | Legemiddel-target-data for godkjente legemidler (ikke interaksjoner) |
 | **Kliniske studier** | ClinicalTrials.gov | [CT.gov API v2](https://clinicaltrials.gov/data-api/api) | Register for kliniske studier |
 | **Kliniske studier** | WHO ICTRP | [ICTRP API](https://apps.who.int/trialsearch/api/v1/search) | Internasjonal plattform for kliniske studier |
 | **Litteratur** | PubMed | [NCBI E-utilities](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/) | Medisinsk litteratursok |
