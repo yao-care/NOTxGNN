@@ -680,7 +680,7 @@
           if (!response.ok) throw new Error('Failed to load search index');
 
           searchIndex = await response.json();
-          drugMapper = new NOTxGNN.DrugMapper(searchIndex);
+          drugMapper = new TwTxGNN.DrugMapper(searchIndex);
 
           console.log('Search index loaded:', searchIndex.drug_count, 'drugs');
 
@@ -759,11 +759,11 @@
         // Check DDI
         const ddiSection = document.getElementById('ddi-section');
         const ddiResults = document.getElementById('ddi-results');
-        if (NOTxGNN.DDIChecker && selectedDrugs.length >= 2) {
-          const ddiAlerts = NOTxGNN.DDIChecker.checkInteractions(selectedDrugs);
+        if (typeof TwTxGNN !== 'undefined' && TwTxGNN.DDIChecker && selectedDrugs.length >= 2) {
+          const ddiAlerts = TwTxGNN.DDIChecker.checkInteractions(selectedDrugs);
           if (ddiAlerts.length > 0) {
             ddiSection.style.display = 'block';
-            ddiResults.innerHTML = NOTxGNN.DDIChecker.formatAlertsHTML(ddiAlerts);
+            ddiResults.innerHTML = TwTxGNN.DDIChecker.formatAlertsHTML(ddiAlerts);
           } else {
             ddiSection.style.display = 'block';
             ddiResults.innerHTML = '<div class="ddi-no-alerts">✓ No known drug interaction alerts</div>';
@@ -775,7 +775,7 @@
         let html = '';
 
         for (const drugName of selectedDrugs) {
-          const match = drugMapper.searchNOTxGNN(drugName);
+          const match = drugMapper.findDrug(drugName);
 
           if (match) {
             const indications = match.indications || [];
