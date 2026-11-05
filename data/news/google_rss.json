@@ -1,26 +1,16 @@
 {
-  "fetched_at": "2026-11-05T11:57:32.417992+00:00",
+  "fetched_at": "2026-11-05T19:49:53.515734+00:00",
   "source": "Google News Health RSS",
-  "count": 34,
+  "count": 36,
   "articles": [
     {
-      "id": "1939477cf2c3",
-      "title": "Mangel på Paralgin forte - Aftenposten",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZUDU4eUxabDdyNDFRS2R5QUhGb0lzR1dSVUhrTG9mM2wzak12aTRFdlEwYnNBYzZxOWYzdnJfUFN1NTZPdFBYV1lieTI0WW9wU1VhcW8wV2NwYXFFdHVlNmo1S0hlUFNaNDZXZFY5X2x3V29mYmc?oc=5",
-      "published": "2026-11-04T14:06:03+00:00",
+      "id": "6876a89e5ac8",
+      "title": "Å lære av feil i håndteringen av legemidler kan redde liv - Helsetilsynet",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcHhtLXV1bzhqS2VZOURlT3RWVlJIdzU2ZUxsSlJQdDU5bHRCT0lsaUUyR1dxV0hmTFlVLVpTQTJyR2xMbTNEcjlvcDZONmVTbFVORUF1ZWlWdnY3Smp0WXNGT2VTdmtLVHVZUWMxOG1yLVdfMW1zZ2ZKanl1Nzhzb1FTdllqMzdRN0FsZ2N2MExFR0tNY3FmWE5aN2J3UXhMUG5FWndB?oc=5",
+      "published": "2026-11-04T09:01:18+00:00",
       "source": {
-        "name": "Aftenposten",
-        "url": "https://www.aftenposten.no"
-      }
-    },
-    {
-      "id": "208211b2825c",
-      "title": "Mangel på Paralgin forte - dolen.no",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5cWRySmtFa1JiNTJnaXNMTUNfU21CemRfY3dtTGZCVGpRNjBHaUtBTTB2YllMdmdMODh4OUZMc09kSFE1V2wwY1VnYlNVWDNSeG1XbmsxaDhmcUNOZ0ZvcHdoeXhiOGg0anhJTWZab2U?oc=5",
-      "published": "2026-11-04T17:00:00+00:00",
-      "source": {
-        "name": "dolen.no",
-        "url": "https://www.dolen.no"
+        "name": "Helsetilsynet",
+        "url": "https://www.helsetilsynet.no"
       }
     },
     {
@@ -54,6 +44,16 @@
       }
     },
     {
+      "id": "208211b2825c",
+      "title": "Mangel på Paralgin forte - dolen.no",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5cWRySmtFa1JiNTJnaXNMTUNfU21CemRfY3dtTGZCVGpRNjBHaUtBTTB2YllMdmdMODh4OUZMc09kSFE1V2wwY1VnYlNVWDNSeG1XbmsxaDhmcUNOZ0ZvcHdoeXhiOGg0anhJTWZab2U?oc=5",
+      "published": "2026-11-04T17:00:00+00:00",
+      "source": {
+        "name": "dolen.no",
+        "url": "https://www.dolen.no"
+      }
+    },
+    {
       "id": "1aca3d8f6875",
       "title": "Plutselig var tablettene borte vekk: – En alvorlig sak - bladet.no",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUVlnanZOVFNkbkRYZFdxVTJDUV9WZGxDblNzWmpJYUQyQlEtMm5tMDVVWWR2SzBEVkN6UXlqQlJHN2xiSUlVTVlzck9nMDdISzd1VWFZaUNOU0wtckRVd3dEWWRSSVJMSjBRc05wZXhIR2VhOWZaOE5EMFB2R1ZFandTMnREOExT?oc=5",
@@ -61,16 +61,6 @@
       "source": {
         "name": "bladet.no",
         "url": "https://www.bladet.no"
-      }
-    },
-    {
-      "id": "8f5b0f357ae1",
-      "title": "Slankemedisin kan dempe alkoholforbruket – nesten halvparten drikker mindre - Radio Haugaland",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWVVQV3RzbHVlbkVLYWRjTXVUNlRKY1dacDB3b2pDMXJzR2ViY0trWmdZNmQyOFhlc0loSWt2TGJDaERmbzMyS3d5bTZpLXFTQ2g5dXpRZnpuR1Z6NnVmd2JhT1RNeU5ZaFZwaTZ4YTVQZk9Vc0k4S3dEX2h2aGE4eFVTX1ZFZkpuM0NQa1ZlbGZoa0d6MGFR?oc=5",
-      "published": "2026-11-04T15:50:51+00:00",
-      "source": {
-        "name": "Radio Haugaland",
-        "url": "https://radioh.no"
       }
     },
     {
@@ -94,6 +84,16 @@
       }
     },
     {
+      "id": "8f5b0f357ae1",
+      "title": "Slankemedisin kan dempe alkoholforbruket – nesten halvparten drikker mindre - Radio Haugaland",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWVVQV3RzbHVlbkVLYWRjTXVUNlRKY1dacDB3b2pDMXJzR2ViY0trWmdZNmQyOFhlc0loSWt2TGJDaERmbzMyS3d5bTZpLXFTQ2g5dXpRZnpuR1Z6NnVmd2JhT1RNeU5ZaFZwaTZ4YTVQZk9Vc0k4S3dEX2h2aGE4eFVTX1ZFZkpuM0NQa1ZlbGZoa0d6MGFR?oc=5",
+      "published": "2026-11-04T15:50:51+00:00",
+      "source": {
+        "name": "Radio Haugaland",
+        "url": "https://radioh.no"
+      }
+    },
+    {
       "id": "d9b0563a36b3",
       "title": "Personer som bruker vektreduserende legemidler har ofte flere sykdommer - Folkehelseinstituttet - FHI",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVFcxRlBpdV9fOW80NHpiSm9qVUNQYkQxY0JLTnlNRHVMM1ozOFoxVVhsTy0waG1adkg5eHhPa2xEaHJuVk42YXJvM3k5LXIwM2ZrZHVlQjdTUG9qcVR1SVhEaWJKZ1ZEaHhDWnpFNWM1ZG9wQVRzcHQ0bjUtU0xMaW04N2cyZjktZmczODEyODh3SjlEUHV4TnJJRQ?oc=5",
@@ -111,6 +111,36 @@
       "source": {
         "name": "Bergen kommune",
         "url": "https://www.bergen.kommune.no"
+      }
+    },
+    {
+      "id": "53cf2cca23b4",
+      "title": "Handlingsplan for å heve levealderen hos mennesker med alvorlige psykiske lidelser og/eller rusmiddelproblemer - Regjeringen.no",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPeVRlOU1Nb2p6TkJYVko2enVvUzdzVFJSWGlVUWtRd1BoUzZibEh2dWVnVS10R290bS1mUk9OdjN1WDQwejNwdUF5Y29BZm5ZV3Zja3NwQ28wOGloTDJjUy1BaXhMRG1NX0JzZGxjYVlPSFdtUTA0VGdkSmhBbWNPUjZkdU5hekU1YnM0NV9qWUxIRmVpTGdEa0NOS0EtT2sySDFGOWc1WUJQQmVCZHpVU3ZmRzdkbE1BbEY0WFZEUS1mOUdPZGk3RDllTWY0Ty1yVmlST3A1ekNRaTJhVldjRUlfZks1aHBNSDVxRkRFdUFualJQLXcxUjd3?oc=5",
+      "published": "2026-04-19T17:40:21+00:00",
+      "source": {
+        "name": "Regjeringen.no",
+        "url": "https://www.regjeringen.no"
+      }
+    },
+    {
+      "id": "97b24e13bf6e",
+      "title": "Lilly: Retatrutide slår Ozempic i diabetesstudie - HealthTalk",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORjZHU2FYQjJ2N1JvZEVDSWRjU0RHS3NydFF0MTBCZHNjNGlBekZybG9xM2w1N0lJNlltNXJCLXdYNnl5VXYtZjRjaUNZVHV3MlJQTEtpSG5oU0tHN3BnV1dZZEhFVWlvQUZPc1pONE9CNWVZMzZuck41dVBwYURBazJWTk5FZlp0OW1fVzRlOUlLMzg?oc=5",
+      "published": "2026-10-28T13:36:52+00:00",
+      "source": {
+        "name": "HealthTalk",
+        "url": "https://www.healthtalk.no"
+      }
+    },
+    {
+      "id": "8cb62dd9ab53",
+      "title": "Slankemedisiner: Kan redusere kreftrisikoen betydelig - VG",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1GN1A4ZlhpVXM0S21EdGhZWUdhMFZRR1VseE84bXZKc0oyNnp2WVVUYV9CNmYyRktWSVcwbU9QUURfOXBNQ1hvUUIxWGNlUVZvVnNCRHc1WldiRjlsdUppUUV1SlZWVV9YNjN3UjVvUjBPZTRtVWxIUzB4OEtadw?oc=5",
+      "published": "2026-06-18T07:00:00+00:00",
+      "source": {
+        "name": "VG",
+        "url": "https://www.vg.no"
       }
     },
     {
@@ -144,26 +174,6 @@
       }
     },
     {
-      "id": "25180b752ec4",
-      "title": "Meld. St. 21 (2024–2025) - Regjeringen.no",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRk9GVDc2Tl9jRnBSS0tFNjgzVVJWdzZyTEstck45M05wUEVnUk5hYnA2MnpWS0JRQmxsMGl2RUx1ejRjeWI1X09IaWdiZjBQZUNiOE52NWJDQThCQjdjU182Sl9reFNYYkdyMFVPNnQxSHRmb1RkQTNudzR6eUJsYlRKSl8?oc=5",
-      "published": "2025-04-10T12:27:34+00:00",
-      "source": {
-        "name": "Regjeringen.no",
-        "url": "https://www.regjeringen.no"
-      }
-    },
-    {
-      "id": "9a816f56a278",
-      "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - Rådet for psykisk helse",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjkwcGZUTVRwWk15Yms3VHNEOWNjaHAzank5d0xhc3VSSkViN2RBNDZGZDBXMTdIQ1ZIWGE1WC0ycjgwREpnNHFVNlRyRV9ia2VPX0lFdGhkaFQ1RDZqY2V5TzlQMXNxbXRpZGdKUGRneXFCQUVyaXRpNkFKaFFrWTJ5ZDBjeU9JSzJ0aXBQVGZyY3BxNFRONmtCdS1PVnZtRlFv?oc=5",
-      "published": "2023-10-10T07:00:00+00:00",
-      "source": {
-        "name": "Rådet for psykisk helse",
-        "url": "https://psykiskhelse.no"
-      }
-    },
-    {
       "id": "e9850f696bdd",
       "title": "Helse, Legemiddel | Den sovjetiske propagandaplakaten - og det nordnorske helsevesenet - Nordnorsk debatt",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWTNobTZwbG9hMDhEMERNazBxRTVpRU1aRjBkd09oci1OTlcxMG5vNU9WYzJMVHZ1MWdLMERyb3VmUkdKZWR6U1daQXBHQXlxYzcyY2RkYjZ6WEZuOTFBWnBiQmNTZV9Hd3lTNHBtWnI4STQyRUE0NVNmNzVvbVlGUXJnRUdPZlFkYVNlQnZ5ZmJMTWZHNmdLN2JJMExWdzhYZDhHelB4ZGJKUkt3M0hz?oc=5",
@@ -174,13 +184,13 @@
       }
     },
     {
-      "id": "62d5b2e3793a",
-      "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZEd5eTVOaFRZZHd1MVQzQUVGc09ZSlZtdnlXUEhwTkNQRXp0UEhfREhwSzNIRC1RVVVKYldGLWJlQlNtYkM1dkw2RFNvSFJXdzc1WlNhc0Y3c3JPcDFnalBGWVdJcGxtbTNuTUJfeE50NTlNNTdNMlNIY0NBdGk2MjhXMjJRVGxjcFNFbEFFNDRBUUMtaDM4R0NDbEtXdjNsckRjdjBYdGFqOFYyXzRmYmhZSVRHbldmaEUyVk5QcEFCYjMwbTNXMGxfMXJaa25WYXc?oc=5",
-      "published": "2021-05-12T07:00:00+00:00",
+      "id": "25180b752ec4",
+      "title": "Meld. St. 21 (2024–2025) - Regjeringen.no",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRk9GVDc2Tl9jRnBSS0tFNjgzVVJWdzZyTEstck45M05wUEVnUk5hYnA2MnpWS0JRQmxsMGl2RUx1ejRjeWI1X09IaWdiZjBQZUNiOE52NWJDQThCQjdjU182Sl9reFNYYkdyMFVPNnQxSHRmb1RkQTNudzR6eUJsYlRKSl8?oc=5",
+      "published": "2025-04-10T12:27:34+00:00",
       "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
+        "name": "Regjeringen.no",
+        "url": "https://www.regjeringen.no"
       }
     },
     {
@@ -201,6 +211,36 @@
       "source": {
         "name": "Folkehelseinstituttet - FHI",
         "url": "https://www.fhi.no"
+      }
+    },
+    {
+      "id": "62d5b2e3793a",
+      "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZEd5eTVOaFRZZHd1MVQzQUVGc09ZSlZtdnlXUEhwTkNQRXp0UEhfREhwSzNIRC1RVVVKYldGLWJlQlNtYkM1dkw2RFNvSFJXdzc1WlNhc0Y3c3JPcDFnalBGWVdJcGxtbTNuTUJfeE50NTlNNTdNMlNIY0NBdGk2MjhXMjJRVGxjcFNFbEFFNDRBUUMtaDM4R0NDbEtXdjNsckRjdjBYdGFqOFYyXzRmYmhZSVRHbldmaEUyVk5QcEFCYjMwbTNXMGxfMXJaa25WYXc?oc=5",
+      "published": "2021-05-12T07:00:00+00:00",
+      "source": {
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "90921fcbbc80",
+      "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
+      "published": "2018-10-05T07:00:00+00:00",
+      "source": {
+        "name": "Fremover",
+        "url": "https://www.fremover.no"
+      }
+    },
+    {
+      "id": "855a4cfebc24",
+      "title": "Kan gi trøbbel i varmen: – Flere eller nye bivirkninger - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTkVZdUxrdG85R240cG5DT3Y5TXpWUjktR1JnWDFmaUE0c2hVbUJLaEY1c1FaaGs0akhGb0ZxaGdmSkRaejUxVTdxYU1HcGxlMllVeEhzT21fTzB1bWoxenI4SXY1NEIybWg1azAxeVV1SEZ4TWk3T3ZuRGtmZHJIUjdyZXEzM1l6YThGWElGdDlYMnJON3ZNOGhwczRuV1dsZnNCTVpaWXJVZmxXRV9ZajI5X0dJY2ZVcXJ3?oc=5",
+      "published": "2024-07-23T07:00:00+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     },
     {
@@ -274,13 +314,13 @@
       }
     },
     {
-      "id": "6f2c9cac5f1a",
-      "title": "Oslo kommune bidrar med millioninntekter til et omdiskutert israelsk selskap. Nå vil de ha stopp: – Rett og slett sjokkerende - Avisa Oslo",
-      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNQnllZmhCbTFxMDVpWGVXd1NnRERHMGVRdU94OTBSYXhVM3JDVUxmWDZEMUdwdWlfMHdkdzExbFoyaHlGYTktbkxLX2c2UVJlTTBBVkhOMzFPY3FaQUs1UFZCSWl2OWF0X25JSjBIVDkxWUkxVktic2FzTlgxTFR4cmp2S0U5S1NKc1lqYnBCQ3B4aDVybng1ejdjUEo0MlJYS1d1SkppRUV0TUtYLWVrSk56cGNTRmVuZUlhYVhJYlp0c3NaUzQtLXNYZHFVLVZsZktGLUszUjdyQVF5a3VTbDhQQTNkNjdVOUMteHJpM3ViYVVHMVZESTVYNldid1pCNmRMTVlIWmNvUGI1YlRlQXF2YVlxM0NzS0RBWWJvVEdjUWxBX1E?oc=5",
-      "published": "2026-10-29T19:04:10+00:00",
+      "id": "0faa73712e34",
+      "title": "Medisin/Helse, Legemiddel | WHO: Mulig forbindelse mellom AstraZeneca-vaksinen og blodpropper - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVmlKZXI4cUJsUzN0ZVJORzVBRk0ya0FSdnRzVVhCWnU0cHZMd284aG9aRU0wNUdyemFfSGlRVEZQM2hpS2NhaTBjUzlEQlNEVmRpQ25HWkpUOHhUVndPQm5TdVZqbUk0TllBN0JYaVFWYjVxVlUxQzFrY0Q1VllKWnkwekxYcXU1NU52VGRaalpBZnZ5LXNweV9RMDdLUkxHVDhWZGhWek4zZ0hzZGZ6amY5akZKLVFKOXc?oc=5",
+      "published": "2021-04-07T07:00:00+00:00",
       "source": {
-        "name": "Avisa Oslo",
-        "url": "https://www.ao.no"
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     },
     {
@@ -294,16 +334,6 @@
       }
     },
     {
-      "id": "855a4cfebc24",
-      "title": "Kan gi trøbbel i varmen: – Flere eller nye bivirkninger - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTkVZdUxrdG85R240cG5DT3Y5TXpWUjktR1JnWDFmaUE0c2hVbUJLaEY1c1FaaGs0akhGb0ZxaGdmSkRaejUxVTdxYU1HcGxlMllVeEhzT21fTzB1bWoxenI4SXY1NEIybWg1azAxeVV1SEZ4TWk3T3ZuRGtmZHJIUjdyZXEzM1l6YThGWElGdDlYMnJON3ZNOGhwczRuV1dsZnNCTVpaWXJVZmxXRV9ZajI5X0dJY2ZVcXJ3?oc=5",
-      "published": "2024-07-23T07:00:00+00:00",
-      "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
-      }
-    },
-    {
       "id": "a305842cda9e",
       "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZVRfS3c1TDkyNEFXWmVJUUFUX2Y0dXY0QzdJSTViUEJiYTlyODAtbEZnZkNYakFSTTRDWmtiNml0OU51SFVWNEZVU3lpNFZ0VWVFMVZsVVhqcWlDZ3QtNnhSRWFQVG1PMkZ1RGhheVI1bGtFN1VhbEVFY3hBXzNERW9meXU?oc=5",
@@ -311,16 +341,6 @@
       "source": {
         "name": "Regjeringen.no",
         "url": "https://www.regjeringen.no"
-      }
-    },
-    {
-      "id": "1d3125b68231",
-      "title": "Generasjon prestasjon: Unge menn løfter salget av potenspiller til rekordnivåer (+) - Dagens Næringsliv",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWVJXaHQ4djNRNldBQjl4VEdzR0xvY1JGb0tKMDVmMHI2T2o4elM3ZDBRaVpXQ3ZWTHlHUWUweC1wcG5wOWhSMjNMWTVOdjd3SnctOTJuU1JtaGExNkF6NnB5dVVRZjBsSHdYbkxuY3NZaWhkdGRrRkREeUNxMXQtbUppQWE0aVNtOHUtRmVLWVhGOWw0RjNIVVdzNGdlUl9fQm5jdEV2Q1M4eHJUNVQ4bFAtMVZMR1ZnQWZVcTRuUlZXT0VwS0NyNFlRVkVpaUZaVmtoMw?oc=5",
-      "published": "2026-10-29T13:37:00+00:00",
-      "source": {
-        "name": "Dagens Næringsliv",
-        "url": "https://www.dn.no"
       }
     },
     {
@@ -334,13 +354,13 @@
       }
     },
     {
-      "id": "0faa73712e34",
-      "title": "Medisin/Helse, Legemiddel | WHO: Mulig forbindelse mellom AstraZeneca-vaksinen og blodpropper - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVmlKZXI4cUJsUzN0ZVJORzVBRk0ya0FSdnRzVVhCWnU0cHZMd284aG9aRU0wNUdyemFfSGlRVEZQM2hpS2NhaTBjUzlEQlNEVmRpQ25HWkpUOHhUVndPQm5TdVZqbUk0TllBN0JYaVFWYjVxVlUxQzFrY0Q1VllKWnkwekxYcXU1NU52VGRaalpBZnZ5LXNweV9RMDdLUkxHVDhWZGhWek4zZ0hzZGZ6amY5akZKLVFKOXc?oc=5",
-      "published": "2021-04-07T07:00:00+00:00",
+      "id": "1d3125b68231",
+      "title": "Generasjon prestasjon: Unge menn løfter salget av potenspiller til rekordnivåer (+) - Dagens Næringsliv",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWVJXaHQ4djNRNldBQjl4VEdzR0xvY1JGb0tKMDVmMHI2T2o4elM3ZDBRaVpXQ3ZWTHlHUWUweC1wcG5wOWhSMjNMWTVOdjd3SnctOTJuU1JtaGExNkF6NnB5dVVRZjBsSHdYbkxuY3NZaWhkdGRrRkREeUNxMXQtbUppQWE0aVNtOHUtRmVLWVhGOWw0RjNIVVdzNGdlUl9fQm5jdEV2Q1M4eHJUNVQ4bFAtMVZMR1ZnQWZVcTRuUlZXT0VwS0NyNFlRVkVpaUZaVmtoMw?oc=5",
+      "published": "2026-10-29T13:37:00+00:00",
       "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
+        "name": "Dagens Næringsliv",
+        "url": "https://www.dn.no"
       }
     }
   ]
