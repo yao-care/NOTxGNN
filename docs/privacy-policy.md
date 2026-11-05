@@ -3,13 +3,13 @@ layout: default
 title: Personvernerklæring
 nav_order: 95
 permalink: /privacy-policy/
-description: "Personvernerklæring for NOTxGNN: dette er et statisk nettsted som ikke samler inn personopplysninger."
+description: "Personvernerklæring for NOTxGNN: et statisk nettsted uten kontoer og skjemaer; det bruker analyseinformasjonskapsler fra Google Analytics 4 til bruksstatistikk."
 ---
 
 # Personvernerklæring
 
 <div class="key-takeaway">
-Dette er et statisk nettsted — ingen registrering kreves, og ingen personidentifiserbare data samles inn.
+Dette er et statisk nettsted — ingen registrering og ingen skjemaer. Det bruker analyseinformasjonskapsler fra Google Analytics 4 til å lage bruksstatistikk.
 </div>
 
 ---
@@ -17,9 +17,11 @@ Dette er et statisk nettsted — ingen registrering kreves, og ingen personident
 ## Hva vi samler inn
 
 <p class="key-answer" data-question="Samler NOTxGNN inn personopplysninger?">
-<strong>Nei.</strong> Dette nettstedet driftes på GitHub Pages som et rent statisk nettsted. Det
-finnes ikke noe kontosystem, ingen skjemaer og ingen sporingsinformasjonskapsler. Vi samler ikke
-inn navn, e-postadresser, pasientjournaler eller andre personidentifiserbare opplysninger.
+<strong>Bare bruksstatistikk, via Google Analytics 4.</strong> Dette nettstedet driftes på GitHub Pages som et rent statisk
+nettsted. Det finnes ikke noe kontosystem og ingen skjemaer, og vi samler ikke inn navn, e-postadresser eller
+pasientjournaler. Nettstedet bruker analyseinformasjonskapsler fra Google Analytics 4 til å lage bruksstatistikk (viste
+sider, henvisende nettsted, rulledybde og tid på siden). Informasjonskapslene settes når en side lastes inn; søkeord,
+skjemainnhold og URL-spørreparametere sendes ikke.
 </p>
 
 ---
@@ -38,15 +40,20 @@ retningslinjer:
 | rxnav.nlm.nih.gov | SMART-appen: RxNorm-kodene for legemidlene som leses fra din elektroniske pasientjournal, sendes til NLMs RxNav-API for å slå opp virkestoffnavnet (ingen pasientidentifikatorer) | [NLMs nettretningslinjer](https://www.nlm.nih.gov/web_policies.html) |
 
 Når du selv starter SMART on FHIR-appen, henter den legemiddeldata fra journalsystemet ditt.
-Disse dataene <strong>behandles i sin helhet i nettleseren din</strong>; de sendes aldri til
-serverne til dette nettstedet og lagres ikke.
+Pasientens identitet og journaldata <strong>sendes ikke til serverne til dette nettstedet</strong> (det er et statisk
+nettsted uten backend) og lagres ikke av nettstedet. For å matche legemiddelnavn sender appen legemidlenes
+RxNorm-koder til RxNav-tjenesten hos det amerikanske National Library of Medicine; kodene inneholder ingen
+opplysninger som identifiserer pasienten. Når du ber om kliniske studier, sendes legemiddelnavnet og indikasjonen
+til ClinicalTrials.gov.
 
 ---
 
 ## Den registrertes rettigheter
 
-Fordi dette nettstedet ikke samler inn personopplysninger, finnes det ingenting å få innsyn i,
-rette eller slette. Har du spørsmål om denne erklæringen, kontakt service@yao.care.
+Dette nettstedet har ingen kontoer og lagrer ingen personopplysninger på egne servere (det har ingen).
+Bruksstatistikken samles inn av Google Analytics 4; du kan blokkere eller slette informasjonskapslene i
+nettleserinnstillingene.
+Har du spørsmål om denne erklæringen, kontakt service@yao.care.
 
 ---
 

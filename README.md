@@ -23,7 +23,7 @@ Prediksjoner for legemiddelreposisjonering av legemidler med sentral markedsfør
 | **Totale prediksjoner** | 2,539,217 |
 | **Unike legemidler** | 641 |
 | **Unike indikasjoner** | 17,041 |
-| **DDI-data** | 302,516 |
+| **DDI-data** | 160,235 |
 | **DFI-data** | 857 |
 | **DHI-data** | 35 |
 | **DDSI-data** | 8,359 |
@@ -219,7 +219,7 @@ PYTHONPATH=src python -m notxgnn.predict.txgnn_model
 | **Legemiddeldata** | EMA | [EMA Medicines Report (sentrale markedsføringstillatelser i EU)](https://www.ema.europa.eu/en/medicines/download-medicine-data) | Norway |
 | **Kunnskapsgraf** | TxGNN KG | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM) | 17,080 diseases, 7,957 drugs |
 | **Legemiddeldatabase** | DrugBank | [DrugBank](https://go.drugbank.com/) | Kartlegging av legemiddelingredienser |
-| **Legemiddelinteraksjoner** | DDInter 2.0 | [DDInter](https://ddinter2.scbdd.com/) | DDI-par |
+| **Legemiddelinteraksjoner** | DDInter | [DDInter](https://ddinter2.scbdd.com/) | DDI-par |
 | **Legemiddelinteraksjoner** | Guide to PHARMACOLOGY | [IUPHAR/BPS](https://www.guidetopharmacology.org/) | Godkjente legemiddelinteraksjoner |
 | **Kliniske studier** | ClinicalTrials.gov | [CT.gov API v2](https://clinicaltrials.gov/data-api/api) | Register for kliniske studier |
 | **Kliniske studier** | WHO ICTRP | [ICTRP API](https://apps.who.int/trialsearch/api/v1/search) | Internasjonal plattform for kliniske studier |
