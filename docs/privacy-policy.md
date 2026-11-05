@@ -32,7 +32,7 @@ retningslinjer:
 | Tjeneste | Formål | Personvernerklæring |
 |---------|---------|----------------|
 | GitHub Pages | Drift av nettstedet | [GitHub Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement) |
-| d3js.org | Diagrambibliotek | CDN for statiske ressurser |
+| cdn.jsdelivr.net | Diagrambibliotek | CDN for statiske ressurser |
 | giscus | Kommentarer (der det er aktivert) | [giscus](https://giscus.app/) |
 
 Når du selv starter SMART on FHIR-appen, henter den legemiddeldata fra journalsystemet ditt.
