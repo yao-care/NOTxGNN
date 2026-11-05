@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-05T03:16:59.217102+00:00",
+  "fetched_at": "2026-11-05T11:57:32.417992+00:00",
   "source": "Google News Health RSS",
   "count": 34,
   "articles": [
@@ -24,13 +24,13 @@
       }
     },
     {
-      "id": "8f5b0f357ae1",
-      "title": "Slankemedisin kan dempe alkoholforbruket – nesten halvparten drikker mindre - Radio Haugaland",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWVVQV3RzbHVlbkVLYWRjTXVUNlRKY1dacDB3b2pDMXJzR2ViY0trWmdZNmQyOFhlc0loSWt2TGJDaERmbzMyS3d5bTZpLXFTQ2g5dXpRZnpuR1Z6NnVmd2JhT1RNeU5ZaFZwaTZ4YTVQZk9Vc0k4S3dEX2h2aGE4eFVTX1ZFZkpuM0NQa1ZlbGZoa0d6MGFR?oc=5",
-      "published": "2026-11-04T15:50:51+00:00",
+      "id": "c39dd6ee39f8",
+      "title": "Digital portal for meir rettferdig tilgang til legemiddel - Helse Bergen",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSVJnZkNVNlpEYmhaXzdUcTFiSi1LcGktbnJWcU9CSVFac3UyOXRmeXdsMHlMVUhTMU42Wlg5Qy11NDRiWmU5aldDaDJ1RF9xdGMzenhNSF9QaGo1MjJRU3RMR0FNRHBXOEtDdm9RaTdYNzItTW92amZMUVpuZUY4bEpLMTMyY1lsYUZxTmt1VHpiQ1JrSjg2R1ljTmZnNkVqYzF4ZGN2N3VXWkRReGV6M21lNW15Q3RmRDI1S0RlOTcxRG1XU3VIYw?oc=5",
+      "published": "2026-06-01T07:00:00+00:00",
       "source": {
-        "name": "Radio Haugaland",
-        "url": "https://radioh.no"
+        "name": "Helse Bergen",
+        "url": "https://www.helse-bergen.no"
       }
     },
     {
@@ -44,13 +44,13 @@
       }
     },
     {
-      "id": "c39dd6ee39f8",
-      "title": "Digital portal for meir rettferdig tilgang til legemiddel - Helse Bergen",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSVJnZkNVNlpEYmhaXzdUcTFiSi1LcGktbnJWcU9CSVFac3UyOXRmeXdsMHlMVUhTMU42Wlg5Qy11NDRiWmU5aldDaDJ1RF9xdGMzenhNSF9QaGo1MjJRU3RMR0FNRHBXOEtDdm9RaTdYNzItTW92amZMUVpuZUY4bEpLMTMyY1lsYUZxTmt1VHpiQ1JrSjg2R1ljTmZnNkVqYzF4ZGN2N3VXWkRReGV6M21lNW15Q3RmRDI1S0RlOTcxRG1XU3VIYw?oc=5",
-      "published": "2026-06-01T07:00:00+00:00",
+      "id": "eb09586dc0bb",
+      "title": "Billig medisin gir håp: – Kan få slutt på hiv-epidemien - ABC Nyheter",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOc1NhVG44RzBJOUFtQ3pSd1dWS2VyQnBLUGhRR2t5c1l0R3gxUnotR205TUF6T19OSUlxU3lQdEs1cDZMcmtrOUdpRGlabUJoVFhNZC1LdzJGS0RZZE5hTGsyUzNBMUtuRzBvNHJkS3dEclNKYWpJYUotdTM1cXNNYl9fd29UQ0pIdUdaX0Zvc0RFZWdOcGJiZF9B?oc=5",
+      "published": "2026-11-02T14:52:24+00:00",
       "source": {
-        "name": "Helse Bergen",
-        "url": "https://www.helse-bergen.no"
+        "name": "ABC Nyheter",
+        "url": "https://www.abcnyheter.no"
       }
     },
     {
@@ -61,6 +61,16 @@
       "source": {
         "name": "bladet.no",
         "url": "https://www.bladet.no"
+      }
+    },
+    {
+      "id": "8f5b0f357ae1",
+      "title": "Slankemedisin kan dempe alkoholforbruket – nesten halvparten drikker mindre - Radio Haugaland",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWVVQV3RzbHVlbkVLYWRjTXVUNlRKY1dacDB3b2pDMXJzR2ViY0trWmdZNmQyOFhlc0loSWt2TGJDaERmbzMyS3d5bTZpLXFTQ2g5dXpRZnpuR1Z6NnVmd2JhT1RNeU5ZaFZwaTZ4YTVQZk9Vc0k4S3dEX2h2aGE4eFVTX1ZFZkpuM0NQa1ZlbGZoa0d6MGFR?oc=5",
+      "published": "2026-11-04T15:50:51+00:00",
+      "source": {
+        "name": "Radio Haugaland",
+        "url": "https://radioh.no"
       }
     },
     {
@@ -84,13 +94,13 @@
       }
     },
     {
-      "id": "694ae90523a9",
-      "title": "Billig medisin gir håp: – Kan få slutt på hiv-epidemien - Aftenposten",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcXR0TzBOSVBETW9qSVN5eXNSUDhodkdGVk91cEZ4bXhhWEJGZXdmMDVYZWc0eFBzMlAzRURjZ1ZZaWR3bDBDN1ZodE5LVkY5aHQzQkN1N2lVSjRPTW4zd3Z1SV8xRzQwOVRhMjhCU2h2NjcxS1dxOXozN2VRNVFhTEVidV9aOGhEUnVESmZiaHZiYVljWThSdGtjMWJwdkU?oc=5",
-      "published": "2026-11-02T14:54:26+00:00",
+      "id": "d9b0563a36b3",
+      "title": "Personer som bruker vektreduserende legemidler har ofte flere sykdommer - Folkehelseinstituttet - FHI",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVFcxRlBpdV9fOW80NHpiSm9qVUNQYkQxY0JLTnlNRHVMM1ozOFoxVVhsTy0waG1adkg5eHhPa2xEaHJuVk42YXJvM3k5LXIwM2ZrZHVlQjdTUG9qcVR1SVhEaWJKZ1ZEaHhDWnpFNWM1ZG9wQVRzcHQ0bjUtU0xMaW04N2cyZjktZmczODEyODh3SjlEUHV4TnJJRQ?oc=5",
+      "published": "2026-05-11T07:00:00+00:00",
       "source": {
-        "name": "Aftenposten",
-        "url": "https://www.aftenposten.no"
+        "name": "Folkehelseinstituttet - FHI",
+        "url": "https://www.fhi.no"
       }
     },
     {
@@ -104,16 +114,6 @@
       }
     },
     {
-      "id": "3c7d33d8f638",
-      "title": "Sosiale forskjeller i fedme og bruk av vektreduserende legemidler - Folkehelseinstituttet - FHI",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNkU2bktLeTBNMVRfYllDMHlhQzBJZXAxS0loS2hIenVrZmUxbkJ4NzdkY2h6cTRCT2tCZ1hDY1J1dkNEN1hlbWQzaGQzQ2JVNWc4NHprWUpUaFVvdnNlazhXeDNkazZsVE9sOTJKUFlPVS01MUgxbVZodTRQN2VEWTl2VC1kZlRKMWlhY2c3bw?oc=5",
-      "published": "2026-06-25T07:00:00+00:00",
-      "source": {
-        "name": "Folkehelseinstituttet - FHI",
-        "url": "https://www.fhi.no"
-      }
-    },
-    {
       "id": "b832ca46615b",
       "title": "Frasene: Snarveien til slankemedisin - Dagbladet",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UVHBfRzhWM3NUQS1RMmpKZGpxODQtcjM1Y2hoaFlTNll6RlVmMEJ4S3ZvMEgxcEJBTF94T3BZYWZ3M0xFeEtvejBWUGQ1N2FPTGVKS09PVkhlNU1fZ1VFeFJBTGxqemdQV3ViTk40MkpnRm40UVhsYVBPbldBdjg?oc=5",
@@ -124,10 +124,10 @@
       }
     },
     {
-      "id": "d9b0563a36b3",
-      "title": "Personer som bruker vektreduserende legemidler har ofte flere sykdommer - Folkehelseinstituttet - FHI",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVFcxRlBpdV9fOW80NHpiSm9qVUNQYkQxY0JLTnlNRHVMM1ozOFoxVVhsTy0waG1adkg5eHhPa2xEaHJuVk42YXJvM3k5LXIwM2ZrZHVlQjdTUG9qcVR1SVhEaWJKZ1ZEaHhDWnpFNWM1ZG9wQVRzcHQ0bjUtU0xMaW04N2cyZjktZmczODEyODh3SjlEUHV4TnJJRQ?oc=5",
-      "published": "2026-05-11T07:00:00+00:00",
+      "id": "3c7d33d8f638",
+      "title": "Sosiale forskjeller i fedme og bruk av vektreduserende legemidler - Folkehelseinstituttet - FHI",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNkU2bktLeTBNMVRfYllDMHlhQzBJZXAxS0loS2hIenVrZmUxbkJ4NzdkY2h6cTRCT2tCZ1hDY1J1dkNEN1hlbWQzaGQzQ2JVNWc4NHprWUpUaFVvdnNlazhXeDNkazZsVE9sOTJKUFlPVS01MUgxbVZodTRQN2VEWTl2VC1kZlRKMWlhY2c3bw?oc=5",
+      "published": "2026-06-25T07:00:00+00:00",
       "source": {
         "name": "Folkehelseinstituttet - FHI",
         "url": "https://www.fhi.no"
@@ -154,6 +154,16 @@
       }
     },
     {
+      "id": "9a816f56a278",
+      "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - Rådet for psykisk helse",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjkwcGZUTVRwWk15Yms3VHNEOWNjaHAzank5d0xhc3VSSkViN2RBNDZGZDBXMTdIQ1ZIWGE1WC0ycjgwREpnNHFVNlRyRV9ia2VPX0lFdGhkaFQ1RDZqY2V5TzlQMXNxbXRpZGdKUGRneXFCQUVyaXRpNkFKaFFrWTJ5ZDBjeU9JSzJ0aXBQVGZyY3BxNFRONmtCdS1PVnZtRlFv?oc=5",
+      "published": "2023-10-10T07:00:00+00:00",
+      "source": {
+        "name": "Rådet for psykisk helse",
+        "url": "https://psykiskhelse.no"
+      }
+    },
+    {
       "id": "e9850f696bdd",
       "title": "Helse, Legemiddel | Den sovjetiske propagandaplakaten - og det nordnorske helsevesenet - Nordnorsk debatt",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWTNobTZwbG9hMDhEMERNazBxRTVpRU1aRjBkd09oci1OTlcxMG5vNU9WYzJMVHZ1MWdLMERyb3VmUkdKZWR6U1daQXBHQXlxYzcyY2RkYjZ6WEZuOTFBWnBiQmNTZV9Hd3lTNHBtWnI4STQyRUE0NVNmNzVvbVlGUXJnRUdPZlFkYVNlQnZ5ZmJMTWZHNmdLN2JJMExWdzhYZDhHelB4ZGJKUkt3M0hz?oc=5",
@@ -161,16 +171,6 @@
       "source": {
         "name": "Nordnorsk debatt",
         "url": "https://www.nordnorskdebatt.no"
-      }
-    },
-    {
-      "id": "a2f13b7197e5",
-      "title": "Utprøving av nytt legemiddel for erytropoietisk protoporfyri (EPP) - Helse Bergen",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeWNpeldZeG5Od3kwRnc4S0hmYjNkNTl1c25DTGNPR3luc2txMTQtc3FTOUZVRUtnNzVjR3VwWFNjOWNOWmpVdHBsaHduX0NtRGVkenNPU1FhQ0JoUW01Und1UVBBQzhWckUtaENtN0ZxTWUxMXJPU01QSWVKckJWYTBONWlhVk1HQmRkSE1VTmpTMlAxMjNKNlpqSGpZcUFCcjVHOExWOWJXZFNJbFRQRjNhRHpxMktOQXlWdExvemdUYkNuamw5Z0dnN3Jhc1hiR3NqeXhUMzJqQlk1QTV0QWtjMmJ3eUNUNUtiMFBvQjQ?oc=5",
-      "published": "2022-10-03T07:00:00+00:00",
-      "source": {
-        "name": "Helse Bergen",
-        "url": "https://www.helse-bergen.no"
       }
     },
     {
@@ -214,16 +214,6 @@
       }
     },
     {
-      "id": "cb4e71eee0cf",
-      "title": "Medisiner ved røykeslutt, vareniklin - NHI.no",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRFF1QVRBUFd1Z3pmUE54S2lLNmc2SHp5LWVTYUY4cUxIUG1MRl9DRmF2d256bGo0Y3Y3ZjQ2SjdtdlBsVzBDUnZqZExua24weDlRN1dWb1o3UnZkY2x4SnBWVGtSRFFYVTNPTEFYRGRteVYzVHpKd0RiYmhnN3MzbA?oc=5",
-      "published": "2023-11-13T15:25:27+00:00",
-      "source": {
-        "name": "NHI.no",
-        "url": "https://nhi.no"
-      }
-    },
-    {
       "id": "1f8ee124566a",
       "title": "Ja til nytt legemiddel mot atopisk eksem - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWEdfMmRHSWhnUnRBOU5GeURCbUowQnNYZUpKZkJRRi1aSnp1X1VrX2R2NWJ2dHMzalFXcEhGU1k5aG9DMmEwUWxfY2VMc0FUS09VUGliaHhoYWZuNmNKWGxEeUcxSkdaYXRRaXpzZFlLczlNZFFTaEhManJac2dsS1JRLXNKMXFzLWFKeGtCX21PMzFvRXZwdnNBZXZ3UGk4b05YakU1c3FDd2Z6dDl6bVEycw?oc=5",
@@ -234,16 +224,6 @@
       }
     },
     {
-      "id": "a305842cda9e",
-      "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZVRfS3c1TDkyNEFXWmVJUUFUX2Y0dXY0QzdJSTViUEJiYTlyODAtbEZnZkNYakFSTTRDWmtiNml0OU51SFVWNEZVU3lpNFZ0VWVFMVZsVVhqcWlDZ3QtNnhSRWFQVG1PMkZ1RGhheVI1bGtFN1VhbEVFY3hBXzNERW9meXU?oc=5",
-      "published": "2015-06-15T16:17:39+00:00",
-      "source": {
-        "name": "Regjeringen.no",
-        "url": "https://www.regjeringen.no"
-      }
-    },
-    {
       "id": "5a3c6e17b37a",
       "title": "Innfører legemiddel til Stills sykdom og sJIA - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmx6MTZPbFRCMGU5c0ptUVlwdEM4UHp4Wl9EV2ppb1pQa0VPdV9RVjRWQ015dlNpVHZMblM0Wldndm9WWEFVelNSbFBUa0tDRnhES3JWbng0dXVSem1jZGsyQ0l2eGRiUkF1aTNwbW5HazI1cHZyOVZwUDhUNWc2aElyUW1VdU9RZkpJQUh1TW83YzNTRW5sQVVEaUw3RnJEcUdVOUYtVnN4Rkt5M2NDc3VrNEMtOEhsOUE?oc=5",
@@ -251,16 +231,6 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
-      "id": "90921fcbbc80",
-      "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
-      "published": "2018-10-05T07:00:00+00:00",
-      "source": {
-        "name": "Fremover",
-        "url": "https://www.fremover.no"
       }
     },
     {
@@ -284,6 +254,36 @@
       }
     },
     {
+      "id": "54cc19ae26e5",
+      "title": "Helse, Legemiddel | Apotekene er tomme for denne medisinen: – Det er vanskelig å få tak i den - Avisa Valdres",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdjEyS2NMd1FmdHBOQUxLZjNJNEd3cTJQX05PeEFrd2ZNSmtCUERHQmFhcDdfRzBCc0hCWFljVC02dXBOb2lzczBYUXJrcUt4aFFTQTNaWjQ5QXoyak9CY1VUMTY5LXBtVWRVZ2Z1MGl3LUtid0VnSUhyb0RGUXQ2cGhlTW1rdy1kb1BjVVlvOHZ4TUdoZkdyenRpRmU1eGMyaHQyaXdkR2FpeVpzQlJJbm1XMA?oc=5",
+      "published": "2022-07-18T07:00:00+00:00",
+      "source": {
+        "name": "Avisa Valdres",
+        "url": "https://www.avisa-valdres.no"
+      }
+    },
+    {
+      "id": "cb4e71eee0cf",
+      "title": "Medisiner ved røykeslutt, vareniklin - NHI.no",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRFF1QVRBUFd1Z3pmUE54S2lLNmc2SHp5LWVTYUY4cUxIUG1MRl9DRmF2d256bGo0Y3Y3ZjQ2SjdtdlBsVzBDUnZqZExua24weDlRN1dWb1o3UnZkY2x4SnBWVGtSRFFYVTNPTEFYRGRteVYzVHpKd0RiYmhnN3MzbA?oc=5",
+      "published": "2023-11-13T15:25:27+00:00",
+      "source": {
+        "name": "NHI.no",
+        "url": "https://nhi.no"
+      }
+    },
+    {
+      "id": "6f2c9cac5f1a",
+      "title": "Oslo kommune bidrar med millioninntekter til et omdiskutert israelsk selskap. Nå vil de ha stopp: – Rett og slett sjokkerende - Avisa Oslo",
+      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNQnllZmhCbTFxMDVpWGVXd1NnRERHMGVRdU94OTBSYXhVM3JDVUxmWDZEMUdwdWlfMHdkdzExbFoyaHlGYTktbkxLX2c2UVJlTTBBVkhOMzFPY3FaQUs1UFZCSWl2OWF0X25JSjBIVDkxWUkxVktic2FzTlgxTFR4cmp2S0U5S1NKc1lqYnBCQ3B4aDVybng1ejdjUEo0MlJYS1d1SkppRUV0TUtYLWVrSk56cGNTRmVuZUlhYVhJYlp0c3NaUzQtLXNYZHFVLVZsZktGLUszUjdyQVF5a3VTbDhQQTNkNjdVOUMteHJpM3ViYVVHMVZESTVYNldid1pCNmRMTVlIWmNvUGI1YlRlQXF2YVlxM0NzS0RBWWJvVEdjUWxBX1E?oc=5",
+      "published": "2026-10-29T19:04:10+00:00",
+      "source": {
+        "name": "Avisa Oslo",
+        "url": "https://www.ao.no"
+      }
+    },
+    {
       "id": "8a8bf64377b3",
       "title": "Nytt legemiddel reduserer plakk i hjernen. Det kan ha betydning som medisin mot Alzheimers sykdom - Forskning.no",
       "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPTFhuZUpTM3Y4U1BTeDVtY2VaTFFvNVdWb0FIaEpyMFJKampjZUJHdm5IQnZ1dWdVN0lCT0czSExsQ05WeVB5eXd5clNMeEJfcWtBd2lYTWs1MFhETW9BWUFpZGU0eE1ZYmZFaDRmS0wzRXdEcXEtX2Q4S3dGY0p3Yk5FNW1RNHBYY01kUlR6MDRqMW5fZTM4MGtVdzRDWkJKem94Q3hGVk9yMDR6TG1KbGxmTXZVZ0dSRzdDRVhjSTJwdGljUVBsZ2VvODJSVUdVdnFpeF8yeHpZOWc0OS0tREQ3a1JiT2JCeXpLWTRDNzh2b1BqWDFlb214d19Mc0dlVklhNnp6OUxBOFd2TC1SS1RlMnlOa3lhZUM4dmlVYzJvZlpaZnc?oc=5",
@@ -301,6 +301,16 @@
       "source": {
         "name": "Nettavisen",
         "url": "https://www.nettavisen.no"
+      }
+    },
+    {
+      "id": "a305842cda9e",
+      "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZVRfS3c1TDkyNEFXWmVJUUFUX2Y0dXY0QzdJSTViUEJiYTlyODAtbEZnZkNYakFSTTRDWmtiNml0OU51SFVWNEZVU3lpNFZ0VWVFMVZsVVhqcWlDZ3QtNnhSRWFQVG1PMkZ1RGhheVI1bGtFN1VhbEVFY3hBXzNERW9meXU?oc=5",
+      "published": "2015-06-15T16:17:39+00:00",
+      "source": {
+        "name": "Regjeringen.no",
+        "url": "https://www.regjeringen.no"
       }
     },
     {
@@ -331,16 +341,6 @@
       "source": {
         "name": "Nettavisen",
         "url": "https://www.nettavisen.no"
-      }
-    },
-    {
-      "id": "8cb62dd9ab53",
-      "title": "Slankemedisiner: Kan redusere kreftrisikoen betydelig - VG",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1GN1A4ZlhpVXM0S21EdGhZWUdhMFZRR1VseE84bXZKc0oyNnp2WVVUYV9CNmYyRktWSVcwbU9QUURfOXBNQ1hvUUIxWGNlUVZvVnNCRHc1WldiRjlsdUppUUV1SlZWVV9YNjN3UjVvUjBPZTRtVWxIUzB4OEtadw?oc=5",
-      "published": "2026-06-18T07:00:00+00:00",
-      "source": {
-        "name": "VG",
-        "url": "https://www.vg.no"
       }
     }
   ]
