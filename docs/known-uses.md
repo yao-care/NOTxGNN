@@ -10,7 +10,7 @@ description: "For disse legemidlene er alle kandidatene fra TxGNN-modellen aller
 
 For disse legemidlene er alle kandidatene fra TxGNN-modellen allerede kjente bruksområder (registrert i kunnskapsgrafen eller i en markedsføringstillatelse), så det finnes ingen ny predikert indikasjon. Hver side viser de kjente bruksområdene og lokal markedsstatus.
 
-{% assign known_drugs = site.drugs | where: "evidence_level", "N/A" | sort: "title" %}
+{% assign known_drugs = site.drugs | where: "evidence_level", "N/A" | where_exp: "d", "d.noindex != true" | sort: "title" %}
 
 **{{ known_drugs.size }} legemidler**
 
