@@ -24,7 +24,7 @@ Prediksjoner for legemiddelreposisjonering av legemidler med sentral markedsfør
 | **Unike legemidler** | 641 |
 | **Unike indikasjoner** | 17,041 |
 | **DDI-data** | 160,235 |
-| **FHIR-ressurser** | 557 MK / 3,048 CUD |
+| **FHIR-ressurser** | 555 MK / 3,048 CUD |
 
 ### Fordeling av evidensnivaaer
 

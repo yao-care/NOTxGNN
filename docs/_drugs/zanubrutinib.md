@@ -6,7 +6,7 @@ nav_order: 458
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-28
-description: "Zanubrutinib: predikert ny indikasjon Myeloid leukemi (evidensnivå L4). Opprinnelig indikasjon: Waldenströms makroglobulinemi"
+description: "Zanubrutinib: predikert ny indikasjon Myeloid leukemi (evidensnivå L5). Opprinnelig indikasjon: Waldenströms makroglobulinemi"
 monitor_inn: "ZANUBRUTINIB"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
 ---

@@ -6,7 +6,7 @@ nav_order: 117
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-28
-description: "Decitabine: predikert ny indikasjon Refraktær cytopeni hos barn (evidensnivå L4). Opprinnelig indikasjon: Myeloid leukemi"
+description: "Decitabine: predikert ny indikasjon Refraktær cytopeni hos barn (evidensnivå L5). Opprinnelig indikasjon: Myeloid leukemi"
 monitor_inn: "DECITABINE"
 predicted_indications: ["refractory cytopenia of childhood"]
 ---

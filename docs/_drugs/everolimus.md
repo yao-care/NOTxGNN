@@ -6,7 +6,7 @@ nav_order: 168
 evidence_level: L2
 indication_count: 8
 last_modified_at: 2026-10-30
-description: "Everolimus: predikert ny indikasjon Liposarkom (rangert som nr. 1 av TxGNN) (evidensnivå L5). Opprinnelig indikasjon: Tuberøs sklerose (Votubia)"
+description: "Everolimus: predikert ny indikasjon Liposarkom (rangert som nr. 1 av TxGNN) (evidensnivå L2). Opprinnelig indikasjon: Tuberøs sklerose (Votubia)"
 monitor_inn: "EVEROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
 ---
