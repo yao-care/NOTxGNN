@@ -112,7 +112,7 @@ Et sikkerhetsmoment er likevel verdt å merke seg: Ved trombotisk trombocytopeni
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Alle predikerte indikasjoner har kun modellbasert støtte (L5), uten kliniske studier eller litteratur. Den predikerte hovedindikasjonen er en blodplatedefekt som ikke kan korrigeres med faktor VIII, og produktet er i tillegg ikke lenger markedsført i Norge.
+Alle predikerte indikasjoner har kun modellbasert støtte (L5), uten kliniske studier eller litteratur. Den predikerte hovedindikasjonen er en blodplatedefekt som ikke kan korrigeres med faktor VIII.
 
 **For å gå videre kreves følgende:**
 - Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)

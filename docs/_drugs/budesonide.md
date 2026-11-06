@@ -101,8 +101,6 @@ Alle seks godkjenninger er gyldige.
 | EMEA/H/C/004882 | GoResp Digihaler | – | Astma, kols |
 | EMEA/H/C/004983 | Trixeo Aerosphere | – | Kols |
 
-(Ytterligere én opphevet godkjenning, Riltrava Aerosphere, EMEA/H/C/005311, gjelder kols.)
-
 ---
 
 ## Sikkerhetsvurderinger
@@ -123,7 +121,7 @@ Se preparatomtalen for fullstendig informasjon om advarsler og kontraindikasjone
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Evidensnivået er L5. Det finnes ingen kliniske studier for atopisk eksem, og litteraturen består i hovedsak av studier om kontaktallergi, sikkerhet og formulering. Den høye TxGNN-scoren er ikke støttet av kliniske data, og alle norske godkjenninger er opphevet.
+Evidensnivået er L5. Det finnes ingen kliniske studier for atopisk eksem, og litteraturen består i hovedsak av studier om kontaktallergi, sikkerhet og formulering. Den høye TxGNN-scoren er ikke støttet av kliniske data.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

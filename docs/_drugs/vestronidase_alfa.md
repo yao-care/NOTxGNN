@@ -115,14 +115,14 @@ Det foreligger ingen sikkerhetsdata fra preparatomtalen i dataene som er satt sa
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for Scheie syndrom er kun modellbasert (L5). Det finnes ingen kliniske studier eller litteratur, og den mekanistiske koblingen er svak fordi vestronidase alfa ikke erstatter det manglende IDUA-enzymet. I tillegg er den eneste norske godkjenningen avregistrert.
+Prediksjonen for Scheie syndrom er kun modellbasert (L5). Det finnes ingen kliniske studier eller litteratur, og den mekanistiske koblingen er svak fordi vestronidase alfa ikke erstatter det manglende IDUA-enzymet.
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
 - Detaljerte data om virkningsmekanisme
 - Prekliniske data eller studier som viser at GUSB gir nedbrytning av GAG ved IDUA-mangel
 - Avklaring av om PEARL-studien (NCT04532047) inkluderer vestronidase alfa
-- Vurdering av administrasjonsvei og tilgjengelighet i Norge, siden godkjenningen er avregistrert
+- Vurdering av administrasjonsvei og tilgjengelighet i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

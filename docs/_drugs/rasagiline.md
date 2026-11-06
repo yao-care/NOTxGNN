@@ -107,7 +107,7 @@ Pakningsvedlegget er ikke tilgjengelig i de innsamlede dataene, så advarsler og
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier eller publikasjoner. Mekanismekoblingen er spekulativ, MOA-data mangler, og sikkerhetsdata fra preparatomtalen er ikke tilgjengelig. Alle norske godkjenninger er dessuten opphevet.
+Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier eller publikasjoner. Mekanismekoblingen er spekulativ, MOA-data mangler, og sikkerhetsdata fra preparatomtalen er ikke tilgjengelig.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere pakningsvedlegg/preparatomtale (advarsler og kontraindikasjoner), som er en blokkerende datamangel

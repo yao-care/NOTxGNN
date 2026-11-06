@@ -118,7 +118,7 @@ Prediksjonen er kun beregningsbasert (evidensnivå L5) uten kliniske studier ell
 - Detaljerte data om virkningsmekanisme (f.eks. via DrugBank)
 - Prekliniske data på regadenosons effekt på mastceller og i anafylaksemodeller
 - Vurdering av administrasjonsvei og klinisk gjennomførbarhet, siden legemidlet gis intravenøst som diagnostisk middel
-- Avklaring av regulatorisk status, siden den eneste tillatelsen er avregistrert
+- Avklaring av regulatorisk status
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -99,7 +99,7 @@ Se pakningsvedlegget for sikkerhetsinformasjon. Ingen interaksjoner er funnet i 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er utelukkende modellbasert (L5), uten kliniske studier, litteratur eller plausibel mekanisme. Den eneste norske godkjenningen er avregistrert, og sikkerhetsdata mangler.
+Prediksjonen er utelukkende modellbasert (L5), uten kliniske studier, litteratur eller plausibel mekanisme.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

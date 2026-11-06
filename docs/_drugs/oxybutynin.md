@@ -130,7 +130,7 @@ Merk at oksybutynin som antikolinergikum kan gi additive antikolinerge effekter 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for restless legs-syndrom støttes kun av en datamodell (L5), uten kliniske studier eller litteratur, og den farmakologiske sammenhengen er svak, med mulig forverring av symptomer. I tillegg er den eneste norske/europeiske tillatelsen trukket tilbake.
+Prediksjonen for restless legs-syndrom støttes kun av en datamodell (L5), uten kliniske studier eller litteratur, og den farmakologiske sammenhengen er svak, med mulig forverring av symptomer.
 
 **For å gå videre kreves følgende:**
 - Detaljerte data om virkningsmekanisme (MOA) fra DrugBank

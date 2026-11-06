@@ -88,7 +88,7 @@ Farmakologiske målproteiner som er registrert (ikke legemiddelinteraksjoner i s
 **Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på modellscore (L5), uten kliniske studier, uten litteratur og uten plausibel mekanistisk kobling. Legemidlet er dessuten avregistrert i Norge, og målgruppen er spedbarn uten pediatriske sikkerhetsdata.
+Prediksjonen bygger kun på modellscore (L5), uten kliniske studier, uten litteratur og uten plausibel mekanistisk kobling. Målgruppen er spedbarn uten pediatriske sikkerhetsdata.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA)

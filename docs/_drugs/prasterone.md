@@ -119,7 +119,7 @@ Fra et teoretisk ståsted kan omdanning til østrogener og androgener påvirke k
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er utelukkende beregningsbasert (evidensnivå L5) uten støtte fra kliniske studier eller litteratur. Flere av de predikerte tilstandene er protrombotiske, og prasterons hormonelle effekter kan i verste fall forverre dem. I tillegg er legemidlet ikke lenger markedsført i Norge.
+Prediksjonen er utelukkende beregningsbasert (evidensnivå L5) uten støtte fra kliniske studier eller litteratur. Flere av de predikerte tilstandene er protrombotiske, og prasterons hormonelle effekter kan i verste fall forverre dem.
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende mangel)

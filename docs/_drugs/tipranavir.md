@@ -64,7 +64,7 @@ Detaljerte data om virkningsmekanisme er foreløpig ikke tilgjengelige. Basert p
 
 Felint immunsviktvirus (FIV) er et lentivirus med en protease som er i slekt med HIV-1-proteasen, så en effekt er biologisk plausibel. FIV-proteasen skiller seg likevel fra HIV-proteasen i substratspesifisitet og følsomhet for hemmere, og ingen data om dette er tilgjengelige her.
 
-Det er viktig å merke seg at dette er en veterinær indikasjon uten direkte klinisk relevans for mennesker. Legemidlet er dessuten avregistrert i Norge.
+Det er viktig å merke seg at dette er en veterinær indikasjon uten direkte klinisk relevans for mennesker.
 
 Andre prediksjoner fra modellen er: simian immunsviktvirus-infeksjon (score 0,9999, hovedsakelig en dyremodell hos ikke-menneskelige primater), AIDS-relatert kompleks og medfødt HIV (begge overlapper med den godkjente HIV-indikasjonen, og er derfor ikke reell repurposing), samt en rekke svulstdiagnoser og en nevroutviklingsforstyrrelse uten sannsynlig mekanistisk forbindelse. For «obsolete familial combined hyperlipidemia» er sammenhengen trolig motsatt: proteasehemmere gir ofte dyslipidemi som bivirkning.
 
@@ -106,7 +106,7 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon, inkludert advarsler. D
 **Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Prediksjonen mangler både kliniske studier og litteratur, og den predikerte indikasjonen er veterinær med liten relevans for mennesker. Legemidlet er i tillegg avregistrert i Norge, og kunnskapsgrafen viser omfattende kontraindikasjoner knyttet til lever, blødning og stoffskifte.
+Prediksjonen mangler både kliniske studier og litteratur, og den predikerte indikasjonen er veterinær med liten relevans for mennesker. Kunnskapsgrafen viser omfattende kontraindikasjoner knyttet til lever, blødning og stoffskifte.
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)

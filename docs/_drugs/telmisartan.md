@@ -116,7 +116,7 @@ Utvalg for de to best dokumenterte alternative indikasjonene:
 
 ## Markedsinformasjon for Norge
 
-Alle 12 godkjenninger er opphevet. Nummerne under er europeiske (EMEA) godkjenningsnumre.
+Nummerne under er europeiske (EMEA) godkjenningsnumre.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -145,7 +145,7 @@ Se pakningsvedlegget for fullstendig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-For Prinzmetal angina finnes kun en modellprediksjon (L5) uten kliniske studier eller litteratur. Legemidlet er markedsført i Norge med 12 gyldige godkjenninger av 12, men sikkerhetsdata fra preparatomtale mangler.
+For Prinzmetal angina finnes kun en modellprediksjon (L5) uten kliniske studier eller litteratur. Sikkerhetsdata fra preparatomtale mangler.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere pakningsvedlegg for advarsler og kontraindikasjoner (blokkerende datamangel)
@@ -153,7 +153,7 @@ For Prinzmetal angina finnes kun en modellprediksjon (L5) uten kliniske studier 
 - Systematisk litteratursøk om ARB/telmisartan ved vasospastisk angina
 - Verifisere utfallsdata fra den fullstendige TRIDENT-publikasjonen (PMID 42019018) før eventuell oppgradering av intracerebral blødning. Telmisartans bidrag kan ikke isoleres fordi intervensjonen er en kombinasjonspille
 - Vurdere cerebral arterieokklusjon som et forskningsspørsmål: sterk preklinisk støtte (L3), men ingen direkte kliniske data
-- Avklare markedsstatus og reell tilgjengelighet i Norge, siden alle godkjenninger er opphevet
+- Avklare markedsstatus og reell tilgjengelighet i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

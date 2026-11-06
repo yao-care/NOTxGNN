@@ -105,7 +105,7 @@ Informasjon om advarsler og kontraindikasjoner fra preparatomtalen mangler. Se p
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for lepra bygger utelukkende på modellscore (evidensnivå L5), uten kliniske studier, litteratur eller støttet mekanistisk kobling. I tillegg er den eneste norske/europeiske godkjenningen avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen for lepra bygger utelukkende på modellscore (evidensnivå L5), uten kliniske studier, litteratur eller støttet mekanistisk kobling. Sikkerhetsdata fra preparatomtalen mangler.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere advarsler og kontraindikasjoner fra preparatomtalen (blokkerende datamangel for sikkerhetsscreening)

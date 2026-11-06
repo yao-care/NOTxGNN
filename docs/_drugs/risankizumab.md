@@ -121,7 +121,7 @@ Den eneste fullførte RCT-en (fase 2, atopisk dermatitt) viste begrenset effekt,
 - Detaljerte data om virkningsmekanisme (MOA)
 - Advarsler og kontraindikasjoner fra preparatomtalen
 - Avgrensning av en aktuell undergruppe (f.eks. blandet fenotype med samtidig psoriasis) og dedikerte studier der
-- Avklaring av regulatorisk status i Norge (godkjenningen er annullert)
+- Avklaring av regulatorisk status i Norge
 - Vurdering av risiko for paradoksal eksem og av interaksjoner med andre immunsuppressive legemidler
 ## Ansvarsfraskrivelse
 

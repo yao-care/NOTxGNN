@@ -111,7 +111,7 @@ Klinisk nytte som tilleggsbehandling ved type 1-diabetes er ikke etablert, og de
 
 ## Markedsinformasjon for Norge
 
-Alle 7 registrerte tillatelser er sentrale EU-tillatelser (EMEA) som er trukket tilbake. Doseringsform er ikke oppgitt i dataene.
+Doseringsform er ikke oppgitt i dataene.
 
 | Tillatelsesnummer | Produktnavn | Innehaver | Godkjent indikasjon | Status |
 |---------|------|------|-----------|------|

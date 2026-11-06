@@ -80,7 +80,7 @@ Foreløpig finnes det ingen relatert litteratur for denne indikasjonen.
 
 ## Markedsinformasjon for Norge
 
-Alle åtte godkjenningene er avregistrert. De fem første er vist nedenfor. Doseringsform er ikke oppgitt i dataene.
+De fem første er vist nedenfor. Doseringsform er ikke oppgitt i dataene.
 
 | Godkjenningsnummer | Produktnavn | Status | Godkjent indikasjon |
 |---------|------|------|-----------|

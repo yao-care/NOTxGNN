@@ -102,7 +102,7 @@ For de andre ni prediksjonene finnes ingen registrerte kliniske studier.
 | EMEA/H/C/004104 | Eptifibatide Accord (opphevet) | Ikke oppgitt | Hjerteinfarkt |
 | EMEA/H/C/000230 | Integrilin (opphevet) | Ikke oppgitt | Ustabil angina og hjerteinfarkt |
 
-Begge markedsføringstillatelsene er gyldige, og legemidlet er markedsført.
+Legemidlet er markedsført.
 
 ---
 
@@ -125,13 +125,13 @@ Pakningsvedlegget (varsler og kontraindikasjoner) er ikke tilgjengelig i datagru
 
 **Begrunnelse:**
 - Revmatoid artritt, den høyest rangerte prediksjonen, har kun modellstøtte uten studier (L5), og blødningsrisikoen er ikke berettiget uten evidens.
-- For sigdcellesykdom finnes en randomisert fase 1/2-studie og flere små studier med sikkerhet og noen biologiske signaler. Studien ble imidlertid terminert med bare 13 deltakere, så effekt er ikke vist. Preparatet er dessuten markedsført i Norge, med to gyldige markedsføringstillatelser.
+- For sigdcellesykdom finnes en randomisert fase 1/2-studie og flere små studier med sikkerhet og noen biologiske signaler. Studien ble imidlertid terminert med bare 13 deltakere, så effekt er ikke vist. Preparatet er dessuten markedsført i Norge.
 
 **For å gå videre kreves følgende:**
 - Pakningsvedlegg med varsler og kontraindikasjoner (blokkerende datamangel)
 - Data om virkningsmekanisme (f.eks. fra DrugBank)
 - En tilstrekkelig dimensjonert, randomisert studie som vurderer effekt og blødningssikkerhet ved sigdcellesykdom
-- Vurdering av administrasjonsvei og tilgjengelighet, siden alle norske godkjenninger er opphevet
+- Vurdering av administrasjonsvei og tilgjengelighet
 - Verifisering av litteraturreferansen PMID 24678072 (avvikende publiseringsår)
 ## Ansvarsfraskrivelse
 

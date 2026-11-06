@@ -111,7 +111,6 @@ Prediksjonen er en undertype av den allerede godkjente indikasjonen og represent
 **For å gå videre trengs følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
 - Data om virkningsmekanisme (MOA) fra DrugBank
-- Avklaring av hvorfor tillatelsen er tilbakekalt/avregistrert, og om en ny tillatelse er aktuell
 - Vurdering av mer reelle kandidatindikasjoner (for eksempel koronarstenose, der det finnes indirekte, småskala evidens for intrakoronar bruk), fortrinnsvis med kontrollerte studier
 ## Ansvarsfraskrivelse
 

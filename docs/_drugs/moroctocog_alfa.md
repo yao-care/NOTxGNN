@@ -116,7 +116,7 @@ Alle predikerte indikasjoner er kun modellbaserte (L5) uten kliniske studier ell
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Dersom man vil utforske videre: fokusere på «ervervet koagulasjonsfaktormangel» med en presis sykdomsdefinisjon og en målrettet litteratur- og studiesøk
 - Avklaring av sykdomsentiteten «flood factor deficiency»
-- Vurdering av preparatets tilgjengelighet i Norge, siden tillatelsen er avregistrert
+- Vurdering av preparatets tilgjengelighet i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

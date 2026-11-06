@@ -88,8 +88,6 @@ Det finnes for øyeblikket ingen relatert litteratur.
 | EMEA/H/C/001209 | Silodyx | – | Godartet prostataforstørrelse |
 | EMEA/H/C/001092 | Urorec | – | Godartet prostataforstørrelse |
 
-Alle tre tillatelsene (innehaver: Recordati Ireland Ltd) har status trukket tilbake.
-
 ---
 
 ## Sikkerhetsvurderinger

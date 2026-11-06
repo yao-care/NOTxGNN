@@ -104,7 +104,7 @@ Detaljert sikkerhetsinformasjon (advarsler og kontraindikasjoner) fra preparatom
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier eller litteratur. I tillegg er den eneste norske/europeiske godkjenningen avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier eller litteratur. Sikkerhetsdata fra preparatomtalen mangler.
 
 **For å gå videre kreves følgende:**
 - Innhenting og gjennomgang av preparatomtale (advarsler og kontraindikasjoner), som er en blokkerende datamangel

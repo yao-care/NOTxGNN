@@ -119,7 +119,7 @@ Prediksjonen bygger kun på modellscoren fra TxGNN-modellen (dyp læring) (evide
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende hull for sikkerhetsscreening)
 - Prekliniske data (in vitro-aktivitet mot toksinproduserende *S. aureus*) og farmakokinetiske data for vev
 - Vurdering av mulig topikal formulering og rutekompatibilitet
-- Vurdering av regulatorisk status, siden den eneste tillatelsen er avregistrert
+- Vurdering av regulatorisk status
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

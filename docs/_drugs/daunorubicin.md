@@ -136,14 +136,14 @@ Flere av disse (f.eks. 5-HT3-antagonister og klaritromycin) er relevante fordi d
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Evidensen for Hodgkins lymfom er indirekte: to fase 2-studier i andre lymfomtyper og litteratur som i hovedsak består av oversikter og liposomale studier ved non-Hodgkin-lymfom. Daunorubicins bidrag i Hodgkin-regimer er ikke påvist, og preparatet er i tillegg trukket tilbake fra markedet i Norge.
+Evidensen for Hodgkins lymfom er indirekte: to fase 2-studier i andre lymfomtyper og litteratur som i hovedsak består av oversikter og liposomale studier ved non-Hodgkin-lymfom. Daunorubicins bidrag i Hodgkin-regimer er ikke påvist.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Preparatomtale med advarsler og kontraindikasjoner (ikke tilgjengelig i dag, og blokkerende for sikkerhetsscreening)
 - Direkte kliniske data for daunorubicin ved Hodgkins lymfom, eller sammenligning mot etablerte antracyklinregimer (ABVD)
 - Plan for kardiotoksisitets- og blodstatusovervåking
-- Vurdering av tilgjengelig administrasjonsform, siden den eneste norske godkjenningen er trukket tilbake
+- Vurdering av tilgjengelig administrasjonsform
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

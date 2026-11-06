@@ -146,13 +146,13 @@ Ellers henvises det til preparatomtalen for informasjon om advarsler og kontrain
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den høye TxGNN-scoren og flere fase 1/2-studier (blant annet med azacitidin) gir et rimelig biologisk grunnlag. Den eneste fase 3-studien ble avsluttet tidlig med bare 52 pasienter og kan ikke regnes som bekreftende evidens. Produktet er avregistrert i Norge, og data om advarsler og kontraindikasjoner mangler, noe som hindrer sikkerhetsscreening.
+Den høye TxGNN-scoren og flere fase 1/2-studier (blant annet med azacitidin) gir et rimelig biologisk grunnlag. Den eneste fase 3-studien ble avsluttet tidlig med bare 52 pasienter og kan ikke regnes som bekreftende evidens.
 
 **For å gå videre kreves følgende:**
 - Innhente og analysere preparatomtale (advarsler og kontraindikasjoner), siden dette er en blokkerende datamangel
 - Hente inn data om virkningsmekanisme (MOA) fra DrugBank
 - Avklare hvorfor NCT04326764 ble avsluttet, og hente publiserte resultater fra fase 2-studiene (særlig NCT00946647 og NCT00880269)
-- Vurdere tilgjengelighet i Norge, siden Farydak er avregistrert, og avklare mulige administrasjonsveier
+- Vurdere tilgjengelighet i Norge, og avklare mulige administrasjonsveier
 - Utarbeide en plan for sikkerhetsovervåking (blodstatus, QT/EKG) og håndtering av legemiddelinteraksjoner
 ## Ansvarsfraskrivelse
 

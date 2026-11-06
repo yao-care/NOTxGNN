@@ -68,7 +68,7 @@ Den høye TxGNN-scoren (0.9913) er kun en beregnet prediksjon fra TxGNN-modellen
 
 ### Alternativ prediksjon (rangert nr. 2)
 
-Modellen foreslår også **alvorlig ikke-proliferativ diabetisk retinopati** (score 0,9905, evidensnivå L5, beslutning: Hold). EGFR-signalering kan bidra til karskade i netthinnen, betennelse og patologisk angiogenese. Panitumumab er imidlertid et stort IgG2-antistoff gitt systemisk med begrenset penetrasjon til øyet, og anti-EGFR-midler gir øyetoksisitet (f.eks. keratitt, overflateproblemer på øyet, trikomegali). Det foreligger ingen intravitreale eller prekliniske data. At produktet kun har trukket tilbake tillatelse, kan også svekke gjennomførbarheten.
+Modellen foreslår også **alvorlig ikke-proliferativ diabetisk retinopati** (score 0,9905, evidensnivå L5, beslutning: Hold). EGFR-signalering kan bidra til karskade i netthinnen, betennelse og patologisk angiogenese. Panitumumab er imidlertid et stort IgG2-antistoff gitt systemisk med begrenset penetrasjon til øyet, og anti-EGFR-midler gir øyetoksisitet (f.eks. keratitt, overflateproblemer på øyet, trikomegali). Det foreligger ingen intravitreale eller prekliniske data.
 
 ---
 
@@ -120,13 +120,13 @@ For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner) vises det til
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Begge prediksjonene bygger kun på modellberegning (L5) uten kliniske studier eller publikasjoner. Den mekanistiske koblingen er spekulativ og for osteoporose muligens motstridende. Produktet har dessuten kun en trukket tilbake tillatelse, og sikkerhetsdata fra pakningsvedlegget mangler.
+Begge prediksjonene bygger kun på modellberegning (L5) uten kliniske studier eller publikasjoner. Den mekanistiske koblingen er spekulativ og for osteoporose muligens motstridende. Sikkerhetsdata fra pakningsvedlegget mangler.
 
 **For å gå videre kreves følgende:**
 - Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel, må løses før sikkerhetsscreening)
 - Data om virkningsmekanisme (MOA) fra DrugBank for å vurdere den mekanistiske koblingen
 - Prekliniske eller mekanistiske studier på EGFR-hemming og benombygging (osteoporose) og på netthinnekar (retinopati)
-- Avklaring av markedsstatus og tilgjengelighet i Norge, siden tillatelsen er trukket tilbake
+- Avklaring av markedsstatus og tilgjengelighet i Norge
 - Vurdering av administrasjonsvei og passform (spesielt ved okulær bruk) samt sikkerhetsprofil ved hypomagnesemi, hypokalsemi og øyetoksisitet
 ## Ansvarsfraskrivelse
 

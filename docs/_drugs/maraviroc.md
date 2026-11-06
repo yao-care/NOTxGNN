@@ -129,7 +129,7 @@ Prediksjonen for multippel endokrin neoplasi bygger kun på en beregnet modellsc
 - Preparatomtale med advarsler og kontraindikasjoner
 - Preklinisk dokumentasjon som kobler CCR5-signalering til MEN-patogenese
 - Vurdering av mer lovende kandidater, særlig HER2-positiv brystkreft (CCL5/CCR5-aksen) og kutant T-cellelymfom, som forskningsspørsmål
-- Avklaring av regulatorisk status, siden den eneste autorisasjonen er opphevet
+- Avklaring av regulatorisk status
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

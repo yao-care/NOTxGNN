@@ -140,13 +140,13 @@ For øvrig sikkerhetsinformasjon, se pakningsvedlegget.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for myeloid leukemi bygger i hovedsak på modellscore. Den eneste studien er en fase 1-studie der zanubrutinib bare er kombinasjonspartner, og litteraturen gjelder lymfoide maligniteter. De øvrige predikerte indikasjonene (bl.a. ganglionevroblastom, Ewing-sarkom og nevroblastom) har ingen eller ingen relevant støtte (evidensnivå L5). Dessuten er den norske autorisasjonen opphevet.
+Prediksjonen for myeloid leukemi bygger i hovedsak på modellscore. Den eneste studien er en fase 1-studie der zanubrutinib bare er kombinasjonspartner, og litteraturen gjelder lymfoide maligniteter. De øvrige predikerte indikasjonene (bl.a. ganglionevroblastom, Ewing-sarkom og nevroblastom) har ingen eller ingen relevant støtte (evidensnivå L5).
 
 **For å gå videre kreves følgende:**
 - Prekliniske data og mekanismedata for BTK-avhengighet i myeloid leukemi/AML
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Hentet og analysert pakningsvedlegg (advarsler og kontraindikasjoner), som er en blokkerende mangel for sikkerhetsscreening
-- Avklaring av markedsstatus i Norge, siden eksisterende autorisasjon er opphevet
+- Avklaring av markedsstatus i Norge
 - Eventuelt målrettede kliniske studier (fase 1/2) i myeloid leukemi før videre vurdering
 ## Ansvarsfraskrivelse
 

@@ -100,8 +100,6 @@ For den sjette kandidaten, Lewy body-demens, er én publikasjon funnet:
 |---------|------|------|-----------|
 | EMEA/H/C/000132 | Tasmar (Viatris Healthcare Limited) | Ikke oppgitt | Parkinsons sykdom |
 
-Godkjenningen har status avregistrert.
-
 ---
 
 ## Sikkerhetsvurderinger
@@ -133,7 +131,7 @@ Tolkapon er i tillegg kjent for leverskade (hepatotoksisitet), som er grunnen ti
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for Rasmussens subakutte encefalitt støttes verken av kliniske studier eller litteratur, og det finnes ingen kjent mekanistisk sammenheng. Evidensnivået er L5 (kun modellprediksjon). I tillegg er tolkapons godkjenning i Norge avregistrert, og leverskaderisikoen er en betydelig barriere.
+Prediksjonen for Rasmussens subakutte encefalitt støttes verken av kliniske studier eller litteratur, og det finnes ingen kjent mekanistisk sammenheng. Evidensnivået er L5 (kun modellprediksjon). Leverskaderisikoen er en betydelig barriere.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

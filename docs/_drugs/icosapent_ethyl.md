@@ -101,7 +101,7 @@ Se pakningsvedlegget/preparatomtalen for sikkerhetsinformasjon. Det ble ikke fun
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er kun modellbasert (evidensnivå L5) uten støtte fra kliniske studier eller litteratur. Mekanismedata og sikkerhetsdata mangler, og den eneste godkjenningen er avregistrert.
+Prediksjonen er kun modellbasert (evidensnivå L5) uten støtte fra kliniske studier eller litteratur. Mekanismedata og sikkerhetsdata mangler.
 
 **For å gå videre kreves følgende:**
 - Hente virkningsmekanisme (MOA) fra DrugBank

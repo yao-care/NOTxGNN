@@ -132,7 +132,7 @@ Den eneste støtten for prediksjonen er en høy TxGNN-score uten klinisk valider
 - Prekliniske data eller mekanismestudier som viser effekt av XPO1-hemming på benombygging, inkludert effektretning (beskyttende eller skadelig)
 - Litteratursøk og gjennomgang av benrelaterte bivirkninger hos pasienter behandlet med selinexor
 - Avklaring av formuleringens og administrasjonsveiens kompatibilitet med den nye indikasjonen
-- Avklaring av markedsstatus i Norge, siden den eneste godkjenningen er avregistrert
+- Avklaring av markedsstatus i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

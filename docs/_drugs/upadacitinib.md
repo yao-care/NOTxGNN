@@ -107,7 +107,7 @@ Annen sikkerhetsinformasjon (advarsler og kontraindikasjoner fra preparatomtale)
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten kliniske studier, uten litteratur og uten støtte for en biologisk mekanisme. Sykdommen er en sjelden utviklingsforstyrrelse som neppe vil respondere på JAK-hemming. I tillegg er den eneste norske godkjenningen avregistrert.
+Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten kliniske studier, uten litteratur og uten støtte for en biologisk mekanisme. Sykdommen er en sjelden utviklingsforstyrrelse som neppe vil respondere på JAK-hemming.
 
 **For å gå videre kreves følgende:**
 - Innhenting av preparatomtale (advarsler og kontraindikasjoner) fra DMP, som er en blokkerende datamangel for sikkerhetsscreening

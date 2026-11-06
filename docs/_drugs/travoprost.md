@@ -118,7 +118,7 @@ Prediksjonen kommer kun fra TxGNN-modellen (deep learning) (evidensnivå L5), og
 - Prekliniske studier som undersøker effekt på karforkalkning
 - Vurdering av administrasjonsvei og systemisk eksponering (øyedråper er neppe egnet)
 - Preparatomtale med advarsler og kontraindikasjoner for en fullstendig sikkerhetsvurdering
-- Avklaring av det regulatoriske grunnlaget, siden de norske godkjenningene er avregistrert
+- Avklaring av det regulatoriske grunnlaget
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -113,7 +113,7 @@ Prediksjonen bygger kun på modellscore (evidensnivå L5). HBV mangler det prote
 - Prekliniske data (in vitro-aktivitet mot HBV) som kan gi en mekanistisk begrunnelse
 - Detaljerte data om virkningsmekanisme (MOA)
 - Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsvurdering
-- Avklaring av regulatorisk status i Norge, siden eneste tillatelse er avregistrert
+- Avklaring av regulatorisk status i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

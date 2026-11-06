@@ -91,8 +91,6 @@ Foreløpig er det ingen relaterte kliniske studier registrert.
 |---------|------|------|-----------|
 | EMEA/H/C/005557 | Maapliv | Ikke oppgitt | Lønnesirupsyke (Maple Syrup Urine Disease) |
 
-Denne godkjenningen er avregistrert (status: cancelled).
-
 ---
 
 ## Sikkerhetsvurderinger

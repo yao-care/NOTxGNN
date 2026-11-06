@@ -110,7 +110,7 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på modellen (evidensnivå L5), uten kliniske studier eller litteratur. Amenoré er dessuten en kjent virkning av hormonell prevensjon, og den eneste godkjenningen i Norge er opphevet.
+Prediksjonen bygger kun på modellen (evidensnivå L5), uten kliniske studier eller litteratur. Amenoré er dessuten en kjent virkning av hormonell prevensjon.
 
 **For å gå videre kreves følgende:**
 - Gjennomgang av preparatomtalens advarsler og kontraindikasjoner (mangler foreløpig og er et blokkerende datagap)

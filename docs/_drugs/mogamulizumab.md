@@ -133,7 +133,7 @@ Mange av de alvorlige og moderate interaksjonene gjelder immunsuppressive legemi
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Alle predikerte indikasjoner bygger kun på modellprediksjon (L5), uten kliniske studier eller litteratur. Det eneste norske markedsføringstillatelsen er avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
+Alle predikerte indikasjoner bygger kun på modellprediksjon (L5), uten kliniske studier eller litteratur. Sikkerhetsdata fra preparatomtalen mangler.
 
 **For å gå videre kreves:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel)

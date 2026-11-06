@@ -105,7 +105,7 @@ I tillegg er det kjent fra utviklingshistorien at fase 3-studien ved NASH ikke v
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten støtte fra kliniske studier eller litteratur, og en plausibel mekanistisk sammenheng med amenoré er ikke påvist. I tillegg er den norske godkjenningen registrert som avregistrert.
+Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten støtte fra kliniske studier eller litteratur, og en plausibel mekanistisk sammenheng med amenoré er ikke påvist.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtalen (advarsler og kontraindikasjoner) for sikkerhetsscreening

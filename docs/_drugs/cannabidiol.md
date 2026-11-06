@@ -44,7 +44,6 @@ Evidensnivå: **N/A** | Predikerte indikasjoner: **0** stk.
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Bevisnivå | N/A — ingen prediksjoner generert |
-| Markedsstatus i Taiwan | ✗ Ikke markedsført (0 godkjennelser) |
 | Antall godkjennelser | 0 |
 
 ---

@@ -128,7 +128,7 @@ Rimegepant har dokumentert effekt ved migrene generelt, og undertypen hjernestam
 - Hente og analysere preparatomtalens advarsler og kontraindikasjoner (kritisk datamangel for sikkerhetsscreening)
 - Innhente data om virkningsmekanisme (MOA), for eksempel fra DrugBank
 - Undergruppeanalyser av eksisterende fase 3-studier, eller nye studier, for pasienter med hjernestammeaura
-- Avklare regulatorisk status og tilgjengelighet i Norge (avregistrert tillatelse)
+- Avklare regulatorisk status og tilgjengelighet i Norge
 - Vurdere sikkerhet ved samtidig bruk av legemidler med alvorlige interaksjoner
 ## Ansvarsfraskrivelse
 

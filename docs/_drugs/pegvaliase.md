@@ -88,8 +88,6 @@ Foreløpig er ingen relevant litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/004744 | Palynziq | – | Fenylketonuri |
 
-Tillatelsen er registrert som avregistrert (BioMarin International Limited).
-
 ---
 
 ## Sikkerhetsvurderinger
@@ -122,7 +120,7 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er kun modellbasert (L5), uten kliniske studier eller litteratur, og uten noen kjent mekanistisk kobling mellom fenylalaninnedbrytning og diabetisk retinopati. I tillegg er legemidlet ikke lenger markedsført i Norge.
+Prediksjonen er kun modellbasert (L5), uten kliniske studier eller litteratur, og uten noen kjent mekanistisk kobling mellom fenylalaninnedbrytning og diabetisk retinopati.
 
 **For å gå videre kreves følgende:**
 - Informasjon om virkningsmekanisme (MOA) fra DrugBank

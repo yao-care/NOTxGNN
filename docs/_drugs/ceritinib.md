@@ -127,7 +127,7 @@ Prediksjonen er basert utelukkende på modellscore (evidensnivå L5), uten klini
 - Data om virkningsmekanisme (MOA) fra DrugBank, og en vurdering av om ALK/IGF-1R/ROS1-hemming har biologisk relevans for fibrotisk overvekst av tannkjøtt
 - Pakningsvedlegg med advarsler og kontraindikasjoner fra regulatoriske kilder (blokkerende datamangel for sikkerhetsscreening)
 - Prekliniske data (f.eks. cellemodeller for fibroblaster) som kan støtte hypotesen
-- Avklaring av regulatorisk status, siden den eneste norske/europeiske godkjenningen er avregistrert
+- Avklaring av regulatorisk status
 - Vurdering av alternative prediksjoner: de øvrige topprangerte forslagene (bl.a. lungenære svulster) har også kun evidensnivå L4–L5 og bør vurderes separat
 ## Ansvarsfraskrivelse
 

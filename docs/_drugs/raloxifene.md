@@ -109,14 +109,14 @@ Advarsler og kontraindikasjoner fra preparatomtalen mangler. Se preparatomtalen 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er kun beregningsbasert (L5), uten kliniske studier eller publikasjoner. Ingen mekanistisk sammenheng er støttet av dataene, og legemidlet er markedsført i Norge med 3 gyldige tillatelser av 3. Kunnskapsgrafen peker i tillegg på en rekke kardiovaskulære og tromboemboliske kontraindikasjoner.
+Prediksjonen er kun beregningsbasert (L5), uten kliniske studier eller publikasjoner. Ingen mekanistisk sammenheng er støttet av dataene. Kunnskapsgrafen peker i tillegg på en rekke kardiovaskulære og tromboemboliske kontraindikasjoner.
 
 **For å gå videre kreves følgende:**
 - Innhenting og gjennomgang av preparatomtale (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsscreening
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Litteratur- og studiesøk spesifikt for raloxifen ved duodenalt sår og de øvrige predikerte indikasjonene
 - Prekliniske data eller mekanistiske studier som kan støtte en hypotese
-- Avklaring av regulatorisk status, siden legemidlet er markedsført i Norge med 3 gyldige tillatelser av 3
+- Avklaring av regulatorisk status
 - Vurdering av hypoalfalipoproteinemi som mest plausible alternative kandidat, før ressurser brukes på de gastrointestinale indikasjonene
 ## Ansvarsfraskrivelse
 

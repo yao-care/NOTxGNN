@@ -113,7 +113,7 @@ For Lewy body-demens (rangering 7) finnes to prekliniske arbeider:
 
 ## Markedsinformasjon for Norge
 
-Alle de syv registrerte godkjenningene er annullert. Dosisform er ikke oppgitt i dataene.
+Dosisform er ikke oppgitt i dataene.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -145,7 +145,7 @@ Den fremste prediksjonen er basert utelukkende på en modellscore uten støtte f
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Sikkerhetsopplysninger fra preparatomtale (advarsler og kontraindikasjoner)
 - Prekliniske eller kliniske data for entakapon ved PLA2G6-assosiert nevrodegenerasjon
-- Avklaring av regulatorisk situasjon, siden alle norske godkjenninger er annullert
+- Avklaring av regulatorisk situasjon
 - Vurdering av sikkerhet og effekt hos barn og unge dersom juvenile former skal vurderes
 ## Ansvarsfraskrivelse
 

@@ -93,7 +93,7 @@ Se pakningsvedlegget for øvrig sikkerhetsinformasjon, inkludert advarsler og ko
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en modellscore (evidensnivå L5) uten kliniske studier, litteratur eller dokumentert mekanistisk sammenheng. Det finnes dessuten indikasjoner på at legemidlet kan være assosiert med hudfunn. Dessuten er den eneste tillatelsen i Norge avregistrert.
+Prediksjonen bygger kun på en modellscore (evidensnivå L5) uten kliniske studier, litteratur eller dokumentert mekanistisk sammenheng. Det finnes dessuten indikasjoner på at legemidlet kan være assosiert med hudfunn.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank

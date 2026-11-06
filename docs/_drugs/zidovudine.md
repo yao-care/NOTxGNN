@@ -111,8 +111,6 @@ Dataene inneholder 40 registrerte studier. De mest relevante er listet under.
 
 ## Markedsinformasjon for Norge
 
-De to registrerte tillatelsene er trukket tilbake.
-
 | Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
 | EMEA/H/C/000190 | Combivir | Ikke oppgitt | HIV-infeksjon |

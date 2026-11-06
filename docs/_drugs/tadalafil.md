@@ -107,7 +107,7 @@ Til orientering finnes én publikasjon knyttet til en annen predikert indikasjon
 | EMEA/H/C/001021 | Adcirca (tidligere Tadalafil Lilly) | – | Pulmonal hypertensjon |
 | EMEA/H/C/004666 | Tadalafil Lilly | – | Erektil dysfunksjon |
 
-Totalt finnes 6 godkjenninger, og alle er opphevet. Den sjette (Yuvanci, pulmonal arteriell hypertensjon) er ikke vist i tabellen, som er begrenset til fem.
+Den sjette (Yuvanci, pulmonal arteriell hypertensjon) er ikke vist i tabellen, som er begrenset til fem.
 
 ---
 
@@ -133,7 +133,7 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for Ambras-type hypertrichosis bygger kun på modellscore (L5), uten kliniske studier, litteratur eller plausibel mekanisme. Alle norske godkjenninger er dessuten opphevet.
+Prediksjonen for Ambras-type hypertrichosis bygger kun på modellscore (L5), uten kliniske studier, litteratur eller plausibel mekanisme.
 
 **For å gå videre kreves følgende:**
 - Gjennomgang av preparatomtale for advarsler og kontraindikasjoner (blokkerende datamangel)

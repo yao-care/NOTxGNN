@@ -117,7 +117,6 @@ Prediksjonen er kun modellbasert (L5) uten kliniske studier eller relevant litte
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
 - Prekliniske eller mekanistiske studier som knytter PPAR-gamma-/insulin-/PI3K-signalering til INPPL1-relatert skjelettdysplasi
 - Systematisk litteratursøk for opsismodysplasi og vurdering av de mer plausible alternativene (lokaliserte lipodystrofier)
-- Avklaring av regulatorisk status i Norge siden alle godkjenninger er opphevet
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -109,7 +109,7 @@ Prediksjonene hviler kun på en modellscore (evidensnivå L5), uten kliniske stu
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende hull for sikkerhetsscreening)
 - Prekliniske eller kliniske data som viser nytte av FXIII-erstatning ved blodplatefunksjonsforstyrrelser
-- Avklaring av tilgjengelighet, ettersom markedsføringstillatelsen er avregistrert
+- Avklaring av tilgjengelighet
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

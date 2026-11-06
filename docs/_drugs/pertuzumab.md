@@ -101,7 +101,7 @@ Studiene WSG-ADAPT og WSG TP-II støtter bruk av pertuzumab + trastuzumab, med e
 | EMEA/H/C/002547 | Perjeta (godkjent) | Ikke oppgitt | Brystkreft (Breast Neoplasms) |
 | EMEA/H/C/005386 | Phesgo (godkjent) | Ikke oppgitt | Brystkreft (Breast Neoplasms) |
 
-Begge godkjenningene er registrert som avregistrert. Dette bør kontrolleres mot gjeldende regional merking for referanseproduktet og biosimilarer.
+Dette bør kontrolleres mot gjeldende regional merking for referanseproduktet og biosimilarer.
 
 ---
 
@@ -139,7 +139,7 @@ Pertuzumab har etablert effekt ved HER2-positiv brystkreft, og PR+-sykdom er en 
 **For å gå videre trengs følgende:**
 - Detaljerte data om virkningsmekanisme (MOA)
 - Advarsler og kontraindikasjoner fra preparatomtalen, som er en blokkerende datamangel for sikkerhetsvurderingen
-- Avklaring av markedsstatus i Norge, siden begge godkjenningene står som avregistrert
+- Avklaring av markedsstatus i Norge
 - Bekreftelse av HER2-status hos pasientene og et program for hjerteovervåking (LVEF)
 - Oppfølging av at fase 2-studien DECRESCENDO ble avsluttet tidlig, noe som begrenser konklusjoner om kjemoterapi-de-eskalering
 

@@ -44,10 +44,9 @@ Evidensnivå: **N/A** | Predikerte indikasjoner: **0** stk.
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 5 av 5) |
 | TxGNN-prediksjonsresultat | — |
 | Bevisnivå | L5 (Ingen prediksjon eller støttende studier) |
-| Status på Taiwans marked | ✗ Ikke markedsført |
 | Antall godkjenninger | 5 (gyldige: 5) |
 
-> ¹ Basert på globalt etablert bruk; ingen TFDA-lisensdata tilgjengelig i denne bevissamlingen.
+> ¹ Basert på globalt etablert bruk.
 
 ## Ansvarsfraskrivelse
 

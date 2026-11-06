@@ -99,7 +99,6 @@ Merk: Tittelen er avkortet, så nøyaktig komparator og populasjon bør verifise
 | EMEA/H/C/001097 | Controloc Control | Ikke oppgitt | Gastroøsofageal reflukssykdom |
 | EMEA/H/C/001098 | Somac Control | Ikke oppgitt | Gastroøsofageal reflukssykdom |
 
-
 ---
 
 ## Sikkerhetsmomenter
@@ -128,7 +127,7 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (kritisk datagap som blokkerer sikkerhetsscreening).
 - Data om virkningsmekanisme fra DrugBank.
-- Avklaring av markedsstatus (avregistrerte godkjenninger) i relevant jurisdiksjon.
+- Avklaring av markedsstatus i relevant jurisdiksjon.
 - Verifisering av NCT02084420 (komparator og populasjon).
 - Plan for oppfølging av interaksjoner, CYP2C19-variasjon og langtidssikkerhet.
 ## Ansvarsfraskrivelse

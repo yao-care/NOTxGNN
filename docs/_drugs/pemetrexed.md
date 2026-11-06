@@ -101,7 +101,7 @@ Bukhinnemesoteliom har samme histologi og kjemosensitivitet som mesoteliom i bry
 | EMEA/H/C/003895 | Pemetrexed Fresenius Kabi | Ikke oppgitt | Ikke-småcellet lungekreft; mesoteliom |
 | EMEA/H/C/003970 | Pemetrexed Pfizer (tidligere Pemetrexed Hospira) | Ikke oppgitt | Ikke-småcellet lungekreft; mesoteliom |
 
-Alle fire godkjenninger er gyldige, og legemidlet er markedsført i Norge.
+Legemidlet er markedsført i Norge.
 
 ## Cytotoksisitet
 
@@ -142,7 +142,7 @@ Mekanismen er biologisk plausibel, og pemetreksed pluss platina brukes allerede 
 - Gjennomgang av preparatomtale (advarsler og kontraindikasjoner), som ikke var tilgjengelig i de sammenstilte data og er en blokkerende datamangel for sikkerhetsscreening.
 - Detaljerte mekanismedata (MOA) fra DrugBank.
 - Resultater fra pågående randomiserte fase 2-studier (NCT05001880, NCT06057935).
-- Klargjøring av regulatorisk status i Norge; legemidlet er markedsført med 4 gyldige godkjenninger av 4.
+- Klargjøring av regulatorisk status i Norge.
 - Plan for sikkerhetsovervåking: blodbilde, nyrefunksjon og vurdering av interaksjoner (spesielt med nyretoksiske og NSAID-lignende legemidler), samt folat- og B12-tilskudd i tråd med standard praksis.
 ## Ansvarsfraskrivelse
 

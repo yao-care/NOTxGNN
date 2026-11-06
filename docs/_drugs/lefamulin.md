@@ -116,7 +116,7 @@ Advarsler og kontraindikasjoner fra preparatomtalen mangler i de innsamlede data
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en modellscore (L5) uten kliniske studier, litteratur eller plausibel mekanistisk kobling mellom en bakteriell ribosomhemmer og en eukaryot parasitt. I tillegg er produktet avregistrert i det norske markedet.
+Prediksjonen bygger kun på en modellscore (L5) uten kliniske studier, litteratur eller plausibel mekanistisk kobling mellom en bakteriell ribosomhemmer og en eukaryot parasitt.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) og en vurdering av mulig effekt på Leishmania

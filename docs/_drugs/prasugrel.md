@@ -57,8 +57,6 @@ Det mest underbygde alternativet blant de predikerte indikasjonene er **migrene 
 | Antall tillatelser | 1 (trukket tilbake) |
 | Anbefalt beslutning | Hold (vent) |
 
-Merk: Den eneste registrerte tillatelsen (Efient, EMEA/H/C/000984) er en sentral europeisk tillatelse og er markert som trukket tilbake.
-
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
@@ -148,7 +146,7 @@ For pulmonal hypertensjon er prediksjonen utelukkende modellbasert (L5), uten kl
 - Prekliniske eller eksplorative kliniske data for prasugrel ved pulmonal hypertensjon
 - For migrene: en randomisert, kontrollert studie som faktisk tester prasugrel (eller P2Y12-hemmere) hos pasienter med PFO-assosiert migrene
 - Vurdering av blødningsrisiko og en overvåkingsplan for aktuelle pasientgrupper
-- Avklaring av regulatorisk status, siden den eneste tillatelsen er trukket tilbake
+- Avklaring av regulatorisk status
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -122,7 +122,7 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en modellscore uten kliniske studier, og den eneste litteraturen gjelder soppinfeksjon, ikke HIV. Kombinert med at godkjenningen i Norge er opphevet og at QT-risiko og mange interaksjoner begrenser praktisk bruk, er evidensen for svak til å gå videre.
+Prediksjonen bygger kun på en modellscore uten kliniske studier, og den eneste litteraturen gjelder soppinfeksjon, ikke HIV.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA)

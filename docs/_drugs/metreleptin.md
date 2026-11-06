@@ -86,8 +86,6 @@ Foreløpig finnes ingen relatert litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/004218 | Myalepta | – | Familiær partiell lipodystrofi |
 
-Tillatelsen har status avregistrert.
-
 ---
 
 ## Sikkerhetsvurderinger
@@ -104,7 +102,7 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen har evidensnivå L5: kun modellprediksjon uten kliniske studier, litteratur eller plausibel mekanistisk kobling. I tillegg er den eneste tillatelsen i Norge avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen har evidensnivå L5: kun modellprediksjon uten kliniske studier, litteratur eller plausibel mekanistisk kobling. Sikkerhetsdata fra preparatomtalen mangler.
 
 **For å gå videre kreves følgende:**
 - Sikkerhetsinformasjon (advarsler og kontraindikasjoner) fra preparatomtalen

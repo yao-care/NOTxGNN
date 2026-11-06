@@ -126,14 +126,14 @@ Offisielle advarsler og kontraindikasjoner fra preparatomtalen mangler i de komp
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Det biologiske grunnlaget (mTOR-signalering i sarkomer) er plausibelt og TxGNN-scoren er høy, men det finnes ingen liposarkom-spesifikke studier eller resultater. I tillegg er den eneste norske/europeiske tillatelsen avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
+Det biologiske grunnlaget (mTOR-signalering i sarkomer) er plausibelt og TxGNN-scoren er høy, men det finnes ingen liposarkom-spesifikke studier eller resultater. Sikkerhetsdata fra preparatomtalen mangler.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtalen (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsvurdering.
 - Supplere data om virkningsmekanisme (MOA), for eksempel fra DrugBank.
 - Undersøke om det finnes en liposarkom-undergruppe i resultatene fra NCT00949325.
 - Vurdere den kliniske relevansen av de to studiene og innhente flere publikasjoner som er spesifikke for liposarkom.
-- Avklare markedsstatus og tilgjengelighet i Norge, siden tillatelsen er avregistrert.
+- Avklare markedsstatus og tilgjengelighet i Norge.
 - Vurdere interaksjonsrisiko (spesielt CYP3A4-relaterte, f.eks. klaritromycin og deksametason) og metabolske risikoer i aktuell pasientgruppe.
 ## Ansvarsfraskrivelse
 

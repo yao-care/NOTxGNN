@@ -99,13 +99,13 @@ Se pakningsvedlegget for sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for amenoré hviler utelukkende på en modellscore uten støtte fra kliniske studier eller litteratur (evidensnivå L5). Den eneste tillatelsen i Norge er trukket tilbake, og sikkerhetsdata og virkningsmekanisme mangler.
+Prediksjonen for amenoré hviler utelukkende på en modellscore uten støtte fra kliniske studier eller litteratur (evidensnivå L5).
 
 **For å gå videre kreves følgende:**
 - Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel, må på plass før sikkerhetsscreening)
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Litteratursøk og søk etter kliniske studier på vitamin E/tokofersolan ved amenoré
-- Avklaring av administrasjonsvei og formulering, siden tilgjengelige produkter er trukket tilbake
+- Avklaring av administrasjonsvei og formulering
 - Vurdering av markedstilgjengelighet i Norge
 ## Ansvarsfraskrivelse
 

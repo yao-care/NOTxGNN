@@ -113,7 +113,7 @@ Se preparatomtalen for advarsler og kontraindikasjoner fra produsenten.
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Systematisk gjennomgang av diflunisal ved aksial spondyloartritt, sammenlignet med dagens standardbehandling
 - Vurdering av kardiovaskulær, nyre- og gastrointestinal risiko (jf. kontraindikasjonene over) for aktuell pasientgruppe
-- Avklaring av regulatorisk vei, siden den eneste tillatelsen er avregistrert
+- Avklaring av regulatorisk vei
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

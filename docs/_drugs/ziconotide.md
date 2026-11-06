@@ -114,13 +114,13 @@ Preparatomtalens advarsler og kontraindikasjoner var ikke tilgjengelige i de inn
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Evidensen består kun av to kasuistikker og én modellprediksjon, uten kontrollerte data eller kliniske studier. I tillegg er produktet avregistrert i Norge, tilførselen er invasiv (intratekal), og sikkerhetsprofilen (nevropsykiatriske bivirkninger, smalt terapeutisk vindu) er uheldig for en vanlig tilstand som migrene.
+Evidensen består kun av to kasuistikker og én modellprediksjon, uten kontrollerte data eller kliniske studier. Tilførselen er invasiv (intratekal), og sikkerhetsprofilen (nevropsykiatriske bivirkninger, smalt terapeutisk vindu) er uheldig for en vanlig tilstand som migrene.
 
 **For å gå videre kreves følgende:**
 - Hentet og analysert preparatomtale (advarsler og kontraindikasjoner) for sikkerhetsscreening
 - Detaljerte data om virkningsmekanisme (f.eks. fra DrugBank)
 - Kontrollerte kliniske studier eller større serier som støtter effekt ved refraktær kronisk migrene
-- Avklaring av regulatorisk status og tilgjengelighet i Norge, siden eneste tillatelse er avregistrert
+- Avklaring av regulatorisk status og tilgjengelighet i Norge
 - Vurdering av nytte-risiko og tilførselsvei for en snever, behandlingsresistent pasientgruppe
 ## Ansvarsfraskrivelse
 

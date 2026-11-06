@@ -149,7 +149,7 @@ Flere fase 3-studier med store utvalg (blant annet NCT01872611 og NCT01853072) s
 **For å gå videre kreves følgende:**
 - Hente og analysere pakningsvedlegget for advarsler og kontraindikasjoner (kritisk datamangel som i dag blokkerer sikkerhetsscreening)
 - Detaljerte data om virkningsmekanisme fra DrugBank
-- Avklare regulatorisk status og tilgjengelighet i Norge, siden den eneste tillatelsen er trukket tilbake
+- Avklare regulatorisk status og tilgjengelighet i Norge
 - Større, kontrollerte studier som spesifikt tester netthinneindikasjoner (epiretinal membran, diabetisk makulaødem, sentral serøs korioretinopati)
 - Plan for sikkerhetsovervåking hos pasienter med hornhinneskade, tørre øyne og diabetes
 ## Ansvarsfraskrivelse

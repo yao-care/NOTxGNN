@@ -113,14 +113,14 @@ Advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelige i data
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier eller litteratur (evidensnivå L5). I tillegg er den eneste norske tillatelsen avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier eller litteratur (evidensnivå L5). Sikkerhetsdata fra preparatomtalen mangler.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere advarsler og kontraindikasjoner fra preparatomtalen (blokkerende datamangel)
 - Innhente data om virkningsmekanisme fra DrugBank
 - Litteratursøk og søk etter kliniske studier om rufinamid ved FIRES og de andre predikerte syndromene
 - Avklare rutekompatibilitet og likhet med den opprinnelige indikasjonen
-- Avklare mulig markedsstatus i Norge, siden Inovelon er avregistrert
+- Avklare mulig markedsstatus i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

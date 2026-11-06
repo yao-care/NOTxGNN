@@ -120,7 +120,7 @@ Evidensen består hovedsakelig av kasuistikker, kasusserier og retrospektive koh
 - Data om virkningsmekanisme fra DrugBank
 - Sammenligning av urinkonsentrasjoner og klinisk effekt i prospektive studier, helst kontrollerte
 - Vurdering av nyrefunksjon og pyoureter, gitt kontraindikasjonene fra kunnskapsgrafen
-- Avklaring av tilgjengelighet og doseringsformer i Norge, siden den eneste godkjenningen er avregistrert
+- Avklaring av tilgjengelighet og doseringsformer i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

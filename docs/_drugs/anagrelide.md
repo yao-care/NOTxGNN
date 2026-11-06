@@ -99,8 +99,6 @@ Det er for øyeblikket ingen relaterte kliniske studier registrert.
 | EMEA/H/C/000480 | Xagrid | – | Essensiell trombocytemi |
 | EMEA/H/C/004585 | Anagrelide Viatris (tidligere Anagrelide Mylan) | – | Essensiell trombocytemi |
 
-Begge tillatelsene er oppført som opphevet.
-
 ---
 
 ## Sikkerhetsvurderinger
@@ -123,7 +121,7 @@ Prediksjonen for reaktiv trombocytose bygger i hovedsak på modellens likhetssco
 - Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsscreening
 - Detaljerte data om virkningsmekanisme (MOA), for eksempel fra DrugBank
 - Klinisk evidens eller en klinisk begrunnelse for at reaktiv trombocytose har et udekket behandlingsbehov som rettferdiggjør plateletsenkende behandling
-- Avklaring av regulatorisk status i Norge, siden begge tillatelser er opphevet
+- Avklaring av regulatorisk status i Norge
 - Vurdering av kardiovaskulær sikkerhet, gitt kunnskapsgrafens hjerte- og karrelaterte kontraindikasjoner og de store QT-relaterte interaksjonene
 ## Ansvarsfraskrivelse
 

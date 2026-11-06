@@ -136,7 +136,7 @@ Se pakningsvedlegget for sikkerhetsinformasjon. Det ble ikke funnet registrerte 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den primære prediksjonen (nasofaryngealt teratom) har kun modellstøtte (L5) uten kliniske studier eller litteratur, og biologien skiller seg fra den opprinnelige indikasjonen. I tillegg er den norske tillatelsen avregistrert, og sikkerhetsdata fra pakningsvedlegget mangler.
+Den primære prediksjonen (nasofaryngealt teratom) har kun modellstøtte (L5) uten kliniske studier eller litteratur, og biologien skiller seg fra den opprinnelige indikasjonen. Sikkerhetsdata fra pakningsvedlegget mangler.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere pakningsvedlegget (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsscreening

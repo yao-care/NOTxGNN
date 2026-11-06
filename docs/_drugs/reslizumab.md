@@ -99,7 +99,7 @@ Se pakningsvedlegget for sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en beregningsmodell uten støtte fra kliniske studier eller litteratur, og det er ikke etablert noen mekanistisk kobling mellom IL-5-blokade og immunmediert trombocytopeni. I tillegg er legemidlets eneste godkjenning avregistrert.
+Prediksjonen bygger kun på en beregningsmodell uten støtte fra kliniske studier eller litteratur, og det er ikke etablert noen mekanistisk kobling mellom IL-5-blokade og immunmediert trombocytopeni.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) for å vurdere den mekanistiske koblingen

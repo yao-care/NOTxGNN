@@ -99,7 +99,6 @@ Merk: Studiedesign er delvis utledet fra titler og sammendrag og bør verifisere
 
 ## Markedsinformasjon for Norge
 
-
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
 | EMEA/H/C/000425 | Forsteo | – | Osteoporose; postmenopausal osteoporose |
@@ -107,8 +106,6 @@ Merk: Studiedesign er delvis utledet fra titler og sammendrag og bør verifisere
 | EMEA/H/C/004932 | Kauliv | – | Osteoporose; postmenopausal osteoporose |
 | EMEA/H/C/004368 | Movymia | – | Osteoporose |
 | EMEA/H/C/005793 | Teriparatide Sun | – | Osteoporose; postmenopausal osteoporose |
-
-Ytterligere to godkjenninger (Sondelbay og Terrosa) er også avregistrert.
 
 ---
 

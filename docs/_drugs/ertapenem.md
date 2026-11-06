@@ -118,13 +118,13 @@ Preparatomtalens advarsler og kontraindikasjoner er ikke tilgjengelige i datagru
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Evidensen for bakteriell artritt er på L4-nivå: ingen kliniske studier og kun kasuistikker og små observasjonsserier. Den høye modellscoren skyldes hovedsakelig den kjente antibakterielle klasseeffekten. I tillegg er alle norske godkjenninger opphevet, og preparatomtalens sikkerhetsdata mangler.
+Evidensen for bakteriell artritt er på L4-nivå: ingen kliniske studier og kun kasuistikker og små observasjonsserier. Den høye modellscoren skyldes hovedsakelig den kjente antibakterielle klasseeffekten. Preparatomtalens sikkerhetsdata mangler.
 
 **For å gå videre trengs:**
 - Preparatomtalens advarsler og kontraindikasjoner, som må innhentes og gjennomgås før sikkerhetsvurdering.
 - Data om virkningsmekanisme (MOA).
 - Kontrollerte eller sammenlignende studier av ertapenem ved bakteriell artritt og bein- og leddinfeksjoner.
-- Avklaring av regulatorisk status i Norge, siden begge godkjenningene er opphevet.
+- Avklaring av regulatorisk status i Norge.
 
 **Merknad om en annen kandidat:**
 Den gjelder ertapenem som tillegg til cefazolin ved vedvarende MSSA-bakteriemi. Evidensen er to registrerte pågående studier, flere kasuistikkserier og en sammenlignende studie ([PMID 38946294](https://pubmed.ncbi.nlm.nih.gov/38946294/)). Studiene er [NCT04886284](https://clinicaltrials.gov/study/NCT04886284) (fase 2, n=60, rekrutterer) og [NCT07148960](https://clinicaltrials.gov/study/NCT07148960) (fase 4, n=300, åpen for invitasjon). Ingen av dem har publiserte resultater ennå, og kandidaten bør følges videre som et eget forskningsspørsmål.

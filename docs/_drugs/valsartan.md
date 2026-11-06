@@ -97,7 +97,7 @@ Til sammenligning gjelder en sekundær indikasjon, malign renovaskulær hyperten
 
 ## Markedsinformasjon for Norge
 
-Alle 9 godkjenninger er opphevet. Dosering/legemiddelform er ikke oppgitt i dataene.
+Dosering/legemiddelform er ikke oppgitt i dataene.
 
 | Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -126,7 +126,7 @@ Informasjon fra pakningsvedlegget (advarsler og kontraindikasjoner) var ikke til
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger på en høy modellscore og et plausibelt mekanistisk grunnlag, men det finnes ingen kliniske studier og ingen direkte litteratur om valsartan for denne indikasjonen (evidensnivå L4). I tillegg er alle norske/europeiske godkjenninger opphevet, og viktige sikkerhetsdata mangler.
+Prediksjonen bygger på en høy modellscore og et plausibelt mekanistisk grunnlag, men det finnes ingen kliniske studier og ingen direkte litteratur om valsartan for denne indikasjonen (evidensnivå L4). Viktige sikkerhetsdata mangler.
 
 **For å gå videre trengs følgende:**
 - Sikkerhetsdata fra preparatomtalen (advarsler og kontraindikasjoner), som i dag blokkerer sikkerhetsvurderingen

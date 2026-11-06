@@ -109,7 +109,7 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon om advarsler og kontrai
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for candidiasis har kun modellbasert støtte (evidensnivå L5), uten kliniske studier, litteratur eller en plausibel virkningsmekanisme. I tillegg er den norske tillatelsen avregistrert.
+Prediksjonen for candidiasis har kun modellbasert støtte (evidensnivå L5), uten kliniske studier, litteratur eller en plausibel virkningsmekanisme.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank

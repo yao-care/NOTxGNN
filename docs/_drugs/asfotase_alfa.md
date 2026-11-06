@@ -103,7 +103,7 @@ Foreløpig er det ingen relevant litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/003794 | Strensiq | Ikke oppgitt | Hypofosfatasi |
 
-Tillatelsen er registrert som avregistrert (innehaver: Alexion Europe SAS). Det finnes 1 gyldig tillatelse av 1.
+Det finnes 1 gyldig tillatelse av 1.
 
 ---
 
@@ -124,7 +124,7 @@ Prediksjonen er rent modellbasert (L5) uten kliniske studier eller litteratur, o
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende hull i sikkerhetsscreeningen)
 - Prekliniske data eller mekanistiske studier som kan støtte en kobling til mitokondriell OXPHOS-sykdom
-- Avklaring av tilgjengelighet og markedsstatus i Norge, siden den eneste tillatelsen er avregistrert
+- Avklaring av tilgjengelighet og markedsstatus i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

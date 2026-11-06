@@ -121,7 +121,7 @@ Det foreligger ikke data fra preparatomtale om advarsler og kontraindikasjoner; 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Evidensen er på nivå L4: én liten, ikke-faset studie uten publiserte resultater, samt laboratoriedata og indirekte litteratur. Den eneste norske/europeiske godkjenningen er opphevet, og sikkerhetsdata fra preparatomtale mangler. Den høye TxGNN-scoren er ikke klinisk evidens.
+Evidensen er på nivå L4: én liten, ikke-faset studie uten publiserte resultater, samt laboratoriedata og indirekte litteratur. Sikkerhetsdata fra preparatomtale mangler. Den høye TxGNN-scoren er ikke klinisk evidens.
 
 **For å gå videre kreves følgende:**
 - Resultater fra NCT07237763 (topisk ketokonazol 2 % mot adapalen 2 %), og bekreftelse av hvilken tilstand som faktisk studeres

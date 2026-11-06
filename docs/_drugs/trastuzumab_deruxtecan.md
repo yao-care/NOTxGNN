@@ -132,7 +132,7 @@ Prediksjonen bygger kun på TxGNN-modellen (deep learning) (evidensnivå L5), ut
 - Detaljerte data om virkningsmekanisme (MOA), for eksempel fra DrugBank
 - Prekliniske eller mekanistiske studier som kan støtte en kobling til beinmetabolisme
 - Vurdering av administrasjonsvei og forenlighet med den nye indikasjonen
-- Avklaring av markedsstatus i Norge, siden tillatelsen er avregistrert
+- Avklaring av markedsstatus i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

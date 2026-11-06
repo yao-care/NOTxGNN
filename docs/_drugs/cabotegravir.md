@@ -126,7 +126,7 @@ Prediksjonen for revmatoid artritt bygger utelukkende på en modellscore uten kl
 - Preparatomtale med advarsler og kontraindikasjoner, som er nødvendig for sikkerhetsscreening
 - Prekliniske data eller litteratursøk som kan gi et første evidensgrunnlag for revmatoid artritt
 - Avklaring av administrasjonsvei og formulering (langtidsvirkende injeksjon vs. tabletter) i forhold til behovet ved revmatoid artritt
-- Avklaring av regulatorisk status, siden begge godkjenningene er avregistrert
+- Avklaring av regulatorisk status
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

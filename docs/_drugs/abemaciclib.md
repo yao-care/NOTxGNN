@@ -43,7 +43,6 @@ Evidensnivå: **N/A** | Predikerte indikasjoner: **0** stk.
 | Opprinnelig indikasjon | Breast Neoplasms |
 | Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 1) |
 | TxGNN-prediksjonspoeng | N/A |
-| Status på Taiwan-marked | ❌ Ikke markedsført (Ikke markedsført) |
 | Antall godkjenninger | 1 (gyldige: 1) |
 
 ---

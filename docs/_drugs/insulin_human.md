@@ -131,7 +131,7 @@ Mange av disse påvirker blodsukkeret, og hypoglykemi eller svekket glukosekontr
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for autoimmun oofoitt er kun beregningsbasert (L5) uten kliniske studier eller litteratur, og insulin har ingen kjent immunmodulerende rolle ved tilstanden. Flere av de øvrige prediksjonene gjenspeiler forvekslende sammenhenger (samtidig diabetes) eller bivirkninger. Produktene er dessuten alle avregistrert i Norge.
+Prediksjonen for autoimmun oofoitt er kun beregningsbasert (L5) uten kliniske studier eller litteratur, og insulin har ingen kjent immunmodulerende rolle ved tilstanden. Flere av de øvrige prediksjonene gjenspeiler forvekslende sammenhenger (samtidig diabetes) eller bivirkninger.
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)

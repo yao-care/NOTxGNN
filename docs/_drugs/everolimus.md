@@ -157,7 +157,7 @@ Data fra pakningsvedlegget (advarsler og kontraindikasjoner) mangler i de innsam
 - Resultater fra NCT03114527 og publisert effektdata for dedifferensiert liposarkom
 - Pakningsvedlegg med advarsler og kontraindikasjoner (kritisk datamangel som blokkerer sikkerhetsscreening)
 - Detaljerte data om virkningsmekanisme (MOA)
-- Avklaring av regulatorisk status og tilgjengelige produkter i Norge etter avregistreringene
+- Avklaring av regulatorisk status og tilgjengelige produkter i Norge
 - Plan for overvåking av interaksjoner (særlig CYP3A4/P-gp-relaterte, som klaritromycin) og av hematologiske og metabolske parametere
 ## Ansvarsfraskrivelse
 

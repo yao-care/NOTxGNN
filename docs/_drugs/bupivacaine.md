@@ -87,7 +87,7 @@ Foreløpig finnes ingen relatert litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/004586 | Exparel liposomal | Ikke oppgitt | Akutt smerte |
 
-Tillatelsen er trukket tilbake (status: cancelled), og produsenten er Pacira Ireland Limited.
+Produsenten er Pacira Ireland Limited.
 
 ---
 
@@ -117,7 +117,7 @@ Opplysninger om advarsler og kontraindikasjoner fra preparatomtalen mangler. Se 
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er kun modellbasert (L5), uten kliniske studier eller publikasjoner, og uten en plausibel mekanistisk kobling mellom natriumkanalblokade og akrodermatitis chronica atrophicans, som behandles med antibiotika. Den eneste norske tillatelsen er trukket tilbake, og sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen er kun modellbasert (L5), uten kliniske studier eller publikasjoner, og uten en plausibel mekanistisk kobling mellom natriumkanalblokade og akrodermatitis chronica atrophicans, som behandles med antibiotika. Sikkerhetsdata fra preparatomtalen mangler.
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel)

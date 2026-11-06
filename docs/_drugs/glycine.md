@@ -63,7 +63,6 @@ For tiden foreligger det ikke detaljerte data om virkningsmekanismen. Glycin er 
 
 TxGNN-scoren er svært høy (0,9985), men det er en ren beregningsmessig prediksjon. Den ene studien som er koblet til prediksjonen er en bildediagnostikkstudie (PET) av en radiofarmasøytisk markør, og de to publikasjonene gjelder veterinærhistokjemi og slimhinneadjuvanser. Ingen av dem undersøker glycin som behandling for en nasal tilstand.
 
-
 ---
 
 ## Dokumentasjon fra kliniske studier
@@ -114,7 +113,7 @@ Kunnskapsgrafen (PrimeKG) viser imidlertid kontraindikasjonsrelasjoner mellom gl
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Forutsigelsen støttes kun av en modellscore (evidensnivå L5). Det finnes ingen relevante kliniske studier eller litteratur, virkningsmekanismen er ukjent i dataene, og den eneste norske/europeiske tillatelsen er avregistrert.
+Forutsigelsen støttes kun av en modellscore (evidensnivå L5). Det finnes ingen relevante kliniske studier eller litteratur, virkningsmekanismen er ukjent i dataene.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

@@ -112,7 +112,7 @@ For øvrige sikkerhetsopplysninger, som advarsler og kontraindikasjoner, henvise
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier, litteratur eller en plausibel virkningsmekanisme. Letermovirs mål er virusspesifikt, og det er ikke noe kjent tilsvarende mål hos sopp. I tillegg er den eneste godkjenningen i Norge opphevet.
+Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier, litteratur eller en plausibel virkningsmekanisme. Letermovirs mål er virusspesifikt, og det er ikke noe kjent tilsvarende mål hos sopp.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

@@ -109,7 +109,7 @@ Legemidlet er markedsført, og 1 av 1 markedsføringstillatelse er gyldig.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og virkningsmekanismen (IL-17RA/IL-25-blokade) kan tvert imot svekke forsvaret mot helminter. I tillegg er preparatet avregistrert i Norge.
+Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og virkningsmekanismen (IL-17RA/IL-25-blokade) kan tvert imot svekke forsvaret mot helminter.
 
 **For å gå videre kreves følgende:**
 - Detaljerte data om virkningsmekanisme fra DrugBank

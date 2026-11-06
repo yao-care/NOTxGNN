@@ -141,7 +141,7 @@ CMM7-prediksjonen bygger kun på TxGNN-modellen (deep learning) (L5), uten klini
 - Bekreftelse av hva CMM7 er, og av biologisk likhet med multippelt myelom
 - Prekliniske data i relevante melanommodeller (humane cellelinjer, in vivo) med klinisk oppnåelige doser
 - Vurdering av administrasjonsvei og eventuell penetrasjon til sentralnervesystemet, særlig for leptomeningealt melanom
-- Avklaring av regulatorisk status i Norge, siden eneste godkjenning er avregistrert
+- Avklaring av regulatorisk status i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

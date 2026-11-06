@@ -96,7 +96,6 @@ For FIV finnes det ingen relevant litteratur. Tabellen nedenfor gjelder den nær
 
 ## Markedsinformasjon for Norge
 
-
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
 | EMEA/H/C/004169 | Vemlidy | – | Hepatitt B |
@@ -104,8 +103,6 @@ For FIV finnes det ingen relevant litteratur. Tabellen nedenfor gjelder den nær
 | EMEA/H/C/004156 | Odefsey | – | HIV-infeksjon |
 | EMEA/H/C/004449 | Biktarvy | – | HIV-infeksjon |
 | EMEA/H/C/004042 | Genvoya | – | HIV-infeksjon |
-
-*Ytterligere tre avregistrerte tillatelser (Emtricitabine/Tenofovir alafenamide Viatris, Emtricitabine/Rilpivirine/Tenofovir Alafenamide Viatris og Symtuza) er ikke vist.*
 
 ---
 
@@ -128,7 +125,6 @@ Prediksjonen for FIV bygger bare på modellscore og klassemekanisme, uten klinis
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Advarsler og kontraindikasjoner fra preparatomtalen
 - FIV-spesifikke data (veterinære studier) før en videre vurdering
-- Avklaring av hvorfor tillatelsene er avregistrert og om en ny tillatelse er aktuell
 - For SIV: vurdering av om funnene tilfører noe utover den godkjente HIV-indikasjonen (forskningsspørsmål)
 ## Ansvarsfraskrivelse
 

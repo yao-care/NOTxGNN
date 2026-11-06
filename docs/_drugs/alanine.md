@@ -112,7 +112,7 @@ Det er ikke funnet registrerte legemiddelinteraksjoner i de innsamlede dataene.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen støttes bare av en beregningsmodell (evidensnivå L5), uten kliniske studier og uten litteratur som undersøker alanin ved gastroparese. I tillegg er produktet avregistrert i Norge, og sikkerhetsdata fra preparatomtale mangler.
+Prediksjonen støttes bare av en beregningsmodell (evidensnivå L5), uten kliniske studier og uten litteratur som undersøker alanin ved gastroparese. Sikkerhetsdata fra preparatomtale mangler.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank for å kunne vurdere en mekanistisk kobling

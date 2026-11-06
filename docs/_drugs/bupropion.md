@@ -135,7 +135,7 @@ Flere fullførte kliniske studier (blant dem en placebokontrollert fase 3-studie
 **For å gå videre kreves følgende:**
 - Innhente og analysere preparatomtale/pakningsvedlegg (advarsler og kontraindikasjoner) for å kunne gjennomføre sikkerhetsscreeningen
 - Fullstendige mekanismedata fra DrugBank
-- Avklare regulatorisk status og tilgjengelige formuleringer i Norge, siden Mysimba-godkjenningen er avregistrert og bupropion-produkter for andre indikasjoner må vurderes
+- Avklare regulatorisk status og tilgjengelige formuleringer i Norge
 - Verifisere legemiddelarm i NCT00061087 og NCT00000268 samt bekrefte evidensnivået (L1 mot L2) mot registerdata
 - Utarbeide en plan for sikkerhetsovervåking: krampeterskel, blodtrykk, CYP2D6-interaksjoner og screening for rusmiddelbruk og spiseforstyrrelser
 

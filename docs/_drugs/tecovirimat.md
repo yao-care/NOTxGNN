@@ -55,7 +55,6 @@ TxGNN-modellen rangerer **hordeolum (byller på øyelokket)** øverst, men dette
 | Antall godkjenninger | 1 (gyldige: 1) |
 | Anbefalt beslutning | Hold |
 
-
 ---
 
 ## Hvorfor er denne prediksjonen rimelig?
@@ -63,7 +62,6 @@ TxGNN-modellen rangerer **hordeolum (byller på øyelokket)** øverst, men dette
 Detaljerte data om virkningsmekanisme er ikke tilgjengelige i de samlede dataene. Ut fra kjent informasjon hemmer tecovirimat orthopoxvirusets envelope-protein p37 (VP37), som er nødvendig for dannelse av omhyllede viruspartikler og spredning av viruset mellom celler.
 
 **Hordeolum (rang 1):** Hordeolum er vanligvis en lokal bakteriell infeksjon (oftest *Staphylococcus aureus*) i en kjertel i øyelokket. Tecovirimat har ingen kjent antibakteriell virkning, og den høye scoren er mest sannsynlig en artefakt fra grafprediksjonen. Det samme gjelder de andre toppredikerte bakterielle tilstandene (vibrio-infeksjon, Klebsiella-infeksjon, noma, *E. coli*-infeksjon), samt HTLV-1-assosiert infektiøs dermatitt, arterivirus- og arbovirusinfeksjoner. Alle disse mangler mekanistisk grunnlag, kliniske studier og relevant litteratur.
-
 
 **Koinfeksjon (rang 6):** Begrepet er uspesifikt. Litteraturen omhandler mpox sammen med hiv, VZV, syfilis og andre infeksjoner, der tecovirimat kun virker på ortopoxvirus-komponenten.
 
@@ -76,7 +74,6 @@ Foreløpig ingen relaterte kliniske studier registrert for noen av de predikerte
 ---
 
 ## Litteraturevidens
-
 
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
@@ -120,7 +117,7 @@ Den toppredikerte indikasjonen (hordeolum) og de øvrige bakterielle og ikke-ort
 - Hente og analysere sikkerhetsinformasjon (advarsler, kontraindikasjoner) fra preparatomtalen, som er en blokkerende datamangel
 - Supplere data om virkningsmekanisme (MOA) fra DrugBank
 - Verifisere kliniske studier på mpox og andre ortopoxvirus utenfor dette datasettet, inkludert nyere studier med tvilsomme effektresultater
-- Avklare regulatorisk status i Norge, siden den eneste godkjenningen er avregistrert
+- Avklare regulatorisk status i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

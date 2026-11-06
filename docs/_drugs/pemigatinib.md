@@ -125,7 +125,7 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er kun modellbasert (L5), uten kliniske studier eller litteratur som støtter multippel endokrin neoplasi. Den mekanistiske koblingen er spekulativ, og den eneste norske tillatelsen er avregistrert.
+Prediksjonen er kun modellbasert (L5), uten kliniske studier eller litteratur som støtter multippel endokrin neoplasi. Den mekanistiske koblingen er spekulativ.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA), for eksempel fra DrugBank

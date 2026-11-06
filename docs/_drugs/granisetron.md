@@ -120,7 +120,7 @@ Viktige advarsler og kontraindikasjoner fra preparatomtalen mangler. Se preparat
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på modellscore uten kliniske studier eller litteratur (evidensnivå L5). Produktet er dessuten trukket tilbake i Norge, og sikkerhetsdata fra preparatomtalen mangler. Kontraindikasjoner knyttet til hjerterytme og mange alvorlige interaksjoner krever nøye vurdering.
+Prediksjonen bygger kun på modellscore uten kliniske studier eller litteratur (evidensnivå L5). Sikkerhetsdata fra preparatomtalen mangler. Kontraindikasjoner knyttet til hjerterytme og mange alvorlige interaksjoner krever nøye vurdering.
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtalen (advarsler og kontraindikasjoner), som er et blokkerende datagap

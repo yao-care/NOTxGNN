@@ -127,13 +127,13 @@ Informasjon fra preparatomtalen (advarsler og kontraindikasjoner) mangler i data
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for retinal dystrofi bygger utelukkende på modellscoren (evidensnivå L5), uten kliniske studier, litteratur eller plausibel mekanisme. I tillegg er den eneste norske tillatelsen trukket tilbake, og kunnskapsgrafen viser et omfattende sett av potensielle kontraindikasjoner.
+Prediksjonen for retinal dystrofi bygger utelukkende på modellscoren (evidensnivå L5), uten kliniske studier, litteratur eller plausibel mekanisme. Kunnskapsgrafen viser et omfattende sett av potensielle kontraindikasjoner.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Preparatomtale fra DMP (advarsler og kontraindikasjoner) for sikkerhetsscreening
 - Prekliniske eller mekanistiske studier som kan knytte asenapins reseptorprofil til retinal patologi
-- Avklaring av markedsstatus i Norge, siden tillatelsen er trukket tilbake
+- Avklaring av markedsstatus i Norge
 - Vurdering av ruteforenlighet og likhet mellom opprinnelig og ny indikasjon
 - Dersom en indikasjon innen affektive lidelser skal følges opp, må det avklares om den utgjør en reell ny bruk, og ikke bare den eksisterende bipolar-indikasjonen
 ## Ansvarsfraskrivelse

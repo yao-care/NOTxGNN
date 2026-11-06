@@ -122,7 +122,7 @@ Prediksjonen bygger kun på en modellscore (evidensnivå L5) uten kliniske studi
 - Informasjon om virkningsmekanisme fra legemiddeldatabasen for å støtte mekanistisk analyse
 - Advarsler og kontraindikasjoner fra preparatomtalen (nødvendig før sikkerhetsscreening)
 - Litteratur- og studiesøk for hypertrikose, og eventuelt for sentral tidlig pubertet som mer plausibel kandidat
-- Vurdering av gjennomførbarhet gitt kort virketid, administrasjonsvei og at markedsføringstillatelsen er trukket tilbake
+- Vurdering av gjennomførbarhet gitt kort virketid, administrasjonsvei
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

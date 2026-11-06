@@ -102,14 +102,14 @@ Informasjon om advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgj
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier, litteratur eller en kjent virkningsmekanisme. Legemidlet er dessuten ikke lenger markedsført i Norge, og sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen bygger kun på en modellscore uten støtte fra kliniske studier, litteratur eller en kjent virkningsmekanisme. Sikkerhetsdata fra preparatomtalen mangler.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Sikkerhetsinformasjon (advarsler og kontraindikasjoner) fra preparatomtalen, som er en forutsetning for videre sikkerhetsvurdering
 - Prekliniske studier som undersøker en mulig kobling mellom CFTR-korreksjon og *M. leprae*-infeksjon
 - Vurdering av administrasjonsvei og formulering for den nye indikasjonen
-- Avklaring av den regulatoriske statusen, siden eneste godkjenning er avregistrert
+- Avklaring av den regulatoriske statusen
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -115,13 +115,12 @@ For øvrig sikkerhetsinformasjon, se pakningsvedlegget (preparatomtalen).
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og den biologiske mekanismen støtter ikke FVIII-erstatning ved de predikerte blodplatelidelsene. I tillegg er begge produktene avregistrert i Norge, noe som begrenser praktisk gjennomførbarhet.
+Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og den biologiske mekanismen støtter ikke FVIII-erstatning ved de predikerte blodplatelidelsene.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Advarsler og kontraindikasjoner fra pakningsvedlegget (preparatomtale), nødvendig for sikkerhetsscreening
 - Ved eventuell videre vurdering: avgrens til «ervervet koagulasjonsfaktormangel» (rang 5) med en målrettet litteraturgjennomgang, og utelukk TTP på sikkerhetsgrunnlag
-- Avklaring av produktenes tilgjengelighet siden begge godkjenningene er avregistrert
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

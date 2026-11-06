@@ -109,7 +109,7 @@ Utvalg av de mest relevante studiene for progesteronreseptor-positiv brystkreft:
 
 ## Informasjon om det norske markedet
 
-Alle tillatelser i datagrunnlaget er registrert som avregistrert (11 totalt). De fem første:
+De fem første:
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|

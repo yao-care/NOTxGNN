@@ -118,7 +118,7 @@ Alle predikerte indikasjoner er kun modellbaserte (L5) uten kliniske studier ell
 - Hente og analysere preparatomtalen (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsscreening
 - Innhente data om virkningsmekanisme (MOA), for eksempel fra DrugBank
 - Søke systematisk etter litteratur og kliniske studier for de predikerte sykdommene
-- Avklare markedsstatus i Norge, siden den eneste tillatelsen er trukket tilbake
+- Avklare markedsstatus i Norge
 - Vurdere administrasjonsvei og forskjellen fra opprinnelig indikasjon dersom prediksjonen skal følges opp
 ## Ansvarsfraskrivelse
 

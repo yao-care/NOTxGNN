@@ -116,7 +116,7 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon, inkludert advarsler og kont
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er kun modellbasert (L5) uten kliniske studier eller direkte litteratur for retinopati. Alle norske tillatelser er dessuten opphevet, og sikkerhetsdata fra preparatomtale mangler.
+Prediksjonen er kun modellbasert (L5) uten kliniske studier eller direkte litteratur for retinopati. Sikkerhetsdata fra preparatomtale mangler.
 
 **For å gå videre kreves:**
 - Preparatomtale med advarsler og kontraindikasjoner fra DMP

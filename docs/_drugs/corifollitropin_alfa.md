@@ -112,7 +112,7 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Alle åtte prediksjonene er rent modellbaserte (L5) uten kliniske studier, litteratur eller plausibel mekanistisk kobling. Den eneste norske tillatelsen er trukket tilbake, og den høye TxGNN-scoren alene er ikke tilstrekkelig grunnlag for å gå videre.
+Alle åtte prediksjonene er rent modellbaserte (L5) uten kliniske studier, litteratur eller plausibel mekanistisk kobling. Den høye TxGNN-scoren alene er ikke tilstrekkelig grunnlag for å gå videre.
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)

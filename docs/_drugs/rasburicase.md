@@ -105,7 +105,7 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen om renal hypourikemi mangler både klinisk evidens og mekanistisk støtte, og ytterligere senking av urinsyre er biologisk uhensiktsmessig ved en tilstand som allerede kjennetegnes av lav urinsyre. Produktet er dessuten avregistrert i Norge.
+Prediksjonen om renal hypourikemi mangler både klinisk evidens og mekanistisk støtte, og ytterligere senking av urinsyre er biologisk uhensiktsmessig ved en tilstand som allerede kjennetegnes av lav urinsyre.
 
 **For å gå videre kreves følgende:**
 - Innhenting og analyse av preparatomtale (advarsler og kontraindikasjoner), da dette er en blokkerende datamangel for sikkerhetsscreening

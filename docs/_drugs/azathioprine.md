@@ -152,7 +152,7 @@ Det mangler data fra preparatomtalen om advarsler og kontraindikasjoner. Se prep
 - Sikkerhetsdata fra preparatomtalen (advarsler og kontraindikasjoner), som i dag mangler og er registrert som blokkerende datahull
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Plan for sikkerhetsmonitorering: TPMT/NUDT15-testing, blodtelling, leverprøver og overvåking av malignitet og infeksjon
-- Avklaring av regulatorisk status i Norge, siden eneste autorisasjon er avregistrert
+- Avklaring av regulatorisk status i Norge
 - Vurdering av tilgjengelige legemiddelformer og administrasjonsveier (ikke vurdert i datagrunnlaget)
 ## Ansvarsfraskrivelse
 

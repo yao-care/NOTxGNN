@@ -80,7 +80,7 @@ Foreløpig er det ingen relatert litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-Alle fire godkjenninger er registrert som opphevet. Dosageform er ikke oppgitt i dataene.
+Dosageform er ikke oppgitt i dataene.
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -115,7 +115,7 @@ Spesielt relevant for den predikerte indikasjonen er **epilepsi**, siden Rasmuss
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er kun modellbasert (L5) uten støtte fra kliniske studier eller litteratur. Mekanismen er spekulativ, og levodopa har potensielt uheldige egenskaper ved epilepsi, som er en sentral del av sykdomsbildet ved Rasmussens encefalitt. I tillegg er alle godkjenninger i Norge opphevet.
+Prediksjonen er kun modellbasert (L5) uten støtte fra kliniske studier eller litteratur. Mekanismen er spekulativ, og levodopa har potensielt uheldige egenskaper ved epilepsi, som er en sentral del av sykdomsbildet ved Rasmussens encefalitt.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA), for eksempel fra DrugBank

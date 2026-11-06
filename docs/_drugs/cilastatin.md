@@ -114,7 +114,7 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Evidensen for S. aureus-infeksjon er hovedsakelig indirekte og gjelder imipenem/cilastatin som kombinasjon. Antibakteriell effekt tilskrives imipenem, ikke cilastatin. Den eneste kliniske studien er liten og har ukjent status, mens litteraturen domineres av eldre, ukontrollerte studier, dyrestudier og oversikter. Den eneste godkjenningen i Norge er opphevet.
+Evidensen for S. aureus-infeksjon er hovedsakelig indirekte og gjelder imipenem/cilastatin som kombinasjon. Antibakteriell effekt tilskrives imipenem, ikke cilastatin. Den eneste kliniske studien er liten og har ukjent status, mens litteraturen domineres av eldre, ukontrollerte studier, dyrestudier og oversikter.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

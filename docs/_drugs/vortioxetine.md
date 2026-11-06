@@ -120,7 +120,7 @@ Det finnes ingen kliniske studier og kun én litteraturreferanse uten direkte ko
 - Data om virkningsmekanisme (f.eks. via DrugBank)
 - Avklaring av hvordan «nevrotisk lidelse» skal defineres i moderne diagnostikk (f.eks. mot angst- og depressive lidelser)
 - Kontrollerte kliniske studier i en tydelig definert populasjon
-- Avklaring av markedsstatus i Norge, siden den eneste tillatelsen er avregistrert
+- Avklaring av markedsstatus i Norge
 
 **Merknad om andre kandidater:** Melankoli er den predikerte indikasjonen med sterkest evidens (L1, men indirekte via MDD-studier). En subgruppe- eller post hoc-analyse av melankolisk subtype ville være nødvendig for å bekrefte subtypespesifikk nytte.
 ## Ansvarsfraskrivelse

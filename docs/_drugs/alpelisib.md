@@ -116,7 +116,7 @@ Ytterligere informasjon om advarsler og kontraindikasjoner finnes i pakningsvedl
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er kun modellbasert (evidensnivå L5) uten kliniske studier, og den eneste tilgjengelige litteraturen peker mot mulig lungeskade snarere enn nytte. I tillegg er den eneste norske autorisasjonen opphevet.
+Prediksjonen er kun modellbasert (evidensnivå L5) uten kliniske studier, og den eneste tilgjengelige litteraturen peker mot mulig lungeskade snarere enn nytte.
 
 **For å gå videre kreves følgende:**
 - Prekliniske data (f.eks. dyremodeller for pulmonal hypertensjon) som viser nytte og sikkerhet av PI3Kα-hemming i lungekar

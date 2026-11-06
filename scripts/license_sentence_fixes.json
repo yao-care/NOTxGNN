@@ -1,0 +1,16 @@
+{
+ "abiraterone_acetate": [
+  {
+   "sentence": "¹ Basert på globalt etablert bruk; ingen TFDA-lisensdata tilgjengelig i denne bevissamlingen.",
+   "reason": "「TFDA」是 TwTxGNN 模板殘留（台灣食藥署）；只刪分號後的子句，保留註腳「Basert på globalt etablert bruk.」（2026-11-06）",
+   "cut": "; ingen TFDA-lisensdata tilgjengelig i denne bevissamlingen"
+  }
+ ],
+ "everolimus": [
+  {
+   "sentence": "Avklaring av regulatorisk status og tilgjengelige produkter i Norge etter avregistreringene",
+   "reason": "事實：EMA 集中許可 2 張、都有效，沒有註銷；只刪「 etter avregistreringene」（2026-11-06）",
+   "cut": " etter avregistreringene"
+  }
+ ]
+}

@@ -130,7 +130,7 @@ Prediksjonen mangler mekanistisk støtte, kliniske studier og direkte litteratur
 - Detaljerte data om virkningsmekanisme (MOA)
 - Prekliniske data som viser en eventuell effekt på blodplatefunksjon eller hemostase ved de predikerte lidelsene
 - Vurdering av om en nisjesituasjon (hemofilipasienter som også bruker FXa-hemmere) er klinisk relevant
-- Avklaring av regulatorisk status, siden den eneste norske godkjenningen er avregistrert
+- Avklaring av regulatorisk status
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

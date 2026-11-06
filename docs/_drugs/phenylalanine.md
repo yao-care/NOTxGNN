@@ -93,8 +93,6 @@ Det er foreløpig ingen relevante kliniske studier registrert.
 |---------|------|------|-----------|
 | EMEA/H/C/005557 | Maapliv | Ikke oppgitt | Maple Syrup Urine Disease |
 
-Denne godkjenningen er registrert som avsluttet/tilbakekalt.
-
 ---
 
 ## Sikkerhetsvurderinger

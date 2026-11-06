@@ -116,7 +116,7 @@ Prediksjonen for hypoalfalipoproteinemi bygger kun på modellscore (evidensnivå
 - Hente og analysere preparatomtale (advarsler og kontraindikasjoner), som i dag mangler
 - Innhente data om virkningsmekanisme (f.eks. fra DrugBank)
 - Dersom man ønsker å følge opp, bør forskningsspørsmålet om symptomatisk behandling av GI-dysmotilitet ved amyloidose (L4) prioriteres framfor lipidrelaterte prediksjoner
-- Vurdere regulatorisk situasjon i Norge, siden eneste tillatelse er trukket tilbake
+- Vurdere regulatorisk situasjon i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

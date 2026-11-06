@@ -118,12 +118,11 @@ Den mest interessante kandidaten blant disse er føtal og neonatal alloimmun tro
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den predikerte indikasjonen mangler kliniske studier og direkte litteratur, og mekanismen er svak siden sykdommen gjelder blodplatefunksjon og ikke antall. I tillegg er den eneste norske godkjenningen opphevet.
+Den predikerte indikasjonen mangler kliniske studier og direkte litteratur, og mekanismen er svak siden sykdommen gjelder blodplatefunksjon og ikke antall.
 
 **For å gå videre kreves følgende:**
 - Detaljerte data om virkningsmekanisme (MOA)
 - Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner)
-- Avklaring av hvorfor den norske godkjenningen er opphevet, og av dagens reguleringsstatus
 - Systematisk litteraturgjennomgang for den predikerte sykdommen og eventuelt for føtal og neonatal alloimmun trombocytopeni
 - Vurdering av klinisk betydning av den alvorlige interaksjonen med carfilzomib
 ## Ansvarsfraskrivelse

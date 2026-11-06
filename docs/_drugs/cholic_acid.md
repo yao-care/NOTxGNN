@@ -114,7 +114,6 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 
 **Begrunnelse:**
 - Evidensen for HIV er kun preklinisk og indirekte, og ett funn tyder på økt viral replikasjon. Det finnes ingen kliniske studier.
-- Orphacol er i tillegg avregistrert i Norge.
 
 **For å gå videre kreves:**
 - Eksperimentelle data (celle- og dyremodeller) som viser en reproduserbar antiviral effekt av kolsyre selv, ikke av derivater.

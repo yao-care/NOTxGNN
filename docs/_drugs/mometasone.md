@@ -108,7 +108,7 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen (pakningsvedlegget).
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er mekanistisk plausibel, men støttes kun av modellscore og to kasuistikker uten dokumentert effekt. Det finnes ingen kliniske studier, og den norske/europeiske godkjenningen er opphevet.
+Prediksjonen er mekanistisk plausibel, men støttes kun av modellscore og to kasuistikker uten dokumentert effekt. Det finnes ingen kliniske studier.
 
 **For å gå videre kreves følgende:**
 - Hente og gjennomgå preparatomtale med advarsler og kontraindikasjoner (blokkerende for sikkerhetsscreening)

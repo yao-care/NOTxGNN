@@ -118,7 +118,7 @@ Det finnes ingen kliniske studier og ingen direkte kliniske data for glutaminsyr
 - Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner), som mangler og er en blokkerende datamangel
 - Prekliniske studier som undersøker glutamatsignalering i ben og kalsiumopptak for selve aminosyren
 - Vurdering av nyre- og hjertesikkerhet og kalsiumstatus i målgruppen før eventuelle kliniske studier
-- Avklaring av regulatorisk status, siden den eneste tillatelsen er avregistrert
+- Avklaring av regulatorisk status
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

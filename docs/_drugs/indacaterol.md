@@ -82,7 +82,7 @@ Foreløpig ingen relatert litteratur tilgjengelig.
 
 ## Markedsinformasjon for Norge
 
-Legemidlet er markedsført i Norge, med 10 gyldige godkjenninger av 10. Tabellen viser fem av dem.
+Legemidlet er markedsført i Norge. Tabellen viser fem av dem.
 
 | Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -116,7 +116,7 @@ Mange av interaksjonene gjelder antidiabetika, noe som samsvarer med risikoen fo
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på modellscore, uten kliniske studier, litteratur eller et plausibelt mekanistisk grunnlag. Legemidlet er markedsført i Norge (10 gyldige godkjenninger av 10).
+Prediksjonen bygger kun på modellscore, uten kliniske studier, litteratur eller et plausibelt mekanistisk grunnlag. Legemidlet er markedsført i Norge.
 
 **For å gå videre kreves:**
 - Dokumentasjon av en mulig mekanistisk kobling mellom beta2-agonisme og V2-reseptor-/vasopressinveien, for eksempel gjennom prekliniske studier

@@ -89,8 +89,6 @@ For sammenligning: For den predikerte indikasjonen «vaskulær sykdom» (rangert
 | EMEA/H/C/000253 | Tractocile | Ikke oppgitt | Prematur fødselsrier |
 | EMEA/H/C/002329 | Atosiban SUN | Ikke oppgitt | Prematur fødselsrier |
 
-Begge godkjenningene har status avregistrert.
-
 ---
 
 ## Sikkerhetsvurderinger

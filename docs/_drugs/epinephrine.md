@@ -137,7 +137,7 @@ Kardiovaskulær sikkerhet (takykardi, hypertensjon, arytmi) må overvåkes, sær
 - Flere fullførte fase 3-studier av inhalert epinefrin ved astma, inkludert barn, gir evidensnivå L1, og mekanismen er biologisk rimelig. Evidensen er imidlertid begrenset til mild intermitterende astma, støtter ikke KOLS eller rutinebruk ved bronkiolitt, og legemidlet er markedsført med 1 gyldig norsk tillatelse av 1.
 
 **For å gå videre kreves følgende:**
-- Verifisere regulatorisk status for hver formulering i Norge, siden eneste tillatelse er annullert
+- Verifisere regulatorisk status for hver formulering i Norge
 - Innhente preparatomtale med advarsler og kontraindikasjoner (kritisk datamangel)
 - Innhente detaljerte data om virkningsmekanisme
 - Plan for kardiovaskulær sikkerhetsovervåking, særlig hos eldre og pasienter med hjertesykdom

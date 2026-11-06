@@ -109,7 +109,7 @@ Informasjon fra preparatomtale (advarsler og kontraindikasjoner) mangler i de in
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonene bygger kun på en grafmodell uten kliniske studier eller litteratur. Legemidlets antikoagulerende egenskaper og kontraindikasjoner ved blødnings- og blodplatesykdommer taler mot terapeutisk nytte, og godkjenningen i Norge er avregistrert.
+Prediksjonene bygger kun på en grafmodell uten kliniske studier eller litteratur. Legemidlets antikoagulerende egenskaper og kontraindikasjoner ved blødnings- og blodplatesykdommer taler mot terapeutisk nytte.
 
 **For å gå videre kreves følgende:**
 - Sikkerhetsinformasjon fra preparatomtale (advarsler og kontraindikasjoner), som er en blokkerende datamangel

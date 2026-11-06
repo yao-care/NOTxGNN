@@ -111,7 +111,7 @@ For advarsler og kontraindikasjoner, se preparatomtalen (pakningsvedlegget).
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er kun modellbasert (L5) uten kliniske studier, litteratur eller plausibel mekanistisk forklaring. I tillegg er den eneste godkjenningen i Norge avregistrert, og sikkerhetsdata fra preparatomtalen mangler.
+Prediksjonen er kun modellbasert (L5) uten kliniske studier, litteratur eller plausibel mekanistisk forklaring. Sikkerhetsdata fra preparatomtalen mangler.
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel)

@@ -108,7 +108,7 @@ Utvalgte funn for andre prediksjoner (alle med lav relevans for tyrosinbehandlin
 |---------|------|------|-----------|
 | EMEA/H/C/005557 | Maapliv | Ikke oppgitt | Lønnesirupsykdom (Maple Syrup Urine Disease) |
 
-Tillatelsen er avregistrert. Innehaver: Recordati Rare Diseases.
+Innehaver: Recordati Rare Diseases.
 
 ---
 

@@ -153,7 +153,7 @@ Informasjon om advarsler og kontraindikasjoner er ikke tilgjengelig i datagrunnl
 - Innhente data om virkningsmekanisme (MOA) fra DrugBank
 - Gå gjennom sammendragene for FMF- og PSTPIP1-litteraturen for å avklare om det finnes kontrollerte data før eventuell oppgradering av evidensnivå
 - Vurdere å prioritere FMF og PAPA/PAPASH fremfor mastocytom som mål for videre arbeid
-- Avklare regulatorisk status i Norge (avregistrert lisens) og administrasjonsvei/formulering for de aktuelle indikasjonene
+- Avklare regulatorisk status i Norge og administrasjonsvei/formulering for de aktuelle indikasjonene
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -120,12 +120,12 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Beslutning: Proceed with Guardrails**
 
 **Begrunnelse:**
-PAH-CHD er en undergruppe av den godkjente PAH-indikasjonen, og det finnes flere kohortstudier og en liten placebokontrollert pilotstudie som støtter bruk. Evidensen er likevel overveiende liten og observasjonell, uten registrerte kliniske studier, og iloprost har kun opphevet godkjenning i Norge. Andre predikerte indikasjoner (f.eks. hårsykdommer, pulmonal arteriovenøs malformasjon) har kun modellprediksjon som støtte, og for pulmonal AVM er det en mulig sikkerhetsrisiko.
+PAH-CHD er en undergruppe av den godkjente PAH-indikasjonen, og det finnes flere kohortstudier og en liten placebokontrollert pilotstudie som støtter bruk. Evidensen er likevel overveiende liten og observasjonell, uten registrerte kliniske studier. Andre predikerte indikasjoner (f.eks. hårsykdommer, pulmonal arteriovenøs malformasjon) har kun modellprediksjon som støtte, og for pulmonal AVM er det en mulig sikkerhetsrisiko.
 
 **For å gå videre trengs følgende:**
 - Detaljerte data om virkningsmekanisme (MOA)
 - Preparatomtale med advarsler og kontraindikasjoner (mangler i datagrunnlaget)
-- Avklaring av regulatorisk status i Norge, siden den eneste godkjenningen er opphevet
+- Avklaring av regulatorisk status i Norge
 - Større, kontrollerte studier eller registrerte kliniske studier for PAH-CHD
 - Sikkerhetsplan for pasienter med hypotensjon, leversvikt eller lungesykdom, og for samtidig bruk av interagerende legemidler
 

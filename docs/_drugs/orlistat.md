@@ -114,7 +114,7 @@ Prediksjonen er kun modellbasert (L5), uten kliniske studier eller litteratur. O
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Prekliniske eller kliniske data som viser at redusert vitaminopptak er terapeutisk nyttig ved hypervitaminose
-- Vurdering av regulatorisk status, siden begge tillatelsene i Norge er trukket tilbake
+- Vurdering av regulatorisk status
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

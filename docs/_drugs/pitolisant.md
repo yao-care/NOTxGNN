@@ -96,8 +96,6 @@ Ingen av publikasjonene undersøker insomni direkte. De gjelder pitolisant ved d
 
 ## Markedsinformasjon for Norge
 
-Begge tillatelsene er europeiske sentrale markedsføringstillatelser (EMA) og er registrert som avregistrert.
-
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
 | EMEA/H/C/005117 | Ozawade | Ikke oppgitt | Obstruktiv søvnapné |
@@ -122,14 +120,14 @@ For advarsler og kontraindikasjoner, se preparatomtalen.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for insomni mangler både kliniske studier og direkte litteratur, og virkningsmekanismen (økt våkenhet) går i motsatt retning av det insomni krever. Den høye scoren er mest sannsynlig en grafartefakt. I tillegg er begge norske tillatelser avregistrert.
+Prediksjonen for insomni mangler både kliniske studier og direkte litteratur, og virkningsmekanismen (økt våkenhet) går i motsatt retning av det insomni krever. Den høye scoren er mest sannsynlig en grafartefakt.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra legemiddeldatabasen
 - Advarsler og kontraindikasjoner fra preparatomtalen
 - Prekliniske eller eksplorative data som kan forklare en eventuell nytte ved insomni
 - Sikkerhetsvurdering av risikoen for forverret søvn
-- Avklaring av markedsstatus i Norge, siden begge tillatelsene er avregistrert
+- Avklaring av markedsstatus i Norge
 
 ---
 

@@ -94,7 +94,7 @@ For tiden finnes det ingen relatert litteratur.
 |---------|------|------|-----------|
 | EMEA/H/C/005333 | Leqvio | Ikke oppgitt | Hyperkolesterolemi; dyslipidemi |
 
-Tillatelsen er avregistrert (status: «cancelled»). Innehaver: Novartis Europharm Limited.
+Innehaver: Novartis Europharm Limited.
 
 ---
 
@@ -109,13 +109,13 @@ Det er ikke funnet data om legemiddelinteraksjoner. Se preparatomtalen (paknings
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen om kaliummangelsykdom bygger kun på en modellscore (evidensnivå L5), uten kliniske studier, litteratur eller plausibel mekanistisk kobling. Inklisirans virkning på PCSK9 og LDL-kolesterol har ingen kjent sammenheng med kaliumhomeostase. I tillegg er den eneste registrerte tillatelsen avregistrert.
+Prediksjonen om kaliummangelsykdom bygger kun på en modellscore (evidensnivå L5), uten kliniske studier, litteratur eller plausibel mekanistisk kobling. Inklisirans virkning på PCSK9 og LDL-kolesterol har ingen kjent sammenheng med kaliumhomeostase.
 
 **For å gå videre kreves følgende:**
 - Innhenting av preparatomtale med advarsler og kontraindikasjoner (kritisk datagap som blokkerer sikkerhetsscreening)
 - Detaljerte data om virkningsmekanisme (MOA)
 - Mekanistisk eller prekliniske data som kan begrunne en kobling mellom PCSK9-hemming og kaliumhomeostase
-- Avklaring av markedsstatus i Norge, siden tillatelsen er avregistrert
+- Avklaring av markedsstatus i Norge
 - Vurdering av likhet mellom opprinnelig og ny indikasjon, samt kompatibilitet for administrasjonsvei
 ## Ansvarsfraskrivelse
 

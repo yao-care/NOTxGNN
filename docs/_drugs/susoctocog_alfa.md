@@ -61,7 +61,6 @@ Detaljerte data om virkningsmekanisme er ikke tilgjengelige i datagrunnlaget. Su
 
 Prediksjonen «hemofili» ligger svært nær den opprinnelige indikasjonen. Legemidlet er godkjent for behandling av blødningsepisoder ved ervervet hemofili A, en tilstand der autoantistoffer hemmer FVIII. Dette er i praksis den opprinnelige indikasjonen og dens ervervede variant, ikke en reell reposisjonering. Den høye scoren er dermed godt forenlig med kjent biologi.
 
-
 Øvrige prediksjoner (Glanzmanns trombasteni, pseudo-von Willebrands sykdom, Scotts syndrom, kollagenreseptordefekt, konstitusjonell trombocytopeni, faktor XIII-mangel og adenosindeaminasemangel) har ingen plausibel mekanistisk kobling til FVIII-erstatning. Disse defektene ligger i blodplatefunksjon, fibrinstabilisering eller purinmetabolisme.
 
 ## Evidens fra kliniske studier
@@ -110,7 +109,7 @@ Ingen sikkerhetsdata (advarsler, kontraindikasjoner eller legemiddelinteraksjone
 - De åtte andre prediksjonene (L5) mangler både studier, litteratur og plausibel mekanisme, og bør ikke forfølges.
 
 **For å gå videre kreves følgende:**
-- Verifisere tilgjengelighet og regulatorisk status for produktet i Norge (avregistrert) og i andre jurisdiksjoner
+- Verifisere tilgjengelighet og regulatorisk status for produktet i Norge og i andre jurisdiksjoner
 - Hente preparatomtale med advarsler og kontraindikasjoner (sikkerhetsscreening kan ikke gjennomføres uten disse)
 - Detaljerte data om virkningsmekanisme (MOA) fra DrugBank
 - Vurdere om «ervervet hemofili A» og «hemofili» skal behandles som én indikasjon, siden de overlapper sterkt

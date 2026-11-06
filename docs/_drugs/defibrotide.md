@@ -120,13 +120,13 @@ De fleste alvorlige interaksjonene gjelder legemidler som påvirker blodplater e
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen om pseudo-von Willebrands sykdom bygger kun på modellscore (L5), uten kliniske studier eller litteratur, og mekanismen tyder på mulig skade. Preparatet er dessuten avregistrert i Norge. Den eneste retningen med noe støtte er TTP/transplantasjonsassosiert TMA (L4, kun kasuistikker, oversikter og in vitro-data), som egner seg som et forskningsspørsmål, ikke som grunnlag for klinisk bruk.
+Prediksjonen om pseudo-von Willebrands sykdom bygger kun på modellscore (L5), uten kliniske studier eller litteratur, og mekanismen tyder på mulig skade. Den eneste retningen med noe støtte er TTP/transplantasjonsassosiert TMA (L4, kun kasuistikker, oversikter og in vitro-data), som egner seg som et forskningsspørsmål, ikke som grunnlag for klinisk bruk.
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (kritisk datamangel, hindrer sikkerhetsscreening)
 - Data om virkningsmekanisme (MOA), for eksempel fra DrugBank
 - For TA-TMA/TTP: prospektive kliniske studier eller RCT-er, og en sikkerhetsvurdering i lys av TTP-rapporten etter defibrotid
-- Avklaring av regulatorisk status i Norge, siden den eneste godkjenningen er avregistrert
+- Avklaring av regulatorisk status i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

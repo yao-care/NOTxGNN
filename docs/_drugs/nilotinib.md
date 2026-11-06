@@ -129,7 +129,7 @@ Det mekanistiske grunnlaget (PDGFR-hemming, analogt med imatinib) er plausibelt,
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel)
 - Data om virkningsmekanisme fra DrugBank
 - Søk etter kliniske studier og case-/fase 2-data for nilotinib ved DFSP, og sammenligning med imatinib
-- Avklaring av regulatorisk status og tilgjengelighet i Norge, gitt at begge tillatelsene er avregistrert
+- Avklaring av regulatorisk status og tilgjengelighet i Norge
 - Vurdering av kardiovaskulær sikkerhet (QT-forlengelse) og interaksjonsrisiko før eventuell videre utvikling
 ## Ansvarsfraskrivelse
 

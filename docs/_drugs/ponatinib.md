@@ -128,7 +128,7 @@ Prediksjonen for gingival fibromatose støttes kun av en høy modellscore uten k
 - Pakningsvedlegg med advarsler og kontraindikasjoner (mangler for øyeblikket og blokkerer sikkerhetsscreening)
 - Detaljerte data om virkningsmekanisme (MOA)
 - Bekreftelse av ponatinib-spesifikk aktivitet i liposarkom-modeller (f.eks. WDLPS/DDLPS og myxoid) og identifisering av biomarkører for kinaseavhengighet
-- Avklaring av markedsstatus i Norge, siden den eneste tillatelsen er avregistrert
+- Avklaring av markedsstatus i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

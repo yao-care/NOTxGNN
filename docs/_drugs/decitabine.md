@@ -124,12 +124,11 @@ Ytterligere sikkerhetsinformasjon, inkludert advarsler og kontraindikasjoner, fi
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen er biologisk plausibel, men bygger i hovedsak på modellscore, én retrospektiv kohortstudie og én kasuistikk. Det finnes ingen registrerte kliniske studier. Dessuten er alle norske/europeiske godkjenninger opphevet, og viktige sikkerhetsdata mangler. Foreløpig er dette et forskningsspørsmål (evidensnivå L4).
+Prediksjonen er biologisk plausibel, men bygger i hovedsak på modellscore, én retrospektiv kohortstudie og én kasuistikk. Det finnes ingen registrerte kliniske studier. Viktige sikkerhetsdata mangler. Foreløpig er dette et forskningsspørsmål (evidensnivå L4).
 
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtale (advarsler og kontraindikasjoner), som er et blokkerende datagap for sikkerhetsscreening
 - Innhente data om virkningsmekanisme fra DrugBank
-- Avklare hvorfor godkjenningene er opphevet, og om legemidlet er tilgjengelig i Norge på annen måte
 - Gjennomføre systematisk litteratursøk og vurdere relevans for pediatrisk MDS
 - Vurdere en prospektiv studie eller et register for decitabin ved refraktær cytopeni hos barn
 - Utarbeide en sikkerhetsplan for barn, med overvåking av blodstatus og vurdering av interaksjoner

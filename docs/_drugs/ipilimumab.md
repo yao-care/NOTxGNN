@@ -113,7 +113,7 @@ Foreløpig finnes det ingen relatert litteratur om ipilimumab ved choroideremi.
 **Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på modellscore, uten kliniske studier, litteratur eller biologisk forklaring. Sykdommen er ikke immun- eller tumordrevet, og de immunrelaterte bivirkningene (som uveitt) kan skade netthinnen ytterligere. Ipilimumabs tillatelse i Norge er dessuten avregistrert.
+Prediksjonen bygger kun på modellscore, uten kliniske studier, litteratur eller biologisk forklaring. Sykdommen er ikke immun- eller tumordrevet, og de immunrelaterte bivirkningene (som uveitt) kan skade netthinnen ytterligere.
 
 **For å gå videre kreves følgende:**
 - Prekliniske data eller mekanistiske studier som kan vise en biologisk kobling mellom CTLA-4-blokkade og choroideremi

@@ -86,8 +86,6 @@ Det er foreløpig ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/005437 | Vumerity | – | Multippel sklerose, relapserende-remitterende |
 
-Tillatelsen er registrert som avregistrert (innehaver: Biogen Netherlands B.V.).
-
 ---
 
 ## Sikkerhetsvurderinger

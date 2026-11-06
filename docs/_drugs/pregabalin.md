@@ -116,8 +116,6 @@ Merknad om tendinitt: de hentede artiklene er i hovedsak case-rapporter eller st
 | EMEA/H/C/004010 | Pregabalin Sandoz | – | Angstlidelser; nevralgi; epilepsi |
 | EMEA/H/C/004078 | Pregabalin Viatris (tidligere Pregabalin Mylan) | – | Angstlidelser; epilepsi |
 
-(Én ytterligere annullert godkjenning, Pregabalin Zentiva, er ikke vist i tabellen.)
-
 ---
 
 ## Sikkerhetsvurderinger
@@ -143,7 +141,7 @@ Den eneste fase 3-studien i migrene (NCT00447369) ble trukket tilbake og har ing
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel som hindrer sikkerhetsscreening)
 - Detaljerte data om virkningsmekanisme (MOA) fra DrugBank
 - Randomiserte, kontrollerte studier hos voksne med migrene, helst fase 2/3 med placebo eller etablert forebyggende komparator
-- Klargjøring av regulatorisk status i Norge, siden alle godkjenninger er annullert
+- Klargjøring av regulatorisk status i Norge
 - Sikkerhetsplan som tar hensyn til interaksjon med opioider og kontraindikasjonssignalene fra kunnskapsgrafen (blant annet nedsatt nyrefunksjon, myopati og angioødem)
 ## Ansvarsfraskrivelse
 

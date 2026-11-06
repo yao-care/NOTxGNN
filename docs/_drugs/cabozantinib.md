@@ -93,7 +93,7 @@ Studien er relevant for sarkomgruppen, men ikke spesifikk for liposarkom. Fordi 
 | EMEA/H/C/004163 | Cabometyx | Godkjent | Nyrecellekarsinom, hepatocellulært karsinom |
 | EMEA/H/C/002640 | Cometriq | Godkjent | Skjoldbruskkjertelkreft |
 
-Begge godkjenningene er registrert som avregistrert. Tilgjengelighet og regulatorisk status må derfor verifiseres før en eventuell videre satsing.
+Tilgjengelighet og regulatorisk status må derfor verifiseres før en eventuell videre satsing.
 
 ---
 

@@ -115,7 +115,7 @@ For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparato
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen støttes kun av en høy modellscore. Det finnes ingen kliniske studier eller litteratur, ingen dokumentert mekanisme, og linaclotides tarmrestriktive virkning gjør en direkte effekt på cauda equina-syndrom lite plausibel. Den eneste godkjenningen i Norge er avregistrert.
+Prediksjonen støttes kun av en høy modellscore. Det finnes ingen kliniske studier eller litteratur, ingen dokumentert mekanisme, og linaclotides tarmrestriktive virkning gjør en direkte effekt på cauda equina-syndrom lite plausibel.
 
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
@@ -123,7 +123,7 @@ Prediksjonen støttes kun av en høy modellscore. Det finnes ingen kliniske stud
 - Systematisk litteratur- og studiesøk for cauda equina-syndrom, inkludert nevrogen tarmdysfunksjon
 - Ny kartlegging av den foreldede sykdomstermen «nevrogen blære» før eventuell videre vurdering
 - Avklaring av administrasjonsvei og formuleringskompatibilitet
-- Avklaring av dagens regulatoriske status i Norge, siden preparatet er avregistrert
+- Avklaring av dagens regulatoriske status i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

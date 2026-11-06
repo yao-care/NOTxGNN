@@ -89,8 +89,6 @@ Det er for øyeblikket ingen relatert litteratur tilgjengelig.
 |---------|------|------|-----------|
 | EMEA/H/C/000206 | Beromun | – | Sarkom |
 
-Godkjenningen er avregistrert (innehaver: Belpharma s.a.).
-
 ---
 
 ## Cytotoksisitet
@@ -123,7 +121,7 @@ Prediksjonen bygger kun på en score fra TxGNN-modellen (dyp læring) (evidensni
 - Data om virkningsmekanisme (f.eks. fra DrugBank)
 - Prekliniske data eller litteratur som viser en rimelig mekanisme i urotelkarsinom
 - Vurdering av administrasjonsvei (regional/lokal levering) og dens gjennomførbarhet for den predikerte indikasjonen
-- Avklaring av tilgjengelighet i Norge, siden eneste godkjenning er avregistrert
+- Avklaring av tilgjengelighet i Norge
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

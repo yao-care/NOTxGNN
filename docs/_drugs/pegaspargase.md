@@ -106,7 +106,6 @@ Under er et utvalg av de mest relevante av de 31 studiene. De fleste tester regi
 |---------|------|------|-----------|
 | EMEA/H/C/003789 | Oncaspar | Ikke oppgitt | Prekursor-lymfoblastisk leukemi/lymfom (status: godkjent) |
 
-
 ---
 
 ## Cytotoksisitet
@@ -152,7 +151,7 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 **For å gå videre kreves følgende:**
 - Innhente advarsler og kontraindikasjoner fra preparatomtalen (blokkerende datamangel)
 - Innhente data om virkningsmekanisme fra DrugBank
-- Avklare tilgjengelighet i Norge, siden eneste godkjenning er avregistrert
+- Avklare tilgjengelighet i Norge
 - Plan for toksisitetsovervåking (lever, bukspyttkjertel, trombose, lipider, overfølsomhet), med særlig forsiktighet hos pasienter ≥55 år
 - Slå sammen denne posten med den tilsvarende "akutt lymfoblastisk leukemi"-posten, siden begge beskriver samme sykdom
 

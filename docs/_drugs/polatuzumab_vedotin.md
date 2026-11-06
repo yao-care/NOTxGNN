@@ -120,7 +120,7 @@ Det er foreløpig ingen relatert litteratur tilgjengelig.
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Den eneste støtten er en høy TxGNN-score. Det finnes ingen kliniske studier eller litteratur, mekanismen er svakt koblet til indikasjonen (CD79b er ikke et kjent mål i HER2-positiv brystkreft), og godkjente HER2-rettede konjugater finnes allerede. I tillegg er den eneste norske tillatelsen avregistrert.
+Den eneste støtten er en høy TxGNN-score. Det finnes ingen kliniske studier eller litteratur, mekanismen er svakt koblet til indikasjonen (CD79b er ikke et kjent mål i HER2-positiv brystkreft), og godkjente HER2-rettede konjugater finnes allerede.
 
 **For å gå videre trengs følgende:**
 - Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)

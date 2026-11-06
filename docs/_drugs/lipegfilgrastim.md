@@ -106,7 +106,7 @@ Se preparatomtalen (pakningsvedlegget) for sikkerhetsinformasjon. Dataene som er
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger utelukkende på en modellscore (evidensnivå L5), uten kliniske studier, litteratur eller en plausibel mekanistisk forklaring. I tillegg er den eneste kjente tillatelsen avregistrert, og sikkerhetsdata mangler.
+Prediksjonen bygger utelukkende på en modellscore (evidensnivå L5), uten kliniske studier, litteratur eller en plausibel mekanistisk forklaring.
 
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
