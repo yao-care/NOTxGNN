@@ -1,26 +1,36 @@
 {
-  "fetched_at": "2026-11-06T07:45:01.456531+00:00",
+  "fetched_at": "2026-11-06T15:44:49.540026+00:00",
   "source": "Google News Health RSS",
-  "count": 37,
+  "count": 35,
   "articles": [
     {
-      "id": "fb62ed7521b2",
-      "title": "Folk strømmer til apotekene for influensavaksinering - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMkhUUUVxamtwNFdLdzR0eVVWNDhXVzJkemFNaExQTVNKbUYyMFJ4bU1kZUZJdDNPT0kwY0ZEdW12cW5FWG56Y1VZVWhNdzBEMG9ZQ3NqbGdKQkhwVE15WkNvZ0ZDeHZLSl9jWFFPSDRpZzhxS2xLV1lEN0RPakxVNmM2TW9yYXNfeGE0RnFCMlpydEZoUGVJSzdXZHFBMjMyQ3poSm5sVHIzeXFtcnRDdmFoWnBBNHBLcWQtLTA0ODlUS3J5WWhmaWczYllVUQ?oc=5",
-      "published": "2026-11-06T06:10:00+00:00",
+      "id": "80f4a2769fce",
+      "title": "Pasient fikk nesten fire ganger så mye medisin – BUP slår alarm - Trønder-Avisa",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWjVzWllyQ1VNUFBfV2h0MHFoRThpYkRNNnRLT1hsZUVnMkJTd1Jla0Q4Y3VkQkRKOVdDLXpkOVM2VktqRGpaTE9EelAyXzB4TmtweHc3Umh2ai1IMktWR1hTNkF4eThlQ3Z1cnNSYkN3aHUtdmdERS13RU1HOEJHNS1mSVVleEoxZUxoOWlnc2t0eXNaY00xcG90RQ?oc=5",
+      "published": "2026-11-06T14:42:48+00:00",
       "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
+        "name": "Trønder-Avisa",
+        "url": "https://www.t-a.no"
       }
     },
     {
-      "id": "6876a89e5ac8",
-      "title": "Å lære av feil i håndteringen av legemidler kan redde liv - Helsetilsynet",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcHhtLXV1bzhqS2VZOURlT3RWVlJIdzU2ZUxsSlJQdDU5bHRCT0lsaUUyR1dxV0hmTFlVLVpTQTJyR2xMbTNEcjlvcDZONmVTbFVORUF1ZWlWdnY3Smp0WXNGT2VTdmtLVHVZUWMxOG1yLVdfMW1zZ2ZKanl1Nzhzb1FTdllqMzdRN0FsZ2N2MExFR0tNY3FmWE5aN2J3UXhMUG5FWndB?oc=5",
-      "published": "2026-11-04T09:01:18+00:00",
+      "id": "09f39705446f",
+      "title": "Kritiske legemidler kan bli rammet: – Fortjener bekymring - TV 2",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTGh0LWRmSjhMaXQxS1JBVkJaQzYzT1ZPQXZ4UVY1MmYwMjlDbTNxZXI5cmVsTXlZN1k3dE84QkZJcDZkYU5nb2NhbnVuRm9MQ2VkbXB5YlFGeWJVWlFDT0plaE90YmF0N1FiOGt6dDYtcVpKbVRXNllaM2ktN3FmamVKN3E5aXF2VGs4Y1FmRjVGdEVvbXc?oc=5",
+      "published": "2026-11-06T06:31:04+00:00",
       "source": {
-        "name": "Helsetilsynet",
-        "url": "https://www.helsetilsynet.no"
+        "name": "TV 2",
+        "url": "https://www.tv2.no"
+      }
+    },
+    {
+      "id": "c39dd6ee39f8",
+      "title": "Digital portal for meir rettferdig tilgang til legemiddel - Helse Bergen",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSVJnZkNVNlpEYmhaXzdUcTFiSi1LcGktbnJWcU9CSVFac3UyOXRmeXdsMHlMVUhTMU42Wlg5Qy11NDRiWmU5aldDaDJ1RF9xdGMzenhNSF9QaGo1MjJRU3RMR0FNRHBXOEtDdm9RaTdYNzItTW92amZMUVpuZUY4bEpLMTMyY1lsYUZxTmt1VHpiQ1JrSjg2R1ljTmZnNkVqYzF4ZGN2N3VXWkRReGV6M21lNW15Q3RmRDI1S0RlOTcxRG1XU3VIYw?oc=5",
+      "published": "2026-06-01T07:00:00+00:00",
+      "source": {
+        "name": "Helse Bergen",
+        "url": "https://www.helse-bergen.no"
       }
     },
     {
@@ -44,26 +54,6 @@
       }
     },
     {
-      "id": "1aca3d8f6875",
-      "title": "Plutselig var tablettene borte vekk: – En alvorlig sak - bladet.no",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUVlnanZOVFNkbkRYZFdxVTJDUV9WZGxDblNzWmpJYUQyQlEtMm5tMDVVWWR2SzBEVkN6UXlqQlJHN2xiSUlVTVlzck9nMDdISzd1VWFZaUNOU0wtckRVd3dEWWRSSVJMSjBRc05wZXhIR2VhOWZaOE5EMFB2R1ZFandTMnREOExT?oc=5",
-      "published": "2026-11-01T11:43:37+00:00",
-      "source": {
-        "name": "bladet.no",
-        "url": "https://www.bladet.no"
-      }
-    },
-    {
-      "id": "c39dd6ee39f8",
-      "title": "Digital portal for meir rettferdig tilgang til legemiddel - Helse Bergen",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSVJnZkNVNlpEYmhaXzdUcTFiSi1LcGktbnJWcU9CSVFac3UyOXRmeXdsMHlMVUhTMU42Wlg5Qy11NDRiWmU5aldDaDJ1RF9xdGMzenhNSF9QaGo1MjJRU3RMR0FNRHBXOEtDdm9RaTdYNzItTW92amZMUVpuZUY4bEpLMTMyY1lsYUZxTmt1VHpiQ1JrSjg2R1ljTmZnNkVqYzF4ZGN2N3VXWkRReGV6M21lNW15Q3RmRDI1S0RlOTcxRG1XU3VIYw?oc=5",
-      "published": "2026-06-01T07:00:00+00:00",
-      "source": {
-        "name": "Helse Bergen",
-        "url": "https://www.helse-bergen.no"
-      }
-    },
-    {
       "id": "4f989bd3393b",
       "title": "Nedgang i bruk av vanedannande legemiddel hos eldre - Helsedirektoratet",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUTVvZ21Kd3VQOUhyWFhjX1BMcU1fSUtQcGdocGk5X3B6bFNsLU81SzBtRkZMaDVhT0U4aXhIai1sOUpMU2tKQTJCSDB5UUdJbjVaa2hRMXg0RGxXUTdrWGVPcDJveVdiOVlRT3duV2t0NkdZejB0TlBYTjlLT1VZaERqQXBac09tRU5PMnZVVUpRTXdxdWJR?oc=5",
@@ -71,16 +61,6 @@
       "source": {
         "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
-      }
-    },
-    {
-      "id": "97b24e13bf6e",
-      "title": "Lilly: Retatrutide slår Ozempic i diabetesstudie - HealthTalk",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORjZHU2FYQjJ2N1JvZEVDSWRjU0RHS3NydFF0MTBCZHNjNGlBekZybG9xM2w1N0lJNlltNXJCLXdYNnl5VXYtZjRjaUNZVHV3MlJQTEtpSG5oU0tHN3BnV1dZZEhFVWlvQUZPc1pONE9CNWVZMzZuck41dVBwYURBazJWTk5FZlp0OW1fVzRlOUlLMzg?oc=5",
-      "published": "2026-10-28T13:36:52+00:00",
-      "source": {
-        "name": "HealthTalk",
-        "url": "https://www.healthtalk.no"
       }
     },
     {
@@ -94,43 +74,23 @@
       }
     },
     {
-      "id": "3c7d33d8f638",
-      "title": "Sosiale forskjeller i fedme og bruk av vektreduserende legemidler - Folkehelseinstituttet - FHI",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNkU2bktLeTBNMVRfYllDMHlhQzBJZXAxS0loS2hIenVrZmUxbkJ4NzdkY2h6cTRCT2tCZ1hDY1J1dkNEN1hlbWQzaGQzQ2JVNWc4NHprWUpUaFVvdnNlazhXeDNkazZsVE9sOTJKUFlPVS01MUgxbVZodTRQN2VEWTl2VC1kZlRKMWlhY2c3bw?oc=5",
-      "published": "2026-06-25T07:00:00+00:00",
+      "id": "1aca3d8f6875",
+      "title": "Plutselig var tablettene borte vekk: – En alvorlig sak - bladet.no",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUVlnanZOVFNkbkRYZFdxVTJDUV9WZGxDblNzWmpJYUQyQlEtMm5tMDVVWWR2SzBEVkN6UXlqQlJHN2xiSUlVTVlzck9nMDdISzd1VWFZaUNOU0wtckRVd3dEWWRSSVJMSjBRc05wZXhIR2VhOWZaOE5EMFB2R1ZFandTMnREOExT?oc=5",
+      "published": "2026-11-01T11:43:37+00:00",
       "source": {
-        "name": "Folkehelseinstituttet - FHI",
-        "url": "https://www.fhi.no"
+        "name": "bladet.no",
+        "url": "https://www.bladet.no"
       }
     },
     {
-      "id": "b832ca46615b",
-      "title": "Frasene: Snarveien til slankemedisin - Dagbladet",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UVHBfRzhWM3NUQS1RMmpKZGpxODQtcjM1Y2hoaFlTNll6RlVmMEJ4S3ZvMEgxcEJBTF94T3BZYWZ3M0xFeEtvejBWUGQ1N2FPTGVKS09PVkhlNU1fZ1VFeFJBTGxqemdQV3ViTk40MkpnRm40UVhsYVBPbldBdjg?oc=5",
-      "published": "2026-10-11T07:00:00+00:00",
+      "id": "137de027a80a",
+      "title": "Normalt? – Når kvardagsvariasjon vert sjukdom - NTNU",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5TT05ycTdUSEVac3Zjekg5TmhUS1p0ZGotWHJ5X3NwNEsyVWRsRzkyS0NTend4ZXJVMDFaUEZnbGd1OEZDQ3dyaVp6RDhfUG8wSXljSmc0TlRsREhPR1FpTUYyNno3MmtJcHhDOU5ranZVSVQ4M0hsZFFR?oc=5",
+      "published": "2026-10-26T07:00:00+00:00",
       "source": {
-        "name": "Dagbladet",
-        "url": "https://www.dagbladet.no"
-      }
-    },
-    {
-      "id": "8cb62dd9ab53",
-      "title": "Slankemedisiner: Kan redusere kreftrisikoen betydelig - VG",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1GN1A4ZlhpVXM0S21EdGhZWUdhMFZRR1VseE84bXZKc0oyNnp2WVVUYV9CNmYyRktWSVcwbU9QUURfOXBNQ1hvUUIxWGNlUVZvVnNCRHc1WldiRjlsdUppUUV1SlZWVV9YNjN3UjVvUjBPZTRtVWxIUzB4OEtadw?oc=5",
-      "published": "2026-06-18T07:00:00+00:00",
-      "source": {
-        "name": "VG",
-        "url": "https://www.vg.no"
-      }
-    },
-    {
-      "id": "055bde4d929d",
-      "title": "Flere eldre kan hente medisin på apotek - Bergen kommune",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUUt4cU1YcTRnVzJsQUNJQ1BMRTJEWGl5bmdEVlYwZXpmb1pEaVA0d20yczVIR2ZyRE83MloyWDVrbGJhd0lXTU0yMmZUYjdrLW9aUW9vV2xLTXBUaXlRcFN3cXNjY0cyU1FLbldLX3FPTWJJdmVIX2FrSmE2NGp1OGphenNmVTl5UXF0WEhObC1tWElMVkF6S3BPQ1gzcml6MDBPTkcwcFRDUQ?oc=5",
-      "published": "2026-01-15T08:00:00+00:00",
-      "source": {
-        "name": "Bergen kommune",
-        "url": "https://www.bergen.kommune.no"
+        "name": "NTNU",
+        "url": "https://www.ntnu.no"
       }
     },
     {
@@ -144,6 +104,16 @@
       }
     },
     {
+      "id": "055bde4d929d",
+      "title": "Flere eldre kan hente medisin på apotek - Bergen kommune",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUUt4cU1YcTRnVzJsQUNJQ1BMRTJEWGl5bmdEVlYwZXpmb1pEaVA0d20yczVIR2ZyRE83MloyWDVrbGJhd0lXTU0yMmZUYjdrLW9aUW9vV2xLTXBUaXlRcFN3cXNjY0cyU1FLbldLX3FPTWJJdmVIX2FrSmE2NGp1OGphenNmVTl5UXF0WEhObC1tWElMVkF6S3BPQ1gzcml6MDBPTkcwcFRDUQ?oc=5",
+      "published": "2026-01-15T08:00:00+00:00",
+      "source": {
+        "name": "Bergen kommune",
+        "url": "https://www.bergen.kommune.no"
+      }
+    },
+    {
       "id": "53cf2cca23b4",
       "title": "Handlingsplan for å heve levealderen hos mennesker med alvorlige psykiske lidelser og/eller rusmiddelproblemer - Regjeringen.no",
       "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPeVRlOU1Nb2p6TkJYVko2enVvUzdzVFJSWGlVUWtRd1BoUzZibEh2dWVnVS10R290bS1mUk9OdjN1WDQwejNwdUF5Y29BZm5ZV3Zja3NwQ28wOGloTDJjUy1BaXhMRG1NX0JzZGxjYVlPSFdtUTA0VGdkSmhBbWNPUjZkdU5hekU1YnM0NV9qWUxIRmVpTGdEa0NOS0EtT2sySDFGOWc1WUJQQmVCZHpVU3ZmRzdkbE1BbEY0WFZEUS1mOUdPZGk3RDllTWY0Ty1yVmlST3A1ekNRaTJhVldjRUlfZks1aHBNSDVxRkRFdUFualJQLXcxUjd3?oc=5",
@@ -154,6 +124,26 @@
       }
     },
     {
+      "id": "b832ca46615b",
+      "title": "Frasene: Snarveien til slankemedisin - Dagbladet",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UVHBfRzhWM3NUQS1RMmpKZGpxODQtcjM1Y2hoaFlTNll6RlVmMEJ4S3ZvMEgxcEJBTF94T3BZYWZ3M0xFeEtvejBWUGQ1N2FPTGVKS09PVkhlNU1fZ1VFeFJBTGxqemdQV3ViTk40MkpnRm40UVhsYVBPbldBdjg?oc=5",
+      "published": "2026-10-11T07:00:00+00:00",
+      "source": {
+        "name": "Dagbladet",
+        "url": "https://www.dagbladet.no"
+      }
+    },
+    {
+      "id": "3c7d33d8f638",
+      "title": "Sosiale forskjeller i fedme og bruk av vektreduserende legemidler - Folkehelseinstituttet - FHI",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNkU2bktLeTBNMVRfYllDMHlhQzBJZXAxS0loS2hIenVrZmUxbkJ4NzdkY2h6cTRCT2tCZ1hDY1J1dkNEN1hlbWQzaGQzQ2JVNWc4NHprWUpUaFVvdnNlazhXeDNkazZsVE9sOTJKUFlPVS01MUgxbVZodTRQN2VEWTl2VC1kZlRKMWlhY2c3bw?oc=5",
+      "published": "2026-06-25T07:00:00+00:00",
+      "source": {
+        "name": "Folkehelseinstituttet - FHI",
+        "url": "https://www.fhi.no"
+      }
+    },
+    {
       "id": "43c045e7d1e1",
       "title": "Anbefalte prioriteringer innen digital legemiddelhåndtering - KS",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUlhzTldIRTFEV0dESVNlaS1YNDJVWHFNa25BUnlHTHFMMnZkcThZcGVMYXpNVFBhM3JGbnZUUnBRN3BYUmtnZVFPbi1vaFhvc2xsQ2w3eDFOTlVWaHJ5SkU4TjNFNnA3NjRId3cyaUFrQWtVRldGZ19FakNzSUpmb3p4NU9hUUVOV01iRmhzajk5SG1YUUdFbkVTcUh4OGpudWlqYzRtRkY0SkpiSmU4Y0hR?oc=5",
@@ -161,6 +151,16 @@
       "source": {
         "name": "KS",
         "url": "https://www.ks.no"
+      }
+    },
+    {
+      "id": "9a816f56a278",
+      "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - Rådet for psykisk helse",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjkwcGZUTVRwWk15Yms3VHNEOWNjaHAzank5d0xhc3VSSkViN2RBNDZGZDBXMTdIQ1ZIWGE1WC0ycjgwREpnNHFVNlRyRV9ia2VPX0lFdGhkaFQ1RDZqY2V5TzlQMXNxbXRpZGdKUGRneXFCQUVyaXRpNkFKaFFrWTJ5ZDBjeU9JSzJ0aXBQVGZyY3BxNFRONmtCdS1PVnZtRlFv?oc=5",
+      "published": "2023-10-10T07:00:00+00:00",
+      "source": {
+        "name": "Rådet for psykisk helse",
+        "url": "https://psykiskhelse.no"
       }
     },
     {
@@ -204,16 +204,6 @@
       }
     },
     {
-      "id": "9a816f56a278",
-      "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - Rådet for psykisk helse",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjkwcGZUTVRwWk15Yms3VHNEOWNjaHAzank5d0xhc3VSSkViN2RBNDZGZDBXMTdIQ1ZIWGE1WC0ycjgwREpnNHFVNlRyRV9ia2VPX0lFdGhkaFQ1RDZqY2V5TzlQMXNxbXRpZGdKUGRneXFCQUVyaXRpNkFKaFFrWTJ5ZDBjeU9JSzJ0aXBQVGZyY3BxNFRONmtCdS1PVnZtRlFv?oc=5",
-      "published": "2023-10-10T07:00:00+00:00",
-      "source": {
-        "name": "Rådet for psykisk helse",
-        "url": "https://psykiskhelse.no"
-      }
-    },
-    {
       "id": "62d5b2e3793a",
       "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZEd5eTVOaFRZZHd1MVQzQUVGc09ZSlZtdnlXUEhwTkNQRXp0UEhfREhwSzNIRC1RVVVKYldGLWJlQlNtYkM1dkw2RFNvSFJXdzc1WlNhc0Y3c3JPcDFnalBGWVdJcGxtbTNuTUJfeE50NTlNNTdNMlNIY0NBdGk2MjhXMjJRVGxjcFNFbEFFNDRBUUMtaDM4R0NDbEtXdjNsckRjdjBYdGFqOFYyXzRmYmhZSVRHbldmaEUyVk5QcEFCYjMwbTNXMGxfMXJaa25WYXc?oc=5",
@@ -224,23 +214,13 @@
       }
     },
     {
-      "id": "90921fcbbc80",
-      "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
-      "published": "2018-10-05T07:00:00+00:00",
+      "id": "fb62ed7521b2",
+      "title": "Folk strømmer til apotekene for influensavaksinering - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMkhUUUVxamtwNFdLdzR0eVVWNDhXVzJkemFNaExQTVNKbUYyMFJ4bU1kZUZJdDNPT0kwY0ZEdW12cW5FWG56Y1VZVWhNdzBEMG9ZQ3NqbGdKQkhwVE15WkNvZ0ZDeHZLSl9jWFFPSDRpZzhxS2xLV1lEN0RPakxVNmM2TW9yYXNfeGE0RnFCMlpydEZoUGVJSzdXZHFBMjMyQ3poSm5sVHIzeXFtcnRDdmFoWnBBNHBLcWQtLTA0ODlUS3J5WWhmaWczYllVUQ?oc=5",
+      "published": "2026-11-06T06:10:00+00:00",
       "source": {
-        "name": "Fremover",
-        "url": "https://www.fremover.no"
-      }
-    },
-    {
-      "id": "855a4cfebc24",
-      "title": "Kan gi trøbbel i varmen: – Flere eller nye bivirkninger - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTkVZdUxrdG85R240cG5DT3Y5TXpWUjktR1JnWDFmaUE0c2hVbUJLaEY1c1FaaGs0akhGb0ZxaGdmSkRaejUxVTdxYU1HcGxlMllVeEhzT21fTzB1bWoxenI4SXY1NEIybWg1azAxeVV1SEZ4TWk3T3ZuRGtmZHJIUjdyZXEzM1l6YThGWElGdDlYMnJON3ZNOGhwczRuV1dsZnNCTVpaWXJVZmxXRV9ZajI5X0dJY2ZVcXJ3?oc=5",
-      "published": "2024-07-23T07:00:00+00:00",
-      "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
@@ -284,6 +264,16 @@
       }
     },
     {
+      "id": "90921fcbbc80",
+      "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
+      "published": "2018-10-05T07:00:00+00:00",
+      "source": {
+        "name": "Fremover",
+        "url": "https://www.fremover.no"
+      }
+    },
+    {
       "id": "75937dd941b9",
       "title": "Helse Bergen skrev ut resept på CF-legemiddel: – Beklager feilen - Dagens Medisin",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOc1AxcFVpZGxfeUc4Q2RNb25iSkEteHZjWktMc182aGtHRHM5RURJYkNOUi1IYTh4OFFZZ0dkX3YyZGE1MmpKUktIUUZ6RmlCc2F2a3M1R0ZfOXFIR2RSOU90ajhBNWtJNnZieWpQSHpQcm13TFJ2ZDRMNTRYWHZrcmhvUmdVMzA5VjRLYVJ4YkpqZk1mc0IyUU9JX1Z4WTFuNHVXRGRCd2tWV2sxZlAzN0JvNDNJMkVMbU02OU80OFQxRFA0bXVnNTJ3?oc=5",
@@ -314,16 +304,6 @@
       }
     },
     {
-      "id": "0faa73712e34",
-      "title": "Medisin/Helse, Legemiddel | WHO: Mulig forbindelse mellom AstraZeneca-vaksinen og blodpropper - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVmlKZXI4cUJsUzN0ZVJORzVBRk0ya0FSdnRzVVhCWnU0cHZMd284aG9aRU0wNUdyemFfSGlRVEZQM2hpS2NhaTBjUzlEQlNEVmRpQ25HWkpUOHhUVndPQm5TdVZqbUk0TllBN0JYaVFWYjVxVlUxQzFrY0Q1VllKWnkwekxYcXU1NU52VGRaalpBZnZ5LXNweV9RMDdLUkxHVDhWZGhWek4zZ0hzZGZ6amY5akZKLVFKOXc?oc=5",
-      "published": "2021-04-07T07:00:00+00:00",
-      "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
-      }
-    },
-    {
       "id": "8a8bf64377b3",
       "title": "Nytt legemiddel reduserer plakk i hjernen. Det kan ha betydning som medisin mot Alzheimers sykdom - Forskning.no",
       "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPTFhuZUpTM3Y4U1BTeDVtY2VaTFFvNVdWb0FIaEpyMFJKampjZUJHdm5IQnZ1dWdVN0lCT0czSExsQ05WeVB5eXd5clNMeEJfcWtBd2lYTWs1MFhETW9BWUFpZGU0eE1ZYmZFaDRmS0wzRXdEcXEtX2Q4S3dGY0p3Yk5FNW1RNHBYY01kUlR6MDRqMW5fZTM4MGtVdzRDWkJKem94Q3hGVk9yMDR6TG1KbGxmTXZVZ0dSRzdDRVhjSTJwdGljUVBsZ2VvODJSVUdVdnFpeF8yeHpZOWc0OS0tREQ3a1JiT2JCeXpLWTRDNzh2b1BqWDFlb214d19Mc0dlVklhNnp6OUxBOFd2TC1SS1RlMnlOa3lhZUM4dmlVYzJvZlpaZnc?oc=5",
@@ -331,16 +311,6 @@
       "source": {
         "name": "Forskning.no",
         "url": "https://www.forskning.no"
-      }
-    },
-    {
-      "id": "e9ca90860c24",
-      "title": "(+) Milliardgrep for sykehusene – dette vil Aps budsjettpartnere - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxORzBPcHM4WHZkZHdkTFFFUU4taUg3b1A1UzdSOWhzejVOM1RHT2tJbExRS3Bya2IxUmVrNjBjQTVjakx5ajFRdjVmcjZmR3lYSlZjM0kyU1B1a0VrMEFVampjbm9ySk9jZFZhMlZCU1pqWGNQSnlJTTRMb25oTlZBVUZ1VmtuZ0VYeTBpbkNpR3k2aTFfVW5qU1pMdFBXQkhjVXh4X1lnY0VPd0U0M0tjbVFvZUJ1ckJQTjJlcnVkX3BMSWkxYUVYV3VYTmF2YUtnUEhtMGxiWnRtMmFWSDhQSnRHVHVGZ3RLdEUtekFLX1lrcXIzRWdCLQ?oc=5",
-      "published": "2026-11-05T12:30:34+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -364,13 +334,23 @@
       }
     },
     {
-      "id": "1d3125b68231",
-      "title": "Generasjon prestasjon: Unge menn løfter salget av potenspiller til rekordnivåer (+) - Dagens Næringsliv",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWVJXaHQ4djNRNldBQjl4VEdzR0xvY1JGb0tKMDVmMHI2T2o4elM3ZDBRaVpXQ3ZWTHlHUWUweC1wcG5wOWhSMjNMWTVOdjd3SnctOTJuU1JtaGExNkF6NnB5dVVRZjBsSHdYbkxuY3NZaWhkdGRrRkREeUNxMXQtbUppQWE0aVNtOHUtRmVLWVhGOWw0RjNIVVdzNGdlUl9fQm5jdEV2Q1M4eHJUNVQ4bFAtMVZMR1ZnQWZVcTRuUlZXT0VwS0NyNFlRVkVpaUZaVmtoMw?oc=5",
-      "published": "2026-10-29T13:37:00+00:00",
+      "id": "0faa73712e34",
+      "title": "Medisin/Helse, Legemiddel | WHO: Mulig forbindelse mellom AstraZeneca-vaksinen og blodpropper - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVmlKZXI4cUJsUzN0ZVJORzVBRk0ya0FSdnRzVVhCWnU0cHZMd284aG9aRU0wNUdyemFfSGlRVEZQM2hpS2NhaTBjUzlEQlNEVmRpQ25HWkpUOHhUVndPQm5TdVZqbUk0TllBN0JYaVFWYjVxVlUxQzFrY0Q1VllKWnkwekxYcXU1NU52VGRaalpBZnZ5LXNweV9RMDdLUkxHVDhWZGhWek4zZ0hzZGZ6amY5akZKLVFKOXc?oc=5",
+      "published": "2021-04-07T07:00:00+00:00",
       "source": {
-        "name": "Dagens Næringsliv",
-        "url": "https://www.dn.no"
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
+      }
+    },
+    {
+      "id": "855a4cfebc24",
+      "title": "Kan gi trøbbel i varmen: – Flere eller nye bivirkninger - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTkVZdUxrdG85R240cG5DT3Y5TXpWUjktR1JnWDFmaUE0c2hVbUJLaEY1c1FaaGs0akhGb0ZxaGdmSkRaejUxVTdxYU1HcGxlMllVeEhzT21fTzB1bWoxenI4SXY1NEIybWg1azAxeVV1SEZ4TWk3T3ZuRGtmZHJIUjdyZXEzM1l6YThGWElGdDlYMnJON3ZNOGhwczRuV1dsZnNCTVpaWXJVZmxXRV9ZajI5X0dJY2ZVcXJ3?oc=5",
+      "published": "2024-07-23T07:00:00+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     }
   ]
