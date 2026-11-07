@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-06T21:21:08.831490+00:00",
+  "fetched_at": "2026-11-07T01:41:45.443850+00:00",
   "source": "Google News Health RSS",
-  "count": 34,
+  "count": 35,
   "articles": [
     {
       "id": "80f4a2769fce",
@@ -11,6 +11,16 @@
       "source": {
         "name": "Trønder-Avisa",
         "url": "https://www.t-a.no"
+      }
+    },
+    {
+      "id": "5a02a902d22f",
+      "title": "Studie om anti­depressiva til barn ble slaktet: – Fagmiljøet vårt bør nok sette en fot i bakken - Forskning.no",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOMTJLQlE1ZWxmUzRFeElNenlXMWViOWhQWGN2MlV0OGVCYS1CZ3NXdjF0Q29WWTl6cnBzZFJuRi12NEF4cmRCbElIVVQxTFR6SmFQQXZSdE9LbDZGSVpfdndoYjhZVm5ONG1tb3FkWHAwRXBRd3dpcHVnTWxmUXdQNzRwVmpUc2VGNl9HZFJyUmFNWFBEbXR5UnF2dW9heGktWHlIRDJxaXBaMkdVZEZ1MFRTOGlNbGMzMmdmT01MNk93RzNoQ1F2eHlYRVpBRlpRLTFRRkN1UlM4cDNqUWpxSF9FSGtocFNxZDEyZEtn?oc=5",
+      "published": "2026-11-06T23:42:08+00:00",
+      "source": {
+        "name": "Forskning.no",
+        "url": "https://www.forskning.no"
       }
     },
     {
@@ -51,16 +61,6 @@
       "source": {
         "name": "HealthTalk",
         "url": "https://www.healthtalk.no"
-      }
-    },
-    {
-      "id": "208211b2825c",
-      "title": "Mangel på Paralgin forte - dolen.no",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5cWRySmtFa1JiNTJnaXNMTUNfU21CemRfY3dtTGZCVGpRNjBHaUtBTTB2YllMdmdMODh4OUZMc09kSFE1V2wwY1VnYlNVWDNSeG1XbmsxaDhmcUNOZ0ZvcHdoeXhiOGg0anhJTWZab2U?oc=5",
-      "published": "2026-11-04T17:00:00+00:00",
-      "source": {
-        "name": "dolen.no",
-        "url": "https://www.dolen.no"
       }
     },
     {
@@ -134,6 +134,16 @@
       }
     },
     {
+      "id": "4358c045f263",
+      "title": "Helse, Medisiner | Flere medisiner fases ut: – Haster med å kontakte lege - Hamar Arbeiderblad",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSzFNMk8wd1lBVlhwUi1GSUJZcWM2M0VBNmpwSnVvYzlpdlBFTm94ZWJEUHZYeXhOaXpYdmhLSUVzbE5rZURqMW43bVMtUC1aNldERTBPdGdYVmU5cTRIeVBpbkpuaXZLb2FJUWZ1Ykw1NTlPaXh0OUJKYUcyWG9HMjM3cDlnQlREX2Z2SmRxUQ?oc=5",
+      "published": "2026-04-29T07:00:00+00:00",
+      "source": {
+        "name": "Hamar Arbeiderblad",
+        "url": "https://www.h-a.no"
+      }
+    },
+    {
       "id": "b832ca46615b",
       "title": "Frasene: Snarveien til slankemedisin - Dagbladet",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UVHBfRzhWM3NUQS1RMmpKZGpxODQtcjM1Y2hoaFlTNll6RlVmMEJ4S3ZvMEgxcEJBTF94T3BZYWZ3M0xFeEtvejBWUGQ1N2FPTGVKS09PVkhlNU1fZ1VFeFJBTGxqemdQV3ViTk40MkpnRm40UVhsYVBPbldBdjg?oc=5",
@@ -174,16 +184,6 @@
       }
     },
     {
-      "id": "9a816f56a278",
-      "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - Rådet for psykisk helse",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjkwcGZUTVRwWk15Yms3VHNEOWNjaHAzank5d0xhc3VSSkViN2RBNDZGZDBXMTdIQ1ZIWGE1WC0ycjgwREpnNHFVNlRyRV9ia2VPX0lFdGhkaFQ1RDZqY2V5TzlQMXNxbXRpZGdKUGRneXFCQUVyaXRpNkFKaFFrWTJ5ZDBjeU9JSzJ0aXBQVGZyY3BxNFRONmtCdS1PVnZtRlFv?oc=5",
-      "published": "2023-10-10T07:00:00+00:00",
-      "source": {
-        "name": "Rådet for psykisk helse",
-        "url": "https://psykiskhelse.no"
-      }
-    },
-    {
       "id": "25180b752ec4",
       "title": "Meld. St. 21 (2024–2025) - Regjeringen.no",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRk9GVDc2Tl9jRnBSS0tFNjgzVVJWdzZyTEstck45M05wUEVnUk5hYnA2MnpWS0JRQmxsMGl2RUx1ejRjeWI1X09IaWdiZjBQZUNiOE52NWJDQThCQjdjU182Sl9reFNYYkdyMFVPNnQxSHRmb1RkQTNudzR6eUJsYlRKSl8?oc=5",
@@ -201,6 +201,16 @@
       "source": {
         "name": "Folkehelseinstituttet - FHI",
         "url": "https://www.fhi.no"
+      }
+    },
+    {
+      "id": "9a816f56a278",
+      "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - Rådet for psykisk helse",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjkwcGZUTVRwWk15Yms3VHNEOWNjaHAzank5d0xhc3VSSkViN2RBNDZGZDBXMTdIQ1ZIWGE1WC0ycjgwREpnNHFVNlRyRV9ia2VPX0lFdGhkaFQ1RDZqY2V5TzlQMXNxbXRpZGdKUGRneXFCQUVyaXRpNkFKaFFrWTJ5ZDBjeU9JSzJ0aXBQVGZyY3BxNFRONmtCdS1PVnZtRlFv?oc=5",
+      "published": "2023-10-10T07:00:00+00:00",
+      "source": {
+        "name": "Rådet for psykisk helse",
+        "url": "https://psykiskhelse.no"
       }
     },
     {
@@ -224,16 +234,6 @@
       }
     },
     {
-      "id": "1f8ee124566a",
-      "title": "Ja til nytt legemiddel mot atopisk eksem - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWEdfMmRHSWhnUnRBOU5GeURCbUowQnNYZUpKZkJRRi1aSnp1X1VrX2R2NWJ2dHMzalFXcEhGU1k5aG9DMmEwUWxfY2VMc0FUS09VUGliaHhoYWZuNmNKWGxEeUcxSkdaYXRRaXpzZFlLczlNZFFTaEhManJac2dsS1JRLXNKMXFzLWFKeGtCX21PMzFvRXZwdnNBZXZ3UGk4b05YakU1c3FDd2Z6dDl6bVEycw?oc=5",
-      "published": "2020-02-24T08:00:00+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
       "id": "6ac22dd28a4b",
       "title": "Reagerer på anbefaling om bruk av legemidler - Rådet for psykisk helse",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WRk95djlWSWNKNjk2aDZjNWl0U3JoSHNneHppQ1B1bnJyUlZ6WXVVQ2JkZldvSm1GOGs3RE9VU0dVc1g1X3pqZUFOdzlpUWVFZ2tGWmZJT3RJbE92SWxWQVFTNFpJTnQ5cjBlVHA2Zm9qYzA?oc=5",
@@ -241,6 +241,16 @@
       "source": {
         "name": "Rådet for psykisk helse",
         "url": "https://psykiskhelse.no"
+      }
+    },
+    {
+      "id": "1f8ee124566a",
+      "title": "Ja til nytt legemiddel mot atopisk eksem - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWEdfMmRHSWhnUnRBOU5GeURCbUowQnNYZUpKZkJRRi1aSnp1X1VrX2R2NWJ2dHMzalFXcEhGU1k5aG9DMmEwUWxfY2VMc0FUS09VUGliaHhoYWZuNmNKWGxEeUcxSkdaYXRRaXpzZFlLczlNZFFTaEhManJac2dsS1JRLXNKMXFzLWFKeGtCX21PMzFvRXZwdnNBZXZ3UGk4b05YakU1c3FDd2Z6dDl6bVEycw?oc=5",
+      "published": "2020-02-24T08:00:00+00:00",
+      "source": {
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
@@ -284,16 +294,6 @@
       }
     },
     {
-      "id": "0faa73712e34",
-      "title": "Medisin/Helse, Legemiddel | WHO: Mulig forbindelse mellom AstraZeneca-vaksinen og blodpropper - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVmlKZXI4cUJsUzN0ZVJORzVBRk0ya0FSdnRzVVhCWnU0cHZMd284aG9aRU0wNUdyemFfSGlRVEZQM2hpS2NhaTBjUzlEQlNEVmRpQ25HWkpUOHhUVndPQm5TdVZqbUk0TllBN0JYaVFWYjVxVlUxQzFrY0Q1VllKWnkwekxYcXU1NU52VGRaalpBZnZ5LXNweV9RMDdLUkxHVDhWZGhWek4zZ0hzZGZ6amY5akZKLVFKOXc?oc=5",
-      "published": "2021-04-07T07:00:00+00:00",
-      "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
-      }
-    },
-    {
       "id": "cb4e71eee0cf",
       "title": "Medisiner ved røykeslutt, vareniklin - NHI.no",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRFF1QVRBUFd1Z3pmUE54S2lLNmc2SHp5LWVTYUY4cUxIUG1MRl9DRmF2d256bGo0Y3Y3ZjQ2SjdtdlBsVzBDUnZqZExua24weDlRN1dWb1o3UnZkY2x4SnBWVGtSRFFYVTNPTEFYRGRteVYzVHpKd0RiYmhnN3MzbA?oc=5",
@@ -301,6 +301,16 @@
       "source": {
         "name": "NHI.no",
         "url": "https://nhi.no"
+      }
+    },
+    {
+      "id": "0faa73712e34",
+      "title": "Medisin/Helse, Legemiddel | WHO: Mulig forbindelse mellom AstraZeneca-vaksinen og blodpropper - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVmlKZXI4cUJsUzN0ZVJORzVBRk0ya0FSdnRzVVhCWnU0cHZMd284aG9aRU0wNUdyemFfSGlRVEZQM2hpS2NhaTBjUzlEQlNEVmRpQ25HWkpUOHhUVndPQm5TdVZqbUk0TllBN0JYaVFWYjVxVlUxQzFrY0Q1VllKWnkwekxYcXU1NU52VGRaalpBZnZ5LXNweV9RMDdLUkxHVDhWZGhWek4zZ0hzZGZ6amY5akZKLVFKOXc?oc=5",
+      "published": "2021-04-07T07:00:00+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     },
     {
