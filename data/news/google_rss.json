@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-08T11:51:13.383418+00:00",
+  "fetched_at": "2026-11-08T17:44:15.826497+00:00",
   "source": "Google News Health RSS",
-  "count": 29,
+  "count": 31,
   "articles": [
     {
       "id": "80f4a2769fce",
@@ -11,6 +11,16 @@
       "source": {
         "name": "Trønder-Avisa",
         "url": "https://www.t-a.no"
+      }
+    },
+    {
+      "id": "fb62ed7521b2",
+      "title": "Folk strømmer til apotekene for influensavaksinering - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMkhUUUVxamtwNFdLdzR0eVVWNDhXVzJkemFNaExQTVNKbUYyMFJ4bU1kZUZJdDNPT0kwY0ZEdW12cW5FWG56Y1VZVWhNdzBEMG9ZQ3NqbGdKQkhwVE15WkNvZ0ZDeHZLSl9jWFFPSDRpZzhxS2xLV1lEN0RPakxVNmM2TW9yYXNfeGE0RnFCMlpydEZoUGVJSzdXZHFBMjMyQ3poSm5sVHIzeXFtcnRDdmFoWnBBNHBLcWQtLTA0ODlUS3J5WWhmaWczYllVUQ?oc=5",
+      "published": "2026-11-06T06:10:00+00:00",
+      "source": {
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
@@ -44,16 +54,6 @@
       }
     },
     {
-      "id": "8da92a7625d3",
-      "title": "Ny strategi skal gi bedre og tryggere bruk av legemidler | Helse Midt-Norge RHF - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUmhUOC1HclNsYmQwVzNxaWkyQWJfWkNJdkFiMnlCM3pFWlk2THVIQ0VNVGY3MU9JYVRUdDdBVUdrSWgwaHg0dHRiaXI0eFd3ZldKb0p4Qno0ZGhMS2Yzd3J1d3RsalNQTmxvNkR2a3RSMVBSMEdRcUZVTC1vT2wxaTlEV2NLN3ZrekFnc09xN0pYbkwxNmhoSEFPejlMNm9JS29yc3lHNXo0YUpPVHo3OFJwbHVWQ2tpbnhCX1hNUlpmZFpxbWpIQnVYSDlGNG52MVpZ?oc=5",
-      "published": "2026-10-01T07:00:00+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
       "id": "81b09e525891",
       "title": "Hva skjer med Beslutningsforum hvis helseregionene legges ned? - HealthTalk",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQlNWajNSTlVheXowSWZpRWM0UllFS0dyU1NQUjhzTUpNRmhRZ1A4X1c3UjAtLXBSXzJjZHlnN1lfcENPMlVhRjBUREU1bHhlUjhIYVdmX0Y4a2xJWW40d1JIejRocWVUYVlMdzViZ2lOZ0RIRktFdV9iZTJSNXUyV0FOWnRTT0o1NTRZZS1MYTl5UkhGLTJTcFQ5bHd6Rnc3ODFDRUhDclFsSl9CNDZfdlc5R01VT1ItbHRF?oc=5",
@@ -84,6 +84,16 @@
       }
     },
     {
+      "id": "1aca3d8f6875",
+      "title": "Plutselig var tablettene borte vekk: – En alvorlig sak - bladet.no",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUVlnanZOVFNkbkRYZFdxVTJDUV9WZGxDblNzWmpJYUQyQlEtMm5tMDVVWWR2SzBEVkN6UXlqQlJHN2xiSUlVTVlzck9nMDdISzd1VWFZaUNOU0wtckRVd3dEWWRSSVJMSjBRc05wZXhIR2VhOWZaOE5EMFB2R1ZFandTMnREOExT?oc=5",
+      "published": "2026-11-01T11:43:37+00:00",
+      "source": {
+        "name": "bladet.no",
+        "url": "https://www.bladet.no"
+      }
+    },
+    {
       "id": "53cf2cca23b4",
       "title": "Handlingsplan for å heve levealderen hos mennesker med alvorlige psykiske lidelser og/eller rusmiddelproblemer - Regjeringen.no",
       "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPeVRlOU1Nb2p6TkJYVko2enVvUzdzVFJSWGlVUWtRd1BoUzZibEh2dWVnVS10R290bS1mUk9OdjN1WDQwejNwdUF5Y29BZm5ZV3Zja3NwQ28wOGloTDJjUy1BaXhMRG1NX0JzZGxjYVlPSFdtUTA0VGdkSmhBbWNPUjZkdU5hekU1YnM0NV9qWUxIRmVpTGdEa0NOS0EtT2sySDFGOWc1WUJQQmVCZHpVU3ZmRzdkbE1BbEY0WFZEUS1mOUdPZGk3RDllTWY0Ty1yVmlST3A1ekNRaTJhVldjRUlfZks1aHBNSDVxRkRFdUFualJQLXcxUjd3?oc=5",
@@ -94,6 +104,16 @@
       }
     },
     {
+      "id": "8da92a7625d3",
+      "title": "Ny strategi skal gi bedre og tryggere bruk av legemidler | Helse Midt-Norge RHF - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUmhUOC1HclNsYmQwVzNxaWkyQWJfWkNJdkFiMnlCM3pFWlk2THVIQ0VNVGY3MU9JYVRUdDdBVUdrSWgwaHg0dHRiaXI0eFd3ZldKb0p4Qno0ZGhMS2Yzd3J1d3RsalNQTmxvNkR2a3RSMVBSMEdRcUZVTC1vT2wxaTlEV2NLN3ZrekFnc09xN0pYbkwxNmhoSEFPejlMNm9JS29yc3lHNXo0YUpPVHo3OFJwbHVWQ2tpbnhCX1hNUlpmZFpxbWpIQnVYSDlGNG52MVpZ?oc=5",
+      "published": "2026-10-01T07:00:00+00:00",
+      "source": {
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
       "id": "4358c045f263",
       "title": "Helse, Medisiner | Flere medisiner fases ut: – Haster med å kontakte lege - Hamar Arbeiderblad",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSzFNMk8wd1lBVlhwUi1GSUJZcWM2M0VBNmpwSnVvYzlpdlBFTm94ZWJEUHZYeXhOaXpYdmhLSUVzbE5rZURqMW43bVMtUC1aNldERTBPdGdYVmU5cTRIeVBpbkpuaXZLb2FJUWZ1Ykw1NTlPaXh0OUJKYUcyWG9HMjM3cDlnQlREX2Z2SmRxUQ?oc=5",
@@ -101,16 +121,6 @@
       "source": {
         "name": "Hamar Arbeiderblad",
         "url": "https://www.h-a.no"
-      }
-    },
-    {
-      "id": "4cb59c666e4f",
-      "title": "Norge i Europatoppen med å innføre viktige, nye legemidler - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWGdUS0xWenVsYmh5eG00LWtFX1NIcVYzNy11U0VEdGNidU8ya0lTSDl3amN6eUljeDlXM2xHZkdPTGNnX2Q4cHliS2xpWjdsLTFabXlVc1ZPMmszNDlxa2RjVVpEOEdkak55NmtRbnplbDlNN1RzRUtxLUxSVnRDTE0tSEFJZnJRT0FMcHlCTUNpY3JrZy1oam4yNFRBUkg1ZUstdUVSOTRUc3NVaTBMeDQyMHhSYm0wdmVtTndRRzg0YUprbHBaaFJFT1h6T3ItVm9VdA?oc=5",
-      "published": "2026-05-19T07:00:00+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
@@ -134,13 +144,13 @@
       }
     },
     {
-      "id": "e9850f696bdd",
-      "title": "Helse, Legemiddel | Den sovjetiske propagandaplakaten - og det nordnorske helsevesenet - Nordnorsk debatt",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWTNobTZwbG9hMDhEMERNazBxRTVpRU1aRjBkd09oci1OTlcxMG5vNU9WYzJMVHZ1MWdLMERyb3VmUkdKZWR6U1daQXBHQXlxYzcyY2RkYjZ6WEZuOTFBWnBiQmNTZV9Hd3lTNHBtWnI4STQyRUE0NVNmNzVvbVlGUXJnRUdPZlFkYVNlQnZ5ZmJMTWZHNmdLN2JJMExWdzhYZDhHelB4ZGJKUkt3M0hz?oc=5",
-      "published": "2024-09-06T07:00:00+00:00",
+      "id": "4cb59c666e4f",
+      "title": "Norge i Europatoppen med å innføre viktige, nye legemidler - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWGdUS0xWenVsYmh5eG00LWtFX1NIcVYzNy11U0VEdGNidU8ya0lTSDl3amN6eUljeDlXM2xHZkdPTGNnX2Q4cHliS2xpWjdsLTFabXlVc1ZPMmszNDlxa2RjVVpEOEdkak55NmtRbnplbDlNN1RzRUtxLUxSVnRDTE0tSEFJZnJRT0FMcHlCTUNpY3JrZy1oam4yNFRBUkg1ZUstdUVSOTRUc3NVaTBMeDQyMHhSYm0wdmVtTndRRzg0YUprbHBaaFJFT1h6T3ItVm9VdA?oc=5",
+      "published": "2026-05-19T07:00:00+00:00",
       "source": {
-        "name": "Nordnorsk debatt",
-        "url": "https://www.nordnorskdebatt.no"
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
@@ -154,13 +164,13 @@
       }
     },
     {
-      "id": "90921fcbbc80",
-      "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
-      "published": "2018-10-05T07:00:00+00:00",
+      "id": "e9850f696bdd",
+      "title": "Helse, Legemiddel | Den sovjetiske propagandaplakaten - og det nordnorske helsevesenet - Nordnorsk debatt",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWTNobTZwbG9hMDhEMERNazBxRTVpRU1aRjBkd09oci1OTlcxMG5vNU9WYzJMVHZ1MWdLMERyb3VmUkdKZWR6U1daQXBHQXlxYzcyY2RkYjZ6WEZuOTFBWnBiQmNTZV9Hd3lTNHBtWnI4STQyRUE0NVNmNzVvbVlGUXJnRUdPZlFkYVNlQnZ5ZmJMTWZHNmdLN2JJMExWdzhYZDhHelB4ZGJKUkt3M0hz?oc=5",
+      "published": "2024-09-06T07:00:00+00:00",
       "source": {
-        "name": "Fremover",
-        "url": "https://www.fremover.no"
+        "name": "Nordnorsk debatt",
+        "url": "https://www.nordnorskdebatt.no"
       }
     },
     {
@@ -194,6 +204,16 @@
       }
     },
     {
+      "id": "6ac22dd28a4b",
+      "title": "Reagerer på anbefaling om bruk av legemidler - Rådet for psykisk helse",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WRk95djlWSWNKNjk2aDZjNWl0U3JoSHNneHppQ1B1bnJyUlZ6WXVVQ2JkZldvSm1GOGs3RE9VU0dVc1g1X3pqZUFOdzlpUWVFZ2tGWmZJT3RJbE92SWxWQVFTNFpJTnQ5cjBlVHA2Zm9qYzA?oc=5",
+      "published": "2025-02-12T08:00:00+00:00",
+      "source": {
+        "name": "Rådet for psykisk helse",
+        "url": "https://psykiskhelse.no"
+      }
+    },
+    {
       "id": "5a3c6e17b37a",
       "title": "Innfører legemiddel til Stills sykdom og sJIA - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmx6MTZPbFRCMGU5c0ptUVlwdEM4UHp4Wl9EV2ppb1pQa0VPdV9RVjRWQ015dlNpVHZMblM0Wldndm9WWEFVelNSbFBUa0tDRnhES3JWbng0dXVSem1jZGsyQ0l2eGRiUkF1aTNwbW5HazI1cHZyOVZwUDhUNWc2aElyUW1VdU9RZkpJQUh1TW83YzNTRW5sQVVEaUw3RnJEcUdVOUYtVnN4Rkt5M2NDc3VrNEMtOEhsOUE?oc=5",
@@ -204,13 +224,13 @@
       }
     },
     {
-      "id": "6ac22dd28a4b",
-      "title": "Reagerer på anbefaling om bruk av legemidler - Rådet for psykisk helse",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WRk95djlWSWNKNjk2aDZjNWl0U3JoSHNneHppQ1B1bnJyUlZ6WXVVQ2JkZldvSm1GOGs3RE9VU0dVc1g1X3pqZUFOdzlpUWVFZ2tGWmZJT3RJbE92SWxWQVFTNFpJTnQ5cjBlVHA2Zm9qYzA?oc=5",
-      "published": "2025-02-12T08:00:00+00:00",
+      "id": "90921fcbbc80",
+      "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
+      "published": "2018-10-05T07:00:00+00:00",
       "source": {
-        "name": "Rådet for psykisk helse",
-        "url": "https://psykiskhelse.no"
+        "name": "Fremover",
+        "url": "https://www.fremover.no"
       }
     },
     {
@@ -234,16 +254,6 @@
       }
     },
     {
-      "id": "a305842cda9e",
-      "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZVRfS3c1TDkyNEFXWmVJUUFUX2Y0dXY0QzdJSTViUEJiYTlyODAtbEZnZkNYakFSTTRDWmtiNml0OU51SFVWNEZVU3lpNFZ0VWVFMVZsVVhqcWlDZ3QtNnhSRWFQVG1PMkZ1RGhheVI1bGtFN1VhbEVFY3hBXzNERW9meXU?oc=5",
-      "published": "2015-06-15T16:17:39+00:00",
-      "source": {
-        "name": "Regjeringen.no",
-        "url": "https://www.regjeringen.no"
-      }
-    },
-    {
       "id": "54cc19ae26e5",
       "title": "Helse, Legemiddel | Apotekene er tomme for denne medisinen: – Det er vanskelig å få tak i den - Avisa Valdres",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdjEyS2NMd1FmdHBOQUxLZjNJNEd3cTJQX05PeEFrd2ZNSmtCUERHQmFhcDdfRzBCc0hCWFljVC02dXBOb2lzczBYUXJrcUt4aFFTQTNaWjQ5QXoyak9CY1VUMTY5LXBtVWRVZ2Z1MGl3LUtid0VnSUhyb0RGUXQ2cGhlTW1rdy1kb1BjVVlvOHZ4TUdoZkdyenRpRmU1eGMyaHQyaXdkR2FpeVpzQlJJbm1XMA?oc=5",
@@ -251,6 +261,16 @@
       "source": {
         "name": "Avisa Valdres",
         "url": "https://www.avisa-valdres.no"
+      }
+    },
+    {
+      "id": "a305842cda9e",
+      "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZVRfS3c1TDkyNEFXWmVJUUFUX2Y0dXY0QzdJSTViUEJiYTlyODAtbEZnZkNYakFSTTRDWmtiNml0OU51SFVWNEZVU3lpNFZ0VWVFMVZsVVhqcWlDZ3QtNnhSRWFQVG1PMkZ1RGhheVI1bGtFN1VhbEVFY3hBXzNERW9meXU?oc=5",
+      "published": "2015-06-15T16:17:39+00:00",
+      "source": {
+        "name": "Regjeringen.no",
+        "url": "https://www.regjeringen.no"
       }
     },
     {
