@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-08T17:44:15.826497+00:00",
+  "fetched_at": "2026-11-08T21:48:57.588584+00:00",
   "source": "Google News Health RSS",
-  "count": 31,
+  "count": 32,
   "articles": [
     {
       "id": "80f4a2769fce",
@@ -41,6 +41,16 @@
       "source": {
         "name": "Helse Bergen",
         "url": "https://www.helse-bergen.no"
+      }
+    },
+    {
+      "id": "1939477cf2c3",
+      "title": "Mangel på Paralgin forte - Aftenposten",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZUDU4eUxabDdyNDFRS2R5QUhGb0lzR1dSVUhrTG9mM2wzak12aTRFdlEwYnNBYzZxOWYzdnJfUFN1NTZPdFBYV1lieTI0WW9wU1VhcW8wV2NwYXFFdHVlNmo1S0hlUFNaNDZXZFY5X2x3V29mYmc?oc=5",
+      "published": "2026-11-04T14:06:03+00:00",
+      "source": {
+        "name": "Aftenposten",
+        "url": "https://www.aftenposten.no"
       }
     },
     {
@@ -154,16 +164,6 @@
       }
     },
     {
-      "id": "9a816f56a278",
-      "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - Rådet for psykisk helse",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjkwcGZUTVRwWk15Yms3VHNEOWNjaHAzank5d0xhc3VSSkViN2RBNDZGZDBXMTdIQ1ZIWGE1WC0ycjgwREpnNHFVNlRyRV9ia2VPX0lFdGhkaFQ1RDZqY2V5TzlQMXNxbXRpZGdKUGRneXFCQUVyaXRpNkFKaFFrWTJ5ZDBjeU9JSzJ0aXBQVGZyY3BxNFRONmtCdS1PVnZtRlFv?oc=5",
-      "published": "2023-10-10T07:00:00+00:00",
-      "source": {
-        "name": "Rådet for psykisk helse",
-        "url": "https://psykiskhelse.no"
-      }
-    },
-    {
       "id": "e9850f696bdd",
       "title": "Helse, Legemiddel | Den sovjetiske propagandaplakaten - og det nordnorske helsevesenet - Nordnorsk debatt",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWTNobTZwbG9hMDhEMERNazBxRTVpRU1aRjBkd09oci1OTlcxMG5vNU9WYzJMVHZ1MWdLMERyb3VmUkdKZWR6U1daQXBHQXlxYzcyY2RkYjZ6WEZuOTFBWnBiQmNTZV9Hd3lTNHBtWnI4STQyRUE0NVNmNzVvbVlGUXJnRUdPZlFkYVNlQnZ5ZmJMTWZHNmdLN2JJMExWdzhYZDhHelB4ZGJKUkt3M0hz?oc=5",
@@ -171,6 +171,16 @@
       "source": {
         "name": "Nordnorsk debatt",
         "url": "https://www.nordnorskdebatt.no"
+      }
+    },
+    {
+      "id": "9a816f56a278",
+      "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - Rådet for psykisk helse",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjkwcGZUTVRwWk15Yms3VHNEOWNjaHAzank5d0xhc3VSSkViN2RBNDZGZDBXMTdIQ1ZIWGE1WC0ycjgwREpnNHFVNlRyRV9ia2VPX0lFdGhkaFQ1RDZqY2V5TzlQMXNxbXRpZGdKUGRneXFCQUVyaXRpNkFKaFFrWTJ5ZDBjeU9JSzJ0aXBQVGZyY3BxNFRONmtCdS1PVnZtRlFv?oc=5",
+      "published": "2023-10-10T07:00:00+00:00",
+      "source": {
+        "name": "Rådet for psykisk helse",
+        "url": "https://psykiskhelse.no"
       }
     },
     {
@@ -191,6 +201,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "90921fcbbc80",
+      "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
+      "published": "2018-10-05T07:00:00+00:00",
+      "source": {
+        "name": "Fremover",
+        "url": "https://www.fremover.no"
       }
     },
     {
@@ -224,16 +244,6 @@
       }
     },
     {
-      "id": "90921fcbbc80",
-      "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
-      "published": "2018-10-05T07:00:00+00:00",
-      "source": {
-        "name": "Fremover",
-        "url": "https://www.fremover.no"
-      }
-    },
-    {
       "id": "612112db7cef",
       "title": "Ja til legemiddel for brystkreft - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObFZLVGQ1c1I3dmxnNC1rZGZ1d1JUa2g4eFFpNWZ1UG9UNFdMR1hiZVFwcE9XdU1GTlNCRHpZYlNyU251NlVpcUVRZmZJOXozMzZ6bVFEZU9xUlVnVEd4MXVlTGllS0o4MHRMa0JjcVJqdFc3c0FJVThtZ1RubEk3WEh5dHRYOGJKVnRHbjYzVGtCTWZjQVBmSVJ6dHJaSnFnS2EwOVFVWHo?oc=5",
@@ -264,16 +274,6 @@
       }
     },
     {
-      "id": "a305842cda9e",
-      "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZVRfS3c1TDkyNEFXWmVJUUFUX2Y0dXY0QzdJSTViUEJiYTlyODAtbEZnZkNYakFSTTRDWmtiNml0OU51SFVWNEZVU3lpNFZ0VWVFMVZsVVhqcWlDZ3QtNnhSRWFQVG1PMkZ1RGhheVI1bGtFN1VhbEVFY3hBXzNERW9meXU?oc=5",
-      "published": "2015-06-15T16:17:39+00:00",
-      "source": {
-        "name": "Regjeringen.no",
-        "url": "https://www.regjeringen.no"
-      }
-    },
-    {
       "id": "8a8bf64377b3",
       "title": "Nytt legemiddel reduserer plakk i hjernen. Det kan ha betydning som medisin mot Alzheimers sykdom - Forskning.no",
       "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPTFhuZUpTM3Y4U1BTeDVtY2VaTFFvNVdWb0FIaEpyMFJKampjZUJHdm5IQnZ1dWdVN0lCT0czSExsQ05WeVB5eXd5clNMeEJfcWtBd2lYTWs1MFhETW9BWUFpZGU0eE1ZYmZFaDRmS0wzRXdEcXEtX2Q4S3dGY0p3Yk5FNW1RNHBYY01kUlR6MDRqMW5fZTM4MGtVdzRDWkJKem94Q3hGVk9yMDR6TG1KbGxmTXZVZ0dSRzdDRVhjSTJwdGljUVBsZ2VvODJSVUdVdnFpeF8yeHpZOWc0OS0tREQ3a1JiT2JCeXpLWTRDNzh2b1BqWDFlb214d19Mc0dlVklhNnp6OUxBOFd2TC1SS1RlMnlOa3lhZUM4dmlVYzJvZlpaZnc?oc=5",
@@ -284,13 +284,13 @@
       }
     },
     {
-      "id": "a6a4c624cfc8",
-      "title": "20 minutters pause i naturen er god medisin mot stress - NHI.no",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVjF2WTczWVNnVkVHejVkcXBJV1BvNzNTTG8tS3lENjJ2U2tOeHNJS0g4dnM0NDV0T1F0d2lDdXVtYlZSRTFBSzFoaFRhZFozLW4tQTFtbUlmTUpuLVdKOFJSVTZXbzVjck5iOUQ3UmVVZVo5VjY0X0dlSExLOGNFYmN1aWJFVjdLOUI0YzVFY3hCN3hSNnJvREFsV29wdkhhQnVz?oc=5",
-      "published": "2019-04-21T07:00:00+00:00",
+      "id": "a305842cda9e",
+      "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZVRfS3c1TDkyNEFXWmVJUUFUX2Y0dXY0QzdJSTViUEJiYTlyODAtbEZnZkNYakFSTTRDWmtiNml0OU51SFVWNEZVU3lpNFZ0VWVFMVZsVVhqcWlDZ3QtNnhSRWFQVG1PMkZ1RGhheVI1bGtFN1VhbEVFY3hBXzNERW9meXU?oc=5",
+      "published": "2015-06-15T16:17:39+00:00",
       "source": {
-        "name": "NHI.no",
-        "url": "https://nhi.no"
+        "name": "Regjeringen.no",
+        "url": "https://www.regjeringen.no"
       }
     },
     {
@@ -301,6 +301,16 @@
       "source": {
         "name": "Nettavisen",
         "url": "https://www.nettavisen.no"
+      }
+    },
+    {
+      "id": "a6a4c624cfc8",
+      "title": "20 minutters pause i naturen er god medisin mot stress - NHI.no",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVjF2WTczWVNnVkVHejVkcXBJV1BvNzNTTG8tS3lENjJ2U2tOeHNJS0g4dnM0NDV0T1F0d2lDdXVtYlZSRTFBSzFoaFRhZFozLW4tQTFtbUlmTUpuLVdKOFJSVTZXbzVjck5iOUQ3UmVVZVo5VjY0X0dlSExLOGNFYmN1aWJFVjdLOUI0YzVFY3hCN3hSNnJvREFsV29wdkhhQnVz?oc=5",
+      "published": "2019-04-21T07:00:00+00:00",
+      "source": {
+        "name": "NHI.no",
+        "url": "https://nhi.no"
       }
     },
     {
