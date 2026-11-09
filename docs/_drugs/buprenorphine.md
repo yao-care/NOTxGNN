@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 71
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-09
 description: "Buprenorphine: predikert ny indikasjon Akutt intermitterende porfyri (evidensnivå L4). Opprinnelig indikasjon: Opioidrelaterte lidelser"
 monitor_inn: "BUPRENORPHINE"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "extrapyramidal and movement disease", "benign shuddering attacks"]
@@ -51,8 +51,8 @@ TxGNN-modellen predikerer at legemidlet kan ha effekt ved **akutt intermitterend
 | Predikert ny indikasjon | Akutt intermitterende porfyri |
 | TxGNN-prediksjonsscore | 0,9941 |
 | Evidensnivå | L4 (data om faktisk effekt mangler; kun en kasuistikk, i praksis nær L5) |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 4 av 4) |
-| Antall godkjenninger | 4 (gyldige: 4) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 4) |
+| Antall godkjenninger | 4 (gyldige: 3) |
 | Anbefalt beslutning | Hold |
 
 ---
