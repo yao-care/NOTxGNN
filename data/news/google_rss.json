@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-10T12:16:08.989842+00:00",
+  "fetched_at": "2026-11-10T20:18:39.791482+00:00",
   "source": "Google News Health RSS",
   "count": 31,
   "articles": [
@@ -54,23 +54,13 @@
       }
     },
     {
-      "id": "694ae90523a9",
-      "title": "Billig medisin gir håp: – Kan få slutt på hiv-epidemien - Aftenposten",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcXR0TzBOSVBETW9qSVN5eXNSUDhodkdGVk91cEZ4bXhhWEJGZXdmMDVYZWc0eFBzMlAzRURjZ1ZZaWR3bDBDN1ZodE5LVkY5aHQzQkN1N2lVSjRPTW4zd3Z1SV8xRzQwOVRhMjhCU2h2NjcxS1dxOXozN2VRNVFhTEVidV9aOGhEUnVESmZiaHZiYVljWThSdGtjMWJwdkU?oc=5",
-      "published": "2026-11-02T14:54:26+00:00",
+      "id": "1939477cf2c3",
+      "title": "Mangel på Paralgin forte - Aftenposten",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZUDU4eUxabDdyNDFRS2R5QUhGb0lzR1dSVUhrTG9mM2wzak12aTRFdlEwYnNBYzZxOWYzdnJfUFN1NTZPdFBYV1lieTI0WW9wU1VhcW8wV2NwYXFFdHVlNmo1S0hlUFNaNDZXZFY5X2x3V29mYmc?oc=5",
+      "published": "2026-11-04T14:06:03+00:00",
       "source": {
         "name": "Aftenposten",
         "url": "https://www.aftenposten.no"
-      }
-    },
-    {
-      "id": "208211b2825c",
-      "title": "Mangel på Paralgin forte - dolen.no",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5cWRySmtFa1JiNTJnaXNMTUNfU21CemRfY3dtTGZCVGpRNjBHaUtBTTB2YllMdmdMODh4OUZMc09kSFE1V2wwY1VnYlNVWDNSeG1XbmsxaDhmcUNOZ0ZvcHdoeXhiOGg0anhJTWZab2U?oc=5",
-      "published": "2026-11-04T17:00:00+00:00",
-      "source": {
-        "name": "dolen.no",
-        "url": "https://www.dolen.no"
       }
     },
     {
@@ -131,6 +121,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "694ae90523a9",
+      "title": "Billig medisin gir håp: – Kan få slutt på hiv-epidemien - Aftenposten",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcXR0TzBOSVBETW9qSVN5eXNSUDhodkdGVk91cEZ4bXhhWEJGZXdmMDVYZWc0eFBzMlAzRURjZ1ZZaWR3bDBDN1ZodE5LVkY5aHQzQkN1N2lVSjRPTW4zd3Z1SV8xRzQwOVRhMjhCU2h2NjcxS1dxOXozN2VRNVFhTEVidV9aOGhEUnVESmZiaHZiYVljWThSdGtjMWJwdkU?oc=5",
+      "published": "2026-11-02T14:54:26+00:00",
+      "source": {
+        "name": "Aftenposten",
+        "url": "https://www.aftenposten.no"
       }
     },
     {
