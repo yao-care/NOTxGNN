@@ -1,23 +1,13 @@
 {
-  "fetched_at": "2026-11-11T01:05:00.808012+00:00",
+  "fetched_at": "2026-11-11T08:58:15.633745+00:00",
   "source": "Google News Health RSS",
-  "count": 29,
+  "count": 26,
   "articles": [
     {
-      "id": "80f4a2769fce",
-      "title": "Pasient fikk nesten fire ganger så mye medisin – BUP slår alarm - Trønder-Avisa",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWjVzWllyQ1VNUFBfV2h0MHFoRThpYkRNNnRLT1hsZUVnMkJTd1Jla0Q4Y3VkQkRKOVdDLXpkOVM2VktqRGpaTE9EelAyXzB4TmtweHc3Umh2ai1IMktWR1hTNkF4eThlQ3Z1cnNSYkN3aHUtdmdERS13RU1HOEJHNS1mSVVleEoxZUxoOWlnc2t0eXNaY00xcG90RQ?oc=5",
-      "published": "2026-11-06T16:03:25+00:00",
-      "source": {
-        "name": "Trønder-Avisa",
-        "url": "https://www.t-a.no"
-      }
-    },
-    {
-      "id": "25fe5f5a50a0",
-      "title": "Lege: – Helt forståelig at folk blir usikre - TV 2",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZHZFMHZMbFNGQzU2MFduOERuUFE1YUtyN0RDdVVjenJUMmVLb3Vnc19XY1pESk9jNmRwY3k4NldISVV4cDVZYVFkX1lrNUdHcXgtQlYtUlc5V29ubkl3MTBsUWRTMm9FVHVaM3E1M3BfVXZKUzFxOG1yVng3RktwS0M0NA?oc=5",
-      "published": "2026-11-09T12:52:09+00:00",
+      "id": "09f39705446f",
+      "title": "Kritiske legemidler kan bli rammet: – Fortjener bekymring - TV 2",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTGh0LWRmSjhMaXQxS1JBVkJaQzYzT1ZPQXZ4UVY1MmYwMjlDbTNxZXI5cmVsTXlZN1k3dE84QkZJcDZkYU5nb2NhbnVuRm9MQ2VkbXB5YlFGeWJVWlFDT0plaE90YmF0N1FiOGt6dDYtcVpKbVRXNllaM2ktN3FmamVKN3E5aXF2VGs4Y1FmRjVGdEVvbXc?oc=5",
+      "published": "2026-11-06T06:31:04+00:00",
       "source": {
         "name": "TV 2",
         "url": "https://www.tv2.no"
@@ -54,26 +44,6 @@
       }
     },
     {
-      "id": "1939477cf2c3",
-      "title": "Mangel på Paralgin forte - Aftenposten",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZUDU4eUxabDdyNDFRS2R5QUhGb0lzR1dSVUhrTG9mM2wzak12aTRFdlEwYnNBYzZxOWYzdnJfUFN1NTZPdFBYV1lieTI0WW9wU1VhcW8wV2NwYXFFdHVlNmo1S0hlUFNaNDZXZFY5X2x3V29mYmc?oc=5",
-      "published": "2026-11-04T14:06:03+00:00",
-      "source": {
-        "name": "Aftenposten",
-        "url": "https://www.aftenposten.no"
-      }
-    },
-    {
-      "id": "09f39705446f",
-      "title": "Kritiske legemidler kan bli rammet: – Fortjener bekymring - TV 2",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTGh0LWRmSjhMaXQxS1JBVkJaQzYzT1ZPQXZ4UVY1MmYwMjlDbTNxZXI5cmVsTXlZN1k3dE84QkZJcDZkYU5nb2NhbnVuRm9MQ2VkbXB5YlFGeWJVWlFDT0plaE90YmF0N1FiOGt6dDYtcVpKbVRXNllaM2ktN3FmamVKN3E5aXF2VGs4Y1FmRjVGdEVvbXc?oc=5",
-      "published": "2026-11-06T06:31:04+00:00",
-      "source": {
-        "name": "TV 2",
-        "url": "https://www.tv2.no"
-      }
-    },
-    {
       "id": "d9b0563a36b3",
       "title": "Personer som bruker vektreduserende legemidler har ofte flere sykdommer - Folkehelseinstituttet - FHI",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVFcxRlBpdV9fOW80NHpiSm9qVUNQYkQxY0JLTnlNRHVMM1ozOFoxVVhsTy0waG1adkg5eHhPa2xEaHJuVk42YXJvM3k5LXIwM2ZrZHVlQjdTUG9qcVR1SVhEaWJKZ1ZEaHhDWnpFNWM1ZG9wQVRzcHQ0bjUtU0xMaW04N2cyZjktZmczODEyODh3SjlEUHV4TnJJRQ?oc=5",
@@ -97,7 +67,7 @@
       "id": "1aca3d8f6875",
       "title": "Plutselig var tablettene borte vekk: – En alvorlig sak - bladet.no",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUVlnanZOVFNkbkRYZFdxVTJDUV9WZGxDblNzWmpJYUQyQlEtMm5tMDVVWWR2SzBEVkN6UXlqQlJHN2xiSUlVTVlzck9nMDdISzd1VWFZaUNOU0wtckRVd3dEWWRSSVJMSjBRc05wZXhIR2VhOWZaOE5EMFB2R1ZFandTMnREOExT?oc=5",
-      "published": "2026-11-01T07:00:00+00:00",
+      "published": "2026-10-31T07:00:00+00:00",
       "source": {
         "name": "bladet.no",
         "url": "https://www.bladet.no"
@@ -144,16 +114,6 @@
       }
     },
     {
-      "id": "6ac22dd28a4b",
-      "title": "Reagerer på anbefaling om bruk av legemidler - Rådet for psykisk helse",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WRk95djlWSWNKNjk2aDZjNWl0U3JoSHNneHppQ1B1bnJyUlZ6WXVVQ2JkZldvSm1GOGs3RE9VU0dVc1g1X3pqZUFOdzlpUWVFZ2tGWmZJT3RJbE92SWxWQVFTNFpJTnQ5cjBlVHA2Zm9qYzA?oc=5",
-      "published": "2025-02-12T08:00:00+00:00",
-      "source": {
-        "name": "Rådet for psykisk helse",
-        "url": "https://psykiskhelse.no"
-      }
-    },
-    {
       "id": "90921fcbbc80",
       "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
@@ -164,6 +124,26 @@
       }
     },
     {
+      "id": "6ac22dd28a4b",
+      "title": "Reagerer på anbefaling om bruk av legemidler - Rådet for psykisk helse",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WRk95djlWSWNKNjk2aDZjNWl0U3JoSHNneHppQ1B1bnJyUlZ6WXVVQ2JkZldvSm1GOGs3RE9VU0dVc1g1X3pqZUFOdzlpUWVFZ2tGWmZJT3RJbE92SWxWQVFTNFpJTnQ5cjBlVHA2Zm9qYzA?oc=5",
+      "published": "2025-02-12T08:00:00+00:00",
+      "source": {
+        "name": "Rådet for psykisk helse",
+        "url": "https://psykiskhelse.no"
+      }
+    },
+    {
+      "id": "54cc19ae26e5",
+      "title": "Helse, Legemiddel | Apotekene er tomme for denne medisinen: – Det er vanskelig å få tak i den - Avisa Valdres",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdjEyS2NMd1FmdHBOQUxLZjNJNEd3cTJQX05PeEFrd2ZNSmtCUERHQmFhcDdfRzBCc0hCWFljVC02dXBOb2lzczBYUXJrcUt4aFFTQTNaWjQ5QXoyak9CY1VUMTY5LXBtVWRVZ2Z1MGl3LUtid0VnSUhyb0RGUXQ2cGhlTW1rdy1kb1BjVVlvOHZ4TUdoZkdyenRpRmU1eGMyaHQyaXdkR2FpeVpzQlJJbm1XMA?oc=5",
+      "published": "2022-07-18T07:00:00+00:00",
+      "source": {
+        "name": "Avisa Valdres",
+        "url": "https://www.avisa-valdres.no"
+      }
+    },
+    {
       "id": "62d5b2e3793a",
       "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZEd5eTVOaFRZZHd1MVQzQUVGc09ZSlZtdnlXUEhwTkNQRXp0UEhfREhwSzNIRC1RVVVKYldGLWJlQlNtYkM1dkw2RFNvSFJXdzc1WlNhc0Y3c3JPcDFnalBGWVdJcGxtbTNuTUJfeE50NTlNNTdNMlNIY0NBdGk2MjhXMjJRVGxjcFNFbEFFNDRBUUMtaDM4R0NDbEtXdjNsckRjdjBYdGFqOFYyXzRmYmhZSVRHbldmaEUyVk5QcEFCYjMwbTNXMGxfMXJaa25WYXc?oc=5",
@@ -171,6 +151,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "a305842cda9e",
+      "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZVRfS3c1TDkyNEFXWmVJUUFUX2Y0dXY0QzdJSTViUEJiYTlyODAtbEZnZkNYakFSTTRDWmtiNml0OU51SFVWNEZVU3lpNFZ0VWVFMVZsVVhqcWlDZ3QtNnhSRWFQVG1PMkZ1RGhheVI1bGtFN1VhbEVFY3hBXzNERW9meXU?oc=5",
+      "published": "2015-06-15T16:17:39+00:00",
+      "source": {
+        "name": "Regjeringen.no",
+        "url": "https://www.regjeringen.no"
       }
     },
     {
@@ -214,33 +204,13 @@
       }
     },
     {
-      "id": "a305842cda9e",
-      "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZVRfS3c1TDkyNEFXWmVJUUFUX2Y0dXY0QzdJSTViUEJiYTlyODAtbEZnZkNYakFSTTRDWmtiNml0OU51SFVWNEZVU3lpNFZ0VWVFMVZsVVhqcWlDZ3QtNnhSRWFQVG1PMkZ1RGhheVI1bGtFN1VhbEVFY3hBXzNERW9meXU?oc=5",
-      "published": "2015-06-15T16:17:39+00:00",
+      "id": "a6a4c624cfc8",
+      "title": "20 minutters pause i naturen er god medisin mot stress - NHI.no",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVjF2WTczWVNnVkVHejVkcXBJV1BvNzNTTG8tS3lENjJ2U2tOeHNJS0g4dnM0NDV0T1F0d2lDdXVtYlZSRTFBSzFoaFRhZFozLW4tQTFtbUlmTUpuLVdKOFJSVTZXbzVjck5iOUQ3UmVVZVo5VjY0X0dlSExLOGNFYmN1aWJFVjdLOUI0YzVFY3hCN3hSNnJvREFsV29wdkhhQnVz?oc=5",
+      "published": "2019-04-21T07:00:00+00:00",
       "source": {
-        "name": "Regjeringen.no",
-        "url": "https://www.regjeringen.no"
-      }
-    },
-    {
-      "id": "75937dd941b9",
-      "title": "Helse Bergen skrev ut resept på CF-legemiddel: – Beklager feilen - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOc1AxcFVpZGxfeUc4Q2RNb25iSkEteHZjWktMc182aGtHRHM5RURJYkNOUi1IYTh4OFFZZ0dkX3YyZGE1MmpKUktIUUZ6RmlCc2F2a3M1R0ZfOXFIR2RSOU90ajhBNWtJNnZieWpQSHpQcm13TFJ2ZDRMNTRYWHZrcmhvUmdVMzA5VjRLYVJ4YkpqZk1mc0IyUU9JX1Z4WTFuNHVXRGRCd2tWV2sxZlAzN0JvNDNJMkVMbU02OU80OFQxRFA0bXVnNTJ3?oc=5",
-      "published": "2022-01-12T08:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
-      "id": "54cc19ae26e5",
-      "title": "Helse, Legemiddel | Apotekene er tomme for denne medisinen: – Det er vanskelig å få tak i den - Avisa Valdres",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdjEyS2NMd1FmdHBOQUxLZjNJNEd3cTJQX05PeEFrd2ZNSmtCUERHQmFhcDdfRzBCc0hCWFljVC02dXBOb2lzczBYUXJrcUt4aFFTQTNaWjQ5QXoyak9CY1VUMTY5LXBtVWRVZ2Z1MGl3LUtid0VnSUhyb0RGUXQ2cGhlTW1rdy1kb1BjVVlvOHZ4TUdoZkdyenRpRmU1eGMyaHQyaXdkR2FpeVpzQlJJbm1XMA?oc=5",
-      "published": "2022-07-18T07:00:00+00:00",
-      "source": {
-        "name": "Avisa Valdres",
-        "url": "https://www.avisa-valdres.no"
+        "name": "NHI.no",
+        "url": "https://nhi.no"
       }
     },
     {
@@ -264,16 +234,6 @@
       }
     },
     {
-      "id": "a6a4c624cfc8",
-      "title": "20 minutters pause i naturen er god medisin mot stress - NHI.no",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVjF2WTczWVNnVkVHejVkcXBJV1BvNzNTTG8tS3lENjJ2U2tOeHNJS0g4dnM0NDV0T1F0d2lDdXVtYlZSRTFBSzFoaFRhZFozLW4tQTFtbUlmTUpuLVdKOFJSVTZXbzVjck5iOUQ3UmVVZVo5VjY0X0dlSExLOGNFYmN1aWJFVjdLOUI0YzVFY3hCN3hSNnJvREFsV29wdkhhQnVz?oc=5",
-      "published": "2019-04-21T07:00:00+00:00",
-      "source": {
-        "name": "NHI.no",
-        "url": "https://nhi.no"
-      }
-    },
-    {
       "id": "855a4cfebc24",
       "title": "Kan gi trøbbel i varmen: – Flere eller nye bivirkninger - Nettavisen",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTkVZdUxrdG85R240cG5DT3Y5TXpWUjktR1JnWDFmaUE0c2hVbUJLaEY1c1FaaGs0akhGb0ZxaGdmSkRaejUxVTdxYU1HcGxlMllVeEhzT21fTzB1bWoxenI4SXY1NEIybWg1azAxeVV1SEZ4TWk3T3ZuRGtmZHJIUjdyZXEzM1l6YThGWElGdDlYMnJON3ZNOGhwczRuV1dsZnNCTVpaWXJVZmxXRV9ZajI5X0dJY2ZVcXJ3?oc=5",
@@ -291,6 +251,16 @@
       "source": {
         "name": "Nettavisen",
         "url": "https://www.nettavisen.no"
+      }
+    },
+    {
+      "id": "23b37b0c3d4b",
+      "title": "Helse, legemiddel | – Jeg ville ikke at andre skulle ha det livet jeg har hatt - Gjengangeren",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR09SUVN5aTVHdEJYOVVhTXNGWmpKblhQYmtTUjNVWnc5bFlZQ25rM1hRdWpYcV9hQ3U5NmVuaWVnYkpKVnd0bndfUl96eld5RXpJMnNhekk2LWdDdURHRDdJdnBMUkxLNUs0blR3OXB5ZHNZQlBjZHFrbThya0l5cjFXUVBRSVNMVFZZMTBVTFM0SWQwOTlNZVI2NVZPcExoR2dMbUgwMWNuQzdybW5yaGxOWkduMFFVVFhKZ01oWnBfTjBZ?oc=5",
+      "published": "2017-03-08T08:00:00+00:00",
+      "source": {
+        "name": "Gjengangeren",
+        "url": "https://www.gjengangeren.no"
       }
     }
   ]
