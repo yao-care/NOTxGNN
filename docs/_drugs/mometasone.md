@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 275
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Mometasone: predikert ny indikasjon Primært kutant T-cellelymfom (evidensnivå L5). Opprinnelig indikasjon: Astma"
 monitor_inn: "MOMETASONE"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -110,12 +110,31 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen (pakningsvedlegget).
 **Begrunnelse:**
 Prediksjonen er mekanistisk plausibel, men støttes kun av modellscore og to kasuistikker uten dokumentert effekt. Det finnes ingen kliniske studier.
 
+<!-- review:begin no-lic-20261106-mometasone-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Det finnes ingen kliniske studier, og den norske/europeiske godkjenningen er opphevet.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-mometasone-1 -->
+
 **For å gå videre kreves følgende:**
 - Hente og gjennomgå preparatomtale med advarsler og kontraindikasjoner (blokkerende for sikkerhetsscreening)
 - Innhente detaljerte data om virkningsmekanisme fra DrugBank
 - Systematisk litteratursøk etter studier av topikal mometason ved tidlig mycosis fungoides
 - Vurdere ruteforenlighet (topikal formulering vs. godkjent inhalasjonsformulering)
 - Avklare markedsstatus og tilgjengelige topikale produkter i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «og den norske/europeiske godkjenningen er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

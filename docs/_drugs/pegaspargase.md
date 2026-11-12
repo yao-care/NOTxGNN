@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 description: "Pegaspargase: predikert ny indikasjon Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (evidensnivå L5). Opprinnelig indikasjon: Precursor Cell Lymphoblastic Leukemia-Lympho…"
@@ -67,6 +67,12 @@ Siden prediksjonen gjelder den allerede godkjente indikasjonen, er mekanismen de
 ## Evidens fra kliniske studier
 
 Under er et utvalg av de mest relevante av de 31 studiene. De fleste tester regimer der pegaspargase inngår, ikke pegaspargase alene.
+
+<!-- review:begin no-lic-20261031-pegaspargase-1 -->
+
+> **Kontrollrettelse (2026-10-31)**: Opprinnelig sto det: «Merk: Markedsstatusen "kun avregistrert" bør kontrolleres med tanke på tilgjengelighet i regionen.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-10-31). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261031-pegaspargase-1 -->
 
 | Studienummer | Fase | Status | Antall deltakere | Hovedfunn |
 |---------|------|------|------|---------|
@@ -155,6 +161,12 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 - Plan for toksisitetsovervåking (lever, bukspyttkjertel, trombose, lipider, overfølsomhet), med særlig forsiktighet hos pasienter ≥55 år
 - Slå sammen denne posten med den tilsvarende "akutt lymfoblastisk leukemi"-posten, siden begge beskriver samme sykdom
 
+<!-- review:begin no-lic-20261106-pegaspargase-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklare tilgjengelighet i Norge, siden eneste godkjenning er avregistrert» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-pegaspargase-2 -->
+
 ---
 
 ## Øvrige predikerte indikasjoner (kort oversikt)
@@ -166,6 +178,19 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 | Blastfase kronisk myelogen leukemi, BCR-ABL1-positiv | 0,9961 | L5 | Forskningsspørsmål | Kun indirekte evidens via en ALL-studie |
 | Follikulært lymfom | 0,9990 | L5 | Vent (Hold) | Kun modellprediksjon, ingen begrunnelse via asparaginavhengighet |
 | Metylkobalamin-mangel type cblE | 0,9974 | L5 | Vent (Hold) | Sannsynlig modellartefakt uten plausibel mekanisme; bør ikke forfølges |
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-10-31 | Fjernet: «Merk: Markedsstatusen "kun avregistrert" bør kontrolleres med tanke på tilgjengelighet i regionen» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden eneste godkjenning er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

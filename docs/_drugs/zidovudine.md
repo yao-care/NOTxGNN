@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 460
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Zidovudine: predikert ny indikasjon Feline acquired immunodeficiency syndrome (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
@@ -90,6 +90,12 @@ Dataene inneholder 40 registrerte studier. De mest relevante er listet under.
 
 Øvrige studier omfatter farmakokinetiske interaksjonsstudier (f.eks. probenecid, kinin, paracetamol, trimetoprim/sulfametoksazol) og tidlige fase 1/2-studier av kombinasjoner.
 
+<!-- review:begin no-lic-20261106-zidovudine-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «De to registrerte tillatelsene er trukket tilbake.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-zidovudine-1 -->
+
 ---
 
 ## Litteraturevidens
@@ -154,6 +160,19 @@ Opplysninger om advarsler og kontraindikasjoner fra preparatomtalen mangler i da
 - Felin immunsviktsykdom og SIV-infeksjon: kun dyrestudier (L4), Hold; ikke relevant for human bruk.
 - Nevroutviklingsforstyrrelse og «obsolete familial combined hyperlipidemia»: kun modellprediksjon (L5), Hold. Ingen plausibel mekanisme, og zidovudin kan gi mitokondriell toksisitet og lipidforstyrrelser.
 - Kongenital HIV: L1, Proceed with Guardrails. Støttet av fase 3-studier (NCT00001104, NCT00102960) og retningslinjer for å redusere overføring fra mor til barn (PMID 7913986). Dette er også en etablert bruk innenfor HIV-indikasjonen.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «De to registrerte tillatelsene er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

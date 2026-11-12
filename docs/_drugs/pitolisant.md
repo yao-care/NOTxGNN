@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 329
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 description: "Pitolisant: predikert ny indikasjon Insomni (evidensnivå L5). Opprinnelig indikasjon: Obstruktiv søvnapné (Ozawade)"
 monitor_inn: "PITOLISANT"
 predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome"]
@@ -79,6 +79,12 @@ Foreløpig ingen relaterte kliniske studier registrert.
 
 Ingen av publikasjonene undersøker insomni direkte. De gjelder pitolisant ved de opprinnelige indikasjonene, og belyser kun bakgrunnen.
 
+<!-- review:begin no-lic-20261106-pitolisant-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Begge tillatelsene er europeiske sentrale markedsføringstillatelser (EMA) og er registrert som avregistrert.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-pitolisant-1 -->
+
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
 | [31917607](https://pubmed.ncbi.nlm.nih.gov/31917607/) | 2020 | RCT | Am J Respir Crit Care Med | Pitolisant mot søvnighet på dagtid ved moderat til alvorlig obstruktiv søvnapné hos pasienter som avslår CPAP |
@@ -122,12 +128,24 @@ For advarsler og kontraindikasjoner, se preparatomtalen.
 **Begrunnelse:**
 Prediksjonen for insomni mangler både kliniske studier og direkte litteratur, og virkningsmekanismen (økt våkenhet) går i motsatt retning av det insomni krever. Den høye scoren er mest sannsynlig en grafartefakt.
 
+<!-- review:begin no-lic-20261106-pitolisant-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Den høye scoren er mest sannsynlig en grafartefakt. I tillegg er begge norske tillatelser avregistrert.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-pitolisant-2 -->
+
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra legemiddeldatabasen
 - Advarsler og kontraindikasjoner fra preparatomtalen
 - Prekliniske eller eksplorative data som kan forklare en eventuell nytte ved insomni
 - Sikkerhetsvurdering av risikoen for forverret søvn
 - Avklaring av markedsstatus i Norge
+
+<!-- review:begin no-lic-20261106-pitolisant-3 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av markedsstatus i Norge, siden begge tillatelsene er avregistrert» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-pitolisant-3 -->
 
 ---
 
@@ -137,6 +155,20 @@ Prediksjonen for insomni mangler både kliniske studier og direkte litteratur, o
 |------|------|------|------|------|------|
 | 2 | Aktivitets- og oppmerksomhetsforstyrrelse (ADHD) | 0,9936 | L5 | Forskningsspørsmål | H3-antagonisme øker frigjøring av acetylkolin, noradrenalin og dopamin i prefrontal cortex, noe som gir et plausibelt grunnlag for effekt på oppmerksomhet. Litteraturen består kun av oversikter, og tidligere kliniske H3-studier ved ADHD har vært skuffende. Ingen registrerte kliniske studier. |
 | 3 | Faciodigitogenitalt syndrom (Aarskog-Scott) | 0,9929 | L5 | Hold | Ingen identifiserbar mekanistisk kobling, ingen publikasjoner og ingen kliniske studier. Prediksjonen er kun modellbasert. |
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Begge tillatelsene er europeiske sentrale markedsføringstillatelser (EMA) og er registrert som avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «I tillegg er begge norske tillatelser avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden begge tillatelsene er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

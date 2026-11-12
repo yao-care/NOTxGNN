@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 31
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Amlodipine: predikert ny indikasjon Hjernestamme­infarkt (brain stem infarction) (evidensnivå L5). Opprinnelig indikasjon: Hypertensjon"
 monitor_inn: "AMLODIPINE"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
@@ -82,6 +82,12 @@ Foreløpig finnes det ingen relatert litteratur for denne indikasjonen.
 
 De fem første er vist nedenfor. Doseringsform er ikke oppgitt i dataene.
 
+<!-- review:begin no-lic-20261106-amlodipine-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Alle åtte godkjenningene er avregistrert. De fem første er vist nedenfor.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 8, hvorav gyldige: 8; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-amlodipine-1 -->
+
 | Godkjenningsnummer | Produktnavn | Status | Godkjent indikasjon |
 |---------|------|------|-----------|
 | EMEA/H/C/000716 | Exforge | Godkjent | Hypertensjon |
@@ -135,6 +141,19 @@ Prediksjonsscoren er svært høy (0,9994), men det finnes verken kliniske studie
 
 **Merknad om andre predikerte indikasjoner:**
 Blant de øvrige prediksjonene har **intrakraniell blødning (intracerebral hemorrhage)** den sterkeste evidensen (L2, anbefaling «Proceed with Guardrails»). Fase 3-studien TRIDENT (NCT02699645, n = 1671, fullført) testet en lavdose trippelkombinasjon som inneholder amlodipin. Resultatet gjelder kombinasjonen, ikke amlodipin alene. Retningen på resultatene bør verifiseres i fulltekst (PMID 42019018) før en anbefaling gis. For «cerebral artery occlusion» finnes bare prekliniske data og svært små, avsluttede delstudier (L3).
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Alle åtte godkjenningene er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

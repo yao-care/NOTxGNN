@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 105
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Corifollitropin Alfa: predikert ny indikasjon Gastroduodenitt (evidensnivå L5). Opprinnelig indikasjon: Assistert reproduksjonsteknikk"
 monitor_inn: "CORIFOLLITROPIN ALFA"
 predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease"]
@@ -114,12 +114,31 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Begrunnelse:**
 Alle åtte prediksjonene er rent modellbaserte (L5) uten kliniske studier, litteratur eller plausibel mekanistisk kobling. Den høye TxGNN-scoren alene er ikke tilstrekkelig grunnlag for å gå videre.
 
+<!-- review:begin no-lic-20261106-corifollitropin_alfa-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Den eneste norske tillatelsen er trukket tilbake, og den høye TxGNN-scoren alene er ikke tilstrekkelig grunnlag for å gå videre.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-corifollitropin_alfa-1 -->
+
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Biologisk eller prekliniske holdepunkter for en kobling mellom FSH-reseptoragonisme og den predikerte sykdommen
 - Vurdering av administrasjonsvei og forenlighet med den nye indikasjonen
 - Avklaring av om legemidlet fortsatt er tilgjengelig i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «en eneste norske tillatelsen er trukket tilbake, og d» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

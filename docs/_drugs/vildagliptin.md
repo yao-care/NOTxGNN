@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 452
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Vildagliptin: predikert ny indikasjon Classic stiff person syndrome (evidensnivå L5). Opprinnelig indikasjon: Diabetes Mellitus, Type 2"
@@ -113,6 +113,12 @@ Klinisk nytte som tilleggsbehandling ved type 1-diabetes er ikke etablert, og de
 
 Doseringsform er ikke oppgitt i dataene.
 
+<!-- review:begin no-lic-20261106-vildagliptin-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Alle 7 registrerte tillatelser er sentrale EU-tillatelser (EMEA) som er trukket tilbake. Doseringsform er ikke oppgitt i dataene.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 7, hvorav gyldige: 7; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-vildagliptin-1 -->
+
 | Tillatelsesnummer | Produktnavn | Innehaver | Godkjent indikasjon | Status |
 |---------|------|------|-----------|------|
 | EMEA/H/C/000771 | Galvus | Novartis Europharm Limited | Diabetes mellitus, type 2 | Godkjent |
@@ -147,6 +153,19 @@ Prediksjonen for klassisk stiff person-syndrom bygger kun på modellberegning (e
 - Detaljerte data om virkningsmekanisme (MOA), blant annet for å vurdere om det finnes en biologisk kobling til GABAerge eller autoimmune veier.
 - Informasjon fra preparatomtale/pakningsvedlegg om advarsler og kontraindikasjoner, som er nødvendig for en sikkerhetsscreening.
 - For en eventuell videre prioritering: vurder type 1-diabetes som en mer realistisk kandidat, og innhent større, kontrollerte studier av vildagliptin alene.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Alle 7 registrerte tillatelser er sentrale EU-tillatelser (EMEA) som er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

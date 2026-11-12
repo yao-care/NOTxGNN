@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 327
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Pioglitazone: predikert ny indikasjon Opsismodysplasi (evidensnivå L5). Opprinnelig indikasjon: Diabetes mellitus type 2"
 monitor_inn: "PIOGLITAZONE"
 predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -117,6 +117,25 @@ Prediksjonen er kun modellbasert (L5) uten kliniske studier eller relevant litte
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
 - Prekliniske eller mekanistiske studier som knytter PPAR-gamma-/insulin-/PI3K-signalering til INPPL1-relatert skjelettdysplasi
 - Systematisk litteratursøk for opsismodysplasi og vurdering av de mer plausible alternativene (lokaliserte lipodystrofier)
+
+<!-- review:begin no-lic-20261106-pioglitazone-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Systematisk litteratursøk for opsismodysplasi og vurdering av de mer plausible alternativene (lokaliserte lipodystrofier) / Avklaring av regulatorisk status i Norge siden alle godkjenninger er opphevet» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 6, hvorav gyldige: 6; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-pioglitazone-1 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Avklaring av regulatorisk status i Norge siden alle godkjenninger er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

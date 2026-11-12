@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "SUSOCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "congenital factor XIII deficiency", "adenosine deaminase deficiency"]
 description: "Susoctocog Alfa: predikert ny indikasjon Primary release disorder of platelets (evidensnivå L5). Opprinnelig indikasjon: Hemophilia A"
@@ -108,12 +108,38 @@ Ingen sikkerhetsdata (advarsler, kontraindikasjoner eller legemiddelinteraksjone
 - Evidensen for hemofili/ervervet hemofili A (L3) består av observasjonsstudier, kohorter, kasuistikker, PK-studier og oversikter, samt en fase II/III-studie omtalt i litteraturen. Dette er i hovedsak den opprinnelige indikasjonen og ikke en ny bruk.
 - De åtte andre prediksjonene (L5) mangler både studier, litteratur og plausibel mekanisme, og bør ikke forfølges.
 
+<!-- review:begin no-lic-20261031-susoctocog_alfa-1 -->
+
+> **Kontrollrettelse (2026-10-31)**: Opprinnelig sto det: «Produktet står oppført som kun avregistrert i Norge. / De åtte andre prediksjonene (L5) mangler både studier, litteratur og plausibel mekanisme, og bør ikke forfølges.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-10-31). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261031-susoctocog_alfa-1 -->
+
 **For å gå videre kreves følgende:**
 - Verifisere tilgjengelighet og regulatorisk status for produktet i Norge og i andre jurisdiksjoner
 - Hente preparatomtale med advarsler og kontraindikasjoner (sikkerhetsscreening kan ikke gjennomføres uten disse)
 - Detaljerte data om virkningsmekanisme (MOA) fra DrugBank
 - Vurdere om «ervervet hemofili A» og «hemofili» skal behandles som én indikasjon, siden de overlapper sterkt
 - Overvåke hemmere (kryssreagerende antistoffer mot svine-FVIII) og FVIII-aktivitet ved behandling
+
+<!-- review:begin no-lic-20261106-susoctocog_alfa-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Verifisere tilgjengelighet og regulatorisk status for produktet i Norge (avregistrert) og i andre jurisdiksjoner» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-susoctocog_alfa-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-10-31 | Fjernet: «Produktet står oppført som kun avregistrert i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «(avregistrert)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

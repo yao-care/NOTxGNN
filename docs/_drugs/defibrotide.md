@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 120
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Defibrotide: predikert ny indikasjon Pseudo-von Willebrands sykdom (evidensnivå L5). Opprinnelig indikasjon: Hepatisk veno-okklusiv sykdom"
 monitor_inn: "DEFIBROTIDE"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "thrombotic thrombocytopenic purpura", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "congenital factor V deficiency", "fetal and neonatal alloimmune thrombocytopenia", "thrombocytopenic purpura"]
@@ -122,11 +122,37 @@ De fleste alvorlige interaksjonene gjelder legemidler som påvirker blodplater e
 **Begrunnelse:**
 Prediksjonen om pseudo-von Willebrands sykdom bygger kun på modellscore (L5), uten kliniske studier eller litteratur, og mekanismen tyder på mulig skade. Den eneste retningen med noe støtte er TTP/transplantasjonsassosiert TMA (L4, kun kasuistikker, oversikter og in vitro-data), som egner seg som et forskningsspørsmål, ikke som grunnlag for klinisk bruk.
 
+<!-- review:begin no-lic-20261106-defibrotide-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Preparatet er dessuten avregistrert i Norge. Den eneste retningen med noe støtte er TTP/transplantasjonsassosiert TMA (L4, kun kasuistikker, oversikter og in vitro-data), som egner seg som et forskningsspørsmål, ikke som grunnlag for klinisk bruk.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-defibrotide-1 -->
+
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (kritisk datamangel, hindrer sikkerhetsscreening)
 - Data om virkningsmekanisme (MOA), for eksempel fra DrugBank
 - For TA-TMA/TTP: prospektive kliniske studier eller RCT-er, og en sikkerhetsvurdering i lys av TTP-rapporten etter defibrotid
 - Avklaring av regulatorisk status i Norge
+
+<!-- review:begin no-lic-20261106-defibrotide-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av regulatorisk status i Norge, siden den eneste godkjenningen er avregistrert» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-defibrotide-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Preparatet er dessuten avregistrert i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden den eneste godkjenningen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

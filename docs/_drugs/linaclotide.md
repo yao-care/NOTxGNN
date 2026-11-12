@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 246
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Linaclotide: predikert ny indikasjon Cauda equina-syndrom (evidensnivå L5). Opprinnelig indikasjon: Irritabelt tarmsyndrom"
 monitor_inn: "LINACLOTIDE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "insomnia (disease)"]
@@ -117,6 +117,12 @@ For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparato
 **Begrunnelse:**
 Prediksjonen støttes kun av en høy modellscore. Det finnes ingen kliniske studier eller litteratur, ingen dokumentert mekanisme, og linaclotides tarmrestriktive virkning gjør en direkte effekt på cauda equina-syndrom lite plausibel.
 
+<!-- review:begin no-lic-20261106-linaclotide-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Det finnes ingen kliniske studier eller litteratur, ingen dokumentert mekanisme, og linaclotides tarmrestriktive virkning gjør en direkte effekt på cauda equina-syndrom lite plausibel. Den eneste godkjenningen i Norge er avregistrert.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-linaclotide-1 -->
+
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
@@ -124,6 +130,26 @@ Prediksjonen støttes kun av en høy modellscore. Det finnes ingen kliniske stud
 - Ny kartlegging av den foreldede sykdomstermen «nevrogen blære» før eventuell videre vurdering
 - Avklaring av administrasjonsvei og formuleringskompatibilitet
 - Avklaring av dagens regulatoriske status i Norge
+
+<!-- review:begin no-lic-20261106-linaclotide-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av dagens regulatoriske status i Norge, siden preparatet er avregistrert» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-linaclotide-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Den eneste godkjenningen i Norge er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden preparatet er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

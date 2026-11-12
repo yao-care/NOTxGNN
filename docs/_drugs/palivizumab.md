@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 307
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Palivizumab: predikert ny indikasjon Godartet svulst i tungen (evidensnivå L5). Opprinnelig indikasjon: Infeksjoner med respiratorisk syncytialvirus"
 monitor_inn: "PALIVIZUMAB"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
@@ -101,11 +101,30 @@ Se pakningsvedlegget for sikkerhetsinformasjon. Ingen interaksjoner er funnet i 
 **Begrunnelse:**
 Prediksjonen er utelukkende modellbasert (L5), uten kliniske studier, litteratur eller plausibel mekanisme.
 
+<!-- review:begin no-lic-20261106-palivizumab-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Prediksjonen er utelukkende modellbasert (L5), uten kliniske studier, litteratur eller plausibel mekanisme. Den eneste norske godkjenningen er avregistrert, og sikkerhetsdata mangler.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-palivizumab-1 -->
+
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Advarsler og kontraindikasjoner fra pakningsvedlegget
 - Et biologisk rasjonale for hvorfor et RSV-F-protein-antistoff skulle ha effekt på godartede svulster i tungen, for eksempel prekliniske data
 - Vurdering av administrasjonsvei og formulering (ikke vurdert ennå)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Den eneste norske godkjenningen er avregistrert, og sikkerhetsdata mangler» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

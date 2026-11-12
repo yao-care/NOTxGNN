@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Simoctocog Alfa: predikert ny indikasjon Pseudo-von Willebrand sykdom (evidensnivå L5). Opprinnelig indikasjon: Hemofili A"
 monitor_inn: "SIMOCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "thrombotic thrombocytopenic purpura"]
@@ -117,10 +117,36 @@ For øvrig sikkerhetsinformasjon, se pakningsvedlegget (preparatomtalen).
 **Begrunnelse:**
 Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og den biologiske mekanismen støtter ikke FVIII-erstatning ved de predikerte blodplatelidelsene.
 
+<!-- review:begin no-lic-20261106-simoctocog_alfa-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og den biologiske mekanismen støtter ikke FVIII-erstatning ved de predikerte blodplatelidelsene. I tillegg er begge produktene avregistrert i Norge, noe som begrenser praktisk gjennomførbarhet.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-simoctocog_alfa-1 -->
+
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Advarsler og kontraindikasjoner fra pakningsvedlegget (preparatomtale), nødvendig for sikkerhetsscreening
 - Ved eventuell videre vurdering: avgrens til «ervervet koagulasjonsfaktormangel» (rang 5) med en målrettet litteraturgjennomgang, og utelukk TTP på sikkerhetsgrunnlag
+
+<!-- review:begin no-lic-20261106-simoctocog_alfa-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Ved eventuell videre vurdering: avgrens til «ervervet koagulasjonsfaktormangel» (rang 5) med en målrettet litteraturgjennomgang, og utelukk TTP på sikkerhetsgrunnlag / Avklaring av produktenes tilgjengelighet siden begge godkjenningene er avregistrert» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-simoctocog_alfa-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «I tillegg er begge produktene avregistrert i Norge, noe som begrenser praktisk gjennomførbarhet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Avklaring av produktenes tilgjengelighet siden begge godkjenningene er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

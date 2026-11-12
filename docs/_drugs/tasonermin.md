@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 400
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Tasonermin: predikert ny indikasjon Prostatisk uretral urotelkarsinom (evidensnivå L5). Opprinnelig indikasjon: Sarkom"
 monitor_inn: "TASONERMIN"
 predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "HER2 positive breast carcinoma", "uterine ligament adenocarcinoma", "endocervical carcinoma", "uterine ligament serous adenocarcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament clear cell adenocarcinoma"]
@@ -81,6 +81,12 @@ Det er for øyeblikket ingen relaterte kliniske studier registrert.
 
 Det er for øyeblikket ingen relatert litteratur tilgjengelig.
 
+<!-- review:begin no-lic-20261106-tasonermin-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Godkjenningen er avregistrert (innehaver: Belpharma s.a.).» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-tasonermin-1 -->
+
 ---
 
 ## Informasjon om det norske markedet
@@ -122,6 +128,26 @@ Prediksjonen bygger kun på en score fra TxGNN-modellen (dyp læring) (evidensni
 - Prekliniske data eller litteratur som viser en rimelig mekanisme i urotelkarsinom
 - Vurdering av administrasjonsvei (regional/lokal levering) og dens gjennomførbarhet for den predikerte indikasjonen
 - Avklaring av tilgjengelighet i Norge
+
+<!-- review:begin no-lic-20261106-tasonermin-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av tilgjengelighet i Norge, siden eneste godkjenning er avregistrert» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-tasonermin-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Godkjenningen er avregistrert (innehaver: Belpharma s.a.)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden eneste godkjenning er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

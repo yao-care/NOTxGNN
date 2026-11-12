@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 76
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Cabozantinib: predikert ny indikasjon Liposarkom (evidensnivå L5). Opprinnelig indikasjon: Nyrecellekarsinom og hepatocellulært karsinom"
 monitor_inn: "CABOZANTINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
@@ -95,6 +95,12 @@ Studien er relevant for sarkomgruppen, men ikke spesifikk for liposarkom. Fordi 
 
 Tilgjengelighet og regulatorisk status må derfor verifiseres før en eventuell videre satsing.
 
+<!-- review:begin no-lic-20261106-cabozantinib-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Begge godkjenningene er registrert som avregistrert. Tilgjengelighet og regulatorisk status må derfor verifiseres før en eventuell videre satsing.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-cabozantinib-1 -->
+
 ---
 
 ## Cytotoksisitet
@@ -139,6 +145,19 @@ Den høye TxGNN-scoren (0,9983) kommer fra TxGNN-modellen (deep learning) og kan
 - Utfyllende sikkerhetsdata fra pakningsvedlegget (advarsler og kontraindikasjoner)
 - Detaljerte mekanismedata (MOA) for å styrke den mekanistiske koblingen
 - Avklaring av regulatorisk status og tilgjengelighet i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Begge godkjenningene er registrert som avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

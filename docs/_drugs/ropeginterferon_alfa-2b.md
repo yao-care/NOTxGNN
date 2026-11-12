@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Ropeginterferon Alfa-2B: predikert ny indikasjon Laubry-Pezzi syndrom (evidensnivå L5). Opprinnelig indikasjon: Polycytemia vera"
 monitor_inn: "ROPEGINTERFERON ALFA-2B"
 predicted_indications: ["Laubry-Pezzi syndrome", "interventricular septum aneurysm", "genetic syndromic Pierre Robin syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 7", "disorder of fucoglycosan synthesis", "Jeune syndrome situs inversus", "partial deletion of the long arm of chromosome 22", "orofacial clefting syndrome", "pulmonary valve disease"]
@@ -121,11 +121,30 @@ Se preparatomtalen for sikkerhetsinformasjon. Det ble ikke funnet noen registrer
 **Begrunnelse:**
 Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og det finnes ingen plausibel mekanistisk kobling mellom et interferon mot myeloproliferative neoplasmer og en strukturell medfødt hjertemisdannelse.
 
+<!-- review:begin no-lic-20261031-ropeginterferon_alfa-2b-1 -->
+
+> **Kontrollrettelse (2026-10-31)**: Opprinnelig sto det: «Prediksjonen er kun modellbasert (L5) uten kliniske studier eller litteratur, og det finnes ingen plausibel mekanistisk kobling mellom et interferon mot myeloproliferative neoplasmer og en strukturell medfødt hjertemisdannelse. Preparatet er i tillegg kun avregistrert i Norge.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-10-31). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261031-ropeginterferon_alfa-2b-1 -->
+
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsscreening
 - Biologisk eller prekliniske holdepunkter for en sammenheng med Laubry-Pezzi syndrom før videre vurdering
 - Vurdering av om andre prediksjoner med mer plausibel biologi bør prioriteres, siden alle ti topprangerte prediksjoner mangler støtte
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-10-31 | Fjernet: «Preparatet er i tillegg kun avregistrert i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

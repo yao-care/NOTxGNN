@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 70
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Bupivacaine: predikert ny indikasjon Akrodermatitis chronica atrophicans (evidensnivå L5). Opprinnelig indikasjon: Akutt smerte"
 monitor_inn: "BUPIVACAINE"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
@@ -89,6 +89,12 @@ Foreløpig finnes ingen relatert litteratur.
 
 Produsenten er Pacira Ireland Limited.
 
+<!-- review:begin no-lic-20261106-bupivacaine-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Tillatelsen er trukket tilbake (status: cancelled), og produsenten er Pacira Ireland Limited.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-bupivacaine-1 -->
+
 ---
 
 ## Sikkerhetsmessige hensyn
@@ -119,12 +125,32 @@ Opplysninger om advarsler og kontraindikasjoner fra preparatomtalen mangler. Se 
 **Begrunnelse:**
 Prediksjonen er kun modellbasert (L5), uten kliniske studier eller publikasjoner, og uten en plausibel mekanistisk kobling mellom natriumkanalblokade og akrodermatitis chronica atrophicans, som behandles med antibiotika. Sikkerhetsdata fra preparatomtalen mangler.
 
+<!-- review:begin no-lic-20261106-bupivacaine-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Den eneste norske tillatelsen er trukket tilbake, og sikkerhetsdata fra preparatomtalen mangler.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-bupivacaine-2 -->
+
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel)
 - Data om virkningsmekanisme (MOA), for eksempel fra DrugBank
 - Systematisk litteratursøk og søk etter pågående studier for den predikerte indikasjonen
 - Vurdering av administrasjonsvei og formulering som er forenlig med den nye indikasjonen
 - Sikkerhetsvurdering for sårbare grupper (barn og nyfødte, hjerte-, lever- og nyresykdom), spesielt med tanke på kardiotoksisitet og myotoksisitet
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Tillatelsen er trukket tilbake (status: cancelled), og p» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Den eneste norske tillatelsen er trukket tilbake, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

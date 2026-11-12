@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 71
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-12
 description: "Buprenorphine: predikert ny indikasjon Akutt intermitterende porfyri (evidensnivå L4). Opprinnelig indikasjon: Opioidrelaterte lidelser"
 monitor_inn: "BUPRENORPHINE"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "extrapyramidal and movement disease", "benign shuddering attacks"]
@@ -108,7 +108,13 @@ Pakningsvedlegget (varsler og kontraindikasjoner) er ikke tilgjengelig i de inns
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger på modellscore alene. Det finnes ingen kliniske studier, den eneste publikasjonen er en kasuistikk om anestesi uten effektdata, og det er ingen tydelig mekanistisk kobling. Legemidlet er dessuten markedsført i Norge med 4 gyldige markedsføringstillatelser av 4, og porfyri er en tilstand der legemiddelsikkerhet er særlig kritisk.
+Prediksjonen bygger på modellscore alene. Det finnes ingen kliniske studier, den eneste publikasjonen er en kasuistikk om anestesi uten effektdata, og det er ingen tydelig mekanistisk kobling. Legemidlet er dessuten markedsført i Norge, og porfyri er en tilstand der legemiddelsikkerhet er særlig kritisk.
+
+<!-- review:begin no-lic-20261112-buprenorphine-1 -->
+
+> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «Legemidlet er dessuten markedsført i Norge med 4 gyldige markedsføringstillatelser av 4, og porfyri er en tilstand der legemiddelsikkerhet er særlig kritisk.» Fjernet: antallet gyldige godkjenninger stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09): EMEA/H/C/000697 er avregistrert. Antall godkjenninger i dataene: 4, hvorav gyldige: 3; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261112-buprenorphine-1 -->
 
 **For å gå videre kreves følgende:**
 - Pakningsvedlegg (varsler og kontraindikasjoner) fra DMP, som for øyeblikket mangler og blokkerer sikkerhetsscreeningen
@@ -130,6 +136,18 @@ De øvrige predikerte indikasjonene har også anbefalingen **Hold**:
 | Kontinuerlige pigger og bølger under søvn | 0,9905 | L5 | Kun modellprediksjon. Opioider kan i noen situasjoner senke krampeterskelen, noe som gir en sikkerhetsbekymring. |
 | Ekstrapyramidal sykdom og bevegelsesforstyrrelse | 0,9903 | L5 | Kun modellprediksjon, bred kategori uten direkte evidens. |
 | Godartede skjelveanfall (benign shuddering attacks) | 0,9903 | L5 | Kun modellprediksjon. Tilstanden er godartet og selvbegrensende, så risiko–nytte for en opioid er ugunstig. |
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Fjernet: «med 4 gyldige markedsføringstillatelser av 4» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

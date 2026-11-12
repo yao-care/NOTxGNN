@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 227
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ketoconazole: predikert ny indikasjon Akne (evidensnivå L4). Opprinnelig indikasjon: Cushings syndrom"
 monitor_inn: "KETOCONAZOLE"
 predicted_indications: ["acne (disease)"]
@@ -123,6 +123,12 @@ Det foreligger ikke data fra preparatomtale om advarsler og kontraindikasjoner; 
 **Begrunnelse:**
 Evidensen er på nivå L4: én liten, ikke-faset studie uten publiserte resultater, samt laboratoriedata og indirekte litteratur. Sikkerhetsdata fra preparatomtale mangler. Den høye TxGNN-scoren er ikke klinisk evidens.
 
+<!-- review:begin no-lic-20261106-ketoconazole-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Den eneste norske/europeiske godkjenningen er opphevet, og sikkerhetsdata fra preparatomtale mangler.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-ketoconazole-1 -->
+
 **For å gå videre kreves følgende:**
 - Resultater fra NCT07237763 (topisk ketokonazol 2 % mot adapalen 2 %), og bekreftelse av hvilken tilstand som faktisk studeres
 - Nedlasting og gjennomgang av preparatomtale med advarsler og kontraindikasjoner (blokkerende datagap)
@@ -130,6 +136,19 @@ Evidensen er på nivå L4: én liten, ikke-faset studie uten publiserte resultat
 - Avklaring av administrasjonsvei (topisk vs. systemisk) og tilgjengelige topiske preparater i Norge
 - Vurdering av systemisk sikkerhet (lever, QT-forlengelse, binyrehemming) dersom systemisk bruk ved akne vurderes
 - Randomiserte, kontrollerte studier med akneendepunkter (lesjonstelling, global vurdering)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Den eneste norske/europeiske godkjenningen er opphevet, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

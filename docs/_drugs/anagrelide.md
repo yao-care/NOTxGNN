@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 32
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Anagrelide: predikert ny indikasjon Reaktiv trombocytose (evidensnivå L4). Opprinnelig indikasjon: Essensiell trombocytemi"
 monitor_inn: "ANAGRELIDE"
 predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay syndrome"]
@@ -73,6 +73,12 @@ Prediksjon nr. 2, **invers Klippel-Trenaunay syndrom** (score 0,9959), har ingen
 
 Det er for øyeblikket ingen relaterte kliniske studier registrert.
 
+<!-- review:begin no-lic-20261106-anagrelide-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Begge tillatelsene er oppført som opphevet.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-anagrelide-1 -->
+
 ---
 
 ## Litteraturevidens
@@ -123,6 +129,26 @@ Prediksjonen for reaktiv trombocytose bygger i hovedsak på modellens likhetssco
 - Klinisk evidens eller en klinisk begrunnelse for at reaktiv trombocytose har et udekket behandlingsbehov som rettferdiggjør plateletsenkende behandling
 - Avklaring av regulatorisk status i Norge
 - Vurdering av kardiovaskulær sikkerhet, gitt kunnskapsgrafens hjerte- og karrelaterte kontraindikasjoner og de store QT-relaterte interaksjonene
+
+<!-- review:begin no-lic-20261106-anagrelide-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av regulatorisk status i Norge, siden begge tillatelser er opphevet» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-anagrelide-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Begge tillatelsene er oppført som opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden begge tillatelser er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

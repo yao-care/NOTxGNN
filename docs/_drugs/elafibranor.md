@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 143
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Elafibranor: predikert ny indikasjon Amenoré (evidensnivå L5). Opprinnelig indikasjon: Biliær levercirrhose (Liver Cirrhosis, Biliary)"
 monitor_inn: "ELAFIBRANOR"
 predicted_indications: ["amenorrhea (disease)"]
@@ -107,6 +107,12 @@ I tillegg er det kjent fra utviklingshistorien at fase 3-studien ved NASH ikke v
 **Begrunnelse:**
 Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten støtte fra kliniske studier eller litteratur, og en plausibel mekanistisk sammenheng med amenoré er ikke påvist.
 
+<!-- review:begin no-lic-20261106-elafibranor-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten støtte fra kliniske studier eller litteratur, og en plausibel mekanistisk sammenheng med amenoré er ikke påvist. I tillegg er den norske godkjenningen registrert som avregistrert.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-elafibranor-1 -->
+
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtalen (advarsler og kontraindikasjoner) for sikkerhetsscreening
 - Fullstendige data om virkningsmekanisme (MOA), for eksempel fra DrugBank
@@ -114,6 +120,19 @@ Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten støtte fra k
 - Prekliniske data eller mekanistiske studier som kan underbygge en kausal sammenheng med amenoré
 - Avklaring av gjeldende markedsstatus i Norge
 - Vurdering av administrasjonsvei og likhet med den opprinnelige indikasjonen
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «I tillegg er den norske godkjenningen registrert som avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

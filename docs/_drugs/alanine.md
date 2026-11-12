@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 21
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Alanine: predikert ny indikasjon Gastroparese (evidensnivå L5). Opprinnelig indikasjon: Lønnesirupsykdom (Maple Syrup Urine Disease)"
 monitor_inn: "alanine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -114,12 +114,31 @@ Det er ikke funnet registrerte legemiddelinteraksjoner i de innsamlede dataene.
 **Begrunnelse:**
 Prediksjonen støttes bare av en beregningsmodell (evidensnivå L5), uten kliniske studier og uten litteratur som undersøker alanin ved gastroparese. Sikkerhetsdata fra preparatomtale mangler.
 
+<!-- review:begin no-lic-20261106-alanine-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «I tillegg er produktet avregistrert i Norge, og sikkerhetsdata fra preparatomtale mangler.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-alanine-1 -->
+
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank for å kunne vurdere en mekanistisk kobling
 - Advarsler og kontraindikasjoner fra pakningsvedlegget (DMP), som er nødvendig før sikkerhetsscreening
 - Målrettet litteratursøk og prekliniske data om alanin og mage-tarmmotilitet
 - Vurdering av de kunnskapsgrafbaserte kontraindikasjonene, særlig nyre- og hjertesykdom
 - Avklaring av doseringsform og administrasjonsvei for en eventuell ny indikasjon
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «I tillegg er produktet avregistrert i Norge, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

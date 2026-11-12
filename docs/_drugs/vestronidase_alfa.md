@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 450
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 description: "Vestronidase Alfa: predikert ny indikasjon Scheie syndrom (evidensnivå L5). Opprinnelig indikasjon: Mukopolysakkaridose VII"
 monitor_inn: "VESTRONIDASE ALFA"
 predicted_indications: ["Scheie syndrome", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
@@ -117,12 +117,38 @@ Det foreligger ingen sikkerhetsdata fra preparatomtalen i dataene som er satt sa
 **Begrunnelse:**
 Prediksjonen for Scheie syndrom er kun modellbasert (L5). Det finnes ingen kliniske studier eller litteratur, og den mekanistiske koblingen er svak fordi vestronidase alfa ikke erstatter det manglende IDUA-enzymet.
 
+<!-- review:begin no-lic-20261106-vestronidase_alfa-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Det finnes ingen kliniske studier eller litteratur, og den mekanistiske koblingen er svak fordi vestronidase alfa ikke erstatter det manglende IDUA-enzymet. I tillegg er den eneste norske godkjenningen avregistrert.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-vestronidase_alfa-1 -->
+
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
 - Detaljerte data om virkningsmekanisme
 - Prekliniske data eller studier som viser at GUSB gir nedbrytning av GAG ved IDUA-mangel
 - Avklaring av om PEARL-studien (NCT04532047) inkluderer vestronidase alfa
 - Vurdering av administrasjonsvei og tilgjengelighet i Norge
+
+<!-- review:begin no-lic-20261106-vestronidase_alfa-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Vurdering av administrasjonsvei og tilgjengelighet i Norge, siden godkjenningen er avregistrert» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-vestronidase_alfa-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «I tillegg er den eneste norske godkjenningen avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden godkjenningen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

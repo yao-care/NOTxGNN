@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Prucalopride: predikert ny indikasjon Hypoalfalipoproteinemi (evidensnivå L5). Opprinnelig indikasjon: Forstoppelse"
 monitor_inn: "Prucalopride"
 predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "duodenal ulcer (disease)", "oral candidiasis", "obsolete familial combined hyperlipidemia", "amyloidosis (disease)", "strongyloidiasis", "HIV infectious disease", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
@@ -117,6 +117,25 @@ Prediksjonen for hypoalfalipoproteinemi bygger kun på modellscore (evidensnivå
 - Innhente data om virkningsmekanisme (f.eks. fra DrugBank)
 - Dersom man ønsker å følge opp, bør forskningsspørsmålet om symptomatisk behandling av GI-dysmotilitet ved amyloidose (L4) prioriteres framfor lipidrelaterte prediksjoner
 - Vurdere regulatorisk situasjon i Norge
+
+<!-- review:begin no-lic-20261106-prucalopride-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Vurdere regulatorisk situasjon i Norge, siden eneste tillatelse er trukket tilbake» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-prucalopride-1 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «siden eneste tillatelse er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

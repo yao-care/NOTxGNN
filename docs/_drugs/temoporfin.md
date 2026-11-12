@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 405
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Temoporfin: predikert ny indikasjon Nasofaryngealt teratom (evidensnivå L5). Opprinnelig indikasjon: Hode- og halskreft"
 monitor_inn: "TEMOPORFIN"
 predicted_indications: ["nasopharyngeal teratoma", "odontogenic cyst", "pre-malignant neoplasm", "epiglottis neoplasm", "tumor of testis and paratestis", "cystic neoplasm", "benign neoplasm of floor of mouth", "benign neoplasm of tongue", "benign neoplasm of hypopharynx", "cervical neuroblastoma"]
@@ -138,12 +138,31 @@ Se pakningsvedlegget for sikkerhetsinformasjon. Det ble ikke funnet registrerte 
 **Begrunnelse:**
 Den primære prediksjonen (nasofaryngealt teratom) har kun modellstøtte (L5) uten kliniske studier eller litteratur, og biologien skiller seg fra den opprinnelige indikasjonen. Sikkerhetsdata fra pakningsvedlegget mangler.
 
+<!-- review:begin no-lic-20261106-temoporfin-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «I tillegg er den norske tillatelsen avregistrert, og sikkerhetsdata fra pakningsvedlegget mangler.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-temoporfin-1 -->
+
 **For å gå videre kreves følgende:**
 - Hente og analysere pakningsvedlegget (advarsler og kontraindikasjoner), som er en blokkerende datamangel for sikkerhetsscreening
 - Hente data om virkningsmekanisme (MOA) fra DrugBank
 - Gjennomføre et målrettet litteratursøk, særlig for **premalign neoplasi** og **neoplasi i epiglottis**, som er de mest mekanistisk plausible kandidatene
 - Avklare om det finnes en gyldig markedsføringstillatelse eller alternativ tilgang til temoporfin i Norge
 - Vurdere administrasjonsvei og lysleveringsmuligheter for hver aktuelle indikasjon
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «I tillegg er den norske tillatelsen avregistrert, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

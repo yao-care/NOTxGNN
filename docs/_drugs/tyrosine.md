@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 440
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Tyrosine: predikert ny indikasjon Cauda equina-syndrom (evidensnivå L5). Opprinnelig indikasjon: Lønnesirupsykdom (Maple Syrup Urine Disease)"
 monitor_inn: "tyrosine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma"]
@@ -110,6 +110,12 @@ Utvalgte funn for andre prediksjoner (alle med lav relevans for tyrosinbehandlin
 
 Innehaver: Recordati Rare Diseases.
 
+<!-- review:begin no-lic-20261106-tyrosine-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Tillatelsen er avregistrert. Innehaver: Recordati Rare Diseases.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-tyrosine-1 -->
+
 ---
 
 ## Sikkerhetsvurderinger
@@ -134,6 +140,19 @@ Prediksjonen for cauda equina-syndrom bygger kun på en beregningsmodell (eviden
 - Prekliniske data eller en mekanistisk hypotese som kobler tyrosin til cauda equina-syndrom
 - Vurdering av om en annen prediksjon (f.eks. POTS) kan gi en mer realistisk kandidat, med oppdatert evidensgjennomgang
 - Avklaring av regulatorisk status og administrasjonsvei (ikke vurdert ennå)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Tillatelsen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

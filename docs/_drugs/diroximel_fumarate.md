@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 128
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Diroximel Fumarate: predikert ny indikasjon Diabetisk katarakt (evidensnivå L5). Opprinnelig indikasjon: Multippel sklerose, relapserende-remitterende"
 monitor_inn: "DIROXIMEL FUMARATE"
 predicted_indications: ["diabetic cataract", "diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "tetanic cataract", "immature cataract", "cortical cataract", "nuclear senile cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "mature cataract"]
@@ -78,6 +78,12 @@ Det er foreløpig ingen relaterte kliniske studier registrert.
 
 Det er foreløpig ingen relatert litteratur tilgjengelig.
 
+<!-- review:begin no-lic-20261106-diroximel_fumarate-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Tillatelsen er registrert som avregistrert (innehaver: Biogen Netherlands B.V.).» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-diroximel_fumarate-1 -->
+
 ---
 
 ## Informasjon om det norske markedet
@@ -118,6 +124,19 @@ Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten kliniske stud
 - Prekliniske data på Nrf2-aktivering i linse- og netthinnevev, inkludert vurdering av linse-/øyeeksponering etter oral dosering
 - Vurdering av administrasjonsvei og forenlighet med de predikerte indikasjonene
 - Systematisk litteratur- og studiesøk for å avklare om det finnes støttende evidens
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Tillatelsen er registrert som avregistrert (innehaver: Biogen Netherlands B.V.)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

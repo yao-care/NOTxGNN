@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 20
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Agomelatine: predikert ny indikasjon Benign paroksysmal torticollis hos spedbarn (evidensnivå L5). Opprinnelig indikasjon: Alvorlig depressiv lidelse (Depressive Disorder, Major)"
 monitor_inn: "AGOMELATINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
@@ -90,6 +90,12 @@ Farmakologiske målproteiner som er registrert (ikke legemiddelinteraksjoner i s
 **Begrunnelse:**
 Prediksjonen bygger kun på modellscore (L5), uten kliniske studier, uten litteratur og uten plausibel mekanistisk kobling. Målgruppen er spedbarn uten pediatriske sikkerhetsdata.
 
+<!-- review:begin no-lic-20261106-agomelatine-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Legemidlet er dessuten avregistrert i Norge, og målgruppen er spedbarn uten pediatriske sikkerhetsdata.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-agomelatine-1 -->
+
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA)
 - Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner)
@@ -106,6 +112,19 @@ Dersom målet er å finne en mer realistisk retning, er følgende kandidater mer
 | Agorafobi | 0,9995 | Kun modellprediksjon (L5). Mulig indirekte rasjonale via angstdempende egenskaper, men uten støtte i dataene. |
 
 De øvrige kandidatene (Ohdo-syndrom og varianter, ligneøs konjunktivitt, Ohdo-type blefarofimose med intellektuell funksjonshemming, Keppen-Lubinsky syndrom) er rene modellprediksjoner uten evidens eller plausibel mekanisme, og anbefales avventet (Hold).
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Legemidlet er dessuten avregistrert i Norge, og m» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

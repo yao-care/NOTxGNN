@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 214
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Indacaterol: predikert ny indikasjon Nefrogent syndrom med uhensiktsmessig antidiurese (evidensnivå L5). Opprinnelig indikasjon: Kronisk obstruktiv lungesykdom (KOLS)"
 monitor_inn: "INDACATEROL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
@@ -84,6 +84,12 @@ Foreløpig ingen relatert litteratur tilgjengelig.
 
 Legemidlet er markedsført i Norge. Tabellen viser fem av dem.
 
+<!-- review:begin no-lic-20261106-indacaterol-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Legemidlet er markedsført i Norge, med 10 gyldige godkjenninger av 10.» Fjernet: antallet eller statusen for godkjenningene stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 10, hvorav gyldige: 8; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-indacaterol-1 -->
+
 | Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
 | EMEA/H/C/001210 | Oslif Breezhaler | Ikke oppgitt | Kronisk obstruktiv lungesykdom |
@@ -118,6 +124,12 @@ Mange av interaksjonene gjelder antidiabetika, noe som samsvarer med risikoen fo
 **Begrunnelse:**
 Prediksjonen bygger kun på modellscore, uten kliniske studier, litteratur eller et plausibelt mekanistisk grunnlag. Legemidlet er markedsført i Norge.
 
+<!-- review:begin no-lic-20261106-indacaterol-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Legemidlet er markedsført i Norge (10 gyldige godkjenninger av 10).» Fjernet: antallet eller statusen for godkjenningene stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 10, hvorav gyldige: 8; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-indacaterol-2 -->
+
 **For å gå videre kreves:**
 - Dokumentasjon av en mulig mekanistisk kobling mellom beta2-agonisme og V2-reseptor-/vasopressinveien, for eksempel gjennom prekliniske studier
 - Systematisk litteratursøk og søk i studieregistre for denne indikasjonen
@@ -125,6 +137,20 @@ Prediksjonen bygger kun på modellscore, uten kliniske studier, litteratur eller
 - Vurdering av administrasjonsvei, siden indakaterol gis som inhalasjon
 
 **Merknad om andre prediksjoner:** Blant de ti øverste prediksjonene har kun «bronkial sykdom» (rang 7) klinisk evidens. Den dekker i praksis legemidlets eksisterende bruk ved KOLS og astma og er ikke en reell ny indikasjon. Evidensnivået der (L1) bør verifiseres mot den fullstendige studielisten, siden flere av studiene gjelder kombinasjonspreparater og de store pivotale studiene ikke er blant de oppførte.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «med 10 gyldige godkjenninger av 10» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «(10 gyldige godkjenninger av 10)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

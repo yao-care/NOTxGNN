@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 309
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Panitumumab: predikert ny indikasjon Legemiddelindusert osteoporose (evidensnivå L5). Opprinnelig indikasjon: Kolorektal kreft (Colorectal Neoplasms)"
 monitor_inn: "PANITUMUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
@@ -70,6 +70,12 @@ Den høye TxGNN-scoren (0.9913) er kun en beregnet prediksjon fra TxGNN-modellen
 
 Modellen foreslår også **alvorlig ikke-proliferativ diabetisk retinopati** (score 0,9905, evidensnivå L5, beslutning: Hold). EGFR-signalering kan bidra til karskade i netthinnen, betennelse og patologisk angiogenese. Panitumumab er imidlertid et stort IgG2-antistoff gitt systemisk med begrenset penetrasjon til øyet, og anti-EGFR-midler gir øyetoksisitet (f.eks. keratitt, overflateproblemer på øyet, trikomegali). Det foreligger ingen intravitreale eller prekliniske data.
 
+<!-- review:begin no-lic-20261106-panitumumab-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Det foreligger ingen intravitreale eller prekliniske data. At produktet kun har trukket tilbake tillatelse, kan også svekke gjennomførbarheten.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-panitumumab-1 -->
+
 ---
 
 ## Dokumentasjon fra kliniske studier
@@ -122,12 +128,39 @@ For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner) vises det til
 **Begrunnelse:**
 Begge prediksjonene bygger kun på modellberegning (L5) uten kliniske studier eller publikasjoner. Den mekanistiske koblingen er spekulativ og for osteoporose muligens motstridende. Sikkerhetsdata fra pakningsvedlegget mangler.
 
+<!-- review:begin no-lic-20261106-panitumumab-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Produktet har dessuten kun en trukket tilbake tillatelse, og sikkerhetsdata fra pakningsvedlegget mangler.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-panitumumab-2 -->
+
 **For å gå videre kreves følgende:**
 - Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel, må løses før sikkerhetsscreening)
 - Data om virkningsmekanisme (MOA) fra DrugBank for å vurdere den mekanistiske koblingen
 - Prekliniske eller mekanistiske studier på EGFR-hemming og benombygging (osteoporose) og på netthinnekar (retinopati)
 - Avklaring av markedsstatus og tilgjengelighet i Norge
 - Vurdering av administrasjonsvei og passform (spesielt ved okulær bruk) samt sikkerhetsprofil ved hypomagnesemi, hypokalsemi og øyetoksisitet
+
+<!-- review:begin no-lic-20261106-panitumumab-3 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av markedsstatus og tilgjengelighet i Norge, siden tillatelsen er trukket tilbake» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-panitumumab-3 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «At produktet kun har trukket tilbake tillatelse, kan også svekke gjennomførbarheten» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Produktet har dessuten kun en trukket tilbake tillatelse, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden tillatelsen er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

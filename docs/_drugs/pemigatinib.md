@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 320
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Pemigatinib: predikert ny indikasjon Multippel endokrin neoplasi (evidensnivå L5). Opprinnelig indikasjon: Kolangiokarsinom"
 monitor_inn: "PEMIGATINIB"
 predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "infectious bovine rhinotracheitis", "malignant catarrh", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "axial spondylometaphyseal dysplasia"]
@@ -127,12 +127,31 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Begrunnelse:**
 Prediksjonen er kun modellbasert (L5), uten kliniske studier eller litteratur som støtter multippel endokrin neoplasi. Den mekanistiske koblingen er spekulativ.
 
+<!-- review:begin no-lic-20261106-pemigatinib-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Den mekanistiske koblingen er spekulativ, og den eneste norske tillatelsen er avregistrert.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-pemigatinib-1 -->
+
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA), for eksempel fra DrugBank
 - Preparatomtale med advarsler og kontraindikasjoner for sikkerhetsvurdering (blokkerende datamangel)
 - Prekliniske eller mekanistiske studier som undersøker FGFR-hemming ved MEN-assosierte svulster
 - Gjennomgang av øvrige predikerte indikasjoner. Blant disse har HER2-positiv brystkreft den mest plausible biologiske begrunnelsen (FGFR som bypass- og resistensvei), men også her mangler indikasjonsspesifikk klinisk evidens
 - Avklaring av registrerings- og tilgjengelighetsstatus for pemigatinib i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «og den eneste norske tillatelsen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

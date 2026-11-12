@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 438
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Turoctocog Alfa: predikert ny indikasjon Primær frigjøringsforstyrrelse i blodplater (primary release disorder… (evidensnivå L5). Opprinnelig indikasjon: Hemofili A"
 monitor_inn: "TUROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "thrombotic thrombocytopenic purpura", "hereditary thrombocytosis with transverse limb defect"]
@@ -114,12 +114,31 @@ Et sikkerhetsmoment er likevel verdt å merke seg: Ved trombotisk trombocytopeni
 **Begrunnelse:**
 Alle predikerte indikasjoner har kun modellbasert støtte (L5), uten kliniske studier eller litteratur. Den predikerte hovedindikasjonen er en blodplatedefekt som ikke kan korrigeres med faktor VIII.
 
+<!-- review:begin no-lic-20261106-turoctocog_alfa-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Den predikerte hovedindikasjonen er en blodplatedefekt som ikke kan korrigeres med faktor VIII, og produktet er i tillegg ikke lenger markedsført i Norge.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-turoctocog_alfa-1 -->
+
 **For å gå videre kreves følgende:**
 - Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Verifisering av uklare sykdomsenheter (f.eks. «flood factor deficiency»)
 - Nærmere vurdering av «ervervet koagulasjonsfaktormangel» som den mest plausible kandidaten, inkludert betydningen av inhibitorer
 - Avklaring av forholdet til gjeldende markedsstatus (kansellert godkjenning) og tilgjengelige administrasjonsveier
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «og produktet er i tillegg ikke lenger markedsført i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

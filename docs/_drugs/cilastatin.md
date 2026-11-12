@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 99
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Cilastatin: predikert ny indikasjon Staphylococcus aureus-infeksjon (evidensnivå L3). Opprinnelig indikasjon: Gramnegative bakterieinfeksjoner"
 monitor_inn: "Cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
@@ -116,11 +116,30 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon.
 **Begrunnelse:**
 Evidensen for S. aureus-infeksjon er hovedsakelig indirekte og gjelder imipenem/cilastatin som kombinasjon. Antibakteriell effekt tilskrives imipenem, ikke cilastatin. Den eneste kliniske studien er liten og har ukjent status, mens litteraturen domineres av eldre, ukontrollerte studier, dyrestudier og oversikter.
 
+<!-- review:begin no-lic-20261106-cilastatin-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Den eneste kliniske studien er liten og har ukjent status, mens litteraturen domineres av eldre, ukontrollerte studier, dyrestudier og oversikter. Den eneste godkjenningen i Norge er opphevet.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-cilastatin-1 -->
+
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Sikkerhetsopplysninger fra preparatomtalen (advarsler og kontraindikasjoner), som mangler og må innhentes før sikkerhetsvurdering
 - Studier som kan skille cilastatins bidrag fra imipenems, eller en begrunnelse for hvorfor cilastatin alene skulle ha relevans
 - En vurdering av om en nyrebeskyttende tilleggseffekt av cilastatin er verdt å utforske som egen hypotese
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Den eneste godkjenningen i Norge er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

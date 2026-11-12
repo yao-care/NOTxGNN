@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 40
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Asfotase Alfa: predikert ny indikasjon Mitokondriell oksidativ fosforyleringssykdom på grunn av kjerne-DNA-avvik (evidensnivå L5). Opprinnelig indikasjon: Hypofosfatasi"
 monitor_inn: "ASFOTASE ALFA"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Steel syndrome", "exocrine pancreatic insufficiency", "Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "familial apolipoprotein C-II deficiency", "esophageal varices with bleeding", "esophageal varices without bleeding", "cystinosis"]
@@ -105,6 +105,12 @@ Foreløpig er det ingen relevant litteratur tilgjengelig.
 
 Det finnes 1 gyldig tillatelse av 1.
 
+<!-- review:begin no-lic-20261106-asfotase_alfa-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Tillatelsen er registrert som avregistrert (innehaver: Alexion Europe SAS). Det finnes 1 gyldig tillatelse av 1.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-asfotase_alfa-2 -->
+
 ---
 
 ## Sikkerhetsvurderinger
@@ -120,11 +126,38 @@ Det foreligger ingen tilgjengelige data om advarsler eller kontraindikasjoner i 
 **Begrunnelse:**
 Prediksjonen er rent modellbasert (L5) uten kliniske studier eller litteratur, og det finnes ingen plausibel biologisk kobling mellom en ekstracellulær TNSALP-erstatning og intracellulære mitokondrielle defekter.
 
+<!-- review:begin no-lic-20261031-asfotase_alfa-1 -->
+
+> **Kontrollrettelse (2026-10-31)**: Opprinnelig sto det: «Prediksjonen er rent modellbasert (L5) uten kliniske studier eller litteratur, og det finnes ingen plausibel biologisk kobling mellom en ekstracellulær TNSALP-erstatning og intracellulære mitokondrielle defekter. I tillegg er produktet kun registrert som avregistrert i Norge.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-10-31). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261031-asfotase_alfa-1 -->
+
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende hull i sikkerhetsscreeningen)
 - Prekliniske data eller mekanistiske studier som kan støtte en kobling til mitokondriell OXPHOS-sykdom
 - Avklaring av tilgjengelighet og markedsstatus i Norge
+
+<!-- review:begin no-lic-20261106-asfotase_alfa-3 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av tilgjengelighet og markedsstatus i Norge, siden den eneste tillatelsen er avregistrert» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-asfotase_alfa-3 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-10-31 | Fjernet: «I tillegg er produktet kun registrert som avregistrert i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Tillatelsen er registrert som avregistrert (innehaver: Alexion Europe SAS)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden den eneste tillatelsen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 323
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab: predikert ny indikasjon Ectomesenchymoma (evidensnivå L5). Opprinnelig indikasjon: Breast Neoplasms"
@@ -103,6 +103,12 @@ Studiene WSG-ADAPT og WSG TP-II støtter bruk av pertuzumab + trastuzumab, med e
 
 Dette bør kontrolleres mot gjeldende regional merking for referanseproduktet og biosimilarer.
 
+<!-- review:begin no-lic-20261106-pertuzumab-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Begge godkjenningene er registrert som avregistrert. Dette bør kontrolleres mot gjeldende regional merking for referanseproduktet og biosimilarer.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-pertuzumab-1 -->
+
 ---
 
 ## Cytotoksisitet
@@ -143,6 +149,12 @@ Pertuzumab har etablert effekt ved HER2-positiv brystkreft, og PR+-sykdom er en 
 - Bekreftelse av HER2-status hos pasientene og et program for hjerteovervåking (LVEF)
 - Oppfølging av at fase 2-studien DECRESCENDO ble avsluttet tidlig, noe som begrenser konklusjoner om kjemoterapi-de-eskalering
 
+<!-- review:begin no-lic-20261106-pertuzumab-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av markedsstatus i Norge, siden begge godkjenningene står som avregistrert» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-pertuzumab-2 -->
+
 ---
 
 ## Andre predikerte indikasjoner (kort)
@@ -152,6 +164,19 @@ Pertuzumab har etablert effekt ved HER2-positiv brystkreft, og PR+-sykdom er en 
 | 3 | Progesteronreseptor-negativ brystkreft | L1 | Proceed with Guardrails |
 | 4 | Luminal A- eller B-brysttumor | L2 | Forskningsspørsmål (gjelder kun HER2+ luminal B) |
 | 2, 5–10 | Normal-like brystkreftsubtype, ektomesenkymom, malign kutan granulær celletumor, HHV-8-relatert svulst, nevroendokrin svulst i mellomøret, urotelkarsinom i prostatisk uretra, sarkomatoid overgangscellekarsinom i nyrebekken | L5 | Hold (kun modellprediksjon, ingen studier eller litteratur) |
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Begge godkjenningene er registrert som avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden begge godkjenningene står som avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

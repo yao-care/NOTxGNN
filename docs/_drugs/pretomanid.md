@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 338
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Pretomanid: predikert ny indikasjon Candidiasis (evidensnivå L5). Opprinnelig indikasjon: Multiresistent tuberkulose"
 monitor_inn: "PRETOMANID"
 predicted_indications: ["candidiasis", "leprosy", "coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery"]
@@ -111,11 +111,30 @@ Se preparatomtalen for fullstendig sikkerhetsinformasjon om advarsler og kontrai
 **Begrunnelse:**
 Prediksjonen for candidiasis har kun modellbasert støtte (evidensnivå L5), uten kliniske studier, litteratur eller en plausibel virkningsmekanisme.
 
+<!-- review:begin no-lic-20261106-pretomanid-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Prediksjonen for candidiasis har kun modellbasert støtte (evidensnivå L5), uten kliniske studier, litteratur eller en plausibel virkningsmekanisme. I tillegg er den norske tillatelsen avregistrert.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-pretomanid-1 -->
+
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Preparatomtale med advarsler og kontraindikasjoner fra legemiddelmyndighetene (blokkerende datamangel for sikkerhetsscreening)
 - Laboratoriedata (in vitro) som viser eventuell aktivitet mot *Candida*
 - Vurdering av lepra som en mer biologisk plausibel alternativ hypotese, med studier av Ddn-lignende enzymer i *M. leprae* og in vivo-følsomhet
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «I tillegg er den norske tillatelsen avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

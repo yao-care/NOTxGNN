@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 349
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Rasburicase: predikert ny indikasjon Renal hypourikemi (evidensnivå L5). Opprinnelig indikasjon: Hyperurikemi"
 monitor_inn: "RASBURICASE"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hepatic porphyria", "hepatoportal sclerosis", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "renal tubular acidosis", "disorder of phenylalanine metabolism"]
@@ -107,11 +107,30 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon.
 **Begrunnelse:**
 Prediksjonen om renal hypourikemi mangler både klinisk evidens og mekanistisk støtte, og ytterligere senking av urinsyre er biologisk uhensiktsmessig ved en tilstand som allerede kjennetegnes av lav urinsyre.
 
+<!-- review:begin no-lic-20261106-rasburicase-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Prediksjonen om renal hypourikemi mangler både klinisk evidens og mekanistisk støtte, og ytterligere senking av urinsyre er biologisk uhensiktsmessig ved en tilstand som allerede kjennetegnes av lav urinsyre. Produktet er dessuten avregistrert i Norge.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-rasburicase-1 -->
+
 **For å gå videre kreves følgende:**
 - Innhenting og analyse av preparatomtale (advarsler og kontraindikasjoner), da dette er en blokkerende datamangel for sikkerhetsscreening
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Biologisk eller prekliniske data som kan underbygge en reell sammenheng med noen av de predikerte indikasjonene
 - Avklaring av regulatorisk status og tilgjengelighet i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Produktet er dessuten avregistrert i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

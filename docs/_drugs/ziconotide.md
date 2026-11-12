@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 459
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ziconotide: predikert ny indikasjon Migrene (migraine disorder) (evidensnivå L4). Opprinnelig indikasjon: Injeksjon i ryggmargskanalen"
 monitor_inn: "ZICONOTIDE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "obesity disorder", "transient ischemic attack (disease)", "open-angle glaucoma", "obsolete neurogenic bladder (disease)", "primary hereditary glaucoma", "preeclampsia"]
@@ -116,12 +116,38 @@ Preparatomtalens advarsler og kontraindikasjoner var ikke tilgjengelige i de inn
 **Begrunnelse:**
 Evidensen består kun av to kasuistikker og én modellprediksjon, uten kontrollerte data eller kliniske studier. Tilførselen er invasiv (intratekal), og sikkerhetsprofilen (nevropsykiatriske bivirkninger, smalt terapeutisk vindu) er uheldig for en vanlig tilstand som migrene.
 
+<!-- review:begin no-lic-20261106-ziconotide-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «I tillegg er produktet avregistrert i Norge, tilførselen er invasiv (intratekal), og sikkerhetsprofilen (nevropsykiatriske bivirkninger, smalt terapeutisk vindu) er uheldig for en vanlig tilstand som migrene.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-ziconotide-1 -->
+
 **For å gå videre kreves følgende:**
 - Hentet og analysert preparatomtale (advarsler og kontraindikasjoner) for sikkerhetsscreening
 - Detaljerte data om virkningsmekanisme (f.eks. fra DrugBank)
 - Kontrollerte kliniske studier eller større serier som støtter effekt ved refraktær kronisk migrene
 - Avklaring av regulatorisk status og tilgjengelighet i Norge
 - Vurdering av nytte-risiko og tilførselsvei for en snever, behandlingsresistent pasientgruppe
+
+<!-- review:begin no-lic-20261106-ziconotide-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av regulatorisk status og tilgjengelighet i Norge, siden eneste tillatelse er avregistrert» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-ziconotide-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «I tillegg er produktet avregistrert i Norge, t» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden eneste tillatelse er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

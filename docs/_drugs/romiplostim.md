@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 367
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Romiplostim: predikert ny indikasjon Primær frigjøringsforstyrrelse av blodplater (evidensnivå L5). Opprinnelig indikasjon: Idiopatisk trombocytopenisk purpura (ITP)"
 monitor_inn: "ROMIPLOSTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "platelet-type bleeding disorder", "autosomal dominant macrothrombocytopenia", "Ehlers-Danlos syndrome, fibronectinemic type"]
@@ -120,11 +120,37 @@ Den mest interessante kandidaten blant disse er føtal og neonatal alloimmun tro
 **Begrunnelse:**
 Den predikerte indikasjonen mangler kliniske studier og direkte litteratur, og mekanismen er svak siden sykdommen gjelder blodplatefunksjon og ikke antall.
 
+<!-- review:begin no-lic-20261106-romiplostim-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Den predikerte indikasjonen mangler kliniske studier og direkte litteratur, og mekanismen er svak siden sykdommen gjelder blodplatefunksjon og ikke antall. I tillegg er den eneste norske godkjenningen opphevet.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-romiplostim-1 -->
+
 **For å gå videre kreves følgende:**
 - Detaljerte data om virkningsmekanisme (MOA)
 - Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner)
 - Systematisk litteraturgjennomgang for den predikerte sykdommen og eventuelt for føtal og neonatal alloimmun trombocytopeni
 - Vurdering av klinisk betydning av den alvorlige interaksjonen med carfilzomib
+
+<!-- review:begin no-lic-20261106-romiplostim-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av hvorfor den norske godkjenningen er opphevet, og av dagens reguleringsstatus / Systematisk litteraturgjennomgang for den predikerte sykdommen og eventuelt for føtal og neonatal alloimmun trombocytopeni» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-romiplostim-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «I tillegg er den eneste norske godkjenningen opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Avklaring av hvorfor den norske godkjenningen er opphevet, og av dagens reguleringsstatus» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

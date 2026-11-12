@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 156
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "EPTIFIBATIDE"
 predicted_indications: ["rheumatoid arthritis", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin E disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin c disease syndrome", "hemoglobinopathy", "female breast carcinoma", "beta-thalassemia with other manifestations", "partial deletion of the short arm of chromosome 16"]
 description: "Eptifibatide: predikert ny indikasjon Rheumatoid arthritis (evidensnivå L5). Opprinnelig indikasjon: Myocardial Infarction"
@@ -104,6 +104,12 @@ For de andre ni prediksjonene finnes ingen registrerte kliniske studier.
 
 Legemidlet er markedsført.
 
+<!-- review:begin no-lic-20261106-eptifibatide-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Begge markedsføringstillatelsene er gyldige, og legemidlet er markedsført.» Fjernet: antallet eller statusen for godkjenningene stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 2, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-eptifibatide-1 -->
+
 ---
 
 ## Sikkerhetsvurderinger
@@ -127,12 +133,39 @@ Pakningsvedlegget (varsler og kontraindikasjoner) er ikke tilgjengelig i datagru
 - Revmatoid artritt, den høyest rangerte prediksjonen, har kun modellstøtte uten studier (L5), og blødningsrisikoen er ikke berettiget uten evidens.
 - For sigdcellesykdom finnes en randomisert fase 1/2-studie og flere små studier med sikkerhet og noen biologiske signaler. Studien ble imidlertid terminert med bare 13 deltakere, så effekt er ikke vist. Preparatet er dessuten markedsført i Norge.
 
+<!-- review:begin no-lic-20261106-eptifibatide-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Preparatet er dessuten markedsført i Norge, med to gyldige markedsføringstillatelser.» Fjernet: antallet eller statusen for godkjenningene stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 2, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-eptifibatide-2 -->
+
 **For å gå videre kreves følgende:**
 - Pakningsvedlegg med varsler og kontraindikasjoner (blokkerende datamangel)
 - Data om virkningsmekanisme (f.eks. fra DrugBank)
 - En tilstrekkelig dimensjonert, randomisert studie som vurderer effekt og blødningssikkerhet ved sigdcellesykdom
 - Vurdering av administrasjonsvei og tilgjengelighet
 - Verifisering av litteraturreferansen PMID 24678072 (avvikende publiseringsår)
+
+<!-- review:begin no-lic-20261106-eptifibatide-3 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Vurdering av administrasjonsvei og tilgjengelighet, siden alle norske godkjenninger er opphevet» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 2, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-eptifibatide-3 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Begge markedsføringstillatelsene er gyldige, og l» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «med to gyldige markedsføringstillatelser» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden alle norske godkjenninger er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

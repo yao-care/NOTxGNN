@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 339
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Prilocaine: predikert ny indikasjon Papillær konjunktivitt (evidensnivå L5). Opprinnelig indikasjon: Fysiologisk seksuell dysfunksjon"
 monitor_inn: "PRILOCAINE"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
@@ -98,6 +98,12 @@ Mange av de alvorlige interaksjonene gjelder legemidler som kan fremkalle methem
 **Begrunnelse:**
 - Prediksjonen for papillær konjunktivitt hviler kun på modellscore (L5), uten kliniske studier eller litteratur.
 
+<!-- review:begin no-lic-20261031-prilocaine-1 -->
+
+> **Kontrollrettelse (2026-10-31)**: Opprinnelig sto det: «Prediksjonen for papillær konjunktivitt hviler kun på modellscore (L5), uten kliniske studier eller litteratur. Produktet er dessuten kun avregistrert i markedet, og sikkerhetsdata fra preparatomtalen mangler.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-10-31). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261031-prilocaine-1 -->
+
 **Andre prediksjoner med mer evidens:**
 - **Nevralgi** (rang 5, evidensnivå L3) er den best støttede av de ti predikerte indikasjonene.
   - En liten, åpen fase 2-studie (NCT00916942, n=20) brukte lidokain/prilokain-krem som forbehandling før kapsaicinplaster ved postherpetisk nevralgi.
@@ -110,6 +116,19 @@ Mange av de alvorlige interaksjonene gjelder legemidler som kan fremkalle methem
 - Data om virkningsmekanisme fra DrugBank
 - Vurdering av administrasjonsvei (oftalmisk bruk) og lokal tolerabilitet, samt sikkerhetsvurdering av methemoglobinemi
 - Dokumentasjon fra prekliniske eller kliniske studier som viser effekt på underliggende patologi ved papillær konjunktivitt, eller et strategisk skifte til nevralgi som primær kandidat
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-10-31 | Fjernet: «Produktet er dessuten kun avregistrert i markedet, og sikkerhetsdata fra preparatomtalen mangler» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

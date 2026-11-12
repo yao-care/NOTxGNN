@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 72
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Bupropion: predikert ny indikasjon Oppmerksomhetssvikt-hyperaktivitetsforstyrrelse (ADHD) (evidensnivå L1). Opprinnelig indikasjon: Fedme og overvekt"
 monitor_inn: "Bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
@@ -132,12 +132,24 @@ Pakningsvedlegget er ikke tilgjengelig i de sammenstilte dataene, og sikkerhetsi
 **Begrunnelse:**
 Flere fullførte kliniske studier (blant dem en placebokontrollert fase 3-studie), en Cochrane-oversikt og flere nettverksmetaanalyser støtter bupropion ved ADHD, og mekanismen (NET/DAT-hemming) er plausibel.
 
+<!-- review:begin no-lic-20261031-bupropion-1 -->
+
+> **Kontrollrettelse (2026-10-31)**: Opprinnelig sto det: «Flere fullførte kliniske studier (blant dem en placebokontrollert fase 3-studie), en Cochrane-oversikt og flere nettverksmetaanalyser støtter bupropion ved ADHD, og mekanismen (NET/DAT-hemming) er plausibel. Likevel er markedsstatus «kun avregistrert», og sikkerhetsprofilen (krampefare, hypertensjon, rusmiddelbruk, spiseforstyrrelser) krever tydelige rammer.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-10-31). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261031-bupropion-1 -->
+
 **For å gå videre kreves følgende:**
 - Innhente og analysere preparatomtale/pakningsvedlegg (advarsler og kontraindikasjoner) for å kunne gjennomføre sikkerhetsscreeningen
 - Fullstendige mekanismedata fra DrugBank
 - Avklare regulatorisk status og tilgjengelige formuleringer i Norge
 - Verifisere legemiddelarm i NCT00061087 og NCT00000268 samt bekrefte evidensnivået (L1 mot L2) mot registerdata
 - Utarbeide en plan for sikkerhetsovervåking: krampeterskel, blodtrykk, CYP2D6-interaksjoner og screening for rusmiddelbruk og spiseforstyrrelser
+
+<!-- review:begin no-lic-20261106-bupropion-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklare regulatorisk status og tilgjengelige formuleringer i Norge, siden Mysimba-godkjenningen er avregistrert og bupropion-produkter for andre indikasjoner må vurderes» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-bupropion-2 -->
 
 ---
 
@@ -146,6 +158,20 @@ Flere fullførte kliniske studier (blant dem en placebokontrollert fase 3-studie
 De øvrige prediksjonene har svakere støtte:
 - **ADHD, uoppmerksom type** (score 0,9999): Evidensnivå L3, kun overordnede ADHD-data og én post hoc-analyse. Vurderes som et forskningsspørsmål.
 - **Faciodigitogenitalt syndrom, spesifikk utviklingsforstyrrelse, kondromyksoid fibrom, 16p11.2-mikrodelesjon, hypervitaminose, godartet paroksysmal torticollis hos spedbarn, trigeminusnevrom og «obsolete hypertelorism»:** Kun modellprediksjoner uten kliniske studier og med lite eller ingen relevant litteratur, uten påvisbar mekanistisk kobling. Anbefaling: **Hold**.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-10-31 | Fjernet: «Likevel er markedsstatus «kun avregistrert», og sikkerhetsprofilen (krampefare, hypertensjon, rusmiddelbruk, spiseforstyrrelser) krever tyde» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden Mysimba-godkjenningen er avregistrert og bupropion-produkter for andre indikasjoner må vurderes» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

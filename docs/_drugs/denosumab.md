@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 123
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Denosumab: predikert ny indikasjon Alvorlig ikke-proliferativ diabetisk retinopati (evidensnivå L5). Opprinnelig indikasjon: Tap av benmasse, postmenopausal osteoporose, osteoporose"
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -118,12 +118,31 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon, inkludert advarsler og kont
 **Begrunnelse:**
 Prediksjonen er kun modellbasert (L5) uten kliniske studier eller direkte litteratur for retinopati. Sikkerhetsdata fra preparatomtale mangler.
 
+<!-- review:begin no-lic-20261106-denosumab-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Alle norske tillatelser er dessuten opphevet, og sikkerhetsdata fra preparatomtale mangler.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-denosumab-1 -->
+
 **For å gå videre kreves:**
 - Preparatomtale med advarsler og kontraindikasjoner fra DMP
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Prekliniske data eller mekanistiske studier på RANKL/RANK i netthinnens mikrokarsykdom
 - Retrospektive kohortstudier med retinopati som utfall hos denosumab-behandlede pasienter med diabetes
 - Avklaring av markedsstatus og tilgjengelige administrasjonsveier i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Alle norske tillatelser er dessuten opphevet, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

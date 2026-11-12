@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 220
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Insulin Human: predikert ny indikasjon Autoimmun oofoitt (evidensnivå L5). Opprinnelig indikasjon: Diabetes mellitus"
 monitor_inn: "INSULIN HUMAN"
 predicted_indications: ["autoimmune oophoritis", "classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "pancreatic agenesis", "idiopathic localized lipodystrophy"]
@@ -133,11 +133,30 @@ Mange av disse påvirker blodsukkeret, og hypoglykemi eller svekket glukosekontr
 **Begrunnelse:**
 Prediksjonen for autoimmun oofoitt er kun beregningsbasert (L5) uten kliniske studier eller litteratur, og insulin har ingen kjent immunmodulerende rolle ved tilstanden. Flere av de øvrige prediksjonene gjenspeiler forvekslende sammenhenger (samtidig diabetes) eller bivirkninger.
 
+<!-- review:begin no-lic-20261106-insulin_human-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Flere av de øvrige prediksjonene gjenspeiler forvekslende sammenhenger (samtidig diabetes) eller bivirkninger. Produktene er dessuten alle avregistrert i Norge.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 5, hvorav gyldige: 5; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-insulin_human-1 -->
+
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
 - Data om virkningsmekanisme (MOA), for eksempel fra DrugBank
 - Prekliniske eller kliniske data som viser nytte ved autoimmun oofoitt
 - Avklaring av administrasjonsvei og formuleringer, siden doseringsform mangler
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Produktene er dessuten alle avregistrert i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

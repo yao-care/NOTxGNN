@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 162
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Esketamine: predikert ny indikasjon Agorafobi (evidensnivå L5). Opprinnelig indikasjon: Depressiv lidelse"
 monitor_inn: "Esketamine"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
@@ -106,6 +106,12 @@ Detaljert sikkerhetsinformasjon (advarsler og kontraindikasjoner) fra preparatom
 **Begrunnelse:**
 Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier eller litteratur. Sikkerhetsdata fra preparatomtalen mangler.
 
+<!-- review:begin no-lic-20261106-esketamine-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «I tillegg er den eneste norske/europeiske godkjenningen avregistrert, og sikkerhetsdata fra preparatomtalen mangler.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-esketamine-1 -->
+
 **For å gå videre kreves følgende:**
 - Innhenting og gjennomgang av preparatomtale (advarsler og kontraindikasjoner), som er en blokkerende datamangel
 - Data om virkningsmekanisme (MOA) fra DrugBank
@@ -118,6 +124,19 @@ Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier
 ## Merknad om rangering nr. 2: godartet paroksysmal torticollis hos spedbarn
 
 TxGNN gir også en høy score (0,9949) for **godartet paroksysmal torticollis hos spedbarn**, men det foreligger ingen kliniske studier eller litteratur (evidensnivå L5, anbefaling: Hold). Tilstanden er en sjelden episodisk lidelse hos barn, knyttet til migrenespekteret og kanalopatier. Koblingen til NMDA-antagonisme er rent beregningsmessig og spekulativ. Esketamins sikkerhetsprofil (dissosiasjon, blodtrykksøkning, misbrukspotensial) og at det er godkjent kun for voksne, gjør bruk hos spedbarn til en stor bekymring. Ingenting i dataene støtter at dette bør forfølges.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «I tillegg er den eneste norske/europeiske godkjenningen avregistrert, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

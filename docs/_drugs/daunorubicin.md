@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 116
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Daunorubicin: predikert ny indikasjon Hodgkins lymfom (evidensnivå L3). Opprinnelig indikasjon: Akutt myeloid leukemi"
 monitor_inn: "Daunorubicin"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
@@ -138,12 +138,38 @@ Flere av disse (f.eks. 5-HT3-antagonister og klaritromycin) er relevante fordi d
 **Begrunnelse:**
 Evidensen for Hodgkins lymfom er indirekte: to fase 2-studier i andre lymfomtyper og litteratur som i hovedsak består av oversikter og liposomale studier ved non-Hodgkin-lymfom. Daunorubicins bidrag i Hodgkin-regimer er ikke påvist.
 
+<!-- review:begin no-lic-20261106-daunorubicin-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Daunorubicins bidrag i Hodgkin-regimer er ikke påvist, og preparatet er i tillegg trukket tilbake fra markedet i Norge.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-daunorubicin-1 -->
+
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Preparatomtale med advarsler og kontraindikasjoner (ikke tilgjengelig i dag, og blokkerende for sikkerhetsscreening)
 - Direkte kliniske data for daunorubicin ved Hodgkins lymfom, eller sammenligning mot etablerte antracyklinregimer (ABVD)
 - Plan for kardiotoksisitets- og blodstatusovervåking
 - Vurdering av tilgjengelig administrasjonsform
+
+<!-- review:begin no-lic-20261106-daunorubicin-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Vurdering av tilgjengelig administrasjonsform, siden den eneste norske godkjenningen er trukket tilbake» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-daunorubicin-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «og preparatet er i tillegg trukket tilbake fra markedet i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden den eneste norske godkjenningen er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

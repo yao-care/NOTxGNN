@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 117
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Decitabine: predikert ny indikasjon Refraktær cytopeni hos barn (evidensnivå L5). Opprinnelig indikasjon: Myeloid leukemi"
 monitor_inn: "DECITABINE"
 predicted_indications: ["refractory cytopenia of childhood"]
@@ -126,12 +126,38 @@ Ytterligere sikkerhetsinformasjon, inkludert advarsler og kontraindikasjoner, fi
 **Begrunnelse:**
 Prediksjonen er biologisk plausibel, men bygger i hovedsak på modellscore, én retrospektiv kohortstudie og én kasuistikk. Det finnes ingen registrerte kliniske studier. Viktige sikkerhetsdata mangler. Foreløpig er dette et forskningsspørsmål (evidensnivå L4).
 
+<!-- review:begin no-lic-20261106-decitabine-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Dessuten er alle norske/europeiske godkjenninger opphevet, og viktige sikkerhetsdata mangler.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-decitabine-1 -->
+
 **For å gå videre kreves følgende:**
 - Hente og analysere preparatomtale (advarsler og kontraindikasjoner), som er et blokkerende datagap for sikkerhetsscreening
 - Innhente data om virkningsmekanisme fra DrugBank
 - Gjennomføre systematisk litteratursøk og vurdere relevans for pediatrisk MDS
 - Vurdere en prospektiv studie eller et register for decitabin ved refraktær cytopeni hos barn
 - Utarbeide en sikkerhetsplan for barn, med overvåking av blodstatus og vurdering av interaksjoner
+
+<!-- review:begin no-lic-20261106-decitabine-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklare hvorfor godkjenningene er opphevet, og om legemidlet er tilgjengelig i Norge på annen måte / Gjennomføre systematisk litteratursøk og vurdere relevans for pediatrisk MDS» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-decitabine-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Dessuten er alle norske/europeiske godkjenninger opphevet, og v» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Avklare hvorfor godkjenningene er opphevet, og om legemidlet er tilgjengelig i Norge på annen måte» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

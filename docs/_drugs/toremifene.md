@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 428
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Toremifene: predikert ny indikasjon HIV-infeksjon (evidensnivå L5). Opprinnelig indikasjon: Brystkreft (Breast Neoplasms)"
 monitor_inn: "TOREMIFENE"
 predicted_indications: ["HIV infectious disease"]
@@ -124,12 +124,31 @@ Se preparatomtalen for øvrig sikkerhetsinformasjon.
 **Begrunnelse:**
 Prediksjonen bygger kun på en modellscore uten kliniske studier, og den eneste litteraturen gjelder soppinfeksjon, ikke HIV.
 
+<!-- review:begin no-lic-20261106-toremifene-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Prediksjonen bygger kun på en modellscore uten kliniske studier, og den eneste litteraturen gjelder soppinfeksjon, ikke HIV. Kombinert med at godkjenningen i Norge er opphevet og at QT-risiko og mange interaksjoner begrenser praktisk bruk, er evidensen for svak til å gå videre.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-toremifene-1 -->
+
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA)
 - Preparatomtale med advarsler og kontraindikasjoner
 - Preklinisk dokumentasjon for antiviral aktivitet mot HIV, eller en avklaring av om fokus bør være HIV-assosiert kryptokokkose
 - Vurdering av QT-risiko og interaksjoner med antiretrovirale legemidler og soppmidler
 - Avklaring av markedsstatus og tilgjengelige produkter i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Kombinert med at godkjenningen i Norge er opphevet og at QT-risiko og mange interaksjoner begrenser praktisk bruk, er evidensen for svak til» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

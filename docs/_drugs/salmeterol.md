@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 376
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "salmeterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: predikert ny indikasjon Luftveismisdannelse (respiratory malformation) (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene"
@@ -111,6 +111,18 @@ Prediksjonen bygger kun på en beregningsmessig modell med høy score (0,9991). 
 - Preparatomtalens advarsler og kontraindikasjoner, som mangler i de innsamlede dataene
 - Klinisk eller prekliniske studier som direkte undersøker salmeterol ved luftveismisdannelse
 - En klinisk avgrensning av hvilke undergrupper (for eksempel funksjonelle ciliedefekter) som eventuelt kan være aktuelle
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-10-31 | Fjernet: «Siden bruken i stor grad overlapper med eksisterende praksis, og fordi preparatet i dag kun har en avregistrert godkjenning i Norge, bør bru» | Finnes ikke lenger etter at rapporten ble generert på nytt (2026-11-12: rapporten ble generert på nytt i november 2026 og inneholder ikke lenger opplysningen; tidligere: Rettet) | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

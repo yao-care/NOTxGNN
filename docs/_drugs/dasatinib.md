@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 115
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
 description: "Dasatinib: predikert ny indikasjon Ewing-sarkom (Ewing sarcoma) (evidensnivå L2). Opprinnelig indikasjon: Precursor Cell Lymphoblastic Leukemia-Lymphoma"
@@ -131,6 +131,12 @@ Informasjon fra preparatomtale (advarsler og kontraindikasjoner) mangler i datag
 **Begrunnelse:**
 Mekanismen (SRC-hemming) er plausibel og støttes av prekliniske data, men de kliniske dataene er begrenset til én liten, terminert studie og én blandet sarkomstudie, og en oversikt rapporterer manglende effekt som monoterapi ved Ewing-sarkom.
 
+<!-- review:begin no-lic-20261031-dasatinib-1 -->
+
+> **Kontrollrettelse (2026-10-31)**: Opprinnelig sto det: «Mekanismen (SRC-hemming) er plausibel og støttes av prekliniske data, men de kliniske dataene er begrenset til én liten, terminert studie og én blandet sarkomstudie, og en oversikt rapporterer manglende effekt som monoterapi ved Ewing-sarkom. Legemidlet er dessuten kun avregistrert på det norske markedet, og sikkerhetsdata fra preparatomtale mangler (blokkerende datagap).» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-10-31). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261031-dasatinib-1 -->
+
 **Dette trengs for å gå videre:**
 - Hente og analysere preparatomtale (advarsler og kontraindikasjoner) for å fullføre sikkerhetsscreening
 - Innhente detaljerte data om virkningsmekanisme (f.eks. fra DrugBank)
@@ -142,6 +148,19 @@ Mekanismen (SRC-hemming) er plausibel og støttes av prekliniske data, men de kl
 - *Myeloid leukemi* (evidensnivå L1, Proceed with Guardrails): støttet av blant annet DASISION (5-årsresultater) og flere fase 3-studier ved KML, men dette er i stor grad en indikasjon innenfor eller tett opp mot eksisterende godkjenning. Resultatene fra fase 3-studien ved CBF-AML (PMID 41490515) var ikke tilgjengelige i datagrunnlaget.
 - *Liposarkom* og *dermatofibrosarcoma protuberans* (L4, Hold): kun prekliniske eller indirekte data.
 - Øvrige prediksjoner (L5, Hold): ingen kliniske studier eller litteratur, kun beregnet prediksjon.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-10-31 | Fjernet: «Legemidlet er dessuten kun avregistrert på det norske markedet, og sikkerhetsdata fra preparatomtale mangler (blokkerende datagap)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 271
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Micafungin: predikert ny indikasjon Urinveisinfeksjon (evidensnivå L3). Opprinnelig indikasjon: Candidiasis"
 monitor_inn: "MICAFUNGIN"
 predicted_indications: ["urinary tract infection (disease)"]
@@ -115,12 +115,38 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Begrunnelse:**
 Evidensen består hovedsakelig av kasuistikker, kasusserier og retrospektive kohortstudier, uten registrerte kliniske studier. TxGNN-scoren er kun en prediksjon og er ikke vektlagt som klinisk evidens.
 
+<!-- review:begin no-lic-20261031-micafungin-1 -->
+
+> **Kontrollrettelse (2026-10-31)**: Opprinnelig sto det: «Lav urinutskillelse av aktivt legemiddel er et reelt farmakologisk forbehold, og preparatet er kun avregistrert i Norge. TxGNN-scoren er kun en prediksjon og er ikke vektlagt som klinisk evidens.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-10-31). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261031-micafungin-1 -->
+
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (kritisk mangel som blokkerer sikkerhetsscreening)
 - Data om virkningsmekanisme fra DrugBank
 - Sammenligning av urinkonsentrasjoner og klinisk effekt i prospektive studier, helst kontrollerte
 - Vurdering av nyrefunksjon og pyoureter, gitt kontraindikasjonene fra kunnskapsgrafen
 - Avklaring av tilgjengelighet og doseringsformer i Norge
+
+<!-- review:begin no-lic-20261106-micafungin-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av tilgjengelighet og doseringsformer i Norge, siden den eneste godkjenningen er avregistrert» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-micafungin-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-10-31 | Fjernet: «Lav urinutskillelse av aktivt legemiddel er et reelt farmakologisk forbehold, og preparatet er kun avregistrert i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden den eneste godkjenningen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

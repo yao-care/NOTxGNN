@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 443
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan: predikert ny indikasjon Malign hypertensiv nyresykdom (malignant hypertensive renal disease) (evidensnivå L4). Opprinnelig indikasjon: Hypertension"
@@ -99,6 +99,12 @@ Til sammenligning gjelder en sekundær indikasjon, malign renovaskulær hyperten
 
 Dosering/legemiddelform er ikke oppgitt i dataene.
 
+<!-- review:begin no-lic-20261106-valsartan-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Alle 9 godkjenninger er opphevet. Dosering/legemiddelform er ikke oppgitt i dataene.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 9, hvorav gyldige: 9; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-valsartan-1 -->
+
 | Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
 | EMEA/H/C/000716 | Exforge | – | Hypertensjon |
@@ -128,12 +134,32 @@ Informasjon fra pakningsvedlegget (advarsler og kontraindikasjoner) var ikke til
 **Begrunnelse:**
 Prediksjonen bygger på en høy modellscore og et plausibelt mekanistisk grunnlag, men det finnes ingen kliniske studier og ingen direkte litteratur om valsartan for denne indikasjonen (evidensnivå L4). Viktige sikkerhetsdata mangler.
 
+<!-- review:begin no-lic-20261106-valsartan-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «I tillegg er alle norske/europeiske godkjenninger opphevet, og viktige sikkerhetsdata mangler.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 9, hvorav gyldige: 9; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-valsartan-2 -->
+
 **For å gå videre trengs følgende:**
 - Sikkerhetsdata fra preparatomtalen (advarsler og kontraindikasjoner), som i dag blokkerer sikkerhetsvurderingen
 - Data om virkningsmekanisme fra DrugBank
 - Direkte prekliniske og kliniske data for valsartan ved malign hypertensiv nyresykdom
 - Avklaring av regulatorisk status og tilgjengelige produkter i Norge
 - Plan for overvåking av nyrefunksjon og kalium, særlig ved nyrearteriestenose
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Alle 9 godkjenninger er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «I tillegg er alle norske/europeiske godkjenninger opphevet, og v» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

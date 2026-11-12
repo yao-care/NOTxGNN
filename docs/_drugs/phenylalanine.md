@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 324
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Phenylalanine: predikert ny indikasjon Skleroserende kolangitt (evidensnivå L4). Opprinnelig indikasjon: Maple Syrup Urine Disease (lønnesirupsykdom)"
 monitor_inn: "phenylalanine"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
@@ -75,6 +75,12 @@ Dette er observasjonelle biomarkør- og stoffskifteassosiasjoner, ikke bevis for
 
 Det er foreløpig ingen relevante kliniske studier registrert.
 
+<!-- review:begin no-lic-20261106-phenylalanine-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Denne godkjenningen er registrert som avsluttet/tilbakekalt.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-phenylalanine-1 -->
+
 ---
 
 ## Litteraturevidens
@@ -121,6 +127,19 @@ Prediksjonen bygger kun på en beregningsmessig modell. Det finnes ingen klinisk
 - Prekliniske eller mekanistiske studier som kobler fenylalanin til patofysiologien ved skleroserende kolangitt
 - Avklaring av administrasjonsvei og formulering for den nye indikasjonen
 - Vurdering av kontraindikasjonene fra kunnskapsgrafen, særlig nyresykdom og hjerte- og karsykdom, som er vanlige komplikasjoner ved leversykdom
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Denne godkjenningen er registrert som avsluttet/tilbakekalt» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

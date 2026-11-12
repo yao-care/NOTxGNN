@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 357
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "RETEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "heparin cofactor 2 deficiency", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "antithrombin deficiency type 2", "hemolytic anemia due to glucophosphate isomerase deficiency"]
 description: "Reteplase: predikert ny indikasjon Congenital coronary artery anomaly (evidensnivå L5). Opprinnelig indikasjon: Myocardial Infarction"
@@ -85,7 +85,6 @@ For posteroinferiørt myokardinfarkt finnes foreløpig ingen relatert litteratur
 |---------|------|------|-----------|
 | EMEA/H/C/000105 | Rapilysin | Ikke oppgitt | Myokardinfarkt |
 
-
 ## Sikkerhetsvurderinger
 
 - **Legemiddelinteraksjoner:** Totalt 100 interaksjoner er registrert. Eksempler på de viktigste (alvorlighetsgrad «Major», økt blødningsrisiko er forventet for antitrombotiske midler):
@@ -107,12 +106,31 @@ For øvrig sikkerhetsinformasjon (advarsler og kontraindikasjoner), se preparato
 **Begrunnelse:**
 Den predikerte indikasjonen er en undertype av den allerede godkjente indikasjonen, og det finnes verken kliniske studier eller direkte litteratur. Den høye scoren er trolig et resultat av ontologinærhet. Den sentrale EU-godkjenningen (EMA) er dessuten avregistrert; nasjonale markedsføringstillatelser (DMP) finnes ikke i dataene som er brukt her.
 
+<!-- review:begin no-lic-20261031-reteplase-1 -->
+
+> **Kontrollrettelse (2026-10-31)**: Opprinnelig sto det: «Produktet er dessuten ikke lenger markedsført i Norge.» Fjernet: opplysningen stemte ikke med EMAs godkjenningsdata (2026-10-31). Antall godkjenninger i dataene: 1, hvorav gyldige: 0; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261031-reteplase-1 -->
+
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Direkte kliniske data for den aktuelle undertypen, eller en avklaring av at den allerede dekkes av den opprinnelige indikasjonen
 - Avklaring av kommersiell tilgjengelighet, siden den eneste godkjenningen er kansellert
 - Eventuelt fokus på koronarstenose (L4) som et mulig forskningsspørsmål, med forbehold om at facilitert PCI generelt ikke har vist klar nytte
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-10-31 | Fjernet: «P u t t kk nger N g» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

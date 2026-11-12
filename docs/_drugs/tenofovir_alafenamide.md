@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 409
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "TENOFOVIR ALAFENAMIDE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Tenofovir Alafenamide: predikert ny indikasjon Felint ervervet immunsviktsyndrom (feline acquired immunodeficiency syndrome) (evidensnivå L5). Opprinnelig indikasjon: Hepatitis B"
@@ -81,6 +81,12 @@ Foreløpig er det ikke registrert noen relaterte kliniske studier.
 
 For FIV finnes det ingen relevant litteratur. Tabellen nedenfor gjelder den nærliggende prediksjonen **SIV-infeksjon** og er basert på tittel og kort sammendrag, ikke fulltekst. Effektstørrelser er ikke verifisert.
 
+<!-- review:begin no-lic-20261106-tenofovir_alafenamide-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «*Ytterligere tre avregistrerte tillatelser (Emtricitabine/Tenofovir alafenamide Viatris, Emtricitabine/Rilpivirine/Tenofovir Alafenamide Viatris og Symtuza) er ikke vist.*» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 8, hvorav gyldige: 8; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-tenofovir_alafenamide-1 -->
+
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
 | [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Preklinisk (makak) | J Infect Dis | Oral emtricitabin/TAF som pre-eksponeringsprofylakse beskyttet makaker mot rektal SHIV-infeksjon |
@@ -126,6 +132,26 @@ Prediksjonen for FIV bygger bare på modellscore og klassemekanisme, uten klinis
 - Advarsler og kontraindikasjoner fra preparatomtalen
 - FIV-spesifikke data (veterinære studier) før en videre vurdering
 - For SIV: vurdering av om funnene tilfører noe utover den godkjente HIV-indikasjonen (forskningsspørsmål)
+
+<!-- review:begin no-lic-20261106-tenofovir_alafenamide-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av hvorfor tillatelsene er avregistrert og om en ny tillatelse er aktuell / For SIV: vurdering av om funnene tilfører noe utover den godkjente HIV-indikasjonen (forskningsspørsmål)» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 8, hvorav gyldige: 8; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-tenofovir_alafenamide-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «*Ytterligere tre avregistrerte tillatelser (Emtricitabine/Tenofovir alafenamide Viatris, Emtricitabine/Rilpivirine/Tenofovir Alafenamide Via» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «Avklaring av hvorfor tillatelsene er avregistrert og om en ny tillatelse er aktuell» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

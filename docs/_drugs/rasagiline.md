@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 348
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Rasagiline: predikert ny indikasjon PLA2G6-assosiert nevrodegenerasjon (evidensnivå L5). Opprinnelig indikasjon: Parkinsons sykdom"
 monitor_inn: "RASAGILINE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
@@ -109,6 +109,12 @@ Pakningsvedlegget er ikke tilgjengelig i de innsamlede dataene, så advarsler og
 **Begrunnelse:**
 Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier eller publikasjoner. Mekanismekoblingen er spekulativ, MOA-data mangler, og sikkerhetsdata fra preparatomtalen er ikke tilgjengelig.
 
+<!-- review:begin no-lic-20261106-rasagiline-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Mekanismekoblingen er spekulativ, MOA-data mangler, og sikkerhetsdata fra preparatomtalen er ikke tilgjengelig. Alle norske godkjenninger er dessuten opphevet.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 3, hvorav gyldige: 3; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-rasagiline-1 -->
+
 **For å gå videre kreves følgende:**
 - Hente og analysere pakningsvedlegg/preparatomtale (advarsler og kontraindikasjoner), som er en blokkerende datamangel
 - Hente data om virkningsmekanisme (MOA) fra DrugBank
@@ -118,6 +124,19 @@ Prediksjonen bygger kun på modellscore (evidensnivå L5), uten kliniske studier
 
 **Tilleggsmerknad om andre prediksjoner:**
 Blant de øvrige predikerte indikasjonene er **juvenil parkinsonisme (Hunt-type)** (score 0,9925, evidensnivå L4, anbefaling «forskningsspørsmål») den mest troverdige kandidaten. Den ligger nær den godkjente indikasjonen Parkinsons sykdom, men evidensen er indirekte (ekstrapolert) og krever målrettet gjennomgang. De øvrige (Rasmussen-encefalitt, myelitt, transaldolasemangel og polymikrogyri med cerebellær hypoplasi) har svake eller ingen mekanistiske koblinger og anbefales som Hold.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Alle norske godkjenninger er dessuten opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

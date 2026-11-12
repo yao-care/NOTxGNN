@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 44
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Atosiban: predikert ny indikasjon Primær arvelig glaukom (evidensnivå L5). Opprinnelig indikasjon: Prematur fødselsrier (Obstetric Labor, Premature)"
 monitor_inn: "ATOSIBAN"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "alopecia", "hypotrichosis simplex of the scalp", "vascular disease", "diffuse alopecia areata", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "visceral calciphylaxis"]
@@ -80,6 +80,12 @@ Foreløpig er det ingen relatert litteratur tilgjengelig for primær arvelig gla
 
 For sammenligning: For den predikerte indikasjonen «vaskulær sykdom» (rangert som nr. 6) ble det funnet litteratur, men den er nesten utelukkende prekliniske rottestudier av oksytocinmediert kardiobeskyttelse (agonist, ikke atosiban) og kan ikke regnes som støtte for atosiban ved glaukom.
 
+<!-- review:begin no-lic-20261106-atosiban-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Begge godkjenningene har status avregistrert.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-atosiban-1 -->
+
 ---
 
 ## Markedsinformasjon for Norge
@@ -112,6 +118,19 @@ Prediksjonen om primær arvelig glaukom er kun modellbasert (L5), uten kliniske 
 - Prekliniske studier (for eksempel i modeller for intraokulært trykk) som kan teste hypotesen
 - Preparatomtale med advarsler og kontraindikasjoner for en fullstendig sikkerhetsvurdering
 - Vurdering av administrasjonsvei: atosiban gis intravenøst, noe som er lite egnet ved kronisk øyesykdom, og lokal øyeformulering må avklares
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Begge godkjenningene har status avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

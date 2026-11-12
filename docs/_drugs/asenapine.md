@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 39
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "Asenapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "syndromic myopia", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Asenapine: predikert ny indikasjon Retinal dystrofi med eller uten ekstraokulære avvik (retinal dystrophy with or without extraocular anomalies) (evidensnivå L5)."
@@ -129,6 +129,12 @@ Informasjon fra preparatomtalen (advarsler og kontraindikasjoner) mangler i data
 **Begrunnelse:**
 Prediksjonen for retinal dystrofi bygger utelukkende på modellscoren (evidensnivå L5), uten kliniske studier, litteratur eller plausibel mekanisme. Kunnskapsgrafen viser et omfattende sett av potensielle kontraindikasjoner.
 
+<!-- review:begin no-lic-20261106-asenapine-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «I tillegg er den eneste norske tillatelsen trukket tilbake, og kunnskapsgrafen viser et omfattende sett av potensielle kontraindikasjoner.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-asenapine-1 -->
+
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Preparatomtale fra DMP (advarsler og kontraindikasjoner) for sikkerhetsscreening
@@ -136,6 +142,26 @@ Prediksjonen for retinal dystrofi bygger utelukkende på modellscoren (evidensni
 - Avklaring av markedsstatus i Norge
 - Vurdering av ruteforenlighet og likhet mellom opprinnelig og ny indikasjon
 - Dersom en indikasjon innen affektive lidelser skal følges opp, må det avklares om den utgjør en reell ny bruk, og ikke bare den eksisterende bipolar-indikasjonen
+
+<!-- review:begin no-lic-20261106-asenapine-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av markedsstatus i Norge, siden tillatelsen er trukket tilbake» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-asenapine-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «I tillegg er den eneste norske tillatelsen trukket tilbake, og k» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden tillatelsen er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

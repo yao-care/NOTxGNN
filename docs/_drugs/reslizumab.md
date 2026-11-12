@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Reslizumab: predikert ny indikasjon immunmediert trombocytopeni (evidensnivå L5). Opprinnelig indikasjon: Astma"
 monitor_inn: "RESLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets"]
@@ -101,6 +101,12 @@ Se pakningsvedlegget for sikkerhetsinformasjon.
 **Begrunnelse:**
 Prediksjonen bygger kun på en beregningsmodell uten støtte fra kliniske studier eller litteratur, og det er ikke etablert noen mekanistisk kobling mellom IL-5-blokade og immunmediert trombocytopeni.
 
+<!-- review:begin no-lic-20261106-reslizumab-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Prediksjonen bygger kun på en beregningsmodell uten støtte fra kliniske studier eller litteratur, og det er ikke etablert noen mekanistisk kobling mellom IL-5-blokade og immunmediert trombocytopeni. I tillegg er legemidlets eneste godkjenning avregistrert.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-reslizumab-1 -->
+
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) for å vurdere den mekanistiske koblingen
 - Sikkerhetsinformasjon fra pakningsvedlegget (advarsler og kontraindikasjoner), som er en forutsetning for sikkerhetsscreening
@@ -118,6 +124,19 @@ TxGNN rangerer også **primær frigjøringsforstyrrelse av blodplater** (score 0
 | [20565230](https://pubmed.ncbi.nlm.nih.gov/20565230/) | 2010 | Oversikt | Current Medical Research and Opinion | Behandling av hypereosinofilt syndrom, inkludert anti-IL-5-antistoffet mepolizumab. Gjelder eosinofil sykdom, ikke blodplatefunksjon |
 
 Artikkelen støtter legemiddelklassens aktivitet ved eosinofilstyrte tilstander, men ikke denne indikasjonen. Det finnes ingen kliniske studier.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «I tillegg er legemidlets eneste godkjenning avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

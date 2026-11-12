@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 247
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Lipegfilgrastim: predikert ny indikasjon Primær frigjøringsforstyrrelse i blodplater (evidensnivå L5). Opprinnelig indikasjon: Ikke tilgjengelig i dataene"
 monitor_inn: "LIPEGFILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "severe nonproliferative diabetic retinopathy", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "diabetic retinopathy"]
@@ -108,12 +108,31 @@ Se preparatomtalen (pakningsvedlegget) for sikkerhetsinformasjon. Dataene som er
 **Begrunnelse:**
 Prediksjonen bygger utelukkende på en modellscore (evidensnivå L5), uten kliniske studier, litteratur eller en plausibel mekanistisk forklaring.
 
+<!-- review:begin no-lic-20261106-lipegfilgrastim-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Prediksjonen bygger utelukkende på en modellscore (evidensnivå L5), uten kliniske studier, litteratur eller en plausibel mekanistisk forklaring. I tillegg er den eneste kjente tillatelsen avregistrert, og sikkerhetsdata mangler.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-lipegfilgrastim-1 -->
+
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Opplysninger om opprinnelig godkjent indikasjon og doseringsform
 - Prekliniske eller mekanistiske studier som kan underbygge en kobling mellom G-CSF-signalering og blodplatefunksjon
 - Vurdering av administrasjonsvei og tilgjengelighet i Norge, siden det ikke finnes noen gyldig tillatelse
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «I tillegg er den eneste kjente tillatelsen avregistrert, og sikkerhetsdata mangler» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

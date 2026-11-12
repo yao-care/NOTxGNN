@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 223
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ipilimumab: predikert ny indikasjon Choroideremi (evidensnivå L5). Opprinnelig indikasjon: Melanom, nyrecellekarsinom, ikke-småcellet lungekreft…"
 monitor_inn: "IPILIMUMAB"
 predicted_indications: ["choroideremia"]
@@ -115,12 +115,31 @@ Foreløpig finnes det ingen relatert litteratur om ipilimumab ved choroideremi.
 **Begrunnelse:**
 Prediksjonen bygger kun på modellscore, uten kliniske studier, litteratur eller biologisk forklaring. Sykdommen er ikke immun- eller tumordrevet, og de immunrelaterte bivirkningene (som uveitt) kan skade netthinnen ytterligere.
 
+<!-- review:begin no-lic-20261106-ipilimumab-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Sykdommen er ikke immun- eller tumordrevet, og de immunrelaterte bivirkningene (som uveitt) kan skade netthinnen ytterligere. Ipilimumabs tillatelse i Norge er dessuten avregistrert.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-ipilimumab-1 -->
+
 **For å gå videre kreves følgende:**
 - Prekliniske data eller mekanistiske studier som kan vise en biologisk kobling mellom CTLA-4-blokkade og choroideremi
 - Vurdering av netthinnesikkerhet, særlig risiko for uveitt
 - Detaljerte data om virkningsmekanisme og preparatomtale (advarsler og kontraindikasjoner)
 
 **Merknad:** For en annen prediksjon i samme analyse, **ikke-kutant melanom** (som uveale og mukosale melanomer), er evidensen bedre. Der finnes fase 2-studier av nivolumab pluss ipilimumab ved uvealt melanom (NCT02626962, n=52). Det er imidlertid en subtypeutvidelse av en eksisterende indikasjon og ikke en reell repurposing. Den kan vurderes separat, med forbehold om subtypespesifikk effekt og overvåking av immunrelaterte bivirkninger.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Ipilimumabs tillatelse i Norge er dessuten avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

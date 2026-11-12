@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 276
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Moroctocog Alfa: predikert ny indikasjon Primær frigjøringsforstyrrelse i blodplater (evidensnivå L5). Opprinnelig indikasjon: Hemofili A"
 monitor_inn: "MOROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
@@ -111,12 +111,38 @@ Data om sikkerhet er ikke tilgjengelige i det kompilerte datagrunnlaget. Se prep
 **Begrunnelse:**
 Alle predikerte indikasjoner er kun modellbaserte (L5) uten kliniske studier eller litteratur. For de fleste kandidatene er den mekanistiske koblingen svak fordi defektene ligger i blodplatene og ikke i faktor VIII.
 
+<!-- review:begin no-lic-20261031-moroctocog_alfa-1 -->
+
+> **Kontrollrettelse (2026-10-31)**: Opprinnelig sto det: «For de fleste kandidatene er den mekanistiske koblingen svak fordi defektene ligger i blodplatene og ikke i faktor VIII. Preparatet er dessuten kun registrert som avregistrert i Norge.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-10-31). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261031-moroctocog_alfa-1 -->
+
 **For å gå videre kreves følgende:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel for sikkerhetsscreening)
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Dersom man vil utforske videre: fokusere på «ervervet koagulasjonsfaktormangel» med en presis sykdomsdefinisjon og en målrettet litteratur- og studiesøk
 - Avklaring av sykdomsentiteten «flood factor deficiency»
 - Vurdering av preparatets tilgjengelighet i Norge
+
+<!-- review:begin no-lic-20261106-moroctocog_alfa-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Vurdering av preparatets tilgjengelighet i Norge, siden tillatelsen er avregistrert» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-moroctocog_alfa-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-10-31 | Fjernet: «Preparatet er dessuten kun registrert som avregistrert i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden tillatelsen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

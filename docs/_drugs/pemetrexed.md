@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 319
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: predikert ny indikasjon Pleural adenomatoid tumor (evidensnivå L2). Opprinnelig indikasjon: Carcinoma, Non-Small-Cell Lung"
@@ -103,6 +103,12 @@ Bukhinnemesoteliom har samme histologi og kjemosensitivitet som mesoteliom i bry
 
 Legemidlet er markedsført i Norge.
 
+<!-- review:begin no-lic-20261106-pemetrexed-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Alle fire godkjenninger er gyldige, og legemidlet er markedsført i Norge.» Fjernet: antallet eller statusen for godkjenningene stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 4, hvorav gyldige: 3; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-pemetrexed-1 -->
+
 ## Cytotoksisitet
 
 | Punkt | Innhold |
@@ -144,6 +150,26 @@ Mekanismen er biologisk plausibel, og pemetreksed pluss platina brukes allerede 
 - Resultater fra pågående randomiserte fase 2-studier (NCT05001880, NCT06057935).
 - Klargjøring av regulatorisk status i Norge.
 - Plan for sikkerhetsovervåking: blodbilde, nyrefunksjon og vurdering av interaksjoner (spesielt med nyretoksiske og NSAID-lignende legemidler), samt folat- og B12-tilskudd i tråd med standard praksis.
+
+<!-- review:begin no-lic-20261106-pemetrexed-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Klargjøring av regulatorisk status i Norge; legemidlet er markedsført med 4 gyldige godkjenninger av 4.» Fjernet: antallet eller statusen for godkjenningene stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 4, hvorav gyldige: 3; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-pemetrexed-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Alle fire godkjenninger er gyldige, og l» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «legemidlet er markedsført med 4 gyldige godkjenninger av 4» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

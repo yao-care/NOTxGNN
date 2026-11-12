@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 447
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
 description: "Venetoclax: predikert ny indikasjon Hodgkins lymphoma (evidensnivå L5). Opprinnelig indikasjon: Leukemia, Lymphocytic, Chronic, B-Cell"
@@ -85,7 +85,6 @@ Foreløpig ingen relaterte kliniske studier registrert.
 
 ## Markedsinformasjon for Norge
 
-
 ---
 
 ## Cytotoksisitet
@@ -127,12 +126,31 @@ For øvrig sikkerhetsinformasjon, se pakningsvedlegget.
 **Begrunnelse:**
 Prediksjonen gjelder en undergruppe av den allerede godkjente KLL-indikasjonen, og det finnes ingen undergruppespesifikke studier. Støtten er i praksis en modellscore og én biologisk oversiktsartikkel.
 
+<!-- review:begin no-lic-20261031-venetoclax-1 -->
+
+> **Kontrollrettelse (2026-10-31)**: Opprinnelig sto det: «Støtten er i praksis en modellscore og én biologisk oversiktsartikkel. Samtidig er legemidlet kun avregistrert på det norske markedet, noe som begrenser praktisk relevans.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-10-31). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261031-venetoclax-1 -->
+
 **For å gå videre trengs følgende:**
 - Undergruppeanalyser (IGHV-status) fra eksisterende KLL-studier med venetoklaks, for eksempel MURANO
 - Pakningsvedlegg med advarsler og kontraindikasjoner for en fullstendig sikkerhetsvurdering
 - Data om virkningsmekanisme
 - Avklaring av markedsstatus og tilgjengelighet i Norge
 - Vurdering av de andre prediksjonene i datagrunnlaget, som akutt myeloid leukemi (evidensnivå L1) og follikulært lymfom (L2), som har sterkere evidens og er mer reelle repurposing-kandidater
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-10-31 | Fjernet: «Samtidig er legemidlet kun avregistrert på det norske markedet, noe som begrenser praktisk relevans» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

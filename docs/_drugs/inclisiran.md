@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 213
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Inclisiran: predikert ny indikasjon Kaliummangelsykdom (potassium deficiency disease) (evidensnivå L5). Opprinnelig indikasjon: Hyperkolesterolemi"
 monitor_inn: "INCLISIRAN"
 predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
@@ -96,6 +96,12 @@ For tiden finnes det ingen relatert litteratur.
 
 Innehaver: Novartis Europharm Limited.
 
+<!-- review:begin no-lic-20261106-inclisiran-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Tillatelsen er avregistrert (status: «cancelled»). Innehaver: Novartis Europharm Limited.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-inclisiran-1 -->
+
 ---
 
 ## Sikkerhetsvurderinger
@@ -111,12 +117,39 @@ Det er ikke funnet data om legemiddelinteraksjoner. Se preparatomtalen (paknings
 **Begrunnelse:**
 Prediksjonen om kaliummangelsykdom bygger kun på en modellscore (evidensnivå L5), uten kliniske studier, litteratur eller plausibel mekanistisk kobling. Inklisirans virkning på PCSK9 og LDL-kolesterol har ingen kjent sammenheng med kaliumhomeostase.
 
+<!-- review:begin no-lic-20261106-inclisiran-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Inklisirans virkning på PCSK9 og LDL-kolesterol har ingen kjent sammenheng med kaliumhomeostase. I tillegg er den eneste registrerte tillatelsen avregistrert.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-inclisiran-2 -->
+
 **For å gå videre kreves følgende:**
 - Innhenting av preparatomtale med advarsler og kontraindikasjoner (kritisk datagap som blokkerer sikkerhetsscreening)
 - Detaljerte data om virkningsmekanisme (MOA)
 - Mekanistisk eller prekliniske data som kan begrunne en kobling mellom PCSK9-hemming og kaliumhomeostase
 - Avklaring av markedsstatus i Norge
 - Vurdering av likhet mellom opprinnelig og ny indikasjon, samt kompatibilitet for administrasjonsvei
+
+<!-- review:begin no-lic-20261106-inclisiran-3 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av markedsstatus i Norge, siden tillatelsen er avregistrert» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-inclisiran-3 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Tillatelsen er avregistrert (status: «cancelled»)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «I tillegg er den eneste registrerte tillatelsen avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden tillatelsen er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

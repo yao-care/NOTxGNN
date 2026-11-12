@@ -5,7 +5,7 @@ parent: Høy evidens (L1-L2)
 nav_order: 310
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Panobinostat: predikert ny indikasjon Myeloid leukemi (evidensnivå L2). Opprinnelig indikasjon: Multippelt myelom"
 monitor_inn: "panobinostat"
 predicted_indications: ["myeloid leukemia"]
@@ -148,12 +148,38 @@ Ellers henvises det til preparatomtalen for informasjon om advarsler og kontrain
 **Begrunnelse:**
 Den høye TxGNN-scoren og flere fase 1/2-studier (blant annet med azacitidin) gir et rimelig biologisk grunnlag. Den eneste fase 3-studien ble avsluttet tidlig med bare 52 pasienter og kan ikke regnes som bekreftende evidens.
 
+<!-- review:begin no-lic-20261106-panobinostat-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Den eneste fase 3-studien ble avsluttet tidlig med bare 52 pasienter og kan ikke regnes som bekreftende evidens. Produktet er avregistrert i Norge, og data om advarsler og kontraindikasjoner mangler, noe som hindrer sikkerhetsscreening.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-panobinostat-1 -->
+
 **For å gå videre kreves følgende:**
 - Innhente og analysere preparatomtale (advarsler og kontraindikasjoner), siden dette er en blokkerende datamangel
 - Hente inn data om virkningsmekanisme (MOA) fra DrugBank
 - Avklare hvorfor NCT04326764 ble avsluttet, og hente publiserte resultater fra fase 2-studiene (særlig NCT00946647 og NCT00880269)
 - Vurdere tilgjengelighet i Norge, og avklare mulige administrasjonsveier
 - Utarbeide en plan for sikkerhetsovervåking (blodstatus, QT/EKG) og håndtering av legemiddelinteraksjoner
+
+<!-- review:begin no-lic-20261106-panobinostat-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Vurdere tilgjengelighet i Norge, siden Farydak er avregistrert, og avklare mulige administrasjonsveier» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-panobinostat-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Produktet er avregistrert i Norge, og data om advarsler og kontraindikasjoner mangler, noe som hindrer sikkerhetsscreening» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden Farydak er avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

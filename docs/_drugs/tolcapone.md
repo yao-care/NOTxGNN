@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 425
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Tolcapone: predikert ny indikasjon Rasmussens subakutte encefalitt (evidensnivå L5). Opprinnelig indikasjon: Parkinsons sykdom"
 monitor_inn: "TOLCAPONE"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "Lewy body dementia", "X-linked intellectual disability-ataxia-apraxia syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "X-linked intellectual disability-cerebellar hypoplasia syndrome", "paralysis agitans, juvenile, of Hunt"]
@@ -88,6 +88,12 @@ Foreløpig finnes det ingen relevant litteratur for Rasmussens subakutte encefal
 
 For den sjette kandidaten, Lewy body-demens, er én publikasjon funnet:
 
+<!-- review:begin no-lic-20261106-tolcapone-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Godkjenningen har status avregistrert.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-tolcapone-1 -->
+
 | PMID | År | Type | Tidsskrift | Hovedfunn |
 |------|-----|------|------|---------|
 | [39259788](https://pubmed.ncbi.nlm.nih.gov/39259788/) | 2024 | Preklinisk (iPSC-organoidmodell) | Science Advances | Modellering av Lewy body-sykdom med kortikale organoider fra pasienter med SNCA-triplikasjon, og identifisering av mulige legemidler. Studien viser ikke klinisk evidens for tolkapon. |
@@ -133,12 +139,32 @@ Tolkapon er i tillegg kjent for leverskade (hepatotoksisitet), som er grunnen ti
 **Begrunnelse:**
 Prediksjonen for Rasmussens subakutte encefalitt støttes verken av kliniske studier eller litteratur, og det finnes ingen kjent mekanistisk sammenheng. Evidensnivået er L5 (kun modellprediksjon). Leverskaderisikoen er en betydelig barriere.
 
+<!-- review:begin no-lic-20261106-tolcapone-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «I tillegg er tolkapons godkjenning i Norge avregistrert, og leverskaderisikoen er en betydelig barriere.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-tolcapone-2 -->
+
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Advarsler og kontraindikasjoner fra preparatomtalen (kritisk datahull som blokkerer sikkerhetsscreening)
 - Prekliniske studier som tester en mulig sammenheng mellom COMT-hemming og Rasmussens encefalitt
 - Vurdering av leversikkerhet og overvåkingsplan før noen klinisk utprøving
 - Eventuelt vurdere Lewy body-demens som en mer biologisk plausibel kandidat for videre litteraturgjennomgang
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Godkjenningen har status avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «I tillegg er tolkapons godkjenning i Norge avregistrert, og l» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

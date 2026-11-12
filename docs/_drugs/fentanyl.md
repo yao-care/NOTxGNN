@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 174
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Fentanyl: predikert ny indikasjon Nefrogent syndrom med uhensiktsmessig antidiurese (evidensnivå L5). Opprinnelig indikasjon: Smerte"
 monitor_inn: "FENTANYL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -117,12 +117,31 @@ Det er ikke innhentet informasjon om advarsler og kontraindikasjoner fra prepara
 **Begrunnelse:**
 Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten kliniske studier, litteratur eller plausibel mekanistisk kobling.
 
+<!-- review:begin no-lic-20261031-fentanyl-1 -->
+
+> **Kontrollrettelse (2026-10-31)**: Opprinnelig sto det: «Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten kliniske studier, litteratur eller plausibel mekanistisk kobling. Fentanyl har dessuten betydelige sikkerhetsrisikoer, mange interaksjoner, og kun avregistrerte godkjenninger i Norge.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-10-31). Antall godkjenninger i dataene: 3, hvorav gyldige: 3; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261031-fentanyl-1 -->
+
 **For å gå videre kreves følgende:**
 - Innhente preparatomtale med advarsler og kontraindikasjoner (blokkerende datagap for sikkerhetsscreening)
 - Innhente data om virkningsmekanisme (MOA) fra DrugBank
 - Påvise en biologisk begrunnelse for effekt ved NSIAD (eller Tourettes syndrom), for eksempel gjennom prekliniske studier
 - Vurdere om administrasjonsvei og formulering er forenlige med den nye indikasjonen
 - Gjennomgå risiko–nytte, særlig knyttet til avhengighet, respirasjonsdepresjon og interaksjoner
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-10-31 | Fjernet: «Fentanyl har dessuten betydelige sikkerhetsrisikoer, mange interaksjoner, og kun avregistrerte godkjenninger i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

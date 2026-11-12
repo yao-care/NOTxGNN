@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 69
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Budesonide: predikert ny indikasjon Atopisk eksem (evidensnivå L5). Opprinnelig indikasjon: Spiserørssykdom (Esophageal Diseases)"
 monitor_inn: "BUDESONIDE"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
@@ -93,6 +93,12 @@ Foreløpig er det ikke registrert noen relaterte kliniske studier for atopisk ek
 
 Alle seks godkjenninger er gyldige.
 
+<!-- review:begin no-lic-20261106-budesonide-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «(Ytterligere én opphevet godkjenning, Riltrava Aerosphere, EMEA/H/C/005311, gjelder kols.)» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 6, hvorav gyldige: 6; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-budesonide-1 -->
+
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
 | EMEA/H/C/004655 | Jorveza | – | Spiserørssykdom |
@@ -123,6 +129,12 @@ Se preparatomtalen for fullstendig informasjon om advarsler og kontraindikasjone
 **Begrunnelse:**
 Evidensnivået er L5. Det finnes ingen kliniske studier for atopisk eksem, og litteraturen består i hovedsak av studier om kontaktallergi, sikkerhet og formulering. Den høye TxGNN-scoren er ikke støttet av kliniske data.
 
+<!-- review:begin no-lic-20261106-budesonide-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Den høye TxGNN-scoren er ikke støttet av kliniske data, og alle norske godkjenninger er opphevet.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 6, hvorav gyldige: 6; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-budesonide-2 -->
+
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel)
@@ -131,6 +143,20 @@ Evidensnivået er L5. Det finnes ingen kliniske studier for atopisk eksem, og li
 - Sikkerhetsvurdering for kontaktallergi og systemisk absorpsjon, spesielt hos barn
 
 **Merknad om andre prediksjoner:** Bronkitt (rangert nr. 2, score 0,9981) har høyere evidensnivå (L2), med blant annet en randomisert fase 4-studie ved eosinofil bronkitt (NCT02002715, n=106). Den overlapper imidlertid med den opprinnelige kols-indikasjonen og er dermed neppe reell ompostering. Dette kan vurderes som et eget forskningsspørsmål.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «(Ytterligere én opphevet godkjenning, Riltrava Aerosphere, EMEA/H/C/005311, gjelder kols.)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «og alle norske godkjenninger er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

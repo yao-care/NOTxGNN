@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 335
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Prasugrel: predikert ny indikasjon Pulmonal hypertensjon (evidensnivå L5). Opprinnelig indikasjon: Akutt koronarsyndrom, ustabil angina, hjerteinfarkt"
 monitor_inn: "PRASUGREL"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
@@ -41,6 +41,12 @@ Evidensnivå: **L5** | Predikerte indikasjoner: **9** stk.
 Prasugrel er en blodplatehemmer (P2Y12-hemmer) som opprinnelig brukes ved akutt koronarsyndrom, ustabil angina og hjerteinfarkt.
 TxGNN-modellen predikerer at legemidlet kan ha effekt ved **pulmonal hypertensjon**, men det finnes **ingen kliniske studier** og **ingen direkte litteratur** som støtter denne retningen.
 Det mest underbygde alternativet blant de predikerte indikasjonene er **migrene (assosiert med åpen foramen ovale, PFO)**, med 2 kliniske studier og 2 publikasjoner som gir indirekte støtte.
+
+<!-- review:begin no-lic-20261106-prasugrel-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Merk: Den eneste registrerte tillatelsen (Efient, EMEA/H/C/000984) er en sentral europeisk tillatelse og er markert som trukket tilbake.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-prasugrel-1 -->
 
 ---
 
@@ -147,6 +153,26 @@ For pulmonal hypertensjon er prediksjonen utelukkende modellbasert (L5), uten kl
 - For migrene: en randomisert, kontrollert studie som faktisk tester prasugrel (eller P2Y12-hemmere) hos pasienter med PFO-assosiert migrene
 - Vurdering av blødningsrisiko og en overvåkingsplan for aktuelle pasientgrupper
 - Avklaring av regulatorisk status
+
+<!-- review:begin no-lic-20261106-prasugrel-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av regulatorisk status, siden den eneste tillatelsen er trukket tilbake» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-prasugrel-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Merk: Den eneste registrerte tillatelsen (Efient, EMEA/H/C/000984) er en sentral europeisk tillatelse og er markert som trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden den eneste tillatelsen er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

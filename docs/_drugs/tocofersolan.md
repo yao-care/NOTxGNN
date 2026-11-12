@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 424
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Tocofersolan: predikert ny indikasjon Amenoré (evidensnivå L5). Opprinnelig indikasjon: Kolestase"
 monitor_inn: "TOCOFERSOLAN"
 predicted_indications: ["amenorrhea (disease)", "acne (disease)"]
@@ -101,12 +101,38 @@ Se pakningsvedlegget for sikkerhetsinformasjon.
 **Begrunnelse:**
 Prediksjonen for amenoré hviler utelukkende på en modellscore uten støtte fra kliniske studier eller litteratur (evidensnivå L5).
 
+<!-- review:begin no-lic-20261106-tocofersolan-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Prediksjonen for amenoré hviler utelukkende på en modellscore uten støtte fra kliniske studier eller litteratur (evidensnivå L5). Den eneste tillatelsen i Norge er trukket tilbake, og sikkerhetsdata og virkningsmekanisme mangler.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-tocofersolan-1 -->
+
 **For å gå videre kreves følgende:**
 - Pakningsvedlegg med advarsler og kontraindikasjoner (blokkerende datamangel, må på plass før sikkerhetsscreening)
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Litteratursøk og søk etter kliniske studier på vitamin E/tokofersolan ved amenoré
 - Avklaring av administrasjonsvei og formulering
 - Vurdering av markedstilgjengelighet i Norge
+
+<!-- review:begin no-lic-20261106-tocofersolan-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av administrasjonsvei og formulering, siden tilgjengelige produkter er trukket tilbake» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-tocofersolan-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Den eneste tillatelsen i Norge er trukket tilbake, og sikkerhetsdata og virkningsmekanisme mangler» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden tilgjengelige produkter er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

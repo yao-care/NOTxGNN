@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Mogamulizumab: predikert ny indikasjon Urotelkarsinom i prostatisk uretra (evidensnivå L5). Opprinnelig indikasjon: Sézarys syndrom"
 monitor_inn: "MOGAMULIZUMAB"
 predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "human herpesvirus 8-related tumor", "ectomesenchymoma", "malignant cutaneous granular cell skin tumor"]
@@ -135,12 +135,31 @@ Mange av de alvorlige og moderate interaksjonene gjelder immunsuppressive legemi
 **Begrunnelse:**
 Alle predikerte indikasjoner bygger kun på modellprediksjon (L5), uten kliniske studier eller litteratur. Sikkerhetsdata fra preparatomtalen mangler.
 
+<!-- review:begin no-lic-20261106-mogamulizumab-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Det eneste norske markedsføringstillatelsen er avregistrert, og sikkerhetsdata fra preparatomtalen mangler.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-mogamulizumab-1 -->
+
 **For å gå videre kreves:**
 - Preparatomtale med advarsler og kontraindikasjoner (blokkerende datamangel)
 - Detaljerte data om virkningsmekanisme (MOA) fra DrugBank
 - Prekliniske data, f.eks. CCR4- og Treg-infiltrasjon i prøver fra urotelkarsinom
 - For HHV-8-relaterte tumorer: forskningsspørsmål for å teste CCR4-uttrykk og Treg-involvering før klinisk vurdering
 - Avklaring av markedsstatus og tilgjengelighet i Norge
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Det eneste norske markedsføringstillatelsen er avregistrert, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

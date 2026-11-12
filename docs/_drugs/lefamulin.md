@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 237
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Lefamulin: predikert ny indikasjon Diffus kutan leishmaniasis (evidensnivå L5). Opprinnelig indikasjon: Bakteriell lungebetennelse"
 monitor_inn: "Lefamulin"
 predicted_indications: ["leishmaniasis, diffuse cutaneous", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
@@ -118,12 +118,31 @@ Advarsler og kontraindikasjoner fra preparatomtalen mangler i de innsamlede data
 **Begrunnelse:**
 Prediksjonen bygger kun på en modellscore (L5) uten kliniske studier, litteratur eller plausibel mekanistisk kobling mellom en bakteriell ribosomhemmer og en eukaryot parasitt.
 
+<!-- review:begin no-lic-20261106-lefamulin-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Prediksjonen bygger kun på en modellscore (L5) uten kliniske studier, litteratur eller plausibel mekanistisk kobling mellom en bakteriell ribosomhemmer og en eukaryot parasitt. I tillegg er produktet avregistrert i det norske markedet.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-lefamulin-1 -->
+
 **For å gå videre kreves følgende:**
 - Data om virkningsmekanisme (MOA) og en vurdering av mulig effekt på Leishmania
 - Prekliniske data (in vitro-aktivitet mot Leishmania og dyremodeller)
 - Preparatomtale med advarsler og kontraindikasjoner for å gjennomføre sikkerhetsscreening
 - Avklaring av markedsstatus og tilgjengelige administrasjonsveier
 - Vurdering av om prediksjonen bare gjenspeiler likheter TxGNN-modellen har lært mellom beslektede sykdommer, ikke biologisk evidens
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «I tillegg er produktet avregistrert i det norske markedet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

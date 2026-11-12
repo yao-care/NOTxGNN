@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Vismodegib: predikert ny indikasjon Medulloblastom med utbredt nodularitet (evidensnivå L5). Opprinnelig indikasjon: Basalcellekarsinom"
 monitor_inn: "VISMODEGIB"
 predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
@@ -118,6 +118,12 @@ Foreløpig ingen relatert litteratur tilgjengelig.
 **Begrunnelse:**
 Prediksjonen har høy modellscore og en plausibel mekanisme via Hedgehog-signalveien, men evidensnivået er L5 uten kliniske studier eller litteratur for denne diagnosen.
 
+<!-- review:begin no-lic-20261031-vismodegib-1 -->
+
+> **Kontrollrettelse (2026-10-31)**: Opprinnelig sto det: «Prediksjonen har høy modellscore og en plausibel mekanisme via Hedgehog-signalveien, men evidensnivået er L5 uten kliniske studier eller litteratur for denne diagnosen. I tillegg avhenger responsen av mutasjonsnivå i signalveien, bruk hos barn gir sikkerhetsbekymringer, og legemidlet har kun avregistrerte godkjenninger i Norge.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-10-31). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261031-vismodegib-1 -->
+
 Til sammenligning har andre prediksjoner for vismodegib bedre støtte i datagrunnlaget:
 - **Hudkreft** (evidensnivå L2): flere fase 2-studier og retningslinjer, men indikasjonen overlapper i stor grad med den opprinnelige.
 - **Xeroderma pigmentosum** (evidensnivå L4): to kasuistikker om behandling av multiple basalcellekarsinomer hos pasienter med sykdommen.
@@ -128,6 +134,19 @@ Til sammenligning har andre prediksjoner for vismodegib bedre støtte i datagrun
 - Plan for sikkerhetsovervåking hos barn, særlig vekstsoner og vekst
 - Avklaring av tilgjengelighet i Norge, siden legemidlet er markedsført og 1 av 1 godkjenning er gyldig
 - Fullstendig gjennomgang av pakningsvedlegget (advarsler, kontraindikasjoner) og detaljerte mekanismedata
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-10-31 | Fjernet: «I tillegg avhenger responsen av mutasjonsnivå i signalveien, bruk hos barn gir sikkerhetsbekymringer, og legemidlet har kun avregistrerte go» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

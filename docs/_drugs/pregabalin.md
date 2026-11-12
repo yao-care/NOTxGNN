@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 description: "Pregabalin: predikert ny indikasjon Tendinitis (evidensnivå L5). Opprinnelig indikasjon: Anxiety Disorders"
@@ -104,6 +104,12 @@ Utvalg for migrenelidelse:
 
 Merknad om tendinitt: de hentede artiklene er i hovedsak case-rapporter eller studier av postoperativ smerte etter skulderkirurgi (f.eks. PMID 34052386), ikke studier av tendinitt. De gir ikke direkte støtte.
 
+<!-- review:begin no-lic-20261106-pregabalin-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «(Én ytterligere annullert godkjenning, Pregabalin Zentiva, er ikke vist i tabellen.)» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 6, hvorav gyldige: 6; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-pregabalin-1 -->
+
 ---
 
 ## Informasjon om det norske markedet
@@ -143,6 +149,26 @@ Den eneste fase 3-studien i migrene (NCT00447369) ble trukket tilbake og har ing
 - Randomiserte, kontrollerte studier hos voksne med migrene, helst fase 2/3 med placebo eller etablert forebyggende komparator
 - Klargjøring av regulatorisk status i Norge
 - Sikkerhetsplan som tar hensyn til interaksjon med opioider og kontraindikasjonssignalene fra kunnskapsgrafen (blant annet nedsatt nyrefunksjon, myopati og angioødem)
+
+<!-- review:begin no-lic-20261106-pregabalin-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Klargjøring av regulatorisk status i Norge, siden alle godkjenninger er annullert» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 6, hvorav gyldige: 6; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-pregabalin-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «(Én ytterligere annullert godkjenning, Pregabalin Zentiva, er ikke vist i tabellen.)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden alle godkjenninger er annullert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

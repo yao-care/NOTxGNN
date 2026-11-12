@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: predikert ny indikasjon Malignant cutaneous granular cell skin tumor (evidensnivå L5). Opprinnelig indikasjon: Stomach Neoplasms"
@@ -111,6 +111,12 @@ Utvalg av de mest relevante studiene for progesteronreseptor-positiv brystkreft:
 
 De fem første:
 
+<!-- review:begin no-lic-20261106-trastuzumab-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Alle tillatelser i datagrunnlaget er registrert som avregistrert (11 totalt). De fem første:» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 11, hvorav gyldige: 11; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-trastuzumab-1 -->
+
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
 | EMEA/H/C/000278 | Herceptin | – | Magekreft, brystkreft |
@@ -161,6 +167,19 @@ Det foreligger fullførte randomiserte fase 3-studier og sentrale RCT-publikasjo
 - PR-negativ brystkreft og luminal A/B har L1-evidens og anbefalingen Proceed with Guardrails, men bare ved HER2-positiv sykdom.
 - Prediksjonene for sjeldne svulster (rangert 5–8) har kun modellstøtte (L5) og anbefalingen Hold.
 - Urotelkarsinomene (rangert 9–10) har L5-evidens og er klassifisert som forskningsspørsmål; HER2-immunhistokjemi kreves først.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Alle tillatelser i datagrunnlaget er registrert som avregistrert (11 totalt)» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

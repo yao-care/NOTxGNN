@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 98
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Cholic Acid: predikert ny indikasjon HIV-infeksjon (HIV infectious disease) (evidensnivå L4). Opprinnelig indikasjon: Fordøyelsessykdommer"
 monitor_inn: "CHOLIC ACID"
 predicted_indications: ["HIV infectious disease", "obsolete familial combined hyperlipidemia", "homozygous familial hypercholesterolemia", "biotin metabolic disease", "vitamin deficiency disorder", "hereditary hemochromatosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hemosiderosis", "disorder of phenylalanine metabolism", "bone Paget disease"]
@@ -115,6 +115,12 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 **Begrunnelse:**
 - Evidensen for HIV er kun preklinisk og indirekte, og ett funn tyder på økt viral replikasjon. Det finnes ingen kliniske studier.
 
+<!-- review:begin no-lic-20261106-cholic_acid-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Det finnes ingen kliniske studier. / Orphacol er i tillegg avregistrert i Norge.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-cholic_acid-1 -->
+
 **For å gå videre kreves:**
 - Eksperimentelle data (celle- og dyremodeller) som viser en reproduserbar antiviral effekt av kolsyre selv, ikke av derivater.
 - Avklaring av motstridende funn om HIV-replikasjon.
@@ -122,6 +128,19 @@ For øvrig sikkerhetsinformasjon, se preparatomtalen.
 - En vurdering av interaksjonen med proteasehemmere (blant annet tipranavir).
 
 **Merknad om øvrige prediksjoner:** Blant de ti predikerte indikasjonene har «vitamin deficiency disorder» (evidensnivå L3) mest støtte, i form av kasuistikker og kohortstudier. Her er vitaminmangelen en sekundær følge av gallesyresyntesedefekter, altså den opprinnelige indikasjonen, og ikke en ny indikasjon. Resten av prediksjonene har evidensnivå L4–L5, med anbefalingen Hold.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «Orphacol er i tillegg avregistrert i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

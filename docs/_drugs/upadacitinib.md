@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Upadacitinib: predikert ny indikasjon Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (evidensnivå L5). Opprinnelig indikasjon: Revmatoid artritt"
 monitor_inn: "UPADACITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
@@ -109,12 +109,31 @@ Annen sikkerhetsinformasjon (advarsler og kontraindikasjoner fra preparatomtale)
 **Begrunnelse:**
 Prediksjonen bygger kun på en modellscore (evidensnivå L5), uten kliniske studier, uten litteratur og uten støtte for en biologisk mekanisme. Sykdommen er en sjelden utviklingsforstyrrelse som neppe vil respondere på JAK-hemming.
 
+<!-- review:begin no-lic-20261106-upadacitinib-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Sykdommen er en sjelden utviklingsforstyrrelse som neppe vil respondere på JAK-hemming. I tillegg er den eneste norske godkjenningen avregistrert.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-upadacitinib-1 -->
+
 **For å gå videre kreves følgende:**
 - Innhenting av preparatomtale (advarsler og kontraindikasjoner) fra DMP, som er en blokkerende datamangel for sikkerhetsscreening
 - Data om virkningsmekanisme (MOA), for eksempel fra DrugBank
 - Uavhengig biologisk validering av en mulig kobling mellom JAK-STAT-signalering og sykdommens patogenese
 - Gjennomgang av om prediksjonen fra TxGNN-modellen (dyp læring) bare gjenspeiler likheter modellen har lært mellom beslektede sykdommer
 - Vurdering av administrasjonsvei og legemiddelform (ikke avklart)
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «I tillegg er den eneste norske godkjenningen avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

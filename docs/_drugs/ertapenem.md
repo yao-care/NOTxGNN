@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 161
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "Ertapenem"
 predicted_indications: ["bacterial arthritis"]
 description: "Ertapenem: predikert ny indikasjon Bakteriell artritt (bacterial arthritis) (evidensnivå L5). Opprinnelig indikasjon: Bacterial Infections"
@@ -120,14 +120,40 @@ Preparatomtalens advarsler og kontraindikasjoner er ikke tilgjengelige i datagru
 **Begrunnelse:**
 Evidensen for bakteriell artritt er på L4-nivå: ingen kliniske studier og kun kasuistikker og små observasjonsserier. Den høye modellscoren skyldes hovedsakelig den kjente antibakterielle klasseeffekten. Preparatomtalens sikkerhetsdata mangler.
 
+<!-- review:begin no-lic-20261106-ertapenem-1 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «I tillegg er alle norske godkjenninger opphevet, og preparatomtalens sikkerhetsdata mangler.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-ertapenem-1 -->
+
 **For å gå videre trengs:**
 - Preparatomtalens advarsler og kontraindikasjoner, som må innhentes og gjennomgås før sikkerhetsvurdering.
 - Data om virkningsmekanisme (MOA).
 - Kontrollerte eller sammenlignende studier av ertapenem ved bakteriell artritt og bein- og leddinfeksjoner.
 - Avklaring av regulatorisk status i Norge.
 
+<!-- review:begin no-lic-20261106-ertapenem-2 -->
+
+> **Kontrollrettelse (2026-11-06)**: Opprinnelig sto det: «Avklaring av regulatorisk status i Norge, siden begge godkjenningene er opphevet.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-06). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261106-ertapenem-2 -->
+
 **Merknad om en annen kandidat:**
 Den gjelder ertapenem som tillegg til cefazolin ved vedvarende MSSA-bakteriemi. Evidensen er to registrerte pågående studier, flere kasuistikkserier og en sammenlignende studie ([PMID 38946294](https://pubmed.ncbi.nlm.nih.gov/38946294/)). Studiene er [NCT04886284](https://clinicaltrials.gov/study/NCT04886284) (fase 2, n=60, rekrutterer) og [NCT07148960](https://clinicaltrials.gov/study/NCT07148960) (fase 4, n=300, åpen for invitasjon). Ingen av dem har publiserte resultater ennå, og kandidaten bør følges videre som et eget forskningsspørsmål.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-06 | Fjernet: «I tillegg er alle norske godkjenninger opphevet, og p» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-06 | Fjernet: «siden begge godkjenningene er opphevet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
