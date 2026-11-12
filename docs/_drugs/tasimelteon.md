@@ -83,7 +83,13 @@ Foreløpig finnes ingen relatert litteratur for denne indikasjonen.
 
 | Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/003870 | Hetlioz (Vanda Pharmaceuticals Netherlands B.V.) | – | Søvnforstyrrelser, døgnrytme (status: opphørt) |
+| EMEA/H/C/003870 | Hetlioz (Vanda Pharmaceuticals Netherlands B.V.) | – | Søvnforstyrrelser, døgnrytme (status: godkjent) |
+
+<!-- review:begin no-lic-20261112-tasimelteon-1 -->
+
+> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «Søvnforstyrrelser, døgnrytme (status: opphørt)» Rettet: ifølge EMAs data om sentrale EU-godkjenninger er godkjenningene gyldige (2026-11-09). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261112-tasimelteon-1 -->
 
 ---
 
@@ -103,13 +109,39 @@ Data om advarsler og kontraindikasjoner fra preparatomtalen er ikke tilgjengelig
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen for polymikrogyri er kun modellbasert (L5), uten kliniske studier, uten litteratur og uten kjent mekanistisk kobling. Legemidlet har dessuten bare en opphørt godkjenning i Norge.
+Prediksjonen for polymikrogyri er kun modellbasert (L5), uten kliniske studier, uten litteratur og uten kjent mekanistisk kobling.
+
+<!-- review:begin no-lic-20261112-tasimelteon-2 -->
+
+> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «uten kjent mekanistisk kobling. Legemidlet har dessuten bare en opphørt godkjenning i Norge.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261112-tasimelteon-2 -->
 
 **For å gå videre kreves følgende:**
 - Sikkerhetsinformasjon fra preparatomtalen (advarsler og kontraindikasjoner), som er en forutsetning for sikkerhetsscreening.
 - Data om virkningsmekanisme fra DrugBank.
 - Prioritering av insomni som mer lovende kandidat. Det forutsetter at resultatene fra NCT06953869 foreligger, og at studiepopulasjonen bekreftes.
-- Avklaring av dagens markedsstatus i Norge, siden den eneste godkjenningen er opphørt.
+
+<!-- review:begin no-lic-20261112-tasimelteon-3 -->
+
+> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «Avklaring av dagens markedsstatus i Norge, siden den eneste godkjenningen er opphørt.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261112-tasimelteon-3 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Rettet i tabellen: EMEA/H/C/003870 «status: opphørt» → «status: godkjent» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-12 | Fjernet: «Legemidlet har dessuten bare en opphørt godkjenning i Norge» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-12 | Fjernet: «Avklaring av dagens markedsstatus i Norge, siden den eneste godkjenningen er opphørt» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

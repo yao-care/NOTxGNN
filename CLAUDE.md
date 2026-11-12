@@ -34,3 +34,4 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 2026-10-31～11-06 依新事實直接刪掉的矛盾子句，2026-11-12 已用 `scripts/reviews_from_edits.py --git` 轉成 200 筆紀錄（143 頁；其中 3 筆因報告在 11 月經 AI 重產、原句已不在頁面，標 resolved_by_regeneration）。
 `scripts/sync_notes_to_docs.py` 依 notes 重寫整頁後會重套紀錄，notes 裡的舊錯句會被紀錄再更正一次。
 
+2026-11-12 正文許可狀態對事實層掃描：6 頁（cetrorelix、ranibizumab、roxadustat、tasimelteon、tobramycin、verteporfin）在 11 月 AI 重產時照證據包（local_regulatory 全標 Cancelled only）寫成「opphørt／trukket tilbake／avsluttet」，EMA 資料（bundle）是 Authorised、事實層有效；以 11 筆 `no-lic-20261112-*` 紀錄更正（含 tasimelteon 表格列「status: opphørt」→「godkjent」）。

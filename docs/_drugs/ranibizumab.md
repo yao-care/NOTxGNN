@@ -93,7 +93,13 @@ For den predikerte indikasjonen (alvorlig ikke-proliferativ diabetisk retinopati
 
 ## Markedsinformasjon for Norge
 
-Alle syv godkjenningene er registrert som opphørt. Dosjeringsform er ikke oppgitt i dataene.
+Alle syv godkjenningene er gyldige. Dosjeringsform er ikke oppgitt i dataene.
+
+<!-- review:begin no-lic-20261112-ranibizumab-1 -->
+
+> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «Alle syv godkjenningene er registrert som opphørt.» Rettet: ifølge EMAs data om sentrale EU-godkjenninger er godkjenningene gyldige (2026-11-09). Antall godkjenninger i dataene: 7, hvorav gyldige: 7; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261112-ranibizumab-1 -->
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
@@ -119,14 +125,25 @@ Vær oppmerksom på at advarsler og kontraindikasjoner fra preparatomtalen mangl
 **Beslutning: Proceed with Guardrails (fortsett med sikkerhetstiltak)**
 
 **Begrunnelse:**
-Mekanismen er direkte og biologisk plausibel, og litteraturen omfatter RCT-baserte analyser (RIDE/RISE, Protocol I, PAVILION) som støtter bruk ved diabetisk retinopati. Samtidig er det ingen registrerte studier i dataene, evidensgraderingen bygger på titler, og alle norske godkjenninger er opphørt.
+Mekanismen er direkte og biologisk plausibel, og litteraturen omfatter RCT-baserte analyser (RIDE/RISE, Protocol I, PAVILION) som støtter bruk ved diabetisk retinopati. Samtidig er det ingen registrerte studier i dataene, evidensgraderingen bygger på titler.
+
+<!-- review:begin no-lic-20261112-ranibizumab-2 -->
+
+> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «evidensgraderingen bygger på titler, og alle norske godkjenninger er opphørt.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Antall godkjenninger i dataene: 7, hvorav gyldige: 7; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261112-ranibizumab-2 -->
 
 **For å gå videre kreves:**
 - Verifisere L1-graderingen mot fullstendige publikasjoner for RIDE/RISE, Protocol I og PAVILION
 - Hente advarsler og kontraindikasjoner fra preparatomtalen (sikkerhetsgjennomgangen kan ikke fullføres uten dette)
 - Hente detaljerte data om virkningsmekanisme fra legemiddeldatabasen
-- Avklare regulatorisk status i Norge, siden alle godkjenninger er opphørt
 - Vurdere administrasjonsvei (intravitreal injeksjon eller portleveringssystem)
+
+<!-- review:begin no-lic-20261112-ranibizumab-3 -->
+
+> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «Hente detaljerte data om virkningsmekanisme fra legemiddeldatabasen / Avklare regulatorisk status i Norge, siden alle godkjenninger er opphørt» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Antall godkjenninger i dataene: 7, hvorav gyldige: 7; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261112-ranibizumab-3 -->
 
 ---
 
@@ -145,6 +162,20 @@ Alle øvrige prediksjoner har svak eller indirekte evidens og får beslutningen 
 | Kortikal katarakt | 0,9999 | L5 | Indirekte litteratur, inkludert en case-rapport om bivirkning (kapselblokk-syndrom) |
 | Senil katarakt | 0,9999 | L5 | Biomarkørstudier av netthinnesykdom, ikke effekt på katarakt |
 | Hemoragisk sykdom hos nyfødte | 0,9987 | L5 | Skyldes vitamin K-mangel; de to studiene gjelder andre sykdommer (HHT-studien trukket tilbake, 0 inkluderte) |
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Rettet: «registrert som opphørt» → «gyldige» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-12 | Fjernet: «og alle norske godkjenninger er opphørt» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-12 | Fjernet: «Avklare regulatorisk status i Norge, siden alle godkjenninger er opphørt» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

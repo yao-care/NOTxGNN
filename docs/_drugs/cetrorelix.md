@@ -116,7 +116,13 @@ Se preparatomtalen (pakningsvedlegget) for øvrig sikkerhetsinformasjon, inklude
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en modellscore (evidensnivå L5) uten kliniske studier eller publikasjoner. Den mekanistiske koblingen til hypertrikose er svak, og legemidlets markedsstatus i Norge er «kun trukket tilbake».
+Prediksjonen bygger kun på en modellscore (evidensnivå L5) uten kliniske studier eller publikasjoner. Den mekanistiske koblingen til hypertrikose er svak.
+
+<!-- review:begin no-lic-20261112-cetrorelix-1 -->
+
+> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «Den mekanistiske koblingen til hypertrikose er svak, og legemidlets markedsstatus i Norge er «kun trukket tilbake».» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261112-cetrorelix-1 -->
 
 **For å gå videre kreves følgende:**
 - Informasjon om virkningsmekanisme fra legemiddeldatabasen for å støtte mekanistisk analyse
@@ -139,6 +145,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «og at markedsføringstillatelsen er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-12 | Fjernet: «og legemidlets markedsstatus i Norge er «kun trukket tilbake»» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 
 <!-- review:end log -->
 

@@ -106,14 +106,39 @@ Fotosensibiliserende og andre legemidler bør vurderes samlet. For øvrig sikker
 **Beslutning: Hold**
 
 **Begrunnelse:**
-Prediksjonen bygger kun på en høy modellscore (evidensnivå L5), uten kliniske studier eller litteratur. Virkningsmekanismen er ikke tilgjengelig, og det er uklart om ROS-dannelse vil hjelpe eller forverre mitokondriell dysfunksjon. Den eneste norske godkjenningen er dessuten opphørt.
+Prediksjonen bygger kun på en høy modellscore (evidensnivå L5), uten kliniske studier eller litteratur. Virkningsmekanismen er ikke tilgjengelig, og det er uklart om ROS-dannelse vil hjelpe eller forverre mitokondriell dysfunksjon.
+
+<!-- review:begin no-lic-20261112-verteporfin-1 -->
+
+> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «forverre mitokondriell dysfunksjon. Den eneste norske godkjenningen er dessuten opphørt.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261112-verteporfin-1 -->
 
 **For å gå videre kreves følgende:**
 - Detaljerte data om virkningsmekanisme (MOA), for eksempel fra DrugBank
 - Preparatomtale med advarsler og kontraindikasjoner, som er nødvendig før en sikkerhetsvurdering
 - Prekliniske studier (celle- eller dyremodeller) som tester effekt av verteporfin ved oksidative fosforyleringssykdommer, med særlig vekt på ROS-risiko
 - Avklaring av egnet administrasjonsvei og lysaktiveringsstrategi for en ikke-okulær indikasjon
-- Avklaring av regulatorisk status, siden Visudyne-godkjenningen er opphørt
+
+<!-- review:begin no-lic-20261112-verteporfin-2 -->
+
+> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «Avklaring av egnet administrasjonsvei og lysaktiveringsstrategi for en ikke-okulær indikasjon / Avklaring av regulatorisk status, siden Visudyne-godkjenningen er opphørt» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261112-verteporfin-2 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Fjernet: «Den eneste norske godkjenningen er dessuten opphørt» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-12 | Fjernet: «Avklaring av regulatorisk status, siden Visudyne-godkjenningen er opphørt» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

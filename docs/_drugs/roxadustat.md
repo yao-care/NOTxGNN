@@ -120,7 +120,25 @@ Prediksjonen for tørrøyesyndrom bygger utelukkende på modellscore (evidensniv
 - Fullstendige data om virkningsmekanisme (MOA), for eksempel fra DrugBank
 - Prekliniske data om HIF-stabilisering i hornhinne og konjunktiva, inkludert vurdering av angiogenese
 - Vurdering av administrasjonsvei (lokal øyeadministrasjon versus systemisk bruk)
-- Avklaring av markedsstatus og tilgjengelighet i Norge, siden eneste autorisasjon er trukket
+
+<!-- review:begin no-lic-20261112-roxadustat-1 -->
+
+> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «Vurdering av administrasjonsvei (lokal øyeadministrasjon versus systemisk bruk) / Avklaring av markedsstatus og tilgjengelighet i Norge, siden eneste autorisasjon er trukket» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261112-roxadustat-1 -->
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Fjernet: «Avklaring av markedsstatus og tilgjengelighet i Norge, siden eneste autorisasjon er trukket» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

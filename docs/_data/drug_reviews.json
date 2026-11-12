@@ -831,6 +831,31 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c12de1a（2026-11-06）"
   },
   {
+   "id": "no-lic-20261112-cetrorelix-1",
+   "drug": "cetrorelix",
+   "file": "cetrorelix.md",
+   "action": "correct",
+   "claim": "Den mekanistiske koblingen til hypertrikose er svak, og legemidlets markedsstatus i Norge er «kun trukket tilbake».",
+   "replacement": "Den mekanistiske koblingen til hypertrikose er svak.",
+   "summary": "Fjernet: «og legemidlets markedsstatus i Norge er «kun trukket tilbake»»",
+   "note": "Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen.",
+   "finding": "11 月 AI 重產時證據包 local_regulatory 把全部許可標成 Cancelled only（狀態對應壞掉），正文照著寫「opphørt／trukket tilbake／avsluttet」；同一 Release 的 bundle（EMA records）是 Authorised、事實層有效 1 張、註銷 0",
+   "sources": [
+    {
+     "title": "EMA – Medicines output: medicines report",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    },
+    {
+     "title": "European Medicines Agency",
+     "url": "https://www.ema.europa.eu/",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文的許可狀態對事實層與證據包 bundle 原始狀態）"
+  },
+  {
    "id": "no-lic-20261106-cholic_acid-1",
    "drug": "cholic_acid",
    "file": "cholic_acid.md",
@@ -5028,6 +5053,257 @@
    "checked": "2026-11-12",
    "summary": "Fjernet: «med 4 gyldige markedsføringstillatelser av 4»",
    "method": "2026-11-12 用本站查核機制修正 11-09 排程後跟新事實矛盾的子句（checker M3）"
+  },
+  {
+   "id": "no-lic-20261112-ranibizumab-1",
+   "drug": "ranibizumab",
+   "file": "ranibizumab.md",
+   "action": "correct",
+   "claim": "Alle syv godkjenningene er registrert som opphørt.",
+   "replacement": "Alle syv godkjenningene er gyldige.",
+   "summary": "Rettet: «registrert som opphørt» → «gyldige»",
+   "note": "Rettet: ifølge EMAs data om sentrale EU-godkjenninger er godkjenningene gyldige (2026-11-09). Antall godkjenninger i dataene: 7, hvorav gyldige: 7; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen.",
+   "finding": "11 月 AI 重產時證據包 local_regulatory 把全部許可標成 Cancelled only（狀態對應壞掉），正文照著寫「opphørt／trukket tilbake／avsluttet」；同一 Release 的 bundle（EMA records）是 Authorised、事實層有效 7 張、註銷 0",
+   "sources": [
+    {
+     "title": "EMA – Medicines output: medicines report",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    },
+    {
+     "title": "European Medicines Agency",
+     "url": "https://www.ema.europa.eu/",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文的許可狀態對事實層與證據包 bundle 原始狀態）"
+  },
+  {
+   "id": "no-lic-20261112-ranibizumab-2",
+   "drug": "ranibizumab",
+   "file": "ranibizumab.md",
+   "action": "correct",
+   "claim": "evidensgraderingen bygger på titler, og alle norske godkjenninger er opphørt.",
+   "replacement": "evidensgraderingen bygger på titler.",
+   "summary": "Fjernet: «og alle norske godkjenninger er opphørt»",
+   "note": "Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Antall godkjenninger i dataene: 7, hvorav gyldige: 7; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen.",
+   "finding": "11 月 AI 重產時證據包 local_regulatory 把全部許可標成 Cancelled only（狀態對應壞掉），正文照著寫「opphørt／trukket tilbake／avsluttet」；同一 Release 的 bundle（EMA records）是 Authorised、事實層有效 7 張、註銷 0",
+   "sources": [
+    {
+     "title": "EMA – Medicines output: medicines report",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    },
+    {
+     "title": "European Medicines Agency",
+     "url": "https://www.ema.europa.eu/",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文的許可狀態對事實層與證據包 bundle 原始狀態）"
+  },
+  {
+   "id": "no-lic-20261112-ranibizumab-3",
+   "drug": "ranibizumab",
+   "file": "ranibizumab.md",
+   "action": "correct",
+   "claim": "- Hente detaljerte data om virkningsmekanisme fra legemiddeldatabasen\n- Avklare regulatorisk status i Norge, siden alle godkjenninger er opphørt",
+   "replacement": "- Hente detaljerte data om virkningsmekanisme fra legemiddeldatabasen",
+   "summary": "Fjernet: «Avklare regulatorisk status i Norge, siden alle godkjenninger er opphørt»",
+   "note": "Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Antall godkjenninger i dataene: 7, hvorav gyldige: 7; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen.",
+   "finding": "11 月 AI 重產時證據包 local_regulatory 把全部許可標成 Cancelled only（狀態對應壞掉），正文照著寫「opphørt／trukket tilbake／avsluttet」；同一 Release 的 bundle（EMA records）是 Authorised、事實層有效 7 張、註銷 0",
+   "sources": [
+    {
+     "title": "EMA – Medicines output: medicines report",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    },
+    {
+     "title": "European Medicines Agency",
+     "url": "https://www.ema.europa.eu/",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文的許可狀態對事實層與證據包 bundle 原始狀態）"
+  },
+  {
+   "id": "no-lic-20261112-roxadustat-1",
+   "drug": "roxadustat",
+   "file": "roxadustat.md",
+   "action": "correct",
+   "claim": "- Vurdering av administrasjonsvei (lokal øyeadministrasjon versus systemisk bruk)\n- Avklaring av markedsstatus og tilgjengelighet i Norge, siden eneste autorisasjon er trukket",
+   "replacement": "- Vurdering av administrasjonsvei (lokal øyeadministrasjon versus systemisk bruk)",
+   "summary": "Fjernet: «Avklaring av markedsstatus og tilgjengelighet i Norge, siden eneste autorisasjon er trukket»",
+   "note": "Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen.",
+   "finding": "11 月 AI 重產時證據包 local_regulatory 把全部許可標成 Cancelled only（狀態對應壞掉），正文照著寫「opphørt／trukket tilbake／avsluttet」；同一 Release 的 bundle（EMA records）是 Authorised、事實層有效 1 張、註銷 0",
+   "sources": [
+    {
+     "title": "EMA – Medicines output: medicines report",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    },
+    {
+     "title": "European Medicines Agency",
+     "url": "https://www.ema.europa.eu/",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文的許可狀態對事實層與證據包 bundle 原始狀態）"
+  },
+  {
+   "id": "no-lic-20261112-tasimelteon-1",
+   "drug": "tasimelteon",
+   "file": "tasimelteon.md",
+   "action": "correct",
+   "claim": "Søvnforstyrrelser, døgnrytme (status: opphørt)",
+   "replacement": "Søvnforstyrrelser, døgnrytme (status: godkjent)",
+   "summary": "Rettet i tabellen: EMEA/H/C/003870 «status: opphørt» → «status: godkjent»",
+   "note": "Rettet: ifølge EMAs data om sentrale EU-godkjenninger er godkjenningene gyldige (2026-11-09). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen.",
+   "finding": "11 月 AI 重產時證據包 local_regulatory 把全部許可標成 Cancelled only（狀態對應壞掉），正文照著寫「opphørt／trukket tilbake／avsluttet」；同一 Release 的 bundle（EMA records）是 Authorised、事實層有效 1 張、註銷 0",
+   "sources": [
+    {
+     "title": "EMA – Medicines output: medicines report",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    },
+    {
+     "title": "European Medicines Agency",
+     "url": "https://www.ema.europa.eu/",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文的許可狀態對事實層與證據包 bundle 原始狀態）"
+  },
+  {
+   "id": "no-lic-20261112-tasimelteon-2",
+   "drug": "tasimelteon",
+   "file": "tasimelteon.md",
+   "action": "correct",
+   "claim": "uten kjent mekanistisk kobling. Legemidlet har dessuten bare en opphørt godkjenning i Norge.",
+   "replacement": "uten kjent mekanistisk kobling.",
+   "summary": "Fjernet: «Legemidlet har dessuten bare en opphørt godkjenning i Norge»",
+   "note": "Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen.",
+   "finding": "11 月 AI 重產時證據包 local_regulatory 把全部許可標成 Cancelled only（狀態對應壞掉），正文照著寫「opphørt／trukket tilbake／avsluttet」；同一 Release 的 bundle（EMA records）是 Authorised、事實層有效 1 張、註銷 0",
+   "sources": [
+    {
+     "title": "EMA – Medicines output: medicines report",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    },
+    {
+     "title": "European Medicines Agency",
+     "url": "https://www.ema.europa.eu/",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文的許可狀態對事實層與證據包 bundle 原始狀態）"
+  },
+  {
+   "id": "no-lic-20261112-tasimelteon-3",
+   "drug": "tasimelteon",
+   "file": "tasimelteon.md",
+   "action": "correct",
+   "claim": "\n- Avklaring av dagens markedsstatus i Norge, siden den eneste godkjenningen er opphørt.",
+   "replacement": "",
+   "summary": "Fjernet: «Avklaring av dagens markedsstatus i Norge, siden den eneste godkjenningen er opphørt»",
+   "note": "Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen.",
+   "finding": "11 月 AI 重產時證據包 local_regulatory 把全部許可標成 Cancelled only（狀態對應壞掉），正文照著寫「opphørt／trukket tilbake／avsluttet」；同一 Release 的 bundle（EMA records）是 Authorised、事實層有效 1 張、註銷 0",
+   "sources": [
+    {
+     "title": "EMA – Medicines output: medicines report",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    },
+    {
+     "title": "European Medicines Agency",
+     "url": "https://www.ema.europa.eu/",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文的許可狀態對事實層與證據包 bundle 原始狀態）",
+   "anchor": "- Prioritering av insomni som mer lovende kandidat. Det forutsetter at resultatene fra NCT06953869 foreligger, og at studiepopulasjonen bekreftes."
+  },
+  {
+   "id": "no-lic-20261112-tobramycin-1",
+   "drug": "tobramycin",
+   "file": "tobramycin.md",
+   "action": "correct",
+   "claim": "Begge norske godkjenninger er avsluttet, og preparatomtalen mangler.",
+   "replacement": "Preparatomtalen mangler.",
+   "summary": "Fjernet: «Begge norske godkjenninger er avsluttet»",
+   "note": "Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen.",
+   "finding": "11 月 AI 重產時證據包 local_regulatory 把全部許可標成 Cancelled only（狀態對應壞掉），正文照著寫「opphørt／trukket tilbake／avsluttet」；同一 Release 的 bundle（EMA records）是 Authorised、事實層有效 2 張、註銷 0",
+   "sources": [
+    {
+     "title": "EMA – Medicines output: medicines report",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    },
+    {
+     "title": "European Medicines Agency",
+     "url": "https://www.ema.europa.eu/",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文的許可狀態對事實層與證據包 bundle 原始狀態）"
+  },
+  {
+   "id": "no-lic-20261112-verteporfin-1",
+   "drug": "verteporfin",
+   "file": "verteporfin.md",
+   "action": "correct",
+   "claim": "forverre mitokondriell dysfunksjon. Den eneste norske godkjenningen er dessuten opphørt.",
+   "replacement": "forverre mitokondriell dysfunksjon.",
+   "summary": "Fjernet: «Den eneste norske godkjenningen er dessuten opphørt»",
+   "note": "Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen.",
+   "finding": "11 月 AI 重產時證據包 local_regulatory 把全部許可標成 Cancelled only（狀態對應壞掉），正文照著寫「opphørt／trukket tilbake／avsluttet」；同一 Release 的 bundle（EMA records）是 Authorised、事實層有效 1 張、註銷 0",
+   "sources": [
+    {
+     "title": "EMA – Medicines output: medicines report",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    },
+    {
+     "title": "European Medicines Agency",
+     "url": "https://www.ema.europa.eu/",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文的許可狀態對事實層與證據包 bundle 原始狀態）"
+  },
+  {
+   "id": "no-lic-20261112-verteporfin-2",
+   "drug": "verteporfin",
+   "file": "verteporfin.md",
+   "action": "correct",
+   "claim": "- Avklaring av egnet administrasjonsvei og lysaktiveringsstrategi for en ikke-okulær indikasjon\n- Avklaring av regulatorisk status, siden Visudyne-godkjenningen er opphørt",
+   "replacement": "- Avklaring av egnet administrasjonsvei og lysaktiveringsstrategi for en ikke-okulær indikasjon",
+   "summary": "Fjernet: «Avklaring av regulatorisk status, siden Visudyne-godkjenningen er opphørt»",
+   "note": "Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Antall godkjenninger i dataene: 1, hvorav gyldige: 1; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen.",
+   "finding": "11 月 AI 重產時證據包 local_regulatory 把全部許可標成 Cancelled only（狀態對應壞掉），正文照著寫「opphørt／trukket tilbake／avsluttet」；同一 Release 的 bundle（EMA records）是 Authorised、事實層有效 1 張、註銷 0",
+   "sources": [
+    {
+     "title": "EMA – Medicines output: medicines report",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    },
+    {
+     "title": "European Medicines Agency",
+     "url": "https://www.ema.europa.eu/",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文的許可狀態對事實層與證據包 bundle 原始狀態）"
   }
  ]
 }

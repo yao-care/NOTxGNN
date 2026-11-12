@@ -113,7 +113,13 @@ Preparatomtalens advarsler og kontraindikasjoner er ikke tilgjengelige i de samm
 **Beslutning: Hold (avvent)**
 
 **Begrunnelse:**
-Prediksjonen har svært høy modellscore, men ingen direkte kliniske eller litterære data for eksposjonskeratitt. Den tilgjengelige litteraturen er indirekte og peker i tillegg på en mulig toksisitet for hornhinneepitel. Begge norske godkjenninger er avsluttet, og preparatomtalen mangler.
+Prediksjonen har svært høy modellscore, men ingen direkte kliniske eller litterære data for eksposjonskeratitt. Den tilgjengelige litteraturen er indirekte og peker i tillegg på en mulig toksisitet for hornhinneepitel. Preparatomtalen mangler.
+
+<!-- review:begin no-lic-20261112-tobramycin-1 -->
+
+> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «Begge norske godkjenninger er avsluttet, og preparatomtalen mangler.» Fjernet: opplysningen om at godkjenningene er avregistrert eller at ingen gyldig godkjenning finnes, stemte ikke med EMAs data om sentrale EU-godkjenninger (2026-11-09). Antall godkjenninger i dataene: 2, hvorav gyldige: 2; oppdaterte tall står i hurtigoversikten og i markedsinformasjonen. Kilde: [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/).
+
+<!-- review:end no-lic-20261112-tobramycin-1 -->
 
 **For å gå videre kreves:**
 - Innhenting og gjennomgang av preparatomtale (advarsler og kontraindikasjoner), som er en blokkerende datamangel
@@ -126,6 +132,19 @@ Prediksjonen har svært høy modellscore, men ingen direkte kliniske eller litte
 ### Andre predikerte indikasjoner (kort oversikt)
 
 Av de øvrige ni prediksjonene har bare **otitis externa** (evidensnivå L4, anbefaling «forskningsspørsmål») noen praktisk støtte: tobramycin virker mot *Pseudomonas aeruginosa* og *Staphylococcus aureus*, og det finnes kasuistikker om malign otitis externa. Litteraturen er likevel hovedsakelig mikrobiologi og resistensovervåking, ofte hos hunder, og ototoksisitet ved perforert trommehinne må vurderes. De øvrige (blant annet Chagas kardiomyopati, infeksjonsrelatert hemolytisk-uremisk syndrom, epidemisk keratokonjunktivitt og postinfeksiøs vaskulitt) mangler enten støtte eller er mekanistisk lite plausible. De to fase 3-studiene under «post-bacterial disorder» (NCT01069705, NCT00982930) gjelder den allerede godkjente indikasjonen cystisk fibrose og er ikke reell repurposing-evidens.
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Fjernet: «Begge norske godkjenninger er avsluttet» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.
