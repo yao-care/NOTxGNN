@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-11-11T17:01:38.610452+00:00",
+  "fetched_at": "2026-11-12T00:11:29.187400+00:00",
   "source": "Google News Health RSS",
-  "count": 28,
+  "count": 29,
   "articles": [
-    {
-      "id": "25fe5f5a50a0",
-      "title": "Lege: – Helt forståelig at folk blir usikre - TV 2",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZHZFMHZMbFNGQzU2MFduOERuUFE1YUtyN0RDdVVjenJUMmVLb3Vnc19XY1pESk9jNmRwY3k4NldISVV4cDVZYVFkX1lrNUdHcXgtQlYtUlc5V29ubkl3MTBsUWRTMm9FVHVaM3E1M3BfVXZKUzFxOG1yVng3RktwS0M0NA?oc=5",
-      "published": "2026-11-09T12:52:09+00:00",
-      "source": {
-        "name": "TV 2",
-        "url": "https://www.tv2.no"
-      }
-    },
     {
       "id": "c39dd6ee39f8",
       "title": "Digital portal for meir rettferdig tilgang til legemiddel - Helse Bergen",
@@ -21,6 +11,16 @@
       "source": {
         "name": "Helse Bergen",
         "url": "https://www.helse-bergen.no"
+      }
+    },
+    {
+      "id": "09f39705446f",
+      "title": "Kritiske legemidler kan bli rammet: – Fortjener bekymring - TV 2",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTGh0LWRmSjhMaXQxS1JBVkJaQzYzT1ZPQXZ4UVY1MmYwMjlDbTNxZXI5cmVsTXlZN1k3dE84QkZJcDZkYU5nb2NhbnVuRm9MQ2VkbXB5YlFGeWJVWlFDT0plaE90YmF0N1FiOGt6dDYtcVpKbVRXNllaM2ktN3FmamVKN3E5aXF2VGs4Y1FmRjVGdEVvbXc?oc=5",
+      "published": "2026-11-06T06:31:04+00:00",
+      "source": {
+        "name": "TV 2",
+        "url": "https://www.tv2.no"
       }
     },
     {
@@ -54,16 +54,6 @@
       }
     },
     {
-      "id": "09f39705446f",
-      "title": "Kritiske legemidler kan bli rammet: – Fortjener bekymring - TV 2",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTGh0LWRmSjhMaXQxS1JBVkJaQzYzT1ZPQXZ4UVY1MmYwMjlDbTNxZXI5cmVsTXlZN1k3dE84QkZJcDZkYU5nb2NhbnVuRm9MQ2VkbXB5YlFGeWJVWlFDT0plaE90YmF0N1FiOGt6dDYtcVpKbVRXNllaM2ktN3FmamVKN3E5aXF2VGs4Y1FmRjVGdEVvbXc?oc=5",
-      "published": "2026-11-06T06:31:04+00:00",
-      "source": {
-        "name": "TV 2",
-        "url": "https://www.tv2.no"
-      }
-    },
-    {
       "id": "055bde4d929d",
       "title": "Flere eldre kan hente medisin på apotek - Bergen kommune",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUUt4cU1YcTRnVzJsQUNJQ1BMRTJEWGl5bmdEVlYwZXpmb1pEaVA0d20yczVIR2ZyRE83MloyWDVrbGJhd0lXTU0yMmZUYjdrLW9aUW9vV2xLTXBUaXlRcFN3cXNjY0cyU1FLbldLX3FPTWJJdmVIX2FrSmE2NGp1OGphenNmVTl5UXF0WEhObC1tWElMVkF6S3BPQ1gzcml6MDBPTkcwcFRDUQ?oc=5",
@@ -94,6 +84,16 @@
       }
     },
     {
+      "id": "25fe5f5a50a0",
+      "title": "Lege: – Helt forståelig at folk blir usikre - TV 2",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZHZFMHZMbFNGQzU2MFduOERuUFE1YUtyN0RDdVVjenJUMmVLb3Vnc19XY1pESk9jNmRwY3k4NldISVV4cDVZYVFkX1lrNUdHcXgtQlYtUlc5V29ubkl3MTBsUWRTMm9FVHVaM3E1M3BfVXZKUzFxOG1yVng3RktwS0M0NA?oc=5",
+      "published": "2026-11-09T12:52:09+00:00",
+      "source": {
+        "name": "TV 2",
+        "url": "https://www.tv2.no"
+      }
+    },
+    {
       "id": "3c7d33d8f638",
       "title": "Sosiale forskjeller i fedme og bruk av vektreduserende legemidler - Folkehelseinstituttet - FHI",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNkU2bktLeTBNMVRfYllDMHlhQzBJZXAxS0loS2hIenVrZmUxbkJ4NzdkY2h6cTRCT2tCZ1hDY1J1dkNEN1hlbWQzaGQzQ2JVNWc4NHprWUpUaFVvdnNlazhXeDNkazZsVE9sOTJKUFlPVS01MUgxbVZodTRQN2VEWTl2VC1kZlRKMWlhY2c3bw?oc=5",
@@ -111,16 +111,6 @@
       "source": {
         "name": "Dagbladet",
         "url": "https://www.dagbladet.no"
-      }
-    },
-    {
-      "id": "787ea84a529c",
-      "title": "(+) Studie: Nye legemidler fortrenger mer helse enn de genererer - Dagens Medisin",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZWppZTdqcEdaLXVQQVpnU0d2dnEzTzBJMU9BSDB2OXg5NUJ3MndpSklZUTVUNGxiR3lpU3VxbE01Q3JRMXBIVFhJQkVjcU40V3VzUjV1UlRHSW93U3pwWTZDS29xWXVqbXlFMG15Z3V2X29GTGtfb0M3Y0JpdmE0LVp4TEhoWUZub1M5Z0VYZVFuZU0wbE5tWmczc3JjdUhjTVlxSDA0Wm1kbTBST1ppZlhZNWVRLS1JRkR2Y05jNFFTREhld3ZxZnhfeHJEMTVmQVZrOTN3dV95enZVT1pMeWNTOXNtc2o2M3EyOUFyT1NQZw?oc=5",
-      "published": "2025-02-07T08:00:00+00:00",
-      "source": {
-        "name": "Dagens Medisin",
-        "url": "https://www.dagensmedisin.no"
       }
     },
     {
@@ -144,16 +134,6 @@
       }
     },
     {
-      "id": "6ac22dd28a4b",
-      "title": "Reagerer på anbefaling om bruk av legemidler - Rådet for psykisk helse",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WRk95djlWSWNKNjk2aDZjNWl0U3JoSHNneHppQ1B1bnJyUlZ6WXVVQ2JkZldvSm1GOGs3RE9VU0dVc1g1X3pqZUFOdzlpUWVFZ2tGWmZJT3RJbE92SWxWQVFTNFpJTnQ5cjBlVHA2Zm9qYzA?oc=5",
-      "published": "2025-02-12T08:00:00+00:00",
-      "source": {
-        "name": "Rådet for psykisk helse",
-        "url": "https://psykiskhelse.no"
-      }
-    },
-    {
       "id": "90921fcbbc80",
       "title": "medisin og helse, legemiddel | Byttet ut pasientenes sovemedisin - en person siktet i saken - Fremover",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcU5TcXpfSWVkaFpSaFIzVDBVdThIalFaNGRweU83a3lfYVBaU0ZTR0t6NW54S001YVpxRVFwYW1wblNqS1ZDUWFIX3dCd21sdEh6d0JLcEoxYXp5VldHcExsb2RLeHdaT1l2T1dySUdyU3EzS3hpdzhENVNYamFodGRWSWQ0X3EzQ1hlZkgyTWFTb3lLNno1SERBT3h4T2hXVTBIX1FkMlExc3FMTWJrbmZ3bTFFMDZMc0ZqdUZWcmVERk1NWk9Qb2tfSQ?oc=5",
@@ -171,6 +151,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "a305842cda9e",
+      "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZVRfS3c1TDkyNEFXWmVJUUFUX2Y0dXY0QzdJSTViUEJiYTlyODAtbEZnZkNYakFSTTRDWmtiNml0OU51SFVWNEZVU3lpNFZ0VWVFMVZsVVhqcWlDZ3QtNnhSRWFQVG1PMkZ1RGhheVI1bGtFN1VhbEVFY3hBXzNERW9meXU?oc=5",
+      "published": "2015-06-15T16:17:39+00:00",
+      "source": {
+        "name": "Regjeringen.no",
+        "url": "https://www.regjeringen.no"
       }
     },
     {
@@ -214,13 +204,13 @@
       }
     },
     {
-      "id": "a305842cda9e",
-      "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZVRfS3c1TDkyNEFXWmVJUUFUX2Y0dXY0QzdJSTViUEJiYTlyODAtbEZnZkNYakFSTTRDWmtiNml0OU51SFVWNEZVU3lpNFZ0VWVFMVZsVVhqcWlDZ3QtNnhSRWFQVG1PMkZ1RGhheVI1bGtFN1VhbEVFY3hBXzNERW9meXU?oc=5",
-      "published": "2015-06-15T16:17:39+00:00",
+      "id": "6ac22dd28a4b",
+      "title": "Reagerer på anbefaling om bruk av legemidler - Rådet for psykisk helse",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WRk95djlWSWNKNjk2aDZjNWl0U3JoSHNneHppQ1B1bnJyUlZ6WXVVQ2JkZldvSm1GOGs3RE9VU0dVc1g1X3pqZUFOdzlpUWVFZ2tGWmZJT3RJbE92SWxWQVFTNFpJTnQ5cjBlVHA2Zm9qYzA?oc=5",
+      "published": "2025-02-12T08:00:00+00:00",
       "source": {
-        "name": "Regjeringen.no",
-        "url": "https://www.regjeringen.no"
+        "name": "Rådet for psykisk helse",
+        "url": "https://psykiskhelse.no"
       }
     },
     {
@@ -231,16 +221,6 @@
       "source": {
         "name": "Avisa Valdres",
         "url": "https://www.avisa-valdres.no"
-      }
-    },
-    {
-      "id": "cb4e71eee0cf",
-      "title": "Medisiner ved røykeslutt, vareniklin - NHI.no",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRFF1QVRBUFd1Z3pmUE54S2lLNmc2SHp5LWVTYUY4cUxIUG1MRl9DRmF2d256bGo0Y3Y3ZjQ2SjdtdlBsVzBDUnZqZExua24weDlRN1dWb1o3UnZkY2x4SnBWVGtSRFFYVTNPTEFYRGRteVYzVHpKd0RiYmhnN3MzbA?oc=5",
-      "published": "2023-11-13T15:25:27+00:00",
-      "source": {
-        "name": "NHI.no",
-        "url": "https://nhi.no"
       }
     },
     {
@@ -264,6 +244,16 @@
       }
     },
     {
+      "id": "0faa73712e34",
+      "title": "Medisin/Helse, Legemiddel | WHO: Mulig forbindelse mellom AstraZeneca-vaksinen og blodpropper - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVmlKZXI4cUJsUzN0ZVJORzVBRk0ya0FSdnRzVVhCWnU0cHZMd284aG9aRU0wNUdyemFfSGlRVEZQM2hpS2NhaTBjUzlEQlNEVmRpQ25HWkpUOHhUVndPQm5TdVZqbUk0TllBN0JYaVFWYjVxVlUxQzFrY0Q1VllKWnkwekxYcXU1NU52VGRaalpBZnZ5LXNweV9RMDdLUkxHVDhWZGhWek4zZ0hzZGZ6amY5akZKLVFKOXc?oc=5",
+      "published": "2021-04-07T07:00:00+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
+      }
+    },
+    {
       "id": "855a4cfebc24",
       "title": "Kan gi trøbbel i varmen: – Flere eller nye bivirkninger - Nettavisen",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTkVZdUxrdG85R240cG5DT3Y5TXpWUjktR1JnWDFmaUE0c2hVbUJLaEY1c1FaaGs0akhGb0ZxaGdmSkRaejUxVTdxYU1HcGxlMllVeEhzT21fTzB1bWoxenI4SXY1NEIybWg1azAxeVV1SEZ4TWk3T3ZuRGtmZHJIUjdyZXEzM1l6YThGWElGdDlYMnJON3ZNOGhwczRuV1dsZnNCTVpaWXJVZmxXRV9ZajI5X0dJY2ZVcXJ3?oc=5",
@@ -274,13 +264,33 @@
       }
     },
     {
-      "id": "0faa73712e34",
-      "title": "Medisin/Helse, Legemiddel | WHO: Mulig forbindelse mellom AstraZeneca-vaksinen og blodpropper - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVmlKZXI4cUJsUzN0ZVJORzVBRk0ya0FSdnRzVVhCWnU0cHZMd284aG9aRU0wNUdyemFfSGlRVEZQM2hpS2NhaTBjUzlEQlNEVmRpQ25HWkpUOHhUVndPQm5TdVZqbUk0TllBN0JYaVFWYjVxVlUxQzFrY0Q1VllKWnkwekxYcXU1NU52VGRaalpBZnZ5LXNweV9RMDdLUkxHVDhWZGhWek4zZ0hzZGZ6amY5akZKLVFKOXc?oc=5",
-      "published": "2021-04-07T07:00:00+00:00",
+      "id": "cb4e71eee0cf",
+      "title": "Medisiner ved røykeslutt, vareniklin - NHI.no",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRFF1QVRBUFd1Z3pmUE54S2lLNmc2SHp5LWVTYUY4cUxIUG1MRl9DRmF2d256bGo0Y3Y3ZjQ2SjdtdlBsVzBDUnZqZExua24weDlRN1dWb1o3UnZkY2x4SnBWVGtSRFFYVTNPTEFYRGRteVYzVHpKd0RiYmhnN3MzbA?oc=5",
+      "published": "2023-11-13T15:25:27+00:00",
       "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
+        "name": "NHI.no",
+        "url": "https://nhi.no"
+      }
+    },
+    {
+      "id": "c0dc3659f63f",
+      "title": "Vanlige legemidler påvirker screeningtest - UiO Det medisinske fakultet",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORzI5OERFejdjbnpudXEzMzI0OS1YcWI0V21fUzJaNkMwWW1BdE1IMkdXQko5ZW4zWFdPTHN1Ry1vUm1kN25PUEtCVDNpemxNSTZKQkpIMlFBR3JfYVR6UWtZQ0ZNN2FGR1IwYW5mNVZiWEhhdERfcXdLcWs2bEstQmZDdXEwblNSVm1nV2kxb1RHdWRDR1prS3NLTmxDMFB5ZV9MdGVjSGVVazJfMG5oNVhIbXc1LXRIRm9aUmZkZ3Q2Z1RPODVXQXhrTml1QUVYS0VSZQ?oc=5",
+      "published": "2019-01-29T08:00:00+00:00",
+      "source": {
+        "name": "UiO Det medisinske fakultet",
+        "url": "https://www.med.uio.no"
+      }
+    },
+    {
+      "id": "23b37b0c3d4b",
+      "title": "Helse, legemiddel | – Jeg ville ikke at andre skulle ha det livet jeg har hatt - Gjengangeren",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR09SUVN5aTVHdEJYOVVhTXNGWmpKblhQYmtTUjNVWnc5bFlZQ25rM1hRdWpYcV9hQ3U5NmVuaWVnYkpKVnd0bndfUl96eld5RXpJMnNhekk2LWdDdURHRDdJdnBMUkxLNUs0blR3OXB5ZHNZQlBjZHFrbThya0l5cjFXUVBRSVNMVFZZMTBVTFM0SWQwOTlNZVI2NVZPcExoR2dMbUgwMWNuQzdybW5yaGxOWkduMFFVVFhKZ01oWnBfTjBZ?oc=5",
+      "published": "2017-03-08T08:00:00+00:00",
+      "source": {
+        "name": "Gjengangeren",
+        "url": "https://www.gjengangeren.no"
       }
     }
   ]
