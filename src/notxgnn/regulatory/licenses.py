@@ -101,7 +101,7 @@ def page_problems(stem: str, text: str) -> list[str]:
     body = ck.MANAGED.sub("", text.replace("\r\n", "\n"))
     lines = body.split("\n")
     errs = []
-    own = {ck.mv2.norm_id(x) for x in e.get("own") or []}
+    own = {ck.mv2.norm_id(y) for x in e.get("own") or [] for y in (x, x.split("//")[0])}  # 「RVG 120202//33414」（Nl：註冊號//產品號）也認主號碼
     if own:
         for a, b in _sections(lines):
             for t in _tables(lines[a:b]):
