@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ABACAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-13
 description: "Abacavir: predikert ny indikasjon Simian immunsviktvirus-infeksjon (simian immunodeficiency virus infection) (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
 ---
 
@@ -52,8 +52,8 @@ Det finnes **ingen kliniske studier** og **1 publikasjon** (en in vitro-studie) 
 | Predikert ny indikasjon | Simian immunsviktvirus-infeksjon (simian immunodeficiency virus infection) |
 | TxGNN-prediksjonsscore | 0,9979 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 4 av 4) |
-| Antall godkjenninger | 4 (gyldige: 4) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 3 av 4) |
+| Antall godkjenninger | 4 (gyldige: 3) |
 | Anbefalt beslutning | Hold |
 
 ---

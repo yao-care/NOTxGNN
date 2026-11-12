@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 460
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-13
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Zidovudine: predikert ny indikasjon Feline acquired immunodeficiency syndrome (evidensnivå L5). Opprinnelig indikasjon: HIV Infections"
@@ -52,8 +52,8 @@ Dette er i realiteten en historisk, innenfor-indikasjon bruk av HIV-behandling, 
 | Predikert ny indikasjon | Feline acquired immunodeficiency syndrome |
 | TxGNN-prediksjonsscore | 0.9996 |
 | Evidensnivå | L5 |
-| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 2 av 2) |
-| Antall godkjenninger | 2 (gyldige: 2) |
+| Markedsstatus i Norge | Markedsført (gyldige tillatelser: 1 av 2) |
+| Antall godkjenninger | 2 (gyldige: 1) |
 | Antall tillatelser | 2 (begge trukket tilbake) |
 | Anbefalt beslutning | Proceed with Guardrails (Fortsett med sikkerhetsrammer) |
 
