@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-12T17:24:43.757907+00:00",
+  "fetched_at": "2026-11-12T23:17:37.435153+00:00",
   "source": "Google News Health RSS",
   "count": 25,
   "articles": [
@@ -11,16 +11,6 @@
       "source": {
         "name": "Helse Bergen",
         "url": "https://www.helse-bergen.no"
-      }
-    },
-    {
-      "id": "09f39705446f",
-      "title": "Kritiske legemidler kan bli rammet: – Fortjener bekymring - TV 2",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTGh0LWRmSjhMaXQxS1JBVkJaQzYzT1ZPQXZ4UVY1MmYwMjlDbTNxZXI5cmVsTXlZN1k3dE84QkZJcDZkYU5nb2NhbnVuRm9MQ2VkbXB5YlFGeWJVWlFDT0plaE90YmF0N1FiOGt6dDYtcVpKbVRXNllaM2ktN3FmamVKN3E5aXF2VGs4Y1FmRjVGdEVvbXc?oc=5",
-      "published": "2026-11-06T06:31:04+00:00",
-      "source": {
-        "name": "TV 2",
-        "url": "https://www.tv2.no"
       }
     },
     {
@@ -41,6 +31,16 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
+      "id": "09f39705446f",
+      "title": "Kritiske legemidler kan bli rammet: – Fortjener bekymring - TV 2",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTGh0LWRmSjhMaXQxS1JBVkJaQzYzT1ZPQXZ4UVY1MmYwMjlDbTNxZXI5cmVsTXlZN1k3dE84QkZJcDZkYU5nb2NhbnVuRm9MQ2VkbXB5YlFGeWJVWlFDT0plaE90YmF0N1FiOGt6dDYtcVpKbVRXNllaM2ktN3FmamVKN3E5aXF2VGs4Y1FmRjVGdEVvbXc?oc=5",
+      "published": "2026-11-06T06:31:04+00:00",
+      "source": {
+        "name": "TV 2",
+        "url": "https://www.tv2.no"
       }
     },
     {
@@ -154,16 +154,6 @@
       }
     },
     {
-      "id": "c07d8fcf53fd",
-      "title": "Regenerativ medisin - Helse Bergen",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeW5uejlkOEFqRVRUSzNaMUNCZEh3eHhLTHBNTWtrUlE2QjVYTWg0bHh1TVBQM0RiU3kxcXBPem5JZ2FjTkNzWGRUcWFkRFlidlBsYzB4RjFIZFNha19EeXBxVlF4c3FfS3pWZHlZdkdyalhCSEtabHJicjgxNXZsbl9qYVhBZDdsalZwN19VQjN3NVFOR083Y0JVblZMVDdsSnBhcm9zbmRDdm43VDJzR1FybHM?oc=5",
-      "published": "2022-11-29T08:00:00+00:00",
-      "source": {
-        "name": "Helse Bergen",
-        "url": "https://www.helse-bergen.no"
-      }
-    },
-    {
       "id": "a305842cda9e",
       "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZVRfS3c1TDkyNEFXWmVJUUFUX2Y0dXY0QzdJSTViUEJiYTlyODAtbEZnZkNYakFSTTRDWmtiNml0OU51SFVWNEZVU3lpNFZ0VWVFMVZsVVhqcWlDZ3QtNnhSRWFQVG1PMkZ1RGhheVI1bGtFN1VhbEVFY3hBXzNERW9meXU?oc=5",
@@ -241,6 +231,16 @@
       "source": {
         "name": "UiO Det medisinske fakultet",
         "url": "https://www.med.uio.no"
+      }
+    },
+    {
+      "id": "0faa73712e34",
+      "title": "Medisin/Helse, Legemiddel | WHO: Mulig forbindelse mellom AstraZeneca-vaksinen og blodpropper - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVmlKZXI4cUJsUzN0ZVJORzVBRk0ya0FSdnRzVVhCWnU0cHZMd284aG9aRU0wNUdyemFfSGlRVEZQM2hpS2NhaTBjUzlEQlNEVmRpQ25HWkpUOHhUVndPQm5TdVZqbUk0TllBN0JYaVFWYjVxVlUxQzFrY0Q1VllKWnkwekxYcXU1NU52VGRaalpBZnZ5LXNweV9RMDdLUkxHVDhWZGhWek4zZ0hzZGZ6amY5akZKLVFKOXc?oc=5",
+      "published": "2021-04-07T07:00:00+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     },
     {
