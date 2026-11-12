@@ -91,7 +91,13 @@ Det er for tiden ingen relaterte kliniske studier registrert.
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/003861 | Natpar | Ikke oppgitt | Hypoparatyreoidisme (godkjent) |
+| EMEA/H/C/003861 | Natpar | Ikke oppgitt | Hypoparatyreoidisme (trukket tilbake) |
+
+<!-- review:begin no-row-20261112-parathyroid_hormone-1 -->
+
+> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «Hypoparatyreoidisme (godkjent)» Ifølge EMAs data (per 2026-11-09) er markedsføringstillatelsen for Natpar (EMEA/H/C/003861) trukket tilbake («Withdrawn»). Kilde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end no-row-20261112-parathyroid_hormone-1 -->
 
 ---
 
@@ -119,6 +125,19 @@ Prediksjonen bygger på en høy modellscore og én indirekte genetisk studie. In
 - Prekliniske eller mekanistiske studier av PTH/PTHrP-signalering og CGRP-veier ved migrene
 - Vurdering av risiko for hyperkalsemi og hodepine, samt av interaksjoner med digoksin og digitoksin
 - Avklaring av tilgjengelighet i Norge, siden Natpar er avregistrert
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Tabell: Natpar (EMEA/H/C/003861) er trukket tilbake, ikke godkjent | Rettet | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette innholdet er kun til forskningsformål og utgjør ikke medisinsk rådgivning.

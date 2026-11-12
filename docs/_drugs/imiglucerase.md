@@ -82,7 +82,13 @@ Foreløpig er det ingen registrerte kliniske studier knyttet til denne indikasjo
 
 | Godkjenningsnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000157 | Cerezyme (Sanofi B.V.) | Ikke oppgitt | Gauchers sykdom (status: tilbakekalt) |
+| EMEA/H/C/000157 | Cerezyme (Sanofi B.V.) | Ikke oppgitt | Gauchers sykdom (status: godkjent) |
+
+<!-- review:begin no-row-20261112-imiglucerase-1 -->
+
+> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «Gauchers sykdom (status: tilbakekalt)» Ifølge EMAs data (per 2026-11-09) er markedsføringstillatelsen for Cerezyme (EMEA/H/C/000157) gyldig («Authorised»). Kilde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end no-row-20261112-imiglucerase-1 -->
 
 ---
 
@@ -106,6 +112,18 @@ Prediksjonen bygger kun på modellscore og et klassenivå-argument om enzymersta
 - Dokumentasjon av virkningsmekanisme
 - Gjennomgang av preparatomtalen for advarsler og kontraindikasjoner
 - Sammenligning med etablert behandling (laronidase) før en eventuell klinisk studie vurderes
+
+<!-- review:begin log -->
+
+## Kontrollogg
+
+Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs data om sentrale EU-godkjenninger. Rettelser gjelder bare grunnleggende faktaopplysninger; modellens prediksjoner, evidensnivåer og konklusjoner er ikke skrevet om.
+
+| Kontrolldato | Punkt | Tiltak | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Tabell: Cerezyme (EMEA/H/C/000157) er godkjent, ikke tilbakekalt | Rettet | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

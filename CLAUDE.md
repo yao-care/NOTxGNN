@@ -35,3 +35,5 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 `scripts/sync_notes_to_docs.py` 依 notes 重寫整頁後會重套紀錄，notes 裡的舊錯句會被紀錄再更正一次。
 
 2026-11-12 正文許可狀態對事實層掃描：6 頁（cetrorelix、ranibizumab、roxadustat、tasimelteon、tobramycin、verteporfin）在 11 月 AI 重產時照證據包（local_regulatory 全標 Cancelled only）寫成「opphørt／trukket tilbake／avsluttet」，EMA 資料（bundle）是 Authorised、事實層有效；以 11 筆 `no-lic-20261112-*` 紀錄更正（含 tasimelteon 表格列「status: opphørt」→「godkjent」）。
+
+2026-11-12 許可證表格列狀態對事實層（母目錄 check_drug_page.py --row-status）：4 列 EMA 現行許可（Cerezyme、Yervoy、Vectibix、Erivedge）標成註銷、2 列（Natpar、Optruma）寫 godkjent 但 EMA 為 Withdrawn，以 6 筆 `no-row-20261112-*` correct 紀錄更正（依證據包原始狀態逐列確認）。

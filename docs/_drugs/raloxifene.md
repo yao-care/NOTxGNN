@@ -90,8 +90,14 @@ Foreløpig finnes ingen relatert litteratur.
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
 | EMEA/H/C/000184 | Evista (Substipharm) | – | Postmenopausal osteoporose (godkjent) |
-| EMEA/H/C/000185 | Optruma (Eli Lilly Nederland B.V.) | – | Postmenopausal osteoporose (godkjent) |
+| EMEA/H/C/000185 | Optruma (Eli Lilly Nederland B.V.) | – | Postmenopausal osteoporose (trukket tilbake) |
 | EMEA/H/C/001075 | Raloxifene Teva (Teva B.V.) | – | Postmenopausal osteoporose (godkjent) |
+
+<!-- review:begin no-row-20261112-raloxifene-1 -->
+
+> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «Optruma (Eli Lilly Nederland B.V.) &#124; – &#124; Postmenopausal osteoporose (godkjent)» Ifølge EMAs data (per 2026-11-09) er markedsføringstillatelsen for Optruma (EMEA/H/C/000185) trukket tilbake («Withdrawn»). Kilde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end no-row-20261112-raloxifene-1 -->
 
 ---
 
@@ -141,6 +147,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «og legemidlet er markedsført i Norge med 3 gyldige tillatelser av 3» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden legemidlet er markedsført i Norge med 3 gyldige tillatelser av 3» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-12 | Tabell: Optruma (EMEA/H/C/000185) er trukket tilbake, ikke godkjent | Rettet | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

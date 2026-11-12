@@ -85,7 +85,13 @@ Foreløpig ingen relatert litteratur tilgjengelig.
 
 | Godkjenningsnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/002602 (avregistrert) | Erivedge | Ikke oppgitt | Basalcellekarsinom |
+| EMEA/H/C/002602 | Erivedge | Ikke oppgitt | Basalcellekarsinom |
+
+<!-- review:begin no-row-20261112-vismodegib-1 -->
+
+> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «EMEA/H/C/002602 (avregistrert)» Ifølge EMAs data (per 2026-11-09) er markedsføringstillatelsen for Erivedge (EMEA/H/C/002602) gyldig («Authorised»). Kilde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end no-row-20261112-vismodegib-1 -->
 
 ---
 
@@ -144,6 +150,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-10-31 | Fjernet: «I tillegg avhenger responsen av mutasjonsnivå i signalveien, bruk hos barn gir sikkerhetsbekymringer, og legemidlet har kun avregistrerte go» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-12 | Tabell: Erivedge (EMEA/H/C/002602) er godkjent, ikke avregistrert | Rettet | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

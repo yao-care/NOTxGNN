@@ -83,7 +83,13 @@ Foreløpig finnes det ingen relatert litteratur om ipilimumab ved choroideremi.
 
 | Tillatelsesnummer | Produktnavn | Legemiddelform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/002213 (avregistrert) | Yervoy (Bristol-Myers Squibb Pharma EEIG) | – | Melanom, nyrecellekarsinom, ikke-småcellet lungekreft, malignt mesoteliom, kolorektal kreft |
+| EMEA/H/C/002213 | Yervoy (Bristol-Myers Squibb Pharma EEIG) | – | Melanom, nyrecellekarsinom, ikke-småcellet lungekreft, malignt mesoteliom, kolorektal kreft |
+
+<!-- review:begin no-row-20261112-ipilimumab-1 -->
+
+> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «EMEA/H/C/002213 (avregistrert)» Ifølge EMAs data (per 2026-11-09) er markedsføringstillatelsen for Yervoy (EMEA/H/C/002213) gyldig («Authorised»). Kilde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end no-row-20261112-ipilimumab-1 -->
 
 ---
 
@@ -137,6 +143,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 | Kontrolldato | Punkt | Tiltak | Kilde |
 |------|------|------|------|
 | 2026-11-06 | Fjernet: «Ipilimumabs tillatelse i Norge er dessuten avregistrert» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-12 | Tabell: Yervoy (EMEA/H/C/002213) er godkjent, ikke avregistrert | Rettet | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

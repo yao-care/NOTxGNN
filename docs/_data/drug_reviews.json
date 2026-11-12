@@ -1857,6 +1857,26 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c12de1a（2026-11-06）"
   },
   {
+   "id": "no-row-20261112-ipilimumab-1",
+   "drug": "ipilimumab",
+   "file": "ipilimumab.md",
+   "action": "correct",
+   "claim": "EMEA/H/C/002213 (avregistrert)",
+   "replacement": "EMEA/H/C/002213",
+   "summary": "Tabell: Yervoy (EMEA/H/C/002213) er godkjent, ikke avregistrert",
+   "note": "Ifølge EMAs data (per 2026-11-09) er markedsføringstillatelsen for Yervoy (EMEA/H/C/002213) gyldig («Authorised»).",
+   "finding": "表格列把 Yervoy（EMEA/H/C/002213）標成註銷；證據包 EMA：Authorised、事實層 valid",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+  },
+  {
    "id": "no-lic-20261106-ketoconazole-1",
    "drug": "ketoconazole",
    "file": "ketoconazole.md",
@@ -2609,6 +2629,26 @@
    "checked": "2026-11-06",
    "summary": "Fjernet: «siden tillatelsen er trukket tilbake»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c12de1a（2026-11-06）"
+  },
+  {
+   "id": "no-row-20261112-panitumumab-1",
+   "drug": "panitumumab",
+   "file": "panitumumab.md",
+   "action": "correct",
+   "claim": "EMEA/H/C/000741 (trukket tilbake)",
+   "replacement": "EMEA/H/C/000741",
+   "summary": "Tabell: Vectibix (EMEA/H/C/000741) er godkjent, ikke trukket tilbake",
+   "note": "Ifølge EMAs data (per 2026-11-09) er markedsføringstillatelsen for Vectibix (EMEA/H/C/000741) gyldig («Authorised»).",
+   "finding": "表格列把 Vectibix（EMEA/H/C/000741）標成註銷；證據包 EMA：Authorised、事實層 valid",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
   },
   {
    "id": "no-lic-20261106-panobinostat-1",
@@ -3365,6 +3405,26 @@
    "checked": "2026-11-06",
    "summary": "Fjernet: «siden legemidlet er markedsført i Norge med 3 gyldige tillatelser av 3»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c12de1a（2026-11-06）"
+  },
+  {
+   "id": "no-row-20261112-raloxifene-1",
+   "drug": "raloxifene",
+   "file": "raloxifene.md",
+   "action": "correct",
+   "claim": "Optruma (Eli Lilly Nederland B.V.) | – | Postmenopausal osteoporose (godkjent)",
+   "replacement": "Optruma (Eli Lilly Nederland B.V.) | – | Postmenopausal osteoporose (trukket tilbake)",
+   "summary": "Tabell: Optruma (EMEA/H/C/000185) er trukket tilbake, ikke godkjent",
+   "note": "Ifølge EMAs data (per 2026-11-09) er markedsføringstillatelsen for Optruma (EMEA/H/C/000185) trukket tilbake («Withdrawn»).",
+   "finding": "表格列把 Optruma（EMEA/H/C/000185）標成 godkjent；證據包 EMA：Withdrawn、事實層 cancelled",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
   },
   {
    "id": "no-lic-20261106-rasagiline-1",
@@ -4829,6 +4889,26 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d362206d（2026-10-31）"
   },
   {
+   "id": "no-row-20261112-vismodegib-1",
+   "drug": "vismodegib",
+   "file": "vismodegib.md",
+   "action": "correct",
+   "claim": "EMEA/H/C/002602 (avregistrert)",
+   "replacement": "EMEA/H/C/002602",
+   "summary": "Tabell: Erivedge (EMEA/H/C/002602) er godkjent, ikke avregistrert",
+   "note": "Ifølge EMAs data (per 2026-11-09) er markedsføringstillatelsen for Erivedge (EMEA/H/C/002602) gyldig («Authorised»).",
+   "finding": "表格列把 Erivedge（EMEA/H/C/002602）標成註銷；證據包 EMA：Authorised、事實層 valid",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+  },
+  {
    "id": "no-lic-20261031-vortioxetine-1",
    "drug": "vortioxetine",
    "file": "vortioxetine.md",
@@ -5304,6 +5384,46 @@
    ],
    "checked": "2026-11-12",
    "method": "2026-11-12 人工查核（正文的許可狀態對事實層與證據包 bundle 原始狀態）"
+  },
+  {
+   "id": "no-row-20261112-imiglucerase-1",
+   "drug": "imiglucerase",
+   "file": "imiglucerase.md",
+   "action": "correct",
+   "claim": "Gauchers sykdom (status: tilbakekalt)",
+   "replacement": "Gauchers sykdom (status: godkjent)",
+   "summary": "Tabell: Cerezyme (EMEA/H/C/000157) er godkjent, ikke tilbakekalt",
+   "note": "Ifølge EMAs data (per 2026-11-09) er markedsføringstillatelsen for Cerezyme (EMEA/H/C/000157) gyldig («Authorised»).",
+   "finding": "表格列把 Cerezyme（EMEA/H/C/000157）標成註銷；證據包 EMA：Authorised、事實層 valid",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+  },
+  {
+   "id": "no-row-20261112-parathyroid_hormone-1",
+   "drug": "parathyroid_hormone",
+   "file": "parathyroid_hormone.md",
+   "action": "correct",
+   "claim": "Hypoparatyreoidisme (godkjent)",
+   "replacement": "Hypoparatyreoidisme (trukket tilbake)",
+   "summary": "Tabell: Natpar (EMEA/H/C/003861) er trukket tilbake, ikke godkjent",
+   "note": "Ifølge EMAs data (per 2026-11-09) er markedsføringstillatelsen for Natpar (EMEA/H/C/003861) trukket tilbake («Withdrawn»).",
+   "finding": "表格列把 Natpar（EMEA/H/C/003861）標成 godkjent；證據包 EMA：Withdrawn、事實層 cancelled",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
   }
  ]
 }

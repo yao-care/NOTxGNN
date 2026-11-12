@@ -94,7 +94,13 @@ Det er for tiden ingen relevant litteratur tilgjengelig.
 
 | Tillatelsesnummer | Produktnavn | Doseringsform | Godkjent indikasjon |
 |---------|------|------|-----------|
-| EMEA/H/C/000741 (trukket tilbake) | Vectibix | – | Kolorektal kreft |
+| EMEA/H/C/000741 | Vectibix | – | Kolorektal kreft |
+
+<!-- review:begin no-row-20261112-panitumumab-1 -->
+
+> **Kontrollrettelse (2026-11-12)**: Opprinnelig sto det: «EMEA/H/C/000741 (trukket tilbake)» Ifølge EMAs data (per 2026-11-09) er markedsføringstillatelsen for Vectibix (EMEA/H/C/000741) gyldig («Authorised»). Kilde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end no-row-20261112-panitumumab-1 -->
 
 ---
 
@@ -158,6 +164,7 @@ Nedenfor er kontrolloggen for denne siden: opplysninger kontrollert mot EMAs dat
 | 2026-11-06 | Fjernet: «At produktet kun har trukket tilbake tillatelse, kan også svekke gjennomførbarheten» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «Produktet har dessuten kun en trukket tilbake tillatelse, og s» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
 | 2026-11-06 | Fjernet: «siden tillatelsen er trukket tilbake» | Rettet | [EMA – Medicines output: medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency](https://www.ema.europa.eu/) |
+| 2026-11-12 | Tabell: Vectibix (EMEA/H/C/000741) er godkjent, ikke trukket tilbake | Rettet | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 
