@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-11-13T05:35:57.783727+00:00",
+  "fetched_at": "2026-11-13T14:06:43.314357+00:00",
   "source": "Google News Health RSS",
-  "count": 25,
+  "count": 23,
   "articles": [
-    {
-      "id": "ff3d6f1ac13e",
-      "title": "Hadde ikke tid til å vurdere dyre medisiner: – Handler om liv og død - NRK",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcVJuTm4ydzBVS0ZweFloN0RMY0RULXVKT1ZYY3V2TDAtSHh1ckdPNVpOLVl1Wk4xVXBoZlhDaE8ybG5rNTdORDcyTkNFXzZadGFUV05DNkNTdXhlSHlid1ByUlM5UngzRDlpZ2hzRlJDUmZuMzlpRkctRmRsUGlEYnZwcmpsdmhQVWJzbTd5amN0eVI5cThGWlZQQ0o5QmhhQUVF?oc=5",
-      "published": "2026-11-13T04:37:40+00:00",
-      "source": {
-        "name": "NRK",
-        "url": "https://www.nrk.no"
-      }
-    },
     {
       "id": "25fe5f5a50a0",
       "title": "Lege: – Helt forståelig at folk blir usikre - TV 2",
@@ -47,7 +37,7 @@
       "id": "1aca3d8f6875",
       "title": "Plutselig var tablettene borte vekk: – En alvorlig sak - bladet.no",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUVlnanZOVFNkbkRYZFdxVTJDUV9WZGxDblNzWmpJYUQyQlEtMm5tMDVVWWR2SzBEVkN6UXlqQlJHN2xiSUlVTVlzck9nMDdISzd1VWFZaUNOU0wtckRVd3dEWWRSSVJMSjBRc05wZXhIR2VhOWZaOE5EMFB2R1ZFandTMnREOExT?oc=5",
-      "published": "2026-10-31T07:00:00+00:00",
+      "published": "2026-11-01T07:00:00+00:00",
       "source": {
         "name": "bladet.no",
         "url": "https://www.bladet.no"
@@ -71,16 +61,6 @@
       "source": {
         "name": "Folkehelseinstituttet - FHI",
         "url": "https://www.fhi.no"
-      }
-    },
-    {
-      "id": "9389b30abe08",
-      "title": "Kolesterol-medisiner: Dramatiske funn om bivirkninger - Dagbladet",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOX0Y5d3Q3clUwR3hNMUpSNjJJSWkwcXE5NVVjWkpZbEpiWlhPdTlZMDJmVXRTTDIxWVdhdkFNc0d1bjZKYkJmWkVxZXEzVFpyUFF6aHVOekZyTFBkX2R2ckpFb1NKMHhZemJ5eGxSNVVVcXpmUjVGY2dyUXZfQlBfWGRKajNTXzI0NzE2QnhxbklScjgyV0E?oc=5",
-      "published": "2026-09-02T07:00:00+00:00",
-      "source": {
-        "name": "Dagbladet",
-        "url": "https://www.dagbladet.no"
       }
     },
     {
@@ -144,6 +124,16 @@
       }
     },
     {
+      "id": "a6a4c624cfc8",
+      "title": "20 minutters pause i naturen er god medisin mot stress - NHI.no",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVjF2WTczWVNnVkVHejVkcXBJV1BvNzNTTG8tS3lENjJ2U2tOeHNJS0g4dnM0NDV0T1F0d2lDdXVtYlZSRTFBSzFoaFRhZFozLW4tQTFtbUlmTUpuLVdKOFJSVTZXbzVjck5iOUQ3UmVVZVo5VjY0X0dlSExLOGNFYmN1aWJFVjdLOUI0YzVFY3hCN3hSNnJvREFsV29wdkhhQnVz?oc=5",
+      "published": "2019-04-21T07:00:00+00:00",
+      "source": {
+        "name": "NHI.no",
+        "url": "https://nhi.no"
+      }
+    },
+    {
       "id": "62d5b2e3793a",
       "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZEd5eTVOaFRZZHd1MVQzQUVGc09ZSlZtdnlXUEhwTkNQRXp0UEhfREhwSzNIRC1RVVVKYldGLWJlQlNtYkM1dkw2RFNvSFJXdzc1WlNhc0Y3c3JPcDFnalBGWVdJcGxtbTNuTUJfeE50NTlNNTdNMlNIY0NBdGk2MjhXMjJRVGxjcFNFbEFFNDRBUUMtaDM4R0NDbEtXdjNsckRjdjBYdGFqOFYyXzRmYmhZSVRHbldmaEUyVk5QcEFCYjMwbTNXMGxfMXJaa25WYXc?oc=5",
@@ -174,6 +164,16 @@
       }
     },
     {
+      "id": "cb4e71eee0cf",
+      "title": "Medisiner ved røykeslutt, vareniklin - NHI.no",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRFF1QVRBUFd1Z3pmUE54S2lLNmc2SHp5LWVTYUY4cUxIUG1MRl9DRmF2d256bGo0Y3Y3ZjQ2SjdtdlBsVzBDUnZqZExua24weDlRN1dWb1o3UnZkY2x4SnBWVGtSRFFYVTNPTEFYRGRteVYzVHpKd0RiYmhnN3MzbA?oc=5",
+      "published": "2023-11-13T15:25:27+00:00",
+      "source": {
+        "name": "NHI.no",
+        "url": "https://nhi.no"
+      }
+    },
+    {
       "id": "1f8ee124566a",
       "title": "Ja til nytt legemiddel mot atopisk eksem - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWEdfMmRHSWhnUnRBOU5GeURCbUowQnNYZUpKZkJRRi1aSnp1X1VrX2R2NWJ2dHMzalFXcEhGU1k5aG9DMmEwUWxfY2VMc0FUS09VUGliaHhoYWZuNmNKWGxEeUcxSkdaYXRRaXpzZFlLczlNZFFTaEhManJac2dsS1JRLXNKMXFzLWFKeGtCX21PMzFvRXZwdnNBZXZ3UGk4b05YakU1c3FDd2Z6dDl6bVEycw?oc=5",
@@ -201,26 +201,6 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
-      "id": "a6a4c624cfc8",
-      "title": "20 minutters pause i naturen er god medisin mot stress - NHI.no",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVjF2WTczWVNnVkVHejVkcXBJV1BvNzNTTG8tS3lENjJ2U2tOeHNJS0g4dnM0NDV0T1F0d2lDdXVtYlZSRTFBSzFoaFRhZFozLW4tQTFtbUlmTUpuLVdKOFJSVTZXbzVjck5iOUQ3UmVVZVo5VjY0X0dlSExLOGNFYmN1aWJFVjdLOUI0YzVFY3hCN3hSNnJvREFsV29wdkhhQnVz?oc=5",
-      "published": "2019-04-21T07:00:00+00:00",
-      "source": {
-        "name": "NHI.no",
-        "url": "https://nhi.no"
-      }
-    },
-    {
-      "id": "cb4e71eee0cf",
-      "title": "Medisiner ved røykeslutt, vareniklin - NHI.no",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRFF1QVRBUFd1Z3pmUE54S2lLNmc2SHp5LWVTYUY4cUxIUG1MRl9DRmF2d256bGo0Y3Y3ZjQ2SjdtdlBsVzBDUnZqZExua24weDlRN1dWb1o3UnZkY2x4SnBWVGtSRFFYVTNPTEFYRGRteVYzVHpKd0RiYmhnN3MzbA?oc=5",
-      "published": "2023-11-13T15:25:27+00:00",
-      "source": {
-        "name": "NHI.no",
-        "url": "https://nhi.no"
       }
     },
     {
