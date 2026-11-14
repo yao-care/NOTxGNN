@@ -8,6 +8,11 @@ description: "Kandidater for legemiddelreposisjonering på nivå L3-L4 i NOTxGNN
 
 # Moderat evidens (L3-L4)
 
+<!-- page-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
+{% assign pd_m = site.data.drug_stats.level_counts.L3 | plus: site.data.drug_stats.level_counts.L4 %}
+Siden viser **{{ pd_m }}** av de **{{ site.data.drug_stats.total_drugs }}** legemidlene med publisert rapport på dette nettstedet ({{ pd_m | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }} %). Definisjon av nivåene: [Metodikk]({{ '/methodology/' | relative_url }}).
+<!-- page-data:end -->
+
 <p style="font-size: 1.25rem; color: #666; margin-bottom: 1.5rem;">
 Kandidater med foreløpig evidens som krever ytterligere validering
 </p>
