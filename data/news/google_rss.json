@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-11-14T08:53:31.089183+00:00",
+  "fetched_at": "2026-11-14T15:37:51.951190+00:00",
   "source": "Google News Health RSS",
   "count": 20,
   "articles": [
+    {
+      "id": "3e5970eda74c",
+      "title": "Teknisk feil gir reseptstans på apotekene - VG",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcEZNejBicDRzY3VrTFFYT28wODU1QVJPV3AxVG0xSDZuYXBIWFZESjNkM0JSMmo3ZUlyYXVoSURXZWtveUgybzU0S0oybHhGamFhNzJkcFRhd3MxZTRhSEpxaWpXc1VwWkp0a1ZXQ3libWdZRWtoYzdKbmdLdm1Ra0J2YkJZWnlNaVQtek9pS3pUQQ?oc=5",
+      "published": "2026-11-14T15:11:41+00:00",
+      "source": {
+        "name": "VG",
+        "url": "https://www.vg.no"
+      }
+    },
     {
       "id": "25fe5f5a50a0",
       "title": "Lege: – Helt forståelig at folk blir usikre - TV 2",
@@ -178,16 +188,6 @@
       "title": "Ja til nytt legemiddel mot atopisk eksem - NTB Kommunikasjon",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWEdfMmRHSWhnUnRBOU5GeURCbUowQnNYZUpKZkJRRi1aSnp1X1VrX2R2NWJ2dHMzalFXcEhGU1k5aG9DMmEwUWxfY2VMc0FUS09VUGliaHhoYWZuNmNKWGxEeUcxSkdaYXRRaXpzZFlLczlNZFFTaEhManJac2dsS1JRLXNKMXFzLWFKeGtCX21PMzFvRXZwdnNBZXZ3UGk4b05YakU1c3FDd2Z6dDl6bVEycw?oc=5",
       "published": "2020-02-24T08:00:00+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
-      "id": "612112db7cef",
-      "title": "Ja til legemiddel for brystkreft - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObFZLVGQ1c1I3dmxnNC1rZGZ1d1JUa2g4eFFpNWZ1UG9UNFdMR1hiZVFwcE9XdU1GTlNCRHpZYlNyU251NlVpcUVRZmZJOXozMzZ6bVFEZU9xUlVnVEd4MXVlTGllS0o4MHRMa0JjcVJqdFc3c0FJVThtZ1RubEk3WEh5dHRYOGJKVnRHbjYzVGtCTWZjQVBmSVJ6dHJaSnFnS2EwOVFVWHo?oc=5",
-      "published": "2019-06-24T07:00:00+00:00",
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
