@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-13T21:14:16.839298+00:00",
+  "fetched_at": "2026-11-14T01:59:57.356997+00:00",
   "source": "Google News Health RSS",
-  "count": 23,
+  "count": 22,
   "articles": [
     {
       "id": "25fe5f5a50a0",
@@ -134,13 +134,13 @@
       }
     },
     {
-      "id": "62d5b2e3793a",
-      "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZEd5eTVOaFRZZHd1MVQzQUVGc09ZSlZtdnlXUEhwTkNQRXp0UEhfREhwSzNIRC1RVVVKYldGLWJlQlNtYkM1dkw2RFNvSFJXdzc1WlNhc0Y3c3JPcDFnalBGWVdJcGxtbTNuTUJfeE50NTlNNTdNMlNIY0NBdGk2MjhXMjJRVGxjcFNFbEFFNDRBUUMtaDM4R0NDbEtXdjNsckRjdjBYdGFqOFYyXzRmYmhZSVRHbldmaEUyVk5QcEFCYjMwbTNXMGxfMXJaa25WYXc?oc=5",
-      "published": "2021-05-12T07:00:00+00:00",
+      "id": "c0dc3659f63f",
+      "title": "Vanlige legemidler påvirker screeningtest - UiO Det medisinske fakultet",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORzI5OERFejdjbnpudXEzMzI0OS1YcWI0V21fUzJaNkMwWW1BdE1IMkdXQko5ZW4zWFdPTHN1Ry1vUm1kN25PUEtCVDNpemxNSTZKQkpIMlFBR3JfYVR6UWtZQ0ZNN2FGR1IwYW5mNVZiWEhhdERfcXdLcWs2bEstQmZDdXEwblNSVm1nV2kxb1RHdWRDR1prS3NLTmxDMFB5ZV9MdGVjSGVVazJfMG5oNVhIbXc1LXRIRm9aUmZkZ3Q2Z1RPODVXQXhrTml1QUVYS0VSZQ?oc=5",
+      "published": "2019-01-29T08:00:00+00:00",
       "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
+        "name": "UiO Det medisinske fakultet",
+        "url": "https://www.med.uio.no"
       }
     },
     {
@@ -154,6 +154,16 @@
       }
     },
     {
+      "id": "62d5b2e3793a",
+      "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZEd5eTVOaFRZZHd1MVQzQUVGc09ZSlZtdnlXUEhwTkNQRXp0UEhfREhwSzNIRC1RVVVKYldGLWJlQlNtYkM1dkw2RFNvSFJXdzc1WlNhc0Y3c3JPcDFnalBGWVdJcGxtbTNuTUJfeE50NTlNNTdNMlNIY0NBdGk2MjhXMjJRVGxjcFNFbEFFNDRBUUMtaDM4R0NDbEtXdjNsckRjdjBYdGFqOFYyXzRmYmhZSVRHbldmaEUyVk5QcEFCYjMwbTNXMGxfMXJaa25WYXc?oc=5",
+      "published": "2021-05-12T07:00:00+00:00",
+      "source": {
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
       "id": "d5b00741f05f",
       "title": "Farmasøyter kan bidra til bedre pasientoppfølging i sykehjem og til å sikre riktig bruk av legemidler - Folkehelseinstituttet - FHI",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdDl0M3pSbzZOTlBjLVNBUk5WRVJxUU5GU1kwLVFLS3pLd1QzZ2pseFJPMkNqTDFXR2Z2cllDcGRqb0xPY3o1cUhnbl9BeDhDcXlYdTVzLXZwYWM1TU9YMFZ0MXgzakkzMU5KeTVpc0lvQm90VzFaOGhVQzdYV1k5ZzczSTVkQ0s0Ul9WalJsVUd3eHNZY09jemIwMDFYLVpwQTJfNWF3QU4tZGFsNE00ZEIxZmlUNjE5X0RqcllXWE4yQ0EzTjlJSFZEYw?oc=5",
@@ -161,16 +171,6 @@
       "source": {
         "name": "Folkehelseinstituttet - FHI",
         "url": "https://www.fhi.no"
-      }
-    },
-    {
-      "id": "cb4e71eee0cf",
-      "title": "Medisiner ved røykeslutt, vareniklin - NHI.no",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRFF1QVRBUFd1Z3pmUE54S2lLNmc2SHp5LWVTYUY4cUxIUG1MRl9DRmF2d256bGo0Y3Y3ZjQ2SjdtdlBsVzBDUnZqZExua24weDlRN1dWb1o3UnZkY2x4SnBWVGtSRFFYVTNPTEFYRGRteVYzVHpKd0RiYmhnN3MzbA?oc=5",
-      "published": "2023-11-13T15:25:27+00:00",
-      "source": {
-        "name": "NHI.no",
-        "url": "https://nhi.no"
       }
     },
     {
@@ -201,16 +201,6 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
-      "id": "c0dc3659f63f",
-      "title": "Vanlige legemidler påvirker screeningtest - UiO Det medisinske fakultet",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORzI5OERFejdjbnpudXEzMzI0OS1YcWI0V21fUzJaNkMwWW1BdE1IMkdXQko5ZW4zWFdPTHN1Ry1vUm1kN25PUEtCVDNpemxNSTZKQkpIMlFBR3JfYVR6UWtZQ0ZNN2FGR1IwYW5mNVZiWEhhdERfcXdLcWs2bEstQmZDdXEwblNSVm1nV2kxb1RHdWRDR1prS3NLTmxDMFB5ZV9MdGVjSGVVazJfMG5oNVhIbXc1LXRIRm9aUmZkZ3Q2Z1RPODVXQXhrTml1QUVYS0VSZQ?oc=5",
-      "published": "2019-01-29T08:00:00+00:00",
-      "source": {
-        "name": "UiO Det medisinske fakultet",
-        "url": "https://www.med.uio.no"
       }
     },
     {
