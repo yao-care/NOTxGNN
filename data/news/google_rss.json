@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-15T00:50:26.872453+00:00",
+  "fetched_at": "2026-11-15T07:37:39.807600+00:00",
   "source": "Google News Health RSS",
-  "count": 20,
+  "count": 19,
   "articles": [
     {
       "id": "3e5970eda74c",
@@ -84,6 +84,16 @@
       }
     },
     {
+      "id": "6bae80839252",
+      "title": "Er alternativ medisin nøkkelen til å oppnå globale helsemål? - FN-sambandet",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTVczVVJ2WXoyZTNjaTlPUUdDMWhhOTFCVHlEVkJFTzNlYVJJV3pnR1NtSXNjX1VlVk8wRGQtbEFxWFdENHlwN1RsN0tPb0xCX0VJMnB3VUNoNEdpcUtHMDNuVVJOWW5HMzZ5WFZtdWd3OC1iTGtqZ2xhbFp1UnNSMGc1LTRxRmFyT0NUbU9R?oc=5",
+      "published": "2023-08-18T07:00:00+00:00",
+      "source": {
+        "name": "FN-sambandet",
+        "url": "https://fn.no"
+      }
+    },
+    {
       "id": "9a816f56a278",
       "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - Rådet for psykisk helse",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjkwcGZUTVRwWk15Yms3VHNEOWNjaHAzank5d0xhc3VSSkViN2RBNDZGZDBXMTdIQ1ZIWGE1WC0ycjgwREpnNHFVNlRyRV9ia2VPX0lFdGhkaFQ1RDZqY2V5TzlQMXNxbXRpZGdKUGRneXFCQUVyaXRpNkFKaFFrWTJ5ZDBjeU9JSzJ0aXBQVGZyY3BxNFRONmtCdS1PVnZtRlFv?oc=5",
@@ -114,13 +124,13 @@
       }
     },
     {
-      "id": "c0dc3659f63f",
-      "title": "Vanlige legemidler påvirker screeningtest - UiO Det medisinske fakultet",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORzI5OERFejdjbnpudXEzMzI0OS1YcWI0V21fUzJaNkMwWW1BdE1IMkdXQko5ZW4zWFdPTHN1Ry1vUm1kN25PUEtCVDNpemxNSTZKQkpIMlFBR3JfYVR6UWtZQ0ZNN2FGR1IwYW5mNVZiWEhhdERfcXdLcWs2bEstQmZDdXEwblNSVm1nV2kxb1RHdWRDR1prS3NLTmxDMFB5ZV9MdGVjSGVVazJfMG5oNVhIbXc1LXRIRm9aUmZkZ3Q2Z1RPODVXQXhrTml1QUVYS0VSZQ?oc=5",
-      "published": "2019-01-29T08:00:00+00:00",
+      "id": "62d5b2e3793a",
+      "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZEd5eTVOaFRZZHd1MVQzQUVGc09ZSlZtdnlXUEhwTkNQRXp0UEhfREhwSzNIRC1RVVVKYldGLWJlQlNtYkM1dkw2RFNvSFJXdzc1WlNhc0Y3c3JPcDFnalBGWVdJcGxtbTNuTUJfeE50NTlNNTdNMlNIY0NBdGk2MjhXMjJRVGxjcFNFbEFFNDRBUUMtaDM4R0NDbEtXdjNsckRjdjBYdGFqOFYyXzRmYmhZSVRHbldmaEUyVk5QcEFCYjMwbTNXMGxfMXJaa25WYXc?oc=5",
+      "published": "2021-05-12T07:00:00+00:00",
       "source": {
-        "name": "UiO Det medisinske fakultet",
-        "url": "https://www.med.uio.no"
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
@@ -131,16 +141,6 @@
       "source": {
         "name": "Regjeringen.no",
         "url": "https://www.regjeringen.no"
-      }
-    },
-    {
-      "id": "62d5b2e3793a",
-      "title": "Byggjer nasjonale beredskapslager for legemiddel frå Vestlandet - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZEd5eTVOaFRZZHd1MVQzQUVGc09ZSlZtdnlXUEhwTkNQRXp0UEhfREhwSzNIRC1RVVVKYldGLWJlQlNtYkM1dkw2RFNvSFJXdzc1WlNhc0Y3c3JPcDFnalBGWVdJcGxtbTNuTUJfeE50NTlNNTdNMlNIY0NBdGk2MjhXMjJRVGxjcFNFbEFFNDRBUUMtaDM4R0NDbEtXdjNsckRjdjBYdGFqOFYyXzRmYmhZSVRHbldmaEUyVk5QcEFCYjMwbTNXMGxfMXJaa25WYXc?oc=5",
-      "published": "2021-05-12T07:00:00+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
@@ -181,16 +181,6 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
-      "id": "263bf9da95d7",
-      "title": "Flere dør av en overdose sterke smertestillende medisiner - Folkehelseinstituttet - FHI",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQU1lYeDRvSUNCVC1FMU9VWWN6SUJ2Zmc4S2xwXzBkX0sxWDdibXF1dURJeXdCakFfejR2ZUV6TTVFdmYxaTZnaE9jRU4xT2VWRjlQLWVtUDVIdnI1anJEZG5XNlgxN0Q0MkFXZEdQVDVkY1NvemtJLURzcWdQN0Zrdjh1UmZmaUpxZzJuSmI0Qm5LT3hT?oc=5",
-      "published": "2022-10-25T07:00:00+00:00",
-      "source": {
-        "name": "Folkehelseinstituttet - FHI",
-        "url": "https://www.fhi.no"
       }
     },
     {
