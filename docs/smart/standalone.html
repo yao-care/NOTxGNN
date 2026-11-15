@@ -6,7 +6,7 @@
   <link rel="canonical" href="https://notxgnn.yao.care/smart/standalone.html">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NOTxGNN SMART App - Standalone Test Mode</title>
+  <title>NOTxGNN SMART App - Frittstående testmodus</title>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-W7ZNBYKJHJ"></script>
   <script>
     window.TXGNN_ANALYTICS = Object.assign({"measurementId": "G-W7ZNBYKJHJ", "contentGroup": "NOTxGNN", "language": "no", "citationHosts": ["dmp.no"], "linkerDomains": ["yao.care", "www.yao.care", "notxgnn.yao.care", "www.ods.yao.care", "app.ods.yao.care"], "pageType": "smart", "pagePath": "/smart/standalone.html"}, { pageTitle: document.title });
@@ -561,75 +561,75 @@
 <body>
   <header class="header">
     <h1>NOTxGNN SMART App</h1>
-    <p>Drug Repurposing Candidate Search</p>
-    <span class="mode-badge">Standalone test mode</span>
+    <p>Søk etter kandidater for reposisjonering av legemidler</p>
+    <span class="mode-badge">Frittstående testmodus</span>
   </header>
 
   <main class="content">
     <div class="info-card">
-      <h3>Standalone test mode</h3>
+      <h3>Frittstående testmodus</h3>
       <p>
-        This page lets you enter <strong>drug names</strong> manually to test NOTxGNN drug repurposing predictions
-        without connecting to an EHR. Enter drug names in English (e.g. Famotidine, Docetaxel, Paclitaxel).
+        På denne siden kan du skrive inn <strong>legemiddelnavn</strong> selv og teste reposisjoneringsprediksjonene til NOTxGNN
+        uten tilkobling til en elektronisk pasientjournal. Skriv navnene på engelsk (internasjonalt fellesnavn, f.eks. Bupropion, Nepafenac, Peginterferon Alfa-2A).
       </p>
       <p style="margin-top: 8px; color: #856404;">
-        <strong>Note:</strong> enter a drug name, not a disease name, e.g. "Famotidine" rather than "diabetes".
-        Click an example button below for a quick test.
+        <strong>Merk:</strong> skriv inn et legemiddelnavn, ikke en sykdom, f.eks. «Bupropion» og ikke «diabetes».
+        Klikk på en eksempelknapp for en rask test.
       </p>
     </div>
 
     <section class="section">
-      <h2 class="section-title">Enter drug names</h2>
+      <h2 class="section-title">Skriv inn legemiddelnavn</h2>
 
       <div class="input-group">
-        <input type="text" id="drug-input" placeholder="Enter a drug name, e.g. Famotidine, Docetaxel..." autocomplete="off">
-        <button class="btn btn-primary" id="add-btn">Add</button>
+        <input type="text" id="drug-input" placeholder="Legemiddelnavn, f.eks. Bupropion, Nepafenac..." autocomplete="off">
+        <button class="btn btn-primary" id="add-btn">Legg til</button>
       </div>
 
       <div class="drug-tags" id="drug-tags">
-        <span style="color: #999; font-size: 14px;">No drugs added yet</span>
+        <span style="color: #999; font-size: 14px;">Ingen legemidler lagt til ennå</span>
       </div>
 
       <div style="display: flex; gap: 12px;">
-        <button class="btn btn-primary" id="query-btn">Search repurposing candidates</button>
-        <button class="btn btn-secondary" id="clear-btn">Clear all</button>
+        <button class="btn btn-primary" id="query-btn">Søk etter reposisjoneringskandidater</button>
+        <button class="btn btn-secondary" id="clear-btn">Fjern alle</button>
       </div>
 
       <div class="sample-drugs">
-        <p>Examples of L1 high-evidence drugs (click to add):</p>
+        <p>Eksempler med de høyeste evidensnivåene på dette nettstedet (klikk for å legge til):</p>
         <div class="sample-list">
-          <button class="sample-btn" data-drug="Famotidine">Famotidine</button>
-          <button class="sample-btn" data-drug="Docetaxel">Docetaxel</button>
-          <button class="sample-btn" data-drug="Paclitaxel">Paclitaxel</button>
-          <button class="sample-btn" data-drug="Remdesivir">Remdesivir</button>
-          <button class="sample-btn" data-drug="Vitamin E">Vitamin E</button>
-          <button class="sample-btn" data-drug="Isosorbide dinitrate">Isosorbide dinitrate</button>
-          <button class="sample-btn" data-drug="Dronedarone">Dronedarone</button>
-          <button class="sample-btn" data-drug="Nepafenac">Nepafenac</button>
+          <button class="sample-btn" data-drug="Bupropion">Bupropion (L1)</button>
+          <button class="sample-btn" data-drug="Nepafenac">Nepafenac (L1)</button>
+          <button class="sample-btn" data-drug="Peginterferon Alfa-2A">Peginterferon Alfa-2A (L1)</button>
+          <button class="sample-btn" data-drug="Clofarabine">Clofarabine (L1)</button>
+          <button class="sample-btn" data-drug="Doxorubicin">Doxorubicin (L1)</button>
+          <button class="sample-btn" data-drug="Ketorolac">Ketorolac (L1)</button>
+          <button class="sample-btn" data-drug="Tacrolimus">Tacrolimus (L1)</button>
+          <button class="sample-btn" data-drug="Busulfan">Busulfan (L2)</button>
         </div>
       </div>
     </section>
 
     <section class="ddi-section" id="ddi-section" style="display: none;">
-      <h2 class="section-title">⚠️ Drug interaction alerts</h2>
+      <h2 class="section-title">⚠️ Varsler om interaksjoner</h2>
       <div id="ddi-results"></div>
     </section>
 
     <section class="section">
-      <h2 class="section-title">Results</h2>
+      <h2 class="section-title">Resultater</h2>
       <div id="results">
         <div class="empty-state">
-          <p>Add drugs and click the "Search" button</p>
+          <p>Legg til legemidler og klikk på «Søk etter reposisjoneringskandidater»</p>
         </div>
       </div>
     </section>
 
     <div class="disclaimer">
-      <strong>Disclaimer</strong>
-      This content is for research reference only and is not a substitute for professional medical advice. All drug repurposing predictions require clinical validation before use.
-      If you have health concerns, please consult a qualified healthcare professional.
+      <strong>Ansvarsfraskrivelse</strong>
+      Innholdet er kun ment som referanse for forskning og erstatter ikke faglige medisinske råd. Alle prediksjoner om reposisjonering må valideres klinisk før bruk.
+      Kontakt kvalifisert helsepersonell hvis du har spørsmål om helsen din.
       <br><br>
-      <a href="/privacy-policy/" style="color: #856404;">Privacy policy</a>
+      <a href="/privacy-policy/" style="color: #856404;">Personvernerklæring</a>
     </div>
   </main>
 
@@ -674,7 +674,7 @@
       // Load search index
       async function init() {
         try {
-          resultsDiv.innerHTML = '<div class="loading">Loading drug database...</div>';
+          resultsDiv.innerHTML = '<div class="loading">Laster legemiddeldatabasen...</div>';
 
           const response = await fetch(CONFIG.searchIndexUrl);
           if (!response.ok) throw new Error('Failed to load search index');
@@ -697,18 +697,18 @@
             // Auto-query
             await queryRepurposing();
           } else {
-            resultsDiv.innerHTML = '<div class="empty-state"><p>Add drugs and click the "Search" button</p></div>';
+            resultsDiv.innerHTML = '<div class="empty-state"><p>Legg til legemidler og klikk på «Søk etter reposisjoneringskandidater»</p></div>';
           }
         } catch (error) {
           console.error('Init error:', error);
-          resultsDiv.innerHTML = '<div class="empty-state" style="color: #c00;"><p>Failed to load the drug database</p></div>';
+          resultsDiv.innerHTML = '<div class="empty-state" style="color: #c00;"><p>Kunne ikke laste legemiddeldatabasen</p></div>';
         }
       }
 
       // Render drug tags
       function renderTags() {
         if (selectedDrugs.length === 0) {
-          drugTags.innerHTML = '<span style="color: #999; font-size: 14px;">No drugs added yet</span>';
+          drugTags.innerHTML = '<span style="color: #999; font-size: 14px;">Ingen legemidler lagt til ennå</span>';
           return;
         }
 
@@ -744,17 +744,17 @@
       // Query repurposing candidates
       async function queryRepurposing() {
         if (selectedDrugs.length === 0) {
-          resultsDiv.innerHTML = '<div class="empty-state"><p>Please add at least one drug</p></div>';
+          resultsDiv.innerHTML = '<div class="empty-state"><p>Legg til minst ett legemiddel</p></div>';
           document.getElementById('ddi-section').style.display = 'none';
           return;
         }
 
         if (!drugMapper) {
-          resultsDiv.innerHTML = '<div class="empty-state" style="color: #c00;"><p>The drug database has not loaded yet</p></div>';
+          resultsDiv.innerHTML = '<div class="empty-state" style="color: #c00;"><p>Legemiddeldatabasen er ikke lastet ennå</p></div>';
           return;
         }
 
-        resultsDiv.innerHTML = '<div class="loading">Searching...</div>';
+        resultsDiv.innerHTML = '<div class="loading">Søker...</div>';
 
         // Check DDI
         const ddiSection = document.getElementById('ddi-section');
@@ -766,7 +766,7 @@
             ddiResults.innerHTML = TwTxGNN.DDIChecker.formatAlertsHTML(ddiAlerts);
           } else {
             ddiSection.style.display = 'block';
-            ddiResults.innerHTML = '<div class="ddi-no-alerts">✓ No known drug interaction alerts</div>';
+            ddiResults.innerHTML = '<div class="ddi-no-alerts">✓ Ingen kjente varsler om interaksjoner</div>';
           }
         } else {
           ddiSection.style.display = 'none';
@@ -787,13 +787,13 @@
                     <a href="${CONFIG.drugsBaseUrl}${match.slug}/" target="_blank">${escapeHtml(match.name)}</a>
                     <span class="level-badge level-${match.level}">${match.level}</span>
                   </h3>
-                  <a href="${CONFIG.drugsBaseUrl}${match.slug}/" target="_blank" class="view-full">View full report →</a>
+                  <a href="${CONFIG.drugsBaseUrl}${match.slug}/" target="_blank" class="view-full">Se hele rapporten →</a>
                 </div>
                 <div class="result-original">
-                  <strong>Original indication:</strong>${escapeHtml(match.original) || '—'}
+                  <strong>Opprinnelig indikasjon:</strong>${escapeHtml(match.original) || '—'}
                 </div>
                 <div>
-                  <strong>Predicted new indications (repurposing candidates):</strong>
+                  <strong>Predikerte nye indikasjoner (reposisjoneringskandidater):</strong>
                   <div class="indication-list">
             `;
 
@@ -807,7 +807,7 @@
                       <span class="ind-name">${escapeHtml(ind.name)}</span>
                       <span class="ind-score">${ind.score}%</span>
                       <button class="trials-btn" onclick="loadClinicalTrials('${escapeHtml(match.name)}', '${escapeHtml(ind.name)}', '${trialsContainerId}')">
-                        🔬 Clinical trials
+                        🔬 Kliniske studier
                       </button>
                     </div>
                     <div class="trials-container" id="${trialsContainerId}"></div>
@@ -818,13 +818,13 @@
               if (indications.length > 10) {
                 html += `
                   <div class="more-link">
-                    ...and ${indications.length - 10} more predicted indications
-                    <a href="${CONFIG.drugsBaseUrl}${match.slug}/" target="_blank">View all</a>
+                    ...og ${indications.length - 10} predikerte indikasjoner til
+                    <a href="${CONFIG.drugsBaseUrl}${match.slug}/" target="_blank">Se alle</a>
                   </div>
                 `;
               }
             } else {
-              html += '<p style="color: #666; padding: 8px 0;">No predicted new indications</p>';
+              html += '<p style="color: #666; padding: 8px 0;">Ingen predikerte nye indikasjoner</p>';
             }
 
             html += '</div></div></div>';
@@ -836,10 +836,10 @@
                   <h3>${escapeHtml(drugName)}</h3>
                 </div>
                 <p class="no-match">
-                  "${escapeHtml(drugName)}" was not found in the NOTxGNN database.
+                  «${escapeHtml(drugName)}» ble ikke funnet i databasen til NOTxGNN.
                   <br><span style="font-style: normal; color: #666;">
-                    Check that this is a drug name (not a disease), or try the generic name.
-                    The database covers medicines approved in Norway.
+                    Kontroller at dette er et legemiddelnavn (ikke en sykdom), eller prøv virkestoffnavnet.
+                    Databasen omfatter legemidler godkjent i Norge.
                   </span>
                 </p>
               </div>
@@ -847,7 +847,7 @@
           }
         }
 
-        resultsDiv.innerHTML = html || '<div class="empty-state"><p>No results</p></div>';
+        resultsDiv.innerHTML = html || '<div class="empty-state"><p>Ingen resultater</p></div>';
       }
 
       function escapeHtml(text) {
@@ -915,18 +915,18 @@
         const container = document.getElementById(containerId);
         if (!container) return;
 
-        container.innerHTML = '<span class="trials-loading">Searching clinical trials...</span>';
+        container.innerHTML = '<span class="trials-loading">Søker etter kliniske studier...</span>';
 
         const result = await searchClinicalTrials(drugName, indicationName);
 
         if (result.totalCount === 0) {
-          container.innerHTML = '<span class="trials-none">No related clinical trials</span>';
+          container.innerHTML = '<span class="trials-none">Ingen relaterte kliniske studier</span>';
           return;
         }
 
         let html = `
           <div class="trials-summary">
-            <strong>${result.totalCount}</strong> related clinical trials found
+            <strong>${result.totalCount}</strong> relaterte kliniske studier funnet
           </div>
           <div class="trials-list">
         `;
@@ -947,7 +947,7 @@
           const searchUrl = `https://clinicaltrials.gov/search?cond=${encodeURIComponent(indicationName)}&intr=${encodeURIComponent(drugName)}`;
           html += `
             <a href="${searchUrl}" target="_blank" class="trials-more">
-              View all ${result.totalCount} clinical trials →
+              Se alle ${result.totalCount} kliniske studier →
             </a>
           `;
         }
@@ -975,14 +975,14 @@
        */
       function formatTrialStatus(status) {
         const statusMap = {
-          'RECRUITING': 'Recruiting',
-          'ACTIVE_NOT_RECRUITING': 'Active, not recruiting',
-          'COMPLETED': 'Completed',
-          'TERMINATED': 'Terminated',
-          'NOT_YET_RECRUITING': 'Not yet recruiting',
-          'SUSPENDED': 'Suspended',
-          'WITHDRAWN': 'Withdrawn',
-          'ENROLLING_BY_INVITATION': 'Enrolling by invitation'
+          'RECRUITING': 'Rekrutterer',
+          'ACTIVE_NOT_RECRUITING': 'Aktiv, rekrutterer ikke',
+          'COMPLETED': 'Fullført',
+          'TERMINATED': 'Avsluttet før tiden',
+          'NOT_YET_RECRUITING': 'Rekrutterer ikke ennå',
+          'SUSPENDED': 'Satt på pause',
+          'WITHDRAWN': 'Trukket tilbake',
+          'ENROLLING_BY_INVITATION': 'Deltakelse etter invitasjon'
         };
         return statusMap[status] || status;
       }
@@ -1005,7 +1005,7 @@
       clearBtn.addEventListener('click', () => {
         selectedDrugs = [];
         renderTags();
-        resultsDiv.innerHTML = '<div class="empty-state"><p>Add drugs and click the "Search" button</p></div>';
+        resultsDiv.innerHTML = '<div class="empty-state"><p>Legg til legemidler og klikk på «Søk etter reposisjoneringskandidater»</p></div>';
       });
 
       // Sample drug buttons
