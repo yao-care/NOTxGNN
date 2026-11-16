@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-15T07:37:39.807600+00:00",
+  "fetched_at": "2026-11-16T00:48:49.085750+00:00",
   "source": "Google News Health RSS",
   "count": 19,
   "articles": [
@@ -7,7 +7,7 @@
       "id": "3e5970eda74c",
       "title": "Teknisk feil gir reseptstans på apotekene - VG",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcEZNejBicDRzY3VrTFFYT28wODU1QVJPV3AxVG0xSDZuYXBIWFZESjNkM0JSMmo3ZUlyYXVoSURXZWtveUgybzU0S0oybHhGamFhNzJkcFRhd3MxZTRhSEpxaWpXc1VwWkp0a1ZXQ3libWdZRWtoYzdKbmdLdm1Ra0J2YkJZWnlNaVQtek9pS3pUQQ?oc=5",
-      "published": "2026-11-14T15:11:41+00:00",
+      "published": "2026-11-15T07:37:41+00:00",
       "source": {
         "name": "VG",
         "url": "https://www.vg.no"
@@ -134,16 +134,6 @@
       }
     },
     {
-      "id": "a305842cda9e",
-      "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZVRfS3c1TDkyNEFXWmVJUUFUX2Y0dXY0QzdJSTViUEJiYTlyODAtbEZnZkNYakFSTTRDWmtiNml0OU51SFVWNEZVU3lpNFZ0VWVFMVZsVVhqcWlDZ3QtNnhSRWFQVG1PMkZ1RGhheVI1bGtFN1VhbEVFY3hBXzNERW9meXU?oc=5",
-      "published": "2015-06-15T16:17:39+00:00",
-      "source": {
-        "name": "Regjeringen.no",
-        "url": "https://www.regjeringen.no"
-      }
-    },
-    {
       "id": "6ac22dd28a4b",
       "title": "Reagerer på anbefaling om bruk av legemidler - Rådet for psykisk helse",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WRk95djlWSWNKNjk2aDZjNWl0U3JoSHNneHppQ1B1bnJyUlZ6WXVVQ2JkZldvSm1GOGs3RE9VU0dVc1g1X3pqZUFOdzlpUWVFZ2tGWmZJT3RJbE92SWxWQVFTNFpJTnQ5cjBlVHA2Zm9qYzA?oc=5",
@@ -151,6 +141,16 @@
       "source": {
         "name": "Rådet for psykisk helse",
         "url": "https://psykiskhelse.no"
+      }
+    },
+    {
+      "id": "a305842cda9e",
+      "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZVRfS3c1TDkyNEFXWmVJUUFUX2Y0dXY0QzdJSTViUEJiYTlyODAtbEZnZkNYakFSTTRDWmtiNml0OU51SFVWNEZVU3lpNFZ0VWVFMVZsVVhqcWlDZ3QtNnhSRWFQVG1PMkZ1RGhheVI1bGtFN1VhbEVFY3hBXzNERW9meXU?oc=5",
+      "published": "2015-06-15T16:17:39+00:00",
+      "source": {
+        "name": "Regjeringen.no",
+        "url": "https://www.regjeringen.no"
       }
     },
     {

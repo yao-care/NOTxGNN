@@ -90,8 +90,8 @@ DrugBank, vises ikke på denne plattformen.
 
 <p class="key-answer" data-question="Hvilke legemidler godkjent i Norge har evidens fra kliniske studier for en ny indikasjon?">
 Legemidler der en ny indikasjon støttes av kliniske studier er samlet under
-<a href="{{ '/evidence-high/' | relative_url }}">høyt evidensnivå (L1/L2)</a>, der prediksjonen bygger på
-randomiserte kontrollerte fase 3-studier. Hele listen over vurderte legemidler finner du på
+<a href="{{ '/evidence-high/' | relative_url }}">høyt evidensnivå (L1/L2)</a>, der prediksjonen støttes av
+randomiserte studier, fase 2–3-studier eller systematiske oversikter. Hele listen over vurderte legemidler finner du på
 <a href="{{ '/drugs/' | relative_url }}">Alle legemidler</a>. Åpne NCT- og PMID-lenkene i den enkelte
 rapporten for å lese kildestudiene direkte.
 </p>
