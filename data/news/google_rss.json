@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-11-17T11:33:27.075491+00:00",
+  "fetched_at": "2026-11-17T20:34:38.348976+00:00",
   "source": "Google News Health RSS",
   "count": 23,
   "articles": [
+    {
+      "id": "7b3f5e7d0972",
+      "title": "Drangedøler bruker mye angstdempende medisiner – slik jobber kommunen med saken - Drangedalsposten",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONDNaZ1BlYUItaDJOSDU2QV82a1JvUFZCMkhrOWF1UENKRnBRbzZBdFgtUnlVSmxOaExMLWd3bDNJY191ZTBIbDdwNGtJWENzcW9BQ3NPMWZpUWo3SkY2Snl0OThMM3JoTm0zWlkwaVBTLTdRN3BMclVMZVNzS2tOWWpHek9jenZUeTJvTG8zVGtqNC1mMkI3bFNuWC1Kd1VISk9lRlA5NXFTLWVBS2ZoVldJeGxKbFdLOGlkT25rcko?oc=5",
+      "published": "2026-11-17T19:07:52+00:00",
+      "source": {
+        "name": "Drangedalsposten",
+        "url": "https://www.drangedalsposten.no"
+      }
+    },
     {
       "id": "ff3d6f1ac13e",
       "title": "Hadde ikke tid til å vurdere dyre medisiner: – Handler om liv og død - NRK",
@@ -41,16 +51,6 @@
       "source": {
         "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
-      }
-    },
-    {
-      "id": "c1393a9e8f8e",
-      "title": "Every Cure samarbeider med OpenEvidence for å fremme ikke-kommersielt gjenbruk av legemidler - Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQlA5TmFEb2hfN01RNjlzak1UcUVzaGJEQm1jWXR1WVhnU2FaVXFSdnltQkQwU1VkM3JHc3NCWS14dUpLRUY4R1R0MGdQOGlGc2R1X3h6azRLSFlvWXhfTUxhYXZpRVl4blVVcFpJMGVPV1JBVXIxd0tWQXNxYTZPVk0tdElrckN1a0UxdDRaVFhJYVlDay1nZjhDQQ?oc=5",
-      "published": "2026-11-16T19:21:02+00:00",
-      "source": {
-        "name": "Unite.AI",
-        "url": "https://www.unite.ai"
       }
     },
     {
