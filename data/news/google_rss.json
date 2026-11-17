@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-11-17T02:20:02.406233+00:00",
+  "fetched_at": "2026-11-17T11:33:27.075491+00:00",
   "source": "Google News Health RSS",
   "count": 23,
   "articles": [
     {
-      "id": "8dff371d7675",
-      "title": "Genterapi mot epilepsi - NHI.no",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBvdTlWTU1uUmNzVlZhaFlHbl9yVGwtc0hrTktaWEphNDVSaW1nZWV1YWk0UzVTVjA2NFVfOXlwSzFvdlgwelBqalNuM3B6T18tZ0dKYjRabmh5X0gzZEoxQ3JTektsUmNiY0RBNGI5WWh6RU9TeGJXbzRzN0k1QQ?oc=5",
-      "published": "2026-11-16T09:52:26+00:00",
+      "id": "ff3d6f1ac13e",
+      "title": "Hadde ikke tid til å vurdere dyre medisiner: – Handler om liv og død - NRK",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcVJuTm4ydzBVS0ZweFloN0RMY0RULXVKT1ZYY3V2TDAtSHh1ckdPNVpOLVl1Wk4xVXBoZlhDaE8ybG5rNTdORDcyTkNFXzZadGFUV05DNkNTdXhlSHlid1ByUlM5UngzRDlpZ2hzRlJDUmZuMzlpRkctRmRsUGlEYnZwcmpsdmhQVWJzbTd5amN0eVI5cThGWlZQQ0o5QmhhQUVF?oc=5",
+      "published": "2026-11-13T04:37:40+00:00",
       "source": {
-        "name": "NHI.no",
-        "url": "https://nhi.no"
+        "name": "NRK",
+        "url": "https://www.nrk.no"
       }
     },
     {
@@ -24,13 +24,13 @@
       }
     },
     {
-      "id": "c1393a9e8f8e",
-      "title": "Every Cure samarbeider med OpenEvidence for å fremme ikke-kommersielt gjenbruk av legemidler - Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQlA5TmFEb2hfN01RNjlzak1UcUVzaGJEQm1jWXR1WVhnU2FaVXFSdnltQkQwU1VkM3JHc3NCWS14dUpLRUY4R1R0MGdQOGlGc2R1X3h6azRLSFlvWXhfTUxhYXZpRVl4blVVcFpJMGVPV1JBVXIxd0tWQXNxYTZPVk0tdElrckN1a0UxdDRaVFhJYVlDay1nZjhDQQ?oc=5",
-      "published": "2026-11-16T19:21:02+00:00",
+      "id": "9b068a8f5bb9",
+      "title": "Genterapi mot epilepsi - NHI.no",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IQXV3b0dJOE9NT2hISzlBV2xoNGV1WURkVm53RTUwVVEzdF91bGRta2FVSjl4dkxGdmttSW9rbW1FRWExSWlVZkc2R0V5TUxnZ25GQjExVU5uVDgyWWJocmZRa0Fuc3ZMU09CV19IdkNTbHR1NGJocG5zcDI?oc=5",
+      "published": "2026-11-16T09:52:09+00:00",
       "source": {
-        "name": "Unite.AI",
-        "url": "https://www.unite.ai"
+        "name": "NHI.no",
+        "url": "https://nhi.no"
       }
     },
     {
@@ -41,6 +41,16 @@
       "source": {
         "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
+      }
+    },
+    {
+      "id": "c1393a9e8f8e",
+      "title": "Every Cure samarbeider med OpenEvidence for å fremme ikke-kommersielt gjenbruk av legemidler - Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQlA5TmFEb2hfN01RNjlzak1UcUVzaGJEQm1jWXR1WVhnU2FaVXFSdnltQkQwU1VkM3JHc3NCWS14dUpLRUY4R1R0MGdQOGlGc2R1X3h6azRLSFlvWXhfTUxhYXZpRVl4blVVcFpJMGVPV1JBVXIxd0tWQXNxYTZPVk0tdElrckN1a0UxdDRaVFhJYVlDay1nZjhDQQ?oc=5",
+      "published": "2026-11-16T19:21:02+00:00",
+      "source": {
+        "name": "Unite.AI",
+        "url": "https://www.unite.ai"
       }
     },
     {
@@ -104,16 +114,6 @@
       }
     },
     {
-      "id": "6bae80839252",
-      "title": "Er alternativ medisin nøkkelen til å oppnå globale helsemål? - FN-sambandet",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTVczVVJ2WXoyZTNjaTlPUUdDMWhhOTFCVHlEVkJFTzNlYVJJV3pnR1NtSXNjX1VlVk8wRGQtbEFxWFdENHlwN1RsN0tPb0xCX0VJMnB3VUNoNEdpcUtHMDNuVVJOWW5HMzZ5WFZtdWd3OC1iTGtqZ2xhbFp1UnNSMGc1LTRxRmFyT0NUbU9R?oc=5",
-      "published": "2023-08-18T07:00:00+00:00",
-      "source": {
-        "name": "FN-sambandet",
-        "url": "https://fn.no"
-      }
-    },
-    {
       "id": "9a816f56a278",
       "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - Rådet for psykisk helse",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjkwcGZUTVRwWk15Yms3VHNEOWNjaHAzank5d0xhc3VSSkViN2RBNDZGZDBXMTdIQ1ZIWGE1WC0ycjgwREpnNHFVNlRyRV9ia2VPX0lFdGhkaFQ1RDZqY2V5TzlQMXNxbXRpZGdKUGRneXFCQUVyaXRpNkFKaFFrWTJ5ZDBjeU9JSzJ0aXBQVGZyY3BxNFRONmtCdS1PVnZtRlFv?oc=5",
@@ -154,16 +154,6 @@
       }
     },
     {
-      "id": "c07d8fcf53fd",
-      "title": "Regenerativ medisin - Helse Bergen",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeW5uejlkOEFqRVRUSzNaMUNCZEh3eHhLTHBNTWtrUlE2QjVYTWg0bHh1TVBQM0RiU3kxcXBPem5JZ2FjTkNzWGRUcWFkRFlidlBsYzB4RjFIZFNha19EeXBxVlF4c3FfS3pWZHlZdkdyalhCSEtabHJicjgxNXZsbl9qYVhBZDdsalZwN19VQjN3NVFOR083Y0JVblZMVDdsSnBhcm9zbmRDdm43VDJzR1FybHM?oc=5",
-      "published": "2022-11-29T08:00:00+00:00",
-      "source": {
-        "name": "Helse Bergen",
-        "url": "https://www.helse-bergen.no"
-      }
-    },
-    {
       "id": "a305842cda9e",
       "title": "Meld. St. 28 (2014–2015) - Regjeringen.no",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZVRfS3c1TDkyNEFXWmVJUUFUX2Y0dXY0QzdJSTViUEJiYTlyODAtbEZnZkNYakFSTTRDWmtiNml0OU51SFVWNEZVU3lpNFZ0VWVFMVZsVVhqcWlDZ3QtNnhSRWFQVG1PMkZ1RGhheVI1bGtFN1VhbEVFY3hBXzNERW9meXU?oc=5",
@@ -194,6 +184,16 @@
       }
     },
     {
+      "id": "5a3c6e17b37a",
+      "title": "Innfører legemiddel til Stills sykdom og sJIA - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmx6MTZPbFRCMGU5c0ptUVlwdEM4UHp4Wl9EV2ppb1pQa0VPdV9RVjRWQ015dlNpVHZMblM0Wldndm9WWEFVelNSbFBUa0tDRnhES3JWbng0dXVSem1jZGsyQ0l2eGRiUkF1aTNwbW5HazI1cHZyOVZwUDhUNWc2aElyUW1VdU9RZkpJQUh1TW83YzNTRW5sQVVEaUw3RnJEcUdVOUYtVnN4Rkt5M2NDc3VrNEMtOEhsOUE?oc=5",
+      "published": "2019-02-26T08:00:00+00:00",
+      "source": {
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
+      }
+    },
+    {
       "id": "263bf9da95d7",
       "title": "Flere dør av en overdose sterke smertestillende medisiner - Folkehelseinstituttet - FHI",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQU1lYeDRvSUNCVC1FMU9VWWN6SUJ2Zmc4S2xwXzBkX0sxWDdibXF1dURJeXdCakFfejR2ZUV6TTVFdmYxaTZnaE9jRU4xT2VWRjlQLWVtUDVIdnI1anJEZG5XNlgxN0Q0MkFXZEdQVDVkY1NvemtJLURzcWdQN0Zrdjh1UmZmaUpxZzJuSmI0Qm5LT3hT?oc=5",
@@ -204,13 +204,13 @@
       }
     },
     {
-      "id": "5a3c6e17b37a",
-      "title": "Innfører legemiddel til Stills sykdom og sJIA - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmx6MTZPbFRCMGU5c0ptUVlwdEM4UHp4Wl9EV2ppb1pQa0VPdV9RVjRWQ015dlNpVHZMblM0Wldndm9WWEFVelNSbFBUa0tDRnhES3JWbng0dXVSem1jZGsyQ0l2eGRiUkF1aTNwbW5HazI1cHZyOVZwUDhUNWc2aElyUW1VdU9RZkpJQUh1TW83YzNTRW5sQVVEaUw3RnJEcUdVOUYtVnN4Rkt5M2NDc3VrNEMtOEhsOUE?oc=5",
-      "published": "2019-02-26T08:00:00+00:00",
+      "id": "157d6d6c599d",
+      "title": "Helse, WHO | WHO: Nær 40 millioner kan dø av resistens mot medisiner - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcU5VTWQtV0piQlJCTzNLb3JYZl9VdGtsMEZlLVd2eHA3akRXeDVFNmFqNmtUWGt0dGFQWGZQVUpwNUItU3dyby1VVXp1YUw4SUlCMGFkOHdRSjVqbEtpTFBncjFDWVgwQTF0N1RUNkhGZTJ3enZWMEVlWWJVZ2ljR0tqeEJfcFdCMXdTTFJtNlM3c081V0cwUUk5bi1fdEpVLWJnZGVn?oc=5",
+      "published": "2026-11-16T12:19:44+00:00",
       "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
       }
     },
     {
