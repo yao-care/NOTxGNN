@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-18T02:45:31.264844+00:00",
+  "fetched_at": "2026-11-18T11:16:22.167906+00:00",
   "source": "Google News Health RSS",
-  "count": 22,
+  "count": 21,
   "articles": [
     {
       "id": "7b3f5e7d0972",
@@ -114,6 +114,16 @@
       }
     },
     {
+      "id": "0420dec8e978",
+      "title": "12,3 millioner til forskning på legemiddelberedskap - UiO Det medisinske fakultet",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSGlnakF2RXZHcXhsTTg5dEwzLWk2SUlGQ2ZrSXFEQUU3X1VXcnRnanllc0lJcUcxbUJSMGVXUHVJeXExWmo2TWxkRDhOWlotS0NVTXNZSS02ZVdTQUx1eEVFNUZkQTJBSE50UjlmWXp6RnBGQzdsd0lsby1jd21xZG1XR0U2ZWlmQlNseV9KQUxMdGtTWkZYN09tYw?oc=5",
+      "published": "2025-12-04T08:00:00+00:00",
+      "source": {
+        "name": "UiO Det medisinske fakultet",
+        "url": "https://www.med.uio.no"
+      }
+    },
+    {
       "id": "b6d3158c73bb",
       "title": "DNB Health Care | Fond | Sparing fra A til Å - DNB",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqNE8zNmN4eWVkRUF1dUp6ZXo3TFZDU2JXMS1nb0NpblJWc0VaNjJZQ1R2Q1dGOUtMZlJsVGc1aTVvSS1nTGJkc0JDM080bWJvYktCUmplekhHbUk?oc=5",
@@ -131,16 +141,6 @@
       "source": {
         "name": "Dagens Medisin",
         "url": "https://www.dagensmedisin.no"
-      }
-    },
-    {
-      "id": "157d6d6c599d",
-      "title": "Helse, WHO | WHO: Nær 40 millioner kan dø av resistens mot medisiner - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcU5VTWQtV0piQlJCTzNLb3JYZl9VdGtsMEZlLVd2eHA3akRXeDVFNmFqNmtUWGt0dGFQWGZQVUpwNUItU3dyby1VVXp1YUw4SUlCMGFkOHdRSjVqbEtpTFBncjFDWVgwQTF0N1RUNkhGZTJ3enZWMEVlWWJVZ2ljR0tqeEJfcFdCMXdTTFJtNlM3c081V0cwUUk5bi1fdEpVLWJnZGVn?oc=5",
-      "published": "2026-11-16T12:19:44+00:00",
-      "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
       }
     },
     {
@@ -201,16 +201,6 @@
       "source": {
         "name": "Folkehelseinstituttet - FHI",
         "url": "https://www.fhi.no"
-      }
-    },
-    {
-      "id": "ca05349cb595",
-      "title": "Medisinstudentene svinger seg rundt i ny musikkvideo: – Gi meg jobb etter studiet! - Bergensavisen",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRnVrbm5oanl0WUhuc3V1b1dBcWZwTXg4c3dqZ0tLaWJtaEEyVnEzWG9fYlNrWlk0UnRvZjRuejF0SHFlMFJGNDVpNElrQnBEbFliWGhqV0d6NkxQRk5XUFhtWlJoZFRlODZwYXp4aXNFbld2WXk5dEVNNEJRMWhsYjc5NnpMRnBRbWVYTWQ0M3NLeWVDYU4tOVcySnlKcm1WMjA5NUF0eWYzamtZZTdPVmdOQmlfbnlFdi1WcGw0V1E0YmN6eDh3ZVBiazFYaU9DU1E?oc=5",
-      "published": "2026-11-11T08:03:01+00:00",
-      "source": {
-        "name": "Bergensavisen",
-        "url": "https://www.ba.no"
       }
     },
     {
