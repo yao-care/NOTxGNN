@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-17T20:34:38.348976+00:00",
+  "fetched_at": "2026-11-18T02:45:31.264844+00:00",
   "source": "Google News Health RSS",
-  "count": 23,
+  "count": 22,
   "articles": [
     {
       "id": "7b3f5e7d0972",
@@ -11,16 +11,6 @@
       "source": {
         "name": "Drangedalsposten",
         "url": "https://www.drangedalsposten.no"
-      }
-    },
-    {
-      "id": "ff3d6f1ac13e",
-      "title": "Hadde ikke tid til å vurdere dyre medisiner: – Handler om liv og død - NRK",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcVJuTm4ydzBVS0ZweFloN0RMY0RULXVKT1ZYY3V2TDAtSHh1ckdPNVpOLVl1Wk4xVXBoZlhDaE8ybG5rNTdORDcyTkNFXzZadGFUV05DNkNTdXhlSHlid1ByUlM5UngzRDlpZ2hzRlJDUmZuMzlpRkctRmRsUGlEYnZwcmpsdmhQVWJzbTd5amN0eVI5cThGWlZQQ0o5QmhhQUVF?oc=5",
-      "published": "2026-11-13T04:37:40+00:00",
-      "source": {
-        "name": "NRK",
-        "url": "https://www.nrk.no"
       }
     },
     {
@@ -144,6 +134,16 @@
       }
     },
     {
+      "id": "157d6d6c599d",
+      "title": "Helse, WHO | WHO: Nær 40 millioner kan dø av resistens mot medisiner - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcU5VTWQtV0piQlJCTzNLb3JYZl9VdGtsMEZlLVd2eHA3akRXeDVFNmFqNmtUWGt0dGFQWGZQVUpwNUItU3dyby1VVXp1YUw4SUlCMGFkOHdRSjVqbEtpTFBncjFDWVgwQTF0N1RUNkhGZTJ3enZWMEVlWWJVZ2ljR0tqeEJfcFdCMXdTTFJtNlM3c081V0cwUUk5bi1fdEpVLWJnZGVn?oc=5",
+      "published": "2026-11-16T12:19:44+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
+      }
+    },
+    {
       "id": "6ac22dd28a4b",
       "title": "Reagerer på anbefaling om bruk av legemidler - Rådet for psykisk helse",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WRk95djlWSWNKNjk2aDZjNWl0U3JoSHNneHppQ1B1bnJyUlZ6WXVVQ2JkZldvSm1GOGs3RE9VU0dVc1g1X3pqZUFOdzlpUWVFZ2tGWmZJT3RJbE92SWxWQVFTNFpJTnQ5cjBlVHA2Zm9qYzA?oc=5",
@@ -201,16 +201,6 @@
       "source": {
         "name": "Folkehelseinstituttet - FHI",
         "url": "https://www.fhi.no"
-      }
-    },
-    {
-      "id": "157d6d6c599d",
-      "title": "Helse, WHO | WHO: Nær 40 millioner kan dø av resistens mot medisiner - Nettavisen",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcU5VTWQtV0piQlJCTzNLb3JYZl9VdGtsMEZlLVd2eHA3akRXeDVFNmFqNmtUWGt0dGFQWGZQVUpwNUItU3dyby1VVXp1YUw4SUlCMGFkOHdRSjVqbEtpTFBncjFDWVgwQTF0N1RUNkhGZTJ3enZWMEVlWWJVZ2ljR0tqeEJfcFdCMXdTTFJtNlM3c081V0cwUUk5bi1fdEpVLWJnZGVn?oc=5",
-      "published": "2026-11-16T12:19:44+00:00",
-      "source": {
-        "name": "Nettavisen",
-        "url": "https://www.nettavisen.no"
       }
     },
     {
