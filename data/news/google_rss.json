@@ -1,26 +1,16 @@
 {
-  "fetched_at": "2026-11-18T20:06:57.519399+00:00",
+  "fetched_at": "2026-11-19T02:20:26.688607+00:00",
   "source": "Google News Health RSS",
   "count": 21,
   "articles": [
     {
-      "id": "7b3f5e7d0972",
-      "title": "Drangedøler bruker mye angstdempende medisiner – slik jobber kommunen med saken - Drangedalsposten",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONDNaZ1BlYUItaDJOSDU2QV82a1JvUFZCMkhrOWF1UENKRnBRbzZBdFgtUnlVSmxOaExMLWd3bDNJY191ZTBIbDdwNGtJWENzcW9BQ3NPMWZpUWo3SkY2Snl0OThMM3JoTm0zWlkwaVBTLTdRN3BMclVMZVNzS2tOWWpHek9jenZUeTJvTG8zVGtqNC1mMkI3bFNuWC1Kd1VISk9lRlA5NXFTLWVBS2ZoVldJeGxKbFdLOGlkT25rcko?oc=5",
-      "published": "2026-11-17T19:07:52+00:00",
+      "id": "ad4ec93fa73e",
+      "title": "Medisinen er mye brukt mot depresjon hos barn, men det er den ikke godkjent for - Forskning.no",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRkZzczlLdW5MWHZXc0Vwbk9DbzZoSFZKT2xZRVdXeFU3LWtsV0lZVmxRbnpORlkzbXU0Q3JqSU5SLU5uYWFqaERBd3lVQ254R0VDdl9QeGxId1cyMHdmUExnckNhVHV1X2ZHNC1JTFQ3TDB4TC12VHA0NmM2X1R3S3VNZTBYaVhIZ3huOVpVamdRUjNsM2RDRjZuTVlFWWR0M1p0UmVJRXJKT0pxSkQ4MVo4czNGSmZOYk82NHVRcGQ2LWlZa3AxV1pWN3BjQ1dsRUxMaFZBX1BIdzFB?oc=5",
+      "published": "2026-11-18T23:06:36+00:00",
       "source": {
-        "name": "Drangedalsposten",
-        "url": "https://www.drangedalsposten.no"
-      }
-    },
-    {
-      "id": "ff3d6f1ac13e",
-      "title": "Hadde ikke tid til å vurdere dyre medisiner: – Handler om liv og død - NRK",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcVJuTm4ydzBVS0ZweFloN0RMY0RULXVKT1ZYY3V2TDAtSHh1ckdPNVpOLVl1Wk4xVXBoZlhDaE8ybG5rNTdORDcyTkNFXzZadGFUV05DNkNTdXhlSHlid1ByUlM5UngzRDlpZ2hzRlJDUmZuMzlpRkctRmRsUGlEYnZwcmpsdmhQVWJzbTd5amN0eVI5cThGWlZQQ0o5QmhhQUVF?oc=5",
-      "published": "2026-11-13T04:37:40+00:00",
-      "source": {
-        "name": "NRK",
-        "url": "https://www.nrk.no"
+        "name": "Forskning.no",
+        "url": "https://www.forskning.no"
       }
     },
     {
@@ -31,6 +21,16 @@
       "source": {
         "name": "Helse Bergen",
         "url": "https://www.helse-bergen.no"
+      }
+    },
+    {
+      "id": "fc279845f09b",
+      "title": "IND-søknaden for Harbour BioMeds KI-utviklede antistoff mot fedme, LET003, er godtatt - Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT1JlcmwtaXRoLUhPRUpjNXdvajgySEpwY2N5c2dNTEcwbTZEdjJfVXU1VVFfZW9LdWltaDNPcVg1RUJWMmVmQ2x2Xzg5alRiVzF3ZkRCUnZ0LVpEYkdsdWxpd0J1a3JmakxUQ3JqaVNCRXYwaENQYzdRWk9lZkdiVkhidWJyRFAwN3ZGWnQtdlp0OHpYWmIw?oc=5",
+      "published": "2026-11-19T00:26:08+00:00",
+      "source": {
+        "name": "Unite.AI",
+        "url": "https://www.unite.ai"
       }
     },
     {
@@ -134,6 +134,16 @@
       }
     },
     {
+      "id": "157d6d6c599d",
+      "title": "Helse, WHO | WHO: Nær 40 millioner kan dø av resistens mot medisiner - Nettavisen",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcU5VTWQtV0piQlJCTzNLb3JYZl9VdGtsMEZlLVd2eHA3akRXeDVFNmFqNmtUWGt0dGFQWGZQVUpwNUItU3dyby1VVXp1YUw4SUlCMGFkOHdRSjVqbEtpTFBncjFDWVgwQTF0N1RUNkhGZTJ3enZWMEVlWWJVZ2ljR0tqeEJfcFdCMXdTTFJtNlM3c081V0cwUUk5bi1fdEpVLWJnZGVn?oc=5",
+      "published": "2026-11-16T12:19:44+00:00",
+      "source": {
+        "name": "Nettavisen",
+        "url": "https://www.nettavisen.no"
+      }
+    },
+    {
       "id": "ca05349cb595",
       "title": "Medisinstudentene svinger seg rundt i ny musikkvideo: – Gi meg jobb etter studiet! - Bergensavisen",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRnVrbm5oanl0WUhuc3V1b1dBcWZwTXg4c3dqZ0tLaWJtaEEyVnEzWG9fYlNrWlk0UnRvZjRuejF0SHFlMFJGNDVpNElrQnBEbFliWGhqV0d6NkxQRk5XUFhtWlJoZFRlODZwYXp4aXNFbld2WXk5dEVNNEJRMWhsYjc5NnpMRnBRbWVYTWQ0M3NLeWVDYU4tOVcySnlKcm1WMjA5NUF0eWYzamtZZTdPVmdOQmlfbnlFdi1WcGw0V1E0YmN6eDh3ZVBiazFYaU9DU1E?oc=5",
@@ -154,13 +164,13 @@
       }
     },
     {
-      "id": "c07d8fcf53fd",
-      "title": "Regenerativ medisin - Helse Bergen",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeW5uejlkOEFqRVRUSzNaMUNCZEh3eHhLTHBNTWtrUlE2QjVYTWg0bHh1TVBQM0RiU3kxcXBPem5JZ2FjTkNzWGRUcWFkRFlidlBsYzB4RjFIZFNha19EeXBxVlF4c3FfS3pWZHlZdkdyalhCSEtabHJicjgxNXZsbl9qYVhBZDdsalZwN19VQjN3NVFOR083Y0JVblZMVDdsSnBhcm9zbmRDdm43VDJzR1FybHM?oc=5",
-      "published": "2022-11-29T08:00:00+00:00",
+      "id": "1f8ee124566a",
+      "title": "Ja til nytt legemiddel mot atopisk eksem - NTB Kommunikasjon",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWEdfMmRHSWhnUnRBOU5GeURCbUowQnNYZUpKZkJRRi1aSnp1X1VrX2R2NWJ2dHMzalFXcEhGU1k5aG9DMmEwUWxfY2VMc0FUS09VUGliaHhoYWZuNmNKWGxEeUcxSkdaYXRRaXpzZFlLczlNZFFTaEhManJac2dsS1JRLXNKMXFzLWFKeGtCX21PMzFvRXZwdnNBZXZ3UGk4b05YakU1c3FDd2Z6dDl6bVEycw?oc=5",
+      "published": "2020-02-24T08:00:00+00:00",
       "source": {
-        "name": "Helse Bergen",
-        "url": "https://www.helse-bergen.no"
+        "name": "NTB Kommunikasjon",
+        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
@@ -171,16 +181,6 @@
       "source": {
         "name": "Regjeringen.no",
         "url": "https://www.regjeringen.no"
-      }
-    },
-    {
-      "id": "1f8ee124566a",
-      "title": "Ja til nytt legemiddel mot atopisk eksem - NTB Kommunikasjon",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWEdfMmRHSWhnUnRBOU5GeURCbUowQnNYZUpKZkJRRi1aSnp1X1VrX2R2NWJ2dHMzalFXcEhGU1k5aG9DMmEwUWxfY2VMc0FUS09VUGliaHhoYWZuNmNKWGxEeUcxSkdaYXRRaXpzZFlLczlNZFFTaEhManJac2dsS1JRLXNKMXFzLWFKeGtCX21PMzFvRXZwdnNBZXZ3UGk4b05YakU1c3FDd2Z6dDl6bVEycw?oc=5",
-      "published": "2020-02-24T08:00:00+00:00",
-      "source": {
-        "name": "NTB Kommunikasjon",
-        "url": "https://kommunikasjon.ntb.no"
       }
     },
     {
