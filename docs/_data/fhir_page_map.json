@@ -87,6 +87,7 @@
     "db00134": {
       "page": "methionine",
       "sources": [
+        "BrTxGNN",
         "CaTxGNN",
         "HkTxGNN",
         "UkTxGNN",
@@ -363,6 +364,7 @@
       "page": "indacaterol",
       "sources": [
         "AuTxGNN",
+        "COTxGNN",
         "CaTxGNN",
         "HkTxGNN",
         "ZaTxGNN"
@@ -558,6 +560,7 @@
       "page": "palbociclib",
       "sources": [
         "AuTxGNN",
+        "BrTxGNN",
         "CaTxGNN",
         "DkTxGNN",
         "HkTxGNN"
