@@ -1,0 +1,448 @@
+{
+ "_about": "本檔由 scripts/local_facts.py 產生（母目錄 .claude/local_facts_lib.py），勿手改；cross 欄位由母目錄 .claude/gen_local_pages_20261119.py 更新",
+ "drugs_total": 444,
+ "level_counts": {
+  "L1": 7,
+  "L2": 19,
+  "L3": 14,
+  "L4": 24,
+  "L5": 368
+ },
+ "level_na": 12,
+ "public_pages": 444,
+ "licence_snapshot": "no_licenses.json.gz",
+ "licence": {
+  "drugs_with_data": 443,
+  "drugs_with_current": 438,
+  "drugs_none_current": 5,
+  "drugs_without_data": 1,
+  "drugs_partial": 0,
+  "items_total": 964,
+  "items_current": 943
+ },
+ "reviews": {
+  "records": 217,
+  "pages": 150,
+  "public_pages_with_records": 149,
+  "by_action": {
+   "correct": 217
+  }
+ },
+ "fhir": {
+  "medication_knowledge": 444,
+  "clinical_use_definition": 2574
+ },
+ "top_licensed": [
+  {
+   "t": "Metformin",
+   "u": "/drugs/metformin/",
+   "l": "L5",
+   "lt": 19,
+   "lv": 19,
+   "r": 0,
+   "i": "Fokal stiv-lem-syndrom"
+  },
+  {
+   "t": "Emtricitabine",
+   "u": "/drugs/emtricitabine/",
+   "l": "L5",
+   "lt": 18,
+   "lv": 18,
+   "r": 0,
+   "i": "Felint ervervet immunsviktsyndrom"
+  },
+  {
+   "t": "Clopidogrel",
+   "u": "/drugs/clopidogrel/",
+   "l": "L5",
+   "lt": 16,
+   "lv": 16,
+   "r": 0,
+   "i": "migraine with brainstem aura"
+  },
+  {
+   "t": "Aflibercept",
+   "u": "/drugs/aflibercept/",
+   "l": "L5",
+   "lt": 14,
+   "lv": 14,
+   "r": 0,
+   "i": "Esotropi"
+  },
+  {
+   "t": "Tenofovir Disoproxil",
+   "u": "/drugs/tenofovir-disoproxil/",
+   "l": "L4",
+   "lt": 14,
+   "lv": 14,
+   "r": 0,
+   "i": "Simian immunsviktvirus-infeksjon"
+  },
+  {
+   "t": "Ustekinumab",
+   "u": "/drugs/ustekinumab/",
+   "l": "L2",
+   "lt": 13,
+   "lv": 12,
+   "r": 0,
+   "i": "Dermatitt"
+  },
+  {
+   "t": "Adalimumab",
+   "u": "/drugs/adalimumab/",
+   "l": "L5",
+   "lt": 11,
+   "lv": 11,
+   "r": 0,
+   "i": "Hypermobilitet i halebenet"
+  },
+  {
+   "t": "Pegfilgrastim",
+   "u": "/drugs/pegfilgrastim/",
+   "l": "L5",
+   "lt": 11,
+   "lv": 11,
+   "r": 0,
+   "i": "severe nonproliferative diabetic retinopathy"
+  }
+ ],
+ "no_current": [
+  {
+   "t": "Bezlotoxumab",
+   "u": "/drugs/bezlotoxumab/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "Akutt kvinnelig bekkenperitonitt"
+  },
+  {
+   "t": "Duvelisib",
+   "u": "/drugs/duvelisib/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "Hodgkins lymfom"
+  },
+  {
+   "t": "Lusutrombopag",
+   "u": "/drugs/lusutrombopag/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "arvelig trombocytopeni med normale blodplater"
+  },
+  {
+   "t": "Parathyroid Hormone",
+   "u": "/drugs/parathyroid-hormone/",
+   "l": "L4",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": "Migrene"
+  },
+  {
+   "t": "Reteplase",
+   "u": "/drugs/reteplase/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": "congenital coronary artery anomaly"
+  }
+ ],
+ "no_current_more": 0,
+ "most_reviewed": [
+  {
+   "t": "Panitumumab",
+   "u": "/drugs/panitumumab/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 1,
+   "r": 4,
+   "i": "drug-induced osteoporosis"
+  },
+  {
+   "t": "Asfotase Alfa",
+   "u": "/drugs/asfotase-alfa/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 1,
+   "r": 3,
+   "i": "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"
+  },
+  {
+   "t": "Eptifibatide",
+   "u": "/drugs/eptifibatide/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 1,
+   "r": 3,
+   "i": "rheumatoid arthritis"
+  },
+  {
+   "t": "Inclisiran",
+   "u": "/drugs/inclisiran/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 1,
+   "r": 3,
+   "i": "Kaliummangelsykdom"
+  },
+  {
+   "t": "Pitolisant",
+   "u": "/drugs/pitolisant/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 2,
+   "r": 3,
+   "i": "insomnia (disease)"
+  },
+  {
+   "t": "Raloxifene",
+   "u": "/drugs/raloxifene/",
+   "l": "L5",
+   "lt": 3,
+   "lv": 2,
+   "r": 3,
+   "i": "duodenal ulcer (disease)"
+  }
+ ],
+ "example": {
+  "t": "Tacrolimus",
+  "u": "/drugs/tacrolimus/",
+  "l": "L1",
+  "lt": 5,
+  "lv": 5,
+  "r": 0,
+  "i": "Seboreisk dermatitt"
+ },
+ "recent_reviews": [
+  {
+   "t": "Vismodegib",
+   "u": "/drugs/vismodegib/",
+   "s": "Tabell: Erivedge (EMEA/H/C/002602) er godkjent, ikke avregistrert",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Raloxifene",
+   "u": "/drugs/raloxifene/",
+   "s": "Tabell: Optruma (EMEA/H/C/000185) er trukket tilbake, ikke godkjent",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Parathyroid Hormone",
+   "u": "/drugs/parathyroid-hormone/",
+   "s": "Tabell: Natpar (EMEA/H/C/003861) er trukket tilbake, ikke godkjent",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Panitumumab",
+   "u": "/drugs/panitumumab/",
+   "s": "Tabell: Vectibix (EMEA/H/C/000741) er godkjent, ikke trukket tilbake",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Ipilimumab",
+   "u": "/drugs/ipilimumab/",
+   "s": "Tabell: Yervoy (EMEA/H/C/002213) er godkjent, ikke avregistrert",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Imiglucerase",
+   "u": "/drugs/imiglucerase/",
+   "s": "Tabell: Cerezyme (EMEA/H/C/000157) er godkjent, ikke tilbakekalt",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Verteporfin",
+   "u": "/drugs/verteporfin/",
+   "s": "Fjernet: «Avklaring av regulatorisk status, siden Visudyne-godkjenningen er opphørt»",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Tobramycin",
+   "u": "/drugs/tobramycin/",
+   "s": "Fjernet: «Begge norske godkjenninger er avsluttet»",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Tasimelteon",
+   "u": "/drugs/tasimelteon/",
+   "s": "Fjernet: «Avklaring av dagens markedsstatus i Norge, siden den eneste godkjenningen er opphørt»",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Roxadustat",
+   "u": "/drugs/roxadustat/",
+   "s": "Fjernet: «Avklaring av markedsstatus og tilgjengelighet i Norge, siden eneste autorisasjon er trukket»",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Ranibizumab",
+   "u": "/drugs/ranibizumab/",
+   "s": "Fjernet: «Avklare regulatorisk status i Norge, siden alle godkjenninger er opphørt»",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Cetrorelix",
+   "u": "/drugs/cetrorelix/",
+   "s": "Fjernet: «og legemidlets markedsstatus i Norge er «kun trukket tilbake»»",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Buprenorphine",
+   "u": "/drugs/buprenorphine/",
+   "s": "Fjernet: «med 4 gyldige markedsføringstillatelser av 4»",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Zidovudine",
+   "u": "/drugs/zidovudine/",
+   "s": "Fjernet: «De to registrerte tillatelsene er trukket tilbake»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Ziconotide",
+   "u": "/drugs/ziconotide/",
+   "s": "Fjernet: «siden eneste tillatelse er avregistrert»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Zanubrutinib",
+   "u": "/drugs/zanubrutinib/",
+   "s": "Fjernet: «siden eksisterende autorisasjon er opphevet»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Voxilaprevir",
+   "u": "/drugs/voxilaprevir/",
+   "s": "Fjernet: «siden eneste tillatelse er avregistrert»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Vortioxetine",
+   "u": "/drugs/vortioxetine/",
+   "s": "Fjernet: «siden den eneste tillatelsen er avregistrert»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Vildagliptin",
+   "u": "/drugs/vildagliptin/",
+   "s": "Fjernet: «Alle 7 registrerte tillatelser er sentrale EU-tillatelser (EMEA) som er trukket tilbake»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Vestronidase Alfa",
+   "u": "/drugs/vestronidase-alfa/",
+   "s": "Fjernet: «siden godkjenningen er avregistrert»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Valsartan",
+   "u": "/drugs/valsartan/",
+   "s": "Fjernet: «I tillegg er alle norske/europeiske godkjenninger opphevet, og v»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Upadacitinib",
+   "u": "/drugs/upadacitinib/",
+   "s": "Fjernet: «I tillegg er den eneste norske godkjenningen avregistrert»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Tyrosine",
+   "u": "/drugs/tyrosine/",
+   "s": "Fjernet: «Tillatelsen er avregistrert»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Turoctocog Alfa",
+   "u": "/drugs/turoctocog-alfa/",
+   "s": "Fjernet: «og produktet er i tillegg ikke lenger markedsført i Norge»",
+   "d": "2026-11-06"
+  }
+ ],
+ "recent_licence_reviews": [
+  {
+   "t": "Vismodegib",
+   "u": "/drugs/vismodegib/",
+   "s": "Tabell: Erivedge (EMEA/H/C/002602) er godkjent, ikke avregistrert",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Raloxifene",
+   "u": "/drugs/raloxifene/",
+   "s": "Tabell: Optruma (EMEA/H/C/000185) er trukket tilbake, ikke godkjent",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Parathyroid Hormone",
+   "u": "/drugs/parathyroid-hormone/",
+   "s": "Tabell: Natpar (EMEA/H/C/003861) er trukket tilbake, ikke godkjent",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Panitumumab",
+   "u": "/drugs/panitumumab/",
+   "s": "Tabell: Vectibix (EMEA/H/C/000741) er godkjent, ikke trukket tilbake",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Ipilimumab",
+   "u": "/drugs/ipilimumab/",
+   "s": "Tabell: Yervoy (EMEA/H/C/002213) er godkjent, ikke avregistrert",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Imiglucerase",
+   "u": "/drugs/imiglucerase/",
+   "s": "Tabell: Cerezyme (EMEA/H/C/000157) er godkjent, ikke tilbakekalt",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Verteporfin",
+   "u": "/drugs/verteporfin/",
+   "s": "Fjernet: «Avklaring av regulatorisk status, siden Visudyne-godkjenningen er opphørt»",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Tobramycin",
+   "u": "/drugs/tobramycin/",
+   "s": "Fjernet: «Begge norske godkjenninger er avsluttet»",
+   "d": "2026-11-12"
+  }
+ ],
+ "files": {
+  "search_index": 444,
+  "drugs_json": 444
+ },
+ "by_level": {
+  "L1": {
+   "n": 7,
+   "current": 7
+  },
+  "L2": {
+   "n": 19,
+   "current": 19
+  },
+  "L3": {
+   "n": 14,
+   "current": 14
+  },
+  "L4": {
+   "n": 24,
+   "current": 23
+  },
+  "L5": {
+   "n": 368,
+   "current": 364
+  }
+ },
+ "cross": {
+  "unique_pairs": 0,
+  "unique_examples": []
+ }
+}

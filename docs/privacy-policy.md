@@ -48,12 +48,32 @@ til ClinicalTrials.gov.
 
 ---
 
-## Den registrertes rettigheter
+<!-- privacy-law:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改；法規與連結見 .claude/privacy_text_20261119.py）-->
+## Gjeldende lovgivning
 
-Dette nettstedet har ingen kontoer og lagrer ingen personopplysninger på egne servere (det har ingen).
-Bruksstatistikken samles inn av Google Analytics 4; du kan blokkere eller slette informasjonskapslene i
-nettleserinnstillingene.
-Har du spørsmål om denne erklæringen, kontakt service@yao.care.
+For besøkende i Norge gjelder [personopplysningsloven](https://lovdata.no/dokument/NL/lov/2018-06-15-38), som gjør personvernforordningen (GDPR) til norsk lov gjennom EØS-avtalen; for informasjonskapsler gjelder i tillegg ekomloven. Tilsynsmyndighet er [Datatilsynet](https://www.datatilsynet.no/). Den behandlingsansvarlige holder til i Taiwan; behandlingen gjelder bruksdataene Google Analytics 4 samler inn via informasjonskapsler.
+
+## Dine rettigheter og hvordan du bruker dem
+
+- Rett til innsyn (artikkel 15) og retting (artikkel 16).
+- Rett til sletting (artikkel 17) og begrensning (artikkel 18).
+- Rett til å protestere (artikkel 21), også mot webanalyse.
+- Rett til å klage til Datatilsynet (artikkel 77).
+
+Henvendelser: service@yao.care. Siden nettstedet ikke har kontoer, kan vi bare håndtere data hos Google Analytics hvis du gir oss nok opplysninger (f.eks. dato og sider for besøket); du kan også blokkere eller slette analysecookies i nettleseren.
+
+## Opphavsrett og datakilder
+
+Nettstedets tekster er vernet etter [åndsverkloven](https://lovdata.no/dokument/NL/lov/2018-06-15-40). Nettstedets kode er publisert under MIT-lisensen i [GitHub-repositoriet](https://github.com/yao-care/NOTxGNN); rapporttekstene er © 藥提醒科技有限公司 (yao.care).
+
+Datakilder på dette nettstedet og vilkårene deres:
+
+- **TxGNN**-prediksjonsdata (Harvard Dataverse): CC0 1.0 (frigitt til allmennheten); siter Huang et al., *Nature Medicine* 2024.
+- **ClinicalTrials.gov** og **PubMed**: US National Library of Medicine; se [vilkårene for ClinicalTrials.gov](https://clinicaltrials.gov/about-site/terms-conditions) og [NCBIs retningslinjer](https://www.ncbi.nlm.nih.gov/home/about/policies/) (noen PubMed-sammendrag er fortsatt vernet av forlagets opphavsrett).
+- **DrugBank**-ID-er og -data: etter [DrugBank](https://go.drugbank.com/)s lisensvilkår (ikke-kommersiell bruk).
+- **Lokalt datasett**: [EMA Medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx), publisert av Det europeiske legemiddelkontoret (EMA); gjenbruk følger utgiverens vilkår, og dette nettstedet gir ingen ytterligere rettigheter.
+
+<!-- privacy-law:end -->
 
 ---
 

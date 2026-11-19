@@ -14,25 +14,19 @@ Sjekk evidensnivået først, deretter anbefalingen, og les så kildelitteraturen
 
 ---
 
-<!-- site-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
-## Norge: data bak dette nettstedet
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## Norge: et eksempel fra dette nettstedet
 
-Dette nettstedet publiserer rapporter om **{{ site.data.drug_stats.total_drugs }}** legemidler med sentral markedsføringstillatelse i EU fra [EMA Medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) (gjelder også i Norge).
+En rapport på dette nettstedet leses i tre trinn: evidensnivå, lokale markedsdata, kontrollogg.
 
-Datasett: [EMA Medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); lastes ned og sammenlignes automatisk hver uke (mandager). Detaljer: [Datakilder]({{ '/sources/' | relative_url }}).
+{% assign gx = site.data.local_facts.example %}
+{% if gx %}Åpne [{{ gx.t }}]({{ gx.u | relative_url }}): toppen viser evidensnivå **{{ gx.l }}**; viktigste predikerte nye indikasjon er **{{ gx.i }}**; de lokale dataene har **{{ gx.lt }}** sentrale EU-godkjenninger (EMA), hvorav **{{ gx.lv }}** gyldige; sidens kontrollogg har **{{ gx.r }}** oppføringer.{% endif %}
 
-Rapporter etter evidensnivå:
+{% if site.data.local_facts.most_reviewed.size > 0 %}Legemidler med flest oppføringer i kontrolloggen: {% for r in site.data.local_facts.most_reviewed %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.r }}){% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
 
-| Evidensnivå | Rapporter | Andel |
-|---|---|---|
-| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+{% if site.data.local_facts.recent_reviews.size > 0 %}Siste rettelser i kontrolloggen: {% for r in site.data.local_facts.recent_reviews limit: 8 offset: 8 %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.d }}): {{ r.s }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% endif %}
 
-<!-- site-data:end -->
+<!-- local-facts:end -->
 
 ## Slå opp et legemiddel
 

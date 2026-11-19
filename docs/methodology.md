@@ -14,6 +14,23 @@ Fra KI-prediksjon til evidensgradering — hver kandidat har et sporbart grunnla
 
 ---
 
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## Norge: slik brukes metoden på dette nettstedet
+
+Lokale data: [EMA Medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx). De lokale dataene er sentrale markedsføringstillatelser i EU fra EMA Medicines report, som også gjelder i Norge. Nasjonale markedsføringstillatelser (DMP) finnes ikke i disse dataene.
+
+| Nivå | Rapporter | …med gyldige lokal oppføring |
+|---|---|---|
+| L1 | {{ site.data.local_facts.by_level.L1.n }} | {{ site.data.local_facts.by_level.L1.current }} |
+| L2 | {{ site.data.local_facts.by_level.L2.n }} | {{ site.data.local_facts.by_level.L2.current }} |
+| L3 | {{ site.data.local_facts.by_level.L3.n }} | {{ site.data.local_facts.by_level.L3.current }} |
+| L4 | {{ site.data.local_facts.by_level.L4.n }} | {{ site.data.local_facts.by_level.L4.current }} |
+| L5 | {{ site.data.local_facts.by_level.L5.n }} | {{ site.data.local_facts.by_level.L5.current }} |
+
+Kontrolloggen har **{{ site.data.local_facts.reviews.records }}** oppføringer på **{{ site.data.local_facts.reviews.public_pages_with_records }}** legemiddelsider; rettelser endrer bare godkjenningsopplysninger, aldri modellens prediksjoner.
+
+<!-- local-facts:end -->
+
 ## Samlet arbeidsflyt
 
 <p class="key-answer" data-question="Hvordan utarbeider NOTxGNN sine prediksjoner?">
