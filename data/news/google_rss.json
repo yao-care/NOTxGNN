@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-11-19T11:15:10.852384+00:00",
+  "fetched_at": "2026-11-19T20:07:16.324612+00:00",
   "source": "Google News Health RSS",
-  "count": 21,
+  "count": 19,
   "articles": [
+    {
+      "id": "ad4ec93fa73e",
+      "title": "Medisinen er mye brukt mot depresjon hos barn, men det er den ikke godkjent for - Forskning.no",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRkZzczlLdW5MWHZXc0Vwbk9DbzZoSFZKT2xZRVdXeFU3LWtsV0lZVmxRbnpORlkzbXU0Q3JqSU5SLU5uYWFqaERBd3lVQ254R0VDdl9QeGxId1cyMHdmUExnckNhVHV1X2ZHNC1JTFQ3TDB4TC12VHA0NmM2X1R3S3VNZTBYaVhIZ3huOVpVamdRUjNsM2RDRjZuTVlFWWR0M1p0UmVJRXJKT0pxSkQ4MVo4czNGSmZOYk82NHVRcGQ2LWlZa3AxV1pWN3BjQ1dsRUxMaFZBX1BIdzFB?oc=5",
+      "published": "2026-11-18T23:06:36+00:00",
+      "source": {
+        "name": "Forskning.no",
+        "url": "https://www.forskning.no"
+      }
+    },
     {
       "id": "7b3f5e7d0972",
       "title": "Drangedøler bruker mye angstdempende medisiner – slik jobber kommunen med saken - Drangedalsposten",
@@ -24,16 +34,6 @@
       }
     },
     {
-      "id": "ff3d6f1ac13e",
-      "title": "Hadde ikke tid til å vurdere dyre medisiner: – Handler om liv og død - NRK",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcVJuTm4ydzBVS0ZweFloN0RMY0RULXVKT1ZYY3V2TDAtSHh1ckdPNVpOLVl1Wk4xVXBoZlhDaE8ybG5rNTdORDcyTkNFXzZadGFUV05DNkNTdXhlSHlid1ByUlM5UngzRDlpZ2hzRlJDUmZuMzlpRkctRmRsUGlEYnZwcmpsdmhQVWJzbTd5amN0eVI5cThGWlZQQ0o5QmhhQUVF?oc=5",
-      "published": "2026-11-13T04:37:40+00:00",
-      "source": {
-        "name": "NRK",
-        "url": "https://www.nrk.no"
-      }
-    },
-    {
       "id": "4f989bd3393b",
       "title": "Nedgang i bruk av vanedannande legemiddel hos eldre - Helsedirektoratet",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUTVvZ21Kd3VQOUhyWFhjX1BMcU1fSUtQcGdocGk5X3B6bFNsLU81SzBtRkZMaDVhT0U4aXhIai1sOUpMU2tKQTJCSDB5UUdJbjVaa2hRMXg0RGxXUTdrWGVPcDJveVdiOVlRT3duV2t0NkdZejB0TlBYTjlLT1VZaERqQXBac09tRU5PMnZVVUpRTXdxdWJR?oc=5",
@@ -41,16 +41,6 @@
       "source": {
         "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
-      }
-    },
-    {
-      "id": "fc279845f09b",
-      "title": "IND-søknaden for Harbour BioMeds KI-utviklede antistoff mot fedme, LET003, er godtatt - Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT1JlcmwtaXRoLUhPRUpjNXdvajgySEpwY2N5c2dNTEcwbTZEdjJfVXU1VVFfZW9LdWltaDNPcVg1RUJWMmVmQ2x2Xzg5alRiVzF3ZkRCUnZ0LVpEYkdsdWxpd0J1a3JmakxUQ3JqaVNCRXYwaENQYzdRWk9lZkdiVkhidWJyRFAwN3ZGWnQtdlp0OHpYWmIw?oc=5",
-      "published": "2026-11-19T00:26:08+00:00",
-      "source": {
-        "name": "Unite.AI",
-        "url": "https://www.unite.ai"
       }
     },
     {
@@ -191,16 +181,6 @@
       "source": {
         "name": "Regjeringen.no",
         "url": "https://www.regjeringen.no"
-      }
-    },
-    {
-      "id": "263bf9da95d7",
-      "title": "Flere dør av en overdose sterke smertestillende medisiner - Folkehelseinstituttet - FHI",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQU1lYeDRvSUNCVC1FMU9VWWN6SUJ2Zmc4S2xwXzBkX0sxWDdibXF1dURJeXdCakFfejR2ZUV6TTVFdmYxaTZnaE9jRU4xT2VWRjlQLWVtUDVIdnI1anJEZG5XNlgxN0Q0MkFXZEdQVDVkY1NvemtJLURzcWdQN0Zrdjh1UmZmaUpxZzJuSmI0Qm5LT3hT?oc=5",
-      "published": "2022-10-25T07:00:00+00:00",
-      "source": {
-        "name": "Folkehelseinstituttet - FHI",
-        "url": "https://www.fhi.no"
       }
     },
     {
