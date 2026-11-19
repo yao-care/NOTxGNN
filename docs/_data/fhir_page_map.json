@@ -364,7 +364,6 @@
       "page": "indacaterol",
       "sources": [
         "AuTxGNN",
-        "COTxGNN",
         "CaTxGNN",
         "HkTxGNN",
         "ZaTxGNN"

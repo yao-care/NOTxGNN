@@ -8,6 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-28
 description: "Remimazolam: predikert ny indikasjon Insomni (evidensnivå L5). Opprinnelig indikasjon: Prosedyresedasjon (conscious sedation)"
 monitor_inn: "remimazolam"
+drugbank_id: DB12404
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
 ---
 
