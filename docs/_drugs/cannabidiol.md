@@ -5,7 +5,7 @@ layout: default
 title: Cannabidiol
 parent: Kun kjente bruksområder (ingen nye prediksjoner)
 nav_order: 82
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-07
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A

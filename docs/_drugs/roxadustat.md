@@ -5,7 +5,7 @@ parent: Kun modellprediksjon (L5)
 nav_order: 370
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Roxadustat: predikert ny indikasjon Tørrøyesyndrom (dry eye syndrome) (evidensnivå L5). Opprinnelig indikasjon: Anemi"
 monitor_inn: "ROXADUSTAT"
 predicted_indications: ["dry eye syndrome", "bone Paget disease", "dentinogenesis imperfecta", "squamous cell carcinoma"]
