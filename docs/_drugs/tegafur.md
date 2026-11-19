@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-03
 monitor_inn: "TEGAFUR"
 predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "colonic lymphangioma", "cavernous hemangioma of colon"]
-description: "Tegafur: predikert ny indikasjon Villøst adenom i blindtarmen (cecum villous adenoma) (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene"
+description: "Tegafur: predikert ny indikasjon Villøst adenom i blindtarmen (cecum villous adenoma) (evidensnivå L5). Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)"
 ---
 
 # Tegafur

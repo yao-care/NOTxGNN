@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "CYTARABINE"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
 last_modified_at: 2026-11-04
-description: "Cytarabine: predikert ny indikasjon Småcellet lungekarsinom (small cell lung carcinoma) (evidensnivå L3). Opprinnelig indikasjon: Ikke registrert i de lokale dataene"
+description: "Cytarabine: predikert ny indikasjon Småcellet lungekarsinom (small cell lung carcinoma) (evidensnivå L3). Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)"
 ---
 
 # Cytarabine

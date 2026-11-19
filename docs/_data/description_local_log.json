@@ -1,0 +1,151 @@
+{
+  "_note": "藥物頁 front matter description 句尾「原適應症：本地資料未記載」換成本站許可證快照事實層品項數的紀錄（母目錄 .claude/drug_meta_description.py --apply，2026-11-19 起）。pages＝目前產生的句尾（tail）與被換掉的原字樣（original）；entries＝每次改動的前後整行（from／to，可還原：把第一筆的 from 寫回該頁 description）。",
+  "pages": {
+    "acetylsalicylic_acid": {
+      "tail": "Sentrale EU-godkjenninger (EMA): 3 (gyldige: 3)",
+      "original": "Opprinnelig indikasjon: Ikke registrert i de lokale dataene",
+      "date": "2026-11-19"
+    },
+    "cytarabine": {
+      "tail": "Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)",
+      "original": "Opprinnelig indikasjon: Ikke registrert i de lokale dataene",
+      "date": "2026-11-19"
+    },
+    "elbasvir": {
+      "tail": "Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)",
+      "original": "Opprinnelig indikasjon: Ikke registrert i de lokale dataene",
+      "date": "2026-11-19"
+    },
+    "gimeracil": {
+      "tail": "Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)",
+      "original": "Opprinnelig indikasjon: Ikke registrert i de lokale dataene",
+      "date": "2026-11-19"
+    },
+    "glecaprevir": {
+      "tail": "Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)",
+      "original": "Opprinnelig indikasjon: Ikke registrert i de lokale dataene",
+      "date": "2026-11-19"
+    },
+    "grazoprevir": {
+      "tail": "Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)",
+      "original": "Opprinnelig indikasjon: Ikke registrert i de lokale dataene",
+      "date": "2026-11-19"
+    },
+    "meropenem": {
+      "tail": "Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)",
+      "original": "Opprinnelig indikasjon: Ikke registrert i de lokale dataene",
+      "date": "2026-11-19"
+    },
+    "oteracil": {
+      "tail": "Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)",
+      "original": "Opprinnelig indikasjon: Ikke registrert i de lokale dataene",
+      "date": "2026-11-19"
+    },
+    "sacubitril": {
+      "tail": "Sentrale EU-godkjenninger (EMA): 2 (gyldige: 2)",
+      "original": "Opprinnelig indikasjon: Ikke registrert i de lokale dataene",
+      "date": "2026-11-19"
+    },
+    "salmeterol": {
+      "tail": "Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)",
+      "original": "Opprinnelig indikasjon: Ikke registrert i de lokale dataene",
+      "date": "2026-11-19"
+    },
+    "tegafur": {
+      "tail": "Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)",
+      "original": "Opprinnelig indikasjon: Ikke registrert i de lokale dataene",
+      "date": "2026-11-19"
+    },
+    "tipiracil": {
+      "tail": "Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)",
+      "original": "Opprinnelig indikasjon: Ikke registrert i de lokale dataene",
+      "date": "2026-11-19"
+    }
+  },
+  "entries": [
+    {
+      "page": "docs/_drugs/acetylsalicylic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Acetylsalicylic Acid: predikert ny indikasjon Atrofoderma vermiculata (atrophoderma vermiculata) (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene\"",
+      "to": "\"Acetylsalicylic Acid: predikert ny indikasjon Atrofoderma vermiculata (atrophoderma vermiculata) (evidensnivå L5). Sentrale EU-godkjenninger (EMA): 3 (gyldige: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cytarabine.md",
+      "date": "2026-11-19",
+      "from": "\"Cytarabine: predikert ny indikasjon Småcellet lungekarsinom (small cell lung carcinoma) (evidensnivå L3). Opprinnelig indikasjon: Ikke registrert i de lokale dataene\"",
+      "to": "\"Cytarabine: predikert ny indikasjon Småcellet lungekarsinom (small cell lung carcinoma) (evidensnivå L3). Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/elbasvir.md",
+      "date": "2026-11-19",
+      "from": "\"Elbasvir: predikert ny indikasjon Hepatitt B-virusinfeksjon (hepatitis B virus infection) (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene\"",
+      "to": "\"Elbasvir: predikert ny indikasjon Hepatitt B-virusinfeksjon (hepatitis B virus infection) (evidensnivå L5). Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/gimeracil.md",
+      "date": "2026-11-19",
+      "from": "\"Gimeracil: predikert ny indikasjon Villøst adenom i cøkum (cecum villous adenoma) (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene\"",
+      "to": "\"Gimeracil: predikert ny indikasjon Villøst adenom i cøkum (cecum villous adenoma) (evidensnivå L5). Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/glecaprevir.md",
+      "date": "2026-11-19",
+      "from": "\"Glecaprevir: predikert ny indikasjon HIV-infeksjon (HIV infectious disease) (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene\"",
+      "to": "\"Glecaprevir: predikert ny indikasjon HIV-infeksjon (HIV infectious disease) (evidensnivå L5). Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/grazoprevir.md",
+      "date": "2026-11-19",
+      "from": "\"Grazoprevir: predikert ny indikasjon HIV-infeksjon (HIV infectious disease) (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene\"",
+      "to": "\"Grazoprevir: predikert ny indikasjon HIV-infeksjon (HIV infectious disease) (evidensnivå L5). Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/meropenem.md",
+      "date": "2026-11-19",
+      "from": "\"Meropenem: predikert ny indikasjon Bakteriell artritt (bacterial arthritis) (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene\"",
+      "to": "\"Meropenem: predikert ny indikasjon Bakteriell artritt (bacterial arthritis) (evidensnivå L5). Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/oteracil.md",
+      "date": "2026-11-19",
+      "from": "\"Oteracil: predikert ny indikasjon Cøkal villøst adenom (cecum villous adenoma) (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene\"",
+      "to": "\"Oteracil: predikert ny indikasjon Cøkal villøst adenom (cecum villous adenoma) (evidensnivå L5). Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sacubitril.md",
+      "date": "2026-11-19",
+      "from": "\"Sacubitril: predikert ny indikasjon Brain small vessel disease 1 with or without ocular anomalies (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene\"",
+      "to": "\"Sacubitril: predikert ny indikasjon Brain small vessel disease 1 with or without ocular anomalies (evidensnivå L5). Sentrale EU-godkjenninger (EMA): 2 (gyldige: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/salmeterol.md",
+      "date": "2026-11-19",
+      "from": "\"Salmeterol: predikert ny indikasjon Luftveismisdannelse (respiratory malformation) (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene\"",
+      "to": "\"Salmeterol: predikert ny indikasjon Luftveismisdannelse (respiratory malformation) (evidensnivå L5). Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tegafur.md",
+      "date": "2026-11-19",
+      "from": "\"Tegafur: predikert ny indikasjon Villøst adenom i blindtarmen (cecum villous adenoma) (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene\"",
+      "to": "\"Tegafur: predikert ny indikasjon Villøst adenom i blindtarmen (cecum villous adenoma) (evidensnivå L5). Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tipiracil.md",
+      "date": "2026-11-19",
+      "from": "\"Tipiracil: predikert ny indikasjon Cecum villøst adenom (cecum villous adenoma) (evidensnivå L5). Opprinnelig indikasjon: Ikke registrert i de lokale dataene\"",
+      "to": "\"Tipiracil: predikert ny indikasjon Cecum villøst adenom (cecum villous adenoma) (evidensnivå L5). Sentrale EU-godkjenninger (EMA): 1 (gyldige: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    }
+  ]
+}
