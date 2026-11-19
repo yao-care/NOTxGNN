@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-11-19T02:20:26.688607+00:00",
+  "fetched_at": "2026-11-19T11:15:10.852384+00:00",
   "source": "Google News Health RSS",
   "count": 21,
   "articles": [
     {
-      "id": "ad4ec93fa73e",
-      "title": "Medisinen er mye brukt mot depresjon hos barn, men det er den ikke godkjent for - Forskning.no",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRkZzczlLdW5MWHZXc0Vwbk9DbzZoSFZKT2xZRVdXeFU3LWtsV0lZVmxRbnpORlkzbXU0Q3JqSU5SLU5uYWFqaERBd3lVQ254R0VDdl9QeGxId1cyMHdmUExnckNhVHV1X2ZHNC1JTFQ3TDB4TC12VHA0NmM2X1R3S3VNZTBYaVhIZ3huOVpVamdRUjNsM2RDRjZuTVlFWWR0M1p0UmVJRXJKT0pxSkQ4MVo4czNGSmZOYk82NHVRcGQ2LWlZa3AxV1pWN3BjQ1dsRUxMaFZBX1BIdzFB?oc=5",
-      "published": "2026-11-18T23:06:36+00:00",
+      "id": "7b3f5e7d0972",
+      "title": "Drangedøler bruker mye angstdempende medisiner – slik jobber kommunen med saken - Drangedalsposten",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONDNaZ1BlYUItaDJOSDU2QV82a1JvUFZCMkhrOWF1UENKRnBRbzZBdFgtUnlVSmxOaExMLWd3bDNJY191ZTBIbDdwNGtJWENzcW9BQ3NPMWZpUWo3SkY2Snl0OThMM3JoTm0zWlkwaVBTLTdRN3BMclVMZVNzS2tOWWpHek9jenZUeTJvTG8zVGtqNC1mMkI3bFNuWC1Kd1VISk9lRlA5NXFTLWVBS2ZoVldJeGxKbFdLOGlkT25rcko?oc=5",
+      "published": "2026-11-17T19:07:52+00:00",
       "source": {
-        "name": "Forskning.no",
-        "url": "https://www.forskning.no"
+        "name": "Drangedalsposten",
+        "url": "https://www.drangedalsposten.no"
       }
     },
     {
@@ -24,23 +24,13 @@
       }
     },
     {
-      "id": "fc279845f09b",
-      "title": "IND-søknaden for Harbour BioMeds KI-utviklede antistoff mot fedme, LET003, er godtatt - Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT1JlcmwtaXRoLUhPRUpjNXdvajgySEpwY2N5c2dNTEcwbTZEdjJfVXU1VVFfZW9LdWltaDNPcVg1RUJWMmVmQ2x2Xzg5alRiVzF3ZkRCUnZ0LVpEYkdsdWxpd0J1a3JmakxUQ3JqaVNCRXYwaENQYzdRWk9lZkdiVkhidWJyRFAwN3ZGWnQtdlp0OHpYWmIw?oc=5",
-      "published": "2026-11-19T00:26:08+00:00",
+      "id": "ff3d6f1ac13e",
+      "title": "Hadde ikke tid til å vurdere dyre medisiner: – Handler om liv og død - NRK",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcVJuTm4ydzBVS0ZweFloN0RMY0RULXVKT1ZYY3V2TDAtSHh1ckdPNVpOLVl1Wk4xVXBoZlhDaE8ybG5rNTdORDcyTkNFXzZadGFUV05DNkNTdXhlSHlid1ByUlM5UngzRDlpZ2hzRlJDUmZuMzlpRkctRmRsUGlEYnZwcmpsdmhQVWJzbTd5amN0eVI5cThGWlZQQ0o5QmhhQUVF?oc=5",
+      "published": "2026-11-13T04:37:40+00:00",
       "source": {
-        "name": "Unite.AI",
-        "url": "https://www.unite.ai"
-      }
-    },
-    {
-      "id": "9b068a8f5bb9",
-      "title": "Genterapi mot epilepsi - NHI.no",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IQXV3b0dJOE9NT2hISzlBV2xoNGV1WURkVm53RTUwVVEzdF91bGRta2FVSjl4dkxGdmttSW9rbW1FRWExSWlVZkc2R0V5TUxnZ25GQjExVU5uVDgyWWJocmZRa0Fuc3ZMU09CV19IdkNTbHR1NGJocG5zcDI?oc=5",
-      "published": "2026-11-16T09:52:09+00:00",
-      "source": {
-        "name": "NHI.no",
-        "url": "https://nhi.no"
+        "name": "NRK",
+        "url": "https://www.nrk.no"
       }
     },
     {
@@ -51,6 +41,16 @@
       "source": {
         "name": "Helsedirektoratet",
         "url": "https://www.helsedirektoratet.no"
+      }
+    },
+    {
+      "id": "fc279845f09b",
+      "title": "IND-søknaden for Harbour BioMeds KI-utviklede antistoff mot fedme, LET003, er godtatt - Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT1JlcmwtaXRoLUhPRUpjNXdvajgySEpwY2N5c2dNTEcwbTZEdjJfVXU1VVFfZW9LdWltaDNPcVg1RUJWMmVmQ2x2Xzg5alRiVzF3ZkRCUnZ0LVpEYkdsdWxpd0J1a3JmakxUQ3JqaVNCRXYwaENQYzdRWk9lZkdiVkhidWJyRFAwN3ZGWnQtdlp0OHpYWmIw?oc=5",
+      "published": "2026-11-19T00:26:08+00:00",
+      "source": {
+        "name": "Unite.AI",
+        "url": "https://www.unite.ai"
       }
     },
     {
@@ -104,6 +104,16 @@
       }
     },
     {
+      "id": "6bae80839252",
+      "title": "Er alternativ medisin nøkkelen til å oppnå globale helsemål? - FN-sambandet",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTVczVVJ2WXoyZTNjaTlPUUdDMWhhOTFCVHlEVkJFTzNlYVJJV3pnR1NtSXNjX1VlVk8wRGQtbEFxWFdENHlwN1RsN0tPb0xCX0VJMnB3VUNoNEdpcUtHMDNuVVJOWW5HMzZ5WFZtdWd3OC1iTGtqZ2xhbFp1UnNSMGc1LTRxRmFyT0NUbU9R?oc=5",
+      "published": "2023-08-18T07:00:00+00:00",
+      "source": {
+        "name": "FN-sambandet",
+        "url": "https://fn.no"
+      }
+    },
+    {
       "id": "9a816f56a278",
       "title": "– En pille med samme helsegevinst som trening, ville vært verdens mest solgte legemiddel - Rådet for psykisk helse",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjkwcGZUTVRwWk15Yms3VHNEOWNjaHAzank5d0xhc3VSSkViN2RBNDZGZDBXMTdIQ1ZIWGE1WC0ycjgwREpnNHFVNlRyRV9ia2VPX0lFdGhkaFQ1RDZqY2V5TzlQMXNxbXRpZGdKUGRneXFCQUVyaXRpNkFKaFFrWTJ5ZDBjeU9JSzJ0aXBQVGZyY3BxNFRONmtCdS1PVnZtRlFv?oc=5",
@@ -144,16 +154,6 @@
       }
     },
     {
-      "id": "ca05349cb595",
-      "title": "Medisinstudentene svinger seg rundt i ny musikkvideo: – Gi meg jobb etter studiet! - Bergensavisen",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRnVrbm5oanl0WUhuc3V1b1dBcWZwTXg4c3dqZ0tLaWJtaEEyVnEzWG9fYlNrWlk0UnRvZjRuejF0SHFlMFJGNDVpNElrQnBEbFliWGhqV0d6NkxQRk5XUFhtWlJoZFRlODZwYXp4aXNFbld2WXk5dEVNNEJRMWhsYjc5NnpMRnBRbWVYTWQ0M3NLeWVDYU4tOVcySnlKcm1WMjA5NUF0eWYzamtZZTdPVmdOQmlfbnlFdi1WcGw0V1E0YmN6eDh3ZVBiazFYaU9DU1E?oc=5",
-      "published": "2026-11-11T08:03:01+00:00",
-      "source": {
-        "name": "Bergensavisen",
-        "url": "https://www.ba.no"
-      }
-    },
-    {
       "id": "6ac22dd28a4b",
       "title": "Reagerer på anbefaling om bruk av legemidler - Rådet for psykisk helse",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WRk95djlWSWNKNjk2aDZjNWl0U3JoSHNneHppQ1B1bnJyUlZ6WXVVQ2JkZldvSm1GOGs3RE9VU0dVc1g1X3pqZUFOdzlpUWVFZ2tGWmZJT3RJbE92SWxWQVFTNFpJTnQ5cjBlVHA2Zm9qYzA?oc=5",
@@ -161,6 +161,16 @@
       "source": {
         "name": "Rådet for psykisk helse",
         "url": "https://psykiskhelse.no"
+      }
+    },
+    {
+      "id": "d5b00741f05f",
+      "title": "Farmasøyter kan bidra til bedre pasientoppfølging i sykehjem og til å sikre riktig bruk av legemidler - Folkehelseinstituttet - FHI",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdDl0M3pSbzZOTlBjLVNBUk5WRVJxUU5GU1kwLVFLS3pLd1QzZ2pseFJPMkNqTDFXR2Z2cllDcGRqb0xPY3o1cUhnbl9BeDhDcXlYdTVzLXZwYWM1TU9YMFZ0MXgzakkzMU5KeTVpc0lvQm90VzFaOGhVQzdYV1k5ZzczSTVkQ0s0Ul9WalJsVUd3eHNZY09jemIwMDFYLVpwQTJfNWF3QU4tZGFsNE00ZEIxZmlUNjE5X0RqcllXWE4yQ0EzTjlJSFZEYw?oc=5",
+      "published": "2025-08-14T07:00:00+00:00",
+      "source": {
+        "name": "Folkehelseinstituttet - FHI",
+        "url": "https://www.fhi.no"
       }
     },
     {
@@ -184,10 +194,10 @@
       }
     },
     {
-      "id": "d5b00741f05f",
-      "title": "Farmasøyter kan bidra til bedre pasientoppfølging i sykehjem og til å sikre riktig bruk av legemidler - Folkehelseinstituttet - FHI",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdDl0M3pSbzZOTlBjLVNBUk5WRVJxUU5GU1kwLVFLS3pLd1QzZ2pseFJPMkNqTDFXR2Z2cllDcGRqb0xPY3o1cUhnbl9BeDhDcXlYdTVzLXZwYWM1TU9YMFZ0MXgzakkzMU5KeTVpc0lvQm90VzFaOGhVQzdYV1k5ZzczSTVkQ0s0Ul9WalJsVUd3eHNZY09jemIwMDFYLVpwQTJfNWF3QU4tZGFsNE00ZEIxZmlUNjE5X0RqcllXWE4yQ0EzTjlJSFZEYw?oc=5",
-      "published": "2025-08-14T07:00:00+00:00",
+      "id": "263bf9da95d7",
+      "title": "Flere dør av en overdose sterke smertestillende medisiner - Folkehelseinstituttet - FHI",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQU1lYeDRvSUNCVC1FMU9VWWN6SUJ2Zmc4S2xwXzBkX0sxWDdibXF1dURJeXdCakFfejR2ZUV6TTVFdmYxaTZnaE9jRU4xT2VWRjlQLWVtUDVIdnI1anJEZG5XNlgxN0Q0MkFXZEdQVDVkY1NvemtJLURzcWdQN0Zrdjh1UmZmaUpxZzJuSmI0Qm5LT3hT?oc=5",
+      "published": "2022-10-25T07:00:00+00:00",
       "source": {
         "name": "Folkehelseinstituttet - FHI",
         "url": "https://www.fhi.no"
@@ -201,16 +211,6 @@
       "source": {
         "name": "NTB Kommunikasjon",
         "url": "https://kommunikasjon.ntb.no"
-      }
-    },
-    {
-      "id": "23b37b0c3d4b",
-      "title": "Helse, legemiddel | – Jeg ville ikke at andre skulle ha det livet jeg har hatt - Gjengangeren",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR09SUVN5aTVHdEJYOVVhTXNGWmpKblhQYmtTUjNVWnc5bFlZQ25rM1hRdWpYcV9hQ3U5NmVuaWVnYkpKVnd0bndfUl96eld5RXpJMnNhekk2LWdDdURHRDdJdnBMUkxLNUs0blR3OXB5ZHNZQlBjZHFrbThya0l5cjFXUVBRSVNMVFZZMTBVTFM0SWQwOTlNZVI2NVZPcExoR2dMbUgwMWNuQzdybW5yaGxOWkduMFFVVFhKZ01oWnBfTjBZ?oc=5",
-      "published": "2017-03-08T08:00:00+00:00",
-      "source": {
-        "name": "Gjengangeren",
-        "url": "https://www.gjengangeren.no"
       }
     }
   ]
